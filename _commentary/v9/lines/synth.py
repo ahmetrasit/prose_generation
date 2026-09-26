@@ -40,7 +40,7 @@ def split(text: str, sa: str) -> dict[str, str]:
     return SP.outputs(text, sa)
 
 
-W10 = REPO / "_commentary" / "v10" / "prompts" / "write.md"
+W10 = V9 / "prompts" / "write_v10.md"  # frozen copy of _commentary/v10/prompts/write.md (md5 dddcd1b2…), used by every w10 run
 
 
 def run_w10(ref: str, arm: str) -> None:

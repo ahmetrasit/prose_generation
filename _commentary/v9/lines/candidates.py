@@ -59,7 +59,7 @@ def build(ref: str) -> None:
     src = P.Sources()
     s, a = (int(x) for x in ref.split(":"))
     sa = f"{s}_{a}"
-    bundle = json.loads((P.PG / "bundles" / f"s{s:03d}" / f"{sa}.ayah.json").read_text(encoding="utf-8"))
+    bundle = P.load_bundle(P.PG / "bundles" / f"s{s:03d}" / f"{sa}.ayah.json", s, int(a))
     out = V9 / "lines" / "work" / sa
     out.mkdir(parents=True, exist_ok=True)
     words = src.words(ref)

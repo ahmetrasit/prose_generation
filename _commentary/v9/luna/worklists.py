@@ -180,6 +180,7 @@ def main() -> None:
             ("W3_global", pack(global_units(pkg)))]
     index = []
     for stem, files in plan:
+        files = [f for f in files if f]  # e.g. no HFT for an ayah without a bundle
         for k, items in enumerate(files, 1):
             name = f"{stem}_{k}.md" if len(files) > 1 else f"{stem}.md"
             head = [f"# {name} — {len(items)} items: {items[0][0]} … {items[-1][0]}", ""]

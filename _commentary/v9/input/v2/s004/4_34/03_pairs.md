@@ -1,0 +1,1745 @@
+# Branch-image pairs (global network, gateway roots; top by distinct partner root)
+
+For every branch of every focus root: partners in the same ayah (top 3), within ±7 ayat (top 3), and elsewhere in the surah (top 2). A pair is a candidate only; judge whether it opens a reading.
+
+Pairs listed: 1480.
+## ر ج ل (ٱلرِّجَالُ)
+
+- **B001** bacak uzvu / الرِّجل العضو
+  - same: ق و م B019 bir beden bölümünün kişiye ağrı vermesi / وجع قائم بالعضو ← 4:34 قَوَّٰمُونَ
+  - same: خ و ف B005 korkunun kişide dışa vurması / ظهور الخوف على الإنسان ← 4:34 تَخَافُونَ
+  - same: ك ب ر B006 ululuk ve kendini üstün görme / العظمة والكبرياء ← 4:34 كَبِيرًا
+  - near: ع ظ م B003 uzvun belirli kalın kesimi / مستغلظ العضو ← 4:40 عَظِيمًا
+  - near: م ن ي B002 meni / المَنِيّ الذي تقدّر منه الخلقة ← 4:32 تَتَمَنَّوْا۟
+  - near: خ ف ف B006 deve ayağı ucu veya kapalı ayak giysisi / الخُفّ والقدم الملبوسة ← 4:28 يُخَفِّفَ
+  - far: ق د م B001 ayak / القدم التي يطأ بها ← 4:62 قَدَّمَتْ
+  - far: ع ظ م B003 uzvun belirli kalın kesimi / مستغلظ العضو ← 4:48 عَظِيمًا
+- **B002** erkek insan / الرجل الذكر
+  - same: ع ل و B011 bedensel halden kurtulup esenleşme / السلامة من النفاس أو العلة ← 4:34 عَلِيًّا
+  - same: ن ش ز B007 yaşla eksilmeyen güç ve iri sertlik / الغلظ وثبات القوة ← 4:34 نُشُوزَهُنَّ
+  - same: ف ض ل B005 giysiyi omuzlara dolayarak kuşanma veya evde tek giysiyle bulunma / التوشح بالثوب ← 4:34 فَضَّلَ
+  - near: ن ف س B014 sağlam, cömert ve onurlu yaradılış / قوة النفس وخلقها ← 4:29 أَنفُسَكُمْ
+  - near: خ ل ق B012 kapalı üreme yolu / انسداد مصمت كالصخرة ← 4:28 وَخُلِقَ
+  - near: س و ء B004 örtülmesi gereken cinsel bölge / السوأة المستورة ← 4:31 سَيِّـَٔاتِكُمْ
+  - far: ذ ك ر B001 erkek cinsiyet ve erkek yavru doğurma / الذكر خلاف الأنثى ← 4:11 لِلذَّكَرِ
+  - far: ء ن ث B001 disi olma / الأنثى خلاف الذكر ← 4:11 ٱلْأُنثَيَيْنِ
+- **B003** yaya giden kişi / المشي على الأرجل
+  - same: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 4:34 قَوَّٰمُونَ
+  - same: ن ش ز B007 yaşla eksilmeyen güç ve iri sertlik / الغلظ وثبات القوة ← 4:34 نُشُوزَهُنَّ
+  - same: س ب ل B002 yol kullanan kişi veya yolcu / أهل الطريق وسالكوه ← 4:34 سَبِيلًا
+  - near: ض ع ف B004 bineği zayıf adam / ضعف دابة الرجل ← 4:28 ضَعِيفًا
+  - near: ك ل ل B001 körelip güçten düşme / الكَلال وخلاف الحدة ← 4:33 وَلِكُلٍّ
+  - near: خ ي ل B003 kendini üstün görerek böbürlenme ve bunu gösterişli yürüyüşle dışa vurma / الخيلاء في المشية ← 4:36 مُخْتَالًا
+  - far: د ر ج B001 yol boyunca ilerleme / المشي والمضي في الطريق ← 4:95 دَرَجَةً
+  - far: ه ل ك B003 salınarak ve kırıtılarak yürüme / تكسّر التهالك في المشي والغنج ← 4:176 هَلَكَ
+- **B004** birinin devrinde / زمان الرجل
+  - same: ك و ن B005 gençliğini anan yaşlı kişi / الشيخ المنسوب إلى كُنْتُ ← 4:34 كَانَ
+  - same: ض ر ب B008 benzer ve denk karşılık / المثل والنظير ← 4:34 وَٱضْرِبُوهُنَّ
+  - same: ق و م B006 bir yerde kalma ve kalınan yer / مقام وإقامة في موضع ← 4:34 قَوَّٰمُونَ
+  - near: ي و م B002 herhangi bir zaman dilimi; bağlama göre devir / مدة من الزمان ← 4:38 بِٱلْيَوْمِ
+  - near: ء ت ي B013 etkili ve işini yürüten adam / نَفاذ الرجل ← 4:33 فَـَٔاتُوهُمْ
+  - near: ء م م B008 bir süre, zaman dilimi / الأمة حينا وزمانا ← 4:41 أُمَّةٍۭ
+  - far: ع د د B005 belirli zaman ve bilinen aralıklarla geri gelme / عداد الوقت ومعاودته ← 4:93 وَأَعَدَّ
+  - far: ق ب ل B003 birinin tarafından veya nezdinde / جهة الشيء وعنده ← 4:26 قَبْلِكُمْ
+- **B005** bir bacağı beyaz hayvan / بياض رجل الدابة
+  - same: ه ج ر B007 hayvanın ayaklarını bağlayan ip / الربط بالهجار ← 4:34 وَٱهْجُرُوهُنَّ
+  - same: ك ب ر B004 yaşlanma ve zamanla eskime / كبر السن والقدم ← 4:34 كَبِيرًا
+  - same: ب غ ي B007 atın koşarken çalımlı ve neşeli davranması / اختيال الفرس ومرحه في العدو ← 4:34 تَبْغُوا۟
+  - near: ج ن ب B012 atın bacaklarında doğuştan ölçülü açıklık / التجنيب تباعد في هيئة القوائم ← 4:36 ٱلْجُنُبِ
+  - near: خ ي ل B002 atlar topluluğu ve bağlama göre bu topluluğun atlıları / الخيل والأفراس ← 4:36 مُخْتَالًا
+  - near: ق ر ن B008 uzuvları veya hareketleri eşleşen binek / أعضاء أو حركات تقارن بعضها ← 4:38 قَرِينًا
+  - far: ن ب ط B004 hayvanda ön bacak altından karın ve göğse yayılabilen aklık / بياض تحت الإبط والبطن ← 4:83 يَسْتَنۢبِطُونَهُۥ
+  - far: ج ن ب B012 atın bacaklarında doğuştan ölçülü açıklık / التجنيب تباعد في هيئة القوائم ← 4:43 جُنُبًا
+- **B006** büyük çekirge sürüsü / الرَّجْل من الجراد
+  - same: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 4:34 قَوَّٰمُونَ
+  - same: ض ج ع B006 kenarda otlayan deve veya kalabalık koyun sürüsü / البهيمة اللازمة ناحية ترعى والقطيع الكثير ← 4:34 ٱلْمَضَاجِعِ
+  - same: ع ل و B010 uzun ve iri yapılı / الطول والضخامة ← 4:34 عَلِيًّا
+  - near: ء م م B004 ortak bağla birleşen topluluk veya tür / الأمة جماعة أو نوعا ← 4:41 أُمَّةٍۭ
+  - near: ك ل ل B009 topluluklar, kümeler / الكلاكل جماعات ← 4:33 وَلِكُلٍّ
+  - near: ع ظ م B002 bir şeyin çoğu veya büyük bölümü / معظم الشيء ← 4:40 عَظِيمًا
+  - far: ط و ف B004 topluluk veya bütünden ayrılan parça / الطائفة الملتفة ← 4:81 طَآئِفَةٌ
+  - far: س د د B006 ufku kaplayan yoğun çekirge ya da bulut kütlesi / ما يملأ الأفق فيسده ← 4:9 سَدِيدًا
+- **B007** semizotu diye bilinen ot / الرِّجلة النبات
+  - same: ه ج ر B010 kurumuş bitki, özellikle tuzcul ot / النبت اليابس المهجور ← 4:34 وَٱهْجُرُوهُنَّ
+  - same: س ب ل B008 tahıl başağı ve başak çıkarmak / سنبلة الزرع الممتدة ← 4:34 سَبِيلًا
+  - same: ض ج ع B006 kenarda otlayan deve veya kalabalık koyun sürüsü / البهيمة اللازمة ناحية ترعى والقطيع الكثير ← 4:34 ٱلْمَضَاجِعِ
+  - near: ص ل ي B010 iri başaklı deve yemi bitkisi / الصِّليان نبت ترعاه الإبل ← 4:30 نُصْلِيهِ
+  - near: ع ق د B005 sık ve köklü ağaçlık ya da otlak / كثافة الشجر والمرعى ← 4:33 عَقَدَتْ
+  - near: ج ن ب B010 yazın kalan köklü küçük bitkiler / الجنبة نبت متوسط مستقل ← 4:36 ٱلْجُنُبِ
+  - far: ع ج ل B009 belirli bir bitki veya ağaç adı / النبت المسمى عجلة ← 4:153 ٱلْعِجْلَ
+  - far: ر ب ب B012 belirli bir yeşil bitki türü / ربة نبات ← 4:23 وَرَبَٰٓئِبُكُمُ
+- **B008** su akıntısı yatağı / رِجْلة الماء
+  - same: س ب ل B005 yağan yağmur / مطر سابل بين السحاب والأرض ← 4:34 سَبِيلًا
+  - same: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 4:34 قَوَّٰمُونَ
+  - same: ب غ ي B008 ordudan önce ilerleyen öncüler / البغايا الطلائع ← 4:34 تَبْغُوا۟
+  - near: م ل ك B007 işleri ve yaşamı sürdüren su kaynağı / الماء مَلَك الأمر ← 4:36 مَلَكَتْ
+  - near: ء ت ي B004 su kanalı açmak ve akışı yönlendirmek / مجرى الماء وتسليك سبيله ← 4:33 فَـَٔاتُوهُمْ
+  - near: ص ح ب B007 suyun yüzünü yosun kaplaması / طُحلب يعلو الماء ← 4:36 وَٱلصَّاحِبِ
+  - far: ن ص ر B007 uzaktan gelip su toplanma yerine ulaşan su yatağı / ناصرة الماء ← 4:45 نَصِيرًا
+  - far: د ف ع B006 su yatağı ve selin dağıldığı çıkış / مدافع الماء ومصباته ← 4:6 فَٱدْفَعُوٓا۟
+- **B009** ayak benzetmeli özel adlar / رجل القوس والميسم
+  - same: ض ر ب B011 erkek devenin dişiyle çiftleşmesi / ضرب الفحل الناقة ← 4:34 وَٱضْرِبُوهُنَّ
+  - same: ك ب ر B004 yaşlanma ve zamanla eskime / كبر السن والقدم ← 4:34 كَبِيرًا
+  - same: ه ج ر B007 hayvanın ayaklarını bağlayan ip / الربط بالهجار ← 4:34 وَٱهْجُرُوهُنَّ
+  - near: ت ب ع B008 biçime bağlı adlandırmalar / التابع الحسي ← 4:27 يَتَّبِعُونَ
+  - near: ق ر ن B007 yaya bağlı ok kılıfı ve silahlı taşıyıcısı / جعبة تقرن بالقوس وسلاح معها ← 4:38 قَرِينًا
+  - near: ع ل م B004 üst dudak yarığı / شق ظاهر في الشفة العليا ← 4:35 عَلِيمًا
+  - far: ط و ف B008 yayın uç ile göbek arasındaki göbeğe bitişik kesimi / طائف القوس ← 4:81 طَآئِفَةٌ
+  - far: ي د ي B013 bir nesnenin tutacağı, ucu ya da uzantısı / يَد الشيء ← 4:43 وَأَيْدِيكُمْ
+- **B010** orta kıvırcıklıkta saç / الشعر الرَّجِل
+  - same: س ب ل B006 üst dudak ve sakal önündeki sarkan kıl / شعر منسدل عند الفم واللحية ← 4:34 سَبِيلًا
+  - same: ن ش ز B007 yaşla eksilmeyen güç ve iri sertlik / الغلظ وثبات القوة ← 4:34 نُشُوزَهُنَّ
+  - same: س ط ع B006 belirli bir dağın özel adı / اسم جبل بعينه ← 4:34 أَطَعْنَكُمْ
+  - near: ص ح ب B006 kılı veya yünü üzerinde bırakılmış deri / أديم مُصحَب عليه الشعر ← 4:36 وَٱلصَّاحِبِ
+  - near: س ب ل B006 üst dudak ve sakal önündeki sarkan kıl / شعر منسدل عند الفم واللحية ← 4:36 ٱلسَّبِيلِ
+  - near: ء ت ي B013 etkili ve işini yürüten adam / نَفاذ الرجل ← 4:33 فَـَٔاتُوهُمْ
+  - far: س ب ط B001 bağlama göre düz, uzun, yumuşak, cömert ya da bol ve kesintisiz olma / امتداد لين مسترسل ← 4:163 وَٱلْأَسْبَاطِ
+  - far: ق ر ء B005 — / مثال الشعر وطريقته ← 4:82 ٱلْقُرْءَانَ
+- **B011** hazırlıksız söylemek / الكلام المرتجل
+  - same: ن ش ز B005 sözüyle öfkelendirip ayağa kaldırma / الإغضاب والإقامة بالكلام ← 4:34 نُشُوزَهُنَّ
+  - same: ه ج ر B003 bilerek çirkin ve edepsiz söz söyleme / الكلام القبيح المهجور ← 4:34 وَٱهْجُرُوهُنَّ
+  - same: ح ف ظ B004 uyanık ve dikkatli olma / تيقظ المتحفظ وقلة غفلته ← 4:34 حَٰفِظَٰتٌ
+  - near: ف ع ل B004 uydurup düzme / افتعال مختلق ← 4:30 يَفْعَلْ
+  - near: خ ل ق B002 var etme ve ortaya çıkarma / إبداع الخلق وإيجاده ← 4:28 وَخُلِقَ
+  - near: و ل د B005 bir şeyden nedenle türeme veya sonradan oluşturulma / شيء حاصل عن شيء أو مستحدث منه ← 4:33 ٱلْوَٰلِدَانِ
+  - far: ح ص ر B001 dili tutulup konuşamama / انحباس الكلام عن اللسان ← 4:90 حَصِرَتْ
+  - far: ق ب ل B015 ilk elden veya yeniden başlama / ابتداء حاضر غير مهيأ ← 4:26 قَبْلِكُمْ
+- **B012** günün yükselip aydınlığın yayılması / ترجل النهار
+  - same: ك ب ر B013 günün yükseldiği vakit / أكبر النهار ← 4:34 كَبِيرًا
+  - same: ق و م B017 güneşin tam tepede olduğu öğle ortası / انتصاف النهار وقائم الظهيرة ← 4:34 قَوَّٰمُونَ
+  - same: ه ج ر B005 sıcağın bastırdığı öğle vakti / حر الهاجرة ووقتها ← 4:34 وَٱهْجُرُوهُنَّ
+  - near: ك ب ر B013 günün yükseldiği vakit / أكبر النهار ← 4:31 كَبَآئِرَ
+  - near: ي و م B001 güneşin doğuşundan batışına kadarki gün / وقت النهار المحدود ← 4:38 بِٱلْيَوْمِ
+  - near: ن ف س B009 kalıba bağlı yarılıp açılma ve genişleme / انفتاح الصبح والشيء كالنفس ← 4:29 أَنفُسَكُمْ
+  - far: ك ب ر B013 günün yükseldiği vakit / أكبر النهار ← 4:6 يَكْبَرُوا۟
+  - far: ق و م B017 güneşin tam tepede olduğu öğle ortası / انتصاف النهار وقائم الظهيرة ← 4:46 وَأَقْوَمَ
+- **B013** kuyuya iple indirilmeden inmek / نزول البئر بلا تدلية
+  - same: ن ش ز B007 yaşla eksilmeyen güç ve iri sertlik / الغلظ وثبات القوة ← 4:34 نُشُوزَهُنَّ
+  - same: ب غ ي B004 yaranın şişip bozulması veya içinde irin kalmış halde kapanması / فساد الجرح وتجاوزه ← 4:34 تَبْغُوا۟
+  - same: ع ل و B004 yapı içinde üstün gelip bastırma / الغلبة والاستيلاء ← 4:34 عَلِيًّا
+  - near: ع ق د B016 yer çevresi, yapı örtüşmesi veya üzerine kapanma / إحاطة الموضع وإطباقه ← 4:33 عَقَدَتْ
+  - near: ق ت ل B004 nazlıca salınma; gereksinime yumuşakça yaklaşma; kadına yalvarma / تدلل وتكسر في مشية أو طلب ← 4:29 تَقْتُلُوٓا۟
+  - near: ء م م B007 okuma yazma bilmeyen / الأمي على الجبلة غير الكاتب ← 4:41 أُمَّةٍۭ
+  - far: ج ه ر B008 kuyuyu boşaltıp temizleyerek suyunu açığa çıkarma / إظهار ماء البئر بتنقيتها ← 4:148 ٱلْجَهْرَ
+  - far: ق ع د B015 suya ulaşmadan bırakılan kuyu / البئر المقعدة قبل بلوغ الماء ← 4:95 ٱلْقَٰعِدُونَ
+- **B014** yavruyu annesiyle serbest bırakmak / إرسال الفصيل مع أمه
+  - same: س ب ل B004 aşağı doğru salmak / إرخاء من علو إلى سفل ← 4:34 سَبِيلًا
+  - same: ض ج ع B006 kenarda otlayan deve veya kalabalık koyun sürüsü / البهيمة اللازمة ناحية ترعى والقطيع الكثير ← 4:34 ٱلْمَضَاجِعِ
+  - same: ط و ع B007 otlak veya meyvenin yararlanılabilir hale gelmesi / تهيؤ المرعى والثمر ← 4:34 أَطَعْنَكُمْ
+  - near: س ب ل B004 aşağı doğru salmak / إرخاء من علو إلى سفل ← 4:36 ٱلسَّبِيلِ
+  - near: ت ب ع B007 ilk yılındaki sığır yavrusu ve yavrusu ardındaki inek / ولد البقرة التابع لها ← 4:27 يَتَّبِعُونَ
+  - near: ب ع ث B002 gönderme veya yöneltme / إرسال المبعوث وتوجيهه ← 4:35 فَٱبْعَثُوا۟
+  - far: ر ض ع B001 memeden süt emme ve emzirme / مص اللبن من الثدي أو الضرع ← 4:23 أَرْضَعْنَكُمْ
+  - far: س ن ن B002 dağılmadan, kolayca döküp yayma / صب سهل متصل ← 4:26 سُنَنَ
+- **B015** atın iki yürüyüşü karıştırması / ارتجال الفرس
+  - same: ب غ ي B007 atın koşarken çalımlı ve neşeli davranması / اختيال الفرس ومرحه في العدو ← 4:34 تَبْغُوا۟
+  - same: س ط ع B004 deve boynundaki uzunlamasına damga / السمة الطولية في العنق ← 4:34 أَطَعْنَكُمْ
+  - same: س ب ل B004 aşağı doğru salmak / إرخاء من علو إلى سفل ← 4:34 سَبِيلًا
+  - near: ش ي ء B007 — / بعد النظر في الفرس ← 4:33 شَىْءٍ
+  - near: ش ق ق B009 amaç çizgisinden yana sapma / ميل عن القصد إلى الشقين ← 4:35 شِقَاقَ
+  - near: ق ر ب B014 atın dörtnaldan yavaş özel koşusu / تقريب الفرس في العدو ← 4:33 وَٱلْأَقْرَبُونَ
+  - far: ب غ ي B007 atın koşarken çalımlı ve neşeli davranması / اختيال الفرس ومرحه في العدو ← 4:24 تَبْتَغُوا۟
+  - far: ع ر ض B012 yana saparak ilerleme / السير عارضا وصعوبة الاستقامة ← 4:16 فَأَعْرِضُوا۟
+- **B016** dik duran pişirme kazanı / المرجل المنصوب
+  - same: ع ل و B009 belirli araç ve parça adları / أسماء الأدوات والأجزاء المرتفعة ← 4:34 عَلِيًّا
+  - same: س ط ع B003 ev direği / العمود المنصوب وما شبه به ← 4:34 أَطَعْنَكُمْ
+  - same: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 4:34 قَوَّٰمُونَ
+  - near: ن ص ب B001 dikme, dik durma ve yükselme / إقامة الشيء منتصبا بارزا ← 4:33 نَصِيبَهُمْ
+  - near: ر ء ي B011 görünür yere dikilen bayrak / راية منصوبة ← 4:38 رِئَآءَ
+  - near: م ن ي B001 ölçüp belirleyerek hükme bağlama / تقدير الشيء وإنفاذ قضائه ← 4:32 تَتَمَنَّوْا۟
+  - far: ن ص ب B001 dikme, dik durma ve yükselme / إقامة الشيء منتصبا بارزا ← 4:44 نَصِيبًا
+  - far: ق د ر B007 pişirme kabı ve ona bağlı yemek, pişirme işi ve görevli sözleri / قدر الطبخ وما يدور حولها ← 4:133 قَدِيرًا
+- **B017** koyunların art arda doğurması / الرجيلاء في الولادة
+  - same: ض ج ع B006 kenarda otlayan deve veya kalabalık koyun sürüsü / البهيمة اللازمة ناحية ترعى والقطيع الكثير ← 4:34 ٱلْمَضَاجِعِ
+  - same: ن ش ز B006 develeri bir yerden başka yere sevk etme / تشقيق الإبل ونقلها ← 4:34 نُشُوزَهُنَّ
+  - same: ه ج ر B013 yaklaşık bir yıllık aradan sonra / البعد بعد الحول ← 4:34 وَٱهْجُرُوهُنَّ
+  - near: و ل د B003 çocuğu dünyaya getirme / حدوث الولادة ووضع الحمل ← 4:33 ٱلْوَٰلِدَانِ
+  - near: ي س ر B006 koyunların süt ve yavru bakımından çoğalması / إدرار ونماء في الغنم ← 4:30 يَسِيرًا
+  - near: ر ح م B004 döl yatağı hastalığı ve doğum sonrası bozukluk / وجع الرَّحِم بعد الولادة ← 4:29 رَحِيمًا
+  - far: ت ل و B006 anneyi izleyen yavru / ولد يتلو أمه ← 4:127 يُتْلَىٰ
+  - far: و ل د B003 çocuğu dünyaya getirme / حدوث الولادة ووضع الحمل ← 4:12 وَلَدٌ
+- **B018** hayvanın biniciye ödetilmeyen vuruş zararı / الرِّجل جبار
+  - same: غ ي ب B003 içine gireni örten sık koruluk / أجمة يغاب فيها ← 4:34 لِّلْغَيْبِ
+  - same: س ط ع B006 belirli bir dağın özel adı / اسم جبل بعينه ← 4:34 أَطَعْنَكُمْ
+  - same: ن ف ق B001 tükenip sona erme; özel kullanımlarda alıcı bulma, çabuk kesilme veya yüzeyden ayrılma / ذهاب الشيء وانقطاعه ← 4:34 أَنفَقُوا۟
+  - near: ح ك م B006 gemin çene çevresini kuşatan kısıtlayıcı parçası / حكمة اللجام ← 4:35 حَكَمًا
+  - near: ب ط ل B006 öldürülenin kanının heder kalması ve öcünün alınmaması / ذهاب الدم هدرا بلا ثأر ولا دية ← 4:29 بِٱلْبَٰطِلِ
+  - near: ج ن ب B005 yanında yönlendirerek götürme / التجنيب قيادة شيء إلى الجنب ← 4:36 ٱلْجُنُبِ
+  - far: ث ب ت B007 çekirgenin yumurtlamak için kuyruğunu saplaması / ثَبْت الجراد ذنبه ← 4:66 تَثْبِيتًا
+  - far: ع ل ق B013 sahibi adına erzak getirmeye gönderilen yük hayvanı / عليقة تحمل في سفر الميرة ← 4:129 كَٱلْمُعَلَّقَةِ
+- **B019** işine bütün gücüyle sarılmak / القيام على رجل
+  - same: ق و م B003 bir işe kararlılıkla girişme / عزم ونهوض إلى الأمر ← 4:34 قَوَّٰمُونَ
+  - same: ك و ن B005 gençliğini anan yaşlı kişi / الشيخ المنسوب إلى كُنْتُ ← 4:34 كَانَ
+  - same: ض ر ب B005 birinin giriştiği işi engellemek / الحجر على اليد ← 4:34 وَٱضْرِبُوهُنَّ
+  - near: ء ت ي B013 etkili ve işini yürüten adam / نَفاذ الرجل ← 4:33 فَـَٔاتُوهُمْ
+  - near: ص ح ب B005 oğlunun büyüyüp babasına yoldaş olması / بلوغ الابن صاحبا ← 4:36 وَٱلصَّاحِبِ
+  - near: ك و ن B005 gençliğini anan yaşlı kişi / الشيخ المنسوب إلى كُنْتُ ← 4:33 كَانَ
+  - far: ه م م B013 birini değer ve yeterliğiyle öven kalıp / كفاية في المدح ← 4:113 لَهَمَّت
+  - far: ج م ع B013 bir işte başkasıyla birleşip destek olma / ممالأة واجتماع مع غيرك على أمر ← 4:23 تَجْمَعُوا۟
+- **B020** bir işe atılıp ilerlemek / ركوب الأمر بالرجلين
+  - same: ض ر ب B004 bir işten geri durup yüz çevirmek / القبض عن الشيء والكف ← 4:34 وَٱضْرِبُوهُنَّ
+  - same: ه ج ر B004 hastalık sırasında istemeden sayıklama / هذيان المريض والنائم ← 4:34 وَٱهْجُرُوهُنَّ
+  - same: ن ش ز B007 yaşla eksilmeyen güç ve iri sertlik / الغلظ وثبات القوة ← 4:34 نُشُوزَهُنَّ
+  - near: ص ح ب B003 boyun eğip uyumlu duruma gelme / الإصحاب والانقياد ← 4:36 وَٱلصَّاحِبِ
+  - near: ت ج ر B004 kazanc yolunu bilen usta / الحذق بوجه الكسب ← 4:29 تِجَٰرَةً
+  - near: ف خ ر B002 övünmede üstün sayma veya üstün gelme / تفضيل في المفاخرة ← 4:36 فَخُورًا
+  - far: ر و ح B006 hakkını kendisine geri vermek / رد الحق إلى صاحبه ← 4:171 وَرُوحٌ
+  - far: ر ك س B002 kurtulduğu sıkıntıya yeniden düşme / الوقوع راجعا بعد النجاة ← 4:88 أَرْكَسَهُم
+
+## ق و م (قَوَّٰمُونَ)
+
+- **B001** erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال
+  - same: ن س و B001 kadın topluluğunu bildiren ayrı biçimli çoğullar / جماعة النساء ← 4:34 ٱلنِّسَآءِ
+  - same: ر ج ل B003 yaya giden kişi / المشي على الأرجل ← 4:34 ٱلرِّجَالُ
+  - same: ص ل ح B004 kişi adı olan kök türevleri / صالح وما قاربه علما لشخص ← 4:34 فَٱلصَّٰلِحَٰتُ
+  - near: ن س و B001 kadın topluluğunu bildiren ayrı biçimli çoğullar / جماعة النساء ← 4:32 وَلِلنِّسَآءِ
+  - near: ء ه ل B001 yakın çevre ve bağlı topluluk / جماعة القرب والانتماء ← 4:35 أَهْلِهِۦ
+  - near: ء م م B004 ortak bağla birleşen topluluk veya tür / الأمة جماعة أو نوعا ← 4:41 أُمَّةٍۭ
+  - far: ن س و B001 kadın topluluğunu bildiren ayrı biçimli çoğullar / جماعة النساء ← 4:43 ٱلنِّسَآءَ
+  - far: ء ه ل B001 yakın çevre ve bağlı topluluk / جماعة القرب والانتماء ← 4:25 أَهْلِهِنَّ
+- **B002** ayağa kalkma ve dik durma / انتصاب وقيام بالبدن
+  - same: ن ش ز B005 sözüyle öfkelendirip ayağa kaldırma / الإغضاب والإقامة بالكلام ← 4:34 نُشُوزَهُنَّ
+  - same: ر ج ل B019 işine bütün gücüyle sarılmak / القيام على رجل ← 4:34 ٱلرِّجَالُ
+  - same: ق ن ت B001 inanç yolunda buyruğa boyun eğerek bağlı kalma / طاعة دينية خاضعة ← 4:34 قَٰنِتَٰتٌ
+  - near: ص ل ي B001 ayakta durma, eğilme ve yere kapanmalı yükümlü tapınma / الصلاة عبادة لازمة ← 4:30 نُصْلِيهِ
+  - near: ن ص ب B001 dikme, dik durma ve yükselme / إقامة الشيء منتصبا بارزا ← 4:33 نَصِيبَهُمْ
+  - near: ء م م B006 boy ve beden görünüşü / القامة والهيئة ← 4:41 أُمَّةٍۭ
+  - far: م ث ل B005 ayağa kalkıp dik durma / المثول والانتصاب ← 4:11 مِثْلُ
+  - far: ق ع د B001 oturup yer tutma / الجلوس والثبوت في موضع ← 4:95 ٱلْقَٰعِدُونَ
+- **B003** bir işe kararlılıkla girişme / عزم ونهوض إلى الأمر
+  - same: ن ش ز B002 yerinden kalkma veya kaldırma / النهوض والانتقال عن المجلس ← 4:34 نُشُوزَهُنَّ
+  - same: ض ج ع B003 işi savsaklama ve güçsüzce geri durma / الانطراح عن القيام بالأمر ← 4:34 ٱلْمَضَاجِعِ
+  - same: ر ج ل B019 işine bütün gücüyle sarılmak / القيام على رجل ← 4:34 ٱلرِّجَالُ
+  - near: ء م ر B002 buyrukla yükümlü kılma / الطلب والإلزام ← 4:37 وَيَأْمُرُونَ
+  - near: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 4:35 يُرِيدَآ
+  - near: ر ج ل B019 işine bütün gücüyle sarılmak / القيام على رجل ← 4:32 لِّلرِّجَالِ
+  - far: ج م ع B003 düşünüp kesin bir tutuma bağlanma / عزم محكم جمع الرأي بعد تفرقه ← 4:23 تَجْمَعُوا۟
+  - far: ب ر ز B007 seyahate çıkmaya kesin karar verme / إبراز السفر والعزم عليه ← 4:81 بَرَزُوا۟
+- **B004** sürekli gözetip yönetme / رعاية وحفظ وولاية
+  - same: ح ف ظ B003 düzenli biçimde sürdürme / ملازمة الأمر والمواظبة عليه ← 4:34 حَٰفِظَٰتٌ
+  - same: ق ن ت B001 inanç yolunda buyruğa boyun eğerek bağlı kalma / طاعة دينية خاضعة ← 4:34 قَٰنِتَٰتٌ
+  - same: ر ج ل B019 işine bütün gücüyle sarılmak / القيام على رجل ← 4:34 ٱلرِّجَالُ
+  - near: و ل ي B003 bir işi üstlenip yönetme / تولي الأمر والقيام عليه ← 4:33 مَوَٰلِىَ
+  - near: م ل ك B007 işleri ve yaşamı sürdüren su kaynağı / الماء مَلَك الأمر ← 4:36 مَلَكَتْ
+  - near: ء م م B009 öne konulan ve izlenen kılavuz / الإمام ومن يقتدى به ← 4:41 أُمَّةٍۭ
+  - far: و ك ل B006 kendisine bırakılan işi üstlenip koruyan yeterli görevli / القائم بالأمر كفاية وحفظا ← 4:81 وَتَوَكَّلْ
+  - far: ق و ت B002 gerekeni ölçüp koruyan, tanık olan ve gücü yeten / المقيت القائم على الشيء حفظا وقدرة وشهادة ← 4:85 مُّقِيتًا
+- **B006** bir yerde kalma ve kalınan yer / مقام وإقامة في موضع
+  - same: ك و ن B002 bulunma yeri ve konum değeri / المكان والمكانة من الكون ← 4:34 كَانَ
+  - same: ن ش ز B005 sözüyle öfkelendirip ayağa kaldırma / الإغضاب والإقامة بالكلام ← 4:34 نُشُوزَهُنَّ
+  - same: ض ج ع B007 yerinde kalan veya su yüküyle ağır ilerleyen bulut / السحاب المقيم المبطئ ← 4:34 ٱلْمَضَاجِعِ
+  - near: ك و ن B002 bulunma yeri ve konum değeri / المكان والمكانة من الكون ← 4:33 كَانَ
+  - near: س ك ن B009 sabit yer ve konum bildiren özel kullanımlar / موضع الاستقرار ← 4:36 وَٱلْمَسَٰكِينِ
+  - near: ء م م B006 boy ve beden görünüşü / القامة والهيئة ← 4:41 أُمَّةٍۭ
+  - far: غ ن ي B004 bir yerde uzun süre kalıp yaşama / الغنى بالمكان ← 4:6 غَنِيًّا
+  - far: ر ب ع B006 yerleşme ve yerleşik kalma / الإقامة والربع المسكون ← 4:15 أَرْبَعَةً
+- **B007** başkasının yerini ve işlevini alma / نيابة وقيام مقام غيره
+  - same: ك و ن B002 bulunma yeri ve konum değeri / المكان والمكانة من الكون ← 4:34 كَانَ
+  - same: ص ل ح B003 sana uygun olma / الصلاح للشيء ملاءمته ← 4:34 فَٱلصَّٰلِحَٰتُ
+  - same: ر ج ل B019 işine bütün gücüyle sarılmak / القيام على رجل ← 4:34 ٱلرِّجَالُ
+  - near: ء م م B009 öne konulan ve izlenen kılavuz / الإمام ومن يقتدى به ← 4:41 أُمَّةٍۭ
+  - near: ن ص ب B006 temel veya sabit başvuru noktası / نصاب الشيء: أصله ومقداره الثابت ← 4:33 نَصِيبَهُمْ
+  - near: ك و ن B002 bulunma yeri ve konum değeri / المكان والمكانة من الكون ← 4:33 كَانَ
+  - far: ب د ل B001 yerine gecme ve yerine koyma / قيام شيء مقام شيء آخر ← 4:20 ٱسْتِبْدَالَ
+  - far: خ ل ف B001 ardından gelip yerini tutma / شيء يأتي بعد شيء ويقوم مقامه ← 4:9 خَلْفِهِمْ
+- **B008** düzgünlük, denge ve doğru yoldan sapmama / استقامة واعتدال واستواء
+  - same: ق ن ت B001 inanç yolunda buyruğa boyun eğerek bağlı kalma / طاعة دينية خاضعة ← 4:34 قَٰنِتَٰتٌ
+  - same: ح ف ظ B007 açık, düz ve kesintisiz yol / طريق حافظ بين مستقيم ← 4:34 حَٰفِظَٰتٌ
+  - same: ن ش ز B005 sözüyle öfkelendirip ayağa kaldırma / الإغضاب والإقامة بالكلام ← 4:34 نُشُوزَهُنَّ
+  - near: ء م م B005 benimsenen inanç ve yaşayış yolu / الأمة دينا وطريقة ← 4:41 أُمَّةٍۭ
+  - near: ت ب ع B012 sağlamlaştırmak, uyumlu olmak veya iyi duruma getirmek / الإحكام والتناسب ← 4:27 يَتَّبِعُونَ
+  - near: خ ل ق B003 tam ve dengeli dış biçim / تمام الخلقة واعتدال الصورة ← 4:28 وَخُلِقَ
+  - far: ع د ل B005 düzeltip dengeleme / إقامة الشيء واعتداله ← 4:58 بِٱلْعَدْلِ
+  - far: س و ي B002 kendi içinde düzgün ve tam duruma gelme / استقامة وتمام في الذات ← 4:42 تُسَوَّىٰ
+- **B009** ayakta tutan dayanak ve geçim temeli / قوام وعماد ومعاش
+  - same: ق ن ت B001 inanç yolunda buyruğa boyun eğerek bağlı kalma / طاعة دينية خاضعة ← 4:34 قَٰنِتَٰتٌ
+  - same: ف ض ل B001 gereksinimi aşan veya bir işlemden sonra kalan fazlalık / الزيادة والبقية ← 4:34 فَضَّلَ
+  - same: م و ل B001 varlık; edinme, çoğalma ve başkasına kazandırma / اتخاذ المال وكثرته ← 4:34 أَمْوَٰلِهِمْ
+  - near: م ل ك B005 işi ayakta tutan temel dayanak / مِلاك الأمر وعِماده ← 4:36 مَلَكَتْ
+  - near: ء م م B009 öne konulan ve izlenen kılavuz / الإمام ومن يقتدى به ← 4:41 أُمَّةٍۭ
+  - near: ر ز ق B001 yararlanılmak üzere verilen pay / العطاء المقسوم ← 4:39 رَزَقَهُمُ
+  - far: م ل ك B005 işi ayakta tutan temel dayanak / مِلاك الأمر وعِماده ← 4:25 مَلَكَتْ
+  - far: ق و ت B001 yaşamı sürdürecek azık ve bu azığı sağlama ya da edinme / القوت الممسك للرمق ← 4:85 مُّقِيتًا
+- **B010** değer biçme ve belirlenen bedel / قيمة وتقويم وتسعير
+  - same: ق ن ت B001 inanç yolunda buyruğa boyun eğerek bağlı kalma / طاعة دينية خاضعة ← 4:34 قَٰنِتَٰتٌ
+  - same: ب غ ي B001 bir şeyi arayıp istemek; başkası için aramak veya arayışına yardım etmek / طلب الشيء وابتغاؤه ← 4:34 تَبْغُوا۟
+  - same: ط و ع B001 zorlanmadan boyun eğme ve kolay yönlenme / الانقياد والطاعة ← 4:34 أَطَعْنَكُمْ
+  - near: ء م م B006 boy ve beden görünüşü / القامة والهيئة ← 4:41 أُمَّةٍۭ
+  - near: و ل ي B014 aldığı fiyatla devretme / تولية البيع ← 4:33 مَوَٰلِىَ
+  - near: خ ل ق B001 ölçüp sınırlarını belirleme / تقدير الشيء وقياسه ← 4:28 وَخُلِقَ
+  - far: ث م ن B001 satış karşılığı ve değer / العوض والقيمة في البيع ← 4:12 ٱلثُّمُنُ
+  - far: ع د ل B003 denk kurtulma karşılığı / العِدل فدية وقيمة ← 4:58 بِٱلْعَدْلِ
+- **B011** insanın boyu ve düzgün beden yapısı / قامة وقوام الجسم والطول
+  - same: س ط ع B002 boyun uzunluğu / طول العنق وامتداده ← 4:34 أَطَعْنَكُمْ
+  - same: ه ج ر B008 benzerlerini aşan üstünlük / المجاوزة في الحسن والتمام ← 4:34 وَٱهْجُرُوهُنَّ
+  - same: ع ل و B010 uzun ve iri yapılı / الطول والضخامة ← 4:34 عَلِيًّا
+  - near: ء م م B006 boy ve beden görünüşü / القامة والهيئة ← 4:41 أُمَّةٍۭ
+  - near: خ ل ق B003 tam ve dengeli dış biçim / تمام الخلقة واعتدال الصورة ← 4:28 وَخُلِقَ
+  - near: ي س ر B005 yumuşak başlı ve harekette uyumlu olma / خفة وانقياد في الحركة ← 4:30 يَسِيرًا
+  - far: ء م م B006 boy ve beden görünüşü / القامة والهيئة ← 4:23 أُمَّهَٰتُكُمْ
+  - far: ع م م B004 uzayıp tam gelişmiş olma / الطول والتمام ← 4:23 وَعَمَّٰتُكُمْ
+- **B012** düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم
+  - same: ع ل و B009 belirli araç ve parça adları / أسماء الأدوات والأجزاء المرتفعة ← 4:34 عَلِيًّا
+  - same: ض ر ب B014 vurma aracı, bölgesi, yeri veya işi / موضع الضرب وآلته وصنعته ← 4:34 وَٱضْرِبُوهُنَّ
+  - same: ر ج ل B019 işine bütün gücüyle sarılmak / القيام على رجل ← 4:34 ٱلرِّجَالُ
+  - near: ء م م B006 boy ve beden görünüşü / القامة والهيئة ← 4:41 أُمَّةٍۭ
+  - near: ر و د B006 cevirme kolu ve doner demir parca / أدوات الإدارة والدوران ← 4:35 يُرِيدَآ
+  - near: ن ص ب B003 sınır işareti veya kuyu-havuz taşı / علامة أو حجارة منصوبة للحد أو الحوض ← 4:33 نَصِيبَهُمْ
+  - far: ع ل ق B002 makara taşıyıcı su çekme düzeneği / آلة البكرة المعلّقة على القامة ← 4:129 كَٱلْمُعَلَّقَةِ
+  - far: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 4:58 نِعِمَّا
+- **B013** ölülerin diriltildiği ve insanların yargı için kalktığı gün / قيامة وبعث وقيام الساعة
+  - same: ك و ن B003 birini güvenceyle üstlenme / الكفالة والقيام على فلان ← 4:34 كَانَ
+  - same: ق ن ت B001 inanç yolunda buyruğa boyun eğerek bağlı kalma / طاعة دينية خاضعة ← 4:34 قَٰنِتَٰتٌ
+  - same: ر ج ل B019 işine bütün gücüyle sarılmak / القيام على رجل ← 4:34 ٱلرِّجَالُ
+  - near: ء م م B006 boy ve beden görünüşü / القامة والهيئة ← 4:41 أُمَّةٍۭ
+  - near: ب ع ث B002 gönderme veya yöneltme / إرسال المبعوث وتوجيهه ← 4:35 فَٱبْعَثُوا۟
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 4:38 بِٱلْيَوْمِ
+  - far: ح ش ر B001 topluluğu sevk ederek toplama / سوق الجماعة وجمعها إلى مقصد ← 4:172 فَسَيَحْشُرُهُمْ
+  - far: و ق ع B002 ağır felaket / الواقعة النازلة الشديدة ← 4:100 وَقَعَ
+- **B014** karşılıklı direnip mücadele etme / مقاومة ومنازلة
+  - same: ك ب ر B011 üstünlük yarışına girip yenmek / المكابرة والغلبة ← 4:34 كَبِيرًا
+  - same: ض ر ب B004 bir işten geri durup yüz çevirmek / القبض عن الشيء والكف ← 4:34 وَٱضْرِبُوهُنَّ
+  - same: ر ج ل B019 işine bütün gücüyle sarılmak / القيام على رجل ← 4:34 ٱلرِّجَالُ
+  - near: ق ت ل B011 öldürme amacıyla karşılıklı savaşma / مقاتلة ومحاربة بين طرفين ← 4:29 تَقْتُلُوٓا۟
+  - near: ن ص ب B008 birine savaş veya düşmanlıkla karşı çıkma / مواجهة العداوة والحرب ← 4:33 نَصِيبَهُمْ
+  - near: ر ء ي B004 karşı karşıya gelip görünür olma / تراء وتواجه ← 4:38 رِئَآءَ
+  - far: ء خ ذ B011 güreşte kavrayıp kilitleme / أخذة المصارعة ← 4:25 مُتَّخِذَٰتِ
+  - far: ن ز ل B007 savaşmak için karşı karşıya inme / النزول للمبارزة ← 4:47 نَزَّلْنَا
+- **B015** tam ve denk ağırlıktaki para / وزن سواء ومقدار معتدل
+  - same: ر ج ل B019 işine bütün gücüyle sarılmak / القيام على رجل ← 4:34 ٱلرِّجَالُ
+  - same: ض ر ب B007 tür ya da biçim kalıbı / الصنف والصيغة ← 4:34 وَٱضْرِبُوهُنَّ
+  - same: ف ض ل B001 gereksinimi aşan veya bir işlemden sonra kalan fazlalık / الزيادة والبقية ← 4:34 فَضَّلَ
+  - near: ث ق ل B004 ölçü ağırlığı / المثقال والوزن ← 4:40 مِثْقَالَ
+  - near: م ن ي B006 standart tartı veya hacim ölçüsü / المَنَا معيار يوزن به ← 4:32 تَتَمَنَّوْا۟
+  - near: ر ج ل B019 işine bütün gücüyle sarılmak / القيام على رجل ← 4:32 لِّلرِّجَالِ
+  - far: ع ب ر B009 paraları tek tek ya da ayrımdan sonra tartma; paraları çıkarma / وزن المال وإخراجه شيئا فشيئا ← 4:43 عَابِرِى
+  - far: و ق ي B004 kırk gümüş para ağırlığındaki, yağda yedi birimlik biçimi bulunan ölçü / الأوقية وزن معلوم ← 4:9 فَلْيَتَّقُوا۟
+- **B016** donup akmama veya yorulup ilerleyememe / جمود ووقوف وكلال
+  - same: غ ي ب B003 içine gireni örten sık koruluk / أجمة يغاب فيها ← 4:34 لِّلْغَيْبِ
+  - same: ق ن ت B004 namazda insan sözü söylemeyip namaza yönelme / إمساك مصلي عن الكلام ← 4:34 قَٰنِتَٰتٌ
+  - same: ه ج ر B009 sürekli alışkanlık ve uğraş / الدأب والديدن الملازم ← 4:34 وَٱهْجُرُوهُنَّ
+  - near: ع ب د B011 bineği yüzünden yolda kalma veya güçlükle direnen deve / العطب والانقطاع ← 4:36 وَٱعْبُدُوا۟
+  - near: ج ع ل B008 kara küçük yer hayvanı ve bunlarla dolu su / دويبة الجعلان ← 4:33 جَعَلْنَا
+  - near: ك ل ل B001 körelip güçten düşme / الكَلال وخلاف الحدة ← 4:33 وَلِكُلٍّ
+  - far: ص و م B003 hareketsiz kalma / ركود الشيء في مكانه ← 4:92 فَصِيَامُ
+  - far: خ و ض B001 suya girip içinde ilerlemek / دخول في الماء ← 4:140 يَخُوضُوا۟
+- **B017** güneşin tam tepede olduğu öğle ortası / انتصاف النهار وقائم الظهيرة
+  - same: ر ج ل B012 günün yükselip aydınlığın yayılması / ترجل النهار ← 4:34 ٱلرِّجَالُ
+  - same: ه ج ر B005 sıcağın bastırdığı öğle vakti / حر الهاجرة ووقتها ← 4:34 وَٱهْجُرُوهُنَّ
+  - same: ك ب ر B013 günün yükseldiği vakit / أكبر النهار ← 4:34 كَبِيرًا
+  - near: ر ج ل B012 günün yükselip aydınlığın yayılması / ترجل النهار ← 4:32 لِّلرِّجَالِ
+  - near: ك ب ر B013 günün yükseldiği vakit / أكبر النهار ← 4:31 كَبَآئِرَ
+  - near: ظ ل م B003 haksizliga karsi yakinma ve geri istem / الظلامة وطلب الإنصاف ← 4:30 وَظُلْمًا
+  - far: ر ج ل B012 günün yükselip aydınlığın yayılması / ترجل النهار ← 4:12 رَجُلٌ
+  - far: ه ج ر B005 sıcağın bastırdığı öğle vakti / حر الهاجرة ووقتها ← 4:89 يُهَاجِرُوا۟
+- **B018** pazarın canlanıp satışların artması / نفاق السوق
+  - same: ن ف ق B001 tükenip sona erme; özel kullanımlarda alıcı bulma, çabuk kesilme veya yüzeyden ayrılma / ذهاب الشيء وانقطاعه ← 4:34 أَنفَقُوا۟
+  - same: ض ج ع B004 alçaltma veya bir yana eğme / خفض الشيء وإمالته ← 4:34 ٱلْمَضَاجِعِ
+  - same: ص ل ح B003 sana uygun olma / الصلاح للشيء ملاءمته ← 4:34 فَٱلصَّٰلِحَٰتُ
+  - near: ت ج ر B003 pazarda ragbet goren deve / الناقة الرائجة في البيع ← 4:29 تِجَٰرَةً
+  - near: ن ف ق B001 tükenip sona erme; özel kullanımlarda alıcı bulma, çabuk kesilme veya yüzeyden ayrılma / ذهاب الشيء وانقطاعه ← 4:38 يُنفِقُونَ
+  - near: ش ر ك B004 sandal kayışı ve sandala kayış takma / شِراك النعل ← 4:36 تُشْرِكُوا۟
+  - far: ن ف ق B001 tükenip sona erme; özel kullanımlarda alıcı bulma, çabuk kesilme veya yüzeyden ayrılma / ذهاب الشيء وانقطاعه ← 4:61 ٱلْمُنَٰفِقِينَ
+  - far: ر ب ص B002 malı fiyat değişimi için elde tutup satışını bekletme / ترقب السلعة وحبسها ← 4:141 يَتَرَبَّصُونَ
+- **B019** bir beden bölümünün kişiye ağrı vermesi / وجع قائم بالعضو
+  - same: ض ج ع B002 aynı yatakta birlikte yatma / مشاركة المضجع ← 4:34 ٱلْمَضَاجِعِ
+  - same: ر ج ل B001 bacak uzvu / الرِّجل العضو ← 4:34 ٱلرِّجَالُ
+  - same: ض ر ب B001 bir şeyi başka bir şeyin üzerine vurmak / إيقاع شيء على شيء ← 4:34 وَٱضْرِبُوهُنَّ
+  - near: ع ظ م B003 uzvun belirli kalın kesimi / مستغلظ العضو ← 4:40 عَظِيمًا
+  - near: ر ج ل B001 bacak uzvu / الرِّجل العضو ← 4:32 لِّلرِّجَالِ
+  - near: ض ع ف B003 satır araları, kenar ve bedenin iç bölümleri / أثناء الشيء وجوفه ← 4:28 ضَعِيفًا
+  - far: ء ل م B001 acı duyma / الوجع والتألم ← 4:18 أَلِيمًا
+  - far: ع ظ م B003 uzvun belirli kalın kesimi / مستغلظ العضو ← 4:48 عَظِيمًا
+- **B020** koyunun bacaklarını tutan hastalık / قوام في قوائم الشاة
+  - same: س ب ل B010 kırmızı damarlı ağsı göz perdesi / غشاوة في العين تشبه النسج ← 4:34 سَبِيلًا
+  - same: ر ج ل B001 bacak uzvu / الرِّجل العضو ← 4:34 ٱلرِّجَالُ
+  - same: غ ي ب B007 koyunun işkembe ve bağırsaklarını örten ince yağ / غَيْب شحم الثرب ← 4:34 لِّلْغَيْبِ
+  - near: م ل ك B008 hayvanlarda önden gidip yön veren unsur / المتقدم القائد في الحيوان ← 4:36 مَلَكَتْ
+  - near: ر ح م B004 döl yatağı hastalığı ve doğum sonrası bozukluk / وجع الرَّحِم بعد الولادة ← 4:29 رَحِيمًا
+  - near: ن ف س B004 canlıdaki akışkan kan / الدم السائل قوام النفس ← 4:29 أَنفُسَكُمْ
+  - far: ن ق ر B014 koyun ve keçilerde bel-yan-uyluk hastalığı / داء أو وجع يأخذ الشاء والمعزى ← 4:53 نَقِيرًا
+  - far: ء خ ذ B007 bedende bir durumun baş gösterip etkisini göstermesi / حال تأخذ في الجسم ← 4:25 مُتَّخِذَٰتِ
+- **B021** göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر
+  - same: س ب ل B010 kırmızı damarlı ağsı göz perdesi / غشاوة في العين تشبه النسج ← 4:34 سَبِيلًا
+  - same: ر ج ل B019 işine bütün gücüyle sarılmak / القيام على رجل ← 4:34 ٱلرِّجَالُ
+  - same: ق ن ت B001 inanç yolunda buyruğa boyun eğerek bağlı kalma / طاعة دينية خاضعة ← 4:34 قَٰنِتَٰتٌ
+  - near: ر ء ي B001 gözle ya da içsel kavrayışla görme / رؤية العين والبصيرة ← 4:38 رِئَآءَ
+  - near: ر و د B007 gozde dolasan bozukluk / عوار العين الرائد ← 4:35 يُرِيدَآ
+  - near: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد ← 4:37 ٱلنَّاسَ
+  - far: ش ف ع B006 tek nesneyi çift görme / رؤية الواحد اثنين ← 4:85 يَشْفَعْ
+  - far: ر ء ي B001 gözle ya da içsel kavrayışla görme / رؤية العين والبصيرة ← 4:44 تَرَ
+
+## ن س و (ٱلنِّسَآءِ)
+
+- **B001** kadın topluluğunu bildiren ayrı biçimli çoğullar / جماعة النساء
+  - same: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 4:34 قَوَّٰمُونَ
+  - same: ن ش ز B004 eşinden soğuyup evlilik ilişkisine karşı koyma / نشوز الزوجين ← 4:34 نُشُوزَهُنَّ
+  - same: ر ج ل B002 erkek insan / الرجل الذكر ← 4:34 ٱلرِّجَالُ
+  - near: ت ب ع B011 kadınların peşinden cinsel amaçla gitmek / اتباع النساء ← 4:27 يَتَّبِعُونَ
+  - near: ن و ر B006 ürkmek, kaçınmak ve uzaklaştırmak / النِّفار وقلة الثبات ← 4:30 نَارًا
+  - near: ء ن س B001 insan türü ve bu türden bir kişi / ظهور الإنسان المخالف للتوحش والجن ← 4:37 ٱلنَّاسَ
+  - far: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 4:46 وَأَقْوَمَ
+  - far: ء ن ث B001 disi olma / الأنثى خلاف الذكر ← 4:11 ٱلْأُنثَيَيْنِ
+
+## ف ض ل (فَضَّلَ)
+
+- **B001** gereksinimi aşan veya bir işlemden sonra kalan fazlalık / الزيادة والبقية
+  - same: ب غ ي B001 bir şeyi arayıp istemek; başkası için aramak veya arayışına yardım etmek / طلب الشيء وابتغاؤه ← 4:34 تَبْغُوا۟
+  - same: ن ف ق B002 bir şeyi gider olarak elden çıkarma; özel kullanımda elindekini tüketip yoksullaşma / خروج المال في النفقة ← 4:34 أَنفَقُوا۟
+  - same: ق و م B009 ayakta tutan dayanak ve geçim temeli / قوام وعماد ومعاش ← 4:34 قَوَّٰمُونَ
+  - near: ء م ر B004 bereketli çoğalma / النماء والبركة ← 4:37 وَيَأْمُرُونَ
+  - near: و ف ق B004 denklik, tam yeterlik ve hizalanma / قدر يساوي الحاجة أو النظير ← 4:35 يُوَفِّقِ
+  - near: ض ع ف B002 bir şeyi iki veya daha çok katına çıkarma / زيادة الشيء بمثله ← 4:28 ضَعِيفًا
+  - far: ع ف و B003 zahmetsiz seçkin artığı verme veya alacaktan vazgeçme / الفضل السهل والصفوة المتروكة ← 4:43 عَفُوًّا
+  - far: ز ي د B001 artma, büyüme ya da artırma / الزيادة والنمو ← 4:137 ٱزْدَادُوا۟
+- **B002** nitelikçe üstün olma, yüksek değer taşıma ve karşılaştırmada öne geçme / الدرجة والفضيلة
+  - same: ع ل و B002 saygınlıkta yüksek mevki / الرفعة والشرف ← 4:34 عَلِيًّا
+  - same: ك ب ر B006 ululuk ve kendini üstün görme / العظمة والكبرياء ← 4:34 كَبِيرًا
+  - same: ص ل ح B002 barışma ve uzlaşma / الصلح إزالة النفار بين الناس ← 4:34 فَٱلصَّٰلِحَٰتُ
+  - near: ف خ ر B002 övünmede üstün sayma veya üstün gelme / تفضيل في المفاخرة ← 4:36 فَخُورًا
+  - near: ب ي ن B002 arada olma / الخلالة والوسط بين شيئين ← 4:35 بَيْنِهِمَا
+  - near: ك ر م B006 eli açıklıkta övünme yarışı ve üstün gelme / مفاخرة الكرم والغلبة فيه ← 4:31 كَرِيمًا
+  - far: ف و ق B002 değer ve mertebe üstünlüğü / علو المنزلة والفضل ← 4:11 فَوْقَ
+  - far: م ث ل B009 iyilik ve erdem bakımından üstün / الأمثل فضلا ← 4:11 مِثْلُ
+- **B003** başkasına gönüllü iyilik etme ve yükümlülük dışı bağış verme / الإحسان والعطية
+  - same: ط و ع B005 yükümlü olmadığı iyiliği gönüllü yapma / التطوع والتبرع ← 4:34 أَطَعْنَكُمْ
+  - same: ن ف ق B002 bir şeyi gider olarak elden çıkarma; özel kullanımda elindekini tüketip yoksullaşma / خروج المال في النفقة ← 4:34 أَنفَقُوا۟
+  - same: م و ل B001 varlık; edinme, çoğalma ve başkasına kazandırma / اتخاذ المال وكثرته ← 4:34 أَمْوَٰلِهِمْ
+  - near: ح س ن B002 bir şeyi güzelleştirme, işi iyi yapma veya başkasına iyilik etme / الإحسان فعل حسن ← 4:36 إِحْسَٰنًا
+  - near: ف خ ر B002 övünmede üstün sayma veya üstün gelme / تفضيل في المفاخرة ← 4:36 فَخُورًا
+  - near: ك ر م B001 övgüye değer soyluluk, eli açıklık ve onurlandırma / الشرف والجود المحمود ← 4:31 كَرِيمًا
+  - far: ح س ن B002 bir şeyi güzelleştirme, işi iyi yapma veya başkasına iyilik etme / الإحسان فعل حسن ← 4:59 وَأَحْسَنُ
+  - far: ع ف و B003 zahmetsiz seçkin artığı verme veya alacaktan vazgeçme / الفضل السهل والصفوة المتروكة ← 4:43 عَفُوًّا
+- **B004** akranlarına karşı üstünlük iddia etme ve daha yüksek konum isteme / ادعاء الفضل
+  - same: ع ل و B003 kibirli üstünlük taslama / العظمة والتجبر ← 4:34 عَلِيًّا
+  - same: ط و ع B005 yükümlü olmadığı iyiliği gönüllü yapma / التطوع والتبرع ← 4:34 أَطَعْنَكُمْ
+  - same: ك ب ر B005 saygınlık ve önderlikte yüksek konum / رفعة الشرف والرئاسة ← 4:34 كَبِيرًا
+  - near: ف خ ر B002 övünmede üstün sayma veya üstün gelme / تفضيل في المفاخرة ← 4:36 فَخُورًا
+  - near: ك ب ر B005 saygınlık ve önderlikte yüksek konum / رفعة الشرف والرئاسة ← 4:31 كَبَآئِرَ
+  - near: ك و ن B002 bulunma yeri ve konum değeri / المكان والمكانة من الكون ← 4:33 كَانَ
+  - far: ط و ل B004 güç, varlık ve iyilik üstünlüğü / الطَّوْل والقدرة ← 4:25 طَوْلًا
+  - far: ف و ق B002 değer ve mertebe üstünlüğü / علو المنزلة والفضل ← 4:11 فَوْقَ
+- **B005** giysiyi omuzlara dolayarak kuşanma veya evde tek giysiyle bulunma / التوشح بالثوب
+  - same: ر ج ل B002 erkek insan / الرجل الذكر ← 4:34 ٱلرِّجَالُ
+  - same: ط و ع B005 yükümlü olmadığı iyiliği gönüllü yapma / التطوع والتبرع ← 4:34 أَطَعْنَكُمْ
+  - same: ض ج ع B002 aynı yatakta birlikte yatma / مشاركة المضجع ← 4:34 ٱلْمَضَاجِعِ
+  - near: ف خ ر B003 iyi, değerli ve seçkin / النفاسة والجودة ← 4:36 فَخُورًا
+  - near: ر ج ل B002 erkek insan / الرجل الذكر ← 4:32 لِّلرِّجَالِ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 4:35 عَلِيمًا
+  - far: ح ل ل B007 en az iki parçalık giysi takımı / حُلّة الثياب ← 4:24 وَأُحِلَّ
+  - far: م ث ل B009 iyilik ve erdem bakımından üstün / الأمثل فضلا ← 4:11 مِثْلُ
+
+## ء ل ه (ٱللَّهُ, ٱللَّهَ)
+
+- **B001** tapınma ve tapınılan varlık / التعبد والمعبود
+  - same: ع ل و B006 gel diye çağırma / نداء التعالي ← 4:34 عَلِيًّا
+  - same: م و ل B001 varlık; edinme, çoğalma ve başkasına kazandırma / اتخاذ المال وكثرته ← 4:34 أَمْوَٰلِهِمْ
+  - same: ق و م B009 ayakta tutan dayanak ve geçim temeli / قوام وعماد ومعاش ← 4:34 قَوَّٰمُونَ
+  - near: ع ب د B003 boyun eğerek itaat ve tapınma / العبادة والطاعة الخاضعة ← 4:36 وَٱعْبُدُوا۟
+  - near: ن ص ب B002 tapınma veya adak kesme taşı / حجر منصوب للعبادة والذبح ← 4:33 نَصِيبَهُمْ
+  - near: م ن ي B012 belirli bir puta verilen ad / مناة اسم صنم أو علم ← 4:32 تَتَمَنَّوْا۟
+  - far: ب ع ل B002 üstün konumdaki yönetici / البَعْل ربا وصاحبا ومعبودا ← 4:128 بَعْلِهَا
+  - far: ع ب د B003 boyun eğerek itaat ve tapınma / العبادة والطاعة الخاضعة ← 4:118 عِبَادِكَ
+- **B002** Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء
+  - same: ع ل و B012 ilgeç ve kalıplaşmış görev sözü / حرف عَلَى وما جرى مجراه ← 4:34 عَلِيًّا
+  - same: ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 4:34 قَوَّٰمُونَ
+  - same: ص ل ح B004 kişi adı olan kök türevleri / صالح وما قاربه علما لشخص ← 4:34 فَٱلصَّٰلِحَٰتُ
+  - near: ء م ن B003 duada kabul istegi sozu / قول آمين طلبا للاستجابة ← 4:38 يُؤْمِنُونَ
+  - near: ي م ن B003 kutsal tanıklı ant ve söz güvencesi / يمين الحلف ← 4:33 أَيْمَٰنُكُمْ
+  - near: ش ي ء B007 — / التلهف والتعجب ← 4:33 شَىْءٍ
+  - far: ر ب ب B001 sahip olup yönetme / ربوبية وملك وسيادة ← 4:23 وَرَبَٰٓئِبُكُمُ
+  - far: ء ي ي B010 yemin oncesi evet / إي افتتاح للقسم ← 4:56 بِـَٔايَٰتِنَا
+
+## ب ع ض (بَعْضَهُمْ, بَعْضٍ)
+
+- **B001** parça ve parçalara ayırma / تجزئة الشيء وطائفته
+  - same: ك ب ر B002 bir işin ana payı ve başlıca yükü / معظم الأمر ← 4:34 كَبِيرًا
+  - same: ط و ع B004 yapabilir hale gelmek için kendini zorlama / تكلف الاستطاعة ← 4:34 أَطَعْنَكُمْ
+  - same: ض ر ب B001 bir şeyi başka bir şeyin üzerine vurmak / إيقاع شيء على شيء ← 4:34 وَٱضْرِبُوهُنَّ
+  - near: ص ح ب B004 eşlikçi kılmak, yanında götürmek veya uygun düşmek / جعل الشيء مصاحبا واستصحابه ← 4:36 وَٱلصَّاحِبِ
+  - near: ك ب ر B002 bir işin ana payı ve başlıca yükü / معظم الأمر ← 4:31 كَبَآئِرَ
+  - near: ك ل ل B003 bütün, tüm / الكُلّ إحاطة وتماما ← 4:33 وَلِكُلٍّ
+  - far: ط و ف B004 topluluk veya bütünden ayrılan parça / الطائفة الملتفة ← 4:81 طَآئِفَةٌ
+  - far: ص د ر B006 bir şeyin bölümü ya da kümesi / الطائفة من الشيء ← 4:90 صُدُورُهُمْ
+- **B002** sivrisinek ve ona bağlı zarar veya bulunma kullanımları / البعوضة لصغرها وإيذائها
+  - same: ر ج ل B006 büyük çekirge sürüsü / الرَّجْل من الجراد ← 4:34 ٱلرِّجَالُ
+  - same: ف ض ل B002 nitelikçe üstün olma, yüksek değer taşıma ve karşılaştırmada öne geçme / الدرجة والفضيلة ← 4:34 فَضَّلَ
+  - same: ك ب ر B007 ağır cezalık büyük günah / الإثم الكبير والذنوب الكبائر ← 4:34 كَبِيرًا
+  - near: ذ ر ر B001 küçük karıncalar ve bunlardan biri / صغر الذر وانتشاره ← 4:40 ذَرَّةٍ
+  - near: ك ل ل B006 ev biçimli ince koruyucu örtü / الكِلّة سترا وبيتا ← 4:33 وَلِكُلٍّ
+  - near: ج ع ل B008 kara küçük yer hayvanı ve bunlarla dolu su / دويبة الجعلان ← 4:33 جَعَلْنَا
+  - far: ذ ر ر B001 küçük karıncalar ve bunlardan biri / صغر الذر وانتشاره ← 4:9 ذُرِّيَّةً
+  - far: ك ل ل B006 ev biçimli ince koruyucu örtü / الكِلّة سترا وبيتا ← 4:12 كَلَٰلَةً
+
+## ن ف ق (أَنفَقُوا۟)
+
+- **B001** tükenip sona erme; özel kullanımlarda alıcı bulma, çabuk kesilme veya yüzeyden ayrılma / ذهاب الشيء وانقطاعه
+  - same: ق و م B018 pazarın canlanıp satışların artması / نفاق السوق ← 4:34 قَوَّٰمُونَ
+  - same: ب غ ي B004 yaranın şişip bozulması veya içinde irin kalmış halde kapanması / فساد الجرح وتجاوزه ← 4:34 تَبْغُوا۟
+  - same: ط و ع B001 zorlanmadan boyun eğme ve kolay yönlenme / الانقياد والطاعة ← 4:34 أَطَعْنَكُمْ
+  - near: ت ج ر B003 pazarda ragbet goren deve / الناقة الرائجة في البيع ← 4:29 تِجَٰرَةً
+  - near: ش ق ق B001 yarma, yarılma ve açılma / انصداع الشيء وانفتاحه ← 4:35 شِقَاقَ
+  - near: ف خ ر B003 iyi, değerli ve seçkin / النفاسة والجودة ← 4:36 فَخُورًا
+  - far: ق و م B018 pazarın canlanıp satışların artması / نفاق السوق ← 4:46 وَأَقْوَمَ
+  - far: ع ف و B007 büyüyüp çoğalma veya bir ölçüde başkasını aşma / النماء والكثرة إذا ترك الشيء ← 4:43 عَفُوًّا
+- **B002** bir şeyi gider olarak elden çıkarma; özel kullanımda elindekini tüketip yoksullaşma / خروج المال في النفقة
+  - same: ق و م B018 pazarın canlanıp satışların artması / نفاق السوق ← 4:34 قَوَّٰمُونَ
+  - same: ط و ع B005 yükümlü olmadığı iyiliği gönüllü yapma / التطوع والتبرع ← 4:34 أَطَعْنَكُمْ
+  - same: م و ل B001 varlık; edinme, çoğalma ve başkasına kazandırma / اتخاذ المال وكثرته ← 4:34 أَمْوَٰلِهِمْ
+  - near: ء ك ل B004 malı harcama veya ele geçirme / استهلاك المال وأخذه ← 4:29 تَأْكُلُوٓا۟
+  - near: ك س ب B002 birine para ya da iyilik kazandırma / إكساب غيره خيرا أو مالا ← 4:32 ٱكْتَسَبُوا۟
+  - near: ر ز ق B001 yararlanılmak üzere verilen pay / العطاء المقسوم ← 4:39 رَزَقَهُمُ
+  - far: ق س ط B010 ev halkına yapılan harcamayı kısmak / تقتير النفقة ← 4:3 تُقْسِطُوا۟
+  - far: ص د ق B006 mal vererek yardım etme veya haktan vazgeçme / صدقة المال والحق ← 4:47 مُصَدِّقًا
+- **B003** başka bir yere açılan yer altı geçidi ve kemirgen yuvasındaki gizli çıkış / سرب نافذ له مخرج
+  - same: ض ر ب B002 bir amaçla yeryüzünde yolculuk etmek / السعي في الأرض ← 4:34 وَٱضْرِبُوهُنَّ
+  - same: ض ج ع B001 yanı üzerine uzanma veya yatırma / لصوق الجنب بالأرض ← 4:34 ٱلْمَضَاجِعِ
+  - same: ق و م B018 pazarın canlanıp satışların artması / نفاق السوق ← 4:34 قَوَّٰمُونَ
+  - near: ء ت ي B013 etkili ve işini yürüten adam / نَفاذ الرجل ← 4:33 فَـَٔاتُوهُمْ
+  - near: ش ق ق B001 yarma, yarılma ve açılma / انصداع الشيء وانفتاحه ← 4:35 شِقَاقَ
+  - near: ت ج ر B003 pazarda ragbet goren deve / الناقة الرائجة في البيع ← 4:29 تِجَٰرَةً
+  - far: خ ي ر B006 bir geçidi tıkayıp hayvanı yuvasından çıkarma / استدراج الحيوان من جحره ← 4:25 خَيْرٌ
+  - far: ء ت ي B013 etkili ve işini yürüten adam / نَفاذ الرجل ← 4:25 وَءَاتُوهُنَّ
+- **B004** içindeki inanç veya tutumun tersini göstererek bağlı görünme / إظهار باب وإخفاء مخرج
+  - same: ق و م B018 pazarın canlanıp satışların artması / نفاق السوق ← 4:34 قَوَّٰمُونَ
+  - same: ه ج ر B001 bağı kesip uzaklaşma / الانقطاع والمفارقة ← 4:34 وَٱهْجُرُوهُنَّ
+  - same: ص ل ح B002 barışma ve uzlaşma / الصلح إزالة النفار بين الناس ← 4:34 فَٱلصَّٰلِحَٰتُ
+  - near: ك ف ر B003 dinî gerçeği reddetme / حجب الحق ← 4:31 نُكَفِّرْ
+  - near: ك ت م B001 gizleyip açıklamamak / إخفاء وستر ← 4:37 وَيَكْتُمُونَ
+  - near: د خ ل B001 içeri girmek veya içeri sokmak / الولوج إلى داخل ← 4:31 وَنُدْخِلْكُم
+  - far: ك ف ر B003 dinî gerçeği reddetme / حجب الحق ← 4:42 كَفَرُوا۟
+  - far: ك ت م B001 gizleyip açıklamamak / إخفاء وستر ← 4:42 يَكْتُمُونَ
+
+## م و ل (أَمْوَٰلِهِمْ)
+
+- **B001** varlık; edinme, çoğalma ve başkasına kazandırma / اتخاذ المال وكثرته
+  - same: ن ف ق B002 bir şeyi gider olarak elden çıkarma; özel kullanımda elindekini tüketip yoksullaşma / خروج المال في النفقة ← 4:34 أَنفَقُوا۟
+  - same: ض ر ب B010 kişiye ya da toprağa yüklenen mali ödeme / المال المضروب على أحد ← 4:34 وَٱضْرِبُوهُنَّ
+  - same: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 4:34 ٱللَّهُ
+  - near: ء ك ل B004 malı harcama veya ele geçirme / استهلاك المال وأخذه ← 4:29 تَأْكُلُوٓا۟
+  - near: ع ق د B004 mal veya taşınmaz edinip elde tutma / اقتناء المال والضيعة ← 4:33 عَقَدَتْ
+  - near: ك س ب B002 birine para ya da iyilik kazandırma / إكساب غيره خيرا أو مالا ← 4:32 ٱكْتَسَبُوا۟
+  - far: ء ك ل B004 malı harcama veya ele geçirme / استهلاك المال وأخذه ← 4:10 يَأْكُلُونَ
+  - far: ء خ ذ B010 kendisi için edinip kazanma / الاتخاذ والاكتساب ← 4:25 مُتَّخِذَٰتِ
+
+## ص ل ح (فَٱلصَّٰلِحَٰتُ)
+
+- **B001** iyi ve düzgün olma; düzeltme / الصلاح ضد الفساد والطلاح
+  - same: ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 4:34 قَوَّٰمُونَ
+  - same: ط و ع B001 zorlanmadan boyun eğme ve kolay yönlenme / الانقياد والطاعة ← 4:34 أَطَعْنَكُمْ
+  - same: ب غ ي B004 yaranın şişip bozulması veya içinde irin kalmış halde kapanması / فساد الجرح وتجاوزه ← 4:34 تَبْغُوا۟
+  - near: ء ه ل B003 uygun ve layık olmak / موضع الصلاح والاستحقاق ← 4:35 أَهْلِهِۦ
+  - near: ح ك م B001 alıkoyup geri çevirmek / المنع والرد للإصلاح ← 4:35 حَكَمًا
+  - near: ح س ن B002 bir şeyi güzelleştirme, işi iyi yapma veya başkasına iyilik etme / الإحسان فعل حسن ← 4:36 إِحْسَٰنًا
+  - far: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 4:25 غَيْرَ
+  - far: ز ك و B002 ahlaken arınıp düzgünleşme / الطهارة والصلاح ← 4:49 يُزَكُّونَ
+- **B002** barışma ve uzlaşma / الصلح إزالة النفار بين الناس
+  - same: ف ض ل B002 nitelikçe üstün olma, yüksek değer taşıma ve karşılaştırmada öne geçme / الدرجة والفضيلة ← 4:34 فَضَّلَ
+  - same: ن ف ق B004 içindeki inanç veya tutumun tersini göstererek bağlı görünme / إظهار باب وإخفاء مخرج ← 4:34 أَنفَقُوا۟
+  - same: ه ج ر B001 bağı kesip uzaklaşma / الانقطاع والمفارقة ← 4:34 وَٱهْجُرُوهُنَّ
+  - near: ن و ر B007 topluluklar arası düşmanlık ve kin / النائرة بين القوم ← 4:30 نَارًا
+  - near: ء ك ل B009 söz taşıyarak arayı bozma / الإفساد والنميمة بين الناس ← 4:29 تَأْكُلُوٓا۟
+  - near: ق ت ل B011 öldürme amacıyla karşılıklı savaşma / مقاتلة ومحاربة بين طرفين ← 4:29 تَقْتُلُوٓا۟
+  - far: س ل م B004 barış ve karşılıklı uzlaşma / الصلح والمسالمة ضد الحرب ← 4:65 وَيُسَلِّمُوا۟
+  - far: ه و د B005 güvenlik umduran barış ve karşılıklı uzlaşma / السلامة بالهوادة ← 4:46 هَادُوا۟
+- **B003** sana uygun olma / الصلاح للشيء ملاءمته
+  - same: ب غ ي B002 uygun, mümkün veya hak edilmiş olmak / الانبغاء والمطاوعة لما يليق أو يتيسر ← 4:34 تَبْغُوا۟
+  - same: ق و م B007 başkasının yerini ve işlevini alma / نيابة وقيام مقام غيره ← 4:34 قَوَّٰمُونَ
+  - same: ط و ع B002 taraflar arasında uyum gösterme / الموافقة والمطاوعة ← 4:34 أَطَعْنَكُمْ
+  - near: ء ه ل B003 uygun ve layık olmak / موضع الصلاح والاستحقاق ← 4:35 أَهْلِهِۦ
+  - near: ص ح ب B004 eşlikçi kılmak, yanında götürmek veya uygun düşmek / جعل الشيء مصاحبا واستصحابه ← 4:36 وَٱلصَّاحِبِ
+  - near: س ء ل B003 birinin isteğini yerine getirmek / قضاء المسألة ← 4:32 وَسْـَٔلُوا۟
+  - far: ز ك و B004 yakışmamak / الملاءمة واللياقة ← 4:49 يُزَكُّونَ
+  - far: و ص ل B012 bu, onun benzeri veya dengidir / مساواة الشيء لشيء آخر في المثل ← 4:90 يَصِلُونَ
+- **B004** kişi adı olan kök türevleri / صالح وما قاربه علما لشخص
+  - same: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 4:34 قَوَّٰمُونَ
+  - same: س ط ع B006 belirli bir dağın özel adı / اسم جبل بعينه ← 4:34 أَطَعْنَكُمْ
+  - same: س ب ل B002 yol kullanan kişi veya yolcu / أهل الطريق وسالكوه ← 4:34 سَبِيلًا
+  - near: ي س ر B010 yer ve kişi adı kullanımları / موضع أو علم باسم يسر ويسار ← 4:30 يَسِيرًا
+  - near: م ن ي B012 belirli bir puta verilen ad / مناة اسم صنم أو علم ← 4:32 تَتَمَنَّوْا۟
+  - near: ء م م B009 öne konulan ve izlenen kılavuz / الإمام ومن يقتدى به ← 4:41 أُمَّةٍۭ
+  - far: ي س ر B010 yer ve kişi adı kullanımları / موضع أو علم باسم يسر ويسار ← 4:169 يَسِيرًا
+  - far: و د د B005 bir putun özel adı / اسم صنم معبود ← 4:42 يَوَدُّ
+- **B005** bir kent ve bir nehir için özel adlar / صلاح والصلح علمان لمواضع
+  - same: ه ج ر B012 yer ve soy kolu adları / الأعلام والمواضع ← 4:34 وَٱهْجُرُوهُنَّ
+  - same: س ط ع B006 belirli bir dağın özel adı / اسم جبل بعينه ← 4:34 أَطَعْنَكُمْ
+  - same: ع ل و B012 ilgeç ve kalıplaşmış görev sözü / حرف عَلَى وما جرى مجراه ← 4:34 عَلِيًّا
+  - near: ب ن ي B003 Kabe, Allah'ın Evi veya Mekke için özel ad / البِنْية للبيت الحرام ومكة ← 4:36 وَٱبْنِ
+  - near: م ن ي B012 belirli bir puta verilen ad / مناة اسم صنم أو علم ← 4:32 تَتَمَنَّوْا۟
+  - near: ي س ر B010 yer ve kişi adı kullanımları / موضع أو علم باسم يسر ويسار ← 4:30 يَسِيرًا
+  - far: ب ن ي B003 Kabe, Allah'ın Evi veya Mekke için özel ad / البِنْية للبيت الحرام ومكة ← 4:23 وَبَنَاتُكُمْ
+  - far: ز ك و B002 ahlaken arınıp düzgünleşme / الطهارة والصلاح ← 4:49 يُزَكُّونَ
+
+## ق ن ت (قَٰنِتَٰتٌ)
+
+- **B001** inanç yolunda buyruğa boyun eğerek bağlı kalma / طاعة دينية خاضعة
+  - same: ط و ع B001 zorlanmadan boyun eğme ve kolay yönlenme / الانقياد والطاعة ← 4:34 أَطَعْنَكُمْ
+  - same: ق و م B008 düzgünlük, denge ve doğru yoldan sapmama / استقامة واعتدال واستواء ← 4:34 قَوَّٰمُونَ
+  - same: ك و ن B004 boyun eğme / الخضوع بالاستكانة ← 4:34 كَانَ
+  - near: ع ب د B003 boyun eğerek itaat ve tapınma / العبادة والطاعة الخاضعة ← 4:36 وَٱعْبُدُوا۟
+  - near: ك و ن B004 boyun eğme / الخضوع بالاستكانة ← 4:33 كَانَ
+  - near: ء م م B005 benimsenen inanç ve yaşayış yolu / الأمة دينا وطريقة ← 4:41 أُمَّةٍۭ
+  - far: د ي ن B001 boyun eğerek uyma ve buna dayalı inanç düzeni / الطاعة والانقياد ← 4:46 ٱلدِّينِ
+  - far: ع ب د B003 boyun eğerek itaat ve tapınma / العبادة والطاعة الخاضعة ← 4:118 عِبَادِكَ
+- **B004** namazda insan sözü söylemeyip namaza yönelme / إمساك مصلي عن الكلام
+  - same: ض ر ب B004 bir işten geri durup yüz çevirmek / القبض عن الشيء والكف ← 4:34 وَٱضْرِبُوهُنَّ
+  - same: ك و ن B004 boyun eğme / الخضوع بالاستكانة ← 4:34 كَانَ
+  - same: ن ش ز B005 sözüyle öfkelendirip ayağa kaldırma / الإغضاب والإقامة بالكلام ← 4:34 نُشُوزَهُنَّ
+  - near: ص ل ي B001 ayakta durma, eğilme ve yere kapanmalı yükümlü tapınma / الصلاة عبادة لازمة ← 4:30 نُصْلِيهِ
+  - near: س ك ن B004 insanı rahatlatıp içini yatıştıran dayanak / مأنس السكون ← 4:36 وَٱلْمَسَٰكِينِ
+  - near: ء م م B009 öne konulan ve izlenen kılavuz / الإمام ومن يقتدى به ← 4:41 أُمَّةٍۭ
+  - far: ص و م B002 konuşmaktan kaçınma / إمساك اللسان ← 4:92 فَصِيَامُ
+  - far: س ب ح B001 Tanrı'yı yücelterek anma ve kulluk / العبادة بالتسبيح والصلاة ← 4:171 سُبْحَٰنَهُۥٓ
+
+## ح ف ظ (حَٰفِظَٰتٌ, حَفِظَ)
+
+- **B001** koruyup gözetme / مراعاة الشيء وحراسته
+  - same: ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 4:34 قَوَّٰمُونَ
+  - same: ك و ن B003 birini güvenceyle üstlenme / الكفالة والقيام على فلان ← 4:34 كَانَ
+  - same: ص ل ح B003 sana uygun olma / الصلاح للشيء ملاءمته ← 4:34 فَٱلصَّٰلِحَٰتُ
+  - near: م ن ي B001 ölçüp belirleyerek hükme bağlama / تقدير الشيء وإنفاذ قضائه ← 4:32 تَتَمَنَّوْا۟
+  - near: ص ح ب B002 eşlik eden koruma ve destek / الحفظ بالمصاحبة ← 4:36 وَٱلصَّاحِبِ
+  - near: ج ي ء B004 — / الإتيان بالشيء واستحضاره ← 4:41 جِئْنَا
+  - far: ح و ط B002 koruyup gözetme / الحفظ والحياطة ← 4:108 مُحِيطًا
+  - far: خ و ل B001 düzenli gözetip bakımını üstlenme / التعهد والرعاية ← 4:23 وَخَٰلَٰتُكُمْ
+- **B002** bellekte tutma / ثبوت المحفوظ في النفس
+  - same: ط و ع B006 iç benliğin işi kolay gösterip yöneltmesi / تسهيل النفس للأمر ← 4:34 أَطَعْنَكُمْ
+  - same: ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 4:34 قَوَّٰمُونَ
+  - same: ص ل ح B001 iyi ve düzgün olma; düzeltme / الصلاح ضد الفساد والطلاح ← 4:34 فَٱلصَّٰلِحَٰتُ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 4:35 عَلِيمًا
+  - near: ن ف س B013 iç düşünce, niyet ve ayırt etme gücü / ما في النفس من عقل وروع ← 4:29 أَنفُسَكُمْ
+  - near: ص ح ب B002 eşlik eden koruma ve destek / الحفظ بالمصاحبة ← 4:36 وَٱلصَّاحِبِ
+  - far: ذ ك ر B003 akılda tutma ve yeniden hatırlama / استحضار الشيء بعد النسيان أو مع الحفظ ← 4:11 لِلذَّكَرِ
+  - far: ق و ت B002 gerekeni ölçüp koruyan, tanık olan ve gücü yeten / المقيت القائم على الشيء حفظا وقدرة وشهادة ← 4:85 مُّقِيتًا
+- **B003** düzenli biçimde sürdürme / ملازمة الأمر والمواظبة عليه
+  - same: ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 4:34 قَوَّٰمُونَ
+  - same: ف ض ل B002 nitelikçe üstün olma, yüksek değer taşıma ve karşılaştırmada öne geçme / الدرجة والفضيلة ← 4:34 فَضَّلَ
+  - same: ص ل ح B001 iyi ve düzgün olma; düzeltme / الصلاح ضد الفساد والطلاح ← 4:34 فَٱلصَّٰلِحَٰتُ
+  - near: ص ل ي B001 ayakta durma, eğilme ve yere kapanmalı yükümlü tapınma / الصلاة عبادة لازمة ← 4:30 نُصْلِيهِ
+  - near: ء م ر B001 konu ve hal / الشأن والحال ← 4:37 وَيَأْمُرُونَ
+  - near: ح ك م B003 bilgi ve usla doğruyu bulma yetkinliği / الحكمة والعلم المصيب ← 4:35 حَكَمًا
+  - far: ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 4:46 وَأَقْوَمَ
+  - far: ح ر ض B007 bir işi düzenli ve sürekli biçimde sürdürme / محارضة العمل والدوام عليه ← 4:84 وَحَرِّضِ
+- **B004** uyanık ve dikkatli olma / تيقظ المتحفظ وقلة غفلته
+  - same: و ع ظ B001 sakındırıcı öğüt ve öğütten ders alma / تذكير مخوِّف يرق له القلب ← 4:34 فَعِظُوهُنَّ
+  - same: ض ج ع B003 işi savsaklama ve güçsüzce geri durma / الانطراح عن القيام بالأمر ← 4:34 ٱلْمَضَاجِعِ
+  - same: ف ض ل B002 nitelikçe üstün olma, yüksek değer taşıma ve karşılaştırmada öne geçme / الدرجة والفضيلة ← 4:34 فَضَّلَ
+  - near: ي ت م B003 dalgınlık ve gerekeni eksik yapma / غفلة وتقصير ← 4:36 وَٱلْيَتَٰمَىٰ
+  - near: ح ك م B003 bilgi ve usla doğruyu bulma yetkinliği / الحكمة والعلم المصيب ← 4:35 حَكَمًا
+  - near: م ن ي B014 ailesine karşı koruma kıskançlığından yoksun olma / مماناة قلة غيرة ← 4:32 تَتَمَنَّوْا۟
+  - far: غ ف ل B001 dalgınlıkla gözden kaçırma / سهو يترك الشيء خارج التيقظ ← 4:102 تَغْفُلُونَ
+  - far: غ ر ر B007 deneyimsiz ve kötülüğü sezmeyen saflık / قلة الخبرة والغفلة اللينة ← 4:120 غُرُورًا
+- **B005** koruyucu öfke ve onurlu tepki / حفيظة الغضب والحمية
+  - same: و ع ظ B001 sakındırıcı öğüt ve öğütten ders alma / تذكير مخوِّف يرق له القلب ← 4:34 فَعِظُوهُنَّ
+  - same: ن ش ز B005 sözüyle öfkelendirip ayağa kaldırma / الإغضاب والإقامة بالكلام ← 4:34 نُشُوزَهُنَّ
+  - same: ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 4:34 قَوَّٰمُونَ
+  - near: ع ب د B008 incinmiş gurur, öfke veya kederli iç duygulanım / الأنفة والغضب ← 4:36 وَٱعْبُدُوا۟
+  - near: ص ح ب B002 eşlik eden koruma ve destek / الحفظ بالمصاحبة ← 4:36 وَٱلصَّاحِبِ
+  - near: ع ق د B012 öfkenin düğümlenmesi ve çözülmesiyle anlatılan huy durumu / انقباض الغضب والخلق ← 4:33 عَقَدَتْ
+  - far: ع ب د B008 incinmiş gurur, öfke veya kederli iç duygulanım / الأنفة والغضب ← 4:118 عِبَادِكَ
+  - far: ق و ت B002 gerekeni ölçüp koruyan, tanık olan ve gücü yeten / المقيت القائم على الشيء حفظا وقدرة وشهادة ← 4:85 مُّقِيتًا
+- **B006** dokunulmazlıkları, sözleri ve bağlılığı koruma / صون الحرم والعهد والعفة
+  - same: ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 4:34 قَوَّٰمُونَ
+  - same: غ ي ب B006 kuşku / الغيب شك ← 4:34 لِّلْغَيْبِ
+  - same: ف ض ل B002 nitelikçe üstün olma, yüksek değer taşıma ve karşılaştırmada öne geçme / الدرجة والفضيلة ← 4:34 فَضَّلَ
+  - near: و ل ي B004 yakın durup destek olma / محبة ونصرة وموالاة ← 4:33 مَوَٰلِىَ
+  - near: ص ح ب B002 eşlik eden koruma ve destek / الحفظ بالمصاحبة ← 4:36 وَٱلصَّاحِبِ
+  - near: م ن ي B014 ailesine karşı koruma kıskançlığından yoksun olma / مماناة قلة غيرة ← 4:32 تَتَمَنَّوْا۟
+  - far: ع ف ف B001 uygunsuz olandan sakınıp isteklere karşı kendini tutma / الكفّ عما لا ينبغي ← 4:6 فَلْيَسْتَعْفِفْ
+  - far: ح ر م B006 çiğnenmemesi gereken saygınlık ve korunmuş hak / الحرمة والذمة والحق ← 4:23 حُرِّمَتْ
+- **B007** açık, düz ve kesintisiz yol / طريق حافظ بين مستقيم
+  - same: ق و م B008 düzgünlük, denge ve doğru yoldan sapmama / استقامة واعتدال واستواء ← 4:34 قَوَّٰمُونَ
+  - same: س ب ل B001 yol ve bir amaca ulaştıran yol / طريق ممتد يسلك ← 4:34 سَبِيلًا
+  - same: خ و ف B002 korku doğurma ya da korkulur kılma / إدخال الخوف في الغير ← 4:34 تَخَافُونَ
+  - near: ش ر ك B005 yolun ana yatağı, izleri ve küçük kolları / شِرك الطريق ← 4:36 تُشْرِكُوا۟
+  - near: س ب ل B001 yol ve bir amaca ulaştıran yol / طريق ممتد يسلك ← 4:36 ٱلسَّبِيلِ
+  - near: ب ي ن B003 arayı bağlayan ilişki / الوصلة القائمة بين الأطراف ← 4:35 بَيْنِهِمَا
+  - far: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 4:68 صِرَٰطًا
+  - far: ح ج ج B002 ana ve belirgin yol; ayrıca kıvrımlı veya oyuklu yol türleri / الطريق المقصود الواضح ← 4:165 حُجَّةٌۢ
+
+## غ ي ب (لِّلْغَيْبِ)
+
+- **B001** gözden, duyudan ya da bilgiden uzak kalma / تستر الشيء عن العيون
+  - same: ض ج ع B004 alçaltma veya bir yana eğme / خفض الشيء وإمالته ← 4:34 ٱلْمَضَاجِعِ
+  - same: ح ف ظ B006 dokunulmazlıkları, sözleri ve bağlılığı koruma / صون الحرم والعهد والعفة ← 4:34 حَٰفِظَٰتٌ
+  - same: ض ر ب B010 kişiye ya da toprağa yüklenen mali ödeme / المال المضروب على أحد ← 4:34 وَٱضْرِبُوهُنَّ
+  - near: ك ف ر B001 örtmek, kapatmak / ستر وتغطية ← 4:31 نُكَفِّرْ
+  - near: ك ت م B001 gizleyip açıklamamak / إخفاء وستر ← 4:37 وَيَكْتُمُونَ
+  - near: ش ه د B002 bilgiye dayalı tanıklık / البيان بعلم ← 4:33 شَهِيدًا
+  - far: ج ن ن B001 örtme ve duyulardan gizleme / الستر والاستتار ← 4:13 جَنَّٰتٍ
+  - far: ض ل ل B002 gizlenerek, karışıp eriyerek veya gömülerek gözden yitme / الغيبوبة والخفاء ← 4:44 ٱلضَّلَٰلَةَ
+- **B002** içine gireni gizleyen çukur yer / منهبط يغيب فيه الشيء
+  - same: ض ج ع B005 yere yakın tepe, vadi ağzı veya yağış yeri / الأرض المنخفضة اللاصقة ← 4:34 ٱلْمَضَاجِعِ
+  - same: ض ر ب B002 bir amaçla yeryüzünde yolculuk etmek / السعي في الأرض ← 4:34 وَٱضْرِبُوهُنَّ
+  - same: ق و م B007 başkasının yerini ve işlevini alma / نيابة وقيام مقام غيره ← 4:34 قَوَّٰمُونَ
+  - near: ع د و B010 sert, kuru ve engebeli yer / العَدْواء في صلابة المكان واضطرابه ← 4:30 عُدْوَٰنًا
+  - near: ج ي ء B003 — / مجتمع الماء في هبطة أو حول حصن ← 4:41 جِئْنَا
+  - near: ج ي ء B002 — / الجِيأة مجتمع الماء ← 4:41 جِئْنَا
+  - far: غ و ط B001 alçak ve çukur yer / اطمئنان وغور في الأرض ← 4:43 ٱلْغَآئِطِ
+  - far: ض ل ل B002 gizlenerek, karışıp eriyerek veya gömülerek gözden yitme / الغيبوبة والخفاء ← 4:44 ٱلضَّلَٰلَةَ
+- **B003** içine gireni örten sık koruluk / أجمة يغاب فيها
+  - same: ب غ ي B005 evlilik dışı cinsel ilişki ve buna bağlı kişi adları / البغاء والفجور الجنسي ← 4:34 تَبْغُوا۟
+  - same: ر ج ل B018 hayvanın biniciye ödetilmeyen vuruş zararı / الرِّجل جبار ← 4:34 ٱلرِّجَالُ
+  - same: خ و ف B003 korkuda yarışıp ötekinden daha çok korkma / مغالبة في الخوف ← 4:34 تَخَافُونَ
+  - near: ح ك م B006 gemin çene çevresini kuşatan kısıtlayıcı parçası / حكمة اللجام ← 4:35 حَكَمًا
+  - near: ء ج ر B003 çevresi korkuluksuz açık dam / سطح بلا سترة ← 4:40 أَجْرًا
+  - near: ء م م B015 insandaki kusur / الأمة أو الآمة عيبا ← 4:41 أُمَّةٍۭ
+  - far: ح ك م B006 gemin çene çevresini kuşatan kısıtlayıcı parçası / حكمة اللجام ← 4:26 حَكِيمٌ
+  - far: ش ر ي B005 çalılık ve aslanlarıyla tanınan yer / الموضع ذو الغياض والأسد ← 4:44 يَشْتَرُونَ
+- **B004** kişiyi yokluğunda iyi ya da kötü anma / ذكر الإنسان في غيبته
+  - same: ن ش ز B005 sözüyle öfkelendirip ayağa kaldırma / الإغضاب والإقامة بالكلام ← 4:34 نُشُوزَهُنَّ
+  - same: ح ف ظ B004 uyanık ve dikkatli olma / تيقظ المتحفظ وقلة غفلته ← 4:34 حَٰفِظَٰتٌ
+  - same: خ و ف B005 korkunun kişide dışa vurması / ظهور الخوف على الإنسان ← 4:34 تَخَافُونَ
+  - near: س و ء B002 birini üzme veya ona kötülük etme / المساءة وما يسوء ← 4:31 سَيِّـَٔاتِكُمْ
+  - near: ج و ر B010 öfke veya üzüntünün iç yakıcılığı / الجائر حرارة الغيظ أو الحزن ← 4:36 وَٱلْجَارِ
+  - near: ء م م B015 insandaki kusur / الأمة أو الآمة عيبا ← 4:41 أُمَّةٍۭ
+  - far: و ق ع B013 arkasından kötülemek ve ayıplamak / الوقيعة في الناس ← 4:100 وَقَعَ
+  - far: ن ق ر B007 ayıplayıp çekiştirme / عيب واغتياب كأنه قرع مؤثر ← 4:53 نَقِيرًا
+- **B006** kuşku / الغيب شك
+  - same: ه ج ر B011 su için ayrılmış büyük veya yapılı havuz / الحوض المقتطع للماء ← 4:34 وَٱهْجُرُوهُنَّ
+  - same: ك و ن B004 boyun eğme / الخضوع بالاستكانة ← 4:34 كَانَ
+  - same: ع ل و B012 ilgeç ve kalıplaşmış görev sözü / حرف عَلَى وما جرى مجراه ← 4:34 عَلِيًّا
+  - near: ء م ن B002 dogru sayip kabul etme / تصديق يطمئن إليه القلب ← 4:38 يُؤْمِنُونَ
+  - near: ش ي ء B006 — / إصغاء السمع ← 4:33 شَىْءٍ
+  - near: ش ي ء B001 — / المشيئة ← 4:33 شَىْءٍ
+  - far: ش ك ك B006 birini gerçek olmayan bir soya bağlama / نسب يضم إلى غير موضعه ← 4:157 شَكٍّ
+  - far: ح د ث B006 ortaya koyma ve görünür kılma / إبداء الشيء وإظهاره ← 4:42 حَدِيثًا
+- **B007** koyunun işkembe ve bağırsaklarını örten ince yağ / غَيْب شحم الثرب
+  - same: ق و م B020 koyunun bacaklarını tutan hastalık / قوام في قوائم الشاة ← 4:34 قَوَّٰمُونَ
+  - same: ح ف ظ B006 dokunulmazlıkları, sözleri ve bağlılığı koruma / صون الحرم والعهد والعفة ← 4:34 حَٰفِظَٰتٌ
+  - same: ر ج ل B001 bacak uzvu / الرِّجل العضو ← 4:34 ٱلرِّجَالُ
+  - near: ج ي ء B001 — / المجيء والغلبة بالمجيء ← 4:41 جِئْنَا
+  - near: ش ه د B008 durumu gösteren belirti / العلامة الشاهدة ← 4:33 شَهِيدًا
+  - near: ش ي ء B006 — / إصغاء السمع ← 4:33 شَىْءٍ
+  - far: ف ر ق B013 böbrek çevresi yağı / فروقة شحم الكليتين ← 4:77 فَرِيقٌ
+  - far: ن ز ع B015 türü belirtilmemiş bir bitki / نبت يسمى النزعة ← 4:59 تَنَٰزَعْتُمْ
+- **B008** toprağa saklanmış ağaç kökleri / غيبان الشجرة عروق مستترة
+  - same: ض ر ب B002 bir amaçla yeryüzünde yolculuk etmek / السعي في الأرض ← 4:34 وَٱضْرِبُوهُنَّ
+  - same: س ب ل B010 kırmızı damarlı ağsı göz perdesi / غشاوة في العين تشبه النسج ← 4:34 سَبِيلًا
+  - same: ن ف ق B003 başka bir yere açılan yer altı geçidi ve kemirgen yuvasındaki gizli çıkış / سرب نافذ له مخرج ← 4:34 أَنفَقُوا۟
+  - near: ء ك ل B002 ağaç ve ekin ürünü / غلة الشجر والزرع ← 4:29 تَأْكُلُوٓا۟
+  - near: ظ ل م B007 siniri asan uzun surgunlu bitki / شجر الظلام المتجاوز ← 4:30 وَظُلْمًا
+  - near: ن و ر B004 ağaç çiçeği ve çiçeklenme / نور الشجر وزهره ← 4:30 نَارًا
+  - far: ش ج ر B001 gövdeli bitki; ağaçlık yer ve ağaç otlatma kullanımları / الشجر ذو الساق ← 4:65 شَجَرَ
+  - far: ق ل ب B003 hurma ağacının yumuşak iç sürgünü / قلب النخل والشجر ← 4:63 قُلُوبِهِمْ
+- **B009** ölüyü mezara gömme / تغييبه في القبر
+  - same: ك ب ر B011 üstünlük yarışına girip yenmek / المكابرة والغلبة ← 4:34 كَبِيرًا
+  - same: ب غ ي B007 atın koşarken çalımlı ve neşeli davranması / اختيال الفرس ومرحه في العدو ← 4:34 تَبْغُوا۟
+  - same: ن ش ز B005 sözüyle öfkelendirip ayağa kaldırma / الإغضاب والإقامة بالكلام ← 4:34 نُشُوزَهُنَّ
+  - near: ش ي ء B006 — / إصغاء السمع ← 4:33 شَىْءٍ
+  - near: ي م ن B007 ölmek; mezarda sağ yana yatırılmayla ilişkilendirilen kullanım / التيمن الموت ← 4:33 أَيْمَٰنُكُمْ
+  - near: ك ب ر B011 üstünlük yarışına girip yenmek / المكابرة والغلبة ← 4:31 كَبَآئِرَ
+  - far: ض ل ل B002 gizlenerek, karışıp eriyerek veya gömülerek gözden yitme / الغيبوبة والخفاء ← 4:44 ٱلضَّلَٰلَةَ
+  - far: ب ي ت B007 mezar evi / القبر بيت ← 4:15 ٱلْبُيُوتِ
+
+## خ و ف (تَخَافُونَ)
+
+- **B001** bir belirtiye dayanarak kötü bir şey bekleme korkusu / ذعر يتوقع المكروه
+  - same: و ع ظ B001 sakındırıcı öğüt ve öğütten ders alma / تذكير مخوِّف يرق له القلب ← 4:34 فَعِظُوهُنَّ
+  - same: ض ر ب B012 düzensiz ve yinelenen hareket / الحركة المضطربة والخفق ← 4:34 وَٱضْرِبُوهُنَّ
+  - same: ح ف ظ B004 uyanık ve dikkatli olma / تيقظ المتحفظ وقلة غفلته ← 4:34 حَٰفِظَٰتٌ
+  - near: ء م ن B001 guven ve guvenilirlik / سكون القلب في أمن وثقة ← 4:38 يُؤْمِنُونَ
+  - near: خ ف ف B001 ağırlığın veya yükün az olması ve azaltılması / خفة الثقل والحمل ← 4:28 يُخَفِّفَ
+  - near: خ ي ل B001 kişinin ya da şeyin siluet, yansıma veya zihinsel görüntü olarak beliren benzeri / الخيال المتشبه ← 4:36 مُخْتَالًا
+  - far: خ ش ي B001 korku duyma / الخوف والخشية مع الهيبة ← 4:25 خَشِىَ
+  - far: ف ر ق B009 yüreği dağıtan korku ve yoğun ürküntü / فرق القلب من الخوف ← 4:77 فَرِيقٌ
+- **B002** korku doğurma ya da korkulur kılma / إدخال الخوف في الغير
+  - same: و ع ظ B001 sakındırıcı öğüt ve öğütten ders alma / تذكير مخوِّف يرق له القلب ← 4:34 فَعِظُوهُنَّ
+  - same: ض ر ب B017 çatışmaya kışkırtmak / إلهاب الناس إلى الفعل ← 4:34 وَٱضْرِبُوهُنَّ
+  - same: س ب ل B001 yol ve bir amaca ulaştıran yol / طريق ممتد يسلك ← 4:34 سَبِيلًا
+  - near: خ ف ف B007 uyup boyun eğmek / الخفوف للطاعة والانقياد ← 4:28 يُخَفِّفَ
+  - near: ج ع ل B002 birini veya şeyi belirli bir duruma getirme / تصيير الشيء على حال ← 4:33 جَعَلْنَا
+  - near: ء م ن B001 guven ve guvenilirlik / سكون القلب في أمن وثقة ← 4:38 يُؤْمِنُونَ
+  - far: خ ش ي B001 korku duyma / الخوف والخشية مع الهيبة ← 4:25 خَشِىَ
+  - far: ح ذ ر B002 uyarıp sakındırma / إيقاع الحذر في الغير ← 4:71 حِذْرَكُمْ
+- **B003** korkuda yarışıp ötekinden daha çok korkma / مغالبة في الخوف
+  - same: ك ب ر B011 üstünlük yarışına girip yenmek / المكابرة والغلبة ← 4:34 كَبِيرًا
+  - same: غ ي ب B003 içine gireni örten sık koruluk / أجمة يغاب فيها ← 4:34 لِّلْغَيْبِ
+  - same: ن ش ز B005 sözüyle öfkelendirip ayağa kaldırma / الإغضاب والإقامة بالكلام ← 4:34 نُشُوزَهُنَّ
+  - near: ك ب ر B011 üstünlük yarışına girip yenmek / المكابرة والغلبة ← 4:31 كَبَآئِرَ
+  - near: ج ي ء B002 — / المغالبة بكثرة المجيء ← 4:41 جِئْنَا
+  - near: ج ي ء B001 — / المجيء والغلبة بالمجيء ← 4:41 جِئْنَا
+  - far: خ ش ي B001 korku duyma / الخوف والخشية مع الهيبة ← 4:25 خَشِىَ
+  - far: ك ب ر B011 üstünlük yarışına girip yenmek / المكابرة والغلبة ← 4:6 يَكْبَرُوا۟
+- **B004** bir şeyden alarak eksiltme / نقص يأخذ من الشيء
+  - same: ن ش ز B007 yaşla eksilmeyen güç ve iri sertlik / الغلظ وثبات القوة ← 4:34 نُشُوزَهُنَّ
+  - same: و ع ظ B001 sakındırıcı öğüt ve öğütten ders alma / تذكير مخوِّف يرق له القلب ← 4:34 فَعِظُوهُنَّ
+  - same: ف ض ل B002 nitelikçe üstün olma, yüksek değer taşıma ve karşılaştırmada öne geçme / الدرجة والفضيلة ← 4:34 فَضَّلَ
+  - near: ء م ن B001 guven ve guvenilirlik / سكون القلب في أمن وثقة ← 4:38 يُؤْمِنُونَ
+  - near: ق ر ب B001 yakın olma, yaklaşma veya yaklaştırma / الدنو وخلاف البعد ← 4:33 وَٱلْأَقْرَبُونَ
+  - near: خ ي ل B005 kesin bilgi olmadan zihinde canlandırma, sanma veya karıştırma / التخييل والاشتباه ← 4:36 مُخْتَالًا
+  - far: خ و ن B002 bir şeyden pay alarak eksiltme / التنقّص والتخوّن ← 4:105 لِّلْخَآئِنِينَ
+  - far: خ ش ي B001 korku duyma / الخوف والخشية مع الهيبة ← 4:25 خَشِىَ
+- **B005** korkunun kişide dışa vurması / ظهور الخوف على الإنسان
+  - same: ف ض ل B002 nitelikçe üstün olma, yüksek değer taşıma ve karşılaştırmada öne geçme / الدرجة والفضيلة ← 4:34 فَضَّلَ
+  - same: ر ج ل B001 bacak uzvu / الرِّجل العضو ← 4:34 ٱلرِّجَالُ
+  - same: ح ف ظ B004 uyanık ve dikkatli olma / تيقظ المتحفظ وقلة غفلته ← 4:34 حَٰفِظَٰتٌ
+  - near: خ ف ف B007 uyup boyun eğmek / الخفوف للطاعة والانقياد ← 4:28 يُخَفِّفَ
+  - near: ء م ن B001 guven ve guvenilirlik / سكون القلب في أمن وثقة ← 4:38 يُؤْمِنُونَ
+  - near: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 4:35 يُرِيدَآ
+  - far: خ ش ي B001 korku duyma / الخوف والخشية مع الهيبة ← 4:25 خَشِىَ
+  - far: ب ش ر B002 insan ya da insanlık / الإنسان الظاهر الجلد ← 4:138 بَشِّرِ
+- **B006** arıcı ya da su taşıyıcısının deri torbası veya üstlüğü / خافة العسال والسقاء
+  - same: ض ر ب B015 yoğun bal veya karışıp koyulaşmış süt / الغليظ المخلوط من عسل أو لبن ← 4:34 وَٱضْرِبُوهُنَّ
+  - same: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 4:34 قَوَّٰمُونَ
+  - same: غ ي ب B003 içine gireni örten sık koruluk / أجمة يغاب فيها ← 4:34 لِّلْغَيْبِ
+  - near: ب ن ي B004 deriden örtü, çadırımsı kap, yaygı veya saklama kabı / المَبْناة بيت أو غطاء من أدم ← 4:36 وَٱبْنِ
+  - near: خ ف ف B006 deve ayağı ucu veya kapalı ayak giysisi / الخُفّ والقدم الملبوسة ← 4:28 يُخَفِّفَ
+  - near: د خ ل B010 taze palmiye meyvesi için küçük örgü sepet / دوخلة الخوص للرطب ← 4:31 وَنُدْخِلْكُم
+  - far: ن ز ع B010 eş adlı somut araç ve nesneler / أداة أو موضع للنزع ← 4:59 تَنَٰزَعْتُمْ
+  - far: خ ف ي B002 örten ya da gizli kalan şey / ما يستر أو يستتر ← 4:108 يَسْتَخْفُونَ
+
+## ن ش ز (نُشُوزَهُنَّ)
+
+- **B001** yükselti ve çıkıntı / الارتفاع والنتوء
+  - same: ع ل و B001 yukarı yükselme ve yüksekte olma / السمو والارتفاع ← 4:34 عَلِيًّا
+  - same: س ط ع B001 havada uzama, yükselme veya yayılma / امتداد الشيء وارتفاعه في الهواء ← 4:34 أَطَعْنَكُمْ
+  - same: ر ج ل B012 günün yükselip aydınlığın yayılması / ترجل النهار ← 4:34 ٱلرِّجَالُ
+  - near: ن ص ب B001 dikme, dik durma ve yükselme / إقامة الشيء منتصبا بارزا ← 4:33 نَصِيبَهُمْ
+  - near: ع د و B010 sert, kuru ve engebeli yer / العَدْواء في صلابة المكان واضطرابه ← 4:30 عُدْوَٰنًا
+  - near: ر ج ل B012 günün yükselip aydınlığın yayılması / ترجل النهار ← 4:32 لِّلرِّجَالِ
+  - far: ع ل و B001 yukarı yükselme ve yüksekte olma / السمو والارتفاع ← 4:61 تَعَالَوْا۟
+  - far: ع ر ف B002 bir şeyin üzerindeki belirgin tepe, sırt veya üst çıkıntı / عرف مرتفع ظاهر في الشيء ← 4:25 بِٱلْمَعْرُوفِ
+- **B002** yerinden kalkma veya kaldırma / النهوض والانتقال عن المجلس
+  - same: ق و م B003 bir işe kararlılıkla girişme / عزم ونهوض إلى الأمر ← 4:34 قَوَّٰمُونَ
+  - same: ض ر ب B004 bir işten geri durup yüz çevirmek / القبض عن الشيء والكف ← 4:34 وَٱضْرِبُوهُنَّ
+  - same: ر ج ل B019 işine bütün gücüyle sarılmak / القيام على رجل ← 4:34 ٱلرِّجَالُ
+  - near: ث ق ل B008 dolgun kalçalı ağırbaşlı kadın / امرأة ثقال ← 4:40 مِثْقَالَ
+  - near: ن ص ب B001 dikme, dik durma ve yükselme / إقامة الشيء منتصبا بارزا ← 4:33 نَصِيبَهُمْ
+  - near: ع ذ ب B003 vazgeçme veya alıkoyma / الكف والمنع والفطام عن الشيء ← 4:37 عَذَابًا
+  - far: ر ف ع B001 bir şeyi yukarı kaldırmak / إعلاء الشيء ← 4:154 وَرَفَعْنَا
+  - far: ق و م B003 bir işe kararlılıkla girişme / عزم ونهوض إلى الأمر ← 4:46 وَأَقْوَمَ
+- **B004** eşinden soğuyup evlilik ilişkisine karşı koyma / نشوز الزوجين
+  - same: ق ن ت B001 inanç yolunda buyruğa boyun eğerek bağlı kalma / طاعة دينية خاضعة ← 4:34 قَٰنِتَٰتٌ
+  - same: ن س و B001 kadın topluluğunu bildiren ayrı biçimli çoğullar / جماعة النساء ← 4:34 ٱلنِّسَآءِ
+  - same: ه ج ر B001 bağı kesip uzaklaşma / الانقطاع والمفارقة ← 4:34 وَٱهْجُرُوهُنَّ
+  - near: ش ه و B002 art arda istek bildirme; eşten isteme veya eş için sağlama / التشهي بعد التشهي ← 4:27 ٱلشَّهَوَٰتِ
+  - near: ي ت م B005 evlilikle sona erip ermediği tartışmalı kadın adlandırması / انفراد المرأة عن الزوج ← 4:36 وَٱلْيَتَٰمَىٰ
+  - near: ت ر ك B007 evlenmeden birakilan kadin / امرأة تركت بلا زواج ← 4:33 تَرَكَ
+  - far: ح د د B007 eş için süsten kaçınarak yas tutma / إحداد المرأة وترك الزينة ← 4:14 حُدُودَهُۥ
+  - far: ر ب ص B003 kocaya tanınan sürede evde kalıp bekleme / مدة الانتظار الزوجية ← 4:141 يَتَرَبَّصُونَ
+- **B005** sözüyle öfkelendirip ayağa kaldırma / الإغضاب والإقامة بالكلام
+  - same: ق و م B006 bir yerde kalma ve kalınan yer / مقام وإقامة في موضع ← 4:34 قَوَّٰمُونَ
+  - same: ر ج ل B011 hazırlıksız söylemek / الكلام المرتجل ← 4:34 ٱلرِّجَالُ
+  - same: ح ف ظ B005 koruyucu öfke ve onurlu tepki / حفيظة الغضب والحمية ← 4:34 حَٰفِظَٰتٌ
+  - near: ر ج ل B011 hazırlıksız söylemek / الكلام المرتجل ← 4:32 لِّلرِّجَالِ
+  - near: ع ق د B007 konuşmanın tutulması veya anlaşılmaz duruma gelmesi / حبسة اللسان وتعقيد الكلام ← 4:33 عَقَدَتْ
+  - near: ج ي ء B002 — / المغالبة بكثرة المجيء ← 4:41 جِئْنَا
+  - far: غ ض ب B003 karşı koyup muhalefet etmek / المراغمة والمخالفة ← 4:93 وَغَضِبَ
+  - far: ر م ي B008 sözle suçlama veya hakaret / قذف بالكلام ← 4:112 يَرْمِ
+- **B006** develeri bir yerden başka yere sevk etme / تشقيق الإبل ونقلها
+  - same: ق و م B006 bir yerde kalma ve kalınan yer / مقام وإقامة في موضع ← 4:34 قَوَّٰمُونَ
+  - same: س ط ع B003 ev direği / العمود المنصوب وما شبه به ← 4:34 أَطَعْنَكُمْ
+  - same: ر ج ل B017 koyunların art arda doğurması / الرجيلاء في الولادة ← 4:34 ٱلرِّجَالُ
+  - near: ش ق ق B001 yarma, yarılma ve açılma / انصداع الشيء وانفتاحه ← 4:35 شِقَاقَ
+  - near: ش ي ء B008 — / صغار النخل ← 4:33 شَىْءٍ
+  - near: ش ي ء B006 — / صغار النخل ← 4:33 شَىْءٍ
+  - far: ح ل ل B011 yerinden kaldırma veya yerinden ayrılma / حلحلة الموضع ← 4:24 وَأُحِلَّ
+  - far: ع س ي B006 sütü kesilmiş ya da sütü olup olmadığı belirsiz deve; kesilmede geri dönüş umulur / رجاء عودة اللبن ← 4:19 فَعَسَىٰٓ
+- **B007** yaşla eksilmeyen güç ve iri sertlik / الغلظ وثبات القوة
+  - same: ك ب ر B004 yaşlanma ve zamanla eskime / كبر السن والقدم ← 4:34 كَبِيرًا
+  - same: ر ج ل B002 erkek insan / الرجل الذكر ← 4:34 ٱلرِّجَالُ
+  - same: ك و ن B005 gençliğini anan yaşlı kişi / الشيخ المنسوب إلى كُنْتُ ← 4:34 كَانَ
+  - near: ك ل ل B008 kısa, kalın ve güçlü yapılı erkek / الكُلْكُل قصر وغلظ ← 4:33 وَلِكُلٍّ
+  - near: ض ع ف B005 mülkleri çok ve dağınık adam / كثرة الضيعة وانتشارها ← 4:28 ضَعِيفًا
+  - near: ك ب ر B004 yaşlanma ve zamanla eskime / كبر السن والقدم ← 4:31 كَبَآئِرَ
+  - far: ش د د B004 güç ve sağduyu bakımından olgunluğa erişme / بلوغ الأشد ← 4:66 وَأَشَدَّ
+  - far: س و ي B005 gençlik olgunluğuna erişmek / بلوغ وتمام الشباب ← 4:42 تُسَوَّىٰ
+
+## و ع ظ (فَعِظُوهُنَّ)
+
+- **B001** sakındırıcı öğüt ve öğütten ders alma / تذكير مخوِّف يرق له القلب
+  - same: خ و ف B002 korku doğurma ya da korkulur kılma / إدخال الخوف في الغير ← 4:34 تَخَافُونَ
+  - same: ح ف ظ B005 koruyucu öfke ve onurlu tepki / حفيظة الغضب والحمية ← 4:34 حَٰفِظَٰتٌ
+  - same: ه ج ر B001 bağı kesip uzaklaşma / الانقطاع والمفارقة ← 4:34 وَٱهْجُرُوهُنَّ
+  - near: خ و ف B002 korku doğurma ya da korkulur kılma / إدخال الخوف في الغير ← 4:35 خِفْتُمْ
+  - near: ع ذ ب B005 ağır acı çektirme ve cezalandırma / العذاب إيلام وعقوبة ← 4:37 عَذَابًا
+  - near: ص ل ي B002 iyilik dileme; özneye göre esirgeme, övme veya aklama / الدعاء والبركة والرحمة ← 4:30 نُصْلِيهِ
+  - far: ذ ك ر B009 hatırlatma, hatırlamayı sağlayan araç ve sıkça anma / الذكرى والتذكرة ما يذكّر ← 4:11 لِلذَّكَرِ
+  - far: ن ذ ر B001 tehlikeyi bildirerek sakındırma / إنذار يخوف فيوقظ الحذر ← 4:165 وَمُنذِرِينَ
+
+## ه ج ر (وَٱهْجُرُوهُنَّ)
+
+- **B001** bağı kesip uzaklaşma / الانقطاع والمفارقة
+  - same: ط و ع B005 yükümlü olmadığı iyiliği gönüllü yapma / التطوع والتبرع ← 4:34 أَطَعْنَكُمْ
+  - same: ن ف ق B004 içindeki inanç veya tutumun tersini göstererek bağlı görünme / إظهار باب وإخفاء مخرج ← 4:34 أَنفَقُوا۟
+  - same: ب غ ي B003 haddi aşarak haksızlık etmek / تجاوز الحد بالعدوان والظلم ← 4:34 تَبْغُوا۟
+  - near: ج ن ب B003 uzak durma veya uzaklaştırma / المجانبة إبعاد واعتزال وغربة ← 4:36 ٱلْجُنُبِ
+  - near: ت ر ك B001 bir seyden el cekme / التخلية عن الشيء ← 4:33 تَرَكَ
+  - near: ش ق ق B004 anlaşmazlıkla bölünüp ayrılma / انصداع الجماعة بالخلاف ← 4:35 شِقَاقَ
+  - far: و ص ل B004 ilişkiyi sürdürme ve bağı koparmama / إدامة الصلة وترك الهجران ← 4:90 يَصِلُونَ
+  - far: ب ر ء B002 — / البراءة والتباعد ← 4:112 بَرِيٓـًٔا
+- **B002** yurdunu bırakıp başka yere göçme / الخروج من دار إلى دار
+  - same: ض ر ب B002 bir amaçla yeryüzünde yolculuk etmek / السعي في الأرض ← 4:34 وَٱضْرِبُوهُنَّ
+  - same: ن ف ق B004 içindeki inanç veya tutumun tersini göstererek bağlı görünme / إظهار باب وإخفاء مخرج ← 4:34 أَنفَقُوا۟
+  - same: ف ض ل B002 nitelikçe üstün olma, yüksek değer taşıma ve karşılaştırmada öne geçme / الدرجة والفضيلة ← 4:34 فَضَّلَ
+  - near: س ك ن B003 ev halkı ve orada yaşayanlar / أهل الدار ← 4:36 وَٱلْمَسَٰكِينِ
+  - near: ج و ر B002 komşuluk ve mekânsal yakınlık / الجِوار والقرب ← 4:36 وَٱلْجَارِ
+  - near: ك ف ر B012 uzak arazi; köy, uzak yer halkı veya mezar / موضع منقطع ← 4:31 نُكَفِّرْ
+  - far: د و ر B007 yere bağlı kişi / الداري: المنتسب إلى دار أو المقيم فيها ← 4:66 دِيَٰرِكُم
+  - far: ن ب ء B001 bir yerden başka bir yere geçip belirme / الإتيان من مكان إلى مكان ← 4:69 ٱلنَّبِيِّۦنَ
+- **B003** bilerek çirkin ve edepsiz söz söyleme / الكلام القبيح المهجور
+  - same: ر ج ل B011 hazırlıksız söylemek / الكلام المرتجل ← 4:34 ٱلرِّجَالُ
+  - same: ق ن ت B004 namazda insan sözü söylemeyip namaza yönelme / إمساك مصلي عن الكلام ← 4:34 قَٰنِتَٰتٌ
+  - same: ب غ ي B002 uygun, mümkün veya hak edilmiş olmak / الانبغاء والمطاوعة لما يليق أو يتيسر ← 4:34 تَبْغُوا۟
+  - near: ش ي ء B004 — / تشويه الخلق وقبحه ← 4:33 شَىْءٍ
+  - near: س و ء B001 çirkinlik ve kötülük / القبح والرداءة ← 4:31 سَيِّـَٔاتِكُمْ
+  - near: ن ه ي B003 kötü davranışı önleyen akıl ve sağduyu / العقل الناهي عن القبيح ← 4:31 تُنْهَوْنَ
+  - far: ف ح ش B003 ağır çirkin söz söyleme veya davranışta bulunma / إفحاش القول والعمل ← 4:25 بِفَٰحِشَةٍ
+  - far: ق و ل B001 söze dökme / إخراج القول بالنطق ← 4:43 تَقُولُونَ
+- **B004** hastalık sırasında istemeden sayıklama / هذيان المريض والنائم
+  - same: ض ج ع B003 işi savsaklama ve güçsüzce geri durma / الانطراح عن القيام بالأمر ← 4:34 ٱلْمَضَاجِعِ
+  - same: ط و ع B007 otlak veya meyvenin yararlanılabilir hale gelmesi / تهيؤ المرعى والثمر ← 4:34 أَطَعْنَكُمْ
+  - same: ع ل و B003 kibirli üstünlük taslama / العظمة والتجبر ← 4:34 عَلِيًّا
+  - near: ك ل ل B011 dişleri görünerek gülümseme ve bulutun şimşekle gülümser gibi olması / الانكلال تبسما ولمعا ← 4:33 وَلِكُلٍّ
+  - near: ج ي ء B004 — / الإتيان بالشيء واستحضاره ← 4:41 جِئْنَا
+  - near: ت ر ك B001 bir seyden el cekme / التخلية عن الشيء ← 4:33 تَرَكَ
+  - far: ف ر ق B010 hastalıktan kurtulup kendine gelme / إفراق من المرض ← 4:77 فَرِيقٌ
+  - far: م ر ض B003 hastaya özenle bakma / القيام على المريض ← 4:43 مَّرْضَىٰٓ
+- **B005** sıcağın bastırdığı öğle vakti / حر الهاجرة ووقتها
+  - same: ق و م B017 güneşin tam tepede olduğu öğle ortası / انتصاف النهار وقائم الظهيرة ← 4:34 قَوَّٰمُونَ
+  - same: ك ب ر B013 günün yükseldiği vakit / أكبر النهار ← 4:34 كَبِيرًا
+  - same: ر ج ل B012 günün yükselip aydınlığın yayılması / ترجل النهار ← 4:34 ٱلرِّجَالُ
+  - near: ك ب ر B013 günün yükseldiği vakit / أكبر النهار ← 4:31 كَبَآئِرَ
+  - near: ن ص ب B010 yolculuğu yumuşak sürdürme veya artırma / سير اليوم سيرا لينا ← 4:33 نَصِيبَهُمْ
+  - near: ك ف ر B002 örten karanlık veya enginlik / غمر ساتر ← 4:31 نُكَفِّرْ
+  - far: ق س م B002 şiddetli öğle sıcağı veya vakti / حر الهاجرة ← 4:8 ٱلْقِسْمَةَ
+  - far: ق و م B017 güneşin tam tepede olduğu öğle ortası / انتصاف النهار وقائم الظهيرة ← 4:46 وَأَقْوَمَ
+- **B006** vaktin başında erkenden gitme / التبكير والمضي أول الوقت
+  - same: ض ر ب B002 bir amaçla yeryüzünde yolculuk etmek / السعي في الأرض ← 4:34 وَٱضْرِبُوهُنَّ
+  - same: ق و م B003 bir işe kararlılıkla girişme / عزم ونهوض إلى الأمر ← 4:34 قَوَّٰمُونَ
+  - same: ك ب ر B013 günün yükseldiği vakit / أكبر النهار ← 4:34 كَبِيرًا
+  - near: ك ف ر B005 bağını reddedip uzaklaşmak / تبرؤ وتنصل ← 4:31 نُكَفِّرْ
+  - near: ي و م B001 güneşin doğuşundan batışına kadarki gün / وقت النهار المحدود ← 4:38 بِٱلْيَوْمِ
+  - near: ب ع ث B004 yola koyulup ilerleme / اندفاع القوم ومضيهم ← 4:35 فَٱبْعَثُوا۟
+  - far: س ب ح B005 iş ve geçim için zaman ve hareket imkânı / السعة للذهاب والمعاش ← 4:171 سُبْحَٰنَهُۥٓ
+  - far: ء و ل B001 başlangıç ve öncelik / ابتداء الشيء وتقدمه ← 4:54 ءَالَ
+- **B007** hayvanın ayaklarını bağlayan ip / الربط بالهجار
+  - same: ر ج ل B005 bir bacağı beyaz hayvan / بياض رجل الدابة ← 4:34 ٱلرِّجَالُ
+  - same: ض ر ب B011 erkek devenin dişiyle çiftleşmesi / ضرب الفحل الناقة ← 4:34 وَٱضْرِبُوهُنَّ
+  - same: س ب ل B007 kap kenarı veya hayvanın boğaz kesim yeri / حافة أو مخرج متقدم ← 4:34 سَبِيلًا
+  - near: ش ط ن B002 uzun kuyu ipi ve onunla bağlama / الحبل الطويل والشد ← 4:38 ٱلشَّيْطَٰنُ
+  - near: ع ق د B001 uçları birleştirip düğümleme / شد الأطراف وربطها ← 4:33 عَقَدَتْ
+  - near: ر ج ل B005 bir bacağı beyaz hayvan / بياض رجل الدابة ← 4:32 لِّلرِّجَالِ
+  - far: ر ف ق B005 deveyi yavaşlatan özel bağlama / الرفاق وشد البعير ← 4:69 رَفِيقًا
+  - far: د ر ك B003 bağlantı ipi ya da kiriş halkası / وصلة الحبل والحلقة ← 4:78 يُدْرِككُّمُ
+- **B008** benzerlerini aşan üstünlük / المجاوزة في الحسن والتمام
+  - same: ك ب ر B004 yaşlanma ve zamanla eskime / كبر السن والقدم ← 4:34 كَبِيرًا
+  - same: ق و م B011 insanın boyu ve düzgün beden yapısı / قامة وقوام الجسم والطول ← 4:34 قَوَّٰمُونَ
+  - same: ع ل و B010 uzun ve iri yapılı / الطول والضخامة ← 4:34 عَلِيًّا
+  - near: ع د و B004 aşma, dışarıda bırakma ve öteye geçirme / المجاوزة والاستثناء والصرف ← 4:30 عُدْوَٰنًا
+  - near: ح س ن B001 akla, eğilime veya duyulara göre güzel ve beğenilir olma / الحسن ضد القبح ← 4:36 إِحْسَٰنًا
+  - near: ن ه ي B006 semizliğin doruğuna ulaşmış deve / التناهي في السمن ← 4:31 تُنْهَوْنَ
+  - far: ف ح ش B002 hoş karşılanmayan ölçü aşımı / مجاوزة الحد والقدر ← 4:25 بِفَٰحِشَةٍ
+  - far: ط غ ي B001 itaatsizlikte veya ölçüde sınırı aşma / مجاوزة الحد في العصيان ← 4:51 وَٱلطَّٰغُوتِ
+- **B009** sürekli alışkanlık ve uğraş / الدأب والديدن الملازم
+  - same: ض ر ب B009 yerleşik yaradılış ve huy / السجية المضروبة ← 4:34 وَٱضْرِبُوهُنَّ
+  - same: ب غ ي B005 evlilik dışı cinsel ilişki ve buna bağlı kişi adları / البغاء والفجور الجنسي ← 4:34 تَبْغُوا۟
+  - same: ق و م B016 donup akmama veya yorulup ilerleyememe / جمود ووقوف وكلال ← 4:34 قَوَّٰمُونَ
+  - near: ء م ر B001 konu ve hal / الشأن والحال ← 4:37 وَيَأْمُرُونَ
+  - near: ء م م B005 benimsenen inanç ve yaşayış yolu / الأمة دينا وطريقة ← 4:41 أُمَّةٍۭ
+  - near: ج و ر B002 komşuluk ve mekânsal yakınlık / الجِوار والقرب ← 4:36 وَٱلْجَارِ
+  - far: د ي ن B005 alışılmış davranış ve öteden beri bilinen hal / العادة والشأن ← 4:46 ٱلدِّينِ
+  - far: ط ر ق B010 yalıtık adlandırmalar / مرة أو دأب ← 4:168 طَرِيقًا
+- **B010** kurumuş bitki, özellikle tuzcul ot / النبت اليابس المهجور
+  - same: ر ج ل B007 semizotu diye bilinen ot / الرِّجلة النبات ← 4:34 ٱلرِّجَالُ
+  - same: ض ج ع B006 kenarda otlayan deve veya kalabalık koyun sürüsü / البهيمة اللازمة ناحية ترعى والقطيع الكثير ← 4:34 ٱلْمَضَاجِعِ
+  - same: ط و ع B007 otlak veya meyvenin yararlanılabilir hale gelmesi / تهيؤ المرعى والثمر ← 4:34 أَطَعْنَكُمْ
+  - near: ت ر ك B009 geride kalmis su veya cayir / موضع تركه الناس أو السيل ← 4:33 تَرَكَ
+  - near: ج ن ب B010 yazın kalan köklü küçük bitkiler / الجنبة نبت متوسط مستقل ← 4:36 ٱلْجُنُبِ
+  - near: ر ج ل B007 semizotu diye bilinen ot / الرِّجلة النبات ← 4:32 لِّلرِّجَالِ
+  - far: و ض ع B007 devenin tuzcul otu otlaması ve orada konaklaması / إقامة الإبل على الحمض أو الخلة ← 4:46 مَّوَاضِعِهِۦ
+  - far: ه ن ء B003 hayvanın bitkiden pay alması, kimi kullanımda doyması / هناءة الماشية من النبت ← 4:4 هَنِيٓـًٔا
+- **B011** su için ayrılmış büyük veya yapılı havuz / الحوض المقتطع للماء
+  - same: ك ب ر B007 ağır cezalık büyük günah / الإثم الكبير والذنوب الكبائر ← 4:34 كَبِيرًا
+  - same: غ ي ب B006 kuşku / الغيب شك ← 4:34 لِّلْغَيْبِ
+  - same: س ط ع B003 ev direği / العمود المنصوب وما شبه به ← 4:34 أَطَعْنَكُمْ
+  - near: ع ت د B004 içme kabı, özellikle iri bir tas veya çanak / القدح المسمى عتادا ← 4:37 وَأَعْتَدْنَا
+  - near: ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 4:35 عَلِيمًا
+  - near: ن ص ب B003 sınır işareti veya kuyu-havuz taşı / علامة أو حجارة منصوبة للحد أو الحوض ← 4:33 نَصِيبَهُمْ
+  - far: ج د ل B005 küçük akarsu veya su kolu / النهر الصغير الممتد ← 4:107 تُجَٰدِلْ
+  - far: ط ب ع B004 nehir; suyla dolu nehir / النهر المحتفر أو الجاري ← 4:155 طَبَعَ
+- **B012** yer ve soy kolu adları / الأعلام والمواضع
+  - same: ص ل ح B005 bir kent ve bir nehir için özel adlar / صلاح والصلح علمان لمواضع ← 4:34 فَٱلصَّٰلِحَٰتُ
+  - same: س ط ع B006 belirli bir dağın özel adı / اسم جبل بعينه ← 4:34 أَطَعْنَكُمْ
+  - same: ض ر ب B009 yerleşik yaradılış ve huy / السجية المضروبة ← 4:34 وَٱضْرِبُوهُنَّ
+  - near: ج و ر B007 bir yer adı / جُور اسم بلد ← 4:36 وَٱلْجَارِ
+  - near: ص ل ح B005 bir kent ve bir nehir için özel adlar / صلاح والصلح علمان لمواضع ← 4:35 إِصْلَٰحًا
+  - near: م ن ي B012 belirli bir puta verilen ad / مناة اسم صنم أو علم ← 4:32 تَتَمَنَّوْا۟
+  - far: ح ض ر B012 kent, yer, yıldız ve kabile adları / أعلام ومواضع وكواكب ← 4:18 حَضَرَ
+  - far: ي م م B005 kişi ve yer adı alanı / اليمامة واليمة أسماء مواضع وأعلام ← 4:43 فَتَيَمَّمُوا۟
+- **B013** yaklaşık bir yıllık aradan sonra / البعد بعد الحول
+  - same: ض ر ب B009 yerleşik yaradılış ve huy / السجية المضروبة ← 4:34 وَٱضْرِبُوهُنَّ
+  - same: ص ل ح B002 barışma ve uzlaşma / الصلح إزالة النفار بين الناس ← 4:34 فَٱلصَّٰلِحَٰتُ
+  - same: ق و م B011 insanın boyu ve düzgün beden yapısı / قامة وقوام الجسم والطول ← 4:34 قَوَّٰمُونَ
+  - near: ش ط ن B001 uzaklaşma ve uzaklaştırma / البعد والانقطاع ← 4:38 ٱلشَّيْطَٰنُ
+  - near: ء م م B008 bir süre, zaman dilimi / الأمة حينا وزمانا ← 4:41 أُمَّةٍۭ
+  - near: ي ت م B003 dalgınlık ve gerekeni eksik yapma / غفلة وتقصير ← 4:36 وَٱلْيَتَٰمَىٰ
+  - far: ح و ل B002 bir tam yıl / دوران السنة وتمام الحول ← 4:98 حِيلَةً
+  - far: ب ع د B007 aralikli gorusme / بعيدات بين ← 4:24 بَعْدِ
+
+## ض ج ع (ٱلْمَضَاجِعِ)
+
+- **B001** yanı üzerine uzanma veya yatırma / لصوق الجنب بالأرض
+  - same: ن ف ق B003 başka bir yere açılan yer altı geçidi ve kemirgen yuvasındaki gizli çıkış / سرب نافذ له مخرج ← 4:34 أَنفَقُوا۟
+  - same: ك و ن B004 boyun eğme / الخضوع بالاستكانة ← 4:34 كَانَ
+  - same: ض ر ب B016 para-emek ortaklığı / شركة التجارة بالسفر ← 4:34 وَٱضْرِبُوهُنَّ
+  - near: ج ن ب B007 böğür bölgesini tutan ağrı veya hastalık / داء الجنب وأثره في البدن ← 4:36 ٱلْجُنُبِ
+  - near: ن ف ق B003 başka bir yere açılan yer altı geçidi ve kemirgen yuvasındaki gizli çıkış / سرب نافذ له مخرج ← 4:38 يُنفِقُونَ
+  - near: ت ج ر B002 alis satis yeri / الأرض المتجرة ← 4:29 تِجَٰرَةً
+  - far: ل ق ي B009 sırtüstü uzanma / انبطاح على القفا ← 4:90 وَأَلْقَوْا۟
+  - far: ج ن ب B007 böğür bölgesini tutan ağrı veya hastalık / داء الجنب وأثره في البدن ← 4:43 جُنُبًا
+- **B002** aynı yatakta birlikte yatma / مشاركة المضجع
+  - same: ق و م B019 bir beden bölümünün kişiye ağrı vermesi / وجع قائم بالعضو ← 4:34 قَوَّٰمُونَ
+  - same: ط و ع B002 taraflar arasında uyum gösterme / الموافقة والمطاوعة ← 4:34 أَطَعْنَكُمْ
+  - same: ب غ ي B001 bir şeyi arayıp istemek; başkası için aramak veya arayışına yardım etmek / طلب الشيء وابتغاؤه ← 4:34 تَبْغُوا۟
+  - near: ك ف ر B007 itaatsizliğe zorlamak / إلجاء إلى العصيان ← 4:31 نُكَفِّرْ
+  - near: ق ر ن B002 yalıtık adlandırmalar / صاحب مقترن بصاحبه ← 4:38 قَرِينًا
+  - near: ش ر ك B001 ortaklık ve ortak olma / الشَّرِكة والمشاركة ← 4:36 تُشْرِكُوا۟
+  - far: ق و م B019 bir beden bölümünün kişiye ağrı vermesi / وجع قائم بالعضو ← 4:46 وَأَقْوَمَ
+  - far: ف ض و B003 eşiyle cinsel ilişkiye girmek / الإفضاء الزوجي ← 4:21 أَفْضَىٰ
+- **B003** işi savsaklama ve güçsüzce geri durma / الانطراح عن القيام بالأمر
+  - same: ض ر ب B004 bir işten geri durup yüz çevirmek / القبض عن الشيء والكف ← 4:34 وَٱضْرِبُوهُنَّ
+  - same: ق و م B003 bir işe kararlılıkla girişme / عزم ونهوض إلى الأمر ← 4:34 قَوَّٰمُونَ
+  - same: ح ف ظ B004 uyanık ve dikkatli olma / تيقظ المتحفظ وقلة غفلته ← 4:34 حَٰفِظَٰتٌ
+  - near: ي ت م B003 dalgınlık ve gerekeni eksik yapma / غفلة وتقصير ← 4:36 وَٱلْيَتَٰمَىٰ
+  - near: ء م ر B008 zayıf görüşlü kişi / ضعيف الرأي التابع ← 4:37 وَيَأْمُرُونَ
+  - near: ض ع ف B001 güçsüzlük / خلاف القوة ← 4:28 ضَعِيفًا
+  - far: م ر ض B004 işi gevşek bırakma ve çabada yetersiz kalma / إضعاف الأمر وقصور الحركة ← 4:43 مَّرْضَىٰٓ
+  - far: ق ص ر B002 hedefe erişememe, görevde gevşeklik veya hakkı eksik verme / النقص عن المدى ← 4:101 تَقْصُرُوا۟
+- **B004** alçaltma veya bir yana eğme / خفض الشيء وإمالته
+  - same: ب غ ي B001 bir şeyi arayıp istemek; başkası için aramak veya arayışına yardım etmek / طلب الشيء وابتغاؤه ← 4:34 تَبْغُوا۟
+  - same: غ ي ب B001 gözden, duyudan ya da bilgiden uzak kalma / تستر الشيء عن العيون ← 4:34 لِّلْغَيْبِ
+  - same: ر ج ل B012 günün yükselip aydınlığın yayılması / ترجل النهار ← 4:34 ٱلرِّجَالُ
+  - near: م ي ل B001 bir yana sapma veya saptırma / انحراف الشيء وعدوله إلى جانب ← 4:27 تَمِيلُوا۟
+  - near: ق ر ب B002 zamanca yaklaşma veya yakın geçmişe ait olma / دنو الزمان وانقضاء الشيء ← 4:33 وَٱلْأَقْرَبُونَ
+  - near: ك ف ر B001 örtmek, kapatmak / ستر وتغطية ← 4:31 نُكَفِّرْ
+  - far: ج ن ح B001 bir yana ya da hedefe eğilme, yönelme veya eğdirme / الميل إلى ناحية أو جهة ← 4:24 جُنَاحَ
+  - far: م ي ل B001 bir yana sapma veya saptırma / انحراف الشيء وعدوله إلى جانب ← 4:102 فَيَمِيلُونَ
+- **B005** yere yakın tepe, vadi ağzı veya yağış yeri / الأرض المنخفضة اللاصقة
+  - same: غ ي ب B002 içine gireni gizleyen çukur yer / منهبط يغيب فيه الشيء ← 4:34 لِّلْغَيْبِ
+  - same: ض ر ب B002 bir amaçla yeryüzünde yolculuk etmek / السعي في الأرض ← 4:34 وَٱضْرِبُوهُنَّ
+  - same: ه ج ر B012 yer ve soy kolu adları / الأعلام والمواضع ← 4:34 وَٱهْجُرُوهُنَّ
+  - near: خ ب ر B002 gevşek, alçak ve su tutan arazi veya su birikintisi / لين الأرض ومائها ← 4:35 خَبِيرًا
+  - near: ك ف ر B013 dağ geçidi; iri dağ veya alçak duvar / ثنية مستورة ← 4:31 نُكَفِّرْ
+  - near: ج ي ء B003 — / مجتمع الماء في هبطة أو حول حصن ← 4:41 جِئْنَا
+  - far: و ق ع B003 yağışın düşmesi ve düştüğü yer / وقوع المطر ومساقطه ← 4:100 وَقَعَ
+  - far: خ ب ر B002 gevşek, alçak ve su tutan arazi veya su birikintisi / لين الأرض ومائها ← 4:94 خَبِيرًا
+- **B006** kenarda otlayan deve veya kalabalık koyun sürüsü / البهيمة اللازمة ناحية ترعى والقطيع الكثير
+  - same: ه ج ر B010 kurumuş bitki, özellikle tuzcul ot / النبت اليابس المهجور ← 4:34 وَٱهْجُرُوهُنَّ
+  - same: ر ج ل B017 koyunların art arda doğurması / الرجيلاء في الولادة ← 4:34 ٱلرِّجَالُ
+  - same: ض ر ب B011 erkek devenin dişiyle çiftleşmesi / ضرب الفحل الناقة ← 4:34 وَٱضْرِبُوهُنَّ
+  - near: ء ك ل B007 av olmuş veya yenmek için ayrılmış hayvan / الفريسة والمعدة للأكل ← 4:29 تَأْكُلُوٓا۟
+  - near: ي س ر B006 koyunların süt ve yavru bakımından çoğalması / إدرار ونماء في الغنم ← 4:30 يَسِيرًا
+  - near: ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 4:35 عَلِيمًا
+  - far: و ض ع B007 devenin tuzcul otu otlaması ve orada konaklaması / إقامة الإبل على الحمض أو الخلة ← 4:46 مَّوَاضِعِهِۦ
+  - far: ض ل ل B005 sahibi bilinmeyen kayıp hayvan, özellikle deve / الضالّة في المضيعة ← 4:44 ٱلضَّلَٰلَةَ
+- **B007** yerinde kalan veya su yüküyle ağır ilerleyen bulut / السحاب المقيم المبطئ
+  - same: س ب ل B005 yağan yağmur / مطر سابل بين السحاب والأرض ← 4:34 سَبِيلًا
+  - same: ق و م B006 bir yerde kalma ve kalınan yer / مقام وإقامة في موضع ← 4:34 قَوَّٰمُونَ
+  - same: ض ر ب B012 düzensiz ve yinelenen hareket / الحركة المضطربة والخفق ← 4:34 وَٱضْرِبُوهُنَّ
+  - near: ع ق د B008 kumun yığılıp sıkışması veya bulutun düğüm gibi kümelenmesi / تراكم الرمل وانقباض السحاب ← 4:33 عَقَدَتْ
+  - near: ك ل ل B005 çevresini kuşak gibi saran oluşum / الإكليل وما يحيط ← 4:33 وَلِكُلٍّ
+  - near: ك ر م B002 yağmur getirme ve toprağın verimli oluşu / جودة النبات والغيث ← 4:31 كَرِيمًا
+  - far: ر ب ب B007 bir yerde kalıp sürme / لزوم وإقامة ودوام ← 4:23 وَرَبَٰٓئِبُكُمُ
+  - far: ع ز ل B007 yağmursuz bulut / السحاب الأعزل بلا مطر ← 4:90 ٱعْتَزَلُوكُمْ
+- **B008** dolu kovanın eğilmesi veya dolu çuvalın boşaltılması / ميل الممتلئ وتفريغه
+  - same: س ب ل B007 kap kenarı veya hayvanın boğaz kesim yeri / حافة أو مخرج متقدم ← 4:34 سَبِيلًا
+  - same: ع ل و B009 belirli araç ve parça adları / أسماء الأدوات والأجزاء المرتفعة ← 4:34 عَلِيًّا
+  - same: ه ج ر B011 su için ayrılmış büyük veya yapılı havuz / الحوض المقتطع للماء ← 4:34 وَٱهْجُرُوهُنَّ
+  - near: ح ب ب B006 suyla dolmak veya doldurup dolulaştırmak / الري حتى الامتلاء ← 4:36 يُحِبُّ
+  - near: ق ر ب B016 bir ölçü veya sınıra yaklaşık olma / القراب والمقاربة في المقدار ← 4:33 وَٱلْأَقْرَبُونَ
+  - near: م ي ل B001 bir yana sapma veya saptırma / انحراف الشيء وعدوله إلى جانب ← 4:27 تَمِيلُوا۟
+  - far: ط ب ع B003 son sınırına kadar doldurma veya dolma / الامتلاء إلى الغاية ← 4:155 طَبَعَ
+  - far: ق ع د B011 dolu ya da dik duran biçim / الناتئ أو الممتلئ القاعد ← 4:95 ٱلْقَٰعِدُونَ
+- **B009** giysi yıkamada kullanılan bitki sakızı / صمغ نبات للغسل
+  - same: س ب ل B010 kırmızı damarlı ağsı göz perdesi / غشاوة في العين تشبه النسج ← 4:34 سَبِيلًا
+  - same: ض ر ب B007 tür ya da biçim kalıbı / الصنف والصيغة ← 4:34 وَٱضْرِبُوهُنَّ
+  - same: ص ل ح B005 bir kent ve bir nehir için özel adlar / صلاح والصلح علمان لمواضع ← 4:34 فَٱلصَّٰلِحَٰتُ
+  - near: ك ت م B005 siyah saç boyası karışımında kullanılan kırmızımsı bitki / نبات الصبغ الكتم ← 4:37 وَيَكْتُمُونَ
+  - near: ر ز ق B007 biçime bağlı adlandırmalar / النسبة إلى الرازقية ← 4:39 رَزَقَهُمُ
+  - near: ش ق ق B006 yarılıp ayrılmış parça / قطعة منشقة وثوب ← 4:35 شِقَاقَ
+  - far: ع ش ر B014 tatlı özsulu iri bir ağaç / شجر العشر ← 4:19 وَعَاشِرُوهُنَّ
+  - far: غ س ل B002 yıkamada kullanılan su veya madde ile yıkanma yeri / ماء الغسل وما يغسل به أو فيه ← 4:43 تَغْتَسِلُوا۟
+
+## ض ر ب (وَٱضْرِبُوهُنَّ)
+
+- **B001** bir şeyi başka bir şeyin üzerine vurmak / إيقاع شيء على شيء
+  - same: س ط ع B005 avuç ya da parmak vuruşu ve sesi / ضربة وصوتها المرتفع ← 4:34 أَطَعْنَكُمْ
+  - same: ق و م B019 bir beden bölümünün kişiye ağrı vermesi / وجع قائم بالعضو ← 4:34 قَوَّٰمُونَ
+  - same: ب ع ض B001 parça ve parçalara ayırma / تجزئة الشيء وطائفته ← 4:34 بَعْضَهُمْ
+  - near: ظ ل م B004 yersiz veya zamansiz somut islem / إيقاع الشيء في غير أوانه أو موضعه المحسوس ← 4:30 وَظُلْمًا
+  - near: ع ذ ب B005 ağır acı çektirme ve cezalandırma / العذاب إيلام وعقوبة ← 4:37 عَذَابًا
+  - near: ق ت ل B001 canını alarak öldürme / إماتة وإزهاق روح ← 4:29 تَقْتُلُوٓا۟
+  - far: ط ر ق B003 vurarak işleme / الضرب الموقّع ← 4:168 طَرِيقًا
+  - far: و ج ه B013 yüzüne vurma ve yüzüne vurulmuş olma / ضرب الوجه ← 4:43 بِوُجُوهِكُمْ
+- **B002** bir amaçla yeryüzünde yolculuk etmek / السعي في الأرض
+  - same: ه ج ر B006 vaktin başında erkenden gitme / التبكير والمضي أول الوقت ← 4:34 وَٱهْجُرُوهُنَّ
+  - same: س ب ل B002 yol kullanan kişi veya yolcu / أهل الطريق وسالكوه ← 4:34 سَبِيلًا
+  - same: ن ف ق B003 başka bir yere açılan yer altı geçidi ve kemirgen yuvasındaki gizli çıkış / سرب نافذ له مخرج ← 4:34 أَنفَقُوا۟
+  - near: ت ج ر B001 kazanc amacli alis satis / التجارة وطلب الربح ← 4:29 تِجَٰرَةً
+  - near: ك س ب B001 kendisi için geçimlik ya da yarar arayıp elde etme / طلب الرزق والنفع وإصابته ← 4:32 ٱكْتَسَبُوا۟
+  - near: ر ز ق B001 yararlanılmak üzere verilen pay / العطاء المقسوم ← 4:39 رَزَقَهُمُ
+  - far: س ب ح B005 iş ve geçim için zaman ve hareket imkânı / السعة للذهاب والمعاش ← 4:171 سُبْحَٰنَهُۥٓ
+  - far: م س ح B011 yol alıp araziyi aşma / قطع الأرض سيرا ← 4:43 فَٱمْسَحُوا۟
+- **B003** örnek vererek açıklamak / تصوير المثل وإظهاره
+  - same: ن ف ق B004 içindeki inanç veya tutumun tersini göstererek bağlı görünme / إظهار باب وإخفاء مخرج ← 4:34 أَنفَقُوا۟
+  - same: ح ف ظ B007 açık, düz ve kesintisiz yol / طريق حافظ بين مستقيم ← 4:34 حَٰفِظَٰتٌ
+  - same: غ ي ب B004 kişiyi yokluğunda iyi ya da kötü anma / ذكر الإنسان في غيبته ← 4:34 لِّلْغَيْبِ
+  - near: خ ل ق B001 ölçüp sınırlarını belirleme / تقدير الشيء وقياسه ← 4:28 وَخُلِقَ
+  - near: خ ي ل B005 kesin bilgi olmadan zihinde canlandırma, sanma veya karıştırma / التخييل والاشتباه ← 4:36 مُخْتَالًا
+  - near: ب ي ن B005 anlamı açıkça ortaya koyma / كشف المعنى بالقول أو العلامة ← 4:35 بَيْنِهِمَا
+  - far: م ث ل B003 benzer duruma aktarılan örnek söz / المثل المضروب ← 4:11 مِثْلُ
+  - far: ط ب ع B006 örnek alınan kalıp, biçim ve ölçü / المثال والقدر ← 4:155 طَبَعَ
+- **B004** bir işten geri durup yüz çevirmek / القبض عن الشيء والكف
+  - same: ض ج ع B003 işi savsaklama ve güçsüzce geri durma / الانطراح عن القيام بالأمر ← 4:34 ٱلْمَضَاجِعِ
+  - same: ر ج ل B020 bir işe atılıp ilerlemek / ركوب الأمر بالرجلين ← 4:34 ٱلرِّجَالُ
+  - same: ق ن ت B004 namazda insan sözü söylemeyip namaza yönelme / إمساك مصلي عن الكلام ← 4:34 قَٰنِتَٰتٌ
+  - near: ع ذ ب B003 vazgeçme veya alıkoyma / الكف والمنع والفطام عن الشيء ← 4:37 عَذَابًا
+  - near: ن ه ي B001 bir eylemi yasaklama, engelleme veya ondan geri durma / الزجر والكف عن الفعل ← 4:31 تُنْهَوْنَ
+  - near: و ل ي B007 dönüp yüz çevirme / الإدبار والإعراض ← 4:33 مَوَٰلِىَ
+  - far: ك ف ف B002 geri durmak veya alıkoymak / الكف والمنع ← 4:77 كُفُّوٓا۟
+  - far: ع ذ ب B003 vazgeçme veya alıkoyma / الكف والمنع والفطام عن الشيء ← 4:25 ٱلْعَذَابِ
+- **B005** birinin giriştiği işi engellemek / الحجر على اليد
+  - same: ر ج ل B019 işine bütün gücüyle sarılmak / القيام على رجل ← 4:34 ٱلرِّجَالُ
+  - same: ع ل و B009 belirli araç ve parça adları / أسماء الأدوات والأجزاء المرتفعة ← 4:34 عَلِيًّا
+  - same: س ط ع B005 avuç ya da parmak vuruşu ve sesi / ضربة وصوتها المرتفع ← 4:34 أَطَعْنَكُمْ
+  - near: ح ك م B001 alıkoyup geri çevirmek / المنع والرد للإصلاح ← 4:35 حَكَمًا
+  - near: ء ت ي B011 felakete uğramak, kaybetmek veya düşmanca ele geçirilmek / إتيان البلاء والهلاك ← 4:33 فَـَٔاتُوهُمْ
+  - near: ظ ل م B008 paydan alikoyma / المنع والحبس عن الحق ← 4:30 وَظُلْمًا
+  - far: ح ج ر B001 engelleme ve erişimi sınırlama / المنع والإحاطة ← 4:23 حُجُورِكُم
+  - far: ي د ي B004 elinde bulunma, sahiplik ve denetim / اليَد المالكة ← 4:43 وَأَيْدِيكُمْ
+- **B007** tür ya da biçim kalıbı / الصنف والصيغة
+  - same: س ط ع B005 avuç ya da parmak vuruşu ve sesi / ضربة وصوتها المرتفع ← 4:34 أَطَعْنَكُمْ
+  - same: ص ل ح B003 sana uygun olma / الصلاح للشيء ملاءمته ← 4:34 فَٱلصَّٰلِحَٰتُ
+  - same: ب ع ض B001 parça ve parçalara ayırma / تجزئة الشيء وطائفته ← 4:34 بَعْضَهُمْ
+  - near: ش ي ء B001 — / الشيء المعلوم المخبر عنه ← 4:33 شَىْءٍ
+  - near: ء م ر B001 konu ve hal / الشأن والحال ← 4:37 وَيَأْمُرُونَ
+  - near: ن ص ب B007 dil bilgisinde yükleme konumu / نصب الكلمة في الإعراب ← 4:33 نَصِيبَهُمْ
+  - far: ز و ج B004 tür, sınıf veya renk çeşidi / لون أو صنف من أصناف الشيء ← 4:20 زَوْجٍ
+  - far: ط ب ع B006 örnek alınan kalıp, biçim ve ölçü / المثال والقدر ← 4:155 طَبَعَ
+- **B008** benzer ve denk karşılık / المثل والنظير
+  - same: ر ج ل B004 birinin devrinde / زمان الرجل ← 4:34 ٱلرِّجَالُ
+  - same: ك و ن B003 birini güvenceyle üstlenme / الكفالة والقيام على فلان ← 4:34 كَانَ
+  - same: ه ج ر B008 benzerlerini aşan üstünlük / المجاوزة في الحسن والتمام ← 4:34 وَٱهْجُرُوهُنَّ
+  - near: ق ر ن B003 yaşça ya da güççe denk kişi / كفء يساوي قرنه ← 4:38 قَرِينًا
+  - near: ء ت ي B006 topluluğa yabancı kimse / الغريب الداخل في غير قومه ← 4:33 فَـَٔاتُوهُمْ
+  - near: و ف ق B004 denklik, tam yeterlik ve hizalanma / قدر يساوي الحاجة أو النظير ← 4:35 يُوَفِّقِ
+  - far: ش ر ي B002 eş ve denk / المماثلة والمقابلة ← 4:44 يَشْتَرُونَ
+  - far: ن ظ ر B006 eş veya denk karşılık / مقابلة المثل بمثله حتى يستويان ← 4:46 وَٱنظُرْنَا
+- **B009** yerleşik yaradılış ve huy / السجية المضروبة
+  - same: ه ج ر B009 sürekli alışkanlık ve uğraş / الدأب والديدن الملازم ← 4:34 وَٱهْجُرُوهُنَّ
+  - same: ر ج ل B002 erkek insan / الرجل الذكر ← 4:34 ٱلرِّجَالُ
+  - same: ح ف ظ B005 koruyucu öfke ve onurlu tepki / حفيظة الغضب والحمية ← 4:34 حَٰفِظَٰتٌ
+  - near: خ ل ق B004 huy ve iç karakter / السجية والطبيعة الباطنة ← 4:28 وَخُلِقَ
+  - near: ب ن ي B002 kuruluş biçimi ve doğuştan yapı / البِنْية والهيئة المركبة ← 4:36 وَٱبْنِ
+  - near: ء م م B005 benimsenen inanç ve yaşayış yolu / الأمة دينا وطريقة ← 4:41 أُمَّةٍۭ
+  - far: خ ل ق B004 huy ve iç karakter / السجية والطبيعة الباطنة ← 4:1 خَلَقَكُم
+  - far: ط ب ع B002 yaratılıştan gelen yapı ve huy / السجية والجبلة ← 4:155 طَبَعَ
+- **B010** kişiye ya da toprağa yüklenen mali ödeme / المال المضروب على أحد
+  - same: م و ل B001 varlık; edinme, çoğalma ve başkasına kazandırma / اتخاذ المال وكثرته ← 4:34 أَمْوَٰلِهِمْ
+  - same: ن ف ق B002 bir şeyi gider olarak elden çıkarma; özel kullanımda elindekini tüketip yoksullaşma / خروج المال في النفقة ← 4:34 أَنفَقُوا۟
+  - same: ب غ ي B004 yaranın şişip bozulması veya içinde irin kalmış halde kapanması / فساد الجرح وتجاوزه ← 4:34 تَبْغُوا۟
+  - near: ء ت ي B008 ödenen vergi; rüşvet / الإتاوة المؤداة ← 4:33 فَـَٔاتُوهُمْ
+  - near: ء ك ل B004 malı harcama veya ele geçirme / استهلاك المال وأخذه ← 4:29 تَأْكُلُوٓا۟
+  - near: ء ج ر B001 iş veya anlaşma karşılığında sağlanan yarar / جزاء العمل والكراء ← 4:40 أَجْرًا
+  - far: خ ر ج B003 düzenli mali yükümlülük, getiri veya gider / مال يخرج على جهة معلومة ← 4:66 ٱخْرُجُوا۟
+  - far: ء ت ي B008 ödenen vergi; rüşvet / الإتاوة المؤداة ← 4:25 وَءَاتُوهُنَّ
+- **B011** erkek devenin dişiyle çiftleşmesi / ضرب الفحل الناقة
+  - same: ه ج ر B007 hayvanın ayaklarını bağlayan ip / الربط بالهجار ← 4:34 وَٱهْجُرُوهُنَّ
+  - same: ر ج ل B009 ayak benzetmeli özel adlar / رجل القوس والميسم ← 4:34 ٱلرِّجَالُ
+  - same: س ط ع B005 avuç ya da parmak vuruşu ve sesi / ضربة وصوتها المرتفع ← 4:34 أَطَعْنَكُمْ
+  - near: ء ت ي B012 dişi devenin çiftleşmek istemesi / استئتاء الناقة ← 4:33 فَـَٔاتُوهُمْ
+  - near: ف خ ر B005 iri memeli dişi hayvan veya üreme organı iri at / عظم أعضاء الحيوان ← 4:36 فَخُورًا
+  - near: م ن ي B009 devenin gebeliğini denetleme dönemi ve muayenesi / مَنِيّة الناقة أيام استبرائها ← 4:32 تَتَمَنَّوْا۟
+  - far: ط ر ق B005 damızlık çiftleşmesi ve damızlık sağlama / ضرب الفحل ← 4:168 طَرِيقًا
+  - far: س ن ن B007 kovalayıp veya ısırıp çöktürme / إكباب بدفع أو عض ← 4:26 سُنَنَ
+- **B012** düzensiz ve yinelenen hareket / الحركة المضطربة والخفق
+  - same: ض ج ع B007 yerinde kalan veya su yüküyle ağır ilerleyen bulut / السحاب المقيم المبطئ ← 4:34 ٱلْمَضَاجِعِ
+  - same: ه ج ر B001 bağı kesip uzaklaşma / الانقطاع والمفارقة ← 4:34 وَٱهْجُرُوهُنَّ
+  - same: ب غ ي B004 yaranın şişip bozulması veya içinde irin kalmış halde kapanması / فساد الجرح وتجاوزه ← 4:34 تَبْغُوا۟
+  - near: س ك ن B001 hareketin dinip durulması / ذهاب الحركة ← 4:36 وَٱلْمَسَٰكِينِ
+  - near: ن و ر B002 yanan ateş ve ateşle yapılan hayvan damgası / النار المتقدة والسمة بها ← 4:30 نَارًا
+  - near: خ ف ف B004 kararlılığını yitirip ölçüsüzce yönelmek / خفة الطيش والاضطراب ← 4:28 يُخَفِّفَ
+  - far: س ف ه B001 fiziksel hafiflikten doğan oynaklık / الخفة والاضطراب ← 4:5 ٱلسُّفَهَآءَ
+  - far: ب ط ن B005 karın görünüşü, doluluğu, yeme düşkünlüğü ya da rahatsızlığı / حال البطن من امتلاء أو علة ← 4:10 بُطُونِهِمْ
+- **B013** hava olayının toprağa veya bitkiye etkisi / أثر البرد والمطر في الأرض والنبات
+  - same: س ب ل B005 yağan yağmur / مطر سابل بين السحاب والأرض ← 4:34 سَبِيلًا
+  - same: س ط ع B005 avuç ya da parmak vuruşu ve sesi / ضربة وصوتها المرتفع ← 4:34 أَطَعْنَكُمْ
+  - same: ب غ ي B006 göğün şiddetli, bol ve gereğinden fazla yağdırması / شدة المطر ومعظمه ← 4:34 تَبْغُوا۟
+  - near: و ل ي B010 önceki yağmuru izleyen yağmur / مطر يلي الوسمي ← 4:33 مَوَٰلِىَ
+  - near: س ب ل B005 yağan yağmur / مطر سابل بين السحاب والأرض ← 4:36 ٱلسَّبِيلِ
+  - near: ر ز ق B003 yağmur / الغيث النازل رزقا ← 4:39 رَزَقَهُمُ
+  - far: ج ل د B007 donmuş su, kırağı ve koyu pıhtılı süt / تجمد وكثافة باردة أو خاثرة ← 4:56 جُلُودُهُم
+  - far: و ق ع B004 çarpma ve çarpma sesi / أثر الضرب وصوت الوقوع ← 4:100 وَقَعَ
+- **B014** vurma aracı, bölgesi, yeri veya işi / موضع الضرب وآلته وصنعته
+  - same: س ط ع B005 avuç ya da parmak vuruşu ve sesi / ضربة وصوتها المرتفع ← 4:34 أَطَعْنَكُمْ
+  - same: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 4:34 قَوَّٰمُونَ
+  - same: ك و ن B002 bulunma yeri ve konum değeri / المكان والمكانة من الكون ← 4:34 كَانَ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 4:35 عَلِيمًا
+  - near: ق ر ب B010 kılıç kını veya deri dış kabı / قراب السيف ووعاؤه ← 4:33 وَٱلْأَقْرَبُونَ
+  - near: ء ك ل B013 yemek yenilen kap veya yer / وعاء الأكل وموضعه ← 4:29 تَأْكُلُوٓا۟
+  - far: ط ر ق B003 vurarak işleme / الضرب الموقّع ← 4:168 طَرِيقًا
+  - far: م س ح B003 kılıçla vurup kesme / القطع والضرب بالسيف ← 4:43 فَٱمْسَحُوا۟
+- **B015** yoğun bal veya karışıp koyulaşmış süt / الغليظ المخلوط من عسل أو لبن
+  - same: ن ش ز B007 yaşla eksilmeyen güç ve iri sertlik / الغلظ وثبات القوة ← 4:34 نُشُوزَهُنَّ
+  - same: خ و ف B006 arıcı ya da su taşıyıcısının deri torbası veya üstlüğü / خافة العسال والسقاء ← 4:34 تَخَافُونَ
+  - same: س ط ع B005 avuç ya da parmak vuruşu ve sesi / ضربة وصوتها المرتفع ← 4:34 أَطَعْنَكُمْ
+  - near: ش ه د B007 petekli bal / الشَّهْد في الشمع ← 4:33 شَهِيدًا
+  - near: ع ق د B003 koyulaşıp katılaşma / غلظ المائع وصلبه ← 4:33 عَقَدَتْ
+  - near: خ و ف B006 arıcı ya da su taşıyıcısının deri torbası veya üstlüğü / خافة العسال والسقاء ← 4:35 خِفْتُمْ
+  - far: ء و ل B005 koyulaşıp pıhtılaşma / خثور السائل وانعقاده في آخر أمره ← 4:54 ءَالَ
+  - far: ش ه د B007 petekli bal / الشَّهْد في الشمع ← 4:15 فَٱسْتَشْهِدُوا۟
+- **B016** para-emek ortaklığı / شركة التجارة بالسفر
+  - same: ف ض ل B002 nitelikçe üstün olma, yüksek değer taşıma ve karşılaştırmada öne geçme / الدرجة والفضيلة ← 4:34 فَضَّلَ
+  - same: ن ف ق B002 bir şeyi gider olarak elden çıkarma; özel kullanımda elindekini tüketip yoksullaşma / خروج المال في النفقة ← 4:34 أَنفَقُوا۟
+  - same: م و ل B001 varlık; edinme, çoğalma ve başkasına kazandırma / اتخاذ المال وكثرته ← 4:34 أَمْوَٰلِهِمْ
+  - near: ت ج ر B001 kazanc amacli alis satis / التجارة وطلب الربح ← 4:29 تِجَٰرَةً
+  - near: ش ر ك B001 ortaklık ve ortak olma / الشَّرِكة والمشاركة ← 4:36 تُشْرِكُوا۟
+  - near: ج ع ل B005 iş karşılığı belirlenen ücret veya ortaklaşa kararlaştırılan ödeme / أجر مجعول على عمل ← 4:33 جَعَلْنَا
+  - far: خ س ر B002 alım satımda kazanç sağlayamama veya anaparadan yitirme / خسارة التجارة ← 4:119 خَسِرَ
+  - far: و ض ع B004 ticarette zarar ve sermaye indirimi / حط رأس المال بالخسران ← 4:46 مَّوَاضِعِهِۦ
+- **B017** çatışmaya kışkırtmak / إلهاب الناس إلى الفعل
+  - same: خ و ف B002 korku doğurma ya da korkulur kılma / إدخال الخوف في الغير ← 4:34 تَخَافُونَ
+  - same: ط و ع B005 yükümlü olmadığı iyiliği gönüllü yapma / التطوع والتبرع ← 4:34 أَطَعْنَكُمْ
+  - same: ق و م B014 karşılıklı direnip mücadele etme / مقاومة ومنازلة ← 4:34 قَوَّٰمُونَ
+  - near: ق ت ل B011 öldürme amacıyla karşılıklı savaşma / مقاتلة ومحاربة بين طرفين ← 4:29 تَقْتُلُوٓا۟
+  - near: ب ع ث B004 yola koyulup ilerleme / اندفاع القوم ومضيهم ← 4:35 فَٱبْعَثُوا۟
+  - near: خ و ف B002 korku doğurma ya da korkulur kılma / إدخال الخوف في الغير ← 4:35 خِفْتُمْ
+  - far: ح ر ض B006 birini bir eyleme güçlü biçimde özendirip yöneltme / إحماء على الفعل ← 4:84 وَحَرِّضِ
+  - far: و ق ع B005 savaşta çarpışma ve düşmana saldırma / وقعة الحرب والإيقاع بالقوم ← 4:100 وَقَعَ
+
+## ط و ع (أَطَعْنَكُمْ)
+
+- **B001** zorlanmadan boyun eğme ve kolay yönlenme / الانقياد والطاعة
+  - same: ق ن ت B001 inanç yolunda buyruğa boyun eğerek bağlı kalma / طاعة دينية خاضعة ← 4:34 قَٰنِتَٰتٌ
+  - same: ص ل ح B001 iyi ve düzgün olma; düzeltme / الصلاح ضد الفساد والطلاح ← 4:34 فَٱلصَّٰلِحَٰتُ
+  - same: ق و م B008 düzgünlük, denge ve doğru yoldan sapmama / استقامة واعتدال واستواء ← 4:34 قَوَّٰمُونَ
+  - near: ص ح ب B003 boyun eğip uyumlu duruma gelme / الإصحاب والانقياد ← 4:36 وَٱلصَّاحِبِ
+  - near: خ ف ف B007 uyup boyun eğmek / الخفوف للطاعة والانقياد ← 4:28 يُخَفِّفَ
+  - near: ع ب د B003 boyun eğerek itaat ve tapınma / العبادة والطاعة الخاضعة ← 4:36 وَٱعْبُدُوا۟
+  - far: ص ح ب B003 boyun eğip uyumlu duruma gelme / الإصحاب والانقياد ← 4:47 أَصْحَٰبَ
+  - far: د ي ن B001 boyun eğerek uyma ve buna dayalı inanç düzeni / الطاعة والانقياد ← 4:46 ٱلدِّينِ
+- **B002** taraflar arasında uyum gösterme / الموافقة والمطاوعة
+  - same: ب غ ي B002 uygun, mümkün veya hak edilmiş olmak / الانبغاء والمطاوعة لما يليق أو يتيسر ← 4:34 تَبْغُوا۟
+  - same: ق ن ت B001 inanç yolunda buyruğa boyun eğerek bağlı kalma / طاعة دينية خاضعة ← 4:34 قَٰنِتَٰتٌ
+  - same: ك و ن B004 boyun eğme / الخضوع بالاستكانة ← 4:34 كَانَ
+  - near: ء ت ي B003 uygun yoldan ele almak ve elverişli hale gelmek / مأتى الأمر وتهيؤه ← 4:33 فَـَٔاتُوهُمْ
+  - near: و ف ق B002 rastlama ve isabet etme / مصادفة الشيء والوقوع عليه موافقا ← 4:35 يُوَفِّقِ
+  - near: ع ب د B003 boyun eğerek itaat ve tapınma / العبادة والطاعة الخاضعة ← 4:36 وَٱعْبُدُوا۟
+  - far: ء ت ي B003 uygun yoldan ele almak ve elverişli hale gelmek / مأتى الأمر وتهيؤه ← 4:25 وَءَاتُوهُنَّ
+  - far: و ف ق B002 rastlama ve isabet etme / مصادفة الشيء والوقوع عليه موافقا ← 4:62 وَتَوْفِيقًا
+- **B003** bir işi yapabilecek güç ve elverişlilik / الاستطاعة والإطاقة
+  - same: ق ن ت B001 inanç yolunda buyruğa boyun eğerek bağlı kalma / طاعة دينية خاضعة ← 4:34 قَٰنِتَٰتٌ
+  - same: ك و ن B002 bulunma yeri ve konum değeri / المكان والمكانة من الكون ← 4:34 كَانَ
+  - same: ب غ ي B002 uygun, mümkün veya hak edilmiş olmak / الانبغاء والمطاوعة لما يليق أو يتيسر ← 4:34 تَبْغُوا۟
+  - near: ش ي ء B002 — / المشيئة المتعلّقة بالشيء ← 4:33 شَىْءٍ
+  - near: ء ت ي B003 uygun yoldan ele almak ve elverişli hale gelmek / مأتى الأمر وتهيؤه ← 4:33 فَـَٔاتُوهُمْ
+  - near: ك و ن B002 bulunma yeri ve konum değeri / المكان والمكانة من الكون ← 4:33 كَانَ
+  - far: ق د ر B003 bir şeyi yapmaya veya ona egemen olmaya elveren güç / تمكن يبلغ بصاحبه الفعل والملك ← 4:133 قَدِيرًا
+  - far: و س ع B002 güç yetirme ve alma kapasitesi / سعة الطاقة والاحتمال ← 4:97 وَٰسِعَةً
+- **B004** yapabilir hale gelmek için kendini zorlama / تكلف الاستطاعة
+  - same: ض ج ع B003 işi savsaklama ve güçsüzce geri durma / الانطراح عن القيام بالأمر ← 4:34 ٱلْمَضَاجِعِ
+  - same: ق و م B003 bir işe kararlılıkla girişme / عزم ونهوض إلى الأمر ← 4:34 قَوَّٰمُونَ
+  - same: ب ع ض B001 parça ve parçalara ayırma / تجزئة الشيء وطائفته ← 4:34 بَعْضَهُمْ
+  - near: ء ت ي B003 uygun yoldan ele almak ve elverişli hale gelmek / مأتى الأمر وتهيؤه ← 4:33 فَـَٔاتُوهُمْ
+  - near: ب ط ل B007 belirli kullanımdaki büyücüler topluluğu / البطلة السحرة ← 4:29 بِٱلْبَٰطِلِ
+  - near: ع ب د B003 boyun eğerek itaat ve tapınma / العبادة والطاعة الخاضعة ← 4:36 وَٱعْبُدُوا۟
+  - far: ك ل ف B003 güçlükle yük üstlenme veya yükümlü kılma / حمل مشقة أو حق ← 4:84 تُكَلَّفُ
+  - far: ح م ل B007 zorlanarak yüklenme, eğilme veya dayanak olma / التحامل والمشقة ← 4:112 ٱحْتَمَلَ
+- **B005** yükümlü olmadığı iyiliği gönüllü yapma / التطوع والتبرع
+  - same: ف ض ل B003 başkasına gönüllü iyilik etme ve yükümlülük dışı bağış verme / الإحسان والعطية ← 4:34 فَضَّلَ
+  - same: ه ج ر B001 bağı kesip uzaklaşma / الانقطاع والمفارقة ← 4:34 وَٱهْجُرُوهُنَّ
+  - same: ن ف ق B002 bir şeyi gider olarak elden çıkarma; özel kullanımda elindekini tüketip yoksullaşma / خروج المال في النفقة ← 4:34 أَنفَقُوا۟
+  - near: ف ض ل B003 başkasına gönüllü iyilik etme ve yükümlülük dışı bağış verme / الإحسان والعطية ← 4:32 فَضَّلَ
+  - near: ن ف ق B002 bir şeyi gider olarak elden çıkarma; özel kullanımda elindekini tüketip yoksullaşma / خروج المال في النفقة ← 4:38 يُنفِقُونَ
+  - near: ب ع ث B004 yola koyulup ilerleme / اندفاع القوم ومضيهم ← 4:35 فَٱبْعَثُوا۟
+  - far: ف ض ل B003 başkasına gönüllü iyilik etme ve yükümlülük dışı bağış verme / الإحسان والعطية ← 4:54 فَضْلِهِۦ
+  - far: س ب ح B001 Tanrı'yı yücelterek anma ve kulluk / العبادة بالتسبيح والصلاة ← 4:171 سُبْحَٰنَهُۥٓ
+- **B006** iç benliğin işi kolay gösterip yöneltmesi / تسهيل النفس للأمر
+  - same: ح ف ظ B002 bellekte tutma / ثبوت المحفوظ في النفس ← 4:34 حَٰفِظَٰتٌ
+  - same: ق ن ت B001 inanç yolunda buyruğa boyun eğerek bağlı kalma / طاعة دينية خاضعة ← 4:34 قَٰنِتَٰتٌ
+  - same: ب ع ض B001 parça ve parçalara ayırma / تجزئة الشيء وطائفته ← 4:34 بَعْضَهُمْ
+  - near: ق ر ن B009 bedene bağlı iç benlik / نفس مقترنة بالبدن أو مطاوعة ← 4:38 قَرِينًا
+  - near: ء ت ي B003 uygun yoldan ele almak ve elverişli hale gelmek / مأتى الأمر وتهيؤه ← 4:33 فَـَٔاتُوهُمْ
+  - near: ص ح ب B003 boyun eğip uyumlu duruma gelme / الإصحاب والانقياد ← 4:36 وَٱلصَّاحِبِ
+  - far: ء ت ي B003 uygun yoldan ele almak ve elverişli hale gelmek / مأتى الأمر وتهيؤه ← 4:25 وَءَاتُوهُنَّ
+  - far: ص ح ب B003 boyun eğip uyumlu duruma gelme / الإصحاب والانقياد ← 4:47 أَصْحَٰبَ
+- **B007** otlak veya meyvenin yararlanılabilir hale gelmesi / تهيؤ المرعى والثمر
+  - same: ه ج ر B004 hastalık sırasında istemeden sayıklama / هذيان المريض والنائم ← 4:34 وَٱهْجُرُوهُنَّ
+  - same: ك و ن B002 bulunma yeri ve konum değeri / المكان والمكانة من الكون ← 4:34 كَانَ
+  - same: ق ن ت B001 inanç yolunda buyruğa boyun eğerek bağlı kalma / طاعة دينية خاضعة ← 4:34 قَٰنِتَٰتٌ
+  - near: ء ك ل B002 ağaç ve ekin ürünü / غلة الشجر والزرع ← 4:29 تَأْكُلُوٓا۟
+  - near: ء ت ي B007 gelişip bol ürün vermek / خروج النماء والنتاج ← 4:33 فَـَٔاتُوهُمْ
+  - near: ع ق د B005 sık ve köklü ağaçlık ya da otlak / كثافة الشجر والمرعى ← 4:33 عَقَدَتْ
+  - far: و ص ي B004 otlağın sürüye bolca elverişli olması / موافقة المرعى للسائمة ← 4:12 وَصِيَّةٍ
+  - far: ر ع ي B001 otlama, ot ve otlak / رعي الكلإ والمرعى ← 4:46 وَرَٰعِنَا
+
+## س ط ع (أَطَعْنَكُمْ)
+
+- **B001** havada uzama, yükselme veya yayılma / امتداد الشيء وارتفاعه في الهواء
+  - same: ع ل و B001 yukarı yükselme ve yüksekte olma / السمو والارتفاع ← 4:34 عَلِيًّا
+  - same: ن ش ز B001 yükselti ve çıkıntı / الارتفاع والنتوء ← 4:34 نُشُوزَهُنَّ
+  - same: ب غ ي B006 göğün şiddetli, bol ve gereğinden fazla yağdırması / شدة المطر ومعظمه ← 4:34 تَبْغُوا۟
+  - near: ن ف س B009 kalıba bağlı yarılıp açılma ve genişleme / انفتاح الصبح والشيء كالنفس ← 4:29 أَنفُسَكُمْ
+  - near: ن ص ب B001 dikme, dik durma ve yükselme / إقامة الشيء منتصبا بارزا ← 4:33 نَصِيبَهُمْ
+  - near: ن و ر B002 yanan ateş ve ateşle yapılan hayvan damgası / النار المتقدة والسمة بها ← 4:30 نَارًا
+  - far: ع ل و B001 yukarı yükselme ve yüksekte olma / السمو والارتفاع ← 4:61 تَعَالَوْا۟
+  - far: م ت ع B002 uzama, yükselme ve kimi bağlamlarda doruğa ulaşma / امتداد وارتفاع يبلغ غايته ← 4:24 ٱسْتَمْتَعْتُم
+- **B002** boyun uzunluğu / طول العنق وامتداده
+  - same: ع ل و B010 uzun ve iri yapılı / الطول والضخامة ← 4:34 عَلِيًّا
+  - same: ق و م B011 insanın boyu ve düzgün beden yapısı / قامة وقوام الجسم والطول ← 4:34 قَوَّٰمُونَ
+  - same: ر ج ل B015 atın iki yürüyüşü karıştırması / ارتجال الفرس ← 4:34 ٱلرِّجَالُ
+  - near: ظ ل م B006 erkek devekusu / الظليم ذكر النعام ← 4:30 وَظُلْمًا
+  - near: ع ق د B017 boynunu yöneltip birine sığınma / لجأ بعنقه ← 4:33 عَقَدَتْ
+  - near: ء م م B006 boy ve beden görünüşü / القامة والهيئة ← 4:41 أُمَّةٍۭ
+  - far: س ل ف B007 boynun yan, ön veya üst bölümü / السالفة من العنق ← 4:23 سَلَفَ
+  - far: ع م د B005 kalıba bağlı uzunluk ve yücelik / الطول والرفعة في العماد ← 4:93 مُّتَعَمِّدًا
+- **B003** ev direği / العمود المنصوب وما شبه به
+  - same: ع ل و B010 uzun ve iri yapılı / الطول والضخامة ← 4:34 عَلِيًّا
+  - same: ط و ع B003 bir işi yapabilecek güç ve elverişlilik / الاستطاعة والإطاقة ← 4:34 أَطَعْنَكُمْ
+  - same: ر ج ل B016 dik duran pişirme kazanı / المرجل المنصوب ← 4:34 ٱلرِّجَالُ
+  - near: ب ن ي B009 kaburgalar veya ev direkleri; yerleşip huzur bulma / البَواني أضلاع ودعائم يستقر بها الشيء ← 4:36 وَٱبْنِ
+  - near: ش ق ق B006 yarılıp ayrılmış parça / قطعة منشقة وثوب ← 4:35 شِقَاقَ
+  - near: ك ل ل B006 ev biçimli ince koruyucu örtü / الكِلّة سترا وبيتا ← 4:33 وَلِكُلٍّ
+  - far: ع م د B003 taşıyıcı dik direk veya sütun / العمود والعماد ← 4:93 مُّتَعَمِّدًا
+  - far: ق ر ي B008 ev direğinin başını taşıyan yuvalı ahşap düzenek / خشبات تحمل رأس عمود البيت ← 4:75 ٱلْقَرْيَةِ
+- **B004** deve boynundaki uzunlamasına damga / السمة الطولية في العنق
+  - same: ع ل و B010 uzun ve iri yapılı / الطول والضخامة ← 4:34 عَلِيًّا
+  - same: ر ج ل B015 atın iki yürüyüşü karıştırması / ارتجال الفرس ← 4:34 ٱلرِّجَالُ
+  - same: ط و ع B003 bir işi yapabilecek güç ve elverişlilik / الاستطاعة والإطاقة ← 4:34 أَطَعْنَكُمْ
+  - near: ء م م B006 boy ve beden görünüşü / القامة والهيئة ← 4:41 أُمَّةٍۭ
+  - near: ن و ر B002 yanan ateş ve ateşle yapılan hayvan damgası / النار المتقدة والسمة بها ← 4:30 نَارًا
+  - near: ي س ر B008 ayrı avuç çizgileri veya uyluk damgası / خطوط منفصلة وعلامات في البدن ← 4:30 يَسِيرًا
+  - far: و ض ع B013 binmek için devenin boynunu alçaltma / تطامن عنق البعير للركوب ← 4:46 مَّوَاضِعِهِۦ
+  - far: ع ل و B010 uzun ve iri yapılı / الطول والضخامة ← 4:61 تَعَالَوْا۟
+- **B005** avuç ya da parmak vuruşu ve sesi / ضربة وصوتها المرتفع
+  - same: ض ر ب B001 bir şeyi başka bir şeyin üzerine vurmak / إيقاع شيء على شيء ← 4:34 وَٱضْرِبُوهُنَّ
+  - same: ن ش ز B001 yükselti ve çıkıntı / الارتفاع والنتوء ← 4:34 نُشُوزَهُنَّ
+  - same: ك ب ر B002 bir işin ana payı ve başlıca yükü / معظم الأمر ← 4:34 كَبِيرًا
+  - near: ن ص ب B009 özel bir şarkı veya ezgi türü / غناء يرفع به الصوت ← 4:33 نَصِيبَهُمْ
+  - near: ض ع ف B003 satır araları, kenar ve bedenin iç bölümleri / أثناء الشيء وجوفه ← 4:28 ضَعِيفًا
+  - near: ع ذ ب B005 ağır acı çektirme ve cezalandırma / العذاب إيلام وعقوبة ← 4:37 عَذَابًا
+  - far: و ق ع B004 çarpma ve çarpma sesi / أثر الضرب وصوت الوقوع ← 4:100 وَقَعَ
+  - far: ض ر ب B001 bir şeyi başka bir şeyin üzerine vurmak / إيقاع شيء على شيء ← 4:94 ضَرَبْتُمْ
+- **B006** belirli bir dağın özel adı / اسم جبل بعينه
+  - same: ص ل ح B005 bir kent ve bir nehir için özel adlar / صلاح والصلح علمان لمواضع ← 4:34 فَٱلصَّٰلِحَٰتُ
+  - same: ر ج ل B010 orta kıvırcıklıkta saç / الشعر الرَّجِل ← 4:34 ٱلرِّجَالُ
+  - same: ك ب ر B012 tek yüzlü davul / الكَبَر طبل ← 4:34 كَبِيرًا
+  - near: ح س ن B004 yer, gök cismi ve beden bölümü adları ile kum tepesine oturma kullanımı / أسماء الحسن للمواضع والأجسام ← 4:36 إِحْسَٰنًا
+  - near: ر ض و B007 bir dağ adı ve kadın adları / رضوى ورضيا أعلام من المادة ← 4:29 تَرَاضٍ
+  - near: ي س ر B010 yer ve kişi adı kullanımları / موضع أو علم باسم يسر ويسار ← 4:30 يَسِيرًا
+  - far: ء ح د B006 Medine'deki belirli bir dağın özel adı / جبل أُحُد ← 4:43 أَحَدٌ
+  - far: ط و ر B005 dağ veya belirli bir dağın adı / الطور جبلا أو علما على جبل ← 4:154 ٱلطُّورَ
+
+## ب غ ي (تَبْغُوا۟)
+
+- **B001** bir şeyi arayıp istemek; başkası için aramak veya arayışına yardım etmek / طلب الشيء وابتغاؤه
+  - same: ض ج ع B004 alçaltma veya bir yana eğme / خفض الشيء وإمالته ← 4:34 ٱلْمَضَاجِعِ
+  - same: ع ل و B004 yapı içinde üstün gelip bastırma / الغلبة والاستيلاء ← 4:34 عَلِيًّا
+  - same: ف ض ل B001 gereksinimi aşan veya bir işlemden sonra kalan fazlalık / الزيادة والبقية ← 4:34 فَضَّلَ
+  - near: ن ه ي B007 sonuçtan bağımsız olarak ihtiyacı aramayı bırakma / الانقطاع عن طلب الحاجة ← 4:31 تُنْهَوْنَ
+  - near: ك س ب B001 kendisi için geçimlik ya da yarar arayıp elde etme / طلب الرزق والنفع وإصابته ← 4:32 ٱكْتَسَبُوا۟
+  - near: ع د و B005 yetkiliden hakkını almasını isteme / العَدْوى في طلب الإنصاف ← 4:30 عُدْوَٰنًا
+  - far: ل م س B002 bir şeyi arama veya elde etmeyi isteme / طلب الشيء والتماسه ← 4:43 لَٰمَسْتُمُ
+  - far: ن ه ي B007 sonuçtan bağımsız olarak ihtiyacı aramayı bırakma / الانقطاع عن طلب الحاجة ← 4:161 نُهُوا۟
+- **B002** uygun, mümkün veya hak edilmiş olmak / الانبغاء والمطاوعة لما يليق أو يتيسر
+  - same: ط و ع B002 taraflar arasında uyum gösterme / الموافقة والمطاوعة ← 4:34 أَطَعْنَكُمْ
+  - same: ص ل ح B003 sana uygun olma / الصلاح للشيء ملاءمته ← 4:34 فَٱلصَّٰلِحَٰتُ
+  - same: ع ل و B006 gel diye çağırma / نداء التعالي ← 4:34 عَلِيًّا
+  - near: ي س ر B001 kolaylık; kolay ve hazır duruma gelme ya da getirme / انفتاح وسهولة بعد عسر ← 4:30 يَسِيرًا
+  - near: ء ت ي B003 uygun yoldan ele almak ve elverişli hale gelmek / مأتى الأمر وتهيؤه ← 4:33 فَـَٔاتُوهُمْ
+  - near: ح ب ب B003 övgü, güçlü istek ve kabul bildiren kalıplar / صيغة المدح وغاية الرغبة ← 4:36 يُحِبُّ
+  - far: غ ن م B003 en büyük amacın ve kazancın bu olsun / غناماك غاية تتغنمها ← 4:94 مَغَانِمُ
+  - far: ط و ع B002 taraflar arasında uyum gösterme / الموافقة والمطاوعة ← 4:25 يَسْتَطِعْ
+- **B003** haddi aşarak haksızlık etmek / تجاوز الحد بالعدوان والظلم
+  - same: ع ل و B003 kibirli üstünlük taslama / العظمة والتجبر ← 4:34 عَلِيًّا
+  - same: ك ب ر B006 ululuk ve kendini üstün görme / العظمة والكبرياء ← 4:34 كَبِيرًا
+  - same: ف ض ل B004 akranlarına karşı üstünlük iddia etme ve daha yüksek konum isteme / ادعاء الفضل ← 4:34 فَضَّلَ
+  - near: ع د و B001 hakkı aşan saldırganlık / مجاوزة الحد والظلم ← 4:30 عُدْوَٰنًا
+  - near: ظ ل م B003 haksizliga karsi yakinma ve geri istem / الظلامة وطلب الإنصاف ← 4:30 وَظُلْمًا
+  - near: ع ظ م B006 kibirlenip böbürlenme / التعاظم والزهو ← 4:40 عَظِيمًا
+  - far: ع د و B001 hakkı aşan saldırganlık / مجاوزة الحد والظلم ← 4:45 بِأَعْدَآئِكُمْ
+  - far: س ر ف B001 sınırı ve uygun ölçüyü aşma / مجاوزة الحد ← 4:6 إِسْرَافًا
+- **B004** yaranın şişip bozulması veya içinde irin kalmış halde kapanması / فساد الجرح وتجاوزه
+  - same: ن ف ق B001 tükenip sona erme; özel kullanımlarda alıcı bulma, çabuk kesilme veya yüzeyden ayrılma / ذهاب الشيء وانقطاعه ← 4:34 أَنفَقُوا۟
+  - same: ص ل ح B001 iyi ve düzgün olma; düzeltme / الصلاح ضد الفساد والطلاح ← 4:34 فَٱلصَّٰلِحَٰتُ
+  - same: ه ج ر B008 benzerlerini aşan üstünlük / المجاوزة في الحسن والتمام ← 4:34 وَٱهْجُرُوهُنَّ
+  - near: ع د و B001 hakkı aşan saldırganlık / مجاوزة الحد والظلم ← 4:30 عُدْوَٰنًا
+  - near: د خ ل B004 içten bozan kusur / فساد مستبطن ← 4:31 وَنُدْخِلْكُم
+  - near: ج ي ء B003 — / جائية الجراح ← 4:41 جِئْنَا
+  - far: ر م ي B006 iki sınır arasında ilerleyip sonuca varmak / ترام إلى غاية ← 4:112 يَرْمِ
+  - far: ن ف ر B005 hastalık yüzünden şişip kabarma / انتفاخ الجلد وتجافيه بالسقم ← 4:71 فَٱنفِرُوا۟
+- **B005** evlilik dışı cinsel ilişki ve buna bağlı kişi adları / البغاء والفجور الجنسي
+  - same: غ ي ب B003 içine gireni örten sık koruluk / أجمة يغاب فيها ← 4:34 لِّلْغَيْبِ
+  - same: ه ج ر B009 sürekli alışkanlık ve uğraş / الدأب والديدن الملازم ← 4:34 وَٱهْجُرُوهُنَّ
+  - same: ن ش ز B004 eşinden soğuyup evlilik ilişkisine karşı koyma / نشوز الزوجين ← 4:34 نُشُوزَهُنَّ
+  - near: ت ب ع B011 kadınların peşinden cinsel amaçla gitmek / اتباع النساء ← 4:27 يَتَّبِعُونَ
+  - near: ء م م B014 genç kız veya kadın köle / الأمة الوليدة ← 4:41 أُمَّةٍۭ
+  - near: ق ر ب B007 temas edip içine girecek ölçüde yaklaşma / مقاربة الشيء وملابسته ← 4:33 وَٱلْأَقْرَبُونَ
+  - far: ب ر ج B003 kadının güzellik ve süsünü sergilemesi / التبرّج بإظهار الزينة ← 4:78 بُرُوجٍ
+  - far: ه ل ك B003 salınarak ve kırıtılarak yürüme / تكسّر التهالك في المشي والغنج ← 4:176 هَلَكَ
+- **B006** göğün şiddetli, bol ve gereğinden fazla yağdırması / شدة المطر ومعظمه
+  - same: س ب ل B005 yağan yağmur / مطر سابل بين السحاب والأرض ← 4:34 سَبِيلًا
+  - same: ك ب ر B002 bir işin ana payı ve başlıca yükü / معظم الأمر ← 4:34 كَبِيرًا
+  - same: ض ر ب B013 hava olayının toprağa veya bitkiye etkisi / أثر البرد والمطر في الأرض والنبات ← 4:34 وَٱضْرِبُوهُنَّ
+  - near: ر ز ق B003 yağmur / الغيث النازل رزقا ← 4:39 رَزَقَهُمُ
+  - near: خ ي ل B004 gökyüzünün yağmur umduran belirtiler göstermesi / مخيلة المطر ← 4:36 مُخْتَالًا
+  - near: ع ظ م B002 bir şeyin çoğu veya büyük bölümü / معظم الشيء ← 4:40 عَظِيمًا
+  - far: ش ك ر B005 şiddetlenip etkisini artırma / اشتداد الوقوع والهيجان ← 4:147 شَكَرْتُمْ
+  - far: م ط ر B001 yağmur ve yağmurun yağması / ماء منسكب من السماء والسحاب ← 4:102 مَّطَرٍ
+- **B007** atın koşarken çalımlı ve neşeli davranması / اختيال الفرس ومرحه في العدو
+  - same: ر ج ل B015 atın iki yürüyüşü karıştırması / ارتجال الفرس ← 4:34 ٱلرِّجَالُ
+  - same: غ ي ب B009 ölüyü mezara gömme / تغييبه في القبر ← 4:34 لِّلْغَيْبِ
+  - same: ه ج ر B009 sürekli alışkanlık ve uğraş / الدأب والديدن الملازم ← 4:34 وَٱهْجُرُوهُنَّ
+  - near: ع د و B002 yaya ya da atla koşma / العَدْو والحَضْر ← 4:30 عُدْوَٰنًا
+  - near: ر ج ل B015 atın iki yürüyüşü karıştırması / ارتجال الفرس ← 4:32 لِّلرِّجَالِ
+  - near: خ ي ل B003 kendini üstün görerek böbürlenme ve bunu gösterişli yürüyüşle dışa vurma / الخيلاء في المشية ← 4:36 مُخْتَالًا
+  - far: ب ل غ B007 atı hızlandırmak için dizgini ileri verme / مد الفارس عنانه لزيادة العدو ← 4:6 بَلَغُوا۟
+  - far: ع د و B002 yaya ya da atla koşma / العَدْو والحَضْر ← 4:45 بِأَعْدَآئِكُمْ
+- **B008** ordudan önce ilerleyen öncüler / البغايا الطلائع
+  - same: ط و ع B001 zorlanmadan boyun eğme ve kolay yönlenme / الانقياد والطاعة ← 4:34 أَطَعْنَكُمْ
+  - same: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 4:34 قَوَّٰمُونَ
+  - same: ض ج ع B002 aynı yatakta birlikte yatma / مشاركة المضجع ← 4:34 ٱلْمَضَاجِعِ
+  - near: و ل ي B011 deve sırtı alt örtüsü / ولية تحت الرحل ← 4:33 مَوَٰلِىَ
+  - near: ت ب ع B011 kadınların peşinden cinsel amaçla gitmek / اتباع النساء ← 4:27 يَتَّبِعُونَ
+  - near: ء م م B014 genç kız veya kadın köle / الأمة الوليدة ← 4:41 أُمَّةٍۭ
+  - far: ب ل غ B011 başa gelen ağır ve yıkıcı büyük olay / البُلغين الداهية ← 4:6 بَلَغُوا۟
+  - far: خ و ل B007 ordu sancağı / الخَال لواء الجيش ← 4:23 وَخَٰلَٰتُكُمْ
+
+## س ب ل (سَبِيلًا)
+
+- **B001** yol ve bir amaca ulaştıran yol / طريق ممتد يسلك
+  - same: ح ف ظ B007 açık, düz ve kesintisiz yol / طريق حافظ بين مستقيم ← 4:34 حَٰفِظَٰتٌ
+  - same: ض ر ب B002 bir amaçla yeryüzünde yolculuk etmek / السعي في الأرض ← 4:34 وَٱضْرِبُوهُنَّ
+  - same: خ و ف B002 korku doğurma ya da korkulur kılma / إدخال الخوف في الغير ← 4:34 تَخَافُونَ
+  - near: ش ر ك B005 yolun ana yatağı, izleri ve küçük kolları / شِرك الطريق ← 4:36 تُشْرِكُوا۟
+  - near: م ل ك B006 yolun veya yerin orta ya da ana kesimi / مَلَك الطريق والوادي ← 4:36 مَلَكَتْ
+  - near: ب ن ي B008 küçük, dallanmış veya yerden çıkan şeylere çocuk adı verme / تسميات الابن والبنت للأشياء المتفرعة أو الصغيرة ← 4:36 وَٱبْنِ
+  - far: ط ر ق B002 izlenen yol, yöntem veya uzanan düzen / المسلك الممتد ← 4:168 طَرِيقًا
+  - far: ن ب ء B007 istenen yere götüren açık yol / الطريق الواضح والأرض السهلة ← 4:69 ٱلنَّبِيِّۦنَ
+- **B002** yol kullanan kişi veya yolcu / أهل الطريق وسالكوه
+  - same: ض ر ب B002 bir amaçla yeryüzünde yolculuk etmek / السعي في الأرض ← 4:34 وَٱضْرِبُوهُنَّ
+  - same: ح ف ظ B007 açık, düz ve kesintisiz yol / طريق حافظ بين مستقيم ← 4:34 حَٰفِظَٰتٌ
+  - same: ص ل ح B004 kişi adı olan kök türevleri / صالح وما قاربه علما لشخص ← 4:34 فَٱلصَّٰلِحَٰتُ
+  - near: ب ن ي B008 küçük, dallanmış veya yerden çıkan şeylere çocuk adı verme / تسميات الابن والبنت للأشياء المتفرعة أو الصغيرة ← 4:36 وَٱبْنِ
+  - near: ع ب د B010 her yana dağılmış kümeler, nesneler veya yollar / التفرق في الوجوه ← 4:36 وَٱعْبُدُوا۟
+  - near: ء م م B005 benimsenen inanç ve yaşayış yolu / الأمة دينا وطريقة ← 4:41 أُمَّةٍۭ
+  - far: ط ر ق B002 izlenen yol, yöntem veya uzanan düzen / المسلك الممتد ← 4:168 طَرِيقًا
+  - far: ب ن ي B008 küçük, dallanmış veya yerden çıkan şeylere çocuk adı verme / تسميات الابن والبنت للأشياء المتفرعة أو الصغيرة ← 4:23 وَبَنَاتُكُمْ
+- **B004** aşağı doğru salmak / إرخاء من علو إلى سفل
+  - same: ر ج ل B014 yavruyu annesiyle serbest bırakmak / إرسال الفصيل مع أمه ← 4:34 ٱلرِّجَالُ
+  - same: ع ل و B005 üst yan ve yukarıdanlık / الجهة العليا ومن فوق ← 4:34 عَلِيًّا
+  - same: ض ج ع B007 yerinde kalan veya su yüküyle ağır ilerleyen bulut / السحاب المقيم المبطئ ← 4:34 ٱلْمَضَاجِعِ
+  - near: ر ج ل B014 yavruyu annesiyle serbest bırakmak / إرسال الفصيل مع أمه ← 4:32 لِّلرِّجَالِ
+  - near: خ ي ل B004 gökyüzünün yağmur umduran belirtiler göstermesi / مخيلة المطر ← 4:36 مُخْتَالًا
+  - near: ج ع ل B009 dişinin çiftleşmek için erkeği istemesi / اشتهاء الأنثى للفحل ← 4:33 جَعَلْنَا
+  - far: ع ز ل B006 alt su çıkışı ve sağanak benzetmesi / العزلاء مصب الماء وعزالي السحاب ← 4:90 ٱعْتَزَلُوكُمْ
+  - far: س ف ل B003 rüzgâra göre aşağı taraf / سفالة الريح بإزاء علاوتها ← 4:145 ٱلْأَسْفَلِ
+- **B005** yağan yağmur / مطر سابل بين السحاب والأرض
+  - same: ب غ ي B006 göğün şiddetli, bol ve gereğinden fazla yağdırması / شدة المطر ومعظمه ← 4:34 تَبْغُوا۟
+  - same: ض ر ب B013 hava olayının toprağa veya bitkiye etkisi / أثر البرد والمطر في الأرض والنبات ← 4:34 وَٱضْرِبُوهُنَّ
+  - same: ض ج ع B007 yerinde kalan veya su yüküyle ağır ilerleyen bulut / السحاب المقيم المبطئ ← 4:34 ٱلْمَضَاجِعِ
+  - near: خ ي ل B004 gökyüzünün yağmur umduran belirtiler göstermesi / مخيلة المطر ← 4:36 مُخْتَالًا
+  - near: و ل ي B010 önceki yağmuru izleyen yağmur / مطر يلي الوسمي ← 4:33 مَوَٰلِىَ
+  - near: ء ت ي B005 başka bölgeden gelen sel / السيل الآتي من غير البلد ← 4:33 فَـَٔاتُوهُمْ
+  - far: م ط ر B001 yağmur ve yağmurun yağması / ماء منسكب من السماء والسحاب ← 4:102 مَّطَرٍ
+  - far: ص و ب B001 yukarıdan inip yerleşen yağış / نزول المطر من علو واستقراره ← 4:62 أَصَٰبَتْهُم
+- **B006** üst dudak ve sakal önündeki sarkan kıl / شعر منسدل عند الفم واللحية
+  - same: ر ج ل B010 orta kıvırcıklıkta saç / الشعر الرَّجِل ← 4:34 ٱلرِّجَالُ
+  - same: ع ل و B005 üst yan ve yukarıdanlık / الجهة العليا ومن فوق ← 4:34 عَلِيًّا
+  - same: س ط ع B004 deve boynundaki uzunlamasına damga / السمة الطولية في العنق ← 4:34 أَطَعْنَكُمْ
+  - near: ع ل م B004 üst dudak yarığı / شق ظاهر في الشفة العليا ← 4:35 عَلِيمًا
+  - near: ر ج ل B010 orta kıvırcıklıkta saç / الشعر الرَّجِل ← 4:32 لِّلرِّجَالِ
+  - near: ح ك م B006 gemin çene çevresini kuşatan kısıtlayıcı parçası / حكمة اللجام ← 4:35 حَكَمًا
+  - far: ع ل م B004 üst dudak yarığı / شق ظاهر في الشفة العليا ← 4:26 عَلِيمٌ
+  - far: م س ح B012 saç lülesi ve saç tarayan kadın / ذوائب الشعر والماشطة ← 4:43 فَٱمْسَحُوا۟
+- **B007** kap kenarı veya hayvanın boğaz kesim yeri / حافة أو مخرج متقدم
+  - same: ع ل و B009 belirli araç ve parça adları / أسماء الأدوات والأجزاء المرتفعة ← 4:34 عَلِيًّا
+  - same: س ط ع B004 deve boynundaki uzunlamasına damga / السمة الطولية في العنق ← 4:34 أَطَعْنَكُمْ
+  - same: ض ج ع B008 dolu kovanın eğilmesi veya dolu çuvalın boşaltılması / ميل الممتلئ وتفريغه ← 4:34 ٱلْمَضَاجِعِ
+  - near: ع ل م B004 üst dudak yarığı / شق ظاهر في الشفة العليا ← 4:35 عَلِيمًا
+  - near: ن ص ب B002 tapınma veya adak kesme taşı / حجر منصوب للعبادة والذبح ← 4:33 نَصِيبَهُمْ
+  - near: خ ف ف B006 deve ayağı ucu veya kapalı ayak giysisi / الخُفّ والقدم الملبوسة ← 4:28 يُخَفِّفَ
+  - far: س م ع B008 taşıma kabının sap veya denge parçası / مِسمع الدلو والغرب ← 4:46 سَمِعْنَا
+  - far: ع ل م B004 üst dudak yarığı / شق ظاهر في الشفة العليا ← 4:26 عَلِيمٌ
+- **B008** tahıl başağı ve başak çıkarmak / سنبلة الزرع الممتدة
+  - same: ر ج ل B007 semizotu diye bilinen ot / الرِّجلة النبات ← 4:34 ٱلرِّجَالُ
+  - same: م و ل B001 varlık; edinme, çoğalma ve başkasına kazandırma / اتخاذ المال وكثرته ← 4:34 أَمْوَٰلِهِمْ
+  - same: ض ر ب B015 yoğun bal veya karışıp koyulaşmış süt / الغليظ المخلوط من عسل أو لبن ← 4:34 وَٱضْرِبُوهُنَّ
+  - near: ذ ر ر B001 küçük karıncalar ve bunlardan biri / صغر الذر وانتشاره ← 4:40 ذَرَّةٍ
+  - near: ص ل ي B010 iri başaklı deve yemi bitkisi / الصِّليان نبت ترعاه الإبل ← 4:30 نُصْلِيهِ
+  - near: ء ت ي B007 gelişip bol ürün vermek / خروج النماء والنتاج ← 4:33 فَـَٔاتُوهُمْ
+  - far: ق ص ر B012 başakta kalan tane, tane kabuğu veya saman dibi / بقايا الحب والقشر ← 4:101 تَقْصُرُوا۟
+  - far: ر ف ع B006 hasat ürününü harman yerine taşımak / رفع الزرع ← 4:154 وَرَفَعْنَا
+- **B010** kırmızı damarlı ağsı göz perdesi / غشاوة في العين تشبه النسج
+  - same: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 4:34 قَوَّٰمُونَ
+  - same: ض ج ع B009 giysi yıkamada kullanılan bitki sakızı / صمغ نبات للغسل ← 4:34 ٱلْمَضَاجِعِ
+  - same: غ ي ب B008 toprağa saklanmış ağaç kökleri / غيبان الشجرة عروق مستترة ← 4:34 لِّلْغَيْبِ
+  - near: ن ف س B003 kem gözle zarar verme / إصابة العين بالنفس ← 4:29 أَنفُسَكُمْ
+  - near: ك ل ل B006 ev biçimli ince koruyucu örtü / الكِلّة سترا وبيتا ← 4:33 وَلِكُلٍّ
+  - near: ع د و B012 eğrilik ve güçlük / العَنْدَأْوَة في الالتواء والعسر ← 4:30 عُدْوَٰنًا
+  - far: ح ق ق B011 özel adlandırma kümesi / حق يطابق موضعه كالمفصل والوعاء ← 4:105 بِٱلْحَقِّ
+  - far: ن ظ ر B008 biçime bağlı adlandırmalar / العين وموضع النظر فيها ← 4:46 وَٱنظُرْنَا
+
+## ك و ن (كَانَ)
+
+- **B001** gerçekleşme, bulunma ve olma bildirimi / وقوع الشيء وحضوره في زمان
+  - same: ر ج ل B004 birinin devrinde / زمان الرجل ← 4:34 ٱلرِّجَالُ
+  - same: ع ل و B012 ilgeç ve kalıplaşmış görev sözü / حرف عَلَى وما جرى مجراه ← 4:34 عَلِيًّا
+  - same: ب غ ي B002 uygun, mümkün veya hak edilmiş olmak / الانبغاء والمطاوعة لما يليق أو يتيسر ← 4:34 تَبْغُوا۟
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 4:38 بِٱلْيَوْمِ
+  - near: و ل د B005 bir şeyden nedenle türeme veya sonradan oluşturulma / شيء حاصل عن شيء أو مستحدث منه ← 4:33 ٱلْوَٰلِدَانِ
+  - near: ع د و B004 aşma, dışarıda bırakma ve öteye geçirme / المجاوزة والاستثناء والصرف ← 4:30 عُدْوَٰنًا
+  - far: ح د ث B001 yokken var olma, var etme veya gerçekleşme / كون الشيء بعد أن لم يكن ← 4:42 حَدِيثًا
+  - far: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 4:59 وَٱلْيَوْمِ
+- **B002** bulunma yeri ve konum değeri / المكان والمكانة من الكون
+  - same: ق و م B006 bir yerde kalma ve kalınan yer / مقام وإقامة في موضع ← 4:34 قَوَّٰمُونَ
+  - same: ط و ع B003 bir işi yapabilecek güç ve elverişlilik / الاستطاعة والإطاقة ← 4:34 أَطَعْنَكُمْ
+  - same: ف ض ل B004 akranlarına karşı üstünlük iddia etme ve daha yüksek konum isteme / ادعاء الفضل ← 4:34 فَضَّلَ
+  - near: س ك ن B002 bir yere yerleşip orada yaşama / استيطان المنزل ← 4:36 وَٱلْمَسَٰكِينِ
+  - near: ء ه ل B004 sakinli ve alışılmış yerleşiklik / أنس المكان والعمران ← 4:35 أَهْلِهِۦ
+  - near: ع ق د B015 kuşak düğümü kadar yakın / قرب معقد الإزار ← 4:33 عَقَدَتْ
+  - far: ح ي ث B001 ardından gelen yan tümceyle belirlenen yer / مكان مبهم ← 4:89 حَيْثُ
+  - far: ق و م B006 bir yerde kalma ve kalınan yer / مقام وإقامة في موضع ← 4:46 وَأَقْوَمَ
+- **B003** birini güvenceyle üstlenme / الكفالة والقيام على فلان
+  - same: ح ف ظ B001 koruyup gözetme / مراعاة الشيء وحراسته ← 4:34 حَٰفِظَٰتٌ
+  - same: ض ر ب B008 benzer ve denk karşılık / المثل والنظير ← 4:34 وَٱضْرِبُوهُنَّ
+  - same: ر ج ل B019 işine bütün gücüyle sarılmak / القيام على رجل ← 4:34 ٱلرِّجَالُ
+  - near: ء ك ل B010 biçime bağlı adlandırmalar / الإدعاء على الغير والتمكين منه ← 4:29 تَأْكُلُوٓا۟
+  - near: ك ف ر B006 inançsız saymak / نسبة إلى الكفر ← 4:31 نُكَفِّرْ
+  - near: ب ن ي B007 oğul ve kız bağı, çocuk edinme ve kaynağa dayalı adlandırma / البُنُوَّة والنسب وما ينسب إلى منشأ ← 4:36 وَٱبْنِ
+  - far: ك ف ل B005 sorumluluğunu üstlenip gereğini sağlama / ضمان الشيء والقيام بمن يعال ← 4:85 كِفْلٌ
+  - far: ص ب ر B003 yükümlülüğe güvence veren kişi / تحمل الكفالة والملازمة ← 4:25 تَصْبِرُوا۟
+- **B004** boyun eğme / الخضوع بالاستكانة
+  - same: ق ن ت B001 inanç yolunda buyruğa boyun eğerek bağlı kalma / طاعة دينية خاضعة ← 4:34 قَٰنِتَٰتٌ
+  - same: ط و ع B002 taraflar arasında uyum gösterme / الموافقة والمطاوعة ← 4:34 أَطَعْنَكُمْ
+  - same: غ ي ب B006 kuşku / الغيب شك ← 4:34 لِّلْغَيْبِ
+  - near: س ك ن B006 yoksulluk, güçsüzlük ve ezilmişlik / ذل المسكنة ← 4:36 وَٱلْمَسَٰكِينِ
+  - near: ع ب د B003 boyun eğerek itaat ve tapınma / العبادة والطاعة الخاضعة ← 4:36 وَٱعْبُدُوا۟
+  - near: ك ف ر B014 eğilerek boyun eğme gösterisi / خضوع متطامن ← 4:31 نُكَفِّرْ
+  - far: س ك ن B006 yoksulluk, güçsüzlük ve ezilmişlik / ذل المسكنة ← 4:8 وَٱلْمَسَٰكِينُ
+  - far: ع ب د B003 boyun eğerek itaat ve tapınma / العبادة والطاعة الخاضعة ← 4:118 عِبَادِكَ
+- **B005** gençliğini anan yaşlı kişi / الشيخ المنسوب إلى كُنْتُ
+  - same: ر ج ل B004 birinin devrinde / زمان الرجل ← 4:34 ٱلرِّجَالُ
+  - same: ن ش ز B007 yaşla eksilmeyen güç ve iri sertlik / الغلظ وثبات القوة ← 4:34 نُشُوزَهُنَّ
+  - same: ك ب ر B004 yaşlanma ve zamanla eskime / كبر السن والقدم ← 4:34 كَبِيرًا
+  - near: ص ح ب B005 oğlunun büyüyüp babasına yoldaş olması / بلوغ الابن صاحبا ← 4:36 وَٱلصَّاحِبِ
+  - near: ر ج ل B004 birinin devrinde / زمان الرجل ← 4:32 لِّلرِّجَالِ
+  - near: ء ت ي B013 etkili ve işini yürüten adam / نَفاذ الرجل ← 4:33 فَـَٔاتُوهُمْ
+  - far: س و ي B005 gençlik olgunluğuna erişmek / بلوغ وتمام الشباب ← 4:42 تُسَوَّىٰ
+  - far: ص ح ب B005 oğlunun büyüyüp babasına yoldaş olması / بلوغ الابن صاحبا ← 4:47 أَصْحَٰبَ
+- **B006** kötü durumda gece geçirme / حالة السوء بكينة
+  - same: ص ل ح B003 sana uygun olma / الصلاح للشيء ملاءمته ← 4:34 فَٱلصَّٰلِحَٰتُ
+  - same: ر ج ل B004 birinin devrinde / زمان الرجل ← 4:34 ٱلرِّجَالُ
+  - same: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 4:34 ٱللَّهُ
+  - near: س و ء B003 bedensel kusur veya hastalık / الآفة والبرص ← 4:31 سَيِّـَٔاتِكُمْ
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 4:38 بِٱلْيَوْمِ
+  - near: ت ر ك B003 belirtilen halde bırakma / ترك الشيء على حال ← 4:33 تَرَكَ
+  - far: ء و ل B007 içinde bulunulan durum / آلة الحال التي يكون عليها الشيء ← 4:54 ءَالَ
+  - far: س و ء B003 bedensel kusur veya hastalık / الآفة والبرص ← 4:22 وَسَآءَ
+
+## ع ل و (عَلِيًّا)
+
+- **B001** yukarı yükselme ve yüksekte olma / السمو والارتفاع
+  - same: ن ش ز B001 yükselti ve çıkıntı / الارتفاع والنتوء ← 4:34 نُشُوزَهُنَّ
+  - same: س ط ع B001 havada uzama, yükselme veya yayılma / امتداد الشيء وارتفاعه في الهواء ← 4:34 أَطَعْنَكُمْ
+  - same: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 4:34 ٱللَّهُ
+  - near: ب ن ي B001 parçaları birleştirerek yapı kurma, kurulan yapı ve kurmaya olanak sağlama / بناء الشيء بضم بعضه إلى بعض ← 4:36 وَٱبْنِ
+  - near: ن ص ب B007 dil bilgisinde yükleme konumu / نصب الكلمة في الإعراب ← 4:33 نَصِيبَهُمْ
+  - near: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 4:33 ٱللَّهَ
+  - far: س م و B001 fiziksel ya da toplumsal yükselme / العلو والارتفاع ← 4:126 ٱلسَّمَٰوَٰتِ
+  - far: س ف ل B001 aşağıda veya altta olma / انخفاض ومكان دون العلو ← 4:145 ٱلْأَسْفَلِ
+- **B002** saygınlıkta yüksek mevki / الرفعة والشرف
+  - same: ك ب ر B005 saygınlık ve önderlikte yüksek konum / رفعة الشرف والرئاسة ← 4:34 كَبِيرًا
+  - same: ف ض ل B002 nitelikçe üstün olma, yüksek değer taşıma ve karşılaştırmada öne geçme / الدرجة والفضيلة ← 4:34 فَضَّلَ
+  - same: ن ش ز B001 yükselti ve çıkıntı / الارتفاع والنتوء ← 4:34 نُشُوزَهُنَّ
+  - near: ك ب ر B005 saygınlık ve önderlikte yüksek konum / رفعة الشرف والرئاسة ← 4:31 كَبَآئِرَ
+  - near: ع ظ م B010 şerefli ve saygın bir mevki edinme / الحرمة والشرف ← 4:40 عَظِيمًا
+  - near: ف ض ل B002 nitelikçe üstün olma, yüksek değer taşıma ve karşılaştırmada öne geçme / الدرجة والفضيلة ← 4:32 فَضَّلَ
+  - far: ر ف ع B002 saygınlığı yüksek olmak veya yükseltmek / علو القدر ← 4:154 وَرَفَعْنَا
+  - far: ك ب ر B005 saygınlık ve önderlikte yüksek konum / رفعة الشرف والرئاسة ← 4:6 يَكْبَرُوا۟
+- **B003** kibirli üstünlük taslama / العظمة والتجبر
+  - same: ك ب ر B006 ululuk ve kendini üstün görme / العظمة والكبرياء ← 4:34 كَبِيرًا
+  - same: ب غ ي B003 haddi aşarak haksızlık etmek / تجاوز الحد بالعدوان والظلم ← 4:34 تَبْغُوا۟
+  - same: ف ض ل B004 akranlarına karşı üstünlük iddia etme ve daha yüksek konum isteme / ادعاء الفضل ← 4:34 فَضَّلَ
+  - near: ع ظ م B006 kibirlenip böbürlenme / التعاظم والزهو ← 4:40 عَظِيمًا
+  - near: ك ب ر B006 ululuk ve kendini üstün görme / العظمة والكبرياء ← 4:31 كَبَآئِرَ
+  - near: ف ض ل B004 akranlarına karşı üstünlük iddia etme ve daha yüksek konum isteme / ادعاء الفضل ← 4:32 فَضَّلَ
+  - far: ع ظ م B006 kibirlenip böbürlenme / التعاظم والزهو ← 4:48 عَظِيمًا
+  - far: ك ب ر B006 ululuk ve kendini üstün görme / العظمة والكبرياء ← 4:6 يَكْبَرُوا۟
+- **B004** yapı içinde üstün gelip bastırma / الغلبة والاستيلاء
+  - same: ك ب ر B011 üstünlük yarışına girip yenmek / المكابرة والغلبة ← 4:34 كَبِيرًا
+  - same: ف ض ل B004 akranlarına karşı üstünlük iddia etme ve daha yüksek konum isteme / ادعاء الفضل ← 4:34 فَضَّلَ
+  - same: ب غ ي B001 bir şeyi arayıp istemek; başkası için aramak veya arayışına yardım etmek / طلب الشيء وابتغاؤه ← 4:34 تَبْغُوا۟
+  - near: و ل ي B012 ele geçirip hedefe ulaşma / استيلاء وبلوغ غاية ← 4:33 مَوَٰلِىَ
+  - near: ك ب ر B011 üstünlük yarışına girip yenmek / المكابرة والغلبة ← 4:31 كَبَآئِرَ
+  - near: ق ت ل B002 boyun eğdirme; hayvanı işe alıştırma; deneyimle pişme / إذلال وترويض حتى تلين الشدة ← 4:29 تَقْتُلُوٓا۟
+  - far: س و ي B003 üzerine çıkıp yerleşmek veya egemen olmak / علو واستقرار على شيء ← 4:42 تُسَوَّىٰ
+  - far: غ ل ب B001 güçle üstün gelme ve boyun eğdirme / قوة تقهر وتغلب ← 4:74 يَغْلِبْ
+- **B005** üst yan ve yukarıdanlık / الجهة العليا ومن فوق
+  - same: س ب ل B004 aşağı doğru salmak / إرخاء من علو إلى سفل ← 4:34 سَبِيلًا
+  - same: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 4:34 ٱللَّهُ
+  - same: س ط ع B001 havada uzama, yükselme veya yayılma / امتداد الشيء وارتفاعه في الهواء ← 4:34 أَطَعْنَكُمْ
+  - near: ع ظ م B002 bir şeyin çoğu veya büyük bölümü / معظم الشيء ← 4:40 عَظِيمًا
+  - near: س ب ل B004 aşağı doğru salmak / إرخاء من علو إلى سفل ← 4:36 ٱلسَّبِيلِ
+  - near: ع ل م B004 üst dudak yarığı / شق ظاهر في الشفة العليا ← 4:35 عَلِيمًا
+  - far: س ف ل B003 rüzgâra göre aşağı taraf / سفالة الريح بإزاء علاوتها ← 4:145 ٱلْأَسْفَلِ
+  - far: ت ح ت B001 alt konum / تحت الشيء ← 4:13 تَحْتِهَا
+- **B006** gel diye çağırma / نداء التعالي
+  - same: ن ش ز B001 yükselti ve çıkıntı / الارتفاع والنتوء ← 4:34 نُشُوزَهُنَّ
+  - same: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 4:34 ٱللَّهُ
+  - same: ف ض ل B004 akranlarına karşı üstünlük iddia etme ve daha yüksek konum isteme / ادعاء الفضل ← 4:34 فَضَّلَ
+  - near: ع د و B012 eğrilik ve güçlük / العَنْدَأْوَة في الالتواء والعسر ← 4:30 عُدْوَٰنًا
+  - near: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 4:33 ٱللَّهَ
+  - near: ف ض ل B004 akranlarına karşı üstünlük iddia etme ve daha yüksek konum isteme / ادعاء الفضل ← 4:32 فَضَّلَ
+  - far: ص ع د B001 yukarı çıkma ve yükselme / ارتفاع وصعود إلى فوق ← 4:43 صَعِيدًا
+  - far: س م و B001 fiziksel ya da toplumsal yükselme / العلو والارتفاع ← 4:126 ٱلسَّمَٰوَٰتِ
+- **B008** üstüne eklenen veya üst parça / الشيء المحمول على الأعلى
+  - same: ف ض ل B002 nitelikçe üstün olma, yüksek değer taşıma ve karşılaştırmada öne geçme / الدرجة والفضيلة ← 4:34 فَضَّلَ
+  - same: س ب ل B007 kap kenarı veya hayvanın boğaz kesim yeri / حافة أو مخرج متقدم ← 4:34 سَبِيلًا
+  - same: س ط ع B002 boyun uzunluğu / طول العنق وامتداده ← 4:34 أَطَعْنَكُمْ
+  - near: م ن ي B007 metni düzeniyle okuyup aktarma / تلاوة تقرأ وتوضع مواضعها ← 4:32 تَتَمَنَّوْا۟
+  - near: ع ل م B004 üst dudak yarığı / شق ظاهر في الشفة العليا ← 4:35 عَلِيمًا
+  - near: ء م ر B005 belirti veya belirlenmiş vakit / العلامة والموعد ← 4:37 وَيَأْمُرُونَ
+  - far: ف و ق B013 özel adlandırma kümesi / مواضع علو أو شق في الجسد والآلة ← 4:11 فَوْقَ
+  - far: ص د ر B002 ön, üst ya da başlangıç bölümü / المقدّم والأعلى والأول ← 4:90 صُدُورُهُمْ
+- **B009** belirli araç ve parça adları / أسماء الأدوات والأجزاء المرتفعة
+  - same: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 4:34 قَوَّٰمُونَ
+  - same: ر ج ل B016 dik duran pişirme kazanı / المرجل المنصوب ← 4:34 ٱلرِّجَالُ
+  - same: س ب ل B007 kap kenarı veya hayvanın boğaz kesim yeri / حافة أو مخرج متقدم ← 4:34 سَبِيلًا
+  - near: ب ي ن B009 sol yandan sağan kişi / الحالب من جهة مخصوصة ← 4:35 بَيْنِهِمَا
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 4:35 عَلِيمًا
+  - near: ر و د B006 cevirme kolu ve doner demir parca / أدوات الإدارة والدوران ← 4:35 يُرِيدَآ
+  - far: ع م ل B009 mızrak ucunun alt bölümü / عامل الرمح ← 4:18 يَعْمَلُونَ
+  - far: ب ي ن B009 sol yandan sağan kişi / الحالب من جهة مخصوصة ← 4:26 لِيُبَيِّنَ
+- **B010** uzun ve iri yapılı / الطول والضخامة
+  - same: س ط ع B004 deve boynundaki uzunlamasına damga / السمة الطولية في العنق ← 4:34 أَطَعْنَكُمْ
+  - same: ر ج ل B002 erkek insan / الرجل الذكر ← 4:34 ٱلرِّجَالُ
+  - same: ك ب ر B004 yaşlanma ve zamanla eskime / كبر السن والقدم ← 4:34 كَبِيرًا
+  - near: ن ه ي B006 semizliğin doruğuna ulaşmış deve / التناهي في السمن ← 4:31 تُنْهَوْنَ
+  - near: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 4:36 وَٱعْبُدُوا۟
+  - near: ك ل ل B008 kısa, kalın ve güçlü yapılı erkek / الكُلْكُل قصر وغلظ ← 4:33 وَلِكُلٍّ
+  - far: ع م د B005 kalıba bağlı uzunluk ve yücelik / الطول والرفعة في العماد ← 4:93 مُّتَعَمِّدًا
+  - far: ح ر ج B007 zayıf ya da uzun gövdeli dişi deve / الناقة الضامرة والطويلة ← 4:65 حَرَجًا
+- **B011** bedensel halden kurtulup esenleşme / السلامة من النفاس أو العلة
+  - same: ر ج ل B002 erkek insan / الرجل الذكر ← 4:34 ٱلرِّجَالُ
+  - same: ك ب ر B004 yaşlanma ve zamanla eskime / كبر السن والقدم ← 4:34 كَبِيرًا
+  - same: س ب ل B004 aşağı doğru salmak / إرخاء من علو إلى سفل ← 4:34 سَبِيلًا
+  - near: ن ف س B005 doğum ve doğuma bağlı kadın-çocuk durumu / خروج الولد ودم النفاس ← 4:29 أَنفُسَكُمْ
+  - near: ر ج ل B002 erkek insan / الرجل الذكر ← 4:32 لِّلرِّجَالِ
+  - near: ن و ر B009 bedene sürülen özel karışım ve onu sürünme / النُّورَة المطلية ← 4:30 نَارًا
+  - far: ن ف س B005 doğum ve doğuma bağlı kadın-çocuk durumu / خروج الولد ودم النفاس ← 4:49 أَنفُسَهُم
+  - far: م ث ل B012 hastalıktan sonra toparlanıp iyileşme / التماثل من العلة ← 4:11 مِثْلُ
+- **B012** ilgeç ve kalıplaşmış görev sözü / حرف عَلَى وما جرى مجراه
+  - same: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 4:34 ٱللَّهُ
+  - same: ص ل ح B004 kişi adı olan kök türevleri / صالح وما قاربه علما لشخص ← 4:34 فَٱلصَّٰلِحَٰتُ
+  - same: ك و ن B001 gerçekleşme, bulunma ve olma bildirimi / وقوع الشيء وحضوره في زمان ← 4:34 كَانَ
+  - near: ف ع ل B007 dil bilgisi tümleçleri / مفعولات النحو ← 4:30 يَفْعَلْ
+  - near: ع د و B004 aşma, dışarıda bırakma ve öteye geçirme / المجاوزة والاستثناء والصرف ← 4:30 عُدْوَٰنًا
+  - near: ر ء ي B013 söyler misin, bir düşün / أرأيتك للتنبيه والاستخبار ← 4:38 رِئَآءَ
+  - far: ع ن د B006 sözü dinleyeni almaya veya tutmaya yönelten buyruk / إغراء عندك بالأخذ ← 4:78 عِندِ
+  - far: ر ب ب B015 azlık bildiren ilgeç / حرف رب وربما ← 4:23 وَرَبَٰٓئِبُكُمُ
+
+## ك ب ر (كَبِيرًا)
+
+- **B001** küçüğün karşıtı olan büyüklük / العظم خلاف الصغر
+  - same: ع ل و B001 yukarı yükselme ve yüksekte olma / السمو والارتفاع ← 4:34 عَلِيًّا
+  - same: ه ج ر B011 su için ayrılmış büyük veya yapılı havuz / الحوض المقتطع للماء ← 4:34 وَٱهْجُرُوهُنَّ
+  - same: ن ش ز B007 yaşla eksilmeyen güç ve iri sertlik / الغلظ وثبات القوة ← 4:34 نُشُوزَهُنَّ
+  - near: ع ظ م B001 büyük ve güçlü olma; büyük sayıp yüceltme / الكبر والقوة ← 4:40 عَظِيمًا
+  - near: ء م م B013 az, küçük veya önemsiz şey / الأمم اليسير الحقير ← 4:41 أُمَّةٍۭ
+  - near: ء م ر B006 ağır ve yadırganan şey / الأمر العظيم المنكر ← 4:37 وَيَأْمُرُونَ
+  - far: ع ظ م B001 büyük ve güçlü olma; büyük sayıp yüceltme / الكبر والقوة ← 4:48 عَظِيمًا
+  - far: ط و ل B001 uzunluk ve boyca geçme / الطُّول والامتداد ← 4:25 طَوْلًا
+- **B002** bir işin ana payı ve başlıca yükü / معظم الأمر
+  - same: ب غ ي B006 göğün şiddetli, bol ve gereğinden fazla yağdırması / شدة المطر ومعظمه ← 4:34 تَبْغُوا۟
+  - same: ب ع ض B001 parça ve parçalara ayırma / تجزئة الشيء وطائفته ← 4:34 بَعْضَهُمْ
+  - same: ط و ع B004 yapabilir hale gelmek için kendini zorlama / تكلف الاستطاعة ← 4:34 أَطَعْنَكُمْ
+  - near: ع ظ م B002 bir şeyin çoğu veya büyük bölümü / معظم الشيء ← 4:40 عَظِيمًا
+  - near: ء م ر B006 ağır ve yadırganan şey / الأمر العظيم المنكر ← 4:37 وَيَأْمُرُونَ
+  - near: و ل ي B003 bir işi üstlenip yönetme / تولي الأمر والقيام عليه ← 4:33 مَوَٰلِىَ
+  - far: ع ظ م B002 bir şeyin çoğu veya büyük bölümü / معظم الشيء ← 4:48 عَظِيمًا
+  - far: ء م ر B006 ağır ve yadırganan şey / الأمر العظيم المنكر ← 4:47 أَمْرُ
+- **B003** gözünde büyütüp hayrete düşmek / إعظام الشيء في الصدر
+  - same: ب ع ض B001 parça ve parçalara ayırma / تجزئة الشيء وطائفته ← 4:34 بَعْضَهُمْ
+  - same: ع ل و B003 kibirli üstünlük taslama / العظمة والتجبر ← 4:34 عَلِيًّا
+  - same: ه ج ر B008 benzerlerini aşan üstünlük / المجاوزة في الحسن والتمام ← 4:34 وَٱهْجُرُوهُنَّ
+  - near: ع ظ م B007 yadırgayıp gözünde büyütmek / الاستعظام والهيبة ← 4:40 عَظِيمًا
+  - near: ء م ر B006 ağır ve yadırganan şey / الأمر العظيم المنكر ← 4:37 وَيَأْمُرُونَ
+  - near: ك ل ل B007 göğüs / الكُلْكُل صدرا ← 4:33 وَلِكُلٍّ
+  - far: ع ظ م B007 yadırgayıp gözünde büyütmek / الاستعظام والهيبة ← 4:48 عَظِيمًا
+  - far: ص د ر B006 bir şeyin bölümü ya da kümesi / الطائفة من الشيء ← 4:90 صُدُورُهُمْ
+- **B004** yaşlanma ve zamanla eskime / كبر السن والقدم
+  - same: ن ش ز B007 yaşla eksilmeyen güç ve iri sertlik / الغلظ وثبات القوة ← 4:34 نُشُوزَهُنَّ
+  - same: ع ل و B010 uzun ve iri yapılı / الطول والضخامة ← 4:34 عَلِيًّا
+  - same: ه ج ر B008 benzerlerini aşan üstünlük / المجاوزة في الحسن والتمام ← 4:34 وَٱهْجُرُوهُنَّ
+  - near: ع ظ م B001 büyük ve güçlü olma; büyük sayıp yüceltme / الكبر والقوة ← 4:40 عَظِيمًا
+  - near: ق ر ن B003 yaşça ya da güççe denk kişi / كفء يساوي قرنه ← 4:38 قَرِينًا
+  - near: ص ح ب B005 oğlunun büyüyüp babasına yoldaş olması / بلوغ الابن صاحبا ← 4:36 وَٱلصَّاحِبِ
+  - far: س ن ن B004 diş; diş gelişimiyle belirlenen yaş ve olgunluk / سن ناتئ وعمر ظاهر ← 4:26 سُنَنَ
+  - far: ه م م B006 yaşlılıktan eriyip tükenmiş kimse / ذوب الكبر ← 4:113 لَهَمَّت
+- **B005** saygınlık ve önderlikte yüksek konum / رفعة الشرف والرئاسة
+  - same: ع ل و B002 saygınlıkta yüksek mevki / الرفعة والشرف ← 4:34 عَلِيًّا
+  - same: ف ض ل B004 akranlarına karşı üstünlük iddia etme ve daha yüksek konum isteme / ادعاء الفضل ← 4:34 فَضَّلَ
+  - same: ك و ن B002 bulunma yeri ve konum değeri / المكان والمكانة من الكون ← 4:34 كَانَ
+  - near: ع ظ م B010 şerefli ve saygın bir mevki edinme / الحرمة والشرف ← 4:40 عَظِيمًا
+  - near: ك ر م B001 övgüye değer soyluluk, eli açıklık ve onurlandırma / الشرف والجود المحمود ← 4:31 كَرِيمًا
+  - near: ت ب ع B009 eski güneybatı Arabistan hükümdar unvanı / تُبَّع وملوكه ← 4:27 يَتَّبِعُونَ
+  - far: ع ل و B002 saygınlıkta yüksek mevki / الرفعة والشرف ← 4:61 تَعَالَوْا۟
+  - far: ز ع م B004 topluluğun işlerini üstlenip adına konuşan önderlik / سيادة تقوم مقام القوم ← 4:60 يَزْعُمُونَ
+- **B006** ululuk ve kendini üstün görme / العظمة والكبرياء
+  - same: ع ل و B003 kibirli üstünlük taslama / العظمة والتجبر ← 4:34 عَلِيًّا
+  - same: ف ض ل B002 nitelikçe üstün olma, yüksek değer taşıma ve karşılaştırmada öne geçme / الدرجة والفضيلة ← 4:34 فَضَّلَ
+  - same: ب غ ي B003 haddi aşarak haksızlık etmek / تجاوز الحد بالعدوان والظلم ← 4:34 تَبْغُوا۟
+  - near: ع ظ م B006 kibirlenip böbürlenme / التعاظم والزهو ← 4:40 عَظِيمًا
+  - near: ن ف س B014 sağlam, cömert ve onurlu yaradılış / قوة النفس وخلقها ← 4:29 أَنفُسَكُمْ
+  - near: خ ي ل B003 kendini üstün görerek böbürlenme ve bunu gösterişli yürüyüşle dışa vurma / الخيلاء في المشية ← 4:36 مُخْتَالًا
+  - far: ع ظ م B006 kibirlenip böbürlenme / التعاظم والزهو ← 4:48 عَظِيمًا
+  - far: ع ل و B003 kibirli üstünlük taslama / العظمة والتجبر ← 4:61 تَعَالَوْا۟
+- **B007** ağır cezalık büyük günah / الإثم الكبير والذنوب الكبائر
+  - same: ه ج ر B011 su için ayrılmış büyük veya yapılı havuz / الحوض المقتطع للماء ← 4:34 وَٱهْجُرُوهُنَّ
+  - same: ع ل و B003 kibirli üstünlük taslama / العظمة والتجبر ← 4:34 عَلِيًّا
+  - same: خ و ف B003 korkuda yarışıp ötekinden daha çok korkma / مغالبة في الخوف ← 4:34 تَخَافُونَ
+  - near: ع ظ م B001 büyük ve güçlü olma; büyük sayıp yüceltme / الكبر والقوة ← 4:40 عَظِيمًا
+  - near: ء م ر B006 ağır ve yadırganan şey / الأمر العظيم المنكر ← 4:37 وَيَأْمُرُونَ
+  - near: ك ف ر B009 günah yükünü giderme / محو الإثم بتغطيته ← 4:31 نُكَفِّرْ
+  - far: ح و ب B001 günah ve günahtan sakınma / الحَوْب إثم ومأثم ← 4:2 حُوبًا
+  - far: ف ر ض B006 yaşlı, iri veya geniş olma / كبر السن والجسم ← 4:24 فَرِيضَةً
+- **B010** bir işin birine ağır ve güç gelmesi / الكبر مشقة وثقل
+  - same: ع ل و B003 kibirli üstünlük taslama / العظمة والتجبر ← 4:34 عَلِيًّا
+  - same: خ و ف B003 korkuda yarışıp ötekinden daha çok korkma / مغالبة في الخوف ← 4:34 تَخَافُونَ
+  - same: ن ش ز B007 yaşla eksilmeyen güç ve iri sertlik / الغلظ وثبات القوة ← 4:34 نُشُوزَهُنَّ
+  - near: ع ظ م B001 büyük ve güçlü olma; büyük sayıp yüceltme / الكبر والقوة ← 4:40 عَظِيمًا
+  - near: ء م ر B006 ağır ve yadırganan şey / الأمر العظيم المنكر ← 4:37 وَيَأْمُرُونَ
+  - near: ش ق ق B003 ağır güçlük ve çaba / ثقل يشق النفس ← 4:35 شِقَاقَ
+  - far: ع ظ م B001 büyük ve güçlü olma; büyük sayıp yüceltme / الكبر والقوة ← 4:48 عَظِيمًا
+  - far: ع و ل B003 ağır gelip dayanma gücünü aşma / ثقل يغلب ويشتد ← 4:3 تَعُولُوا۟
+- **B011** üstünlük yarışına girip yenmek / المكابرة والغلبة
+  - same: خ و ف B003 korkuda yarışıp ötekinden daha çok korkma / مغالبة في الخوف ← 4:34 تَخَافُونَ
+  - same: ع ل و B004 yapı içinde üstün gelip bastırma / الغلبة والاستيلاء ← 4:34 عَلِيًّا
+  - same: غ ي ب B009 ölüyü mezara gömme / تغييبه في القبر ← 4:34 لِّلْغَيْبِ
+  - near: ك ر م B006 eli açıklıkta övünme yarışı ve üstün gelme / مفاخرة الكرم والغلبة فيه ← 4:31 كَرِيمًا
+  - near: ج ي ء B002 — / المغالبة بكثرة المجيء ← 4:41 جِئْنَا
+  - near: خ و ف B003 korkuda yarışıp ötekinden daha çok korkma / مغالبة في الخوف ← 4:35 خِفْتُمْ
+  - far: ج ز ي B005 karşılık vermede üstün gelme / الغلبة في المجازاة ← 4:93 فَجَزَآؤُهُۥ
+  - far: ح ض ر B006 hak veya uyuşmazlıkta çekişip üstün gelmeye çalışma / محاضرة الخصومة والمغالبة ← 4:18 حَضَرَ
+- **B012** tek yüzlü davul / الكَبَر طبل
+  - same: ه ج ر B011 su için ayrılmış büyük veya yapılı havuz / الحوض المقتطع للماء ← 4:34 وَٱهْجُرُوهُنَّ
+  - same: س ط ع B006 belirli bir dağın özel adı / اسم جبل بعينه ← 4:34 أَطَعْنَكُمْ
+  - same: ض ر ب B007 tür ya da biçim kalıbı / الصنف والصيغة ← 4:34 وَٱضْرِبُوهُنَّ
+  - near: ع ظ م B001 büyük ve güçlü olma; büyük sayıp yüceltme / الكبر والقوة ← 4:40 عَظِيمًا
+  - near: خ ي ل B003 kendini üstün görerek böbürlenme ve bunu gösterişli yürüyüşle dışa vurma / الخيلاء في المشية ← 4:36 مُخْتَالًا
+  - near: ء م ر B001 konu ve hal / الشأن والحال ← 4:37 وَيَأْمُرُونَ
+  - far: س ل ف B008 iri torba / السلف الجراب ← 4:23 سَلَفَ
+  - far: ع ظ م B001 büyük ve güçlü olma; büyük sayıp yüceltme / الكبر والقوة ← 4:48 عَظِيمًا
+- **B013** günün yükseldiği vakit / أكبر النهار
+  - same: ر ج ل B012 günün yükselip aydınlığın yayılması / ترجل النهار ← 4:34 ٱلرِّجَالُ
+  - same: ق و م B017 güneşin tam tepede olduğu öğle ortası / انتصاف النهار وقائم الظهيرة ← 4:34 قَوَّٰمُونَ
+  - same: ه ج ر B005 sıcağın bastırdığı öğle vakti / حر الهاجرة ووقتها ← 4:34 وَٱهْجُرُوهُنَّ
+  - near: ر ج ل B012 günün yükselip aydınlığın yayılması / ترجل النهار ← 4:32 لِّلرِّجَالِ
+  - near: ي و م B001 güneşin doğuşundan batışına kadarki gün / وقت النهار المحدود ← 4:38 بِٱلْيَوْمِ
+  - near: ن ف س B009 kalıba bağlı yarılıp açılma ve genişleme / انفتاح الصبح والشيء كالنفس ← 4:29 أَنفُسَكُمْ
+  - far: ش د د B005 günün ilerleyip yükselmesi / شد النهار وارتفاعه ← 4:66 وَأَشَدَّ
+  - far: و ج ه B007 günün başı, ilk saatleri / وجه النهار وصدره ← 4:43 بِوُجُوهِكُمْ
+

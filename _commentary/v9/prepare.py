@@ -719,11 +719,22 @@ def section_leads(bundle: dict) -> str:
     return "\n".join(lines) + "\n"
 
 
+def load_bundle(path: Path, surah: int, ayah: int) -> dict:
+    """The ayah bundle, or a minimal one when the ayah has none (no HFT, reader walks or translation): the word
+    analysis from word_analysis/outputs/production, everything else read from sources as usual."""
+    if path.exists():
+        return json.loads(path.read_text(encoding="utf-8"))
+    wa = Path("/Volumes/OZTURK/_projects/word_analysis/outputs/production") / f"{surah}-{ayah}.json"
+    print(f"no bundle {path.name}: fallback (word analysis {'found' if wa.exists() else 'missing'}; no HFT, no translation)")
+    return {"surah": surah, "ayah": ayah, "ayahRef": f"{surah}:{ayah}",
+            "word_analysis": json.loads(wa.read_text(encoding="utf-8")) if wa.exists() else {}}
+
+
 # ---------------------------------------------------------------- driver
 
 def prepare(ref: str, bundles: Path, out: Path) -> dict:
     surah, ayah = (int(x) for x in ref.split(":"))
-    bundle = json.loads((bundles / f"s{surah:03d}" / f"{surah}_{ayah}.ayah.json").read_text(encoding="utf-8"))
+    bundle = load_bundle(bundles / f"s{surah:03d}" / f"{surah}_{ayah}.ayah.json", surah, ayah)
     src = Sources()
     focus = src.ayah_branches(ref, include_echo=True)
     surah_ctx = {r: src.ayah_branches(r) for r in ayah_refs(surah, src)}

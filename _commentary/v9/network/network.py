@@ -258,7 +258,7 @@ def build(ref: str, k: int, inter: bool = False) -> tuple[Net, dict]:
     lex = Lexicon(src)
     con = Concepts()
     surah, ayah = (int(x) for x in ref.split(":"))
-    bundle = json.loads((P.PG / "bundles" / f"s{surah:03d}" / f"{surah}_{ayah}.ayah.json").read_text(encoding="utf-8"))
+    bundle = P.load_bundle(P.PG / "bundles" / f"s{surah:03d}" / f"{surah}_{ayah}.ayah.json", surah, ayah)
     net = Net()
 
     # ---- focus words, branches, plain senses
