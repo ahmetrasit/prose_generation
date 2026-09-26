@@ -1,0 +1,1299 @@
+# Package for 18:96
+
+Everything the discovery stage found, for one reader who connects it. Section 1 is the lexical network
+(ids H, L, F, T, J, G): rare dictionary senses of the ayah's words converging on other words, checked by
+the dictionaries' own relations and a judge. Section 2 holds the four discovery lines (ids L.., U-, S-, R-,
+and X records): readings, open observations (a precise link whose decisive support is missing; another line
+may supply it), notes, and misreadings. `support` says how well the sources establish a record; `relevance`
+how much it could change the reading — they are separate judgments, and nothing here is filtered by them.
+Section 3 is the text of cited ayat outside the surah and the Fatiha (both are in context.md).
+
+## 1. Lexical network
+
+### 2. Backbone hubs [H]
+
+### H1 جَعَلَهُۥ — 10 roots converge
+Plain sense of جَعَلَهُۥ: birini veya şeyi belirli bir duruma getirme (تصيير الشيء على حال)
+- **H1.1** [dictionary] ء ت ي B003 «uygun yoldan ele almak ve elverişli hale gelmek» مأتى الأمر وتهيؤه — word ءَاتُونِى (3 dictionaries); source: أتيت الأمر من مأتاته (sihah;maqayis)؛ آتيته على ذلك الأمر مواتاة إذا وافقته وطاوعته (sihah)؛ آتيت فلانا على أمره مؤاتاة وهو حسن المطاوعة (maqayis)؛ تأتى له الشيء أي تهيأ (sihah)؛ تأتى فلان لحاجته إذا ترفق لها (tahdhib)
+  - evidence: lex/src: علي names the plain image of جَعَلَهُۥ || Luna (part): The brought material is prepared for a change of state. Its arrival feeds the work that turns the iron into fire.
+- **H1.2** [dictionary] ء ت ي B003 «uygun yoldan ele almak ve elverişli hale gelmek» مأتى الأمر وتهيؤه — word ءَاتُونِىٓ (3 dictionaries); source: as H1.1 (also L7.3)
+  - evidence: lex/src: علي names the plain image of جَعَلَهُۥ || Luna (complement): The proper approach to a task prepares the way for changing the iron into fire. The rare sense makes the transformation sound deliberate and fitted to its purpo
+- **H1.3** [dictionary] ء ت ي B005 «başka bölgeden gelen sel» السيل الآتي من غير البلد — word ءَاتُونِىٓ (5 dictionaries); source: الأتي السيل بعينه يأتيك من بلد مطر من غير بلدك (jamhara)؛ سيل أتي وأتاوي إذا جاءك ولم يصبك مطره (sihah)؛ المسيل الذي يأتي من بلد قد مطر فيه إلى بلد لم يمطر فيه أتي (tahdhib)؛ السيل المار على وجهه أتي وأتاوي (mufradat)؛ الأتي أيضا السيل الذي يأتي من بلد غير بلدك (maqayis) (also L2.1, L7.6, L9.3, L10.1)
+  - evidence: lex/src: علي names the plain image of جَعَلَهُۥ
+- **H1.4** [dictionary] ء ت ي B005 «başka bölgeden gelen sel» السيل الآتي من غير البلد — word ءَاتُونِى (5 dictionaries); source: as H1.3 (also L2.2, L7.7, L11.2, T5)
+  - evidence: lex/src: علي names the plain image of جَعَلَهُۥ
+- **H1.5** [dictionary] ء ت ي B011 «felakete uğramak, kaybetmek veya düşmanca ele geçirilmek» إتيان البلاء والهلاك — word ءَاتُونِى (2 dictionaries); source: أتى على فلان أتو أي موت أو بلاء أصابه (tahdhib)؛ الأتو المرض الشديد أو كسر يد أو رجل أو موت (tahdhib)؛ أتي على يد فلان إذا هلك له مال (tahdhib)؛ يؤتى دونه أي يذهب به ويغلب عليه (tahdhib)؛ أتي فلان إذا أطل عليه العدو (tahdhib)؛ الإتيان يقال في الخير وفي الشر (mufradat)
+  - evidence: lex/src: علي names the plain image of جَعَلَهُۥ
+- **H1.6** [dictionary] ء ت ي B011 «felakete uğramak, kaybetmek veya düşmanca ele geçirilmek» إتيان البلاء والهلاك — word ءَاتُونِىٓ (2 dictionaries); source: as H1.5 (also L3.3, L7.9)
+  - evidence: lex/src: علي names the plain image of جَعَلَهُۥ
+- **H1.7** [dictionary] ب ي ن B010 «o sırada» الوقت الواقع أثناء حال أو فعل — word بَيْنَ (3 dictionaries); source: قولك بينا فلان معناه بينما (ayn)؛ بينا نحن نرقبه أتانا أي أتانا بين أوقات رقبتنا إياه (sihah)؛ يزاد في بين ما أو الألف فيجعل بمنزلة حين (mufradat)
+  - evidence: lex/image: حال names the plain image of جَعَلَهُۥ || lex/src: فيجعل → root ج ع ل
+- **H1.8** [dictionary] ح د د B007 «eş için süsten kaçınarak yas tutma» إحداد المرأة وترك الزينة — word ٱلْحَدِيدِ (3 dictionaries); source: حدت المرأة على بعلها وأحدت إذا منعت نفسها الزينة والخضاب (maqayis)؛ أحدت المرأة امتنعت من الزينة والخضاب بعد وفاة زوجها (sihah)؛ حدت أربعة أشهر وعشرا (tahdhib)؛ إحداد المرأة على زوجها تركها الزينة مأخوذ من المنع (tahdhib)؛ الحداد أيضا ثياب المأتم السود (sihah)
+  - evidence: lex/src: علي names the plain image of جَعَلَهُۥ
+- **H1.9** [dictionary] ز ب ر B003 «yazıya geçirme ve yazılı eser» الكتابة والكتاب والزبور — word زُبَرَ (6 dictionaries); source: زبرت الكتاب إذا كتبته؛ الزبور؛ ربما قالوا زبرته إذا قرأته؛ أعرف تزبرتي أي كتابتي (maqayis)؛ الزبور الكتاب؛ اسم الكتاب الذي أنزل على داود (ayn)؛ زبرت الكتاب إذا كتبته؛ أهل اليمن يسمون كل كتاب زبرا؛ اشتقاق الزبور من الكتاب (jamhara)؛ الزبر الكتابة؛ الزبر الكتاب؛ الزبور كتاب داود؛ المزبر قلم (sihah)؛ زبرت الكتاب إذا كتبته؛ الزبور الكتاب وكل كتاب زبور؛ الزبور ما أنزل على داود؛ تزبرتي أي كتابتي (tahdhib)؛ زبرت الكتاب كتبته؛ كل كتاب غليظ الكتابة يقال …
+  - evidence: lex/src: علي names the plain image of جَعَلَهُۥ
+- **H1.10** [dictionary] ز ب ر B006 «bir şeyi bütünüyle alma veya sözü eksiksiz yükleme» أخذ الشيء بزوبره كله — word زُبَرَ (3 dictionaries); source: أخذ الشيء بزوبره أي كله؛ نسبت إلي بكمالها (maqayis)؛ أخذت الشيء بزوبره وبزأبره وبزغبره إذا أخذته كله ولم تدع منه شيئا؛ عدت على بزوبرا؛ نسبت إلى بكمالها (sihah)؛ أخذ الشيء بزغبره إذا أخذه كله؛ وكذلك بزوبره وبزأبره؛ قامت علي بزوبرا؛ تنسب إلي كلها (tahdhib)
+  - evidence: lex/src: علي names the plain image of جَعَلَهُۥ || Luna (image): The rare sense gathers the whole material into view as the verse transforms it. The fire-state then seems to take in the full mass, not just a fragment.
+- **H1.11** [dictionary] س و ي B003 «üzerine çıkıp yerleşmek veya egemen olmak» علو واستقرار على شيء — word سَاوَىٰ (3 dictionaries); source: استوى على ظهر دابته أي علا واستقر (sihah)؛ استويت فوق الدابة وعلى ظهر الدابة أي علوته (tahdhib)؛ استوى أي استولى وظهر (sihah)؛ متى عدي بعلى اقتضى معنى الاستيلاء (mufradat) (also L1.5, L8.8)
+  - evidence: lex/image: علي names the plain image of جَعَلَهُۥ
+- **H1.12** [dictionary] س و ي B004 «bir hedefe yönelip onu amaç edinmek» إقبال وقصد إلى جهة — word سَاوَىٰ (3 dictionaries); source: استوى إلى السماء أي قصد (sihah)؛ استوى علي وإلي يشاتمني على معنى أقبل إلي وعلي (tahdhib)؛ ثم استوى إلى بلد معناه قصد بالاستواء إليه (tahdhib)؛ إذا عدي بإلى اقتضى معنى الانتهاء إليه إما بالذات أو بالتدبير (mufradat) (also L7.1, L10.2)
+  - evidence: lex/src: علي names the plain image of جَعَلَهُۥ
+- **H1.13** [dictionary] س و ي B008 «birinin yöneldiği hedefe yönelmek» قصد نحو شخص أو جهة — word سَاوَىٰ (3 dictionaries); source: يقال قصدت سوى فلان كما يقال قصدت قصده (maqayis)؛ قصدت سوى فلان أي قصدت قصده (sihah)؛ فلأصرفن سوى حذيفة مدحتى (maqayis;sihah)؛ وقع المزار على سواهما أخطأهما (tahdhib) (also L7.2, L8.10)
+  - evidence: lex/src: علي names the plain image of جَعَلَهُۥ
+- **H1.14** [dictionary] س و ي B010 «devenin sırtına konan dolgulu binme örtüsü» السَّويّة على ظهر البعير — word سَاوَىٰ (4 dictionaries); source: السَّويّة قتب أعجمي للبعير والجميع السوايا (ayn;tahdhib)؛ السَّويّة كساء يلف ويجعل شبيها بالحوية يلقى على سنام البعير (jamhara)؛ السَّويّة كساء محشو بثمام ونحوه كالبرذعة (sihah)؛ كساء محشو بثمام أو ليف يجعل على ظهر البعير (tahdhib)
+  - evidence: lex/image: علي names the plain image of جَعَلَهُۥ || lex/src: ويجعل → root ج ع ل
+- **H1.15** [dictionary] ص د ف B005 «su yalağında içen sürünün arkasında sıra bekleyen develer» الإبل الصوادف عند الحوض — word ٱلصَّدَفَيْنِ (2 dictionaries); source: الصوادف الإبل التي تقف عند أعجاز الإبل على الحوض تنتظر انصراف الشاربة (maqayis)؛ الصوادف الإبل التي تجد الإبل على الحوض فتقف عند أعجازها تنتظر انصراف الشاربة (sihah) (also L9.7)
+  - evidence: lex/src: علي names the plain image of جَعَلَهُۥ
+- **H1.16** [dictionary] ق ط ر B002 «yana devirip düşürmek» الإلقاء على الجنب — word قِطْرًا (5 dictionaries); source: قطرت فلانا تقطيرا صرعته صرعة شديدة (ayn)؛ طعنه فقطره تقطيرا أي ألقاه على أحد قطريه (sihah)؛ طعنه فقطره إذا ألقاه على أحد قطريه وصرعه (tahdhib)؛ قطرته ألقيته على قطره وتقطر وقع على قطره (mufradat)؛ طعنه فقطره أي ألقاه على أحد قطريه (maqayis)
+  - evidence: lex/image: علي names the plain image of جَعَلَهُۥ
+- **H1.17** [dictionary] ق ط ر B004 «aynı düzende art arda sıralanma» التتابع في نسق — word قِطْرًا (5 dictionaries); source: القطار قطار الإبل بعضها إلى بعض على نسق واحد (ayn;tahdhib)؛ قطار الإبل (sihah;maqayis)؛ تقاطر القوم جاؤوا أرسالا مأخوذ من قطار الإبل (sihah;mufradat;maqayis)؛ المقطرة اشتقت منه لأن من حبس فيها صار على قطار واحد (ayn;tahdhib)؛ قطروا الإبل فجلبوها للبيع قطارا قطارا (sihah;maqayis)
+  - evidence: lex/src: علي names the plain image of جَعَلَهُۥ
+- **H1.18** [dictionary] ق ط ر B011 «örnek hesaba göre toplu ve ölçüsüz satış» البيع جرافا بلا كيل — word قِطْرًا (1 dictionaries, sole attestation); source: القطر أن يزن جلة من تمر أو عدلا من المتاع والحب ويأخذ ما بقي على حساب ذلك ولا يزن (tahdhib)؛ القطر هو البيع نفسه (tahdhib)؛ المقاطرة أن يقول بعني ما لك في هذا البيت من التمر جرافا بلا كيل ولا وزن (tahdhib) (also L3.8)
+  - evidence: lex/src: علي names the plain image of جَعَلَهُۥ
+- **H1.19** [dictionary] ق ط ر B013 «yer nispetiyle anılan» النسبة إلى قطر — word قِطْرًا (2 dictionaries); source: القطر أيضا ضرب من البرود يقال لها القطرية (sihah)؛ البرود القطرية حمر لها أعلام فيها بعض الخشونة (tahdhib)؛ مدينة يقال لها قطر وأحسبهم نسبوا هذه الثياب إليها (tahdhib)؛ أراد بالقطريات نجائب نسبها إلى قطر (tahdhib)؛ جعل النعام قطرية نسب النعائم إلى قطر (tahdhib)
+  - evidence: lex/src: جعل → root ج ع ل
+- **H1.20** [dictionary] ق و ل B005 «yalan söyleme veya isnat etme» قول ما لم يكن أو نسبته — word قَالَ (2 dictionaries); source: تقول باطلا أي قال ما لم يكن (ayn)؛ قولتني ما لم أقل وأقولتني ما لم أقل أي ادعيته علي (sihah)؛ تقول عليه أي كذب عليه (sihah)
+  - evidence: lex/src: علي names the plain image of جَعَلَهُۥ || Luna (opposite): One word can falsely claim a condition; the next verb actually gives the iron a fire-state. The movement is from alleged becoming to material transformation.
+- **H1.21** [dictionary] ق و ل B005 «yalan söyleme veya isnat etme» قول ما لم يكن أو نسبته — word قَالَ (2 dictionaries); source: as H1.20
+  - evidence: lex/src: علي names the plain image of جَعَلَهُۥ || Luna (opposite): The verse sets false attribution against a real transformation. The iron is actually brought to a fire-state, rather than merely said to be so.
+- **H1.22** [dictionary] ق و ل B010 «hükmünü dayatma» اقتالة الحكم على غيره — word قَالَ (1 dictionaries, sole attestation); source: اقتال عليه تحكم (sihah) (also L3.12)
+  - evidence: lex/image: علي names the plain image of جَعَلَهُۥ || Luna (image): The controlling sense of قَالَ meets جَعَلَهُۥ, which renders the iron into a fire-state. The verse can sound like a commanding voice exercising control by rema
+- **H1.23** [dictionary] ق و ل B010 «hükmünü dayatma» اقتالة الحكم على غيره — word قَالَ (1 dictionaries, sole attestation); source: as H1.22
+  - evidence: lex/image: علي names the plain image of جَعَلَهُۥ || Luna (image): The command sounds like a ruling carried out in metal. The iron is not only ordered about; it is made into a fire-state.
+- **H1.24** [dictionary] ق و ل B014 «durumuyla belli etme» قول الشيء دلالته — word قَالَ (1 dictionaries, sole attestation); source: للدلالة على الشيء نحو قول الشاعر امتلأ الحوض وقال قطني (mufradat)
+  - evidence: lex/src: علي names the plain image of جَعَلَهُۥ || Luna (image): The metal's new state becomes its own declaration. What it has become makes the transformation legible.
+- **H1.25** [dictionary] ق و ل B014 «durumuyla belli etme» قول الشيء دلالته — word قَالَ (1 dictionaries, sole attestation); source: as H1.24 (also L9.10)
+  - evidence: lex/src: علي names the plain image of جَعَلَهُۥ || Luna (image): The made state becomes a sign of what the iron has become. The transformation speaks for itself.
+- **H1.26** [dictionary] ن ف خ B002 «şişme ve kabarma» انتفاخ الشيء وامتلاؤه بالريح — word ٱنفُخُوا۟ (5 dictionaries); source: أصل صحيح يدل على انتفاخ وعلو؛ انتفخ الشيء؛ المنفوخ الرجل السمين (maqayis)؛ النفاخ نفخة الورم؛ النفخة انتفاخ البطن؛ ملأتهما نفخة الشباب؛ رجل منفوخ؛ فرس أنفخ؛ النفاخة هنة منتفخة في بطن السمكة؛ النفاخة ثمرة العشر ليس لها حشو إلا الريح (ayn)؛ بالدابة نفخ وهي ريح تنتفخ منها أرساغه (jamhara)؛ أجد نفخة إذا انتفخ بطنه؛ رجل أنفخ (sihah)؛ انتفخ بطنه؛ رجل منفوخ أي سمين (mufradat) (also L6.10)
+  - evidence: lex/src: علي names the plain image of جَعَلَهُۥ
+- **H1.27** [dictionary] ن و ر B001 «ışık ve aydınlatma» الضياء والإضاءة — word نَارًا (3 dictionaries); source: النور الضياء والفعل نار وأنار ونورا وإنارة واستنار أي أضاء (ayn)؛ النور: الضياء؛ أنار الشئ واستنار بمعنى أي أضاء؛ التنوير: الإنارة؛ التنوير: الإسفار (sihah)؛ أصل صحيح يدل على إضاءة واضطراب وقلة ثبات؛ النور والنار سميا بذلك من طريقة الإضاءة (maqayis) (also L1.11, T1)
+  - evidence: lex/src: علي names the plain image of جَعَلَهُۥ || Luna (image): The iron is made into fire and becomes luminous. The act of transformation reveals the light sense carried by نَارًا.
+- **H1.28** [dictionary] ن و ر B005 «yol gösteren belirgin işaret ve yüksek yapı» المنار والمنارة الظاهرة — word نَارًا (3 dictionaries); source: المنارة مفعلة من الإنارة؛ كانوا ينورون في الجاهلية ليهتدى ويقتدى بها؛ المنارة الشمعة ذات السراج؛ المنارة ما يوضع عليه للمسرجة؛ المنارة للمؤذن (ayn)؛ المنار: علم الطريق؛ ضرب المنار على طريقه ليهتدى بها؛ المنارة التي يؤذن عليها؛ المنارة ما يوضع فوقها السراج (sihah)؛ المنارة مفعلة من الاستنارة؛ منار الأرض حدودها وأعلامها سميت لبيانها وظهورها (maqayis)
+  - evidence: lex/src: علي names the plain image of جَعَلَهُۥ || Luna (image): The iron is made into a visible beacon. The fire-state becomes a landmark that could guide someone through the pass.
+- **H1.29** [dictionary] ن و ر B008 «göz boyası ve dövme için kullanılan duman karası» دخان الوشم والكحل — word نَارًا (3 dictionaries); source: النؤور دخان الفتيلة يتخذ كحلا أو وشما (ayn)؛ النوور: النيلج، وهو دخان الشحم يعالج به الوشم؛ وقد نور ذراعه إذا غرزها بإبرة ثم ذر عليها النوور (sihah)؛ مما شذ عن هذا الأصل النؤور دخان الفتيلة يتخذ كحلا ووشما؛ نورت اللثة غرزتها بإبرة ثم جعلت في الغرز الإثمد (maqayis)
+  - evidence: lex/src: جعلت → root ج ع ل
+- **H1.30** [judged] س و ي B009 «geniş ve açık arazi» السِيّ واسع أملس من الأرض — word سَاوَىٰ (4 dictionaries); source: السِيّ الفضاء من الأرض الواسع (jamhara)؛ ومن الباب السِيّ الفضاء من الأرض (maqayis)؛ السِيّ موضع بالبادية أملس (ayn)؛ نزلنا في كلاء سِيّ وأنبط ماء سِيًّا أي كثيرا واسعا (tahdhib) (also L7.12, L9.5)
+  - evidence: Luna (image): The act of making the structure takes on the image of leveling a broad, smooth surface. The gap becomes an open plane for the work.
+- **H1.31** [judged] ق و ل B011 «sanma işlevli söyleme» قول يجري مجرى الظن — word قَالَ (1 dictionaries, sole attestation); source: العرب تجري تقول وحدها في الاستفهام مجرى تظن في العمل (sihah)؛ بنو سليم يجرون متصرف قلت في غير الاستفهام أيضا مجرى الظن (sihah) (also L3.13)
+  - evidence: Luna (image): The supposing sense of قَالَ treats something as so, while جَعَلَهُۥ actually renders the iron into a new state. The transformation becomes a material counterpa
+- **H1.32** [judged] ق و ل B016 «teknik tanım» قول الشيء حده — word قَالَ (1 dictionaries, sole attestation); source: يستعمله المنطقيون في معنى الحد فيقولون قول الجوهر كذا وقول العرض كذا أي حدهما (mufradat) (also L5.1, L9.11)
+  - evidence: Luna (image): The iron is made fire, a new state that defines what it is at that stage. The technical sense of qawl meets state-making as classification made concrete.
+- **H1.33** [judged] ن و ر B006 «ürkmek, kaçınmak ve uzaklaştırmak» النِّفار وقلة الثبات — word نَارًا (3 dictionaries); source: امرأة نوار وهي العفيفة النافرة عن الشر والقبيح؛ التي تكره الرجال؛ بقرة نوار تنفر من الفحل؛ نرت فلانا أي أنفرته (ayn)؛ النور أيضا: النفر من الظباء؛ نسوة نور أي نفر من الربية؛ الواحدة نوار وهي الفرور؛ فرس وديق نوار؛ نرت م…
+  - evidence: Luna (complement): The iron is made into fire, a state that drives the skittish away. The rare sense of flight gives the transformation a consequence: what is heated becomes somet
+- surah ayat these members touch (chain material): 18:1 (ز ب ر B003) → 18:5 (ق و ل B005) → 18:7 (ح د د B007) → 18:15 (ق و ل B005) → 18:17 (ن و ر B006) → 18:19 (ق ط ر B013) → 18:21 (ء ت ي B011, ق و ل B010) → 18:22 (ز ب ر B006) → 18:24 (ص د ف B005) → 18:26 (ق و ل B010, ن و ر B005) → 18:27 (ز ب ر B003) → 18:28 (ح د د B007) → 18:29 (س و ي B010) → 18:31 (ح د د B007, ق ط ر B013, ق و ل B011) → 18:34 (ن و ر B006) → 18:40 (ق و ل B011) → 18:45 (ن ف خ B002) → 18:46 (ح د د B007) → 18:49 (ز ب ر B003) → 18:56 (ق و ل B005) → 18:57 (ن و ر B005) → 18:62 (ن و ر B001) → 18:65 (ن و ر B005) → 18:66 (ن و ر B005) → 18:73 (ن و ر B005) → 18:79 (ز ب ر B006) → 18:81 (ص د ف B005) → 18:82 (ق ط ر B013, ن و ر B005) → 18:86 (ز ب ر B006, ن و ر B006) → 18:88 (ن و ر B005) → 18:90 (ن و ر B006) → 18:99 (ح د د B007) → 18:102 (ز ب ر B006, ق و ل B011) → 18:104 (ق و ل B011) → 18:106 (ز ب ر B006) → 18:110 (ز ب ر B003)
+
+### 3. Luna hubs (second tier) [L]
+
+### L1 ٱنفُخُوا۟ — 8 roots converge
+Plain sense of ٱنفُخُوا۟: bir şeye hava üfleme (إرسال الريح في الشيء)
+- **L1.1** [judged] ء ت ي B006 «topluluğa yabancı kimse» الغريب الداخل في غير قومه — word ءَاتُونِى (5 dictionaries); source: رجل أتي وأتاوي وهو الغريب (jamhara)؛ الاتي أيضا والاتاوى الغريب (sihah)؛ إنما هو أتي فينا (tahdhib)؛ به شبه الغريب فقيل أتاوي (mufradat)؛ رجل أتي أي غريب في قوم ليس منهم وأتاوي كذلك (maqayis) (also T6)
+  - evidence: Luna (opposite): The rare image is a place with no one to blow its embers. Here the command calls a group to blow, filling the scene with workers and breath.
+- **L1.2** [judged] ب ي ن B008 «bağlı yerinden ayrılma» انفراج العضو أو الشيء عن ملاصقه — word بَيْنَ (2 dictionaries); source: بانت يد الناقة عن جنبها (ayn)؛ قوس بائن وهي التي بان وترها عن كبدها (ayn)؛ ضربه فأبان رأسه من جسده وفصله (sihah)؛ البائنة القوس التي بانت عن وترها كثيرا (sihah)
+  - evidence: Luna (image): The blast expands the material and parts it from what adjoins it. The command gives the separation a physical image.
+- **L1.3** [judged] ز ب ر B007 «tüy ve liflerin kabarıp yüzeyde belirginleşmesi» انتفاش الزئبر ونبات الوبر — word زُبَرَ (5 dictionaries); source: ازبأر الشعر إذا انتفش تقوى (maqayis)؛ زئبر الثوب ما يرتفع من قطنه؛ زئبر القطيفة ما تعلق منها (ayn)؛ ازبأر الكلب تنفش؛ ازبأر الشعر تنفش؛ ازبأر النبت والوبر إذا نبت؛ زئبر الثوب (sihah)؛ زئبر الخز والقطيفة والثوب؛ ازبئرار … (also T2)
+  - evidence: Luna (image): Blowing air into the structure makes the rare image of fibers puffing up vivid. The command can be heard as raising and swelling a surface under pressure.
+- **L1.4** [judged] ز ب ر B009 «öfkesinin kabarıp şiddetlenmesi» هاجت زبراؤه للغضب — word زُبَرَ (4 dictionaries); source: هاجت زبراء فذهبت مثلا حتى قيل لكل من غضب هاجت زبراؤه (ayn)؛ قد هاجت زبراء؛ فذهب مثلا (sihah)؛ حتى قيل لكل من هاج غضبه هاجت زبراؤه (tahdhib)؛ هاج زبرؤه لمن يغضب (mufradat)
+  - evidence: Luna (same): The anger-sense surges, while the command to blow swells the material with air. Together they make the heating phase pulse with expansion.
+- **L1.5** [judged] س و ي B003 «üzerine çıkıp yerleşmek veya egemen olmak» علو واستقرار على شيء — word سَاوَىٰ (3 dictionaries); source: as H1.11 (also H1.11, L8.8)
+  - evidence: Luna (image): The commanded blast lifts and swells the heated material. The leveling thus carries a rising, settling image.
+- **L1.6** [judged] ف ر غ B001 «meşguliyetten çıkma veya içi boş kalma» الخلو بعد الشغل — word أُفْرِغْ (4 dictionaries); source: الفراغ خلاف الشغل (maqayis;mufradat)؛ فرغت من الشغل (sihah)؛ فؤاد أم موسى فارغا أي خاليا من الصبر (ayn)؛ كأنما فرغ من لبها (mufradat)؛ حتى إذا فرغ عن قلوبهم أي ذهب بالخوف (ayn)
+  - evidence: Luna (opposite): The rare sense leaves something empty, while the command to blow sends air into it. The pair makes the heating process sound like emptiness giving way to fullne
+- **L1.7** [judged] ق ط ر B007 «tütsü odunu ve tütsü kabı» عود البخور ومجمرته — word قِطْرًا (4 dictionaries); source: القطر عود يتبخر به (ayn;tahdhib)؛ القطر والقطر العود الذي يتبخر به والمقطرة المجمرة (sihah)؛ القطر العود (maqayis) (also L6.7, T11)
+  - evidence: Luna (image): Blowing beside an incense brazier makes the command evoke kindling its embers. The same breath can feed the fire needed to heat the barrier.
+- **L1.8** [judged] ق و ل B002 «konuşma organı» اللسان آلة القول — word قَالَ (3 dictionaries); source: المقول اللسان (maqayis;ayn;sihah)
+  - evidence: Luna (part): The speaker's tongue in قَالَ gives way to the workers' breath in ٱنفُخُوا۟. The command is immediately embodied by the mouth that blows.
+- **L1.9** [judged] ق و ل B012 «içte kalmış söz» قول في النفس لم يظهر — word قَالَ (1 dictionaries, sole attestation); source: المتصور في النفس قبل الإبراز باللفظ قول (mufradat)؛ في نفسي قول لم أظهره (mufradat) (also L2.10)
+  - evidence: Luna (complement): An inward qawl still unvoiced meets the workers' blast sent outward. The pairing turns an interior conception into breath made visible in the work.
+- **L1.10** [judged] ق و ل B012 «içte kalmış söz» قول في النفس لم يظهر — word قَالَ (1 dictionaries, sole attestation); source: as L1.9 (also L7.16)
+  - evidence: Luna (image): The inner word becomes the breath the workers send into the iron. The command gives an inward thought an audible and physical form.
+- **L1.11** [judged] ن و ر B001 «ışık ve aydınlatma» الضياء والإضاءة — word نَارًا (3 dictionaries); source: as H1.27 (also H1.27, T1)
+  - evidence: Luna (part): The workers blow air into the iron until it becomes fire. Breath feeds the flame and brings its light into being.
+- surah ayat these members touch (chain material): 18:18 (ز ب ر B007) → 18:22 (ز ب ر B007) → 18:45 (ز ب ر B007) → 18:55 (ز ب ر B007) → 18:58 (ز ب ر B007) → 18:62 (ن و ر B001) → 18:75 (ف ر غ B001) → 18:78 (ف ر غ B001) → 18:82 (ف ر غ B001)
+
+### L2 قِطْرًا — 8 roots converge
+Plain sense of قِطْرًا: erimiş bakır (النحاس المذاب)
+- **L2.1** [judged] ء ت ي B005 «başka bölgeden gelen sel» السيل الآتي من غير البلد — word ءَاتُونِىٓ (5 dictionaries); source: as H1.3 (also H1.3, L7.6, L9.3, L10.1)
+  - evidence: Luna (image): The rare sense is a flood, while قِطْرًا is molten copper. Together they make the poured metal a manufactured flood.
+- **L2.2** [judged] ء ت ي B005 «başka bölgeden gelen sel» السيل الآتي من غير البلد — word ءَاتُونِى (5 dictionaries); source: as H1.3 (also H1.4, L7.7, L11.2, T5)
+  - evidence: Luna (image): The supplied copper arrives like a flood from elsewhere. The molten metal is a current brought in to seal the barrier.
+- **L2.3** [judged] ب ي ن B006 «geniş uzaklık» بعد المسافة واتساع الفجوة — word بَيْنَ (3 dictionaries); source: أصل واحد وهو بعد الشيء (maqayis)؛ البائنة البئر البعيدة القعر الواسعة (sihah)؛ بيون لبعد ما بين الشفير والقعر (mufradat) (also L13.1)
+  - evidence: Luna (image): The molten copper fills the broad gap. The pour becomes a seal across the distance between the sides.
+- **L2.4** [judged] ح د د B006 «sertlik, atılgan güç ve öfkeli taşkınlık» حدة البأس والشراب والغضب — word ٱلْحَدِيدِ (3 dictionaries); source: حد الشراب صلابته (maqayis;sihah;tahdhib)؛ حد الرجل بأسه (maqayis;sihah;tahdhib)؛ الحدة التي تعتري الإنسان من النزق (maqayis;sihah)؛ الحدة الغضبة (tahdhib)؛ حد يحد إذا أخذته عجلة وطيش (tahdhib)
+  - evidence: Luna (opposite): The rare sense of iron’s toughness stands opposite molten copper’s fluid state. The two materials make the barrier’s hard frame and flowing sealant sharply dist
+- **L2.5** [judged] ص د ف B002 «inci taşıyabilen çift kapaklı deniz canlısı ve kabuğu» الصَّدَف غشاء البحر — word ٱلصَّدَفَيْنِ (5 dictionaries); source: الصدف المحارة (maqayis)؛ الصدف غشاء خلق في البحر تضمه صدفتان (ayn;tahdhib)؛ صدف الدرة غشاؤها والواحدة صدفة (sihah)؛ الصدف الذي يخرج من البحر (mufradat) (also T8)
+  - evidence: Luna (image): The molten copper forms a casing over the structure. The rare shell image makes the sealing pour feel like a protective outer layer.
+- **L2.6** [judged] ف ر غ B004 «kanı yerde kalmak» الدم المهدور — word أُفْرِغْ (3 dictionaries); source: ذهب دمه فرغا أي باطلا لم يطلب به (maqayis)؛ ذهب دمه فرغا وفرغا أي هدرا لم يطلب به (sihah)؛ ذهب دمه فرغا أي مصبوبا ومعناه باطلا لم يطلب به (mufradat)
+  - evidence: Luna (image): The copper is poured over the barrier, beside the rare image of blood poured out and left unavenged. The metal flow gives that image a new material form.
+- **L2.7** [judged] ق ل ل B002 «bir şeyin tepesi veya başı» قُلَّة الشيء ورأسه — word قَالَ (echo root, sound family only; 4 dictionaries); source: القلة قلة الجبل وهي القطعة تستدير في أعلاه وهي القنة (jamhara)؛ القلة أعلى الجبل؛ قلة كل شيء أعلاه؛ رأس الإنسان قلة (sihah)؛ قلة كل شيء رأسه؛ قلة الجبل أعلاه؛ قبيعة السيف قلته؛ سيف مقلل (tahdhib)؛ قلة الجبل شعفه (mufrad… (also L8.3, L13.4)
+  - evidence: Luna (image): The copper is poured over the top of the barrier. The final layer reads as a cap sealing its summit.
+- **L2.8** [judged] ق ل ل B003 «büyük küp» القُلَّة الجرة الكبيرة — word قَالَ (echo root, sound family only; 4 dictionaries); source: القلة التي جاءت في الحديث مثل قلال هجر هي جرار عظام (jamhara)؛ القلة إناء للعرب كالجرة الكبيرة؛ قلال هجر شبيهة بالحباب (sihah)؛ قلتين يعني هذه الحباب العظام واحدتها قلة؛ قلال هجر؛ القلة منها تأخذ مزادة من الماء (tahdhib…
+  - evidence: Luna (part): The molten copper is the contents of an imagined large jar. The pouring command makes the container-and-content relation audible.
+- **L2.9** [judged] ق ل ل B004 «yük kaldırma, yükselme ve yola koyulma» الإقلال والاستقلال حملا ونهوضا — word قَالَ (echo root, sound family only; 3 dictionaries); source: أقل الجرة أطاق حملها؛ استقلت السماء ارتفعت؛ استقل القوم مضوا وارتحلوا (sihah)؛ أقل الرجل الشيء واستقله إذا احتمله؛ استقل الطائر إذا نهض للطيران؛ استقل النبات أناف؛ استقل القوم إذا احتملوا ظاعنين؛ أقلت سحابا ثقالا أي حمل… (also L3.9)
+  - evidence: Luna (part): The molten copper is a load to be carried to the barrier. The rare sense adds transport to the final material.
+- **L2.10** [judged] ق و ل B012 «içte kalmış söz» قول في النفس لم يظهر — word قَالَ (1 dictionaries, sole attestation); source: as L1.9 (also L1.9)
+  - evidence: Luna (opposite): The thought held within meets molten copper poured out over the iron. Hidden conception and material release form an inward-outward image.
+- **L2.11** [judged] ن و ر B009 «bedene sürülen özel karışım ve onu sürünme» النُّورَة المطلية — word نَارًا (2 dictionaries); source: النورة يطلى بها (ayn)؛ تنور الرجل: تطلى بالنورة (sihah) (also L5.3)
+  - evidence: Luna (image): The final metal can be heard as a coating spread over the iron. The building ends with a deliberately applied skin.
+- surah ayat these members touch (chain material): 18:2 (ح د د B006) → 18:6 (ق ل ل B003) → 18:17 (ب ي ن B006) → 18:29 (ح د د B006) → 18:45 (ق ل ل B002, ق ل ل B004) → 18:47 (ق ل ل B002) → 18:56 (ف ر غ B004) → 18:63 (ص د ف B002) → 18:79 (ص د ف B002) → 18:109 (ص د ف B002)
+
+### L3 سَاوَىٰ — 7 roots converge
+Plain sense of سَاوَىٰ: iki şeyi birbirine denk kılma veya denk sayma (مساواة ومعادلة بين شيئين)
+- **L3.1** [dictionary] ب ي ن B007 «göz erimindeki arazi parçası» قطعة أرض تمتد في النظر — word بَيْنَ (3 dictionaries); source: البين قطعة من الأرض قدر مد البصر (maqayis)؛ البين الغلظ من الأرض (jamhara)؛ البين بالكسر القطعة من الأرض قدر منتهى البصر (sihah)؛ البين أيضا الناحية (sihah) (also L5.6, L13.2)
+  - evidence: rel/near_neighbor: س و ي B009 (geniş açık yer) || Luna (same): The visible tract is made level. The land image and the leveling meet in a smooth expanse.
+- **L3.2** [judged] ء ت ي B010 «işlek ana yol, son sınır ve karşı hizası» الميتاء طريق ومحاذاة — word ءَاتُونِىٓ (2 dictionaries); source: الميتاء والميداء آخر الغاية حيث ينتهي إليه جري الخيل (sihah)؛ الميتاء الطريق العامر ومجتمع الطريق (sihah)؛ داري بميتاء دار فلان وميداء دار فلان أي تلقاء داره ومحاذية لها (sihah)؛ طريق ميتاء مسلوك وميتاء الطريق وميداؤه م… (also L5.5)
+  - evidence: Luna (same): The rare مِيتَاء is a road or alignment, and سَاوَىٰ equalizes. The pass is brought into line between its sides, so route and leveling converge in a straight tr
+- **L3.3** [judged] ء ت ي B011 «felakete uğramak, kaybetmek veya düşmanca ele geçirilmek» إتيان البلاء والهلاك — word ءَاتُونِىٓ (2 dictionaries); source: as H1.5 (also H1.6, L7.9)
+  - evidence: Luna (complement): The rare sense describes calamity or an enemy arriving; سَاوَىٰ levels the pass as part of building a barrier. The leveling can be heard as a response that bloc
+- **L3.4** [judged] ب ي ن B001 «ayrılıp kopma» انفصال الشيء وافتراقه — word بَيْنَ (5 dictionaries); source: البين الفراق (maqayis;sihah)؛ البينونة مصدر بأن يبين بينا وبينونة أي قطع (ayn)؛ البين مصدر بان يبين بينا (jamhara)؛ بان كذا أي انفصل (mufradat) (also L8.4)
+  - evidence: Luna (opposite): Separation meets equalization in a sharp tension. The gap divides what the leveling brings into alignment.
+- **L3.5** [judged] ب ي ن B011 «iki arada kalmış hal» حالة متوسطة بين طرفين — word بَيْنَ (1 dictionaries, sole attestation); source: هذا الشيء بين بين أي بين الجيد والرديء (sihah)؛ الهمزة المخففة تسمى بين بين (sihah)؛ يسقط بين بينا أي يتساقط ضعيفا غير معتد به (sihah) (also L6.5, L8.5)
+  - evidence: Luna (same): The intermediate point is where the two sides are brought into equality. Midway and leveling converge on the same position.
+- **L3.6** [judged] ص د ف B001 «yana sapma, yüz çevirme ve başka yöne sevk etme» الميل والإعراض — word ٱلصَّدَفَيْنِ (5 dictionaries); source: صدف عن الشيء إذا مال عنه وولى ذاهبا (maqayis)؛ الصدوف الميل عن الشيء وأصدفني عنه كذا (ayn)؛ صدف عني أي أعرض وأصدفني عنه أمالني (sihah)؛ الصدف أن يميل خف البعير إلى الجانب الوحشي (maqayis;sihah;tahdhib)؛ الأصدف من في يده… (also L7.13)
+  - evidence: Luna (opposite): The sides’ turning away meets the act of bringing them into alignment. The pair holds deflection against leveling.
+- **L3.7** [judged] ص د ف B004 «birine rastlamak veya onu bulmak» المصادفة واللقاء — word ٱلصَّدَفَيْنِ (3 dictionaries); source: صادفت فلانا لقيته (ayn;tahdhib)؛ صادفت فلانا وجدته (sihah)؛ من هذا يقال صادفت فلانا أي لاقيته (tahdhib) (also L9.6)
+  - evidence: Luna (image): The two sides are brought toward a meeting line by the leveling. Their encounter gives the work a point of arrival.
+- **L3.8** [judged] ق ط ر B011 «örnek hesaba göre toplu ve ölçüsüz satış» البيع جرافا بلا كيل — word قِطْرًا (1 dictionaries, sole attestation); source: as H1.18 (also H1.18)
+  - evidence: Luna (same): The rare sale-sense prices the whole lot by comparison with a weighed sample. سَاوَىٰ echoes the equivalence that makes that estimate work.
+- **L3.9** [judged] ق ل ل B004 «yük kaldırma, yükselme ve yola koyulma» الإقلال والاستقلال حملا ونهوضا — word قَالَ (echo root, sound family only; 3 dictionaries); source: as L2.9 (also L2.9)
+  - evidence: Luna (image): The material is lifted and placed to level the sides. Equalization becomes the result of carrying a load into position.
+- **L3.10** [judged] ق ل ل B004 «yük kaldırma, yükselme ve yola koyulma» الإقلال والاستقلال حملا ونهوضا — word قَالَ (echo root, sound family only; 3 dictionaries); source: as L2.9
+  - evidence: Luna (part): The heavy pieces must be carried or lifted into place before they can be leveled between the sides. The rare load-bearing sense gives سَاوَىٰ a bodily stage in 
+- **L3.11** [judged] ق و ل B009 «müzakere etme» المقاولة في الأمر — word قَالَ (1 dictionaries, sole attestation); source: قاولته في أمره وتقاولنا أي تفاوضنا (sihah)
+  - evidence: Luna (image): The negotiation and the leveling of the gap echo one another. The physical sides are brought level as imagined negotiating sides seek an accord.
+- **L3.12** [judged] ق و ل B010 «hükmünü dayatma» اقتالة الحكم على غيره — word قَالَ (1 dictionaries, sole attestation); source: as H1.22 (also H1.22)
+  - evidence: Luna (opposite): The forceful authority of the speaker sets the workers to equalize the pass. Personal control and material leveling answer one another as command becomes an eve
+- **L3.13** [judged] ق و ل B011 «sanma işlevli söyleme» قول يجري مجرى الظن — word قَالَ (1 dictionaries, sole attestation); source: as H1.31 (also H1.31)
+  - evidence: Luna (complement): A thought can take two things as equal; سَاوَىٰ makes equality physical. Supposed parity and actual leveling answer one another.
+- **L3.14** [judged] ن ف خ B003 «yükselip belirginleşme» علو الشيء وربو الأرض — word ٱنفُخُوا۟ (4 dictionaries); source: انتفخ النهار علا؛ نفخة الربيع إعشابه لأن الأرض تربو وتنتفخ؛ النفخاء من الأرض (maqayis)؛ النفخاء من الأرض ما ارتفع (ayn)؛ انتفخ النهار أي علا؛ النفخاء من الأرض (sihah)؛ استعير انتفخ النهار إذا ارتفع؛ نفخة الربيع حين أعشب… (also L8.11)
+  - evidence: Luna (complement): The pass is leveled to a chosen height. The raised-ground image and the leveling command meet in a surface brought even with its surroundings.
+- surah ayat these members touch (chain material): 18:21 (ء ت ي B011, ق و ل B010) → 18:26 (ق و ل B010) → 18:28 (ص د ف B004) → 18:31 (ق و ل B011) → 18:40 (ق و ل B011) → 18:45 (ق ل ل B004) → 18:57 (ص د ف B001) → 18:63 (ص د ف B004) → 18:78 (ب ي ن B001) → 18:79 (ص د ف B004) → 18:102 (ق و ل B011) → 18:104 (ق و ل B011) → 18:105 (ص د ف B004) → 18:109 (ص د ف B004) → 18:110 (ص د ف B004)
+
+### L4 قَالَ — 7 roots converge
+Plain sense of قَالَ: söze dökme (إخراج القول بالنطق); sözü geçen yönetici unvanı (القيل صاحب القول النافذ)
+- **L4.1** [dictionary] ن ف خ B006 «kibirli ve böbürlenen kişi» انتفاخ الفخر والكبر — word ٱنفُخُوا۟ (1 dictionaries, sole attestation); source: رجل ذو نفخ وذو نفج بالجيم أي صاحب فخر وكبر (also L12.1)
+  - evidence: lex/src: صاحب names the plain image of قَالَ
+- **L4.2** [judged] ء ت ي B008 «ödenen vergi; rüşvet» الإتاوة المؤداة — word ءَاتُونِى (3 dictionaries); source: الإتاوة الخراج أو الجزية يؤديه القوم إلى الملك (jamhara)؛ الاتاوة الخراج والجمع الاتاوي (sihah)؛ الإتاوة الخراج وجمعها الأتاوى والإتاوات (tahdhib)؛ أتوته أتوة إذا رشوته إتاوة وهي الرشوة (tahdhib)
+  - evidence: Luna (complement): The authoritative speaker orders material to be brought. The command can be heard with the weight of a ruler calling in tribute.
+- **L4.3** [judged] ء ت ي B008 «ödenen vergi; rüşvet» الإتاوة المؤداة — word ءَاتُونِىٓ (3 dictionaries); source: as L4.2
+  - evidence: Luna (image): The supply command can be heard as a royal demand for materials. The rare payment sense turns the request into something like a levy owed to a ruler.
+- **L4.4** [judged] ب ي ن B004 «açığa çıkıp belirginleşme» ظهور الشيء وانكشافه — word بَيْنَ (4 dictionaries); source: بان الشيء وأبان إذا اتضح وانكشف (maqayis)؛ البيان معروف وبان الشيء وأبان وتبين وبين واستبان (ayn)؛ بان الشيء بيانا اتضح فهو بين (sihah)؛ البينة الدلالة الواضحة (mufradat) (also L6.4)
+  - evidence: Luna (same): The speech makes something known. The saying itself becomes the act of clarification.
+- **L4.5** [judged] ب ي ن B005 «anlamı açıkça ortaya koyma» كشف المعنى بالقول أو العلامة — word بَيْنَ (4 dictionaries); source: أبين من فلان أي أوضح كلاما منه (maqayis)؛ البين من الرجال الفصيح (ayn)؛ البيان الفصاحة واللسن (sihah)؛ البيان الكشف عن الشيء وهو أعم من النطق (mufradat) (also L12.2)
+  - evidence: Luna (same): Speech brings a meaning into the open. The command becomes clear through its utterance.
+- **L4.6** [judged] ح د د B005 «keskin ağız ve nüfuz eden etki» الطرف الحاد والنفاذ — word ٱلْحَدِيدِ (4 dictionaries); source: الأصل الآخر طرف الشيء (maqayis)؛ حد السيف وهو حرفه وحد السكين (maqayis)؛ حد كل شيء شباته (sihah;tahdhib)؛ حد السنان وحد السيف ما دق من شفرته (tahdhib)؛ سيوف حداد وألسنة حداد (sihah;mufradat)؛ بصرك اليوم حديد وحديد النظر…
+  - evidence: Luna (image): The rare sharp-edge sense makes the spoken word seem able to cut. The speaker’s utterance takes on the force of a sharpened blade.
+- **L4.7** [judged] ق ط ر B009 «hücuma hazırlanıp konum almak» التهيؤ للقتال — word قِطْرًا (2 dictionaries); source: التقطر لغة في التقتر وهو التهيؤ للقتال (sihah)؛ تقطر فلان للقتال تقطرا وتقتر وتشذر إذا تهيأ له وتحرف لذلك (tahdhib)؛ تشذر فلان وتقتر وتقطر وتشزن إذا تهيأ للحملة (tahdhib) (also L5.8)
+  - evidence: Luna (image): The authoritative speaker’s words become a call to prepare for combat. The orders to bring iron and blow make the battle-readiness sense audible in the scene.
+- **L4.8** [judged] ق ل ل B001 «azlık» القِلَّة والضآلة — word قَالَ (echo root, sound family only; 4 dictionaries); source: القل القليل؛ رماه الله بالقل والذل أي بالقلة والذلة (jamhara)؛ شيء قليل وجمعه قلل؛ قل الشيء يقل قلة؛ قلله في عينه؛ أقل افتقر؛ استقله عده قليلا (sihah)؛ قل الشيء يقل قلة فهو قليل وقلال؛ القل من الرجال الخسيس الدنيء؛ قليل…
+  - evidence: Luna (sound): The near echo between قِلَّة and قَالَ makes the utterance sound scant. A single clipped command is all the saying gives.
+- **L4.9** [judged] ق ل ل B002 «bir şeyin tepesi veya başı» قُلَّة الشيء ورأسه — word قَالَ (echo root, sound family only; 4 dictionaries); source: as L2.7 (also L8.2, L13.3)
+  - evidence: Luna (image): قُلَّة names a summit or head, while قَيْل can name an authoritative leader. The word for the speaker can carry the image of one who stands at the head.
+- **L4.10** [judged] ق و ل B006 «sözü üzerine alma» اجترار القول إلى النفس — word قَالَ (1 dictionaries, sole attestation); source: اقتال قولا أي اجتر إلى نفسه قولا من خير أو شر (ayn) (also L10.3, L11.3, T4)
+  - evidence: Luna (opposite): The rare sense holds a saying within, while the plain قَالَ is speech brought out in words. The same token can be heard between inward thought and utterance.
+- **L4.11** [judged] ن ف خ B004 «gaz çıkarmak» نفخ بها بمعنى حبق — word ٱنفُخُوا۟ (1 dictionaries, sole attestation); source: نفخ بها: حبق
+  - evidence: Luna (image): The ordinary command is spoken aloud, while the rare sense makes blowing an indecorous bodily emission. The word pair lets the scene’s expelled breath answer th
+- **L4.12** [judged] ن ف خ B005 «evde hiç kimse olmaması» ما بالدار نافخ ضرمة — word ٱنفُخُوا۟ (1 dictionaries, sole attestation); source: ما بالدار نافخ ضرمة أي ما بها أحد (also L6.11)
+  - evidence: Luna (opposite): The rare phrase pictures a house with nobody in it. Here someone speaks a command, and the scene is populated by the voices and laborers it summons.
+- surah ayat these members touch (chain material): 18:11 (ء ت ي B008) → 18:32 (ء ت ي B008) → 18:34 (ن ف خ B006) → 18:37 (ن ف خ B006) → 18:45 (ء ت ي B008, ق ل ل B002) → 18:47 (ق ل ل B002) → 18:86 (ب ي ن B005) → 18:90 (ب ي ن B005) → 18:93 (ب ي ن B005)
+
+### L5 ٱلْحَدِيدِ — 7 roots converge
+Plain sense of ٱلْحَدِيدِ: ayıran ve kapsamı belirleyen sınır (الحاجز والغاية المميزة); sert ve dayanıklı demir (الحديد والصلابة الممتنعة)
+- **L5.1** [dictionary] ق و ل B016 «teknik tanım» قول الشيء حده — word قَالَ (1 dictionaries, sole attestation); source: as H1.32 (also H1.32, L9.11)
+  - evidence: rel/near_synonym: ح د د B001 (teknik tanım / sınır) || Luna (same): The technical limit in قَوْل meets iron that holds a boundary. The spoken definition becomes a literal dividing line in the pass.
+- **L5.2** [dictionary] ق و ل B016 «teknik tanım» قول الشيء حده — word قَالَ (1 dictionaries, sole attestation); source: as H1.32 (also L9.12)
+  - evidence: rel/near_synonym: ح د د B001 (teknik tanım / sınır) || Luna (same): The iron barrier becomes a literal boundary, while speech can be heard as a definition that sets limits. The material itself marks the pass's dividing line.
+- **L5.3** [dictionary] ن و ر B009 «bedene sürülen özel karışım ve onu sürünme» النُّورَة المطلية — word نَارًا (2 dictionaries); source: as L2.11 (also L2.11)
+  - evidence: rel/thematic: ح د د B008 (beden bakımı)
+- **L5.4** [judged] ء ت ي B010 «işlek ana yol, son sınır ve karşı hizası» الميتاء طريق ومحاذاة — word ءَاتُونِى (2 dictionaries); source: as L3.2
+  - evidence: Luna (complement): The brought iron occupies the pass as a boundary. The road’s endpoint and the iron’s dividing edge meet in the barrier’s placement.
+- **L5.5** [judged] ء ت ي B010 «işlek ana yol, son sınır ve karşı hizası» الميتاء طريق ومحاذاة — word ءَاتُونِىٓ (2 dictionaries); source: as L3.2 (also L3.2)
+  - evidence: Luna (image): The road's last extent meets iron as the material of a barrier. The structure stands where a route ends and is stopped.
+- **L5.6** [judged] ب ي ن B007 «göz erimindeki arazi parçası» قطعة أرض تمتد في النظر — word بَيْنَ (3 dictionaries); source: as L3.1 (also L3.1, L13.2)
+  - evidence: Luna (image): An iron boundary is laid across a tract that extends to the eye’s limit. The barrier makes a long line across the land.
+- **L5.7** [judged] ز ب ر B004 «sertçe azarlayıp alıkoyma» الزجر والانتهار والمنع — word زُبَرَ (4 dictionaries); source: زبر فلان فلانا يزبره زبرا وزبرة انتهره (ayn)؛ زبرت الرجل إذا انتهرته (jamhara)؛ الزبر الزجر والمنع؛ زبره يزبره زبرا؛ انتهره (sihah)؛ الزبر الزجر؛ من زبرته عن الغي فقد أحكمته (tahdhib)
+  - evidence: Luna (same): The rare sense of forbidding meets iron’s plain role as a barrier. Together they make the material’s physical blocking echo a prohibition.
+- **L5.8** [judged] ق ط ر B009 «hücuma hazırlanıp konum almak» التهيؤ للقتال — word قِطْرًا (2 dictionaries); source: as L4.7 (also L4.7)
+  - evidence: Luna (image): The preparation for combat takes the form of an iron defense. The metal makes readiness visible as a barrier against attack.
+- **L5.9** [judged] ق ل ل B005 «korku veya öfkeden titreme» القِلُّ رعدة واضطراب — word قَالَ (echo root, sound family only; 3 dictionaries); source: القل الرعدة والانتفاض؛ أخذ فلانا القل إذا أخذته رعدة من فزع (jamhara)؛ القل بالكسر شبه الرعدة؛ أخذه قل من الغضب (sihah)؛ القل الرعدة؛ أخذه قل إذا أرعد من الغضب؛ إذا غضب قد استقل (tahdhib)
+  - evidence: Luna (opposite): The scene places bodily alarm against a material meant to stand firm. The iron line can sound as a reply to the tremor outside it.
+- surah ayat these members touch (chain material): 18:31 (ز ب ر B004) → 18:33 (ز ب ر B004) → 18:51 (ق ل ل B005) → 18:84 (ق ل ل B005) → 18:94 (ق ل ل B005)
+
+### L6 نَارًا — 6 roots converge
+Plain sense of نَارًا: yanan ateş ve ateşle yapılan hayvan damgası (النار المتقدة والسمة بها)
+- **L6.1** [dictionary] ج ع ل B007 «sıcak tencereyi indirme bezi ve onunla indirme» خرقة إنزال القدر — word جَعَلَهُۥ (4 dictionaries); source: الجعال الخرقة التي تنزل بها القدر عن الأثافي (maqayis)؛ الجعال والجعالة خرقة تنزل بها القدر عن رأس النار يتقى بها من الحر (ayn)؛ الجعال الخرقة التي تنزل بها القدر عن النار؛ أجعلت القدر (sihah)؛ الجعال الخرقة التي تنزل بها القدور؛ أجعلت القدر إجعالا إذا أنزلتها بالجعال (tahdhib)
+  - evidence: lex/src: نار → root ن و ر || Luna (part): The rare sense brings a pot down from the fire with a protective cloth. The verse makes iron into fire and then applies molten metal, so the image recalls handl
+- **L6.2** [judged] ء ت ي B007 «gelişip bol ürün vermek» خروج النماء والنتاج — word ءَاتُونِىٓ (5 dictionaries); source: أتاء هذا النخل أي ثمره وكذلك الزرع (jamhara)؛ الاتاء البركة والنماء وحمل النخل (sihah)؛ جاء أتوه (sihah;mufradat)؛ إتاء النخلة ريعها وزكاؤها وكثرة ثمارها (tahdhib)؛ الإتاء نماء الزرع والنخل وأتى الماء إتاء أي كثر (maqay… (also L7.8, T7)
+  - evidence: Luna (opposite): The root's increase and yield is life-producing abundance, while نَارًا is active fire. The scene sets organic growth against the fiery remaking of metal.
+- **L6.3** [judged] ء ت ي B012 «dişi devenin çiftleşmek istemesi» استئتاء الناقة — word ءَاتُونِىٓ (1 dictionaries, sole attestation); source: استأتت الناقة استئتاء مهموز أي ضبعت وأرادت الفحل (sihah) (also T3)
+  - evidence: Luna (image): The camel in heat stands beside fire used to brand an animal. Together they make an image of a heated body receiving a mark.
+- **L6.4** [judged] ب ي ن B004 «açığa çıkıp belirginleşme» ظهور الشيء وانكشافه — word بَيْنَ (4 dictionaries); source: as L4.4 (also L4.4)
+  - evidence: Luna (image): The fire-state makes the structure visible. Exposure and flame meet in an image of something brought into view.
+- **L6.5** [judged] ب ي ن B011 «iki arada kalmış hal» حالة متوسطة بين طرفين — word بَيْنَ (1 dictionaries, sole attestation); source: as L3.5 (also L3.5, L8.5)
+  - evidence: Luna (part): The fire-state is an intermediate stage in the work. It comes between shaping the iron and applying the copper.
+- **L6.6** [judged] ق ط ر B005 «ağaçtan elde edilen koyu katran» القَطِران المتحلب — word قِطْرًا (5 dictionaries); source: القطران ما يتحلب من شجر الأبهل يطبخ فيتحلب منه (ayn;tahdhib)؛ الهناء هو القطران وتقول قطرت البعير طليته بالقطران (sihah)؛ القطران ما يتقطر من الهناء (mufradat)؛ القطران ممكن أن يسمى بذلك لأنه مما يقطر (maqayis)
+  - evidence: Luna (image): Tree pitch beside fire makes an image of a coating heated until it runs. That image shadows the verse’s fire-state followed by a poured sealant.
+- **L6.7** [judged] ق ط ر B007 «tütsü odunu ve tütsü kabı» عود البخور ومجمرته — word قِطْرًا (4 dictionaries); source: as L1.7 (also L1.7, T11)
+  - evidence: Luna (complement): The incense wood and brazier belong beside the fire that makes them burn. Together they form a picture of fuel, flame, and heat.
+- **L6.8** [judged] ق و ل B007 «dolaşımdaki söz» القول الفاشي بين الناس — word قَالَ (2 dictionaries); source: انتشرت له قالة حسنة أو قبيحة في الناس (ayn)؛ القالة القول الفاشي في الناس (ayn)؛ كثر فيه القيل والقال (ayn)؛ كثرت قالة الناس (sihah)؛ كثر القيل والقال (sihah)
+  - evidence: Luna (image): The work's speech and its fire-state make an image of words spreading like flame. The commands carry the heated work from one person to another.
+- **L6.9** [judged] ق و ل B007 «dolaşımdaki söz» القول الفاشي بين الناس — word قَالَ (2 dictionaries); source: as L6.8
+  - evidence: Luna (image): A repeated saying can leave a reputation-mark, as heated iron leaves a brand. The fire image can carry both material heat and public stigma.
+- **L6.10** [judged] ن ف خ B002 «şişme ve kabarma» انتفاخ الشيء وامتلاؤه بالريح — word ٱنفُخُوا۟ (5 dictionaries); source: as H1.26 (also H1.26)
+  - evidence: Luna (image): The workers fill the structure with breath and bring it to a fire-state. Swelling air and flame form one image of heat rising through the iron.
+- **L6.11** [judged] ن ف خ B005 «evde hiç kimse olmaması» ما بالدار نافخ ضرمة — word ٱنفُخُوا۟ (1 dictionaries, sole attestation); source: as L4.12 (also L4.12)
+  - evidence: Luna (image): The rare phrase evokes a hearth with no one to tend its embers. The command supplies the missing breath, and the iron becomes fire.
+- surah ayat these members touch (chain material): 18:22 (ج ع ل B007) → 18:25 (ج ع ل B007) → 18:32 (ء ت ي B007) → 18:33 (ء ت ي B007) → 18:45 (ن ف خ B002)
+
+### L7 أُفْرِغْ — 6 roots converge
+Plain sense of أُفْرِغْ: dökerek boşaltma veya akıp dökülme (الصب وإخلاء الوعاء); birine veya işe yönelip kendini ona verme (القصد إلى الأمر)
+- **L7.1** [dictionary] س و ي B004 «bir hedefe yönelip onu amaç edinmek» إقبال وقصد إلى جهة — word سَاوَىٰ (3 dictionaries); source: as H1.12 (also H1.12, L10.2)
+  - evidence: lex/image: وقصد names the plain image of أُفْرِغْ || Luna (same): The leveling and the final pouring are both directed acts. The work moves from shaping the gap toward coating the structure.
+- **L7.2** [dictionary] س و ي B008 «birinin yöneldiği hedefe yönelmek» قصد نحو شخص أو جهة — word سَاوَىٰ (3 dictionaries); source: as H1.13 (also H1.13, L8.10)
+  - evidence: lex/image: قصد names the plain image of أُفْرِغْ || Luna (same): Both words carry a sense of directing oneself toward a goal. The passage moves from leveling toward the commanded pour.
+- **L7.3** [judged] ء ت ي B003 «uygun yoldan ele almak ve elverişli hale gelmek» مأتى الأمر وتهيؤه — word ءَاتُونِىٓ (3 dictionaries); source: as H1.1 (also H1.2)
+  - evidence: Luna (same): The rare sense describes approaching a task fittingly; أُفْرِغْ directs the speaker toward the next action. The command carries preparation into execution.
+- **L7.4** [judged] ء ت ي B004 «su kanalı açmak ve akışı yönlendirmek» مجرى الماء وتسليك سبيله — word ءَاتُونِىٓ (4 dictionaries); source: أت لمائك أي سهل له سبيلا وذلك السبيل الأتي (jamhara)؛ الأتي الجدول يؤتيه الرجل إلى أرضه (sihah)؛ كل جدول ماء أتي (tahdhib)؛ أت لهذا الماء أي سهل جريه (maqayis)؛ الأتي ما وقع في النهر من خشب أو ورق مما يحبس الماء (maqayi…
+  - evidence: Luna (image): The watercourse sense meets the verb of pouring: both open and direct a current. The molten copper becomes a stream guided onto the iron barrier.
+- **L7.5** [judged] ء ت ي B004 «su kanalı açmak ve akışı yönlendirmek» مجرى الماء وتسليك سبيله — word ءَاتُونِى (4 dictionaries); source: as L7.4
+  - evidence: Luna (image): A channel is opened for the material to run through. The copper then pours along a directed course onto the barrier.
+- **L7.6** [judged] ء ت ي B005 «başka bölgeden gelen sel» السيل الآتي من غير البلد — word ءَاتُونِىٓ (5 dictionaries); source: as H1.3 (also H1.3, L2.1, L9.3, L10.1)
+  - evidence: Luna (same): The outside flood and the pouring verb both describe liquid flow. The copper stream becomes a manufactured flood over the iron.
+- **L7.7** [judged] ء ت ي B005 «başka bölgeden gelen sel» السيل الآتي من غير البلد — word ءَاتُونِى (5 dictionaries); source: as H1.3 (also H1.4, L2.2, L11.2, T5)
+  - evidence: Luna (image): The work receives an arriving current and sends it flowing over the barrier. The copper becomes a flood under the pouring command.
+- **L7.8** [judged] ء ت ي B007 «gelişip bol ürün vermek» خروج النماء والنتاج — word ءَاتُونِىٓ (5 dictionaries); source: as L6.2 (also L6.2, T7)
+  - evidence: Luna (complement): The rare yield sense is abundance emerging from a plant; أُفْرِغْ empties or pours material outward. The copper pour becomes a crafted analogue of nature's outp
+- **L7.9** [judged] ء ت ي B011 «felakete uğramak, kaybetmek veya düşmanca ele geçirilmek» إتيان البلاء والهلاك — word ءَاتُونِىٓ (2 dictionaries); source: as H1.5 (also H1.6, L3.3)
+  - evidence: Luna (image): The rare sense of أَتَى can mean death or loss; أُفْرِغْ is to empty or pour out. The pair pictures calamity as an emptying, while the scene's copper is poured 
+- **L7.10** [judged] ء ت ي B012 «dişi devenin çiftleşmek istemesi» استئتاء الناقة — word ءَاتُونِى (1 dictionaries, sole attestation); source: as L6.3
+  - evidence: Luna (image): The rare sense evokes desire seeking fulfillment. The pouring command turns that desire into an image of release, while the verse’s actual material is molten co
+- **L7.11** [judged] ز ب ر B008 «çamurlu balçık veya bulanıklık» الزبير حمأة وكدر — word زُبَرَ (2 dictionaries); source: الزبير الحمأة؛ أي الكدر (jamhara)؛ الزبير الحمأة (tahdhib)
+  - evidence: Luna (image): The command to pour can evoke a stream of muddy sludge. The rare murk-sense gives the flowing sealant a dense, clouded image.
+- **L7.12** [judged] س و ي B009 «geniş ve açık arazi» السِيّ واسع أملس من الأرض — word سَاوَىٰ (4 dictionaries); source: as H1.30 (also H1.30, L9.5)
+  - evidence: Luna (image): Molten copper pours across an imagined broad, smooth surface. The final coating feels like it spreads over an open plane.
+- **L7.13** [judged] ص د ف B001 «yana sapma, yüz çevirme ve başka yöne sevk etme» الميل والإعراض — word ٱلصَّدَفَيْنِ (5 dictionaries); source: as L3.6 (also L3.6)
+  - evidence: Luna (opposite): Turning away and directing oneself toward a task point in opposite directions. The pour is an act of approach, not aversion.
+- **L7.14** [judged] ق ط ر B003 «damlama, damla damla akma» سيلان القطرات — word قِطْرًا (5 dictionaries); source: القطر والقطران مصدر قطر الماء (ayn)؛ القطر المطر والقطر جمع قطرة وقد قطر الماء وغيره (sihah)؛ قطر الماء قطرا وقطرانا (tahdhib)؛ قطر المطر أي سقط وسمي لذلك قطرا (mufradat)؛ القطر قطر الماء وغيره وهذا باب ينقاس لأن معناه …
+  - evidence: Luna (part): The rare sense of قِطْرًا pictures the pour as a succession of drops. The molten sealant reaches the barrier drop by drop as it empties out.
+- **L7.15** [judged] ق و ل B009 «müzakere etme» المقاولة في الأمر — word قَالَ (1 dictionaries, sole attestation); source: as L3.11
+  - evidence: Luna (complement): The spoken negotiation finds its direction in an action: copper is brought and poured onto the wall. The clause turns deliberation about a matter into a concret
+- **L7.16** [judged] ق و ل B012 «içte kalmış söz» قول في النفس لم يظهر — word قَالَ (1 dictionaries, sole attestation); source: as L1.9 (also L1.10)
+  - evidence: Luna (image): The inward word becomes a pouring-out of molten material. What had not appeared in speech now takes visible form on the barrier.
+- **L7.17** [judged] ق و ل B015 «içten önemseme» العناية الصادقة بالشيء — word قَالَ (1 dictionaries, sole attestation); source: للعناية الصادقة بالشيء كقولك فلان يقول بكذا (mufradat)
+  - evidence: Luna (same): The final directive joins sincere concern to deliberate pouring. The metalwork is voiced as a task to which the speaker is committed.
+- **L7.18** [judged] ق و ل B015 «içten önemseme» العناية الصادقة بالشيء — word قَالَ (1 dictionaries, sole attestation); source: as L7.17
+  - evidence: Luna (same): The speaker's sincere care for the work is concentrated in the act of pouring copper over the barrier. Attention becomes a directed, physical task.
+- surah ayat these members touch (chain material): 18:21 (ء ت ي B011) → 18:29 (ء ت ي B004) → 18:32 (ء ت ي B007) → 18:33 (ء ت ي B007) → 18:41 (ء ت ي B004) → 18:45 (ء ت ي B004) → 18:57 (ص د ف B001) → 18:86 (ز ب ر B008)
+
+### L8 ٱلصَّدَفَيْنِ — 6 roots converge
+Plain sense of ٱلصَّدَفَيْنِ: dağ yanı, yüksek dağ kesimi veya yüksek yapı (جانب الجبل والناحية المرتفعة)
+- **L8.1** [dictionary] ق ط ر B001 «yan, yön ve dış bölüm» النواحي والجوانب — word قِطْرًا (5 dictionaries); source: القطر الناحية والأقطار النواحي (ayn)؛ القطر الناحية والجانب والجمع الأقطار (sihah)؛ أقطارها نواحيها واحدها قطر (tahdhib)؛ القطر الجانب وجمعه أقطار (mufradat)؛ فالقطر الناحية والأقطار الجوانب (maqayis)؛ القتر فالجانب وليس من هذا لأنه من الإبدال وهو القطر (maqayis-ibdal)؛ أقطار الفرس ما أشرف منه وأقطار الجبل أعاليه (ayn;tahdhib) (also L9.8)
+  - evidence: lex/src: جانب names the plain image of ٱلصَّدَفَيْنِ || lex/src: جبل names the plain image of ٱلصَّدَفَيْنِ || Luna (same): The rare side-sense of قِطْرًا echoes the two mountain flanks. The pair makes the worksite read through its opposing sides.
+- **L8.2** [dictionary] ق ل ل B002 «bir şeyin tepesi veya başı» قُلَّة الشيء ورأسه — word قَالَ (echo root, sound family only; 4 dictionaries); source: as L2.7 (also L4.9, L13.3)
+  - evidence: lex/src: جبل names the plain image of ٱلصَّدَفَيْنِ || Luna (part): The قُلَّة is a mountain's summit, while ٱلصَّدَفَيْنِ are its two flanks. Leveling between the flanks can be heard as work beneath the high crowns that frame t
+- **L8.3** [dictionary] ق ل ل B002 «bir şeyin tepesi veya başı» قُلَّة الشيء ورأسه — word قَالَ (echo root, sound family only; 4 dictionaries); source: as L2.7 (also L2.7, L13.4)
+  - evidence: lex/src: جبل names the plain image of ٱلصَّدَفَيْنِ || Luna (complement): The cliff sides summon the image of their summit. The rare sense gives the high terrain a top as well as flanks.
+- **L8.4** [judged] ب ي ن B001 «ayrılıp kopma» انفصال الشيء وافتراقه — word بَيْنَ (5 dictionaries); source: as L3.4 (also L3.4)
+  - evidence: Luna (image): The two cliff faces mark the sides of a break in the terrain. Their separation gives the intervening gap its shape.
+- **L8.5** [judged] ب ي ن B011 «iki arada kalmış hal» حالة متوسطة بين طرفين — word بَيْنَ (1 dictionaries, sole attestation); source: as L3.5 (also L3.5, L6.5)
+  - evidence: Luna (image): The two cliff faces form the endpoints of an in-between state. The pass becomes the middle ground between them.
+- **L8.6** [judged] ح د د B003 «karşı çıkma ve direnme» المحادة والمخالفة — word ٱلْحَدِيدِ (4 dictionaries); source: المحادة المخالفة فكأنه الممانعة (maqayis)؛ المحادة المخالفة ومنع ما يجب عليك وكذلك التحاد (sihah)؛ حاددته أي عاصيته (tahdhib)؛ يقال تحدد بهم أي تحرش بهم (tahdhib)؛ يحادون الله ورسوله أي يمانعون (mufradat)
+  - evidence: Luna (image): The rare resistance-sense meets two mountain faces set opposite each other. Their opposed sides make the pass feel like a place of confrontation.
+- **L8.7** [judged] س و ي B002 «kendi içinde düzgün ve tam duruma gelme» استقامة وتمام في الذات — word سَاوَىٰ (5 dictionaries); source: سويت الشيء فاستوى (ayn;sihah)؛ استوى من اعوجاج (sihah;tahdhib)؛ السوي الذي سوى الله خلقه لا دمامة فيه ولا داء (ayn)؛ السوي فعيل في معنى مفتعل أي مستو (tahdhib)؛ السوي يقال فيما يصان عن الإفراط والتفريط (mufradat)؛ أولاد…
+  - evidence: Luna (image): The pass is closed as a balanced, intact whole. The two faces become the frame for that completeness.
+- **L8.8** [judged] س و ي B003 «üzerine çıkıp yerleşmek veya egemen olmak» علو واستقرار على شيء — word سَاوَىٰ (3 dictionaries); source: as H1.11 (also H1.11, L1.5)
+  - evidence: Luna (image): The structure is seated against the raised sides of the pass. The verb’s leveling carries an image of a construction settling into its high setting.
+- **L8.9** [judged] س و ي B007 «başka ve ayrı olan» مباينة وكون الشيء غيره — word سَاوَىٰ (5 dictionaries); source: سوى مقصور إذا كان في موضع غير (ayn)؛ سواء الشيء غيره (sihah;tahdhib)؛ مررت برجل سواك أي غيرك (sihah)؛ هذا سوى ذلك أي غيره (maqayis)؛ يستعمل سوى وسواء بمعنى غير (mufradat)؛ عندي رجل سواك أي مكانك وبدلك (mufradat) (also L9.4)
+  - evidence: Luna (complement): The two cliff faces stand as distinct sides of the pass. Their difference frames the space being leveled.
+- **L8.10** [judged] س و ي B008 «birinin yöneldiği hedefe yönelmek» قصد نحو شخص أو جهة — word سَاوَىٰ (3 dictionaries); source: as H1.13 (also H1.13, L7.2)
+  - evidence: Luna (complement): The cliff faces are the target of the leveling. The work is directed across them to close the pass.
+- **L8.11** [judged] ن ف خ B003 «yükselip belirginleşme» علو الشيء وربو الأرض — word ٱنفُخُوا۟ (4 dictionaries); source: as L3.14 (also L3.14)
+  - evidence: Luna (same): The blowing rises between two elevated cliff faces. The rare sense repeats the height already named by the sides of the pass.
+- surah ayat these members touch (chain material): 18:45 (ق ل ل B002) → 18:47 (ق ط ر B001, ق ل ل B002) → 18:55 (ح د د B003) → 18:74 (س و ي B007) → 18:78 (ب ي ن B001)
+
+### L9 بَيْنَ — 5 roots converge
+Plain sense of بَيْنَ: arada olma (الخلالة والوسط بين شيئين); arayı bağlayan ilişki (الوصلة القائمة بين الأطراف)
+- **L9.1** [dictionary] س و ي B006 «iki yanın ortasında ve ikisine karşı yansız olma» وسط وعدل ومكان منصف — word سَاوَىٰ (5 dictionaries); source: السواء ممدود وسط كل شيء (ayn)؛ مكانا سوى أي معلما قد علم القوم به (ayn;maqayis)؛ مكان سوى أي عدل ووسط (sihah)؛ السواء وسط الدار وغيرها (maqayis)؛ سواء بمعنى العدل والنصفة (tahdhib)؛ كلمة سواء أي عدل (tahdhib;mufradat)؛ في سواء الجحيم (maqayis;mufradat)
+  - evidence: lex/image: وسط names the plain image of بَيْنَ || Luna (same): The leveling occupies the very middle between the two faces. Both words converge on centrality.
+- **L9.2** [judged] ء ت ي B001 «gelmek, ulaşmak» الإتيان والمجيء — word ءَاتُونِىٓ (5 dictionaries); source: أتى يأتي أتيا (jamhara)؛ الإتيان المجئ (sihah)؛ أتاني فلان إتيانا وأتيا وأتية وأتوة (tahdhib;maqayis)؛ الإتيان مجيء بسهولة (mufradat)
+  - evidence: Luna (complement): The rare sense of coming can end in the between-space. The gap becomes a destination for arriving material.
+- **L9.3** [judged] ء ت ي B005 «başka bölgeden gelen sel» السيل الآتي من غير البلد — word ءَاتُونِىٓ (5 dictionaries); source: as H1.3 (also H1.3, L2.1, L7.6, L10.1)
+  - evidence: Luna (image): A flood from another region runs through a between-space. بَيْنَ turns the current into an image of a pass filling from outside.
+- **L9.4** [judged] س و ي B007 «başka ve ayrı olan» مباينة وكون الشيء غيره — word سَاوَىٰ (5 dictionaries); source: as L8.9 (also L8.9)
+  - evidence: Luna (image): The interval takes shape as the space separating distinct sides. Their difference gives the gap its form.
+- **L9.5** [judged] س و ي B009 «geniş ve açık arazi» السِيّ واسع أملس من الأرض — word سَاوَىٰ (4 dictionaries); source: as H1.30 (also H1.30, L7.12)
+  - evidence: Luna (image): The interval between the cliffs opens as a broad, smooth tract. The gap feels like level ground.
+- **L9.6** [judged] ص د ف B004 «birine rastlamak veya onu bulmak» المصادفة واللقاء — word ٱلصَّدَفَيْنِ (3 dictionaries); source: as L3.7 (also L3.7)
+  - evidence: Luna (image): The interval between the faces becomes the place where they meet. The gap is framed as a point of encounter.
+- **L9.7** [judged] ص د ف B005 «su yalağında içen sürünün arkasında sıra bekleyen develer» الإبل الصوادف عند الحوض — word ٱلصَّدَفَيْنِ (2 dictionaries); source: as H1.15 (also H1.15)
+  - evidence: Luna (image): The rare image places camels waiting behind others at a watering place. بَيْنَ gives that queue its spaces and relations.
+- **L9.8** [judged] ق ط ر B001 «yan, yön ve dış bölüm» النواحي والجوانب — word قِطْرًا (5 dictionaries); source: as L8.1 (also L8.1)
+  - evidence: Luna (complement): The side-sense of قِطْرًا meets the between-space named by بَيْنَ. Together they make the gap a bounded place for the metal to fill.
+- **L9.9** [judged] ق و ل B002 «konuşma organı» اللسان آلة القول — word قَالَ (3 dictionaries); source: as L1.8
+  - evidence: Luna (part): The tongue is the instrument that gives clarification by speech. The rare sense names the tool behind the meaning-making act.
+- **L9.10** [judged] ق و ل B014 «durumuyla belli etme» قول الشيء دلالته — word قَالَ (1 dictionaries, sole attestation); source: as H1.24 (also H1.25)
+  - evidence: Luna (image): An indication connects what appears to what it signifies. بَيْنَ gives that link a spatial form between the two sides.
+- **L9.11** [judged] ق و ل B016 «teknik tanım» قول الشيء حده — word قَالَ (1 dictionaries, sole attestation); source: as H1.32 (also H1.32, L5.1)
+  - evidence: Luna (image): A definition draws a distinction; بَيْنَ gives the interval between the two sides a physical form. The pass becomes a defined boundary in the landscape.
+- **L9.12** [judged] ق و ل B016 «teknik tanım» قول الشيء حده — word قَالَ (1 dictionaries, sole attestation); source: as H1.32 (also L5.2)
+  - evidence: Luna (complement): The in-between space is defined by its edges. The work fills the interval between the two sides with a new boundary.
+- surah ayat these members touch (chain material): 18:24 (ص د ف B005) → 18:28 (ص د ف B004) → 18:47 (ق ط ر B001) → 18:63 (ص د ف B004) → 18:74 (ء ت ي B001, س و ي B007) → 18:79 (ص د ف B004) → 18:81 (ص د ف B005) → 18:98 (ء ت ي B001) → 18:105 (ص د ف B004) → 18:109 (ء ت ي B001, ص د ف B004) → 18:110 (ص د ف B004)
+
+### L10 ءَاتُونِى — 3 roots converge
+Plain sense of ءَاتُونِى: vermek; getirip sunmak (الإيتاء والإعطاء)
+- **L10.1** [judged] ء ت ي B005 «başka bölgeden gelen sel» السيل الآتي من غير البلد — word ءَاتُونِىٓ (5 dictionaries); source: as H1.3 (also H1.3, L2.1, L7.6, L9.3)
+  - evidence: Luna (image): A flood arriving from another region meets the command to bring iron from elsewhere. Both senses move an outside supply toward the worksite.
+- **L10.2** [judged] س و ي B004 «bir hedefe yönelip onu amaç edinmek» إقبال وقصد إلى جهة — word سَاوَىٰ (3 dictionaries); source: as H1.12 (also H1.12, L7.1)
+  - evidence: Luna (complement): The iron is brought toward the speaker, and the work has a destination. The leveling reads as directed toward that goal.
+- **L10.3** [judged] ق و ل B006 «sözü üzerine alma» اجترار القول إلى النفس — word قَالَ (1 dictionaries, sole attestation); source: as L4.10 (also L4.10, L11.3, T4)
+  - evidence: Luna (image): The rare sense of قَالَ draws words into oneself, while ءَاتُونِى asks others to bring something to the speaker. Both turns gather something toward the self.
+
+### L11 ءَاتُونِىٓ — 3 roots converge
+Plain sense of ءَاتُونِىٓ: vermek; getirip sunmak (الإيتاء والإعطاء)
+- **L11.1** [dictionary] ج ع ل B009 «dişinin çiftleşmek için erkeği istemesi» اشتهاء الأنثى للفحل — word جَعَلَهُۥ (3 dictionaries); source: كلبة مجعل إذا أرادت السفاد (maqayis)؛ أجعلت الكبة واستجعلت فهي مجعل إذا أرادت السفاد وكذلك سائر السباع (sihah)؛ أجعلت الكلبة والسباع كلها إذا اشتهت الفحل؛ استجعلت أيضا بمعناه (tahdhib)
+  - evidence: rel/near_synonym: ء ت ي B012 (dişi devenin erkeği istemesi)
+- **L11.2** [judged] ء ت ي B005 «başka bölgeden gelen sel» السيل الآتي من غير البلد — word ءَاتُونِى (5 dictionaries); source: as H1.3 (also H1.4, L2.2, L7.7, T5)
+  - evidence: Luna (same): The first supply brings iron; the later supply brings copper. The rare image of an incoming flood gathers force in the repeated command to bring material.
+- **L11.3** [judged] ق و ل B006 «sözü üzerine alma» اجترار القول إلى النفس — word قَالَ (1 dictionaries, sole attestation); source: as L4.10 (also L4.10, L10.3, T4)
+  - evidence: Luna (image): The rare sense of قَالَ takes words toward oneself; the repeated ءَاتُونِىٓ asks for copper to be brought to the speaker. The second command makes the image of 
+- surah ayat these members touch (chain material): 18:53 (ج ع ل B009) → 18:54 (ج ع ل B009) → 18:65 (ج ع ل B009) → 18:77 (ج ع ل B009) → 18:84 (ج ع ل B009)
+
+### L12 قَالَ — 3 roots converge
+Plain sense of قَالَ: söze dökme (إخراج القول بالنطق); sözü geçen yönetici unvanı (القيل صاحب القول النافذ)
+- **L12.1** [dictionary] ن ف خ B006 «kibirli ve böbürlenen kişi» انتفاخ الفخر والكبر — word ٱنفُخُوا۟ (1 dictionaries, sole attestation); source: as L4.1 (also L4.1)
+  - evidence: lex/src: صاحب names the plain image of قَالَ
+- **L12.2** [judged] ب ي ن B005 «anlamı açıkça ortaya koyma» كشف المعنى بالقول أو العلامة — word بَيْنَ (4 dictionaries); source: as L4.5 (also L4.5)
+  - evidence: Luna (same): The final speech makes the instruction plain. Its utterance carries the intended meaning into the open.
+- **L12.3** [judged] ق ل ل B001 «azlık» القِلَّة والضآلة — word قَالَ (echo root, sound family only; 4 dictionaries); source: as L4.8
+  - evidence: Luna (sound): The repeated command is brief, and the sound of قَالَ answers the nearby sense of smallness. The utterance itself feels compact.
+- surah ayat these members touch (chain material): 18:34 (ن ف خ B006) → 18:37 (ن ف خ B006) → 18:86 (ب ي ن B005) → 18:90 (ب ي ن B005) → 18:93 (ب ي ن B005)
+
+### L13 زُبَرَ — 3 roots converge
+Plain sense of زُبَرَ: sağlamlaştırıp sıkıca tutturma (إحكام الشيء وطي البئر بالحجارة); toplanmış iri parça ya da yoğun kütle (الزبرة قطعة مجتمعة أو كتلة)
+- **L13.1** [dictionary] ب ي ن B006 «geniş uzaklık» بعد المسافة واتساع الفجوة — word بَيْنَ (3 dictionaries); source: as L2.3 (also L2.3)
+  - evidence: lex/src: بير names the plain image of زُبَرَ || Luna (image): The iron pieces are assembled across a broad gap. The material answers the distance it must span.
+- **L13.2** [dictionary] ب ي ن B007 «göz erimindeki arazi parçası» قطعة أرض تمتد في النظر — word بَيْنَ (3 dictionaries); source: as L3.1 (also L3.1, L5.6)
+  - evidence: lex/image: قطعا names the plain image of زُبَرَ || Luna (part): Each iron block is a segment laid along a stretch visible to the eye. The pieces compose the tract they cross.
+- **L13.3** [dictionary] ق ل ل B002 «bir şeyin tepesi veya başı» قُلَّة الشيء ورأسه — word قَالَ (echo root, sound family only; 4 dictionaries); source: as L2.7 (also L4.9, L8.2)
+  - evidence: lex/src: قطعا names the plain image of زُبَرَ
+- **L13.4** [dictionary] ق ل ل B002 «bir şeyin tepesi veya başı» قُلَّة الشيء ورأسه — word قَالَ (echo root, sound family only; 4 dictionaries); source: as L2.7 (also L2.7, L8.3)
+  - evidence: lex/src: قطعا names the plain image of زُبَرَ
+- **L13.5** [judged] ح د د B002 «engelleme ve geri çevirme» المنع والصرف والحظر — word ٱلْحَدِيدِ (4 dictionaries); source: الأصل الأول المنع (maqayis)؛ للبواب حداد لمنعه الناس (maqayis;sihah;tahdhib;mufradat)؛ السجان حداد لأنه يمنع من الخروج (sihah;tahdhib)؛ محدود ممنوع من البخت أو الرزق (maqayis;sihah;mufradat)؛ حد العاصي لأنه يمنعه عن الم…
+  - evidence: Luna (same): The iron barrier physically blocks passage, echoing the rare sense of prohibition. The two words make the wall’s material and its function reinforce one another
+- **L13.6** [judged] ح د د B008 «demir araç kullanma, tıraş etme ve bileme» الاستحداد بالحديد — word ٱلْحَدِيدِ (3 dictionaries); source: الاستحداد استعمال الحديد (maqayis)؛ تحديد الشفرة وإحدادها واستحدادها بمعنى (sihah)؛ الاستحداد أيضا حلق شعر العانة (sihah)؛ الاستحداد حلق العانة (tahdhib)؛ استحد الرجل إذا أحد شفرة بحديدة وغيرها (tahdhib)
+  - evidence: Luna (part): The iron blocks are the raw material from which iron tools can be made. The rare tool-use sense makes the supplied mass one stage in an object’s working.
+- surah ayat these members touch (chain material): 18:17 (ب ي ن B006) → 18:45 (ق ل ل B002) → 18:47 (ق ل ل B002) → 18:55 (ح د د B002)
+
+### 4. The Fatiha [F] (standing lens: recited in every prayer)
+
+### 1:1 ﻿بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- **F1** ء ت ي B005 «başka bölgeden gelen sel» السيل الآتي من غير البلد — word ءَاتُونِى (5 dictionaries); source: الأتي السيل بعينه يأتيك من بلد مطر من غير بلدك (jamhara)؛ سيل أتي وأتاوي إذا جاءك ولم يصبك مطره (sihah)؛ المسيل الذي يأتي من بلد قد مطر فيه إلى بلد لم يمطر فيه أتي (tahdhib)؛ السيل المار على وجهه أتي وأتاوي (mufradat)؛ … (also H1.4, L2.2, L7.7, L11.2, T5) — img/fatiha: fatiha: و س م B003 مطر أول يسم الأرض بالنبات ← بِسْمِ
+- **F2** ء ت ي B005 «başka bölgeden gelen sel» السيل الآتي من غير البلد — word ءَاتُونِىٓ (5 dictionaries); source: الأتي السيل بعينه يأتيك من بلد مطر من غير بلدك (jamhara)؛ سيل أتي وأتاوي إذا جاءك ولم يصبك مطره (sihah)؛ المسيل الذي يأتي من بلد قد مطر فيه إلى بلد لم يمطر فيه أتي (tahdhib)؛ السيل المار على وجهه أتي وأتاوي (mufradat)؛ … (also H1.3, L2.1, L7.6, L9.3, L10.1) — img/fatiha: fatiha: و س م B003 مطر أول يسم الأرض بالنبات ← بِسْمِ
+- **F3** ء ت ي B012 «dişi devenin çiftleşmek istemesi» استئتاء الناقة — word ءَاتُونِى (1 dictionaries, sole attestation); source: استأتت الناقة استئتاء مهموز أي ضبعت وأرادت الفحل (sihah) (also L7.10) — img/fatiha: fatiha: س م و B003 تطاول الفحل على الشول ← بِسْمِ
+- **F4** ء ت ي B012 «dişi devenin çiftleşmek istemesi» استئتاء الناقة — word ءَاتُونِىٓ (1 dictionaries, sole attestation); source: استأتت الناقة استئتاء مهموز أي ضبعت وأرادت الفحل (sihah) (also L6.3, T3) — img/fatiha: fatiha: س م و B003 تطاول الفحل على الشول ← بِسْمِ
+- **F5** ب ي ن B004 «açığa çıkıp belirginleşme» ظهور الشيء وانكشافه — word بَيْنَ (4 dictionaries); source: بان الشيء وأبان إذا اتضح وانكشف (maqayis)؛ البيان معروف وبان الشيء وأبان وتبين وبين واستبان (ayn)؛ بان الشيء بيانا اتضح فهو بين (sihah)؛ البينة الدلالة الواضحة (mufradat) (also L4.4, L6.4) — img/fatiha: fatiha: س م و B005 الاسم تنويه ودلالة ← بِسْمِ
+- **F6** ج ع ل B009 «dişinin çiftleşmek için erkeği istemesi» اشتهاء الأنثى للفحل — word جَعَلَهُۥ (3 dictionaries); source: كلبة مجعل إذا أرادت السفاد (maqayis)؛ أجعلت الكبة واستجعلت فهي مجعل إذا أرادت السفاد وكذلك سائر السباع (sihah)؛ أجعلت الكلبة والسباع كلها إذا اشتهت الفحل؛ استجعلت أيضا بمعناه (tahdhib) (also L11.1) — img/fatiha: fatiha: س م و B003 تطاول الفحل على الشول ← بِسْمِ
+### 1:2 ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+- **F7** ن و ر B005 «yol gösteren belirgin işaret ve yüksek yapı» المنار والمنارة الظاهرة — word نَارًا (3 dictionaries); source: المنارة مفعلة من الإنارة؛ كانوا ينورون في الجاهلية ليهتدى ويقتدى بها؛ المنارة الشمعة ذات السراج؛ المنارة ما يوضع عليه للمسرجة؛ المنارة للمؤذن (ayn)؛ المنار: علم الطريق؛ ضرب المنار على طريقه ليهتدى بها؛ المنارة التي يؤذن… (also H1.28) — rel/near_synonym: ع ل م B002 (yol ve sınır işaretleri) → ٱلْعَٰلَمِينَ
+- **F8** ح د د B002 «engelleme ve geri çevirme» المنع والصرف والحظر — word ٱلْحَدِيدِ (4 dictionaries); source: الأصل الأول المنع (maqayis)؛ للبواب حداد لمنعه الناس (maqayis;sihah;tahdhib;mufradat)؛ السجان حداد لأنه يمنع من الخروج (sihah;tahdhib)؛ محدود ممنوع من البخت أو الرزق (maqayis;sihah;mufradat)؛ حد العاصي لأنه يمنعه عن الم… (also L13.5) — img/fatiha: fatiha: ع ل م B001 انكشاف الشيء للعارف ← ٱلْعَٰلَمِينَ
+- **F9** ح د د B007 «eş için süsten kaçınarak yas tutma» إحداد المرأة وترك الزينة — word ٱلْحَدِيدِ (3 dictionaries); source: حدت المرأة على بعلها وأحدت إذا منعت نفسها الزينة والخضاب (maqayis)؛ أحدت المرأة امتنعت من الزينة والخضاب بعد وفاة زوجها (sihah)؛ حدت أربعة أشهر وعشرا (tahdhib)؛ إحداد المرأة على زوجها تركها الزينة مأخوذ من المنع (tahdhi… (also H1.8) — img/fatiha: fatiha: ر ب ب B005 ربيب وربيبة ورابة ← رَبِّ
+- **F10** ء ت ي B001 «gelmek, ulaşmak» الإتيان والمجيء — word ءَاتُونِىٓ (5 dictionaries); source: أتى يأتي أتيا (jamhara)؛ الإتيان المجئ (sihah)؛ أتاني فلان إتيانا وأتيا وأتية وأتوة (tahdhib;maqayis)؛ الإتيان مجيء بسهولة (mufradat) (also L9.2) — img/fatiha: fatiha: ع ل م B001 انكشاف الشيء للعارف ← ٱلْعَٰلَمِينَ
+- **F11** ء ت ي B003 «uygun yoldan ele almak ve elverişli hale gelmek» مأتى الأمر وتهيؤه — word ءَاتُونِى (3 dictionaries); source: أتيت الأمر من مأتاته (sihah;maqayis)؛ آتيته على ذلك الأمر مواتاة إذا وافقته وطاوعته (sihah)؛ آتيت فلانا على أمره مؤاتاة وهو حسن المطاوعة (maqayis)؛ تأتى له الشيء أي تهيأ (sihah)؛ تأتى فلان لحاجته إذا ترفق لها (tahdhib) (also H1.1) — img/fatiha: fatiha: ح م د B002 وجود الشيء محمودا ← ٱلْحَمْدُ
+- **F12** ء ت ي B003 «uygun yoldan ele almak ve elverişli hale gelmek» مأتى الأمر وتهيؤه — word ءَاتُونِىٓ (3 dictionaries); source: أتيت الأمر من مأتاته (sihah;maqayis)؛ آتيته على ذلك الأمر مواتاة إذا وافقته وطاوعته (sihah)؛ آتيت فلانا على أمره مؤاتاة وهو حسن المطاوعة (maqayis)؛ تأتى له الشيء أي تهيأ (sihah)؛ تأتى فلان لحاجته إذا ترفق لها (tahdhib) (also H1.2, L7.3) — img/fatiha: fatiha: ح م د B002 وجود الشيء محمودا ← ٱلْحَمْدُ
+### 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+### 1:4 مَٰلِكِ يَوْمِ ٱلدِّينِ
+- **F13** ز ب ر B001 «sağlamlaştırıp sıkıca tutturma» إحكام الشيء وطي البئر بالحجارة — word زُبَرَ (5 dictionaries); source: أصل يدل على إحكام الشيء وتوثيقه؛ زبرت البئر إذا طويتها بالحجارة (maqayis)؛ الزبر طي البئر تقول زبرتها أي طويتها (ayn)؛ زبرت البئر إذا طويتها بالحجارة؛ لا زبر له أي ليس له ما يعتمد عليه (jamhara)؛ الزبر طي البئر بالحجارة… — rel/near_neighbor: م ل ك B001 (güç ve tutarlılık) → مَٰلِكِ
+- **F14** ح د د B002 «engelleme ve geri çevirme» المنع والصرف والحظر — word ٱلْحَدِيدِ (4 dictionaries); source: الأصل الأول المنع (maqayis)؛ للبواب حداد لمنعه الناس (maqayis;sihah;tahdhib;mufradat)؛ السجان حداد لأنه يمنع من الخروج (sihah;tahdhib)؛ محدود ممنوع من البخت أو الرزق (maqayis;sihah;mufradat)؛ حد العاصي لأنه يمنعه عن الم… (also L13.5, F8) — img/fatiha: fatiha: ي و م B003 كائنة اليوم وشدته ← يَوْمِ
+- **F15** ح د د B005 «keskin ağız ve nüfuz eden etki» الطرف الحاد والنفاذ — word ٱلْحَدِيدِ (4 dictionaries); source: الأصل الآخر طرف الشيء (maqayis)؛ حد السيف وهو حرفه وحد السكين (maqayis)؛ حد كل شيء شباته (sihah;tahdhib)؛ حد السنان وحد السيف ما دق من شفرته (tahdhib)؛ سيوف حداد وألسنة حداد (sihah;mufradat)؛ بصرك اليوم حديد وحديد النظر… (also L4.6) — img/fatiha: fatiha: ي و م B003 كائنة اليوم وشدته ← يَوْمِ
+- **F16** ح د د B008 «demir araç kullanma, tıraş etme ve bileme» الاستحداد بالحديد — word ٱلْحَدِيدِ (3 dictionaries); source: الاستحداد استعمال الحديد (maqayis)؛ تحديد الشفرة وإحدادها واستحدادها بمعنى (sihah)؛ الاستحداد أيضا حلق شعر العانة (sihah)؛ الاستحداد حلق العانة (tahdhib)؛ استحد الرجل إذا أحد شفرة بحديدة وغيرها (tahdhib) (also L13.6) — img/fatiha: fatiha: ي و م B002 مدة من الزمان ← يَوْمِ
+- **F17** ء ت ي B001 «gelmek, ulaşmak» الإتيان والمجيء — word ءَاتُونِىٓ (5 dictionaries); source: أتى يأتي أتيا (jamhara)؛ الإتيان المجئ (sihah)؛ أتاني فلان إتيانا وأتيا وأتية وأتوة (tahdhib;maqayis)؛ الإتيان مجيء بسهولة (mufradat) (also L9.2, F10) — img/fatiha: fatiha: ي و م B003 كائنة اليوم وشدته ← يَوْمِ || img/fatiha: fatiha: د ي ن B005 العادة والشأن ← ٱلدِّينِ
+- **F18** ء ت ي B004 «su kanalı açmak ve akışı yönlendirmek» مجرى الماء وتسليك سبيله — word ءَاتُونِى (4 dictionaries); source: أت لمائك أي سهل له سبيلا وذلك السبيل الأتي (jamhara)؛ الأتي الجدول يؤتيه الرجل إلى أرضه (sihah)؛ كل جدول ماء أتي (tahdhib)؛ أت لهذا الماء أي سهل جريه (maqayis)؛ الأتي ما وقع في النهر من خشب أو ورق مما يحبس الماء (maqayi… (also L7.5) — img/fatiha: fatiha: م ل ك B007 الماء مَلَك الأمر ← مَٰلِكِ
+### 1:5 إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
+- **F19** ب ي ن B011 «iki arada kalmış hal» حالة متوسطة بين طرفين — word بَيْنَ (1 dictionaries, sole attestation); source: هذا الشيء بين بين أي بين الجيد والرديء (sihah)؛ الهمزة المخففة تسمى بين بين (sihah)؛ يسقط بين بينا أي يتساقط ضعيفا غير معتد به (sihah) (also L3.5, L6.5, L8.5) — rel/near_neighbor: ع و ن B002 (orta yaşlı) → نَسْتَعِينُ
+- **F20** ح د د B003 «karşı çıkma ve direnme» المحادة والمخالفة — word ٱلْحَدِيدِ (4 dictionaries); source: المحادة المخالفة فكأنه الممانعة (maqayis)؛ المحادة المخالفة ومنع ما يجب عليك وكذلك التحاد (sihah)؛ حاددته أي عاصيته (tahdhib)؛ يقال تحدد بهم أي تحرش بهم (tahdhib)؛ يحادون الله ورسوله أي يمانعون (mufradat) (also L8.6) — img/fatiha: fatiha: ع ب د B008 الأنفة والغضب ← نَعْبُدُ
+- **F21** ح د د B006 «sertlik, atılgan güç ve öfkeli taşkınlık» حدة البأس والشراب والغضب — word ٱلْحَدِيدِ (3 dictionaries); source: حد الشراب صلابته (maqayis;sihah;tahdhib)؛ حد الرجل بأسه (maqayis;sihah;tahdhib)؛ الحدة التي تعتري الإنسان من النزق (maqayis;sihah)؛ الحدة الغضبة (tahdhib)؛ حد يحد إذا أخذته عجلة وطيش (tahdhib) (also L2.4) — img/fatiha: fatiha: ع ب د B008 الأنفة والغضب ← نَعْبُدُ
+- **F22** ح د د B007 «eş için süsten kaçınarak yas tutma» إحداد المرأة وترك الزينة — word ٱلْحَدِيدِ (3 dictionaries); source: حدت المرأة على بعلها وأحدت إذا منعت نفسها الزينة والخضاب (maqayis)؛ أحدت المرأة امتنعت من الزينة والخضاب بعد وفاة زوجها (sihah)؛ حدت أربعة أشهر وعشرا (tahdhib)؛ إحداد المرأة على زوجها تركها الزينة مأخوذ من المنع (tahdhi… (also H1.8, F9) — img/fatiha: fatiha: ع ب د B007 القوة والصلابة ← نَعْبُدُ
+- **F23** ح د د B008 «demir araç kullanma, tıraş etme ve bileme» الاستحداد بالحديد — word ٱلْحَدِيدِ (3 dictionaries); source: الاستحداد استعمال الحديد (maqayis)؛ تحديد الشفرة وإحدادها واستحدادها بمعنى (sihah)؛ الاستحداد أيضا حلق شعر العانة (sihah)؛ الاستحداد حلق العانة (tahdhib)؛ استحد الرجل إذا أحد شفرة بحديدة وغيرها (tahdhib) (also L13.6, F16) — img/fatiha: fatiha: ع و ن B007 عانة الرجل ← نَسْتَعِينُ
+- **F24** ء ت ي B007 «gelişip bol ürün vermek» خروج النماء والنتاج — word ءَاتُونِىٓ (5 dictionaries); source: أتاء هذا النخل أي ثمره وكذلك الزرع (jamhara)؛ الاتاء البركة والنماء وحمل النخل (sihah)؛ جاء أتوه (sihah;mufradat)؛ إتاء النخلة ريعها وزكاؤها وكثرة ثمارها (tahdhib)؛ الإتاء نماء الزرع والنخل وأتى الماء إتاء أي كثر (maqay… (also L6.2, L7.8, T7) — img/fatiha: fatiha: ع و ن B004 النخلة العَوانة القديمة ← نَسْتَعِينُ
+### 1:6 ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
+- **F25** ح د د B003 «karşı çıkma ve direnme» المحادة والمخالفة — word ٱلْحَدِيدِ (4 dictionaries); source: المحادة المخالفة فكأنه الممانعة (maqayis)؛ المحادة المخالفة ومنع ما يجب عليك وكذلك التحاد (sihah)؛ حاددته أي عاصيته (tahdhib)؛ يقال تحدد بهم أي تحرش بهم (tahdhib)؛ يحادون الله ورسوله أي يمانعون (mufradat) (also L8.6, F20) — img/fatiha: fatiha: ق و م B014 مقاومة ومنازلة ← ٱلْمُسْتَقِيمَ
+- **F26** ح د د B005 «keskin ağız ve nüfuz eden etki» الطرف الحاد والنفاذ — word ٱلْحَدِيدِ (4 dictionaries); source: الأصل الآخر طرف الشيء (maqayis)؛ حد السيف وهو حرفه وحد السكين (maqayis)؛ حد كل شيء شباته (sihah;tahdhib)؛ حد السنان وحد السيف ما دق من شفرته (tahdhib)؛ سيوف حداد وألسنة حداد (sihah;mufradat)؛ بصرك اليوم حديد وحديد النظر… (also L4.6, F15) — img/fatiha: fatiha: ص ر ط B003 السيف القاطع الماضي في الضربة ← ٱلصِّرَٰطَ || img/fatiha: fatiha: ق و م B012 آلة قائمة وجزء قائم ← ٱلْمُسْتَقِيمَ
+- **F27** ح د د B007 «eş için süsten kaçınarak yas tutma» إحداد المرأة وترك الزينة — word ٱلْحَدِيدِ (3 dictionaries); source: حدت المرأة على بعلها وأحدت إذا منعت نفسها الزينة والخضاب (maqayis)؛ أحدت المرأة امتنعت من الزينة والخضاب بعد وفاة زوجها (sihah)؛ حدت أربعة أشهر وعشرا (tahdhib)؛ إحداد المرأة على زوجها تركها الزينة مأخوذ من المنع (tahdhi… (also H1.8, F9, F22) — img/fatiha: fatiha: ه د ي B006 العروس المهدية إلى زوجها ← ٱهْدِنَا
+- **F28** ء ت ي B003 «uygun yoldan ele almak ve elverişli hale gelmek» مأتى الأمر وتهيؤه — word ءَاتُونِى (3 dictionaries); source: أتيت الأمر من مأتاته (sihah;maqayis)؛ آتيته على ذلك الأمر مواتاة إذا وافقته وطاوعته (sihah)؛ آتيت فلانا على أمره مؤاتاة وهو حسن المطاوعة (maqayis)؛ تأتى له الشيء أي تهيأ (sihah)؛ تأتى فلان لحاجته إذا ترفق لها (tahdhib) (also H1.1, F11) — img/fatiha: fatiha: ه د ي B002 جهة الأمر وسيرته وقصده ← ٱهْدِنَا
+- **F29** ء ت ي B003 «uygun yoldan ele almak ve elverişli hale gelmek» مأتى الأمر وتهيؤه — word ءَاتُونِىٓ (3 dictionaries); source: أتيت الأمر من مأتاته (sihah;maqayis)؛ آتيته على ذلك الأمر مواتاة إذا وافقته وطاوعته (sihah)؛ آتيت فلانا على أمره مؤاتاة وهو حسن المطاوعة (maqayis)؛ تأتى له الشيء أي تهيأ (sihah)؛ تأتى فلان لحاجته إذا ترفق لها (tahdhib) (also H1.2, L7.3, F12) — img/fatiha: fatiha: ه د ي B002 جهة الأمر وسيرته وقصده ← ٱهْدِنَا
+- **F30** ء ت ي B005 «başka bölgeden gelen sel» السيل الآتي من غير البلد — word ءَاتُونِى (5 dictionaries); source: الأتي السيل بعينه يأتيك من بلد مطر من غير بلدك (jamhara)؛ سيل أتي وأتاوي إذا جاءك ولم يصبك مطره (sihah)؛ المسيل الذي يأتي من بلد قد مطر فيه إلى بلد لم يمطر فيه أتي (tahdhib)؛ السيل المار على وجهه أتي وأتاوي (mufradat)؛ … (also H1.4, L2.2, L7.7, L11.2, T5, F1) — img/fatiha: fatiha: ه د ي B007 هدي الحرمة والأسير ← ٱهْدِنَا
+### 1:7 صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ
+- **F31** س و ي B007 «başka ve ayrı olan» مباينة وكون الشيء غيره — word سَاوَىٰ (5 dictionaries); source: سوى مقصور إذا كان في موضع غير (ayn)؛ سواء الشيء غيره (sihah;tahdhib)؛ مررت برجل سواك أي غيرك (sihah)؛ هذا سوى ذلك أي غيره (maqayis)؛ يستعمل سوى وسواء بمعنى غير (mufradat)؛ عندي رجل سواك أي مكانك وبدلك (mufradat) (also L8.9, L9.4) — rel/near_synonym: غ ي ر B005 (başkalık ve dışarıda bırakma) → غَيْرِ
+- **F32** ق ل ل B001 «azlık» القِلَّة والضآلة — word قَالَ (echo root, sound family only; 4 dictionaries); source: القل القليل؛ رماه الله بالقل والذل أي بالقلة والذلة (jamhara)؛ شيء قليل وجمعه قلل؛ قل الشيء يقل قلة؛ قلله في عينه؛ أقل افتقر؛ استقله عده قليلا (sihah)؛ قل الشيء يقل قلة فهو قليل وقلال؛ القل من الرجال الخسيس الدنيء؛ قليل… (also L4.8) — lex/image: ضالا → ٱلضَّآلِّينَ
+- **F33** ق ل ل B001 «azlık» القِلَّة والضآلة — word قَالَ (echo root, sound family only; 4 dictionaries); source: القل القليل؛ رماه الله بالقل والذل أي بالقلة والذلة (jamhara)؛ شيء قليل وجمعه قلل؛ قل الشيء يقل قلة؛ قلله في عينه؛ أقل افتقر؛ استقله عده قليلا (sihah)؛ قل الشيء يقل قلة فهو قليل وقلال؛ القل من الرجال الخسيس الدنيء؛ قليل… (also L12.3) — lex/image: ضالا → ٱلضَّآلِّينَ
+- **F34** ح د د B002 «engelleme ve geri çevirme» المنع والصرف والحظر — word ٱلْحَدِيدِ (4 dictionaries); source: الأصل الأول المنع (maqayis)؛ للبواب حداد لمنعه الناس (maqayis;sihah;tahdhib;mufradat)؛ السجان حداد لأنه يمنع من الخروج (sihah;tahdhib)؛ محدود ممنوع من البخت أو الرزق (maqayis;sihah;mufradat)؛ حد العاصي لأنه يمنعه عن الم… (also L13.5, F8, F14) — img/fatiha: fatiha: غ ض ب B003 المراغمة والمخالفة ← ٱلْمَغْضُوبِ
+- **F35** ح د د B003 «karşı çıkma ve direnme» المحادة والمخالفة — word ٱلْحَدِيدِ (4 dictionaries); source: المحادة المخالفة فكأنه الممانعة (maqayis)؛ المحادة المخالفة ومنع ما يجب عليك وكذلك التحاد (sihah)؛ حاددته أي عاصيته (tahdhib)؛ يقال تحدد بهم أي تحرش بهم (tahdhib)؛ يحادون الله ورسوله أي يمانعون (mufradat) (also L8.6, F20, F25) — img/fatiha: fatiha: غ ض ب B003 المراغمة والمخالفة ← ٱلْمَغْضُوبِ
+- **F36** ح د د B006 «sertlik, atılgan güç ve öfkeli taşkınlık» حدة البأس والشراب والغضب — word ٱلْحَدِيدِ (3 dictionaries); source: حد الشراب صلابته (maqayis;sihah;tahdhib)؛ حد الرجل بأسه (maqayis;sihah;tahdhib)؛ الحدة التي تعتري الإنسان من النزق (maqayis;sihah)؛ الحدة الغضبة (tahdhib)؛ حد يحد إذا أخذته عجلة وطيش (tahdhib) (also L2.4, F21) — img/fatiha: fatiha: غ ض ب B001 اشتداد السخط وثورانه للانتقام ← ٱلْمَغْضُوبِ || img/fatiha: fatiha: غ ي ر B004 الغَيْرة على الأهل ← غَيْرِ
+
+### 5. Triangles [T]
+
+- **T1** ن و ر B001 «ışık ve aydınlatma» الضياء والإضاءة — word نَارًا (3 dictionaries); source: النور الضياء والفعل نار وأنار ونورا وإنارة واستنار أي أضاء (ayn)؛ النور: الضياء؛ أنار الشئ واستنار بمعنى أي أضاء؛ التنوير: الإنارة؛ التنوير: الإسفار (sihah)؛ أصل صحيح يدل على إضاءة واضطراب وقلة ثبات؛ النور والنار سميا ب… (also H1.27, L1.11)
+  - → 18:62 [surah]: rel/near_synonym: س ف ر B002 (ağarma ve aydınlanma) → سَفَرِنَا
+  - → ٱنفُخُوا۟: Luna (part): The workers blow air into the iron until it becomes fire. Breath feeds the flame and brings its light into being.
+  - 18:62 [surah] ↔ ٱنفُخُوا۟: frame: قَالَ ٱنفُخُوا۟ ~ قَالَ فَتَىٰ
+- **T2** ز ب ر B007 «tüy ve liflerin kabarıp yüzeyde belirginleşmesi» انتفاش الزئبر ونبات الوبر — word زُبَرَ (5 dictionaries); source: ازبأر الشعر إذا انتفش تقوى (maqayis)؛ زئبر الثوب ما يرتفع من قطنه؛ زئبر القطيفة ما تعلق منها (ayn)؛ ازبأر الكلب تنفش؛ ازبأر الشعر تنفش؛ ازبأر النبت والوبر إذا نبت؛ زئبر الثوب (sihah)؛ زئبر الخز والقطيفة والثوب؛ ازبئرار … (also L1.3)
+  - → 18:19 [surah]: image similarity only
+  - → ٱنفُخُوا۟: Luna (image): Blowing air into the structure makes the rare image of fibers puffing up vivid. The command can be heard as raising and swelling a surface under pressure.
+  - 18:19 [surah] ↔ ٱنفُخُوا۟: frame: قَالَ ٱنفُخُوا۟ ~ قَالَ قَآئِلٌ
+- **T3** ء ت ي B012 «dişi devenin çiftleşmek istemesi» استئتاء الناقة — word ءَاتُونِىٓ (1 dictionaries, sole attestation); source: استأتت الناقة استئتاء مهموز أي ضبعت وأرادت الفحل (sihah) (also L6.3, F4)
+  - → 18:98 [surah]: image similarity only
+  - → نَارًا: Luna (image): The camel in heat stands beside fire used to brand an animal. Together they make an image of a heated body receiving a mark.
+  - 18:98 [surah] ↔ نَارًا: frame: جَعَلَ نَارًا ~ جَعَلَ دَكَّآءَ
+- **T4** ق و ل B006 «sözü üzerine alma» اجترار القول إلى النفس — word قَالَ (1 dictionaries, sole attestation); source: اقتال قولا أي اجتر إلى نفسه قولا من خير أو شر (ayn) (also L4.10, L10.3, L11.3)
+  - → 18:62 [surah]: image similarity only
+  - → ءَاتُونِىٓ: Luna (image): The rare sense of قَالَ takes words toward oneself; the repeated ءَاتُونِىٓ asks for copper to be brought to the speaker. The second command makes the image of 
+  - 18:62 [surah] ↔ ءَاتُونِىٓ: frame: قَالَ ءَاتُونِىٓ ~ قَالَ فَتَىٰ
+- **T5** ء ت ي B005 «başka bölgeden gelen sel» السيل الآتي من غير البلد — word ءَاتُونِى (5 dictionaries); source: الأتي السيل بعينه يأتيك من بلد مطر من غير بلدك (jamhara)؛ سيل أتي وأتاوي إذا جاءك ولم يصبك مطره (sihah)؛ المسيل الذي يأتي من بلد قد مطر فيه إلى بلد لم يمطر فيه أتي (tahdhib)؛ السيل المار على وجهه أتي وأتاوي (mufradat)؛ … (also H1.4, L2.2, L7.7, L11.2, F1, F30)
+  - → 18:34 [surah]: image similarity only
+  - → ءَاتُونِىٓ: Luna (same): The first supply brings iron; the later supply brings copper. The rare image of an incoming flood gathers force in the repeated command to bring material.
+  - 18:34 [surah] ↔ ءَاتُونِىٓ: frame: قَالَ ءَاتُونِىٓ ~ قَالَ صَٰحِبِ
+- **T6** ء ت ي B006 «topluluğa yabancı kimse» الغريب الداخل في غير قومه — word ءَاتُونِى (5 dictionaries); source: رجل أتي وأتاوي وهو الغريب (jamhara)؛ الاتي أيضا والاتاوى الغريب (sihah)؛ إنما هو أتي فينا (tahdhib)؛ به شبه الغريب فقيل أتاوي (mufradat)؛ رجل أتي أي غريب في قوم ليس منهم وأتاوي كذلك (maqayis) (also L1.1)
+  - → 18:71 [surah]: image similarity only
+  - → ٱنفُخُوا۟: Luna (opposite): The rare image is a place with no one to blow its embers. Here the command calls a group to blow, filling the scene with workers and breath.
+  - 18:71 [surah] ↔ ٱنفُخُوا۟: frame: قَالَ ٱنفُخُوا۟ ~ قَالَ خَرَقْ
+- **T7** ء ت ي B007 «gelişip bol ürün vermek» خروج النماء والنتاج — word ءَاتُونِىٓ (5 dictionaries); source: أتاء هذا النخل أي ثمره وكذلك الزرع (jamhara)؛ الاتاء البركة والنماء وحمل النخل (sihah)؛ جاء أتوه (sihah;mufradat)؛ إتاء النخلة ريعها وزكاؤها وكثرة ثمارها (tahdhib)؛ الإتاء نماء الزرع والنخل وأتى الماء إتاء أي كثر (maqay… (also L6.2, L7.8, F24)
+  - → 18:98 [surah]: image similarity only
+  - → نَارًا: Luna (opposite): The root's increase and yield is life-producing abundance, while نَارًا is active fire. The scene sets organic growth against the fiery remaking of metal.
+  - 18:98 [surah] ↔ نَارًا: frame: جَعَلَ نَارًا ~ جَعَلَ دَكَّآءَ
+- **T8** ص د ف B002 «inci taşıyabilen çift kapaklı deniz canlısı ve kabuğu» الصَّدَف غشاء البحر — word ٱلصَّدَفَيْنِ (5 dictionaries); source: الصدف المحارة (maqayis)؛ الصدف غشاء خلق في البحر تضمه صدفتان (ayn;tahdhib)؛ صدف الدرة غشاؤها والواحدة صدفة (sihah)؛ الصدف الذي يخرج من البحر (mufradat) (also L2.5)
+  - → 18:63 [surah]: lex/image: بحر → ٱلْبَحْرِ
+  - → ٱنفُخُوا۟: image similarity only
+  - 18:63 [surah] ↔ ٱنفُخُوا۟: frame: قَالَ ٱنفُخُوا۟ ~ قَالَ رَءَيْ
+- **T9** س و ي B013 «başına denk mal ve bolluk» سِيّ الرأس وقدر يوازي الرأس من مال أو نعمة — word سَاوَىٰ (2 dictionaries); source: جاء فلان بسِيّ رأسه من المال أي ما يوازي رأسه (jamhara)؛ وقع فلان في سواء رأسه أي فيما ساوى رأسه من النعمة (tahdhib)؛ هو في سِيّ رأسه وسواء رأسه وهي النعمة (tahdhib)
+  - → 18:34 [surah]: lex/image: مال → مَالًا
+  - → ٱنفُخُوا۟: image similarity only
+  - 18:34 [surah] ↔ ٱنفُخُوا۟: frame: قَالَ ٱنفُخُوا۟ ~ قَالَ صَٰحِبِ
+- **T10** ن و ر B007 «topluluklar arası düşmanlık ve kin» النائرة بين القوم — word نَارًا (2 dictionaries); source: النائرة الكائنة تقع بين القوم (ayn)؛ بينهم نائرة أي عداوة وشحناء (sihah)
+  - → 18:74 [surah]: rel/near_synonym: ن ك ر B007 (düşmanlık ve çatışma) → نُّكْرًا
+  - → ٱنفُخُوا۟: image similarity only
+  - 18:74 [surah] ↔ ٱنفُخُوا۟: frame: قَالَ ٱنفُخُوا۟ ~ قَالَ قَتَلْ
+- **T11** ق ط ر B007 «tütsü odunu ve tütsü kabı» عود البخور ومجمرته — word قِطْرًا (4 dictionaries); source: القطر عود يتبخر به (ayn;tahdhib)؛ القطر والقطر العود الذي يتبخر به والمقطرة المجمرة (sihah)؛ القطر العود (maqayis) (also L1.7, L6.7)
+  - → 18:34 [surah]: image similarity only
+  - → ٱنفُخُوا۟: Luna (image): Blowing beside an incense brazier makes the command evoke kindling its embers. The same breath can feed the fire needed to heat the barrier.
+  - 18:34 [surah] ↔ ٱنفُخُوا۟: frame: قَالَ ٱنفُخُوا۟ ~ قَالَ صَٰحِبِ
+
+### 6. Bridges (touch two hubs) [J]
+
+- **J1** 18:45 [surah] joins H1, L1, L13, L2, L3, L4, L6, L7, L8
+- **J2** 18:79 [surah] joins H1, L2, L3, L9
+- **J3** 18:86 [surah] joins H1, L12, L4, L7
+- **J4** 18:110 [surah] joins H1, L3, L9
+- **J5** 18:17 [surah] joins H1, L13, L2
+- **J6** 18:21 [surah] joins H1, L3, L7
+- **J7** 18:22 [surah] joins H1, L1, L6
+- **J8** 18:28 [surah] joins H1, L3, L9
+- **J9** 18:29 [surah] joins H1, L2, L7
+- **J10** 18:31 [surah] joins H1, L3, L5
+- **J11** 18:34 [surah] joins H1, L12, L4
+- **J12** 18:57 [surah] joins H1, L3, L7
+- **J13** 18:90 [surah] joins H1, L12, L4
+- **J14** 18:102 [surah] joins H1, L3
+- **J15** 18:104 [surah] joins H1, L3
+
+### 7. Word level: sound, form, frame, grammar [G]
+
+- **G1** frame: ٱنفُخُوا۟ ~ 18:19: قَالَ ٱنفُخُوا۟ ~ قَالَ قَآئِلٌ
+- **G2** frame: ٱنفُخُوا۟ ~ 18:34: قَالَ ٱنفُخُوا۟ ~ قَالَ صَٰحِبِ
+- **G3** frame: ٱنفُخُوا۟ ~ 18:52: قَالَ ٱنفُخُوا۟ ~ يَقُولُ نَادُ
+- **G4** frame: ٱنفُخُوا۟ ~ 18:62: قَالَ ٱنفُخُوا۟ ~ قَالَ فَتَىٰ
+- **G5** frame: ٱنفُخُوا۟ ~ 18:63: قَالَ ٱنفُخُوا۟ ~ قَالَ رَءَيْ
+- **G6** frame: ٱنفُخُوا۟ ~ 18:69: قَالَ ٱنفُخُوا۟ ~ قَالَ تَجِدُ
+- **G7** frame: ٱنفُخُوا۟ ~ 18:71: قَالَ ٱنفُخُوا۟ ~ قَالَ خَرَقْ
+- **G8** frame: ٱنفُخُوا۟ ~ 18:74: قَالَ ٱنفُخُوا۟ ~ قَالَ قَتَلْ
+- **G9** frame: نَارًا ~ 18:98: جَعَلَ نَارًا ~ جَعَلَ دَكَّآءَ
+- **G10** frame: ءَاتُونِىٓ ~ 18:19: قَالَ ءَاتُونِىٓ ~ قَالَ قَآئِلٌ
+- **G11** frame: ءَاتُونِىٓ ~ 18:34: قَالَ ءَاتُونِىٓ ~ قَالَ صَٰحِبِ
+- **G12** frame: ءَاتُونِىٓ ~ 18:52: قَالَ ءَاتُونِىٓ ~ يَقُولُ نَادُ
+- **G13** frame: ءَاتُونِىٓ ~ 18:62: قَالَ ءَاتُونِىٓ ~ قَالَ فَتَىٰ
+- **G14** frame: ءَاتُونِىٓ ~ 18:63: قَالَ ءَاتُونِىٓ ~ قَالَ رَءَيْ
+- **G15** frame: ءَاتُونِىٓ ~ 18:69: قَالَ ءَاتُونِىٓ ~ قَالَ تَجِدُ
+- **G16** frame: ءَاتُونِىٓ ~ 18:71: قَالَ ءَاتُونِىٓ ~ قَالَ خَرَقْ
+- **G17** frame: ءَاتُونِىٓ ~ 18:74: قَالَ ءَاتُونِىٓ ~ قَالَ قَتَلْ
+- **G18** word note: 18:96:1 ءَاتُونِى: Form IV plural command to bring or supply material to the speaker — topics: opening supply command coordinates labor
+- **G19** word note: 18:96:2 زُبَرَ: accusative construct plural naming discrete iron pieces or blocks — topics: plural construct makes modular barrier material
+- **G20** word note: 18:96:3 ٱلْحَدِيدِ: definite genitive material specifying the pieces as iron — topics: iron specifies boundary-holding material
+- **G21** word note: 18:96:4 حَتَّىٰٓ: first endpoint particle launching a temporal-process frame — topics: first endpoint particle stages the process
+- **G22** word note: 18:96:5 إِذَا: first conditional-temporal checkpoint marker — topics: first expected process checkpoint
+- **G23** word note: 18:96:6 سَاوَىٰ: Form III perfect leveling or equalizing within the gap — topics: Form III levels the barrier within the gap
+- **G24** word note: 18:96:7 بَيْنَ: adverbial between-space governing the dual cliff faces — topics: between-space becomes the work zone
+- **G25** word note: 18:96:8 ٱلصَّدَفَيْنِ: definite dual cliff faces or two opposing sides of the pass — topics: rare dual cliff faces frame containment
+- **G26** word note: 18:96:9 قَالَ: perfect speech verb introducing the one-word command — topics: speech pivots from leveling to blowing
+- **G27** word note: 18:96:10 ٱنفُخُوا: plural imperative to blow, here a metallurgical blast command — topics: plural blowing command heats the barrier
+- **G28** word note: 18:96:11 حَتَّىٰٓ: second endpoint particle directing the blowing phase toward a fire-state condition — topics: second endpoint measures the heating phase
+- **G29** word note: 18:96:12 إِذَا: second conditional-temporal checkpoint marker — topics: second checkpoint before final application
+- **G30** word note: 18:96:13 جَعَلَهُۥ: Form I perfect rendering the prepared structure into a fire-state, with attached object pronoun — topics: double-object grammar marks transformation
+- **G31** word note: 18:96:14 نَارًۭا: indefinite accusative result noun naming a fire-like heat state — topics: fire-state marks readiness for casting
+- **G32** word note: 18:96:15 قَالَ: second perfect speech verb introducing the final compound directive — topics: speech opens final supply-and-pour directive
+- **G33** word note: 18:96:16 ءَاتُونِىٓ: repeated Form IV plural command with elided supplied object before a dependent jussive — topics: second supply command accelerates into pouring
+- **G34** word note: 18:96:17 أُفْرِغْ: Form IV first-person jussive/apocopated verb of pouring or causing contents to empty out — topics: speaker pours by source-emptying onto the barrier
+- **G35** word note: 18:96:18 عَلَيْهِ: preposition {{ar:عَلَى}} ({{tr:ʿalā}}) plus third-person masculine suffix marking the receiving surface — topics: pronoun-preposition focuses the coating target
+- **G36** word note: 18:96:19 قِطْرًۭا: indefinite accusative object naming molten copper or molten metal as sealant — topics: final molten sealant completes the barrier
+
+## 2. Discovery lines
+
+### 2.1 Local language (the ayah's own words, grammar, variant readings)
+
+17 readings and open observations, 2 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **L02** [reading; support strong, relevance high] word 2: زُبَرَ — lemma زُبَر, root ز ب ر, pos N
+  - finding: زُبَرَ presents the iron as plural construction pieces, then the sequence treats the heated workpiece as singular before a final material is poured over it. This gives the barrier a staged assembly rather than a single undifferentiated arrival.
+  - evidence: 18:96 «زُبَرَ ٱلْحَدِيدِ»; 18:96 «جَعَلَهُۥ نَارًۭا»; 18:96 «قِطْرًۭا»
+  - activation: The plural construct names the supplied iron, while the later singular pronoun and pour complete the same construction sequence.
+  - limits: The plural establishes pieces but not their number, size, arrangement, or whether they fuse into one solid mass.
+- **L04** [reading; support strong, relevance high] word 4: حَتَّىٰٓ — lemma حَتَّىٰ, root —, pos INC
+  - finding: The first حَتَّىٰ sets a goal for the initial building phase: the sequence advances from bringing iron until the work reaches the interval between the two sides. Its repetition before the heating checkpoint makes the whole ayah proceed by achieved endpoints.
+  - evidence: 18:96 «حَتَّىٰٓ إِذَا سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ»; 18:96 «حَتَّىٰٓ إِذَا جَعَلَهُۥ نَارًۭا»
+  - activation: The two matched حَتَّىٰ إِذَا frames bracket distinct construction stages.
+  - limits: The particles mark sequence and endpoints but give no duration, measurement, or exact physical threshold.
+- **L06** [reading; support strong, relevance high] word 6: سَاوَىٰ — lemma سَاوَىٰ, root س و ي, pos V
+  - finding: سَاوَىٰ makes progress relational: the fill is brought into correspondence with the two facing sides, so completion is measured against the terrain rather than stated as a free-standing finished structure.
+  - evidence: 18:96 «سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ»
+  - activation: The Form III verb is followed by بَيْنَ and a definite dual, giving the leveling two sides as its measure.
+  - limits: The wording supplies no dimensions or separate object for the leveling; it does not specify how the level was measured.
+- **L07** [reading; support strong, relevance high] word 7: بَيْنَ — lemma بَيْن, root ب ي ن, pos LOC
+  - finding: بَيْنَ shifts the barrier project from a human relation to a geographic work zone: the prior request puts a رَدْم between two populations, while this verse locates the leveling between two terrain faces.
+  - evidence: 18:95 «بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا»; 18:96 «بَيْنَ ٱلصَّدَفَيْنِ»
+  - activation: The same spatial term recurs as the story moves from stating whom the barrier separates to describing where it is built.
+  - limits: The parallel links the social and physical coordinates of the project; it does not establish a symbolic equivalence between the people and the cliffs.
+- **L09** [reading; support strong, relevance high] word 9: قَالَ — lemma قَالَ, root ق و ل, pos V
+  - finding: After leveling, قَالَ turns the achieved state into a new task for the plural workforce. With the preceding request for help, the speech pivot presents the barrier as coordinated labor under a directing speaker.
+  - evidence: 18:95 «فَأَعِينُونِى بِقُوَّةٍ»; 18:96 «قَالَ ٱنفُخُوا۟»
+  - activation: A singular speaker follows a completed checkpoint with a plural imperative to blow.
+  - limits: The verb marks the command but does not say whether Dhū al-Qarnayn personally performs any of the preparation.
+- **L10** [reading; support strong, relevance high] word 10: ٱنفُخُوا۟ — lemma نَفَخَ, root ن ف خ, pos V;PRON
+  - finding: The commanded ٱنفُخُوا۟ places manual, plural blowing beside the surah’s later passive trumpet blast. The shared root expands the scale of blowing within the surah, from heating a barrier to the event preceding the gathering.
+  - evidence: 18:96 «قَالَ ٱنفُخُوا۟»; 18:99 «وَنُفِخَ فِى ٱلصُّورِ فَجَمَعْنَٰهُمْ جَمْعًا»
+  - activation: The root ن ف خ recurs in both passages, though the focus has a plural imperative and the later verse a passive form with the trumpet named.
+  - limits: The forms and scenes differ; the shared root does not establish that the construction command intentionally predicts or symbolizes the trumpet event.
+- **L11** [reading; support strong, relevance high] word 11: حَتَّىٰٓ — lemma حَتَّىٰ, root —, pos INC
+  - finding: The second حَتَّىٰ directs the blowing phase toward a thermal endpoint: the work continues until the object is rendered نَارًا, after which a fresh supply-and-pour order begins.
+  - evidence: 18:96 «ٱنفُخُوا۟ ۖ حَتَّىٰٓ إِذَا جَعَلَهُۥ نَارًۭا قَالَ»
+  - activation: Its placement after the blowing command and before the second checkpoint makes heating a distinct phase of the build.
+  - limits: The verse gives a fire-state as the threshold but no temperature or technical account of the heating process.
+- **L13** [reading; support strong, relevance high] word 13: جَعَلَهُۥ — lemma جَعَلَ, root ج ع ل, pos V;PRON
+  - finding: جَعَلَهُۥ نَارًا gives a result-state for the workpiece; later the same verb-pronoun frame, جَعَلَهُ دَكَّاءَ, names its promised flattening. The surah thus pairs human transformation of the barrier with its future reversal.
+  - evidence: 18:96 «جَعَلَهُۥ نَارًۭا»; 18:98 «جَعَلَهُۥ دَكَّآءَ»
+  - activation: The same verb and attached object pronoun recur for the barrier at the heating stage and after the arrival of the Lord’s promise.
+  - limits: The parallel establishes matching resultative framing, not identical agents, causes, or physical processes.
+- **L14** [reading; support strong, relevance high] word 14: نَارًا — lemma نَار, root ن و ر, pos N
+  - finding: نَارًا names the workpiece’s heat-state, while earlier the same word names the enclosing fire prepared for wrongdoers. The shared noun sets controlled fire used in construction against fire as punishment elsewhere in the surah.
+  - evidence: 18:96 «جَعَلَهُۥ نَارًۭا»; 18:29 «نَارًا أَحَاطَ بِهِمْ سُرَادِقُهَا»
+  - activation: The exact noun recurs in the same surah, but here it is the result of human work on iron and earlier it is a threat surrounding wrongdoers.
+  - limits: The local grammar identifies a fire-state for the material; it does not explicitly allude to the punishment passage.
+- **L15** [reading; support strong, relevance high] word 15: قَالَ — lemma قَالَ, root ق و ل, pos V
+  - finding: The second قَالَ opens a longer directive at the point when heating is complete: the speaker requests another material and states the act he will perform with it. This speech turn closes one work phase and starts the finishing one.
+  - evidence: 18:96 «قَالَ ءَاتُونِىٓ أُفْرِغْ عَلَيْهِ قِطْرًۭا»
+  - activation: The verb follows the second checkpoint and introduces both a plural supply command and a first-person pouring clause.
+  - limits: قَالَ marks the spoken instruction; the division of physical labor is made explicit by the following verbs, not by قَالَ alone.
+- **L17** [reading; support strong, relevance high] word 17: أُفْرِغْ — lemma أَفْرِغْ, root ف ر غ, pos V
+  - finding: أُفْرِغْ is a first-person jussive following the plural supply command, so the instruction hands the final pour to the speaker rather than adding another task for the group. This completes the earlier request that others help with the build.
+  - evidence: 18:95 «فَأَعِينُونِى بِقُوَّةٍ»; 18:96 «ءَاتُونِىٓ أُفْرِغْ عَلَيْهِ قِطْرًۭا»
+  - activation: The first-person form and its dependence on the supply command contrast with the preceding plural imperative ٱنفُخُوا۟.
+  - limits: The grammar assigns the intended action to the speaker but does not establish who physically handles the material during the pour.
+- **L18** [reading; support strong, relevance high] word 18: عَلَيْهِ — lemma عَلَىٰ, root —, pos P;PRON
+  - finding: عَلَيْهِ routes the final material onto the heated workpiece; its suffix continues the singular referent from جَعَلَهُۥ. The next verse then treats that referent as the barrier that cannot be climbed or pierced.
+  - evidence: 18:96 «جَعَلَهُۥ نَارًۭا قَالَ ءَاتُونِىٓ أُفْرِغْ عَلَيْهِ قِطْرًۭا»; 18:97 «فَمَا ٱسْطَٰعُوٓا۟ أَن يَظْهَرُوهُ وَمَا ٱسْتَطَٰعُوا۟ لَهُۥ نَقْبًۭا»
+  - activation: The repeated masculine suffix carries the workpiece through the heat and coating steps into the account of the barrier’s resistance.
+  - limits: The pronouns link the object across the sequence but do not specify the coating’s engineering effect by itself.
+- **L19** [reading; support strong, relevance high] word 19: قِطْرًا — lemma قِطْر, root ق ط ر, pos N
+  - finding: قِطْرًا names the pourable finishing material laid over the heated iron; the following verse gives the barrier’s immediate result in failed climbing and tunneling, while the later promise to flatten it bounds that protection in time.
+  - evidence: 18:96 «أُفْرِغْ عَلَيْهِ قِطْرًۭا»; 18:97 «فَمَا ٱسْطَٰعُوٓا۟ أَن يَظْهَرُوهُ وَمَا ٱسْتَطَٰعُوا۟ لَهُۥ نَقْبًۭا»; 18:98 «فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ»
+  - activation: The pour concludes the construction sequence, and the adjacent verses state both its resistance to breach and its eventual end.
+  - limits: The passage supports a molten-metal reading and an effective barrier, but it gives no exact alloy or proof that قِطْرًا alone causes the resistance.
+- **L01** [reading; support medium, relevance high] word 1: ءَاتُونِى — lemma آتَى, root ء ت ي, pos V;PRON
+  - finding: On the printed reading, ءَاتُونِى directs the workers to deliver iron to Dhū al-Qarnayn. The listed Form I reading, ائْتُونِي, would instead foreground the workers coming to him with it; the same shift would recur at the second supply command.
+  - evidence: 18:96 «ءَاتُونِى زُبَرَ ٱلْحَدِيدِ»; 18:96 «قَالَ ءَاتُونِىٓ أُفْرِغْ عَلَيْهِ قِطْرًۭا»
+  - activation: The plural command and recipient suffix frame both requests as directed exchanges between the speaker and his workforce.
+  - limits: The focus text prints the Form IV reading; neither form specifies how the workers transport the material or how the alternate reading changes the rest of the scene.
+- **L03** [reading; support medium, relevance high] word 3: ٱلْحَدِيدِ — lemma حَدِيد, root ح د د, pos DET;N
+  - finding: ٱلْحَدِيدِ names the barrier material, while its ح د د root family also carries a boundary or limit sense. Beside the requested رَدْم between two groups, this makes iron lexically apt to the work of establishing a limit.
+  - evidence: 18:95 «أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا»; 18:96 «زُبَرَ ٱلْحَدِيدِ»
+  - activation: The prior verse defines the task as putting a barrier between groups; this verse specifies iron for the build.
+  - limits: The verse uses ٱلْحَدِيدِ for iron; the root relation does not establish that it means boundary here or prove deliberate wordplay.
+- **L08** [reading; support medium, relevance high] word 8: ٱلصَّدَفَيْنِ — lemma صَّدَفَيْن, root ص د ف, pos DET;N
+  - finding: ٱلصَّدَفَيْنِ supplies two definite terrain faces for the build. Earlier, Dhū al-Qarnayn reaches a place described as between two sadds; the later wording may distinguish the facing sides of that bounded pass from the barriers used to locate it.
+  - evidence: 18:93 «بَيْنَ ٱلسَّدَّيْنِ»; 18:96 «بَيْنَ ٱلصَّدَفَيْنِ»
+  - activation: Both dual expressions occur in the same account of Dhū al-Qarnayn’s journey and barrier project.
+  - limits: The sequence suggests a shared landscape but does not prove the nouns are synonyms or identify the exact referents. The listed vowel variants preserve a dual frame; the supplied wording does not establish a separate massiveness effect.
+- **L16** [reading; support medium, relevance high] word 16: ءَاتُونِىٓ — lemma آتَى, root ء ت ي, pos V;PRON
+  - finding: The repeated ءَاتُونِى has no stated material object before أُفْرِغْ; قِطْرًا is grammatically the object of the pouring verb. The listed Form I variant could instead make the final request an instruction for the workers to come to him before he pours.
+  - evidence: 18:96 «ءَاتُونِىٓ أُفْرِغْ عَلَيْهِ قِطْرًۭا»
+  - activation: Unlike the first supply order, this command is followed immediately by a dependent first-person action, with the material named in that action’s clause.
+  - limits: The understood object of ءَاتُونِى is inferred from the pouring sequence; the excerpt itself assigns قِطْرًا to أُفْرِغْ.
+
+Notes:
+- L05 [support strong, relevance low] The first إِذَا marks the leveling as the condition reached before the next speech turn and blowing order. The command follows a completed checkpoint rather than interrupting the work.
+- L12 [support strong, relevance low] The second إِذَا places the last supply request after the object has reached its fire-state, matching the earlier checkpoint-before-command pattern.
+
+### 2.2 Quranic usage (each root's occurrences: same form, other forms)
+
+13 readings and open observations, 0 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **U-ءتي** [reading; support strong, relevance high] root ء ت ي (focus word ءَاتُونِى: آتَى V form IV) — 530 occurrences in 486 ayat; same form 257, other forms 273
+  - finding: The repeated Form IV command ءاتوني makes supply the rhythm of the work: زبر الحديد arrives before heating, and قطر after the fire checkpoint; elsewhere in this surah the same verb asks God for mercy (18:10) or a companion for breakfast (18:62), while here it equips a collective construction.
+  - evidence: 18:96 «ءَاتُونِى زُبَرَ ٱلْحَدِيدِ»; 18:96 «حَتَّىٰٓ إِذَا جَعَلَهُۥ نَارًۭا قَالَ ءَاتُونِىٓ أُفْرِغْ عَلَيْهِ قِطْرًۭا»; 18:10 «رَبَّنَآ ءَاتِنَا مِن لَّدُنكَ رَحْمَةًۭ»; 18:62 «قَالَ لِفَتَىٰهُ ءَاتِنَا غَدَآءَنَا»
+  - activation: The second call comes only after the material reaches نارًا, so each supply command marks a new construction stage.
+  - limits: The verb remains ordinary bringing or giving; the contrast comes from who asks, what is supplied, and the staged context.
+- **U-حدد** [reading; support strong, relevance high] root ح د د (focus word ٱلْحَدِيدِ: حَدِيد N) — 23 occurrences in 20 ayat; same form 6, other forms 17
+  - finding: The passage turns the Quranic pairing of iron with severe force and human benefit into a concrete communal defense: iron is fitted across the pass, and 18:97 says the attackers cannot climb over or pierce it.
+  - evidence: 57:25 «وَأَنزَلْنَا ٱلْحَدِيدَ فِيهِ بَأْسٌۭ شَدِيدٌۭ وَمَنَٰفِعُ لِلنَّاسِ»; 18:94 «إِنَّ يَأْجُوجَ وَمَأْجُوجَ مُفْسِدُونَ فِى ٱلْأَرْضِ»; 18:96 «ءَاتُونِى زُبَرَ ٱلْحَدِيدِ»; 18:97 «فَمَا ٱسْطَٰعُوٓا۟ أَن يَظْهَرُوهُ وَمَا ٱسْتَطَٰعُوا۟ لَهُۥ نَقْبًۭا»
+  - activation: The residents identify a public threat, Dhul-Qarnayn recruits their help, and the next verse confirms the barrier holds.
+  - limits: 57:25 names iron's force and benefits generally; it does not identify this structure as its specific referent.
+- **U-بين** [reading; support strong, relevance high] root ب ي ن (focus word بَيْنَ: بَيْن LOC) — 484 occurrences in 454 ayat; same form 208, other forms 276
+  - finding: Across 18:94–96, بين moves from relation to geometry: the residents ask for a barrier بيننا وبينهم, Dhul-Qarnayn proposes a mound بينكم وبينهم, then levels the space between two cliff faces. The repeated locator maps the social threat onto the pass that must be closed.
+  - evidence: 18:94 «أَن تَجْعَلَ بَيْنَنَا وَبَيْنَهُمْ سَدًّۭا»; 18:95 «أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا»; 18:96 «سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ»
+  - activation: The focus's definite dual الصدفين follows two relational frames in the request and reply.
+  - limits: The shared preposition identifies spatial separation; it does not equate the peoples with the landscape features.
+- **U-نفخ** [reading; support strong, relevance high] root ن ف خ (focus word ٱنفُخُوا۟: نَفَخَ V) — 19 occurrences in 18 ayat; same form 18, other forms 1
+  - finding: A directed human blow heats the iron at 18:96; three verses later the root returns in the passive sounding of the trumpet, after the barrier is destined to be flattened. The close sequence places the engineered defense under the surah's resurrection horizon.
+  - evidence: 18:96 «قَالَ ٱنفُخُوا۟»; 18:98 «فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ»; 18:99 «وَنُفِخَ فِى ٱلصُّورِ فَجَمَعْنَٰهُمْ جَمْعًۭا»
+  - activation: The root repeats within three verses, shifting from a plural command for industrial blowing to a passive trumpet event.
+  - limits: The shared root does not make the acts identical: the focus has workers heating iron, while 18:99 names the trumpet and resurrection assembly.
+- **U-جعل** [reading; support strong, relevance high] root ج ع ل (focus word جَعَلَهُۥ: جَعَلَ V) — 319 occurrences in 311 ayat; same form 313, other forms 6
+  - finding: In 18:96 جعله نارًا marks the iron's heated state; at 18:98 the same verb with an object suffix makes the barrier دكاء when the Lord's promise arrives. The repeated transformation grammar presents human construction as effective but provisional.
+  - evidence: 18:96 «حَتَّىٰٓ إِذَا جَعَلَهُۥ نَارًۭا»; 18:97 «فَمَا ٱسْطَٰعُوٓا۟ أَن يَظْهَرُوهُ وَمَا ٱسْتَطَٰعُوا۟ لَهُۥ نَقْبًۭا»; 18:98 «فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ»
+  - activation: The repeated جعله appears first in the building process and then in the stated future fate of the barrier.
+  - limits: The flattening is conditional on the arrival of the Lord's promise; the text does not cancel the barrier's narrated success before then.
+- **U-نور** [reading; support strong, relevance high] root ن و ر (focus word نَارًا: نَار N) — 187 occurrences in 174 ayat; same form 141, other forms 46
+  - finding: The same surah gives نار opposite functions: hellfire surrounds wrongdoers in 18:29, while Dhul-Qarnayn deliberately makes the iron نارًا to produce a barrier against the aggressors, and 18:97 confirms that it works.
+  - evidence: 18:29 «نَارًا أَحَاطَ بِهِمْ سُرَادِقُهَا»; 18:96 «جَعَلَهُۥ نَارًۭا»; 18:94 «إِنَّ يَأْجُوجَ وَمَأْجُوجَ مُفْسِدُونَ فِى ٱلْأَرْضِ»; 18:97 «فَمَا ٱسْطَٰعُوٓا۟ أَن يَظْهَرُوهُ»
+  - activation: The shared fire word occurs in the same surah's paired scenes of danger, with one fire punishing and the other serving protective construction.
+  - limits: The text does not equate the heated iron with Jahannam or say that fire remains in the finished barrier.
+- **U-فرغ** [reading; support strong, relevance high] root ف ر غ (focus word أُفْرِغْ: أَفْرِغْ V form IV) — 6 occurrences in 6 ayat; same form 3, other forms 3
+  - finding: In 2:250 and 7:126, أفرغ علينا صبرًا asks God to pour patience over a threatened group; in 18:96 أفرغ عليه قطرًا directs the pour onto the barrier itself. A prayer image of being covered becomes a literal construction act.
+  - evidence: 2:250 «رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًۭا»; 7:126 «رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًۭا»; 18:96 «أُفْرِغْ عَلَيْهِ قِطْرًۭا»
+  - activation: The target shifts from علينا, the praying group, to عليه, the barrier being finished against the threat.
+  - limits: The passages pour different contents toward different recipients; they do not identify molten metal with patience or supplication.
+- **U-قطر** [reading; support strong, relevance high] root ق ط ر (focus word قِطْرًا: قِطْر N) — 5 occurrences in 5 ayat; same form 2, other forms 3
+  - finding: The focus's قِطْر connects it to Solomon's account, where God causes عَيْنَ ٱلْقِطْرِ to flow for him and jinn work before him by God's permission. In both ruler narratives, qitr accompanies command over metal and organized labor.
+  - evidence: 18:96 «أُفْرِغْ عَلَيْهِ قِطْرًۭا»; 34:12 «وَأَسَلْنَا لَهُۥ عَيْنَ ٱلْقِطْرِ»; 34:12 «وَمِنَ ٱلْجِنِّ مَن يَعْمَلُ بَيْنَ يَدَيْهِ بِإِذْنِ رَبِّهِۦ»; 18:95 «فَأَعِينُونِى بِقُوَّةٍ»
+  - activation: Dhul-Qarnayn recruits human help before applying qitr; Solomon's verse places the same noun beside divinely permitted jinn labor.
+  - limits: The shared material does not establish that the rulers perform the same project or have the same authority.
+- **usage_1.X1** [reading; support strong, relevance high] 
+  - finding: The paired حتى إذا checkpoints in 18:96 echo the surah's arrival-to-action pattern: in Moses and his attendant's travel it triggers the ship incident and then the boy incident; here it marks leveling and the point when iron reaches نارًا. The barrier episode follows the surah's threshold-driven pacing.
+  - evidence: 18:96 «حَتَّىٰٓ إِذَا سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ قَالَ ٱنفُخُوا۟ ۖ حَتَّىٰٓ إِذَا جَعَلَهُۥ نَارًۭا»; 18:71 «فَٱنطَلَقَا حَتَّىٰٓ إِذَا رَكِبَا فِى ٱلسَّفِينَةِ خَرَقَهَا»; 18:74 «فَٱنطَلَقَا حَتَّىٰٓ إِذَا لَقِيَا غُلَٰمًۭا فَقَتَلَهُۥ»
+  - activation: Both focus checkpoints use the surah's recurring temporal formula, and each releases a new action when a stage is reached.
+  - limits: The shared formula frames time; it does not make the construction a moral puzzle or equate its participants with the travelers.
+- **U-سوي** [reading; support medium, relevance high] root س و ي (focus word سَاوَىٰ: سَاوَىٰ V form III) — 83 occurrences in 80 ayat; same form 1, other forms 82
+  - finding: ساوى بين الصدفين can be heard beside 3:64's كلمة سواء بيننا وبينكم: the same root and بين frame give physical leveling a possible register of common or equal ground as negotiations between peoples become leveling across the pass.
+  - evidence: 18:96 «سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ»; 3:64 «كَلِمَةٍۢ سَوَآءٍۭ بَيْنَنَا وَبَيْنَكُمْ»; 18:95 «أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا»
+  - activation: The focus verb directly precedes بين, after 18:95 has used بينكم وبينهم for the human sides of the dispute.
+  - limits: 3:64 has a different form, and 18:96 states physical leveling rather than social equality.
+- **U-زبر** [open; support weak, relevance high] root ز ب ر (focus word زُبَرَ: زُبَر N) — 11 occurrences in 11 ayat; same form 1, other forms 10
+  - finding: The focus vocalizes زُبَر for iron pieces, while other root-noun occurrences use زُبُر beside revelation or kitāb, and زُبُرًا when a community splits its affair. A shared notion of written units or sections could make the iron components echo divided scripture or communities.
+  - evidence: 18:96 «زُبَرَ ٱلْحَدِيدِ»; 16:44 «بِٱلْبَيِّنَٰتِ وَٱلزُّبُرِ»; 23:53 «فَتَقَطَّعُوٓا۟ أَمْرَهُم بَيْنَهُمْ زُبُرًۭا»
+  - missing: A root dictionary must establish whether these differently vocalized plurals share a concrete sense, and whether that sense is active in this technical barrier phrase.
+- **U-صدف** [open; support weak, relevance high] root ص د ف (focus word ٱلصَّدَفَيْنِ: صَّدَفَيْن N) — 4 occurrences in 3 ayat; same form 1, other forms 3
+  - finding: The dual noun الصدفين names two cliff faces; elsewhere the root's verb يصدفون describes people turning away (6:46). Since the barrier blocks passage in 18:97, the root opens a possibility that its flanks are also heard as deflecting faces.
+  - evidence: 18:96 «بَيْنَ ٱلصَّدَفَيْنِ»; 6:46 «ثُمَّ هُمْ يَصْدِفُونَ»; 18:97 «وَمَا ٱسْتَطَٰعُوا۟ لَهُۥ نَقْبًۭا»
+  - missing: A root dictionary must establish that the topographic noun ṣadaf and the turning-away verb ṣadafa share a semantic path; the Quranic passages alone use different forms and referents.
+- **usage_1.X2** [open; support weak, relevance high] 
+  - finding: A root-level possibility joins the focus's قِطْر poured into a barrier with أَقْطَار in 55:33, where listeners are challenged to pass through the heavens' and earth's regions. That verse couples أقطار with نفذ, while 18:97 reports that the wall could not be pierced; a shared root sense might link metal sealing with a boundary that resists passage.
+  - evidence: 18:96 «قِطْرًۭا»; 18:97 «وَمَا ٱسْتَطَٰعُوا۟ لَهُۥ نَقْبًۭا»; 55:33 «أَن تَنفُذُوا۟ مِنْ أَقْطَارِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ فَٱنفُذُوا۟ ۚ لَا تَنفُذُونَ إِلَّا بِسُلْطَٰنٍۢ»
+  - missing: A dictionary must establish whether the material noun قِطْر and plural أَقْطَار share a semantic path; the penetration motif alone cannot distinguish a root echo from unrelated senses.
+
+### 2.3 Surah context (the passage, the roots elsewhere in the surah, surah-level arguments)
+
+16 readings and open observations, 4 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **S-near** [reading; support strong, relevance high] the surrounding passage (±7)
+  - finding: After the route reaches the paired pass, the construction sequence turns a local danger into organized protection: 18:95 asks for shared assistance, 18:96 stages the labor, 18:97 reports the barrier’s effectiveness, and 18:98 calls it mercy while naming its end.
+  - evidence: 18:95 «فَأَعِينُونِى بِقُوَّةٍ أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا»; 18:96 «حَتَّىٰٓ إِذَا سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ قَالَ ٱنفُخُوا۟»; 18:97 «فَمَا ٱسْطَٰعُوٓا۟ أَن يَظْهَرُوهُ وَمَا ٱسْتَطَٰعُوا۟ لَهُۥ نَقْبًۭا»; 18:98 «قَالَ هَٰذَا رَحْمَةٌۭ مِّن رَّبِّى ۖ فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ»
+  - activation: The adjacent request for strength, two work stages, failed attempts to cross, and later promise make the building part of a bounded protective episode.
+  - limits: The sequence establishes narrative progression, but does not show that each earlier journey stop was designed as a metaphor for a construction stage.
+- **S-ءتي** [reading; support strong, relevance high] root ء ت ي elsewhere in the surah (10)
+  - finding: The repeated command ءَاتُونِى divides provision into two inputs: زُبَرَ ٱلْحَدِيدِ for the build and قِطْرًا for its finish. The same imperative pattern appears when Moses asks his companion for food, so the project recasts ordinary provisioning as coordinated collective work.
+  - evidence: 18:96 «ءَاتُونِى زُبَرَ ٱلْحَدِيدِ»; 18:96 «قَالَ ءَاتُونِىٓ أُفْرِغْ عَلَيْهِ قِطْرًۭا»; 18:62 «قَالَ لِفَتَىٰهُ ءَاتِنَا غَدَآءَنَا»
+  - activation: Both supply commands occur inside a project that has just asked the community to assist with strength.
+  - limits: The shared verb does not make breakfast, iron, and qitr equivalent gifts; the speakers, recipients, and purposes differ.
+- **S-بين** [reading; support strong, relevance high] root ب ي ن elsewhere in the surah (10)
+  - finding: بَيْنَ shifts from a location to be reached in 18:93, to the requested separation in 18:94–95, and then to the exact work zone in بَيْنَ ٱلصَّدَفَيْنِ. The passage makes the interval itself the object of engineering.
+  - evidence: 18:93 «بَيْنَ ٱلسَّدَّيْنِ»; 18:94 «أَن تَجْعَلَ بَيْنَنَا وَبَيْنَهُمْ سَدًّۭا»; 18:95 «أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا»; 18:96 «سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ»
+  - activation: The repeated between-construction links the pass’s geography directly to the barrier’s protective purpose.
+  - limits: The preposition locates the work between two sides; by itself it does not establish how the finished structure is anchored.
+- **S-قول** [reading; support strong, relevance high] root ق و ل elsewhere in the surah (46)
+  - finding: Each قَالَ in the focus converts an attained checkpoint into a new instruction: level the span, then blow; reach the fire-state, then bring qitr. In the same episode, people who barely understand speech nonetheless negotiate and carry out a sequence of effective commands.
+  - evidence: 18:93 «لَّا يَكَادُونَ يَفْقَهُونَ قَوْلًۭا»; 18:95 «فَأَعِينُونِى بِقُوَّةٍ أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا»; 18:96 «قَالَ ٱنفُخُوا۟ ۖ حَتَّىٰٓ إِذَا جَعَلَهُۥ نَارًۭا قَالَ ءَاتُونِىٓ أُفْرِغْ عَلَيْهِ قِطْرًۭا»
+  - activation: The repeated speech verbs and the contrast with the community’s stated difficulty understanding قول make coordination through speech visible in the construction scene.
+  - limits: The passage shows commands followed by action, but does not say that speech itself resolves the community’s language difficulty.
+- **S-hft-base_composite_gap_forge** [reading; support strong, relevance high] (baseline_model)
+  - finding: The sequence supports an as-if composite forge: discrete iron pieces are brought into the gap, heated by blowing until they reach نارًا, and finished by pouring قِطْرًا over them. The successive commands make the materials and thermal state part of one staged build.
+  - evidence: 18:96 «ءَاتُونِى زُبَرَ ٱلْحَدِيدِ ۖ حَتَّىٰٓ إِذَا سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ قَالَ ٱنفُخُوا۟ ۖ حَتَّىٰٓ إِذَا جَعَلَهُۥ نَارًۭا قَالَ ءَاتُونِىٓ أُفْرِغْ عَلَيْهِ قِطْرًۭا»
+  - activation: The iron, blowing, attained fire-state, and poured qitr occur in explicit order within one construction scene.
+  - limits: The text does not name a core, specify metallurgical temperatures, or state that the qitr seals or binds the iron; those are process models for the sequence.
+- **S-hft-base_distributed_command_sequence** [reading; support strong, relevance high] (baseline_model)
+  - finding: The commands distribute the work: others bring the iron and blow, while the speaker sets the stage thresholds and retains the final pour in أُفْرِغْ عَلَيْهِ قِطْرًا. The last imperative asks for material; its first-person continuation names the speaker’s operation.
+  - evidence: 18:96 «ءَاتُونِى زُبَرَ ٱلْحَدِيدِ»; 18:96 «قَالَ ٱنفُخُوا۟»; 18:96 «قَالَ ءَاتُونِىٓ أُفْرِغْ عَلَيْهِ قِطْرًۭا»
+  - activation: The plural commands address helpers, while أُفْرِغْ is first-person and عَلَيْهِ identifies the receiving surface.
+  - limits: The wording assigns distinct tasks but does not specify the workers’ number or the vessel used for pouring.
+- **S-hft-ctx_linked_stage_gates** [reading; support strong, relevance high] (context_delta)
+  - finding: The repeated حَتَّىٰٓ إِذَا clauses act as stage gates: reaching the paired faces permits the blowing instruction, and making the iron نارًا permits the qitr instruction. This construction follows the route’s repeated progression by causes and arrivals.
+  - evidence: 18:92 «ثُمَّ أَتْبَعَ سَبَبًا»; 18:93 «حَتَّىٰٓ إِذَا بَلَغَ بَيْنَ ٱلسَّدَّيْنِ»; 18:96 «حَتَّىٰٓ إِذَا سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ قَالَ ٱنفُخُوا۟ ۖ حَتَّىٰٓ إِذَا جَعَلَهُۥ نَارًۭا قَالَ»
+  - activation: The route’s arrival formula is reused inside the build, where each reached condition is followed by the next command.
+  - limits: The cadence supports ordered thresholds; it does not show that the earlier journeys were literally manufacturing stages.
+- **S-hft-ctx_capability_exchange** [reading; support strong, relevance high] (context_delta)
+  - finding: The offered خَرْجًا is answered with a request for help and strength, then the community supplies the materials and labor. The two ءَاتُونِى commands implement that exchange as staged contributions to a shared protective work.
+  - evidence: 18:94 «فَهَلْ نَجْعَلُ لَكَ خَرْجًا»; 18:95 «مَا مَكَّنِّى فِيهِ رَبِّى خَيْرٌۭ فَأَعِينُونِى بِقُوَّةٍ»; 18:96 «ءَاتُونِى زُبَرَ ٱلْحَدِيدِ»; 18:96 «قَالَ ءَاتُونِىٓ أُفْرِغْ عَلَيْهِ قِطْرًۭا»
+  - activation: The passage contrasts the proposed payment with enabled capacity and assistance, then turns that assistance into specific material deliveries and work.
+  - limits: It does not detail a formal contract or say that every contribution came from every member of the community.
+- **S-hft-ctx_repairing_corruption** [reading; support strong, relevance high] (context_delta)
+  - finding: The build answers the people’s report of فساد with a رَدْمًا across the vulnerable interval: the focus levels material between the faces, and the next verse reports that the threat cannot get over or through it. This reads as targeted closure of a dangerous gap.
+  - evidence: 18:94 «إِنَّ يَأْجُوجَ وَمَأْجُوجَ مُفْسِدُونَ فِى ٱلْأَرْضِ»; 18:95 «أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا»; 18:96 «سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ»; 18:97 «أَن يَظْهَرُوهُ وَمَا ٱسْتَطَٰعُوا۟ لَهُۥ نَقْبًۭا»
+  - activation: The stated disorder, the gap-filling noun رَدْمًا, and the reported resistance connect the construction to a particular protective need.
+  - limits: The passage identifies a dangerous interval but does not say a former barrier had been breached or describe the threat’s route through it.
+- **S-hft-ctx_paired_abutments** [reading; support strong, relevance high] (context_delta)
+  - finding: The paired geography is repeated from بَيْنَ ٱلسَّدَّيْنِ to بَيْنَ ٱلصَّدَفَيْنِ; the fill is likewise described between the protected group and the threat. This supports hearing the build as a coupled span fitted to two existing sides.
+  - evidence: 18:93 «بَيْنَ ٱلسَّدَّيْنِ»; 18:95 «بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا»; 18:96 «سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ»
+  - activation: The passage repeats dual sides and between-relations immediately before and during the build.
+  - limits: The duals support paired faces, but do not establish engineering details such as load transfer or the structure’s anchoring.
+- **S-hft-ctx_two_failure_modes** [reading; support strong, relevance high] (context_delta)
+  - finding: The outcome names two distinct failures: the people cannot يَظْهَرُوهُ, and cannot make a نَقْبًا through it. This frames the barrier as resisting both ascent and penetration, complementing the focus’s fitted span and composite materials.
+  - evidence: 18:96 «سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ»; 18:97 «فَمَا ٱسْطَٰعُوٓا۟ أَن يَظْهَرُوهُ وَمَا ٱسْتَطَٰعُوا۟ لَهُۥ نَقْبًۭا»
+  - activation: The following verse tests the completed structure in two separately worded ways.
+  - limits: The text reports the two failures but does not explicitly assign overtopping resistance to the leveling or penetration resistance to a particular material.
+- **S-hft-ctx_bounded_mercy** [reading; support strong, relevance high] (context_delta)
+  - finding: The barrier is effective mercy within a stated time horizon: after calling it رَحْمَةٌ مِّن رَّبِّى, Dhul-Qarnayn says that when the promise comes God will make it دَكَّاءَ. The structure’s efficacy does not make it permanent.
+  - evidence: 18:97 «فَمَا ٱسْطَٰعُوٓا۟ أَن يَظْهَرُوهُ وَمَا ٱسْتَطَٰعُوا۟ لَهُۥ نَقْبًۭا»; 18:98 «هَٰذَا رَحْمَةٌۭ مِّن رَّبِّى ۖ فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ»
+  - activation: The barrier’s success is followed immediately by its attribution as mercy and a conditional statement of its flattening.
+  - limits: The passage gives the promised reversal but does not specify when it occurs or identify the promise beyond the wording here.
+- **S-hft-base_boundary_by_connection** [reading; support medium, relevance high] (baseline_model)
+  - finding: The barrier is described through the relation it creates: the iron is leveled between paired faces, filling the interval whose closure separates the protected people from their threat. The work makes a boundary by joining a gap’s sides through material.
+  - evidence: 18:94 «أَن تَجْعَلَ بَيْنَنَا وَبَيْنَهُمْ سَدًّۭا»; 18:95 «أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا»; 18:96 «سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ»
+  - activation: The requested separation and the focus’s between-the-faces operation describe the same protective geometry from purpose and process.
+  - limits: Connection is an inference from the spatial wording; the text does not give a technical account of how the new barrier joins to each face.
+- **S-hft-out_shell_laminate** [open; support weak, relevance high] (surprising_valid_outlier)
+  - finding: زُبَرَ ٱلْحَدِيدِ and poured قِطْرًا over it allow an as-if core-and-skin model: discrete iron pieces form a body and a flowing material covers or seals it. ٱلصَّدَفَيْنِ also raises a possible shell image alongside its role as the two sides of the pass.
+  - evidence: 18:96 «زُبَرَ ٱلْحَدِيدِ»; 18:96 «بَيْنَ ٱلصَّدَفَيْنِ»; 18:96 «أُفْرِغْ عَلَيْهِ قِطْرًۭا»
+  - missing: Dictionary or Quranic usage evidence is needed to establish whether صدف carries an active shell sense here and whether قطر supports a coating sense; evidence that these senses are activated together could support the laminate reading. The verse itself establishes iron pieces, two sides, and pouring over the iron.
+- **S-hft-out_materialized_utterance** [open; support weak, relevance high] (surprising_valid_outlier)
+  - finding: A possible further reading is that the barrier becomes a durable public statement: the episode begins with a community that barely understands قول, and ends with a visible structure that enforces a shared limit. The proposed link through زُبَرَ, قول, and disclosure remains unresolved.
+  - evidence: 18:93 «لَّا يَكَادُونَ يَفْقَهُونَ قَوْلًۭا»; 18:96 «ءَاتُونِى زُبَرَ ٱلْحَدِيدِ»; 18:83 «قُلْ سَأَتْلُوا۟ عَلَيْكُم مِّنْهُ ذِكْرًا»
+  - missing: Dictionary or Quran-wide usage evidence is needed for a writing or record sense of زُبَرَ and for a sign or disclosure sense that could link the constructed boundary to speech or reminder. The scene does not explicitly describe reading or interpreting the barrier.
+- **S-hft-out_hydraulic_casting** [open; support weak, relevance medium] (surprising_valid_outlier)
+  - finding: The wording أُفْرِغْ عَلَيْهِ قِطْرًا supports a liquid-pour analogy, and the earlier عين حَمِئَةٍ offers a possible fluid-filled setting to compare with. A casting model would treat the iron assembly as a receiving body for controlled molten flow.
+  - evidence: 18:86 «تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ»; 18:96 «أُفْرِغْ عَلَيْهِ قِطْرًۭا»
+  - missing: Evidence is needed that the earlier عين scene is linked to the construction, and that the iron arrangement functions as a mold or lined cavity into which qitr flows. The focus says the liquid is poured over the structure, not that it fills a cavity.
+
+Notes:
+- S-نفخ [support strong, relevance medium] The plural command ٱنفُخُوا۟ gives blowing a human, technical role in heating the iron; three verses later the same root appears in the passive وَنُفِخَ فِى ٱلصُّورِ before the gathering of people. The root carries the narrative from controlled craft to an eschatological blast.
+- S-نور [support strong, relevance medium] The focus نارًا is an operational heat-state of the iron, while the other fire-noun occurrences in this surah name the fire prepared for wrongdoers and seen by criminals. The same fire vocabulary serves construction here and punishment elsewhere.
+- S-جعل [support medium, relevance medium] The focus form جَعَلَهُۥ makes the iron enter a fire-state, joining the surah’s wider use of جعل for assigning material a condition: the earth is made زِينَةً and later صَعِيدًا جُرُزًا. This places the heated iron within a surah where material states can be imposed and changed.
+- S-سوي [support medium, relevance medium] The focus سَاوَىٰ and the earlier سَوَّىٰكَ رَجُلًا share a root associated here with bringing something into form: one levels between two faces, the other fashions a human being. The root can lend the engineering a sense of fitted completion.
+
+### 2.4 Related passages (inter-ayah targets, the same people, formula families)
+
+83 readings and open observations, 23 notes, 0 misreadings rejected; other items with nothing to add: {'no-link': 57, 'same-as': 3}.
+
+- **R-2:127** [reading; support strong, relevance high] inter-ayah target
+  - finding: The barrier joins the Quran’s scenes of communal building: Abraham and Ishmael raise the House’s foundations together, while Dhu al-Qarnayn asks people to help build a defensive rampart.
+  - evidence: 2:127 «وَإِذْ يَرْفَعُ إِبْرَٰهِۦمُ ٱلْقَوَاعِدَ مِنَ ٱلْبَيْتِ وَإِسْمَٰعِيلُ»; 18:95 «فَأَعِينُونِى بِقُوَّةٍ أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا»; 18:96 «ءَاتُونِى زُبَرَ ٱلْحَدِيدِ»
+  - activation: The focus follows Dhu al-Qarnayn’s request for help with a construction project and specifies the materials and labor.
+  - limits: The House is sacred and raised by two named builders; the rampart is a communal defense project with a different purpose.
+- **R-2:250** [reading; support strong, relevance high] inter-ayah target
+  - finding: The prayer أَفْرِغْ عَلَيْنَا صَبْرًا uses the focus’s same verb-and-preposition frame, but asks God to pour patience onto people; Dhu al-Qarnayn orders a literal pour of metal onto the barrier.
+  - evidence: 2:250 «قَالُوا۟ رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًۭا»; 18:96 «قَالَ ءَاتُونِىٓ أُفْرِغْ عَلَيْهِ قِطْرًۭا»
+  - activation: The focus supplies a concrete object, قطر, for a pouring expression also used with the abstract صبر.
+  - limits: The battle prayer is addressed to God and seeks steadfastness; the focus is a human instruction about metallurgical work.
+- **R-7:126** [reading; support strong, relevance high] inter-ayah target
+  - finding: The threatened believers’ prayer أَفْرِغْ عَلَيْنَا صَبْرًا repeats the focus’s pour-upon frame: there, patience is requested for people facing reprisals; here, molten metal is poured onto a structure meant to protect a community.
+  - evidence: 7:126 «رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًۭا»; 7:127 «قَالَ سَنُقَتِّلُ أَبْنَآءَهُمْ وَنَسْتَحْىِۦ نِسَآءَهُمْ»; 18:96 «قَالَ ءَاتُونِىٓ أُفْرِغْ عَلَيْهِ قِطْرًا»
+  - activation: The focus’s literal pouring of metal gives concrete form to the same verb and preposition used in the prayer for patience.
+  - limits: The prayers ask God to grant an inward quality; Dhu al-Qarnayn directs a physical operation, and the passages do not identify the speakers.
+- **R-7:143** [reading; support strong, relevance high] inter-ayah target
+  - finding: The barrier’s later fate echoes the mountain at Sinai: both are described with جَعَلَهُۥ دَكًّا, placing Dhu al-Qarnayn’s successful construction within a Quranic pattern of terrain leveled by divine action.
+  - evidence: 7:143 «فَلَمَّا تَجَلَّىٰ رَبُّهُۥ لِلْجَبَلِ جَعَلَهُۥ دَكًّۭا»; 18:98 «فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ»; 18:96 «حَتَّىٰٓ إِذَا جَعَلَهُۥ نَارًۭا»
+  - activation: The immediate continuation of the focus says the barrier will be leveled when the Lord’s promise comes, using nearly the same result phrase as 7:143.
+  - limits: At Sinai the mountain is leveled after the Lord’s manifestation; 18:98 speaks of the barrier at the promised event and does not identify the scenes.
+- **R-11:43** [reading; support strong, relevance high] inter-ayah target
+  - finding: Noah says that on that day no protector can save anyone from God’s command except whom God shows mercy; Dhu al-Qarnayn likewise calls his barrier mercy, then says it will be flattened when his Lord’s promise comes. The juxtaposition makes the wall’s protection real but bounded by divine will.
+  - evidence: 11:43 «لَا عَاصِمَ ٱلْيَوْمَ مِنْ أَمْرِ ٱللَّهِ إِلَّا مَن رَّحِمَ»; 11:43 «وَحَالَ بَيْنَهُمَا ٱلْمَوْجُ فَكَانَ مِنَ ٱلْمُغْرَقِينَ»; 18:98 «هَٰذَا رَحْمَةٌۭ مِّن رَّبِّى ۖ فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ»
+  - activation: The focus explicitly joins a successful defense to mercy and a future divine limit.
+  - limits: Noah’s son seeks refuge from the flood, whereas the wall blocks Ya’juj and Ma’juj; the verses do not identify these dangers or outcomes as the same event.
+- **R-13:17** [reading; support strong, relevance high] inter-ayah target
+  - finding: 13:17 uses heating material in fire to obtain ornaments or useful goods, then contrasts waste with what benefits people and remains. Dhu al-Qarnayn’s heated iron and poured qitr make the focus a concrete protective object formed through the kind of fire-working invoked there, while 18:98 sets a limit on its duration.
+  - evidence: 13:17 «وَمِمَّا يُوقِدُونَ عَلَيْهِ فِى ٱلنَّارِ ٱبْتِغَآءَ حِلْيَةٍ أَوْ مَتَٰعٍۢ»; 13:17 «وَأَمَّا مَا يَنفَعُ ٱلنَّاسَ فَيَمْكُثُ فِى ٱلْأَرْضِ»; 18:96 «جَعَلَهُۥ نَارًۭا قَالَ ءَاتُونِىٓ أُفْرِغْ عَلَيْهِ قِطْرًۭا»; 18:98 «فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ»
+  - activation: The focus names iron, fire, and molten material, and identifies the result as mercy for the community.
+  - limits: 13:17 does not name iron or copper and uses smelting in a parable; it does not declare Dhu al-Qarnayn’s wall to be an allegory for truth.
+- **R-15:29** [reading; support strong, relevance high] inter-ayah target
+  - finding: Both scenes place proportioning before nafkh: God says سَوَّيْتُهُۥ وَنَفَخْتُهُۥ in forming Adam, while Dhu al-Qarnayn levels the iron between the slopes and orders the workers to blow. The shared sequence makes the barrier sound like an act of ordered formation, without equating metallurgy with human creation.
+  - evidence: 15:29 «فَإِذَا سَوَّيْتُهُۥ وَنَفَخْتُ فِيهِ مِن رُّوحِى»; 18:96 «سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ قَالَ ٱنفُخُوا۟»
+  - activation: The focus puts leveling and blowing in that order, matching both the root س و ي and the root ن ف خ in 15:29.
+  - limits: The actors, objects, and effects differ: 15:29 speaks of God forming a human and breathing spirit into him; 18:96 orders workers to heat iron.
+- **R-18:16** [reading; support strong, relevance high] inter-ayah target
+  - finding: The youths are directed to a cave where their Lord will spread mercy and arrange a way forward; Dhu al-Qarnayn’s barrier gives another threatened group refuge, which he too names mercy from his Lord. The surah links retreat into a shelter with a built defense as distinct forms of protection.
+  - evidence: 18:16 «فَأْوُۥٓا۟ إِلَى ٱلْكَهْفِ يَنشُرْ لَكُمْ رَبُّكُم مِّن رَّحْمَتِهِۦ»; 18:98 «هَٰذَا رَحْمَةٌۭ مِّن رَّبِّى»; 18:97 «فَمَا ٱسْطَٰعُوٓا۟ أَن يَظْهَرُوهُ وَمَا ٱسْتَطَٰعُوا۟ لَهُۥ نَقْبًۭا»
+  - activation: Both groups face danger, and both episodes explicitly frame the provision of shelter through the Lord’s mercy.
+  - limits: The youths take refuge in a cave without constructing it; the barrier is built by coordinated human labor.
+- **R-18:77** [reading; support strong, relevance high] inter-ayah target
+  - finding: Khidr repairs a wall despite the villagers’ refusal to host him and receives no wage; Dhu al-Qarnayn likewise declines the offered payment and asks the community to contribute labor. The two construction episodes pair protective work with service that is not done for a fee.
+  - evidence: 18:77 «فَوَجَدَا فِيهَا جِدَارًۭا يُرِيدُ أَن يَنقَضَّ فَأَقَامَهُۥ»; 18:77 «قَالَ لَوْ شِئْتَ لَتَّخَذْتَ عَلَيْهِ أَجْرًۭا»; 18:94 «فَهَلْ نَجْعَلُ لَكَ خَرْجًا عَلَىٰٓ أَن تَجْعَلَ بَيْنَنَا وَبَيْنَهُمْ سَدًّۭا»; 18:95 «مَا مَكَّنِّى فِيهِ رَبِّى خَيْرٌۭ فَأَعِينُونِى بِقُوَّةٍ»
+  - activation: Both episodes include a protective structure, a discussion of payment, and an agent who chooses construction over a wage.
+  - limits: Khidr works alone for the orphans’ benefit after an unwelcoming encounter; Dhu al-Qarnayn organizes a community’s defense against invasion.
+- **R-18:82** [reading; support strong, relevance high] inter-ayah target
+  - finding: Khidr explains that the repaired wall preserves an orphaned treasure until the boys mature and calls the act mercy from their Lord; Dhu al-Qarnayn calls his barrier mercy from his Lord too. The repeated phrase casts both structures as protection entrusted to a divinely set time.
+  - evidence: 18:82 «فَأَرَادَ رَبُّكَ أَن يَبْلُغَآ أَشُدَّهُمَا وَيَسْتَخْرِجَا كَنزَهُمَا رَحْمَةًۭ مِّن رَّبِّكَ»; 18:98 «هَٰذَا رَحْمَةٌۭ مِّن رَّبِّى»; 18:82 «ذَٰلِكَ تَأْوِيلُ مَا لَمْ تَسْطِع عَّلَيْهِ صَبْرًا»
+  - activation: The focus’s own phrase رحمة من ربي echoes Khidr’s explanation of the wall’s purpose and limited duration.
+  - limits: The earlier wall protects specific orphans’ treasure until maturity; the barrier protects a community from hostile peoples until God’s promise.
+- **R-18:84** [reading; support strong, relevance high] inter-ayah target
+  - finding: The opening statement that God enabled Dhu al-Qarnayn is echoed when he says his Lord’s enabling is better than payment. The focus’s organized use of iron, fire, and labor therefore follows a story that first grounds his practical capacity in God’s grant.
+  - evidence: 18:84 «إِنَّا مَكَّنَّا لَهُۥ فِى ٱلْأَرْضِ وَءَاتَيْنَٰهُ مِن كُلِّ شَىْءٍۢ سَبَبًۭا»; 18:95 «مَا مَكَّنِّى فِيهِ رَبِّى خَيْرٌۭ فَأَعِينُونِى بِقُوَّةٍ»
+  - activation: The repeated مكن root ties the account’s initial grant of means to Dhu al-Qarnayn’s answer when the community offers payment.
+  - limits: 18:84 does not specify that the granted means include ironworking or the exact method described in 18:96.
+- **R-18:85** [reading; support strong, relevance high] inter-ayah target
+  - finding: فَأَتْبَعَ سَبَبًا starts a formula repeated at 18:89 and 18:92; each repetition launches another journey, and the third reaches the two barriers before the building project. The focus is the culmination of a repeated pursuit of means, not an isolated feat.
+  - evidence: 18:85 «فَأَتْبَعَ سَبَبًا»; 18:89 «ثُمَّ أَتْبَعَ سَبَبًا»; 18:92 «ثُمَّ أَتْبَعَ سَبَبًا»; 18:93 «حَتَّىٰٓ إِذَا بَلَغَ بَيْنَ ٱلسَّدَّيْنِ»
+  - activation: The focus occurs at the destination of the third journey launched by the repeated formula.
+  - limits: The text does not specify that each sabab is a technical instrument or that the earlier journeys were undertaken to prepare for this barrier.
+- **related_2.X1** [reading; support strong, relevance high] 
+  - finding: The inhabitants ask for a سدّ, Dhu al-Qarnayn answers with a ردم, and the next verses report that attackers cannot cross it before he calls it mercy and foretells its leveling. This sequence makes the focus’s metalwork a successful but temporary answer to a specific defensive request.
+  - evidence: 18:94 «فَهَلْ نَجْعَلُ لَكَ خَرْجًا عَلَىٰٓ أَن تَجْعَلَ بَيْنَنَا وَبَيْنَهُمْ سَدًّۭا»; 18:96 «ءَاتُونِى زُبَرَ ٱلْحَدِيدِ»; 18:97 «فَمَا ٱسْطَٰعُوٓا۟ أَن يَظْهَرُوهُ وَمَا ٱسْتَطَٰعُوا۟ لَهُۥ نَقْبًۭا»; 18:98 «هَٰذَا رَحْمَةٌۭ مِّن رَّبِّى ۖ فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ»
+  - activation: The immediate outcome defines both what the construction accomplishes and when it will cease to stand.
+  - limits: The verses do not say when the promise comes or that the barrier’s removal coincides with the attackers’ present attempt.
+- **R-18:87** [reading; support strong, relevance high] inter-ayah target
+  - finding: The passage sets the barrier beside another mode of Dhū al-Qarnayn’s rule: he says wrongdoers will be punished, then answers a people threatened by corrupters by building protection.
+  - evidence: 18:87 «أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ ثُمَّ يُرَدُّ إِلَىٰ رَبِّهِۦ فَيُعَذِّبُهُۥ عَذَابًۭا نُّكْرًۭا»; 18:94 «إِنَّ يَأْجُوجَ وَمَأْجُوجَ مُفْسِدُونَ فِى ٱلْأَرْضِ»; 18:96 «ءَاتُونِى زُبَرَ ٱلْحَدِيدِ»
+  - activation: The same ruler moves from judgment of wrong to a practical response to the people’s stated danger.
+  - limits: The text does not call the barrier a punishment or explicitly connect the two episodes as one policy.
+- **R-18:93** [reading; support strong, relevance high] inter-ayah target
+  - finding: The repeated بين locates the work as closure of a particular gap: Dhū al-Qarnayn arrives between السدين, then levels the space between الصدفين.
+  - evidence: 18:93 «بَيْنَ ٱلسَّدَّيْنِ»; 18:96 «سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ»
+  - activation: Both verses place Dhū al-Qarnayn between paired landforms at the same stage of the journey.
+  - limits: The two nouns are not identical, so the wording does not establish that السدين and الصدفين are exact synonyms.
+- **R-18:94** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus answers a request for a سدّ between the people and the corrupters by specifying a rدم and its construction from iron, heat, and copper.
+  - evidence: 18:94 «فَهَلْ نَجْعَلُ لَكَ خَرْجًا عَلَىٰٓ أَن تَجْعَلَ بَيْنَنَا وَبَيْنَهُمْ سَدًّۭا»; 18:95 «أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا»; 18:96 «ءَاتُونِى زُبَرَ ٱلْحَدِيدِ»
+  - activation: The people’s offer and stated purpose immediately precede the focus’s material instructions.
+  - limits: The verses do not explain a technical distinction between سدّ and ردم beyond using those terms for the requested and promised works.
+- **R-18:95** [reading; support strong, relevance high] inter-ayah target
+  - finding: The repeated plural commands in the focus enact the arrangement announced here: Dhū al-Qarnayn declines payment, asks for strength, and directs a cooperative build.
+  - evidence: 18:95 «مَا مَكَّنِّى فِيهِ رَبِّى خَيْرٌۭ فَأَعِينُونِى بِقُوَّةٍ»; 18:96 «ءَاتُونِى زُبَرَ ٱلْحَدِيدِ»; 18:96 «قَالَ ٱنفُخُوا۟»
+  - activation: The focus’s repeated commands address a group and follow his request that they assist him.
+  - limits: The passage does not specify whether the helpers supply labor, tools, or both; it does not describe their payment arrangements beyond the declined offer.
+- **R-18:97** [reading; support strong, relevance high] inter-ayah target
+  - finding: The next verse states what the focus’s process achieves: the completed barrier cannot be climbed or pierced.
+  - evidence: 18:96 «أُفْرِغْ عَلَيْهِ قِطْرًۭا»; 18:97 «فَمَا ٱسْطَٰعُوٓا۟ أَن يَظْهَرُوهُ وَمَا ٱسْتَطَٰعُوا۟ لَهُۥ نَقْبًۭا»
+  - activation: The result follows immediately after the iron is heated and coated with molten metal.
+  - limits: The verses report the barrier’s effect but do not specify its dimensions or how long it resists attack.
+- **R-18:98** [reading; support strong, relevance high] inter-ayah target
+  - finding: Dhū al-Qarnayn names the barrier mercy from his Lord and sets a limit to that protection: when the Lord’s promise comes, the barrier will be flattened.
+  - evidence: 18:98 «هَٰذَا رَحْمَةٌۭ مِّن رَّبِّى»; 18:98 «فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ»
+  - activation: The pronoun هَٰذَا refers back to the barrier just built and tested in the preceding verses.
+  - limits: The verse names the divine promise but does not specify its date or explain how the barrier will be flattened.
+- **R-21:80** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus’s barrier and the armor-making in 21:80 are two forms of defensive manufacture: one protects a people from attack, the other protects bodies from battle.
+  - evidence: 18:96 «ءَاتُونِى زُبَرَ ٱلْحَدِيدِ»; 21:80 «وَعَلَّمْنَٰهُ صَنْعَةَ لَبُوسٍۢ لَّكُمْ لِتُحْصِنَكُم مِّنۢ بَأْسِكُمْ»
+  - activation: The focus’s ironwork is built to answer the people’s request for protection from corrupters.
+  - limits: 21:80 does not name iron, and the verses do not say that Dhū al-Qarnayn’s barrier was armor or made by the same method.
+- **R-21:96** [reading; support strong, relevance high] inter-ayah target
+  - finding: The other passage names the force that the pass community fears: after its opening, Gog and Magog stream down, giving a cross-surah outcome to the threat named before the focus.
+  - evidence: 18:94 «إِنَّ يَأْجُوجَ وَمَأْجُوجَ مُفْسِدُونَ فِى ٱلْأَرْضِ»; 18:98 «فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ»; 21:96 «حَتَّىٰٓ إِذَا فُتِحَتْ يَأْجُوجُ وَمَأْجُوجُ وَهُم مِّن كُلِّ حَدَبٍۢ يَنسِلُونَ»
+  - activation: The focus belongs to the construction scene that begins with the people’s explicit naming of Gog and Magog.
+  - limits: 21:96 does not mention the barrier or state that its opening is identical to the flattening in 18:98.
+- **R-22:21** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus turns iron and molten metal toward defense, while 22:20–21 place heated substance and iron clubs in a scene of punishment; the shared materials carry opposite functions.
+  - evidence: 18:96 «جَعَلَهُۥ نَارًۭا»; 18:96 «قِطْرًۭا»; 22:20 «يُصْهَرُ بِهِۦ مَا فِى بُطُونِهِمْ وَٱلْجُلُودُ»; 22:21 «وَلَهُم مَّقَٰمِعُ مِنْ حَدِيدٍۢ»
+  - activation: The focus’s fire, iron, and molten metal make the punitive scene’s material vocabulary audible in a different use.
+  - limits: The verses do not equate the focus’s fire with hellfire or describe the same objects or participants.
+- **R-25:53** [reading; support strong, relevance high] inter-ayah target
+  - finding: The clause جَعَلَ بَيْنَهُمَا بَرْزَخًا parallels Dhū al-Qarnayn’s promise أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا: both frame boundary-making as placing a separation between two parties.
+  - evidence: 25:53 «وَجَعَلَ بَيْنَهُمَا بَرْزَخًۭا وَحِجْرًۭا مَّحْجُورًۭا»; 18:95 «أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا»; 18:98 «هَٰذَا رَحْمَةٌۭ مِّن رَّبِّى»
+  - activation: The focus describes a barrier between threatened people and their attackers and calls it mercy from the Lord.
+  - limits: 25:53 describes waters and does not attribute the boundary to human construction; the verses do not state that Dhū al-Qarnayn imitates it.
+- **R-29:30** [reading; support strong, relevance high] inter-ayah target
+  - finding: The prayer for aid against القوم المفسدين shares the corruption root with the people’s description of Gog and Magog as مفسدون; Dhū al-Qarnayn answers such a threat by accepting their assistance and building a barrier.
+  - evidence: 29:30 «قَالَ رَبِّ ٱنصُرْنِى عَلَى ٱلْقَوْمِ ٱلْمُفْسِدِينَ»; 18:94 «إِنَّ يَأْجُوجَ وَمَأْجُوجَ مُفْسِدُونَ فِى ٱلْأَرْضِ»; 18:95 «فَأَعِينُونِى بِقُوَّةٍ»
+  - activation: The focus names the threatened group as corrupters and contains a direct request for strength.
+  - limits: The speakers and communities differ, and 29:30 is a prayer to God rather than a construction plan.
+- **R-34:10** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus’s use of iron follows a Quranic pattern of ironwork as a Lord-enabled capacity: David receives فضلًا and iron is made pliable for him, while Dhū al-Qarnayn says his Lord’s enablement is better.
+  - evidence: 34:10 «وَلَقَدْ ءَاتَيْنَا دَاوُۥدَ مِنَّا فَضْلًۭا»; 34:10 «وَأَلَنَّا لَهُ ٱلْحَدِيدَ»; 18:95 «مَا مَكَّنِّى فِيهِ رَبِّى خَيْرٌۭ»; 18:96 «زُبَرَ ٱلْحَدِيدِ»
+  - activation: The focus names iron as its principal material and explicitly credits the Lord with enabling Dhū al-Qarnayn.
+  - limits: The passages describe different rulers and different ironworking; the focus does not say its iron was softened as David’s was.
+- **R-34:11** [reading; support strong, relevance high] inter-ayah target
+  - finding: David’s protective craft is wearable, while Dhū al-Qarnayn’s is landscape-scale: both turn skilled work into protection from external force.
+  - evidence: 34:11 «أَنِ ٱعْمَلْ سَٰبِغَٰتٍۢ وَقَدِّرْ فِى ٱلسَّرْدِ»; 21:80 «صَنْعَةَ لَبُوسٍۢ لَّكُمْ لِتُحْصِنَكُم مِّنۢ بَأْسِكُمْ»; 18:96 «ءَاتُونِى زُبَرَ ٱلْحَدِيدِ»
+  - activation: Both scenes join practical manufacture with defensive use; 21:80 states the armor’s protective purpose explicitly.
+  - limits: The focus does not call the barrier armor or describe the same technique used for David’s work.
+- **R-34:12** [reading; support strong, relevance high] inter-ayah target
+  - finding: Saba 34:12 names a spring of al-qiṭr and jinn working by their Lord’s permission; the focus has Dhul-Qarnayn request qiṭr to pour over a barrier. The shared rare material term links two scenes of ruler-directed construction while assigning the material supply differently.
+  - evidence: 34:12 «وَأَسَلْنَا لَهُۥ عَيْنَ ٱلْقِطْرِ ۖ وَمِنَ ٱلْجِنِّ مَن يَعْمَلُ بَيْنَ يَدَيْهِ بِإِذْنِ رَبِّهِۦ»; 18:96 «ءَاتُونِىٓ أُفْرِغْ عَلَيْهِ قِطْرًۭا»
+  - activation: The focus’s request for qiṭr and its construction sequence activate the exact material echo.
+  - limits: The verses do not establish identical projects or that the focus’s qiṭr comes from a spring.
+- **R-36:80** [reading; support strong, relevance high] inter-ayah target
+  - finding: 36:80 says God made fire for people from green trees; the focus says Dhul-Qarnayn made the iron into fire. The parallel makes the focus’s furnace stage legible alongside another Quranic making of fire, while distinguishing divine provision from human metalwork.
+  - evidence: 36:80 «ٱلَّذِى جَعَلَ لَكُم مِّنَ ٱلشَّجَرِ ٱلْأَخْضَرِ نَارًۭا»; 18:96 «جَعَلَهُۥ نَارًۭا»
+  - activation: The exact جعل … نار construction in both ayat activates the link.
+  - limits: The focus describes heated iron and human work; 36:80 describes fire made available from trees by God.
+- **R-38:72** [reading; support strong, relevance high] inter-ayah target
+  - finding: 38:72 sequences proportioning with blowing: sawwaytuhu wa nafakhtu. The focus likewise moves from leveling to a plural command to blow, then to a fire-state. This is a process parallel between forming a human and preparing ironwork, with radically different objects and outcomes.
+  - evidence: 38:72 «فَإِذَا سَوَّيْتُهُۥ وَنَفَخْتُ فِيهِ مِن رُّوحِى»; 18:96 «سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ قَالَ ٱنفُخُوا۟»
+  - activation: The adjacent leveling and blowing stages activate the sequence-level parallel.
+  - limits: The forms and meanings differ: 38:72 describes divine creation and spirit; 18:96 describes leveling a gap and blowing heat into iron.
+- **R-43:38** [reading; support strong, relevance high] inter-ayah target
+  - finding: 43:38 wishes for the greatest distance between two companions; the focus levels and fills the space between two cliff faces. The shared بين makes a striking inverse spatial relation: one scene longs to widen the interval, the other closes it with a barrier.
+  - evidence: 43:38 «يَٰلَيْتَ بَيْنِى وَبَيْنَكَ بُعْدَ ٱلْمَشْرِقَيْنِ»; 18:96 «سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ»
+  - activation: Both ayat explicitly mark what lies between two sides or parties, but assign opposite effects to that interval.
+  - limits: 43:38 speaks of wished-for separation between companions, not a physical wall.
+- **R-55:19** [reading; support strong, relevance high] inter-ayah target
+  - finding: 55:19 begins a paired-sea scene by saying the seas meet; the next ayah places a barzakh between them. Together they provide a boundary image built from two opposed domains, comparable to the focus’s two cliff faces and the work occupying their interval.
+  - evidence: 55:19 «مَرَجَ ٱلْبَحْرَيْنِ يَلْتَقِيَانِ»; 55:20 «بَيْنَهُمَا بَرْزَخٌۭ لَّا يَبْغِيَانِ»; 18:96 «بَيْنَ ٱلصَّدَفَيْنِ»
+  - activation: The focus’s paired cliffs activate the adjoining sea pair and intervening boundary in 55:19–20.
+  - limits: The seas’ barzakh is not identified as a built rampart or as ironwork.
+- **R-55:20** [reading; support strong, relevance high] inter-ayah target
+  - finding: The barzakh between the two seas prevents either from transgressing; the focus’s barrier occupies the space between two cliffs and stops passage. Both present an intervening boundary as a regulator between paired sides.
+  - evidence: 55:20 «بَيْنَهُمَا بَرْزَخٌۭ لَّا يَبْغِيَانِ»; 18:96 «سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ»
+  - activation: The intervening barrier and its restraining function activate the comparison.
+  - limits: The focus’s wall is constructed by people; 55:20 does not describe its barzakh as a human work.
+- **R-57:13** [reading; support strong, relevance high] inter-ayah target
+  - finding: 57:13’s wall has a gate and separates an inner side of mercy from an outer side of punishment. The focus’s barrier also separates populations and is later called mercy from the Lord, making these passages close boundary-and-mercy counterparts.
+  - evidence: 57:13 «فَضُرِبَ بَيْنَهُم بِسُورٍۢ لَّهُۥ بَابٌۢ بَاطِنُهُۥ فِيهِ ٱلرَّحْمَةُ وَظَٰهِرُهُۥ مِن قِبَلِهِ ٱلْعَذَابُ»; 18:98 «هَٰذَا رَحْمَةٌۭ مِّن رَّبِّى»
+  - activation: The focus’s separating barrier and its explicit naming as mercy activate the wall-and-mercy scene.
+  - limits: The focus does not mention a gate or divide believers from hypocrites; the two barriers serve different judgments.
+- **R-57:25** [reading; support strong, relevance high] inter-ayah target
+  - finding: 57:25 identifies iron as bearing severe might and benefits for people. The focus realizes the constructive side of that pairing by making iron into a barrier that protects people.
+  - evidence: 57:25 «وَأَنزَلْنَا ٱلْحَدِيدَ فِيهِ بَأْسٌۭ شَدِيدٌۭ وَمَنَٰفِعُ لِلنَّاسِ»; 18:96 «ءَاتُونِى زُبَرَ ٱلْحَدِيدِ»
+  - activation: The focus’s iron construction activates 57:25’s explicit account of iron’s force and human benefit.
+  - limits: 57:25 does not specify this barrier or say that iron’s benefit is exclusively protective.
+- **R-59:2** [reading; support strong, relevance high] inter-ayah target
+  - finding: The people in 59:2 trusted their fortresses to protect them from God, yet were expelled. This contrasts with the focus’s barrier, which works against the named incursion but is later declared subject to God’s appointed promise: constructed protection is effective within limits, never against divine decree.
+  - evidence: 59:2 «وَظَنُّوٓا۟ أَنَّهُم مَّانِعَتُهُمْ حُصُونُهُم مِّنَ ٱللَّهِ فَأَتَىٰهُمُ ٱللَّهُ مِنْ حَيْثُ لَمْ يَحْتَسِبُوا۟»; 18:97 «فَمَا ٱسْطَٰعُوٓا۟ أَن يَظْهَرُوهُ وَمَا ٱسْتَطَٰعُوا۟ لَهُۥ نَقْبًۭا»; 18:98 «فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ»
+  - activation: The focus first reports the barrier’s success, then states its divinely set endpoint; 59:2 supplies a contrasting failed trust in fortifications.
+  - limits: 59:2 does not refer to Dhul-Qarnayn’s wall, and the focus does not say its present defenders trust it against God.
+- **R-61:4** [reading; support strong, relevance high] inter-ayah target
+  - finding: 61:4 pictures fighting ranks as a tightly joined structure, bunyān marṣūṣ. This supplies a social counterpart to the focus’s transformation of separate iron pieces into one resistant barrier: cohesion is the shared image, though one is a community and one a wall.
+  - evidence: 61:4 «صَفًّۭا كَأَنَّهُم بُنْيَٰنٌۭ مَّرْصُوصٌۭ»; 18:96 «ءَاتُونِى زُبَرَ ٱلْحَدِيدِ»
+  - activation: The focus begins with discrete pieces and ends with a barrier; 61:4 makes solidity through joining a metaphor for people.
+  - limits: 61:4 does not mention iron or the focus’s material process.
+- **R-f-جعل-سوي-نفخ** [reading; support strong, relevance high] formula family (ج ع ل + س و ي + ن ف خ; 1 ayat: 32:9)
+  - finding: 32:9 sequences proportioning, blowing spirit into the formed human, then granting faculties. The focus also places a س و ي form before a ن ف خ form, but turns iron toward a fire-state. The shared sequence makes human craft a bounded counterpart to divine life-giving formation.
+  - evidence: 32:9 «ثُمَّ سَوَّىٰهُ وَنَفَخَ فِيهِ مِن رُّوحِهِۦ»; 18:96 «سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ قَالَ ٱنفُخُوا۟»
+  - activation: The focus’s adjacent leveling and blowing stages match the root sequence in 32:9.
+  - limits: The verbs have different forms and objects; 18:96 does not describe spirit or creation of life.
+- **R-f-جعل-سوي** [reading; support strong, relevance high] formula family (ج ع ل + س و ي; 7 ayat: 5:60, 9:19, 19:10, 20:58, 22:25, 41:10, 45:21)
+  - finding: 20:58 asks Moses to make an appointment between the disputants at an even place; the focus levels the space between two cliff faces. The shared make/between/even spatial pattern links a contest ground with a constructed frontier, though the result differs.
+  - evidence: 20:58 «فَٱجْعَلْ بَيْنَنَا وَبَيْنَكَ مَوْعِدًۭا لَّا نُخْلِفُهُۥ نَحْنُ وَلَآ أَنتَ مَكَانًۭا سُوًۭى»; 18:96 «سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ»
+  - activation: The focus’s between-space and leveling activate the appointment’s between-space and even place.
+  - limits: 20:58 concerns a place and time for a contest, not a barrier or ironwork.
+- **R-f-جعل-نفخ** [reading; support strong, relevance high] formula family (ج ع ل + ن ف خ; 1 ayat: 21:91)
+  - finding: 21:91 sequences blowing into Maryam and making her and her son a sign; the focus likewise has a blowing command followed by making the object into fire. The shared ن ف خ then ج ع ل sequence contrasts divine action in a miraculous birth with human metallurgical work.
+  - evidence: 21:91 «فَنَفَخْنَا فِيهَا مِن رُّوحِنَا وَجَعَلْنَٰهَا وَٱبْنَهَآ ءَايَةًۭ لِّلْعَٰلَمِينَ»; 18:96 «قَالَ ٱنفُخُوا۟ ۖ حَتَّىٰٓ إِذَا جَعَلَهُۥ نَارًۭا»
+  - activation: Both ayat order blowing before a making/result clause.
+  - limits: The focus describes heated iron; 21:91 describes divine spirit and a sign, not a technical process.
+- **R-f-حدد-نور** [reading; support strong, relevance high] formula family (ح د د + ن و ر; 1 ayat: 9:63)
+  - finding: 9:63 pairs a form of ḥ-d-d in opposition to God with the fire of Hell; the focus pairs al-ḥadīd, iron, with nār in a constructive process. The exact root pair supplies a sharp counter-image: iron and fire can belong to a useful work, while opposition to God ends in punitive fire.
+  - evidence: 9:63 «مَن يُحَادِدِ ٱللَّهَ وَرَسُولَهُۥ فَأَنَّ لَهُۥ نَارَ جَهَنَّمَ»; 18:96 «زُبَرَ ٱلْحَدِيدِ»; 18:96 «جَعَلَهُۥ نَارًۭا»
+  - activation: The focus brings together words from the same two roots that 9:63 places in opposition and punishment.
+  - limits: The verses do not state a deliberate wordplay, and ironwork is not itself an ethical judgment.
+- **R-f-سوي-نور** [reading; support strong, relevance high] formula family (س و ي + ن و ر; 1 ayat: 59:20)
+  - finding: 59:20 says the people of Fire and the people of the Garden are not equal; the focus uses a س و ي form to level a space and makes the iron نار. This co-occurrence gives the focus’s physical leveling and fire-state an eschatological lexical counterpoint, without making its fire punitive.
+  - evidence: 59:20 «لَا يَسْتَوِىٓ أَصْحَٰبُ ٱلنَّارِ وَأَصْحَٰبُ ٱلْجَنَّةِ»; 18:96 «سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ»; 18:96 «جَعَلَهُۥ نَارًۭا»
+  - activation: Both ayat bring a س و ي form and a n-w-r form into relation, with contrasting senses of equality and fire.
+  - limits: The focus levels a physical gap and heats iron; 59:20 compares the final standing of two groups.
+- **related_4.X1** [reading; support strong, relevance high] 
+  - finding: The passage moves from the people’s request for a barrier, through their contribution of strength and the iron construction, to its resistance against climbing and breach; Dhul-Qarnayn then calls it mercy while limiting it by the Lord’s promise. The focus is both a successful defense and a temporary one under divine sovereignty.
+  - evidence: 18:94 «أَن تَجْعَلَ بَيْنَنَا وَبَيْنَهُمْ سَدًّۭا»; 18:96 «ءَاتُونِى زُبَرَ ٱلْحَدِيدِ»; 18:97 «فَمَا ٱسْطَٰعُوٓا۟ أَن يَظْهَرُوهُ وَمَا ٱسْتَطَٰعُوا۟ لَهُۥ نَقْبًۭا»; 18:98 «هَٰذَا رَحْمَةٌۭ مِّن رَّبِّى ۖ فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ»
+  - activation: The passage links the completed work’s immediate effectiveness to its later leveling at the appointed promise.
+  - limits: The later endpoint does not undo the barrier’s present protection or imply it fails before that promise.
+- **R-4:78** [reading; support medium, relevance high] inter-ayah target
+  - finding: The focus’s rampart blocks attackers for a time, while 4:78 says even fortified towers cannot prevent death; 18:98 then states that the barrier itself will be leveled at the Lord’s promise.
+  - evidence: 4:78 «وَلَوْ كُنتُمْ فِى بُرُوجٍۢ مُّشَيَّدَةٍۢ»; 18:97 «فَمَا ٱسْطَٰعُوٓا۟ أَن يَظْهَرُوهُ وَمَا ٱسْتَطَٰعُوا۟ لَهُۥ نَقْبًۭا»; 18:98 «فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ»
+  - activation: The surrounding account shows both the barrier’s success against its immediate attackers and its limit at the appointed divine event.
+  - limits: The verses do not name one another; 4:78 speaks of death reaching people in towers, not of Gog and Magog.
+- **R-7:46** [reading; support medium, relevance high] inter-ayah target
+  - finding: The Quran’s other scene of a boundary between two realms describes a حِجَابٌ across which people can call to the Garden; the focus’s engineered rampart instead cannot be climbed or bored through.
+  - evidence: 7:46 «وَبَيْنَهُمَا حِجَابٌۭ»; 7:46 «وَنَادَوْا۟ أَصْحَٰبَ ٱلْجَنَّةِ أَن سَلَٰمٌ عَلَيْكُمْ»; 18:97 «فَمَا ٱسْطَٰعُوٓا۟ أَن يَظْهَرُوهُ وَمَا ٱسْتَطَٰعُوا۟ لَهُۥ نَقْبًۭا»
+  - activation: Both scenes put a separating structure between groups, while the focus’s following ayah specifies how physically impassable its barrier is.
+  - limits: The verses use different terms and describe different settings; the people calling across the حجاب are not the communities in the Dhu al-Qarnayn account.
+- **R-8:60** [reading; support medium, relevance high] inter-ayah target
+  - finding: 8:60 couples preparing strength with deterring an enemy; in the focus episode, the threatened community supplies strength for a barrier that 18:97 says attackers could neither scale nor pierce. The wall becomes a concrete defensive use of collective force.
+  - evidence: 8:60 «وَأَعِدُّوا۟ لَهُم مَّا ٱسْتَطَعْتُم مِّن قُوَّةٍۢ»; 8:60 «تُرْهِبُونَ بِهِۦ عَدُوَّ ٱللَّهِ وَعَدُوَّكُمْ»; 18:95 «فَأَعِينُونِى بِقُوَّةٍ أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا»; 18:97 «فَمَا ٱسْطَٰعُوٓا۟ أَن يَظْهَرُوهُ وَمَا ٱسْتَطَٰعُوا۟ لَهُۥ نَقْبًۭا»
+  - activation: The focus itself links the inhabitants’ aid to the wall and then reports its effectiveness against attack.
+  - limits: 8:60 concerns general military preparation, not ironwork, and neither passage says Dhu al-Qarnayn is applying that command.
+- **R-11:37** [reading; support medium, relevance high] inter-ayah target
+  - finding: Noah’s ark is a protective structure made under divine instruction; the focus gives another construction that shelters people from a threat and is later called mercy from the Lord.
+  - evidence: 11:37 «وَٱصْنَعِ ٱلْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا»; 18:94 «إِنَّ يَأْجُوجَ وَمَأْجُوجَ مُفْسِدُونَ فِى ٱلْأَرْضِ»; 18:98 «هَٰذَا رَحْمَةٌۭ مِّن رَّبِّى»
+  - activation: Both scenes answer danger to a community with a purpose-built means of protection.
+  - limits: Noah receives an explicit command to build an ark; the focus describes Dhu al-Qarnayn’s plan and does not identify a direct divine instruction to build this barrier.
+- **R-16:26** [reading; support medium, relevance high] inter-ayah target
+  - finding: The Quran pairs a human structure that collapses when God brings its foundations down with Dhu al-Qarnayn’s barrier, which will eventually be leveled at his Lord’s promise. Together they place the wall’s success within a wider pattern of buildings remaining subject to divine action.
+  - evidence: 16:26 «فَأَتَى ٱللَّهُ بُنْيَٰنَهُم مِّنَ ٱلْقَوَاعِدِ فَخَرَّ عَلَيْهِمُ ٱلسَّقْفُ مِن فَوْقِهِمْ»; 18:98 «فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ»
+  - activation: The focus itself predicts the destruction of its completed barrier at a divinely appointed time.
+  - limits: The earlier building belongs to people who plotted, while Dhu al-Qarnayn’s barrier protects a community; the verses do not equate their moral purposes.
+- **R-16:81** [reading; support medium, relevance high] inter-ayah target
+  - finding: 16:81 describes garments that protect people from heat and battle; Dhu al-Qarnayn’s structure extends protection from personal gear to a boundary built for a threatened community. The surah’s material barrier can be heard alongside this Quranic language of practical protection.
+  - evidence: 16:81 «وَجَعَلَ لَكُمْ سَرَٰبِيلَ تَقِيكُمُ ٱلْحَرَّ وَسَرَٰبِيلَ تَقِيكُم بَأْسَكُمْ»; 18:94 «إِنَّ يَأْجُوجَ وَمَأْجُوجَ مُفْسِدُونَ فِى ٱلْأَرْضِ»; 18:97 «فَمَا ٱسْطَٰعُوٓا۟ أَن يَظْهَرُوهُ وَمَا ٱسْتَطَٰعُوا۟ لَهُۥ نَقْبًۭا»
+  - activation: Both passages specify material means that keep danger from reaching people.
+  - limits: 16:81 credits God with garments and shelters; 18:96 recounts a human building project and does not mention armor or clothing.
+- **R-17:50** [reading; support medium, relevance high] inter-ayah target
+  - finding: 17:50 names iron as a form that people might be challenged to become, yet says God will recreate them; 18:98 says even Dhu al-Qarnayn’s iron barrier will be leveled when God’s promise comes. The shared حديد sets material endurance against divine power in both scenes.
+  - evidence: 17:50 «قُلْ كُونُوا۟ حِجَارَةً أَوْ حَدِيدًا»; 18:96 «ءَاتُونِى زُبَرَ ٱلْحَدِيدِ»; 18:98 «فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ»
+  - activation: The focus makes iron the barrier’s primary material and immediately supplies its eventual divine limit.
+  - limits: 17:50 concerns resurrection, not fortification; no verse says the iron barrier was intended as an image of that argument.
+- **R-18:39** [reading; support medium, relevance high] inter-ayah target
+  - finding: The garden-owner is told to credit God’s will and confess that power belongs to God; Dhu al-Qarnayn similarly credits his capacity to what his Lord enabled and calls the completed barrier mercy. The contrast sets grateful use of power against confidence in one’s possessions.
+  - evidence: 18:39 «مَا شَآءَ ٱللَّهُ لَا قُوَّةَ إِلَّا بِٱللَّهِ»; 18:40 «فَتُصْبِحَ صَعِيدًۭا زَلَقًا»; 18:95 «مَا مَكَّنِّى فِيهِ رَبِّى خَيْرٌۭ فَأَعِينُونِى بِقُوَّةٍ»; 18:98 «هَٰذَا رَحْمَةٌۭ مِّن رَّبِّى»
+  - activation: Both episodes explicitly connect worldly power or provision to God, and the garden’s ruin illustrates what self-assurance overlooks.
+  - limits: The garden-owner receives advice from his companion, whereas Dhu al-Qarnayn speaks his own recognition; the text does not directly compare their motives.
+- **R-18:71** [reading; support medium, relevance high] inter-ayah target
+  - finding: Khidr damages a boat to protect its owners from a king who seizes sound vessels; Dhu al-Qarnayn closes a pass to protect a community from Ya’juj and Ma’juj. In both episodes, altering a physical route or structure is a tactical answer to a greater threat.
+  - evidence: 18:71 «خَرَقَهَا ۖ قَالَ أَخَرَقْتَهَا لِتُغْرِقَ أَهْلَهَا»; 18:79 «فَأَرَدتُّ أَنْ أَعِيبَهَا وَكَانَ وَرَآءَهُم مَّلِكٌۭ يَأْخُذُ كُلَّ سَفِينَةٍ غَصْبًۭا»; 18:94 «إِنَّ يَأْجُوجَ وَمَأْجُوجَ مُفْسِدُونَ فِى ٱلْأَرْضِ»; 18:95 «فَأَعِينُونِى بِقُوَّةٍ أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا»
+  - activation: The neighboring stories both make practical intervention in a physical object serve people threatened by a powerful adversary.
+  - limits: Khidr deliberately damages a vessel to keep it from confiscation; Dhu al-Qarnayn builds an impassable barrier, and the text does not say he models his action on Khidr’s.
+- **R-18:92** [reading; support medium, relevance high] inter-ayah target
+  - finding: The repeated formula ثُمَّ أَتْبَعَ سَبَبًا makes the barrier episode the endpoint of Dhū al-Qarnayn’s third journey; its material and labor instructions present that response as purposeful use of means.
+  - evidence: 18:85 «فَأَتْبَعَ سَبَبًا»; 18:89 «ثُمَّ أَتْبَعَ سَبَبًا»; 18:92 «ثُمَّ أَتْبَعَ سَبَبًا»; 18:96 «ءَاتُونِى زُبَرَ ٱلْحَدِيدِ»
+  - activation: The third occurrence leads directly to his arrival at the pass and the staged work there.
+  - limits: The text does not identify the iron or the people’s labor as the specific means named in ثُمَّ أَتْبَعَ سَبَبًا.
+- **R-22:40** [reading; support medium, relevance high] inter-ayah target
+  - finding: The focus’s collective labor can be heard beside the Quranic pattern of people checking one another to prevent destruction: the community supplies strength for protection, and Dhū al-Qarnayn credits his capacity to his Lord.
+  - evidence: 18:95 «مَا مَكَّنِّى فِيهِ رَبِّى خَيْرٌۭ فَأَعِينُونِى بِقُوَّةٍ»; 22:40 «وَلَوْلَا دَفْعُ ٱللَّهِ ٱلنَّاسَ بَعْضَهُم بِبَعْضٍۢ لَّهُدِّمَتْ»
+  - activation: The people’s assistance and the barrier’s protective purpose give the focus a humanly enacted form of restraint.
+  - limits: 22:40 discusses protection of worship places and does not mention this barrier, its builders, or Gog and Magog.
+- **R-23:53** [reading; support medium, relevance high] inter-ayah target
+  - finding: زُبَرَ in the focus names iron pieces mobilized for a barrier, while زُبُرًا in 23:53 describes people splitting their affair into portions; the wording invites a contrast between pieces put to a common defensive work and a community divided among itself.
+  - evidence: 18:96 «زُبَرَ ٱلْحَدِيدِ»; 23:53 «فَتَقَطَّعُوٓا۟ أَمْرَهُم بَيْنَهُمْ زُبُرًۭا»
+  - activation: The repeated noun form زبر appears in both passages, with iron specified in the focus and a divided affair in 23:53.
+  - limits: The verses do not state that the focus intentionally echoes 23:53, and their collocations give the word distinct contextual senses.
+- **R-26:128** [reading; support medium, relevance high] inter-ayah target
+  - finding: The focus’s rدم answers a specified danger at one pass, contrasting with the questioned building of an ayah at every height for play.
+  - evidence: 26:128 «أَتَبْنُونَ بِكُلِّ رِيعٍ ءَايَةًۭ تَعْبَثُونَ»; 18:94 «إِنَّ يَأْجُوجَ وَمَأْجُوجَ مُفْسِدُونَ فِى ٱلْأَرْضِ»; 18:95 «أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا»
+  - activation: The local people identify a concrete threat and request a barrier before construction begins.
+  - limits: The verses do not use the same construction terms or explicitly compare the builders’ motives.
+- **R-26:129** [reading; support medium, relevance high] inter-ayah target
+  - finding: The expectation of living forever through constructed strongholds contrasts with Dhū al-Qarnayn’s explicit admission that his barrier will be flattened when the Lord’s promise arrives.
+  - evidence: 26:129 «وَتَتَّخِذُونَ مَصَانِعَ لَعَلَّكُمْ تَخْلُدُونَ»; 18:98 «فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ»
+  - activation: Both passages put human construction beside claims about duration, but only the focus explicitly subordinates the structure to a divine term.
+  - limits: The verses do not identify the structures or builders as the same, and the focus does not state that its barrier was intended to last forever.
+- **R-27:61** [reading; support medium, relevance high] inter-ayah target
+  - finding: The focus’s engineered rدم occupies a pass between paired sides; 27:61 places a حاجز between seas among the features that make the earth stable and ordered.
+  - evidence: 27:61 «جَعَلَ ٱلْأَرْضَ قَرَارًۭا»; 27:61 «وَجَعَلَ بَيْنَ ٱلْبَحْرَيْنِ حَاجِزًا»; 18:95 «أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا»
+  - activation: Both passages use جعل بين to describe a separating boundary, and the focus places its barrier in a mountain pass.
+  - limits: 27:61 describes a divine boundary in the earth; it does not say that Dhū al-Qarnayn’s construction reproduces that act.
+- **R-28:38** [reading; support medium, relevance high] inter-ayah target
+  - finding: Pharaoh orders fire kindled on clay before commanding a lofty structure; the focus also joins directed fire-work and construction, but applies it to a communal defense rather than Pharaoh’s self-exalting project.
+  - evidence: 28:38 «فَأَوْقِدْ لِى يَٰهَٰمَٰنُ عَلَى ٱلطِّينِ فَٱجْعَل لِّى صَرْحًۭا»; 28:39 «وَٱسْتَكْبَرَ هُوَ وَجُنُودُهُۥ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ»; 18:96 «قَالَ ٱنفُخُوا۟»
+  - activation: Both passages place a ruler’s command, fire, and construction together; the focus supplies its defensive purpose in the surrounding verses.
+  - limits: The verses do not describe identical materials or say Pharaoh’s fire-work serves the same engineering function as the focus’s heating stage.
+- **R-33:14** [reading; support medium, relevance high] inter-ayah target
+  - finding: The imagined entry through a city’s outskirts and the claim that homes are exposed offer a defensive-space contrast to Dhū al-Qarnayn’s sealing of a specific pass so attackers cannot climb or pierce it.
+  - evidence: 33:13 «إِنَّ بُيُوتَنَا عَوْرَةٌۭ»; 33:14 «وَلَوْ دُخِلَتْ عَلَيْهِم مِّنْ أَقْطَارِهَا»; 18:95 «أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا»; 18:97 «وَمَا ٱسْتَطَٰعُوا۟ لَهُۥ نَقْبًۭا»
+  - activation: Both passages make the vulnerability or protection of a population legible through the spaces through which attackers might enter.
+  - limits: 33:14 describes a hypothetical entry and does not mention a barrier like the one in the focus.
+- **R-36:9** [reading; support medium, relevance high] inter-ayah target
+  - finding: The divine sadd in 36:9 blocks people on both sides and is followed by their inability to see; the focus’s constructed barrier blocks passage between two sides. The shared barrier image contrasts spiritual confinement with protection from physical incursion.
+  - evidence: 36:9 «وَجَعَلْنَا مِنۢ بَيْنِ أَيْدِيهِمْ سَدًّۭا وَمِنْ خَلْفِهِمْ سَدًّۭا فَأَغْشَيْنَٰهُمْ فَهُمْ لَا يُبْصِرُونَ»; 18:96 «سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ»
+  - activation: Both passages place a barrier across a bounded space; their different outcomes sharpen the comparison.
+  - limits: 36:9 does not describe a built structure or a defense against an invading people.
+- **R-55:33** [reading; support medium, relevance high] inter-ayah target
+  - finding: 55:33 challenges jinn and humans to penetrate the bounds of the heavens and earth, then says they cannot without authority. This gives the focus’s impassable rampart a cosmic counterpoint: a barrier blocks a local crossing, while the larger passage denies escape beyond divine bounds.
+  - evidence: 55:33 «إِنِ ٱسْتَطَعْتُمْ أَن تَنفُذُوا۟ مِنْ أَقْطَارِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ فَٱنفُذُوا۟ ۚ لَا تَنفُذُونَ إِلَّا بِسُلْطَٰنٍۢ»; 18:97 «فَمَا ٱسْطَٰعُوٓا۟ أَن يَظْهَرُوهُ وَمَا ٱسْتَطَٰعُوا۟ لَهُۥ نَقْبًۭا»
+  - activation: Both passages make inability to pass through a boundary explicit.
+  - limits: The cosmic bounds are not the focus’s physical rampart, and the ayat address different peoples and circumstances.
+- **R-f-جعل-نور** [reading; support medium, relevance high] formula family (ج ع ل + ن و ر; 15 ayat: 2:126, 6:1, 6:91, 6:122, 7:47, 10:5, 14:30, 16:62, 24:40, 25:61)
+  - finding: Several listed ayat use جعل with nūr, including light made for a person to walk by; the focus instead says the iron was made nār. This is a Quranic contrast between making light as guidance and producing fire as a material working state.
+  - evidence: 6:122 «وَجَعَلْنَا لَهُۥ نُورًۭا يَمْشِى بِهِۦ فِى ٱلنَّاسِ»; 6:1 «وَجَعَلَ ٱلظُّلُمَٰتِ وَٱلنُّورَ»; 18:96 «جَعَلَهُۥ نَارًۭا»
+  - activation: The shared making verb and related n-w-r forms activate the contrast; the focus’s material object fixes its technical sense.
+  - limits: Nūr and nār are distinct words and uses; the comparison does not make the focus’s fire guidance or spiritual light.
+- **R-3:184** [open; support medium, relevance high] inter-ayah target
+  - finding: زُبَرَ الحديد shares its root with الزُّبُر in a list of revealed writings, opening a possible material-and-scriptural wordplay around the iron pieces.
+  - evidence: 18:96 «زُبَرَ ٱلْحَدِيدِ»; 3:184 «بِٱلْبَيِّنَٰتِ وَٱلزُّبُرِ وَٱلْكِتَٰبِ ٱلْمُنِيرِ»
+  - missing: The verses establish the shared root but do not say the iron is inscribed or that زُبَر here carries a writing sense; a dictionary linking these senses or an inscription cue in the barrier scene could establish the wordplay.
+- **R-4:9** [open; support medium, relevance high] inter-ayah target
+  - finding: The barrier called سَدًّا in Dhu al-Qarnayn’s request shares a root with the instruction to speak قولًا سديدًا, in a passage concerned with protecting vulnerable descendants; this could connect physical safeguarding with sound speech.
+  - evidence: 18:94 «أَن تَجْعَلَ بَيْنَنَا وَبَيْنَهُمْ سَدًّۭا»; 4:9 «وَلْيَقُولُوا۟ قَوْلًۭا سَدِيدًا»
+  - missing: The passages do not make the connection explicit; a lexicon showing whether سديد retains an image of closing or firmness, or a stronger contextual link between the speech and the wall, could decide whether this root echo matters.
+- **R-4:163** [open; support medium, relevance high] inter-ayah target
+  - finding: The singular زَبُورًا granted to David confirms a Quranic scriptural use of the z-b-r root that may resonate with the iron زُبَر in the focus.
+  - evidence: 18:96 «زُبَرَ ٱلْحَدِيدِ»; 4:163 «وَءَاتَيْنَا دَاوُۥدَ زَبُورًۭا»
+  - missing: Nothing in the focus says the iron pieces bear writing; a dictionary linking the material and scriptural senses, or evidence of inscriptions in the barrier episode, could show whether this root echo changes the image.
+- **related_2.X2** [open; support medium, relevance high] 
+  - finding: The people request a سدّ, but Dhu al-Qarnayn proposes a ردم and then fills the gap with iron pieces and poured qitr. The changed noun may signal that he offers a more completely packed mass than the boundary they requested.
+  - evidence: 18:94 «أَن تَجْعَلَ بَيْنَنَا وَبَيْنَهُمْ سَدًّۭا»; 18:95 «أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا»; 18:96 «ءَاتُونِى زُبَرَ ٱلْحَدِيدِ»
+  - missing: The construction sequence makes the proposed nuance plausible, but these excerpts alone do not establish the lexical distinction between سدّ and ردم. Dictionary senses and Quranic usage of both terms could determine whether the response deliberately intensifies the request.
+- **R-18:90** [open; support medium, relevance high] inter-ayah target
+  - finding: The eastern people have no screen from the sun, while the later people receive a constructed barrier against another danger; the sequence permits a contrast between exposure and protection.
+  - evidence: 18:90 «لَّمْ نَجْعَل لَّهُم مِّن دُونِهَا سِتْرًۭا»; 18:95 «أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا»
+  - missing: The passage does not identify the two populations or equate a sun-screen with the barrier against Gog and Magog. A repeated protective term or an explicit link between the populations could establish the contrast more firmly.
+- **R-18:99** [open; support medium, relevance high] inter-ayah target
+  - finding: The surge in 18:99 follows the barrier’s appointed collapse, and 21:96 describes Gog and Magog being released and streaming down; the sequence may connect the wall’s end to their emergence.
+  - evidence: 18:98 «فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ»; 18:99 «يَمُوجُ فِى بَعْضٍۢ»; 21:96 «حَتَّىٰٓ إِذَا فُتِحَتْ يَأْجُوجُ وَمَأْجُوجُ وَهُم مِّن كُلِّ حَدَبٍۢ يَنسِلُونَ»
+  - missing: 18:99 does not name the groups surging into one another, and 21:96 does not explicitly identify its opening with the flattening in 18:98. An explicit identification or a closer shared description of the event could settle the link.
+- **R-33:26** [open; support medium, relevance high] inter-ayah target
+  - finding: The people brought down from their fortresses show that defensive strongholds do not guarantee protection; the focus likewise gives its barrier a fixed limit, ending when the Lord’s promise comes.
+  - evidence: 33:26 «وَأَنزَلَ ٱلَّذِينَ ظَٰهَرُوهُم مِّنْ أَهْلِ ٱلْكِتَٰبِ مِن صَيَاصِيهِمْ»; 18:98 «فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ»
+  - missing: 33:26 does not describe how the fortresses failed or link their defeat to the focus’s barrier. A passage specifying the means of their defeat or explicitly contrasting these defenses could establish the connection.
+- **R-50:22** [open; support medium, relevance high] inter-ayah target
+  - finding: 50:22 calls the uncovered person’s sight ḥadīd, while the focus names iron al-ḥadīd. The same form can place the material and sharp perception in a lexical echo, but the verses do not say that sight is metaphorically iron.
+  - evidence: 50:22 «فَكَشَفْنَا عَنكَ غِطَآءَكَ فَبَصَرُكَ ٱلْيَوْمَ حَدِيدٌۭ»; 18:96 «زُبَرَ ٱلْحَدِيدِ»
+  - missing: A dictionary account of حديد and its root senses could establish whether the adjective for keen sight is semantically tied to iron’s edge or hardness; the parallel does not itself establish a metaphor.
+- **R-55:35** [open; support medium, relevance high] inter-ayah target
+  - finding: 55:35 pairs fire with nuḥās sent against the two groups; the focus heats iron and applies qiṭr to the barrier. If qiṭr is copper, the material echo yields a strong contrast between controlled fabrication and punitive exposure.
+  - evidence: 55:35 «يُرْسَلُ عَلَيْكُمَا شُوَاظٌۭ مِّن نَّارٍۢ وَنُحَاسٌۭ»; 18:96 «جَعَلَهُۥ نَارًۭا قَالَ ءَاتُونِىٓ أُفْرِغْ عَلَيْهِ قِطْرًۭا»
+  - missing: A dictionary or lexical source establishing whether قِطْر specifically denotes the same copper as نُحَاسٌۭ, rather than molten metal more generally, would decide the material match.
+- **R-58:4** [open; support medium, relevance high] inter-ayah target
+  - finding: 58:4 calls legal limits ḥudūd Allāh; the focus’s iron is al-ḥadīd, from the same root. In a passage about a physical barrier, that root relation could let material boundary and divine limits sound together.
+  - evidence: 58:4 «وَتِلْكَ حُدُودُ ٱللَّهِ»; 18:96 «زُبَرَ ٱلْحَدِيدِ»
+  - missing: A dictionary account connecting the root’s limit or edge sense to the material noun الحديد could establish the lexical bridge; the shared root alone does not prove intended wordplay.
+- **R-58:5** [open; support medium, relevance high] inter-ayah target
+  - finding: 58:5 uses yuḥāddūna for those who oppose God and the Messenger; the focus names iron al-ḥadīd. This may extend the root’s boundary vocabulary from a constructed barrier to a conflict with divine authority.
+  - evidence: 58:5 «إِنَّ ٱلَّذِينَ يُحَآدُّونَ ٱللَّهَ وَرَسُولَهُۥ كُبِتُوا۟»; 18:96 «زُبَرَ ٱلْحَدِيدِ»
+  - missing: Lexical evidence for the relation between the root sense in يُحَادُّونَ and the material noun الحديد could clarify whether this is more than a shared root; the verses do not themselves connect the episodes.
+- **R-58:20** [open; support medium, relevance high] inter-ayah target
+  - finding: 58:20 repeats the opposition formula from 58:5 at the surah’s close. That repeated yuḥāddūna alongside the focus’s al-ḥadīd may reinforce a root-level contrast between iron as a protective work and opposition to God.
+  - evidence: 58:20 «إِنَّ ٱلَّذِينَ يُحَآدُّونَ ٱللَّهَ وَرَسُولَهُۥٓ أُو۟لَٰٓئِكَ فِى ٱلْأَذَلِّينَ»; 18:96 «زُبَرَ ٱلْحَدِيدِ»
+  - missing: A dictionary account of the root senses and evidence that the repeated opposition formula is intended to echo the material noun would be needed to establish this as a deliberate link.
+- **R-6:46** [open; support weak, relevance high] inter-ayah target
+  - finding: The rare noun ٱلصَّدَفَيْنِ shares the ṣ-d-f root with the verbs for turning away from signs in 6:46 and 6:157; a root-level relation could place the wall’s paired sides beside Quranic language of turning away.
+  - evidence: 18:96 «بَيْنَ ٱلصَّدَفَيْنِ»; 6:46 «ثُمَّ هُمْ يَصْدِفُونَ»; 6:157 «وَصَدَفَ عَنْهَا»
+  - missing: The verses establish the root match but not a semantic bridge between the topographic noun and turning away; a dictionary tracing that relationship could determine whether it is active here.
+- **R-14:50** [open; support weak, relevance high] inter-ayah target
+  - finding: A possible coating reversal appears between the qitr poured over the heated barrier and the qitran clothing of the damned while fire covers their faces. If the similar forms are lexically connected, the protective coating has a punitive counterpart.
+  - evidence: 18:96 «أُفْرِغْ عَلَيْهِ قِطْرًۭا»; 14:50 «سَرَابِيلُهُم مِّن قَطِرَانٍۢ وَتَغْشَىٰ وُجُوهَهُمُ ٱلنَّارُ»
+  - missing: The similar spellings do not establish that قِطْر and قَطِرَان share a relevant lexical sense. A dictionary comparison and Quranic usage evidence could determine whether this is a meaningful coating echo or only a visual resemblance.
+- **R-7:74** [reading; support medium, relevance medium] inter-ayah target
+  - finding: Thamud carve houses from mountains, while Dhu al-Qarnayn uses the space between opposing faces to build a rampart; the passages present two distinct ways people reshape mountain terrain.
+  - evidence: 7:74 «وَتَنْحِتُونَ ٱلْجِبَالَ بُيُوتًۭا»; 18:96 «سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ»
+  - activation: The focus’s work takes place between the paired cliff faces, making the mountain setting of the Thamud passage a material parallel.
+  - limits: One passage describes dwellings cut into mountains and the other a defensive barrier across a pass; the text does not connect their peoples or purposes.
+- **R-16:44** [open; support medium, relevance medium] inter-ayah target
+  - finding: The focus has زُبَرَ الحديد, while 16:44 has الزُّبُر alongside clear proofs; the related consonantal root appears in contexts of iron pieces and scriptures, though the vocalized forms differ. A root-level wordplay could put material blocks beside written records.
+  - evidence: 18:96 «زُبَرَ ٱلْحَدِيدِ»; 16:44 «بِٱلْبَيِّنَٰتِ وَٱلزُّبُرِ»
+  - missing: The verses establish the different contexts but not a semantic bridge between them. Lexicographic evidence about the root’s senses and its Quranic usage could decide whether this contrast carries more than a root resemblance.
+- **R-26:196** [open; support medium, relevance medium] inter-ayah target
+  - finding: زُبَرَ ٱلْحَدِيدِ in the focus and زُبُرِ ٱلْأَوَّلِينَ in 26:196 share the noun form but occur with different specifying phrases, one for iron and one for earlier peoples.
+  - evidence: 18:96 «زُبَرَ ٱلْحَدِيدِ»; 26:196 «فِى زُبُرِ ٱلْأَوَّلِينَ»; 23:53 «أَمْرَهُم بَيْنَهُمْ زُبُرًۭا»
+  - missing: A dictionary account of زبر and its Quranic usage could establish whether the contexts share a semantic association beyond the form, or whether the similarity is only formal.
+- **R-94:7** [open; support medium, relevance medium] inter-ayah target
+  - finding: The focus uses Form IV afriġ to pour qiṭr; 94:7 uses Form I faraġta for finishing before striving. The shared root may connect pouring by emptying a source with becoming free of a task, but the verses do not establish that semantic path.
+  - evidence: 94:7 «فَإِذَا فَرَغْتَ فَٱنصَبْ»; 18:96 «أُفْرِغْ عَلَيْهِ قِطْرًۭا»
+  - missing: A dictionary account of the root ف ر غ and its derived forms could show whether Form IV pouring retains an emptying sense related to Form I being free or finished.
+- **R-11:40** [open; support weak, relevance medium] inter-ayah target
+  - finding: The flood scene reaches its turning point when the tannūr overflows; the focus marks a construction threshold when the iron is made نارًا before the next command. A furnace reading of tannūr would place an oven image beside the focus’s heating sequence.
+  - evidence: 11:40 «حَتَّىٰٓ إِذَا جَآءَ أَمْرُنَا وَفَارَ ٱلتَّنُّورُ قُلْنَا ٱحْمِلْ فِيهَا»; 18:96 «حَتَّىٰٓ إِذَا جَعَلَهُۥ نَارًۭا قَالَ»
+  - missing: The focus does not mention a tannūr, and 11:40’s context marks the onset of the flood. Lexical and Quranic usage evidence that tannūr here evokes a heated oven, rather than functioning solely as a flood signal, could establish whether the heat parallel matters.
+- **R-35:25** [open; support weak, relevance medium] inter-ayah target
+  - finding: The focus calls its iron pieces zubar, while 35:25 places al-zubur beside the illuminating Book for earlier messengers. The similar forms invite a lexical comparison between pieces and scriptures, but do not establish a shared sense here.
+  - evidence: 18:96 «زُبَرَ ٱلْحَدِيدِ»; 35:25 «بِٱلزُّبُرِ وَبِٱلْكِتَٰبِ ٱلْمُنِيرِ»
+  - missing: A dictionary account of ز ب ر and the forms زُبَر and زُبُر could establish whether an attested sense connects iron pieces with written scriptures; the verse contexts alone do not.
+- **R-f-جعل-سوي-نور** [open; support weak, relevance medium] formula family (ج ع ل + س و ي + ن و ر; 1 ayat: 13:16)
+  - finding: 13:16 places equality language about light and darkness before asking whether people made partners for God. The focus pairs a س و ي form with making iron into nār; the roots invite comparison between equalizing and light/fire language, but 13:16 does not contain the focus’s sequence.
+  - evidence: 13:16 «هَلْ يَسْتَوِى ٱلْأَعْمَىٰ وَٱلْبَصِيرُ أَمْ هَلْ تَسْتَوِى ٱلظُّلُمَٰتُ وَٱلنُّورُ ۗ أَمْ جَعَلُوا۟ لِلَّهِ شُرَكَآءَ»; 18:96 «سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ»; 18:96 «جَعَلَهُۥ نَارًۭا»
+  - missing: Lexical evidence for the relation between نور and نار, plus a reason to connect the separated clauses in 13:16 with the focus’s ordered process, would decide whether this root cluster carries more than a broad contrast.
+
+Notes:
+- R-18:83 [support medium, relevance high] The question about Dhu al-Qarnayn begins immediately after Khidr has explained the repaired wall’s hidden purpose. This placement puts two episodes of protective construction together, one whose reason is disclosed after the event and one whose purpose and eventual limit Dhu al-Qarnayn states openly.
+- related_1.X1 [support strong, relevance medium] The travel narratives shift a supply request from food to construction material: Moses asks for their meal at 18:62, and Dhu al-Qarnayn twice orders material brought in 18:96.
+- R-18:62 [support strong, relevance medium] Moses asks his attendant to bring their breakfast after travel, while Dhu al-Qarnayn repeatedly orders supplies brought for construction. The shared Form IV command frames both leaders as directing practical needs, with food replaced by building materials in the later scene.
+- R-27:7 [support strong, relevance medium] Moses seeks a fire for news or warmth, while Dhū al-Qarnayn directs blowing to bring iron to a fire-state; the shared نار contrasts a sought source of comfort with controlled heat for construction.
+- R-69:13 [support strong, relevance medium] The same root n-f-kh appears in the focus’s command to blow and in 69:13’s single blowing of the trumpet. The comparison distinguishes a controlled blast used in metalwork from the eschatological blast that begins a final event.
+- R-2:109 [support medium, relevance medium] Both passages set human action within a wait for a divine event: pardon lasts until God brings His command, while the barrier lasts until the Lord’s promise arrives and it is leveled.
+- R-11:38 [support medium, relevance medium] Noah continues building while his people mock him; in the focus episode, the inhabitants instead aid Dhu al-Qarnayn’s construction. The scenes contrast isolated work under ridicule with cooperation for shared defense.
+- R-18:17 [support medium, relevance medium] The cave’s shelter is shaped by the sun’s paths and its open space; Dhu al-Qarnayn instead uses the terrain between opposing sides as the site of a built barrier. The surah presents natural shelter and engineered enclosure as different uses of protective space.
+- R-18:18 [support medium, relevance medium] At the cave’s threshold the dog lies with its forelegs outstretched, and an onlooker would turn away in fear; this puts deterrence at the entrance beside the wall that prevents hostile people from crossing a pass.
+- R-18:59 [support medium, relevance medium] The towns’ destruction is assigned a موعد, and Dhu al-Qarnayn says his barrier will be leveled when his Lord’s وعد arrives. Both passages place a consequential ending at an appointed divine time.
+- R-18:86 [support medium, relevance medium] At the first stop, Dhu al-Qarnayn is offered a choice of punishment or good treatment and distinguishes how he will deal with wrongdoers and believers; at the last stop, he answers a threatened community by arranging protection without taking its offered payment. The pattern presents authority as judgment and service rather than extraction.
+- R-18:88 [support medium, relevance medium] The ruler who promises believers an easy course later refuses the people’s offer of payment and asks them to contribute strength to the barrier work.
+- R-23:27 [support medium, relevance medium] The Ark and the pass barrier are both protective works made through organized construction, though one is built by divine instruction and the other in response to a people’s request.
+- R-23:100 [support medium, relevance medium] The focus’s barrier is temporary until the Lord’s promise; 23:100 also gives a boundary a defined term, lasting until the day people are raised.
+- R-34:13 [support medium, relevance medium] The adjacent Saba scene places the qiṭr and supervised labor beside a catalogue of structures and vessels made for Solomon. It puts the focus’s single defensive work within a wider Quranic motif of directed technical labor.
+- R-59:14 [support medium, relevance medium] 59:14 depicts people fighting only from fortified towns or behind walls. It gives a military setting for reliance on walls that can be compared with the focus’s defensive barrier, though it says nothing about this rampart’s outcome.
+- R-40:36 [support weak, relevance medium] Pharaoh commands a tower’s construction, offering a thematic counter-image to a ruler organizing construction for protection. The focus’s work is communal and defensive; Pharaoh’s order begins an ambition to reach the heavens.
+- R-40:37 [support weak, relevance medium] The stated aim of Pharaoh’s tower—to reach the ways of the heavens and look toward Moses’s God—makes the contrast with the focus sharper: one project protects a population, the other expresses a rejected claim to ascend.
+- R-100:2 [support weak, relevance medium] 100:2 names sparks produced by striking, another fire-producing process beside the focus’s blowing of heated iron. It broadens the process comparison while using a different action and likely a different scene.
+- R-111:3 [support weak, relevance medium] 111:3’s fire is a punitive flame, which contrasts with the focus’s deliberately produced fire-state serving construction. The shared noun marks sharply different uses of fire.
+- R-6:9 [support strong, relevance low] Both passages use جَعَلَ with an object pronoun and an accusative state complement: 6:9 imagines making an angel a man, while the focus makes the structure نارًا.
+- R-78:18 [support strong, relevance low] 78:18 uses the same trumpet-blowing scene as 69:13 but brings crowds in groups. This keeps the focus’s plural command to blow distinct from a Quranic formula for the day of resurrection.
+- R-43:13 [support medium, relevance low] The focus’s sāwā and 43:13’s istawaytum share the root س و ي, but the latter describes settling on a mount. This juxtaposes leveling a gap with being settled upon a conveyance without making them the same action.
+
+## 3. Text of cited ayat outside the surah and the Fatiha
+
+- 2:109 وَدَّ كَثِيرٌۭ مِّنْ أَهْلِ ٱلْكِتَٰبِ لَوْ يَرُدُّونَكُم مِّنۢ بَعْدِ إِيمَٰنِكُمْ كُفَّارًا حَسَدًۭا مِّنْ عِندِ أَنفُسِهِم مِّنۢ بَعْدِ مَا تَبَيَّنَ لَهُمُ ٱلْحَقُّ ۖ فَٱعْفُوا۟ وَٱصْفَحُوا۟ حَتَّىٰ يَأْتِىَ ٱللَّهُ بِأَمْرِهِۦٓ ۗ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ
+- 2:127 وَإِذْ يَرْفَعُ إِبْرَٰهِۦمُ ٱلْقَوَاعِدَ مِنَ ٱلْبَيْتِ وَإِسْمَٰعِيلُ رَبَّنَا تَقَبَّلْ مِنَّآ ۖ إِنَّكَ أَنتَ ٱلسَّمِيعُ ٱلْعَلِيمُ
+- 2:250 وَلَمَّا بَرَزُوا۟ لِجَالُوتَ وَجُنُودِهِۦ قَالُوا۟ رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًۭا وَثَبِّتْ أَقْدَامَنَا وَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ
+- 3:64 قُلْ يَٰٓأَهْلَ ٱلْكِتَٰبِ تَعَالَوْا۟ إِلَىٰ كَلِمَةٍۢ سَوَآءٍۭ بَيْنَنَا وَبَيْنَكُمْ أَلَّا نَعْبُدَ إِلَّا ٱللَّهَ وَلَا نُشْرِكَ بِهِۦ شَيْـًۭٔا وَلَا يَتَّخِذَ بَعْضُنَا بَعْضًا أَرْبَابًۭا مِّن دُونِ ٱللَّهِ ۚ فَإِن تَوَلَّوْا۟ فَقُولُوا۟ ٱشْهَدُوا۟ بِأَنَّا مُسْلِمُونَ
+- 3:184 فَإِن كَذَّبُوكَ فَقَدْ كُذِّبَ رُسُلٌۭ مِّن قَبْلِكَ جَآءُو بِٱلْبَيِّنَٰتِ وَٱلزُّبُرِ وَٱلْكِتَٰبِ ٱلْمُنِيرِ
+- 4:9 وَلْيَخْشَ ٱلَّذِينَ لَوْ تَرَكُوا۟ مِنْ خَلْفِهِمْ ذُرِّيَّةًۭ ضِعَٰفًا خَافُوا۟ عَلَيْهِمْ فَلْيَتَّقُوا۟ ٱللَّهَ وَلْيَقُولُوا۟ قَوْلًۭا سَدِيدًا
+- 4:78 أَيْنَمَا تَكُونُوا۟ يُدْرِككُّمُ ٱلْمَوْتُ وَلَوْ كُنتُمْ فِى بُرُوجٍۢ مُّشَيَّدَةٍۢ ۗ وَإِن تُصِبْهُمْ حَسَنَةٌۭ يَقُولُوا۟ هَٰذِهِۦ مِنْ عِندِ ٱللَّهِ ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌۭ يَقُولُوا۟ هَٰذِهِۦ مِنْ عِندِكَ ۚ قُلْ كُلٌّۭ مِّنْ عِندِ ٱللَّهِ ۖ فَمَالِ هَٰٓؤُلَآءِ ٱلْقَوْمِ لَا يَكَادُونَ يَفْقَهُونَ حَدِيثًۭا
+- 4:163 ۞ إِنَّآ أَوْحَيْنَآ إِلَيْكَ كَمَآ أَوْحَيْنَآ إِلَىٰ نُوحٍۢ وَٱلنَّبِيِّۦنَ مِنۢ بَعْدِهِۦ ۚ وَأَوْحَيْنَآ إِلَىٰٓ إِبْرَٰهِيمَ وَإِسْمَٰعِيلَ وَإِسْحَٰقَ وَيَعْقُوبَ وَٱلْأَسْبَاطِ وَعِيسَىٰ وَأَيُّوبَ وَيُونُسَ وَهَٰرُونَ وَسُلَيْمَٰنَ ۚ وَءَاتَيْنَا دَاوُۥدَ زَبُورًۭا
+- 6:1 ٱلْحَمْدُ لِلَّهِ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَجَعَلَ ٱلظُّلُمَٰتِ وَٱلنُّورَ ۖ ثُمَّ ٱلَّذِينَ كَفَرُوا۟ بِرَبِّهِمْ يَعْدِلُونَ
+- 6:9 وَلَوْ جَعَلْنَٰهُ مَلَكًۭا لَّجَعَلْنَٰهُ رَجُلًۭا وَلَلَبَسْنَا عَلَيْهِم مَّا يَلْبِسُونَ
+- 6:46 قُلْ أَرَءَيْتُمْ إِنْ أَخَذَ ٱللَّهُ سَمْعَكُمْ وَأَبْصَٰرَكُمْ وَخَتَمَ عَلَىٰ قُلُوبِكُم مَّنْ إِلَٰهٌ غَيْرُ ٱللَّهِ يَأْتِيكُم بِهِ ۗ ٱنظُرْ كَيْفَ نُصَرِّفُ ٱلْءَايَٰتِ ثُمَّ هُمْ يَصْدِفُونَ
+- 6:122 أَوَمَن كَانَ مَيْتًۭا فَأَحْيَيْنَٰهُ وَجَعَلْنَا لَهُۥ نُورًۭا يَمْشِى بِهِۦ فِى ٱلنَّاسِ كَمَن مَّثَلُهُۥ فِى ٱلظُّلُمَٰتِ لَيْسَ بِخَارِجٍۢ مِّنْهَا ۚ كَذَٰلِكَ زُيِّنَ لِلْكَٰفِرِينَ مَا كَانُوا۟ يَعْمَلُونَ
+- 6:157 أَوْ تَقُولُوا۟ لَوْ أَنَّآ أُنزِلَ عَلَيْنَا ٱلْكِتَٰبُ لَكُنَّآ أَهْدَىٰ مِنْهُمْ ۚ فَقَدْ جَآءَكُم بَيِّنَةٌۭ مِّن رَّبِّكُمْ وَهُدًۭى وَرَحْمَةٌۭ ۚ فَمَنْ أَظْلَمُ مِمَّن كَذَّبَ بِـَٔايَٰتِ ٱللَّهِ وَصَدَفَ عَنْهَا ۗ سَنَجْزِى ٱلَّذِينَ يَصْدِفُونَ عَنْ ءَايَٰتِنَا سُوٓءَ ٱلْعَذَابِ بِمَا كَانُوا۟ يَصْدِفُونَ
+- 7:46 وَبَيْنَهُمَا حِجَابٌۭ ۚ وَعَلَى ٱلْأَعْرَافِ رِجَالٌۭ يَعْرِفُونَ كُلًّۢا بِسِيمَىٰهُمْ ۚ وَنَادَوْا۟ أَصْحَٰبَ ٱلْجَنَّةِ أَن سَلَٰمٌ عَلَيْكُمْ ۚ لَمْ يَدْخُلُوهَا وَهُمْ يَطْمَعُونَ
+- 7:74 وَٱذْكُرُوٓا۟ إِذْ جَعَلَكُمْ خُلَفَآءَ مِنۢ بَعْدِ عَادٍۢ وَبَوَّأَكُمْ فِى ٱلْأَرْضِ تَتَّخِذُونَ مِن سُهُولِهَا قُصُورًۭا وَتَنْحِتُونَ ٱلْجِبَالَ بُيُوتًۭا ۖ فَٱذْكُرُوٓا۟ ءَالَآءَ ٱللَّهِ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ
+- 7:126 وَمَا تَنقِمُ مِنَّآ إِلَّآ أَنْ ءَامَنَّا بِـَٔايَٰتِ رَبِّنَا لَمَّا جَآءَتْنَا ۚ رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًۭا وَتَوَفَّنَا مُسْلِمِينَ
+- 7:127 وَقَالَ ٱلْمَلَأُ مِن قَوْمِ فِرْعَوْنَ أَتَذَرُ مُوسَىٰ وَقَوْمَهُۥ لِيُفْسِدُوا۟ فِى ٱلْأَرْضِ وَيَذَرَكَ وَءَالِهَتَكَ ۚ قَالَ سَنُقَتِّلُ أَبْنَآءَهُمْ وَنَسْتَحْىِۦ نِسَآءَهُمْ وَإِنَّا فَوْقَهُمْ قَٰهِرُونَ
+- 7:143 وَلَمَّا جَآءَ مُوسَىٰ لِمِيقَٰتِنَا وَكَلَّمَهُۥ رَبُّهُۥ قَالَ رَبِّ أَرِنِىٓ أَنظُرْ إِلَيْكَ ۚ قَالَ لَن تَرَىٰنِى وَلَٰكِنِ ٱنظُرْ إِلَى ٱلْجَبَلِ فَإِنِ ٱسْتَقَرَّ مَكَانَهُۥ فَسَوْفَ تَرَىٰنِى ۚ فَلَمَّا تَجَلَّىٰ رَبُّهُۥ لِلْجَبَلِ جَعَلَهُۥ دَكًّۭا وَخَرَّ مُوسَىٰ صَعِقًۭا ۚ فَلَمَّآ أَفَاقَ قَالَ سُبْحَٰنَكَ تُبْتُ إِلَيْكَ وَأَنَا۠ أَوَّلُ ٱلْمُؤْمِنِينَ
+- 8:60 وَأَعِدُّوا۟ لَهُم مَّا ٱسْتَطَعْتُم مِّن قُوَّةٍۢ وَمِن رِّبَاطِ ٱلْخَيْلِ تُرْهِبُونَ بِهِۦ عَدُوَّ ٱللَّهِ وَعَدُوَّكُمْ وَءَاخَرِينَ مِن دُونِهِمْ لَا تَعْلَمُونَهُمُ ٱللَّهُ يَعْلَمُهُمْ ۚ وَمَا تُنفِقُوا۟ مِن شَىْءٍۢ فِى سَبِيلِ ٱللَّهِ يُوَفَّ إِلَيْكُمْ وَأَنتُمْ لَا تُظْلَمُونَ
+- 9:63 أَلَمْ يَعْلَمُوٓا۟ أَنَّهُۥ مَن يُحَادِدِ ٱللَّهَ وَرَسُولَهُۥ فَأَنَّ لَهُۥ نَارَ جَهَنَّمَ خَٰلِدًۭا فِيهَا ۚ ذَٰلِكَ ٱلْخِزْىُ ٱلْعَظِيمُ
+- 11:37 وَٱصْنَعِ ٱلْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا وَلَا تُخَٰطِبْنِى فِى ٱلَّذِينَ ظَلَمُوٓا۟ ۚ إِنَّهُم مُّغْرَقُونَ
+- 11:38 وَيَصْنَعُ ٱلْفُلْكَ وَكُلَّمَا مَرَّ عَلَيْهِ مَلَأٌۭ مِّن قَوْمِهِۦ سَخِرُوا۟ مِنْهُ ۚ قَالَ إِن تَسْخَرُوا۟ مِنَّا فَإِنَّا نَسْخَرُ مِنكُمْ كَمَا تَسْخَرُونَ
+- 11:40 حَتَّىٰٓ إِذَا جَآءَ أَمْرُنَا وَفَارَ ٱلتَّنُّورُ قُلْنَا ٱحْمِلْ فِيهَا مِن كُلٍّۢ زَوْجَيْنِ ٱثْنَيْنِ وَأَهْلَكَ إِلَّا مَن سَبَقَ عَلَيْهِ ٱلْقَوْلُ وَمَنْ ءَامَنَ ۚ وَمَآ ءَامَنَ مَعَهُۥٓ إِلَّا قَلِيلٌۭ
+- 11:43 قَالَ سَـَٔاوِىٓ إِلَىٰ جَبَلٍۢ يَعْصِمُنِى مِنَ ٱلْمَآءِ ۚ قَالَ لَا عَاصِمَ ٱلْيَوْمَ مِنْ أَمْرِ ٱللَّهِ إِلَّا مَن رَّحِمَ ۚ وَحَالَ بَيْنَهُمَا ٱلْمَوْجُ فَكَانَ مِنَ ٱلْمُغْرَقِينَ
+- 13:16 قُلْ مَن رَّبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ قُلِ ٱللَّهُ ۚ قُلْ أَفَٱتَّخَذْتُم مِّن دُونِهِۦٓ أَوْلِيَآءَ لَا يَمْلِكُونَ لِأَنفُسِهِمْ نَفْعًۭا وَلَا ضَرًّۭا ۚ قُلْ هَلْ يَسْتَوِى ٱلْأَعْمَىٰ وَٱلْبَصِيرُ أَمْ هَلْ تَسْتَوِى ٱلظُّلُمَٰتُ وَٱلنُّورُ ۗ أَمْ جَعَلُوا۟ لِلَّهِ شُرَكَآءَ خَلَقُوا۟ كَخَلْقِهِۦ فَتَشَٰبَهَ ٱلْخَلْقُ عَلَيْهِمْ ۚ قُلِ ٱللَّهُ خَٰلِقُ كُلِّ شَىْءٍۢ وَهُوَ ٱلْوَٰحِدُ ٱلْقَهَّٰرُ
+- 13:17 أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءًۭ فَسَالَتْ أَوْدِيَةٌۢ بِقَدَرِهَا فَٱحْتَمَلَ ٱلسَّيْلُ زَبَدًۭا رَّابِيًۭا ۚ وَمِمَّا يُوقِدُونَ عَلَيْهِ فِى ٱلنَّارِ ٱبْتِغَآءَ حِلْيَةٍ أَوْ مَتَٰعٍۢ زَبَدٌۭ مِّثْلُهُۥ ۚ كَذَٰلِكَ يَضْرِبُ ٱللَّهُ ٱلْحَقَّ وَٱلْبَٰطِلَ ۚ فَأَمَّا ٱلزَّبَدُ فَيَذْهَبُ جُفَآءًۭ ۖ وَأَمَّا مَا يَنفَعُ ٱلنَّاسَ فَيَمْكُثُ فِى ٱلْأَرْضِ ۚ كَذَٰلِكَ يَضْرِبُ ٱللَّهُ ٱلْأَمْثَالَ
+- 14:50 سَرَابِيلُهُم مِّن قَطِرَانٍۢ وَتَغْشَىٰ وُجُوهَهُمُ ٱلنَّارُ
+- 15:29 فَإِذَا سَوَّيْتُهُۥ وَنَفَخْتُ فِيهِ مِن رُّوحِى فَقَعُوا۟ لَهُۥ سَٰجِدِينَ
+- 16:26 قَدْ مَكَرَ ٱلَّذِينَ مِن قَبْلِهِمْ فَأَتَى ٱللَّهُ بُنْيَٰنَهُم مِّنَ ٱلْقَوَاعِدِ فَخَرَّ عَلَيْهِمُ ٱلسَّقْفُ مِن فَوْقِهِمْ وَأَتَىٰهُمُ ٱلْعَذَابُ مِنْ حَيْثُ لَا يَشْعُرُونَ
+- 16:44 بِٱلْبَيِّنَٰتِ وَٱلزُّبُرِ ۗ وَأَنزَلْنَآ إِلَيْكَ ٱلذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ وَلَعَلَّهُمْ يَتَفَكَّرُونَ
+- 16:81 وَٱللَّهُ جَعَلَ لَكُم مِّمَّا خَلَقَ ظِلَٰلًۭا وَجَعَلَ لَكُم مِّنَ ٱلْجِبَالِ أَكْنَٰنًۭا وَجَعَلَ لَكُمْ سَرَٰبِيلَ تَقِيكُمُ ٱلْحَرَّ وَسَرَٰبِيلَ تَقِيكُم بَأْسَكُمْ ۚ كَذَٰلِكَ يُتِمُّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تُسْلِمُونَ
+- 17:50 ۞ قُلْ كُونُوا۟ حِجَارَةً أَوْ حَدِيدًا
+- 20:58 فَلَنَأْتِيَنَّكَ بِسِحْرٍۢ مِّثْلِهِۦ فَٱجْعَلْ بَيْنَنَا وَبَيْنَكَ مَوْعِدًۭا لَّا نُخْلِفُهُۥ نَحْنُ وَلَآ أَنتَ مَكَانًۭا سُوًۭى
+- 21:80 وَعَلَّمْنَٰهُ صَنْعَةَ لَبُوسٍۢ لَّكُمْ لِتُحْصِنَكُم مِّنۢ بَأْسِكُمْ ۖ فَهَلْ أَنتُمْ شَٰكِرُونَ
+- 21:91 وَٱلَّتِىٓ أَحْصَنَتْ فَرْجَهَا فَنَفَخْنَا فِيهَا مِن رُّوحِنَا وَجَعَلْنَٰهَا وَٱبْنَهَآ ءَايَةًۭ لِّلْعَٰلَمِينَ
+- 21:96 حَتَّىٰٓ إِذَا فُتِحَتْ يَأْجُوجُ وَمَأْجُوجُ وَهُم مِّن كُلِّ حَدَبٍۢ يَنسِلُونَ
+- 22:20 يُصْهَرُ بِهِۦ مَا فِى بُطُونِهِمْ وَٱلْجُلُودُ
+- 22:21 وَلَهُم مَّقَٰمِعُ مِنْ حَدِيدٍۢ
+- 22:40 ٱلَّذِينَ أُخْرِجُوا۟ مِن دِيَٰرِهِم بِغَيْرِ حَقٍّ إِلَّآ أَن يَقُولُوا۟ رَبُّنَا ٱللَّهُ ۗ وَلَوْلَا دَفْعُ ٱللَّهِ ٱلنَّاسَ بَعْضَهُم بِبَعْضٍۢ لَّهُدِّمَتْ صَوَٰمِعُ وَبِيَعٌۭ وَصَلَوَٰتٌۭ وَمَسَٰجِدُ يُذْكَرُ فِيهَا ٱسْمُ ٱللَّهِ كَثِيرًۭا ۗ وَلَيَنصُرَنَّ ٱللَّهُ مَن يَنصُرُهُۥٓ ۗ إِنَّ ٱللَّهَ لَقَوِىٌّ عَزِيزٌ
+- 23:27 فَأَوْحَيْنَآ إِلَيْهِ أَنِ ٱصْنَعِ ٱلْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا فَإِذَا جَآءَ أَمْرُنَا وَفَارَ ٱلتَّنُّورُ ۙ فَٱسْلُكْ فِيهَا مِن كُلٍّۢ زَوْجَيْنِ ٱثْنَيْنِ وَأَهْلَكَ إِلَّا مَن سَبَقَ عَلَيْهِ ٱلْقَوْلُ مِنْهُمْ ۖ وَلَا تُخَٰطِبْنِى فِى ٱلَّذِينَ ظَلَمُوٓا۟ ۖ إِنَّهُم مُّغْرَقُونَ
+- 23:53 فَتَقَطَّعُوٓا۟ أَمْرَهُم بَيْنَهُمْ زُبُرًۭا ۖ كُلُّ حِزْبٍۭ بِمَا لَدَيْهِمْ فَرِحُونَ
+- 23:100 لَعَلِّىٓ أَعْمَلُ صَٰلِحًۭا فِيمَا تَرَكْتُ ۚ كَلَّآ ۚ إِنَّهَا كَلِمَةٌ هُوَ قَآئِلُهَا ۖ وَمِن وَرَآئِهِم بَرْزَخٌ إِلَىٰ يَوْمِ يُبْعَثُونَ
+- 25:53 ۞ وَهُوَ ٱلَّذِى مَرَجَ ٱلْبَحْرَيْنِ هَٰذَا عَذْبٌۭ فُرَاتٌۭ وَهَٰذَا مِلْحٌ أُجَاجٌۭ وَجَعَلَ بَيْنَهُمَا بَرْزَخًۭا وَحِجْرًۭا مَّحْجُورًۭا
+- 26:128 أَتَبْنُونَ بِكُلِّ رِيعٍ ءَايَةًۭ تَعْبَثُونَ
+- 26:129 وَتَتَّخِذُونَ مَصَانِعَ لَعَلَّكُمْ تَخْلُدُونَ
+- 26:196 وَإِنَّهُۥ لَفِى زُبُرِ ٱلْأَوَّلِينَ
+- 27:7 إِذْ قَالَ مُوسَىٰ لِأَهْلِهِۦٓ إِنِّىٓ ءَانَسْتُ نَارًۭا سَـَٔاتِيكُم مِّنْهَا بِخَبَرٍ أَوْ ءَاتِيكُم بِشِهَابٍۢ قَبَسٍۢ لَّعَلَّكُمْ تَصْطَلُونَ
+- 27:61 أَمَّن جَعَلَ ٱلْأَرْضَ قَرَارًۭا وَجَعَلَ خِلَٰلَهَآ أَنْهَٰرًۭا وَجَعَلَ لَهَا رَوَٰسِىَ وَجَعَلَ بَيْنَ ٱلْبَحْرَيْنِ حَاجِزًا ۗ أَءِلَٰهٌۭ مَّعَ ٱللَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ
+- 28:38 وَقَالَ فِرْعَوْنُ يَٰٓأَيُّهَا ٱلْمَلَأُ مَا عَلِمْتُ لَكُم مِّنْ إِلَٰهٍ غَيْرِى فَأَوْقِدْ لِى يَٰهَٰمَٰنُ عَلَى ٱلطِّينِ فَٱجْعَل لِّى صَرْحًۭا لَّعَلِّىٓ أَطَّلِعُ إِلَىٰٓ إِلَٰهِ مُوسَىٰ وَإِنِّى لَأَظُنُّهُۥ مِنَ ٱلْكَٰذِبِينَ
+- 28:39 وَٱسْتَكْبَرَ هُوَ وَجُنُودُهُۥ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ وَظَنُّوٓا۟ أَنَّهُمْ إِلَيْنَا لَا يُرْجَعُونَ
+- 29:30 قَالَ رَبِّ ٱنصُرْنِى عَلَى ٱلْقَوْمِ ٱلْمُفْسِدِينَ
+- 32:9 ثُمَّ سَوَّىٰهُ وَنَفَخَ فِيهِ مِن رُّوحِهِۦ ۖ وَجَعَلَ لَكُمُ ٱلسَّمْعَ وَٱلْأَبْصَٰرَ وَٱلْأَفْـِٔدَةَ ۚ قَلِيلًۭا مَّا تَشْكُرُونَ
+- 33:13 وَإِذْ قَالَت طَّآئِفَةٌۭ مِّنْهُمْ يَٰٓأَهْلَ يَثْرِبَ لَا مُقَامَ لَكُمْ فَٱرْجِعُوا۟ ۚ وَيَسْتَـْٔذِنُ فَرِيقٌۭ مِّنْهُمُ ٱلنَّبِىَّ يَقُولُونَ إِنَّ بُيُوتَنَا عَوْرَةٌۭ وَمَا هِىَ بِعَوْرَةٍ ۖ إِن يُرِيدُونَ إِلَّا فِرَارًۭا
+- 33:14 وَلَوْ دُخِلَتْ عَلَيْهِم مِّنْ أَقْطَارِهَا ثُمَّ سُئِلُوا۟ ٱلْفِتْنَةَ لَءَاتَوْهَا وَمَا تَلَبَّثُوا۟ بِهَآ إِلَّا يَسِيرًۭا
+- 33:26 وَأَنزَلَ ٱلَّذِينَ ظَٰهَرُوهُم مِّنْ أَهْلِ ٱلْكِتَٰبِ مِن صَيَاصِيهِمْ وَقَذَفَ فِى قُلُوبِهِمُ ٱلرُّعْبَ فَرِيقًۭا تَقْتُلُونَ وَتَأْسِرُونَ فَرِيقًۭا
+- 34:10 ۞ وَلَقَدْ ءَاتَيْنَا دَاوُۥدَ مِنَّا فَضْلًۭا ۖ يَٰجِبَالُ أَوِّبِى مَعَهُۥ وَٱلطَّيْرَ ۖ وَأَلَنَّا لَهُ ٱلْحَدِيدَ
+- 34:11 أَنِ ٱعْمَلْ سَٰبِغَٰتٍۢ وَقَدِّرْ فِى ٱلسَّرْدِ ۖ وَٱعْمَلُوا۟ صَٰلِحًا ۖ إِنِّى بِمَا تَعْمَلُونَ بَصِيرٌۭ
+- 34:12 وَلِسُلَيْمَٰنَ ٱلرِّيحَ غُدُوُّهَا شَهْرٌۭ وَرَوَاحُهَا شَهْرٌۭ ۖ وَأَسَلْنَا لَهُۥ عَيْنَ ٱلْقِطْرِ ۖ وَمِنَ ٱلْجِنِّ مَن يَعْمَلُ بَيْنَ يَدَيْهِ بِإِذْنِ رَبِّهِۦ ۖ وَمَن يَزِغْ مِنْهُمْ عَنْ أَمْرِنَا نُذِقْهُ مِنْ عَذَابِ ٱلسَّعِيرِ
+- 34:13 يَعْمَلُونَ لَهُۥ مَا يَشَآءُ مِن مَّحَٰرِيبَ وَتَمَٰثِيلَ وَجِفَانٍۢ كَٱلْجَوَابِ وَقُدُورٍۢ رَّاسِيَٰتٍ ۚ ٱعْمَلُوٓا۟ ءَالَ دَاوُۥدَ شُكْرًۭا ۚ وَقَلِيلٌۭ مِّنْ عِبَادِىَ ٱلشَّكُورُ
+- 35:25 وَإِن يُكَذِّبُوكَ فَقَدْ كَذَّبَ ٱلَّذِينَ مِن قَبْلِهِمْ جَآءَتْهُمْ رُسُلُهُم بِٱلْبَيِّنَٰتِ وَبِٱلزُّبُرِ وَبِٱلْكِتَٰبِ ٱلْمُنِيرِ
+- 36:9 وَجَعَلْنَا مِنۢ بَيْنِ أَيْدِيهِمْ سَدًّۭا وَمِنْ خَلْفِهِمْ سَدًّۭا فَأَغْشَيْنَٰهُمْ فَهُمْ لَا يُبْصِرُونَ
+- 36:80 ٱلَّذِى جَعَلَ لَكُم مِّنَ ٱلشَّجَرِ ٱلْأَخْضَرِ نَارًۭا فَإِذَآ أَنتُم مِّنْهُ تُوقِدُونَ
+- 38:72 فَإِذَا سَوَّيْتُهُۥ وَنَفَخْتُ فِيهِ مِن رُّوحِى فَقَعُوا۟ لَهُۥ سَٰجِدِينَ
+- 40:36 وَقَالَ فِرْعَوْنُ يَٰهَٰمَٰنُ ٱبْنِ لِى صَرْحًۭا لَّعَلِّىٓ أَبْلُغُ ٱلْأَسْبَٰبَ
+- 40:37 أَسْبَٰبَ ٱلسَّمَٰوَٰتِ فَأَطَّلِعَ إِلَىٰٓ إِلَٰهِ مُوسَىٰ وَإِنِّى لَأَظُنُّهُۥ كَٰذِبًۭا ۚ وَكَذَٰلِكَ زُيِّنَ لِفِرْعَوْنَ سُوٓءُ عَمَلِهِۦ وَصُدَّ عَنِ ٱلسَّبِيلِ ۚ وَمَا كَيْدُ فِرْعَوْنَ إِلَّا فِى تَبَابٍۢ
+- 43:13 لِتَسْتَوُۥا۟ عَلَىٰ ظُهُورِهِۦ ثُمَّ تَذْكُرُوا۟ نِعْمَةَ رَبِّكُمْ إِذَا ٱسْتَوَيْتُمْ عَلَيْهِ وَتَقُولُوا۟ سُبْحَٰنَ ٱلَّذِى سَخَّرَ لَنَا هَٰذَا وَمَا كُنَّا لَهُۥ مُقْرِنِينَ
+- 43:38 حَتَّىٰٓ إِذَا جَآءَنَا قَالَ يَٰلَيْتَ بَيْنِى وَبَيْنَكَ بُعْدَ ٱلْمَشْرِقَيْنِ فَبِئْسَ ٱلْقَرِينُ
+- 50:22 لَّقَدْ كُنتَ فِى غَفْلَةٍۢ مِّنْ هَٰذَا فَكَشَفْنَا عَنكَ غِطَآءَكَ فَبَصَرُكَ ٱلْيَوْمَ حَدِيدٌۭ
+- 55:19 مَرَجَ ٱلْبَحْرَيْنِ يَلْتَقِيَانِ
+- 55:20 بَيْنَهُمَا بَرْزَخٌۭ لَّا يَبْغِيَانِ
+- 55:33 يَٰمَعْشَرَ ٱلْجِنِّ وَٱلْإِنسِ إِنِ ٱسْتَطَعْتُمْ أَن تَنفُذُوا۟ مِنْ أَقْطَارِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ فَٱنفُذُوا۟ ۚ لَا تَنفُذُونَ إِلَّا بِسُلْطَٰنٍۢ
+- 55:35 يُرْسَلُ عَلَيْكُمَا شُوَاظٌۭ مِّن نَّارٍۢ وَنُحَاسٌۭ فَلَا تَنتَصِرَانِ
+- 57:13 يَوْمَ يَقُولُ ٱلْمُنَٰفِقُونَ وَٱلْمُنَٰفِقَٰتُ لِلَّذِينَ ءَامَنُوا۟ ٱنظُرُونَا نَقْتَبِسْ مِن نُّورِكُمْ قِيلَ ٱرْجِعُوا۟ وَرَآءَكُمْ فَٱلْتَمِسُوا۟ نُورًۭا فَضُرِبَ بَيْنَهُم بِسُورٍۢ لَّهُۥ بَابٌۢ بَاطِنُهُۥ فِيهِ ٱلرَّحْمَةُ وَظَٰهِرُهُۥ مِن قِبَلِهِ ٱلْعَذَابُ
+- 57:25 لَقَدْ أَرْسَلْنَا رُسُلَنَا بِٱلْبَيِّنَٰتِ وَأَنزَلْنَا مَعَهُمُ ٱلْكِتَٰبَ وَٱلْمِيزَانَ لِيَقُومَ ٱلنَّاسُ بِٱلْقِسْطِ ۖ وَأَنزَلْنَا ٱلْحَدِيدَ فِيهِ بَأْسٌۭ شَدِيدٌۭ وَمَنَٰفِعُ لِلنَّاسِ وَلِيَعْلَمَ ٱللَّهُ مَن يَنصُرُهُۥ وَرُسُلَهُۥ بِٱلْغَيْبِ ۚ إِنَّ ٱللَّهَ قَوِىٌّ عَزِيزٌۭ
+- 58:4 فَمَن لَّمْ يَجِدْ فَصِيَامُ شَهْرَيْنِ مُتَتَابِعَيْنِ مِن قَبْلِ أَن يَتَمَآسَّا ۖ فَمَن لَّمْ يَسْتَطِعْ فَإِطْعَامُ سِتِّينَ مِسْكِينًۭا ۚ ذَٰلِكَ لِتُؤْمِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ ۚ وَتِلْكَ حُدُودُ ٱللَّهِ ۗ وَلِلْكَٰفِرِينَ عَذَابٌ أَلِيمٌ
+- 58:5 إِنَّ ٱلَّذِينَ يُحَآدُّونَ ٱللَّهَ وَرَسُولَهُۥ كُبِتُوا۟ كَمَا كُبِتَ ٱلَّذِينَ مِن قَبْلِهِمْ ۚ وَقَدْ أَنزَلْنَآ ءَايَٰتٍۭ بَيِّنَٰتٍۢ ۚ وَلِلْكَٰفِرِينَ عَذَابٌۭ مُّهِينٌۭ
+- 58:20 إِنَّ ٱلَّذِينَ يُحَآدُّونَ ٱللَّهَ وَرَسُولَهُۥٓ أُو۟لَٰٓئِكَ فِى ٱلْأَذَلِّينَ
+- 59:2 هُوَ ٱلَّذِىٓ أَخْرَجَ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ مِن دِيَٰرِهِمْ لِأَوَّلِ ٱلْحَشْرِ ۚ مَا ظَنَنتُمْ أَن يَخْرُجُوا۟ ۖ وَظَنُّوٓا۟ أَنَّهُم مَّانِعَتُهُمْ حُصُونُهُم مِّنَ ٱللَّهِ فَأَتَىٰهُمُ ٱللَّهُ مِنْ حَيْثُ لَمْ يَحْتَسِبُوا۟ ۖ وَقَذَفَ فِى قُلُوبِهِمُ ٱلرُّعْبَ ۚ يُخْرِبُونَ بُيُوتَهُم بِأَيْدِيهِمْ وَأَيْدِى ٱلْمُؤْمِنِينَ فَٱعْتَبِرُوا۟ يَٰٓأُو۟لِى ٱلْأَبْصَٰرِ
+- 59:14 لَا يُقَٰتِلُونَكُمْ جَمِيعًا إِلَّا فِى قُرًۭى مُّحَصَّنَةٍ أَوْ مِن وَرَآءِ جُدُرٍۭ ۚ بَأْسُهُم بَيْنَهُمْ شَدِيدٌۭ ۚ تَحْسَبُهُمْ جَمِيعًۭا وَقُلُوبُهُمْ شَتَّىٰ ۚ ذَٰلِكَ بِأَنَّهُمْ قَوْمٌۭ لَّا يَعْقِلُونَ
+- 59:20 لَا يَسْتَوِىٓ أَصْحَٰبُ ٱلنَّارِ وَأَصْحَٰبُ ٱلْجَنَّةِ ۚ أَصْحَٰبُ ٱلْجَنَّةِ هُمُ ٱلْفَآئِزُونَ
+- 61:4 إِنَّ ٱللَّهَ يُحِبُّ ٱلَّذِينَ يُقَٰتِلُونَ فِى سَبِيلِهِۦ صَفًّۭا كَأَنَّهُم بُنْيَٰنٌۭ مَّرْصُوصٌۭ
+- 69:13 فَإِذَا نُفِخَ فِى ٱلصُّورِ نَفْخَةٌۭ وَٰحِدَةٌۭ
+- 78:18 يَوْمَ يُنفَخُ فِى ٱلصُّورِ فَتَأْتُونَ أَفْوَاجًۭا
+- 94:7 فَإِذَا فَرَغْتَ فَٱنصَبْ
+- 100:2 فَٱلْمُورِيَٰتِ قَدْحًۭا
+- 111:3 سَيَصْلَىٰ نَارًۭا ذَاتَ لَهَبٍۢ

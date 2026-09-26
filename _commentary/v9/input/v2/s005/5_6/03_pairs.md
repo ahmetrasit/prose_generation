@@ -1,0 +1,2891 @@
+# Branch-image pairs (global network, gateway roots; top by distinct partner root)
+
+For every branch of every focus root: partners in the same ayah (top 3), within ±7 ayat (top 3), and elsewhere in the surah (top 2). A pair is a candidate only; judge whether it opens a reading.
+
+Pairs listed: 2464.
+## ء م ن (ءَامَنُوٓا۟)
+
+- **B001** guven ve guvenilirlik / سكون القلب في أمن وثقة
+  - same: ك و ن B002 bulunma yeri ve konum değeri / المكان والمكانة من الكون ← 5:6 كُنتُمْ
+  - same: ي د ي B006 boyun eğme, bağlılık ve güvence üstlenme / اليَد المستسلمة ← 5:6 وَأَيْدِيَكُمْ
+  - same: ن ع م B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik / حسن الحال والنعمة ← 5:6 نِعْمَتَهُۥ
+  - near: و ث ق B001 güvenmek ve güvenilir olmak / الثقة والسكون إلى المعتمد ← 5:7 وَمِيثَٰقَهُ
+  - near: خ و ن B001 güveni gizlice bozup sözünden dönme / نقص الوفاء والأمانة ← 5:13 خَآئِنَةٍ
+  - near: خ ش ي B001 korku duyma / الخوف والخشية مع الهيبة ← 5:3 تَخْشَوْهُمْ
+  - far: و ث ق B001 güvenmek ve güvenilir olmak / الثقة والسكون إلى المعتمد ← 5:14 مِيثَٰقَهُمْ
+  - far: ط م ء ن B001 tedirginlikten sonra durulup güven duygusuna kavuşma / السكون والطمأنينة ← 5:113 وَتَطْمَئِنَّ
+- **B002** dogru sayip kabul etme / تصديق يطمئن إليه القلب
+  - same: ن ع م B004 evet diyerek onaylamak veya söz vermek / الجواب بنعم والتصديق ← 5:6 نِعْمَتَهُۥ
+  - same: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 5:6 يُرِيدُ
+  - same: ش ك ر B001 İyiliği tanıyıp söz ve davranışla karşılık verme / عرفان النعمة وحمد المنعم ← 5:6 تَشْكُرُونَ
+  - near: ن ع م B004 evet diyerek onaylamak veya söz vermek / الجواب بنعم والتصديق ← 5:7 نِعْمَةَ
+  - near: د ي ن B007 kişiyi sözüne ve vicdani sorumluluğuna göre değerlendirme / التصديق والتفويض ← 5:3 دِينِكُمْ
+  - near: و ع د B001 iyi ya da kötü bir şeyi yapacağını sözle bildirme / وعد يفتح رجاء الموعود بقول ← 5:9 وَعَدَ
+  - far: ص د ق B004 sözü veya beklentiyi doğrulayıp gerçekleştirme / تحقيق الوعد والفعل ← 5:45 تَصَدَّقَ
+  - far: ن ع م B004 evet diyerek onaylamak veya söz vermek / الجواب بنعم والتصديق ← 5:20 نِعْمَةَ
+- **B003** duada kabul istegi sozu / قول آمين طلبا للاستجابة
+  - same: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 5:6 ٱللَّهُ
+  - same: ن ع م B004 evet diyerek onaylamak veya söz vermek / الجواب بنعم والتصديق ← 5:6 نِعْمَتَهُۥ
+  - same: ص ل ي B002 iyilik dileme; özneye göre esirgeme, övme veya aklama / الدعاء والبركة والرحمة ← 5:6 ٱلصَّلَوٰةِ
+  - near: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 5:7 ٱللَّهِ
+  - near: ن ع م B004 evet diyerek onaylamak veya söz vermek / الجواب بنعم والتصديق ← 5:7 نِعْمَةَ
+  - near: ص ل و B002 başkası için iyilik dileme; esirgeme, övme ve değer verme / الدعاء والثناء والرحمة ← 5:12 ٱلصَّلَوٰةَ
+  - far: ء ج ل B003 evet, doğrudur / جواب التصديق أجل ← 5:32 أَجْلِ
+  - far: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 5:14 ٱللَّهُ
+
+## ق و م (قُمْتُمْ)
+
+- **B001** erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال
+  - same: ن س و B001 kadın topluluğunu bildiren ayrı biçimli çoğullar / جماعة النساء ← 5:6 ٱلنِّسَآءَ
+  - same: ر ج ل B003 yaya giden kişi / المشي على الأرجل ← 5:6 وَأَرْجُلَكُمْ
+  - same: ل م س B003 dokunma sözüyle cinsel birleşmeyi örtülü anlatma / كناية الجماع ← 5:6 لَٰمَسْتُمُ
+  - near: ء م م B004 ortak bağla birleşen topluluk veya tür / الأمة جماعة أو نوعا ← 5:2 ءَآمِّينَ
+  - near: ق ب ل B009 soy veya kuşak topluluğu / جماعة يقبل بعضها على بعض ← 5:5 قَبْلِكُمْ
+  - near: ع ش ر B013 akraba topluluğu veya ortak amaçlı topluluk / جماعة وعشيرة ← 5:12 عَشَرَ
+  - far: ء ه ل B001 yakın çevre ve bağlı topluluk / جماعة القرب والانتماء ← 5:15 يَٰٓأَهْلَ
+  - far: ء م م B004 ortak bağla birleşen topluluk veya tür / الأمة جماعة أو نوعا ← 5:17 وَأُمَّهُۥ
+- **B002** ayağa kalkma ve dik durma / انتصاب وقيام بالبدن
+  - same: ص ل و B003 ayakta durma, eğilme ve yere kapanma bölümleri olan kurallı tapınma / العبادة المخصوصة ← 5:6 ٱلصَّلَوٰةِ
+  - same: ص ل ي B001 ayakta durma, eğilme ve yere kapanmalı yükümlü tapınma / الصلاة عبادة لازمة ← 5:6 ٱلصَّلَوٰةِ
+  - same: م ر ض B003 hastaya özenle bakma / القيام على المريض ← 5:6 مَّرْضَىٰٓ
+  - near: ص ل و B003 ayakta durma, eğilme ve yere kapanma bölümleri olan kurallı tapınma / العبادة المخصوصة ← 5:12 ٱلصَّلَوٰةَ
+  - near: ن ص ب B001 dikme, dik durma ve yükselme / إقامة الشيء منتصبا بارزا ← 5:3 ٱلنُّصُبِ
+  - near: ء م م B006 boy ve beden görünüşü / القامة والهيئة ← 5:2 ءَآمِّينَ
+  - far: م ث ل B005 ayağa kalkıp dik durma / المثول والانتصاب ← 5:31 مِثْلَ
+  - far: ق ع د B001 oturup yer tutma / الجلوس والثبوت في موضع ← 5:24 قَٰعِدُونَ
+- **B003** bir işe kararlılıkla girişme / عزم ونهوض إلى الأمر
+  - same: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 5:6 يُرِيدُ
+  - same: ج د د B008 şakadan uzak kararlı çaba / عزم واجتهاد ← 5:6 تَجِدُوا۟
+  - same: ر ج ل B019 işine bütün gücüyle sarılmak / القيام على رجل ← 5:6 وَأَرْجُلَكُمْ
+  - near: ق ل د B004 sorumluluk yükleme veya üstlenme / إلزام الأمر وجعله في العنق ← 5:2 ٱلْقَلَٰٓئِدَ
+  - near: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 5:1 يُرِيدُ
+  - near: ح س ب B002 öyle olduğunu sanmak / الحسبان والظن ← 5:4 ٱلْحِسَابِ
+  - far: ج م ع B003 düşünüp kesin bir tutuma bağlanma / عزم محكم جمع الرأي بعد تفرقه ← 5:17 جَمِيعًا
+  - far: ق ل د B004 sorumluluk yükleme veya üstlenme / إلزام الأمر وجعله في العنق ← 5:97 وَٱلْقَلَٰٓئِدَ
+- **B004** sürekli gözetip yönetme / رعاية وحفظ وولاية
+  - same: م ر ض B003 hastaya özenle bakma / القيام على المريض ← 5:6 مَّرْضَىٰٓ
+  - same: ر د د B009 düşmeyi önleyen dayanak, sırt veya yük devesi / العماد وما يحمل ويرد عن السقوط ← 5:6 يُرِيدُ
+  - same: ر ج ل B019 işine bütün gücüyle sarılmak / القيام على رجل ← 5:6 وَأَرْجُلَكُمْ
+  - near: و ك ل B006 kendisine bırakılan işi üstlenip koruyan yeterli görevli / القائم بالأمر كفاية وحفظا ← 5:11 فَلْيَتَوَكَّلِ
+  - near: ح س ب B006 işi gözetme, kötü davranışı sorgulama ve kamusal denetim / الحسبة والنظر في الأمر ← 5:4 ٱلْحِسَابِ
+  - near: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 5:5 غَيْرَ
+  - far: و ك ل B006 kendisine bırakılan işi üstlenip koruyan yeterli görevli / القائم بالأمر كفاية وحفظا ← 5:23 فَتَوَكَّلُوٓا۟
+  - far: ح ف ظ B003 düzenli biçimde sürdürme / ملازمة الأمر والمواظبة عليه ← 5:44 ٱسْتُحْفِظُوا۟
+- **B006** bir yerde kalma ve kalınan yer / مقام وإقامة في موضع
+  - same: ك و ن B002 bulunma yeri ve konum değeri / المكان والمكانة من الكون ← 5:6 كُنتُمْ
+  - same: ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 5:6 نِعْمَتَهُۥ
+  - same: ر ف ق B002 yolculukta birlikte giden kişi ya da topluluk / الصحبة والمرافقة ← 5:6 ٱلْمَرَافِقِ
+  - near: ك و ن B002 bulunma yeri ve konum değeri / المكان والمكانة من الكون ← 5:8 كُونُوا۟
+  - near: ب ه م B008 bir yerde kalıp ayrılmama / ملازمة الموضع ← 5:1 بَهِيمَةُ
+  - near: ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 5:7 نِعْمَةَ
+  - far: ر ب ع B006 yerleşme ve yerleşik kalma / الإقامة والربع المسكون ← 5:26 أَرْبَعِينَ
+  - far: ك و ن B002 bulunma yeri ve konum değeri / المكان والمكانة من الكون ← 5:14 كَانُوا۟
+- **B007** başkasının yerini ve işlevini alma / نيابة وقيام مقام غيره
+  - same: ط ه ر B003 suyla veya eşdeğer bir araçla yıkanıp temizlenme / التطهر بالماء والغسل ← 5:6 فَٱطَّهَّرُوا۟
+  - same: ك و ن B002 bulunma yeri ve konum değeri / المكان والمكانة من الكون ← 5:6 كُنتُمْ
+  - same: ر د د B001 geri dönme veya geri döndürme / الرجوع إلى الشيء أو رده إلى موضعه ← 5:6 يُرِيدُ
+  - near: س و ي B007 başka ve ayrı olan / مباينة وكون الشيء غيره ← 5:12 سَوَآءَ
+  - near: ع د ل B003 denk kurtulma karşılığı / العِدل فدية وقيمة ← 5:8 تَعْدِلُوا۟
+  - near: ء م م B009 öne konulan ve izlenen kılavuz / الإمام ومن يقتدى به ← 5:2 ءَآمِّينَ
+  - far: خ ل ف B001 ardından gelip yerini tutma / شيء يأتي بعد شيء ويقوم مقامه ← 5:33 خِلَٰفٍ
+  - far: ج ز ي B002 yerini tutup yükümlülüğü karşılama / قيام الشيء مقام غيره ← 5:29 جَزَٰٓؤُا۟
+- **B008** düzgünlük, denge ve doğru yoldan sapmama / استقامة واعتدال واستواء
+  - same: و ج ه B008 sözün veya işin doğru yönü ve ona uygun düzenleme / وجه الأمر وصوابه ← 5:6 وُجُوهَكُمْ
+  - same: ص ع د B006 kendiliğinden düz mızraklık sırık / صعدة قناة مستقيمة ← 5:6 صَعِيدًا
+  - same: م ر ض B001 sağlıktan sapma ve güç kaybı / الخروج عن الصحة والاعتدال ← 5:6 مَّرْضَىٰٓ
+  - near: ع د ل B005 düzeltip dengeleme / إقامة الشيء واعتداله ← 5:8 تَعْدِلُوا۟
+  - near: س و ي B002 kendi içinde düzgün ve tam duruma gelme / استقامة وتمام في الذات ← 5:12 سَوَآءَ
+  - near: ق س ط B004 doğru tartan terazi / الميزان المستقيم ← 5:8 بِٱلْقِسْطِ
+  - far: ق ص د B002 doğru ve düzgün bir çizgide ilerleme / استقامة الطريق والمشي ← 5:66 مُّقْتَصِدَةٌ
+  - far: ع د ل B005 düzeltip dengeleme / إقامة الشيء واعتداله ← 5:95 عَدْلٍ
+- **B009** ayakta tutan dayanak ve geçim temeli / قوام وعماد ومعاش
+  - same: ر د د B009 düşmeyi önleyen dayanak, sırt veya yük devesi / العماد وما يحمل ويرد عن السقوط ← 5:6 يُرِيدُ
+  - same: و ج ه B008 sözün veya işin doğru yönü ve ona uygun düzenleme / وجه الأمر وصوابه ← 5:6 وُجُوهَكُمْ
+  - same: ء ي د B001 güç ve güçlendirme / قوة مؤيدة ← 5:6 وَأَيْدِيَكُمْ
+  - near: ء م م B009 öne konulan ve izlenen kılavuz / الإمام ومن يقتدى به ← 5:2 ءَآمِّينَ
+  - near: ق ل د B004 sorumluluk yükleme veya üstlenme / إلزام الأمر وجعله في العنق ← 5:2 ٱلْقَلَٰٓئِدَ
+  - near: ق س ط B004 doğru tartan terazi / الميزان المستقيم ← 5:8 بِٱلْقِسْطِ
+  - far: م ل ك B005 işi ayakta tutan temel dayanak / مِلاك الأمر وعِماده ← 5:17 يَمْلِكُ
+  - far: ص م م B007 iç dayanak ve katışıksız öz / صميم الشيء وخالصه ← 5:71 وَصَمُّوا۟
+- **B010** değer biçme ve belirlenen bedel / قيمة وتقويم وتسعير
+  - same: ر د د B004 geri isteme veya karşılıklı geri verme / الاسترداد والتراد في البيع ← 5:6 يُرِيدُ
+  - same: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 5:6 يُرِيدُ
+  - same: ص ع د B006 kendiliğinden düz mızraklık sırık / صعدة قناة مستقيمة ← 5:6 صَعِيدًا
+  - near: ع د ل B003 denk kurtulma karşılığı / العِدل فدية وقيمة ← 5:8 تَعْدِلُوا۟
+  - near: ق س ط B003 pay ve eşitçe paylaştırma / النصيب والقسمة ← 5:8 بِٱلْقِسْطِ
+  - near: و ق ي B004 kırk gümüş para ağırlığındaki, yağda yedi birimlik biçimi bulunan ölçü / الأوقية وزن معلوم ← 5:7 وَٱتَّقُوا۟
+  - far: ث م ن B001 satış karşılığı ve değer / العوض والقيمة في البيع ← 5:44 ثَمَنًا
+  - far: ع د ل B003 denk kurtulma karşılığı / العِدل فدية وقيمة ← 5:95 عَدْلٍ
+- **B011** insanın boyu ve düzgün beden yapısı / قامة وقوام الجسم والطول
+  - same: ص ع د B006 kendiliğinden düz mızraklık sırık / صعدة قناة مستقيمة ← 5:6 صَعِيدًا
+  - same: ت م م B001 tamamlanma ve tamamlama / بلوغ الشيء تمامه ← 5:6 وَلِيُتِمَّ
+  - same: ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 5:6 نِعْمَتَهُۥ
+  - near: ء م م B006 boy ve beden görünüşü / القامة والهيئة ← 5:2 ءَآمِّينَ
+  - near: ب س ط B011 uzak mesafe ve tam uzanma erişimi / الطول والبعد ومدى اليد ← 5:11 يَبْسُطُوٓا۟
+  - near: ع د ل B005 düzeltip dengeleme / إقامة الشيء واعتداله ← 5:8 تَعْدِلُوا۟
+  - far: ء م م B006 boy ve beden görünüşü / القامة والهيئة ← 5:17 وَأُمَّهُۥ
+  - far: ب س ط B011 uzak mesafe ve tam uzanma erişimi / الطول والبعد ومدى اليد ← 5:28 بَسَطتَ
+- **B012** düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم
+  - same: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 5:6 نِعْمَتَهُۥ
+  - same: ر ء س B005 kılıcın kabzası / رِئاس السيف ← 5:6 بِرُءُوسِكُمْ
+  - same: ص ع د B006 kendiliğinden düz mızraklık sırık / صعدة قناة مستقيمة ← 5:6 صَعِيدًا
+  - near: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 5:7 نِعْمَةَ
+  - near: ك ل ب B007 kanca, tutucu çivi, kavrama aleti veya pençe / الكلاب والكلوب الماسك ← 5:4 مُكَلِّبِينَ
+  - near: ء م م B006 boy ve beden görünüşü / القامة والهيئة ← 5:2 ءَآمِّينَ
+  - far: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 5:20 نِعْمَةَ
+  - far: ء و ل B008 araç ve taşıyıcı düzen / الآلة الحاملة أو الأداة ← 5:100 يَٰٓأُو۟لِى
+- **B013** ölülerin diriltildiği ve insanların yargı için kalktığı gün / قيامة وبعث وقيام الساعة
+  - same: ي د ي B008 önünde ya da hemen öncesinde / بين اليَدين ← 5:6 وَأَيْدِيَكُمْ
+  - same: ص ل ي B001 ayakta durma, eğilme ve yere kapanmalı yükümlü tapınma / الصلاة عبادة لازمة ← 5:6 ٱلصَّلَوٰةِ
+  - same: ص ل و B003 ayakta durma, eğilme ve yere kapanma bölümleri olan kurallı tapınma / العبادة المخصوصة ← 5:6 ٱلصَّلَوٰةِ
+  - near: ء م م B006 boy ve beden görünüşü / القامة والهيئة ← 5:2 ءَآمِّينَ
+  - near: ي د ي B008 önünde ya da hemen öncesinde / بين اليَدين ← 5:11 أَيْدِيَهُمْ
+  - near: ب ع ث B002 gönderme veya yöneltme / إرسال المبعوث وتوجيهه ← 5:12 وَبَعَثْنَا
+  - far: ح ش ر B001 topluluğu sevk ederek toplama / سوق الجماعة وجمعها إلى مقصد ← 5:96 تُحْشَرُونَ
+  - far: و ق ع B002 ağır felaket / الواقعة النازلة الشديدة ← 5:91 يُوقِعَ
+- **B014** karşılıklı direnip mücadele etme / مقاومة ومنازلة
+  - same: م س ح B017 satışta el sıkışma / المصافحة في البيع ← 5:6 وَٱمْسَحُوا۟
+  - same: ر و د B002 birini istegine karsi razi etmeye calisma / المراودة على الفعل ← 5:6 يُرِيدُ
+  - same: ح ر ج B012 savaştan ayrılmayan adam / لزوم القتال ← 5:6 حَرَجٍ
+  - near: ء خ ذ B011 güreşte kavrayıp kilitleme / أخذة المصارعة ← 5:5 مُتَّخِذِىٓ
+  - near: ق و ل B009 müzakere etme / المقاولة في الأمر ← 5:7 قُلْتُمْ
+  - near: ن ص ب B008 birine savaş veya düşmanlıkla karşı çıkma / مواجهة العداوة والحرب ← 5:3 ٱلنُّصُبِ
+  - far: ء خ ذ B011 güreşte kavrayıp kilitleme / أخذة المصارعة ← 5:14 أَخَذْنَا
+  - far: ن ز ل B007 savaşmak için karşı karşıya inme / النزول للمبارزة ← 5:44 أَنزَلْنَا
+- **B015** tam ve denk ağırlıktaki para / وزن سواء ومقدار معتدل
+  - same: ر ج ل B019 işine bütün gücüyle sarılmak / القيام على رجل ← 5:6 وَأَرْجُلَكُمْ
+  - same: غ و ط B004 bükülerek alçalmak / انخفاض بانثناء ← 5:6 ٱلْغَآئِطِ
+  - same: ر د د B003 kabul etmeyip geçersiz sayarak geri çevirme / عدم القبول ورد الزائف أو الخطأ ← 5:6 يُرِيدُ
+  - near: و ق ي B004 kırk gümüş para ağırlığındaki, yağda yedi birimlik biçimi bulunan ölçü / الأوقية وزن معلوم ← 5:7 وَٱتَّقُوا۟
+  - near: س و ي B006 iki yanın ortasında ve ikisine karşı yansız olma / وسط وعدل ومكان منصف ← 5:12 سَوَآءَ
+  - near: ع د ل B005 düzeltip dengeleme / إقامة الشيء واعتداله ← 5:8 تَعْدِلُوا۟
+  - far: و ق ي B004 kırk gümüş para ağırlığındaki, yağda yedi birimlik biçimi bulunan ölçü / الأوقية وزن معلوم ← 5:27 ٱلْمُتَّقِينَ
+  - far: ق د ر B001 bir şeyin ölçüsü ve eriştiği sınır / المقدار الذي يبلغ الشيء حده ← 5:17 قَدِيرٌ
+- **B016** donup akmama veya yorulup ilerleyememe / جمود ووقوف وكلال
+  - same: ج ع ل B008 kara küçük yer hayvanı ve bunlarla dolu su / دويبة الجعلان ← 5:6 لِيَجْعَلَ
+  - same: ر د د B009 düşmeyi önleyen dayanak, sırt veya yük devesi / العماد وما يحمل ويرد عن السقوط ← 5:6 يُرِيدُ
+  - same: م س ح B020 kılıcı kınından çekme / استلال السيف من غمده ← 5:6 وَٱمْسَحُوا۟
+  - near: و ك ل B005 hayvanın geride kalarak veya eşine dayanarak kötü yürümesi / تأخر الدابة واتكالها في السير ← 5:11 فَلْيَتَوَكَّلِ
+  - near: ق ل د B008 sıvıyı bir kaba döküp biriktirme / جمع الماء أو اللبن في وعاء ← 5:2 ٱلْقَلَٰٓئِدَ
+  - near: ج ع ل B008 kara küçük yer hayvanı ve bunlarla dolu su / دويبة الجعلان ← 5:13 وَجَعَلْنَا
+  - far: ص و م B003 hareketsiz kalma / ركود الشيء في مكانه ← 5:89 فَصِيَامُ
+  - far: ع ب د B011 bineği yüzünden yolda kalma veya güçlükle direnen deve / العطب والانقطاع ← 5:60 وَعَبَدَ
+- **B017** güneşin tam tepede olduğu öğle ortası / انتصاف النهار وقائم الظهيرة
+  - same: ر ج ل B012 günün yükselip aydınlığın yayılması / ترجل النهار ← 5:6 وَأَرْجُلَكُمْ
+  - same: و ج ه B007 günün başı, ilk saatleri / وجه النهار وصدره ← 5:6 وُجُوهَكُمْ
+  - same: م ر ض B005 ışık ve berraklığın azalması / إظلام الشيء ونقص صفائه ← 5:6 مَّرْضَىٰٓ
+  - near: ز ل م B012 dikilmek veya yükselmek / انتصاب الشيء وارتفاع النهار ← 5:3 بِٱلْأَزْلَٰمِ
+  - near: ش د د B005 günün ilerleyip yükselmesi / شد النهار وارتفاعه ← 5:2 شَدِيدُ
+  - near: ع د ل B005 düzeltip dengeleme / إقامة الشيء واعتداله ← 5:8 تَعْدِلُوا۟
+  - far: ع ق ل B012 gün ortasında gölgenin kısalıp sabit görünmesi / عَقْل الظل قائما ← 5:58 يَعْقِلُونَ
+  - far: ز ل م B012 dikilmek veya yükselmek / انتصاب الشيء وارتفاع النهار ← 5:90 وَٱلْأَزْلَٰمُ
+- **B018** pazarın canlanıp satışların artması / نفاق السوق
+  - same: م س ح B017 satışta el sıkışma / المصافحة في البيع ← 5:6 وَٱمْسَحُوا۟
+  - same: ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 5:6 نِعْمَتَهُۥ
+  - same: ر د د B003 kabul etmeyip geçersiz sayarak geri çevirme / عدم القبول ورد الزائف أو الخطأ ← 5:6 يُرِيدُ
+  - near: خ س ر B002 alım satımda kazanç sağlayamama veya anaparadan yitirme / خسارة التجارة ← 5:5 ٱلْخَٰسِرِينَ
+  - near: ق س ط B010 ev halkına yapılan harcamayı kısmak / تقتير النفقة ← 5:8 بِٱلْقِسْطِ
+  - near: م و ت B012 rüzgârın dinmesi, kumaşın eskimesi veya insanın uyuması / سكون وخمود كنوم أو بلى ← 5:3 ٱلْمَيْتَةُ
+  - far: ص ن ع B011 pazar yeri / الصنع سوق والسوق أصناع ← 5:14 يَصْنَعُونَ
+  - far: ن ف ق B001 tükenip sona erme; özel kullanımlarda alıcı bulma, çabuk kesilme veya yüzeyden ayrılma / ذهاب الشيء وانقطاعه ← 5:64 يُنفِقُ
+- **B019** bir beden bölümünün kişiye ağrı vermesi / وجع قائم بالعضو
+  - same: ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 5:6 نِعْمَتَهُۥ
+  - same: ر ج ل B001 bacak uzvu / الرِّجل العضو ← 5:6 وَأَرْجُلَكُمْ
+  - same: ي د ي B001 el ve elin uğradığı bedensel durumlar / اليَد الجارحة ← 5:6 وَأَيْدِيَكُمْ
+  - near: ع ظ م B003 uzvun belirli kalın kesimi / مستغلظ العضو ← 5:9 عَظِيمٌ
+  - near: ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 5:7 نِعْمَةَ
+  - near: ي د ي B001 el ve elin uğradığı bedensel durumlar / اليَد الجارحة ← 5:11 أَيْدِيَهُمْ
+  - far: ء ل م B001 acı duyma / الوجع والتألم ← 5:36 أَلِيمٌ
+  - far: ع ظ م B003 uzvun belirli kalın kesimi / مستغلظ العضو ← 5:33 عَظِيمٌ
+- **B020** koyunun bacaklarını tutan hastalık / قوام في قوائم الشاة
+  - same: ج ن ب B012 atın bacaklarında doğuştan ölçülü açıklık / التجنيب تباعد في هيئة القوائم ← 5:6 جُنُبًا
+  - same: ج ع ل B009 dişinin çiftleşmek için erkeği istemesi / اشتهاء الأنثى للفحل ← 5:6 لِيَجْعَلَ
+  - same: ر ج ل B001 bacak uzvu / الرِّجل العضو ← 5:6 وَأَرْجُلَكُمْ
+  - near: ء خ ذ B007 bedende bir durumun baş gösterip etkisini göstermesi / حال تأخذ في الجسم ← 5:5 مُتَّخِذِىٓ
+  - near: ع م ل B010 iş gören beden parçası / الجارحة العاملة ← 5:5 عَمَلُهُۥ
+  - near: خ ن ق B004 boğazı tutan hastalık / داء الخناق ← 5:3 وَٱلْمُنْخَنِقَةُ
+  - far: غ ر ب B017 şiddetli ağrı veya koyunda tüy döken hastalık / الوجع والداء في البدن أو الشاة ← 5:31 غُرَابًا
+  - far: ء خ ذ B007 bedende bir durumun baş gösterip etkisini göstermesi / حال تأخذ في الجسم ← 5:14 أَخَذْنَا
+- **B021** göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر
+  - same: ن ع م B013 birini göz sevinci saymak veya bunun için dua etmek / نعم الله بك عينا وقرة العين ← 5:6 نِعْمَتَهُۥ
+  - same: م ر ض B005 ışık ve berraklığın azalması / إظلام الشيء ونقص صفائه ← 5:6 مَّرْضَىٰٓ
+  - same: ر و د B007 gozde dolasan bozukluk / عوار العين الرائد ← 5:6 يُرِيدُ
+  - near: ن ع م B013 birini göz sevinci saymak veya bunun için dua etmek / نعم الله بك عينا وقرة العين ← 5:7 نِعْمَةَ
+  - near: ك ف ف B008 görme yetisini yitirme / كف البصر ← 5:11 فَكَفَّ
+  - near: ر و د B007 gozde dolasan bozukluk / عوار العين الرائد ← 5:1 يُرِيدُ
+  - far: ع ي ن B001 gören göz / العين الناظرة ← 5:45 وَٱلْعَيْنَ
+  - far: ر ء ي B001 gözle ya da içsel kavrayışla görme / رؤية العين والبصيرة ← 5:31 لِيُرِيَهُۥ
+
+## ص ل و (ٱلصَّلَوٰةِ)
+
+- **B001** ateşin yakıcı sıcaklığına maruz kalma ve ateşle işleme / ملاقاة النار وحرها
+  - same: ص ل ي B004 ateş yakıtı; ateşte pişirme veya ısıyla düzeltme / إيقاد الصلاء وتسوية الشيء بالنار ← 5:6 ٱلصَّلَوٰةِ
+  - same: ص ع د B009 ateşle eritip dönüştürme; katranlık ağaç / تصعيد بالنار وتغيير ← 5:6 صَعِيدًا
+  - same: ج ع ل B007 sıcak tencereyi indirme bezi ve onunla indirme / خرقة إنزال القدر ← 5:6 لِيَجْعَلَ
+  - near: ج ح م B001 şiddetle harlanan büyük ateş ve yakıcı sıcaklık / تأجج النار وشدة حرها ← 5:10 ٱلْجَحِيمِ
+  - near: ذ ك و B002 ateşin tutuşması veya tutuşturulup güçlendirilmesi / إذكاء النار ← 5:3 ذَكَّيْتُمْ
+  - near: م س ك B008 ateşi oyukta yakıtla veya toprağa gömerek korumak / إمساك النار في التراب ← 5:4 أَمْسَكْنَ
+  - far: و ق د B002 yakacak odun ve ateşlik yakıt / الحطب ومادة الوقود ← 5:64 أَوْقَدُوا۟
+  - far: ف ت ن B002 ateşte yakma veya ateşle durumunu değiştirme / إحراق النار وسوادها ← 5:41 فِتْنَتَهُۥ
+- **B002** başkası için iyilik dileme; esirgeme, övme ve değer verme / الدعاء والثناء والرحمة
+  - same: ص ل ي B002 iyilik dileme; özneye göre esirgeme, övme veya aklama / الدعاء والبركة والرحمة ← 5:6 ٱلصَّلَوٰةِ
+  - same: ء م ن B003 duada kabul istegi sozu / قول آمين طلبا للاستجابة ← 5:6 ءَامَنُوٓا۟
+  - same: ش ك ر B001 İyiliği tanıyıp söz ve davranışla karşılık verme / عرفان النعمة وحمد المنعم ← 5:6 تَشْكُرُونَ
+  - near: غ ف ر B002 suçu bağışlayıp cezadan koruma / ستر الذنب وصون صاحبه من أثره ← 5:3 غَفُورٌ
+  - near: ر ح م B001 acıma duygusuyla esirgeyip iyilik etme / الرَّحْمَة والرقة ← 5:3 رَّحِيمٌ
+  - near: ز ك و B002 ahlaken arınıp düzgünleşme / الطهارة والصلاح ← 5:12 ٱلزَّكَوٰةَ
+  - far: س ب ح B001 Tanrı'yı yücelterek anma ve kulluk / العبادة بالتسبيح والصلاة ← 5:116 سُبْحَٰنَكَ
+  - far: ح ي ي B007 esenlik, uzun ömür ve kalıcılık dileği / التحية دعاء بالحياة والسلام ← 5:32 أَحْيَاهَا
+- **B003** ayakta durma, eğilme ve yere kapanma bölümleri olan kurallı tapınma / العبادة المخصوصة
+  - same: ص ل ي B001 ayakta durma, eğilme ve yere kapanmalı yükümlü tapınma / الصلاة عبادة لازمة ← 5:6 ٱلصَّلَوٰةِ
+  - same: ق و م B002 ayağa kalkma ve dik durma / انتصاب وقيام بالبدن ← 5:6 قُمْتُمْ
+  - same: ي م م B002 toprakla namaz temizliği / التيمم للصلاة بمسح الوجه واليدين بالتراب ← 5:6 فَتَيَمَّمُوا۟
+  - near: ق ب ل B005 namazda yönelinen yön / جهة الصلاة المتوجه إليها ← 5:5 قَبْلِكُمْ
+  - near: ق و م B002 ayağa kalkma ve dik durma / انتصاب وقيام بالبدن ← 5:8 قَوَّٰمِينَ
+  - near: س ج د B001 alçalıp boyun eğme ve alnı yere koyma / التطامن والذل ← 5:2 ٱلْمَسْجِدِ
+  - far: س ب ح B001 Tanrı'yı yücelterek anma ve kulluk / العبادة بالتسبيح والصلاة ← 5:116 سُبْحَٰنَكَ
+  - far: ر ك ع B003 kendini alçaltarak boyun eğme / التواضع والتذلل ← 5:55 رَٰكِعُونَ
+- **B004** yakalamak için kurulan tuzak / الشرك المنصوبة
+  - same: ص ل ي B005 av yakalamak için kurulan kapan / المَصالي أشراك وفخوخ ← 5:6 ٱلصَّلَوٰةِ
+  - same: ر ج ل B016 dik duran pişirme kazanı / المرجل المنصوب ← 5:6 وَأَرْجُلَكُمْ
+  - same: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 5:6 نِعْمَتَهُۥ
+  - near: ص ي د B001 kaçabilen avı arayıp ele geçirme / طلب الممتنع وأخذه ← 5:2 فَٱصْطَادُوا۟
+  - near: ن ص ب B003 sınır işareti veya kuyu-havuz taşı / علامة أو حجارة منصوبة للحد أو الحوض ← 5:3 ٱلنُّصُبِ
+  - near: ص د د B011 alkışlamak / تصفيق ← 5:2 صَدُّوكُمْ
+  - far: ش ر ك B006 avın dolandığı kapan ve tuzak benzetmesi / شَرَك الصائد ← 5:72 يُشْرِكْ
+  - far: ص ي د B001 kaçabilen avı arayıp ele geçirme / طلب الممتنع وأخذه ← 5:94 ٱلصَّيْدِ
+- **B005** sırtın ortası ve kuyruk kökünün iki yanı / الصَّلا من الظهر والجنب
+  - same: ص ل ي B006 sırtın ortası ve kuyruk dibinin iki yanı / الصَّلا موضع الظهر والذنب ← 5:6 ٱلصَّلَوٰةِ
+  - same: ج ن ب B001 bedenin veya şeyin yanı ve bitişik çevresi / الجنب جانب الجسد وناحية الشيء ← 5:6 جُنُبًا
+  - same: و ج ه B010 doğumda ellerin veya ön ayakların önce çıkması / الولادة باليدين أولا ← 5:6 وُجُوهَكُمْ
+  - near: ق ب ل B005 namazda yönelinen yön / جهة الصلاة المتوجه إليها ← 5:5 قَبْلِكُمْ
+  - near: ج ر ح B006 doğurabilir dişi mal hayvanı veya onun yavrusu / جارحة المال والنتاج ← 5:4 ٱلْجَوَارِحِ
+  - near: ت ل و B006 anneyi izleyen yavru / ولد يتلو أمه ← 5:1 يُتْلَىٰ
+  - far: ص ل ب B002 sırt, omurga ve soyun çıktığı bel / الظهر والفقار ← 5:33 يُصَلَّبُوٓا۟
+  - far: ق ب ل B005 namazda yönelinen yön / جهة الصلاة المتوجه إليها ← 5:27 فَتُقُبِّلَ
+- **B006** yarışta birincinin hemen ardındaki ikinci / تلو السابق في السباق
+  - same: ص ل ي B007 yarışta önderin hemen ardındaki ikinci at / المصلي يتلو السابق ← 5:6 ٱلصَّلَوٰةِ
+  - same: ي د ي B008 önünde ya da hemen öncesinde / بين اليَدين ← 5:6 وَأَيْدِيَكُمْ
+  - same: م س ح B020 kılıcı kınından çekme / استلال السيف من غمده ← 5:6 وَٱمْسَحُوا۟
+  - near: ث ن ي B002 önderden sonra gelen veya alt sıradaki kişi / الثاني في الرتبة بعد السيد ← 5:12 ٱثْنَىْ
+  - near: ت ل و B003 ardından kalan bakiye / بقية تتلو ما قبلها ← 5:1 يُتْلَىٰ
+  - near: ع ق ب B005 birbirinin ardından gelme ve yerini alma / الخلف والتعاقب ← 5:2 ٱلْعِقَابِ
+  - far: س ب ق B002 yarışta ortaya konup kazananın aldığı pay / الرهن في السباق ← 5:48 فَٱسْتَبِقُوا۟
+  - far: ث ل ث B003 ucuncu olma / الثالث المكمل ← 5:73 ثَالِثُ
+- **B007** tapınma yeri; kilise / مواضع الصلاة ودور العبادة
+  - same: ص ل ي B008 tapınma yeri, özellikle Yahudi tapınağı / الصلوات مواضع عبادة ← 5:6 ٱلصَّلَوٰةِ
+  - same: ق و م B006 bir yerde kalma ve kalınan yer / مقام وإقامة في موضع ← 5:6 قُمْتُمْ
+  - same: ج د د B014 kıyı ve kır yer adları / مواضع مسماة ← 5:6 تَجِدُوا۟
+  - near: س ج د B002 alnı yere koyma yeri, buna ayrılmış yapı veya küçük yaygı / موضع السجود ومصلاه ← 5:2 ٱلْمَسْجِدِ
+  - near: ق ب ل B005 namazda yönelinen yön / جهة الصلاة المتوجه إليها ← 5:5 قَبْلِكُمْ
+  - near: ذ ب ح B003 kesim yeri, kesim bıçağı veya sunak / موضع الذبح وآلته ومقام القربان ← 5:3 ذُبِحَ
+  - far: س ب ح B001 Tanrı'yı yücelterek anma ve kulluk / العبادة بالتسبيح والصلاة ← 5:116 سُبْحَٰنَكَ
+  - far: ص ب ء B002 din değiştirme veya Sabiiliği benimseme / الخروج في الدين والصابئون ← 5:69 وَٱلصَّٰبِـُٔونَ
+- **B008** üzerinde dövme yapılan geniş taş / الصَّلاية حجر الدق
+  - same: ص ل ي B009 üzerinde madde dövülen geniş taş / الصلاية حجر يدق عليه ← 5:6 ٱلصَّلَوٰةِ
+  - same: م و ه B007 kaya kristali veya ayna / صفاء الماوية كالبلور والمرآة ← 5:6 مَآءً
+  - same: ص ع د B004 yeryüzü veya toprak yüzeyi / صعيد وجه الأرض ← 5:6 صَعِيدًا
+  - near: ق س و B001 nesnelerde sertlik ve kuruluk / الصلابة واليبس في الأشياء ← 5:13 قَٰسِيَةً
+  - near: ص ف ح B001 enine yüz, geniş yassı parça ve enli kılma / العرض والجانب ← 5:13 وَٱصْفَحْ
+  - near: ق ب ل B005 namazda yönelinen yön / جهة الصلاة المتوجه إليها ← 5:5 قَبْلِكُمْ
+  - far: ع ب د B012 güzel koku maddesi ezme taşı / صَلاءة الطيب ← 5:60 وَعَبَدَ
+  - far: ص د ق B002 nesnenin sağlamlığı veya düzgünlüğü / صلابة الشيء واستواؤه ← 5:45 تَصَدَّقَ
+- **B009** iri başaklı, develerin otladığı bir bitki / الصِّليان نبت ترعاه الإبل
+  - same: ص ل ي B010 iri başaklı deve yemi bitkisi / الصِّليان نبت ترعاه الإبل ← 5:6 ٱلصَّلَوٰةِ
+  - same: ر ج ل B007 semizotu diye bilinen ot / الرِّجلة النبات ← 5:6 وَأَرْجُلَكُمْ
+  - same: ص ع د B006 kendiliğinden düz mızraklık sırık / صعدة قناة مستقيمة ← 5:6 صَعِيدًا
+  - near: خ ب ر B005 yumuşak bitki, yün veya ince kıl ve deve ağzı köpüğü / اللِّين في النبات والوبر والزبد ← 5:8 خَبِيرٌۢ
+  - near: ذ ب ح B007 çeşitli bitki ve yer mantarı benzeri tür adları / نبات الذبح والذباح ← 5:3 ذُبِحَ
+  - near: ر ب ب B012 belirli bir yeşil bitki türü / ربة نبات ← 5:2 رَّبِّهِمْ
+  - far: س ح ر B007 hayvanları semirten saplı bir ot / الإسحارة بقلة المال ← 5:110 سِحْرٌ
+  - far: ح ل م B007 kimliği tartışmalı bir mera bitkisi / نبتة تسمى الحلمة ← 5:101 حَلِيمٌ
+
+## ص ل ي (ٱلصَّلَوٰةِ)
+
+- **B001** ayakta durma, eğilme ve yere kapanmalı yükümlü tapınma / الصلاة عبادة لازمة
+  - same: ص ل و B003 ayakta durma, eğilme ve yere kapanma bölümleri olan kurallı tapınma / العبادة المخصوصة ← 5:6 ٱلصَّلَوٰةِ
+  - same: ق و م B002 ayağa kalkma ve dik durma / انتصاب وقيام بالبدن ← 5:6 قُمْتُمْ
+  - same: ي م م B002 toprakla namaz temizliği / التيمم للصلاة بمسح الوجه واليدين بالتراب ← 5:6 فَتَيَمَّمُوا۟
+  - near: ص ل و B003 ayakta durma, eğilme ve yere kapanma bölümleri olan kurallı tapınma / العبادة المخصوصة ← 5:12 ٱلصَّلَوٰةَ
+  - near: س ج د B002 alnı yere koyma yeri, buna ayrılmış yapı veya küçük yaygı / موضع السجود ومصلاه ← 5:2 ٱلْمَسْجِدِ
+  - near: ق و م B002 ayağa kalkma ve dik durma / انتصاب وقيام بالبدن ← 5:8 قَوَّٰمِينَ
+  - far: ص ل و B003 ayakta durma, eğilme ve yere kapanma bölümleri olan kurallı tapınma / العبادة المخصوصة ← 5:55 ٱلصَّلَوٰةَ
+  - far: س ب ح B001 Tanrı'yı yücelterek anma ve kulluk / العبادة بالتسبيح والصلاة ← 5:116 سُبْحَٰنَكَ
+- **B002** iyilik dileme; özneye göre esirgeme, övme veya aklama / الدعاء والبركة والرحمة
+  - same: ص ل و B002 başkası için iyilik dileme; esirgeme, övme ve değer verme / الدعاء والثناء والرحمة ← 5:6 ٱلصَّلَوٰةِ
+  - same: ء م ن B003 duada kabul istegi sozu / قول آمين طلبا للاستجابة ← 5:6 ءَامَنُوٓا۟
+  - same: ش ك ر B001 İyiliği tanıyıp söz ve davranışla karşılık verme / عرفان النعمة وحمد المنعم ← 5:6 تَشْكُرُونَ
+  - near: ص ل و B002 başkası için iyilik dileme; esirgeme, övme ve değer verme / الدعاء والثناء والرحمة ← 5:12 ٱلصَّلَوٰةَ
+  - near: ر ح م B001 acıma duygusuyla esirgeyip iyilik etme / الرَّحْمَة والرقة ← 5:3 رَّحِيمٌ
+  - near: ح ك م B003 bilgi ve usla doğruyu bulma yetkinliği / الحكمة والعلم المصيب ← 5:1 يَحْكُمُ
+  - far: ص ل و B002 başkası için iyilik dileme; esirgeme, övme ve değer verme / الدعاء والثناء والرحمة ← 5:55 ٱلصَّلَوٰةَ
+  - far: س ب ح B001 Tanrı'yı yücelterek anma ve kulluk / العبادة بالتسبيح والصلاة ← 5:116 سُبْحَٰنَكَ
+- **B003** ateşin veya benzer bir sıkıntının şiddetine uğramak; birini ateşe sokmak / ملاقاة النار وحرها
+  - same: ص ل و B001 ateşin yakıcı sıcaklığına maruz kalma ve ateşle işleme / ملاقاة النار وحرها ← 5:6 ٱلصَّلَوٰةِ
+  - same: ح ر ج B004 yasak kılma / التحريم والحظر ← 5:6 حَرَجٍ
+  - same: ص ع د B009 ateşle eritip dönüştürme; katranlık ağaç / تصعيد بالنار وتغيير ← 5:6 صَعِيدًا
+  - near: ص ل و B001 ateşin yakıcı sıcaklığına maruz kalma ve ateşle işleme / ملاقاة النار وحرها ← 5:12 ٱلصَّلَوٰةَ
+  - near: ج ح م B001 şiddetle harlanan büyük ateş ve yakıcı sıcaklık / تأجج النار وشدة حرها ← 5:10 ٱلْجَحِيمِ
+  - near: و ق ي B002 korkulan şeyden ya da yanlış davranıştan kendini koruma / جعل النفس في وقاية ← 5:7 وَٱتَّقُوا۟
+  - far: ص ل و B001 ateşin yakıcı sıcaklığına maruz kalma ve ateşle işleme / ملاقاة النار وحرها ← 5:55 ٱلصَّلَوٰةَ
+  - far: ج ح م B001 şiddetle harlanan büyük ateş ve yakıcı sıcaklık / تأجج النار وشدة حرها ← 5:86 ٱلْجَحِيمِ
+- **B004** ateş yakıtı; ateşte pişirme veya ısıyla düzeltme / إيقاد الصلاء وتسوية الشيء بالنار
+  - same: ص ل و B001 ateşin yakıcı sıcaklığına maruz kalma ve ateşle işleme / ملاقاة النار وحرها ← 5:6 ٱلصَّلَوٰةِ
+  - same: ص ع د B009 ateşle eritip dönüştürme; katranlık ağaç / تصعيد بالنار وتغيير ← 5:6 صَعِيدًا
+  - same: م س ح B015 bedenin düzleşmiş veya etten eksilmiş bölümü / تسوية الجسد أو نقص لحمه ← 5:6 وَٱمْسَحُوا۟
+  - near: ص ل و B001 ateşin yakıcı sıcaklığına maruz kalma ve ateşle işleme / ملاقاة النار وحرها ← 5:12 ٱلصَّلَوٰةَ
+  - near: ذ ك و B002 ateşin tutuşması veya tutuşturulup güçlendirilmesi / إذكاء النار ← 5:3 ذَكَّيْتُمْ
+  - near: ء ك ل B005 ateşin tüketmesi, beslenmesi ve harlanması / إطعام النار واشتعالها ← 5:4 فَكُلُوا۟
+  - far: ص ل و B001 ateşin yakıcı sıcaklığına maruz kalma ve ateşle işleme / ملاقاة النار وحرها ← 5:55 ٱلصَّلَوٰةَ
+  - far: و ق د B002 yakacak odun ve ateşlik yakıt / الحطب ومادة الوقود ← 5:64 أَوْقَدُوا۟
+- **B005** av yakalamak için kurulan kapan / المَصالي أشراك وفخوخ
+  - same: ص ل و B004 yakalamak için kurulan tuzak / الشرك المنصوبة ← 5:6 ٱلصَّلَوٰةِ
+  - same: ر ف ق B009 suyun dolu, yerinde duran ve kalıcı olması / الامتلاء والثبات ← 5:6 ٱلْمَرَافِقِ
+  - same: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 5:6 نِعْمَتَهُۥ
+  - near: ص ل و B004 yakalamak için kurulan tuzak / الشرك المنصوبة ← 5:12 ٱلصَّلَوٰةَ
+  - near: ن ص ب B003 sınır işareti veya kuyu-havuz taşı / علامة أو حجارة منصوبة للحد أو الحوض ← 5:3 ٱلنُّصُبِ
+  - near: ص ي د B001 kaçabilen avı arayıp ele geçirme / طلب الممتنع وأخذه ← 5:2 فَٱصْطَادُوا۟
+  - far: ص ل و B004 yakalamak için kurulan tuzak / الشرك المنصوبة ← 5:55 ٱلصَّلَوٰةَ
+  - far: ش ر ك B006 avın dolandığı kapan ve tuzak benzetmesi / شَرَك الصائد ← 5:72 يُشْرِكْ
+- **B006** sırtın ortası ve kuyruk dibinin iki yanı / الصَّلا موضع الظهر والذنب
+  - same: ص ل و B005 sırtın ortası ve kuyruk kökünün iki yanı / الصَّلا من الظهر والجنب ← 5:6 ٱلصَّلَوٰةِ
+  - same: ك ع ب B001 eklemdeki çıkıntılı kemik / نتو العظم وارتفاعه ← 5:6 ٱلْكَعْبَيْنِ
+  - same: ج ن ب B001 bedenin veya şeyin yanı ve bitişik çevresi / الجنب جانب الجسد وناحية الشيء ← 5:6 جُنُبًا
+  - near: ص ل و B005 sırtın ortası ve kuyruk kökünün iki yanı / الصَّلا من الظهر والجنب ← 5:12 ٱلصَّلَوٰةَ
+  - near: ق ب ل B005 namazda yönelinen yön / جهة الصلاة المتوجه إليها ← 5:5 قَبْلِكُمْ
+  - near: غ ف ر B002 suçu bağışlayıp cezadan koruma / ستر الذنب وصون صاحبه من أثره ← 5:3 غَفُورٌ
+  - far: ص ل و B005 sırtın ortası ve kuyruk kökünün iki yanı / الصَّلا من الظهر والجنب ← 5:55 ٱلصَّلَوٰةَ
+  - far: ص ل ب B002 sırt, omurga ve soyun çıktığı bel / الظهر والفقار ← 5:33 يُصَلَّبُوٓا۟
+- **B007** yarışta önderin hemen ardındaki ikinci at / المصلي يتلو السابق
+  - same: ص ل و B006 yarışta birincinin hemen ardındaki ikinci / تلو السابق في السباق ← 5:6 ٱلصَّلَوٰةِ
+  - same: ج ن ب B005 yanında yönlendirerek götürme / التجنيب قيادة شيء إلى الجنب ← 5:6 جُنُبًا
+  - same: ر ف ق B009 suyun dolu, yerinde duran ve kalıcı olması / الامتلاء والثبات ← 5:6 ٱلْمَرَافِقِ
+  - near: ص ل و B006 yarışta birincinin hemen ardındaki ikinci / تلو السابق في السباق ← 5:12 ٱلصَّلَوٰةَ
+  - near: ت ل و B001 ardından izleme / اتباع وتتابع ← 5:1 يُتْلَىٰ
+  - near: ب ر ر B008 üstün gelmek ve yenmek / غلبة وعلو ← 5:2 ٱلْبِرِّ
+  - far: ص ل و B006 yarışta birincinin hemen ardındaki ikinci / تلو السابق في السباق ← 5:55 ٱلصَّلَوٰةَ
+  - far: س ب ق B002 yarışta ortaya konup kazananın aldığı pay / الرهن في السباق ← 5:48 فَٱسْتَبِقُوا۟
+- **B008** tapınma yeri, özellikle Yahudi tapınağı / الصلوات مواضع عبادة
+  - same: ص ل و B007 tapınma yeri; kilise / مواضع الصلاة ودور العبادة ← 5:6 ٱلصَّلَوٰةِ
+  - same: ج د د B014 kıyı ve kır yer adları / مواضع مسماة ← 5:6 تَجِدُوا۟
+  - same: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 5:6 ٱللَّهُ
+  - near: ص ل و B007 tapınma yeri; kilise / مواضع الصلاة ودور العبادة ← 5:12 ٱلصَّلَوٰةَ
+  - near: س ج د B002 alnı yere koyma yeri, buna ayrılmış yapı veya küçük yaygı / موضع السجود ومصلاه ← 5:2 ٱلْمَسْجِدِ
+  - near: ذ ب ح B003 kesim yeri, kesim bıçağı veya sunak / موضع الذبح وآلته ومقام القربان ← 5:3 ذُبِحَ
+  - far: ص ل و B007 tapınma yeri; kilise / مواضع الصلاة ودور العبادة ← 5:55 ٱلصَّلَوٰةَ
+  - far: س ب ح B001 Tanrı'yı yücelterek anma ve kulluk / العبادة بالتسبيح والصلاة ← 5:116 سُبْحَٰنَكَ
+- **B009** üzerinde madde dövülen geniş taş / الصلاية حجر يدق عليه
+  - same: ص ل و B008 üzerinde dövme yapılan geniş taş / الصَّلاية حجر الدق ← 5:6 ٱلصَّلَوٰةِ
+  - same: ط ي ب B007 güzel koku sürünmek için kullanılan koku maddesi / الطيب ما يتطيب به ← 5:6 طَيِّبًا
+  - same: ت م م B003 sert ve saglam / الشيء الصلب الشديد ← 5:6 وَلِيُتِمَّ
+  - near: ص ل و B008 üzerinde dövme yapılan geniş taş / الصَّلاية حجر الدق ← 5:12 ٱلصَّلَوٰةَ
+  - near: ق س و B001 nesnelerde sertlik ve kuruluk / الصلابة واليبس في الأشياء ← 5:13 قَٰسِيَةً
+  - near: ص ف ح B001 enine yüz, geniş yassı parça ve enli kılma / العرض والجانب ← 5:13 وَٱصْفَحْ
+  - far: ص ل و B008 üzerinde dövme yapılan geniş taş / الصَّلاية حجر الدق ← 5:55 ٱلصَّلَوٰةَ
+  - far: ح ذ ر B004 sert ve kaba yapılı arazi parçası / خشونة الأرض المحذورة ← 5:41 فَٱحْذَرُوا۟
+- **B010** iri başaklı deve yemi bitkisi / الصِّليان نبت ترعاه الإبل
+  - same: ص ل و B009 iri başaklı, develerin otladığı bir bitki / الصِّليان نبت ترعاه الإبل ← 5:6 ٱلصَّلَوٰةِ
+  - same: ر ج ل B007 semizotu diye bilinen ot / الرِّجلة النبات ← 5:6 وَأَرْجُلَكُمْ
+  - same: ج ن ب B010 yazın kalan köklü küçük bitkiler / الجنبة نبت متوسط مستقل ← 5:6 جُنُبًا
+  - near: ص ل و B009 iri başaklı, develerin otladığı bir bitki / الصِّليان نبت ترعاه الإبل ← 5:12 ٱلصَّلَوٰةَ
+  - near: ع د و B011 develerin otladığı yaz yeşermesi / العَدَوِيّة من نبات الصيف ← 5:2 تَعْتَدُوا۟
+  - near: ب ه م B007 koyunun sevdiği yeşil mera otu / البهمى والمرعى ← 5:1 بَهِيمَةُ
+  - far: ص ل و B009 iri başaklı, develerin otladığı bir bitki / الصِّليان نبت ترعاه الإبل ← 5:55 ٱلصَّلَوٰةَ
+  - far: ذ ن ب B009 tilkikuyruğu da denen bir bitki / الذنبان نبت ← 5:18 بِذُنُوبِكُم
+
+## غ س ل (فَٱغْسِلُوا۟)
+
+- **B001** suyla yıkayıp kirden arındırma / تطهير الشيء بإسالة الماء وإزالة الدرن
+  - same: ط ه ر B003 suyla veya eşdeğer bir araçla yıkanıp temizlenme / التطهر بالماء والغسل ← 5:6 فَٱطَّهَّرُوا۟
+  - same: م س ح B001 üzerinden geçirip silme / إمرار اليد على الشيء وإزالة أثره ← 5:6 وَٱمْسَحُوا۟
+  - same: م و ه B003 su verme, içine su koyma ve sulanmış hale getirme / إيصال الماء بالسقي والصب ← 5:6 مَآءً
+  - near: ن ه ر B003 bir şeyi açma veya genişletme / فتح الشيء وتوسيعه حتى يسيل أو ينفسح ← 5:12 ٱلْأَنْهَٰرُ
+  - near: ط ي ب B003 tuvalet sonrası pisliği gidererek temizlenme / الاستطابة تطهير من الخبث ← 5:5 ٱلطَّيِّبَٰتُ
+  - near: ر س ل B002 haber taşıyıcısı veya taşınan haber / الرسول والرسالة ← 5:12 بِرُسُلِى
+  - far: ط ه ر B003 suyla veya eşdeğer bir araçla yıkanıp temizlenme / التطهر بالماء والغسل ← 5:41 يُطَهِّرَ
+  - far: ن ه ر B003 bir şeyi açma veya genişletme / فتح الشيء وتوسيعه حتى يسيل أو ينفسح ← 5:85 ٱلْأَنْهَٰرُ
+- **B002** yıkamada kullanılan su veya madde ile yıkanma yeri / ماء الغسل وما يغسل به أو فيه
+  - same: ط ه ر B003 suyla veya eşdeğer bir araçla yıkanıp temizlenme / التطهر بالماء والغسل ← 5:6 فَٱطَّهَّرُوا۟
+  - same: م و ه B001 su ve su adının biçim ailesi / الماء المعروف وأصل اسمه ← 5:6 مَآءً
+  - same: ر ف ق B003 yarar ve rahatlık sağlayan, kolay erişilen olanak / المرفق والمنفعة ← 5:6 ٱلْمَرَافِقِ
+  - near: ر س ل B002 haber taşıyıcısı veya taşınan haber / الرسول والرسالة ← 5:12 بِرُسُلِى
+  - near: ص د د B010 tatlı sulu bir kuyunun adı / ماء مسمى ← 5:2 صَدُّوكُمْ
+  - near: ء ت ي B004 su kanalı açmak ve akışı yönlendirmek / مجرى الماء وتسليك سبيله ← 5:5 أُوتُوا۟
+  - far: ط ه ر B003 suyla veya eşdeğer bir araçla yıkanıp temizlenme / التطهر بالماء والغسل ← 5:41 يُطَهِّرَ
+  - far: ن ز ل B009 erkeğin dışarı çıkan üreme sıvısı / ماء الرجل الخارج ← 5:44 أَنزَلْنَا
+- **B003** çok çiftleştiği halde döllemeyen erkek damızlık / فحل يكثر الضراب ولا يلقح
+  - same: م و ه B004 üreme sıvısını dişinin döl yatağına bırakma / ماء الفحل في الرحم ← 5:6 مَآءً
+  - same: ح ر ج B012 savaştan ayrılmayan adam / لزوم القتال ← 5:6 حَرَجٍ
+  - same: م س ح B002 cinsel birleşme için örtmece / المسح كناية عن الجماع ← 5:6 وَٱمْسَحُوا۟
+  - near: س م و B003 erkek devenin dişi deve sürüsüne atılıp aralarına girmesi / تطاول الفحل على الشول ← 5:4 ٱسْمَ
+  - near: ض ر ر B002 zarar verme ve karşılıklı zararlaşma / المضارّة والضِّرار ← 5:3 ٱضْطُرَّ
+  - near: ب غ ي B004 yaranın şişip bozulması veya içinde irin kalmış halde kapanması / فساد الجرح وتجاوزه ← 5:2 يَبْتَغُونَ
+  - far: ض ر ب B011 erkek devenin dişiyle çiftleşmesi / ضرب الفحل الناقة ← 5:106 ضَرَبْتُمْ
+  - far: ح م ي B005 dokunulmaz sayılan damızlık erkek deve / الحام من الإبل ← 5:103 حَامٍ
+
+## و ج ه (وُجُوهَكُمْ, بِوُجُوهِكُمْ)
+
+- **B001** yüz ve bir şeyin öne bakan yanı / الوجه والمستقبل
+  - same: ج ن ب B001 bedenin veya şeyin yanı ve bitişik çevresi / الجنب جانب الجسد وناحية الشيء ← 5:6 جُنُبًا
+  - same: م س ح B004 yüzü ya da gözü silinmişçesine eksik / محو الخلقة في العين والوجه ← 5:6 وَٱمْسَحُوا۟
+  - same: ر ء س B001 baş ve en üst bölüm / الرأس والأعلى ← 5:6 بِرُءُوسِكُمْ
+  - near: ق ب ل B001 karşı karşıya olma ve ön yön / مواجهة الشيء للشيء ← 5:5 قَبْلِكُمْ
+  - near: ج ر ي B002 alışılmış yol ve davranış düzeni / العادة والطريقة الجارية ← 5:12 تَجْرِى
+  - near: ق ل ب B004 çevirmek ve yönünü değiştirmek / رد الشيء عن وجهه ← 5:13 قُلُوبَهُمْ
+  - far: ح ي ي B012 yüz / المحيا وجه الإنسان ← 5:32 أَحْيَاهَا
+  - far: د ب ر B001 arka taraf / خلف الشيء ودبره ← 5:21 أَدْبَارِكُمْ
+- **B002** yön ve hedef; o yöne sevk etme veya yolu belli etme / الجهة والوجهة
+  - same: ي م م B001 bilerek hedefe yönelme / قصد الشيء وتعمده ← 5:6 فَتَيَمَّمُوا۟
+  - same: ج ن ب B002 yanında yakın bulunma ve eşlik etme / الجنب قرب ومجاورة على الجانب ← 5:6 جُنُبًا
+  - same: ق و م B006 bir yerde kalma ve kalınan yer / مقام وإقامة في موضع ← 5:6 قُمْتُمْ
+  - near: ق ب ل B005 namazda yönelinen yön / جهة الصلاة المتوجه إليها ← 5:5 قَبْلِكُمْ
+  - near: ه د ي B002 yön, izlenen yol ve tutum / جهة الأمر وسيرته وقصده ← 5:2 ٱلْهَدْىَ
+  - near: ح ر ف B003 yönünden sapma, saptırma, anlam bozma veya eğik kesme / الميل عن الجهة ← 5:13 يُحَرِّفُونَ
+  - far: ق ب ل B005 namazda yönelinen yön / جهة الصلاة المتوجه إليها ← 5:27 فَتُقُبِّلَ
+  - far: ه د ي B002 yön, izlenen yol ve tutum / جهة الأمر وسيرته وقصده ← 5:16 يَهْدِى
+- **B003** karşı karşıya gelme ve doğrudan yüzüne söyleme / المواجهة والتقابل
+  - same: م و ه B006 belirli kalıplarda yüz güzelliği, söz tatlılığı, üzüm olgunluğu veya hayvan varlığının semirmesi / رونق كالماء في الوجه والكلام والثمر ← 5:6 مَآءً
+  - same: ج ن ب B006 güneyden esen yel / الجنوب ريح من جهة مخصوصة ← 5:6 جُنُبًا
+  - same: ي م م B001 bilerek hedefe yönelme / قصد الشيء وتعمده ← 5:6 فَتَيَمَّمُوا۟
+  - near: ق ب ل B001 karşı karşıya olma ve ön yön / مواجهة الشيء للشيء ← 5:5 قَبْلِكُمْ
+  - near: ص د د B003 karşıda ve yakında bulunma / مقابلة وقرب ← 5:2 صَدُّوكُمْ
+  - near: ك ف ف B011 yüz yüze karşılaşma / كفّة لكفّة ← 5:11 فَكَفَّ
+  - far: ق ب ل B001 karşı karşıya olma ve ön yön / مواجهة الشيء للشيء ← 5:27 فَتُقُبِّلَ
+  - far: ص د د B003 karşıda ve yakında bulunma / مقابلة وقرب ← 5:91 وَيَصُدَّكُمْ
+- **B006** toplumsal itibar, yüksek mevki ve önde gelen kişi / الوجاهة والجاه
+  - same: ي د ي B005 egemenlik ve buyurma gücü / اليَد السلطان ← 5:6 وَأَيْدِيَكُمْ
+  - same: ج د د B001 değer ve konum yüceliği / عظمة القدر وعلوه ← 5:6 تَجِدُوا۟
+  - same: ر ء س B002 yalıtık adlandırmalar / الرئاسة والصدارة ← 5:6 بِرُءُوسِكُمْ
+  - near: ي د ي B005 egemenlik ve buyurma gücü / اليَد السلطان ← 5:11 أَيْدِيَهُمْ
+  - near: ع ظ م B010 şerefli ve saygın bir mevki edinme / الحرمة والشرف ← 5:9 عَظِيمٌ
+  - near: ش د د B001 bağlayıp sağlamlaştırma / شد العقد والوثاق ← 5:2 شَدِيدُ
+  - far: ع ي ن B015 önde gelen kişiler veya anne baba bir kardeşler / أعيان القوم والإخوة ← 5:45 وَٱلْعَيْنَ
+  - far: ي د ي B005 egemenlik ve buyurma gücü / اليَد السلطان ← 5:28 يَدَكَ
+- **B007** günün başı, ilk saatleri / وجه النهار وصدره
+  - same: س ف ر B002 aydınlanıp belirginleşme / إسفار الضوء والوجه ← 5:6 سَفَرٍ
+  - same: ق و م B017 güneşin tam tepede olduğu öğle ortası / انتصاف النهار وقائم الظهيرة ← 5:6 قُمْتُمْ
+  - same: ر ج ل B012 günün yükselip aydınlığın yayılması / ترجل النهار ← 5:6 وَأَرْجُلَكُمْ
+  - near: ن ه ر B002 şafaktan gün batımına aydınlık gündüz / انفتاح النهار بالضياء ← 5:12 ٱلْأَنْهَٰرُ
+  - near: ش د د B005 günün ilerleyip yükselmesi / شد النهار وارتفاعه ← 5:2 شَدِيدُ
+  - near: ص د ر B002 ön, üst ya da başlangıç bölümü / المقدّم والأعلى والأول ← 5:7 ٱلصُّدُورِ
+  - far: ك ب ر B013 günün yükseldiği vakit / أكبر النهار ← 5:82 يَسْتَكْبِرُونَ
+  - far: ص ب ح B001 günün ilk aydınlığı / الصبح وأول النهار ← 5:30 فَأَصْبَحَ
+- **B008** sözün veya işin doğru yönü ve ona uygun düzenleme / وجه الأمر وصوابه
+  - same: ق و م B008 düzgünlük, denge ve doğru yoldan sapmama / استقامة واعتدال واستواء ← 5:6 قُمْتُمْ
+  - same: ر ء س B004 işin veya sözün başlangıcı / رِئاس الأمر ومن رأسه ← 5:6 بِرُءُوسِكُمْ
+  - same: م ر ض B006 doğruya yaklaşmak ama ulaşamamak / مقاربة الإصابة دون بلوغها ← 5:6 مَّرْضَىٰٓ
+  - near: ق ل ب B004 çevirmek ve yönünü değiştirmek / رد الشيء عن وجهه ← 5:13 قُلُوبَهُمْ
+  - near: ه د ي B002 yön, izlenen yol ve tutum / جهة الأمر وسيرته وقصده ← 5:2 ٱلْهَدْىَ
+  - near: ء ت ي B003 uygun yoldan ele almak ve elverişli hale gelmek / مأتى الأمر وتهيؤه ← 5:5 أُوتُوا۟
+  - far: س ن و B006 önünü açıp kolaylaştırma / فتح الوجه والتيسير ← 5:26 سَنَةً
+  - far: د ب ر B006 sonucunu düşünerek planlama / تدبير الأمر والنظر في عاقبته ← 5:21 أَدْبَارِكُمْ
+- **B009** yaşlanıp ömrünün son dönemine girmek / توجه الشيخ
+  - same: ك و ن B005 gençliğini anan yaşlı kişi / الشيخ المنسوب إلى كُنْتُ ← 5:6 كُنتُمْ
+  - same: ر ج ل B011 hazırlıksız söylemek / الكلام المرتجل ← 5:6 وَأَرْجُلَكُمْ
+  - same: ي د ي B005 egemenlik ve buyurma gücü / اليَد السلطان ← 5:6 وَأَيْدِيَكُمْ
+  - near: ه م م B006 yaşlılıktan eriyip tükenmiş kimse / ذوب الكبر ← 5:11 هَمَّ
+  - near: ص ح ب B005 oğlunun büyüyüp babasına yoldaş olması / بلوغ الابن صاحبا ← 5:10 أَصْحَٰبُ
+  - near: ق ر ب B002 zamanca yaklaşma veya yakın geçmişe ait olma / دنو الزمان وانقضاء الشيء ← 5:8 أَقْرَبُ
+  - far: ع س ي B003 yaşlı erkeğin iyice yaşlanması / وَلِيُّ الشيخ وكبره ← 5:52 فَعَسَى
+  - far: ق ف و B008 iyice yaşlanıp güçten düşmek / الرد على القفا في الهرم ← 5:46 وَقَفَّيْنَا
+- **B010** doğumda ellerin veya ön ayakların önce çıkması / الولادة باليدين أولا
+  - same: ر ج ل B017 koyunların art arda doğurması / الرجيلاء في الولادة ← 5:6 وَأَرْجُلَكُمْ
+  - same: ي د ي B003 karşılıksız iyilik ve bağış / اليَد النعمة ← 5:6 وَأَيْدِيَكُمْ
+  - same: ص ل و B005 sırtın ortası ve kuyruk kökünün iki yanı / الصَّلا من الظهر والجنب ← 5:6 ٱلصَّلَوٰةِ
+  - near: ج ن ن B007 ana rahmindeki doğmamış çocuk / الجنين المستور في البطن ← 5:12 جَنَّٰتٍ
+  - near: و ض ع B002 doğumla yükü bırakma ve özel gebe kalma zamanı / إلقاء الحمل بالولادة ← 5:13 مَّوَاضِعِهِۦ
+  - near: ق ب ل B007 çıkanı karşılayıp teslim alma / تلقي الخارج إلى اليد ← 5:5 قَبْلِكُمْ
+  - far: ج ن ن B007 ana rahmindeki doğmamış çocuk / الجنين المستور في البطن ← 5:65 جَنَّٰتِ
+  - far: و ض ع B002 doğumla yükü bırakma ve özel gebe kalma zamanı / إلقاء الحمل بالولادة ← 5:41 مَوَاضِعِهِۦ
+- **B011** kurucu uzun ünlü ile ana uyak harfi arasındaki harf / توجيه القافية
+  - same: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 5:6 يُرِيدُ
+  - same: ر ج ل B010 orta kıvırcıklıkta saç / الشعر الرَّجِل ← 5:6 وَأَرْجُلَكُمْ
+  - same: ج ي ء B003 — / جائية الجراح ← 5:6 جَآءَ
+  - near: ص ي د B006 kaynak alfabedeki ilgili harfin adı / اسم الحرف صاد ← 5:2 فَٱصْطَادُوا۟
+  - near: ب ي ت B003 şiir dizesi / بيت الشعر ← 5:2 ٱلْبَيْتَ
+  - near: ح ر ف B004 sert ya da ince yapılı dişi deve / ناقة مشبهة بحرف الجبل ← 5:13 يُحَرِّفُونَ
+  - far: خ ر ج B011 uyakta bağlantı sesinden sonraki elif harfi / ألف الخروج بعد الصلة ← 5:16 وَيُخْرِجُهُم
+  - far: ق ف و B003 uyak ve söz sonu / قافية الكلام وآخره ← 5:46 وَقَفَّيْنَا
+- **B012** hıyar veya kavunun altını kazıp yana yatırma / توجيه النبات
+  - same: ص ع د B006 kendiliğinden düz mızraklık sırık / صعدة قناة مستقيمة ← 5:6 صَعِيدًا
+  - same: ي م م B001 bilerek hedefe yönelme / قصد الشيء وتعمده ← 5:6 فَتَيَمَّمُوا۟
+  - same: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 5:6 نِعْمَتَهُۥ
+  - near: ش ع ر B003 arpa, arpa tanesi ve biçimce ona benzetilen küçük şeyler / حبة الشعير وما يشبهها ← 5:2 شَعَٰٓئِرَ
+  - near: ط و ع B002 taraflar arasında uyum gösterme / الموافقة والمطاوعة ← 5:7 وَأَطَعْنَا
+  - near: ك ف ر B007 itaatsizliğe zorlamak / إلجاء إلى العصيان ← 5:5 يَكْفُرْ
+  - far: ب و ء B007 — / تسديد الرمح إلى المقصد ← 5:29 تَبُوٓأَ
+  - far: ط و ع B002 taraflar arasında uyum gösterme / الموافقة والمطاوعة ← 5:30 فَطَوَّعَتْ
+- **B013** yüzüne vurma ve yüzüne vurulmuş olma / ضرب الوجه
+  - same: و ج د B002 varlığa gelme, var olma ve var etme / ثبوت الشيء في الوجود ← 5:6 تَجِدُوا۟
+  - same: م س ح B004 yüzü ya da gözü silinmişçesine eksik / محو الخلقة في العين والوجه ← 5:6 وَٱمْسَحُوا۟
+  - same: م و ه B006 belirli kalıplarda yüz güzelliği, söz tatlılığı, üzüm olgunluğu veya hayvan varlığının semirmesi / رونق كالماء في الوجه والكلام والثمر ← 5:6 مَآءً
+  - near: ق ل ب B016 yüreğinden vurmak / إصابة القلب ← 5:13 قُلُوبَهُمْ
+  - near: ج ح م B004 yüzün yoğun öfkeden ateş gibi alevlenmesi / تلهب الوجه بالغضب ← 5:10 ٱلْجَحِيمِ
+  - near: ق س م B001 yüz güzelliği / حسن موزع في الوجه ← 5:3 تَسْتَقْسِمُوا۟
+  - far: ق ل ب B016 yüreğinden vurmak / إصابة القلب ← 5:21 فَتَنقَلِبُوا۟
+  - far: ح ي ي B012 yüz / المحيا وجه الإنسان ← 5:32 أَحْيَاهَا
+- **B014** yanına gelen kişiyi geri çevirmek / الرد عن الوجه
+  - same: ر د د B008 görünüş, nitelik veya konuşmadaki kusur / عيب يرد البصر أو اللسان ← 5:6 يُرِيدُ
+  - same: ر ج ل B004 birinin devrinde / زمان الرجل ← 5:6 وَأَرْجُلَكُمْ
+  - same: ج ي ء B004 — / الإتيان بالشيء واستحضاره ← 5:6 جَآءَ
+  - near: ء ت ي B003 uygun yoldan ele almak ve elverişli hale gelmek / مأتى الأمر وتهيؤه ← 5:5 أُوتُوا۟
+  - near: ص ف ح B009 istekte bulunanı geri çevirip vermemek / رد السائل بالإعراض ← 5:13 وَٱصْفَحْ
+  - near: ت ل و B005 geride bırakıp terk etme / ترك بعد صحبة ← 5:1 يُتْلَىٰ
+  - far: ر و ح B006 hakkını kendisine geri vermek / رد الحق إلى صاحبه ← 5:110 بِرُوحِ
+  - far: ء ت ي B003 uygun yoldan ele almak ve elverişli hale gelmek / مأتى الأمر وتهيؤه ← 5:20 وَءَاتَىٰكُم
+- **B015** iki yüzlü nesne; içiyle dışı uyuşmayan kişi / ذو وجهين
+  - same: م س ح B004 yüzü ya da gözü silinmişçesine eksik / محو الخلقة في العين والوجه ← 5:6 وَٱمْسَحُوا۟
+  - same: م و ه B008 gönlünde suyu çok denilen, bazı aktarımlarda anlayışı kıt adam / كثرة ماء القلب على جهة البلادة ← 5:6 مَآءً
+  - same: ر د د B002 yönünden çevirip engelleme / صرف الشيء ودفعه ومنعه ← 5:6 يُرِيدُ
+  - near: ق ل ب B004 çevirmek ve yönünü değiştirmek / رد الشيء عن وجهه ← 5:13 قُلُوبَهُمْ
+  - near: م و ت B006 zekâ ve anlayıştan yoksunluk / موتان الفؤاد ← 5:3 ٱلْمَيْتَةُ
+  - near: ت ل و B008 son nefeste olmak / آخر رمق ← 5:1 يُتْلَىٰ
+  - far: ع ر ض B010 üstü kapalı, çift yönlü anlatım / معاريض الكلام وجه غير مصرح به ← 5:42 أَعْرِضْ
+  - far: ق ل ب B004 çevirmek ve yönünü değiştirmek / رد الشيء عن وجهه ← 5:21 فَتَنقَلِبُوا۟
+
+## ي د ي (وَأَيْدِيَكُمْ, وَأَيْدِيكُم)
+
+- **B001** el ve elin uğradığı bedensel durumlar / اليَد الجارحة
+  - same: ر ج ل B001 bacak uzvu / الرِّجل العضو ← 5:6 وَأَرْجُلَكُمْ
+  - same: ل م س B001 elle ya da tenle dokunarak algılama / المس باليد والبشرة ← 5:6 لَٰمَسْتُمُ
+  - same: ق و م B019 bir beden bölümünün kişiye ağrı vermesi / وجع قائم بالعضو ← 5:6 قُمْتُمْ
+  - near: ص د ر B001 göğüs bölgesi / الصدر الجارحة وما يتصل بها ← 5:7 ٱلصُّدُورِ
+  - near: ب س ط B004 eli uzatıp serbestçe kullanmak / مد اليد وإطلاقها ← 5:11 يَبْسُطُوٓا۟
+  - near: ك ف ف B001 avuç ve ona benzer kavrayıcı organ / كف اليد ← 5:11 فَكَفَّ
+  - far: ي م ن B002 sağ el ve sağ yön / اليد اليمنى والجهة اليمنى ← 5:53 أَيْمَٰنِهِمْ
+  - far: ب س ط B004 eli uzatıp serbestçe kullanmak / مد اليد وإطلاقها ← 5:28 بَسَطتَ
+- **B002** güç, yeterlik ve güçlendirme / اليَد القوّة
+  - same: ء ي د B001 güç ve güçlendirme / قوة مؤيدة ← 5:6 وَأَيْدِيَكُمْ
+  - same: ل م س B001 elle ya da tenle dokunarak algılama / المس باليد والبشرة ← 5:6 لَٰمَسْتُمُ
+  - same: و ج د B003 varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى ← 5:6 تَجِدُوا۟
+  - near: ق ب ل B013 onunla başa çıkacak gücü olmama / طاقة على المقابلة ← 5:5 قَبْلِكُمْ
+  - near: ش د د B002 güç, katılık ve çetinlik / شدة القوة والصلابة ← 5:2 شَدِيدُ
+  - near: ب س ط B004 eli uzatıp serbestçe kullanmak / مد اليد وإطلاقها ← 5:11 يَبْسُطُوٓا۟
+  - far: ء ي د B001 güç ve güçlendirme / قوة مؤيدة ← 5:110 أَيَّدتُّكَ
+  - far: ي م ن B004 güç, savunma ve güçlü doğruluk dayanağı / يمين القوة والحق ← 5:53 أَيْمَٰنِهِمْ
+- **B003** karşılıksız iyilik ve bağış / اليَد النعمة
+  - same: ن ع م B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik / حسن الحال والنعمة ← 5:6 نِعْمَتَهُۥ
+  - same: ش ك ر B001 İyiliği tanıyıp söz ve davranışla karşılık verme / عرفان النعمة وحمد المنعم ← 5:6 تَشْكُرُونَ
+  - same: ء ي د B001 güç ve güçlendirme / قوة مؤيدة ← 5:6 وَأَيْدِيَكُمْ
+  - near: ن ع م B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik / حسن الحال والنعمة ← 5:7 نِعْمَةَ
+  - near: ب س ط B004 eli uzatıp serbestçe kullanmak / مد اليد وإطلاقها ← 5:11 يَبْسُطُوٓا۟
+  - near: ف ض ل B003 başkasına gönüllü iyilik etme ve yükümlülük dışı bağış verme / الإحسان والعطية ← 5:2 فَضْلًا
+  - far: ن ع م B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik / حسن الحال والنعمة ← 5:20 نِعْمَةَ
+  - far: ب س ط B004 eli uzatıp serbestçe kullanmak / مد اليد وإطلاقها ← 5:28 بَسَطتَ
+- **B004** elinde bulunma, sahiplik ve denetim / اليَد المالكة
+  - same: م س ح B006 güzellik ve soyluluk belirtisi / مسحة الحسن والملك والكرم ← 5:6 وَٱمْسَحُوا۟
+  - same: ل م س B001 elle ya da tenle dokunarak algılama / المس باليد والبشرة ← 5:6 لَٰمَسْتُمُ
+  - same: ر ج ل B004 birinin devrinde / زمان الرجل ← 5:6 وَأَرْجُلَكُمْ
+  - near: ر ب ب B001 sahip olup yönetme / ربوبية وملك وسيادة ← 5:2 رَّبِّهِمْ
+  - near: ع ق د B004 mal veya taşınmaz edinip elde tutma / اقتناء المال والضيعة ← 5:1 بِٱلْعُقُودِ
+  - near: ب س ط B004 eli uzatıp serbestçe kullanmak / مد اليد وإطلاقها ← 5:11 يَبْسُطُوٓا۟
+  - far: م ل ك B002 sahiplik ve tasarruf yetkisi / المِلْك والتصرف ← 5:17 يَمْلِكُ
+  - far: ض ر ب B005 birinin giriştiği işi engellemek / الحجر على اليد ← 5:106 ضَرَبْتُمْ
+- **B005** egemenlik ve buyurma gücü / اليَد السلطان
+  - same: و ج ه B006 toplumsal itibar, yüksek mevki ve önde gelen kişi / الوجاهة والجاه ← 5:6 وُجُوهَكُمْ
+  - same: ء ي د B001 güç ve güçlendirme / قوة مؤيدة ← 5:6 وَأَيْدِيَكُمْ
+  - same: ل م س B001 elle ya da tenle dokunarak algılama / المس باليد والبشرة ← 5:6 لَٰمَسْتُمُ
+  - near: ب س ط B004 eli uzatıp serbestçe kullanmak / مد اليد وإطلاقها ← 5:11 يَبْسُطُوٓا۟
+  - near: ع م ل B003 işe görevli kılma veya görev üstlenme / ولاية العمل والقيام عليه ← 5:5 عَمَلُهُۥ
+  - near: ق ل د B004 sorumluluk yükleme veya üstlenme / إلزام الأمر وجعله في العنق ← 5:2 ٱلْقَلَٰٓئِدَ
+  - far: و ح ي B008 özel adlandırma kümesi / ملك كنار ← 5:111 أَوْحَيْتُ
+  - far: م ل ك B003 hükümdarlık ve kamusal egemenlik / المُلك والسلطان ← 5:17 يَمْلِكُ
+- **B006** boyun eğme, bağlılık ve güvence üstlenme / اليَد المستسلمة
+  - same: ل م س B001 elle ya da tenle dokunarak algılama / المس باليد والبشرة ← 5:6 لَٰمَسْتُمُ
+  - same: و ج ه B010 doğumda ellerin veya ön ayakların önce çıkması / الولادة باليدين أولا ← 5:6 وُجُوهَكُمْ
+  - same: ك و ن B004 boyun eğme / الخضوع بالاستكانة ← 5:6 كُنتُمْ
+  - near: ط و ع B001 zorlanmadan boyun eğme ve kolay yönlenme / الانقياد والطاعة ← 5:7 وَأَطَعْنَا
+  - near: ب س ط B004 eli uzatıp serbestçe kullanmak / مد اليد وإطلاقها ← 5:11 يَبْسُطُوٓا۟
+  - near: د ي ن B001 boyun eğerek uyma ve buna dayalı inanç düzeni / الطاعة والانقياد ← 5:3 دِينِكُمْ
+  - far: ط و ع B001 zorlanmadan boyun eğme ve kolay yönlenme / الانقياد والطاعة ← 5:30 فَطَوَّعَتْ
+  - far: ب س ط B004 eli uzatıp serbestçe kullanmak / مد اليد وإطلاقها ← 5:28 بَسَطتَ
+- **B007** elden ele verme, peşin ödeme ve iki fiyatlı satış / اليَد المناولة
+  - same: و ج ه B010 doğumda ellerin veya ön ayakların önce çıkması / الولادة باليدين أولا ← 5:6 وُجُوهَكُمْ
+  - same: ل م س B001 elle ya da tenle dokunarak algılama / المس باليد والبشرة ← 5:6 لَٰمَسْتُمُ
+  - same: ي م م B002 toprakla namaz temizliği / التيمم للصلاة بمسح الوجه واليدين بالتراب ← 5:6 فَتَيَمَّمُوا۟
+  - near: ب س ط B004 eli uzatıp serbestçe kullanmak / مد اليد وإطلاقها ← 5:11 يَبْسُطُوٓا۟
+  - near: د ي ن B003 borç alıp verme ve vadeli ödeme ilişkisi / الدين المالي ← 5:3 دِينِكُمْ
+  - near: ص ف ح B004 el sıkışma / المصافحة بصفحة اليد ← 5:13 وَٱصْفَحْ
+  - far: ب س ط B004 eli uzatıp serbestçe kullanmak / مد اليد وإطلاقها ← 5:28 بَسَطتَ
+  - far: د ي ن B003 borç alıp verme ve vadeli ödeme ilişkisi / الدين المالي ← 5:54 دِينِهِۦ
+- **B008** önünde ya da hemen öncesinde / بين اليَدين
+  - same: ق و م B013 ölülerin diriltildiği ve insanların yargı için kalktığı gün / قيامة وبعث وقيام الساعة ← 5:6 قُمْتُمْ
+  - same: ص ل و B006 yarışta birincinin hemen ardındaki ikinci / تلو السابق في السباق ← 5:6 ٱلصَّلَوٰةِ
+  - same: ك و ن B001 gerçekleşme, bulunma ve olma bildirimi / وقوع الشيء وحضوره في زمان ← 5:6 كُنتُمْ
+  - near: ء م م B011 ön taraf ve yakın konum / الأمام قدام وقربا ← 5:2 ءَآمِّينَ
+  - near: ق و م B013 ölülerin diriltildiği ve insanların yargı için kalktığı gün / قيامة وبعث وقيام الساعة ← 5:8 قَوَّٰمِينَ
+  - near: ق ب ل B003 birinin tarafından veya nezdinde / جهة الشيء وعنده ← 5:5 قَبْلِكُمْ
+  - far: ء م م B011 ön taraf ve yakın konum / الأمام قدام وقربا ← 5:17 وَأُمَّهُۥ
+  - far: و ر ي B006 konuma göre arka, ön, öte ya da öbür yan / الجانب الوراء: خلف أو أمام أو سوى ← 5:31 يُوَٰرِى
+- **B009** kişinin kendi yaptığı iş ve doğurduğu sorumluluk / ما كسبت اليَدان
+  - same: و ج ه B010 doğumda ellerin veya ön ayakların önce çıkması / الولادة باليدين أولا ← 5:6 وُجُوهَكُمْ
+  - same: ء ي د B001 güç ve güçlendirme / قوة مؤيدة ← 5:6 وَأَيْدِيَكُمْ
+  - same: ط ي ب B006 içten razı olma ve iç rahatlığı bulma / النفس تطيب بالشيء ← 5:6 طَيِّبًا
+  - near: ع م ل B006 el işçileri / العملة العاملون بالأيدي ← 5:5 عَمَلُهُۥ
+  - near: ج ر م B003 kazanıp edinme ve bir sonuca sürükleme / الكسب والإكساب ← 5:8 يَجْرِمَنَّكُمْ
+  - near: ك ت ب B002 yazma ve yazılı metin / نظم الحروف واسم المكتوب ← 5:5 ٱلْكِتَٰبَ
+  - far: ع م ل B006 el işçileri / العملة العاملون بالأيدي ← 5:53 أَعْمَٰلُهُمْ
+  - far: خ ل ق B007 uydurup yalan üretme / اختلاق الكذب والكلام ← 5:17 يَخْلُقُ
+- **B013** bir nesnenin tutacağı, ucu ya da uzantısı / يَد الشيء
+  - same: ر ج ل B009 ayak benzetmeli özel adlar / رجل القوس والميسم ← 5:6 وَأَرْجُلَكُمْ
+  - same: ل م س B001 elle ya da tenle dokunarak algılama / المس باليد والبشرة ← 5:6 لَٰمَسْتُمُ
+  - same: ر ء س B005 kılıcın kabzası / رِئاس السيف ← 5:6 بِرُءُوسِكُمْ
+  - near: ء خ ذ B012 kancalı aracın tutamağı / مقبض الشيء المأخوذ به ← 5:5 مُتَّخِذِىٓ
+  - near: ك ف ف B001 avuç ve ona benzer kavrayıcı organ / كف اليد ← 5:11 فَكَفَّ
+  - near: ف ض ل B005 giysiyi omuzlara dolayarak kuşanma veya evde tek giysiyle bulunma / التوشح بالثوب ← 5:2 فَضْلًا
+  - far: ء خ ذ B012 kancalı aracın tutamağı / مقبض الشيء المأخوذ به ← 5:14 أَخَذْنَا
+  - far: ك ف ف B001 avuç ve ona benzer kavrayıcı organ / كف اليد ← 5:110 كَفَفْتُ
+- **B014** geniş, bol ve rahat / اليَدِي الواسع
+  - same: و ج ه B010 doğumda ellerin veya ön ayakların önce çıkması / الولادة باليدين أولا ← 5:6 وُجُوهَكُمْ
+  - same: ك ع ب B009 talihin veya saygınlığın yükselmesi için dua / ارتفاع الجد والشرف ← 5:6 ٱلْكَعْبَيْنِ
+  - same: ن ع م B002 yumuşamak, rahat yaşamak veya rahat yaşatmak / اللين والنعومة ورفاه العيش ← 5:6 نِعْمَتَهُۥ
+  - near: س و ي B009 geniş ve açık arazi / السِيّ واسع أملس من الأرض ← 5:12 سَوَآءَ
+  - near: ح ر م B010 kutsal alanda giyilmesi bırakılan ibadet giysisi / الحريم ثوب المتنسك ← 5:3 حُرِّمَتْ
+  - near: س ف ح B007 geniş koltuk altlı veya ayrık kaburgalı / سعة في الإبط والضلوع ← 5:5 مُسَٰفِحِينَ
+  - far: و س ع B003 para ve geçim bolluğu / سعة المال والعيش ← 5:54 وَٰسِعٌ
+  - far: ل ب ب B010 bolluk, esenlik ve güven içinde olma / سعة ورخاء ← 5:100 ٱلْأَلْبَٰبِ
+- **B015** eli işe yatkın ve becerikli / اليَدِي الصنّاع
+  - same: و ج ه B010 doğumda ellerin veya ön ayakların önce çıkması / الولادة باليدين أولا ← 5:6 وُجُوهَكُمْ
+  - same: ل م س B001 elle ya da tenle dokunarak algılama / المس باليد والبشرة ← 5:6 لَٰمَسْتُمُ
+  - same: ء ي د B001 güç ve güçlendirme / قوة مؤيدة ← 5:6 وَأَيْدِيَكُمْ
+  - near: ح ر ف B006 geçim kazanma, meslek, iş ilişkisi ve kazancın gelişmesi / كسب الحرفة والمعاملة ← 5:13 يُحَرِّفُونَ
+  - near: ء ت ي B009 devenin ön ayaklarını geri getirişi / رجع يدي الناقة في السير ← 5:5 أُوتُوا۟
+  - near: ع م ل B006 el işçileri / العملة العاملون بالأيدي ← 5:5 عَمَلُهُۥ
+  - far: ص ن ع B002 el işi ustalığı ve meslek / حذق الصانع بعمل اليد ← 5:14 يَصْنَعُونَ
+  - far: ح ر ف B006 geçim kazanma, meslek, iş ilişkisi ve kazancın gelişmesi / كسب الحرفة والمعاملة ← 5:41 يُحَرِّفُونَ
+- **B016** birlik içinde destek ve koruma / اليَد الناصرة
+  - same: ء ي د B001 güç ve güçlendirme / قوة مؤيدة ← 5:6 وَأَيْدِيَكُمْ
+  - same: ل م س B001 elle ya da tenle dokunarak algılama / المس باليد والبشرة ← 5:6 لَٰمَسْتُمُ
+  - same: ص ل ي B002 iyilik dileme; özneye göre esirgeme, övme veya aklama / الدعاء والبركة والرحمة ← 5:6 ٱلصَّلَوٰةِ
+  - near: ب س ط B004 eli uzatıp serbestçe kullanmak / مد اليد وإطلاقها ← 5:11 يَبْسُطُوٓا۟
+  - near: ح ك م B001 alıkoyup geri çevirmek / المنع والرد للإصلاح ← 5:1 يَحْكُمُ
+  - near: ع ز ر B001 saygıyla yüceltip savunma / النصر مع التعظيم والتوقير ← 5:12 وَعَزَّرْتُمُوهُمْ
+  - far: ن ص ر B001 yardım edip üstün gelmesini sağlama / النصرة عون وإظهار ← 5:14 نَصَٰرَىٰٓ
+  - far: و ل ي B004 yakın durup destek olma / محبة ونصرة وموالاة ← 5:43 يَتَوَلَّوْنَ
+
+## ء ي د (وَأَيْدِيَكُمْ, وَأَيْدِيكُم)
+
+- **B001** güç ve güçlendirme / قوة مؤيدة
+  - same: ي د ي B002 güç, yeterlik ve güçlendirme / اليَد القوّة ← 5:6 وَأَيْدِيَكُمْ
+  - same: ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 5:6 قُمْتُمْ
+  - same: ر د د B009 düşmeyi önleyen dayanak, sırt veya yük devesi / العماد وما يحمل ويرد عن السقوط ← 5:6 يُرِيدُ
+  - near: ي د ي B002 güç, yeterlik ve güçlendirme / اليَد القوّة ← 5:11 أَيْدِيَهُمْ
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 5:5 ٱلْيَوْمَ
+  - near: ع ز ر B001 saygıyla yüceltip savunma / النصر مع التعظيم والتوقير ← 5:12 وَعَزَّرْتُمُوهُمْ
+  - far: ي د ي B002 güç, yeterlik ve güçlendirme / اليَد القوّة ← 5:28 يَدَكَ
+  - far: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 5:60 وَعَبَدَ
+- **B002** koruyucu engel / إياد واق
+  - same: ج ن ب B011 yanı koruyan kalkan veya örtü / المجنب وقاء إلى الجنب ← 5:6 جُنُبًا
+  - same: ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 5:6 قُمْتُمْ
+  - same: ر د د B009 düşmeyi önleyen dayanak, sırt veya yük devesi / العماد وما يحمل ويرد عن السقوط ← 5:6 يُرِيدُ
+  - near: و ق ي B001 araya engel koyarak zarardan koruma / دفع الضرر بوقاية ← 5:7 وَٱتَّقُوا۟
+  - near: ص د د B005 engel oluşturan dağ / جبل حاجز ← 5:2 صَدُّوكُمْ
+  - near: ح ص ن B001 korunaklı çevre, onu kurma, ona sığınma ve genel olarak sakınma / حفظ داخل حصن محيط ← 5:5 وَٱلْمُحْصَنَٰتُ
+  - far: و ق ي B001 araya engel koyarak zarardan koruma / دفع الضرر بوقاية ← 5:27 ٱلْمُتَّقِينَ
+  - far: ح ف ظ B001 koruyup gözetme / مراعاة الشيء وحراسته ← 5:44 ٱسْتُحْفِظُوا۟
+
+## ر ف ق (ٱلْمَرَافِقِ)
+
+- **B001** yumuşak, incelikli ve becerikli davranış / اللين ولطافة الفعل
+  - same: ن ع م B002 yumuşamak, rahat yaşamak veya rahat yaşatmak / اللين والنعومة ورفاه العيش ← 5:6 نِعْمَتَهُۥ
+  - same: ر و د B005 yumusak ve yavas ilerleme / الرفق والمهل ← 5:6 يُرِيدُ
+  - same: ج ن ب B002 yanında yakın bulunma ve eşlik etme / الجنب قرب ومجاورة على الجانب ← 5:6 جُنُبًا
+  - near: ر ح م B001 acıma duygusuyla esirgeyip iyilik etme / الرَّحْمَة والرقة ← 5:3 رَّحِيمٌ
+  - near: ن ع م B002 yumuşamak, rahat yaşamak veya rahat yaşatmak / اللين والنعومة ورفاه العيش ← 5:7 نِعْمَةَ
+  - near: د م و B004 alacağını yumuşaklıkla alan ya da burnu kanayan kişi / استدماء الرفق ونزف الأنف ← 5:3 وَٱلدَّمُ
+  - far: ذ ل ل B002 değerini yitirmeden gönüllü yumuşaklık / لين الجانب بلا هوان ← 5:54 أَذِلَّةٍ
+  - far: ر ح م B001 acıma duygusuyla esirgeyip iyilik etme / الرَّحْمَة والرقة ← 5:34 رَّحِيمٌ
+- **B002** yolculukta birlikte giden kişi ya da topluluk / الصحبة والمرافقة
+  - same: س ف ر B004 yazılı kitap ve yazıcılık alanı / الكتاب يكشف المكتوب ← 5:6 سَفَرٍ
+  - same: ق و م B006 bir yerde kalma ve kalınan yer / مقام وإقامة في موضع ← 5:6 قُمْتُمْ
+  - same: ج ن ب B002 yanında yakın bulunma ve eşlik etme / الجنب قرب ومجاورة على الجانب ← 5:6 جُنُبًا
+  - near: ص ح ب B001 süreğen eşlik ve yakın birliktelik / الصُّحبة والملازمة ← 5:10 أَصْحَٰبُ
+  - near: ع ش ر B012 yakın ilişki ve birlikte yaşama / مداخلة ومعاشرة ← 5:12 عَشَرَ
+  - near: ق و م B006 bir yerde kalma ve kalınan yer / مقام وإقامة في موضع ← 5:8 قَوَّٰمِينَ
+  - far: ص ح ب B001 süreğen eşlik ve yakın birliktelik / الصُّحبة والملازمة ← 5:29 أَصْحَٰبِ
+  - far: س ي ر B006 yolcu topluluğu / الجماعة السائرة ← 5:96 وَلِلسَّيَّارَةِ
+- **B003** yarar ve rahatlık sağlayan, kolay erişilen olanak / المرفق والمنفعة
+  - same: م س ح B019 deve dirseğinin hafifçe sürtmesi / المس الخفيف بلا إدماء أو عرك ← 5:6 وَٱمْسَحُوا۟
+  - same: غ س ل B002 yıkamada kullanılan su veya madde ile yıkanma yeri / ماء الغسل وما يغسل به أو فيه ← 5:6 فَٱغْسِلُوا۟
+  - same: ر و د B005 yumusak ve yavas ilerleme / الرفق والمهل ← 5:6 يُرِيدُ
+  - near: ء ت ي B003 uygun yoldan ele almak ve elverişli hale gelmek / مأتى الأمر وتهيؤه ← 5:5 أُوتُوا۟
+  - near: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 5:5 غَيْرَ
+  - near: ر و د B005 yumusak ve yavas ilerleme / الرفق والمهل ← 5:1 يُرِيدُ
+  - far: ن ف ع B001 zararın karşıtı olan ve iyiliğe ulaştıran yarar / النفع خلاف الضر ← 5:76 نَفْعًا
+  - far: ع و د B006 kişiye dönen yarar ve iyilik / عائدة ومعروف يرجع ← 5:95 عَادَ
+- **B004** dirsek, dirseğe dayanma ve dayanak / المرفق والاتكاء
+  - same: م س ح B019 deve dirseğinin hafifçe sürtmesi / المس الخفيف بلا إدماء أو عرك ← 5:6 وَٱمْسَحُوا۟
+  - same: ر ج ل B001 bacak uzvu / الرِّجل العضو ← 5:6 وَأَرْجُلَكُمْ
+  - same: ي د ي B001 el ve elin uğradığı bedensel durumlar / اليَد الجارحة ← 5:6 وَأَيْدِيَكُمْ
+  - near: ع ظ م B003 uzvun belirli kalın kesimi / مستغلظ العضو ← 5:9 عَظِيمٌ
+  - near: ك ف ف B001 avuç ve ona benzer kavrayıcı organ / كف اليد ← 5:11 فَكَفَّ
+  - near: و ق ذ B006 ağır vuruşa açık beden noktası veya bilinci gideren baş arkası vuruşu / موضع ضربة موقذة ← 5:3 وَٱلْمَوْقُوذَةُ
+  - far: ج ن ح B007 üst gövdeyi eğip eller, avuçlar veya dirsekler üzerinde dayanma / الاعتماد والانكباب بالجسد ← 5:93 جُنَاحٌ
+  - far: ع ظ م B003 uzvun belirli kalın kesimi / مستغلظ العضو ← 5:33 عَظِيمٌ
+- **B005** deveyi yavaşlatan özel bağlama / الرفاق وشد البعير
+  - same: م س ح B019 deve dirseğinin hafifçe sürtmesi / المس الخفيف بلا إدماء أو عرك ← 5:6 وَٱمْسَحُوا۟
+  - same: ح ر ج B006 ahşap taşıma sedyesi veya kafesi / السرير والمحفة ← 5:6 حَرَجٍ
+  - same: ج د د B012 düğümlü ipler ve dolaşık kalıntılar / خيوط معقودة وبقايا متشابكة ← 5:6 تَجِدُوا۟
+  - near: و ث ق B003 sıkıca bağlama ve bağ aracı / الإيثاق والوثاق الذي يشد به ← 5:7 وَمِيثَٰقَهُ
+  - near: ش د د B001 bağlayıp sağlamlaştırma / شد العقد والوثاق ← 5:2 شَدِيدُ
+  - near: ث ن ي B007 iki uçlu bağlama ipi ve katlanmış dizgin ucu / حبل مثنى الطرفين أو طرف زمام ← 5:12 ٱثْنَىْ
+  - far: ع ق ل B002 devenin ön ayağını büküp bağlayarak tutma / عَقْل البعير بالعِقال ← 5:58 يَعْقِلُونَ
+  - far: و ث ق B003 sıkıca bağlama ve bağ aracı / الإيثاق والوثاق الذي يشد به ← 5:14 مِيثَٰقَهُمْ
+- **B006** hayvanda dirseğin gövdeye göre sapmış duruşu / انفتال المرفق عن الجنب
+  - same: ج ن ب B007 böğür bölgesini tutan ağrı veya hastalık / داء الجنب وأثره في البدن ← 5:6 جُنُبًا
+  - same: م س ح B019 deve dirseğinin hafifçe sürtmesi / المس الخفيف بلا إدماء أو عرك ← 5:6 وَٱمْسَحُوا۟
+  - same: ر و د B005 yumusak ve yavas ilerleme / الرفق والمهل ← 5:6 يُرِيدُ
+  - near: د م و B004 alacağını yumuşaklıkla alan ya da burnu kanayan kişi / استدماء الرفق ونزف الأنف ← 5:3 وَٱلدَّمُ
+  - near: س ف ح B007 geniş koltuk altlı veya ayrık kaburgalı / سعة في الإبط والضلوع ← 5:5 مُسَٰفِحِينَ
+  - near: ق ر ب B015 böğür, bedenin yan bölgesi / قُرْب الفرس والخاصرة ← 5:8 أَقْرَبُ
+  - far: ج ن ب B007 böğür bölgesini tutan ağrı veya hastalık / داء الجنب وأثره في البدن ← 5:90 فَٱجْتَنِبُوهُ
+  - far: ب ي ن B008 bağlı yerinden ayrılma / انفراج العضو أو الشيء عن ملاصقه ← 5:14 بَيْنَهُمُ
+- **B007** dişi devenin meme kanalı ve sağım rahatsızlığı / انسداد أحاليل الناقة
+  - same: ر و د B005 yumusak ve yavas ilerleme / الرفق والمهل ← 5:6 يُرِيدُ
+  - same: ج د د B011 susuz yer veya sütü kesilmiş dişi hayvan / انقطاع ماء أو لبن ← 5:6 تَجِدُوا۟
+  - same: ص ع د B005 yavrusunu yitirip önceki yavrusunu emziren dişi deve / ناقة صعود تعطف على ولد ← 5:6 صَعِيدًا
+  - near: و ق ذ B004 meme uçları örselenmiş, sütü azalmış ve memesi hastalanmış dişi deve / ضرع ناقة يؤثر فيه الرضاع أو الصرار ← 5:3 وَٱلْمَوْقُوذَةُ
+  - near: د م و B004 alacağını yumuşaklıkla alan ya da burnu kanayan kişi / استدماء الرفق ونزف الأنف ← 5:3 وَٱلدَّمُ
+  - near: ر ح م B004 döl yatağı hastalığı ve doğum sonrası bozukluk / وجع الرَّحِم بعد الولادة ← 5:3 رَّحِيمٌ
+  - far: ث ل ث B005 uc meme veya uc kapla ilgili deve / الناقة الثلوث ← 5:73 ثَالِثُ
+  - far: ف و ق B006 sağım arası süt dönüşü / رجوع اللبن بين الحلبتين ← 5:66 فَوْقِهِمْ
+- **B008** bekleyip hemen harekete geçmemek / التمهل والانتظار
+  - same: ر و د B005 yumusak ve yavas ilerleme / الرفق والمهل ← 5:6 يُرِيدُ
+  - same: ط ي ب B008 biriyle şakalaşıp hoşça takılmak / المطايبة مزاح ← 5:6 طَيِّبًا
+  - same: م س ح B019 deve dirseğinin hafifçe sürtmesi / المس الخفيف بلا إدماء أو عرك ← 5:6 وَٱمْسَحُوا۟
+  - near: ء ي ي B001 bekleyerek oyalanma / تمهل وانتظار ← 5:10 بِـَٔايَٰتِنَآ
+  - near: ر س ل B004 acele etmeden ölçülü ilerleme / الرفق والتؤدة ← 5:12 بِرُسُلِى
+  - near: ر و د B005 yumusak ve yavas ilerleme / الرفق والمهل ← 5:1 يُرِيدُ
+  - far: ح ي ن B005 uygun zamanı bekleyip kollamak / ترقّب الحين وانتظاره ← 5:101 حِينَ
+  - far: ن ظ ر B002 bekleme veya süre tanıma / ترقب الوقت وإمهال الطالب ← 5:75 ٱنظُرْ
+- **B009** suyun dolu, yerinde duran ve kalıcı olması / الامتلاء والثبات
+  - same: ك ع ب B007 bir şeyi doldurmak / ملء الشيء حتى يتمتلئ ← 5:6 ٱلْكَعْبَيْنِ
+  - same: ر د د B007 sütün, suyun veya bedensel sıvının birikip çoğalması / امتلاء الضرع وتجمع الماء ← 5:6 يُرِيدُ
+  - same: ش ك ر B003 dolup bollaşma / الامتلاء والغزر وكثرة اللبن ← 5:6 تَشْكُرُونَ
+  - near: ح ب ب B006 suyla dolmak veya doldurup dolulaştırmak / الري حتى الامتلاء ← 5:13 يُحِبُّ
+  - near: ق ر ب B016 bir ölçü veya sınıra yaklaşık olma / القراب والمقاربة في المقدار ← 5:8 أَقْرَبُ
+  - near: ك ف ف B016 ölçüce denk ve tam uyumlu olma / المماثلة والاكتفاء ← 5:11 فَكَفَّ
+  - far: ح ب ب B006 suyla dolmak veya doldurup dolulaştırmak / الري حتى الامتلاء ← 5:18 وَأَحِبَّٰٓؤُهُۥ
+  - far: د م ع B005 kabın dolup taşması ve kabı doldurma / امتلاء الوعاء حتى يفيض ← 5:83 ٱلدَّمْعِ
+- **B010** belirli bir yerleşim yerinin adı / اسم بلد
+  - same: ء ح د B006 Medine'deki belirli bir dağın özel adı / جبل أُحُد ← 5:6 أَحَدٌ
+  - same: ط ي ب B005 Peygamber'in şehri için kullanılan özel ad / طيبة اسم المدينة ← 5:6 طَيِّبًا
+  - same: ج ع ل B011 belirtilmemiş bir yer adı / الجَعْلة اسم مكان ← 5:6 لِيَجْعَلَ
+  - near: ع ز ر B007 bir ağaç türü / العَيْزار شجر ← 5:12 وَعَزَّرْتُمُوهُمْ
+  - near: ط ي ب B005 Peygamber'in şehri için kullanılan özel ad / طيبة اسم المدينة ← 5:5 ٱلطَّيِّبَٰتُ
+  - near: ج ع ل B011 belirtilmemiş bir yer adı / الجَعْلة اسم مكان ← 5:13 وَجَعَلْنَا
+  - far: ح ض ر B012 kent, yer, yıldız ve kabile adları / أعلام ومواضع وكواكب ← 5:106 حَضَرَ
+  - far: ص ي ر B008 topluluk, grup / الجماعة المجموعة ← 5:18 ٱلْمَصِيرُ
+
+## م س ح (وَٱمْسَحُوا۟, فَٱمْسَحُوا۟)
+
+- **B001** üzerinden geçirip silme / إمرار اليد على الشيء وإزالة أثره
+  - same: ل م س B001 elle ya da tenle dokunarak algılama / المس باليد والبشرة ← 5:6 لَٰمَسْتُمُ
+  - same: ي م م B002 toprakla namaz temizliği / التيمم للصلاة بمسح الوجه واليدين بالتراب ← 5:6 فَتَيَمَّمُوا۟
+  - same: غ س ل B001 suyla yıkayıp kirden arındırma / تطهير الشيء بإسالة الماء وإزالة الدرن ← 5:6 فَٱغْسِلُوا۟
+  - near: ص ف ح B004 el sıkışma / المصافحة بصفحة اليد ← 5:13 وَٱصْفَحْ
+  - near: ز ي ل B002 yerinden giderme veya hareketsiz bırakma / إزاحة الشيء وإذهاب ثباته ← 5:13 تَزَالُ
+  - near: س ف ح B001 sıvıyı döküp akıtmak / صب السائل وإراقته ← 5:5 مُسَٰفِحِينَ
+  - far: م س س B001 elle dokunup algılama / جس باليد ← 5:73 لَيَمَسَّنَّ
+  - far: س ح ت B001 kökten ya da yüzeyden bütünüyle giderme / الاستئصال والقشر والإذهاب ← 5:42 لِلسُّحْتِ
+- **B002** cinsel birleşme için örtmece / المسح كناية عن الجماع
+  - same: ل م س B003 dokunma sözüyle cinsel birleşmeyi örtülü anlatma / كناية الجماع ← 5:6 لَٰمَسْتُمُ
+  - same: ش ك ر B006 kadın cinsel organı veya birleşme için örtmece / كناية الفرج والنكاح ← 5:6 تَشْكُرُونَ
+  - same: ط ي ب B004 yeme ile cinsel birlikteliği birlikte adlandıran ikili / الأطيبان الأكل والنكاح ← 5:6 طَيِّبًا
+  - near: د خ ل B002 eşiyle cinsel birleşmede bulunmak / الإفضاء الزوجي ← 5:12 وَلَأُدْخِلَنَّكُمْ
+  - near: ق ر ب B007 temas edip içine girecek ölçüde yaklaşma / مقاربة الشيء وملابسته ← 5:8 أَقْرَبُ
+  - near: س ف ح B002 evlilik dışı cinsel ilişki / سفاح بلا عقد ← 5:5 مُسَٰفِحِينَ
+  - far: م س س B002 cinsel birleşmeyi dokunma sözüyle anlatma / مماسة النكاح ← 5:73 لَيَمَسَّنَّ
+  - far: ج م ع B006 cinsel birleşme / اتصال الجماع والمجامعة ← 5:17 جَمِيعًا
+- **B003** kılıçla vurup kesme / القطع والضرب بالسيف
+  - same: ل م س B001 elle ya da tenle dokunarak algılama / المس باليد والبشرة ← 5:6 لَٰمَسْتُمُ
+  - same: ي م م B002 toprakla namaz temizliği / التيمم للصلاة بمسح الوجه واليدين بالتراب ← 5:6 فَتَيَمَّمُوا۟
+  - same: ر ء س B005 kılıcın kabzası / رِئاس السيف ← 5:6 بِرُءُوسِكُمْ
+  - near: ص ف ح B007 kılıcın yassı yüzüyle vurma / الضرب بعرض السيف ← 5:13 وَٱصْفَحْ
+  - near: ق ل د B010 boyna kılıçla vurma / تقليد السيف ضربا للعنق ← 5:2 ٱلْقَلَٰٓئِدَ
+  - near: ق ر ب B010 kılıç kını veya deri dış kabı / قراب السيف ووعاؤه ← 5:8 أَقْرَبُ
+  - far: ض ر ب B014 vurma aracı, bölgesi, yeri veya işi / موضع الضرب وآلته وصنعته ← 5:106 ضَرَبْتُمْ
+  - far: ق ط ع B001 kesip ayırmak / الصَّرْم والإبانة ← 5:33 تُقَطَّعَ
+- **B004** yüzü ya da gözü silinmişçesine eksik / محو الخلقة في العين والوجه
+  - same: و ج ه B015 iki yüzlü nesne; içiyle dışı uyuşmayan kişi / ذو وجهين ← 5:6 وُجُوهَكُمْ
+  - same: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 5:6 قُمْتُمْ
+  - same: ل م س B001 elle ya da tenle dokunarak algılama / المس باليد والبشرة ← 5:6 لَٰمَسْتُمُ
+  - near: ق س م B001 yüz güzelliği / حسن موزع في الوجه ← 5:3 تَسْتَقْسِمُوا۟
+  - near: ء م م B006 boy ve beden görünüşü / القامة والهيئة ← 5:2 ءَآمِّينَ
+  - near: س ف ح B001 sıvıyı döküp akıtmak / صب السائل وإراقته ← 5:5 مُسَٰفِحِينَ
+  - far: ق س م B001 yüz güzelliği / حسن موزع في الوجه ← 5:53 أَقْسَمُوا۟
+  - far: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد ← 5:32 ٱلنَّاسَ
+- **B006** güzellik ve soyluluk belirtisi / مسحة الحسن والملك والكرم
+  - same: ر د د B008 görünüş, nitelik veya konuşmadaki kusur / عيب يرد البصر أو اللسان ← 5:6 يُرِيدُ
+  - same: ي د ي B004 elinde bulunma, sahiplik ve denetim / اليَد المالكة ← 5:6 وَأَيْدِيَكُمْ
+  - same: م و ه B006 belirli kalıplarda yüz güzelliği, söz tatlılığı, üzüm olgunluğu veya hayvan varlığının semirmesi / رونق كالماء في الوجه والكلام والثمر ← 5:6 مَآءً
+  - near: و س م B005 kişide görünen yerleşik güzellik ve zarafet / حسن عليه أثر الجمال ← 5:4 ٱسْمَ
+  - near: ق س م B001 yüz güzelliği / حسن موزع في الوجه ← 5:3 تَسْتَقْسِمُوا۟
+  - near: ح س ن B001 akla, eğilime veya duyulara göre güzel ve beğenilir olma / الحسن ضد القبح ← 5:12 حَسَنًا
+  - far: ق س م B001 yüz güzelliği / حسن موزع في الوجه ← 5:53 أَقْسَمُوا۟
+  - far: س ع ي B006 övünç getiren soylu ve cömert iş / مسعاة المكارم ← 5:33 وَيَسْعَوْنَ
+- **B007** ter; bir kaynakta kol / المسيح عرق ظاهر
+  - same: ل م س B001 elle ya da tenle dokunarak algılama / المس باليد والبشرة ← 5:6 لَٰمَسْتُمُ
+  - same: ي د ي B005 egemenlik ve buyurma gücü / اليَد السلطان ← 5:6 وَأَيْدِيَكُمْ
+  - same: ص ل و B007 tapınma yeri; kilise / مواضع الصلاة ودور العبادة ← 5:6 ٱلصَّلَوٰةِ
+  - near: ج ح م B005 utanma duygusu az olan kişi / قلة الحياء ← 5:10 ٱلْجَحِيمِ
+  - near: س ف ح B006 kalın kaba örtü / السفيح الكساء الغليظ ← 5:5 مُسَٰفِحِينَ
+  - near: ن س ي B004 kalçadan bacağa uzanan damar / النَّسَا عرق ووجعه ← 5:13 وَنَسُوا۟
+  - far: ب ش ر B001 derinin dış yüzü ve toprağın beliren bitkisi / ظهور البشرة والسطح ← 5:18 بَشَرٌ
+  - far: ع ن د B003 sıvının yana yönelerek veya kesilmeden akması / سيلان عاند جانح ← 5:43 وَعِندَهُمُ
+- **B008** düz para veya gümüş parça / فضة ملساء ونقش ممحو
+  - same: م و ه B005 başka metali altın veya gümüşle kaplama ve gerçeği görünüşle gizleme / كسوة المعدن بماء الذهب أو الفضة ← 5:6 مَآءً
+  - same: ك ع ب B006 katı yağ parçası / قطعة السمن الجامدة ← 5:6 ٱلْكَعْبَيْنِ
+  - same: ر ج ل B006 büyük çekirge sürüsü / الرَّجْل من الجراد ← 5:6 وَأَرْجُلَكُمْ
+  - near: ق س و B005 sert ve düşük nitelikli gümüşten sahte para / الدراهم القسية المغشوشة ← 5:13 قَٰسِيَةً
+  - near: س ف ح B006 kalın kaba örtü / السفيح الكساء الغليظ ← 5:5 مُسَٰفِحِينَ
+  - near: خ م ص B004 genellikle siyah, işaretli örtü / الخميصة الكساء الأسود المعلّم ← 5:3 مَخْمَصَةٍ
+  - far: ق د س B006 gümüşten yapılmış boncuk benzeri süs / جمان الفضة ← 5:21 ٱلْمُقَدَّسَةَ
+  - far: غ ر ب B018 gümüş, altın veya bunlardan yapılmış değerli kap / الفضة والذهب والإناء النفيس ← 5:31 غُرَابًا
+- **B009** düz ve çıplak arazi / الأرض المستوية الملساء
+  - same: ج د د B007 düz ve sert yer yüzeyi / وجه الأرض المستوي ← 5:6 تَجِدُوا۟
+  - same: ص ع د B004 yeryüzü veya toprak yüzeyi / صعيد وجه الأرض ← 5:6 صَعِيدًا
+  - same: ص ل ي B009 üzerinde madde dövülen geniş taş / الصلاية حجر يدق عليه ← 5:6 ٱلصَّلَوٰةِ
+  - near: ب س ط B002 yaygı; geniş ve düz arazi / الأرض والبساط المبسوط ← 5:11 يَبْسُطُوٓا۟
+  - near: س و ي B009 geniş ve açık arazi / السِيّ واسع أملس من الأرض ← 5:12 سَوَآءَ
+  - near: ع د و B010 sert, kuru ve engebeli yer / العَدْواء في صلابة المكان واضطرابه ← 5:2 تَعْتَدُوا۟
+  - far: س ل ف B010 toprağı ekim için düzleme, düzlenmiş parça ve düzleme taşı / الأرض المسلوفة ← 5:95 سَلَفَ
+  - far: ب س ط B002 yaygı; geniş ve düz arazi / الأرض والبساط المبسوط ← 5:28 بَسَطتَ
+- **B010** arazi ölçümü / مساحة الأرض وذرعها
+  - same: ص ع د B004 yeryüzü veya toprak yüzeyi / صعيد وجه الأرض ← 5:6 صَعِيدًا
+  - same: ي م م B002 toprakla namaz temizliği / التيمم للصلاة بمسح الوجه واليدين بالتراب ← 5:6 فَتَيَمَّمُوا۟
+  - same: ج د د B007 düz ve sert yer yüzeyi / وجه الأرض المستوي ← 5:6 تَجِدُوا۟
+  - near: ب س ط B002 yaygı; geniş ve düz arazi / الأرض والبساط المبسوط ← 5:11 يَبْسُطُوٓا۟
+  - near: س م ع B014 kimsenin görüp duymadığı boş arazide / بين سمع الأرض وبصرها ← 5:7 سَمِعْنَا
+  - near: م س ك B004 suyu emmeden veya sızdırmadan tutan yer ya da kap / موضع يمسك الماء أو يثبت ← 5:4 أَمْسَكْنَ
+  - far: ب س ط B002 yaygı; geniş ve düz arazi / الأرض والبساط المبسوط ← 5:28 بَسَطتَ
+  - far: س ل ف B010 toprağı ekim için düzleme, düzlenmiş parça ve düzleme taşı / الأرض المسلوفة ← 5:95 سَلَفَ
+- **B011** yol alıp araziyi aşma / قطع الأرض سيرا
+  - same: س ف ر B003 yolculuğa çıkıp mesafe katetme / الخروج في السفر والمسافرون ← 5:6 سَفَرٍ
+  - same: ص ع د B004 yeryüzü veya toprak yüzeyi / صعيد وجه الأرض ← 5:6 صَعِيدًا
+  - same: ن ع م B012 birine yaya gitmek ve ayakları yürüyerek kullanmak / المشي على القدم وابتذالها ← 5:6 نِعْمَتَهُۥ
+  - near: ن ص ب B010 yolculuğu yumuşak sürdürme veya artırma / سير اليوم سيرا لينا ← 5:3 ٱلنُّصُبِ
+  - near: ن ق ب B006 ülkeyi dolaşıp araştırmak / السير في البلاد والتنقيب فيها ← 5:12 نَقِيبًا
+  - near: ب س ط B007 dolaşmak ve gezintiye çıkmak / السير في البلاد والتنزه ← 5:11 يَبْسُطُوٓا۟
+  - far: ن ص ب B010 yolculuğu yumuşak sürdürme veya artırma / سير اليوم سيرا لينا ← 5:90 وَٱلْأَنصَابُ
+  - far: س ي ر B001 yol almak ve birini ya da bir şeyi ilerletmek / المضي والجريان ← 5:96 وَلِلسَّيَّارَةِ
+- **B012** saç lülesi ve saç tarayan kadın / ذوائب الشعر والماشطة
+  - same: ر ج ل B010 orta kıvırcıklıkta saç / الشعر الرَّجِل ← 5:6 وَأَرْجُلَكُمْ
+  - same: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 5:6 نِعْمَتَهُۥ
+  - same: غ س ل B002 yıkamada kullanılan su veya madde ile yıkanma yeri / ماء الغسل وما يغسل به أو فيه ← 5:6 فَٱغْسِلُوا۟
+  - near: س ب ل B006 üst dudak ve sakal önündeki sarkan kıl / شعر منسدل عند الفم واللحية ← 5:12 ٱلسَّبِيلِ
+  - near: ش ع ر B007 ölçülü uyaklı söz ve onu söyleme sanatı / قريض وشاعر ← 5:2 شَعَٰٓئِرَ
+  - near: ذ ب ح B009 boğaz çevresindeki kıl, damga veya sarkan sakal görünümü / أثر الذبح على الحلق واللحية ← 5:3 ذُبِحَ
+  - far: س ح ت B001 kökten ya da yüzeyden bütünüyle giderme / الاستئصال والقشر والإذهاب ← 5:42 لِلسُّحْتِ
+  - far: ف ر ق B015 ayırt edilen türler ve yönler / ضروب ووجوه متميزة ← 5:25 فَٱفْرُقْ
+- **B013** yumuşatılırken yüzeyi işlenen yay / القوس الممسوحة عند التليين
+  - same: ر ج ل B008 su akıntısı yatağı / رِجْلة الماء ← 5:6 وَأَرْجُلَكُمْ
+  - same: ص ل و B007 tapınma yeri; kilise / مواضع الصلاة ودور العبادة ← 5:6 ٱلصَّلَوٰةِ
+  - same: ل م س B001 elle ya da tenle dokunarak algılama / المس باليد والبشرة ← 5:6 لَٰمَسْتُمُ
+  - near: ق س ط B008 gökkuşağı / قوس القزح ← 5:8 بِٱلْقِسْطِ
+  - near: ق س و B005 sert ve düşük nitelikli gümüşten sahte para / الدراهم القسية المغشوشة ← 5:13 قَٰسِيَةً
+  - near: ب ن ي B005 kirişine aşırı yapışan kusurlu yay / قوس بانية تلصق بوترها ← 5:12 بَنِىٓ
+  - far: ق س ط B008 gökkuşağı / قوس القزح ← 5:42 بِٱلْقِسْطِ
+  - far: م س س B002 cinsel birleşmeyi dokunma sözüyle anlatma / مماسة النكاح ← 5:73 لَيَمَسَّنَّ
+- **B014** kaba dokuma örtü veya sert havlu / البلاس والمسح الخشن
+  - same: ر ج ل B016 dik duran pişirme kazanı / المرجل المنصوب ← 5:6 وَأَرْجُلَكُمْ
+  - same: ي م م B002 toprakla namaz temizliği / التيمم للصلاة بمسح الوجه واليدين بالتراب ← 5:6 فَتَيَمَّمُوا۟
+  - same: ل م س B001 elle ya da tenle dokunarak algılama / المس باليد والبشرة ← 5:6 لَٰمَسْتُمُ
+  - near: س ف ح B006 kalın kaba örtü / السفيح الكساء الغليظ ← 5:5 مُسَٰفِحِينَ
+  - near: ق س ط B008 gökkuşağı / قوس القزح ← 5:8 بِٱلْقِسْطِ
+  - near: ح س ب B008 yalıtık adlandırmalar / المحسبة والوسادة ← 5:4 ٱلْحِسَابِ
+  - far: م س س B001 elle dokunup algılama / جس باليد ← 5:73 لَيَمَسَّنَّ
+  - far: س ب ح B006 anma sözlerini saymaya yarayan boncuk dizisi / خرز التسبيح ← 5:116 سُبْحَٰنَكَ
+- **B015** bedenin düzleşmiş veya etten eksilmiş bölümü / تسوية الجسد أو نقص لحمه
+  - same: ن ع م B012 birine yaya gitmek ve ayakları yürüyerek kullanmak / المشي على القدم وابتذالها ← 5:6 نِعْمَتَهُۥ
+  - same: ر ج ل B005 bir bacağı beyaz hayvan / بياض رجل الدابة ← 5:6 وَأَرْجُلَكُمْ
+  - same: ل م س B001 elle ya da tenle dokunarak algılama / المس باليد والبشرة ← 5:6 لَٰمَسْتُمُ
+  - near: خ م ص B003 ayak tabanının iç kavsi / أخمص القدم الداخل ← 5:3 مَخْمَصَةٍ
+  - near: ن ع م B012 birine yaya gitmek ve ayakları yürüyerek kullanmak / المشي على القدم وابتذالها ← 5:7 نِعْمَةَ
+  - near: ل ح م B002 etli olma, ete düşkünlük veya et bulundurma / لحم البدن وشهوة اللحم ← 5:3 وَلَحْمُ
+  - far: ن ع م B012 birine yaya gitmek ve ayakları yürüyerek kullanmak / المشي على القدم وابتذالها ← 5:20 نِعْمَةَ
+  - far: ر و ح B009 duyusal açıklık ve yayvan genişlik / السعة والانبساط الحسي ← 5:110 بِرُوحِ
+- **B016** aldatıcı yumuşak söz ve içtensiz geçinme / الملاينة المخادعة في القول والمعاشرة
+  - same: ط ي ب B008 biriyle şakalaşıp hoşça takılmak / المطايبة مزاح ← 5:6 طَيِّبًا
+  - same: ر ف ق B001 yumuşak, incelikli ve becerikli davranış / اللين ولطافة الفعل ← 5:6 ٱلْمَرَافِقِ
+  - same: ي م م B002 toprakla namaz temizliği / التيمم للصلاة بمسح الوجه واليدين بالتراب ← 5:6 فَتَيَمَّمُوا۟
+  - near: ق س و B002 yüreğin katılaşıp merhametini yitirmesi / غلظ القلب وذهاب لينه ← 5:13 قَٰسِيَةً
+  - near: ع ش ر B012 yakın ilişki ve birlikte yaşama / مداخلة ومعاشرة ← 5:12 عَشَرَ
+  - near: ك ذ ب B001 sözde veya davranışta doğruluğa aykırılık / خلاف الصدق ← 5:10 وَكَذَّبُوا۟
+  - far: س ن و B002 gönlünü hoş tutup yumuşak davranma / المساناة والملاينة ← 5:26 سَنَةً
+  - far: ص ن ع B007 çıkar vererek ya da yumuşak davranarak gönül alma / مصانعة بملاينة أو مال ← 5:14 يَصْنَعُونَ
+- **B017** satışta el sıkışma / المصافحة في البيع
+  - same: ر د د B004 geri isteme veya karşılıklı geri verme / الاسترداد والتراد في البيع ← 5:6 يُرِيدُ
+  - same: ق و م B018 pazarın canlanıp satışların artması / نفاق السوق ← 5:6 قُمْتُمْ
+  - same: ل م س B002 bir şeyi arama veya elde etmeyi isteme / طلب الشيء والتماسه ← 5:6 لَٰمَسْتُمُ
+  - near: ص ف ح B004 el sıkışma / المصافحة بصفحة اليد ← 5:13 وَٱصْفَحْ
+  - near: ص ل ح B002 barışma ve uzlaşma / الصلح إزالة النفار بين الناس ← 5:9 ٱلصَّٰلِحَٰتِ
+  - near: ع م ل B005 karşılıklı işlem / المعاملة بين الناس ← 5:5 عَمَلُهُۥ
+  - far: و ص ي B003 birbirine öğüt veya talimat iletmek / تبادل الوصية بين القوم ← 5:106 ٱلْوَصِيَّةِ
+  - far: ص ل ح B002 barışma ve uzlaşma / الصلح إزالة النفار بين الناس ← 5:39 وَأَصْلَحَ
+- **B019** deve dirseğinin hafifçe sürtmesi / المس الخفيف بلا إدماء أو عرك
+  - same: ر ف ق B006 hayvanda dirseğin gövdeye göre sapmış duruşu / انفتال المرفق عن الجنب ← 5:6 ٱلْمَرَافِقِ
+  - same: ل م س B001 elle ya da tenle dokunarak algılama / المس باليد والبشرة ← 5:6 لَٰمَسْتُمُ
+  - same: ي م م B002 toprakla namaz temizliği / التيمم للصلاة بمسح الوجه واليدين بالتراب ← 5:6 فَتَيَمَّمُوا۟
+  - near: س ف ح B002 evlilik dışı cinsel ilişki / سفاح بلا عقد ← 5:5 مُسَٰفِحِينَ
+  - near: و ق ذ B006 ağır vuruşa açık beden noktası veya bilinci gideren baş arkası vuruşu / موضع ضربة موقذة ← 5:3 وَٱلْمَوْقُوذَةُ
+  - near: ع ظ م B003 uzvun belirli kalın kesimi / مستغلظ العضو ← 5:9 عَظِيمٌ
+  - far: م س س B001 elle dokunup algılama / جس باليد ← 5:73 لَيَمَسَّنَّ
+  - far: خ ف ي B004 belli belirsiz şimşek çakması / لمع البرق الخفي ← 5:15 تُخْفُونَ
+- **B020** kılıcı kınından çekme / استلال السيف من غمده
+  - same: ر ء س B005 kılıcın kabzası / رِئاس السيف ← 5:6 بِرُءُوسِكُمْ
+  - same: ك ع ب B007 bir şeyi doldurmak / ملء الشيء حتى يتمتلئ ← 5:6 ٱلْكَعْبَيْنِ
+  - same: ر ج ل B013 kuyuya iple indirilmeden inmek / نزول البئر بلا تدلية ← 5:6 وَأَرْجُلَكُمْ
+  - near: ق ر ب B010 kılıç kını veya deri dış kabı / قراب السيف ووعاؤه ← 5:8 أَقْرَبُ
+  - near: ش ه ر B003 kılıcı kınından çekip görünür hâle getirme / شَهْر السيف وإظهاره ← 5:2 ٱلشَّهْرَ
+  - near: ق ل د B003 kılıcı omuz askısıyla kuşanma / تقلد السيف وحمله على البدن ← 5:2 ٱلْقَلَٰٓئِدَ
+  - far: ق ر ب B010 kılıç kını veya deri dış kabı / قراب السيف ووعاؤه ← 5:27 قَرَّبَا
+  - far: ش ه ر B003 kılıcı kınından çekip görünür hâle getirme / شَهْر السيف وإظهاره ← 5:97 وَٱلشَّهْرَ
+
+## ر ء س (بِرُءُوسِكُمْ)
+
+- **B001** baş ve en üst bölüm / الرأس والأعلى
+  - same: ر ج ل B001 bacak uzvu / الرِّجل العضو ← 5:6 وَأَرْجُلَكُمْ
+  - same: و ج ه B001 yüz ve bir şeyin öne bakan yanı / الوجه والمستقبل ← 5:6 وُجُوهَكُمْ
+  - same: ك ع ب B009 talihin veya saygınlığın yükselmesi için dua / ارتفاع الجد والشرف ← 5:6 ٱلْكَعْبَيْنِ
+  - near: س و ي B013 başına denk mal ve bolluk / سِيّ الرأس وقدر يوازي الرأس من مال أو نعمة ← 5:12 سَوَآءَ
+  - near: س ج د B004 başı ve gövdeyi aşağı eğme veya yük altında yana yatma / طأطأة الرأس والانحناء ← 5:2 ٱلْمَسْجِدِ
+  - near: ق ل ل B002 bir şeyin tepesi veya başı / قُلَّة الشيء ورأسه ← 5:13 قَلِيلًا
+  - far: س و ي B013 başına denk mal ve bolluk / سِيّ الرأس وقدر يوازي الرأس من مال أو نعمة ← 5:60 سَوَآءِ
+  - far: ر ج ل B001 bacak uzvu / الرِّجل العضو ← 5:23 رَجُلَانِ
+- **B002** yalıtık adlandırmalar / الرئاسة والصدارة
+  - same: و ج ه B006 toplumsal itibar, yüksek mevki ve önde gelen kişi / الوجاهة والجاه ← 5:6 وُجُوهَكُمْ
+  - same: ر ج ل B002 erkek insan / الرجل الذكر ← 5:6 وَأَرْجُلَكُمْ
+  - same: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 5:6 قُمْتُمْ
+  - near: ء ك ل B011 bir başla doyacak kadar az topluluk / قلة الجماعة بقدر رأس ← 5:4 فَكُلُوا۟
+  - near: ن ق ب B007 topluluk temsilcisi ve güvencesi / النقيب عريف القوم وضامنهم ← 5:12 نَقِيبًا
+  - near: ء م م B009 öne konulan ve izlenen kılavuz / الإمام ومن يقتدى به ← 5:2 ءَآمِّينَ
+  - far: ك ب ر B005 saygınlık ve önderlikte yüksek konum / رفعة الشرف والرئاسة ← 5:82 يَسْتَكْبِرُونَ
+  - far: ع ر ف B006 topluluğu tanıyan ve işlerini gözeten görevli / عريف يعرف القوم وتعرف به أحوالهم ← 5:83 عَرَفُوا۟
+- **B003** selin çerçöpü toplayıp sürüklemesi / جمع السيل وحمله
+  - same: م س ح B020 kılıcı kınından çekme / استلال السيف من غمده ← 5:6 وَٱمْسَحُوا۟
+  - same: غ و ط B001 alçak ve çukur yer / اطمئنان وغور في الأرض ← 5:6 ٱلْغَآئِطِ
+  - same: ح ر ج B001 sıkıca toplanma ve iç içe geçme / التجمع والالتفاف ← 5:6 حَرَجٍ
+  - near: س ج د B001 alçalıp boyun eğme ve alnı yere koyma / التطامن والذل ← 5:2 ٱلْمَسْجِدِ
+  - near: ق ل ل B004 yük kaldırma, yükselme ve yola koyulma / الإقلال والاستقلال حملا ونهوضا ← 5:13 قَلِيلًا
+  - near: س م و B001 fiziksel ya da toplumsal yükselme / العلو والارتفاع ← 5:4 ٱسْمَ
+  - far: ج م ع B010 parçaları toplanıp tamamlanma / استجماع القوة أو السير حتى تتلاحق أجزاؤه ← 5:17 جَمِيعًا
+  - far: ق ر ء B001 — / جمع واجتماع ← 5:101 ٱلْقُرْءَانُ
+- **B004** işin veya sözün başlangıcı / رِئاس الأمر ومن رأسه
+  - same: و ج ه B008 sözün veya işin doğru yönü ve ona uygun düzenleme / وجه الأمر وصوابه ← 5:6 وُجُوهَكُمْ
+  - same: ر ج ل B019 işine bütün gücüyle sarılmak / القيام على رجل ← 5:6 وَأَرْجُلَكُمْ
+  - same: ر د د B001 geri dönme veya geri döndürme / الرجوع إلى الشيء أو رده إلى موضعه ← 5:6 يُرِيدُ
+  - near: ص د ر B002 ön, üst ya da başlangıç bölümü / المقدّم والأعلى والأول ← 5:7 ٱلصُّدُورِ
+  - near: ق ب ل B015 ilk elden veya yeniden başlama / ابتداء حاضر غير مهيأ ← 5:5 قَبْلِكُمْ
+  - near: س و ي B013 başına denk mal ve bolluk / سِيّ الرأس وقدر يوازي الرأس من مال أو نعمة ← 5:12 سَوَآءَ
+  - far: ص ي ر B002 bir işin sonuçlanma eşiği veya dağın başı / الطرف المشرف والرأس ← 5:18 ٱلْمَصِيرُ
+  - far: ب د و B003 görüş değişmesi / بدو رأي جديد ← 5:99 تُبْدُونَ
+- **B005** kılıcın kabzası / رِئاس السيف
+  - same: م س ح B020 kılıcı kınından çekme / استلال السيف من غمده ← 5:6 وَٱمْسَحُوا۟
+  - same: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 5:6 قُمْتُمْ
+  - same: ي د ي B013 bir nesnenin tutacağı, ucu ya da uzantısı / يَد الشيء ← 5:6 وَأَيْدِيَكُمْ
+  - near: ء خ ذ B012 kancalı aracın tutamağı / مقبض الشيء المأخوذ به ← 5:5 مُتَّخِذِىٓ
+  - near: ش ه ر B003 kılıcı kınından çekip görünür hâle getirme / شَهْر السيف وإظهاره ← 5:2 ٱلشَّهْرَ
+  - near: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 5:8 قَوَّٰمِينَ
+  - far: ء خ ذ B012 kancalı aracın tutamağı / مقبض الشيء المأخوذ به ← 5:14 أَخَذْنَا
+  - far: ش ه ر B003 kılıcı kınından çekip görünür hâle getirme / شَهْر السيف وإظهاره ← 5:97 وَٱلشَّهْرَ
+- **B006** yük sayıp yüz çevirerek değer vermemek / الرمي في الرأس
+  - same: و ج ه B014 yanına gelen kişiyi geri çevirmek / الرد عن الوجه ← 5:6 وُجُوهَكُمْ
+  - same: ر ج ل B004 birinin devrinde / زمان الرجل ← 5:6 وَأَرْجُلَكُمْ
+  - same: م ر ض B006 doğruya yaklaşmak ama ulaşamamak / مقاربة الإصابة دون بلوغها ← 5:6 مَّرْضَىٰٓ
+  - near: ز ل م B010 başını ya da burnunu kesmek / قطع الرأس أو الأنف ← 5:3 بِٱلْأَزْلَٰمِ
+  - near: س و ي B013 başına denk mal ve bolluk / سِيّ الرأس وقدر يوازي الرأس من مال أو نعمة ← 5:12 سَوَآءَ
+  - near: ه م م B010 saçı parmaklarla aralayıp yoklama / تخلل الشعر بالأصابع ← 5:11 هَمَّ
+  - far: ن ب ء B005 okun hedefi çizmeden başka yere düşmesi / السهم يعدل ولا يخدش ← 5:14 يُنَبِّئُهُمُ
+  - far: ز ل م B010 başını ya da burnunu kesmek / قطع الرأس أو الأنف ← 5:90 وَٱلْأَزْلَٰمُ
+
+## ر ج ل (وَأَرْجُلَكُمْ)
+
+- **B001** bacak uzvu / الرِّجل العضو
+  - same: ر ء س B001 baş ve en üst bölüm / الرأس والأعلى ← 5:6 بِرُءُوسِكُمْ
+  - same: ي د ي B001 el ve elin uğradığı bedensel durumlar / اليَد الجارحة ← 5:6 وَأَيْدِيَكُمْ
+  - same: ك ع ب B001 eklemdeki çıkıntılı kemik / نتو العظم وارتفاعه ← 5:6 ٱلْكَعْبَيْنِ
+  - near: ع ظ م B003 uzvun belirli kalın kesimi / مستغلظ العضو ← 5:9 عَظِيمٌ
+  - near: ي د ي B001 el ve elin uğradığı bedensel durumlar / اليَد الجارحة ← 5:11 أَيْدِيَهُمْ
+  - near: ع ق ب B002 topuk ve hemen arkasında kalan iz / مؤخر القدم والأثر ← 5:2 ٱلْعِقَابِ
+  - far: ق د م B001 ayak / القدم التي يطأ بها ← 5:80 قَدَّمَتْ
+  - far: ع ق ل B010 bir şeyi bükülmüş bacaklar arasında sıkıştırıp tutma / اعتقال بالرجلين ← 5:58 يَعْقِلُونَ
+- **B002** erkek insan / الرجل الذكر
+  - same: ن ع م B006 devekuşu / النعام والنعامة الطائر ← 5:6 نِعْمَتَهُۥ
+  - same: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 5:6 قُمْتُمْ
+  - same: م و ه B007 kaya kristali veya ayna / صفاء الماوية كالبلور والمرآة ← 5:6 مَآءً
+  - near: ذ ك ر B001 erkek cinsiyet ve erkek yavru doğurma / الذكر خلاف الأنثى ← 5:7 وَٱذْكُرُوا۟
+  - near: ن ق ب B010 övülesi özellik veya davranış / المنقبة خصلة كريمة ← 5:12 نَقِيبًا
+  - near: ه م م B013 birini değer ve yeterliğiyle öven kalıp / كفاية في المدح ← 5:11 هَمَّ
+  - far: ذ ك ر B001 erkek cinsiyet ve erkek yavru doğurma / الذكر خلاف الأنثى ← 5:14 ذُكِّرُوا۟
+  - far: ر م ح B007 erkek cinsel organı için silah benzetmeli örtmece / الرميح كناية عن الذكر ← 5:94 وَرِمَاحُكُمْ
+- **B003** yaya giden kişi / المشي على الأرجل
+  - same: ن ع م B012 birine yaya gitmek ve ayakları yürüyerek kullanmak / المشي على القدم وابتذالها ← 5:6 نِعْمَتَهُۥ
+  - same: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 5:6 قُمْتُمْ
+  - same: ي د ي B002 güç, yeterlik ve güçlendirme / اليَد القوّة ← 5:6 وَأَيْدِيَكُمْ
+  - near: ر د ي B002 atın özel hızlı gidişi, insanın tek ayaklı sekmesi ve karganın sekmesi / الترامي في العدو والقفز ← 5:3 وَٱلْمُتَرَدِّيَةُ
+  - near: ع م ل B012 yaya yolcular / بنو العمل من المشاة ← 5:5 عَمَلُهُۥ
+  - near: ن ع م B012 birine yaya gitmek ve ayakları yürüyerek kullanmak / المشي على القدم وابتذالها ← 5:7 نِعْمَةَ
+  - far: ع ق ل B010 bir şeyi bükülmüş bacaklar arasında sıkıştırıp tutma / اعتقال بالرجلين ← 5:58 يَعْقِلُونَ
+  - far: ه ل ك B003 salınarak ve kırıtılarak yürüme / تكسّر التهالك في المشي والغنج ← 5:17 يُهْلِكَ
+- **B004** birinin devrinde / زمان الرجل
+  - same: ك و ن B005 gençliğini anan yaşlı kişi / الشيخ المنسوب إلى كُنْتُ ← 5:6 كُنتُمْ
+  - same: و ج ه B014 yanına gelen kişiyi geri çevirmek / الرد عن الوجه ← 5:6 وُجُوهَكُمْ
+  - same: ي د ي B004 elinde bulunma, sahiplik ve denetim / اليَد المالكة ← 5:6 وَأَيْدِيَكُمْ
+  - near: ق ب ل B003 birinin tarafından veya nezdinde / جهة الشيء وعنده ← 5:5 قَبْلِكُمْ
+  - near: ج ن ن B014 bir şeyin ilk ve yeni dönemi / جن الشيء في بدايته ← 5:12 جَنَّٰتٍ
+  - near: ب ع د B007 aralikli gorusme / بعيدات بين ← 5:12 بَعْدَ
+  - far: ق ب ل B003 birinin tarafından veya nezdinde / جهة الشيء وعنده ← 5:27 فَتُقُبِّلَ
+  - far: ج ن ن B014 bir şeyin ilk ve yeni dönemi / جن الشيء في بدايته ← 5:65 جَنَّٰتِ
+- **B005** bir bacağı beyaz hayvan / بياض رجل الدابة
+  - same: ج ن ب B012 atın bacaklarında doğuştan ölçülü açıklık / التجنيب تباعد في هيئة القوائم ← 5:6 جُنُبًا
+  - same: م س ح B015 bedenin düzleşmiş veya etten eksilmiş bölümü / تسوية الجسد أو نقص لحمه ← 5:6 وَٱمْسَحُوا۟
+  - same: ج د د B013 cırcır böceği / دويبة الجُدجُد ← 5:6 تَجِدُوا۟
+  - near: و ك ل B005 hayvanın geride kalarak veya eşine dayanarak kötü yürümesi / تأخر الدابة واتكالها في السير ← 5:11 فَلْيَتَوَكَّلِ
+  - near: ق س ط B005 bacak eğriliği veya dikliği; uzuvlarda kuruyup sertleşme / اعوجاج الرجلين ويبسهما ← 5:8 بِٱلْقِسْطِ
+  - near: م س ك B011 at bacaklarının beyazlık dağılımını karşıt biçimde niteleme / إمساك قوائم الفرس ← 5:4 أَمْسَكْنَ
+  - far: خ م ر B008 gövdesinden farklı beyaz başlılık / بياض الرأس كالخمار ← 5:90 ٱلْخَمْرُ
+  - far: ج ن ب B012 atın bacaklarında doğuştan ölçülü açıklık / التجنيب تباعد في هيئة القوائم ← 5:90 فَٱجْتَنِبُوهُ
+- **B006** büyük çekirge sürüsü / الرَّجْل من الجراد
+  - same: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 5:6 قُمْتُمْ
+  - same: ك ع ب B006 katı yağ parçası / قطعة السمن الجامدة ← 5:6 ٱلْكَعْبَيْنِ
+  - same: ن ع م B006 devekuşu / النعام والنعامة الطائر ← 5:6 نِعْمَتَهُۥ
+  - near: ق ب ل B009 soy veya kuşak topluluğu / جماعة يقبل بعضها على بعض ← 5:5 قَبْلِكُمْ
+  - near: ء م م B004 ortak bağla birleşen topluluk veya tür / الأمة جماعة أو نوعا ← 5:2 ءَآمِّينَ
+  - near: ر ب ب B014 yaban sığırı sürüsü / رَبْرَب قطيع ← 5:2 رَّبِّهِمْ
+  - far: ف ر ق B005 ana bütünden ayrılmış topluluk / فرقة وفريق وقطيع منفصل ← 5:25 فَٱفْرُقْ
+  - far: ق ب ل B009 soy veya kuşak topluluğu / جماعة يقبل بعضها على بعض ← 5:27 فَتُقُبِّلَ
+- **B007** semizotu diye bilinen ot / الرِّجلة النبات
+  - same: ص ل ي B010 iri başaklı deve yemi bitkisi / الصِّليان نبت ترعاه الإبل ← 5:6 ٱلصَّلَوٰةِ
+  - same: ص ل و B009 iri başaklı, develerin otladığı bir bitki / الصِّليان نبت ترعاه الإبل ← 5:6 ٱلصَّلَوٰةِ
+  - same: ش ك ر B004 körpe sürgün ve ona benzetilen yeni oluşum / خروج الشكير والنبات الغض ← 5:6 تَشْكُرُونَ
+  - near: ر ب ب B012 belirli bir yeşil bitki türü / ربة نبات ← 5:2 رَّبِّهِمْ
+  - near: ص ل و B009 iri başaklı, develerin otladığı bir bitki / الصِّليان نبت ترعاه الإبل ← 5:12 ٱلصَّلَوٰةَ
+  - near: ع ق ب B015 bitkinin sararıp kurumaya yaklaşması / اصفرار النبت ويبس العود ← 5:2 ٱلْعِقَابِ
+  - far: ر ب ب B012 belirli bir yeşil bitki türü / ربة نبات ← 5:24 وَرَبُّكَ
+  - far: س ح ر B007 hayvanları semirten saplı bir ot / الإسحارة بقلة المال ← 5:110 سِحْرٌ
+- **B008** su akıntısı yatağı / رِجْلة الماء
+  - same: م س ح B012 saç lülesi ve saç tarayan kadın / ذوائب الشعر والماشطة ← 5:6 وَٱمْسَحُوا۟
+  - same: م و ه B001 su ve su adının biçim ailesi / الماء المعروف وأصل اسمه ← 5:6 مَآءً
+  - same: ج ي ء B003 — / مجتمع الماء في هبطة أو حول حصن ← 5:6 جَآءَ
+  - near: ء ت ي B004 su kanalı açmak ve akışı yönlendirmek / مجرى الماء وتسليك سبيله ← 5:5 أُوتُوا۟
+  - near: ذ ب ح B004 selin açtığı küçük su oluğu / مذابح الماء في الأرض ← 5:3 ذُبِحَ
+  - near: ص ح ب B007 suyun yüzünü yosun kaplaması / طُحلب يعلو الماء ← 5:10 أَصْحَٰبُ
+  - far: ذ ن ب B004 su yatağı ve vadinin son kesimi / مذانب المياه وأواخر الأودية ← 5:18 بِذُنُوبِكُم
+  - far: ن ص ر B007 uzaktan gelip su toplanma yerine ulaşan su yatağı / ناصرة الماء ← 5:14 نَصَٰرَىٰٓ
+- **B009** ayak benzetmeli özel adlar / رجل القوس والميسم
+  - same: ي د ي B013 bir nesnenin tutacağı, ucu ya da uzantısı / يَد الشيء ← 5:6 وَأَيْدِيَكُمْ
+  - same: ك ع ب B001 eklemdeki çıkıntılı kemik / نتو العظم وارتفاعه ← 5:6 ٱلْكَعْبَيْنِ
+  - same: ي م م B004 güvercin türü kuş / اليمام طير ← 5:6 فَتَيَمَّمُوا۟
+  - near: ر د ي B002 atın özel hızlı gidişi, insanın tek ayaklı sekmesi ve karganın sekmesi / الترامي في العدو والقفز ← 5:3 وَٱلْمُتَرَدِّيَةُ
+  - near: ي د ي B013 bir nesnenin tutacağı, ucu ya da uzantısı / يَد الشيء ← 5:11 أَيْدِيَهُمْ
+  - near: ق س و B006 yer ve dağ adları, kabile lakabı ve o dağda oturma / الأعلام والمواضع ← 5:13 قَٰسِيَةً
+  - far: غ ر ب B011 sağrı çukurları ve çok sıkı bağ / هيئة الغراب في الأعضاء والعقد ← 5:31 غُرَابًا
+  - far: ي د ي B013 bir nesnenin tutacağı, ucu ya da uzantısı / يَد الشيء ← 5:28 يَدَكَ
+- **B010** orta kıvırcıklıkta saç / الشعر الرَّجِل
+  - same: م س ح B012 saç lülesi ve saç tarayan kadın / ذوائب الشعر والماشطة ← 5:6 وَٱمْسَحُوا۟
+  - same: ط ي ب B003 tuvalet sonrası pisliği gidererek temizlenme / الاستطابة تطهير من الخبث ← 5:6 طَيِّبًا
+  - same: ر ء س B001 baş ve en üst bölüm / الرأس والأعلى ← 5:6 بِرُءُوسِكُمْ
+  - near: ع و ن B007 erkekte kasık kılları / عانة الرجل ← 5:2 وَتَعَاوَنُوا۟
+  - near: ش ع ر B001 bedensel kıl ve kılımsı ince tüylenme / الشَّعر النابت وما عليه زغب ← 5:2 شَعَٰٓئِرَ
+  - near: ص ح ب B006 kılı veya yünü üzerinde bırakılmış deri / أديم مُصحَب عليه الشعر ← 5:10 أَصْحَٰبُ
+  - far: ق ر ء B005 — / مثال الشعر وطريقته ← 5:101 ٱلْقُرْءَانُ
+  - far: ص ح ب B006 kılı veya yünü üzerinde bırakılmış deri / أديم مُصحَب عليه الشعر ← 5:29 أَصْحَٰبِ
+- **B011** hazırlıksız söylemek / الكلام المرتجل
+  - same: ت م م B005 konusmada takilma / ترديد التاء في الكلام ← 5:6 وَلِيُتِمَّ
+  - same: ر ء س B004 işin veya sözün başlangıcı / رِئاس الأمر ومن رأسه ← 5:6 بِرُءُوسِكُمْ
+  - same: و ج ه B009 yaşlanıp ömrünün son dönemine girmek / توجه الشيخ ← 5:6 وُجُوهَكُمْ
+  - near: ق ب ل B015 ilk elden veya yeniden başlama / ابتداء حاضر غير مهيأ ← 5:5 قَبْلِكُمْ
+  - near: ق و ل B001 söze dökme / إخراج القول بالنطق ← 5:7 قُلْتُمْ
+  - near: ت م م B005 konusmada takilma / ترديد التاء في الكلام ← 5:3 وَأَتْمَمْتُ
+  - far: ق ب ل B015 ilk elden veya yeniden başlama / ابتداء حاضر غير مهيأ ← 5:27 فَتُقُبِّلَ
+  - far: ف ع ل B004 uydurup düzme / افتعال مختلق ← 5:67 تَفْعَلْ
+- **B012** günün yükselip aydınlığın yayılması / ترجل النهار
+  - same: ق و م B017 güneşin tam tepede olduğu öğle ortası / انتصاف النهار وقائم الظهيرة ← 5:6 قُمْتُمْ
+  - same: و ج ه B007 günün başı, ilk saatleri / وجه النهار وصدره ← 5:6 وُجُوهَكُمْ
+  - same: س ف ر B002 aydınlanıp belirginleşme / إسفار الضوء والوجه ← 5:6 سَفَرٍ
+  - near: ق و م B017 güneşin tam tepede olduğu öğle ortası / انتصاف النهار وقائم الظهيرة ← 5:8 قَوَّٰمِينَ
+  - near: ز ل م B012 dikilmek veya yükselmek / انتصاب الشيء وارتفاع النهار ← 5:3 بِٱلْأَزْلَٰمِ
+  - near: ش د د B005 günün ilerleyip yükselmesi / شد النهار وارتفاعه ← 5:2 شَدِيدُ
+  - far: ك ب ر B013 günün yükseldiği vakit / أكبر النهار ← 5:82 يَسْتَكْبِرُونَ
+  - far: ق و م B017 güneşin tam tepede olduğu öğle ortası / انتصاف النهار وقائم الظهيرة ← 5:14 ٱلْقِيَٰمَةِ
+- **B013** kuyuya iple indirilmeden inmek / نزول البئر بلا تدلية
+  - same: ج د د B010 otlak kuyusu / بئر في موضع كلأ ← 5:6 تَجِدُوا۟
+  - same: م س ح B020 kılıcı kınından çekme / استلال السيف من غمده ← 5:6 وَٱمْسَحُوا۟
+  - same: م و ه B002 suyun belirmesi, çoğalması, içeri girmesi veya bir şeyi doldurması / ظهور الماء ودخوله وكثرته ← 5:6 مَآءً
+  - near: ر د ي B003 düşerek ya da başka yolla ölme, yok olma veya yok etme / السقوط إلى الهلاك ← 5:3 وَٱلْمُتَرَدِّيَةُ
+  - near: ق ل ب B007 kaplanmamış kuyu / القليب البئر ← 5:13 قُلُوبَهُمْ
+  - near: ح ل ل B009 doğum olmadan memeye süt inmesi / إحلال اللبن ← 5:5 أُحِلَّ
+  - far: ق ع د B015 suya ulaşmadan bırakılan kuyu / البئر المقعدة قبل بلوغ الماء ← 5:24 قَٰعِدُونَ
+  - far: ق ل ب B007 kaplanmamış kuyu / القليب البئر ← 5:21 فَتَنقَلِبُوا۟
+- **B014** yavruyu annesiyle serbest bırakmak / إرسال الفصيل مع أمه
+  - same: ص ع د B005 yavrusunu yitirip önceki yavrusunu emziren dişi deve / ناقة صعود تعطف على ولد ← 5:6 صَعِيدًا
+  - same: ج ع ل B009 dişinin çiftleşmek için erkeği istemesi / اشتهاء الأنثى للفحل ← 5:6 لِيَجْعَلَ
+  - same: و ج ه B010 doğumda ellerin veya ön ayakların önce çıkması / الولادة باليدين أولا ← 5:6 وُجُوهَكُمْ
+  - near: ب س ط B008 yavrusuyla serbest bırakılan dişi deve / الناقة المخلاة مع ولدها ← 5:11 يَبْسُطُوٓا۟
+  - near: ذ ك و B006 üzerlerine öncü gözcüler göndermek / إرسال العيون ← 5:3 ذَكَّيْتُمْ
+  - near: ب ه م B004 küçük sürü yavruları / صغار الأنعام ← 5:1 بَهِيمَةُ
+  - far: س ن ن B002 dağılmadan, kolayca döküp yayma / صب سهل متصل ← 5:45 وَٱلسِّنَّ
+  - far: ل س ن B007 ödünç yavruyla dişi devenin sütünü indirtme / التلسين في إدرار الناقة ← 5:78 لِسَانِ
+- **B015** atın iki yürüyüşü karıştırması / ارتجال الفرس
+  - same: ج ن ب B012 atın bacaklarında doğuştan ölçülü açıklık / التجنيب تباعد في هيئة القوائم ← 5:6 جُنُبًا
+  - same: و ج ه B014 yanına gelen kişiyi geri çevirmek / الرد عن الوجه ← 5:6 وُجُوهَكُمْ
+  - same: ص ل ي B007 yarışta önderin hemen ardındaki ikinci at / المصلي يتلو السابق ← 5:6 ٱلصَّلَوٰةِ
+  - near: ب غ ي B007 atın koşarken çalımlı ve neşeli davranması / اختيال الفرس ومرحه في العدو ← 5:2 يَبْتَغُونَ
+  - near: ر د ي B002 atın özel hızlı gidişi, insanın tek ayaklı sekmesi ve karganın sekmesi / الترامي في العدو والقفز ← 5:3 وَٱلْمُتَرَدِّيَةُ
+  - near: ث ن ي B011 hareket ederken bedeni, boynu veya kalçayı bükme / تثن في المشية والعنق ← 5:12 ٱثْنَىْ
+  - far: ب غ ي B007 atın koşarken çalımlı ve neşeli davranması / اختيال الفرس ومرحه في العدو ← 5:35 وَٱبْتَغُوٓا۟
+  - far: ع ر ض B012 yana saparak ilerleme / السير عارضا وصعوبة الاستقامة ← 5:42 أَعْرِضْ
+- **B016** dik duran pişirme kazanı / المرجل المنصوب
+  - same: ص ل و B004 yakalamak için kurulan tuzak / الشرك المنصوبة ← 5:6 ٱلصَّلَوٰةِ
+  - same: م س ح B014 kaba dokuma örtü veya sert havlu / البلاس والمسح الخشن ← 5:6 وَٱمْسَحُوا۟
+  - same: ك ع ب B002 dörtgen ve yüksek yapı / البيت المربع المرتفع ← 5:6 ٱلْكَعْبَيْنِ
+  - near: ن ص ب B001 dikme, dik durma ve yükselme / إقامة الشيء منتصبا بارزا ← 5:3 ٱلنُّصُبِ
+  - near: ص ل و B004 yakalamak için kurulan tuzak / الشرك المنصوبة ← 5:12 ٱلصَّلَوٰةَ
+  - near: ق س ط B003 pay ve eşitçe paylaştırma / النصيب والقسمة ← 5:8 بِٱلْقِسْطِ
+  - far: ن ص ب B001 dikme, dik durma ve yükselme / إقامة الشيء منتصبا بارزا ← 5:90 وَٱلْأَنصَابُ
+  - far: ق د ر B007 pişirme kabı ve ona bağlı yemek, pişirme işi ve görevli sözleri / قدر الطبخ وما يدور حولها ← 5:17 قَدِيرٌ
+- **B017** koyunların art arda doğurması / الرجيلاء في الولادة
+  - same: و ج ه B010 doğumda ellerin veya ön ayakların önce çıkması / الولادة باليدين أولا ← 5:6 وُجُوهَكُمْ
+  - same: ص ل و B005 sırtın ortası ve kuyruk kökünün iki yanı / الصَّلا من الظهر والجنب ← 5:6 ٱلصَّلَوٰةِ
+  - same: ص ع د B005 yavrusunu yitirip önceki yavrusunu emziren dişi deve / ناقة صعود تعطف على ولد ← 5:6 صَعِيدًا
+  - near: ت ل و B006 anneyi izleyen yavru / ولد يتلو أمه ← 5:1 يُتْلَىٰ
+  - near: ر ح م B004 döl yatağı hastalığı ve doğum sonrası bozukluk / وجع الرَّحِم بعد الولادة ← 5:3 رَّحِيمٌ
+  - near: و ض ع B002 doğumla yükü bırakma ve özel gebe kalma zamanı / إلقاء الحمل بالولادة ← 5:13 مَّوَاضِعِهِۦ
+  - far: ت ل و B006 anneyi izleyen yavru / ولد يتلو أمه ← 5:27 وَٱتْلُ
+  - far: ل ب ب B011 koyun sürüsünün toplu gürültüsü / جلبة الغنم وأصواتها ← 5:100 ٱلْأَلْبَٰبِ
+- **B018** hayvanın biniciye ödetilmeyen vuruş zararı / الرِّجل جبار
+  - same: ج ن ب B005 yanında yönlendirerek götürme / التجنيب قيادة شيء إلى الجنب ← 5:6 جُنُبًا
+  - same: ط ي ب B002 aldatmasız ve antlaşmayı bozmadan tutsak alma / سبي طيبة لا غدر فيه ← 5:6 طَيِّبًا
+  - same: ش ك ر B002 azla yetinip belirgin biçimde gelişme / الكفاية باليسير وظهور أثره ← 5:6 تَشْكُرُونَ
+  - near: ح ك م B006 gemin çene çevresini kuşatan kısıtlayıcı parçası / حكمة اللجام ← 5:1 يَحْكُمُ
+  - near: ع م ل B010 iş gören beden parçası / الجارحة العاملة ← 5:5 عَمَلُهُۥ
+  - near: و ض ع B003 hayvanın hızlı ya da özel yürüyüşle ilerlemesi / حمل الدابة على العدو في السير ← 5:13 مَّوَاضِعِهِۦ
+  - far: ج ب ر B004 tazmin sorumluluğu doğurmayan zarar / هدر الجبار ← 5:22 جَبَّارِينَ
+  - far: ح ك م B006 gemin çene çevresini kuşatan kısıtlayıcı parçası / حكمة اللجام ← 5:38 حَكِيمٌ
+- **B019** işine bütün gücüyle sarılmak / القيام على رجل
+  - same: ج د د B008 şakadan uzak kararlı çaba / عزم واجتهاد ← 5:6 تَجِدُوا۟
+  - same: ق و م B003 bir işe kararlılıkla girişme / عزم ونهوض إلى الأمر ← 5:6 قُمْتُمْ
+  - same: م ر ض B003 hastaya özenle bakma / القيام على المريض ← 5:6 مَّرْضَىٰٓ
+  - near: ه م م B013 birini değer ve yeterliğiyle öven kalıp / كفاية في المدح ← 5:11 هَمَّ
+  - near: ق و م B003 bir işe kararlılıkla girişme / عزم ونهوض إلى الأمر ← 5:8 قَوَّٰمِينَ
+  - near: ت ل و B009 hakkında yalan söylemek / قول كذب على غيره ← 5:1 يُتْلَىٰ
+  - far: ح ز ب B003 kişinin başına gelen veya ona isabet eden iş / أمر يطرأ فيضغط ← 5:56 حِزْبَ
+  - far: ج م ع B013 bir işte başkasıyla birleşip destek olma / ممالأة واجتماع مع غيرك على أمر ← 5:17 جَمِيعًا
+- **B020** bir işe atılıp ilerlemek / ركوب الأمر بالرجلين
+  - same: ن ع م B012 birine yaya gitmek ve ayakları yürüyerek kullanmak / المشي على القدم وابتذالها ← 5:6 نِعْمَتَهُۥ
+  - same: ر ف ق B001 yumuşak, incelikli ve becerikli davranış / اللين ولطافة الفعل ← 5:6 ٱلْمَرَافِقِ
+  - same: و ج ه B014 yanına gelen kişiyi geri çevirmek / الرد عن الوجه ← 5:6 وُجُوهَكُمْ
+  - near: ص ح ب B003 boyun eğip uyumlu duruma gelme / الإصحاب والانقياد ← 5:10 أَصْحَٰبُ
+  - near: ن ع م B012 birine yaya gitmek ve ayakları yürüyerek kullanmak / المشي على القدم وابتذالها ← 5:7 نِعْمَةَ
+  - near: ر س ل B004 acele etmeden ölçülü ilerleme / الرفق والتؤدة ← 5:12 بِرُسُلِى
+  - far: ب ح ر B009 denize binmek ve denize nispetli olmak / ركوب البحر والنسبة إليه ← 5:96 ٱلْبَحْرِ
+  - far: ع ق ل B010 bir şeyi bükülmüş bacaklar arasında sıkıştırıp tutma / اعتقال بالرجلين ← 5:58 يَعْقِلُونَ
+
+## ك ع ب (ٱلْكَعْبَيْنِ)
+
+- **B001** eklemdeki çıkıntılı kemik / نتو العظم وارتفاعه
+  - same: ر ج ل B001 bacak uzvu / الرِّجل العضو ← 5:6 وَأَرْجُلَكُمْ
+  - same: ج ن ب B012 atın bacaklarında doğuştan ölçülü açıklık / التجنيب تباعد في هيئة القوائم ← 5:6 جُنُبًا
+  - same: م س ح B015 bedenin düzleşmiş veya etten eksilmiş bölümü / تسوية الجسد أو نقص لحمه ← 5:6 وَٱمْسَحُوا۟
+  - near: خ م ص B003 ayak tabanının iç kavsi / أخمص القدم الداخل ← 5:3 مَخْمَصَةٍ
+  - near: س ل م B010 parmak, ayak veya deve tırnağındaki küçük kemik / السلامى عظام ومفاصل ← 5:3 ٱلْإِسْلَٰمَ
+  - near: ع ق ب B002 topuk ve hemen arkasında kalan iz / مؤخر القدم والأثر ← 5:2 ٱلْعِقَابِ
+  - far: ق د م B001 ayak / القدم التي يطأ بها ← 5:80 قَدَّمَتْ
+  - far: س ل م B010 parmak, ayak veya deve tırnağındaki küçük kemik / السلامى عظام ومفاصل ← 5:16 ٱلسَّلَٰمِ
+- **B002** dörtgen ve yüksek yapı / البيت المربع المرتفع
+  - same: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 5:6 نِعْمَتَهُۥ
+  - same: ر ج ل B016 dik duran pişirme kazanı / المرجل المنصوب ← 5:6 وَأَرْجُلَكُمْ
+  - same: ص ع د B006 kendiliğinden düz mızraklık sırık / صعدة قناة مستقيمة ← 5:6 صَعِيدًا
+  - near: ب ن ي B003 Kabe, Allah'ın Evi veya Mekke için özel ad / البِنْية للبيت الحرام ومكة ← 5:12 بَنِىٓ
+  - near: ب ي ت B008 soylu hane / بيت الشرف ← 5:2 ٱلْبَيْتَ
+  - near: ح ر م B005 savaşın yasak sayıldığı kutsal ay dönemi / الشهر الحرام والسلم الزمني ← 5:3 حُرِّمَتْ
+  - far: ب ن ي B003 Kabe, Allah'ın Evi veya Mekke için özel ad / البِنْية للبيت الحرام ومكة ← 5:17 ٱبْنُ
+  - far: ب ي ت B008 soylu hane / بيت الشرف ← 5:97 ٱلْبَيْتَ
+- **B003** göğüslerin gelişip belirginleşmesi / نتوء الثدي وبلوغه
+  - same: ر و د B008 genc kiz veya genc ve guzel kadin / الجارية الرود الشابة ← 5:6 يُرِيدُ
+  - same: ص ع د B006 kendiliğinden düz mızraklık sırık / صعدة قناة مستقيمة ← 5:6 صَعِيدًا
+  - same: ج د د B011 susuz yer veya sütü kesilmiş dişi hayvan / انقطاع ماء أو لبن ← 5:6 تَجِدُوا۟
+  - near: ر و د B008 genc kiz veya genc ve guzel kadin / الجارية الرود الشابة ← 5:1 يُرِيدُ
+  - near: ج ر ي B004 genç kız ve ona bağlı genç kızlık çağı / الجارية من النساء وصباها ← 5:12 تَجْرِى
+  - near: خ د ن B002 cinsel istekle kurulan kadın erkek yakınlığı / مصاحبة الشهوة ← 5:5 أَخْدَانٍ
+  - far: ق ع د B011 dolu ya da dik duran biçim / الناتئ أو الممتلئ القاعد ← 5:24 قَٰعِدُونَ
+  - far: ح ل م B005 kene ve biçimce ona benzetilen meme ucu / الحلمة قرادة بارزة وشبهها ← 5:101 حَلِيمٌ
+- **B004** kumaşı sıkıca dörtgen katlama / التربيع والطي الشديد
+  - same: ط ي ب B008 biriyle şakalaşıp hoşça takılmak / المطايبة مزاح ← 5:6 طَيِّبًا
+  - same: ت م م B003 sert ve saglam / الشيء الصلب الشديد ← 5:6 وَلِيُتِمَّ
+  - same: ي د ي B014 geniş, bol ve rahat / اليَدِي الواسع ← 5:6 وَأَيْدِيَكُمْ
+  - near: ق س م B007 yalıtık adlandırmalar / طي القسامي أول الثوب ← 5:3 تَسْتَقْسِمُوا۟
+  - near: خ م ص B004 genellikle siyah, işaretli örtü / الخميصة الكساء الأسود المعلّم ← 5:3 مَخْمَصَةٍ
+  - near: ن ق ب B013 bağlı bel etekliği / نقبة الثوب كالإزار ← 5:12 نَقِيبًا
+  - far: ث و ب B003 giysi / الثوب والكسوة وما يكنى به عن النفس ← 5:60 مَثُوبَةً
+  - far: ق س م B007 yalıtık adlandırmalar / طي القسامي أول الثوب ← 5:53 أَقْسَمُوا۟
+- **B005** kamış veya mızrağın boğumlu bölümü / العقدة بين أنبوبي القصب والرمح
+  - same: ص ع د B006 kendiliğinden düz mızraklık sırık / صعدة قناة مستقيمة ← 5:6 صَعِيدًا
+  - same: ج ن ب B006 güneyden esen yel / الجنوب ريح من جهة مخصوصة ← 5:6 جُنُبًا
+  - same: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 5:6 قُمْتُمْ
+  - near: ع ق ب B001 bağlama ve kiriş yapımında kullanılan sert beyaz tendon / العَقَب الأبيض الشديد ← 5:2 ٱلْعِقَابِ
+  - near: ع م ل B009 mızrak ucunun alt bölümü / عامل الرمح ← 5:5 عَمَلُهُۥ
+  - near: ع ق د B001 uçları birleştirip düğümleme / شد الأطراف وربطها ← 5:1 بِٱلْعُقُودِ
+  - far: ع ق ب B001 bağlama ve kiriş yapımında kullanılan sert beyaz tendon / العَقَب الأبيض الشديد ← 5:98 ٱلْعِقَابِ
+  - far: ع م ل B009 mızrak ucunun alt bölümü / عامل الرمح ← 5:53 أَعْمَٰلُهُمْ
+- **B006** katı yağ parçası / قطعة السمن الجامدة
+  - same: م س ح B008 düz para veya gümüş parça / فضة ملساء ونقش ممحو ← 5:6 وَٱمْسَحُوا۟
+  - same: ج ع ل B012 kısa, şişman ve inatçı olma / قصر مع سمن ولجاج ← 5:6 لِيَجْعَلَ
+  - same: ر ج ل B006 büyük çekirge sürüsü / الرَّجْل من الجراد ← 5:6 وَأَرْجُلَكُمْ
+  - near: ر ب ب B006 koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به ← 5:2 رَّبِّهِمْ
+  - near: ج ع ل B012 kısa, şişman ve inatçı olma / قصر مع سمن ولجاج ← 5:13 وَجَعَلْنَا
+  - near: ه م م B003 eritme, erime ve eriyip akma / ذوب وجريان بعد جمود ← 5:11 هَمَّ
+  - far: ر ب ب B006 koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به ← 5:24 وَرَبُّكَ
+  - far: ء ث ر B009 eski yağ kalıntısı, yağ özü veya arınmış süt / بقية دسم قديم أو خلاصة سمن ← 5:46 ءَاثَٰرِهِم
+- **B007** bir şeyi doldurmak / ملء الشيء حتى يتمتلئ
+  - same: م س ح B020 kılıcı kınından çekme / استلال السيف من غمده ← 5:6 وَٱمْسَحُوا۟
+  - same: ر ف ق B009 suyun dolu, yerinde duran ve kalıcı olması / الامتلاء والثبات ← 5:6 ٱلْمَرَافِقِ
+  - same: ج ع ل B009 dişinin çiftleşmek için erkeği istemesi / اشتهاء الأنثى للفحل ← 5:6 لِيَجْعَلَ
+  - near: ز ل م B008 havuzu doldurmak / ملء الحوض ← 5:3 بِٱلْأَزْلَٰمِ
+  - near: ح ب ب B006 suyla dolmak veya doldurup dolulaştırmak / الري حتى الامتلاء ← 5:13 يُحِبُّ
+  - near: ط ل ع B007 bir alanı sınırına kadar doldurma; ayrı aktarımda güneşin gördüğü yeryüzü / امتلاء مستوعب ← 5:13 تَطَّلِعُ
+  - far: ز ل م B008 havuzu doldurmak / ملء الحوض ← 5:90 وَٱلْأَزْلَٰمُ
+  - far: ح ب ب B006 suyla dolmak veya doldurup dolulaştırmak / الري حتى الامتلاء ← 5:18 وَأَحِبَّٰٓؤُهُۥ
+- **B008** bozulmamış kızlık zarı / عذرة الجارية المختومة
+  - same: ر و د B008 genc kiz veya genc ve guzel kadin / الجارية الرود الشابة ← 5:6 يُرِيدُ
+  - same: ج ن ب B006 güneyden esen yel / الجنوب ريح من جهة مخصوصة ← 5:6 جُنُبًا
+  - same: ك و ن B004 boyun eğme / الخضوع بالاستكانة ← 5:6 كُنتُمْ
+  - near: ب ن ي B003 Kabe, Allah'ın Evi veya Mekke için özel ad / البِنْية للبيت الحرام ومكة ← 5:12 بَنِىٓ
+  - near: خ د ن B002 cinsel istekle kurulan kadın erkek yakınlığı / مصاحبة الشهوة ← 5:5 أَخْدَانٍ
+  - near: ج ر ي B004 genç kız ve ona bağlı genç kızlık çağı / الجارية من النساء وصباها ← 5:12 تَجْرِى
+  - far: ي ق ن B002 korunup gözden uzak tutulan genç kadın / صون الجارية وخدرها ← 5:50 يُوقِنُونَ
+  - far: ب ن ي B003 Kabe, Allah'ın Evi veya Mekke için özel ad / البِنْية للبيت الحرام ومكة ← 5:17 ٱبْنُ
+- **B009** talihin veya saygınlığın yükselmesi için dua / ارتفاع الجد والشرف
+  - same: ج د د B001 değer ve konum yüceliği / عظمة القدر وعلوه ← 5:6 تَجِدُوا۟
+  - same: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 5:6 ٱللَّهُ
+  - same: ص ع د B001 yukarı çıkma ve yükselme / ارتفاع وصعود إلى فوق ← 5:6 صَعِيدًا
+  - near: ع ظ م B010 şerefli ve saygın bir mevki edinme / الحرمة والشرف ← 5:9 عَظِيمٌ
+  - near: س م و B001 fiziksel ya da toplumsal yükselme / العلو والارتفاع ← 5:4 ٱسْمَ
+  - near: ب ي ت B008 soylu hane / بيت الشرف ← 5:2 ٱلْبَيْتَ
+  - far: ع ل و B002 saygınlıkta yüksek mevki / الرفعة والشرف ← 5:104 تَعَالَوْا۟
+  - far: ك ب ر B005 saygınlık ve önderlikte yüksek konum / رفعة الشرف والرئاسة ← 5:82 يَسْتَكْبِرُونَ
+- **B010** zarar vermek üzere umursamadan atılmak / انطلاق المضار غير المبالِي
+  - same: ح ر ج B012 savaştan ayrılmayan adam / لزوم القتال ← 5:6 حَرَجٍ
+  - same: ر و د B004 gidip gelme / التردد والاختلاف جيئة وذهابا ← 5:6 يُرِيدُ
+  - same: م ر ض B006 doğruya yaklaşmak ama ulaşamamak / مقاربة الإصابة دون بلوغها ← 5:6 مَّرْضَىٰٓ
+  - near: ك ذ ب B007 koşup arkasına bakmak için durmak / كذب الوحشي إذا جرى ثم وقف ← 5:10 وَكَذَّبُوا۟
+  - near: ض ر ر B002 zarar verme ve karşılıklı zararlaşma / المضارّة والضِّرار ← 5:3 ٱضْطُرَّ
+  - near: م و ت B010 bir işe kendini bütünüyle verme; savaşta ölümü göze alma / استماتة في الأمر والموت ← 5:3 ٱلْمَيْتَةُ
+  - far: ك ذ ب B007 koşup arkasına bakmak için durmak / كذب الوحشي إذا جرى ثم وقف ← 5:41 لِلْكَذِبِ
+  - far: ب ل و B007 önemsememe ve umursamama / عدم المبالاة وعدم الاكتراث ← 5:48 لِّيَبْلُوَكُمْ
+
+## ك و ن (كُنتُمْ, كُنتُم)
+
+- **B001** gerçekleşme, bulunma ve olma bildirimi / وقوع الشيء وحضوره في زمان
+  - same: و ج د B002 varlığa gelme, var olma ve var etme / ثبوت الشيء في الوجود ← 5:6 تَجِدُوا۟
+  - same: ر ج ل B004 birinin devrinde / زمان الرجل ← 5:6 وَأَرْجُلَكُمْ
+  - same: ج ي ء B001 — / المجيء والحصول ← 5:6 جَآءَ
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 5:5 ٱلْيَوْمَ
+  - near: ع د و B004 aşma, dışarıda bırakma ve öteye geçirme / المجاوزة والاستثناء والصرف ← 5:2 تَعْتَدُوا۟
+  - near: غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 5:5 غَيْرَ
+  - far: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 5:14 يَوْمِ
+  - far: و ج د B002 varlığa gelme, var olma ve var etme / ثبوت الشيء في الوجود ← 5:82 لَتَجِدَنَّ
+- **B002** bulunma yeri ve konum değeri / المكان والمكانة من الكون
+  - same: ق و م B006 bir yerde kalma ve kalınan yer / مقام وإقامة في موضع ← 5:6 قُمْتُمْ
+  - same: ء م ن B001 guven ve guvenilirlik / سكون القلب في أمن وثقة ← 5:6 ءَامَنُوٓا۟
+  - same: ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 5:6 نِعْمَتَهُۥ
+  - near: ق و م B006 bir yerde kalma ve kalınan yer / مقام وإقامة في موضع ← 5:8 قَوَّٰمِينَ
+  - near: ح ل ل B002 bir yere konup yerleşme / حلول المكان ← 5:5 أُحِلَّ
+  - near: و ض ع B001 bir şeyi indirip yerine koyma; konduğu yer / وضع الشيء في موضع أخفض أو مقرر ← 5:13 مَّوَاضِعِهِۦ
+  - far: ق و م B006 bir yerde kalma ve kalınan yer / مقام وإقامة في موضع ← 5:14 ٱلْقِيَٰمَةِ
+  - far: ح ل ل B002 bir yere konup yerleşme / حلول المكان ← 5:87 أَحَلَّ
+- **B003** birini güvenceyle üstlenme / الكفالة والقيام على فلان
+  - same: م ر ض B003 hastaya özenle bakma / القيام على المريض ← 5:6 مَّرْضَىٰٓ
+  - same: ر ج ل B019 işine bütün gücüyle sarılmak / القيام على رجل ← 5:6 وَأَرْجُلَكُمْ
+  - same: ج ع ل B009 dişinin çiftleşmek için erkeği istemesi / اشتهاء الأنثى للفحل ← 5:6 لِيَجْعَلَ
+  - near: ق ب ل B008 güvence ve sorumluluk üstlenme / ضمان الشيء والتكفل به ← 5:5 قَبْلِكُمْ
+  - near: ح س ب B003 gereksinimi karşılayacak kadar yetmek / الكفاية والإغناء ← 5:4 ٱلْحِسَابِ
+  - near: ت ل و B004 bağlı güvence ve talep / ذمة أو حق يتبع صاحبه ← 5:1 يُتْلَىٰ
+  - far: ق ب ل B008 güvence ve sorumluluk üstlenme / ضمان الشيء والتكفل به ← 5:27 فَتُقُبِّلَ
+  - far: ح س ب B003 gereksinimi karşılayacak kadar yetmek / الكفاية والإغناء ← 5:71 وَحَسِبُوٓا۟
+- **B004** boyun eğme / الخضوع بالاستكانة
+  - same: ص ل و B003 ayakta durma, eğilme ve yere kapanma bölümleri olan kurallı tapınma / العبادة المخصوصة ← 5:6 ٱلصَّلَوٰةِ
+  - same: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 5:6 يُرِيدُ
+  - same: ص ل ي B001 ayakta durma, eğilme ve yere kapanmalı yükümlü tapınma / الصلاة عبادة لازمة ← 5:6 ٱلصَّلَوٰةِ
+  - near: م و ت B013 gerçeğe boyun eğme / الخضوع للحق ← 5:3 ٱلْمَيْتَةُ
+  - near: س ج د B001 alçalıp boyun eğme ve alnı yere koyma / التطامن والذل ← 5:2 ٱلْمَسْجِدِ
+  - near: ك ف ر B014 eğilerek boyun eğme gösterisi / خضوع متطامن ← 5:5 يَكْفُرْ
+  - far: س ك ن B006 yoksulluk, güçsüzlük ve ezilmişlik / ذل المسكنة ← 5:89 مَسَٰكِينَ
+  - far: ذ ل ل B001 hor ve güçsüz duruma düşüp boyun eğme / الانكسار تحت القهر ← 5:54 أَذِلَّةٍ
+- **B005** gençliğini anan yaşlı kişi / الشيخ المنسوب إلى كُنْتُ
+  - same: ر ج ل B004 birinin devrinde / زمان الرجل ← 5:6 وَأَرْجُلَكُمْ
+  - same: و ج ه B009 yaşlanıp ömrünün son dönemine girmek / توجه الشيخ ← 5:6 وُجُوهَكُمْ
+  - same: ل م س B003 dokunma sözüyle cinsel birleşmeyi örtülü anlatma / كناية الجماع ← 5:6 لَٰمَسْتُمُ
+  - near: س و ي B005 gençlik olgunluğuna erişmek / بلوغ وتمام الشباب ← 5:12 سَوَآءَ
+  - near: ص ح ب B005 oğlunun büyüyüp babasına yoldaş olması / بلوغ الابن صاحبا ← 5:10 أَصْحَٰبُ
+  - near: ه م م B006 yaşlılıktan eriyip tükenmiş kimse / ذوب الكبر ← 5:11 هَمَّ
+  - far: س و ي B005 gençlik olgunluğuna erişmek / بلوغ وتمام الشباب ← 5:60 سَوَآءِ
+  - far: ق ف و B008 iyice yaşlanıp güçten düşmek / الرد على القفا في الهرم ← 5:46 وَقَفَّيْنَا
+- **B006** kötü durumda gece geçirme / حالة السوء بكينة
+  - same: و ج د B002 varlığa gelme, var olma ve var etme / ثبوت الشيء في الوجود ← 5:6 تَجِدُوا۟
+  - same: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 5:6 يُرِيدُ
+  - same: ء م ن B003 duada kabul istegi sozu / قول آمين طلبا للاستجابة ← 5:6 ءَامَنُوٓا۟
+  - near: س و ء B003 bedensel kusur veya hastalık / الآفة والبرص ← 5:12 سَيِّـَٔاتِكُمْ
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 5:5 ٱلْيَوْمَ
+  - near: ق ل د B005 kalıcı kötü damga yükleyen yergi / وسم السوء بالهجاء كقلادة لازمة ← 5:2 ٱلْقَلَٰٓئِدَ
+  - far: ء و ل B007 içinde bulunulan durum / آلة الحال التي يكون عليها الشيء ← 5:100 يَٰٓأُو۟لِى
+  - far: ب و ء B006 — / هيئة المقام والحال ← 5:29 تَبُوٓأَ
+
+## ج ن ب (جُنُبًا)
+
+- **B001** bedenin veya şeyin yanı ve bitişik çevresi / الجنب جانب الجسد وناحية الشيء
+  - same: و ج ه B001 yüz ve bir şeyin öne bakan yanı / الوجه والمستقبل ← 5:6 وُجُوهَكُمْ
+  - same: ر ف ق B006 hayvanda dirseğin gövdeye göre sapmış duruşu / انفتال المرفق عن الجنب ← 5:6 ٱلْمَرَافِقِ
+  - same: ج د د B006 su kıyısı / حافة الماء وساحله ← 5:6 تَجِدُوا۟
+  - near: ع د و B009 boyunca uzanan yan ve kıyı / العَداء والعُدوة في الجانب والطوار ← 5:2 تَعْتَدُوا۟
+  - near: ص ف ح B001 enine yüz, geniş yassı parça ve enli kılma / العرض والجانب ← 5:13 وَٱصْفَحْ
+  - near: ص د د B002 vadinin iki yanı / جانبان مائلان ← 5:2 صَدُّوكُمْ
+  - far: ج ن ح B002 kanat; bir şeyin yanı, kolu veya koruyucu tarafı / الجناح جانبا ويدا وكنفا ← 5:93 جُنَاحٌ
+  - far: ع د و B009 boyunca uzanan yan ve kıyı / العَداء والعُدوة في الجانب والطوار ← 5:14 ٱلْعَدَاوَةَ
+- **B002** yanında yakın bulunma ve eşlik etme / الجنب قرب ومجاورة على الجانب
+  - same: ر ف ق B006 hayvanda dirseğin gövdeye göre sapmış duruşu / انفتال المرفق عن الجنب ← 5:6 ٱلْمَرَافِقِ
+  - same: و ج ه B002 yön ve hedef; o yöne sevk etme veya yolu belli etme / الجهة والوجهة ← 5:6 وُجُوهَكُمْ
+  - same: ء م ن B002 dogru sayip kabul etme / تصديق يطمئن إليه القلب ← 5:6 ءَامَنُوٓا۟
+  - near: ق ر ب B015 böğür, bedenin yan bölgesi / قُرْب الفرس والخاصرة ← 5:8 أَقْرَبُ
+  - near: ع د و B009 boyunca uzanan yan ve kıyı / العَداء والعُدوة في الجانب والطوار ← 5:2 تَعْتَدُوا۟
+  - near: ب ع د B001 uzak olma / البعد عن القرب ← 5:12 بَعْدَ
+  - far: ق ر ب B015 böğür, bedenin yan bölgesi / قُرْب الفرس والخاصرة ← 5:27 قَرَّبَا
+  - far: و ل ي B001 aralıksız yakınlık / قرب ودنو بلا فاصل ← 5:43 يَتَوَلَّوْنَ
+- **B003** uzak durma veya uzaklaştırma / المجانبة إبعاد واعتزال وغربة
+  - same: ر د د B002 yönünden çevirip engelleme / صرف الشيء ودفعه ومنعه ← 5:6 يُرِيدُ
+  - same: ر ف ق B006 hayvanda dirseğin gövdeye göre sapmış duruşu / انفتال المرفق عن الجنب ← 5:6 ٱلْمَرَافِقِ
+  - same: ج ي ء B001 — / المجيء والغلبة بالمجيء ← 5:6 جَآءَ
+  - near: ب ع د B003 uzaklastirma / إحداث البعد والمباعدة ← 5:12 بَعْدَ
+  - near: ق ر ب B007 temas edip içine girecek ölçüde yaklaşma / مقاربة الشيء وملابسته ← 5:8 أَقْرَبُ
+  - near: ق ر ض B002 geçip bir yanda bırakmak / قطع المكان ومجاوزته إلى جانب ← 5:12 وَأَقْرَضْتُمُ
+  - far: غ ر ب B007 yurttan uzaklaşma ve uzaklaştırma / الغربة والبعد والتنحي ← 5:31 غُرَابًا
+  - far: ب ع د B003 uzaklastirma / إحداث البعد والمباعدة ← 5:32 بَعْدَ
+- **B005** yanında yönlendirerek götürme / التجنيب قيادة شيء إلى الجنب
+  - same: ش ك ر B002 azla yetinip belirgin biçimde gelişme / الكفاية باليسير وظهور أثره ← 5:6 تَشْكُرُونَ
+  - same: ر ف ق B006 hayvanda dirseğin gövdeye göre sapmış duruşu / انفتال المرفق عن الجنب ← 5:6 ٱلْمَرَافِقِ
+  - same: ر ج ل B018 hayvanın biniciye ödetilmeyen vuruş zararı / الرِّجل جبار ← 5:6 وَأَرْجُلَكُمْ
+  - near: و ك ل B005 hayvanın geride kalarak veya eşine dayanarak kötü yürümesi / تأخر الدابة واتكالها في السير ← 5:11 فَلْيَتَوَكَّلِ
+  - near: ق ر ب B013 yakında tutulan ve binmeye hazırlanan hayvan / الخيل والإبل المقربة ← 5:8 أَقْرَبُ
+  - near: ص ح ب B003 boyun eğip uyumlu duruma gelme / الإصحاب والانقياد ← 5:10 أَصْحَٰبُ
+  - far: ح ض ر B004 bineğin hızlı koşması veya koşturulması / عَدْو الدابة وإحضارها ← 5:106 حَضَرَ
+  - far: ع ر ض B012 yana saparak ilerleme / السير عارضا وصعوبة الاستقامة ← 5:42 أَعْرِضْ
+- **B006** güneyden esen yel / الجنوب ريح من جهة مخصوصة
+  - same: ن ع م B009 yumuşak esen nemli güney rüzgarı / النعامى ريح لينة ← 5:6 نِعْمَتَهُۥ
+  - same: و ج ه B002 yön ve hedef; o yöne sevk etme veya yolu belli etme / الجهة والوجهة ← 5:6 وُجُوهَكُمْ
+  - same: ك ع ب B008 bozulmamış kızlık zarı / عذرة الجارية المختومة ← 5:6 ٱلْكَعْبَيْنِ
+  - near: ن ع م B009 yumuşak esen nemli güney rüzgarı / النعامى ريح لينة ← 5:7 نِعْمَةَ
+  - near: ق ب ل B012 batı rüzgarının karşıtı olan rüzgar / ريح تقابل الدبور ← 5:5 قَبْلِكُمْ
+  - near: ق ر ض B002 geçip bir yanda bırakmak / قطع المكان ومجاوزته إلى جانب ← 5:12 وَأَقْرَضْتُمُ
+  - far: ن ع م B009 yumuşak esen nemli güney rüzgarı / النعامى ريح لينة ← 5:20 نِعْمَةَ
+  - far: ق ب ل B012 batı rüzgarının karşıtı olan rüzgar / ريح تقابل الدبور ← 5:27 فَتُقُبِّلَ
+- **B007** böğür bölgesini tutan ağrı veya hastalık / داء الجنب وأثره في البدن
+  - same: ر ف ق B006 hayvanda dirseğin gövdeye göre sapmış duruşu / انفتال المرفق عن الجنب ← 5:6 ٱلْمَرَافِقِ
+  - same: ش ك ر B005 şiddetlenip etkisini artırma / اشتداد الوقوع والهيجان ← 5:6 تَشْكُرُونَ
+  - same: ن ع م B009 yumuşak esen nemli güney rüzgarı / النعامى ريح لينة ← 5:6 نِعْمَتَهُۥ
+  - near: ق ل ب B011 yürekle ilişkili hastalık ve hastalık yokluğu kalıbı / داء القلب والقلبة ← 5:13 قُلُوبَهُمْ
+  - near: ن ق ب B002 deriyi içe doğru bozan yara / آفة تنقب الجلد والجوف ← 5:12 نَقِيبًا
+  - near: ء خ ذ B007 bedende bir durumun baş gösterip etkisini göstermesi / حال تأخذ في الجسم ← 5:5 مُتَّخِذِىٓ
+  - far: ب ح ر B014 sudan kanmayacak kadar susamak / اشتداد العطش مع عدم الرِّيّ ← 5:96 ٱلْبَحْرِ
+  - far: ر ء ي B009 akciğer ve ona gelen zarar / الرئة وما يصيبها ← 5:31 لِيُرِيَهُۥ
+- **B008** develerde sütün azalması veya tükenmesi / التجنيب قلة لبن الإبل
+  - same: ج د د B011 susuz yer veya sütü kesilmiş dişi hayvan / انقطاع ماء أو لبن ← 5:6 تَجِدُوا۟
+  - same: ش ك ر B003 dolup bollaşma / الامتلاء والغزر وكثرة اللبن ← 5:6 تَشْكُرُونَ
+  - same: ر ج ل B018 hayvanın biniciye ödetilmeyen vuruş zararı / الرِّجل جبار ← 5:6 وَأَرْجُلَكُمْ
+  - near: ح ل ل B009 doğum olmadan memeye süt inmesi / إحلال اللبن ← 5:5 أُحِلَّ
+  - near: ر س ل B006 bol ve sürekli gelen süt / اللبن والدر المتتابع ← 5:12 بِرُسُلِى
+  - near: ك ذ ب B006 sütün kesilmesi veya beklenenden önce tükenmesi / كذب لبن الناقة إذا ذهب ولم يدم ← 5:10 وَكَذَّبُوا۟
+  - far: ح ل ل B009 doğum olmadan memeye süt inmesi / إحلال اللبن ← 5:87 أَحَلَّ
+  - far: ر س ل B006 bol ve sürekli gelen süt / اللبن والدر المتتابع ← 5:15 رَسُولُنَا
+- **B009** çok miktarda iyilik veya kötülük / المجنب خير أو شر كثير
+  - same: م و ه B008 gönlünde suyu çok denilen, bazı aktarımlarda anlayışı kıt adam / كثرة ماء القلب على جهة البلادة ← 5:6 مَآءً
+  - same: غ س ل B003 çok çiftleştiği halde döllemeyen erkek damızlık / فحل يكثر الضراب ولا يلقح ← 5:6 فَٱغْسِلُوا۟
+  - same: ج ع ل B005 iş karşılığı belirlenen ücret veya ortaklaşa kararlaştırılan ödeme / أجر مجعول على عمل ← 5:6 لِيَجْعَلَ
+  - near: ق و ل B006 sözü üzerine alma / اجترار القول إلى النفس ← 5:7 قُلْتُمْ
+  - near: ر ب ب B013 bol ve toplanmış su / ماء رَبَب كثير ← 5:2 رَّبِّهِمْ
+  - near: و ع د B001 iyi ya da kötü bir şeyi yapacağını sözle bildirme / وعد يفتح رجاء الموعود بقول ← 5:9 وَعَدَ
+  - far: ش ر ر B001 iyinin karşıtı olan kötülük / الشَّرّ والسوء ← 5:60 بِشَرٍّ
+  - far: ل ق ي B007 iyilik ya da kötülükle karşılaşma / ما يلقاه المرء من خير أو شر ← 5:64 وَأَلْقَيْنَا
+- **B010** yazın kalan köklü küçük bitkiler / الجنبة نبت متوسط مستقل
+  - same: ش ك ر B004 körpe sürgün ve ona benzetilen yeni oluşum / خروج الشكير والنبات الغض ← 5:6 تَشْكُرُونَ
+  - same: ص ل و B009 iri başaklı, develerin otladığı bir bitki / الصِّليان نبت ترعاه الإبل ← 5:6 ٱلصَّلَوٰةِ
+  - same: ص ل ي B010 iri başaklı deve yemi bitkisi / الصِّليان نبت ترعاه الإبل ← 5:6 ٱلصَّلَوٰةِ
+  - near: ر ب ب B012 belirli bir yeşil bitki türü / ربة نبات ← 5:2 رَّبِّهِمْ
+  - near: ع ق د B005 sık ve köklü ağaçlık ya da otlak / كثافة الشجر والمرعى ← 5:1 بِٱلْعُقُودِ
+  - near: ج ن ن B011 bitkinin güçlenip boylanması ve sıklaşması / التفاف النبات واندفاعه ← 5:12 جَنَّٰتٍ
+  - far: ح ل م B007 kimliği tartışmalı bir mera bitkisi / نبتة تسمى الحلمة ← 5:101 حَلِيمٌ
+  - far: ر ب ب B012 belirli bir yeşil bitki türü / ربة نبات ← 5:24 وَرَبُّكَ
+- **B011** yanı koruyan kalkan veya örtü / المجنب وقاء إلى الجنب
+  - same: ء ي د B002 koruyucu engel / إياد واق ← 5:6 وَأَيْدِيَكُمْ
+  - same: ر ف ق B006 hayvanda dirseğin gövdeye göre sapmış duruşu / انفتال المرفق عن الجنب ← 5:6 ٱلْمَرَافِقِ
+  - same: و ج ه B001 yüz ve bir şeyin öne bakan yanı / الوجه والمستقبل ← 5:6 وُجُوهَكُمْ
+  - near: ج ن ن B008 koruyucu siper veya savaş donanımı / الجُنّة الواقية ← 5:12 جَنَّٰتٍ
+  - near: ص د د B012 kadın örtüsü / ستر المرأة ← 5:2 صَدُّوكُمْ
+  - near: ء ج ر B003 çevresi korkuluksuz açık dam / سطح بلا سترة ← 5:5 أُجُورَهُنَّ
+  - far: ج ن ن B008 koruyucu siper veya savaş donanımı / الجُنّة الواقية ← 5:65 جَنَّٰتِ
+  - far: ب ص ر B005 koruyucu savaş gereci / بصيرة السلاح ← 5:71 بَصِيرٌۢ
+- **B012** atın bacaklarında doğuştan ölçülü açıklık / التجنيب تباعد في هيئة القوائم
+  - same: ر ج ل B005 bir bacağı beyaz hayvan / بياض رجل الدابة ← 5:6 وَأَرْجُلَكُمْ
+  - same: ق و م B020 koyunun bacaklarını tutan hastalık / قوام في قوائم الشاة ← 5:6 قُمْتُمْ
+  - same: م س ح B015 bedenin düzleşmiş veya etten eksilmiş bölümü / تسوية الجسد أو نقص لحمه ← 5:6 وَٱمْسَحُوا۟
+  - near: ق س ط B005 bacak eğriliği veya dikliği; uzuvlarda kuruyup sertleşme / اعوجاج الرجلين ويبسهما ← 5:8 بِٱلْقِسْطِ
+  - near: ز ي ل B004 uylukların ayrık duruşu / تباعد ما بين الفخذين ← 5:13 تَزَالُ
+  - near: ج ن ف B002 bedensel yapıdaki eğrilik ve yan dengesizliği / ميل الخلقة واعوجاج الجسد ← 5:3 مُتَجَانِفٍ
+  - far: ف ر ق B007 beden yapısında doğuştan ayrıklık veya eşitsizlik / تباعد وافتراق في الخلقة ← 5:25 فَٱفْرُقْ
+  - far: ع ق ل B009 diz çarpışmasına yol açan bacak eğriliği veya hayvanlarda bacak hastalığı / العَقَل في الرجلين ← 5:58 يَعْقِلُونَ
+
+## ط ه ر (فَٱطَّهَّرُوا۟, لِيُطَهِّرَكُمْ)
+
+- **B001** kir ve kusurdan arınmışlık / النقاء وزوال الدنس
+  - same: غ س ل B001 suyla yıkayıp kirden arındırma / تطهير الشيء بإسالة الماء وإزالة الدرن ← 5:6 فَٱغْسِلُوا۟
+  - same: ط ي ب B003 tuvalet sonrası pisliği gidererek temizlenme / الاستطابة تطهير من الخبث ← 5:6 طَيِّبًا
+  - same: م ر ض B001 sağlıktan sapma ve güç kaybı / الخروج عن الصحة والاعتدال ← 5:6 مَّرْضَىٰٓ
+  - near: ز ك و B002 ahlaken arınıp düzgünleşme / الطهارة والصلاح ← 5:12 ٱلزَّكَوٰةَ
+  - near: س ل م B001 kusur ve zarardan uzak esenlik / السلامة والبراءة من الآفات ← 5:3 ٱلْإِسْلَٰمَ
+  - near: ط ي ب B003 tuvalet sonrası pisliği gidererek temizlenme / الاستطابة تطهير من الخبث ← 5:5 ٱلطَّيِّبَٰتُ
+  - far: ق د س B001 arınma, arıtma ve eksiklikten uzak sayma / الطهر والتنزيه ← 5:21 ٱلْمُقَدَّسَةَ
+  - far: ز ك و B002 ahlaken arınıp düzgünleşme / الطهارة والصلاح ← 5:55 ٱلزَّكَوٰةَ
+- **B002** adet kanamasının kesilmesi ve kanamasız dönem / طهر النساء من الحيض
+  - same: غ س ل B001 suyla yıkayıp kirden arındırma / تطهير الشيء بإسالة الماء وإزالة الدرن ← 5:6 فَٱغْسِلُوا۟
+  - same: ط ي ب B003 tuvalet sonrası pisliği gidererek temizlenme / الاستطابة تطهير من الخبث ← 5:6 طَيِّبًا
+  - same: ن س و B001 kadın topluluğunu bildiren ayrı biçimli çoğullar / جماعة النساء ← 5:6 ٱلنِّسَآءَ
+  - near: و ض ع B002 doğumla yükü bırakma ve özel gebe kalma zamanı / إلقاء الحمل بالولادة ← 5:13 مَّوَاضِعِهِۦ
+  - near: ز ك و B002 ahlaken arınıp düzgünleşme / الطهارة والصلاح ← 5:12 ٱلزَّكَوٰةَ
+  - near: ج ر ي B004 genç kız ve ona bağlı genç kızlık çağı / الجارية من النساء وصباها ← 5:12 تَجْرِى
+  - far: ق ر ء B003 — / قرء الحيض والطهر ← 5:101 ٱلْقُرْءَانُ
+  - far: ر ء ي B007 aybaşı sonu izi ve denetleme bezi / ترية الحيض ← 5:31 لِيُرِيَهُۥ
+- **B003** suyla veya eşdeğer bir araçla yıkanıp temizlenme / التطهر بالماء والغسل
+  - same: غ س ل B001 suyla yıkayıp kirden arındırma / تطهير الشيء بإسالة الماء وإزالة الدرن ← 5:6 فَٱغْسِلُوا۟
+  - same: ط ي ب B003 tuvalet sonrası pisliği gidererek temizlenme / الاستطابة تطهير من الخبث ← 5:6 طَيِّبًا
+  - same: ي م م B002 toprakla namaz temizliği / التيمم للصلاة بمسح الوجه واليدين بالتراب ← 5:6 فَتَيَمَّمُوا۟
+  - near: ط ي ب B003 tuvalet sonrası pisliği gidererek temizlenme / الاستطابة تطهير من الخبث ← 5:5 ٱلطَّيِّبَٰتُ
+  - near: ز ك و B002 ahlaken arınıp düzgünleşme / الطهارة والصلاح ← 5:12 ٱلزَّكَوٰةَ
+  - near: ق و م B007 başkasının yerini ve işlevini alma / نيابة وقيام مقام غيره ← 5:8 قَوَّٰمِينَ
+  - far: ط ي ب B003 tuvalet sonrası pisliği gidererek temizlenme / الاستطابة تطهير من الخبث ← 5:87 طَيِّبَٰتِ
+  - far: ق د س B005 yıkanıp arınmak için kullanılan kova / سطل التطهر ← 5:21 ٱلْمُقَدَّسَةَ
+- **B004** kendisi temiz, başkasını temizleyen su veya araç / الطهور الذي يطهر غيره
+  - same: غ س ل B002 yıkamada kullanılan su veya madde ile yıkanma yeri / ماء الغسل وما يغسل به أو فيه ← 5:6 فَٱغْسِلُوا۟
+  - same: ط ي ب B003 tuvalet sonrası pisliği gidererek temizlenme / الاستطابة تطهير من الخبث ← 5:6 طَيِّبًا
+  - same: م و ه B001 su ve su adının biçim ailesi / الماء المعروف وأصل اسمه ← 5:6 مَآءً
+  - near: ط ي ب B003 tuvalet sonrası pisliği gidererek temizlenme / الاستطابة تطهير من الخبث ← 5:5 ٱلطَّيِّبَٰتُ
+  - near: ص د د B010 tatlı sulu bir kuyunun adı / ماء مسمى ← 5:2 صَدُّوكُمْ
+  - near: ز ك و B002 ahlaken arınıp düzgünleşme / الطهارة والصلاح ← 5:12 ٱلزَّكَوٰةَ
+  - far: ق د س B005 yıkanıp arınmak için kullanılan kova / سطل التطهر ← 5:21 ٱلْمُقَدَّسَةَ
+  - far: ن ف س B008 yaşamı sürdüren, bol ve doyurucu su / ماء تقام به النفس ← 5:25 نَفْسِى
+- **B005** kötüden uzaklaşıp davranışını arındırma / تنزيه النفس والعمل عن القبيح
+  - same: ط ي ب B003 tuvalet sonrası pisliği gidererek temizlenme / الاستطابة تطهير من الخبث ← 5:6 طَيِّبًا
+  - same: ح ر ج B003 günah ve manevi suç / الإثم والتحرج ← 5:6 حَرَجٍ
+  - same: غ س ل B001 suyla yıkayıp kirden arındırma / تطهير الشيء بإسالة الماء وإزالة الدرن ← 5:6 فَٱغْسِلُوا۟
+  - near: ز ك و B002 ahlaken arınıp düzgünleşme / الطهارة والصلاح ← 5:12 ٱلزَّكَوٰةَ
+  - near: س ل م B001 kusur ve zarardan uzak esenlik / السلامة والبراءة من الآفات ← 5:3 ٱلْإِسْلَٰمَ
+  - near: ك ف ر B009 günah yükünü giderme / محو الإثم بتغطيته ← 5:5 يَكْفُرْ
+  - far: ق د س B001 arınma, arıtma ve eksiklikten uzak sayma / الطهر والتنزيه ← 5:21 ٱلْمُقَدَّسَةَ
+  - far: س ب ح B002 Tanrı'yı her türlü eksiklikten uzak sayma / التنزيه والتبرئة ← 5:116 سُبْحَٰنَكَ
+
+## م ر ض (مَّرْضَىٰٓ)
+
+- **B001** sağlıktan sapma ve güç kaybı / الخروج عن الصحة والاعتدال
+  - same: ق و م B008 düzgünlük, denge ve doğru yoldan sapmama / استقامة واعتدال واستواء ← 5:6 قُمْتُمْ
+  - same: ط ه ر B001 kir ve kusurdan arınmışlık / النقاء وزوال الدنس ← 5:6 فَٱطَّهَّرُوا۟
+  - same: ر د د B005 İslam'dan inkâra dönme / الردة والارتداد عن الدين ← 5:6 يُرِيدُ
+  - near: ض ر ر B001 zarar, eksilme ve kötü duruma düşme / الضُّرّ والنقص خلاف النفع ← 5:3 ٱضْطُرَّ
+  - near: س ل م B001 kusur ve zarardan uzak esenlik / السلامة والبراءة من الآفات ← 5:3 ٱلْإِسْلَٰمَ
+  - near: ر ض و B001 hoşnut olma ve kabul etme / الرضا خلاف السخط ← 5:3 وَرَضِيتُ
+  - far: ض ر ر B001 zarar, eksilme ve kötü duruma düşme / الضُّرّ والنقص خلاف النفع ← 5:42 يَضُرُّوكَ
+  - far: ع ر ض B007 sonradan ortaya çıkan kalıcı olmayan durum veya nitelik / العرض الطارئ الذي يعرض ثم يزول ← 5:42 أَعْرِضْ
+- **B003** hastaya özenle bakma / القيام على المريض
+  - same: ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 5:6 قُمْتُمْ
+  - same: ر ج ل B019 işine bütün gücüyle sarılmak / القيام على رجل ← 5:6 وَأَرْجُلَكُمْ
+  - same: م س ح B001 üzerinden geçirip silme / إمرار اليد على الشيء وإزالة أثره ← 5:6 وَٱمْسَحُوا۟
+  - near: غ ف ر B004 yaranın veya hastanın yeniden kötüleşmesi / نكس المرض أو الجرح ← 5:3 غَفُورٌ
+  - near: ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 5:8 قَوَّٰمِينَ
+  - near: ح س ن B002 bir şeyi güzelleştirme, işi iyi yapma veya başkasına iyilik etme / الإحسان فعل حسن ← 5:12 حَسَنًا
+  - far: م ث ل B012 hastalıktan sonra toparlanıp iyileşme / التماثل من العلة ← 5:31 مِثْلَ
+  - far: ع و د B005 hasta veya yas ziyareti / عيادة ومعادة وزيارة راجعة ← 5:95 عَادَ
+- **B004** işi gevşek bırakma ve çabada yetersiz kalma / إضعاف الأمر وقصور الحركة
+  - same: ح ر ج B012 savaştan ayrılmayan adam / لزوم القتال ← 5:6 حَرَجٍ
+  - same: ل م س B005 talep veya yakın gereksinim / اللُّماسة حاجة قريبة ← 5:6 لَٰمَسْتُمُ
+  - same: ج د د B008 şakadan uzak kararlı çaba / عزم واجتهاد ← 5:6 تَجِدُوا۟
+  - near: و ك ل B003 güçsüzlüğü yüzünden işini başkasına bırakıp aksatan kişi / العاجز الذي يكل أمره ← 5:11 فَلْيَتَوَكَّلِ
+  - near: ب غ ي B004 yaranın şişip bozulması veya içinde irin kalmış halde kapanması / فساد الجرح وتجاوزه ← 5:2 يَبْتَغُونَ
+  - near: و ض ع B011 karşılıklı anlaşma ve görüşme / مواضعة الأمر بين اثنين ← 5:13 مَّوَاضِعِهِۦ
+  - far: ق ط ع B020 gücü kesilmek / عجز وانقطاع عن فعل ← 5:33 تُقَطَّعَ
+  - far: ق ع د B009 hastalık yüzünden yürüyemez olma / الإقعاد والعجز عن النهوض ← 5:24 قَٰعِدُونَ
+- **B005** ışık ve berraklığın azalması / إظلام الشيء ونقص صفائه
+  - same: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 5:6 قُمْتُمْ
+  - same: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 5:6 نِعْمَتَهُۥ
+  - same: س ف ر B002 aydınlanıp belirginleşme / إسفار الضوء والوجه ← 5:6 سَفَرٍ
+  - near: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 5:8 قَوَّٰمِينَ
+  - near: ق س و B004 zamanın veya yolculuğun çetinliği / شدة الحال والزمان والسير ← 5:13 قَٰسِيَةً
+  - near: ج ن ن B002 gecenin karartıp örtmesi / غشيان الليل ← 5:12 جَنَّٰتٍ
+  - far: ظ ل م B003 haksizliga karsi yakinma ve geri istem / الظلامة وطلب الإنصاف ← 5:16 ٱلظُّلُمَٰتِ
+  - far: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 5:14 ٱلْقِيَٰمَةِ
+- **B006** doğruya yaklaşmak ama ulaşamamak / مقاربة الإصابة دون بلوغها
+  - same: و ج ه B008 sözün veya işin doğru yönü ve ona uygun düzenleme / وجه الأمر وصوابه ← 5:6 وُجُوهَكُمْ
+  - same: ح ر ج B012 savaştan ayrılmayan adam / لزوم القتال ← 5:6 حَرَجٍ
+  - same: ي م م B001 bilerek hedefe yönelme / قصد الشيء وتعمده ← 5:6 فَتَيَمَّمُوا۟
+  - near: ق ر ب B016 bir ölçü veya sınıra yaklaşık olma / القراب والمقاربة في المقدار ← 5:8 أَقْرَبُ
+  - near: ن ق ب B014 beklenmedik biçimde rastlamak / لقاء أو ورود على فجأة ← 5:12 نَقِيبًا
+  - near: م و ت B014 vurulmuş avın ölüp ölmediğini inceleme / استبانة موت الصيد ← 5:3 ٱلْمَيْتَةُ
+  - far: ص و ب B002 yanlışa karşı doğru olan / استقرار الصواب قبالة الخطأ ← 5:49 يُصِيبَهُم
+  - far: ق ر ب B016 bir ölçü veya sınıra yaklaşık olma / القراب والمقاربة في المقدار ← 5:27 قَرَّبَا
+
+## س ف ر (سَفَرٍ)
+
+- **B001** örtüyü kaldırıp açığa çıkarma / كشف الغطاء وإزالة الساتر
+  - same: م س ح B001 üzerinden geçirip silme / إمرار اليد على الشيء وإزالة أثره ← 5:6 وَٱمْسَحُوا۟
+  - same: غ س ل B001 suyla yıkayıp kirden arındırma / تطهير الشيء بإسالة الماء وإزالة الدرن ← 5:6 فَٱغْسِلُوا۟
+  - same: و ج ه B002 yön ve hedef; o yöne sevk etme veya yolu belli etme / الجهة والوجهة ← 5:6 وُجُوهَكُمْ
+  - near: ك ف ر B001 örtmek, kapatmak / ستر وتغطية ← 5:5 يَكْفُرْ
+  - near: ن ق ب B012 kadın yüz örtüsü / نقاب المرأة على وجهها ← 5:12 نَقِيبًا
+  - near: غ ف ر B001 koruyucu biçimde örtme / ستر يصون الشيء ويغطيه ← 5:3 غَفُورٌ
+  - far: خ م ر B001 örtme ve gizleme / الستر والتغطية ← 5:90 ٱلْخَمْرُ
+  - far: ك ف ر B001 örtmek, kapatmak / ستر وتغطية ← 5:17 كَفَرَ
+- **B002** aydınlanıp belirginleşme / إسفار الضوء والوجه
+  - same: و ج ه B007 günün başı, ilk saatleri / وجه النهار وصدره ← 5:6 وُجُوهَكُمْ
+  - same: ر ج ل B012 günün yükselip aydınlığın yayılması / ترجل النهار ← 5:6 وَأَرْجُلَكُمْ
+  - same: ق و م B017 güneşin tam tepede olduğu öğle ortası / انتصاف النهار وقائم الظهيرة ← 5:6 قُمْتُمْ
+  - near: ن ه ر B002 şafaktan gün batımına aydınlık gündüz / انفتاح النهار بالضياء ← 5:12 ٱلْأَنْهَٰرُ
+  - near: ذ ك و B005 güneşin özel adı / ضوء ذكاء ← 5:3 ذَكَّيْتُمْ
+  - near: ن ق ض B002 yolculukların gücünü tükettiği deve / بعير أنهكته الأسفار ← 5:13 نَقْضِهِم
+  - far: ص ب ح B001 günün ilk aydınlığı / الصبح وأول النهار ← 5:30 فَأَصْبَحَ
+  - far: س ح ر B004 tan ağarmadan önceki son gece dilimi / السَّحَر وقت الليل ← 5:110 سِحْرٌ
+- **B003** yolculuğa çıkıp mesafe katetme / الخروج في السفر والمسافرون
+  - same: ر ف ق B002 yolculukta birlikte giden kişi ya da topluluk / الصحبة والمرافقة ← 5:6 ٱلْمَرَافِقِ
+  - same: م س ح B011 yol alıp araziyi aşma / قطع الأرض سيرا ← 5:6 وَٱمْسَحُوا۟
+  - same: و ج ه B002 yön ve hedef; o yöne sevk etme veya yolu belli etme / الجهة والوجهة ← 5:6 وُجُوهَكُمْ
+  - near: ن ق ض B002 yolculukların gücünü tükettiği deve / بعير أنهكته الأسفار ← 5:13 نَقْضِهِم
+  - near: ع م ل B012 yaya yolcular / بنو العمل من المشاة ← 5:5 عَمَلُهُۥ
+  - near: س ب ل B002 yol kullanan kişi veya yolcu / أهل الطريق وسالكوه ← 5:12 ٱلسَّبِيلِ
+  - far: ق د م B005 yolculuktan dönüş / القدوم من السفر ← 5:80 قَدَّمَتْ
+  - far: ع م ل B012 yaya yolcular / بنو العمل من المشاة ← 5:53 أَعْمَٰلُهُمْ
+- **B004** yazılı kitap ve yazıcılık alanı / الكتاب يكشف المكتوب
+  - same: ر ف ق B002 yolculukta birlikte giden kişi ya da topluluk / الصحبة والمرافقة ← 5:6 ٱلْمَرَافِقِ
+  - same: ص ل ي B002 iyilik dileme; özneye göre esirgeme, övme veya aklama / الدعاء والبركة والرحمة ← 5:6 ٱلصَّلَوٰةِ
+  - same: ن س و B001 kadın topluluğunu bildiren ayrı biçimli çoğullar / جماعة النساء ← 5:6 ٱلنِّسَآءَ
+  - near: ك ت ب B002 yazma ve yazılı metin / نظم الحروف واسم المكتوب ← 5:5 ٱلْكِتَٰبَ
+  - near: ن ق ض B002 yolculukların gücünü tükettiği deve / بعير أنهكته الأسفار ← 5:13 نَقْضِهِم
+  - near: ص ف ح B003 sayfa sayfa veya kişi kişi gözden geçirme / تقليب الصفحات والتفقد ← 5:13 وَٱصْفَحْ
+  - far: ك ت ب B002 yazma ve yazılı metin / نظم الحروف واسم المكتوب ← 5:15 ٱلْكِتَٰبِ
+  - far: و ق ع B011 belgeye sonradan eklenen not / توقيع الكتاب وأثره ← 5:91 يُوقِعَ
+
+## ج ي ء (جَآءَ)
+
+- **B001** — / المجيء والحصول
+  - same: ر و د B004 gidip gelme / التردد والاختلاف جيئة وذهابا ← 5:6 يُرِيدُ
+  - same: ك و ن B001 gerçekleşme, bulunma ve olma bildirimi / وقوع الشيء وحضوره في زمان ← 5:6 كُنتُمْ
+  - same: ء ح د B005 tek başına kalma ve birer birer gelme / الانفراد والتفرق آحادا ← 5:6 أَحَدٌ
+  - near: ء ت ي B001 gelmek, ulaşmak / الإتيان والمجيء ← 5:5 أُوتُوا۟
+  - near: ط ل ع B011 kusmak ve kusmuk / قيء يطلع ← 5:13 تَطَّلِعُ
+  - near: ء ك ل B013 yemek yenilen kap veya yer / وعاء الأكل وموضعه ← 5:4 فَكُلُوا۟
+  - far: ء ت ي B001 gelmek, ulaşmak / الإتيان والمجيء ← 5:20 وَءَاتَىٰكُم
+  - far: ن ب ء B001 bir yerden başka bir yere geçip belirme / الإتيان من مكان إلى مكان ← 5:14 يُنَبِّئُهُمُ
+- **B002** — / المغالبة بكثرة المجيء
+  - same: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 5:6 يُرِيدُ
+  - same: ء ح د B005 tek başına kalma ve birer birer gelme / الانفراد والتفرق آحادا ← 5:6 أَحَدٌ
+  - same: ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 5:6 نِعْمَتَهُۥ
+  - near: ء ت ي B001 gelmek, ulaşmak / الإتيان والمجيء ← 5:5 أُوتُوا۟
+  - near: ر ض و B005 karşılıklı çekişmede üstün gelme / راضاني فرضوته غلبة في ذلك ← 5:3 وَرَضِيتُ
+  - near: غ ف ر B008 bütün topluluğun kalabalık ve eksiksiz gelişi / جماء الغفير: الجماعة كلها ← 5:3 غَفُورٌ
+  - far: ج ز ي B005 karşılık vermede üstün gelme / الغلبة في المجازاة ← 5:29 جَزَٰٓؤُا۟
+  - far: س ع ي B008 aynı uğraşta rakibini yenme / مغالبة في السعي ← 5:33 وَيَسْعَوْنَ
+- **B003** — / مجتمع الماء في هبطة أو حول حصن
+  - same: م و ه B001 su ve su adının biçim ailesi / الماء المعروف وأصل اسمه ← 5:6 مَآءً
+  - same: ر ج ل B008 su akıntısı yatağı / رِجْلة الماء ← 5:6 وَأَرْجُلَكُمْ
+  - same: ح ر ج B001 sıkıca toplanma ve iç içe geçme / التجمع والالتفاف ← 5:6 حَرَجٍ
+  - near: ء خ ذ B006 su tutan çukur veya havuz / موضع يمسك الماء ← 5:5 مُتَّخِذِىٓ
+  - near: خ ب ر B002 gevşek, alçak ve su tutan arazi veya su birikintisi / لين الأرض ومائها ← 5:8 خَبِيرٌۢ
+  - near: ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 5:7 عَلِيمٌۢ
+  - far: ء ج ل B007 su biriktiren havuz ve suyun toplanması / المَأْجَل حوض يجتمع فيه الماء ← 5:32 أَجْلِ
+  - far: ء خ ذ B006 su tutan çukur veya havuz / موضع يمسك الماء ← 5:14 أَخَذْنَا
+- **B004** — / الإتيان بالشيء واستحضاره
+  - same: و ج ه B014 yanına gelen kişiyi geri çevirmek / الرد عن الوجه ← 5:6 وُجُوهَكُمْ
+  - same: ك و ن B001 gerçekleşme, bulunma ve olma bildirimi / وقوع الشيء وحضوره في زمان ← 5:6 كُنتُمْ
+  - same: ج ع ل B001 bir şeyi yapıp var etme / إحداث الشيء وصنعه ← 5:6 لِيَجْعَلَ
+  - near: ء ت ي B002 vermek; getirip sunmak / الإيتاء والإعطاء ← 5:5 أُوتُوا۟
+  - near: ذ ك ر B003 akılda tutma ve yeniden hatırlama / استحضار الشيء بعد النسيان أو مع الحفظ ← 5:7 وَٱذْكُرُوا۟
+  - near: ش ن ء B003 belirli yapılarda kabul etme veya aradan çıkarma / إقرار الحق وإخراجه ← 5:8 شَنَـَٔانُ
+  - far: ء ت ي B002 vermek; getirip sunmak / الإيتاء والإعطاء ← 5:20 وَءَاتَىٰكُم
+  - far: ش ي ء B003 — / حمل الشيء إلى الأمر ← 5:17 شَيْـًٔا
+- **B005** — / الإلجاء والاضطرار
+  - same: ر و د B004 gidip gelme / التردد والاختلاف جيئة وذهابا ← 5:6 يُرِيدُ
+  - same: ج ع ل B001 bir şeyi yapıp var etme / إحداث الشيء وصنعه ← 5:6 لِيَجْعَلَ
+  - same: ح ر ج B002 şiddetli darlık ve sıkışmışlık / الضيق والحرج ← 5:6 حَرَجٍ
+  - near: ض ر ر B003 zorunluluk ve mecbur kalma / الضرورة والاضطرار ← 5:3 ٱضْطُرَّ
+  - near: ك ف ر B007 itaatsizliğe zorlamak / إلجاء إلى العصيان ← 5:5 يَكْفُرْ
+  - near: ع ق د B017 boynunu yöneltip birine sığınma / لجأ بعنقه ← 5:1 بِٱلْعُقُودِ
+  - far: ش ي ء B003 — / حمل الشيء إلى الأمر ← 5:17 شَيْـًٔا
+  - far: ض ر ر B003 zorunluluk ve mecbur kalma / الضرورة والاضطرار ← 5:42 يَضُرُّوكَ
+- **B006** — / الجائية من الجراح
+  - same: ر ج ل B006 büyük çekirge sürüsü / الرَّجْل من الجراد ← 5:6 وَأَرْجُلَكُمْ
+  - same: ح ر ج B001 sıkıca toplanma ve iç içe geçme / التجمع والالتفاف ← 5:6 حَرَجٍ
+  - same: ق و م B019 bir beden bölümünün kişiye ağrı vermesi / وجع قائم بالعضو ← 5:6 قُمْتُمْ
+  - near: ج ر ح B001 deriyi yaralama ve oluşan yara / شق الجلد وإحداث الجرح ← 5:4 ٱلْجَوَارِحِ
+  - near: ج ر ي B004 genç kız ve ona bağlı genç kızlık çağı / الجارية من النساء وصباها ← 5:12 تَجْرِى
+  - near: ء ت ي B008 ödenen vergi; rüşvet / الإتاوة المؤداة ← 5:5 أُوتُوا۟
+  - far: ن ك ر B005 kanlı ya da irinli bedensel akıntı / النُّكْرة الخارجة من الجوف ← 5:79 مُّنكَرٍ
+  - far: ح ض ر B008 yarada biriken irin veya doğum sonrası atılan eş / اجتماع الفضلات في الجرح والسلى ← 5:106 حَضَرَ
+
+## ج ي ء (جَآءَ)
+
+- **B001** — / المجيء والغلبة بالمجيء
+  - same: ء ح د B005 tek başına kalma ve birer birer gelme / الانفراد والتفرق آحادا ← 5:6 أَحَدٌ
+  - same: ن ع م B010 daha da artırmak veya ileri dereceye götürmek / زاد وأنعم في الفعل ← 5:6 نِعْمَتَهُۥ
+  - same: و ج ه B014 yanına gelen kişiyi geri çevirmek / الرد عن الوجه ← 5:6 وُجُوهَكُمْ
+  - near: ء ت ي B001 gelmek, ulaşmak / الإتيان والمجيء ← 5:5 أُوتُوا۟
+  - near: ع ش ر B005 onar onar gelme / عشرة عشرة ← 5:12 عَشَرَ
+  - near: غ ف ر B008 bütün topluluğun kalabalık ve eksiksiz gelişi / جماء الغفير: الجماعة كلها ← 5:3 غَفُورٌ
+  - far: ء ت ي B001 gelmek, ulaşmak / الإتيان والمجيء ← 5:20 وَءَاتَىٰكُم
+  - far: ج ز ي B005 karşılık vermede üstün gelme / الغلبة في المجازاة ← 5:29 جَزَٰٓؤُا۟
+- **B002** — / الجِيأة مجتمع الماء
+  - same: م و ه B001 su ve su adının biçim ailesi / الماء المعروف وأصل اسمه ← 5:6 مَآءً
+  - same: ج د د B006 su kıyısı / حافة الماء وساحله ← 5:6 تَجِدُوا۟
+  - same: غ س ل B002 yıkamada kullanılan su veya madde ile yıkanma yeri / ماء الغسل وما يغسل به أو فيه ← 5:6 فَٱغْسِلُوا۟
+  - near: ء خ ذ B006 su tutan çukur veya havuz / موضع يمسك الماء ← 5:5 مُتَّخِذِىٓ
+  - near: ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 5:7 عَلِيمٌۢ
+  - near: خ ب ر B002 gevşek, alçak ve su tutan arazi veya su birikintisi / لين الأرض ومائها ← 5:8 خَبِيرٌۢ
+  - far: ء ج ل B007 su biriktiren havuz ve suyun toplanması / المَأْجَل حوض يجتمع فيه الماء ← 5:32 أَجْلِ
+  - far: ء خ ذ B006 su tutan çukur veya havuz / موضع يمسك الماء ← 5:14 أَخَذْنَا
+- **B003** — / جائية الجراح
+  - same: ح ر ج B001 sıkıca toplanma ve iç içe geçme / التجمع والالتفاف ← 5:6 حَرَجٍ
+  - same: ر ج ل B006 büyük çekirge sürüsü / الرَّجْل من الجراد ← 5:6 وَأَرْجُلَكُمْ
+  - same: ق و م B019 bir beden bölümünün kişiye ağrı vermesi / وجع قائم بالعضو ← 5:6 قُمْتُمْ
+  - near: ج ر ح B001 deriyi yaralama ve oluşan yara / شق الجلد وإحداث الجرح ← 5:4 ٱلْجَوَارِحِ
+  - near: ء ت ي B008 ödenen vergi; rüşvet / الإتاوة المؤداة ← 5:5 أُوتُوا۟
+  - near: ح ر ف B005 yara ölçme aracı, karşılaştırma ve ölçülü karşılık / تقدير الجراحة بالمحراف ← 5:13 يُحَرِّفُونَ
+  - far: ح ض ر B008 yarada biriken irin veya doğum sonrası atılan eş / اجتماع الفضلات في الجرح والسلى ← 5:106 حَضَرَ
+  - far: ن ك ر B005 kanlı ya da irinli bedensel akıntı / النُّكْرة الخارجة من الجوف ← 5:79 مُّنكَرٍ
+
+## ء ح د (أَحَدٌ)
+
+- **B001** tek ve eşi olmayan olma / الأَحَدِيَّة والوَحْدَة
+  - same: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 5:6 ٱللَّهُ
+  - same: ج ع ل B001 bir şeyi yapıp var etme / إحداث الشيء وصنعه ← 5:6 لِيَجْعَلَ
+  - same: ء ي د B001 güç ve güçlendirme / قوة مؤيدة ← 5:6 وَأَيْدِيَكُمْ
+  - near: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 5:7 ٱللَّهِ
+  - near: ع د و B003 düşmanlık ve düşman / العَدُوّ والعداوة ← 5:2 تَعْتَدُوا۟
+  - near: ر ب ب B001 sahip olup yönetme / ربوبية وملك وسيادة ← 5:2 رَّبِّهِمْ
+  - far: و ح د B002 bir sayısı, birer birerlik ve tek parça / الواحد في العدد والآحاد ← 5:48 وَٰحِدَةً
+  - far: و ل ي B008 daha uygun ve hak sahibi olma / الأولوية والاستحقاق ← 5:43 يَتَوَلَّوْنَ
+- **B002** hiç kimse / استغراق النفي
+  - same: ص ع د B008 uzunlukça veya derecede yukarı artış / زيادة وعلو إلى فوق ← 5:6 صَعِيدًا
+  - same: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 5:6 قُمْتُمْ
+  - same: و ج ه B014 yanına gelen kişiyi geri çevirmek / الرد عن الوجه ← 5:6 وُجُوهَكُمْ
+  - near: ض ر ر B008 belirli olumsuz kalıplarda daha fazlasını sağlamamak / النفي بمعنى عدم الزيادة ← 5:3 ٱضْطُرَّ
+  - near: غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 5:5 غَيْرَ
+  - near: ع م ل B001 bilerek yapılan iş veya eylem / الفعل المقصود والعمل ← 5:5 عَمَلُهُۥ
+  - far: ن ف خ B005 evde hiç kimse olmaması / ما بالدار نافخ ضرمة ← 5:110 فَتَنفُخُ
+  - far: ض ر ر B008 belirli olumsuz kalıplarda daha fazlasını sağlamamak / النفي بمعنى عدم الزيادة ← 5:42 يَضُرُّوكَ
+- **B003** bir sayısı, onlu kuruluşları ve on bire çıkarma / الواحد في العد والتركيب
+  - same: ج ع ل B002 birini veya şeyi belirli bir duruma getirme / تصيير الشيء على حال ← 5:6 لِيَجْعَلَ
+  - same: ي د ي B016 birlik içinde destek ve koruma / اليَد الناصرة ← 5:6 وَأَيْدِيَكُمْ
+  - same: ت م م B004 suresi veya miktari dolma / بلوغ الأجل والمقدار ← 5:6 وَلِيُتِمَّ
+  - near: ع ش ر B001 on ve yirmi sayı adları / عدد العشرة ← 5:12 عَشَرَ
+  - near: ث ن ي B001 iki olma, ikiye çıkarma veya ikili oluşturma / ضم واحد إلى واحد وجعلهما اثنين ← 5:12 ٱثْنَىْ
+  - near: ح س ب B001 sayarak nicelik belirleme / العد والحساب ← 5:4 ٱلْحِسَابِ
+  - far: و ح د B002 bir sayısı, birer birerlik ve tek parça / الواحد في العدد والآحاد ← 5:48 وَٰحِدَةً
+  - far: ع ش ر B001 on ve yirmi sayı adları / عدد العشرة ← 5:89 عَشَرَةِ
+- **B004** iki kişiden biri, ilk olan ve haftanın ilk günü / الأول والإضافة
+  - same: ج ع ل B001 bir şeyi yapıp var etme / إحداث الشيء وصنعه ← 5:6 لِيَجْعَلَ
+  - same: ق و م B013 ölülerin diriltildiği ve insanların yargı için kalktığı gün / قيامة وبعث وقيام الساعة ← 5:6 قُمْتُمْ
+  - same: و ج ه B007 günün başı, ilk saatleri / وجه النهار وصدره ← 5:6 وُجُوهَكُمْ
+  - near: ث ن ي B001 iki olma, ikiye çıkarma veya ikili oluşturma / ضم واحد إلى واحد وجعلهما اثنين ← 5:12 ٱثْنَىْ
+  - near: د ي ن B002 yargılayıp hesap görerek karşılığını verme / الحساب والجزاء ← 5:3 دِينِكُمْ
+  - near: ء خ ر B001 sonraki ya da öteki olan / الآخرية بعد الأول أو غيره ← 5:5 ٱلْءَاخِرَةِ
+  - far: و ح د B002 bir sayısı, birer birerlik ve tek parça / الواحد في العدد والآحاد ← 5:48 وَٰحِدَةً
+  - far: ث ل ث B006 Sali / يوم الثلاثاء ← 5:73 ثَالِثُ
+- **B005** tek başına kalma ve birer birer gelme / الانفراد والتفرق آحادا
+  - same: ج ي ء B001 — / المجيء والغلبة بالمجيء ← 5:6 جَآءَ
+  - same: ج ي ء B001 — / المجيء والحصول ← 5:6 جَآءَ
+  - same: ج ع ل B001 bir şeyi yapıp var etme / إحداث الشيء وصنعه ← 5:6 لِيَجْعَلَ
+  - near: ع د و B004 aşma, dışarıda bırakma ve öteye geçirme / المجاوزة والاستثناء والصرف ← 5:2 تَعْتَدُوا۟
+  - near: ب ع د B003 uzaklastirma / إحداث البعد والمباعدة ← 5:12 بَعْدَ
+  - near: ج ع ل B001 bir şeyi yapıp var etme / إحداث الشيء وصنعه ← 5:13 وَجَعَلْنَا
+  - far: و ح د B001 tek başına ve ayrı olma / الانفراد والبينونة ← 5:48 وَٰحِدَةً
+  - far: خ ل و B002 başkalarını dışarıda bırakarak baş başa kalmak veya tek şeyle yetinmek / الانفراد والخلوة ← 5:75 خَلَتْ
+- **B006** Medine'deki belirli bir dağın özel adı / جبل أُحُد
+  - same: ط ي ب B005 Peygamber'in şehri için kullanılan özel ad / طيبة اسم المدينة ← 5:6 طَيِّبًا
+  - same: ر ف ق B010 belirli bir yerleşim yerinin adı / اسم بلد ← 5:6 ٱلْمَرَافِقِ
+  - same: ج د د B014 kıyı ve kır yer adları / مواضع مسماة ← 5:6 تَجِدُوا۟
+  - near: ط ي ب B005 Peygamber'in şehri için kullanılan özel ad / طيبة اسم المدينة ← 5:5 ٱلطَّيِّبَٰتُ
+  - near: ص د د B005 engel oluşturan dağ / جبل حاجز ← 5:2 صَدُّوكُمْ
+  - near: د ي ن B006 kent / مدينة الطاعة ← 5:3 دِينِكُمْ
+  - far: ق د س B008 belirli büyük bir dağın özel adı / جبل قُدْس ← 5:21 ٱلْمُقَدَّسَةَ
+  - far: ط ي ب B005 Peygamber'in şehri için kullanılan özel ad / طيبة اسم المدينة ← 5:87 طَيِّبَٰتِ
+
+## غ و ط (ٱلْغَآئِطِ)
+
+- **B001** alçak ve çukur yer / اطمئنان وغور في الأرض
+  - same: ر ء س B003 selin çerçöpü toplayıp sürüklemesi / جمع السيل وحمله ← 5:6 بِرُءُوسِكُمْ
+  - same: ج ي ء B003 — / مجتمع الماء في هبطة أو حول حصن ← 5:6 جَآءَ
+  - same: غ س ل B001 suyla yıkayıp kirden arındırma / تطهير الشيء بإسالة الماء وإزالة الدرن ← 5:6 فَٱغْسِلُوا۟
+  - near: ب س ط B002 yaygı; geniş ve düz arazi / الأرض والبساط المبسوط ← 5:11 يَبْسُطُوٓا۟
+  - near: خ ب ر B002 gevşek, alçak ve su tutan arazi veya su birikintisi / لين الأرض ومائها ← 5:8 خَبِيرٌۢ
+  - near: ع ق د B016 yer çevresi, yapı örtüşmesi veya üzerine kapanma / إحاطة الموضع وإطباقه ← 5:1 بِٱلْعُقُودِ
+  - far: غ ل ل B003 ağaçlık yerdeki sığ su, çukur yer ve bitki adları / ماء وموضع ونبت في الشجر ← 5:64 مَغْلُولَةٌ
+  - far: غ ي ب B002 içine gireni gizleyen çukur yer / منهبط يغيب فيه الشيء ← 5:94 بِٱلْغَيْبِ
+- **B002** içine girip gömülmek / دخول وغيبوبة في الشيء
+  - same: م و ه B003 su verme, içine su koyma ve sulanmış hale getirme / إيصال الماء بالسقي والصب ← 5:6 مَآءً
+  - same: غ س ل B002 yıkamada kullanılan su veya madde ile yıkanma yeri / ماء الغسل وما يغسل به أو فيه ← 5:6 فَٱغْسِلُوا۟
+  - same: ر ج ل B013 kuyuya iple indirilmeden inmek / نزول البئر بلا تدلية ← 5:6 وَأَرْجُلَكُمْ
+  - near: ض ل ل B002 gizlenerek, karışıp eriyerek veya gömülerek gözden yitme / الغيبوبة والخفاء ← 5:12 ضَلَّ
+  - near: ب غ ي B001 bir şeyi arayıp istemek; başkası için aramak veya arayışına yardım etmek / طلب الشيء وابتغاؤه ← 5:2 يَبْتَغُونَ
+  - near: ع ظ م B002 bir şeyin çoğu veya büyük bölümü / معظم الشيء ← 5:9 عَظِيمٌ
+  - far: غ ي ب B002 içine gireni gizleyen çukur yer / منهبط يغيب فيه الشيء ← 5:94 بِٱلْغَيْبِ
+  - far: ض ل ل B002 gizlenerek, karışıp eriyerek veya gömülerek gözden yitme / الغيبوبة والخفاء ← 5:60 وَأَضَلُّ
+- **B003** dışkılama için örtmece / كناية الحدث والتبرز
+  - same: ل م س B003 dokunma sözüyle cinsel birleşmeyi örtülü anlatma / كناية الجماع ← 5:6 لَٰمَسْتُمُ
+  - same: ط ي ب B003 tuvalet sonrası pisliği gidererek temizlenme / الاستطابة تطهير من الخبث ← 5:6 طَيِّبًا
+  - same: ش ك ر B006 kadın cinsel organı veya birleşme için örtmece / كناية الفرج والنكاح ← 5:6 تَشْكُرُونَ
+  - near: د خ ل B002 eşiyle cinsel birleşmede bulunmak / الإفضاء الزوجي ← 5:12 وَلَأُدْخِلَنَّكُمْ
+  - near: س و ء B003 bedensel kusur veya hastalık / الآفة والبرص ← 5:12 سَيِّـَٔاتِكُمْ
+  - near: ط ي ب B003 tuvalet sonrası pisliği gidererek temizlenme / الاستطابة تطهير من الخبث ← 5:5 ٱلطَّيِّبَٰتُ
+  - far: ب د و B005 ihtiyaç için dışarı çıkma / البروز لقضاء الحاجة ← 5:99 تُبْدُونَ
+  - far: خ ب ث B005 idrar ve dışkı için örtmeceli adlandırma / الأخبثان وكنايات البطن ← 5:100 ٱلْخَبِيثُ
+- **B004** bükülerek alçalmak / انخفاض بانثناء
+  - same: م س ح B020 kılıcı kınından çekme / استلال السيف من غمده ← 5:6 وَٱمْسَحُوا۟
+  - same: ص ع د B008 uzunlukça veya derecede yukarı artış / زيادة وعلو إلى فوق ← 5:6 صَعِيدًا
+  - same: م ر ض B004 işi gevşek bırakma ve çabada yetersiz kalma / إضعاف الأمر وقصور الحركة ← 5:6 مَّرْضَىٰٓ
+  - near: ث ن ي B011 hareket ederken bedeni, boynu veya kalçayı bükme / تثن في المشية والعنق ← 5:12 ٱثْنَىْ
+  - near: ز ل م B009 verdiği payı azaltmak / تقليل العطاء ← 5:3 بِٱلْأَزْلَٰمِ
+  - near: ج ن ف B002 bedensel yapıdaki eğrilik ve yan dengesizliği / ميل الخلقة واعوجاج الجسد ← 5:3 مُتَجَانِفٍ
+  - far: ط م ء ن B002 fiziksel olarak alçakta bulunma ya da aşağı doğru eğme / التطامن والانخفاض الحسي ← 5:113 وَتَطْمَئِنَّ
+  - far: ث ن ي B011 hareket ederken bedeni, boynu veya kalçayı bükme / تثن في المشية والعنق ← 5:106 ٱثْنَانِ
+
+## ل م س (لَٰمَسْتُمُ)
+
+- **B001** elle ya da tenle dokunarak algılama / المس باليد والبشرة
+  - same: م س ح B001 üzerinden geçirip silme / إمرار اليد على الشيء وإزالة أثره ← 5:6 وَٱمْسَحُوا۟
+  - same: ي د ي B013 bir nesnenin tutacağı, ucu ya da uzantısı / يَد الشيء ← 5:6 وَأَيْدِيَكُمْ
+  - same: ي م م B002 toprakla namaz temizliği / التيمم للصلاة بمسح الوجه واليدين بالتراب ← 5:6 فَتَيَمَّمُوا۟
+  - near: ص ف ح B004 el sıkışma / المصافحة بصفحة اليد ← 5:13 وَٱصْفَحْ
+  - near: م س ك B010 yenidoğanın baş ve el uçlarındaki özel deri / الماسكة على الولد ← 5:4 أَمْسَكْنَ
+  - near: ب س ط B004 eli uzatıp serbestçe kullanmak / مد اليد وإطلاقها ← 5:11 يَبْسُطُوٓا۟
+  - far: م س س B001 elle dokunup algılama / جس باليد ← 5:73 لَيَمَسَّنَّ
+  - far: ب ش ر B003 doğrudan temas etme veya işi bizzat yürütme / التقاء البشرة بالبشرة ← 5:18 بَشَرٌ
+- **B002** bir şeyi arama veya elde etmeyi isteme / طلب الشيء والتماسه
+  - same: ر و د B003 dolasarak arama / طلب الشيء وارتياده ← 5:6 يُرِيدُ
+  - same: ت م م B007 dokumayi tamamlayan parca / قطعة تتم النسج ← 5:6 وَلِيُتِمَّ
+  - same: ر د د B004 geri isteme veya karşılıklı geri verme / الاسترداد والتراد في البيع ← 5:6 يُرِيدُ
+  - near: ب غ ي B001 bir şeyi arayıp istemek; başkası için aramak veya arayışına yardım etmek / طلب الشيء وابتغاؤه ← 5:2 يَبْتَغُونَ
+  - near: ه م م B011 bir şeyi arayıp izini sürme; kalıpta kendi yararını gözetme / طلب وتتبع ← 5:11 هَمَّ
+  - near: ر و د B003 dolasarak arama / طلب الشيء وارتياده ← 5:1 يُرِيدُ
+  - far: ب غ ي B001 bir şeyi arayıp istemek; başkası için aramak veya arayışına yardım etmek / طلب الشيء وابتغاؤه ← 5:35 وَٱبْتَغُوٓا۟
+  - far: ر و د B003 dolasarak arama / طلب الشيء وارتياده ← 5:17 أَرَادَ
+- **B003** dokunma sözüyle cinsel birleşmeyi örtülü anlatma / كناية الجماع
+  - same: م س ح B002 cinsel birleşme için örtmece / المسح كناية عن الجماع ← 5:6 وَٱمْسَحُوا۟
+  - same: ش ك ر B006 kadın cinsel organı veya birleşme için örtmece / كناية الفرج والنكاح ← 5:6 تَشْكُرُونَ
+  - same: غ و ط B003 dışkılama için örtmece / كناية الحدث والتبرز ← 5:6 ٱلْغَآئِطِ
+  - near: د خ ل B002 eşiyle cinsel birleşmede bulunmak / الإفضاء الزوجي ← 5:12 وَلَأُدْخِلَنَّكُمْ
+  - near: ق ر ب B007 temas edip içine girecek ölçüde yaklaşma / مقاربة الشيء وملابسته ← 5:8 أَقْرَبُ
+  - near: ط ي ب B004 yeme ile cinsel birlikteliği birlikte adlandıran ikili / الأطيبان الأكل والنكاح ← 5:5 ٱلطَّيِّبَٰتُ
+  - far: م س س B002 cinsel birleşmeyi dokunma sözüyle anlatma / مماسة النكاح ← 5:73 لَيَمَسَّنَّ
+  - far: ج م ع B006 cinsel birleşme / اتصال الجماع والمجامعة ← 5:17 جَمِيعًا
+- **B005** talep veya yakın gereksinim / اللُّماسة حاجة قريبة
+  - same: م ر ض B004 işi gevşek bırakma ve çabada yetersiz kalma / إضعاف الأمر وقصور الحركة ← 5:6 مَّرْضَىٰٓ
+  - same: ر و د B008 genc kiz veya genc ve guzel kadin / الجارية الرود الشابة ← 5:6 يُرِيدُ
+  - same: ص ل ي B002 iyilik dileme; özneye göre esirgeme, övme veya aklama / الدعاء والبركة والرحمة ← 5:6 ٱلصَّلَوٰةِ
+  - near: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 5:2 رَّبِّهِمْ
+  - near: س ء ل B002 istenen şey / السُّؤل المطلوب ← 5:4 يَسْـَٔلُونَكَ
+  - near: ء م م B010 iyilik ve iyi durum / الإمة نعمة ← 5:2 ءَآمِّينَ
+  - far: م س س B006 önemli veya ivedi gereksinim; gerek duyma / حاجة ماسة ← 5:73 لَيَمَسَّنَّ
+  - far: ر ي ب B003 karşılanması gereken gereksinim / حاجة يخاف فوتها ← 5:106 ٱرْتَبْتُمْ
+
+## ن س و (ٱلنِّسَآءَ)
+
+- **B001** kadın topluluğunu bildiren ayrı biçimli çoğullar / جماعة النساء
+  - same: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 5:6 قُمْتُمْ
+  - same: م و ه B001 su ve su adının biçim ailesi / الماء المعروف وأصل اسمه ← 5:6 مَآءً
+  - same: ر د د B006 boşanıp ailesine dönen kadın / المرأة المردودة إلى أهلها ← 5:6 يُرِيدُ
+  - near: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 5:8 قَوَّٰمِينَ
+  - near: ن س ي B004 kalçadan bacağa uzanan damar / النَّسَا عرق ووجعه ← 5:13 وَنَسُوا۟
+  - near: ع ش ر B001 on ve yirmi sayı adları / عدد العشرة ← 5:12 عَشَرَ
+  - far: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 5:14 ٱلْقِيَٰمَةِ
+  - far: ن س ي B004 kalçadan bacağa uzanan damar / النَّسَا عرق ووجعه ← 5:14 فَنَسُوا۟
+
+## و ج د (تَجِدُوا۟)
+
+- **B001** bulma ve duyusal ya da zihinsel olarak algılama / إلفاء الشيء وإصابته
+  - same: ج د د B003 kesme ve ayırma / قطع وصرم ← 5:6 تَجِدُوا۟
+  - same: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 5:6 يُرِيدُ
+  - same: و ج ه B002 yön ve hedef; o yöne sevk etme veya yolu belli etme / الجهة والوجهة ← 5:6 وُجُوهَكُمْ
+  - near: ب غ ي B001 bir şeyi arayıp istemek; başkası için aramak veya arayışına yardım etmek / طلب الشيء وابتغاؤه ← 5:2 يَبْتَغُونَ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 5:7 عَلِيمٌۢ
+  - near: س و ي B004 bir hedefe yönelip onu amaç edinmek / إقبال وقصد إلى جهة ← 5:12 سَوَآءَ
+  - far: ع ر ف B008 tanıyanı duyuruyla arama veya sorarak haber öğrenme / تعريف الضالة والطلب حتى تعرف ← 5:83 عَرَفُوا۟
+  - far: ن ي ل B001 bir şeye ulaşıp onu elde etme / بلوغ الشيء وإصابته ← 5:94 تَنَالُهُۥٓ
+- **B002** varlığa gelme, var olma ve var etme / ثبوت الشيء في الوجود
+  - same: ج ع ل B001 bir şeyi yapıp var etme / إحداث الشيء وصنعه ← 5:6 لِيَجْعَلَ
+  - same: ك و ن B001 gerçekleşme, bulunma ve olma bildirimi / وقوع الشيء وحضوره في زمان ← 5:6 كُنتُمْ
+  - same: و ج ه B013 yüzüne vurma ve yüzüne vurulmuş olma / ضرب الوجه ← 5:6 وُجُوهَكُمْ
+  - near: ج ع ل B001 bir şeyi yapıp var etme / إحداث الشيء وصنعه ← 5:13 وَجَعَلْنَا
+  - near: ك و ن B001 gerçekleşme, bulunma ve olma bildirimi / وقوع الشيء وحضوره في زمان ← 5:8 كُونُوا۟
+  - near: غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 5:5 غَيْرَ
+  - far: ج ع ل B001 bir şeyi yapıp var etme / إحداث الشيء وصنعه ← 5:20 جَعَلَ
+  - far: ك و ن B001 gerçekleşme, bulunma ve olma bildirimi / وقوع الشيء وحضوره في زمان ← 5:14 كَانُوا۟
+- **B003** varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى
+  - same: ج د د B002 iyi yazgı ve varlık payı / حظ وغنى يناله الإنسان ← 5:6 تَجِدُوا۟
+  - same: ي د ي B002 güç, yeterlik ve güçlendirme / اليَد القوّة ← 5:6 وَأَيْدِيَكُمْ
+  - same: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 5:6 يُرِيدُ
+  - near: ب س ط B003 genişlik, artış ve üstünlük / السعة والزيادة والفضل ← 5:11 يَبْسُطُوٓا۟
+  - near: ي د ي B002 güç, yeterlik ve güçlendirme / اليَد القوّة ← 5:11 أَيْدِيَهُمْ
+  - near: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 5:1 يُرِيدُ
+  - far: و س ع B003 para ve geçim bolluğu / سعة المال والعيش ← 5:54 وَٰسِعٌ
+  - far: ي س ر B003 maddi bolluk ve varlıklı olma / سعة وغنى ← 5:90 وَٱلْمَيْسِرُ
+- **B004** üzüntü veya sevgi duymak; güçlü isteğin doyumunu yaşamak / وجدان الحزن والمحبة
+  - same: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 5:6 يُرِيدُ
+  - same: ج د د B008 şakadan uzak kararlı çaba / عزم واجتهاد ← 5:6 تَجِدُوا۟
+  - same: ي د ي B002 güç, yeterlik ve güçlendirme / اليَد القوّة ← 5:6 وَأَيْدِيَكُمْ
+  - near: ح ب ب B002 sevgi ve yeğleme / المحبة الملازمة للقلب ← 5:13 يُحِبُّ
+  - near: ه م م B002 üzüntü, tasa ve kaygı / هم يذيب ويقلق ← 5:11 هَمَّ
+  - near: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 5:1 يُرِيدُ
+  - far: غ ل ل B002 susuzluktan içi yanma / حرارة تنغل في الجوف ← 5:64 مَغْلُولَةٌ
+  - far: ح ز ن B001 sevinç karşıtı ağır üzüntü / خشونة النفس بالغم ← 5:41 يَحْزُنكَ
+- **B005** öfke duymak ve birine kızmak / الموجدة والغضب
+  - same: ج د د B008 şakadan uzak kararlı çaba / عزم واجتهاد ← 5:6 تَجِدُوا۟
+  - same: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 5:6 يُرِيدُ
+  - same: ر د د B009 düşmeyi önleyen dayanak, sırt veya yük devesi / العماد وما يحمل ويرد عن السقوط ← 5:6 يُرِيدُ
+  - near: ع ق د B012 öfkenin düğümlenmesi ve çözülmesiyle anlatılan huy durumu / انقباض الغضب والخلق ← 5:1 بِٱلْعُقُودِ
+  - near: ج ح م B004 yüzün yoğun öfkeden ateş gibi alevlenmesi / تلهب الوجه بالغضب ← 5:10 ٱلْجَحِيمِ
+  - near: ق ل ل B005 korku veya öfkeden titreme / القِلُّ رعدة واضطراب ← 5:13 قَلِيلًا
+  - far: ع م د B015 öfke ve onunla bağlantılı acılı sıkıntı / الغضب والغلبة بالغضب ← 5:95 مُّتَعَمِّدًا
+  - far: ع ب د B008 incinmiş gurur, öfke veya kederli iç duygulanım / الأنفة والغضب ← 5:60 وَعَبَدَ
+
+## ج د د (تَجِدُوا۟)
+
+- **B001** değer ve konum yüceliği / عظمة القدر وعلوه
+  - same: ك ع ب B009 talihin veya saygınlığın yükselmesi için dua / ارتفاع الجد والشرف ← 5:6 ٱلْكَعْبَيْنِ
+  - same: ن ع م B013 birini göz sevinci saymak veya bunun için dua etmek / نعم الله بك عينا وقرة العين ← 5:6 نِعْمَتَهُۥ
+  - same: و ج ه B006 toplumsal itibar, yüksek mevki ve önde gelen kişi / الوجاهة والجاه ← 5:6 وُجُوهَكُمْ
+  - near: ع ظ م B001 büyük ve güçlü olma; büyük sayıp yüceltme / الكبر والقوة ← 5:9 عَظِيمٌ
+  - near: ن ع م B013 birini göz sevinci saymak veya bunun için dua etmek / نعم الله بك عينا وقرة العين ← 5:7 نِعْمَةَ
+  - near: ج ر م B007 beden, gövde ve bedensel büyüklük / جرم البدن وقدره ← 5:8 يَجْرِمَنَّكُمْ
+  - far: ع ظ م B001 büyük ve güçlü olma; büyük sayıp yüceltme / الكبر والقوة ← 5:33 عَظِيمٌ
+  - far: ع ل و B002 saygınlıkta yüksek mevki / الرفعة والشرف ← 5:104 تَعَالَوْا۟
+- **B002** iyi yazgı ve varlık payı / حظ وغنى يناله الإنسان
+  - same: و ج د B003 varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى ← 5:6 تَجِدُوا۟
+  - same: ك ع ب B009 talihin veya saygınlığın yükselmesi için dua / ارتفاع الجد والشرف ← 5:6 ٱلْكَعْبَيْنِ
+  - same: ن ع م B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik / حسن الحال والنعمة ← 5:6 نِعْمَتَهُۥ
+  - near: ح ظ ظ B001 kişiye düşen pay ve bundan gelen iyi şans / نصيب وجَدّ ← 5:13 حَظًّا
+  - near: ء ك ل B003 verilen pay ve geçimlik / النصيب والرزق المطعوم ← 5:4 فَكُلُوا۟
+  - near: ن ص ب B005 belirlenmiş pay / حظ معين مرفوع لصاحبه ← 5:3 ٱلنُّصُبِ
+  - far: ح ظ ظ B001 kişiye düşen pay ve bundan gelen iyi şans / نصيب وجَدّ ← 5:14 حَظًّا
+  - far: ر ز ق B006 iyi talih sahibi olma / الحظ والجَد ← 5:88 رَزَقَكُمُ
+- **B003** kesme ve ayırma / قطع وصرم
+  - same: و ج د B003 varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى ← 5:6 تَجِدُوا۟
+  - same: م س ح B003 kılıçla vurup kesme / القطع والضرب بالسيف ← 5:6 وَٱمْسَحُوا۟
+  - same: ر ج ل B006 büyük çekirge sürüsü / الرَّجْل من الجراد ← 5:6 وَأَرْجُلَكُمْ
+  - near: ج ر م B001 kesip ayırma / القطع والصرام ← 5:8 يَجْرِمَنَّكُمْ
+  - near: ق ر ض B001 dişle ya da küçük bir araçla kesmek / قطع الشيء وإبانة فضلاته ← 5:12 وَأَقْرَضْتُمُ
+  - near: ع ش ر B009 parçalara, paylara veya dağınık kümelere ayrılma / قطع وأعشار ← 5:12 عَشَرَ
+  - far: ق ط ع B001 kesip ayırmak / الصَّرْم والإبانة ← 5:33 تُقَطَّعَ
+  - far: و ج د B003 varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى ← 5:82 لَتَجِدَنَّ
+- **B004** yeni olma ve yenilenme / جِدّة وحدوث بعد قطع
+  - same: و ج د B003 varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى ← 5:6 تَجِدُوا۟
+  - same: و ج ه B007 günün başı, ilk saatleri / وجه النهار وصدره ← 5:6 وُجُوهَكُمْ
+  - same: ش ك ر B005 şiddetlenip etkisini artırma / اشتداد الوقوع والهيجان ← 5:6 تَشْكُرُونَ
+  - near: ع ق ب B005 birbirinin ardından gelme ve yerini alma / الخلف والتعاقب ← 5:2 ٱلْعِقَابِ
+  - near: ن ه ر B002 şafaktan gün batımına aydınlık gündüz / انفتاح النهار بالضياء ← 5:12 ٱلْأَنْهَٰرُ
+  - near: ش د د B002 güç, katılık ve çetinlik / شدة القوة والصلابة ← 5:2 شَدِيدُ
+  - far: خ ل ف B006 sırayla birbirinin ardından gelme / يتعاقبان فيأتي هذا بعد ذاك ← 5:33 خِلَٰفٍ
+  - far: و ج د B003 varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى ← 5:82 لَتَجِدَنَّ
+- **B005** belirgin şerit veya ana yol / طرائق وخطط ظاهرة
+  - same: ص ع د B004 yeryüzü veya toprak yüzeyi / صعيد وجه الأرض ← 5:6 صَعِيدًا
+  - same: ر و د B004 gidip gelme / التردد والاختلاف جيئة وذهابا ← 5:6 يُرِيدُ
+  - same: و ج ه B002 yön ve hedef; o yöne sevk etme veya yolu belli etme / الجهة والوجهة ← 5:6 وُجُوهَكُمْ
+  - near: س ر ع B006 özellikle yay üzerindeki çizgi ve yollar / طرائق الأساريع ← 5:4 سَرِيعُ
+  - near: س ب ل B002 yol kullanan kişi veya yolcu / أهل الطريق وسالكوه ← 5:12 ٱلسَّبِيلِ
+  - near: ع د و B009 boyunca uzanan yan ve kıyı / العَداء والعُدوة في الجانب والطوار ← 5:2 تَعْتَدُوا۟
+  - far: س ر ع B006 özellikle yay üzerindeki çizgi ve yollar / طرائق الأساريع ← 5:41 يُسَٰرِعُونَ
+  - far: ش ر ك B005 yolun ana yatağı, izleri ve küçük kolları / شِرك الطريق ← 5:72 يُشْرِكْ
+- **B006** su kıyısı / حافة الماء وساحله
+  - same: ي م م B003 deniz veya engin su / اليم ماء عظيم ← 5:6 فَتَيَمَّمُوا۟
+  - same: ك ع ب B009 talihin veya saygınlığın yükselmesi için dua / ارتفاع الجد والشرف ← 5:6 ٱلْكَعْبَيْنِ
+  - same: ج ن ب B001 bedenin veya şeyin yanı ve bitişik çevresi / الجنب جانب الجسد وناحية الشيء ← 5:6 جُنُبًا
+  - near: ع د و B009 boyunca uzanan yan ve kıyı / العَداء والعُدوة في الجانب والطوار ← 5:2 تَعْتَدُوا۟
+  - near: ن ه ر B006 fırsat kollayıp gizlice kapma / الدغرة والخلسة ← 5:12 ٱلْأَنْهَٰرُ
+  - near: ء ت ي B004 su kanalı açmak ve akışı yönlendirmek / مجرى الماء وتسليك سبيله ← 5:5 أُوتُوا۟
+  - far: ف و ه B004 yerin ağzı, girişi, çıkışı veya başlangıcı / فوهة الموضع ومخرجه ← 5:41 بِأَفْوَٰهِهِمْ
+  - far: ع د و B009 boyunca uzanan yan ve kıyı / العَداء والعُدوة في الجانب والطوار ← 5:14 ٱلْعَدَاوَةَ
+- **B007** düz ve sert yer yüzeyi / وجه الأرض المستوي
+  - same: ص ع د B004 yeryüzü veya toprak yüzeyi / صعيد وجه الأرض ← 5:6 صَعِيدًا
+  - same: م س ح B009 düz ve çıplak arazi / الأرض المستوية الملساء ← 5:6 وَٱمْسَحُوا۟
+  - same: ح ر ج B007 zayıf ya da uzun gövdeli dişi deve / الناقة الضامرة والطويلة ← 5:6 حَرَجٍ
+  - near: ب س ط B002 yaygı; geniş ve düz arazi / الأرض والبساط المبسوط ← 5:11 يَبْسُطُوٓا۟
+  - near: ع د و B010 sert, kuru ve engebeli yer / العَدْواء في صلابة المكان واضطرابه ← 5:2 تَعْتَدُوا۟
+  - near: خ ب ر B002 gevşek, alçak ve su tutan arazi veya su birikintisi / لين الأرض ومائها ← 5:8 خَبِيرٌۢ
+  - far: ج ه د B004 sert, açık ya da bitkisiz arazi / أرض صلبة بارزة ← 5:35 وَجَٰهِدُوا۟
+  - far: س ل ف B010 toprağı ekim için düzleme, düzlenmiş parça ve düzleme taşı / الأرض المسلوفة ← 5:95 سَلَفَ
+- **B008** şakadan uzak kararlı çaba / عزم واجتهاد
+  - same: و ج د B003 varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى ← 5:6 تَجِدُوا۟
+  - same: ر ج ل B019 işine bütün gücüyle sarılmak / القيام على رجل ← 5:6 وَأَرْجُلَكُمْ
+  - same: ق و م B003 bir işe kararlılıkla girişme / عزم ونهوض إلى الأمر ← 5:6 قُمْتُمْ
+  - near: ه د ي B002 yön, izlenen yol ve tutum / جهة الأمر وسيرته وقصده ← 5:2 ٱلْهَدْىَ
+  - near: ق و م B003 bir işe kararlılıkla girişme / عزم ونهوض إلى الأمر ← 5:8 قَوَّٰمِينَ
+  - near: ع د ل B001 hükümde hak gözetme ve güvenilir doğruluk / العدل في الحكم والسيرة ← 5:8 تَعْدِلُوا۟
+  - far: ب ل غ B005 bir şeyi ulaşılabilir en ileri dereceye götürme / الجودة البالغة ← 5:67 بَلِّغْ
+  - far: و ج د B003 varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى ← 5:82 لَتَجِدَنَّ
+- **B009** büyükanne ve büyükbaba / أبوة الأجداد
+  - same: و ج د B003 varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى ← 5:6 تَجِدُوا۟
+  - same: ك ع ب B009 talihin veya saygınlığın yükselmesi için dua / ارتفاع الجد والشرف ← 5:6 ٱلْكَعْبَيْنِ
+  - same: ر د د B006 boşanıp ailesine dönen kadın / المرأة المردودة إلى أهلها ← 5:6 يُرِيدُ
+  - near: ء م م B001 anne ve annelik işlevi / الأم الوالدة والمربية ← 5:2 ءَآمِّينَ
+  - near: ع ز ر B008 sığ suda görülen uzun boyunlu kuş / أبو العَيْزار طائر طويل العنق ← 5:12 وَعَزَّرْتُمُوهُمْ
+  - near: س ر ع B011 çalı ateşine verilen lakap / كنية النار ← 5:4 سَرِيعُ
+  - far: و ل د B002 öz ana baba / أبوان من جهة الولادة ← 5:110 وَٰلِدَتِكَ
+  - far: ء م م B001 anne ve annelik işlevi / الأم الوالدة والمربية ← 5:17 وَأُمَّهُۥ
+- **B010** otlak kuyusu / بئر في موضع كلأ
+  - same: ر ج ل B013 kuyuya iple indirilmeden inmek / نزول البئر بلا تدلية ← 5:6 وَأَرْجُلَكُمْ
+  - same: ص ع د B004 yeryüzü veya toprak yüzeyi / صعيد وجه الأرض ← 5:6 صَعِيدًا
+  - same: م س ح B009 düz ve çıplak arazi / الأرض المستوية الملساء ← 5:6 وَٱمْسَحُوا۟
+  - near: م س ك B004 suyu emmeden veya sızdırmadan tutan yer ya da kap / موضع يمسك الماء أو يثبت ← 5:4 أَمْسَكْنَ
+  - near: ق ل ب B007 kaplanmamış kuyu / القليب البئر ← 5:13 قُلُوبَهُمْ
+  - near: ه م م B004 suyu bol kuyu veya bol yağışlı bulut / كثرة ماء وصوب ← 5:11 هَمَّ
+  - far: ر ج ل B013 kuyuya iple indirilmeden inmek / نزول البئر بلا تدلية ← 5:23 رَجُلَانِ
+  - far: ق ل ب B007 kaplanmamış kuyu / القليب البئر ← 5:21 فَتَنقَلِبُوا۟
+- **B011** susuz yer veya sütü kesilmiş dişi hayvan / انقطاع ماء أو لبن
+  - same: ش ك ر B003 dolup bollaşma / الامتلاء والغزر وكثرة اللبن ← 5:6 تَشْكُرُونَ
+  - same: ر د د B007 sütün, suyun veya bedensel sıvının birikip çoğalması / امتلاء الضرع وتجمع الماء ← 5:6 يُرِيدُ
+  - same: ج ن ب B008 develerde sütün azalması veya tükenmesi / التجنيب قلة لبن الإبل ← 5:6 جُنُبًا
+  - near: و ق ذ B004 meme uçları örselenmiş, sütü azalmış ve memesi hastalanmış dişi deve / ضرع ناقة يؤثر فيه الرضاع أو الصرار ← 5:3 وَٱلْمَوْقُوذَةُ
+  - near: ح ل ل B009 doğum olmadan memeye süt inmesi / إحلال اللبن ← 5:5 أُحِلَّ
+  - near: ر ب ب B009 başlangıçtaki tazelik / شاة رُبّى وحداثة ← 5:2 رَّبِّهِمْ
+  - far: ع س ي B006 sütü kesilmiş ya da sütü olup olmadığı belirsiz deve; kesilmede geri dönüş umulur / رجاء عودة اللبن ← 5:52 فَعَسَى
+  - far: ف و ز B003 kurtuluş; susuz ve tehlikeli ıssız çöl / المفازة بين النجاة والمهلكة ← 5:119 ٱلْفَوْزُ
+- **B012** düğümlü ipler ve dolaşık kalıntılar / خيوط معقودة وبقايا متشابكة
+  - same: ح ر ج B006 ahşap taşıma sedyesi veya kafesi / السرير والمحفة ← 5:6 حَرَجٍ
+  - same: ش ك ر B004 körpe sürgün ve ona benzetilen yeni oluşum / خروج الشكير والنبات الغض ← 5:6 تَشْكُرُونَ
+  - same: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 5:6 نِعْمَتَهُۥ
+  - near: ع ق د B013 düğüme bağlanan büyü uygulaması / عقد السحر والعزائم ← 5:1 بِٱلْعُقُودِ
+  - near: ع ز ر B009 üstleri alınmış ağaç kalıntıları / العَيازِر بقايا الشجر ← 5:12 وَعَزَّرْتُمُوهُمْ
+  - near: د خ ل B008 iç içe geçme ve arada kalma / تداخل الأجزاء وما بين الداخل ← 5:12 وَلَأُدْخِلَنَّكُمْ
+  - far: ع ق د B013 düğüme bağlanan büyü uygulaması / عقد السحر والعزائم ← 5:89 عَقَّدتُّمُ
+  - far: خ م ر B007 küçük dokuma secde yaygısı / الخمرة السجادة الصغيرة ← 5:90 ٱلْخَمْرُ
+- **B013** cırcır böceği / دويبة الجُدجُد
+  - same: ج ع ل B008 kara küçük yer hayvanı ve bunlarla dolu su / دويبة الجعلان ← 5:6 لِيَجْعَلَ
+  - same: ر ج ل B005 bir bacağı beyaz hayvan / بياض رجل الدابة ← 5:6 وَأَرْجُلَكُمْ
+  - same: ط ي ب B005 Peygamber'in şehri için kullanılan özel ad / طيبة اسم المدينة ← 5:6 طَيِّبًا
+  - near: ص د د B008 türü tartışmalı küçük hayvan / دويبة صغيرة ← 5:2 صَدُّوكُمْ
+  - near: ج ع ل B008 kara küçük yer hayvanı ve bunlarla dolu su / دويبة الجعلان ← 5:13 وَجَعَلْنَا
+  - near: ق ر ض B010 güvercin öldüren uzun sırtlı küçük hayvan adı / اسم دويبة مقرضة ← 5:12 وَأَقْرَضْتُمُ
+  - far: خ ل د B005 gözsüz faremsi küçük hayvan / دويبة عمياء تشبه الجرذ ← 5:80 خَٰلِدُونَ
+  - far: ص د د B008 türü tartışmalı küçük hayvan / دويبة صغيرة ← 5:91 وَيَصُدَّكُمْ
+- **B014** kıyı ve kır yer adları / مواضع مسماة
+  - same: ص ل ي B008 tapınma yeri, özellikle Yahudi tapınağı / الصلوات مواضع عبادة ← 5:6 ٱلصَّلَوٰةِ
+  - same: ي م م B005 kişi ve yer adı alanı / اليمامة واليمة أسماء مواضع وأعلام ← 5:6 فَتَيَمَّمُوا۟
+  - same: ء ح د B006 Medine'deki belirli bir dağın özel adı / جبل أُحُد ← 5:6 أَحَدٌ
+  - near: ج ن ن B017 içine girilip saklanılan yer / المَجَنَّة موضع الاستتار ← 5:12 جَنَّٰتٍ
+  - near: ع ز ر B014 kutsal şehre yakın bir yer adı / عَزُور اسم موضع ← 5:12 وَعَزَّرْتُمُوهُمْ
+  - near: ص ل ح B005 bir kent ve bir nehir için özel adlar / صلاح والصلح علمان لمواضع ← 5:9 ٱلصَّٰلِحَٰتِ
+  - far: ح ب ر B010 çölde bilinen bir yer / الموضع المسمى حَبَرّ ← 5:44 وَٱلْأَحْبَارُ
+  - far: ع ث ر B005 bir yer veya kent adı / الموضع المسمى عَثَر ← 5:107 عُثِرَ
+
+## م و ه (مَآءً)
+
+- **B001** su ve su adının biçim ailesi / الماء المعروف وأصل اسمه
+  - same: غ س ل B002 yıkamada kullanılan su veya madde ile yıkanma yeri / ماء الغسل وما يغسل به أو فيه ← 5:6 فَٱغْسِلُوا۟
+  - same: ي م م B003 deniz veya engin su / اليم ماء عظيم ← 5:6 فَتَيَمَّمُوا۟
+  - same: ج ي ء B002 — / الجِيأة مجتمع الماء ← 5:6 جَآءَ
+  - near: ص د د B010 tatlı sulu bir kuyunun adı / ماء مسمى ← 5:2 صَدُّوكُمْ
+  - near: د م و B001 kan ve ondan bir parça / الدم المعروف ← 5:3 وَٱلدَّمُ
+  - near: ق ر ب B009 su tulumu / القربة وعاء الماء ← 5:8 أَقْرَبُ
+  - far: ص د د B010 tatlı sulu bir kuyunun adı / ماء مسمى ← 5:91 وَيَصُدَّكُمْ
+  - far: م ل ك B007 işleri ve yaşamı sürdüren su kaynağı / الماء مَلَك الأمر ← 5:17 يَمْلِكُ
+- **B002** suyun belirmesi, çoğalması, içeri girmesi veya bir şeyi doldurması / ظهور الماء ودخوله وكثرته
+  - same: ر د د B007 sütün, suyun veya bedensel sıvının birikip çoğalması / امتلاء الضرع وتجمع الماء ← 5:6 يُرِيدُ
+  - same: ج ع ل B008 kara küçük yer hayvanı ve bunlarla dolu su / دويبة الجعلان ← 5:6 لِيَجْعَلَ
+  - same: ج ي ء B003 — / مجتمع الماء في هبطة أو حول حصن ← 5:6 جَآءَ
+  - near: ء ت ي B007 gelişip bol ürün vermek / خروج النماء والنتاج ← 5:5 أُوتُوا۟
+  - near: ح ب ط B005 kuyu suyunun çekilmesi, kimi kullanımda geri dönmemesi / ذهاب ماء البئر ← 5:5 حَبِطَ
+  - near: ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 5:7 عَلِيمٌۢ
+  - far: ء ت ي B007 gelişip bol ürün vermek / خروج النماء والنتاج ← 5:20 وَءَاتَىٰكُم
+  - far: ح ب ط B005 kuyu suyunun çekilmesi, kimi kullanımda geri dönmemesi / ذهاب ماء البئر ← 5:53 حَبِطَتْ
+- **B003** su verme, içine su koyma ve sulanmış hale getirme / إيصال الماء بالسقي والصب
+  - same: غ س ل B001 suyla yıkayıp kirden arındırma / تطهير الشيء بإسالة الماء وإزالة الدرن ← 5:6 فَٱغْسِلُوا۟
+  - same: ر د د B007 sütün, suyun veya bedensel sıvının birikip çoğalması / امتلاء الضرع وتجمع الماء ← 5:6 يُرِيدُ
+  - same: ر ج ل B008 su akıntısı yatağı / رِجْلة الماء ← 5:6 وَأَرْجُلَكُمْ
+  - near: ق ل د B008 sıvıyı bir kaba döküp biriktirme / جمع الماء أو اللبن في وعاء ← 5:2 ٱلْقَلَٰٓئِدَ
+  - near: ح ب ب B006 suyla dolmak veya doldurup dolulaştırmak / الري حتى الامتلاء ← 5:13 يُحِبُّ
+  - near: ق ب ل B014 develer içerken önlerine su çekip dökme / سقي على أفواه الإبل ← 5:5 قَبْلِكُمْ
+  - far: ق ل د B008 sıvıyı bir kaba döküp biriktirme / جمع الماء أو اللبن في وعاء ← 5:97 وَٱلْقَلَٰٓئِدَ
+  - far: ح ب ب B006 suyla dolmak veya doldurup dolulaştırmak / الري حتى الامتلاء ← 5:18 وَأَحِبَّٰٓؤُهُۥ
+- **B004** üreme sıvısını dişinin döl yatağına bırakma / ماء الفحل في الرحم
+  - same: غ س ل B003 çok çiftleştiği halde döllemeyen erkek damızlık / فحل يكثر الضراب ولا يلقح ← 5:6 فَٱغْسِلُوا۟
+  - same: ج ع ل B009 dişinin çiftleşmek için erkeği istemesi / اشتهاء الأنثى للفحل ← 5:6 لِيَجْعَلَ
+  - same: ط ه ر B002 adet kanamasının kesilmesi ve kanamasız dönem / طهر النساء من الحيض ← 5:6 فَٱطَّهَّرُوا۟
+  - near: ر ح م B003 döl yatağı / رَحِم الأنثى ← 5:3 رَّحِيمٌ
+  - near: س م و B003 erkek devenin dişi deve sürüsüne atılıp aralarına girmesi / تطاول الفحل على الشول ← 5:4 ٱسْمَ
+  - near: م س ك B009 insanları bağlayan sıkı akrabalık ilişkisi / ماسكة رحم ← 5:4 أَمْسَكْنَ
+  - far: ر ح م B003 döl yatağı / رَحِم الأنثى ← 5:34 رَّحِيمٌ
+  - far: ر ج ع B013 gebeliğin oluşmaması veya çok erken sona ermesi / راجع الناقة وحملها ← 5:48 مَرْجِعُكُمْ
+- **B005** başka metali altın veya gümüşle kaplama ve gerçeği görünüşle gizleme / كسوة المعدن بماء الذهب أو الفضة
+  - same: م س ح B008 düz para veya gümüş parça / فضة ملساء ونقش ممحو ← 5:6 وَٱمْسَحُوا۟
+  - same: ص ع د B009 ateşle eritip dönüştürme; katranlık ağaç / تصعيد بالنار وتغيير ← 5:6 صَعِيدًا
+  - same: ك ع ب B007 bir şeyi doldurmak / ملء الشيء حتى يتمتلئ ← 5:6 ٱلْكَعْبَيْنِ
+  - near: ص ي د B004 bakır ya da sarı bakır türü metal / الصاد من المعدن ← 5:2 فَٱصْطَادُوا۟
+  - near: ص د د B013 aynada hazırlanmış göz boyası / كحل المرآة ← 5:2 صَدُّوكُمْ
+  - near: ك ذ ب B009 dokuma bezemesi sanısı veren boyalı kumaş / الكذابة ثوب يكذب بحاله ← 5:10 وَكَذَّبُوا۟
+  - far: ذ ه ب B002 altınla kaplama ve altın kaplı nesne / التذهيب والتمويه بالذَّهَب ← 5:24 فَٱذْهَبْ
+  - far: غ ر ب B018 gümüş, altın veya bunlardan yapılmış değerli kap / الفضة والذهب والإناء النفيس ← 5:31 غُرَابًا
+- **B006** belirli kalıplarda yüz güzelliği, söz tatlılığı, üzüm olgunluğu veya hayvan varlığının semirmesi / رونق كالماء في الوجه والكلام والثمر
+  - same: و ج ه B008 sözün veya işin doğru yönü ve ona uygun düzenleme / وجه الأمر وصوابه ← 5:6 وُجُوهَكُمْ
+  - same: م س ح B006 güzellik ve soyluluk belirtisi / مسحة الحسن والملك والكرم ← 5:6 وَٱمْسَحُوا۟
+  - same: ر د د B007 sütün, suyun veya bedensel sıvının birikip çoğalması / امتلاء الضرع وتجمع الماء ← 5:6 يُرِيدُ
+  - near: ن ق ب B011 dış renk ve görünüş / لون الوجه وهيئته وما يظهر منه ← 5:12 نَقِيبًا
+  - near: ق س م B001 yüz güzelliği / حسن موزع في الوجه ← 5:3 تَسْتَقْسِمُوا۟
+  - near: و س م B005 kişide görünen yerleşik güzellik ve zarafet / حسن عليه أثر الجمال ← 5:4 ٱسْمَ
+  - far: ظ ل م B005 dislerde su gibi parilti / ماء الأسنان وبريق الثغر ← 5:16 ٱلظُّلُمَٰتِ
+  - far: ر ء ي B006 görünüş, belirti ve yansıtıcı yüzey / مرأى ومنظر ومرآة ← 5:31 لِيُرِيَهُۥ
+- **B007** kaya kristali veya ayna / صفاء الماوية كالبلور والمرآة
+  - same: م س ح B008 düz para veya gümüş parça / فضة ملساء ونقش ممحو ← 5:6 وَٱمْسَحُوا۟
+  - same: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 5:6 نِعْمَتَهُۥ
+  - same: ي م م B005 kişi ve yer adı alanı / اليمامة واليمة أسماء مواضع وأعلام ← 5:6 فَتَيَمَّمُوا۟
+  - near: ب ي ت B001 barınak mesken / المأوى والمسكن ← 5:2 ٱلْبَيْتَ
+  - near: ص د د B013 aynada hazırlanmış göz boyası / كحل المرآة ← 5:2 صَدُّوكُمْ
+  - near: د ي ن B006 kent / مدينة الطاعة ← 5:3 دِينِكُمْ
+  - far: ر ء ي B006 görünüş, belirti ve yansıtıcı yüzey / مرأى ومنظر ومرآة ← 5:31 لِيُرِيَهُۥ
+  - far: ب ي ت B001 barınak mesken / المأوى والمسكن ← 5:97 ٱلْبَيْتَ
+- **B008** gönlünde suyu çok denilen, bazı aktarımlarda anlayışı kıt adam / كثرة ماء القلب على جهة البلادة
+  - same: ر د د B007 sütün, suyun veya bedensel sıvının birikip çoğalması / امتلاء الضرع وتجمع الماء ← 5:6 يُرِيدُ
+  - same: غ س ل B003 çok çiftleştiği halde döllemeyen erkek damızlık / فحل يكثر الضراب ولا يلقح ← 5:6 فَٱغْسِلُوا۟
+  - same: ر ج ل B002 erkek insan / الرجل الذكر ← 5:6 وَأَرْجُلَكُمْ
+  - near: ذ ك و B001 çabuk, keskin ve eksiksiz kavrayış / حدّة الفهم ← 5:3 ذَكَّيْتُمْ
+  - near: م و ت B006 zekâ ve anlayıştan yoksunluk / موتان الفؤاد ← 5:3 ٱلْمَيْتَةُ
+  - near: ح ب ب B004 kalbin içindeki kara öz / حبة القلب سويداؤه ← 5:13 يُحِبُّ
+  - far: خ ل د B004 akıl ve akla gelen düşünce / بال مستقر في القلب ← 5:80 خَٰلِدُونَ
+  - far: ك ث ر B003 kişiye bağlı çokluk nitelemeleri / كثرة في صاحب أو كلام أو مطالب ← 5:15 كَثِيرًا
+
+## ي م م (فَتَيَمَّمُوا۟)
+
+- **B001** bilerek hedefe yönelme / قصد الشيء وتعمده
+  - same: و ج ه B002 yön ve hedef; o yöne sevk etme veya yolu belli etme / الجهة والوجهة ← 5:6 وُجُوهَكُمْ
+  - same: ل م س B002 bir şeyi arama veya elde etmeyi isteme / طلب الشيء والتماسه ← 5:6 لَٰمَسْتُمُ
+  - same: ق و م B003 bir işe kararlılıkla girişme / عزم ونهوض إلى الأمر ← 5:6 قُمْتُمْ
+  - near: ء ي ي B002 kisiyi bilerek hedefleme / تعمد آية الشخص ← 5:10 بِـَٔايَٰتِنَآ
+  - near: ء م م B012 amaçlayıp yönelmek / القصد والتوجه والتيمم ← 5:2 ءَآمِّينَ
+  - near: س و ي B008 birinin yöneldiği hedefe yönelmek / قصد نحو شخص أو جهة ← 5:12 سَوَآءَ
+  - far: ع م د B001 isteyerek yönelme ve bilerek yapma / القصد المتعمد ← 5:95 مُّتَعَمِّدًا
+  - far: ق ص د B001 bir şeyi hedef edinip ona yönelmek / التوجه إلى الشيء ← 5:66 مُّقْتَصِدَةٌ
+- **B002** toprakla namaz temizliği / التيمم للصلاة بمسح الوجه واليدين بالتراب
+  - same: ص ع د B004 yeryüzü veya toprak yüzeyi / صعيد وجه الأرض ← 5:6 صَعِيدًا
+  - same: م س ح B001 üzerinden geçirip silme / إمرار اليد على الشيء وإزالة أثره ← 5:6 وَٱمْسَحُوا۟
+  - same: ط ه ر B003 suyla veya eşdeğer bir araçla yıkanıp temizlenme / التطهر بالماء والغسل ← 5:6 فَٱطَّهَّرُوا۟
+  - near: ء م م B012 amaçlayıp yönelmek / القصد والتوجه والتيمم ← 5:2 ءَآمِّينَ
+  - near: ق ب ل B005 namazda yönelinen yön / جهة الصلاة المتوجه إليها ← 5:5 قَبْلِكُمْ
+  - near: س ج د B003 yere dayanan beden bölümleri ve alındaki temas izi / أعضاء السجود وأثره ← 5:2 ٱلْمَسْجِدِ
+  - far: ء م م B012 amaçlayıp yönelmek / القصد والتوجه والتيمم ← 5:17 وَأُمَّهُۥ
+  - far: ق ب ل B005 namazda yönelinen yön / جهة الصلاة المتوجه إليها ← 5:27 فَتُقُبِّلَ
+- **B003** deniz veya engin su / اليم ماء عظيم
+  - same: ج د د B006 su kıyısı / حافة الماء وساحله ← 5:6 تَجِدُوا۟
+  - same: م و ه B001 su ve su adının biçim ailesi / الماء المعروف وأصل اسمه ← 5:6 مَآءً
+  - same: ر د د B007 sütün, suyun veya bedensel sıvının birikip çoğalması / امتلاء الضرع وتجمع الماء ← 5:6 يُرِيدُ
+  - near: ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 5:7 عَلِيمٌۢ
+  - near: ك ف ر B002 örten karanlık veya enginlik / غمر ساتر ← 5:5 يَكْفُرْ
+  - near: ق ل د B009 denizin insanları içine alıp kapatması / إغلاق البحر على من في جوفه ← 5:2 ٱلْقَلَٰٓئِدَ
+  - far: ب ح ر B001 genis büyük su kütlesi / الماء الواسع الكثير ← 5:96 ٱلْبَحْرِ
+  - far: ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 5:20 ٱلْعَٰلَمِينَ
+- **B004** güvercin türü kuş / اليمام طير
+  - same: ن ع م B006 devekuşu / النعام والنعامة الطائر ← 5:6 نِعْمَتَهُۥ
+  - same: ج ع ل B010 deve kuşu yavrusu / فرخ النعام ← 5:6 لِيَجْعَلَ
+  - same: ر ج ل B009 ayak benzetmeli özel adlar / رجل القوس والميسم ← 5:6 وَأَرْجُلَكُمْ
+  - near: د خ ل B009 sık ağaçlıkta barınan küçük kuş / طائر يدخل الغيران والشجر ← 5:12 وَلَأُدْخِلَنَّكُمْ
+  - near: ن ع م B006 devekuşu / النعام والنعامة الطائر ← 5:7 نِعْمَةَ
+  - near: ن ط ح B002 karşıdan gelen fal hayvanı / حيوان يستقبل وجهك في الزجر ← 5:3 وَٱلنَّطِيحَةُ
+  - far: ح ب ر B008 belirli bir kuş türü / طائر الحبارى ← 5:44 وَٱلْأَحْبَارُ
+  - far: و ق ع B006 kuşun konması ve konduğu yer / وقوع الطير وموضعه ← 5:91 يُوقِعَ
+- **B005** kişi ve yer adı alanı / اليمامة واليمة أسماء مواضع وأعلام
+  - same: ت م م B009 kabile adi ve nispeti / النسبة إلى تميم ← 5:6 وَلِيُتِمَّ
+  - same: ط ي ب B005 Peygamber'in şehri için kullanılan özel ad / طيبة اسم المدينة ← 5:6 طَيِّبًا
+  - same: ج د د B014 kıyı ve kır yer adları / مواضع مسماة ← 5:6 تَجِدُوا۟
+  - near: ص د د B009 bir kadın adı / اسم امرأة ← 5:2 صَدُّوكُمْ
+  - near: ص ل ح B005 bir kent ve bir nehir için özel adlar / صلاح والصلح علمان لمواضع ← 5:9 ٱلصَّٰلِحَٰتِ
+  - near: ع و ن B008 bir yer adı ve o yere bağlanan şarap adı / النسبة إلى عانة ← 5:2 وَتَعَاوَنُوا۟
+  - far: ح ل م B009 kişi, su, yer ve tarihsel olay adları / أعلام وأماكن وأيام مشهورة ← 5:101 حَلِيمٌ
+  - far: ص د د B009 bir kadın adı / اسم امرأة ← 5:91 وَيَصُدَّكُمْ
+
+## ص ع د (صَعِيدًا)
+
+- **B001** yukarı çıkma ve yükselme / ارتفاع وصعود إلى فوق
+  - same: ك ع ب B009 talihin veya saygınlığın yükselmesi için dua / ارتفاع الجد والشرف ← 5:6 ٱلْكَعْبَيْنِ
+  - same: غ و ط B004 bükülerek alçalmak / انخفاض بانثناء ← 5:6 ٱلْغَآئِطِ
+  - same: ك و ن B002 bulunma yeri ve konum değeri / المكان والمكانة من الكون ← 5:6 كُنتُمْ
+  - near: ط ل ع B006 dağa çıkma ve çıkış yolu; bir işin yaklaşım yönü veya ürkütücü eşiği / مصعد ومأتى مشرف ← 5:13 تَطَّلِعُ
+  - near: س ل م B006 merdiven ve amaca ulaştıran araç / السلم مرقاة وسببا ← 5:3 ٱلْإِسْلَٰمَ
+  - near: و ف ي B003 yüksek bir yere çıkıp yukarıdan bakmak / البلوغ إلى علو والإشراف منه ← 5:1 أَوْفُوا۟
+  - far: ع ل و B006 gel diye çağırma / نداء التعالي ← 5:104 تَعَالَوْا۟
+  - far: ف و ق B001 üstte bulunma / علو الموضع والجهة ← 5:66 فَوْقِهِمْ
+- **B002** yola çıkıp arazide ilerleme / إصعاد في البلاد والوجوه
+  - same: س ف ر B002 aydınlanıp belirginleşme / إسفار الضوء والوجه ← 5:6 سَفَرٍ
+  - same: ج د د B008 şakadan uzak kararlı çaba / عزم واجتهاد ← 5:6 تَجِدُوا۟
+  - same: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 5:6 يُرِيدُ
+  - near: ن ق ب B006 ülkeyi dolaşıp araştırmak / السير في البلاد والتنقيب فيها ← 5:12 نَقِيبًا
+  - near: ب س ط B007 dolaşmak ve gezintiye çıkmak / السير في البلاد والتنزه ← 5:11 يَبْسُطُوٓا۟
+  - near: ط ل ع B006 dağa çıkma ve çıkış yolu; bir işin yaklaşım yönü veya ürkütücü eşiği / مصعد ومأتى مشرف ← 5:13 تَطَّلِعُ
+  - far: ب س ط B007 dolaşmak ve gezintiye çıkmak / السير في البلاد والتنزه ← 5:28 بَسَطتَ
+  - far: ص و ب B005 aşağı eğme / خفض وانحدار إلى أسفل ← 5:49 يُصِيبَهُم
+- **B003** çetin yokuş ve ağır güçlük / عقبة كؤود ومشقة
+  - same: ك ع ب B009 talihin veya saygınlığın yükselmesi için dua / ارتفاع الجد والشرف ← 5:6 ٱلْكَعْبَيْنِ
+  - same: ص ل و B001 ateşin yakıcı sıcaklığına maruz kalma ve ateşle işleme / ملاقاة النار وحرها ← 5:6 ٱلصَّلَوٰةِ
+  - same: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 5:6 نِعْمَتَهُۥ
+  - near: ع ق ب B012 sarp dağ geçidi ve kayalık çıkıntı / العقبة الصعبة والناشز ← 5:2 ٱلْعِقَابِ
+  - near: ث ن ي B006 dağ ya da vadi kıvrımındaki geçit / منعطف الطريق في جبل أو واد ← 5:12 ٱثْنَىْ
+  - near: ب س ط B011 uzak mesafe ve tam uzanma erişimi / الطول والبعد ومدى اليد ← 5:11 يَبْسُطُوٓا۟
+  - far: ع ق ب B012 sarp dağ geçidi ve kayalık çıkıntı / العقبة الصعبة والناشز ← 5:98 ٱلْعِقَابِ
+  - far: ج ه د B001 gücün sonuna dek çaba gösterme ve güçlüğe katlanma / بذل الوسع تحت مشقة ← 5:35 وَجَٰهِدُوا۟
+- **B004** yeryüzü veya toprak yüzeyi / صعيد وجه الأرض
+  - same: ج د د B007 düz ve sert yer yüzeyi / وجه الأرض المستوي ← 5:6 تَجِدُوا۟
+  - same: ي م م B002 toprakla namaz temizliği / التيمم للصلاة بمسح الوجه واليدين بالتراب ← 5:6 فَتَيَمَّمُوا۟
+  - same: م س ح B009 düz ve çıplak arazi / الأرض المستوية الملساء ← 5:6 وَٱمْسَحُوا۟
+  - near: ب س ط B002 yaygı; geniş ve düz arazi / الأرض والبساط المبسوط ← 5:11 يَبْسُطُوٓا۟
+  - near: س و ي B009 geniş ve açık arazi / السِيّ واسع أملس من الأرض ← 5:12 سَوَآءَ
+  - near: ك ف ر B012 uzak arazi; köy, uzak yer halkı veya mezar / موضع منقطع ← 5:5 يَكْفُرْ
+  - far: ج ه د B004 sert, açık ya da bitkisiz arazi / أرض صلبة بارزة ← 5:35 وَجَٰهِدُوا۟
+  - far: ب س ط B002 yaygı; geniş ve düz arazi / الأرض والبساط المبسوط ← 5:28 بَسَطتَ
+- **B005** yavrusunu yitirip önceki yavrusunu emziren dişi deve / ناقة صعود تعطف على ولد
+  - same: ح ر ج B007 zayıf ya da uzun gövdeli dişi deve / الناقة الضامرة والطويلة ← 5:6 حَرَجٍ
+  - same: ر ف ق B007 dişi devenin meme kanalı ve sağım rahatsızlığı / انسداد أحاليل الناقة ← 5:6 ٱلْمَرَافِقِ
+  - same: ص ل و B005 sırtın ortası ve kuyruk kökünün iki yanı / الصَّلا من الظهر والجنب ← 5:6 ٱلصَّلَوٰةِ
+  - near: ب س ط B008 yavrusuyla serbest bırakılan dişi deve / الناقة المخلاة مع ولدها ← 5:11 يَبْسُطُوٓا۟
+  - near: م و ت B005 çocuğu ölmüş ebeveyn veya ana hayvan / موت الولد للوالد أو الناقة ← 5:3 ٱلْمَيْتَةُ
+  - near: ت ل و B006 anneyi izleyen yavru / ولد يتلو أمه ← 5:1 يُتْلَىٰ
+  - far: خ ل و B010 yavrusundan ayrılıp başka yavruya alıştırılan dişi deve / الخلية من الإبل ← 5:75 خَلَتْ
+  - far: ح و ر B008 sütten kesilmemiş deve yavrusu / حِوار الناقة ← 5:111 ٱلْحَوَارِيِّۦنَ
+- **B006** kendiliğinden düz mızraklık sırık / صعدة قناة مستقيمة
+  - same: ك ع ب B005 kamış veya mızrağın boğumlu bölümü / العقدة بين أنبوبي القصب والرمح ← 5:6 ٱلْكَعْبَيْنِ
+  - same: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 5:6 قُمْتُمْ
+  - same: ج د د B007 düz ve sert yer yüzeyi / وجه الأرض المستوي ← 5:6 تَجِدُوا۟
+  - near: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 5:8 قَوَّٰمِينَ
+  - near: ب س ط B011 uzak mesafe ve tam uzanma erişimi / الطول والبعد ومدى اليد ← 5:11 يَبْسُطُوٓا۟
+  - near: س ل م B007 sert taşlar ve tekil sert taş / السلام حجارة صلبة ← 5:3 ٱلْإِسْلَٰمَ
+  - far: ك ع ب B005 kamış veya mızrağın boğumlu bölümü / العقدة بين أنبوبي القصب والرمح ← 5:95 ٱلْكَعْبَةِ
+  - far: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 5:14 ٱلْقِيَٰمَةِ
+- **B007** acıyla yükselen uzun soluk / صعداء نفس يرتفع
+  - same: ط ي ب B006 içten razı olma ve iç rahatlığı bulma / النفس تطيب بالشيء ← 5:6 طَيِّبًا
+  - same: ح ر ج B002 şiddetli darlık ve sıkışmışlık / الضيق والحرج ← 5:6 حَرَجٍ
+  - same: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 5:6 يُرِيدُ
+  - near: ص د ر B001 göğüs bölgesi / الصدر الجارحة وما يتصل بها ← 5:7 ٱلصُّدُورِ
+  - near: ك ذ ب B008 iç benlik / النفس الكذوب ← 5:10 وَكَذَّبُوا۟
+  - near: ع د و B008 iki avı peş peşe ele geçirme / العِداء في تعاقب الصيد ← 5:2 تَعْتَدُوا۟
+  - far: ن ف س B001 soluk alıp verme / خروج النسيم من الجوف ← 5:25 نَفْسِى
+  - far: ك ت م B006 atın dar burun deliği yüzünden nefesinin tutulması / ضيق مخرج النفس ← 5:61 يَكْتُمُونَ
+- **B008** uzunlukça veya derecede yukarı artış / زيادة وعلو إلى فوق
+  - same: ء ح د B002 hiç kimse / استغراق النفي ← 5:6 أَحَدٌ
+  - same: ك ع ب B009 talihin veya saygınlığın yükselmesi için dua / ارتفاع الجد والشرف ← 5:6 ٱلْكَعْبَيْنِ
+  - same: ن ع م B010 daha da artırmak veya ileri dereceye götürmek / زاد وأنعم في الفعل ← 5:6 نِعْمَتَهُۥ
+  - near: ط ل ع B006 dağa çıkma ve çıkış yolu; bir işin yaklaşım yönü veya ürkütücü eşiği / مصعد ومأتى مشرف ← 5:13 تَطَّلِعُ
+  - near: س م و B001 fiziksel ya da toplumsal yükselme / العلو والارتفاع ← 5:4 ٱسْمَ
+  - near: ع ق ب B012 sarp dağ geçidi ve kayalık çıkıntı / العقبة الصعبة والناشز ← 5:2 ٱلْعِقَابِ
+  - far: م ت ع B002 uzama, yükselme ve kimi bağlamlarda doruğa ulaşma / امتداد وارتفاع يبلغ غايته ← 5:96 مَتَٰعًا
+  - far: ع ل و B001 yukarı yükselme ve yüksekte olma / السمو والارتفاع ← 5:104 تَعَالَوْا۟
+- **B009** ateşle eritip dönüştürme; katranlık ağaç / تصعيد بالنار وتغيير
+  - same: م و ه B005 başka metali altın veya gümüşle kaplama ve gerçeği görünüşle gizleme / كسوة المعدن بماء الذهب أو الفضة ← 5:6 مَآءً
+  - same: ي م م B002 toprakla namaz temizliği / التيمم للصلاة بمسح الوجه واليدين بالتراب ← 5:6 فَتَيَمَّمُوا۟
+  - same: ص ل و B001 ateşin yakıcı sıcaklığına maruz kalma ve ateşle işleme / ملاقاة النار وحرها ← 5:6 ٱلصَّلَوٰةِ
+  - near: ذ ك و B002 ateşin tutuşması veya tutuşturulup güçlendirilmesi / إذكاء النار ← 5:3 ذَكَّيْتُمْ
+  - near: ء ك ل B005 ateşin tüketmesi, beslenmesi ve harlanması / إطعام النار واشتعالها ← 5:4 فَكُلُوا۟
+  - near: ص ل و B001 ateşin yakıcı sıcaklığına maruz kalma ve ateşle işleme / ملاقاة النار وحرها ← 5:12 ٱلصَّلَوٰةَ
+  - far: ف ت ن B002 ateşte yakma veya ateşle durumunu değiştirme / إحراق النار وسوادها ← 5:41 فِتْنَتَهُۥ
+  - far: ن ك ر B004 tanınmazlaştırma veya kötüleşme / التغيير إلى مجهول أو مكروه ← 5:79 مُّنكَرٍ
+
+## ط ي ب (طَيِّبًا)
+
+- **B001** bağlama göre hoş, temiz, iyi veya dinen izinli olan / الطَّيِّب خلاف الخبيث
+  - same: ط ه ر B004 kendisi temiz, başkasını temizleyen su veya araç / الطهور الذي يطهر غيره ← 5:6 فَٱطَّهَّرُوا۟
+  - same: ن ع م B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik / حسن الحال والنعمة ← 5:6 نِعْمَتَهُۥ
+  - same: ي م م B002 toprakla namaz temizliği / التيمم للصلاة بمسح الوجه واليدين بالتراب ← 5:6 فَتَيَمَّمُوا۟
+  - near: ح س ن B001 akla, eğilime veya duyulara göre güzel ve beğenilir olma / الحسن ضد القبح ← 5:12 حَسَنًا
+  - near: ز ك و B002 ahlaken arınıp düzgünleşme / الطهارة والصلاح ← 5:12 ٱلزَّكَوٰةَ
+  - near: س م ع B007 kulağa hoş gelen ezgili ses / السماع المستلذ والغناء ← 5:7 سَمِعْنَا
+  - far: خ ب ث B001 iyinin karşıtı olan kötülük ve bayağılık / الرداءة والخساسة خلاف الطيب ← 5:100 ٱلْخَبِيثُ
+  - far: ح س ن B001 akla, eğilime veya duyulara göre güzel ve beğenilir olma / الحسن ضد القبح ← 5:50 أَحْسَنُ
+- **B002** aldatmasız ve antlaşmayı bozmadan tutsak alma / سبي طيبة لا غدر فيه
+  - same: ر ج ل B018 hayvanın biniciye ödetilmeyen vuruş zararı / الرِّجل جبار ← 5:6 وَأَرْجُلَكُمْ
+  - same: م س ح B020 kılıcı kınından çekme / استلال السيف من غمده ← 5:6 وَٱمْسَحُوا۟
+  - same: ط ه ر B001 kir ve kusurdan arınmışlık / النقاء وزوال الدنس ← 5:6 فَٱطَّهَّرُوا۟
+  - near: ن ق ض B001 kurulu bütünü çözme, geçersiz kılma veya karşı savla çürütme / حل المبرم وإبطال بنائه ← 5:13 نَقْضِهِم
+  - near: ب ع د B009 faydasizlik / غير أبعد ولا طائل ← 5:12 بَعْدَ
+  - near: ب ر ر B001 sözü ve işi doğrulukla yerine getirme / صدق يمضي القول والعمل ← 5:2 ٱلْبِرِّ
+  - far: ع ر ف B004 koku; ayrıca güzel kokulu duruma getirme / عرف الرائحة والتطييب ← 5:83 عَرَفُوا۟
+  - far: س ب ق B004 yakalanmaktan kurtulacak kadar öne kaçma / الفوت عن الطالب ← 5:48 فَٱسْتَبِقُوا۟
+- **B003** tuvalet sonrası pisliği gidererek temizlenme / الاستطابة تطهير من الخبث
+  - same: ط ه ر B003 suyla veya eşdeğer bir araçla yıkanıp temizlenme / التطهر بالماء والغسل ← 5:6 فَٱطَّهَّرُوا۟
+  - same: غ س ل B001 suyla yıkayıp kirden arındırma / تطهير الشيء بإسالة الماء وإزالة الدرن ← 5:6 فَٱغْسِلُوا۟
+  - same: ر ج ل B010 orta kıvırcıklıkta saç / الشعر الرَّجِل ← 5:6 وَأَرْجُلَكُمْ
+  - near: ط و ع B003 bir işi yapabilecek güç ve elverişlilik / الاستطاعة والإطاقة ← 5:7 وَأَطَعْنَا
+  - near: ز ك و B002 ahlaken arınıp düzgünleşme / الطهارة والصلاح ← 5:12 ٱلزَّكَوٰةَ
+  - near: س ج د B004 başı ve gövdeyi aşağı eğme veya yük altında yana yatma / طأطأة الرأس والانحناء ← 5:2 ٱلْمَسْجِدِ
+  - far: ط ه ر B003 suyla veya eşdeğer bir araçla yıkanıp temizlenme / التطهر بالماء والغسل ← 5:41 يُطَهِّرَ
+  - far: ب ر ء B005 — / الاستبراء ← 5:110 وَتُبْرِئُ
+- **B004** yeme ile cinsel birlikteliği birlikte adlandıran ikili / الأطيبان الأكل والنكاح
+  - same: ش ك ر B006 kadın cinsel organı veya birleşme için örtmece / كناية الفرج والنكاح ← 5:6 تَشْكُرُونَ
+  - same: ل م س B003 dokunma sözüyle cinsel birleşmeyi örtülü anlatma / كناية الجماع ← 5:6 لَٰمَسْتُمُ
+  - same: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 5:6 يُرِيدُ
+  - near: ء ك ل B001 yeme, yiyecek ve yeme rolleri / تناول المطعوم ← 5:4 فَكُلُوا۟
+  - near: ز ك و B002 ahlaken arınıp düzgünleşme / الطهارة والصلاح ← 5:12 ٱلزَّكَوٰةَ
+  - near: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 5:1 يُرِيدُ
+  - far: ج م ع B006 cinsel birleşme / اتصال الجماع والمجامعة ← 5:17 جَمِيعًا
+  - far: ب و ء B005 — / باءة النكاح ← 5:29 تَبُوٓأَ
+- **B005** Peygamber'in şehri için kullanılan özel ad / طيبة اسم المدينة
+  - same: ء ح د B006 Medine'deki belirli bir dağın özel adı / جبل أُحُد ← 5:6 أَحَدٌ
+  - same: ي م م B005 kişi ve yer adı alanı / اليمامة واليمة أسماء مواضع وأعلام ← 5:6 فَتَيَمَّمُوا۟
+  - same: ر ف ق B010 belirli bir yerleşim yerinin adı / اسم بلد ← 5:6 ٱلْمَرَافِقِ
+  - near: د ي ن B006 kent / مدينة الطاعة ← 5:3 دِينِكُمْ
+  - near: ب ن ي B003 Kabe, Allah'ın Evi veya Mekke için özel ad / البِنْية للبيت الحرام ومكة ← 5:12 بَنِىٓ
+  - near: ر س ل B002 haber taşıyıcısı veya taşınan haber / الرسول والرسالة ← 5:12 بِرُسُلِى
+  - far: د ي ن B006 kent / مدينة الطاعة ← 5:54 دِينِهِۦ
+  - far: ء ح د B006 Medine'deki belirli bir dağın özel adı / جبل أُحُد ← 5:20 أَحَدًا
+- **B006** içten razı olma ve iç rahatlığı bulma / النفس تطيب بالشيء
+  - same: ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 5:6 نِعْمَتَهُۥ
+  - same: ص ع د B007 acıyla yükselen uzun soluk / صعداء نفس يرتفع ← 5:6 صَعِيدًا
+  - same: ط ه ر B005 kötüden uzaklaşıp davranışını arındırma / تنزيه النفس والعمل عن القبيح ← 5:6 فَٱطَّهَّرُوا۟
+  - near: و ق ي B002 korkulan şeyden ya da yanlış davranıştan kendini koruma / جعل النفس في وقاية ← 5:7 وَٱتَّقُوا۟
+  - near: ط و ع B006 iç benliğin işi kolay gösterip yöneltmesi / تسهيل النفس للأمر ← 5:7 وَأَطَعْنَا
+  - near: ز ك و B002 ahlaken arınıp düzgünleşme / الطهارة والصلاح ← 5:12 ٱلزَّكَوٰةَ
+  - far: ن ف س B008 yaşamı sürdüren, bol ve doyurucu su / ماء تقام به النفس ← 5:25 نَفْسِى
+  - far: ش ي ء B005 — / انجذاب النفس إلى الشيء ← 5:17 شَيْـًٔا
+- **B007** güzel koku sürünmek için kullanılan koku maddesi / الطيب ما يتطيب به
+  - same: ط ه ر B004 kendisi temiz, başkasını temizleyen su veya araç / الطهور الذي يطهر غيره ← 5:6 فَٱطَّهَّرُوا۟
+  - same: ص ل ي B009 üzerinde madde dövülen geniş taş / الصلاية حجر يدق عليه ← 5:6 ٱلصَّلَوٰةِ
+  - same: ص ل و B008 üzerinde dövme yapılan geniş taş / الصَّلاية حجر الدق ← 5:6 ٱلصَّلَوٰةِ
+  - near: ك ف ر B011 koku maddesi, su kaynağı veya bitki / كافور طيب ← 5:5 يَكْفُرْ
+  - near: ز ك و B002 ahlaken arınıp düzgünleşme / الطهارة والصلاح ← 5:12 ٱلزَّكَوٰةَ
+  - near: ش ع ر B005 dikkatle fark edip bilme ve bunu sağlayan duyular / علم دقيق وفطنة ← 5:2 شَعَٰٓئِرَ
+  - far: ف و ه B005 koku karışımında kullanılan hoş kokulu madde / أفواه الطيب ← 5:41 بِأَفْوَٰهِهِمْ
+  - far: ع ر ف B004 koku; ayrıca güzel kokulu duruma getirme / عرف الرائحة والتطييب ← 5:83 عَرَفُوا۟
+- **B008** biriyle şakalaşıp hoşça takılmak / المطايبة مزاح
+  - same: م س ح B016 aldatıcı yumuşak söz ve içtensiz geçinme / الملاينة المخادعة في القول والمعاشرة ← 5:6 وَٱمْسَحُوا۟
+  - same: ك ع ب B004 kumaşı sıkıca dörtgen katlama / التربيع والطي الشديد ← 5:6 ٱلْكَعْبَيْنِ
+  - same: ر ف ق B008 bekleyip hemen harekete geçmemek / التمهل والانتظار ← 5:6 ٱلْمَرَافِقِ
+  - near: ط و ع B002 taraflar arasında uyum gösterme / الموافقة والمطاوعة ← 5:7 وَأَطَعْنَا
+  - near: ص ح ب B007 suyun yüzünü yosun kaplaması / طُحلب يعلو الماء ← 5:10 أَصْحَٰبُ
+  - near: خ ب ر B003 üründen pay karşılığı ortakçılık ve bunu yapan çiftçi / إصلاح الأرض بالمخابرة ← 5:8 خَبِيرٌۢ
+  - far: ف ر ي B009 gürültülü patırtı / جلبة ← 5:103 يَفْتَرُونَ
+  - far: ط و ع B002 taraflar arasında uyum gösterme / الموافقة والمطاوعة ← 5:30 فَطَوَّعَتْ
+
+## ر و د (يُرِيدُ)
+
+- **B001** dileyip yonelme / الإرادة والمشيئة
+  - same: ق و م B003 bir işe kararlılıkla girişme / عزم ونهوض إلى الأمر ← 5:6 قُمْتُمْ
+  - same: ر د د B005 İslam'dan inkâra dönme / الردة والارتداد عن الدين ← 5:6 يُرِيدُ
+  - same: ج ي ء B001 — / المجيء والحصول ← 5:6 جَآءَ
+  - near: ك ت ب B003 bağlayıcı olarak hükme bağlama ve belirleme / إثبات يوجب حكما أو قدرا ← 5:5 ٱلْكِتَٰبَ
+  - near: ق و م B003 bir işe kararlılıkla girişme / عزم ونهوض إلى الأمر ← 5:8 قَوَّٰمِينَ
+  - near: ح ب ب B002 sevgi ve yeğleme / المحبة الملازمة للقلب ← 5:13 يُحِبُّ
+  - far: ش ي ء B002 — / المشيئة المتعلّقة بالشيء ← 5:17 شَيْـًٔا
+  - far: ش ي ء B001 — / المشيئة ← 5:17 شَيْـًٔا
+- **B002** birini istegine karsi razi etmeye calisma / المراودة على الفعل
+  - same: ر د د B006 boşanıp ailesine dönen kadın / المرأة المردودة إلى أهلها ← 5:6 يُرِيدُ
+  - same: ج ع ل B004 bir eylemi yapmaya başlama / الشروع في الفعل أو ملازمته ← 5:6 لِيَجْعَلَ
+  - same: ن ع م B010 daha da artırmak veya ileri dereceye götürmek / زاد وأنعم في الفعل ← 5:6 نِعْمَتَهُۥ
+  - near: ه م م B001 bir şeyi içinden geçirme, isteme veya ona karar verme / انعقاد الهم في النفس ← 5:11 هَمَّ
+  - near: ص د د B001 yüz çevirme ve alıkoyma / إعراض وصرف ← 5:2 صَدُّوكُمْ
+  - near: ز ي ل B003 süreklilik bildiren yardımcı yapı / دوام الفعل في عبارة ما زال ← 5:13 تَزَالُ
+  - far: ر و ح B008 iki seçenek arasında nöbetleşme / المراوحة والتناوب ← 5:110 بِرُوحِ
+  - far: ج م ع B013 bir işte başkasıyla birleşip destek olma / ممالأة واجتماع مع غيرك على أمر ← 5:17 جَمِيعًا
+- **B003** dolasarak arama / طلب الشيء وارتياده
+  - same: ر د د B004 geri isteme veya karşılıklı geri verme / الاسترداد والتراد في البيع ← 5:6 يُرِيدُ
+  - same: ل م س B002 bir şeyi arama veya elde etmeyi isteme / طلب الشيء والتماسه ← 5:6 لَٰمَسْتُمُ
+  - same: ت م م B005 konusmada takilma / ترديد التاء في الكلام ← 5:6 وَلِيُتِمَّ
+  - near: ه م م B011 bir şeyi arayıp izini sürme; kalıpta kendi yararını gözetme / طلب وتتبع ← 5:11 هَمَّ
+  - near: ب غ ي B001 bir şeyi arayıp istemek; başkası için aramak veya arayışına yardım etmek / طلب الشيء وابتغاؤه ← 5:2 يَبْتَغُونَ
+  - near: ع ق ب B008 ardından izleyip yeniden inceleme / التعقب والمراجعة ← 5:2 ٱلْعِقَابِ
+  - far: ر د د B004 geri isteme veya karşılıklı geri verme / الاسترداد والتراد في البيع ← 5:21 تَرْتَدُّوا۟
+  - far: ب غ ي B001 bir şeyi arayıp istemek; başkası için aramak veya arayışına yardım etmek / طلب الشيء وابتغاؤه ← 5:35 وَٱبْتَغُوٓا۟
+- **B004** gidip gelme / التردد والاختلاف جيئة وذهابا
+  - same: ر د د B010 yineleme, gidip gelme, kararsızlık veya sıkı yapılı olma / التكرار والتردد والحيرة ← 5:6 يُرِيدُ
+  - same: ج ي ء B001 — / المجيء والحصول ← 5:6 جَآءَ
+  - same: ج د د B005 belirgin şerit veya ana yol / طرائق وخطط ظاهرة ← 5:6 تَجِدُوا۟
+  - near: ض ل ل B003 bir şeyi yitirme veya yerini bulamama; özel olarak kanın karşılıksız kalması / فقدان الشيء ← 5:12 ضَلَّ
+  - near: ص د ر B003 geldiği yerden ayrılıp dönme / الصُّدور عن المورد ← 5:7 ٱلصُّدُورِ
+  - near: ع ظ م B008 kalçayı büyük gösteren dolgu / عظامة الردف ← 5:9 عَظِيمٌ
+  - far: ر د د B010 yineleme, gidip gelme, kararsızlık veya sıkı yapılı olma / التكرار والتردد والحيرة ← 5:21 تَرْتَدُّوا۟
+  - far: ن د و B006 hayvanları su ile yakın otlak arasında dolaştırma / تندية الإبل والخيل بين الماء والمرعى ← 5:58 نَادَيْتُمْ
+- **B005** yumusak ve yavas ilerleme / الرفق والمهل
+  - same: ر ف ق B008 bekleyip hemen harekete geçmemek / التمهل والانتظار ← 5:6 ٱلْمَرَافِقِ
+  - same: ر د د B009 düşmeyi önleyen dayanak, sırt veya yük devesi / العماد وما يحمل ويرد عن السقوط ← 5:6 يُرِيدُ
+  - same: ر ج ل B003 yaya giden kişi / المشي على الأرجل ← 5:6 وَأَرْجُلَكُمْ
+  - near: ر س ل B004 acele etmeden ölçülü ilerleme / الرفق والتؤدة ← 5:12 بِرُسُلِى
+  - near: ر د ي B003 düşerek ya da başka yolla ölme, yok olma veya yok etme / السقوط إلى الهلاك ← 5:3 وَٱلْمُتَرَدِّيَةُ
+  - near: ه د ي B003 bir şeyin ilk veya öndeki bölümü / المتقدم الهادي وأوائل الشيء ← 5:2 ٱلْهَدْىَ
+  - far: ه و د B003 yavaş ve yumuşak ilerleme ya da sakin söyleyiş / المشي الرويد والسكون ← 5:41 هَادُوا۟
+  - far: ر س ل B004 acele etmeden ölçülü ilerleme / الرفق والتؤدة ← 5:15 رَسُولُنَا
+- **B006** cevirme kolu ve doner demir parca / أدوات الإدارة والدوران
+  - same: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 5:6 قُمْتُمْ
+  - same: ر د د B009 düşmeyi önleyen dayanak, sırt veya yük devesi / العماد وما يحمل ويرد عن السقوط ← 5:6 يُرِيدُ
+  - same: غ و ط B004 bükülerek alçalmak / انخفاض بانثناء ← 5:6 ٱلْغَآئِطِ
+  - near: ك ل ب B007 kanca, tutucu çivi, kavrama aleti veya pençe / الكلاب والكلوب الماسك ← 5:4 مُكَلِّبِينَ
+  - near: س م ع B015 öküz koşumundaki iki uzun çubuk / السميعان من أدوات الحراثين ← 5:7 سَمِعْنَا
+  - near: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 5:8 قَوَّٰمِينَ
+  - far: ح و ر B007 dönme mili ve döndürerek biçim verme / الدوران على محور ← 5:111 ٱلْحَوَارِيِّۦنَ
+  - far: د و ر B001 dönme ve çevreleme / الدوران والإحاطة والاستدارة ← 5:52 دَآئِرَةٌ
+- **B007** gozde dolasan bozukluk / عوار العين الرائد
+  - same: ح ر ج B005 gözün şaşkınlıkla donakalması / حيرة العين وثباتها ← 5:6 حَرَجٍ
+  - same: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 5:6 قُمْتُمْ
+  - same: ن ع م B013 birini göz sevinci saymak veya bunun için dua etmek / نعم الله بك عينا وقرة العين ← 5:6 نِعْمَتَهُۥ
+  - near: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 5:8 قَوَّٰمِينَ
+  - near: ص د د B013 aynada hazırlanmış göz boyası / كحل المرآة ← 5:2 صَدُّوكُمْ
+  - near: ع م ل B010 iş gören beden parçası / الجارحة العاملة ← 5:5 عَمَلُهُۥ
+  - far: ح ذ ر B005 göze kaçan yabancı maddeden doğan ağırlık / ثقل العين من القذى ← 5:41 فَٱحْذَرُوا۟
+  - far: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد ← 5:32 ٱلنَّاسَ
+- **B008** genc kiz veya genc ve guzel kadin / الجارية الرود الشابة
+  - same: ك ع ب B003 göğüslerin gelişip belirginleşmesi / نتوء الثدي وبلوغه ← 5:6 ٱلْكَعْبَيْنِ
+  - same: ل م س B005 talep veya yakın gereksinim / اللُّماسة حاجة قريبة ← 5:6 لَٰمَسْتُمُ
+  - same: ر ج ل B002 erkek insan / الرجل الذكر ← 5:6 وَأَرْجُلَكُمْ
+  - near: ج ر ي B004 genç kız ve ona bağlı genç kızlık çağı / الجارية من النساء وصباها ← 5:12 تَجْرِى
+  - near: ء م م B014 genç kız veya kadın köle / الأمة الوليدة ← 5:2 ءَآمِّينَ
+  - near: ه م م B014 güzel yürüyüşlü dişi deve / حسن مشية الناقة ← 5:11 هَمَّ
+  - far: ج ر ي B004 genç kız ve ona bağlı genç kızlık çağı / الجارية من النساء وصباها ← 5:85 تَجْرِى
+  - far: ك ع ب B003 göğüslerin gelişip belirginleşmesi / نتوء الثدي وبلوغه ← 5:95 ٱلْكَعْبَةِ
+
+## ر د د (يُرِيدُ)
+
+- **B001** geri dönme veya geri döndürme / الرجوع إلى الشيء أو رده إلى موضعه
+  - same: ر و د B004 gidip gelme / التردد والاختلاف جيئة وذهابا ← 5:6 يُرِيدُ
+  - same: و ج ه B014 yanına gelen kişiyi geri çevirmek / الرد عن الوجه ← 5:6 وُجُوهَكُمْ
+  - same: ج ع ل B002 birini veya şeyi belirli bir duruma getirme / تصيير الشيء على حال ← 5:6 لِيَجْعَلَ
+  - near: د خ ل B001 içeri girmek veya içeri sokmak / الولوج إلى داخل ← 5:12 وَلَأُدْخِلَنَّكُمْ
+  - near: غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 5:5 غَيْرَ
+  - near: ق ب ل B004 uygun bulup benimseme / قبول الشيء برضا ← 5:5 قَبْلِكُمْ
+  - far: ر ج ع B001 geri dönmek veya geri döndürmek / العود والرد إلى ما كان ← 5:48 مَرْجِعُكُمْ
+  - far: ب و ء B002 — / رجوع الشيء على صاحبه ← 5:29 تَبُوٓأَ
+- **B002** yönünden çevirip engelleme / صرف الشيء ودفعه ومنعه
+  - same: و ج ه B014 yanına gelen kişiyi geri çevirmek / الرد عن الوجه ← 5:6 وُجُوهَكُمْ
+  - same: ر و د B002 birini istegine karsi razi etmeye calisma / المراودة على الفعل ← 5:6 يُرِيدُ
+  - same: ج ن ب B003 uzak durma veya uzaklaştırma / المجانبة إبعاد واعتزال وغربة ← 5:6 جُنُبًا
+  - near: ص د د B001 yüz çevirme ve alıkoyma / إعراض وصرف ← 5:2 صَدُّوكُمْ
+  - near: ك ف ف B002 geri durmak veya alıkoymak / الكف والمنع ← 5:11 فَكَفَّ
+  - near: ح ك م B001 alıkoyup geri çevirmek / المنع والرد للإصلاح ← 5:1 يَحْكُمُ
+  - far: ء ف ك B001 tersine çevirip yönünden saptırmak / قلب الشيء وصرفه عن وجهته ← 5:75 يُؤْفَكُونَ
+  - far: ص د د B001 yüz çevirme ve alıkoyma / إعراض وصرف ← 5:91 وَيَصُدَّكُمْ
+- **B003** kabul etmeyip geçersiz sayarak geri çevirme / عدم القبول ورد الزائف أو الخطأ
+  - same: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 5:6 يُرِيدُ
+  - same: ق و م B010 değer biçme ve belirlenen bedel / قيمة وتقويم وتسعير ← 5:6 قُمْتُمْ
+  - same: و ج ه B014 yanına gelen kişiyi geri çevirmek / الرد عن الوجه ← 5:6 وُجُوهَكُمْ
+  - near: ق ب ل B004 uygun bulup benimseme / قبول الشيء برضا ← 5:5 قَبْلِكُمْ
+  - near: ق س و B005 sert ve düşük nitelikli gümüşten sahte para / الدراهم القسية المغشوشة ← 5:13 قَٰسِيَةً
+  - near: ق ر ض B003 dengi ya da karşılığı beklenerek vermek / قطع مال أو عمل ليرد جزاؤه ← 5:12 وَأَقْرَضْتُمُ
+  - far: ق ب ل B004 uygun bulup benimseme / قبول الشيء برضا ← 5:27 فَتُقُبِّلَ
+  - far: ق ف و B008 iyice yaşlanıp güçten düşmek / الرد على القفا في الهرم ← 5:46 وَقَفَّيْنَا
+- **B004** geri isteme veya karşılıklı geri verme / الاسترداد والتراد في البيع
+  - same: ر و د B003 dolasarak arama / طلب الشيء وارتياده ← 5:6 يُرِيدُ
+  - same: ل م س B002 bir şeyi arama veya elde etmeyi isteme / طلب الشيء والتماسه ← 5:6 لَٰمَسْتُمُ
+  - same: م س ح B017 satışta el sıkışma / المصافحة في البيع ← 5:6 وَٱمْسَحُوا۟
+  - near: ر و د B003 dolasarak arama / طلب الشيء وارتياده ← 5:1 يُرِيدُ
+  - near: ب غ ي B001 bir şeyi arayıp istemek; başkası için aramak veya arayışına yardım etmek / طلب الشيء وابتغاؤه ← 5:2 يَبْتَغُونَ
+  - near: ه م م B011 bir şeyi arayıp izini sürme; kalıpta kendi yararını gözetme / طلب وتتبع ← 5:11 هَمَّ
+  - far: ر و د B003 dolasarak arama / طلب الشيء وارتياده ← 5:17 أَرَادَ
+  - far: ر ج ع B011 satış bedeliyle yerine mal almak / ارتجاع البيع والبدل ← 5:48 مَرْجِعُكُمْ
+- **B005** İslam'dan inkâra dönme / الردة والارتداد عن الدين
+  - same: ر و د B003 dolasarak arama / طلب الشيء وارتياده ← 5:6 يُرِيدُ
+  - same: و ج ه B014 yanına gelen kişiyi geri çevirmek / الرد عن الوجه ← 5:6 وُجُوهَكُمْ
+  - same: م ر ض B001 sağlıktan sapma ve güç kaybı / الخروج عن الصحة والاعتدال ← 5:6 مَّرْضَىٰٓ
+  - near: ك ف ر B006 inançsız saymak / نسبة إلى الكفر ← 5:5 يَكْفُرْ
+  - near: ر د ي B004 omuz giysisi, onu giyme ve örten ya da bezeyen şey / الرداء وما يلازم المنكبين ← 5:3 وَٱلْمُتَرَدِّيَةُ
+  - near: ر و د B003 dolasarak arama / طلب الشيء وارتياده ← 5:1 يُرِيدُ
+  - far: ك ف ر B006 inançsız saymak / نسبة إلى الكفر ← 5:17 كَفَرَ
+  - far: ر ج ع B001 geri dönmek veya geri döndürmek / العود والرد إلى ما كان ← 5:48 مَرْجِعُكُمْ
+- **B006** boşanıp ailesine dönen kadın / المرأة المردودة إلى أهلها
+  - same: ر و د B002 birini istegine karsi razi etmeye calisma / المراودة على الفعل ← 5:6 يُرِيدُ
+  - same: ن س و B001 kadın topluluğunu bildiren ayrı biçimli çoğullar / جماعة النساء ← 5:6 ٱلنِّسَآءَ
+  - same: ي د ي B003 karşılıksız iyilik ve bağış / اليَد النعمة ← 5:6 وَأَيْدِيَكُمْ
+  - near: ر س ل B009 taliplerin haber gönderdiği dul veya ayrılmak üzere olan kadın / المرأة المراسل ← 5:12 بِرُسُلِى
+  - near: ر و د B002 birini istegine karsi razi etmeye calisma / المراودة على الفعل ← 5:1 يُرِيدُ
+  - near: ج ر ي B004 genç kız ve ona bağlı genç kızlık çağı / الجارية من النساء وصباها ← 5:12 تَجْرِى
+  - far: ر ج ع B004 boşama sonrası evlilik bağına geri alma / رجعة المرأة في النكاح والأهل ← 5:48 مَرْجِعُكُمْ
+  - far: ر س ل B009 taliplerin haber gönderdiği dul veya ayrılmak üzere olan kadın / المرأة المراسل ← 5:15 رَسُولُنَا
+- **B007** sütün, suyun veya bedensel sıvının birikip çoğalması / امتلاء الضرع وتجمع الماء
+  - same: ش ك ر B003 dolup bollaşma / الامتلاء والغزر وكثرة اللبن ← 5:6 تَشْكُرُونَ
+  - same: م و ه B002 suyun belirmesi, çoğalması, içeri girmesi veya bir şeyi doldurması / ظهور الماء ودخوله وكثرته ← 5:6 مَآءً
+  - same: ج د د B011 susuz yer veya sütü kesilmiş dişi hayvan / انقطاع ماء أو لبن ← 5:6 تَجِدُوا۟
+  - near: ر س ل B006 bol ve sürekli gelen süt / اللبن والدر المتتابع ← 5:12 بِرُسُلِى
+  - near: ح ل ل B009 doğum olmadan memeye süt inmesi / إحلال اللبن ← 5:5 أُحِلَّ
+  - near: ر ب ب B013 bol ve toplanmış su / ماء رَبَب كثير ← 5:2 رَّبِّهِمْ
+  - far: ش ك ر B003 dolup bollaşma / الامتلاء والغزر وكثرة اللبن ← 5:89 تَشْكُرُونَ
+  - far: ر س ل B006 bol ve sürekli gelen süt / اللبن والدر المتتابع ← 5:15 رَسُولُنَا
+- **B008** görünüş, nitelik veya konuşmadaki kusur / عيب يرد البصر أو اللسان
+  - same: و ج ه B014 yanına gelen kişiyi geri çevirmek / الرد عن الوجه ← 5:6 وُجُوهَكُمْ
+  - same: م س ح B006 güzellik ve soyluluk belirtisi / مسحة الحسن والملك والكرم ← 5:6 وَٱمْسَحُوا۟
+  - same: ر و د B007 gozde dolasan bozukluk / عوار العين الرائد ← 5:6 يُرِيدُ
+  - near: س و ء B001 çirkinlik ve kötülük / القبح والرداءة ← 5:12 سَيِّـَٔاتِكُمْ
+  - near: ع ق د B007 konuşmanın tutulması veya anlaşılmaz duruma gelmesi / حبسة اللسان وتعقيد الكلام ← 5:1 بِٱلْعُقُودِ
+  - near: ر د ي B004 omuz giysisi, onu giyme ve örten ya da bezeyen şey / الرداء وما يلازم المنكبين ← 5:3 وَٱلْمُتَرَدِّيَةُ
+  - far: ن ظ ر B007 özel adlandırma kümesi / أثر النظرة في اللون والعيب ← 5:75 ٱنظُرْ
+  - far: ح ب س B006 dil ağırlaşması, söz çıkaramama veya susma / حبسة اللسان والكلام ← 5:106 تَحْبِسُونَهُمَا
+- **B009** düşmeyi önleyen dayanak, sırt veya yük devesi / العماد وما يحمل ويرد عن السقوط
+  - same: ق و م B009 ayakta tutan dayanak ve geçim temeli / قوام وعماد ومعاش ← 5:6 قُمْتُمْ
+  - same: ر و د B003 dolasarak arama / طلب الشيء وارتياده ← 5:6 يُرِيدُ
+  - same: ء ي د B001 güç ve güçlendirme / قوة مؤيدة ← 5:6 وَأَيْدِيَكُمْ
+  - near: ق و م B009 ayakta tutan dayanak ve geçim temeli / قوام وعماد ومعاش ← 5:8 قَوَّٰمِينَ
+  - near: ر د ي B003 düşerek ya da başka yolla ölme, yok olma veya yok etme / السقوط إلى الهلاك ← 5:3 وَٱلْمُتَرَدِّيَةُ
+  - near: ء ي ي B005 nesne zamiri dayanagi / إيا عماد للضمير ← 5:10 بِـَٔايَٰتِنَآ
+  - far: ع م د B003 taşıyıcı dik direk veya sütun / العمود والعماد ← 5:95 مُّتَعَمِّدًا
+  - far: ق و م B009 ayakta tutan dayanak ve geçim temeli / قوام وعماد ومعاش ← 5:14 ٱلْقِيَٰمَةِ
+- **B010** yineleme, gidip gelme, kararsızlık veya sıkı yapılı olma / التكرار والتردد والحيرة
+  - same: ر و د B004 gidip gelme / التردد والاختلاف جيئة وذهابا ← 5:6 يُرِيدُ
+  - same: ت م م B005 konusmada takilma / ترديد التاء في الكلام ← 5:6 وَلِيُتِمَّ
+  - same: ل م س B002 bir şeyi arama veya elde etmeyi isteme / طلب الشيء والتماسه ← 5:6 لَٰمَسْتُمُ
+  - near: ر و د B004 gidip gelme / التردد والاختلاف جيئة وذهابا ← 5:1 يُرِيدُ
+  - near: ت م م B005 konusmada takilma / ترديد التاء في الكلام ← 5:3 وَأَتْمَمْتُ
+  - near: ع ق ب B009 aynı tür işi yeniden yapma / العود مرة بعد مرة ← 5:2 ٱلْعِقَابِ
+  - far: ر و د B004 gidip gelme / التردد والاختلاف جيئة وذهابا ← 5:17 أَرَادَ
+  - far: ح و ر B009 yok olma, işlerin durması ya da durum değiştirme / الهلكة والكساد ← 5:111 ٱلْحَوَارِيِّۦنَ
+
+## ء ل ه (ٱللَّهُ)
+
+- **B001** tapınma ve tapınılan varlık / التعبد والمعبود
+  - same: ء ح د B001 tek ve eşi olmayan olma / الأَحَدِيَّة والوَحْدَة ← 5:6 أَحَدٌ
+  - same: ص ل ي B008 tapınma yeri, özellikle Yahudi tapınağı / الصلوات مواضع عبادة ← 5:6 ٱلصَّلَوٰةِ
+  - same: ص ل و B007 tapınma yeri; kilise / مواضع الصلاة ودور العبادة ← 5:6 ٱلصَّلَوٰةِ
+  - near: ن ص ب B002 tapınma veya adak kesme taşı / حجر منصوب للعبادة والذبح ← 5:3 ٱلنُّصُبِ
+  - near: د ي ن B001 boyun eğerek uyma ve buna dayalı inanç düzeni / الطاعة والانقياد ← 5:3 دِينِكُمْ
+  - near: ر ب ب B001 sahip olup yönetme / ربوبية وملك وسيادة ← 5:2 رَّبِّهِمْ
+  - far: ع ب د B003 boyun eğerek itaat ve tapınma / العبادة والطاعة الخاضعة ← 5:60 وَعَبَدَ
+  - far: ر ه ب B003 korkuyla kendini tapınmaya verme / تعبد من رهبة ← 5:82 وَرُهْبَانًا
+- **B002** Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء
+  - same: ء م ن B003 duada kabul istegi sozu / قول آمين طلبا للاستجابة ← 5:6 ءَامَنُوٓا۟
+  - same: ء ح د B001 tek ve eşi olmayan olma / الأَحَدِيَّة والوَحْدَة ← 5:6 أَحَدٌ
+  - same: ك ع ب B009 talihin veya saygınlığın yükselmesi için dua / ارتفاع الجد والشرف ← 5:6 ٱلْكَعْبَيْنِ
+  - near: ر ب ب B001 sahip olup yönetme / ربوبية وملك وسيادة ← 5:2 رَّبِّهِمْ
+  - near: ء ي ي B010 yemin oncesi evet / إي افتتاح للقسم ← 5:10 بِـَٔايَٰتِنَآ
+  - near: ء م ن B003 duada kabul istegi sozu / قول آمين طلبا للاستجابة ← 5:5 ٱلْمُؤْمِنَٰتِ
+  - far: ر ب ب B001 sahip olup yönetme / ربوبية وملك وسيادة ← 5:24 وَرَبُّكَ
+  - far: ء ي ي B010 yemin oncesi evet / إي افتتاح للقسم ← 5:44 بِـَٔايَٰتِى
+
+## ج ع ل (لِيَجْعَلَ)
+
+- **B001** bir şeyi yapıp var etme / إحداث الشيء وصنعه
+  - same: و ج د B002 varlığa gelme, var olma ve var etme / ثبوت الشيء في الوجود ← 5:6 تَجِدُوا۟
+  - same: ك و ن B001 gerçekleşme, bulunma ve olma bildirimi / وقوع الشيء وحضوره في زمان ← 5:6 كُنتُمْ
+  - same: ء ح د B001 tek ve eşi olmayan olma / الأَحَدِيَّة والوَحْدَة ← 5:6 أَحَدٌ
+  - near: ص ح ب B004 eşlikçi kılmak, yanında götürmek veya uygun düşmek / جعل الشيء مصاحبا واستصحابه ← 5:10 أَصْحَٰبُ
+  - near: ب ع د B003 uzaklastirma / إحداث البعد والمباعدة ← 5:12 بَعْدَ
+  - near: ع م ل B002 işe koşmak veya kullanmak / إعمال الشيء واستعماله ← 5:5 عَمَلُهُۥ
+  - far: ص ن ع B001 yapıp ortaya çıkarma / عمل الشيء صنعا ← 5:14 يَصْنَعُونَ
+  - far: و ج د B002 varlığa gelme, var olma ve var etme / ثبوت الشيء في الوجود ← 5:82 لَتَجِدَنَّ
+- **B002** birini veya şeyi belirli bir duruma getirme / تصيير الشيء على حال
+  - same: ء ح د B003 bir sayısı, onlu kuruluşları ve on bire çıkarma / الواحد في العد والتركيب ← 5:6 أَحَدٌ
+  - same: ر د د B001 geri dönme veya geri döndürme / الرجوع إلى الشيء أو رده إلى موضعه ← 5:6 يُرِيدُ
+  - same: ك و ن B001 gerçekleşme, bulunma ve olma bildirimi / وقوع الشيء وحضوره في زمان ← 5:6 كُنتُمْ
+  - near: ص ح ب B004 eşlikçi kılmak, yanında götürmek veya uygun düşmek / جعل الشيء مصاحبا واستصحابه ← 5:10 أَصْحَٰبُ
+  - near: ع م ل B001 bilerek yapılan iş veya eylem / الفعل المقصود والعمل ← 5:5 عَمَلُهُۥ
+  - near: ء ت ي B013 etkili ve işini yürüten adam / نَفاذ الرجل ← 5:5 أُوتُوا۟
+  - far: ص ي ر B001 bir durumdan ötekine geçme, bir sonuca varma veya bir şeyi o duruma getirme / الصيرورة إلى المآل ← 5:18 ٱلْمَصِيرُ
+  - far: و ح د B006 tek yavru doğurma veya çağının eşsizi kılma / إخراج الواحد أو جعله واحدا ← 5:48 وَٰحِدَةً
+- **B004** bir eylemi yapmaya başlama / الشروع في الفعل أو ملازمته
+  - same: ن ع م B010 daha da artırmak veya ileri dereceye götürmek / زاد وأنعم في الفعل ← 5:6 نِعْمَتَهُۥ
+  - same: ر و د B002 birini istegine karsi razi etmeye calisma / المراودة على الفعل ← 5:6 يُرِيدُ
+  - same: ك و ن B001 gerçekleşme, bulunma ve olma bildirimi / وقوع الشيء وحضوره في زمان ← 5:6 كُنتُمْ
+  - near: ز ي ل B003 süreklilik bildiren yardımcı yapı / دوام الفعل في عبارة ما زال ← 5:13 تَزَالُ
+  - near: ع م ل B001 bilerek yapılan iş veya eylem / الفعل المقصود والعمل ← 5:5 عَمَلُهُۥ
+  - near: ك ذ ب B005 gecikmeden yapmak / ما كذب أن فعل أي ما لبث ← 5:10 وَكَذَّبُوا۟
+  - far: ص ن ع B001 yapıp ortaya çıkarma / عمل الشيء صنعا ← 5:14 يَصْنَعُونَ
+  - far: ق ع د B016 başlamak, olmak ya da kalmak / قعد بمعنى شرع أو صار ← 5:24 قَٰعِدُونَ
+- **B005** iş karşılığı belirlenen ücret veya ortaklaşa kararlaştırılan ödeme / أجر مجعول على عمل
+  - same: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 5:6 يُرِيدُ
+  - same: ج ي ء B001 — / المجيء والحصول ← 5:6 جَآءَ
+  - same: ق و م B009 ayakta tutan dayanak ve geçim temeli / قوام وعماد ومعاش ← 5:6 قُمْتُمْ
+  - near: ع م ل B004 iş ücreti / أجر العمل ورزق العامل ← 5:5 عَمَلُهُۥ
+  - near: ء ج ر B001 iş veya anlaşma karşılığında sağlanan yarar / جزاء العمل والكراء ← 5:5 أُجُورَهُنَّ
+  - near: ق ر ض B003 dengi ya da karşılığı beklenerek vermek / قطع مال أو عمل ليرد جزاؤه ← 5:12 وَأَقْرَضْتُمُ
+  - far: ع م ل B004 iş ücreti / أجر العمل ورزق العامل ← 5:53 أَعْمَٰلُهُمْ
+  - far: ث و ب B002 yapılan işin sahibine dönen karşılık / جزاء العمل العائد إلى عامله ← 5:60 مَثُوبَةً
+- **B006** kısa veya küçük hurma ağaçları / النخل الصغار أو القصار
+  - same: ر ج ل B008 su akıntısı yatağı / رِجْلة الماء ← 5:6 وَأَرْجُلَكُمْ
+  - same: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 5:6 نِعْمَتَهُۥ
+  - same: ج د د B003 kesme ve ayırma / قطع وصرم ← 5:6 تَجِدُوا۟
+  - near: ب ن ي B008 küçük, dallanmış veya yerden çıkan şeylere çocuk adı verme / تسميات الابن والبنت للأشياء المتفرعة أو الصغيرة ← 5:12 بَنِىٓ
+  - near: ط ل ع B005 palmiye ağacının kapalı çiçek salkımı; salkımın veya ekinin belirmesi / خروج الطلع والنبات ← 5:13 تَطَّلِعُ
+  - near: ح ب ب B010 kısa veya küçük yapılı; develerde cılız / الحبحاب الصغير القصير ← 5:13 يُحِبُّ
+  - far: ش ي ء B006 — / صغار النخل ← 5:17 شَيْـًٔا
+  - far: ش ي ء B008 — / صغار النخل ← 5:17 شَيْـًٔا
+- **B007** sıcak tencereyi indirme bezi ve onunla indirme / خرقة إنزال القدر
+  - same: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 5:6 نِعْمَتَهُۥ
+  - same: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 5:6 قُمْتُمْ
+  - same: ص ل ي B003 ateşin veya benzer bir sıkıntının şiddetine uğramak; birini ateşe sokmak / ملاقاة النار وحرها ← 5:6 ٱلصَّلَوٰةِ
+  - near: ع ق ب B011 geride kalan son parça ya da iz / بقية الشيء وأثره ← 5:2 ٱلْعِقَابِ
+  - near: ع ف و B009 seçkin yiyecek payı veya tencereye geri konan et suyu / العفاوة والعافي من الطعام والقدر ← 5:13 فَٱعْفُ
+  - near: ر ب ب B010 kura oklarını toplayan kap / ربابة تجمع القداح ← 5:2 رَّبِّهِمْ
+  - far: ق د ر B007 pişirme kabı ve ona bağlı yemek, pişirme işi ve görevli sözleri / قدر الطبخ وما يدور حولها ← 5:17 قَدِيرٌ
+  - far: ث ل ث B007 ocak icin ucuncu kaya / ثالثة الأثافي ← 5:73 ثَالِثُ
+- **B008** kara küçük yer hayvanı ve bunlarla dolu su / دويبة الجعلان
+  - same: ج د د B013 cırcır böceği / دويبة الجُدجُد ← 5:6 تَجِدُوا۟
+  - same: ق و م B016 donup akmama veya yorulup ilerleyememe / جمود ووقوف وكلال ← 5:6 قُمْتُمْ
+  - same: م و ه B002 suyun belirmesi, çoğalması, içeri girmesi veya bir şeyi doldurması / ظهور الماء ودخوله وكثرته ← 5:6 مَآءً
+  - near: ه م م B005 sürünüş ve yerde sürünen küçük canlılar / دبيب الهوام ← 5:11 هَمَّ
+  - near: ص د د B008 türü tartışmalı küçük hayvan / دويبة صغيرة ← 5:2 صَدُّوكُمْ
+  - near: ق ر ض B010 güvercin öldüren uzun sırtlı küçük hayvan adı / اسم دويبة مقرضة ← 5:12 وَأَقْرَضْتُمُ
+  - far: ح ش ر B004 küçük kara hayvanları / دواب الأرض الصغار المتكاثرة ← 5:96 تُحْشَرُونَ
+  - far: ص د د B008 türü tartışmalı küçük hayvan / دويبة صغيرة ← 5:91 وَيَصُدَّكُمْ
+- **B009** dişinin çiftleşmek için erkeği istemesi / اشتهاء الأنثى للفحل
+  - same: م و ه B004 üreme sıvısını dişinin döl yatağına bırakma / ماء الفحل في الرحم ← 5:6 مَآءً
+  - same: ت م م B006 paylari tamamlayip yedirme / تتميم الأيسار ← 5:6 وَلِيُتِمَّ
+  - same: ن ع م B012 birine yaya gitmek ve ayakları yürüyerek kullanmak / المشي على القدم وابتذالها ← 5:6 نِعْمَتَهُۥ
+  - near: ح ر م B012 cinsel dürtünün yükselmesi ve dişinin erkeği istemesi / الحِرمة شهوة الفحل ← 5:3 حُرِّمَتْ
+  - near: ء ت ي B012 dişi devenin çiftleşmek istemesi / استئتاء الناقة ← 5:5 أُوتُوا۟
+  - near: و ع د B005 erkek hayvanın saldırı öncesi kükremesi / وعيد الفحل هدير قبل الصيال ← 5:9 وَعَدَ
+  - far: ح ر م B012 cinsel dürtünün yükselmesi ve dişinin erkeği istemesi / الحِرمة شهوة الفحل ← 5:26 مُحَرَّمَةٌ
+  - far: ء ت ي B012 dişi devenin çiftleşmek istemesi / استئتاء الناقة ← 5:20 وَءَاتَىٰكُم
+- **B010** deve kuşu yavrusu / فرخ النعام
+  - same: ن ع م B006 devekuşu / النعام والنعامة الطائر ← 5:6 نِعْمَتَهُۥ
+  - same: ي م م B004 güvercin türü kuş / اليمام طير ← 5:6 فَتَيَمَّمُوا۟
+  - same: ر ج ل B010 orta kıvırcıklıkta saç / الشعر الرَّجِل ← 5:6 وَأَرْجُلَكُمْ
+  - near: ن ع م B006 devekuşu / النعام والنعامة الطائر ← 5:7 نِعْمَةَ
+  - near: و ق ذ B003 uykululuğun bastırıp ağırlaştırması / نعاس يثقل ويغلب ← 5:3 وَٱلْمَوْقُوذَةُ
+  - near: غ ف ر B005 dağ keçisi yavrusu ve annesi / ولد الأروية وأمه ← 5:3 غَفُورٌ
+  - far: ظ ل م B006 erkek devekusu / الظليم ذكر النعام ← 5:16 ٱلظُّلُمَٰتِ
+  - far: ص و م B004 deve kuşu dışkısı / صوم النعام ← 5:89 فَصِيَامُ
+- **B011** belirtilmemiş bir yer adı / الجَعْلة اسم مكان
+  - same: ر ف ق B010 belirli bir yerleşim yerinin adı / اسم بلد ← 5:6 ٱلْمَرَافِقِ
+  - same: ق و م B006 bir yerde kalma ve kalınan yer / مقام وإقامة في موضع ← 5:6 قُمْتُمْ
+  - same: ك و ن B002 bulunma yeri ve konum değeri / المكان والمكانة من الكون ← 5:6 كُنتُمْ
+  - near: ج ن ف B003 iki söyleyişi bulunan belirli bir yer adı / جنفاء أو جنفى اسم موضع ← 5:3 مُتَجَانِفٍ
+  - near: ص ل ح B005 bir kent ve bir nehir için özel adlar / صلاح والصلح علمان لمواضع ← 5:9 ٱلصَّٰلِحَٰتِ
+  - near: ع ز ر B006 çekime giren bir peygamber adı / عُزَيْر اسم عَلَم ← 5:12 وَعَزَّرْتُمُوهُمْ
+  - far: ق د م B009 belirli bir yer adı / موضع اسمه القدوم ← 5:80 قَدَّمَتْ
+  - far: ص ل ح B005 bir kent ve bir nehir için özel adlar / صلاح والصلح علمان لمواضع ← 5:39 وَأَصْلَحَ
+- **B012** kısa, şişman ve inatçı olma / قصر مع سمن ولجاج
+  - same: ك ع ب B006 katı yağ parçası / قطعة السمن الجامدة ← 5:6 ٱلْكَعْبَيْنِ
+  - same: ء م ن B003 duada kabul istegi sozu / قول آمين طلبا للاستجابة ← 5:6 ءَامَنُوٓا۟
+  - same: م ر ض B001 sağlıktan sapma ve güç kaybı / الخروج عن الصحة والاعتدال ← 5:6 مَّرْضَىٰٓ
+  - near: ط ع م B007 ilikte yağı beliren, biraz semiz hayvan / سمن الحيوان وطعم الشحم ← 5:5 وَطَعَامُ
+  - near: ح ل ل B015 susam yağı / الحَلّ دهن السمسم ← 5:5 أُحِلَّ
+  - near: ء م م B006 boy ve beden görünüşü / القامة والهيئة ← 5:2 ءَآمِّينَ
+  - far: ك ل ل B008 kısa, kalın ve güçlü yapılı erkek / الكُلْكُل قصر وغلظ ← 5:17 كُلِّ
+  - far: ك ث ر B007 bir araya toplanma / الكمثرة اجتماع الشيء ← 5:15 كَثِيرًا
+
+## ح ر ج (حَرَجٍ)
+
+- **B001** sıkıca toplanma ve iç içe geçme / التجمع والالتفاف
+  - same: ج د د B012 düğümlü ipler ve dolaşık kalıntılar / خيوط معقودة وبقايا متشابكة ← 5:6 تَجِدُوا۟
+  - same: ج ي ء B003 — / مجتمع الماء في هبطة أو حول حصن ← 5:6 جَآءَ
+  - same: ج ي ء B002 — / الجِيأة مجتمع الماء ← 5:6 جَآءَ
+  - near: ع ق د B005 sık ve köklü ağaçlık ya da otlak / كثافة الشجر والمرعى ← 5:1 بِٱلْعُقُودِ
+  - near: ج ن ن B011 bitkinin güçlenip boylanması ve sıklaşması / التفاف النبات واندفاعه ← 5:12 جَنَّٰتٍ
+  - near: ك ت ب B001 bir şeyi başka bir şeye katıp birleştirme / ضم شيء إلى شيء ← 5:5 ٱلْكِتَٰبَ
+  - far: ج م ع B001 dağınık parçaları bir araya toplama / ضم المتفرق حتى يصير شيئا مجموعا ← 5:17 جَمِيعًا
+  - far: ع ق د B005 sık ve köklü ağaçlık ya da otlak / كثافة الشجر والمرعى ← 5:89 عَقَّدتُّمُ
+- **B002** şiddetli darlık ve sıkışmışlık / الضيق والحرج
+  - same: ج ي ء B005 — / الإلجاء والاضطرار ← 5:6 جَآءَ
+  - same: ص ع د B007 acıyla yükselen uzun soluk / صعداء نفس يرتفع ← 5:6 صَعِيدًا
+  - same: ر ج ل B001 bacak uzvu / الرِّجل العضو ← 5:6 وَأَرْجُلَكُمْ
+  - near: خ ن ق B003 dar ve sıkışık geçit / مضيق خانق ← 5:3 وَٱلْمُنْخَنِقَةُ
+  - near: ض ر ر B005 sıkıştırıcı yakınlık, darlık ve vadi kıyısı / الدنوّ المزاحم وضفة الوادي ← 5:3 ٱضْطُرَّ
+  - near: ص د ر B001 göğüs bölgesi / الصدر الجارحة وما يتصل بها ← 5:7 ٱلصُّدُورِ
+  - far: ض ر ر B005 sıkıştırıcı yakınlık, darlık ve vadi kıyısı / الدنوّ المزاحم وضفة الوادي ← 5:42 يَضُرُّوكَ
+  - far: و س ع B005 kolaylık tanıyıp güçlüğü azaltma / توسعة الرخصة ورفع العسر ← 5:54 وَٰسِعٌ
+- **B003** günah ve manevi suç / الإثم والتحرج
+  - same: ط ه ر B005 kötüden uzaklaşıp davranışını arındırma / تنزيه النفس والعمل عن القبيح ← 5:6 فَٱطَّهَّرُوا۟
+  - same: ش ك ر B006 kadın cinsel organı veya birleşme için örtmece / كناية الفرج والنكاح ← 5:6 تَشْكُرُونَ
+  - same: ج ن ب B012 atın bacaklarında doğuştan ölçülü açıklık / التجنيب تباعد في هيئة القوائم ← 5:6 جُنُبًا
+  - near: ء ث م B002 günahtan sakınma ve günah yükünden çıkma / التأثم كف عن الإثم ← 5:3 لِّإِثْمٍ
+  - near: ك ف ر B009 günah yükünü giderme / محو الإثم بتغطيته ← 5:5 يَكْفُرْ
+  - near: ء خ ذ B002 suçundan sorumlu tutma / المؤاخذة بالذنب ← 5:5 مُتَّخِذِىٓ
+  - far: ء ث م B002 günahtan sakınma ve günah yükünden çıkma / التأثم كف عن الإثم ← 5:29 بِإِثْمِى
+  - far: ذ ن ب B001 günah veya kötü sonuç doğuran suç / الذنب والإثم ← 5:18 بِذُنُوبِكُم
+- **B004** yasak kılma / التحريم والحظر
+  - same: ص ل ي B003 ateşin veya benzer bir sıkıntının şiddetine uğramak; birini ateşe sokmak / ملاقاة النار وحرها ← 5:6 ٱلصَّلَوٰةِ
+  - same: م ر ض B004 işi gevşek bırakma ve çabada yetersiz kalma / إضعاف الأمر وقصور الحركة ← 5:6 مَّرْضَىٰٓ
+  - same: ر د د B006 boşanıp ailesine dönen kadın / المرأة المردودة إلى أهلها ← 5:6 يُرِيدُ
+  - near: ح ر م B004 dinsel ziyaret ibadetinin kısıtlı durumuna girme / الإحرام بالنسك ← 5:3 حُرِّمَتْ
+  - near: ح ل ل B003 yasağın kalkması ve izinli duruma gelme / انحلال الحظر ← 5:5 أُحِلَّ
+  - near: ح ص ن B003 evlilik veya hukuki engelle kazanılan korunmuş durum / إحصان بعقد أو حرمة ← 5:5 وَٱلْمُحْصَنَٰتُ
+  - far: ح ر م B004 dinsel ziyaret ibadetinin kısıtlı durumuna girme / الإحرام بالنسك ← 5:26 مُحَرَّمَةٌ
+  - far: ح ل ل B003 yasağın kalkması ve izinli duruma gelme / انحلال الحظر ← 5:87 أَحَلَّ
+- **B005** gözün şaşkınlıkla donakalması / حيرة العين وثباتها
+  - same: ر و د B007 gozde dolasan bozukluk / عوار العين الرائد ← 5:6 يُرِيدُ
+  - same: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 5:6 قُمْتُمْ
+  - same: ن ع م B013 birini göz sevinci saymak veya bunun için dua etmek / نعم الله بك عينا وقرة العين ← 5:6 نِعْمَتَهُۥ
+  - near: ر و د B007 gozde dolasan bozukluk / عوار العين الرائد ← 5:1 يُرِيدُ
+  - near: ء ث م B002 günahtan sakınma ve günah yükünden çıkma / التأثم كف عن الإثم ← 5:3 لِّإِثْمٍ
+  - near: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 5:8 قَوَّٰمِينَ
+  - far: ح و ر B001 göz akıyla göz karasının güçlü karşıtlığı / حَوَر العين ← 5:111 ٱلْحَوَارِيِّۦنَ
+  - far: ع ي ن B016 geniş ve güzel gözlü olma / سعة العين وحسنها ← 5:45 وَٱلْعَيْنَ
+- **B006** ahşap taşıma sedyesi veya kafesi / السرير والمحفة
+  - same: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 5:6 قُمْتُمْ
+  - same: ج د د B012 düğümlü ipler ve dolaşık kalıntılar / خيوط معقودة وبقايا متشابكة ← 5:6 تَجِدُوا۟
+  - same: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 5:6 نِعْمَتَهُۥ
+  - near: ح ل ل B013 taşınabilir yol ve konak takımı / حلال الرحل ← 5:5 أُحِلَّ
+  - near: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 5:8 قَوَّٰمِينَ
+  - near: ح ب ط B004 yaranın nüksetmesi veya deride iz kalması / نكس الجرح وبقاء أثره ← 5:5 حَبِطَ
+  - far: ح ل ل B013 taşınabilir yol ve konak takımı / حلال الرحل ← 5:87 أَحَلَّ
+  - far: ح ب س B005 yatak örtüsü, taşıma bölmesi kuşağı veya perde halkası / مَحبس الفراش والستر ← 5:106 تَحْبِسُونَهُمَا
+- **B007** zayıf ya da uzun gövdeli dişi deve / الناقة الضامرة والطويلة
+  - same: ص ع د B004 yeryüzü veya toprak yüzeyi / صعيد وجه الأرض ← 5:6 صَعِيدًا
+  - same: ج د د B007 düz ve sert yer yüzeyi / وجه الأرض المستوي ← 5:6 تَجِدُوا۟
+  - same: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 5:6 نِعْمَتَهُۥ
+  - near: ح ر ف B004 sert ya da ince yapılı dişi deve / ناقة مشبهة بحرف الجبل ← 5:13 يُحَرِّفُونَ
+  - near: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 5:8 خَبِيرٌۢ
+  - near: ن ق ض B002 yolculukların gücünü tükettiği deve / بعير أنهكته الأسفار ← 5:13 نَقْضِهِم
+  - far: ح ر ف B004 sert ya da ince yapılı dişi deve / ناقة مشبهة بحرف الجبل ← 5:41 يُحَرِّفُونَ
+  - far: ع ل و B010 uzun ve iri yapılı / الطول والضخامة ← 5:104 تَعَالَوْا۟
+- **B012** savaştan ayrılmayan adam / لزوم القتال
+  - same: ك ع ب B010 zarar vermek üzere umursamadan atılmak / انطلاق المضار غير المبالِي ← 5:6 ٱلْكَعْبَيْنِ
+  - same: م ر ض B004 işi gevşek bırakma ve çabada yetersiz kalma / إضعاف الأمر وقصور الحركة ← 5:6 مَّرْضَىٰٓ
+  - same: غ س ل B003 çok çiftleştiği halde döllemeyen erkek damızlık / فحل يكثر الضراب ولا يلقح ← 5:6 فَٱغْسِلُوا۟
+  - near: ح ر م B005 savaşın yasak sayıldığı kutsal ay dönemi / الشهر الحرام والسلم الزمني ← 5:3 حُرِّمَتْ
+  - near: س ف ح B008 konuşmaya gücü yeten erkek / رجل سفاح للكلام ← 5:5 مُسَٰفِحِينَ
+  - near: ل ح م B004 öldürme, kanlı savaş ve savaşta kuşatılma / القتل حتى يصير المقتول لحما ← 5:3 وَلَحْمُ
+  - far: ل ي س B005 yerinden ayrılmayan ağır kişi veya bulunduğu yerde kalan hayvan / الأليس ملازم لا يبرح مكانه ← 5:68 لَسْتُمْ
+  - far: ح ر م B005 savaşın yasak sayıldığı kutsal ay dönemi / الشهر الحرام والسلم الزمني ← 5:26 مُحَرَّمَةٌ
+
+## ت م م (وَلِيُتِمَّ)
+
+- **B001** tamamlanma ve tamamlama / بلوغ الشيء تمامه
+  - same: ل م س B002 bir şeyi arama veya elde etmeyi isteme / طلب الشيء والتماسه ← 5:6 لَٰمَسْتُمُ
+  - same: ق و م B011 insanın boyu ve düzgün beden yapısı / قامة وقوام الجسم والطول ← 5:6 قُمْتُمْ
+  - same: ي م م B001 bilerek hedefe yönelme / قصد الشيء وتعمده ← 5:6 فَتَيَمَّمُوا۟
+  - near: ك م ل B001 eksiksiz duruma gelme ve getirme / تمام الشيء وكماله ← 5:3 أَكْمَلْتُ
+  - near: و ف ي B001 eksiksiz tamamlama ve tam olarak karşılama / التمام الوافي بلا نقص ← 5:1 أَوْفُوا۟
+  - near: س و ي B005 gençlik olgunluğuna erişmek / بلوغ وتمام الشباب ← 5:12 سَوَآءَ
+  - far: و ف ي B001 eksiksiz tamamlama ve tam olarak karşılama / التمام الوافي بلا نقص ← 5:117 تَوَفَّيْتَنِى
+  - far: ج م ع B009 eksiksiz bütünlük / اكتمال الشيء كله بلا تفرق أو نقص ← 5:17 جَمِيعًا
+- **B002** korunma boncugu / التميمة المعلقة
+  - same: ي م م B002 toprakla namaz temizliği / التيمم للصلاة بمسح الوجه واليدين بالتراب ← 5:6 فَتَيَمَّمُوا۟
+  - same: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 5:6 نِعْمَتَهُۥ
+  - same: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 5:6 قُمْتُمْ
+  - near: ق ب ل B016 asılan boncuk veya makara biçimli takı / خرزة تقبل وجها إلى وجه ← 5:5 قَبْلِكُمْ
+  - near: ع ق د B013 düğüme bağlanan büyü uygulaması / عقد السحر والعزائم ← 5:1 بِٱلْعُقُودِ
+  - near: ق ل د B002 boyna takılan süs ya da tanıtma işareti / قلادة في العنق علامة أو زينة ← 5:2 ٱلْقَلَٰٓئِدَ
+  - far: ق ب ل B016 asılan boncuk veya makara biçimli takı / خرزة تقبل وجها إلى وجه ← 5:27 فَتُقُبِّلَ
+  - far: س ب ح B006 anma sözlerini saymaya yarayan boncuk dizisi / خرز التسبيح ← 5:116 سُبْحَٰنَكَ
+- **B003** sert ve saglam / الشيء الصلب الشديد
+  - same: ل م س B002 bir şeyi arama veya elde etmeyi isteme / طلب الشيء والتماسه ← 5:6 لَٰمَسْتُمُ
+  - same: ي م م B001 bilerek hedefe yönelme / قصد الشيء وتعمده ← 5:6 فَتَيَمَّمُوا۟
+  - same: ص ل ي B009 üzerinde madde dövülen geniş taş / الصلاية حجر يدق عليه ← 5:6 ٱلصَّلَوٰةِ
+  - near: ش د د B006 eli sıkılık / شدة البخل ← 5:2 شَدِيدُ
+  - near: ء ث م B002 günahtan sakınma ve günah yükünden çıkma / التأثم كف عن الإثم ← 5:3 لِّإِثْمٍ
+  - near: ع ظ م B002 bir şeyin çoğu veya büyük bölümü / معظم الشيء ← 5:9 عَظِيمٌ
+  - far: ص د ق B002 nesnenin sağlamlığı veya düzgünlüğü / صلابة الشيء واستواؤه ← 5:45 تَصَدَّقَ
+  - far: ص ل ب B001 sertlik, sağlamlık ve güç / الشدة والصلابة ← 5:33 يُصَلَّبُوٓا۟
+- **B004** suresi veya miktari dolma / بلوغ الأجل والمقدار
+  - same: ق و م B011 insanın boyu ve düzgün beden yapısı / قامة وقوام الجسم والطول ← 5:6 قُمْتُمْ
+  - same: و ج ه B010 doğumda ellerin veya ön ayakların önce çıkması / الولادة باليدين أولا ← 5:6 وُجُوهَكُمْ
+  - same: م س ح B004 yüzü ya da gözü silinmişçesine eksik / محو الخلقة في العين والوجه ← 5:6 وَٱمْسَحُوا۟
+  - near: ك م ل B001 eksiksiz duruma gelme ve getirme / تمام الشيء وكماله ← 5:3 أَكْمَلْتُ
+  - near: ج ر م B006 bir zaman döneminin tamamlanıp sona ermesi / تمام الزمن وانقطاعه ← 5:8 يَجْرِمَنَّكُمْ
+  - near: و ف ي B001 eksiksiz tamamlama ve tam olarak karşılama / التمام الوافي بلا نقص ← 5:1 أَوْفُوا۟
+  - far: و ف ي B001 eksiksiz tamamlama ve tam olarak karşılama / التمام الوافي بلا نقص ← 5:117 تَوَفَّيْتَنِى
+  - far: و ض ع B002 doğumla yükü bırakma ve özel gebe kalma zamanı / إلقاء الحمل بالولادة ← 5:41 مَوَاضِعِهِۦ
+- **B005** konusmada takilma / ترديد التاء في الكلام
+  - same: ر د د B010 yineleme, gidip gelme, kararsızlık veya sıkı yapılı olma / التكرار والتردد والحيرة ← 5:6 يُرِيدُ
+  - same: ر ج ل B011 hazırlıksız söylemek / الكلام المرتجل ← 5:6 وَأَرْجُلَكُمْ
+  - same: ي م م B002 toprakla namaz temizliği / التيمم للصلاة بمسح الوجه واليدين بالتراب ← 5:6 فَتَيَمَّمُوا۟
+  - near: ع ق د B007 konuşmanın tutulması veya anlaşılmaz duruma gelmesi / حبسة اللسان وتعقيد الكلام ← 5:1 بِٱلْعُقُودِ
+  - near: ه م م B008 göğüste yinelenen boğuk uğultu / تردد صوت في الصدر ← 5:11 هَمَّ
+  - near: م و ت B010 bir işe kendini bütünüyle verme; savaşta ölümü göze alma / استماتة في الأمر والموت ← 5:3 ٱلْمَيْتَةُ
+  - far: ع ق ل B003 dilin tutulup konuşamaz hâle gelmesi / احتباس اللسان ← 5:58 يَعْقِلُونَ
+  - far: ع ق د B007 konuşmanın tutulması veya anlaşılmaz duruma gelmesi / حبسة اللسان وتعقيد الكلام ← 5:89 عَقَّدتُّمُ
+- **B006** paylari tamamlayip yedirme / تتميم الأيسار
+  - same: ج ع ل B009 dişinin çiftleşmek için erkeği istemesi / اشتهاء الأنثى للفحل ← 5:6 لِيَجْعَلَ
+  - same: ر د د B010 yineleme, gidip gelme, kararsızlık veya sıkı yapılı olma / التكرار والتردد والحيرة ← 5:6 يُرِيدُ
+  - same: ل م س B002 bir şeyi arama veya elde etmeyi isteme / طلب الشيء والتماسه ← 5:6 لَٰمَسْتُمُ
+  - near: ع ش ر B009 parçalara, paylara veya dağınık kümelere ayrılma / قطع وأعشار ← 5:12 عَشَرَ
+  - near: ط ع م B005 olgunlaşıp tat kazanmak / إدراك الثمر وأخذ الطعم ← 5:5 وَطَعَامُ
+  - near: ل ح م B003 etle besleme ve avdan besin sağlama / إطعام اللحم ورزق الصيد ← 5:3 وَلَحْمُ
+  - far: ي س ر B007 fal oklarıyla oynanan paylaştırmalı talih oyunu / قداح وقمار وتقسيم جزور ← 5:90 وَٱلْمَيْسِرُ
+  - far: ع ش ر B009 parçalara, paylara veya dağınık kümelere ayrılma / قطع وأعشار ← 5:89 عَشَرَةِ
+- **B007** dokumayi tamamlayan parca / قطعة تتم النسج
+  - same: ل م س B002 bir şeyi arama veya elde etmeyi isteme / طلب الشيء والتماسه ← 5:6 لَٰمَسْتُمُ
+  - same: م س ح B003 kılıçla vurup kesme / القطع والضرب بالسيف ← 5:6 وَٱمْسَحُوا۟
+  - same: ي م م B002 toprakla namaz temizliği / التيمم للصلاة بمسح الوجه واليدين بالتراب ← 5:6 فَتَيَمَّمُوا۟
+  - near: ع ف و B004 birine yönelip iyilik veya geçimlik arama / قصد المعروف وطلب الرزق ← 5:13 فَٱعْفُ
+  - near: خ م ص B004 genellikle siyah, işaretli örtü / الخميصة الكساء الأسود المعلّم ← 5:3 مَخْمَصَةٍ
+  - near: ل ح م B006 atkı ve atkıyla dokumayı tamamlama / لحمة الثوب والنسيج ← 5:3 وَلَحْمُ
+  - far: ع ف و B004 birine yönelip iyilik veya geçimlik arama / قصد المعروف وطلب الرزق ← 5:15 وَيَعْفُوا۟
+  - far: ء ر ض B005 kalın yün veya kıl yaygı / الإراض البساط الضخم ← 5:17 ٱلْأَرْضِ
+- **B009** kabile adi ve nispeti / النسبة إلى تميم
+  - same: ش ك ر B007 iki ayrı boy adı kullanımı / أسماء قبائل ← 5:6 تَشْكُرُونَ
+  - same: ي م م B005 kişi ve yer adı alanı / اليمامة واليمة أسماء مواضع وأعلام ← 5:6 فَتَيَمَّمُوا۟
+  - same: ر ج ل B002 erkek insan / الرجل الذكر ← 5:6 وَأَرْجُلَكُمْ
+  - near: ب ي ت B008 soylu hane / بيت الشرف ← 5:2 ٱلْبَيْتَ
+  - near: ن ه ر B007 kişi, yer ve yıldızlara ait özel adlar / أعلام وأسماء خاصة ← 5:12 ٱلْأَنْهَٰرُ
+  - near: ق ب ل B009 soy veya kuşak topluluğu / جماعة يقبل بعضها على بعض ← 5:5 قَبْلِكُمْ
+  - far: ب ل و B008 bir topluluk adı ve o topluluğa mensubiyet / اسم حي ونسبة ← 5:48 لِّيَبْلُوَكُمْ
+  - far: ب ي ت B008 soylu hane / بيت الشرف ← 5:97 ٱلْبَيْتَ
+
+## ن ع م (نِعْمَتَهُۥ)
+
+- **B001** iyi yaşam durumu ve başkasına ulaştırılan iyilik / حسن الحال والنعمة
+  - same: ي د ي B003 karşılıksız iyilik ve bağış / اليَد النعمة ← 5:6 وَأَيْدِيَكُمْ
+  - same: ش ك ر B001 İyiliği tanıyıp söz ve davranışla karşılık verme / عرفان النعمة وحمد المنعم ← 5:6 تَشْكُرُونَ
+  - same: ر ف ق B003 yarar ve rahatlık sağlayan, kolay erişilen olanak / المرفق والمنفعة ← 5:6 ٱلْمَرَافِقِ
+  - near: ي د ي B003 karşılıksız iyilik ve bağış / اليَد النعمة ← 5:11 أَيْدِيَهُمْ
+  - near: ء م م B010 iyilik ve iyi durum / الإمة نعمة ← 5:2 ءَآمِّينَ
+  - near: ح س ن B002 bir şeyi güzelleştirme, işi iyi yapma veya başkasına iyilik etme / الإحسان فعل حسن ← 5:12 حَسَنًا
+  - far: ي د ي B003 karşılıksız iyilik ve bağış / اليَد النعمة ← 5:28 يَدَكَ
+  - far: ء م م B010 iyilik ve iyi durum / الإمة نعمة ← 5:17 وَأُمَّهُۥ
+- **B002** yumuşamak, rahat yaşamak veya rahat yaşatmak / اللين والنعومة ورفاه العيش
+  - same: ر ف ق B001 yumuşak, incelikli ve becerikli davranış / اللين ولطافة الفعل ← 5:6 ٱلْمَرَافِقِ
+  - same: ش ك ر B001 İyiliği tanıyıp söz ve davranışla karşılık verme / عرفان النعمة وحمد المنعم ← 5:6 تَشْكُرُونَ
+  - same: ق و م B009 ayakta tutan dayanak ve geçim temeli / قوام وعماد ومعاش ← 5:6 قُمْتُمْ
+  - near: ء م م B010 iyilik ve iyi durum / الإمة نعمة ← 5:2 ءَآمِّينَ
+  - near: ء ك ل B003 verilen pay ve geçimlik / النصيب والرزق المطعوم ← 5:4 فَكُلُوا۟
+  - near: ط ع م B004 geçim, bol ikram ve tahsis edilmiş gelir / رزق ومعاش وحسن حال ← 5:5 وَطَعَامُ
+  - far: م ي د B002 yumuşak, ferah ya da uzayıp giden yaşayış / عيش ناعم ريان ← 5:112 مَآئِدَةً
+  - far: ء م م B010 iyilik ve iyi durum / الإمة نعمة ← 5:17 وَأُمَّهُۥ
+- **B003** övgü ve beğeni bildirmek / مدح الشيء بنعم
+  - same: ج ي ء B001 — / المجيء والحصول ← 5:6 جَآءَ
+  - same: م س ح B006 güzellik ve soyluluk belirtisi / مسحة الحسن والملك والكرم ← 5:6 وَٱمْسَحُوا۟
+  - same: ق و م B003 bir işe kararlılıkla girişme / عزم ونهوض إلى الأمر ← 5:6 قُمْتُمْ
+  - near: ح ب ب B003 övgü, güçlü istek ve kabul bildiren kalıplar / صيغة المدح وغاية الرغبة ← 5:13 يُحِبُّ
+  - near: س و ء B006 ne kötü! / ساء بمعنى بئس ← 5:12 سَيِّـَٔاتِكُمْ
+  - near: ء ي ي B010 yemin oncesi evet / إي افتتاح للقسم ← 5:10 بِـَٔايَٰتِنَآ
+  - far: ب ء س B004 kötüleme sözü / بئس كلمة ذم ← 5:62 لَبِئْسَ
+  - far: ح ب ب B003 övgü, güçlü istek ve kabul bildiren kalıplar / صيغة المدح وغاية الرغبة ← 5:18 وَأَحِبَّٰٓؤُهُۥ
+- **B004** evet diyerek onaylamak veya söz vermek / الجواب بنعم والتصديق
+  - same: ء م ن B002 dogru sayip kabul etme / تصديق يطمئن إليه القلب ← 5:6 ءَامَنُوٓا۟
+  - same: ل م س B002 bir şeyi arama veya elde etmeyi isteme / طلب الشيء والتماسه ← 5:6 لَٰمَسْتُمُ
+  - same: ي د ي B003 karşılıksız iyilik ve bağış / اليَد النعمة ← 5:6 وَأَيْدِيَكُمْ
+  - near: ء م ن B002 dogru sayip kabul etme / تصديق يطمئن إليه القلب ← 5:5 ٱلْمُؤْمِنَٰتِ
+  - near: ء ي ي B004 hangi belirleyicisi / أي للسؤال والتعيين ← 5:10 بِـَٔايَٰتِنَآ
+  - near: ح ب ب B003 övgü, güçlü istek ve kabul bildiren kalıplar / صيغة المدح وغاية الرغبة ← 5:13 يُحِبُّ
+  - far: ء ج ل B003 evet, doğrudur / جواب التصديق أجل ← 5:32 أَجْلِ
+  - far: ج و ب B003 söze ya da çağrıya karşılık verme / رَدّ الكلام والإجابة ← 5:109 أُجِبْتُمْ
+- **B005** develer ve geniş anlamda otlayan evcil hayvanlar / مال الأنعام والإبل
+  - same: ج ع ل B010 deve kuşu yavrusu / فرخ النعام ← 5:6 لِيَجْعَلَ
+  - same: ش ك ر B001 İyiliği tanıyıp söz ve davranışla karşılık verme / عرفان النعمة وحمد المنعم ← 5:6 تَشْكُرُونَ
+  - same: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 5:6 قُمْتُمْ
+  - near: ب ه م B003 ayırt etmeyen dört ayaklı hayvan / الحي غير المميز ← 5:1 بَهِيمَةُ
+  - near: ه د ي B005 kutsal yere adanan hayvan, mal veya eşya / الهدي المهدى إلى الحرم ← 5:2 ٱلْهَدْىَ
+  - near: ض ل ل B005 sahibi bilinmeyen kayıp hayvan, özellikle deve / الضالّة في المضيعة ← 5:12 ضَلَّ
+  - far: ق ر ء B013 — / القِرَة مال وعيال ← 5:101 ٱلْقُرْءَانُ
+  - far: ق ط ع B016 hayvan sürüsü / قطيع من النعم والغنم ← 5:33 تُقَطَّعَ
+- **B006** devekuşu / النعام والنعامة الطائر
+  - same: ج ع ل B010 deve kuşu yavrusu / فرخ النعام ← 5:6 لِيَجْعَلَ
+  - same: ي م م B004 güvercin türü kuş / اليمام طير ← 5:6 فَتَيَمَّمُوا۟
+  - same: ر ج ل B002 erkek insan / الرجل الذكر ← 5:6 وَأَرْجُلَكُمْ
+  - near: ج ع ل B010 deve kuşu yavrusu / فرخ النعام ← 5:13 وَجَعَلْنَا
+  - near: ع ق ب B013 kartal ve ona benzetilen büyük sancak / العقاب الجارح والراية ← 5:2 ٱلْعِقَابِ
+  - near: ذ ك ر B001 erkek cinsiyet ve erkek yavru doğurma / الذكر خلاف الأنثى ← 5:7 وَٱذْكُرُوا۟
+  - far: ظ ل م B006 erkek devekusu / الظليم ذكر النعام ← 5:16 ٱلظُّلُمَٰتِ
+  - far: ص و م B004 deve kuşu dışkısı / صوم النعام ← 5:89 فَصِيَامُ
+- **B007** devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة
+  - same: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 5:6 قُمْتُمْ
+  - same: ك ع ب B002 dörtgen ve yüksek yapı / البيت المربع المرتفع ← 5:6 ٱلْكَعْبَيْنِ
+  - same: ص ع د B006 kendiliğinden düz mızraklık sırık / صعدة قناة مستقيمة ← 5:6 صَعِيدًا
+  - near: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 5:8 قَوَّٰمِينَ
+  - near: ح ر ف B004 sert ya da ince yapılı dişi deve / ناقة مشبهة بحرف الجبل ← 5:13 يُحَرِّفُونَ
+  - near: ع ق ب B013 kartal ve ona benzetilen büyük sancak / العقاب الجارح والراية ← 5:2 ٱلْعِقَابِ
+  - far: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 5:14 ٱلْقِيَٰمَةِ
+  - far: ص و م B004 deve kuşu dışkısı / صوم النعام ← 5:89 فَصِيَامُ
+- **B008** bir topluluğun dağılıp gücünü yitirmesi / طيران النعامة وتفرق القوم
+  - same: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 5:6 قُمْتُمْ
+  - same: ر و د B004 gidip gelme / التردد والاختلاف جيئة وذهابا ← 5:6 يُرِيدُ
+  - same: ج ع ل B010 deve kuşu yavrusu / فرخ النعام ← 5:6 لِيَجْعَلَ
+  - near: ز ل م B011 hızla geçip gitmek / الذهاب السريع والارتحال ← 5:3 بِٱلْأَزْلَٰمِ
+  - near: ب ع ث B004 yola koyulup ilerleme / اندفاع القوم ومضيهم ← 5:12 وَبَعَثْنَا
+  - near: ز ي ل B001 ayırt ederek ayırma ve ayrışma / التفريق والتمييز بين الأشياء ← 5:13 تَزَالُ
+  - far: ز ل م B011 hızla geçip gitmek / الذهاب السريع والارتحال ← 5:90 وَٱلْأَزْلَٰمُ
+  - far: ف ر ق B002 parçalara ayırıp dağıtma / تفريق وتشتيت إلى أجزاء ← 5:25 فَٱفْرُقْ
+- **B009** yumuşak esen nemli güney rüzgarı / النعامى ريح لينة
+  - same: ج ن ب B006 güneyden esen yel / الجنوب ريح من جهة مخصوصة ← 5:6 جُنُبًا
+  - same: ج ع ل B010 deve kuşu yavrusu / فرخ النعام ← 5:6 لِيَجْعَلَ
+  - same: ش ك ر B005 şiddetlenip etkisini artırma / اشتداد الوقوع والهيجان ← 5:6 تَشْكُرُونَ
+  - near: ه م م B007 ince taneli hafif yağmur veya yumuşak esinti / مطر خفيف وهبوب لين ← 5:11 هَمَّ
+  - near: ق ب ل B012 batı rüzgarının karşıtı olan rüzgar / ريح تقابل الدبور ← 5:5 قَبْلِكُمْ
+  - near: ج ع ل B010 deve kuşu yavrusu / فرخ النعام ← 5:13 وَجَعَلْنَا
+  - far: ج ن ب B006 güneyden esen yel / الجنوب ريح من جهة مخصوصة ← 5:90 فَٱجْتَنِبُوهُ
+  - far: ق ب ل B012 batı rüzgarının karşıtı olan rüzgar / ريح تقابل الدبور ← 5:27 فَتُقُبِّلَ
+- **B010** daha da artırmak veya ileri dereceye götürmek / زاد وأنعم في الفعل
+  - same: ج ع ل B004 bir eylemi yapmaya başlama / الشروع في الفعل أو ملازمته ← 5:6 لِيَجْعَلَ
+  - same: ج ي ء B004 — / الإتيان بالشيء واستحضاره ← 5:6 جَآءَ
+  - same: ك ع ب B009 talihin veya saygınlığın yükselmesi için dua / ارتفاع الجد والشرف ← 5:6 ٱلْكَعْبَيْنِ
+  - near: ح س ن B002 bir şeyi güzelleştirme, işi iyi yapma veya başkasına iyilik etme / الإحسان فعل حسن ← 5:12 حَسَنًا
+  - near: ك ذ ب B005 gecikmeden yapmak / ما كذب أن فعل أي ما لبث ← 5:10 وَكَذَّبُوا۟
+  - near: ر د ي B005 belirli bir ölçünün üstüne ekleme / الزيادة على القدر ← 5:3 وَٱلْمُتَرَدِّيَةُ
+  - far: ح س ن B002 bir şeyi güzelleştirme, işi iyi yapma veya başkasına iyilik etme / الإحسان فعل حسن ← 5:50 أَحْسَنُ
+  - far: ز ي د B001 artma, büyüme ya da artırma / الزيادة والنمو ← 5:64 وَلَيَزِيدَنَّ
+- **B011** bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام
+  - same: ق و م B006 bir yerde kalma ve kalınan yer / مقام وإقامة في موضع ← 5:6 قُمْتُمْ
+  - same: ط ي ب B006 içten razı olma ve iç rahatlığı bulma / النفس تطيب بالشيء ← 5:6 طَيِّبًا
+  - same: و ج ه B014 yanına gelen kişiyi geri çevirmek / الرد عن الوجه ← 5:6 وُجُوهَكُمْ
+  - near: ء ت ي B003 uygun yoldan ele almak ve elverişli hale gelmek / مأتى الأمر وتهيؤه ← 5:5 أُوتُوا۟
+  - near: ط و ع B002 taraflar arasında uyum gösterme / الموافقة والمطاوعة ← 5:7 وَأَطَعْنَا
+  - near: ق و م B006 bir yerde kalma ve kalınan yer / مقام وإقامة في موضع ← 5:8 قَوَّٰمِينَ
+  - far: ء ت ي B003 uygun yoldan ele almak ve elverişli hale gelmek / مأتى الأمر وتهيؤه ← 5:20 وَءَاتَىٰكُم
+  - far: ط و ع B002 taraflar arasında uyum gösterme / الموافقة والمطاوعة ← 5:30 فَطَوَّعَتْ
+- **B012** birine yaya gitmek ve ayakları yürüyerek kullanmak / المشي على القدم وابتذالها
+  - same: م س ح B015 bedenin düzleşmiş veya etten eksilmiş bölümü / تسوية الجسد أو نقص لحمه ← 5:6 وَٱمْسَحُوا۟
+  - same: ر ج ل B003 yaya giden kişi / المشي على الأرجل ← 5:6 وَأَرْجُلَكُمْ
+  - same: ي د ي B003 karşılıksız iyilik ve bağış / اليَد النعمة ← 5:6 وَأَيْدِيَكُمْ
+  - near: ع م ل B012 yaya yolcular / بنو العمل من المشاة ← 5:5 عَمَلُهُۥ
+  - near: ء ت ي B003 uygun yoldan ele almak ve elverişli hale gelmek / مأتى الأمر وتهيؤه ← 5:5 أُوتُوا۟
+  - near: ه د ي B008 sallanarak, gerektiğinde başkalarına dayanarak yürüme / مشي التهادي مع الاعتماد والتمايل ← 5:2 ٱلْهَدْىَ
+  - far: م ي د B006 kibirli ve gösterişli yürümek / تبختر في المشي ← 5:112 مَآئِدَةً
+  - far: ع م ل B012 yaya yolcular / بنو العمل من المشاة ← 5:53 أَعْمَٰلُهُمْ
+- **B013** birini göz sevinci saymak veya bunun için dua etmek / نعم الله بك عينا وقرة العين
+  - same: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 5:6 قُمْتُمْ
+  - same: ج د د B001 değer ve konum yüceliği / عظمة القدر وعلوه ← 5:6 تَجِدُوا۟
+  - same: ش ك ر B001 İyiliği tanıyıp söz ve davranışla karşılık verme / عرفان النعمة وحمد المنعم ← 5:6 تَشْكُرُونَ
+  - near: ء م م B010 iyilik ve iyi durum / الإمة نعمة ← 5:2 ءَآمِّينَ
+  - near: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 5:8 قَوَّٰمِينَ
+  - near: ح ب ب B003 övgü, güçlü istek ve kabul bildiren kalıplar / صيغة المدح وغاية الرغبة ← 5:13 يُحِبُّ
+  - far: ع ي ن B016 geniş ve güzel gözlü olma / سعة العين وحسنها ← 5:45 وَٱلْعَيْنَ
+  - far: ء م م B010 iyilik ve iyi durum / الإمة نعمة ← 5:17 وَأُمَّهُۥ
+
+## ش ك ر (تَشْكُرُونَ)
+
+- **B001** İyiliği tanıyıp söz ve davranışla karşılık verme / عرفان النعمة وحمد المنعم
+  - same: ن ع م B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik / حسن الحال والنعمة ← 5:6 نِعْمَتَهُۥ
+  - same: ي د ي B003 karşılıksız iyilik ve bağış / اليَد النعمة ← 5:6 وَأَيْدِيَكُمْ
+  - same: ص ل ي B002 iyilik dileme; özneye göre esirgeme, övme veya aklama / الدعاء والبركة والرحمة ← 5:6 ٱلصَّلَوٰةِ
+  - near: ك ف ر B004 nimeti yadsıma / ستر النعمة ← 5:5 يَكْفُرْ
+  - near: ن ع م B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik / حسن الحال والنعمة ← 5:7 نِعْمَةَ
+  - near: ذ ك ر B007 onur, iyi ün ve saygınlık / ذكر المرء شرف وصيت ← 5:7 وَٱذْكُرُوا۟
+  - far: ك ف ر B004 nimeti yadsıma / ستر النعمة ← 5:17 كَفَرَ
+  - far: ن ع م B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik / حسن الحال والنعمة ← 5:20 نِعْمَةَ
+- **B002** azla yetinip belirgin biçimde gelişme / الكفاية باليسير وظهور أثره
+  - same: ج ن ب B005 yanında yönlendirerek götürme / التجنيب قيادة شيء إلى الجنب ← 5:6 جُنُبًا
+  - same: ن ع م B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik / حسن الحال والنعمة ← 5:6 نِعْمَتَهُۥ
+  - same: ر ج ل B005 bir bacağı beyaz hayvan / بياض رجل الدابة ← 5:6 وَأَرْجُلَكُمْ
+  - near: و ق ي B003 hafif topallama ve toynak ağrısıyla yürümekten çekinme / توقي الدابة من وجع الحافر ← 5:7 وَٱتَّقُوا۟
+  - near: و ك ل B005 hayvanın geride kalarak veya eşine dayanarak kötü yürümesi / تأخر الدابة واتكالها في السير ← 5:11 فَلْيَتَوَكَّلِ
+  - near: ع ف و B007 büyüyüp çoğalma veya bir ölçüde başkasını aşma / النماء والكثرة إذا ترك الشيء ← 5:13 فَٱعْفُ
+  - far: و ق ي B003 hafif topallama ve toynak ağrısıyla yürümekten çekinme / توقي الدابة من وجع الحافر ← 5:27 ٱلْمُتَّقِينَ
+  - far: و ك ل B005 hayvanın geride kalarak veya eşine dayanarak kötü yürümesi / تأخر الدابة واتكالها في السير ← 5:23 فَتَوَكَّلُوٓا۟
+- **B003** dolup bollaşma / الامتلاء والغزر وكثرة اللبن
+  - same: ر د د B007 sütün, suyun veya bedensel sıvının birikip çoğalması / امتلاء الضرع وتجمع الماء ← 5:6 يُرِيدُ
+  - same: ج د د B011 susuz yer veya sütü kesilmiş dişi hayvan / انقطاع ماء أو لبن ← 5:6 تَجِدُوا۟
+  - same: ر ف ق B009 suyun dolu, yerinde duran ve kalıcı olması / الامتلاء والثبات ← 5:6 ٱلْمَرَافِقِ
+  - near: ر س ل B006 bol ve sürekli gelen süt / اللبن والدر المتتابع ← 5:12 بِرُسُلِى
+  - near: ح ل ل B009 doğum olmadan memeye süt inmesi / إحلال اللبن ← 5:5 أُحِلَّ
+  - near: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 5:8 خَبِيرٌۢ
+  - far: ر د د B007 sütün, suyun veya bedensel sıvının birikip çoğalması / امتلاء الضرع وتجمع الماء ← 5:21 تَرْتَدُّوا۟
+  - far: ف و ق B006 sağım arası süt dönüşü / رجوع اللبن بين الحلبتين ← 5:66 فَوْقِهِمْ
+- **B004** körpe sürgün ve ona benzetilen yeni oluşum / خروج الشكير والنبات الغض
+  - same: ج ن ب B010 yazın kalan köklü küçük bitkiler / الجنبة نبت متوسط مستقل ← 5:6 جُنُبًا
+  - same: ر ج ل B007 semizotu diye bilinen ot / الرِّجلة النبات ← 5:6 وَأَرْجُلَكُمْ
+  - same: ج د د B012 düğümlü ipler ve dolaşık kalıntılar / خيوط معقودة وبقايا متشابكة ← 5:6 تَجِدُوا۟
+  - near: ش ع ر B002 sık ağaçlı veya bol bitkili yer ve buna bağlı bitki adı / نبات كثيف كالشَّعر ← 5:2 شَعَٰٓئِرَ
+  - near: ر ب ب B012 belirli bir yeşil bitki türü / ربة نبات ← 5:2 رَّبِّهِمْ
+  - near: ذ ب ح B007 çeşitli bitki ve yer mantarı benzeri tür adları / نبات الذبح والذباح ← 5:3 ذُبِحَ
+  - far: ق ص د B009 dikenli ağacın taze ilk sürgünü / مشرة الشوك الغضة ← 5:66 مُّقْتَصِدَةٌ
+  - far: خ ل ف B010 kaybın ardından yenisinin çıkması veya verilmesi / نبات أو مال أو حال يعود بعد ذهاب سابق ← 5:33 خِلَٰفٍ
+- **B005** şiddetlenip etkisini artırma / اشتداد الوقوع والهيجان
+  - same: ج د د B004 yeni olma ve yenilenme / جِدّة وحدوث بعد قطع ← 5:6 تَجِدُوا۟
+  - same: ج ع ل B009 dişinin çiftleşmek için erkeği istemesi / اشتهاء الأنثى للفحل ← 5:6 لِيَجْعَلَ
+  - same: ج ن ب B007 böğür bölgesini tutan ağrı veya hastalık / داء الجنب وأثره في البدن ← 5:6 جُنُبًا
+  - near: ب غ ي B006 göğün şiddetli, bol ve gereğinden fazla yağdırması / شدة المطر ومعظمه ← 5:2 يَبْتَغُونَ
+  - near: ك ل ب B005 zamanın ve soğuğun sertliği; toprağın ve ağacın kuruması / كلبة الزمان والبرد واليبس ← 5:4 مُكَلِّبِينَ
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 5:5 ٱلْيَوْمَ
+  - far: ب غ ي B006 göğün şiddetli, bol ve gereğinden fazla yağdırması / شدة المطر ومعظمه ← 5:35 وَٱبْتَغُوٓا۟
+  - far: و ق ع B003 yağışın düşmesi ve düştüğü yer / وقوع المطر ومساقطه ← 5:91 يُوقِعَ
+- **B006** kadın cinsel organı veya birleşme için örtmece / كناية الفرج والنكاح
+  - same: ل م س B003 dokunma sözüyle cinsel birleşmeyi örtülü anlatma / كناية الجماع ← 5:6 لَٰمَسْتُمُ
+  - same: ط ي ب B004 yeme ile cinsel birlikteliği birlikte adlandıran ikili / الأطيبان الأكل والنكاح ← 5:6 طَيِّبًا
+  - same: م س ح B002 cinsel birleşme için örtmece / المسح كناية عن الجماع ← 5:6 وَٱمْسَحُوا۟
+  - near: ك ف ر B004 nimeti yadsıma / ستر النعمة ← 5:5 يَكْفُرْ
+  - near: س و ء B004 örtülmesi gereken cinsel bölge / السوأة المستورة ← 5:12 سَيِّـَٔاتِكُمْ
+  - near: ط ي ب B004 yeme ile cinsel birlikteliği birlikte adlandıran ikili / الأطيبان الأكل والنكاح ← 5:5 ٱلطَّيِّبَٰتُ
+  - far: م س س B002 cinsel birleşmeyi dokunma sözüyle anlatma / مماسة النكاح ← 5:73 لَيَمَسَّنَّ
+  - far: ر م ح B007 erkek cinsel organı için silah benzetmeli örtmece / الرميح كناية عن الذكر ← 5:94 وَرِمَاحُكُمْ
+- **B007** iki ayrı boy adı kullanımı / أسماء قبائل
+  - same: ت م م B009 kabile adi ve nispeti / النسبة إلى تميم ← 5:6 وَلِيُتِمَّ
+  - same: ر ف ق B010 belirli bir yerleşim yerinin adı / اسم بلد ← 5:6 ٱلْمَرَافِقِ
+  - same: ي م م B005 kişi ve yer adı alanı / اليمامة واليمة أسماء مواضع وأعلام ← 5:6 فَتَيَمَّمُوا۟
+  - near: ش ع ر B008 yıldız, dağ, boy ve çocuk oyunu için gelenekleşmiş özel adlar / أسماء مخصوصة منقولة ← 5:2 شَعَٰٓئِرَ
+  - near: ج ر م B011 Arap kabilesi ve topluluk adı / جرم وجارم أسماء قبائل ← 5:8 يَجْرِمَنَّكُمْ
+  - near: ق ب ل B009 soy veya kuşak topluluğu / جماعة يقبل بعضها على بعض ← 5:5 قَبْلِكُمْ
+  - far: ب ل و B008 bir topluluk adı ve o topluluğa mensubiyet / اسم حي ونسبة ← 5:48 لِّيَبْلُوَكُمْ
+  - far: ح ر ب B009 kişi, topluluk ve yer adları / الأعلام والمواضع ← 5:33 يُحَارِبُونَ
+
