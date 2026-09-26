@@ -113,7 +113,46 @@ def run_w10(ref: str, arm: str) -> None:
           f"{': ' + '; '.join(problems[:6]) if problems else ''}")
 
 
+def run_v11(ref: str, arm: str) -> None:
+    """v11: evidence first, the brief (prompts/write_v11.md) last; one Opus call returns the ledger, then the reading.
+    v11-script: context + dictionary + digest.md (script candidates, unjudged); v11-luna: … + package.slim.md."""
+    s, a = ref.split(":")
+    sa = f"{s}_{a}"
+    w = V9 / "lines" / "work" / sa
+    out = w / "synth" / arm
+    out.mkdir(parents=True, exist_ok=True)
+    pkg = V9 / "input" / "v2" / f"s{int(s):03d}" / sa
+    reach = w / ("digest.md" if arm == "v11-script" else "package.slim.md")
+    stdin = R.inline(w / "context.md", pkg / "01_dictionary.md", reach, V9 / "prompts" / "write_v11.md")
+    prompt = (f"Focus: {ref}. The evidence comes first (context.md, 01_dictionary.md, {reach.name}); the brief "
+              f"(write_v11.md) is last. Follow the brief exactly and return the ledger and the reading with their marker "
+              f"lines as your final message.")
+    r = subprocess.run(["claude", "-p", "--model", "opus", "--effort", "high", "--tools", "",
+                        "--output-format", "json", "--no-session-persistence", "--system-prompt", SYSTEM],
+                       input=prompt + "\n\n" + stdin, capture_output=True, text=True, cwd=REPO)
+    (out / "run.log.json").write_text((r.stdout or json.dumps({"error": r.stderr[-3000:]})).strip() + "\n",
+                                      encoding="utf-8")
+    try:
+        text = json.loads(r.stdout).get("result", "")
+    except json.JSONDecodeError:
+        text = ""
+    (out / "final.txt").write_text(text, encoding="utf-8")
+    led, _, body = text.partition("===== READING =====")
+    if len(body.split()) < 300:
+        sys.exit(f"{arm}: no reading (see {out / 'final.txt'})")
+    (out / f"{sa}.ledger.md").write_text(led.replace("===== LEDGER =====", "").strip() + "\n", encoding="utf-8")
+    (out / f"{sa}.reading.tr.md").write_text(body.strip() + "\n", encoding="utf-8")
+    problems, _ = R.reading_problems(out / f"{sa}.reading.tr.md", pkg)
+    lines = [l for l in led.splitlines() if l.lstrip().startswith("- ")]
+    refs = set(re.findall(r"\b(\d{1,3}:\d{1,3})\b", led))
+    print(f"{arm}: ledger {len(lines)} findings, {len(refs)} distinct refs; reading {len(body.split())} words, "
+          f"{len(set(re.findall(r'(\d{{1,3}}:\d{{1,3}})', body)))} refs; Arabic/prose problems {len(problems)}"
+          f"{': ' + '; '.join(problems[:5]) if problems else ''}")
+
+
 def run_arm(ref: str, arm: str) -> None:
+    if arm.startswith("v11-"):
+        return run_v11(ref, arm)
     if arm.startswith("w10-"):
         return run_w10(ref, arm)
     s, a = ref.split(":")
@@ -170,7 +209,7 @@ def check(ref: str, arm: str) -> None:
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("ref")
-    ap.add_argument("--arm", required=True, choices=("sol1", "sol56", "opus1", "w10-sol", "w10-luna", "w10-opus", "w10-opus-cold", "w10-opus-dict", "w10-opus-dslim", "w10-opus-dhft", "w10-opus-ledger", "w10-opus-cold2"))
+    ap.add_argument("--arm", required=True, choices=("sol1", "sol56", "opus1", "w10-sol", "w10-luna", "w10-opus", "w10-opus-cold", "w10-opus-dict", "w10-opus-dslim", "w10-opus-dhft", "w10-opus-ledger", "w10-opus-cold2", "v11-script", "v11-luna"))
     ap.add_argument("--check-only", action="store_true")
     a = ap.parse_args()
     if a.check_only:
