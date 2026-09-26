@@ -1,1 +1,7 @@
 == 103:2 write
+  synth.py 103:2 --arm w10-opus
+    w10-opus: 1950 words, 29 distinct refs, 39 Arabic tags; Arabic/prose problems 0
+  usage.py 103:2
+      w10-opus/run.log.json                            claude-opus  turns  1 tools   0 in         2 cached     2,694 out  20,261 reas       0 cost $0.988
+  w10-opus-cold/run.log.json                       claude-opus  turns  1 tools   0 in         2 cached     2,694 out  16,537 reas       0 cost $0.370
+== TOTAL 11 sessions: in 240,468 cached 112,652 out 173,938 reasoning 79,034 tool calls 0

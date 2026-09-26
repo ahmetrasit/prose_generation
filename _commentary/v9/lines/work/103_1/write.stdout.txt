@@ -1,6 +1,7 @@
 == 103:1 write
   synth.py 103:1 --arm w10-opus
-        return [31mio.open[0m[1;31m(self, mode, buffering, encoding, errors, newline)[0m
-           [31m~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
-[1;35mFileNotFoundError[0m: [35m[Errno 2] No such file or directory: '/Volumes/OZTURK/_projects/prose_generation/_commentary/v9/lines/work/103_1/package.md'[0m
-failed: ('/Volumes/OZTURK/_projects/prose_generation/_commentary/v9/lines/synth.py', '103:1', '--arm', 'w10-opus')
+    w10-opus: 1647 words, 26 distinct refs, 29 Arabic tags; Arabic/prose problems 7: line 23: unknown_tag_field: Unsupported field(s): ki; line 23: malformed_tag: Malformed annotation; line 23: arabic_outside_tag: Arabic outside tag: قُلْ; line 23: arabic_outside_tag: Arabic outside tag: هَلْ; line 23: arabic_outside_tag: Arabic outside tag: نُنَبِّئُكُم; line 23: arabic_outside_tag: Arabic outside tag: بِٱلْأَخْسَرِينَ
+  usage.py 103:1
+      w10-opus/run.log.json                            claude-opus  turns  1 tools   0 in         2 cached     2,694 out  24,759 reas       0 cost $0.931
+  w10-opus-cold/run.log.json                       claude-opus  turns  1 tools   0 in         2 cached     2,694 out  14,361 reas       0 cost $0.324
+== TOTAL 10 sessions: in 180,542 cached 93,452 out 149,781 reasoning 78,236 tool calls 0
