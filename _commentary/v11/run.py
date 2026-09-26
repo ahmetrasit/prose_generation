@@ -207,7 +207,7 @@ def main() -> None:
         print(one(a.ref, a.step), flush=True)
         return
     s = int(a.ref)
-    refs = [r for r in quran() if r.startswith(f"{s}:")]
+    refs = [r for r in quran() if r.startswith(f"{s}:") and not r.endswith(":0")]
     for r in refs:  # scripts first, sequentially (shared caches)
         prep(r)
     def safe_write(r: str) -> str:
