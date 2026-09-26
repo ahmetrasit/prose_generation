@@ -62,9 +62,11 @@ def prep(ref: str, force: bool) -> None:
 def discover(ref: str) -> None:
     sa, _, w = names(ref)
     net = V9 / "network" / "out" / sa / "luna"
-    jobs = [(str(V9 / "lines" / "run.py"), "run", ref, "--parallel", "4")]
-    if any(net.glob("W_network_*.md")):
-        jobs.append((str(V9 / "network" / "luna_pass.py"), "run", ref))
+    n_lines = len(list(w.glob("*_*.md")))
+    jobs = [(str(V9 / "lines" / "run.py"), "run", ref, "--parallel", str(max(4, n_lines)))]
+    n_net = len(list(net.glob("W_network_*.md")))
+    if n_net:
+        jobs.append((str(V9 / "network" / "luna_pass.py"), "run", ref, "--parallel", str(n_net)))
     with ThreadPoolExecutor(len(jobs)) as pool:
         list(pool.map(lambda j: sh(*j, log=w / f"{Path(j[0]).stem}.stdout.txt"), jobs))
     sh(str(V9 / "lines" / "run.py"), "check", ref)
