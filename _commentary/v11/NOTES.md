@@ -35,6 +35,18 @@ gold (gate); 2) `run.py surah 1 --arm S` (≈ $15, incl. chains); 3) Opus judge 
 eval/s001_anchors.md (≈ $8); 4) the user reads 1:4, 1:6, 1:7 blind. ≈ $25 total. Each step needs the user's go.
 Pending the user's yes: seed probe on S29 window 38–63 (≈ $1.3).
 
+## Long surahs (80–110 ayat; cross-pericope echoes) — design reviewed 2026-09-26, not built
+Order: window seed passes first (pericopes ±7, split at story boundaries, e.g. keep 18:60–82 whole) → one
+whole-surah **map** call (surah text + recurrence index + window seed sheets) → writers get window seeds + map chains
+through their ayah. Recurrence index (script, surah-internal only; Quran-wide parallels already reach writers via
+digest): repeated phrases ≥ 2 words, Quran-rare roots recurring in the surah, non-primary branches of one identity
+root; ≥ 2 non-adjacent pericopes; cap ~60 lines; each window also gets its own index lines. Map brief: a return
+counts only if the second occurrence changes the first (answer, reversal, completion, escalation); ~8–12 core chains,
+the rest an ungraded note list; no S18 example in any brief. Deferred: latent recurrence matching, two-tier chains
+pass (window chains → surah pass; loses ledger findings no window chain took up — record it), Luna filter.
+Test later: S18 seeds + map only (≈ $8–12) against frozen known echoes (rashad 18:10/24/66, ḥattā idhā 18:71/74/77/
+86/90/93, cave/wall/barrier); count core chains vs notes.
+
 ## Next steps agreed
 1. Compare S1 v11 (ledgers + chains) with Astra's v5 findings indexes in quran-data:
    `quran-data/data/commentary/ayah/detailed/tr/s001/1_N.index.tr.md` (v5 prose there is byte-identical to
