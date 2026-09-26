@@ -30,6 +30,14 @@
   in v11; v11 525 ledger refs. v5-only = concept-level Quran search (mercy in practice, book of deeds/scale,
   misdirected help) and limiting verses (57:15/6:70 vs dīn-as-debt, 2:256, 7:186/18:17 vs ḍāllīn self-caused).
   Proposal (not applied): writer ledger adds a "concept" search and a "limits/counter-verses" section.
+- Root cause of the v5-only refs (checked 2026-09-26): every one is in v5's global input (connection_registry,
+  from 09_inter_ayah review rows) AND in v11's digest — but the digest keeps only ref + 60 chars of opening Arabic,
+  dropping the review label and the one-line note that says why the ayah is related (e.g. 3:159 "makes mercy visible
+  in relational gentleness"; 57:15 "refusal of ransom"). ~90% of the digest is this reasonless list.
+  Proposal (not applied): digest lines = ref + label + note (no Arabic opening; Opus quotes from memory, verified);
+  add 02_hft.md as seeds where the surah has HFT (S1, S100, 18, 29, 5, 103 have it; 4:34 not). Earlier dhft test
+  (1:2, 103:1) was under the v10 reading-only prompt, not v11's ledger — untested in v11.
+- 1:4/1:6/1:7 ran 2 turns (output > the per-turn cap; the continuation re-bills ~33k tokens as cache write, ~$0.5).
 - S100 (11 ayat): $11.14 + chains $1.21. Validation vs cold / dictionary-only Opus (100:1, 100:6, 100:10): they
   cite almost nothing the v11 ledger lacks (2:36, 81:18, 47:4).
 - S100 vs v5 (quran-data `…/s100/100_N.index.tr.md`): v11 covers v5's substantive points; v5 outside-surah refs
