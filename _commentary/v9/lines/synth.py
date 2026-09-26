@@ -7,6 +7,8 @@
   sol2   baseline: sol_pass.py plan → write (Sol, max) with the package in place of the backbone
   w10-opus-cold   baseline: the same prompt with context.md only (no package)
   w10-opus-dslim  context + dictionary + package.slim.md (Luna usage and related lines only; package.py --slim)
+  w10-opus-ledger ledger-then-reading (prompts/write_ledger.md + write_v10.md) on context + dictionary + slim package
+  w10-opus-cold2  a repeat of w10-opus-cold (sampling variance)
   w10-opus-dhft   context + dictionary + HFT (input/v2/…/02_hft.md)
   w10-opus-dict   baseline: context.md + the script dictionary (input/v2/…/01_dictionary.md), no Luna
   w10-sol / w10-luna / w10-opus   the v10 writer prompt (_commentary/v10/prompts/write.md) on the same package:
@@ -52,7 +54,9 @@ def run_w10(ref: str, arm: str) -> None:
     w = V9 / "lines" / "work" / sa
     out = w / "synth" / arm
     out.mkdir(parents=True, exist_ok=True)
-    cold, dic, dslim, dhft = arm.endswith("-cold"), arm.endswith("-dict"), arm.endswith("-dslim"), arm.endswith("-dhft")
+    ledger = arm.endswith("-ledger")  # ledger-then-reading on the dictionary + slim Luna evidence
+    cold, dic, dhft = arm.endswith(("-cold", "-cold2")), arm.endswith("-dict"), arm.endswith("-dhft")
+    dslim = arm.endswith("-dslim") or ledger
     dictionary = V9 / "input" / "v2" / f"s{int(s):03d}" / sa / "01_dictionary.md"
     stdin = (R.inline(W10, w / "context.md") if cold else
              R.inline(W10, w / "context.md", dictionary) if dic else
@@ -76,6 +80,11 @@ def run_w10(ref: str, arm: str) -> None:
                 "(discovery results with internal ids; their own header explains them)")
     prompt = (f"Focus: {ref}. Follow the brief below (write.md) exactly. The evidence is {evidence}. Return only the "
               f"reader's prose as your final message.")
+    if ledger:
+        stdin = R.inline(V9 / "prompts" / "write_ledger.md") + "\n\n" + stdin
+        prompt = (f"Focus: {ref}. Follow write_ledger.md first (the findings ledger, then the reading), and write the "
+                  f"reading by the brief write.md. The evidence is {evidence}. Return both parts with their marker "
+                  f"lines as your final message.")
     if arm in ("w10-sol", "w10-luna"):
         model = SP.SOL if arm == "w10-sol" else "gpt-6-luna"
         text = R.codex(model, prompt, out / "run.log.jsonl", stdin=stdin, last=out / "final.txt", sandbox="read-only")
@@ -90,6 +99,9 @@ def run_w10(ref: str, arm: str) -> None:
         except json.JSONDecodeError:
             text = ""
         (out / "final.txt").write_text(text, encoding="utf-8")
+    if ledger and "===== READING =====" in text:
+        led, _, text = text.partition("===== READING =====")
+        (out / f"{sa}.ledger.md").write_text(led.replace("===== LEDGER =====", "").strip() + "\n", encoding="utf-8")
     if len(text.split()) < 300:
         sys.exit(f"{arm}: no reading (see {out / 'final.txt'})")
     (out / f"{sa}.reading.tr.md").write_text(text.strip() + "\n", encoding="utf-8")
@@ -158,7 +170,7 @@ def check(ref: str, arm: str) -> None:
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("ref")
-    ap.add_argument("--arm", required=True, choices=("sol1", "sol56", "opus1", "w10-sol", "w10-luna", "w10-opus", "w10-opus-cold", "w10-opus-dict", "w10-opus-dslim", "w10-opus-dhft"))
+    ap.add_argument("--arm", required=True, choices=("sol1", "sol56", "opus1", "w10-sol", "w10-luna", "w10-opus", "w10-opus-cold", "w10-opus-dict", "w10-opus-dslim", "w10-opus-dhft", "w10-opus-ledger", "w10-opus-cold2"))
     ap.add_argument("--check-only", action="store_true")
     a = ap.parse_args()
     if a.check_only:
