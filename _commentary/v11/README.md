@@ -20,7 +20,13 @@ findings kept, under $5 per ayah.
 4. **render**: `S_A.md` = the reading + **Kur'an'ı Kur'an'la** (ledger Surah/Quran/Fatiha entries, each ref with its
    ayah text) + **Kelimeler ve okuyuşlar** (ledger Dictionary/Readings).
 
-`python3 _commentary/v11/run.py all S:A` · `python3 _commentary/v11/run.py surah 100` → `out/sNNN/S_A/`.
+5. **chains (once per surah, after all ayat)**: one Opus call over the surah text and every ayah ledger
+   (`prompts/surah.md`) → `out/sNNN/surah/chains.md` (chains across ayat: members, roles, movement, what the surah
+   says through the chain that no single ayah says), `S.surah.tr.md` (a reading of the whole surah) and `ayat.md`
+   (one note per ayah, rendered into each `S_A.md` as **Surenin bütününde**). This recovers what S1's HFT image
+   chains got from analysing all ayat together, at one call per surah.
+
+`python3 _commentary/v11/run.py all S:A` · `python3 _commentary/v11/run.py surah 100` → `out/sNNN/S_A/` · `python3 _commentary/v11/run.py chains 100`.
 
 ## Why this shape (evidence: `_commentary/v9/lines/work/*/synth/`, 2026-09-25/26)
 
@@ -49,12 +55,6 @@ dictionary 1/1 (the dictionary arm had been told "only the supplied evidence" wh
 
 Cost so far: 100:1 $0.86; 4:34 $2.49; 18:86 $1.81; 1:2 $2.34 (long ledger). `claude -p` bills input as a
 1-hour cache write; direct API or batch calls would cut this for a large run.
-
-5. **chains (once per surah, after all ayat)**: one Opus call over the surah text and every ayah ledger
-   (`prompts/surah.md`) → `out/sNNN/surah/chains.md` (chains across ayat: members, roles, movement, what the surah
-   says through the chain that no single ayah says), `S.surah.tr.md` (a reading of the whole surah) and `ayat.md`
-   (one note per ayah, rendered into each `S_A.md` as **Surenin bütününde**). This recovers what S1's HFT image
-   chains got from analysing all ayat together, at one call per surah.
 
 ## S100 (al-ʿĀdiyāt), the first full run
 
