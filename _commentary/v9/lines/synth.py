@@ -2,6 +2,7 @@
 """Synthesis arms on one identical package (lines/work/S_A/package.md + context.md).
 
   sol1   gpt-6-sol, reasoning effort max, one call: prompts/synth_one.md (connected readings → plan → reading)
+  sol56  the same with gpt-5.6-sol (reasoning effort max)
   opus1  Claude Opus via `claude -p`, effort max, no tools, short system prompt, one call, same brief and inputs
   sol2   baseline: sol_pass.py plan → write (Sol, max) with the package in place of the backbone
   w10-opus-cold   baseline: the same prompt with context.md only (no package)
@@ -91,8 +92,8 @@ def run_arm(ref: str, arm: str) -> None:
     stdin = R.inline(V9 / "prompts" / "synth_one.md", w / "context.md", w / "package.md")
     prompt = (f"Follow the brief below (synth_one.md) exactly. Ayah {ref}; S_A = {sa}. The brief, context.md and "
               f"package.md follow in full; return the plan, the reading and the harvest as your final message.")
-    if arm == "sol1":
-        text = R.codex(SP.SOL, prompt, out / "run.log.jsonl", stdin=stdin, last=out / "final.txt", sandbox="read-only")
+    if arm in ("sol1", "sol56"):
+        text = R.codex(SP.SOL if arm == "sol1" else "gpt-5.6-sol", prompt, out / "run.log.jsonl", stdin=stdin, last=out / "final.txt", sandbox="read-only")
     elif arm == "opus1":
         r = subprocess.run(["claude", "-p", "--model", "opus", "--effort", "max", "--tools", "",
                             "--output-format", "json", "--no-session-persistence", "--system-prompt", SYSTEM],
@@ -137,7 +138,7 @@ def check(ref: str, arm: str) -> None:
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("ref")
-    ap.add_argument("--arm", required=True, choices=("sol1", "opus1", "w10-sol", "w10-luna", "w10-opus", "w10-opus-cold"))
+    ap.add_argument("--arm", required=True, choices=("sol1", "sol56", "opus1", "w10-sol", "w10-luna", "w10-opus", "w10-opus-cold"))
     ap.add_argument("--check-only", action="store_true")
     a = ap.parse_args()
     if a.check_only:

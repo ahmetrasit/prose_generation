@@ -1,0 +1,387 @@
+# Branch-image pairs (global network, gateway roots; top by distinct partner root)
+
+For every branch of every focus root: partners in the same ayah (top 3), within ±7 ayat (top 3), and elsewhere in the surah (top 2). A pair is a candidate only; judge whether it opens a reading.
+
+Pairs listed: 312.
+## ء م ن (ءَامَنُوا۟)
+
+- **B001** guven ve guvenilirlik / سكون القلب في أمن وثقة
+  - same: ح ق ق B001 gerçekliğe uygun, kesin doğruluk / ثبات مطابق للواقع ضد الباطل ← 103:3 بِٱلْحَقِّ
+  - same: ع م ل B005 karşılıklı işlem / المعاملة بين الناس ← 103:3 وَعَمِلُوا۟
+  - same: و ص ي B002 başkasına bırakılan iş talimatı / عهد موصول إلى غيره ← 103:3 وَتَوَاصَوْا۟
+  - near: ء ن س B003 yabancılık duymadan yakınlık ve rahatlık hissetme / الأنس الذي يزيل الوحشة ← 103:2 ٱلْإِنسَٰنَ
+  - near: ع ص ر B001 devir, vakit ve günün geç bölümü / دهر ووقت متعاقب ← 103:1 وَٱلْعَصْرِ
+  - near: خ س ر B003 ölçü ve tartıda eksiltme / إخسار الكيل والميزان ← 103:2 خُسْرٍ
+- **B002** dogru sayip kabul etme / تصديق يطمئن إليه القلب
+  - same: ح ق ق B001 gerçekliğe uygun, kesin doğruluk / ثبات مطابق للواقع ضد الباطل ← 103:3 بِٱلْحَقِّ
+  - same: ص ب ر B001 kendini tutarak dayanma / حبس النفس عن الجزع ← 103:3 بِٱلصَّبْرِ
+  - same: ع م ل B001 bilerek yapılan iş veya eylem / الفعل المقصود والعمل ← 103:3 وَعَمِلُوا۟
+  - near: ع ص ر B011 soy kökü ve kökene bağlı soyluluk / أصل وحسب ونسب ← 103:1 وَٱلْعَصْرِ
+  - near: ء ن س B006 belirli sözlerde kişinin kendisi veya seçilmiş yakını / ابن الإنس للنفس والصفوة ← 103:2 ٱلْإِنسَٰنَ
+  - near: خ س ر B001 eksilme ve değer yitimi / النقص العام ← 103:2 خُسْرٍ
+- **B003** duada kabul istegi sozu / قول آمين طلبا للاستجابة
+  - same: ص ل ح B004 kişi adı olan kök türevleri / صالح وما قاربه علما لشخص ← 103:3 ٱلصَّٰلِحَٰتِ
+  - same: ص ب ر B012 öldürmeye karşılık ölüm cezası / الإقصاص والقود ← 103:3 بِٱلصَّبْرِ
+  - same: ع م ل B001 bilerek yapılan iş veya eylem / الفعل المقصود والعمل ← 103:3 وَعَمِلُوا۟
+  - near: ع ص ر B011 soy kökü ve kökene bağlı soyluluk / أصل وحسب ونسب ← 103:1 وَٱلْعَصْرِ
+  - near: ء ن س B006 belirli sözlerde kişinin kendisi veya seçilmiş yakını / ابن الإنس للنفس والصفوة ← 103:2 ٱلْإِنسَٰنَ
+  - near: خ س ر B005 yitim, yıkım veya güçsüz kişileri bildiren genişlemiş biçimler / الخنسرى والخيسرى والخناسر ← 103:2 خُسْرٍ
+
+## ع م ل (وَعَمِلُوا۟)
+
+- **B001** bilerek yapılan iş veya eylem / الفعل المقصود والعمل
+  - same: ص ل ح B004 kişi adı olan kök türevleri / صالح وما قاربه علما لشخص ← 103:3 ٱلصَّٰلِحَٰتِ
+  - same: ح ق ق B013 devenin veya sürünün iyice semirmesi / تمام حال الحيوان وقوته ← 103:3 بِٱلْحَقِّ
+  - same: ء م ن B002 dogru sayip kabul etme / تصديق يطمئن إليه القلب ← 103:3 ءَامَنُوا۟
+  - near: خ س ر B001 eksilme ve değer yitimi / النقص العام ← 103:2 خُسْرٍ
+  - near: ع ص ر B007 bağış, iyilik veya elde edilen ürün / عطاء وغلة مستخرجة ← 103:1 وَٱلْعَصْرِ
+  - near: ء ن س B001 insan türü ve bu türden bir kişi / ظهور الإنسان المخالف للتوحش والجن ← 103:2 ٱلْإِنسَٰنَ
+- **B002** işe koşmak veya kullanmak / إعمال الشيء واستعماله
+  - same: ح ق ق B002 bağlayıcı gereklilik ve hak ediş / لزوم واجب واستحقاق ثابت ← 103:3 بِٱلْحَقِّ
+  - same: و ص ي B002 başkasına bırakılan iş talimatı / عهد موصول إلى غيره ← 103:3 وَتَوَاصَوْا۟
+  - same: ص ل ح B001 iyi ve düzgün olma; düzeltme / الصلاح ضد الفساد والطلاح ← 103:3 ٱلصَّٰلِحَٰتِ
+  - near: ء ن س B006 belirli sözlerde kişinin kendisi veya seçilmiş yakını / ابن الإنس للنفس والصفوة ← 103:2 ٱلْإِنسَٰنَ
+  - near: ع ص ر B007 bağış, iyilik veya elde edilen ürün / عطاء وغلة مستخرجة ← 103:1 وَٱلْعَصْرِ
+  - near: خ س ر B002 alım satımda kazanç sağlayamama veya anaparadan yitirme / خسارة التجارة ← 103:2 خُسْرٍ
+- **B003** işe görevli kılma veya görev üstlenme / ولاية العمل والقيام عليه
+  - same: ص ب ر B012 öldürmeye karşılık ölüm cezası / الإقصاص والقود ← 103:3 بِٱلصَّبْرِ
+  - same: و ص ي B002 başkasına bırakılan iş talimatı / عهد موصول إلى غيره ← 103:3 وَتَوَاصَوْا۟
+  - same: ص ل ح B001 iyi ve düzgün olma; düzeltme / الصلاح ضد الفساد والطلاح ← 103:3 ٱلصَّٰلِحَٰتِ
+  - near: ع ص ر B007 bağış, iyilik veya elde edilen ürün / عطاء وغلة مستخرجة ← 103:1 وَٱلْعَصْرِ
+  - near: خ س ر B001 eksilme ve değer yitimi / النقص العام ← 103:2 خُسْرٍ
+  - near: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد ← 103:2 ٱلْإِنسَٰنَ
+- **B004** iş ücreti / أجر العمل ورزق العامل
+  - same: ح ق ق B003 sahibine bağlı pay ve istem yetkisi / حق مخصوص يملكه صاحبه ← 103:3 بِٱلْحَقِّ
+  - same: ص ل ح B001 iyi ve düzgün olma; düzeltme / الصلاح ضد الفساد والطلاح ← 103:3 ٱلصَّٰلِحَٰتِ
+  - same: ء م ن B001 guven ve guvenilirlik / سكون القلب في أمن وثقة ← 103:3 ءَامَنُوا۟
+  - near: ع ص ر B007 bağış, iyilik veya elde edilen ürün / عطاء وغلة مستخرجة ← 103:1 وَٱلْعَصْرِ
+  - near: خ س ر B002 alım satımda kazanç sağlayamama veya anaparadan yitirme / خسارة التجارة ← 103:2 خُسْرٍ
+  - near: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد ← 103:2 ٱلْإِنسَٰنَ
+- **B005** karşılıklı işlem / المعاملة بين الناس
+  - same: و ص ي B003 birbirine öğüt veya talimat iletmek / تبادل الوصية بين القوم ← 103:3 وَتَوَاصَوْا۟
+  - same: ح ق ق B003 sahibine bağlı pay ve istem yetkisi / حق مخصوص يملكه صاحبه ← 103:3 بِٱلْحَقِّ
+  - same: ص ب ر B003 yükümlülüğe güvence veren kişi / تحمل الكفالة والملازمة ← 103:3 بِٱلصَّبْرِ
+  - near: ء ن س B004 insana dönük yan / الجانب الإنسي المقبل على الإنسان ← 103:2 ٱلْإِنسَٰنَ
+  - near: خ س ر B001 eksilme ve değer yitimi / النقص العام ← 103:2 خُسْرٍ
+  - near: ع ص ر B007 bağış, iyilik veya elde edilen ürün / عطاء وغلة مستخرجة ← 103:1 وَٱلْعَصْرِ
+- **B006** el işçileri / العملة العاملون بالأيدي
+  - same: و ص ي B003 birbirine öğüt veya talimat iletmek / تبادل الوصية بين القوم ← 103:3 وَتَوَاصَوْا۟
+  - same: ص ب ر B003 yükümlülüğe güvence veren kişi / تحمل الكفالة والملازمة ← 103:3 بِٱلصَّبْرِ
+  - same: ح ق ق B003 sahibine bağlı pay ve istem yetkisi / حق مخصوص يملكه صاحبه ← 103:3 بِٱلْحَقِّ
+  - near: ع ص ر B007 bağış, iyilik veya elde edilen ürün / عطاء وغلة مستخرجة ← 103:1 وَٱلْعَصْرِ
+  - near: خ س ر B001 eksilme ve değer yitimi / النقص العام ← 103:2 خُسْرٍ
+  - near: ء ن س B001 insan türü ve bu türden bir kişi / ظهور الإنسان المخالف للتوحش والجن ← 103:2 ٱلْإِنسَٰنَ
+- **B007** zahmete girmek / التعمل بمعنى التعني
+  - same: ح ق ق B012 bineği gücünü aşacak biçimde sert sürme / حقحقة تجهد الظهر في السير ← 103:3 بِٱلْحَقِّ
+  - same: ص ب ر B003 yükümlülüğe güvence veren kişi / تحمل الكفالة والملازمة ← 103:3 بِٱلصَّبْرِ
+  - same: ء م ن B002 dogru sayip kabul etme / تصديق يطمئن إليه القلب ← 103:3 ءَامَنُوا۟
+  - near: ع ص ر B005 tutunarak sığınma ve kurtuluş arama / ملجأ ومنجاة واعتصام ← 103:1 وَٱلْعَصْرِ
+  - near: خ س ر B003 ölçü ve tartıda eksiltme / إخسار الكيل والميزان ← 103:2 خُسْرٍ
+  - near: ء ن س B006 belirli sözlerde kişinin kendisi veya seçilmiş yakını / ابن الإنس للنفس والصفوة ← 103:2 ٱلْإِنسَٰنَ
+- **B008** işe yatkın ve dayanıklı / المطبوع على العمل
+  - same: ح ق ق B008 dördüncü yaşındaki yük taşımaya elverişli deve / ناقة بلغت حق الحمل والانتفاع ← 103:3 بِٱلْحَقِّ
+  - same: ص ل ح B001 iyi ve düzgün olma; düzeltme / الصلاح ضد الفساد والطلاح ← 103:3 ٱلصَّٰلِحَٰتِ
+  - same: ص ب ر B008 acı ağaç özü / الصبر المر وعصارته ← 103:3 بِٱلصَّبْرِ
+  - near: ع ص ر B007 bağış, iyilik veya elde edilen ürün / عطاء وغلة مستخرجة ← 103:1 وَٱلْعَصْرِ
+  - near: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد ← 103:2 ٱلْإِنسَٰنَ
+  - near: خ س ر B001 eksilme ve değer yitimi / النقص العام ← 103:2 خُسْرٍ
+- **B009** mızrak ucunun alt bölümü / عامل الرمح
+  - same: ح ق ق B013 devenin veya sürünün iyice semirmesi / تمام حال الحيوان وقوته ← 103:3 بِٱلْحَقِّ
+  - same: ص ب ر B017 dağ ya da dağların orta kesimi / الجبل ووسطه ← 103:3 بِٱلصَّبْرِ
+  - same: و ص ي B003 birbirine öğüt veya talimat iletmek / تبادل الوصية بين القوم ← 103:3 وَتَوَاصَوْا۟
+  - near: ء ن س B004 insana dönük yan / الجانب الإنسي المقبل على الإنسان ← 103:2 ٱلْإِنسَٰنَ
+  - near: ع ص ر B012 bağlılar arasındaki alt konumlu kesim / دنية في الموالاة ← 103:1 وَٱلْعَصْرِ
+  - near: خ س ر B001 eksilme ve değer yitimi / النقص العام ← 103:2 خُسْرٍ
+- **B010** iş gören beden parçası / الجارحة العاملة
+  - same: و ص ي B004 otlağın sürüye bolca elverişli olması / موافقة المرعى للسائمة ← 103:3 وَتَوَاصَوْا۟
+  - same: ح ق ق B012 bineği gücünü aşacak biçimde sert sürme / حقحقة تجهد الظهر في السير ← 103:3 بِٱلْحَقِّ
+  - same: ص ل ح B001 iyi ve düzgün olma; düzeltme / الصلاح ضد الفساد والطلاح ← 103:3 ٱلصَّٰلِحَٰتِ
+  - near: ء ن س B004 insana dönük yan / الجانب الإنسي المقبل على الإنسان ← 103:2 ٱلْإِنسَٰنَ
+  - near: ع ص ر B010 ekinin başak kılıflarına girip korunması / زرع يتحرز في أكمامه ← 103:1 وَٱلْعَصْرِ
+  - near: خ س ر B001 eksilme ve değer yitimi / النقص العام ← 103:2 خُسْرٍ
+- **B011** işlek yol / الطريق المعمل
+  - same: ص ل ح B003 sana uygun olma / الصلاح للشيء ملاءمته ← 103:3 ٱلصَّٰلِحَٰتِ
+  - same: ح ق ق B003 sahibine bağlı pay ve istem yetkisi / حق مخصوص يملكه صاحبه ← 103:3 بِٱلْحَقِّ
+  - same: ص ب ر B017 dağ ya da dağların orta kesimi / الجبل ووسطه ← 103:3 بِٱلصَّبْرِ
+  - near: ع ص ر B014 susuzluktan kurumuş dil / لسان معصور من العطش ← 103:1 وَٱلْعَصْرِ
+  - near: ء ن س B004 insana dönük yan / الجانب الإنسي المقبل على الإنسان ← 103:2 ٱلْإِنسَٰنَ
+  - near: خ س ر B002 alım satımda kazanç sağlayamama veya anaparadan yitirme / خسارة التجارة ← 103:2 خُسْرٍ
+- **B012** yaya yolcular / بنو العمل من المشاة
+  - same: ص ب ر B016 bir Arap boyunun adı / بطن من غسان ← 103:3 بِٱلصَّبْرِ
+  - same: و ص ي B003 birbirine öğüt veya talimat iletmek / تبادل الوصية بين القوم ← 103:3 وَتَوَاصَوْا۟
+  - same: ص ل ح B004 kişi adı olan kök türevleri / صالح وما قاربه علما لشخص ← 103:3 ٱلصَّٰلِحَٰتِ
+  - near: ع ص ر B012 bağlılar arasındaki alt konumlu kesim / دنية في الموالاة ← 103:1 وَٱلْعَصْرِ
+  - near: ء ن س B001 insan türü ve bu türden bir kişi / ظهور الإنسان المخالف للتوحش والجن ← 103:2 ٱلْإِنسَٰنَ
+  - near: خ س ر B001 eksilme ve değer yitimi / النقص العام ← 103:2 خُسْرٍ
+
+## ص ل ح (ٱلصَّٰلِحَٰتِ)
+
+- **B001** iyi ve düzgün olma; düzeltme / الصلاح ضد الفساد والطلاح
+  - same: ح ق ق B001 gerçekliğe uygun, kesin doğruluk / ثبات مطابق للواقع ضد الباطل ← 103:3 بِٱلْحَقِّ
+  - same: ع م ل B001 bilerek yapılan iş veya eylem / الفعل المقصود والعمل ← 103:3 وَعَمِلُوا۟
+  - same: و ص ي B001 bir şeyi başka şeyle bağlama veya bitişik sürdürme / وصل الشيء بالشيء ← 103:3 وَتَوَاصَوْا۟
+  - near: ء ن س B003 yabancılık duymadan yakınlık ve rahatlık hissetme / الأنس الذي يزيل الوحشة ← 103:2 ٱلْإِنسَٰنَ
+  - near: ع ص ر B015 bağırsak gazı çıkarma / العصار ريح البطن ← 103:1 وَٱلْعَصْرِ
+  - near: خ س ر B001 eksilme ve değer yitimi / النقص العام ← 103:2 خُسْرٍ
+- **B002** barışma ve uzlaşma / الصلح إزالة النفار بين الناس
+  - same: و ص ي B003 birbirine öğüt veya talimat iletmek / تبادل الوصية بين القوم ← 103:3 وَتَوَاصَوْا۟
+  - same: ع م ل B001 bilerek yapılan iş veya eylem / الفعل المقصود والعمل ← 103:3 وَعَمِلُوا۟
+  - same: ح ق ق B001 gerçekliğe uygun, kesin doğruluk / ثبات مطابق للواقع ضد الباطل ← 103:3 بِٱلْحَقِّ
+  - near: ء ن س B003 yabancılık duymadan yakınlık ve rahatlık hissetme / الأنس الذي يزيل الوحشة ← 103:2 ٱلْإِنسَٰنَ
+  - near: ع ص ر B005 tutunarak sığınma ve kurtuluş arama / ملجأ ومنجاة واعتصام ← 103:1 وَٱلْعَصْرِ
+  - near: خ س ر B005 yitim, yıkım veya güçsüz kişileri bildiren genişlemiş biçimler / الخنسرى والخيسرى والخناسر ← 103:2 خُسْرٍ
+- **B003** sana uygun olma / الصلاح للشيء ملاءمته
+  - same: ع م ل B001 bilerek yapılan iş veya eylem / الفعل المقصود والعمل ← 103:3 وَعَمِلُوا۟
+  - same: و ص ي B004 otlağın sürüye bolca elverişli olması / موافقة المرعى للسائمة ← 103:3 وَتَوَاصَوْا۟
+  - same: ح ق ق B003 sahibine bağlı pay ve istem yetkisi / حق مخصوص يملكه صاحبه ← 103:3 بِٱلْحَقِّ
+  - near: ء ن س B006 belirli sözlerde kişinin kendisi veya seçilmiş yakını / ابن الإنس للنفس والصفوة ← 103:2 ٱلْإِنسَٰنَ
+  - near: ع ص ر B011 soy kökü ve kökene bağlı soyluluk / أصل وحسب ونسب ← 103:1 وَٱلْعَصْرِ
+  - near: خ س ر B001 eksilme ve değer yitimi / النقص العام ← 103:2 خُسْرٍ
+- **B004** kişi adı olan kök türevleri / صالح وما قاربه علما لشخص
+  - same: ع م ل B001 bilerek yapılan iş veya eylem / الفعل المقصود والعمل ← 103:3 وَعَمِلُوا۟
+  - same: ص ب ر B016 bir Arap boyunun adı / بطن من غسان ← 103:3 بِٱلصَّبْرِ
+  - same: ء م ن B003 duada kabul istegi sozu / قول آمين طلبا للاستجابة ← 103:3 ءَامَنُوا۟
+  - near: ء ن س B006 belirli sözlerde kişinin kendisi veya seçilmiş yakını / ابن الإنس للنفس والصفوة ← 103:2 ٱلْإِنسَٰنَ
+  - near: ع ص ر B013 bir ağaç türü / العصرة شجرة ← 103:1 وَٱلْعَصْرِ
+  - near: خ س ر B001 eksilme ve değer yitimi / النقص العام ← 103:2 خُسْرٍ
+- **B005** bir kent ve bir nehir için özel adlar / صلاح والصلح علمان لمواضع
+  - same: ص ب ر B016 bir Arap boyunun adı / بطن من غسان ← 103:3 بِٱلصَّبْرِ
+  - same: ع م ل B001 bilerek yapılan iş veya eylem / الفعل المقصود والعمل ← 103:3 وَعَمِلُوا۟
+  - same: ء م ن B003 duada kabul istegi sozu / قول آمين طلبا للاستجابة ← 103:3 ءَامَنُوا۟
+  - near: ع ص ر B015 bağırsak gazı çıkarma / العصار ريح البطن ← 103:1 وَٱلْعَصْرِ
+  - near: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد ← 103:2 ٱلْإِنسَٰنَ
+  - near: خ س ر B002 alım satımda kazanç sağlayamama veya anaparadan yitirme / خسارة التجارة ← 103:2 خُسْرٍ
+
+## و ص ي (وَتَوَاصَوْا۟)
+
+- **B001** bir şeyi başka şeyle bağlama veya bitişik sürdürme / وصل الشيء بالشيء
+  - same: ع م ل B001 bilerek yapılan iş veya eylem / الفعل المقصود والعمل ← 103:3 وَعَمِلُوا۟
+  - same: ص ب ر B012 öldürmeye karşılık ölüm cezası / الإقصاص والقود ← 103:3 بِٱلصَّبْرِ
+  - same: ص ل ح B001 iyi ve düzgün olma; düzeltme / الصلاح ضد الفساد والطلاح ← 103:3 ٱلصَّٰلِحَٰتِ
+  - near: ع ص ر B001 devir, vakit ve günün geç bölümü / دهر ووقت متعاقب ← 103:1 وَٱلْعَصْرِ
+  - near: خ س ر B001 eksilme ve değer yitimi / النقص العام ← 103:2 خُسْرٍ
+  - near: ء ن س B004 insana dönük yan / الجانب الإنسي المقبل على الإنسان ← 103:2 ٱلْإِنسَٰنَ
+- **B002** başkasına bırakılan iş talimatı / عهد موصول إلى غيره
+  - same: ع م ل B005 karşılıklı işlem / المعاملة بين الناس ← 103:3 وَعَمِلُوا۟
+  - same: ح ق ق B003 sahibine bağlı pay ve istem yetkisi / حق مخصوص يملكه صاحبه ← 103:3 بِٱلْحَقِّ
+  - same: ص ب ر B002 zorla alıkoyma / حبس القهر للقتل أو اليمين ← 103:3 بِٱلصَّبْرِ
+  - near: ع ص ر B005 tutunarak sığınma ve kurtuluş arama / ملجأ ومنجاة واعتصام ← 103:1 وَٱلْعَصْرِ
+  - near: ء ن س B006 belirli sözlerde kişinin kendisi veya seçilmiş yakını / ابن الإنس للنفس والصفوة ← 103:2 ٱلْإِنسَٰنَ
+  - near: خ س ر B001 eksilme ve değer yitimi / النقص العام ← 103:2 خُسْرٍ
+- **B003** birbirine öğüt veya talimat iletmek / تبادل الوصية بين القوم
+  - same: ص ل ح B002 barışma ve uzlaşma / الصلح إزالة النفار بين الناس ← 103:3 ٱلصَّٰلِحَٰتِ
+  - same: ع م ل B005 karşılıklı işlem / المعاملة بين الناس ← 103:3 وَعَمِلُوا۟
+  - same: ص ب ر B003 yükümlülüğe güvence veren kişi / تحمل الكفالة والملازمة ← 103:3 بِٱلصَّبْرِ
+  - near: ع ص ر B012 bağlılar arasındaki alt konumlu kesim / دنية في الموالاة ← 103:1 وَٱلْعَصْرِ
+  - near: ء ن س B006 belirli sözlerde kişinin kendisi veya seçilmiş yakını / ابن الإنس للنفس والصفوة ← 103:2 ٱلْإِنسَٰنَ
+  - near: خ س ر B001 eksilme ve değer yitimi / النقص العام ← 103:2 خُسْرٍ
+- **B004** otlağın sürüye bolca elverişli olması / موافقة المرعى للسائمة
+  - same: ص ل ح B003 sana uygun olma / الصلاح للشيء ملاءمته ← 103:3 ٱلصَّٰلِحَٰتِ
+  - same: ح ق ق B010 sıkı dokunmuş veya sağlam kurulmuş / إحكام رصين في نسج أو كلام ← 103:3 بِٱلْحَقِّ
+  - same: ع م ل B010 iş gören beden parçası / الجارحة العاملة ← 103:3 وَعَمِلُوا۟
+  - near: ع ص ر B013 bir ağaç türü / العصرة شجرة ← 103:1 وَٱلْعَصْرِ
+  - near: ء ن س B002 görerek fark etme; bağlama göre işitme, sezme ve bakıp araştırma / إيناس الشيء برؤية أو إحساس أو سماع ← 103:2 ٱلْإِنسَٰنَ
+  - near: خ س ر B003 ölçü ve tartıda eksiltme / إخسار الكيل والميزان ← 103:2 خُسْرٍ
+
+## ح ق ق (بِٱلْحَقِّ)
+
+- **B001** gerçekliğe uygun, kesin doğruluk / ثبات مطابق للواقع ضد الباطل
+  - same: ء م ن B002 dogru sayip kabul etme / تصديق يطمئن إليه القلب ← 103:3 ءَامَنُوا۟
+  - same: ص ل ح B001 iyi ve düzgün olma; düzeltme / الصلاح ضد الفساد والطلاح ← 103:3 ٱلصَّٰلِحَٰتِ
+  - same: ص ب ر B001 kendini tutarak dayanma / حبس النفس عن الجزع ← 103:3 بِٱلصَّبْرِ
+  - near: ء ن س B003 yabancılık duymadan yakınlık ve rahatlık hissetme / الأنس الذي يزيل الوحشة ← 103:2 ٱلْإِنسَٰنَ
+  - near: خ س ر B001 eksilme ve değer yitimi / النقص العام ← 103:2 خُسْرٍ
+  - near: ع ص ر B011 soy kökü ve kökene bağlı soyluluk / أصل وحسب ونسب ← 103:1 وَٱلْعَصْرِ
+- **B002** bağlayıcı gereklilik ve hak ediş / لزوم واجب واستحقاق ثابت
+  - same: ع م ل B002 işe koşmak veya kullanmak / إعمال الشيء واستعماله ← 103:3 وَعَمِلُوا۟
+  - same: ء م ن B002 dogru sayip kabul etme / تصديق يطمئن إليه القلب ← 103:3 ءَامَنُوا۟
+  - same: ص ب ر B004 üst ya da yan sınır / أعلى الشيء وجوانبه ← 103:3 بِٱلصَّبْرِ
+  - near: ء ن س B002 görerek fark etme; bağlama göre işitme, sezme ve bakıp araştırma / إيناس الشيء برؤية أو إحساس أو سماع ← 103:2 ٱلْإِنسَٰنَ
+  - near: ع ص ر B011 soy kökü ve kökene bağlı soyluluk / أصل وحسب ونسب ← 103:1 وَٱلْعَصْرِ
+  - near: خ س ر B003 ölçü ve tartıda eksiltme / إخسار الكيل والميزان ← 103:2 خُسْرٍ
+- **B003** sahibine bağlı pay ve istem yetkisi / حق مخصوص يملكه صاحبه
+  - same: ع م ل B005 karşılıklı işlem / المعاملة بين الناس ← 103:3 وَعَمِلُوا۟
+  - same: و ص ي B002 başkasına bırakılan iş talimatı / عهد موصول إلى غيره ← 103:3 وَتَوَاصَوْا۟
+  - same: ء م ن B002 dogru sayip kabul etme / تصديق يطمئن إليه القلب ← 103:3 ءَامَنُوا۟
+  - near: ع ص ر B012 bağlılar arasındaki alt konumlu kesim / دنية في الموالاة ← 103:1 وَٱلْعَصْرِ
+  - near: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد ← 103:2 ٱلْإِنسَٰنَ
+  - near: خ س ر B001 eksilme ve değer yitimi / النقص العام ← 103:2 خُسْرٍ
+- **B004** doğru taraf olma savıyla çekişme / محاقة يدعي كل طرف فيها الحق
+  - same: و ص ي B003 birbirine öğüt veya talimat iletmek / تبادل الوصية بين القوم ← 103:3 وَتَوَاصَوْا۟
+  - same: ع م ل B005 karşılıklı işlem / المعاملة بين الناس ← 103:3 وَعَمِلُوا۟
+  - same: ص ب ر B003 yükümlülüğe güvence veren kişi / تحمل الكفالة والملازمة ← 103:3 بِٱلصَّبْرِ
+  - near: ع ص ر B006 alıkoyma, malı alma veya geri alma / حبس ومنع واسترجاع ← 103:1 وَٱلْعَصْرِ
+  - near: ء ن س B006 belirli sözlerde kişinin kendisi veya seçilmiş yakını / ابن الإنس للنفس والصفوة ← 103:2 ٱلْإِنسَٰنَ
+  - near: خ س ر B001 eksilme ve değer yitimi / النقص العام ← 103:2 خُسْرٍ
+- **B005** doğruluğunu belirleme ve gösterme / إثبات الحق وإظهاره
+  - same: ء م ن B002 dogru sayip kabul etme / تصديق يطمئن إليه القلب ← 103:3 ءَامَنُوا۟
+  - same: ع م ل B001 bilerek yapılan iş veya eylem / الفعل المقصود والعمل ← 103:3 وَعَمِلُوا۟
+  - same: ص ل ح B003 sana uygun olma / الصلاح للشيء ملاءمته ← 103:3 ٱلصَّٰلِحَٰتِ
+  - near: ع ص ر B010 ekinin başak kılıflarına girip korunması / زرع يتحرز في أكمامه ← 103:1 وَٱلْعَصْرِ
+  - near: ء ن س B002 görerek fark etme; bağlama göre işitme, sezme ve bakıp araştırma / إيناس الشيء برؤية أو إحساس أو سماع ← 103:2 ٱلْإِنسَٰنَ
+  - near: خ س ر B003 ölçü ve tartıda eksiltme / إخسار الكيل والميزان ← 103:2 خُسْرٍ
+- **B007** korunması ve savunulması gereken şey / حقيقة يلزم حفظها
+  - same: ء م ن B002 dogru sayip kabul etme / تصديق يطمئن إليه القلب ← 103:3 ءَامَنُوا۟
+  - same: ع م ل B005 karşılıklı işlem / المعاملة بين الناس ← 103:3 وَعَمِلُوا۟
+  - same: ص ب ر B003 yükümlülüğe güvence veren kişi / تحمل الكفالة والملازمة ← 103:3 بِٱلصَّبْرِ
+  - near: ع ص ر B011 soy kökü ve kökene bağlı soyluluk / أصل وحسب ونسب ← 103:1 وَٱلْعَصْرِ
+  - near: ء ن س B004 insana dönük yan / الجانب الإنسي المقبل على الإنسان ← 103:2 ٱلْإِنسَٰنَ
+  - near: خ س ر B002 alım satımda kazanç sağlayamama veya anaparadan yitirme / خسارة التجارة ← 103:2 خُسْرٍ
+- **B008** dördüncü yaşındaki yük taşımaya elverişli deve / ناقة بلغت حق الحمل والانتفاع
+  - same: ع م ل B008 işe yatkın ve dayanıklı / المطبوع على العمل ← 103:3 وَعَمِلُوا۟
+  - same: ء م ن B002 dogru sayip kabul etme / تصديق يطمئن إليه القلب ← 103:3 ءَامَنُوا۟
+  - same: ص ل ح B001 iyi ve düzgün olma; düzeltme / الصلاح ضد الفساد والطلاح ← 103:3 ٱلصَّٰلِحَٰتِ
+  - near: ع ص ر B009 genç kızın ergenlik eşiğine ulaşması / بلوغ الجارية عصر شبابها ← 103:1 وَٱلْعَصْرِ
+  - near: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد ← 103:2 ٱلْإِنسَٰنَ
+  - near: خ س ر B001 eksilme ve değer yitimi / النقص العام ← 103:2 خُسْرٍ
+- **B009** iç boşluğa ulaşan düz saplanış / طعنة استقامت حتى نفذت
+  - same: ص ب ر B006 çıkışsız ağır durum / الوقوع في شدة لا منفذ منها ← 103:3 بِٱلصَّبْرِ
+  - same: ع م ل B008 işe yatkın ve dayanıklı / المطبوع على العمل ← 103:3 وَعَمِلُوا۟
+  - same: و ص ي B001 bir şeyi başka şeyle bağlama veya bitişik sürdürme / وصل الشيء بالشيء ← 103:3 وَتَوَاصَوْا۟
+  - near: ع ص ر B005 tutunarak sığınma ve kurtuluş arama / ملجأ ومنجاة واعتصام ← 103:1 وَٱلْعَصْرِ
+  - near: ء ن س B004 insana dönük yan / الجانب الإنسي المقبل على الإنسان ← 103:2 ٱلْإِنسَٰنَ
+  - near: خ س ر B003 ölçü ve tartıda eksiltme / إخسار الكيل والميزان ← 103:2 خُسْرٍ
+- **B010** sıkı dokunmuş veya sağlam kurulmuş / إحكام رصين في نسج أو كلام
+  - same: ع م ل B002 işe koşmak veya kullanmak / إعمال الشيء واستعماله ← 103:3 وَعَمِلُوا۟
+  - same: و ص ي B004 otlağın sürüye bolca elverişli olması / موافقة المرعى للسائمة ← 103:3 وَتَوَاصَوْا۟
+  - same: ء م ن B002 dogru sayip kabul etme / تصديق يطمئن إليه القلب ← 103:3 ءَامَنُوا۟
+  - near: ع ص ر B011 soy kökü ve kökene bağlı soyluluk / أصل وحسب ونسب ← 103:1 وَٱلْعَصْرِ
+  - near: خ س ر B003 ölçü ve tartıda eksiltme / إخسار الكيل والميزان ← 103:2 خُسْرٍ
+  - near: ء ن س B002 görerek fark etme; bağlama göre işitme, sezme ve bakıp araştırma / إيناس الشيء برؤية أو إحساس أو سماع ← 103:2 ٱلْإِنسَٰنَ
+- **B011** özel adlandırma kümesi / حق يطابق موضعه كالمفصل والوعاء
+  - same: ص ب ر B007 kışın ayazı / شدة برد الشتاء ← 103:3 بِٱلصَّبْرِ
+  - same: ع م ل B008 işe yatkın ve dayanıklı / المطبوع على العمل ← 103:3 وَعَمِلُوا۟
+  - same: ء م ن B002 dogru sayip kabul etme / تصديق يطمئن إليه القلب ← 103:3 ءَامَنُوا۟
+  - near: ع ص ر B011 soy kökü ve kökene bağlı soyluluk / أصل وحسب ونسب ← 103:1 وَٱلْعَصْرِ
+  - near: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد ← 103:2 ٱلْإِنسَٰنَ
+  - near: خ س ر B003 ölçü ve tartıda eksiltme / إخسار الكيل والميزان ← 103:2 خُسْرٍ
+- **B012** bineği gücünü aşacak biçimde sert sürme / حقحقة تجهد الظهر في السير
+  - same: ع م ل B007 zahmete girmek / التعمل بمعنى التعني ← 103:3 وَعَمِلُوا۟
+  - same: ص ب ر B006 çıkışsız ağır durum / الوقوع في شدة لا منفذ منها ← 103:3 بِٱلصَّبْرِ
+  - same: ص ل ح B004 kişi adı olan kök türevleri / صالح وما قاربه علما لشخص ← 103:3 ٱلصَّٰلِحَٰتِ
+  - near: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد ← 103:2 ٱلْإِنسَٰنَ
+  - near: ع ص ر B001 devir, vakit ve günün geç bölümü / دهر ووقت متعاقب ← 103:1 وَٱلْعَصْرِ
+  - near: خ س ر B003 ölçü ve tartıda eksiltme / إخسار الكيل والميزان ← 103:2 خُسْرٍ
+- **B013** devenin veya sürünün iyice semirmesi / تمام حال الحيوان وقوته
+  - same: ع م ل B008 işe yatkın ve dayanıklı / المطبوع على العمل ← 103:3 وَعَمِلُوا۟
+  - same: ء م ن B001 guven ve guvenilirlik / سكون القلب في أمن وثقة ← 103:3 ءَامَنُوا۟
+  - same: و ص ي B004 otlağın sürüye bolca elverişli olması / موافقة المرعى للسائمة ← 103:3 وَتَوَاصَوْا۟
+  - near: خ س ر B002 alım satımda kazanç sağlayamama veya anaparadan yitirme / خسارة التجارة ← 103:2 خُسْرٍ
+  - near: ع ص ر B006 alıkoyma, malı alma veya geri alma / حبس ومنع واسترجاع ← 103:1 وَٱلْعَصْرِ
+  - near: ء ن س B002 görerek fark etme; bağlama göre işitme, sezme ve bakıp araştırma / إيناس الشيء برؤية أو إحساس أو سماع ← 103:2 ٱلْإِنسَٰنَ
+- **B014** terlemeyen veya art ayağını ön ayak izine basan at / أحق من الخيل يطابق خطوه أو يشتد بدنه
+  - same: ع م ل B008 işe yatkın ve dayanıklı / المطبوع على العمل ← 103:3 وَعَمِلُوا۟
+  - same: ء م ن B002 dogru sayip kabul etme / تصديق يطمئن إليه القلب ← 103:3 ءَامَنُوا۟
+  - same: و ص ي B004 otlağın sürüye bolca elverişli olması / موافقة المرعى للسائمة ← 103:3 وَتَوَاصَوْا۟
+  - near: خ س ر B005 yitim, yıkım veya güçsüz kişileri bildiren genişlemiş biçimler / الخنسرى والخيسرى والخناسر ← 103:2 خُسْرٍ
+  - near: ء ن س B004 insana dönük yan / الجانب الإنسي المقبل على الإنسان ← 103:2 ٱلْإِنسَٰنَ
+  - near: ع ص ر B001 devir, vakit ve günün geç bölümü / دهر ووقت متعاقب ← 103:1 وَٱلْعَصْرِ
+
+## ص ب ر (بِٱلصَّبْرِ)
+
+- **B001** kendini tutarak dayanma / حبس النفس عن الجزع
+  - same: ء م ن B002 dogru sayip kabul etme / تصديق يطمئن إليه القلب ← 103:3 ءَامَنُوا۟
+  - same: ح ق ق B001 gerçekliğe uygun, kesin doğruluk / ثبات مطابق للواقع ضد الباطل ← 103:3 بِٱلْحَقِّ
+  - same: ص ل ح B001 iyi ve düzgün olma; düzeltme / الصلاح ضد الفساد والطلاح ← 103:3 ٱلصَّٰلِحَٰتِ
+  - near: ع ص ر B006 alıkoyma, malı alma veya geri alma / حبس ومنع واسترجاع ← 103:1 وَٱلْعَصْرِ
+  - near: ء ن س B006 belirli sözlerde kişinin kendisi veya seçilmiş yakını / ابن الإنس للنفس والصفوة ← 103:2 ٱلْإِنسَٰنَ
+  - near: خ س ر B001 eksilme ve değer yitimi / النقص العام ← 103:2 خُسْرٍ
+- **B002** zorla alıkoyma / حبس القهر للقتل أو اليمين
+  - same: ء م ن B002 dogru sayip kabul etme / تصديق يطمئن إليه القلب ← 103:3 ءَامَنُوا۟
+  - same: و ص ي B002 başkasına bırakılan iş talimatı / عهد موصول إلى غيره ← 103:3 وَتَوَاصَوْا۟
+  - same: ع م ل B001 bilerek yapılan iş veya eylem / الفعل المقصود والعمل ← 103:3 وَعَمِلُوا۟
+  - near: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد ← 103:2 ٱلْإِنسَٰنَ
+  - near: ع ص ر B006 alıkoyma, malı alma veya geri alma / حبس ومنع واسترجاع ← 103:1 وَٱلْعَصْرِ
+  - near: خ س ر B001 eksilme ve değer yitimi / النقص العام ← 103:2 خُسْرٍ
+- **B003** yükümlülüğe güvence veren kişi / تحمل الكفالة والملازمة
+  - same: ع م ل B005 karşılıklı işlem / المعاملة بين الناس ← 103:3 وَعَمِلُوا۟
+  - same: و ص ي B003 birbirine öğüt veya talimat iletmek / تبادل الوصية بين القوم ← 103:3 وَتَوَاصَوْا۟
+  - same: ح ق ق B007 korunması ve savunulması gereken şey / حقيقة يلزم حفظها ← 103:3 بِٱلْحَقِّ
+  - near: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد ← 103:2 ٱلْإِنسَٰنَ
+  - near: ع ص ر B005 tutunarak sığınma ve kurtuluş arama / ملجأ ومنجاة واعتصام ← 103:1 وَٱلْعَصْرِ
+  - near: خ س ر B003 ölçü ve tartıda eksiltme / إخسار الكيل والميزان ← 103:2 خُسْرٍ
+- **B004** üst ya da yan sınır / أعلى الشيء وجوانبه
+  - same: ع م ل B002 işe koşmak veya kullanmak / إعمال الشيء واستعماله ← 103:3 وَعَمِلُوا۟
+  - same: ح ق ق B002 bağlayıcı gereklilik ve hak ediş / لزوم واجب واستحقاق ثابت ← 103:3 بِٱلْحَقِّ
+  - same: و ص ي B001 bir şeyi başka şeyle bağlama veya bitişik sürdürme / وصل الشيء بالشيء ← 103:3 وَتَوَاصَوْا۟
+  - near: ء ن س B004 insana dönük yan / الجانب الإنسي المقبل على الإنسان ← 103:2 ٱلْإِنسَٰنَ
+  - near: ع ص ر B010 ekinin başak kılıflarına girip korunması / زرع يتحرز في أكمامه ← 103:1 وَٱلْعَصْرِ
+  - near: خ س ر B001 eksilme ve değer yitimi / النقص العام ← 103:2 خُسْرٍ
+- **B005** sert taş ve taşlı arazi / حجر غليظ وأرض حصباء
+  - same: ح ق ق B001 gerçekliğe uygun, kesin doğruluk / ثبات مطابق للواقع ضد الباطل ← 103:3 بِٱلْحَقِّ
+  - same: ع م ل B008 işe yatkın ve dayanıklı / المطبوع على العمل ← 103:3 وَعَمِلُوا۟
+  - same: و ص ي B002 başkasına bırakılan iş talimatı / عهد موصول إلى غيره ← 103:3 وَتَوَاصَوْا۟
+  - near: ع ص ر B004 sütun gibi yükselen döner toz rüzgarı / إعصار وغبار مستدير ← 103:1 وَٱلْعَصْرِ
+  - near: خ س ر B002 alım satımda kazanç sağlayamama veya anaparadan yitirme / خسارة التجارة ← 103:2 خُسْرٍ
+  - near: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد ← 103:2 ٱلْإِنسَٰنَ
+- **B006** çıkışsız ağır durum / الوقوع في شدة لا منفذ منها
+  - same: ح ق ق B009 iç boşluğa ulaşan düz saplanış / طعنة استقامت حتى نفذت ← 103:3 بِٱلْحَقِّ
+  - same: و ص ي B003 birbirine öğüt veya talimat iletmek / تبادل الوصية بين القوم ← 103:3 وَتَوَاصَوْا۟
+  - same: ع م ل B007 zahmete girmek / التعمل بمعنى التعني ← 103:3 وَعَمِلُوا۟
+  - near: ع ص ر B001 devir, vakit ve günün geç bölümü / دهر ووقت متعاقب ← 103:1 وَٱلْعَصْرِ
+  - near: خ س ر B001 eksilme ve değer yitimi / النقص العام ← 103:2 خُسْرٍ
+  - near: ء ن س B001 insan türü ve bu türden bir kişi / ظهور الإنسان المخالف للتوحش والجن ← 103:2 ٱلْإِنسَٰنَ
+- **B007** kışın ayazı / شدة برد الشتاء
+  - same: ح ق ق B011 özel adlandırma kümesi / حق يطابق موضعه كالمفصل والوعاء ← 103:3 بِٱلْحَقِّ
+  - same: و ص ي B001 bir şeyi başka şeyle bağlama veya bitişik sürdürme / وصل الشيء بالشيء ← 103:3 وَتَوَاصَوْا۟
+  - same: ع م ل B010 iş gören beden parçası / الجارحة العاملة ← 103:3 وَعَمِلُوا۟
+  - near: ع ص ر B013 bir ağaç türü / العصرة شجرة ← 103:1 وَٱلْعَصْرِ
+  - near: خ س ر B002 alım satımda kazanç sağlayamama veya anaparadan yitirme / خسارة التجارة ← 103:2 خُسْرٍ
+  - near: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد ← 103:2 ٱلْإِنسَٰنَ
+- **B008** acı ağaç özü / الصبر المر وعصارته
+  - same: ص ل ح B002 barışma ve uzlaşma / الصلح إزالة النفار بين الناس ← 103:3 ٱلصَّٰلِحَٰتِ
+  - same: ع م ل B001 bilerek yapılan iş veya eylem / الفعل المقصود والعمل ← 103:3 وَعَمِلُوا۟
+  - same: ح ق ق B001 gerçekliğe uygun, kesin doğruluk / ثبات مطابق للواقع ضد الباطل ← 103:3 بِٱلْحَقِّ
+  - near: ع ص ر B013 bir ağaç türü / العصرة شجرة ← 103:1 وَٱلْعَصْرِ
+  - near: خ س ر B002 alım satımda kazanç sağlayamama veya anaparadan yitirme / خسارة التجارة ← 103:2 خُسْرٍ
+  - near: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد ← 103:2 ٱلْإِنسَٰنَ
+- **B009** demirhindi meyvesi / الصبار حمل الشجرة الحامض
+  - same: ص ل ح B002 barışma ve uzlaşma / الصلح إزالة النفار بين الناس ← 103:3 ٱلصَّٰلِحَٰتِ
+  - same: ع م ل B001 bilerek yapılan iş veya eylem / الفعل المقصود والعمل ← 103:3 وَعَمِلُوا۟
+  - same: ح ق ق B008 dördüncü yaşındaki yük taşımaya elverişli deve / ناقة بلغت حق الحمل والانتفاع ← 103:3 بِٱلْحَقِّ
+  - near: ع ص ر B013 bir ağaç türü / العصرة شجرة ← 103:1 وَٱلْعَصْرِ
+  - near: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد ← 103:2 ٱلْإِنسَٰنَ
+  - near: خ س ر B002 alım satımda kazanç sağlayamama veya anaparadan yitirme / خسارة التجارة ← 103:2 خُسْرٍ
+- **B010** katmanlı beyaz bulut / سحاب أبيض متراكم
+  - same: ع م ل B011 işlek yol / الطريق المعمل ← 103:3 وَعَمِلُوا۟
+  - same: و ص ي B003 birbirine öğüt veya talimat iletmek / تبادل الوصية بين القوم ← 103:3 وَتَوَاصَوْا۟
+  - same: ح ق ق B001 gerçekliğe uygun, kesin doğruluk / ثبات مطابق للواقع ضد الباطل ← 103:3 بِٱلْحَقِّ
+  - near: ع ص ر B003 yağmur yüklü bulut ve yağmurun gelişi / سحاب يمطر ومطر يعصر ← 103:1 وَٱلْعَصْرِ
+  - near: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد ← 103:2 ٱلْإِنسَٰنَ
+  - near: خ س ر B001 eksilme ve değer yitimi / النقص العام ← 103:2 خُسْرٍ
+- **B011** sofra yaygısı ya da yiyecek yığını / رقاقة الخوان وكومة الطعام
+  - same: ح ق ق B013 devenin veya sürünün iyice semirmesi / تمام حال الحيوان وقوته ← 103:3 بِٱلْحَقِّ
+  - same: و ص ي B003 birbirine öğüt veya talimat iletmek / تبادل الوصية بين القوم ← 103:3 وَتَوَاصَوْا۟
+  - same: ص ل ح B005 bir kent ve bir nehir için özel adlar / صلاح والصلح علمان لمواضع ← 103:3 ٱلصَّٰلِحَٰتِ
+  - near: خ س ر B003 ölçü ve tartıda eksiltme / إخسار الكيل والميزان ← 103:2 خُسْرٍ
+  - near: ع ص ر B008 boğaza takılan yiyeceği küçük yudumlarla geçirme / شرب قليل لإساغة الغصة ← 103:1 وَٱلْعَصْرِ
+  - near: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد ← 103:2 ٱلْإِنسَٰنَ
+- **B012** öldürmeye karşılık ölüm cezası / الإقصاص والقود
+  - same: ع م ل B003 işe görevli kılma veya görev üstlenme / ولاية العمل والقيام عليه ← 103:3 وَعَمِلُوا۟
+  - same: ء م ن B003 duada kabul istegi sozu / قول آمين طلبا للاستجابة ← 103:3 ءَامَنُوا۟
+  - same: و ص ي B001 bir şeyi başka şeyle bağlama veya bitişik sürdürme / وصل الشيء بالشيء ← 103:3 وَتَوَاصَوْا۟
+  - near: ع ص ر B005 tutunarak sığınma ve kurtuluş arama / ملجأ ومنجاة واعتصام ← 103:1 وَٱلْعَصْرِ
+  - near: خ س ر B001 eksilme ve değer yitimi / النقص العام ← 103:2 خُسْرٍ
+  - near: ء ن س B002 görerek fark etme; bağlama göre işitme, sezme ve bakıp araştırma / إيناس الشيء برؤية أو إحساس أو سماع ← 103:2 ٱلْإِنسَٰنَ
+- **B016** bir Arap boyunun adı / بطن من غسان
+  - same: ص ل ح B005 bir kent ve bir nehir için özel adlar / صلاح والصلح علمان لمواضع ← 103:3 ٱلصَّٰلِحَٰتِ
+  - same: ع م ل B012 yaya yolcular / بنو العمل من المشاة ← 103:3 وَعَمِلُوا۟
+  - same: ء م ن B003 duada kabul istegi sozu / قول آمين طلبا للاستجابة ← 103:3 ءَامَنُوا۟
+  - near: ع ص ر B015 bağırsak gazı çıkarma / العصار ريح البطن ← 103:1 وَٱلْعَصْرِ
+  - near: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد ← 103:2 ٱلْإِنسَٰنَ
+  - near: خ س ر B001 eksilme ve değer yitimi / النقص العام ← 103:2 خُسْرٍ
+- **B017** dağ ya da dağların orta kesimi / الجبل ووسطه
+  - same: ح ق ق B011 özel adlandırma kümesi / حق يطابق موضعه كالمفصل والوعاء ← 103:3 بِٱلْحَقِّ
+  - same: ص ل ح B005 bir kent ve bir nehir için özel adlar / صلاح والصلح علمان لمواضع ← 103:3 ٱلصَّٰلِحَٰتِ
+  - same: ع م ل B011 işlek yol / الطريق المعمل ← 103:3 وَعَمِلُوا۟
+  - near: ع ص ر B015 bağırsak gazı çıkarma / العصار ريح البطن ← 103:1 وَٱلْعَصْرِ
+  - near: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد ← 103:2 ٱلْإِنسَٰنَ
+  - near: خ س ر B005 yitim, yıkım veya güçsüz kişileri bildiren genişlemiş biçimler / الخنسرى والخيسرى والخناسر ← 103:2 خُسْرٍ
+- **B018** şişe tıkacı ve tıkama / سداد القارورة والبئر
+  - same: ح ق ق B011 özel adlandırma kümesi / حق يطابق موضعه كالمفصل والوعاء ← 103:3 بِٱلْحَقِّ
+  - same: ع م ل B011 işlek yol / الطريق المعمل ← 103:3 وَعَمِلُوا۟
+  - same: ص ل ح B002 barışma ve uzlaşma / الصلح إزالة النفار بين الناس ← 103:3 ٱلصَّٰلِحَٰتِ
+  - near: ع ص ر B015 bağırsak gazı çıkarma / العصار ريح البطن ← 103:1 وَٱلْعَصْرِ
+  - near: خ س ر B002 alım satımda kazanç sağlayamama veya anaparadan yitirme / خسارة التجارة ← 103:2 خُسْرٍ
+  - near: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد ← 103:2 ٱلْإِنسَٰنَ
+

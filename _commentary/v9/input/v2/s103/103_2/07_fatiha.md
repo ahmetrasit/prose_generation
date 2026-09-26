@@ -1,0 +1,52 @@
+# Fatiha lens (recited in every salah; standing context)
+
+- 1:1 بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- 1:2 ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+- 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- 1:4 مَٰلِكِ يَوْمِ ٱلدِّينِ
+- 1:5 إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
+- 1:6 ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
+- 1:7 صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ
+
+## Focus branches × Fatiha branches (top 3 by distinct root)
+
+- **ء ن س B001 insan türü ve bu türden bir kişi / ظهور الإنسان المخالف للتوحش والجن**
+  - ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 1:6 ٱلْمُسْتَقِيمَ
+  - ن ع م B005 develer ve geniş anlamda otlayan evcil hayvanlar / مال الأنعام والإبل ← 1:7 أَنْعَمْتَ
+  - ع ب د B001 özgür olmayan, sahip olunan kişi / الرق والملك ← 1:5 نَعْبُدُ
+- **ء ن س B002 görerek fark etme; bağlama göre işitme, sezme ve bakıp araştırma / إيناس الشيء برؤية أو إحساس أو سماع**
+  - ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+  - و س م B002 belirtiden karakter veya durum sezme / سمة يرى بها الناظر دلالة الحال ← 1:1 بِسْمِ
+  - غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 1:7 غَيْرِ
+- **ء ن س B003 yabancılık duymadan yakınlık ve rahatlık hissetme / الأنس الذي يزيل الوحشة**
+  - ن ع م B005 develer ve geniş anlamda otlayan evcil hayvanlar / مال الأنعام والإبل ← 1:7 أَنْعَمْتَ
+  - ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+  - د ي ن B001 boyun eğerek uyma ve buna dayalı inanç düzeni / الطاعة والانقياد ← 1:4 ٱلدِّينِ
+- **ء ن س B004 insana dönük yan / الجانب الإنسي المقبل على الإنسان**
+  - ق و م B002 ayağa kalkma ve dik durma / انتصاب وقيام بالبدن ← 1:6 ٱلْمُسْتَقِيمَ
+  - ع ل م B004 üst dudak yarığı / شق ظاهر في الشفة العليا ← 1:2 ٱلْعَٰلَمِينَ
+  - ن ع م B005 develer ve geniş anlamda otlayan evcil hayvanlar / مال الأنعام والإبل ← 1:7 أَنْعَمْتَ
+- **ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد**
+  - ن ع م B013 birini göz sevinci saymak veya bunun için dua etmek / نعم الله بك عينا وقرة العين ← 1:7 أَنْعَمْتَ
+  - ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 1:6 ٱلْمُسْتَقِيمَ
+  - غ ض ب B006 üst göz kapağı çıkıntısı veya göz çevresi şişliği / تورم العين وما حولها ← 1:7 ٱلْمَغْضُوبِ
+- **ء ن س B006 belirli sözlerde kişinin kendisi veya seçilmiş yakını / ابن الإنس للنفس والصفوة**
+  - ه د ي B007 dokunulmaz sığınmacı; kimi açıklamalarda tutsak / هدي الحرمة والأسير ← 1:6 ٱهْدِنَا
+  - ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+  - ر ب ب B001 sahip olup yönetme / ربوبية وملك وسيادة ← 1:2 رَبِّ
+- **خ س ر B001 eksilme ve değer yitimi / النقص العام**
+  - ق و م B010 değer biçme ve belirlenen bedel / قيمة وتقويم وتسعير ← 1:6 ٱلْمُسْتَقِيمَ
+  - ص ر ط B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak / الغيبة في المرور والبلع ← 1:6 ٱلصِّرَٰطَ
+  - ن ع م B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik / حسن الحال والنعمة ← 1:7 أَنْعَمْتَ
+- **خ س ر B002 alım satımda kazanç sağlayamama veya anaparadan yitirme / خسارة التجارة**
+  - ق و م B018 pazarın canlanıp satışların artması / نفاق السوق ← 1:6 ٱلْمُسْتَقِيمَ
+  - ض ل ل B003 bir şeyi yitirme veya yerini bulamama; özel olarak kanın karşılıksız kalması / فقدان الشيء ← 1:7 ٱلضَّآلِّينَ
+  - ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+- **خ س ر B003 ölçü ve tartıda eksiltme / إخسار الكيل والميزان**
+  - ض ل ل B004 bir şeyi unutmak veya bellekte tutamamak / ضياع الحفظ ← 1:7 ٱلضَّآلِّينَ
+  - ق و م B017 güneşin tam tepede olduğu öğle ortası / انتصاف النهار وقائم الظهيرة ← 1:6 ٱلْمُسْتَقِيمَ
+  - غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 1:7 غَيْرِ
+- **خ س ر B005 yitim, yıkım veya güçsüz kişileri bildiren genişlemiş biçimler / الخنسرى والخيسرى والخناسر**
+  - ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 1:6 ٱلْمُسْتَقِيمَ
+  - ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+  - ر ب ب B004 büyük insan topluluğu / ربة وجماعات كثيرة ← 1:2 رَبِّ

@@ -22,6 +22,7 @@ V9 = Path(__file__).resolve().parents[1]
 RATES: dict[str, tuple[float, float, float] | None] = {
     "gpt-6-luna": None,
     "gpt-6-sol": None,
+    "gpt-5.6-sol": None,
     "claude-opus": (4.00, 0.20, 20.00),  # Opus 5.5 list rates; Claude runs also report total_cost_usd themselves
 }
 NON_TOOL_ITEMS = {"agent_message", "reasoning"}
@@ -71,6 +72,8 @@ def model_of(stage: str, path: Path) -> str:
     name = str(path)
     if path.suffix == ".json" or "opus" in name:
         return "claude-opus"
+    if "sol56" in name:
+        return "gpt-5.6-sol"
     if "sol" in name and "luna-write" not in name and "luna-writer" not in name and "review" not in path.stem \
             and "repair" not in path.stem:
         return "gpt-6-sol"

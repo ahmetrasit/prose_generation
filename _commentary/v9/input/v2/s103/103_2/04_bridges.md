@@ -1,0 +1,20 @@
+# Bridges — context↔context links within ±7 (mutual top-2, different ayat)
+
+15 mutual bridges; the 15 most linked to a focus branch are listed.
+Each line: bridge (A ⇄ B) and the focus branch it connects to most (a two-step path).
+
+- 103:1 وَٱلْعَصْرِ ع ص ر B005 tutunarak sığınma ve kurtuluş arama / ملجأ ومنجاة واعتصام ⇄ 103:3 بِٱلصَّبْرِ ص ب ر B003 yükümlülüğe güvence veren kişi / تحمل الكفالة والملازمة  ‖ focus: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد
+- 103:1 وَٱلْعَصْرِ ع ص ر B007 bağış, iyilik veya elde edilen ürün / عطاء وغلة مستخرجة ⇄ 103:3 وَعَمِلُوا۟ ع م ل B004 iş ücreti / أجر العمل ورزق العامل  ‖ focus: خ س ر B002 alım satımda kazanç sağlayamama veya anaparadan yitirme / خسارة التجارة
+- 103:1 وَٱلْعَصْرِ ع ص ر B008 boğaza takılan yiyeceği küçük yudumlarla geçirme / شرب قليل لإساغة الغصة ⇄ 103:3 بِٱلصَّبْرِ ص ب ر B011 sofra yaygısı ya da yiyecek yığını / رقاقة الخوان وكومة الطعام  ‖ focus: خ س ر B003 ölçü ve tartıda eksiltme / إخسار الكيل والميزان
+- 103:1 وَٱلْعَصْرِ ع ص ر B013 bir ağaç türü / العصرة شجرة ⇄ 103:3 ٱلصَّٰلِحَٰتِ ص ل ح B004 kişi adı olan kök türevleri / صالح وما قاربه علما لشخص  ‖ focus: ء ن س B006 belirli sözlerde kişinin kendisi veya seçilmiş yakını / ابن الإنس للنفس والصفوة
+- 103:1 وَٱلْعَصْرِ ع ص ر B006 alıkoyma, malı alma veya geri alma / حبس ومنع واسترجاع ⇄ 103:3 بِٱلصَّبْرِ ص ب ر B001 kendini tutarak dayanma / حبس النفس عن الجزع  ‖ focus: ء ن س B006 belirli sözlerde kişinin kendisi veya seçilmiş yakını / ابن الإنس للنفس والصفوة
+- 103:1 وَٱلْعَصْرِ ع ص ر B015 bağırsak gazı çıkarma / العصار ريح البطن ⇄ 103:3 بِٱلصَّبْرِ ص ب ر B016 bir Arap boyunun adı / بطن من غسان  ‖ focus: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد
+- 103:1 وَٱلْعَصْرِ ع ص ر B009 genç kızın ergenlik eşiğine ulaşması / بلوغ الجارية عصر شبابها ⇄ 103:3 بِٱلْحَقِّ ح ق ق B008 dördüncü yaşındaki yük taşımaya elverişli deve / ناقة بلغت حق الحمل والانتفاع  ‖ focus: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد
+- 103:1 وَٱلْعَصْرِ ع ص ر B001 devir, vakit ve günün geç bölümü / دهر ووقت متعاقب ⇄ 103:3 وَتَوَاصَوْا۟ و ص ي B001 bir şeyi başka şeyle bağlama veya bitişik sürdürme / وصل الشيء بالشيء  ‖ focus: خ س ر B005 yitim, yıkım veya güçsüz kişileri bildiren genişlemiş biçimler / الخنسرى والخيسرى والخناسر
+- 103:1 وَٱلْعَصْرِ ع ص ر B014 susuzluktan kurumuş dil / لسان معصور من العطش ⇄ 103:3 وَعَمِلُوا۟ ع م ل B011 işlek yol / الطريق المعمل  ‖ focus: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد
+- 103:1 وَٱلْعَصْرِ ع ص ر B013 bir ağaç türü / العصرة شجرة ⇄ 103:3 بِٱلصَّبْرِ ص ب ر B008 acı ağaç özü / الصبر المر وعصارته  ‖ focus: خ س ر B002 alım satımda kazanç sağlayamama veya anaparadan yitirme / خسارة التجارة
+- 103:1 وَٱلْعَصْرِ ع ص ر B012 bağlılar arasındaki alt konumlu kesim / دنية في الموالاة ⇄ 103:3 بِٱلْحَقِّ ح ق ق B003 sahibine bağlı pay ve istem yetkisi / حق مخصوص يملكه صاحبه  ‖ focus: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد
+- 103:1 وَٱلْعَصْرِ ع ص ر B003 yağmur yüklü bulut ve yağmurun gelişi / سحاب يمطر ومطر يعصر ⇄ 103:3 بِٱلصَّبْرِ ص ب ر B010 katmanlı beyaz bulut / سحاب أبيض متراكم  ‖ focus: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد
+- 103:1 وَٱلْعَصْرِ ع ص ر B012 bağlılar arasındaki alt konumlu kesim / دنية في الموالاة ⇄ 103:3 وَتَوَاصَوْا۟ و ص ي B003 birbirine öğüt veya talimat iletmek / تبادل الوصية بين القوم  ‖ focus: خ س ر B005 yitim, yıkım veya güçsüz kişileri bildiren genişlemiş biçimler / الخنسرى والخيسرى والخناسر
+- 103:1 وَٱلْعَصْرِ ع ص ر B005 tutunarak sığınma ve kurtuluş arama / ملجأ ومنجاة واعتصام ⇄ 103:3 وَتَوَاصَوْا۟ و ص ي B002 başkasına bırakılan iş talimatı / عهد موصول إلى غيره  ‖ focus: ء ن س B006 belirli sözlerde kişinin kendisi veya seçilmiş yakını / ابن الإنس للنفس والصفوة
+- 103:1 وَٱلْعَصْرِ ع ص ر B015 bağırsak gazı çıkarma / العصار ريح البطن ⇄ 103:3 ٱلصَّٰلِحَٰتِ ص ل ح B005 bir kent ve bir nehir için özel adlar / صلاح والصلح علمان لمواضع  ‖ focus: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد
