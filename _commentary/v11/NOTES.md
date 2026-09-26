@@ -26,6 +26,10 @@
 4. Cost at scale: `claude -p` bills input as a 1-hour cache write; direct API/batch would cut it.
 
 ## Results so far (details in README.md)
+- S1 v11 (done): 7 ayat $11.92 + chains $1.06 (18 chains). vs v5 (`compare_s001_v5.md`): 53% of v5 prose refs also
+  in v11; v11 525 ledger refs. v5-only = concept-level Quran search (mercy in practice, book of deeds/scale,
+  misdirected help) and limiting verses (57:15/6:70 vs dīn-as-debt, 2:256, 7:186/18:17 vs ḍāllīn self-caused).
+  Proposal (not applied): writer ledger adds a "concept" search and a "limits/counter-verses" section.
 - S100 (11 ayat): $11.14 + chains $1.21. Validation vs cold / dictionary-only Opus (100:1, 100:6, 100:10): they
   cite almost nothing the v11 ledger lacks (2:36, 81:18, 47:4).
 - S100 vs v5 (quran-data `…/s100/100_N.index.tr.md`): v11 covers v5's substantive points; v5 outside-surah refs
