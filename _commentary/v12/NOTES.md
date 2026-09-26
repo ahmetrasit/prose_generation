@@ -19,13 +19,22 @@
 - The root-dossier workflow is a standalone repo: `/Volumes/OZTURK/_projects/root-dossier` (user decision; local
   git, no remote yet). Built and smoke-tested with a stub model (validation, two repair rounds, salvage, stage B
   provenance and restore, final, delivery into v12's usage.md). Pilot list: 51 roots (1:1–7, 18:86, 29:39, 29:41,
-  29:45). No Luna session has run; the user runs it (root-dossier RUNBOOK.md).
+  29:45); micro list first: 5 roots (ḥamaʾ, nafakha, rabb, ṣalāh, ʿarsh). Stage A also writes the canonical branch
+  map (one branch per occurrence for the plain Ḥafṣ reading). GitHub: ahmetrasit/root-dossier (private). No Luna
+  session has run; the user runs it (root-dossier RUNBOOK.md).
 
 ## Known-answer checks (kept here, out of the root-dossier repo, so no Luna session can read them)
 - ḥamaʾ (ح م ء, key حمء): the dossier should say that its three noun uses are the material of man in S15's creation
   account — narrated (15:26), in God's words to the angels (15:28) and in Iblīs's refusal (15:33), always in the
   formula «مِّنْ حَمَإٍ مَّسْنُونٍ» with ṣalṣāl — and that 18:86, the only adjective, is the outlier (a spring seen by
   Dhū al-Qarnayn at the sunset), with the creation material as what the pattern brings in.
+- nafakha (ن ف خ, micro list): two scenes should separate — the breath of life (into Ādam 15:29, 38:72, 32:9; into
+  Maryam 21:91, 66:12; ʿĪsā into the clay bird 3:49, 5:110, which echoes Ādam's creation) and the trumpet of the Hour
+  (e.g. 18:99, 39:68, 69:13); plus the bellows at 18:96. Voices: God speaking of His own breath vs narration of the
+  trumpet.
+- ʿarsh (ع ر ش, micro list): the Throne (istawā ʿalā l-ʿarsh …) vs human roofs and trellises (maʿrūshāt 6:141;
+  yaʿrishūn 7:137, 16:68); the formula «خَاوِيَةٌ عَلَىٰ عُرُوشِهَا» (2:259, 18:42, 22:45) — roofs always in ruin scenes —
+  and the Queen of Sheba's throne (27:23, 27:38–42) as a human throne tested.
 - S29 probe (v12 writer): the race of 29:39 (not outstripping) with ṣalāh at 29:45 (ص ل و "the one who comes second
   in a race") and the houses of 29:41; in neither HFT nor the channel review.
 
