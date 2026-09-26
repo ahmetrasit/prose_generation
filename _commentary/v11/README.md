@@ -50,7 +50,21 @@ dictionary 1/1 (the dictionary arm had been told "only the supplied evidence" wh
 Cost so far: 100:1 $0.86; 4:34 $2.49; 18:86 $1.81; 1:2 $2.34 (long ledger). `claude -p` bills input as a
 1-hour cache write; direct API or batch calls would cut this for a large run.
 
+5. **chains (once per surah, after all ayat)**: one Opus call over the surah text and every ayah ledger
+   (`prompts/surah.md`) → `out/sNNN/surah/chains.md` (chains across ayat: members, roles, movement, what the surah
+   says through the chain that no single ayah says), `S.surah.tr.md` (a reading of the whole surah) and `ayat.md`
+   (one note per ayah, rendered into each `S_A.md` as **Surenin bütününde**). This recovers what S1's HFT image
+   chains got from analysing all ayat together, at one call per surah.
+
+## S100 (al-ʿĀdiyāt), the first full run
+
+11 ayat, $11.14 ($0.77–1.30 per ayah); ledgers 40–66 findings, readings 1,450–2,040 words; validator errors 0.
+Chains pass: $1.21, 16 chains (e.g. the struck stone that gives fire ↔ the *kanūd* who gives nothing ↔ the breasts
+opened, 100:2/6/10; breath from the chest ↔ what is in the breasts, 100:1/10), a 1,133-word surah reading, notes for
+all 11 ayat. Total ≈ $12.35, about $1.12 per ayah.
+Validation (100:1, 100:6, 100:10): cold and dictionary-only Opus readings cite almost nothing the v11 ledger lacks
+(missed: 2:36, 81:18 on 100:1; 47:4 on 100:6).
+
 ## Open
 
-- A whole-surah pass (HFT-like image chains across ayat) from the finished readings and ledgers — after S100.
 - The user's blind read of v11 vs the best earlier setup on a few ayat.
