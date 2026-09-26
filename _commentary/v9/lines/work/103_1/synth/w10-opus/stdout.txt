@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File [35m"/Volumes/OZTURK/_projects/prose_generation/_commentary/v9/lines/synth.py"[0m, line [35m150[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m"/Volumes/OZTURK/_projects/prose_generation/_commentary/v9/lines/synth.py"[0m, line [35m146[0m, in [35mmain[0m
+    [31mrun_arm[0m[1;31m(a.ref, a.arm)[0m
+    [31m~~~~~~~[0m[1;31m^^^^^^^^^^^^^^[0m
+  File [35m"/Volumes/OZTURK/_projects/prose_generation/_commentary/v9/lines/synth.py"[0m, line [35m86[0m, in [35mrun_arm[0m
+    return run_w10(ref, arm)
+  File [35m"/Volumes/OZTURK/_projects/prose_generation/_commentary/v9/lines/synth.py"[0m, line [35m53[0m, in [35mrun_w10[0m
+    stdin = R.inline(W10, w / "context.md") if cold else [31mR.inline[0m[1;31m(W10, w / "context.md", w / "package.md")[0m
+                                                         [31m~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/Volumes/OZTURK/_projects/prose_generation/_commentary/v9/luna/run.py"[0m, line [35m56[0m, in [35minline[0m
+    return [31m"\n\n".join[0m[1;31m(f"===== {rel(p)} =====\n{p.read_text(encoding='utf-8')}" for p in files)[0m
+           [31m~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/Volumes/OZTURK/_projects/prose_generation/_commentary/v9/luna/run.py"[0m, line [35m56[0m, in [35m<genexpr>[0m
+    return "\n\n".join(f"===== {rel(p)} =====\n{[31mp.read_text[0m[1;31m(encoding='utf-8')[0m}" for p in files)
+                                                [31m~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/usr/local/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py"[0m, line [35m787[0m, in [35mread_text[0m
+    with [31mself.open[0m[1;31m(mode='r', encoding=encoding, errors=errors, newline=newline)[0m as f:
+         [31m~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"/usr/local/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py"[0m, line [35m771[0m, in [35mopen[0m
+    return [31mio.open[0m[1;31m(self, mode, buffering, encoding, errors, newline)[0m
+           [31m~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1;35mFileNotFoundError[0m: [35m[Errno 2] No such file or directory: '/Volumes/OZTURK/_projects/prose_generation/_commentary/v9/lines/work/103_1/package.md'[0m

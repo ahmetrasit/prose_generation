@@ -1,0 +1,694 @@
+# Package for 103:1
+
+Everything the discovery stage found, for one reader who connects it. Section 1 is the lexical network
+(ids H, L, F, T, J, G): rare dictionary senses of the ayah's words converging on other words, checked by
+the dictionaries' own relations and a judge. Section 2 holds the four discovery lines (ids L.., U-, S-, R-,
+and X records): readings, open observations (a precise link whose decisive support is missing; another line
+may supply it), notes, and misreadings. `support` says how well the sources establish a record; `relevance`
+how much it could change the reading — they are separate judgments, and nothing here is filtered by them.
+Section 3 is the text of cited ayat outside the surah and the Fatiha (both are in context.md).
+
+## 1. Lexical network
+
+### 2. Backbone hubs [H]
+
+### 3. Luna hubs (second tier) [L]
+
+### 4. The Fatiha [F] (standing lens: recited in every prayer)
+
+### 1:1 ﻿بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+### 1:2 ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+### 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+### 1:4 مَٰلِكِ يَوْمِ ٱلدِّينِ
+### 1:5 إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
+### 1:6 ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
+### 1:7 صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ
+
+### 5. Triangles [T]
+
+
+### 6. Bridges (touch two hubs) [J]
+
+
+### 7. Word level: sound, form, frame, grammar [G]
+
+- **G1** word note: 103:1:1 وَ: oath particle at surah onset, not ordinary coordination; it governs the following genitive noun and opens a deferred oath frame — topics: oath particle governs the next noun; opening particle delays the sworn answer; suppressed oath verb compresses the formula; bound particle fuses with…
+- **G2** word note: 103:1:2 ٱلْعَصْرِ: definite singular abstract oath-object, locally selecting time, era, or afternoon as a totalized witness while allowing narrowed pressure imagery from the root — topics: definite genitive noun becomes the oath witness; singular abstract form gathers time into one field; time rema…
+
+## 2. Discovery lines
+
+### 2.1 Local language (the ayah's own words, grammar, variant readings)
+
+1 readings and open observations, 0 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **L01** [reading; support strong, relevance high] word 1: وَٱلْعَصْرِ — lemma عَصْر, root ع ص ر, pos P;DET;N
+  - finding: The bound initial وَ in وَٱلْعَصْرِ opens an oath rather than joining a prior clause: it governs ٱلْعَصْرِ as the sworn-by noun, while the unspoken oath verb compresses the opening. إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ is the delayed oath-answer, so the claim of human loss is framed under the witness of al-ʿaṣr.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟»
+  - activation: The surah begins with وَ before any clause to connect it to, then gives an emphatic assertion in 103:2 and qualifies the loss claim with an exception in 103:3.
+  - limits: The construction establishes an oath linking ٱلْعَصْرِ to the claim, but it does not recover the wording of the suppressed swearing verb or choose among the noun’s temporal senses.
+
+### 2.2 Quranic usage (each root's occurrences: same form, other forms)
+
+1 readings and open observations, 0 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **U-عصر** [open; support medium, relevance high] root ع ص ر (focus word وَٱلْعَصْرِ: عَصْر N) — 5 occurrences in 5 ayat; same form 1, other forms 4
+  - finding: The other occurrences divide between Form-I verbs for pressing in two separate Yusuf scenes (12:36, 12:49) and Form-IV nouns in weather contexts: a whirlwind at 2:266 and rain-bearing clouds at 78:14. Beside the focus noun وَٱلْعَصْرِ, this range permits hearing time as a span that presses out what people yield, which fits the surah’s movement from human loss to the practices named as exceptions. The root forms establish that comparison, but not that the time sense of عَصْر means pressing.
+  - evidence: 12:36 «إِنِّىٓ أَرَىٰنِىٓ أَعْصِرُ خَمْرًۭا»; 12:49 «فِيهِ يَعْصِرُونَ»; 2:266 «إِعْصَارٌ»; 78:14 «وَأَنزَلْنَا مِنَ ٱلْمُعْصِرَٰتِ مَآءًۭ ثَجَّاجًۭا»
+  - activation: The focus oath وَٱلْعَصْرِ is followed by the claim that mankind is in loss, then by the practices that mark an exception.
+  - missing: A dictionary attestation or Quranic parallel explicitly linking عَصْر in its time or afternoon sense with pressing would decide whether the pressure-and-yield image belongs to this noun.
+
+### 2.3 Surah context (the passage, the roots elsewhere in the surah, surah-level arguments)
+
+16 readings and open observations, 0 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **S-near** [reading; support strong, relevance high] the surrounding passage (±7)
+  - finding: The adjacent verses make the oath a compressed judgment: 103:2 gives an emphatic verdict of human loss, and 103:3 marks an exception and defines it through belief, deeds, and mutual counsel.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The oath in 103:1 is followed by an emphatic claim and then by إِلَّا, which qualifies its scope with an exception.
+  - limits: The sequence supports a rhetorical judgment and exception; it does not say that time itself causes loss.
+- **S-hft-delta-reciprocal-relay** [reading; support strong, relevance high] (context_delta)
+  - finding: Within al-ʿaṣr's temporal frame, the exception's response to loss is socially carried: its members counsel one another in truth and patience.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The repeated reciprocal verb makes counsel a shared practice that can transmit sustaining commitments among the exception group.
+  - limits: Mutual counsel is explicit, while its transmission across successive spans of time is an inference.
+- **surah_1.X1** [reading; support strong, relevance high] 
+  - finding: The surah shifts from generic singular al-insān, placed in loss, to plural alladhīna, whose exception is defined by shared practices; the response is framed communally rather than as an isolated status.
+  - evidence: 103:2 «ٱلْإِنسَٰنَ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟»
+  - activation: The singular-to-plural shift is followed by reciprocal counsel, which requires people to address one another.
+  - limits: The plural exception and mutual counsel support a communal framing, but do not exclude that its members also act individually.
+- **S-hft-baseline-pressure-extraction** [reading; support medium, relevance high] (baseline_model)
+  - finding: Read through the root's press sense, al-ʿaṣr can make the span an assay that draws out a human return; the next verse names that return خُسْرٍ.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:2 «لَفِى خُسْرٍ»
+  - activation: The oath is followed immediately by a verdict of loss, giving the press image a negative result to expose.
+  - limits: The surah names neither pressing nor extracted yield, so this is a root-based image rather than the clause's explicit wording.
+- **S-hft-delta-loss-ledger-press** [reading; support medium, relevance high] (context_delta)
+  - finding: The sequence can make al-ʿaṣr an accounting press: the span tests human return, and 103:2 gives the result as loss before 103:3 names an exception.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟»
+  - activation: The verdict of خُسْرٍ and the explicit exception arrange the passage like a negative balance with a stated countercase.
+  - limits: No measure, transaction, or extracted product is named; the accounting mechanism joins the root's press association to the word for loss.
+- **S-hft-delta-cultivated-yield** [reading; support medium, relevance high] (context_delta)
+  - finding: Read with the root's proposed yield sense, al-ʿaṣr becomes a span whose return depends on deliberate action: the deeds in 103:3 mark a way out of the loss stated in 103:2.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:2 «لَفِى خُسْرٍ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The universal loss verdict is followed by purposeful deeds among the traits of the exception, making the use of time consequential.
+  - limits: No field, crop, harvest, or spoilage term appears; cultivation is an image for the relation between the span and action.
+- **S-hft-delta-communal-pressure-vessel** [reading; support medium, relevance high] (context_delta)
+  - finding: The pressure association of al-ʿaṣr pairs with shared counsel to patience: the exception is sustained through the span surrounding the verdict of loss.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The passage sets a condition of loss against a group practice of reciprocal patience, giving endurance a communal role under pressure.
+  - limits: No vessel, container, or explicit containment appears; the model combines the root's press association with the group's counsel to patience.
+- **S-hft-delta-due-settlement** [open; support medium, relevance high] (context_delta)
+  - finding: The sequence could be heard as settling a due account: loss in 103:2 is followed by counsel in al-ḥaqq in the exception clause.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:2 «لَفِى خُسْرٍ»; 103:3 «بِٱلْحَقِّ»
+  - missing: Here al-ḥaqq is what the group counsels one another toward; no claimant, obligation, ownership, or settlement is named. An explicit due or account parallel in another ayah could establish that legal-economic link.
+- **S-hft-baseline-recurring-witness** [open; support weak, relevance high] (baseline_model)
+  - finding: The oath can frame al-ʿaṣr as a succession in which the human condition is repeatedly exposed to loss.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - missing: The surah names no alternation, return, or recurring phase. A Quranic cycle parallel or a lexical source tying al-ʿaṣr specifically to recurring succession could establish that layer.
+- **S-hft-baseline-constraining-refuge** [open; support weak, relevance high] (baseline_model)
+  - finding: The root's proposed refuge pole could make al-ʿaṣr both a constraining field and a place in which the exception group holds fast.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟»
+  - missing: No grip, attachment, or refuge word appears here, and the passage does not establish a refuge sense for the root. A lexical attestation and a Quranic rescue or attachment parallel could decide the link.
+- **S-hft-baseline-enclosed-maturation** [open; support weak, relevance high] (baseline_model)
+  - finding: Al-ʿaṣr could be heard as an enclosing maturation span in which righteous action develops into an outcome that escapes the loss named in 103:2.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - missing: These verses contain no marker of ripening, seed, sheath, or protection. A lexical or Quranic maturation scene, together with a cue linking it to this span, would be needed.
+- **S-hft-baseline-atmospheric-release** [open; support weak, relevance high] (baseline_model)
+  - finding: If the root's rain-cloud compression sense and the proposed cloud association of ṣabr are active, the oath and the closing counsel to patience could evoke pressure gathering before release.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:3 «بِٱلصَّبْرِ»
+  - missing: The surah supplies no weather, cloud, rain, or release cue. A lexical or Quranic attestation for both cloud associations and a local release marker could support this reading.
+- **S-hft-delta-trusted-refuge** [open; support weak, relevance high] (context_delta)
+  - finding: The exception's faith and trust could activate a refuge reading in which attachment counters the constraining span.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:3 «ءَامَنُوا۟ وَعَمِلُوا۟»
+  - missing: The passage identifies the exception but names no refuge or attachment, and it does not establish that refuge belongs to the root of al-ʿaṣr. A lexical attestation plus a Quranic refuge parallel would supply the missing link.
+- **S-hft-outlier-cloud-reservoir** [open; support weak, relevance high] (surprising_valid_outlier)
+  - finding: The proposed cloud senses could make al-ʿaṣr a compressed reservoir whose accumulated pressure awaits release, with ṣabr supplying the second cue.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:3 «بِٱلصَّبْرِ»
+  - missing: This surah has no cloud or rain image. Attested lexical or Quranic cloud uses for the proposed senses, plus a local sign of accumulation or release, could make the link decisive.
+- **S-hft-outlier-sips-through-constriction** [open; support weak, relevance high] (surprising_valid_outlier)
+  - finding: The press association, mutual counsel, truth, and patience could be arranged as repeated doses that help people pass through constriction.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - missing: The passage names no choking, sipping, throat, or measured dosage. A lexical or Quranic attestation for the proposed bodily image and a local cue of gradual passage would be needed.
+- **S-hft-delta-human-visibility** [reading; support strong, relevance medium] (context_delta)
+  - finding: The oath's temporal frame becomes a field of exposure: the next verse states humanity's condition as loss.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The immediate move from the sworn span to the explicit verdict about al-insān makes the condition perceptible within that frame.
+  - limits: The sequence supports disclosure as a reading of the passage, but it does not establish a visual sense in the word al-insān.
+
+### 2.4 Related passages (inter-ayah targets, the same people, formula families)
+
+83 readings and open observations, 33 notes, 0 misreadings rejected; other items with nothing to add: {'no-link': 96, 'same-as': 1}.
+
+- **R-7:9** [reading; support strong, relevance high] inter-ayah target
+  - finding: The verb خَسِرُوا۟ shares the loss root of خُسْرٍ and makes the abstract loss in 103:2 concrete as people losing themselves through wrongdoing.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 7:9 «فَأُو۟لَٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُم»; 7:9 «بِمَا كَانُوا۟ بِـَٔايَٰتِنَا يَظْلِمُونَ»
+  - activation: The focus’s loss claim is followed by an exception in 103:3; 7:9 supplies a judgment scene where loss has a stated cause.
+  - limits: The shared root and outcome do not establish that the two passages describe the same event.
+- **R-7:34** [reading; support strong, relevance high] inter-ayah target
+  - finding: The oath by وَٱلْعَصْرِ resonates with the appointed term of each community, which cannot be advanced or delayed even an hour.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 7:34 «وَلِكُلِّ أُمَّةٍ أَجَلٌۭ»; 7:34 «لَا يَسْتَأْخِرُونَ سَاعَةًۭ ۖ وَلَا يَسْتَقْدِمُونَ»
+  - activation: Both texts make time consequential by placing limits on it.
+  - limits: The term in 7:34 belongs to each community; it does not gloss the oath noun directly.
+- **R-8:37** [reading; support strong, relevance high] inter-ayah target
+  - finding: The label ٱلْخَٰسِرُونَ shares the loss root of خُسْرٍ, while the passage pictures the impure gathered into Hell; this gives 103:2’s human loss a sorting and outcome scene.
+  - evidence: 103:2 «لَفِى خُسْرٍ»; 8:37 «لِيَمِيزَ ٱللَّهُ ٱلْخَبِيثَ مِنَ ٱلطَّيِّبِ»; 8:37 «أُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ»
+  - activation: The focus’s universal loss claim is qualified in 103:3; 8:37 also distinguishes groups and names the losers.
+  - limits: The passage does not connect its sorting to وَٱلْعَصْرِ or specify a time interval.
+- **R-10:49** [reading; support strong, relevance high] inter-ayah target
+  - finding: Asked when the promise will come, the reply invokes each community’s appointed term and says it cannot be moved by an hour; this gives وَٱلْعَصْرِ a horizon of bounded time.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 10:48 «وَيَقُولُونَ مَتَىٰ هَٰذَا ٱلْوَعْدُ»; 10:49 «لِكُلِّ أُمَّةٍ أَجَلٌ ۚ إِذَا جَآءَ أَجَلُهُمْ فَلَا يَسْتَـْٔخِرُونَ سَاعَةًۭ ۖ وَلَا يَسْتَقْدِمُونَ»
+  - activation: The opening oath names time, and the surrounding exchange asks about the timing of a promise.
+  - limits: The fixed term in 10:49 is not identified as the time sworn by in 103:1.
+- **R-16:61** [reading; support strong, relevance high] inter-ayah target
+  - finding: The delay of people until an appointed term, followed by an hour that cannot be advanced or postponed, gives وَٱلْعَصْرِ a frame of limited human time.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 16:61 «وَلَٰكِن يُؤَخِّرُهُمْ إِلَىٰٓ أَجَلٍۢ مُّسَمًّۭى»; 16:61 «فَإِذَا جَآءَ أَجَلُهُمْ لَا يَسْتَـْٔخِرُونَ سَاعَةًۭ ۖ وَلَا يَسْتَقْدِمُونَ»
+  - activation: The focus invokes time, while this passage describes a deferred but fixed endpoint.
+  - limits: The appointed term here is not expressly named by al-ʿaṣr.
+- **related_1.X1** [reading; support strong, relevance high] 
+  - finding: Across these passages, each community’s أَجَلٌ ends on time, with no advance or delay even by an hour; this repeated formula gives وَٱلْعَصْرِ a Quranic backdrop of bounded, appointed time.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 7:34 «لَا يَسْتَأْخِرُونَ سَاعَةًۭ ۖ وَلَا يَسْتَقْدِمُونَ»; 10:49 «فَلَا يَسْتَـْٔخِرُونَ سَاعَةًۭ ۖ وَلَا يَسْتَقْدِمُونَ»; 16:61 «لَا يَسْتَـْٔخِرُونَ سَاعَةًۭ ۖ وَلَا يَسْتَقْدِمُونَ»
+  - activation: The oath opens Sūrat al-ʿAṣr by naming time; three passages elsewhere articulate its fixed endpoints with a recurring formula.
+  - limits: The repeated formula concerns appointed communal or human terms and does not lexically define al-ʿaṣr.
+- **R-18:103** [reading; support strong, relevance high] inter-ayah target
+  - finding: The question about the greatest losers uses خُسْر lexically alongside 103:2's خُسْر, while the next verse locates their failed striving in worldly life. This makes the oath's answer about human loss part of a wider Quranic account of loss through life's course.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 18:103 «قُلْ هَلْ نُنَبِّئُكُم بِٱلْأَخْسَرِينَ أَعْمَٰلًا»; 18:104 «ٱلَّذِينَ ضَلَّ سَعْيُهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا»
+  - activation: The oath in 103:1 introduces the very loss named in 103:2; 18:103–104 gives a parallel in which striving across worldly life is lost.
+  - limits: The wording does not make al-ʿaṣr the cause of loss or specify that the two passages describe the same people.
+- **R-19:96** [reading; support strong, relevance high] inter-ayah target
+  - finding: The phrase about believing and doing righteous deeds recurs in the answer to 103:2's loss claim; here it leads to affection granted by the Merciful. It echoes the category that 103:3 exempts from loss, while 19:95 places the scene at individual arrival on the Day of Resurrection.
+  - evidence: 103:3 «ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 19:95 «وَكُلُّهُمْ ءَاتِيهِ يَوْمَ ٱلْقِيَٰمَةِ فَرْدًا»; 19:96 «إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ سَيَجْعَلُ لَهُمُ ٱلرَّحْمَٰنُ وُدًّۭا»
+  - activation: The oath's answer unfolds into an exception for faith and righteous action, which 19:96 repeats in a resurrection-adjacent passage.
+  - limits: Affection is not stated here as the same outcome as escaping loss, and this parallel does not define the oath's temporal scope.
+- **R-22:11** [reading; support strong, relevance high] inter-ayah target
+  - finding: This verse names losing both the present world and the hereafter, then calls it manifest loss. Its خسر wording directly echoes 103:2 and gives the oath's answer a two-horizon consequence.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 22:11 «خَسِرَ ٱلدُّنْيَا وَٱلْءَاخِرَةَ»; 22:11 «ذَٰلِكَ هُوَ ٱلْخُسْرَانُ ٱلْمُبِينُ»
+  - activation: The oath in 103:1 introduces a claim about humanity; 22:11 gives a specific pattern of loss across two horizons.
+  - limits: The verse does not say that time produces the loss or that every human follows this pattern.
+- **R-23:103** [reading; support strong, relevance high] inter-ayah target
+  - finding: Light scales lead to people who خَسِرُوا۟ أَنفُسَهُمْ, a direct verbal parallel to 103:2's خُسْر. It sharpens the oath's answer by picturing loss as a person's loss of self at judgment.
+  - evidence: 23:103 «فَأُو۟لَٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ فِى جَهَنَّمَ خَٰلِدُونَ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The oath's answer in 103:2 shares the loss root with this explicit judgment outcome.
+  - limits: The target verse describes one afterlife group; it does not establish that al-ʿaṣr itself denotes judgment or scales.
+- **R-25:62** [reading; support strong, relevance high] inter-ayah target
+  - finding: Night and day succeed one another as an opportunity for remembrance or gratitude. This presents time as recurring openings for response, so the oath can be heard over usable intervals rather than as an abstract backdrop alone.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 25:62 «جَعَلَ ٱلَّيْلَ وَٱلنَّهَارَ خِلْفَةًۭ»; 25:62 «لِّمَنْ أَرَادَ أَن يَذَّكَّرَ أَوْ أَرَادَ شُكُورًۭا»
+  - activation: 103:2–3 moves from the time oath to loss and then to faith, good works, and mutual counsel; 25:62 explicitly joins alternating time to response.
+  - limits: The verse speaks of night and day, not specifically al-ʿaṣr or the afternoon prayer.
+- **R-36:12** [reading; support strong, relevance high] inter-ayah target
+  - finding: What people sent ahead and their آثار are written down, with everything enumerated in a clear register. The mention of آثار extends the account beyond an act's moment, making time's accumulated consequences audible beside the oath.
+  - evidence: 36:12 «وَنَكْتُبُ مَا قَدَّمُوا۟ وَءَاثَٰرَهُمْ»; 36:12 «وَكُلَّ شَىْءٍ أَحْصَيْنَٰهُ فِىٓ إِمَامٍۢ مُّبِينٍۢ»; 103:1 «وَٱلْعَصْرِ»
+  - activation: The oath opens into a claim about human loss; this passage records deeds and their traces across their effects.
+  - limits: The passage does not say that time itself records or that every أثر is harmful.
+- **R-39:5** [reading; support strong, relevance high] inter-ayah target
+  - finding: Night is rolled over day and day over night, while sun and moon each run to an appointed term. This makes the oath's time-word resonate with a created cycle that has a set limit.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 39:5 «يُكَوِّرُ ٱلَّيْلَ عَلَى ٱلنَّهَارِ وَيُكَوِّرُ ٱلنَّهَارَ عَلَى ٱلَّيْلِ»; 39:5 «كُلٌّۭ يَجْرِى لِأَجَلٍۢ مُّسَمًّى»
+  - activation: The oath names time; this passage depicts recurring day-night motion and a defined term for the celestial bodies.
+  - limits: The verse does not say that al-ʿaṣr names the cycle or that the cycles correspond to a person's deeds.
+- **R-39:15** [reading; support strong, relevance high] inter-ayah target
+  - finding: This passage calls those who lose themselves and their families on the Day of Resurrection the losers, repeating the خسر root of 103:2. The oath's human-loss claim thus has a parallel in a loss that reaches both self and household.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 39:15 «إِنَّ ٱلْخَٰسِرِينَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ وَأَهْلِيهِمْ يَوْمَ ٱلْقِيَٰمَةِ»; 39:15 «أَلَا ذَٰلِكَ هُوَ ٱلْخُسْرَانُ ٱلْمُبِينُ»
+  - activation: The oath's answer names loss, and 39:15 makes that loss explicit at resurrection.
+  - limits: This verse does not specify al-ʿaṣr as the cause, duration, or setting of the loss.
+- **R-45:24** [reading; support strong, relevance high] inter-ayah target
+  - finding: The quoted claim that nothing destroys people but al-dahr is a direct counterpoint in the temporal field: it assigns destruction to time, whereas the oath by al-ʿaṣr is followed by a claim about human loss. The contrast leaves time as the sworn witness or setting, not an asserted destroyer.
+  - evidence: 45:24 «نَمُوتُ وَنَحْيَا وَمَا يُهْلِكُنَآ إِلَّا ٱلدَّهْرُ»; 45:24 «وَمَا لَهُم بِذَٰلِكَ مِنْ عِلْمٍ ۖ إِنْ هُمْ إِلَّا يَظُنُّونَ»; 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The oath names a temporal concept before assigning loss to humanity; 45:24 records a rejected claim that time itself destroys.
+  - limits: Al-dahr and al-ʿaṣr are distinct words, and the contrast does not by itself settle every sense of al-ʿaṣr.
+- **R-57:20** [reading; support strong, relevance high] inter-ayah target
+  - finding: Worldly life is compared to vegetation that first delights, then yellows and becomes debris. This makes time's passage visible as decline and disappearance, giving the human-loss claim a perishing-world image.
+  - evidence: 57:20 «كَمَثَلِ غَيْثٍ أَعْجَبَ ٱلْكُفَّارَ نَبَاتُهُۥ ثُمَّ يَهِيجُ فَتَرَىٰهُ مُصْفَرًّۭا ثُمَّ يَكُونُ حُطَٰمًۭا»; 57:20 «وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا مَتَٰعُ ٱلْغُرُورِ»; 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The oath names time just before the universal loss claim; this passage depicts worldly growth passing into ruin.
+  - limits: The image concerns worldly life and its attractions, not every sense of al-ʿaṣr or every human outcome.
+- **R-59:18** [reading; support strong, relevance high] inter-ayah target
+  - finding: Each self is told to look at what it has sent ahead for tomorrow. The present is made accountable to a future horizon, so the oath by time can be heard as a call to consider what one's interval is producing.
+  - evidence: 59:18 «وَلْتَنظُرْ نَفْسٌۭ مَّا قَدَّمَتْ لِغَدٍۢ»; 59:18 «إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا تَعْمَلُونَ»; 103:1 «وَٱلْعَصْرِ»; 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The focus swears by time before naming loss and responses of faith, good work, truth, and patience; 59:18 directly links present action to tomorrow.
+  - limits: Tomorrow is not defined here as a length of earthly time, and the verse does not quote al-ʿaṣr.
+- **R-63:9** [reading; support strong, relevance high] inter-ayah target
+  - finding: The خَٰسِرُونَ of 63:9 shares the خ-س-ر root with خُسْر in 103:2. Here loss follows distraction from God's remembrance, and 63:10 sets that failure against death's deadline, making the oath's human-loss frame concrete.
+  - evidence: 63:9 «لَا تُلْهِكُمْ أَمْوَٰلُكُمْ وَلَآ أَوْلَٰدُكُمْ عَن ذِكْرِ ٱللَّهِ ۚ وَمَن يَفْعَلْ ذَٰلِكَ فَأُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ»; 63:10 «مِّن قَبْلِ أَن يَأْتِىَ أَحَدَكُمُ ٱلْمَوْتُ فَيَقُولَ رَبِّ لَوْلَآ أَخَّرْتَنِىٓ إِلَىٰٓ أَجَلٍۢ قَرِيبٍۢ فَأَصَّدَّقَ وَأَكُن مِّنَ ٱلصَّٰلِحِينَ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The immediate answer to the oath names human loss, and 63:9 uses the same loss root for people distracted during life.
+  - limits: The parallel does not make distraction the sole cause of loss in Surah 103; its next verse gives a broader exception.
+- **R-74:38** [reading; support strong, relevance high] inter-ayah target
+  - finding: The sequence “advance or fall behind,” then a soul held by what it earned, then an exception parallels 103:2–3: time frames divergent human courses and their outcomes.
+  - evidence: 74:37 «لِمَن شَآءَ مِنكُمْ أَن يَتَقَدَّمَ أَوْ يَتَأَخَّرَ»; 74:38 «كُلُّ نَفْسٍۭ بِمَا كَسَبَتْ رَهِينَةٌ»; 74:39 «إِلَّآ أَصْحَٰبَ ٱلْيَمِينِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The focus oath is followed by a verdict on humanity; this passage likewise joins forward or delayed movement to earned consequence.
+  - limits: The shared structure does not establish that al-ʿaṣr itself means advance, delay, or a record of deeds.
+- **R-90:17** [reading; support strong, relevance high] inter-ayah target
+  - finding: The same reciprocal exhortation to patience appears in both passages; 90:17 also names belief and mutual mercy, showing the exception to loss as a shared communal practice.
+  - evidence: 90:17 «ثُمَّ كَانَ مِنَ ٱلَّذِينَ ءَامَنُوا۟ وَتَوَاصَوْا۟ بِٱلصَّبْرِ وَتَوَاصَوْا۟ بِٱلْمَرْحَمَةِ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The oath's answer declares human loss before 103:3 gives the exception; both verses define a believing group through reciprocal exhortation.
+  - limits: The shared formula does not make the two lists identical: 90:17 adds mercy, while 103:3 names truth and righteous deeds.
+- **R-92:4** [reading; support strong, relevance high] inter-ayah target
+  - finding: The declaration that human striving is divergent provides a parallel to 103:2–3: the oath's general loss verdict is answered by a distinct course of action rather than an undifferentiated fate.
+  - evidence: 92:4 «إِنَّ سَعْيَكُمْ لَشَتَّىٰ»; 92:5 «فَأَمَّا مَنْ أَعْطَىٰ وَٱتَّقَىٰ»; 92:8 «وَأَمَّا مَنۢ بَخِلَ وَٱسْتَغْنَىٰ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: Both short surahs move from a broad human claim to differentiated conduct and outcomes.
+  - limits: Surah 92's paired paths do not specify the sense of al-ʿaṣr or reproduce Surah 103's full list of saving qualities.
+- **R-102:1** [reading; support strong, relevance high] inter-ayah target
+  - finding: Distraction by accumulation that lasts “until you visit the graves” is a close parallel for the loss announced after the oath: human time can be consumed before death arrives.
+  - evidence: 102:1 «أَلْهَىٰكُمُ ٱلتَّكَاثُرُ»; 102:2 «حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: Both passages connect a general human condition to loss, and 102:2 supplies a terminal boundary for distraction.
+  - limits: The parallel does not make accumulation the only cause of loss in Surah 103.
+- **R-103:2** [reading; support strong, relevance high] inter-ayah target
+  - finding: The immediate sequel supplies the deferred answer to the oath: al-ʿaṣr frames the categorical verdict that humanity is in loss, so the sworn time is heard through human condition rather than as an isolated time label.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The oath at the surah's opening is followed directly by إنّ and a general claim about humanity.
+  - limits: The wording does not by itself say whether the oath object is an era, a daily period, or time as a whole.
+- **R-103:3** [reading; support strong, relevance high] inter-ayah target
+  - finding: The exception completes the oath's moral frame: time is heard alongside the four practices that take people out of the general loss, including mutual exhortation rather than private belief alone.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 103:1 «وَٱلْعَصْرِ»
+  - activation: The exception immediately qualifies the human verdict that answers the oath.
+  - limits: The exception gives the saving response but does not settle which temporal sense of al-ʿaṣr is intended.
+- **R-3:185** [reading; support medium, relevance high] inter-ayah target
+  - finding: The oath وَٱلْعَصْرِ precedes a claim that humanity is in loss; 3:185 gives that temporal horizon an arc from death to recompense and calls worldly life deceptive enjoyment.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 3:185 «كُلُّ نَفْسٍۢ ذَآئِقَةُ ٱلْمَوْتِ»; 3:185 «وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا مَتَٰعُ ٱلْغُرُورِ»
+  - activation: The focus names time and the next ayah names human loss; this parallel makes a lifetime-scale reading available.
+  - limits: The parallel does not establish that al-ʿaṣr itself means an individual lifespan.
+- **R-7:8** [reading; support medium, relevance high] inter-ayah target
+  - finding: The oath وَٱلْعَصْرِ can be heard against a scene where the decisive weighing occurs on a named day and weight determines success, sharpening the outcome implied by خُسْرٍ in 103:2.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:2 «لَفِى خُسْرٍ»; 7:8 «وَٱلْوَزْنُ يَوْمَئِذٍ ٱلْحَقُّ»; 7:8 «فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ»
+  - activation: The focus opens a temporal oath, and 7:8 locates success at a decisive reckoning.
+  - limits: The weighing scene does not identify the focus’s time with that judgment day.
+- **R-10:24** [reading; support medium, relevance high] inter-ayah target
+  - finding: The transient growth and sudden cutting down in 10:24 makes وَٱلْعَصْرِ audible as time in which worldly prosperity can vanish before people expect it.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 10:24 «أَتَىٰهَآ أَمْرُنَا لَيْلًا أَوْ نَهَارًۭا فَجَعَلْنَٰهَا حَصِيدًۭا كَأَن لَّمْ تَغْنَ بِٱلْأَمْسِ»
+  - activation: The focus invokes time; the parable measures sudden change by night, day, and yesterday.
+  - limits: The parable does not state that al-ʿaṣr is the occasion of the harvest’s destruction.
+- **R-10:103** [reading; support medium, relevance high] inter-ayah target
+  - finding: After a call to await the days of earlier peoples, the passage names the rescue of messengers and believers; this parallels the contrast between human loss and the believing exception in Sūrat al-ʿAṣr.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟»; 10:102 «أَيَّامِ ٱلَّذِينَ خَلَوْا۟ مِن قَبْلِهِمْ»; 10:103 «ثُمَّ نُنَجِّى رُسُلَنَا وَٱلَّذِينَ ءَامَنُوا۟»
+  - activation: The focus’s following ayat divide humanity by faith and outcome; 10:102–103 also joins a historical wait to a rescue of believers.
+  - limits: The passage does not make its days a definition of al-ʿaṣr.
+- **R-11:15** [reading; support medium, relevance high] inter-ayah target
+  - finding: The worldly interval can appear profitable: people receive their deeds’ return there and are not shortchanged, yet the next ayah reverses that apparent gain in the afterlife.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 11:15 «نُوَفِّ إِلَيْهِمْ أَعْمَٰلَهُمْ فِيهَا وَهُمْ فِيهَا لَا يُبْخَسُونَ»; 11:16 «لَيْسَ لَهُمْ فِى ٱلْءَاخِرَةِ إِلَّا ٱلنَّارُ»
+  - activation: The oath names time and 103:2 declares humanity in loss; Hūd 11:15–16 distinguishes worldly return from final outcome.
+  - limits: The passage does not equate the focus’s time with worldly life as a specific term.
+- **R-11:16** [reading; support medium, relevance high] inter-ayah target
+  - finding: The voiding of deeds in the afterlife gives a concrete loss counterpart to خُسْرٍ after وَٱلْعَصْرِ: apparent work can end as no lasting gain.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:2 «لَفِى خُسْرٍ»; 11:16 «وَحَبِطَ مَا صَنَعُوا۟ فِيهَا وَبَٰطِلٌۭ مَّا كَانُوا۟ يَعْمَلُونَ»
+  - activation: The surah’s oath is followed by a claim of loss, and 11:16 specifies an outcome in which deeds are nullified.
+  - limits: This parallel does not specify the focus’s time as the afterlife or any particular span of life.
+- **R-14:18** [reading; support medium, relevance high] inter-ayah target
+  - finding: The ashes of deeds scattered by wind on a stormy day picture acquired work yielding nothing, a vivid counterpart to the loss announced after وَٱلْعَصْرِ.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 14:18 «أَعْمَٰلُهُمْ كَرَمَادٍ ٱشْتَدَّتْ بِهِ ٱلرِّيحُ فِى يَوْمٍ عَاصِفٍۢ»; 14:18 «لَّا يَقْدِرُونَ مِمَّا كَسَبُوا۟ عَلَىٰ شَىْءٍۢ»
+  - activation: The focus links time and human loss; this parable joins a named day to the disappearance of what people earned.
+  - limits: The stormy day is not identified with al-ʿaṣr, and the parallel is in outcome rather than shared wording.
+- **R-17:13** [reading; support medium, relevance high] inter-ayah target
+  - finding: The passage moves from night and day as measures for counting years and reckoning to each person's deed or destiny fastened to them and a record brought out at resurrection. It makes the oath by time lead into personal accounting.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 17:12 «وَلِتَعْلَمُوا۟ عَدَدَ ٱلسِّنِينَ وَٱلْحِسَابَ»; 17:13 «وَنُخْرِجُ لَهُۥ يَوْمَ ٱلْقِيَٰمَةِ كِتَٰبًۭا يَلْقَىٰهُ مَنشُورًا»
+  - activation: The deferred oath is followed by the claim that humanity is in loss; 17:12–13 joins temporal measure to an individual's final record.
+  - limits: This passage does not identify al-ʿaṣr specifically with night and day or say that time itself causes loss.
+- **R-17:14** [reading; support medium, relevance high] inter-ayah target
+  - finding: The record's next step is a command to read it, with the self sufficient as its own accountant. The time-and-reckoning sequence thus makes accountability personally legible, not merely recorded by an outside observer.
+  - evidence: 17:13 «كِتَٰبًۭا يَلْقَىٰهُ مَنشُورًا»; 17:14 «ٱقْرَأْ كِتَٰبَكَ كَفَىٰ بِنَفْسِكَ ٱلْيَوْمَ عَلَيْكَ حَسِيبًۭا»; 103:1 «وَٱلْعَصْرِ»
+  - activation: The oath's answer turns to humanity's loss, while 17:12–14 carries measured years into self-reading on the Day.
+  - limits: The parallel supplies an accountability scene, not a lexical gloss for al-ʿaṣr or a direct claim that time is the judge.
+- **R-18:49** [reading; support medium, relevance high] inter-ayah target
+  - finding: The comprehensive book counts small and large deeds, and its readers find their actions present. Beside the oath by time, this gives the human loss claim a concrete record of what accumulated through life.
+  - evidence: 18:49 «لَا يُغَادِرُ صَغِيرَةًۭ وَلَا كَبِيرَةً إِلَّآ أَحْصَىٰهَا»; 18:49 «وَوَجَدُوا۟ مَا عَمِلُوا۟ حَاضِرًۭا»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The oath's deferred answer identifies the human condition as loss, which this passage depicts as fully accounted deeds.
+  - limits: Al-ʿaṣr is not named in the record scene, and the passage does not equate loss with the act of recording.
+- **R-21:35** [reading; support medium, relevance high] inter-ayah target
+  - finding: Every soul's tasting death sets a limit to human life, while good and evil are described as a test before return to God. The oath can therefore be heard over a finite interval in which people are tested.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 21:35 «كُلُّ نَفْسٍۢ ذَآئِقَةُ ٱلْمَوْتِ»; 21:35 «وَنَبْلُوكُم بِٱلشَّرِّ وَٱلْخَيْرِ فِتْنَةًۭ ۖ وَإِلَيْنَا تُرْجَعُونَ»
+  - activation: 103:2 makes humanity the subject of the oath's answer; 21:35 describes the mortal, tested course shared by every soul.
+  - limits: The verse gives a life endpoint and return, not the length of the interval or an explicit identification of al-ʿaṣr with a lifespan.
+- **R-50:18** [reading; support medium, relevance high] inter-ayah target
+  - finding: Within the same recording episode as 50:17, this verse says that no utterance escapes a ready watcher. It makes the record continuous down to speech, so no moment in the human interval is outside the account.
+  - evidence: 50:18 «مَّا يَلْفِظُ مِن قَوْلٍ إِلَّا لَدَيْهِ رَقِيبٌ عَتِيدٌۭ»; 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The oath frames humanity before the loss claim; the recording scene covers every spoken act during human life.
+  - limits: The text makes speech universal within the record, but does not say every instant or define al-ʿaṣr as a lifetime.
+- **R-50:43** [reading; support medium, relevance high] inter-ayah target
+  - finding: God gives life, causes death, and is the return's destination. This outlines the human course from beginning through death to return, giving the time oath a mortal horizon.
+  - evidence: 50:43 «إِنَّا نَحْنُ نُحْىِۦ وَنُمِيتُ وَإِلَيْنَا ٱلْمَصِيرُ»; 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The oath's answer concerns humanity; this verse names the limits and destination of human life.
+  - limits: It supplies no duration and does not identify the oath's object with life itself.
+- **R-79:46** [reading; support medium, relevance high] inter-ayah target
+  - finding: The worldly span appearing as only an evening or its forenoon sharply compresses lived time; it makes the oath by al-ʿaṣr apt to be heard over a brief human interval without fixing it to that hour.
+  - evidence: 79:46 «كَأَنَّهُمْ يَوْمَ يَرَوْنَهَا لَمْ يَلْبَثُوٓا۟ إِلَّا عَشِيَّةً أَوْ ضُحَىٰهَا»; 103:1 «وَٱلْعَصْرِ»
+  - activation: The verse explicitly reduces worldly duration to parts of a day, while al-ʿaṣr can name time or an afternoon period.
+  - limits: It does not establish that al-ʿaṣr means the whole worldly lifetime or that the two verses refer to the same event.
+- **R-92:8** [reading; support medium, relevance high] inter-ayah target
+  - finding: Withholding and self-sufficiency give a contrasting lossward course; beside 103:2–3, this makes the oath's human verdict open to differentiated responses.
+  - evidence: 92:8 «وَأَمَّا مَنۢ بَخِلَ وَٱسْتَغْنَىٰ»; 92:9 «وَكَذَّبَ بِٱلْحُسْنَىٰ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The focus passage states loss broadly, then specifies an exception; this passage depicts conduct moving in the opposite direction from its favorable path.
+  - limits: Surah 103 does not explicitly assign withholding or self-sufficiency as the cause of the general loss.
+- **R-102:2** [reading; support medium, relevance high] inter-ayah target
+  - finding: The grave visit marks an endpoint for the distracted human interval, giving a concrete boundary to the time under which humanity is said to be in loss.
+  - evidence: 102:2 «حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ»; 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: Al-ʿaṣr opens a temporal frame; this passage carries human distraction to the grave.
+  - limits: It is a thematic parallel, not proof that al-ʿaṣr means the span from birth to death.
+- **R-107:7** [reading; support medium, relevance high] inter-ayah target
+  - finding: The human loss frame can be given a social example: withholding ٱلْمَاعُونَ runs against the righteous action and mutual counsel that mark the exception in 103:3. It illustrates a possible shortfall without defining all that خُسْرٍ means.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 107:7 «وَيَمْنَعُونَ ٱلْمَاعُونَ»
+  - activation: The oath in 103:1 introduces a claim about human loss and an exception defined by belief and conduct; 107:7 supplies a concrete act of withholding useful aid.
+  - limits: There is no shared key word or explicit cross-reference establishing that 107:7 is a specific gloss on 103:2–3.
+- **R-2:266** [open; support medium, relevance high] inter-ayah target
+  - finding: The garden is struck by an إِعْصَارٌۭ and burns; its form shares the consonantal root of وَٱلْعَصْرِ and could add a destructive pressure image to the oath.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 2:266 «فَأَصَابَهَآ إِعْصَارٌۭ فِيهِ نَارٌۭ فَٱحْتَرَقَتْ»
+  - missing: A dictionary sense linking إِعْصَارٌۭ to the pressing sense of the focus noun, and evidence that this root echo is active in the oath, would decide whether the storm image belongs here.
+- **R-12:36** [open; support medium, relevance high] inter-ayah target
+  - finding: One prisoner dreams that he presses wine, using أَعْصِرُ, a verb with the consonantal root of وَٱلْعَصْرِ; the dream could add a productive or pressing resonance to the oath.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 12:36 «إِنِّىٓ أَرَىٰنِىٓ أَعْصِرُ خَمْرًۭا»
+  - missing: A dictionary sense linking the focus noun to pressing, and evidence that this verb-to-noun root echo is active in the oath, could establish the proposed resonance.
+- **R-12:49** [open; support medium, relevance high] inter-ayah target
+  - finding: After seven hard years, the promised year brings relief and people يَعْصِرُونَ; this same-root verb could let وَٱلْعَصْرِ carry a pressure-then-yield resonance.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 12:48 «سَبْعٌۭ شِدَادٌۭ يَأْكُلْنَ مَا قَدَّمْتُمْ»; 12:49 «عَامٌۭ فِيهِ يُغَاثُ ٱلنَّاسُ وَفِيهِ يَعْصِرُونَ»
+  - missing: A dictionary account connecting the focus noun’s sense with the pressing verb, and evidence that this root relation is active across the hard-year and relief sequence, could decide the proposed reading.
+- **R-30:2** [open; support medium, relevance high] inter-ayah target
+  - finding: The passage sets defeat beside a promised reversal: the Romans were overcome, then will overcome after their defeat. It raises the possibility that the oath by time frames loss as a condition that may change with time.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 30:2 «غُلِبَتِ ٱلرُّومُ»; 30:3 «وَهُم مِّنۢ بَعْدِ غَلَبِهِمْ سَيَغْلِبُونَ»
+  - missing: The passage's reversal is political, with no link to moral loss or the human condition in 103. A Quranic bridge between historical reversal and the oath's claim would establish more than a time-course analogy.
+- **R-33:72** [open; support medium, relevance high] inter-ayah target
+  - finding: Humanity accepts the trust that the heavens, earth, and mountains refuse, and is described as unjust and ignorant. This could deepen why the human named after the oath is vulnerable to loss: human responsibility is carried with known weakness.
+  - evidence: 33:72 «وَحَمَلَهَا ٱلْإِنسَٰنُ»; 33:72 «إِنَّهُۥ كَانَ ظَلُومًۭا جَهُولًۭا»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - missing: Nothing in 33:72 ties the trust to al-ʿaṣr or to loss. A passage linking the human trust or its failure to the use of life's time could ground this reading.
+- **R-51:18** [open; support medium, relevance high] inter-ayah target
+  - finding: The worshippers give little of the night to sleep and seek forgiveness at dawn. Their practice makes time-of-day a setting for deliberate devotion, which could sharpen the oath if al-ʿaṣr is heard as a particular part of the day.
+  - evidence: 51:17 «كَانُوا۟ قَلِيلًۭا مِّنَ ٱلَّيْلِ مَا يَهْجَعُونَ»; 51:18 «وَبِٱلْأَسْحَارِ هُمْ يَسْتَغْفِرُونَ»; 103:1 «وَٱلْعَصْرِ»
+  - missing: The passage names night and dawn, not al-ʿaṣr or an afternoon practice. A lexical or Quranic link making the oath a specific prayer-time, or an explicit daily pattern joining these times, could complete the parallel.
+- **R-56:10** [open; support medium, relevance high] inter-ayah target
+  - finding: The foremost group is named as those who have gone ahead, while another passage calls believers to race toward forgiveness and a garden. Together they suggest an urgency of precedence that might give the oath by time a call to make use of one's interval.
+  - evidence: 56:10 «وَٱلسَّٰبِقُونَ ٱلسَّٰبِقُونَ»; 57:21 «سَابِقُوٓا۟ إِلَىٰ مَغْفِرَةٍۢ مِّن رَّبِّكُمْ»; 103:1 «وَٱلْعَصْرِ»
+  - missing: These passages describe precedence and racing but do not explicitly connect either to al-ʿaṣr or a human lifetime. A temporal term linking the race to a limited interval could decide the reading.
+- **R-56:83** [open; support medium, relevance high] inter-ayah target
+  - finding: The arrival of the soul at the throat marks a bodily threshold at death. It could make the oath's time-frame feel like a life that reaches an end, before the consequence of loss.
+  - evidence: 56:83 «فَلَوْلَآ إِذَا بَلَغَتِ ٱلْحُلْقُومَ»; 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - missing: This death scene gives an endpoint but does not connect it to the oath or describe the span before it. An explicit link between life's duration and al-ʿaṣr could make the proposed frame more than an analogy.
+- **R-75:13** [open; support medium, relevance high] inter-ayah target
+  - finding: What a person sent ahead and left behind could extend the oath's time frame across actions and omissions in a human life.
+  - evidence: 75:13 «يُنَبَّؤُا۟ ٱلْإِنسَٰنُ يَوْمَئِذٍۭ بِمَا قَدَّمَ وَأَخَّرَ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - missing: The link needs evidence that al-ʿaṣr denotes the span in which deeds are accumulated; the wording here gives accountability but does not identify that span with the oath.
+- **R-75:14** [open; support medium, relevance high] inter-ayah target
+  - finding: The description of the human as بصيرة over himself could support hearing the sworn time as a witness to the loss announced in 103:2.
+  - evidence: 75:14 «بَلِ ٱلْإِنسَٰنُ عَلَىٰ نَفْسِهِۦ بَصِيرَةٌۭ»; 103:1 «وَٱلْعَصْرِ»
+  - missing: This verse makes the human, not time, the witness; an explicit Quranic link identifying time as witness would be needed for that reading.
+- **R-76:1** [open; support medium, relevance high] inter-ayah target
+  - finding: A حين من الدهر passing upon the human is a close parallel for hearing al-ʿaṣr as a span that bears upon human existence, rather than only a named hour.
+  - evidence: 76:1 «هَلْ أَتَىٰ عَلَى ٱلْإِنسَٰنِ حِينٌۭ مِّنَ ٱلدَّهْرِ لَمْ يَكُن شَيْـًۭٔا مَّذْكُورًا»; 103:1 «وَٱلْعَصْرِ»
+  - missing: The parallel supplies another expression for a time span, not proof that al-ʿaṣr has the same sense; a dictionary or further Quranic use of al-ʿaṣr as an era would decide that.
+- **R-78:14** [open; support medium, relevance high] inter-ayah target
+  - finding: ٱلْمُعْصِرَٰتِ shares the ع ص ر root with ٱلْعَصْرِ and occurs in a scene of abundant water; if the root's pressure or pressing sense is active, it could lend al-ʿaṣr a pressure-to-yield association.
+  - evidence: 78:14 «وَأَنزَلْنَا مِنَ ٱلْمُعْصِرَٰتِ مَآءًۭ ثَجَّاجًۭا»; 103:1 «وَٱلْعَصْرِ»
+  - missing: A dictionary sense and evidence that it remains active in both forms are needed; the shared root alone does not establish that time is pressing anything.
+- **R-82:10** [open; support medium, relevance high] inter-ayah target
+  - finding: Guardians appointed over people could support an accountability frame in which the sworn time is heard as witness to human conduct.
+  - evidence: 82:10 «وَإِنَّ عَلَيْكُمْ لَحَٰفِظِينَ»; 103:1 «وَٱلْعَصْرِ»
+  - missing: The guardians, not time, are named as watchers; an explicit link between temporal duration and witnessing is absent.
+- **R-82:11** [open; support medium, relevance high] inter-ayah target
+  - finding: The noble writers give a recording counterpart to the possible witness-like hearing of the oath by al-ʿaṣr.
+  - evidence: 82:11 «كِرَامًۭا كَٰتِبِينَ»; 103:1 «وَٱلْعَصْرِ»
+  - missing: The verse assigns writing to agents without making time itself a record; a text linking duration to the record would decide the connection.
+- **R-82:12** [open; support medium, relevance high] inter-ayah target
+  - finding: The recorders' knowledge of what people do could place human action within the accountability horizon opened by the oath.
+  - evidence: 82:12 «يَعْلَمُونَ مَا تَفْعَلُونَ»; 103:1 «وَٱلْعَصْرِ»
+  - missing: Nothing here says that al-ʿaṣr observes or preserves deeds; a Quranic passage joining time with the record would supply that link.
+- **R-85:3** [open; support medium, relevance high] inter-ayah target
+  - finding: The oath by a promised day is followed by an oath by witness and witnessed; this sequence could support hearing temporal time as a scene of witnessing.
+  - evidence: 85:2 «وَٱلْيَوْمِ ٱلْمَوْعُودِ»; 85:3 «وَشَاهِدٍۢ وَمَشْهُودٍۢ»; 103:1 «وَٱلْعَصْرِ»
+  - missing: The sequence does not identify the day as either witness or witnessed, nor connect al-ʿaṣr to that role; an explicit equation or closer parallel would be needed.
+- **R-87:16** [open; support medium, relevance high] inter-ayah target
+  - finding: Preference for ٱلْحَيَوٰةَ ٱلدُّنْيَا could make al-ʿaṣr sound against a limited worldly horizon that humans choose over what lasts.
+  - evidence: 87:16 «بَلْ تُؤْثِرُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا»; 103:1 «وَٱلْعَصْرِ»
+  - missing: The verse does not connect al-ʿaṣr to worldly life; evidence that the oath marks a finite worldly span would strengthen this reading.
+- **R-87:17** [open; support medium, relevance high] inter-ayah target
+  - finding: The hereafter described as better and more abiding supplies a counter-horizon to the time named in the oath and the human loss that follows.
+  - evidence: 87:17 «وَٱلْءَاخِرَةُ خَيْرٌۭ وَأَبْقَىٰٓ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - missing: Surah 103 does not state that its loss is a contrast between worldly time and the enduring hereafter; a direct link to that horizon is missing.
+- **R-99:7** [open; support medium, relevance high] inter-ayah target
+  - finding: The smallest good deed being seen could make the oath's human horizon one in which no action within time is lost.
+  - evidence: 99:6 «لِّيُرَوْا۟ أَعْمَٰلَهُمْ»; 99:7 «فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًۭا يَرَهُۥ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - missing: The passage makes deeds visible at judgment but does not say time witnesses or preserves them; an explicit link between the oath object and the record of deeds is missing.
+- **R-99:8** [open; support medium, relevance high] inter-ayah target
+  - finding: The matching promise that even a particle of evil will be seen supplies the negative counterpart to the good deeds named in 103:3, within the oath's possible accountability horizon.
+  - evidence: 99:8 «وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍۢ شَرًّۭا يَرَهُۥ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 103:1 «وَٱلْعَصْرِ»
+  - missing: Nothing in the verses explicitly makes al-ʿaṣr the span in which good and evil are registered; a temporal link to the reckoning would be needed.
+- **related_4.X1** [open; support medium, relevance high] 
+  - finding: Fatiha’s ٱلدِّينِ gives ٱلْعَصْرِ a possible horizon of accountability: the oath by time is followed by human loss and an exception defined by belief and deeds. This could make the time of the oath morally answerable time.
+  - evidence: 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»; 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - missing: The texts share a temporal and accountability theme but do not explicitly connect ٱلْعَصْرِ with يَوْمِ ٱلدِّينِ. A Quranic passage using these together, or a clear structural link that makes Fatiha a key to this oath, could establish the proposed horizon.
+- **R-78:15** [open; support weak, relevance high] inter-ayah target
+  - finding: In the same rain scene, the water produces grain and vegetation; if the root link in ٱلْمُعْصِرَٰتِ carries pressing or release, this offers a pressure-to-yield sequence beside the oath's possible pressure coloring.
+  - evidence: 78:14 «وَأَنزَلْنَا مِنَ ٱلْمُعْصِرَٰتِ مَآءًۭ ثَجَّاجًۭا»; 78:15 «لِّنُخْرِجَ بِهِۦ حَبًّۭا وَنَبَاتًۭا»; 103:1 «وَٱلْعَصْرِ»
+  - missing: The pressing sense in the shared root and its relevance to al-ʿaṣr need lexical support; the crop scene alone does not link productivity to the oath.
+- **R-90:4** [open; support weak, relevance high] inter-ayah target
+  - finding: Human creation in كَبَدٍ could resonate with the pressure coloring proposed for the root of al-ʿaṣr, making time a pressured human condition.
+  - evidence: 90:4 «لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِى كَبَدٍ»; 103:1 «وَٱلْعَصْرِ»
+  - missing: The hardship term has no shared root with al-ʿaṣr; a dictionary basis for its pressure sense and evidence linking that sense to the oath are needed.
+- **R-94:5** [open; support weak, relevance high] inter-ayah target
+  - finding: ٱلْعُسْرِ resembles ٱلْعَصْرِ in sound but differs in the consonant and root; a deliberate sound echo could set pressured time against ease.
+  - evidence: 94:5 «فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا»; 103:1 «وَٱلْعَصْرِ»
+  - missing: The roots are distinct, ع س ر and ع ص ر; evidence of deliberate sound play across these passages would be needed to make the echo more than a possible hearing.
+- **R-112:2** [open; support weak, relevance high] inter-ayah target
+  - finding: ٱللَّهُ ٱلصَّمَدُ could form a counterpoint to the human condition in loss: the oath by time is followed by a statement about humanity, while 112:2 names God as ٱلصَّمَدُ. This may set human contingency beside divine self-sufficiency.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 112:2 «ٱللَّهُ ٱلصَّمَدُ»
+  - missing: The passages do not state this opposition or link time to dependence. A Quranic usage pairing human loss or temporal dependence with ٱلصَّمَدُ, or a clear structural link between these surahs, could establish the reading.
+- **R-114:6** [open; support weak, relevance high] inter-ayah target
+  - finding: The whispering into human breasts in 114:5–6 could offer a possible mechanism of the human vulnerability described in 103:2, against the faith and action of 103:3. The two passages thus allow a possible link between temptation and loss.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 114:5 «ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ»; 114:6 «مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ»
+  - missing: Neither passage says that whispering causes the loss described in 103, and there is no shared key word. A Quranic passage or structural link that joins waswasa to خُسْرٍ could decide whether this is more than a thematic possibility.
+- **R-10:5** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The focus’s time oath gains a measurable cosmic frame: sun and moon phases let people count years and reckon time.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 10:5 «وَقَدَّرَهُۥ مَنَازِلَ لِتَعْلَمُوا۟ عَدَدَ ٱلسِّنِينَ وَٱلْحِسَابَ»
+  - activation: Al-ʿaṣr names time, and 10:5 explicitly links celestial phases with counting and calculation.
+  - limits: The verse does not specify which temporal unit the oath names.
+- **R-92:5** [reading; support medium, relevance medium] inter-ayah target
+  - finding: Giving and taqwa form one concrete gainward course beside the exception to loss in 103:3, where faith, righteous work, truth, and patience define a saving course.
+  - evidence: 92:5 «فَأَمَّا مَنْ أَعْطَىٰ وَٱتَّقَىٰ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The exception after the oath's loss verdict invites comparison with other Quranic descriptions of the favorable human path.
+  - limits: The two lists overlap in moral direction but do not use the same actions or wording.
+- **R-2:246** [open; support medium, relevance medium] inter-ayah target
+  - finding: The Israelites first request combat, then most withdraw when it is prescribed; this tests resolve over a sequence and contrasts with 103:3’s counsel to patience.
+  - evidence: 2:246 «قَالُوا۟ وَمَا لَنَآ أَلَّا نُقَٰتِلَ فِى سَبِيلِ ٱللَّهِ»; 2:246 «فَلَمَّا كُتِبَ عَلَيْهِمُ ٱلْقِتَالُ تَوَلَّوْا۟ إِلَّا قَلِيلًۭا مِّنْهُمْ»; 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - missing: A passage tying وَٱلْعَصْرِ specifically to a period of testing, or another textual link between elapsed time and steadfast action, could establish more than a thematic parallel.
+- **R-20:51** [open; support medium, relevance medium] inter-ayah target
+  - finding: The question about earlier generations and the reply that their knowledge is with God place al-ʿaṣr beside a history extending across generations that God neither loses nor forgets.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 20:51 «فَمَا بَالُ ٱلْقُرُونِ ٱلْأُولَىٰ»; 20:52 «لَّا يَضِلُّ رَبِّى وَلَا يَنسَى»
+  - missing: The passage does not connect those generations to the oath or explain whether al-ʿaṣr can denote an age or historical span; a Quranic usage or lexical sense linking the term to eras could ground this reading.
+- **R-35:18** [open; support medium, relevance medium] inter-ayah target
+  - finding: The burden bearer carries no one else's burden, and purification benefits the self. This makes the human outcome after the oath individually accountable rather than transferable.
+  - evidence: 35:18 «وَلَا تَزِرُ وَازِرَةٌۭ وِزْرَ أُخْرَىٰ»; 35:18 «فَإِنَّمَا يَتَزَكَّىٰ لِنَفْسِهِۦ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - missing: This passage gives individual responsibility but no time frame. An explicit link between each person's burden or purification and the interval sworn by in 103:1 could make the connection decisive.
+- **R-62:8** [open; support medium, relevance medium] inter-ayah target
+  - finding: Death, return, and the report of deeds could make al-ʿaṣr audible as the finite human interval before account.
+  - evidence: 62:8 «إِنَّ ٱلْمَوْتَ ٱلَّذِى تَفِرُّونَ مِنْهُ فَإِنَّهُۥ مُلَٰقِيكُمْ ۖ ثُمَّ تُرَدُّونَ إِلَىٰ عَٰلِمِ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ فَيُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - missing: The link does not establish that al-ʿaṣr means a lifetime; lexical evidence for that sense or a closer Quranic parallel could supply it.
+- **R-64:9** [open; support medium, relevance medium] inter-ayah target
+  - finding: The day of mutual loss and gain, paired with belief and good action, offers a possible endpoint for the loss announced after al-ʿaṣr.
+  - evidence: 64:9 «يَوْمَ يَجْمَعُكُمْ لِيَوْمِ ٱلْجَمْعِ ۖ ذَٰلِكَ يَوْمُ ٱلتَّغَابُنِ ۗ وَمَن يُؤْمِنۢ بِٱللَّهِ وَيَعْمَلْ صَٰلِحًۭا يُكَفِّرْ عَنْهُ سَيِّـَٔاتِهِۦ»
+  - missing: Surah 103 does not name a final gathering or judgment day; an explicit link between its خُسْر and later reckoning would decide whether this parallel belongs in its reading.
+- **R-77:13** [open; support medium, relevance medium] inter-ayah target
+  - finding: The “day of separation” offers a possible final horizon against which the loss after the oath could be heard.
+  - evidence: 77:13 «لِيَوْمِ ٱلْفَصْلِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - missing: Surah 103 does not specify that its loss is resolved on a day of judgment; a link between its verdict and a later day could establish this horizon.
+- **R-78:11** [open; support medium, relevance medium] inter-ayah target
+  - finding: The day made a livelihood gives a concrete account of time as a human resource, a possible counterpoint to humanity being in loss.
+  - evidence: 78:11 «وَجَعَلْنَا ٱلنَّهَارَ مَعَاشًۭا»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - missing: This does not connect daytime livelihood specifically to al-ʿaṣr; a shared Quranic usage or a clearer structural link could show whether the daily work frame belongs here.
+- **R-26:171** [open; support weak, relevance medium] inter-ayah target
+  - finding: The exception of an old woman among al-ghābirīn, followed by the destruction of the others, makes the scene turn on who remains after catastrophe. It may offer a remnant image alongside the oath by passing time.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 26:171 «إِلَّا عَجُوزًۭا فِى ٱلْغَٰبِرِينَ»; 26:172 «ثُمَّ دَمَّرْنَا ٱلْءَاخَرِينَ»
+  - missing: The scene's remaining group is not linked to al-ʿaṣr in the text. A dictionary sense or Quranic usage connecting al-ʿaṣr with passing time and what it leaves behind could decide whether the remnant image matters.
+- **R-35:21** [open; support weak, relevance medium] inter-ayah target
+  - finding: The contrast between shade and fierce heat could supply a physical image for an afternoon reading of al-ʿaṣr, while the surrounding verses use such contrasts for spiritual distinctions.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 35:21 «وَلَا ٱلظِّلُّ وَلَا ٱلْحَرُورُ»; 35:22 «وَمَا يَسْتَوِى ٱلْأَحْيَآءُ وَلَا ٱلْأَمْوَٰتُ»
+  - missing: The verse does not place the heat at afternoon or name al-ʿaṣr. A lexical sense linking the oath to that time of day, or another passage making the setting explicit, could establish the image.
+- **R-37:135** [open; support weak, relevance medium] inter-ayah target
+  - finding: The same phrase for the old woman among al-ghābirīn appears here in another destruction narrative; the next verse says the others were destroyed. Across both tellings, the scene marks who remains after a catastrophe.
+  - evidence: 37:135 «إِلَّا عَجُوزًۭا فِى ٱلْغَٰبِرِينَ»; 37:136 «ثُمَّ دَمَّرْنَا ٱلْءَاخَرِينَ»; 26:171 «إِلَّا عَجُوزًۭا فِى ٱلْغَٰبِرِينَ»
+  - missing: The repeated remnant formula is clear, but neither account connects it to al-ʿaṣr. A lexical or Quranic link between the oath's temporal sense and those left behind would show whether this repetition bears on the focus.
+- **R-38:52** [open; support weak, relevance medium] inter-ayah target
+  - finding: أَتْرَابٌ describes companions as peers of equal age. If al-ʿaṣr can carry an age or epoch sense, this scene of age-mates could add a human scale to the oath's time-word.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 38:52 «وَعِندَهُمْ قَٰصِرَٰتُ ٱلطَّرْفِ أَتْرَابٌ»
+  - missing: The verse's age relation is explicit, but no wording links أَتْرَابٌ to al-ʿaṣr. A dictionary sense or Quranic use of al-ʿaṣr for a human age or cohort could supply the missing lexical bridge.
+- **R-95:1** [open; support weak, relevance medium] inter-ayah target
+  - finding: The oath opening is a formal parallel to 103:1, but the supplied passage does not show what human judgment, if any, follows it.
+  - evidence: 95:1 «وَٱلتِّينِ وَٱلزَّيْتُونِ»; 103:1 «وَٱلْعَصْرِ»
+  - missing: The remainder of Surah 95 would need to show a human verdict structurally comparable to 103:2–3; the listed excerpt stops before that can be assessed.
+- **R-97:5** [open; support weak, relevance medium] inter-ayah target
+  - finding: Peace lasting until dawn marks a bounded night interval; if al-ʿaṣr is heard as a daily period, this gives a contrasting endpoint in the day-night cycle.
+  - evidence: 97:5 «سَلَٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ»; 103:1 «وَٱلْعَصْرِ»
+  - missing: The verse does not connect dawn to al-ʿaṣr; a Quranic cycle linking these periods or a clearer relation between the passages could supply the bridge.
+- **R-106:1** [open; support weak, relevance medium] inter-ayah target
+  - finding: Quraysh's winter and summer journeys place livelihood within recurring seasonal time, a possible concrete counterpoint to humanity's loss under the oath.
+  - evidence: 106:1 «لِإِيلَٰفِ قُرَيْشٍ»; 106:2 «إِۦلَٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ»; 103:1 «وَٱلْعَصْرِ»
+  - missing: The seasonal journeys are not explicitly linked to al-ʿaṣr or to the loss verdict; a Quranic usage or structural connection between seasonal time and the oath would be needed.
+
+Notes:
+- R-2:164 [support strong, relevance medium] The Quran places night-and-day alternation among signs, giving وَٱلْعَصْرِ a setting within cosmic cycles.
+- R-3:190 [support strong, relevance medium] The closing passage of Āl ʿImrān presents night-and-day alternation as a sign for people who reflect, echoing the temporal field named by وَٱلْعَصْرِ.
+- R-12:47 [support strong, relevance medium] Joseph’s instruction counts seven years of persistent sowing and storing, giving time an accumulated rhythm of labor and preparation beside وَٱلْعَصْرِ.
+- R-44:2 [support strong, relevance medium] The oath by the clear Book is followed by its revelation in a blessed night. This pairs an oath-object with a time of revelation, offering a formal comparison with the oath by time.
+- R-56:75 [support strong, relevance medium] The oath by the positions of the stars offers another Quranic oath-object drawn from the visible order of the cosmos. It is a formal parallel to swearing by time, though star-position here is not itself named as time.
+- R-56:76 [support strong, relevance medium] The passage calls its oath tremendous, which confirms that a Quranic oath-object can bear major argumentative weight. It invites a weighty hearing of the focus's oath without declaring that oath's degree or reason.
+- R-85:2 [support strong, relevance medium] An oath by ٱلْيَوْمِ ٱلْمَوْعُودِ is a direct formal parallel for swearing by a temporal object, though it names a promised day rather than al-ʿaṣr.
+- R-89:1 [support strong, relevance medium] The oath by dawn begins a sequence of temporal markers, showing another Quranic use of a time-sign as an oath object.
+- R-93:1 [support strong, relevance medium] Al-ḍuḥā and the night as it settles form a temporal pair in an oath, a close daily-cycle parallel for the time noun in 103:1.
+- R-21:47 [support medium, relevance medium] The final-day scales and the assurance that no soul is wronged supply a scene of exact moral accounting that can accompany the oath's human-loss claim.
+- R-23:102 [support medium, relevance medium] The heavy scales leading to success form one side of an outcome pair; the next verse names light scales and loss. This offers a weighing contrast for the human fate that follows the oath.
+- R-26:152 [support medium, relevance medium] The description of people who corrupt the land and do not repair it gives a concrete opposite to the righteous deeds in 103:3: action can damage rather than set right.
+- R-49:7 [support medium, relevance medium] The passage describes faith as made beloved and disbelief, transgression, and disobedience as hated, then calls those people rightly guided. It supplies a moral texture for the believing response named after the oath's loss claim.
+- R-50:17 [support medium, relevance medium] Two receivers positioned on the right and left depict recording from both sides. This begins one continuous accountability scene, which the next verse specifies as covering every utterance.
+- R-51:56 [support medium, relevance medium] The declaration that humans were created to worship gives a purpose frame to the faith and righteous action that follows the oath's claim about loss.
+- R-52:6 [support medium, relevance medium] The sea completes the series of oath-objects just before the warning that the Lord's punishment will occur. This is a parallel of a created witness followed by a consequential claim.
+- R-70:22 [support medium, relevance medium] A negative human tendency followed by إِلَّا ٱلْمُصَلِّينَ parallels the turn from the general loss in 103:2 to its exception in 103:3.
+- R-74:32 [support medium, relevance medium] The oath by the moon is followed by an oath marking night as it departs, placing al-ʿaṣr among Quranic oaths tied to temporal and celestial signs.
+- R-89:2 [support medium, relevance medium] The oath by ten nights makes a measured stretch of time part of the temporal oath series that includes al-ʿaṣr.
+- R-91:1 [support medium, relevance medium] The oath by the sun and its ḍuḥā, followed by the moon, places al-ʿaṣr beside another oath built from phases of the day and sky.
+- R-92:6 [support medium, relevance medium] Belief in ٱلْحُسْنَىٰ adds a distinct affirmation to the favorable course, alongside the exception that answers loss in 103:3.
+- R-106:2 [support medium, relevance medium] The oath by ٱلْعَصْرِ can be placed beside a concrete rhythm of human time: Quraysh’s journeys recur in winter and summer. This gives the broad time-word a livelihood scale, without making seasons its meaning.
+- R-94:6 [support weak, relevance medium] The repeated ease-with-hardship formula renews the possible sound echo with al-ʿaṣr, while its repeated wording makes the hardship-ease pairing emphatic.
+- R-2:187 [support strong, relevance low] The fast is bounded by dawn and night, placing وَٱلْعَصْرِ within a measured daily interval.
+- R-37:1 [support strong, relevance low] This is another opening oath, but its object is a formed group—those ranged in rows—rather than the single abstract al-ʿaṣr. The parallel foregrounds the choice of object within a shared oath frame.
+- R-43:2 [support strong, relevance low] The oath by the clear Book shares the opening وَ + definite genitive noun construction with the oath by al-ʿaṣr, but swaps time for scripture as its object.
+- R-51:1 [support strong, relevance low] This opening oath repeats the oath-particle frame but attaches it to those scattering or dispersing. It shows the focus's compact oath as one instance of a Quranic opening that can begin with a vivid action-bearing object.
+- R-52:1 [support strong, relevance low] The oath by the Mount shares the focus's وَ + definite genitive noun frame, but names a concrete place instead of an abstract temporal object.
+- R-52:4 [support strong, relevance low] The oath sequence turns to the inhabited House, another definite genitive object. In its surrounding sequence, the focus's single time-object contrasts with a series of sacred and cosmic witnesses.
+- R-11:90 [support medium, relevance low] The call to seek forgiveness and turn back offers a possible redirection within the span named by وَٱلْعَصْرِ, before the passage resumes its warning.
+- R-14:52 [support medium, relevance low] The passage calls revelation a warning and a reminder for people of understanding, which gives a communal-message parallel to 103:3’s counsel in truth.
+- R-81:16 [support medium, relevance low] The oath sequence moves from ٱلْجَوَارِ ٱلْكُنَّسِ to night at its transition, placing celestial motion beside a changing temporal sign.
+- R-86:1 [support medium, relevance low] The oath by ٱلطَّارِقِ, a night visitor, is another oath opening tied to a temporal sign and offers a limited parallel for al-ʿaṣr.
+
+## 3. Text of cited ayat outside the surah and the Fatiha
+
+- 2:164 إِنَّ فِى خَلْقِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَٱخْتِلَٰفِ ٱلَّيْلِ وَٱلنَّهَارِ وَٱلْفُلْكِ ٱلَّتِى تَجْرِى فِى ٱلْبَحْرِ بِمَا يَنفَعُ ٱلنَّاسَ وَمَآ أَنزَلَ ٱللَّهُ مِنَ ٱلسَّمَآءِ مِن مَّآءٍۢ فَأَحْيَا بِهِ ٱلْأَرْضَ بَعْدَ مَوْتِهَا وَبَثَّ فِيهَا مِن كُلِّ دَآبَّةٍۢ وَتَصْرِيفِ ٱلرِّيَٰحِ وَٱلسَّحَابِ ٱلْمُسَخَّرِ بَيْنَ ٱلسَّمَآءِ وَٱلْأَرْضِ لَءَايَٰتٍۢ لِّقَوْمٍۢ يَعْقِلُونَ
+- 2:187 أُحِلَّ لَكُمْ لَيْلَةَ ٱلصِّيَامِ ٱلرَّفَثُ إِلَىٰ نِسَآئِكُمْ ۚ هُنَّ لِبَاسٌۭ لَّكُمْ وَأَنتُمْ لِبَاسٌۭ لَّهُنَّ ۗ عَلِمَ ٱللَّهُ أَنَّكُمْ كُنتُمْ تَخْتَانُونَ أَنفُسَكُمْ فَتَابَ عَلَيْكُمْ وَعَفَا عَنكُمْ ۖ فَٱلْـَٰٔنَ بَٰشِرُوهُنَّ وَٱبْتَغُوا۟ مَا كَتَبَ ٱللَّهُ لَكُمْ ۚ وَكُلُوا۟ وَٱشْرَبُوا۟ حَتَّىٰ يَتَبَيَّنَ لَكُمُ ٱلْخَيْطُ ٱلْأَبْيَضُ مِنَ ٱلْخَيْطِ ٱلْأَسْوَدِ مِنَ ٱلْفَجْرِ ۖ ثُمَّ أَتِمُّوا۟ ٱلصِّيَامَ إِلَى ٱلَّيْلِ ۚ وَلَا تُبَٰشِرُوهُنَّ وَأَنتُمْ عَٰكِفُونَ فِى ٱلْمَسَٰجِدِ ۗ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَقْرَبُوهَا ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ ءَايَٰتِهِۦ لِلنَّاسِ لَعَلَّهُمْ يَتَّقُونَ
+- 2:246 أَلَمْ تَرَ إِلَى ٱلْمَلَإِ مِنۢ بَنِىٓ إِسْرَٰٓءِيلَ مِنۢ بَعْدِ مُوسَىٰٓ إِذْ قَالُوا۟ لِنَبِىٍّۢ لَّهُمُ ٱبْعَثْ لَنَا مَلِكًۭا نُّقَٰتِلْ فِى سَبِيلِ ٱللَّهِ ۖ قَالَ هَلْ عَسَيْتُمْ إِن كُتِبَ عَلَيْكُمُ ٱلْقِتَالُ أَلَّا تُقَٰتِلُوا۟ ۖ قَالُوا۟ وَمَا لَنَآ أَلَّا نُقَٰتِلَ فِى سَبِيلِ ٱللَّهِ وَقَدْ أُخْرِجْنَا مِن دِيَٰرِنَا وَأَبْنَآئِنَا ۖ فَلَمَّا كُتِبَ عَلَيْهِمُ ٱلْقِتَالُ تَوَلَّوْا۟ إِلَّا قَلِيلًۭا مِّنْهُمْ ۗ وَٱللَّهُ عَلِيمٌۢ بِٱلظَّٰلِمِينَ
+- 2:266 أَيَوَدُّ أَحَدُكُمْ أَن تَكُونَ لَهُۥ جَنَّةٌۭ مِّن نَّخِيلٍۢ وَأَعْنَابٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ لَهُۥ فِيهَا مِن كُلِّ ٱلثَّمَرَٰتِ وَأَصَابَهُ ٱلْكِبَرُ وَلَهُۥ ذُرِّيَّةٌۭ ضُعَفَآءُ فَأَصَابَهَآ إِعْصَارٌۭ فِيهِ نَارٌۭ فَٱحْتَرَقَتْ ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلْءَايَٰتِ لَعَلَّكُمْ تَتَفَكَّرُونَ
+- 3:185 كُلُّ نَفْسٍۢ ذَآئِقَةُ ٱلْمَوْتِ ۗ وَإِنَّمَا تُوَفَّوْنَ أُجُورَكُمْ يَوْمَ ٱلْقِيَٰمَةِ ۖ فَمَن زُحْزِحَ عَنِ ٱلنَّارِ وَأُدْخِلَ ٱلْجَنَّةَ فَقَدْ فَازَ ۗ وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا مَتَٰعُ ٱلْغُرُورِ
+- 3:190 إِنَّ فِى خَلْقِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَٱخْتِلَٰفِ ٱلَّيْلِ وَٱلنَّهَارِ لَءَايَٰتٍۢ لِّأُو۟لِى ٱلْأَلْبَٰبِ
+- 7:8 وَٱلْوَزْنُ يَوْمَئِذٍ ٱلْحَقُّ ۚ فَمَن ثَقُلَتْ مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ
+- 7:9 وَمَنْ خَفَّتْ مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُم بِمَا كَانُوا۟ بِـَٔايَٰتِنَا يَظْلِمُونَ
+- 7:34 وَلِكُلِّ أُمَّةٍ أَجَلٌۭ ۖ فَإِذَا جَآءَ أَجَلُهُمْ لَا يَسْتَأْخِرُونَ سَاعَةًۭ ۖ وَلَا يَسْتَقْدِمُونَ
+- 8:37 لِيَمِيزَ ٱللَّهُ ٱلْخَبِيثَ مِنَ ٱلطَّيِّبِ وَيَجْعَلَ ٱلْخَبِيثَ بَعْضَهُۥ عَلَىٰ بَعْضٍۢ فَيَرْكُمَهُۥ جَمِيعًۭا فَيَجْعَلَهُۥ فِى جَهَنَّمَ ۚ أُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ
+- 10:5 هُوَ ٱلَّذِى جَعَلَ ٱلشَّمْسَ ضِيَآءًۭ وَٱلْقَمَرَ نُورًۭا وَقَدَّرَهُۥ مَنَازِلَ لِتَعْلَمُوا۟ عَدَدَ ٱلسِّنِينَ وَٱلْحِسَابَ ۚ مَا خَلَقَ ٱللَّهُ ذَٰلِكَ إِلَّا بِٱلْحَقِّ ۚ يُفَصِّلُ ٱلْءَايَٰتِ لِقَوْمٍۢ يَعْلَمُونَ
+- 10:24 إِنَّمَا مَثَلُ ٱلْحَيَوٰةِ ٱلدُّنْيَا كَمَآءٍ أَنزَلْنَٰهُ مِنَ ٱلسَّمَآءِ فَٱخْتَلَطَ بِهِۦ نَبَاتُ ٱلْأَرْضِ مِمَّا يَأْكُلُ ٱلنَّاسُ وَٱلْأَنْعَٰمُ حَتَّىٰٓ إِذَآ أَخَذَتِ ٱلْأَرْضُ زُخْرُفَهَا وَٱزَّيَّنَتْ وَظَنَّ أَهْلُهَآ أَنَّهُمْ قَٰدِرُونَ عَلَيْهَآ أَتَىٰهَآ أَمْرُنَا لَيْلًا أَوْ نَهَارًۭا فَجَعَلْنَٰهَا حَصِيدًۭا كَأَن لَّمْ تَغْنَ بِٱلْأَمْسِ ۚ كَذَٰلِكَ نُفَصِّلُ ٱلْءَايَٰتِ لِقَوْمٍۢ يَتَفَكَّرُونَ
+- 10:48 وَيَقُولُونَ مَتَىٰ هَٰذَا ٱلْوَعْدُ إِن كُنتُمْ صَٰدِقِينَ
+- 10:49 قُل لَّآ أَمْلِكُ لِنَفْسِى ضَرًّۭا وَلَا نَفْعًا إِلَّا مَا شَآءَ ٱللَّهُ ۗ لِكُلِّ أُمَّةٍ أَجَلٌ ۚ إِذَا جَآءَ أَجَلُهُمْ فَلَا يَسْتَـْٔخِرُونَ سَاعَةًۭ ۖ وَلَا يَسْتَقْدِمُونَ
+- 10:102 فَهَلْ يَنتَظِرُونَ إِلَّا مِثْلَ أَيَّامِ ٱلَّذِينَ خَلَوْا۟ مِن قَبْلِهِمْ ۚ قُلْ فَٱنتَظِرُوٓا۟ إِنِّى مَعَكُم مِّنَ ٱلْمُنتَظِرِينَ
+- 10:103 ثُمَّ نُنَجِّى رُسُلَنَا وَٱلَّذِينَ ءَامَنُوا۟ ۚ كَذَٰلِكَ حَقًّا عَلَيْنَا نُنجِ ٱلْمُؤْمِنِينَ
+- 11:15 مَن كَانَ يُرِيدُ ٱلْحَيَوٰةَ ٱلدُّنْيَا وَزِينَتَهَا نُوَفِّ إِلَيْهِمْ أَعْمَٰلَهُمْ فِيهَا وَهُمْ فِيهَا لَا يُبْخَسُونَ
+- 11:16 أُو۟لَٰٓئِكَ ٱلَّذِينَ لَيْسَ لَهُمْ فِى ٱلْءَاخِرَةِ إِلَّا ٱلنَّارُ ۖ وَحَبِطَ مَا صَنَعُوا۟ فِيهَا وَبَٰطِلٌۭ مَّا كَانُوا۟ يَعْمَلُونَ
+- 11:89 وَيَٰقَوْمِ لَا يَجْرِمَنَّكُمْ شِقَاقِىٓ أَن يُصِيبَكُم مِّثْلُ مَآ أَصَابَ قَوْمَ نُوحٍ أَوْ قَوْمَ هُودٍ أَوْ قَوْمَ صَٰلِحٍۢ ۚ وَمَا قَوْمُ لُوطٍۢ مِّنكُم بِبَعِيدٍۢ
+- 11:90 وَٱسْتَغْفِرُوا۟ رَبَّكُمْ ثُمَّ تُوبُوٓا۟ إِلَيْهِ ۚ إِنَّ رَبِّى رَحِيمٌۭ وَدُودٌۭ
+- 12:36 وَدَخَلَ مَعَهُ ٱلسِّجْنَ فَتَيَانِ ۖ قَالَ أَحَدُهُمَآ إِنِّىٓ أَرَىٰنِىٓ أَعْصِرُ خَمْرًۭا ۖ وَقَالَ ٱلْءَاخَرُ إِنِّىٓ أَرَىٰنِىٓ أَحْمِلُ فَوْقَ رَأْسِى خُبْزًۭا تَأْكُلُ ٱلطَّيْرُ مِنْهُ ۖ نَبِّئْنَا بِتَأْوِيلِهِۦٓ ۖ إِنَّا نَرَىٰكَ مِنَ ٱلْمُحْسِنِينَ
+- 12:47 قَالَ تَزْرَعُونَ سَبْعَ سِنِينَ دَأَبًۭا فَمَا حَصَدتُّمْ فَذَرُوهُ فِى سُنۢبُلِهِۦٓ إِلَّا قَلِيلًۭا مِّمَّا تَأْكُلُونَ
+- 12:48 ثُمَّ يَأْتِى مِنۢ بَعْدِ ذَٰلِكَ سَبْعٌۭ شِدَادٌۭ يَأْكُلْنَ مَا قَدَّمْتُمْ لَهُنَّ إِلَّا قَلِيلًۭا مِّمَّا تُحْصِنُونَ
+- 12:49 ثُمَّ يَأْتِى مِنۢ بَعْدِ ذَٰلِكَ عَامٌۭ فِيهِ يُغَاثُ ٱلنَّاسُ وَفِيهِ يَعْصِرُونَ
+- 14:18 مَّثَلُ ٱلَّذِينَ كَفَرُوا۟ بِرَبِّهِمْ ۖ أَعْمَٰلُهُمْ كَرَمَادٍ ٱشْتَدَّتْ بِهِ ٱلرِّيحُ فِى يَوْمٍ عَاصِفٍۢ ۖ لَّا يَقْدِرُونَ مِمَّا كَسَبُوا۟ عَلَىٰ شَىْءٍۢ ۚ ذَٰلِكَ هُوَ ٱلضَّلَٰلُ ٱلْبَعِيدُ
+- 14:52 هَٰذَا بَلَٰغٌۭ لِّلنَّاسِ وَلِيُنذَرُوا۟ بِهِۦ وَلِيَعْلَمُوٓا۟ أَنَّمَا هُوَ إِلَٰهٌۭ وَٰحِدٌۭ وَلِيَذَّكَّرَ أُو۟لُوا۟ ٱلْأَلْبَٰبِ
+- 16:61 وَلَوْ يُؤَاخِذُ ٱللَّهُ ٱلنَّاسَ بِظُلْمِهِم مَّا تَرَكَ عَلَيْهَا مِن دَآبَّةٍۢ وَلَٰكِن يُؤَخِّرُهُمْ إِلَىٰٓ أَجَلٍۢ مُّسَمًّۭى ۖ فَإِذَا جَآءَ أَجَلُهُمْ لَا يَسْتَـْٔخِرُونَ سَاعَةًۭ ۖ وَلَا يَسْتَقْدِمُونَ
+- 17:12 وَجَعَلْنَا ٱلَّيْلَ وَٱلنَّهَارَ ءَايَتَيْنِ ۖ فَمَحَوْنَآ ءَايَةَ ٱلَّيْلِ وَجَعَلْنَآ ءَايَةَ ٱلنَّهَارِ مُبْصِرَةًۭ لِّتَبْتَغُوا۟ فَضْلًۭا مِّن رَّبِّكُمْ وَلِتَعْلَمُوا۟ عَدَدَ ٱلسِّنِينَ وَٱلْحِسَابَ ۚ وَكُلَّ شَىْءٍۢ فَصَّلْنَٰهُ تَفْصِيلًۭا
+- 17:13 وَكُلَّ إِنسَٰنٍ أَلْزَمْنَٰهُ طَٰٓئِرَهُۥ فِى عُنُقِهِۦ ۖ وَنُخْرِجُ لَهُۥ يَوْمَ ٱلْقِيَٰمَةِ كِتَٰبًۭا يَلْقَىٰهُ مَنشُورًا
+- 17:14 ٱقْرَأْ كِتَٰبَكَ كَفَىٰ بِنَفْسِكَ ٱلْيَوْمَ عَلَيْكَ حَسِيبًۭا
+- 18:49 وَوُضِعَ ٱلْكِتَٰبُ فَتَرَى ٱلْمُجْرِمِينَ مُشْفِقِينَ مِمَّا فِيهِ وَيَقُولُونَ يَٰوَيْلَتَنَا مَالِ هَٰذَا ٱلْكِتَٰبِ لَا يُغَادِرُ صَغِيرَةًۭ وَلَا كَبِيرَةً إِلَّآ أَحْصَىٰهَا ۚ وَوَجَدُوا۟ مَا عَمِلُوا۟ حَاضِرًۭا ۗ وَلَا يَظْلِمُ رَبُّكَ أَحَدًۭا
+- 18:103 قُلْ هَلْ نُنَبِّئُكُم بِٱلْأَخْسَرِينَ أَعْمَٰلًا
+- 18:104 ٱلَّذِينَ ضَلَّ سَعْيُهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَهُمْ يَحْسَبُونَ أَنَّهُمْ يُحْسِنُونَ صُنْعًا
+- 19:95 وَكُلُّهُمْ ءَاتِيهِ يَوْمَ ٱلْقِيَٰمَةِ فَرْدًا
+- 19:96 إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ سَيَجْعَلُ لَهُمُ ٱلرَّحْمَٰنُ وُدًّۭا
+- 20:51 قَالَ فَمَا بَالُ ٱلْقُرُونِ ٱلْأُولَىٰ
+- 20:52 قَالَ عِلْمُهَا عِندَ رَبِّى فِى كِتَٰبٍۢ ۖ لَّا يَضِلُّ رَبِّى وَلَا يَنسَى
+- 21:35 كُلُّ نَفْسٍۢ ذَآئِقَةُ ٱلْمَوْتِ ۗ وَنَبْلُوكُم بِٱلشَّرِّ وَٱلْخَيْرِ فِتْنَةًۭ ۖ وَإِلَيْنَا تُرْجَعُونَ
+- 21:47 وَنَضَعُ ٱلْمَوَٰزِينَ ٱلْقِسْطَ لِيَوْمِ ٱلْقِيَٰمَةِ فَلَا تُظْلَمُ نَفْسٌۭ شَيْـًۭٔا ۖ وَإِن كَانَ مِثْقَالَ حَبَّةٍۢ مِّنْ خَرْدَلٍ أَتَيْنَا بِهَا ۗ وَكَفَىٰ بِنَا حَٰسِبِينَ
+- 22:11 وَمِنَ ٱلنَّاسِ مَن يَعْبُدُ ٱللَّهَ عَلَىٰ حَرْفٍۢ ۖ فَإِنْ أَصَابَهُۥ خَيْرٌ ٱطْمَأَنَّ بِهِۦ ۖ وَإِنْ أَصَابَتْهُ فِتْنَةٌ ٱنقَلَبَ عَلَىٰ وَجْهِهِۦ خَسِرَ ٱلدُّنْيَا وَٱلْءَاخِرَةَ ۚ ذَٰلِكَ هُوَ ٱلْخُسْرَانُ ٱلْمُبِينُ
+- 23:102 فَمَن ثَقُلَتْ مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ
+- 23:103 وَمَنْ خَفَّتْ مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ فِى جَهَنَّمَ خَٰلِدُونَ
+- 25:62 وَهُوَ ٱلَّذِى جَعَلَ ٱلَّيْلَ وَٱلنَّهَارَ خِلْفَةًۭ لِّمَنْ أَرَادَ أَن يَذَّكَّرَ أَوْ أَرَادَ شُكُورًۭا
+- 26:152 ٱلَّذِينَ يُفْسِدُونَ فِى ٱلْأَرْضِ وَلَا يُصْلِحُونَ
+- 26:171 إِلَّا عَجُوزًۭا فِى ٱلْغَٰبِرِينَ
+- 26:172 ثُمَّ دَمَّرْنَا ٱلْءَاخَرِينَ
+- 30:2 غُلِبَتِ ٱلرُّومُ
+- 30:3 فِىٓ أَدْنَى ٱلْأَرْضِ وَهُم مِّنۢ بَعْدِ غَلَبِهِمْ سَيَغْلِبُونَ
+- 33:72 إِنَّا عَرَضْنَا ٱلْأَمَانَةَ عَلَى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَٱلْجِبَالِ فَأَبَيْنَ أَن يَحْمِلْنَهَا وَأَشْفَقْنَ مِنْهَا وَحَمَلَهَا ٱلْإِنسَٰنُ ۖ إِنَّهُۥ كَانَ ظَلُومًۭا جَهُولًۭا
+- 35:18 وَلَا تَزِرُ وَازِرَةٌۭ وِزْرَ أُخْرَىٰ ۚ وَإِن تَدْعُ مُثْقَلَةٌ إِلَىٰ حِمْلِهَا لَا يُحْمَلْ مِنْهُ شَىْءٌۭ وَلَوْ كَانَ ذَا قُرْبَىٰٓ ۗ إِنَّمَا تُنذِرُ ٱلَّذِينَ يَخْشَوْنَ رَبَّهُم بِٱلْغَيْبِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ ۚ وَمَن تَزَكَّىٰ فَإِنَّمَا يَتَزَكَّىٰ لِنَفْسِهِۦ ۚ وَإِلَى ٱللَّهِ ٱلْمَصِيرُ
+- 35:21 وَلَا ٱلظِّلُّ وَلَا ٱلْحَرُورُ
+- 35:22 وَمَا يَسْتَوِى ٱلْأَحْيَآءُ وَلَا ٱلْأَمْوَٰتُ ۚ إِنَّ ٱللَّهَ يُسْمِعُ مَن يَشَآءُ ۖ وَمَآ أَنتَ بِمُسْمِعٍۢ مَّن فِى ٱلْقُبُورِ
+- 36:12 إِنَّا نَحْنُ نُحْىِ ٱلْمَوْتَىٰ وَنَكْتُبُ مَا قَدَّمُوا۟ وَءَاثَٰرَهُمْ ۚ وَكُلَّ شَىْءٍ أَحْصَيْنَٰهُ فِىٓ إِمَامٍۢ مُّبِينٍۢ
+- 37:1 وَٱلصَّٰٓفَّٰتِ صَفًّۭا
+- 37:135 إِلَّا عَجُوزًۭا فِى ٱلْغَٰبِرِينَ
+- 37:136 ثُمَّ دَمَّرْنَا ٱلْءَاخَرِينَ
+- 38:52 ۞ وَعِندَهُمْ قَٰصِرَٰتُ ٱلطَّرْفِ أَتْرَابٌ
+- 39:5 خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۖ يُكَوِّرُ ٱلَّيْلَ عَلَى ٱلنَّهَارِ وَيُكَوِّرُ ٱلنَّهَارَ عَلَى ٱلَّيْلِ ۖ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ ۖ كُلٌّۭ يَجْرِى لِأَجَلٍۢ مُّسَمًّى ۗ أَلَا هُوَ ٱلْعَزِيزُ ٱلْغَفَّٰرُ
+- 39:15 فَٱعْبُدُوا۟ مَا شِئْتُم مِّن دُونِهِۦ ۗ قُلْ إِنَّ ٱلْخَٰسِرِينَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ وَأَهْلِيهِمْ يَوْمَ ٱلْقِيَٰمَةِ ۗ أَلَا ذَٰلِكَ هُوَ ٱلْخُسْرَانُ ٱلْمُبِينُ
+- 43:2 وَٱلْكِتَٰبِ ٱلْمُبِينِ
+- 44:2 وَٱلْكِتَٰبِ ٱلْمُبِينِ
+- 44:3 إِنَّآ أَنزَلْنَٰهُ فِى لَيْلَةٍۢ مُّبَٰرَكَةٍ ۚ إِنَّا كُنَّا مُنذِرِينَ
+- 45:24 وَقَالُوا۟ مَا هِىَ إِلَّا حَيَاتُنَا ٱلدُّنْيَا نَمُوتُ وَنَحْيَا وَمَا يُهْلِكُنَآ إِلَّا ٱلدَّهْرُ ۚ وَمَا لَهُم بِذَٰلِكَ مِنْ عِلْمٍ ۖ إِنْ هُمْ إِلَّا يَظُنُّونَ
+- 49:7 وَٱعْلَمُوٓا۟ أَنَّ فِيكُمْ رَسُولَ ٱللَّهِ ۚ لَوْ يُطِيعُكُمْ فِى كَثِيرٍۢ مِّنَ ٱلْأَمْرِ لَعَنِتُّمْ وَلَٰكِنَّ ٱللَّهَ حَبَّبَ إِلَيْكُمُ ٱلْإِيمَٰنَ وَزَيَّنَهُۥ فِى قُلُوبِكُمْ وَكَرَّهَ إِلَيْكُمُ ٱلْكُفْرَ وَٱلْفُسُوقَ وَٱلْعِصْيَانَ ۚ أُو۟لَٰٓئِكَ هُمُ ٱلرَّٰشِدُونَ
+- 50:17 إِذْ يَتَلَقَّى ٱلْمُتَلَقِّيَانِ عَنِ ٱلْيَمِينِ وَعَنِ ٱلشِّمَالِ قَعِيدٌۭ
+- 50:18 مَّا يَلْفِظُ مِن قَوْلٍ إِلَّا لَدَيْهِ رَقِيبٌ عَتِيدٌۭ
+- 50:43 إِنَّا نَحْنُ نُحْىِۦ وَنُمِيتُ وَإِلَيْنَا ٱلْمَصِيرُ
+- 51:1 وَٱلذَّٰرِيَٰتِ ذَرْوًۭا
+- 51:17 كَانُوا۟ قَلِيلًۭا مِّنَ ٱلَّيْلِ مَا يَهْجَعُونَ
+- 51:18 وَبِٱلْأَسْحَارِ هُمْ يَسْتَغْفِرُونَ
+- 51:56 وَمَا خَلَقْتُ ٱلْجِنَّ وَٱلْإِنسَ إِلَّا لِيَعْبُدُونِ
+- 52:1 وَٱلطُّورِ
+- 52:4 وَٱلْبَيْتِ ٱلْمَعْمُورِ
+- 52:5 وَٱلسَّقْفِ ٱلْمَرْفُوعِ
+- 52:6 وَٱلْبَحْرِ ٱلْمَسْجُورِ
+- 52:7 إِنَّ عَذَابَ رَبِّكَ لَوَٰقِعٌۭ
+- 56:10 وَٱلسَّٰبِقُونَ ٱلسَّٰبِقُونَ
+- 56:75 ۞ فَلَآ أُقْسِمُ بِمَوَٰقِعِ ٱلنُّجُومِ
+- 56:76 وَإِنَّهُۥ لَقَسَمٌۭ لَّوْ تَعْلَمُونَ عَظِيمٌ
+- 56:83 فَلَوْلَآ إِذَا بَلَغَتِ ٱلْحُلْقُومَ
+- 57:20 ٱعْلَمُوٓا۟ أَنَّمَا ٱلْحَيَوٰةُ ٱلدُّنْيَا لَعِبٌۭ وَلَهْوٌۭ وَزِينَةٌۭ وَتَفَاخُرٌۢ بَيْنَكُمْ وَتَكَاثُرٌۭ فِى ٱلْأَمْوَٰلِ وَٱلْأَوْلَٰدِ ۖ كَمَثَلِ غَيْثٍ أَعْجَبَ ٱلْكُفَّارَ نَبَاتُهُۥ ثُمَّ يَهِيجُ فَتَرَىٰهُ مُصْفَرًّۭا ثُمَّ يَكُونُ حُطَٰمًۭا ۖ وَفِى ٱلْءَاخِرَةِ عَذَابٌۭ شَدِيدٌۭ وَمَغْفِرَةٌۭ مِّنَ ٱللَّهِ وَرِضْوَٰنٌۭ ۚ وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا مَتَٰعُ ٱلْغُرُورِ
+- 57:21 سَابِقُوٓا۟ إِلَىٰ مَغْفِرَةٍۢ مِّن رَّبِّكُمْ وَجَنَّةٍ عَرْضُهَا كَعَرْضِ ٱلسَّمَآءِ وَٱلْأَرْضِ أُعِدَّتْ لِلَّذِينَ ءَامَنُوا۟ بِٱللَّهِ وَرُسُلِهِۦ ۚ ذَٰلِكَ فَضْلُ ٱللَّهِ يُؤْتِيهِ مَن يَشَآءُ ۚ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ
+- 59:18 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱتَّقُوا۟ ٱللَّهَ وَلْتَنظُرْ نَفْسٌۭ مَّا قَدَّمَتْ لِغَدٍۢ ۖ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا تَعْمَلُونَ
+- 62:8 قُلْ إِنَّ ٱلْمَوْتَ ٱلَّذِى تَفِرُّونَ مِنْهُ فَإِنَّهُۥ مُلَٰقِيكُمْ ۖ ثُمَّ تُرَدُّونَ إِلَىٰ عَٰلِمِ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ فَيُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ
+- 63:9 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تُلْهِكُمْ أَمْوَٰلُكُمْ وَلَآ أَوْلَٰدُكُمْ عَن ذِكْرِ ٱللَّهِ ۚ وَمَن يَفْعَلْ ذَٰلِكَ فَأُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ
+- 63:10 وَأَنفِقُوا۟ مِن مَّا رَزَقْنَٰكُم مِّن قَبْلِ أَن يَأْتِىَ أَحَدَكُمُ ٱلْمَوْتُ فَيَقُولَ رَبِّ لَوْلَآ أَخَّرْتَنِىٓ إِلَىٰٓ أَجَلٍۢ قَرِيبٍۢ فَأَصَّدَّقَ وَأَكُن مِّنَ ٱلصَّٰلِحِينَ
+- 64:9 يَوْمَ يَجْمَعُكُمْ لِيَوْمِ ٱلْجَمْعِ ۖ ذَٰلِكَ يَوْمُ ٱلتَّغَابُنِ ۗ وَمَن يُؤْمِنۢ بِٱللَّهِ وَيَعْمَلْ صَٰلِحًۭا يُكَفِّرْ عَنْهُ سَيِّـَٔاتِهِۦ وَيُدْخِلْهُ جَنَّٰتٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدًۭا ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْعَظِيمُ
+- 70:21 وَإِذَا مَسَّهُ ٱلْخَيْرُ مَنُوعًا
+- 70:22 إِلَّا ٱلْمُصَلِّينَ
+- 74:32 كَلَّا وَٱلْقَمَرِ
+- 74:33 وَٱلَّيْلِ إِذْ أَدْبَرَ
+- 74:37 لِمَن شَآءَ مِنكُمْ أَن يَتَقَدَّمَ أَوْ يَتَأَخَّرَ
+- 74:38 كُلُّ نَفْسٍۭ بِمَا كَسَبَتْ رَهِينَةٌ
+- 74:39 إِلَّآ أَصْحَٰبَ ٱلْيَمِينِ
+- 75:13 يُنَبَّؤُا۟ ٱلْإِنسَٰنُ يَوْمَئِذٍۭ بِمَا قَدَّمَ وَأَخَّرَ
+- 75:14 بَلِ ٱلْإِنسَٰنُ عَلَىٰ نَفْسِهِۦ بَصِيرَةٌۭ
+- 76:1 هَلْ أَتَىٰ عَلَى ٱلْإِنسَٰنِ حِينٌۭ مِّنَ ٱلدَّهْرِ لَمْ يَكُن شَيْـًۭٔا مَّذْكُورًا
+- 77:13 لِيَوْمِ ٱلْفَصْلِ
+- 78:11 وَجَعَلْنَا ٱلنَّهَارَ مَعَاشًۭا
+- 78:14 وَأَنزَلْنَا مِنَ ٱلْمُعْصِرَٰتِ مَآءًۭ ثَجَّاجًۭا
+- 78:15 لِّنُخْرِجَ بِهِۦ حَبًّۭا وَنَبَاتًۭا
+- 79:46 كَأَنَّهُمْ يَوْمَ يَرَوْنَهَا لَمْ يَلْبَثُوٓا۟ إِلَّا عَشِيَّةً أَوْ ضُحَىٰهَا
+- 81:16 ٱلْجَوَارِ ٱلْكُنَّسِ
+- 81:17 وَٱلَّيْلِ إِذَا عَسْعَسَ
+- 82:10 وَإِنَّ عَلَيْكُمْ لَحَٰفِظِينَ
+- 82:11 كِرَامًۭا كَٰتِبِينَ
+- 82:12 يَعْلَمُونَ مَا تَفْعَلُونَ
+- 85:2 وَٱلْيَوْمِ ٱلْمَوْعُودِ
+- 85:3 وَشَاهِدٍۢ وَمَشْهُودٍۢ
+- 86:1 وَٱلسَّمَآءِ وَٱلطَّارِقِ
+- 86:2 وَمَآ أَدْرَىٰكَ مَا ٱلطَّارِقُ
+- 87:16 بَلْ تُؤْثِرُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا
+- 87:17 وَٱلْءَاخِرَةُ خَيْرٌۭ وَأَبْقَىٰٓ
+- 89:1 وَٱلْفَجْرِ
+- 89:2 وَلَيَالٍ عَشْرٍۢ
+- 90:4 لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِى كَبَدٍ
+- 90:17 ثُمَّ كَانَ مِنَ ٱلَّذِينَ ءَامَنُوا۟ وَتَوَاصَوْا۟ بِٱلصَّبْرِ وَتَوَاصَوْا۟ بِٱلْمَرْحَمَةِ
+- 91:1 وَٱلشَّمْسِ وَضُحَىٰهَا
+- 91:2 وَٱلْقَمَرِ إِذَا تَلَىٰهَا
+- 92:4 إِنَّ سَعْيَكُمْ لَشَتَّىٰ
+- 92:5 فَأَمَّا مَنْ أَعْطَىٰ وَٱتَّقَىٰ
+- 92:6 وَصَدَّقَ بِٱلْحُسْنَىٰ
+- 92:8 وَأَمَّا مَنۢ بَخِلَ وَٱسْتَغْنَىٰ
+- 92:9 وَكَذَّبَ بِٱلْحُسْنَىٰ
+- 93:1 وَٱلضُّحَىٰ
+- 93:2 وَٱلَّيْلِ إِذَا سَجَىٰ
+- 94:5 فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا
+- 94:6 إِنَّ مَعَ ٱلْعُسْرِ يُسْرًۭا
+- 95:1 وَٱلتِّينِ وَٱلزَّيْتُونِ
+- 97:5 سَلَٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ
+- 99:6 يَوْمَئِذٍۢ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًۭا لِّيُرَوْا۟ أَعْمَٰلَهُمْ
+- 99:7 فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًۭا يَرَهُۥ
+- 99:8 وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍۢ شَرًّۭا يَرَهُۥ
+- 102:1 أَلْهَىٰكُمُ ٱلتَّكَاثُرُ
+- 102:2 حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ
+- 106:1 لِإِيلَٰفِ قُرَيْشٍ
+- 106:2 إِۦلَٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ
+- 107:7 وَيَمْنَعُونَ ٱلْمَاعُونَ
+- 112:2 ٱللَّهُ ٱلصَّمَدُ
+- 114:5 ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ
+- 114:6 مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ

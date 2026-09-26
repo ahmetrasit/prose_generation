@@ -75,7 +75,9 @@ def package(ref: str) -> None:
     net = V9 / "network" / "out" / sa
     if any((net / "luna").glob("records_*.jsonl")):
         sh(str(V9 / "network" / "network.py"), ref, "--k", "3", "--inter", "--luna", str(net / "luna"))
-    sh(str(V9 / "network" / "backbone.py"), ref)
+        sh(str(V9 / "network" / "backbone.py"), ref)
+    else:  # no in-ayah word pairs (e.g. a one-word ayah): the backbone comes from the script network alone
+        sh(str(V9 / "network" / "backbone.py"), ref, "--net", "network.k3-inter.json")
     sh(str(V9 / "lines" / "package.py"), ref)
 
 
