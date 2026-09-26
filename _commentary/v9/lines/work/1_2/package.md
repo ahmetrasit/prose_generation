@@ -1,0 +1,1142 @@
+# Package for 1:2
+
+Everything the discovery stage found, for one reader who connects it. Section 1 is the lexical network
+(ids H, L, F, T, J, G): rare dictionary senses of the ayah's words converging on other words, checked by
+the dictionaries' own relations and a judge. Section 2 holds the four discovery lines (ids L.., U-, S-, R-,
+and X records): readings, open observations (a precise link whose decisive support is missing; another line
+may supply it), notes, and misreadings. `support` says how well the sources establish a record; `relevance`
+how much it could change the reading — they are separate judgments, and nothing here is filtered by them.
+Section 3 is the text of cited ayat outside the surah and the Fatiha (both are in context.md).
+
+## 1. Lexical network
+
+### 2. Backbone hubs [H]
+
+### 3. Luna hubs (second tier) [L]
+
+### 4. The Fatiha [F] (standing lens: recited in every prayer)
+
+### 1:1 ﻿بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+### 1:2 ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+- **F1** ر ب و B005 «besleyip büyütmek ve yetişmek» تغذية ونشوء — word رَبِّ (echo root, sound family only; 3 dictionaries); source: ربيته وتربيته أي غذوته (ayn)؛ ربوت في بني فلان وربيت أي نشأت فيهم، وربيته تربية وتربيته أي غذوته، هذا لكل ما ينمي كالولد والزرع (sihah)؛ ربيت الولد فربا من هذا (mufradat) — rel/near_synonym: ر ب ب B002 (besleyip büyütmek ile gözetip geliştirmek) → رَبِّ
+### 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+### 1:4 مَٰلِكِ يَوْمِ ٱلدِّينِ
+- **F2** ر ب ب B001 «sahip olup yönetme» ربوبية وملك وسيادة — word رَبِّ (5 dictionaries); source: الرب: الله تبارك وتعالى؛ ورب كل شيء مالكه (jamhara); رب كل شئ: مالكه؛ وقد قالوه في الجاهلية للملك؛ رببت القوم: سستهم (sihah); يكون الرب: المالك؛ ويكون الرب: السيد المطاع؛ ويكون الرب: المصلح (tahdhib); الرب مصدر مستعار ل… — lex/src-rare: مالك → مَٰلِكِ
+### 1:5 إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
+- **F3** ر ب و B005 «besleyip büyütmek ve yetişmek» تغذية ونشوء — word رَبِّ (echo root, sound family only; 3 dictionaries); source: ربيته وتربيته أي غذوته (ayn)؛ ربوت في بني فلان وربيت أي نشأت فيهم، وربيته تربية وتربيته أي غذوته، هذا لكل ما ينمي كالولد والزرع (sihah)؛ ربيت الولد فربا من هذا (mufradat) (also F1) — img/near: near: ع ب د B004 التعبيد والاستعباد ← نَعْبُدُ
+### 1:6 ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
+- **F4** ع ل م B002 «ayırt edici ve yol gösterici işaret» أثر يميز الشيء ويهدي إليه — word ٱلْعَٰلَمِينَ (5 dictionaries); source: أصل صحيح واحد يدل على أثر بالشيء يتميز به عن غيره (maqayis)؛ العلامة وهي معروفة (maqayis)؛ العلم الراية والجمع أعلام (maqayis;sihah;tahdhib)؛ العلم الجبل الطويل والجميع الأعلام (ayn)؛ العلم الجبل (sihah;mufradat)؛ المعل… — lex/image: ويهدي → ٱهْدِنَا
+### 1:7 صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ
+- **F5** ر ب و B005 «besleyip büyütmek ve yetişmek» تغذية ونشوء — word رَبِّ (echo root, sound family only; 3 dictionaries); source: ربيته وتربيته أي غذوته (ayn)؛ ربوت في بني فلان وربيت أي نشأت فيهم، وربيته تربية وتربيته أي غذوته، هذا لكل ما ينمي كالولد والزرع (sihah)؛ ربيت الولد فربا من هذا (mufradat) (also F1, F3) — img/near: near: ن ع م B002 اللين والنعومة ورفاه العيش ← أَنْعَمْتَ
+
+### 5. Triangles [T]
+
+
+### 6. Bridges (touch two hubs) [J]
+
+
+### 7. Word level: sound, form, frame, grammar [G]
+
+- **G1** word note: 1:2:1 ٱلْحَمْدُ: definite praise as a nominal clause topic; locally broader than thanks alone and not a finite act of praising — topics: definite nominal praise stands before the genitive chain; praise includes recognition, gratitude, and commendation; praise joins a recurring deity-lordship-worlds…
+- **G2** word note: 1:2:2 لِ: prepositional governor assigning the praise relation to the following divine name as belonging, due-ness, and restriction — topics: the particle assigns praise as belonging and due; bound form makes the dependency audible; preposition shift turns invocation into attribution; grammar, form…
+- **G3** word note: 1:2:3 ٱللَّهِ: the fixed divine proper name as governed praise-recipient, then anchor for appositional expansion — topics: genitive governance makes the name praise-recipient; proper name carries worship and refuge pressure; the repeated name pivots into appositional expansion; variant smooths soun…
+- **G4** word note: 1:2:4 رَبِّ: genitive appositional title and construct head: Lord, owner, master, nurturer, and sustainer in relation to the worlds — topics: apposition binds the name to cosmic scope; lordship is ownership plus formation and care; geminate noun compresses role into a title; lordship widens praise …
+- **G5** word note: 1:2:5 ٱلْعَٰلَمِينَ: the genitive plural worlds/communities governed by the preceding lordship title; scope is many knowable, sign-bearing orders rather than one inert realm — topics: genitive plural is the governed domain of lordship; plural form distributes lordship across many domains; worlds ar…
+
+## 2. Discovery lines
+
+### 2.1 Local language (the ayah's own words, grammar, variant readings)
+
+3 readings and open observations, 0 notes, 2 misreadings rejected; other items with nothing to add: 0.
+
+- **L02** [reading; support strong, relevance high] word 2: لِلَّهِ — lemma ٱللَّه, root ء ل ه, pos P;PN
+  - finding: The lām in لِلَّهِ assigns ٱلْحَمْدُ to Allah as belonging to Him or due to Him. The same name shifts from its place in the opening بِسْمِ ٱللَّهِ phrase to the recipient of an explicit praise attribution; the bound form لِلَّهِ keeps the relation attached to the name in recitation.
+  - evidence: 1:1 «بِسْمِ ٱللَّهِ»; 1:2 «ٱلْحَمْدُ لِلَّهِ»
+  - activation: The change from بِـ in 1:1 to لِ in 1:2 accompanies the shift from the opening invocation to the praise clause.
+  - limits: The lām marks assignment or due-ness; it does not by itself encode exclusivity or settle whether exclusivity comes from the clause’s full context.
+- **local_1.X1** [open; support medium, relevance high] 
+  - finding: Could ٱلْعَٰلَمِينَ carry an association with the ع ل م senses of knowing and distinguishing signs, so that the worlds are heard as knowable, sign-bearing orders? If active, this would make the final plural scope legible as well as cosmic.
+  - evidence: 1:2 «ٱلْعَٰلَمِينَ»
+  - missing: The verse names the worlds but does not explicitly connect them to knowledge or signs. A lexicon entry establishing that link for this noun, or Quranic usage pairing ٱلْعَٰلَمِينَ with knowledge or signs, could show whether the association is active here.
+- **L01** [reading; support strong, relevance medium] word 1: ٱلْحَمْدُ — lemma حَمْد, root ح م د, pos DET;N
+  - finding: The definite noun ٱلْحَمْدُ presents praise as the clause’s topic before assigning it to Allah, without naming a human praiser or a finite act of praising. The supplied range of حَمْد keeps commendation of worth and gratitude for benefit available together.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ»; 1:5 «إِيَّاكَ نَعْبُدُ»
+  - activation: ٱلْحَمْدُ opens 1:2 as a noun; later, نَعْبُدُ explicitly names the worshippers’ action.
+  - limits: The clause does not make every shade of حَمْد equally active, or identify a particular human act of praise.
+
+Rejected as misreadings:
+- L03: wrong 
+- L04: wrong 
+
+### 2.2 Quranic usage (each root's occurrences: same form, other forms)
+
+2 readings and open observations, 0 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **U-حمد** [reading; support strong, relevance high] root ح م د (focus word ٱلْحَمْدُ: حَمْد N) — 62 occurrences in 61 ayat; same form 42, other forms 20
+  - finding: The root’s Quranic uses span praise as a devotional disposition among worshippers (9:112), praise sought for deeds not done (3:188), and God described as ḥamīd (11:73). The opening al-ḥamdu lillāh places this range of praise in relation to Allah.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ»; 9:112 «ٱلتَّٰٓئِبُونَ ٱلْعَٰبِدُونَ ٱلْحَٰمِدُونَ»; 3:188 «وَيُحِبُّونَ أَن يُحْمَدُوا۟ بِمَا لَمْ يَفْعَلُوا۟»; 11:73 «إِنَّهُۥ حَمِيدٌۭ مَّجِيدٌۭ»
+  - activation: The focus assigns al-ḥamd to Allah; the other forms show human praise as both a worshipper’s disposition and a desire for unearned approval, alongside the divine attribute ḥamīd.
+  - limits: These are distinct forms in distinct settings; they do not establish a deliberate allusion or make every desire for praise blameworthy. The criticism in 3:188 concerns praise for deeds not done.
+- **U-علم** [open; support medium, relevance high] root ع ل م (focus word ٱلْعَٰلَمِينَ: عَٰلَمِين N) — 830 occurrences in 728 ayat; same form 73, other forms 757
+  - finding: The root’s sign-word عَلَٰمَٰتٍ occurs where marks and the stars guide people. Together with the Fatiha’s move from Rabb al-ʿālamīn to a request for guidance, this raises the possibility of hearing the worlds as a many-domain creation legible through signs.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 16:16 «وَعَلَٰمَٰتٍۢ ۚ وَبِٱلنَّجْمِ هُمْ يَهْتَدُونَ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - missing: The verse uses the distinct noun عَلَٰمَٰتٍ; shared root usage does not establish that al-ʿālamīn carries a sign-sense here. A dictionary account linking ʿālam to ʿalāmah, or a Quranic passage explicitly joining al-ʿālamīn with signs or guidance, could supply that support.
+
+### 2.3 Surah context (the passage, the roots elsewhere in the surah, surah-level arguments)
+
+15 readings and open observations, 0 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **S-near** [reading; support strong, relevance high] the surrounding passage (±7)
+  - finding: The passage carries 1:2’s praise of the Lord of the worlds to the title Maaliki yawm al-din, then turns toward a request for the straight path and its differentiated human outcomes. Praise opens a petition shaped by accountability and orientation.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - activation: The surah moves from the nominal praise in 1:2 through the judgment-day title in 1:4 to guidance and the path’s contrasted outcomes.
+  - limits: This sequence supplies an accountability horizon; it does not establish that every world is being tested or that the named outcomes exhaust all worlds.
+- **S-hft-c3_praise_at_the_end_of_account** [reading; support strong, relevance high] (context_delta)
+  - finding: The title Rabb al-alamin is followed by Maaliki yawm al-din, letting the opening praise be heard under a horizon of final accounting and settlement.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»
+  - activation: The next divine title brings the focus’s cosmic scope into contact with the day of recompense.
+  - limits: The sequence establishes an accounting horizon; it does not establish that hamd itself means a completed verdict or that the passage invokes financial debt.
+- **S-hft-c4_praise_performed_as_dependence** [reading; support strong, relevance high] (context_delta)
+  - finding: The next ayah turns the attribution of hamd into first-person practice: the speakers worship the addressee and seek aid from him.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ»; 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»
+  - activation: The surah shifts from naming who receives praise to the speakers’ direct address and acts of dependence.
+  - limits: This transition supports dependence on God; it does not establish a watchful-care sense in the root of aid.
+- **S-hft-b2_stagewise_world_cultivation** [reading; support medium, relevance high] (baseline_model)
+  - finding: Rabb al-alamin can be heard as an active care relation over the worlds, with the following mercy names and guidance request framing lordship as sustaining dependents toward order.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: Rabb is followed by mercy titles and a request for guidance, while alamin presents a plural domain under that care.
+  - limits: The surah supports nurture and guidance but does not depict recurring repair or stages of maturation; those details depend on additional root senses.
+- **S-hft-b3_worlds_as_legibility_field** [reading; support medium, relevance high] (baseline_model)
+  - finding: Alamin can carry a sense of knowable, sign-bearing orders. The following request for guidance onto a straight path lets the plural field be heard as legible in relation to human orientation.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The focus names many worlds, and the surah then asks for a way through which to orient oneself.
+  - limits: The passage does not explicitly call the worlds signs or say that the path runs through them.
+- **S-hft-c2_gestational_lordship** [reading; support medium, relevance high] (context_delta)
+  - finding: The mercy names Rahman and Rahim frame Rabb al-alamin, allowing lordship to be heard as enclosing, protected care; the womb sense associated with Rahim supplies an embodied analogy for that formation.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:1 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»
+  - activation: The same mercy titles frame the focus on both sides, placing Rabb within a recurring mercy register.
+  - limits: The surah names mercy but not a womb or gestation; the embodied image depends on the lexical relation.
+- **S-hft-c5_worlds_as_navigable_signs** [reading; support medium, relevance high] (context_delta)
+  - finding: The movement from Rabb al-alamin to ihdina al-sirat joins praise of the worlds’ Lord to a request for orientation along a straight way.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The surah places a plural world-domain immediately before a request for guidance onto a path.
+  - limits: The passage supports a navigation frame but does not explicitly say that the path crosses the worlds or that each world is a landmark.
+- **S-hft-c6_praise_as_differential_diagnosis** [reading; support medium, relevance high] (context_delta)
+  - finding: The closing path definition distinguishes recipients of favor from those under wrath or astray, giving the opening praise an evaluative frame in which human trajectories have different outcomes.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - activation: The surah closes with explicit differentiation among the groups named in the path petition.
+  - limits: This sequence supports contrasted outcomes, but it does not by itself establish that hamd means diagnosis or identify the groups historically.
+- **S-hft-b1_praise_as_tested_verdict** [open; support medium, relevance high] (baseline_model)
+  - finding: Hamd could be heard as a considered appraisal after testing; 1:4 gives the praise a horizon of final recompense, though the testing step remains implicit.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»; 1:7 «أَنْعَمْتَ عَلَيْهِمْ»
+  - missing: The sequence supplies praise, recompense, and differentiated outcomes, but it does not establish that حمد here means finding something satisfactory after testing. A dictionary attestation or Qur'anic use that links hamd to that evaluative process could decide whether the test is active.
+- **S-hft-c1_named_and_marked_praise** [open; support medium, relevance high] (context_delta)
+  - finding: The basmala names God before 1:2 attributes hamd to that same addressee; if the name also carries an indication or mark sense, the sequence could link naming with recognition of sign-bearing worlds.
+  - evidence: 1:1 «بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»
+  - missing: The verses establish invocation and repeated naming, but not that the name itself functions as a visible mark or that it makes the worlds legible. Dictionary evidence for that name-sense and a textual cue linking it to alamin could supply the missing step.
+- **S-hft-b4_credit_claim_reversal** [open; support weak, relevance high] (baseline_model)
+  - finding: Assigning hamd to Rabb could relocate ultimate credit from human benefactors to the Lord; the speakers later voice dependence through worship and aid-seeking.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»
+  - missing: No human benefactor or demand for gratitude appears in this surah. An attested hamd usage involving claims to praise for a favor, or a Qur'anic scene of such a claim, could ground the proposed social reversal.
+- **S-hft-o1_ecological_water_cycle** [open; support weak, relevance high] (surprising_valid_outlier)
+  - finding: An exploratory reading links Rabb and alamin with a material nurture cycle carried through the later roots of name, aid, and favor; the verses provide the anchors but do not narrate that cycle.
+  - evidence: 1:1 «بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 1:5 «وَإِيَّاكَ نَسْتَعِينُ»; 1:7 «أَنْعَمْتَ عَلَيْهِمْ»
+  - missing: The surah contains no explicit water, cloud, rain, wind, or vegetation term. Dictionary evidence for each proposed root sense and a shared textual cue joining them into one cycle could establish the connection.
+- **S-hft-o2_guidance_through_breakage** [open; support weak, relevance high] (surprising_valid_outlier)
+  - finding: The request for guidance onto a straight path, followed by mention of those astray, makes restored orientation a possible reading of Rabb’s care; the proposed breakage mechanism remains unexpressed.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «وَلَا ٱلضَّآلِّينَ»
+  - missing: These verses supply guidance, a straight path, and straying, but no explicit breaking or demolition. A dictionary attestation for the proposed breakage sense of guidance, plus a Qur'anic cue connecting it to repair, could support that mechanism.
+- **S-hft-o3_covenantal_bundle_of_worlds** [open; support weak, relevance high] (surprising_valid_outlier)
+  - finding: The Lord of many worlds, the day of recompense, and the straight path could be read as a gathered order whose obligations are traversed and settled; the covenantal bundle remains a proposed layer.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»; 1:6 «ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ»
+  - missing: The passage supplies plurality, recompense, and a path, but no explicit covenant or bundle. Dictionary evidence for the proposed gathering sense of Rabb and the linked senses of din, sirat, and qawm, or an explicit covenantal passage, could decide the reading.
+- **S-ءله** [reading; support strong, relevance medium] root ء ل ه elsewhere in the surah (1)
+  - finding: Allah is invoked in 1:1 and receives the attribution of hamd in 1:2. The same name moves from the basmala’s invocation into the praise clause’s genitive relation.
+  - evidence: 1:1 «بِسْمِ ٱللَّهِ»; 1:2 «لِلَّهِ»
+  - activation: The repeated proper name links the opening invocation directly to the focus clause.
+  - limits: The repeated name supports continuity of address; it does not add a new lexical sense to Allah.
+
+### 2.4 Related passages (inter-ayah targets, the same people, formula families)
+
+142 readings and open observations, 31 notes, 0 misreadings rejected; other items with nothing to add: {'no-link': 33, 'same-as': 3}.
+
+- **R-1:1** [reading; support strong, relevance high] inter-ayah target
+  - finding: The movement from بِسْمِ ٱللَّهِ to ٱلْحَمْدُ لِلَّهِ shifts from naming God in invocation to declaring praise as due to Him; رَبِّ ٱلْعَٰلَمِينَ then expands the name into a relation with all worlds.
+  - evidence: 1:1 «بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»
+  - activation: The same name Allah closes the first phrase and governs the praise phrase that follows.
+  - limits: The sequence establishes a change in utterance and expansion of titles; it does not state that invocation causes praise.
+- **R-1:3** [reading; support strong, relevance high] inter-ayah target
+  - finding: The repeated ٱلرَّحْمَٰنِ ٱلرَّحِيمِ after رَبِّ ٱلْعَٰلَمِينَ places mercy beside universal lordship, so the next hearing of the Lord is explicitly merciful.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»
+  - activation: The titles are adjacent in the Fatiha, and the mercy pair already appeared with Allah in 1:1.
+  - limits: The sequence juxtaposes lordship and mercy without defining one as the cause or full content of the other.
+- **R-1:4** [reading; support strong, relevance high] inter-ayah target
+  - finding: The title مَٰلِكِ يَوْمِ ٱلدِّينِ carries the praise of رَبِّ ٱلْعَٰلَمِينَ into final judgment: the praised Lord of all worlds is also named in relation to the day of recompense.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»
+  - activation: The second title follows immediately after the mercy pair and continues the opening description of God.
+  - limits: The wording does not equate all worlds with the day of judgment; it adds that day as a further domain of divine rule.
+- **R-1:5** [reading; support strong, relevance high] inter-ayah target
+  - finding: After praise and divine titles in the third person, إِيَّاكَ نَعْبُدُ turns to direct address and names worship and seeking help as the speakers’ response to the one just praised.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»
+  - activation: The passage moves from describing Allah to addressing Him with fronted إِيَّاكَ and first-person plural verbs.
+  - limits: The sequence supports a rhetorical relation between praise and worship, but does not state an explicit causal particle.
+- **R-2:5** [reading; support strong, relevance high] inter-ayah target
+  - finding: The phrase هُدًى مِّن رَّبِّهِم gives a Quranic instance of guidance coming from the Lord; in the Fatiha, the Lord of all worlds is followed by the request ٱهْدِنَا.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 2:5 «أُو۟لَٰٓئِكَ عَلَىٰ هُدًۭى مِّن رَّبِّهِمْ»
+  - activation: The shared pairing of guidance and Rabb connects the Fatiha’s petition with the description in 2:5.
+  - limits: The verses do not identify the addressed groups in 2:5 with the Fatiha’s speakers.
+- **R-2:131** [reading; support strong, relevance high] inter-ayah target
+  - finding: Ibrahim’s أَسْلَمْتُ لِرَبِّ ٱلْعَٰلَمِينَ turns the same universal Lord title into a personal declaration of submission.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 2:131 «قَالَ أَسْلَمْتُ لِرَبِّ ٱلْعَٰلَمِينَ»
+  - activation: The title is repeated exactly, but in 2:131 it is the addressee of an individual’s answer to a command to submit.
+  - limits: The verse supplies Ibrahim’s response, not a claim that every community responds this way.
+- **R-2:139** [reading; support strong, relevance high] inter-ayah target
+  - finding: وَهُوَ رَبُّنَا وَرَبُّكُمْ uses shared lordship to reject a boundary between the disputing communities; this gives رَبِّ ٱلْعَٰلَمِينَ a direct implication against restricting God to one party.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 2:139 «وَهُوَ رَبُّنَا وَرَبُّكُمْ»
+  - activation: The plural possessives explicitly make God both our Lord and your Lord in a dispute about God.
+  - limits: This verse does not use the full title ٱلْعَٰلَمِينَ or state that all parties worship rightly.
+- **R-3:51** [reading; support strong, relevance high] inter-ayah target
+  - finding: عِيسَىٰ’s إنَّ ٱللَّهَ رَبِّى وَرَبُّكُمْ joins shared lordship to the command فَٱعْبُدُوهُ and the straight path; it parallels the Fatiha’s movement from Rabb al-alamin to worship and guidance.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 1:5 «إِيَّاكَ نَعْبُدُ»; 1:6 «ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 3:51 «إِنَّ ٱللَّهَ رَبِّى وَرَبُّكُمْ فَٱعْبُدُوهُ ۗ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ»
+  - activation: The two passages connect Rabb, worship, and a straight path in the same sequence of ideas.
+  - limits: The wording does not establish that 3:51 quotes the Fatiha.
+- **R-3:188** [reading; support strong, relevance high] inter-ayah target
+  - finding: The people who love to يُحْمَدُوا۟ for deeds they did not do contrast with ٱلْحَمْدُ لِلَّهِ: the shared ح م د root places divine praise beside a warning about seeking undeserved human commendation.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ»; 3:188 «وَيُحِبُّونَ أَن يُحْمَدُوا۟ بِمَا لَمْ يَفْعَلُوا۟»
+  - activation: The explicit praise root recurs in a passage about wanting praise without grounds.
+  - limits: The contrast does not say that every human commendation is false or that the grammar of 1:2 excludes all other objects of praise.
+- **R-4:131** [reading; support strong, relevance high] inter-ayah target
+  - finding: The closing وَكَانَ ٱللَّهُ غَنِيًّا حَمِيدًۭا describes God as rich and worthy of praise even in a passage that allows for human disbelief; it frames the hamd of 1:2 as not dependent on human contribution.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ»; 4:131 «وَإِن تَكْفُرُوا۟ فَإِنَّ لِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ وَكَانَ ٱللَّهُ غَنِيًّا حَمِيدًۭا»
+  - activation: The same passage states that the heavens and earth belong to Allah and then names Him حَمِيدًا despite the disbelieving condition.
+  - limits: حَمِيدٌ is a divine attribute, not the same grammatical form as ٱلْحَمْدُ; the relation is lexical and thematic.
+- **R-5:28** [reading; support strong, relevance high] inter-ayah target
+  - finding: The exact title رَبَّ ٱلْعَٰلَمِينَ is spoken as the ground for refusing to kill: universal lordship appears here as an authority that restrains a person even when he faces a threat.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 5:28 «إِنِّىٓ أَخَافُ ٱللَّهَ رَبَّ ٱلْعَٰلَمِينَ»
+  - activation: إِنِّىٓ أَخَافُ directly links fear of Allah to the same title used in the Fatiha.
+  - limits: The verse does not say that praise itself is the reason for the speaker’s restraint.
+- **R-6:1** [reading; support strong, relevance high] inter-ayah target
+  - finding: The exact opening ٱلْحَمْدُ لِلَّهِ is followed by creation of the heavens and earth, then by condemnation of those who equate others with their Lord; this gives the Fatiha’s praise a creation and anti-association setting.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 6:1 «ٱلْحَمْدُ لِلَّهِ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ»; 6:1 «ثُمَّ ٱلَّذِينَ كَفَرُوا۟ بِرَبِّهِمْ يَعْدِلُونَ»
+  - activation: The opening praise formula and the root ر ب ب recur alongside creation and the act of equating others with God.
+  - limits: The focus does not itself state the creation acts or the condemnation expressed in 6:1.
+- **R-6:45** [reading; support strong, relevance high] inter-ayah target
+  - finding: After the destruction of the unjust people, the narrative ends with the exact formula وَٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ; the Fatiha’s opening praise also serves in the Quran as a verdict after judgment has taken effect.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 6:45 «فَقُطِعَ دَابِرُ ٱلْقَوْمِ ٱلَّذِينَ ظَلَمُوا۟ ۚ وَٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»
+  - activation: The identical formula follows immediately after the people who acted unjustly are cut off.
+  - limits: The Fatiha gives no such narrative event; 6:45 shows one consequential setting for the formula, not its only meaning.
+- **R-6:71** [reading; support strong, relevance high] inter-ayah target
+  - finding: The command to submit لِرَبِّ ٱلْعَٰلَمِينَ follows a warning against turning back after guidance; the Fatiha’s Rabb title likewise precedes its worship declaration and request for guidance.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 1:5 «إِيَّاكَ نَعْبُدُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 6:71 «وَأُمِرْنَا لِنُسْلِمَ لِرَبِّ ٱلْعَٰلَمِينَ»
+  - activation: The same title is linked to submission in a passage whose preceding clause warns against reversal after guidance.
+  - limits: The parallel does not prove that the speakers or circumstances of the two passages are identical.
+- **R-6:162** [reading; support strong, relevance high] inter-ayah target
+  - finding: The exact title رَبِّ ٱلْعَٰلَمِينَ governs a declaration that prayer, sacrifice, life, and death belong to Allah; it extends the Fatiha’s praise and lordship frame across a person’s whole existence.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 6:162 «إِنَّ صَلَاتِى وَنُسُكِى وَمَحْيَاىَ وَمَمَاتِى لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»
+  - activation: The shared title follows a list spanning worship, living, and dying, with لِلَّهِ expressing their dedication.
+  - limits: The verse describes a particular declaration of devotion and does not spell out every implication of the Fatiha’s praise clause.
+- **R-7:43** [reading; support strong, relevance high] inter-ayah target
+  - finding: The people of the Garden say ٱلْحَمْدُ لِلَّهِ after acknowledging that Allah guided them there; this supplies an outcome to the Fatiha’s praise followed by a request for guidance.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 7:43 «وَقَالُوا۟ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى هَدَىٰنَا لِهَٰذَا»
+  - activation: The same praise formula is joined explicitly to completed guidance in 7:43.
+  - limits: The two passages do not identify the Fatiha’s requested path with the Garden in this verse.
+- **R-7:61** [reading; support strong, relevance high] inter-ayah target
+  - finding: Noah and Hud both answer accusations about themselves by identifying their source as رَبِّ ٱلْعَٰلَمِينَ; the Fatiha’s title thus also appears as a shared prophetic authority formula in disputes with communities.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 7:61 «وَلَٰكِنِّى رَسُولٌۭ مِّن رَّبِّ ٱلْعَٰلَمِينَ»; 7:67 «وَلَٰكِنِّى رَسُولٌۭ مِّن رَّبِّ ٱلْعَٰلَمِينَ»
+  - activation: The exact messenger formula recurs across two prophetic replies following accusations from their peoples.
+  - limits: These verses establish the formula’s use in prophetic speech but do not define the full scope of ٱلْعَٰلَمِينَ.
+- **R-7:80** [reading; support strong, relevance high] inter-ayah target
+  - finding: مِّنَ ٱلْعَٰلَمِينَ occurs in a claim about whether anyone among the worlds or peoples had done this before Lot’s community; this Quranic use supports hearing ٱلْعَٰلَمِينَ in 1:2 as capable of including human communities.
+  - evidence: 1:2 «ٱلْعَٰلَمِينَ»; 7:80 «مَا سَبَقَكُم بِهَا مِنْ أَحَدٍۢ مِّنَ ٱلْعَٰلَمِينَ»
+  - activation: The same plural noun appears with مِنْ أَحَدٍ in a context referring to people or communities.
+  - limits: This occurrence does not settle whether the Fatiha’s term refers to human communities alone or to a wider set of worlds.
+- **R-7:104** [reading; support strong, relevance high] inter-ayah target
+  - finding: Moses names رَبِّ ٱلْعَٰلَمِينَ as the source of his message to Pharaoh, placing the universal title against a ruler who is being addressed directly.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 7:104 «إِنِّى رَسُولٌۭ مِّن رَّبِّ ٱلْعَٰلَمِينَ»; 7:105 «قَدْ جِئْتُكُم بِبَيِّنَةٍۢ مِّن رَّبِّكُمْ»
+  - activation: The next verse speaks of a clear proof from Pharaoh’s Lord, bringing universal and immediate address into the same confrontation.
+  - limits: The passage does not state that Pharaoh accepts Moses’ claim or that the title is a direct quotation from the Fatiha.
+- **R-7:122** [reading; support strong, relevance high] inter-ayah target
+  - finding: The magicians’ رَبِّ ٱلْعَٰلَمِينَ is immediately specified as رَبِّ مُوسَىٰ وَهَٰرُونَ; the universal title is identified in this scene through named prophetic messengers.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 7:121 «قَالُوٓا۟ ءَامَنَّا بِرَبِّ ٱلْعَٰلَمِينَ»; 7:122 «رَبِّ مُوسَىٰ وَهَٰرُونَ»
+  - activation: The successive clauses identify the Lord of the worlds with the Lord of Moses and Aaron.
+  - limits: The scene provides this identification in the magicians’ confession; it does not reduce the title’s scope to these two prophets.
+- **R-9:31** [reading; support strong, relevance high] inter-ayah target
+  - finding: The plural أَرْبَابًا names human authorities taken as lords besides Allah; beside رَبِّ ٱلْعَٰلَمِينَ, this exposes the rival lordship claim against which the Fatiha’s God-directed title can be heard.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 9:31 «ٱتَّخَذُوٓا۟ أَحْبَارَهُمْ وَرُهْبَٰنَهُمْ أَرْبَابًۭا مِّن دُونِ ٱللَّهِ»
+  - activation: The shared ر ب ب root occurs in an explicit contrast between Allah and others treated as lords.
+  - limits: The verse does not say that every form of human authority is lordship or that the Fatiha grammatically states exclusivity.
+- **R-9:112** [reading; support strong, relevance high] inter-ayah target
+  - finding: ٱلْحَٰمِدُونَ names praising servants among the believer’s qualities, complementing ٱلْحَمْدُ لِلَّهِ: Allah is the object of praise in the Fatiha, while humans are described here as those who praise.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ»; 9:112 «ٱلتَّٰٓئِبُونَ ٱلْعَٰبِدُونَ ٱلْحَٰمِدُونَ»
+  - activation: The shared ح م د root places the divine praise clause beside a human group characterized by praise.
+  - limits: The verses use different grammatical forms and do not specify what the believers praise in 9:112.
+- **R-10:10** [reading; support strong, relevance high] inter-ayah target
+  - finding: The exact formula ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ is the final invocation of the people in the Garden; the Fatiha’s opening praise is also heard as the utterance of a completed communal outcome.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 10:9 «فِى جَنَّٰتِ ٱلنَّعِيمِ»; 10:10 «وَءَاخِرُ دَعْوَىٰهُمْ أَنِ ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»
+  - activation: The phrase أَخِرُ دَعْوَىٰهُمْ explicitly marks the formula as their final utterance in that setting.
+  - limits: The formula’s position at the end of this passage does not make the Fatiha itself a description of the Garden.
+- **R-14:7** [reading; support strong, relevance high] inter-ayah target
+  - finding: The conditional لَئِن شَكَرْتُمْ in 14:7 is followed by the statement that Allah remains غَنِىٌّ حَمِيدٌ even if all on earth disbelieve; together they distinguish human gratitude from God’s praiseworthiness in 1:2.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ»; 14:7 «لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ ۖ وَلَئِن كَفَرْتُمْ إِنَّ عَذَابِى لَشَدِيدٌۭ»; 14:8 «إِن تَكْفُرُوٓا۟ أَنتُمْ وَمَن فِى ٱلْأَرْضِ جَمِيعًۭا فَإِنَّ ٱللَّهَ لَغَنِىٌّ حَمِيدٌ»
+  - activation: The immediate continuation pairs conditional human response with an attribute from the ح م د root that does not depend on that response.
+  - limits: شُكْر and حَمْد are distinct words; the sequence does not make them interchangeable.
+- **R-14:8** [reading; support strong, relevance high] inter-ayah target
+  - finding: Moses says that even if everyone on earth disbelieves, Allah is still غَنِىٌّ حَمِيدٌ; this makes the praise due to Allah in 1:2 independent of universal human assent.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ»; 14:8 «إِن تَكْفُرُوٓا۟ أَنتُمْ وَمَن فِى ٱلْأَرْضِ جَمِيعًۭا فَإِنَّ ٱللَّهَ لَغَنِىٌّ حَمِيدٌ»
+  - activation: The hypothetical includes all who are on earth, and the divine attribute حَمِيدٌ follows it directly.
+  - limits: حَمِيدٌ describes God as praiseworthy; it is not the same form as the noun ٱلْحَمْدُ.
+- **R-14:39** [reading; support strong, relevance high] inter-ayah target
+  - finding: Ibrahim’s ٱلْحَمْدُ لِلَّهِ is attached to receiving Ismail and Ishaq in old age, then linked to his Lord hearing supplication; this supplies one specific occasion for the broader praise of 1:2.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ»; 14:39 «ٱلْحَمْدُ لِلَّهِ ٱلَّذِى وَهَبَ لِى عَلَى ٱلْكِبَرِ إِسْمَٰعِيلَ وَإِسْحَٰقَ»; 14:39 «إِنَّ رَبِّى لَسَمِيعُ ٱلدُّعَآءِ»
+  - activation: The praise is followed by a named gift and by the description of Ibrahim’s Lord as hearing prayer.
+  - limits: The Fatiha does not specify this gift or reduce praise to gratitude for one answered prayer.
+- **R-15:98** [reading; support strong, relevance high] inter-ayah target
+  - finding: فَسَبِّحْ بِحَمْدِ رَبِّكَ pairs glorification with the praise of one’s Lord, echoing the Fatiha’s close grouping of ٱلْحَمْدُ and رَبِّ; praise here is also an act of remembrance amid distress.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 15:97 «يَضِيقُ صَدْرُكَ بِمَا يَقُولُونَ»; 15:98 «فَسَبِّحْ بِحَمْدِ رَبِّكَ»
+  - activation: The adjacent hamd and Rabb terms recur together in an imperative response to the Prophet’s distress.
+  - limits: The imperative in 15:98 does not turn the nominal clause in 1:2 into a command.
+- **R-17:111** [reading; support strong, relevance high] inter-ayah target
+  - finding: 17:111 repeats ٱلْحَمْدُ لِلَّهِ, then grounds praise in God’s independence: He has no child, partner in dominion, or dependent ally. This gives the focus’s Rabb al-alamin a sovereign dimension.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 17:111 «وَقُلِ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى لَمْ يَتَّخِذْ وَلَدًۭا وَلَمْ يَكُن لَّهُۥ شَرِيكٌۭ فِى ٱلْمُلْكِ وَلَمْ يَكُن لَّهُۥ وَلِىٌّۭ مِّنَ ٱلذُّلِّ»
+  - activation: The exact praise formula is followed by denials of dependence and shared rule.
+  - limits: This parallel expands the grounds for praise; it does not define Rabb through those denials alone.
+- **R-18:1** [reading; support strong, relevance high] inter-ayah target
+  - finding: The opening of al-Kahf repeats ٱلْحَمْدُ لِلَّهِ and names the sending of an unbent Book as its occasion. Read beside 1:2, praise of the Lord of all worlds includes praise for revealed guidance.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 18:1 «ٱلْحَمْدُ لِلَّهِ ٱلَّذِىٓ أَنزَلَ عَلَىٰ عَبْدِهِ ٱلْكِتَٰبَ وَلَمْ يَجْعَل لَّهُۥ عِوَجَا»
+  - activation: Both passages begin with the same praise formula; 18:1 immediately names the Book as a divine gift.
+  - limits: The wording supports a shared praise frame, while 1:2 does not specify the Book as its object.
+- **R-18:87** [reading; support strong, relevance high] inter-ayah target
+  - finding: The wrongdoer is returned to his Lord for punishment. In the Fatiha’s sequence, this scene gives an account of return and judgment after 1:2’s Rabb title and 1:4’s ملكِ يوم الدين.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»; 18:87 «ثُمَّ يُرَدُّ إِلَىٰ رَبِّهِۦ فَيُعَذِّبُهُۥ عَذَابًۭا نُّكْرًۭا»
+  - activation: The focus’s immediate Fatiha context names the Day of Judgment; 18:87 depicts return to the Lord and punishment.
+  - limits: The scene does not repeat the title Rabb al-alamin or the Fatiha’s wording for judgment.
+- **R-19:36** [reading; support strong, relevance high] inter-ayah target
+  - finding: The shared declaration Allah is my Lord and your Lord leads directly to worship and the straight path. This gives the focus’s Rabb of all worlds a communal consequence: the same Lord grounds a shared way of worship.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 19:36 «وَإِنَّ ٱللَّهَ رَبِّى وَرَبُّكُمْ فَٱعْبُدُوهُ ۚ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ»
+  - activation: The target pairs a shared Lord relation with worship and a path, terms that also structure the Fatiha after its praise.
+  - limits: The target’s immediate speaker is addressing a particular community; the focus states the wider scope.
+- **R-19:65** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Lord of the heavens, earth, and what lies between them is followed by a command to worship and persevere in worship. This expands the cosmic scope of Rabb al-alamin into a concrete set of domains and a devotional response.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 19:65 «رَّبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا فَٱعْبُدْهُ وَٱصْطَبِرْ لِعِبَٰدَتِهِۦ»
+  - activation: Both passages use Rabb with an expansive cosmic domain; 19:65 draws worship from that claim.
+  - limits: The target names cosmic regions rather than using al-alamin.
+- **R-20:49** [reading; support strong, relevance high] inter-ayah target
+  - finding: Moses answers the question who their Lord is by describing the one who gives each thing its creation and then guides it. This supplies a compact account of Rabb al-alamin as creator and guide.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 20:49 «فَمَن رَّبُّكُمَا يَٰمُوسَىٰ»; 20:50 «قَالَ رَبُّنَا ٱلَّذِىٓ أَعْطَىٰ كُلَّ شَىْءٍ خَلْقَهُۥ ثُمَّ هَدَىٰ»
+  - activation: The focus names the Lord; the next verse answers a direct question about Rabb with creation and guidance.
+  - limits: The answer is a prophetic statement in a confrontation with Pharaoh; it is not a grammatical definition of Rabb.
+- **R-21:56** [reading; support strong, relevance high] inter-ayah target
+  - finding: Ibrahim identifies the addressee’s Lord as Lord of the heavens and earth, their creator, and says he bears witness. This is a direct cosmic counterpart to the focus’s Lord of all worlds, placed in a stand against idol worship.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 21:56 «قَالَ بَل رَّبُّكُمْ رَبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ٱلَّذِى فَطَرَهُنَّ وَأَنَا۠ عَلَىٰ ذَٰلِكُم مِّنَ ٱلشَّٰهِدِينَ»
+  - activation: The target’s claim occurs amid a dispute about Ibrahim’s destruction of idols and names the creator as Lord.
+  - limits: The target specifies heavens and earth rather than repeating al-alamin.
+- **R-23:28** [reading; support strong, relevance high] inter-ayah target
+  - finding: After boarding the ark, Noah is told to say ٱلْحَمْدُ لِلَّهِ because God saved them from the wrongdoers. The same praise formula as 1:2 is voiced as a response to deliverance.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 23:28 «فَقُلِ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى نَجَّىٰنَا مِنَ ٱلْقَوْمِ ٱلظَّٰلِمِينَ»
+  - activation: The shared formula is placed in a specific moment of rescue, followed by a prayer for a blessed landing.
+  - limits: The focus gives no single rescue occasion; this passage supplies one instance of what praise can answer.
+- **R-23:117** [reading; support strong, relevance high] inter-ayah target
+  - finding: The passage rejects invoking another deity and places the account with one’s Lord; it closes with a prayer for forgiveness and mercy. This links the focus’s praise of the Lord to exclusive worship, judgment, and dependence on mercy.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 23:116 «فَتَعَٰلَى ٱللَّهُ ٱلْمَلِكُ ٱلْحَقُّ ۖ لَآ إِلَٰهَ إِلَّا هُوَ رَبُّ ٱلْعَرْشِ ٱلْكَرِيمِ»; 23:117 «وَمَن يَدْعُ مَعَ ٱللَّهِ إِلَٰهًا ءَاخَرَ لَا بُرْهَٰنَ لَهُۥ بِهِۦ فَإِنَّمَا حِسَابُهُۥ عِندَ رَبِّهِۦٓ»; 23:118 «وَقُل رَّبِّ ٱغْفِرْ وَٱرْحَمْ»
+  - activation: The passage joins exclusive deity, Lordship, final accounting, and an appeal for mercy.
+  - limits: The focus does not spell out judgment or mercy; the surrounding passage supplies those dimensions.
+- **R-26:16** [reading; support strong, relevance high] inter-ayah target
+  - finding: Moses and Aaron are sent to Pharaoh as messengers of the Lord of all worlds. The title in 1:2 thus appears as the source of a mission directed into political power and the demand to release the Children of Israel.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 26:15 «قَالَ كَلَّا ۖ فَٱذْهَبَا بِـَٔايَٰتِنَآ ۖ إِنَّا مَعَكُم مُّسْتَمِعُونَ»; 26:16 «فَأْتِيَا فِرْعَوْنَ فَقُولَآ إِنَّا رَسُولُ رَبِّ ٱلْعَٰلَمِينَ»; 26:17 «أَنْ أَرْسِلْ مَعَنَا بَنِىٓ إِسْرَٰٓءِيلَ»
+  - activation: The exact title is attached to a joint prophetic mission and a demand addressed to Pharaoh.
+  - limits: The focus itself is praise, not a commission to any particular messenger.
+- **R-26:23** [reading; support strong, relevance high] inter-ayah target
+  - finding: Pharaoh asks what the Lord of all worlds is; the answer names the heavens, earth, and what lies between them. The focus’s compact title is unfolded as a claim that must be answered in a contested setting.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 26:23 «قَالَ فِرْعَوْنُ وَمَا رَبُّ ٱلْعَٰلَمِينَ»; 26:24 «قَالَ رَبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَآ ۖ إِن كُنتُم مُّوقِنِينَ»
+  - activation: The target repeats the focus’s exact title and immediately tests its meaning in dialogue.
+  - limits: The answer offers one description of the Lord; it does not exhaust the title’s possible senses.
+- **R-26:47** [reading; support strong, relevance high] inter-ayah target
+  - finding: After the magicians fall in prostration, they say they believe in the Lord of all worlds. The focus’s title becomes the confession that follows a public contest over rival claims to power.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 26:46 «فَأُلْقِىَ ٱلسَّحَرَةُ سَٰجِدِينَ»; 26:47 «قَالُوٓا۟ ءَامَنَّا بِرَبِّ ٱلْعَٰلَمِينَ»; 26:48 «رَبِّ مُوسَىٰ وَهَٰرُونَ»
+  - activation: The exact title follows the magicians’ prostration and is then specified through Moses and Aaron.
+  - limits: The confession occurs within this narrative contest; it is not itself a praise formula.
+- **R-26:48** [reading; support strong, relevance high] inter-ayah target
+  - finding: The magicians’ universal confession is immediately personalized as the Lord of Moses and Aaron. This joins the focus’s cosmic title to a specific prophetic relationship without narrowing its scope.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 26:47 «قَالُوٓا۟ ءَامَنَّا بِرَبِّ ٱلْعَٰلَمِينَ»; 26:48 «رَبِّ مُوسَىٰ وَهَٰرُونَ»
+  - activation: The target is the immediate clarification of the exact title in the preceding confession.
+  - limits: The target names two prophets as servants of this Lord; it does not make them the limits of His lordship.
+- **R-26:77** [reading; support strong, relevance high] inter-ayah target
+  - finding: Abraham declares that the objects his people treat as enemies are excepted only by the Lord of all worlds; the next verse names creation and guidance. The focus’s title supplies the standard that separates the Creator from idols.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 26:77 «فَإِنَّهُمْ عَدُوٌّۭ لِّىٓ إِلَّا رَبَّ ٱلْعَٰلَمِينَ»; 26:78 «ٱلَّذِى خَلَقَنِى فَهُوَ يَهْدِينِ»
+  - activation: The exact Lord of the worlds formula is set against the preceding catalogue of worshipped objects.
+  - limits: Abraham’s personal account of creation and guidance develops the contrast but is not a full definition of al-alamin.
+- **R-26:98** [reading; support strong, relevance high] inter-ayah target
+  - finding: The condemned speakers identify their error as having equated others with the Lord of all worlds. The focus’s title becomes the measure by which false equivalence is recognized.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 26:97 «تَٱللَّهِ إِن كُنَّا لَفِى ضَلَٰلٍۢ مُّبِينٍ»; 26:98 «إِذْ نُسَوِّيكُم بِرَبِّ ٱلْعَٰلَمِينَ»
+  - activation: The target repeats the exact title as the standard their former worship violated.
+  - limits: The passage gives the speakers’ retrospective confession, not a general account of every form of shirk.
+- **R-26:109** [reading; support strong, relevance high] inter-ayah target
+  - finding: Noah’s refrain says his reward is due only from the Lord of all worlds, after commanding his people to fear God and obey him. The focus’s title here underwrites prophetic service without payment from its audience.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 26:108 «فَٱتَّقُوا۟ ٱللَّهَ وَأَطِيعُونِ»; 26:109 «وَمَآ أَسْـَٔلُكُمْ عَلَيْهِ مِنْ أَجْرٍ ۖ إِنْ أَجْرِىَ إِلَّا عَلَىٰ رَبِّ ٱلْعَٰلَمِينَ»
+  - activation: The exact title appears as the sole source of reward in a prophetic call.
+  - limits: This is Noah’s statement in one episode; the repeated refrain in this surah supplies the broader pattern.
+- **R-26:117** [reading; support strong, relevance high] inter-ayah target
+  - finding: Later in Noah’s episode, the people deny him and he appeals to his Lord, asking for a decisive judgment and rescue for the believers. Beside his earlier claim that his reward is with the Lord of all worlds, this forms a movement from uncompensated warning to dependence on divine intervention.
+  - evidence: 26:109 «إِنْ أَجْرِىَ إِلَّا عَلَىٰ رَبِّ ٱلْعَٰلَمِينَ»; 26:117 «قَالَ رَبِّ إِنَّ قَوْمِى كَذَّبُونِ»; 26:118 «فَٱفْتَحْ بَيْنِى وَبَيْنَهُمْ فَتْحًۭا وَنَجِّنِى وَمَن مَّعِىَ مِنَ ٱلْمُؤْمِنِينَ»
+  - activation: The same prophet and surah carry the Lord relation from his opening call into a plea after rejection.
+  - limits: The word al-alamin does not recur in 26:117; the link depends on the episode’s sequence.
+- **R-26:127** [reading; support strong, relevance high] inter-ayah target
+  - finding: Hud uses the same refrain that his reward is only with the Lord of all worlds, then challenges his people’s construction of monuments for amusement. The recurring title binds a different community’s moral correction to the shared prophetic claim.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 26:127 «وَمَآ أَسْـَٔلُكُمْ عَلَيْهِ مِنْ أَجْرٍ ۖ إِنْ أَجْرِىَ إِلَّا عَلَىٰ رَبِّ ٱلْعَٰلَمِينَ»; 26:128 «أَتَبْنُونَ بِكُلِّ رِيعٍ ءَايَةًۭ تَعْبَثُونَ»
+  - activation: The exact refrain recurs in a distinct prophetic episode before a specific rebuke.
+  - limits: The refrain alone does not explain the people’s building practices; the following verse supplies that setting.
+- **R-26:145** [reading; support strong, relevance high] inter-ayah target
+  - finding: Salih repeats the refrain of reward from the Lord of all worlds before asking whether his people expect to be left secure among their gardens, springs, and crops. The title links prophetic warning to their assumption of lasting safety and abundance.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 26:145 «وَمَآ أَسْـَٔلُكُمْ عَلَيْهِ مِنْ أَجْرٍ ۖ إِنْ أَجْرِىَ إِلَّا عَلَىٰ رَبِّ ٱلْعَٰلَمِينَ»; 26:146 «أَتُتْرَكُونَ فِى مَا هَٰهُنَآ ءَامِنِينَ»
+  - activation: The shared refrain precedes a challenge to presumed security in the community’s material setting.
+  - limits: The excerpt does not state that their abundance itself is the cause of denial.
+- **R-26:164** [reading; support strong, relevance high] inter-ayah target
+  - finding: Lot uses the refrain of reward from the Lord of all worlds immediately before confronting his people’s sexual conduct. Its recurrence makes the same universal source of prophetic recompense frame a distinct moral dispute.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 26:164 «وَمَآ أَسْـَٔلُكُمْ عَلَيْهِ مِنْ أَجْرٍ ۖ إِنْ أَجْرِىَ إِلَّا عَلَىٰ رَبِّ ٱلْعَٰلَمِينَ»; 26:165 «أَتَأْتُونَ ٱلذُّكْرَانَ مِنَ ٱلْعَٰلَمِينَ»
+  - activation: The target repeats the exact refrain, then specifies the community’s offense.
+  - limits: The shared title frames Lot’s warning but does not by itself establish the passage’s legal or ethical reasoning.
+- **R-26:165** [reading; support strong, relevance high] inter-ayah target
+  - finding: Immediately after the refrain about the Lord of all worlds, Lot asks whether they approach males from among the worlds, then invokes what their Lord created for them from their spouses. The repeated al-alamin puts human conduct within the focus’s broad language of worlds and creation.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 26:164 «إِنْ أَجْرِىَ إِلَّا عَلَىٰ رَبِّ ٱلْعَٰلَمِينَ»; 26:165 «أَتَأْتُونَ ٱلذُّكْرَانَ مِنَ ٱلْعَٰلَمِينَ»; 26:166 «وَتَذَرُونَ مَا خَلَقَ لَكُمْ رَبُّكُم مِّنْ أَزْوَٰجِكُم»
+  - activation: The target repeats the root and form al-alamin from 26:164, then turns to what the Lord created.
+  - limits: The repeated noun does not by itself define the full range of al-alamin in 1:2.
+- **R-26:180** [reading; support strong, relevance high] inter-ayah target
+  - finding: Shuayb repeats the same claim that his reward is with the Lord of all worlds, then calls for honest measure and warns against shortchanging. The refrain joins universal lordship to a concrete commercial ethic in another community.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 26:180 «وَمَآ أَسْـَٔلُكُمْ عَلَيْهِ مِنْ أَجْرٍ ۖ إِنْ أَجْرِىَ إِلَّا عَلَىٰ رَبِّ ٱلْعَٰلَمِينَ»; 26:181 «أَوْفُوا۟ ٱلْكَيْلَ وَلَا تَكُونُوا۟ مِنَ ٱلْمُخْسِرِينَ»
+  - activation: The recurring exact title is followed by a distinct demand concerning trade.
+  - limits: The target frames the demand but does not explicitly derive fair measure from the title alone.
+- **R-26:192** [reading; support strong, relevance high] inter-ayah target
+  - finding: After the surah’s sequence of prophetic confrontations and punishments, the Quran is identified as a sending-down from the Lord of all worlds, brought by the faithful Spirit. The focus’s title thus names the source of the revelation recited in the surah.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 26:191 «وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ»; 26:192 «وَإِنَّهُۥ لَتَنزِيلُ رَبِّ ٱلْعَٰلَمِينَ»; 26:193 «نَزَلَ بِهِ ٱلرُّوحُ ٱلْأَمِينُ»
+  - activation: The exact title occurs at the transition from prophetic histories to the account of Quranic revelation.
+  - limits: The verse identifies the revelation’s source; it does not make the Fatiha the sole content meant by the Quran.
+- **R-27:8** [reading; support strong, relevance high] inter-ayah target
+  - finding: At Moses’s encounter with the fire, the call glorifies Allah as Lord of all worlds before identifying Him as mighty and wise. The focus’s title therefore appears within a prophetic encounter as part of divine self-identification and glorification.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 27:8 «فَلَمَّا جَآءَهَا نُودِىَ أَنۢ بُورِكَ مَن فِى ٱلنَّارِ وَمَنْ حَوْلَهَا وَسُبْحَٰنَ ٱللَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 27:9 «يَٰمُوسَىٰٓ إِنَّهُۥٓ أَنَا ٱللَّهُ ٱلْعَزِيزُ ٱلْحَكِيمُ»
+  - activation: The exact title is spoken in the scene that announces Moses’s encounter with Allah.
+  - limits: The Fatiha is a human praise utterance; this scene presents a divine call to a prophet.
+- **R-27:15** [reading; support strong, relevance high] inter-ayah target
+  - finding: After describing knowledge given to David and Solomon, the surah quotes their praise of Allah for favoring them among believing servants. This gives the focus’s praise a particular epistemic form: knowledge received is acknowledged as gift rather than self-earned distinction.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 27:15 «وَلَقَدْ ءَاتَيْنَا دَاوُۥدَ وَسُلَيْمَٰنَ عِلْمًۭا ۖ وَقَالَا ٱلْحَمْدُ لِلَّهِ ٱلَّذِى فَضَّلَنَا عَلَىٰ كَثِيرٍۢ مِّنْ عِبَادِهِ ٱلْمُؤْمِنِينَ»; 27:16 «إِنَّ هَٰذَا لَهُوَ ٱلْفَضْلُ ٱلْمُبِينُ»
+  - activation: The same praise formula follows a stated divine gift of knowledge.
+  - limits: The target gives a specific reason for these two prophets’ praise; 1:2 leaves its grounds open.
+- **R-27:42** [reading; support strong, relevance high] inter-ayah target
+  - finding: The scene moves from the queen’s tentative recognition of her altered throne to the explicit confession in 27:44 that she has wronged herself and submits to Allah, Lord of all worlds. The focus’s title is the endpoint of a narrated recognition, not merely a given formula.
+  - evidence: 27:42 «فَلَمَّا جَآءَتْ قِيلَ أَهَٰكَذَا عَرْشُكِ ۖ قَالَتْ كَأَنَّهُۥ هُوَ»; 27:43 «وَصَدَّهَا مَا كَانَت تَّعْبُدُ مِن دُونِ ٱللَّهِ»; 27:44 «قَالَتْ رَبِّ إِنِّى ظَلَمْتُ نَفْسِى وَأَسْلَمْتُ مَعَ سُلَيْمَٰنَ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»
+  - activation: The target sits in the recognition sequence that culminates in the exact title from 1:2.
+  - limits: The target’s tentative answer alone does not state the final confession; the next verses complete the movement.
+- **R-27:44** [reading; support strong, relevance high] inter-ayah target
+  - finding: After misreading the glass floor as water, the queen admits she wronged herself and submits with Solomon to Allah, Lord of all worlds. The focus’s exact title appears here as the outcome of corrected perception and a change of allegiance.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 27:44 «قَالَ إِنَّهُۥ صَرْحٌۭ مُّمَرَّدٌۭ مِّن قَوَارِيرَ ۗ قَالَتْ رَبِّ إِنِّى ظَلَمْتُ نَفْسِى وَأَسْلَمْتُ مَعَ سُلَيْمَٰنَ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»
+  - activation: The exact title closes a narrative in which the queen’s prior worship and perception are called into question.
+  - limits: The scene shows this queen’s confession; it does not prescribe one route by which every person recognizes the Lord.
+- **R-27:59** [reading; support strong, relevance high] inter-ayah target
+  - finding: The command to proclaim ٱلْحَمْدُ لِلَّهِ is immediately followed by a question contrasting Allah with what people associate with Him; the next verse points to creation and provision. The focus’s praise formula thus opens into a polemic that tests rival worship against the world’s signs.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 27:59 «قُلِ ٱلْحَمْدُ لِلَّهِ وَسَلَٰمٌ عَلَىٰ عِبَادِهِ ٱلَّذِينَ ٱصْطَفَىٰٓ ۗ ءَآللَّهُ خَيْرٌ أَمَّا يُشْرِكُونَ»; 27:60 «أَمَّنْ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَأَنزَلَ لَكُم مِّنَ ٱلسَّمَآءِ مَآءًۭ»
+  - activation: The target repeats the praise formula and immediately asks whether Allah or the associated objects are better.
+  - limits: The focus itself contains no direct polemic against other worship; the surrounding passage supplies it.
+- **R-27:93** [reading; support strong, relevance high] inter-ayah target
+  - finding: After the command to recite the Quran, the messenger is told to say ٱلْحَمْدُ لِلَّهِ; the verse then promises signs people will recognize and says the Lord is not unaware of their deeds. The focus’s praise is placed beside recognition and accountability.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 27:92 «وَأَنْ أَتْلُوَا۟ ٱلْقُرْءَانَ»; 27:93 «وَقُلِ ٱلْحَمْدُ لِلَّهِ سَيُرِيكُمْ ءَايَٰتِهِۦ فَتَعْرِفُونَهَا ۚ وَمَا رَبُّكَ بِغَٰفِلٍ عَمَّا تَعْمَلُونَ»
+  - activation: The same praise formula follows Quranic recitation and precedes signs and the Lord’s knowledge of deeds.
+  - limits: The target addresses a messenger and audience in a specific warning; 1:2 does not name that occasion.
+- **R-28:30** [reading; support strong, relevance high] inter-ayah target
+  - finding: At the bush, the voice identifies itself as Allah, Lord of all worlds. The title in 1:2 is thus spoken here as divine self-identification in a prophetic encounter, anchoring the extraordinary scene in the universal Lord.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 28:30 «فَلَمَّآ أَتَىٰهَا نُودِىَ مِن شَٰطِئِ ٱلْوَادِ ٱلْأَيْمَنِ فِى ٱلْبُقْعَةِ ٱلْمُبَٰرَكَةِ مِنَ ٱلشَّجَرَةِ أَن يَٰمُوسَىٰٓ إِنِّىٓ أَنَا ٱللَّهُ رَبُّ ٱلْعَٰلَمِينَ»
+  - activation: The exact title occurs in the divine address to Moses.
+  - limits: The focus is a praise utterance; this verse is an act of self-identification within a prophetic call.
+- **R-28:70** [reading; support strong, relevance high] inter-ayah target
+  - finding: The target says that praise belongs to God in the first life and the hereafter, then names His judgment and the return to Him. This extends the focus’s attribution of praise across time as well as across the worlds named in 1:2.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 28:70 «وَهُوَ ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ۖ لَهُ ٱلْحَمْدُ فِى ٱلْأُولَىٰ وَٱلْءَاخِرَةِ ۖ وَلَهُ ٱلْحُكْمُ وَإِلَيْهِ تُرْجَعُونَ»
+  - activation: Both passages assign praise to Allah; 28:70 explicitly spans the first life and the hereafter.
+  - limits: The temporal scope in 28:70 and the worlds in 1:2 are distinct expressions of scope.
+- **R-29:63** [reading; support strong, relevance high] inter-ayah target
+  - finding: Asked who sends rain and revives the earth, the people answer Allah; the messenger is then commanded to say ٱلْحَمْدُ لِلَّهِ, followed by the observation that most do not reason. The focus’s praise formula is here a response to recognized life-giving action, while recognition alone does not ensure understanding.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 29:63 «وَلَئِن سَأَلْتَهُم مَّن نَّزَّلَ مِنَ ٱلسَّمَآءِ مَآءًۭ فَأَحْيَا بِهِ ٱلْأَرْضَ مِنۢ بَعْدِ مَوْتِهَا لَيَقُولُنَّ ٱللَّهُ ۚ قُلِ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْقِلُونَ»
+  - activation: The exact praise formula follows acknowledgment of Allah’s life-giving act and precedes a rebuke about reasoning.
+  - limits: The target names one sign of provision; it does not reduce all praise in 1:2 to that event.
+- **R-30:18** [reading; support strong, relevance high] inter-ayah target
+  - finding: The target says praise belongs to God in the heavens and earth, then follows with the cycle of life emerging from death and the reviving of dead earth. This gives a spatially explicit counterpart to the focus’s Lord of all worlds and ties cosmic praise to life-giving power.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 30:18 «وَلَهُ ٱلْحَمْدُ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَعَشِيًّۭا وَحِينَ تُظْهِرُونَ»; 30:19 «يُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَيُخْرِجُ ٱلْمَيِّتَ مِنَ ٱلْحَىِّ وَيُحْىِ ٱلْأَرْضَ بَعْدَ مَوْتِهَا»
+  - activation: Both passages assign praise to God across a cosmic scope; 30:19 supplies examples of life-giving action.
+  - limits: The target names heavens and earth and times of day, rather than using al-alamin.
+- **R-31:25** [reading; support strong, relevance high] inter-ayah target
+  - finding: The answer that Allah created the heavens and earth is followed by قُلِ ٱلْحَمْدُ لِلَّهِ, making praise a response to recognized creative lordship; بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ then exposes recognition that stops short of knowledge.
+  - evidence: 31:25 «مَّنْ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ لَيَقُولُنَّ ٱللَّهُ ۚ قُلِ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ»
+  - activation: Creator-confession, commanded praise, and the judgment about knowledge occur in one sequence.
+  - limits: The verse does not specify what the questioners fail to know beyond its closing judgment.
+- **R-31:26** [reading; support strong, relevance high] inter-ayah target
+  - finding: The title ٱلْحَمِيدُ follows the statement that everything in the heavens and earth belongs to Allah, joining universal possession with the quality celebrated by ٱلْحَمْدُ in the focus.
+  - evidence: 31:26 «لِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ إِنَّ ٱللَّهَ هُوَ ٱلْغَنِىُّ ٱلْحَمِيدُ»
+  - activation: The ownership claim immediately before ٱلْحَمِيدُ supplies the domain for this divine title.
+  - limits: This verse uses an adjective meaning praised, while the focus states praise as a nominal clause.
+- **R-32:2** [reading; support strong, relevance high] inter-ayah target
+  - finding: The book is described as coming مِن رَّبِّ ٱلْعَٰلَمِينَ, so the focus’s lordship title also identifies the source of revelation.
+  - evidence: 32:2 «تَنزِيلُ ٱلْكِتَٰبِ لَا رَيْبَ فِيهِ مِن رَّبِّ ٱلْعَٰلَمِينَ»
+  - activation: The exact title رب العالمين is attached to the descent of the book.
+  - limits: This occurrence establishes revelation’s source; it does not repeat the focus’s praise clause.
+- **R-32:15** [reading; support strong, relevance high] inter-ayah target
+  - finding: The believers who prostrate at reminders also وَسَبَّحُوا۟ بِحَمْدِ رَبِّهِمْ, giving the focus’s praise-and-lordship pairing an embodied devotional scene.
+  - evidence: 32:15 «خَرُّوا۟ سُجَّدًۭا وَسَبَّحُوا۟ بِحَمْدِ رَبِّهِمْ وَهُمْ لَا يَسْتَكْبِرُونَ»
+  - activation: The scene joins remembrance of signs, prostration, glorification, and praise of their Lord.
+  - limits: The verse depicts a response by believers, not the focus’s unrestricted nominal declaration.
+- **R-34:1** [reading; support strong, relevance high] inter-ayah target
+  - finding: This opening joins praise to Allah’s possession of the heavens and earth, then explicitly places praise in the afterlife too; the focus’s universal praise thus has a stated final-life setting elsewhere in the Quran.
+  - evidence: 34:1 «ٱلْحَمْدُ لِلَّهِ ٱلَّذِى لَهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ وَلَهُ ٱلْحَمْدُ فِى ٱلْءَاخِرَةِ»
+  - activation: The repeated praise clause extends from cosmic ownership into the afterlife.
+  - limits: This verse names heavens and earth and the afterlife; it does not use the phrase العالمين.
+- **R-35:1** [reading; support strong, relevance high] inter-ayah target
+  - finding: Praise opens a description of Allah as فَاطِرِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ, maker of angels, and one who increases creation as He wills; this grounds praise in origination and continuing creative scope.
+  - evidence: 35:1 «ٱلْحَمْدُ لِلَّهِ فَاطِرِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ جَاعِلِ ٱلْمَلَٰٓئِكَةِ رُسُلًا»; 35:1 «يَزِيدُ فِى ٱلْخَلْقِ مَا يَشَآءُ»
+  - activation: The appositional titles after ٱلْحَمْدُ لِلَّهِ specify creative acts across the heavens, earth, and angelic order.
+  - limits: This passage describes creation rather than using the focus’s title رب العالمين.
+- **R-35:34** [reading; support strong, relevance high] inter-ayah target
+  - finding: Garden dwellers say ٱلْحَمْدُ لِلَّهِ because He removed their grief, and call Him غَفُورٌۭ شَكُورٌ; the formula can voice gratitude for a particular deliverance as well as unqualified praise.
+  - evidence: 35:34 «وَقَالُوا۟ ٱلْحَمْدُ لِلَّهِ ٱلَّذِىٓ أَذْهَبَ عَنَّا ٱلْحَزَنَ ۖ إِنَّ رَبَّنَا لَغَفُورٌۭ شَكُورٌ»
+  - activation: The speakers explain their praise through grief’s removal and address Allah as their Lord.
+  - limits: This is a response by saved people to a specified gift, whereas the focus gives no occasion for praise.
+- **R-37:4** [reading; support strong, relevance high] inter-ayah target
+  - finding: The declaration إِنَّ إِلَٰهَكُمْ لَوَٰحِدٌۭ is immediately expanded as lordship over the heavens, earth, what lies between them, and the easts; the adjacent sequence links the focus’s universal Lord title with exclusive deity.
+  - evidence: 37:4 «إِنَّ إِلَٰهَكُمْ لَوَٰحِدٌۭ»; 37:5 «رَّبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا وَرَبُّ ٱلْمَشَٰرِقِ»
+  - activation: The next ayah names cosmic domains under the one deity just affirmed.
+  - limits: The sequence expands the title through specified cosmic regions rather than repeating العالمين.
+- **R-37:5** [reading; support strong, relevance high] inter-ayah target
+  - finding: This passage spells out cosmic scope as the heavens, earth, what lies between, and the easts, giving concrete domains to the focus’s concise رب العالمين.
+  - evidence: 37:5 «رَّبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا وَرَبُّ ٱلْمَشَٰرِقِ»
+  - activation: The repeated رَبُّ governs a widening list of regions after the affirmation of divine oneness.
+  - limits: The list does not claim to be a complete definition of العالمين.
+- **R-37:87** [reading; support strong, relevance high] inter-ayah target
+  - finding: Abraham asks what his audience thinks of رَبِّ ٱلْعَٰلَمِينَ directly after challenging their desire for gods besides Allah; the focus’s title carries an anti-idol implication in this scene.
+  - evidence: 37:86 «أَئِفْكًا ءَالِهَةًۭ دُونَ ٱللَّهِ تُرِيدُونَ»; 37:87 «فَمَا ظَنُّكُم بِرَبِّ ٱلْعَٰلَمِينَ»
+  - activation: The question about the Lord of all worlds follows an explicit challenge to worship of other gods.
+  - limits: Abraham’s question does not repeat the focus’s الحمد clause.
+- **R-37:182** [reading; support strong, relevance high] inter-ayah target
+  - finding: The surah ends وَٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ after its closing salutation to the messengers, making the focus’s exact formula a fitting conclusion to a sequence of prophetic stories and divine judgments.
+  - evidence: 37:181 «وَسَلَٰمٌ عَلَى ٱلْمُرْسَلِينَ»; 37:182 «وَٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»
+  - activation: The exact formula closes the surah immediately after peace upon the messengers.
+  - limits: The later occurrence confirms a closing use; it does not establish that 1:2 itself is a surah ending.
+- **R-38:66** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Lord is named as رَبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا and paired with might and forgiveness, concretely expanding cosmic lordship beyond the focus’s compact title.
+  - evidence: 38:66 «رَبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا ٱلْعَزِيزُ ٱلْغَفَّٰرُ»
+  - activation: The surrounding declaration of divine oneness leads into this description of the Lord’s domain and attributes.
+  - limits: This verse does not include the focus’s praise wording.
+- **R-39:29** [reading; support strong, relevance high] inter-ayah target
+  - finding: After contrasting a man shared among quarrelsome masters with one devoted to one master, the verse says ٱلْحَمْدُ لِلَّهِ; the focus’s praise is thus heard beside an argument for unentangled sovereignty.
+  - evidence: 39:29 «رَّجُلًۭا فِيهِ شُرَكَآءُ مُتَشَٰكِسُونَ وَرَجُلًۭا سَلَمًۭا لِّرَجُلٍ هَلْ يَسْتَوِيَانِ مَثَلًا ۚ ٱلْحَمْدُ لِلَّهِ»
+  - activation: The praise formula follows a parable about divided service and exclusive belonging.
+  - limits: The parable concerns a human master relationship; it does not define every sense of divine lordship.
+- **R-39:74** [reading; support strong, relevance high] inter-ayah target
+  - finding: The saved say ٱلْحَمْدُ لِلَّهِ because Allah fulfilled His promise and granted them the earth; the next verse widens their thanks into the angels’ praise and the focus’s exact universal formula.
+  - evidence: 39:74 «وَقَالُوا۟ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى صَدَقَنَا وَعْدَهُۥ وَأَوْرَثَنَا ٱلْأَرْضَ»; 39:75 «يُسَبِّحُونَ بِحَمْدِ رَبِّهِمْ ۖ وَقُضِىَ بَيْنَهُم بِٱلْحَقِّ وَقِيلَ ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»
+  - activation: The adjacent verses move from the saved community’s specific thanks to praise surrounding the Throne after judgment.
+  - limits: The speakers in 39:74 name fulfilled promise and inheritance; the focus does not specify an occasion.
+- **R-39:75** [reading; support strong, relevance high] inter-ayah target
+  - finding: Angels surround the Throne praising their Lord as judgment is completed, and the scene closes with the focus’s exact formula; its praise becomes the final utterance after justice is done.
+  - evidence: 39:75 «وَتَرَى ٱلْمَلَٰٓئِكَةَ حَآفِّينَ مِنْ حَوْلِ ٱلْعَرْشِ يُسَبِّحُونَ بِحَمْدِ رَبِّهِمْ ۖ وَقُضِىَ بَيْنَهُم بِٱلْحَقِّ وَقِيلَ ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»
+  - activation: The exact phrase follows the account of angels’ praise and judgment completed with justice.
+  - limits: This is a final judgment scene; the focus itself does not specify this setting.
+- **R-40:65** [reading; support strong, relevance high] inter-ayah target
+  - finding: After calling people to invoke Allah with sincere devotion, the verse states the focus’s exact praise formula, then commands submission to the Lord of the worlds; praise sits within an explicit sequence of exclusive worship.
+  - evidence: 40:65 «فَٱدْعُوهُ مُخْلِصِينَ لَهُ ٱلدِّينَ ۗ ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 40:66 «وَأُمِرْتُ أَنْ أُسْلِمَ لِرَبِّ ٱلْعَٰلَمِينَ»
+  - activation: Invocation, praise, and submission to رب العالمين occur in consecutive verses.
+  - limits: This sequence is an exhortation; 1:2 is a declaration without an explicit command to worship.
+- **R-41:9** [reading; support strong, relevance high] inter-ayah target
+  - finding: After confronting those who disbelieve in the Creator and assign Him rivals, the verse concludes ذَٰلِكَ رَبُّ ٱلْعَٰلَمِينَ; lordship of all worlds is directly grounded in creation and set against rival-making.
+  - evidence: 41:9 «قُلْ أَئِنَّكُمْ لَتَكْفُرُونَ بِٱلَّذِى خَلَقَ ٱلْأَرْضَ فِى يَوْمَيْنِ وَتَجْعَلُونَ لَهُۥٓ أَندَادًۭا ۚ ذَٰلِكَ رَبُّ ٱلْعَٰلَمِينَ»
+  - activation: The verse identifies the earth’s Creator as Lord of the worlds after challenging disbelief and the making of rivals.
+  - limits: The immediate creation claim concerns earth; the title itself extends beyond that one act.
+- **R-43:46** [reading; support strong, relevance high] inter-ayah target
+  - finding: Moses identifies himself as a messenger of رَبِّ ٱلْعَٰلَمِينَ, and the audience responds to his signs with mockery; the focus’s universal title appears in a mission whose authority is actively contested.
+  - evidence: 43:46 «فَقَالَ إِنِّى رَسُولُ رَبِّ ٱلْعَٰلَمِينَ»; 43:47 «فَلَمَّا جَآءَهُم بِـَٔايَٰتِنَآ إِذَا هُم مِّنْهَا يَضْحَكُونَ»
+  - activation: The exact title is Moses’ message to Firawn and his assembly, immediately followed by their reaction.
+  - limits: Their mockery does not show that they understood or accepted the title.
+- **R-45:36** [reading; support strong, relevance high] inter-ayah target
+  - finding: After the account of those who cannot leave the Fire, the surah declares praise to the Lord of the heavens, earth, and worlds; praise is voiced alongside an assertion of cosmic sovereignty after judgment.
+  - evidence: 45:35 «فَٱلْيَوْمَ لَا يُخْرَجُونَ مِنْهَا وَلَا هُمْ يُسْتَعْتَبُونَ»; 45:36 «فَلِلَّهِ ٱلْحَمْدُ رَبِّ ٱلسَّمَٰوَٰتِ وَرَبِّ ٱلْأَرْضِ رَبِّ ٱلْعَٰلَمِينَ»
+  - activation: The praise formula follows the judgment scene and expands its Lord title across heavens, earth, and all worlds.
+  - limits: The passage does not say that those punished are the speakers of praise.
+- **R-52:48** [reading; support strong, relevance high] inter-ayah target
+  - finding: The command to be patient لِحُكْمِ رَبِّكَ is paired with وَسَبِّحْ بِحَمْدِ رَبِّكَ, connecting praise to steadfastness under judgment and pressure.
+  - evidence: 52:48 «وَٱصْبِرْ لِحُكْمِ رَبِّكَ فَإِنَّكَ بِأَعْيُنِنَا ۖ وَسَبِّحْ بِحَمْدِ رَبِّكَ حِينَ تَقُومُ»
+  - activation: Patience for the Lord’s judgment and glorification with His praise are joined in one address.
+  - limits: The verse is an instruction to the Prophet and does not state the focus’s nominal clause.
+- **R-53:42** [reading; support strong, relevance high] inter-ayah target
+  - finding: The verse names the Lord as the final destination, إِلَىٰ رَبِّكَ ٱلْمُنتَهَىٰ; lordship here includes the endpoint toward which all things return.
+  - evidence: 53:42 «وَأَنَّ إِلَىٰ رَبِّكَ ٱلْمُنتَهَىٰ»
+  - activation: The statement follows the account of each person receiving full recompense for their effort.
+  - limits: It specifies an endpoint but does not give a description of the return’s manner.
+- **R-53:49** [reading; support strong, relevance high] inter-ayah target
+  - finding: Allah is called رَبُّ ٱلشِّعْرَىٰ, explicitly Lord of Sirius; the focus’s رب العالمين can encompass even a named star that receives a specific Lord-title here.
+  - evidence: 53:49 «وَأَنَّهُۥ هُوَ رَبُّ ٱلشِّعْرَىٰ»
+  - activation: The ayah assigns Lordship over Sirius to Allah in a sequence naming divine acts and the fates of earlier peoples.
+  - limits: This occurrence names one celestial object and does not explain why Sirius is singled out.
+- **R-55:17** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Lord is described as رَبُّ ٱلْمَشْرِقَيْنِ وَرَبُّ ٱلْمَغْرِبَيْنِ, giving the focus’s broad title a paired horizon setting.
+  - evidence: 55:17 «رَبُّ ٱلْمَشْرِقَيْنِ وَرَبُّ ٱلْمَغْرِبَيْنِ»
+  - activation: The paired east and west titles interrupt the surah’s refrain asking which favors the two audiences deny.
+  - limits: The verse does not identify the two easts and two wests or equate them directly with العالمين.
+- **R-55:27** [reading; support strong, relevance high] inter-ayah target
+  - finding: After declaring that all on earth pass away, the surah says وَيَبْقَىٰ وَجْهُ رَبِّكَ, setting the persistence of the Lord against the transience of creation.
+  - evidence: 55:26 «كُلُّ مَنْ عَلَيْهَا فَانٍۢ»; 55:27 «وَيَبْقَىٰ وَجْهُ رَبِّكَ ذُو ٱلْجَلَٰلِ وَٱلْإِكْرَامِ»
+  - activation: The persistence clause directly follows the statement that all upon the earth are passing away.
+  - limits: This passage describes the Lord’s face and persistence, not the duration or fate of every world.
+- **R-55:78** [reading; support strong, relevance high] inter-ayah target
+  - finding: The surah closes with تَبَٰرَكَ ٱسْمُ رَبِّكَ ذِى ٱلْجَلَٰلِ وَٱلْإِكْرَامِ, a concluding benediction that joins the Lord’s name with majesty and generosity after the surah’s repeated account of favors.
+  - evidence: 55:77 «فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ»; 55:78 «تَبَٰرَكَ ٱسْمُ رَبِّكَ ذِى ٱلْجَلَٰلِ وَٱلْإِكْرَامِ»
+  - activation: This blessing of the Lord’s name concludes the surah’s refrain sequence.
+  - limits: It names divine majesty and generosity rather than repeating الحمد لله رب العالمين.
+- **R-56:80** [reading; support strong, relevance high] inter-ayah target
+  - finding: The revelation is called تَنزِيلٌۭ مِّن رَّبِّ ٱلْعَٰلَمِينَ, repeating the focus’s title to identify the source of scripture.
+  - evidence: 56:80 «تَنزِيلٌۭ مِّن رَّبِّ ٱلْعَٰلَمِينَ»
+  - activation: The exact title qualifies the revelation in a passage defending its truth and origin.
+  - limits: This verse states revelation’s source rather than a praise response.
+- **R-64:1** [reading; support strong, relevance high] inter-ayah target
+  - finding: Everything in the heavens and earth glorifies Allah, and the verse declares both dominion and praise His; the focus’s praise can be heard as the human utterance within a universal chorus of praise.
+  - evidence: 64:1 «يُسَبِّحُ لِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۖ لَهُ ٱلْمُلْكُ وَلَهُ ٱلْحَمْدُ»
+  - activation: The verse explicitly joins all creation’s glorification, Allah’s dominion, and praise belonging to Him.
+  - limits: It does not use رب العالمين or specify how the creation’s glorification occurs.
+- **R-69:43** [reading; support strong, relevance high] inter-ayah target
+  - finding: Revelation is again called تَنزِيلٌۭ مِّن رَّبِّ ٱلْعَٰلَمِينَ, tying the focus’s Lord title to the source claim defended in this surah.
+  - evidence: 69:42 «وَلَا بِقَوْلِ كَاهِنٍۢ ۚ قَلِيلًۭا مَّا تَذَكَّرُونَ»; 69:43 «تَنزِيلٌۭ مِّن رَّبِّ ٱلْعَٰلَمِينَ»; 69:44 «وَلَوْ تَقَوَّلَ عَلَيْنَا بَعْضَ ٱلْأَقَاوِيلِ»
+  - activation: The source formula sits between denial that the message is a soothsayer’s speech and a warning against fabricating words about Allah.
+  - limits: This passage argues for the Quran’s source; it does not repeat الحمد لله.
+- **R-73:9** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Lord of east and west is declared the sole deity, followed by the command to take Him as guardian; the focus’s universal Lordship stands beside explicit exclusivity and reliance.
+  - evidence: 73:9 «رَّبُّ ٱلْمَشْرِقِ وَٱلْمَغْرِبِ لَآ إِلَٰهَ إِلَّا هُوَ فَٱتَّخِذْهُ وَكِيلًۭا»
+  - activation: The verse joins cosmic extent, exclusive divinity, and personal reliance in one sequence.
+  - limits: It names east and west rather than using العالمين and does not state a praise clause.
+- **R-78:36** [reading; support strong, relevance high] inter-ayah target
+  - finding: The reward is عَطَآءً حِسَابًۭا from “your Lord,” immediately identified as Lord of the heavens, earth, and what lies between; the passage joins a measured gift to cosmic lordship.
+  - evidence: 78:36 «جَزَآءًۭ مِّن رَّبِّكَ عَطَآءً حِسَابًۭا»; 78:37 «رَّبِّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا ٱلرَّحْمَٰنِ»
+  - activation: The Lord who grants recompense is expanded in the next verse through the cosmic domain He rules.
+  - limits: The gift belongs to the people described in the preceding passage, not an undifferentiated account of all creation.
+- **related_3.X1** [reading; support strong, relevance high] 
+  - finding: The Fatiha moves from بِسْمِ ٱللَّهِ with the names ٱلرَّحْمَٰنِ ٱلرَّحِيمِ to ٱلْحَمْدُ لِلَّهِ; the divine name invoked at the opening becomes the recipient of praise, and the praise is grounded in lordship over all worlds.
+  - evidence: 1:1 «بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»
+  - activation: The repeated name Allah links the opening invocation to the next ayah’s praise and title.
+  - limits: The sequence connects the clauses but does not state that praise is caused by the names of mercy.
+- **R-78:37** [reading; support strong, relevance high] inter-ayah target
+  - finding: رَبِّ ٱلْعَٰلَمِينَ is given a spatially concrete parallel in رَّبِّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا: lordship spans the heavens, earth, and what lies between them.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 78:37 «رَّبِّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا»
+  - activation: Both passages attach Rabb to a comprehensive domain.
+  - limits: The wording does not define ٱلْعَٰلَمِينَ as exactly these spatial regions.
+- **R-79:24** [reading; support strong, relevance high] inter-ayah target
+  - finding: Pharaoh's claim أَنَا۠ رَبُّكُمُ ٱلْأَعْلَىٰ sharply contrasts with the focus's unqualified Rabb al-ʿālamīn: a human ruler claims lordship over his audience, then meets divine judgment.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 79:24 «فَقَالَ أَنَا۠ رَبُّكُمُ ٱلْأَعْلَىٰ»; 79:25 «فَأَخَذَهُ ٱللَّهُ نَكَالَ ٱلْءَاخِرَةِ وَٱلْأُولَىٰٓ»
+  - activation: Both formulations use Rabb; the surrounding narrative makes Pharaoh's claim an asserted rival authority.
+  - limits: The passages do not explicitly quote or identify 1:2 as a rebuttal to Pharaoh.
+- **R-79:44** [reading; support strong, relevance high] inter-ayah target
+  - finding: إِلَىٰ رَبِّكَ مُنتَهَىٰهَآ presents the Hour's endpoint as belonging to the Lord. Alongside Rabb al-ʿālamīn, it lets universal lordship be heard as the final horizon of events.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 79:44 «إِلَىٰ رَبِّكَ مُنتَهَىٰهَآ»
+  - activation: The focus names the Lord over all domains; this verse directs the Hour's endpoint to Rabb.
+  - limits: The focus does not itself mention the Hour or its endpoint.
+- **R-81:29** [reading; support strong, relevance high] inter-ayah target
+  - finding: The exact title رَبِّ ٱلْعَٰلَمِينَ appears where human willing is made dependent on God's will, so universal lordship is linked to the limits of human agency.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 81:29 «وَمَا تَشَآءُونَ إِلَّآ أَن يَشَآءَ ٱللَّهُ رَبُّ ٱلْعَٰلَمِينَ»
+  - activation: The shared epithet directly follows the statement about whose will governs human willing.
+  - limits: This parallel does not explain the precise relation between human choice and divine will.
+- **R-83:6** [reading; support strong, relevance high] inter-ayah target
+  - finding: The exact title رَبِّ ٱلْعَٰلَمِينَ is invoked as the one before whom all people stand, giving the focus's universal lordship an explicit scene of accountability.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 83:5 «لِيَوْمٍ عَظِيمٍۢ»; 83:6 «يَوْمَ يَقُومُ ٱلنَّاسُ لِرَبِّ ٱلْعَٰلَمِينَ»
+  - activation: The identical title occurs in a day-of-standing scene for الناس.
+  - limits: The focus alone does not specify standing or judgment.
+- **R-83:15** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Lord of the worlds is also called their Lord when some are screened from Him; paired with 83:6, the passage places universal standing and denied access within the same judgment scene.
+  - evidence: 83:6 «يَوْمَ يَقُومُ ٱلنَّاسُ لِرَبِّ ٱلْعَٰلَمِينَ»; 83:15 «كَلَّآ إِنَّهُمْ عَن رَّبِّهِمْ يَوْمَئِذٍۢ لَّمَحْجُوبُونَ»
+  - activation: Both verses name Rabb in their descriptions of that day.
+  - limits: The passage does not say that everyone has the same experience of standing before or being screened from the Lord.
+- **R-84:5** [reading; support strong, relevance high] inter-ayah target
+  - finding: The earth is described as having obeyed its Lord just before the human addressee is told of striving toward his Lord; this makes a domain within ٱلْعَٰلَمِينَ an active respondent to lordship.
+  - evidence: 84:5 «وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ»; 84:6 «إِنَّكَ كَادِحٌ إِلَىٰ رَبِّكَ كَدْحًۭا فَمُلَٰقِيهِ»
+  - activation: The adjacent verses move from the earth's response to the human's encounter with Rabb.
+  - limits: The passage does not equate the earth with all the worlds or explain how its obedience compares with human striving.
+- **R-85:8** [reading; support strong, relevance high] inter-ayah target
+  - finding: The root of ٱلْحَمْدُ recurs in ٱلْحَمِيدِ as a divine epithet in a persecution scene: the believers are targeted for faith in the Mighty, Praiseworthy God.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ»; 85:8 «إِلَّآ أَن يُؤْمِنُوا۟ بِٱللَّهِ ٱلْعَزِيزِ ٱلْحَمِيدِ»
+  - activation: The focus's noun hamd and the epithet al-ḥamīd share the root ح م د.
+  - limits: The verse does not say that the persecutors praise God; it names Him as Praiseworthy while recounting their opposition.
+- **R-85:12** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Lord named in the focus is presented in another scene through the severe force of His grip, adding judgment to the range of actions associated with Rabb.
+  - evidence: 85:11 «ذَٰلِكَ ٱلْفَوْزُ ٱلْكَبِيرُ»; 85:12 «إِنَّ بَطْشَ رَبِّكَ لَشَدِيدٌ»
+  - activation: The same title Rabb occurs after the promise of victory to believers and before further divine attributes.
+  - limits: The focus does not specify punishment, and this verse addresses the Prophet with a possessive form of Rabb.
+- **R-85:15** [reading; support strong, relevance high] inter-ayah target
+  - finding: The surrounding attribute sequence pairs the Lord's severe grip with forgiveness, affection, possession of the Throne, majesty, and effective will; it places Rabb al-ʿālamīn in a portrait of sovereign power and mercy.
+  - evidence: 85:12 «إِنَّ بَطْشَ رَبِّكَ لَشَدِيدٌ»; 85:14 «وَهُوَ ٱلْغَفُورُ ٱلْوَدُودُ»; 85:15 «ذُو ٱلْعَرْشِ ٱلْمَجِيدُ»; 85:16 «فَعَّالٌۭ لِّمَا يُرِيدُ»
+  - activation: The focus's Rabb title meets a tightly linked sequence of divine descriptions in this passage.
+  - limits: These attributes are not grammatically attached to Rabb in 1:2.
+- **R-87:1** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus's declarative al-ḥamd is paralleled by a command to glorify the name of one's Lord; the two passages place praise and glorification beside the title Rabb.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 87:1 «سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى»
+  - activation: Both passages join a devotional act to a Rabb title.
+  - limits: Tasbīḥ and ḥamd are distinct words and acts; this parallel does not make them synonyms.
+- **R-89:14** [reading; support strong, relevance high] inter-ayah target
+  - finding: The passage places Rabb at ٱلْمِرْصَادِ and then shows a person reading honor and provision as proof of his standing; this complicates any reading of lordship as benefit alone.
+  - evidence: 89:14 «إِنَّ رَبَّكَ لَبِٱلْمِرْصَادِ»; 89:15 «فَأَكْرَمَهُۥ وَنَعَّمَهُۥ فَيَقُولُ رَبِّىٓ أَكْرَمَنِ»
+  - activation: The named Lord and the following human interpretation of provision occur in one sequence.
+  - limits: The focus does not mention surveillance or explain the meaning of ٱلْمِرْصَادِ.
+- **R-89:22** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Lord of the focus is presented in an end-time scene as coming with the angels in ranks, giving the broad title an eschatological manifestation.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 89:22 «وَجَآءَ رَبُّكَ وَٱلْمَلَكُ صَفًّۭا صَفًّۭا»; 89:23 «وَجِا۟ىٓءَ يَوْمَئِذٍۭ بِجَهَنَّمَ»
+  - activation: The Rabb title appears in a scene of the Day and its consequences.
+  - limits: This wording does not settle how the coming is to be understood, and the focus gives no such scene.
+- **R-89:28** [reading; support strong, relevance high] inter-ayah target
+  - finding: إِلَىٰ رَبِّكِ رَاجِعِيٓ links the Lord of all worlds with an individual soul's return, adding a personal address to the focus's universal scope.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 89:27 «يَٰٓأَيَّتُهَا ٱلنَّفْسُ ٱلْمُطْمَئِنَّةُ»; 89:28 «ٱرْجِعِىٓ إِلَىٰ رَبِّكِ رَاضِيَةًۭ مَّرْضِيَّةًۭ»
+  - activation: The broad title and the singular address both use Rabb; here the soul is told to return to Him.
+  - limits: This address to the tranquil soul does not describe every individual's return in the same terms.
+- **R-93:3** [reading; support strong, relevance high] inter-ayah target
+  - finding: Here Rabb names a bond of non-abandonment: the focus's broad lordship can be heard alongside continuing care for a particular addressee.
+  - evidence: 93:3 «مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ»
+  - activation: Rabb is the subject of a direct reassurance about the addressee's relation to God.
+  - limits: The assurance is addressed to the Prophet and is not stated in the focus.
+- **R-93:5** [reading; support strong, relevance high] inter-ayah target
+  - finding: وَلَسَوْفَ يُعْطِيكَ رَبُّكَ presents the Lord as a future giver whose giving reaches the addressee's satisfaction.
+  - evidence: 93:5 «وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ»; 93:6 «أَلَمْ يَجِدْكَ يَتِيمًۭا فَـَٔاوَىٰ»
+  - activation: The passage connects Rabb with a promised gift and recalls earlier care.
+  - limits: This promise to one addressee does not specify what ٱلْعَٰلَمِينَ means in the focus.
+- **R-93:11** [reading; support strong, relevance high] inter-ayah target
+  - finding: The favor is attributed to Rabb and then made the subject of public speech, an explicit bridge from lordship to voiced acknowledgment akin to al-ḥamd.
+  - evidence: 93:11 «وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ»
+  - activation: The verse joins Rabb's favor to a command to speak of it.
+  - limits: It does not use the word al-ḥamd or say every mention takes the same form.
+- **R-96:1** [reading; support strong, relevance high] inter-ayah target
+  - finding: The title Rabb is linked directly to creating in ٱلَّذِى خَلَقَ; this gives the focus's lordship a concrete creative relation.
+  - evidence: 96:1 «ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ»; 96:2 «خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ»
+  - activation: The relative clause identifies the addressed Lord by the act of creation.
+  - limits: The focus itself does not state how creation relates to lordship.
+- **R-96:3** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Lord is explicitly called ٱلْأَكْرَمُ, adding generosity to the Rabb title that the focus places at the head of the worlds.
+  - evidence: 96:3 «وَرَبُّكَ ٱلْأَكْرَمُ»
+  - activation: The verse predicates a quality directly of Rabb.
+  - limits: The focus does not name this quality or a particular recipient of it.
+- **R-96:4** [reading; support strong, relevance high] inter-ayah target
+  - finding: The relative clause following Rabb al-akram identifies teaching by the pen as a divine act, giving lordship an instructional dimension.
+  - evidence: 96:3 «وَرَبُّكَ ٱلْأَكْرَمُ»; 96:4 «ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ»
+  - activation: The relative clause grammatically continues the description of Rabb in 96:3.
+  - limits: The focus does not mention teaching or the pen.
+- **R-99:5** [reading; support strong, relevance high] inter-ayah target
+  - finding: The earth receives its Lord's inspiration and reports its news; a domain within the focus's worlds is shown responding to divine direction.
+  - evidence: 99:4 «يَوْمَئِذٍۢ تُحَدِّثُ أَخْبَارَهَا»; 99:5 «بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا»
+  - activation: The earth's disclosure is explained by what its Lord revealed to it.
+  - limits: This scene does not establish that all domains named in ٱلْعَٰلَمِينَ speak or receive inspiration.
+- **R-100:6** [reading; support strong, relevance high] inter-ayah target
+  - finding: إِنَّ ٱلْإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٌۭ gives a negative counterpart to the focus: praise is assigned to God, while the human is described as ungrateful toward his Lord.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 100:6 «إِنَّ ٱلْإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٌۭ»
+  - activation: The verse names the human's response to his Lord in terms opposite to grateful acknowledgment.
+  - limits: The passage does not present كَنُود as a technical antonym of حَمْد.
+- **R-106:3** [reading; support strong, relevance high] inter-ayah target
+  - finding: رَبَّ هَٰذَا ٱلْبَيْتِ qualifies the Rabb title by a particular sanctuary; the Lord of all worlds is also addressed through a specific communal place of worship.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 106:3 «فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ»
+  - activation: Both passages use Rabb, while this one attaches it to the House and commands worship.
+  - limits: The passage does not say the House exhausts or defines the worlds named in the focus.
+- **R-106:4** [reading; support strong, relevance high] inter-ayah target
+  - finding: Food and security are named as gifts of the Lord of the House and as the context for worship; these concrete benefits give the focus's praise and lordship an experiential setting.
+  - evidence: 106:3 «فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ»; 106:4 «ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ»
+  - activation: The relative clause explains the Lord's relation to the Quraysh through feeding and safety.
+  - limits: The passage does not explicitly call these benefits praise or use the word al-ḥamd.
+- **R-110:3** [reading; support strong, relevance high] inter-ayah target
+  - finding: فَسَبِّحْ بِحَمْدِ رَبِّكَ gathers the focus's hamd and Rabb in a command: the foundational praise becomes an instructed response after people enter God's religion.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 110:2 «وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًۭا»; 110:3 «فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ»
+  - activation: The verse explicitly joins ḥamd and Rabb, the two terms central to the focus.
+  - limits: The later command adds tasbīḥ and seeking forgiveness, which are not stated in 1:2.
+- **R-114:1** [reading; support strong, relevance high] inter-ayah target
+  - finding: رَبِّ ٱلنَّاسِ narrows the focus's broad Rabb al-ʿālamīn to humanity and presents lordship as a source of refuge; the following titles add kingship and divinity over the same people.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 114:1 «قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ»; 114:2 «مَلِكِ ٱلنَّاسِ»
+  - activation: The repeated Rabb title is given a human domain and a protective function in the refuge formula.
+  - limits: The passage does not say that people exhaust ٱلْعَٰلَمِينَ.
+- **related_4.X1** [reading; support strong, relevance high] 
+  - finding: The exact title Rabb al-ʿālamīn occurs in a statement limiting human willing by God's will and in a scene of all people standing before Him; together these make the focus's universal lordship connect dependence with accountability.
+  - evidence: 81:29 «وَمَا تَشَآءُونَ إِلَّآ أَن يَشَآءَ ٱللَّهُ رَبُّ ٱلْعَٰلَمِينَ»; 83:6 «يَوْمَ يَقُومُ ٱلنَّاسُ لِرَبِّ ٱلْعَٰلَمِينَ»; 1:2 «رَبِّ ٱلْعَٰلَمِينَ»
+  - activation: The same full epithet appears in both passages, but under distinct conditions: human willing and final standing.
+  - limits: The shared title does not itself state a causal link between willing and the day of standing.
+- **related_4.X2** [reading; support strong, relevance high] 
+  - finding: In 84:5 and 99:5, the earth obeys its Lord and later reports its news by His direction; read together, these scenes make a domain of the worlds an actor in divine governance.
+  - evidence: 84:5 «وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ»; 99:4 «يَوْمَئِذٍۢ تُحَدِّثُ أَخْبَارَهَا»; 99:5 «بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا»; 1:2 «رَبِّ ٱلْعَٰلَمِينَ»
+  - activation: Both scenes identify the earth's response in relation to its Lord, offering a concrete domain beneath the focus's plural worlds.
+  - limits: The passages depict different scenes and do not establish that all worlds act like the earth.
+- **R-18:38** [reading; support medium, relevance high] inter-ayah target
+  - finding: After recalling human creation, the speaker says Allah is his Lord and refuses to associate anyone with Him. The focus’s universal Rabb title is voiced here as personal allegiance and exclusive worship.
+  - evidence: 18:37 «أَكَفَرْتَ بِٱلَّذِى خَلَقَكَ مِن تُرَابٍۢ ثُمَّ مِن نُّطْفَةٍۢ ثُمَّ سَوَّىٰكَ رَجُلًۭا»; 18:38 «لَّٰكِنَّا۠ هُوَ ٱللَّهُ رَبِّى وَلَآ أُشْرِكُ بِرَبِّىٓ أَحَدًۭا»; 1:2 «رَبِّ ٱلْعَٰلَمِينَ»
+  - activation: The focus names Allah as Rabb; the scene connects that title to creation and refusal of shirk.
+  - limits: The personal confession does not itself state the universal scope expressed by al-alamin.
+- **R-18:50** [reading; support medium, relevance high] inter-ayah target
+  - finding: Iblis breaks from his Lord’s command, and the passage warns against taking him and his descendants as allies. This supplies a sharp allegiance contrast beside the focus’s praise of the Lord of all worlds.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 18:50 «فَفَسَقَ عَنْ أَمْرِ رَبِّهِۦٓ ۗ أَفَتَتَّخِذُونَهُۥ وَذُرِّيَّتَهُۥٓ أَوْلِيَآءَ مِن دُونِى وَهُمْ لَكُمْ عَدُوٌّۢ»
+  - activation: The same title Rabb appears in a scene where disobedience and rival allegiance are explicit.
+  - limits: The focus does not mention Iblis or allies; the relationship is a contrast in allegiance, not an identification of the passages’ scenes.
+- **R-18:82** [reading; support medium, relevance high] inter-ayah target
+  - finding: The Lord arranges for two orphans to reach maturity and recover their treasure, calling this mercy. The focus’s universal Rabb title can be heard through this particular mode of care and nurture.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 18:82 «فَأَرَادَ رَبُّكَ أَن يَبْلُغَآ أَشُدَّهُمَا وَيَسْتَخْرِجَا كَنزَهُمَا رَحْمَةًۭ مِّن رَّبِّكَ»
+  - activation: The repeated Rabb and explicit mercy connect universal lordship to protection of vulnerable people.
+  - limits: The episode illustrates one act of care; it does not exhaust the scope of al-alamin.
+- **R-18:95** [reading; support medium, relevance high] inter-ayah target
+  - finding: When offered payment to build a barrier, Dhu al-Qarnayn says what his Lord has granted is better and asks for help with strength. The focus’s Rabb title resonates with provision that enables public service rather than private payment.
+  - evidence: 18:94 «فَهَلْ نَجْعَلُ لَكَ خَرْجًا عَلَىٰٓ أَن تَجْعَلَ بَيْنَنَا وَبَيْنَهُمْ سَدًّۭا»; 18:95 «قَالَ مَا مَكَّنِّى فِيهِ رَبِّى خَيْرٌۭ فَأَعِينُونِى بِقُوَّةٍ»; 1:2 «رَبِّ ٱلْعَٰلَمِينَ»
+  - activation: The offer and reply set human payment against what the Lord has already granted.
+  - limits: This episode offers one model of divinely granted capacity; it does not state that the focus refers to this act.
+- **R-18:109** [reading; support medium, relevance high] inter-ayah target
+  - finding: The sea would be exhausted before the words of the Lord ran out. This places the Lord named in 1:2 beyond the measure of the created world and its resources.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 18:109 «قُل لَّوْ كَانَ ٱلْبَحْرُ مِدَادًۭا لِّكَلِمَٰتِ رَبِّى لَنَفِدَ ٱلْبَحْرُ قَبْلَ أَن تَنفَدَ كَلِمَٰتُ رَبِّى»
+  - activation: Both passages name God through Rabb; 18:109 contrasts the finite sea with inexhaustible divine words.
+  - limits: The focus alone does not state that the Lord’s words are inexhaustible; 18:109 supplies that image.
+- **R-21:32** [reading; support medium, relevance high] inter-ayah target
+  - finding: The passage names the sky as a protected ceiling, then says people turn away from its signs; the next verse lists night, day, sun, and moon in ordered motion. The focus’s al-alamin can be heard against this differentiated, sign-bearing cosmos and its ignored signs.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 21:32 «وَجَعَلْنَا ٱلسَّمَآءَ سَقْفًۭا مَّحْفُوظًۭا ۖ وَهُمْ عَنْ ءَايَٰتِهَا مُعْرِضُونَ»; 21:33 «وَهُوَ ٱلَّذِى خَلَقَ ٱلَّيْلَ وَٱلنَّهَارَ وَٱلشَّمْسَ وَٱلْقَمَرَ ۖ كُلٌّۭ فِى فَلَكٍۢ يَسْبَحُونَ»
+  - activation: The focus names the Lord of all worlds; this passage displays celestial order and an audience turning away from its signs.
+  - limits: The passage does not use al-alamin or explicitly call the sky a world.
+- **R-25:77** [reading; support medium, relevance high] inter-ayah target
+  - finding: The target asks what regard people would have with their Lord without their supplication. The Fatiha moves from praise in 1:2 to worship, seeking help, and asking for guidance; this target gives that prayerful turn human significance before the Lord.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 25:77 «قُلْ مَا يَعْبَؤُا۟ بِكُمْ رَبِّى لَوْلَا دُعَآؤُكُمْ»
+  - activation: The Fatiha’s praise opens into worship and petition; 25:77 makes supplication the stated ground of regard.
+  - limits: The target does not specify that its دعاء means the Fatiha or praise in particular.
+- **R-27:26** [reading; support medium, relevance high] inter-ayah target
+  - finding: The passage moves from prostration to Allah, who brings forth hidden things and knows what people conceal, to Allah as Lord of the mighty throne. This offers a throne-centered counterpart to the focus’s universal Rabb title within a dispute about whom to worship.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 27:25 «أَلَّا يَسْجُدُوا۟ لِلَّهِ ٱلَّذِى يُخْرِجُ ٱلْخَبْءَ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَيَعْلَمُ مَا تُخْفُونَ وَمَا تُعْلِنُونَ»; 27:26 «ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ»
+  - activation: The nearby passage supplies exclusive worship, cosmic action, and a Rabb title with a different stated domain.
+  - limits: The target says Lord of the mighty throne, not Lord of all worlds; the passages do not equate those expressions.
+- **R-37:79** [reading; support medium, relevance high] inter-ayah target
+  - finding: The salutation سَلَٰمٌ عَلَىٰ نُوحٍۢ فِى ٱلْعَٰلَمِينَ uses the focus’s same noun in a scene of prophetic remembrance, bringing the inhabitants or communities among whom Noah is honored into the range of العالمين.
+  - evidence: 37:79 «سَلَٰمٌ عَلَىٰ نُوحٍۢ فِى ٱلْعَٰلَمِينَ»
+  - activation: The surah’s sequence of messenger stories culminates in peace upon Noah among العالمين.
+  - limits: This phrase does not settle whether العالمين in 1:2 means communities, created realms, or encompasses both.
+- **R-43:14** [reading; support medium, relevance high] inter-ayah target
+  - finding: Travelers acknowledge that they will return to their Lord, while the next verse calls assigning Him a share from His servants clear ingratitude; the sequence sets acknowledgment of return against a false attribution to Allah.
+  - evidence: 43:13 «سُبْحَٰنَ ٱلَّذِى سَخَّرَ لَنَا هَٰذَا وَمَا كُنَّا لَهُۥ مُقْرِنِينَ»; 43:14 «وَإِنَّآ إِلَىٰ رَبِّنَا لَمُنقَلِبُونَ»; 43:15 «وَجَعَلُوا۟ لَهُۥ مِنْ عِبَادِهِۦ جُزْءًا ۚ إِنَّ ٱلْإِنسَٰنَ لَكَفُورٌۭ مُّبِينٌ»
+  - activation: The travel prayer names Allah’s control and the travelers’ return; the next ayah condemns an attribution made to Him.
+  - limits: The focus does not state the return-to-Allah motif or the specific false attribution in this passage.
+- **R-46:25** [reading; support medium, relevance high] inter-ayah target
+  - finding: The destructive wind acts بِأَمْرِ رَبِّهَا, showing a natural force as an agent operating by its Lord’s command; the focus’s title can be heard against this concrete instance of governance.
+  - evidence: 46:25 «تُدَمِّرُ كُلَّ شَىْءٍۭ بِأَمْرِ رَبِّهَا فَأَصْبَحُوا۟ لَا يُرَىٰٓ إِلَّا مَسَٰكِنُهُمْ»
+  - activation: The wind’s destruction and the remnant of dwellings are explicitly tied to its Lord’s command.
+  - limits: The verse does not use the phrase رب العالمين or identify the wind as one of the meanings of العالمين.
+- **R-68:52** [reading; support medium, relevance high] inter-ayah target
+  - finding: The Quran is described as ذِكْرٌۭ لِّلْعَٰلَمِينَ, using the focus’s same noun for those to whom a reminder is addressed; the Lord of all worlds is thus paired elsewhere with a message directed to the alamin.
+  - evidence: 68:52 «وَمَا هُوَ إِلَّا ذِكْرٌۭ لِّلْعَٰلَمِينَ»
+  - activation: The phrase assigns a universal audience to the reminder.
+  - limits: This occurrence does not identify precisely who is included in العالمين.
+- **R-3:79** [open; support medium, relevance high] inter-ayah target
+  - finding: رَبَّٰنِيِّۦنَ shares the ر ب ب root visible in رَبِّ, which may connect the Lord of all worlds with a human formation oriented to scripture and its teaching.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 3:79 «وَلَٰكِن كُونُوا۟ رَبَّٰنِيِّۦنَ بِمَا كُنتُمْ تُعَلِّمُونَ ٱلْكِتَٰبَ وَبِمَا كُنتُمْ تَدْرُسُونَ»
+  - missing: A dictionary account of رَبَّانِيّ and its relation to رَبّ is needed to establish whether this is a meaningful lexical bridge or only a shared root; that sense could clarify what the human designation adds here.
+- **R-15:87** [open; support medium, relevance high] inter-ayah target
+  - finding: سَبْعًۭا مِّنَ ٱلْمَثَانِى may point to the Fatiha, which contains the focus ayah; if so, 1:2 belongs to a passage identified as repeatedly recited.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 15:87 «وَلَقَدْ ءَاتَيْنَٰكَ سَبْعًۭا مِّنَ ٱلْمَثَانِى»
+  - missing: The verse does not name the seven or identify them with the Fatiha; that identification and whether it includes this ayah require further Quranic context or lexical/exegetical evidence.
+- **R-26:188** [open; support medium, relevance high] inter-ayah target
+  - finding: Shuayb says his Lord knows what the people do; after their denial comes the punishment of the day of shadow, and the surah then names the Quran as revelation from the Lord of all worlds. This may connect divine knowledge of deeds, judgment, and revelation under the focus’s Lord title.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 26:188 «قَالَ رَبِّىٓ أَعْلَمُ بِمَا تَعْمَلُونَ»; 26:189 «فَكَذَّبُوهُ فَأَخَذَهُمْ عَذَابُ يَوْمِ ٱلظُّلَّةِ»; 26:192 «وَإِنَّهُۥ لَتَنزِيلُ رَبِّ ٱلْعَٰلَمِينَ»
+  - missing: The text gives a narrative transition from Shuayb’s episode to the revelation statement, but no explicit marker equates his personal Rabb with the title in 26:192. A clearer link between the prophetic warnings and the surah’s account of revelation could decide whether this chain is intentional.
+- **R-29:50** [open; support medium, relevance high] inter-ayah target
+  - finding: The people demand signs from their Lord; the reply says signs belong to Allah and defines the messenger as a clear warner. The nearby claim that the recited Book suffices may connect the focus’s Lord title to revelation and the limits of a messenger’s control over signs.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 29:50 «وَقَالُوا۟ لَوْلَآ أُنزِلَ عَلَيْهِ ءَايَٰتٌۭ مِّن رَّبِّهِۦ ۖ قُلْ إِنَّمَا ٱلْءَايَٰتُ عِندَ ٱللَّهِ وَإِنَّمَآ أَنَا۠ نَذِيرٌۭ مُّبِينٌ»; 29:51 «أَوَلَمْ يَكْفِهِمْ أَنَّآ أَنزَلْنَا عَلَيْكَ ٱلْكِتَٰبَ يُتْلَىٰ عَلَيْهِمْ»
+  - missing: The focus contains no messenger, sign, or Book language. A clearer Quranic link between Rabb al-alamin and the authority over revealed signs could establish whether this is more than a shared divine-source frame.
+- **R-64:4** [open; support medium, relevance high] inter-ayah target
+  - finding: The sequence from creating the heavens and earth to knowing what they contain and what people conceal could let the focus’s العالمين be heard as domains under both creative rule and knowledge, including hidden human interiors.
+  - evidence: 64:3 «خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ»; 64:4 «يَعْلَمُ مَا فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَيَعْلَمُ مَا تُسِرُّونَ وَمَا تُعْلِنُونَ»
+  - missing: A lexical or textual link showing that العالمين in 1:2 includes these domains of hidden knowledge is missing; another عالمين occurrence joined to knowledge or signs could clarify the connection.
+- **R-78:39** [open; support medium, relevance high] inter-ayah target
+  - finding: The broad title Rabb al-ʿālamīn may also frame the Lord as the destination of a person's return, a relation made explicit across 78:39 and 79:44.
+  - evidence: 78:39 «فَمَن شَآءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ مَـَٔابًا»; 79:44 «إِلَىٰ رَبِّكَ مُنتَهَىٰهَآ»
+  - missing: The shared Rabb title supports the pattern, but neither verse connects the return explicitly to the worlds named in 1:2. An ayah joining Rabb al-ʿālamīn with return or final destination could establish that link.
+- **R-83:11** [open; support medium, relevance high] inter-ayah target
+  - finding: This verse names the Day of Recompense, a phrase also present in al-Fātiḥa 1:4; it may extend the focus's Rabb al-ʿālamīn toward the judgment that follows within the Fātiḥa's sequence.
+  - evidence: 83:11 «ٱلَّذِينَ يُكَذِّبُونَ بِيَوْمِ ٱلدِّينِ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»
+  - missing: The exact phrase links 83:11 to 1:4, but no wording here links the Day of Recompense back to Rabb al-ʿālamīn in 1:2. An ayah explicitly joining that title to the Day of Recompense could supply the bridge.
+- **R-92:19** [open; support medium, relevance high] inter-ayah target
+  - finding: The sequence may let the focus's praise be heard as due without being repayment: the giver has no favor to repay, and acts instead in pursuit of the Lord's face.
+  - evidence: 92:19 «وَمَا لِأَحَدٍ عِندَهُۥ مِن نِّعْمَةٍۢ تُجْزَىٰٓ»; 92:20 «إِلَّا ٱبْتِغَآءَ وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ»
+  - missing: These verses distinguish repayment from seeking the Lord, but do not mention ḥamd. A passage that explicitly joins praise to non-repayment could establish the proposed reading.
+- **R-95:8** [open; support medium, relevance high] inter-ayah target
+  - finding: After naming the Day of Recompense, this passage asks whether Allah is the best of judges; it may connect the focus's divine lordship to judgment, as the Fātiḥa later names the Owner of that Day.
+  - evidence: 95:7 «فَمَا يُكَذِّبُكَ بَعْدُ بِٱلدِّينِ»; 95:8 «أَلَيْسَ ٱللَّهُ بِأَحْكَمِ ٱلْحَٰكِمِينَ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»
+  - missing: The passages link Allah to judgment, but this item does not connect that role directly to Rabb al-ʿālamīn in 1:2. An ayah joining the Rabb title with judgment could supply the link.
+- **R-17:79** [reading; support strong, relevance medium] inter-ayah target
+  - finding: مَقَامًۭا مَّحْمُودًۭا is a praised station described as something the Lord may grant the Prophet; the shared ح م د root complements 1:2’s universal praise of Allah with a human station characterized as praiseworthy.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ»; 17:79 «عَسَىٰٓ أَن يَبْعَثَكَ رَبُّكَ مَقَامًۭا مَّحْمُودًۭا»
+  - activation: The noun ٱلْحَمْدُ and adjective مَّحْمُودًا share the ح م د root, while رَبُّكَ is named as the one who raises the Prophet.
+  - limits: The verse does not state who praises this station or equate it with the praise due to Allah.
+- **R-97:4** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The angels and the Spirit descend by their Lord's permission for every affair; this extends the Rabb relation to unseen agents and the ordering of affairs.
+  - evidence: 97:4 «تَنَزَّلُ ٱلْمَلَٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍۢ»; 1:2 «رَبِّ ٱلْعَٰلَمِينَ»
+  - activation: The plural possessive رَبِّهِم governs the angels' descent and its scope.
+  - limits: The passage does not state that ٱلْعَٰلَمِينَ specifically refers to angels or these affairs.
+
+Notes:
+- R-34:6 [support strong, relevance medium] The revealed truth guides to صِرَٰطِ ٱلْعَزِيزِ ٱلْحَمِيدِ, pairing the praised divine quality with guidance from the Lord who sent revelation.
+- R-44:20 [support strong, relevance medium] Moses seeks refuge بِرَبِّى وَرَبِّكُمْ while addressing the people threatening him, presenting the Lord as protector of both sides of the confrontation.
+- R-55:46 [support strong, relevance medium] Fear of the Lord’s station is followed by two gardens, placing the focus’s Lord title in a frame of accountability and reward.
+- R-74:3 [support strong, relevance medium] The command وَرَبَّكَ فَكَبِّرْ makes magnifying the Lord an early instruction in the surah’s program of warning and purification.
+- R-74:31 [support strong, relevance medium] The number and nature of the Lord’s forces are known to Allah alone, placing the focus’s Lordship alongside a stated limit on human knowledge of His armies.
+- R-75:30 [support strong, relevance medium] On that day, the journey ends إِلَىٰ رَبِّكَ, giving the Lord title a personal destination within the resurrection scene.
+- R-79:19 [support strong, relevance medium] Here Rabb is the one Moses directs Pharaoh toward, with fear as the intended response; the title in 1:2 can therefore sit alongside a personal call to recognize the Lord.
+- R-92:20 [support strong, relevance medium] The Lord appears as the one whose face is sought as the motive for giving; this gives a concrete form of orientation toward the Rabb praised in the focus.
+- R-94:8 [support strong, relevance medium] وَإِلَىٰ رَبِّكَ فَٱرْغَب directs desire toward the same Lord to whom the focus assigns praise.
+- R-100:11 [support strong, relevance medium] After the passage exposes ingratitude and what is hidden in hearts, it says their Lord is fully aware of them on that day; the Rabb relation includes knowledge of inward response.
+- R-108:2 [support strong, relevance medium] Prayer and sacrifice are directed to one's Lord after the mention of abundant gift, extending the focus's praise-to-Rabb relation into acts of worship.
+- R-1:6 [support medium, relevance medium] The request ٱهْدِنَا follows the declaration of worship and reliance, making guidance a concrete need within the relation to the Lord praised in 1:2.
+- R-1:7 [support medium, relevance medium] The path request is specified by a community marked by favor and by two contrary outcomes; this gives a moral and communal contour to the guidance sought after praising the Lord of all worlds.
+- R-7:125 [support medium, relevance medium] Under Pharaoh’s threat, the believers answer that they return to رَبِّنَا; the passage gives Rabb an ultimate-destination force that can sit beside the Fatiha’s later title مَٰلِكِ يَوْمِ ٱلدِّينِ.
+- R-16:75 [support medium, relevance medium] After asking whether the incapable slave and the provisioned spender are equal, the verse says ٱلْحَمْدُ لِلَّهِ; here praise follows a contrast in capacity and giving, though the focus ayah names no such contrast.
+- R-18:27 [support medium, relevance medium] The Book is called the Book of the addressee’s Lord, whose words have no replacer. This gives a revealed-speech setting for the Rabb title in 1:2.
+- R-18:40 [support medium, relevance medium] The speaker expects his Lord may grant a better garden or send a disaster upon the existing one. This makes lordship concrete in control over livelihood and land.
+- R-23:72 [support medium, relevance medium] The target says the provision of your Lord is better than a possible human fee. It gives the Rabb title in 1:2 a material setting of sufficiency and provision.
+- R-23:93 [support medium, relevance medium] The speaker addresses God as Rabb while asking about a promised event and pleading not to be placed among wrongdoers. This is a personal supplication under the universal lordship named in 1:2.
+- R-23:98 [support medium, relevance medium] The speaker repeats Rabb while seeking refuge from the devils’ presence. Beside the Fatiha’s movement from praise to seeking help and guidance, this is another personal appeal to the Lord.
+- R-37:41 [support medium, relevance medium] The sincere servants have رِزْقٌۭ مَّعْلُومٌۭ, followed by fruit and honor, presenting provision as one concrete relation between Allah and His servants.
+- R-38:79 [support medium, relevance medium] Even Iblis addresses Allah as رَبِّ while asking for respite, placing his request under the authority he has defied.
+- R-39:31 [support medium, relevance medium] The disputing parties are gathered عِندَ رَبِّكُمْ on the Day of Resurrection, placing the focus’s universal Lordship in a final scene where all parties answer before their Lord.
+- R-39:69 [support medium, relevance medium] At the judgment scene, the earth shines بِنُورِ رَبِّهَا, presenting the earthly domain under its Lord as judgment is carried out.
+- R-52:37 [support medium, relevance medium] The rhetorical questions about the Lord’s خزائن and whether the audience are المُصَيْطِرُونَ place possession and control in view, concrete aspects of the focus’s title ربّ.
+- R-55:32 [support medium, relevance medium] The question فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ addresses both jinn and humans after their challenge to pass beyond the bounds of heavens and earth, linking denial of favor with creaturely limits.
+- R-55:34 [support medium, relevance medium] The repeated question about the two groups’ favors comes after the warning of fire and molten copper, retaining the language of favor even as the passage announces punishment.
+- R-56:74 [support medium, relevance medium] After describing fire as a reminder and provision, the verse commands فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ, offering glorification as a response to signs of dependence.
+- R-69:52 [support medium, relevance medium] After affirming the message as true certainty, the Prophet is commanded to glorify by the name of his عظِيم Lord, making glorification the response to revelation’s confirmation.
+- R-71:28 [support medium, relevance medium] Noah’s closing prayer addresses his Lord on behalf of himself, his parents, believers entering his house, and believing men and women, making a particular community the object of supplication to Rabb.
+- R-36:25 [support medium, relevance low] The threatened speaker publicly says ءَامَنتُ بِرَبِّكُمْ, making belief in the Lord a spoken allegiance in a scene of opposition.
+
+## 3. Text of cited ayat outside the surah and the Fatiha
+
+- 2:5 أُو۟لَٰٓئِكَ عَلَىٰ هُدًۭى مِّن رَّبِّهِمْ ۖ وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ
+- 2:131 إِذْ قَالَ لَهُۥ رَبُّهُۥٓ أَسْلِمْ ۖ قَالَ أَسْلَمْتُ لِرَبِّ ٱلْعَٰلَمِينَ
+- 2:139 قُلْ أَتُحَآجُّونَنَا فِى ٱللَّهِ وَهُوَ رَبُّنَا وَرَبُّكُمْ وَلَنَآ أَعْمَٰلُنَا وَلَكُمْ أَعْمَٰلُكُمْ وَنَحْنُ لَهُۥ مُخْلِصُونَ
+- 3:51 إِنَّ ٱللَّهَ رَبِّى وَرَبُّكُمْ فَٱعْبُدُوهُ ۗ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ
+- 3:79 مَا كَانَ لِبَشَرٍ أَن يُؤْتِيَهُ ٱللَّهُ ٱلْكِتَٰبَ وَٱلْحُكْمَ وَٱلنُّبُوَّةَ ثُمَّ يَقُولَ لِلنَّاسِ كُونُوا۟ عِبَادًۭا لِّى مِن دُونِ ٱللَّهِ وَلَٰكِن كُونُوا۟ رَبَّٰنِيِّۦنَ بِمَا كُنتُمْ تُعَلِّمُونَ ٱلْكِتَٰبَ وَبِمَا كُنتُمْ تَدْرُسُونَ
+- 3:188 لَا تَحْسَبَنَّ ٱلَّذِينَ يَفْرَحُونَ بِمَآ أَتَوا۟ وَّيُحِبُّونَ أَن يُحْمَدُوا۟ بِمَا لَمْ يَفْعَلُوا۟ فَلَا تَحْسَبَنَّهُم بِمَفَازَةٍۢ مِّنَ ٱلْعَذَابِ ۖ وَلَهُمْ عَذَابٌ أَلِيمٌۭ
+- 4:131 وَلِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ وَلَقَدْ وَصَّيْنَا ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ مِن قَبْلِكُمْ وَإِيَّاكُمْ أَنِ ٱتَّقُوا۟ ٱللَّهَ ۚ وَإِن تَكْفُرُوا۟ فَإِنَّ لِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ وَكَانَ ٱللَّهُ غَنِيًّا حَمِيدًۭا
+- 5:28 لَئِنۢ بَسَطتَ إِلَىَّ يَدَكَ لِتَقْتُلَنِى مَآ أَنَا۠ بِبَاسِطٍۢ يَدِىَ إِلَيْكَ لِأَقْتُلَكَ ۖ إِنِّىٓ أَخَافُ ٱللَّهَ رَبَّ ٱلْعَٰلَمِينَ
+- 6:1 ٱلْحَمْدُ لِلَّهِ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَجَعَلَ ٱلظُّلُمَٰتِ وَٱلنُّورَ ۖ ثُمَّ ٱلَّذِينَ كَفَرُوا۟ بِرَبِّهِمْ يَعْدِلُونَ
+- 6:45 فَقُطِعَ دَابِرُ ٱلْقَوْمِ ٱلَّذِينَ ظَلَمُوا۟ ۚ وَٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+- 6:71 قُلْ أَنَدْعُوا۟ مِن دُونِ ٱللَّهِ مَا لَا يَنفَعُنَا وَلَا يَضُرُّنَا وَنُرَدُّ عَلَىٰٓ أَعْقَابِنَا بَعْدَ إِذْ هَدَىٰنَا ٱللَّهُ كَٱلَّذِى ٱسْتَهْوَتْهُ ٱلشَّيَٰطِينُ فِى ٱلْأَرْضِ حَيْرَانَ لَهُۥٓ أَصْحَٰبٌۭ يَدْعُونَهُۥٓ إِلَى ٱلْهُدَى ٱئْتِنَا ۗ قُلْ إِنَّ هُدَى ٱللَّهِ هُوَ ٱلْهُدَىٰ ۖ وَأُمِرْنَا لِنُسْلِمَ لِرَبِّ ٱلْعَٰلَمِينَ
+- 6:162 قُلْ إِنَّ صَلَاتِى وَنُسُكِى وَمَحْيَاىَ وَمَمَاتِى لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+- 7:43 وَنَزَعْنَا مَا فِى صُدُورِهِم مِّنْ غِلٍّۢ تَجْرِى مِن تَحْتِهِمُ ٱلْأَنْهَٰرُ ۖ وَقَالُوا۟ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى هَدَىٰنَا لِهَٰذَا وَمَا كُنَّا لِنَهْتَدِىَ لَوْلَآ أَنْ هَدَىٰنَا ٱللَّهُ ۖ لَقَدْ جَآءَتْ رُسُلُ رَبِّنَا بِٱلْحَقِّ ۖ وَنُودُوٓا۟ أَن تِلْكُمُ ٱلْجَنَّةُ أُورِثْتُمُوهَا بِمَا كُنتُمْ تَعْمَلُونَ
+- 7:61 قَالَ يَٰقَوْمِ لَيْسَ بِى ضَلَٰلَةٌۭ وَلَٰكِنِّى رَسُولٌۭ مِّن رَّبِّ ٱلْعَٰلَمِينَ
+- 7:67 قَالَ يَٰقَوْمِ لَيْسَ بِى سَفَاهَةٌۭ وَلَٰكِنِّى رَسُولٌۭ مِّن رَّبِّ ٱلْعَٰلَمِينَ
+- 7:80 وَلُوطًا إِذْ قَالَ لِقَوْمِهِۦٓ أَتَأْتُونَ ٱلْفَٰحِشَةَ مَا سَبَقَكُم بِهَا مِنْ أَحَدٍۢ مِّنَ ٱلْعَٰلَمِينَ
+- 7:104 وَقَالَ مُوسَىٰ يَٰفِرْعَوْنُ إِنِّى رَسُولٌۭ مِّن رَّبِّ ٱلْعَٰلَمِينَ
+- 7:105 حَقِيقٌ عَلَىٰٓ أَن لَّآ أَقُولَ عَلَى ٱللَّهِ إِلَّا ٱلْحَقَّ ۚ قَدْ جِئْتُكُم بِبَيِّنَةٍۢ مِّن رَّبِّكُمْ فَأَرْسِلْ مَعِىَ بَنِىٓ إِسْرَٰٓءِيلَ
+- 7:121 قَالُوٓا۟ ءَامَنَّا بِرَبِّ ٱلْعَٰلَمِينَ
+- 7:122 رَبِّ مُوسَىٰ وَهَٰرُونَ
+- 7:124 لَأُقَطِّعَنَّ أَيْدِيَكُمْ وَأَرْجُلَكُم مِّنْ خِلَٰفٍۢ ثُمَّ لَأُصَلِّبَنَّكُمْ أَجْمَعِينَ
+- 7:125 قَالُوٓا۟ إِنَّآ إِلَىٰ رَبِّنَا مُنقَلِبُونَ
+- 9:31 ٱتَّخَذُوٓا۟ أَحْبَارَهُمْ وَرُهْبَٰنَهُمْ أَرْبَابًۭا مِّن دُونِ ٱللَّهِ وَٱلْمَسِيحَ ٱبْنَ مَرْيَمَ وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوٓا۟ إِلَٰهًۭا وَٰحِدًۭا ۖ لَّآ إِلَٰهَ إِلَّا هُوَ ۚ سُبْحَٰنَهُۥ عَمَّا يُشْرِكُونَ
+- 9:112 ٱلتَّٰٓئِبُونَ ٱلْعَٰبِدُونَ ٱلْحَٰمِدُونَ ٱلسَّٰٓئِحُونَ ٱلرَّٰكِعُونَ ٱلسَّٰجِدُونَ ٱلْءَامِرُونَ بِٱلْمَعْرُوفِ وَٱلنَّاهُونَ عَنِ ٱلْمُنكَرِ وَٱلْحَٰفِظُونَ لِحُدُودِ ٱللَّهِ ۗ وَبَشِّرِ ٱلْمُؤْمِنِينَ
+- 10:9 إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ يَهْدِيهِمْ رَبُّهُم بِإِيمَٰنِهِمْ ۖ تَجْرِى مِن تَحْتِهِمُ ٱلْأَنْهَٰرُ فِى جَنَّٰتِ ٱلنَّعِيمِ
+- 10:10 دَعْوَىٰهُمْ فِيهَا سُبْحَٰنَكَ ٱللَّهُمَّ وَتَحِيَّتُهُمْ فِيهَا سَلَٰمٌۭ ۚ وَءَاخِرُ دَعْوَىٰهُمْ أَنِ ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+- 11:73 قَالُوٓا۟ أَتَعْجَبِينَ مِنْ أَمْرِ ٱللَّهِ ۖ رَحْمَتُ ٱللَّهِ وَبَرَكَٰتُهُۥ عَلَيْكُمْ أَهْلَ ٱلْبَيْتِ ۚ إِنَّهُۥ حَمِيدٌۭ مَّجِيدٌۭ
+- 14:7 وَإِذْ تَأَذَّنَ رَبُّكُمْ لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ ۖ وَلَئِن كَفَرْتُمْ إِنَّ عَذَابِى لَشَدِيدٌۭ
+- 14:8 وَقَالَ مُوسَىٰٓ إِن تَكْفُرُوٓا۟ أَنتُمْ وَمَن فِى ٱلْأَرْضِ جَمِيعًۭا فَإِنَّ ٱللَّهَ لَغَنِىٌّ حَمِيدٌ
+- 14:39 ٱلْحَمْدُ لِلَّهِ ٱلَّذِى وَهَبَ لِى عَلَى ٱلْكِبَرِ إِسْمَٰعِيلَ وَإِسْحَٰقَ ۚ إِنَّ رَبِّى لَسَمِيعُ ٱلدُّعَآءِ
+- 15:87 وَلَقَدْ ءَاتَيْنَٰكَ سَبْعًۭا مِّنَ ٱلْمَثَانِى وَٱلْقُرْءَانَ ٱلْعَظِيمَ
+- 15:97 وَلَقَدْ نَعْلَمُ أَنَّكَ يَضِيقُ صَدْرُكَ بِمَا يَقُولُونَ
+- 15:98 فَسَبِّحْ بِحَمْدِ رَبِّكَ وَكُن مِّنَ ٱلسَّٰجِدِينَ
+- 16:16 وَعَلَٰمَٰتٍۢ ۚ وَبِٱلنَّجْمِ هُمْ يَهْتَدُونَ
+- 16:75 ۞ ضَرَبَ ٱللَّهُ مَثَلًا عَبْدًۭا مَّمْلُوكًۭا لَّا يَقْدِرُ عَلَىٰ شَىْءٍۢ وَمَن رَّزَقْنَٰهُ مِنَّا رِزْقًا حَسَنًۭا فَهُوَ يُنفِقُ مِنْهُ سِرًّۭا وَجَهْرًا ۖ هَلْ يَسْتَوُۥنَ ۚ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ
+- 17:79 وَمِنَ ٱلَّيْلِ فَتَهَجَّدْ بِهِۦ نَافِلَةًۭ لَّكَ عَسَىٰٓ أَن يَبْعَثَكَ رَبُّكَ مَقَامًۭا مَّحْمُودًۭا
+- 17:111 وَقُلِ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى لَمْ يَتَّخِذْ وَلَدًۭا وَلَمْ يَكُن لَّهُۥ شَرِيكٌۭ فِى ٱلْمُلْكِ وَلَمْ يَكُن لَّهُۥ وَلِىٌّۭ مِّنَ ٱلذُّلِّ ۖ وَكَبِّرْهُ تَكْبِيرًۢا
+- 18:1 ٱلْحَمْدُ لِلَّهِ ٱلَّذِىٓ أَنزَلَ عَلَىٰ عَبْدِهِ ٱلْكِتَٰبَ وَلَمْ يَجْعَل لَّهُۥ عِوَجَا ۜ
+- 18:27 وَٱتْلُ مَآ أُوحِىَ إِلَيْكَ مِن كِتَابِ رَبِّكَ ۖ لَا مُبَدِّلَ لِكَلِمَٰتِهِۦ وَلَن تَجِدَ مِن دُونِهِۦ مُلْتَحَدًۭا
+- 18:37 قَالَ لَهُۥ صَاحِبُهُۥ وَهُوَ يُحَاوِرُهُۥٓ أَكَفَرْتَ بِٱلَّذِى خَلَقَكَ مِن تُرَابٍۢ ثُمَّ مِن نُّطْفَةٍۢ ثُمَّ سَوَّىٰكَ رَجُلًۭا
+- 18:38 لَّٰكِنَّا۠ هُوَ ٱللَّهُ رَبِّى وَلَآ أُشْرِكُ بِرَبِّىٓ أَحَدًۭا
+- 18:40 فَعَسَىٰ رَبِّىٓ أَن يُؤْتِيَنِ خَيْرًۭا مِّن جَنَّتِكَ وَيُرْسِلَ عَلَيْهَا حُسْبَانًۭا مِّنَ ٱلسَّمَآءِ فَتُصْبِحَ صَعِيدًۭا زَلَقًا
+- 18:50 وَإِذْ قُلْنَا لِلْمَلَٰٓئِكَةِ ٱسْجُدُوا۟ لِءَادَمَ فَسَجَدُوٓا۟ إِلَّآ إِبْلِيسَ كَانَ مِنَ ٱلْجِنِّ فَفَسَقَ عَنْ أَمْرِ رَبِّهِۦٓ ۗ أَفَتَتَّخِذُونَهُۥ وَذُرِّيَّتَهُۥٓ أَوْلِيَآءَ مِن دُونِى وَهُمْ لَكُمْ عَدُوٌّۢ ۚ بِئْسَ لِلظَّٰلِمِينَ بَدَلًۭا
+- 18:82 وَأَمَّا ٱلْجِدَارُ فَكَانَ لِغُلَٰمَيْنِ يَتِيمَيْنِ فِى ٱلْمَدِينَةِ وَكَانَ تَحْتَهُۥ كَنزٌۭ لَّهُمَا وَكَانَ أَبُوهُمَا صَٰلِحًۭا فَأَرَادَ رَبُّكَ أَن يَبْلُغَآ أَشُدَّهُمَا وَيَسْتَخْرِجَا كَنزَهُمَا رَحْمَةًۭ مِّن رَّبِّكَ ۚ وَمَا فَعَلْتُهُۥ عَنْ أَمْرِى ۚ ذَٰلِكَ تَأْوِيلُ مَا لَمْ تَسْطِع عَّلَيْهِ صَبْرًۭا
+- 18:87 قَالَ أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ ثُمَّ يُرَدُّ إِلَىٰ رَبِّهِۦ فَيُعَذِّبُهُۥ عَذَابًۭا نُّكْرًۭا
+- 18:94 قَالُوا۟ يَٰذَا ٱلْقَرْنَيْنِ إِنَّ يَأْجُوجَ وَمَأْجُوجَ مُفْسِدُونَ فِى ٱلْأَرْضِ فَهَلْ نَجْعَلُ لَكَ خَرْجًا عَلَىٰٓ أَن تَجْعَلَ بَيْنَنَا وَبَيْنَهُمْ سَدًّۭا
+- 18:95 قَالَ مَا مَكَّنِّى فِيهِ رَبِّى خَيْرٌۭ فَأَعِينُونِى بِقُوَّةٍ أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا
+- 18:109 قُل لَّوْ كَانَ ٱلْبَحْرُ مِدَادًۭا لِّكَلِمَٰتِ رَبِّى لَنَفِدَ ٱلْبَحْرُ قَبْلَ أَن تَنفَدَ كَلِمَٰتُ رَبِّى وَلَوْ جِئْنَا بِمِثْلِهِۦ مَدَدًۭا
+- 19:36 وَإِنَّ ٱللَّهَ رَبِّى وَرَبُّكُمْ فَٱعْبُدُوهُ ۚ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ
+- 19:65 رَّبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا فَٱعْبُدْهُ وَٱصْطَبِرْ لِعِبَٰدَتِهِۦ ۚ هَلْ تَعْلَمُ لَهُۥ سَمِيًّۭا
+- 20:49 قَالَ فَمَن رَّبُّكُمَا يَٰمُوسَىٰ
+- 20:50 قَالَ رَبُّنَا ٱلَّذِىٓ أَعْطَىٰ كُلَّ شَىْءٍ خَلْقَهُۥ ثُمَّ هَدَىٰ
+- 21:32 وَجَعَلْنَا ٱلسَّمَآءَ سَقْفًۭا مَّحْفُوظًۭا ۖ وَهُمْ عَنْ ءَايَٰتِهَا مُعْرِضُونَ
+- 21:33 وَهُوَ ٱلَّذِى خَلَقَ ٱلَّيْلَ وَٱلنَّهَارَ وَٱلشَّمْسَ وَٱلْقَمَرَ ۖ كُلٌّۭ فِى فَلَكٍۢ يَسْبَحُونَ
+- 21:56 قَالَ بَل رَّبُّكُمْ رَبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ٱلَّذِى فَطَرَهُنَّ وَأَنَا۠ عَلَىٰ ذَٰلِكُم مِّنَ ٱلشَّٰهِدِينَ
+- 23:28 فَإِذَا ٱسْتَوَيْتَ أَنتَ وَمَن مَّعَكَ عَلَى ٱلْفُلْكِ فَقُلِ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى نَجَّىٰنَا مِنَ ٱلْقَوْمِ ٱلظَّٰلِمِينَ
+- 23:72 أَمْ تَسْـَٔلُهُمْ خَرْجًۭا فَخَرَاجُ رَبِّكَ خَيْرٌۭ ۖ وَهُوَ خَيْرُ ٱلرَّٰزِقِينَ
+- 23:93 قُل رَّبِّ إِمَّا تُرِيَنِّى مَا يُوعَدُونَ
+- 23:94 رَبِّ فَلَا تَجْعَلْنِى فِى ٱلْقَوْمِ ٱلظَّٰلِمِينَ
+- 23:98 وَأَعُوذُ بِكَ رَبِّ أَن يَحْضُرُونِ
+- 23:116 فَتَعَٰلَى ٱللَّهُ ٱلْمَلِكُ ٱلْحَقُّ ۖ لَآ إِلَٰهَ إِلَّا هُوَ رَبُّ ٱلْعَرْشِ ٱلْكَرِيمِ
+- 23:117 وَمَن يَدْعُ مَعَ ٱللَّهِ إِلَٰهًا ءَاخَرَ لَا بُرْهَٰنَ لَهُۥ بِهِۦ فَإِنَّمَا حِسَابُهُۥ عِندَ رَبِّهِۦٓ ۚ إِنَّهُۥ لَا يُفْلِحُ ٱلْكَٰفِرُونَ
+- 23:118 وَقُل رَّبِّ ٱغْفِرْ وَٱرْحَمْ وَأَنتَ خَيْرُ ٱلرَّٰحِمِينَ
+- 25:77 قُلْ مَا يَعْبَؤُا۟ بِكُمْ رَبِّى لَوْلَا دُعَآؤُكُمْ ۖ فَقَدْ كَذَّبْتُمْ فَسَوْفَ يَكُونُ لِزَامًۢا
+- 26:15 قَالَ كَلَّا ۖ فَٱذْهَبَا بِـَٔايَٰتِنَآ ۖ إِنَّا مَعَكُم مُّسْتَمِعُونَ
+- 26:16 فَأْتِيَا فِرْعَوْنَ فَقُولَآ إِنَّا رَسُولُ رَبِّ ٱلْعَٰلَمِينَ
+- 26:17 أَنْ أَرْسِلْ مَعَنَا بَنِىٓ إِسْرَٰٓءِيلَ
+- 26:23 قَالَ فِرْعَوْنُ وَمَا رَبُّ ٱلْعَٰلَمِينَ
+- 26:24 قَالَ رَبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَآ ۖ إِن كُنتُم مُّوقِنِينَ
+- 26:46 فَأُلْقِىَ ٱلسَّحَرَةُ سَٰجِدِينَ
+- 26:47 قَالُوٓا۟ ءَامَنَّا بِرَبِّ ٱلْعَٰلَمِينَ
+- 26:48 رَبِّ مُوسَىٰ وَهَٰرُونَ
+- 26:77 فَإِنَّهُمْ عَدُوٌّۭ لِّىٓ إِلَّا رَبَّ ٱلْعَٰلَمِينَ
+- 26:78 ٱلَّذِى خَلَقَنِى فَهُوَ يَهْدِينِ
+- 26:97 تَٱللَّهِ إِن كُنَّا لَفِى ضَلَٰلٍۢ مُّبِينٍ
+- 26:98 إِذْ نُسَوِّيكُم بِرَبِّ ٱلْعَٰلَمِينَ
+- 26:108 فَٱتَّقُوا۟ ٱللَّهَ وَأَطِيعُونِ
+- 26:109 وَمَآ أَسْـَٔلُكُمْ عَلَيْهِ مِنْ أَجْرٍ ۖ إِنْ أَجْرِىَ إِلَّا عَلَىٰ رَبِّ ٱلْعَٰلَمِينَ
+- 26:117 قَالَ رَبِّ إِنَّ قَوْمِى كَذَّبُونِ
+- 26:118 فَٱفْتَحْ بَيْنِى وَبَيْنَهُمْ فَتْحًۭا وَنَجِّنِى وَمَن مَّعِىَ مِنَ ٱلْمُؤْمِنِينَ
+- 26:127 وَمَآ أَسْـَٔلُكُمْ عَلَيْهِ مِنْ أَجْرٍ ۖ إِنْ أَجْرِىَ إِلَّا عَلَىٰ رَبِّ ٱلْعَٰلَمِينَ
+- 26:128 أَتَبْنُونَ بِكُلِّ رِيعٍ ءَايَةًۭ تَعْبَثُونَ
+- 26:145 وَمَآ أَسْـَٔلُكُمْ عَلَيْهِ مِنْ أَجْرٍ ۖ إِنْ أَجْرِىَ إِلَّا عَلَىٰ رَبِّ ٱلْعَٰلَمِينَ
+- 26:146 أَتُتْرَكُونَ فِى مَا هَٰهُنَآ ءَامِنِينَ
+- 26:164 وَمَآ أَسْـَٔلُكُمْ عَلَيْهِ مِنْ أَجْرٍ ۖ إِنْ أَجْرِىَ إِلَّا عَلَىٰ رَبِّ ٱلْعَٰلَمِينَ
+- 26:165 أَتَأْتُونَ ٱلذُّكْرَانَ مِنَ ٱلْعَٰلَمِينَ
+- 26:166 وَتَذَرُونَ مَا خَلَقَ لَكُمْ رَبُّكُم مِّنْ أَزْوَٰجِكُم ۚ بَلْ أَنتُمْ قَوْمٌ عَادُونَ
+- 26:180 وَمَآ أَسْـَٔلُكُمْ عَلَيْهِ مِنْ أَجْرٍ ۖ إِنْ أَجْرِىَ إِلَّا عَلَىٰ رَبِّ ٱلْعَٰلَمِينَ
+- 26:181 ۞ أَوْفُوا۟ ٱلْكَيْلَ وَلَا تَكُونُوا۟ مِنَ ٱلْمُخْسِرِينَ
+- 26:188 قَالَ رَبِّىٓ أَعْلَمُ بِمَا تَعْمَلُونَ
+- 26:189 فَكَذَّبُوهُ فَأَخَذَهُمْ عَذَابُ يَوْمِ ٱلظُّلَّةِ ۚ إِنَّهُۥ كَانَ عَذَابَ يَوْمٍ عَظِيمٍ
+- 26:191 وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ
+- 26:192 وَإِنَّهُۥ لَتَنزِيلُ رَبِّ ٱلْعَٰلَمِينَ
+- 26:193 نَزَلَ بِهِ ٱلرُّوحُ ٱلْأَمِينُ
+- 27:8 فَلَمَّا جَآءَهَا نُودِىَ أَنۢ بُورِكَ مَن فِى ٱلنَّارِ وَمَنْ حَوْلَهَا وَسُبْحَٰنَ ٱللَّهِ رَبِّ ٱلْعَٰلَمِينَ
+- 27:9 يَٰمُوسَىٰٓ إِنَّهُۥٓ أَنَا ٱللَّهُ ٱلْعَزِيزُ ٱلْحَكِيمُ
+- 27:15 وَلَقَدْ ءَاتَيْنَا دَاوُۥدَ وَسُلَيْمَٰنَ عِلْمًۭا ۖ وَقَالَا ٱلْحَمْدُ لِلَّهِ ٱلَّذِى فَضَّلَنَا عَلَىٰ كَثِيرٍۢ مِّنْ عِبَادِهِ ٱلْمُؤْمِنِينَ
+- 27:16 وَوَرِثَ سُلَيْمَٰنُ دَاوُۥدَ ۖ وَقَالَ يَٰٓأَيُّهَا ٱلنَّاسُ عُلِّمْنَا مَنطِقَ ٱلطَّيْرِ وَأُوتِينَا مِن كُلِّ شَىْءٍ ۖ إِنَّ هَٰذَا لَهُوَ ٱلْفَضْلُ ٱلْمُبِينُ
+- 27:25 أَلَّا يَسْجُدُوا۟ لِلَّهِ ٱلَّذِى يُخْرِجُ ٱلْخَبْءَ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَيَعْلَمُ مَا تُخْفُونَ وَمَا تُعْلِنُونَ
+- 27:26 ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ ۩
+- 27:42 فَلَمَّا جَآءَتْ قِيلَ أَهَٰكَذَا عَرْشُكِ ۖ قَالَتْ كَأَنَّهُۥ هُوَ ۚ وَأُوتِينَا ٱلْعِلْمَ مِن قَبْلِهَا وَكُنَّا مُسْلِمِينَ
+- 27:43 وَصَدَّهَا مَا كَانَت تَّعْبُدُ مِن دُونِ ٱللَّهِ ۖ إِنَّهَا كَانَتْ مِن قَوْمٍۢ كَٰفِرِينَ
+- 27:44 قِيلَ لَهَا ٱدْخُلِى ٱلصَّرْحَ ۖ فَلَمَّا رَأَتْهُ حَسِبَتْهُ لُجَّةًۭ وَكَشَفَتْ عَن سَاقَيْهَا ۚ قَالَ إِنَّهُۥ صَرْحٌۭ مُّمَرَّدٌۭ مِّن قَوَارِيرَ ۗ قَالَتْ رَبِّ إِنِّى ظَلَمْتُ نَفْسِى وَأَسْلَمْتُ مَعَ سُلَيْمَٰنَ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+- 27:59 قُلِ ٱلْحَمْدُ لِلَّهِ وَسَلَٰمٌ عَلَىٰ عِبَادِهِ ٱلَّذِينَ ٱصْطَفَىٰٓ ۗ ءَآللَّهُ خَيْرٌ أَمَّا يُشْرِكُونَ
+- 27:60 أَمَّنْ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَأَنزَلَ لَكُم مِّنَ ٱلسَّمَآءِ مَآءًۭ فَأَنۢبَتْنَا بِهِۦ حَدَآئِقَ ذَاتَ بَهْجَةٍۢ مَّا كَانَ لَكُمْ أَن تُنۢبِتُوا۟ شَجَرَهَآ ۗ أَءِلَٰهٌۭ مَّعَ ٱللَّهِ ۚ بَلْ هُمْ قَوْمٌۭ يَعْدِلُونَ
+- 27:92 وَأَنْ أَتْلُوَا۟ ٱلْقُرْءَانَ ۖ فَمَنِ ٱهْتَدَىٰ فَإِنَّمَا يَهْتَدِى لِنَفْسِهِۦ ۖ وَمَن ضَلَّ فَقُلْ إِنَّمَآ أَنَا۠ مِنَ ٱلْمُنذِرِينَ
+- 27:93 وَقُلِ ٱلْحَمْدُ لِلَّهِ سَيُرِيكُمْ ءَايَٰتِهِۦ فَتَعْرِفُونَهَا ۚ وَمَا رَبُّكَ بِغَٰفِلٍ عَمَّا تَعْمَلُونَ
+- 28:30 فَلَمَّآ أَتَىٰهَا نُودِىَ مِن شَٰطِئِ ٱلْوَادِ ٱلْأَيْمَنِ فِى ٱلْبُقْعَةِ ٱلْمُبَٰرَكَةِ مِنَ ٱلشَّجَرَةِ أَن يَٰمُوسَىٰٓ إِنِّىٓ أَنَا ٱللَّهُ رَبُّ ٱلْعَٰلَمِينَ
+- 28:70 وَهُوَ ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ۖ لَهُ ٱلْحَمْدُ فِى ٱلْأُولَىٰ وَٱلْءَاخِرَةِ ۖ وَلَهُ ٱلْحُكْمُ وَإِلَيْهِ تُرْجَعُونَ
+- 29:50 وَقَالُوا۟ لَوْلَآ أُنزِلَ عَلَيْهِ ءَايَٰتٌۭ مِّن رَّبِّهِۦ ۖ قُلْ إِنَّمَا ٱلْءَايَٰتُ عِندَ ٱللَّهِ وَإِنَّمَآ أَنَا۠ نَذِيرٌۭ مُّبِينٌ
+- 29:51 أَوَلَمْ يَكْفِهِمْ أَنَّآ أَنزَلْنَا عَلَيْكَ ٱلْكِتَٰبَ يُتْلَىٰ عَلَيْهِمْ ۚ إِنَّ فِى ذَٰلِكَ لَرَحْمَةًۭ وَذِكْرَىٰ لِقَوْمٍۢ يُؤْمِنُونَ
+- 29:63 وَلَئِن سَأَلْتَهُم مَّن نَّزَّلَ مِنَ ٱلسَّمَآءِ مَآءًۭ فَأَحْيَا بِهِ ٱلْأَرْضَ مِنۢ بَعْدِ مَوْتِهَا لَيَقُولُنَّ ٱللَّهُ ۚ قُلِ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْقِلُونَ
+- 30:18 وَلَهُ ٱلْحَمْدُ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَعَشِيًّۭا وَحِينَ تُظْهِرُونَ
+- 30:19 يُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَيُخْرِجُ ٱلْمَيِّتَ مِنَ ٱلْحَىِّ وَيُحْىِ ٱلْأَرْضَ بَعْدَ مَوْتِهَا ۚ وَكَذَٰلِكَ تُخْرَجُونَ
+- 31:25 وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ لَيَقُولُنَّ ٱللَّهُ ۚ قُلِ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ
+- 31:26 لِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ إِنَّ ٱللَّهَ هُوَ ٱلْغَنِىُّ ٱلْحَمِيدُ
+- 32:2 تَنزِيلُ ٱلْكِتَٰبِ لَا رَيْبَ فِيهِ مِن رَّبِّ ٱلْعَٰلَمِينَ
+- 32:15 إِنَّمَا يُؤْمِنُ بِـَٔايَٰتِنَا ٱلَّذِينَ إِذَا ذُكِّرُوا۟ بِهَا خَرُّوا۟ سُجَّدًۭا وَسَبَّحُوا۟ بِحَمْدِ رَبِّهِمْ وَهُمْ لَا يَسْتَكْبِرُونَ ۩
+- 34:1 ٱلْحَمْدُ لِلَّهِ ٱلَّذِى لَهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ وَلَهُ ٱلْحَمْدُ فِى ٱلْءَاخِرَةِ ۚ وَهُوَ ٱلْحَكِيمُ ٱلْخَبِيرُ
+- 34:6 وَيَرَى ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ ٱلَّذِىٓ أُنزِلَ إِلَيْكَ مِن رَّبِّكَ هُوَ ٱلْحَقَّ وَيَهْدِىٓ إِلَىٰ صِرَٰطِ ٱلْعَزِيزِ ٱلْحَمِيدِ
+- 35:1 ٱلْحَمْدُ لِلَّهِ فَاطِرِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ جَاعِلِ ٱلْمَلَٰٓئِكَةِ رُسُلًا أُو۟لِىٓ أَجْنِحَةٍۢ مَّثْنَىٰ وَثُلَٰثَ وَرُبَٰعَ ۚ يَزِيدُ فِى ٱلْخَلْقِ مَا يَشَآءُ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ
+- 35:34 وَقَالُوا۟ ٱلْحَمْدُ لِلَّهِ ٱلَّذِىٓ أَذْهَبَ عَنَّا ٱلْحَزَنَ ۖ إِنَّ رَبَّنَا لَغَفُورٌۭ شَكُورٌ
+- 36:25 إِنِّىٓ ءَامَنتُ بِرَبِّكُمْ فَٱسْمَعُونِ
+- 37:4 إِنَّ إِلَٰهَكُمْ لَوَٰحِدٌۭ
+- 37:5 رَّبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا وَرَبُّ ٱلْمَشَٰرِقِ
+- 37:40 إِلَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ
+- 37:41 أُو۟لَٰٓئِكَ لَهُمْ رِزْقٌۭ مَّعْلُومٌۭ
+- 37:42 فَوَٰكِهُ ۖ وَهُم مُّكْرَمُونَ
+- 37:79 سَلَٰمٌ عَلَىٰ نُوحٍۢ فِى ٱلْعَٰلَمِينَ
+- 37:86 أَئِفْكًا ءَالِهَةًۭ دُونَ ٱللَّهِ تُرِيدُونَ
+- 37:87 فَمَا ظَنُّكُم بِرَبِّ ٱلْعَٰلَمِينَ
+- 37:181 وَسَلَٰمٌ عَلَى ٱلْمُرْسَلِينَ
+- 37:182 وَٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+- 38:66 رَبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا ٱلْعَزِيزُ ٱلْغَفَّٰرُ
+- 38:78 وَإِنَّ عَلَيْكَ لَعْنَتِىٓ إِلَىٰ يَوْمِ ٱلدِّينِ
+- 38:79 قَالَ رَبِّ فَأَنظِرْنِىٓ إِلَىٰ يَوْمِ يُبْعَثُونَ
+- 39:29 ضَرَبَ ٱللَّهُ مَثَلًۭا رَّجُلًۭا فِيهِ شُرَكَآءُ مُتَشَٰكِسُونَ وَرَجُلًۭا سَلَمًۭا لِّرَجُلٍ هَلْ يَسْتَوِيَانِ مَثَلًا ۚ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ
+- 39:31 ثُمَّ إِنَّكُمْ يَوْمَ ٱلْقِيَٰمَةِ عِندَ رَبِّكُمْ تَخْتَصِمُونَ
+- 39:69 وَأَشْرَقَتِ ٱلْأَرْضُ بِنُورِ رَبِّهَا وَوُضِعَ ٱلْكِتَٰبُ وَجِا۟ىٓءَ بِٱلنَّبِيِّۦنَ وَٱلشُّهَدَآءِ وَقُضِىَ بَيْنَهُم بِٱلْحَقِّ وَهُمْ لَا يُظْلَمُونَ
+- 39:74 وَقَالُوا۟ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى صَدَقَنَا وَعْدَهُۥ وَأَوْرَثَنَا ٱلْأَرْضَ نَتَبَوَّأُ مِنَ ٱلْجَنَّةِ حَيْثُ نَشَآءُ ۖ فَنِعْمَ أَجْرُ ٱلْعَٰمِلِينَ
+- 39:75 وَتَرَى ٱلْمَلَٰٓئِكَةَ حَآفِّينَ مِنْ حَوْلِ ٱلْعَرْشِ يُسَبِّحُونَ بِحَمْدِ رَبِّهِمْ ۖ وَقُضِىَ بَيْنَهُم بِٱلْحَقِّ وَقِيلَ ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+- 40:65 هُوَ ٱلْحَىُّ لَآ إِلَٰهَ إِلَّا هُوَ فَٱدْعُوهُ مُخْلِصِينَ لَهُ ٱلدِّينَ ۗ ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+- 40:66 ۞ قُلْ إِنِّى نُهِيتُ أَنْ أَعْبُدَ ٱلَّذِينَ تَدْعُونَ مِن دُونِ ٱللَّهِ لَمَّا جَآءَنِىَ ٱلْبَيِّنَٰتُ مِن رَّبِّى وَأُمِرْتُ أَنْ أُسْلِمَ لِرَبِّ ٱلْعَٰلَمِينَ
+- 41:9 ۞ قُلْ أَئِنَّكُمْ لَتَكْفُرُونَ بِٱلَّذِى خَلَقَ ٱلْأَرْضَ فِى يَوْمَيْنِ وَتَجْعَلُونَ لَهُۥٓ أَندَادًۭا ۚ ذَٰلِكَ رَبُّ ٱلْعَٰلَمِينَ
+- 43:13 لِتَسْتَوُۥا۟ عَلَىٰ ظُهُورِهِۦ ثُمَّ تَذْكُرُوا۟ نِعْمَةَ رَبِّكُمْ إِذَا ٱسْتَوَيْتُمْ عَلَيْهِ وَتَقُولُوا۟ سُبْحَٰنَ ٱلَّذِى سَخَّرَ لَنَا هَٰذَا وَمَا كُنَّا لَهُۥ مُقْرِنِينَ
+- 43:14 وَإِنَّآ إِلَىٰ رَبِّنَا لَمُنقَلِبُونَ
+- 43:15 وَجَعَلُوا۟ لَهُۥ مِنْ عِبَادِهِۦ جُزْءًا ۚ إِنَّ ٱلْإِنسَٰنَ لَكَفُورٌۭ مُّبِينٌ
+- 43:46 وَلَقَدْ أَرْسَلْنَا مُوسَىٰ بِـَٔايَٰتِنَآ إِلَىٰ فِرْعَوْنَ وَمَلَإِي۟هِۦ فَقَالَ إِنِّى رَسُولُ رَبِّ ٱلْعَٰلَمِينَ
+- 43:47 فَلَمَّا جَآءَهُم بِـَٔايَٰتِنَآ إِذَا هُم مِّنْهَا يَضْحَكُونَ
+- 44:20 وَإِنِّى عُذْتُ بِرَبِّى وَرَبِّكُمْ أَن تَرْجُمُونِ
+- 45:35 ذَٰلِكُم بِأَنَّكُمُ ٱتَّخَذْتُمْ ءَايَٰتِ ٱللَّهِ هُزُوًۭا وَغَرَّتْكُمُ ٱلْحَيَوٰةُ ٱلدُّنْيَا ۚ فَٱلْيَوْمَ لَا يُخْرَجُونَ مِنْهَا وَلَا هُمْ يُسْتَعْتَبُونَ
+- 45:36 فَلِلَّهِ ٱلْحَمْدُ رَبِّ ٱلسَّمَٰوَٰتِ وَرَبِّ ٱلْأَرْضِ رَبِّ ٱلْعَٰلَمِينَ
+- 46:25 تُدَمِّرُ كُلَّ شَىْءٍۭ بِأَمْرِ رَبِّهَا فَأَصْبَحُوا۟ لَا يُرَىٰٓ إِلَّا مَسَٰكِنُهُمْ ۚ كَذَٰلِكَ نَجْزِى ٱلْقَوْمَ ٱلْمُجْرِمِينَ
+- 52:37 أَمْ عِندَهُمْ خَزَآئِنُ رَبِّكَ أَمْ هُمُ ٱلْمُصَۣيْطِرُونَ
+- 52:48 وَٱصْبِرْ لِحُكْمِ رَبِّكَ فَإِنَّكَ بِأَعْيُنِنَا ۖ وَسَبِّحْ بِحَمْدِ رَبِّكَ حِينَ تَقُومُ
+- 53:42 وَأَنَّ إِلَىٰ رَبِّكَ ٱلْمُنتَهَىٰ
+- 53:49 وَأَنَّهُۥ هُوَ رَبُّ ٱلشِّعْرَىٰ
+- 55:17 رَبُّ ٱلْمَشْرِقَيْنِ وَرَبُّ ٱلْمَغْرِبَيْنِ
+- 55:26 كُلُّ مَنْ عَلَيْهَا فَانٍۢ
+- 55:27 وَيَبْقَىٰ وَجْهُ رَبِّكَ ذُو ٱلْجَلَٰلِ وَٱلْإِكْرَامِ
+- 55:31 سَنَفْرُغُ لَكُمْ أَيُّهَ ٱلثَّقَلَانِ
+- 55:32 فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ
+- 55:33 يَٰمَعْشَرَ ٱلْجِنِّ وَٱلْإِنسِ إِنِ ٱسْتَطَعْتُمْ أَن تَنفُذُوا۟ مِنْ أَقْطَارِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ فَٱنفُذُوا۟ ۚ لَا تَنفُذُونَ إِلَّا بِسُلْطَٰنٍۢ
+- 55:34 فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ
+- 55:35 يُرْسَلُ عَلَيْكُمَا شُوَاظٌۭ مِّن نَّارٍۢ وَنُحَاسٌۭ فَلَا تَنتَصِرَانِ
+- 55:46 وَلِمَنْ خَافَ مَقَامَ رَبِّهِۦ جَنَّتَانِ
+- 55:77 فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ
+- 55:78 تَبَٰرَكَ ٱسْمُ رَبِّكَ ذِى ٱلْجَلَٰلِ وَٱلْإِكْرَامِ
+- 56:73 نَحْنُ جَعَلْنَٰهَا تَذْكِرَةًۭ وَمَتَٰعًۭا لِّلْمُقْوِينَ
+- 56:74 فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ
+- 56:80 تَنزِيلٌۭ مِّن رَّبِّ ٱلْعَٰلَمِينَ
+- 64:1 يُسَبِّحُ لِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۖ لَهُ ٱلْمُلْكُ وَلَهُ ٱلْحَمْدُ ۖ وَهُوَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌ
+- 64:3 خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ وَصَوَّرَكُمْ فَأَحْسَنَ صُوَرَكُمْ ۖ وَإِلَيْهِ ٱلْمَصِيرُ
+- 64:4 يَعْلَمُ مَا فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَيَعْلَمُ مَا تُسِرُّونَ وَمَا تُعْلِنُونَ ۚ وَٱللَّهُ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ
+- 68:52 وَمَا هُوَ إِلَّا ذِكْرٌۭ لِّلْعَٰلَمِينَ
+- 69:42 وَلَا بِقَوْلِ كَاهِنٍۢ ۚ قَلِيلًۭا مَّا تَذَكَّرُونَ
+- 69:43 تَنزِيلٌۭ مِّن رَّبِّ ٱلْعَٰلَمِينَ
+- 69:44 وَلَوْ تَقَوَّلَ عَلَيْنَا بَعْضَ ٱلْأَقَاوِيلِ
+- 69:51 وَإِنَّهُۥ لَحَقُّ ٱلْيَقِينِ
+- 69:52 فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ
+- 71:28 رَّبِّ ٱغْفِرْ لِى وَلِوَٰلِدَىَّ وَلِمَن دَخَلَ بَيْتِىَ مُؤْمِنًۭا وَلِلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ وَلَا تَزِدِ ٱلظَّٰلِمِينَ إِلَّا تَبَارًۢا
+- 73:9 رَّبُّ ٱلْمَشْرِقِ وَٱلْمَغْرِبِ لَآ إِلَٰهَ إِلَّا هُوَ فَٱتَّخِذْهُ وَكِيلًۭا
+- 74:2 قُمْ فَأَنذِرْ
+- 74:3 وَرَبَّكَ فَكَبِّرْ
+- 74:31 وَمَا جَعَلْنَآ أَصْحَٰبَ ٱلنَّارِ إِلَّا مَلَٰٓئِكَةًۭ ۙ وَمَا جَعَلْنَا عِدَّتَهُمْ إِلَّا فِتْنَةًۭ لِّلَّذِينَ كَفَرُوا۟ لِيَسْتَيْقِنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ وَيَزْدَادَ ٱلَّذِينَ ءَامَنُوٓا۟ إِيمَٰنًۭا ۙ وَلَا يَرْتَابَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ وَٱلْمُؤْمِنُونَ ۙ وَلِيَقُولَ ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌۭ وَٱلْكَٰفِرُونَ مَاذَآ أَرَادَ ٱللَّهُ بِهَٰذَا مَثَلًۭا ۚ كَذَٰلِكَ يُضِلُّ ٱللَّهُ مَن يَشَآءُ وَيَهْدِى مَن يَشَآءُ ۚ وَمَا يَعْلَمُ جُنُودَ رَبِّكَ إِلَّا هُوَ ۚ وَمَا هِىَ إِلَّا ذِكْرَىٰ لِلْبَشَرِ
+- 75:30 إِلَىٰ رَبِّكَ يَوْمَئِذٍ ٱلْمَسَاقُ
+- 78:36 جَزَآءًۭ مِّن رَّبِّكَ عَطَآءً حِسَابًۭا
+- 78:37 رَّبِّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا ٱلرَّحْمَٰنِ ۖ لَا يَمْلِكُونَ مِنْهُ خِطَابًۭا
+- 78:39 ذَٰلِكَ ٱلْيَوْمُ ٱلْحَقُّ ۖ فَمَن شَآءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ مَـَٔابًا
+- 79:18 فَقُلْ هَل لَّكَ إِلَىٰٓ أَن تَزَكَّىٰ
+- 79:19 وَأَهْدِيَكَ إِلَىٰ رَبِّكَ فَتَخْشَىٰ
+- 79:24 فَقَالَ أَنَا۠ رَبُّكُمُ ٱلْأَعْلَىٰ
+- 79:25 فَأَخَذَهُ ٱللَّهُ نَكَالَ ٱلْءَاخِرَةِ وَٱلْأُولَىٰٓ
+- 79:44 إِلَىٰ رَبِّكَ مُنتَهَىٰهَآ
+- 81:29 وَمَا تَشَآءُونَ إِلَّآ أَن يَشَآءَ ٱللَّهُ رَبُّ ٱلْعَٰلَمِينَ
+- 83:5 لِيَوْمٍ عَظِيمٍۢ
+- 83:6 يَوْمَ يَقُومُ ٱلنَّاسُ لِرَبِّ ٱلْعَٰلَمِينَ
+- 83:11 ٱلَّذِينَ يُكَذِّبُونَ بِيَوْمِ ٱلدِّينِ
+- 83:15 كَلَّآ إِنَّهُمْ عَن رَّبِّهِمْ يَوْمَئِذٍۢ لَّمَحْجُوبُونَ
+- 84:5 وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ
+- 84:6 يَٰٓأَيُّهَا ٱلْإِنسَٰنُ إِنَّكَ كَادِحٌ إِلَىٰ رَبِّكَ كَدْحًۭا فَمُلَٰقِيهِ
+- 85:8 وَمَا نَقَمُوا۟ مِنْهُمْ إِلَّآ أَن يُؤْمِنُوا۟ بِٱللَّهِ ٱلْعَزِيزِ ٱلْحَمِيدِ
+- 85:11 إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَهُمْ جَنَّٰتٌۭ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْكَبِيرُ
+- 85:12 إِنَّ بَطْشَ رَبِّكَ لَشَدِيدٌ
+- 85:14 وَهُوَ ٱلْغَفُورُ ٱلْوَدُودُ
+- 85:15 ذُو ٱلْعَرْشِ ٱلْمَجِيدُ
+- 85:16 فَعَّالٌۭ لِّمَا يُرِيدُ
+- 87:1 سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى
+- 89:14 إِنَّ رَبَّكَ لَبِٱلْمِرْصَادِ
+- 89:15 فَأَمَّا ٱلْإِنسَٰنُ إِذَا مَا ٱبْتَلَىٰهُ رَبُّهُۥ فَأَكْرَمَهُۥ وَنَعَّمَهُۥ فَيَقُولُ رَبِّىٓ أَكْرَمَنِ
+- 89:22 وَجَآءَ رَبُّكَ وَٱلْمَلَكُ صَفًّۭا صَفًّۭا
+- 89:23 وَجِا۟ىٓءَ يَوْمَئِذٍۭ بِجَهَنَّمَ ۚ يَوْمَئِذٍۢ يَتَذَكَّرُ ٱلْإِنسَٰنُ وَأَنَّىٰ لَهُ ٱلذِّكْرَىٰ
+- 89:27 يَٰٓأَيَّتُهَا ٱلنَّفْسُ ٱلْمُطْمَئِنَّةُ
+- 89:28 ٱرْجِعِىٓ إِلَىٰ رَبِّكِ رَاضِيَةًۭ مَّرْضِيَّةًۭ
+- 92:18 ٱلَّذِى يُؤْتِى مَالَهُۥ يَتَزَكَّىٰ
+- 92:19 وَمَا لِأَحَدٍ عِندَهُۥ مِن نِّعْمَةٍۢ تُجْزَىٰٓ
+- 92:20 إِلَّا ٱبْتِغَآءَ وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ
+- 93:3 مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ
+- 93:5 وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ
+- 93:6 أَلَمْ يَجِدْكَ يَتِيمًۭا فَـَٔاوَىٰ
+- 93:11 وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ
+- 94:7 فَإِذَا فَرَغْتَ فَٱنصَبْ
+- 94:8 وَإِلَىٰ رَبِّكَ فَٱرْغَب
+- 95:7 فَمَا يُكَذِّبُكَ بَعْدُ بِٱلدِّينِ
+- 95:8 أَلَيْسَ ٱللَّهُ بِأَحْكَمِ ٱلْحَٰكِمِينَ
+- 96:1 ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ
+- 96:2 خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ
+- 96:3 ٱقْرَأْ وَرَبُّكَ ٱلْأَكْرَمُ
+- 96:4 ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ
+- 97:4 تَنَزَّلُ ٱلْمَلَٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍۢ
+- 99:4 يَوْمَئِذٍۢ تُحَدِّثُ أَخْبَارَهَا
+- 99:5 بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا
+- 100:6 إِنَّ ٱلْإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٌۭ
+- 100:10 وَحُصِّلَ مَا فِى ٱلصُّدُورِ
+- 100:11 إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍۢ لَّخَبِيرٌۢ
+- 106:3 فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ
+- 106:4 ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ
+- 108:1 إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ
+- 108:2 فَصَلِّ لِرَبِّكَ وَٱنْحَرْ
+- 110:2 وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًۭا
+- 110:3 فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ ۚ إِنَّهُۥ كَانَ تَوَّابًۢا
+- 114:1 قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ
+- 114:2 مَلِكِ ٱلنَّاسِ

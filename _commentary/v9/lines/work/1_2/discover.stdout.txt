@@ -1,1 +1,12 @@
 == 1:2 discover
+  luna_pass.py run 1:2 --parallel 1
+    W_network_1.md: 54 records
+check: 0 problem(s); kept lines 27 of 81
+  run.py run 1:2 --parallel 7
+    related_4.md: 52 records, 0 problem(s)
+surah_1.md: 15 records, 0 problem(s)
+usage_1.md: 2 records, 0 problem(s)
+  run.py check 1:2
+    related_4.md []
+surah_1.md []
+usage_1.md []

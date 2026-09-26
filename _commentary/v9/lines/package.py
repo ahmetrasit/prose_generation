@@ -58,6 +58,7 @@ def dedupe_sources(text: str) -> str:
 
 def main() -> None:
     ref = sys.argv[1]
+    slim = "--slim" in sys.argv[2:]  # quranic-reach lines only (usage, related), no lexical network → package.slim.md
     s, a = ref.split(":")
     sa = f"{s}_{a}"
     w = V9 / "lines" / "work" / sa
@@ -76,17 +77,25 @@ def main() -> None:
                     r["id"] = f"{f.stem}.{r['id']}"
                 records[line].append(r)
     cited = set()
-    L = [f"# Package for {ref}", "",
+    L = ([f"# Quranic usage and related passages for {ref}", "",
+          "What the discovery stage found about this ayah's words and scenes elsewhere in the Quran: how each root is",
+          "used across its occurrences (ids U-..) and passages related by shared wording, people or formula (ids R-..,",
+          "and X records): readings, open observations (a precise link whose decisive support is missing), notes and",
+          "misreadings. `support` says how well the sources establish a record; `relevance` how much it could change",
+          "the reading; nothing here is filtered by them. Section 3 is the text of the cited ayat outside the surah",
+          "and the Fatiha (both are in context.md).", ""] if slim else [f"# Package for {ref}", "",
          "Everything the discovery stage found, for one reader who connects it. Section 1 is the lexical network",
          "(ids H, L, F, T, J, G): rare dictionary senses of the ayah's words converging on other words, checked by",
          "the dictionaries' own relations and a judge. Section 2 holds the four discovery lines (ids L.., U-, S-, R-,",
          "and X records): readings, open observations (a precise link whose decisive support is missing; another line",
          "may supply it), notes, and misreadings. `support` says how well the sources establish a record; `relevance`",
          "how much it could change the reading — they are separate judgments, and nothing here is filtered by them.",
-         "Section 3 is the text of cited ayat outside the surah and the Fatiha (both are in context.md).", ""]
+         "Section 3 is the text of cited ayat outside the surah and the Fatiha (both are in context.md).", ""])
     # 1 lexical network
     bb = V9 / "network" / "out" / sa / "sol" / "backbone.md"
-    if bb.exists():
+    if slim:
+        pass
+    elif bb.exists():
         text = bb.read_text(encoding="utf-8")
         parts = re.split(r"^(## \d+\. .*)$", text, flags=re.M)
         keep = []
@@ -101,7 +110,7 @@ def main() -> None:
         L += ["## 1. Lexical network", "", "(not built for this ayah)", ""]
     # 2 lines
     L += ["## 2. Discovery lines", ""]
-    for line in LINES:
+    for line in (("usage", "related") if slim else LINES):
         recs = records.get(line, [])
         live = [r for r in recs if r.get("status") in ("reading", "open")]
         live.sort(key=lambda r: (RANK.get(str(r.get("relevance")), 3), RANK.get(str(r.get("support")), 3),
@@ -118,6 +127,11 @@ def main() -> None:
             ev = "; ".join(f"{e.get('ref')} «{e.get('ar')}»" for e in r.get("evidence") or [])
             cited |= {str(e.get("ref")) for e in r.get("evidence") or []}
             tail = f"missing: {r.get('missing', '')}" if r.get("status") == "open" else f"limits: {r.get('limits', '')}"
+            if slim and line == "related":  # compact: the finding and its refs; the full texts are in section 3
+                refs = ", ".join(dict.fromkeys(str(e.get("ref")) for e in r.get("evidence") or []))
+                extra = f" Missing: {r.get('missing', '')}" if r.get("status") == "open" else ""
+                L.append(f"- **{r['id']}** [{r['status']}] {r.get('finding', '')} ({refs}){extra}")
+                continue
             L.append(f"- **{r['id']}** [{r['status']}; support {r.get('support')}, relevance {r.get('relevance')}] "
                      f"{titles.get(str(r['id']), '')}")
             L.append(f"  - finding: {r.get('finding', '')}")
@@ -139,8 +153,8 @@ def main() -> None:
     refs = sorted({r for r in cited if r in q and not r.startswith((focus_s, "1:"))},
                   key=lambda r: tuple(map(int, r.split(":"))))
     L += ["## 3. Text of cited ayat outside the surah and the Fatiha", ""] + [f"- {r} {q[r]}" for r in refs]
-    (w / "package.md").write_text("\n".join(L) + "\n", encoding="utf-8")
-    print(f"package: {w / 'package.md'} ({len(chr(10).join(L).encode()):,} bytes); line records "
+    (w / ("package.slim.md" if slim else "package.md")).write_text("\n".join(L) + "\n", encoding="utf-8")
+    print(f"package: {w / ('package.slim.md' if slim else 'package.md')} ({len(chr(10).join(L).encode()):,} bytes); line records "
           f"{ {k: len(v) for k, v in records.items()} }")
 
 
