@@ -23,6 +23,15 @@
   map (one branch per occurrence for the plain Ḥafṣ reading). GitHub: ahmetrasit/root-dossier (private). No Luna
   session has run; the user runs it (root-dossier RUNBOOK.md).
 
+- Dictionary fix (2026-09-26): quran-data stores some roots as merged envelopes (`root_001210--root_001211_entry.json`:
+  ق ر ء, ش ي ء, ج ي ء, م ر ء, ب ر ء, ب د ء …, 11 files) plus supplemental roots; V9 `prepare.py` and V11
+  `verify_src.py` only looked for single-id file names and missed them. Both now read every entry file (each root of
+  an envelope keeps its own branches). 96:1's dictionary now has ق ر ء. Merged roots repeat branch ids across their
+  two root ids, so a `source:ق ر ء B001` tag matches either root's B001; the root dossiers name branches by full ref.
+- Root dossiers are now QAC-anchored (QAC word ids, full branch refs, the QAC–MASAQ bridge for word analysis and
+  variant readings, disputed roots with the minor analysis mapped to the minor root's branch, compact patches). The
+  micro list has 6 roots (و س م added for the disputed-root path, ism).
+
 ## Known-answer checks (kept here, out of the root-dossier repo, so no Luna session can read them)
 - ḥamaʾ (ح م ء, key حمء): the dossier should say that its three noun uses are the material of man in S15's creation
   account — narrated (15:26), in God's words to the angels (15:28) and in Iblīs's refusal (15:33), always in the

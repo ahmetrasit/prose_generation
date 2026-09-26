@@ -1,0 +1,611 @@
+# Branch-image pairs (global network, gateway roots; top by distinct partner root)
+
+For every branch of every focus root: partners in the same ayah (top 3), within ±7 ayat (top 3), and elsewhere in the surah (top 2). A pair is a candidate only; judge whether it opens a reading.
+
+Pairs listed: 520.
+## ق ر ء (ٱقْرَأْ)
+
+- **B001** toplamak ve bir araya getirmek / جمع واجتماع
+  - same: ر ب ب B004 büyük insan topluluğu / ربة وجماعات كثيرة ← 96:1 رَبِّكَ
+  - same: و س م B004 belirlenmiş toplu buluşma zamanı ve yeri / موسم معلم يجتمع إليه الناس ← 96:1 بِٱسْمِ
+  - same: س م و B001 fiziksel ya da toplumsal yükselme / العلو والارتفاع ← 96:1 بِٱسْمِ
+  - near: ر ب ب B004 büyük insan topluluğu / ربة وجماعات كثيرة ← 96:3 وَرَبُّكَ
+  - near: ر ء ي B004 karşı karşıya gelip görünür olma / تراء وتواجه ← 96:7 رَّءَاهُ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 96:4 عَلَّمَ
+  - far: ق ر ب B001 yakın olma, yaklaşma veya yaklaştırma / الدنو وخلاف البعد ← 96:19 وَٱقْتَرِب
+  - far: ر ء ي B004 karşı karşıya gelip görünür olma / تراء وتواجه ← 96:9 أَرَءَيْتَ
+- **B002** okumak, okutmak ve birlikte okumak / قراءة وتلاوة وإقراء
+  - same: س م و B007 yarışma, övünerek boy ölçüşme ve karşı koyma / المساماة والمباراة ← 96:1 بِٱسْمِ
+  - same: خ ل ق B007 uydurup yalan üretme / اختلاق الكذب والكلام ← 96:1 خَلَقَ
+  - same: و س م B002 belirtiden karakter veya durum sezme / سمة يرى بها الناظر دلالة الحال ← 96:1 بِٱسْمِ
+  - near: غ ن ي B003 sesle ezgi söyleme, dinleme ve ezgili okuma / الغِناء والصوت ← 96:7 ٱسْتَغْنَىٰٓ
+  - near: ر ء ي B002 düşünüp bir görüşe varma / رأي القلب والتفكر ← 96:7 رَّءَاهُ
+  - near: ر ج ع B007 sesi yineleyip dalgalandırma / ترديد الصوت والنداء ← 96:8 ٱلرُّجْعَىٰٓ
+  - far: ر ء ي B002 düşünüp bir görüşe varma / رأي القلب والتفكر ← 96:9 أَرَءَيْتَ
+  - far: ق ر ب B016 bir ölçü veya sınıra yaklaşık olma / القراب والمقاربة في المقدار ← 96:19 وَٱقْتَرِب
+- **B003** aybaşı ya da arınma dönemi / قرء الحيض والطهر
+  - same: ر ب ب B009 başlangıçtaki tazelik / شاة رُبّى وحداثة ← 96:1 رَبِّكَ
+  - same: خ ل ق B012 kapalı üreme yolu / انسداد مصمت كالصخرة ← 96:1 خَلَقَ
+  - same: س م و B003 erkek devenin dişi deve sürüsüne atılıp aralarına girmesi / تطاول الفحل على الشول ← 96:1 بِٱسْمِ
+  - near: ر ء ي B007 aybaşı sonu izi ve denetleme bezi / ترية الحيض ← 96:7 رَّءَاهُ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 96:4 عَلَّمَ
+  - near: ر ج ع B006 yinelenen yağmur veya biriken su / المطر والماء الراجع ← 96:8 ٱلرُّجْعَىٰٓ
+  - far: ر ء ي B007 aybaşı sonu izi ve denetleme bezi / ترية الحيض ← 96:9 أَرَءَيْتَ
+  - far: ق ر ب B003 akrabalık ve yakın akraba / قرابة الرحم والنسب ← 96:19 وَٱقْتَرِب
+- **B004** rahminde taşıyıp gebe olmak / رحم يجمع حملا
+  - same: ر ب و B005 besleyip büyütmek ve yetişmek / تغذية ونشوء ← 96:1 رَبِّكَ
+  - same: ر ب ب B009 başlangıçtaki tazelik / شاة رُبّى وحداثة ← 96:1 رَبِّكَ
+  - same: خ ل ق B003 tam ve dengeli dış biçim / تمام الخلقة واعتدال الصورة ← 96:1 خَلَقَ
+  - near: ع ل ق B009 döllenmenin tutup gebeliğin başlaması / حمل يثبت في الرحم أو اللقاح ← 96:2 عَلَقٍ
+  - near: ر ء ي B010 meme gelişmesiyle gebeliğin belli olması / ظهور حمل الناقة أو الشاة ← 96:7 رَّءَاهُ
+  - near: ر ج ع B013 gebeliğin oluşmaması veya çok erken sona ermesi / راجع الناقة وحملها ← 96:8 ٱلرُّجْعَىٰٓ
+  - far: ر ء ي B010 meme gelişmesiyle gebeliğin belli olması / ظهور حمل الناقة أو الشاة ← 96:9 أَرَءَيْتَ
+  - far: ق ر ب B012 doğumu yaklaşmış gebe dişi / دنو الولادة في الحيوان ← 96:19 وَٱقْتَرِب
+- **B005** vakit, yaklaşma veya gecikme / وقت يحين أو يتأخر
+  - same: ر ب ب B007 bir yerde kalıp sürme / لزوم وإقامة ودوام ← 96:1 رَبِّكَ
+  - same: و س م B004 belirlenmiş toplu buluşma zamanı ve yeri / موسم معلم يجتمع إليه الناس ← 96:1 بِٱسْمِ
+  - same: خ ل ق B001 ölçüp sınırlarını belirleme / تقدير الشيء وقياسه ← 96:1 خَلَقَ
+  - near: ر ب ب B007 bir yerde kalıp sürme / لزوم وإقامة ودوام ← 96:3 وَرَبُّكَ
+  - near: ر ء ي B005 başkaları görsün diye yapma / رياء الناس ← 96:7 رَّءَاهُ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 96:4 عَلَّمَ
+  - far: ق ر ب B002 zamanca yaklaşma veya yakın geçmişe ait olma / دنو الزمان وانقضاء الشيء ← 96:19 وَٱقْتَرِب
+  - far: و ل ي B001 aralıksız yakınlık / قرب ودنو بلا فاصل ← 96:13 وَتَوَلَّىٰٓ
+- **B006** dindar okur; öğrenmeye yönelen kişi / قارئ ناسك متفقه
+  - same: ر ب ب B003 Tanrı bilgisiyle yetiştiren bilgin / علم رباني ← 96:1 رَبِّكَ
+  - same: و س م B002 belirtiden karakter veya durum sezme / سمة يرى بها الناظر دلالة الحال ← 96:1 بِٱسْمِ
+  - same: خ ل ق B001 ölçüp sınırlarını belirleme / تقدير الشيء وقياسه ← 96:1 خَلَقَ
+  - near: ر ء ي B005 başkaları görsün diye yapma / رياء الناس ← 96:7 رَّءَاهُ
+  - near: ء ن س B006 belirli sözlerde kişinin kendisi veya seçilmiş yakını / ابن الإنس للنفس والصفوة ← 96:2 ٱلْإِنسَٰنَ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 96:4 عَلَّمَ
+  - far: ع ب د B003 boyun eğerek itaat ve tapınma / العبادة والطاعة الخاضعة ← 96:10 عَبْدًا
+  - far: ر ء ي B005 başkaları görsün diye yapma / رياء الناس ← 96:9 أَرَءَيْتَ
+- **B008** yeni gelinen yöreye bağlı salgın etkisi / قرأة البلاد ووبؤها
+  - same: ر ب ب B007 bir yerde kalıp sürme / لزوم وإقامة ودوام ← 96:1 رَبِّكَ
+  - same: ر ب و B007 baba tarafından yakın hane halkının arasına gelmek / أهل البيت من بني الأعمام ← 96:1 رَبِّكَ
+  - same: خ ل ق B001 ölçüp sınırlarını belirleme / تقدير الشيء وقياسه ← 96:1 خَلَقَ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 96:4 عَلَّمَ
+  - near: ر ء ي B009 akciğer ve ona gelen zarar / الرئة وما يصيبها ← 96:7 رَّءَاهُ
+  - near: ر ب ب B007 bir yerde kalıp sürme / لزوم وإقامة ودوام ← 96:3 وَرَبُّكَ
+  - far: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 96:14 يَعْلَم
+  - far: ر ء ي B009 akciğer ve ona gelen zarar / الرئة وما يصيبها ← 96:9 أَرَءَيْتَ
+- **B009** dişi devenin çiftleşme dönemi / قرء الناقة في الضبعة والوداق
+  - same: س م و B003 erkek devenin dişi deve sürüsüne atılıp aralarına girmesi / تطاول الفحل على الشول ← 96:1 بِٱسْمِ
+  - same: ر ب ب B007 bir yerde kalıp sürme / لزوم وإقامة ودوام ← 96:1 رَبِّكَ
+  - same: و س م B005 kişide görünen yerleşik güzellik ve zarafet / حسن عليه أثر الجمال ← 96:1 بِٱسْمِ
+  - near: ر ج ع B013 gebeliğin oluşmaması veya çok erken sona ermesi / راجع الناقة وحملها ← 96:8 ٱلرُّجْعَىٰٓ
+  - near: ر ء ي B010 meme gelişmesiyle gebeliğin belli olması / ظهور حمل الناقة أو الشاة ← 96:7 رَّءَاهُ
+  - near: ع ل ق B010 yavruyu benimsemeyip sütünü esirgeyen deve / ناقة علوق تظهر الرأم وتمنع اللبن ← 96:2 عَلَقٍ
+  - far: ر ء ي B010 meme gelişmesiyle gebeliğin belli olması / ظهور حمل الناقة أو الشاة ← 96:9 أَرَءَيْتَ
+  - far: ك ذ ب B006 sütün kesilmesi veya beklenenden önce tükenmesi / كذب لبن الناقة إذا ذهب ولم يدم ← 96:13 كَذَّبَ
+- **B010** biçime bağlı adlandırmalar / إمساك للاستبراء أو حبس
+  - same: س م و B007 yarışma, övünerek boy ölçüşme ve karşı koyma / المساماة والمباراة ← 96:1 بِٱسْمِ
+  - same: ر ب ب B009 başlangıçtaki tazelik / شاة رُبّى وحداثة ← 96:1 رَبِّكَ
+  - same: خ ل ق B011 su tutan kaya oyuğu veya yeni kuyu / نقرة أو بئر تمسك الماء ← 96:1 خَلَقَ
+  - near: ر ء ي B012 gösterip görmesini sağlama / إراءة وإظهار ← 96:7 رَّءَاهُ
+  - near: غ ن ي B005 süsten bağımsız sayılan; bazen genç, güzel veya evli kadın / الغانية المستغنية ← 96:7 ٱسْتَغْنَىٰٓ
+  - near: ع ل ق B008 evlilikte askıda bırakılmış kadın / امرأة معلّقة لا تستقر في زوجية ولا أيومة ← 96:2 عَلَقٍ
+  - far: ر ء ي B012 gösterip görmesini sağlama / إراءة وإظهار ← 96:9 أَرَءَيْتَ
+  - far: ق ر ب B007 temas edip içine girecek ölçüde yaklaşma / مقاربة الشيء وملابسته ← 96:19 وَٱقْتَرِب
+- **B011** bir yolu veya örneği izlemek / طريقة ومثال وقصد
+  - same: س م و B003 erkek devenin dişi deve sürüsüne atılıp aralarına girmesi / تطاول الفحل على الشول ← 96:1 بِٱسْمِ
+  - same: خ ل ق B001 ölçüp sınırlarını belirleme / تقدير الشيء وقياسه ← 96:1 خَلَقَ
+  - same: ر ب و B005 besleyip büyütmek ve yetişmek / تغذية ونشوء ← 96:1 رَبِّكَ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 96:4 عَلَّمَ
+  - near: خ ل ق B001 ölçüp sınırlarını belirleme / تقدير الشيء وقياسه ← 96:2 خَلَقَ
+  - near: ك ر م B003 boyun kolyesi / الكَرْم المنظوم في العنق ← 96:3 ٱلْأَكْرَمُ
+  - far: ه د ي B011 övgü veya yergi şiiri sunma ve şiirle yergileşme / إهداء الشعر ومهاداته ← 96:11 ٱلْهُدَىٰٓ
+  - far: ء م ر B001 konu ve hal / الشأن والحال ← 96:12 أَمَرَ
+- **B013** hayvan varlığı veya bakmakla yükümlü olunanlar / القِرَة مال وعيال
+  - same: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 96:1 رَبِّكَ
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 96:1 رَبِّكَ
+  - same: خ ل ق B004 huy ve iç karakter / السجية والطبيعة الباطنة ← 96:1 خَلَقَ
+  - near: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 96:3 وَرَبُّكَ
+  - near: ق ل م B009 eşi olmayan erkek ve kadınlar; kadının uzun süre eşsiz kalması / انقطاع عن الزوج ← 96:4 بِٱلْقَلَمِ
+  - near: غ ن ي B006 evlenme ve evlendirme / الغنى والتزويج ← 96:7 ٱسْتَغْنَىٰٓ
+  - far: ء م ر B004 bereketli çoğalma / النماء والبركة ← 96:12 أَمَرَ
+  - far: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 96:10 عَبْدًا
+
+## ق ر ء (ٱقْرَأْ)
+
+- **B001** biçime bağlı adlandırmalar / جمع اللفظ وقراءته
+  - same: خ ل ق B007 uydurup yalan üretme / اختلاق الكذب والكلام ← 96:1 خَلَقَ
+  - same: س م و B007 yarışma, övünerek boy ölçüşme ve karşı koyma / المساماة والمباراة ← 96:1 بِٱسْمِ
+  - same: ر ب ب B009 başlangıçtaki tazelik / شاة رُبّى وحداثة ← 96:1 رَبِّكَ
+  - near: غ ن ي B003 sesle ezgi söyleme, dinleme ve ezgili okuma / الغِناء والصوت ← 96:7 ٱسْتَغْنَىٰٓ
+  - near: ر ء ي B004 karşı karşıya gelip görünür olma / تراء وتواجه ← 96:7 رَّءَاهُ
+  - near: ر ج ع B007 sesi yineleyip dalgalandırma / ترديد الصوت والنداء ← 96:8 ٱلرُّجْعَىٰٓ
+  - far: ق ر ب B003 akrabalık ve yakın akraba / قرابة الرحم والنسب ← 96:19 وَٱقْتَرِب
+  - far: ر ء ي B004 karşı karşıya gelip görünür olma / تراء وتواجه ← 96:9 أَرَءَيْتَ
+- **B002** özel adlandırma kümesi / وقت الشيء ودورانه
+  - same: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 96:1 رَبِّكَ
+  - same: خ ل ق B004 huy ve iç karakter / السجية والطبيعة الباطنة ← 96:1 خَلَقَ
+  - same: و س م B004 belirlenmiş toplu buluşma zamanı ve yeri / موسم معلم يجتمع إليه الناس ← 96:1 بِٱسْمِ
+  - near: ر ء ي B007 aybaşı sonu izi ve denetleme bezi / ترية الحيض ← 96:7 رَّءَاهُ
+  - near: ر ج ع B015 geri çıkan veya yeniden işlenen şey / الرجيع مردودا أو معادا ← 96:8 ٱلرُّجْعَىٰٓ
+  - near: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 96:3 وَرَبُّكَ
+  - far: ق ر ب B002 zamanca yaklaşma veya yakın geçmişe ait olma / دنو الزمان وانقضاء الشيء ← 96:19 وَٱقْتَرِب
+  - far: ء م ر B005 belirti veya belirlenmiş vakit / العلامة والموعد ← 96:12 أَمَرَ
+- **B003** rahimde toplanıp taşınmak / اجتماع الرحم وحمله
+  - same: ر ب ب B013 bol ve toplanmış su / ماء رَبَب كثير ← 96:1 رَبِّكَ
+  - same: ر ب و B005 besleyip büyütmek ve yetişmek / تغذية ونشوء ← 96:1 رَبِّكَ
+  - same: خ ل ق B003 tam ve dengeli dış biçim / تمام الخلقة واعتدال الصورة ← 96:1 خَلَقَ
+  - near: ع ل ق B009 döllenmenin tutup gebeliğin başlaması / حمل يثبت في الرحم أو اللقاح ← 96:2 عَلَقٍ
+  - near: ر ء ي B010 meme gelişmesiyle gebeliğin belli olması / ظهور حمل الناقة أو الشاة ← 96:7 رَّءَاهُ
+  - near: ر ج ع B013 gebeliğin oluşmaması veya çok erken sona ermesi / راجع الناقة وحملها ← 96:8 ٱلرُّجْعَىٰٓ
+  - far: ر ء ي B010 meme gelişmesiyle gebeliğin belli olması / ظهور حمل الناقة أو الشاة ← 96:9 أَرَءَيْتَ
+  - far: ق ر ب B003 akrabalık ve yakın akraba / قرابة الرحم والنسب ← 96:19 وَٱقْتَرِب
+- **B005** şiiri başka bir şiirin örneğine göre kurmak / مثال الشعر وطريقته
+  - same: خ ل ق B001 ölçüp sınırlarını belirleme / تقدير الشيء وقياسه ← 96:1 خَلَقَ
+  - same: و س م B002 belirtiden karakter veya durum sezme / سمة يرى بها الناظر دلالة الحال ← 96:1 بِٱسْمِ
+  - same: س م و B005 ad, adlandırma ve ad ya da nitelik bakımından denklik / الاسم تنويه ودلالة ← 96:1 بِٱسْمِ
+  - near: ر ء ي B005 başkaları görsün diye yapma / رياء الناس ← 96:7 رَّءَاهُ
+  - near: خ ل ق B001 ölçüp sınırlarını belirleme / تقدير الشيء وقياسه ← 96:2 خَلَقَ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 96:4 عَلَّمَ
+  - far: ه د ي B011 övgü veya yergi şiiri sunma ve şiirle yergileşme / إهداء الشعر ومهاداته ← 96:11 ٱلْهُدَىٰٓ
+  - far: ن ص ي B002 saçı tarama, saçın uzaması ve ölünün ön saçını çekip uzatma / تسريح الشعر وطوله ← 96:15 بِٱلنَّاصِيَةِ
+- **B006** belirli kalıpla selam iletmek / إبلاغ السلام بصيغته
+  - same: س م و B005 ad, adlandırma ve ad ya da nitelik bakımından denklik / الاسم تنويه ودلالة ← 96:1 بِٱسْمِ
+  - same: خ ل ق B001 ölçüp sınırlarını belirleme / تقدير الشيء وقياسه ← 96:1 خَلَقَ
+  - same: ر ب ب B015 azlık bildiren ilgeç / حرف رب وربما ← 96:1 رَبِّكَ
+  - near: ر ج ع B005 iletiye dönen yanıt / رد الجواب والكلام ← 96:8 ٱلرُّجْعَىٰٓ
+  - near: ر ء ي B013 söyler misin, bir düşün / أرأيتك للتنبيه والاستخبار ← 96:7 رَّءَاهُ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 96:4 عَلَّمَ
+  - far: د ع و B008 evde hiç kimsenin bulunmaması / خلو الدار من داع ← 96:17 فَلْيَدْعُ
+  - far: ر ء ي B013 söyler misin, bir düşün / أرأيتك للتنبيه والاستخبار ← 96:9 أَرَءَيْتَ
+
+## س م و (بِٱسْمِ)
+
+- **B001** fiziksel ya da toplumsal yükselme / العلو والارتفاع
+  - same: ر ب و B001 artmak veya yükselmek / زيادة وعلو ← 96:1 رَبِّكَ
+  - same: و س م B002 belirtiden karakter veya durum sezme / سمة يرى بها الناظر دلالة الحال ← 96:1 بِٱسْمِ
+  - same: ر ب ب B001 sahip olup yönetme / ربوبية وملك وسيادة ← 96:1 رَبِّكَ
+  - near: ع ل م B007 erkek sırtlan / ذكر الضباع يسمى العيلام ← 96:4 عَلَّمَ
+  - near: ك ر م B001 övgüye değer soyluluk, eli açıklık ve onurlandırma / الشرف والجود المحمود ← 96:3 ٱلْأَكْرَمُ
+  - near: ء ن س B002 görerek fark etme; bağlama göre işitme, sezme ve bakıp araştırma / إيناس الشيء برؤية أو إحساس أو سماع ← 96:2 ٱلْإِنسَٰنَ
+  - far: ع ل م B007 erkek sırtlan / ذكر الضباع يسمى العيلام ← 96:14 يَعْلَم
+  - far: ء م ر B002 buyrukla yükümlü kılma / الطلب والإلزام ← 96:12 أَمَرَ
+- **B002** yükselerek uzaktan beliren görünüş / الشخص المرتفع الظاهر
+  - same: و س م B005 kişide görünen yerleşik güzellik ve zarafet / حسن عليه أثر الجمال ← 96:1 بِٱسْمِ
+  - same: ر ب و B001 artmak veya yükselmek / زيادة وعلو ← 96:1 رَبِّكَ
+  - same: خ ل ق B003 tam ve dengeli dış biçim / تمام الخلقة واعتدال الصورة ← 96:1 خَلَقَ
+  - near: ر ء ي B006 görünüş, belirti ve yansıtıcı yüzey / مرأى ومنظر ومرآة ← 96:7 رَّءَاهُ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 96:4 عَلَّمَ
+  - near: ع ل ق B001 takılma ve bağlı kalma / تعلّق الشيء بغيره ولزومه له ← 96:2 عَلَقٍ
+  - far: ر ء ي B006 görünüş, belirti ve yansıtıcı yüzey / مرأى ومنظر ومرآة ← 96:9 أَرَءَيْتَ
+  - far: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 96:14 يَعْلَم
+- **B003** erkek devenin dişi deve sürüsüne atılıp aralarına girmesi / تطاول الفحل على الشول
+  - same: ق ر ء B009 dişi devenin çiftleşme dönemi / قرء الناقة في الضبعة والوداق ← 96:1 ٱقْرَأْ
+  - same: و س م B002 belirtiden karakter veya durum sezme / سمة يرى بها الناظر دلالة الحال ← 96:1 بِٱسْمِ
+  - same: ق ر ء B006 belirli kalıpla selam iletmek / إبلاغ السلام بصيغته ← 96:1 ٱقْرَأْ
+  - near: ر ج ع B013 gebeliğin oluşmaması veya çok erken sona ermesi / راجع الناقة وحملها ← 96:8 ٱلرُّجْعَىٰٓ
+  - near: ع ل ق B009 döllenmenin tutup gebeliğin başlaması / حمل يثبت في الرحم أو اللقاح ← 96:2 عَلَقٍ
+  - near: ق ر ء B009 dişi devenin çiftleşme dönemi / قرء الناقة في الضبعة والوداق ← 96:3 ٱقْرَأْ
+  - far: ط و ع B004 yapabilir hale gelmek için kendini zorlama / تكلف الاستطاعة ← 96:19 تُطِعْهُ
+  - far: و ل ي B012 ele geçirip hedefe ulaşma / استيلاء وبلوغ غاية ← 96:13 وَتَوَلَّىٰٓ
+- **B004** üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler / السماء وما علا فأظل
+  - same: ر ب ب B008 katmanlı asılı bulut kümesi / رباب السحاب ← 96:1 رَبِّكَ
+  - same: و س م B003 toprağı bitkilendiren yılın ilk yağmuru / مطر أول يسم الأرض بالنبات ← 96:1 بِٱسْمِ
+  - same: خ ل ق B011 su tutan kaya oyuğu veya yeni kuyu / نقرة أو بئر تمسك الماء ← 96:1 خَلَقَ
+  - near: ر ب ب B008 katmanlı asılı bulut kümesi / رباب السحاب ← 96:3 وَرَبُّكَ
+  - near: ر ج ع B006 yinelenen yağmur veya biriken su / المطر والماء الراجع ← 96:8 ٱلرُّجْعَىٰٓ
+  - near: خ ل ق B011 su tutan kaya oyuğu veya yeni kuyu / نقرة أو بئر تمسك الماء ← 96:2 خَلَقَ
+  - far: و ل ي B010 önceki yağmuru izleyen yağmur / مطر يلي الوسمي ← 96:13 وَتَوَلَّىٰٓ
+  - far: ن د و B003 çiğ, yağmur ve bunların oluşturduğu ıslaklık / بلل الندى والمطر ← 96:17 نَادِيَهُۥ
+- **B005** ad, adlandırma ve ad ya da nitelik bakımından denklik / الاسم تنويه ودلالة
+  - same: و س م B005 kişide görünen yerleşik güzellik ve zarafet / حسن عليه أثر الجمال ← 96:1 بِٱسْمِ
+  - same: خ ل ق B001 ölçüp sınırlarını belirleme / تقدير الشيء وقياسه ← 96:1 خَلَقَ
+  - same: ر ب ب B001 sahip olup yönetme / ربوبية وملك وسيادة ← 96:1 رَبِّكَ
+  - near: ر ء ي B002 düşünüp bir görüşe varma / رأي القلب والتفكر ← 96:7 رَّءَاهُ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 96:4 عَلَّمَ
+  - near: ء ن س B006 belirli sözlerde kişinin kendisi veya seçilmiş yakını / ابن الإنس للنفس والصفوة ← 96:2 ٱلْإِنسَٰنَ
+  - far: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 96:14 ٱللَّهَ
+  - far: ء م ر B002 buyrukla yükümlü kılma / الطلب والإلزام ← 96:12 أَمَرَ
+- **B006** av için ıssız araziye çıkma ve buna bağlı avcı kullanımları / الخروج للصيد
+  - same: و س م B006 yaprakları boya olarak kullanılan bitki / وسمة يخضب بورقها ← 96:1 بِٱسْمِ
+  - same: ر ب ب B014 yaban sığırı sürüsü / رَبْرَب قطيع ← 96:1 رَبِّكَ
+  - same: ق ر ء B013 hayvan varlığı veya bakmakla yükümlü olunanlar / القِرَة مال وعيال ← 96:1 ٱقْرَأْ
+  - near: ع ل ق B011 avın tuzağa takılıp yakalanması / صيد نشب في حبالة ← 96:2 عَلَقٍ
+  - near: ر ب ب B014 yaban sığırı sürüsü / رَبْرَب قطيع ← 96:3 وَرَبُّكَ
+  - near: ء ن س B001 insan türü ve bu türden bir kişi / ظهور الإنسان المخالف للتوحش والجن ← 96:2 ٱلْإِنسَٰنَ
+  - far: ص ل و B004 yakalamak için kurulan tuzak / الشرك المنصوبة ← 96:10 صَلَّىٰٓ
+  - far: ء م ر B005 belirti veya belirlenmiş vakit / العلامة والموعد ← 96:12 أَمَرَ
+- **B007** yarışma, övünerek boy ölçüşme ve karşı koyma / المساماة والمباراة
+  - same: و س م B005 kişide görünen yerleşik güzellik ve zarafet / حسن عليه أثر الجمال ← 96:1 بِٱسْمِ
+  - same: ق ر ء B010 biçime bağlı adlandırmalar / إمساك للاستبراء أو حبس ← 96:1 ٱقْرَأْ
+  - same: خ ل ق B005 bir şeye yaraşır ve uygun olma / الجدارة والتهيؤ للشيء ← 96:1 خَلَقَ
+  - near: ك ر م B006 eli açıklıkta övünme yarışı ve üstün gelme / مفاخرة الكرم والغلبة فيه ← 96:3 ٱلْأَكْرَمُ
+  - near: ر ء ي B004 karşı karşıya gelip görünür olma / تراء وتواجه ← 96:7 رَّءَاهُ
+  - near: ق ر ء B010 biçime bağlı adlandırmalar / إمساك للاستبراء أو حبس ← 96:3 ٱقْرَأْ
+  - far: ر ء ي B004 karşı karşıya gelip görünür olma / تراء وتواجه ← 96:9 أَرَءَيْتَ
+  - far: ء م ر B007 danışıp görüş oluşturma / المشاورة وتدبير الرأي ← 96:12 أَمَرَ
+- **B008** insanlar arasında yayılan iyi ün / الصيت الحسن المنتشر
+  - same: و س م B002 belirtiden karakter veya durum sezme / سمة يرى بها الناظر دلالة الحال ← 96:1 بِٱسْمِ
+  - same: ر ب و B007 baba tarafından yakın hane halkının arasına gelmek / أهل البيت من بني الأعمام ← 96:1 رَبِّكَ
+  - same: خ ل ق B001 ölçüp sınırlarını belirleme / تقدير الشيء وقياسه ← 96:1 خَلَقَ
+  - near: ك ر م B001 övgüye değer soyluluk, eli açıklık ve onurlandırma / الشرف والجود المحمود ← 96:3 ٱلْأَكْرَمُ
+  - near: ر ء ي B009 akciğer ve ona gelen zarar / الرئة وما يصيبها ← 96:7 رَّءَاهُ
+  - near: ط غ ي B003 yanlış yolun önderi, tapınılan sahte varlık veya saptırıcı zorba güç / الطاغوت رأس الضلالة ← 96:6 لَيَطْغَىٰٓ
+  - far: ن د و B008 seslenircesine belirginleşme ve kendini belli etme / ظهور الشيء كأنه ينادي ← 96:17 نَادِيَهُۥ
+  - far: ط و ع B005 yükümlü olmadığı iyiliği gönüllü yapma / التطوع والتبرع ← 96:19 تُطِعْهُ
+
+## و س م (بِٱسْمِ)
+
+- **B001** tanıtıcı fiziksel iz koyma, iz ve araç / أثر وسم ظاهر يجعل الشيء معروفا
+  - same: س م و B005 ad, adlandırma ve ad ya da nitelik bakımından denklik / الاسم تنويه ودلالة ← 96:1 بِٱسْمِ
+  - same: خ ل ق B001 ölçüp sınırlarını belirleme / تقدير الشيء وقياسه ← 96:1 خَلَقَ
+  - same: ر ب ب B010 kura oklarını toplayan kap / ربابة تجمع القداح ← 96:1 رَبِّكَ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 96:4 عَلَّمَ
+  - near: ق ل م B001 sert ucu kesip yontarak düzeltme ve çıkan parça / قص الصلب وبريه للتسوية ← 96:4 بِٱلْقَلَمِ
+  - near: ء ن س B002 görerek fark etme; bağlama göre işitme, sezme ve bakıp araştırma / إيناس الشيء برؤية أو إحساس أو سماع ← 96:2 ٱلْإِنسَٰنَ
+  - far: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 96:14 يَعْلَم
+  - far: ء م ر B005 belirti veya belirlenmiş vakit / العلامة والموعد ← 96:12 أَمَرَ
+- **B002** belirtiden karakter veya durum sezme / سمة يرى بها الناظر دلالة الحال
+  - same: س م و B008 insanlar arasında yayılan iyi ün / الصيت الحسن المنتشر ← 96:1 بِٱسْمِ
+  - same: خ ل ق B005 bir şeye yaraşır ve uygun olma / الجدارة والتهيؤ للشيء ← 96:1 خَلَقَ
+  - same: ق ر ء B006 dindar okur; öğrenmeye yönelen kişi / قارئ ناسك متفقه ← 96:1 ٱقْرَأْ
+  - near: ر ء ي B002 düşünüp bir görüşe varma / رأي القلب والتفكر ← 96:7 رَّءَاهُ
+  - near: ء ن س B002 görerek fark etme; bağlama göre işitme, sezme ve bakıp araştırma / إيناس الشيء برؤية أو إحساس أو سماع ← 96:2 ٱلْإِنسَٰنَ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 96:4 عَلَّمَ
+  - far: ر ء ي B002 düşünüp bir görüşe varma / رأي القلب والتفكر ← 96:9 أَرَءَيْتَ
+  - far: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 96:14 يَعْلَم
+- **B003** toprağı bitkilendiren yılın ilk yağmuru / مطر أول يسم الأرض بالنبات
+  - same: س م و B004 üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler / السماء وما علا فأظل ← 96:1 بِٱسْمِ
+  - same: ر ب ب B008 katmanlı asılı bulut kümesi / رباب السحاب ← 96:1 رَبِّكَ
+  - same: ر ب و B002 yükselmiş arazi / أرض مرتفعة ← 96:1 رَبِّكَ
+  - near: ر ج ع B006 yinelenen yağmur veya biriken su / المطر والماء الراجع ← 96:8 ٱلرُّجْعَىٰٓ
+  - near: ك ر م B002 yağmur getirme ve toprağın verimli oluşu / جودة النبات والغيث ← 96:3 ٱلْأَكْرَمُ
+  - near: ر ب ب B008 katmanlı asılı bulut kümesi / رباب السحاب ← 96:3 وَرَبُّكَ
+  - far: و ل ي B010 önceki yağmuru izleyen yağmur / مطر يلي الوسمي ← 96:13 وَتَوَلَّىٰٓ
+  - far: ن د و B003 çiğ, yağmur ve bunların oluşturduğu ıslaklık / بلل الندى والمطر ← 96:17 نَادِيَهُۥ
+- **B004** belirlenmiş toplu buluşma zamanı ve yeri / موسم معلم يجتمع إليه الناس
+  - same: ر ب ب B003 Tanrı bilgisiyle yetiştiren bilgin / علم رباني ← 96:1 رَبِّكَ
+  - same: ق ر ء B001 toplamak ve bir araya getirmek / جمع واجتماع ← 96:1 ٱقْرَأْ
+  - same: خ ل ق B011 su tutan kaya oyuğu veya yeni kuyu / نقرة أو بئر تمسك الماء ← 96:1 خَلَقَ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 96:4 عَلَّمَ
+  - near: ر ء ي B005 başkaları görsün diye yapma / رياء الناس ← 96:7 رَّءَاهُ
+  - near: ر ب ب B003 Tanrı bilgisiyle yetiştiren bilgin / علم رباني ← 96:3 وَرَبُّكَ
+  - far: ء م ر B005 belirti veya belirlenmiş vakit / العلامة والموعد ← 96:12 أَمَرَ
+  - far: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 96:14 يَعْلَم
+- **B005** kişide görünen yerleşik güzellik ve zarafet / حسن عليه أثر الجمال
+  - same: س م و B005 ad, adlandırma ve ad ya da nitelik bakımından denklik / الاسم تنويه ودلالة ← 96:1 بِٱسْمِ
+  - same: خ ل ق B004 huy ve iç karakter / السجية والطبيعة الباطنة ← 96:1 خَلَقَ
+  - same: ق ر ء B013 hayvan varlığı veya bakmakla yükümlü olunanlar / القِرَة مال وعيال ← 96:1 ٱقْرَأْ
+  - near: ر ء ي B006 görünüş, belirti ve yansıtıcı yüzey / مرأى ومنظر ومرآة ← 96:7 رَّءَاهُ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 96:4 عَلَّمَ
+  - near: خ ل ق B004 huy ve iç karakter / السجية والطبيعة الباطنة ← 96:2 خَلَقَ
+  - far: س ف ع B003 hafifçe kavurup ten rengini değiştirme / لفح النار والسموم ← 96:15 لَنَسْفَعًۢا
+  - far: ر ء ي B006 görünüş, belirti ve yansıtıcı yüzey / مرأى ومنظر ومرآة ← 96:9 أَرَءَيْتَ
+- **B006** yaprakları boya olarak kullanılan bitki / وسمة يخضب بورقها
+  - same: ر ب ب B012 belirli bir yeşil bitki türü / ربة نبات ← 96:1 رَبِّكَ
+  - same: س م و B006 av için ıssız araziye çıkma ve buna bağlı avcı kullanımları / الخروج للصيد ← 96:1 بِٱسْمِ
+  - same: خ ل ق B010 sürülen hoş koku karışımı / الخلوق والتخليق بالطيب ← 96:1 خَلَقَ
+  - near: ر ب ب B012 belirli bir yeşil bitki türü / ربة نبات ← 96:3 وَرَبُّكَ
+  - near: ك ر م B004 üzüm ve asma / العنب والكرمة ← 96:3 ٱلْأَكْرَمُ
+  - near: ق ل م B003 yazı yazma aracı / عود الكتابة المبرّى ← 96:4 بِٱلْقَلَمِ
+  - far: و ل ي B010 önceki yağmuru izleyen yağmur / مطر يلي الوسمي ← 96:13 وَتَوَلَّىٰٓ
+  - far: ن ص ي B004 tazeyken değerli bir otlak bitkisi / نبات النَّصِي ← 96:15 بِٱلنَّاصِيَةِ
+
+## ر ب ب (رَبِّكَ)
+
+- **B001** sahip olup yönetme / ربوبية وملك وسيادة
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 96:1 رَبِّكَ
+  - same: خ ل ق B002 var etme ve ortaya çıkarma / إبداع الخلق وإيجاده ← 96:1 خَلَقَ
+  - same: س م و B004 üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler / السماء وما علا فأظل ← 96:1 بِٱسْمِ
+  - near: خ ل ق B002 var etme ve ortaya çıkarma / إبداع الخلق وإيجاده ← 96:2 خَلَقَ
+  - near: ك ر م B001 övgüye değer soyluluk, eli açıklık ve onurlandırma / الشرف والجود المحمود ← 96:3 ٱلْأَكْرَمُ
+  - near: ر ء ي B002 düşünüp bir görüşe varma / رأي القلب والتفكر ← 96:7 رَّءَاهُ
+  - far: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 96:14 ٱللَّهَ
+  - far: ع ب د B001 özgür olmayan, sahip olunan kişi / الرق والملك ← 96:10 عَبْدًا
+- **B002** adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام
+  - same: ر ب و B005 besleyip büyütmek ve yetişmek / تغذية ونشوء ← 96:1 رَبِّكَ
+  - same: خ ل ق B002 var etme ve ortaya çıkarma / إبداع الخلق وإيجاده ← 96:1 خَلَقَ
+  - same: ق ر ء B005 vakit, yaklaşma veya gecikme / وقت يحين أو يتأخر ← 96:1 ٱقْرَأْ
+  - near: خ ل ق B002 var etme ve ortaya çıkarma / إبداع الخلق وإيجاده ← 96:2 خَلَقَ
+  - near: ق ر ء B005 vakit, yaklaşma veya gecikme / وقت يحين أو يتأخر ← 96:3 ٱقْرَأْ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 96:4 عَلَّمَ
+  - far: و ل ي B003 bir işi üstlenip yönetme / تولي الأمر والقيام عليه ← 96:13 وَتَوَلَّىٰٓ
+  - far: ع ب د B004 köleleştirmek veya köle gibi boyunduruk altına almak / التعبيد والاستعباد ← 96:10 عَبْدًا
+- **B003** Tanrı bilgisiyle yetiştiren bilgin / علم رباني
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 96:1 رَبِّكَ
+  - same: و س م B004 belirlenmiş toplu buluşma zamanı ve yeri / موسم معلم يجتمع إليه الناس ← 96:1 بِٱسْمِ
+  - same: ق ر ء B006 dindar okur; öğrenmeye yönelen kişi / قارئ ناسك متفقه ← 96:1 ٱقْرَأْ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 96:4 عَلَّمَ
+  - near: ر ء ي B011 görünür yere dikilen bayrak / راية منصوبة ← 96:7 رَّءَاهُ
+  - near: ق ر ء B006 dindar okur; öğrenmeye yönelen kişi / قارئ ناسك متفقه ← 96:3 ٱقْرَأْ
+  - far: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 96:14 يَعْلَم
+  - far: ر ء ي B011 görünür yere dikilen bayrak / راية منصوبة ← 96:9 أَرَءَيْتَ
+- **B004** büyük insan topluluğu / ربة وجماعات كثيرة
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 96:1 رَبِّكَ
+  - same: ق ر ء B001 toplamak ve bir araya getirmek / جمع واجتماع ← 96:1 ٱقْرَأْ
+  - same: و س م B004 belirlenmiş toplu buluşma zamanı ve yeri / موسم معلم يجتمع إليه الناس ← 96:1 بِٱسْمِ
+  - near: ق ر ء B001 toplamak ve bir araya getirmek / جمع واجتماع ← 96:3 ٱقْرَأْ
+  - near: ء ن س B001 insan türü ve bu türden bir kişi / ظهور الإنسان المخالف للتوحش والجن ← 96:2 ٱلْإِنسَٰنَ
+  - near: ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 96:4 عَلَّمَ
+  - far: ق ر ب B004 ayrıcalıklı yakın çevre / حظوة المقربين وخاصة الملك ← 96:19 وَٱقْتَرِب
+  - far: ن د و B001 topluluğun buluşma yeri ve toplantısı / اجتماع القوم في النادي والندوة ← 96:17 نَادِيَهُۥ
+- **B005** bakımla kurulan üvey aile bağı / ربيب وربيبة ورابة
+  - same: ر ب و B005 besleyip büyütmek ve yetişmek / تغذية ونشوء ← 96:1 رَبِّكَ
+  - same: ق ر ء B013 hayvan varlığı veya bakmakla yükümlü olunanlar / القِرَة مال وعيال ← 96:1 ٱقْرَأْ
+  - same: خ ل ق B012 kapalı üreme yolu / انسداد مصمت كالصخرة ← 96:1 خَلَقَ
+  - near: ر ج ع B004 boşama sonrası evlilik bağına geri alma / رجعة المرأة في النكاح والأهل ← 96:8 ٱلرُّجْعَىٰٓ
+  - near: ء ن س B006 belirli sözlerde kişinin kendisi veya seçilmiş yakını / ابن الإنس للنفس والصفوة ← 96:2 ٱلْإِنسَٰنَ
+  - near: ع ل ق B008 evlilikte askıda bırakılmış kadın / امرأة معلّقة لا تستقر في زوجية ولا أيومة ← 96:2 عَلَقٍ
+  - far: ق ر ب B003 akrabalık ve yakın akraba / قرابة الرحم والنسب ← 96:19 وَٱقْتَرِب
+  - far: و ل ي B003 bir işi üstlenip yönetme / تولي الأمر والقيام عليه ← 96:13 وَتَوَلَّىٰٓ
+- **B006** koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به
+  - same: ر ب و B001 artmak veya yükselmek / زيادة وعلو ← 96:1 رَبِّكَ
+  - same: خ ل ق B001 ölçüp sınırlarını belirleme / تقدير الشيء وقياسه ← 96:1 خَلَقَ
+  - same: س م و B004 üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler / السماء وما علا فأظل ← 96:1 بِٱسْمِ
+  - near: خ ل ق B001 ölçüp sınırlarını belirleme / تقدير الشيء وقياسه ← 96:2 خَلَقَ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 96:4 عَلَّمَ
+  - near: ر ج ع B015 geri çıkan veya yeniden işlenen şey / الرجيع مردودا أو معادا ← 96:8 ٱلرُّجْعَىٰٓ
+  - far: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 96:14 يَعْلَم
+  - far: ق ر ب B002 zamanca yaklaşma veya yakın geçmişe ait olma / دنو الزمان وانقضاء الشيء ← 96:19 وَٱقْتَرِب
+- **B007** bir yerde kalıp sürme / لزوم وإقامة ودوام
+  - same: ر ب و B001 artmak veya yükselmek / زيادة وعلو ← 96:1 رَبِّكَ
+  - same: ق ر ء B005 vakit, yaklaşma veya gecikme / وقت يحين أو يتأخر ← 96:1 ٱقْرَأْ
+  - same: س م و B004 üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler / السماء وما علا فأظل ← 96:1 بِٱسْمِ
+  - near: غ ن ي B004 bir yerde uzun süre kalıp yaşama / الغنى بالمكان ← 96:7 ٱسْتَغْنَىٰٓ
+  - near: ق ر ء B005 vakit, yaklaşma veya gecikme / وقت يحين أو يتأخر ← 96:3 ٱقْرَأْ
+  - near: ع ل ق B001 takılma ve bağlı kalma / تعلّق الشيء بغيره ولزومه له ← 96:2 عَلَقٍ
+  - far: س ج د B003 yere dayanan beden bölümleri ve alındaki temas izi / أعضاء السجود وأثره ← 96:19 وَٱسْجُدْ
+  - far: ق ر ب B001 yakın olma, yaklaşma veya yaklaştırma / الدنو وخلاف البعد ← 96:19 وَٱقْتَرِب
+- **B008** katmanlı asılı bulut kümesi / رباب السحاب
+  - same: س م و B004 üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler / السماء وما علا فأظل ← 96:1 بِٱسْمِ
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 96:1 رَبِّكَ
+  - same: و س م B003 toprağı bitkilendiren yılın ilk yağmuru / مطر أول يسم الأرض بالنبات ← 96:1 بِٱسْمِ
+  - near: ر ج ع B006 yinelenen yağmur veya biriken su / المطر والماء الراجع ← 96:8 ٱلرُّجْعَىٰٓ
+  - near: ك ر م B002 yağmur getirme ve toprağın verimli oluşu / جودة النبات والغيث ← 96:3 ٱلْأَكْرَمُ
+  - near: ع ل ق B001 takılma ve bağlı kalma / تعلّق الشيء بغيره ولزومه له ← 96:2 عَلَقٍ
+  - far: و ل ي B010 önceki yağmuru izleyen yağmur / مطر يلي الوسمي ← 96:13 وَتَوَلَّىٰٓ
+  - far: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 96:14 يَعْلَم
+- **B009** başlangıçtaki tazelik / شاة رُبّى وحداثة
+  - same: ر ب و B005 besleyip büyütmek ve yetişmek / تغذية ونشوء ← 96:1 رَبِّكَ
+  - same: ق ر ء B005 vakit, yaklaşma veya gecikme / وقت يحين أو يتأخر ← 96:1 ٱقْرَأْ
+  - same: ق ر ء B002 özel adlandırma kümesi / وقت الشيء ودورانه ← 96:1 ٱقْرَأْ
+  - near: ر ء ي B010 meme gelişmesiyle gebeliğin belli olması / ظهور حمل الناقة أو الشاة ← 96:7 رَّءَاهُ
+  - near: ع ل ق B009 döllenmenin tutup gebeliğin başlaması / حمل يثبت في الرحم أو اللقاح ← 96:2 عَلَقٍ
+  - near: ق ر ء B005 vakit, yaklaşma veya gecikme / وقت يحين أو يتأخر ← 96:3 ٱقْرَأْ
+  - far: ق ر ب B012 doğumu yaklaşmış gebe dişi / دنو الولادة في الحيوان ← 96:19 وَٱقْتَرِب
+  - far: ر ء ي B010 meme gelişmesiyle gebeliğin belli olması / ظهور حمل الناقة أو الشاة ← 96:9 أَرَءَيْتَ
+- **B010** kura oklarını toplayan kap / ربابة تجمع القداح
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 96:1 رَبِّكَ
+  - same: و س م B006 yaprakları boya olarak kullanılan bitki / وسمة يخضب بورقها ← 96:1 بِٱسْمِ
+  - same: ق ر ء B001 toplamak ve bir araya getirmek / جمع واجتماع ← 96:1 ٱقْرَأْ
+  - near: ق ل م B004 işaretli kura çubuğu veya oku / قدح مبرّى يلقى للقرعة ← 96:4 بِٱلْقَلَمِ
+  - near: ع ل ق B002 makara taşıyıcı su çekme düzeneği / آلة البكرة المعلّقة على القامة ← 96:2 عَلَقٍ
+  - near: ر ج ع B010 elini geriye uzatmak / إرجاع اليد إلى السلاح ← 96:8 ٱلرُّجْعَىٰٓ
+  - far: و ل ي B011 deve sırtı alt örtüsü / ولية تحت الرحل ← 96:13 وَتَوَلَّىٰٓ
+  - far: ق ر ب B009 su tulumu / القربة وعاء الماء ← 96:19 وَٱقْتَرِب
+- **B011** bağlayıcı söz ve güvence / ربابة عهد وميثاق
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 96:1 رَبِّكَ
+  - same: ق ر ء B013 hayvan varlığı veya bakmakla yükümlü olunanlar / القِرَة مال وعيال ← 96:1 ٱقْرَأْ
+  - same: خ ل ق B004 huy ve iç karakter / السجية والطبيعة الباطنة ← 96:1 خَلَقَ
+  - near: ق ر ء B013 hayvan varlığı veya bakmakla yükümlü olunanlar / القِرَة مال وعيال ← 96:3 ٱقْرَأْ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 96:4 عَلَّمَ
+  - near: خ ل ق B004 huy ve iç karakter / السجية والطبيعة الباطنة ← 96:2 خَلَقَ
+  - far: و ل ي B005 özel yakınlık ve bağlılık bağı / ولاء قرابة وعتق وجوار ← 96:13 وَتَوَلَّىٰٓ
+  - far: ه د ي B007 dokunulmaz sığınmacı; kimi açıklamalarda tutsak / هدي الحرمة والأسير ← 96:11 ٱلْهُدَىٰٓ
+- **B012** belirli bir yeşil bitki türü / ربة نبات
+  - same: ر ب و B002 yükselmiş arazi / أرض مرتفعة ← 96:1 رَبِّكَ
+  - same: و س م B006 yaprakları boya olarak kullanılan bitki / وسمة يخضب بورقها ← 96:1 بِٱسْمِ
+  - same: س م و B004 üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler / السماء وما علا فأظل ← 96:1 بِٱسْمِ
+  - near: ق ل م B007 gövdesiz tuzcul bir bitki türü / نبت شاذ عن الأصل ← 96:4 بِٱلْقَلَمِ
+  - near: ك ر م B002 yağmur getirme ve toprağın verimli oluşu / جودة النبات والغيث ← 96:3 ٱلْأَكْرَمُ
+  - near: ر ء ي B009 akciğer ve ona gelen zarar / الرئة وما يصيبها ← 96:7 رَّءَاهُ
+  - far: ن ص ي B004 tazeyken değerli bir otlak bitkisi / نبات النَّصِي ← 96:15 بِٱلنَّاصِيَةِ
+  - far: ص ل و B009 iri başaklı, develerin otladığı bir bitki / الصِّليان نبت ترعاه الإبل ← 96:10 صَلَّىٰٓ
+- **B013** bol ve toplanmış su / ماء رَبَب كثير
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 96:1 رَبِّكَ
+  - same: ق ر ء B001 toplamak ve bir araya getirmek / جمع واجتماع ← 96:1 ٱقْرَأْ
+  - same: ق ر ء B003 rahimde toplanıp taşınmak / اجتماع الرحم وحمله ← 96:1 ٱقْرَأْ
+  - near: ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 96:4 عَلَّمَ
+  - near: ق ر ء B001 toplamak ve bir araya getirmek / جمع واجتماع ← 96:3 ٱقْرَأْ
+  - near: ر ج ع B006 yinelenen yağmur veya biriken su / المطر والماء الراجع ← 96:8 ٱلرُّجْعَىٰٓ
+  - far: ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 96:14 يَعْلَم
+  - far: ق ر ب B009 su tulumu / القربة وعاء الماء ← 96:19 وَٱقْتَرِب
+- **B014** yaban sığırı sürüsü / رَبْرَب قطيع
+  - same: ق ر ء B013 hayvan varlığı veya bakmakla yükümlü olunanlar / القِرَة مال وعيال ← 96:1 ٱقْرَأْ
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 96:1 رَبِّكَ
+  - same: س م و B006 av için ıssız araziye çıkma ve buna bağlı avcı kullanımları / الخروج للصيد ← 96:1 بِٱسْمِ
+  - near: ق ر ء B013 hayvan varlığı veya bakmakla yükümlü olunanlar / القِرَة مال وعيال ← 96:3 ٱقْرَأْ
+  - near: ء ن س B001 insan türü ve bu türden bir kişi / ظهور الإنسان المخالف للتوحش والجن ← 96:2 ٱلْإِنسَٰنَ
+  - near: ع ل م B007 erkek sırtlan / ذكر الضباع يسمى العيلام ← 96:4 عَلَّمَ
+  - far: ك ذ ب B007 koşup arkasına bakmak için durmak / كذب الوحشي إذا جرى ثم وقف ← 96:13 كَذَّبَ
+  - far: ء م ر B009 küçük koyun yavrusu / ولد الضأن الصغير ← 96:12 أَمَرَ
+- **B015** azlık bildiren ilgeç / حرف رب وربما
+  - same: ر ب و B001 artmak veya yükselmek / زيادة وعلو ← 96:1 رَبِّكَ
+  - same: ق ر ء B005 vakit, yaklaşma veya gecikme / وقت يحين أو يتأخر ← 96:1 ٱقْرَأْ
+  - same: خ ل ق B002 var etme ve ortaya çıkarma / إبداع الخلق وإيجاده ← 96:1 خَلَقَ
+  - near: ر ء ي B013 söyler misin, bir düşün / أرأيتك للتنبيه والاستخبار ← 96:7 رَّءَاهُ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 96:4 عَلَّمَ
+  - near: ق ر ء B005 vakit, yaklaşma veya gecikme / وقت يحين أو يتأخر ← 96:3 ٱقْرَأْ
+  - far: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 96:14 ٱللَّهَ
+  - far: و ل ي B016 taze hurmanın kurumaya dönmesi / ولي الرطب وتولى إذا هاج ← 96:13 وَتَوَلَّىٰٓ
+- **B016** gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 96:1 رَبِّكَ
+  - same: ق ر ء B013 hayvan varlığı veya bakmakla yükümlü olunanlar / القِرَة مال وعيال ← 96:1 ٱقْرَأْ
+  - same: خ ل ق B004 huy ve iç karakter / السجية والطبيعة الباطنة ← 96:1 خَلَقَ
+  - near: ق ر ء B013 hayvan varlığı veya bakmakla yükümlü olunanlar / القِرَة مال وعيال ← 96:3 ٱقْرَأْ
+  - near: خ ل ق B004 huy ve iç karakter / السجية والطبيعة الباطنة ← 96:2 خَلَقَ
+  - near: ر ء ي B009 akciğer ve ona gelen zarar / الرئة وما يصيبها ← 96:7 رَّءَاهُ
+  - far: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 96:10 عَبْدًا
+  - far: ر ء ي B009 akciğer ve ona gelen zarar / الرئة وما يصيبها ← 96:9 أَرَءَيْتَ
+- **B017** gemicilerin başı / رباني الملاحين
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 96:1 رَبِّكَ
+  - same: ق ر ء B013 hayvan varlığı veya bakmakla yükümlü olunanlar / القِرَة مال وعيال ← 96:1 ٱقْرَأْ
+  - same: س م و B006 av için ıssız araziye çıkma ve buna bağlı avcı kullanımları / الخروج للصيد ← 96:1 بِٱسْمِ
+  - near: ر ء ي B009 akciğer ve ona gelen zarar / الرئة وما يصيبها ← 96:7 رَّءَاهُ
+  - near: ط غ ي B005 pürüzsüz kaya yüzeyi, dağ doruğu veya yüksek yer / الطغية الصفاة الملساء ← 96:6 لَيَطْغَىٰٓ
+  - near: ع ل م B006 doğan veya atmaca türü yırtıcı kuş / طائر جارح يسمى العلام ← 96:4 عَلَّمَ
+  - far: ق ر ب B004 ayrıcalıklı yakın çevre / حظوة المقربين وخاصة الملك ← 96:19 وَٱقْتَرِب
+  - far: ء م ر B001 konu ve hal / الشأن والحال ← 96:12 أَمَرَ
+
+## ر ب و (رَبِّكَ)
+
+- **B001** artmak veya yükselmek / زيادة وعلو
+  - same: ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 96:1 رَبِّكَ
+  - same: س م و B001 fiziksel ya da toplumsal yükselme / العلو والارتفاع ← 96:1 بِٱسْمِ
+  - same: خ ل ق B009 kullanımdan yıpranıp eskime / بلى الثوب وذهاب وبره ← 96:1 خَلَقَ
+  - near: ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 96:3 وَرَبُّكَ
+  - near: خ ل ق B009 kullanımdan yıpranıp eskime / بلى الثوب وذهاب وبره ← 96:2 خَلَقَ
+  - near: ط غ ي B002 ölçüyü aşarak kabarıp bastırma / علو الماء والقوة الجارفة ← 96:6 لَيَطْغَىٰٓ
+  - far: ق ر ب B007 temas edip içine girecek ölçüde yaklaşma / مقاربة الشيء وملابسته ← 96:19 وَٱقْتَرِب
+  - far: ء م ر B004 bereketli çoğalma / النماء والبركة ← 96:12 أَمَرَ
+- **B002** yükselmiş arazi / أرض مرتفعة
+  - same: ر ب ب B011 bağlayıcı söz ve güvence / ربابة عهد وميثاق ← 96:1 رَبِّكَ
+  - same: س م و B001 fiziksel ya da toplumsal yükselme / العلو والارتفاع ← 96:1 بِٱسْمِ
+  - same: و س م B003 toprağı bitkilendiren yılın ilk yağmuru / مطر أول يسم الأرض بالنبات ← 96:1 بِٱسْمِ
+  - near: ر ب ب B011 bağlayıcı söz ve güvence / ربابة عهد وميثاق ← 96:3 وَرَبُّكَ
+  - near: ط غ ي B005 pürüzsüz kaya yüzeyi, dağ doruğu veya yüksek yer / الطغية الصفاة الملساء ← 96:6 لَيَطْغَىٰٓ
+  - near: ر ء ي B009 akciğer ve ona gelen zarar / الرئة وما يصيبها ← 96:7 رَّءَاهُ
+  - far: ر ء ي B009 akciğer ve ona gelen zarar / الرئة وما يصيبها ← 96:9 أَرَءَيْتَ
+  - far: ق ر ب B004 ayrıcalıklı yakın çevre / حظوة المقربين وخاصة الملك ← 96:19 وَٱقْتَرِب
+- **B003** belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة
+  - same: ر ب ب B011 bağlayıcı söz ve güvence / ربابة عهد وميثاق ← 96:1 رَبِّكَ
+  - same: ق ر ء B013 hayvan varlığı veya bakmakla yükümlü olunanlar / القِرَة مال وعيال ← 96:1 ٱقْرَأْ
+  - same: و س م B003 toprağı bitkilendiren yılın ilk yağmuru / مطر أول يسم الأرض بالنبات ← 96:1 بِٱسْمِ
+  - near: ر ب ب B011 bağlayıcı söz ve güvence / ربابة عهد وميثاق ← 96:3 وَرَبُّكَ
+  - near: ك ر م B005 kap ağzına konan tabak biçimli kapak / طبق على رأس الوعاء ← 96:3 ٱلْأَكْرَمُ
+  - near: ق ر ء B013 hayvan varlığı veya bakmakla yükümlü olunanlar / القِرَة مال وعيال ← 96:3 ٱقْرَأْ
+  - far: ء م ر B004 bereketli çoğalma / النماء والبركة ← 96:12 أَمَرَ
+  - far: و ل ي B014 aldığı fiyatla devretme / تولية البيع ← 96:13 وَتَوَلَّىٰٓ
+- **B004** soluğu yükselip sıkışmak / تصعد النفس وانتفاخه
+  - same: ر ب ب B006 koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به ← 96:1 رَبِّكَ
+  - same: س م و B001 fiziksel ya da toplumsal yükselme / العلو والارتفاع ← 96:1 بِٱسْمِ
+  - same: و س م B003 toprağı bitkilendiren yılın ilk yağmuru / مطر أول يسم الأرض بالنبات ← 96:1 بِٱسْمِ
+  - near: ر ء ي B009 akciğer ve ona gelen zarar / الرئة وما يصيبها ← 96:7 رَّءَاهُ
+  - near: ر ب ب B006 koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به ← 96:3 وَرَبُّكَ
+  - near: ط غ ي B002 ölçüyü aşarak kabarıp bastırma / علو الماء والقوة الجارفة ← 96:6 لَيَطْغَىٰٓ
+  - far: ر ء ي B009 akciğer ve ona gelen zarar / الرئة وما يصيبها ← 96:9 أَرَءَيْتَ
+  - far: ك ذ ب B008 iç benlik / النفس الكذوب ← 96:13 كَذَّبَ
+- **B005** besleyip büyütmek ve yetişmek / تغذية ونشوء
+  - same: ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 96:1 رَبِّكَ
+  - same: ق ر ء B004 rahminde taşıyıp gebe olmak / رحم يجمع حملا ← 96:1 ٱقْرَأْ
+  - same: ق ر ء B003 rahimde toplanıp taşınmak / اجتماع الرحم وحمله ← 96:1 ٱقْرَأْ
+  - near: ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 96:3 وَرَبُّكَ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 96:4 عَلَّمَ
+  - near: ك ر م B002 yağmur getirme ve toprağın verimli oluşu / جودة النبات والغيث ← 96:3 ٱلْأَكْرَمُ
+  - far: ع ب د B004 köleleştirmek veya köle gibi boyunduruk altına almak / التعبيد والاستعباد ← 96:10 عَبْدًا
+  - far: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 96:14 ٱللَّهَ
+- **B006** uyluk kökü ve iç yanlardaki iki çıkıntılı et parçası / نتوء أصل الفخذ
+  - same: ر ب ب B007 bir yerde kalıp sürme / لزوم وإقامة ودوام ← 96:1 رَبِّكَ
+  - same: و س م B003 toprağı bitkilendiren yılın ilk yağmuru / مطر أول يسم الأرض بالنبات ← 96:1 بِٱسْمِ
+  - same: ق ر ء B001 toplamak ve bir araya getirmek / جمع واجتماع ← 96:1 ٱقْرَأْ
+  - near: ك ر م B007 uyluk kemiğinin kalça yuvasındaki yuvarlak başı / رأس الفخذ المستدير ← 96:3 ٱلْأَكْرَمُ
+  - near: ر ب ب B007 bir yerde kalıp sürme / لزوم وإقامة ودوام ← 96:3 وَرَبُّكَ
+  - near: ر ج ع B013 gebeliğin oluşmaması veya çok erken sona ermesi / راجع الناقة وحملها ← 96:8 ٱلرُّجْعَىٰٓ
+  - far: ص ل و B005 sırtın ortası ve kuyruk kökünün iki yanı / الصَّلا من الظهر والجنب ← 96:10 صَلَّىٰٓ
+  - far: ق ر ب B015 böğür, bedenin yan bölgesi / قُرْب الفرس والخاصرة ← 96:19 وَٱقْتَرِب
+- **B007** baba tarafından yakın hane halkının arasına gelmek / أهل البيت من بني الأعمام
+  - same: ر ب ب B004 büyük insan topluluğu / ربة وجماعات كثيرة ← 96:1 رَبِّكَ
+  - same: س م و B008 insanlar arasında yayılan iyi ün / الصيت الحسن المنتشر ← 96:1 بِٱسْمِ
+  - same: ق ر ء B013 hayvan varlığı veya bakmakla yükümlü olunanlar / القِرَة مال وعيال ← 96:1 ٱقْرَأْ
+  - near: ر ب ب B004 büyük insan topluluğu / ربة وجماعات كثيرة ← 96:3 وَرَبُّكَ
+  - near: غ ن ي B004 bir yerde uzun süre kalıp yaşama / الغنى بالمكان ← 96:7 ٱسْتَغْنَىٰٓ
+  - near: ك ر م B006 eli açıklıkta övünme yarışı ve üstün gelme / مفاخرة الكرم والغلبة فيه ← 96:3 ٱلْأَكْرَمُ
+  - far: ك و ن B005 gençliğini anan yaşlı kişi / الشيخ المنسوب إلى كُنْتُ ← 96:11 كَانَ
+  - far: ن ص ي B003 seçkin kesim, en iyiyi seçme ve önde gelme / النَّصِيَّة والصفوة ← 96:15 بِٱلنَّاصِيَةِ
+
+## خ ل ق (خَلَقَ)
+
+- **B001** ölçüp sınırlarını belirleme / تقدير الشيء وقياسه
+  - same: ر ب ب B006 koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به ← 96:1 رَبِّكَ
+  - same: ق ر ء B005 şiiri başka bir şiirin örneğine göre kurmak / مثال الشعر وطريقته ← 96:1 ٱقْرَأْ
+  - same: ق ر ء B005 vakit, yaklaşma veya gecikme / وقت يحين أو يتأخر ← 96:1 ٱقْرَأْ
+  - near: ر ب ب B006 koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به ← 96:3 وَرَبُّكَ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 96:4 عَلَّمَ
+  - near: ق ل م B001 sert ucu kesip yontarak düzeltme ve çıkan parça / قص الصلب وبريه للتسوية ← 96:4 بِٱلْقَلَمِ
+  - far: ء م ر B002 buyrukla yükümlü kılma / الطلب والإلزام ← 96:12 أَمَرَ
+  - far: ط و ع B003 bir işi yapabilecek güç ve elverişlilik / الاستطاعة والإطاقة ← 96:19 تُطِعْهُ
+- **B002** var etme ve ortaya çıkarma / إبداع الخلق وإيجاده
+  - same: ر ب ب B001 sahip olup yönetme / ربوبية وملك وسيادة ← 96:1 رَبِّكَ
+  - same: ق ر ء B011 bir yolu veya örneği izlemek / طريقة ومثال وقصد ← 96:1 ٱقْرَأْ
+  - same: ر ب و B005 besleyip büyütmek ve yetişmek / تغذية ونشوء ← 96:1 رَبِّكَ
+  - near: ر ب ب B001 sahip olup yönetme / ربوبية وملك وسيادة ← 96:3 وَرَبُّكَ
+  - near: ك ر م B001 övgüye değer soyluluk, eli açıklık ve onurlandırma / الشرف والجود المحمود ← 96:3 ٱلْأَكْرَمُ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 96:4 عَلَّمَ
+  - far: ك و ن B001 gerçekleşme, bulunma ve olma bildirimi / وقوع الشيء وحضوره في زمان ← 96:11 كَانَ
+  - far: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 96:14 يَعْلَم
+- **B003** tam ve dengeli dış biçim / تمام الخلقة واعتدال الصورة
+  - same: س م و B002 yükselerek uzaktan beliren görünüş / الشخص المرتفع الظاهر ← 96:1 بِٱسْمِ
+  - same: و س م B005 kişide görünen yerleşik güzellik ve zarafet / حسن عليه أثر الجمال ← 96:1 بِٱسْمِ
+  - same: ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 96:1 رَبِّكَ
+  - near: ر ء ي B006 görünüş, belirti ve yansıtıcı yüzey / مرأى ومنظر ومرآة ← 96:7 رَّءَاهُ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 96:4 عَلَّمَ
+  - near: ك ر م B001 övgüye değer soyluluk, eli açıklık ve onurlandırma / الشرف والجود المحمود ← 96:3 ٱلْأَكْرَمُ
+  - far: ر ء ي B006 görünüş, belirti ve yansıtıcı yüzey / مرأى ومنظر ومرآة ← 96:9 أَرَءَيْتَ
+  - far: س ج د B006 önünde eğilinilen hükümdar betimli sikkeler / دراهم الصور المسجود لها ← 96:19 وَٱسْجُدْ
+- **B004** huy ve iç karakter / السجية والطبيعة الباطنة
+  - same: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 96:1 رَبِّكَ
+  - same: و س م B005 kişide görünen yerleşik güzellik ve zarafet / حسن عليه أثر الجمال ← 96:1 بِٱسْمِ
+  - same: ق ر ء B013 hayvan varlığı veya bakmakla yükümlü olunanlar / القِرَة مال وعيال ← 96:1 ٱقْرَأْ
+  - near: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 96:3 وَرَبُّكَ
+  - near: ر ء ي B006 görünüş, belirti ve yansıtıcı yüzey / مرأى ومنظر ومرآة ← 96:7 رَّءَاهُ
+  - near: ك ر م B001 övgüye değer soyluluk, eli açıklık ve onurlandırma / الشرف والجود المحمود ← 96:3 ٱلْأَكْرَمُ
+  - far: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 96:10 عَبْدًا
+  - far: و ل ي B004 yakın durup destek olma / محبة ونصرة وموالاة ← 96:13 وَتَوَلَّىٰٓ
+- **B005** bir şeye yaraşır ve uygun olma / الجدارة والتهيؤ للشيء
+  - same: و س م B002 belirtiden karakter veya durum sezme / سمة يرى بها الناظر دلالة الحال ← 96:1 بِٱسْمِ
+  - same: ق ر ء B005 vakit, yaklaşma veya gecikme / وقت يحين أو يتأخر ← 96:1 ٱقْرَأْ
+  - same: س م و B007 yarışma, övünerek boy ölçüşme ve karşı koyma / المساماة والمباراة ← 96:1 بِٱسْمِ
+  - near: ع ل ق B016 bir eylemi yapmaya koyulmak / الشروع في فعل كمن تعلق به ← 96:2 عَلَقٍ
+  - near: ك ر م B001 övgüye değer soyluluk, eli açıklık ve onurlandırma / الشرف والجود المحمود ← 96:3 ٱلْأَكْرَمُ
+  - near: غ ن ي B002 ihtiyacı karşılayıp yarar sağlama ve yerini tutma / الغَناء والكفاية ← 96:7 ٱسْتَغْنَىٰٓ
+  - far: و ل ي B008 daha uygun ve hak sahibi olma / الأولوية والاستحقاق ← 96:13 وَتَوَلَّىٰٓ
+  - far: و ق ي B002 korkulan şeyden ya da yanlış davranıştan kendini koruma / جعل النفس في وقاية ← 96:12 بِٱلتَّقْوَىٰٓ
+- **B007** uydurup yalan üretme / اختلاق الكذب والكلام
+  - same: ق ر ء B001 biçime bağlı adlandırmalar / جمع اللفظ وقراءته ← 96:1 ٱقْرَأْ
+  - same: ق ر ء B002 okumak, okutmak ve birlikte okumak / قراءة وتلاوة وإقراء ← 96:1 ٱقْرَأْ
+  - same: س م و B003 erkek devenin dişi deve sürüsüne atılıp aralarına girmesi / تطاول الفحل على الشول ← 96:1 بِٱسْمِ
+  - near: ع ل ق B005 yapışkan ve ısrarlı çekişme / خصومة أو دعوى تلتصق بصاحبها ← 96:2 عَلَقٍ
+  - near: ق ر ء B001 biçime bağlı adlandırmalar / جمع اللفظ وقراءته ← 96:3 ٱقْرَأْ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 96:4 عَلَّمَ
+  - far: ك ذ ب B001 sözde veya davranışta doğruluğa aykırılık / خلاف الصدق ← 96:13 كَذَّبَ
+  - far: د ع و B002 hak veya aidiyet ileri sürme / ادعاء الحق والانتساب ← 96:17 فَلْيَدْعُ
+- **B008** engebesiz ve düz olma / ملاسة السطح واستواؤه
+  - same: س م و B004 üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler / السماء وما علا فأظل ← 96:1 بِٱسْمِ
+  - same: ر ب ب B008 katmanlı asılı bulut kümesi / رباب السحاب ← 96:1 رَبِّكَ
+  - same: و س م B003 toprağı bitkilendiren yılın ilk yağmuru / مطر أول يسم الأرض بالنبات ← 96:1 بِٱسْمِ
+  - near: ق ل م B004 işaretli kura çubuğu veya oku / قدح مبرّى يلقى للقرعة ← 96:4 بِٱلْقَلَمِ
+  - near: ط غ ي B005 pürüzsüz kaya yüzeyi, dağ doruğu veya yüksek yer / الطغية الصفاة الملساء ← 96:6 لَيَطْغَىٰٓ
+  - near: ر ب ب B008 katmanlı asılı bulut kümesi / رباب السحاب ← 96:3 وَرَبُّكَ
+  - far: ه د ي B003 bir şeyin ilk veya öndeki bölümü / المتقدم الهادي وأوائل الشيء ← 96:11 ٱلْهُدَىٰٓ
+  - far: ع ب د B005 düzleşmiş yol, katranlanmış deve veya kaplanmış gemi / التذليل والتسوية ← 96:10 عَبْدًا
+- **B009** kullanımdan yıpranıp eskime / بلى الثوب وذهاب وبره
+  - same: ر ب و B001 artmak veya yükselmek / زيادة وعلو ← 96:1 رَبِّكَ
+  - same: ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 96:1 رَبِّكَ
+  - same: و س م B005 kişide görünen yerleşik güzellik ve zarafet / حسن عليه أثر الجمال ← 96:1 بِٱسْمِ
+  - near: ك ر م B001 övgüye değer soyluluk, eli açıklık ve onurlandırma / الشرف والجود المحمود ← 96:3 ٱلْأَكْرَمُ
+  - near: ع ل ق B015 bele kadar inen küçük üst giysisi / ثوب صغير كأنه عالق على الجسد ← 96:2 عَلَقٍ
+  - near: ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 96:3 وَرَبُّكَ
+  - far: ك ذ ب B009 dokuma bezemesi sanısı veren boyalı kumaş / الكذابة ثوب يكذب بحاله ← 96:13 كَذَّبَ
+  - far: ق ر ب B016 bir ölçü veya sınıra yaklaşık olma / القراب والمقاربة في المقدار ← 96:19 وَٱقْتَرِب
+- **B010** sürülen hoş koku karışımı / الخلوق والتخليق بالطيب
+  - same: ر ب ب B006 koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به ← 96:1 رَبِّكَ
+  - same: و س م B006 yaprakları boya olarak kullanılan bitki / وسمة يخضب بورقها ← 96:1 بِٱسْمِ
+  - same: ق ر ء B003 aybaşı ya da arınma dönemi / قرء الحيض والطهر ← 96:1 ٱقْرَأْ
+  - near: ع ل ق B004 kalbe yerleşen sevgi / هوى يعلق بالقلب ← 96:2 عَلَقٍ
+  - near: ك ر م B001 övgüye değer soyluluk, eli açıklık ve onurlandırma / الشرف والجود المحمود ← 96:3 ٱلْأَكْرَمُ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 96:4 عَلَّمَ
+  - far: ع ب د B012 güzel koku maddesi ezme taşı / صَلاءة الطيب ← 96:10 عَبْدًا
+  - far: س ج د B002 alnı yere koyma yeri, buna ayrılmış yapı veya küçük yaygı / موضع السجود ومصلاه ← 96:19 وَٱسْجُدْ
+- **B011** su tutan kaya oyuğu veya yeni kuyu / نقرة أو بئر تمسك الماء
+  - same: س م و B004 üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler / السماء وما علا فأظل ← 96:1 بِٱسْمِ
+  - same: و س م B004 belirlenmiş toplu buluşma zamanı ve yeri / موسم معلم يجتمع إليه الناس ← 96:1 بِٱسْمِ
+  - same: ر ب ب B010 kura oklarını toplayan kap / ربابة تجمع القداح ← 96:1 رَبِّكَ
+  - near: ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 96:4 عَلَّمَ
+  - near: ر ج ع B006 yinelenen yağmur veya biriken su / المطر والماء الراجع ← 96:8 ٱلرُّجْعَىٰٓ
+  - near: ط غ ي B005 pürüzsüz kaya yüzeyi, dağ doruğu veya yüksek yer / الطغية الصفاة الملساء ← 96:6 لَيَطْغَىٰٓ
+  - far: ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 96:14 يَعْلَم
+  - far: ق ر ب B009 su tulumu / القربة وعاء الماء ← 96:19 وَٱقْتَرِب
+- **B012** kapalı üreme yolu / انسداد مصمت كالصخرة
+  - same: س م و B007 yarışma, övünerek boy ölçüşme ve karşı koyma / المساماة والمباراة ← 96:1 بِٱسْمِ
+  - same: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 96:1 رَبِّكَ
+  - same: ق ر ء B004 rahminde taşıyıp gebe olmak / رحم يجمع حملا ← 96:1 ٱقْرَأْ
+  - near: ط غ ي B005 pürüzsüz kaya yüzeyi, dağ doruğu veya yüksek yer / الطغية الصفاة الملساء ← 96:6 لَيَطْغَىٰٓ
+  - near: ق ل م B009 eşi olmayan erkek ve kadınlar; kadının uzun süre eşsiz kalması / انقطاع عن الزوج ← 96:4 بِٱلْقَلَمِ
+  - near: ع ل ق B008 evlilikte askıda bırakılmış kadın / امرأة معلّقة لا تستقر في زوجية ولا أيومة ← 96:2 عَلَقٍ
+  - far: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 96:10 عَبْدًا
+  - far: ن ص ي B003 seçkin kesim, en iyiyi seçme ve önde gelme / النَّصِيَّة والصفوة ← 96:15 بِٱلنَّاصِيَةِ
+

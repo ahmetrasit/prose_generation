@@ -47,9 +47,16 @@ class Dictionary:
         self._e: dict[str, dict] = {}
 
     def entry(self, rid: str) -> dict:
+        """Merged envelopes (`root_A--root_B_entry.json`) serve each root with its own branches."""
+        if not hasattr(self, "_files"):
+            self._files = {rid_: f for f in DICT_DIR.glob("*_entry.json")
+                           for rid_ in f.name[: -len("_entry.json")].split("--")}
         if rid not in self._e:
-            p = DICT_DIR / f"{rid}_entry.json"
-            self._e[rid] = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
+            p = self._files.get(rid)
+            e = json.loads(p.read_text(encoding="utf-8")) if p else {}
+            if p and "--" in p.name:
+                e = dict(e, branches=[b for b in e.get("branches", []) if b.get("branch_ref", "").startswith(rid + "/")])
+            self._e[rid] = e
         return self._e[rid]
 
     def texts(self, name: str, bid: str | None) -> list[str]:

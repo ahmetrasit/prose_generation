@@ -75,6 +75,18 @@ def _gunzip(src: Path, name: str) -> Path:
     return dst
 
 
+_ENTRY_FILES: dict[str, Path] = {}
+
+
+def entry_files() -> dict[str, Path]:
+    """root id → its Turkish dictionary entry file, including merged envelopes and supplemental roots."""
+    if not _ENTRY_FILES:
+        for f in DICT_DIR.glob("*_entry.json"):
+            for rid in f.name[: -len("_entry.json")].split("--"):
+                _ENTRY_FILES[rid] = f
+    return _ENTRY_FILES
+
+
 class Sources:
     def __init__(self) -> None:
         self.quran = {}
@@ -110,9 +122,15 @@ class Sources:
 
     # -- dictionary
     def entry(self, root_id: str) -> dict:
+        """A merged envelope (`root_001210--root_001211_entry.json`) serves each of its roots with that root's own
+        branches (branch ids repeat across the two roots)."""
         if root_id not in self._dict:
-            p = DICT_DIR / f"{root_id}_entry.json"
-            self._dict[root_id] = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
+            p = entry_files().get(root_id)
+            e = json.loads(p.read_text(encoding="utf-8")) if p else {}
+            if p and "--" in p.name:
+                e = dict(e, branches=[b for b in e.get("branches", [])
+                                      if b.get("branch_ref", "").startswith(root_id + "/")])
+            self._dict[root_id] = e
         return self._dict[root_id]
 
     def branch(self, node_id: str) -> dict:
