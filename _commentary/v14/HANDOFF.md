@@ -3,14 +3,25 @@
 Read DESIGN.md and INPUT_AUDIT.md. The v13 handoff remains at ../v13/HANDOFF.md. V14 began as an exact copy of all
 308 files; baseline.manifest.json records that snapshot. Never edit copied historical out*/ or work/ files.
 
-Current authorized work: read ARGUMENT_TRIAL.md. The user agreed to clearer argument structure, local source anchors
-and explicit partial-use accounting, then requested Sol 6 max and Astra 6 max in parallel. out-sol-argument and
-out-astra-argument are prepared with matched evidence and 15 separately frozen evaluation criteria. New writer
-contract 3 removes quality grades and payoff essays; old schemas remain supported. Twenty-three tests pass.
-Each writer may generate once, with selective source lookup; no interruption, restart or repair. Compare both
-complete outputs as the primary agent. The previous completed repeat and its shortcomings are recorded below.
+Latest result: read ARGUMENT_COMPARISON.md. The authorized Sol 6 max / Astra 6 max pair finished in parallel,
+one generation each, no interruption/restart/repair. Same 1:6 evidence, v2 upstream, full v2 1:5, revised brief,
+lookup capability and schema-3 trace; packets are identical after normalizing the routing tag. Fifteen criteria
+were separately frozen and excluded from writer input. Both complete outputs were compared by the primary agent.
 
-Latest result: read STABILIZATION_COMPARISON.md and REVIEW_RESPONSE.md. The agreed out-sol-stable repeat is complete:
+Astra is stronger in this pair: Book/fire/resurrection, working well frame and sustained functional development.
+Sol improves exact source anchoring but drops those explanations. Both miss the explicit trodden-surface connection
+to signs/centre, so neither is accepted. All 110 Sol / 140 Astra tags pass exactly. Prose: 4,055 / 6,442 raw words,
+2,920 / 5,119 gloss-substituted; accounting: 15,112 / 16,180 bytes. Tokens/billing are unknown, not a rejection reason.
+Read both review.json and supplemental.review.json. Links are locations, never claims of full explanation; omitted
+components still hide inside some linked records. Astra also identifies missing rock-branch and variant evidence.
+
+Next proposed work: component-level omission protection, explicit prior-knowledge/new-connection distinction, and
+closing those input gaps. No additional model run starts automatically. A compact previous-context ablation remains
+separate. Twenty-three offline tests passed before the pair; no implementation changed after that test run. All
+four arms' frozen inputs and copied historical data remain intact. Concurrent v13 work must not be staged/restored.
+The previous completed repeat and its shortcomings are recorded below as history.
+
+Previous result: read STABILIZATION_COMPARISON.md and REVIEW_RESPONSE.md. The agreed out-sol-stable repeat is complete:
 same Sol max, v2 upstream and full v2 1:5 context; one generation, no interruption/restart/repair. All 23 tags pass
 exactly. Prose: 4,802 raw / 4,605 gloss-substituted words. Accounting: 20,173 bytes (32.1% of response), down 55%.
 Initial input: 203,821 bytes; 15 selective lookups added 97,910 bytes. All 147 cited ayat were in returned text.

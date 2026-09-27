@@ -35,4 +35,9 @@ substitute for reading the complete prose, checking partial records and reportin
 
 Twenty-three offline tests pass, including partial-use handforward, rejection of quality grades/duplicate IDs,
 unambiguous anchors, separately frozen evaluation without input leakage, old schema compatibility and all prior
-source/immutability checks. Preparation made no model call. Result: pending the two authorized writers.
+source/immutability checks. Preparation made no model call.
+
+Completed: both authorized writers finished one generation, without interruption, restart or repair. Read
+ARGUMENT_COMPARISON.md and each arm's review.json / supplemental.review.json. All 110 Sol and 140 Astra tags
+pass exactly. Astra preserves more and develops stronger functional relationships; both lose the explicit
+trodden-surface connection and remain unaccepted. Frozen inputs and generated responses are unchanged.
