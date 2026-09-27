@@ -54,8 +54,8 @@ rewritten descriptive and stub-tested end to end (grouping → repair → assign
 - One grouping pass; stage B is dropped. Word analysis (local senses only, never topics or payoffs) is an arm of the
   micro run (`--wa`, `out-wa/`), scored against the plain arm. It is not delivered to v12 separately: the writer
   already gets this ayah's word notes in `context.md`, and the other occurrences' senses are what the dossier groups.
-- Sampling: whole up to 250 occurrences per root; above that small form cells whole and signature sampling for the
-  large ones; an assign pass groups every remaining occurrence (new groups allowed). Every occurrence ends in a group.
+- One package per root (user decision, 2026-09-27): every occurrence listed and grouped in one session (largest
+  ع ل م 325 KB, ر ب ب 321 KB). Signature sampling plus the assign pass remain only as a fallback above 450 KB (no root).
 - Stop lemmas: ٱللَّه, قَالَ, كَانَ, شَىْء, كُلّ, جَآءَ (script-only). Roots occurring once: batched labels (20 per session).
 - Disputed roots: reviewed records, plus study rows that name the disputed words; whole-root rows left out.
 - Grammatical headwords ك ي ف and ل و ت are loaded as branches (their senses).
@@ -67,16 +67,11 @@ rewritten descriptive and stub-tested end to end (grouping → repair → assign
 
 1. The micro run (two arms), in the root-dossier repo.
 2. The go for the S29 probe (estimate ≈ $11; with usage.md on and off, ≈ $22).
-3. Dictionary: reviewed word-root records (quran-data `qac-dictionary-word-root-analyses.json`) for the words that
-   should reach the four Furūq roots, which have no QAC occurrence and bind no word in their entries: ٱللَّه and إِلَٰه →
-   و ل ه (root_005296); حَيَوٰة and حَيَوَان → ح ي و (root_005544; the study table catches ḥayy instead); ٱبْن and its
-   plurals → ب ن و (root_001959); whatever should reach ه ي د (root_005125; nothing does now). Both workflows read those
-   records automatically (v12 through V9 `word_roots`: 01_dictionary.md, neighbours.md; root-dossier through
-   `corpus.disputes`). Names now resolve by fallback (`v9/extra_names.py`: gateway, reviewed analyses, the dictionary
-   repo's furuq root packets); a name field in quran-data would remove the dependency on the dictionary repo.
-   Done for ٱللَّه (quran-data `ae9e79c54`: reviewed alternative و ل ه root_005296/B001, from the Tahdhīb via
-   Ebû'l-Heysem) — this also settles al-Tahdhīb's variant: it lives as that alternative, not inside ء ل ه. The study
-   table's ع ل ي, ز ك ي, م ن و, ر ب ي are weak-letter spellings of their dominant roots (one dictionary entry each).
+3. Dictionary: done through quran-data `ae9e79c54` and `2f01f7e05` (reviewed alternatives: و ل ه for ٱللَّه and إِلَٰه,
+   ب ن و for ٱبْن, بُنَىّ, بَنَات, ٱبْنَت, ح ي و for حَيَوٰة and حَيَوَان); both workflows read them (v12 through V9
+   `word_roots` into 01_dictionary.md, rebuilt at every prep; root-dossier through `corpus.disputes`, where a reviewed
+   pair's scope replaces the study table's). ه ي د is reached by no word. Names come first from the quran-apps
+   root-dictionary catalogue. Al-Tahdhīb's variant lives as the و ل ه alternative, not inside ء ل ه.
 4. The ~20 meaningful study disputes, moved into the reviewed format (named-word rows are kept meanwhile: د ي ن → د و ن
    100 words, ص ل و → ص ل ي 82, ن ب ء → ن ب و 75, س م و → و س م 70, ء ب و → ء ب ي 53 …).
 

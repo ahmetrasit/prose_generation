@@ -41,7 +41,12 @@ Known answers are in `eval/` — never put `eval/` or this file into a model's i
 - root-dossier: spelling-twin lookup table (11 merged envelopes, 20 duplicate branches), weak-letter minor roots
   labelled, usage.md shows the dispute note and points to 01_dictionary.md for reviewed alternatives.
 
+- quran-data `2f01f7e05` maps the other minor alternatives (إِلَٰه, the ibn family, حَيَوٰة, حَيَوَان); root-dossier lets a
+  reviewed pair define its scope (ح ي و now 77 words, not the table's ḥayy); names from the quran-apps catalogue.
+- One package per root (user decision): every occurrence in one grouping session; micro run = 7 sessions per arm plus
+  repairs. Work folders rebuilt (reviewed alternatives in 01_dictionary.md).
+
 ## Next
-1. Micro run, two arms (the user runs Luna; root-dossier RUNBOOK), then score both.
+1. Micro run, two arms, 7 roots each (the user runs Luna; root-dossier RUNBOOK), then score both.
 2. S29 probe (needs the user's go), usage on and off.
 3. Pilot (54 roots), then S1 in full with the surah pass.
