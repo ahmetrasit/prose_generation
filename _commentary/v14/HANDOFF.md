@@ -1,0 +1,44 @@
+# v14 handoff — 2026-09-27
+
+Read DESIGN.md and INPUT_AUDIT.md. The v13 handoff remains at ../v13/HANDOFF.md. V14 began as an exact copy of all
+308 files; baseline.manifest.json records that snapshot. Never edit copied historical out*/ or work/ files.
+
+User scope: create v14 from v13, revise the synthesis handover and regression protection, audit redundant/missing
+inputs, then run one Sol agent at max effort on a chosen ayah and compare with earlier runs. Selected ayah: 1:6.
+No unrequested Opus runs. Comparisons are done by the primary agent. The user explicitly authorized this Sol writer.
+
+Implemented: frozen experimental arms; lossless F/E_F/Q/A/image/meeting inventory; corrected adjacent-tag parsing;
+role-aware image projection; connected-explanation brief; exact-excerpt accounting and complete handforward;
+sequential immediate-predecessor context; independent passage review and immutable acceptance pointer; offline
+source verification; measured input audit. Source/tag validation never starts an automatic repair call.
+
+Prepared arm: out-sol-max, v2 activations/network/QeQ, v2 1:5 context. Exact input is
+out-sol-max/s001/1_6/write.input.md. Ten regression criteria are frozen in eval/regressions.json and never enter input.
+Source packets/prompts/results are checksum-bound; an external call uses a permanent exclusive write.started.json.
+
+Commands (python3 -B avoids modifying copied runtime caches):
+
+    python3 -B -m unittest discover -s _commentary/v14 -p test_v14.py -v
+    python3 -B _commentary/v14/run.py audit
+    python3 -B _commentary/v14/run.py prepare 1:6,1:7 --tag NEW --seed-from v2
+    python3 -B _commentary/v14/run.py preview 1:6 --tag NEW
+    python3 -B _commentary/v14/run.py write 1:6,1:7 --tag NEW --execute
+
+The last command spends an Opus call per ayah and requires the user's authorization. For the authorized external
+Sol call, export/claim once, generate once, ingest the returned prose plus SYNTHESIS JSON, then review:
+
+    python3 -B _commentary/v14/run.py external-start 1:6 --tag sol-max --model gpt-6-sol --effort max
+    python3 -B _commentary/v14/run.py ingest 1:6 --tag sol-max --response RESPONSE_PATH
+    python3 -B _commentary/v14/review.py init 1:6 --tag sol-max
+    python3 -B _commentary/v14/review.py check 1:6 --tag sol-max
+
+Edit review.json only after independently reading candidate and baseline passages; never hand-fix model prose.
+A mixed or regressed result stays experimental. No automatic retry and no average score can hide a lost criterion.
+
+Readiness: eleven offline tests pass. V13 and copied historical data hash-check unchanged. Input is 201.7 KB versus
+151.8 KB in v13; almost all growth is the 49.2 KB preceding commentary. This is not yet a cost improvement.
+Surah prose, reciprocal final check, full-surah reader state, common-root/rare-lemma concordance coverage, future
+QeQ digest cleanup and API economics remain unbuilt/unresolved. Sol usage dollars are unknown unless reported
+by the agent facility. The Sol comparison cannot isolate a prompt effect from a writer-model effect.
+
+Experiment result will be appended after generation and independent review.

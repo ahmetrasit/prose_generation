@@ -1,0 +1,157 @@
+# Branch-image pairs (global network, gateway roots; top by distinct partner root)
+
+For every branch of every focus root: partners in the same ayah (top 3), within ±7 ayat (top 3), and elsewhere in the surah (top 2). A pair is a candidate only; judge whether it opens a reading.
+
+Pairs listed: 120.
+## س م و (بِسْمِ)
+
+- **B001** fiziksel ya da toplumsal yükselme / العلو والارتفاع
+  - same: و س م B002 ← 1:1 بِسْمِ
+  - same: ء ل ه B002 ← 1:1 ٱللَّهِ
+  - same: ر ح م B001 ← 1:1 ٱلرَّحْمَٰنِ
+  - near: ع ل م B007 ← 1:2 ٱلْعَٰلَمِينَ
+  - near: ر ب ب B001 ← 1:2 رَبِّ
+  - near: ء ل ه B002 ← 1:2 لِلَّهِ
+- **B002** yükselerek uzaktan beliren görünüş / الشخص المرتفع الظاهر
+  - same: و س م B005 ← 1:1 بِسْمِ
+  - same: ء ل ه B002 ← 1:1 ٱللَّهِ
+  - same: ر ح م B003 ← 1:1 ٱلرَّحْمَٰنِ
+  - near: ع ل م B002 ← 1:2 ٱلْعَٰلَمِينَ
+  - near: ق و م B011 ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ر ب ب B001 ← 1:2 رَبِّ
+- **B003** erkek devenin dişi deve sürüsüne atılıp aralarına girmesi / تطاول الفحل على الشول
+  - same: و س م B002 ← 1:1 بِسْمِ
+  - same: ء ل ه B001 ← 1:1 ٱللَّهِ
+  - same: ر ح م B003 ← 1:1 ٱلرَّحْمَٰنِ
+  - near: م ل ك B008 ← 1:4 مَٰلِكِ
+  - near: ن ع م B008 ← 1:7 أَنْعَمْتَ
+  - near: ع ب د B005 ← 1:5 نَعْبُدُ
+- **B004** üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler / السماء وما علا فأظل
+  - same: و س م B003 ← 1:1 بِسْمِ
+  - same: ء ل ه B002 ← 1:1 ٱللَّهِ
+  - same: ر ح م B003 ← 1:1 ٱلرَّحْمَٰنِ
+  - near: ر ب ب B008 ← 1:2 رَبِّ
+  - near: ن ع م B007 ← 1:7 أَنْعَمْتَ
+  - near: ء ل ه B002 ← 1:2 لِلَّهِ
+- **B005** ad, adlandırma ve ad ya da nitelik bakımından denklik / الاسم تنويه ودلالة
+  - same: و س م B005 ← 1:1 بِسْمِ
+  - same: ء ل ه B002 ← 1:1 ٱللَّهِ
+  - same: ر ح م B001 ← 1:1 ٱلرَّحْمَٰنِ
+  - near: ء ل ه B002 ← 1:2 لِلَّهِ
+  - near: ق و م B003 ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ص ر ط B001 ← 1:6 ٱلصِّرَٰطَ
+- **B006** av için ıssız araziye çıkma ve buna bağlı avcı kullanımları / الخروج للصيد
+  - same: و س م B006 ← 1:1 بِسْمِ
+  - same: ء ل ه B001 ← 1:1 ٱللَّهِ
+  - same: ر ح م B002 ← 1:1 ٱلرَّحْمَٰنِ
+  - near: ق و م B001 ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ع و ن B006 ← 1:5 نَسْتَعِينُ
+  - near: ر ب ب B014 ← 1:2 رَبِّ
+- **B007** yarışma, övünerek boy ölçüşme ve karşı koyma / المساماة والمباراة
+  - same: و س م B005 ← 1:1 بِسْمِ
+  - same: ء ل ه B001 ← 1:1 ٱللَّهِ
+  - same: ر ح م B004 ← 1:1 ٱلرَّحْمَٰنِ
+  - near: ق و م B014 ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: غ ض ب B003 ← 1:7 ٱلْمَغْضُوبِ
+  - near: ه د ي B011 ← 1:6 ٱهْدِنَا
+- **B008** insanlar arasında yayılan iyi ün / الصيت الحسن المنتشر
+  - same: و س م B002 ← 1:1 بِسْمِ
+  - same: ء ل ه B002 ← 1:1 ٱللَّهِ
+  - same: ر ح م B003 ← 1:1 ٱلرَّحْمَٰنِ
+  - near: ه د ي B010 ← 1:6 ٱهْدِنَا
+  - near: ع ب د B012 ← 1:5 نَعْبُدُ
+  - near: ن ع م B001 ← 1:7 أَنْعَمْتَ
+
+## و س م (بِسْمِ)
+
+- **B001** tanıtıcı fiziksel iz koyma, iz ve araç / أثر وسم ظاهر يجعل الشيء معروفا
+  - same: س م و B005 ← 1:1 بِسْمِ
+  - same: ر ح م B002 ← 1:1 ٱلرَّحْمَٰنِ
+  - same: ء ل ه B002 ← 1:1 ٱللَّهِ
+  - near: ع ل م B002 ← 1:2 ٱلْعَٰلَمِينَ
+  - near: ر ب ب B010 ← 1:2 رَبِّ
+  - near: ن ع م B007 ← 1:7 أَنْعَمْتَ
+- **B002** belirtiden karakter veya durum sezme / سمة يرى بها الناظر دلالة الحال
+  - same: س م و B008 ← 1:1 بِسْمِ
+  - same: ر ح م B001 ← 1:1 ٱلرَّحْمَٰنِ
+  - same: ء ل ه B002 ← 1:1 ٱللَّهِ
+  - near: ع ل م B002 ← 1:2 ٱلْعَٰلَمِينَ
+  - near: غ ي ر B003 ← 1:7 غَيْرِ
+  - near: ن ع م B005 ← 1:7 أَنْعَمْتَ
+- **B003** toprağı bitkilendiren yılın ilk yağmuru / مطر أول يسم الأرض بالنبات
+  - same: س م و B004 ← 1:1 بِسْمِ
+  - same: ء ل ه B002 ← 1:1 ٱللَّهِ
+  - same: ر ح م B004 ← 1:1 ٱلرَّحْمَٰنِ
+  - near: ر ب ب B008 ← 1:2 رَبِّ
+  - near: ع ل م B002 ← 1:2 ٱلْعَٰلَمِينَ
+  - near: غ ي ر B001 ← 1:7 غَيْرِ
+- **B004** belirlenmiş toplu buluşma zamanı ve yeri / موسم معلم يجتمع إليه الناس
+  - same: ء ل ه B002 ← 1:1 ٱللَّهِ
+  - same: س م و B005 ← 1:1 بِسْمِ
+  - same: ر ح م B003 ← 1:1 ٱلرَّحْمَٰنِ
+  - near: ع ل م B002 ← 1:2 ٱلْعَٰلَمِينَ
+  - near: ق و م B001 ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ر ب ب B003 ← 1:2 رَبِّ
+- **B005** kişide görünen yerleşik güzellik ve zarafet / حسن عليه أثر الجمال
+  - same: س م و B005 ← 1:1 بِسْمِ
+  - same: ر ح م B001 ← 1:1 ٱلرَّحْمَٰنِ
+  - same: ء ل ه B002 ← 1:1 ٱللَّهِ
+  - near: ق و م B011 ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ع ل م B002 ← 1:2 ٱلْعَٰلَمِينَ
+  - near: ن ع م B001 ← 1:7 أَنْعَمْتَ
+- **B006** yaprakları boya olarak kullanılan bitki / وسمة يخضب بورقها
+  - same: س م و B006 ← 1:1 بِسْمِ
+  - same: ر ح م B001 ← 1:1 ٱلرَّحْمَٰنِ
+  - same: ء ل ه B002 ← 1:1 ٱللَّهِ
+  - near: ر ب ب B012 ← 1:2 رَبِّ
+  - near: ن ع م B007 ← 1:7 أَنْعَمْتَ
+  - near: ع ل م B002 ← 1:2 ٱلْعَٰلَمِينَ
+
+## ء ل ه (ٱللَّهِ)
+
+- **B001** tapınma ve tapınılan varlık / التعبد والمعبود
+  - same: س م و B005 ← 1:1 بِسْمِ
+  - same: و س م B004 ← 1:1 بِسْمِ
+  - same: ر ح م B001 ← 1:1 ٱلرَّحْمَٰنِ
+  - near: ع ب د B003 ← 1:5 نَعْبُدُ
+  - near: د ي ن B001 ← 1:4 ٱلدِّينِ
+  - near: ر ب ب B001 ← 1:2 رَبِّ
+- **B002** Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء
+  - same: س م و B005 ← 1:1 بِسْمِ
+  - same: و س م B004 ← 1:1 بِسْمِ
+  - same: ر ح م B001 ← 1:1 ٱلرَّحْمَٰنِ
+  - near: ر ب ب B001 ← 1:2 رَبِّ
+  - near: م ل ك B003 ← 1:4 مَٰلِكِ
+  - near: ه د ي B005 ← 1:6 ٱهْدِنَا
+
+## ر ح م (ٱلرَّحْمَٰنِ, ٱلرَّحِيمِ)
+
+- **B001** acıma duygusuyla esirgeyip iyilik etme / الرَّحْمَة والرقة
+  - same: س م و B005 ← 1:1 بِسْمِ
+  - same: ء ل ه B001 ← 1:1 ٱللَّهِ
+  - same: و س م B006 ← 1:1 بِسْمِ
+  - near: ن ع م B001 ← 1:7 أَنْعَمْتَ
+  - near: ر ب ب B016 ← 1:2 رَبِّ
+  - near: ع ب د B008 ← 1:5 نَعْبُدُ
+- **B002** yakın soy bağı / الرَّحِم والقرابة
+  - same: س م و B006 ← 1:1 بِسْمِ
+  - same: ء ل ه B001 ← 1:1 ٱللَّهِ
+  - same: و س م B006 ← 1:1 بِسْمِ
+  - near: ر ب ب B005 ← 1:2 رَبِّ
+  - near: ع ب د B007 ← 1:5 نَعْبُدُ
+  - near: غ ي ر B001 ← 1:7 غَيْرِ
+- **B003** döl yatağı / رَحِم الأنثى
+  - same: س م و B004 ← 1:1 بِسْمِ
+  - same: و س م B004 ← 1:1 بِسْمِ
+  - same: ء ل ه B002 ← 1:1 ٱللَّهِ
+  - near: ر ب ب B005 ← 1:2 رَبِّ
+  - near: ن ع م B006 ← 1:7 أَنْعَمْتَ
+  - near: ض ل ل B005 ← 1:7 ٱلضَّآلِّينَ
+- **B004** döl yatağı hastalığı ve doğum sonrası bozukluk / وجع الرَّحِم بعد الولادة
+  - same: و س م B003 ← 1:1 بِسْمِ
+  - same: س م و B003 ← 1:1 بِسْمِ
+  - same: ء ل ه B002 ← 1:1 ٱللَّهِ
+  - near: ر ب ب B009 ← 1:2 رَبِّ
+  - near: ق و م B020 ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: غ ض ب B006 ← 1:7 ٱلْمَغْضُوبِ
+

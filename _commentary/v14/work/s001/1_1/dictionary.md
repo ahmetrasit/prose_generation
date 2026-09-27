@@ -1,0 +1,39 @@
+# dictionary.md — every branch of every root of 1:1's words
+
+One line per branch: Bnnn | gloss | Arabic image | definition | first classical source phrase.
+`~alt` = a cited alternative analysis of the word; `~echo` = a sound-family root (not the word's root).
+Cite a branch as `root Bnnn`, e.g. `ر ب ب B007`; its Arabic may be quoted with that source.
+
+### س م و — 1:1 w1 بِسْمِ
+- B001 fiziksel ya da toplumsal yükselme | العلو والارتفاع | Bir şeyin fiziksel olarak yukarı çıkması veya bir kişinin toplumsal değerinin ve anılma düzeyinin yükselmesidir. Bakışın yukarı kaldırılması bu hareketin özel bir uygulamasıdır. | أصل يدل على العلو
+- B002 yükselerek uzaktan beliren görünüş | الشخص المرتفع الظاهر | Bir şeyin ya da kişinin yükselerek uzaktan görünür ve seçilebilir hale gelmesi, yahut bir şeyin yüksekte beliren gövdesi veya çizgisidir. Ayın ince yayının ufuk üstünde belirmesi bunun özel bir örneğidir. | سما لي شخص ارتفع حتى استثبته
+- B003 erkek devenin dişi deve sürüsüne atılıp aralarına girmesi | تطاول الفحل على الشول | Erkek devenin dişi deve sürüsünün üzerine doğru yükselip atılması ve sürünün arasına girmesidir. | سما الفحل سطا على شوله سماوة (maqayis)
+- B004 üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler | السماء وما علا فأظل | Bir şeyin üzerinde bulunan ve onu örten gök, tavan ya da genel üst yandır. Bu ad buluta, yukarıdan gelen yağmura, yağmurla çıkan veya yükselen bitkiye ve atın sırtına da aktarılır. | العرب تسمى السحاب سماء والمطر سماء
+- B005 ad, adlandırma ve ad ya da nitelik bakımından denklik | الاسم تنويه ودلالة | Bir şeyi tanıtan ad, bu adı verme veya edinme ve başka biriyle aynı adı taşıma ilişkisidir. Ayrıca aynı adı ya da niteliği hak edecek ölçüde denk olmayı anlatır; kaynaklar adlandırmayı anılmayı yükseltme düşüncesiyle açıklar. | أصل اسم سمو وهو من العلو لأنه تنويه ودلالة على المعنى (maqayis)
+- B006 av için ıssız araziye çıkma ve buna bağlı avcı kullanımları | الخروج للصيد | Bir topluluğun avlanmak için kır ve çöl gibi ıssız arazilere çıkmasıdır. Avcılar, av hayvanını arama ve avcının sıcak zeminde beklerken giydiği koruyucu çorap bu çekirdeğe bağlı kullanımlardır. | خرج القوم للصيد في قفار الأرض وصحاريها قلت سموا وهم السماة أي الصيادون (ayn
+- B007 yarışma, övünerek boy ölçüşme ve karşı koyma | المساماة والمباراة | İki tarafın üstün gelmek için birbiriyle yarışması, övünerek boy ölçüşmesi veya birbirine karşı koymasıdır. Bir kimseyle hiç kimsenin yarışamaması, onun bu karşılaştırmada erişilemez üstünlüğünü bildirir. | فلان لا يسامى
+- B008 insanlar arasında yayılan iyi ün | الصيت الحسن المنتشر | Bir kişi hakkında insanlar arasında yayılan ve yalnız iyi yönde olan ün veya sözdür. | ذهب صيته في الناس وسماه، أي صوته في الخير لا في الشر (tahdhib)
+
+### ء ل ه — 1:1 w2 ٱللَّهِ
+- B001 tapınma ve tapınılan varlık | التعبد والمعبود | Bir varlığa tapınma eylemini ve kişinin kendini tapınmaya vermesini anlatır. Türemiş kullanımlarda bir varlığı tapınılır kılmayı, tapınılan varlığı ve tapınma konusu sayılan varlıkları da adlandırır. | أصل واحد وهو التعبد، فالإله الله تعالى لأنه معبود، وتأله الرجل إذا تعبد، والإلاهة الشمس سميت بذلك لأن قوما كانوا يعبدونها (maqayis)
+- B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri | اسم الله في القسم والنداء | Yaratıcıya özgü adın kendisini ve bu adla kurulan seslenme, dilek, şaşma ve ant biçimlerini kapsar. Bu biçimler doğrudan seslenme, adın ant değeriyle kullanılması veya ses ve parçaların düşürülmesiyle kısaltılma yollarını gösterir. | فالإله الله تعالى وسمي بذلك لأنه معبود (maqayis)
+
+### ر ح م — 1:1 w3 ٱلرَّحْمَٰنِ; 1:1 w4 ٱلرَّحِيمِ
+- B001 acıma duygusuyla esirgeyip iyilik etme | الرَّحْمَة والرقة | Bir başkasına karşı yüreğin yumuşaması, ona acıma ve bu yönelişin onu esirgeyip ona iyilik etmeyi gerektirmesidir. Tanrı'ya uygulandığında insandaki duygulanmadan çok, kuşatıcı esirgeme ve iyilik sonucu öne çıkar. | أصل واحد يدل على الرقة والعطف والرأفة (maqayis)
+- B002 yakın soy bağı | الرَّحِم والقرابة | İnsanları ortak bir soydan gelmeleri yoluyla birbirine bağlayan yakın ilişkidir. Organ adı, birden çok kişinin aynı doğum kaynağından çıkması düşüncesiyle bu toplumsal bağa aktarılmıştır. | الرَّحِم علاقة القرابة (maqayis)
+- B003 döl yatağı | رَحِم الأنثى | Dişinin karnında yavrunun tutunup geliştiği, onu doğuma kadar içinde taşıyan iç organdır. | سميت رحم الأنثى رحما (maqayis)
+- B004 döl yatağı hastalığı ve doğum sonrası bozukluk | وجع الرَّحِم بعد الولادة | Dişi deve, koyun veya kadında döl yatağının ağrıması ya da hastalanmasıyla; koyunda ise ayrıca şişmesiyle belirlenen durumdur. Bazı kullanımlar bunu doğum sonrasına bağlar. Koyunun doğumdan sonra yavru zarını atamaması da bu organ çevresindeki özel bir bozukluk olarak dala dahildir. | شاة رحوم إذا اشتكت رحمها بعد النتاج (maqayis)
+
+### و س م ~alt — 1:1 w1 بِسْمِ
+- B001 tanıtıcı fiziksel iz koyma, iz ve araç | أثر وسم ظاهر يجعل الشيء معروفا | Bir şeyi ya da hayvanı, tanınmasını veya ayırt edilmesini sağlayan kalıcı ve görünür bir fiziksel iz oluşturacak biçimde işaretlemektir; iz yakma, kulak kesme ya da çentikleme yoluyla bırakılabilir. Anlam alanı, oluşan işareti ve özellikle hayvanı işaretlemeye yarayan kızgın aracı da kapsar. | ووسمت الشيء وسما: أثرت فيه بسمة (maqayis
+- B002 belirtiden karakter veya durum sezme | سمة يرى بها الناظر دلالة الحال | Bir kişide görülen belirti veya izlere dikkatle bakarak onun iyiliği, kötülüğü, niteliği ya da durumu hakkında sezgisel bir sonuca varmaktır. Anlam, belirtinin kendisinden çok onu okuyup görünmeyen bir niteliği çıkarma eylemine dayanır. | الناظرين في السمة الدالة (maqayis)
+- B003 toprağı bitkilendiren yılın ilk yağmuru | مطر أول يسم الأرض بالنبات | Yılın başlangıcında veya ilkbaharın ilk döneminde yağan ve toprağı bitkilendirerek üzerinde görünür bir etki bırakan ilk yağmurdur. Bu yağmuru alıp etkisini taşıyan toprak da dala bağlı bir sonuç durumudur. | الوسمى أول المطر لأنه يسم الأرض بالنبات (maqayis)
+- B004 belirlenmiş toplu buluşma zamanı ve yeri | موسم معلم يجتمع إليه الناس | İnsanların kutsal ziyaret, pazar veya benzeri ortak bir amaçla bir araya geldiği, önceden belirlenmiş zaman, yer ya da toplu buluşmadır. Bu belirlenmiş buluşmaya gidip katılmak da dala bağlı bir eylem olarak kullanılır. | وسمى موسم الحاج موسما لأنه معلم يجتمع إليه الناس (maqayis)
+- B005 kişide görünen yerleşik güzellik ve zarafet | حسن عليه أثر الجمال | Bir kişinin, özellikle yüzünde, yerleşik ve belirgin bir güzellik, hoş görünüş veya zarafet taşımasıdır. Anlam, güzelliğin kişide bıraktığı görünür etkiyi ve bu etkiyle güzel sayılmayı da kapsar. | فلانة ذات ميسم إذا كان عليها أثر الجمال، والوسامة الجمال (maqayis)
+- B006 yaprakları boya olarak kullanılan bitki | وسمة يخضب بورقها | Yaprakları renk verici madde sağlayan ve boyama amacıyla kullanılan belirli bir bitki veya küçük ağaçtır. Bitki, özellikle yapraklarından hazırlanan boya işleviyle tanımlanır. | الوسم والوسمة الواحدة شجرة ورقها خضاب (ayn
+
+### و ل ه ~alt — 1:1 w2 ٱللَّهِ
+- B001 yoğun duygudan aklı karışma veya ayrılıktan özlem çekme | الوَلَه والحيرة | Yoğun sevgi, üzüntü veya sevinç yüzünden aklın karışması ya da sağlıklı işleyişini yitirmesi; ayrıca kaybedilen yahut sevilen varlığa güçlü özlem ve yöneliş duyulmasıdır. Bu görünümler insanlarda ve yakınından ayrılan hayvanlarda görülür; insanı şaşırtan bir yer için de aktarılabilir. | أصل صحيح يدل على اضطراب شيء أو ذهابه (maqayis)
+- B002 anneyi yavrusundan ayırıp özleme düşürme | تَوْلِيه الوالدة عن ولدها | Bir anneyi yavrusundan ayırarak onu ağır özleme ve duygusal sarsıntıya düşürmektir. Satışta ya da tutsakların paylaşılmasında yapılan ayrılık, bu eylemin özellikle belirtilen uygulamalarıdır. | التوليه أن يفرق بين المرأة وولدها (maqayis
+- B003 salınan suyun açık arazide akıp kaybolması | ماء مُولَه ذاهب | Açık ve ıssız araziye salınan suyun orada akıp gözden yitmesi ve suyu bu biçimde salınmış kaynağın bu sonuçla nitelenmesidir. | عين مولهة إذا أرسل ماؤها فذهب في الصحارى (maqayis)
+

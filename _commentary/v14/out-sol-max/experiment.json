@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "source_arm": "out-v2",
+  "refs": [
+    "1:6"
+  ],
+  "upstream": "frozen",
+  "default_writer": {
+    "model": "opus",
+    "effort": "high"
+  },
+  "files": {
+    "s001/1_6/act.md": "0947cf26a0c22c7fff3ec9b5d7d9d6b90d5621ec36f1806e56a9c2ff777a426d",
+    "s001/1_6/qeq.md": "4ab6439f08ce7a136827639c0cfd730e98ea3c149c8a865d87f595591e498b52",
+    "s001/network.md": "82dafbcdb46dbaff17d2eee150f44bfea83b98e692fd459b3e934a7911c99851",
+    "s001/1_6/inputs/ayah.md": "b97f0204a5a8104f997fbaf7a753b5e0bac8dd9e20f9dedecec1256035eef92d",
+    "s001/1_6/inputs/dictionary.md": "8269751ff6bef93daf397b1b456bde53d06fdc7c44d9e9365c71afcb618b3c22",
+    "s001/1_6/inputs/concordance.md": "72813da08f1f3b9e7813a86832de69a5aaffcc7e8d2a23bd520ae9939ed7c506",
+    "s001/1_6/inputs/branches.md": "548fa88d2e7605c00597607731188317e96ecc14de76a17c0b084b2e52d3146d",
+    "context/s001/1_5.reading.tr.md": "8cc36c428191cdc5f58e3332a53976218209b407c3a49f0245a9ea8dccc72e85",
+    "s001/1_6/inputs/window_text.md": "cbd19d89ccf8d82506fd8a05a9bd571e84b699ac24b7c44d78d678722fc0c8b4",
+    "inputs/write.md": "b4f1b96e74d76fd0ac309533f62594fbd9d9424f02fd19b691d189711e5ba475",
+    "s001/1_6/inputs/variants.md": "dd651dbe2b384b05998f1ea2f94f17ce8265e9d9c3136436a11f49c878efaa6f",
+    "s001/1_6/synthesis.json": "7c54cdf559d6bb90fb5d107ae23c17e673a21c461dab5de6d93f6722f62ae9d3",
+    "s001/1_6/synthesis.md": "6bfd517a5c54b485f72ca85d0c48cd5a3d050e6fc5e8f57aadfe6607c7e976c3"
+  },
+  "origins": {
+    "s001/1_6/act.md": "out-v2/s001/1_6/act.md",
+    "s001/1_6/qeq.md": "out-v2/s001/1_6/qeq.md",
+    "s001/network.md": "out-v2/s001/network.md",
+    "s001/1_6/inputs/ayah.md": "work/s001/1_6/ayah.md",
+    "s001/1_6/inputs/dictionary.md": "work/s001/1_6/dictionary.md",
+    "s001/1_6/inputs/concordance.md": "work/s001/1_6/concordance.md",
+    "s001/1_6/inputs/branches.md": "out-v2/s001/1_6/branches.md",
+    "context/s001/1_5.reading.tr.md": "out-v2/s001/1_5/1_5.reading.tr.md",
+    "s001/1_6/inputs/window_text.md": "work/s001/window_1-7/window_text.md",
+    "inputs/write.md": "prompts/write.md",
+    "s001/1_6/inputs/variants.md": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v9/lines/work/1_6/digest_v2.md (variant section only; excludes legacy usage counts)"
+  }
+}

@@ -1,0 +1,148 @@
+# reciprocal.md — earlier GPT reviews' related passages for 1:1 (incomplete, sometimes misleading)
+
+- 1:3 (strong): Direct repeat of both focus epithets; immediate continuation of the opening.
+- 12:40 (strong): Branch route joins naming, worship, exclusive divine rule, and upright order.
+- 27:30 (strong): Exact full formula repeats focus in a distinct setting.
+- 1:2 (strong): Immediate continuation frames the name with praise and lordship.
+- 2:163 (strong): Pairs the exact epithets with divine oneness.
+- 37:118 (medium): Branch link gives the guidance-route reading a parallel extension.
+- 59:22 (medium): Restates both epithets within a larger declaration of divine identity.
+- 1:4 (medium): Immediate context supplies sovereignty and reckoning alongside focus.
+- 11:41 (medium): Reuses the opening naming formula and one focus epithet in a journey context.
+- 1:7 (medium): Immediate context keeps route and favor/boundary readings in view.
+- 17:110 (medium): Names Allah and al-Rahman as parallel invocations and foregrounds names.
+- 7:180 (medium): Branch link connects invocation by names with deviation as boundary.
+- 42:5 (weak): Adds praise and forgiveness framing with one repeated focus epithet.
+- 1:6 (medium): Immediate context supplies the petition and route continuation.
+- 3:129 (weak): One repeated epithet occurs in a wider forgiveness/discipline frame.
+- 1:5 (medium): Immediate context supplies worship and seeking-help response.
+- 41:2 (medium): Repeats both epithets while placing them in a descent frame.
+- 39:11 (medium): Branch link directly relates exclusive service to focus channels.
+- 36:5 (weak): One focus epithet in another descent frame; largely redundant.
+- 21:112 (strong): Branch link joins appeal for judgment, aid, and the al-Rahman designation.
+- 55:1 (weak): Sole al-Rahman occurrence adds no context beyond earlier formula repeats.
+- 39:64 (medium): Branch link preserves a contrary boundary against redirected worship.
+- 26:217 (weak): Al-Rahim occurs with another epithet; adds limited new context.
+- 19:65 (medium): Branch links combine worship, unique naming, and a non-equivalence boundary.
+- 20:5 (medium): Al-Rahman is paired with sovereignty, a distinct adjacent frame.
+- 19:7 (weak): Branch name/namesake evidence is indirect and peripheral.
+- 26:104 (weak): Repeats al-Rahim in a recurring epithet pair.
+- 23:75 (weak): Root-only overlap plus body-related branch readings gives little focus help.
+- 26:68 (no value): Exact duplicate of the recurring epithet formula, already represented.
+- 24:7 (weak): Branch link places divine naming within an oath counter-sequence.
+- 26:9 (no value): Exact duplicate already covered by earlier occurrences.
+- 24:9 (weak): Counterpart oath sequence preserves the opposing side of branch evidence.
+- 37:182 (medium): Repeats the praise-lordship frame already adjacent to focus.
+- 24:22 (medium): Branch link adds forgiveness/forbearance within kinship-related care.
+- 44:42 (weak): Repeated al-Rahim formula in an exception frame; limited novelty.
+- 6:118 (medium): Branch links give named-use and route-alignment evidence.
+- 15:49 (weak): Al-Rahim recurs in a forgiveness assertion with little new linkage.
+- 95:8 (weak): Several branch links are broad and do not localize a clear focus reading.
+- 30:5 (weak): Al-Rahim occurs in a victory frame; marginal after prior formula cards.
+- 73:8 (medium): Branch links foreground name-remembrance while retaining parallel readings.
+- 20:8 (medium): Compact name-and-excellence formulation, though redundant with earlier name cards.
+- 109:6 (medium): Branch evidence preserves distinct-worship and related contrary/secondary readings.
+- 19:93 (weak): Service to al-Rahman adds a limited dependency reading.
+- 73:9 (weak): Exclusive divine identity and reliance add only indirect support.
+- 9:104 (weak): Return-plus-al-Rahim framing is now redundant.
+- 93:11 (weak): Broad branch resonances are indirect; proclamation adds little to focus.
+- 39:53 (weak): Forgiveness/al-Rahim framing repeats earlier evidence.
+- 12:98 (weak): Same forgiveness-and-al-Rahim pattern with no new route.
+- 67:3 (weak): Al-Rahman in a creation frame adds only a secondary reading.
+- 9:118 (weak): Return/repair frame duplicates established al-Rahim evidence.
+- 2:160 (weak): Repeats return/repair plus al-Rahim, with limited novelty.
+- 2:37 (weak): Same return/al-Rahim pattern, now redundant.
+- 78:37 (weak): Al-Rahman with cosmic lordship adds a secondary frame.
+- 19:58 (weak): Al-Rahman-related recitation/prostration adds a secondary response reading.
+- 10:107 (weak): Al-Rahim in benefit/harm framing has limited new focus value.
+- 2:128 (weak): Return/al-Rahim formula remains redundant.
+- 34:2 (weak): Al-Rahim paired with movements across realms is secondary at most.
+- 46:8 (weak): Al-Rahim in a dispute/revelation frame has limited connection.
+- 25:59 (weak): Al-Rahman with creation/sovereignty repeats an earlier adjacent frame.
+- 2:54 (weak): Return/al-Rahim recurrence adds no distinct focus route.
+- 6:12 (medium): Explicitly connects divine self-description with الرحمة, extending the epithet field.
+- 2:192 (weak): Forgiveness/al-Rahim formula is redundant.
+- 25:6 (weak): Al-Rahim linked to sending/hidden knowledge is secondary.
+- 2:199 (weak): Forgiveness/al-Rahim formula repeats prior cards.
+- 2:143 (weak): Compassionate epithet in a community/test frame is indirect.
+- 48:14 (weak): Forgiveness/al-Rahim formula repeats established evidence.
+- 22:65 (weak): Compassionate epithet amid cosmic control has limited novelty.
+- 2:173 (weak): Forgiveness/al-Rahim after prohibition/necessity is peripheral.
+- 2:182 (weak): Same forgiveness/al-Rahim closure, redundant.
+- 25:48 (weak): Root-only overlap in landscape imagery has no exact focus route.
+- 2:105 (weak): Rahma-root and favor wording add only general parallel evidence.
+- 39:38 (weak): Rahma and reliance occur but remain indirect.
+- 2:64 (weak): Rahma/favor root occurrence is redundant and indirect.
+- 22:5 (no value): Root-only reproductive/landscape material does not clarify focus.
+- 26:122 (no value): Exact recurring epithet formula already exhausted.
+- 26:140 (no value): Exact recurring formula repeated.
+- 26:159 (no value): Exact recurring formula repeated.
+- 32:6 (weak): Al-Rahim with knowledge/strength gives a compact but late secondary pairing.
+- 26:175 (no value): Exact recurring formula repeated.
+- 26:191 (no value): Exact recurring formula repeated.
+- 112:2 (weak): Divine-name declaration adds a limited identity reading.
+- 70:3 (weak): Divine-name occurrence in an ascent frame is peripheral.
+- 36:58 (weak): Al-Rahim as a spoken-address qualifier is only secondary.
+- 55:78 (weak): Name plus majesty/honor extends naming, but weakly.
+- 26:193 (no value): No direct lexical or explicit channel route to focus.
+- 50:33 (weak): Al-Rahman with reverence/return adds a secondary response reading.
+- 19:88 (weak): Contrary claim about al-Rahman is boundary evidence, not positive support.
+- 78:38 (weak): Al-Rahman in judgment/speech-permission framing adds a secondary boundary.
+- 19:85 (weak): Al-Rahman as destination/assembly adds a secondary relation.
+- 25:60 (weak): Refusal to prostrate to al-Rahman is contrary boundary evidence only.
+- 49:8 (weak): Divine favor/grace wording is distant and tail-audit only.
+- 2:207 (weak): Divine pleasure/servants framing is distant and tail-audit only.
+- 47:4 (no value): Tail-audit conflict material has no focused route.
+- 5:54 (weak): Divine favor in allegiance context is distant tail-audit evidence.
+- 29:21 (weak): Root-only rahma in return/punishment framing is indirect tail-audit evidence.
+- 3:154 (no value): Tail-audit divine-name occurrence does not clarify focus.
+- 28:76 (no value): Tail-audit narrative occurrence has no focused route.
+- 66:3 (no value): Tail-audit divine-name occurrence has no focused route.
+- 61:14 (weak): Service/support toward God is indirect tail-audit evidence.
+- 2:259 (no value): Tail-audit divine-name occurrence has no focused route.
+- 6:54 (medium): Explicit rahma self-description complements the related 6:12 reading.
+- 7:56 (medium): Rahma is placed beside invocation, fear, hope, and conduct.
+- 7:156 (strong): Explicitly extends the rahma field with unusually broad scope.
+- 19:18 (medium): Al-Rahman occurs as the referent of seeking refuge.
+- 19:44 (medium): Directly joins worship-boundary language with al-Rahman.
+- 19:45 (medium): Al-Rahman occurs in a warning/boundary frame.
+- 20:90 (strong): Directly joins al-Rahman, lordship, following, and obedience.
+- 21:42 (weak): Al-Rahman occurs in a protective-power boundary question.
+- 25:63 (medium): Servants of al-Rahman provide a distinct service/dependence reading.
+- 26:5 (weak): Al-Rahman occurs in a reminder/reception frame.
+- 36:11 (medium): Al-Rahman with unseen reverence provides a response reading.
+- 36:23 (medium): Al-Rahman appears in a boundary against rival deities and reliance on them.
+- 43:20 (weak): A contrary worship claim involving al-Rahman is boundary evidence only.
+- 43:36 (medium): Turning from al-Rahman remembrance supplies a naming/remembrance boundary.
+- 43:45 (strong): Direct rival-worship boundary centered on al-Rahman.
+- 43:81 (weak): Contrary child-claim conditional is boundary evidence, not support.
+- 67:20 (weak): Al-Rahman occurs in a protection/power challenge.
+- 67:28 (weak): Al-Rahman occurs in a punishment/protection boundary question.
+- 67:29 (medium): Al-Rahman is joined to belief and reliance.
+- 3:74 (reverse:weak): Generic divine mercy opening; little incremental value.
+- 4:132 (reverse:no value): The invocation alone adds no specific ownership or wakil evidence.
+- 5:88 (reverse:no value): No specific provision or consumption contribution.
+- 6:79 (reverse:no value): The opening formula alone does not add interpretive specificity.
+- 15:87 (reverse:strong): Fatiha'nın açılışı, yedi ayetlik sure bütününü "seb'an min al-mathani" için korunması gereken başlıca paralel rota olarak başlatır.
+- 16:33 (reverse:no value): No material link beyond general divine naming.
+- 16:52 (reverse:no value): Tek başına besmele, önceki kartların ötesinde belirli bir bağ vermez.
+- 22:60 (reverse:no value): The basmala's mercy names are too general to clarify the focus's specific sequence.
+- 24:20 (reverse:no value): The formula names mercy without adding a contextual relation to the focus.
+- 26:108 (reverse:no value): The opening invocation alone does not develop the focus's fear-and-obedience command.
+- 26:110 (reverse:no value): The basmala names God but does not materially develop the focus command.
+- 26:126 (reverse:no value): The opening invocation does not materially clarify taqwa or obedience to the messenger.
+- 26:131 (reverse:no value): Besmele, 26:131'in sakınma ve itaat çağrısına belirli bir açıklama eklemez.
+- 26:144 (reverse:no value): Besmele, buyruktaki seçici itaat ya da ücret karşıtlığına özgül katkı sağlamaz.
+- 26:150 (reverse:no value): It does not establish a meaningful relation to fearing God or obedience.
+- 26:163 (reverse:no value): Rahman ve Rahim adı, bu çağrının elçi ve itaat yapısını açıklamaz.
+- 26:179 (reverse:no value): The basmala names God but adds no connection to the command to obey a messenger.
+- 30:6 (reverse:no value): The opening formula does not clarify the focus.
+- 37:38 (reverse:no value): The opening invocation has no material connection to the focus's punishment statement.
+- 37:169 (reverse:no value): The divine name alone does not clarify the focus's conditional pledge.
+- 48:3 (reverse:no value): No candidate-specific aid or might route beyond the divine name.
+- 51:7 (reverse:no value): No focused structural, contextual, or lexical contribution.
+- 82:1 (reverse:no value): No lexical, structural, or curated route to 82:1.
+- 84:1 (reverse:no value): No specific connection to the focus is established.
+- 85:1 (reverse:no value): The lexical match is non-semantic for this focus.
+- 86:1 (reverse:no value): Name-root retrieval does not add a reading of 86:1.
+- 104:6 (reverse:no value): No usable connection to the focus reading.

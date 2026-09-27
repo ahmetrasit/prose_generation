@@ -1,0 +1,157 @@
+# reciprocal.md — earlier GPT reviews' related passages for 18:96 (incomplete, sometimes misleading)
+
+- 18:93 (strong): The immediate preceding scene locates the exposed interval between the two mountain barriers and introduces the people who will cooperate in closing it.
+- 18:83 (weak): It opens the Dhu al-Qarnayn narrative but does not yet illuminate the fabrication of the rampart.
+- 17:50 (medium): Iron is named as an apparently resistant material, offering a limited material parallel to the rampart's iron masses.
+- 28:29 (weak): Its sighting of a fire is unrelated to the controlled heating stage of the construction.
+- 18:95 (strong): The immediate prior ayah commissions collective strength to make a protective fill between the two sides, which 18:96 executes.
+- 4:9 (no value): Upright speech and care for vulnerable heirs do not clarify the material construction or barrier in the focus.
+- 26:196 (no value): Zubur here means earlier scriptures, not the iron pieces used in the focus.
+- 18:94 (strong): The people's request for a barrier against Gog and Magog supplies the threat and purpose answered by the focus's construction.
+- 22:21 (weak): Iron appears as an instrument of punishment, not as a material integrated into a protective structure.
+- 18:77 (medium): The repair of a collapsing wall is a nearby instance of purposeful protective construction, though with different materials and aim.
+- 18:97 (strong): The immediate continuation verifies that the completed rampart prevents both climbing and piercing.
+- 7:104 (weak): Moses' declaration to Pharaoh has no meaningful connection to the focus's construction process.
+- 2:250 (weak): The plea to have patience poured out uses a verbal metaphor but not material pouring or fabrication.
+- 18:98 (strong): The following ayah names the rampart a mercy and states the limit of its protective duration.
+- 57:25 (strong): It identifies iron as a divinely given material of strength and human benefit, directly supporting its constructive use in the focus.
+- 34:10 (medium): God's softening of iron for David gives a related account of divinely enabled work with iron.
+- 18:84 (medium): Dhu al-Qarnayn's divinely granted means and authority provide the capacity exercised in the focus.
+- 18:1 (no value): The straightness of the Book does not clarify the physical alignment or fusion of the rampart.
+- 7:126 (weak): The request to have patience poured out shares only a figurative verb with the focus's molten pouring.
+- 18:85 (medium): Dhu al-Qarnayn's following of a means begins the sequence of purposeful travel and action culminating in the rampart.
+- 23:53 (no value): Zubur denotes divided writings here, not iron blocks or their integration.
+- 27:7 (weak): Its fire serves warmth and guidance, not the deliberate heating of construction material.
+- 18:16 (weak): The cave offers refuge through separation, a broad protective-boundary parallel without construction.
+- 18:8 (no value): The earth's adornment becoming barren does not explain the rampart or its fabrication.
+- 11:43 (medium): The separating wave illustrates that a barrier's protective force depends on divine mercy, a limited conceptual parallel.
+- 18:86 (weak): This earlier stage of Dhu al-Qarnayn's journey gives narrative context but not the building process.
+- 2:230 (weak): Legal limits in marriage are a distinct kind of boundary from the constructed rampart.
+- 7:143 (weak): The mountain being leveled offers a distant contrast to the later leveling of the rampart, but not its fabrication.
+- 18:18 (weak): The cave entrance's frightening protection is a broad local parallel to controlled access without a built barrier.
+- 18:32 (no value): The placement of gardens and crops between them is unrelated to joining iron across a gap.
+- 7:38 (no value): Fire as punishment and the formulaic sequence language do not clarify the focus.
+- 18:87 (weak): Dhu al-Qarnayn's justice toward wrongdoers establishes his governing role but not the construction itself.
+- 58:20 (weak): Opposition to God and the Messenger is not related to a physical boundary or fabrication.
+- 11:40 (weak): The oven's overflowing and the ark's loading do not illuminate the focus's controlled heating or pouring.
+- 18:17 (weak): The cave's exposure is regulated by sunlight, a different local form of protected spatial arrangement.
+- 71:16 (weak): The sun is called a lamp, but this cosmic image does not clarify the focus's fire stage.
+- 88:4 (weak): The hot fire is punitive rather than a controlled means of fabrication.
+- 18:88 (weak): Dhu al-Qarnayn's benevolent judgment is nearby narrative context but has no direct process parallel.
+- 2:229 (weak): Legal limits are only a remote conceptual parallel to the focus's physical protective boundary.
+- 14:50 (weak): Burning and coating with tar concern punishment, not the poured molten covering of the rampart.
+- 18:82 (medium): The wall preserves an orphaned treasure until its proper time, a nearby protective-structure parallel with a different construction episode.
+- 18:48 (no value): The appointed meeting before God does not clarify the assembly of the rampart.
+- 92:14 (weak): The blazing fire is punitive, not the purposeful fire made from aligned iron.
+- 18:89 (medium): Dhu al-Qarnayn's continued following of a means is part of the immediate journey leading to the focus.
+- 4:13 (weak): Divine legal limits are only a broad analogy to the rampart's controlled boundary.
+- 34:12 (strong): The flowing spring of molten copper and divinely directed labor closely parallel the focus's use of poured qitr over a constructed work.
+- 18:90 (medium): The eastern journey immediately precedes arrival between the mountain barriers, supplying local narrative sequence.
+- 18:59 (weak): An appointed destruction for unjust towns only broadly resembles a fixed limit on a temporary arrangement.
+- 4:14 (weak): Punishment for transgressing divine limits is a remote conceptual boundary parallel.
+- 2:187 (weak): The legal prohibition against approaching God's limits is not a close neighbor to a physical barrier.
+- 7:57 (no value): Wind carrying clouds and rain does not clarify the blowing, fire, or metalwork in the focus.
+- 4:5 (no value): The provision regarding property management is unrelated to construction or controlled passage.
+- 55:31 (no value): The declaration of attending to humans and jinn has no relevant relation to the focus.
+- 9:97 (weak): Knowledge of divine legal limits is a distant boundary parallel only.
+- 3:126 (no value): Divine reassurance through help does not clarify the focus's construction.
+- 18:4 (no value): The warning against claiming that God has a child has no relation to the rampart.
+- 15:29 (medium): The sequence of proportioning and breathing into Adam resembles ordered stages and blowing, but in a wholly different act of creation.
+- 2:8 (no value): The statement about false professions of faith does not clarify the focus.
+- 38:72 (medium): Its ordered sequence of proportioning and breathing supplies the same limited process parallel as 15:29.
+- 18:34 (no value): The wealthy man's boast does not clarify the barrier or its manufacture.
+- 8:10 (no value): Divine reassurance through angelic aid does not illuminate the focus's material process.
+- 58:5 (weak): Opposing God's boundary is not related to building a defensive boundary.
+- 94:7 (no value): Completing one task and striving at another does not clarify the focus's pouring or construction.
+- 18:37 (no value): Human formation from dust and a drop does not illuminate the ironwork despite the word for proportioning.
+- 6:157 (no value): Turning away from divine signs has no relevant connection to the rampart.
+- 26:177 (no value): Shu'ayb's call to fear God does not clarify the focus.
+- 6:46 (no value): The removal of senses and turning away from signs do not clarify the construction.
+- 18:62 (weak): A request to bring food after travel offers only the local motif of Dhu al-Qarnayn's journey, without a substantive connection.
+- 55:33 (medium): The inability to pass through the bounds of heavens and earth gives a conceptual parallel to the rampart's prevention of penetration.
+- 19:21 (no value): Mary's commanded sign and mercy do not clarify the focus's fabrication.
+- 58:12 (no value): The required charity before private consultation is unrelated to the focus.
+- 18:71 (weak): The deliberate breach in a ship is a contrasting local act involving controlled damage rather than protective closure.
+- 33:19 (weak): Sharp tongues during fear do not relate to iron, fire, or a constructed barrier.
+- 29:30 (weak): The plea for help against corrupters supplies only the broad threat-response setting behind the rampart.
+- 33:14 (medium): Entry through a city's sides provides a limited contrast to the focus's successful closure of a vulnerable passage.
+- 50:22 (no value): Sharp sight after the veil is removed does not use iron in the material sense relevant here.
+- 35:25 (no value): Zubur here means scriptures and does not refer to the focus's iron pieces.
+- 18:73 (weak): Moses' plea over an onerous matter is nearby narrative context but unrelated to fabrication.
+- 16:44 (no value): Zubur refers to scriptures, not construction material.
+- 36:58 (no value): The Lord's word of peace has no relation to the rampart.
+- 5:48 (weak): The command to judge by revelation rather than desires does not clarify the physical joining or boundary.
+- 58:4 (weak): Divine legal limits are only a distant conceptual analogue to the focus's protective boundary.
+- 43:13 (weak): Being settled upon mounts uses a different sense of leveling from aligning the iron masses.
+- 18:110 (no value): Sincere worship and righteous action do not clarify the construction of the rampart.
+- 4:163 (no value): The Zabur granted to David is a scripture, not the iron pieces in the focus.
+- 22:40 (medium): God's checking of one people by another preserves places of worship, providing a broad functional parallel to protective restraint.
+- 3:184 (no value): Zubur here means revealed scriptures, unrelated to the iron blocks.
+- 6:9 (no value): The hypothetical human form of an angel does not clarify the focus.
+- 28:10 (no value): The empty heart of Moses' mother does not connect to the focus's pouring or construction.
+- 40:24 (no value): The accusation against Moses has no relevance to the rampart.
+- 87:5 (no value): Vegetation becoming dark debris does not clarify the focus.
+- 26:185 (no value): The accusation of being bewitched does not relate to the focus.
+- 2:109 (no value): The instruction to pardon until God's command arrives does not clarify the construction.
+- 6:107 (no value): The Prophet's lack of coercive guardianship is unrelated to the rampart.
+- 89:4 (no value): The passing night does not clarify the focus.
+- 37:29 (no value): The denial of believers' faith has no relation to the focus.
+- 11:51 (no value): No wage for Noah's message does not clarify the constructed barrier.
+- 77:25 (no value): The earth as a gathering receptacle does not clarify the rampart's material assembly.
+- 30:25 (no value): The heavens and earth standing by God's command do not illuminate the focus's construction.
+- 23:13 (no value): The placement of a drop in a secure resting place does not clarify the ironwork.
+- 18:92 (strong): The immediately preceding transition leads directly into arrival between the two barriers and the construction scene.
+- 18:99 (strong): The local continuation depicts the upheaval that follows the rampart's appointed end, completing its temporary protective role.
+- 21:96 (strong): The opening of Gog and Magog supplies the cross-surah outcome of the restrained force named in the focus's setting.
+- 21:80 (strong): David is taught the making of protective armor, a direct parallel in divinely enabled fabrication from resistant material for defense.
+- 34:11 (strong): The command to make complete coats of mail and work righteously directly develops David's divinely enabled iron craftsmanship.
+- 57:13 (strong): A wall with a gate separates mercy from punishment, closely paralleling a constructed boundary that regulates passage and exposure.
+- 61:4 (strong): The image of believers as a firmly joined structure strongly parallels the focus's transformation of separate iron masses into a continuous resistant whole.
+- 2:127 (medium): Abraham and Ishmael raise the House's foundations together, providing a clear cooperative-construction parallel.
+- 7:74 (medium): Thamud carve dwellings from mountains, giving a material and mountain-setting parallel to the focus's construction between mountain sides.
+- 11:37 (medium): Noah is commanded to construct the Ark under divine direction, closely paralleling commissioned protective construction.
+- 11:38 (medium): Noah's continued work on the Ark illustrates purposeful construction for protection despite external opposition.
+- 23:27 (medium): The command to build the Ark by revelation is another divinely directed, life-preserving construction parallel.
+- 25:53 (medium): The barrier between fresh and salt water provides a natural analogue of a boundary that prevents harmful crossing or mixing.
+- 27:61 (medium): God's barrier between the two seas gives a direct conceptual parallel to the focus's boundary set between threatened people and aggressors.
+- 34:13 (medium): The jinn's making of structures and large vessels for Solomon parallels directed, coordinated labor producing durable works.
+- 36:9 (medium): The barriers before and behind obstruct movement and perception, supplying a functional parallel to the rampart's prevention of passage.
+- 55:19 (medium): The meeting seas introduce the paired boundary image developed by the next ayah.
+- 55:20 (medium): The barzakh preventing the two seas from transgressing offers a close functional parallel to a boundary that holds distinct sides apart.
+- 59:2 (medium): Fortified strongholds thought to protect their occupants provide a contrast case for the security sought through the focus's rampart.
+- 59:14 (medium): Fortified towns and walls portray defensive separation and the limits of relying on built protection.
+- 16:81 (medium): God's provision of shelters and protective garments, including armor in conflict, broadly parallels protective material design.
+- 8:60 (medium): Preparing force to deter an enemy gives the defensive purpose that the focus's rampart materially serves.
+- 4:78 (weak): Fortified towers are invoked as places of apparent security, a distant comparison for the focus's defensive structure.
+- 7:46 (weak): The barrier between the Garden and the Fire supplies a conceptual, rather than fabricated, boundary parallel.
+- 16:26 (weak): The collapse of structures at their foundations is a contrast to the focus's successful construction of a stable barrier.
+- 23:100 (weak): The barzakh until resurrection gives a temporal-boundary parallel to the focus's barrier holding until its appointed end.
+- 26:128 (weak): The rebuke for building monuments on elevations is a contrasting example of construction detached from protective necessity.
+- 26:129 (weak): Constructing enduring palaces provides a contrast to the focus's functional and temporary defensive work.
+- 28:38 (weak): Pharaoh's command to kindle a fire for a lofty structure shares fire-assisted construction only in a distorted, self-exalting context.
+- 33:26 (weak): The bringing down of people from fortresses illustrates the vulnerability and eventual defeat of defensive structures.
+- 40:36 (weak): Pharaoh's order to build a tower is a contrasting instance of commanded construction serving arrogance rather than protection.
+- 40:37 (weak): The stated aim of Pharaoh's tower continues the contrast between hubristic building and the focus's merciful defensive construction.
+- 13:17 (reverse:medium): Heated material and poured molten copper provide a direct metal-process counterpart, without the dross result.
+- 15:74 (reverse:weak): Demir, ateş ve dökümle set yapılması, sert malzeme ve üstüne döküm için uzak bir paraleldir.
+- 18:39 (reverse:weak): Dhu al-Qarnayn's coordinated construction is nearby but does not explain the garden owner's dependence on Allah.
+- 18:74 (reverse:no value): Building the barrier does not clarify the focus's event.
+- 23:99 (reverse:no value): Coordinating construction through speech does not clarify death-time return.
+- 26:42 (reverse:no value): Construction instructions and materials do not relate to the focus.
+- 26:226 (reverse:no value): Coordinated construction through commands does not add to the focus theme.
+- 27:31 (reverse:no value): The request to bring materials has no material relation to the focus.
+- 32:13 (reverse:no value): The construction and pouring of a barrier do not clarify the focus's eschatological filling image.
+- 36:80 (reverse:medium): Humans make iron fiery by blowing; it supports human action on prepared material.
+- 43:38 (reverse:no value): Building a barrier between two sides has no material connection to the focus's desired distance from a companion.
+- 51:52 (reverse:no value): Tail-audit card unrelated to the arrival and dismissal of messengers.
+- 53:6 (reverse:medium): Bringing a barrier level adds a physical construction sense of completion and strength.
+- 55:35 (reverse:strong): The poured قِطْر at an impassable barrier is the clearest missing material parallel, also resonating with 55:33's blocked passage.
+- 67:15 (reverse:no value): Coordinated construction does not add to the focus route, provision, or return.
+- 67:25 (reverse:no value): No material connection to the focus.
+- 68:15 (reverse:no value): The construction scene has no focused link to the response in 68:15.
+- 69:13 (reverse:no value): انفخوا names a material process, not the horn-event or its consequences.
+- 78:18 (reverse:weak): Secondary lexical contrast: blowing serves metalwork here, not the eschatological horn.
+- 83:13 (reverse:no value): Shared function words provide no relevant interpretive evidence.
+- 100:2 (reverse:medium): Material, force, and fire-making process add a distinct f01 comparator.
+- 111:3 (reverse:weak): Controlled industrial fire forms a distinct, contrary fire-use context.
+- 113:4 (reverse:medium): Blowing applied to material construction offers a secondary f01 process parallel for retained effect.

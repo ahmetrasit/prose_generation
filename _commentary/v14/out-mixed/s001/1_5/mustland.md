@@ -1,0 +1,75 @@
+# mustland.md — what the commentary of 1:5 must carry
+
+- M1 | image I1 Raised marks and their reader: the name, the worlds and guidance as pointing | role here: touch
+- M2 | image I2 The straight road: led onto, levelled by feet, centred, owned by those who walked it, forked at its end | role here: develop
+- M3 | image I3 Halt, leaning, recovery: the mount that breaks down and the help that restores pace | role here: assemble | show the whole image with every member (see the network line)
+- M4 | meeting I3 × I18 at 1:4:1/1:6:3 ʿimād and at 1:5:4 istiwāʾ — the pillar leaned on is the upholding member
+- M5 | meeting I3 × I6 at 1:5:4 — the leaning is the petition
+- M6 | image I4 The herd under its owner: brand, leader, following, and the stray whose lord is unknown | role here: touch
+- M7 | meeting I4 × I15 at 1:5:2 ʿbd B010 — scattering
+- M8 | image I5 Owner over owned: height, grip and dominion, then the servant's own voice | role here: assemble | show the whole image with every member (see the network line)
+- M9 | meeting I5 × I6 at 1:5:2 — the owned speaking is the turn to "You"
+- M10 | image I6 From the Name to "You": invocation turning into address, pledge and petition | role here: assemble | show the whole image with every member (see the network line)
+- M11 | meeting I6 × I5 at 1:5:2 — the owned party's voice
+- M12 | meeting I6 × I3 at 1:5:4 — the leaning
+- M13 | image I7 From womb to stature: enclosure, birth, bond, rearing to completion, and the severed young | role here: touch
+- M14 | image I8 The household: contract, bride conveyed, a guarded circle, supplied dependents | role here: touch
+- M15 | image I9 Water from overhead: descended, gathered, held and delivered, or loosed, swallowed, frozen | role here: touch
+- M16 | meeting I9 × I6 at 1:5:4 — help heard as a spring
+- M17 | image I11 The favour circuit: mercy overflows into favour, the Lord tends it, praise returns it, forgetting leaks it | role here: touch
+- M18 | image I14 Claims settled: debt to a named term, exact valuation, blood-money in place of blood, substitution | role here: touch
+- M19 | meeting I14 × I6 at 1:5:4 — help is asked of the one owed
+- M20 | image I15 One company or scattered bands: gathered under one addressee, routed down many ways | role here: develop
+- M21 | meeting I15 × I4 at 1:5:4 — herds and their scattering
+- M22 | meeting I15 × I6 at 1:5:2 — the plural speaker
+- M23 | image I16 The contested road: ambush, blade and shield, defiance, and the turning back loaded with wrath | role here: develop
+- M24 | image I18 Upholding: grip, knot, pillar, upright member, and the standing that holds itself and keeps moving | role here: develop
+- M25 | meeting I18 × I6 at 1:5:4 — the Form X pair
+- M26 | image I19 The steered vessel: a coated hull under its captain, crossing the sea by landmarks and wind | role here: develop
+- M27 | image I20 The station found good: a halt at water, a city of obedience, staying | role here: touch
+- M28 | image I21 Overhead bodies: sun at zenith, crescent, sky, read past to the worshipped Lord | role here: touch
+- M29 | image I22 The appointed assembly: a marked season and place, a market, and the offering driven to the sanctuary | role here: develop
+- M30 | image I23 The bound word: oath by the name, pact, certification, and the one protected under covenant | role here: touch
+- M31 | meeting I23 × I5 at 1:5:2 — the captive under dominion
+- M32 | passage 11:123 [same-word]
+- M33 | passage 19:65 [same-word]
+- M34 | passage 7:128 [same-word]
+- M35 | passage 9:92 [staging]
+- M36 | passage 36:61 [same-word]
+- M37 | passage 3:51 [same-word]
+- M38 | passage 16:69 [staging]
+- M39 | passage 67:22 [staging]
+- M40 | passage 16:75 [staging]
+- M41 | passage 26:71 [same-word]
+- M42 | passage 12:40 [same-word]
+- M43 | passage 21:25 [same-word]
+- M44 | passage 11:38 [staging]
+- M45 | passage 7:150 [staging]
+- M46 | passage 6:153 [staging]
+- M47 | passage 74:50 [staging]
+- M48 | passage 22:27 [staging]
+- M49 | passage 2:250 [staging]
+- M50 | passage 17:110 [staging]
+- M51 | passage 61:4 [staging]
+- M52 | passage 106:3 [same-word]
+- M53 | passage 22:33 [staging]
+- M54 | passage 2:45 [same-word]
+- M55 | passage 2:153 [same-word]
+- M56 | passage 39:64 [same-word]
+- M57 | passage 7:59 [same-word]
+- M58 | passage 7:179 [staging]
+- M59 | passage 12:20 [staging]
+- M60 | passage 67:30 [staging]
+- M61 | passage 3:64 [same-word]
+- M62 | passage 7:70 [same-word]
+- M63 | passage 17:23 [same-word]
+- M64 | passage 29:56 [same-word]
+- M65 | passage 2:172 [same-word]
+- M66 | passage 39:66 [same-word]
+- M67 | passage 51:56 [same-word]
+- M68 | passage 98:5 [same-word]
+- M69 | passage 15:99 [same-word]
+- M70 | passage 36:22 [same-word]
+- M71 | passage 2:133 [same-word]
+- M72 | passage 43:64 [same-word]
+- M73 | passage 19:36 [same-word]

@@ -1,0 +1,121 @@
+# mustland.md — what the commentary of 1:6 must carry
+
+- M1 | image I1 The guided road and its fork | role here: develop
+- M2 | meeting I1 × I14 at 1:6:3 — the road's straightness and the walker's upright body share استواء
+- M3 | meeting I1 × I22 at 1:6:2/1:7:1 — the road-word also carries out of sight
+- M4 | meeting I1 × I18 at 1:6:2 — one road against many scattering ways
+- M5 | meeting I1 × I9 at 1:6:3 — the road ends in a maqām
+- M6 | meeting I1 × I7 at 1:6:1 — the only imperative asks for this road
+- M7 | meeting I1 × I19 at 1:6:2 — the road besieged by those who sit in ambush
+- M8 | image I2 Mark and its reader | role here: assemble | show the whole image with every member (see the network line)
+- M9 | meeting I2 × I20 at 1:6:3 — noon's full visibility set against ḍalla's hiding
+- M10 | image I3 The herd under its owner, and the stray whose lord is unknown | role here: touch
+- M11 | image I4 The womb that holds and the tie that can be cut | role here: touch
+- M12 | image I5 Formed, reared, stood up | role here: assemble | show the whole image with every member (see the network line)
+- M13 | meeting I5 × I21 at 1:6:3 — the qiyāma
+- M14 | meeting I5 × I14 at 1:6:3 — the standing body
+- M15 | image I7 The name worshipped, turned to "You" | role here: develop
+- M16 | meeting I7 × I1 at 1:6:1
+- M17 | image I8 Water held and water lost | role here: touch
+- M18 | meeting I8 × I14 at 1:6:3 — the standing that moves against the standing that freezes
+- M19 | image I9 The station found good and stayed in | role here: develop
+- M20 | meeting I9 × I1 at 1:6:3 — the straight road ends in the standing root's maqām
+- M21 | image I10 Soft and hardened under the same "upon them" | role here: touch
+- M22 | image I11 Favour's circuit: mercy out, praise back | role here: touch
+- M23 | meeting I11 × I16 at 1:6:1 — praise presented and a gift asked
+- M24 | image I12 Credit run to its named term | role here: develop
+- M25 | meeting I12 × I13 at 1:6:3 — substitution, blood-money as payment
+- M26 | image I13 Blood answered | role here: touch
+- M27 | meeting I13 × I12 at 1:6:3 — substitution as payment
+- M28 | image I14 Halted, leaning, standing up again | role here: assemble | show the whole image with every member (see the network line)
+- M29 | meeting I14 × I1 at 1:6:3 — the straight road and the upright walker
+- M30 | meeting I14 × I8 at 1:6:3 — frozen water
+- M31 | meeting I14 × I5 at 1:6:3 — stature
+- M32 | image I15 The bride conveyed, the household formed and guarded | role here: assemble | show the whole image with every member (see the network line)
+- M33 | meeting I15 × I1 at 1:6:1 — guidance heard as conveyance along a road
+- M34 | meeting I15 × I16 at 1:6:1 — sending
+- M35 | image I16 Sent to its destination: gift, offering, season | role here: assemble | show the whole image with every member (see the network line)
+- M36 | meeting I16 × I15 at 1:6:1 — bride and offering share one conveying verb
+- M37 | meeting I16 × I11 at 1:6:1 — the exchange of gifts
+- M38 | meeting I16 × I17 at 1:6:1 — the offering's sanctity reaches the protected client
+- M39 | image I17 Bound by the name: oath, pact, protected client | role here: assemble | show the whole image with every member (see the network line)
+- M40 | meeting I17 × I6 at 1:6:1 — captive or client
+- M41 | meeting I17 × I16 at 1:6:1 — sanctity
+- M42 | image I18 One company held, or scattered | role here: assemble | show the whole image with every member (see the network line)
+- M43 | meeting I18 × I1 at 1:6:2
+- M44 | image I19 Contest: backing, blade against shield, ambush, rout | role here: assemble | show the whole image with every member (see the network line)
+- M45 | meeting I19 × I1 at 1:6:2 — the road is contested
+- M46 | image I20 The day fixed by what stands overhead | role here: develop
+- M47 | meeting I20 × I2 at 1:6:3 — visibility against hiding
+- M48 | image I21 The Day the King sits and creation stands | role here: develop
+- M49 | meeting I21 × I5 at 1:6:3 — rising
+- M50 | image I22 The passage that takes in and carries out of sight | role here: touch (member here; not in the plan)
+- M51 | image I23 The coated hull under its captain | role here: touch
+- M52 | meeting I23 × I1 at 1:6:3 — the course is the road
+- M53 | image I25 Set apart from its other | role here: touch
+- M54 | passage 28:22 [same-word]
+- M55 | passage 20:10 [staging]
+- M56 | passage 37:23 [same-word]
+- M57 | passage 7:86 [same-word]
+- M58 | passage 20:135 [same-word]
+- M59 | passage 93:7 [same-word]
+- M60 | passage 6:71 [staging]
+- M61 | passage 47:38 [staging]
+- M62 | passage 83:6 [staging]
+- M63 | passage 2:20 [staging]
+- M64 | passage 34:14 [staging]
+- M65 | passage 19:85 [staging]
+- M66 | passage 57:12 [staging]
+- M67 | passage 23:74 [same-word]
+- M68 | passage 11:56 [same-word]
+- M69 | passage 32:10 [staging]
+- M70 | passage 20:18 [staging]
+- M71 | passage 74:50 [staging]
+- M72 | passage 36:4 [same-word]
+- M73 | passage 42:53 [same-word]
+- M74 | passage 16:69 [staging]
+- M75 | passage 36:61 [same-word]
+- M76 | passage 67:15 [staging]
+- M77 | passage 7:179 [staging]
+- M78 | passage 67:22 [staging]
+- M79 | passage 17:97 [staging]
+- M80 | passage 7:16 [staging]
+- M81 | passage 15:41 [same-word]
+- M82 | passage 6:153 [staging]
+- M83 | passage 3:101 [same-word]
+- M84 | passage 76:3 [same-word]
+- M85 | passage 49:17 [same-word]
+- M86 | passage 10:9 [same-word]
+- M87 | passage 7:43 [same-word]
+- M88 | passage 43:61 [same-word]
+- M89 | passage 22:54 [same-word]
+- M90 | passage 19:43 [same-word]
+- M91 | passage 17:35 [same-word]
+- M92 | passage 26:182 [same-word]
+- M93 | passage 16:76 [same-word]
+- M94 | passage 22:27 [staging]
+- M95 | passage 28:25 [staging]
+- M96 | passage 9:6 [staging]
+- M97 | passage 6:90 [same-word]
+- M98 | passage 43:22 [staging]
+- M99 | passage 18:64 [staging]
+- M100 | passage 25:45 [staging]
+- M101 | passage 3:39 [staging]
+- M102 | passage 12:19 [staging]
+- M103 | passage 48:29 [staging]
+- M104 | passage 3:8 [same-word]
+- M105 | passage 37:118 [same-word]
+- M106 | passage 4:68 [same-word]
+- M107 | passage 48:20 [same-word]
+- M108 | passage 17:9 [same-word]
+- M109 | passage 6:161 [same-word]
+- M110 | passage 90:10 [same-word]
+- M111 | passage 38:22 [same-word]
+- M112 | passage 7:16 [same-word]
+- M113 | passage 3:51 [same-word]
+- M114 | passage 6:153 [same-word]
+- M115 | passage 28:56 [same-word]
+- M116 | passage 42:52 [same-word]
+- M117 | passage 41:17 [same-word]
+- M118 | passage 43:43 [same-word]
+- M119 | passage 2:213 [same-word]

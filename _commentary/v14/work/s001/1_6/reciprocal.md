@@ -1,0 +1,180 @@
+# reciprocal.md — earlier GPT reviews' related passages for 1:6 (incomplete, sometimes misleading)
+
+- 37:118 (strong): Directly repeats guidance to the straight path and adds a guided communal instance.
+- 1:4 (medium): Adds the accountability horizon within the opening prayer that contains the petition.
+- 15:41 (strong): Restates the straight path as a fixed divine route, sharpening its protected authority.
+- 26:182 (medium): Contributes the uprightness-and-measure register to the path's reliability.
+- 1:5 (strong): Supplies the dependence and request-for-help posture immediately preceding the petition.
+- 24:46 (strong): Joins clarifying signs with divine guidance to a straight path.
+- 4:68 (strong): Presents guidance to a straight path as the consequence of responsive commitment.
+- 21:112 (medium): Adds a parallel appeal for true judgment and merciful help.
+- 34:6 (strong): Links recognized truth with guidance toward a divinely qualified path.
+- 7:16 (strong): Provides contrary evidence: the straight path is a site of obstructing opposition.
+- 1:1 (medium): Adds the merciful divine address that frames the request.
+- 90:10 (medium): Sets guidance amid differentiated ways, adding an alternative-route frame.
+- 20:135 (medium): Contrasts those associated with an even path and those who are guided.
+- 1:7 (strong): Immediately specifies the path through parallel and contrary communal outcomes.
+- 92:12 (strong): Locates guidance under divine responsibility, supporting its given rather than self-made character.
+- 38:22 (medium): Uses a plea for guidance to the middle of the path within a judgment dispute.
+- 109:6 (no value): No focused contribution beyond distant channel-level associations.
+- 4:34 (medium): Contributes a secondary sustaining-and-protective order relevant to uprightness.
+- 36:66 (medium): Provides a contrary boundary where pursuit of the path is impaired by loss of sight.
+- 1:2 (medium): Adds the sustaining lordship invoked by the surrounding petition.
+- 36:4 (medium): Directly reaffirms the straight path but adds little beyond earlier direct instances.
+- 17:35 (medium): Contributes upright measure as a secondary account of rectitude.
+- 1:3 (medium): Reinforces the mercy framing already present in the opening prayer.
+- 93:7 (strong): Pairs being astray with being guided, and preserves the gift-like guidance reading.
+- 23:74 (medium): Provides the contrary condition of turning aside from the path.
+- 67:22 (strong): Embodies the contrast between disoriented movement and upright walking on a straight path.
+- 5:8 (medium): Contributes sustained just balance as secondary evidence for uprightness.
+- 23:73 (strong): Directly portrays the addressee as calling others to a straight path.
+- 106:4 (no value): No focused guidance or path contribution is established.
+- 37:23 (medium): Provides a contrary route with a destructive destination, marking a boundary rather than support.
+- 22:24 (strong): Pairs guidance in speech with guidance to a praised path.
+- 109:2 (no value): No focused contribution beyond distant channel-level associations.
+- 39:36 (medium): Adds the contrary case in which no guide remains after divine misguidance.
+- 16:121 (strong): Presents chosen, grateful devotion as joined to guidance to a straight path.
+- 109:3 (no value): No focused contribution beyond distant channel-level associations.
+- 64:6 (medium): Adds the contested human-messenger dimension of guidance as leading.
+- 10:25 (strong): Sets the straight path within a call toward peace.
+- 109:4 (no value): No focused contribution beyond distant channel-level associations.
+- 98:3 (medium): Contributes a secondary reading of upright writings as sustaining order.
+- 52:5 (no value): No focused guidance or path contribution is established.
+- 109:5 (no value): No focused contribution beyond distant channel-level associations.
+- 6:39 (medium): Contrasts darkness and impaired reception with being set on a straight path.
+- 74:5 (no value): No focused guidance or path contribution is established.
+- 106:3 (no value): No focused guidance or path contribution is established.
+- 27:3 (medium): Contributes the sustained establishment of worship as secondary uprightness evidence.
+- 50:1 (no value): No focused guidance or path contribution is established.
+- 109:1 (no value): No focused contribution beyond distant channel-level associations.
+- 27:35 (medium): Provides secondary gift evidence for the non-earned, relational side of guidance.
+- 6:87 (strong): Shows guidance to a straight path spanning a varied collective.
+- 53:30 (medium): Contrasts straying from the divine way with being guided.
+- 87:3 (medium): Adds a general pairing of measured ordering and guidance, with auxiliary gift evidence.
+- 5:16 (strong): Connects following divine good pleasure, emergence from darkness, and guidance to a straight path.
+- 53:23 (weak): Offers only a broad contrast between conjecture and guidance.
+- 6:126 (strong): Names the straight path as the Lord's and joins it to differentiated signs.
+- 3:51 (medium): Identifies worship of the shared Lord with the straight path.
+- 93:11 (no value): No focused guidance or path contribution is established.
+- 29:69 (medium): Adds guidance to multiple ways alongside divine accompaniment of those doing good.
+- 6:161 (strong): Expands the straight path into an upright religious orientation distinct from association.
+- 78:39 (weak): Only indirectly suggests a chosen return toward the Lord; no focused route link is established.
+- 39:37 (medium): Adds the stability of divine guidance against any misdirecting rival.
+- 2:142 (medium): Adds changed orientation and universal divine direction to the straight-path theme.
+- 78:36 (no value): No focused guidance or path contribution is established.
+- 49:17 (medium): Frames guidance to faith as divine favor rather than a claim made by recipients.
+- 42:52 (strong): Links revealed light, mediated guidance, and direct calling to a straight path.
+- 2:196 (weak): Offers only secondary evidence through the distinct sacrificial use of the same root.
+- 4:175 (strong): Joins holding fast, mercy and grace with being guided on a straight path.
+- 6:153 (strong): Makes the one straight path an imperative and contrasts it with dispersing paths.
+- 3:101 (strong): Links holding fast to God with having been guided to a straight path.
+- 8:3 (medium): Contributes a secondary sustaining order joining established worship and giving.
+- 48:2 (strong): Places guidance to a straight path amid forgiveness and completed favor.
+- 4:5 (medium): Provides secondary evidence for what sustains people and keeps a shared order standing.
+- 22:54 (medium): Links recognition of truth and believing hearts with divine guidance to a straight path.
+- 14:28 (weak): Offers a contrary secondary image of a people led from divine favor into ruin.
+- 48:20 (medium): Places guidance to a straight path within protected communal experience.
+- 27:2 (weak): Generic guidance adds little after the earlier direct path instances.
+- 2:213 (strong): Shows divine guidance resolving human disagreement through revealed truth and a straight path.
+- 27:63 (strong): Adds guidance through terrestrial and maritime darkness, with advance signs of mercy.
+- 19:43 (strong): Frames the even path as guidance offered through following a knowledgeable guide.
+- 31:3 (medium): Adds mercy alongside guidance, reinforcing the petition's gift-like framing.
+- 22:43 (no value): No focused guidance or path contribution is established.
+- 5:68 (weak): Offers only secondary evidence about sustaining revealed scripture.
+- 2:187 (no value): No focused guidance or path contribution is established.
+- 28:22 (strong): Shows a direct request for guidance to the even way in concrete travel.
+- 36:61 (strong): Explicitly identifies worship with the straight path.
+- 62:5 (weak): Provides a secondary failure to carry what was entrusted, without a focused route link.
+- 43:43 (strong): Joins holding fast to revelation with being on a straight path.
+- 3:2 (medium): Contributes the sustaining divine attribute relevant to the path's uprightness.
+- 86:3 (no value): No focused guidance or path contribution is established.
+- 14:1 (strong): Connects revealed scripture, movement from darkness to light, and a divinely qualified path.
+- 15:95 (no value): No focused guidance or path contribution is established.
+- 2:177 (medium): Supplies a broad practice-shaped account of righteousness beyond mere orientation.
+- 14:40 (medium): Contributes enduring establishment of worship across generations.
+- 6:154 (weak): Adds generic guidance and mercy but no distinct path development.
+- 30:43 (medium): Contributes turning toward upright religion before an irreversible division.
+- 77:37 (no value): No focused guidance or path contribution is established.
+- 65:2 (medium): Contributes a secondary public order of just, maintained testimony.
+- 47:24 (no value): No focused guidance or path contribution is established.
+- 71:5 (no value): No focused guidance or path contribution is established.
+- 57:10 (weak): Offers only a distant secondary connection through spending in God's way.
+- 23:18 (no value): No focused guidance or path contribution is established.
+- 2:38 (strong): Directly makes following divine guidance the condition for freedom from fear and grief.
+- 2:120 (medium): States that guidance belongs to God, reinforcing the petition's dependence structure.
+- 3:73 (medium): Reasserts that true guidance is God's, with a contrary dispute context.
+- 5:77 (medium): Provides contrary evidence through straying from the even way.
+- 6:71 (medium): Contrasts divine guidance with other calls and binds it to yielding to the Lord.
+- 6:88 (medium): Presents guidance as divine selection rather than a self-generated attainment.
+- 6:90 (medium): Makes prophetic guidance an object of following.
+- 7:146 (medium): Contrasts refusing the way of rectitude with taking the way of error.
+- 7:178 (medium): Contrasts divine guidance with loss, clarifying the source of being guided.
+- 10:9 (medium): Adds guidance through faith toward a blessed destination.
+- 10:35 (strong): Frames guidance as leading to truth and challenges rival claims to guide.
+- 11:56 (strong): Directly describes the Lord as upon a straight path.
+- 12:108 (strong): Adds a public call on a defined way, grounded in clear perception.
+- 13:7 (strong): Adds the universal claim that every people has a guide.
+- 14:5 (strong): Parallels movement from darkness to light with entry into the divinely qualified path.
+- 14:12 (medium): Adds gratitude for having been guided in plural ways amid reliance on God.
+- 16:9 (strong): Directly contrasts the straight direction of the way with its deviation.
+- 16:36 (medium): Adds the divided outcomes of those divinely guided and those confirmed in error.
+- 17:9 (strong): Presents the Quran as guiding toward what is most upright.
+- 17:97 (medium): Restates that divine guidance cannot be overturned and contrasts those led astray.
+- 18:17 (medium): Links divine guidance with right direction and lack of guidance with no directing protector.
+- 18:24 (medium): Provides a prayer for guidance toward closer rectitude.
+- 19:36 (strong): Explicitly identifies worship of the shared Lord with the straight path.
+- 19:76 (medium): Adds an increasing quality of guidance for those already guided.
+- 20:50 (medium): Pairs bestowed formation with guidance, giving a broad ordering frame.
+- 20:82 (medium): Places guidance after return, faith, and righteous action.
+- 20:123 (strong): Directly makes following divine guidance the safeguard against going astray.
+- 21:73 (strong): Adds leaders who guide by divine command and translate guidance into enacted practice.
+- 22:16 (strong): Directly states divine guidance to a straight path alongside clarifying signs.
+- 24:35 (medium): Adds guidance to divine light, a parallel illumination register.
+- 25:57 (medium): Frames a chosen route toward the Lord as an open response to the message.
+- 28:56 (strong): Distinguishes human desire to guide from God's determining guidance.
+- 32:24 (strong): Adds leaders who guide by divine command through patience and certainty.
+- 35:8 (medium): Contrasts divinely guided and misled perception, preserving both outcomes.
+- 39:18 (medium): Adds receptive discernment as a mark of those whom God has guided.
+- 39:23 (medium): Links revealed discourse, reverent response, and divine guidance.
+- 40:38 (strong): Offers an explicit invitation to follow a guide toward the way of rectitude.
+- 41:6 (medium): Pairs turning directly toward God with an imperative to be upright.
+- 41:17 (medium): Provides the contrary choice of blindness over guidance after guidance is offered.
+- 43:64 (strong): Explicitly identifies worship of the shared Lord with the straight path.
+- 46:30 (strong): Directly joins guidance to truth with guidance to an upright way.
+- 47:17 (medium): Adds increased guidance and God-consciousness for those already guided.
+- 72:16 (medium): Uses remaining upright upon the way as a conditional, sustained orientation.
+- 2:186 (reverse:medium): A direct plea for guidance closely complements 2:186's hoped-for rashad.
+- 2:255 (reverse:weak): Only broadly relates through guidance sought from the one God.
+- 2:286 (reverse:medium): The request for guidance complements the closing turn to God for support.
+- 4:36 (reverse:weak): The request for the straight path gives broad devotional orientation but no focused care or anti-association detail.
+- 6:127 (reverse:strong): Direct straight-path petition supplies the route dimension preceding the settled endpoint.
+- 7:43 (reverse:medium): The request for guidance supplies the foundational orientation later acknowledged in the focus.
+- 11:19 (reverse:medium): Direct counterpoint: asking for the straight path.
+- 11:112 (reverse:strong): The foundational request for the straight path directly frames steadfast orientation.
+- 14:27 (reverse:strong): The foundational request for the straight path anchors the guidance side of 14:27.
+- 15:24 (reverse:weak): Directionality is present, but it does not establish earlier/later groups or divine knowing.
+- 15:87 (reverse:medium): Fatiha bütünündeki bu ayet, yedili bütünün yol istemi etrafındaki bağını korur.
+- 16:27 (reverse:no value): Dosdoğru yol duası, 16:27'nin özel sahnesine doğrudan bağlanmaz.
+- 16:76 (reverse:strong): Direct invocation of the straight path supplies the focus's positive destination.
+- 20:33 (reverse:no value): The request for the straight path does not specifically clarify abundant glorification.
+- 30:25 (reverse:no value): The request for guidance does not clarify cosmic standing or emergence at the divine call.
+- 31:19 (reverse:strong): The prayer for a straight path supplies the central directional image underlying purposeful, balanced walking.
+- 38:77 (reverse:no value): Guidance to the straight path does not specify exclusion.
+- 42:26 (reverse:no value): The request for the straight path is too general to add a specific relation after the reviewed candidates.
+- 43:10 (reverse:strong): Dosdoğru yola hidayet dileği, 43:10'un yolların hidayet için verilmesi ifadesine doğrudan karşılık verir.
+- 43:57 (reverse:medium): The prayer for the straight path gives the positive orientation opposed to the focus's turning away.
+- 44:26 (reverse:weak): The straight path offers only an abstract parallel to a sustaining order.
+- 46:13 (reverse:weak): The request for the straight path supplies a foundational but highly general orientation.
+- 51:32 (reverse:no value): The guidance prayer does not clarify the stated mission.
+- 55:9 (reverse:weak): Straightness is a broad orientation parallel without measure or allocation detail.
+- 62:11 (reverse:weak): Only a remote parallel for a sustaining, upright direction.
+- 68:7 (reverse:strong): The request for the straight path supplies the foundational route against which departure is named.
+- 70:33 (reverse:weak): The upheld straight path is a remote maintenance parallel.
+- 71:1 (reverse:no value): The concise guidance petition has no material added evidence for 71:1.
+- 73:6 (reverse:medium): The straight-path invocation supports the sustaining-route reading, now partly redundant.
+- 73:20 (reverse:medium): Offers a maintained, upright path as a secondary parallel to established communal practice.
+- 75:29 (reverse:no value): Guidance to a straight path is too general to clarify 75:29.
+- 81:26 (reverse:strong): The straight path gives the clearest positive counterpart to the question of direction.
+- 81:28 (reverse:strong): The foundational request for guidance to the straight path is indispensable direct-path evidence.
+- 89:27 (reverse:weak): General guidance petition is too broad to add much here.
+- 98:5 (reverse:medium): Supports qayyima through the maintained and sustaining straight path.

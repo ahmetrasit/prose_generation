@@ -1,0 +1,116 @@
+# mustland.md — what the commentary of 1:5 must carry
+
+- M1 | image I1 The guided road and its fork | role here: touch
+- M2 | meeting I1 × I6 at 1:5:2 — the levelled road and the servant made tractable are one tadhlīl, so service is road-making
+- M3 | image I2 Mark and its reader | role here: touch
+- M4 | image I3 The herd under its owner, and the stray whose lord is unknown | role here: touch
+- M5 | meeting I3 × I18 at 1:5:2 — the herd scattering and the company scattering are one word
+- M6 | image I5 Formed, reared, stood up | role here: touch
+- M7 | image I6 Owner above, owned below: the grip that does not let go | role here: develop
+- M8 | meeting I6 × I7 at 1:5:2 — servitude becomes the voice that addresses
+- M9 | meeting I6 × I1 at 1:5:2 — tractable is the levelled road
+- M10 | image I7 The name worshipped, turned to "You" | role here: assemble | show the whole image with every member (see the network line)
+- M11 | meeting I7 × I6 at 1:5:2 — the owned speak as worshippers
+- M12 | meeting I7 × I14 at 1:5:4 — nastaʿīn is answered by mustaqīm
+- M13 | image I8 Water held and water lost | role here: touch
+- M14 | image I9 The station found good and stayed in | role here: touch
+- M15 | image I10 Soft and hardened under the same "upon them" | role here: touch
+- M16 | image I11 Favour's circuit: mercy out, praise back | role here: touch
+- M17 | image I12 Credit run to its named term | role here: touch
+- M18 | meeting I12 × I6 at 1:5:2 — the owned as property
+- M19 | image I13 Blood answered | role here: touch
+- M20 | image I14 Halted, leaning, standing up again | role here: develop
+- M21 | meeting I14 × I7 at 1:5:4 — Form X answers Form X
+- M22 | meeting I14 × I6 at 1:5:2 — solidity against tractability
+- M23 | image I15 The bride conveyed, the household formed and guarded | role here: touch
+- M24 | image I16 Sent to its destination: gift, offering, season | role here: develop
+- M25 | image I17 Bound by the name: oath, pact, protected client | role here: touch
+- M26 | image I18 One company held, or scattered | role here: develop
+- M27 | meeting I18 × I3 at 1:5:2 — herd and company scatter in one word
+- M28 | meeting I18 × I7 at 1:5:2 — the plural voice
+- M29 | image I19 Contest: backing, blade against shield, ambush, rout | role here: develop
+- M30 | image I20 The day fixed by what stands overhead | role here: touch
+- M31 | image I23 The coated hull under its captain | role here: develop
+- M32 | image I25 Set apart from its other | role here: develop
+- M33 | meeting I25 × I7 at 1:5:1 — iyyāka's exclusivity
+- M34 | passage 2:45 [same-word]
+- M35 | passage 2:153 [same-word]
+- M36 | passage 7:128 [same-word]
+- M37 | passage 7:137 [staging]
+- M38 | passage 44:18 [staging]
+- M39 | passage 57:13 [staging]
+- M40 | passage 12:86 [staging]
+- M41 | passage 36:14 [staging]
+- M42 | passage 48:29 [staging]
+- M43 | passage 36:72 [staging]
+- M44 | passage 6:153 [staging]
+- M45 | passage 9:92 [staging]
+- M46 | passage 16:75 [staging]
+- M47 | passage 2:133 [same-word]
+- M48 | passage 20:14 [same-word]
+- M49 | passage 26:71 [same-word]
+- M50 | passage 34:41 [same-word]
+- M51 | passage 98:5 [same-word]
+- M52 | passage 39:11 [same-word]
+- M53 | passage 67:15 [staging]
+- M54 | passage 12:41 [staging]
+- M55 | passage 39:29 [staging]
+- M56 | passage 51:56 [same-word]
+- M57 | passage 51:57 [staging]
+- M58 | passage 20:18 [staging]
+- M59 | passage 28:22 [staging]
+- M60 | passage 28:14 [staging]
+- M61 | passage 16:7 [staging]
+- M62 | passage 16:69 [staging]
+- M63 | passage 16:16 [staging]
+- M64 | passage 6:102 [same-word]
+- M65 | passage 21:26 [staging]
+- M66 | passage 18:10 [staging]
+- M67 | passage 26:79 [staging]
+- M68 | passage 12:65 [staging]
+- M69 | passage 76:9 [staging]
+- M70 | passage 11:41 [staging]
+- M71 | passage 10:22 [staging]
+- M72 | passage 12:88 [staging]
+- M73 | passage 11:56 [staging]
+- M74 | passage 83:6 [staging]
+- M75 | passage 15:99 [same-word]
+- M76 | passage 22:36 [staging]
+- M77 | passage 94:3 [staging]
+- M78 | passage 81:4 [staging]
+- M79 | passage 74:50 [staging]
+- M80 | passage 18:77 [staging]
+- M81 | passage 2:178 [staging]
+- M82 | passage 17:33 [staging]
+- M83 | passage 2:250 [staging]
+- M84 | passage 7:179 [staging]
+- M85 | passage 22:46 [staging]
+- M86 | passage 52:48 [staging]
+- M87 | passage 36:34 [staging]
+- M88 | passage 19:25 [staging]
+- M89 | passage 39:64 [same-word]
+- M90 | passage 24:43 [staging]
+- M91 | passage 34:15 [staging]
+- M92 | passage 22:5 [staging]
+- M93 | passage 12:20 [staging]
+- M94 | passage 25:63 [staging]
+- M95 | passage 25:67 [staging]
+- M96 | passage 17:110 [staging]
+- M97 | passage 3:193 [staging]
+- M98 | passage 25:55 [same-word]
+- M99 | passage 19:65 [same-word]
+- M100 | passage 3:51 [same-word]
+- M101 | passage 29:56 [same-word]
+- M102 | passage 2:172 [same-word]
+- M103 | passage 41:37 [same-word]
+- M104 | passage 3:64 [same-word]
+- M105 | passage 17:23 [same-word]
+- M106 | passage 39:14 [same-word]
+- M107 | passage 34:40 [same-word]
+- M108 | passage 10:28 [same-word]
+- M109 | passage 28:63 [same-word]
+- M110 | passage 11:123 [same-word]
+- M111 | passage 2:21 [same-word]
+- M112 | passage 16:36 [same-word]
+- M113 | passage 109:2 [same-word]
+- M114 | passage 109:3 [same-word]

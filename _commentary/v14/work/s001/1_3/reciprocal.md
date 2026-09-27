@@ -1,0 +1,249 @@
+# reciprocal.md — earlier GPT reviews' related passages for 1:3 (incomplete, sometimes misleading)
+
+- 1:1 (strong): Exact earlier repetition of both focus names.
+- 37:118 (strong): Connects the focus to straight-course guidance.
+- 4:106 (strong): Places forgiveness after a corrective directive.
+- 41:2 (medium): Repeats both names in a descent frame.
+- 1:2 (strong): Immediate preceding frame of sustaining lordship.
+- 12:92 (strong): Shows forgiveness interrupting retribution within kinship.
+- 27:30 (medium): Reuses the full formula within an official address.
+- 22:24 (medium): Links guidance, sound speech, and a praised route.
+- 21:26 (weak): Boundary against deriving offspring from the focus name.
+- 2:163 (medium): Pairs the names with divine oneness.
+- 1:5 (strong): Immediate response of worship and seeking help.
+- 14:36 (medium): Keeps disobedience within a forgiveness horizon.
+- 59:22 (strong): Pairs the names with knowledge of hidden and visible.
+- 1:4 (strong): Immediate following frame of accountable judgment.
+- 18:10 (medium): Mercy is requested with prepared right direction.
+- 55:1 (strong): Isolates the first focus name as an active source.
+- 21:112 (strong): Joins just judgment and sought aid under the first name.
+- 46:12 (strong): Presents a book as guidance-bearing mercy across time.
+- 36:5 (medium): Pairs a descent with power and the second focus name.
+- 1:7 (strong): Completes the immediate route and community horizon.
+- 11:119 (medium): Keeps mercy as an exception amid human plurality.
+- 26:217 (medium): Makes reliance answerable to power and the second name.
+- 1:6 (strong): Immediate request for the straight course.
+- 4:23 (weak): Legal boundary and past forgiveness only indirectly extend the focus.
+- 20:5 (strong): Places the first name in a sovereignty frame.
+- 16:18 (medium): Links uncountable benefaction with forgiveness and the second name.
+- 21:107 (strong): Extends mercy through a public sending.
+- 26:104 (medium): Power and the second name jointly frame a narrative outcome.
+- 4:175 (strong): Directly joins entry into mercy with secure guidance.
+- 36:23 (weak): Boundary evidence: the first name is placed with harm and failed alternatives.
+- 26:122 (no value): Exact repetition of the earlier 26:104 formula.
+- 4:2 (medium): Care for dependents gives a secondary protection context.
+- 5:74 (weak): Generic repentance-and-forgiveness instance after fuller examples.
+- 26:140 (no value): Exact repetition of the earlier 26:104 formula.
+- 3:101 (medium): Adds holding fast to God and guided direction.
+- 19:88 (weak): Reiterates the offspring-claim boundary already supplied by 21:26.
+- 26:159 (no value): Exact repetition of the earlier 26:104 formula.
+- 23:75 (medium): Tests mercy as relief that need not change inner direction.
+- 44:6 (medium): Frames mercy as responsive, knowing governance.
+- 26:175 (no value): Exact repetition of the earlier 26:104 formula.
+- 23:76 (weak): Adjacent counterpoint limits the relief scene in 23:75.
+- 49:10 (medium): Adds communal reconciliation and a contrary boundary reading.
+- 26:191 (no value): Exact repetition of the earlier 26:104 formula.
+- 12:18 (medium): Seeks aid amid contested description and patience.
+- 42:5 (weak): Generic forgiveness-and-mercy closure.
+- 15:49 (medium): Direct assertion of the forgiving and second-name pairing.
+- 24:22 (medium): Connects provision, kin repair, pardon, and forgiveness.
+- 52:28 (weak): Adds a petitioning community with limited kinship resonance.
+- 26:68 (no value): Exact repetition of the earlier 26:104 formula.
+- 4:32 (weak): Only channel-level support for responsibility within relation.
+- 3:6 (weak): Offers a reproductive scene without an exact focus route.
+- 26:9 (no value): Exact repetition of the earlier 26:104 formula.
+- 4:1 (medium): Supplies parallel kinship and womb-relation evidence.
+- 18:58 (strong): Shows mercy alongside delayed accountability.
+- 85:14 (no value): No direct focus-name or routed evidence.
+- 78:36 (no value): Unlocalized channel resonances do not establish a focus link.
+- 67:3 (weak): Associates the first name with ordered creation.
+- 26:193 (no value): No direct focus-name or routed evidence.
+- 78:37 (medium): Places the first name within comprehensive authority.
+- 4:96 (weak): Generic rank-and-forgiveness context after stronger parallels.
+- 12:98 (medium): Adds delayed intercession for family forgiveness.
+- 78:39 (no value): Unlocalized channel resonances do not establish a focus link.
+- 16:64 (medium): Presents the book as clarification, guidance, and mercy.
+- 30:5 (medium): Pairs victory or aid with power and the second name.
+- 9:27 (weak): Generic return and forgiveness instance.
+- 2:37 (weak): Generic return-and-mercy instance after stronger repair scenes.
+- 43:17 (weak): A secondary boundary against an offspring claim.
+- 28:16 (weak): Individual forgiveness instance, redundant with earlier repair scenes.
+- 64:14 (medium): Preserves kinship while retaining warning and forgiveness.
+- 2:160 (weak): Repentance repairs concealment but adds little beyond prior cases.
+- 78:38 (strong): Mercy authorizes speech while retaining governed access.
+- 9:104 (weak): Generic acceptance of repentance and the second name.
+- 6:12 (strong): Makes mercy a self-bound principle within final gathering.
+- 2:128 (weak): Combines lineage, submission, and return without a strong new route.
+- 21:75 (medium): Depicts admission into mercy as a protective interior.
+- 9:118 (weak): Generic return-and-mercy closure after more specific examples.
+- 28:46 (medium): Treats advance warning as a merciful intervention.
+- 10:107 (medium): Holds harm, benefit, and forgiveness under one effective will.
+- 44:42 (medium): Mercy becomes the decisive exception within judgment.
+- 3:74 (medium): Adds selective bestowal of mercy and favor.
+- 7:151 (medium): Reopens a fractured sibling relation through mercy.
+- 2:54 (weak): Severe communal return offers only a limited parallel.
+- 21:86 (weak): Near-duplicate admission-into-mercy scene after 21:75.
+- 2:192 (weak): Generic conditional forgiveness-and-mercy closure.
+- 23:118 (strong): Distinguishes requested forgiveness from requested mercy.
+- 3:89 (weak): Generic repentance-and-forgiveness closure.
+- 7:57 (weak): Natural renewal offers only a mixed secondary resonance.
+- 2:218 (weak): Generic hope for mercy and forgiveness.
+- 17:87 (medium): Frames revelation itself as an unowed mercy.
+- 2:143 (weak): Generic compassionate closure with no exact route.
+- 21:42 (medium): Raises ongoing protection under the first name.
+- 67:20 (weak): Questions alternative sources of aid under the first name.
+- 19:69 (weak): Contrary boundary: defiance is directed against the first name.
+- 59:10 (strong): Builds mercy across non-blood communal generations.
+- 36:11 (medium): Joins response to warning with hidden regard for the first name.
+- 36:58 (medium): Merciful lordly speech makes peace an enacted outcome.
+- 19:2 (medium): Titles a servant's account through lordly mercy.
+- 28:86 (medium): Treats the given book as unexpected mercy and obligation.
+- 22:65 (medium): Portrays preserving governance over a vulnerable world.
+- 90:17 (strong): Extends mercy into organized mutual care and endurance.
+- 3:8 (medium): Frames mercy as a sought gift that stabilizes hearts after guidance.
+- 3:159 (strong): Makes mercy visible in relational gentleness, consultation, and repair.
+- 4:113 (medium): Places protecting knowledge and mercy together as an unearned gift.
+- 6:54 (strong): States the self-bound mercy principle in a direct address.
+- 6:147 (medium): Sets wide mercy alongside inescapable consequence.
+- 7:56 (medium): Holds hope and fear together around the nearness of mercy.
+- 7:156 (strong): Explicitly frames mercy as all-encompassing yet ordered.
+- 9:21 (medium): Combines promised mercy with welcome and enduring good.
+- 9:99 (medium): Treats devotional giving as a route into mercy.
+- 10:21 (weak): Tests human response after hardship is followed by mercy.
+- 11:28 (medium): Presents mercy as a granted sign that may remain obscured.
+- 12:56 (medium): Links mercy with placement and protection after adversity.
+- 12:64 (strong): Pairs guardianship with the most-merciful comparison.
+- 17:28 (medium): Extends mercy into restrained speech amid material inability.
+- 17:57 (medium): Joins hope for mercy to fear of consequence.
+- 17:82 (strong): Identifies the Quranic descent as healing and mercy.
+- 18:16 (medium): Links withdrawal, spread mercy, and prepared affairs.
+- 18:65 (medium): Presents a granted mercy with taught knowledge.
+- 19:96 (strong): Makes the first name a source of bestowed communal affection.
+- 20:90 (strong): Explicitly names the first name as the community's lord.
+- 20:109 (strong): Restricts intercession to permission and approval from the first name.
+- 21:84 (medium): Pairs restored well-being with mercy and remembrance.
+- 23:109 (strong): Provides a communal prayer joining forgiveness and mercy.
+- 24:10 (medium): Makes mercy a limiting condition on exposure and consequence.
+- 24:20 (medium): Reiterates mercy as a protective restraint within communal correction.
+- 24:21 (medium): Links mercy to purification without making it self-produced.
+- 25:59 (strong): Joins the first name to creation and established sovereignty.
+- 25:60 (medium): Provides contrary evidence through refusal of devotion to the first name.
+- 25:63 (strong): Shows servants of the first name in embodied social conduct.
+- 27:19 (medium): Requests entry into mercy alongside grateful action.
+- 27:63 (medium): Links guidance through darkness and winds before mercy.
+- 28:73 (medium): Places rest, seeking, and gratitude within divine mercy.
+- 30:21 (strong): Makes affection and mercy a spousal relational sign.
+- 30:46 (medium): Uses winds and renewed life as an enacted mercy scene.
+- 33:43 (medium): Portrays mercy as drawing believers from darkness toward light.
+- 39:53 (strong): Directly forbids despair of divine mercy after excess.
+- 40:7 (strong): Joins encompassing mercy with knowledge and a prayer for forgiveness.
+- 42:8 (medium): Keeps admission into mercy alongside unchosen divergence.
+- 42:28 (strong): Depicts mercy as renewal after despair and withheld rain.
+- 45:30 (medium): Makes entry into mercy the outcome for believers.
+- 48:25 (medium): Shows mercy restraining consequence because of unseen believers.
+- 55:2 (strong): Immediately develops the first name through teaching.
+- 55:3 (strong): Immediately develops the first name through human creation.
+- 55:4 (strong): Immediately develops the first name through communicative capacity.
+- 57:28 (strong): Connects reverence with a double share of mercy and guiding light.
+- 76:31 (medium): Frames entry into mercy as governed admission.
+- 2:64 (reverse:medium): Supplies a parallel mercy reading, though it is general rather than sequential.
+- 2:105 (reverse:weak): Rahman/Rahim supplies only a broad mercy frame, already less specific than the preceding parallels.
+- 3:107 (reverse:weak): The paired mercy names give only a general naming backdrop to mercy as the destination in 3:107.
+- 3:132 (reverse:medium): Names Allah as the All-Merciful, Merciful, supplying the mercy frame without the command.
+- 4:83 (reverse:weak): Only repeats the mercy theme already well represented by earlier cards.
+- 6:16 (reverse:medium): Establishes mercy as governing the sequence that includes judgment.
+- 6:133 (reverse:weak): Mercy naming alone is too general after stronger mercy cards.
+- 6:154 (reverse:medium): The paired mercy names supply a broad theological ground for the focus's mercy, now otherwise well covered.
+- 7:49 (reverse:medium): Names mercy as a governing divine attribute, but adds little scene-specific detail.
+- 7:72 (reverse:weak): Mercy name alone adds no rescue-or-cutting mechanism.
+- 7:153 (reverse:weak): Names the Merciful and Compassionate frame but adds no condition or process.
+- 7:154 (reverse:weak): Only the رحمن/رحيم attribute; no tablet, reception, or focus sequence.
+- 7:180 (reverse:medium): Reiterates the Merciful and Compassionate divine designations.
+- 7:203 (reverse:weak): Supplies only the divine names associated with mercy.
+- 7:204 (reverse:weak): Mercy names alone add no reception condition.
+- 8:75 (reverse:no value): Mercy alone does not clarify later entry or kin priority.
+- 9:61 (reverse:weak): Names mercy but adds no distinct feature beyond the mercy already explicit in the focus.
+- 9:117 (reverse:weak): Reinforces mercy only as a general divine attribute.
+- 9:128 (reverse:medium): The recurring mercy names support the mercy register, but add little after closer parallels.
+- 10:58 (reverse:medium): The paired mercy names foreground mercy, but add little beyond the already established theme.
+- 10:86 (reverse:medium): Supplies the recurring mercy names, though without the focus's rescue scene.
+- 11:90 (reverse:weak): The mercy attribute alone is too minimal and redundant to add interpretive value.
+- 12:111 (reverse:medium): A broad mercy parallel, but without narrative, verification, or articulation.
+- 13:30 (reverse:medium): Supplies the paired mercy names relevant to the focal denial of the Rahman.
+- 15:56 (reverse:medium): The paired al-Rahman al-Rahim names supply a broad divine-quality frame for rahmati rabbi.
+- 15:87 (reverse:medium): Fatiha bütünündeki bu ayet, yedili tekrar rotasının ikinci iç bağını verir; tek başına gönderimi belirlemez.
+- 16:7 (reverse:weak): Mercy naming supports the closing formula but adds no load or destination detail.
+- 17:24 (reverse:weak): The repeated mercy epithet supplies only the broadest background for الرحمة.
+- 17:66 (reverse:medium): Frames the focus's closing mercy through the paired mercy names.
+- 17:100 (reverse:medium): Frames lordship through enduring mercy, supporting the focus's contrast between divine and human disposition.
+- 17:110 (reverse:strong): Direct f01 parallel: ٱلرَّحْمَٰنِ appears as a divine designation alongside ٱلرَّحِيمِ.
+- 18:81 (reverse:medium): The repeated names of the Merciful provide a concise theological frame for mercy in a difficult decree.
+- 18:82 (reverse:medium): The Merciful names support the focus's explicit mercy attribution but add no particular mechanism.
+- 18:98 (reverse:weak): The divine names establish mercy generally but add no event, barrier, or promise relation.
+- 19:18 (reverse:weak): Naming God the Merciful and Compassionate supplies only a broad background for Mary's appeal.
+- 19:44 (reverse:medium): The repeated names of the Most Merciful and Merciful illuminate the divine name against which Satan is described as rebellious.
+- 19:45 (reverse:weak): The divine name the Merciful supports the focus's mercy-punishment tension only at a general level.
+- 19:50 (reverse:medium): The paired divine names establish mercy as a defining source, though they add no specific prophetic or memorial dimension.
+- 19:53 (reverse:weak): Reinforces mercy as a divine attribute without clarifying this particular gift.
+- 19:78 (reverse:weak): The divine name supports the focus's referent but adds no relation between covenant and the claim.
+- 19:85 (reverse:medium): It names the Most Merciful and Merciful as the divine attributes before whom the delegation arrives.
+- 19:87 (reverse:no value): The divine names alone do not establish a neighbor relation.
+- 19:91 (reverse:weak): Names the Rahman through mercy, but adds only a broad identity marker.
+- 19:92 (reverse:weak): The paired divine names do not by themselves clarify the claim rejected in 19:92.
+- 19:93 (reverse:weak): It names God al-Rahman but adds no claim about all creatures being His servants.
+- 20:108 (reverse:weak): The naming of al-Rahman and al-Rahim identifies the divine attribute invoked in the focus but adds no scene detail.
+- 21:83 (reverse:medium): The paired names of the All-Merciful and Merciful provide the broad divine quality invoked in Job's address.
+- 24:56 (reverse:weak): The divine names emphasize mercy alone, without the focus's commanded practices.
+- 25:6 (reverse:weak): The merciful names echo the focus ending without its knowledge or revelation setting.
+- 25:26 (reverse:strong): It foregrounds the Most Merciful and Merciful names that qualify the focus's sovereign.
+- 25:48 (reverse:weak): The repeated divine names of mercy supply the focus's wider attribute but do not develop its wind or rain sequence.
+- 26:5 (reverse:weak): Names the Merciful and Merciful One without the focus's response to revelation.
+- 26:171 (reverse:no value): The divine names add no material link to the focal scene.
+- 27:77 (reverse:weak): The divine names Merciful and Compassionate provide only a broad source-level background for the focus's mercy.
+- 28:43 (reverse:weak): The mercy names alone do not develop the focus's historical disclosure or remembrance.
+- 29:21 (reverse:medium): The repeated names of the Merciful foreground the mercy half of the focus without its distributive action.
+- 29:23 (reverse:medium): The names Merciful and Compassionate illuminate the mercy from which the focus's rejecters are cut off.
+- 29:51 (reverse:weak): Supplies the divine attribute of mercy without a recitation or Book link.
+- 30:2 (reverse:no value): The names Merciful and Compassionate alone do not clarify defeat or victory.
+- 30:33 (reverse:weak): The names of divine mercy provide only a broad background for the mercy received in the focus.
+- 30:50 (reverse:weak): The mercy names support only the attribute, not its earthly trace (v12:tr:f-1_3-001; v12:tr:f-1_3-002).
+- 31:3 (reverse:weak): The repeated names of mercy give a foundational but highly general framing.
+- 32:6 (reverse:medium): The repeated merciful names reinforce mercy as a governing divine attribute, though without the focus's knowledge pair.
+- 33:6 (reverse:no value): The divine names of mercy do not clarify the focus verse's ordered relations.
+- 33:59 (reverse:weak): The mercy attribute alone adds no specific protection or responsibility frame.
+- 35:2 (reverse:medium): The paired names of the Merciful establish mercy as a governing divine attribute.
+- 36:15 (reverse:weak): The names of mercy identify the Merciful invoked in the denial but add no sending scene.
+- 36:44 (reverse:weak): The divine names ground mercy generally but add neither preservation nor a fixed term.
+- 36:45 (reverse:weak): It names God's mercy but adds no call or temporal horizon.
+- 36:51 (reverse:weak): The name al-Rahman echoes the recognition in 36:52 but adds no event detail.
+- 36:52 (reverse:medium): The name al-Rahman clarifies the divine name attached to the promise in the focus.
+- 38:9 (reverse:medium): The paired names of mercy ground the focus's mercy in the Lord's enduring character.
+- 38:43 (reverse:weak): The repeated names of mercy supply a broad theological basis without the focus verse's restorative action.
+- 39:38 (reverse:weak): Names Allah's mercy but does not address who can retain or release it.
+- 40:9 (reverse:weak): The paired names of mercy broadly underlie the mercy named in the focus without specifying its effect.
+- 41:32 (reverse:strong): The paired merciful names strongly illuminate the merciful source of the nuzul.
+- 41:50 (reverse:weak): Divine mercy identifies the source of the mercy in the focus, but adds no detail to the human response.
+- 42:48 (reverse:weak): The divine names establish mercy broadly but add no response or responsibility dimension.
+- 43:20 (reverse:no value): The name Merciful and Compassionate alone does not provide a material connection.
+- 43:32 (reverse:weak): The divine names the Most Merciful and Merciful support mercy as God's attribute, but do not address its relation to wealth or rank here.
+- 43:36 (reverse:no value): The divine names alone do not clarify the focus's causal sequence.
+- 43:81 (reverse:medium): The name the Most Merciful creates a lexical relation but does not itself develop the focus claim.
+- 45:20 (reverse:medium): Mercy is anchored in divine naming, but contributes no route for insight or reception.
+- 46:8 (reverse:weak): The mercy names restate the ending but add little beyond stronger mercy cards.
+- 47:22 (reverse:weak): Rahmah is a broad counter-register, with no localized kinship claim.
+- 50:33 (reverse:weak): Repeats the merciful divine names without adding a focus-specific relation.
+- 52:5 (reverse:no value): No distinct connection to the raised-roof reading is supplied.
+- 52:6 (reverse:no value): No identifiable contribution to the focus phrase.
+- 55:19 (reverse:no value): No channel, V12, or lexical route bearing on the focus readings.
+- 55:62 (reverse:no value): No focused evidence connects this card to 55:62.
+- 56:10 (reverse:no value): No clear contribution to the focus.
+- 56:55 (reverse:no value): No stable relation to drinking, thirst, or punishment intake.
+- 57:27 (reverse:weak): Only a broad f02 mercy resonance, already represented by more specific cards.
+- 60:3 (reverse:no value): Mercy alone adds no specific evidence about kinship, final separation, or deeds.
+- 60:12 (reverse:weak): Reiterates mercy but adds little beyond the already explicit closing attribute.
+- 67:19 (reverse:medium): The divine designation in 67:19 gains a direct lexical parallel, though no scene.
+- 67:29 (reverse:medium): Reinforces the Rahman/Rahim frame, redundantly with stronger direct cards.
+- 85:15 (reverse:medium): ٱلرَّحْمَٰنِ ٱلرَّحِيمِ supports the mercy-side context near 85:14.
+- 86:3 (reverse:no value): No material link to the focused celestial disclosure.
+- 112:2 (reverse:weak): Mercy names are compatible but do not specify the focus.
+- 114:4 (reverse:no value): No clear addition to the focus.
