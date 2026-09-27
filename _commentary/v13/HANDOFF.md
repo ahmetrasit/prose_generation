@@ -42,10 +42,10 @@ A funnel of Opus calls on a script packet (DESIGN.md §3):
 | `out/` | first run, effort high, original briefs | step 1 on 1:1–7 + 18:96; network S1 (15 images); QeQ + prose on 1:4–7, 18:96 | done | $26.93 |
 | `out-max/` | effort max | 18:96 step 1 | **failed**: 256K output, all thinking, 64K CLI cap per response (retried 4× inside the call) | $10.28 |
 | `out-v2/` | fixes A–H (disclosure every member ayah; mustland + coverage; QeQ tags + axis pass; no reversals; no bullet tours; `scene` kind) | step 1 reused; network S1 (25 images); QeQ + prose 1:4–7, 18:96 | done (QeQ first cut off at the 64K cap on 1:4/1:6/1:7 → QeQ trimmed → redone) | $34.46 incl. set-aside calls |
-| `out-xhigh/` | xhigh throughout, new briefs | 1:5 (network from v2) | step 1 done ($3.15), QeQ done ($4.96, 187K output), **prose running at 15:10** | $11.58 so far |
+| `out-xhigh/` | xhigh throughout, new briefs | 1:5 (network from v2) | done: step 1 $3.15, QeQ $4.96 (187K output), prose **$5.90** (estimate $2.39; 4 parts, 153K thinking) | $14.00 |
 | `out-mixed/` | high step 1 (reused), xhigh network/QeQ/prose | 1:5 | done: network $3.05, QeQ $4.87, prose $3.50 (6 parts) | $11.42 |
 
-All v13 testing: ≈ $95 (claude -p list prices; no cache hits).
+All v13 testing: ≈ $98 (claude -p list prices; no cache hits).
 
 Measured: 0.44 tokens per byte of packet; step 1 at high $0.65–2.24 (1:1–7: $0.65–1.43); QeQ at high $1.3–1.7;
 prose at high $1.3–3.6; the S1 network $1.8–2.8; xhigh QeQ ≈ 3.5× high (≈ 185K output). `claude -p` gives no
@@ -87,6 +87,22 @@ shared-prefix cache hits (DESIGN §9): production needs the API with `cache_cont
 - Operational slips (fixed): the runner imported its own `run.py` instead of v12's; a watcher with `exit` in its loop;
   a launch line that scoped variables to the first background group; cost double-counting over parts.
 
+## The 1:5 effort comparison (done 15:40; read by the orchestrator)
+
+| 1:5 | words | tags | cost of 1:5's own steps |
+|---|---|---|---|
+| first run (high) | 3,275 | 66 | $3.42 |
+| v2 (high + fixes) | 5,497 | 123 | $4.23 |
+| mixed (high step 1; xhigh network, QeQ, prose) | 7,353 | 180 | $9.24 + network $3.05 |
+| xhigh throughout | 7,314 | 136 | $14.00 |
+
+Content is about equal (trodden road → 1:6, ʿabd = mamlūk, the root's anger ↔ maghḍūb, wild-ass herd, broken-down
+mount in all four; G012, ilāh defined through ʿabada, missed by every version). v2 reads best for its cost (the
+breakdown scene with 16:7, 9:92, 16:76); mixed assembles the most cross-root scenes (a four-root traveller scene: the
+xhigh network's gain) but is the densest; xhigh adds 39:29 and 67:15 and marks a hadith as from memory, at 3.3× v2.
+The length of the three new versions is the must-land overshoot, not effort. Recommendation: high for the per-ayah
+steps; test xhigh for the network alone (one call per surah); fix the must-land list first.
+
 ## Where we are against the north star
 
 | target | state |
@@ -115,8 +131,7 @@ deciding; xhigh costs ≈ 2–3× on QeQ.
 
 ## Next steps (in order)
 
-1. When `out-xhigh` 1:5 prose finishes: compare the three 1:5 versions yourself (content: gold items for 1:5 in
-   `s001_anchors.md`; length; readability; cost) and report to the user.
+1. (done) the 1:5 effort comparison: see above.
 2. Correct the must-land rule (proposed, not yet agreed): only `staging` passages are must-land (`same-word` are
    suggestions); `touch` = one clause; full treatment only where the ayah `develops` or `assembles`; cap ≈ 25 items,
    ranked by the network (assemble > develop > meeting > staging > touch). Tag less in QeQ (only real stagings).
