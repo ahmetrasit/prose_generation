@@ -1,0 +1,145 @@
+# usage.md — how the Quran uses the roots of 1:5 (root dossiers: each root's occurrences grouped by what the ayat say, with the dictionary branch of the plain reading; a concordance, not an interpretation)
+
+Made by script: the occurrence lists, ids, counts and forms; the branch lines are the dictionary's. Made by a model and checked by script only for structure, so possibly wrong: the groups, their labels, each group's branch, the exceptions and the minor-analysis notes, and what follows from them (the ▶ group, the branches never the plain sense). Group size says nothing: a context may be split over several groups.
+
+
+### ع و ن — نَسْتَعِينُ (11 occurrences, 10 groups)
+- ▶ here (1:5:4): **Worshippers say they worship God and seek help from Him** — 1 occurrence; plain sense B001 yardım, destek ve dayanışma
+  - forms: ٱسْتَعِينُ V X IMPF ×1
+- its other groups:
+  - People are told to seek aid through patience and prayer (2: 2:45:1, 2:153:4) B001
+  - A cow neither old nor young is described as middle-aged (1: 2:68:18) B002
+  - Believers are told to cooperate in righteousness and piety (1: 5:2:38) B001
+  - Believers are told not to cooperate in sin and aggression (1: 5:2:43) B001
+  - Moses tells his people to seek aid from God and be patient (1: 7:128:4) B001
+  - Jacob says God is sought for aid concerning what his sons describe (1: 12:18:15) B001
+  - Dhul-Qarnayn asks the people to help build a barrier between them and Yajuj and Majuj (1: 18:95:7) B001
+  - The Messenger asks God to judge; the Merciful is sought for aid regarding their claims (1: 21:112:7) B001
+  - Disbelievers claim other people helped him fabricate it (1: 25:4:9) B001
+- branches never the plain sense in any occurrence: B003 yinelenmiş veya öncülü olan savaş; B004 yaşlı hurma ağacı; B005 bedensel denge ve güç olgunluğu; B006 yaban eşeği sürüsü; B007 erkekte kasık kılları; B008 bir yer adı ve o yere bağlanan şarap adı
+
+### ع ب د — نَعْبُدُ (275 occurrences, 121 groups)
+- ▶ here (1:5:2): **The worshipper tells God, “You alone we worship, and You alone we ask for help”** — 1 occurrence; plain sense B003 boyun eğerek itaat ve tapınma
+  - forms: عَبَدَ V IMPF ×1
+- its other groups:
+  - Worship is directed to God alone in commands, declarations, and warnings (22: 6:102:11, 10:3:27, 11:123:9, 12:40:22 (+18)) B003
+  - Abraham questions his father and people about the idols they worship (13: 19:42:6, 19:49:4, 21:66:2, 21:67:4 (+9)) B003
+  - People worship what their fathers worshipped (10: 7:70:9, 11:62:11, 11:62:13, 11:87:8 (+6)) B003
+  - God sees and knows His servants and their deeds (10: 3:15:24, 3:20:26, 17:17:11, 17:30:10 (+6)) B002
+  - Muhammad and the Quraysh disavow one another’s worship (8: 109:2:2, 109:2:4, 109:3:3, 109:3:5 (+4)) B003
+  - At the gathering, those worshipped are asked about people’s worship and answer (7: 10:28:18, 10:29:9, 25:17:4, 28:63:18 (+3)) B003
+  - God’s servant receives revelation, a scripture, or the night journey (7: 2:23:8, 8:41:23, 17:1:4, 18:1:6 (+3)) B002
+  - God apportions provision among His servants (7: 28:82:14, 29:62:7, 30:48:25, 34:39:9 (+3)) B002
+  - God’s sincere servants are named among those excepted (7: 15:40:2, 37:40:2, 37:74:2, 37:128:2 (+3)) B002
+  - Muhammad rejects worshipping what people call upon besides Allah (6: 6:56:5, 10:104:11, 10:104:13, 10:104:18 (+2)) B003
+  - God is not unjust to His servants (6: 3:182:9, 8:51:9, 22:10:9, 40:31:14 (+2)) B002
+  - Jesus tells the Children of Israel to worship Allah, his Lord and theirs (5: 3:51:5, 5:72:15, 5:117:9, 19:36:5 (+1)) B003
+  - People worship beings besides God that cannot benefit them or have divine authority (5: 5:76:2, 10:18:1, 16:73:1, 22:71:1 (+1)) B003
+  - Messengers tell their communities to worship none but Allah (4: 11:2:2, 16:36:8, 23:32:6, 41:14:10) B003
+  - Nūḥ tells his people to worship Allah (4: 7:59:8, 11:26:3, 23:23:8, 71:3:2) B003
+  - Wrongdoers and what they worship are gathered or sent to Hell (4: 21:98:3, 26:92:6, 37:22:7, 37:161:3) B003
+  - God guides and favors whomever He wills among His servants (4: 2:90:20, 6:88:9, 10:107:21, 14:11:16) B002
+  - Nūḥ, Abraham, Moses and Aaron, and Elias are among believing servants (4: 37:81:3, 37:111:3, 37:122:3, 37:132:3) B002
+  - Hūd tells the people of ʿĀd to worship Allah (3: 7:65:7, 11:50:7, 46:21:17) B003
+  - Ṣāliḥ tells the people of Thamūd to worship Allah (3: 7:73:7, 11:61:7, 27:45:8) B003
+  - Shuʿayb tells the people of Madyan to worship Allah (3: 7:85:7, 11:84:7, 29:36:7) B003
+  - God sends revelation to whomever He wills among His servants (3: 16:2:10, 40:15:13, 42:52:22) B002
+  - Jesus is named as God’s servant (3: 4:172:6, 19:30:3, 43:59:4) B002
+  - Believing servants are told to fear God; He warns them with the fire’s canopies (3: 39:10:2, 39:16:14, 39:16:15) B002
+  - Moses is told to travel by night with God’s servants (3: 20:77:7, 26:52:6, 44:23:2) B002
+  - Jacob asks his sons whom they will worship; they answer that they worship one God (2: 2:133:12, 2:133:16) B003
+  - Believers are told to eat God’s provision, thank Him, and worship Him (2: 2:172:14, 16:114:13) B003
+  - People worship Taghut, while others avoid worshipping it (2: 5:60:19, 39:17:5) B003
+  - People are told not to worship Satan (2: 19:44:3, 36:60:8) B003
+  - Abraham tells his people to worship Allah and seek provision from Him (2: 29:16:5, 29:17:23) B003
+  - Believers are told to bow, prostrate, and worship their Lord (2: 22:77:6, 53:62:3) B003
+  - Believers and prophets are named among those who worship God (2: 9:112:2, 21:73:15) B003
+  - A reminder and message are addressed to people who worship God (2: 21:84:16, 21:106:6) B003
+  - Those near God worship Him and do not grow weary (2: 7:206:8, 21:19:11) B003
+  - Polytheists claim they would not have worshipped others if God had willed (2: 16:35:8, 43:20:6) B003
+  - The slave is matched in the law of retaliation (2: 2:178:11, 2:178:12) B001
+  - God prevails over His servants and appoints guardians over them (2: 6:18:4, 6:61:4) B002
+  - God is compassionate toward His servants (2: 2:207:11, 3:30:26) B002
+  - God gives the land to whom He wills, and righteous servants inherit the earth (2: 7:128:14, 21:105:11) B002
+  - The angels are described as honored servants of the Most Merciful (2: 21:26:7, 43:19:5) B002
+  - Satan has no authority over God’s servants except those who follow him (2: 15:42:2, 17:65:2) B002
+  - God accepts repentance from His servants (2: 9:104:9, 42:25:6) B002
+  - Moses and his companion find a servant among God’s servants (2: 18:65:2, 18:65:4) B002
+  - Pious servants are promised and inherit the gardens of Eden (2: 19:61:6, 19:63:6) B002
+  - Every penitent servant is addressed with a reminder (2: 34:9:28, 50:8:4) B002
+  - David and Solomon are described as God’s servants who turn back to Him (2: 38:17:6, 38:30:5) B002
+  - Job is described as a patient servant who turns back to God (2: 38:41:2, 38:44:12) B002
+  - God’s servants who have sinned are told not to despair of His mercy (2: 15:49:2, 39:53:2) B002
+  - God judges among His servants (2: 39:46:12, 40:48:12) B002
+  - The wives of Noah and Lot lived under two righteous servants of God (2: 66:10:12, 66:10:14) B002
+  - People are told to worship the Lord who created them and those before them (1: 2:21:3) B003
+  - The covenant with the Children of Israel says to worship none but Allah (1: 2:83:7) B003
+  - The community says it worships God (1: 2:138:10) B003
+  - The People of the Book are called to worship Allah alone (1: 3:64:11) B003
+  - A prophet tells people to be devoted to God, not to him (1: 3:79:14) B003
+  - People are told to worship Allah and show kindness to parents and others (1: 4:36:1) B003
+  - Jesus and the angels do not disdain worshipping Allah (1: 4:172:14) B003
+  - The people of ʿĀd ask whether Hūd has come to make them worship Allah alone (1: 7:70:3) B003
+  - Joseph says people worship names besides God that He did not authorize (1: 12:40:2) B003
+  - The youths leave their people and what they worship besides Allah (1: 18:16:4) B003
+  - Abraham asks God to keep him and his children from worshipping idols (1: 14:35:12) B003
+  - People worship intermediaries to bring them nearer to God (1: 39:3:11) B003
+  - A person worships God while standing on an edge (1: 22:11:4) B003
+  - Believers are promised security while worshipping God without associating anything with Him (1: 24:55:27) B003
+  - The Queen of Sheba is turned from worshipping besides Allah (1: 27:43:4) B003
+  - People are told to worship whatever they choose besides God (1: 39:15:1) B003
+  - Religious leaders and Jesus are said to have been taken as lords besides Allah (1: 9:31:14) B003
+  - Muhammad says he would be first among the worshippers if the Most Merciful had a son (1: 43:81:8) B003
+  - God says He created jinn and humankind only to worship Him (1: 51:56:6) B003
+  - The promised wives include women who worship God (1: 66:5:14) B003
+  - The messengers are asked whether gods besides the Most Merciful are worshipped (1: 43:45:13) B003
+  - A person is told to worship God and not be arrogant about worshipping Him (1: 40:60:10) B003
+  - A person who hopes to meet his Lord is told not to associate anyone in worship (1: 18:110:22) B003
+  - A townsman asks why he should not worship the One who created him (1: 36:22:4) B003
+  - A believing male slave is called better than a polytheist (1: 2:221:18) B001
+  - A slave who owns nothing is used in a parable (1: 16:75:4) B001
+  - Believers are told to marry the righteous men and women among their slaves (1: 24:32:6) B001
+  - Pharaoh’s people say the people of Moses and Aaron serve them (1: 23:47:7) B001
+  - Pharaoh is told that he enslaved the Children of Israel (1: 26:22:6) B004
+  - God is near to His servants and answers the one who calls upon Him (1: 2:186:3) B002
+  - God brings adornment and good provision out for His servants (1: 7:32:8) B002
+  - The beings people call upon besides God are servants like them (1: 7:194:7) B002
+  - Iblis says he will take a portion from God’s servants (1: 4:118:6) B002
+  - Believing servants are told to establish prayer and give from their provision (1: 14:31:2) B002
+  - The Prophet is told to instruct God’s servants to speak in the best way (1: 17:53:2) B002
+  - God sends powerful servants against the Children of Israel (1: 17:5:7) B002
+  - God is sufficient for His servant (1: 39:36:4) B002
+  - God’s servant stands calling upon Him (1: 72:19:4) B002
+  - Zechariah is named as God’s servant (1: 19:2:4) B002
+  - Nūḥ is described as a grateful servant (1: 17:3:8) B002
+  - Nūḥ is denied by his people as God’s servant (1: 54:9:6) B002
+  - Joseph is among God’s chosen servants (1: 12:24:18) B002
+  - Disbelievers think they can take God’s servants as protectors besides Him (1: 18:102:6) B002
+  - Every being in the heavens and earth comes to the Most Merciful as a servant (1: 19:93:10) B002
+  - A group of God’s servants pray for forgiveness and mercy (1: 23:109:5) B002
+  - The servants of the Most Merciful walk gently and answer with peace (1: 25:63:1) B002
+  - Solomon asks to be admitted among God’s righteous servants (1: 27:19:23) B002
+  - David and Solomon are favored over many believing servants (1: 27:15:14) B002
+  - Peace is pronounced upon God’s chosen servants (1: 27:59:6) B002
+  - Few of God’s servants are grateful (1: 34:13:18) B002
+  - The scholars among God’s servants fear Him (1: 35:28:12) B002
+  - God gives the Book to chosen servants, among whom are different kinds of people (1: 35:32:7) B002
+  - The servants are lamented because messengers came and were mocked (1: 36:30:3) B002
+  - God’s word has preceded concerning His messengers and servants (1: 37:171:4) B002
+  - Abraham, Isaac, and Jacob are named among God’s servants (1: 38:45:2) B002
+  - Good news is given to servants who avoid Taghut and turn to God (1: 39:17:12) B002
+  - God’s way among His servants is stated after the people see His punishment (1: 40:85:14) B002
+  - God gives glad tidings to His believing servants (1: 42:23:5) B002
+  - God’s servants are told that they will have no fear that day (1: 43:68:1) B002
+  - Moses tells Pharaoh to send forth the servants of God (1: 44:18:4) B002
+  - Nūḥ says these people will mislead God’s servants (1: 71:27:5) B002
+  - God’s servants drink from a spring and cause it to flow (1: 76:6:4) B002
+  - The soul is told to enter among God’s servants (1: 89:29:3) B002
+  - A servant is stopped while praying (1: 96:10:1) B002
+  - God does not approve disbelief for His servants (1: 39:7:9) B002
+  - Jesus says that those punished are God’s servants (1: 5:118:4) B002
+  - People assign God a portion from among His servants (1: 43:15:4) B002
+  - God tells believing servants that His earth is wide and calls them to worship Him (1: 29:56:1) B002
+  - God asks whether the worshipped beings led His servants astray (1: 25:17:11) B002
+  - Those worshipped deny their worship and become opponents to them (1: 19:82:3) B003
+- branches never the plain sense in any occurrence: B005 düzleşmiş yol, katranlanmış deve veya kaplanmış gemi; B006 saygı gösterilip hizmet edilen kişi; B007 güç, sağlamlık ve dayanıklılık; B008 incinmiş gurur, öfke veya kederli iç duygulanım; B009 gecikmeden yapmak veya koşuda biraz hızlanmak; B010 her yana dağılmış kümeler, nesneler veya yollar; B011 bineği yüzünden yolda kalma veya güçlükle direnen deve; B012 güzel koku maddesi ezme taşı

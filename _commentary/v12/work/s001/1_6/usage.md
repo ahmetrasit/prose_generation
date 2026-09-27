@@ -43,6 +43,115 @@ Made by script: the occurrence lists, ids, counts and forms; the branch lines ar
   - A person walking upright on a straight path is compared with one walking face-down (1: 67:22:11) B001
 - branches never the plain sense in any occurrence: B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak; B003 vuruşta kesip ilerleyen kılıç
 
-### Roots of this ayah without a dossier
+### ه د ي — ٱهْدِنَا (316 occurrences, 85 groups)
+- ▶ here (1:6:1): **People ask God to guide them to a straight or right path** — 4 occurrences; plain sense B001 doğru yolu gösterme ve doğruya yönelme
+  - forms: هَدَى V IMPF SUBJ ×2; هَدَى V IMPV ×1; هَدَى V IMPF JUS ×1
+  - also: 6:77:13, 18:24:12, 28:22:9
+- its other groups:
+  - Books, revelations, and clear proofs are given as guidance for their hearers (48: 2:2:6, 2:53:7, 2:97:16, 2:159:8 (+44)) B001
+  - God guides whom He wills (18: 2:142:16, 2:213:44, 2:272:6, 6:125:5 (+14)) B001
+  - People are guided by believing, submitting, or following the messenger (11: 2:135:6, 2:137:8, 3:20:18, 3:101:14 (+7)) B001
+  - God guides prophets and their descendants (10: 6:84:6, 6:84:8, 6:87:6, 6:88:2 (+6)) B001
+  - God does not guide the wrongdoers (10: 2:258:41, 3:86:16, 5:51:20, 6:144:38 (+6)) B001
+  - Prophets say God has guided them or will guide them (9: 6:80:8, 6:161:3, 14:12:8, 26:62:6 (+5)) B001
+  - People and scriptures are compared by the paths they follow (9: 4:51:16, 6:157:9, 17:84:10, 20:135:11 (+5)) B001
+  - Speakers name God’s guidance as the guidance to follow (8: 2:120:12, 2:120:15, 3:73:9, 3:73:10 (+4)) B001
+  - Sacrificial animals are set aside for the Sacred House and its rites (8: 2:196:10, 2:196:16, 2:196:44, 5:2:12 (+4)) B005
+  - No one can guide those whom God leads astray (7: 4:88:12, 7:186:5, 16:37:8, 18:17:24 (+3)) B001
+  - God does not guide disbelievers and those who reject His signs (7: 2:264:36, 3:86:2, 4:168:11, 5:67:22 (+3)) B001
+  - People who follow guidance do so for their own benefit (7: 10:108:10, 10:108:12, 17:15:2, 17:15:4 (+3)) B001
+  - Travelers find their way by stars, landmarks, and paths through the land (6: 6:97:6, 16:15:11, 16:16:4, 21:31:13 (+2)) B001
+  - People turn away from guidance after it is made clear (6: 4:115:9, 18:57:26, 18:57:28, 34:32:9 (+2)) B001
+  - No one can guide the person God has misled (6: 13:33:39, 17:97:2, 17:97:5, 39:23:34 (+2)) B001
+  - People are described as standing on guidance or being guided (5: 2:5:3, 31:5:3, 22:67:16, 36:21:7 (+1)) B001
+  - God guides believers, returners, and strivers along His path (5: 22:54:16, 33:4:27, 42:52:24, 47:5:1 (+1)) B001
+  - People who keep faith, bear hardship, or worship are described as guided (5: 2:157:9, 3:8:7, 6:82:11, 9:18:23 (+1)) B001
+  - Prophets and leaders guide their communities by truth or God’s command (5: 7:159:5, 7:181:4, 13:7:15, 21:73:3 (+1)) B001
+  - God does not guide transgressors (5: 5:108:20, 9:24:31, 9:80:23, 61:5:21 (+1)) B001
+  - Idols do not answer calls to guidance or guide their worshippers (5: 7:148:18, 7:193:4, 7:198:4, 10:35:22 (+1)) B001
+  - God knows who strays from His path and who is guided (5: 6:117:11, 16:125:22, 28:56:13, 53:30:16 (+1)) B001
+  - God promises guidance for those who follow what He sends (4: 2:38:8, 2:38:11, 20:123:11, 20:123:14) B001
+  - God could guide all people if He willed (4: 6:35:24, 13:31:27, 16:9:9, 32:13:6) B001
+  - The Prophet is asked whether he can guide the blind (4: 10:43:6, 27:81:3, 30:53:3, 43:40:5) B001
+  - God guides people through a parable, signs, and the truth in their disputes (4: 2:26:32, 2:213:33, 3:103:34, 4:26:5) B001
+  - God gives guidance and increases it for those who are already guided (4: 19:76:4, 19:76:5, 47:17:2, 47:17:4) B001
+  - People trade guidance for error (3: 2:16:5, 2:16:11, 2:175:5) B001
+  - The question of who guides to truth, including God and the partners (3: 10:35:6, 10:35:11, 10:35:14) B001
+  - The people of Paradise say God guided them there (3: 7:43:15, 7:43:19, 7:43:22) B001
+  - Past destroyed peoples’ homes guide those who inherit the land (3: 7:100:2, 20:128:2, 32:26:2) B001
+  - The Prophet cannot make people accept guidance (3: 2:272:3, 16:37:4, 28:56:3) B001
+  - God does not guide the treacherous, liars, or excessive people (3: 12:52:10, 39:3:29, 40:28:35) B001
+  - The believers are guided in the change of the prayer direction (2: 2:143:34, 2:150:31) B001
+  - People are guided to good speech and the praiseworthy path (2: 22:24:1, 22:24:6) B001
+  - God gives each created thing its form and guides it (2: 20:50:9, 87:3:3) B001
+  - God shows people the two ways (2: 76:3:2, 90:10:1) B001
+  - Some people claim their forefathers knew the way, though they did not (2: 2:170:22, 5:104:24) B001
+  - People who apostasize or violate prohibitions are not guided (2: 4:137:19, 6:140:20) B001
+  - People do not believe when guidance comes to them (2: 17:94:8, 18:55:8) B001
+  - People debate about God without knowledge, guidance, or a clear book (2: 22:8:10, 31:20:27) B001
+  - At judgment, people regret not having been guided (2: 28:64:13, 39:57:6) B001
+  - The weak and the powerful blame each other for not being guided (2: 14:21:23, 14:21:25) B001
+  - Pharaoh misleads his people and claims to guide them (2: 20:79:5, 40:29:23) B001
+  - The Queen of Sheba sends Solomon a gift, and he responds to it (2: 27:35:4, 27:36:15) B004
+  - People think they are guided while following a mistaken path (2: 7:30:16, 43:37:7) B001
+  - God guides people who turn back to Him (2: 13:27:16, 42:13:35) B001
+  - The Queen is tested to see whether she recognizes her throne (2: 27:41:6, 27:41:12) B001
+  - God guides people to the right path through the revelation (2: 5:16:1, 5:16:15) B001
+  - The people of Thamud are shown the way but choose blindness (2: 41:17:3, 41:17:7) B001
+  - A devil leads his ally to the punishment of the Blaze, and wrongdoers are directed to the path of Hell (2: 22:4:8, 37:23:4) B001
+  - David’s litigants ask him to guide their judgment to a fair path (1: 38:22:20) B001
+  - The Israelites say they will be guided once the cow is clarified (1: 2:70:17) B001
+  - Muhammad is told to follow the guidance of the earlier prophets (1: 6:90:5) B002
+  - God gives guidance to believing youths and increases it for those already guided (1: 18:13:11) B001
+  - People say they follow the way of their forefathers (1: 43:22:11) B002
+  - God does not lead a people astray after guiding them until duties are clear (1: 9:115:8) B001
+  - A person follows his desire without guidance from God (1: 28:50:15) B001
+  - Sheba and her people worship the sun and are not guided (1: 27:24:17) B001
+  - The people of Mecca say following the guidance would drive them from their land (1: 28:57:4) B001
+  - A believer tells his people to follow him to the right path (1: 40:38:6) B001
+  - Abraham offers to guide his father to an even path (1: 19:43:11) B001
+  - Moses hopes to find guidance at the fire (1: 20:10:18) B001
+  - The weak travelers cannot find a way to leave (1: 4:98:11) B002
+  - God guides one party while another incurs error (1: 7:30:2) B001
+  - People say they will be guided if the torment is removed (1: 43:49:11) B001
+  - At resurrection, the deniers were not among the guided (1: 10:45:20) B001
+  - Messengers bring proofs, but their people question whether humans can guide them (1: 64:6:9) B001
+  - The first House at Bakkah is blessed and guidance for the worlds (1: 3:96:9) B001
+  - God guides believers by their faith and good deeds (1: 10:9:6) B001
+  - God guides those who strive in His way (1: 29:69:4) B001
+  - God guides the believers’ hearts when they believe in Him (1: 64:11:11) B001
+  - God guides those who hold fast to Him to a straight path (1: 4:175:12) B001
+  - God guides Abraham to a straight path (1: 16:121:4) B001
+  - God makes the message a light by which He guides His servants (1: 42:52:17) B001
+  - The Qur’an guides to what is most upright (1: 17:9:4) B001
+  - Moses says God knows who brings guidance and who is in error (1: 28:85:14) B001
+  - Those who oppose God’s messenger turn from guidance after it is clear (1: 47:32:15) B001
+  - God guides the believers to the straight path after the promise of spoils (1: 48:20:16) B001
+  - Some descendants of Noah and Abraham are guided (1: 57:26:11) B001
+  - During the pilgrimage, people are told to remember Allah as He guided them (1: 2:198:20) B001
+  - Moses says he will guide Pharaoh to his Lord, so that he may fear (1: 79:19:1) B001
+  - God says that guidance is upon Him (1: 92:12:3) B001
+  - not assigned by the reader (1: 16:36:14) unmapped
+- branches never the plain sense in any occurrence: B003 bir şeyin ilk veya öndeki bölümü; B006 gelini eşinin yanına götürme; B007 dokunulmaz sığınmacı; kimi açıklamalarda tutsak; B008 sallanarak, gerektiğinde başkalarına dayanarak yürüme; B009 bön, güçsüz ve ağır kimse; B010 sakin, ölçülü ve düzgün ilerleyiş; B011 övgü veya yergi şiiri sunma ve şiirle yergileşme
 
-- ه د ي (ٱهْدِنَا); ق و م (ٱلْمُسْتَقِيمَ): not grouped; their occurrences are only in the other evidence.
+### ق و م — ٱلْمُسْتَقِيمَ (660 occurrences, 16 groups)
+- ▶ here (1:6:3): **The straight path, upright religion, and sound guidance** — 46 occurrences; plain sense B008 düzgünlük, denge ve doğru yoldan sapmama
+  - forms: مُّسْتَقِيم N X ACT ×23; مُّسْتَقِيم ADJ X ACT ×14; قَيِّم ADJ ×5; قِيَم ADJ ×1; +3 forms
+  - also: 2:142:21, 2:213:49, 3:51:8, 3:101:17, 4:68:3, 4:175:15, 5:16:18, 6:39:17, 6:87:9, 6:126:4, 6:153:4, 6:161:7, 6:161:9, 7:16:7 (+31)
+- its other groups:
+  - People and communities named or described in the clauses (383: 2:54:4, 2:54:5, 2:60:4, 2:67:4 (+379)) B001
+  - The Hour arrives and the dead are gathered, judged, and recompensed (78: 2:85:40, 2:113:27, 2:174:24, 2:212:14 (+74)) B013
+  - Believers establish prayer and observe God’s limits (49: 2:3:4, 2:43:1, 2:83:19, 2:110:1 (+45)) B005
+  - People stand, sit, pray, or rise for an act (37: 2:20:13, 2:238:6, 2:275:5, 2:275:8 (+33)) B002
+  - People and things occupy a place or remain there (26: 2:125:9, 3:97:4, 5:107:9, 10:71:13 (+22)) B006
+  - People are told to be upright or are said to be upright (10: 9:7:16, 9:7:18, 10:89:5, 11:112:1 (+6)) B008
+  - People establish the Torah, Gospel, religion, scales, and testimony (9: 5:66:3, 5:68:8, 42:13:19, 55:9:1 (+5)) B005
+  - Prayer, testimony, and worship are maintained or upheld (7: 3:18:11, 3:75:22, 4:34:2, 4:135:5 (+3)) B004
+  - The Kaaba and wealth serve as people’s support (3: 4:5:9, 5:97:6, 25:67:11) B009
+  - Allah is called al-Qayyūm (3: 2:255:7, 3:2:7, 20:111:4) B004
+  - Speech and testimony are described as more upright (3: 2:282:91, 4:46:30, 73:6:7) B008
+  - Towns remain standing and a wall is set upright (2: 11:100:8, 18:77:18) B002
+  - People stand for the orphans and establish justice (2: 4:127:29, 57:25:9) B003
+  - Two witnesses take the place of the first witnesses (1: 5:107:8) B007
+  - A human being is created in the best bodily form (1: 95:4:6) B011
+- branches never the plain sense in any occurrence: B010 değer biçme ve belirlenen bedel; B012 düzeneğin dik, taşıyıcı veya tutulan parçası; B014 karşılıklı direnip mücadele etme; B015 tam ve denk ağırlıktaki para; B016 donup akmama veya yorulup ilerleyememe; B017 güneşin tam tepede olduğu öğle ortası; B018 pazarın canlanıp satışların artması; B019 bir beden bölümünün kişiye ağrı vermesi; B020 koyunun bacaklarını tutan hastalık; B021 göz bebeği sağlamken görme yetisinin kaybolması

@@ -41,8 +41,8 @@ script flag in brackets when something is wrong (25 flagged steps here).
 - trace:
   - 1:1 w1 بِسْمِ → و س م B002 (belirtiden karakter veya durum sezme) — The focus sign requires discerning observation, furnishing the legibility side of the evidential cycle. [~alt: a cited alternative analysis, not the word's primary root]
   - 1:1 w3,4 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ → ر ح م B001 (acıma duygusuyla esirgeyip iyilik etme) — Tender beneficence specifies the quality that should become observable in the cultivated result.
-  - 1:2 w1 ٱلْحَمْدُ → ح م د B002 (deneyip övülesi ya da uygun bulma) — A thing's existing in a praiseworthy state supplies the realized outcome that can verify the claimed merciful mark.
-  - 1:2 w3 رَبِّ → ر ب ب B002 (adım adım yetiştirip tamamlama) — Repair, nurture, and completion provide the process that converts an invoked affiliation into a beneficial finished condition.
+  - 1:2 w1 ٱلْحَمْدُ → ح م د B002 (deneyip övülesi ya da uygun bulma) — A thing's existing in a praiseworthy state supplies the realized outcome that can verify the claimed merciful mark. [plain here: B001; usage group: Surah openings praise God as Lord, creator, giver of revelation, and owner of a…]
+  - 1:2 w3 رَبِّ → ر ب ب B002 (adım adım yetiştirip tamamlama) — Repair, nurture, and completion provide the process that converts an invoked affiliation into a beneficial finished condition. [plain here: B001; usage group: People praise and glorify God as Lord of the worlds and creation]
   - 1:2 w4 ٱلْعَٰلَمِينَ → ع ل م B002 (ayırt edici ve yol gösterici işaret) — A distinguishing trace that guides toward its referent closes the cycle: the cultivated effect points back to the named source.
 
 ### delta_1_2_rain_womb_cultivation [context delta, exploratory]
@@ -53,7 +53,7 @@ script flag in brackets when something is wrong (25 flagged steps here).
   - 1:1 w1 بِسْمِ → س م و B004 (üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler) — The upper cover's extensions to sky, cloud, rain, and rain-grown vegetation supply the environmental canopy.
   - 1:1 w1 بِسْمِ → و س م B003 (toprağı bitkilendiren yılın ilk yağmuru) — First rain that marks earth with vegetation turns designation into a materially productive trace. [~alt: a cited alternative analysis, not the word's primary root]
   - 1:1 w3,4 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ → ر ح م B003 (döl yatağı) — The womb supplies the enclosed phase in which the rain-like beginning becomes formed life.
-  - 1:2 w3 رَبِّ → ر ب ب B008 (katmanlı asılı bulut kümesi) — The cloud image gives the lordship cue a material bridge back to the focus inventory's overhead rain cover.
+  - 1:2 w3 رَبِّ → ر ب ب B008 (katmanlı asılı bulut kümesi) — The cloud image gives the lordship cue a material bridge back to the focus inventory's overhead rain cover. [plain here: B001; usage group: People praise and glorify God as Lord of the worlds and creation]
   - 1:2 w3 رَبِّ → ر ب و B005 (besleyip büyütmek ve yetişmek) — The non-dominant nourishment-and-growth branch supplies emergence as the result of that cloud, rain, and womb complex. [~echo: a sound-family root, not the word's root]
 
 ### delta_1_3_mercy_as_recurring_field [context delta, medium]
@@ -96,7 +96,7 @@ script flag in brackets when something is wrong (25 flagged steps here).
   - 1:1 w1 بِسْمِ → س م و B005 (ad, adlandırma ve ad ya da nitelik bakımından denklik) — The raised designation provides the heading under which agency is relocated.
   - 1:1 w2 ٱللَّهِ → ء ل ه B001 (tapınma ve tapınılan varlık) — The worshipped one makes the divine name a relational center of devotion rather than a merely verbal instrument.
   - 1:5 w2 نَعْبُدُ → ع ب د B003 (boyun eğerek itaat ve tapınma) — Worship and submissive obedience supply the yielding movement by which self-directed agency is relinquished.
-  - 1:5 w4 نَسْتَعِينُ → ع و ن B001 (yardım, destek ve dayanışma) — Assistance and backing supply the returning capacity by which the yielded act can still be performed.
+  - 1:5 w4 نَسْتَعِينُ → ع و ن B001 (yardım, destek ve dayanışma) — Assistance and backing supply the returning capacity by which the yielded act can still be performed. [plain here: the same branch; usage group: Worshippers say they worship God and seek help from Him]
 
 ### delta_1_5_attentive_custody [context delta, exploratory]
 - before: Mercy shelters the act and aid supplies missing power.
@@ -116,7 +116,7 @@ script flag in brackets when something is wrong (25 flagged steps here).
   - 1:1 w1 بِسْمِ → س م م B011 (amaç ve yön; derinlemesine yoklama) — Intended direction and probed depth turn the opening name into an aim that governs more than the first instant. [root not mapped to this word by the current gateway]
   - 1:1 w3,4 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ → ر ح م B001 (acıma duygusuyla esirgeyip iyilik etme) — Tenderness specifies that orientation is supplied gently rather than imposed as bare force.
   - 1:6 w1 ٱهْدِنَا → ه د ي B001 (doğru yolu gösterme ve doğruya yönelme) — Gentle indication toward road and truth supplies the directional action that reads and follows the sign.
-  - 1:6 w2 ٱلصِّرَٰطَ → ص ر ط B001 (yol, özellikle düz yol) — The straight road gives the directional sign an extended traversable medium.
+  - 1:6 w2 ٱلصِّرَٰطَ → ص ر ط B001 (yol, özellikle düz yol) — The straight road gives the directional sign an extended traversable medium. [plain here: the same branch; usage group: The worshippers ask God to guide them to the path of those He favored]
   - 1:6 w3 ٱلْمُسْتَقِيمَ → ق و م B008 (düzgünlük, denge ve doğru yoldan sapmama) — Straightness, equilibrium, and levelness provide the continuing correction that keeps travel aligned with the heading.
 
 ### delta_1_6_guidance_as_relational_gift [context delta, medium]
@@ -136,10 +136,10 @@ script flag in brackets when something is wrong (25 flagged steps here).
 - trace:
   - 1:1 w1 بِسْمِ → و س م B001 (tanıtıcı fiziksel iz koyma, iz ve araç) — The identifying mark supplies a visible boundary of affiliation. [~alt: a cited alternative analysis, not the word's primary root]
   - 1:1 w3,4 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ → ر ح م B001 (acıma duygusuyla esirgeyip iyilik etme) — Mercy and tenderness remain the positive quality whose boundaries the context makes explicit.
-  - 1:7 w1 صِرَٰطَ → ص ر ط B001 (yol, özellikle düz yol) — The repeated straight road turns affiliation into a trajectory rather than a static class label.
+  - 1:7 w1 صِرَٰطَ → ص ر ط B001 (yol, özellikle düz yol) — The repeated straight road turns affiliation into a trajectory rather than a static class label. [plain here: the same branch; usage group: The worshippers ask God to guide them to the path of those He favored]
   - 1:7 w3 أَنْعَمْتَ → ن ع م B001 (iyi yaşam durumu ve başkasına ulaştırılan iyilik) — Good condition and benefaction supply the positive fruit by which the merciful trajectory is recognized.
   - 1:7 w5 غَيْرِ → غ ي ر B005 (başka olma, dışta bırakma veya olumsuzlama) — Otherness, exception, and negation draw an explicit exclusion boundary around the positive route.
-  - 1:7 w6 ٱلْمَغْضُوبِ → غ ض ب B001 (şiddetli öfke ve öç alma yönelimi) — Intensified wrath supplies one opposed relational state outside the tender mark.
+  - 1:7 w6 ٱلْمَغْضُوبِ → غ ض ب B001 (şiddetli öfke ve öç alma yönelimi) — Intensified wrath supplies one opposed relational state outside the tender mark. [plain here: the same branch; usage group: Those upon whom anger is incurred in the prayer for the straight path]
   - 1:7 w9 ٱلضَّآلِّينَ → ض ل ل B001 (doğru yoldan ve amaçtan sapma ya da başkasını saptırma) — Straying from guidance and intended aim supplies the opposed directional state.
 
 ### delta_1_7_mercy_as_plastic_reformation [context delta, exploratory]
@@ -151,7 +151,7 @@ script flag in brackets when something is wrong (25 flagged steps here).
   - 1:6 w3 ٱلْمُسْتَقِيمَ → ق و م B008 (düzgünlük, denge ve doğru yoldan sapmama) — Straightness, balance, and evenness supply the target condition of reformation.
   - 1:7 w3 أَنْعَمْتَ → ن ع م B002 (yumuşamak, rahat yaşamak veya rahat yaşatmak) — Softness and ease supply material pliability rather than weakness.
   - 1:7 w5 غَيْرِ → غ ي ر B003 (biçimini değiştirme veya yerine başkasını koyma) — Changing a form or replacing one thing with another supplies the transformative operation.
-  - 1:7 w6 ٱلْمَغْضُوبِ → غ ض ب B004 (sert, yığılmış veya yuvarlak kaya) — The cohesion and hardness of rock supply the resistant state against which merciful plasticity becomes visible.
+  - 1:7 w6 ٱلْمَغْضُوبِ → غ ض ب B004 (sert, yığılmış veya yuvarlak kaya) — The cohesion and hardness of rock supply the resistant state against which merciful plasticity becomes visible. [plain here: B001; usage group: Those upon whom anger is incurred in the prayer for the straight path]
 
 ### outlier_narrow_swallowing_gate [surprising valid outlier, exploratory]
 - before: The formula accompanies an action that remains conceptually outside it.
@@ -162,7 +162,7 @@ script flag in brackets when something is wrong (25 flagged steps here).
   - 1:1 w1 بِسْمِ → س م م B001 (dar giriş deliği) — A narrow opening of entry turns the initial construction into a constraining threshold. [root not mapped to this word by the current gateway]
   - 1:1 w1 بِسْمِ → س م م B011 (amaç ve yön; derinlemesine yoklama) — Intended direction makes the aperture selective: entry through it commits the act to a particular aim. [root not mapped to this word by the current gateway]
   - 1:1 w3,4 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ → ر ح م B001 (acıma duygusuyla esirgeyip iyilik etme) — Mercy prevents the constricted threshold from becoming merely punitive and defines its relational quality.
-  - 1:6 w2 ٱلصِّرَٰطَ → ص ر ط B002 (geçişte gözden kaybolmak; özellikle yiyeceği yutmak) — Disappearance in passing or swallowing supplies the loss of autonomous profile once the act enters the named way.
+  - 1:6 w2 ٱلصِّرَٰطَ → ص ر ط B002 (geçişte gözden kaybolmak; özellikle yiyeceği yutmak) — Disappearance in passing or swallowing supplies the loss of autonomous profile once the act enters the named way. [plain here: B001; usage group: The worshippers ask God to guide them to the path of those He favored]
 
 ### outlier_guiding_lullaby [surprising valid outlier, exploratory]
 - before: The two mercy forms state divine qualities before the discourse proceeds.

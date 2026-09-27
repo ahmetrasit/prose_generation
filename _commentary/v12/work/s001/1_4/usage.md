@@ -1,0 +1,221 @@
+# usage.md — how the Quran uses the roots of 1:4 (root dossiers: each root's occurrences grouped by what the ayat say, with the dictionary branch of the plain reading; a concordance, not an interpretation)
+
+Made by script: the occurrence lists, ids, counts and forms; the branch lines are the dictionary's. Made by a model and checked by script only for structure, so possibly wrong: the groups, their labels, each group's branch, the exceptions and the minor-analysis notes, and what follows from them (the ▶ group, the branches never the plain sense). Group size says nothing: a context may be split over several groups.
+
+
+### د ي ن — ٱلدِّينِ (101 occurrences, 50 groups)
+- ▶ here (1:4:3): **God is master of the Day of Recompense** — 1 occurrence; plain sense B002 yargılayıp hesap görerek karşılığını verme
+  - forms: دِين N ×1
+- its other groups:
+  - People worship God or devote their religion to Him sincerely (9: 4:146:8, 7:29:13, 39:2:10, 39:3:3 (+5)) B001
+  - God names Islam as His religion and links it with submission and Abraham’s way (8: 2:132:11, 3:19:2, 3:83:2, 3:85:5 (+4)) B001
+  - People deny or are identified as denying the Day of Recompense (5: 74:46:4, 82:9:4, 83:11:4, 95:7:4 (+1)) B002
+  - Debts are accounted for before an estate is divided among heirs (4: 4:11:55, 4:12:25, 4:12:49, 4:12:80) B003
+  - The upright religion is described alongside God’s commands, human nature, and worship (4: 9:36:20, 12:40:26, 30:30:16, 98:5:15) B001
+  - Believers aid those seeking help in religion and are told whom to befriend after conflict (3: 8:72:33, 60:8:9, 60:9:8) B001
+  - God’s Messenger is sent with guidance and the religion of truth (3: 9:33:6, 48:28:6, 61:9:6) B001
+  - The religion of truth is to prevail over every religion (3: 9:33:10, 48:28:10, 61:9:10) B001
+  - People call on God sincerely in religion when waves threaten them at sea (3: 10:22:34, 29:65:9, 31:32:9) B001
+  - The Prophet is told to face upright toward the religion (3: 10:105:4, 30:30:3, 30:43:3) B001
+  - People ask when or what the Day of Recompense is (3: 51:12:4, 82:17:5, 82:18:6) B002
+  - Believers fight until fitna ends and religion belongs wholly to God (2: 2:193:7, 8:39:7) B001
+  - A person turns away from his religion (2: 2:217:42, 5:54:8) B001
+  - Believers enter a deferred debt transaction and are told to write it down (2: 2:282:5, 2:282:6) B003
+  - People taunt or attack the religion in speech (2: 4:46:19, 9:12:9) B001
+  - People of the Book are told not to go to extremes in their religion (2: 4:171:6, 5:77:7) B001
+  - People take their religion as amusement and play (2: 6:70:4, 7:51:3) B001
+  - People divide their religion and become sects (2: 6:159:4, 30:32:4) B001
+  - People are called brothers in religion (2: 9:11:9, 33:5:13) B001
+  - People do not adhere to the true religion before paying jizya (2: 9:29:16, 9:29:17) B001
+  - Iblis remains cursed until the Day of Recompense (2: 15:35:6, 38:78:6) B002
+  - Speakers question whether people will be recompensed or held to account after death (2: 37:53:7, 56:86:5) B002
+  - God prescribes religion to the prophets and commands its establishment without division (2: 42:13:4, 42:13:20) B001
+  - The people of Hell receive their portion or enter the fire on that Day (2: 56:56:4, 82:15:3) B002
+  - The speakers distinguish between your religion and mine (2: 109:6:2, 109:6:4) B001
+  - Opponents keep fighting believers to turn them away from their religion (1: 2:217:35) B001
+  - There is no compulsion in religion (1: 2:256:4) B001
+  - Fabrications deceive people in their religion (1: 3:24:12) B001
+  - A speaker says to trust only those who follow their religion (1: 3:73:6) B001
+  - Disbelievers give up hope of turning believers away from their religion (1: 5:3:36) B001
+  - God completes the believers’ religion (1: 5:3:43) B001
+  - Some people take the believers’ religion as mockery and play (1: 5:57:8) B001
+  - Associates confuse the religion of many idolaters (1: 6:137:12) B001
+  - Opponents say the believers have been deluded by their religion (1: 8:49:10) B001
+  - Some believers learn the religion and warn their people when they return (1: 9:122:15) B001
+  - The Prophet says he worships God if people doubt his religion (1: 10:104:9) B001
+  - Yusuf cannot take his brother under the king’s law (1: 12:76:19) B001
+  - Religion belongs to God continually (1: 16:52:7) B001
+  - People are told not to let pity soften punishment under God’s law (1: 24:2:14) B001
+  - God gives people their full recompense (1: 24:25:4) B002
+  - God establishes for believers the religion He approves for them (1: 24:55:18) B001
+  - Abraham hopes God will forgive him on the Day of Recompense (1: 26:82:8) B002
+  - People say that the Day of Recompense has come (1: 37:20:5) B002
+  - Pharaoh fears Moses will change the people’s religion (1: 40:26:12) B001
+  - Partners prescribe a religion without God’s permission (1: 42:21:7) B001
+  - The Bedouins are asked whether they would inform God of their religion (1: 49:16:4) B001
+  - Recompense is certain to occur (1: 51:6:2) B002
+  - Believers affirm the Day of Recompense (1: 70:26:4) B002
+  - People enter God’s religion in crowds (1: 110:2:5) B001
+- branches never the plain sense in any occurrence: B004 zorla alçaltıp egemenliği altına alma; B005 alışılmış davranış ve öteden beri bilinen hal; B006 kent; B007 kişiyi sözüne ve vicdani sorumluluğuna göre değerlendirme
+
+### م ل ك — مَٰلِكِ (206 occurrences, 109 groups)
+- ▶ here (1:4:1): **God is master on the Day of Recompense and the day of judgment** — 5 occurrences; plain sense B003 hükümdarlık ve kamusal egemenlik
+  - forms: مُلْك N ×4; مَٰلِك N ACT ×1
+  - also: 6:73:14, 22:56:1, 25:26:1, 40:16:11
+- its other groups:
+  - God holds dominion over the heavens and earth (24: 2:107:6, 3:189:2, 5:17:30, 5:18:24 (+20)) B003
+  - People ask why angels were not sent to the human messengers (10: 6:8:5, 6:8:8, 11:12:19, 15:7:4 (+6)) B009
+  - The angels obey the command to prostrate to Adam (7: 2:34:3, 7:11:7, 15:30:2, 17:61:3 (+3)) B009
+  - Israelites ask for a king, and their prophet announces Saul and his kingship (6: 2:246:17, 2:247:10, 2:247:15, 2:247:19 (+2)) B003
+  - People cannot protect another from what God wills (5: 5:17:13, 5:41:46, 46:8:8, 48:11:19 (+1)) B002
+  - Egypt's king dreams, summons Joseph, and is linked to a cup and law (5: 12:43:2, 12:50:2, 12:54:2, 12:72:4 (+1)) B003
+  - Allah is named King or a mighty Sovereign (5: 20:114:3, 23:116:3, 59:23:8, 62:1:9 (+1)) B003
+  - God holds and transfers kingship as He wills (4: 3:26:3, 3:26:4, 3:26:6, 3:26:10) B003
+  - Angels are sent to reinforce believers and steady them in battle (4: 3:124:12, 3:125:14, 8:9:10, 8:12:5) B009
+  - Marriage rules refer to women whom right hands possess (4: 4:3:23, 4:24:6, 4:25:12, 33:50:52) B002
+  - The angels are described as female or named as females (4: 17:40:6, 37:150:3, 43:19:2, 53:27:7) B009
+  - Believers affirm the angels alongside God, the books, and the messengers (3: 2:177:16, 2:285:12, 4:136:20) B009
+  - Idols cannot bring harm or benefit to themselves or their worshippers (3: 5:76:8, 13:16:14, 25:3:11) B002
+  - The Messenger says he cannot control harm or guidance for himself or others (3: 7:188:3, 10:49:3, 72:21:4) B002
+  - Angels seize the souls of disbelievers at death (3: 6:93:30, 8:50:7, 47:27:4) B009
+  - Those invoked as intercessors do not control intercession (3: 19:87:2, 39:43:11, 43:86:2) B002
+  - God, the angels, and all people curse the disbelievers (2: 2:161:11, 3:87:7) B009
+  - Angels tell Mary of God's choosing her and announcing Jesus (2: 3:42:3, 3:45:3) B009
+  - Angels take wrongdoers at death and question them (2: 4:97:4, 16:28:3) B009
+  - The Messengers say they are not angels (2: 6:50:15, 11:31:13) B009
+  - Disbelievers await angels or their Lord's command (2: 6:158:6, 16:33:6) B009
+  - Those worshipped besides God cannot provide sustenance (2: 16:73:7, 29:17:16) B002
+  - Spouses and those right hands possess are named in rules on sexual restraint (2: 23:6:6, 70:30:6) B002
+  - People are told to hold their right hands from showing adornment except to listed persons (2: 24:31:46, 33:55:20) B002
+  - Angels are placed over the Fire as its guardians (2: 66:6:12, 74:31:6) B009
+  - The angels chosen as messengers are described with wings (2: 22:75:4, 35:1:7) B009
+  - The Spirit and angels stand in rows as the Lord comes for judgment (2: 78:38:4, 89:22:3) B009
+  - God tells the angels He will create a human (2: 15:28:4, 38:71:4) B009
+  - Questions identify whose hand holds dominion over everything (2: 23:88:4, 36:83:4) B003
+  - The Prophet's marriage rules mention what his right hand possesses (2: 33:50:11, 33:52:18) B002
+  - No soul controls anything for another on the Day of Judgment (2: 34:42:3, 82:19:3) B002
+  - Idols have no share, even a speck, in the heavens or earth (2: 34:22:9, 35:13:26) B002
+  - God tells the angels He will place a successor on earth (1: 2:30:4) B009
+  - God asks the angels to name the things shown to them (1: 2:31:8) B009
+  - Angels are named among those toward whom enmity is directed (1: 2:98:5) B009
+  - Solomon's kingdom and what devils recite about it (1: 2:102:6) B003
+  - Harut and Marut are the two angels sent down at Babylon (1: 2:102:20) B009
+  - The angels come with God in canopies of cloud (1: 2:210:11) B009
+  - Angels carry the Ark as a sign of Saul's kingship (1: 2:248:22) B009
+  - God gives David kingship after he defeats Goliath (1: 2:251:9) B003
+  - A ruler given kingship debates Abraham (1: 2:258:12) B003
+  - God, the angels, and people of knowledge testify to God's oneness (1: 3:18:8) B009
+  - Angels announce John to Zechariah (1: 3:39:2) B009
+  - People are told not to take angels and prophets as lords (1: 3:80:5) B009
+  - God gives the family of Abraham a great kingdom (1: 4:54:17) B003
+  - People are told to show kindness to those their right hands possess (1: 4:36:23) B002
+  - A share in kingship is questioned (1: 4:53:5) B003
+  - Angels bear witness to what God revealed to the Messenger (1: 4:166:9) B009
+  - The angels near God do not disdain being His servants (1: 4:172:9) B009
+  - Moses reminds Israel that God made them kings (1: 5:20:15) B003
+  - Moses says he controls only himself and his brother (1: 5:25:5) B002
+  - God says an angel sent as a messenger would be made a man (1: 6:9:3) B009
+  - Abraham is shown the kingdom of the heavens and earth (1: 6:75:4) B003
+  - Even if angels descended, the disbelievers would not believe (1: 6:111:5) B009
+  - People are told to look at the kingdom of the heavens and earth (1: 7:185:4) B003
+  - God controls hearing and sight (1: 10:31:8) B002
+  - The women say Joseph is a noble angel (1: 12:31:31) B009
+  - Joseph says God gave him some kingship (1: 12:101:5) B003
+  - The angels glorify God in awe along with the thunder (1: 13:13:4) B009
+  - Angels enter upon the people of Eden from every gate (1: 13:23:10) B009
+  - Those favored in provision do not share it equally with their servants (1: 16:71:15) B002
+  - An owned servant is given as an example of one who cannot do anything (1: 16:75:5) B002
+  - Angels are sent down with the Spirit to warn God's servants (1: 16:2:2) B009
+  - Angels take the righteous and tell them to enter the Garden (1: 16:32:3) B009
+  - Angels prostrate to God and do not grow arrogant (1: 16:49:11) B009
+  - The calf cannot answer or control harm and benefit for its worshippers (1: 20:89:8) B002
+  - The devil tells Adam he could become an angel or live forever (1: 7:20:21) B009
+  - People are asked whether they own a share in God's provision with their servants (1: 30:28:10) B002
+  - People are told to ask permission of those their right hands possess (1: 24:58:6) B002
+  - People may eat from houses whose keys they possess (1: 24:61:46) B002
+  - God's angels send blessings upon the believers (1: 33:43:5) B009
+  - The angels support the Messenger alongside Gabriel and the believers (1: 66:4:18) B009
+  - The Angel of Death takes people and they return to their Lord (1: 32:11:3) B009
+  - Pharaoh's people claim dominion in the land (1: 40:29:3) B003
+  - Pharaoh claims the kingdom of Egypt (1: 43:51:9) B003
+  - A woman rules over her people (1: 27:23:4) B003
+  - The Queen says kings ruin a town when they enter it (1: 27:34:3) B003
+  - A king takes every ship by force (1: 18:79:13) B003
+  - People ask whether others hold dominion over the heavens, earth, and what lies between (1: 38:10:3) B003
+  - David's kingship is strengthened (1: 38:20:2) B003
+  - Solomon asks for a kingdom no one after him would have (1: 38:35:7) B003
+  - People are offered an everlasting kingdom (1: 20:120:11) B003
+  - People see a great kingdom in the Garden (1: 76:20:6) B003
+  - The angels ascend with the Spirit to God (1: 70:4:2) B009
+  - Angels descend with the Spirit on the Night of Decree (1: 97:4:2) B009
+  - Angels receive those safe from the greatest terror (1: 21:103:6) B009
+  - Criminals see the angels and receive no glad tidings (1: 25:22:3) B009
+  - Angels descend as the sky splits with clouds (1: 25:25:6) B009
+  - Angels are questioned about those who worshipped them (1: 34:40:6) B009
+  - Angels surround the Throne and glorify God (1: 39:75:2) B009
+  - Angels glorify God and ask forgiveness for people on earth (1: 42:5:6) B009
+  - Angels are made successors on earth (1: 43:60:5) B009
+  - Hell's inmates call Malik and ask him to seek an end for them (1: 43:77:2) none
+  - Angels intercede in heaven only after God gives permission (1: 53:26:3) B009
+  - The saved sit near a mighty Sovereign (1: 54:55:5) B003
+  - Angels stand at the edges of the sky while eight carry the Throne (1: 69:17:1) B009
+  - People cannot address the Merciful (1: 78:37:8) B002
+  - Those called upon cannot remove harm or change it (1: 17:56:8) B002
+  - People would hold back if they owned the treasuries of their Lord's mercy (1: 17:100:4) B002
+  - People say they did not break the promise by their own control (1: 20:87:5) B002
+  - A messenger angel would be sent from heaven to angelic inhabitants of earth (1: 17:95:13) B009
+  - Angels walking at ease on earth in a hypothetical case (1: 17:95:6) B009
+  - People demand that God and the angels come before them visibly (1: 17:92:11) B009
+  - Those who own livestock are named as its owners (1: 36:71:12) B002
+  - Women who seek contracts with those their right hands possess (1: 24:33:15) B002
+  - The idols do not control death, life, or resurrection (1: 25:3:17) B002
+  - God and the angels send blessings upon the Prophet (1: 33:56:3) B009
+  - Angels descend upon those who say their Lord is God and remain upright (1: 41:30:10) B009
+- branches never the plain sense in any occurrence: B001 güçlü ve tutarlı biçimde bir arada durma; B004 evlilik akdi kurma; B005 işi ayakta tutan temel dayanak; B006 yolun veya yerin orta ya da ana kesimi; B007 işleri ve yaşamı sürdüren su kaynağı; B008 hayvanlarda önden gidip yön veren unsur
+
+### ي و م — يَوْمِ (405 occurrences, 35 groups)
+- ▶ here (1:4:2): **People ask about or name the Day of Recompense and the Day of Decision** — 20 occurrences; plain sense B003 büyük olayın yaşandığı çetin gün veya olay
+  - forms: يَوْم N ×19; يَوْم T ×1
+  - also: 37:20:4, 37:21:2, 38:16:7, 44:40:2, 51:12:3, 75:6:3, 77:12:2, 77:13:1, 77:14:4, 77:38:2, 78:17:2, 82:17:4, 82:18:5, 83:5:1 (+5)
+- its other groups:
+  - Wrongdoers are disgraced, denied rescue, or punished on the final day (92: 2:85:39, 2:174:23, 3:77:21, 3:180:21 (+88)) B003
+  - The trumpet sounds, the heavens and earth change, and people emerge (31: 6:73:7, 6:73:15, 6:158:15, 18:47:1 (+27)) B003
+  - People believe in the Last Day or are described as not believing in it (30: 2:8:7, 2:62:11, 2:126:17, 2:177:14 (+26)) B003
+  - People face their deeds, records, scales, and accounting before God (25: 2:48:2, 2:123:2, 2:281:2, 3:30:1 (+21)) B003
+  - God gathers people, and all come before Him on the appointed day (23: 3:9:5, 3:25:4, 4:87:8, 6:12:15 (+19)) B003
+  - Believers receive gardens, safety, forgiveness, or reward on that day (23: 2:212:13, 3:185:8, 3:194:9, 5:119:4 (+19)) B003
+  - People or events continue until resurrection or an appointed time (16: 3:55:20, 7:51:14, 7:167:7, 9:77:6 (+12)) B003
+  - Prophets warn their people of punishment on a severe day (14: 6:15:8, 7:59:19, 10:15:38, 11:3:24 (+10)) B003
+  - God judges between communities and disputants on the appointed day (12: 2:113:26, 4:109:12, 4:141:28, 10:93:19 (+8)) B003
+  - Communities face destruction, storms, or a hard day (11: 10:102:5, 11:43:11, 11:65:7, 11:77:12 (+7)) B003
+  - Days mark creation and the ordering of the heavens and earth (11: 7:54:10, 9:36:12, 10:3:10, 11:7:8 (+7)) B001
+  - People speak of ordinary present days and what happens on them (11: 5:3:31, 5:3:40, 5:5:1, 12:54:11 (+7)) B001
+  - God gathers idolaters and questions them about their partners and worship (10: 6:22:1, 10:28:1, 25:17:1, 27:83:1 (+6)) B003
+  - Counted days are assigned to fasting, Hajj rites, or a short abstention (10: 2:80:6, 2:184:1, 2:184:12, 2:185:26 (+6)) B001
+  - Armies meet in battle, and believers face their opponents (7: 2:249:40, 3:155:5, 3:166:3, 8:41:24 (+3)) B003
+  - People estimate that their sleep or stay lasted a day or part of one (7: 2:259:28, 2:259:31, 18:19:12, 18:19:15 (+3)) B001
+  - People describe spans, changing days, or a day measured in years (7: 3:140:10, 22:47:8, 28:71:10, 28:72:10 (+3)) B002
+  - Messengers and witnesses are asked or testify when people are gathered (6: 4:159:10, 5:109:1, 6:130:13, 16:84:1 (+2)) B003
+  - No kin, wealth, or friend can provide help or ransom (6: 2:254:11, 14:31:16, 31:33:6, 44:41:1 (+2)) B003
+  - Named days mark Sabbath, pilgrimage, a festival, or Friday prayer (6: 7:163:15, 7:163:18, 9:3:7, 20:59:3 (+2)) B001
+  - John and Jesus are spoken of on the days of birth, death, and resurrection (6: 19:15:3, 19:15:5, 19:15:7, 19:33:3 (+2)) B001
+  - Iblis asks to be delayed until people are raised (3: 7:14:4, 15:36:5, 38:79:5) B003
+  - People travel or stay in their homes by day (3: 16:80:14, 16:80:16, 34:18:16) B001
+  - Bodies testify to people’s deeds, and secrets are exposed (2: 24:24:1, 36:65:1) B003
+  - Believers tell disbelievers they remained until the Resurrection and that it has come (2: 30:56:12, 30:56:15) B003
+  - People remember God’s days of mercy and punishment (2: 14:5:13, 45:14:8) B004
+  - Sorcerers gather for a contest, and one group seeks to prevail (2: 20:64:8, 26:38:4) B001
+  - People give their due on the day of harvest (1: 6:141:24) B001
+  - A stormy day scatters the ashes in the comparison (1: 14:18:11) B001
+  - A day of hunger is named as a time to feed someone (1: 90:14:4) B001
+  - A mosque is founded upon piety from the first day (1: 9:108:11) B001
+  - The she-camel and the people have a drinking turn on a known day (1: 26:155:8) B001
+  - People are warned against claiming heedlessness on the Day of Resurrection (1: 7:172:20) B003
+  - Men fear a day when hearts and eyes turn (1: 24:37:15) B003
+- branches never the plain sense in any occurrence: B005 bağlamda işaret edilen o gün veya o sırada
+
+### Disputed roots in this ayah (minor analyses)
+
+- 1:4:3 ٱلدِّينِ: minor analysis from د و ن (d-y-n vs d-w-n): B002 değersiz, önemsiz veya aşağı olma — The disputed derivation connects the lemma to lowliness and submission.
+- the dispute (د ي ن or د و ن): The majority derive دين from د ي ن (to owe/submit/judge), covering religion, judgment, debt, and custom. Some philologists connect it to the notion of د و ن (lowness/submission), arguing that religion is fundamentally about submission and abasement before God. Al-Raghib al-Isfahani in al-Mufradat discusses the semantic range. Lane treats it under د ي ن. Semantic difference: reciprocal obligation/judgment vs. submiss…
+- branches of د و ن: B001 yakın, aşağı ya da hedefin gerisinde olma | القرب دون الغاية; B002 değersiz, önemsiz veya aşağı olma | الخسة والحقارة; B003 başkası ya da daha aşağıda olan | السوى والغير; B004 buyur, bunu al | الإغراء بالتناول; B005 kayıt defteri ve kayıtları düzenleme | تدوين الدواوين; B006 zayıflamak (aktarımı tartışmalı) | الضعف

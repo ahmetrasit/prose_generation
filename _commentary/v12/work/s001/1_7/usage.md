@@ -1,0 +1,400 @@
+# usage.md — how the Quran uses the roots of 1:7 (root dossiers: each root's occurrences grouped by what the ayat say, with the dictionary branch of the plain reading; a concordance, not an interpretation)
+
+Made by script: the occurrence lists, ids, counts and forms; the branch lines are the dictionary's. Made by a model and checked by script only for structure, so possibly wrong: the groups, their labels, each group's branch, the exceptions and the minor-analysis notes, and what follows from them (the ▶ group, the branches never the plain sense). Group size says nothing: a context may be split over several groups.
+
+
+### غ ض ب — ٱلْمَغْضُوبِ (24 occurrences, 17 groups)
+- ▶ here (1:7:6): **Those upon whom anger is incurred in the prayer for the straight path** — 1 occurrence; plain sense B001 şiddetli öfke ve öç alma yönelimi
+  - forms: مَغْضُوب N PASS ×1
+- its other groups:
+  - Moses returns to his people angry over the calf, and later his anger subsides (3: 7:150:6, 7:154:5, 20:86:5) B001
+  - People who disbelieve God's signs and kill prophets incur His anger (2: 2:61:42, 3:112:15) B001
+  - Those who reject God's revelation out of envy incur wrath upon wrath (2: 2:90:22, 2:90:24) B001
+  - The Israelites face their Lord's anger for taking the calf (2: 7:152:6, 20:86:22) B001
+  - God tells the Israelites that transgressing over their provision brings His anger (2: 20:81:11, 20:81:15) B001
+  - Believers are warned against taking as allies a people God is angry with (2: 58:14:7, 60:13:7) B001
+  - God is angry with the one who intentionally kills a believer (1: 4:93:9) B001
+  - Those whom God curses and is angry with, and makes apes and pigs (1: 5:60:13) B001
+  - Hūd tells his people that impurity and wrath from their Lord have fallen upon them (1: 7:71:8) B001
+  - A fighter who turns his back in battle incurs God's wrath, except when withdrawing or joining a group (1: 8:16:14) B001
+  - God's anger falls on those who embrace disbelief after faith without compulsion (1: 16:106:19) B001
+  - Dhu al-Nūn leaves in anger and calls upon God in the darkness (1: 21:87:5) B001
+  - A wife's fifth testimony that God's anger be upon her if her husband is truthful (1: 24:9:3) B001
+  - Those who dispute about God after the call is answered incur His anger (1: 42:16:15) B001
+  - Those who avoid grave sins forgive when they become angry (1: 42:37:8) B001
+  - God is angry with the hypocrites and polytheists who think evil of Him (1: 48:6:13) B001
+- branches never the plain sense in any occurrence: B002 biri için ya da uğruna öfkelenmek; B003 karşı koyup muhalefet etmek; B004 sert, yığılmış veya yuvarlak kaya; B005 kalın derili ya da çok kızıl; B006 üst göz kapağı çıkıntısı veya göz çevresi şişliği; B007 somurtkan, huysuz; iri yılan; B008 belirli hayvan derileri veya kalkan gibi katlanmış deri
+
+### ص ر ط — صِرَٰطَ (45 occurrences, 34 groups)
+- ▶ here (1:7:1): **The worshippers ask God to guide them to the path of those He favored** — 2 occurrences; plain sense B001 yol, özellikle düz yol
+  - forms: صِرَٰط N ×2
+  - also: 1:6:2
+- its other groups:
+  - God guides whom He wills to a straight path (4: 2:142:20, 2:213:48, 10:25:10, 24:46:10) B001
+  - Jesus tells people to worship God and calls this a straight path (3: 3:51:7, 19:36:7, 43:64:8) B001
+  - People who hold fast to God are guided to a straight path (2: 3:101:16, 4:175:14) B001
+  - God guides Muhammad to a straight path (2: 6:161:6, 48:2:14) B001
+  - God's revelation guides people to the path of the Mighty, the Praiseworthy (2: 14:1:14, 34:6:14) B001
+  - Muhammad is described as being on a straight path (2: 36:4:2, 43:43:7) B001
+  - Muhammad guides to God's straight path after revelation is made a light (2: 42:52:26, 42:53:1) B001
+  - Those addressed would be guided to a straight path if they obeyed the instruction (1: 4:68:2) B001
+  - God guides those who follow His pleasure to a straight path (1: 5:16:17) B001
+  - God leads astray whom He wills and places whom He wills on a straight path (1: 6:39:16) B001
+  - God selects and guides the prophets and their kin to a straight path (1: 6:87:8) B001
+  - God's path is straight, and its signs are detailed for people who remember (1: 6:126:2) B001
+  - People are told to follow God's straight path and not follow other ways (1: 6:153:3) B001
+  - Satan says he will wait for people on God's straight path (1: 7:16:6) B001
+  - Shuʿayb tells Midianites not to sit on roads and threaten or obstruct believers (1: 7:86:4) B001
+  - Hud says his Lord is upon a straight path (1: 11:56:17) B001
+  - After Iblis speaks of misleading people, God names a straight path as being upon Him (1: 15:41:3) B001
+  - In God's parable, the man who commands justice is on a straight path (1: 16:76:28) B001
+  - God chooses and guides Abraham to a straight path (1: 16:121:6) B001
+  - Abraham asks his father to follow him and says he will guide him to a straight path (1: 19:43:12) B001
+  - Muhammad tells people they will learn who follows the upright path and who is guided (1: 20:135:8) B001
+  - Believers are guided to good speech and the path of the Praiseworthy (1: 22:24:8) B001
+  - God guides believers to a straight path after they accept the revelation as truth (1: 22:54:20) B001
+  - The Messenger calls his audience to a straight path (1: 23:73:4) B001
+  - Those who do not believe in the Hereafter turn away from the straight path (1: 23:74:7) B001
+  - God tells Adam's children to worship Him and calls this a straight path (1: 36:61:4) B001
+  - If God blotted people's eyes, they would race along the path without seeing (1: 36:66:7) B001
+  - Wrongdoers and what they worship besides God are led to the path of Hell (1: 37:23:6) B001
+  - God guides Moses and Aaron to the straight path (1: 37:118:2) B001
+  - Two disputants ask David to guide them to the middle of the path (1: 38:22:23) B001
+  - The audience is told to follow the speaker, and this is called a straight path (1: 43:61:9) B001
+  - God guides the believers to a straight path after promising them booty (1: 48:20:17) B001
+  - A person walking upright on a straight path is compared with one walking face-down (1: 67:22:11) B001
+- branches never the plain sense in any occurrence: B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak; B003 vuruşta kesip ilerleyen kılıç
+
+### ن ع م — أَنْعَمْتَ (140 occurrences, 85 groups)
+- ▶ here (1:7:3): **Those whom God favored, including prophets, the truthful, martyrs, and righteous** — 3 occurrences; plain sense B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik
+  - forms: أَنْعَمَ V IV PERF ×3
+  - also: 4:69:8, 19:58:3
+- its other groups:
+  - Believers and the God-conscious are in gardens of bliss (9: 5:65:12, 9:21:9, 10:9:15, 22:56:12 (+5)) B001
+  - God tells the Children of Israel to remember the favor He bestowed on them (6: 2:40:4, 2:40:6, 2:47:4, 2:47:6 (+2)) B001
+  - God provides livestock for warmth, carrying, grazing, riding, and food (5: 6:142:2, 16:5:1, 20:54:3, 40:79:5 (+1)) B005
+  - The reward for believers and workers is praised (4: 3:136:13, 18:31:25, 29:58:15, 39:74:14) B003
+  - People impose food, riding, and gender restrictions on livestock (4: 6:138:3, 6:138:12, 6:138:15, 6:139:6) B005
+  - God is praised as the excellent patron and helper (4: 8:40:7, 8:40:9, 22:78:41, 22:78:43) B003
+  - Solomon and a man reaching maturity ask to thank God for favors to them and their parents (4: 27:19:10, 27:19:12, 46:15:26, 46:15:28) B001
+  - A person receives ease after hardship and responds with pride or forgetfulness (3: 11:10:3, 39:8:12, 39:49:9) B001
+  - God's favor keeps people from punishment or being cast out (3: 37:57:2, 54:35:1, 68:49:4) B001
+  - Those who exchange God's favor face punishment (2: 2:211:11, 14:28:6) B001
+  - God joins former enemies as brothers and rescues them from the Fire (2: 3:103:8, 3:103:18) B001
+  - Livestock are made lawful for believers, except what is specified (2: 5:1:9, 22:30:13) B005
+  - Moses tells the Children of Israel to recall God's gifts and their rescue from Pharaoh (2: 5:20:7, 14:6:6) B001
+  - People who do not hear or understand are compared with livestock (2: 7:179:24, 25:44:11) B005
+  - God does not change a favor bestowed on a people until they change themselves (2: 8:53:7, 8:53:8) B001
+  - Plants from rain feed people and livestock (2: 10:24:16, 32:27:14) B005
+  - The abode of the patient and the God-conscious is praised as good (2: 13:24:5, 16:30:18) B003
+  - People cannot enumerate God's favors (2: 14:34:8, 16:18:3) B001
+  - People receive milk and other benefits from livestock (2: 16:66:4, 23:21:4) B005
+  - A person turns away when God bestows favor, then calls upon Him in hardship (2: 17:83:2, 41:51:2) B001
+  - People at rites invoke God's name over livestock provided to them (2: 22:28:15, 22:34:13) B005
+  - God's favor carries ships at sea and riders on their mounts (2: 31:31:8, 43:13:6) B001
+  - God and Muhammad had both bestowed favor on Zayd (2: 33:37:4, 33:37:7) B001
+  - Solomon and Job are each called an excellent servant who turns to God (2: 38:30:4, 38:44:11) B003
+  - God creates pairs among people and livestock and forms descendants through them (2: 39:6:12, 42:11:10) B005
+  - People of affluence among the deniers are mentioned (2: 44:27:1, 73:11:4) B002
+  - The Prophet is called neither a soothsayer nor mad by his Lord's favor (2: 52:29:4, 68:2:3) B001
+  - The earth's produce provides for people and their livestock (2: 79:33:3, 80:32:3) B005
+  - The righteous are in bliss (2: 82:13:4, 83:22:4) B001
+  - God completes His favor as people turn toward the Sacred Mosque (1: 2:150:28) B001
+  - Divorcing husbands are told to remember God's favor and what He revealed (1: 2:231:27) B001
+  - Open charity is commended, while concealed charity given to the poor is better (1: 2:271:4) B003
+  - Livestock are among the possessions people desire in worldly life (1: 3:14:15) B005
+  - The slain rejoice in favor and bounty from God (1: 3:171:2) B001
+  - Believers threatened by an assembled force say God is an excellent trustee (1: 3:173:16) B003
+  - Believers return with favor and bounty, unharmed (1: 3:174:2) B001
+  - God's commands to return trusts and judge fairly are praised (1: 4:58:18) B003
+  - A man says God favored him by keeping him away from the fighting (1: 4:72:10) B001
+  - Satan orders people to cut the ears of livestock (1: 4:119:6) B005
+  - God completes His favor and declares the religion perfected (1: 5:3:46) B001
+  - God completes His favor through purification and the provision for dry ablution (1: 5:6:58) B001
+  - Believers are told to remember God's favor and their covenant to hear and obey (1: 5:7:2) B001
+  - Believers are told to remember how God restrained those who reached toward them (1: 5:11:5) B001
+  - Two men favored by God tell their people to enter the gate (1: 5:23:6) B001
+  - Livestock provide compensation for game killed while in consecration (1: 5:95:18) B005
+  - Jesus is told to remember God's favors to him and his mother (1: 5:110:8) B001
+  - People assign shares of crops and livestock to God and their partners (1: 6:136:7) B005
+  - God completes His favor upon Joseph and Jacob's family (1: 12:6:9) B001
+  - Every favor people have comes from God (1: 16:53:4) B001
+  - People are asked whether they deny God's favor in the distribution of provision (1: 16:71:20) B001
+  - People deny God's favor after receiving spouses, children, and good provisions (1: 16:72:18) B001
+  - Livestock skins provide portable homes and materials for furnishings (1: 16:80:11) B005
+  - God completes His favor through shade, shelters, garments, and protection (1: 16:81:22) B001
+  - People recognize God's favor and then deny it (1: 16:83:2) B001
+  - A secure town disbelieves in God's favors and suffers hunger and fear (1: 16:112:15) B001
+  - People are told to eat God's lawful provision and give thanks for His favor (1: 16:114:8) B001
+  - Abraham is described as grateful for God's favors and guided by Him (1: 16:121:2) B001
+  - Water revives a dead land and provides drink for livestock and many people (1: 25:49:8) B005
+  - Pharaoh asks whether Israelite enslavement is the favor Moses raises against him (1: 26:22:2) B001
+  - Abraham asks to be among the heirs of the Garden of Bliss (1: 26:85:5) B001
+  - Hūd recalls the cattle and sons supplied to ʿĀd (1: 26:133:2) B005
+  - Moses says he will not support criminals because of God's favor upon him (1: 28:17:4) B001
+  - People deny God's favor of security at the Sacred Sanctuary as others are seized around them (1: 29:67:13) B001
+  - God subjects the heavens and earth and bestows manifest and hidden favors (1: 31:20:15) B001
+  - Believers are told to remember God's favor when armies came against them (1: 33:9:5) B001
+  - People are told to remember God's favor as He provides from heaven and earth (1: 35:3:4) B001
+  - Livestock are among the creatures of varied colors (1: 35:28:4) B005
+  - People own livestock created for them (1: 36:71:9) B005
+  - God says He is the best responder to Noah's call (1: 37:75:4) B003
+  - Jesus is described as a servant favored by God and made an example for Israel (1: 43:59:5) B001
+  - Disbelievers enjoy life and eat as livestock eat (1: 47:12:19) B005
+  - God completes His favor upon Muhammad and guides him (1: 48:2:11) B001
+  - Faith is made beloved to believers as favor and bounty from God (1: 49:8:4) B001
+  - God spreads out the earth and is praised as an excellent spreader (1: 51:48:3) B003
+  - The person brought near receives rest, fragrance, and a Garden of Bliss (1: 56:89:4) B001
+  - People ask whether each person among them expects entry into a Garden of Bliss (1: 70:38:8) B001
+  - The scene in the Garden includes bliss and a great kingdom (1: 76:20:5) B001
+  - God determines and is praised as an excellent determiner (1: 77:23:2) B003
+  - The freshness of bliss is visible on the righteous' faces (1: 83:24:5) B001
+  - Faces that Day are soft and pleasant (1: 88:8:3) B002
+  - A person given wealth and ease says that his Lord honored him (1: 89:15:8) B002
+  - The righteous giver has no one's favor to repay (1: 92:19:5) B001
+  - Muhammad is told to speak of his Lord's favor (1: 93:11:2) B001
+  - People are questioned about the comforts they enjoyed (1: 102:8:5) B001
+- branches never the plain sense in any occurrence: B004 evet diyerek onaylamak veya söz vermek; B006 devekuşu; B007 devekuşuna benzetilerek ad verilen şeyler; B008 bir topluluğun dağılıp gücünü yitirmesi; B009 yumuşak esen nemli güney rüzgarı; B010 daha da artırmak veya ileri dereceye götürmek; B011 bir yeri kendine uygun bulup orada kalmak; B012 birine yaya gitmek ve ayakları yürüyerek kullanmak; B013 birini göz sevinci saymak veya bunun için dua etmek
+
+### غ ي ر — غَيْرِ (154 occurrences, 100 groups)
+- ▶ here (1:7:5): **The prayed-for path of those favored, apart from those under anger and those astray** — 1 occurrence; plain sense B005 başka olma, dışta bırakma veya olumsuzlama
+  - forms: غَيْر N ×1
+- its other groups:
+  - Messengers tell their peoples to worship Allah because they have no other deity (9: 7:59:14, 7:65:13, 7:73:13, 7:85:13 (+5)) B005
+  - People kill prophets without right (5: 2:61:53, 3:21:8, 3:112:29, 3:181:17 (+1)) B005
+  - Meat dedicated to someone other than Allah is prohibited (4: 2:173:11, 5:3:9, 6:145:27, 16:115:10) B005
+  - A compelled eater is excused when not seeking transgression or exceeding bounds (4: 2:173:15, 5:3:55, 6:145:32, 16:115:15) B005
+  - Allah provides whomever He wills without account (4: 2:212:19, 3:27:20, 3:37:33, 24:38:13) B005
+  - People mislead others without knowledge (4: 6:119:24, 6:144:33, 16:25:10, 31:6:11) B005
+  - People behave arrogantly in the land without right (4: 7:146:8, 28:39:6, 41:15:6, 46:20:23) B005
+  - Allah does not change a people's condition until they change what is within themselves (4: 8:53:6, 8:53:12, 13:11:15, 13:11:19) B003
+  - The Prophet and righteous believers are promised a reward that is not cut off (4: 41:8:8, 68:3:4, 84:25:8, 95:6:8) B005
+  - Men enter marriage chaste, without fornication or taking lovers (3: 4:24:20, 4:25:30, 5:5:28) B005
+  - A people who turn away are replaced by another people (3: 9:39:8, 11:57:12, 47:38:25) B005
+  - Moses' hand comes out white without harm as a sign (3: 20:22:8, 27:12:8, 28:32:8) B005
+  - People debate Allah without knowledge, guidance, or a clear scripture (3: 22:3:7, 22:8:7, 31:20:24) B005
+  - People change the words they were told to say (2: 2:59:5, 7:162:6) B005
+  - People seek a religion other than God's or Islam (2: 3:83:1, 3:85:3) B005
+  - The Prophet is told to leave mockers until they discuss something else (2: 4:140:22, 6:68:13) B005
+  - Killing a person without a life for a life or corruption is challenged and forbidden (2: 5:32:12, 18:74:11) B005
+  - Plants' fruits are described as similar and not similar (2: 6:99:31, 6:141:15) B005
+  - Pharaoh threatens Moses over another god and claims none exists for his people (2: 26:29:5, 28:38:10) B005
+  - A public notice says the hearers cannot thwart Allah (2: 9:2:8, 9:3:25) B005
+  - People wrong others and transgress on earth without right (2: 10:23:8, 42:42:10) B005
+  - The heavens are raised and created without visible pillars (2: 13:2:5, 31:10:3) B005
+  - Men's relations with wives and those they possess leave them not blameworthy (2: 23:6:9, 70:30:9) B005
+  - People are asked which deity besides Allah can bring daylight in endless night or night in endless day (2: 28:71:14, 28:72:14) B005
+  - People follow their desires without knowledge or guidance from Allah (2: 28:50:14, 30:29:6) B005
+  - People dispute God's signs without authority given to them (2: 40:35:6, 40:56:7) B005
+  - A divorced woman may remarry her former husband after marrying another husband (1: 2:230:11) B005
+  - Widows are provided for a year without being driven from their homes (1: 2:240:11) B005
+  - Some people at Uhud think wrongly of Allah and say they had no choice (1: 3:154:18) B005
+  - An inheritance will is made without harming the heirs (1: 4:12:81) B005
+  - Jews distort words and say, “Hear, without being heard” (1: 4:46:12) B005
+  - The skins of those who reject God's signs are replaced as they burn (1: 4:56:13) B005
+  - A group plans words other than what the Prophet says (1: 4:81:10) B005
+  - The Qur'an would contain much inconsistency if it came from someone other than Allah (1: 4:82:8) B005
+  - Believers who sit out from fighting are excepted if they have a disability (1: 4:95:6) B005
+  - A person follows a path other than that of the believers (1: 4:115:11) B005
+  - Satan commands people to change God's creation (1: 4:119:8) B003
+  - Livestock is lawful, without hunting being permitted during consecration (1: 5:1:14) B005
+  - The People of the Book are told not to exceed the truth in their religion (1: 5:77:8) B005
+  - Two witnesses from outside the travelers' group are called when death approaches (1: 5:106:19) B005
+  - The Prophet asks whether to take a protector other than Allah (1: 6:14:2) B005
+  - People are asked whether they call on anyone other than Allah in calamity (1: 6:40:10) B005
+  - The question asks which deity besides Allah can restore hearing and sight (1: 6:46:13) B005
+  - The dying are condemned for saying about Allah what is other than the truth (1: 6:93:44) B005
+  - People assign jinn as partners to Allah and fabricate children for Him without knowledge (1: 6:100:10) B005
+  - Believers are told not to insult others' gods, lest they insult Allah without knowledge (1: 6:108:11) B005
+  - The Prophet asks whether he should seek a judge other than Allah (1: 6:114:1) B005
+  - Some people kill their children and forbid God's provision without knowledge (1: 6:140:7) B005
+  - God creates trellised and untrellised gardens (1: 6:141:6) B005
+  - The Prophet asks whether to seek a lord other than Allah, Lord of all things (1: 6:164:2) B005
+  - God forbids wrongdoing and aggression without right (1: 7:33:13) B005
+  - People in the Hereafter ask to return and do deeds other than before (1: 7:53:27) B005
+  - Moses asks whether to seek another deity for the Israelites (1: 7:140:2) B005
+  - The addressed people wish the unarmed party were theirs (1: 8:7:10) B005
+  - People demand a Qur'an other than the one recited to them (1: 10:15:13) B005
+  - God tells Noah his son's deed was not righteous (1: 11:46:9) B005
+  - Salih tells his people they increase him only in loss if he disobeys Allah (1: 11:63:21) B005
+  - Thamūd receives a three-day promise that will not be false (1: 11:65:10) B005
+  - Abraham is told that the punishment coming to them cannot be turned back (1: 11:76:13) B005
+  - The gods people invoked besides Allah added only ruin when His command came (1: 11:101:23) B005
+  - The blessed receive a gift in Paradise that is not cut off (1: 11:108:17) B005
+  - Those people receive their share without reduction (1: 11:109:19) B005
+  - Palm trees watered by one water are described as clustered and separate (1: 13:4:11) B005
+  - Abraham says he settled descendants in a valley without cultivation near the Sacred House (1: 14:37:7) B005
+  - The earth is changed for another earth when people stand before Allah (1: 14:48:4) B005
+  - Those invoked besides Allah are dead, not alive (1: 16:21:2) B005
+  - People are asked whether they fear anyone other than Allah (1: 16:52:9) B005
+  - People pressure the Prophet to invent a revelation other than what was sent to him (1: 17:73:10) B005
+  - Embryos in the womb are described as formed and not formed (1: 22:5:23) B005
+  - Worshippers are told to turn to Allah without associating partners with Him (1: 22:31:3) B005
+  - People expelled from their homes for saying 'Our Lord is Allah' had no right to be expelled (1: 22:40:5) B005
+  - Believers are told not to enter houses other than their own without permission (1: 24:27:7) B005
+  - There is no blame in entering uninhabited houses that contain something useful (1: 24:29:7) B005
+  - Women may show adornment to male attendants who have no sexual desire (1: 24:31:50) B005
+  - Older women may lay aside their garments without displaying adornment (1: 24:60:14) B005
+  - Criminals at the Resurrection swear they remained no more than an hour (1: 30:55:8) B005
+  - Guests at the Prophet's house are told not to linger waiting for the meal (1: 33:53:14) B005
+  - Those who hurt believing men and women without cause carry slander and clear sin (1: 33:58:5) B005
+  - People are asked whether any creator besides Allah provides from heaven and earth (1: 35:3:10) B005
+  - People in Hell ask to return and do righteous acts other than before (1: 35:37:8) B005
+  - Solomon is told to give or withhold this gift without account (1: 38:39:6) B005
+  - Patient people receive their reward without account (1: 39:10:20) B005
+  - The Arabic Qur'an is described as having no crookedness (1: 39:28:3) B005
+  - The Prophet asks why he should worship anything other than Allah (1: 39:64:2) B005
+  - Believers who do good enter Paradise and are provided without account (1: 40:40:22) B005
+  - Disbelievers in Hell are told their torment follows rejoicing in the land without right (1: 40:75:7) B005
+  - The rivers in Paradise include water that is not stale (1: 47:15:10) B005
+  - The taste of Paradise's milk does not change (1: 47:15:16) B003
+  - Unknown believers might be harmed by Muslims advancing on Mecca without their knowledge (1: 48:25:25) B005
+  - Paradise is brought near to the God-fearing, not far away (1: 50:31:4) B005
+  - The messengers find only one household of Muslims in the town targeted with stones (1: 51:36:4) B005
+  - People are asked whether they were created without anything or whether they are creators (1: 52:35:4) B005
+  - People are asked whether they have any deity other than Allah (1: 52:43:4) B005
+  - Onlookers are challenged to return the soul if they are not to be requited (1: 56:86:4) B005
+  - The righteous are not secure from their Lord's punishment (1: 70:28:4) B005
+  - The Day is not easy for the disbelievers (1: 74:10:3) B005
+  - Raiders charge at dawn (1: 100:3:1) none
+  - The hoopoe stays briefly, then speaks (1: 27:22:2) B005
+  - A person brought up in adornment is not clear in dispute (1: 43:18:8) B005
+- branches never the plain sense in any occurrence: B001 yarar sağlayıp durumunu iyileştirme; B002 cana karşılık ceza yerine kabul edilen kan bedeli; B004 eşini veya ailesini kıskanarak koruma duygusu
+
+### ض ل ل — ٱلضَّآلِّينَ (191 occurrences, 133 groups)
+- ▶ here (1:7:9): **Those asked for guidance are distinguished from those who went astray** — 1 occurrence; plain sense B001 doğru yoldan ve amaçtan sapma ya da başkasını saptırma
+  - forms: ضَآلّ N ACT ×1
+- its other groups:
+  - Those God leads astray have no guide, way, or protector (13: 4:88:14, 4:88:17, 4:143:11, 7:186:2 (+9)) B001
+  - What people claimed or invoked disappears from them when they are judged (10: 6:24:6, 6:94:25, 7:37:30, 7:53:34 (+6)) B002
+  - Each person’s guidance or straying concerns that person, while the Messenger warns (9: 10:108:15, 10:108:17, 17:15:7, 17:15:9 (+5)) B001
+  - God leads whom He wills astray and guides whom He wills (5: 13:27:13, 14:4:10, 16:93:8, 35:8:10 (+1)) B001
+  - God knows best who strays from His path and who is guided (4: 6:117:6, 16:125:17, 53:30:10, 68:7:6) B001
+  - Earlier people went astray, led many astray, and left the straight path (3: 5:77:15, 5:77:18, 5:77:20) B001
+  - People choose misguidance instead of guidance (2: 2:16:4, 2:175:4) B001
+  - God’s parable leads many astray and guides many (2: 2:26:29, 2:26:36) B001
+  - A group from the People of the Book wants to lead believers astray, but misleads itself (2: 3:69:7, 3:69:9) B001
+  - People were in clear error before a Messenger was sent among them (2: 3:164:24, 62:2:20) B001
+  - People given part of the Scripture buy misguidance and want others off the path (2: 4:44:10, 4:44:13) B001
+  - Satan wants to lead astray those seeking judgment from the Ṭāghūt (2: 4:60:28, 4:60:29) B001
+  - A group plots to lead the Messenger astray but misleads only itself (2: 4:113:10, 4:113:12) B001
+  - Those who associate partners with God have gone far astray (2: 4:116:18, 4:116:19) B001
+  - Those who disbelieve in God and the Last Day have gone far astray (2: 4:136:26, 4:136:27) B001
+  - Those who disbelieve and bar others from God’s way have gone far astray (2: 4:167:9, 4:167:10) B001
+  - Abraham tells his father and people that their idol worship is clear error (2: 6:74:13, 21:54:7) B001
+  - People who do not hear or understand are more astray than livestock (2: 7:179:27, 25:44:14) B001
+  - The supplication of disbelievers is in error (2: 13:14:27, 40:50:16) B001
+  - People set up rivals to lead others away from God’s path (2: 14:30:4, 39:8:24) B001
+  - People strike examples for the Messenger, then stray and find no way (2: 17:48:6, 25:9:6) B001
+  - Worshippers are asked whether the deities they served led them astray (2: 25:17:10, 25:17:15) B001
+  - The Messenger cannot guide the blind away from their error (2: 27:81:6, 30:53:6) B001
+  - Whoever disobeys God and His Messenger has gone far astray (2: 33:36:22, 33:36:23) B001
+  - God makes the deeds of disbelievers fruitless (2: 47:1:7, 47:8:5) B003
+  - Noah says his people have led many astray and asks that wrongdoers increase in error (2: 71:24:2, 71:24:8) B001
+  - One woman may forget a detail while two women witness a debt (1: 2:282:67) B004
+  - People at the Sacred Monument had been among those who went astray (1: 2:198:26) B001
+  - People who disbelieve after faith and increase in disbelief are called astray (1: 3:90:14) B001
+  - Satan promises to lead people astray and command them to alter creation (1: 4:119:1) B001
+  - God explains inheritance so people will not go astray (1: 4:176:46) B001
+  - A person who disbelieves after God’s covenant has gone astray (1: 5:12:43) B001
+  - Those described as worse in place are also more astray from the path (1: 5:60:24) B001
+  - The straying of others does not harm those who are guided (1: 5:105:9) B001
+  - Those who reject God’s signs are left astray in darkness (1: 6:39:11) B001
+  - The Messenger says he would go astray if he followed others’ desires (1: 6:56:16) B001
+  - Abraham asks for guidance after seeing the moon set (1: 6:77:18) B001
+  - Most people on earth would lead the Messenger away from God’s path (1: 6:116:7) B001
+  - Many people lead others astray through desires without knowledge (1: 6:119:22) B001
+  - God leads a person astray and makes his chest tight (1: 6:125:12) B001
+  - Those who kill their children and forbid provision have gone astray (1: 6:140:17) B001
+  - A person fabricates a lie about God to lead people astray (1: 6:144:31) B001
+  - A group takes the satans as allies while thinking it is guided (1: 7:30:6) B001
+  - A later people in Hell say an earlier people led them astray (1: 7:38:29) B001
+  - The chiefs of Noah’s people say he is in clear error (1: 7:60:8) B001
+  - Noah says he is not in error but a Messenger (1: 7:61:5) B001
+  - The calf worshippers realize they have gone astray (1: 7:149:8) B001
+  - Moses says God’s trial leads some astray and guides others (1: 7:155:27) B001
+  - Those God leads astray are among the losers (1: 7:178:7) B001
+  - The postponement of a sacred month leads disbelievers astray (1: 9:37:6) B001
+  - God does not lead a people astray after guiding them before clarifying what to avoid (1: 9:115:4) B001
+  - After the truth, there is only error (1: 10:32:9) B001
+  - Moses says Pharaoh and his chiefs lead people away from God’s path (1: 10:88:14) B001
+  - Joseph’s brothers say their father is in clear error (1: 12:8:14) B001
+  - Women in the city say the wife of al-ʿAzīz is in clear error (1: 12:30:17) B001
+  - Joseph’s brothers tell their father he remains in his old error (1: 12:95:5) B001
+  - Those who prefer worldly life and bar God’s path are in far error (1: 14:3:15) B001
+  - The deeds of disbelievers are like windblown ashes, the far error (1: 14:18:21) B001
+  - God leads the wrongdoers astray (1: 14:27:12) B001
+  - Abraham says the idols have led many people astray (1: 14:36:3) B001
+  - Only those who go astray despair of their Lord’s mercy (1: 15:56:8) B001
+  - People who lead others astray add their followers’ burdens (1: 16:25:9) B001
+  - Messengers call nations to worship God; some are guided and some go astray (1: 16:36:20) B001
+  - At sea, those called upon besides God disappear, except Him (1: 17:67:6) B002
+  - The person blind in this life is more astray in the Hereafter (1: 17:72:10) B001
+  - God does not take misleaders as support (1: 18:51:12) B001
+  - Some people’s efforts in worldly life are lost while they think they do good (1: 18:104:2) B003
+  - Wrongdoers are in clear error today (1: 19:38:10) B001
+  - Those in error are given respite until they see what they were promised (1: 19:75:5) B001
+  - Moses says his Lord’s knowledge is recorded and He does not err (1: 20:52:8) B001
+  - Pharaoh led his people astray and did not guide them (1: 20:79:1) B001
+  - The Sāmirī led Moses’s people astray (1: 20:85:8) B001
+  - Aaron is asked why he let the people go astray (1: 20:92:7) B001
+  - Whoever follows God’s guidance will not go astray or suffer (1: 20:123:16) B001
+  - The devil leads his ally astray and guides him to the punishment of the Blaze (1: 22:4:7) B001
+  - An arrogant disputant turns aside to lead people from God’s path (1: 22:9:3) B001
+  - Calling on others besides God is the far error (1: 22:12:13) B001
+  - People in Hell say their misery overcame them and they were astray (1: 23:106:8) B001
+  - A man says Satan led him away from the Reminder (1: 25:29:2) B001
+  - Those brought to Hell on their faces are more astray in the way (1: 25:34:10) B001
+  - People say the Messenger nearly led them away from their gods (1: 25:42:3) B001
+  - After seeing the punishment, people will know who is more astray (1: 25:42:16) B001
+  - Moses says he acted when he was among those astray (1: 26:20:6) B001
+  - Abraham asks forgiveness for his father, who was among those astray (1: 26:86:6) B001
+  - People in Hell say they were in clear error (1: 26:97:5) B001
+  - People in Hell say the criminals led them astray (1: 26:99:2) B001
+  - Moses calls Satan a clear enemy who leads people astray (1: 28:15:37) B001
+  - No one is more astray than one who follows desire without God’s guidance (1: 28:50:10) B001
+  - One person has guidance while another is in clear error (1: 28:85:18) B001
+  - God leads astray those who follow their desires unjustly and without knowledge (1: 30:29:11) B001
+  - A person buys idle talk to lead others away from God’s path (1: 31:6:7) B001
+  - Wrongdoers are in clear error about creation (1: 31:11:13) B001
+  - Disbelievers ask whether they will be recreated after being lost in the earth (1: 32:10:3) B002
+  - Followers say their leaders led them away from the path (1: 33:67:7) B001
+  - Those who disbelieve in the Hereafter are in punishment and far error (1: 34:8:15) B001
+  - People dispute whether one side is guided or in clear error (1: 34:24:16) B001
+  - A believer says worshipping other gods would put him in clear error (1: 36:24:4) B001
+  - Disbelievers tell believers who urge them to give that they are in error (1: 36:47:23) B001
+  - Satan led many people astray (1: 36:62:2) B001
+  - People find their forefathers astray (1: 37:69:4) B001
+  - Most of the earlier generations went astray (1: 37:71:2) B001
+  - David is warned that following desire would lead him from God’s path (1: 38:26:14) B001
+  - Those who stray from God’s path face severe punishment (1: 38:26:20) B001
+  - People whose hearts are hardened against God’s remembrance are in clear error (1: 39:22:19) B001
+  - No one can lead astray a person whom God guides (1: 39:37:7) B001
+  - The plot of the disbelievers is in error (1: 40:25:19) B001
+  - God leads an extravagant doubter astray after the coming of Joseph (1: 40:34:25) B001
+  - God leads the disbelievers astray (1: 40:74:15) B001
+  - Disbelievers ask to see those from jinn and humans who led them astray (1: 41:29:7) B001
+  - No one is more astray than one in far schism who disbelieves (1: 41:52:12) B001
+  - Those who dispute about the Hour are in far error (1: 42:18:21) B001
+  - The deaf, the blind, and those in clear error are mentioned together (1: 43:40:10) B001
+  - God leads astray the person who takes his desire as his god (1: 45:23:6) B001
+  - No one is more astray than those who call on gods that do not answer (1: 46:5:2) B001
+  - Deities taken as offerings fail to help the people who worship them (1: 46:28:11) B002
+  - Those who do not answer God’s caller are in clear error (1: 46:32:17) B001
+  - God does not let the deeds of those killed in His way go to waste (1: 47:4:37) B003
+  - A companion says a man was in far error (1: 50:27:9) B001
+  - The Messenger’s companion neither went astray nor erred (1: 53:2:2) B001
+  - Thamūd say following one man would put them in error and madness (1: 54:24:9) B001
+  - The criminals are in error and fire (1: 54:47:4) B001
+  - The astray deniers are addressed before eating from the tree of Zaqqūm (1: 56:51:4) B001
+  - A dying person among the deniers is among the astray (1: 56:92:6) B001
+  - A believer who secretly allies with God’s enemies has gone astray from the path (1: 60:1:46) B001
+  - People in Hell say the warners told them they were in great error (1: 67:9:17) B001
+  - Believers say opponents will learn who is in clear error (1: 67:29:12) B001
+  - Garden owners think they have lost their way when they see the ruined garden (1: 68:26:5) B003
+  - Noah fears his people will lead God’s servants astray (1: 71:27:4) B001
+  - Disbelievers call the believers astray when they see them (1: 83:32:6) B001
+  - God found the Messenger astray and guided him (1: 93:7:2) B001
+  - God made the people of the elephant’s plot fruitless (1: 105:2:5) B003
+  - Whoever substitutes disbelief for faith has strayed from the level path (1: 2:108:16) B001
+- branches never the plain sense in any occurrence: B005 sahibi bilinmeyen kayıp hayvan, özellikle deve

@@ -1,4 +1,4 @@
-# neighbours.md — every branch of the other roots of 1:1–6 (the focus roots are in 01_dictionary.md)
+# neighbours.md — every branch of the other roots of 1:1–7 (the focus roots are in 01_dictionary.md)
 
 One line per branch: Bnnn | gloss | Arabic image | first classical source phrase.
 `~alt` = a cited alternative analysis of the word; `~echo` = a sound-family root (not the word's root).
@@ -60,33 +60,6 @@ Cite a branch as `root Bnnn`, e.g. `ر ب ب B007`; its Arabic may be quoted wit
 - B006 doğan veya atmaca türü yırtıcı kuş | طائر جارح يسمى العلام | العلام الصقر
 - B007 erkek sırtlan | ذكر الضباع يسمى العيلام | العيلام الذكر من الضباع (sihah)
 
-### م ل ك — 1:4 w1 مَٰلِكِ
-- B001 güçlü ve tutarlı biçimde bir arada durma | قوة الشيء وتماسكه | أصل صحيح يدل على قوة في الشيء وصحة (maqayis)
-- B002 sahiplik ve tasarruf yetkisi | المِلْك والتصرف | ملك الإنسان الشيء يملكه ملكا (maqayis)
-- B003 hükümdarlık ve kamusal egemenlik | المُلك والسلطان | والاسم الملك لأن يده فيه قوية صحيحة (maqayis)
-- B004 evlilik akdi kurma | الإملاك والتزويج | كنا في إملاك فلان أي أملكناه امرأته (maqayis)
-- B005 işi ayakta tutan temel dayanak | مِلاك الأمر وعِماده | ملاك الأمر ما يعتمد عليه (ayn)
-- B006 yolun veya yerin orta ya da ana kesimi | مَلَك الطريق والوادي | ملك الطريق أيضا وسطه (sihah)
-- B007 işleri ve yaşamı sürdüren su kaynağı | الماء مَلَك الأمر | والملك الماء يكون مع المسافر لأنه إذا كان معه ملك أمره (maqayis)
-- B008 hayvanlarda önden gidip yön veren unsur | المتقدم القائد في الحيوان | مليك النحل يعسوبها (sihah)
-- B009 ilahi haberci varlık | المَلَك من الملائكة | الملك واحد الملائكة إنما هو تخفيف الملأك والأصل مألك (ayn)
-
-### ي و م — 1:4 w2 يَوْمِ
-- B001 güneşin doğuşundan batışına kadarki gün | وقت النهار المحدود | اليوم: الواحد من الأيام (maqayis)
-- B002 herhangi bir zaman dilimi; bağlama göre devir | مدة من الزمان | مدة من الزمان أي مدة كانت (mufradat)
-- B003 büyük olayın yaşandığı çetin gün veya olay | كائنة اليوم وشدته | يستعيرونه في الأمر العظيم ويقولون نعم فلان في اليوم إذا نزل (maqayis)
-- B004 Tanrı'nın nimet ve ibret verici işleriyle anılan günler | أيام النعم والوقائع الإلهية | وذكرهم بأيام الله: بما نزل بعاد وثمود وغيرهم من العذاب، وبالعفو عن آخرين (tahdhib)
-- B005 bağlamda işaret edilen o gün veya o sırada | يوم مضاف إلى إذ | يركب يوم مع إذ، فيقال: يومئذ
-
-### د ي ن — 1:4 w3 ٱلدِّينِ
-- B001 boyun eğerek uyma ve buna dayalı inanç düzeni | الطاعة والانقياد | أصل واحد إليه يرجع فروعه كلها وهو جنس من الانقياد والذل (maqayis)
-- B002 yargılayıp hesap görerek karşılığını verme | الحساب والجزاء | يوم الدين أي يوم الحكم والحساب والجزاء (maqayis)
-- B003 borç alıp verme ve vadeli ödeme ilişkisi | الدين المالي | الدين وداينت فلانا إذا عاملته دينا إما أخذا وإما إعطاء (maqayis)
-- B004 zorla alçaltıp egemenliği altına alma | الإذلال والملك | العبد مدين كأنهما أذلهما العمل ويا دين قلبك أي أذل (maqayis)
-- B005 alışılmış davranış ve öteden beri bilinen hal | العادة والشأن | العادة يقال لها دين (maqayis)
-- B006 kent | مدينة الطاعة | المدينة كأنها مفعلة سميت بذلك لأنها تقام فيها طاعة ذوي الأمر (maqayis)
-- B007 kişiyi sözüne ve vicdani sorumluluğuna göre değerlendirme | التصديق والتفويض | دينت الرجل تديينا إذا وكلته إلى دينه (sihah)
-
 ### ع ب د — 1:5 w2 نَعْبُدُ
 - B001 özgür olmayan, sahip olunan kişi | الرق والملك | العبد وهو المملوك (maqayis)
 - B002 Tanrı'ya ait sayılan insan veya topluluk | الانتساب إلى الله عبدا | تفرقة ما بين عباد الله والعبيد المملوكين (maqayis)
@@ -124,6 +97,11 @@ Cite a branch as `root Bnnn`, e.g. `ر ب ب B007`; its Arabic may be quoted wit
 - B010 sakin, ölçülü ve düzgün ilerleyiş | هدي السكون وحسن الهيئة | الهدي السكون
 - B011 övgü veya yergi şiiri sunma ve şiirle yergileşme | إهداء الشعر ومهاداته | الإهداء أن تهدي إلى إنسان مديحا أو هجاء شعرا (ayn)
 
+### ص ر ط — 1:6 w2 ٱلصِّرَٰطَ; 1:7 w1 صِرَٰطَ
+- B001 yol, özellikle düz yol | الطريق المستقيم | الصراط والسراط والزراط: الطريق (sihah)
+- B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak | الغيبة في المرور والبلع | أصل صحيح واحد يدل على غيبة في مر وذهاب
+- B003 vuruşta kesip ilerleyen kılıç | السيف القاطع الماضي في الضربة | والسراط السيف القاطع الماضي في الضريبة (maqayis 1774)
+
 ### ق و م — 1:6 w3 ٱلْمُسْتَقِيمَ
 - B001 erkekler topluluğu ve yakın çevresi | جماعة الناس والرجال | القوم الرجال دون النساء
 - B002 ayağa kalkma ve dik durma | انتصاب وقيام بالبدن | القومة ما بين الركعتين من القيام
@@ -146,6 +124,45 @@ Cite a branch as `root Bnnn`, e.g. `ر ب ب B007`; its Arabic may be quoted wit
 - B019 bir beden bölümünün kişiye ağrı vermesi | وجع قائم بالعضو | قام بي ظهري أي أوجعني
 - B020 koyunun bacaklarını tutan hastalık | قوام في قوائم الشاة | القوام داء يأخذ الشاة في قوائمها تقوم منه (sihah)
 - B021 göz bebeği sağlamken görme yetisinin kaybolması | عين قائمة ذاهبة البصر | عين قائمة ذهب بصرها والحدقة صحيحة (ayn)
+
+### ن ع م — 1:7 w3 أَنْعَمْتَ
+- B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik | حسن الحال والنعمة | أصل واحد يدل على ترفه وطيب عيش وصلاح (maqayis)
+- B002 yumuşamak, rahat yaşamak veya rahat yaşatmak | اللين والنعومة ورفاه العيش | نعم الشيء صار ناعما لينا (sihah)
+- B003 övgü ve beğeni bildirmek | مدح الشيء بنعم | نعم ضد بئس (maqayis)
+- B004 evet diyerek onaylamak veya söz vermek | الجواب بنعم والتصديق | نعم جواب الواجب ضد لا (maqayis)
+- B005 develer ve geniş anlamda otlayan evcil hayvanlar | مال الأنعام والإبل | النعم الإبل لما فيه من الخير والنعمة والأنعام البهائم (maqayis)
+- B006 devekuşu | النعام والنعامة الطائر | النعامة معروفة لنعمة ريشها (maqayis)
+- B007 devekuşuna benzetilerek ad verilen şeyler | ما سمي نعامة تشبيها بالهيئة | على معنى التشبيه النعامة وهي كالظلة تجعل على رءوس الجبل (maqayis)
+- B008 bir topluluğun dağılıp gücünü yitirmesi | طيران النعامة وتفرق القوم | شالت نعامتهم إذا تفرقوا (maqayis)
+- B009 yumuşak esen nemli güney rüzgarı | النعامى ريح لينة | النعامي الريح اللينة (maqayis)
+- B010 daha da artırmak veya ileri dereceye götürmek | زاد وأنعم في الفعل | فعل كذا وأنعم أي زاد (sihah
+- B011 bir yeri kendine uygun bulup orada kalmak | موافقة المكان وطيب المقام | أتيت أرض بني فلان فتنعمتني إذا وافقته (maqayis)
+- B012 birine yaya gitmek ve ayakları yürüyerek kullanmak | المشي على القدم وابتذالها | تنعمت زيدا طلبته كأنه أراد أعمل إليه نعامته وهي باطن قدمه (maqayis)
+- B013 birini göz sevinci saymak veya bunun için dua etmek | نعم الله بك عينا وقرة العين | نعم ونعمى عين ونعمة عين أي قرة عين (maqayis)
+
+### غ ي ر — 1:7 w5 غَيْرِ
+- B001 yarar sağlayıp durumunu iyileştirme | الصلاح والمنفعة بالميرة والسقي والإصلاح | الغِيرة بالكسر: الميرة (sihah)
+- B002 cana karşılık ceza yerine kabul edilen kan bedeli | الغَيْر في الدية | غارني الرجل إذا وداك من الدية والاسم الغِيرة (sihah)
+- B003 biçimini değiştirme veya yerine başkasını koyma | تغيير الصورة أو إبدال الشيء بغيره | الاسم من قولك غيرت الشيء فتغير (sihah)
+- B004 eşini veya ailesini kıskanarak koruma duygusu | الغَيْرة على الأهل | الغَيرة بالفتح مصدر قولك غار الرجل على أهله (sihah)
+- B005 başka olma, dışta bırakma veya olumsuzlama | السوى والخلاف والاستثناء والنفي | هذا الشيء غير ذاك أي هو سواه وخلافه (maqayis)
+
+### غ ض ب — 1:7 w6 ٱلْمَغْضُوبِ
+- B001 şiddetli öfke ve öç alma yönelimi | اشتداد السخط وثورانه للانتقام | الغضب لأنه اشتداد السخط (maqayis)
+- B002 biri için ya da uğruna öfkelenmek | الغضب لشخص حي أو به بعد موته | غضبت لفلان إذا كان حيا وغضبت به إذا كان ميتا (maqayis
+- B003 karşı koyup muhalefet etmek | المراغمة والمخالفة | غاضبه: راغمه
+- B004 sert, yığılmış veya yuvarlak kaya | صلابة الصخرة وتماسكها | الغضبة الصخرة الصلبة (maqayis)
+- B005 kalın derili ya da çok kızıl | غلظ الجسم وشدة الحمرة | رجل غضاب إذا كان غليظ الجلد
+- B006 üst göz kapağı çıkıntısı veya göz çevresi şişliği | تورم العين وما حولها | الغضب بخصة في الجفن الأعلى خلقة (ayn)
+- B007 somurtkan, huysuz; iri yılan | العبوس والضجر والعظم في وصف الحيوان أو الشخص | الغضوب الحية العظيمة (maqayis)
+- B008 belirli hayvan derileri veya kalkan gibi katlanmış deri | جلد صلب أو مطوي كدرقة | الغضبة جلد المسن من الوعول حين يسلخ (ayn)
+
+### ض ل ل — 1:7 w9 ٱلضَّآلِّينَ
+- B001 doğru yoldan ve amaçtan sapma ya da başkasını saptırma | الضلال عن الهدى والقصد | كل جائر عن القصد ضال
+- B002 gizlenerek, karışıp eriyerek veya gömülerek gözden yitme | الغيبوبة والخفاء | أضل الميت إذا دفن
+- B003 bir şeyi yitirme veya yerini bulamama; özel olarak kanın karşılıksız kalması | فقدان الشيء | أضللت بعيري إذا ذهب منك
+- B004 bir şeyi unutmak veya bellekte tutamamak | ضياع الحفظ | ضللت الشيء أنسيته (jamhara)
+- B005 sahibi bilinmeyen kayıp hayvan, özellikle deve | الضالّة في المضيعة | الضالة من الإبل ما يبقى بمضيعة لا يعرف ربها الذكر والأنثى فيه سواء (ayn)
 
 ### و س م ~alt — 1:1 w1 بِسْمِ
 - B001 tanıtıcı fiziksel iz koyma, iz ve araç | أثر وسم ظاهر يجعل الشيء معروفا | ووسمت الشيء وسما: أثرت فيه بسمة (maqayis

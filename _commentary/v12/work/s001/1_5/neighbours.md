@@ -1,4 +1,4 @@
-# neighbours.md — every branch of the other roots of 1:1–6 (the focus roots are in 01_dictionary.md)
+# neighbours.md — every branch of the other roots of 1:1–7 (the focus roots are in 01_dictionary.md)
 
 One line per branch: Bnnn | gloss | Arabic image | first classical source phrase.
 `~alt` = a cited alternative analysis of the word; `~echo` = a sound-family root (not the word's root).
@@ -87,30 +87,6 @@ Cite a branch as `root Bnnn`, e.g. `ر ب ب B007`; its Arabic may be quoted wit
 - B006 kent | مدينة الطاعة | المدينة كأنها مفعلة سميت بذلك لأنها تقام فيها طاعة ذوي الأمر (maqayis)
 - B007 kişiyi sözüne ve vicdani sorumluluğuna göre değerlendirme | التصديق والتفويض | دينت الرجل تديينا إذا وكلته إلى دينه (sihah)
 
-### ع ب د — 1:5 w2 نَعْبُدُ
-- B001 özgür olmayan, sahip olunan kişi | الرق والملك | العبد وهو المملوك (maqayis)
-- B002 Tanrı'ya ait sayılan insan veya topluluk | الانتساب إلى الله عبدا | تفرقة ما بين عباد الله والعبيد المملوكين (maqayis)
-- B003 boyun eğerek itaat ve tapınma | العبادة والطاعة الخاضعة | عبد يعبد عبادة فلا يقال إلا لمن يعبد الله (maqayis
-- B004 köleleştirmek veya köle gibi boyunduruk altına almak | التعبيد والاستعباد | استعبدت فلانا اتخذته عبدا (maqayis
-- B005 düzleşmiş yol, katranlanmış deve veya kaplanmış gemi | التذليل والتسوية | الطريق المعبد وهو المسلوك المذلل (maqayis)
-- B006 saygı gösterilip hizmet edilen kişi | التكريم والتعظيم | المعبد المكرم والمعظم كأنه يعبد (jamhara)
-- B007 güç, sağlamlık ve dayanıklılık | القوة والصلابة | العبدة وهي القوة والصلابة (maqayis)
-- B008 incinmiş gurur, öfke veya kederli iç duygulanım | الأنفة والغضب | العبد مثل الأنف والحمية (maqayis)
-- B009 gecikmeden yapmak veya koşuda biraz hızlanmak | قلة اللبث وسرعة العدو | ما عبد أن فعل ذاك أي ما لبث (sihah
-- B010 her yana dağılmış kümeler, nesneler veya yollar | التفرق في الوجوه | العباديد الفرق من الناس الذاهبون في كل وجه وكذلك العبابيد (sihah)
-- B011 bineği yüzünden yolda kalma veya güçlükle direnen deve | العطب والانقطاع | أعبد بفلان بمعنى أبدع به إذا كلت راحلته أو عطبت (sihah)
-- B012 güzel koku maddesi ezme taşı | صَلاءة الطيب | العبدة صلاءة الطيب (jamhara)
-
-### ع و ن — 1:5 w4 نَسْتَعِينُ
-- B001 yardım, destek ve dayanışma | الإعانة والمظاهرة | كل شيء استعنت به أو أعانك فهو عونك (ayn)
-- B002 yaşça orta evrede olan | العَوان بين السنين | العوان البقرة النصف في سنها ويقال للمرأة النصف عوان (ayn)
-- B003 yinelenmiş veya öncülü olan savaş | الحرب العَوان | الحرب العوان التي كانت قبلها حرب بكر (ayn)
-- B004 yaşlı hurma ağacı | النخلة العَوانة القديمة | وقيل العوانة للنخلة القديمة (mufradat)
-- B005 bedensel denge ve güç olgunluğu | استواء الخلقة وتلاحق القوة | المتعاونة من النساء التي طعنت في السن ولا تكون إلا مع كثرة اللحم (sihah)
-- B006 yaban eşeği sürüsü | العانة قطيع الحمر | العانة القطيع من حمر الوحش وتجمع على عانات وعون (ayn)
-- B007 erkekte kasık kılları | عانة الرجل | عانة الرجل إسبه من الشعر على فرجه وتصغيره عوينة (ayn)
-- B008 bir yer adı ve o yere bağlanan şarap adı | النسبة إلى عانة | عانات موضع من ناحية الجزيرة تنسب إليه الخمر العانية (ayn)
-
 ### ه د ي — 1:6 w1 ٱهْدِنَا
 - B001 doğru yolu gösterme ve doğruya yönelme | دلالة بلطف إلى الطريق والحق | الهدى نقيض الضلالة
 - B002 yön, izlenen yol ve tutum | جهة الأمر وسيرته وقصده | خذ في هديتك أي فيما كنت فيه من الحديث أو العمل ولا تعدل عنه
@@ -123,6 +99,11 @@ Cite a branch as `root Bnnn`, e.g. `ر ب ب B007`; its Arabic may be quoted wit
 - B009 bön, güçsüz ve ağır kimse | الهداء البليد الضعيف | الهداء الرجل البليد الضعيف (ayn)
 - B010 sakin, ölçülü ve düzgün ilerleyiş | هدي السكون وحسن الهيئة | الهدي السكون
 - B011 övgü veya yergi şiiri sunma ve şiirle yergileşme | إهداء الشعر ومهاداته | الإهداء أن تهدي إلى إنسان مديحا أو هجاء شعرا (ayn)
+
+### ص ر ط — 1:6 w2 ٱلصِّرَٰطَ; 1:7 w1 صِرَٰطَ
+- B001 yol, özellikle düz yol | الطريق المستقيم | الصراط والسراط والزراط: الطريق (sihah)
+- B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak | الغيبة في المرور والبلع | أصل صحيح واحد يدل على غيبة في مر وذهاب
+- B003 vuruşta kesip ilerleyen kılıç | السيف القاطع الماضي في الضربة | والسراط السيف القاطع الماضي في الضريبة (maqayis 1774)
 
 ### ق و م — 1:6 w3 ٱلْمُسْتَقِيمَ
 - B001 erkekler topluluğu ve yakın çevresi | جماعة الناس والرجال | القوم الرجال دون النساء
@@ -146,6 +127,45 @@ Cite a branch as `root Bnnn`, e.g. `ر ب ب B007`; its Arabic may be quoted wit
 - B019 bir beden bölümünün kişiye ağrı vermesi | وجع قائم بالعضو | قام بي ظهري أي أوجعني
 - B020 koyunun bacaklarını tutan hastalık | قوام في قوائم الشاة | القوام داء يأخذ الشاة في قوائمها تقوم منه (sihah)
 - B021 göz bebeği sağlamken görme yetisinin kaybolması | عين قائمة ذاهبة البصر | عين قائمة ذهب بصرها والحدقة صحيحة (ayn)
+
+### ن ع م — 1:7 w3 أَنْعَمْتَ
+- B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik | حسن الحال والنعمة | أصل واحد يدل على ترفه وطيب عيش وصلاح (maqayis)
+- B002 yumuşamak, rahat yaşamak veya rahat yaşatmak | اللين والنعومة ورفاه العيش | نعم الشيء صار ناعما لينا (sihah)
+- B003 övgü ve beğeni bildirmek | مدح الشيء بنعم | نعم ضد بئس (maqayis)
+- B004 evet diyerek onaylamak veya söz vermek | الجواب بنعم والتصديق | نعم جواب الواجب ضد لا (maqayis)
+- B005 develer ve geniş anlamda otlayan evcil hayvanlar | مال الأنعام والإبل | النعم الإبل لما فيه من الخير والنعمة والأنعام البهائم (maqayis)
+- B006 devekuşu | النعام والنعامة الطائر | النعامة معروفة لنعمة ريشها (maqayis)
+- B007 devekuşuna benzetilerek ad verilen şeyler | ما سمي نعامة تشبيها بالهيئة | على معنى التشبيه النعامة وهي كالظلة تجعل على رءوس الجبل (maqayis)
+- B008 bir topluluğun dağılıp gücünü yitirmesi | طيران النعامة وتفرق القوم | شالت نعامتهم إذا تفرقوا (maqayis)
+- B009 yumuşak esen nemli güney rüzgarı | النعامى ريح لينة | النعامي الريح اللينة (maqayis)
+- B010 daha da artırmak veya ileri dereceye götürmek | زاد وأنعم في الفعل | فعل كذا وأنعم أي زاد (sihah
+- B011 bir yeri kendine uygun bulup orada kalmak | موافقة المكان وطيب المقام | أتيت أرض بني فلان فتنعمتني إذا وافقته (maqayis)
+- B012 birine yaya gitmek ve ayakları yürüyerek kullanmak | المشي على القدم وابتذالها | تنعمت زيدا طلبته كأنه أراد أعمل إليه نعامته وهي باطن قدمه (maqayis)
+- B013 birini göz sevinci saymak veya bunun için dua etmek | نعم الله بك عينا وقرة العين | نعم ونعمى عين ونعمة عين أي قرة عين (maqayis)
+
+### غ ي ر — 1:7 w5 غَيْرِ
+- B001 yarar sağlayıp durumunu iyileştirme | الصلاح والمنفعة بالميرة والسقي والإصلاح | الغِيرة بالكسر: الميرة (sihah)
+- B002 cana karşılık ceza yerine kabul edilen kan bedeli | الغَيْر في الدية | غارني الرجل إذا وداك من الدية والاسم الغِيرة (sihah)
+- B003 biçimini değiştirme veya yerine başkasını koyma | تغيير الصورة أو إبدال الشيء بغيره | الاسم من قولك غيرت الشيء فتغير (sihah)
+- B004 eşini veya ailesini kıskanarak koruma duygusu | الغَيْرة على الأهل | الغَيرة بالفتح مصدر قولك غار الرجل على أهله (sihah)
+- B005 başka olma, dışta bırakma veya olumsuzlama | السوى والخلاف والاستثناء والنفي | هذا الشيء غير ذاك أي هو سواه وخلافه (maqayis)
+
+### غ ض ب — 1:7 w6 ٱلْمَغْضُوبِ
+- B001 şiddetli öfke ve öç alma yönelimi | اشتداد السخط وثورانه للانتقام | الغضب لأنه اشتداد السخط (maqayis)
+- B002 biri için ya da uğruna öfkelenmek | الغضب لشخص حي أو به بعد موته | غضبت لفلان إذا كان حيا وغضبت به إذا كان ميتا (maqayis
+- B003 karşı koyup muhalefet etmek | المراغمة والمخالفة | غاضبه: راغمه
+- B004 sert, yığılmış veya yuvarlak kaya | صلابة الصخرة وتماسكها | الغضبة الصخرة الصلبة (maqayis)
+- B005 kalın derili ya da çok kızıl | غلظ الجسم وشدة الحمرة | رجل غضاب إذا كان غليظ الجلد
+- B006 üst göz kapağı çıkıntısı veya göz çevresi şişliği | تورم العين وما حولها | الغضب بخصة في الجفن الأعلى خلقة (ayn)
+- B007 somurtkan, huysuz; iri yılan | العبوس والضجر والعظم في وصف الحيوان أو الشخص | الغضوب الحية العظيمة (maqayis)
+- B008 belirli hayvan derileri veya kalkan gibi katlanmış deri | جلد صلب أو مطوي كدرقة | الغضبة جلد المسن من الوعول حين يسلخ (ayn)
+
+### ض ل ل — 1:7 w9 ٱلضَّآلِّينَ
+- B001 doğru yoldan ve amaçtan sapma ya da başkasını saptırma | الضلال عن الهدى والقصد | كل جائر عن القصد ضال
+- B002 gizlenerek, karışıp eriyerek veya gömülerek gözden yitme | الغيبوبة والخفاء | أضل الميت إذا دفن
+- B003 bir şeyi yitirme veya yerini bulamama; özel olarak kanın karşılıksız kalması | فقدان الشيء | أضللت بعيري إذا ذهب منك
+- B004 bir şeyi unutmak veya bellekte tutamamak | ضياع الحفظ | ضللت الشيء أنسيته (jamhara)
+- B005 sahibi bilinmeyen kayıp hayvan, özellikle deve | الضالّة في المضيعة | الضالة من الإبل ما يبقى بمضيعة لا يعرف ربها الذكر والأنثى فيه سواء (ayn)
 
 ### و س م ~alt — 1:1 w1 بِسْمِ
 - B001 tanıtıcı fiziksel iz koyma, iz ve araç | أثر وسم ظاهر يجعل الشيء معروفا | ووسمت الشيء وسما: أثرت فيه بسمة (maqayis
