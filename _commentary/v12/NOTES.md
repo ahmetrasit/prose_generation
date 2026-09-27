@@ -1,5 +1,8 @@
 # V12 working notes (handoff)
 
+Start with `HANDOFF.md` (rules, state, decisions, remaining work). This file keeps the status log and the
+known-answer checks — never put it into a model's input.
+
 ## Standing instructions from the user
 - Target: `NORTH_STAR.md`. Every workflow decision is judged against it.
 - The image chains already exist (HFT, channel reviews): never design or run a pass that rediscovers them.
