@@ -160,3 +160,33 @@ acceptable as it stands for 1:6 (below the first run). Next single lever: **atta
 list the staging passages QeQ tagged on the findings that image absorbs (the network line names them), ranked and
 capped at three per job; the flat "evidence" list goes. And demote surplus assemblies to `develop` only when the image
 has three or more of the ayah's words as members (I16 has two at 1:6), else touch. Rescore on 1:6 alone ($2.7).
+
+## v4 (network rerun under the new brief, 19:40)
+
+Arm `out-v4`: step 1 and QeQ from v2; **a new S1 network under the new net.md** ($2.92, 28 images, exactly two
+assemblies per ayah); 1:6 written with roles taken as given (the fixed must-land builder: distinct words, both tags,
+passages per job, axis set) and v3's 1:5 as previous prose. Opus 5.5 high, one part, $1.94.
+
+| file | words | tags | headings | paragraphs (median, max) | catalogue /1000w | anchors I / M / A |
+|---|---|---|---|---|---|---|
+| 1:6 first run | 3,231 | 71 | 6 | 52 (59, 156) | 10.2 | 23 / 4 / 3 |
+| 1:6 v2 | 7,451 | 150 | 0 | 23 (275, 897) | 13.6 | 27 / 3 / 0 |
+| 1:6 v3 | 5,039 | 83 | 7 | 29 (175, 275) | 17.5 | 19 / 8 / 3 |
+| **1:6 v4** | 4,945 | 97 | 7 | 31 (154, 237) | 13.1 | **22 / 7 / 1** |
+| 1:6 Sol (v14) | 4,971 | 27 | 0 | 44 (113, 151) | 7.6 | 23 / 6 / 1 |
+
+Catalogue proxy = root/branch mentions (kök, kökü, kökünde, dalı …) per 1,000 words (the reviewer's measure).
+
+v4 against v3: +3 anchors, catalogue density down from 17.5 to 13.1, no roll-call sentence, the assemblies are
+mechanisms (the road: sign → guide → centreline → surface → self-holding line; the prop: staff, halted mount, dead
+Sulaymān, regained stance), five `(hafızadan)` markers used correctly, Turkish transliteration. Recovered: G021 and the
+gift-return circuit (49:17, 48:2, 7:43, 10:10), 23:74, B010 calm gait, 28:22 (in the marriage scene). Still M: 20:10,
+4:69 rafīq, 6:153, 2:255, the ḥ-m-d and n-ʿ-m land branches; water is `develop` at 1:6 now (the working-part rule took
+effect) and the well-frame, 12:19 and 72:16 are there, still without 1:1–1:4's members.
+
+What the network did with the cap: 1:6 got 2 assemblies and **17 develops** (1:5: 2 / 6). The cap on assemblies pushed
+the surplus into develop, so the writer had 19 jobs and gave most a paragraph: the serial tour the reviewer warned of,
+in shorter units. This is the gap the reviewer named ("nothing selects by payoff when roles are assigned") and the
+next thing to fix in the network brief: a develop is a real step only where the ayah's word is a working part; other
+members are touches. Against the first run v4 is one anchor short and 1,700 words longer; against Sol it is one anchor
+short with 3.6× the checkable tags and headings.
