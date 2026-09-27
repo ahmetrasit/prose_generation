@@ -104,6 +104,9 @@ class Sources:
             for row in csv.DictReader(fh, delimiter="\t"):
                 self.cards[row["node_id"]] = row
                 self.root_name.setdefault(row["source_root_id"], row["surface_root"])
+        from extra_names import extra_root_names  # ids quran-slm does not name (supplemental, Furūq transfers)
+        for rid, name in extra_root_names().items():
+            self.root_name.setdefault(rid, name)
         cat = json.loads((NET / "catalog.json").read_text(encoding="utf-8"))["cards"]
         self.net_ids = [c["node_id"] for c in cat]
         self.net_ix = {k: i for i, k in enumerate(self.net_ids)}

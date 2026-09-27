@@ -66,9 +66,15 @@ rewritten descriptive and stub-tested end to end (grouping → repair → assign
 
 1. The micro run (two arms), in the root-dossier repo.
 2. The go for the S29 probe (estimate ≈ $11; with usage.md on and off, ≈ $22).
-3. Dictionary: root names for the four new Furūq entries in quran-data (root_001959 ب ن و, root_005125 ه ي د,
-   root_005296 و ل ه, root_005544 ح ي و; the names are only in the dictionary repo's furuq root packets), and reviewed
-   word-root records for the words that should reach them. Al-Tahdhīb's variant under ء ل ه is not in quran-data yet.
+3. Dictionary: reviewed word-root records (quran-data `qac-dictionary-word-root-analyses.json`) for the words that
+   should reach the four Furūq roots, which have no QAC occurrence and bind no word in their entries: ٱللَّه and إِلَٰه →
+   و ل ه (root_005296); حَيَوٰة and حَيَوَان → ح ي و (root_005544; the study table catches ḥayy instead); ٱبْن and its
+   plurals → ب ن و (root_001959); whatever should reach ه ي د (root_005125; nothing does now). Both workflows read those
+   records automatically (v12 through V9 `word_roots`: 01_dictionary.md, neighbours.md; root-dossier through
+   `corpus.disputes`). Names now resolve by fallback (`v9/extra_names.py`: gateway, reviewed analyses, the dictionary
+   repo's furuq root packets); a name field in quran-data would remove the dependency on the dictionary repo.
+   Also without Turkish entries, as minor roots of the study table: ع ل ي (73 words), ز ك ي (59), م ن و (21), ر ب ي (18).
+   Al-Tahdhīb's variant under ء ل ه is not in quran-data yet.
 4. The ~20 meaningful study disputes, moved into the reviewed format (named-word rows are kept meanwhile: د ي ن → د و ن
    100 words, ص ل و → ص ل ي 82, ن ب ء → ن ب و 75, س م و → و س م 70, ء ب و → ء ب ي 53 …).
 

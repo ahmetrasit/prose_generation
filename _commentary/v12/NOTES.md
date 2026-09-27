@@ -29,6 +29,12 @@ Known answers are in `eval/` — never put `eval/` or this file into a model's i
   root_005544), but no root names for them (neither in the entries nor in quran-slm's list) and no reviewed word-root
   records pointing at them, so nothing reaches them yet.
 
+- The four Furūq roots: names by fallback in V9 `prepare.py`, V11 `verify_src.py` (tags citing them verify) and
+  root-dossier; root-dossier gives them tier-M dossiers from the study table (و ل ه 2,815 words: ٱللَّه, إِلَٰه; ب ن و 60;
+  ح ي و 36, the wrong lemmas; ه ي د none); usage.md now lists a minor root's branches beside each word's minor analysis
+  (so 29:41's ٱللَّهِ shows و ل ه's four branches); write.md allows quoting usage.md's branch lines. HFT predates the
+  four roots and cannot cite them.
+
 ## Next
 1. Micro run, two arms (the user runs Luna; root-dossier RUNBOOK), then score both.
 2. S29 probe (needs the user's go), usage on and off.

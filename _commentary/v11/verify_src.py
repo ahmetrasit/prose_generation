@@ -44,6 +44,11 @@ class Dictionary:
                 rid, name = row["source_root_id"], row["surface_root"]
                 if rid not in self.by_name[name]:
                     self.by_name[name].append(rid)
+        from extra_names import extra_root_names  # ids quran-slm does not name (supplemental, Furūq transfers)
+        named = {r for rids in self.by_name.values() for r in rids}
+        for rid, name in extra_root_names().items():
+            if rid not in named:
+                self.by_name[name].append(rid)
         self._e: dict[str, dict] = {}
 
     def entry(self, rid: str) -> dict:

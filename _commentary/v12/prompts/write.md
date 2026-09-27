@@ -8,7 +8,8 @@ Everything above this brief is evidence, prepared by scripts and not yet judged:
 - **usage.md** (when present): root dossiers — a concordance of each root of this ayah: all its occurrences in the
   Quran grouped by the context the ayat state (who does what, to whom, where), each group with the dictionary branch
   of its plain reading, its forms and members; this ayah's group marked (▶); the branches never used as the plain
-  sense. It describes and does not interpret: what the patterns mean for this ayah is your work.
+  sense; and, for words with a documented minor root analysis (a disputed derivation), that root's branches. It
+  describes and does not interpret: what the patterns mean for this ayah is your work.
 - **hft.md** (when present): earlier readers' image-chain hypotheses for this ayah, and those of other ayat whose
   chains pass through it; every trace step resolved to its dictionary branch and checked by script.
 - **channels.md** (when present): the surah's image chains as an earlier whole-surah review mapped them, with the
@@ -54,7 +55,8 @@ repetition from an interpretive analogy.
 
 - The Quran itself, from the files and from your own knowledge of the whole Quran: any ayah, its exact wording and
   its reference. Every Quran quotation is checked against the canonical text afterwards, so quote exactly.
-- Dictionary Arabic only from 01_dictionary.md and neighbours.md (copy it exactly, with its source). A lexical claim
+- Dictionary Arabic only from 01_dictionary.md, neighbours.md and the branch lines of usage.md (copy it exactly,
+  with its source). A lexical claim
   you cannot anchor there may go in the ledger marked [recall], not in the reading.
 - Variant readings from the supplied list; a reading you know that is not listed goes in the ledger marked [recall].
 - No invented senses, sources, etymologies or chronology. Do not infer the order of revelation from surah order.
