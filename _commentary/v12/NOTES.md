@@ -74,6 +74,17 @@ Known answers are in `eval/` — never put `eval/` or this file into a model's i
   usage.md for 1:2, 1:5, 1:6, 1:7, then commit root-dossier `out/` + `lists/test10.txt` and write the user one short
   summary (what works, what to fix). If it failed: report, do not rerun.
 
+## 2026-09-27 (night): next dossier run — remaining S1, 29:38-45, 18:83-99 (IN PROGRESS)
+- User's plan (replacing "all of S1, S29, S100"): the remaining roots of S1 without ء ل ه (the user: do not include
+  "Allah"; the whole root is skipped, so إِلَٰه and ٱللَّهُمَّ have no dossier either), then 29:38-45, then 18:83-99, in
+  that order. `root-dossier/lists/next.txt`: 113 roots (14 + 49 + 50; 111 Luna sessions, 1 hapax batch for ر د م,
+  ج ي ء script-only). Started 23:25 with
+  `python3 run.py all --list lists/next.txt --parallel 10 > logs/next.run.log` (pool.map starts roots in list order).
+  Largest packets: ء م ن 378 KB, ع ل م 325 KB, ق و م 255 KB, ء ت ي 237 KB. Expect several hours.
+- Check: `python3 run.py status --list lists/next.txt`; never kill a live `codex exec -m gpt-6-luna` process.
+- When it finishes: failures (report, no rerun), repairs/salvage/residual, lint flags, fragmentation on the big roots;
+  commit root-dossier `out/` + `lists/next.txt`; one short summary to the user.
+
 ## Next
 1. Finish the 10-root test (above): summary to the user; the word-analysis arm only if the user asks.
 2. S29 probe (needs the user's go), usage on and off.
