@@ -138,7 +138,8 @@ def usage_detail(log: Path) -> dict:
             continue
         u = d.get("usage") or {}
         tot["responses"] += 1
-        tot["cost"] = round(tot["cost"] + (d.get("total_cost_usd") or 0), 3)
+        # a resumed session (a call written in parts) reports its running total, so the cost is the last one
+        tot["cost"] = round(max(tot["cost"], d.get("total_cost_usd") or 0), 3)
         tot["minutes"] = round(tot["minutes"] + (d.get("duration_ms") or 0) / 60000, 1)
         tot["cache_write"] += u.get("cache_creation_input_tokens", 0)
         tot["cache_read"] += u.get("cache_read_input_tokens", 0)
