@@ -30,7 +30,11 @@ V13 = Path(__file__).resolve().parent
 sys.path.insert(0, str(V13))
 sys.path.insert(0, str(V13.parent / "v12"))
 import packet as PK  # noqa: E402
-import run as R12  # noqa: E402  (v12: opus, inline, check_text, quran)
+import importlib.util  # noqa: E402
+
+_spec = importlib.util.spec_from_file_location("v12run", V13.parent / "v12" / "run.py")
+R12 = importlib.util.module_from_spec(_spec)  # v12: opus, inline, check_text, quran (loaded by path: v13 has its own run.py)
+_spec.loader.exec_module(R12)
 I = PK.I
 
 OUT = V13 / "out"
