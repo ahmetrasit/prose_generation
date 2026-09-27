@@ -81,7 +81,7 @@ Known answers are in `eval/` — never put `eval/` or this file into a model's i
   43:46 sit in the 209 catch-all). usage.md for 1:2 (PER_ROOT 2000) shows 12 of 35 groups and hides the master /
   arbāb / Pharaoh groups. Dossiers are not authoritative for the writer (user, 2026-09-27).
 
-## 2026-09-27 (night): next dossier run — remaining S1, 29:38-45, 18:83-99 (IN PROGRESS)
+## 2026-09-27 (night): next dossier run — remaining S1, 29:38-45, 18:83-99 (DONE 01:4x)
 - User's plan (replacing "all of S1, S29, S100"): the remaining roots of S1 without ء ل ه (the user: do not include
   "Allah"; the whole root is skipped, so إِلَٰه and ٱللَّهُمَّ have no dossier either), then 29:38-45, then 18:83-99, in
   that order. `root-dossier/lists/next.txt`: 113 roots (14 + 49 + 50; 111 Luna sessions, 1 hapax batch for ر د م,
@@ -122,6 +122,13 @@ Known answers are in `eval/` — never put `eval/` or this file into a model's i
   pages re-rendered by script.
 - Next: the user's read; an Opus judge and the blind read against v11/v5 (`_commentary/v11/eval/s001_anchors.md`)
   only on the user's go.
+
+## 2026-09-27: dossier run next.txt — DONE (113 roots, 23:25-01:4x)
+- 113 done, 0 failed; 54 used their one repair; 9 salvaged (1-5 items: ر س ل 5, ظ ل م 3, others 1); 0 lint.
+  30.3M input tokens (22.0M cached), 3.9M output.
+- Shape: splitting is the common failure (39 roots have more than one group per two uses: ر ح م 202 groups / 339,
+  ج ع ل 252 / 346, ء م ر 140 / 248, ض ل ل 133 / 191 …); the three largest roots go the other way, one catch-all
+  holding most uses (ء م ن 810 / 879, ع ل م 722 / 854, ق و م 383 / 660). Both reach v12 as a map, not a verdict.
 
 ## Next
 1. Finish the 10-root test (above): summary to the user; the word-analysis arm only if the user asks.
