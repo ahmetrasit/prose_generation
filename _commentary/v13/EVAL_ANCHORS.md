@@ -121,3 +121,42 @@ neither; the water system is assembled in neither.
 A write-only arm (new tag, step 1 and QeQ seeded from `out-v2`, network from `out-v2`) is scored against the v2
 column here. A change is accepted only if no anchor drops from I, and the form metrics move toward the first run:
 target ≈ 3,000–4,000 words, headings back, median paragraph under 150 words, no paragraph over 300, tags ≈ 60–90.
+
+## v3 (write-only arm, 18:05) and the v14 Sol candidate for 1:6
+
+v3 = step 1 and QeQ from `out-v2`, network from `out-v2`, the ranked-budget must-land (8 jobs each), the new write
+brief with form targets, four new inputs, written sequentially (1:6 saw the new 1:5). Opus 5.5 high, one part each.
+Sol = `_commentary/v14/out-sol-max/s001/1_6` (gpt-6-sol, effort max, v14 harness, v2's 1:5 as previous prose; no
+cost accounting available). Same scale, same anchors, scored by reading.
+
+| file | words | tags | headings | paragraphs | median ¶ | longest ¶ | cost | anchors I / M / A |
+|---|---|---|---|---|---|---|---|---|
+| 1:5 v3 | 4,249 | 86 | 7 | 25 | 168 | 230 | $2.41 | **16 / 4 / 2** (v2: 19 / 2 / 1; first: 10 / 7 / 5) |
+| 1:6 v3 | 5,039 | 83 | 7 | 29 | 175 | 275 | $2.71 | **19 / 8 / 3** (v2: 27 / 3 / 0; first: 23 / 4 / 3) |
+| 1:6 Sol (v14) | 4,971 | 27 | 0 | 44 | 113 | 151 | unknown | **23 / 6 / 1** |
+
+Form: v3 hits every target (headings back, no paragraph over 275 words, tags in range) at 55–70% of v2's cost, and
+progressive disclosure worked: 1:6 refers back to 1:5's trodden road, herd, ship and breakdown scene in clauses instead
+of retelling them. Sol has the best paragraphing but no headings and only 27 checkable tags in 5K words (most passages
+are cited by reference only, so the verifier sees a fifth of the claims).
+
+Recall: **v3 regressed against v2**, mildly on 1:5 and clearly on 1:6.
+
+- 1:5 v3, dropped from I: G029 prayer standing (A), HFT help-as-gift (M), HFT provision-against-debt (A), HFT
+  watchful eye (M). Everything else held, including all eight v11 items and 3:79.
+- 1:6 v3, dropped from I: G021 gift ↔ benefaction (M: hadiyya and bride are there, the 49:17 / anʿamta link is not),
+  v11-5 traveller uses 28:22 and 20:10 (A), v11-6 4:69 rafīq (M), v11-7 23:74 (M), 49:17 (A), gift-return circuit
+  (M), B010 calm bearing (A), 2:255 (M). Gained: G014 stays I, 17:97 I.
+- Sol 1:6 keeps G021, the gift-return circuit, 4:68–69, B010 and 49:17 that v3 lost, but loses 17:97 and 20:10.
+
+Where the losses come from, by reading the inputs: (a) the passages QeQ tagged `staging` are no longer obligations,
+and the writer skipped exactly the traveller-guidance stagings (28:22, 20:10, 6:71, 23:74) and 4:69; (b) the two
+images demoted from `assemble` to touch for 1:6 (I15 bride, I16 gift/offering) carried G021 and the gift-return
+circuit; the writer gave them one paragraph without the anʿamta link; (c) the smaller HFT items of 1:5 (watching eye,
+present provision) sit in the ʿayn echo, which the brief's payoff rule now rightly treats as a clause.
+
+So the ranked budget bought form at the price of recall: −3 to −4 anchors on 1:5, −8 on 1:6. The trade is not
+acceptable as it stands for 1:6 (below the first run). Next single lever: **attach passages to jobs**. For each job,
+list the staging passages QeQ tagged on the findings that image absorbs (the network line names them), ranked and
+capped at three per job; the flat "evidence" list goes. And demote surplus assemblies to `develop` only when the image
+has three or more of the ayah's words as members (I16 has two at 1:6), else touch. Rescore on 1:6 alone ($2.7).
