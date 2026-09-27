@@ -1,0 +1,242 @@
+# hft.md — the earlier readers' image-chain hypotheses for this window (compact, checked by script)
+
+One record per line group: focus ayah, name, confidence, the changed reading, then the trace (ayah, word,
+root Bnnn — the branch is in branch_table.md; [!] = the script found a problem: no such branch, or an echo /
+alternative root). The ayah ledgers' Chains lines judge these records ayah by ayah.
+
+- **1:1 baseline_operative_designation** (baseline model, strong) — A portable operation that places the next act under the raised divine designation and makes mercy its governing manner.
+  - trace: 1:1 بِسْمِ س م و B005; 1:1 ٱللَّهِ ء ل ه B002; 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001
+- **1:1 baseline_legible_mercy_mark** (baseline model, medium) — Marking the act so that its divine affiliation becomes legible as mercy in the act's effects.
+  - trace: 1:1 بِسْمِ و س م B001 [!]; 1:1 بِسْمِ و س م B002 [!]; 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001
+- **1:1 baseline_generative_enclosure** (baseline model, medium) — A beginning inside a protected, kin-like, generative enclosure constituted by the divine name.
+  - trace: 1:1 بِسْمِ س م و B004; 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B003; 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B002
+- **1:1 delta_1_2_cultivated_public_proof** (context delta, strong) — The formula makes a testable claim: cultivation, repair, and praiseworthy completion should render that merciful affiliation publicly legible.
+  - trace: 1:1 بِسْمِ و س م B002 [!]; 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001; 1:2 ٱلْحَمْدُ ح م د B002; 1:2 رَبِّ ر ب ب B002; 1:2 ٱلْعَٰلَمِينَ ع ل م B002
+- **1:1 delta_1_2_rain_womb_cultivation** (context delta, exploratory) — Beginning as a rain-like, womb-like cultivation event in which the divine designation leaves a living mark by causing emergence.
+  - trace: 1:1 بِسْمِ س م و B004; 1:1 بِسْمِ و س م B003 [!]; 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B003; 1:2 رَبِّ ر ب ب B008; 1:2 رَبِّ ر ب و B005 [!]
+- **1:1 delta_1_3_mercy_as_recurring_field** (context delta, medium) — The doubled mercy root establishes a recurring generative and sustaining field that the following discourse re-enters.
+  - trace: 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B003; 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001; 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B003; 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001
+- **1:1 delta_1_4_accountable_mercy** (context delta, strong) — Mercy is the governing mode of an owned and consequential history that terminates in account, not an exemption from that history.
+  - trace: 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001; 1:4 مَٰلِكِ م ل ك B002; 1:4 مَٰلِكِ م ل ك B003; 1:4 يَوْمِ ي و م B003; 1:4 ٱلدِّينِ د ي ن B002
+- **1:1 delta_1_4_account_bearing_seal** (context delta, exploratory) — An account-bearing seal that attributes the act, its use, and its eventual liability to the named sovereign.
+  - trace: 1:1 بِسْمِ س م و B005; 1:1 بِسْمِ و س م B001 [!]; 1:4 مَٰلِكِ م ل ك B001; 1:4 مَٰلِكِ م ل ك B002; 1:4 ٱلدِّينِ د ي ن B003
+- **1:1 delta_1_5_yielded_and_enabled_agency** (context delta, strong) — The speaker acts through a circuit of agency yielded in worship and returned as enabling aid from the named one.
+  - trace: 1:1 بِسْمِ س م و B005; 1:1 ٱللَّهِ ء ل ه B001; 1:5 نَعْبُدُ ع ب د B003; 1:5 نَسْتَعِينُ ع و ن B001
+- **1:1 delta_1_5_attentive_custody** (context delta, exploratory) — Mercy places the act in an attentive custody where being watched, preserved, and formed is itself the aid.
+  - trace: 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B003; 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001; 1:5 نَسْتَعِينُ ع ي ن B003 [!]
+- **1:1 delta_1_6_name_as_wayfinding_heading** (context delta, strong) — The name remains ahead of the act as a readable heading, gently correcting its direction throughout the journey.
+  - trace: 1:1 بِسْمِ و س م B002 [!]; 1:1 بِسْمِ س م م B011 [!]; 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001; 1:6 ٱهْدِنَا ه د ي B001; 1:6 ٱلصِّرَٰطَ ص ر ط B001; 1:6 ٱلْمُسْتَقِيمَ ق و م B008
+- **1:1 delta_1_6_guidance_as_relational_gift** (context delta, medium) — The merciful name opens a kin-like relation in which guidance arrives as a gift that actively preserves the travelers' alignment.
+  - trace: 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B002; 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001; 1:6 ٱهْدِنَا ه د ي B004; 1:6 ٱلْمُسْتَقِيمَ ق و م B004
+- **1:1 delta_1_7_discriminating_mercy_boundary** (context delta, strong) — Mercy is an encompassing but discriminating trajectory whose mark appears as benefaction and whose boundary excludes wrathful opposition and loss of aim.
+  - trace: 1:1 بِسْمِ و س م B001 [!]; 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001; 1:7 صِرَٰطَ ص ر ط B001; 1:7 أَنْعَمْتَ ن ع م B001; 1:7 غَيْرِ غ ي ر B005; 1:7 ٱلْمَغْضُوبِ غ ض ب B001; 1:7 ٱلضَّآلِّينَ ض ل ل B001
+- **1:1 delta_1_7_mercy_as_plastic_reformation** (context delta, exploratory) — Mercy keeps the subject formable, softening resistant hardness so that direction and character can be re-formed toward balance.
+  - trace: 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001; 1:6 ٱلْمُسْتَقِيمَ ق و م B008; 1:7 أَنْعَمْتَ ن ع م B002; 1:7 غَيْرِ غ ي ر B003; 1:7 ٱلْمَغْضُوبِ غ ض ب B004
+- **1:1 outlier_narrow_swallowing_gate** (surprising valid outlier, exploratory) — The formula is a narrow merciful gate: the action passes into the divine aim and is absorbed into that way rather than retaining self-authored independence.
+  - trace: 1:1 بِسْمِ س م م B001 [!]; 1:1 بِسْمِ س م م B011 [!]; 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001; 1:6 ٱلصِّرَٰطَ ص ر ط B002
+- **1:1 outlier_guiding_lullaby** (surprising valid outlier, exploratory) — Their paired cadence also settles the reader into a held, receptive composure from which guidance can be received.
+  - trace: 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B003; 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001; 1:6 ٱهْدِنَا ه د د B006 [!]; 1:6 ٱهْدِنَا ه د ي B010
+- **1:1 outlier_anti_loss_recovery_mark** (surprising valid outlier, medium) — The divine name also acts as a recoverable identity-and-direction mark that keeps the act from disappearing into loss or unreadability.
+  - trace: 1:1 بِسْمِ و س م B001 [!]; 1:1 بِسْمِ و س م B002 [!]; 1:6 ٱلْمُسْتَقِيمَ ق و م B004; 1:7 ٱلضَّآلِّينَ ض ل ل B002; 1:7 ٱلضَّآلِّينَ ض ل ل B003; 1:7 ٱلضَّآلِّينَ ض ل ل B004
+- **1:1 outlier_interior_reconciliation** (surprising valid outlier, exploratory) — The formula admits a kin-making mercy into the interior of difference, where it can reconnect separated parties without pretending the separation never existed.
+  - trace: 1:1 بِسْمِ س م م B003 [!]; 1:1 بِسْمِ س م م B005 [!]; 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B002; 1:7 غَيْرِ غ ي ر B005
+- **1:2 b1_praise_as_tested_verdict** (baseline model, strong) — A considered verdict that the worshipped Lord proves praiseworthy across the full scope of lordship.
+  - trace: 1:2 ٱلْحَمْدُ ح م د B001; 1:2 ٱلْحَمْدُ ح م د B002; 1:2 لِلَّهِ ء ل ه B001; 1:2 رَبِّ ر ب ب B001
+- **1:2 b2_stagewise_world_cultivation** (baseline model, medium) — The Lord continually raises, repairs, differentiates, and completes many developing worlds.
+  - trace: 1:2 رَبِّ ر ب ب B002; 1:2 رَبِّ ر ب و B005 [!]; 1:2 ٱلْعَٰلَمِينَ ع ل م B002; 1:2 ٱلْحَمْدُ ح م د B001
+- **1:2 b3_worlds_as_legibility_field** (baseline model, medium) — Alamin also presents a field of differentiating signs through which caring lordship can be known and praised.
+  - trace: 1:2 ٱلْعَٰلَمِينَ ع ل م B001; 1:2 ٱلْعَٰلَمِينَ ع ل م B002; 1:2 رَبِّ ر ب ب B003; 1:2 ٱلْحَمْدُ ح م د B002
+- **1:2 b4_credit_claim_reversal** (baseline model, exploratory) — The clause also interrupts human claims to own others' gratitude by returning the ground of every benefaction to the Lord.
+  - trace: 1:2 ٱلْحَمْدُ ح م د B005; 1:2 لِلَّهِ ء ل ه B001; 1:2 رَبِّ ر ب ب B016
+- **1:2 c1_named_and_marked_praise** (context delta, medium) — Prior naming marks the addressee and makes the sign-bearing worlds readable enough for praise to become recognition and invocation.
+  - trace: 1:2 ٱلْعَٰلَمِينَ ع ل م B002; 1:2 ٱلْحَمْدُ ح م د B002; 1:1 بِسْمِ س م و B005; 1:1 بِسْمِ و س م B001 [!]; 1:1 ٱللَّهِ ء ل ه B002
+- **1:2 c2_gestational_lordship** (context delta, medium) — Rabb's maturation of the worlds can be heard as merciful, enclosing formation that protects difference while bringing dependents to completion.
+  - trace: 1:2 رَبِّ ر ب ب B002; 1:2 رَبِّ ر ب و B005 [!]; 1:2 ٱلْعَٰلَمِينَ ع ل م B002; 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001; 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B003
+- **1:2 c3_praise_at_the_end_of_account** (context delta, strong) — Praise anticipates the verdict of a complete history in which every outstanding claim is finally accounted for.
+  - trace: 1:2 ٱلْحَمْدُ ح م د B002; 1:2 رَبِّ ر ب ب B001; 1:4 مَٰلِكِ م ل ك B002; 1:4 يَوْمِ ي و م B002; 1:4 ٱلدِّينِ د ي ن B002; 1:4 ٱلدِّينِ د ي ن B003
+- **1:2 c4_praise_performed_as_dependence** (context delta, strong) — The speakers perform that praise by entering exclusive service, asking for backing, and placing themselves under watchful care.
+  - trace: 1:2 لِلَّهِ ء ل ه B001; 1:2 رَبِّ ر ب ب B002; 1:5 نَعْبُدُ ع ب د B003; 1:5 نَسْتَعِينُ ع و ن B001; 1:5 نَسْتَعِينُ ع ي ن B003 [!]
+- **1:2 c5_worlds_as_navigable_signs** (context delta, strong) — The worlds form a navigable sign-field whose aligned route is continually indicated, repaired, and upheld by their Lord.
+  - trace: 1:2 ٱلْعَٰلَمِينَ ع ل م B002; 1:2 رَبِّ ر ب ب B002; 1:6 ٱهْدِنَا ه د ي B001; 1:6 ٱلصِّرَٰطَ ص ر ط B001; 1:6 ٱلْمُسْتَقِيمَ ق و م B008; 1:6 ٱلْمُسْتَقِيمَ ق و م B009
+- **1:2 c6_praise_as_differential_diagnosis** (context delta, medium) — Praise is a discriminating judgment that recognizes successful nurture while refusing to confuse hardening or lost orientation with the same outcome.
+  - trace: 1:2 ٱلْحَمْدُ ح م د B001; 1:2 ٱلْحَمْدُ ح م د B002; 1:2 ٱلْعَٰلَمِينَ ع ل م B002; 1:7 أَنْعَمْتَ ن ع م B001; 1:7 غَيْرِ غ ي ر B005; 1:7 ٱلْمَغْضُوبِ غ ض ب B004; 1:7 ٱلضَّآلِّينَ ض ل ل B002
+- **1:2 o1_ecological_water_cycle** (surprising valid outlier, exploratory) — Exploratorily, praise rises from a world-system in which gathered water, layered cloud, rain, wind, and vegetative marks circulate as forms of continuous nurture.
+  - trace: 1:2 رَبِّ ر ب ب B008; 1:2 رَبِّ ر ب ب B013; 1:2 ٱلْعَٰلَمِينَ ع ل م B005; 1:1 بِسْمِ و س م B003 [!]; 1:5 نَسْتَعِينُ ع ي ن B010 [!]; 1:7 أَنْعَمْتَ ن ع م B009
+- **1:2 o2_guidance_through_breakage** (surprising valid outlier, exploratory) — Exploratorily, the praised repair of Rabb may include restoring alignment after structures or orientations have broken.
+  - trace: 1:2 رَبِّ ر ب ب B002; 1:6 ٱهْدِنَا ه د ي B001; 1:6 ٱهْدِنَا ه د د B001 [!]; 1:6 ٱلْمُسْتَقِيمَ ق و م B008
+- **1:2 o3_covenantal_bundle_of_worlds** (surprising valid outlier, exploratory) — Exploratorily, Rabb gathers distinguishable worlds into a binding order whose obligations are measured, traversed, and finally settled.
+  - trace: 1:2 رَبِّ ر ب ب B010; 1:2 رَبِّ ر ب ب B011; 1:2 ٱلْعَٰلَمِينَ ع ل م B002; 1:4 ٱلدِّينِ د ي ن B003; 1:6 ٱلصِّرَٰطَ ص ر ط B003; 1:6 ٱلْمُسْتَقِيمَ ق و م B015
+- **1:3 b-mercy-double-register** (baseline model, strong) — The pair stages one mercy in two temporal registers: overflowing in scope and remaining available in action.
+  - trace: 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001
+- **1:3 b-mercy-as-kinship** (baseline model, medium) — Mercy creates and maintains a near bond, making the recipient one whose connection is actively kept.
+  - trace: 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B002
+- **1:3 b-mercy-as-womb** (baseline model, exploratory) — Mercy is the enclosing and nourishing condition within which the recipient can become and endure.
+  - trace: 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B003
+- **1:3 d-name-discloses-mercy** (context delta, medium) — The repeated pair is an invoked doorway into how the named deity becomes known and approached.
+  - trace: 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001; 1:1 بِسْمِ س م و B005; 1:1 ٱللَّهِ ء ل ه B002; 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001
+- **1:3 d-mercy-as-nurturing-rule** (context delta, medium) — Mercy is cosmological gestation: a ruling practice of feeding, repairing, and bringing many worlds toward manifest completion.
+  - trace: 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B003; 1:2 ٱلْحَمْدُ ح م د B002; 1:2 رَبِّ ر ب ب B002; 1:2 رَبِّ ر ب و B005 [!]; 1:2 ٱلْعَٰلَمِينَ ع ل م B001
+- **1:3 d-mercy-frames-accounting** (context delta, strong) — Mercy names the governing disposition of the one who owns and administers the full event of accountability.
+  - trace: 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001; 1:4 مَٰلِكِ م ل ك B002; 1:4 يَوْمِ ي و م B002; 1:4 ٱلدِّينِ د ي ن B002
+- **1:3 d-mercy-enables-dependent-service** (context delta, medium) — Mercy establishes a relation in which the recipient can answer through service and expose dependence through a direct request for aid.
+  - trace: 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B002; 1:5 نَعْبُدُ ع ب د B003; 1:5 نَسْتَعِينُ ع و ن B001
+- **1:3 d-mercy-guides-and-maintains** (context delta, strong) — Mercy is navigational infrastructure: gentle direction plus the ongoing care that keeps a life aligned and moving.
+  - trace: 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001; 1:6 ٱهْدِنَا ه د ي B001; 1:6 ٱلصِّرَٰطَ ص ر ط B001; 1:6 ٱلْمُسْتَقِيمَ ق و م B004; 1:6 ٱلْمُسْتَقِيمَ ق و م B008
+- **1:3 d-mercy-softens-against-loss** (context delta, medium) — Mercy is what keeps a life soft enough to be guided and held enough not to harden, vanish, or lose its course.
+  - trace: 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001; 1:7 أَنْعَمْتَ ن ع م B002; 1:7 غَيْرِ غ ي ر B005; 1:7 ٱلْمَغْضُوبِ غ ض ب B004; 1:7 ٱلضَّآلِّينَ ض ل ل B004
+- **1:3 o-mercy-as-visible-mark** (surprising valid outlier, exploratory) — The pair proposes mercy as the visible signature by which otherwise ambiguous acts can be recognized.
+  - trace: 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001; 1:1 بِسْمِ و س م B001 [!]
+- **1:3 o-mercy-enters-the-ledger-as-kinship** (surprising valid outlier, exploratory) — Mercy establishes a kinship-like claim whose preservation or severance can matter when relations are accounted for.
+  - trace: 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B002; 1:4 ٱلدِّينِ د ي ن B003
+- **1:3 o-womb-pathway-delivery** (surprising valid outlier, exploratory) — Mercy may enclose, form, and then press life through a costly passage toward upright independent standing.
+  - trace: 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B003; 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B004; 1:6 ٱلصِّرَٰطَ ص ر ط B002; 1:6 ٱلْمُسْتَقِيمَ ق و م B008
+- **1:3 o-mercy-as-soothing-performance** (surprising valid outlier, exploratory) — The doubled utterance may perform mercy by settling the dependent speaker into enough trust to ask for guidance.
+  - trace: 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001; 1:6 ٱهْدِنَا ه د د B006 [!]
+- **1:4 b_sovereign_reckoning_event** (baseline model, strong) — The phrase stages a sovereign public event in which authority becomes operative as reckoning and recompense.
+  - trace: 1:4 مَٰلِكِ م ل ك B003; 1:4 يَوْمِ ي و م B003; 1:4 ٱلدِّينِ د ي ن B002
+- **1:4 b_debt_maturity** (baseline model, medium) — The focus can depict the holder of every deferred liability and of the very interval in which it comes due.
+  - trace: 1:4 مَٰلِكِ م ل ك B002; 1:4 يَوْمِ ي و م B002; 1:4 ٱلدِّينِ د ي ن B003
+- **1:4 b_obedience_regime** (baseline model, medium) — It can also name sovereignty over every duration constituted by worship, allegiance, and followed law.
+  - trace: 1:4 مَٰلِكِ م ل ك B003; 1:4 يَوْمِ ي و م B002; 1:4 ٱلدِّينِ د ي ن B001
+- **1:4 b_mainstay_of_customary_order** (baseline model, exploratory) — Mālik can be the mainstay that keeps a temporal, customary, and civic order coherent.
+  - trace: 1:4 مَٰلِكِ م ل ك B001; 1:4 مَٰلِكِ م ل ك B005; 1:4 يَوْمِ ي و م B002; 1:4 ٱلدِّينِ د ي ن B005; 1:4 ٱلدِّينِ د ي ن B006
+- **1:4 d_named_worshipped_jurisdiction** (context delta, medium) — The named worshipped one is sovereign of an order already enacted whenever allegiance and worship are given.
+  - trace: 1:4 مَٰلِكِ م ل ك B003; 1:4 ٱلدِّينِ د ي ن B001; 1:1 بِسْمِ س م و B005; 1:1 ٱللَّهِ ء ل ه B001
+- **1:4 d_mercy_framed_account** (context delta, strong) — The same exact reckoning is held within repeatedly asserted tenderness and relational nearness.
+  - trace: 1:4 مَٰلِكِ م ل ك B002; 1:4 ٱلدِّينِ د ي ن B002; 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001; 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B002
+- **1:4 d_praiseworthy_valuation** (context delta, medium) — It is also the terminal valuation in which praiseworthiness and blameworthiness become manifest.
+  - trace: 1:4 يَوْمِ ي و م B003; 1:4 ٱلدِّينِ د ي ن B002; 1:2 ٱلْحَمْدُ ح م د B001; 1:2 ٱلْحَمْدُ ح م د B004
+- **1:4 d_cultivated_maturity** (context delta, medium) — The sovereign is also the mainstay of the developmental interval through which the account itself is brought to maturity.
+  - trace: 1:4 مَٰلِكِ م ل ك B005; 1:4 يَوْمِ ي و م B002; 1:4 ٱلدِّينِ د ي ن B003; 1:2 رَبِّ ر ب ب B002; 1:2 رَبِّ ر ب و B005 [!]
+- **1:4 d_legible_disclosed_account** (context delta, exploratory) — The owned event is itself a disclosure in which hidden identities, conditions, and values become distinguishably known.
+  - trace: 1:4 مَٰلِكِ م ل ك B002; 1:4 يَوْمِ ي و م B003; 1:4 ٱلدِّينِ د ي ن B002; 1:1 بِسْمِ و س م B001 [!]; 1:2 ٱلْعَٰلَمِينَ ع ل م B001; 1:2 ٱلْعَٰلَمِينَ ع ل م B002
+- **1:4 d_present_avowed_obedience** (context delta, strong) — The speakers enact dīn now as exclusive, honoring obedience to the one who owns its eventual account.
+  - trace: 1:4 مَٰلِكِ م ل ك B002; 1:4 ٱلدِّينِ د ي ن B001; 1:5 نَعْبُدُ ع ب د B003; 1:5 نَعْبُدُ ع ب د B006
+- **1:4 d_aided_liability** (context delta, medium) — The holder of the account is also approached as the giver of the capacity needed to answer it.
+  - trace: 1:4 مَٰلِكِ م ل ك B002; 1:4 ٱلدِّينِ د ي ن B003; 1:5 نَسْتَعِينُ ع و ن B001
+- **1:4 d_guiding_owner_of_approach** (context delta, exploratory) — The owner can also be encountered as leader and controller of the main course by which subjects approach the account.
+  - trace: 1:4 مَٰلِكِ م ل ك B006; 1:4 مَٰلِكِ م ل ك B008; 1:4 يَوْمِ ي و م B003; 1:4 ٱلدِّينِ د ي ن B002; 1:6 ٱهْدِنَا ه د ي B001; 1:6 ٱهْدِنَا ه د ي B003; 1:6 ٱلصِّرَٰطَ ص ر ط B001
+- **1:4 d_rectifying_appraisal** (context delta, medium) — Reckoning becomes a transparent act of appraisal against a stable standard and restoration to proportionate measure.
+  - trace: 1:4 مَٰلِكِ م ل ك B005; 1:4 ٱلدِّينِ د ي ن B002; 1:6 ٱلْمُسْتَقِيمَ ق و م B008; 1:6 ٱلْمُسْتَقِيمَ ق و م B010; 1:6 ٱلْمُسْتَقِيمَ ق و م B015
+- **1:4 d_forked_recompense** (context delta, strong) — It is a sovereign sorting into qualitatively different conditions, with favorable, retaliatory, and lost states kept distinct.
+  - trace: 1:4 مَٰلِكِ م ل ك B003; 1:4 يَوْمِ ي و م B003; 1:4 ٱلدِّينِ د ي ن B002; 1:7 أَنْعَمْتَ ن ع م B001; 1:7 غَيْرِ غ ي ر B005; 1:7 ٱلْمَغْضُوبِ غ ض ب B001; 1:7 ٱلضَّآلِّينَ ض ل ل B003
+- **1:4 d_customary_regime_change** (context delta, exploratory) — Yawm al-dīn can be the sovereign rupture in which the habitual order is replaced and a new order becomes operative.
+  - trace: 1:4 مَٰلِكِ م ل ك B003; 1:4 يَوْمِ ي و م B003; 1:4 ٱلدِّينِ د ي ن B005; 1:7 غَيْرِ غ ي ر B003
+- **1:4 d_recovery_of_hidden_account** (context delta, medium) — The event of dīn recovers into disclosure whatever seemed hidden, lost, or no longer preserved.
+  - trace: 1:4 مَٰلِكِ م ل ك B002; 1:4 ٱلدِّينِ د ي ن B002; 1:2 ٱلْعَٰلَمِينَ ع ل م B001; 1:7 ٱلضَّآلِّينَ ض ل ل B002; 1:7 ٱلضَّآلِّينَ ض ل ل B003; 1:7 ٱلضَّآلِّينَ ض ل ل B004
+- **1:4 o_gestated_settlement** (surprising valid outlier, exploratory) — Exploratorily, the account is carried and formed across its span until the sovereign brings it to term as a settled liability.
+  - trace: 1:4 مَٰلِكِ م ل ك B005; 1:4 يَوْمِ ي و م B002; 1:4 ٱلدِّينِ د ي ن B003; 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B003; 1:2 رَبِّ ر ب ب B002
+- **1:4 o_advance_from_the_creditor** (surprising valid outlier, exploratory) — Exploratorily, the owner of the debt also advances the very capacity by which the debtor can answer it.
+  - trace: 1:4 مَٰلِكِ م ل ك B002; 1:4 ٱلدِّينِ د ي ن B003; 1:5 نَسْتَعِينُ ع و ن B001; 1:5 نَسْتَعِينُ ع ي ن B011 [!]; 1:5 نَسْتَعِينُ ع ي ن B012 [!]
+- **1:4 o_decisive_passage** (surprising valid outlier, exploratory) — Exploratorily, it is an owned threshold-event whose passage engulfs the old state and cuts trajectories into distinct outcomes.
+  - trace: 1:4 مَٰلِكِ م ل ك B006; 1:4 يَوْمِ ي و م B003; 1:4 ٱلدِّينِ د ي ن B002; 1:6 ٱلصِّرَٰطَ ص ر ط B002; 1:6 ٱلصِّرَٰطَ ص ر ط B003
+- **1:4 o_rising_event** (surprising valid outlier, medium) — The straightness root also evokes an embodied rising-event at which reckoning occurs.
+  - trace: 1:4 يَوْمِ ي و م B003; 1:4 ٱلدِّينِ د ي ن B002; 1:6 ٱلْمُسْتَقِيمَ ق و م B013
+- **1:4 o_hardened_boundary** (surprising valid outlier, exploratory) — Exploratorily, sovereign reckoning constructs and holds firm the distinctions that keep divergent outcomes from collapsing into one another.
+  - trace: 1:4 مَٰلِكِ م ل ك B001; 1:4 ٱلدِّينِ د ي ن B002; 1:7 غَيْرِ غ ي ر B005; 1:7 ٱلْمَغْضُوبِ غ ض ب B004
+- **1:5 baseline_exclusive_service_and_support** (baseline model, strong) — Our submission is directed only to you, and even the backing by which we sustain it is sought only from you.
+  - trace: 1:5 نَعْبُدُ ع ب د B003; 1:5 نَسْتَعِينُ ع و ن B001
+- **1:5 baseline_dependent_agency** (baseline model, medium) — The speakers accept non-sovereign status while asking for the capacity by which dependent service can genuinely act.
+  - trace: 1:5 نَعْبُدُ ع ب د B001; 1:5 نَسْتَعِينُ ع و ن B005
+- **1:5 baseline_honoring_service** (baseline model, medium) — Worship is also active magnification of the addressee, sustained by aid the speakers do not claim to originate.
+  - trace: 1:5 نَعْبُدُ ع ب د B006; 1:5 نَسْتَعِينُ ع و ن B001
+- **1:5 delta_named_merciful_address** (context delta, strong) — The doubled 'you' points back to an already named, worshipped, merciful addressee, so aid is requested within a disclosed relation rather than from an abstract power.
+  - trace: 1:5 نَعْبُدُ ع ب د B003; 1:5 نَسْتَعِينُ ع و ن B001; 1:1 بِسْمِ س م و B005; 1:1 ٱللَّهِ ء ل ه B001; 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001
+- **1:5 delta_enclosed_dependency** (context delta, exploratory) — The speakers act from within a dependence that also holds and forms them, so service emerges from sustained life rather than naked coercion.
+  - trace: 1:5 نَعْبُدُ ع ب د B001; 1:5 نَسْتَعِينُ ع و ن B001; 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B003
+- **1:5 delta_agency_without_self_credit** (context delta, medium) — The speakers own the act of service while refusing to own its ultimate credit or capacity.
+  - trace: 1:5 نَعْبُدُ ع ب د B003; 1:5 نَسْتَعِينُ ع و ن B001; 1:2 ٱلْحَمْدُ ح م د B001; 1:2 ٱلْحَمْدُ ح م د B005
+- **1:5 delta_formed_for_service** (context delta, medium) — The servants are still being repaired, nourished, and brought into the strength by which their service becomes possible.
+  - trace: 1:5 نَعْبُدُ ع ب د B003; 1:5 نَسْتَعِينُ ع و ن B005; 1:2 رَبِّ ر ب ب B002; 1:2 رَبِّ ر ب و B005 [!]
+- **1:5 delta_covenantal_pair** (context delta, exploratory) — The verse can be heard as a compact-shaped utterance: we commit exclusive service and seek the backing required to keep that commitment.
+  - trace: 1:5 نَعْبُدُ ع ب د B003; 1:5 نَسْتَعِينُ ع و ن B001; 1:2 رَبِّ ر ب ب B011
+- **1:5 delta_accountable_obedience** (context delta, strong) — Worship is obedience carried under answerability toward a future settlement, and help is sought for the endurance that trajectory requires.
+  - trace: 1:5 نَعْبُدُ ع ب د B003; 1:5 نَسْتَعِينُ ع و ن B001; 1:4 مَٰلِكِ م ل ك B002; 1:4 يَوْمِ ي و م B003; 1:4 ٱلدِّينِ د ي ن B002
+- **1:5 delta_service_as_path_work** (context delta, medium) — Worship is also collective route-making and traversal, with help sought to keep that practiced way passable and straight.
+  - trace: 1:5 نَعْبُدُ ع ب د B005; 1:5 نَسْتَعِينُ ع و ن B001; 1:6 ٱهْدِنَا ه د ي B001; 1:6 ٱلصِّرَٰطَ ص ر ط B001; 1:6 ٱلْمُسْتَقِيمَ ق و م B008
+- **1:5 delta_maintained_uprightness** (context delta, medium) — We ask to be continuously upheld and gently corrected so that exclusive service remains standing.
+  - trace: 1:5 نَعْبُدُ ع ب د B003; 1:5 نَسْتَعِينُ ع و ن B001; 1:6 ٱهْدِنَا ه د ي B001; 1:6 ٱلْمُسْتَقِيمَ ق و م B004
+- **1:5 delta_help_as_gift_not_wage** (context delta, medium) — Help and guidance are unearned gifts that make service possible, not compensation generated by service.
+  - trace: 1:5 نَعْبُدُ ع ب د B003; 1:5 نَسْتَعِينُ ع و ن B001; 1:6 ٱهْدِنَا ه د ي B004; 1:7 أَنْعَمْتَ ن ع م B001
+- **1:5 delta_servitude_softened_by_benefaction** (context delta, medium) — The ownership register remains live, but service is more plausibly dependence accompanied and enabled by benefaction than forced reduction alone.
+  - trace: 1:5 نَعْبُدُ ع ب د B001; 1:5 نَعْبُدُ ع ب د B004; 1:7 أَنْعَمْتَ ن ع م B002
+- **1:5 delta_exclusivity_as_drift_resistance** (context delta, strong) — The doubled object also acts as an anti-drift discipline: do not replace the object, reverse into opposition, or lose the intended aim.
+  - trace: 1:5 نَعْبُدُ ع ب د B003; 1:5 نَسْتَعِينُ ع و ن B001; 1:7 غَيْرِ غ ي ر B003; 1:7 ٱلْمَغْضُوبِ غ ض ب B003; 1:7 ٱلضَّآلِّينَ ض ل ل B001
+- **1:5 delta_collective_recoherence** (context delta, exploratory) — The utterance helps make a community: potentially scattered speakers converge on one addressee and seek the backing that keeps their paths from separating.
+  - trace: 1:5 نَعْبُدُ ع ب د B010; 1:5 نَسْتَعِينُ ع و ن B001; 1:6 ٱلْمُسْتَقِيمَ ق و م B001; 1:7 أَنْعَمْتَ ن ع م B008; 1:7 ٱلضَّآلِّينَ ض ل ل B001
+- **1:5 outlier_watchful_eye_aid** (surprising valid outlier, exploratory) — Seeking help may also imagine placing the serving community under an attentive, preserving gaze.
+  - trace: 1:5 نَسْتَعِينُ ع ي ن B003 [!]; 1:5 نَعْبُدُ ع ب د B006
+- **1:5 outlier_present_provision_against_debt** (surprising valid outlier, exploratory) — The pair can momentarily image dependent servants asking for present provision to meet an obligation they cannot fund from themselves.
+  - trace: 1:5 نَعْبُدُ ع ب د B001; 1:5 نَسْتَعِينُ ع ي ن B011 [!]; 1:4 مَٰلِكِ م ل ك B002; 1:4 ٱلدِّينِ د ي ن B003
+- **1:5 outlier_obstacle_breaking_guidance** (surprising valid outlier, exploratory) — Aid may also be imagined as breaking obstructive structures and opening passage while service supplies the durability to continue.
+  - trace: 1:5 نَسْتَعِينُ ع و ن B001; 1:5 نَعْبُدُ ع ب د B007; 1:6 ٱهْدِنَا ه د د B001 [!]; 1:6 ٱلصِّرَٰطَ ص ر ط B003
+- **1:5 outlier_seasoned_conflict_backing** (surprising valid outlier, exploratory) — Under a contained conflict activation, it can sound like renewed allegiance and a request for backing amid an already recurring struggle.
+  - trace: 1:5 نَعْبُدُ ع ب د B003; 1:5 نَسْتَعِينُ ع و ن B003; 1:6 ٱلصِّرَٰطَ ص ر ط B003; 1:7 ٱلْمَغْضُوبِ غ ض ب B001
+- **1:6 base_gentle_upright_alignment** (baseline model, strong) — Gently enable us into and along a real course whose correctness consists in sustained uprightness and even measure.
+  - trace: 1:6 ٱهْدِنَا ه د ي B001; 1:6 ٱلصِّرَٰطَ ص ر ط B001; 1:6 ٱلْمُسْتَقِيمَ ق و م B008
+- **1:6 base_embodied_supported_motion** (baseline model, medium) — Support our unstable gait until we can rise, remain aligned, and actually travel the route.
+  - trace: 1:6 ٱهْدِنَا ه د ي B008; 1:6 ٱلصِّرَٰطَ ص ر ط B001; 1:6 ٱلْمُسْتَقِيمَ ق و م B002
+- **1:6 base_sustaining_course** (baseline model, medium) — Set our intention and manner within a course that functions as the supporting order of life and conduct.
+  - trace: 1:6 ٱهْدِنَا ه د ي B002; 1:6 ٱلصِّرَٰطَ ص ر ط B001; 1:6 ٱلْمُسْتَقِيمَ ق و م B009
+- **1:6 base_following_into_passage** (baseline model, exploratory) — Put a lead before us, take us through a passage that leaves the old position behind, and raise in us the resolve to continue.
+  - trace: 1:6 ٱهْدِنَا ه د ي B003; 1:6 ٱلصِّرَٰطَ ص ر ط B002; 1:6 ٱلْمُسْتَقِيمَ ق و م B003
+- **1:6 base_gentle_upright_alignment_marked** (context delta, strong) — Let the upright road become legible to us through coherent, mercifully given signs that invite rather than compel movement.
+  - trace: 1:6 ٱهْدِنَا ه د ي B001; 1:6 ٱلصِّرَٰطَ ص ر ط B001; 1:6 ٱلْمُسْتَقِيمَ ق و م B008; 1:1 بِسْمِ س م و B005; 1:1 بِسْمِ و س م B001 [!]; 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001; 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001
+- **1:6 base_sustaining_course_nurtured** (context delta, strong) — Nurture and repair us toward a praiseworthy end, using recognizable marks until we acquire the capacity to sustain the course.
+  - trace: 1:6 ٱهْدِنَا ه د ي B002; 1:6 ٱلْمُسْتَقِيمَ ق و م B009; 1:2 ٱلْحَمْدُ ح م د B004; 1:2 رَبِّ ر ب ب B002; 1:2 رَبِّ ر ب و B005 [!]; 1:2 ٱلْعَٰلَمِينَ ع ل م B002
+- **1:6 ctx_accountable_calibration** (context delta, strong) — Guide us through a bounded course whose conduct is continually calibratable and can stand in balance at final settlement.
+  - trace: 1:6 ٱهْدِنَا ه د ي B002; 1:6 ٱلْمُسْتَقِيمَ ق و م B010; 1:6 ٱلْمُسْتَقِيمَ ق و م B015; 1:4 مَٰلِكِ م ل ك B005; 1:4 يَوْمِ ي و م B001; 1:4 ٱلدِّينِ د ي ن B002; 1:4 ٱلدِّينِ د ي ن B003
+- **1:6 ctx_habituated_service** (context delta, medium) — Install us in a repeatable practice of service until the right course becomes our stable manner of living.
+  - trace: 1:6 ٱهْدِنَا ه د ي B002; 1:6 ٱلْمُسْتَقِيمَ ق و م B006; 1:4 ٱلدِّينِ د ي ن B005; 1:5 نَعْبُدُ ع ب د B003
+- **1:6 base_embodied_guidance_coactive** (context delta, strong) — Let our service help prepare the course, and supply the support by which our unsteady collective can rise and walk it.
+  - trace: 1:6 ٱهْدِنَا ه د ي B008; 1:6 ٱلصِّرَٰطَ ص ر ط B001; 1:6 ٱلْمُسْتَقِيمَ ق و م B002; 1:5 نَعْبُدُ ع ب د B005; 1:5 نَسْتَعِينُ ع و ن B001
+- **1:6 base_sustaining_course_inhabited** (context delta, strong) — Guide us into the course whose uprightness is evidenced by the sustaining, non-destructive life it makes possible among people.
+  - trace: 1:6 ٱلصِّرَٰطَ ص ر ط B001; 1:6 ٱلْمُسْتَقِيمَ ق و م B006; 1:6 ٱلْمُسْتَقِيمَ ق و م B009; 1:7 صِرَٰطَ ص ر ط B001; 1:7 أَنْعَمْتَ ن ع م B001; 1:7 أَنْعَمْتَ ن ع م B002; 1:7 أَنْعَمْتَ ن ع م B011
+- **1:6 ctx_dynamic_between_failures** (context delta, medium) — Keep us in a course that preserves orientation and forward viability between arrested hardness and vanishing loss.
+  - trace: 1:6 ٱلصِّرَٰطَ ص ر ط B002; 1:6 ٱلْمُسْتَقِيمَ ق و م B008; 1:6 ٱلْمُسْتَقِيمَ ق و م B016; 1:7 غَيْرِ غ ي ر B005; 1:7 ٱلْمَغْضُوبِ غ ض ب B004; 1:7 ٱلْمَغْضُوبِ غ ض ب B003; 1:7 ٱلضَّآلِّينَ ض ل ل B002
+- **1:6 outlier_restored_sight** (surprising valid outlier, exploratory) — Restore and guard the faculty by which an outwardly intact self can actually see the course when swelling and hiddenness occlude it.
+  - trace: 1:6 ٱهْدِنَا ه د ي B001; 1:6 ٱلْمُسْتَقِيمَ ق و م B021; 1:5 نَسْتَعِينُ ع ي ن B001 [!]; 1:5 نَسْتَعِينُ ع ي ن B003 [!]; 1:7 ٱلْمَغْضُوبِ غ ض ب B006; 1:7 ٱلضَّآلِّينَ ض ل ل B002
+- **1:6 outlier_anti_scattering_collective** (surprising valid outlier, exploratory) — Give the plural body a common course that keeps its members from scattering into unrelated directions.
+  - trace: 1:6 ٱهْدِنَا ه د ي B002; 1:6 ٱلْمُسْتَقِيمَ ق و م B001; 1:7 أَنْعَمْتَ ن ع م B008
+- **1:6 outlier_gift_return_circuit** (surprising valid outlier, medium) — Bestow a sustaining course as a relational gift, and make our lived service the movement by which that gift is answered.
+  - trace: 1:6 ٱهْدِنَا ه د ي B004; 1:6 ٱهْدِنَا ه د ي B005; 1:6 ٱلْمُسْتَقِيمَ ق و م B009; 1:5 نَعْبُدُ ع ب د B003; 1:7 أَنْعَمْتَ ن ع م B001
+- **1:6 outlier_incisive_passage** (surprising valid outlier, exploratory) — Give us a gently governed but incisive criterion that distinguishes the course and opens passage through hardened resistance.
+  - trace: 1:6 ٱهْدِنَا ه د ي B001; 1:6 ٱلصِّرَٰطَ ص ر ط B003; 1:6 ٱلْمُسْتَقِيمَ ق و م B014; 1:7 غَيْرِ غ ي ر B005; 1:7 ٱلْمَغْضُوبِ غ ض ب B008
+- **1:6 outlier_reconstruction_after_collapse** (surprising valid outlier, exploratory) — Repair what has collapsed, restore the supports that hold a viable passage together, and thereby make continued travel possible.
+  - trace: 1:6 ٱهْدِنَا ه د د B001 [!]; 1:6 ٱلصِّرَٰطَ ص ر ط B001; 1:6 ٱلْمُسْتَقِيمَ ق و م B009; 1:2 رَبِّ ر ب ب B002; 1:4 مَٰلِكِ م ل ك B001
+- **1:7 base_embodied_route** (baseline model, strong) — The verse makes a favored human trajectory the road's visible embodiment and distinguishes oppositional rupture from aimless deviation.
+  - trace: 1:7 صِرَٰطَ ص ر ط B001; 1:7 أَنْعَمْتَ ن ع م B001; 1:7 غَيْرِ غ ي ر B005; 1:7 ٱلْمَغْضُوبِ غ ض ب B003; 1:7 ٱلضَّآلِّينَ ض ل ل B001
+- **1:7 base_successful_and_failed_disappearance** (baseline model, medium) — Both right passage and straying can involve disappearance; the decisive difference is whether disappearance completes directed transit or erases recoverable direction.
+  - trace: 1:7 صِرَٰطَ ص ر ط B002; 1:7 أَنْعَمْتَ ن ع م B002; 1:7 ٱلْمَغْضُوبِ غ ض ب B004; 1:7 ٱلضَّآلِّينَ ض ل ل B002
+- **1:7 base_decisive_partition** (baseline model, exploratory) — The verse can stage a decisive partition among favorable passage, retaliatory exposure, and an unresolved loss that never arrives for settlement.
+  - trace: 1:7 صِرَٰطَ ص ر ط B003; 1:7 غَيْرِ غ ي ر B002; 1:7 ٱلْمَغْضُوبِ غ ض ب B001; 1:7 ٱلضَّآلِّينَ ض ل ل B003
+- **1:7 base_agency_gradient** (baseline model, medium) — They encode different causal positions: actively furthered recipients, people bearing relational opposition, and agents continuing to deviate.
+  - trace: 1:7 أَنْعَمْتَ ن ع م B010; 1:7 ٱلْمَغْضُوبِ غ ض ب B003; 1:7 ٱلضَّآلِّينَ ض ل ل B001; 1:7 غَيْرِ غ ي ر B003
+- **1:7 ctx_marked_route** (context delta, medium) — The road is also known by legible effects borne by favored travelers, who function as its identifying marks.
+  - trace: 1:1 بِسْمِ س م و B005; 1:1 بِسْمِ و س م B001 [!]; 1:7 صِرَٰطَ ص ر ط B001; 1:7 أَنْعَمْتَ ن ع م B001
+- **1:7 ctx_mercy_affiliation** (context delta, medium) — Those favored can be a mercy-formed affiliation into which the requested road incorporates the traveler.
+  - trace: 1:1 ٱللَّهِ ء ل ه B001; 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001; 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B002; 1:7 أَنْعَمْتَ ن ع م B001; 1:7 صِرَٰطَ ص ر ط B001
+- **1:7 ctx_cultivated_completion** (context delta, strong) — Favor is an ongoing curriculum of repair, nourishment, marked progress, and completion that produces the road-bearing people.
+  - trace: 1:2 ٱلْحَمْدُ ح م د B004; 1:2 رَبِّ ر ب ب B002; 1:2 رَبِّ ر ب و B005 [!]; 1:2 ٱلْعَٰلَمِينَ ع ل م B002; 1:7 أَنْعَمْتَ ن ع م B010; 1:7 صِرَٰطَ ص ر ط B001
+- **1:7 ctx_mercy_bounded_wrath** (context delta, medium) — Mercy is the persistent field of the route, while wrath is a bounded relational response marking resistance within that field.
+  - trace: 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001; 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B001; 1:7 ٱلْمَغْضُوبِ غ ض ب B003; 1:7 أَنْعَمْتَ ن ع م B001
+- **1:7 ctx_accountable_partition** (context delta, strong) — The focus can map trajectories by their status in an eventual settlement: advanced by favor, exposed to retaliatory claim, or still lost from account.
+  - trace: 1:4 مَٰلِكِ م ل ك B002; 1:4 يَوْمِ ي و م B001; 1:4 ٱلدِّينِ د ي ن B002; 1:7 صِرَٰطَ ص ر ط B003; 1:7 غَيْرِ غ ي ر B002; 1:7 ٱلْمَغْضُوبِ غ ض ب B001; 1:7 ٱلضَّآلِّينَ ض ل ل B003
+- **1:7 ctx_enacted_road** (context delta, strong) — The road is received but also enacted underfoot: humble practice levels it, communal walking preserves it, and aid keeps the enactment possible.
+  - trace: 1:5 نَعْبُدُ ع ب د B003; 1:5 نَعْبُدُ ع ب د B005; 1:5 نَسْتَعِينُ ع و ن B001; 1:7 أَنْعَمْتَ ن ع م B012; 1:7 صِرَٰطَ ص ر ط B001
+- **1:7 ctx_guided_specification** (context delta, strong) — The focus answers the guidance request by translating straightness into a favored human trajectory and two distinct diagnostic failures.
+  - trace: 1:6 ٱهْدِنَا ه د ي B001; 1:6 ٱلصِّرَٰطَ ص ر ط B001; 1:6 ٱلْمُسْتَقِيمَ ق و م B008; 1:7 صِرَٰطَ ص ر ط B001; 1:7 أَنْعَمْتَ ن ع م B001; 1:7 ٱلضَّآلِّينَ ض ل ل B001
+- **1:7 ctx_path_as_transmitted_gift** (context delta, medium) — Favored people can be living relays through whom the guidance-gift is carried further to new petitioners.
+  - trace: 1:6 ٱهْدِنَا ه د ي B004; 1:7 أَنْعَمْتَ ن ع م B001; 1:7 أَنْعَمْتَ ن ع م B010; 1:7 صِرَٰطَ ص ر ط B001
+- **1:7 ctx_communal_infrastructure** (context delta, medium) — Straightness is also a communal achievement: favored people keep the shared route standing, supplied, and available.
+  - trace: 1:6 ٱلْمُسْتَقِيمَ ق و م B001; 1:6 ٱلْمُسْتَقِيمَ ق و م B004; 1:6 ٱلْمُسْتَقِيمَ ق و م B009; 1:7 صِرَٰطَ ص ر ط B001; 1:7 أَنْعَمْتَ ن ع م B001
+- **1:7 ctx_growth_with_measure** (context delta, medium) — Straightness can be regulated growth: favor drives further development, while measure repeatedly corrects its direction.
+  - trace: 1:2 رَبِّ ر ب و B001 [!]; 1:6 ٱلْمُسْتَقِيمَ ق و م B015; 1:7 أَنْعَمْتَ ن ع م B010; 1:7 ٱلضَّآلِّينَ ض ل ل B001
+- **1:7 out_hydrological_way** (surprising valid outlier, exploratory) — Exploratorily, it can behave like a watercourse: favor replenishes and repairs along directed flow, hardness blocks it, and straying is flow that disappears without fructifying the marked terrain.
+  - trace: 1:7 صِرَٰطَ ص ر ط B002; 1:7 أَنْعَمْتَ ن ع م B009; 1:7 غَيْرِ غ ي ر B001; 1:7 ٱلْمَغْضُوبِ غ ض ب B004; 1:7 ٱلضَّآلِّينَ ض ل ل B002; 1:1 بِسْمِ و س م B003 [!]; 1:4 مَٰلِكِ م ل ك B007; 1:5 نَسْتَعِينُ ع ي ن B006 [!]
+- **1:7 out_gestational_passage** (surprising valid outlier, exploratory) — Exploratorily, the favored route can include a hidden gestational interval in which disappearance is protected formation, while straying is hiddenness that does not emerge into directed life.
+  - trace: 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ر ح م B003; 1:7 صِرَٰطَ ص ر ط B002; 1:7 أَنْعَمْتَ ن ع م B002; 1:7 ٱلْمَغْضُوبِ غ ض ب B004; 1:7 ٱلضَّآلِّينَ ض ل ل B002
+- **1:7 out_watchful_eye_states** (surprising valid outlier, exploratory) — Exploratorily, they also differ as visual relations: cared-for and gladdened sight, sight burdened by swelling, and disappearance beyond recoverable view.
+  - trace: 1:5 نَسْتَعِينُ ع ي ن B003 [!]; 1:5 نَسْتَعِينُ ع ي ن B002 [!]; 1:7 أَنْعَمْتَ ن ع م B013; 1:7 ٱلْمَغْضُوبِ غ ض ب B006; 1:7 ٱلضَّآلِّينَ ض ل ل B002; 1:1 بِسْمِ و س م B002 [!]
+- **1:7 out_fracture_and_standing** (surprising valid outlier, exploratory) — Exploratorily, guidance can include a breaking test: the route cuts through hardened obstruction, and straightness is the capacity to remain or rise standing through it.
+  - trace: 1:6 ٱهْدِنَا ه د د B001 [!]; 1:7 صِرَٰطَ ص ر ط B003; 1:7 ٱلْمَغْضُوبِ غ ض ب B004; 1:6 ٱلْمُسْتَقِيمَ ق و م B002; 1:7 ٱلضَّآلِّينَ ض ل ل B001

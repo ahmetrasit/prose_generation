@@ -108,6 +108,21 @@ Known answers are in `eval/` — never put `eval/` or this file into a model's i
 - Not changed (no rerun): the و ل ه minor note for ٱللَّه contradicts its branch (B001 vs "no branch states it").
 - To do when the S1 roots are done: prep 1:1-7, read usage.md, check sizes and estimates, ask the user's go.
 
+## 2026-09-27: v12 S1 run (first Opus run) — DONE
+- The user's go: S1 if every ayah estimated below $5 (estimates $2.21-3.06). `run.py surah 1 --parallel 7`, 23:56-00:22.
+- All 7 ayat done, no failure, no repair call, nothing stripped; verify all exact/fixed (0 missing, 0 bad-source).
+  Costs $1.81-3.22 per ayah ($18.35) + surah pass $2.61 (1 repair) = $20.96. 1:5 cost $3.22 on a $2.61 estimate (102K
+  output tokens; the output guess of 60K is low: calibrate).
+- Ledgers 80-124 findings per ayah (new 7-12); readings 1,875-2,793 words; surah reading 5,125 words, 19 chains.
+- 27 dossier corrections recorded by the writers (`out/s001/dossier_corrections.md`), many credible: 12:23 is not
+  the king (ر ب ب); 1:4 mālik given B003 where the form carries B002 (م ل ك); ي و م "never plain" B005 while
+  yawmaʾidhin is exactly it; 100:3 مغيرات is غ و ر, not غ ي ر (a QAC root question); the basmala / raḥmān-raḥīm
+  formula and the calf scene split over several groups; ع ل م "Lord of the worlds" split in four groups.
+- Render fix: any ledger line mentioning usage.md stays off the reader page (one mid-sentence mention on 1:6 leaked);
+  pages re-rendered by script.
+- Next: the user's read; an Opus judge and the blind read against v11/v5 (`_commentary/v11/eval/s001_anchors.md`)
+  only on the user's go.
+
 ## Next
 1. Finish the 10-root test (above): summary to the user; the word-analysis arm only if the user asks.
 2. S29 probe (needs the user's go), usage on and off.

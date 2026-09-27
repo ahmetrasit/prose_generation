@@ -450,7 +450,7 @@ def check(ref: str) -> dict:
         "reading_refs": len(set(re.findall(r"\b\d{1,3}:\d{1,3}\b", body))),
         "related_uncited": len(uncited), "related_uncited_first": uncited[:15],
         # the writer's corrections of the root dossiers (ledger lines beginning `usage.md:`), fed back to root-dossier
-        "dossier_corrections": [l for v in fam.values() for l in v if re.search(r"\]\s*usage\.md:", l)],
+        "dossier_corrections": [l for v in fam.values() for l in v if "usage.md" in l],
         "input_bytes": sum(f.stat().st_size for f in evidence(ref) + [V12 / "prompts" / "write.md"]), "inputs": sizes})
     (p["out"] / "check.txt").write_text(json.dumps(res, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     return res
@@ -495,7 +495,7 @@ def render(ref: str) -> None:
                     m = re.match(r"- \[refs:\s*([^|\]]*)\|[^|\]]*\|\s*(\w+)\s*\]\s*(.*)", line)
                     refs = [r.strip() for r in m.group(1).split(",") if r.strip()] if m else []
                     grade, txt = (m.group(2), m.group(3)) if m else ("", line[2:])
-                    if txt.lstrip().startswith("usage.md:"):  # a correction of a root dossier: feedback, not for readers
+                    if "usage.md" in txt:  # about a root dossier (a correction): feedback, not for readers
                         continue
                     out.append(f"- **{', '.join(refs) or '—'}** ({grade}) {txt}{pointers(refs)}")
                     if with_text:

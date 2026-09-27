@@ -1,0 +1,58 @@
+{
+ "comma_fixes": 0,
+ "source_fixes": 0,
+ "repair_calls": 0,
+ "repair_cost": 0.0,
+ "stripped": 0,
+ "verify": "exact=47 fixed=12 fixable=0 elsewhere=0 missing=0 no-source=0 bad-source=0",
+ "elsewhere": 0,
+ "validator_errors": 0,
+ "ledger_findings": 124,
+ "families": {
+  "surah": 8,
+  "quran": 37,
+  "usage": 13,
+  "limits": 11,
+  "dictionary": 16,
+  "readings and grammar": 8,
+  "chains": 19,
+  "new": 9,
+  "fatiha": 3
+ },
+ "reading_words": 2574,
+ "reading_refs": 49,
+ "related_uncited": 181,
+ "related_uncited_first": [
+  "37:118",
+  "3:69",
+  "56:92",
+  "2:122",
+  "3:51",
+  "15:41",
+  "102:8",
+  "105:2",
+  "56:51",
+  "23:74",
+  "4:175",
+  "5:16",
+  "6:161",
+  "10:25",
+  "11:56"
+ ],
+ "dossier_corrections": [
+  "- [refs: 21:87 | roots: غضب | note] usage.md: 21:87 (مغاضبا) B001 olarak etiketlenmiş. Oysa sözlük (sihah) bu ifadeyi açıkça B003 ile (مراغما لقومه) açıklar. Bu yüzden \"B003 hiçbir yerde düz anlam değil\" hükmü tartışmalıdır.",
+  "- [refs: 100:3 | roots: غير | note] usage.md: 100:3'teki مغيرات baskın anlamındadır ve kökü غ و ر'dır, غ ي ر değildir. \"Dal yok\" kaydının sebebi budur.",
+  "- [refs: 6:77, 26:86, 2:198, 26:20 | roots: ضلل | note] usage.md: ض ل ل'nin ▶ grubunda tek kayıt var; oysa hidayet istemiyle birlikte gelen dall itirafları (6:77, 2:198) aynı bağlamı paylaşır. Bağlam birden fazla gruba bölünmüş.",
+  "- [refs: 1:7 | roots: غضب | note] usage.md: غ ض ب için 24 geçiş verilmiş, digest ise 21 ayette 22 geçiş sayıyor. Sayım farkı var (7:154 gibi geçişler dahil edilmiş)."
+ ],
+ "input_bytes": 231990,
+ "inputs": {
+  "context.md": 6394,
+  "01_dictionary.md": 33768,
+  "digest_v2.md": 29061,
+  "usage.md": 36315,
+  "hft.md": 51519,
+  "channels.md": 39226,
+  "neighbours.md": 20886
+ }
+}

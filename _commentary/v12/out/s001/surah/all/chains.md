@@ -1,0 +1,551 @@
+### 1. Mercy frame holding ownership and account
+- ayat: 1:1, 1:2, 1:3, 1:4
+- parts:
+  - 1:1 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ (ر ح م B001): the frame, opened inside the name.
+  - 1:2 رَبِّ (ر ب ب B001, owning and governing): the holder, named first.
+  - 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ repeated verbatim (ر ح م B001): the frame re-entered. It is now an epithet inside the praise sentence, set between two sovereignty titles.
+  - 1:4 مَٰلِكِ (م ل ك B002 ownership and disposal; B003 in the مَلِكِ reading): the holder of the day.
+  - يَوْمِ (ي و م B003 momentous event, with B002 span): the event.
+  - ٱلدِّينِ (د ي ن B002, judgment, account and recompense): the operation.
+- movement:
+  - Mercy is said twice. It surrounds the first sovereignty title (rabb) and stands directly before the second (mālik).
+  - The account therefore arrives already qualified by the one who holds it.
+  - Grammatically, 1:2–1:4 are one genitive chain hanging from لِلَّهِ. The day of dīn is part of the praised description, not a threat outside it.
+- meets:
+  - Chain 3 at مَٰلِكِ: the owner of the account is the owner of the servant.
+  - Chain 4 across the whole 1:2–1:4 sentence: the day is named inside the praise.
+  - Chain 8 at the faʿlān form: mercy is named in full, while wrath in 1:7 has no agent.
+  - Chain 6 at يَوْمِ, through 83:6.
+- staging:
+  - 25:26: the true sovereignty that day belongs to al-Raḥmān.
+  - 78:36–38 reproduces the order exactly: recompense from your Lord, then Rabb of heavens and earth, then al-Raḥmān (genitive, as in 1:3), then لَا يَمْلِكُونَ مِنْهُ خِطَابًا, then يَوْمَ يَقُومُ ٱلرُّوحُ.
+  - 6:12: كَتَبَ عَلَىٰ نَفْسِهِ ٱلرَّحْمَةَ, then gathering to the day of rising.
+  - 20:108–109 and 19:87: speech and intercession on the day depend on al-Raḥmān.
+  - 82:17–19: the Quran defines yawm al-dīn by negated ownership.
+- limits:
+  - 19:45, 36:23, 67:20: punishment and harm come from al-Raḥmān.
+  - 6:147: mercy is wide, yet punishment is not turned back.
+  - 7:156: mercy encompasses everything and is also "written for the godfearing".
+  - 2:48, 60:3: no ransom, and kinship avails nothing on the day.
+- changes: No single ayah says that the account is held by mercy; the order says it, and the Quran spells it out (25:26, 78:37). Mercy is not an exemption from reckoning. It is the name of the reckoner, and the reckoning is spoken inside praise.
+- grade: core
+- sources:
+  - Grounds channel 1C (mercy step) and 5C.
+  - HFT records that hold: 1:1 delta_1_4_accountable_mercy, 1:3 d-mercy-frames-accounting, 1:4 d_mercy_framed_account. The ر ح م B002 step is dropped as unneeded.
+  - Ledgers:
+    - 1:1 Surah/New (25:26);
+    - 1:3 Quran/New (78:36–38; this corrects the digest's "no link");
+    - 1:4 New (6:12).
+  - New: the double frame brackets rabb before it closes onto mālik.
+
+### 2. The suppressed verb found: name → belonging → address
+- ayat: 1:1, 1:2, 1:5
+- parts:
+  - 1:1 بِ + اسْمِ (س م و B005, الاسم تنويه ودلالة): a conduit with an unspoken governing verb.
+  - ٱللَّهِ (ء ل ه B001 the worshipped; B002 the proper name): the referent.
+  - 1:2 لِلَّهِ: the same name, now received with li- (belonging, entitlement). It is the destination.
+  - 1:5 إِيَّاكَ نَعْبُدُ (ع ب د B003) and إِيَّاكَ نَسْتَعِينُ (ع و ن B001): the verbs appear. The third person becomes "you", and the root sense of ء ل ه B001 (worship) is enacted.
+- movement:
+  - The preposition shifts from bi- (by, through, leaning on) to li- (to, for), and then to a fronted direct object (iyyāka).
+  - The name is first a support, then a recipient, then a person addressed.
+  - The surah's first finite verbs are exactly the acts the name was holding open.
+- meets:
+  - Chain 3 at نَعْبُدُ.
+  - Chain 5: the aid in 1:5 finds its content in 1:6.
+  - Chain 1: the "you" addressed has twice been named merciful. 21:112 joins rabb, al-Raḥmān and al-mustaʿān in one line.
+- staging:
+  - 11:41 بِسْمِ ٱللَّهِ مَجْرٜىٰهَا وَمُرْسَىٰهَا: the name governs a whole voyage, not just its start, and the ayah closes on raḥīm.
+  - The verb written in: 96:1 ٱقْرَأْ بِٱسْمِ رَبِّكَ and 56:74 فَسَبِّحْ بِٱسْمِ.
+  - 27:30: the formula as a letter header.
+  - 4:1 تَسَاءَلُونَ بِهِ: the same bi-.
+  - 40:60: asking is itself worship.
+  - 2:45: prayer is itself the means of aid, and Fatiha is recited inside prayer.
+- limits:
+  - 12:40, 53:23: names without warrant are empty. The formula's force lies in the name's owner, not in saying it.
+  - 27:30: a king uses the formula and is not raised by it.
+  - 5:2, 18:95: human mutual aid is lawful. The exclusivity is of the final source.
+- changes: The surah is one act under the name. The opening leaves the verb empty, and 1:5 fills it with worship and asking, so every recitation places the reciter's own act under this name.
+- grade: core
+- sources:
+  - HFT records that hold: 1:1 baseline_operative_designation, delta_1_5_yielded_and_enabled_agency; 1:5 delta_named_merciful_address.
+  - The و س م and س م م steps are dropped: they rest on an alternative or echo root.
+  - Grounds channels 1A and 3A.
+  - Ledgers: 1:1 Surah/Fatiha, 1:2 Surah, 1:5 Surah/New (2:45, 40:60 circle).
+
+### 3. Owner and owned: lordship–servitude and its counterfeit
+- ayat: 1:2, 1:4, 1:5, 1:7
+- parts:
+  - 1:2 رَبِّ (ر ب ب B001): the master pole.
+  - ٱلْحَمْدُ (ح م د B001): acknowledgment that belongs to the master. Its lexical counter-branch ح م د B005 فلان يتحمد علي أي يمن is present only as the inversion.
+  - 1:4 مَٰلِكِ (م ل ك B002): the owner.
+  - ٱلدِّينِ (د ي ن B001, submission): the bond. The د ي ن B004 line العبد مدين ties dīn to ʿabd inside the dictionary.
+  - 1:5 نَعْبُدُ (ع ب د B003, carrying the status of ع ب د B001 العبد وهو المملوك): the owned pole speaks.
+  - نَسْتَعِينُ (ع و ن B001): the owned, who "can do nothing", ask for capacity.
+  - 1:7 أَنْعَمْتَ (ن ع م B001): the true benefaction, which gives a road where the counterfeit gave bondage.
+- movement:
+  - The master is named (1:2), then the owner of the final day (1:4).
+  - The owned then speak, exclusively (1:5). Because the owned slave can do nothing (16:75), service entails asking.
+  - The favor of 1:7 is what the counterfeit master's favor inverted.
+- meets:
+  - Chain 2 at نَعْبُدُ.
+  - Chain 4: praise is taken back from false patrons.
+  - Chain 1: the owner is merciful.
+  - Chain 10 (develop) at نَعْبُدُ B005.
+- staging:
+  - 16:75 عَبْدًا مَّمْلُوكًا لَّا يَقْدِرُ عَلَىٰ شَيْءٍ.
+  - 39:29: a man owned by quarrelling partners against one wholly owned by one man, closed with ٱلْحَمْدُ لِلَّهِ.
+  - 7:194 عِبَادٌ أَمْثَالُكُمْ.
+  - 26:18–23 contains every word of the relation in counterfeit form:
+    - أَلَمْ نُرَبِّكَ فِينَا وَلِيدًا;
+    - تِلْكَ نِعْمَةٌ تَمُنُّهَا عَلَيَّ أَنْ عَبَّدتَّ;
+    - then وَمَا رَبُّ ٱلْعَٰلَمِينَ.
+  - 23:47 and 44:18: human-imposed servitude against "servants of God".
+  - 7:128: "seek aid from God and be patient", said to an enslaved people.
+  - 82:19: on the day no soul owns anything for another.
+  - 36:71–72: human mālik of livestock, as something given.
+  - 12:76 فِي دِينِ ٱلْمَلِكِ.
+- limits:
+  - 4:172, 51:56: servanthood is not degradation.
+  - 2:256: coercive dīn (B004) is not the present sense.
+  - 3:97: God does not need the worlds. There is no exchange of nurture for praise.
+  - 36:71 and 3:26: human ownership is real but given.
+  - The ر ب و step in 26:18 is an echo root. The Quran sets the sound side by side, but the words are not the same.
+- changes:
+  - Read across four ayat, the surah stages a relation whose false twin the Quran stages openly in Pharaoh's court.
+  - Fatiha returns praise (1:2), service (1:5) and favor (1:7) to their right owner.
+  - "Only You" is at once worship and exit from every other servitude.
+- grade: core
+- sources:
+  - Grounds and strengthens channel 1B. Grounds 2B as a counter-scene, bounded by 3:97.
+  - HFT corrections:
+    - 1:2 b4_credit_claim_reversal: a counter-scene, not the word's sense.
+    - 1:5 delta_servitude_softened_by_benefaction: holds.
+    - 1:5 baseline_dependent_agency: ع و ن B005 is replaced by B001.
+  - Ledgers: 1:2 New (26:16–23), 1:4 Dictionary (the dīn–ʿabd–mamlūk triangle), 1:5 New.
+  - New: the four-ayah span, and 1:7 as the answer to 26:22.
+
+### 4. Praise said first: the verdict's closing word opens the book
+- ayat: 1:2, 1:4, 1:6, 1:7
+- parts:
+  - 1:2 ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ (ح م د B001, الحمد نقيض الذم): the verdict, verbless and without tense or speaker.
+  - 1:4 ٱلدِّينِ (د ي ن B002): the judgment whose close this formula names elsewhere.
+  - 1:6 ٱهْدِنَا: the guidance for which those who have arrived give praise.
+  - 1:7: the praise/blame poles, sorted into the favored and the two exits.
+- movement:
+  - Elsewhere the exact formula is the last word, after a history is settled.
+  - Fatiha says it first: before the day it names, before the guidance it will request, before any "we".
+  - The one who asks for the road already speaks the sentence of the arrived.
+- meets:
+  - Chain 1: the day is named inside the praise sentence.
+  - Chain 5: 7:43 is praise for guidance.
+  - Chain 3: praise is not a patron's claim.
+- staging:
+  - Final-word uses of the formula: 39:75, 6:45, 10:10 and 37:182.
+  - 7:43 ٱلْحَمْدُ لِلَّهِ ٱلَّذِي هَدَىٰنَا لِهَٰذَا.
+  - 17:44 and 13:13: all things already praise.
+- limits:
+  - 14:8, 17:111: praise does not depend on praisers or on benefit received.
+  - ح م د B002 ("found praiseworthy after trial") is not the sense here. The "verdict" reading rests on the scenes of 39:75 and 6:45, not on that branch.
+- changes: The surah turns a closing formula into an opening. The reciter says the day's last sentence in advance, and everything after it, from the day to the road, is lived inside that pre-spoken verdict.
+- grade: core
+- sources:
+  - HFT 1:2 b1_praise_as_tested_verdict: corrected.
+  - HFT 1:2 c3_praise_at_the_end_of_account: holds.
+  - HFT 1:4 d_praiseworthy_valuation: corrected; B004 is unneeded.
+  - Grounds channel 2C.
+  - Ledgers: 1:2 Quran/Chains, 1:4 New (39:75).
+
+### 5. The road: empty request, straight course, travellers, two exits
+- ayat: 1:5, 1:6, 1:7
+- parts:
+  - 1:5 نَسْتَعِينُ (ع و ن B001): aid asked for without content.
+  - 1:6 ٱهْدِنَا (ه د ي B001, دلالة بلطف إلى الطريق والحق): the content supplied.
+  - ٱلصِّرَٰطَ (ص ر ط B001): the single road.
+  - ٱلْمُسْتَقِيمَ (ق و م B008): its geometry.
+  - 1:7 صِرَٰطَ (bedel, same case): the road said again.
+  - ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ (ن ع م B001): its embodied walkers. ه د ي B003 "the foremost" is a fitting image for them, not the verb's sense.
+  - غَيْرِ (غ ي ر B005): the boundary.
+  - ٱلْمَغْضُوبِ عَلَيْهِمْ (غ ض ب B001): the exit by wrath coming down.
+  - ٱلضَّآلِّينَ (ض ل ل B001, كل جائر عن القصد ضال): the exit by veering off the line.
+- movement:
+  - 1:5 opens an empty request, and 1:6 fills it.
+  - 1:7 defines the road three ways: by quality, by people, and by two negations. The road is therefore seen from its walkers and from its edges.
+  - The two exits move differently. Wrath lands on (عَلَىٰ; 20:81 يَحْلِلْ ... فَقَدْ هَوَىٰ); straying slides off (16:9 جَائِرٌ).
+- meets:
+  - Chain 2: the content of the aid.
+  - Chain 6 at ٱلْمُسْتَقِيمَ.
+  - Chain 7: hudā against ḍalāl.
+  - Chain 8: the grammar of the exits.
+  - Chains 9 and 10 (develop).
+- staging:
+  - 37:118 وَهَدَيْنَٰهُمَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ: the same construction, granted.
+  - 4:68–69: road, then "with those God favored ... رَفِيقًا".
+  - 6:77: Ibrahim's "unless my Lord guides me, I will be of the ḍāllīn".
+  - 16:9.
+  - Worship named as the road: 36:61, 3:51, 43:64.
+  - 7:16–17: ambush on "Your straight road".
+  - 15:41 and 16:9: the road is "upon God".
+  - 38:22 وَٱهْدِنَا إِلَىٰ سَوَاءِ ٱلصِّرَٰطِ: the only other ihdinā.
+  - 67:22.
+  - 37:23 فَٱهْدُوهُمْ إِلَىٰ صِرَٰطِ ٱلْجَحِيمِ: the same verb and noun toward hell.
+  - 6:153: one ṣirāṭ against many subul.
+- limits:
+  - 28:56, 42:52: humans show the way, but God leads home. The favored are ahead because they are favored.
+  - 76:3: showing does not guarantee arriving.
+  - 43:22, 37:69–70: the ancestral track is not the measure; أَنْعَمْتَ is.
+  - 26:20 with 28:17, 93:7, and 2:40 with 2:61: the groups are states one passes through, not fixed ethnic labels.
+  - 5:105: exclusion is not a mandate to police others.
+- changes:
+  - The road is asked for by people who are already on it; 7:16 shows why.
+  - It is known through its walkers. This is the only place where ṣirāṭ is annexed to a human group.
+  - The last two ayat define the goal by persons and by boundaries, not by doctrine.
+- grade: core
+- sources:
+  - Grounds channels 1C and 4A. Channel 4E holds, with B005 as image only.
+  - HFT records that hold: 1:6 base_gentle_upright_alignment, 1:7 ctx_guided_specification, 1:3 d-mercy-guides-and-maintains.
+  - HFT 1:7 base_embodied_route: holds, with the w6 step corrected from B003 to B001.
+  - Ledgers: 1:5 Surah, 1:6 Quran/Usage, 1:7 Surah/Quran/New.
+
+### 6. Standing: from the Lord of the worlds, through the day, to the upright road
+- ayat: 1:2, 1:4, 1:6
+- parts:
+  - 1:2 رَبِّ ٱلْعَٰلَمِينَ: the one before whom people stand.
+  - 1:4 يَوْمِ ٱلدِّينِ: the day of standing (ق و م B013 via 83:6, where the verb itself appears).
+  - 1:6 ٱلْمُسْتَقِيمَ:
+    - ق و م B008, straightness (رمح قويم ورجل قويم);
+    - B002, upright stance;
+    - B015, the coin that does not tip the scale.
+    The road itself stands.
+- movement: The one who will stand on the day before the Lord of the worlds asks now for a road that stands upright. Upright road, upright walker and final rising belong to one family.
+- meets:
+  - Chain 1 at the day.
+  - Chain 5 at the road.
+  - Chain 11 (develop) at B015.
+- staging:
+  - 83:6 يَوْمَ يَقُومُ ٱلنَّاسُ لِرَبِّ ٱلْعَٰلَمِينَ gathers 1:2's title, 1:4's day and 1:6's root in one line.
+  - 78:38 يَوْمَ يَقُومُ ٱلرُّوحُ.
+  - 67:22: walking prone against walking سَوِيًّا on a ṣirāṭ mustaqīm.
+  - 41:30 رَبُّنَا ٱللَّهُ ثُمَّ ٱسْتَقَٰمُوا.
+  - 72:16 and 17:9 أَقْوَمُ.
+- limits:
+  - B013 is not the sense of mustaqīm. The bond is root family.
+  - ق و م B016 (a halted mount, frozen water) shows that the root also holds standing still. The uprightness asked for is upright motion, as the walking of 67:22 shows.
+- changes: 1:6 is heard as a request to be able to stand: on the road now, before the Lord on the day. Fatiha is recited standing.
+- grade: core
+- sources:
+  - Grounds channel 5C via 83:6. Channel 11A holds partially.
+  - HFT 1:4 o_rising_event: holds, upgraded.
+  - HFT 1:6 base_embodied_supported_motion: corrected. The body comes from B002 and 67:22, not from ه د ي B008.
+  - Ledgers: 1:2 Quran (83:6), 1:4 Quran/Chains, 1:6 Surah/New/Fatiha.
+
+### 7. Guidance against straying: the named owner and the ownerless stray
+- ayat: 1:1, 1:2, 1:6, 1:7
+- parts:
+  - 1:1 اسْمِ (س م و B005, الاسم تنويه ودلالة): making known.
+  - 1:2 رَبِّ: the known master.
+  - 1:6 ٱهْدِنَا (ه د ي B001, الهدى نقيض الضلالة): the pole requested.
+  - 1:7 ٱلضَّآلِّينَ: the pole refused, and the surah's last word.
+    - Plain sense: ض ل ل B001.
+    - Image only: B005 الضالة من الإبل ما يبقى بمضيعة لا يعرف ربها.
+    - B003: losing a known place, as in 68:26.
+- movement:
+  - The surah opens with a name that makes known and a Lord who is named.
+  - It asks for the guidance pole and closes on its dictionary antonym.
+  - The lexicon defines the stray as the animal whose rabb is not known, the exact opposite of the surah's opening condition.
+- meets:
+  - Chain 5: the end of the road.
+  - Chain 1: 43:36 and 15:56 bind straying to turning from al-Raḥmān.
+  - Chain 8: ḍāllīn is an active participle.
+- staging:
+  - 6:77 and 93:7 وَوَجَدَكَ ضَالًّا فَهَدَىٰ.
+  - 43:36–37: turning from the remembrance of al-Raḥmān leads to companions who bar the road, while the strayers think themselves guided.
+  - 20:90 وَإِنَّ رَبَّكُمُ ٱلرَّحْمَٰنُ فَٱتَّبِعُونِي: Harun's remedy for those led astray is to name their Lord.
+  - 15:56: only the ḍāllūn despair of their Lord's mercy.
+  - 20:52 لَا يَضِلُّ رَبِّي وَلَا يَنسَى.
+- limits:
+  - B005 is not a plain Quranic sense; it is image only.
+  - 26:20, 93:7: exit from straying is narrated.
+  - 7:30, 18:104: strayers think themselves guided.
+  - 12:40: a name protects only as a living remembrance, not as an uttered label.
+- changes: The surah's two ends face each other. At one end stand being known by a name and knowing one's Lord; at the other, being loose with no known owner. The last word names the state the prayer fears, and it stays open for the one who prays (26:20).
+- grade: core. The hudā/ḍalāl antithesis is dictionary-exact; the stray-camel layer is image level.
+- sources:
+  - HFT 1:1 outlier_anti_loss_recovery_mark: corrected and strengthened. The و س م steps are dropped and it is rebuilt on س م و B005 and ض ل ل B005.
+  - Grounds channel 4E.
+  - Ledgers:
+    - 1:1 Dictionary/New/Fatiha;
+    - 1:3 New (20:90);
+    - 1:6 Surah;
+    - 1:7 Surah/Quran (6:77, 15:56, 68:26).
+
+### 8. Grammar of agency: mercy named in full, favor said to "you", wrath left without an agent
+- ayat: 1:1, 1:3, 1:5, 1:7
+- parts:
+  - 1:1 and 1:3 ٱلرَّحْمَٰنِ: the faʿlān pattern, a state that fills its bearer, used only of God.
+  - ٱلرَّحِيمِ: the faʿīl pattern, abiding and shareable (9:128). Together they name the agent, twice.
+  - 1:5 إِيَّاكَ: the "you" is opened.
+  - 1:7 أَنْعَمْتَ: active, second person, agent explicit.
+  - ٱلْمَغْضُوبِ عَلَيْهِمْ (غ ض ب B001): passive participle, agentless, used only here in the Quran.
+  - ٱلضَّآلِّينَ: active participle; the strayers own their veering.
+- movement:
+  - Agency is distributed by form:
+    - mercy: twice, named;
+    - favor: once, to the face;
+    - wrath: once, unattributed;
+    - straying: by the strayers themselves.
+  - Raḥmān's pattern is the pattern of غَضْبَانَ (7:150). The surah gives the "full" form to mercy, not to anger.
+- meets:
+  - Chain 1: the mercy frame.
+  - Chain 5: the exits.
+  - Chain 7: the active ḍāllīn.
+- staging:
+  - 7:150 and 20:86 غَضْبَانَ أَسِفًا: Musa's passing fullness of anger.
+  - 7:148–154 stages the whole vocabulary: ḍallū; لَئِن لَّمْ يَرْحَمْنَا رَبُّنَا; ġaḍbān; غَضَبٌ مِّن رَّبِّهِمْ; the anger subsides; هُدًى وَرَحْمَةٌ.
+  - 2:90 and 20:81: wrath descends عَلَىٰ.
+- limits:
+  - 58:14, 60:13, 48:6, 7:152: elsewhere wrath is openly God's. The passive is the prayer's language, not a doctrine.
+  - 7:156: favor and wrath are not symmetric powers.
+  - 17:110: the Allāh/Raḥmān distinction should not be over-sharpened.
+- changes: Only the whole surah lets the weights be compared: the prayer's speech leans toward mercy. Mercy is named twice, favor is said to the face, and wrath is said once, without a subject.
+- grade: core
+- sources:
+  - HFT 1:7 ctx_mercy_bounded_wrath: holds, with the B003 step corrected.
+  - HFT 1:7 base_agency_gradient: corrected. The gradient comes from grammar, not from ن ع م B010 or غ ض ب B003.
+  - Ledgers: 1:1 Surah/New, 1:3 Surah/New (7:150), 1:7 Surah/Readings.
+
+### 9. Guidance asked for is the favor already given; two "ʿalayhim" on one landing place
+- ayat: 1:6, 1:7 (and 1:5)
+- parts:
+  - 1:6 ٱهْدِنَا: the request.
+  - 1:7 أَنْعَمْتَ عَلَيْهِمْ (ن ع م B001, حسن الحال والنعمة): the favor, whose core is that very guidance.
+  - غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ: a second ʿalā at the same landing point.
+- movement:
+  - The prayer asks for what the favored received, so it closes a circle.
+  - Favor and wrath are both said to come down "upon". Where favor lands, refusing or envying it draws wrath.
+- meets:
+  - Chain 5: the travellers.
+  - Chain 3: favor against the counterfeit favor of 26:22.
+  - Chain 8: the active form against the passive.
+- staging:
+  - 48:2 وَيُتِمَّ نِعْمَتَهُ عَلَيْكَ وَيَهْدِيَكَ صِرَٰطًا مُّسْتَقِيمًا.
+  - 16:121, 12:6, 4:68–69.
+  - 49:17: guidance is a favor, not a wage.
+  - 27:19, 28:17, 46:15: each anʿamta prayer is followed by a pledge; in Fatiha the pledge (1:5) comes first.
+  - 2:90 بِغَضَبٍ عَلَىٰ غَضَبٍ.
+  - 8:53: favor is not changed until people change what is in themselves.
+  - 2:40 with 2:61: the same people.
+- limits:
+  - 17:83, 89:15–16: favor is not comfort.
+  - 11:46: lineage does not carry one onto the road.
+- changes: The road's travellers are those who already received what the prayer asks for. The prayer does not ask for a new road; it asks to be joined to a company.
+- grade: develop
+- sources:
+  - HFT 1:7 ctx_cultivated_completion: corrected. Completion comes from أتم نعمته, not from ن ع م B010.
+  - HFT 1:5 delta_help_as_gift_not_wage.
+  - HFT 1:6 outlier_gift_return_circuit: corrected via 49:17.
+  - Ledgers: 1:7 New (48:2, 2:90, 20:81), 1:6 Chains.
+
+### 10. Service levels the road
+- ayat: 1:4, 1:5, 1:6
+- parts:
+  - 1:4 ٱلدِّينِ (د ي ن B004, the line العبد مدين).
+  - 1:5 نَعْبُدُ: ع ب د B003 (plain), with B005 الطريق المعبد (a road trodden until smooth; also a tarred, tamed camel).
+  - 1:6 ٱلصِّرَٰطَ.
+- movement: The same root names both the one who submits and the road flattened by being walked. The practice that is renewed (a present-tense verb) is also the treading that makes the road passable.
+- meets:
+  - Chain 3: the servant.
+  - Chain 5: the road.
+- staging:
+  - 36:61, 3:51, 43:64: worship is called the straight road.
+  - 16:69 and 67:15 ذَلُولًا: a tamed walker and a tamed earth. The root differs; this is a scene parallel only.
+- limits: B005 is not the plain sense in 1:5. The bridge is interpretive, built from the dictionary together with the Quran's naming of worship as road.
+- changes: The road is not only received. It is also walked smooth by recited, repeated service.
+- grade: develop
+- sources:
+  - Grounds channel 4A.
+  - HFT 1:5 delta_service_as_path_work: holds.
+  - HFT 1:6 base_embodied_guidance_coactive: corrected.
+  - Ledgers: 1:5 Dictionary/New, 1:6 Chains/New.
+
+### 11. Account as measure; settlement without substitute
+- ayat: 1:4, 1:6, 1:7
+- parts:
+  - 1:4 ٱلدِّينِ (د ي ن B002). The debt B003 (dayn) is simile only, since it is a different word.
+  - 1:6 ٱلْمُسْتَقِيمَ (ق و م B015, the coin that does not tip).
+  - 1:7: two exits on either side.
+- movement: Reckoning is appraisal against a stable measure. The straight road does not tip toward either of the two exits.
+- meets:
+  - Chain 1: the account.
+  - Chain 6: the root.
+  - Chain 5: the exits.
+- staging:
+  - 83:1–6: the fraudulent market, then the day.
+  - 17:35 and 26:182 بِٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ.
+  - 21:47.
+  - Simile from the Quran's own sequence: 2:280–282, 24:25 يُوَفِّيهِمُ ٱللَّهُ دِينَهُمُ ٱلْحَقَّ, and 6:2.
+- limits:
+  - 2:48, 57:15: no ransom or substitute that day. The indemnity and substitution chains (غ ي ر B002/B003, ض ل ل B003) reverse on the day.
+  - 1:7 does not call its two exits "two pans". The balance image is imported from 17:35.
+- changes: The request for straightness is heard as a request for a conduct that can stand on the scale.
+- grade: develop
+- sources:
+  - Channel 6A: grounded via 83:1–6 and 36:71.
+  - Channel 6B: reversed by 2:48.
+  - HFT 1:4 d_rectifying_appraisal: holds.
+  - HFT 1:6 ctx_accountable_calibration: corrected; B010 is not a plain sense.
+  - Ledgers: 1:4 Quran/Limits, 1:6 Chains.
+
+### 12. Rearing lordship turning into mercy
+- ayat: 1:2, 1:3
+- parts:
+  - 1:2 رَبِّ (ر ب ب B002, إصلاح وتربية وإتمام).
+  - 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ (ر ح م B001). The womb (B003) is a simile layer only.
+- movement: The rearing Lord is at once named merciful. The Quran's human-scale mirror sets the same two words in one line.
+- meets:
+  - Chain 1: the frame.
+  - Chain 13: the Lord who creates and guides.
+- staging:
+  - 17:24 رَبِّ ٱرْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا.
+  - 26:78–81 and 87:2–3.
+  - 4:23 rabāʾib.
+  - Womb scenes: 3:6, 22:5, 4:1; the Maryam sura (al-Raḥmān sixteen times).
+- limits:
+  - ر ب و is an echo root.
+  - The two epithets never mean "womb".
+  - 19:88–93: al-Raḥmān takes no child; the relation opened is servanthood.
+  - 60:3: kinship avails nothing on the day.
+- changes: Lordship is heard as nurture before it is heard as power.
+- grade: develop
+- sources:
+  - Channels 2A and 7A: hold via the Quran's own usage.
+  - Channel 7B: B003 as simile; B004 rejected.
+  - HFT 1:2 c2_gestational_lordship: corrected via 17:24.
+  - HFT 1:3 d-mercy-as-nurturing-rule: corrected.
+  - HFT 1:3 b-mercy-as-womb: holds as simile.
+  - Ledgers: 1:2 New, 1:3 New/Limits.
+
+### 13. Worlds as signs; the Lord who creates, then guides
+- ayat: 1:2, 1:6
+- parts:
+  - 1:2 ٱلْعَٰلَمِينَ: ع ل م B003 as the sense (العالمون كل جنس من الخلق فهو في نفسه معلم وعلم), with the B002 road-mark image أثر يميز الشيء ويهدي إليه.
+  - 1:6 ٱهْدِنَا.
+- movement: Each kind of creature is itself a mark. The Lord of such marks is the one asked for the road.
+- meets:
+  - Chain 12 (the Lord's work).
+  - Chain 5.
+- staging:
+  - 16:16 وَعَلَٰمَٰتٍ وَبِٱلنَّجْمِ هُمْ يَهْتَدُونَ.
+  - 20:50 and 87:3: created, then guided.
+  - 3:79 and 96:4–5: the Lord who teaches.
+- limits:
+  - B002 is not the sense of ʿālamīn.
+  - 7:80, 3:42: ʿālamīn can mean humans or a single generation.
+- changes: The request of 1:6 extends to "us" what the Lord of the worlds does for every kind.
+- grade: develop
+- sources:
+  - Channel 4A: holds via 16:16.
+  - HFT 1:2 c5_worlds_as_navigable_signs: holds.
+  - HFT 1:2 b3_worlds_as_legibility_field: holds.
+  - Ledgers: 1:2 Quran/New, 1:6 Surah.
+
+### 14. Nothing lost from the account
+- ayat: 1:4, 1:7
+- parts:
+  - 1:4 ٱلدِّينِ (د ي ن B002).
+  - 1:7 ٱلضَّآلِّينَ: ض ل ل B003 (losing) and B004 (forgetting), as image.
+- movement: The root of straying also holds losing and forgetting. The owner of the account is the one of whom it is denied.
+- meets: Chain 7.
+- staging:
+  - 20:52 لَا يَضِلُّ رَبِّي وَلَا يَنسَى.
+  - 18:49.
+- limits: The plain sense in 1:7 is B001.
+- changes: What strays from people is not lost to the account.
+- grade: develop
+- sources:
+  - HFT 1:4 d_recovery_of_hidden_account: holds via 20:52.
+  - Ledger 1:4 Quran/Chains.
+
+### 15. One road for a plural "we"
+- ayat: 1:5, 1:6, 1:7
+- parts:
+  - 1:5 نَعْبُدُ / نَسْتَعِينُ: the plural.
+  - 1:6 -نَا.
+  - 1:7: "they", named twice with عَلَيْهِمْ.
+- movement: A plural voice, even when praying alone, asks for one singular road and to join a company.
+- meets:
+  - Chain 5.
+  - Chain 9 (rafīq).
+- staging:
+  - 6:153: one ṣirāṭ against subul that scatter.
+  - 38:22: a divided "we" asks a man, where in Fatiha a united "we" asks God.
+  - 4:69 رَفِيقًا.
+  - 3:159: softness gathers.
+- limits: The plural "we" of 26:71 and 43:22 can defend a false track.
+- changes: The road also makes a community.
+- grade: develop
+- sources:
+  - HFT 1:6 outlier_anti_scattering_collective: holds via 6:153.
+  - HFT 1:5 delta_collective_recoherence: weak (B010).
+  - Ledgers: 1:5 Readings, 1:6 New.
+
+### 16. Two disappearances: passage and burial
+- ayat: 1:6, 1:7
+- parts:
+  - ص ر ط B002 (الغيبة في المرور والبلع): a derivation attributed in Maqāyīs to some scholars. The sīn reading السراط makes it audible.
+  - ض ل ل B002: vanishing into earth, burial.
+- movement: A walker vanishes ahead on the road; a strayer vanishes into the ground.
+- meets: Chain 5.
+- staging:
+  - 21:87, 37:142, 68:49: Yunus, swallowed, reached by a favor. The Quran uses another root for the swallowing (ٱلْتَقَمَهُ).
+  - 32:10.
+- limits: This is not the sense of ṣirāṭ. It is image only.
+- grade: note
+- sources:
+  - HFT 1:7 base_successful_and_failed_disappearance: holds as simile.
+  - HFT 1:7 out_gestational_passage: corrected to the fish, not the womb.
+  - Channel 4C.
+
+### 17. Mercy as rain; the name in a sky-heavy family
+- ayat: 1:1, 1:3
+- parts:
+  - س م و B004: the sky, cloud, rain. A family echo, not the word's sense.
+  - ر ح م B001.
+- staging: 7:57, 30:50 (traces of mercy on the revived earth), 25:48.
+- limits:
+  - و س م B003 is an alternative root.
+  - ر ب ب B008 is only the lexicographer's explanation; 7:57 uses سحاب.
+- grade: note
+- sources:
+  - Channels 5A and 9C: corrected.
+  - HFT 1:1 delta_1_2_rain_womb_cultivation: corrected.
+  - HFT 1:2 o1: fails alone.
+
+### 18. The name raised, the self not raised
+- ayat: 1:1, 1:5
+- parts:
+  - اسْمِ: س م و B005 from B001, العلو.
+  - نَعْبُدُ: humble submission.
+- staging:
+  - 24:36 أَن تُرْفَعَ وَيُذْكَرَ فِيهَا ٱسْمُهُ.
+  - 87:1.
+  - 27:31 أَلَّا تَعْلُوا عَلَيَّ: the letter under the name first forbids self-raising.
+- grade: note
+- sources: Ledger 1:1 Quran/New.
+
+### Rejected / not carried
+- **س م م, ه د د, ع ي ن, ر ب و, و س م steps.** These are echo or alternative roots. The following fail as readings of the word:
+  - swallowing gate;
+  - lullaby;
+  - reconstruction after collapse;
+  - watchful eye;
+  - account-bearing seal.
+- **Channel 3D, the captain (ر ب ب B017).** Fails.
+- **Channel 4B, the leading animal (م ل ك B008).** Fails for 1:4; ه د ي B003 survives only as the "foremost" image in 1:7.
+- **Channels 8B and 12C, the hunters (س م و B006).** Fail.
+- **Channel 11B, postpartum pain (ر ح م B004).** Fails.
+- **Channel 7E, jealousy.** Fails.
+- **Channels 9A and 9B, and all of 10 and 11C.** No Quranic scene.
+- **Channel 12D and HFT outlier_incisive_passage (the sword, ص ر ط B003).** Fail.
+- **Channel 6B and HFT base_decisive_partition (indemnity, unavenged blood).** Fail at the focus words and are reversed by 2:48.
+- **HFT 1:3 o-mercy-enters-the-ledger-as-kinship.** Fails by 60:3.
+- **Channel 12A, rivalry (س م و B007).** Present only as negated (19:65 هَلْ تَعْلَمُ لَهُ سَمِيًّا).
