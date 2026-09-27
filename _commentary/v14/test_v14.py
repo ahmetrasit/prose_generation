@@ -90,6 +90,39 @@ class SynthesisTests(unittest.TestCase):
         account['bundles'][0]['evidence'] = ['A source illuminates the receiver.']
         self.assertFalse(S.check_account(self.data(), first + '\n\n' + first, account)['structurally_valid'])
 
+    def test_trace_links_do_not_claim_quality_and_partial_work_is_forwarded(self):
+        body = 'A source illuminates the receiver and makes the road visible.'
+        account = {'schema': 3, 'links': [{'items': ['F1'], 'at': [body]}],
+                   'partial': [{'items': ['E_F1'], 'at': [body],
+                                'remaining': 'The limiting case is not yet explained.', 'destination': 'review'}],
+                   'deferred': [{'items': 'remaining', 'reason': 'Other records await development.', 'destination': 'surah'}]}
+        check = S.check_account(self.data(), body, account)
+        self.assertTrue(check['structurally_valid'])
+        self.assertEqual(check['decisions']['F1']['level'], 'linked')
+        self.assertEqual(check['decisions']['E_F1']['level'], 'partial')
+        forwarded = S.handforward(self.data(), check)
+        self.assertIn('The limiting case is not yet explained.', forwarded)
+        self.assertIn('E_F1: partial', forwarded)
+        self.assertNotIn('## F1:', forwarded)
+        self.assertEqual(check['semantic_acceptance'], 'pending independent review')
+
+    def test_trace_rejects_quality_grades_duplicate_ids_and_hidden_omissions(self):
+        body = 'A source illuminates the receiver and makes the road visible.'
+        account = {'schema': 3, 'links': [{'items': ['F1'], 'at': [body], 'level': 'connected'}],
+                   'partial': [], 'deferred': []}
+        self.assertFalse(S.check_account(self.data(), body, account)['structurally_valid'])
+        del account['links'][0]['level']
+        account['partial'] = [{'items': ['F1'], 'at': [body], 'remaining': 'missing component', 'destination': 'review'}]
+        account['deferred'] = [{'items': 'remaining', 'reason': 'Other records await development.', 'destination': 'surah'}]
+        self.assertFalse(S.check_account(self.data(), body, account)['structurally_valid'])
+        account['partial'][0]['items'] = ['E_F1']
+        account['partial'][0]['remaining'] = ''
+        self.assertFalse(S.check_account(self.data(), body, account)['structurally_valid'])
+        account['partial'][0]['remaining'] = 'A distinct limiting scene remains unexplained.'
+        self.assertTrue(S.check_account(self.data(), body, account)['structurally_valid'])
+        account['links'][0]['at'] = ['A fabricated anchor not present in the prose.']
+        self.assertFalse(S.check_account(self.data(), body, account)['structurally_valid'])
+
 
 class SourceContractTests(unittest.TestCase):
     def test_concordance_maps_declared_clause_to_exact_source_and_keeps_counts(self):
@@ -175,7 +208,7 @@ class FrozenExperimentTests(unittest.TestCase):
         EX.export(self.arm,'24:35')
         EX.claim(self.arm,'24:35','test-model','max')
         body=' '.join(['The commentary develops a connected explanation.']*70)
-        account={'schema':2, 'bundles':[], 'deferred':[{'items':'remaining','destination':'surah','reason':'test deferral'}]}
+        account={'schema':3, 'links':[], 'partial':[], 'deferred':[{'items':'remaining','destination':'surah','reason':'test deferral'}]}
         EX.ingest(self.arm,'24:35',body+'\n===== SYNTHESIS =====\n'+json.dumps(account))
         packet,receipt=EX.packet(self.arm,'24:36')
         self.assertIn(body,packet)
@@ -236,6 +269,27 @@ class FrozenExperimentTests(unittest.TestCase):
         self.assertEqual(record['returned'], ['24:34', '24:35'])
         self.assertEqual(record['bytes'], len(output.getvalue().encode()))
         self.assertNotIn('source text 36', output.getvalue())
+
+    def test_evaluation_is_frozen_separately_and_review_uses_it_without_writer_leakage(self):
+        criteria = self.root/'custom_cases.json'
+        criteria.write_text(json.dumps({'cases': [{'id':'SECRET_EVALUATION_ONLY', 'ref':'24:35',
+                                                'mode':'preserve', 'criterion':'A protected relationship', 'baselines':[]}]}))
+        manifest = EX.prepare(self.arm,self.root/'out-v2',['24:35'],criteria=criteria)
+        packet, receipt = EX.packet(self.arm,'24:35')
+        self.assertNotIn('SECRET_EVALUATION_ONLY', packet)
+        self.assertNotIn(manifest['evaluation_file'], receipt['files'])
+        out = EX.ayah_dir(self.arm,'24:35')
+        (out/'24_35.reading.tr.md').write_text('A complete candidate for independent review.')
+        with patch.object(R,'source_check',return_value={'ok':True}):
+            review = json.loads(R.initialize(self.arm,'24:35').read_text())
+        self.assertEqual([r['id'] for r in review['rows']], ['SECRET_EVALUATION_ONLY'])
+        frozen = self.arm/manifest['evaluation_file']
+        self.assertEqual(review['cases_sha256'], S.sha(frozen))
+        criteria.write_text('original criteria can evolve without rewriting the frozen run')
+        EX.verify(self.arm)
+        frozen.write_text('tampered criteria')
+        with self.assertRaisesRegex(ValueError,'Frozen evidence changed'):
+            EX.packet(self.arm,'24:35')
 
 
 class AcceptanceTests(unittest.TestCase):

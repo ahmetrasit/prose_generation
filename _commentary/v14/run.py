@@ -401,6 +401,7 @@ def main() -> None:
     ap.add_argument("--max-cost", type=float, default=5.0)
     ap.add_argument("--seed-from", default="v2")
     ap.add_argument("--source-mode", choices=("inline", "lookup"), default="inline", help="prepare: complete passages inline, or selective lookup for external writers")
+    ap.add_argument("--criteria", type=Path, help="prepare: freeze separate evaluation criteria; never included in writer input")
     ap.add_argument("--network-from")
     ap.add_argument("--response", type=Path)
     ap.add_argument("--execute", action="store_true", help="allow the explicitly requested model step")
@@ -427,7 +428,7 @@ def main() -> None:
         ap.error("Choose a new --tag; copied v13 arms are read-only")
     if a.step == "prepare":
         src = V13 / (f"out-{a.seed_from}" if a.seed_from else "out")
-        result = EX.prepare(OUT, src, refs, source_mode=a.source_mode)
+        result = EX.prepare(OUT, src, refs, source_mode=a.source_mode, criteria=a.criteria)
         print(f"Frozen {len(result['files'])} files for {', '.join(result['refs'])}; no model called")
         return
     if a.step == "preview":

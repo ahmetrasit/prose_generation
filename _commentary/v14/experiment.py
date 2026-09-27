@@ -40,7 +40,7 @@ def baseline_check() -> dict:
             "ok": not changed and not copies_changed}
 
 
-def prepare(arm: Path, source: Path, refs: list[str], source_mode: str = "inline") -> dict:
+def prepare(arm: Path, source: Path, refs: list[str], source_mode: str = "inline", criteria: Path | None = None) -> dict:
     if source_mode not in ("inline", "lookup"):
         raise ValueError("Source mode must be inline or lookup")
     if archived(arm):
@@ -80,6 +80,12 @@ def prepare(arm: Path, source: Path, refs: list[str], source_mode: str = "inline
         window = (work / "window").read_text().strip()
         copies[str(dest / "inputs" / "window_text.md")] = ROOT / window / "window_text.md"
     copies["inputs/write.md"] = ROOT / "prompts" / "write.md"
+    if criteria is not None:
+        criteria = criteria.resolve()
+        cases = json.loads(criteria.read_text())["cases"]
+        if any(not any(case.get("ref") == ref for case in cases) for ref in refs):
+            raise ValueError("Evaluation criteria must cover every prepared ayah")
+        copies["evaluation/regressions.json"] = criteria
     if source_mode == "lookup":
         copies["inputs/quran.tsv"] = SRC.QURAN_TEXT
     # Validate all sources before creating the destination.
@@ -141,9 +147,11 @@ def prepare(arm: Path, source: Path, refs: list[str], source_mode: str = "inline
         for step in ("act", "qeq"):
             dump(out / f"{step}.status.json", {"state": "reused", "source": origins[str((out / f'{step}.md').relative_to(arm))],
                                              "sha256": S.sha(out / f"{step}.md"), "cost": 0})
-    manifest = {"schema": 1, "writer_contract": 2, "source_mode": source_mode, "source_arm": source.name, "refs": refs, "upstream": "frozen",
+    manifest = {"schema": 1, "writer_contract": 3, "source_mode": source_mode, "source_arm": source.name, "refs": refs, "upstream": "frozen",
                 "quran_source": {"path": str(SRC.QURAN_TEXT), "sha256": S.sha(SRC.QURAN_TEXT)},
                 "default_writer": {"model": "opus", "effort": "high"}, "files": hashes, "origins": origins}
+    if criteria is not None:
+        manifest["evaluation_file"] = "evaluation/regressions.json"
     dump(arm / "experiment.json", manifest)
     return manifest
 
@@ -263,8 +271,9 @@ def ingest(arm: Path, ref: str, response: str, usage: dict | None = None) -> dic
     if not marker or len(body.split()) < 300 or "===== CONTINUE =====" in response:
         errors.append("Missing final synthesis marker, incomplete output or insufficient prose")
     data = json.loads((out / "synthesis.json").read_text())
-    if manifest.get("writer_contract", 1) >= 2 and (not isinstance(account, dict) or account.get("schema") != 2):
-        errors.append("This arm requires the compact synthesis account (schema 2)")
+    contract = manifest.get("writer_contract", 1)
+    if contract >= 2 and (not isinstance(account, dict) or account.get("schema") != contract):
+        errors.append(f"This arm requires synthesis account schema {contract}")
     check = S.check_account(data, body.strip(), account)
     check["errors"] += errors
     check["structurally_valid"] = check["structurally_valid"] and not errors

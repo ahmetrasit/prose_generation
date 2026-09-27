@@ -3,6 +3,13 @@
 Read DESIGN.md and INPUT_AUDIT.md. The v13 handoff remains at ../v13/HANDOFF.md. V14 began as an exact copy of all
 308 files; baseline.manifest.json records that snapshot. Never edit copied historical out*/ or work/ files.
 
+Current authorized work: read ARGUMENT_TRIAL.md. The user agreed to clearer argument structure, local source anchors
+and explicit partial-use accounting, then requested Sol 6 max and Astra 6 max in parallel. out-sol-argument and
+out-astra-argument are prepared with matched evidence and 15 separately frozen evaluation criteria. New writer
+contract 3 removes quality grades and payoff essays; old schemas remain supported. Twenty-three tests pass.
+Each writer may generate once, with selective source lookup; no interruption, restart or repair. Compare both
+complete outputs as the primary agent. The previous completed repeat and its shortcomings are recorded below.
+
 Latest result: read STABILIZATION_COMPARISON.md and REVIEW_RESPONSE.md. The agreed out-sol-stable repeat is complete:
 same Sol max, v2 upstream and full v2 1:5 context; one generation, no interruption/restart/repair. All 23 tags pass
 exactly. Prose: 4,802 raw / 4,605 gloss-substituted words. Accounting: 20,173 bytes (32.1% of response), down 55%.

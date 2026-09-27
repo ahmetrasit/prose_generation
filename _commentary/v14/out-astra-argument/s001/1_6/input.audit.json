@@ -1,0 +1,101 @@
+{
+  "ref": "1:6",
+  "arm": "out-astra-argument",
+  "inputs": [
+    {
+      "file": "inputs/write.md",
+      "bytes": 11091,
+      "job": "composition and accounting instructions"
+    },
+    {
+      "file": "s001/1_6/inputs/ayah.md",
+      "bytes": 2844,
+      "job": "focus text, translation and word-level morphology/notes"
+    },
+    {
+      "file": "s001/1_6/inputs/window_text.md",
+      "bytes": 611,
+      "job": "exact local scene and neighbours"
+    },
+    {
+      "file": "s001/1_6/synthesis.md",
+      "bytes": 95045,
+      "job": "findings, QeQ jobs, image members and meetings; one source record per entry"
+    },
+    {
+      "file": "s001/1_6/inputs/dictionary.md",
+      "bytes": 11617,
+      "job": "complete focus concepts and Turkish losses; exact branch quotations"
+    },
+    {
+      "file": "s001/1_6/inputs/branches.md",
+      "bytes": 24094,
+      "job": "cross-root evidence beyond the focus dictionary"
+    },
+    {
+      "file": "s001/1_6/inputs/concordance.md",
+      "bytes": 10223,
+      "job": "verified count scope and recurring-use patterns"
+    },
+    {
+      "file": "s001/1_6/inputs/variants.md",
+      "bytes": 355,
+      "job": "only meaningful alternative readings, no conflicting legacy usage table"
+    },
+    {
+      "file": "s001/1_6/inputs/source_access.md",
+      "bytes": 924,
+      "job": "selective access to exact Quran text and adjacent context; returned bytes logged separately"
+    },
+    {
+      "file": "context/s001/1_5.reading.tr.md",
+      "bytes": 49245,
+      "job": "immediately preceding prose: continuity and avoiding repetition"
+    }
+  ],
+  "input_bytes": 206601,
+  "v13_recorded_writer_bytes": 151835,
+  "approx_input_tokens_at_measured_0_45_per_byte": 92970,
+  "inventory_items": 192,
+  "overlapping_navigation_groups": 23,
+  "tags_recovered_from_v13_parser": [
+    [
+      "17:97",
+      "same-word"
+    ],
+    [
+      "28:22",
+      "staging"
+    ],
+    [
+      "67:22",
+      "same-word"
+    ]
+  ],
+  "generation_can_prove": "input inclusion and explicit job, not whether the model internally used it",
+  "upstream_changes_in_this_arm": "none: act, QeQ and network are byte-frozen",
+  "not_in_writer_input": [
+    "gold/evaluation criteria",
+    "target baseline commentary",
+    "raw discovery scan",
+    "raw HFT",
+    "pairs",
+    "legacy digest usage counts",
+    "reciprocal candidates"
+  ],
+  "remaining_gaps": [
+    "Surah commentary and reciprocal final check remain unbuilt.",
+    "The discovery concordance thresholds entire roots; rare focus lemmas inside frequent roots lack full clauses.",
+    "Inherited QeQ reads the legacy digest without explicit source-priority or variant-use instructions.",
+    "Previous context covers one ayah, not a complete verified surah reader state.",
+    "Dictionary branches supply first classical phrases, not all attested quotations.",
+    "Passage text is available; actual use and sufficient surrounding context still need review."
+  ],
+  "source_mode": "lookup",
+  "lookup_input": {
+    "calls": 0,
+    "returned_bytes": 0,
+    "distinct_ayat": 0,
+    "note": "Add tool responses to initial input; actual tokens/billing are not known from bytes."
+  }
+}

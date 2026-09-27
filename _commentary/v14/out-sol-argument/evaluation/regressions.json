@@ -1,0 +1,242 @@
+{
+  "schema": 1,
+  "evaluation_only": true,
+  "note": "Version 3 preserves the original ten criteria and adds five checks before out-sol-argument is prepared. Never writer input. Older criterion files and reviews remain unchanged.",
+  "cases": [
+    {
+      "id": "s001_006_ground",
+      "ref": "1:6",
+      "mode": "preserve",
+      "criterion": "The request specifies the help of 1:5 and hands the named road to 1:7; the plain meaning stays intelligible.",
+      "baselines": [
+        {
+          "path": "out/s001/1_6/1_6.reading.tr.md",
+          "sha256": "cc276a9b9e11e481e1dbf82a33fecba2e23d58b089491287d23275c8cc7b25b6",
+          "excerpt": "lerdi. {ar:نَسْتَعِينُ, tr:neste'în, gloss:yardım dileriz, source:1:5} açık bırakılmış bir istekti. 1:6 bu isteği doldurur: istenen yardım yoldur."
+        }
+      ]
+    },
+    {
+      "id": "s001_006_turkish_loss",
+      "ref": "1:6",
+      "mode": "preserve",
+      "criterion": "Explain lost bodily meaning in doğru/istikamet, narrowing of hidayet, and the added bridge association of sırat, without a lexical catalogue.",
+      "baselines": [
+        {
+          "path": "out/s001/1_6/1_6.reading.tr.md",
+          "sha256": "cc276a9b9e11e481e1dbf82a33fecba2e23d58b089491287d23275c8cc7b25b6",
+          "excerpt": "Türkçe bu kökten pek çok kelime almıştır: kıyam, kıyamet, kavim, ikamet, makam, kıymet, kayyum. Ama bunları birbirine bağlayan duruşu duymaz. En çarpıcı örnek, bu sıfatın kendi isim hâli olan \"istikamet\"tir. Türkçede yalnızca \"yön\" demektir ve kelimede ayakta durmaktan hiçbir şey kalmamıştır."
+        },
+        {
+          "path": "out/s001/1_6/1_6.reading.tr.md",
+          "sha256": "cc276a9b9e11e481e1dbf82a33fecba2e23d58b089491287d23275c8cc7b25b6",
+          "excerpt": "Türkçede \"hidayet\" dinî bir dönüşüme daralmıştır: \"hidayete ermek\" bir kez olup biten bir olaydır. \"Hediye\" aynı köktendir, ama Türkçe konuşan biri ikisini birlikte duymaz. \"İlet\" götürmeyi korur, ama sözlüğün ilk tanımındaki inceliği kaybeder: {ar:دلالة بلطف إلى الطريق والحق, tr:delâletün bi-lutfin ile't-tarîki ve'l-hakk, gloss:yola ve hakka incelikle yol göstermek, source:ه د ي B001}."
+        },
+        {
+          "path": "out/s001/1_6/1_6.reading.tr.md",
+          "sha256": "cc276a9b9e11e481e1dbf82a33fecba2e23d58b089491287d23275c8cc7b25b6",
+          "excerpt": "Türkçedeki \"sırat\" ise kelimeye bir şey ekler: \"sırat köprüsü\", kıldan ince ve kılıçtan keskin. Kur'an'daki kırk beş kullanımın hiçbiri köprüden söz etmez. Köprü geleneği, herkesin cehenneme varacağını söyleyen ve bu kelimeyi hiç kullanmayan 19:71'e dayanır. Yine de \"kılıçtan keskin\" benzetmesi, kelimenin sözlükte gerçekten taşıdığı \"kesip geçen kılıç\" anlamını farkında olmadan hatırlatır."
+        }
+      ]
+    },
+    {
+      "id": "s001_006_grammar",
+      "ref": "1:6",
+      "mode": "preserve",
+      "criterion": "Explain the two articles and the direct-object construction insofar as they change the reading. Preserve the insight, not inherited inaccurate counts or unsupported grammatical certainty.",
+      "baselines": [
+        {
+          "path": "out/s001/1_6/1_6.reading.tr.md",
+          "sha256": "cc276a9b9e11e481e1dbf82a33fecba2e23d58b089491287d23275c8cc7b25b6",
+          "excerpt": "Yol ayrıca belirlidir. Arapçanın belirlilik takısı el- burada hem isimde hem sıfatta vardır: \"o yol, o dosdoğru olan.\" Türkçede harf-i tarif olmadığı için meal bunu söyleyemez. Kur'an çoğu yerde \"dosdoğru bir yol\" der. İki kelimenin de belirli olduğu bu kalıp yalnız burada ve Musa ile Harun'a verilen yolda geçer: {ar:وَهَدَيْنَٰهُمَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ, tr:ve hedeynâhüme's-sırâta'l-müstakîm, gloss:ve ikisini o dosdoğru yola ilettik, source:37:118}. Demek ki istenen herhangi bir düzgün yol değildir; bilinen ve daha önce birilerine verilmiş bir yoldur. 1:7 bu belirliliği hemen ikinci kez kurar ve yolun kimlerin yolu olduğunu söyler."
+        },
+        {
+          "path": "out/s001/1_6/1_6.reading.tr.md",
+          "sha256": "cc276a9b9e11e481e1dbf82a33fecba2e23d58b089491287d23275c8cc7b25b6",
+          "excerpt": "1:6'da ise yol edatsızdır ve fiilin doğrudan nesnesidir. Kur'an aynı yapıyı başka yerlerde de kullanır: {ar:وَلَهَدَيْنَٰهُمْ صِرَٰطًۭا مُّسْتَقِيمًۭا, tr:ve le-hedeynâhüm sırâtan müstakîmâ, gloss:ve onları elbette dosdoğru bir yola iletirdik, source:4:68}. Dilcilerin bir kısmı bu farkı iki ayrı hareket olarak açıklar: yola doğru yöneltmek ile yolun içinde yürütmek. Bu okumada dilek, yolun dışında olanların sözü olmaktan çıkar ve yolda olanların da söyleyeceği bir söze dönüşür. Kur'an'da yola iletilmiş olanlar dilemeyi bırakmaz: {ar:رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا, tr:rabbenâ lâ tüzığ kulûbenâ ba'de iz hedeytenâ, gloss:Rabbimiz bizi ilettikten sonra kalplerimizi kaydırma, source:3:8}."
+        }
+      ]
+    },
+    {
+      "id": "s001_006_road",
+      "ref": "1:6",
+      "mode": "preserve",
+      "criterion": "Connect way-marks, the road centre and the trodden surface into an explained road with a consequence for the petition.",
+      "baselines": [
+        {
+          "path": "out/s001/1_6/1_6.reading.tr.md",
+          "sha256": "cc276a9b9e11e481e1dbf82a33fecba2e23d58b089491287d23275c8cc7b25b6",
+          "excerpt": "1:6 \"o yol\" dediğinde, adıyla anılan şey zaten serilmiştir. Âlemlerin işaretleriyle belirlenmiş, ortası sahibinin elinde, kulların ayaklarıyla düzlenmiş, alışkanlıkla açık tutulan bir yoldur. Eksik olan, o yolda yürütülmektir."
+        }
+      ]
+    },
+    {
+      "id": "s001_006_supported_motion",
+      "ref": "1:6",
+      "mode": "preserve",
+      "criterion": "Explain halted versus living upright motion, assistance, and the embodied petition; preserve consequential QeQ rather than a list of senses.",
+      "baselines": [
+        {
+          "path": "out/s001/1_6/1_6.reading.tr.md",
+          "sha256": "cc276a9b9e11e481e1dbf82a33fecba2e23d58b089491287d23275c8cc7b25b6",
+          "excerpt": "tr:ve izâ azleme aleyhim kâmû, gloss:üzerlerine karanlık çöktüğünde dikilip kalırlar, source:2:20}. Donmuş su, çökmüş binek, ayakta ama kör göz, karanlıkta kalakalmış yolcu: hepsi \"duruyor\"dur ve hiçbiri ilerlemez. Müstakîm aynı kökten bunun tersini seçer: dik durup ilerlemeyi sürdürmek. Akmaya devam eden su, yürümeye devam eden beden."
+        },
+        {
+          "path": "out/s001/1_6/1_6.reading.tr.md",
+          "sha256": "cc276a9b9e11e481e1dbf82a33fecba2e23d58b089491287d23275c8cc7b25b6",
+          "excerpt": "Bu duruşun namazda da bir karşılığı vardır. Fâtiha namazda ayakta okunur ve sözlük kökün bedensel duruşunu tam bununla örnekler: {ar:القومة ما بين الركعتين من القيام, tr:el-kavmetü mâ beyne'r-rek'ateyni mine'l-kıyâm, gloss:iki eğiliş arasındaki ayakta duruş, source:ق و م B002}. Kur'an bu duruşu emreder: {ar:وَقُومُوا۟ لِلَّهِ قَٰنِتِينَ, tr:ve kûmû lillâhi kânitîn, gloss:Allah için boyun eğerek ayakta durun, source:2:238}. Dosdoğru yolu dileyen, bu dileği bedeni dik dururken söyler. Kelimenin söylediğini beden de söyler."
+        }
+      ]
+    },
+    {
+      "id": "s001_006_balance",
+      "ref": "1:6",
+      "mode": "preserve",
+      "criterion": "Keep the straight-balance passage and its relationship to exact measure, uprightness and the road; same-word is not grounds for dropping it.",
+      "baselines": [
+        {
+          "path": "out-v2/s001/1_6/1_6.reading.tr.md",
+          "sha256": "d741ef0928327d6d85c995d90e538b9b57b62b28802d3efff88657b683dd46ae",
+          "excerpt": "Sıfatın bir de ağırlığı vardır. Kökü değer biçmeyi adlandırır: {ar:القيمة ثمن الشيء بالتقويم, tr:el-kıymetu semenu'ş-şey'i bi't-takvîm, gloss:kıymet değer biçmeyle belirlenen bedeldir, source:ق و م B010}. Türkçedeki \"kıymet\" de buradan gelir. Terazide ağır basmayan, tam ayarında sikkeyi de adlandırır: {ar:دنانير قوم وقيم ودينار قائم أي مثقال سواء لا يرجح, tr:denânîru kavmun ve kıyemun ve dînârun kâimun ey miskâlun sevâun lâ yerceh, gloss:tam ayarlı dinarlar yani ağır basmayan denk miskal, source:ق و م B015}. Canlanan pazarı da adlandırır: {ar:قامت السوق نفقت, tr:kâmeti's-sûku nefekat, gloss:pazar kalktı yani mallar sürüm buldu, source:ق و م B018}. Kur'an sıfatı bir kez de bu anlamda kullanır, bir teraziye bağlayarak: {ar:وَزِنُوا۟ بِٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ, tr:ve zinû bi'l-kıstâsi'l-mustakîm, gloss:dosdoğru teraziyle tartın, source:17:35, 26:182}. Burada doğruluk, eksiksiz ağırlıktır. Yolda yürüyen ile adaleti emreden de yan yana konur: {ar:يَأْمُرُ بِٱلْعَدْلِ ۙ وَهُوَ عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ, tr:ye'muru bi'l-adli ve huve alâ sırâtın mustakîm, gloss:adaleti emreder ve kendisi dosdoğru bir yol üzerindedir, source:16:76}. Dördüncü ayetteki \"dîn\" kelimesi borcu ve vadeli alışverişi de adlandırıyordu; \"mâlik\" de alacaklı sahibi. Bu okumada altıncı ayet borcun hangi sikkeyle ödeneceğini söyler: tam ayarında olanla. Kur'an iki şeyi tek bir pasajda birleştirir: ölçüde eksik verenler (83:3) ile insanların âlemlerin Rabbi için ayağa kalkacağı gün (83:6). Eksik tartılmış sikkenin cevabı, hesapta ayağa kalkmaktır. Kökün bir anlamı daha bu hesaba bağlanır: başkasının yerine geçmek, {ar:نيابة وقيام مقام غيره, tr:niyâbetun ve kıyâmun makâme ğayrih, gloss:başkasının yerine ge"
+        }
+      ]
+    },
+    {
+      "id": "s001_006_open_scene",
+      "ref": "1:6",
+      "mode": "preserve",
+      "criterion": "Keep an explained traveller-guidance scene, including the recovered Moses passage, where it changes the understanding of the request.",
+      "baselines": [
+        {
+          "path": "out-v2/s001/1_6/1_6.reading.tr.md",
+          "sha256": "d741ef0928327d6d85c995d90e538b9b57b62b28802d3efff88657b683dd46ae",
+          "excerpt": "Dilek bir yolcu sahnesinden de beslenir. Kur'an bu sahneyi açıkça anlatır. Medyen'e doğru yalnız başına yola çıkan Musa {ar:عَسَىٰ رَبِّىٓ أَن يَهْدِيَنِى سَوَآءَ ٱلسَّبِيلِ, tr:asâ rabbî en yehdiyenî sevâe's-sebîl, gloss:umarım Rabbim beni yolun düzüne götürür, source:28:22} der. Gecenin karanlığında ateş gören Musa, ateşin başında yolu bilen birini bulmayı umar: {ar:أَوْ أَجِدُ عَلَى ٱلنَّارِ هُدًۭى, tr:ev ecidu ale'n-nâri hudâ, gloss:ya da ateşin başında yol gösteren bulurum, source:20:10}. Karşı sahne de vardır: şeytanların yeryüzünde şaşırttığı, arkadaşları onu doğruya çağırırken ıssız arazide dönüp duran adam, {ar:حَيْرَانَ, tr:hayrân, gloss:şaşkın, source:6:71}. Yolunu yitirmiş olanın yola konması Kur'an'da tek bir kelimelik mesafedir: {ar:وَوَجَدَكَ ضَآلًّۭا فَهَدَىٰ, tr:ve vecedeke dâllen fe-hedâ, gloss:seni yolunu arar buldu ve yola iletti, source:93:7}. Fâtiha'da da mesafe aynıdır: tek dilek ile son kelime arasındaki mesafe. Yedinci ayet yolu çatallandıracaktır. \"Başka\" anlamındaki {ar:غَيْرِ, tr:ğayri, gloss:dışında, source:1:7} kelimesi makas gibi işler; bir yanda gazap yüklenip dönenler, öbür yanda amaçtan kayıp yitenler kalır. Bu çatala kadar yol kendini koruyarak uzanır. Surenin başından beri süren ayırt etme işi, yani bir şeyi kendi ötekinden işaretle ayırma, burada somut bir biçim alır. Dosdoğru olan, eğri olandan ayrılan tek yoldur. Aynı yolu, sonraki bir tabloda görüleceği gibi, Kur'an denizde de kurar. İkinci ayetteki \"Rab\" kelimesinin kökü gemicilerin reisini de adlandırır. Yolun dikliği bu okumada tutulan rotadır: reis uzaktan görünen bir dağa bakarak yönünü bulur, yolculuğu doğru tutmak ister. Rota da, su üzerinde çizilen bir yoldur."
+        }
+      ]
+    },
+    {
+      "id": "s001_006_coexistence",
+      "ref": "1:6",
+      "mode": "preserve",
+      "criterion": "Latent readings stay beside the plain reading; a missing open staging does not reverse or disqualify them. Keep genuine counter-evidence and clearly attribute speculative claims.",
+      "baselines": [
+        {
+          "path": "out-v2/s001/1_6/1_6.reading.tr.md",
+          "sha256": "d741ef0928327d6d85c995d90e538b9b57b62b28802d3efff88657b683dd46ae",
+          "excerpt": "üyerek, source:28:25} gelir. Yol da bir nikâh akdiyle ve yıllarca süren bir hizmetle biter (28:27). Götürme olduğu gibi kalır, yalnız yönü değişir. Gelin ile kurbanı aynı fiilin taşıması da bu okumayı bir öncekine bağlar: ikisi de sahiplerinin kabul edeceği yere, sevgiyle gönderilir."
+        }
+      ]
+    },
+    {
+      "id": "s001_006_water_system",
+      "ref": "1:6",
+      "mode": "improve",
+      "criterion": "Known gap: go beyond naming the well frame. Show how this ayah's standing member works with the water system and the traveller. Do not credit a nearby well story alone as that connection.",
+      "baselines": [
+        {
+          "path": "out-v2/s001/1_6/1_6.reading.tr.md",
+          "sha256": "d741ef0928327d6d85c995d90e538b9b57b62b28802d3efff88657b683dd46ae",
+          "excerpt": "rselû vâridehum fe-edlâ delveh, gloss:sucularını gönderdiler o da kovasını sarkıttı, source:12:19}. Sıfatın kökü kuyunun başındaki dik makara çatısını da adlandırır ve dayanağı su yapar. Su iki biçimde yitebilir. Donarak durur ya da salınıp ıssız arazide akıp kaybolur: {ar:ماء مُولَه ذاهب, tr:mâun mûlehun zâhib, gloss:salınıp giden su, source:و ل ه B003}. Dosdoğru olan, ne donan ne de dağılıp giden, dik durarak akmaya devam eden sudur. Kur'an bunu yola bağlar: {ar:وَأَلَّوِ ٱسْتَقَٰمُوا۟ عَلَى ٱلطَّرِيقَةِ لَأَسْقَيْنَٰهُم مَّآءً غَدَقًۭا, tr:ve ellevistekâmû ale't-tarîkati le-eskaynâhum mâen ğadakâ, gloss:yolda dosdoğru dursalardı onlara bol su içirirdik, source:72:16}. Yürüyüşün dikliğine akan su cevap verir."
+        }
+      ]
+    },
+    {
+      "id": "s001_006_reader_development",
+      "ref": "1:6",
+      "mode": "improve",
+      "criterion": "Improve readable development and integration over v2 while retaining the protected explanations above. Compare repetition, transitions, inferential bridges and relation to the supplied preceding prose. No word-count target or aggregate score.",
+      "baselines": [
+        {
+          "path": "out-v2/s001/1_6/1_6.reading.tr.md",
+          "sha256": "d741ef0928327d6d85c995d90e538b9b57b62b28802d3efff88657b683dd46ae",
+          "excerpt": "Sıfatın bir de ağırlığı vardır. Kökü değer biçmeyi adlandırır: {ar:القيمة ثمن الشيء بالتقويم, tr:el-kıymetu semenu'ş-şey'i bi't-takvîm, gloss:kıymet değer biçmeyle belirlenen bedeldir, source:ق و م B010}. Türkçedeki \"kıymet\" de buradan gelir. Terazide ağır basmayan, tam ayarında sikkeyi de adlandırır: {ar:دنانير قوم وقيم ودينار قائم أي مثقال سواء لا يرجح, tr:denânîru kavmun ve kıyemun ve dînârun kâimun ey miskâlun sevâun lâ yerceh, gloss:tam ayarlı dinarlar yani ağır basmayan denk miskal, source:ق و م B015}. Canlanan pazarı da adlandırır: {ar:قامت السوق نفقت, tr:kâmeti's-sûku nefekat, gloss:pazar kalktı yani mallar sürüm buldu, source:ق و م B018}. Kur'an sıfatı bir kez de bu anlamda kullanır, bir teraziye bağlayarak: {ar:وَزِنُوا۟ بِٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ, tr:ve zinû bi'l-kıstâsi'l-mustakîm, gloss:dosdoğru teraziyle tartın, source:17:35, 26:182}. Burada doğruluk, eksiksiz ağırlıktır. Yolda yürüyen ile adaleti emreden de yan yana konur: {ar:يَأْمُرُ بِٱلْعَدْلِ ۙ وَهُوَ عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ, tr:ye'muru bi'l-adli ve huve alâ sırâtın mustakîm, gloss:adaleti emreder ve kendisi dosdoğru bir yol üzerindedir, source:16:76}. Dördüncü ayetteki \"dîn\" kelimesi borcu ve vadeli alışverişi de adlandırıyordu; \"mâlik\" de alacaklı sahibi. Bu okumada altıncı ayet borcun hangi sikkeyle ödeneceğini söyler: tam ayarında olanla. Kur'an iki şeyi tek bir pasajda birleştirir: ölçüde eksik verenler (83:3) ile insanların âlemlerin Rabbi için ayağa kalkacağı gün (83:6). Eksik tartılmış sikkenin cevabı, hesapta ayağa kalkmaktır. Kökün bir anlamı daha bu hesaba bağlanır: başkasının yerine geçmek, {ar:نيابة وقيام مقام غيره, tr:niyâbetun ve kıyâmun makâme ğayrih, gloss:başkasının yerine ge"
+        }
+      ]
+    },
+    {
+      "id": "s001_006_upright_book",
+      "ref": "1:6",
+      "mode": "preserve",
+      "criterion": "Preserve the distinct explanation connecting the unbent/upright Book in 18:1-2 to straightness beyond the road. A bare reference or the book given to Moses is not that explanation.",
+      "baselines": [
+        {
+          "path": "out-sol-max/s001/1_6/1_6.reading.tr.md",
+          "sha256": "b803819a21d84d86f0ed7585e0d8eec508566223c98a0411fc114771f7a969de",
+          "excerpt": "Üç kelime birbirinin anlamını seçer. Fiilin ardından bir yol adı geldiği için burada istenen, bir yere dair genel bilgi değil, bir yolda ilerlemeye yarayan rehberliktir. Son kelime de bu yolun nasıl olduğunu belirtir. Sözlük sırâtı {ar:الطريق المستقيم, tr:et-tarîku'l-mustakîm, gloss:dosdoğru yol, source:ص ر ط B001} diye açıklayarak yolun adını hemen sonrasındaki sıfatla tanımlar. Bununla birlikte Kur'an aynı yol adını tehditçilerin oturduğu herhangi bir yol için de kullanır (7:86); hatta {ar:صِرَٰطِ ٱلْجَحِيمِ, tr:sırâti'l-cahîm, gloss:cehennemin yolu, source:37:23} der. Demek ki “dosdoğru” burada bir süs değildir. Yolun adı geçiş imkânını verir; sıfat, hangi geçişin istendiğini seçer. Kur'an'ın eğrilik taşımayan ve düzgünlüğü sağlayan bir Kitap'tan söz etmesi de aynı doğruluk alanını yazılı söze taşır (18:1–2). İstenen yol, yalnız geometrik bir çizgi değildir; sözün ve davranışın eğrilikten uzak oluşunu da taşır."
+        }
+      ]
+    },
+    {
+      "id": "s001_006_fire_guide",
+      "ref": "1:6",
+      "mode": "preserve",
+      "criterion": "Retain the 20:10 fire/guide scene and its contribution to hearing guidance as an actual traveller need, alongside the Moses road petition. A reference alone is insufficient.",
+      "baselines": [
+        {
+          "path": "out-sol-stable/s001/1_6/1_6.reading.tr.md",
+          "sha256": "9e4eb8fa5646b8ece32c6bd4f96a510c0b1c4056ec48321358ef4569c7859f4d",
+          "excerpt": "“Hidayet” Türkçede çoğu zaman bir kişinin dine girmesiyle sınırlanır. Buradaki fiilin sözlük alanı daha geniştir. Tanımı {ar:دلالة بلطف إلى الطريق والحق, tr:delâletun bi-lutf ile't-tarîki ve'l-hakk, gloss:yolu ve doğruyu incelikle gösterme, source:ه د ي B001} sözleriyle açılır. Bir yolu tanıtmak, ona yönlendirmek ve orada ilerlemeyi mümkün kılmak bir aradadır. “İlet” hareketi korur, fakat bu inceliği tek başına duyurmaz. Rahmân ve Rahîm diye anılan muhataptan gelen yönlendirme, sûrenin merhamet dilini yürüyüşe geçirir. Rehber önden gider, yolu bilenin bilgisini yolcunun adımına ulaştırır. Mûsâ'nın Medyen'e yönelirken “Rabbim beni yolun düzgün doğrultusuna iletir umarım” demesi (28:22), aynı fiili gerçek bir yolculukta işittirir. Gece gördüğü ateşin yanında bir yol gösteren bulmayı umduğu başka sahne de vardır (20:10). Dini yönelişin dili, yönünü arayan yolcunun ihtiyacını içinde tutar."
+        }
+      ]
+    },
+    {
+      "id": "s001_006_resurrection_gait",
+      "ref": "1:6",
+      "mode": "preserve",
+      "criterion": "Retain the bodily consequence of upright versus face-down walking through 17:97 and 25:34, connected to 67:22 and the petition.",
+      "baselines": [
+        {
+          "path": "out-sol-stable/s001/1_6/1_6.reading.tr.md",
+          "sha256": "9e4eb8fa5646b8ece32c6bd4f96a510c0b1c4056ec48321358ef4569c7859f4d",
+          "excerpt": "Yolun düzgünlüğüyle yürüyenin dikliği Kur'an'da bir soruya dönüşür: {ar:أَفَمَن يَمْشِى مُكِبًّا عَلَىٰ وَجْهِهِۦٓ أَهْدَىٰٓ, tr:e fe men yemşî mukibben ʿalâ vechihî ehdâ, gloss:yüzüstü kapanarak yürüyen mi daha iyi yön bulur, source:67:22}; ardından dosdoğru yol üzerinde dengeli yürüyen gösterilir. Biri yüzünü yürüyüşün zeminine kapatmıştır; öbürü bedenini doğrultup önünü görebilir. Yol çizgisiyle bedenin dengesi birlikte hareketin imkânını belirler. Yüzleri üzerinde toplananların kör, dilsiz ve sağır olarak anlatılması (17:97), başka yerde aynı yüzüstü götürülüşün “yolca daha sapmış” sayılması (25:34), bu beden resmine bir son da verir. Fâtiha'yı namazda ayakta okuyan kişi, dikliğini koruyan yolu isterken kendi bedeniyle de bu resmi taşır. Zekeriya'nın duasından sonra gelen haber onu ayakta namaz kılarken bulur (3:38–39); “Allah için gönülden bağlılıkla ayakta durun” buyruğu da bu kökü kullanır (2:238). Ayakta duruş, dilin dileğini bedende yaşatır."
+        }
+      ]
+    },
+    {
+      "id": "s001_006_local_source_hinges",
+      "ref": "1:6",
+      "mode": "improve",
+      "criterion": "Improve paragraph-local evidence for consequential lexical inferences and unusual branch connections over sol-stable. Show exact short source-bearing phrases where the argument depends on the wording, explain them in readable Turkish, and avoid quoting every parallel. Judge the actual hinges, not tag count.",
+      "baselines": [
+        {
+          "path": "out-sol-stable/s001/1_6/1_6.reading.tr.md",
+          "sha256": "9e4eb8fa5646b8ece32c6bd4f96a510c0b1c4056ec48321358ef4569c7859f4d",
+          "excerpt": "Yolcunun suya ulaşması, dikliğin bir başka işlevini açar. Müstakimin kökü kuyu donanımının dik ve taşıyıcı parçasını da adlandırır. Kuyu başındaki çerçeve yükü tutar; kova, aşağıdaki suyu yukarı getirir. Sözlükte insan boyuyla ilişkilendirilmiş kuyu yapısı açıklaması da vardır, fakat bu açıklama tartışmalıdır; taşıyıcı parçanın işi için ona ihtiyaç yoktur. Kur'an'da bir yolcu topluluğu su çekicisini gönderir; o kovasını indirip kuyudaki çocuğu bulur (12:19). Ayet bir makara tarif etmez; yol üzerindeki duruşla aşağıdan çıkarma hareketini verir. Kuyu, kaynak ve dayanak böylece yolun sürdürülebilirliğine katılır. Sûredeki Rabb'in kökünde suyun bolluğu, Sahip'in kökünde yolcunun işini sürdüren su da kayıtlıdır. Bedenin ayakta kalması kadar yolculuğun ayakta kalması da suya bağlıdır. Yardım isteyen yolcu, bir doğrultuyla birlikte o doğrultuda ilerlemesini taşıyan imkânları ister."
+        },
+        {
+          "path": "out-sol-stable/s001/1_6/1_6.reading.tr.md",
+          "sha256": "9e4eb8fa5646b8ece32c6bd4f96a510c0b1c4056ec48321358ef4569c7859f4d",
+          "excerpt": "“Dosdoğru”nun davranıştaki ağırlığını en iyi bir tartı duyurur. Kur'an'da müstakim yalnız yolun sıfatı değildir: {ar:وَزِنُوا۟ بِٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ, tr:ve zinû bi'l-kıstâsi'l-mustakîm, gloss:dosdoğru teraziyle tartın, source:17:35,26:182} denir. Terazinin doğruluğu, görünüşünün düzgünlüğünden ölçünün hakkı vermesine geçer. Sözlük aynı kökten tam ağırlığında olan, terazide ağır basmayan para parçasını, malın değerini belirlemeyi ve ortaya çıkan bedeli anlatır. Türkçe “kıymet” derken bu ayakta durma ailesini duymaz. Bir pazar canlanır, mallar el değiştirir; alışverişin ayakta kalmasını sağlayan ölçü, taraflardan birini kayıracak biçimde eğilmemelidir. “Ağırlığı adaletle ayakta tutun” buyruğu da aynı kökü kullanır (55:9). Sûredeki hesap gününden sonra bu yolun istenmesi, hesabı düzgün olacak bir hayatın istenmesi olarak işitilir."
+        },
+        {
+          "path": "out-sol-stable/s001/1_6/1_6.reading.tr.md",
+          "sha256": "9e4eb8fa5646b8ece32c6bd4f96a510c0b1c4056ec48321358ef4569c7859f4d",
+          "excerpt": "Gönderilmenin ev içindeki sözlük sahnesi, gelinin eşinin yanına götürülmesidir. Rehberlik kökü bu götürülüşü, sakin yürüyüşü ve gerektiğinde sallanarak ilerlemeyi de anlatır. Bir evlilik akdiyle başlayan yol, yakınlık bağı ve kalınacak eve varır; sûredeki Sahip'in kökünde evlilik akdi, merhametin kökünde yakın soy bağı, dik durmanın kökünde gözetip yönetme de bulunur. Bu bağlantıyla işitildiğinde “bizi ilet”, bir yere bırakılmanın ötesinde, karşılanıp korunacağımız bir ilişkiye ulaştırılma dileğini taşır. Kur'an'daki Medyen yolculuğu bu resmin yönünü değiştirir. Yolun düzgün doğrultusunu isteyen yolcu Mûsâ'dır (28:22); yanına utanarak yürüyen bir kadın gelir ve onu babasının evine çağırır (28:25). Korkudan çıkışın ardından evlilik ve yıllarca çalışmayı kapsayan bir anlaşma kurulur (28:27–28). Sözlükte götürülen gelin iken bu anlatıda dışarıdan gelen erkek evin ilişki düzenine alınır. Yol gösterme, eve varma, güvenlik ve yeni bağlılık bir yolculuğun ardışık duraklarıdır."
+        }
+      ]
+    },
+    {
+      "id": "s001_006_argument_orientation",
+      "ref": "1:6",
+      "mode": "improve",
+      "criterion": "Improve reader orientation and sustained argument over sol-stable: meaningful section turns, explanatory consequences carried between paragraphs, relationships between images rather than another sequence of labelled root tours. Headings alone and short paragraphs alone do not satisfy this.",
+      "baselines": [
+        {
+          "path": "out-sol-stable/s001/1_6/1_6.reading.tr.md",
+          "sha256": "9e4eb8fa5646b8ece32c6bd4f96a510c0b1c4056ec48321358ef4569c7859f4d",
+          "excerpt": "Yolcunun suya ulaşması, dikliğin bir başka işlevini açar. Müstakimin kökü kuyu donanımının dik ve taşıyıcı parçasını da adlandırır. Kuyu başındaki çerçeve yükü tutar; kova, aşağıdaki suyu yukarı getirir. Sözlükte insan boyuyla ilişkilendirilmiş kuyu yapısı açıklaması da vardır, fakat bu açıklama tartışmalıdır; taşıyıcı parçanın işi için ona ihtiyaç yoktur. Kur'an'da bir yolcu topluluğu su çekicisini gönderir; o kovasını indirip kuyudaki çocuğu bulur (12:19). Ayet bir makara tarif etmez; yol üzerindeki duruşla aşağıdan çıkarma hareketini verir. Kuyu, kaynak ve dayanak böylece yolun sürdürülebilirliğine katılır. Sûredeki Rabb'in kökünde suyun bolluğu, Sahip'in kökünde yolcunun işini sürdüren su da kayıtlıdır. Bedenin ayakta kalması kadar yolculuğun ayakta kalması da suya bağlıdır. Yardım isteyen yolcu, bir doğrultuyla birlikte o doğrultuda ilerlemesini taşıyan imkânları ister."
+        },
+        {
+          "path": "out-sol-stable/s001/1_6/1_6.reading.tr.md",
+          "sha256": "9e4eb8fa5646b8ece32c6bd4f96a510c0b1c4056ec48321358ef4569c7859f4d",
+          "excerpt": "Göz de aynı ilişkinin parçasıdır. Yol yerinde durabilir, fakat yürüyen onu seçemeyebilir. 36:66 “gözlerini silseydik yola koşuşurlardı; nasıl göreceklerdi” diye sorar. Sözlükte müstakimin köküne bağlı “görünüşü sağlam ama görmesi gitmiş göz” tanımı bu sahneyi yakından işittirir. 7:179'da anlamayan kalpler, görmeyen gözler ve işitmeyen kulaklar sıralanır; sahipleri hayvanlara benzetilip “daha sapmış” diye nitelenir. Hayvan adı sonraki ayetin nimet kökünü, sapma sözü sûrenin son kelimesini taşır. Yol arayan insanın duyuları, işaretleri okumaya gerçekten katılmalıdır. 22:46 körlüğü gözden kalbe taşır; 5:16 doğru yola iletilmeyi karanlıklardan aydınlığa çıkarmayla birlikte anlatır. Böylece sorun bir organın görünüşünden, görülenin anlaşılmasına geçer. Sözlüğün rehberlik kökünde kaydettiği bön, güçsüz ve ağır kişi ile sapma kökündeki unutma kolu da işareti zihinde taşıyamayan okur resmini tamamlar. 47:16–17'de sözü dinlediği halde az önce ne söylendiğini soranlar ile rehberliği artanlar karşı karşıya konur. Dua, yolun okunabilirliğini ve okuyanın onu tutabilmesini birlikte ister."
+        },
+        {
+          "path": "out-sol-stable/s001/1_6/1_6.reading.tr.md",
+          "sha256": "9e4eb8fa5646b8ece32c6bd4f96a510c0b1c4056ec48321358ef4569c7859f4d",
+          "excerpt": "Görünürlük resminin gökte bir karşılığı vardır. Ayağa kalkmanın kökü güneşin gün ortasındaki “öğle duruşu”nu da anlatır: güneş tepede görünür, gölge en kısa haline yaklaşır. “Gün” diye andığımız sınırlı aydınlık aralığının ortasında gökteki işaret belirgindir. 25:45–46'da Rabb gölgeyi uzatır, güneşi onun göstergesi yapar ve gölgeyi yavaşça kendine çeker. Gösterge ile gösterdiği gölge birlikte değişir; onları izleyen kişi günü okuyabilir. Sûrenin sonundaki kaybolup gözden yitme alanına karşı bu öğle görünürlüğü durur. Yolu istemek, açık bir işaretin aydınlığında ilerleyebilmeyi de düşündürür. Güneşi gölgeye işaret kılan Rabb'e yönelen dua, görünen işareti onu düzenleyen muhataba bağlar."
+        }
+      ]
+    }
+  ]
+}

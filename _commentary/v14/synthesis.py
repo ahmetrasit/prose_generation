@@ -174,6 +174,8 @@ def render(data: dict) -> str:
 
 def check_account(data: dict, prose: str, account: dict) -> dict:
     """Validate references and exact evidence, never whether an explanation is good."""
+    if isinstance(account, dict) and account.get("schema") == 3:
+        return check_trace(data, prose, account)
     items = data["items"]
     errors, decisions, bundles = [], {}, []
     if not isinstance(account, dict):
@@ -250,12 +252,80 @@ def check_account(data: dict, prose: str, account: dict) -> dict:
             "counter_evidence": [key for key, item in items.items() if item["kind"] == "contradicts"]}
 
 
+def check_trace(data: dict, prose: str, account: dict) -> dict:
+    """Schema 3 records locations and explicit omissions, without writer quality grades."""
+    items, decisions, bundles, errors = data["items"], {}, [], []
+    paragraphs = [p for p in prose.split("\n\n") if p.strip()]
+    if set(account) - {"schema", "links", "partial", "deferred"}:
+        errors.append("trace account accepts locations and omissions only, not quality grades")
+    for kind in ("links", "partial", "deferred"):
+        rows = account.get(kind, [])
+        if not isinstance(rows, list):
+            errors.append(f"{kind} must be an array")
+            continue
+        for row in rows:
+            if not isinstance(row, dict):
+                errors.append(f"invalid {kind} row")
+                continue
+            allowed = {"items", "at"} if kind == "links" else ({"items", "at", "remaining", "destination"}
+                        if kind == "partial" else {"items", "reason", "destination"})
+            if set(row) - allowed:
+                errors.append(f"{kind} row contains unsupported fields")
+                continue
+            keys = row.get("items")
+            if kind == "deferred" and keys == "remaining":
+                keys = [key for key in items if key not in decisions]
+            if (not isinstance(keys, list) or (not keys and kind != "deferred")
+                    or not all(isinstance(key, str) and key in items for key in keys)):
+                errors.append(f"{kind} needs known item IDs")
+                continue
+            decision = {"level": "linked" if kind == "links" else kind}
+            if kind != "deferred":
+                anchors = row.get("at")
+                valid = (isinstance(anchors, list) and 1 <= len(anchors) <= 3
+                         and all(isinstance(a, str) and 20 <= len(a.strip()) <= 120 for a in anchors))
+                matches = [[p for p in paragraphs if a in p] for a in anchors] if valid else []
+                if not valid or not all(len(found) == 1 for found in matches):
+                    errors.append(f"{kind} needs short, unique paragraph anchors")
+                    continue
+                bid = f"B{len(bundles) + 1}"
+                resolved = "\n\n".join(dict.fromkeys(p for found in matches for p in found))
+                decision.update(bundle=bid, evidence=resolved)
+            if kind != "links":
+                field_name = "remaining" if kind == "partial" else "reason"
+                reason, destination = row.get(field_name), row.get("destination")
+                if (not isinstance(reason, str) or not 10 <= len(reason.strip()) <= 240
+                        or not isinstance(destination, str) or not destination.strip()):
+                    errors.append(f"{kind} needs a specific omission/reason and destination")
+                    continue
+                decision.update(reason=reason, destination=destination)
+            for key in keys:
+                if key in decisions:
+                    errors.append(f"{key}: duplicate disposition")
+                    continue
+                decisions[key] = dict(decision)
+            if kind != "deferred":
+                bundles.append({"id": bid, **row, "resolved_evidence": resolved})
+    for key in items:
+        if key not in decisions:
+            decisions[key] = {"level": "unreported", "reason": "No valid location or deferral supplied", "destination": "review"}
+    unresolved = [key for key, row in decisions.items() if row["level"] == "unreported"]
+    cited = prose_passages(prose)
+    return {"schema": 2, "account_schema": 3, "semantic_acceptance": "pending independent review",
+            "note": "Linked means a location for review, never fully explained or connected.",
+            "errors": errors, "unreported": unresolved, "structurally_valid": not errors and not unresolved,
+            "decisions": decisions, "bundles": bundles,
+            "unused_passage_candidates": {key: value for key, value in data["passages"].items() if key not in cited},
+            "counter_evidence": [key for key, item in items.items() if item["kind"] == "contradicts"]}
+
+
 def handforward(data: dict, check: dict) -> str:
     lines = [f"# Handforward — {data['ref']}", "",
              "Mentioned, deferred and unreported findings remain open. Explained/connected are writer claims "
-             "until independent review. The source inventory is retained in full.", ""]
+             "until independent review. Schema-3 links locate prose and make no quality or completeness claim. "
+             "Partial records retain their omitted components below. The source inventory is retained in full.", ""]
     for key, disposition in check["decisions"].items():
-        if disposition["level"] in ("explained", "connected"):
+        if disposition["level"] in ("explained", "connected", "linked"):
             continue
         lines += [f"## {key}: {disposition['level']}", json.dumps(disposition, ensure_ascii=False),
                   data["items"][key]["text"], ""]

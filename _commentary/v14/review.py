@@ -35,8 +35,8 @@ def source_check(path: Path) -> dict:
             "source_stderr": result.stderr, "validation_errors": errors, "validation_stderr": validation.stderr}
 
 
-def cases_for(ref: str) -> list[dict]:
-    cases = [c for c in json.loads(CASES.read_text())["cases"] if c["ref"] == ref]
+def cases_for(ref: str, criteria: Path | None = None) -> list[dict]:
+    cases = [c for c in json.loads((criteria or CASES).read_text())["cases"] if c["ref"] == ref]
     if not cases:
         raise ValueError("No frozen regression cases for this ayah; establish them before review")
     for case in cases:
@@ -48,12 +48,13 @@ def cases_for(ref: str) -> list[dict]:
 
 
 def initialize(arm: Path, ref: str) -> Path:
-    EX.verify(arm)
+    manifest = EX.verify(arm)
+    criteria = arm / manifest["evaluation_file"] if manifest.get("evaluation_file") else CASES
     out = EX.ayah_dir(arm, ref)
     path = out / f"{ref.replace(':', '_')}.reading.tr.md"
-    review = {"schema": 1, "ref": ref, "candidate_sha256": S.sha(path), "cases_sha256": S.sha(CASES),
+    review = {"schema": 1, "ref": ref, "candidate_sha256": S.sha(path), "cases_sha256": S.sha(criteria),
               "reviewer": "", "rows": [{"id": c["id"], "verdict": "pending", "evidence": "", "notes": ""}
-                                        for c in cases_for(ref)]}
+                                        for c in cases_for(ref, criteria)]}
     target = out / "review.json"
     with target.open("x", encoding="utf-8") as f:
         json.dump(review, f, ensure_ascii=False, indent=2)
@@ -63,18 +64,22 @@ def initialize(arm: Path, ref: str) -> Path:
 
 
 def assess(arm: Path, ref: str) -> dict:
-    EX.verify(arm)
+    manifest = EX.verify(arm)
+    criteria = arm / manifest["evaluation_file"] if manifest.get("evaluation_file") else CASES
     out = EX.ayah_dir(arm, ref)
     path = out / f"{ref.replace(':', '_')}.reading.tr.md"
     prose = path.read_text()
     report = json.loads((out / "review.json").read_text())
-    cases = cases_for(ref)
-    account = S.check_account(json.loads((out / "synthesis.json").read_text()), prose,
-                              json.loads((out / "synthesis.account.json").read_text()))
+    cases = cases_for(ref, criteria)
+    raw_account = json.loads((out / "synthesis.account.json").read_text())
+    account = S.check_account(json.loads((out / "synthesis.json").read_text()), prose, raw_account)
     errors = []
+    contract = manifest.get("writer_contract", 1)
+    if contract >= 2 and (not isinstance(raw_account, dict) or raw_account.get("schema") != contract):
+        errors.append("Account schema does not match the frozen writer contract")
     if report.get("ref") != ref:
         errors.append("Review belongs to a different ayah")
-    if report.get("candidate_sha256") != S.sha(path) or report.get("cases_sha256") != S.sha(CASES):
+    if report.get("candidate_sha256") != S.sha(path) or report.get("cases_sha256") != S.sha(criteria):
         errors.append("Candidate or regression criteria changed since review")
     if not report.get("reviewer", "").strip():
         errors.append("Independent reviewer must be identified")
@@ -97,7 +102,7 @@ def assess(arm: Path, ref: str) -> dict:
     if not sources["ok"]:
         errors.append("Source/tag verification has unresolved issues")
     return {"eligible": not errors, "errors": errors, "candidate_sha256": S.sha(path),
-            "review_sha256": S.sha(out / "review.json"), "criteria_sha256": S.sha(CASES),
+            "review_sha256": S.sha(out / "review.json"), "criteria_sha256": S.sha(criteria),
             "reviewer": report.get("reviewer"), "semantic_basis": "explicit independent passage review, no aggregate score"}
 
 
