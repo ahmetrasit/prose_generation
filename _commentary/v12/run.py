@@ -12,7 +12,7 @@ $8/M (one-hour cache write) plus the expected output tokens at $20/M, both calib
   write   one Opus call (no tools): evidence first, prompts/write.md last → ledger, reading (no retry: an unusable
           answer marks the ayah failed)
   check   tag repair (commas), verify_src --fix, wrong-source fix (the quote occurs in exactly one place), validator;
-          residual problems → one repair call for the affected paragraphs (up to 2 rounds); what still fails is
+          residual problems → one repair call for the affected paragraphs (at most one, user rule); what still fails is
           reduced to plain Turkish (the tag's gloss) and counted — nothing waits for a human
   render  S_A.md = reading + Kur'an'ı Kur'an'la (Surah, Quran, Limits, Fatiha, with ayah texts) + Kur'an'da bu
           kelimeler (Usage) + Kelimeler ve okuyuşlar (Dictionary, Readings) + Surenin bütününde (surah pass notes)
@@ -405,7 +405,7 @@ def strip_unverified(path: Path, problems: list[str]) -> int:
 def check_text(path: Path, log: Path) -> dict:
     """The whole automatic check-and-repair loop for one reading file."""
     res = {"comma_fixes": repair_commas(path), "source_fixes": 0, "repair_calls": 0, "repair_cost": 0.0, "stripped": 0}
-    for rnd in range(3):
+    for rnd in range(2):  # user rule: at most one repair call, then the last-resort strip
         summary, problems = verify(path)
         res["source_fixes"] += fix_sources(path, problems)
         if res["source_fixes"]:
@@ -415,7 +415,7 @@ def check_text(path: Path, log: Path) -> dict:
                                       for m in (re.search(r":(\d+): error: (.*)$", e) for e in errs) if m]
         if not block:
             break
-        if rnd < 2:
+        if rnd < 1:
             res["repair_calls"] += 1
             res["repair_cost"] = round(res["repair_cost"] + repair_call(path, block, log)[1], 3)
             repair_commas(path)

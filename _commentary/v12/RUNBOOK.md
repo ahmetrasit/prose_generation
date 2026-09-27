@@ -48,8 +48,8 @@ python3 _commentary/v12/run.py chains 1                                         
 
 Run arms one after another, never at the same time: they share the evidence folder `work/sNNN/S_A/`.
 
-Per ayah: prep (scripts) → estimate → one Opus call (ledger + reading) → check (commas, sources, validator; up to two
-small repair calls; then unverifiable tags become plain Turkish) → render. Long surahs: the surah pass runs once per
+Per ayah: prep (scripts) → estimate → one Opus call (ledger + reading) → check (commas, sources, validator; at most one
+small repair call; then unverifiable tags become plain Turkish) → render. Long surahs: the surah pass runs once per
 passage window. Options: `--effort high|xhigh|max` (default high), `--max-cost N`, `--force` (redo finished ayat;
 only when the user asks), `--tag NAME` (outputs in `out-NAME/`).
 
