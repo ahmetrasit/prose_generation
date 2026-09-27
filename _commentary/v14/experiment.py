@@ -29,7 +29,8 @@ def baseline_check() -> dict:
     manifest = json.loads(SNAPSHOT.read_text())
     source = ROOT / manifest["source"]
     changed = [name for name, digest in manifest["files"].items()
-               if not (source / name).is_file() or S.sha(source / name) != digest]
+               if "__pycache__" not in Path(name).parts
+               and (not (source / name).is_file() or S.sha(source / name) != digest)]
     # Compiled Python caches are runtime byproducts; all copies were verified before any edits.
     copies_changed = [name for name, digest in manifest["files"].items()
                       if name.startswith(("out/", "out-", "work/"))
@@ -204,6 +205,8 @@ def ingest(arm: Path, ref: str, response: str, usage: dict | None = None) -> dic
     verify(arm)
     out = ayah_dir(arm, ref)
     started = json.loads((out / "write.started.json").read_text())
+    if S.sha(out / "write.input.md") != started["input_sha256"]:
+        raise ValueError("Claimed writer input changed during generation")
     status = json.loads((out / "write.status.json").read_text())
     if status.get("state") != "started":
         raise ValueError("Only a started, not-yet-ingested call can be ingested")

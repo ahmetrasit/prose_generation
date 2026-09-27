@@ -20,7 +20,8 @@ The writer composes connected explanations and decides how much space each earns
 passage list is used. Tags describe evidence; a same-word definition may matter more than a redundant staging.
 A separate JSON account maps used items to an exact prose excerpt and an explanatory payoff. Mentioned, explained
 and connected remain distinct claims. Unreported and deferred items, and unused passage candidates, are preserved
-in handforward. An explicit remaining deferral keeps metadata compact. No model call is spent on bookkeeping.
+in handforward. An explicit remaining deferral permits compact metadata. There is no separate bookkeeping call,
+but the returned account still costs output; the first Sol trial copied too much prose into it (see COMPARISON.md).
 
 ## Context and inputs
 

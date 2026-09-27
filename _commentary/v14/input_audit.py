@@ -46,12 +46,13 @@ def audit(arm: Path, ref: str) -> dict:
               'remaining_gaps': ['Surah commentary and reciprocal final check remain unbuilt.',
                                  'The discovery concordance thresholds entire roots; rare focus lemmas inside frequent roots lack full clauses.',
                                  'Inherited QeQ reads the legacy digest without explicit source-priority or variant-use instructions.',
+                                 'QeQ passage leads are mostly references and descriptions, not retrieved Arabic with context.',
                                  'Previous context covers one ayah, not a complete verified surah reader state.',
                                  'Dictionary branches supply first classical phrases, not all attested quotations.']}
     reading = out / f"{ref.replace(':', '_')}.reading.tr.md"
     if reading.exists():
         text = reading.read_text()
-        cited = set(S.REF.findall(text))
+        cited = S.prose_passages(text)
         result['observed_after_generation'] = {
             'qeq_candidates': len(data['passages']), 'candidate_passages_cited': len(cited & set(data['passages'])),
             'unused_passage_candidates': sorted(set(data['passages']) - cited),

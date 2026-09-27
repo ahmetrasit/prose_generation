@@ -35,10 +35,24 @@ Sol call, export/claim once, generate once, ingest the returned prose plus SYNTH
 Edit review.json only after independently reading candidate and baseline passages; never hand-fix model prose.
 A mixed or regressed result stays experimental. No automatic retry and no average score can hide a lost criterion.
 
-Readiness: eleven offline tests pass. V13 and copied historical data hash-check unchanged. Input is 201.7 KB versus
+Readiness: thirteen offline tests pass. V13 and copied historical data hash-check unchanged. Input is 201.7 KB versus
 151.8 KB in v13; almost all growth is the 49.2 KB preceding commentary. This is not yet a cost improvement.
 Surah prose, reciprocal final check, full-surah reader state, common-root/rare-lemma concordance coverage, future
 QeQ digest cleanup and API economics remain unbuilt/unresolved. Sol usage dollars are unknown unless reported
 by the agent facility. The Sol comparison cannot isolate a prompt effect from a writer-model effect.
 
-Experiment result will be appended after generation and independent review.
+Completed: one gpt-6-sol/max generation, no repair. Candidate and raw response are in out-sol-max/s001/1_6.
+Read COMPARISON.md and that directory's review.json. Eight preservation criteria survive; water-system local
+integration and reader development improve over v2. The candidate is NOT accepted: four Quranic spelling/mark
+differences fail source verification. All four match supplied concordance forms, so retrieval/verification must
+agree on exact text. Review check exits 1 as intended; no accepted.json was created.
+
+Output: 4,971 raw words; 4,617 after Arabic tags become their Turkish gloss (v2: 7,451 / 5,672). Twenty-seven Arabic
+tags: 23 exact, four fixable; no missing/bad-source tags. The account covers all 192 items structurally, but its
+180 connected claims are not endorsed as semantic coverage. It uses 51.4% of response bytes: shorten evidence
+anchors and narrow claims before another arm. The citation diagnostic now handles source: tags and inclusive
+same-surah ranges; only derived diagnostics were recomputed. Input and generated prose remain frozen.
+
+Next: align exact source spelling; retrieve passages where QeQ supplied only references; reduce accounting output;
+test compact prior-reader context. These are targeted revisions, not grounds to discard the discovery/network
+pipeline. No additional model call or repair was made. The Sol facility did not expose usage dollars/tokens.

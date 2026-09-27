@@ -51,6 +51,23 @@ def passages(text: str) -> dict[str, list[str]]:
     return {ref: sorted(tags) for ref, tags in result.items()}
 
 
+def prose_passages(text: str) -> set[str]:
+    """Read inline source tags and inclusive same-surah ranges without mistaking word IDs for ayat."""
+    text = re.sub(r"\bsource:\s*", " ", text)
+    pattern = re.compile(REF.pattern + r"(?:\s*[–—-]\s*(\d{1,3})(?::(\d{1,3}))?(?![\d:]))?")
+    result = set()
+    for match in pattern.finditer(text):
+        result.add(match[1])
+        if not match[2]:
+            continue
+        surah, start = map(int, match[1].split(":"))
+        end_surah, end = (int(match[2]), int(match[3])) if match[3] else (surah, int(match[2]))
+        result.add(f"{end_surah}:{end}")
+        if end_surah == surah and start <= end <= 286:
+            result.update(f"{surah}:{ayah}" for ayah in range(start, end + 1))
+    return result
+
+
 def roles(disclosure: str, ref: str) -> list[str]:
     # Accept both legacy `develop 2:3, 2:4` and `2:3 develop; 2:4 touch`.
     s, a = map(int, ref.split(":"))
@@ -212,7 +229,7 @@ def check_account(data: dict, prose: str, account: dict) -> dict:
         if key not in decisions:
             decisions[key] = {"level": "unreported", "reason": "No valid disposition supplied", "destination": "review"}
     unresolved = [key for key, d in decisions.items() if d["level"] == "unreported"]
-    prose_refs = set(REF.findall(prose))
+    prose_refs = prose_passages(prose)
     unused = {key: value for key, value in data["passages"].items() if key not in prose_refs}
     return {"schema": 1, "semantic_acceptance": "pending independent review", "errors": errors,
             "unreported": unresolved, "structurally_valid": not errors and not unresolved,

@@ -16,6 +16,14 @@ class SynthesisTests(unittest.TestCase):
                          {'24:35': ['same-word', 'staging'], '24:36': []})
         self.assertEqual(S.passages('24:35:1'), {})
 
+    def test_prose_source_tags_and_ranges_are_cited_but_word_ids_are_not(self):
+        self.assertEqual(S.prose_passages('source:24:35} (24:36–38; 24:39-24:40) word 24:41:2'),
+                         {'24:35', '24:36', '24:37', '24:38', '24:39', '24:40'})
+        data = self.data()
+        check = S.check_account(data, 'A source illuminates the scene. {source:24:36} (24:37–38)', {
+            'bundles': [], 'deferred': [{'items': 'remaining', 'destination': 'review', 'reason': 'test'}]})
+        self.assertEqual(check['unused_passage_candidates'], {})
+
     def test_wrapped_network_and_duplicate_records(self):
         parsed = S.records('I1 | image | members: 24:35:1\n  | movement: light moves\nunplaced: 24:35 F2')
         self.assertIn('movement: light moves', parsed['I1'])
@@ -138,6 +146,14 @@ class FrozenExperimentTests(unittest.TestCase):
         prior.write_text('changed previous text')
         with self.assertRaises(ValueError): EX.claim(self.arm,'24:36','test','max')
 
+    def test_claimed_input_cannot_change_during_external_generation(self):
+        EX.prepare(self.arm,self.root/'out-v2',['24:35'])
+        EX.export(self.arm,'24:35')
+        path=EX.claim(self.arm,'24:35','test','max')
+        path.write_text('changed after model started')
+        with self.assertRaisesRegex(ValueError,'changed during generation'):
+            EX.ingest(self.arm,'24:35','any response')
+
 
 class AcceptanceTests(unittest.TestCase):
     def test_regression_cannot_be_offset_by_an_improvement_and_hashes_are_binding(self):
@@ -156,7 +172,7 @@ class AcceptanceTests(unittest.TestCase):
             criteria.write_text('{}')
             rows = [{'id':'preserve', 'verdict':'regressed', 'evidence':body, 'notes':'lost an important relationship'},
                     {'id':'improve', 'verdict':'improved', 'evidence':body, 'notes':'a separate gain'}]
-            report={'reviewer':'independent reviewer','candidate_sha256':S.sha(reading),
+            report={'ref':'24:35','reviewer':'independent reviewer','candidate_sha256':S.sha(reading),
                     'cases_sha256':S.sha(criteria),'rows':rows}
             EX.dump(out/'review.json',report)
             with patch.object(EX,'verify',return_value={}), patch.object(R,'CASES',criteria), \

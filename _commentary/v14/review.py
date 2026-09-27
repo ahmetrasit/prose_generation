@@ -72,6 +72,8 @@ def assess(arm: Path, ref: str) -> dict:
     account = S.check_account(json.loads((out / "synthesis.json").read_text()), prose,
                               json.loads((out / "synthesis.account.json").read_text()))
     errors = []
+    if report.get("ref") != ref:
+        errors.append("Review belongs to a different ayah")
     if report.get("candidate_sha256") != S.sha(path) or report.get("cases_sha256") != S.sha(CASES):
         errors.append("Candidate or regression criteria changed since review")
     if not report.get("reviewer", "").strip():
