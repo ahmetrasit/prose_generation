@@ -22,8 +22,9 @@ your records and the findings.
 - The words of the passages you bring can themselves activate branches of the focus words (a fourth scope, besides the
   ayah, the window and the surah): record those as new findings.
 - A passage where the Quran tells a latent scene openly is valuable; its absence says nothing against a finding.
-- Tag each cited passage that does special work: `S:A [staging]` when it tells a latent scene openly, `S:A
-  [same-word]` when it uses the focus word (same lemma) itself. The prose step must use every tagged passage.
+- Tag `S:A [staging]` only where a passage tells a latent scene of this ayah openly (the scene, not merely a shared
+  word); at most a few per finding. Passages that merely use the focus word are the concordance and need no tag. The
+  prose step chooses among tagged passages by payoff; tags are evidence, not obligations.
 - "shifts" and "expands" say what the Quran adds beside the finding; they never reverse it.
 - **Axis pass:** independently of the findings, bring the passages that explain the ayah's plain sense and grammar:
   the same wording or construction elsewhere, the Quran's own definitions of its terms, parallel scenes, passages that

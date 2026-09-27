@@ -5,8 +5,10 @@
   act     S:A,…          step 1, one Opus call per ayah: prompts/act.md → out/sNNN/S_A/act.md (records)
   net     S [--refs …]   step N, one Opus call per surah (or the given ayat): prompts/net.md → out/sNNN/network.md
   qeq     S:A,…          step 2, one Opus call per ayah: prompts/qeq.md → out/sNNN/S_A/qeq.md
-  write   S:A,…          step 3, one Opus call per ayah: prompts/write.md → out/sNNN/S_A/S_A.reading.tr.md, then the
-                         v12 tag checks (verify, at most one repair call, strip what stays unverifiable)
+  write   S:A,…          step 3, one Opus call per ayah, sequential in the given order (each sees the previous ayah's
+                         prose): prompts/write.md → out/sNNN/S_A/S_A.reading.tr.md, then the v12 tag checks (verify, at
+                         most one repair call, strip what stays unverifiable)
+  seed    S:A,…          copy another arm's act.md and qeq.md (--seed-from TAG) for a write-only arm
   status  S:A,…
 
 All model steps: Opus 5.5, effort high, no tools (v12 run.opus). Rules (user): a call starts only when its estimate is
@@ -272,17 +274,23 @@ def network_file(ref: str) -> Path | None:
 
 
 def seed(ref: str, src: Path) -> str:
-    """Reuse another arm's step-1 records (copied, never recomputed): state `reused`."""
+    """Reuse another arm's step-1 records and, when present, its QeQ (copied, never recomputed): state `reused`.
+    A write-only arm seeds both and reads the network with --network-from, so only step 3 is called."""
     s = src / f"s{int(ref.split(':')[0]):03d}" / PK.sa(ref)
-    if get_status(ref, "act")["state"] in CALLED:
-        return f"{ref} seed: step 1 already present ({get_status(ref, 'act')['state']})"
-    if not (s / "act.md").exists():
-        return f"{ref} seed: no step-1 records in {src.name}"
     out = out_dir(ref)
     out.mkdir(parents=True, exist_ok=True)
-    (out / "act.md").write_text((s / "act.md").read_text(encoding="utf-8"), encoding="utf-8")
-    set_status(ref, "act", state="reused", source=str((s / "act.md").relative_to(V13)))
-    return f"{ref} seed: step-1 records reused from {src.name}"
+    msgs = []
+    for step, name in (("act", "act.md"), ("qeq", "qeq.md")):
+        if get_status(ref, step)["state"] in CALLED:
+            msgs.append(f"{step} already present ({get_status(ref, step)['state']})")
+            continue
+        if not (s / name).exists():
+            msgs.append(f"no {name} in {src.name}")
+            continue
+        (out / name).write_text((s / name).read_text(encoding="utf-8"), encoding="utf-8")
+        set_status(ref, step, state="reused", source=str((s / name).relative_to(V13)))
+        msgs.append(f"{step} reused from {src.name}")
+    return f"{ref} seed: " + "; ".join(msgs)
 
 
 def plan_role(seg: str, ref: str) -> str:
@@ -299,43 +307,94 @@ def plan_role(seg: str, ref: str) -> str:
     return ""
 
 
+ROLE_RANK = {"assemble": 4, "develop": 3, "meet": 2, "touch": 1}
+MAX_ASSEMBLE = 2      # images assembled in full in one ayah commentary (the surah commentary assembles the rest)
+MAX_ITEMS = 25        # M-items with a job (assemble / develop / meet); touches are listed, not itemised
+
+
 def mustland(ref: str) -> Path:
-    """What the prose must carry (script, from the network and the QeQ tags): M-items for the coverage block."""
+    """The ranked budget of what this ayah's commentary carries (script, from the network and the QeQ tags).
+
+    Changed after the anchor scoring (EVAL_ANCHORS.md, 2026-09-27): the old list was an obligation list (1:6: 119
+    items, 8 whole images to assemble, 66 tagged passages) and produced 7.5K-word catalogues at 100% coverage.
+    Now: M-items are the images this ayah assembles, develops or first meets, ranked (role, then members here); at
+    most MAX_ASSEMBLE assemblies (the others are deferred to the surah commentary and listed as touches here);
+    meetings ride on their image's line; touches are listed without a number; QeQ `staging` passages are listed as
+    evidence, `same-word` tags are ignored (they are the concordance)."""
     out = out_dir(ref)
-    lines = [f"# mustland.md — what the commentary of {ref} must carry", ""]
-    n = 0
-    nf = network_file(ref)
+    items, nf = [], network_file(ref)
+    here = re.compile(rf"(?<![\d:]){re.escape(ref)}:\d+")
     if nf:
         for l in nf.read_text(encoding="utf-8").splitlines():
             m = re.match(r"^(I\d+) \| ([^|]+)\|", l)
             if not m:
                 continue
-            disc = next((p for p in l.split(" | ") if p.startswith("disclosure:")), "")
+            fields = l.split(" | ")
+            disc = next((p for p in fields if p.startswith("disclosure:")), "")
             roles = [role for seg in re.split(r"[;,]", disc[len("disclosure:"):]) if (role := plan_role(seg, ref))]
-            member_here = re.search(rf"(?<![\d:]){re.escape(ref)}:\d+", l.split(" | meets:")[0])
-            if not roles and not member_here:
+            members_here = len(here.findall(l.split(" | meets:")[0]))
+            if not roles and not members_here:
                 continue
-            role = roles[0] if roles else "touch (member here; not in the plan)"
-            n += 1
-            lines.append(f"- M{n} | image {m.group(1)} {m.group(2).strip()} | role here: {role}"
-                         + (" | show the whole image with every member (see the network line)" if role == "assemble" else ""))
-            meets = next((p for p in l.split(" | ") if p.startswith("meets:")), "")
-            for seg in meets[len("meets:"):].split(";"):
-                if re.search(rf"(?<![\d:]){re.escape(ref)}:\d+", seg):
-                    n += 1
-                    lines.append(f"- M{n} | meeting {m.group(1)} × {seg.strip()}")
+            meets = next((p for p in fields if p.startswith("meets:")), "")
+            items.append({"iid": m.group(1), "name": m.group(2).strip(), "role": roles[0] if roles else "touch",
+                          "note": "" if roles else " (member here; not in the plan)", "n": members_here,
+                          "meets": [s.strip() for s in meets[len("meets:"):].split(";") if here.search(s)]})
+    for it in sorted([it for it in items if it["role"] == "assemble"], key=lambda it: (-it["n"], int(it["iid"][1:])))[MAX_ASSEMBLE:]:
+        it["role"], it["note"] = "touch", " (its assembly is deferred to the surah commentary: at most two images are assembled in one ayah)"
+    items.sort(key=lambda it: (-ROLE_RANK[it["role"]], -it["n"], int(it["iid"][1:])))
+    jobs = [it for it in items if it["role"] != "touch"][:MAX_ITEMS]
+    touches = [it for it in items if it not in jobs]
+    lines = [f"# mustland.md — the ranked budget of {ref}'s commentary (script, from the network and QeQ)", "",
+             "Ranked by the job this ayah has in each image (assemble > develop > meet), then by how many of its words are "
+             "members. Land the jobs; touches and passages are evidence to use where they pay off, not obligations.", "",
+             "## Jobs (M-items; the coverage block answers these)", ""]
+    for n, it in enumerate(jobs, 1):
+        lines.append(f"- M{n} | {it['role']} | image {it['iid']} {it['name']}{it['note']} | words of {ref} in it: {it['n']}"
+                     + (f" | meets here: {'; '.join(it['meets'])}" if it["meets"] else "")
+                     + (" | assemble: the whole image, every member, as one scene (see the network line)" if it["role"] == "assemble" else ""))
+    if touches:
+        lines += ["", "## Also present through a word of this ayah (a clause where it costs nothing; else the surah commentary)", ""]
+        lines += [f"- image {it['iid']} {it['name']}{it['note']}" + (f" | meets here: {'; '.join(it['meets'])}" if it["meets"] else "")
+                  for it in touches]
     q = out / "qeq.md"
     if q.exists():
-        seen = set()
-        for r_, tag in re.findall(r"(\d{1,3}:\d{1,3})\s*\[(staging|same-word)\]", q.read_text(encoding="utf-8")):
-            if (r_, tag) in seen:
-                continue
-            seen.add((r_, tag))
-            n += 1
-            lines.append(f"- M{n} | passage {r_} [{tag}]")
+        st = list(dict.fromkeys(re.findall(r"(\d{1,3}:\d{1,3})\s*\[staging\]", q.read_text(encoding="utf-8"))))
+        if st:
+            lines += ["", "## Passages QeQ tagged as telling a latent scene openly (evidence; quote the ones that do work)", "",
+                      ", ".join(st)]
     f = out / "mustland.md"
     f.write_text("\n".join(lines) + "\n", encoding="utf-8")
     return f
+
+
+def variants_file(ref: str) -> Path:
+    """The qirāʾāt section of the V11 digest, for the write step (never seen there before)."""
+    text = digest(ref).read_text(encoding="utf-8") if digest(ref).exists() else ""
+    m = re.search(r"(?ms)^## 1\..*?(?=^## 2\.|\Z)", text)
+    f = out_dir(ref) / "variants.md"
+    f.write_text("# variants.md — the variant readings (qirāʾāt) of the ayah, from the script digest\n\n"
+                 + (m.group(0).split("\n", 1)[1].strip() if m else "(none recorded)") + "\n", encoding="utf-8")
+    return f
+
+
+PREVIOUS_FROM: Path | None = None      # --previous-from TAG: the preceding ayah's prose from another arm when this arm has none
+
+
+def previous_file(ref: str) -> Path | None:
+    """The immediately preceding ayah's finished prose, as actually written (this arm first, then --previous-from)."""
+    s, a = (int(x) for x in ref.split(":"))
+    if a <= 1:
+        return None
+    prev = f"{s}:{a - 1}"
+    for base in [OUT] + ([PREVIOUS_FROM] if PREVIOUS_FROM else []):
+        p = base / f"s{s:03d}" / PK.sa(prev) / f"{PK.sa(prev)}.reading.tr.md"
+        if p.exists():
+            f = out_dir(ref) / "previous.md"
+            f.write_text(f"# previous.md — the commentary of {prev} as the reader has it (from {base.name}). Build on what it "
+                         "explained; do not retell it. Earlier ayat are not supplied: do not assume they explained anything.\n\n"
+                         + p.read_text(encoding="utf-8"), encoding="utf-8")
+            return f
+    return None
 
 
 def digest(ref: str) -> Path:
@@ -387,9 +446,11 @@ def write(ref: str) -> str:
     a, out = PK.ayah_dir(ref), out_dir(ref)
     if not (out / "qeq.md").exists():
         return f"{ref} write: waiting for step 2"
-    nf = network_file(ref)
-    files = [PROMPTS / "write.md", a / "ayah.md", out / "act.md", out / "qeq.md"] + ([nf] if nf else [])
-    files += [mustland(ref), a / "dictionary.md", branches_file(ref)]
+    nf, w = network_file(ref), PK.window_dir(ref)
+    prev = previous_file(ref)
+    files = [PROMPTS / "write.md", a / "ayah.md", w / "window_text.md"] + ([prev] if prev else [])
+    files += [out / "act.md", out / "qeq.md"] + ([nf] if nf else [])
+    files += [mustland(ref), a / "dictionary.md", branches_file(ref), a / "concordance.md", variants_file(ref)]
     return _write_call(ref, files, out / f"{PK.sa(ref)}.reading.tr.md")
 
 
@@ -423,11 +484,17 @@ def _write_call(ref: str, files: list[Path], target: Path) -> str:
             f"# handforward.md — mustland items of {ref} not landed (for the surah commentary)\n\n" + "\n".join(held) + "\n",
             encoding="utf-8")
         c = R12.check_text(target, out_dir(ref) / "repair.log.jsonl")
-        c.update(mustland=len(items), landed=len(got), not_landed=len(held))
+        prose = target.read_text(encoding="utf-8")
+        paras = [p for p in re.split(r"\n\s*\n", prose) if p.strip() and not p.strip().startswith("#")]
+        plen = sorted(len(p.split()) for p in paras) or [0]
+        c.update(mustland=len(items), landed=len(got), not_landed=len(held), words=len(prose.split()),
+                 headings=len(re.findall(r"(?m)^#", prose)), paragraphs=len(paras), para_median=plen[len(plen) // 2],
+                 para_max=plen[-1], tags=prose.count("{ar:"))
         set_status(ref, "write", state="done", check=c, **u)
-        return (f"{ref} write: done ${u['cost']:.2f} (estimate ${est:.2f}); {len(text.split())} words; "
+        return (f"{ref} write: done ${u['cost']:.2f} (estimate ${est:.2f}); {c['words']} words, {c['headings']} headings, "
+                f"{c['paragraphs']} ¶ (median {c['para_median']}, max {c['para_max']}), {c['tags']} tags; "
                 f"verify {c['verify']}; repairs {c['repair_calls']} (${c['repair_cost']:.2f}); stripped {c['stripped']}; "
-                f"mustland {c['landed']}/{c['mustland']} landed")
+                f"coverage {c['landed']}/{c['mustland']} jobs (diagnostic; held items go to handforward.md)")
     except Exception as e:  # noqa: BLE001
         set_status(ref, "write", state="failed", error=f"{type(e).__name__}: {str(e)[-500:]}")
         return f"{ref} write: FAILED {e}"
@@ -473,13 +540,16 @@ def main() -> None:
     ap.add_argument("--max-cost", type=float, default=5.0)
     ap.add_argument("--seed-from", default="", help="seed: the arm whose step-1 records are reused ('' = out/)")
     ap.add_argument("--network-from", help="read the surah network of arm TAG (out-TAG/)")
+    ap.add_argument("--previous-from", help="write: take the preceding ayah's prose from arm TAG when this arm has none")
     a = ap.parse_args()
-    global EFFORT, OUT, MAX_COST, NETWORK_FROM
+    global EFFORT, OUT, MAX_COST, NETWORK_FROM, PREVIOUS_FROM
     EFFORT, MAX_COST = a.effort, a.max_cost
     if a.tag:
         OUT = V13 / f"out-{a.tag}"
     if a.network_from:
         NETWORK_FROM = V13 / f"out-{a.network_from}"
+    if a.previous_from:
+        PREVIOUS_FROM = V13 / f"out-{a.previous_from}"
     if a.step == "net":
         s = int(a.ref)
         refs = a.refs.split(",") if a.refs else R12.surah_refs(s)
@@ -498,7 +568,13 @@ def main() -> None:
         for r in refs:
             print(r, PK.build(r), flush=True)
         return
-    run_parallel({"act": act, "qeq": qeq, "write": write}[a.step], refs, a.parallel)
+    if a.step == "write":
+        # sequential, in the given order: each ayah's commentary is written with the previous one's prose in hand
+        # (progressive disclosure is impossible in parallel; DESIGN §11)
+        for r in refs:
+            print(write(r), flush=True)
+        return
+    run_parallel({"act": act, "qeq": qeq}[a.step], refs, a.parallel)
 
 
 if __name__ == "__main__":

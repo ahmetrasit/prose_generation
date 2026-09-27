@@ -21,7 +21,10 @@ Quran and write the commentaries from your network.
   alone. Nothing is rejected here; weak members stay members. No confidence, no ranking, no verdicts.
 - For the ayah commentaries, give each image a disclosure plan that names **every ayah holding a member**, each with
   a role: `meet` (the reader first senses the image here), `touch` (this ayah's word adds one member, in a sentence),
-  `develop` (it grows here), `assemble` (the whole image is shown here, with every member). Exactly one `assemble`.
+  `develop` (it grows here), `assemble` (the whole image is shown here, with every member). One `assemble` per image,
+  placed where the ayah's own words carry the image's working parts (not simply its last member), and **no ayah
+  assembles more than two images**: an ayah commentary cannot show eight whole scenes. Images that find no room are
+  assembled in the surah commentary; give them `develop` at their strongest ayah instead.
 
 ## Your final message
 

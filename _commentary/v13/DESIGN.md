@@ -175,3 +175,31 @@ Batch caching is best effort. Thinking may grow with the larger step-1 input.
   times); 42.9 min, 645K cache-write tokens, **$10.28**, against $2.24
   for effort high (47.6K output, 33K thinking, 7.6 min). The estimate ($3.82) could not foresee it; started calls are
   never stopped (user rule). Not rerun. Effort high stays the setting; V9 saw the same on a large input.
+
+## 11. Changes after the anchor scoring (2026-09-27, 17:30; `EVAL_ANCHORS.md`)
+
+The scoring showed that the v2 fixes lost no anchor (1:5: 10 → 19 of 22 integrated; 1:6: 23 → 27 of 30, one loss)
+and that the felt regression was form: the must-land list had become an obligation list (1:6: 119 items, 8 whole
+images to assemble, 66 tagged passages) and the prose a 7.5K-word catalogue at 100% coverage. Changes, all in v13:
+- `mustland()` is a **ranked budget**: M-items are only the images this ayah assembles, develops or first meets,
+  ranked by job then by how many of the ayah's words are members; **at most two assemblies per ayah** (the others are
+  deferred to the surah commentary and listed as touches); meetings ride on their image's line; touches are listed
+  without a number; QeQ `staging` passages are listed as evidence; `same-word` tags are ignored. 1:5: 8 jobs, 1:6: 8
+  jobs (from 88 and 119 items).
+- `prompts/write.md`: "every item lands" replaced by "land the jobs, the rest by payoff"; form targets from the first
+  run's shape (3,000–4,500 words, 3–6 headings, paragraphs of 80–200 words and none past 300, 50–90 tags); the
+  coverage block answers the jobs only and is a diagnostic (`handforward.md`), not a success metric.
+- Step 3 gets four inputs it lacked: `window_text.md`, `previous.md` (the preceding ayah's prose as written, this arm
+  first, else `--previous-from TAG`), `concordance.md` (counts), `variants.md` (the digest's qirāʾāt section).
+- Step 3 runs **sequentially** in the given order, so each ayah sees the previous one's prose (progressive disclosure).
+- `seed` copies `qeq.md` as well as `act.md`: a write-only arm seeds both and reads the network with `--network-from`.
+- `prompts/net.md`: no ayah assembles more than two images; an image assembles where its working parts are, not at
+  its last member. `prompts/qeq.md`: `[staging]` only for a passage that tells the scene openly, a few per finding;
+  no `same-word` tag; tags are evidence, not obligations. (Both take effect at the next network / QeQ call; the v3
+  test reuses v2's.)
+- Known and not addressed here: the water system's assembly sits at 1:4 in the v2 network while the gold puts the
+  well-frame at 1:6; only a new network under the new brief can move it.
+
+Test: arm `out-v3` = step 1 and QeQ seeded from `out-v2`, network from `out-v2`, write 1:5 then 1:6 (estimate ≈ $2.0
+each), scored against the v2 column of `EVAL_ANCHORS.md` (no anchor may drop from I; form must move toward the first
+run).
