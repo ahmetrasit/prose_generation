@@ -3,12 +3,23 @@
 Read DESIGN.md and INPUT_AUDIT.md. The v13 handoff remains at ../v13/HANDOFF.md. V14 began as an exact copy of all
 308 files; baseline.manifest.json records that snapshot. Never edit copied historical out*/ or work/ files.
 
-Latest revision: read STABILIZATION.md. New arms have exact source mapping and compact schema-2 evidence anchors.
-The agreed repeat is prepared at out-sol-stable using lookup mode, the same Sol max model/effort, v2 upstream and
-full v2 1:5 context. Its initial input is 203,821 bytes, plus whichever lookup responses the writer requests.
-Twenty offline tests now pass. The earlier out-sol-max result and its review below remain historical, unchanged.
-Concurrent commits f1465ac9b/91ce372cc advanced live v13. `audit` now reports that live-source drift while the copied
-historical data remains unchanged; do not restore v13. See STABILIZATION.md for the scope of this check.
+Latest result: read STABILIZATION_COMPARISON.md and REVIEW_RESPONSE.md. The agreed out-sol-stable repeat is complete:
+same Sol max, v2 upstream and full v2 1:5 context; one generation, no interruption/restart/repair. All 23 tags pass
+exactly. Prose: 4,802 raw / 4,605 gloss-substituted words. Accounting: 20,173 bytes (32.1% of response), down 55%.
+Initial input: 203,821 bytes; 15 selective lookups added 97,910 bytes. All 147 cited ayat were in returned text.
+Tokens and dollars remain unknown; the user explicitly accepts max effort and the cost of this experiment.
+
+Eight preservation and two improvement criteria pass, but acceptance is withheld: the broader review finds the
+earlier 18:1–2 upright-Book explanation omitted while E_F1 is still claimed connected. Other source records also
+remain only partly explained despite full connected labels. The ten-case gate is narrower than zero regression.
+Read both review.json and supplemental.review.json; no accepted.json exists. The repeat restores 20:10 and 17:97.
+Next: precise partial-use/deferral accounting and local evidence for lexical claims; keep previous-context reduction
+as a separate ablation. Do not start another model run automatically. The user's quoted review is mostly sound for
+the first arm but does not establish a Sol model ceiling; see REVIEW_RESPONSE.md.
+
+Twenty offline tests pass. Both frozen Sol inputs and all copied historical data remain unchanged. Concurrent v13
+commits advanced the live source and have an active out-v4 arm; do not restore or stage that work. `audit` flags six
+changed live source files but no copied historical-data changes. The earlier result below is historical.
 
 User scope: create v14 from v13, revise the synthesis handover and regression protection, audit redundant/missing
 inputs, then run one Sol agent at max effort on a chosen ayah and compare with earlier runs. Selected ayah: 1:6.
@@ -42,7 +53,8 @@ Sol call, export/claim once, generate once, ingest the returned prose plus SYNTH
 Edit review.json only after independently reading candidate and baseline passages; never hand-fix model prose.
 A mixed or regressed result stays experimental. No automatic retry and no average score can hide a lost criterion.
 
-Readiness: thirteen offline tests pass. V13 and copied historical data hash-check unchanged. Input is 201.7 KB versus
+First-trial readiness at its original commit: thirteen offline tests passed; v13 and copied historical data were
+unchanged. Input was 201.7 KB versus
 151.8 KB in v13; almost all growth is the 49.2 KB preceding commentary. This is not yet a cost improvement.
 Surah prose, reciprocal final check, full-surah reader state, common-root/rare-lemma concordance coverage, future
 QeQ digest cleanup and API economics remain unbuilt/unresolved. Sol usage dollars are unknown unless reported
@@ -60,6 +72,6 @@ tags: 23 exact, four fixable; no missing/bad-source tags. The account covers all
 anchors and narrow claims before another arm. The citation diagnostic now handles source: tags and inclusive
 same-surah ranges; only derived diagnostics were recomputed. Input and generated prose remain frozen.
 
-Next: align exact source spelling; retrieve passages where QeQ supplied only references; reduce accounting output;
-test compact prior-reader context. These are targeted revisions, not grounds to discard the discovery/network
-pipeline. No additional model call or repair was made. The Sol facility did not expose usage dollars/tokens.
+The first trial led to the source and accounting revision in STABILIZATION.md and the completed repeat above.
+Compact prior-reader context remains untested. These are targeted revisions, not grounds to discard the
+discovery/network pipeline. Neither Sol run exposed usage dollars/tokens.

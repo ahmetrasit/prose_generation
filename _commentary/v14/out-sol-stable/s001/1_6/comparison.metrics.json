@@ -1,0 +1,65 @@
+{
+  "out": {
+    "candidate_sha256": "cc276a9b9e11e481e1dbf82a33fecba2e23d58b089491287d23275c8cc7b25b6",
+    "prose_bytes": 28726,
+    "raw_words": 3231,
+    "gloss_substituted_words": 2510,
+    "tag_count": 71,
+    "blank_line_blocks": 58,
+    "median_block_words": 50.0,
+    "max_block_words": 156,
+    "distinct_cited_ayat": 50
+  },
+  "out-v2": {
+    "candidate_sha256": "d741ef0928327d6d85c995d90e538b9b57b62b28802d3efff88657b683dd46ae",
+    "prose_bytes": 65405,
+    "raw_words": 7451,
+    "gloss_substituted_words": 5672,
+    "tag_count": 150,
+    "blank_line_blocks": 23,
+    "median_block_words": 275,
+    "max_block_words": 897,
+    "distinct_cited_ayat": 114
+  },
+  "out-sol-max": {
+    "candidate_sha256": "b803819a21d84d86f0ed7585e0d8eec508566223c98a0411fc114771f7a969de",
+    "prose_bytes": 42307,
+    "raw_words": 4971,
+    "gloss_substituted_words": 4617,
+    "tag_count": 27,
+    "blank_line_blocks": 44,
+    "median_block_words": 113.0,
+    "max_block_words": 151,
+    "distinct_cited_ayat": 131,
+    "response_bytes": 87110,
+    "account_tail_bytes": 44781,
+    "initial_packet_bytes": 201665
+  },
+  "out-sol-stable": {
+    "candidate_sha256": "9e4eb8fa5646b8ece32c6bd4f96a510c0b1c4056ec48321358ef4569c7859f4d",
+    "prose_bytes": 42579,
+    "raw_words": 4802,
+    "gloss_substituted_words": 4605,
+    "tag_count": 23,
+    "blank_line_blocks": 41,
+    "median_block_words": 119,
+    "max_block_words": 168,
+    "distinct_cited_ayat": 147,
+    "response_bytes": 62774,
+    "account_tail_bytes": 20173,
+    "initial_packet_bytes": 203821
+  },
+  "source_lookup": {
+    "calls": 15,
+    "requested_distinct": 126,
+    "returned_distinct": 349,
+    "returned_occurrences": 354,
+    "returned_bytes": 97910,
+    "requested_and_cited": 118,
+    "returned_and_cited": 147,
+    "cited_not_returned": [],
+    "known_initial_plus_returned_bytes": 301731,
+    "note": "Payload bytes, not actual total context, tokens or billed dollars. Uncited neighbouring context is not evidence of waste."
+  },
+  "measurement_note": "Blank-line blocks in historical out include headings/list blocks; compare prose paragraph statistics only where there are no headings/lists. Accounting includes whitespace after the separator, consistently with the first report."
+}

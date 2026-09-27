@@ -47,7 +47,10 @@ new contract and model, so it is not confounded with the source/accounting chang
 
 Twenty offline tests cover old-account compatibility, exact source mapping, changed corpus detection, bounded
 lookup, frozen lookup data kept out of bulk input, short-anchor resolution and ambiguous/oversized anchor rejection,
-along with the original immutability, sequential context and regression gates. Result: pending the agreed repeat.
+along with the original immutability, sequential context and regression gates. The repeat is complete; see
+STABILIZATION_COMPARISON.md. All 23 tags pass exactly and accounting fell 55%, but the broader review found an
+omitted earlier explanation inside a record still claimed connected. The narrow ten-case gate passes; acceptance
+is withheld. No response repair or additional generation was made.
 
 Concurrent work advanced live v13 in commits f1465ac9b and 91ce372cc. The baseline audit consequently reports six
 changed live source files (DESIGN, HANDOFF, net/qeq/write briefs and run.py), while all copied historical v14 data

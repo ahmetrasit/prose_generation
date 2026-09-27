@@ -1,0 +1,23 @@
+{
+  "task": "/root/v14_sol_stable",
+  "requested_model": "gpt-6-sol",
+  "requested_reasoning_effort": "max",
+  "fork_turns": "none",
+  "input": "write.input.md",
+  "output": "sol.response.txt",
+  "claim_observed_utc": "2026-09-27 21:33:23 UTC",
+  "pre_run_commit": "7ade57587",
+  "input_sha256": "76c05d88d76d0a3603f9c9f86c4d5a5eb297c4d4693cf59a58a03a5397fabf82",
+  "input_access": "Frozen writer input plus exact Quran passages via sources.py; no target baselines or evaluation",
+  "controls": "Same model/effort, v2 upstream, full v2 preceding 1:5 prose as out-sol-max",
+  "changes": "Exact-source normalization and selective lookup; compact evidence-anchor accounting",
+  "token_usage": null,
+  "cost_usd": null,
+  "usage_note": "The collaboration facility has not supplied token billing or dollar cost.",
+  "completion_observed_utc": "2026-09-27 22:03:40 UTC",
+  "generation_count": 1,
+  "repair_count": 0,
+  "response_sha256": "9c37de1d74cafdf02712a2d0d92abbd4c4cd726196ac1198dca8d38b423705a2",
+  "candidate_sha256": "9e4eb8fa5646b8ece32c6bd4f96a510c0b1c4056ec48321358ef4569c7859f4d",
+  "completion_note": "Agent completed on its own; no interruption, restart or manual prose repair."
+}
