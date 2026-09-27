@@ -348,7 +348,7 @@ def qeq(ref: str) -> str:
     nf = network_file(ref)
     files = [PROMPTS / "qeq.md", w / "window_text.md", a / "ayah.md", out / "act.md"]
     files += [nf] if nf else []
-    files += [a / "concordance.md", digest(ref), a / "reciprocal.md"]
+    files += [a / "concordance.md", digest(ref)]  # the reciprocal list is postponed to a final check (user, 2026-09-27)
     msg = call(ref, "qeq", files, "===== QEQ =====", out / "qeq.md")
     if (out / "qeq.md").exists():
         c = check_records(out / "qeq.md", r"^[FQ]\d+ \|")

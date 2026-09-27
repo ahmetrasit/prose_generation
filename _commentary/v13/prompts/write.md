@@ -12,8 +12,10 @@ analysis.
 - **ayah.md**: the ayah, its words, the anchor translation, word notes.
 - **findings** (`F<n>`): the latent readings found in the ayah, its window and its surah: local resonances, the ayah's
   part in the surah's images, Quran-loaded words, cross-definitions, concepts, and what Turkish loses.
-- **qeq** : what the rest of the Quran does to each finding (supports, expands, shifts, contradicts), and new findings
-  (`Q<n>`) from passages that work on the ayah's axes.
+- **qeq** : what the rest of the Quran does to each finding (supports, expands, shifts, contradicts), new findings
+  (`Q<n>`) from the passages' own words, and the axis pass (`A<n>`: passages for the plain sense and grammar). It gives
+  references only: quote the Quran's Arabic yourself, exactly, where a passage does its work (every quotation is
+  checked against the canonical text).
 - **network** (when present): the surah's images (`I<n>`), their members, how they interact, and a disclosure plan
   (where the reader first meets each image, where it develops, where it is assembled).
 - **mustland.md** (made by script from the network and the QeQ tags): what this ayah must carry: each image with a
