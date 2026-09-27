@@ -1,0 +1,146 @@
+# mustland.md — what the commentary of 1:7 must carry
+
+- M1 | image I1 The guided road and its fork | role here: assemble | show the whole image with every member (see the network line)
+- M2 | meeting I1 × I3 at 1:7:9 — the swerver is the stray camel
+- M3 | meeting I1 × I22 at 1:6:2/1:7:1 — the road-word also carries out of sight
+- M4 | meeting I1 × I25 at 1:7:5 — the switch that excepts
+- M5 | image I2 Mark and its reader | role here: develop
+- M6 | meeting I2 × I10 at 1:7:6 — the thickening of wrath is itself a readable mark on the face
+- M7 | image I3 The herd under its owner, and the stray whose lord is unknown | role here: assemble | show the whole image with every member (see the network line)
+- M8 | meeting I3 × I1 at 1:7:9 — the road's swerver is this stray
+- M9 | meeting I3 × I16 at 1:7:3 — livestock driven as offering
+- M10 | meeting I3 × I11 at 1:7:3 — the herd named for favour
+- M11 | image I4 The womb that holds and the tie that can be cut | role here: develop
+- M12 | meeting I4 × I3 at 1:7:9 — the lost calf and the stray camel are one
+- M13 | image I5 Formed, reared, stood up | role here: touch
+- M14 | meeting I5 × I22 at 1:7:9 — burial is the enclosure that erases, set against the womb that brings forth
+- M15 | image I6 Owner above, owned below: the grip that does not let go | role here: touch
+- M16 | meeting I6 × I10 at 1:7:6 — defiance hardens
+- M17 | image I7 The name worshipped, turned to "You" | role here: touch
+- M18 | image I8 Water held and water lost | role here: develop
+- M19 | meeting I8 × I22 at 1:7:9 — vanishing
+- M20 | meeting I8 × I23 at 1:7:3 — the same wind fills the sail
+- M21 | image I9 The station found good and stayed in | role here: assemble | show the whole image with every member (see the network line)
+- M22 | meeting I9 × I11 at 1:7:3 — favour is the agreeable station
+- M23 | image I10 Soft and hardened under the same "upon them" | role here: assemble | show the whole image with every member (see the network line)
+- M24 | meeting I10 × I2 at 1:7:6 — hardening is a readable mark
+- M25 | meeting I10 × I6 at 1:7:6 — defiance
+- M26 | meeting I10 × I11 at 1:7:3 — favour is softness
+- M27 | meeting I10 × I19 at 1:7:6 — the hide becomes a shield
+- M28 | image I11 Favour's circuit: mercy out, praise back | role here: assemble | show the whole image with every member (see the network line)
+- M29 | meeting I11 × I10 at 1:7:3 — favour is softness
+- M30 | meeting I11 × I9 at 1:7:3 — favour is the good station
+- M31 | meeting I11 × I3 at 1:7:3 — the herd named for favour
+- M32 | image I12 Credit run to its named term | role here: touch
+- M33 | meeting I12 × I11 at 1:7:3 — favour as credit
+- M34 | image I13 Blood answered | role here: assemble | show the whole image with every member (see the network line)
+- M35 | meeting I13 × I19 at 1:7:1 — the blade
+- M36 | meeting I13 × I22 at 1:7:1 — the passing-through word
+- M37 | image I14 Halted, leaning, standing up again | role here: touch
+- M38 | meeting I14 × I3 at 1:7:9 — the lost mount
+- M39 | image I15 The bride conveyed, the household formed and guarded | role here: develop
+- M40 | meeting I15 × I10 at 1:7:6 — ghayra stands beside wrath
+- M41 | image I16 Sent to its destination: gift, offering, season | role here: touch
+- M42 | meeting I16 × I3 at 1:7:3 — the herd driven
+- M43 | image I17 Bound by the name: oath, pact, protected client | role here: touch
+- M44 | image I18 One company held, or scattered | role here: develop
+- M45 | meeting I18 × I19 at 1:7:3 — rout
+- M46 | image I19 Contest: backing, blade against shield, ambush, rout | role here: touch
+- M47 | meeting I19 × I18 at 1:7:3 — the rout
+- M48 | meeting I19 × I13 at 1:7:1 — the blade
+- M49 | meeting I19 × I10 at 1:7:6 — hardness
+- M50 | image I20 The day fixed by what stands overhead | role here: touch
+- M51 | image I21 The Day the King sits and creation stands | role here: touch
+- M52 | image I22 The passage that takes in and carries out of sight | role here: touch (member here; not in the plan)
+- M53 | image I23 The coated hull under its captain | role here: touch
+- M54 | meeting I23 × I8 at 1:7:3 — the wind that brings rain also fills the voyage
+- M55 | image I24 Report, trial, verdict of praise | role here: develop
+- M56 | meeting I24 × I10 at 1:7:6
+- M57 | image I25 Set apart from its other | role here: assemble | show the whole image with every member (see the network line)
+- M58 | meeting I25 × I1 at 1:7:5 — the switch at the fork
+- M59 | meeting I25 × I11 at 1:7:5 — ghayr shares ṣalāḥ with favour
+- M60 | passage 39:23 [staging]
+- M61 | passage 20:81 [staging]
+- M62 | passage 4:93 [staging]
+- M63 | passage 2:178 [staging]
+- M64 | passage 5:95 [staging]
+- M65 | passage 16:7 [staging]
+- M66 | passage 12:19 [staging]
+- M67 | passage 12:65 [staging]
+- M68 | passage 4:69 [same-word]
+- M69 | passage 67:22 [same-word]
+- M70 | passage 37:69 [same-word]
+- M71 | passage 37:70 [staging]
+- M72 | passage 18:64 [staging]
+- M73 | passage 5:23 [same-word]
+- M74 | passage 5:26 [staging]
+- M75 | passage 7:44 [staging]
+- M76 | passage 2:173 [same-word]
+- M77 | passage 7:117 [staging]
+- M78 | passage 20:69 [staging]
+- M79 | passage 2:74 [staging]
+- M80 | passage 24:9 [staging]
+- M81 | passage 28:25 [staging]
+- M82 | passage 48:25 [staging]
+- M83 | passage 25:44 [staging]
+- M84 | passage 6:77 [same-word]
+- M85 | passage 26:86 [same-word]
+- M86 | passage 93:7 [same-word]
+- M87 | passage 16:9 [staging]
+- M88 | passage 20:10 [staging]
+- M89 | passage 38:22 [same-word]
+- M90 | passage 3:103 [staging]
+- M91 | passage 26:18 [staging]
+- M92 | passage 26:20 [same-word]
+- M93 | passage 14:5 [staging]
+- M94 | passage 17:83 [same-word]
+- M95 | passage 67:8 [staging]
+- M96 | passage 37:23 [same-word]
+- M97 | passage 18:61 [staging]
+- M98 | passage 10:25 [same-word]
+- M99 | passage 2:61 [staging]
+- M100 | passage 8:53 [same-word]
+- M101 | passage 7:154 [staging]
+- M102 | passage 6:71 [staging]
+- M103 | passage 5:21 [staging]
+- M104 | passage 37:142 [staging]
+- M105 | passage 68:49 [staging]
+- M106 | passage 20:135 [same-word]
+- M107 | passage 6:161 [same-word]
+- M108 | passage 4:115 [same-word]
+- M109 | passage 48:2 [same-word]
+- M110 | passage 16:121 [same-word]
+- M111 | passage 4:68 [same-word]
+- M112 | passage 6:39 [same-word]
+- M113 | passage 23:74 [same-word]
+- M114 | passage 28:22 [staging]
+- M115 | passage 2:198 [same-word]
+- M116 | passage 5:94 [staging]
+- M117 | passage 2:57 [staging]
+- M118 | passage 16:81 [staging]
+- M119 | passage 37:146 [staging]
+- M120 | passage 39:8 [staging]
+- M121 | passage 27:19 [same-word]
+- M122 | passage 46:15 [same-word]
+- M123 | passage 32:10 [staging]
+- M124 | passage 2:259 [staging]
+- M125 | passage 47:15 [same-word]
+- M126 | passage 19:58 [same-word]
+- M127 | passage 2:40 [same-word]
+- M128 | passage 2:47 [same-word]
+- M129 | passage 2:122 [same-word]
+- M130 | passage 4:25 [same-word]
+- M131 | passage 42:53 [same-word]
+- M132 | passage 14:1 [same-word]
+- M133 | passage 34:6 [same-word]
+- M134 | passage 37:118 [same-word]
+- M135 | passage 36:61 [same-word]
+- M136 | passage 3:51 [same-word]
+- M137 | passage 43:64 [same-word]
+- M138 | passage 15:41 [same-word]
+- M139 | passage 3:90 [same-word]
+- M140 | passage 15:56 [same-word]
+- M141 | passage 7:16 [same-word]
+- M142 | passage 28:17 [same-word]
+- M143 | passage 43:59 [same-word]
+- M144 | passage 33:37 [same-word]
