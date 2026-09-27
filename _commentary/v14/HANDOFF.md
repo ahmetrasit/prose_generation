@@ -3,6 +3,11 @@
 Read DESIGN.md and INPUT_AUDIT.md. The v13 handoff remains at ../v13/HANDOFF.md. V14 began as an exact copy of all
 308 files; baseline.manifest.json records that snapshot. Never edit copied historical out*/ or work/ files.
 
+Production requirement clarified by the user: this pipeline must run blind for any supplied ayah. No ayah-specific
+fixes, manually supplied missing connections, or generation rules derived from target evaluation answers. Known
+omissions belong in evaluation only. Generic changes must be justified as mechanisms that work from normal inputs.
+The 1:6 comparison selects a promising writer; it does not establish readiness for arbitrary ayat.
+
 Latest result: read ARGUMENT_COMPARISON.md. The authorized Sol 6 max / Astra 6 max pair finished in parallel,
 one generation each, no interruption/restart/repair. Same 1:6 evidence, v2 upstream, full v2 1:5, revised brief,
 lookup capability and schema-3 trace; packets are identical after normalizing the routing tag. Fifteen criteria
@@ -15,10 +20,14 @@ to signs/centre, so neither is accepted. All 110 Sol / 140 Astra tags pass exact
 Read both review.json and supplemental.review.json. Links are locations, never claims of full explanation; omitted
 components still hide inside some linked records. Astra also identifies missing rock-branch and variant evidence.
 
-Next proposed work: component-level omission protection, explicit prior-knowledge/new-connection distinction, and
-closing those input gaps. No additional model run starts automatically. A compact previous-context ablation remains
-separate. Twenty-three offline tests passed before the pair; no implementation changed after that test run. All
-four arms' frozen inputs and copied historical data remain intact. Concurrent v13 work must not be staged/restored.
+Next proposed evaluation: freeze the current pipeline and test a varied set of previously unused ayat through the
+normal input path, with no manual evidence curation or prompt changes between results. Evaluate source correctness,
+grounding, supported connections, consequential omissions, continuity and readable development independently.
+Component-level omission tracking, prior-reader-state handling and source-reference completeness are hypotheses
+for general mechanisms, not instructions to restore particular 1:6 examples. Do not tune again on 1:6 to claim blind
+readiness. No additional model run starts automatically. A compact previous-context ablation remains separate.
+Twenty-three offline tests passed before the pair; no implementation changed after that test run. All four arms'
+frozen inputs and copied historical data remain intact. Concurrent v13 work must not be staged/restored.
 The previous completed repeat and its shortcomings are recorded below as history.
 
 Previous result: read STABILIZATION_COMPARISON.md and REVIEW_RESPONSE.md. The agreed out-sol-stable repeat is complete:

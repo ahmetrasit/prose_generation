@@ -3,8 +3,13 @@
 Astra is the stronger candidate in this matched run. It preserves the upright Book, fire/guide, bodily resurrection
 and working well frame that the new Sol candidate omits. Its sections also carry more of an argument. Neither
 candidate is accepted: both lose the explicit connection between the trodden road surface, the signs and the centre
-line. All generated responses remain unchanged. This result supports continuing with the existing pipeline and
-targeted fixes to preservation and input completeness; it does not establish that either model is regression-free.
+line. All generated responses remain unchanged. This result makes Astra the stronger candidate for further
+evaluation; it does not establish readiness to run blind on arbitrary ayat or settle whether a larger rewrite is needed.
+
+The user clarified the production requirement after this comparison: the pipeline must work blind for any supplied
+ayah. The missing 1:6 connections below are evaluation findings, never material to hard-code into generation. A
+general-looking rule inspired by this one example also needs testing on previously unused ayat. The earlier advice
+to make a targeted fix was too narrow for that requirement.
 
 The prompt and the writer both matter. The revised brief gets Sol to supply exact local Arabic evidence and headings;
 its 23 tags in the previous repeat become 110 here. But Sol also compresses distinct explanations away, including
@@ -135,10 +140,18 @@ longest raw paragraph of 184 rather than 897. That is a useful preservation/read
 Sol's shorter response should not be promoted as an efficiency gain when the missing explanations were requested.
 Both still have serial lexical touring; Astra's headings and carried consequences reduce it, rather than eliminate it.
 
-The next change should protect distinct explanatory components inside multi-part records, with an explicit location
-or reason for each consequential omission. It should also distinguish prior reader knowledge from the new connection
-this ayah owes, and close the two source gaps above. It should not require all 155 passages, impose a word quota or
-expand the bookkeeping back into essays. Preserve these outputs as evidence; a further run needs a new frozen arm.
+The next evaluation should freeze the current pipeline and exercise its normal input path on a varied set of
+previously unused ayat, selected before seeing their outputs. Keep the same instructions throughout the batch and
+review source correctness, grounding, supported connections, consequential omissions, continuity and readability.
+Supply no target baseline prose, prior target review, named missing connection or hand-curated evidence to the writer.
+The generation process must discover what matters from the ordinary inputs. Keep evaluation separate.
+
+This run suggests general failure mechanisms to investigate: multi-part records can hide omitted explanations,
+prior knowledge can be confused with a new connection, and referenced evidence can be absent from the source packet.
+Any eventual change must address those mechanisms for arbitrary input, with no special cases for the road, well,
+Book or cited ayah numbers. More bookkeeping or mandatory use of every passage is not evidence that the mechanism
+works. Preserve these outputs as evidence; a further run needs a new frozen arm. Astra is the leading candidate,
+while blind reliability remains untested.
 
 Validation: both schema-3 accounts are structurally valid; all 250 tags are exact with no repair; both prose validators
 pass; packet hashes and all four experimental arms' frozen inputs verify. The 23 offline tests passed before the
