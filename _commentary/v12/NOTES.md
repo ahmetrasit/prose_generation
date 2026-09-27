@@ -55,6 +55,10 @@ Known answers are in `eval/` — never put `eval/` or this file into a model's i
   321 KB package) still running at 23:20: Luna builds a Python classifier over quran.txt (regex for رب forms, own
   word numbering skipping pause marks, rule groups such as "cosmos" = rabb al-ʿālamīn, hand cases for Yūsuf's master
   12:23/12:41/12:42/12:50); read nothing outside its folder.
+- 23:08 (real clock; earlier "23:15/23:20" were elapsed-time misreadings): ر ب ب still running (34 min, 38 tool
+  calls), refining hand cases — 2:258 (Ibrāhīm vs the king), 6:76–78 ("this is my Lord" of star, moon, sun), Yūsuf's
+  master, 14:44. Background task in the old session; check with `python3 run.py status --list lists/test10.txt` and
+  `ls -lt logs/ربب/` (a live `codex exec -m gpt-6-luna -s read-only` process = still running; never kill it).
 - Score (`python3 _commentary/v12/eval/score_dossiers.py`): 0 mixed groups; all expected branches; both repeated
   phrases recorded; ḥamaʾ records the variant ḥāmiya; Luna split 18:42 (garden on trellises, B003) from the towns on
   their roofs, which corrected the answer key.
