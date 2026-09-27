@@ -1,0 +1,279 @@
+# usage.md — how the Quran uses the roots of 29:39 (root dossiers: each root's occurrences grouped by what the ayat say, with the dictionary branch of the plain reading; a concordance, not an interpretation)
+
+Made by script: the occurrence lists, ids, counts and forms; the branch lines are the dictionary's. Made by a model and checked by script only for structure, so possibly wrong: the groups, their labels, each group's branch, the exceptions and the minor-analysis notes, and what follows from them (the ▶ group, the branches never the plain sense). Group size says nothing: a context may be split over several groups.
+
+
+### س ب ق — سَٰبِقِينَ (37 occurrences, 24 groups)
+- ▶ here (29:39:13): **Disbelievers and evildoers cannot outstrip God** — 3 occurrences; plain sense B004 yakalanmaktan kurtulacak kadar öne kaçma
+  - forms: سَبَقَ V PERF ×1; سَبَقَ V IMPF SUBJ ×1; سَابِق N ACT ×1
+  - also in: 8:59, 29:4
+- its other groups:
+  - People urged to race toward good deeds, forgiveness, and a garden (3: 2:148, 5:48, 57:21) B001
+  - Lūṭ tells his people no one before them had committed this indecency (2: 7:80, 29:28) B001
+  - A prior word from God delays judgment while communities disagree over belief (2: 10:19, 42:14) B001
+  - Nūḥ's ark passengers exclude those on whom God's word had gone forth (2: 11:40, 23:27) B001
+  - A prior word from God postpones judgment over disputes about Moses's book (2: 11:110, 41:45) B001
+  - No community gets ahead of its appointed time, and none delays it (2: 15:5, 23:43) B001
+  - People who hasten in good deeds are foremost in them (2: 23:61, 35:32) B001
+  - The foremost are brought near in gardens of bliss (2: 56:10) B001
+  - God says He cannot be outstripped in replacing people with others (2: 56:60, 70:41) B004
+  - Those who race ahead swiftly (2: 79:4) B001
+  - A written decree from God precedes punishment for those who took captives (1: 8:68) B001
+  - The first emigrants, Helpers, and those who followed them in goodness (1: 9:100) B001
+  - Yūsuf's brothers say they went racing and left him by their belongings (1: 12:17) B001
+  - Yūsuf and the wife of al-ʿAzīz race to the door (1: 12:25) B001
+  - Reports of what has already passed (1: 20:99) B001
+  - A prior word and appointed term hold back punishment after earlier generations were destroyed (1: 20:129) B001
+  - God's honored servants do not speak before Him and act by His command (1: 21:27) B001
+  - The good has preceded for those kept away from Hell (1: 21:101) B001
+  - The night does not precede the day, and all move in their orbits (1: 36:40) B001
+  - If their eyes were erased, people would race along the path without seeing (1: 36:66) B001
+  - God's word has already gone forth to His messengers (1: 37:171) B001
+  - Disbelievers say believers would not have reached the Quran before them if it were good (1: 46:11) B001
+  - Later believers pray for their brothers who preceded them in faith (1: 59:10) B001
+- branches never the plain sense in any occurrence: B002 yarışta ortaya konup kazananın aldığı pay; B003 avcı kuşun ayaklarına takılan iki bağ
+
+### ك ب ر — فَٱسْتَكْبَرُوا۟ (161 occurrences, 87 groups)
+- ▶ here (29:39:8): **Pharaoh, ʿĀd, Qarun, Haman, and others act arrogantly in the land** — 6 occurrences; plain sense B006 ululuk ve kendini üstün görme
+  - forms: ٱسْتَكْبَرَ V X PERF ×3; يَتَكَبَّرُ V V IMPF ×1; ٱسْتِكْبَار N X ×1; ٱسْتَكْبَرَ V X IMPF ×1
+  - also in: 7:146, 28:39, 35:43, 41:15, 46:20
+- its other groups:
+  - The faithful receive great reward, forgiveness, favor, success, and kingdom (10: 11:11, 17:9, 33:47 (+7)) B001
+  - People reject a recited message, a warner, or the call that God is one (7: 31:7, 37:35, 39:59 (+4)) B006
+  - God is named the Great (6: 4:34, 13:9, 22:62 (+3)) B001
+  - Weak followers confront arrogant leaders about their punishment (6: 14:21, 34:31, 34:32 (+3)) B006
+  - People who disbelieve in the Hereafter or dispute God's signs are proud in their hearts (5: 16:22, 16:23, 40:27 (+2)) B006
+  - Iblīs refuses to prostrate to Adam and is told not to act proudly there (4: 2:34, 7:13, 38:74 (+1)) B006
+  - Abraham and Zechariah refer to old age while speaking of sons (4: 3:40, 14:39, 15:54 (+1)) B004
+  - Those near God and the angels worship him without pride (4: 7:206, 16:49, 21:19 (+1)) B006
+  - Small and large measures and deeds are entered in the written record (4: 10:61, 18:49, 34:3 (+1)) B001
+  - The arrogant are assigned an enduring place in Hell (4: 16:29, 39:60, 39:72 (+1)) B006
+  - The punishment in the Hereafter is greater than the nearer punishment or worldly humiliation (4: 32:21, 39:26, 68:33 (+1)) B001
+  - Believers are told to avoid major sins (3: 4:31, 42:37, 53:32) B007
+  - Those who pride themselves against serving God are gathered or enter Hell (3: 4:172, 4:173, 40:60) B006
+  - The proud leaders of Pharaoh's people face signs sent through Moses and Aaron (3: 7:133, 10:75, 23:46) B006
+  - The Hereafter is greater in rank and preference than worldly life (3: 16:41, 17:21) B001
+  - The Messenger is told to magnify his Lord (3: 17:111, 74:3) B009
+  - God's greatest signs are shown to Moses and seen by Muḥammad (3: 20:23, 53:18, 79:20) B001
+  - People are told to magnify God for guiding them (2: 2:185, 22:37) B009
+  - The leading criminals of every town plot there (2: 6:123, 33:67) B005
+  - People who deny God's signs act arrogantly toward them (2: 7:36, 7:40) B006
+  - The proud leaders among Ṣāliḥ's people question believers and reject their faith (2: 7:75, 7:76) B006
+  - A great punishment is announced for those who turn away or do wrong (2: 11:3, 25:19) B001
+  - Pharaoh calls one magician their leader and teacher (2: 20:71, 26:49) B005
+  - Abraham leaves their largest idol and says it did the deed (2: 21:58, 21:63) B001
+  - Disputing God's signs and saying what one does not do are greatly hateful to God (2: 40:35, 61:3) B001
+  - God possesses majesty in the heavens and earth and is named the Supremely Great (2: 45:37, 59:23) B006
+  - Nūḥ's people persist in arrogance while blocking his call (2: 71:7) B006
+  - Prayer is difficult except for the humble (1: 2:45) B010
+  - The Children of Israel grow proud when messengers bring what they dislike (1: 2:87) B006
+  - The change of prayer direction is difficult except for those God guides (1: 2:143) B010
+  - Fighting in the sacred month is called great (1: 2:217) B001
+  - Blocking God's path and expelling people from the Sacred Mosque are called greater (1: 2:217) B001
+  - Fitna is greater than killing (1: 2:217) B001
+  - The sin in wine and gambling is called grave (1: 2:219) B007
+  - The sin of wine and gambling exceeds their benefit (1: 2:219) B001
+  - An orchard owner is overtaken by old age (1: 2:266) B004
+  - A debt is recorded whether small or large (1: 2:282) B001
+  - What their opponents conceal is greater than what they say (1: 3:118) B001
+  - Consuming orphans' wealth is a grave sin (1: 4:2) B007
+  - Orphans are to receive their wealth before they grow up (1: 4:6) B004
+  - The Children of Israel demand that Moses show them God openly (1: 4:153) B001
+  - The Christians are described as not acting arrogantly (1: 5:82) B006
+  - The sun appears greater than the previous heavenly body Abraham saw (1: 6:78) B001
+  - The Prophet finds people's turning away burdensome (1: 6:35) B010
+  - Wrongdoers at death had acted arrogantly toward God's signs (1: 6:93) B006
+  - People of al-Aʿrāf tell men their wealth and arrogance did not benefit them (1: 7:48) B006
+  - Shuʿayb's proud leaders threaten to expel him and the believers (1: 7:88) B006
+  - Failure to support believers leads to great corruption in the land (1: 8:73) B001
+  - The day of the greater pilgrimage is announced (1: 9:3) B001
+  - God's approval is greater than the gardens and dwellings promised to believers (1: 9:72) B001
+  - Small and large campaign expenditures are recorded for their doers (1: 9:121) B001
+  - Nūḥ tells his people that his stay and reminders may burden them (1: 10:71) B010
+  - Pharaoh's people accuse Moses and Aaron of seeking sovereignty in the land (1: 10:78) B006
+  - God's favor to Muḥammad is great (1: 17:87) B001
+  - The women see Joseph and are astonished by him (1: 12:31) B003
+  - Joseph's brothers ask him to spare a brother because their father is old (1: 12:78) B004
+  - The eldest brother stays in Egypt until their father permits or God judges (1: 12:80) B008
+  - The Children of Israel commit great corruption twice (1: 17:4) B001
+  - The vision and accursed tree are followed by greatly increased rebellion (1: 17:60) B001
+  - Parents reach old age in the care of their children (1: 17:23) B004
+  - Killing children is called a grave offense (1: 17:31) B007
+  - God is far above what they say, in great transcendence (1: 17:43) B001
+  - A future creation is regarded as great within people's breasts (1: 17:51) B001
+  - The statement that God has a son is called great (1: 18:5) B001
+  - The greatest terror does not grieve those promised its day (1: 21:103) B001
+  - The great overwhelming event arrives (1: 79:34) B001
+  - The prescribed religion is burdensome to the polytheists (1: 42:13) B010
+  - People turn from the recited signs and spend nights speaking arrogantly (1: 23:67) B006
+  - One person took the main share of the false accusation (1: 24:11) B002
+  - Those who demand angels or a sight of God act with great insolence (1: 25:21) B006
+  - Those who demand angels or God's sight commit great insolence (1: 25:21) B001
+  - The Messenger is told to wage a great struggle against the disbelievers (1: 25:52) B001
+  - The remembrance of God is greater (1: 29:45) B001
+  - Believers fall prostrate when reminded of God's signs without acting proudly (1: 32:15) B006
+  - The curse placed on the leaders is great (1: 33:68) B001
+  - The heavens and earth are a greater creation than people (1: 40:57) B001
+  - God's anger toward disbelievers exceeds their hatred of themselves (1: 40:10) B001
+  - Each sign shown to Pharaoh is greater than the one before it (1: 43:48) B001
+  - God seizes people with the greatest seizure on its appointed day (1: 44:16) B001
+  - Hypocrites turn away proudly when asked to seek the Messenger's forgiveness for them (1: 63:5) B006
+  - Those in Hell recall rejecting a warner and being in great error (1: 67:9) B001
+  - Nūḥ's people scheme a great scheme (1: 71:22) B001
+  - Saqar is named as one of the great things (1: 74:35) B001
+  - The disbeliever burns in the great fire (1: 87:12) B001
+  - The Prophet is asked what is greater in testimony and answers that God is witness between him and his audience (1: 6:19) B001
+  - Two women say their father is an old man (1: 28:23) B004
+- branches never the plain sense in any occurrence: B011 üstünlük yarışına girip yenmek; B012 tek yüzlü davul; B013 günün yükseldiği vakit
+
+### ج ي ء — جَآءَهُم (278 occurrences, 0 groups, 278 stop-lemma words not grouped)
+- 29:39:5: stop lemma (جَآءَ), not grouped
+- branches never the plain sense in any occurrence: root_000281/B001 gelmek veya ulaşmak; root_000281/B002 gelip gitmede üstün gelmek; root_000281/B003 suyun biriktiği çukur veya yer; root_000281/B004 bir şeyi getirmek veya hazır bulundurmak; root_000281/B005 birini bir şeye zorlamak; root_000281/B006 çıban veya yarada birikmiş irin
+
+### ء ر ض — ٱلْأَرْضِ (461 occurrences, 44 groups)
+- ▶ here (29:39:10): **Powerful people acting arrogantly or seeking elevation in the earth** — 12 occurrences; plain sense B001 yer ve yere bakan alt bölüm
+  - forms: أَرْض N ×12
+  - also in: 7:146, 10:78, 10:83, 28:4, 28:19, 28:39, 28:83, 35:43, 40:75, 41:15, 46:20
+- its other groups:
+  - God's ownership, kingship, and lordship over the earth (70: 2:107, 2:116, 2:255 (+65)) B001
+  - God creating or forming the heavens and the earth (50: 2:117, 2:164, 3:190 (+47)) B001
+  - God knowing what is in the earth and what is hidden there (30: 2:33, 3:5, 3:29 (+27)) B001
+  - Acts of corruption, excess, and transgression in the earth (30: 2:11, 2:27, 2:60 (+26)) B001
+  - God granting communities settlement, authority, succession, or inheritance in the earth (30: 2:30, 6:6, 6:165 (+26)) B001
+  - Rain reviving the earth and the plants and crops it produces (28: 2:61, 2:71, 2:164 (+24)) B001
+  - The earth changing, shaking, or opening at death and resurrection (25: 4:42, 7:187, 11:107 (+20)) B001
+  - God spreading the earth and making it a stable dwelling place (23: 2:22, 2:36, 7:24 (+20)) B001
+  - Food, provisions, and goods taken from the earth or found on it (19: 2:29, 2:168, 2:267 (+16)) B001
+  - People entering, leaving, or speaking of particular lands (19: 4:97, 5:21, 5:26 (+16)) B001
+  - Those in the earth submitting, prostrating, or glorifying God (15: 3:83, 13:15, 16:49 (+12)) B001
+  - People traveling, migrating, seeking provision, or fighting across the earth (14: 2:273, 3:156, 4:97 (+11)) B001
+  - People and creatures living on earth under God's care or command (13: 5:17, 6:38, 6:116 (+10)) B001
+  - People traveling through the earth to see how earlier peoples ended (13: 3:137, 6:11, 12:109 (+10)) B001
+  - The earth's surface and interior as places things are buried, rooted, or emerge (8: 5:31, 6:35, 14:26 (+5)) B001
+  - People with no protector on earth and those unable to escape God's power (8: 9:74, 11:20, 24:57 (+5)) B001
+  - Signs in the earth and heavens for people to see (7: 7:185, 10:6, 10:101 (+4)) B001
+  - not assigned by the reader (7: 13:33, 17:90, 18:94 (+4)) unmapped
+  - God threatening or causing people to be swallowed by the earth (5: 16:45, 28:81, 29:40 (+2)) B001
+  - People and angels walking on the earth (4: 17:37, 17:95, 25:63 (+1)) B001
+  - People created and grown from the earth (3: 11:61, 53:32, 71:17) B001
+  - Earlier peoples' works and traces in the earth (3: 30:9, 40:21, 40:82) B001
+  - Ṣāliḥ's she-camel eating in God's land (2: 7:73, 11:64) B001
+  - The prepared garden's width measured against the heavens and earth (2: 3:133, 57:21) B001
+  - Idols challenged over what they created from the earth (2: 35:40, 46:4) B001
+  - God reducing the earth from its edges (2: 13:41, 21:44) B001
+  - Clouds held between heaven and earth (1: 2:164) B001
+  - The earth told to absorb Noah's floodwaters (1: 11:44) B001
+  - The earth split apart if a Quran were sent with that effect (1: 13:31) B001
+  - The earth's adornment set for people's testing (1: 18:7) B001
+  - The heavens and earth becoming corrupt if truth followed human desires (1: 23:71) B001
+  - God described as the light of the heavens and the earth (1: 24:35) B001
+  - The Romans defeated in the nearer land and later victorious (1: 30:3) B001
+  - God directing the command from heaven to earth and back (1: 32:5) B001
+  - The earth and mountains declining to carry the trust (1: 33:72) B001
+  - The earth not mourning Pharaoh's people (1: 44:29) B001
+  - An oath by the Lord of heaven and earth (1: 51:23) B001
+  - Jinn and people challenged to pass beyond the bounds of heaven and earth (1: 55:33) B001
+  - Calamities happening on earth and to people (1: 57:22) B001
+  - People asked how long they remained on earth (1: 23:112) B001
+  - Satan promising to make things attractive to people on earth (1: 15:39) B001
+  - A man turning toward the earth and following his desire (1: 7:176) B001
+  - Heaven and earth answering God's command to come willingly (1: 41:11) B001
+- branches never the plain sense in any occurrence: B002 yumuşak ve verimli toprak; B003 iyiliğe yatkın ve layık; B004 yabancı kimse; B005 kalın yün veya kıl yaygı; B006 yere çökercesine ağırlaşıp oyalanmak; B007 karşısına çıkıp kendini ortaya koymak; B008 titreme veya ürperme; B009 soğuk algınlığı; B010 odun yiyen küçük canlı; B011 yaranın irinlenip bozulması; B012 doğaüstü etkiye bağlanan istemsiz sarsıntılı akıl bozukluğu
+
+### ب ي ن — بِٱلْبَيِّنَٰتِ (523 occurrences, 59 groups)
+- ▶ here (29:39:7): **Prophets and messengers bring or receive clear proofs from God** — 33 occurrences; plain sense B004 açığa çıkıp belirginleşme
+  - forms: بَيِّنَة N ×33
+  - also in: 2:87, 2:92, 2:253, 3:86, 3:183, 3:184, 5:32, 5:110, 7:73, 7:85, 7:101, 7:105, 9:70, 10:13 (+18)
+- its other groups:
+  - God, messengers, and judges decide disputes among people (46: 2:113, 2:213, 3:23 (+39)) B002
+  - Clear signs and verses are sent down, recited, or present among people (29: 2:99, 2:159, 2:185 (+26)) B004
+  - God makes signs, rulings, and guidance clear to people (26: 2:68, 2:69, 2:70 (+23)) B005
+  - God creates and owns the heavens, earth, and what lies between them (23: 2:164, 5:17, 5:18 (+20)) B002
+  - Messengers warn people and clearly convey their message (21: 5:92, 7:184, 11:25 (+18)) B005
+  - People and communities are described as being in manifest error (19: 3:164, 6:74, 7:60 (+16)) B004
+  - Walls, veils, seas, and other barriers stand between people or places (19: 7:46, 8:24, 11:43 (+11)) B002
+  - Truth, guidance, and events become clear to people (16: 2:109, 2:187, 2:256 (+13)) B004
+  - Books, records, and the Quran are described as clear (16: 5:15, 6:59, 10:61 (+13)) B004
+  - Enmity, envy, and discord occur among people and groups (14: 2:213, 3:19, 5:14 (+8)) B003
+  - People divide their affairs or are separated from one another (14: 2:102, 4:150, 5:25 (+9)) B001
+  - Later revelations affirm the scripture that came before them (13: 2:97, 3:3, 3:50 (+9)) B002
+  - People stand upon, request, or are challenged to provide clear proof (13: 6:57, 6:157, 8:42 (+9)) B004
+  - Clear authority is offered or given to prophets and disputants (13: 4:91, 4:144, 4:153 (+10)) B004
+  - People repair relations and seek agreement among themselves (13: 2:182, 2:224, 2:232 (+8)) B003
+  - Affection and kinship are described as bonds between people (13: 3:103, 4:73, 8:63 (+5)) B003
+  - Covenants, a shared word, and agreements join opposing parties (12: 3:64, 4:90, 4:92 (+3)) B003
+  - God is witness between the Messenger and those who deny him (12: 6:19, 10:29, 13:43 (+3)) B002
+  - Falsehood, sin, and wrongdoing are described as manifest (11: 4:19, 4:20, 4:50 (+8)) B004
+  - People question, dispute, recognize, or whisper among themselves (11: 7:44, 10:45, 18:19 (+7)) B002
+  - Satan and other enemies are described as manifest enemies (10: 2:168, 2:208, 4:101 (+7)) B004
+  - People call signs and events manifest magic (10: 5:110, 6:7, 10:2 (+7)) B004
+  - Things are found or placed between paired locations and substances (10: 2:66, 16:66, 18:32 (+6)) B002
+  - People handle property, trade, oaths, and testimony among themselves (8: 2:188, 2:282, 4:29 (+4)) B003
+  - Victory, success, favor, and loss are described as manifest (7: 4:119, 6:16, 22:11 (+4)) B004
+  - Days, livelihoods, water, and death are distributed among people (7: 3:140, 25:50, 43:32 (+4)) B002
+  - Messengers explain scripture and disputed matters to their peoples (6: 5:15, 5:19, 14:4 (+3)) B005
+  - People speak or argue clearly, or are unable to make themselves clear (6: 16:4, 16:103, 26:195 (+3)) B005
+  - An intermediate state lies between two sides or modes (5: 2:68, 4:143, 4:150 (+2)) B011
+  - A great distance lies between a person, their deeds, or their companion (5: 3:30, 34:19, 43:38) B006
+  - Explanations are taught, given, and made available to people (4: 3:138, 16:89, 55:4 (+1)) B005
+  - A meteor, a road, smoke, and a horizon are described as clear or manifest (4: 15:18, 15:79, 44:10 (+1)) B004
+  - Believers say they do not distinguish among God's messengers and prophets (4: 2:136, 2:285, 3:84 (+1)) B002
+  - God knows what is before and behind created beings (4: 2:255, 20:110, 21:28 (+1)) B002
+  - People entrusted with scripture are told to make it clear to others (3: 2:159, 2:160, 3:187) B005
+  - Believers are told to verify reports before acting (3: 4:94, 49:6) B004
+  - A person or reminder is said to come from within a group (3: 6:53, 38:8, 54:25) B002
+  - Winds move before God's mercy and the coming rain (3: 7:57, 25:48, 27:63) B002
+  - People are addressed about what lies before them and behind them (3: 34:9, 36:45, 41:25) B002
+  - The Quran describes communities and places separated by generations or routes (3: 25:38, 34:18) B002
+  - Abraham's test and the signs given to Moses' people are clear trials (2: 37:106, 44:33) B004
+  - Moses' staff becomes a manifest serpent before Pharaoh (2: 7:107, 26:32) B004
+  - Angels guard people and messengers from before and behind (2: 13:11, 72:27) B002
+  - Messengers and warnings came before or behind their people (2: 41:14, 46:21) B002
+  - Believers' light runs before them on the Day of Resurrection (2: 57:12, 66:8) B002
+  - Charity is offered before private conversation with the Messenger (2: 58:12, 58:13) B002
+  - The angels describe what lies before them, behind them, and between that (2: 19:64) B002
+  - God is called the manifest truth, and the Messenger is on the manifest truth (2: 24:25, 27:79) B004
+  - God gathers disputing parties (2: 34:26, 42:15) B003
+  - not assigned by the reader (2: 4:23, 34:46) unmapped
+  - Satan approaches people from before, behind, right, and left (1: 7:17) B002
+  - Believers are told not to proceed before God and His Messenger (1: 49:1) B002
+  - Falsehood cannot come to the revelation from before or behind (1: 41:42) B002
+  - People are told about equal treatment between women (1: 4:129) B002
+  - A light is sent down and described as manifest (1: 4:174) B004
+  - God joins the clouds (1: 24:43) B003
+  - The Messenger's call is compared with people's calls to one another (1: 24:63) B002
+  - Women pledge not to invent slander between their hands and feet (1: 60:12) B002
+- branches never the plain sense in any occurrence: B007 göz erimindeki arazi parçası; B008 bağlı yerinden ayrılma; B009 sol yandan sağan kişi; B010 o sırada; B012 geri dönüşsüz boşanma; B013 ayrılık uğursuzu kuş
+
+### ك و ن — كَانُوا۟ (1390 occurrences, 28 groups, 1358 stop-lemma words not grouped)
+- 29:39:12: stop lemma (كَانَ), not grouped
+- its other groups:
+  - Messengers tell people to work according to their standing while they themselves work (4: 6:135, 11:93, 11:121 (+1)) B002
+  - Maryam withdraws from her family to an eastern place and later to a distant place (2: 19:16, 19:22) B002
+  - A man who wants to replace his wife is told not to take back her gift (1: 4:20) B002
+  - Those whom God cursed, made apes and swine, or who worshipped false gods are called worse in place (1: 5:60) B002
+  - God replaces hardship with ease for the people of a town (1: 7:95) B002
+  - Moses is told to see whether the mountain remains in its place (1: 7:143) B002
+  - Waves come at sailors from every side, and they fear they are surrounded (1: 10:22) B002
+  - On the day of gathering, polytheists are told to stay where they are with their partners (1: 10:28) B002
+  - Yusuf keeps his reply to himself and tells his brothers they are worse in place (1: 12:77) B002
+  - Joseph’s brothers ask the ruler to take one of them in place of their brother (1: 12:78) B002
+  - In Hell, death comes to the drinker of foul water from every place (1: 14:17) B002
+  - God replaces one sign with another, and the disbelievers call Muhammad a forger (1: 16:101) B002
+  - A secure, content village receives abundant provision from every place before rejecting God’s favors (1: 16:112) B002
+  - Idris is raised to a lofty place (1: 19:57) B002
+  - Those in error will learn who is worse in place when they see punishment or the Hour (1: 19:75) B002
+  - A level place is set for Moses and his opponent to meet over magic (1: 20:58) B002
+  - God shows Abraham the site of the House and commands him not to associate anything with Him (1: 22:26) B002
+  - A polytheist falls from the sky as birds snatch him or wind carries him far (1: 22:31) B002
+  - Hell sees its future occupants from a distant place, and they hear its rage and roaring (1: 25:12) B002
+  - People thrown into Hell are cast into a narrow place, bound together (1: 25:13) B002
+  - Those dragged on their faces to Hell are called worse in place and further astray (1: 25:34) B002
+  - Those who wished for Qarun’s place yesterday speak after he and his house are swallowed (1: 28:82) B002
+  - The frightened people are seized without escape from a nearby place (1: 34:51) B002
+  - They say they believe in it, then ask how to reach it from a distant place (1: 34:52) B002
+  - Those who disbelieved before cast at the unseen from a distant place (1: 34:53) B002
+  - God says He could transform them where they stand, leaving them unable to go or return (1: 36:67) B002
+  - Those who reject the Arabic Qur’an are called from a distant place (1: 41:44) B002
+  - A caller calls from a nearby place on the day people hear the cry (1: 50:41) B002
+- branches never the plain sense in any occurrence: B001 gerçekleşme, bulunma ve olma bildirimi; B003 birini güvenceyle üstlenme; B004 boyun eğme; B005 gençliğini anan yaşlı kişi; B006 kötü durumda gece geçirme

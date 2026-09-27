@@ -1,8 +1,490 @@
 # usage.md — how the Quran uses the roots of 29:41 (root dossiers: each root's occurrences grouped by what the ayat say, with the dictionary branch of the plain reading; a concordance, not an interpretation)
 
+Made by script: the occurrence lists, ids, counts and forms; the branch lines are the dictionary's. Made by a model and checked by script only for structure, so possibly wrong: the groups, their labels, each group's branch, the exceptions and the minor-analysis notes, and what follows from them (the ▶ group, the branches never the plain sense). Group size says nothing: a context may be split over several groups.
+
+
+### ع ن ك ب — ٱلْعَنكَبُوتِ ٱلْعَنكَبُوتِ (2 occurrences, 2 groups)
+- ▶ here (29:41:9): **Those taking protectors compared to a spider taking a house** — 1 occurrence; plain sense B001 örümcek
+  - forms: عَنكَبُوت N ×1
+- ▶ here (29:41:16): **The spider’s house named the weakest of houses** — 1 occurrence; plain sense B001 örümcek
+  - forms: عَنكَبُوت N ×1
+
+### و ه ن — أَوْهَنَ (9 occurrences, 8 groups)
+- ▶ here (29:41:13): **The spider's house stated to be the weakest of homes** — 1 occurrence; plain sense B001 gücün veya kararlılığın azalması ya da azaltılması
+  - forms: أَوْهَن N ×1
+- its other groups:
+  - His mother carrying him in weakness upon weakness (2: 31:14) B001
+  - Believers told not to weaken or grieve while being uppermost if they believe (1: 3:139) B001
+  - Followers who fought alongside a prophet not weakening after affliction in God's path (1: 3:146) B001
+  - Believers told not to weaken while pursuing opponents, though both sides suffer (1: 4:104) B001
+  - God weakening the plan of the disbelievers (1: 8:18) B001
+  - Zakariya saying his bone has weakened as his hair turns grey (1: 19:4) B001
+  - Believers told not to weaken or call for peace while they are uppermost and God is with them (1: 47:35) B001
+- branches never the plain sense in any occurrence: B002 gecenin ortası dolaylarında geçen saat; B003 alt kaburga, omuz damarı ya da devenin köprücük kemiği; B004 boyun yanı, üst kol veya omuz başındaki özel ağrı; B005 az hareketli, ağır ve ağırdan alan kadın; B006 yoğun deve topluluğu; B007 ücretli işçinin yanında durup onu çalışmaya teşvik eden kişi; B008 mazeret için uydurulan boş söz; B009 leş yiyip ağırlaşarak havalanamama
+
+### ب ي ت — بَيْتًا ٱلْبُيُوتِ لَبَيْتُ (73 occurrences, 50 groups)
+- ▶ here (29:41:11, 29:41:14, 29:41:15): **A spider builds its house, the weakest of houses** — 3 occurrences; plain sense B001 barınak mesken
+  - forms: بَيْت N ×3
+- its other groups:
+  - People may eat in their own houses and those of listed relatives (9: 24:61) B001
+  - God establishes the House at Bakkah for people (3: 2:125, 3:96, 5:97) B001
+  - People perform Hajj or ʿUmrah at the Sacred House (3: 2:158, 3:97, 5:2) B001
+  - People carve houses into mountains (3: 7:74, 15:82, 26:149) B001
+  - Believers are instructed about entering houses with permission and greeting their residents (3: 24:27, 24:61) B001
+  - Abraham and Ishmael are told to purify God's House for worshippers (2: 2:125, 22:26) B001
+  - People are told to enter houses through doors rather than their backs (2: 2:189) B001
+  - A group leaving the Prophet secretly plans something different from the obedience it professes (2: 4:81) B004
+  - God's punishment comes upon towns at night (2: 7:4, 7:97) B004
+  - If people were one community, God would give disbelievers' houses silver roofs and doors (2: 43:33, 43:34) B001
+  - Abraham and Ishmael raise the House's foundations and ask God to accept from them (1: 2:127) B001
+  - Jesus tells the Children of Israel what they eat and store in their houses (1: 3:49) B001
+  - Those destined to be killed would leave their houses for their beds if they stayed home (1: 3:154) B001
+  - Women who commit indecency are confined in houses until death or a way is made (1: 4:15) B001
+  - A person leaves his house migrating to God and His Messenger (1: 4:100) B001
+  - People conceal from others their plotting of speech that God does not approve (1: 4:108) B004
+  - The Prophet is brought out of his house by his Lord (1: 8:5) B001
+  - Prayer at the House consists of whistling and clapping (1: 8:35) B001
+  - The Prophet asks what wrongdoers hasten if punishment comes by night or day (1: 10:50) B004
+  - Moses and Aaron are told to settle their people in houses in Egypt (1: 10:87) B001
+  - Moses and Aaron are told to make houses a qiblah and establish prayer (1: 10:87) B001
+  - Abraham and Sarah's household is addressed after Sarah asks about bearing a son (1: 11:73) B002
+  - The woman in whose house Joseph stays tries to seduce him (1: 12:23) B001
+  - Abraham settles some of his descendants near God's Sacred House (1: 14:37) B001
+  - The bee is instructed to make dwellings in mountains, trees and trellises (1: 16:68) B001
+  - God makes people's houses places of residence (1: 16:80) B001
+  - God makes portable houses from livestock skins for travel and stays (1: 16:80) B001
+  - A house of gold is demanded from the Prophet (1: 17:93) B001
+  - God shows Abraham the site of the House (1: 22:26) B001
+  - Pilgrims are told to circumambulate the Ancient House after completing their rites (1: 22:29) B001
+  - The sacrificial animals' destination is the Ancient House (1: 22:33) B001
+  - People may enter uninhabited houses containing property for them (1: 24:29) B001
+  - God-authorized houses are raised and His name is remembered in them (1: 24:36) B001
+  - God's servants spend the night prostrating and standing before Him (1: 25:64) B004
+  - Nine men in the city swear to attack Ṣāliḥ and his family by night (1: 27:49) B004
+  - The city's houses lie empty because its people did wrong (1: 27:52) B001
+  - A household is proposed to nurse and care for the infant Moses (1: 28:12) B002
+  - Some people claim their houses are exposed as they seek to flee (1: 33:13) B001
+  - The Prophet's wives are told to remain in their houses (1: 33:33) B001
+  - The household is named Ahl al-Bayt in a statement about purification (1: 33:33) B002
+  - The Prophet's wives are told to remember what is recited in their houses (1: 33:34) B001
+  - Visitors to the Prophet's houses are told to enter for a meal and then leave (1: 33:53) B001
+  - Only one household of Muslims is found among the people sent stones (1: 51:36) B002
+  - An oath is sworn by the frequented House (1: 52:4) B001
+  - The expelled People of the Book and believers demolish houses with their hands (1: 59:2) B001
+  - Divorced women are not to be turned out of their houses (1: 65:1) B001
+  - Pharaoh's wife asks God for a house near Him in the Garden (1: 66:11) B001
+  - Noah asks forgiveness for whoever enters his house as a believer (1: 71:28) B001
+  - Quraysh are told to worship the Lord of the House who fed and secured them (1: 106:3) B001
+- branches never the plain sense in any occurrence: B003 şiir dizesi; B005 bir gecelik azık; B006 gece beklemiş şey; B007 mezar evi; B008 soylu hane; B009 bitişik komşu; B010 evlenip zifafa girmek
+
+### د و ن — دُونِ (144 occurrences, 32 groups, minor analysis of 100 words)
+- ▶ here (29:41:5): **People take guardians besides Allah, and those worshipped deny taking any besides Him** — 13 occurrences; plain sense B003 başkası ya da daha aşağıda olan
+  - forms: دُون N ×13
+  - also in: 4:119, 7:3, 7:30, 13:16, 17:2, 18:50, 18:102, 25:18, 39:3, 42:6, 42:9, 45:10
+- its other groups:
+  - People worship, invoke, or take gods other than Allah (63: 2:165, 3:64, 4:117 (+59)) B003
+  - People have no protector, helper, or intercessor other than Allah (22: 2:107, 4:123, 4:173 (+19)) B003
+  - At death and judgment, people are asked about or face those they invoked besides Allah (6: 7:37, 16:86, 25:17 (+3)) B003
+  - Abraham and his companions separate from their people and what they worship besides Allah (3: 19:48, 19:49, 60:4) B003
+  - Believers are told not to take disbelievers as allies instead of other believers (3: 3:28, 4:139, 4:144) B003
+  - People cannot find refuge apart from God (3: 18:27, 18:58, 72:22) B003
+  - Challengers are told to call witnesses and helpers besides God to produce a surah (3: 2:23, 10:38, 11:13) B003
+  - Believers are warned against taking confidants from outside the faithful community (2: 3:118, 9:16) B003
+  - God forgives what is less than associating partners for whomever He wills (2: 4:48, 4:116) B001
+  - Men approach other men in desire rather than women (2: 7:81, 27:55) B003
+  - Wrongdoers face a punishment before the greater punishment (2: 32:21, 52:47) B001
+  - The Quran is not fabricated from anyone other than God (1: 10:37) B003
+  - Among the Israelites, some are righteous and some are other than that (1: 7:168) B003
+  - People are told to remember God in a voice below loud speech (1: 7:205) B001
+  - Believers prepare force to frighten known enemies and others they do not know (1: 8:60) B003
+  - People whose hearts are heedless of this continue other deeds (1: 23:63) B003
+  - Devils dive for Solomon and perform other work besides that (1: 21:82) B003
+  - The Hour has no revealer apart from Allah (1: 53:58) B003
+  - Mary sets a screen apart from her family (1: 19:17) B003
+  - Dhu al-Qarnayn finds people beyond the two barriers (1: 18:93) B001
+  - Dhu al-Qarnayn finds a people at the sun's rising with no screen from it (1: 18:90) B001
+  - Moses finds two women apart from the people watering at Midian (1: 28:23) B003
+  - Among the jinn, some are righteous and others are below that (1: 72:11) B003
+  - Two gardens lie below the first pair (1: 55:62) B001
+  - God makes a near victory before the believers enter the Sacred Mosque (1: 48:27) B001
+  - A human given scripture is not to tell people to serve him instead of God (1: 3:79) B003
+  - The polytheists say they and their ancestors would not have forbidden anything apart from God (1: 16:35) B003
+  - The Jews ask whether the afterlife home is theirs apart from other people (1: 2:94) B003
+  - The Prophet receives a marriage allowance exclusive to him apart from believers (1: 33:50) B003
+  - The angels say God is their protector apart from the people who worship the jinn (1: 34:41) B003
+  - The Jews claim to be God's allies apart from the rest of people (1: 62:6) B003
+- branches never the plain sense in any occurrence: B002 değersiz, önemsiz veya aşağı olma; B004 buyur, bunu al; B005 kayıt defteri ve kayıtları düzenleme; B006 zayıflamak (aktarımı tartışmalı)
+
+### م ث ل — مَثَلُ كَمَثَلِ (169 occurrences, 103 groups)
+- ▶ here (29:41:1, 29:41:8): **Those who take protectors besides God are compared to a spider and its house** — 2 occurrences; plain sense B003 benzer duruma aktarılan örnek söz
+  - forms: مَثَل N ×2
+- its other groups:
+  - People reject messengers as human beings like themselves (10: 11:27, 14:10, 21:3 (+7)) B001
+  - God sets examples for people (9: 13:17, 14:25, 17:89 (+6)) B003
+  - People claim or are challenged to produce speech like the revelation (7: 2:23, 8:31, 10:38 (+3)) B001
+  - People answer aggression or harm with an equal measure (4: 2:194, 16:126, 22:60 (+1)) B001
+  - A good deed is repaid tenfold, while an evil deed receives only its like (4: 6:160, 10:27, 40:40) B001
+  - A man and the people who deny God’s signs are compared to a panting dog (4: 7:176, 7:177) B003
+  - Messengers warn their people of punishment like that of earlier peoples (4: 11:89, 40:30, 40:31 (+1)) B001
+  - Later groups make statements like those made by earlier groups (3: 2:113, 2:118, 23:81) B001
+  - Disbelievers would offer the earth and as much again to ransom themselves (3: 5:36, 13:18, 39:47) B001
+  - Worldly life is compared to rain-fed plants that flourish and wither (3: 10:24, 18:45, 57:20) B003
+  - Messengers say they are human beings like their hearers (3: 14:11, 18:110, 41:6) B001
+  - Those who disbelieve have an evil attribute, while God has the highest attribute (3: 16:60, 30:27) B004
+  - The Prophet’s opponents offer comparisons about him (3: 17:48, 25:9, 25:33) B003
+  - Those charged with the Torah are compared to a donkey carrying books (3: 62:5) B003
+  - The hypocrites’ likeness compared with a man who kindles a fire (2: 2:17) B003
+  - A parable is given with a mosquito, and people ask what it means (2: 2:26) B003
+  - Disbelievers are compared to a caller whose hearers do not understand (2: 2:171) B003
+  - Those who spend in God’s way are compared to a grain yielding many seeds (2: 2:261) B003
+  - The ostentatious giver is compared to stone stripped of soil by rain (2: 2:264) B003
+  - Those who spend seeking God’s approval are compared to a fruitful garden (2: 2:265) B003
+  - Jesus is compared with Adam, whom God created from dust (2: 3:59) B001
+  - Worldly spending is compared to a cold wind that destroys a people’s crops (2: 3:117) B003
+  - Male heirs receive a share equal to that of two female heirs (2: 4:11, 4:176) B001
+  - Two groups are compared to the blind and deaf, and the seeing and hearing (2: 11:24) B003
+  - God is able to create people like those already created (2: 17:99, 36:81) B001
+  - Abraham’s people and Solomon’s workers attend to statues (2: 21:52, 34:13) B008
+  - Job receives his family and as many more (2: 21:84, 38:43) B001
+  - God gives an example of a man with many masters and a man devoted to one (2: 39:29) B003
+  - The companions of Muhammad are described in the Torah and the Gospel (2: 48:29) B004
+  - God gives the wives of Noah, Lot, and Pharaoh as examples (2: 66:10, 66:11) B003
+  - God promises to replace a verse with something better or equal to it (1: 2:106) B001
+  - Others believe as the believers believe (1: 2:137) B001
+  - Those before endured hardship and distress before asking when God’s help would come (1: 2:214) B011
+  - Divorced women have rights corresponding to their obligations (1: 2:228) B001
+  - The heir bears a responsibility like the father’s during child nursing (1: 2:233) B001
+  - Those who deal in usury claim that trade is like usury (1: 2:275) B001
+  - At a meeting of two armies, one group sees the other as twice its number (1: 3:13) B001
+  - A person is given what the people addressed were given (1: 3:73) B001
+  - A people suffer a wound like the wound suffered by their opponents (1: 3:140) B001
+  - The people addressed recall having inflicted twice the losses they suffered (1: 3:165) B001
+  - Those sitting with people who mock God’s signs become like them (1: 4:140) B001
+  - Cain wishes he could act like the raven burying his brother (1: 5:31) B001
+  - A person who kills game while in consecration owes equivalent livestock (1: 5:95) B001
+  - Animals and birds form communities like those addressed (1: 6:38) B001
+  - A claimant says he will send down something like what God sent down (1: 6:93) B001
+  - One person walks in light while another’s condition is in darkness (1: 6:122) B004
+  - Some people demand to be given what God’s messengers were given (1: 6:124) B001
+  - People who inherit scripture take a worldly gain whenever one like it comes (1: 7:169) B001
+  - Those called besides God are servants like the people who call them (1: 7:194) B001
+  - People are told to expect days like those of earlier peoples (1: 10:102) B001
+  - Punishments inflicted on earlier peoples have already passed (1: 13:6) B002
+  - Foam on floodwater is compared to foam from heated metal (1: 13:17) B001
+  - The promised Garden is described with rivers, fruit, and shade (1: 13:35) B004
+  - The deeds of those who disbelieve are compared to ashes scattered by wind (1: 14:18) B003
+  - A good word is compared to a good tree (1: 14:24) B003
+  - A bad word is compared to a bad tree (1: 14:26) B003
+  - God recalls what happened to former peoples and sets examples for the people addressed (1: 14:45) B003
+  - People are told not to set comparisons for God (1: 16:74) B003
+  - God gives an example involving an enslaved man and a man given provision (1: 16:75) B003
+  - God gives an example involving a mute man and a man who commands justice (1: 16:76) B003
+  - God gives an example of a town that lost its security and abundance (1: 16:112) B003
+  - A man with two gardens is given as an example (1: 18:32) B003
+  - The sea could be replenished with its like for the words of the Lord (1: 18:109) B001
+  - The spirit appears to Mary in the form of a well-proportioned man (1: 19:17) B008
+  - Pharaoh’s people promise Moses magic like his (1: 20:58) B001
+  - Pharaoh’s people call their way the most exemplary way (1: 20:63) B009
+  - The people’s most exemplary way of speaking is that they stayed only a day (1: 20:104) B009
+  - God gives an example involving a fly and those called besides Him (1: 22:73) B003
+  - People are warned not to return to the slander they spread (1: 24:17) B001
+  - People receive examples from those who lived before them (1: 24:34) B011
+  - God’s light is described with a niche, a lamp, and a glass (1: 24:35) B003
+  - Earlier peoples are given examples and then utterly destroyed (1: 25:39) B003
+  - Some people ask to be given what Moses was given (1: 28:48) B001
+  - People seeing Qarun’s adornment wish for what was given to him (1: 28:79) B001
+  - People are given an example from their own household arrangements (1: 30:28) B003
+  - No one informs as one who is fully aware (1: 35:14) B001
+  - An example is set involving the people of a town visited by messengers (1: 36:13) B003
+  - God creates other things like the ships that people ride (1: 36:42) B001
+  - A man argues about who can give life to decayed bones (1: 36:78) B003
+  - Workers are told to work for something like the reward described (1: 37:61) B001
+  - Nothing is like God (1: 42:11) B001
+  - The precedent of earlier peoples has passed (1: 43:8) B011
+  - A man’s face darkens when a likeness is assigned to the Merciful (1: 43:17) B003
+  - The people destroyed by Pharaoh are made an example for those who come later (1: 43:56) B011
+  - The son of Mary is cited as an example, and the people dispute it (1: 43:57) B003
+  - Jesus is made an example for the Children of Israel (1: 43:59) B011
+  - A witness from the Children of Israel testifies to something like the revelation (1: 46:10) B001
+  - God sets examples of people for other people (1: 47:3) B003
+  - God destroyed those before them, and the disbelievers have the like of that (1: 47:10) B001
+  - The Garden promised to the mindful is described with its rivers and provisions (1: 47:15) B004
+  - A replacement people will not be like the people addressed (1: 47:38) B001
+  - The truth is affirmed as surely as people speak (1: 51:23) B001
+  - Wrongdoers receive a share like that of their companions (1: 51:59) B001
+  - The companions of Paradise are like concealed pearls (1: 56:23) B001
+  - God may replace the people addressed with others like them (1: 56:61) B001
+  - A present group is compared with people before them who tasted the outcome of their conduct (1: 59:15) B001
+  - The human who disbelieves is compared to Satan’s rejection of him (1: 59:16) B001
+  - People whose wives went to the disbelievers receive an equal amount to what they spent (1: 60:11) B001
+  - The earth is described as like the seven heavens (1: 65:12) B001
+  - People ask what God intends by the number of the keepers of Hell (1: 74:31) B003
+  - God may replace people with others like them (1: 76:28) B001
+  - No people like ʿĀd had been created in the lands (1: 89:8) B001
+- branches never the plain sense in any occurrence: B005 ayağa kalkıp dik durma; B006 yerinden ayrılma; yere sinip silinme; B007 döşek veya yere serilen yaygı; B010 buyruk veya örneğe uygun davranma; B012 hastalıktan sonra toparlanıp iyileşme
+
+### و ل ي — أَوْلِيَآءَ (232 occurrences, 77 groups)
+- ▶ here (29:41:7): **People take beings other than God as protectors** — 11 occurrences; plain sense B004 yakın durup destek olma
+  - forms: وَلِىّ N ×10; مَوْلَىٰ N ×1
+  - also in: 6:14, 7:3, 13:16, 18:102, 22:13, 25:18, 39:3, 42:6, 42:9, 45:10
+- its other groups:
+  - People have no guardian or helper apart from God (25: 2:107, 2:120, 4:123 (+22)) B004
+  - Believers are told not to ally with disbelievers and hostile groups (13: 3:28, 4:76, 4:89 (+7)) B004
+  - Satan and devils are named as allies or guardians (11: 2:257, 3:175, 4:119 (+8)) B004
+  - God and believers are named as guardians or supporters of the faithful (11: 3:68, 3:122, 4:45 (+8)) B004
+  - God is named the believers’ Mawla and helper (10: 2:286, 3:150, 8:40 (+4)) B004
+  - People turn away after calls to believe, repent, or accept the message (10: 2:137, 3:20, 3:63 (+7)) B007
+  - People turn their faces toward a prayer direction (9: 2:115, 2:144, 2:148 (+3)) B006
+  - Warriors turn their backs during battle (9: 3:111, 3:155, 8:15 (+6)) B007
+  - People turn away from obeying God or the Messenger (6: 3:32, 4:80, 5:92 (+3)) B007
+  - Those summoned to fight turn away from the fighting (5: 2:246, 8:40, 48:16 (+1)) B007
+  - God takes charge of believers and the righteous (5: 2:257, 6:127, 7:196 (+1)) B003
+  - Believers, disbelievers, and wrongdoers are described as mutual allies (5: 6:129, 8:72, 8:73 (+2)) B004
+  - Jews and Christians are described as allies of one another and of disbelievers (5: 5:51, 5:80, 5:81) B004
+  - People turn their backs on a recited call (5: 8:23, 17:46, 27:80 (+2)) B007
+  - A threat is repeated to the one addressed in the passage (5: 47:20, 75:34, 75:35) B009
+  - People summoned to God’s rulings turn away from judgment (4: 3:23, 5:43, 5:49 (+1)) B007
+  - People deny and turn away from the reminder (4: 75:32, 88:23, 92:16 (+1)) B007
+  - The Prophet is told to turn away from his opponents for a time (4: 37:174, 37:178, 51:54 (+1)) B007
+  - Pharaoh turns away from Moses and gathers his plan (3: 20:48, 20:60, 51:39) B007
+  - The Israelites turn away after taking the covenant (2: 2:64, 2:83) B007
+  - People turn away from Qur’an recitation or a Messenger’s clear signs (2: 44:14, 64:6) B007
+  - People claim to be God’s allies (2: 10:62, 62:6) B004
+  - The slain person’s relative is given authority over the killing (2: 17:33, 27:49) B005
+  - Saleh and Shuayb turn away after speaking to their peoples (2: 7:79, 7:93) B007
+  - People tied by religious or other bonds are named among the believers’ affiliates (2: 33:5, 33:6) B005
+  - Relatives are more entitled to one another (2: 8:75, 33:6) B008
+  - God is the true Mawla of those returned to Him (2: 6:62, 10:30) B003
+  - Hud tells his people to seek forgiveness and not turn away (2: 11:52, 11:57) B007
+  - Zakariya fears his relatives after him and asks God for an heir (2: 19:5) B005
+  - Abraham’s people turn away from him before he breaks their idols (2: 21:57, 37:90) B007
+  - Moses flees after seeing his staff move like a serpent (2: 27:10, 28:31) B007
+  - The guardians of the Sacred Mosque are named (2: 8:34) B003
+  - One companion cannot benefit another on the Day of Judgment (2: 44:41) B004
+  - People asked to spend turn away from giving (2: 47:38, 57:24) B007
+  - People ask who turned them away from the qibla they had faced (1: 2:142) B007
+  - A man leaves after speaking and spreads corruption across the land (1: 2:205) B007
+  - A guardian dictates a debt for someone unable to dictate (1: 2:282) B003
+  - Abraham’s followers, the Prophet, and believers are closest to Abraham (1: 3:68) B008
+  - Heirs receive shares from what parents and relatives leave (1: 4:33) B005
+  - The two most entitled witnesses are named in the inheritance testimony (1: 5:107) B008
+  - The people of a garden find that protection belongs to God, the True (1: 18:44) B004
+  - The Prophet has more claim over believers than they have over themselves (1: 33:6) B008
+  - People turn away after refusing to migrate (1: 4:89) B007
+  - The disbelievers take refuge in a cave or shelter and rush toward it (1: 9:57) B006
+  - Those nearest among the disbelievers are named (1: 9:123) B001
+  - Jacob turns away from his sons while grieving for Joseph (1: 12:84) B007
+  - The mute man depends on his master, who directs him (1: 16:76) B003
+  - A viewer would flee from the sleepers in the cave (1: 18:18) B007
+  - Those most deserving of the Fire are identified (1: 19:70) B008
+  - Solomon tells the hoopoe to withdraw after delivering the letter (1: 27:28) B007
+  - Moses turns toward the shade after watering for the two women (1: 28:24) B006
+  - A person undertakes the greatest share of the slander (1: 24:11) B003
+  - Fire calls those who flee on the Day of Calling (1: 40:33) B007
+  - Angels tell believers they are their allies in this life and the next (1: 41:31) B004
+  - A former enemy becomes a close friend (1: 41:34) B004
+  - The jinn return to their people as warners after hearing the Qur’an (1: 46:29) B007
+  - God is more entitled to concern for both the rich and the poor (1: 4:135) B008
+  - People turn away from the remembrance and seek worldly life (1: 53:29) B007
+  - A man turns away after giving little and then withholding (1: 53:33) B007
+  - The Fire is the disbelievers’ Mawla (1: 57:15) B004
+  - Whoever turns away from the example of Abraham and his followers (1: 60:6) B007
+  - Fire calls the person who turned away and went off (1: 70:17) B007
+  - The Prophet frowns and turns away from the blind man (1: 80:1) B007
+  - Hypocrites turn away rejoicing when misfortune strikes the Messenger (1: 9:50) B007
+  - Those who turn away after being called to repent face punishment (1: 9:74) B007
+  - People turn away after receiving bounty and withhold it (1: 9:76) B007
+  - Those without a mount leave the Messenger weeping (1: 9:92) B007
+  - If the Messenger’s opponents turn away, he is told to rely on God (1: 9:129) B007
+  - God has no ally out of any need or weakness (1: 17:111) B004
+  - The Prophet’s supporters include God, Gabriel, and righteous believers (1: 66:4) B004
+  - A variant reading presents the addressees as given authority (1: 47:22) B007
+  - Believers are told not to take as allies people whom God has condemned (1: 60:13) B004
+  - A person is directed to what he turned toward (1: 4:115) B013
+  - The person’s prior turning is mentioned (1: 4:115) B006
+  - The human allies of the jinn speak when all are gathered (1: 6:128) B004
+  - not assigned by the reader (1: 8:72) unmapped
+- branches never the plain sense in any occurrence: B002 kesintisiz ardışıklık; B010 önceki yağmuru izleyen yağmur; B011 deve sırtı alt örtüsü; B012 ele geçirip hedefe ulaşma; B014 aldığı fiyatla devretme; B015 küçük sürü hayvanlarını ayırma; B016 taze hurmanın kurumaya dönmesi
+
+### ء خ ذ — ٱتَّخَذُوا۟ ٱتَّخَذَتْ (273 occurrences, 110 groups)
+- ▶ here (29:41:3): **People taking others as allies or protectors** — 22 occurrences; plain sense B010 kendisi için edinip kazanma
+  - forms: ٱتَّخَذَ V VIII IMPF JUS ×9; ٱتَّخَذَ V VIII PERF ×8; ٱتَّخَذَ V VIII IMPF SUBJ ×3; ٱتَّخَذَ V VIII IMPF ×2
+  - also in: 3:28, 4:89, 4:119, 4:139, 4:144, 5:51, 5:57, 5:81, 7:30, 9:23, 13:16, 17:2, 18:50, 18:102 (+6)
+- ▶ here (29:41:10): **The spider taking a house** — 1 occurrence; plain sense B010 kendisi için edinip kazanma
+  - forms: ٱتَّخَذَ V VIII PERF ×1
+- its other groups:
+  - People taking idols, desires, or others as gods or intercessors (17: 2:165, 5:116, 6:74 (+14)) B010
+  - Covenants taken from Israelites, prophets, and recipients of scripture (15: 2:63, 2:83, 2:84 (+10)) B001
+  - Claims that God took offspring, and denials that He has a child or spouse (14: 2:116, 10:68, 17:40 (+11)) B010
+  - Past peoples seized after sins, denial of signs, or rejection of messengers (10: 3:11, 8:52, 13:32 (+7)) B001
+  - The Israelites taking the calf as a deity after Moses left (7: 2:51, 2:54, 2:92 (+3)) B010
+  - God’s signs, warnings, and call to prayer taken as mockery (7: 2:231, 5:58, 18:56 (+4)) B010
+  - Thamūd struck by quake, cry, and thunderbolt after rejecting Ṣāliḥ (6: 7:78, 11:67, 15:83 (+3)) B001
+  - People taken in a mighty seizure after denying signs or disobeying messengers (6: 54:42, 69:10, 73:16) B001
+  - People taking a path to the Messenger or to their Lord (5: 25:27, 25:57, 73:19 (+2)) B010
+  - Moses taking the tablets and telling his people to follow their teachings (4: 7:144, 7:145, 7:154) B001
+  - Believers told to carry weapons and keep watch during prayer and battle (4: 4:71, 4:102) B001
+  - Husbands taking back gifts given to their wives (4: 2:229, 4:20, 4:21) B001
+  - God’s seizure of unjust towns after delay (4: 11:102, 22:48) B001
+  - Hostile groups seized wherever found and killed or confined (4: 4:89, 4:91, 9:5 (+1)) B003
+  - People using their oaths as deceit or as a shield (4: 16:92, 16:94, 58:16 (+1)) B010
+  - God’s conditional accountability of people for their sins (3: 16:61, 18:58, 35:45) B002
+  - People claiming a covenant with God or the Most Merciful (3: 2:80, 19:78, 19:87) B010
+  - Israel told to take firmly what they were given beneath the raised mountain (3: 2:63, 2:93, 7:171) B001
+  - Muslims taking the abundant spoils promised to them (3: 48:15, 48:19, 48:20) B001
+  - Ransom or compensation not accepted from souls (3: 2:48, 6:70, 57:15) B001
+  - Communities suddenly seized after abundance, forgetfulness, and denial (3: 6:44, 7:95, 7:96) B001
+  - Shuʿayb’s people in Madyan struck by quake or cry (3: 7:91, 11:94, 29:37) B001
+  - Pharaoh and his army seized and cast into the sea (3: 28:40, 51:40, 79:25) B001
+  - Thamūd warned against harming the she-camel lest punishment take them (3: 7:73, 11:64, 26:156) B001
+  - Joseph detaining Benjamin and his brothers offering themselves in his place (3: 12:76, 12:78, 12:79) B003
+  - People taking other people, angels, prophets, and religious leaders as lords (3: 3:64, 3:80, 9:31) B010
+  - People taking religion as play and amusement (3: 5:57, 6:70, 7:51) B010
+  - God not holding people accountable for unintentional oath words (2: 2:225, 5:89) B002
+  - God holding people accountable for what they intended in their oaths (2: 2:225, 5:89) B002
+  - Speakers asking not to be held accountable for forgetfulness (2: 2:286, 18:73) B002
+  - The Messenger collecting alms and God receiving them (2: 9:103, 9:104) B001
+  - Later heirs taking the goods of this lower life (2: 7:169) B001
+  - Moses taking Aaron by the head and beard (2: 7:150, 20:94) B001
+  - Earlier communities seized with hardship and adversity (2: 6:42, 7:94) B001
+  - The Israelites struck by the thunderbolt after asking to see God (2: 2:55, 4:153) B001
+  - Pharaoh’s people struck by scarcity and other punishment after Moses’s signs (2: 7:130, 43:48) B001
+  - The affluent taken by torment, crying out without humility (2: 23:64, 23:76) B001
+  - Communities taken by the cry (2: 23:41, 29:40) B001
+  - God possibly taking plotters during their movements or gradually (2: 16:46, 16:47) B001
+  - A condemned man taken, dragged, and bound for the Fire (2: 44:47, 69:30) B003
+  - The Egyptian and his wife considering Joseph as a son, and Pharaoh’s wife Moses (2: 12:21, 28:9) B010
+  - Believers told not to take outsiders as close confidants (2: 3:118, 9:16) B010
+  - The speaker taking Allah as protector and trustee (2: 6:14, 73:9) B010
+  - People taking or regretting a close companion (2: 17:73, 25:28) B010
+  - Men and women taking secret lovers (2: 4:25, 5:5) B010
+  - Disbelievers taking the Messenger as an object of mockery (2: 21:36, 25:41) B010
+  - Believers taken as objects of ridicule (2: 23:110, 38:63) B010
+  - The fish taking its way through the sea (2: 18:61, 18:63) B010
+  - Taking pastime from God and taking it from Him (2: 21:17) B010
+  - Jacob reminding his sons of the pledge he took from them (1: 12:80) B001
+  - Husbands taking a solemn marriage covenant from their wives (1: 4:21) B001
+  - John told to take the Book firmly (1: 19:12) B001
+  - Jews told to accept the judgment offered to them (1: 5:41) B001
+  - People told to accept what the Messenger gives them (1: 59:7) B001
+  - Taking usury and people’s wealth unjustly (1: 4:161) B001
+  - People declining to accept defective produce except reluctantly (1: 2:267) B001
+  - The ransom taken from the captives at Badr (1: 8:68) B001
+  - People saying they had already settled their affair (1: 9:50) B001
+  - Adam’s children taking adornment at every mosque (1: 7:31) B001
+  - Abraham told to take four birds (1: 2:260) B001
+  - Moses told to take the staff (1: 20:21) B001
+  - Job taking a bundle in his hand (1: 38:44) B001
+  - Muhammad told to accept what is easy and turn from the ignorant (1: 7:199) B001
+  - The God-fearing receiving what their Lord gives them (1: 51:16) B001
+  - God holding every living creature by its forelock (1: 11:56) B001
+  - Drowsiness and sleep not overtaking God (1: 2:255) B001
+  - God taking people’s hearing and sight (1: 6:46) B001
+  - Arrogance taking hold of a man after he is told to fear God (1: 2:206) B001
+  - Pity taking hold of people during the punishment of adulterers (1: 24:2) B001
+  - The earth taking on its adornment before the harvest (1: 10:24) B001
+  - God taking descendants from the children of Adam and questioning them (1: 7:172) B001
+  - Moses’s seventy men struck by the quake at the appointed time (1: 7:155) B001
+  - Lot’s people struck by the cry at sunrise (1: 15:73) B001
+  - The companions of the thicket struck by the punishment of the shadow day (1: 26:189) B001
+  - Noah’s people swept away by the flood (1: 29:14) B001
+  - Sabbath violators taken by severe punishment after ignoring the reminder (1: 7:165) B001
+  - A sudden blast taking people while they are arguing (1: 36:49) B001
+  - God’s threatened seizure of the Messenger by the right hand (1: 69:45) B001
+  - Communities plotting to seize their messengers (1: 40:5) B003
+  - Moses’s enemy taking the infant from the river (1: 20:39) B003
+  - Captives taken from the Muslims’ hands (1: 8:70) B003
+  - Disbelievers seized from a nearby place in their panic (1: 34:51) B003
+  - Criminals seized by their forelocks and feet (1: 55:41) B003
+  - God taking Abraham as a close friend (1: 4:125) B010
+  - Muhammad’s people treating the Quran as abandoned (1: 25:30) B010
+  - The Israelites asking whether Moses is making a mockery of them (1: 2:67) B010
+  - Shuʿayb’s people putting their Lord behind their backs (1: 11:92) B010
+  - Taking Abraham’s station as a place of prayer (1: 2:125) B010
+  - People choosing a course between belief in some messengers and rejection of others (1: 4:150) B010
+  - People refusing to take the path of guidance (1: 7:146) B010
+  - People taking the path of error (1: 7:146) B010
+  - Dhu al-Qarnayn offering punishment or good treatment to a people (1: 18:86) B010
+  - Mary taking a screen away from her family (1: 19:17) B010
+  - People making a drink and good provision from dates and grapes (1: 16:67) B010
+  - The bee taking homes in mountains, trees, and trellises (1: 16:68) B010
+  - Thamūd taking palaces from plains and carving mountain homes (1: 7:74) B010
+  - ʿĀd building their structures (1: 26:129) B010
+  - The victors proposing to take a mosque over the cave dwellers (1: 18:21) B010
+  - People establishing a mosque to cause harm and division (1: 9:107) B010
+  - Bedouins treating their spending as a loss (1: 9:98) B010
+  - Believing Bedouins treating their spending as a means of nearness (1: 9:99) B010
+  - A wage taken for repairing a wall (1: 18:77) B010
+  - God taking martyrs from among the believers (1: 3:140) B010
+  - People taking one another for service (1: 43:32) B010
+  - Satan saying he will take an assigned share of God’s servants (1: 4:118) B010
+  - Believers told to take Satan as an enemy (1: 35:6) B010
+  - God saying He did not take the misleaders as helpers (1: 18:51) B010
+  - A king taking every ship by force (1: 18:79) B001
+- branches never the plain sense in any occurrence: B004 büyüsel yolla etkileyip engelleme; B005 sahiplenilip işletilen arazi; B006 su tutan çukur veya havuz; B007 bedende bir durumun baş gösterip etkisini göstermesi; B008 ay konaklarının yıldızları; B009 bir topluluğun yolunu ve özelliklerini benimseme; B011 güreşte kavrayıp kilitleme; B012 kancalı aracın tutamağı
+
+### ع ل م — يَعْلَمُونَ (854 occurrences, 17 groups)
+- ▶ here (29:41:19): **Knowing and knowledge in the remaining stated clauses** — 722 occurrences; plain sense B001 bilme ve gerçeğini kavrama
+  - forms: عَلِمَ V IMPF ×264; عِلْم N ×105; عَلِيم ADJ ×101; عَلِيم N ×60; +13 forms
+  - also in: 2:13, 2:22, 2:26, 2:29, 2:30, 2:32, 2:33, 2:42, 2:60, 2:65, 2:75, 2:77, 2:78, 2:80 (+609)
+- its other groups:
+  - God, messengers, and people teach scripture, wisdom, skills, or magic (41: 2:31, 2:32, 2:102 (+30)) B001
+  - God named or praised as Lord of the worlds (18: 1:2, 6:45, 6:71 (+15)) B003
+  - The worlds are mentioned in statements about God, scripture, and prophets (15: 2:131, 5:28, 10:37 (+12)) B003
+  - Specified months, days, measures, shares, and appointed times (13: 2:197, 15:4, 15:21 (+10)) B001
+  - God favors named people over the worlds (9: 2:47, 2:122, 2:251 (+6)) B003
+  - The worlds receive God's guidance, reminder, warning, or mercy (9: 3:96, 3:108, 6:90 (+6)) B003
+  - Prophets tell their people they are messengers from the Lord of the worlds (5: 7:61, 7:67, 7:104 (+2)) B003
+  - Prophets say their reward is with the Lord of the worlds (5: 26:109, 26:127, 26:145 (+2)) B003
+  - Lot's people mention the worlds while speaking to Lot (4: 7:80, 15:70, 26:165 (+1)) B003
+  - God's free of the worlds, and the blessed land is for them (4: 3:97, 21:71, 29:6 (+1)) B003
+  - Israelite scholars are said to know; the learned fear God; people call a man taught (3: 26:197, 35:28, 44:14) B001
+  - Ships on the sea are compared to great landmarks (2: 42:32, 55:24) B002
+  - Landmarks are mentioned, and people are guided by the star (1: 16:16) B002
+  - Jesus says that whoever disbelieves after the table is sent down will be punished (1: 5:115) B003
+  - Mary and her son are made a sign for the worlds (1: 21:91) B003
+  - The Quran is called a revelation from the Lord of the worlds (1: 26:192) B003
+- branches never the plain sense in any occurrence: B004 üst dudak yarığı; B005 deniz ya da suyu bol kuyu; B006 doğan veya atmaca türü yırtıcı kuş; B007 erkek sırtlan
+
+### ك و ن — كَانُوا۟ (1390 occurrences, 28 groups, 1358 stop-lemma words not grouped)
+- 29:41:18: stop lemma (كَانَ), not grouped
+- its other groups:
+  - Messengers tell people to work according to their standing while they themselves work (4: 6:135, 11:93, 11:121 (+1)) B002
+  - Maryam withdraws from her family to an eastern place and later to a distant place (2: 19:16, 19:22) B002
+  - A man who wants to replace his wife is told not to take back her gift (1: 4:20) B002
+  - Those whom God cursed, made apes and swine, or who worshipped false gods are called worse in place (1: 5:60) B002
+  - God replaces hardship with ease for the people of a town (1: 7:95) B002
+  - Moses is told to see whether the mountain remains in its place (1: 7:143) B002
+  - Waves come at sailors from every side, and they fear they are surrounded (1: 10:22) B002
+  - On the day of gathering, polytheists are told to stay where they are with their partners (1: 10:28) B002
+  - Yusuf keeps his reply to himself and tells his brothers they are worse in place (1: 12:77) B002
+  - Joseph’s brothers ask the ruler to take one of them in place of their brother (1: 12:78) B002
+  - In Hell, death comes to the drinker of foul water from every place (1: 14:17) B002
+  - God replaces one sign with another, and the disbelievers call Muhammad a forger (1: 16:101) B002
+  - A secure, content village receives abundant provision from every place before rejecting God’s favors (1: 16:112) B002
+  - Idris is raised to a lofty place (1: 19:57) B002
+  - Those in error will learn who is worse in place when they see punishment or the Hour (1: 19:75) B002
+  - A level place is set for Moses and his opponent to meet over magic (1: 20:58) B002
+  - God shows Abraham the site of the House and commands him not to associate anything with Him (1: 22:26) B002
+  - A polytheist falls from the sky as birds snatch him or wind carries him far (1: 22:31) B002
+  - Hell sees its future occupants from a distant place, and they hear its rage and roaring (1: 25:12) B002
+  - People thrown into Hell are cast into a narrow place, bound together (1: 25:13) B002
+  - Those dragged on their faces to Hell are called worse in place and further astray (1: 25:34) B002
+  - Those who wished for Qarun’s place yesterday speak after he and his house are swallowed (1: 28:82) B002
+  - The frightened people are seized without escape from a nearby place (1: 34:51) B002
+  - They say they believe in it, then ask how to reach it from a distant place (1: 34:52) B002
+  - Those who disbelieved before cast at the unseen from a distant place (1: 34:53) B002
+  - God says He could transform them where they stand, leaving them unable to go or return (1: 36:67) B002
+  - Those who reject the Arabic Qur’an are called from a distant place (1: 41:44) B002
+  - A caller calls from a nearby place on the day people hear the cry (1: 50:41) B002
+- branches never the plain sense in any occurrence: B001 gerçekleşme, bulunma ve olma bildirimi; B003 birini güvenceyle üstlenme; B004 boyun eğme; B005 gençliğini anan yaşlı kişi; B006 kötü durumda gece geçirme
 
 ### Disputed roots in this ayah (minor analyses)
 
-- 29:41:6 ٱللَّهِ: minor analysis from و ل ه ('-l-h vs w-l-h)
+- 29:41:6 ٱللَّهِ: minor analysis from و ل ه ('-l-h vs w-l-h): B001 yoğun duygudan aklı karışma veya ayrılıktan özlem çekme — The ayat use this lemma as God's name; none of the listed branches states that sense.
 - the dispute (ء ل ه or و ل ه): Ebû’l-Heysem’in Tehzîbü’l-luğa’da aktarılan açıklaması إله kelimesinin aslını ولاه sayar ve و harfinin hemzeye çevrildiğini söyler. Açıklama, وَلَه’ı yaratılmışların ihtiyaçlarında Allah’a yönelmesiyle ilişkilendirir. root_005296/B001, و ل ه kökünün şaşkınlık, yoğun özlem ve yöneliş alanını kaynaklı biçimde belgeler; Allah türetmesinin doğrudan kanıtı Tehzîb maddesidir ve sözlük dalı tek başına bu türetmeyi ileri sü…
 - branches of و ل ه: in 01_dictionary.md (a reviewed alternative analysis)
+
+### Roots of this ayah without a dossier
+
+- ء ل ه (ٱللَّهِ): not grouped; their occurrences are only in the other evidence.

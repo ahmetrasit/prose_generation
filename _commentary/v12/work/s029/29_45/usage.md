@@ -1,12 +1,577 @@
 # usage.md — how the Quran uses the roots of 29:45 (root dossiers: each root's occurrences grouped by what the ayat say, with the dictionary branch of the plain reading; a concordance, not an interpretation)
 
+Made by script: the occurrence lists, ids, counts and forms; the branch lines are the dictionary's. Made by a model and checked by script only for structure, so possibly wrong: the groups, their labels, each group's branch, the exceptions and the minor-analysis notes, and what follows from them (the ▶ group, the branches never the plain sense). Group size says nothing: a context may be split over several groups.
+
+
+### ص ن ع — تَصْنَعُونَ (20 occurrences, 16 groups)
+- ▶ here (29:45:21): **The addressees’ conduct after the commands to recite and establish prayer** — 1 occurrence; plain sense B001 yapıp ortaya çıkarma
+  - forms: صَنَعُ V IMPF ×1
+- its other groups:
+  - Nūḥ making the ship under God’s watch and revelation (3: 11:37, 11:38, 23:27) B001
+  - God raising Moses under His eye and preparing him for Himself (2: 20:39, 20:41) B005
+  - The magicians’ trick that Moses’ staff swallows (2: 20:69) B001
+  - The Christians’ conduct after forgetting part of what they were reminded of (1: 5:14) B001
+  - Rabbis and scholars not forbidding sinful speech and unlawful consumption (1: 5:63) B001
+  - What Pharaoh and his people made and erected (1: 7:137) B001
+  - The deeds of those seeking worldly life and its adornment (1: 11:16) B001
+  - Disbelievers struck by calamities because of what they have done (1: 13:31) B001
+  - A secure town’s people denying God’s favors and suffering hunger and fear (1: 16:112) B001
+  - People whose worldly efforts go astray while they think they do good work (1: 18:104) B001
+  - David taught the craft of making protective armor (1: 21:80) B002
+  - Believers lowering their gaze and guarding their private parts (1: 24:30) B001
+  - The ʿĀd taking structures in hope of living forever (1: 26:129) B006
+  - God’s perfected work as the mountains pass like clouds (1: 27:88) B001
+  - The deeds of people who regard their bad work as good (1: 35:8) B001
+- branches never the plain sense in any occurrence: B003 birine iyilik etme; B004 özenilmiş iyi görünüş sergileme; B007 çıkar vererek ya da yumuşak davranarak gönül alma; B008 şiş ya da şişte pişmiş et; B009 babanla birlikte ne yaptın?; B010 çağrılı yemek ve bunun için yiyecek hazırlama; B011 pazar yeri
+
+### ف ح ش — ٱلْفَحْشَآءِ (24 occurrences, 17 groups)
+- ▶ here (29:45:13): **Prayer restraining people from indecency and wrongdoing** — 1 occurrence; plain sense B001 ağır ve yüz kızartıcı çirkinlik
+  - forms: فَحْشَآء N ×1
+- its other groups:
+  - Satan commanding people to commit indecent acts (3: 2:169, 2:268, 24:21) B001
+  - God prohibiting indecent acts (3: 6:151, 7:33, 16:90) B001
+  - Lot addressing his people about approaching men with desire instead of women (3: 7:80, 27:54, 29:28) B004
+  - People avoiding major sins and indecent acts (2: 42:37, 53:32) B001
+  - People committing indecency, then remembering God and seeking forgiveness (1: 3:135) B001
+  - Women committing indecency, with witnesses required before they are confined (1: 4:15) B004
+  - Women committing manifest indecency in the rule against inheriting or constraining wives (1: 4:19) B004
+  - Men marrying women their fathers married, described as an indecency (1: 4:22) B004
+  - Enslaved women who commit indecency after marriage and receive half the punishment (1: 4:25) B004
+  - People performing indecency and saying their fathers and God commanded it (1: 7:28) B001
+  - God not commanding indecency, in reply to the people’s claim (1: 7:28) B001
+  - God turning Joseph from indecency as the woman of the house seeks him (1: 12:24) B004
+  - Zina described as an indecency (1: 17:32) B004
+  - People wanting indecency to spread among believers in the slander account (1: 24:19) B001
+  - A wife of the Prophet committing manifest indecency and receiving doubled punishment (1: 33:30) B004
+  - Divorced women remaining in their homes unless they commit manifest indecency (1: 65:1) B004
+- branches never the plain sense in any occurrence: B002 hoş karşılanmayan ölçü aşımı; B003 ağır çirkin söz söyleme veya davranışta bulunma; B005 aşırı cimrilik
+
+### ن ك ر — وَٱلْمُنكَرِ (37 occurrences, 24 groups)
+- ▶ here (29:45:14): **Prayer forbids indecency and wrongdoing.** — 1 occurrence; plain sense B006 çirkin bulunan eylem ve onu engelleme
+  - forms: مُنكَر N IV PASS ×1
+- its other groups:
+  - Believing communities enjoin recognized good and forbid wrong. (6: 3:104, 3:110, 3:114 (+3)) B006
+  - Disbelievers reject God’s revelation and show rejection when its verses are recited. (4: 13:36, 21:50, 22:72 (+1)) B001
+  - God seizes earlier peoples who denied messengers and asks how His rejection came upon them. (4: 22:44, 34:45, 35:26 (+1)) B001
+  - Abraham and Lot find the arriving messengers unfamiliar. (3: 11:70, 15:62, 51:25) B001
+  - Children of Israel persist in doing wrong and fail to stop one another. (1: 5:79) B006
+  - The Messenger commands his followers to do good and forbids wrong. (1: 7:157) B006
+  - Hypocrites command wrong, forbid good, and withhold their hands. (1: 9:67) B006
+  - Joseph’s brothers arrive and do not recognize him. (1: 12:58) B001
+  - Those who disbelieve in the Hereafter have rejecting hearts. (1: 16:22) B001
+  - People recognize God’s blessing and then deny it. (1: 16:83) B001
+  - God forbids indecency, wrongdoing, and aggression. (1: 16:90) B006
+  - Moses calls the killing of a pure boy a dreadful deed. (1: 18:74) B003
+  - Dhu al-Qarnayn says God will punish wrongdoers severely. (1: 18:87) B003
+  - People are asked whether they recognize their messenger. (1: 23:69) B001
+  - Satan commands people to commit indecency and wrong. (1: 24:21) B006
+  - Solomon orders the Queen’s throne altered before she arrives. (1: 27:41) B004
+  - Lot’s people approach men, block the road, and commit wrong in their gathering. (1: 29:29) B006
+  - Luqman tells his son to enjoin good and forbid wrongdoing. (1: 31:17) B006
+  - Luqman calls the donkey’s voice the most objectionable sound. (1: 31:19) B006
+  - People have no refuge or possibility of denial when the unavoidable day comes. (1: 42:47) B001
+  - A caller summons people to a terrible thing as they emerge from graves. (1: 54:6) B003
+  - God severely punishes a town that rebels against His command and messengers. (1: 65:8) B003
+  - Husbands who compare wives to mothers utter objectionable and false speech. (1: 58:2) B006
+- branches never the plain sense in any occurrence: B002 uyanıklık ve ince kavrayış; B005 kanlı ya da irinli bedensel akıntı; B007 karşılıklı düşmanlık ve çatışma
+
+### ن ه ي — تَنْهَىٰ (56 occurrences, 45 groups)
+- ▶ here (29:45:11): **Prayer restrains people from indecency and wrongdoing** — 1 occurrence; plain sense B001 bir eylemi yasaklama, engelleme veya ondan geri durma
+  - forms: نَهَىٰ V IMPF ×1
+- its other groups:
+  - Opponents in battle are told to cease fighting (4: 2:192, 2:193, 8:19 (+1)) B001
+  - A community among the Muslims commands right and forbids wrong (2: 3:104, 3:110) B001
+  - People of the Book are told to stop saying God is three (2: 4:171, 5:73) B001
+  - The Prophet is forbidden to worship those invoked besides God (2: 6:56, 40:66) B001
+  - Satan and God speak to Ādam and his wife about the forbidden tree (2: 7:20, 7:22) B001
+  - Signs are for people of understanding (2: 20:54, 20:128) B003
+  - People forbidden from private talk return to it in sinful conversation (2: 58:8) B001
+  - Recipients of the Messenger's commands are told to desist from his prohibitions (2: 59:7) B001
+  - The man who forbids a worshipper from prayer is warned to desist (2: 96:9, 96:15) B001
+  - A person stops taking usury after receiving a warning (1: 2:275) B001
+  - A righteous community from the People of the Book commands right and forbids wrong (1: 3:114) B001
+  - The addressees avoid major sins they have been forbidden (1: 4:31) B001
+  - Israelites take usury despite being forbidden (1: 4:161) B001
+  - Rabbis and priests fail to restrain people from sinful speech and unlawful gain (1: 5:63) B001
+  - Children of Israel do not stop one another from wrongdoing they commit (1: 5:79) B001
+  - People are asked whether they will stop drinking wine and gambling (1: 5:91) B001
+  - Disbelievers forbid others and themselves turn away (1: 6:26) B001
+  - Disbelievers return to acts they had been forbidden from (1: 6:28) B001
+  - The Messenger forbids his followers from wrongdoing (1: 7:157) B001
+  - People in the Sabbath town warn others against evil (1: 7:165) B001
+  - The Sabbath town's people defy what they were forbidden (1: 7:166) B001
+  - Disbelievers are told that stopping their disbelief brings forgiveness (1: 8:38) B001
+  - Those who break oaths and attack the religion may cease (1: 9:12) B001
+  - Hypocrite men and women forbid what is right (1: 9:67) B001
+  - Believing men and women forbid wrongdoing (1: 9:71) B001
+  - Believers are described as people who forbid wrongdoing (1: 9:112) B001
+  - Ṣāliḥ's people ask whether he forbids worship of their forefathers' gods (1: 11:62) B001
+  - Shuʿayb says he will not do what he forbids his people (1: 11:88) B001
+  - People in earlier generations forbid corruption in the land (1: 11:116) B001
+  - Lot's townspeople say they had forbidden him from the people (1: 15:70) B001
+  - God forbids indecency, wrongdoing, and oppression (1: 16:90) B001
+  - Ibrāhīm's father threatens him unless he desists concerning his gods (1: 19:46) B001
+  - People established in the land command right and forbid wrong (1: 22:41) B001
+  - Nūḥ's people threaten to stone him unless he desists (1: 26:116) B001
+  - Lūṭ's people threaten to expel him unless he desists (1: 26:167) B001
+  - Luqmān tells his son to forbid wrongdoing (1: 31:17) B001
+  - Hypocrites, the sick-hearted, and rumor-spreaders in Medina are warned to desist (1: 33:60) B001
+  - Townspeople threaten the messengers unless they stop their message (1: 36:18) B001
+  - The Lote Tree is at the furthest boundary (1: 53:14) B002
+  - The final destination is to the Lord (1: 53:42) B002
+  - God does not forbid kindness and fairness toward those who did not fight (1: 60:8) B001
+  - God forbids loyalty to those who fought and expelled you (1: 60:9) B001
+  - A person who fears the Lord restrains the self from desire (1: 79:40) B001
+  - The Hour's final limit is with the Lord (1: 79:44) B002
+- branches never the plain sense in any occurrence: B004 akış sonunda suyun durulup biriktiği yer; B005 başkasını aratmayacak kadar yeterli; B006 semizliğin doruğuna ulaşmış deve; B007 sonuçtan bağımsız olarak ihtiyacı aramayı bırakma; B008 günün veya suyun yükselmesi; B009 şişe veya cam eşya için tartışmalı ad; B010 yaklaşık yüzlük miktar
+
+### ت ل و — ٱتْلُ (63 occurrences, 35 groups)
+- ▶ here (29:45:1): **Muhammad is instructed to recite what was revealed from the Book and the Quran** — 3 occurrences; plain sense B002 kutsal kitabı okuyup izleme
+  - forms: تَلَىٰ V IMPV ×2; تَلَىٰ V IMPF SUBJ ×1
+  - also in: 18:27, 27:92
+- its other groups:
+  - A messenger sent among people recites God's revelations to them (8: 2:129, 2:151, 3:164 (+5)) B002
+  - God recites His signs and accounts to Muhammad (5: 2:252, 3:58, 3:108 (+2)) B002
+  - Muhammad is told to recite accounts of earlier people to his audience (5: 5:27, 7:175, 10:71 (+2)) B002
+  - People of the Book, including disputing communities, recite scripture (4: 2:44, 2:113, 2:121) B002
+  - Listeners call the recited verses stories of the ancients (3: 8:31, 68:15, 83:13) B002
+  - God confronts disbelievers about His signs being recited to them at judgment (3: 23:66, 23:105, 45:31) B002
+  - Livestock are lawful except for what is recited to believers (2: 5:1, 22:30) B002
+  - Disbelievers demand another or altered Quran; Muhammad says he follows only revelation (2: 10:15, 10:16) B002
+  - Earlier recipients and prophets fall prostrate when God's revelation is recited (2: 17:107, 19:58) B002
+  - An arrogant hearer disregards God's verses when they are recited to him (2: 31:7, 45:8) B002
+  - People follow what the devils recite during Solomon's reign (1: 2:102) B002
+  - Israelites are challenged to bring and recite the Torah about food laws (1: 3:93) B002
+  - The audience is asked how it can disbelieve while God's verses are recited to it (1: 3:101) B002
+  - A community among the People of the Book recites God's verses at night while prostrating (1: 3:113) B002
+  - God's rulings about orphan girls and women are recited in the Book (1: 4:127) B002
+  - Muhammad recites what his Lord has forbidden to his audience (1: 6:151) B002
+  - God's verses are recited to believers, increasing their faith (1: 8:2) B002
+  - Muhammad recites from the Quran while God witnesses his affairs (1: 10:61) B002
+  - A witness from God follows the one standing upon proof from his Lord (1: 11:17) B001
+  - Disbelievers claim their group has the better station when God's verses are recited (1: 19:73) B002
+  - Disbelievers show rejection when God's clear verses are recited to them (1: 22:72) B002
+  - Disbelievers nearly attack those reciting God's signs to them (1: 22:72) B002
+  - Muhammad was not dwelling among Midian's people while reciting God's signs to them (1: 28:45) B002
+  - People given scripture earlier believe when the Quran is recited to them (1: 28:53) B002
+  - Muhammad had not recited a book before this revelation (1: 29:48) B002
+  - God's revealed Book is recited to its audience as sufficient evidence (1: 29:51) B002
+  - The Prophet's wives are told to remember the revelation recited in their houses (1: 33:34) B002
+  - Disbelievers accuse a man of turning them from their fathers' worship when signs are recited (1: 34:43) B002
+  - People recite God's Book, establish prayer, and give from their provision (1: 35:29) B002
+  - An oath by those reciting a Reminder (1: 37:3) B002
+  - Hell's keepers ask whether messengers recited God's signs and warned the condemned (1: 39:71) B002
+  - Disbelievers demand their forefathers be brought when God's clear signs are recited (1: 45:25) B002
+  - Disbelievers call God's recited signs evident magic (1: 46:7) B002
+  - The moon follows the sun (1: 91:2) B001
+- branches never the plain sense in any occurrence: B003 ardından kalan bakiye; B004 bağlı güvence ve talep; B005 geride bırakıp terk etme; B006 anneyi izleyen yavru; B007 sese karşılık veren eşlikçi; B008 son nefeste olmak; B009 hakkında yalan söylemek
+
+### و ح ي — أُوحِىَ (78 occurrences, 25 groups)
+- ▶ here (29:45:3): **Muhammad receives revelation and is told to follow, recite, and warn by it** — 35 occurrences; plain sense B004 Tanrı'nın seçilmiş kuluna bildirimi
+  - forms: أَوْحَىٰٓ V IV PERF ×12; أَوْحَىٰٓ V IV IMPF PASS SUBJ ×11; أَوْحَىٰٓ V IV PERF PASS ×7; وَحْى N ×3; +2 forms
+  - also in: 6:19, 6:50, 6:106, 6:145, 7:203, 10:2, 10:15, 10:109, 11:12, 12:3, 13:30, 16:123, 17:39, 17:73 (+18)
+- its other groups:
+  - God reveals to Muhammad and the messengers before him (10: 4:163, 12:109, 16:43 (+5)) B004
+  - God tells Noah no others among his people will believe and instructs him to build the ark (4: 11:36, 11:37, 23:27) B004
+  - God reveals unseen reports about earlier events to Muhammad (3: 3:44, 11:49, 12:102) B004
+  - God tells Moses’ mother to nurse him and cast him into the river if she fears for him (3: 20:38, 28:7) B004
+  - A man claims revelation from God although nothing was revealed to him (2: 6:93) B004
+  - Satanic beings pass deceptive speech among themselves and to their allies (2: 6:112, 6:121) B001
+  - God tells Moses to lead the Israelites out of Egypt at night (2: 20:77, 26:52) B004
+  - God tells Jesus’ disciples to believe in Him and His messenger (1: 5:111) B004
+  - God tells Moses to cast his staff, and it swallows what they have made (1: 7:117) B004
+  - God tells Moses to strike the rock, and twelve springs flow out (1: 7:160) B004
+  - God tells the angels to strengthen the believers and strike the disbelievers (1: 8:12) B004
+  - God tells Moses and Aaron to settle their people in Egyptian homes and establish prayer (1: 10:87) B004
+  - God tells Joseph in the well that he will later tell his brothers what they did (1: 12:15) B004
+  - After the messengers are threatened, God tells them He will destroy the wrongdoers (1: 14:13) B004
+  - God instructs the bee to make homes in mountains, trees, and trellises (1: 16:68) B004
+  - Zechariah signals to his people to praise God morning and evening (1: 19:11) B002
+  - God tells Moses to listen to what is revealed after choosing him (1: 20:13) B004
+  - Moses and Aaron tell Pharaoh that punishment awaits whoever denies and turns away (1: 20:48) B004
+  - God instructs Abraham, Isaac, and Jacob to do good, establish prayer, and give alms (1: 21:73) B004
+  - God tells Moses to strike the sea, and it parts into great sections (1: 26:63) B004
+  - God speaks to a human by inspiration (1: 42:51) B004
+  - God sends a messenger who conveys by His permission what He wills (1: 42:51) B004
+  - God assigns each heaven its affair (1: 41:12) B004
+  - God inspires the earth to report its news (1: 99:5) B004
+- branches never the plain sense in any occurrence: B003 yazma ve yazılı metin; B005 ses, özellikle hafif veya uzayan ses; B006 hız, acele ve hızlandırma; B007 yardım isteme, sorma veya salmak için çağırma; B008 özel adlandırma kümesi; B009 ağlama ve ölünün ardından ağıt yakma; B010 taşa kazınmış yazı benzetmeleri
+
+### ص ل و — ٱلصَّلَوٰةَ ٱلصَّلَوٰةَ (99 occurrences, 52 groups, minor analysis of 1 words)
+- ▶ here (29:45:8): **The Messenger is told to recite revelation and establish prayer** — 1 occurrence; plain sense B003 ayakta durma, eğilme ve yere kapanma bölümleri olan kurallı tapınma
+  - forms: صَلَوٰة N ×1
+- ▶ here (29:45:10): **Prayer restrains indecency and wrongdoing** — 1 occurrence; plain sense B003 ayakta durma, eğilme ve yere kapanma bölümleri olan kurallı tapınma
+  - forms: صَلَوٰة N ×1
+- its other groups:
+  - Believers and the righteous establish prayer alongside giving, patience, or other stated acts (14: 2:3, 2:177, 2:277 (+11)) B003
+  - Believers are told to guard their prayers and are described as humble, constant, and attentive in them (8: 2:238, 6:92, 23:2 (+4)) B003
+  - The Prophet leads alternating groups in prayer with weapons during travel and fear (7: 4:101, 4:102, 4:103) B003
+  - Believers are told to establish prayer while giving, obeying God, or turning to Him (6: 2:110, 6:72, 14:31 (+3)) B003
+  - The Children of Israel are told to establish prayer and the Book-holding among them do so (4: 2:43, 2:83, 5:12 (+1)) B003
+  - The Messenger prays for charity givers; his prayers are repose for them (3: 9:99, 9:103) B002
+  - God and the angels bless the Prophet; believers are told to bless and salute him (2: 33:56) B002
+  - Believers are told to seek help through patience and prayer (2: 2:45, 2:153) B003
+  - Believers are told when not to approach prayer and how to purify before it (2: 4:43, 5:6) B003
+  - Hypocrites approach prayer lazily, show it to people, and spend unwillingly (2: 4:142, 9:54) B003
+  - Repentant polytheists establish prayer and zakat, then are released and become brothers in faith (2: 9:5, 9:11) B003
+  - The Messenger is told to establish prayer at day’s edges, through night, and at dawn (2: 11:114, 17:78) B003
+  - Abraham asks God to make him and his descendants establish prayer near the Sacred House (2: 14:37, 14:40) B003
+  - Ishmael commands his household, and the Messenger is told to command his, to pray (2: 19:55, 20:132) B003
+  - Children and dependents are told to seek permission before dawn prayer and after night prayer (2: 24:58) B003
+  - Believers are called from trade to Friday prayer and disperse after it (2: 62:9, 62:10) B003
+  - Woe to worshippers who are heedless of their prayers (2: 107:4, 107:5) B003
+  - God’s blessings and mercy for those who say they belong to Him after hardship (1: 2:157) B002
+  - God and His angels bless believers to bring them from darkness into light (1: 33:43) B002
+  - People are told to take Abraham’s station as a place of prayer (1: 2:125) B007
+  - Synagogues are named among houses of worship threatened with demolition (1: 22:40) B007
+  - Zachariah stands praying in the sanctuary when angels call to him (1: 3:39) B003
+  - Those told to hold back their hands are also told to establish prayer before fighting is prescribed (1: 4:77) B003
+  - Some hearers take the call to prayer as mockery and play (1: 5:58) B003
+  - Satan seeks to divert people from prayer and remembrance through wine and gambling (1: 5:91) B003
+  - Two witnesses are held after prayer to swear about a bequest (1: 5:106) B003
+  - The Prophet says his prayer, sacrifice, life, and death are for God (1: 6:162) B003
+  - The polytheists’ prayer at the House consists of whistling and clapping (1: 8:35) B003
+  - Those who maintain God’s mosques establish prayer, give zakat, and fear only God (1: 9:18) B003
+  - The Prophet is told not to pray over dead hypocrites or stand at their graves (1: 9:84) B003
+  - Moses and his brother are told to establish prayer in homes facing the qibla (1: 10:87) B003
+  - Shuʿayb’s people ask whether his prayer commands them to abandon ancestral worship and their ways with wealth (1: 11:87) B003
+  - The Messenger is told to keep his prayer neither loud nor quiet (1: 17:110) B003
+  - Jesus says God enjoined prayer and zakat on him throughout his life (1: 19:31) B003
+  - Later people abandon prayer and follow desires (1: 19:59) B003
+  - God tells Moses to establish prayer in remembrance of Him (1: 20:14) B003
+  - God makes leaders who guide by His command and maintain prayer (1: 21:73) B003
+  - When empowered in the land, they establish prayer and zakat and enjoin good (1: 22:41) B003
+  - Men are not distracted by trade from remembering God, prayer, and zakat (1: 24:37) B003
+  - Creatures and birds glorify God; each knows its prayer and glorification (1: 24:41) B002
+  - Luqman tells his son to establish prayer, enjoin good, and endure what befalls him (1: 31:17) B003
+  - The Prophet’s wives are told to establish prayer in their houses (1: 33:33) B003
+  - After charity before private consultation is waived, believers are told to establish prayer (1: 58:13) B003
+  - The Messenger and those with him are told to establish prayer amid illness, travel, and fighting (1: 73:20) B003
+  - Those in Saqar say they were not among the people who prayed (1: 74:43) B003
+  - A person neither affirms the truth nor prays, but denies and turns away (1: 75:31) B003
+  - The one who purifies himself remembers his Lord’s name and then prays (1: 87:15) B003
+  - A servant is praying when another person forbids him (1: 96:10) B003
+  - People are commanded to worship God sincerely and establish prayer (1: 98:5) B003
+  - The Messenger is told to pray to his Lord and sacrifice (1: 108:2) B003
+- branches never the plain sense in any occurrence: B001 ateşin yakıcı sıcaklığına maruz kalma ve ateşle işleme; B004 yakalamak için kurulan tuzak; B005 sırtın ortası ve kuyruk kökünün iki yanı; B006 yarışta birincinin hemen ardındaki ikinci; B008 üzerinde dövme yapılan geniş taş; B009 iri başaklı, develerin otladığı bir bitki
+
+### ك ب ر — أَكْبَرُ (161 occurrences, 87 groups)
+- ▶ here (29:45:17): **The remembrance of God is greater** — 1 occurrence; plain sense B001 küçüğün karşıtı olan büyüklük
+  - forms: أَكْبَر ADJ ×1
+- its other groups:
+  - The faithful receive great reward, forgiveness, favor, success, and kingdom (10: 11:11, 17:9, 33:47 (+7)) B001
+  - People reject a recited message, a warner, or the call that God is one (7: 31:7, 37:35, 39:59 (+4)) B006
+  - God is named the Great (6: 4:34, 13:9, 22:62 (+3)) B001
+  - Pharaoh, ʿĀd, Qarun, Haman, and others act arrogantly in the land (6: 7:146, 28:39, 29:39 (+3)) B006
+  - Weak followers confront arrogant leaders about their punishment (6: 14:21, 34:31, 34:32 (+3)) B006
+  - People who disbelieve in the Hereafter or dispute God's signs are proud in their hearts (5: 16:22, 16:23, 40:27 (+2)) B006
+  - Iblīs refuses to prostrate to Adam and is told not to act proudly there (4: 2:34, 7:13, 38:74 (+1)) B006
+  - Abraham and Zechariah refer to old age while speaking of sons (4: 3:40, 14:39, 15:54 (+1)) B004
+  - Those near God and the angels worship him without pride (4: 7:206, 16:49, 21:19 (+1)) B006
+  - Small and large measures and deeds are entered in the written record (4: 10:61, 18:49, 34:3 (+1)) B001
+  - The arrogant are assigned an enduring place in Hell (4: 16:29, 39:60, 39:72 (+1)) B006
+  - The punishment in the Hereafter is greater than the nearer punishment or worldly humiliation (4: 32:21, 39:26, 68:33 (+1)) B001
+  - Believers are told to avoid major sins (3: 4:31, 42:37, 53:32) B007
+  - Those who pride themselves against serving God are gathered or enter Hell (3: 4:172, 4:173, 40:60) B006
+  - The proud leaders of Pharaoh's people face signs sent through Moses and Aaron (3: 7:133, 10:75, 23:46) B006
+  - The Hereafter is greater in rank and preference than worldly life (3: 16:41, 17:21) B001
+  - The Messenger is told to magnify his Lord (3: 17:111, 74:3) B009
+  - God's greatest signs are shown to Moses and seen by Muḥammad (3: 20:23, 53:18, 79:20) B001
+  - People are told to magnify God for guiding them (2: 2:185, 22:37) B009
+  - The leading criminals of every town plot there (2: 6:123, 33:67) B005
+  - People who deny God's signs act arrogantly toward them (2: 7:36, 7:40) B006
+  - The proud leaders among Ṣāliḥ's people question believers and reject their faith (2: 7:75, 7:76) B006
+  - A great punishment is announced for those who turn away or do wrong (2: 11:3, 25:19) B001
+  - Pharaoh calls one magician their leader and teacher (2: 20:71, 26:49) B005
+  - Abraham leaves their largest idol and says it did the deed (2: 21:58, 21:63) B001
+  - Disputing God's signs and saying what one does not do are greatly hateful to God (2: 40:35, 61:3) B001
+  - God possesses majesty in the heavens and earth and is named the Supremely Great (2: 45:37, 59:23) B006
+  - Nūḥ's people persist in arrogance while blocking his call (2: 71:7) B006
+  - Prayer is difficult except for the humble (1: 2:45) B010
+  - The Children of Israel grow proud when messengers bring what they dislike (1: 2:87) B006
+  - The change of prayer direction is difficult except for those God guides (1: 2:143) B010
+  - Fighting in the sacred month is called great (1: 2:217) B001
+  - Blocking God's path and expelling people from the Sacred Mosque are called greater (1: 2:217) B001
+  - Fitna is greater than killing (1: 2:217) B001
+  - The sin in wine and gambling is called grave (1: 2:219) B007
+  - The sin of wine and gambling exceeds their benefit (1: 2:219) B001
+  - An orchard owner is overtaken by old age (1: 2:266) B004
+  - A debt is recorded whether small or large (1: 2:282) B001
+  - What their opponents conceal is greater than what they say (1: 3:118) B001
+  - Consuming orphans' wealth is a grave sin (1: 4:2) B007
+  - Orphans are to receive their wealth before they grow up (1: 4:6) B004
+  - The Children of Israel demand that Moses show them God openly (1: 4:153) B001
+  - The Christians are described as not acting arrogantly (1: 5:82) B006
+  - The sun appears greater than the previous heavenly body Abraham saw (1: 6:78) B001
+  - The Prophet finds people's turning away burdensome (1: 6:35) B010
+  - Wrongdoers at death had acted arrogantly toward God's signs (1: 6:93) B006
+  - People of al-Aʿrāf tell men their wealth and arrogance did not benefit them (1: 7:48) B006
+  - Shuʿayb's proud leaders threaten to expel him and the believers (1: 7:88) B006
+  - Failure to support believers leads to great corruption in the land (1: 8:73) B001
+  - The day of the greater pilgrimage is announced (1: 9:3) B001
+  - God's approval is greater than the gardens and dwellings promised to believers (1: 9:72) B001
+  - Small and large campaign expenditures are recorded for their doers (1: 9:121) B001
+  - Nūḥ tells his people that his stay and reminders may burden them (1: 10:71) B010
+  - Pharaoh's people accuse Moses and Aaron of seeking sovereignty in the land (1: 10:78) B006
+  - God's favor to Muḥammad is great (1: 17:87) B001
+  - The women see Joseph and are astonished by him (1: 12:31) B003
+  - Joseph's brothers ask him to spare a brother because their father is old (1: 12:78) B004
+  - The eldest brother stays in Egypt until their father permits or God judges (1: 12:80) B008
+  - The Children of Israel commit great corruption twice (1: 17:4) B001
+  - The vision and accursed tree are followed by greatly increased rebellion (1: 17:60) B001
+  - Parents reach old age in the care of their children (1: 17:23) B004
+  - Killing children is called a grave offense (1: 17:31) B007
+  - God is far above what they say, in great transcendence (1: 17:43) B001
+  - A future creation is regarded as great within people's breasts (1: 17:51) B001
+  - The statement that God has a son is called great (1: 18:5) B001
+  - The greatest terror does not grieve those promised its day (1: 21:103) B001
+  - The great overwhelming event arrives (1: 79:34) B001
+  - The prescribed religion is burdensome to the polytheists (1: 42:13) B010
+  - People turn from the recited signs and spend nights speaking arrogantly (1: 23:67) B006
+  - One person took the main share of the false accusation (1: 24:11) B002
+  - Those who demand angels or a sight of God act with great insolence (1: 25:21) B006
+  - Those who demand angels or God's sight commit great insolence (1: 25:21) B001
+  - The Messenger is told to wage a great struggle against the disbelievers (1: 25:52) B001
+  - Believers fall prostrate when reminded of God's signs without acting proudly (1: 32:15) B006
+  - The curse placed on the leaders is great (1: 33:68) B001
+  - The heavens and earth are a greater creation than people (1: 40:57) B001
+  - God's anger toward disbelievers exceeds their hatred of themselves (1: 40:10) B001
+  - Each sign shown to Pharaoh is greater than the one before it (1: 43:48) B001
+  - God seizes people with the greatest seizure on its appointed day (1: 44:16) B001
+  - Hypocrites turn away proudly when asked to seek the Messenger's forgiveness for them (1: 63:5) B006
+  - Those in Hell recall rejecting a warner and being in great error (1: 67:9) B001
+  - Nūḥ's people scheme a great scheme (1: 71:22) B001
+  - Saqar is named as one of the great things (1: 74:35) B001
+  - The disbeliever burns in the great fire (1: 87:12) B001
+  - The Prophet is asked what is greater in testimony and answers that God is witness between him and his audience (1: 6:19) B001
+  - Two women say their father is an old man (1: 28:23) B004
+- branches never the plain sense in any occurrence: B011 üstünlük yarışına girip yenmek; B012 tek yüzlü davul; B013 günün yükseldiği vakit
+
+### ذ ك ر — وَلَذِكْرُ (292 occurrences, 60 groups)
+- ▶ here (29:45:15): **People remember Allah through prayer, recitation, praise, and worship in daily circumstances.** — 39 occurrences; plain sense B005 Tanrı'yı kulluk amacıyla anma
+  - forms: ذِكْر N ×18; ذَكَرَ V IMPV ×11; ذَكَرَ V PERF ×4; ذَكَرَ V IMPF ×2; +4 forms
+  - also in: 2:152, 2:239, 3:41, 3:135, 3:191, 4:103, 4:142, 5:91, 7:205, 8:45, 13:28, 18:24, 18:28, 20:14 (+20)
+- its other groups:
+  - The Quran and earlier scriptures are named, sent, recited, or rejected as dhikr. (37: 3:58, 12:104, 15:6 (+32)) B006
+  - Revelation, past events, and examples are called reminders for people. (36: 6:90, 7:2, 11:114 (+27)) B009
+  - People are given laws, accounts, comparisons, and signs so they may remember. (25: 2:221, 6:126, 6:152 (+22)) B003
+  - People are asked whether they remember, or said to remember little. (15: 6:80, 7:3, 9:126 (+12)) B003
+  - Prophets and messengers present God's words as reminders and are told to remind their hearers. (13: 6:70, 7:63, 7:69 (+7)) B009
+  - The Prophet is told to mention earlier prophets and servants in the Book. (9: 19:16, 19:41, 19:51 (+6)) B004
+  - People are reminded with verses or signs, then respond, turn away, or fail to remember. (9: 6:68, 6:69, 18:57 (+5)) B009
+  - Hunters and pilgrims say God's name over game and livestock before eating or sacrifice. (8: 5:4, 6:118, 6:119 (+5)) B005
+  - Pilgrims are told to remember God at al-Mashʿar and after their rites. (6: 2:198, 2:200, 2:203) B005
+  - Believers are told to remember God's favor in unity and rescue from enemies. (5: 3:103, 5:7, 5:11 (+2)) B003
+  - People of understanding and those who turn to God are described as remembering. (5: 2:269, 3:7, 13:19 (+2)) B003
+  - People remember their deeds when the Day of Judgment arrives. (5: 35:37, 79:35, 89:23) B003
+  - People react when God or other deities are mentioned. (4: 8:2, 22:35, 39:45) B004
+  - Communities forget portions of what they were reminded of. (4: 5:13, 5:14, 6:44 (+1)) B009
+  - People may remember the reminder if they choose or fear God. (4: 74:55, 74:56, 80:12 (+1)) B003
+  - Believing men and women who do good are promised reward. (4: 3:195, 4:124, 16:97 (+1)) B001
+  - God creates humankind as male and female. (4: 49:13, 53:45, 75:39 (+1)) B001
+  - God tells the Children of Israel to remember His favor to them. (3: 2:40, 2:47, 2:122) B003
+  - God's name is mentioned in mosques and houses where He is worshipped. (3: 2:114, 22:40, 24:36) B005
+  - Disbelievers say the Prophet and Abraham mention their gods and reject mention of the Most Merciful. (3: 21:36, 21:60) B004
+  - The text presents a mention of God's mercy and reports about earlier people. (3: 19:2, 18:70, 18:83) B004
+  - The Israelites under the raised mountain are told to remember what they received. (2: 2:63, 7:171) B003
+  - Moses tells the Israelites to remember God's favors in Egypt and afterward. (2: 5:20, 14:6) B003
+  - Hud tells ʿĀd to remember their succession after Noah and their increased strength. (2: 7:69) B003
+  - Ṣāliḥ tells Thamūd to remember their settlement after ʿĀd and God's favors. (2: 7:74) B003
+  - Joseph asks the released prisoner to mention him to his master, then the prisoner forgets. (2: 12:42) B004
+  - People holding earlier revelation are named as the people of dhikr. (2: 16:43, 21:7) B006
+  - Earlier scriptures are presented as the record of communities with the Prophet. (2: 21:24) B006
+  - A male heir receives a share like that of two females. (2: 4:11, 4:176) B001
+  - The people are asked whether God forbade the male livestock. (2: 6:143, 6:144) B001
+  - God gives male children to whom He wills. (2: 42:49, 42:50) B001
+  - People are told to remember God's provision as their Creator. (1: 35:3) B003
+  - God tells Jesus to remember His favors upon him and his mother. (1: 5:110) B003
+  - Shuʿayb's people are told to remember when they were few and God increased them. (1: 7:86) B003
+  - Divorced spouses are told to remember God's favor and the revealed Book and wisdom. (1: 2:231) B003
+  - Riders are told to remember their Lord's favor once settled on their mounts. (1: 43:13) B003
+  - The Prophet's hearers turn away when he mentions his Lord alone in Qur'an. (1: 17:46) B004
+  - Believers hear fighting mentioned in a revealed sūrah. (1: 47:20) B004
+  - The verse says men will mention women whose waiting period has not ended. (1: 2:235) B004
+  - Muhammad is told to recount Hud's warning to the people of ʿĀd. (1: 46:21) B004
+  - The human being is described as not yet mentioned. (1: 76:1) B004
+  - The Hour is referred to as something to be mentioned. (1: 79:43) B004
+  - A woman witness reminds the other about the debt in their written record. (1: 2:282) B009
+  - God-conscious people remember when touched by a satanic impulse. (1: 7:201) B003
+  - The released prisoner remembers Joseph after a period of time. (1: 12:45) B003
+  - Jacob continually remembers Joseph. (1: 12:85) B003
+  - Moses' companion recalls the fish at the rock. (1: 18:63) B003
+  - The human being is asked whether he remembers being created from nothing. (1: 19:67) B003
+  - The Prophet's wives are told to remember what is recited in their homes. (1: 33:34) B003
+  - Pharaoh's believer says his people will remember what he told them. (1: 40:44) B003
+  - Abraham, Isaac, and Jacob are made mindful of the Hereafter. (1: 38:46) B003
+  - Mary's mother says a male child is not like a female child. (1: 3:36) B001
+  - People claim the livestock in the wombs are reserved for their males. (1: 6:139) B001
+  - Lot's people approach males sexually. (1: 26:165) B001
+  - The speakers ask whether they receive males while God receives females. (1: 53:21) B001
+  - A book is said to contain the people's honor and remembrance. (1: 21:10) B007
+  - The Quran is called a mention for the Prophet and his people. (1: 43:44) B007
+  - God raises the Prophet's mention among people. (1: 94:4) B007
+  - Moses and Aaron are told to speak gently to Pharaoh, who may remember or fear. (1: 20:44) B003
+- branches never the plain sense in any occurrence: B002 sert, keskin ve güçlü olma; B008 hakkı gösteren yazılı belge
+
+### ك ت ب — ٱلْكِتَٰبِ (319 occurrences, 98 groups)
+- ▶ here (29:45:6): **God reveals the Book to the Messenger as guidance, warning, and a recited message** — 59 occurrences; plain sense B002 yazma ve yazılı metin
+  - forms: كِتَٰب N ×59
+  - also in: 2:2, 2:89, 2:176, 2:231, 3:3, 3:7, 4:105, 4:113, 5:15, 5:48, 6:7, 6:92, 6:114, 6:155 (+43)
+- its other groups:
+  - Every community and person’s deeds are recorded in a book for judgment (16: 17:13, 17:14, 17:71 (+9)) B002
+  - Moses receives the Book, and the Israelites receive it through him (13: 2:53, 2:87, 6:154 (+10)) B002
+  - God’s knowledge of creatures and events is kept in a book (13: 6:38, 6:59, 10:61 (+10)) B002
+  - God and His messengers record people’s words, deeds, and testimony (11: 3:181, 4:81, 9:120 (+8)) B002
+  - A book is given for recording a debt between borrowers and lenders (10: 2:282, 2:283) B002
+  - People recite or study scripture, or are asked whether they have a book to study (9: 2:44, 2:78, 2:121 (+6)) B002
+  - The People given earlier scripture recognize or believe the Book revealed to the Messenger (8: 2:144, 2:145, 6:20 (+5)) B002
+  - Believers affirm God’s Book and the scriptures sent before (8: 2:177, 2:285, 3:119 (+3)) B002
+  - Prophets teach the Book to their people (7: 2:129, 2:151, 3:48 (+4)) B002
+  - People given scripture disagree over it and are summoned to God’s Book for judgment (7: 2:113, 2:176, 3:19 (+3)) B002
+  - People challenge their opponents to produce a book supporting their claims (6: 17:93, 28:49, 35:40 (+3)) B002
+  - Mary, Abraham, Moses, Ishmael, and Idris are mentioned in the Book (5: 19:16, 19:41, 19:51 (+2)) B002
+  - People conceal truths and revelations contained in scripture (5: 2:146, 2:159, 2:174 (+2)) B002
+  - People of the Book wish believers to lose faith or be misled (5: 2:105, 2:109, 3:69 (+2)) B002
+  - God gives or entrusts scripture to prophets and their communities (4: 2:213, 3:79, 6:89 (+1)) B002
+  - Moses’ Book is cited as guidance, and its pages are displayed and concealed (4: 6:91, 7:145, 11:17 (+1)) B002
+  - The records of the wicked and the righteous are marked in Sijjin and Illiyyun (4: 83:7, 83:9, 83:18 (+1)) B002
+  - God gives the Book and wisdom among the descendants of Noah and Abraham (3: 4:54, 29:27, 57:26) B002
+  - Messengers bring illuminating scripture to their peoples (3: 3:184, 35:25, 57:25) B002
+  - The Mother of the Book is with God (3: 3:7, 13:39, 43:4) B002
+  - People entrusted with scripture cast God’s Book behind their backs (3: 2:101, 3:187) B002
+  - A faction recites distorted words as if they were from the Book (3: 3:78) B002
+  - Later Israelites inherit the Book; some neglect its covenant while others hold fast to it (3: 7:169, 7:170) B002
+  - Writing a book by hand and claiming it comes from God (3: 2:79) B002
+  - Fighting is prescribed for believers who had earlier been told to hold back (3: 2:216, 4:77) B003
+  - God’s decree gives close relatives priority (3: 8:75, 33:6) B003
+  - God assigns terms for messengers, towns, and people awaiting resurrection (3: 13:38, 15:4, 30:56) B003
+  - Yahya and Jesus receive the Book (2: 19:12, 19:30) B002
+  - People given the Book are told to believe in the revelation brought to them (2: 3:20, 4:47) B002
+  - People of the Book are invited to worship God alone (2: 3:64, 29:46) B002
+  - People of the Book are asked why they disbelieve God’s signs (2: 3:70, 3:98) B002
+  - If the People of the Book believed and feared God, it would be better for them (2: 3:110, 5:65) B002
+  - Those given a portion of scripture choose misguidance and false gods (2: 4:44, 4:51) B002
+  - The People of the Book ask for a book sent down from heaven (2: 4:153) B002
+  - Food and women from those given scripture are permitted to believers (2: 5:5) B002
+  - The Messenger addresses the People of the Book after a gap in messengers (2: 5:15, 5:19) B002
+  - People who hear the revelation ask to be counted among the witnesses (2: 3:53, 5:83) B004
+  - God expels the disbelieving People of the Book from their homes (2: 59:2, 33:26) B002
+  - Those given the Book are certain about the number of the guardians of Hell (2: 74:31) B002
+  - The People of the Book await the clear proof (2: 98:1, 98:3) B002
+  - Sulayman’s letter is delivered to the Queen, who reads it to her council (2: 27:28, 27:29) B002
+  - The disbelievers are asked whether they have the unseen and write it (2: 52:41, 68:47) B002
+  - A written book is hidden or protected (2: 52:2, 56:78) B002
+  - Enslaved people seek and make contracts to earn their freedom (2: 24:33) B005
+  - Retaliation for killing or injury is prescribed (2: 2:178, 5:45) B003
+  - Fasting is prescribed for believers and those before them (2: 2:183) B003
+  - Fighting is prescribed for the Israelites who asked for a king (2: 2:246) B003
+  - God assigns the times of death and those killed in battle (2: 3:145, 3:154) B003
+  - The rights allotted to orphan women are stated in the Book (2: 4:127) B003
+  - God makes mercy incumbent upon Himself (2: 6:12, 6:54) B003
+  - Moses asks for good, and God assigns His mercy to the mindful (2: 7:156) B003
+  - God’s prior decree determines what befalls people (2: 8:68, 9:51) B003
+  - God takes a covenant from the prophets concerning the Book and a confirming messenger (1: 3:81) B002
+  - Some people believe in part of the Book and reject the rest (1: 2:85) B002
+  - People of the Book dispute over Abraham (1: 3:65) B002
+  - A faction plans to profess belief in the morning and deny it by evening (1: 3:72) B002
+  - People of the Book differ in how they repay trusts and debts (1: 3:75) B002
+  - The believers among the People of the Book are described as upright and devout (1: 3:199) B002
+  - People of the Book’s wishes do not determine who is repaid for their deeds (1: 4:123) B002
+  - Those given earlier scripture are told to fear God (1: 4:131) B002
+  - An instruction in the Book says not to sit with those mocking God’s signs (1: 4:140) B002
+  - People of the Book are to believe in Jesus before his death (1: 4:159) B002
+  - People of the Book are told not to call Jesus God or say there are three (1: 4:171) B002
+  - The People of the Book are told to uphold the Torah, the Gospel, and what was revealed (1: 5:68) B002
+  - The People of the Book are told not to exceed bounds or follow those who went astray (1: 5:77) B002
+  - Believers are told not to ally with those who mock their religion (1: 5:57) B002
+  - The People of the Book are asked what they resent about the believers (1: 5:59) B002
+  - People of the Book are fought until they pay the jizya (1: 9:29) B002
+  - People given scripture earlier let a long interval pass and their hearts harden (1: 57:16) B002
+  - People of the Book cannot control God’s bounty (1: 57:29) B002
+  - Hypocrites promise to leave with and defend the disbelieving People of the Book (1: 59:11) B002
+  - Disbelievers from the People of the Book and the polytheists are in Hell (1: 98:6) B002
+  - The Prophet is accused of having stories copied and dictated to him (1: 25:5) B002
+  - The Prophet had not recited or written a book before the revelation (1: 29:48) B002
+  - A person with knowledge of the Book brings the Queen’s throne (1: 27:40) B002
+  - The Book of God is held by scholars who judge by the Torah (1: 5:44) B002
+  - The heavens are folded like a scroll for books (1: 21:104) B002
+  - A bequest for parents and relatives is prescribed when death approaches (1: 2:180) B003
+  - Believers seek what God has ordained for them during the nights of fasting (1: 2:187) B003
+  - The waiting period must reach its prescribed end before marriage is contracted (1: 2:235) B003
+  - God’s law concerns the women who are forbidden in marriage (1: 4:24) B003
+  - God says the people would not have obeyed a command to kill themselves or leave home (1: 4:66) B003
+  - Prayer is prescribed for believers at fixed times (1: 4:103) B003
+  - God assigns the holy land to the Israelites (1: 5:21) B003
+  - A rule is prescribed for the Israelites about taking a life unjustly (1: 5:32) B003
+  - Wrongdoers receive their apportioned share before death (1: 7:37) B003
+  - God’s Book fixes the count of months and sacred months (1: 9:36) B003
+  - People who follow Satan are assigned to misguidance and the Fire (1: 22:4) B003
+  - God says monasticism was not prescribed for Jesus’ followers (1: 57:27) B003
+  - God decrees that He and His messengers will prevail (1: 58:21) B003
+  - God places faith in the hearts of those who oppose His enemies (1: 58:22) B003
+  - God decrees the exile of the disbelieving People of the Book (1: 59:3) B003
+  - Believers are tested and hear hurtful words from those given the Book and those who associate partners with God (1: 3:186) B002
+  - Those who deny the Messenger are told that God and one with knowledge of the Book are witnesses (1: 13:43) B002
+  - The Book states that the Children of Israel will cause corruption in the land twice (1: 17:4) B002
+  - The Psalms state that righteous servants will inherit the earth (1: 21:105) B002
+  - Some people dispute about God without knowledge, guidance, or an illuminating Book (1: 22:8) B002
+- branches never the plain sense in any occurrence: B001 bir şeyi başka bir şeye katıp birleştirme
+
+### ق و م — وَأَقِمِ (660 occurrences, 16 groups)
+- ▶ here (29:45:7): **Believers establish prayer and observe God’s limits** — 49 occurrences; plain sense B005 sürdürüp gereğini yerine getirme
+  - forms: أَقَامَ V IV IMPV ×19; أَقَامَ V IV PERF ×13; أَقَامَ V IV IMPF ×6; أَقَامَ V IV IMPF SUBJ ×6; +2 forms
+  - also in: 2:3, 2:43, 2:83, 2:110, 2:177, 2:229, 2:230, 2:277, 4:77, 4:102, 4:103, 4:162, 5:12, 5:55 (+33)
+- its other groups:
+  - People and communities named or described in the clauses (383: 2:54, 2:60, 2:67 (+344)) B001
+  - The Hour arrives and the dead are gathered, judged, and recompensed (78: 2:85, 2:113, 2:174 (+75)) B013
+  - The straight path, upright religion, and sound guidance (46: 1:6, 2:142, 2:213 (+42)) B008
+  - People stand, sit, pray, or rise for an act (37: 2:20, 2:238, 2:275 (+31)) B002
+  - People and things occupy a place or remain there (26: 2:125, 3:97, 5:107 (+23)) B006
+  - People are told to be upright or are said to be upright (10: 9:7, 10:89, 11:112 (+6)) B008
+  - People establish the Torah, Gospel, religion, scales, and testimony (9: 5:66, 5:68, 42:13 (+6)) B005
+  - Prayer, testimony, and worship are maintained or upheld (7: 3:18, 3:75, 4:34 (+4)) B004
+  - The Kaaba and wealth serve as people’s support (3: 4:5, 5:97, 25:67) B009
+  - Allah is called al-Qayyūm (3: 2:255, 3:2, 20:111) B004
+  - Speech and testimony are described as more upright (3: 2:282, 4:46, 73:6) B008
+  - Towns remain standing and a wall is set upright (2: 11:100, 18:77) B002
+  - People stand for the orphans and establish justice (2: 4:127, 57:25) B003
+  - Two witnesses take the place of the first witnesses (1: 5:107) B007
+  - A human being is created in the best bodily form (1: 95:4) B011
+- branches never the plain sense in any occurrence: B010 değer biçme ve belirlenen bedel; B012 düzeneğin dik, taşıyıcı veya tutulan parçası; B014 karşılıklı direnip mücadele etme; B015 tam ve denk ağırlıktaki para; B016 donup akmama veya yorulup ilerleyememe; B017 güneşin tam tepede olduğu öğle ortası; B018 pazarın canlanıp satışların artması; B019 bir beden bölümünün kişiye ağrı vermesi; B020 koyunun bacaklarını tutan hastalık; B021 göz bebeği sağlamken görme yetisinin kaybolması
+
+### ع ل م — يَعْلَمُ (854 occurrences, 17 groups)
+- ▶ here (29:45:19): **Knowing and knowledge in the remaining stated clauses** — 722 occurrences; plain sense B001 bilme ve gerçeğini kavrama
+  - forms: عَلِمَ V IMPF ×264; عِلْم N ×105; عَلِيم ADJ ×101; عَلِيم N ×60; +13 forms
+  - also in: 2:13, 2:22, 2:26, 2:29, 2:30, 2:32, 2:33, 2:42, 2:60, 2:65, 2:75, 2:77, 2:78, 2:80 (+609)
+- its other groups:
+  - God, messengers, and people teach scripture, wisdom, skills, or magic (41: 2:31, 2:32, 2:102 (+30)) B001
+  - God named or praised as Lord of the worlds (18: 1:2, 6:45, 6:71 (+15)) B003
+  - The worlds are mentioned in statements about God, scripture, and prophets (15: 2:131, 5:28, 10:37 (+12)) B003
+  - Specified months, days, measures, shares, and appointed times (13: 2:197, 15:4, 15:21 (+10)) B001
+  - God favors named people over the worlds (9: 2:47, 2:122, 2:251 (+6)) B003
+  - The worlds receive God's guidance, reminder, warning, or mercy (9: 3:96, 3:108, 6:90 (+6)) B003
+  - Prophets tell their people they are messengers from the Lord of the worlds (5: 7:61, 7:67, 7:104 (+2)) B003
+  - Prophets say their reward is with the Lord of the worlds (5: 26:109, 26:127, 26:145 (+2)) B003
+  - Lot's people mention the worlds while speaking to Lot (4: 7:80, 15:70, 26:165 (+1)) B003
+  - God's free of the worlds, and the blessed land is for them (4: 3:97, 21:71, 29:6 (+1)) B003
+  - Israelite scholars are said to know; the learned fear God; people call a man taught (3: 26:197, 35:28, 44:14) B001
+  - Ships on the sea are compared to great landmarks (2: 42:32, 55:24) B002
+  - Landmarks are mentioned, and people are guided by the star (1: 16:16) B002
+  - Jesus says that whoever disbelieves after the table is sent down will be punished (1: 5:115) B003
+  - Mary and her son are made a sign for the worlds (1: 21:91) B003
+  - The Quran is called a revelation from the Lord of the worlds (1: 26:192) B003
+- branches never the plain sense in any occurrence: B004 üst dudak yarığı; B005 deniz ya da suyu bol kuyu; B006 doğan veya atmaca türü yırtıcı kuş; B007 erkek sırtlan
 
 ### Disputed roots in this ayah (minor analyses)
 
-- 29:45:8 ٱلصَّلَوٰةَ: minor analysis from ص ل ي (s-l-w vs s-l-y)
-- 29:45:16 ٱللَّهِ: minor analysis from و ل ه ('-l-h vs w-l-h)
-- 29:45:18 وَٱللَّهُ: minor analysis from و ل ه ('-l-h vs w-l-h)
+- 29:45:8 ٱلصَّلَوٰةَ: minor analysis from ص ل ي (s-l-w vs s-l-y): B003 ateşin veya benzer bir sıkıntının şiddetine uğramak; birini ateşe sokmak — Al-Farrāʾ derives this prayer word from entering or burning in fire.
+- 29:45:16 ٱللَّهِ: minor analysis from و ل ه ('-l-h vs w-l-h): B001 yoğun duygudan aklı karışma veya ayrılıktan özlem çekme — The ayat use this lemma as God's name; none of the listed branches states that sense.
+- 29:45:18 وَٱللَّهُ: minor analysis from و ل ه ('-l-h vs w-l-h): B001 yoğun duygudan aklı karışma veya ayrılıktan özlem çekme — The ayat use this lemma as God's name; none of the listed branches states that sense.
 - the dispute (ص ل و or ص ل ي): Most grammarians derive صلاة from ص ل و (supplication/following closely — الصلو being the two muscles flanking the tailbone, hence "following behind"). Al-Farra' derives it from ص ل ي (to burn/enter fire), connecting prayer to the fervor of devotion or closeness (as one draws near fire). Both roots are in the inventory. Lane and Lisan al-Arab discuss both. Semantic difference: supplication/following vs. burning ferv…
 - branches of ص ل ي: B001 ayakta durma, eğilme ve yere kapanmalı yükümlü tapınma | الصلاة عبادة لازمة; B002 iyilik dileme; özneye göre esirgeme, övme veya aklama | الدعاء والبركة والرحمة; B003 ateşin veya benzer bir sıkıntının şiddetine uğramak; birini ateşe sokmak | ملاقاة النار وحرها; B004 ateş yakıtı; ateşte pişirme veya ısıyla düzeltme | إيقاد الصلاء وتسوية الشيء بالنار; B005 av yakalamak için kurulan kapan | المَصالي أشراك وفخوخ; B006 sırtın ortası ve kuyruk dibinin iki yanı | الصَّلا موضع الظهر والذنب; B007 yarışta önderin hemen ardındaki ikinci at | المصلي يتلو السابق; B008 tapınma yeri, özellikle Yahudi tapınağı | الصلوات مواضع عبادة; B009 üzerinde madde dövülen geniş taş | الصلاية حجر يدق عليه; B010 iri başaklı deve yemi bitkisi | الصِّليان نبت ترعاه الإبل
 - the dispute (ء ل ه or و ل ه): Ebû’l-Heysem’in Tehzîbü’l-luğa’da aktarılan açıklaması إله kelimesinin aslını ولاه sayar ve و harfinin hemzeye çevrildiğini söyler. Açıklama, وَلَه’ı yaratılmışların ihtiyaçlarında Allah’a yönelmesiyle ilişkilendirir. root_005296/B001, و ل ه kökünün şaşkınlık, yoğun özlem ve yöneliş alanını kaynaklı biçimde belgeler; Allah türetmesinin doğrudan kanıtı Tehzîb maddesidir ve sözlük dalı tek başına bu türetmeyi ileri sü…
 - branches of و ل ه: in 01_dictionary.md (a reviewed alternative analysis)
+
+### Roots of this ayah without a dossier
+
+- ء ل ه (ٱللَّهِ وَٱللَّهُ): not grouped; their occurrences are only in the other evidence.
