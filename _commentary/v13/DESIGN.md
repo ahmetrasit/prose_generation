@@ -170,6 +170,8 @@ Batch caching is best effort. Thinking may grow with the larger step-1 input.
 
 ## 10. Effort max, measured (18:96 step 1, 2026-09-27)
 - The max arm spent its whole output on thinking: 256,000 output tokens, all thinking, no final message
-  (`out-max/s018/18_96/act.raw.txt`); 42.9 min, 645K cache-write tokens (continued turns), **$10.28**, against $2.24
+  (`out-max/s018/18_96/act.raw.txt`: "API Error: Claude's response exceeded the 64000 output token maximum"; the CLI
+  capped each response at 64K despite CLAUDE_CODE_MAX_OUTPUT_TOKENS=128000 and tried again inside the same call, four
+  times); 42.9 min, 645K cache-write tokens, **$10.28**, against $2.24
   for effort high (47.6K output, 33K thinking, 7.6 min). The estimate ($3.82) could not foresee it; started calls are
   never stopped (user rule). Not rerun. Effort high stays the setting; V9 saw the same on a large input.
