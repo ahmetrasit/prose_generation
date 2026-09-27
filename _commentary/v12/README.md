@@ -56,7 +56,7 @@ bu kelimeler + Kelimeler ve okuyuşlar + Surenin bütününde, `check.txt`, `sta
 ## Test plan (each run needs the user's go)
 
 1. **Root-dossier micro run, then pilot** (`_projects/root-dossier`, Luna, run by the user): micro list with and without
-   word analysis, scored by `eval/score_dossiers.py`; then the roots of 1:1–7, 18:86, 29:39, 29:41, 29:45 (51).
+   word analysis, scored by `eval/score_dossiers.py`; then the roots of 1:1–7, 18:86, 29:39, 29:41, 29:45 and their words' minor roots (54).
 2. **S29 probe**: `run.py ayah 29:39,29:41,29:45` (estimate ≈ $11), with usage.md on and off (`--no-usage --tag
    nousage`). The pass criterion is in `eval/known_answers.md` (never a model input). Also compare `New` lines and
    output tokens with V11-style runs.
