@@ -311,3 +311,9 @@ Cite a branch as `root Bnnn`, e.g. `ر ب ب B007`; its Arabic may be quoted wit
 - B015 böğür, bedenin yan bölgesi | قُرْب الفرس والخاصرة | الخاصرة هي القرب سميت لقربها من الجنب (maqayis)
 - B016 bir ölçü veya sınıra yaklaşık olma | القراب والمقاربة في المقدار | ثوب مقارب إذا لم يكن جيدا وهذا على معنى أنه مقارب في ثمنه (maqayis)
 
+### و ل ه ~alt — 96:14 w4 ٱللَّهَ
+- B001 yoğun duyguyla aklın karışması ve özlemle yanıp tutuşma | الوَلَه والحيرة | أصل صحيح يدل على اضطراب شيء أو ذهابه (maqayis)
+- B002 anneyi yavrusundan ayırıp özleme düşürme | تَوْلِيه الوالدة عن ولدها | التوليه أن يفرق بين المرأة وولدها (maqayis
+- B003 çöle salınıp kaybolan su veya suyu kaybolan kaynak | ماء مُولَه ذاهب | عين مولهة إذا أرسل ماؤها فذهب في الصحارى (maqayis)
+- B004 örümcek adı | المُولَه العنكبوت | قال والمُولَه العنكبوت (sihah)
+

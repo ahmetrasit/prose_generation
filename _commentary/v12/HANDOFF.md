@@ -32,7 +32,8 @@ against the code and the data.
 ## State
 
 **v12** (`_commentary/v12/`): built and stub-tested; **no Opus call has been made.**
-- Evidence per ayah: `context.md`, `01_dictionary.md`, `digest_v2.md` (V9/V11); `hft.md` (from `focus_trace/runs`,
+- Evidence per ayah: `context.md`, `digest_v2.md` (V9/V11); `01_dictionary.md` rebuilt fresh at every prep (V11's
+  package copy is built once and never refreshed); `hft.md` (from `focus_trace/runs`,
   traces checked by script, steps marked with the plain branch and usage group when a dossier exists), `channels.md`,
   `neighbours.md`, `usage.md` (root dossiers; absent until dossiers exist); with usage.md, a v12 copy of
   `digest_v2.md` whose usage blocks for those roots are pointers.
@@ -73,8 +74,9 @@ rewritten descriptive and stub-tested end to end (grouping → repair → assign
    records automatically (v12 through V9 `word_roots`: 01_dictionary.md, neighbours.md; root-dossier through
    `corpus.disputes`). Names now resolve by fallback (`v9/extra_names.py`: gateway, reviewed analyses, the dictionary
    repo's furuq root packets); a name field in quran-data would remove the dependency on the dictionary repo.
-   Also without Turkish entries, as minor roots of the study table: ع ل ي (73 words), ز ك ي (59), م ن و (21), ر ب ي (18).
-   Al-Tahdhīb's variant under ء ل ه is not in quran-data yet.
+   Done for ٱللَّه (quran-data `ae9e79c54`: reviewed alternative و ل ه root_005296/B001, from the Tahdhīb via
+   Ebû'l-Heysem) — this also settles al-Tahdhīb's variant: it lives as that alternative, not inside ء ل ه. The study
+   table's ع ل ي, ز ك ي, م ن و, ر ب ي are weak-letter spellings of their dominant roots (one dictionary entry each).
 4. The ~20 meaningful study disputes, moved into the reviewed format (named-word rows are kept meanwhile: د ي ن → د و ن
    100 words, ص ل و → ص ل ي 82, ن ب ء → ن ب و 75, س م و → و س م 70, ء ب و → ء ب ي 53 …).
 

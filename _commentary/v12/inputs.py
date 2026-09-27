@@ -3,7 +3,9 @@
 
 Reused from V9/V11 (built by `_commentary/v11/run.py` prep, digest v2):
   context.md        the ayah, its words, word notes, the Fatiha, the whole surah (or its passage)
-  01_dictionary.md  every attested branch of every root of the ayah (V9 input package)
+  01_dictionary.md  every attested branch of every root of the ayah — rebuilt fresh into v12's work folder at every
+                    prep (V9 `section_dictionary`), because V11's prep builds its package copy once and never refreshes
+                    it (it predates the merged-envelope fix and the reviewed alternatives such as و ل ه for ٱللَّه)
   digest_v2.md      qirāʾāt, each root's occurrences, related passages with the earlier review's reason
 New in V12:
   hft.md            the existing image-chain hypotheses (HFT, latent_activation/focus_trace/runs/sN/readers/
@@ -480,9 +482,10 @@ def build(ref: str) -> dict[str, int]:
     deliver(["ayah", ref], out / "usage.md")
     v9w = V9 / "lines" / "work" / f"{s}_{ref.split(':')[1]}"
     digest_with_pointers(v9w / "digest_v2.md", out / "usage.md", out / "digest_v2.md")
+    (out / "01_dictionary.md").write_text(P.section_dictionary(src(), ref), encoding="utf-8")
     pkg = V9 / "input" / "v2" / f"s{s:03d}" / f"{s}_{ref.split(':')[1]}"
     sizes = {}
-    for f in [v9w / "context.md", pkg / "01_dictionary.md", v9w / "digest_v2.md",
+    for f in [v9w / "context.md", out / "01_dictionary.md", v9w / "digest_v2.md",
               *(out / n for n in ("usage.md", "hft.md", "channels.md", "neighbours.md"))]:
         if f.exists():
             sizes[f.name] = f.stat().st_size

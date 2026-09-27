@@ -1,173 +1,173 @@
-# neighbours.md — every branch of the other roots of 1:1–7 (the focus roots are in 01_dictionary.md)
+# neighbours.md — every branch of the other roots of 1:2–7 (the focus roots are in 01_dictionary.md)
 
-One line per branch: Bnnn | gloss | Arabic image | definition | first classical source phrase.
+One line per branch: Bnnn | gloss | Arabic image | first classical source phrase.
 `~alt` = a cited alternative analysis of the word; `~echo` = a sound-family root (not the word's root).
 Cite a branch as `root Bnnn`, e.g. `ر ب ب B007`; its Arabic may be quoted with that source.
 
 ### ح م د — 1:2 w1 ٱلْحَمْدُ
-- B001 yermenin karşıtı olan, iyilik için teşekkürü de kapsayan övgü | الحمد خلاف الذم | Bir kişiyi ya da övülesi bir işi iyi sözlerle değerlendirme ve yermenin karşıtıdır; bir iyiliğe karşılık olduğunda teşekkür anlamını da kapsar, ancak bununla sınırlı değildir. Tanrı'yı güzel sözlerle sık sık anma, bu çekirdeğin belirli bir türemiş kullanımıdır. | الحمد نقيض الذم (maqayis
-- B002 deneyip övülesi ya da uygun bulma | وجود الشيء محمودا | Bir kişiyi deneyimden sonra övülesi bulma çekirdeğinden, bir yeri yerleşmeye veya otlatmaya elverişli bulma ve bir işi biri için uygun görme kullanımları doğar. | أحمدت فلانا إذا وجدته محمودا (maqayis
-- B003 övülen veya birçok övülesi niteliği bulunan kimse | المحمود كثير الخصال | Övülmüş kişi ile övülesi nitelikleri çok olduğu için tekrar tekrar övülen kişiyi niteler. | رجل محمود ومحمد إذا كثرت خصاله المحمودة (maqayis
-- B004 övülesi işin varılabilecek en ileri sınırı | حماداك الغاية المحمودة | Belirli bir kalıp, kişinin yapabileceği işin en ileri sınırını ve bu sınıra ulaşmanın övülesi oluşunu bildirir; kimi açıklamada doğrudan kişinin övgüsü anlamı öne çıkar. Çoğul bir kullanım, aktarılan sözde kadınlarda övülen niteliklerin en ileri derecesini belirtir. | حماداك أن تفعل كذا أي غايتك وفعلك المحمود (maqayis)
-- B005 iyiliğini başa kakıp kendine pay çıkarma | يتحمد بالمنة | Yalnız belirli bir kişi-yönelimli kalıpta, yaptığı iyiliği başkasının başına kakmayı ve bunu kendisi için övgü nedeni gibi ileri sürmeyi anlatır. | فلان يتحمد علي أي يمن (sihah)
-- B006 muhatabı katarak övme veya iyilikleri teşekkürle anma | أحمد إليك الله | Yalnız belirli yönelme kalıplarında, muhatabı kendine katarak Tanrı'yı birlikte övmeyi veya birinin iyiliklerini muhataba teşekkürle anmayı bildirir. | أحمد إليك الله أي معك (ayn
+- B001 yermenin karşıtı olan, iyilik için teşekkürü de kapsayan övgü | الحمد خلاف الذم | الحمد نقيض الذم (maqayis
+- B002 deneyip övülesi ya da uygun bulma | وجود الشيء محمودا | أحمدت فلانا إذا وجدته محمودا (maqayis
+- B003 övülen veya birçok övülesi niteliği bulunan kimse | المحمود كثير الخصال | رجل محمود ومحمد إذا كثرت خصاله المحمودة (maqayis
+- B004 övülesi işin varılabilecek en ileri sınırı | حماداك الغاية المحمودة | حماداك أن تفعل كذا أي غايتك وفعلك المحمود (maqayis)
+- B005 iyiliğini başa kakıp kendine pay çıkarma | يتحمد بالمنة | فلان يتحمد علي أي يمن (sihah)
+- B006 muhatabı katarak övme veya iyilikleri teşekkürle anma | أحمد إليك الله | أحمد إليك الله أي معك (ayn
 
 ### ر ب ب — 1:2 w3 رَبِّ
-- B001 sahip olup yönetme | ربوبية وملك وسيادة | Bir varlık ya da şey üzerinde sahiplik, üstün yetke ve düzenleyici yönetim kurma niteliğidir. Mutlak kullanım Tanrı'yı gösterirken başka kullanımlar yönetilen veya sahip olunan şeyi açıkça belirtir. | الرب: الله تبارك وتعالى
-- B002 adım adım yetiştirip tamamlama | إصلاح وتربية وإتمام | Bir şeyi sürekli gözetim altında düzeltmek, geliştirmek ve aşama aşama tamamlanmış durumuna ulaştırmaktır. | رب الرجل النعمة يربها ربا
-- B003 Tanrı bilgisiyle yetiştiren bilgin | علم رباني | Tanrı bilgisine ve dinî hükümlere hâkim, bilgece davranan ve insanları temel bilgiden ileri bilgiye doğru yetiştiren bilgindir. | الرباني: المتأله العارف بالله تعالى (sihah)
-- B004 büyük insan topluluğu | ربة وجماعات كثيرة | Çok sayıda insanın bir araya gelmesiyle oluşan büyük topluluk ya da ayrı kabilelerin ortak bir birlik hâlinde birleşmesidir. | الربي: واحد الربيين، وهم الألوف من الناس
-- B005 bakımla kurulan üvey aile bağı | ربيب وربيبة ورابة | Önceki bir eşten olan çocuk ile o çocuğun bakımını üstlenen yeni eş arasında kurulan üvey aile ve yetiştirme ilişkisidir. Bazı kullanımlarda bakıcı kadın ya da evde beslenen dişi hayvan da aynı bakım bağıyla adlandırılır. | الراب: زوج الأم
-- B006 koyu öz veya yağ tortusu | رُبّ خاثر وإصلاح به | Meyveden koyulaştırılmış öz ya da yağın koyu tortusudur; ayrıca deri kap, yiyecek veya ilaç bu madde sürülerek ya da katılarak işlenip güçlendirilir. | رب السمن والزيت: ثفله الأسود
-- B007 bir yerde kalıp sürme | لزوم وإقامة ودوام | Bir yerde kalıp oradan ayrılmamak veya bir durumun kesilmeden sürmesidir. Hayvanın bir eşe bağlanması ve bir şeye yaklaşma anlamı bu kalıcılık çekirdeğinin özel uzantılarıdır. | رب بالمكان وأرب إذا أقام به (jamhara)
-- B008 katmanlı asılı bulut kümesi | رباب السحاب | Parçaları birbirine binmiş ya da başka bulutların altında asılı duran bulut kümesidir; beyaz veya siyah olabilir. | الرباب: سحاب أبيض
-- B009 başlangıçtaki tazelik | شاة رُبّى وحداثة | Bir şeyin henüz başlangıcında, yeni ve taze olmasıdır. Yeni doğurmuş koyun ile gençliğin ilk dönemi bu yakın zamanlılık niteliğinin özel uygulamalarıdır. | الربى: الشاة التي وضعت حديثا
-- B010 kura oklarını toplayan kap | ربابة تجمع القداح | Kura veya kumarda kullanılan ok ve çubukları bir arada tutan deri ya da bez kap; buna bağlı olarak kabın içindeki okların topluluğudur. | الربابة: قطعة من أدم تجمع فيها القداح (jamhara)
-- B011 bağlayıcı söz ve güvence | ربابة عهد وميثاق | İnsanları karşılıklı bağlılık, güvence veya dayanışma içinde birleştiren sözleşme ve verilmiş sözdür. Bu sözleşmeye bağlı kişiler ile söz gibi bağlayıcı sayılan vergi payı da ilişkili kullanımlardır. | الربابة: العهد والمعاهدون أربة (jamhara)
-- B012 belirli bir yeşil bitki türü | ربة نبات | Yumuşak ot, başka bir bitki veya küçük ağaç olarak betimlenen belirli bir bitki adıdır; bazı türlerinin yazın kurumadan yeşil kaldığı belirtilir. | الربة: ضرب من الشجر أو النبت (jamhara)
-- B013 bol ve toplanmış su | ماء رَبَب كثير | Bir yerde toplanmış ya da çok miktarda bulunan sudur; bazı kullanımlarda tatlı su olduğu ayrıca belirtilir. | الربب، بالفتح: الماء الكثير، ويقال العذب (sihah)
-- B014 yaban sığırı sürüsü | رَبْرَب قطيع | Özellikle yaban sığırlarından oluşan sürüdür; bazı kullanımlarda genel sığır topluluğunu veya deve sürüsünü de kapsar. | الربرب: القطيع من بقر الوحش (sihah)
-- B015 azlık bildiren ilgeç | حرف رب وربما | Belirsiz bir adla birlikte sayının azlığını bildiren bir ilgeçtir. Eklenen öğelere göre ardından eylem gelebilir ve anlam ara sıra gerçekleşmeye yaklaşabilir. | رب: كلمة
-- B016 gereksinim, sıkı düğüm veya iyilik | رُبَى حاجة وعقدة ونعمة | Aynı yalın sözlük biçimi, aralarında ortak bir kavramsal bağ belirtilmeksizin, bağlama göre gereksinim, sıkı düğüm ya da iyilik ve yardım anlamlarından birini taşır. | الربى: الحاجة
-- B017 gemicilerin başı | رباني الملاحين | Bir gemide gemicilerin işini yöneten ve onların başında bulunan kaptandır. | رباني: رئيس الملاحين (tahdhib)
+- B001 sahip olup yönetme | ربوبية وملك وسيادة | الرب: الله تبارك وتعالى
+- B002 adım adım yetiştirip tamamlama | إصلاح وتربية وإتمام | رب الرجل النعمة يربها ربا
+- B003 Tanrı bilgisiyle yetiştiren bilgin | علم رباني | الرباني: المتأله العارف بالله تعالى (sihah)
+- B004 büyük insan topluluğu | ربة وجماعات كثيرة | الربي: واحد الربيين، وهم الألوف من الناس
+- B005 bakımla kurulan üvey aile bağı | ربيب وربيبة ورابة | الراب: زوج الأم
+- B006 koyu öz veya yağ tortusu | رُبّ خاثر وإصلاح به | رب السمن والزيت: ثفله الأسود
+- B007 bir yerde kalıp sürme | لزوم وإقامة ودوام | رب بالمكان وأرب إذا أقام به (jamhara)
+- B008 katmanlı asılı bulut kümesi | رباب السحاب | الرباب: سحاب أبيض
+- B009 başlangıçtaki tazelik | شاة رُبّى وحداثة | الربى: الشاة التي وضعت حديثا
+- B010 kura oklarını toplayan kap | ربابة تجمع القداح | الربابة: قطعة من أدم تجمع فيها القداح (jamhara)
+- B011 bağlayıcı söz ve güvence | ربابة عهد وميثاق | الربابة: العهد والمعاهدون أربة (jamhara)
+- B012 belirli bir yeşil bitki türü | ربة نبات | الربة: ضرب من الشجر أو النبت (jamhara)
+- B013 bol ve toplanmış su | ماء رَبَب كثير | الربب، بالفتح: الماء الكثير، ويقال العذب (sihah)
+- B014 yaban sığırı sürüsü | رَبْرَب قطيع | الربرب: القطيع من بقر الوحش (sihah)
+- B015 azlık bildiren ilgeç | حرف رب وربما | رب: كلمة
+- B016 gereksinim, sıkı düğüm veya iyilik | رُبَى حاجة وعقدة ونعمة | الربى: الحاجة
+- B017 gemicilerin başı | رباني الملاحين | رباني: رئيس الملاحين (tahdhib)
 
 ### ع ل م — 1:2 w4 ٱلْعَٰلَمِينَ
-- B001 bilme ve gerçeğini kavrama | انكشاف الشيء للعارف | Bir şeyi bilmek, tanımak ve onu gerçeğine uygun biçimde kavramak; böylece bilgisizlikten çıkmaktır. Haber verilmesi, öğretme, öğrenme ve bilgi bakımından üstün gelme bu çekirdekten hareket eden, belirli biçimlere bağlı kullanımlardır. | العلم نقيض الجهل (maqayis
-- B002 ayırt edici ve yol gösterici işaret | أثر يميز الشيء ويهدي إليه | Bir şeyi başkalarından ayıran, tanınmasını sağlayan veya ona götüren belirgin iz ya da işarettir. Bayrak, uzaktan seçilen dağ, yol belirtisi, kumaş kenarı ve sonradan konan tanıtıcı izler bu işlevin farklı gerçekleşmeleridir. | أصل صحيح واحد يدل على أثر بالشيء يتميز به عن غيره (maqayis)
-- B003 evren ve bütün yaratılmışlar | الخلق عالم يدل على صانعه | Yaratılmış olanların bütünü; bağlama göre evren ile içindekilerin tamamı veya yaratıkların ayrı ayrı sınıflarıdır. Bu bütünün yaratıcıyı gösteren bir belirti sayılması, adın açıklanan dayanağıdır. | العالمون كل جنس من الخلق فهو في نفسه معلم وعلم (maqayis)
-- B004 üst dudak yarığı | شق ظاهر في الشفة العليا | İnsanın üst dudağında veya devenin üst dudak bölgesinde bulunan belirgin yarıktır. Aynı dal, bu özelliği taşıyanı niteleyen biçimi ve üst dudağı yarma eylemini de kapsar. | العلم الشق في الشفة العليا والرجل أعلم (maqayis)
-- B005 deniz ya da suyu bol kuyu | ماء كثير مجتمع في عيلم | Aynı sözlük biçiminin bir kullanımda denizi, başka bir kullanımda ise suyu bol kuyuyu adlandırmasıdır. İki karşılık, genel bir su birikintisi anlamında kaynaştırılmaz. | العيلم يقال إنه البحر ويقال إنه البئر الكثيرة الماء (maqayis)
-- B006 doğan veya atmaca türü yırtıcı kuş | طائر جارح يسمى العلام | Doğan veya atmaca türünden bir yırtıcı kuş adıdır. Bu kuş adından türetilen bir niteleme, çevik ve zeki bir erkeği anlatır. | العلام الصقر
-- B007 erkek sırtlan | ذكر الضباع يسمى العيلام | Erkek sırtlanı adlandıran yalın bir hayvan adıdır. | العيلام الذكر من الضباع (sihah)
+- B001 bilme ve gerçeğini kavrama | انكشاف الشيء للعارف | العلم نقيض الجهل (maqayis
+- B002 ayırt edici ve yol gösterici işaret | أثر يميز الشيء ويهدي إليه | أصل صحيح واحد يدل على أثر بالشيء يتميز به عن غيره (maqayis)
+- B003 evren ve bütün yaratılmışlar | الخلق عالم يدل على صانعه | العالمون كل جنس من الخلق فهو في نفسه معلم وعلم (maqayis)
+- B004 üst dudak yarığı | شق ظاهر في الشفة العليا | العلم الشق في الشفة العليا والرجل أعلم (maqayis)
+- B005 deniz ya da suyu bol kuyu | ماء كثير مجتمع في عيلم | العيلم يقال إنه البحر ويقال إنه البئر الكثيرة الماء (maqayis)
+- B006 doğan veya atmaca türü yırtıcı kuş | طائر جارح يسمى العلام | العلام الصقر
+- B007 erkek sırtlan | ذكر الضباع يسمى العيلام | العيلام الذكر من الضباع (sihah)
 
 ### م ل ك — 1:4 w1 مَٰلِكِ
-- B001 güçlü ve tutarlı biçimde bir arada durma | قوة الشيء وتماسكه | Bir şeyin parçalarının sıkıca bağlanarak güçlü, dayanıklı ve dağılmaya dirençli hâle gelmesi veya getirilmesidir. Kişide bu iç tutarlılık, düşmekten ya da düşünmeden konuşmaktan kendini alıkoyma biçiminde görünür. | أصل صحيح يدل على قوة في الشيء وصحة (maqayis)
-- B002 sahiplik ve tasarruf yetkisi | المِلْك والتصرف | Bir şeyin bir kişinin elinde veya hukuki alanında bulunması ve o kişinin onun üzerinde tasarruf yetkisi taşımasıdır. Bu yetki devredilebilir; tarihsel kullanımlarda köleleştirilmiş kişileri ve onlara ilişkin davranışı, belirli bir kalıpta ise boşanma kararının eşe bırakılmasını da kapsar. | ملك الإنسان الشيء يملكه ملكا (maqayis)
-- B003 hükümdarlık ve kamusal egemenlik | المُلك والسلطان | Bir hükümdarın halk üzerinde emir, yasak ve yönetim yetkisi kullanmasıyla kurulan kamusal hükümranlıktır. Bu alan hükümdarı, yönetim gücünü, hükmedilen ülkeyi ve ilahi bağlamda mutlak egemenliği kapsar. | والاسم الملك لأن يده فيه قوية صحيحة (maqayis)
-- B004 evlilik akdi kurma | الإملاك والتزويج | İki kişi arasında evlilik bağını sözleşmeyle kurmak veya bu akdin gerçekleşmesidir. Kullanım, birini evlendirmeyi, evlilik akdine tanıklığı ve bir erkeğin bir kadınla evlenmesini kapsar. | كنا في إملاك فلان أي أملكناه امرأته (maqayis)
-- B005 işi ayakta tutan temel dayanak | مِلاك الأمر وعِماده | Bir işin, düzenin veya bedenin ayakta kalmasını, düzgün işlemesini ve tamamlanmasını sağlayan temel dayanak unsurudur. Kalbin beden için bu işlevi görmesi verilen başlıca örnektir. | ملاك الأمر ما يعتمد عليه (ayn)
-- B006 yolun veya yerin orta ya da ana kesimi | مَلَك الطريق والوادي | Yolun, vadinin veya yerleşimin bağlama göre orta, ana ya da büyük kesimidir; vadi kullanımında sınır da bu adlandırmaya katılır. Söyleyişe göre bu kesim izlenecek bir güzergâh veya uzak durulacak bir yer olabilir. | ملك الطريق أيضا وسطه (sihah)
-- B007 işleri ve yaşamı sürdüren su kaynağı | الماء مَلَك الأمر | Su, yolcunun veya bir topluluğun işini denetim altında tutmasını, konaklamasını ve geçimini sürdürmesini sağlayan temel kaynaktır. Suyun bulunmaması bu yeterliğin yokluğu, çok sayıda su kaynağı ise güçlü yaşam imkânı olarak anlatılır. | والملك الماء يكون مع المسافر لأنه إذا كان معه ملك أمره (maqayis)
-- B008 hayvanlarda önden gidip yön veren unsur | المتقدم القائد في الحيوان | Bir hayvan topluluğunda önden gidip geri kalanların izlediği önder canlı veya bir binek hayvanını önden yönelten beden bölümüdür. Arı topluluğunun önderi, sürünün öncüsü ve bineğin ön ayakları ile yönlendirici kısmı bu kalıba bağlı kullanımlardır. | مليك النحل يعسوبها (sihah)
-- B009 ilahi haberci varlık | المَلَك من الملائكة | İlahi buyruğu veya haberi ileten haberci varlığın adıdır. Dal ayrıca kaynakların bu adı, haber götürme ve elçilik anlamıyla ilişkili daha eski biçimlerden açıklayan etimolojik kaydını kapsar. | الملك واحد الملائكة إنما هو تخفيف الملأك والأصل مألك (ayn)
+- B001 güçlü ve tutarlı biçimde bir arada durma | قوة الشيء وتماسكه | أصل صحيح يدل على قوة في الشيء وصحة (maqayis)
+- B002 sahiplik ve tasarruf yetkisi | المِلْك والتصرف | ملك الإنسان الشيء يملكه ملكا (maqayis)
+- B003 hükümdarlık ve kamusal egemenlik | المُلك والسلطان | والاسم الملك لأن يده فيه قوية صحيحة (maqayis)
+- B004 evlilik akdi kurma | الإملاك والتزويج | كنا في إملاك فلان أي أملكناه امرأته (maqayis)
+- B005 işi ayakta tutan temel dayanak | مِلاك الأمر وعِماده | ملاك الأمر ما يعتمد عليه (ayn)
+- B006 yolun veya yerin orta ya da ana kesimi | مَلَك الطريق والوادي | ملك الطريق أيضا وسطه (sihah)
+- B007 işleri ve yaşamı sürdüren su kaynağı | الماء مَلَك الأمر | والملك الماء يكون مع المسافر لأنه إذا كان معه ملك أمره (maqayis)
+- B008 hayvanlarda önden gidip yön veren unsur | المتقدم القائد في الحيوان | مليك النحل يعسوبها (sihah)
+- B009 ilahi haberci varlık | المَلَك من الملائكة | الملك واحد الملائكة إنما هو تخفيف الملأك والأصل مألك (ayn)
 
 ### ي و م — 1:4 w2 يَوْمِ
-- B001 güneşin doğuşundan batışına kadarki gün | وقت النهار المحدود | Güneşin doğuşundan batışına kadar uzanan bilinen zaman aralığı ve bu aralıklardan oluşan dizinin tek bir birimidir. | اليوم: الواحد من الأيام (maqayis)
-- B002 herhangi bir zaman dilimi; bağlama göre devir | مدة من الزمان | Uzunluğu önceden sınırlandırılmamış bir zaman dilimidir; bazı bağlamlarda kişinin veya bir şeyin devri kadar geniş bir süreyi anlatır. | مدة من الزمان أي مدة كانت (mufradat)
-- B003 büyük olayın yaşandığı çetin gün veya olay | كائنة اليوم وشدته | Büyük veya çetin bir olayın gerçekleştiği kritik günü ya da olayın kendisini anlatan aktarmalı kullanımdır. Bazı kalıplarda çok ağır bir gün, çoğul biçimde ise yaşanmış önemli olaylar anlamı taşır. | يستعيرونه في الأمر العظيم ويقولون نعم فلان في اليوم إذا نزل (maqayis)
-- B004 Tanrı'nın nimet ve ibret verici işleriyle anılan günler | أيام النعم والوقائع الإلهية | Tanrı'nın nimet, bağışlama veya cezalandırma gibi unutulmaması gereken etkileriyle anılan günlerdir. Bu bağlama, söz konusu günlerin önemini ve hatırlatıcı değerini yükseltir. | وذكرهم بأيام الله: بما نزل بعاد وثمود وغيرهم من العذاب، وبالعفو عن آخرين (tahdhib)
-- B005 bağlamda işaret edilen o gün veya o sırada | يوم مضاف إلى إذ | Gün sözü bağlamda işaret edilen zamana gönderme yapan bir belirteçle birleşir ve o gün veya o sırada anlamını verir. Birleşik yapı, kuruluşuna göre çekimli ya da değişmez biçimde kullanılabilir. | يركب يوم مع إذ، فيقال: يومئذ
+- B001 güneşin doğuşundan batışına kadarki gün | وقت النهار المحدود | اليوم: الواحد من الأيام (maqayis)
+- B002 herhangi bir zaman dilimi; bağlama göre devir | مدة من الزمان | مدة من الزمان أي مدة كانت (mufradat)
+- B003 büyük olayın yaşandığı çetin gün veya olay | كائنة اليوم وشدته | يستعيرونه في الأمر العظيم ويقولون نعم فلان في اليوم إذا نزل (maqayis)
+- B004 Tanrı'nın nimet ve ibret verici işleriyle anılan günler | أيام النعم والوقائع الإلهية | وذكرهم بأيام الله: بما نزل بعاد وثمود وغيرهم من العذاب، وبالعفو عن آخرين (tahdhib)
+- B005 bağlamda işaret edilen o gün veya o sırada | يوم مضاف إلى إذ | يركب يوم مع إذ، فيقال: يومئذ
 
 ### د ي ن — 1:4 w3 ٱلدِّينِ
-- B001 boyun eğerek uyma ve buna dayalı inanç düzeni | الطاعة والانقياد | Bir üstün iradesine boyun eğerek buyruğuna uyma ve bağlı kalma; Tanrı'ya yöneldiğinde kulluk, bir inanç yolu ve onun kurallarına bağlılık biçimini alabilir. | أصل واحد إليه يرجع فروعه كلها وهو جنس من الانقياد والذل (maqayis)
-- B002 yargılayıp hesap görerek karşılığını verme | الحساب والجزاء | Bir eylemi veya kişiyi hükme bağlayıp hesabını görmek ve sonucuna göre karşılığını vermek; belirli bir gün adı olarak bu sürecin gerçekleşeceği zamanı anlatır. | يوم الدين أي يوم الحكم والحساب والجزاء (maqayis)
-- B003 borç alıp verme ve vadeli ödeme ilişkisi | الدين المالي | Bir mal veya paranın borç olarak alınıp verilmesiyle, taraflardan biri için ileride ödeme ya da geri verme yükümlülüğü doğuran mali ilişki; vadeli alışveriş de bu ilişkinin özel bir biçimidir. | الدين وداينت فلانا إذا عاملته دينا إما أخذا وإما إعطاء (maqayis)
-- B004 zorla alçaltıp egemenliği altına alma | الإذلال والملك | Birini zorla alçaltıp egemenlik altına almak, köleleştirmek veya mülk edinmek; bu işlemin sonucunda kişi bağımlı ve başkasının buyruğu altında sayılır. | العبد مدين كأنهما أذلهما العمل ويا دين قلبك أي أذل (maqayis)
-- B005 alışılmış davranış ve öteden beri bilinen hal | العادة والشأن | Bir kişinin veya topluluğun tekrarla yerleşmiş alışkanlığı, süregelen işi ya da öteden beri bilinen hali ve tutumu. | العادة يقال لها دين (maqayis)
-- B006 kent | مدينة الطاعة | İnsanların toplu yaşadığı büyük ve düzenli yerleşim, yani kent. Adlandırılması, o yerde yöneticilerin buyruklarına uyulmasıyla açıklanır; bu ilişki kentin zorunlu özelliği değildir. | المدينة كأنها مفعلة سميت بذلك لأنها تقام فيها طاعة ذوي الأمر (maqayis)
-- B007 kişiyi sözüne ve vicdani sorumluluğuna göre değerlendirme | التصديق والتفويض | Bir kişiyi kendi vicdani yükümlülüğü ve sözüyle baş başa bırakmak veya yargıda sözünü doğru kabul etmek; yemin edenin sözünü de onun kendi niyetine göre değerlendirmek. | دينت الرجل تديينا إذا وكلته إلى دينه (sihah)
+- B001 boyun eğerek uyma ve buna dayalı inanç düzeni | الطاعة والانقياد | أصل واحد إليه يرجع فروعه كلها وهو جنس من الانقياد والذل (maqayis)
+- B002 yargılayıp hesap görerek karşılığını verme | الحساب والجزاء | يوم الدين أي يوم الحكم والحساب والجزاء (maqayis)
+- B003 borç alıp verme ve vadeli ödeme ilişkisi | الدين المالي | الدين وداينت فلانا إذا عاملته دينا إما أخذا وإما إعطاء (maqayis)
+- B004 zorla alçaltıp egemenliği altına alma | الإذلال والملك | العبد مدين كأنهما أذلهما العمل ويا دين قلبك أي أذل (maqayis)
+- B005 alışılmış davranış ve öteden beri bilinen hal | العادة والشأن | العادة يقال لها دين (maqayis)
+- B006 kent | مدينة الطاعة | المدينة كأنها مفعلة سميت بذلك لأنها تقام فيها طاعة ذوي الأمر (maqayis)
+- B007 kişiyi sözüne ve vicdani sorumluluğuna göre değerlendirme | التصديق والتفويض | دينت الرجل تديينا إذا وكلته إلى دينه (sihah)
 
 ### ع ب د — 1:5 w2 نَعْبُدُ
-- B001 özgür olmayan, sahip olunan kişi | الرق والملك | Özgür olmayan, bir başkasının mülkiyetinde sayılan ve eski hukuk düzeninde alınıp satılabilen insandır. | العبد وهو المملوك (maqayis)
-- B002 Tanrı'ya ait sayılan insan veya topluluk | الانتساب إلى الله عبدا | Özgür ya da köle ayrımı olmaksızın insanın, yaratılmış ve ona ait olması bakımından Tanrı'nın kulu sayılmasıdır; çoğul kullanım ona bağlı topluluğu da gösterebilir. | تفرقة ما بين عباد الله والعبيد المملوكين (maqayis)
-- B003 boyun eğerek itaat ve tapınma | العبادة والطاعة الخاضعة | Bir varlığa en ileri ölçüde boyun eğerek itaat etmek ve tapınma yönelişi göstermektir; dinsel kullanım Tanrı'ya, bazı özel söz öbekleri ise sahte tanrısal güçlere yönelir. | عبد يعبد عبادة فلا يقال إلا لمن يعبد الله (maqayis
-- B004 köleleştirmek veya köle gibi boyunduruk altına almak | التعبيد والاستعباد | Bir insanı köle edinmek, köle durumuna getirmek ya da özgür olsa bile köle gibi çalışacak ölçüde boyunduruk altına almaktır. | استعبدت فلانا اتخذته عبدا (maqayis
-- B005 düzleşmiş yol, katranlanmış deve veya kaplanmış gemi | التذليل والتسوية | Verilen yapılarda yolun çok geçilerek düzleşip kolay kullanılır olması, devenin derisinin katranla kaplanıp uysallaştırılması veya geminin katran, yağ ya da benzeri bir maddeyle kaplanması anlatılır. | الطريق المعبد وهو المسلوك المذلل (maqayis)
-- B006 saygı gösterilip hizmet edilen kişi | التكريم والتعظيم | Kendisine saygı gösterilen, yüceltilen ve hizmet edilen kişidir. | المعبد المكرم والمعظم كأنه يعبد (jamhara)
-- B007 güç, sağlamlık ve dayanıklılık | القوة والصلابة | Bir varlığın güçlü, sağlam ve zaman içinde dayanıklı olmasıdır; dişi deve bağlamında bu sağlamlığa semizlik de eşlik eder. | العبدة وهي القوة والصلابة (maqayis)
-- B008 incinmiş gurur, öfke veya kederli iç duygulanım | الأنفة والغضب | İncinmiş gurur ve kendini koruma duygusuyla yükselen öfke ya da içe çöken kederli duygulanımdır; özel kullanımda kişi bu incinme yüzünden susar. | العبد مثل الأنف والحمية (maqayis)
-- B009 gecikmeden yapmak veya koşuda biraz hızlanmak | قلة اللبث وسرعة العدو | Verilen bir söz öbeğinde bir işi yapmakta hiç gecikmemeyi, diğerinde ise koşarken bir ölçü hızlanmayı anlatır. | ما عبد أن فعل ذاك أي ما لبث (sihah
-- B010 her yana dağılmış kümeler, nesneler veya yollar | التفرق في الوجوه | İnsan kümelerinin, nesnelerin, uzak uçların veya yolların birbirinden ayrılarak çeşitli yönlere dağılmış olmasıdır. | العباديد الفرق من الناس الذاهبون في كل وجه وكذلك العبابيد (sihah)
-- B011 bineği yüzünden yolda kalma veya güçlükle direnen deve | العطب والانقطاع | Bir yapıda yolcunun bineği yorulduğu, zarar gördüğü veya elden çıktığı için yolda kalması; diğerinde ise devenin insanlara güçlük çıkararak direnmesi anlatılır. | أعبد بفلان بمعنى أبدع به إذا كلت راحلته أو عطبت (sihah)
-- B012 güzel koku maddesi ezme taşı | صَلاءة الطيب | Güzel koku maddelerinin ezilip karıştırılarak hazırlanmasında kullanılan taş ya da havandır. | العبدة صلاءة الطيب (jamhara)
+- B001 özgür olmayan, sahip olunan kişi | الرق والملك | العبد وهو المملوك (maqayis)
+- B002 Tanrı'ya ait sayılan insan veya topluluk | الانتساب إلى الله عبدا | تفرقة ما بين عباد الله والعبيد المملوكين (maqayis)
+- B003 boyun eğerek itaat ve tapınma | العبادة والطاعة الخاضعة | عبد يعبد عبادة فلا يقال إلا لمن يعبد الله (maqayis
+- B004 köleleştirmek veya köle gibi boyunduruk altına almak | التعبيد والاستعباد | استعبدت فلانا اتخذته عبدا (maqayis
+- B005 düzleşmiş yol, katranlanmış deve veya kaplanmış gemi | التذليل والتسوية | الطريق المعبد وهو المسلوك المذلل (maqayis)
+- B006 saygı gösterilip hizmet edilen kişi | التكريم والتعظيم | المعبد المكرم والمعظم كأنه يعبد (jamhara)
+- B007 güç, sağlamlık ve dayanıklılık | القوة والصلابة | العبدة وهي القوة والصلابة (maqayis)
+- B008 incinmiş gurur, öfke veya kederli iç duygulanım | الأنفة والغضب | العبد مثل الأنف والحمية (maqayis)
+- B009 gecikmeden yapmak veya koşuda biraz hızlanmak | قلة اللبث وسرعة العدو | ما عبد أن فعل ذاك أي ما لبث (sihah
+- B010 her yana dağılmış kümeler, nesneler veya yollar | التفرق في الوجوه | العباديد الفرق من الناس الذاهبون في كل وجه وكذلك العبابيد (sihah)
+- B011 bineği yüzünden yolda kalma veya güçlükle direnen deve | العطب والانقطاع | أعبد بفلان بمعنى أبدع به إذا كلت راحلته أو عطبت (sihah)
+- B012 güzel koku maddesi ezme taşı | صَلاءة الطيب | العبدة صلاءة الطيب (jamhara)
 
 ### ع و ن — 1:5 w4 نَسْتَعِينُ
-- B001 yardım, destek ve dayanışma | الإعانة والمظاهرة | Bir kişinin, topluluğun ya da aracın bir işi gerçekleştirmede başkasına güç, destek veya kolaylık sağlamasıdır. Bu çekirdek, yardım istemeyi, birlikte karşılıklı yardım etmeyi ve yardımsever kişi nitelemesini de türemiş kullanımlar olarak kapsar. | كل شيء استعنت به أو أعانك فهو عونك (ayn)
-- B002 yaşça orta evrede olan | العَوان بين السنين | Bir canlıyı yaş bakımından küçük ya da genç olmayan, fakat henüz ileri yaşlı da sayılmayan orta evrede nitelemektir. Kadın için kullanılan özel biçim, bağlama göre evlenmiş olmayı veya daha ileri bir yaş çağrışımını da taşıyabilir. | العوان البقرة النصف في سنها ويقال للمرأة النصف عوان (ayn)
-- B003 yinelenmiş veya öncülü olan savaş | الحرب العَوان | Daha önce bir savaşın yaşandığı veya çatışmanın birden çok kez yinelendiği, bu nedenle ilk ve yeni olmayan savaştır. | الحرب العوان التي كانت قبلها حرب بكر (ayn)
-- B004 yaşlı hurma ağacı | النخلة العَوانة القديمة | Yaşı ilerlemiş, eski bir hurma ağacını adlandıran sözdür. | وقيل العوانة للنخلة القديمة (mufradat)
-- B005 bedensel denge ve güç olgunluğu | استواء الخلقة وتلاحق القوة | Belirli kadın ve yük atı nitelemelerinde bedenin yaşla birlikte dengeli ya da güçlü bir olgunluğa erişmesini anlatır. Kadında yaş alma, etlilik ve orantılı görünüş; hayvanda ise güç ile yaşın birbirine yetişmesi ayrı koşullardır. | المتعاونة من النساء التي طعنت في السن ولا تكون إلا مع كثرة اللحم (sihah)
-- B006 yaban eşeği sürüsü | العانة قطيع الحمر | Yaban eşeklerinden oluşan bir sürüyü adlandıran sözdür; aynı anlam için iki ayrı çoğul biçim kullanılır. | العانة القطيع من حمر الوحش وتجمع على عانات وعون (ayn)
-- B007 erkekte kasık kılları | عانة الرجل | Erkeğin üreme organı çevresinde ve kasık bölgesinde çıkan kılları adlandırır. Aynı dalda bu adın küçültme biçimi ile söz konusu kılları tıraş etmeyi bildiren bir eylem biçimi de bulunur. | عانة الرجل إسبه من الشعر على فرجه وتصغيره عوينة (ayn)
-- B008 bir yer adı ve o yere bağlanan şarap adı | النسبة إلى عانة | Dal, iki yakın yer adı biçimi ile bunlardan geldiği belirtilen şarap adlandırmasını birlikte kapsar. Kanıt, bir bölgenin yöresindeki yer ile bir ırmak üzerindeki köy anlatımının aynı coğrafi noktayı gösterdiğini kesinleştirmez. | عانات موضع من ناحية الجزيرة تنسب إليه الخمر العانية (ayn)
+- B001 yardım, destek ve dayanışma | الإعانة والمظاهرة | كل شيء استعنت به أو أعانك فهو عونك (ayn)
+- B002 yaşça orta evrede olan | العَوان بين السنين | العوان البقرة النصف في سنها ويقال للمرأة النصف عوان (ayn)
+- B003 yinelenmiş veya öncülü olan savaş | الحرب العَوان | الحرب العوان التي كانت قبلها حرب بكر (ayn)
+- B004 yaşlı hurma ağacı | النخلة العَوانة القديمة | وقيل العوانة للنخلة القديمة (mufradat)
+- B005 bedensel denge ve güç olgunluğu | استواء الخلقة وتلاحق القوة | المتعاونة من النساء التي طعنت في السن ولا تكون إلا مع كثرة اللحم (sihah)
+- B006 yaban eşeği sürüsü | العانة قطيع الحمر | العانة القطيع من حمر الوحش وتجمع على عانات وعون (ayn)
+- B007 erkekte kasık kılları | عانة الرجل | عانة الرجل إسبه من الشعر على فرجه وتصغيره عوينة (ayn)
+- B008 bir yer adı ve o yere bağlanan şarap adı | النسبة إلى عانة | عانات موضع من ناحية الجزيرة تنسب إليه الخمر العانية (ayn)
 
 ### ه د ي — 1:6 w1 ٱهْدِنَا
-- B001 doğru yolu gösterme ve doğruya yönelme | دلالة بلطف إلى الطريق والحق | Bir kimseye yolu, doğruyu ya da benimsenmesi gereken yönü incelikle göstermek ve tanıtmak; gösterilen yönü kabul ederek doğruya ulaşmak, ayrıca bunun ilahi başarı desteğiyle gerçekleşmesidir. | الهدى نقيض الضلالة
-- B002 yön, izlenen yol ve tutum | جهة الأمر وسيرته وقصده | Bir işin yönü, amacı ve izlenen doğrultusu ile bir kimsenin gidişi, görünür tutumu ve yöntemidir. Belirli anlatımlarda yürütülen söz ya da işten sapmama, başkasının yolunu izleme, ona benzeme veya aynı karşılığı yineleme anlamı kazanır. | خذ في هديتك أي فيما كنت فيه من الحديث أو العمل ولا تعدل عنه
-- B003 bir şeyin ilk veya öndeki bölümü | المتقدم الهادي وأوائل الشيء | Bir şeyin ilk, önde bulunan veya öne çıkan bölümü ya da üyesidir. Atların boyunları veya ilk sırası, yaban hayvanlarının öncüleri, okun ucu, koyunun boynu ve sahibinin önünde ilerleyen değnek bu konumsal çekirdeğin özel gerçekleşmeleridir. | الهادي من كل شيء أوله
-- B004 incelik göstergesi armağan verme | بعثة لطف وهدية إلى ذي مودة | Sevgi veya yakınlık duyulan birine incelik ve iyilik göstergesi olarak bir şey gönderme ya da verme ve verilen şeydir. Karşılıklı armağanlaşma, sunma tabağı ve bunu sık yapan kişi bu çekirdeğe bağlı kullanımlardır. | الهدية ما أهديت إلى ذي مودة من بر (ayn)
-- B005 kutsal yere adanan hayvan, mal veya eşya | الهدي المهدى إلى الحرم | Kutsal eve veya bölgeye yakınlık kazanma amacıyla ayrılıp gönderilen hayvan, mal ya da eşyadır. Kimi anlatımlar bunu özellikle büyükbaş hayvanlara bağlar; develerin genel olarak aynı adla anılması ise bu kullanımdan genişlemedir. | الهدي والهدي ما أهديت إلى مكة
-- B006 gelini eşinin yanına götürme | العروس المهدية إلى زوجها | Bir gelini eşinin yanına götürmek, onunla bir araya getirip ona katmak ve bu götürülme olayıdır. Aynı alan, eşine götürülen gelinin kendisini de adlandırır. | الهداء مصدر قولك هديت المرأة إلى زوجها
-- B007 dokunulmaz sığınmacı; kimi açıklamalarda tutsak | هدي الحرمة والأسير | Bir topluluktan sığınma veya güvence isteyen ve bu yüzden dokunulmaz sayılan erkektir. Bazı kaynak açıklamalarında aynı ad tutsak erkek için de kullanılır. | الرجل الذي له حرمة كحرمة هدي البيت
-- B008 sallanarak, gerektiğinde başkalarına dayanarak yürüme | مشي التهادي مع الاعتماد والتمايل | Yürürken sağa sola sallanmak veya yalpalamaktır. Güçsüz bir kişinin iki kişi arasında ilerleyip ikisine dayanması bunun özel yapısıdır; kadınların ve ağır develerin yürüyüşü örneklenir. | التهادي مشي في تمايل يمينا وشمالا كمشي النساء والإبل الثقال (ayn)
-- B009 bön, güçsüz ve ağır kimse | الهداء البليد الضعيف | Bön, güçsüz, ağır ve uyuşuk erkek için kullanılan olumsuz bir nitelemedir. | الهداء الرجل البليد الضعيف (ayn)
-- B010 sakin, ölçülü ve düzgün ilerleyiş | هدي السكون وحسن الهيئة | Bozguna uğramış birinin telaşlı kaçışına benzemeyen sakin, ölçülü ve düzgün ilerleyiş ya da görünür tutumdur. | الهدي السكون
-- B011 övgü veya yergi şiiri sunma ve şiirle yergileşme | إهداء الشعر ومهاداته | Bir kişiye övgü veya yergi içeren bir şiir sunmak ya da iki kişinin şiirle karşılıklı olarak birbirini yermesidir. | الإهداء أن تهدي إلى إنسان مديحا أو هجاء شعرا (ayn)
+- B001 doğru yolu gösterme ve doğruya yönelme | دلالة بلطف إلى الطريق والحق | الهدى نقيض الضلالة
+- B002 yön, izlenen yol ve tutum | جهة الأمر وسيرته وقصده | خذ في هديتك أي فيما كنت فيه من الحديث أو العمل ولا تعدل عنه
+- B003 bir şeyin ilk veya öndeki bölümü | المتقدم الهادي وأوائل الشيء | الهادي من كل شيء أوله
+- B004 incelik göstergesi armağan verme | بعثة لطف وهدية إلى ذي مودة | الهدية ما أهديت إلى ذي مودة من بر (ayn)
+- B005 kutsal yere adanan hayvan, mal veya eşya | الهدي المهدى إلى الحرم | الهدي والهدي ما أهديت إلى مكة
+- B006 gelini eşinin yanına götürme | العروس المهدية إلى زوجها | الهداء مصدر قولك هديت المرأة إلى زوجها
+- B007 dokunulmaz sığınmacı; kimi açıklamalarda tutsak | هدي الحرمة والأسير | الرجل الذي له حرمة كحرمة هدي البيت
+- B008 sallanarak, gerektiğinde başkalarına dayanarak yürüme | مشي التهادي مع الاعتماد والتمايل | التهادي مشي في تمايل يمينا وشمالا كمشي النساء والإبل الثقال (ayn)
+- B009 bön, güçsüz ve ağır kimse | الهداء البليد الضعيف | الهداء الرجل البليد الضعيف (ayn)
+- B010 sakin, ölçülü ve düzgün ilerleyiş | هدي السكون وحسن الهيئة | الهدي السكون
+- B011 övgü veya yergi şiiri sunma ve şiirle yergileşme | إهداء الشعر ومهاداته | الإهداء أن تهدي إلى إنسان مديحا أو هجاء شعرا (ayn)
 
 ### ص ر ط — 1:6 w2 ٱلصِّرَٰطَ; 1:7 w1 صِرَٰطَ
-- B001 yol, özellikle düz yol | الطريق المستقيم | Bir yerden başka bir yere gitmeye yarayan yol; bu genel anlam içinde özellikle doğrultusu düzgün olan yol. | الصراط والسراط والزراط: الطريق (sihah)
-- B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak | الغيبة في المرور والبلع | Geçiş ve gidiş sırasında gözden kaybolmak; özellikle bir şeyi, başta yiyeceği, boğazdan geçirerek yutmak. Kolay yutulan yiyecek ve geniş boğaz nitelemeleri bu çekirdeğe bağlı kullanımlardır. | أصل صحيح واحد يدل على غيبة في مر وذهاب
-- B003 vuruşta kesip ilerleyen kılıç | السيف القاطع الماضي في الضربة | Vuruş sırasında hedefi kesip içinde ilerleyen etkili kılıç. | والسراط السيف القاطع الماضي في الضريبة (maqayis 1774)
+- B001 yol, özellikle düz yol | الطريق المستقيم | الصراط والسراط والزراط: الطريق (sihah)
+- B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak | الغيبة في المرور والبلع | أصل صحيح واحد يدل على غيبة في مر وذهاب
+- B003 vuruşta kesip ilerleyen kılıç | السيف القاطع الماضي في الضربة | والسراط السيف القاطع الماضي في الضريبة (maqayis 1774)
 
 ### ق و م — 1:6 w3 ٱلْمُسْتَقِيمَ
-- B001 erkekler topluluğu ve yakın çevresi | جماعة الناس والرجال | Temelde erkeklerden oluşan insan topluluğudur; bir erkeğin yandaş ve yakın soy çevresini de anlatabilir. Kadınların topluluğa bağlı olarak kapsanması ve sözün insan dışı varlıklara aktarılması ikincildir. | القوم الرجال دون النساء
-- B002 ayağa kalkma ve dik durma | انتصاب وقيام بالبدن | Bir insanın ya da başka bir varlığın dik konuma gelmesi veya dik durumda bulunmasıdır. Tek seferlik ayağa kalkma, ibadetteki ayakta duruş, bitkinin kökü üzerinde kalması ve hayvanın durması bu fiziksel duruşun özel görünümleridir. | القومة ما بين الركعتين من القيام
-- B003 bir işe kararlılıkla girişme | عزم ونهوض إلى الأمر | Belirli bir işe kararlılıkla yönelmek, onu üstlenmek ve yapmaya girişmektir. | قام بمعنى العزيمة
-- B004 sürekli gözetip yönetme | رعاية وحفظ وولاية | Bir işi, topluluğu veya düzeni sorumluluk üstlenerek sürekli gözetmek, korumak, yönetmek ve işler durumda tutmaktır. | قيم القوم من يسوس أمرهم ويقومهم
-- B005 sürdürüp gereğini yerine getirme | إقامة وإدامة وتوفية حق | Bir şeyi sürdürmek, işler ve düzgün durumda tutmak ya da gereğini ve koşullarını eksiksiz yerine getirmektir. | أقام الشيء أي أدامه
-- B006 bir yerde kalma ve kalınan yer | مقام وإقامة في موضع | Bir yerde kalmak ve orayı geçici ya da sürekli durulan yer edinmektir; ayak basılan veya kalınan yer ile kalış süresi de bu çekirdekten adlandırılır. Oturum ve bir araya gelmiş topluluk anlamı bunun daha uzak uzantısıdır. | أقمت بالمكان إقامة ومقاما
-- B007 başkasının yerini ve işlevini alma | نيابة وقيام مقام غيره | Bir kişi veya şeyin başka birinin ya da başka bir şeyin yerini alması, onun adına iş görmesi veya işlevini üstlenmesidir. | القيمة أصله الواو لأنه يقوم مقام الشيء (sihah)
-- B008 düzgünlük, denge ve doğru yoldan sapmama | استقامة واعتدال واستواء | Bir yolun, nesnenin, kişinin davranışının, işin ya da sözün eğrilikten ve aşırılıktan uzak, düzgün, dengeli ve doğru olmasıdır. | رمح قويم ورجل قويم
-- B009 ayakta tutan dayanak ve geçim temeli | قوام وعماد ومعاش | Bir işin, düzenin, bedenin veya yaşamın ayakta kalmasını sağlayan temel dayanak, düzenleyici unsur ya da yeterli geçim aracıdır. | هذا الأمر لا قومية له أي لا قوام له
-- B010 değer biçme ve belirlenen bedel | قيمة وتقويم وتسعير | Bir malın parasal değerini belirlemek ve bu değerlendirme sonucunda ortaya çıkan bedeldir; tarafların değer üzerinde karşılıklı hesaplaşması da bu alana bağlıdır. | القيمة ثمن الشيء بالتقويم
-- B011 insanın boyu ve düzgün beden yapısı | قامة وقوام الجسم والطول | İnsanın ayakta dururken görülen boy ölçüsü, dik beden yapısı ve özellikle düzgün, güzel uzunluğudur. | القامة مقدار قيام الرجل
-- B012 düzeneğin dik, taşıyıcı veya tutulan parçası | آلة قائمة وجزء قائم | Bir düzeneğin dik duran, taşıyan veya elle tutulan parçasıdır; kuyu makarası ve donanımı, kılıç sapı, yatak ya da hayvan ayağı ve çiftçinin tuttuğu ahşap parça bu alandadır. Kuyu başında insan biçimli yapı yorumu tartışmalıdır. | القامة مقدار قيام الرجل كهيئة الرجل يبنى على شفير بئر
-- B013 ölülerin diriltildiği ve insanların yargı için kalktığı gün | قيامة وبعث وقيام الساعة | Dünyanın sonundaki saatin gerçekleştiği, ölülerin diriltildiği ve insanların yargılanmak üzere ayağa kalktığı gündür. | القيامة يوم البعث يقوم الخلق بين يدي القيوم (ayn)
-- B014 karşılıklı direnip mücadele etme | مقاومة ومنازلة | İki tarafın bir işte, güreşte veya savaşta birbirine karşı durması, direnmesi ve üstün gelmek için mücadele etmesidir. | قاومته في كذا أي نازلته (ayn)
-- B015 tam ve denk ağırlıktaki para | وزن سواء ومقدار معتدل | Belirli bir para parçasının ölçün ağırlığa tam eşit olması ve terazide ağır basmamasıdır. | دنانير قوم وقيم ودينار قائم أي مثقال سواء لا يرجح (ayn)
-- B016 donup akmama veya yorulup ilerleyememe | جمود ووقوف وكلال | Su için donarak akmaz duruma gelmek; binek hayvanı için durmak veya yorulup yürüyemez hale gelmektir. İki kullanımın ortak sonucu ilerleme ya da akışın kesilmesidir, nedenleri aynı değildir. | قام الماء جمد
-- B017 güneşin tam tepede olduğu öğle ortası | انتصاف النهار وقائم الظهيرة | Güneşin göğün ortasında bulunduğu, günün iki yarısının dengelendiği ve gölgenin en kısa duruma yaklaştığı öğle ortasıdır. | قام قائم الظهيرة إذا قامت الشمس وكاد الظل يعقل (ayn
-- B018 pazarın canlanıp satışların artması | نفاق السوق | Pazarın canlanması, malların alıcı bulması ve satışların hareketlenmesidir. | قامت السوق نفقت (sihah)
-- B019 bir beden bölümünün kişiye ağrı vermesi | وجع قائم بالعضو | Sırt, göz veya bedenin başka bir bölümünün kişiye ağrı vermesi ve o kişinin bu organda acı duymasıdır. | قام بي ظهري أي أوجعني
-- B020 koyunun bacaklarını tutan hastalık | قوام في قوائم الشاة | Koyunun bacaklarını tutan ve hayvanın etkilenerek ayağa kalkmasına yol açan belirli bir hastalıktır. | القوام داء يأخذ الشاة في قوائمها تقوم منه (sihah)
-- B021 göz bebeği sağlamken görme yetisinin kaybolması | عين قائمة ذاهبة البصر | Göz bebeği ve gözün görünür yapısı sağlam kaldığı halde görme yetisinin bütünüyle kaybolduğu göz durumudur. | عين قائمة ذهب بصرها والحدقة صحيحة (ayn)
+- B001 erkekler topluluğu ve yakın çevresi | جماعة الناس والرجال | القوم الرجال دون النساء
+- B002 ayağa kalkma ve dik durma | انتصاب وقيام بالبدن | القومة ما بين الركعتين من القيام
+- B003 bir işe kararlılıkla girişme | عزم ونهوض إلى الأمر | قام بمعنى العزيمة
+- B004 sürekli gözetip yönetme | رعاية وحفظ وولاية | قيم القوم من يسوس أمرهم ويقومهم
+- B005 sürdürüp gereğini yerine getirme | إقامة وإدامة وتوفية حق | أقام الشيء أي أدامه
+- B006 bir yerde kalma ve kalınan yer | مقام وإقامة في موضع | أقمت بالمكان إقامة ومقاما
+- B007 başkasının yerini ve işlevini alma | نيابة وقيام مقام غيره | القيمة أصله الواو لأنه يقوم مقام الشيء (sihah)
+- B008 düzgünlük, denge ve doğru yoldan sapmama | استقامة واعتدال واستواء | رمح قويم ورجل قويم
+- B009 ayakta tutan dayanak ve geçim temeli | قوام وعماد ومعاش | هذا الأمر لا قومية له أي لا قوام له
+- B010 değer biçme ve belirlenen bedel | قيمة وتقويم وتسعير | القيمة ثمن الشيء بالتقويم
+- B011 insanın boyu ve düzgün beden yapısı | قامة وقوام الجسم والطول | القامة مقدار قيام الرجل
+- B012 düzeneğin dik, taşıyıcı veya tutulan parçası | آلة قائمة وجزء قائم | القامة مقدار قيام الرجل كهيئة الرجل يبنى على شفير بئر
+- B013 ölülerin diriltildiği ve insanların yargı için kalktığı gün | قيامة وبعث وقيام الساعة | القيامة يوم البعث يقوم الخلق بين يدي القيوم (ayn)
+- B014 karşılıklı direnip mücadele etme | مقاومة ومنازلة | قاومته في كذا أي نازلته (ayn)
+- B015 tam ve denk ağırlıktaki para | وزن سواء ومقدار معتدل | دنانير قوم وقيم ودينار قائم أي مثقال سواء لا يرجح (ayn)
+- B016 donup akmama veya yorulup ilerleyememe | جمود ووقوف وكلال | قام الماء جمد
+- B017 güneşin tam tepede olduğu öğle ortası | انتصاف النهار وقائم الظهيرة | قام قائم الظهيرة إذا قامت الشمس وكاد الظل يعقل (ayn
+- B018 pazarın canlanıp satışların artması | نفاق السوق | قامت السوق نفقت (sihah)
+- B019 bir beden bölümünün kişiye ağrı vermesi | وجع قائم بالعضو | قام بي ظهري أي أوجعني
+- B020 koyunun bacaklarını tutan hastalık | قوام في قوائم الشاة | القوام داء يأخذ الشاة في قوائمها تقوم منه (sihah)
+- B021 göz bebeği sağlamken görme yetisinin kaybolması | عين قائمة ذاهبة البصر | عين قائمة ذهب بصرها والحدقة صحيحة (ayn)
 
 ### ن ع م — 1:7 w3 أَنْعَمْتَ
-- B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik | حسن الحال والنعمة | Kişinin rahat, iyi ve elverişli bir yaşam durumunda bulunması; ayrıca bir yararın bağış, yardım ya da iyilik olarak ona ulaşması veya başkasına ulaştırılmasıdır. | أصل واحد يدل على ترفه وطيب عيش وصلاح (maqayis)
-- B002 yumuşamak, rahat yaşamak veya rahat yaşatmak | اللين والنعومة ورفاه العيش | Bir şeyin yumuşak duruma gelmesidir. Belirli kullanımlarda kişinin rahat ve bolluk içinde yaşamasını ya da bir başkasını böyle yaşatmasını anlatır. | نعم الشيء صار ناعما لينا (sihah)
-- B003 övgü ve beğeni bildirmek | مدح الشيء بنعم | Bir şeyi iyi, güzel veya yerinde bularak onu özel bir söz ya da kalıpla övmek ve beğeniyi bildirmektir. | نعم ضد بئس (maqayis)
-- B004 evet diyerek onaylamak veya söz vermek | الجواب بنعم والتصديق | Bir soruya olumlu cevap vermek, söylenen bir şeyi doğru diye onaylamak veya istenen bir iş için olumlu söz vermektir. | نعم جواب الواجب ضد لا (maqayis)
-- B005 develer ve geniş anlamda otlayan evcil hayvanlar | مال الأنعام والإبل | Dar kullanımda develeri, daha geniş topluluk adında ise deve, sığır ve koyun gibi otlayan evcil hayvanları gösteren hayvan varlığıdır. | النعم الإبل لما فيه من الخير والنعمة والأنعام البهائم (maqayis)
-- B006 devekuşu | النعام والنعامة الطائر | Devekuşu türüdür; kullanılan biçime ve kaynağa göre türün bütünü, erkek veya dişi birey gösterilebilir. | النعامة معروفة لنعمة ريشها (maqayis)
-- B007 devekuşuna benzetilerek ad verilen şeyler | ما سمي نعامة تشبيها بالهيئة | Devekuşunun görünüşüne veya belirgin bir özelliğine benzetilerek aynı adın verildiği kuyu kirişi, dağ gölgeliği, ayak ya da bacak bölümü, yol ve Ay'ın konak yerleri gibi varlıklardır. | على معنى التشبيه النعامة وهي كالظلة تجعل على رءوس الجبل (maqayis)
-- B008 bir topluluğun dağılıp gücünü yitirmesi | طيران النعامة وتفرق القوم | Belirli kuş imgeli sözlerde bir topluluğun hızla dağılıp ayrılması, yol alması veya birliğini ya da gücünü yitirmesidir. | شالت نعامتهم إذا تفرقوا (maqayis)
-- B009 yumuşak esen nemli güney rüzgarı | النعامى ريح لينة | Güneyden esen, esişi yumuşak ve taşıdığı hava nemli olan rüzgardır. | النعامي الريح اللينة (maqayis)
-- B010 daha da artırmak veya ileri dereceye götürmek | زاد وأنعم في الفعل | Bir miktara daha fazlasını eklemek veya bir işi önceki derecesinin ötesine götürerek daha yoğun ve ileri yapmak demektir. | فعل كذا وأنعم أي زاد (sihah
-- B011 bir yeri kendine uygun bulup orada kalmak | موافقة المكان وطيب المقام | Bir yere geldikten sonra o yeri kendine uygun ve hoş bulup orada kalmak veya yerleşmektir. | أتيت أرض بني فلان فتنعمتني إذا وافقته (maqayis)
-- B012 birine yaya gitmek ve ayakları yürüyerek kullanmak | المشي على القدم وابتذالها | Belirli yapılarda birine bineksiz olarak yaya gitmek veya onu yürüyerek aramak; ayrıca ayakları yürümekle kullanıp eskitmek ya da hafif adımlarla yürümektir. | تنعمت زيدا طلبته كأنه أراد أعمل إليه نعامته وهي باطن قدمه (maqayis)
-- B013 birini göz sevinci saymak veya bunun için dua etmek | نعم الله بك عينا وقرة العين | Birini göz için sevinç, dinginlik ve hoşnutluk kaynağı saymak veya onun böyle bir sevinç vermesi için dua ve iyi dilekte bulunmaktır. | نعم ونعمى عين ونعمة عين أي قرة عين (maqayis)
+- B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik | حسن الحال والنعمة | أصل واحد يدل على ترفه وطيب عيش وصلاح (maqayis)
+- B002 yumuşamak, rahat yaşamak veya rahat yaşatmak | اللين والنعومة ورفاه العيش | نعم الشيء صار ناعما لينا (sihah)
+- B003 övgü ve beğeni bildirmek | مدح الشيء بنعم | نعم ضد بئس (maqayis)
+- B004 evet diyerek onaylamak veya söz vermek | الجواب بنعم والتصديق | نعم جواب الواجب ضد لا (maqayis)
+- B005 develer ve geniş anlamda otlayan evcil hayvanlar | مال الأنعام والإبل | النعم الإبل لما فيه من الخير والنعمة والأنعام البهائم (maqayis)
+- B006 devekuşu | النعام والنعامة الطائر | النعامة معروفة لنعمة ريشها (maqayis)
+- B007 devekuşuna benzetilerek ad verilen şeyler | ما سمي نعامة تشبيها بالهيئة | على معنى التشبيه النعامة وهي كالظلة تجعل على رءوس الجبل (maqayis)
+- B008 bir topluluğun dağılıp gücünü yitirmesi | طيران النعامة وتفرق القوم | شالت نعامتهم إذا تفرقوا (maqayis)
+- B009 yumuşak esen nemli güney rüzgarı | النعامى ريح لينة | النعامي الريح اللينة (maqayis)
+- B010 daha da artırmak veya ileri dereceye götürmek | زاد وأنعم في الفعل | فعل كذا وأنعم أي زاد (sihah
+- B011 bir yeri kendine uygun bulup orada kalmak | موافقة المكان وطيب المقام | أتيت أرض بني فلان فتنعمتني إذا وافقته (maqayis)
+- B012 birine yaya gitmek ve ayakları yürüyerek kullanmak | المشي على القدم وابتذالها | تنعمت زيدا طلبته كأنه أراد أعمل إليه نعامته وهي باطن قدمه (maqayis)
+- B013 birini göz sevinci saymak veya bunun için dua etmek | نعم الله بك عينا وقرة العين | نعم ونعمى عين ونعمة عين أي قرة عين (maqayis)
 
 ### غ ي ر — 1:7 w5 غَيْرِ
-- B001 yarar sağlayıp durumunu iyileştirme | الصلاح والمنفعة بالميرة والسقي والإصلاح | Bir kimsenin ailesine geçimlik sağlayarak yarar dokundurmasıdır; belirli yapılarda yağmurun insanları ya da toprağı sulayıp durumlarını iyileştirmesini ve yük takımının indirilip düzeltilmesini de anlatır. | الغِيرة بالكسر: الميرة (sihah)
-- B002 cana karşılık ceza yerine kabul edilen kan bedeli | الغَيْر في الدية | Öldürme ya da yaralama karşılığında hak sahibine ödenen kan bedeli ve bu bedelin cana karşılık uygulanacak cezanın yerine kabul edilmesidir. | غارني الرجل إذا وداك من الدية والاسم الغِيرة (sihah)
-- B003 biçimini değiştirme veya yerine başkasını koyma | تغيير الصورة أو إبدال الشيء بغيره | Bir şeyin özü aynı kalsa da biçiminin ya da durumunun öncekinden farklı hale getirilmesi veya bir şeyin kaldırılıp yerine başka bir şeyin konmasıdır. Belirli yapılarda yanlış olanı doğru olanla giderme, alışverişte karşılıklı değiştirme ve cana karşılık cezadan kan bedeline dönme biçiminde gerçekleşir. | الاسم من قولك غيرت الشيء فتغير (sihah)
-- B004 eşini veya ailesini kıskanarak koruma duygusu | الغَيْرة على الأهل | Bir kişinin eşini veya ailesini başkasının ilgisinden sakınma, bağlılığını koruma ve bu nedenle kıskançlık duyma eğilimidir; aynı alan bu eğilimi güçlü biçimde taşıyan kişiyi de niteler. | الغَيرة بالفتح مصدر قولك غار الرجل على أهله (sihah)
-- B005 başka olma, dışta bırakma veya olumsuzlama | السوى والخلاف والاستثناء والنفي | Bir şeyin ötekinden ayrı, başka veya ona aykırı olmasıdır; bu ilişki dil içinde bir unsuru kümenin dışında bırakmak, bir niteliği ya da varlığı olumsuzlamak ve iki şeyin birbirinden farklı olduğunu bildirmek için de kullanılır. | هذا الشيء غير ذاك أي هو سواه وخلافه (maqayis)
+- B001 yarar sağlayıp durumunu iyileştirme | الصلاح والمنفعة بالميرة والسقي والإصلاح | الغِيرة بالكسر: الميرة (sihah)
+- B002 cana karşılık ceza yerine kabul edilen kan bedeli | الغَيْر في الدية | غارني الرجل إذا وداك من الدية والاسم الغِيرة (sihah)
+- B003 biçimini değiştirme veya yerine başkasını koyma | تغيير الصورة أو إبدال الشيء بغيره | الاسم من قولك غيرت الشيء فتغير (sihah)
+- B004 eşini veya ailesini kıskanarak koruma duygusu | الغَيْرة على الأهل | الغَيرة بالفتح مصدر قولك غار الرجل على أهله (sihah)
+- B005 başka olma, dışta bırakma veya olumsuzlama | السوى والخلاف والاستثناء والنفي | هذا الشيء غير ذاك أي هو سواه وخلافه (maqayis)
 
 ### غ ض ب — 1:7 w6 ٱلْمَغْضُوبِ
-- B001 şiddetli öfke ve öç alma yönelimi | اشتداد السخط وثورانه للانتقام | Yoğun hoşnutsuzluğun öç alma isteğine doğru kabarmasıdır. Kişinin çok ya da çabuk öfkelenmesini bildiren nitelemeler ve tanrısal bağlamda cezalandırma sonucu bu çekirdeğin özel gerçekleşmeleridir. | الغضب لأنه اشتداد السخط (maqayis)
-- B002 biri için ya da uğruna öfkelenmek | الغضب لشخص حي أو به بعد موته | Konuşanın, yaşayan bir kişi için ya da ölmüş bir kişi uğruna öfkelenmesini anlatır. Kullanılan yapı, öfkenin kendisi kadar ilgili kişinin hayatta olup olmamasını da kodlar. | غضبت لفلان إذا كان حيا وغضبت به إذا كان ميتا (maqayis
-- B003 karşı koyup muhalefet etmek | المراغمة والمخالفة | Birine karşı koyup onunla inatlaşarak muhalefet etmek, ayrıca bir topluluğa karşı çıkan durumda bulunmaktır. | غاضبه: راغمه
-- B004 sert, yığılmış veya yuvarlak kaya | صلابة الصخرة وتماسكها | Sert bir kayayı adlandırır; kaynak değişkelerine göre dağda yığılmış ya da yuvarlak bir kaya olarak da betimlenir. | الغضبة الصخرة الصلبة (maqayis)
-- B005 kalın derili ya da çok kızıl | غلظ الجسم وشدة الحمرة | Belirli kişi nitelemelerinde kalın derili olmayı, kızıl ve kalın görünümü ya da çok yoğun kızıllığı bildirir. Yalın biçim de çok kızıl olanı adlandırabilir. | رجل غضاب إذا كان غليظ الجلد
-- B006 üst göz kapağı çıkıntısı veya göz çevresi şişliği | تورم العين وما حولها | Üst göz kapağındaki doğuştan çıkıntıyı veya gözün çevresinde, özellikle altında oluşan şişliği bildirir. | الغضب بخصة في الجفن الأعلى خلقة (ayn)
-- B007 somurtkan, huysuz; iri yılan | العبوس والضجر والعظم في وصف الحيوان أو الشخص | Dişi deve veya kadın için somurtkan ya da huysuz olmayı bildirir; ayrı bir kullanımda büyük bir yılanı adlandırır. | الغضوب الحية العظيمة (maqayis)
-- B008 belirli hayvan derileri veya kalkan gibi katlanmış deri | جلد صلب أو مطوي كدرقة | Belirli hayvanların derisini veya üst üste katlanarak kalkana benzetilen bir deve derisi parçasını adlandırır. | الغضبة جلد المسن من الوعول حين يسلخ (ayn)
+- B001 şiddetli öfke ve öç alma yönelimi | اشتداد السخط وثورانه للانتقام | الغضب لأنه اشتداد السخط (maqayis)
+- B002 biri için ya da uğruna öfkelenmek | الغضب لشخص حي أو به بعد موته | غضبت لفلان إذا كان حيا وغضبت به إذا كان ميتا (maqayis
+- B003 karşı koyup muhalefet etmek | المراغمة والمخالفة | غاضبه: راغمه
+- B004 sert, yığılmış veya yuvarlak kaya | صلابة الصخرة وتماسكها | الغضبة الصخرة الصلبة (maqayis)
+- B005 kalın derili ya da çok kızıl | غلظ الجسم وشدة الحمرة | رجل غضاب إذا كان غليظ الجلد
+- B006 üst göz kapağı çıkıntısı veya göz çevresi şişliği | تورم العين وما حولها | الغضب بخصة في الجفن الأعلى خلقة (ayn)
+- B007 somurtkan, huysuz; iri yılan | العبوس والضجر والعظم في وصف الحيوان أو الشخص | الغضوب الحية العظيمة (maqayis)
+- B008 belirli hayvan derileri veya kalkan gibi katlanmış deri | جلد صلب أو مطوي كدرقة | الغضبة جلد المسن من الوعول حين يسلخ (ayn)
 
 ### ض ل ل — 1:7 w9 ٱلضَّآلِّينَ
-- B001 doğru yoldan ve amaçtan sapma ya da başkasını saptırma | الضلال عن الهدى والقصد | Bir kimsenin amaçtan, doğru yoldan veya doğruluktan ayrılması, yolunu bulamaması ya da yanlış ve boş olana yönelmesidir. Ettirgen kullanımda başka biri bu doğrultudan uzaklaştırılır. | كل جائر عن القصد ضال
-- B002 gizlenerek, karışıp eriyerek veya gömülerek gözden yitme | الغيبوبة والخفاء | Bir şeyin gizlenerek, toprağa karışarak ya da başka bir maddenin içinde seçilemez hale gelerek gözden yitmesidir. Ölüyü gömmek, onu görünmez kılan özel bir ettirgen kullanımdır. | أضل الميت إذا دفن
-- B003 bir şeyi yitirme veya yerini bulamama; özel olarak kanın karşılıksız kalması | فقدان الشيء | Bir şeyin sahibinin elinden çıkması veya kişinin hareketli bir şeyi ya da sabit bir yerin konumunu bulamamasıdır. Özel bir kullanımda öldürülen kişinin kanı öç alınmadan ve karşılık aranmadan kalır. | أضللت بعيري إذا ذهب منك
-- B004 bir şeyi unutmak veya bellekte tutamamak | ضياع الحفظ | Bir şeyi unutmak, yani onun bilgisini bellekte hazır tutamamak veya gerektiğinde hatırlayamamaktır. | ضللت الشيء أنسيته (jamhara)
-- B005 sahibi bilinmeyen kayıp hayvan, özellikle deve | الضالّة في المضيعة | Sahibinden ayrılmış, ortada kalmış ve sahibinin kim olduğu bilinmeyen hayvandır; özellikle deve için kullanılır ve hayvanın erkek ya da dişi olması adı değiştirmez. | الضالة من الإبل ما يبقى بمضيعة لا يعرف ربها الذكر والأنثى فيه سواء (ayn)
+- B001 doğru yoldan ve amaçtan sapma ya da başkasını saptırma | الضلال عن الهدى والقصد | كل جائر عن القصد ضال
+- B002 gizlenerek, karışıp eriyerek veya gömülerek gözden yitme | الغيبوبة والخفاء | أضل الميت إذا دفن
+- B003 bir şeyi yitirme veya yerini bulamama; özel olarak kanın karşılıksız kalması | فقدان الشيء | أضللت بعيري إذا ذهب منك
+- B004 bir şeyi unutmak veya bellekte tutamamak | ضياع الحفظ | ضللت الشيء أنسيته (jamhara)
+- B005 sahibi bilinmeyen kayıp hayvan, özellikle deve | الضالّة في المضيعة | الضالة من الإبل ما يبقى بمضيعة لا يعرف ربها الذكر والأنثى فيه سواء (ayn)
 

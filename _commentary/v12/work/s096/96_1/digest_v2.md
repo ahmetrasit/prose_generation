@@ -1,0 +1,352 @@
+# Quranic reach for 96:1 (script digest, unjudged)
+
+Candidates for reading the ayah through the Quran itself. Nothing here is a finding yet: judge each one.
+
+## 1. Variant readings (qirāʾāt)
+
+- word 1 · اقْرَا (iqra) · hmz · Hamza dropped, yielding long a ending instead of hamza cut. Removes the glottal stop, making the command softer phonetically. This is a canonical reading within the ten (Ibn Kathir and others drop hamza in pause).
+
+## 2. Usage: each root of the ayah across the Quran (ref and the word as it occurs)
+
+### U-قرء root ق ر ء (focus word ٱقْرَأْ: قَرَأَ V) — 86 occurrences in 79 ayat; same form 15, other forms 71
+- tier 1, same form (قَرَأَ V): 15
+  - 7:204 قُرِئَ
+  - 10:94 يَقْرَءُ
+  - 16:98 قَرَأْ
+  - 17:14 ٱقْرَأْ
+  - 17:45 قَرَأْ
+  - 17:71 يَقْرَءُ
+  - 17:93 نَّقْرَؤُ
+  - 17:106 تَقْرَأَ
+  - 26:199 قَرَأَ
+  - 69:19 ٱقْرَءُ
+  - 73:20 ٱقْرَءُ
+  - 75:18 قَرَأْ
+  - 84:21 قُرِئَ
+  - 96:1 ◀ focus ٱقْرَأْ
+  - 96:3 [same surah] ٱقْرَأْ
+- tier 2, other forms: قُرُوٓء N 1; نُقْرِئُ V form IV 1; قُرْءَان N 2; قُرْءَان PN 67
+- rare form قُرُوٓء (N):
+  - 2:228 قُرُوٓءٍ
+- rare form نُقْرِئُ (V form IV):
+  - 87:6 نُقْرِئُ
+- rare form قُرْءَان (N):
+  - 75:17 قُرْءَانَ
+  - 75:18 قُرْءَانَ
+- roots co-occurring across the listed ayat: ء ل ه (11), ك ت ب (7), ك و ن (7), ر ب ب (4), ء م ن (4), ن ز ل (4), ء خ ر (4), ء ت ي (3), ن ف س (3), ي و م (3), ع ل م (3), ث ل ث (3), ر ح م (3), ي م ن (2)
+
+### U-سمو root س م و (focus word بِٱسْمِ: ٱسْم N) — 376 occurrences in 352 ayat; same form 38, other forms 338
+- tier 1, same form (ٱسْم N): 38
+  - 1:1 سْمِ
+  - 2:31 أَسْمَآءَ
+  - 2:31 أَسْمَآءِ
+  - 2:33 أَسْمَآئِ
+  - 2:114 ٱسْمُ
+  - 3:45 ٱسْمُ
+  - 5:4 ٱسْمَ
+  - 6:118 ٱسْمُ
+  - 6:119 ٱسْمُ
+  - 6:121 ٱسْمُ
+  - 6:138 ٱسْمَ
+  - 7:71 أَسْمَآءٍ
+  - 7:180 أَسْمَآءُ
+  - 7:180 أَسْمَٰٓئِ
+  - 11:41 سْمِ
+  - 12:40 أَسْمَآءً
+  - 17:110 أَسْمَآءُ
+  - 19:7 ٱسْمُ
+  - 20:8 أَسْمَآءُ
+  - 22:28 ٱسْمَ
+  - 22:34 ٱسْمَ
+  - 22:36 ٱسْمَ
+  - 22:40 ٱسْمُ
+  - 24:36 ٱسْمُ
+  - 27:30 سْمِ
+  - 49:11 ٱسْمُ
+  - 53:23 أَسْمَآءٌ
+  - 55:78 ٱسْمُ
+  - 56:74 ٱسْمِ
+  - 56:96 ٱسْمِ
+  - 59:24 أَسْمَآءُ
+  - 61:6 ٱسْمُ
+  - 69:52 ٱسْمِ
+  - 73:8 ٱسْمَ
+  - 76:25 ٱسْمَ
+  - 87:1 ٱسْمَ
+  - 87:15 ٱسْمَ
+  - 96:1 ◀ focus ٱسْمِ
+- tier 2, other forms: تَسْمِيَة N form II 1; سَمِيّ N 2; مُّسَمًّى ADJ form II 5; سَمَّىٰ V form II 8; مُّسَمًّى N form II 16; سَمَآء N 306
+- rare form تَسْمِيَة (N form II):
+  - 53:27 تَسْمِيَةَ
+- rare form سَمِيّ (N):
+  - 19:7 سَمِيًّا
+  - 19:65 سَمِيًّا
+- rare form مُّسَمًّى (ADJ form II):
+  - 2:282 مُّسَمًّى
+  - 6:2 مُّسَمًّى
+  - 6:60 مُّسَمًّى
+  - 20:129 مُّسَمًّى
+  - 71:4 مُّسَمًّى
+- rare form سَمَّىٰ (V form II):
+  - 3:36 سَمَّيْ
+  - 7:71 سَمَّيْ
+  - 12:40 سَمَّيْ
+  - 13:33 سَمُّ
+  - 22:78 سَمَّىٰ
+  - 53:23 سَمَّيْ
+  - 53:27 يُسَمُّ
+  - 76:18 تُسَمَّىٰ
+- roots co-occurring across the listed ayat: ء ل ه (47), ع ل م (18), ر ب ب (17), ذ ك ر (16), ق و ل (16), ك و ن (16), ش ه د (10), ك ت ب (9), ء ج ل (8), ن ع م (7), ب ي ن (7), ء ك ل (6), ق و م (6), ء خ ر (6)
+
+### U-خلق root خ ل ق (focus word خَلَقَ: خَلَقَ V) — 249 occurrences in 218 ayat; same form 176, other forms 73
+- tier 1, same form (خَلَقَ V): 176 — common form, not listed
+- tier 2, other forms: ٱخْتِلَٰق N form VIII 1; خَٰلِق ADJ 1; خَلَّٰق N 2; مُخَلَّقَة N form II 2; خُلُق N 2; خَلَٰق N 4; خَٰلِق N 11; خَلْق N 50
+- rare form ٱخْتِلَٰق (N form VIII):
+  - 38:7 ٱخْتِلَٰقٌ
+- rare form خَٰلِق (ADJ):
+  - 59:24 خَٰلِقُ
+- rare form خَلَّٰق (N):
+  - 15:86 خَلَّٰقُ
+  - 36:81 خَلَّٰقُ
+- rare form مُخَلَّقَة (N form II):
+  - 22:5 مُّخَلَّقَةٍ
+  - 22:5 مُخَلَّقَةٍ
+- rare form خُلُق (N):
+  - 26:137 خُلُقُ
+  - 68:4 خُلُقٍ
+- rare form خَلَٰق (N):
+  - 2:102 خَلَٰقٍ
+  - 2:200 خَلَٰقٍ
+  - 3:77 خَلَٰقَ
+  - 9:69 خَلَٰقِ
+- roots co-occurring across the listed ayat: ع ل م (10), ء ل ه (5), ء خ ر (5), س م و (4), ن و س (3), ك و ن (3), ش د د (3), ء ر ض (3), ذ ك ر (3), ش ر ي (3), ك ف ر (3), م ت ع (3), ب ي ن (2), ش ي ء (2)
+
+## 3. Related passages (reciprocal inter-ayah candidates, strongest first: the ayah and why it may bear on the focus, as an earlier review saw it — a lead to test, not a finding)
+
+### Formula group (خ ل ق + ر ب ب + س م و): these ayat share the roots with the focus
+- 13:16 — Direct creator comparison sharpens the focus's creator-exclusive frame.
+- 6:1 — Creation and Rabb appear, but no exact auxiliary route and earlier cards already cover the frame.
+- 10:3 — Positive F02 route joins Rabb and creation but is redundant with stronger creator-Rabb cards.
+- 7:54 — Positive F02 and mixed F05 routes give broad cosmic governance, already well covered.
+- 56:74 — Repeated بٱسْمِ رَبِّكَ with positive F01/F03/F04 routes; anchors address and allegiance.
+- 96:4 — Immediate teaching-and-inscription continuation; develops the command's knowing/formation frame.
+- 96:3 — Immediate repetition of ٱقْرَأْ and رَبُّكَ; directly expands the focus command.
+- 96:6 — Immediate turn to human excess supplies the passage's counterpressure to the opening command.
+- 96:5 — Immediate teaching continuation completes the focus passage's knowing frame.
+- 69:52 — Third occurrence of the rank-1 formula; positive routes are redundant here.
+- 96:16 — Immediate conflict sequence supplies the false/errant side relevant to the focus's authority frame.
+- 17:14 — Positive F01/F04 routes connect ٱقْرَأْ to a distinct book-centered setting.
+- 96:2 — Immediate creation clause of the opening unit; indispensable local context despite mixed-only F02 evidence.
+- 95:4 — Multiple positive F02 routes develop human formation; F05 contrast preserves its limiting boundary.
+- 96:11 — Immediate conditional guidance supplies the alternative to the passage's prohibition.
+- 96:10 — Immediate worship scene identifies what the prohibition in the local sequence targets.
+- 96:8 — Immediate return-to-Rabb clause supplies the command's governing horizon.
+- 96:9 — Immediate introduction of the prohibiting figure is central to the command's conflict setting.
+- 87:1 — Positive F01/F03/F04 routes repeat name-and-Rabb alignment, but rank 1 already carries it.
+- 55:78 — Positive routes repeat the named-Rabb formula without a new function after earlier examples.
+- 96:14 — Immediate divine-seeing clause adds accountability to the local command/conflict sequence.
+- 96:7 — Immediate self-sufficiency clause defines the human reversal following the opening creation frame.
+- 96:19 — Immediate closing imperative provides the passage's decisive response to rival obedience.
+- 96:12 — Immediate alternative of command/taqwa sharpens the local contrast.
+- 96:13 — Immediate denial-and-turning-away clause completes the local contrary-response line.
+- 75:18 — Positive F04 route makes following a recitation a useful secondary response pattern.
+- 18:27 — Positive F01/F03/F04 routes combine recitation, book, and Rabb, but duplicate earlier direct cards.
+- 96:15 — Missing immediate continuation: the warning supplies the enforcement side of the passage's rival-obedience frame.
+- 75:16 — Direct recitation-sequence context; adds disciplined reception before the recitation clause already listed.
+- 75:17 — Directly joins collection and recitation, a close structural parallel to the focus command.
+- 75:19 — Completes the same recitation sequence with a distinct clarification/explication stage.
+- 87:6 — A direct make-recitation relation; it should accompany 87:1-2 already present.
+- 29:45 — Direct recitation-plus-revelation command gives a close action-and-authority parallel.
+- 27:92 — Explicit commanded Qur'an recitation provides a strong allegiance/obedience parallel.
+- 62:2 — Recitation, teaching, and book/wisdom occur together; a major omitted instruction frame.
+- 2:151 — Recitation and teaching are joined in a direct formative sequence.
+- 3:164 — Recitation, purification, and teaching extend the focus's Rabb-led formation reading.
+- 20:114 — Explicit Rabb-and-knowledge relation gives a concentrated support for the instruction strand.
+- 2:31 — A foundational teaching-of-names scene; it should supplement the knowing/formation reading.
+- 82:7 — Creator, formation, and proportion occur together; a close F02-type parallel.
+- 75:39 — Human creation and shaping form a compact direct parallel to the focus creation clause.
+- 23:14 — A staged creation/forming sequence culminates in creator language; materially relevant to F02.
+- 40:64 — Rabb, formation, and good form co-occur; a strong creator-nurturer parallel.
+- 64:3 — Creation and formation/proportion form a compact F02-type extension.
+- 56:57 — Direct challenge around creation should accompany 56:59, which is already included.
+- 35:3 — A direct creator-exclusive challenge gives a focused boundary around rival creative claims.
+- 39:62 — Universal creator statement is a clear F02 anchor omitted from the creation cluster.
+- 76:2 — Human creation is joined to testing and hearing/seeing, adding a distinct formative extension.
+- 7:11 — Creation followed by formation is a close F02-type structural parallel.
+- 73:4 — A direct Qur'an-recitation command supplies a clear secondary reading parallel.
+- 39:23 — Book/Qur'an characterization is relevant to the reading frame, though less command-like.
+- 59:24 — Creator/former naming supplies a high-level F02 support, though without the focus's command frame.
+- 2:21 — Pairs the Lord's name with creation and complements the listed next ayah.
+- 3:79 — Reading begins in the name of the Lord who creates, directly grounding learning in God.
+- 3:108 — Begins with the command to recite in the Lord's name, supplying a foundational source-oriented recitation frame.
+- 6:98 — Frames creation as central to the name of the Creator.
+- 6:155 — The command to read grounds engagement with revelation.
+- 13:5 — Affirms creation as measured forming, supporting the focus's new-creation reading.
+- 35:29 — It opens with the direct command to recite in the Lord's name.
+- 37:3 — It opens with a direct command to recite in the Lord's name.
+- 42:51 — The first command to recite is explicitly given in the name of the creating Lord.
+- 53:4 — Begins with commanded recitation in the Creator's name.
+- 53:10 — Begins a received recitation in the name of the Rabb, directly relevant to source-bound speech.
+- 68:52 — Begins the recitation-and-creation frame relevant to message delivery.
+- 73:5 — The opening command to recite grounds revelation in voiced reception and delivery.
+- 74:1 — Gives a direct inaugural command concerning recitation in the Lord's name.
+- 87:15 — Reading in the Lord's name clarifies a verbal God-directed mode, though not prayer.
+- 7:122 — Positive F01/F03/F04 routes give a distinct named-Rabb response, but it is less specific than rank 1.
+- 16:20 — Positive F02 and mixed F05 routes distinguish the creator frame from rival claims.
+- 56:96 — Exact repeat of rank 1 with positive routes, but adds little beyond that earlier anchor.
+- 52:35 — Positive F02 creation route and F05 contrast offer a focused boundary around creator claims.
+- 25:54 — Positive F02 route adds a human-creation extension after the closer local cards.
+- 96:17 — Immediate counter-summons develops the opposing-response sequence in the same passage.
+- 14:19 — Positive F02 route broadens creation into replacement; F05 remains mixed rather than decisive.
+- 38:71 — Positive F02 route supplies another human-creation scene, though it repeats established material.
+- 5:17 — Positive F02 and mixed F05 routes stage creator authority against a contrary claim.
+- 36:81 — Positive F02 route makes creator capacity explicit, with a mixed F05 parallel retained.
+- 45:36 — Positive F01/F03/F04 routes extend the Rabb frame, though at a general level.
+- 1:2 — Positive F01/F03/F04 routes give a compact Rabb frame, largely general after earlier anchors.
+- 55:2 — Positive F01 teaching route reinforces the instruction strand, with mixed evidence retained.
+- 96:18 — Immediate counter-call completes the passage's competing-authority sequence.
+- 54:10 — Positive F01/F03/F04 routes show a Rabb-directed appeal, a secondary response pattern.
+- 87:2 — Positive F02 route adds formed/proportioned creation, though the mixed route limits precision.
+- 26:199 — Positive F04 route joins recitation to refusal, while the F01 link remains mixed.
+- 15:86 — Positive F02/F03 routes bind creator and Rabb; mixed F05 is preserved as parallel evidence.
+- 50:1 — Positive F01 route adds a Qur'an-centered reading frame; F04 remains mixed.
+- 36:36 — Positive F02 route expands creation across paired domains, but repeats the broader frame.
+- 84:21 — Positive F01 route relates Qur'an recitation to non-response; F04 stays mixed.
+- 70:19 — Positive F02 route gives a human-creation characterization, secondary to the opening's direct clause.
+- 15:28 — Positive F02/F03 routes add a creator-Rabb human-origin scene; F05 is mixed.
+- 6:114 — Positive F03 route supplies a book-from-Rabb relation relevant to the command's authority.
+- 32:7 — Positive F02 route combines human origin with formed quality; it is now corroborative.
+- 4:119 — Positive F02 route makes alteration of creation a relevant counterpoint; mixed/provisional routes remain limited.
+- 55:3 — Direct human-creation repetition with positive F02 support, but substantially redundant after rank 14.
+- 79:44 — Positive F01/F03/F04 routes link an endpoint to Rabb; contribution is a secondary horizon.
+- 15:1 — Positive F01 routes provide a book/Qur'an frame, but are repetitive after recitation cards.
+- 35:16 — Creation/replacement is broad; the F02 contrast is boundary evidence, not positive support.
+- 37:96 — Positive F02 and mixed F05 routes extend creation to human action, a distinct secondary angle.
+- 53:49 — Positive Rabb routes offer a distinct object of lordship; the F03 contrast remains a boundary.
+- 88:17 — Creation reflection has positive F02 support but is redundant and partly mixed/provisional.
+- 100:6 — Positive F01/F03/F04 routes frame a contrary human response to Rabb; contrast routes retain the boundary.
+- 56:59 — Positive F02 route sharply contrasts human and divine creator claims; F05 remains mixed.
+- 56:77 — Positive F01 route names Qur'an, but adds little after earlier recitation/book cards.
+- 74:11 — Positive F02 route gives an individual creation scene; mixed/provisional evidence keeps it secondary.
+- 86:5 — Positive F02 route explicitly turns attention to human creation; mixed evidence is retained.
+- 2:282 — Positive F01/F04 routes join writing, teaching, and Rabb in a distinct inscription setting.
+- 2:32 — Knowledge is explicitly attributed to divine teaching; useful beside 2:31 but less direct.
+- 82:6 — Direct Rabb address frames the adjacent creation/forming statements in 82:7-8.
+- 82:8 — Completes the 82:7 formation sequence with differentiated composition.
+- 75:37 — Begins the nearby human-creation sequence that reaches 75:39.
+- 75:38 — Adds the intermediate created-and-proportioned stage before 75:39.
+- 55:4 — Teaching of expression extends the instruction thread after 55:2-3 already listed.
+- 73:20 — Further Qur'an recitation command; redundant with 73:4 but still relevant.
+- 17:106 — Recitation to people is explicitly linked to Qur'an's ordered delivery.
+- 7:204 — Sets the listener-side response when Qur'an is recited, complementing the command frame.
+- 16:98 — A conditional instruction for Qur'an recitation supplies a distinct practice context.
+- 2:121 — Book-recitation is explicit and should supplement 17:14 and 18:27.
+- 25:32 — Qur'an delivery and measured recitation add an ordered-recitation parallel.
+- 41:26 — A contrary response to Qur'an recitation is useful boundary evidence for F04.
+- 25:30 — Qur'an abandonment supplies a distinct contrary-response boundary.
+- 73:8 — Explicit mention of the Rabb's name extends the name-and-allegiance strand.
+- 76:25 — Repeated remembrance of the Rabb's name is a direct name-centered parallel.
+- 19:65 — Rabb, worship, steadfastness, and name occur together; useful for allegiance framing.
+- 17:110 — The divine-name frame is relevant, though it is less direct than the repeated بٱسْمِ رَبِّكَ cards.
+- 6:91 — Book, teaching, and prior ignorance form a useful secondary instruction parallel.
+- 4:113 — Divine teaching of book and wisdom strengthens the Rabb-led instruction reading.
+- 16:78 — Human emergence and bestowed faculties give a secondary formation/knowing extension.
+- 14:1 — A book sent by the Rabb supplies a direct authority-and-guidance setting.
+- 80:19 — Human material origin and proportion provide a compact formation parallel.
+- 77:20 — Human creation from a small source gives a secondary origin parallel.
+- 77:23 — The determined-measure stage adds the F02 measure component to the preceding creation sequence.
+- 91:7 — Creation and proportion of the self offer a distinct compact formation parallel.
+- 2:117 — Creation of the human being grounds the opening command in divine creative agency.
+- 3:58 — The opening command "اقرأ" supplies an origin-stage recitation parallel, though it lacks the focus's signs-and-remembrance terms.
+- 5:83 — The imperative to recite opens the proclamation dimension that 5:83 receives.
+- 6:118 — Frames speech and reading under the Lord's name as allegiance.
+- 10:15 — Adds recitation under the Lord's name, a compact source-side parallel.
+- 12:2 — Rabbin adıyla okuma buyruğu, 12:2'nin indirilen Kur'anın ilk alım ve tilavet eylemiyle bağını kurar.
+- 15:87 — İlk okuma buyruğu, 96:3 ile birlikte 15:87'nin tekrarlı okuma ve verilmişlik eksenini tamamlar.
+- 15:91 — Establishes recitation in the name of the creating Lord.
+- 16:4 — Frames human creation within recitation in the Creator's name.
+- 17:86 — The opening recitation command supports revelation as received instruction rather than personal production.
+- 18:1 — Commanded recitation marks the revelation's initial public transmission.
+- 19:67 — The opening command identifies God as Creator, supplying a general source-of-humanity premise.
+- 20:4 — Recitation in the name of the Creator connects response to revealed speech with divine creative authority.
+- 20:13 — The first command to read in the Lord's name provides a foundational counterpart to being commanded to hear revelation.
+- 20:38 — The command to read in the Creator's name presents revelation as the beginning of the messenger's commissioned reception.
+- 23:12 — Yaratan Rab adına okuma emri, yaratılışın bilgi ve hitap bağlamındaki çerçevesini verir.
+- 23:98 — Reading in the name of the creating Lord establishes a direct, orienting dependence on the Lord that grounds but does not repeat refuge.
+- 25:3 — Yaratmayı rablik temeli yapması, 25:3'ün yaratamayan ilahlar karşısındaki olumlu ölçütünü destekler.
+- 26:78 — Naming the Lord as creator supports the focus's creator attribution but adds no direction.
+- 27:30 — Rabbin adıyla okuma buyruğu, bir sözün veya metnin ilahi ad altında başlamasının temel vahiy paralelini verir.
+- 27:64 — Identifies God as the creator at the opening command to recite.
+- 28:45 — The opening command to recite in the Creator's name provides the foundational act of revealed proclamation.
+- 28:49 — The command to recite in the Creator's name grounds revelation in divine instruction.
+- 28:51 — The command to recite in the Creator's name establishes recitation as the inaugural form of revealed address.
+- 28:68 — Creation by the Lord gives a foundational creation frame, though no exclusive choosing is stated.
+- 32:8 — The creation command directly introduces the already-listed 96:2 human-creation statement.
+- 35:1 — The command to recite in the name of the creating Lord provides a broad creator parallel.
+- 37:11 — The opening command identifies the Lord as Creator, supplying the core divine-creation premise behind the focus question.
+- 37:125 — It names the Lord as Creator at the outset of revelation, supporting the focus's appeal to Allah's creative authority.
+- 43:3 — The opening command to recite in the Lord's name supplies a foundational recitation parallel.
+- 43:87 — Reading in the name of the Creator provides a direct orientation toward the source named in the focus.
+- 44:3 — It opens the revelatory command with recitation in the name of the creating Lord.
+- 68:4 — Creation as measure, alongside later overstepping, offers a secondary boundary for balanced disposition.
+- 69:38 — Commanded recitation directly supports the speech's transmission frame.
+- 70:39 — خلق and its f01/f02 routes support the creation frame, redundantly.
+- 71:14 — Creation is linked to measure and, secondarily, boundary-transgression in the f03 reading.
+- 72:1 — Establishes recitation under divine command, a broad but relevant source-to-voice parallel.
+- 76:1 — Names creation under the creator's name, supplying the theological frame for the nearby human-origin statement.
+- 76:23 — The initial command to read in the Creator's name provides a foundational recitation parallel, though it does not name Qur'anic descent.
+- 79:27 — Names God as Creator, supporting the basic agency claim without the cosmic comparison.
+- 81:24 — Begins the command to recite under the creator's authority.
+- 89:22 — Creator-Lordship supports the title, but not the eschatological display directly.
+- 90:4 — Creation and recitation link formed capacity with responsibility, but remain generic.
+- 113:1 — Commanded recitation in the Lord's name supports speech under divine authority.
+- 10:61 — Positive F01 route joins Qur'an recitation with Rabb-centered witnessing, a distinct accountability extension.
+- 26:137 — A positive F02 route is retained, while the F05 contrast marks a boundary; contribution remains indirect.
+- 28:85 — Qur'an and Rabb co-occur, but there is no exact route and the connection is secondary.
+- 2:228 — Creation occurs in a legal-bodily setting with no exact route; only a remote extension.
+- 21:33 — Cosmic creation is present but lacks an exact route and adds little after stronger creation cards.
+- 25:59 — Positive F02 route is broad cosmic creation and adds little beyond earlier specific cards.
+- 2:29 — Only mixed F02 evidence supports a broad creation scene; no distinct gain.
+- 31:11 — Mixed F05 route offers a rival-creation challenge, but its relation to the focus remains indirect.
+- 46:33 — Positive F02 creator-capacity route is broad and redundant; F05 is mixed.
+- 17:99 — Positive F02 route repeats creator capacity at a broad scale.
+- 49:11 — Name-related F01/F04 routes occur in a social-label setting; mixed links limit the extension.
+- 32:4 — Positive F02 and mixed F05 repeat broad cosmic creation without a new reading function.
+- 6:73 — Positive F02 creator route is broad; mixed F05 does not make it specific to the focus.
+- 78:36 — Positive F03 route gives a Rabb-related recompense frame, but it is remote from the opening command.
+- 36:79 — Origin and return appear without an exact route; it adds no distinct route to the focus.
+- 6:117 — Positive F03 route links Rabb with knowing guidance, a limited secondary support.
+- 20:49 — Mixed F01/F03/F04 evidence preserves a question about Rabb, but gives only weak support.
+- 31:28 — Positive F02 and mixed F05 support creator capacity, while the F02 contrast is only boundary evidence.
+- 3:190 — Mixed F02 creation-as-signs evidence is broad and redundant.
+- 10:10 — Mixed F03 route gives a Rabb formula but no distinct command or creation link.
+- 17:46 — Qur'an and Rabb co-occur without an exact route; the response setting is only loosely related.
+- 16:3 — Positive F02 route provides a broad creation-in-truth frame, now redundant.
+- 38:1 — Positive F01 route gives a Qur'an/remembrance frame, secondary after prior recitation evidence.
+- 39:4 — Positive F02 and mixed F05 routes concern divine creation, but only indirectly extend the focus.
+- 23:86 — Positive F01/F03/F04 routes repeat Rabb authority; mixed routes and redundancy lower its value.
+- 29:19 — Positive F02 route repeats origination/return without a new command or reading relation.
+- 39:71 — Recitation of Rabb's ayat appears without an exact route; it is a remote response setting.
+- 4:1 — Shared-origin creation is relevant but substantially broader than the direct human-formation cards.
+- 30:30 — Creation/alteration boundary evidence is relevant after 4:119, but indirect.
+- 3:3 — It begins with recitation in the name of the creating Lord.
+- 13:1 — Recitation in the Lord's name lacks the book, truth, and reception elements needed here.
+- 16:125 — Adds knowledge through reading, a broad wisdom background.
+- 17:49 — Generic creation establishes origin but does not address dissolution or return.
+- 21:104 — The command recalling God as creator supplies only the most general origin motif.
+- 22:28 — Reading in the Creator's name provides a general parallel to invoking God's name, without the focus's provision context.
+- 22:73 — Creation named at the opening of revelation is only a broad premise.
+- 27:26 — Creation by the Lord gives the foundational dependence behind the focus, but no specific throne or political dimension.
+- 29:17 — God as creator is distant background to the focus's contrast with fabricated falsehood.
+- 35:17 — The command to read in the name of the Creator gives a broad creation parallel.
+- 36:42 — Creation by the Lord gives a broad source-of-creation link, without vehicles or riding.
+- 41:3 — The imperative to recite supplies a distant articulated-delivery parallel.
+- 42:49 — Creation by the Lord's name supports divine creative agency but not the specific offspring allotment.
+- 44:38 — Creation language begins the revelation but does not specify cosmic purpose.
+- 50:15 — Creation supplies a broad framing for the command to read, not a renewal or confusion account.
+- 53:27 — Reading in the divine name is only a broad naming-authority contrast.
+- 53:45 — Generic measured creation adds little after the direct sexed-creation cards.
+- 54:17 — The opening recitation command is a general delivery parallel.
+- 55:14 — Links creating to proclamation, without human material detail.
+- 92:3 — Creation is invoked generally without a paired or sexed dimension.
+- 113:2 — Generic creative attribution is redundant after the human-origin card.

@@ -35,6 +35,12 @@ Known answers are in `eval/` — never put `eval/` or this file into a model's i
   (so 29:41's ٱللَّهِ shows و ل ه's four branches); write.md allows quoting usage.md's branch lines. HFT predates the
   four roots and cannot cite them.
 
+- quran-data `ae9e79c54` adds a reviewed alternative for ٱللَّه (و ل ه B001, Tahdhīb). Found: V11's prep builds
+  `01_dictionary.md` once and never refreshes it, so v12 was reading dictionary input frozen at its first build; v12 now
+  rebuilds it into its work folder at every prep (1:2 38.7 → 42.8 KB with و ل ه). All work folders rebuilt.
+- root-dossier: spelling-twin lookup table (11 merged envelopes, 20 duplicate branches), weak-letter minor roots
+  labelled, usage.md shows the dispute note and points to 01_dictionary.md for reviewed alternatives.
+
 ## Next
 1. Micro run, two arms (the user runs Luna; root-dossier RUNBOOK), then score both.
 2. S29 probe (needs the user's go), usage on and off.

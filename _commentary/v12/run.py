@@ -206,7 +206,8 @@ def prep(ref: str) -> dict:
 def evidence(ref: str) -> list[Path]:
     p = paths(ref)
     dig = p["in"] / "digest_v2.md" if USAGE and (p["in"] / "digest_v2.md").exists() else p["v9w"] / "digest_v2.md"
-    files = [p["v9w"] / "context.md", p["pkg"] / "01_dictionary.md", dig]
+    dic = p["in"] / "01_dictionary.md" if (p["in"] / "01_dictionary.md").exists() else p["pkg"] / "01_dictionary.md"
+    files = [p["v9w"] / "context.md", dic, dig]
     names = ("usage.md", "hft.md", "channels.md", "neighbours.md") if USAGE else ("hft.md", "channels.md", "neighbours.md")
     files += [p["in"] / n for n in names if (p["in"] / n).exists()]
     return files

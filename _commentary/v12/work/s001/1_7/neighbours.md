@@ -155,3 +155,9 @@ Cite a branch as `root Bnnn`, e.g. `ر ب ب B007`; its Arabic may be quoted wit
 - B005 kişide görünen yerleşik güzellik ve zarafet | حسن عليه أثر الجمال | فلانة ذات ميسم إذا كان عليها أثر الجمال، والوسامة الجمال (maqayis)
 - B006 yaprakları boya olarak kullanılan bitki | وسمة يخضب بورقها | الوسم والوسمة الواحدة شجرة ورقها خضاب (ayn
 
+### و ل ه ~alt — 1:1 w2 ٱللَّهِ; 1:2 w2 لِلَّهِ
+- B001 yoğun duyguyla aklın karışması ve özlemle yanıp tutuşma | الوَلَه والحيرة | أصل صحيح يدل على اضطراب شيء أو ذهابه (maqayis)
+- B002 anneyi yavrusundan ayırıp özleme düşürme | تَوْلِيه الوالدة عن ولدها | التوليه أن يفرق بين المرأة وولدها (maqayis
+- B003 çöle salınıp kaybolan su veya suyu kaybolan kaynak | ماء مُولَه ذاهب | عين مولهة إذا أرسل ماؤها فذهب في الصحارى (maqayis)
+- B004 örümcek adı | المُولَه العنكبوت | قال والمُولَه العنكبوت (sihah)
+

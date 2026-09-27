@@ -856,3 +856,9 @@ Cite a branch as `root Bnnn`, e.g. `ر ب ب B007`; its Arabic may be quoted wit
 - B012 bir şeyi başkasına verme veya yüzüstü bırakma | تسليم الشيء وتخليته | سلمت إليه الشيء فتسلمه أي أخذه وأسلمه أي خذله (sihah)
 - B013 birini tutsak almak | أخذه سلما أي أسره | أخذه سلما أي أسره (ayn)
 
+### و ل ه ~alt — 29:36 w8 ٱللَّهَ; 29:40 w23 ٱللَّهُ; 29:41 w6 ٱللَّهِ; 29:42 w2 ٱللَّهَ; 29:44 w2 ٱللَّهُ; 29:45 w16 ٱللَّهِ; 29:45 w18 وَٱللَّهُ
+- B001 yoğun duyguyla aklın karışması ve özlemle yanıp tutuşma | الوَلَه والحيرة | أصل صحيح يدل على اضطراب شيء أو ذهابه (maqayis)
+- B002 anneyi yavrusundan ayırıp özleme düşürme | تَوْلِيه الوالدة عن ولدها | التوليه أن يفرق بين المرأة وولدها (maqayis
+- B003 çöle salınıp kaybolan su veya suyu kaybolan kaynak | ماء مُولَه ذاهب | عين مولهة إذا أرسل ماؤها فذهب في الصحارى (maqayis)
+- B004 örümcek adı | المُولَه العنكبوت | قال والمُولَه العنكبوت (sihah)
+
