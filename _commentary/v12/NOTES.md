@@ -46,7 +46,31 @@ Known answers are in `eval/` — never put `eval/` or this file into a model's i
 - One package per root (user decision): every occurrence in one grouping session; micro run = 7 sessions per arm plus
   repairs. Work folders rebuilt (reviewed alternatives in 01_dictionary.md).
 
+## 2026-09-27 (evening): first real Luna run — 10-root test (IN PROGRESS)
+- Run: `cd /Volumes/OZTURK/_projects/root-dossier && python3 run.py all --list lists/test10.txt --parallel 10`
+  (plain arm only; started 22:33; log `logs/test10.run.log`; outputs in `out/`, NOT yet committed). Roots: the micro
+  seven (ح م ء, ن ف خ, ر ب ب, ص ل و, ع ر ش, و س م, و ل ه) + Fātiḥa ع و ن, غ ض ب, ص ر ط. The run started with the old
+  code (one automatic retry, two repairs); the rules changed during it (below).
+- 9 of 10 done by 22:42 (no failures, no salvage; repairs only for و ل ه and ص ر ط). ر ب ب (980 occurrences, one
+  321 KB package) still running at 23:20: Luna builds a Python classifier over quran.txt (regex for رب forms, own
+  word numbering skipping pause marks, rule groups such as "cosmos" = rabb al-ʿālamīn, hand cases for Yūsuf's master
+  12:23/12:41/12:42/12:50); read nothing outside its folder.
+- Score (`python3 _commentary/v12/eval/score_dossiers.py`): 0 mixed groups; all expected branches; both repeated
+  phrases recorded; ḥamaʾ records the variant ḥāmiya; Luna split 18:42 (garden on trellises, B003) from the towns on
+  their roofs, which corrected the answer key.
+- Fragmentation (groups ≈ one per ayah: ص ر ط 34/45, ص ل و 52/99, غ ض ب 17/24, ع و ن 10/11): user decision — keep
+  (avoid over-consolidation); check ر ب ب's result for it.
+- Fixed after the run (future runs only): minor-lemma `b` = the branch the disputed derivation draws on, lemma copied
+  exactly (و ل ه's first answer used `none` and transliterated lemmas; its repair set B001 but kept a contradicting
+  note); repairs keep unflagged minor b/note; lint flags only "reveals that/how" ("revealed" cost ص ر ط a repair).
+- User rules (memory `no-reruns`): never rerun a failed session or run (report instead); at most one repair session
+  (root-dossier REPAIRS = 1, no session retry; v12 one tag-repair call). Examples in prompts never from test roots.
+- When ر ب ب finishes: check its status (repairs, salvage, residual, id mismatches from its own numbering), its
+  groups (constructions vs stated contexts; fragmentation; the rabb classes in known_dossiers.json), rescore, read
+  usage.md for 1:2, 1:5, 1:6, 1:7, then commit root-dossier `out/` + `lists/test10.txt` and write the user one short
+  summary (what works, what to fix). If it failed: report, do not rerun.
+
 ## Next
-1. Micro run, two arms, 7 roots each (the user runs Luna; root-dossier RUNBOOK), then score both.
+1. Finish the 10-root test (above): summary to the user; the word-analysis arm only if the user asks.
 2. S29 probe (needs the user's go), usage on and off.
 3. Pilot (54 roots), then S1 in full with the surah pass.

@@ -77,8 +77,8 @@ rewritten descriptive and stub-tested end to end (grouping → repair → assign
 
 ## Remaining work, in order
 
-1. Micro run (user) → `python3 _commentary/v12/eval/score_dossiers.py` on `out/final` and `out-wa/final`; read the
-   `KEY.md` pages; decide the word-analysis arm; adjust prompts if labels interpret or groups mix.
+1. The 10-root test run is in progress (NOTES.md, 2026-09-27 evening): finish its review and summary; then decide
+   the word-analysis arm and the next list.
 2. Pilot (54 roots), then all roots.
 3. v12 test runs (each needs the user's go): the S29 probe (usage on/off); S1 in full plus the surah pass, then an Opus
    judge and the user's blind read against v11 and v5 (`_commentary/v11/eval/s001_anchors.md`); S100 if S1 passes.
