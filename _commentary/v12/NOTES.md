@@ -38,4 +38,4 @@ Known answers are in `eval/` — never put `eval/` or this file into a model's i
 ## Next
 1. Micro run, two arms (the user runs Luna; root-dossier RUNBOOK), then score both.
 2. S29 probe (needs the user's go), usage on and off.
-3. Pilot (51 roots), then S1 in full with the surah pass.
+3. Pilot (54 roots), then S1 in full with the surah pass.

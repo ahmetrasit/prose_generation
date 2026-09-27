@@ -82,7 +82,7 @@ rewritten descriptive and stub-tested end to end (grouping → repair → assign
 
 1. Micro run (user) → `python3 _commentary/v12/eval/score_dossiers.py` on `out/final` and `out-wa/final`; read the
    `KEY.md` pages; decide the word-analysis arm; adjust prompts if labels interpret or groups mix.
-2. Pilot (51 roots), then all roots.
+2. Pilot (54 roots), then all roots.
 3. v12 test runs (each needs the user's go): the S29 probe (usage on/off); S1 in full plus the surah pass, then an Opus
    judge and the user's blind read against v11 and v5 (`_commentary/v11/eval/s001_anchors.md`); S100 if S1 passes.
 4. Not built: a whole-surah map for long surahs (the surah pass runs per passage window); production through the
