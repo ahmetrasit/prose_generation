@@ -1,0 +1,208 @@
+# reciprocal.md — earlier GPT reviews' related passages for 1:2 (incomplete, sometimes misleading)
+
+- 37:182 (strong): Exact wording; frames praise as the closing assessment of a completed divine sequence.
+- 19:65 (medium): Adds worshipful endurance and incomparability to the Lord relation.
+- 6:45 (strong): Places the exact praise after the removal of wrongdoing, giving it a consequential setting.
+- 45:36 (strong): Expands praise and lordship across heaven, earth, and all worlds.
+- 1:3 (strong): Immediately qualifies the Lord named in 1:2 through sustained mercy.
+- 7:61 (medium): Connects Lord-of-worlds language with prophetic commission and authority.
+- 10:10 (medium): Reuses the exact praise as a terminal communal utterance in a secure setting.
+- 1:1 (strong): Supplies the opening divine naming and mercy frame directly before 1:2.
+- 18:27 (medium): Links the Lord relation to enduring revealed speech and reliance.
+- 40:65 (medium): Joins the exact praise to exclusive devotion and invocation.
+- 24:7 (no value): Does not materially illuminate praise, lordship, or worlds in 1:2.
+- 20:49 (medium): Makes lordship an explicit question of authority and identification.
+- 39:75 (medium): Places the exact praise in a judgment scene with ordered praise.
+- 1:4 (strong): Directly continues the description of divine rule into final accountability.
+- 106:3 (strong): Connects the Lord title with directed worship and a concrete communal locus.
+- 18:1 (medium): Associates praise with the gift of a protected, unbent book.
+- 1:7 (strong): Completes the immediate orientation and contrary-outcome context of the opening.
+- 7:80 (no value): The worlds term alone adds no clear route to the focus reading.
+- 26:192 (medium): Connects the Lord of worlds to the source of revelation.
+- 24:9 (no value): Does not materially illuminate praise, lordship, or worlds in 1:2.
+- 14:7 (weak): Offers a conditional gratitude-and-response pattern, but only indirectly.
+- 56:80 (medium): Reinforces revelation as coming from the Lord of worlds.
+- 1:5 (strong): Directly develops the response of worship and dependence to the named Lord.
+- 18:50 (weak): Adds an obedience-versus-rebellion setting without sharpening 1:2 itself.
+- 69:43 (medium): Repeats the revelation-source relation of the Lord of worlds.
+- 1:6 (strong): Directly continues the opening with a request for guided direction.
+- 92:20 (medium): Connects seeking the highest Lord with purified action and motive.
+- 26:77 (medium): Contrasts hostile objects with the exclusive Lord of worlds.
+- 8:53 (weak): Offers only channel-level resonance with benefaction and change.
+- 14:39 (medium): Shows praise as a response to a received gift and heard supplication.
+- 26:98 (medium): Defines error through falsely leveling others with the Lord of worlds.
+- 106:4 (strong): Supplies the provision and security context for the preceding worship command.
+- 32:15 (medium): Joins praise of the Lord with humility and embodied submission.
+- 6:162 (medium): Extends the Lord-of-worlds relation over worship, life, and death.
+- 95:8 (weak): Suggests judgment authority but has no close focus route.
+- 30:18 (weak): Adds a broad praise setting but little beyond earlier praise cards.
+- 27:59 (medium): Sets praise beside the contrast with association of others.
+- 83:22 (no value): The favorable state does not clearly connect to 1:2.
+- 44:20 (medium): Adds a refuge dimension to the shared Lord relation.
+- 35:34 (medium): Shows praise after grief is removed, with a responsive Lord relation.
+- 83:11 (no value): Does not materially illuminate praise, lordship, or worlds in 1:2.
+- 68:52 (weak): The worlds term contributes only a broad, indirect scope.
+- 34:1 (medium): Extends praise across heaven, earth, and the later life.
+- 109:6 (weak): Provides a boundary of distinct worship, only indirectly related to 1:2.
+- 100:6 (strong): Supplies a contrary reading: ingratitude breaks the relation to one's Lord.
+- 26:23 (medium): Makes the Lord-of-worlds title the subject of a defining challenge.
+- 94:8 (medium): Directs desire toward the Lord after a sequence of relief and formation.
+- 100:11 (medium): Adds the Lord's informed awareness of the inward response to benefaction.
+- 23:28 (medium): Shows praise as the response to rescue from a wrongful group.
+- 68:9 (no value): Does not materially illuminate praise, lordship, or worlds in 1:2.
+- 34:6 (weak): Links revealed truth and guidance to a praised path, but indirectly.
+- 39:74 (medium): Shows praise as the response to a fulfilled promise and inheritance.
+- 109:2 (weak): Adds a worship boundary but is less specific than earlier related cards.
+- 53:5 (weak): Offers recognition through teaching, without a close link to 1:2.
+- 27:93 (medium): Connects praise with recognition of signs and the Lord's awareness of deeds.
+- 109:3 (no value): Repeats the worship boundary without adding a new focus relation.
+- 64:1 (medium): Associates praise with exclusive dominion and universal capacity.
+- 27:44 (medium): Places submission to the Lord of worlds after self-recognition.
+- 109:4 (no value): Repeats the worship boundary without adding a new focus relation.
+- 78:36 (medium): Presents the Lord as giver within a completed recompense setting.
+- 6:1 (medium): Links praise to creation and warns against treating the Lord as an equal.
+- 109:5 (no value): Repeats the worship boundary without adding a new focus relation.
+- 3:188 (medium): Supplies a boundary case between deserved praise and false acclaim.
+- 39:29 (medium): Uses competing masters to clarify why praise belongs to God alone.
+- 68:2 (medium): Presents the Lord's favor as preserving discernment against accusation.
+- 26:48 (weak): Names a specific prophetic Lord relation already developed elsewhere.
+- 17:111 (strong): Clarifies praise through the removal of offspring, partnership, and dependent aid.
+- 73:9 (medium): Joins exclusive deity, cosmic lordship, and taking God as guardian.
+- 37:41 (weak): The allotted provision has only an indirect focus relation.
+- 16:75 (medium): Contrasts incapacity and provision before directing praise to God.
+- 93:11 (strong): Makes the Lord's benefaction the explicit subject of public mention.
+- 37:79 (no value): The worlds term alone adds no clear route to the focus reading.
+- 31:25 (medium): Moves from acknowledging creation to praise and consequential knowledge.
+- 93:3 (strong): Makes non-abandonment a concrete expression of continuing lordly care.
+- 56:74 (medium): Calls for magnifying the Lord after signs of dependent provision.
+- 27:15 (medium): Shows received knowledge returning as praise rather than self-exaltation.
+- 93:5 (medium): Adds a future giving phase to the continuing care relation.
+- 78:4 (weak): Offers future recognition but little direct connection to 1:2.
+- 35:1 (medium): Grounds praise in creation and the ordered dispatch of messengers.
+- 100:3 (no value): Does not materially illuminate praise, lordship, or worlds in 1:2.
+- 7:122 (weak): Repeats the specific Moses-and-Haron Lord identification.
+- 29:63 (medium): Links praise to acknowledged life-giving provision and incomplete reasoning.
+- 69:52 (medium): Calls for magnifying the great Lord after revelation and judgment.
+- 26:47 (medium): Shows belief in the Lord of worlds as recognition after a failed rival explanation.
+- 7:43 (medium): Combines praise, guidance, prophetic truth, and a received garden outcome.
+- 92:19 (weak): Provides a non-transactional benefaction context only indirectly.
+- 37:5 (medium): Expands lordship across heavens, earth, their interval, and the eastward horizons.
+- 15:98 (medium): Joins praise of the Lord with glorification and prostration under pressure.
+- 109:1 (no value): Does not materially illuminate praise, lordship, or worlds in 1:2.
+- 37:164 (weak): The ordered stations add only a distant relation to the focus.
+- 6:71 (medium): Connects submission to the Lord of worlds with guidance versus reversal.
+- 27:42 (weak): Adds cautious recognition but no close praise or lordship relation.
+- 16:19 (no value): Does not materially illuminate praise, lordship, or worlds in 1:2.
+- 2:5 (weak): Links guidance from the Lord to success, but remains indirect.
+- 37:4 (medium): Supplies exclusive divine unity as a boundary for the Lord-of-worlds claim.
+- 23:117 (medium): Rejects rival deities and places final accounting before one's Lord.
+- 71:28 (weak): Offers a prayer to the Lord without sharpening the focus formulation.
+- 79:44 (medium): Places the final endpoint and its governance with the Lord.
+- 2:98 (no value): Does not materially illuminate praise, lordship, or worlds in 1:2.
+- 23:72 (medium): Connects the Lord's provision with a message independent of human payment.
+- 2:131 (strong): Directly pairs submission with the Lord of worlds.
+- 5:28 (medium): Adds fear of God within an explicit Lord-of-worlds confession.
+- 7:67 (medium): Reinforces prophetic commission from the Lord of worlds.
+- 7:104 (medium): Adds Moses' explicit commission from the Lord of worlds.
+- 26:16 (medium): Adds a joint prophetic mission from the Lord of worlds.
+- 26:109 (weak): Adds a repeated refusal of human payment before the Lord-of-worlds relation.
+- 26:127 (weak): Adds a repeated refusal of human payment before the Lord-of-worlds relation.
+- 26:145 (weak): Adds a repeated refusal of human payment before the Lord-of-worlds relation.
+- 26:164 (weak): Adds a repeated refusal of human payment before the Lord-of-worlds relation.
+- 26:180 (weak): Adds a repeated refusal of human payment before the Lord-of-worlds relation.
+- 27:8 (medium): Joins glorification of God with the Lord-of-worlds formula.
+- 28:30 (strong): Provides a direct divine self-identification as the Lord of worlds.
+- 32:2 (strong): Directly connects the book's descent with the Lord of worlds.
+- 41:9 (medium): Links the Lord-of-worlds title with creation of the earth.
+- 43:46 (medium): Reinforces Moses' mission from the Lord of worlds.
+- 81:29 (medium): Links human willing to the will of the Lord of worlds.
+- 83:6 (strong): Places all people before the Lord of worlds in final standing.
+- 2:139 (reverse:medium): Universal Lordship supports the refusal to restrict God to one party.
+- 3:51 (reverse:medium): Rabbin evrenselliği, 3:51'deki ortak Rablik zeminini genişletir.
+- 3:63 (reverse:no value): Allah'a hamd, odak ayetin ozel anlamina yeterli katkı vermez.
+- 3:79 (reverse:medium): Names God as Lord of all worlds, the lordship toward which the rabbaniyyun are oriented.
+- 4:131 (reverse:medium): Praise of Allah as Lord of all worlds supports the hamid conclusion at a broad level.
+- 7:125 (reverse:medium): V12 grounds the universal Rabb title, but remains general compared with direct narrative evidence.
+- 9:27 (reverse:no value): Provides a broad lordship frame but no focused incremental value.
+- 9:31 (reverse:medium): The title Rabb supplies a basic f01 frame for devotion and authority.
+- 9:108 (reverse:no value): No retained route gives this praise formula a focus-specific contribution.
+- 9:112 (reverse:weak): Provides the praise formula but is redundant beside more developed praise evidence.
+- 10:20 (reverse:no value): Does not add to the focus exchange.
+- 14:8 (reverse:medium): Universal hamd supplies the broad praise pole of hamid, without the kufr contrast.
+- 15:87 (reverse:medium): Fatiha bütünündeki bu ayet, yedili tekrar rotasının ilk iç bağını verir; tek başına gönderimi belirlemez.
+- 17:79 (reverse:weak): Names divine praise broadly but does not define the focus's praised station.
+- 18:38 (reverse:weak): God's universal lordship supplies a broad theological basis for calling Him my Lord.
+- 18:40 (reverse:weak): Rab sıfatı, 18:40'ta bahçeyi alıp daha iyisini verme yetkisinin genel kaynağını hatırlatır.
+- 18:82 (reverse:weak): Calling God Lord broadly supports the focus's attribution of the action to the Lord's will.
+- 18:87 (reverse:no value): The universal lordship formula alone does not illuminate the focused punishment.
+- 18:95 (reverse:no value): God's lordship over all worlds does not specifically illuminate the focus.
+- 18:109 (reverse:weak): Names God as Lord, the possessor of the words in the focus, without developing their boundlessness.
+- 19:36 (reverse:weak): The title Lord of the worlds is foundational but too general after direct formula matches.
+- 21:32 (reverse:no value): General praise of the Lord of the worlds adds no marginal detail.
+- 21:56 (reverse:weak): The Lord-of-the-worlds title gives broad support to the focus's use of Rabb, but adds little specificity.
+- 23:93 (reverse:no value): The universal title of Lord does not by itself clarify the focus's conditional request.
+- 23:98 (reverse:medium): The Lord of all worlds establishes the sustaining sovereign to whom the focus directs its personal request.
+- 25:77 (reverse:weak): The Lordship formula establishes the addressee's authority but does not develop calling or denial's consequence.
+- 26:117 (reverse:weak): The title Lord of the worlds supplies only the general addressee of Noah's appeal.
+- 26:165 (reverse:weak): The Lord-of-the-worlds formula gives only a generic universal frame.
+- 26:188 (reverse:weak): The universal Lordship title supplies only the broad authority underlying the focus.
+- 27:26 (reverse:weak): Lord of all worlds supplies the broad lordship title already made more concrete by the throne passages.
+- 28:70 (reverse:strong): Praise belongs to God as Lord of all worlds, establishing the focus's praise in universal sovereignty.
+- 29:50 (reverse:no value): The general praise of God as Lord does not materially clarify the demand for signs or the messenger's task.
+- 31:26 (reverse:medium): Praise to the Lord of all worlds gives a concise universal frame for al-Hamid.
+- 36:25 (reverse:strong): The Lord of all worlds supplies the universal lordship invoked by the speaker's "your Lord."
+- 37:87 (reverse:medium): It supplies the core positive designation, praise of Allah as Lord of all worlds, though the formula is already well represented.
+- 37:149 (reverse:weak): God's lordship provides only the broad theological frame for rejecting a false kinship attribution.
+- 38:61 (reverse:no value): The Lordship formula alone does not clarify the focus's punitive accountability.
+- 38:66 (reverse:medium): Lordship of all worlds supplies the broadest domain for the focus verse's cosmic Lordship.
+- 38:79 (reverse:weak): The title Lord of the worlds broadly names the authority Iblis addresses.
+- 39:31 (reverse:medium): Calling God Lord of all worlds establishes the comprehensive lordship before which the focus places all parties.
+- 39:69 (reverse:weak): The shared designation of God as Lord is too general to clarify the final court scene.
+- 43:14 (reverse:medium): Lord of all worlds gives the title in the focus its universal scope.
+- 46:25 (reverse:no value): No specific addition to the event, agency, or visible aftermath.
+- 50:4 (reverse:weak): The retained identifying-mark reading is a very broad, secondary parallel only.
+- 51:34 (reverse:weak): Provides only the general Rabb authority frame.
+- 51:44 (reverse:weak): Shared رب vocabulary alone does not clarify the event.
+- 52:37 (reverse:weak): Broad Rabb framing; adds little after the direct authority parallels.
+- 52:48 (reverse:medium): States praise directed to the Lord of all worlds.
+- 53:42 (reverse:medium): Supplies the broad nurturing and governing scope of Rabb, not a distinct endpoint.
+- 53:49 (reverse:strong): Lord-of-the-worlds supplies the broadest direct frame for calling the named star a creature's Lord.
+- 55:17 (reverse:medium): Provides the broad Lord-of-worlds frame, though it is less specific than the horizon cards.
+- 55:27 (reverse:medium): Generic رب العالمين supports the رب title but does not specify وجه or بقاء.
+- 55:32 (reverse:medium): Universal lordship supplies a broad source-and-care frame, but not the focus's local challenge.
+- 55:34 (reverse:medium): Exact-route reading supplies governing care and obligation as a background for the address to both groups.
+- 55:46 (reverse:weak): Supplies a broad Lordship relation, but adds little beyond the focus's direct wording.
+- 55:78 (reverse:medium): Rabb and praise support care and authority, though the evidence is now redundant.
+- 64:4 (reverse:no value): The auxiliary mixed reading supplies no localized parallel.
+- 70:3 (reverse:weak): General lordship supports the source frame only at a very broad level.
+- 74:3 (reverse:medium): Rabb al-alamin gives the foundational, universal scope of the title in 74:3.
+- 74:7 (reverse:medium): Broad Lordship framing supports the addressee's Lord-directed posture, indirectly.
+- 74:31 (reverse:medium): Names God as Lord of all worlds, supporting the scope of the Lord whose forces are beyond human knowledge.
+- 75:30 (reverse:weak): Provides the general Lordship frame, not a specific account of the final conveyance.
+- 78:37 (reverse:medium): Rabb of all worlds supports the comprehensive lordship named in 78:37.
+- 78:39 (reverse:medium): Provides broad Lordship context for the destination named in the focus.
+- 79:19 (reverse:strong): Its Lordship language supplies the broad frame of sustaining and governing authority to which 79:19 directs.
+- 79:24 (reverse:medium): Names Allah Rabb al-alamin, a foundational counterpoint to Pharaoh's claimed lordship over an audience.
+- 83:15 (reverse:medium): The title رب العالمين supplies a broad authority frame already narrowed by earlier cards.
+- 84:5 (reverse:no value): Generic lordship adds no distinct route after stronger lordship cards.
+- 84:23 (reverse:no value): f02 mixed route through b001, but no focused retention or disclosure evidence.
+- 85:8 (reverse:weak): The foundational الحمد is relevant to the name but substantially redundant after the closer praise cards.
+- 85:12 (reverse:medium): Universal Lordship establishes authority, though it is more general than the judgment context.
+- 85:15 (reverse:medium): Praise of the universal Lord broadly supports the attribute frame.
+- 87:1 (reverse:strong): Praise to the Lord of all realms supplies a foundational reading of lordship as comprehensive care.
+- 88:8 (reverse:weak): General sustaining lordship is a distant background for received favor.
+- 89:14 (reverse:weak): States broad lordship without adding a surveillance or accounting feature.
+- 89:22 (reverse:medium): Supplies the broad Lordship frame behind the possessive title in 89:22.
+- 89:28 (reverse:weak): Rabb of all worlds is foundational but adds no distinct relation after prior Rabb parallels.
+- 96:1 (reverse:medium): Positive F01/F03/F04 routes give a compact Rabb frame, largely general after earlier anchors.
+- 96:3 (reverse:medium): The Lord of all realms supplies a foundational nurture and allegiance frame.
+- 96:4 (reverse:medium): Positive route supports lordship as preserving distinctions and enabling orientation.
+- 97:4 (reverse:weak): رَبِّ ٱلْعَٰلَمِينَ is a broad, already-supported Rabb frame.
+- 99:5 (reverse:medium): يثبت ربوبية الله للعالمين على وجه عام.
+- 100:4 (reverse:no value): Branch material concerns provision, not the dust-raising event.
+- 102:3 (reverse:no value): The V12 sign-and-guidance route is indirect and adds no warning sequence.
+- 102:4 (reverse:no value): Contrast-only route; the designation does not clarify 102:4.
+- 108:2 (reverse:weak): Hamdu li-llah, rabb al-alamin supports praise but is already broadly represented.
+- 110:3 (reverse:strong): Supplies the foundational praise-to-God-as-Lord formulation underlying the command's praise.
+- 112:2 (reverse:weak): Lordship praise is adjacent but not specific to the focus.
+- 114:1 (reverse:strong): Rabliği aşamalı bakım, yön buldurma, yönetim ve bağlılık ilişkisi olarak açar.

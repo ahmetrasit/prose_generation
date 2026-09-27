@@ -132,3 +132,27 @@ Batch caching is best effort. Thinking may grow with the larger step-1 input.
   and nafakha); Luna as a nominator; per-ayah chain verdicts; the reject list.
 - Deferred: the per-lemma-and-form word-analysis summaries (use the current word notes until ready); the Batch API
   runner (built before production, possibly before the test); English and German; audio; the gloss product.
+
+## 8. Changes after the Opus design review (2026-09-27, before the first run)
+- Known-answer leak removed from the step-1 and network briefs (a well completed by its rope and pulley, the road's
+  way-marks and traveller, the traveller kept alive by water: S1 gold chains); the v10 phrase "a well, a support …" in
+  the prose brief made neutral.
+- Step 1 (`prompts/act.md`): `image:` (the concrete picture) replaces `shows:` (no payoff test during discovery);
+  kinds `fragment`, `loss`, `grammar` added; a `memory:` field; records limited to findings in which a focus word takes
+  part (partners elsewhere by reference), so the ayat of a window do not each rediscover the surah's chains.
+- Step N (`prompts/net.md`) gets the window scan and matures images (members added from the scan, marked `N-added`);
+  every unabsorbed finding is listed (`unplaced`), and each image carries a disclosure plan (meet / develop / assemble)
+  for the ayah commentaries.
+- Step 2 (`prompts/qeq.md`) annotates findings, never whole images; "no open staging" is never a contradiction; it gets
+  the V11 digest (variant readings, related passages) and the concordance besides the reciprocal list.
+- Step 3 gets the focus dictionary (for what Turkish loses) besides the cited branch lines.
+- Sizes: the focus dictionary is one line per branch with its definition (`branch_table`; the fuller
+  `section_dictionary` is 3× larger); the scan is gloss and image only; pairs keep `root Bnnn ← where` (the scan has
+  their glosses). 18:96's step-1 input fell from 594 KB to 350 KB (estimate $4.84).
+- Caching: the first ayah of a window starts alone, the rest 60 s later (v12 missed the cache on 1:2 and 1:5).
+- Records failing a check are flagged, never dropped.
+- Not yet addressed: long surahs (a network per window plus a surah merge; step S per image section); per-stage anchor
+  tracing (every step's output is kept, so a lost finding can be traced by reading); the 5:6 dilution arm (scan vs
+  focus dictionary only) joins the later tests.
+- Test order (user): steps 1–3 on 1:4–7 and 18:96 (step 1 also on 1:1–3 for the S1 network), then the user checks;
+  later 18:86, 5:6, 4:34, 29:38, 29:41. Budget $30–50 (v12 ayat wrote 59–102K output tokens).

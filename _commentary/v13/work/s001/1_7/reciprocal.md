@@ -1,0 +1,287 @@
+# reciprocal.md — earlier GPT reviews' related passages for 1:7 (incomplete, sometimes misleading)
+
+- 26:20 (strong): Frames deviation as a past, bounded loss of direction rather than a fixed identity.
+- 37:118 (strong): Directly presents guidance into the upright path as an enduring placement.
+- 3:69 (strong): Adds that attempts to misdirect others can return as self-loss.
+- 28:17 (strong): Connects received favor with refusing to support wrongdoing.
+- 1:3 (medium): Supplies the mercy setting that precedes the requested path and its exclusions.
+- 4:56 (weak): Offers only a remote replacement-and-boundary parallel to the exclusions.
+- 26:86 (medium): Keeps compassionate concern alongside an unsoftened diagnosis of deviation.
+- 1:5 (medium): Places dependence and worship immediately before the request and route distinction.
+- 4:119 (medium): Shows misdirection as enacted through inducement, command, and altered order.
+- 56:92 (strong): Joins persistent denial and deviation while retaining distinct readings of each.
+- 33:56 (no value): Adds no clear route, favor, wrath, or deviation evidence for the focus.
+- 21:54 (medium): Portrays deviation as a collective, inherited orientation despite settled practice.
+- 2:122 (medium): Treats favor as entrusted distinction carrying responsibility, not settled status.
+- 1:6 (strong): States the immediate petition for the upright path completed by 1:7.
+- 37:43 (medium): Presents favor as a sustained protective condition, though broadly.
+- 2:47 (weak): Repeats the responsibility reading of favor already supplied earlier.
+- 1:2 (medium): Provides the praise and sustaining authority framing the path request.
+- 58:14 (strong): Links divine anger with knowingly resisting what is recognized as true.
+- 2:40 (weak): Adds a narrower favor-and-covenant setting already covered by earlier cards.
+- 21:112 (medium): Pairs appeal for just judgment with reliance on the Merciful for help.
+- 73:11 (weak): Offers a limited warning that ease can harden resistance.
+- 6:77 (strong): Shows guidance as needed after false alternatives are tested and rejected.
+- 1:1 (weak): Contributes the opening mercy frame but little beyond nearby focus context.
+- 83:32 (medium): Shows rival accusations of deviation and the possibility of mislocated judgment.
+- 27:19 (medium): Links received favor to gratitude, right action, and mercy-seeking.
+- 1:4 (medium): Adds accountability as the setting in which the route categories matter.
+- 88:8 (medium): Illustrates favor as a comprehensive state of ease and restored standing.
+- 7:162 (medium): Shows a commanded alternative being substituted, with consequences for violation.
+- 8:53 (strong): Connects alteration of favor with a community's inward change of direction.
+- 93:7 (strong): Presents being lost as remediable disorientation, with possible protective care.
+- 2:198 (weak): Only indirectly joins prior deviation with guidance of communal movement.
+- 83:22 (medium): Depicts benefaction as the enduring outcome of morally upright action.
+- 93:11 (strong): Makes favor a narrated care-process of sheltering, guiding, and sufficing.
+- 36:4 (medium): Reaffirms the upright path but adds little beyond the direct path cards.
+- 68:26 (medium): Uses loss of a place's expected identity to illuminate being unable to locate oneself.
+- 100:3 (weak): Provides a remote alteration parallel; its contrary links are boundary evidence only.
+- 16:121 (medium): Joins gratitude for favors with selection and guidance to an upright path.
+- 83:11 (weak): Contributes only a broad judgment-denial background.
+- 3:51 (strong): Defines the upright path through shared devotion to the one sustaining authority.
+- 3:112 (weak): Supplies wrath as consequence of repeated violations, without a close route link.
+- 106:3 (weak): Adds a general worship orientation but not the focus distinctions.
+- 52:17 (weak): Offers a broad ease-versus-affliction contrast with limited specificity.
+- 5:60 (medium): Associates anger and a worse destination with reversal of a hostile judgment.
+- 68:9 (weak): Offers only a general pressure toward compromise at a boundary.
+- 5:20 (weak): Treats favor as a basis for response, but is less specific than earlier favor cards.
+- 15:41 (strong): Presents the upright path as a secured, authoritative route rather than a mere direction.
+- 109:2 (medium): Establishes a non-interchangeable worship boundary relevant to the exclusions.
+- 7:140 (medium): Contrasts received favor with seeking another object of devotion.
+- 3:154 (weak): Provides a distant contrast between assurance and wrongful expectation.
+- 109:3 (medium): Maintains the reciprocal non-merging of the two worship orientations.
+- 20:86 (medium): Shows anger as grief and inquiry over a broken commitment before punishment.
+- 42:52 (weak): Its sole contrast link marks a boundary, not positive support for the path reading.
+- 109:4 (medium): Reiterates a durable worship boundary from the speaker's side.
+- 32:10 (medium): Expands loss into disappearance and unlocatability, not merely wrong opinion.
+- 10:15 (medium): Shows a demanded substitution resisted to preserve the source and order of guidance.
+- 109:5 (medium): Repeats the non-interchangeable worship boundary from the audience's side.
+- 42:37 (medium): Distinguishes recognizing anger from allowing it to become automatic retaliation.
+- 2:61 (medium): Places anger after rejection, ingratitude, and transgression, though indirectly.
+- 109:6 (medium): Concludes the boundary with distinct, non-combined commitments.
+- 17:73 (medium): Shows social acceptance offered as leverage to alter an authoritative message.
+- 5:5 (no value): Adds no sufficiently localized path, favor, anger, or deviation evidence.
+- 92:19 (medium): Separates giving from reciprocal human indebtedness, refining one dimension of favor.
+- 102:8 (strong): Makes benefaction accountable in use and source, not a private possession.
+- 24:9 (medium): Shows anger as a differentiated outcome under distinct claims and responsibilities.
+- 109:1 (medium): Names the opposing worship stance that the subsequent boundary addresses.
+- 105:2 (strong): Shows a hostile plan rendered directionless, with loss and reversal kept distinct.
+- 33:53 (no value): Adds no clear interpretive contribution to the focus.
+- 83:6 (weak): Provides only a general standing-before-the-sustainer context.
+- 14:36 (medium): Depicts deviation as attachment redirected toward rival objects of loyalty.
+- 7:86 (strong): Shows paths obstructed and made crooked through exclusionary control.
+- 100:4 (no value): Adds no usable route or category evidence beyond its neighboring card.
+- 23:6 (weak): Offers a limited boundary parallel without clarifying the focus categories.
+- 2:152 (medium): Links remembrance and gratitude with refusal of denial, broadly supporting response to favor.
+- 2:282 (weak): Uses loss in a localized evidentiary-memory setting rather than the focus route.
+- 10:62 (weak): Offers a broad protection-from-fear state without a close focus connection.
+- 30:55 (medium): Shows a distorted orientation reshaping even recollection of duration.
+- 39:61 (weak): Supplies a broad protection contrast with limited route or category detail.
+- 2:90 (medium): Links anger with envious refusal of distributed favor, as a provisional parallel.
+- 37:23 (strong): Reverses guidance language into a disclosed route of ruin for false devotion.
+- 12:8 (weak): Its contrast link is only boundary evidence and adds little positive clarification.
+- 2:119 (weak): Provides only a broad warning-and-good-news setting.
+- 35:3 (medium): Frames favor as traceable provision and remembrance as resistance to distortion.
+- 7:202 (weak): Adds a general picture of persistent extension in error without close linkage.
+- 16:5 (weak): Illustrates material provision but not the focus's favored-route distinction.
+- 4:69 (strong): Directly identifies those favored by God and situates them in a company shaped by obedience.
+- 42:18 (weak): Its contrast evidence marks a remote boundary rather than positive route support.
+- 21:37 (no value): Adds no sufficiently direct evidence for the focus readings.
+- 47:12 (weak): Offers a provisional consumption contrast, not a close account of favor or route.
+- 89:13 (weak): Supplies punishment imagery without clarifying anger, deviation, or the path.
+- 56:51 (medium): Reaffirms the paired but distinct failure of denial and loss of direction, redundantly.
+- 76:21 (no value): Adds no clear interpretive contribution to the focus.
+- 46:28 (medium): Shows false intermediaries becoming absent when their claimed nearness is tested.
+- 36:27 (weak): Provides only a broad honoring-after-forgiveness outcome.
+- 23:74 (strong): Directly characterizes rejection of the final meeting as bending away from the path.
+- 53:60 (no value): Adds no usable route, favor, anger, or deviation evidence.
+- 39:64 (medium): Treats rival worship as misplacing authority and service despite known sovereignty.
+- 10:23 (weak): Shows wrongdoing after rescue but offers only a remote alternative-to-right parallel.
+- 7:186 (medium): Depicts the absence of guidance amid self-sustaining excess and bewilderment.
+- 6:93 (weak): Provides a broad false-claim and punishment context without a close focus link.
+- 42:46 (medium): Portrays misguidance as leaving no effective route or rescuing alliance.
+- 4:68 (strong): Directly joins obedience with guidance to an upright path.
+- 4:175 (strong): Combines mercy and favor with guidance onto a direct path.
+- 5:16 (strong): Presents divine disclosure as leading from darkness toward an upright path.
+- 5:77 (medium): Connects inherited excess and prior deviation with misleading others from the way.
+- 6:126 (strong): Names the sustaining authority's path as upright and made clear.
+- 6:153 (strong): Defines the straight path against competing paths that divide its followers.
+- 6:161 (strong): Combines being guided to a straight path with an upright, enduring commitment.
+- 7:16 (strong): Shows hostile obstruction stationed against the upright path.
+- 7:30 (medium): Sets guided and error-bound groups in parallel without collapsing their agency.
+- 7:152 (medium): Links calf-making with divine anger and humiliation in worldly life.
+- 9:93 (medium): Associates anger with false excuses and withdrawal from costly responsibility.
+- 9:115 (medium): Treats guidance and later deviation in relation to clarified accountability.
+- 10:25 (strong): Depicts the divine call and guidance as directed toward a straight path.
+- 11:56 (strong): Locates the sustaining authority on a straight path of governing order.
+- 14:1 (strong): Frames movement from darkness to light through the path of the mighty, praiseworthy authority.
+- 14:7 (medium): Relates grateful reception of favor to increase and ingratitude to consequence.
+- 15:42 (strong): Marks the protected servants as beyond the adversary's effective claim.
+- 16:9 (strong): Contrasts the intended way with ways that swerve from it.
+- 16:53 (medium): Identifies every possessed favor as sourced in God before distress reveals dependence.
+- 16:76 (strong): Pairs commanding justice with being on a straight path.
+- 16:106 (medium): Places divine anger after deliberate rejection while retaining a coercion distinction.
+- 17:9 (strong): Describes the Qur'an as guiding toward what is most upright.
+- 17:83 (medium): Shows a recipient of favor turning aside, supplying a contrary response to benefaction.
+- 19:36 (strong): Defines shared worship of the sustaining authority as a straight path.
+- 19:43 (strong): Offers following a guided messenger as a route to an even path.
+- 20:81 (strong): Links excess to the descent of anger and to ruin.
+- 20:123 (strong): States that following divine guidance prevents going astray and misery.
+- 22:4 (medium): Presents allegiance to the adversary as leading both to deviation and a burning outcome.
+- 22:54 (strong): Joins faith, recognition, and guidance to a straight path.
+- 23:73 (strong): Directly characterizes the summons as calling to a straight path.
+- 24:46 (strong): Presents clarified signs and divine leading to a straight path.
+- 28:50 (medium): Treats following ungrounded desire as an especially deep form of misguidance.
+- 33:36 (medium): Links disobedience to manifest deviation.
+- 36:61 (strong): Defines worship of God as a straight path.
+- 36:62 (medium): Describes a large-scale history of being led astray by the adversary.
+- 38:26 (strong): Explicitly warns that following desire diverts from the divine way.
+- 39:41 (medium): Keeps guidance and deviation accountable to the person receiving the message.
+- 41:17 (medium): Contrasts offered guidance with choosing blindness over it.
+- 42:53 (strong): Identifies the final path as God's own, completing the preceding guidance statement.
+- 43:43 (strong): Combines holding fast to revelation with being on a straight path.
+- 43:64 (strong): Defines worship of the one sustaining authority as a straight path.
+- 45:23 (medium): Shows desire elevated as authority alongside divinely permitted misguidance.
+- 47:1 (medium): Links rejection and obstruction of the divine way with works rendered lost.
+- 47:8 (medium): Again pairs rejection with works made lost, reinforcing the consequence pattern.
+- 48:6 (medium): Places divine anger on those who harbor wrongful assumptions and align against guidance.
+- 60:13 (medium): Directly names alliance with a people upon whom divine anger rests.
+- 61:5 (medium): Depicts turning away as followed by hearts being turned, preserving a process reading.
+- 2:16 (strong): Directly contrasts purchasing deviation with abandoning guidance.
+- 2:108 (medium): Treats exchange of faith for rejection as losing the level path.
+- 2:213 (medium): Shows divine guidance resolving disputed truth for those who respond in faith.
+- 3:100 (strong): Links holding fast to God with being guided to a straight path.
+- 4:60 (strong): Names adversarial ambition to lead people into far-reaching deviation.
+- 4:88 (medium): Rejects the attempt to guide whom God has left without a route.
+- 4:93 (medium): Explicitly connects deliberate killing with divine anger and exclusion from mercy.
+- 4:116 (strong): Describes associating partners as going far astray.
+- 4:136 (strong): Pairs rejection of core divine disclosures with going far astray.
+- 4:167 (strong): Connects rejection and obstruction of God's way with far-reaching deviation.
+- 5:6 (medium): Frames completion of favor as a basis for gratitude and purification.
+- 5:11 (medium): Makes remembrance of favor a protection amid threatened harm.
+- 5:105 (medium): Distinguishes remaining guided from the fact that others may go astray.
+- 6:71 (strong): Portrays misguidance as being bewildered and pulled away from recalled guidance.
+- 6:140 (medium): Links destructive practice with loss, deviation, and absence of guidance.
+- 7:178 (medium): Sets divine guidance against the self-loss of those left astray.
+- 10:32 (strong): Poses deviation as the alternative to recognized truth.
+- 10:108 (medium): Keeps guidance and deviation consequential for the person who receives the message.
+- 12:6 (strong): Uses completion of favor within an inherited, divinely directed line of care.
+- 14:3 (strong): Links obstruction and crookedening of God's way with distant deviation.
+- 14:4 (medium): Keeps divine guidance and leaving astray within a wise, explanatory sending of messages.
+- 14:27 (medium): Associates stability of the faithful with the leaving astray of wrongdoers.
+- 14:28 (strong): Shows God's favor being exchanged for rejection and a ruinous destination.
+- 15:39 (medium): Records the adversary's stated program of adornment and collective misdirection.
+- 16:18 (medium): Establishes favors as beyond exhaustive counting and grounded in mercy.
+- 16:72 (medium): Expands favor into household continuity, provision, and a question of grateful response.
+- 16:81 (medium): Presents created protections as favors meant to bring willing submission.
+- 17:15 (medium): Makes each person's guidance or deviation answerable to that person.
+- 17:67 (medium): Shows rescue from distress followed by turning away, a contrary response to aid.
+- 17:97 (medium): Contrasts the genuinely guided with those who have no guiding protector.
+- 18:17 (medium): Distinguishes the guided from one for whom no directing protector is found.
+- 18:104 (medium): Describes effort lost while its makers believe it well-directed.
+- 22:3 (medium): Joins disputation without knowledge to following a rebellious adversary.
+- 22:9 (medium): Links arrogant turning aside with leading others from God's way.
+- 24:21 (medium): Portrays adversarial steps as commanding indecency and wrong.
+- 25:42 (medium): Shows pressure to abandon true orientation for attachment to false objects.
+- 27:92 (medium): Distinguishes guidance for oneself from deviation whose consequence remains personal.
+- 28:15 (medium): Names adversarial action as manifestly misleading and hostile.
+- 30:29 (strong): Connects following desire without knowledge to absence of a guide.
+- 31:6 (medium): Shows diversion from God's way through ungrounded discourse and ridicule.
+- 31:20 (medium): Presents outward and inward favors as a ground against unknowing dispute.
+- 33:37 (weak): Contains a human-to-human favor phrase but is not a close parallel to the focus.
+- 33:67 (medium): Shows followers locating their loss in obedience to leaders and great ones.
+- 34:13 (medium): Links extraordinary provision with the demanding work of gratitude.
+- 34:50 (medium): Separates personal error from the guidance received through revelation.
+- 35:8 (medium): Shows evil made attractive so that it is mistaken for good, alongside divine misguidance.
+- 39:8 (medium): Depicts a recipient of favor forgetting prior dependence and setting up rivals.
+- 39:36 (medium): Reiterates that no guide is available where God leaves someone astray.
+- 39:49 (medium): Shows favor being misread as self-produced knowledge rather than a test.
+- 40:34 (medium): Links persistent doubt and excess with hearts being sealed and led astray.
+- 43:32 (medium): Places distributed worldly provision and rank within divine determination rather than human control.
+- 43:36 (medium): Depicts turning from the Merciful reminder as exposing one to a misleading companion.
+- 43:37 (medium): Shows obstructers from the way being mistakenly regarded as guided.
+- 53:23 (medium): Contrasts conjecture and desire with guidance already received from the sustaining authority.
+- 53:29 (medium): Links turning from remembrance with an orientation confined to worldly life.
+- 53:30 (medium): Contrasts divine knowledge of the straying and the guided without collapsing them.
+- 67:9 (medium): Records rejection of warning as a route into acknowledged error.
+- 67:10 (medium): Makes failure to hear or reason part of recognizing one's ruinous course.
+- 68:7 (medium): Affirms that the sustaining authority knows both the straying and the guided.
+- 68:49 (medium): Shows a favor from the sustaining authority averting a degrading outcome.
+- 74:31 (medium): Keeps divine misguidance and guidance within an accountable warning context.
+- 89:15 (medium): Tests the assumption that ease and favor necessarily signal settled honor.
+- 2:142 (reverse:weak): Provides the broad contrast of a favored path with anger and wandering.
+- 3:88 (reverse:weak): The opposed paths provide only a broad moral contrast.
+- 4:115 (reverse:medium): Provides a compact صراط/غير polarity, but is broad and redundant.
+- 5:65 (reverse:medium): Favor is distinguished from anger and straying, supplying a broad route-boundary parallel.
+- 7:61 (reverse:weak): Uses الضالين as a path boundary, not the elite accusation against a messenger.
+- 7:150 (reverse:weak): Only a highly general contrast between guided and angered paths.
+- 11:19 (reverse:medium): Contrasts the sought path with paths of error.
+- 11:37 (reverse:no value): The paths named here do not clarify the focus's ark or judgment sequence.
+- 11:112 (reverse:strong): Supplies the contrary outcomes alongside the requested straight path.
+- 12:57 (reverse:weak): Doğru yol ve sapma karşıtlığını verir; odak ayetin ödül ve sakınma bileşimine uzak kalır.
+- 12:71 (reverse:no value): No material addition to the encounter, question, or missing object.
+- 12:95 (reverse:weak): يوفر مقابلة الهداية والضلال فقط، وقد استنفدت البطاقات الأسبق هذا العموم.
+- 14:6 (reverse:medium): Nimet görmüş toplulukların izlenebilir tarihsel yolu, hatırlama çağrısına ikincil çerçeve sunar.
+- 14:48 (reverse:medium): A secondary f01 lens on exclusion and an alternative, not cosmic replacement.
+- 15:87 (reverse:strong): Fatiha'nın yedi ayetlik kapanışı, "seb'an min al-mathani" için sure-bütün paralelini tamamlar; bunu tek zorunlu anlam yapmaz.
+- 19:58 (reverse:strong): The straight path is explicitly defined as that of those God has favored.
+- 20:135 (reverse:medium): It differentiates the straight path from rejected and astray courses, extending the focus's question of who is rightly guided.
+- 21:87 (reverse:weak): The warned path of those who incur anger offers only a distant backdrop to the anger in Jonah's departure.
+- 23:23 (reverse:medium): Defines the desired path by excluding destructive alternatives, a broad directional parallel.
+- 23:32 (reverse:weak): The exclusion of failed paths only loosely parallels the focus's exclusive direction of worship.
+- 23:103 (reverse:no value): The contrast of guided and astray paths is too general to clarify the focus.
+- 24:29 (reverse:no value): The contrast of guided and misguided paths does not develop the focus reading.
+- 26:22 (reverse:medium): God's favored recipients provide a positive account of benefaction unlike Pharaoh's oppressive claim.
+- 26:29 (reverse:no value): The guided path does not add to Pharaoh's claim or punishment.
+- 26:69 (reverse:no value): The prayer for the guided path does not clarify Abraham's narrative proclamation.
+- 26:99 (reverse:weak): Doğru yolun sapmışlardan ayrılması, 26:99'a temel fakat çok genel bir karşıtlık verir.
+- 26:101 (reverse:weak): The distinction between guided and astray gives only a broad moral frame for the focus's judgment scene.
+- 26:133 (reverse:weak): Nimet verilenlerin yolu, rızkın doğru yönelimle ilişkisini genel olarak çerçeveler.
+- 26:173 (reverse:weak): The contrast of favored, wrathful, and lost paths only broadly concerns outcomes.
+- 27:58 (reverse:no value): Does not add a focused link to the rain judgment.
+- 30:31 (reverse:medium): The prayer for the straight path contrasts it with paths of error.
+- 31:31 (reverse:weak): The bestowed-favor language is too general to illuminate the voyage or its signs.
+- 35:20 (reverse:medium): The straight path is contrasted with paths of anger and going astray, paralleling guided and lost orientation.
+- 35:21 (reverse:no value): The distinction between guided and astray paths does not develop the focus imagery.
+- 35:37 (reverse:weak): The distinction between the straight path and failed paths is a broad counterpart to the focus's moral outcome.
+- 36:66 (reverse:strong): The straight path is specified as a lived route distinct from error, directly contrasting the focus verse's inability to see the path.
+- 37:57 (reverse:medium): The favored path contrasted with the angered and astray offers a broad counterpart to being spared a condemned affiliation.
+- 37:69 (reverse:weak): The prayer distinguishes the path from that of those astray, a general normative counterpart.
+- 37:93 (reverse:no value): The contrast of guided and astray paths is too general to clarify the focus.
+- 37:137 (reverse:no value): The pronoun in the prayer for guidance does not identify the people passed in the focus.
+- 38:22 (reverse:strong): It defines the straight path through contrasted outcomes, sharpening the direction requested in the focus.
+- 38:39 (reverse:no value): The exclusionary path contrast does not illuminate the focus's specific authority.
+- 40:79 (reverse:no value): The favor bestowed in guidance is not tied to animal use.
+- 42:42 (reverse:weak): The path contrast is broad and does not address wrongdoing against people or wrongful pursuit in the earth.
+- 43:40 (reverse:medium): It establishes the straight path in contrast with those who go astray.
+- 43:59 (reverse:medium): Those favored by God provide a broader model of divinely granted grace guiding a human path.
+- 43:61 (reverse:medium): It distinguishes the straight path from routes ending in anger or error, adding its outcome contrast.
+- 47:15 (reverse:no value): General divergent paths do not materially specify 47:15.
+- 47:38 (reverse:weak): Guidance and deviation form a broad boundary, not an explanation of the focus's replacement clause.
+- 48:2 (reverse:medium): Relates the path to recipients of favor and preserves the contrast with other courses.
+- 50:31 (reverse:medium): Its boundary structure helps preserve the distinction between desired and failed directions.
+- 51:36 (reverse:weak): Contributes a boundary pattern but no specific household or Muslim evidence.
+- 52:35 (reverse:no value): Its boundary reading does not clarify the creation challenge.
+- 53:2 (reverse:medium): Weak f01 delineates guidance by the avoided dallin outcome; it is broad and late.
+- 53:59 (reverse:no value): The path distinction offers no specific discourse or astonishment link.
+- 55:9 (reverse:no value): The straight-path request does not add a specific measure or equity reading.
+- 56:17 (reverse:no value): No material link to the focus.
+- 56:86 (reverse:no value): Its غَيْرِ is an exclusion within a path formula, with no relevant test or settlement claim.
+- 68:18 (reverse:no value): Its route contrast does not clarify 68:18.
+- 70:10 (reverse:no value): No distinct relation to the focus.
+- 70:30 (reverse:weak): Its exclusion structure offers only a general boundary parallel.
+- 71:24 (reverse:weak): The generic route distinction is relevant vocabulary but adds little after the direct parallels.
+- 74:10 (reverse:weak): Its route contrast is broad and does not specifically illuminate 74:10.
+- 76:14 (reverse:weak): The repeated over-them construction carries no shade or accessibility relation here.
+- 76:19 (reverse:no value): The phrase عَلَيْهِم is unrelated to the attendant scene.
+- 77:23 (reverse:medium): Those given blessing make the good path concrete through a received and lived outcome.
+- 79:33 (reverse:weak): Uses the blessing root in a guidance contrast but does not identify shared earthly provision.
+- 81:26 (reverse:strong): Contrasts the straight path with routes marked by error or incurred wrath.
+- 82:13 (reverse:medium): Favorable bestowal as active guidance adds a secondary dynamic aspect of naim.
+- 84:25 (reverse:weak): Indirect boundary between favor and blame; no direct reward route.
+- 88:22 (reverse:no value): The pronoun pattern and path categories add no authority-boundary evidence.
+- 89:9 (reverse:no value): No clear addition to the focus scene.
+- 90:20 (reverse:no value): اشتراك «عليهم» لا يحدد النار المؤصدة.
+- 95:6 (reverse:weak): غير and the retained mixed routes offer only structural and boundary resonance.
+- 104:8 (reverse:no value): The repeated عليهم is only surface overlap.
+- 105:3 (reverse:no value): The path contrast does not clarify the birds' sending.
