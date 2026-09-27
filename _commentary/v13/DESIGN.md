@@ -156,3 +156,14 @@ Batch caching is best effort. Thinking may grow with the larger step-1 input.
   focus dictionary only) joins the later tests.
 - Test order (user): steps 1–3 on 1:4–7 and 18:96 (step 1 also on 1:1–3 for the S1 network), then the user checks;
   later 18:86, 5:6, 4:34, 29:38, 29:41. Budget $30–50 (v12 ayat wrote 59–102K output tokens).
+
+## 9. Production note: caching (measured 2026-09-27, first step-1 calls)
+- `claude -p` caches only an identical whole message: the staggered start gave 0 cache reads (1:2, 1:5 read 0 after
+  1:1 had started). The shared-prefix saving therefore needs the production path on the Messages / Batch API with an
+  explicit `cache_control` breakpoint right after the shared part (brief + window.md), the ayah's files after it; the
+  brief and window part must be byte-identical across the ayat of a window. In tests the stagger is useless (remove it
+  or keep it harmless).
+- Batch caching is best effort: submit the first ayah of each window (or a prefix-warming request) before the rest,
+  and measure `cache_read_input_tokens` per call.
+- Measured sizes: about 0.44 tokens per byte of packet (1:1: 60,035 tokens for 136,352 bytes); step-1 output 15–32K
+  tokens at effort high (thinking 8–21K); step-1 cost $0.65–1.12 per ayah via `claude -p` without any cache hit.
