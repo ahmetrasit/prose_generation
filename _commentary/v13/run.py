@@ -20,7 +20,9 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
+import subprocess
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor
@@ -46,9 +48,52 @@ EXPECTED_OUT = {"act": 80_000, "net": 50_000, "qeq": 40_000, "write": 70_000}   
 EFFORT_FACTOR = {"high": 1.0, "xhigh": 1.3, "max": 1.6}                         # guesses until measured
 EFFORT = "high"
 STAGGER = 60                           # seconds between the first call of a window and the rest
+CONT = "===== CONTINUE ====="
+MAX_PARTS = 6
 SYSTEM = ("You are a careful scholar of Quranic Arabic and of the Quran, and a fine writer. Follow the brief exactly and "
-          "return only the requested output.")
+          "return only the requested output. A single response of yours may hold at most about 60,000 tokens, your "
+          "reasoning included. If what you have to write would go beyond that, write it in parts: end a part at a natural "
+          f"boundary with the line {CONT} and nothing after it; you will then be asked to continue, and you continue "
+          "exactly where you stopped, without repeating or summarising what you already wrote.")
 R12.SYSTEM = SYSTEM
+MODEL = "opus"
+
+
+def _claude(args: list[str], stdin: str, log: Path) -> tuple[str, str]:
+    """One claude -p response (no tools); returns (its text, its session id); the stream goes to the log."""
+    r = subprocess.run(["claude", "-p", "--model", MODEL, "--effort", EFFORT, "--tools", "", "--strict-mcp-config",
+                        "--output-format", "stream-json", "--verbose", "--system-prompt", SYSTEM, *args],
+                       input=stdin, capture_output=True, text=True, cwd=R12.REPO,
+                       env={**os.environ, "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "128000"})
+    with log.open("a", encoding="utf-8") as fh:
+        fh.write(r.stdout or json.dumps({"error": r.stderr[-3000:]}) + "\n")
+    text, sid = [], ""
+    for line in (r.stdout or "").splitlines():
+        try:
+            d = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        sid = d.get("session_id") or sid
+        if d.get("type") == "assistant":
+            text += [b.get("text", "") for b in d["message"].get("content", []) if b.get("type") == "text"]
+    return "\n".join(text), sid
+
+
+def opus(prompt: str, stdin: str, log: Path) -> tuple[str, dict]:
+    """One logical call, written in parts when the model ends a part with CONT (the session is resumed; not a retry)."""
+    text, sid = _claude([], prompt + "\n\n" + stdin, log)
+    parts, n = [text], 1
+    while CONT in parts[-1] and sid and n < MAX_PARTS:
+        parts[-1] = parts[-1].split(CONT)[0].rstrip()
+        more, sid2 = _claude(["--resume", sid], "Continue exactly where you stopped.", log)
+        sid = sid2 or sid
+        parts.append(more)
+        n += 1
+    parts[-1] = parts[-1].split(CONT)[0].rstrip()
+    u = usage_detail(log)
+    u.update(parts=n, **{"in": u.get("cache_write", 0) + u.get("cache_read", 0) + u.get("input", 0),
+                         "out": u.get("output", 0)})
+    return "\n".join(parts), u
 CALLED = ("started", "done", "failed", "reused")
 NETWORK_FROM: Path | None = None       # --network-from TAG: read the surah network of another arm (e.g. an effort arm)
 BRANCH_RE = re.compile(r"([ء-ي](?: [ء-ي]){1,4}) (B\d{3})")
@@ -82,22 +127,25 @@ def estimate(nbytes: int, step: str) -> float:
 
 def usage_detail(log: Path) -> dict:
     """Token use of the last call in a claude -p stream log: cache writes, cache reads, output, thinking, time."""
-    res = None
+    tot = {"effort": EFFORT, "cost": 0.0, "minutes": 0.0, "cache_write": 0, "cache_read": 0, "input": 0, "output": 0,
+           "thinking": 0, "responses": 0}
     for line in log.read_text(encoding="utf-8").splitlines() if log.exists() else []:
         try:
             d = json.loads(line)
         except json.JSONDecodeError:
             continue
-        if d.get("type") == "result":
-            res = d
-    if not res:
-        return {}
-    u = res.get("usage") or {}
-    return {"effort": EFFORT, "cost": round(res.get("total_cost_usd") or 0, 3),
-            "minutes": round((res.get("duration_ms") or 0) / 60000, 1),
-            "cache_write": u.get("cache_creation_input_tokens", 0), "cache_read": u.get("cache_read_input_tokens", 0),
-            "input": u.get("input_tokens", 0), "output": u.get("output_tokens", 0),
-            "thinking": (u.get("output_tokens_details") or {}).get("thinking_tokens", 0)}
+        if d.get("type") != "result":
+            continue
+        u = d.get("usage") or {}
+        tot["responses"] += 1
+        tot["cost"] = round(tot["cost"] + (d.get("total_cost_usd") or 0), 3)
+        tot["minutes"] = round(tot["minutes"] + (d.get("duration_ms") or 0) / 60000, 1)
+        tot["cache_write"] += u.get("cache_creation_input_tokens", 0)
+        tot["cache_read"] += u.get("cache_read_input_tokens", 0)
+        tot["input"] += u.get("input_tokens", 0)
+        tot["output"] += u.get("output_tokens", 0)
+        tot["thinking"] += (u.get("output_tokens_details") or {}).get("thinking_tokens", 0)
+    return tot if tot["responses"] else {}
 
 
 def call(ref: str, step: str, files: list[Path], marker: str, target: Path) -> str:
@@ -116,8 +164,7 @@ def call(ref: str, step: str, files: list[Path], marker: str, target: Path) -> s
     set_status(ref, step, state="started", estimate=round(est, 2), input_bytes=len(stdin.encode()),
                files=[f.name for f in files])
     try:
-        text, u = R12.opus(prompt, stdin, out_dir(ref) / f"{step}.log.jsonl", EFFORT)
-        u.update(usage_detail(out_dir(ref) / f"{step}.log.jsonl"))
+        text, u = opus(prompt, stdin, out_dir(ref) / f"{step}.log.jsonl")
         body = text.split(marker, 1)[1].strip() if marker in text else ""
         if not body:
             (out_dir(ref) / f"{step}.raw.txt").write_text(text, encoding="utf-8")
@@ -193,8 +240,7 @@ def net(surah: int, refs: list[str]) -> str:
     if est >= MAX_COST:
         return f"surah {surah} net: NOT STARTED (estimate ${est:.2f})"
     set_net_status(surah, state="started", estimate=round(est, 2), refs=refs)
-    text, u = R12.opus(prompt, stdin, out / "net.log.jsonl", EFFORT)
-    u.update(usage_detail(out / "net.log.jsonl"))
+    text, u = opus(prompt, stdin, out / "net.log.jsonl")
     body = text.split("===== NETWORK =====", 1)[1].strip() if "===== NETWORK =====" in text else ""
     if not body:
         (out / "net.raw.txt").write_text(text, encoding="utf-8")
@@ -359,8 +405,7 @@ def _write_call(ref: str, files: list[Path], target: Path) -> str:
     set_status(ref, "write", state="started", estimate=round(est, 2), input_bytes=len(stdin.encode()),
                files=[f.name for f in files])
     try:
-        text, u = R12.opus(prompt, stdin, out_dir(ref) / "write.log.jsonl", EFFORT)
-        u.update(usage_detail(out_dir(ref) / "write.log.jsonl"))
+        text, u = opus(prompt, stdin, out_dir(ref) / "write.log.jsonl")
         if len(text.split()) < 300:
             (out_dir(ref) / "write.raw.txt").write_text(text, encoding="utf-8")
             set_status(ref, "write", state="failed", error="no usable commentary (no retry, by rule)", **u)
