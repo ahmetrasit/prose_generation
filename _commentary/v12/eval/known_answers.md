@@ -13,7 +13,8 @@ creation, or what the ruin formula of ʿarsh implies; those are the writer's rea
 - nafakha: God's breath into Ādam / man (15:29, 38:72, 32:9), into Maryam (21:91, 66:12), ʿĪsā's breath into the clay
   bird (3:49, 5:110), the Horn (12 ids), the blowing at the iron barrier (18:96).
 - ʿarsh: God's Throne (21 ids); human thrones: Yūsuf's (12:100) and the Queen of Sheba's (27:23, 27:38, 27:41, 27:42);
-  roofs in ruin «خَاوِيَةٌ عَلَىٰ عُرُوشِهَا» (2:259, 18:42, 22:45); trellised gardens (6:141 ×2); what Pharaoh's people
+  the formula «خَاوِيَةٌ عَلَىٰ عُرُوشِهَا» in towns fallen on their roofs (2:259, 22:45) and a garden fallen on its
+  trellises (18:42; corrected after the first run, which read it right); trellised gardens (6:141 ×2); what Pharaoh's people
   erected (7:137); what people erect, where bees make homes (16:68).
 - rabb: God as Lord vs the king as master in Yūsuf's story (12:41, 12:42:9, 12:50:11) vs arbāb taken besides God
   (3:64, 9:31, 12:39) vs Pharaoh's claim (79:24). Ambiguous and left out: 12:23, 12:42:13, 12:50:20.
