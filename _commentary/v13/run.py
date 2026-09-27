@@ -49,7 +49,8 @@ STAGGER = 60                           # seconds between the first call of a win
 SYSTEM = ("You are a careful scholar of Quranic Arabic and of the Quran, and a fine writer. Follow the brief exactly and "
           "return only the requested output.")
 R12.SYSTEM = SYSTEM
-CALLED = ("started", "done", "failed")
+CALLED = ("started", "done", "failed", "reused")
+NETWORK_FROM: Path | None = None       # --network-from TAG: read the surah network of another arm (e.g. an effort arm)
 BRANCH_RE = re.compile(r"([ء-ي](?: [ء-ي]){1,4}) (B\d{3})")
 
 
@@ -219,8 +220,75 @@ def set_net_status(surah: int, **kw) -> None:
 
 
 def network_file(ref: str) -> Path | None:
-    f = OUT / f"s{int(ref.split(':')[0]):03d}" / "network.md"
+    f = (NETWORK_FROM or OUT) / f"s{int(ref.split(':')[0]):03d}" / "network.md"
     return f if f.exists() else None
+
+
+def seed(ref: str, src: Path) -> str:
+    """Reuse another arm's step-1 records (copied, never recomputed): state `reused`."""
+    s = src / f"s{int(ref.split(':')[0]):03d}" / PK.sa(ref)
+    if get_status(ref, "act")["state"] in CALLED:
+        return f"{ref} seed: step 1 already present ({get_status(ref, 'act')['state']})"
+    if not (s / "act.md").exists():
+        return f"{ref} seed: no step-1 records in {src.name}"
+    out = out_dir(ref)
+    out.mkdir(parents=True, exist_ok=True)
+    (out / "act.md").write_text((s / "act.md").read_text(encoding="utf-8"), encoding="utf-8")
+    set_status(ref, "act", state="reused", source=str((s / "act.md").relative_to(V13)))
+    return f"{ref} seed: step-1 records reused from {src.name}"
+
+
+def plan_role(seg: str, ref: str) -> str:
+    """The role (meet/touch/develop/assemble) a disclosure-plan segment gives this ayah; refs and ranges in any order."""
+    m = re.search(r"\b(meet|touch|develop|assemble)\b", seg)
+    if not m:
+        return ""
+    s, a = (int(x) for x in ref.split(":"))
+    for lo, hi in re.findall(r"(\d{1,3}:\d{1,3})(?:\s*[–-]\s*(\d{1,3}:\d{1,3}))?", seg):
+        l = tuple(int(x) for x in lo.split(":"))
+        h = tuple(int(x) for x in (hi or lo).split(":"))
+        if l[0] == s and l[1] <= a <= h[1]:
+            return m.group(1)
+    return ""
+
+
+def mustland(ref: str) -> Path:
+    """What the prose must carry (script, from the network and the QeQ tags): M-items for the coverage block."""
+    out = out_dir(ref)
+    lines = [f"# mustland.md — what the commentary of {ref} must carry", ""]
+    n = 0
+    nf = network_file(ref)
+    if nf:
+        for l in nf.read_text(encoding="utf-8").splitlines():
+            m = re.match(r"^(I\d+) \| ([^|]+)\|", l)
+            if not m:
+                continue
+            disc = next((p for p in l.split(" | ") if p.startswith("disclosure:")), "")
+            roles = [role for seg in re.split(r"[;,]", disc[len("disclosure:"):]) if (role := plan_role(seg, ref))]
+            member_here = re.search(rf"(?<![\d:]){re.escape(ref)}:\d+", l.split(" | meets:")[0])
+            if not roles and not member_here:
+                continue
+            role = roles[0] if roles else "touch (member here; not in the plan)"
+            n += 1
+            lines.append(f"- M{n} | image {m.group(1)} {m.group(2).strip()} | role here: {role}"
+                         + (" | show the whole image with every member (see the network line)" if role == "assemble" else ""))
+            meets = next((p for p in l.split(" | ") if p.startswith("meets:")), "")
+            for seg in meets[len("meets:"):].split(";"):
+                if re.search(rf"(?<![\d:]){re.escape(ref)}:\d+", seg):
+                    n += 1
+                    lines.append(f"- M{n} | meeting {m.group(1)} × {seg.strip()}")
+    q = out / "qeq.md"
+    if q.exists():
+        seen = set()
+        for r_, tag in re.findall(r"(\d{1,3}:\d{1,3})\s*\[(staging|same-word)\]", q.read_text(encoding="utf-8")):
+            if (r_, tag) in seen:
+                continue
+            seen.add((r_, tag))
+            n += 1
+            lines.append(f"- M{n} | passage {r_} [{tag}]")
+    f = out / "mustland.md"
+    f.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return f
 
 
 def digest(ref: str) -> Path:
@@ -274,7 +342,7 @@ def write(ref: str) -> str:
         return f"{ref} write: waiting for step 2"
     nf = network_file(ref)
     files = [PROMPTS / "write.md", a / "ayah.md", out / "act.md", out / "qeq.md"] + ([nf] if nf else [])
-    files += [a / "dictionary.md", branches_file(ref)]
+    files += [mustland(ref), a / "dictionary.md", branches_file(ref)]
     return _write_call(ref, files, out / f"{PK.sa(ref)}.reading.tr.md")
 
 
@@ -283,7 +351,7 @@ def _write_call(ref: str, files: list[Path], target: Path) -> str:
     if st["state"] in CALLED:
         return f"{ref} write: already called ({st['state']}; never again)"
     stdin = R12.inline(*files)
-    prompt = "Follow the brief (write.md, first below) exactly. Return only the Turkish commentary."
+    prompt = "Follow the brief (write.md, first below) exactly. Return the Turkish commentary, then the coverage block."
     est = estimate(len((prompt + stdin).encode()), "write")
     if est >= MAX_COST:
         set_status(ref, "write", state="over-cost", estimate=round(est, 2))
@@ -297,11 +365,23 @@ def _write_call(ref: str, files: list[Path], target: Path) -> str:
             (out_dir(ref) / "write.raw.txt").write_text(text, encoding="utf-8")
             set_status(ref, "write", state="failed", error="no usable commentary (no retry, by rule)", **u)
             return f"{ref} write: FAILED; ${u['cost']:.2f}"
-        target.write_text(text.strip() + "\n", encoding="utf-8")
+        body, _, cov = text.partition("===== COVERAGE =====")
+        target.write_text(body.strip() + "\n", encoding="utf-8")
+        cov_lines = [l.strip() for l in cov.splitlines() if re.match(r"^\s*M\d+ \|", l)]
+        (out_dir(ref) / "coverage.md").write_text("\n".join(cov_lines) + "\n", encoding="utf-8")
+        items = [l for l in (out_dir(ref) / "mustland.md").read_text(encoding="utf-8").splitlines() if l.startswith("- M")] \
+            if (out_dir(ref) / "mustland.md").exists() else []
+        got = {re.match(r"M\d+", l).group(0) for l in cov_lines if "landed" in l}
+        held = [l for l in items if re.search(r"M\d+", l).group(0) not in got]
+        (out_dir(ref) / "handforward.md").write_text(
+            f"# handforward.md — mustland items of {ref} not landed (for the surah commentary)\n\n" + "\n".join(held) + "\n",
+            encoding="utf-8")
         c = R12.check_text(target, out_dir(ref) / "repair.log.jsonl")
+        c.update(mustland=len(items), landed=len(got), not_landed=len(held))
         set_status(ref, "write", state="done", check=c, **u)
         return (f"{ref} write: done ${u['cost']:.2f} (estimate ${est:.2f}); {len(text.split())} words; "
-                f"verify {c['verify']}; repairs {c['repair_calls']} (${c['repair_cost']:.2f}); stripped {c['stripped']}")
+                f"verify {c['verify']}; repairs {c['repair_calls']} (${c['repair_cost']:.2f}); stripped {c['stripped']}; "
+                f"mustland {c['landed']}/{c['mustland']} landed")
     except Exception as e:  # noqa: BLE001
         set_status(ref, "write", state="failed", error=f"{type(e).__name__}: {str(e)[-500:]}")
         return f"{ref} write: FAILED {e}"
@@ -338,18 +418,22 @@ def run_parallel(fn, refs: list[str], parallel: int) -> None:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("step", choices=("packet", "act", "net", "qeq", "write", "status"))
+    ap.add_argument("step", choices=("packet", "seed", "act", "net", "qeq", "write", "status"))
     ap.add_argument("ref")
     ap.add_argument("--refs", help="net: the ayat whose records form the network (default: the whole surah)")
     ap.add_argument("--parallel", type=int, default=8)
     ap.add_argument("--effort", default="high", choices=("high", "xhigh", "max"))
     ap.add_argument("--tag", help="outputs in out-TAG/ (an arm, e.g. --tag max --effort max)")
     ap.add_argument("--max-cost", type=float, default=5.0)
+    ap.add_argument("--seed-from", default="", help="seed: the arm whose step-1 records are reused ('' = out/)")
+    ap.add_argument("--network-from", help="read the surah network of arm TAG (out-TAG/)")
     a = ap.parse_args()
-    global EFFORT, OUT, MAX_COST
+    global EFFORT, OUT, MAX_COST, NETWORK_FROM
     EFFORT, MAX_COST = a.effort, a.max_cost
     if a.tag:
         OUT = V13 / f"out-{a.tag}"
+    if a.network_from:
+        NETWORK_FROM = V13 / f"out-{a.network_from}"
     if a.step == "net":
         s = int(a.ref)
         refs = a.refs.split(",") if a.refs else R12.surah_refs(s)
@@ -358,6 +442,11 @@ def main() -> None:
     refs = list(dict.fromkeys(a.ref.split(",")))
     if a.step == "status":
         print(status(refs))
+        return
+    if a.step == "seed":
+        src = V13 / (f"out-{a.seed_from}" if a.seed_from else "out")
+        for r in refs:
+            print(seed(r, src), flush=True)
         return
     if a.step == "packet":
         for r in refs:

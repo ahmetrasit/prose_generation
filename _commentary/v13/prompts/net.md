@@ -19,14 +19,15 @@ Quran and write the commentaries from your network.
   different sides.
 - **Do not prune.** Every ayah finding is placed in an image, or listed under `unplaced` with the reason it stands
   alone. Nothing is rejected here; weak members stay members. No confidence, no ranking, no verdicts.
-- For the ayah commentaries, give each image a disclosure plan: the ayah where the reader first meets it (through
-  which word), where it develops, where it is assembled.
+- For the ayah commentaries, give each image a disclosure plan that names **every ayah holding a member**, each with
+  a role: `meet` (the reader first senses the image here), `touch` (this ayah's word adds one member, in a sentence),
+  `develop` (it grows here), `assemble` (the whole image is shown here, with every member). Exactly one `assemble`.
 
 ## Your final message
 
 A line `===== NETWORK =====`, then for each image:
 
-`I<n> | name | members: S:A:W root Bnnn (role) [S:A F-ids or N-added]; … | movement: … | meets: I<m> at S:A:W — what the meeting shows; … | purpose: … | disclosure: meet S:A (word); develop S:A; assemble S:A`
+`I<n> | name | members: S:A:W root Bnnn (role) [S:A F-ids or N-added]; … | movement: … | meets: I<m> at S:A:W — what the meeting shows; … | purpose: … | disclosure: S:A meet (word); S:A touch (word); S:A develop (word); S:A assemble (word)`
 
 then one line `unplaced: S:A F<n> (why it stands alone); …` listing every finding no image absorbs (they go on to the
 commentaries; nothing is dropped). English, compact.

@@ -48,6 +48,9 @@ can be recovered later.
 - `cross-definition`: the dictionary defines one word of the surah through another (the definition line of one root
   names another root of the surah).
 - `concept`: several branches of one root read as facets of one concept (their collapse is the finding).
+- `scene`: the ayah's plain scene or action echoing a scene in the window or the surah (the same kind of act, a
+  partner scene, a reversal); for every channel-review sub-channel that names this ayah, record its partner scene,
+  not only its lexical link.
 - `fragment`: a branch activated by a word in scope that forms no image yet.
 - `loss`: what a key Turkish rendering or loanword loses or adds against the Arabic concept.
 - `grammar`: grammar a Turkish reader cannot hear (articles, particles, forms, word order), only when it changes or
