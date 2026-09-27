@@ -1,0 +1,4 @@
+F1 | supports | 69:17 [staging], 39:69, 82:17 [same-word] | The Quran tells the King's session on that day openly: the throne borne above the angels "that day", the book set down, and judgment given "in truth". 82:17 names the day by the requital the finding reads as His act. | anchor: وَيَحْمِلُ عَرْشَ رَبِّكَ فَوْقَهُمْ يَوْمَئِذٍ ثَمَٰنِيَةٌ
+F2 | supports | 39:67 [staging], 11:56 [staging], 67:1 | The grip is told openly: the whole earth is "His handful" on the Day of Rising, and no creature moves but He holds it by the forelock. 67:1 puts mulk itself "in His hand". | anchor: وَٱلْأَرْضُ جَمِيعًا قَبْضَتُهُۥ يَوْمَ ٱلْقِيَٰمَةِ
+F3 | expands | 16:52 [same-word], 3:83 [same-word], 68:43 | 16:52 sets ownership and "the dīn, perpetually" in one clause. 3:83 splits the one bond into submission given willingly (ṭawʿ) and unwillingly (karh
+You've hit your session limit · resets 2pm (America/New_York)

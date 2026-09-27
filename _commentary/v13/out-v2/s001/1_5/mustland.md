@@ -1,0 +1,90 @@
+# mustland.md — what the commentary of 1:5 must carry
+
+- M1 | image I1 The guided road and its fork | role here: touch
+- M2 | meeting I1 × I6 at 1:5:2 — the levelled road and the servant made tractable are one tadhlīl, so service is road-making
+- M3 | image I2 Mark and its reader | role here: touch
+- M4 | image I3 The herd under its owner, and the stray whose lord is unknown | role here: touch
+- M5 | meeting I3 × I18 at 1:5:2 — the herd scattering and the company scattering are one word
+- M6 | image I5 Formed, reared, stood up | role here: touch
+- M7 | image I6 Owner above, owned below: the grip that does not let go | role here: develop
+- M8 | meeting I6 × I7 at 1:5:2 — servitude becomes the voice that addresses
+- M9 | meeting I6 × I1 at 1:5:2 — tractable is the levelled road
+- M10 | image I7 The name worshipped, turned to "You" | role here: assemble | show the whole image with every member (see the network line)
+- M11 | meeting I7 × I6 at 1:5:2 — the owned speak as worshippers
+- M12 | meeting I7 × I14 at 1:5:4 — nastaʿīn is answered by mustaqīm
+- M13 | image I8 Water held and water lost | role here: touch
+- M14 | image I9 The station found good and stayed in | role here: touch
+- M15 | image I10 Soft and hardened under the same "upon them" | role here: touch
+- M16 | image I11 Favour's circuit: mercy out, praise back | role here: touch
+- M17 | image I12 Credit run to its named term | role here: touch
+- M18 | meeting I12 × I6 at 1:5:2 — the owned as property
+- M19 | image I13 Blood answered | role here: touch
+- M20 | image I14 Halted, leaning, standing up again | role here: develop
+- M21 | meeting I14 × I7 at 1:5:4 — Form X answers Form X
+- M22 | meeting I14 × I6 at 1:5:2 — solidity against tractability
+- M23 | image I15 The bride conveyed, the household formed and guarded | role here: touch
+- M24 | image I16 Sent to its destination: gift, offering, season | role here: develop
+- M25 | image I17 Bound by the name: oath, pact, protected client | role here: touch
+- M26 | image I18 One company held, or scattered | role here: develop
+- M27 | meeting I18 × I3 at 1:5:2 — herd and company scatter in one word
+- M28 | meeting I18 × I7 at 1:5:2 — the plural voice
+- M29 | image I19 Contest: backing, blade against shield, ambush, rout | role here: develop
+- M30 | image I20 The day fixed by what stands overhead | role here: touch
+- M31 | image I23 The coated hull under its captain | role here: develop
+- M32 | image I25 Set apart from its other | role here: develop
+- M33 | meeting I25 × I7 at 1:5:1 — iyyāka's exclusivity
+- M34 | passage 11:123 [same-word]
+- M35 | passage 28:14 [staging]
+- M36 | passage 16:7 [staging]
+- M37 | passage 9:92 [staging]
+- M38 | passage 16:76 [staging]
+- M39 | passage 16:69 [staging]
+- M40 | passage 36:61 [same-word]
+- M41 | passage 67:22 [staging]
+- M42 | passage 36:72 [staging]
+- M43 | passage 16:75 [staging]
+- M44 | passage 26:71 [same-word]
+- M45 | passage 7:59 [same-word]
+- M46 | passage 11:37 [staging]
+- M47 | passage 76:5 [staging]
+- M48 | passage 43:81 [same-word]
+- M49 | passage 74:50 [staging]
+- M50 | passage 6:153 [staging]
+- M51 | passage 22:27 [staging]
+- M52 | passage 28:18 [staging]
+- M53 | passage 8:9 [staging]
+- M54 | passage 25:67 [staging]
+- M55 | passage 17:110 [staging]
+- M56 | passage 46:15 [staging]
+- M57 | passage 19:25 [staging]
+- M58 | passage 61:4 [staging]
+- M59 | passage 5:97 [staging]
+- M60 | passage 19:65 [same-word]
+- M61 | passage 7:128 [same-word]
+- M62 | passage 28:17 [staging]
+- M63 | passage 34:40 [same-word]
+- M64 | passage 29:56 [same-word]
+- M65 | passage 6:41 [same-word]
+- M66 | passage 15:99 [same-word]
+- M67 | passage 39:64 [same-word]
+- M68 | passage 52:48 [staging]
+- M69 | passage 9:111 [staging]
+- M70 | passage 88:12 [staging]
+- M71 | passage 2:60 [staging]
+- M72 | passage 18:86 [staging]
+- M73 | passage 21:80 [staging]
+- M74 | passage 66:5 [staging]
+- M75 | passage 10:28 [same-word]
+- M76 | passage 2:172 [same-word]
+- M77 | passage 17:67 [same-word]
+- M78 | passage 3:64 [same-word]
+- M79 | passage 2:133 [same-word]
+- M80 | passage 3:51 [same-word]
+- M81 | passage 43:64 [same-word]
+- M82 | passage 51:56 [same-word]
+- M83 | passage 36:22 [same-word]
+- M84 | passage 109:2 [same-word]
+- M85 | passage 19:42 [same-word]
+- M86 | passage 2:45 [same-word]
+- M87 | passage 2:153 [same-word]
+- M88 | passage 39:2 [same-word]

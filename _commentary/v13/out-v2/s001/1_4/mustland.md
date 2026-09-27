@@ -1,0 +1,48 @@
+# mustland.md — what the commentary of 1:4 must carry
+
+- M1 | image I1 The guided road and its fork | role here: develop
+- M2 | image I2 Mark and its reader | role here: touch
+- M3 | image I3 The herd under its owner, and the stray whose lord is unknown | role here: develop
+- M4 | meeting I3 × I6 at 1:4:1 — the Owner of the Day is the owner of the herd, and the ʿabd is the owned one
+- M5 | image I4 The womb that holds and the tie that can be cut | role here: touch
+- M6 | meeting I4 × I21 at 1:4:2 — wombs will not avail that day, and mercy is the tie that remains (1:3 F10)
+- M7 | image I5 Formed, reared, stood up | role here: touch
+- M8 | image I6 Owner above, owned below: the grip that does not let go | role here: assemble | show the whole image with every member (see the network line)
+- M9 | meeting I6 × I21 at 1:4:1 — ownership is withdrawn from every holder on the Day
+- M10 | meeting I6 × I3 at 1:4:1 — the owner of the herd
+- M11 | image I7 The name worshipped, turned to "You" | role here: touch
+- M12 | image I8 Water held and water lost | role here: assemble | show the whole image with every member (see the network line)
+- M13 | image I9 The station found good and stayed in | role here: develop
+- M14 | meeting I9 × I8 at 1:4:1 — water is what makes the halt
+- M15 | image I10 Soft and hardened under the same "upon them" | role here: touch
+- M16 | image I11 Favour's circuit: mercy out, praise back | role here: touch
+- M17 | meeting I11 × I12 at 1:4:3 — favour as a claim settled on the Day
+- M18 | image I12 Credit run to its named term | role here: assemble | show the whole image with every member (see the network line)
+- M19 | meeting I12 × I21 at 1:4:3 — the Day of dīn
+- M20 | image I13 Blood answered | role here: meet
+- M21 | meeting I13 × I21 at 1:4:3 — the final settlement
+- M22 | image I14 Halted, leaning, standing up again | role here: develop
+- M23 | image I15 The bride conveyed, the household formed and guarded | role here: touch
+- M24 | image I16 Sent to its destination: gift, offering, season | role here: touch
+- M25 | image I17 Bound by the name: oath, pact, protected client | role here: touch
+- M26 | image I19 Contest: backing, blade against shield, ambush, rout | role here: develop
+- M27 | image I20 The day fixed by what stands overhead | role here: assemble | show the whole image with every member (see the network line)
+- M28 | meeting I20 × I21 at 1:4:2 — ordinary days frame the Day
+- M29 | image I21 The Day the King sits and creation stands | role here: assemble | show the whole image with every member (see the network line)
+- M30 | meeting I21 × I12/I13 at 1:4:3 — settlement of claims
+- M31 | meeting I21 × I4 at 1:4:2 — ties cut
+- M32 | meeting I21 × I25 at 1:4:2 — the day sorts
+- M33 | meeting I21 × I6 at 1:4:1 — the final grip
+- M34 | meeting I21 × I20 at 1:4:2
+- M35 | image I23 The coated hull under its captain | role here: touch
+- M36 | meeting I23 × I14 at 1:4:1 — cohesion
+- M37 | image I24 Report, trial, verdict of praise | role here: develop
+- M38 | meeting I24 × I21 at 1:4:2 — the Day is the trial
+- M39 | image I25 Set apart from its other | role here: develop
+- M40 | meeting I25 × I21 at 1:4:2 — the sorting day
+- M41 | passage 69:17 [staging]
+- M42 | passage 82:17 [same-word]
+- M43 | passage 39:67 [staging]
+- M44 | passage 11:56 [staging]
+- M45 | passage 16:52 [same-word]
+- M46 | passage 3:83 [same-word]
