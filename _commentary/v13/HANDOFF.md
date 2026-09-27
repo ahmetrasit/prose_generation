@@ -97,7 +97,7 @@ shared-prefix cache hits (DESIGN §9): production needs the API with `cache_cont
 | xhigh throughout | 7,314 | 136 | $14.00 |
 
 Content is about equal (trodden road → 1:6, ʿabd = mamlūk, the root's anger ↔ maghḍūb, wild-ass herd, broken-down
-mount in all four; G012, ilāh defined through ʿabada, missed by every version). v2 reads best for its cost (the
+mount in all four; G012, ilāh defined through ʿabada, mentioned in the first run and integrated in the other three: see EVAL_ANCHORS.md). v2 reads best for its cost (the
 breakdown scene with 16:7, 9:92, 16:76); mixed assembles the most cross-root scenes (a four-root traveller scene: the
 xhigh network's gain) but is the densest; xhigh adds 39:29 and 67:15 and marks a hadith as from memory, at 3.3× v2.
 The length of the three new versions is the must-land overshoot, not effort. Recommendation: high for the per-ayah
@@ -131,7 +131,12 @@ deciding; xhigh costs ≈ 2–3× on QeQ.
 
 ## Next steps (in order)
 
-1. (done) the 1:5 effort comparison: see above.
+1. (done) the 1:5 effort comparison: see above. (done 17:00) **Anchor scoring of the six 1:5/1:6 outputs:
+   `EVAL_ANCHORS.md`.** Result: v2 has no anchor regression against the first run (1:5: 10 → 19 integrated of 22;
+   1:6: 23 → 27 of 30, one loss: 2:255); the "first-run 1:6 is richest" judgment is about form (6 headings, 52 short
+   paragraphs) not content (v2: no headings, 23 paragraphs of median 275 words, longest 897). Mixed/xhigh add scenes,
+   not anchors, at 2–3.4× the cost. G012 is present in every 1:5 arm (the line above is corrected). Regression is
+   therefore two numbers: anchors (recall) and form (words, headings, paragraph length, tags).
 2. Correct the must-land rule (proposed, not yet agreed): only `staging` passages are must-land (`same-word` are
    suggestions); `touch` = one clause; full treatment only where the ayah `develops` or `assembles`; cap ≈ 25 items,
    ranked by the network (assemble > develop > meeting > staging > touch). Tag less in QeQ (only real stagings).
