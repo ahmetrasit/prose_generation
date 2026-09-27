@@ -46,7 +46,7 @@ Known answers are in `eval/` — never put `eval/` or this file into a model's i
 - One package per root (user decision): every occurrence in one grouping session; micro run = 7 sessions per arm plus
   repairs. Work folders rebuilt (reviewed alternatives in 01_dictionary.md).
 
-## 2026-09-27 (evening): first real Luna run — 10-root test (IN PROGRESS)
+## 2026-09-27 (evening): first real Luna run — 10-root test (DONE 23:31)
 - Run: `cd /Volumes/OZTURK/_projects/root-dossier && python3 run.py all --list lists/test10.txt --parallel 10`
   (plain arm only; started 22:33; log `logs/test10.run.log`; outputs in `out/`, NOT yet committed). Roots: the micro
   seven (ح م ء, ن ف خ, ر ب ب, ص ل و, ع ر ش, و س م, و ل ه) + Fātiḥa ع و ن, غ ض ب, ص ر ط. The run started with the old
@@ -73,6 +73,13 @@ Known answers are in `eval/` — never put `eval/` or this file into a model's i
   groups (constructions vs stated contexts; fragmentation; the rabb classes in known_dossiers.json), rescore, read
   usage.md for 1:2, 1:5, 1:6, 1:7, then commit root-dossier `out/` + `lists/test10.txt` and write the user one short
   summary (what works, what to fix). If it failed: report, do not rerun.
+- ر ب ب finished 23:31 (57 min; 2 sessions: 1 repair for 2 unplaced ids; 8.6M input tokens, 8.1M cached; 179K out).
+  35 groups, 0 mixed with the known classes, branches B001/B003 rabbāniyyūn/B004 ribbiyyūn/B005 rabāʾib right.
+  Found: the big groups are broad genres ("People refer to their Lord in statements, questions, and accounts of
+  events", 209 ids) rather than stated contexts; membership errors (2:129:1, "Our Lord, raise among them a
+  messenger", sits in "Prophets tell their people they are messengers from the Lord of the worlds", while 26:16 and
+  43:46 sit in the 209 catch-all). usage.md for 1:2 (PER_ROOT 2000) shows 12 of 35 groups and hides the master /
+  arbāb / Pharaoh groups. Dossiers are not authoritative for the writer (user, 2026-09-27).
 
 ## 2026-09-27 (night): next dossier run — remaining S1, 29:38-45, 18:83-99 (IN PROGRESS)
 - User's plan (replacing "all of S1, S29, S100"): the remaining roots of S1 without ء ل ه (the user: do not include
