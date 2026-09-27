@@ -42,7 +42,9 @@ PROMPTS = V13 / "prompts"
 MAX_COST = 5.0
 PRICE_IN, PRICE_OUT = 8e-6, 20e-6      # claude -p: input as a one-hour cache write; output
 TOK_PER_BYTE = 1.16                    # calibrated on the v12 S1 run
-EXPECTED_OUT = {"act": 80_000, "net": 50_000, "qeq": 40_000, "write": 70_000}
+EXPECTED_OUT = {"act": 80_000, "net": 50_000, "qeq": 40_000, "write": 70_000}   # at effort high
+EFFORT_FACTOR = {"high": 1.0, "xhigh": 1.3, "max": 1.6}                         # guesses until measured
+EFFORT = "high"
 STAGGER = 60                           # seconds between the first call of a window and the rest
 SYSTEM = ("You are a careful scholar of Quranic Arabic and of the Quran, and a fine writer. Follow the brief exactly and "
           "return only the requested output.")
@@ -74,7 +76,27 @@ def set_status(ref: str, step: str, **kw) -> dict:
 
 
 def estimate(nbytes: int, step: str) -> float:
-    return nbytes * TOK_PER_BYTE * PRICE_IN + EXPECTED_OUT[step] * PRICE_OUT
+    return nbytes * TOK_PER_BYTE * PRICE_IN + EXPECTED_OUT[step] * EFFORT_FACTOR[EFFORT] * PRICE_OUT
+
+
+def usage_detail(log: Path) -> dict:
+    """Token use of the last call in a claude -p stream log: cache writes, cache reads, output, thinking, time."""
+    res = None
+    for line in log.read_text(encoding="utf-8").splitlines() if log.exists() else []:
+        try:
+            d = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if d.get("type") == "result":
+            res = d
+    if not res:
+        return {}
+    u = res.get("usage") or {}
+    return {"effort": EFFORT, "cost": round(res.get("total_cost_usd") or 0, 3),
+            "minutes": round((res.get("duration_ms") or 0) / 60000, 1),
+            "cache_write": u.get("cache_creation_input_tokens", 0), "cache_read": u.get("cache_read_input_tokens", 0),
+            "input": u.get("input_tokens", 0), "output": u.get("output_tokens", 0),
+            "thinking": (u.get("output_tokens_details") or {}).get("thinking_tokens", 0)}
 
 
 def call(ref: str, step: str, files: list[Path], marker: str, target: Path) -> str:
@@ -93,7 +115,8 @@ def call(ref: str, step: str, files: list[Path], marker: str, target: Path) -> s
     set_status(ref, step, state="started", estimate=round(est, 2), input_bytes=len(stdin.encode()),
                files=[f.name for f in files])
     try:
-        text, u = R12.opus(prompt, stdin, out_dir(ref) / f"{step}.log.jsonl")
+        text, u = R12.opus(prompt, stdin, out_dir(ref) / f"{step}.log.jsonl", EFFORT)
+        u.update(usage_detail(out_dir(ref) / f"{step}.log.jsonl"))
         body = text.split(marker, 1)[1].strip() if marker in text else ""
         if not body:
             (out_dir(ref) / f"{step}.raw.txt").write_text(text, encoding="utf-8")
@@ -169,7 +192,8 @@ def net(surah: int, refs: list[str]) -> str:
     if est >= MAX_COST:
         return f"surah {surah} net: NOT STARTED (estimate ${est:.2f})"
     set_net_status(surah, state="started", estimate=round(est, 2), refs=refs)
-    text, u = R12.opus(prompt, stdin, out / "net.log.jsonl")
+    text, u = R12.opus(prompt, stdin, out / "net.log.jsonl", EFFORT)
+    u.update(usage_detail(out / "net.log.jsonl"))
     body = text.split("===== NETWORK =====", 1)[1].strip() if "===== NETWORK =====" in text else ""
     if not body:
         (out / "net.raw.txt").write_text(text, encoding="utf-8")
@@ -267,7 +291,8 @@ def _write_call(ref: str, files: list[Path], target: Path) -> str:
     set_status(ref, "write", state="started", estimate=round(est, 2), input_bytes=len(stdin.encode()),
                files=[f.name for f in files])
     try:
-        text, u = R12.opus(prompt, stdin, out_dir(ref) / "write.log.jsonl")
+        text, u = R12.opus(prompt, stdin, out_dir(ref) / "write.log.jsonl", EFFORT)
+        u.update(usage_detail(out_dir(ref) / "write.log.jsonl"))
         if len(text.split()) < 300:
             (out_dir(ref) / "write.raw.txt").write_text(text, encoding="utf-8")
             set_status(ref, "write", state="failed", error="no usable commentary (no retry, by rule)", **u)
@@ -288,7 +313,10 @@ def status(refs: list[str]) -> str:
         cells = []
         for step in ("act", "qeq", "write"):
             d = get_status(r, step)
-            cells.append(f"{step} {d['state']}" + (f" ${d.get('cost', 0):.2f}" if d.get("cost") else ""))
+            cells.append(f"{step} {d['state']}" + (f" ${d.get('cost', 0):.2f} [{d.get('effort', '')}: write "
+                                                    f"{d.get('cache_write', 0):,} read {d.get('cache_read', 0):,} out "
+                                                    f"{d.get('output', 0):,} think {d.get('thinking', 0):,}; "
+                                                    f"{d.get('minutes', 0)} min]" if d.get("cost") else ""))
         rows.append(f"{r}\t" + "\t".join(cells))
     return "\n".join(rows)
 
@@ -314,7 +342,14 @@ def main() -> None:
     ap.add_argument("ref")
     ap.add_argument("--refs", help="net: the ayat whose records form the network (default: the whole surah)")
     ap.add_argument("--parallel", type=int, default=8)
+    ap.add_argument("--effort", default="high", choices=("high", "xhigh", "max"))
+    ap.add_argument("--tag", help="outputs in out-TAG/ (an arm, e.g. --tag max --effort max)")
+    ap.add_argument("--max-cost", type=float, default=5.0)
     a = ap.parse_args()
+    global EFFORT, OUT, MAX_COST
+    EFFORT, MAX_COST = a.effort, a.max_cost
+    if a.tag:
+        OUT = V13 / f"out-{a.tag}"
     if a.step == "net":
         s = int(a.ref)
         refs = a.refs.split(",") if a.refs else R12.surah_refs(s)
