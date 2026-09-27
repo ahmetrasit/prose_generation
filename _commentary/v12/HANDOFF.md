@@ -35,14 +35,16 @@ against the code and the data.
 - Evidence per ayah: `context.md`, `digest_v2.md` (V9/V11); `01_dictionary.md` rebuilt fresh at every prep (V11's
   package copy is built once and never refreshed); `hft.md` (from `focus_trace/runs`,
   traces checked by script, steps marked with the plain branch and usage group when a dossier exists), `channels.md`,
-  `neighbours.md`, `usage.md` (root dossiers; absent until dossiers exist); with usage.md, a v12 copy of
-  `digest_v2.md` whose usage blocks for those roots are pointers.
+  `neighbours.md`, `usage.md` (root dossiers: every group listed; roots without a dossier named; not authoritative —
+  the writer checks what it builds on and records corrections as `usage.md:` ledger lines); `digest_v2.md` whole.
 - Inputs 189–354 KB per ayah; estimates $2.7–4.0 per ayah at 1 token per byte (`run.py … --estimate`).
-- `run.py`: estimate gate, no retry, repair costs counted, `--no-usage`, `--tag` (arms), `DOSSIER_OUT` (dossier arms).
+- `run.py`: estimate gate, no retry, never twice (an ayah or surah pass that had a call is never called again; no
+  `--force`), repair costs counted, `--no-usage`, `--tag` (arms), `DOSSIER_OUT` (dossier arms).
 
 **root-dossier** (`/Volumes/OZTURK/_projects/root-dossier`, private GitHub `ahmetrasit/root-dossier`, `main`):
-rewritten descriptive and stub-tested end to end (grouping → repair → assign → hapax → final → usage.md → v12 inputs);
-**no Luna session has run.** See its README for the design.
+descriptive; one package per root; never rerun, at most one repair, a root is analyzed once (no `--force`); 15 sessions
+at once. Done: the 10-root test (NOTES.md, 2026-09-27 evening). Running: `lists/next.txt` (113 roots: the rest of S1
+without ء ل ه, then 29:38-45, then 18:83-99). See its README for the design.
 
 ## Decisions made
 
@@ -65,7 +67,7 @@ rewritten descriptive and stub-tested end to end (grouping → repair → assign
 
 ## Waiting on the user
 
-1. The micro run (two arms), in the root-dossier repo.
+1. The go for S1 in v12 once its dossiers are done (plan in NOTES.md), and whether to add a no-usage arm.
 2. The go for the S29 probe (estimate ≈ $11; with usage.md on and off, ≈ $22).
 3. Dictionary: done through quran-data `ae9e79c54` and `2f01f7e05` (reviewed alternatives: و ل ه for ٱللَّه and إِلَٰه,
    ب ن و for ٱبْن, بُنَىّ, بَنَات, ٱبْنَت, ح ي و for حَيَوٰة and حَيَوَان); both workflows read them (v12 through V9
@@ -77,9 +79,9 @@ rewritten descriptive and stub-tested end to end (grouping → repair → assign
 
 ## Remaining work, in order
 
-1. The 10-root test run is in progress (NOTES.md, 2026-09-27 evening): finish its review and summary; then decide
-   the word-analysis arm and the next list.
-2. Pilot (54 roots), then all roots.
+1. The dossier run `lists/next.txt` (NOTES.md, 2026-09-27 night); then check usage.md sizes for S1 (every group is
+   listed now) against the $5 gate.
+2. More roots when the user asks; the word-analysis arm only if the user asks.
 3. v12 test runs (each needs the user's go): the S29 probe (usage on/off); S1 in full plus the surah pass, then an Opus
    judge and the user's blind read against v11 and v5 (`_commentary/v11/eval/s001_anchors.md`); S100 if S1 passes.
 4. Not built: a whole-surah map for long surahs (the surah pass runs per passage window); production through the

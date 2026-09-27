@@ -11,8 +11,10 @@ Work in the repo root (`/Volumes/OZTURK/_projects/prose_generation`).
   stopped and never retried, whatever it costs. An ayah over the limit is not started (`over-cost`); an unusable answer
   marks the ayah `failed` (no retry). Only the small tag-repair calls (medium effort, a few paragraphs) follow a writer
   call; their cost is recorded (`repair_cost`, `total_cost`).
-- Never restart or kill a running write (the lock skips it); running the same command again is always safe (finished
-  ayat are skipped).
+- Never restart or kill a running write (the lock skips it).
+- **Never twice** (user rule): an ayah whose writer call started (`writing`, `checking`, `done`, `failed`) is never
+  called again, and a surah window whose pass started is never run again; the commands skip them and say so. Running
+  the same command again is therefore safe. There is no `--force`; only the user clears an output.
 - Never put `NOTES.md` or anything in `eval/` into a model's input (known answers).
 - Commit and push after each run (work on main).
 
@@ -50,8 +52,7 @@ Run arms one after another, never at the same time: they share the evidence fold
 
 Per ayah: prep (scripts) → estimate → one Opus call (ledger + reading) → check (commas, sources, validator; at most one
 small repair call; then unverifiable tags become plain Turkish) → render. Long surahs: the surah pass runs once per
-passage window. Options: `--effort high|xhigh|max` (default high), `--max-cost N`, `--force` (redo finished ayat;
-only when the user asks), `--tag NAME` (outputs in `out-NAME/`).
+passage window. Options: `--effort high|xhigh|max` (default high), `--max-cost N`, `--tag NAME` (outputs in `out-NAME/`).
 
 ## 3. Watch and finish
 
@@ -60,9 +61,11 @@ python3 _commentary/v12/run.py status 1            # one line per ayah: state, c
 ```
 
 States: `prep`, `writing`, `checking`, `done`, `failed` (the error is in status.json), `over-cost` (not started).
-- `failed`: report it with the error; do not rerun without the user (a rerun is a new call).
+- `failed`: report it with the error; `run.py` never calls it again (a redo needs the user to clear it).
 - `over-cost`: report the estimate; the user decides (e.g. `--max-cost`, a smaller input, or not at all).
 - `stripped n` in status: n tags could not be verified and became plain Turkish. Report counts above 3 per ayah.
+- `dossier_corrections` in check.txt: the writer's `usage.md:` ledger lines (a root dossier it found wrong). Collect
+  them for the root-dossier repo; they never reach the reader's page.
 - `usage_error` in status: deliver.py failed; usage.md is missing from that ayah's evidence. Report it.
 
 Outputs: `out/sNNN/S_A/S_A.md` (reading + Kur'an'ı Kur'an'la + Kur'an'da bu kelimeler + Kelimeler ve okuyuşlar +

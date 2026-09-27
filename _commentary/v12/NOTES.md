@@ -92,6 +92,22 @@ Known answers are in `eval/` — never put `eval/` or this file into a model's i
 - When it finishes: failures (report, no rerun), repairs/salvage/residual, lint flags, fragmentation on the big roots;
   commit root-dossier `out/` + `lists/next.txt`; one short summary to the user.
 
+## 2026-09-27 (night): v12 takes the dossiers as a map, not a verdict (user decision)
+- The user: the Opus writer must not treat the root dossiers as authoritative (errors are possible; ر ب ب showed
+  some). Done: write.md says where each input comes from; usage.md separates script facts (occurrences, ids,
+  counts, forms, dictionary branch lines) from the model's grouping (groups, labels, branches, exceptions, minor
+  notes, the ▶ group, never-plain branches); the writer checks what it builds on and records dossier errors as
+  `usage.md: …` ledger lines (kept off the reader's page; check.txt `dossier_corrections`, for root-dossier).
+  "How large a group is" dropped (fragmentation accepted, sizes mean nothing). surah.md likewise.
+- deliver.py: every group of every root is listed (PER_ROOT removed; ids abbreviated; PER_AYAH 60 KB as a safety cap);
+  roots of the ayah without a dossier are named (ء ل ه by the user's choice). digest_v2.md is no longer replaced by
+  pointers (its claim "every occurrence… see usage.md" was false under the old cap; the digest is small and
+  script-made, a cross-check).
+- run.py (v12): never twice — an ayah whose call started (writing/checking/done/failed) or a surah window whose pass
+  started is never called again (the surah command used to rerun the surah pass every time); `--force` removed.
+- Not changed (no rerun): the و ل ه minor note for ٱللَّه contradicts its branch (B001 vs "no branch states it").
+- To do when the S1 roots are done: prep 1:1-7, read usage.md, check sizes and estimates, ask the user's go.
+
 ## Next
 1. Finish the 10-root test (above): summary to the user; the word-analysis arm only if the user asks.
 2. S29 probe (needs the user's go), usage on and off.

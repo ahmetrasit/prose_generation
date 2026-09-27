@@ -7,7 +7,9 @@ Everything above this brief is evidence, not yet judged:
   (`[!]` = a broken trace step).
 - **branch_table.md**: every attested branch of every root in the surah or passage.
 - **usage.md** (when present): root dossiers for roots that recur here: each root's occurrences in this window with
-  the Quran-wide usage group (stated context) each belongs to and its size. A concordance, not an interpretation.
+  the Quran-wide usage group (stated context) each belongs to. A concordance, not an interpretation; the occurrence
+  lists are exact (script), the grouping and branches are a model's and possibly wrong (check what you build on; a
+  group's size means nothing). Ledger lines beginning `usage.md:` are the ayah writers' corrections of it.
 - the **ledger of every ayah** (S_A.ledger.md), each written with the chain map in view. Their `Chains` lines say how
   each ayah's word takes part in the known chains and whether it holds; their `New` lines hold readings the map
   lacked; their Quran, Usage and Limits lines hold the passages that ground or bound them.

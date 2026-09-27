@@ -24,9 +24,12 @@ $8/M (one-hour cache write) plus the expected output tokens at $20/M, both calib
 Usage: python3 _commentary/v12/run.py ayah 29:39,29:41,29:45 --parallel 3
        python3 _commentary/v12/run.py surah 1 --parallel 7
        python3 _commentary/v12/run.py status 1
-Options: --effort high|xhigh|max (writer; default high), --force (redo finished ayat), --max-cost 5 (a call starts only
-         below this estimate), --no-usage (leave usage.md out), --tag NAME (outputs in out-NAME/, for arms).
+Options: --effort high|xhigh|max (writer; default high), --max-cost 5 (a call starts only below this estimate), --no-usage (leave usage.md out), --tag NAME (outputs in out-NAME/, for arms).
 Outputs: _commentary/v12/out/sNNN/S_A/, out/sNNN/surah/<window>/.
+
+Never twice (user rule): an ayah whose writer call started (state writing, checking, done or failed) is never called
+again, and a surah window whose pass started is never run again; the commands skip them and say so. Not started
+(new, prep, over-cost) can run. There is no --force; only the user clears an output (by removing it).
 """
 from __future__ import annotations
 
@@ -56,7 +59,6 @@ SYSTEM = ("You are a careful scholar of Quranic Arabic and a fine Turkish prose 
           "the user message exactly and return only the requested output.")
 EFFORT = "high"
 MAX_COST = 5.0
-FORCE = False
 USAGE = True                  # --no-usage: usage.md (root dossiers) is left out of the evidence
 OUT = V12 / "out"             # --tag NAME: V12 / "out-NAME"
 PRICE_IN, PRICE_OUT = 8e-6, 20e-6        # $/token: input as a one-hour cache write, output (V11 100:7 bill: exact)
@@ -205,7 +207,7 @@ def prep(ref: str) -> dict:
 
 def evidence(ref: str) -> list[Path]:
     p = paths(ref)
-    dig = p["in"] / "digest_v2.md" if USAGE and (p["in"] / "digest_v2.md").exists() else p["v9w"] / "digest_v2.md"
+    dig = p["v9w"] / "digest_v2.md"
     dic = p["in"] / "01_dictionary.md" if (p["in"] / "01_dictionary.md").exists() else p["pkg"] / "01_dictionary.md"
     files = [p["v9w"] / "context.md", dic, dig]
     names = ("usage.md", "hft.md", "channels.md", "neighbours.md") if USAGE else ("hft.md", "channels.md", "neighbours.md")
@@ -447,6 +449,8 @@ def check(ref: str) -> dict:
         "reading_words": len(body.split()),
         "reading_refs": len(set(re.findall(r"\b\d{1,3}:\d{1,3}\b", body))),
         "related_uncited": len(uncited), "related_uncited_first": uncited[:15],
+        # the writer's corrections of the root dossiers (ledger lines beginning `usage.md:`), fed back to root-dossier
+        "dossier_corrections": [l for v in fam.values() for l in v if re.search(r"\]\s*usage\.md:", l)],
         "input_bytes": sum(f.stat().st_size for f in evidence(ref) + [V12 / "prompts" / "write.md"]), "inputs": sizes})
     (p["out"] / "check.txt").write_text(json.dumps(res, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     return res
@@ -491,6 +495,8 @@ def render(ref: str) -> None:
                     m = re.match(r"- \[refs:\s*([^|\]]*)\|[^|\]]*\|\s*(\w+)\s*\]\s*(.*)", line)
                     refs = [r.strip() for r in m.group(1).split(",") if r.strip()] if m else []
                     grade, txt = (m.group(2), m.group(3)) if m else ("", line[2:])
+                    if txt.lstrip().startswith("usage.md:"):  # a correction of a root dossier: feedback, not for readers
+                        continue
                     out.append(f"- **{', '.join(refs) or '—'}** ({grade}) {txt}{pointers(refs)}")
                     if with_text:
                         for r in refs:
@@ -526,19 +532,39 @@ def read_sizes(ref: str) -> dict[str, int]:
     return out
 
 
+CALLED = ("writing", "checking", "done", "failed")  # a writer call started: never again (user rule)
+
+
+def called(ref: str) -> bool:
+    return get_status(ref).get("state") in CALLED
+
+
+def pass_started(out: Path) -> bool:
+    """A surah window's pass started (check.txt written after the call), unless it was only refused over the cost."""
+    f = out / "check.txt"
+    if not f.exists():
+        return False
+    try:
+        return not str(json.loads(f.read_text(encoding="utf-8")).get("failed", "")).startswith("not started")
+    except ValueError:
+        return True
+
+
 def done(ref: str) -> bool:
     return get_status(ref).get("state") == "done" and (paths(ref)["out"] / f"{paths(ref)['sa']}.md").exists()
 
 
 def ayah(ref: str, prepped: bool = False) -> str:
     """prep → write → check → render, with status and lock; never raises (the status says what happened)."""
-    if done(ref) and not FORCE:
-        return f"{ref}: done (skipped)"
+    if called(ref):
+        return f"{ref}: already called ({get_status(ref).get('state')}; never again)"
     p = paths(ref)
     if ref in _HELD or not acquire(ref):
         return f"{ref}: running elsewhere (skipped)"
     _HELD.add(ref)
     try:
+        if called(ref):  # another run called it after this one looked
+            return f"{ref}: already called ({get_status(ref).get('state')}; never again)"
         set_status(ref, state="prep")
         sizes = read_sizes(ref) if prepped and (p["in"] / "inputs.tsv").exists() else prep(ref)
         usage_err = (p["in"] / "usage.error.txt").read_text(encoding="utf-8")[-300:] if (p["in"] / "usage.error.txt").exists() else ""
@@ -587,6 +613,8 @@ def chains(s: int, win: tuple[int, int] | None = None) -> str:
     refs = [f"{s}:{a}" for a in range(lo, hi + 1)]
     out = surah_out(s, (lo, hi))
     out.mkdir(parents=True, exist_ok=True)
+    if pass_started(out):
+        return f"surah {s} {lo}-{hi}: pass already run (never again; {out / 'check.txt'})"
     ledgers = [paths(r)["out"] / f"{paths(r)['sa']}.ledger.md" for r in refs]
     missing = [r for r, l in zip(refs, ledgers) if not l.exists()]
     if missing:
@@ -650,7 +678,7 @@ def status(s: int) -> str:
 
 
 def main() -> None:
-    global EFFORT, MAX_COST, FORCE, USAGE, OUT
+    global EFFORT, MAX_COST, USAGE, OUT
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("step", choices=("prep", "write", "check", "render", "ayah", "surah", "chains", "status"))
     ap.add_argument("ref", help="S:A (comma-separated for several), or a surah number")
@@ -659,12 +687,11 @@ def main() -> None:
     ap.add_argument("--max-cost", type=float, default=5.0)
     ap.add_argument("--window", help="chains: LO-HI (default: the whole surah, or every passage window)")
     ap.add_argument("--no-chains", action="store_true")
-    ap.add_argument("--force", action="store_true")
     ap.add_argument("--no-usage", action="store_true", help="leave usage.md (root dossiers) out of the evidence")
     ap.add_argument("--tag", help="write to out-TAG/ instead of out/ (arms, e.g. --tag nousage)")
     ap.add_argument("--estimate", action="store_true", help="ayah/surah: print the cost estimate per ayah and exit")
     a = ap.parse_args()
-    EFFORT, MAX_COST, FORCE, USAGE = a.effort, a.max_cost, a.force, not a.no_usage
+    EFFORT, MAX_COST, USAGE = a.effort, a.max_cost, not a.no_usage
     if a.tag:
         OUT = V12 / f"out-{a.tag}"
     if a.step == "status":
@@ -678,12 +705,15 @@ def main() -> None:
         return
     if a.step in ("prep", "write", "check", "render"):
         for r in a.ref.split(","):
+            if a.step == "write" and called(r) or a.step == "check" and done(r):
+                print(f"{r}: {a.step} refused: already {get_status(r).get('state')} (never again)")
+                continue
             fn = {"prep": prep, "write": write, "check": check, "render": render}[a.step]
             print(r, json.dumps(fn(r), ensure_ascii=False, default=str)[:600] if a.step != "render" else fn(r) or "rendered")
         return
     refs = list(dict.fromkeys(a.ref.split(","))) if a.step == "ayah" else surah_refs(int(a.ref))
     for r in refs:  # scripts first, sequentially (shared caches), so the parallel writers start at once
-        if FORCE or not done(r):
+        if not called(r):
             prep(r)
     if a.estimate:
         tpb, exp = calibration()

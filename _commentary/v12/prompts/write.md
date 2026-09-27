@@ -1,20 +1,29 @@
 # The brief (v12): findings ledger, then the reading (all in Turkish)
 
-Everything above this brief is evidence, prepared by scripts and not yet judged:
-- **context.md**: the ayah, its words, word notes, the Fatiha, and the whole surah (or the ayah's passage).
-- **01_dictionary.md**: every attested branch of every root of this ayah, with the classical dictionaries' phrases.
-- **digest_v2.md**: Quranic reach: variant readings, each root's occurrences, and related passages with the reason
-  an earlier review saw for each.
-- **usage.md** (when present): root dossiers — a concordance of each root of this ayah: all its occurrences in the
-  Quran grouped by the context the ayat state (who does what, to whom, where), each group with the dictionary branch
-  of its plain reading, its forms and members; this ayah's group marked (▶); the branches never used as the plain
-  sense; and, for words with a documented minor root analysis (a disputed derivation), that root's branches. It
-  describes and does not interpret: what the patterns mean for this ayah is your work.
-- **hft.md** (when present): earlier readers' image-chain hypotheses for this ayah, and those of other ayat whose
-  chains pass through it; every trace step resolved to its dictionary branch and checked by script.
-- **channels.md** (when present): the surah's image chains as an earlier whole-surah review mapped them, with the
-  ones anchored in this ayah in full.
-- **neighbours.md**: every branch of the other roots of the surah (or of the ayah's surroundings), one line each.
+Everything above this brief is evidence, not yet judged by you. Where each file comes from decides how far to trust
+it:
+- **context.md** (script, from the Quran text and word data): the ayah, its words, word notes, the Fatiha, and the
+  whole surah (or the ayah's passage).
+- **01_dictionary.md** (the dictionary, copied by script): every attested branch of every root of this ayah, with the
+  classical dictionaries' phrases.
+- **digest_v2.md** (script, with an earlier model review's reasons): Quranic reach: variant readings, each root's
+  occurrences (common forms not listed), and related passages with the reason the earlier review saw for each.
+- **usage.md** (when present): root dossiers — a concordance of each root of this ayah. Made by script and exact: the
+  occurrence lists, ids, counts and forms, and the dictionary branch lines. Made by a model and checked only for
+  structure, so possibly wrong: the grouping of the occurrences by the context the ayat state, the group labels, the
+  branch given to each group, the exceptions, the notes on minor root analyses (disputed derivations), and what
+  follows from them — this ayah's group (▶) and the branches never used as the plain sense. A group can hold an ayah
+  that does not belong to it, one context can be split over several groups, and group size means nothing. Use it as
+  a map of where the Quran uses each root, not as a verdict: before a reading rests on a group, its branch or a
+  "never the plain sense", check the ayat themselves. It describes and does not interpret: what the patterns mean
+  for this ayah is your work.
+- **hft.md** (when present): earlier model readers' image-chain hypotheses for this ayah, and those of other ayat
+  whose chains pass through it; every trace step resolved to its dictionary branch and checked by script. The
+  "[plain here …]" marks come from the root dossiers (a model's grouping, as above).
+- **channels.md** (when present): the surah's image chains as an earlier model's whole-surah review mapped them, with
+  the ones anchored in this ayah in full.
+- **neighbours.md** (the dictionary, by script): every branch of the other roots of the surah (or of the ayah's
+  surroundings), one line each.
 
 ## Who this is for and what it must do
 
@@ -43,8 +52,9 @@ hft.md and channels.md hold what earlier readers found. Do not rediscover or re-
 ## The word through the Quran (al-Khūlī)
 
 For every key word, read how the Quran itself uses the same word and root elsewhere, not only the dictionary.
-usage.md, when present, is the source for this: it groups every occurrence by context, so you can see which group
-this ayah belongs to, how large it is, what the other groups are, and which senses the Quran never uses plainly. The
+usage.md, when present, is the map for this: it lists every occurrence and groups them by context, so you can see
+which contexts the word appears in, which one this ayah shares, and which senses no occurrence was given as its plain
+sense — the grouping is a model's, so check what you build on. The
 word notes in context.md are this ayah's own angle; digest_v2.md and your knowledge of the Quran add the rest. The Quran can load a word with
 something no dictionary branch states: a word whose other occurrences all belong to one kind of scene, one voice or
 one pairing brings that with it; an occurrence that departs from the word's pattern is itself a finding. Say what
@@ -77,7 +87,9 @@ reading takes one direction. One heading per family, in this order; finish Surah
    contrasting scenes, the same people, passages that say the same thing in other words, passages that specify
    what this ayah leaves general. Be generous: every passage that does real work belongs, each with the job it does.
 3. `### Usage` — how the Quran uses this ayah's key words across their occurrences: patterns, scenes and voices the
-   words carry, and where this occurrence follows or departs from them.
+   words carry, and where this occurrence follows or departs from them. Where you find usage.md wrong on something
+   you use or reject (an ayah in the wrong group, a wrong branch, a context split or merged), add a line whose text
+   begins `usage.md:` saying what is wrong and what the ayat show.
 4. `### Limits` — ayat that bound, qualify or push back against a reading you record (for every bold reading, look
    for them), each with what it limits and how the reading stands with it.
 5. `### Dictionary` — attested senses and images that change, ground or complicate a reading. Before you set a

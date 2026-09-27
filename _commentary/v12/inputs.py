@@ -17,10 +17,9 @@ New in V12:
   neighbours.md     one line per branch of every other root in the surah (short surahs) or in the ayah's passage
                     (pericope ± 7 ayat), so a picture this ayah starts can be completed with another ayah's word
   usage.md          root dossiers for the ayah's roots (`_projects/root-dossier/deliver.py`), when they exist: each
-                    root's occurrences grouped by stated context, this ayah's group marked, the plain-reading branch
-  digest_v2.md      (v12 copy, only when usage.md exists) V11's digest with the usage block of every root that usage.md
-                    covers replaced by a pointer (the dossier lists every occurrence; the digest skipped common forms);
-                    run.py uses V11's own digest when usage.md is switched off
+                    root's occurrences grouped by stated context, this ayah's group marked, the plain-reading branch,
+                    every group of the root listed; the grouping is a model's (Luna), not authoritative; V11's
+                    digest_v2.md stays whole beside it (script-made occurrence lists, a cross-check)
   inputs.tsv        bytes per input file
 
 Usage: python3 _commentary/v12/inputs.py 1:7 [--window-only]
@@ -438,26 +437,6 @@ def deliver(args: list[str], target: Path) -> bool:
     return True
 
 
-def digest_with_pointers(digest: Path, usage: Path, target: Path) -> None:
-    """V11's digest with the usage block (### U-…) of every root that usage.md covers replaced by one line."""
-    if not usage.exists() or not digest.exists():
-        target.unlink(missing_ok=True)
-        return
-    covered = set(re.findall(r"(?m)^### ([ء-ي](?: [ء-ي]){1,4}) — ", usage.read_text(encoding="utf-8")))
-    out, skip = [], False
-    for line in digest.read_text(encoding="utf-8").splitlines():
-        m = re.match(r"^### U-\S+ root ([ء-ي](?: [ء-ي]){1,4}) ", line)
-        if m:
-            skip = m.group(1) in covered
-            out.append(line + ("\n- every occurrence, grouped by context: see usage.md" if skip else ""))
-            continue
-        if line.startswith("#"):
-            skip = False
-        if not skip:
-            out.append(line)
-    target.write_text("\n".join(out) + "\n", encoding="utf-8")
-
-
 def build(ref: str) -> dict[str, int]:
     prep_v11(ref)
     s = int(ref.split(":")[0])
@@ -481,7 +460,7 @@ def build(ref: str) -> dict[str, int]:
             f.unlink()
     deliver(["ayah", ref], out / "usage.md")
     v9w = V9 / "lines" / "work" / f"{s}_{ref.split(':')[1]}"
-    digest_with_pointers(v9w / "digest_v2.md", out / "usage.md", out / "digest_v2.md")
+    (out / "digest_v2.md").unlink(missing_ok=True)  # V11's digest is used whole (earlier v12 copies had pointers)
     (out / "01_dictionary.md").write_text(P.section_dictionary(src(), ref), encoding="utf-8")
     pkg = V9 / "input" / "v2" / f"s{s:03d}" / f"{s}_{ref.split(':')[1]}"
     sizes = {}
@@ -489,8 +468,6 @@ def build(ref: str) -> dict[str, int]:
               *(out / n for n in ("usage.md", "hft.md", "channels.md", "neighbours.md"))]:
         if f.exists():
             sizes[f.name] = f.stat().st_size
-    if (out / "digest_v2.md").exists():
-        sizes["digest_v2.md (with usage.md)"] = (out / "digest_v2.md").stat().st_size
     (out / "inputs.tsv").write_text("".join(f"{k}\t{v}\n" for k, v in sizes.items()), encoding="utf-8")
     return sizes
 
