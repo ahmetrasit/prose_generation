@@ -5,9 +5,10 @@ Everything above this brief is evidence, prepared by scripts and not yet judged:
 - **01_dictionary.md**: every attested branch of every root of this ayah, with the classical dictionaries' phrases.
 - **digest_v2.md**: Quranic reach: variant readings, each root's occurrences, and related passages with the reason
   an earlier review saw for each.
-- **usage.md** (when present): root dossiers — how the Quran uses each root of this ayah across all its
-  occurrences: usage groups, scenes, voices, formulas, pairings and contrasts, and where this occurrence stands
-  against the pattern.
+- **usage.md** (when present): root dossiers — a concordance of each root of this ayah: all its occurrences in the
+  Quran grouped by the context the ayat state (who does what, to whom, where), each group with the dictionary branch
+  of its plain reading, its forms and members; this ayah's group marked (▶); the branches never used as the plain
+  sense. It describes and does not interpret: what the patterns mean for this ayah is your work.
 - **hft.md** (when present): earlier readers' image-chain hypotheses for this ayah, and those of other ayat whose
   chains pass through it; every trace step resolved to its dictionary branch and checked by script.
 - **channels.md** (when present): the surah's image chains as an earlier whole-surah review mapped them, with the
@@ -40,8 +41,10 @@ hft.md and channels.md hold what earlier readers found. Do not rediscover or re-
 
 ## The word through the Quran (al-Khūlī)
 
-For every key word, read how the Quran itself uses the same word and root elsewhere (usage.md when present,
-digest_v2.md, and your own knowledge of the Quran), not only the dictionary. The Quran can load a word with
+For every key word, read how the Quran itself uses the same word and root elsewhere, not only the dictionary.
+usage.md, when present, is the source for this: it groups every occurrence by context, so you can see which group
+this ayah belongs to, how large it is, what the other groups are, and which senses the Quran never uses plainly. The
+word notes in context.md are this ayah's own angle; digest_v2.md and your knowledge of the Quran add the rest. The Quran can load a word with
 something no dictionary branch states: a word whose other occurrences all belong to one kind of scene, one voice or
 one pairing brings that with it; an occurrence that departs from the word's pattern is itself a finding. Say what
 returns, what changes and why it matters here. Distinguish the same word from the same root, and a textual

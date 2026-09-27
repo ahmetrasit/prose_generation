@@ -1,0 +1,358 @@
+# Quranic reach for 29:39 (script digest, unjudged)
+
+Candidates for reading the ayah through the Quran itself. Nothing here is a finding yet: judge each one.
+
+## 1. Variant readings (qirāʾāt)
+
+(none recorded)
+
+## 2. Usage: each root of the ayah across the Quran (ref and the word as it occurs)
+
+### U-جيء root ج ي ء (focus word جَآءَهُم: جَآءَ V) — 268 occurrences in 262 ayat; same form 268, other forms 0
+- tier 1, same form (جَآءَ V): 268 — common form, not listed
+
+### U-بين root ب ي ن (focus word بِٱلْبَيِّنَٰتِ: بَيِّنَة N) — 484 occurrences in 454 ayat; same form 54, other forms 430
+- tier 1, same form (بَيِّنَة N): 54 — common form, not listed
+- tier 2, other forms: تَسْتَبِينَ V form X 1; تِبْيَٰن N 1; بَيِّن ADJ 1; مُّبَيِّنَة N form II 1; مُسْتَبِين ADJ form X 1; يُبِينُ V form IV 1; مُّبَيِّنَٰت N 1; مُّبَيِّنَة ADJ form II 2; مُّبَيِّنَٰت ADJ 2; بَيَان N 3; بَيِّنَة ADJ 16; تَبَيَّنَ V form V 17; بَيْن N 21; بَيَّنُ V form II 35; مُّبِين ADJ form IV 47; مُّبِين N form IV 72; بَيْن LOC 208
+- rare form تَسْتَبِينَ (V form X):
+  - 6:55 تَسْتَبِينَ
+- rare form تِبْيَٰن (N):
+  - 16:89 تِبْيَٰنًا
+- rare form بَيِّن (ADJ):
+  - 18:15 بَيِّنٍ
+- rare form مُّبَيِّنَة (N form II):
+  - 33:30 مُّبَيِّنَةٍ
+- rare form مُسْتَبِين (ADJ form X):
+  - 37:117 مُسْتَبِينَ
+- rare form يُبِينُ (V form IV):
+  - 43:52 يُبِينُ
+- rare form مُّبَيِّنَٰت (N):
+  - 65:11 مُبَيِّنَٰتٍ
+- rare form مُّبَيِّنَة (ADJ form II):
+  - 4:19 مُّبَيِّنَةٍ
+  - 65:1 مُّبَيِّنَةٍ
+- rare form مُّبَيِّنَٰت (ADJ):
+  - 24:34 مُّبَيِّنَٰتٍ
+  - 24:46 مُّبَيِّنَٰتٍ
+- rare form بَيَان (N):
+  - 3:138 بَيَانٌ
+  - 55:4 بَيَانَ
+  - 75:19 بَيَانَ
+- roots co-occurring across the listed ayat: ء ل ه (12), ء ت ي (6), ء ي ي (4), ن ز ل (3), و ق ي (3), ن س و (3), ف ح ش (3), ه د ي (3), ش ي ء (3), ظ ل م (3), خ ر ج (3), ء م ن (3), ك ر ه (3), و ع ظ (2)
+
+### U-كبر root ك ب ر (focus word فَٱسْتَكْبَرُوا۟: ٱسْتَكْبَرَ V form X) — 160 occurrences in 153 ayat; same form 40, other forms 120
+- tier 1, same form (ٱسْتَكْبَرَ V form X): 40
+  - 2:34 ٱسْتَكْبَرَ
+  - 2:87 ٱسْتَكْبَرْ
+  - 4:172 يَسْتَكْبِرْ
+  - 4:173 ٱسْتَكْبَرُ
+  - 5:82 يَسْتَكْبِرُ
+  - 6:93 تَسْتَكْبِرُ
+  - 7:36 ٱسْتَكْبَرُ
+  - 7:40 ٱسْتَكْبَرُ
+  - 7:48 تَسْتَكْبِرُ
+  - 7:75 ٱسْتَكْبَرُ
+  - 7:76 ٱسْتَكْبَرُ
+  - 7:88 ٱسْتَكْبَرُ
+  - 7:133 ٱسْتَكْبَرُ
+  - 7:206 يَسْتَكْبِرُ
+  - 10:75 ٱسْتَكْبَرُ
+  - 14:21 ٱسْتَكْبَرُ
+  - 16:49 يَسْتَكْبِرُ
+  - 21:19 يَسْتَكْبِرُ
+  - 23:46 ٱسْتَكْبَرُ
+  - 25:21 ٱسْتَكْبَرُ
+  - 28:39 ٱسْتَكْبَرَ
+  - 29:39 ◀ focus ٱسْتَكْبَرُ
+  - 32:15 يَسْتَكْبِرُ
+  - 34:31 ٱسْتَكْبَرُ
+  - 34:32 ٱسْتَكْبَرُ
+  - 34:33 ٱسْتَكْبَرُ
+  - 37:35 يَسْتَكْبِرُ
+  - 38:74 ٱسْتَكْبَرَ
+  - 38:75 سْتَكْبَرْ
+  - 39:59 ٱسْتَكْبَرْ
+  - 40:47 ٱسْتَكْبَرُ
+  - 40:48 ٱسْتَكْبَرُ
+  - 40:60 يَسْتَكْبِرُ
+  - 41:15 ٱسْتَكْبَرُ
+  - 41:38 ٱسْتَكْبَرُ
+  - 45:31 ٱسْتَكْبَرْ
+  - 46:10 ٱسْتَكْبَرْ
+  - 46:20 تَسْتَكْبِرُ
+  - 71:7 ٱسْتَكْبَرُ
+  - 74:23 ٱسْتَكْبَرَ
+- tier 2, other forms: أَكْبَرْ V form IV 1; تَكْبِير N form II 1; كُبَرَآء N 1; مُتَكَبِّر ADJ form V 1; كُبَّار ADJ 1; كُبْرَىٰ N 1; يَتَكَبَّرُ V form V 2; كِبْرِيَآء N 2; كِبْر N 2; ٱسْتِكْبَار N form X 2; كَبِّرْ V form II 4; كِبَر N 6; مُسْتَكْبِر N form X 6; مُتَكَبِّر N form V 6; كُبْرَىٰ ADJ 6; كَبِيرَة N 7; كَبِير N 8; كَبُرَ V 8; أَكْبَر ADJ 11; أَكْبَر N 12; كَبِير ADJ 32
+- rare form أَكْبَرْ (V form IV):
+  - 12:31 أَكْبَرْ
+- rare form تَكْبِير (N form II):
+  - 17:111 تَكْبِيرًۢا
+- rare form كُبَرَآء (N):
+  - 33:67 كُبَرَآءَ
+- rare form مُتَكَبِّر (ADJ form V):
+  - 59:23 مُتَكَبِّرُ
+- rare form كُبَّار (ADJ):
+  - 71:22 كُبَّارًا
+- rare form كُبْرَىٰ (N):
+  - 74:35 كُبَرِ
+- rare form يَتَكَبَّرُ (V form V):
+  - 7:13 تَتَكَبَّرَ
+  - 7:146 يَتَكَبَّرُ
+- rare form كِبْرِيَآء (N):
+  - 10:78 كِبْرِيَآءُ
+  - 45:37 كِبْرِيَآءُ
+- rare form كِبْر (N):
+  - 24:11 كِبْرَ
+  - 40:56 كِبْرٌ
+- rare form ٱسْتِكْبَار (N form X):
+  - 35:43 ٱسْتِكْبَارًا
+  - 71:7 ٱسْتِكْبَارًا
+- rare form كَبِّرْ (V form II):
+  - 2:185 تُكَبِّرُ
+  - 17:111 كَبِّرْ
+  - 22:37 تُكَبِّرُ
+  - 74:3 كَبِّرْ
+- rare form كِبَر (N):
+  - 2:266 كِبَرُ
+  - 3:40 كِبَرُ
+  - 14:39 كِبَرِ
+  - 15:54 كِبَرُ
+  - 17:23 كِبَرَ
+  - 19:8 كِبَرِ
+- rare form مُسْتَكْبِر (N form X):
+  - 16:22 مُّسْتَكْبِرُونَ
+  - 16:23 مُسْتَكْبِرِينَ
+  - 23:67 مُسْتَكْبِرِينَ
+  - 31:7 مُسْتَكْبِرًا
+  - 45:8 مُسْتَكْبِرًا
+  - 63:5 مُّسْتَكْبِرُونَ
+- rare form مُتَكَبِّر (N form V):
+  - 16:29 مُتَكَبِّرِينَ
+  - 39:60 مُتَكَبِّرِينَ
+  - 39:72 مُتَكَبِّرِينَ
+  - 40:27 مُتَكَبِّرٍ
+  - 40:35 مُتَكَبِّرٍ
+  - 40:76 مُتَكَبِّرِينَ
+- roots co-occurring across the listed ayat: ق و ل (42), ء ل ه (41), ك و ن (34), ء م ن (17), ء ي ي (17), ر ب ب (15), ر ء ي (12), ك ف ر (10), ء ر ض (9), ك ل ل (9), ع ذ ب (9), ع ن د (8), ه د ي (8), ق و م (8)
+
+### U-ءرض root ء ر ض (focus word ٱلْأَرْضِ: أَرْض N) — 451 occurrences in 440 ayat; same form 451, other forms 0
+- tier 1, same form (أَرْض N): 451 — common form, not listed
+
+### U-سبق root س ب ق (focus word سَٰبِقِينَ: سَابِق N) — 36 occurrences in 35 ayat; same form 6, other forms 30
+- tier 1, same form (سَابِق N): 6
+  - 9:100 سَّٰبِقُونَ
+  - 23:61 سَٰبِقُونَ
+  - 29:39 ◀ focus سَٰبِقِينَ
+  - 35:32 سَابِقٌۢ
+  - 36:40 سَابِقُ
+  - 56:10 سَّٰبِقُونَ
+- tier 2, other forms: سَابِقُ V form III 1; سَّٰبِقَٰت N 1; سَبْق N 1; مَسْبُوقِين N 2; ٱسْتَبَقَ V form VIII 5; سَبَقَ V 20
+- rare form سَابِقُ (V form III):
+  - 57:21 سَابِقُ
+- rare form سَّٰبِقَٰت (N):
+  - 79:4 سَّٰبِقَٰتِ
+- rare form سَبْق (N):
+  - 79:4 سَبْقًا
+- rare form مَسْبُوقِين (N):
+  - 56:60 مَسْبُوقِينَ
+  - 70:41 مَسْبُوقِينَ
+- rare form ٱسْتَبَقَ (V form VIII):
+  - 2:148 ٱسْتَبِقُ
+  - 5:48 ٱسْتَبِقُ
+  - 12:17 نَسْتَبِقُ
+  - 12:25 ٱسْتَبَقَ
+  - 36:66 ٱسْتَبَقُ
+- roots co-occurring across the listed ayat: ء ل ه (10), خ ي ر (5), ك ل ل (4), ش ي ء (4), ك ت ب (3), ب ي ن (3), ء ت ي (3), ك و ن (3), ف ض ل (3), ن ز ل (2), ح ق ق (2), ص د ق (2), ت ب ع (2), ج ع ل (2)
+
+## 3. Related passages (reciprocal inter-ayah candidates, strongest first: the ayah and why it may bear on the focus, as an earlier review saw it — a lead to test, not a finding)
+
+### Formula group (ب ي ن + ج ي ء + ك و ن): these ayat share the roots with the focus
+- 40:83 — Qarun, Pharaoh, and Haman act arrogantly despite clear proofs brought by Moses.
+- 6:157 — Acik delil geldikten sonra onu yalanlayip yuz cevirmenin sorumlulugunu vurgular.
+- 10:13 — Resuller apaçik delillerle geldikten sonra inanmayan onceki topluluklarin helakini genel cerceve olarak sunar.
+- 7:101 — Apaçik delillere ragmen eski reddin surmesi, odaktaki kanit sonrasi tepkiyi genisletir.
+
+### Formula group (ء ر ض + ك ب ر + ك و ن): these ayat share the roots with the focus
+- 46:20 — Yeryuzunde haksiz kibirlenmenin asagilatici azapla karsilanmasini acikca verir.
+- 41:15 — Ad'in yeryuzunde haksiz kibirlenmesi, guc iddiasi ve ayetleri inkarini odaktaki tutumla birlestirir.
+- 7:146 — Yeryuzunde haksiz kibirlenenlerin ayetleri reddedip dogru yolu almamasini ayrintili bicimde aciklar.
+- 8:73 — Yeryuzundeki buyuk bozulmayi anmasi, odaktaki zorba kibrine genel bir toplumsal arka plan verir.
+- 10:75 — Musa'nin Firavun ve ileri gelenlerine ayetlerle gelisini ve kibirlenmelerini dogrudan tekrarlar.
+- 70:41 — Kimsenin ilahi degistirmeyi geride birakamayacagini bildirerek odaktaki kacis yoklugunu dogrudan paraleller.
+- 23:46 — Firavun ve ileri gelenlerinin buyukluk taslamasini ayni peygamberlik karsilasmasinda verir.
+- 29:38 — Hemen onceki ayette suslenen amellerin gorur haldeki toplumu yoldan cevirmesi, odaktaki siralanmis ibret baglamini kurar.
+- 40:24 — Musa'ya sihirbaz yalanci diyen Firavun, Haman ve Karun ucclusunu odaktaki isimlerle aynen birlestirir.
+- 7:133 — Firavun halkina ayrintili ayetler geldikten sonra kibirlenmelerini ayni oruntuyle anlatir.
+- 28:8 — Firavun ve Haman'in hatali oldugunu belirterek odaktaki iki isme dar bir tarihsel bag kurar.
+- 79:20 — Firavun'a buyuk ayetin gosterilmesi, odaktaki apaçik delillerin oncul sahnesini verir.
+- 28:3 — Musa ve Firavun kissasinin anlatilacagini bildirir, fakat odaktaki tutum ve sonucu acmaz.
+- 38:12 — Firavun'u Nuh ve Ad gibi yalanlayan topluluklarla birlikte anarak tarihsel tekrar bagini verir.
+- 28:36 — Musa'nin apaçik ayetlerine Firavun cevresinin sihir iftirasiyle cevap vermesini dogrudan anlatir.
+- 41:38 — Kibir yerine kesintisiz kullugu koyarak odaktaki buyuklenmenin karsit tavrini belirginlestirir.
+- 28:39 — Firavun ve ordusunun yeryuzunde haksiz kibirlenmesini ve donusu inkar etmelerini odaga cok yakin bicimde tekrarlar.
+- 29:4 — Kotuluk yapanlarin Allah'i gecemeyeceklerini soyleyerek odaktaki son cumleyi ayni surede dogrudan aciklar.
+- 35:43 — Yeryuzundeki kibir ve kotu duzenin sonunda kendi sahiplerini kusatacagini bildirir.
+- 79:4 — Ovmeye deger one gecis, odaktaki gecememe ifadesine kelimesel fakat farkli yonlu bag kurar.
+- 29:40 — Her birinin gunahi sebebiyle yakalandigini ve Allah'i aciz birakamadiklarini hemen sonraki ayette aciklar.
+- 7:103 — Musa'nin ayetlerle Firavun ve ileri gelenlerine gonderilmesini ve bozguncularin sonunu anlatir.
+- 4:172 — Kulluktan cekinip kibirlenenlerin Allah'a toplanacagini bildirerek kacis iddiasinin sonucunu verir.
+- 28:76 — Karun'un Musa kavminden olup onlara azginlik etmesini anlatarak odaktaki ismi ayirt edici bicimde acar.
+- 37:35 — Tevhid bildirildiginde kibirlenmelerini soyleyerek kibrin hakka karsi ret olarak isledigini dogrudan gosterir.
+- 39:51 — Zalimlerin yaptiklarinin kotu sonuclarina ugrrayacagini ve Allah'i aciz birakamayacaklarini bildirir.
+- 40:23 — Musa'nin ayetler ve apaçik bir yetkiyle gonderilmesini bildirir; sonraki ayette odaktaki Firavun Haman Karun ucgeni gelir.
+- 20:56 — Firavun'a butun ayetler gosterildigi halde onun yalanlayip yuz cevirmesini dogrudan soyler.
+- 27:14 — Kesin kanaatlerine ragmen ayetleri zulmen ve ululuk taslayarak inkar etmelerini aciklar.
+- 28:40 — Firavun ve ordusunun yakalanip denize atilmasi, odaktaki gecememe sonucunun somut karsiligidir.
+- 28:81 — Karun'un eviyle birlikte yere gecirilmesi ve yardim bulamamasi, odaktaki Karun adinin ceza boyutunu tamamlar.
+- 43:47 — Musa'nin ayetleri geldiginde Firavun cevresinin onlarla alay etmesini, delil sonrasi reddin acik bir bicimi olarak verir.
+- 10:88 — Qarun, Pharaoh, and Haman are grouped in arrogant refusal despite clear signs.
+- 11:53 — Clear proofs are followed by arrogance, exposing refusal as more than absent evidence.
+- 17:37 — Qarun, Pharaoh, and Haman are named as arrogant on earth who could not escape God.
+- 28:83 — Qarun, Pharaoh, and Haman acted arrogantly in the earth, yet could not escape God.
+- 32:15 — Clear signs are met with arrogance, directly opposing the faith and humility of the focus verse.
+- 39:60 — Arrogance despite clear signs fails to outrun divine judgment, linking pride with accountable return.
+- 39:72 — Qarun, Pharaoh, and Haman arrogantly reject clear signs yet cannot escape God's reckoning.
+- 40:56 — Açık delillerden sonra yeryüzünde büyüklenenlerin öne geçememesi, odaktaki ulaşılamaz yükselme arzusunu somutlaştırır.
+- 40:75 — Names Qarun, Pharaoh, and Haman as those who acted arrogantly in the land without escape.
+- 43:52 — Pharaoh's arrogance despite Moses' clear proofs directly identifies the posture behind his later disparagement.
+- 44:17 — Firavun'un Musa'yı ayetlerle yalanlaması ve büyüklük taslaması, 44:17'nin ret ve akıbet bağlamını destekler.
+- 44:19 — It names Pharaoh among those who acted arrogantly despite Moses having brought them clear proofs.
+- 44:29 — It names Pharaoh with Qarun and Haman, their arrogance, and their inability to outrun the consequence.
+- 44:31 — Pharaoh, Haman, and Korah are named as arrogant on earth without right despite clear signs.
+- 45:31 — Clear signs brought to proud opponents closely parallel the focus's historical pattern.
+- 69:9 — قارون فرعون هامان reject the messenger evidence through arrogance.
+- 71:7 — Clear signs followed by self-exaltation provide a close arrogance-after-disclosure parallel.
+- 73:16 — Places Pharaoh among those who received clear proofs yet acted arrogantly.
+- 79:17 — Firavun, Haman ve Karun'un yeryüzündeki büyüklük taslaması ve elçiyi yalanlaması, 79:17 için güçlü paraleldir.
+- 79:24 — Groups Pharaoh with figures who acted arrogantly in the land, preserving a wider pattern of rejected power.
+- 85:18 — Places Pharaoh with Qarun and Haman in rejecting Moses's clear proofs through arrogance.
+- 39:59 — Ayetler geldikten sonra yalanlama ve kibirlenmenin kufre donusmesini neredeyse ayni sirayla verir.
+- 10:78 — Firavun cevresinin Musa ve Harun'u yeryuzunde buyukluk istemekle suclamasi, iktidar tehdidi olarak reddi aciklar.
+- 27:4 — Ahireti inkara bagli amellerin suslenmesi, kibirli reddin yolunu kaybetme boyutunu ekler.
+- 7:52 — Ayrintili kitap ve hidayetin muhataplara ulasmasi, odaktaki apaçik kanitlarin niteligini aciklar.
+- 28:6 — Firavun ve Haman'in korktugu sonucun yeryuzunde gerceklesmesi, iktidarlarinin aczini gosterir.
+- 2:92 — Musa'nin apaçik delillerinden sonra buza giye yonelis, kanitin ardindan gelen reddi somutlastirir.
+- 5:82 — Kendini buyutmemenin toplumsal yakinliga etkisini, odaktaki kibir tutumunun karsitindan sinirli bicimde gosterir.
+- 29:29 — Lut kavminin meydan okuyucu cevabi, odaktaki Musa ve Firavun anlatimina ek deger katmaz.
+- 79:21 — Firavun'un yalanlama ve isyani, odaktaki reddin kisaltmis bir paralelidir.
+- 29:30 — Lut'un yardim duasinin, odaktaki Firavun Karun Haman ve Musa delilleriyle belirgin bagi yoktur.
+- 27:24 — Suslenen amellerin insanlari yoldan cevirmesi, odaktaki kibirli ret icin ikincil bir mekanizma sunar.
+- 6:93 — Ayetlere karsi kibirle birlikte asagilatici azabi anarak reddin sonucunu tamamlar.
+- 29:31 — Lut sehri hakkindaki elci haberi, odaktaki Musa karsilasmasina yeni baglam saglamaz.
+- 21:101 — Onceden iyilik verilenlerin atesten uzak tutulmasi, odaktaki gecememe ifadesine karsit bir sonuc baglar.
+- 50:13 — Firavun'u onceki inkarci topluluklar arasinda sayarak tarihsel siniflandirma ekler.
+- 59:23 — Gercek buyuklugun Allah'a ait oldugunu bildirerek insanin kibirlenmesine karsit bir olcu sunar.
+- 17:101 — Musa'nin dokuz apaçik ayetine Firavun'un etiketleyici reddini ekleyerek delil sonrasi tavri ayrintilandirir.
+- 29:34 — Lut halkina inecek ceza, odaktaki isimler ve gerekceyi aciklamaz.
+- 89:10 — Firavun'un unvanini anmasi, odaktaki olay ve tutuma yeni ayrinti eklemez.
+- 26:206 — Vaat edilen sonucun sonunda gelmesini bildirerek gecici ertelemenin kacis olmadigini destekler.
+- 29:35 — Lut yurdundan bir apaçik isaret birakilmasi, ayni surenin ibret duzenine sinirli bag kurar.
+- 79:18 — Firavun'a arinma cagrisi, odaktaki delil sonrasi reddi tek basina acmaz.
+- 53:23 — Hidayet geldigi halde zan ve arzulara uyulmasi, apaçik delilin reddedilmesine genel bir paralel saglar.
+- 29:36 — Ayni surede yeryuzunde bozgunculuktan kacinin emri, odaktaki yeryuzu kibrine uzak bir karsitlik kurar.
+- 29:37 — Yalanlayan Medyen halkinin cezalandirilmasi, ayni suredeki ceza dizisine sinirli destek verir.
+- 45:9 — Ayetlerle alay edenlere asagilatici azap verilmesi, odaktaki delil reddinin sonucunu destekler.
+- 56:10 — Ovgulu onde olanlari anmasi, odaktaki olumsuz gecme iddiasina yalnizca kelimesel karsitlik saglar.
+- 56:60 — Hic kimsenin ilahi olculmeyi asamayacagini bildirerek odaktaki gecememe temasini genisletir.
+- 7:76 — Kibirli kesimin inananlarin tasdik ettigini inkar etmesi, statuyu koruyan red mekanizmasini gosterir.
+- 23:76 — Azap karsisinda bile Rabbe boyun egmemeyi anlatarak kibirli katiligi genisletir.
+- 7:148 — Musa'nin halkinin acik yoldan sapip buza giye yonelmesini, delil sonrasi sapmanin baska bir ornegi olarak verir.
+- 54:4 — Insanlara caydirici haberlerin gelmesini belirterek odaktaki apaçik kanitlarin uyarici yonunu destekler.
+- 2:34 — Iblis'in emre karsi buyuklenip reddetmesi, odaktaki kibrin temel karsitlik ornegini verir.
+- 7:36 — Ayetleri yalanlayip onlardan kibirle yuz cevirenlerin kalici ates sonucunu ekler; ana oruntu onceki kartlarda kurulmustur.
+- 28:38 — Firavun'un Haman'a seslenerek tek egemenlik iddiasini kurmasi, odaktaki kibirli iktidar cevresini ayrintilandirir.
+- 51:38 — Musa'nin Firavun'a apaçik bir yetkiyle gonderilmesini kisa ve dogrudan tekrarlar.
+- 17:102 — Musa, ayetlerin semalarin ve yerin Rabbi tarafindan indirildigini Firavun'a bildirerek onun bile bile reddini vurgular.
+- 10:76 — Musa araciligiyla gelen hakki apaçik sihir diye nitelemeleri, odaktaki delillere verilen cevabi aciklar.
+- 7:136 — Firavun halkinin ayetleri yalanlamasi ardindan denizde bogulmasi, kibirli reddin sonunu verir.
+- 10:90 — Firavun ve ordusunun azginlikla takip edip bogulma aninda teslimiyet iddia etmesi, gec kalmis kacis arayisini gosterir.
+- 40:46 — Firavun hanedaninin surekli atese arz edilmesi, odaktaki zorba cevresinin kalici sonucunu ekler.
+- 2:70 — Shows clear signs meeting arrogance, a relevant obstacle to their reception.
+- 4:173 — Self-exaltation after clear signs and inability to outrun judgment reinforces the negative trajectory.
+- 7:13 — Places استكبار in the earth under the failure to get ahead.
+- 7:48 — Another instance of arrogance before evident signs, but largely redundant.
+- 7:88 — Connects earthly استكبار with resistance to clear signs, at a general level.
+- 7:105 — Places Pharaoh's arrogant rejection among destroyed powers despite Moses's clear proofs.
+- 7:206 — Links earthly استكبار with inability to outrun the final return.
+- 15:5 — Earthly dominance cannot outrun outcome, a secondary no-escape aspect.
+- 15:63 — Shows clear evidence reaching opponents and being rejected through arrogance.
+- 16:23 — Pride by Qarun, Pharaoh, and Haman joins power to culpable refusal.
+- 16:113 — Adds clear signs, arrogance, and inability to escape.
+- 17:17 — Qarun, Pharaoh, and Haman provide a compact catalogue of powerful wrongdoers defeated despite clear proofs.
+- 20:45 — Pharaoh is named among those who acted arrogantly in the land, a direct characterization of his overreach.
+- 22:44 — It identifies Moses's clear signs and Pharaoh's arrogant refusal, giving antecedent context for the Musa example.
+- 24:13 — Arrogant rejection after clear proofs parallels refusal to yield to established evidence.
+- 25:21 — Arrogance after clear proofs illustrates that the focus's demand is not simply a lack of available evidence.
+- 26:11 — It groups Pharaoh with other arrogant figures who rejected clear signs and could not escape Allah.
+- 27:13 — Moses brings clear proofs that are met with arrogant refusal.
+- 28:4 — Groups Pharaoh with Haman and Qarun in arrogant rejection and failed escape from God.
+- 28:5 — Names Pharaoh among the arrogant transgressors unable to escape God, clarifying the tyrant's final status.
+- 28:78 — Names Qarun with Pharaoh and Haman as earthbound arrogants who could not escape Allah.
+- 31:18 — The arrogance of Qarun, Pharaoh, and Haman situates self-exaltation within destructive power claims.
+- 36:17 — Arrogant refusal after clear signs exemplifies a hearer response distinct from messenger responsibility.
+- 37:114 — Musa comes with clear signs to Pharaoh and his court, displaying divine support for his mission.
+- 38:74 — Groups figures who acted arrogantly on earth and could not escape divine judgment.
+- 39:33 — Moses brought clear proofs, while the recipients responded with arrogance, supplying the focus's negative counterpart.
+- 43:24 — Moses' clear proofs meet arrogance, paralleling refusal despite evidence.
+- 43:46 — Firawn's arrogance and rejection of Musa's clear proofs summarize the wider moral outcome of the encounter.
+- 43:51 — Pharaoh's arrogance on earth and denial of return are grouped with other failed claims to power.
+- 45:37 — قارون and Pharaoh's company استكبروا without escaping divine power, joining pride to decisive sovereignty.
+- 46:10 — Clear proofs are met with self-exaltation.
+- 63:5 — Shows arrogance after clear evidence as a failed attempt to outrun judgment.
+- 71:22 — Historical elites reject clear proofs through self-exaltation; reinforces the pattern.
+- 74:23 — Self-exaltation after clear proofs is linked to failure to outrun reckoning.
+- 79:25 — Places Pharaoh among arrogant rejecters of Moses' clear proofs, a broad but relevant pattern of culpable overreach.
+- 87:12 — Self-magnification before clear signs reinforces the antecedent pattern.
+- 89:21 — Earthly self-exaltation gives a social-height counterpart to levelling.
+- 99:1 — Earthly self-exaltation failing to escape offers a secondary reversal parallel.
+- 30:9 — Guclu onceki toplumlara apaçik deliller gelmesi ve kendi kendilerine zulmetmeleri, odaktaki sonuca genel paraleldir.
+- 5:32 — Resuller apaçik deliller getirdikten sonra yeryuzunde asiriliga sapilmasini genel paralel olarak verir.
+- 42:14 — Bilgi geldikten sonra azginlikla ayrismayi anlatarak kanit sonrasi bilincli tepkiye genel paralel kurar.
+- 5:48 — Hakla inen kitap karsisinda hevalara uymamayi ve sonunda Allah'a donusu bildirerek genel bir norm verir.
+- 29:32 — Lut'un kurtulusu hakkindaki ayirim, odaktaki Firavun cevresine ek aciklama getirmez.
+- 19:89 — Agir bir iddianin dile getirilmesi, odaktaki belirli kibir ve hesap temasina baglanmaz.
+- 54:53 — Her seyin kaydedilmesi, odaktaki Musa delilleri ve yeryuzu kibrini ayirt edici bicimde acmaz.
+- 29:33 — Lut'un elcilerle karsilasmasi, odaktaki anlatimdan ayridir.
+- 41:37 — Yaraticiya secde emri, odaktaki kibirli reddin uzak bir kulluk karsitligini sunar.
+- 51:50 — Allah'a kacis cagrisi, odaktaki Allah'tan kacilamayacagi sonucu ile karsit yonlu sinirli bag kurar.
+- 19:27 — Meryem'in cocuguyla halkina gelisi, odaktaki Musa ve Firavun karsilasmasini aciklamaz.
+- 11:121 — Inanmayanlara konumlarinda calisma meydan okumasi, odaktaki delil ve sonuc bagini acmaz.
+- 30:3 — Yeryuzundeki yenilgi ve sonraki galibiyet, gucun geciciligine uzak bir paralel saglar.
+- 29:41 — Ayni surede sahte dayanaklarin zayifligini aciklar, fakat odaktaki Musa anlatimina dolayli baglanir.
+- 4:41 — Topluluklarin tanik getirilmesi, odaktaki isimler ve kibirle belirgin bicimde iliskilenmez.
+- 48:1 — Apaçik fetih, odaktaki Musa delilleri ve kibirli redle yeterli bag kurmaz.
+- 4:171 — Dinde asiriligi yasaklar, ancak odaktaki siyasi kibir ve Musa delillerine ancak uzak bir paraleldir.
+- 3:138 — Beyan, hidayet ve ogut niteligi, odaktaki apaçik delillerin genel islevine sinirli bag kurar.
+- 29:43 — Misallerin bilenlerce anlasilmasi, odaktaki tarihsel karsilasmaya yeni aciklama katmaz.
+- 4:154 — Mithak ve buyruklar, odaktaki Musa'nin Firavun'a getirdigi delillerle iliskili degildir.
+- 7:154 — Musa levhalarindaki hidayet ve rahmet, odaktaki apaçik delillere sinirli bir Musa baglami ekler.
+- 29:44 — Goklerin ve yerin hakla yaratilisini ayni surede isaret sayar; kibirli redle dolayli baglidir.
+- 36:30 — Resullerle alay edilmesinin surekliligini bildirerek elciye karsi reddin uzak bir paralelini sunar.
+- 23:71 — Hakkın arzulara uymamasini bildirerek kibirli hevalara karsi genel ilke sunar.
+- 41:28 — Ayetleri inkar edenlerin ates cezasini bildirir, ancak ayni sonuc onceki kartlarda daha dogrudan verilmistir.
+- 43:18 — Toplumsal cinsiyetle ilgili tartisma tasviri, odaktaki kibir ve hesap anlatimiyla baglantisizdir.
+- 2:68 — Clear proofs followed by arrogance is a remote response parallel already represented more closely.
+- 2:114 — Arrogant rejection of Moses' signs is a general historical injustice pattern.
+- 7:40 — Historical arrogance provides a broad but redundant behavioral parallel.
+- 7:177 — Arrogance after clear proofs is relevant refusal, but the named case is too indirect.
+- 15:61 — Rejection of clear evidence offers a remote, different-community response pattern.
+- 16:39 — Clear signs rejected by arrogant figures, a historical proof pattern.
+- 16:44 — Beyyinat karşısında büyüklük taslamayı gösterir.
+- 16:89 — Illustrates a resistant response to manifest signs rather than the focus structure itself.
+- 17:81 — Açık delillerden sonra kibir, hak gelişine bilgisizlikten çok statü koruma direnci ekler.
+- 20:23 — It recalls that Moses came to Pharaoh, Haman, and Korah with clear signs, but without developing their content.
+- 23:61 — Earthly self-exaltation cannot become a true head start over God, a contrary precedence image.
+- 26:22 — Pharaoh's arrogant conduct supplies broad regime context but not the specific claim of favor.
+- 26:115 — Moses brings clear signs to arrogant rulers, but warning is not the verse's stated function.
+- 26:195 — Moses's clear signs and Pharaoh's arrogance are not about the Qur'an's linguistic form.
+- 27:21 — Pharaoh's rejection of clear proofs is relevant only broadly and does not add beyond earlier Moses examples.
+- 27:79 — Moses bringing clear proofs to arrogant rejecters is a distant proof-and-denial parallel.
+- 40:50 — Moses bringing clear proofs to arrogant rejecters reinforces a pattern already well represented.
+- 50:19 — Rejection of clear signs is a redundant contrary arrival pattern.
+- 56:4 — Earthly self-exaltation loosely echoes later reversal, without describing the upheaval.
+- 58:7 — Failure to escape divine judgment from an earthly position is only a loose scope parallel.
+- 64:12 — Clear signs followed by arrogance illustrates rejection, but the setting is remote from the delivery boundary.
+- 69:14 — Earthly self-exaltation is a peripheral height contrast.
+- 74:32 — Arrogant refusal before signs is broad polemical context only.
+- 80:2 — Mixed f01 arrival of Musa and rejection, remote from the visitor.
+- 80:8 — Clear signs followed by arrogance give a limited contrary response pattern.

@@ -1,0 +1,728 @@
+# Branch-image pairs (global network, gateway roots; top by distinct partner root)
+
+For every branch of every focus root: partners in the same ayah (top 3), within ±7 ayat (top 3), and elsewhere in the surah (top 2). A pair is a candidate only; judge whether it opens a reading.
+
+Pairs listed: 616.
+## م ث ل (مَثَلُ, كَمَثَلِ)
+
+- **B001** benzerlik ve denklik / المماثلة والنظير
+  - same: ك و ن B004 boyun eğme / الخضوع بالاستكانة ← 29:41 كَانُوا۟
+  - same: د و ن B004 buyur, bunu al / الإغراء بالتناول ← 29:41 دُونِ
+  - same: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 29:41 يَعْلَمُونَ
+  - near: ض ر ب B008 benzer ve denk karşılık / المثل والنظير ← 29:43 نَضْرِبُهَا
+  - near: و ح د B003 övgüde ya da yergide eşi benzeri olmama / التفرد بالنظير والفضل ← 29:46 وَٰحِدٌ
+  - near: س م و B005 ad, adlandırma ve ad ya da nitelik bakımından denklik / الاسم تنويه ودلالة ← 29:44 ٱلسَّمَٰوَٰتِ
+  - far: ن ظ ر B006 eş veya denk karşılık / مقابلة المثل بمثله حتى يستويان ← 29:20 فَٱنظُرُوا۟
+  - far: ق ط ع B019 yapıca benzer olmak / شبه وقد وهيئة ممشوقة ← 29:29 وَتَقْطَعُونَ
+- **B002** ibret verici ağır cezalandırma / المثلة والنكال
+  - same: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 29:41 يَعْلَمُونَ
+  - same: ء خ ذ B002 suçundan sorumlu tutma / المؤاخذة بالذنب ← 29:41 ٱتَّخَذُوا۟
+  - same: ك و ن B003 birini güvenceyle üstlenme / الكفالة والقيام على فلان ← 29:41 كَانُوا۟
+  - near: ض ر ب B003 örnek vererek açıklamak / تصوير المثل وإظهاره ← 29:43 نَضْرِبُهَا
+  - near: ج د ل B001 sıkıca bükme ve sağlam örgü / الفَتْل المحكم ← 29:46 تُجَٰدِلُوٓا۟
+  - near: ن ك ر B006 çirkin bulunan eylem ve onu engelleme / القبيح المردوع ← 29:45 وَٱلْمُنكَرِ
+  - far: ح ي ي B013 yarar, iyilik ve yok olmaktan koruma / الحياة بمعنى النفع والخير ← 29:25 ٱلْحَيَوٰةِ
+  - far: ن ظ ر B006 eş veya denk karşılık / مقابلة المثل بمثله حتى يستويان ← 29:20 فَٱنظُرُوا۟
+- **B003** benzer duruma aktarılan örnek söz / المثل المضروب
+  - same: ب ي ت B003 şiir dizesi / بيت الشعر ← 29:41 بَيْتًا
+  - same: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 29:41 يَعْلَمُونَ
+  - same: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 29:41 ٱتَّخَذُوا۟
+  - near: ض ر ب B003 örnek vererek açıklamak / تصوير المثل وإظهاره ← 29:43 نَضْرِبُهَا
+  - near: و ح ي B010 taşa kazınmış yazı benzetmeleri / وحي في حجر ← 29:45 أُوحِىَ
+  - near: ق و ل B001 söze dökme / إخراج القول بالنطق ← 29:36 فَقَالَ
+  - far: ن ظ ر B006 eş veya denk karşılık / مقابلة المثل بمثله حتى يستويان ← 29:20 فَٱنظُرُوا۟
+  - far: ق و ل B001 söze dökme / إخراج القول بالنطق ← 29:33 وَقَالُوا۟
+- **B004** nitelik veya hakkında verilen bilgi / المثل صفة وخبر
+  - same: ك و ن B006 kötü durumda gece geçirme / حالة السوء بكينة ← 29:41 كَانُوا۟
+  - same: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 29:41 يَعْلَمُونَ
+  - same: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 29:41 ٱللَّهِ
+  - near: ض ر ب B003 örnek vererek açıklamak / تصوير المثل وإظهاره ← 29:43 نَضْرِبُهَا
+  - near: ش ي ء B001 varlık, olgu ya da konu / الشيء المعلوم المخبر عنه ← 29:42 شَىْءٍ
+  - near: ن ف س B012 şeyin kendisi ve bütün öz varlığı / عين الشيء وذاته ← 29:40 أَنفُسَهُمْ
+  - far: ش ي ء B001 varlık, olgu ya da konu / الشيء المعلوم المخبر عنه ← 29:21 يَشَآءُ
+  - far: ن ف س B012 şeyin kendisi ve bütün öz varlığı / عين الشيء وذاته ← 29:57 نَفْسٍ
+- **B005** ayağa kalkıp dik durma / المثول والانتصاب
+  - same: ك و ن B003 birini güvenceyle üstlenme / الكفالة والقيام على فلان ← 29:41 كَانُوا۟
+  - same: و ل ي B007 dönüp yüz çevirme / الإدبار والإعراض ← 29:41 أَوْلِيَآءَ
+  - same: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 29:41 يَعْلَمُونَ
+  - near: ق و م B002 ayağa kalkma ve dik durma / انتصاب وقيام بالبدن ← 29:45 وَأَقِمِ
+  - near: ع ق ل B012 gün ortasında gölgenin kısalıp sabit görünmesi / عَقْل الظل قائما ← 29:43 يَعْقِلُهَآ
+  - near: ص د د B012 kadın örtüsü / ستر المرأة ← 29:38 فَصَدَّهُمْ
+  - far: ق و م B002 ayağa kalkma ve dik durma / انتصاب وقيام بالبدن ← 29:51 لِقَوْمٍ
+  - far: ع ق ل B012 gün ortasında gölgenin kısalıp sabit görünmesi / عَقْل الظل قائما ← 29:63 يَعْقِلُونَ
+- **B006** yerinden ayrılma; yere sinip silinme / المثول زوالا ولطوءا
+  - same: و ل ي B007 dönüp yüz çevirme / الإدبار والإعراض ← 29:41 أَوْلِيَآءَ
+  - same: د و ن B004 buyur, bunu al / الإغراء بالتناول ← 29:41 دُونِ
+  - same: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 29:41 يَعْلَمُونَ
+  - near: ج ث م B001 yere çöküp bulunduğu yerde kalma / اللصوق بالأرض ولزوم المكان ← 29:37 جَٰثِمِينَ
+  - near: ء ر ض B006 yere çökercesine ağırlaşıp oyalanmak / لزوم الأرض والتثاقل إليها ← 29:40 ٱلْأَرْضَ
+  - near: س ل م B009 iyileşme dileğiyle adlandırılan yılan ısırığı mağduru / السليم الملدوغ تفاؤلا أو استسلاما ← 29:46 مُسْلِمُونَ
+  - far: ء ر ض B006 yere çökercesine ağırlaşıp oyalanmak / لزوم الأرض والتثاقل إليها ← 29:52 وَٱلْأَرْضِ
+  - far: ل ب ث B002 bir işte duraksayıp ağırdan almak / التوقف والبطء ← 29:14 فَلَبِثَ
+- **B007** döşek veya yere serilen yaygı / المثال فراش
+  - same: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 29:41 يَعْلَمُونَ
+  - same: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 29:41 ٱللَّهِ
+  - same: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 29:41 ٱتَّخَذُوا۟
+  - near: ض ر ب B007 tür ya da biçim kalıbı / الصنف والصيغة ← 29:43 نَضْرِبُهَا
+  - near: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد ← 29:43 لِلنَّاسِ
+  - near: ك ل ل B007 göğüs / الكُلْكُل صدرا ← 29:40 فَكُلًّا
+  - far: ب س ط B003 genişlik, artış ve üstünlük / السعة والزيادة والفضل ← 29:62 يَبْسُطُ
+  - far: ن ظ ر B006 eş veya denk karşılık / مقابلة المثل بمثله حتى يستويان ← 29:20 فَٱنظُرُوا۟
+- **B008** başkasına benzetilerek yapılmış görüntü / المثال المصور
+  - same: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 29:41 يَعْلَمُونَ
+  - same: و ه ن B009 leş yiyip ağırlaşarak havalanamama / ثقل الطائر عن النهوض ← 29:41 أَوْهَنَ
+  - same: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 29:41 ٱتَّخَذُوا۟
+  - near: ض ر ب B003 örnek vererek açıklamak / تصوير المثل وإظهاره ← 29:43 نَضْرِبُهَا
+  - near: خ ل ق B003 tam ve dengeli dış biçim / تمام الخلقة واعتدال الصورة ← 29:44 خَلَقَ
+  - near: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد ← 29:43 لِلنَّاسِ
+  - far: ن ظ ر B006 eş veya denk karşılık / مقابلة المثل بمثله حتى يستويان ← 29:20 فَٱنظُرُوا۟
+  - far: خ ل ق B003 tam ve dengeli dış biçim / تمام الخلقة واعتدال الصورة ← 29:61 خَلَقَ
+- **B009** iyilik ve erdem bakımından üstün / الأمثل فضلا
+  - same: و ل ي B008 daha uygun ve hak sahibi olma / الأولوية والاستحقاق ← 29:41 أَوْلِيَآءَ
+  - same: د و ن B001 yakın, aşağı ya da hedefin gerisinde olma / القرب دون الغاية ← 29:41 دُونِ
+  - same: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 29:41 يَعْلَمُونَ
+  - near: ض ر ب B008 benzer ve denk karşılık / المثل والنظير ← 29:43 نَضْرِبُهَا
+  - near: ء ر ض B003 iyiliğe yatkın ve layık / الخليق بالخير كالأرض الأريضة ← 29:40 ٱلْأَرْضَ
+  - near: ء ه ل B003 uygun ve layık olmak / موضع الصلاح والاستحقاق ← 29:46 أَهْلَ
+  - far: خ ي ر B002 iyi ve seçkin olma / فضل الصلاح والاصطفاء ← 29:16 خَيْرٌ
+  - far: ف و ق B002 değer ve mertebe üstünlüğü / علو المنزلة والفضل ← 29:55 فَوْقِهِمْ
+- **B010** buyruk veya örneğe uygun davranma / الامتثال والاحتذاء
+  - same: و ل ي B007 dönüp yüz çevirme / الإدبار والإعراض ← 29:41 أَوْلِيَآءَ
+  - same: ء خ ذ B009 bir topluluğun yolunu ve özelliklerini benimseme / الأخذ بالسيرة والشكل ← 29:41 ٱتَّخَذُوا۟
+  - same: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 29:41 يَعْلَمُونَ
+  - near: خ ل ق B002 var etme ve ortaya çıkarma / إبداع الخلق وإيجاده ← 29:44 خَلَقَ
+  - near: ء ر ض B007 karşısına çıkıp kendini ortaya koymak / التعرض والتصدي ← 29:40 ٱلْأَرْضَ
+  - near: ع م ل B011 işlek yol / الطريق المعمل ← 29:38 أَعْمَٰلَهُمْ
+  - far: ه د ي B002 yön, izlenen yol ve tutum / جهة الأمر وسيرته وقصده ← 29:69 لَنَهْدِيَنَّهُمْ
+  - far: س م ع B003 anlayıp kabul etmek ve uymak / الفهم والامتثال ← 29:60 ٱلسَّمِيعُ
+- **B011** ders çıkarılan olay veya gösterge / المثل عبرة وآية
+  - same: ك و ن B004 boyun eğme / الخضوع بالاستكانة ← 29:41 كَانُوا۟
+  - same: ع ل م B006 doğan veya atmaca türü yırtıcı kuş / طائر جارح يسمى العلام ← 29:41 يَعْلَمُونَ
+  - same: و ل ي B007 dönüp yüz çevirme / الإدبار والإعراض ← 29:41 أَوْلِيَآءَ
+  - near: ض ر ب B003 örnek vererek açıklamak / تصوير المثل وإظهاره ← 29:43 نَضْرِبُهَا
+  - near: ء ي ي B003 gorunen belirti / علامة ظاهرة ← 29:44 لَءَايَةً
+  - near: ك ف ر B005 bağını reddedip uzaklaşmak / تبرؤ وتنصل ← 29:47 ٱلْكَٰفِرُونَ
+  - far: ء ي ي B003 gorunen belirti / علامة ظاهرة ← 29:49 ءَايَٰتٌۢ
+  - far: ك ف ر B005 bağını reddedip uzaklaşmak / تبرؤ وتنصل ← 29:52 وَكَفَرُوا۟
+- **B012** hastalıktan sonra toparlanıp iyileşme / التماثل من العلة
+  - same: و ل ي B006 yüzünü veya dikkatini yöneltme / تولية الوجه والإقبال ← 29:41 أَوْلِيَآءَ
+  - same: ء خ ذ B007 bedende bir durumun baş gösterip etkisini göstermesi / حال تأخذ في الجسم ← 29:41 ٱتَّخَذُوا۟
+  - same: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 29:41 يَعْلَمُونَ
+  - near: ع و د B005 hasta veya yas ziyareti / عيادة ومعادة وزيارة راجعة ← 29:38 وَعَادًا
+  - near: ق ب ل B015 ilk elden veya yeniden başlama / ابتداء حاضر غير مهيأ ← 29:48 قَبْلِهِۦ
+  - near: ق و م B011 insanın boyu ve düzgün beden yapısı / قامة وقوام الجسم والطول ← 29:45 وَأَقِمِ
+  - far: ع و د B005 hasta veya yas ziyareti / عيادة ومعادة وزيارة راجعة ← 29:19 يُعِيدُهُۥٓ
+  - far: ر ج ع B014 yolculukta yıpranma veya güçsüzlükten sonra toparlanma / الرجيع من الدواب واسترداد الحال ← 29:57 تُرْجَعُونَ
+
+## ء خ ذ (ٱتَّخَذُوا۟, ٱتَّخَذَتْ)
+
+- **B001** ele geçirip edinme / حوز الشيء وتناوله
+  - same: د و ن B004 buyur, bunu al / الإغراء بالتناول ← 29:41 دُونِ
+  - same: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 29:41 يَعْلَمُونَ
+  - same: و ل ي B016 taze hurmanın kurumaya dönmesi / ولي الرطب وتولى إذا هاج ← 29:41 أَوْلِيَآءَ
+  - near: د و ن B004 buyur, bunu al / الإغراء بالتناول ← 29:42 دُونِهِۦ
+  - near: س ل م B012 bir şeyi başkasına verme veya yüzüstü bırakma / تسليم الشيء وتخليته ← 29:46 مُسْلِمُونَ
+  - near: ق ب ل B004 uygun bulup benimseme / قبول الشيء برضا ← 29:48 قَبْلِهِۦ
+  - far: د و ن B004 buyur, bunu al / الإغراء بالتناول ← 29:25 دُونِ
+  - far: ل ق ي B011 sözü aktarıp öğretme veya birinden alıp öğrenme / تلقي الكلام أخذا وتلقينا ← 29:23 وَلِقَآئِهِۦٓ
+- **B002** suçundan sorumlu tutma / المؤاخذة بالذنب
+  - same: م ث ل B002 ibret verici ağır cezalandırma / المثلة والنكال ← 29:41 مَثَلُ
+  - same: و ل ي B008 daha uygun ve hak sahibi olma / الأولوية والاستحقاق ← 29:41 أَوْلِيَآءَ
+  - same: و ه ن B004 boyun yanı, üst kol veya omuz başındaki özel ağrı / وجع الواهنة وداؤها ← 29:41 أَوْهَنَ
+  - near: ذ ن ب B001 günah veya kötü sonuç doğuran suç / الذنب والإثم ← 29:40 بِذَنۢبِهِۦ
+  - near: س ل م B013 birini tutsak almak / أخذه سلما أي أسره ← 29:46 مُسْلِمُونَ
+  - near: ع م ل B005 karşılıklı işlem / المعاملة بين الناس ← 29:38 أَعْمَٰلَهُمْ
+  - far: خ ط ء B002 bilerek işlenen günah / الخطيئة ذنب وإثم ← 29:12 خَطَٰيَٰكُمْ
+  - far: س ن و B009 bir şeyi bütünüyle almak / الأخذ بالسناية ← 29:14 سَنَةٍ
+- **B003** yakalayıp tutsak etme / القبض والأسر
+  - same: ك و ن B004 boyun eğme / الخضوع بالاستكانة ← 29:41 كَانُوا۟
+  - same: و ل ي B016 taze hurmanın kurumaya dönmesi / ولي الرطب وتولى إذا هاج ← 29:41 أَوْلِيَآءَ
+  - same: م ث ل B011 ders çıkarılan olay veya gösterge / المثل عبرة وآية ← 29:41 مَثَلُ
+  - near: س ل م B013 birini tutsak almak / أخذه سلما أي أسره ← 29:46 مُسْلِمُونَ
+  - near: ء خ و B001 kardeşlik ve kardeş sayılan kişiler / الأخوّة والقرابة ← 29:36 أَخَاهُمْ
+  - near: ح ص ب B007 yeryüzünde gitmek ve birinden hızla uzaklaşmak / الذهاب والانصراف في الأرض ← 29:40 حَاصِبًا
+  - far: ه د ي B007 dokunulmaz sığınmacı; kimi açıklamalarda tutsak / هدي الحرمة والأسير ← 29:69 لَنَهْدِيَنَّهُمْ
+  - far: ي س ر B004 sol el veya sol yön / الجهة اليسرى واليد اليسرى ← 29:19 يَسِيرٌ
+- **B004** büyüsel yolla etkileyip engelleme / رقية تمسك وتحبس
+  - same: و ه ن B005 az hareketli, ağır ve ağırdan alan kadın / فتور المرأة وثقل حركتها ← 29:41 أَوْهَنَ
+  - same: ب ي ت B010 evlenip zifafa girmek / بيت الزواج ← 29:41 بَيْتًا
+  - same: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 29:41 يَعْلَمُونَ
+  - near: ق ب ل B016 asılan boncuk veya makara biçimli takı / خرزة تقبل وجها إلى وجه ← 29:48 قَبْلِهِۦ
+  - near: ع ق ل B014 büyünün bağlayıcı etkisi ve bunu çözme uygulaması / عُقْلة من السحر ← 29:43 يَعْقِلُهَآ
+  - near: ء خ و B002 bağlama halkası veya gözetilen bağ / الآخِيّة والرباط ← 29:36 أَخَاهُمْ
+  - far: ق ب ل B016 asılan boncuk veya makara biçimli takı / خرزة تقبل وجها إلى وجه ← 29:18 قَبْلِكُمْ
+  - far: ع ق ل B014 büyünün bağlayıcı etkisi ve bunu çözme uygulaması / عُقْلة من السحر ← 29:63 يَعْقِلُونَ
+- **B005** sahiplenilip işletilen arazi / أرض مأخوذة للنفس
+  - same: و ه ن B004 boyun yanı, üst kol veya omuz başındaki özel ağrı / وجع الواهنة وداؤها ← 29:41 أَوْهَنَ
+  - same: و ل ي B003 bir işi üstlenip yönetme / تولي الأمر والقيام عليه ← 29:41 أَوْلِيَآءَ
+  - same: ب ي ت B002 hane halkı / أهل البيت وعياله ← 29:41 بَيْتًا
+  - near: خ ط ط B003 sınır çekilip kendine ayrılan arazi / أرض مختطة ومحجوزة ← 29:48 تَخُطُّهُۥ
+  - near: ص ن ع B010 çağrılı yemek ve bunun için yiyecek hazırlama / مصنعة الدعوة والطعام ← 29:45 تَصْنَعُونَ
+  - near: ع ث و B001 bozup düzenini çürütmek / الفساد في الأرض ← 29:36 تَعْثَوْا۟
+  - far: م و ت B003 cansız şey; işlenmemiş veya sahipsiz arazi / أرض موات ومتاع لا روح فيه ← 29:57 ٱلْمَوْتِ
+  - far: ح ق ق B007 korunması ve savunulması gereken şey / حقيقة يلزم حفظها ← 29:68 بِٱلْحَقِّ
+- **B006** su tutan çukur veya havuz / موضع يمسك الماء
+  - same: ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 29:41 يَعْلَمُونَ
+  - same: ب ي ت B006 gece beklemiş şey / شيء بات ليلة ← 29:41 بَيْتًا
+  - same: د و ن B004 buyur, bunu al / الإغراء بالتناول ← 29:41 دُونِ
+  - near: ج ي ء B003 suyun biriktiği çukur veya yer / مجتمع الماء في هبطة أو حول حصن ← 29:39 جَآءَهُم
+  - near: ج ي ء B002 suyun biriktiği yer veya çukur / الجِيأة مجتمع الماء ← 29:39 جَآءَهُم
+  - near: ق ر ي B002 havuzda, ağızda, yarada veya kursakta toplama ve birikme / جمع ماء أو شيء في مستقر ← 29:34 ٱلْقَرْيَةِ
+  - far: ج ي ء B003 suyun biriktiği çukur veya yer / مجتمع الماء في هبطة أو حول حصن ← 29:33 جَآءَتْ
+  - far: ج ي ء B002 suyun biriktiği yer veya çukur / الجِيأة مجتمع الماء ← 29:33 جَآءَتْ
+- **B007** bedende bir durumun baş gösterip etkisini göstermesi / حال تأخذ في الجسم
+  - same: و ه ن B004 boyun yanı, üst kol veya omuz başındaki özel ağrı / وجع الواهنة وداؤها ← 29:41 أَوْهَنَ
+  - same: م ث ل B012 hastalıktan sonra toparlanıp iyileşme / التماثل من العلة ← 29:41 مَثَلُ
+  - same: و ل ي B016 taze hurmanın kurumaya dönmesi / ولي الرطب وتولى إذا هاج ← 29:41 أَوْلِيَآءَ
+  - near: ق و م B020 koyunun bacaklarını tutan hastalık / قوام في قوائم الشاة ← 29:45 وَأَقِمِ
+  - near: د و ر B005 baş dönmesi ve baygınlık / دوار الرأس وغشيته ← 29:37 دَارِهِمْ
+  - near: ع و د B008 gücü kalmış yaşlı deve / عود مسن فيه بقايا قوة ← 29:38 وَعَادًا
+  - far: ق و م B020 koyunun bacaklarını tutan hastalık / قوام في قوائم الشاة ← 29:51 لِقَوْمٍ
+  - far: ل ق ي B001 yüzü veya ağız köşesini eğrilten hastalık / عوج يأخذ الوجه ← 29:23 وَلِقَآئِهِۦٓ
+- **B008** ay konaklarının yıldızları / أخذ القمر في منازله
+  - same: ب ي ت B005 bir gecelik azık / قوت ليلة ← 29:41 بَيْتًا
+  - same: د و ن B003 başkası ya da daha aşağıda olan / السوى والغير ← 29:41 دُونِ
+  - same: و ل ي B016 taze hurmanın kurumaya dönmesi / ولي الرطب وتولى إذا هاج ← 29:41 أَوْلِيَآءَ
+  - near: ك ل ل B005 çevresini kuşak gibi saran oluşum / الإكليل وما يحيط ← 29:40 فَكُلًّا
+  - near: ن ز ل B003 konaklama yeri veya bulunulan derece / المنزل والمنزلة ← 29:46 أُنزِلَ
+  - near: س ك ن B004 insanı rahatlatıp içini yatıştıran dayanak / مأنس السكون ← 29:38 مَّسَٰكِنِهِمْ
+  - far: ق ل ب B010 Akrep'in Yüreği yıldızı / قلب العقرب النجم ← 29:21 تُقْلَبُونَ
+  - far: ض ي ق B004 belirli bir ay konağının adı / الضِّيقة منزل للقمر ← 29:33 وَضَاقَ
+- **B009** bir topluluğun yolunu ve özelliklerini benimseme / الأخذ بالسيرة والشكل
+  - same: م ث ل B010 buyruk veya örneğe uygun davranma / الامتثال والاحتذاء ← 29:41 مَثَلُ
+  - same: ك و ن B003 birini güvenceyle üstlenme / الكفالة والقيام على فلان ← 29:41 كَانُوا۟
+  - same: د و ن B004 buyur, bunu al / الإغراء بالتناول ← 29:41 دُونِ
+  - near: س ل م B013 birini tutsak almak / أخذه سلما أي أسره ← 29:46 مُسْلِمُونَ
+  - near: ع ب د B004 köleleştirmek veya köle gibi boyunduruk altına almak / التعبيد والاستعباد ← 29:36 ٱعْبُدُوا۟
+  - near: ي م ن B004 güç, savunma ve güçlü doğruluk dayanağı / يمين القوة والحق ← 29:48 بِيَمِينِكَ
+  - far: ه د ي B002 yön, izlenen yol ve tutum / جهة الأمر وسيرته وقصده ← 29:69 لَنَهْدِيَنَّهُمْ
+  - far: س ي ر B002 izlenen yol ve içinde bulunulan durum / السيرة والطريقة ← 29:20 سِيرُوا۟
+- **B010** kendisi için edinip kazanma / الاتخاذ والاكتساب
+  - same: م ث ل B010 buyruk veya örneğe uygun davranma / الامتثال والاحتذاء ← 29:41 مَثَلُ
+  - same: ك و ن B001 gerçekleşme, bulunma ve olma bildirimi / وقوع الشيء وحضوره في زمان ← 29:41 كَانُوا۟
+  - same: و ل ي B013 birine iyi ya da kötü şey yöneltme / إيلاء وإسناد معروف أو شر ← 29:41 أَوْلِيَآءَ
+  - near: ك ت ب B005 özgürlük bedelini ödemeye dayalı özgürleşme sözleşmesi / مكاتبة العبد على عتقه ← 29:45 ٱلْكِتَٰبِ
+  - near: ح ك م B005 karar verme yetkisini başkasına bırakmak / التفويض والتحكيم ← 29:42 ٱلْحَكِيمُ
+  - near: ع ب د B004 köleleştirmek veya köle gibi boyunduruk altına almak / التعبيد والاستعباد ← 29:36 ٱعْبُدُوا۟
+  - far: ج ر ي B003 başkası adına iş gören, haber götüren ya da güvence veren kimse / الجري الوكيل والرسول ← 29:58 تَجْرِى
+  - far: خ ي ر B003 daha iyi olanı seçme / طلب الخير بالاختيار والاستخارة ← 29:16 خَيْرٌ
+- **B011** güreşte kavrayıp kilitleme / أخذة المصارعة
+  - same: و ل ي B016 taze hurmanın kurumaya dönmesi / ولي الرطب وتولى إذا هاج ← 29:41 أَوْلِيَآءَ
+  - same: د و ن B004 buyur, bunu al / الإغراء بالتناول ← 29:41 دُونِ
+  - same: و ه ن B001 gücün veya kararlılığın azalması ya da azaltılması / ضعف القوة وفتور العزم ← 29:41 أَوْهَنَ
+  - near: ق و م B014 karşılıklı direnip mücadele etme / مقاومة ومنازلة ← 29:45 وَأَقِمِ
+  - near: ع ق ل B010 bir şeyi bükülmüş bacaklar arasında sıkıştırıp tutma / اعتقال بالرجلين ← 29:43 يَعْقِلُهَآ
+  - near: س ل م B013 birini tutsak almak / أخذه سلما أي أسره ← 29:46 مُسْلِمُونَ
+  - far: ق و م B014 karşılıklı direnip mücadele etme / مقاومة ومنازلة ← 29:51 لِقَوْمٍ
+  - far: ق ت ل B011 öldürme amacıyla karşılıklı savaşma / مقاتلة ومحاربة بين طرفين ← 29:24 ٱقْتُلُوهُ
+- **B012** kancalı aracın tutamağı / مقبض الشيء المأخوذ به
+  - same: ك و ن B004 boyun eğme / الخضوع بالاستكانة ← 29:41 كَانُوا۟
+  - same: ع ل م B006 doğan veya atmaca türü yırtıcı kuş / طائر جارح يسمى العلام ← 29:41 يَعْلَمُونَ
+  - same: م ث ل B004 nitelik veya hakkında verilen bilgi / المثل صفة وخبر ← 29:41 مَثَلُ
+  - near: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 29:45 وَأَقِمِ
+  - near: ق ر ي B012 mızrak ucunun sivri tepesi ve keskin kenar / طرف حاد كقارية السنان ← 29:34 ٱلْقَرْيَةِ
+  - near: ق ب ل B008 güvence ve sorumluluk üstlenme / ضمان الشيء والتكفل به ← 29:48 قَبْلِهِۦ
+  - far: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 29:51 لِقَوْمٍ
+  - far: س ن و B009 bir şeyi bütünüyle almak / الأخذ بالسناية ← 29:14 سَنَةٍ
+
+## د و ن (دُونِ)
+
+- **B001** yakın, aşağı ya da hedefin gerisinde olma / القرب دون الغاية
+  - same: و ل ي B001 aralıksız yakınlık / قرب ودنو بلا فاصل ← 29:41 أَوْلِيَآءَ
+  - same: م ث ل B001 benzerlik ve denklik / المماثلة والنظير ← 29:41 مَثَلُ
+  - same: ك و ن B002 bulunma yeri ve konum değeri / المكان والمكانة من الكون ← 29:41 كَانُوا۟
+  - near: ن ه ي B002 son noktaya varma veya bir şeyi hedefine ulaştırma / الغاية التي ينتهي إليها الشيء ← 29:45 تَنْهَىٰ
+  - near: و ح د B001 tek başına ve ayrı olma / الانفراد والبينونة ← 29:46 وَٰحِدٌ
+  - near: ح س ن B005 bir işteki en yüksek çabası ve erişebileceği son sınır / حُسَيْناء الغاية والجهد ← 29:46 أَحْسَنُ
+  - far: د ن و B001 yakın olma, yaklaşma veya yaklaştırma / القرب والمقاربة ← 29:27 ٱلدُّنْيَا
+  - far: و ل ي B001 aralıksız yakınlık / قرب ودنو بلا فاصل ← 29:22 وَلِىٍّ
+- **B002** değersiz, önemsiz veya aşağı olma / الخسة والحقارة
+  - same: و ل ي B001 aralıksız yakınlık / قرب ودنو بلا فاصل ← 29:41 أَوْلِيَآءَ
+  - same: و ه ن B001 gücün veya kararlılığın azalması ya da azaltılması / ضعف القوة وفتور العزم ← 29:41 أَوْهَنَ
+  - same: ك و ن B004 boyun eğme / الخضوع بالاستكانة ← 29:41 كَانُوا۟
+  - near: خ س ف B006 aşağılama ve istemediği yüke zorlama / دنية يحملها الإنسان ← 29:40 خَسَفْنَا
+  - near: ء خ و B003 özenle araştırıp yönelmek / التحرّي والقصد ← 29:36 أَخَاهُمْ
+  - near: ك ب ر B010 bir işin birine ağır ve güç gelmesi / الكبر مشقة وثقل ← 29:39 فَٱسْتَكْبَرُوا۟
+  - far: د ن و B003 değersizlik, aşağı konum, güçsüzlük veya eksiklik / الدناءة والضعة ← 29:27 ٱلدُّنْيَا
+  - far: ء م م B013 az, küçük veya önemsiz şey / الأمم اليسير الحقير ← 29:18 أُمَمٌ
+- **B003** başkası ya da daha aşağıda olan / السوى والغير
+  - same: و ل ي B001 aralıksız yakınlık / قرب ودنو بلا فاصل ← 29:41 أَوْلِيَآءَ
+  - same: ب ي ت B007 mezar evi / القبر بيت ← 29:41 بَيْتًا
+  - same: ك و ن B002 bulunma yeri ve konum değeri / المكان والمكانة من الكون ← 29:41 كَانُوا۟
+  - near: ن ز ل B004 bir şeyi uygun yerine veya sırasına koyma / وضع الشيء في منزلته ← 29:46 أُنزِلَ
+  - near: ق و ل B005 yalan söyleme veya isnat etme / قول ما لم يكن أو نسبته ← 29:36 فَقَالَ
+  - near: د ع و B008 evde hiç kimsenin bulunmaması / خلو الدار من داع ← 29:42 يَدْعُونَ
+  - far: ن ز ل B004 bir şeyi uygun yerine veya sırasına koyma / وضع الشيء في منزلته ← 29:50 أُنزِلَ
+  - far: ب ع د B009 faydasizlik / غير أبعد ولا طائل ← 29:63 بَعْدِ
+- **B004** buyur, bunu al / الإغراء بالتناول
+  - same: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 29:41 ٱتَّخَذُوا۟
+  - same: و ل ي B001 aralıksız yakınlık / قرب ودنو بلا فاصل ← 29:41 أَوْلِيَآءَ
+  - same: م ث ل B001 benzerlik ve denklik / المماثلة والنظير ← 29:41 مَثَلُ
+  - near: ك ذ ب B003 onu üstlen; sana düşer / كذب عليك بمعنى الزم وعليك به ← 29:37 فَكَذَّبُوهُ
+  - near: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 29:40 أَخَذْنَا
+  - near: ض ر ب B017 çatışmaya kışkırtmak / إلهاب الناس إلى الفعل ← 29:43 نَضْرِبُهَا
+  - far: ع ن د B006 sözü dinleyeni almaya veya tutmaya yönelten buyruk / إغراء عندك بالأخذ ← 29:50 عِندَ
+  - far: ك ذ ب B003 onu üstlen; sana düşer / كذب عليك بمعنى الزم وعليك به ← 29:18 تُكَذِّبُوا۟
+- **B005** kayıt defteri ve kayıtları düzenleme / تدوين الدواوين
+  - same: ب ي ت B003 şiir dizesi / بيت الشعر ← 29:41 بَيْتًا
+  - same: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 29:41 ٱتَّخَذُوا۟
+  - same: و ل ي B008 daha uygun ve hak sahibi olma / الأولوية والاستحقاق ← 29:41 أَوْلِيَآءَ
+  - near: د و ر B008 manastır ve ona bağlı kullanımlar / الدير وما انقلب عن الواو ← 29:37 دَارِهِمْ
+  - near: ك ت ب B002 yazma ve yazılı metin / نظم الحروف واسم المكتوب ← 29:45 ٱلْكِتَٰبِ
+  - near: ء ي ي B007 nice cok / كأين لعدد كثير ← 29:44 لَءَايَةً
+  - far: د و ر B008 manastır ve ona bağlı kullanımlar / الدير وما انقلب عن الواو ← 29:64 ٱلدَّارَ
+  - far: د ي ن B007 kişiyi sözüne ve vicdani sorumluluğuna göre değerlendirme / التصديق والتفويض ← 29:65 ٱلدِّينَ
+
+## ء ل ه (ٱللَّهِ)
+
+- **B001** tapınma ve tapınılan varlık / التعبد والمعبود
+  - same: و ل ي B004 yakın durup destek olma / محبة ونصرة وموالاة ← 29:41 أَوْلِيَآءَ
+  - same: م ث ل B011 ders çıkarılan olay veya gösterge / المثل عبرة وآية ← 29:41 مَثَلُ
+  - same: ء خ ذ B008 ay konaklarının yıldızları / أخذ القمر في منازله ← 29:41 ٱتَّخَذُوا۟
+  - near: ع ب د B003 boyun eğerek itaat ve tapınma / العبادة والطاعة الخاضعة ← 29:36 ٱعْبُدُوا۟
+  - near: ء ه ل B006 eritilmiş yemeklik yağ / الإهالة المذابة ← 29:46 أَهْلَ
+  - near: ع ز ز B011 biçime bağlı adlandırmalar / العزى وما جاورها من أسماء ← 29:42 ٱلْعَزِيزُ
+  - far: ع ب د B003 boyun eğerek itaat ve tapınma / العبادة والطاعة الخاضعة ← 29:56 يَٰعِبَادِىَ
+  - far: و ث ن B001 tapınılan put veya taş / الصنم المعبود ← 29:25 أَوْثَٰنًا
+- **B002** Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء
+  - same: م ث ل B011 ders çıkarılan olay veya gösterge / المثل عبرة وآية ← 29:41 مَثَلُ
+  - same: ك و ن B006 kötü durumda gece geçirme / حالة السوء بكينة ← 29:41 كَانُوا۟
+  - same: و ل ي B003 bir işi üstlenip yönetme / تولي الأمر والقيام عليه ← 29:41 أَوْلِيَآءَ
+  - near: ء ي ي B010 yemin oncesi evet / إي افتتاح للقسم ← 29:44 لَءَايَةً
+  - near: و ح د B004 Tanrı'nın tek, ortaksız ve bölünmez oluşu ve buna inanma / وحدانية الله بلا شريك ← 29:46 وَٰحِدٌ
+  - near: ء م ن B003 duada kabul istegi sozu / قول آمين طلبا للاستجابة ← 29:44 لِّلْمُؤْمِنِينَ
+  - far: ر ب ب B001 sahip olup yönetme / ربوبية وملك وسيادة ← 29:50 رَّبِّهِۦ
+  - far: ء ي ي B010 yemin oncesi evet / إي افتتاح للقسم ← 29:49 ءَايَٰتٌۢ
+
+## و ل ي (أَوْلِيَآءَ)
+
+- **B001** aralıksız yakınlık / قرب ودنو بلا فاصل
+  - same: د و ن B001 yakın, aşağı ya da hedefin gerisinde olma / القرب دون الغاية ← 29:41 دُونِ
+  - same: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 29:41 ٱتَّخَذُوا۟
+  - same: م ث ل B009 iyilik ve erdem bakımından üstün / الأمثل فضلا ← 29:41 مَثَلُ
+  - near: ص د د B003 karşıda ve yakında bulunma / مقابلة وقرب ← 29:38 فَصَدَّهُمْ
+  - near: د و ن B001 yakın, aşağı ya da hedefin gerisinde olma / القرب دون الغاية ← 29:42 دُونِهِۦ
+  - near: د و ر B007 yere bağlı kişi / الداري: المنتسب إلى دار أو المقيم فيها ← 29:37 دَارِهِمْ
+  - far: د ن و B001 yakın olma, yaklaşma veya yaklaştırma / القرب والمقاربة ← 29:27 ٱلدُّنْيَا
+  - far: د و ن B001 yakın, aşağı ya da hedefin gerisinde olma / القرب دون الغاية ← 29:25 دُونِ
+- **B002** kesintisiz ardışıklık / تتابع شيء بعد شيء
+  - same: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 29:41 يَعْلَمُونَ
+  - same: م ث ل B001 benzerlik ve denklik / المماثلة والنظير ← 29:41 مَثَلُ
+  - same: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 29:41 ٱتَّخَذُوا۟
+  - near: ت ل و B001 ardından izleme / اتباع وتتابع ← 29:45 ٱتْلُ
+  - near: ن ز ل B004 bir şeyi uygun yerine veya sırasına koyma / وضع الشيء في منزلته ← 29:46 أُنزِلَ
+  - near: ب ي ن B002 arada olma / الخلالة والوسط بين شيئين ← 29:39 بِٱلْبَيِّنَٰتِ
+  - far: ت ب ع B004 aralıksız peş peşe gelmek / الولاء والتتابع ← 29:12 ٱتَّبِعُوا۟
+  - far: ت ل و B001 ardından izleme / اتباع وتتابع ← 29:51 يُتْلَىٰ
+- **B003** bir işi üstlenip yönetme / تولي الأمر والقيام عليه
+  - same: و ه ن B005 az hareketli, ağır ve ağırdan alan kadın / فتور المرأة وثقل حركتها ← 29:41 أَوْهَنَ
+  - same: ك و ن B003 birini güvenceyle üstlenme / الكفالة والقيام على فلان ← 29:41 كَانُوا۟
+  - same: م ث ل B011 ders çıkarılan olay veya gösterge / المثل عبرة وآية ← 29:41 مَثَلُ
+  - near: ع م ل B003 işe görevli kılma veya görev üstlenme / ولاية العمل والقيام عليه ← 29:38 أَعْمَٰلَهُمْ
+  - near: ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 29:45 وَأَقِمِ
+  - near: ك ب ر B002 bir işin ana payı ve başlıca yükü / معظم الأمر ← 29:39 فَٱسْتَكْبَرُوا۟
+  - far: ع م ل B003 işe görevli kılma veya görev üstlenme / ولاية العمل والقيام عليه ← 29:55 تَعْمَلُونَ
+  - far: ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 29:51 لِقَوْمٍ
+- **B004** yakın durup destek olma / محبة ونصرة وموالاة
+  - same: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 29:41 ٱللَّهِ
+  - same: م ث ل B001 benzerlik ve denklik / المماثلة والنظير ← 29:41 مَثَلُ
+  - same: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 29:41 يَعْلَمُونَ
+  - near: ك ل ل B004 üstsoy ve altsoy dışı mirasçılık / الكَلالة قرابة عارضة ← 29:40 فَكُلًّا
+  - near: ء خ و B001 kardeşlik ve kardeş sayılan kişiler / الأخوّة والقرابة ← 29:36 أَخَاهُمْ
+  - near: د ع و B002 hak veya aidiyet ileri sürme / ادعاء الحق والانتساب ← 29:42 يَدْعُونَ
+  - far: ن ص ر B001 yardım edip üstün gelmesini sağlama / النصرة عون وإظهار ← 29:30 ٱنصُرْنِى
+  - far: و د د B001 sevgi ve gönülden yakınlık besleme / محبة ومودة ← 29:25 مَّوَدَّةَ
+- **B005** özel yakınlık ve bağlılık bağı / ولاء قرابة وعتق وجوار
+  - same: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 29:41 يَعْلَمُونَ
+  - same: ب ي ت B002 hane halkı / أهل البيت وعياله ← 29:41 بَيْتًا
+  - same: م ث ل B001 benzerlik ve denklik / المماثلة والنظير ← 29:41 مَثَلُ
+  - near: ك ل ل B004 üstsoy ve altsoy dışı mirasçılık / الكَلالة قرابة عارضة ← 29:40 فَكُلًّا
+  - near: ق و ل B004 sözü geçen yönetici unvanı / القيل صاحب القول النافذ ← 29:36 فَقَالَ
+  - near: ء ه ل B001 yakın çevre ve bağlı topluluk / جماعة القرب والانتماء ← 29:46 أَهْلَ
+  - far: ك ل ل B004 üstsoy ve altsoy dışı mirasçılık / الكَلالة قرابة عارضة ← 29:57 كُلُّ
+  - far: ر ب ب B011 bağlayıcı söz ve güvence / ربابة عهد وميثاق ← 29:50 رَّبِّهِۦ
+- **B006** yüzünü veya dikkatini yöneltme / تولية الوجه والإقبال
+  - same: م ث ل B012 hastalıktan sonra toparlanıp iyileşme / التماثل من العلة ← 29:41 مَثَلُ
+  - same: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 29:41 ٱتَّخَذُوا۟
+  - same: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 29:41 يَعْلَمُونَ
+  - near: ق ب ل B001 karşı karşıya olma ve ön yön / مواجهة الشيء للشيء ← 29:48 قَبْلِهِۦ
+  - near: ص د د B003 karşıda ve yakında bulunma / مقابلة وقرب ← 29:38 فَصَدَّهُمْ
+  - near: م ث ل B012 hastalıktan sonra toparlanıp iyileşme / التماثل من العلة ← 29:43 ٱلْأَمْثَٰلُ
+  - far: ق ب ل B001 karşı karşıya olma ve ön yön / مواجهة الشيء للشيء ← 29:18 قَبْلِكُمْ
+  - far: ل ق ي B004 karşılaşma, karşılama veya karşısında bulunma / توافي شيئين متقابلين ← 29:23 وَلِقَآئِهِۦٓ
+- **B007** dönüp yüz çevirme / الإدبار والإعراض
+  - same: م ث ل B010 buyruk veya örneğe uygun davranma / الامتثال والاحتذاء ← 29:41 مَثَلُ
+  - same: ب ي ت B010 evlenip zifafa girmek / بيت الزواج ← 29:41 بَيْتًا
+  - same: ك و ن B001 gerçekleşme, bulunma ve olma bildirimi / وقوع الشيء وحضوره في زمان ← 29:41 كَانُوا۟
+  - near: ض ر ب B004 bir işten geri durup yüz çevirmek / القبض عن الشيء والكف ← 29:43 نَضْرِبُهَا
+  - near: ص د د B001 yüz çevirme ve alıkoyma / إعراض وصرف ← 29:38 فَصَدَّهُمْ
+  - near: ح ص ب B007 yeryüzünde gitmek ve birinden hızla uzaklaşmak / الذهاب والانصراف في الأرض ← 29:40 حَاصِبًا
+  - far: ه ج ر B001 bağı kesip uzaklaşma / الانقطاع والمفارقة ← 29:26 مُهَاجِرٌ
+  - far: ق ل ب B005 dönüş ve akıbet / الانصراف والمصير ← 29:21 تُقْلَبُونَ
+- **B008** daha uygun ve hak sahibi olma / الأولوية والاستحقاق
+  - same: م ث ل B009 iyilik ve erdem bakımından üstün / الأمثل فضلا ← 29:41 مَثَلُ
+  - same: د و ن B005 kayıt defteri ve kayıtları düzenleme / تدوين الدواوين ← 29:41 دُونِ
+  - same: ء خ ذ B002 suçundan sorumlu tutma / المؤاخذة بالذنب ← 29:41 ٱتَّخَذُوا۟
+  - near: ح ق ق B002 bağlayıcı gereklilik ve hak ediş / لزوم واجب واستحقاق ثابت ← 29:44 بِٱلْحَقِّ
+  - near: ء ه ل B003 uygun ve layık olmak / موضع الصلاح والاستحقاق ← 29:46 أَهْلَ
+  - near: خ ل ق B005 bir şeye yaraşır ve uygun olma / الجدارة والتهيؤ للشيء ← 29:44 خَلَقَ
+  - far: ح ق ق B002 bağlayıcı gereklilik ve hak ediş / لزوم واجب واستحقاق ثابت ← 29:68 بِٱلْحَقِّ
+  - far: ء ه ل B003 uygun ve layık olmak / موضع الصلاح والاستحقاق ← 29:33 وَأَهْلَكَ
+- **B010** önceki yağmuru izleyen yağmur / مطر يلي الوسمي
+  - same: م ث ل B006 yerinden ayrılma; yere sinip silinme / المثول زوالا ولطوءا ← 29:41 مَثَلُ
+  - same: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 29:41 يَعْلَمُونَ
+  - same: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 29:41 ٱللَّهِ
+  - near: س ب ل B005 yağan yağmur / مطر سابل بين السحاب والأرض ← 29:38 ٱلسَّبِيلِ
+  - near: ء ت ي B005 başka bölgeden gelen sel / السيل الآتي من غير البلد ← 29:47 ءَاتَيْنَٰهُمُ
+  - near: ض ر ب B013 hava olayının toprağa veya bitkiye etkisi / أثر البرد والمطر في الأرض والنبات ← 29:43 نَضْرِبُهَا
+  - far: س ب ل B005 yağan yağmur / مطر سابل بين السحاب والأرض ← 29:29 ٱلسَّبِيلَ
+  - far: ح ي ي B002 yağmurla gelen toprak canlılığı ve bolluk / حياة الأرض بالمطر والنبات ← 29:25 ٱلْحَيَوٰةِ
+- **B011** deve sırtı alt örtüsü / ولية تحت الرحل
+  - same: ع ن ك ب B001 örümcek / العنكبوت الدويبة الناسجة ← 29:41 ٱلْعَنكَبُوتِ
+  - same: و ه ن B003 alt kaburga, omuz damarı ya da devenin köprücük kemiği / الواهنة موضع في الأضلاع والصدر ← 29:41 أَوْهَنَ
+  - same: م ث ل B011 ders çıkarılan olay veya gösterge / المثل عبرة وآية ← 29:41 مَثَلُ
+  - near: ء خ و B002 bağlama halkası veya gözetilen bağ / الآخِيّة والرباط ← 29:36 أَخَاهُمْ
+  - near: ق ب ل B007 çıkanı karşılayıp teslim alma / تلقي الخارج إلى اليد ← 29:48 قَبْلِهِۦ
+  - near: ع م ل B003 işe görevli kılma veya görev üstlenme / ولاية العمل والقيام عليه ← 29:38 أَعْمَٰلَهُمْ
+  - far: ق ط ع B015 kesilmiş donatı nesnesi / سوط وطاء مصنوعان من قطع ← 29:29 وَتَقْطَعُونَ
+  - far: ث و ي B004 çalkalama kabı altlığı ve ev eşyası / الثَّوَة وقماش البيت ← 29:68 مَثْوًى
+- **B012** ele geçirip hedefe ulaşma / استيلاء وبلوغ غاية
+  - same: د و ن B001 yakın, aşağı ya da hedefin gerisinde olma / القرب دون الغاية ← 29:41 دُونِ
+  - same: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 29:41 ٱتَّخَذُوا۟
+  - same: م ث ل B001 benzerlik ve denklik / المماثلة والنظير ← 29:41 مَثَلُ
+  - near: ء ت ي B011 felakete uğramak, kaybetmek veya düşmanca ele geçirilmek / إتيان البلاء والهلاك ← 29:47 ءَاتَيْنَٰهُمُ
+  - near: ن ه ي B002 son noktaya varma veya bir şeyi hedefine ulaştırma / الغاية التي ينتهي إليها الشيء ← 29:45 تَنْهَىٰ
+  - near: غ ر ق B005 bir alanı tümüyle kapsama; sürüye karışıp öne geçme / الاغتراق والاستيعاب ← 29:40 أَغْرَقْنَا
+  - far: ب ل غ B001 bir yere, şeye veya son sınıra ulaşma; bağlama göre yaklaşma ya da olgunluğa erme / الوصول إلى الغاية ← 29:18 ٱلْبَلَٰغُ
+  - far: ب ر ر B008 üstün gelmek ve yenmek / غلبة وعلو ← 29:65 ٱلْبَرِّ
+- **B013** birine iyi ya da kötü şey yöneltme / إيلاء وإسناد معروف أو شر
+  - same: ك و ن B003 birini güvenceyle üstlenme / الكفالة والقيام على فلان ← 29:41 كَانُوا۟
+  - same: م ث ل B011 ders çıkarılan olay veya gösterge / المثل عبرة وآية ← 29:41 مَثَلُ
+  - same: د و ن B003 başkası ya da daha aşağıda olan / السوى والغير ← 29:41 دُونِ
+  - near: ص ن ع B003 birine iyilik etme / الصنيعة من المعروف ← 29:45 تَصْنَعُونَ
+  - near: ق و ل B006 sözü üzerine alma / اجترار القول إلى النفس ← 29:36 فَقَالَ
+  - near: س ل م B012 bir şeyi başkasına verme veya yüzüstü bırakma / تسليم الشيء وتخليته ← 29:46 مُسْلِمُونَ
+  - far: ل ق ي B007 iyilik ya da kötülükle karşılaşma / ما يلقاه المرء من خير أو شر ← 29:23 وَلِقَآئِهِۦٓ
+  - far: ق و ل B006 sözü üzerine alma / اجترار القول إلى النفس ← 29:33 وَقَالُوا۟
+- **B014** aldığı fiyatla devretme / تولية البيع
+  - same: م ث ل B011 ders çıkarılan olay veya gösterge / المثل عبرة وآية ← 29:41 مَثَلُ
+  - same: ك و ن B004 boyun eğme / الخضوع بالاستكانة ← 29:41 كَانُوا۟
+  - same: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 29:41 ٱتَّخَذُوا۟
+  - near: س ل م B005 bedeli peşin ödenen vadeli satış / السلم في البيع والسلف ← 29:46 مُسْلِمُونَ
+  - near: ق و م B010 değer biçme ve belirlenen bedel / قيمة وتقويم وتسعير ← 29:45 وَأَقِمِ
+  - near: ت ر ك B005 karsilikli cekilme / متاركة بين طرفين ← 29:35 تَّرَكْنَا
+  - far: ر ج ع B011 satış bedeliyle yerine mal almak / ارتجاع البيع والبدل ← 29:57 تُرْجَعُونَ
+  - far: ق و م B010 değer biçme ve belirlenen bedel / قيمة وتقويم وتسعير ← 29:51 لِقَوْمٍ
+- **B015** küçük sürü hayvanlarını ayırma / موالاة صغار النعم عن كبارها
+  - same: م ث ل B006 yerinden ayrılma; yere sinip silinme / المثول زوالا ولطوءا ← 29:41 مَثَلُ
+  - same: و ه ن B005 az hareketli, ağır ve ağırdan alan kadın / فتور المرأة وثقل حركتها ← 29:41 أَوْهَنَ
+  - same: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 29:41 ٱللَّهِ
+  - near: ت ل و B006 anneyi izleyen yavru / ولد يتلو أمه ← 29:45 ٱتْلُ
+  - near: ح ص ب B007 yeryüzünde gitmek ve birinden hızla uzaklaşmak / الذهاب والانصراف في الأرض ← 29:40 حَاصِبًا
+  - near: ش ي ء B008 genç hurma fidanları / صغار النخل ← 29:42 شَىْءٍ
+  - far: و ث ن B004 olgunlarla gençlerin birlikte belirmesi / النشء مع الأصل ← 29:25 أَوْثَٰنًا
+  - far: ت ل و B006 anneyi izleyen yavru / ولد يتلو أمه ← 29:51 يُتْلَىٰ
+- **B016** taze hurmanın kurumaya dönmesi / ولي الرطب وتولى إذا هاج
+  - same: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 29:41 ٱتَّخَذُوا۟
+  - same: و ه ن B009 leş yiyip ağırlaşarak havalanamama / ثقل الطائر عن النهوض ← 29:41 أَوْهَنَ
+  - same: ك و ن B005 gençliğini anan yaşlı kişi / الشيخ المنسوب إلى كُنْتُ ← 29:41 كَانُوا۟
+  - near: ف س ق B002 taze hurmanın kabuğundan çıkması / خروج الرطبة من قشرها ← 29:34 يَفْسُقُونَ
+  - near: ح ص ب B007 yeryüzünde gitmek ve birinden hızla uzaklaşmak / الذهاب والانصراف في الأرض ← 29:40 حَاصِبًا
+  - near: ع م ل B003 işe görevli kılma veya görev üstlenme / ولاية العمل والقيام عليه ← 29:38 أَعْمَٰلَهُمْ
+  - far: د خ ل B010 taze palmiye meyvesi için küçük örgü sepet / دوخلة الخوص للرطب ← 29:9 لَنُدْخِلَنَّهُمْ
+  - far: ج ز ي B005 karşılık vermede üstün gelme / الغلبة في المجازاة ← 29:7 وَلَنَجْزِيَنَّهُمْ
+
+## ع ن ك ب (ٱلْعَنكَبُوتِ)
+
+- **B001** örümcek / العنكبوت الدويبة الناسجة
+  - same: ب ي ت B001 barınak mesken / المأوى والمسكن ← 29:41 بَيْتًا
+  - same: و ل ي B011 deve sırtı alt örtüsü / ولية تحت الرحل ← 29:41 أَوْلِيَآءَ
+  - same: و ه ن B007 ücretli işçinin yanında durup onu çalışmaya teşvik eden kişi / الوهين حاث الأجير ← 29:41 أَوْهَنَ
+  - near: س ب ل B010 kırmızı damarlı ağsı göz perdesi / غشاوة في العين تشبه النسج ← 29:38 ٱلسَّبِيلِ
+  - near: ح ق ق B011 özel adlandırma kümesi / حق يطابق موضعه كالمفصل والوعاء ← 29:44 بِٱلْحَقِّ
+  - near: ك ل ل B006 ev biçimli ince koruyucu örtü / الكِلّة سترا وبيتا ← 29:40 فَكُلًّا
+  - far: خ ل د B005 gözsüz faremsi küçük hayvan / دويبة عمياء تشبه الجرذ ← 29:58 خَٰلِدِينَ
+  - far: س ب ل B010 kırmızı damarlı ağsı göz perdesi / غشاوة في العين تشبه النسج ← 29:29 ٱلسَّبِيلَ
+
+## ب ي ت (بَيْتًا, ٱلْبُيُوتِ, لَبَيْتُ)
+
+- **B001** barınak mesken / المأوى والمسكن
+  - same: ع ن ك ب B001 örümcek / العنكبوت الدويبة الناسجة ← 29:41 ٱلْعَنكَبُوتِ
+  - same: ك و ن B002 bulunma yeri ve konum değeri / المكان والمكانة من الكون ← 29:41 كَانُوا۟
+  - same: د و ن B005 kayıt defteri ve kayıtları düzenleme / تدوين الدواوين ← 29:41 دُونِ
+  - near: س ك ن B002 bir yere yerleşip orada yaşama / استيطان المنزل ← 29:38 مَّسَٰكِنِهِمْ
+  - near: ح ق ق B011 özel adlandırma kümesi / حق يطابق موضعه كالمفصل والوعاء ← 29:44 بِٱلْحَقِّ
+  - near: ء ه ل B001 yakın çevre ve bağlı topluluk / جماعة القرب والانتماء ← 29:46 أَهْلَ
+  - far: ب و ء B001 yerlesme yeri / اتخاذ المبوأ ← 29:58 لَنُبَوِّئَنَّهُم
+  - far: ث و ي B002 kalınan yer ve konuk ağırlama düzeni / المثوى والمنزل والضيف ← 29:68 مَثْوًى
+- **B002** hane halkı / أهل البيت وعياله
+  - same: و ه ن B007 ücretli işçinin yanında durup onu çalışmaya teşvik eden kişi / الوهين حاث الأجير ← 29:41 أَوْهَنَ
+  - same: و ل ي B003 bir işi üstlenip yönetme / تولي الأمر والقيام عليه ← 29:41 أَوْلِيَآءَ
+  - same: م ث ل B003 benzer duruma aktarılan örnek söz / المثل المضروب ← 29:41 مَثَلُ
+  - near: ء ه ل B001 yakın çevre ve bağlı topluluk / جماعة القرب والانتماء ← 29:46 أَهْلَ
+  - near: س ك ن B003 ev halkı ve orada yaşayanlar / أهل الدار ← 29:38 مَّسَٰكِنِهِمْ
+  - near: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 29:45 وَأَقِمِ
+  - far: ء ه ل B001 yakın çevre ve bağlı topluluk / جماعة القرب والانتماء ← 29:33 وَأَهْلَكَ
+  - far: ح ز ن B003 kaygı duyulan aile ve yakın çevre / حَزانة العيال والتبعة ← 29:33 تَحْزَنْ
+- **B003** şiir dizesi / بيت الشعر
+  - same: م ث ل B003 benzer duruma aktarılan örnek söz / المثل المضروب ← 29:41 مَثَلُ
+  - same: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 29:41 يَعْلَمُونَ
+  - same: د و ن B005 kayıt defteri ve kayıtları düzenleme / تدوين الدواوين ← 29:41 دُونِ
+  - near: ر ج ز B002 kısa bölümlü şiir ölçüsü / الرَّجَز من الشعر ← 29:34 رِجْزًا
+  - near: ك ت ب B002 yazma ve yazılı metin / نظم الحروف واسم المكتوب ← 29:45 ٱلْكِتَٰبِ
+  - near: ق و ل B001 söze dökme / إخراج القول بالنطق ← 29:36 فَقَالَ
+  - far: ش ع ر B007 ölçülü uyaklı söz ve onu söyleme sanatı / قريض وشاعر ← 29:53 يَشْعُرُونَ
+  - far: ق ط ع B022 sözü veya şiiri bölmek / كلام وشعر مقطع ← 29:29 وَتَقْطَعُونَ
+- **B004** geceleyin yapmak / عمل الليل وتدبيره
+  - same: و ه ن B002 gecenin ortası dolaylarında geçen saat / ساعة من الليل تمضي ← 29:41 أَوْهَنَ
+  - same: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 29:41 يَعْلَمُونَ
+  - same: و ل ي B003 bir işi üstlenip yönetme / تولي الأمر والقيام عليه ← 29:41 أَوْلِيَآءَ
+  - near: ع م ل B002 işe koşmak veya kullanmak / إعمال الشيء واستعماله ← 29:38 أَعْمَٰلَهُمْ
+  - near: س ك ن B004 insanı rahatlatıp içini yatıştıran dayanak / مأنس السكون ← 29:38 مَّسَٰكِنِهِمْ
+  - near: خ ل ق B001 ölçüp sınırlarını belirleme / تقدير الشيء وقياسه ← 29:44 خَلَقَ
+  - far: ق د ر B005 ölçüp biçerek tasarlamak ve hazırlamak / تدبير الأمر بتقدير ونظر ← 29:20 قَدِيرٌ
+  - far: ق م ر B003 ay ışığında yaklaşma, avı gafil yakalama ve avlama / القصد أو الصيد في القمراء ← 29:61 وَٱلْقَمَرَ
+- **B005** bir gecelik azık / قوت ليلة
+  - same: ء خ ذ B008 ay konaklarının yıldızları / أخذ القمر في منازله ← 29:41 ٱتَّخَذُوا۟
+  - same: د و ن B003 başkası ya da daha aşağıda olan / السوى والغير ← 29:41 دُونِ
+  - same: و ه ن B002 gecenin ortası dolaylarında geçen saat / ساعة من الليل تمضي ← 29:41 أَوْهَنَ
+  - near: س ك ن B010 yerinde kalmayı sağlayan geçimlik ve bol otlak / قوت يثبت المقام ← 29:38 مَّسَٰكِنِهِمْ
+  - near: ن ز ل B005 konuk için hazırlanan yiyecek ve ağırlama payı / النزل المعد للنازل ← 29:46 أُنزِلَ
+  - near: ق ب ل B003 birinin tarafından veya nezdinde / جهة الشيء وعنده ← 29:48 قَبْلِهِۦ
+  - far: ك ف ي B003 ihtiyaca yetecek azık / القوت الذي يكفي الحاجة ← 29:51 يَكْفِهِمْ
+  - far: ر ز ق B002 yenip beslenilen yiyecek / القوت المتغذى به ← 29:60 رِزْقَهَا
+- **B006** gece beklemiş şey / شيء بات ليلة
+  - same: ء خ ذ B006 su tutan çukur veya havuz / موضع يمسك الماء ← 29:41 ٱتَّخَذُوا۟
+  - same: ك و ن B006 kötü durumda gece geçirme / حالة السوء بكينة ← 29:41 كَانُوا۟
+  - same: ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 29:41 يَعْلَمُونَ
+  - near: ظ ل م B004 yersiz veya zamansiz somut islem / إيقاع الشيء في غير أوانه أو موضعه المحسوس ← 29:40 لِيَظْلِمَهُمْ
+  - near: ك ذ ب B006 sütün kesilmesi veya beklenenden önce tükenmesi / كذب لبن الناقة إذا ذهب ولم يدم ← 29:37 فَكَذَّبُوهُ
+  - near: ص ن ع B006 su tutakları ve büyük yapılar / المصانع أحواض وأبنية ← 29:45 تَصْنَعُونَ
+  - far: ظ ل م B004 yersiz veya zamansiz somut islem / إيقاع الشيء في غير أوانه أو موضعه المحسوس ← 29:49 ٱلظَّٰلِمُونَ
+  - far: م و ه B003 su verme, içine su koyma ve sulanmış hale getirme / إيصال الماء بالسقي والصب ← 29:63 مَآءً
+- **B007** mezar evi / القبر بيت
+  - same: د و ن B003 başkası ya da daha aşağıda olan / السوى والغير ← 29:41 دُونِ
+  - same: ء خ ذ B008 ay konaklarının yıldızları / أخذ القمر في منازله ← 29:41 ٱتَّخَذُوا۟
+  - same: م ث ل B011 ders çıkarılan olay veya gösterge / المثل عبرة وآية ← 29:41 مَثَلُ
+  - near: ك ف ر B012 uzak arazi; köy, uzak yer halkı veya mezar / موضع منقطع ← 29:47 ٱلْكَٰفِرُونَ
+  - near: ي م ن B007 ölmek; mezarda sağ yana yatırılmayla ilişkilendirilen kullanım / التيمن الموت ← 29:48 بِيَمِينِكَ
+  - near: ك ل ل B006 ev biçimli ince koruyucu örtü / الكِلّة سترا وبيتا ← 29:40 فَكُلًّا
+  - far: ج ن ن B009 ölüyü örtüp gömme / مواراة الميت ← 29:58 ٱلْجَنَّةِ
+  - far: ك ف ر B012 uzak arazi; köy, uzak yer halkı veya mezar / موضع منقطع ← 29:52 وَكَفَرُوا۟
+- **B008** soylu hane / بيت الشرف
+  - same: ع ن ك ب B001 örümcek / العنكبوت الدويبة الناسجة ← 29:41 ٱلْعَنكَبُوتِ
+  - same: م ث ل B009 iyilik ve erdem bakımından üstün / الأمثل فضلا ← 29:41 مَثَلُ
+  - same: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 29:41 يَعْلَمُونَ
+  - near: ق ب ل B009 soy veya kuşak topluluğu / جماعة يقبل بعضها على بعض ← 29:48 قَبْلِهِۦ
+  - near: ذ ك ر B007 onur, iyi ün ve saygınlık / ذكر المرء شرف وصيت ← 29:45 وَلَذِكْرُ
+  - near: ك ب ر B005 saygınlık ve önderlikte yüksek konum / رفعة الشرف والرئاسة ← 29:39 فَٱسْتَكْبَرُوا۟
+  - far: ح ي ي B010 ortak soylu topluluk veya boylar birliği / الحي جماعة النسب والقبيلة ← 29:25 ٱلْحَيَوٰةِ
+  - far: ق ب ل B009 soy veya kuşak topluluğu / جماعة يقبل بعضها على بعض ← 29:18 قَبْلِكُمْ
+- **B010** evlenip zifafa girmek / بيت الزواج
+  - same: و ل ي B007 dönüp yüz çevirme / الإدبار والإعراض ← 29:41 أَوْلِيَآءَ
+  - same: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 29:41 يَعْلَمُونَ
+  - same: ء خ ذ B004 büyüsel yolla etkileyip engelleme / رقية تمسك وتحبس ← 29:41 ٱتَّخَذُوا۟
+  - near: ء ه ل B002 evlenip yakın çevre edinmek / اتخاذ الأهل بالزواج ← 29:46 أَهْلَ
+  - near: ت ر ك B007 evlenmeden birakilan kadin / امرأة تركت بلا زواج ← 29:35 تَّرَكْنَا
+  - near: س ك ن B002 bir yere yerleşip orada yaşama / استيطان المنزل ← 29:38 مَّسَٰكِنِهِمْ
+  - far: ء ه ل B002 evlenip yakın çevre edinmek / اتخاذ الأهل بالزواج ← 29:33 وَأَهْلَكَ
+  - far: ت ر ك B007 evlenmeden birakilan kadin / امرأة تركت بلا زواج ← 29:2 يُتْرَكُوٓا۟
+
+## و ه ن (أَوْهَنَ)
+
+- **B001** gücün veya kararlılığın azalması ya da azaltılması / ضعف القوة وفتور العزم
+  - same: د و ن B002 değersiz, önemsiz veya aşağı olma / الخسة والحقارة ← 29:41 دُونِ
+  - same: ء خ ذ B007 bedende bir durumun baş gösterip etkisini göstermesi / حال تأخذ في الجسم ← 29:41 ٱتَّخَذُوا۟
+  - same: ك و ن B001 gerçekleşme, bulunma ve olma bildirimi / وقوع الشيء وحضوره في زمان ← 29:41 كَانُوا۟
+  - near: ي م ن B004 güç, savunma ve güçlü doğruluk dayanağı / يمين القوة والحق ← 29:48 بِيَمِينِكَ
+  - near: ن ف س B014 sağlam, cömert ve onurlu yaradılış / قوة النفس وخلقها ← 29:40 أَنفُسَهُمْ
+  - near: ء ن س B001 insan türü ve bu türden bir kişi / ظهور الإنسان المخالف للتوحش والجن ← 29:43 لِلنَّاسِ
+  - far: ع ج ز B001 güç yetirememe ve yetersiz kalma / ضعف وقصور عن الفعل ← 29:22 بِمُعْجِزِينَ
+  - far: ق ط ع B020 gücü kesilmek / عجز وانقطاع عن فعل ← 29:29 وَتَقْطَعُونَ
+- **B002** gecenin ortası dolaylarında geçen saat / ساعة من الليل تمضي
+  - same: ب ي ت B004 geceleyin yapmak / عمل الليل وتدبيره ← 29:41 بَيْتًا
+  - same: م ث ل B005 ayağa kalkıp dik durma / المثول والانتصاب ← 29:41 مَثَلُ
+  - same: و ل ي B007 dönüp yüz çevirme / الإدبار والإعراض ← 29:41 أَوْلِيَآءَ
+  - near: ح ص ب B006 kutsal bölgedeki belirli konak alanı ve vadide kısa geceleme / المُحَصَّب وموضع الجمار ← 29:40 حَاصِبًا
+  - near: ي و م B002 herhangi bir zaman dilimi; bağlama göre devir / مدة من الزمان ← 29:36 ٱلْيَوْمَ
+  - near: ق و م B013 ölülerin diriltildiği ve insanların yargı için kalktığı gün / قيامة وبعث وقيام الساعة ← 29:45 وَأَقِمِ
+  - far: ء ن ي B002 gecenin zaman bölümleri / آناء الليل ← 29:61 فَأَنَّىٰ
+  - far: ه ج ر B005 sıcağın bastırdığı öğle vakti / حر الهاجرة ووقتها ← 29:26 مُهَاجِرٌ
+- **B003** alt kaburga, omuz damarı ya da devenin köprücük kemiği / الواهنة موضع في الأضلاع والصدر
+  - same: و ل ي B011 deve sırtı alt örtüsü / ولية تحت الرحل ← 29:41 أَوْلِيَآءَ
+  - same: ع ل م B004 üst dudak yarığı / شق ظاهر في الشفة العليا ← 29:41 يَعْلَمُونَ
+  - same: ء خ ذ B007 bedende bir durumun baş gösterip etkisini göstermesi / حال تأخذ في الجسم ← 29:41 ٱتَّخَذُوا۟
+  - near: ع ز ز B010 atın iki kalça ucu arasındaki bölge / العزيزاء من الفرس ← 29:42 ٱلْعَزِيزُ
+  - near: س ب ل B007 kap kenarı veya hayvanın boğaz kesim yeri / حافة أو مخرج متقدم ← 29:38 ٱلسَّبِيلِ
+  - near: ك ل ل B007 göğüs / الكُلْكُل صدرا ← 29:40 فَكُلًّا
+  - far: ج ن ن B016 göğüs kemikleri ve kaburga uçları / الجناجن عظام الصدر ← 29:58 ٱلْجَنَّةِ
+  - far: ص د ر B001 göğüs bölgesi / الصدر الجارحة وما يتصل بها ← 29:49 صُدُورِ
+- **B004** boyun yanı, üst kol veya omuz başındaki özel ağrı / وجع الواهنة وداؤها
+  - same: ء خ ذ B007 bedende bir durumun baş gösterip etkisini göstermesi / حال تأخذ في الجسم ← 29:41 ٱتَّخَذُوا۟
+  - same: م ث ل B002 ibret verici ağır cezalandırma / المثلة والنكال ← 29:41 مَثَلُ
+  - same: و ل ي B016 taze hurmanın kurumaya dönmesi / ولي الرطب وتولى إذا هاج ← 29:41 أَوْلِيَآءَ
+  - near: ء خ ذ B007 bedende bir durumun baş gösterip etkisini göstermesi / حال تأخذ في الجسم ← 29:40 أَخَذْنَا
+  - near: ق و م B020 koyunun bacaklarını tutan hastalık / قوام في قوائم الشاة ← 29:45 وَأَقِمِ
+  - near: ص ن ع B007 çıkar vererek ya da yumuşak davranarak gönül alma / مصانعة بملاينة أو مال ← 29:45 تَصْنَعُونَ
+  - far: ل ع ن B002 başkasına kötülük dileme ya da ağır sövgü yöneltme / الدعاء والسب باللَّعن ← 29:25 وَيَلْعَنُ
+  - far: ر ء ي B009 akciğer ve ona gelen zarar / الرئة وما يصيبها ← 29:19 يَرَوْا۟
+- **B005** az hareketli, ağır ve ağırdan alan kadın / فتور المرأة وثقل حركتها
+  - same: و ل ي B003 bir işi üstlenip yönetme / تولي الأمر والقيام عليه ← 29:41 أَوْلِيَآءَ
+  - same: ء خ ذ B004 büyüsel yolla etkileyip engelleme / رقية تمسك وتحبس ← 29:41 ٱتَّخَذُوا۟
+  - same: م ث ل B005 ayağa kalkıp dik durma / المثول والانتصاب ← 29:41 مَثَلُ
+  - near: ع ق ل B008 bir topluluğun veya türün en seçkin ve değerli örneği / العَقيلة كريمة محروسة ← 29:43 يَعْقِلُهَآ
+  - near: ت ر ك B007 evlenmeden birakilan kadin / امرأة تركت بلا زواج ← 29:35 تَّرَكْنَا
+  - near: ع ث و B004 ağır ve budala kimse / الحماقة مع الثقل ← 29:36 تَعْثَوْا۟
+  - far: ه ل ك B003 salınarak ve kırıtılarak yürüme / تكسّر التهالك في المشي والغنج ← 29:31 مُهْلِكُوٓا۟
+  - far: ث ق ل B008 dolgun kalçalı ağırbaşlı kadın / امرأة ثقال ← 29:13 أَثْقَالَهُمْ
+- **B006** yoğun deve topluluğu / كثافة الإبل
+  - same: ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 29:41 يَعْلَمُونَ
+  - same: م ث ل B011 ders çıkarılan olay veya gösterge / المثل عبرة وآية ← 29:41 مَثَلُ
+  - same: ء خ ذ B007 bedende bir durumun baş gösterip etkisini göstermesi / حال تأخذ في الجسم ← 29:41 ٱتَّخَذُوا۟
+  - near: ع م ل B008 işe yatkın ve dayanıklı / المطبوع على العمل ← 29:38 أَعْمَٰلَهُمْ
+  - near: ق ر ي B011 sürü malı ya da bakmakla yükümlü olunan ev halkı / مال وعيال مجتمعون ← 29:34 ٱلْقَرْيَةِ
+  - near: ع ث و B002 gür ve birbirine geçmiş saç ya da kıl / الشعر الكثيف المتلبد ← 29:36 تَعْثَوْا۟
+  - far: ق م ر B010 develerin akşam yeminin gecikmesi / تأخر عشاء الإبل ← 29:61 وَٱلْقَمَرَ
+  - far: ع م ل B008 işe yatkın ve dayanıklı / المطبوع على العمل ← 29:55 تَعْمَلُونَ
+- **B007** ücretli işçinin yanında durup onu çalışmaya teşvik eden kişi / الوهين حاث الأجير
+  - same: م ث ل B011 ders çıkarılan olay veya gösterge / المثل عبرة وآية ← 29:41 مَثَلُ
+  - same: و ل ي B003 bir işi üstlenip yönetme / تولي الأمر والقيام عليه ← 29:41 أَوْلِيَآءَ
+  - same: ع ن ك ب B001 örümcek / العنكبوت الدويبة الناسجة ← 29:41 ٱلْعَنكَبُوتِ
+  - near: ع م ل B004 iş ücreti / أجر العمل ورزق العامل ← 29:38 أَعْمَٰلَهُمْ
+  - near: ب ط ل B005 işten veya yararlı uğraştan uzak kalma / التعطل والبطالة عن النفع والعمل ← 29:48 ٱلْمُبْطِلُونَ
+  - near: ق و ل B004 sözü geçen yönetici unvanı / القيل صاحب القول النافذ ← 29:36 فَقَالَ
+  - far: ء ج ر B003 çevresi korkuluksuz açık dam / سطح بلا سترة ← 29:27 أَجْرَهُۥ
+  - far: ع م ل B004 iş ücreti / أجر العمل ورزق العامل ← 29:55 تَعْمَلُونَ
+- **B008** mazeret için uydurulan boş söz / كلام باطل يتعلل به
+  - same: ك و ن B005 gençliğini anan yaşlı kişi / الشيخ المنسوب إلى كُنْتُ ← 29:41 كَانُوا۟
+  - same: م ث ل B011 ders çıkarılan olay veya gösterge / المثل عبرة وآية ← 29:41 مَثَلُ
+  - same: و ل ي B016 taze hurmanın kurumaya dönmesi / ولي الرطب وتولى إذا هاج ← 29:41 أَوْلِيَآءَ
+  - near: ق و ل B005 yalan söyleme veya isnat etme / قول ما لم يكن أو نسبته ← 29:36 فَقَالَ
+  - near: ب ط ل B003 gerçek dışı söz veya iddia ileri sürme ya da doğruyu geçersizleştirmeye çalışma / ادعاء الباطل وقول ما لا حقيقة له ← 29:48 ٱلْمُبْطِلُونَ
+  - near: ء ي ي B009 yani aciklayicisi / أي مفسرة ← 29:44 لَءَايَةً
+  - far: ق و ل B005 yalan söyleme veya isnat etme / قول ما لم يكن أو نسبته ← 29:33 وَقَالُوا۟
+  - far: ب ط ل B003 gerçek dışı söz veya iddia ileri sürme ya da doğruyu geçersizleştirmeye çalışma / ادعاء الباطل وقول ما لا حقيقة له ← 29:52 بِٱلْبَٰطِلِ
+- **B009** leş yiyip ağırlaşarak havalanamama / ثقل الطائر عن النهوض
+  - same: و ل ي B016 taze hurmanın kurumaya dönmesi / ولي الرطب وتولى إذا هاج ← 29:41 أَوْلِيَآءَ
+  - same: م ث ل B008 başkasına benzetilerek yapılmış görüntü / المثال المصور ← 29:41 مَثَلُ
+  - same: د و ن B001 yakın, aşağı ya da hedefin gerisinde olma / القرب دون الغاية ← 29:41 دُونِ
+  - near: ق و م B003 bir işe kararlılıkla girişme / عزم ونهوض إلى الأمر ← 29:45 وَأَقِمِ
+  - near: ع ق ل B003 dilin tutulup konuşamaz hâle gelmesi / احتباس اللسان ← 29:43 يَعْقِلُهَآ
+  - near: ج ث م B001 yere çöküp bulunduğu yerde kalma / اللصوق بالأرض ولزوم المكان ← 29:37 جَٰثِمِينَ
+  - far: ق ط ع B020 gücü kesilmek / عجز وانقطاع عن فعل ← 29:29 وَتَقْطَعُونَ
+  - far: ث ق ل B009 işitme ağırlığı / ثقل السمع ← 29:13 أَثْقَالَهُمْ
+
+## ك و ن (كَانُوا۟)
+
+- **B001** gerçekleşme, bulunma ve olma bildirimi / وقوع الشيء وحضوره في زمان
+  - same: م ث ل B004 nitelik veya hakkında verilen bilgi / المثل صفة وخبر ← 29:41 مَثَلُ
+  - same: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 29:41 يَعْلَمُونَ
+  - same: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 29:41 ٱتَّخَذُوا۟
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 29:36 ٱلْيَوْمَ
+  - near: ء ي ي B006 zaman sorusu / أيان للزمان ← 29:44 لَءَايَةً
+  - near: ب ي ن B010 o sırada / الوقت الواقع أثناء حال أو فعل ← 29:39 بِٱلْبَيِّنَٰتِ
+  - far: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 29:55 يَوْمَ
+  - far: ل ي س B002 ardından gelen öğeyi belirtme durumunda dışarıda bırakan istisna yapısı / ليس استثناء يخرج المذكور ← 29:68 أَلَيْسَ
+- **B002** bulunma yeri ve konum değeri / المكان والمكانة من الكون
+  - same: ب ي ت B001 barınak mesken / المأوى والمسكن ← 29:41 بَيْتًا
+  - same: د و ن B003 başkası ya da daha aşağıda olan / السوى والغير ← 29:41 دُونِ
+  - same: و ل ي B001 aralıksız yakınlık / قرب ودنو بلا فاصل ← 29:41 أَوْلِيَآءَ
+  - near: ق و م B006 bir yerde kalma ve kalınan yer / مقام وإقامة في موضع ← 29:45 وَأَقِمِ
+  - near: ن ز ل B003 konaklama yeri veya bulunulan derece / المنزل والمنزلة ← 29:46 أُنزِلَ
+  - near: س ك ن B002 bir yere yerleşip orada yaşama / استيطان المنزل ← 29:38 مَّسَٰكِنِهِمْ
+  - far: ق و م B006 bir yerde kalma ve kalınan yer / مقام وإقامة في موضع ← 29:51 لِقَوْمٍ
+  - far: ن ز ل B003 konaklama yeri veya bulunulan derece / المنزل والمنزلة ← 29:50 أُنزِلَ
+- **B003** birini güvenceyle üstlenme / الكفالة والقيام على فلان
+  - same: و ل ي B003 bir işi üstlenip yönetme / تولي الأمر والقيام عليه ← 29:41 أَوْلِيَآءَ
+  - same: م ث ل B005 ayağa kalkıp dik durma / المثول والانتصاب ← 29:41 مَثَلُ
+  - same: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 29:41 يَعْلَمُونَ
+  - near: ق ب ل B008 güvence ve sorumluluk üstlenme / ضمان الشيء والتكفل به ← 29:48 قَبْلِهِۦ
+  - near: ت ل و B004 bağlı güvence ve talep / ذمة أو حق يتبع صاحبه ← 29:45 ٱتْلُ
+  - near: ك ف ر B006 inançsız saymak / نسبة إلى الكفر ← 29:47 ٱلْكَٰفِرُونَ
+  - far: ص ب ر B003 yükümlülüğe güvence veren kişi / تحمل الكفالة والملازمة ← 29:59 صَبَرُوا۟
+  - far: ق ب ل B008 güvence ve sorumluluk üstlenme / ضمان الشيء والتكفل به ← 29:18 قَبْلِكُمْ
+- **B004** boyun eğme / الخضوع بالاستكانة
+  - same: م ث ل B011 ders çıkarılan olay veya gösterge / المثل عبرة وآية ← 29:41 مَثَلُ
+  - same: ء خ ذ B012 kancalı aracın tutamağı / مقبض الشيء المأخوذ به ← 29:41 ٱتَّخَذُوا۟
+  - same: د و ن B002 değersiz, önemsiz veya aşağı olma / الخسة والحقارة ← 29:41 دُونِ
+  - near: س ك ن B006 yoksulluk, güçsüzlük ve ezilmişlik / ذل المسكنة ← 29:38 مَّسَٰكِنِهِمْ
+  - near: ع ب د B003 boyun eğerek itaat ve tapınma / العبادة والطاعة الخاضعة ← 29:36 ٱعْبُدُوا۟
+  - near: ك ف ر B014 eğilerek boyun eğme gösterisi / خضوع متطامن ← 29:47 ٱلْكَٰفِرُونَ
+  - far: ع ب د B003 boyun eğerek itaat ve tapınma / العبادة والطاعة الخاضعة ← 29:56 يَٰعِبَادِىَ
+  - far: م و ت B013 gerçeğe boyun eğme / الخضوع للحق ← 29:57 ٱلْمَوْتِ
+- **B005** gençliğini anan yaşlı kişi / الشيخ المنسوب إلى كُنْتُ
+  - same: و ه ن B008 mazeret için uydurulan boş söz / كلام باطل يتعلل به ← 29:41 أَوْهَنَ
+  - same: و ل ي B016 taze hurmanın kurumaya dönmesi / ولي الرطب وتولى إذا هاج ← 29:41 أَوْلِيَآءَ
+  - same: ع ل م B006 doğan veya atmaca türü yırtıcı kuş / طائر جارح يسمى العلام ← 29:41 يَعْلَمُونَ
+  - near: ع و د B012 biçime bağlı adlandırmalar / عاد وأعلام منسوبة إليها ← 29:38 وَعَادًا
+  - near: ء ت ي B013 etkili ve işini yürüten adam / نَفاذ الرجل ← 29:47 ءَاتَيْنَٰهُمُ
+  - near: ص ن ع B003 birine iyilik etme / الصنيعة من المعروف ← 29:45 تَصْنَعُونَ
+  - far: ص ح ب B005 oğlunun büyüyüp babasına yoldaş olması / بلوغ الابن صاحبا ← 29:15 وَأَصْحَٰبَ
+  - far: ر ج ل B004 birinin devrinde / زمان الرجل ← 29:29 ٱلرِّجَالَ
+- **B006** kötü durumda gece geçirme / حالة السوء بكينة
+  - same: م ث ل B004 nitelik veya hakkında verilen bilgi / المثل صفة وخبر ← 29:41 مَثَلُ
+  - same: و ه ن B008 mazeret için uydurulan boş söz / كلام باطل يتعلل به ← 29:41 أَوْهَنَ
+  - same: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 29:41 ٱللَّهِ
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 29:36 ٱلْيَوْمَ
+  - near: ت ر ك B003 belirtilen halde bırakma / ترك الشيء على حال ← 29:35 تَّرَكْنَا
+  - near: ك ذ ب B005 gecikmeden yapmak / ما كذب أن فعل أي ما لبث ← 29:37 فَكَذَّبُوهُ
+  - far: ب و ء B006 yasayis durumu / هيئة المقام والحال ← 29:58 لَنُبَوِّئَنَّهُم
+  - far: س و ء B003 bedensel kusur veya hastalık / الآفة والبرص ← 29:33 سِىٓءَ
+
+## ع ل م (يَعْلَمُونَ)
+
+- **B001** bilme ve gerçeğini kavrama / انكشاف الشيء للعارف
+  - same: م ث ل B004 nitelik veya hakkında verilen bilgi / المثل صفة وخبر ← 29:41 مَثَلُ
+  - same: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 29:41 ٱتَّخَذُوا۟
+  - same: د و ن B004 buyur, bunu al / الإغراء بالتناول ← 29:41 دُونِ
+  - near: ع ق ل B001 bilgiyi edinip kavrama, ayırt etme ve davranışı denetleme yetisi / العَقْل الحابس عن الجهل ← 29:43 يَعْقِلُهَآ
+  - near: ح ك م B003 bilgi ve usla doğruyu bulma yetkinliği / الحكمة والعلم المصيب ← 29:42 ٱلْحَكِيمُ
+  - near: ب ي ن B004 açığa çıkıp belirginleşme / ظهور الشيء وانكشافه ← 29:39 بِٱلْبَيِّنَٰتِ
+  - far: ش ع ر B005 dikkatle fark edip bilme ve bunu sağlayan duyular / علم دقيق وفطنة ← 29:53 يَشْعُرُونَ
+  - far: ع ق ل B001 bilgiyi edinip kavrama, ayırt etme ve davranışı denetleme yetisi / العَقْل الحابس عن الجهل ← 29:63 يَعْقِلُونَ
+- **B002** ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه
+  - same: م ث ل B008 başkasına benzetilerek yapılmış görüntü / المثال المصور ← 29:41 مَثَلُ
+  - same: ب ي ت B003 şiir dizesi / بيت الشعر ← 29:41 بَيْتًا
+  - same: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 29:41 ٱتَّخَذُوا۟
+  - near: خ ط ط B001 uzayan veya çizilmiş iz / أثر ممتد وخط مرسوم ← 29:48 تَخُطُّهُۥ
+  - near: ء ي ي B003 gorunen belirti / علامة ظاهرة ← 29:44 لَءَايَةً
+  - near: ح ك م B003 bilgi ve usla doğruyu bulma yetkinliği / الحكمة والعلم المصيب ← 29:42 ٱلْحَكِيمُ
+  - far: ر ء ي B011 görünür yere dikilen bayrak / راية منصوبة ← 29:19 يَرَوْا۟
+  - far: ش ع ر B006 ayırt edici belirti veya çağrı, törensel gösterge ve kanatarak belirleme / علامة مشعرة وشعيرة نسك ← 29:53 يَشْعُرُونَ
+- **B004** üst dudak yarığı / شق ظاهر في الشفة العليا
+  - same: و ه ن B003 alt kaburga, omuz damarı ya da devenin köprücük kemiği / الواهنة موضع في الأضلاع والصدر ← 29:41 أَوْهَنَ
+  - same: و ل ي B011 deve sırtı alt örtüsü / ولية تحت الرحل ← 29:41 أَوْلِيَآءَ
+  - same: ء خ ذ B007 bedende bir durumun baş gösterip etkisini göstermesi / حال تأخذ في الجسم ← 29:41 ٱتَّخَذُوا۟
+  - near: س ب ل B006 üst dudak ve sakal önündeki sarkan kıl / شعر منسدل عند الفم واللحية ← 29:38 ٱلسَّبِيلِ
+  - near: ب ص ر B006 kalın kenar ve ek yeri / غلظ الحافة ووصل الشقتين ← 29:38 مُسْتَبْصِرِينَ
+  - near: ح ك م B003 bilgi ve usla doğruyu bulma yetkinliği / الحكمة والعلم المصيب ← 29:42 ٱلْحَكِيمُ
+  - far: س ب ل B006 üst dudak ve sakal önündeki sarkan kıl / شعر منسدل عند الفم واللحية ← 29:29 ٱلسَّبِيلَ
+  - far: ق ل ب B012 dudak dönüklüğü / انقلاب الشفة ← 29:21 تُقْلَبُونَ
+- **B005** deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم
+  - same: ء خ ذ B006 su tutan çukur veya havuz / موضع يمسك الماء ← 29:41 ٱتَّخَذُوا۟
+  - same: و ه ن B006 yoğun deve topluluğu / كثافة الإبل ← 29:41 أَوْهَنَ
+  - same: ب ي ت B006 gece beklemiş şey / شيء بات ليلة ← 29:41 بَيْتًا
+  - near: ج ث م B007 suyun kendisi veya toplandığı orta yer / جثمانية الماء ومجتمعه ← 29:37 جَٰثِمِينَ
+  - near: ص د د B010 tatlı sulu bir kuyunun adı / ماء مسمى ← 29:38 فَصَدَّهُمْ
+  - near: ج ي ء B002 suyun biriktiği yer veya çukur / الجِيأة مجتمع الماء ← 29:39 جَآءَهُم
+  - far: ر ب ب B013 bol ve toplanmış su / ماء رَبَب كثير ← 29:50 رَّبِّهِۦ
+  - far: ج ي ء B002 suyun biriktiği yer veya çukur / الجِيأة مجتمع الماء ← 29:33 جَآءَتْ
+- **B006** doğan veya atmaca türü yırtıcı kuş / طائر جارح يسمى العلام
+  - same: م ث ل B011 ders çıkarılan olay veya gösterge / المثل عبرة وآية ← 29:41 مَثَلُ
+  - same: ك و ن B005 gençliğini anan yaşlı kişi / الشيخ المنسوب إلى كُنْتُ ← 29:41 كَانُوا۟
+  - same: ء خ ذ B012 kancalı aracın tutamağı / مقبض الشيء المأخوذ به ← 29:41 ٱتَّخَذُوا۟
+  - near: ج د ل B007 gelişimde güçlenme veya sağlam yapılı olma / الاشتداد والصلابة ← 29:46 تُجَٰدِلُوٓا۟
+  - near: ء ي ي B003 gorunen belirti / علامة ظاهرة ← 29:44 لَءَايَةً
+  - near: س ب ق B003 avcı kuşun ayaklarına takılan iki bağ / سباقا الطائر ← 29:39 سَٰبِقِينَ
+  - far: و ق ي B005 örümcek kuşu / الواقي اسم للصرد ← 29:16 وَٱتَّقُوهُ
+  - far: ء ي ي B003 gorunen belirti / علامة ظاهرة ← 29:49 ءَايَٰتٌۢ
+- **B007** erkek sırtlan / ذكر الضباع يسمى العيلام
+  - same: م ث ل B011 ders çıkarılan olay veya gösterge / المثل عبرة وآية ← 29:41 مَثَلُ
+  - same: ك و ن B004 boyun eğme / الخضوع بالاستكانة ← 29:41 كَانُوا۟
+  - same: و ه ن B006 yoğun deve topluluğu / كثافة الإبل ← 29:41 أَوْهَنَ
+  - near: ظ ل م B006 erkek devekusu / الظليم ذكر النعام ← 29:40 لِيَظْلِمَهُمْ
+  - near: ذ ك ر B007 onur, iyi ün ve saygınlık / ذكر المرء شرف وصيت ← 29:45 وَلَذِكْرُ
+  - near: ء ه ل B004 sakinli ve alışılmış yerleşiklik / أنس المكان والعمران ← 29:46 أَهْلَ
+  - far: ظ ل م B006 erkek devekusu / الظليم ذكر النعام ← 29:49 ٱلظَّٰلِمُونَ
+  - far: س م ع B010 kurt ile sırtlan arasında sayılan yırtıcı / السَّمْع ولد الذئب والضبع ← 29:60 ٱلسَّمِيعُ
+

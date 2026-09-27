@@ -6,7 +6,8 @@ Everything above this brief is evidence, not yet judged:
 - **hft.md**: earlier readers' image-chain hypotheses for every ayah, with their traces checked by script
   (`[!]` = a broken trace step).
 - **branch_table.md**: every attested branch of every root in the surah or passage.
-- **usage.md** (when present): root dossiers for words that recur here: how the Quran uses them everywhere.
+- **usage.md** (when present): root dossiers for roots that recur here: each root's occurrences in this window with
+  the Quran-wide usage group (stated context) each belongs to and its size. A concordance, not an interpretation.
 - the **ledger of every ayah** (S_A.ledger.md), each written with the chain map in view. Their `Chains` lines say how
   each ayah's word takes part in the known chains and whether it holds; their `New` lines hold readings the map
   lacked; their Quran, Usage and Limits lines hold the passages that ground or bound them.

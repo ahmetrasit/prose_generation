@@ -424,6 +424,26 @@ Cite a branch as `root Bnnn`, e.g. `ر ب ب B007`; its Arabic may be quoted wit
 - B012 dişi devenin çiftleşmek istemesi | استئتاء الناقة | استأتت الناقة استئتاء مهموز أي ضبعت وأرادت الفحل (sihah)
 - B013 etkili ve işini yürüten adam | نَفاذ الرجل | رجل أتي إذا كان نافذا (maqayis)
 
+### ش ي ء — 18:84 w9 شَىْءٍ
+- B001 varlık, olgu ya da konu | الشيء المعلوم المخبر عنه | الشيء واحد الأشياء (ayn)
+- B002 isteme ve gerçekleşmesini dileme | المشيئة المتعلّقة بالشيء | المشيئة مصدر شاء يشاء (ayn)
+- B003 bir işe ya da hedefe sevk etmek | حمل الشيء إلى الأمر | شيأت الرجل على الامر حملته عليه
+- B004 yaradılışı bozuk ve çirkin | تشويه الخلق وقبحه | شيأ الله وجهه إذا دعا عليه بالقبح (maqayis)
+- B005 özlem duymak; beğenip sevinmek | انجذاب النفس إلى الشيء | شاءني الشيء مثل شاعني إذا شاقني (jamhara)
+- B006 dikkat vererek dinlemek | إصغاء السمع | اشتأيت أي استمعت
+- B007 uzağı görebilen at | بعد النظر في الفرس | الشيئان بوزن الشيعان البعيد النظر وينعت به الفرس
+- B008 genç hurma fidanları | صغار النخل | الإشاء الصغار من النخل واحدها أشاءة
+- B009 yakınma ve şaşma ünlemi | نداء التلهف والتعجب | ياشيء مالي معناه الأسف والتلهف والحزن
+
+### ش ي ء — 18:84 w9 شَىْءٍ
+- B001 isteme ve dileme | المشيئة | للشيئة مصدر شاء يشاء مشيئة (tahdhib)
+- B002 yüzü veya yaradılışı bozuk ve çirkin | تشويه الخلق والوجه | شَيَّأ الله وجهه إذا دعا عليه بالقبح
+- B003 uzağı görebilen at | بعد النظر | الشيئان بوزن الشيعان: البعيد النظر، وينعت به الفرس (tahdhib)
+- B004 beğenip sevinmek | الإعجاب والسرور | شؤت به: أعجبت به وسررت (tahdhib)
+- B005 dikkat vererek dinlemek | الاستماع | اشتأيت أي استمعت (tahdhib)
+- B006 genç hurma fidanları | صغار النخل | الإشاء الصغار من النخل، واحدها أشاءة (tahdhib)
+- B007 yakınma ve şaşma ünlemleri | التلهف والتعجب | يافيء مالي، وياشيء مالي، وياهيء مالي، معناه كله الأسف والتلهف والحزن
+
 ### س ب ب — 18:84 w10 سَبَبًا; 18:85 w2 سَبَبًا; 18:89 w3 سَبَبًا; 18:92 w3 سَبَبًا
 - B001 kesme ve bağı koparma | القَطْع والعَقْر | أصل هذا الباب القطع
 - B002 ağır sözlerle aşağılama | الشَّتْم والسِّباب | السب الشتم (maqayis)

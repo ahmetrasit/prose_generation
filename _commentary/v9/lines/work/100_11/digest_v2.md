@@ -1,0 +1,345 @@
+# Quranic reach for 100:11 (script digest, unjudged)
+
+Candidates for reading the ayah through the Quran itself. Nothing here is a finding yet: judge each one.
+
+## 1. Variant readings (qirāʾāt)
+
+(none recorded)
+
+## 2. Usage: each root of the ayah across the Quran (ref and the word as it occurs)
+
+### U-خبر root خ ب ر (focus word لَّخَبِيرٌۢ: خَبِير N) — 52 occurrences in 52 ayat; same form 22, other forms 30
+- tier 1, same form (خَبِير N): 22
+  - 2:234 خَبِيرٌ
+  - 2:271 خَبِيرٌ
+  - 3:153 خَبِيرٌۢ
+  - 3:180 خَبِيرٌ
+  - 4:94 خَبِيرًا
+  - 4:128 خَبِيرًا
+  - 4:135 خَبِيرًا
+  - 5:8 خَبِيرٌۢ
+  - 11:111 خَبِيرٌ
+  - 25:59 خَبِيرًا
+  - 27:88 خَبِيرٌۢ
+  - 31:29 خَبِيرٌ
+  - 33:2 خَبِيرًا
+  - 35:31 خَبِيرٌۢ
+  - 48:11 خَبِيرًۢا
+  - 57:10 خَبِيرٌ
+  - 58:3 خَبِيرٌ
+  - 58:11 خَبِيرٌ
+  - 59:18 خَبِيرٌۢ
+  - 63:11 خَبِيرٌۢ
+  - 64:8 خَبِيرٌ
+  - 100:11 ◀ focus خَبِيرٌۢ
+- tier 2, other forms: خُبْر N 2; خَبَر N 2; أَخْبَار N 3; خَبِير ADJ 23
+- rare form خُبْر (N):
+  - 18:68 خُبْرًا
+  - 18:91 خُبْرًا
+- rare form خَبَر (N):
+  - 27:7 خَبَرٍ
+  - 28:29 خَبَرٍ
+- rare form أَخْبَار (N):
+  - 9:94 أَخْبَارِ
+  - 47:31 أَخْبَارَ
+  - 99:4 أَخْبَارَ
+- roots co-occurring across the listed ayat: ء ل ه (41), ع م ل (21), ق و ل (10), ك و ن (10), ء م ن (9), ء ت ي (6), ن ف س (6), ب ي ن (5), ن و ر (5), و ق ي (5), س م و (4), ء ج ل (4), ء ه ل (4), ق و م (4)
+
+## 3. Related passages (reciprocal inter-ayah candidates, strongest first: the ayah and why it may bear on the focus, as an earlier review saw it — a lead to test, not a finding)
+- 83:15 — Pairs the same Lord-and-Day frame with exclusion, sharpening accountability.
+- 33:2 — Connects the Lord's guidance with comprehensive awareness of deeds.
+- 100:8 — Names the attachment that helps explain the coming exposure.
+- 10:10 — Offers a thankful counterpoint to the surrounding human ingratitude.
+- 11:111 — Directly joins full requital of deeds to expert awareness.
+- 100:7 — Places personal witnessing immediately before the final disclosure.
+- 99:4 — Adds earth's report as public evidence on that Day.
+- 59:22 — Explicitly spans hidden and visible reality, central to verse 100:11.
+- 100:9 — Begins the resurrection-and-uncovering sequence completed by 100:11.
+- 57:6 — Directly names knowledge of what is within breasts.
+- 100:6 — States the prior human failure toward the same Lord being assessed.
+- 17:30 — Pairs calibrated provision with expert awareness of servants.
+- 100:10 — Directly states the extraction of what is in breasts.
+- 59:18 — Joins future-oriented self-accounting to awareness of deeds.
+- 6:103 — Sharpens the asymmetry between human sight and divine expert knowing.
+- 75:30 — Directly frames that Day as the return or driving to the Lord.
+- 100:5 — Completes oath imagery but does not illuminate the closing knowledge claim.
+- 99:6 — Adds people being shown their deeds on that Day.
+- 47:29 — Directly supplies the exposure of hidden heart-hostility.
+- 47:37 — Directly depicts hidden rancor being brought out.
+- 67:14 — Grounds expert knowledge in creation and intimate discernment.
+- 15:25 — Adds gathering under the Lord's wise and knowing authority.
+- 35:38 — Directly names knowledge of the hidden and what is within breasts.
+- 83:6 — Directly pictures people standing before the Lord of all worlds.
+- 99:5 — Adds Lord-authorized earth testimony within the same Day sequence.
+- 24:25 — Adds full due recompense and recognition of manifest truth on that Day.
+- 99:7 — Adds visible recompense for even the smallest good deed.
+- 42:47 — Calls for response to the Lord before an inescapable Day.
+- 6:51 — Directly frames gathering to the Lord without alternate protection.
+- 3:29 — Exact hidden-versus-disclosed knowledge parallel.
+- 11:5 — Directly opposes concealed breasts to exhaustive divine knowledge.
+- 13:10 — Pairs secrecy and public expression under equal divine awareness.
+- 27:74 — Direct Lord knowledge of what breasts conceal and what is disclosed.
+- 28:69 — Repeats the concealed-versus-disclosed breast-level knowledge axis.
+- 40:19 — Adds the most minute outward sign alongside concealed breasts.
+- 50:16 — Places inner prompting within immediate divine knowledge.
+- 64:4 — Combines cosmic knowledge, secrecy, disclosure, and what breasts contain.
+- 67:13 — Directly equates concealed and public speech before breast-level knowledge.
+- 75:13 — Adds day-of-account disclosure of a person's prior and later acts.
+- 81:14 — Condenses final self-knowledge of what one has brought forward.
+- 82:5 — Adds comprehensive self-knowledge of advanced and deferred acts.
+- 86:9 — Directly names the Day when secrets are put to the test.
+- 102:8 — Adds questioning over blessing, tightly relevant to the surah's wealth motif.
+- 6:67 — Comprehensive awareness on that day grounds the preceding disclosure scene.
+- 9:105 — Adds disclosure of what is hidden in inner chests under informed lordship.
+- 12:6 — Positive f02 route stresses the Lord's continuing knowledge of development and response; the reject agrarian image remains contrary.
+- 13:42 — Joins that day with the Lord's complete awareness of them.
+- 14:41 — Divine full awareness on that day closes the disclosure and judgment sequence.
+- 17:14 — Anchors that exposure in God's full awareness.
+- 19:70 — The Lord is fully aware of them on that Day.
+- 21:23 — God is fully aware of people on that Day, completing the disclosure-and-accountability frame.
+- 24:24 — God is fully aware of people on that Day, completing the disclosure and accounting sequence.
+- 30:12 — The Lord is fully aware of them on that Day.
+- 41:22 — Their Lord is fully aware of them on that Day, completing the preceding disclosure with divine knowledge.
+- 53:40 — Complete divine awareness grounds that future exposure.
+- 75:12 — The Lord's day-specific full awareness reinforces the knowing accountability at the destination.
+- 75:23 — The Lord's full knowledge on that day supplies a judgment horizon in which faces and inward realities are exposed.
+- 75:36 — Rabbin o gün her şeyden haberdar olduğunu bildirir; sonuçsuz bırakılmama yönünü tamamlar.
+- 77:38 — Rabbin o gün haberdar oluşu, 77:38'deki hükmün tam bilgiyle yürüdüğü paralelini verir.
+- 79:19 — It joins the Lord's relation to people with full knowledge of their inward reality.
+- 82:6 — Direct f02 parallel: the nurturing Rabb already knows the human response at that day.
+- 82:17 — The Lord's full awareness on that day grounds the account.
+- 83:11 — Full awareness on that day anchors the final disclosure.
+- 86:4 — Closes with God's fully informed awareness of them.
+- 90:7 — The Lord is fully aware of people on that day.
+- 96:14 — The Lord's full awareness of people at final disclosure directly reinforces the focus.
+- 1:2 — Supplies the broad Lordship frame, but not the day-specific disclosure.
+- 77:15 — Adds a Day-of-reckoning rebuke; later repetitions add nothing further.
+- 70:28 — Adds the Lord's punishment as a serious accountability horizon.
+- 106:3 — Contributes Lord-centered devotion, a secondary response to provision.
+- 18:27 — Adds unalterable divine speech and exclusive refuge, a secondary authority frame.
+- 4:42 — Adds a Day when concealment fails, paralleling inner exposure.
+- 94:8 — Frames desire as directed to the Lord, a secondary relation contrast.
+- 35:31 — Links expert awareness to servants, though the book context is indirect.
+- 22:1 — Adds the Hour's upheaval as the setting for the final day.
+- 11:66 — Adds deliverance and humiliation on that Day under Lordly power.
+- 14:40 — Adds a prayer for sustained Lord-directed practice, not disclosure itself.
+- 18:21 — Adds certainty of the Hour, while the Lord-knowledge phrase is indirect.
+- 42:22 — Adds consequences of acquired acts, but not inner disclosure.
+- 100:2 — Opening-oath imagery is contextually adjacent but not explanatory.
+- 17:17 — Adds expert awareness of sins; retained as boundary rather than route support.
+- 24:30 — Relates outward discipline to divine awareness beyond appearances.
+- 80:37 — Adds each person's absorbing concern on that Day.
+- 79:24 — Contrasts false claimed lordship with the true Lord of 100:11.
+- 44:6 — Adds mercy from the Lord with hearing and knowing, but indirect.
+- 53:49 — Restricts an alleged autonomous power under Lordship, only a remote parallel.
+- 37:33 — Adds shared punishment on that Day, without the disclosure mechanism.
+- 84:15 — Pairs Lordship with seeing the person, a close but less full parallel.
+- 44:12 — Appeal for removal of punishment adds a secondary Lord relation.
+- 77:19 — Exact repetition of the earlier Day-of-rebuke card.
+- 58:11 — Links rank and knowledge to deeds fully known by God.
+- 9:16 — Shows deeds making loyalties manifest under expert awareness.
+- 18:50 — Sets departure from the Lord's command as a relational failure.
+- 23:57 — Adds reverent concern for the Lord as a counterpoint to heedlessness.
+- 83:12 — Adds the denier-sinner profile, near the same accountability setting.
+- 18:91 — General divine encompassing knowledge; its narrative context is distant.
+- 63:11 — Links time-limited action with expert awareness, but the death setting differs.
+- 6:18 — Combines overpowering authority with wisdom and expert knowledge.
+- 30:43 — Adds an irreversible Day and separation, but no inner-knowledge focus.
+- 7:122 — Identifies the Lord in a confession, with only a remote authority parallel.
+- 17:96 — Adds divine witnessing with expert awareness of servants.
+- 55:32 — Repeated refrain supplies no distinct route to 100:11.
+- 6:73 — Links hidden-visible knowledge to trumpet-day sovereignty.
+- 10:9 — Offers Lord-guided faithful action as a positive counterpoint.
+- 92:20 — Adds Lord-directed motive, relevant to the inward dimension only.
+- 84:5 — Cosmic obedience supplies a contrast with human refusal in Day imagery.
+- 37:5 — Universal Lordship is broad and redundant after earlier Lordship cards.
+- 96:3 — Lordly generosity and learning form a remote counterpoint to ingratitude.
+- 12:100 — Lordly subtle knowledge appears, but the narrative is tail-audit context.
+- 17:25 — Uses the Lord formula for knowledge of what is within persons.
+- 20:7 — Extends knowledge from secret speech to what is still more hidden.
+- 89:14 — Adds the Lord's watchful oversight as an accountability frame.
+- 6:31 — Names the Lord's full awareness on that Day.
+- 6:102 — Lordly knowledge of inner reality develops accountable dependence; contrast remains boundary-only.
+- 10:40 — Divine knowledge of people supports accountability, though not the split itself.
+- 14:25 — Rabbin süregiden iç bilgisi, aşamalı bakım okumasına ikincil destek verir.
+- 14:49 — Adds the Lord's complete awareness on that day.
+- 15:36 — Adds the Rabb's complete knowledge on the decisive day.
+- 15:86 — Rabbin insanlar hakkındaki süreklilik taşıyan iç bilgisi, alim niteliğinin zamansal kapsamını gösterir.
+- 15:92 — The Lord's exhaustive knowledge supports the focus's comprehensive inquiry.
+- 15:99 — Adds final-day accountability under the Lord's comprehensive knowledge.
+- 16:28 — The Lord's full awareness confirms the focus ayah's closing knowledge claim.
+- 23:59 — The Lord's complete knowledge on that day reinforces accountable belonging to one Lord.
+- 23:72 — The Lord's complete knowledge of people supports accountability to the true provider, but the payment contrast remains implicit.
+- 23:116 — The Lord's exhaustive awareness on that day supports accountable sovereignty; the rejected image remains contrast only.
+- 24:53 — On that day the Lord is fully aware of them, supplying a broad judgment framework for the focus's divine knowledge of deeds.
+- 26:9 — The Lord's thorough knowledge supports accountable governance; the rejected cultivation image remains a boundary.
+- 36:12 — Concludes that God is fully aware of them on that day.
+- 36:16 — The Lord's full awareness of people supplies a direct divine-knowledge parallel, though in an accounting setting.
+- 45:22 — Rabbin o gun her seyden haberdar olmasi, hesabın bilgi temelini tamamlar.
+- 47:31 — Relates divine expertise to what people conceal within.
+- 51:16 — Rabb's full knowledge gives an accountability frame for the stated prior ihsan.
+- 53:42 — Adds the Rabb's comprehensive awareness at the day of accounting.
+- 53:55 — Positive f01 route connects the Lord-title to accountability for response, without an exact lexical parallel.
+- 55:13 — The Lord's encompassing knowledge supports accountable response to benefits, but only indirectly.
+- 55:28 — f01 relates Rabb to sustained knowledge of the response to benefit, a secondary complement.
+- 55:30 — Adds the Lord's comprehensive knowledge of the response to divine care.
+- 55:36 — V12 supports enduring knowledge of human response within sustaining lordship.
+- 55:38 — f01 rota, Rabbin ilişki boyunca bilen denetimini 55:38'in sonuç eksenine bağlar.
+- 55:40 — Supports sustaining lordship and comprehensive knowledge; contrast retained.
+- 55:61 — Adds enduring awareness of responses to benefit, while its contrast remains boundary evidence.
+- 55:78 — The Rabb's knowing authority develops f01 care and f03 oversight.
+- 56:74 — The Lord's knowing attention supplies accountability alongside the response, while contrast remains boundary evidence.
+- 56:96 — Rabb and the final day have positive f01 routes relevant to terminal accountability.
+- 58:6 — Divine full awareness on that Day completes the disclosure sequence.
+- 64:7 — Divine awareness on that Day closes the account frame.
+- 69:18 — The Lord's full awareness grounds that breast-disclosure scene.
+- 69:43 — Adds lordship joined to comprehensive knowledge; contrast remains boundary-only.
+- 74:7 — Lordly knowledge supplies accountability context, though not a patience parallel.
+- 76:10 — Makes the Rabb fully aware of people on that day, adding inward accountability to the outcome.
+- 77:34 — Its "that day" knowledge motif supports accountability but does not mention denial or woe.
+- 77:37 — It supplies a parallel day when the Lord's full knowledge of people becomes decisive.
+- 77:49 — Divine awareness of them on that day supplies a general judgment setting.
+- 78:36 — The Lord's complete awareness on that day supports accountability.
+- 78:39 — The Lord's full knowledge on that Day supports accountable return.
+- 79:16 — It adds the true Lord's informed oversight, a secondary contrast to Pharaoh's claimed lordship; its rejected agrarian analogy is non-supporting.
+- 79:35 — O gün kapsamlı haberdarlık, kişisel emeğin nihai değerlendirilmesine genel çerçeve verir.
+- 79:40 — The Lord's complete knowledge on that day supports accountable inward life.
+- 79:44 — The Lord's complete awareness on that Day supports the final authority framework of 79:44.
+- 82:18 — States the Lord's full awareness on that day.
+- 83:5 — Adds complete awareness of them on that day.
+- 84:6 — Rabb's knowledge of people supports f03 oversight; the contrast route remains boundary evidence.
+- 85:12 — The Lord's comprehensive knowledge of people supports informed accountability.
+- 87:1 — The Lord's informed judgment adds inward accountability to sustaining lordship.
+- 89:6 — Lordship includes informed assessment of people, supporting accountable governance.
+- 101:3 — Closes the 100:9-10 disclosure-and-accounting sequence.
+- 113:1 — The Lord's full awareness supports accountable reliance, with contrast evidence.
+- 114:1 — Rabliğin iç gerçekliği bilen sahiplik ve süreğen bakım yönünü ekler; benzetme sınırdadır.
+- 72:10 — Offers right guidance under Lordship, remote from the disclosure scene.
+- 100:4 — Part of the opening oath movement, with little direct addition here.
+- 55:57 — A gratitude counterpoint only; the linked reading remains secondary.
+- 34:9 — Threat of cosmic consequence is a distant Day setting.
+- 100:3 — Opening-oath imagery adds little beyond the surah's movement.
+- 100:1 — Opens the oath sequence but has little independent explanatory value.
+- 20:49 — Makes lordship a contested authority question, not the final assessment.
+- 36:27 — Adds Lordly forgiveness and honor, a distant positive outcome.
+- 55:59 — Repeated refrain supplies no distinct route to 100:11.
+- 77:24 — Exact repetition of the earlier Day-of-rebuke card.
+- 77:28 — Exact repetition of the earlier Day-of-rebuke card.
+- 49:1 — Adds divine hearing and knowing, but no focused link to the Day.
+- 14:7 — Gratitude and denial contextualize ingratitude, with only contrast evidence.
+- 46:13 — Steadfast Lord-confession is a remote positive counterpart.
+- 55:71 — Repeated refrain supplies no distinct route to 100:11.
+- 22:63 — Hidden process behind visible growth is only a loose knowledge parallel.
+- 25:59 — Urges inquiry of one with knowledge, but the creation context is indirect.
+- 11:68 — Adds rejection of the Lord and distance, but not the final disclosure.
+- 55:75 — Repeated refrain supplies no distinct route to 100:11.
+- 7:152 — Adds worldly consequence for rejecting the Lord, not inner exposure.
+- 38:61 — Shows appeal to Lordly judgment, but in a distant punitive scene.
+- 84:2 — Cosmic obedience under Lordship is only a broad Day parallel.
+- 14:6 — Lord-linked trial and deliverance are a distant developmental parallel.
+- 66:5 — Restorative replacement under Lordship is only a remote relation parallel.
+- 2:5 — B1 is secondary رب-oriented knowledge; its contrast remains a boundary.
+- 2:15 — Divine awareness supplies only a broad accountability frame.
+- 2:37 — يؤكد خبرة الرب بالعباد، صلة عامة بعلم من يقبل التوبة.
+- 2:157 — The Lord's full knowledge does not directly clarify blessings, mercy, or guidance.
+- 2:166 — God's full awareness on that day offers general judgment context only.
+- 4:39 — Affirms the Lord's full awareness on that Day, providing only a general accountability frame.
+- 4:170 — Divine awareness is only a broad overlap; the contrast route supplies no positive support.
+- 6:15 — The Lord's knowledge on that Day supplies a limited accountability frame.
+- 6:77 — Rabb's knowledge is general and does not clarify the guidance or celestial test.
+- 6:162 — The Lord's full awareness gives an accountability backdrop, but the mixed and contrast routes limit support.
+- 7:67 — V12 source attributes concern رب, not the messenger's contested status.
+- 9:21 — Positive V12 offers a source-and-care reading while the contrast route limits it; linkage remains indirect.
+- 10:57 — Rabb's knowledge is secondary to the more direct صدور card.
+- 10:85 — Remote Lordship route; no direct contribution to the plea.
+- 12:98 — The Lord's knowledge of people supplies remote accountability context only.
+- 14:1 — The Lord's encompassing knowledge supports ongoing care only at a general level; the agricultural analogy is rejected.
+- 14:23 — Divine attentive knowledge is a broad, indirect aspect of lordly care.
+- 15:56 — Rabbi's comprehensive knowledge is too general for qanat or dalal.
+- 18:68 — The Lord's awareness of people on the Day of Judgment adds little beyond generic divine knowledge.
+- 19:2 — خبرة الرب بعباده لا تضيف إلى ذكر الرحمة الخاصة بزكريا.
+- 22:47 — Divine knowledge on that day is only a general judgment connection.
+- 22:67 — God's awareness of people on that day is only a general authority parallel.
+- 23:52 — The Lord's full awareness of people supports accountability but does not clarify community unity.
+- 23:58 — The Lord's full knowledge on that Day gives an accountability horizon, not belief in signs.
+- 23:76 — The Lord's full knowledge on that day supports accountability but does not connect punishment to humble pleading.
+- 23:97 — God's awareness of people offers a broad divine attribute but adds little to the prayer's danger or response.
+- 25:20 — God's informed awareness of people offers a general parallel to the focus's divine sight.
+- 26:26 — The Lord's complete knowledge supports accountability but adds no present-and-ancestor relation.
+- 26:62 — The Lord's full knowledge of people offers a broad assurance of divine awareness but not guidance in danger.
+- 26:77 — The Lord's knowledge gives a general divine-accountability frame, not the focus's contrast of worship objects.
+- 29:30 — The Lord's full awareness on that day gives a distant accountability frame rather than help within the conflict.
+- 29:59 — The Lord's awareness of people grounds accountability but not the focus's conduct.
+- 30:33 — The Lord's full knowledge gives a broad accountability frame for outwardly changing allegiance.
+- 31:5 — The Lord's complete awareness on the Day of Judgment is only a broad accountability connection.
+- 36:46 — The Lord's knowledge of people is too general to clarify their rejection of signs.
+- 36:58 — The Lord's complete knowledge on that Day gives only a broad judgment setting.
+- 37:126 — The Lord's complete knowledge on that day supports authority generally but adds no lineage or worship contrast.
+- 37:180 — The Lord's knowledge of people on that day gives a general accountability parallel only.
+- 39:13 — The Lord's full knowledge on that Day gives limited support to accountability.
+- 39:34 — God's final-day awareness of people is a distant backdrop to recompense.
+- 40:62 — Divine knowledge as Lord adds a secondary attribute without extending the focus's main claim.
+- 41:9 — God's knowledge of people on that day supplies a general accountability frame but not the focus's creative reasoning.
+- 42:10 — God's complete knowledge of people provides a limited basis for final judgment.
+- 43:13 — The Lord's full awareness supplies only a broad accountability frame for how favor is received.
+- 43:32 — The Lord's complete awareness of people supports accountability for their response to provision, but not the distribution itself.
+- 43:64 — It affirms God as their Lord and fully aware of them, without the focus's command or path.
+- 43:88 — The Lord's full knowledge offers a distant accountability frame, not the people-specific complaint.
+- 44:7 — The Lord's complete knowledge of people adds an attribute of lordship but little to the focus's stated scope.
+- 44:8 — The Lord's awareness on that day is a general theological resonance.
+- 44:22 — The Lord's full knowledge of people supplies a general basis for judgment but little new narrative connection.
+- 45:36 — يقرر خبرة الرب بالعباد يومئذ؛ وقراءة التعارض لا تجعلها دعماً للحمد.
+- 51:30 — It gives a general image of comprehensive lordly knowledge without further scene-specific value.
+- 52:18 — Adds a remote Lord-as-knower reading.
+- 53:18 — Adds general knowledge of people by their Lord.
+- 54:10 — The Lord's knowledge at judgment is only distant background.
+- 55:16 — Knowing lordship is a broad sustaining-order parallel; contrast remains nonpositive.
+- 55:17 — Adds the Lord's informed oversight of human response, not the directional cycle.
+- 55:18 — Divine knowledge of human response is only broad background evidence.
+- 55:21 — f01's Rab-as-knower reading is broad and secondary to the local water sequence.
+- 55:42 — Divine knowledge on that day is a broad accountability background; contrast remains boundary evidence.
+- 55:45 — Positive Rabb route is remote and paired with a contrast reading.
+- 55:47 — Divine knowledge of response gives broad accountability context; conflicting contrast reading stays non-positive.
+- 55:51 — Knowing the response to benefaction is a secondary accountability parallel.
+- 55:53 — Secondary care-and-accountability resonance; its rejected comparison is not positive support.
+- 55:55 — Divine knowledge and lordship are too general for the refrain.
+- 55:63 — Divine knowledge and response are a distant accountability parallel.
+- 55:65 — It offers a general sustaining-lordship reading, without a focused connection to the garden image or refrain.
+- 55:67 — Positive f01 care evidence is remote and concerns comprehensive knowing rather than 55:67's referent.
+- 55:69 — Offers a distant parallel of sustaining lordship's knowing relation to response.
+- 55:73 — b005 has a positive reading, but the contrast link and distant setting limit value.
+- 55:77 — Adds divine knowledge and a mixed covenant-like reading, but remains indirect.
+- 56:80 — Source knowledge and judgment lack a delivery connection.
+- 59:10 — General divine knowledge supplies little beyond the focus's direct appeal to mercy.
+- 67:6 — The Lord's awareness on that day supports accountability only at a high level; the contrast link is not support.
+- 68:2 — The Rabb's intimate knowledge is general and the contrary reading remains boundary evidence.
+- 68:29 — The Lordly-care channel is remote from the focus statement.
+- 68:32 — The Lord's knowledge is generic; the attached contrast route cannot raise it to positive support.
+- 68:34 — The Lord's full knowledge supplies only a distant source relation and includes contrast evidence.
+- 68:48 — General divine knowledge is not enough to develop the focus reading.
+- 69:10 — Lord-related knowledge is secondary; the contrast reading supplies no positive support.
+- 69:17 — Event-day Lord reference alone is redundant contextual evidence.
+- 71:5 — Lordship route is secondary without a calling relation.
+- 71:10 — Knowledgeable ربوبية is too general to clarify the command.
+- 72:2 — Only the auxiliary developmental sense of rabb applies.
+- 72:3 — Divine knowledge under the Lord title is only a secondary parallel.
+- 72:25 — Divine awareness on that day supports accountability, not knowledge of its timing.
+- 73:19 — Adds only generic Lordly knowledge; its auxiliary route is indirect.
+- 74:3 — Rabb's full awareness at judgment is an accountability context, not magnification.
+- 75:24 — Shared day-marker supplies only a general knowledge/disclosure backdrop.
+- 76:21 — The Lord's knowledge of people gives only broad support for a morally fitting final return.
+- 76:24 — The Lord's intimate knowledge of response to favors broadly supports accountability; an agricultural metaphor is contrastive.
+- 76:25 — The Lord's intimate knowledge of people is a distant lordship parallel and retains a rejected agricultural figure.
+- 76:29 — The Lord's intimate knowledge of people adds only a broad knowledge parallel.
+- 77:40 — Shares the day marker but no denial or local 77:40 structure.
+- 77:47 — O gün Rabbin haberdar oluşu, 77:47'deki hükmün bilgisiz ya da görünmez kalmayan bir hesap bağlamında verildiğini destekler.
+- 81:29 — Lordly knowledge supports authority but is not about willing.
+- 83:10 — Day-specific divine awareness is general judgment context, without denial.
+- 83:30 — Individual accountability supplies a distant consequence frame for conduct toward others.
+- 87:15 — The Lord's knowledge at judgment has no direct practice link.
+- 88:3 — Disclosure of inward contents gives a remote accountability parallel.
+- 89:28 — Rabb's knowledge on that day adds general accountability only; contrast is boundary evidence.
+- 92:11 — Divine full awareness grounds the preceding exposure without adding a wealth claim.
+- 93:3 — Divine awareness is distant from the focus; its contrast route is only a boundary.
+- 96:8 — Lordly knowledge on that day supports accountability, but adds no return relation.
+- 110:3 — The Lord's knowledge of inner reality is only indirect context for attribution and accountability.

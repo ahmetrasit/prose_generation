@@ -1,0 +1,237 @@
+# Quranic reach for 100:7 (script digest, unjudged)
+
+Candidates for reading the ayah through the Quran itself. Nothing here is a finding yet: judge each one.
+
+## 1. Variant readings (qirāʾāt)
+
+(none recorded)
+
+## 2. Usage: each root of the ayah across the Quran (ref and the word as it occurs)
+
+### U-شهد root ش ه د (focus word لَشَهِيدٌ: شَهِيد N) — 159 occurrences in 123 ayat; same form 40, other forms 119
+- tier 1, same form (شَهِيد N): 40
+  - 2:23 شُهَدَآءَ
+  - 2:133 شُهَدَآءَ
+  - 2:143 شُهَدَآءَ
+  - 2:143 شَهِيدًا
+  - 2:282 شَهِيدَيْنِ
+  - 2:282 شُّهَدَآءِ
+  - 2:282 شُّهَدَآءُ
+  - 2:282 شَهِيدٌ
+  - 3:98 شَهِيدٌ
+  - 3:99 شُهَدَآءُ
+  - 3:140 شُهَدَآءَ
+  - 4:33 شَهِيدًا
+  - 4:41 شَهِيدٍ
+  - 4:41 شَهِيدًا
+  - 4:69 شُّهَدَآءِ
+  - 4:72 شَهِيدًا
+  - 4:79 شَهِيدًا
+  - 4:159 شَهِيدًا
+  - 4:166 شَهِيدًا
+  - 5:8 شُهَدَآءَ
+  - 5:44 شُهَدَآءَ
+  - 5:117 شَهِيدًا
+  - 5:117 شَهِيدٌ
+  - 6:19 شَهِيدٌۢ
+  - 6:144 شُهَدَآءَ
+  - 6:150 شُهَدَآءَ
+  - 16:89 شَهِيدًا
+  - 22:78 شُهَدَآءَ
+  - 24:4 شُهَدَآءَ
+  - 24:6 شُهَدَآءُ
+  - 24:13 شُّهَدَآءِ
+  - 29:52 شَهِيدًا
+  - 39:69 شُّهَدَآءِ
+  - 41:47 شَهِيدٍ
+  - 46:8 شَهِيدًۢا
+  - 50:21 شَهِيدٌ
+  - 50:37 شَهِيدٌ
+  - 57:19 شُّهَدَآءُ
+  - 85:9 شَهِيدٌ
+  - 100:7 ◀ focus شَهِيدٌ
+- tier 2, other forms: مَّشْهَد N 1; ٱسْتَشْهِدُ V form X 2; شَاهِد ADJ 2; مَشْهُود N 3; شَهَٰدَٰت N 3; أَشْهَدَ V form IV 7; شَهِيد ADJ 16; شَاهِد N 19; شَهَٰدَة N 23; شَهِدَ V 43
+- rare form مَّشْهَد (N):
+  - 19:37 مَّشْهَدِ
+- rare form ٱسْتَشْهِدُ (V form X):
+  - 2:282 ٱسْتَشْهِدُ
+  - 4:15 ٱسْتَشْهِدُ
+- rare form شَاهِد (ADJ):
+  - 73:15 شَٰهِدًا
+  - 74:13 شُهُودًا
+- rare form مَشْهُود (N):
+  - 11:103 مَّشْهُودٌ
+  - 17:78 مَشْهُودًا
+  - 85:3 مَشْهُودٍ
+- rare form شَهَٰدَٰت (N):
+  - 24:6 شَهَٰدَٰتٍۭ
+  - 24:8 شَهَٰدَٰتٍۭ
+  - 70:33 شَهَٰدَٰتِ
+- rare form أَشْهَدَ (V form IV):
+  - 2:204 يُشْهِدُ
+  - 2:282 أَشْهِدُ
+  - 4:6 أَشْهِدُ
+  - 7:172 أَشْهَدَ
+  - 11:54 أُشْهِدُ
+  - 18:51 أَشْهَد
+  - 65:2 أَشْهِدُ
+- roots co-occurring across the listed ayat: ء ل ه (59), ك و ن (29), ق و ل (21), ك ت ب (15), ب ي ن (12), ع ل م (11), ر س ل (11), ق و م (11), ء م ن (10), ك ل ل (9), ي و م (9), ر ب ب (9), ن و س (9), ش ي ء (8)
+
+## 3. Related passages (reciprocal inter-ayah candidates, strongest first: the ayah and why it may bear on the focus, as an earlier review saw it — a lead to test, not a finding)
+- 100:9 — Immediate continuation: graves being opened supplies f02's later evidentiary setting.
+- 48:8 — Defines shahid as a commissioned, present witness, supporting both f01 and f02.
+- 100:6 — Immediate subject and indictment that 100:7's shahid bears upon.
+- 74:13 — Presence of sons offers only a contextual, indirect image of visible evidence.
+- 59:22 — Divine knowledge spans hidden and manifest, grounding f01 and f02 without selecting either.
+- 50:37 — Attentive presence makes hearing accountable knowledge, illuminating the witness dimension of f01/f02.
+- 100:10 — Immediate continuation: what is in breasts is extracted, directly extending f02.
+- 85:3 — Preserves the witness/witnessed relation but remains abstract beside earlier direct cards.
+- 24:24 — Bodily parts become independent evidence of deeds, directly developing f01 and f02.
+- 100:11 — Immediate conclusion: divine khabir gives f02 its final knowing and judgment horizon.
+- 32:6 — Hidden and manifest fall within one divine knowledge, strongly paralleling both f01 and f02.
+- 36:65 — Direct bodily testimony supports f02; the contrast route makes bodily-trace f01 only boundary evidence.
+- 70:33 — Shows sustained, knowledge-based shahada, mainly refining f02's evidentiary discipline.
+- 43:86 — Restricts valid shahada to truth and knowledge, sharply clarifying f02.
+- 100:5 — Immediate sequence imagery, with only a distant assembly resonance.
+- 100:8 — Immediate continuation identifies the attachment whose conduct 100:7 witnesses.
+- 41:21 — Skin speaking as evidence strongly develops f02's independent testimony.
+- 58:6 — Resurrection, exhaustive enumeration, and divine shahada strongly complete f02.
+- 4:135 — Explicit self-directed shahada is a central parallel to f01's self-incriminating evidence.
+- 7:172 — Collective self-shahada establishes a direct model of accountable acknowledgment against oneself.
+- 16:84 — Raising a witness from every community extends f02 to a collective judgment scene.
+- 16:89 — Community witnesses and a comprehensive record directly develop f02's later proof setting.
+- 17:13 — An attached record makes a person's prior conduct available at the final encounter.
+- 17:14 — Self-accounting through the opened record directly completes f01 into f02.
+- 17:36 — Hearing, sight, and heart being questioned gives f01 embodied and inward accountability.
+- 18:49 — The exhaustive book and non-omitted deeds strongly specify f02's evidentiary record.
+- 22:78 — Messenger and community as witnesses extend 100:7 into reciprocal public shahada.
+- 36:12 — Recording prior acts and their traces strongly develops f01's conduct-as-evidence and f02's archive.
+- 39:69 — The book, prophets, and witnesses gathered for judgment directly realize f02.
+- 41:20 — Hearing, sight, and skins testifying is a direct antecedent to 41:21 and strongly supports both readings.
+- 45:28 — Every community called to its record gives a central collective form of f02.
+- 50:17 — The paired receivers establish ongoing recording of human conduct for f02.
+- 50:18 — No utterance escapes the ready recorder, directly extending f01's speech evidence.
+- 50:21 — Each soul arriving with a driver and witness directly stages f02.
+- 69:18 — On the exposed day no hidden matter remains concealed, directly advancing f02.
+- 75:13 — A person informed of what was sent ahead and left behind directly develops f02.
+- 75:14 — The self as basira is a particularly close parallel to f01's self-evidence.
+- 78:29 — Everything enumerated in a book strongly supplies f02's preserved evidence.
+- 81:14 — Each soul knowing what it brought provides a compact direct f01/f02 parallel.
+- 82:10 — Appointed guardians establish the ongoing preservation behind f02.
+- 82:11 — Noble scribes specify the recording witnesses relevant to f02.
+- 82:12 — The scribes' knowledge of acts directly supports f02's evidentiary scope.
+- 86:9 — Secrets tested on the day directly names f02's disclosure event.
+- 99:4 — The earth reporting its news gives a non-human evidence model for f01/f02.
+- 99:5 — The earth's report under command reinforces testimony beyond human self-defense.
+- 99:6 — People emerging to be shown their deeds directly stages f02.
+- 99:7 — Even minute good becomes seen, specifying f02's evidentiary completeness.
+- 99:8 — Even minute evil becomes seen, specifying f02's evidentiary completeness.
+- 82:6 — Human self-witness on ingratitude deepens the 100:6 parallel.
+- 33:2 — Connects followed revelation and divine expertise with accountable conduct, but only indirectly.
+- 34:47 — Divine shahada frames public conduct and later accounting across both f01 and f02.
+- 3:98 — Divine shahada makes conduct answerable, a narrower parallel to f01.
+- 100:2 — Part of the immediate oath sequence but adds no testimony relation.
+- 9:17 — Self-shahada through conduct supports self-incriminating f01, with consequences.
+- 85:7 — Perpetrators' witnessed acts show conduct itself operating as evidence against them in f01.
+- 85:9 — Universal divine shahada supports both readings but is redundant with earlier direct formulations.
+- 5:108 — Shows procedural pressure toward accurate shahada, refining f02's proof function.
+- 73:15 — A messenger's present witness creates communal responsibility, parallel to both f01 and f02.
+- 83:21 — Witnessing a record adds institutional presence and confirmation, but overlaps prior witness cards.
+- 17:30 — Divine expertise in servants' conditions provides a general accountability backdrop.
+- 5:44 — Guarding scripture as shahada adds a custodial form of f01, not self-evidence.
+- 57:6 — Knowledge of breasts connects inward states to f02, without the disclosure event.
+- 2:283 — Forbidding concealment of shahada links inward culpability and evidentiary duty in f02.
+- 59:18 — Self-review before tomorrow under divine expertise gives f02 an anticipatory ethical frame.
+- 9:105 — Visible works and return to knower of hidden/manifest states join f01 to f02, though less direct.
+- 12:81 — Limits shahada to what is known, a precise constraint on f02 evidence.
+- 64:18 — Hidden/manifest knowledge supports f01, but substantially repeats earlier cards.
+- 4:41 — Witnesses for communities supply a later accountability scene relevant to f02.
+- 5:113 — Sign, knowledge, and becoming witnesses model confirmation becoming shahada.
+- 24:13 — Required knowledgeable witnesses sharpen f02's standards for a valid claim.
+- 25:58 — Divine expertise in sins supplies an accountability backdrop, indirectly supporting f02.
+- 3:81 — Acknowledgment and mutual shahada show commitment becoming accountable evidence.
+- 21:61 — Public viewing shows the boundary between visibility and proof, qualifying f01.
+- 24:6 — Self-oath under absent external witnesses offers a procedural counterpart to self-incriminating f01.
+- 40:51 — Witnesses standing on a later day adds public vindication to f02's horizon.
+- 62:8 — Return to the knower of hidden and manifest deeds gives a compact f02 accounting parallel.
+- 17:78 — A witnessed recitation offers a secondary model of sustained, present shahada.
+- 4:79 — Divine shahada secures the messenger's role, a secondary witness/accountability parallel.
+- 33:45 — Commissioned shahid role supports both f01 and f02, but duplicates 48:8.
+- 41:53 — Signs in horizons and selves becoming manifest support f01/f02, but remain broad and redundant.
+- 4:6 — Witnessed transfer turns a private act into answerable evidence, a procedural f02 parallel.
+- 2:282 — Formal witnesses and recorded obligations add a procedural model for f02's proof function.
+- 4:42 — The inability to conceal a report on the final day strongly qualifies f02's disclosure horizon.
+- 4:166 — Divine shahada to revelation gives a source-and-proof model adjacent to both readings.
+- 5:8 — Standing as witnesses for justice sharpens shahada's ethical and evidentiary discipline.
+- 5:106 — Bequest witnesses provide a focused procedural analogue for f02.
+- 5:117 — A witness's limited presence and subsequent divine custody distinguish human and divine shahada.
+- 6:19 — Divine shahada between parties offers a direct but broad witness relation.
+- 6:150 — Unsupported shahada supplies a contrary boundary for f02's valid evidence.
+- 10:29 — Divine shahada separates actual conduct from denied awareness, supporting f01.
+- 11:17 — A confirming shahid supplies a secondary source-and-evidence model.
+- 11:18 — Witnesses publicly identify false claims, adding a final-accountability parallel.
+- 12:26 — A witness from the household shows material inference functioning as proof.
+- 13:43 — Divine and knowledgeable human shahada together define authoritative corroboration.
+- 17:96 — Sufficient divine shahada is a direct but general parallel.
+- 21:47 — Precise final weighing supports f02's proof-and-judgment function.
+- 22:17 — Universal divine shahada is a broad support for both readings.
+- 24:4 — Required witnesses and the consequence of their absence sharpen f02's proof standard.
+- 24:8 — Counter-oaths complete the self-testimony procedure beside 24:6.
+- 29:52 — Sufficient divine shahada supports the witness relation while remaining broad.
+- 33:55 — Universal divine shahada supports both readings but adds little beyond earlier general cards.
+- 43:80 — Recorded private speech and counsel connect concealed conduct to f02's evidentiary archive.
+- 46:10 — A knowledgeable witness confirms a claim, offering a secondary truth-testimony model.
+- 50:22 — Removed covering and sharpened sight provide a disclosure boundary for f02.
+- 58:7 — Complete knowledge of hidden counsel supports the concealed side of f02.
+- 65:2 — Just witnesses for a formal act provide another procedural analogue for f02.
+- 67:13 — Knowledge of what breasts conceal supports f02's inward dimension.
+- 75:15 — Offered excuses set a contrary boundary against the self-evidence of f01.
+- 84:7 — Receiving a record adds a direct but already-covered f02 judgment image.
+- 84:10 — Receiving the record from behind adds a contrary outcome within f02's record scene.
+- 5:111 — Adds testimony as evidence with an accountability horizon.
+- 7:37 — Adds a compact witness motif, though without the focus setting.
+- 41:22 — Its assertion of testimony supplies a compressed counterpart to the focus's evidentiary scene, but adds little detail after the adjacent verses.
+- 63:1 — Provides witness language tied to a later evidentiary reckoning.
+- 89:14 — Adds witnessing, though its precise subject is less explicit than 100:11.
+- 90:4 — Human self-witness reinforces responsibility within the condition.
+- 96:3 — Human witness to ingratitude reinforces the accountable relation to the Lord.
+- 69:50 — No distinct witness or accounting connection to 100:7.
+- 69:48 — No distinct witness or accounting connection to 100:7.
+- 69:51 — No distinct witness or accounting connection to 100:7.
+- 22:6 — Resurrection capacity supplies a distant prerequisite for f02, not testimony itself.
+- 68:15 — Rejecting ayat is only a remote contrary posture to accountable testimony.
+- 100:4 — Part of the immediate oath sequence but adds no testimony relation.
+- 86:8 — Return capacity is a distant f02 prerequisite, without an evidentiary relation.
+- 100:3 — Part of the immediate oath sequence but adds no testimony relation.
+- 2:140 — Concealed shahada marks a limited contrary case to f02's disclosed proof.
+- 100:1 — Immediate sequence imagery, with no distinct testimony relation.
+- 2:143 — Communal witnessing is a secondary social model, redundant beside direct evidence cards.
+- 74:9 — A difficult day loosely situates f02's later horizon but adds no proof relation.
+- 2:84 — Acknowledged covenant gives a limited model of self-binding shahada.
+- 74:16 — Stubborn response to ayat is only a remote contrary posture to f01.
+- 86:4 — A guardian suggests preservation, but does not specify testimony or proof.
+- 83:17 — Later confrontation with denied reality gives only a remote disclosure parallel.
+- 5:112 — Request for a confirming sign only distantly anticipates witnessed proof.
+- 3:18 — Shahada joined to justice offers a broad theological frame, not the ayah's self-evidence.
+- 48:28 — Sufficient divine shahada is a general parallel, already covered more directly.
+- 4:159 — A future witness scene is interpretively dependent and adds little beyond f02 parallels.
+- 70:42 — The promised encounter loosely frames f02's later horizon without testimony.
+- 6:73 — Hidden/manifest knowledge and the trumpet day are relevant but redundant and broad.
+- 63:10 — Approaching death and delayed action give only a remote accountability context.
+- 63:4 — Misleading appearance cautions that f01's outward signs need not be self-interpreting.
+- 83:32 — Seeing and misjudging others is a weak contrary boundary for reliable f01 evidence.
+- 42:29 — Gathering capacity supplies a distant f02 setting but no evidentiary relation.
+- 9:117 — Inner turning is relevant to hidden states but has no testimony or disclosure link.
+- 25:1 — Warning alone has no distinct witness or proof relation.
+- 20:15 — Individual recompense supplies f02's judgment horizon without testimony detail.
+- 51:21 — Signs in selves offer only a broad, non-forensic parallel to f01.
+- 64:7 — Return and recompense supply a general f02 horizon without testimony detail.
+- 74:38 — Individual liability is relevant but adds no shahada or record mechanism.
+- 3:52 — Shares witness language only, without the communal confession.
+- 9:107 — General testimony is redundant and lacks the focus's oath-and-conduct setting.
+- 11:103 — An individual witness statement lacks the focus ayah's public-day setting.
+- 23:92 — Human self-witness offers a limited evidentiary parallel but does not establish the focus's divine knowledge or anti-partner claim.
+- 25:72 — A person bearing witness against his own ingratitude supports self-accountability, but not the specific social conduct at issue.
+- 28:75 — Its self-witness statement is too compressed to clarify the communal witness procedure.
+- 56:76 — Witness language alone offers little beyond a broad evidential parallel.
+- 63:11 — Witnessing is too unspecified to clarify the final knowledge of deeds.

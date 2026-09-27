@@ -1,0 +1,213 @@
+# Quranic reach for 100:10 (script digest, unjudged)
+
+Candidates for reading the ayah through the Quran itself. Nothing here is a finding yet: judge each one.
+
+## 1. Variant readings (qirāʾāt)
+
+(none recorded)
+
+## 2. Usage: each root of the ayah across the Quran (ref and the word as it occurs)
+
+### U-حصل root ح ص ل (focus word وَحُصِّلَ: حُصِّلَ V form II) — 1 occurrences in 1 ayat; same form 1, other forms 0
+- tier 1, same form (حُصِّلَ V form II): 1
+  - 100:10 ◀ focus حُصِّلَ
+
+### U-صدر root ص د ر (focus word ٱلصُّدُورِ: صَدْر N) — 45 occurrences in 43 ayat; same form 43, other forms 2
+- tier 1, same form (صَدْر N): 43 — common form, not listed
+- tier 2, other forms: يُصْدِرَ V form IV 1; يَصْدُرُ V 1
+- rare form يُصْدِرَ (V form IV):
+  - 28:23 يُصْدِرَ
+- rare form يَصْدُرُ (V):
+  - 99:6 يَصْدُرُ
+- roots co-occurring across the listed ayat: ن و س (2), و ج د (2), س ق ي (2), ق و ل (2)
+
+## 3. Related passages (reciprocal inter-ayah candidates, strongest first: the ayah and why it may bear on the focus, as an earlier review saw it — a lead to test, not a finding)
+- 64:4 — Joins hidden and declared matters with knowledge of what is in chests; supports f04.
+- 100:9 — Immediate parallel: graves are stirred and their concealed contents brought out.
+- 57:6 — Knowledge of chests as a source of outward action supports f04, redundantly.
+- 94:1 — Chest opening directly parallels making an interior accessible; positive and contrast V12 bound the reading.
+- 3:154 — Explicitly tests what is in chests and refines hearts, closely matching inward sorting.
+- 100:7 — Immediate context supplies witnessing of the stated human condition.
+- 99:6 — Emergence for deeds to be shown closely supports outward facing of inner-sourced acts.
+- 33:2 — Channel evidence concerns received direction, only indirectly related to following an inner source.
+- 27:74 — Explicitly pairs what chests conceal with public declaration under complete knowledge.
+- 40:19 — Links concealed chest orientation to a small outward act, supporting source-to-act tracing.
+- 100:8 — Immediate statement of intense attachment identifies a possible inward content, not its extraction.
+- 100:11 — Immediate sequel: the Lord is fully aware of them on that day, completing the disclosure frame.
+- 100:5 — Surah movement toward a gathered body is only an indirect collection parallel.
+- 67:13 — Pairs secret and public speech with knowledge of chests; V12 directly supports f01, f02, and f04.
+- 100:6 — Immediate assertion of human ingratitude supplies the moral content at issue.
+- 100:4 — Dust raised in the surah sequence is only a physical uncovering parallel.
+- 31:23 — Return, report of actions, and knowledge of chests explicitly connect deeds to their inward source.
+- 59:18 — Self-review of what has been sent ahead supports retrospective accountability; channel evidence is secondary.
+- 40:56 — Chest-held pride drives failed public contention, linking inward content to outward conduct.
+- 3:29 — Directly states that concealed or disclosed chest contents are known.
+- 2:284 — Directly places what is concealed or disclosed within persons under divine reckoning.
+- 17:14 — The person reads a personal record and suffices as self-reckoner, framing individual disclosure.
+- 18:49 — The opened record leaves no deed uncounted, a close final-accounting complement.
+- 20:15 — Each soul is repaid for what it strives toward, supplying the final evaluative horizon.
+- 21:47 — Just scales on the Resurrection Day make even minute deeds present for reckoning.
+- 24:24 — Tongues, hands, and feet testify about deeds, a bodily disclosure parallel.
+- 36:12 — What has been sent ahead and its traces are recorded, complementing inward collection with an external register.
+- 36:65 — Sealed mouths and testifying limbs enact disclosure of what persons had done.
+- 39:70 — Every soul receives full return for what it did under complete knowledge of its actions.
+- 40:17 — Each soul is recompensed for what it earned on the day of judgment.
+- 45:22 — Each soul is recompensed for what it earned, giving a direct justice frame.
+- 45:28 — Every community is summoned to its record and repaid for what it did.
+- 47:29 — God bringing out the rancors hidden in hearts is a close explicit counterpart to 100:10.
+- 50:16 — Knowledge of the soul's whisper directly affirms access to concealed interior content.
+- 50:21 — Every soul arrives with a driver and witness, a direct final disclosure setting.
+- 50:22 — Removal of the covering makes the day fully perceptible, paralleling unveiling.
+- 69:18 — On the day of presentation no hidden thing remains concealed.
+- 75:13 — A person is informed of what was sent ahead and left behind.
+- 75:14 — The person stands as evidence against the self, even amid excuses.
+- 81:14 — Each soul knows what it has brought forward in the disclosure sequence.
+- 82:5 — Each soul knows what it sent ahead and left behind.
+- 84:7 — Receiving a record in the right hand supplies the personal-account counterpart.
+- 86:9 — The day when secrets are tested is an especially close direct parallel.
+- 99:7 — The smallest good is seen, specifying the disclosed outcome of deeds.
+- 99:8 — The smallest evil is seen, preserving the contrary outcome alongside 99:7.
+- 101:6 — Weighing of scales introduces the final assessment mechanism.
+- 101:8 — Light scales preserve the adverse side of that final assessment.
+- 6:60 — Graves opened and inner contents exposed directly join f01 and f02.
+- 6:67 — What is within is made manifest, directly modeling disclosure of the hidden.
+- 6:120 — Joins the exposure of breast-content to final accounting, directly bridging both focus themes.
+- 9:64 — What is within breasts being brought out directly parallels the focus’s interior exposure.
+- 9:105 — Makes what is in graves brought forth before final reckoning.
+- 13:21 — Makes inward contents exposed in the final reckoning.
+- 13:42 — Adds extraction of what breasts contain to that exposure.
+- 14:41 — What is in breasts being brought out directly develops hidden-account disclosure.
+- 14:49 — Adds disclosure of what is held within breasts.
+- 15:92 — What is in breasts is brought out for examination.
+- 16:19 — Adds the extraction and exposure of what breasts contain.
+- 19:70 — What is in breasts is brought out.
+- 21:23 — What is within chests is brought out, exposing inward motives.
+- 24:64 — It states that what lies in breasts is made manifest and that God is fully aware of people.
+- 30:12 — What is in breasts is brought forth, removing concealed defenses.
+- 31:16 — Pairs the scattering of what is in graves with the disclosure of what is in breasts.
+- 41:22 — What is within breasts is made manifest, directly paralleling the exposure of concealed inner states.
+- 47:37 — Directly brings what is in the breasts into an obtained, exposed state.
+- 53:40 — Contents of breasts being brought out directly parallels hidden effort disclosed.
+- 58:6 — What breasts contain being made known adds hidden-content disclosure.
+- 58:8 — Adds the bringing-out and examination of what is in chests.
+- 64:7 — What is in breasts made known reinforces disclosure.
+- 74:40 — States that hidden contents of breasts are brought out.
+- 75:20 — What is in breasts is brought out, directly connecting final disclosure to inward attachments.
+- 75:36 — Göğüslerdekinin açığa çıkarılmasını bildirir; gizli niyetlerin de hesap ufkuna girdiğini ekler.
+- 76:10 — Shows what is in breasts brought out, adding inner exposure to the day of reckoning.
+- 77:38 — Göğüslerdekinin açığa çıkarılması, 77:38'de hükmün gizli içeriği de kapsadığını gösterir.
+- 79:8 — Göğüslerdekinin ortaya çıkarılması, 79:8’deki kalp odağını nihai hesapta açığa çıkan iç içerikle bağlar.
+- 79:35 — Göğüslerde olanın derlenmesi, hedefteki hatırlamanın iç hesaplaşma boyutuna paraleldir.
+- 81:7 — Exposed graves and disclosed inner contents support record-and-intention reading.
+- 82:6 — Inner contents exposed strongly supports the f03 reading.
+- 82:17 — What is within breasts is brought out, extending comprehensive disclosure.
+- 82:18 — Adds disclosure of what is within breasts.
+- 83:5 — Adds disclosure of what is within breasts.
+- 83:6 — تحصيل ما في الصدور يضيف كشفَ الباطن قبل 100:11.
+- 83:11 — Hidden contents exposed supplies accountability evidence.
+- 84:6 — What is in breasts brought out directly supports f01 disclosure.
+- 86:4 — Explicitly brings what is in breasts into exposure.
+- 86:8 — Pairs the collected inner contents with the focus's exposure of secrets.
+- 89:14 — Brings what is in breasts into the open before 100:11.
+- 89:23 — What is in breasts is brought out, directly complementing belated human recall.
+- 90:7 — What is concealed in breasts is extracted and made manifest.
+- 99:3 — The disclosure of inward contents complements 99:4's outward report and the focus's uncertain human speech.
+- 99:4 — Adds the exposure of what is concealed within breasts.
+- 99:5 — يضيف تحصيل ما في الصدور.
+- 10:57 — Establishes chest contents as a locus affected from within, without final extraction.
+- 9:14 — Shows chests as bearers of inward affliction; V12 supports the interior focus.
+- 35:38 — Reiterates knowledge of chest contents; supports f04 but is redundant with 64:4.
+- 100:3 — Part of the surah's preceding movement sequence, with only indirect channel evidence.
+- 20:25 — Opening the chest supplies an extraction-opening parallel; V12 supports f01 and f02.
+- 11:5 — Contrasts chest concealment with divine knowledge; redundant but directly relevant.
+- 114:5 — Places hidden prompting in human chests and supports their role as an active source.
+- 54:52 — Written record of deeds is a secondary external-accounting parallel.
+- 100:2 — Surah sequence context only; no direct inward-disclosure contribution.
+- 29:49 — Locates clear signs in chests and supports the chest as a living source under f04.
+- 15:47 — Removal of rancor from chests offers a nonjudicial extraction parallel.
+- 84:4 — Earth casting out its contents parallels 100:9's exterior release, indirectly framing 100:10.
+- 29:10 — Contradictory speech issuing under pressure supports the chest as an action source under f04.
+- 86:2 — No clear contribution to chest contents, extraction, or final disclosure.
+- 28:70 — Return and judgment are present, but the inward-disclosure connection is indirect.
+- 15:97 — Chest constriction from speech shows an inward condition affected by outward words.
+- 39:22 — Chest opening and illumination support an interior made receptive or legible; secondary to 94:1.
+- 101:3 — No clear contribution to chest contents, extraction, or final disclosure.
+- 22:46 — Identifies hearts within chests as the locus of understanding, supporting f04's inner-source reading.
+- 59:22 — Knowledge of unseen and seen is a broad disclosure parallel, but lacks chest content.
+- 39:7 — Individual return and report of deeds, with chest knowledge, support accountable inner sources.
+- 77:13 — The Day of Decision provides a concise final-sorting frame.
+- 7:2 — Chest constraint affects transmission of the book, a secondary inner-to-outward passage parallel.
+- 28:69 — Explicitly contrasts concealed chest content with public declaration, though redundant with 27:74.
+- 8:43 — Inward fear and dispute shape collective action, supporting f04's productive interior.
+- 6:125 — Opened or constricted chests portray interior capacity; V12 supports all main focus readings.
+- 3:119 — Public profession contrasts with hidden rage in chests, supporting concealed inward content.
+- 99:2 — Earth's ejection of burdens is a redundant physical parallel to 100:9.
+- 42:24 — Heart sealing and chest knowledge give an interior truth-falsehood boundary.
+- 59:13 — Fear in chests directs outward retreat, supporting an inward source of conduct.
+- 59:9 — Absence of inward claim enables outward preference, linking chest content and conduct.
+- 3:118 — Explicitly contrasts hostility voiced aloud with the greater content hidden in chests.
+- 2:93 — An inwardly absorbed attachment manifests as disobedience, supporting source-to-act linkage.
+- 4:90 — Constricted chests issue in abstention from conflict, a secondary inner-to-action parallel.
+- 4:63 — God knows what is in hearts, making inward content a ground for discernment.
+- 8:24 — Locates divine intervention at the boundary between a person and the heart.
+- 8:70 — Explicit divine knowledge of good within hearts links inward content and consequence.
+- 17:36 — Hearing, sight, and heart are all subject to questioning, extending accountability inward.
+- 23:62 — A truthful record speaks against persons, pairing deeds with a final non-injustice frame.
+- 41:20 — Hearing, sight, and skins testify, broadening the final exposure of embodied action.
+- 47:30 — Hidden dispositions become recognizable through the manner of speech.
+- 48:18 — God knows what is in hearts and acts upon that inward knowledge.
+- 48:26 — A heart-held zeal manifests in opposition, supporting inward content as active.
+- 74:38 — Each soul is held in pledge for what it has earned.
+- 78:40 — A person sees what hands have sent ahead on the near day.
+- 102:8 — Questioning about received blessing adds a final-accountability dimension.
+- 2:72 — What breasts contain being brought out most closely echoes the emergence of the concealed.
+- 3:5 — It gives the day when what is within breasts is brought forth.
+- 3:161 — What is in breasts is made known, adding hidden-content disclosure.
+- 4:41 — The disclosure of what is within hearts supplies an evidentiary parallel.
+- 6:31 — Describes graves overturned and inner contents brought out.
+- 9:94 — Makes what is in breasts brought out alongside scattered graves.
+- 14:42 — Adds the exposure of graves and hidden inner contents.
+- 16:28 — What is concealed in inner selves being brought out supports the focus ayah's refutation of speech.
+- 18:21 — Pairs the disclosure of graves with the disclosure of inner contents.
+- 19:95 — What is concealed in hearts is brought out, reinforcing final personal disclosure.
+- 36:54 — What is hidden in breasts is brought out, extending the accounting scene to concealed inner material.
+- 45:15 — تحصيل ما في الصدور يضيف انكشاف الباطن إلى الحساب.
+- 45:33 — What is concealed in breasts is brought out, a parallel manifestation pattern.
+- 50:18 — What is brought out from breasts directly extends the hidden-content dimension.
+- 53:39 — Foresees disclosure of what is in graves and breasts.
+- 80:37 — Göğüslerdekinin ortaya çıkarılması, kişisel işin içsel yönünü ekler.
+- 82:19 — What is in graves and breasts is brought out before God.
+- 83:9 — What is in chests made known preserves the internal-trace dimension.
+- 84:9 — Makes what is in the breasts brought out, closely supporting the inward-confirmation reading.
+- 84:10 — What is in breasts is made known, closely supporting hidden disclosure.
+- 92:11 — What is hidden in breasts is exposed, disclosing the wealth-directed motive.
+- 96:3 — Exposure of inward contents completes the accountability frame around ingratitude.
+- 12:30 — Secondary channel resonance only; inward attachment, not disclosure or judgment.
+- 74:42 — Punishment question supplies a distant judgment setting, not inward disclosure.
+- 46:25 — Destruction leaving only dwellings visible is a remote exposure parallel.
+- 100:1 — Surah-opening movement is contextual only, without an inward-disclosure link.
+- 22:20 — Bodily interiors are exposed in punishment, a limited and non-chest parallel.
+- 4:71 — Channel evidence concerns collective formation, not inward collection.
+- 104:5 — No clear contribution to chest contents, extraction, or final disclosure.
+- 20:39 — Channel material concerns formation under watch, without clarifying inward collection.
+- 20:28 — Understanding speech follows chest opening in the channel, but the verse itself is indirect.
+- 20:123 — Channel descent and division are too remote from inward disclosure.
+- 49:1 — Channel testing-and-refining resonance is indirect from the verse's command.
+- 7:43 — Another removal of chest rancor, largely redundant with 15:47.
+- 17:51 — What looms large in chests concerns doubt, not its extraction or disclosure.
+- 40:80 — An inward need becomes an outward journey, a limited source-to-result parallel.
+- 5:7 — Chest knowledge is present but adds little beyond stronger hidden/public passages.
+- 82:12 — Knowledge of actions is a generic external-accounting parallel.
+- 26:13 — Chest constriction blocks speech, a limited inner-to-outward relation.
+- 2:27 — Rupture and corruption offer only a distant moral-outcome parallel.
+- 2:159 — Concealment of revealed material is a generic hiding parallel, not chest disclosure.
+- 2:17 — Light and darkness supply only a remote legibility metaphor.
+- 2:144 — Directed turning and known truth do not clarify inward extraction.
+- 2:102 — Harmful learning and loss offer no specific inward-disclosure route.
+- 2:174 — Concealment and final punishment are only a distant judgment parallel.
+- 69:26 — Accounting language offers a generic final-judgment frame; tail-audit rank adds no weight.
+- 26:182 — Just weighing is a generic accounting parallel; tail-audit rank adds no weight.
+- 73:20 — What is sent ahead and found with God is a broad accountability parallel.
+- 38:26 — Judgment and the Day of Account are indirect; tail-audit rank adds no relevance claim.
+- 24:31 — Making hidden adornment known is a limited disclosure parallel, unrelated to chest contents.
+- 82:8 — Inner disclosure belongs to judgment context, not form.

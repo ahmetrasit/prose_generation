@@ -1,0 +1,178 @@
+# Quranic reach for 100:3 (script digest, unjudged)
+
+Candidates for reading the ayah through the Quran itself. Nothing here is a finding yet: judge each one.
+
+## 1. Variant readings (qirāʾāt)
+
+(none recorded)
+
+## 2. Usage: each root of the ayah across the Quran (ref and the word as it occurs)
+
+### U-غير root غ ي ر (focus word فَٱلْمُغِيرَٰتِ: مُغِيرَٰت N form IV) — 152 occurrences in 146 ayat; same form 1, other forms 151
+- tier 1, same form (مُغِيرَٰت N form IV): 1
+  - 100:3 ◀ focus مُغِيرَٰتِ
+- tier 2, other forms: مُغَيِّر N form II 1; يَتَغَيَّرْ V form V 1; غَيْر ADJ 3; يُغَيِّرُ V form II 3; غَيْر N 143
+- rare form مُغَيِّر (N form II):
+  - 8:53 مُغَيِّرًا
+- rare form يَتَغَيَّرْ (V form V):
+  - 47:15 يَتَغَيَّرْ
+- rare form غَيْر (ADJ):
+  - 4:95 غَيْرُ
+  - 14:37 غَيْرِ
+  - 84:25 غَيْرُ
+- rare form يُغَيِّرُ (V form II):
+  - 4:119 يُغَيِّرُ
+  - 8:53 يُغَيِّرُ
+  - 13:11 يُغَيِّرُ
+- roots co-occurring across the listed ayat: ء ل ه (11), ن ه ر (4), ق و م (4), ن ف س (4), ء م ر (3), ن ع م (3), ر ب ب (3), ق ع د (3), ج ه د (3), و ل ي (2), د و ن (2), خ س ر (2), ب ي ن (2), و ع د (2)
+
+### U-صبح root ص ب ح (focus word صُبْحًا: صُبْح T) — 44 occurrences in 43 ayat; same form 1, other forms 43
+- tier 1, same form (صُبْح T): 1
+  - 100:3 ◀ focus صُبْحًا
+- tier 2, other forms: إِصْبَاح N form IV 1; صَبَاح N 1; صَبَّحَ V form II 1; صُبْح N 3; مِصْبَاح N 4; مُصْبِحِين N form IV 5; أَصْبَحَ V form IV 28
+- rare form إِصْبَاح (N form IV):
+  - 6:96 إِصْبَاحِ
+- rare form صَبَاح (N):
+  - 37:177 صَبَاحُ
+- rare form صَبَّحَ (V form II):
+  - 54:38 صَبَّحَ
+- rare form صُبْح (N):
+  - 11:81 صُّبْحُ
+  - 74:34 صُّبْحِ
+  - 81:18 صُّبْحِ
+- rare form مِصْبَاح (N):
+  - 24:35 مِصْبَاحٌ
+  - 24:35 مِصْبَاحُ
+  - 41:12 مَصَٰبِيحَ
+  - 67:5 مَصَٰبِيحَ
+- rare form مُصْبِحِين (N form IV):
+  - 15:66 مُّصْبِحِينَ
+  - 15:83 مُصْبِحِينَ
+  - 37:137 مُّصْبِحِينَ
+  - 68:17 مُصْبِحِينَ
+  - 68:21 مُصْبِحِينَ
+- roots co-occurring across the listed ayat: ن و ر (6), س م و (5), ء ل ه (4), ع ل م (3), ع ذ ب (2), م ث ل (2), ز ج ج (2), ز ي ت (2), ش ي ء (2), ك ل ل (2), ب ل و (2), ق ط ع (2), ل ي ل (2), ص و ب (2)
+
+## 3. Related passages (reciprocal inter-ayah candidates, strongest first: the ayah and why it may bear on the focus, as an earlier review saw it — a lead to test, not a finding)
+- 68:21 — Sabah, ortak hareket ve yoksulu dışlayan baskın alarmını birlikte verir; f01'i doğrudan açar.
+- 74:34 — Sabahın alanı açması, f02'nin görünürlük eşiğini doğrudan destekler.
+- 100:4 — Baskın hareketinin ardından gelen toz, 100:3'teki hareketin somut etkisini tamamlar.
+- 81:18 — Sabahın tedrici açılması, f02'deki görünürlük eşiğini güçlendirir.
+- 68:20 — Sabah vakti bahçenin dönüşmüş hali, 68:21'deki ortak sabah hareketinin sonucunu belirginleştirir.
+- 100:1 — İtici hareket dizisinin başlangıcı olarak 100:3'ün eyleyenlerini bağlama yerleştirir.
+- 68:17 — Tasarlanan sabah hasadı, 68:21'deki toplu baskın düzeninin ön hazırlığını verir.
+- 100:2 — Ateş çıkaran önceki hareket, f02'deki gizli kıvılcımdan görünür eyleme geçişi bağlar.
+- 6:96 — Sabahın yarılması, açılma ve gece-sükunet ritmiyle f02'nin eşiğini güçlendirir.
+- 100:5 — Hareketin bir topluluğun ortasına varması, 100:3'teki incursion boyutunu tamamlar.
+- 77:5 — Art arda gelen etkin çoğullar, 100:1-5'in yeminli hareket dizisine yapısal paraleldir.
+- 79:5 — Etkin çoğul dizisi, 100:1-5'in sıralı hareket yapısını destekler.
+- 8:53 — Topluluğun iç durumundaki değişim, f01'deki durum değiştirme boyutuna güçlü toplumsal paraleldir.
+- 77:2 — Şiddetle esen hareketler, odaktaki itici eylem dizisine yapısal ve devinimsel paraleldir.
+- 54:45 — Topluluğun yenilgisi ve geriye dönmesi, f01'deki karşı gruba yönelen incursion için güçlü paraleldir.
+- 15:83 — Sabah vakti gelen ses, f01'in ani toplu baskın/alarm boyutuna güçlü paraleldir.
+- 13:11 — İç değişim ile toplumsal durumun değişmesi, f01 için en açık durum-dönüşümü paralelidir.
+- 15:66 — Sabah kesilmesi ile gece kurtuluşu, f01'in zamanlanmış toplu dönüşümünü doğrudan destekler.
+- 37:177 — Kötü sabahın avluya inmesi, f01'in ev eşiğine varan baskın yönünü güçlendirir.
+- 54:38 — İlk sabah vakti yerleşen azap, f01'in zamanlanmış baskın düzenine güçlü paraleldir.
+- 11:81 — Sabahın yakın randevu oluşu, gece çıkışı ile toplu sonucun zamanlamasını belirginleştirir.
+- 3:121 — Sabah çıkışıyla savaş düzenine yerleştirme, f01'in sabah zamanlı ve örgütlü karşı-grup hareketine doğrudan paraleldir.
+- 7:98 — Gece baskını ile kuşluk vaktinde gelen güç arasındaki karşıt zamanlama, f01'in sabah baskınını belirginleştirir.
+- 15:65 — Gece aileyi çıkarma ve arkaya bakmama emri, 15:66'daki sabah kesilmesinin zorunlu ön aşamasıdır.
+- 15:73 — Güneş doğarken gelen ses, ani toplu sonun sabah eşiğinde gerçekleşmesine doğrudan paraleldir.
+- 54:34 — Seherde kurtarılan aile ile 54:38'deki sabah azabı, f01 için ayrıştırılmış zamanlanmış baskın düzenini tamamlar.
+- 2:187 — Şafağın geceden ayrılması, f02'nin gizli eylemi görünür eşiğe taşıyan sabah sınırını doğrudan verir.
+- 17:78 — Fecrdeki tanıklık vurgusu, f02'nin görünür ve tanıklığa açık oluş yönünü doğrudan tamamlar.
+- 31:25 — The Lord's detailed knowledge of what is within human breasts establishes the accountability neglected by ungrateful response.
+- 79:1 — The dawn raid continues the horse-race sequence and strengthens accelerated directed motion.
+- 46:25 — Sabah sonrası tam yıkım, zorla durum değiştirme ve açığa çıkma sonucunu gösterir.
+- 1:7 — Olumsuz yönleri dışlayan sınır, f03'ün iyileştirici değişim ihtimalini karşıt kanıt olarak çerçeveler.
+- 4:56 — Bedensel değiştirme, değişimin sorumluluk ve sonuçla birleşebileceğine dair sınır kanıtıdır.
+- 100:10 — Gizli olanın ortaya çıkarılması, f02'nin tanıklığa açıklık yönünü sonraki bağlamda sürdürür.
+- 32:6 — Gizli ile tanıklığa açık olanın ayrımı, f02 için genel bir görünürlük çerçevesi sağlar.
+- 4:119 — Yaratılışı değiştirme, f03'teki düzen değiştirme ihtimaline sınırlayıcı karşıt bağlam sunar.
+- 30:17 — Akşam-sabah tekrarı, sabahı düzenli zaman devresine yerleştirir; önceki açılma kanıtlarını tamamlar.
+- 41:12 — Kandillerin görünürlük ve koruma işlevi, f02 için ikincil ışık-işlevi paralelidir.
+- 100:8 — Sonraki insan tasviri, 100:3'ün eylem ve zaman anlamına ancak geniş sure bağlamı verir.
+- 51:4 — Bölüştüren etkin çoğullar, odaktaki seri eyleyenler için yapısal paralel sağlar.
+- 10:15 — Başka bir metinle değiştirme talebi, f03'teki değişimin sınırlarını belirleyen karşıt kanıttır.
+- 79:4 — Yarışan etkin çoğullar, odaktaki seri ve yönelmiş hareket yapısına paraleldir.
+- 70:41 — Daha iyiyle değiştirme, f03'ün iyileştirici değişim ihtimaline sınırlayıcı karşıt bağlam sunar.
+- 51:2 — Taşıyan etkin çoğullar, odaktaki sıralı eyleyenler için yapısal paraleldir.
+- 2:59 — Sözün değiştirilmesi, f03'teki değişimin düzen bozucu sınırını gösterir.
+- 7:162 — Sözün tersine değiştirilmesi, f03 için düzeni bozan değişim sınırını güçlendirir.
+- 26:157 — Şiddet eyleminden sonra gelen sabah pişmanlığı, f02'ye sonuçta açılan bilgi paraleli verir.
+- 7:140 — Başka ilah talebi, f03'ün yön ve düzen değiştirme ihtimaline karşıt sınır sağlar.
+- 23:40 — Kısa sürede pişmanlık haline çıkış, f02'deki gizlinin görünürleşmesine paraleldir.
+- 18:41 — Sabah suyun erişilemez oluşu, gündelik durumun ani değişimini gösterir.
+- 24:35 — Korunmuş ve güçlenen ışık, f02'nin görünürlük boyutuna ikincil bir paraleldir.
+- 17:73 — Başka bir vahiy biçimine zorlama, f03'teki değişimin metinsel sınırını gösterir.
+- 35:37 — Geç kalmış iyi eylemle değiştirme isteği, f03 için sonuç ve sınır bağlamı verir.
+- 22:63 — Sabah yeryüzünün başka hale çıkışı, f02 için görünür dönüşüm paralelidir.
+- 47:38 — Bir topluluğun başkasıyla değiştirilmesi, f03'ün toplumsal değişim ihtimaline karşıt sınır sunar.
+- 28:18 — Sabah korku ve bekleyişi, şiddet sonrası durumun sürekliliğine paraleldir.
+- 67:30 — Sabah suyun kaybolması, alışılmış halin ani değişimi ve görünür sonucu için paraleldir.
+- 18:40 — Sabah bahçenin kaygan boşluğa dönüşmesi, ani durum değişimine paraleldir.
+- 3:103 — Düşmanlıktan kardeşliğe geçiş, f01'deki toplumsal durum değişimine karşıt paraleldir.
+- 18:42 — Yıkım sonrası pişmanlık, sabahla belirginleşen geri döndürülemez sonuç paralelidir.
+- 5:52 — Gizlenenin açığa çıkıp pişmanlığa dönmesi, f02'nin görünürleşme boyutuna paraleldir.
+- 77:4 — Ayıran etkin çoğullar, önceki yapısal paralelleri tekrar eder.
+- 8:60 — Bağlı atların savaş hazırlığındaki işlevi, 100:1-3'ün hareket eden eyleyenleri için maddi bağlam sağlar.
+- 4:71 — Tedbir alma ve birlikler halinde ya da topluca çıkma, f01'in eşgüdümlü hareket boyutuna paraleldir.
+- 8:45 — Karşı grup ile karşılaşmada sebat emri, f01'in hedefe yönelen kolektif hareketine savaş bağlamı verir.
+- 9:13 — İlk başlatma ve karşılık verme dili, f01'deki saldırı yönünün karşılıklı çatışma sınırını gösterir.
+- 47:4 — Karşı grupla karşılaşmanın eylem eşiği, f01'in incursion boyutuna genel savaş paraleli sağlar.
+- 61:4 — Saf halinde mücadele, 100:1-5'teki düzenli çoğul hareket dizisine toplu eylem paraleli verir.
+- 10:24 — Gece veya gündüz gelen ani hüküm ve hasat olmuş sonuç, sabah baskınının hızlı durum değiştirme yönüne paraleldir.
+- 7:97 — Gece gelen beklenmedik güç, 7:98 ile birlikte f01'in gündüz başlangıcındaki baskın zamanlamasına karşıt sınır kurar.
+- 24:58 — Fecr öncesi ayrım, f02 için gece ile sabah arasındaki eşiğin toplumsal işlevini gösterir.
+- 56:75 — Continues the directional-motion oath sequence.
+- 79:2 — A dawn raid continues the active oath-series parallel with a distinct scene.
+- 5:30 — Şiddet eyleminden sonraki kaybın görünürlüğü, f02'ye yalnız dolaylı bir paralel sunar.
+- 37:137 — Sabah geçişi, f01'deki ani baskın çağrışımına yalnız karşıt-sınır olarak temas eder.
+- 95:6 — Değiştirme/telafi ihtimali, f03 için yalnız karşıt-sınır kanıtıdır.
+- 100:9 — Sonraki dirilme sorusu, 100:3'ün anlamına dolaylı sure bağlamı sağlar.
+- 5:102 — Açıklığın reddedilmesi, f02'deki görünürlük yönüne zayıf ve dolaylı bir paraleldir.
+- 100:7 — Tanıklık vurgusu, f02'nin açıklık yönüne yalnız uzak sure içi bağlam sunar.
+- 100:11 — Sonraki hesap bilgisi, 100:3'e yalnız geniş sure bağlamı verir.
+- 61:14 — Görünür üstünlük, f02 için yalnız karşıt ve ikincil bir aydınlığa çıkış okumasıdır.
+- 100:6 — İnsan nankörlüğü, odak eyleminin anlamını doğrudan açıklamaz.
+- 29:37 — Sabah sonrası hareketsiz kalış, f02'ye tekrar eden ve dolaylı bir sonuç paralelidir.
+- 41:23 — Sabah imgesi, gizli kaybın açılması için yalnız karşıt ve ikincil bir okumadır.
+- 99:6 — Dağılarak çıkış ve topluluktan ayrılma, f01'e uzak bir hareket paraleli sunar.
+- 7:78 — Sabah sonrası hareketsiz kalış, önceki felaket-sabah kartlarını tekrar eder.
+- 47:15 — Değişmeme vurgusu, f03'e ancak uzak bir süreklilik karşıtı sunar.
+- 7:91 — Sabah sonrası hareketsiz kalış, önceki felaket-sabah kartlarını tekrar eder.
+- 11:67 — Sabah vakti ses ve hareketsiz kalış, 15:83'teki güçlü paraleli tekrar eder.
+- 28:10 — Sabah kalbin boşalması, odaktaki dış hareket ve görünürlükle zayıf bağ kurar.
+- 5:53 — Gizlenenin ardından kayba çıkış, f02 için uzak bir görünürleşme paralelidir.
+- 11:94 — Sabah vakti ses ve hareketsiz kalış, önceki güçlü felaket-sabah kartlarını tekrar eder.
+- 18:45 — Canlılığın dağılmış hale dönüşmesi, odaktaki özel sabah hareketine uzak paraleldir.
+- 28:82 — Bir gün sonraki idrak, durum değişiminin dolaylı sonucunu gösterir.
+- 5:31 — Ölüm sonrası pişmanlık, 26:157'deki daha yakın şiddet-sonuç paralelini tekrar eder.
+- 37:2 — Etkin çoğul kalıbı, önceki yapısal paralelleri tekrar eder.
+- 37:1 — Sıralanmış etkin çoğullar, 100:1-5 yapısına yalnız tekrarlı paralel sunar.
+- 37:3 — Etkin çoğul kalıbı, önceki yapısal paralelleri tekrar eder.
+- 89:1 — Fecr, f02'nin sabah eşiğine doğrudan fakat artık tekrarlı bir zaman paralelidir.
+- 51:3 — Akıp giden etkin çoğullar, önceki hareket dizisi paralellerini tekrar eder.
+- 79:3 — Yüzen etkin çoğullar, önceki hareket dizisi paralellerini tekrar eder.
+- 84:16 — Şafak, sabah eşiğine karşıt zaman sınırı sunar; katkısı ikincildir.
+- 25:70 — Kötülüklerin iyiliklerle değiştirilmesi, f03 için uzak ve karşıt sınır kanıtıdır.
+- 60:7 — Düşmanlıktan sevgiye geçiş, f01'e uzak ve karşıt bir toplumsal dönüşüm paralelidir.
+- 18:28 — Gündüz başlangıcı ve sonu arasındaki ibadet ritmi, f02 için tekrarlı bir zaman eşiği paralelidir.
+- 19:11 — Sabah-akşam tekrarının işaretlenmesi, f02'ye yalnız genel bir gün döngüsü bağlamı verir.
+- 24:36 — Sabah-akşam anma, f02 için genel fakat dolaylı bir sabah devresi paralelidir.
+- 33:42 — Sabah-akşam anma, f02 için genel fakat dolaylı bir sabah devresi paralelidir.
+- 48:9 — Sabah-akşam tesbih, f02'nin zaman boyutuna yalnız tekrarlı paralel sunar.
+- 76:25 — Sabah-akşam anma, odaktaki ani hareketten farklı düzenli ritim sınırını korur.
+- 91:2 — Gündüzün açığa çıkarma işlevi, f02'nin görünürlük yönüne uzak ama doğrudan bir paraleldir.
+- 92:2 — Gündüzün belirginleşmesi, f02 için tekrarlı bir açılma paralelidir.
+- 93:1 — Kuşluk vakti, f02'nin sabah sonrası görünürlük eşiğine yalnız geniş zaman bağlamı verir.
+- 113:1 — Felek/felakın yarılması, f02'nin açılma imgesine ikincil bir paraleldir.
+- 20:130 — Güneş doğmadan önceki zaman, f02'ye yalnız genel bir sabah sınırı paraleli sunar.
+- 50:39 — Güneş doğmadan önceki zaman, f02'ye tekrarlı ve dolaylı bir zaman paralelidir.
+- 79:29 — Gecenin karartılması ile kuşluğun çıkarılması, f02'nin açılma boyutuna geniş bir gün döngüsü paraleli verir.
+- 51:1 — Missing oath-sequence member gives a spark-producing action, only a formal parallel.
+- 56:76 — The third oath sign is sequence support only.
+- 69:38 — A formal oath member is redundant after closer oath parallels.
+- 77:3 — A formal oath-like motion gives a weak structural parallel only.
+- 77:33 — Rapid attack movement is a distant motion association only.

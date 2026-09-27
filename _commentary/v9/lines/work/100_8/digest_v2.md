@@ -1,0 +1,326 @@
+# Quranic reach for 100:8 (script digest, unjudged)
+
+Candidates for reading the ayah through the Quran itself. Nothing here is a finding yet: judge each one.
+
+## 1. Variant readings (qirāʾāt)
+
+(none recorded)
+
+## 2. Usage: each root of the ayah across the Quran (ref and the word as it occurs)
+
+### U-حبب root ح ب ب (focus word لِحُبِّ: حُبّ N) — 91 occurrences in 85 ayat; same form 9, other forms 82
+- tier 1, same form (حُبّ N): 9
+  - 2:165 حُبِّ
+  - 2:165 حُبًّا
+  - 2:177 حُبِّ
+  - 3:14 حُبُّ
+  - 12:30 حُبًّا
+  - 38:32 حُبَّ
+  - 76:8 حُبِّ
+  - 89:20 حُبًّا
+  - 100:8 ◀ focus حُبِّ
+- tier 2, other forms: أَحِبَّٰٓؤ N 1; أَحَبّ N 1; مَحَبَّة N 1; حَبَّبَ V form II 1; أَحَبّ ADJ 2; حَبَّة N 4; ٱسْتَحَبُّ V form X 4; حَبّ N 7; أَحْبَبْ V form IV 61
+- rare form أَحِبَّٰٓؤ (N):
+  - 5:18 أَحِبَّٰٓؤُ
+- rare form أَحَبّ (N):
+  - 9:24 أَحَبَّ
+- rare form مَحَبَّة (N):
+  - 20:39 مَحَبَّةً
+- rare form حَبَّبَ (V form II):
+  - 49:7 حَبَّبَ
+- rare form أَحَبّ (ADJ):
+  - 12:8 أَحَبُّ
+  - 12:33 أَحَبُّ
+- rare form حَبَّة (N):
+  - 2:261 حَبَّةٍ
+  - 6:59 حَبَّةٍ
+  - 21:47 حَبَّةٍ
+  - 31:16 حَبَّةٍ
+- rare form ٱسْتَحَبُّ (V form X):
+  - 9:23 ٱسْتَحَبُّ
+  - 14:3 يَسْتَحِبُّ
+  - 16:107 ٱسْتَحَبُّ
+  - 41:17 ٱسْتَحَبُّ
+- rare form حَبّ (N):
+  - 6:95 حَبِّ
+  - 6:99 حَبًّا
+  - 36:33 حَبًّا
+  - 50:9 حَبَّ
+  - 55:12 حَبُّ
+  - 78:15 حَبًّا
+  - 80:27 حَبًّا
+- roots co-occurring across the listed ayat: ء ل ه (23), ق و ل (7), خ ر ج (7), ء م ن (6), ك و ن (6), ح ي ي (6), ع ذ ب (5), ق و م (5), ش ي ء (5), ء ت ي (5), ع ل م (5), ب ن ي (5), ن ب ت (5), ء خ ذ (4)
+
+### U-خير root خ ي ر (focus word ٱلْخَيْرِ: خَيْر N) — 189 occurrences in 178 ayat; same form 141, other forms 48
+- tier 1, same form (خَيْر N): 141 — common form, not listed
+- tier 2, other forms: خِيَرَة N 2; يَتَخَيَّرُ V form V 2; ٱخْتَارَ V form VIII 4; خَيْرَٰت N 10; خَيْر ADJ 30
+- rare form خِيَرَة (N):
+  - 28:68 خِيَرَةُ
+  - 33:36 خِيَرَةُ
+- rare form يَتَخَيَّرُ (V form V):
+  - 56:20 يَتَخَيَّرُ
+  - 68:38 تَخَيَّرُ
+- rare form ٱخْتَارَ (V form VIII):
+  - 7:155 ٱخْتَارَ
+  - 20:13 ٱخْتَرْ
+  - 28:68 يَخْتَارُ
+  - 44:32 ٱخْتَرْ
+- rare form خَيْرَٰت (N):
+  - 2:148 خَيْرَٰتِ
+  - 3:114 خَيْرَٰتِ
+  - 5:48 خَيْرَٰتِ
+  - 9:88 خَيْرَٰتُ
+  - 21:73 خَيْرَٰتِ
+  - 21:90 خَيْرَٰتِ
+  - 23:56 خَيْرَٰتِ
+  - 23:61 خَيْرَٰتِ
+  - 35:32 خَيْرَٰتِ
+  - 55:70 خَيْرَٰتٌ
+- roots co-occurring across the listed ayat: ء ل ه (10), ك و ن (8), ش ي ء (6), س ب ق (4), ء م ن (4), س ر ع (4), ء م ر (4), ك ل ل (3), ء ت ي (3), ك ت ب (3), ر س ل (3), ض ل ل (3), ب ي ن (3), ج ع ل (3)
+
+### U-شدد root ش د د (focus word لَشَدِيدٌ: شَدِيد N) — 100 occurrences in 99 ayat; same form 20, other forms 80
+- tier 1, same form (شَدِيد N): 20
+  - 2:165 شَدِيدُ
+  - 2:196 شَدِيدُ
+  - 2:211 شَدِيدُ
+  - 3:11 شَدِيدُ
+  - 5:2 شَدِيدُ
+  - 5:98 شَدِيدُ
+  - 8:13 شَدِيدُ
+  - 8:25 شَدِيدُ
+  - 8:48 شَدِيدُ
+  - 8:52 شَدِيدُ
+  - 13:6 شَدِيدُ
+  - 13:13 شَدِيدُ
+  - 14:7 شَدِيدٌ
+  - 48:29 أَشِدَّآءُ
+  - 53:5 شَدِيدُ
+  - 59:4 شَدِيدُ
+  - 59:7 شَدِيدُ
+  - 59:14 شَدِيدٌ
+  - 85:12 شَدِيدٌ
+  - 100:8 ◀ focus شَدِيدٌ
+- tier 2, other forms: ٱشْتَدَّتْ V form VIII 1; أَشَدّ ADJ 3; شَدَدْ V 6; أَشُدّ N 8; أَشَدّ N 26; شَدِيد ADJ 36
+- rare form ٱشْتَدَّتْ (V form VIII):
+  - 14:18 ٱشْتَدَّتْ
+- rare form أَشَدّ (ADJ):
+  - 9:81 أَشَدُّ
+  - 9:97 أَشَدُّ
+  - 40:46 أَشَدَّ
+- rare form شَدَدْ (V):
+  - 10:88 ٱشْدُدْ
+  - 20:31 ٱشْدُدْ
+  - 28:35 نَشُدُّ
+  - 38:20 شَدَدْ
+  - 47:4 شُدُّ
+  - 76:28 شَدَدْ
+- rare form أَشُدّ (N):
+  - 6:152 أَشُدَّ
+  - 12:22 أَشُدَّ
+  - 17:34 أَشُدَّ
+  - 18:82 أَشُدَّ
+  - 22:5 أَشُدَّ
+  - 28:14 أَشُدَّ
+  - 40:67 أَشُدَّ
+  - 46:15 أَشُدَّ
+- roots co-occurring across the listed ayat: ء ل ه (44), ع ق ب (13), ر ب ب (12), ب ل غ (11), ك و ن (11), ر س ل (10), ع ل م (10), ر ء ي (8), ق و ل (8), ك ف ر (7), ش ي ء (6), ح س ن (6), ء ت ي (6), ء م ن (5)
+
+## 3. Related passages (reciprocal inter-ayah candidates, strongest first: the ayah and why it may bear on the focus, as an earlier review saw it — a lead to test, not a finding)
+- 100:11 — Closing accountability frames the human condition surrounding 100:8.
+- 49:7 — Directly joins cultivated love with the heart; supports f01 and f03.
+- 100:7 — Immediate witness clause reinforces the human characterization at 100:8.
+- 100:10 — Immediate extraction of what is in breasts strongly supports f03.
+- 75:20 — Direct love of the immediate supports f01 and heart-rooted f03.
+- 38:32 — Repeats love of al-khayr and shows its competing priority; core f01 evidence.
+- 41:17 — Chosen blindness over guidance supplies a clear f01 preference pattern.
+- 70:21 — Withholding when al-khayr arrives directly develops f02's blocked circulation.
+- 100:6 — Immediate antecedent supplies the moral frame for the intense attachment.
+- 89:20 — Direct amassed wealth-love strongly supports f01; preserves f03 as a parallel route.
+- 100:9 — Immediate scattering from graves advances the disclosure sequence of 100:8.
+- 3:92 — Expenditure of what is loved directly connects f01 attachment to f02 circulation.
+- 76:27 — Love of the immediate and leaving the weighty day reinforces f01's temporal side.
+- 2:177 — Giving wealth despite loving it directly joins attachment with f02 circulation.
+- 2:219 — The command to give the surplus directly counters possessive retention in f02.
+- 2:268 — Fear of poverty versus promised forgiveness directly exposes f01's retaining pressure.
+- 3:14 — Desire is explicitly ornamented around accumulated wealth; central f01 evidence.
+- 3:180 — Withheld bounty becoming a neck-binding consequence sharply develops f01 and f02.
+- 9:24 — Family, wealth, trade, and dwellings ranked above divine claims are core f01 evidence.
+- 9:34 — Hoarded gold and silver without spending directly develops f02 blockage.
+- 9:35 — The hoard's later bodily confrontation intensifies the f01/f02 consequence.
+- 17:100 — Fear-driven withholding even of divine stores is direct f01/f02 evidence.
+- 18:46 — Wealth and children versus enduring good deeds gives a direct temporal f01 contrast.
+- 18:34 — Boasting in wealth and dependents develops f01's evaluative distortion.
+- 24:37 — Trade and sale not distracting from remembrance directly counter f01 displacement.
+- 28:76 — Qarun's burdensome treasures provide an extended f01 possession case.
+- 28:77 — Seeking the lasting abode through what is given directly develops f02.
+- 34:37 — Wealth and children do not confer nearness; direct boundary for f01.
+- 47:36 — Worldly life and wealth-demand context directly frames attachment as a test.
+- 47:37 — Expected withholding under pressure identifies f01's possessive threshold.
+- 47:38 — The call to spend and resulting stinginess directly develops f02.
+- 50:16 — Knowledge of the self's whisper gives direct support to f03's hidden interior.
+- 51:19 — A known right in wealth establishes the positive f02 circulation counterpart.
+- 57:7 — Entrusted holdings and spending make a central f02 alternative to possession.
+- 57:20 — Boasting and rivalry in wealth and children are central f01 and temporal evidence.
+- 59:9 — Preference for others despite need is a direct positive counterpart to f01/f02.
+- 63:9 — Wealth and children distracting from remembrance directly names f01 displacement.
+- 64:15 — Wealth and children as trial directly qualify f01's attachment.
+- 64:16 — Guarding against the self's stinginess directly formulates f02's obstacle.
+- 68:24 — Planning to bar the needy is direct f02 blockage.
+- 70:19 — The anxious human type supplies immediate broader context for 70:21 and f01.
+- 70:20 — Panic under harm completes the human disposition that frames 70:21.
+- 70:24 — An acknowledged right in wealth gives the explicit positive f02 counterpart.
+- 70:25 — The claimant and deprived recipient complete that f02 allocation pattern.
+- 76:8 — Giving food despite attachment directly joins f01 attachment to f02 circulation.
+- 89:17 — Failure to honor the vulnerable begins the immediate ethical context of 89:20.
+- 89:18 — Failure to urge feeding the poor directly develops f02 blockage.
+- 89:19 — Devouring inheritance intensifies the possessive context immediately before 89:20.
+- 91:7 — The fashioned self gives a direct interior basis for f03 and f04.
+- 91:8 — The self's moral orientation develops the inward-direction aspect of f04.
+- 92:8 — Stinginess and self-sufficiency form a direct f01/f02 counter-pattern.
+- 92:9 — Denying the best fixes the evaluative side of that counter-pattern.
+- 92:10 — Facilitated hardship shows the consequential path of f01/f02 retention.
+- 92:17 — Giving for purification supplies the opposing f02 pattern.
+- 96:6 — Human transgression opens the self-sufficiency form of f01.
+- 96:7 — Self-sufficiency names the inner evaluative condition behind that form.
+- 102:1 — Rivalry in accumulation is a central, missing f01 formulation.
+- 102:2 — Its continuation until graves directly connects accumulation to 100:9's horizon.
+- 104:2 — Collecting and counting wealth is direct f01 evidence.
+- 104:3 — Wealth imagined as enduring supplies the temporal illusion behind f01.
+- 38:31 — Intense love of wealth names the attachment mechanism that the Soloman episode immediately develops.
+- 69:28 — Names intense attachment to wealth.
+- 90:6 — Makes intense attachment to wealth an explicit inner diagnosis.
+- 96:3 — Intense attachment to wealth specifies the rival attachment behind ingratitude.
+- 28:56 — Limits love's agency; supports a distinct f03 relational boundary.
+- 16:23 — Non-love of pride bounds f01; route is mixed and indirect.
+- 41:49 — Persistent demand for al-khayr adds a desire pattern, but is less specific.
+- 100:3 — Opening charge can echo f04's inward force, within the immediate sequence.
+- 93:4 — Contrasts a better future with the first; secondary temporal evidence for f02.
+- 12:30 — Love filling the inner enclosure offers a channel-based f03 parallel.
+- 14:7 — Punitive severity is a contrast boundary, not positive support for 100:8.
+- 100:2 — Spark-producing motion may retain the f04 force parallel in the sequence.
+- 22:77 — Beneficial action and success provide a channel-based f02 ethical alternative.
+- 100:1 — Opening exertion supplies the starting image for the possible f04 parallel.
+- 2:165 — Contrasts rival attachments and greater intensity; a boundary for f01.
+- 100:5 — Gathering motion completes the sequence that can inform f04.
+- 6:95 — Seed/kernel disclosure is strong f03 route evidence, though materially distinct.
+- 100:4 — Raised dust sustains the opening force imagery behind the f04 parallel.
+- 9:23 — Preference and allegiance patterns offer a focused f01 boundary.
+- 2:216 — Love does not settle real good; preserves a contrary boundary for f01/f02.
+- 2:261 — Expenditure as seed growth offers secondary f02/f03 circulation imagery.
+- 12:8 — Competitive family preference supplies a social form of intensive attachment.
+- 20:39 — Bestowed affection and formation offer indirect f01/f03 relational evidence.
+- 55:12 — Physical grain route is f03-adjacent but redundant and nonpsychological.
+- 3:31 — Love made visible through following supports f01 and a living f03 parallel.
+- 49:1 — Heart refinement and ordering provide channel-based context for f01/f03.
+- 73:20 — Giving beneficial surplus supports f02 circulation, though only provisionally routed.
+- 10:107 — Good as unpreventable divine favor supplies a secondary f02 frame.
+- 21:47 — Accounting for the smallest kernel supports f03 disclosure, after stronger context cards.
+- 30:45 — Non-love marks a distinct evaluative relation, qualifying f01's range.
+- 31:16 — Small-kernel accountability supports f03; inner-seed transfer remains contrast-only.
+- 2:280 — Charitable remission gives a concrete, secondary f02 circulation alternative.
+- 3:26 — Locates al-khayr with divine authority, a broad f02 framing.
+- 3:119 — One-sided love and concealed interior reaction give a secondary f03 parallel.
+- 7:31 — Non-love of excess supplies a boundary on f01's attachment pattern.
+- 2:272 — Giving good without controlling the recipient supplies a secondary f02 circulation frame.
+- 76:28 — Tightening bonds supports f01's binding aspect, though in bodily imagery.
+- 49:12 — Aversion-based love boundary sharpens f01, but its object differs.
+- 87:17 — Enduring later good reinforces the temporal contrast already established.
+- 20:131 — More enduring divine provision offers a direct temporal counterpoint to f01.
+- 2:195 — Spending is placed against self-destruction, a consequential f02 boundary.
+- 2:215 — Questions of spending and al-khayr supply a concrete f02 distribution frame.
+- 2:245 — Giving as a returnable loan supplies a secondary f02 circulation model.
+- 2:254 — Pre-judgment spending gives an eschatological f02 counterpoint.
+- 2:267 — Selectively giving good possessions materially develops f02.
+- 2:273 — Concealed need and giving make a secondary f02 distribution case.
+- 2:274 — Unrestricted spending broadens the f02 alternative to holding back.
+- 3:134 — Giving in ease and constraint provides a durable f02 counter-pattern.
+- 4:37 — Miserliness and urging it in others provide a social f02 obstruction.
+- 4:128 — The self's proneness to stinginess gives an inward f01/f02 pressure.
+- 6:141 — Harvest due and the ban on excess give a concrete f02 allocation pattern.
+- 8:28 — Wealth and children as trial qualify f01's object of attachment.
+- 9:55 — Wealth and children are not simple favor; a boundary for f01.
+- 9:75 — A pledge to give followed by withholding supplies a direct f02 reversal.
+- 9:76 — The ensuing hypocrisy locates the withholding consequence in the interior.
+- 12:53 — The self's commanding impulse offers an inward-force parallel for f04.
+- 16:71 — Refusal to share provision offers a direct f02 retention pattern.
+- 17:25 — Divine knowledge of what is within selves strengthens the f03 interior frame.
+- 17:26 — Giving the due to close others makes a concrete f02 circulation alternative.
+- 17:27 — Wasteful dispersal bounds f02; circulation is not indiscriminate loss.
+- 17:29 — Bound and fully outstretched hands frame the two limits around f01/f02.
+- 18:32 — The paired-garden possession scene provides a concrete wealth-attachment setting.
+- 18:35 — Possession and self-wronging show f01's inward moral risk.
+- 20:7 — Knowledge of secret and more hidden matters supports f03's interior disclosure.
+- 23:55 — Wealth and children are tested as a mistaken reading of divine favor.
+- 23:56 — The delayed-good assumption qualifies f02's object as well as f01's desire.
+- 25:67 — Measured spending supplies an explicit f02 balance against holding and excess.
+- 28:78 — Possessive self-attribution marks an f01 distortion in the wealth narrative.
+- 28:79 — Desire for Qarun's station shows the contagious social form of f01.
+- 28:80 — The lasting reward reply restores the temporal counterweight to f01.
+- 34:35 — Wealth and children claimed as security give an f01 evaluative error.
+- 36:47 — Refusal to feed when commanded exposes f02's withholding rationale.
+- 39:49 — Attributing received good to personal knowledge supplies an f01 ownership distortion.
+- 42:36 — Worldly provision versus what remains offers a temporal f01/f02 comparison.
+- 57:6 — Knowledge of what is in breasts reinforces f03's interior-accounting frame.
+- 57:10 — Spending before a decisive threshold adds a temporal f02 dimension.
+- 57:11 — Returnable giving supplies a secondary f02 circulation model.
+- 57:24 — Miserliness and its promotion identify a reinforcing f02 obstruction.
+- 59:18 — Looking to what was sent ahead supports f03's later disclosure horizon.
+- 64:4 — Knowledge of what is concealed and in breasts supports f03.
+- 64:17 — Generous giving and increase provide a secondary f02 circulation result.
+- 67:13 — Knowledge of what lies in breasts strengthens the f03 interior frame.
+- 68:17 — The garden trial sets up a possession-and-exclusion f02 case.
+- 75:14 — The self's testimony against itself supports f03's inward exposure.
+- 86:9 — The testing of secrets reinforces f03's disclosure horizon.
+- 91:9 — Purification offers the positive alternative to a corrupted inner orientation.
+- 91:10 — Concealment/corruption supplies the contrary outcome for that inner orientation.
+- 104:1 — The denunciation context frames the possession-and-status pathology.
+- 107:3 — Failure to urge feeding the poor provides a compact f02 obstruction.
+- 107:7 — Withholding ordinary assistance gives a minimal but clear f02 counterpart.
+- 6:59 — A secondary reading preserves an inward hidden core before later disclosure.
+- 16:107 — Mala siddetli baglilik, odaktaki dunya sevgisinin nesnel yuzunu belirginlestirir.
+- 50:25 — Strong attachment to good supplies a secondary motive for withholding, not the act itself.
+- 53:5 — Positive f01 route supplies a binding/intensity reading of شَدِيد in a distinct attachment context.
+- 53:29 — Strong attachment to wealth supplies a narrower material-desire parallel.
+- 75:5 — Intense love of wealth gives a concrete worldly attachment that may supply one motive for continuing excess.
+- 90:4 — Human attachment to good gives a secondary behavioral-disposition parallel.
+- 92:11 — Intense love of wealth supplies a motive for misplaced reliance.
+- 93:8 — Identifies intense attachment to wealth as a competing orientation.
+- 69:50 — Formulaic assertion; no route to the focus readings.
+- 85:12 — External severity is only a mixed, nonparallel sense of the predicate.
+- 98:7 — General excellence is only provisional f02 evidence.
+- 61:13 — Desired aid is an acknowledged but secondary love; indirect f01 evidence.
+- 13:6 — External severe punishment does not clarify the focus attachment.
+- 3:104 — General call to al-khayr lacks a specific attachment or circulation link.
+- 17:11 — Hasty calling confuses harm and good; a remote f02 caution.
+- 11:102 — Severity of seizure is an external, nonparallel predicate sense.
+- 80:27 — Seed route supports f03, while its love transfer is explicitly contrast-only.
+- 4:66 — Good and firm establishment are too general to clarify the attachment.
+- 79:27 — Structural strength is a different predicate sense despite the route.
+- 27:89 — Rewarded goodness is a broad, secondary f02 association.
+- 37:11 — Creation-strength imagery does not clarify the focus attachment.
+- 20:28 — Chest-opening channel is indirect and does not establish the focus attachment.
+- 61:4 — The f03 link is explicitly contrast evidence, not positive support.
+- 76:14 — Immediate ease is only a distant channel parallel to f01.
+- 2:269 — Abundant good through wisdom is provisional and does not address attachment.
+- 8:53 — Interior change is relevant background but lacks an exact focus route.
+- 78:12 — Structural fastening is a nonpsychological predicate parallel.
+- 33:19 — Stinginess toward al-khayr is suggestive f02 evidence but unlinked.
+- 7:188 — Accumulating al-khayr is broad benefit language, not the focus attachment.
+- 3:76 — Generic divine love lacks a specific focus reading route.
+- 78:15 — Material seed disclosure is redundant f03 imagery rather than an inner route.
+- 25:10 — Better gifts are a broad, secondary f02 association.
+- 23:61 — Hastening toward goods is a remote f04 movement parallel.
+- 6:124 — Punitive severity is a nonparallel predicate sense.
+- 28:35 — Strengthening an arm is a nonpsychological predicate parallel.
+- 47:4 — Binding in conflict is a distant f01 analogy; rank is tail-audit only.
+- 18:42 — Loss of the garden records the consequence but adds little beyond the prior scene.
+- 28:81 — The final swallowing consequence is secondary after the preceding wealth analysis.
+- 2:276 — Intense love of khayr may caution attachment to possessions, but the reference is not specific.
+- 10:58 — Strong attachment to wealth names the acquisitive impulse that the focus displaces.
+- 20:31 — Intense attachment to worldly good does not explain strengthening through Harun.
+- 24:19 — Describes intense love of wealth, only a remote parallel to the focus's love of a wrongful object.
+- 56:76 — Its عظیم-associated valuation is a remote lexical parallel.
+- 62:11 — Identifies intense attachment to wealth as a competing disposition.
+- 74:14 — Intense attachment to wealth supplies a secondary disposition parallel to the following desire for increase.
+- 92:20 — Intense attachment to wealth is a secondary contrary to giving without return.
+- 108:1 — Intense attachment to wealth supplies a limited contrary disposition.

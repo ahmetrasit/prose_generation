@@ -1,0 +1,287 @@
+# Quranic reach for 100:6 (script digest, unjudged)
+
+Candidates for reading the ayah through the Quran itself. Nothing here is a finding yet: judge each one.
+
+## 1. Variant readings (qirāʾāt)
+
+(none recorded)
+
+## 2. Usage: each root of the ayah across the Quran (ref and the word as it occurs)
+
+### U-ءنس root ء ن س (focus word ٱلْإِنسَٰنَ: إِنسَٰن N) — 94 occurrences in 93 ayat; same form 69, other forms 25
+- tier 1, same form (إِنسَٰن N): 69 — common form, not listed
+- tier 2, other forms: إِنسِيّ N 1; تَسْتَأْنِسُ V form X 1; مُسْتَـْٔنِسِين N form X 1; ءَانَسَ V form IV 5; إِنس N 17
+- rare form إِنسِيّ (N):
+  - 19:26 إِنسِيًّا
+- rare form تَسْتَأْنِسُ (V form X):
+  - 24:27 تَسْتَأْنِسُ
+- rare form مُسْتَـْٔنِسِين (N form X):
+  - 33:53 مُسْتَـْٔنِسِينَ
+- rare form ءَانَسَ (V form IV):
+  - 4:6 ءَانَسْ
+  - 20:10 ءَانَسْ
+  - 27:7 ءَانَسْ
+  - 28:29 ءَانَسَ
+  - 28:29 ءَانَسْ
+- roots co-occurring across the listed ayat: ن و ر (7), ك و ن (5), ء ه ل (5), ء ل ه (4), ق و ل (4), ء ت ي (4), د خ ل (3), ب ي ت (3), ء ك ل (3), ء م ن (2), ن ب ء (2), ط ع م (2), غ ي ر (2), ء ذ ي (2)
+
+### U-كند root ك ن د (focus word لَكَنُودٌ: كَنُود N) — 1 occurrences in 1 ayat; same form 1, other forms 0
+- tier 1, same form (كَنُود N): 1
+  - 100:6 ◀ focus كَنُودٌ
+
+## 3. Related passages (reciprocal inter-ayah candidates, strongest first: the ayah and why it may bear on the focus, as an earlier review saw it — a lead to test, not a finding)
+- 100:8 — The following ayah specifies intense attachment to good as the rival attachment behind the focus.
+- 100:7 — The focus's witness clause adds self-attestation to the charge of ingratitude.
+- 82:6 — It directly confronts the human response to the generous Lord, sharpening the focus's reproach.
+- 17:27 — Satan is explicitly ungrateful to his Lord, a direct comparative instance of the focus's predicate.
+- 100:11 — The closing ayah makes the Lord's intimate knowledge the final frame for the charge in 100:6.
+- 22:66 — Life, death, and renewed life culminate in the direct judgment that the human is ungrateful.
+- 46:15 — Human dependence through birth and maturity is joined to asking the Lord for gratitude for received favor.
+- 1:2 — Praise to the Lord of all worlds supplies the central positive opposite of the focus's withheld return.
+- 43:15 — Human distortion of divine relation culminates in an explicit declaration of manifest ingratitude.
+- 79:24 — A human claim to supreme lordship marks a contrary allegiance and false ownership.
+- 89:15 — It exposes the human's mistaken reading of the Lord's provision and testing, close to ingratitude.
+- 14:34 — Innumerable gifts are followed by the direct judgment that the human is unjust and deeply ungrateful.
+- 11:9 — The human's response to withdrawn mercy is explicitly despairing and ungrateful.
+- 100:10 — The disclosure of what is in breasts supplies the hidden-inner dimension of the focus's charge.
+- 94:8 — Directing desire exclusively toward the Lord is a positive answer to diverted allegiance.
+- 17:83 — Receiving favor then turning away closely illustrates the focus's ungrateful response.
+- 42:48 — Mercy received followed by human ingratitude closely repeats the focus's pattern.
+- 106:3 — Worship of the Lord is tied to provision and security, giving the fitting return for received care.
+- 39:8 — Need drives the human to the Lord, but favor brings forgetting and rivals, directly exposing redirected allegiance.
+- 17:100 — Human miserliness even over the Lord's mercy exposes a disposition contrary to generous acknowledgment.
+- 17:67 — Rescue at sea followed by turning away explicitly identifies the human as ungrateful.
+- 31:14 — Human weakness through parental care is joined to a command of thanks and return, a close gratitude model.
+- 96:3 — The most generous Lord provides a benefaction context for the human response.
+- 2:152 — Remembering and thanking God, with explicit prohibition of ingratitude, supplies the direct positive opposite.
+- 4:147 — Gratitude and faith are made the conditions that negate punishment, directly elevating thankful response.
+- 10:22 — Rescue at sea elicits a pledge of gratitude before human transgression, closely paralleling 17:67 and 100:6.
+- 14:7 — Gratitude is explicitly answered by increase, while ingratitude incurs severe consequence.
+- 16:78 — Human faculties and hearts are given after prior ignorance so that gratitude becomes the fitting response.
+- 16:83 — Recognition of God's favor followed by its denial is an especially close formulation of ingratitude.
+- 16:112 — Security and provision withdrawn after denial of God's favors give a narrative consequence for ungratefulness.
+- 23:78 — Hearing, sight, and hearts are bestowed while human gratitude remains little, closely matching the focus's diagnosis.
+- 27:19 — A request to be enabled to thank received favor gives a direct positive response model.
+- 27:40 — Gratitude and ingratitude are set as alternative responses to a manifest favor.
+- 29:65 — Crisis-exclusive devotion followed by association after rescue shows gratitude displaced by rival allegiance.
+- 30:33 — Mercy received in distress is followed by association, a close account of redirected dependence.
+- 31:12 — Gratitude is for one's own benefit, while ingratitude cannot diminish God, clarifying the asymmetry in 100:6.
+- 32:9 — Bestowed faculties are followed by the rebuke of little gratitude, closely parallel to 23:78.
+- 34:13 — Work in gratitude and the scarcity of grateful servants give a direct communal counterpart.
+- 39:7 — God's approval of gratitude and disapproval of ingratitude directly states the evaluative contrast.
+- 40:61 — Divine provision for human living is followed by most people's failure to give thanks.
+- 56:70 — Fresh water is marked as a gift whose proper response is gratitude.
+- 67:23 — Human faculties are granted with the rebuke that gratitude remains little.
+- 76:3 — The guided human is explicitly divided between gratitude and ingratitude.
+- 80:17 — The human is directly condemned for extreme ingratitude, the closest lexical parallel omitted from the list.
+- 23:76 — Human ingratitude toward his Lord names the underlying refusal of the sustaining Lord that the focus exposes under punishment.
+- 55:30 — Directly frames ingratitude as rupture with the sustaining Lord, including misdirected attachment.
+- 55:77 — Names human ingratitude toward the Lord, directly clarifying the denial pole.
+- 79:19 — It supplies ingratitude toward one's Lord as an opposing reorientation of loyalty.
+- 83:15 — Directly presents broken loyalty to the Lord, a strong relational antecedent to exclusion.
+- 102:8 — Explicit human ingratitude toward the Lord supplies a concise adverse posture toward ni'mah.
+- 96:6 — Human transgression supplies a nearby manifestation of the focus's failure toward the Lord.
+- 10:10 — Praise to the Lord supplies a positive counterpoint to withholding acknowledgment.
+- 70:19 — A broad account of human anxiety only loosely frames the disposition named in 100:6.
+- 18:27 — The Lord's unchangeable word and exclusive refuge frame fidelity against substitute reliance.
+- 103:2 — Human loss provides a parallel negative condition, though it does not specify ingratitude.
+- 84:6 — Human striving toward the Lord gives the relationship in 100:6 its directed horizon.
+- 18:50 — Rebellion against the Lord's command and taking hostile protectors supplies a substitute-allegiance parallel.
+- 100:9 — The opening of graves advances the focus toward the later reckoning that exposes its consequences.
+- 6:128 — Mutual-benefit alliances portray a competing attachment, but the connection remains indirect.
+- 22:1 — Calling people to heed their Lord supplies an accountable relation, without naming the focus's failure.
+- 7:122 — Naming the Lord of Moses and Aaron resists rival sovereignty but adds little on ingratitude.
+- 100:2 — The oath image does not clarify the human's ingratitude toward the Lord.
+- 14:40 — Prayer for enduring worship directs personal and inherited life toward the Lord.
+- 75:5 — The human's wish to continue in wrongdoing gives a behavioral parallel to the focus's negative judgment.
+- 90:4 — Human life in hardship gives broad context but does not identify the response to the Lord.
+- 100:5 — The oath image does not clarify the human's ingratitude toward the Lord.
+- 23:12 — Human formation from extracted clay contributes a dependence background.
+- 20:49 — The question about the true Lord raises authority without developing the human response.
+- 44:6 — Mercy from the Lord gives a positive provision context, though it lacks the focus's human response.
+- 53:49 — The Lordship of a named star counters misplaced sovereignty and dependence.
+- 17:11 — Human haste and harmful invocation sketch a related flawed disposition.
+- 33:72 — The human's burden-bearing, injustice, and ignorance add a responsibility frame.
+- 96:8 — Return to the Lord counters self-sufficiency, though the focus's ingratitude is not explicit.
+- 99:6 — The dispersal to be shown deeds adds an accountability outcome for human conduct.
+- 89:14 — The Lord's watchfulness supplies an evaluative frame for the focus's charge.
+- 99:7 — The visibility of even minute good deeds supports the later reckoning context.
+- 99:8 — The visibility of even minute evil deeds supports the later reckoning context.
+- 78:36 — A measured gift and recompense from the Lord gives a positive benefaction frame.
+- 16:4 — Human origin from a drop followed by open dispute portrays dependent origin and resistance.
+- 99:5 — The Lord's command to the earth supports the authority and disclosure frame of judgment.
+- 26:48 — Naming the Lord of Moses and Aaron is a generic authority confession.
+- 96:5 — The Lord's teaching of the human supplies a concrete benefaction behind gratitude.
+- 75:36 — Rejecting purposeless abandonment challenges the self-sufficient posture opposed by the focus.
+- 51:56 — Human creation for worship makes directed service the positive counterpart to ingratitude.
+- 53:24 — Human wishing does not establish entitlement, limiting possessive self-direction.
+- 19:66 — Forgetting prior creation frames denial before the resurrection audit.
+- 56:74 — Exalting the Lord after signs of provision supplies a grateful corrective.
+- 18:54 — The human's contentiousness portrays resistance to received clarification.
+- 55:32 — Repeated denial of the Lord's favors is a direct counterpoint, though later and formulaic.
+- 19:67 — Forgetting one's prior nonexistence supplies a creation-based challenge to denial.
+- 4:28 — Human weakness reinforces dependence but does not specify the Lordward failure.
+- 26:62 — Trust in the Lord's guidance supplies a positive dependence contrast.
+- 74:3 — Magnifying the Lord supplies a corrective ordering of value and authority.
+- 43:14 — Return to the Lord limits temporary human control, but the focus's failure is not explicit.
+- 29:8 — Care for parents is qualified by refusal of rival allegiance, a secondary loyalty contrast.
+- 7:104 — The universal Lord's messenger challenges limited human authority only indirectly.
+- 89:6 — The Lord's act against Aad provides only a broad corrective-judgment backdrop.
+- 22:5 — Staged human life and resurrection supply a dependence and accountability context.
+- 6:15 — Fear of disobeying the Lord gives a positive loyalty contrast.
+- 2:172 — Thanksgiving for provided good things frames the required response to divine provision.
+- 2:243 — Divine bounty toward people is contrasted with most people's lack of thanks.
+- 3:144 — Turning back is contrasted with the grateful, adding a loyalty consequence.
+- 5:6 — Purification and completed favor are directed toward gratitude.
+- 6:63 — Deliverance in peril is met with a pledge to be among the grateful, a close crisis-response parallel.
+- 7:10 — Earthly establishment and livelihood are followed by the rebuke of little gratitude.
+- 7:17 — The adversary's aim that most humans not be grateful makes gratitude a central contested response.
+- 7:144 — Receiving divine favor is joined to being among the grateful.
+- 10:60 — God's bounty toward people is followed by the diagnosis that most do not give thanks.
+- 12:38 — Divine favor toward people is contrasted with most people's lack of gratitude.
+- 14:5 — Days of God are signs for the patient and grateful, placing gratitude within remembered divine action.
+- 16:14 — Provision drawn from the sea is directed toward gratitude.
+- 16:114 — Lawful provision is explicitly joined to thanking God's favor.
+- 17:3 — Noah is identified as a grateful servant, supplying an embodied positive contrast.
+- 27:73 — Divine bounty toward humanity is again paired with most people's failure to give thanks.
+- 28:73 — Night and day are framed as mercy, livelihood, and an occasion for gratitude.
+- 30:34 — Denial of what was bestowed states the ingratitude side of the preceding mercy pattern.
+- 30:46 — Signs and bounty are directed toward gratitude, a general positive provision frame.
+- 35:3 — Remembering God's favor challenges false providers and supports the provision backdrop.
+- 36:35 — Fruit and human work are presented with an explicit challenge to give thanks.
+- 36:73 — Benefits and drink from livestock are followed by the question of gratitude.
+- 43:13 — Remembering the blessing of conveyance and praising its giver supplies the positive lead-in to 43:14.
+- 45:12 — Subjugated sea and sought bounty are directed toward gratitude.
+- 67:15 — Earthly livelihood is received under God's provision and ordered toward final return.
+- 2:131 — Ungrateful attachment to other goods supplies a contrary allegiance to the Lord.
+- 3:51 — Rabbe karşı nankörlük, kulluk ilişkisinin ters yüzünü gösterir.
+- 3:79 — Human ingratitude toward its Lord contrasts with being formed as servants of that Lord.
+- 6:102 — Ingratitude is framed as rupture of the lordly dependence; contrast stays boundary-only.
+- 9:31 — Its positive and contrast readings frame misdirected attachment to one's Rabb.
+- 15:36 — Frames ingratitude as breach of dependence on the Rabb, resonant with rebellion.
+- 15:92 — Ingratitude toward the Lord supplies a secondary basis for scrutiny.
+- 15:99 — Contrasts worship's proper Lord-directed allegiance with ingratitude and misdirected attachment.
+- 16:53 — Identifies the human being as deeply ungrateful to his Lord.
+- 23:59 — Human ingratitude toward his Lord supplies an inverse moral relation to the focus's faithful devotion.
+- 23:116 — Ingratitude shows the practical breach of due relation to the Lord.
+- 25:77 — It characterizes the human as ungrateful to his Lord, illuminating denial as a rupture in an owed relation.
+- 26:98 — İnsanın Rabbine nankörlüğü, Rabbe ait bağlılığı başka yöne çeviren sapmanın ahlaki yönünü gösterir.
+- 30:51 — The emphatic statement of human ingratitude supplies a concise thematic anchor for the focus conclusion.
+- 36:25 — Human ingratitude toward the Lord contrasts with the speaker's grateful, trusting acknowledgment of Him.
+- 37:126 — Human ingratitude to their Lord sharpens the obligation entailed by acknowledging God as Lord.
+- 40:27 — Human ingratitude toward his Lord provides a moral counterpart to the focus's arrogant rejection, though it lacks threat and the Day of Account.
+- 53:39 — Names human ingratitude toward the Lord, a broad contrary agency frame.
+- 53:42 — Frames the Rabb as the proper relation and authority against displaced attachment.
+- 55:27 — The strong readings retain a relational-orientation contrast with رب, but no direct وجه or بقاء wording.
+- 55:28 — f01 directly frames failure of response to Rabb's care, though it is not the refrain itself.
+- 55:34 — Parallel readings retain both redirected dependence and self-sufficiency as possible denial-related evidence.
+- 55:40 — Directly names ingratitude toward sustaining lordship; parallel benefit relation.
+- 55:46 — Contrasts grateful dependence on the Lord with self-enclosed attachment, sharpening the relational dimension.
+- 55:47 — Ingratitude toward the Lord directly supplies the contrary response to acknowledgment, though its care imagery is auxiliary.
+- 55:65 — It names ingratitude toward the sustaining Lord, closely paralleling the recognition-demanding side of 55:65.
+- 55:78 — Ungratefulness preserves contrary f01/f03 boundaries around dependence and response.
+- 56:76 — The sequence's emphatic claim shows how cumulative oath witnesses support an assertion.
+- 56:96 — Rabb-directed relation has positive f01 routes relevant to correct orientation.
+- 66:5 — Contrasts the Lord's sustaining relation with redirected attachment, supporting the focus's relational orientation.
+- 69:10 — Ingratitude toward the Lord supplies a broad moral analogue to the focus's defiance.
+- 75:12 — Ingratitude toward one's Lord adds a relational failure relevant to accountability, not location.
+- 75:23 — Ungratefulness toward one's Lord gives a contrary relational posture to faces directed to their Lord.
+- 75:30 — Frames human ingratitude and redirected allegiance against the Lord, a causal contrast to final dependence.
+- 79:44 — Human ingratitude toward the Lord adds a relational response to divine lordship, not an endpoint formula.
+- 81:29 — Human stance toward the Lord supplies a responsive relation.
+- 83:6 — الإنسان لربه كنود يضيف علاقةَ مساءلةٍ مع الرب.
+- 84:5 — Human ingratitude toward the Lord supplies a contrary relational counterpart to compliance.
+- 85:12 — Human ingratitude toward the Lord adds a moral breach relevant to accountable severity.
+- 87:1 — Ingratitude toward one's Lord supplies a contrary relational reading of sustaining lordship.
+- 89:22 — Human ingratitude toward the Lord sharpens the authority at issue.
+- 95:4 — Human ingratitude supplies a negative behavioral response to received dependence and care.
+- 96:1 — Positive F01/F03/F04 routes frame a contrary human response to Rabb; contrast routes retain the boundary.
+- 108:2 — Kanud toward the Lord is a contrary posture to the focus's Lord-directed response.
+- 110:3 — Human ingratitude toward the Lord supplies a counterpoint to praise and right attribution.
+- 113:1 — Ingratitude to the Lord supplies a contrast to trusting dependence.
+- 28:56 — Guidance lies beyond human affection, a remote limit on self-directed relation.
+- 41:17 — Preferring blindness over guidance is a related but less specific refusal.
+- 32:7 — Human origin from clay gives only a distant dependence context.
+- 43:67 — Friendship turning to enmity is only a secondary relational contrast.
+- 37:11 — Creation from adhesive clay is a remote origin parallel.
+- 83:22 — The statement about the righteous in bliss adds no focused link.
+- 100:3 — The oath image does not clarify the human's ingratitude toward the Lord.
+- 55:3 — Human creation alone gives only a general dependence context.
+- 99:3 — Human astonishment before the earth is a distant accountability parallel.
+- 36:27 — Forgiveness and honor from the Lord are a secondary positive relation.
+- 44:12 — Appeal to the Lord in distress is relevant but does not address grateful return.
+- 46:18 — Human and jinn loss under one judgment is a broad parallel only.
+- 46:13 — Confessing the Lord and steadfastness is a broad positive contrast.
+- 25:64 — Night devotion to the Lord is a generic positive relation.
+- 37:5 — Cosmic Lordship is too general to explain the human's ingratitude.
+- 7:125 — Return to the Lord supplies a generic final-direction frame.
+- 15:26 — Material formation of the human is a redundant origin context.
+- 38:66 — Cosmic Lordship is too general to explain the human's ingratitude.
+- 21:37 — Human haste is a loose disposition parallel.
+- 72:3 — Divine transcendence is too general to illuminate the focus's relation.
+- 42:15 — Shared Lordship and final return are generic relation markers.
+- 56:80 — Revelation from the Lord is too general to explain the human's ingratitude.
+- 3:145 — Reward for the grateful is a secondary outcome of the response at issue.
+- 21:80 — Instruction in a protective craft is followed by a question of gratitude, a narrow benefaction example.
+- 2:37 — يصف كنود الإنسان لربه، يقابل شكر الرجوع دون بيان التوبة.
+- 2:139 — Human ingratitude to the Lord is only a broad contrast to sincerity.
+- 3:193 — Ingratitude toward the Lord is a broad negative contrast to the focus's believing gratitude.
+- 6:162 — Human ingratitude toward the Lord is a broad contrast, but adds no focused ritual or life-death relation.
+- 7:61 — Lord-directed allegiance is relevant, but lacks the mission and accusation structure.
+- 7:67 — V12 develops a رب relation but lacks a messenger or contested-address structure.
+- 7:121 — General ingratitude toward one's Lord, not this conversion.
+- 9:129 — Its positive and contrast routes retain an ingratitude boundary, not a close focus parallel.
+- 10:53 — Its relationship theme is indirect; the contrast reading supplies no positive support.
+- 18:38 — Human ingratitude toward his Lord is a broad moral backdrop, not a close association parallel.
+- 18:40 — Rabbe karşı nankörlük, bahçe sahibinin nimete karşı tutumuna genel bir ahlaki karşı sahne verir.
+- 18:81 — Human ingratitude toward the Lord is broad background but does not explain replacement, purity, or mercy here.
+- 18:82 — Human ingratitude toward the Lord is only a broad contrast to the righteous father's legacy and divine mercy.
+- 18:87 — Human ingratitude toward the Lord is a broad moral precursor, without the stated judgment.
+- 18:109 — Human ingratitude toward the Lord is only a broad thematic relation.
+- 19:36 — Human ingratitude to its Lord is a broad contrast to worshipful allegiance.
+- 23:52 — Human ingratitude toward its Lord negatively frames failure to respond to lordship, without communal unity.
+- 23:57 — Human ingratitude toward the Lord offers a broad contrast to the reverent believers.
+- 23:86 — Human ingratitude toward the Lord gives a general response failure, not the focus's cosmic rule.
+- 23:97 — Human ingratitude toward the Lord gives a broad moral backdrop, without the focus's protective act.
+- 23:98 — Human ingratitude toward the Lord gives a broad moral setting but adds no account of the requested protection.
+- 26:23 — Human ingratitude toward his Lord gives a general response to divine beneficence.
+- 26:109 — Human ingratitude toward the Lord gives a distant contrast to the focus's Godward dependence.
+- 26:117 — Human ingratitude toward its Lord is a broad form of rejection, not the communal denial of a messenger.
+- 26:127 — İnsanın Rabbine nankörlüğü, ücret talebinin reddedildiği elçilik ilişkisine yalnız uzak bir Rablik bağı taşır.
+- 26:145 — Rabbe karşı nankörlük ve mala bağlanma, elçinin mal talep etmeyen yönelişine dolaylı karşıtlık verir.
+- 26:164 — Rabbe karşı nankörlük ve mala bağlanma, elçinin mal talep etmeyen yönelişine dolaylı karşıtlık verir.
+- 26:180 — İnsanın Rabbine nankörlüğü, karşılığın Rabbe nispetine yalnız dolaylı bir arka plan sağlar.
+- 26:188 — Human ingratitude toward the Lord is a broad moral contrast, not an account of the focus reply.
+- 27:26 — Human ingratitude toward its Lord offers only a general consequence of denying rightful dependence.
+- 37:180 — Human ingratitude toward its Lord offers only a broad contrast to honoring the Lord of might.
+- 38:79 — Human ingratitude toward his Lord has no specific link to Iblis's requested period.
+- 39:31 — Human ingratitude toward the Lord supplies a possible subject of accountability but not the judgment scene itself.
+- 43:46 — Human ingratitude toward the Lord is a broad moral parallel, not a focused link to Musa and Firawn.
+- 43:82 — Uses Lordship in an accusation of human ingratitude, without the focus's cosmic or descriptive claim.
+- 44:7 — Human ingratitude toward the Lord gives a broad relational consequence, not the focus's cosmic scope.
+- 44:8 — Human ingratitude to his Lord does not explain the focus's claims.
+- 44:22 — Human ingratitude toward the Lord broadly frames culpable refusal without the focus's communal setting.
+- 45:36 — يقابل كنود الإنسان لربه الحمد؛ وقراءة التعارض تحدد المقابلة فقط.
+- 51:30 — Its readings of lordly nurture are general and do not sharpen the particular response.
+- 51:34 — Adds a broad authority relation but no specific marking or target link.
+- 51:44 — A general negative relation to Rabb, without the event sequence.
+- 52:37 — Rabb-directed obligation is a remote authority parallel.
+- 55:17 — Develops dependence on the Lord, but not directional or temporal governance.
+- 55:33 — Human ingratitude does not clarify jinn, boundary, or sultan.
+- 55:39 — Human ingratitude is too general to explain the focal suspension.
+- 55:74 — Generic human reference supplies no relation to jinn or prior contact.
+- 59:16 — Only broadly concerns betrayal of sustaining relation.
+- 68:2 — Ingratitude toward the Rabb supplies a broad contrast to favor, but is indirect.
+- 68:19 — Ingratitude may contextualize later blame, but not the focus event itself.
+- 69:43 — Adds a human response to lordship, not a source or transmission claim.
+- 72:25 — The relation to the Lord is too general to add to the timing question.
+- 74:7 — Lord-directed ingratitude is a contrary relational posture, not patience support.
+- 74:16 — Describes a human trait toward the Lord, but not ayat-directed resistance.
+- 75:14 — Human ingratitude is a broad moral characterization, not a mechanism of inner testimony.
+- 76:10 — Describes rupture or redirected attachment toward the Rabb, only indirectly relevant to fear's Rabb-relation.
+- 78:37 — Human ingratitude toward his Lord is a broad dependence theme, not a speech-access parallel.
+- 84:2 — Shares ر ب ب; repeated f03 links remain mixed or provisional.
+- 88:3 — Human ingratitude supplies a remote moral background, not a labor reading.
+- 91:14 — Ingratitude toward the Lord is a broad, indirect relationship parallel.
+- 96:2 — Human-condition statement with only provisional f02 links.
+- 105:1 — f03 positive/mixed Lord relation is broad and redundant.

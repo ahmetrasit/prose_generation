@@ -6,15 +6,19 @@ Reused from V9/V11 (built by `_commentary/v11/run.py` prep, digest v2):
   01_dictionary.md  every attested branch of every root of the ayah (V9 input package)
   digest_v2.md      qirāʾāt, each root's occurrences, related passages with the earlier review's reason
 New in V12:
-  hft.md            the existing image-chain hypotheses (HFT, `bundles/sNNN/S_A.ayah.json`): records whose focus is
-                    this ayah in full, and records of other ayat whose trace passes through it; every trace step is
+  hft.md            the existing image-chain hypotheses (HFT, latent_activation/focus_trace/runs/sN/readers/
+                    reader_hft_a/S_A.focus_trace.json, 90 surahs): records whose focus is this ayah in full, and records of other ayat whose trace passes through it; every trace step is
                     resolved to its word and dictionary branch (gloss, image, first classical phrase, quotable) and
                     flagged when the branch does not exist or the root is an echo / alternative / not the word's
   channels.md       the surah's channel review (quran-data network-v3/sNNN/review/reader_a_pilot.md): an index of
                     every channel, and in full the sub-channels anchored in this ayah (motif ids as `root Bnnn`)
   neighbours.md     one line per branch of every other root in the surah (short surahs) or in the ayah's passage
                     (pericope ± 7 ayat), so a picture this ayah starts can be completed with another ayah's word
-  usage.md          root dossiers for the ayah's roots (`_projects/root-dossier/deliver.py`), when they exist
+  usage.md          root dossiers for the ayah's roots (`_projects/root-dossier/deliver.py`), when they exist: each
+                    root's occurrences grouped by stated context, this ayah's group marked, the plain-reading branch
+  digest_v2.md      (v12 copy, only when usage.md exists) V11's digest with the usage block of every root that usage.md
+                    covers replaced by a pointer (the dossier lists every occurrence; the digest skipped common forms);
+                    run.py uses V11's own digest when usage.md is switched off
   inputs.tsv        bytes per input file
 
 Usage: python3 _commentary/v12/inputs.py 1:7 [--window-only]
@@ -24,6 +28,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import subprocess
 import sys
@@ -37,10 +42,11 @@ V11 = REPO / "_commentary" / "v11"
 sys.path.insert(0, str(V9))
 import prepare as P  # noqa: E402
 
-BUNDLES = REPO / "bundles"
+HFT_RUNS = REPO.parent / "latent_activation" / "focus_trace" / "runs"  # 90 surahs; bundles/ holds only 64 of them
 REVIEWS = P.QD / "analysis" / "channels" / "network-v3"
 PERICOPES = REVIEWS / "pericopes" / "surah_pericopes.jsonl"
 DOSSIER = REPO.parent / "root-dossier"  # standalone repo (_projects/root-dossier)
+DOSSIER_OUT = Path(os.environ.get("DOSSIER_OUT") or DOSSIER / "out")  # e.g. …/root-dossier/out-wa for the --wa arm
 SHORT = 40     # surahs up to this many ayat are one window (as V11 seeds_input.py)
 OVERLAP = 7    # ayat added on each side of the ayah's pericope
 SPAN = 7       # long surahs: neighbours.md covers the focus ayah ± SPAN ayat (the surah pass gets the whole window)
@@ -98,10 +104,27 @@ def first_phrase(s: str) -> str:
     return re.split(r"[؛;]", s or "", maxsplit=1)[0].strip()
 
 
+def _bare(s: str) -> str:
+    s = re.sub(r"[\u0610-\u061a\u064b-\u065f\u0670\u06d6-\u06ed\u0640]", "", s or "")
+    return s.translate(str.maketrans({"أ": "ا", "إ": "ا", "آ": "ا", "ٱ": "ا", "ى": "ي", "ة": "ه"})).strip()
+
+
+def phrase_indices(words: dict[str, dict], phrase: str) -> list[str]:
+    """Protocol v3 (S100) names the word by its Arabic (`source_phrase_ar`), not by index: the words whose bare form
+    contains the phrase's words, in order (the first run that matches)."""
+    want = [_bare(x) for x in (phrase or "").split() if _bare(x)]
+    ks = sorted(words, key=int)
+    for i in range(len(ks)):
+        run = ks[i:i + len(want)]
+        if len(run) == len(want) and all(w and w in _bare(words[k]["surface"]) for w, k in zip(want, run)):
+            return run
+    return []
+
+
 def resolve_step(step: dict) -> dict:
     ref = step.get("source_ref", "")
-    idxs = [str(i) for i in step.get("source_word_indices") or []]
     words = _words(ref) if re.match(r"^\d+:\d+$", ref or "") else {}
+    idxs = [str(i) for i in step.get("source_word_indices") or []] or phrase_indices(words, step.get("source_phrase_ar", ""))
     surface = " ".join(words[i]["surface"] for i in idxs if i in words) or "?"
     rid, bid = step.get("mapped_root_id", ""), step.get("branch_id", "")
     b = src().branch(f"quranic:{rid}:{bid}") if rid and bid else {}
@@ -126,16 +149,52 @@ def resolve_step(step: dict) -> dict:
             flags.append("root not mapped to this word by the current gateway")
     g = b.get("concept_gloss") if b else ""
     g = (g.get("text") if isinstance(g, dict) else g) or ""
-    return {"ref": ref, "w": ",".join(idxs), "surface": surface, "root": name, "bid": bid, "gloss": g,
+    return {"ref": ref, "w": ",".join(idxs), "surface": surface, "root": name, "rid": rid, "bid": bid, "gloss": g,
             "image": (b or {}).get("branch_image_ar", ""), "phrase": first_phrase((b or {}).get("source_phrase_ar", "")),
-            "role": step.get("role", ""), "flags": flags}
+            "role": step.get("role") or step.get("assigned_role") or step.get("literal_contribution") or "",
+            "flags": flags}
+
+
+@lru_cache(maxsize=None)
+def dossier_map() -> dict[str, dict]:
+    """QAC word id → its canonical-map row (root-dossier out/activation_map.tsv: the plain reading's branch, group)."""
+    f = DOSSIER_OUT / "activation_map.tsv"
+    if not f.exists():
+        return {}
+    lines = f.read_text(encoding="utf-8").splitlines()
+    cols = lines[0].split("\t")
+    rows = (dict(zip(cols, l.split("\t"))) for l in lines[1:] if l)
+    return {r["qac_word_ref"]: r for r in rows if r.get("role") == "dominant"}
+
+
+@lru_cache(maxsize=None)
+def group_labels(root: str) -> dict[str, str]:
+    f = DOSSIER_OUT / "final" / f"{re.sub(r'[^ء-ي]', '', root)}.json"
+    if not f.exists():
+        return {}
+    return {g["id"]: g.get("label", "") for g in json.loads(f.read_text(encoding="utf-8")).get("groups") or []}
+
+
+def plain_note(st: dict) -> str:
+    """For a trace step whose word has a root dossier: the branch its plain reading realises and its usage group, so
+    a trace that uses another branch is visibly a latent reading."""
+    rid = st.get("rid", "")
+    for w in st["w"].split(","):
+        row = dossier_map().get(f"{st['ref']}:{w}")
+        if not row or not row.get("branch_ref", "").startswith(rid + "/"):
+            continue
+        b = row["branch_ref"].split("/")[-1]
+        lab = group_labels(row["root"]).get(row.get("group", ""), "")
+        return (f" [plain here: {'the same branch' if b == st['bid'] else b}"
+                + (f"; usage group: {P.clip(lab, 80)}" if lab else "") + "]")
+    return ""
 
 
 def step_line(st: dict) -> str:
     """The branch's Arabic image and phrases are in 01_dictionary.md / neighbours.md, so only the gloss is repeated."""
     fl = f" [{'; '.join(st['flags'])}]" if st["flags"] else ""
     return (f"{st['ref']} w{st['w']} {st['surface']} → {st['root']} {st['bid']} ({st['gloss'] or '—'})"
-            f" — {P.clip(st['role'], 170)}{fl}")
+            f" — {P.clip(st['role'], 170)}{fl}{plain_note(st)}")
 
 
 def hft_records(refs: list[str]) -> list[dict]:
@@ -143,14 +202,13 @@ def hft_records(refs: list[str]) -> list[dict]:
     out = []
     for ref in refs:
         s, a = ref.split(":")
-        f = BUNDLES / f"s{int(s):03d}" / f"{s}_{a}.ayah.json"
-        if not f.exists():
+        d = HFT_RUNS / f"s{int(s)}" / "readers"
+        # the exact name: sNNN/readers also holds model-comparison runs (100_1.5.5-high.focus_trace.json …)
+        files = {x.name: x / f"{s}_{a}.focus_trace.json" for x in sorted(d.glob("*")) if x.is_dir()} if d.is_dir() else {}
+        files = {k: v for k, v in files.items() if v.exists()}
+        if not files:
             continue
-        readers = (json.loads(f.read_text(encoding="utf-8")).get("v12_focus_trace_hermetic") or {}).get("readers") or {}
-        if not readers:
-            continue
-        name = PRIMARY_READER if PRIMARY_READER in readers else sorted(readers)[0]
-        r = readers[name]
+        r = json.loads(files[PRIMARY_READER if PRIMARY_READER in files else sorted(files)[0]].read_text(encoding="utf-8"))
         for kind in ("baseline_models", "context_deltas", "surprising_valid_outliers"):
             for rec in r.get(kind) or []:
                 cr = rec.get("changed_reading") or {}
@@ -368,13 +426,34 @@ def deliver(args: list[str], target: Path) -> bool:
     script = DOSSIER / "deliver.py"
     if not script.exists():
         return False
-    r = subprocess.run([sys.executable, str(script), *args, "--out", str(target)], capture_output=True, text=True,
-                       cwd=REPO)
+    r = subprocess.run([sys.executable, str(script), *args, "--final", str(DOSSIER_OUT / "final"), "--out", str(target)],
+                       capture_output=True, text=True, cwd=REPO)
     if r.returncode:
         err.write_text(f"deliver.py {' '.join(args)} failed (exit {r.returncode}):\n{r.stderr[-2000:]}\n", encoding="utf-8")
+        target.unlink(missing_ok=True)  # never a stale usage.md from an earlier run
         return False
     err.unlink(missing_ok=True)
     return True
+
+
+def digest_with_pointers(digest: Path, usage: Path, target: Path) -> None:
+    """V11's digest with the usage block (### U-…) of every root that usage.md covers replaced by one line."""
+    if not usage.exists() or not digest.exists():
+        target.unlink(missing_ok=True)
+        return
+    covered = set(re.findall(r"(?m)^### ([ء-ي](?: [ء-ي]){1,4}) — ", usage.read_text(encoding="utf-8")))
+    out, skip = [], False
+    for line in digest.read_text(encoding="utf-8").splitlines():
+        m = re.match(r"^### U-\S+ root ([ء-ي](?: [ء-ي]){1,4}) ", line)
+        if m:
+            skip = m.group(1) in covered
+            out.append(line + ("\n- every occurrence, grouped by context: see usage.md" if skip else ""))
+            continue
+        if line.startswith("#"):
+            skip = False
+        if not skip:
+            out.append(line)
+    target.write_text("\n".join(out) + "\n", encoding="utf-8")
 
 
 def build(ref: str) -> dict[str, int]:
@@ -400,12 +479,15 @@ def build(ref: str) -> dict[str, int]:
             f.unlink()
     deliver(["ayah", ref], out / "usage.md")
     v9w = V9 / "lines" / "work" / f"{s}_{ref.split(':')[1]}"
+    digest_with_pointers(v9w / "digest_v2.md", out / "usage.md", out / "digest_v2.md")
     pkg = V9 / "input" / "v2" / f"s{s:03d}" / f"{s}_{ref.split(':')[1]}"
     sizes = {}
     for f in [v9w / "context.md", pkg / "01_dictionary.md", v9w / "digest_v2.md",
               *(out / n for n in ("usage.md", "hft.md", "channels.md", "neighbours.md"))]:
         if f.exists():
             sizes[f.name] = f.stat().st_size
+    if (out / "digest_v2.md").exists():
+        sizes["digest_v2.md (with usage.md)"] = (out / "digest_v2.md").stat().st_size
     (out / "inputs.tsv").write_text("".join(f"{k}\t{v}\n" for k, v in sizes.items()), encoding="utf-8")
     return sizes
 

@@ -140,7 +140,7 @@ script flag in brackets when something is wrong (1 flagged steps here).
   - with: 29:39 فَٱسْتَكْبَرُوا۟ ك ب ر B006
 - **o_manufactured_authority** (focus 29:42, medium) — after: It may also expose the manufacture of authority-status through fabricated claims and repeated practice, all of which remains known to God.
   - here: 29:45 w21 تَصْنَعُونَ → ص ن ع B001 (yapıp ortaya çıkarma) — Making through action supplies the practical production layer known by God.
-  - with: 29:42 يَدْعُونَ د ع و B002; 29:42 شَىْءٍ ش ي ء B001 [!]; 29:17 وَتَخْلُقُونَ خ ل ق B007; 29:17 إِفْكًا ء ف ك B002
+  - with: 29:42 يَدْعُونَ د ع و B002; 29:42 شَىْءٍ ش ي ء B001; 29:17 وَتَخْلُقُونَ خ ل ق B007; 29:17 إِفْكًا ء ف ك B002
 - **delta_embodied_restraint** (focus 29:43, medium) — after: The knowers bear signs until those signs issue as restraint and practice; comprehension is embodied retention, not explanatory fluency alone.
   - here: 29:45 w11 تَنْهَىٰ → ن ه ي B003 (kötü davranışı önleyen akıl ve sağduyu) — Reason that restrains from ugliness supplies an explicit behavioral analogue to aql.
   - with: 29:43 ٱلْأَمْثَٰلُ م ث ل B011; 29:43 يَعْقِلُهَآ ع ق ل B001; 29:43 ٱلْعَٰلِمُونَ ع ل م B001; 29:49 ءَايَٰتٌۢ بِـَٔايَٰتِنَآ ء ي ي B003; 29:49 صُدُورِ ص د ر B004; 29:49 ٱلْعِلْمَ ع ل م B001

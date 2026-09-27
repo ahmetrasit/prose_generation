@@ -115,6 +115,19 @@ Cite a branch as `root Bnnn`, e.g. `ر ب ب B007`; its Arabic may be quoted wit
 - B006 kalın kenar ve ek yeri | غلظ الحافة ووصل الشقتين | بصر الشيء غلظه والبصر هو أن يضم أديم إلى أديم يخاطان والبصيرة ما بين شقتي البيت (maqayis)
 - B007 yumuşak parlak taş | حجارة بصرة رخوة | البصرة الحجارة الرخوة وبصر بكسر الباء من الأصل الثاني (maqayis)
 
+### ج ي ء — 29:39 w5 جَآءَهُم
+- B001 gelmek veya ulaşmak | المجيء والحصول | جاء يجيء مجيئا (maqayis
+- B002 gelip gitmede üstün gelmek | المغالبة بكثرة المجيء | جاءاني فجئته أي غالبني بكثرة المجيء فغلبته (maqayis)
+- B003 suyun biriktiği çukur veya yer | مجتمع الماء في هبطة أو حول حصن | الجئة مجتمع الماء حوالي الحصن وغيره ويقال هي جيئة (maqayis)
+- B004 bir şeyi getirmek veya hazır bulundurmak | الإتيان بالشيء واستحضاره | أجأته، أي جئت به (sihah)
+- B005 birini bir şeye zorlamak | الإلجاء والاضطرار | أجأته إلى كذا بمعنى ألجأته واضطررته إليه (sihah)
+- B006 çıban veya yarada birikmiş irin | الجائية من الجراح | الجائية ما اجتمع في الخراج من المدة والقيح، يقال: جاءت جائية الجراح (tahdhib)
+
+### ج ي ء — 29:39 w5 جَآءَهُم
+- B001 gelmek veya ulaşmak | المجيء والغلبة بالمجيء | جاء يجيء مجيئا (maqayis)
+- B002 suyun biriktiği yer veya çukur | الجِيأة مجتمع الماء | الجئة مجتمع الماء حوالي الحصن وغيره (maqayis)
+- B003 çıban veya yarada birikmiş irin | جائية الجراح | الجائية ما اجتمع في الخراج من المدة والقيح (tahdhib)
+
 ### ء ر ض — 29:39 w10 ٱلْأَرْضِ; 29:40 w17 ٱلْأَرْضَ; 29:44 w4 وَٱلْأَرْضَ; 29:52 w11 وَٱلْأَرْضِ
 - B001 yer ve yere bakan alt bölüm | السفل المقابل للسماء | كل شيء يسفل ويقابل السماء (maqayis)
 - B002 yumuşak ve verimli toprak | الأرض اللينة المنبتة | أرض أريضة لينة طيبة (maqayis
@@ -329,6 +342,26 @@ Cite a branch as `root Bnnn`, e.g. `ر ب ب B007`; its Arabic may be quoted wit
 - B006 dönemin olaylara yön veren değişimleri | دواعي الدهر | دواعي الدهر صروفه كأنها تميل الحوادث
 - B007 gizli cevabı buldurmaya yönelik bilmeceleşme | الأُدْعِيّة المعماة | لبنى فلان أدعية يتداعون بها وهي مثل الأغلوطة كأنه يدعو المسؤول إلى إخراج ما يعميه عليه
 - B008 evde hiç kimsenin bulunmaması | خلو الدار من داع | ما بالدار دَعْوِيّ أي ما بها أحد كأنه ليس بها صائح يدعو بصياحه
+
+### ش ي ء — 29:42 w9 شَىْءٍ
+- B001 varlık, olgu ya da konu | الشيء المعلوم المخبر عنه | الشيء واحد الأشياء (ayn)
+- B002 isteme ve gerçekleşmesini dileme | المشيئة المتعلّقة بالشيء | المشيئة مصدر شاء يشاء (ayn)
+- B003 bir işe ya da hedefe sevk etmek | حمل الشيء إلى الأمر | شيأت الرجل على الامر حملته عليه
+- B004 yaradılışı bozuk ve çirkin | تشويه الخلق وقبحه | شيأ الله وجهه إذا دعا عليه بالقبح (maqayis)
+- B005 özlem duymak; beğenip sevinmek | انجذاب النفس إلى الشيء | شاءني الشيء مثل شاعني إذا شاقني (jamhara)
+- B006 dikkat vererek dinlemek | إصغاء السمع | اشتأيت أي استمعت
+- B007 uzağı görebilen at | بعد النظر في الفرس | الشيئان بوزن الشيعان البعيد النظر وينعت به الفرس
+- B008 genç hurma fidanları | صغار النخل | الإشاء الصغار من النخل واحدها أشاءة
+- B009 yakınma ve şaşma ünlemi | نداء التلهف والتعجب | ياشيء مالي معناه الأسف والتلهف والحزن
+
+### ش ي ء — 29:42 w9 شَىْءٍ
+- B001 isteme ve dileme | المشيئة | للشيئة مصدر شاء يشاء مشيئة (tahdhib)
+- B002 yüzü veya yaradılışı bozuk ve çirkin | تشويه الخلق والوجه | شَيَّأ الله وجهه إذا دعا عليه بالقبح
+- B003 uzağı görebilen at | بعد النظر | الشيئان بوزن الشيعان: البعيد النظر، وينعت به الفرس (tahdhib)
+- B004 beğenip sevinmek | الإعجاب والسرور | شؤت به: أعجبت به وسررت (tahdhib)
+- B005 dikkat vererek dinlemek | الاستماع | اشتأيت أي استمعت (tahdhib)
+- B006 genç hurma fidanları | صغار النخل | الإشاء الصغار من النخل، واحدها أشاءة (tahdhib)
+- B007 yakınma ve şaşma ünlemleri | التلهف والتعجب | يافيء مالي، وياشيء مالي، وياهيء مالي، معناه كله الأسف والتلهف والحزن
 
 ### ع ز ز — 29:42 w11 ٱلْعَزِيزُ
 - B001 güçlü, yenilmez ve saygın olma | العزة والقوة بعد الذل | العين والزاء أصل صحيح واحد يدل على شدة وقوة (maqayis)

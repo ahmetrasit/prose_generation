@@ -1,0 +1,191 @@
+# Quranic reach for 100:5 (script digest, unjudged)
+
+Candidates for reading the ayah through the Quran itself. Nothing here is a finding yet: judge each one.
+
+## 1. Variant readings (qirāʾāt)
+
+(none recorded)
+
+## 2. Usage: each root of the ayah across the Quran (ref and the word as it occurs)
+
+### U-وسط root و س ط (focus word فَوَسَطْنَ: وَسَطْ V) — 5 occurrences in 5 ayat; same form 1, other forms 4
+- tier 1, same form (وَسَطْ V): 1
+  - 100:5 ◀ focus وَسَطْ
+- tier 2, other forms: وَسَط ADJ 1; وُسْطَىٰ ADJ 1; أَوْسَط N 2
+- rare form وَسَط (ADJ):
+  - 2:143 وَسَطًا
+- rare form وُسْطَىٰ (ADJ):
+  - 2:238 وُسْطَىٰ
+- rare form أَوْسَط (N):
+  - 5:89 أَوْسَطِ
+  - 68:28 أَوْسَطُ
+- roots co-occurring across the listed ayat: ء ل ه (6), ك و ن (5), ي م ن (4), ج ع ل (2), ش ه د (2), ن و س (2), ر س ل (2), ق و ل (2), ء خ ذ (2), ك ف ر (2), ط ع م (2), ح ف ظ (2), ص ل و (2)
+
+### U-جمع root ج م ع (focus word جَمْعًا: جَمْع N) — 126 occurrences in 123 ayat; same form 13, other forms 113
+- tier 1, same form (جَمْع N): 13
+  - 3:155 جَمْعَانِ
+  - 3:166 جَمْعَانِ
+  - 7:48 جَمْعُ
+  - 8:41 جَمْعَانِ
+  - 18:99 جَمْعًا
+  - 26:61 جَمْعَانِ
+  - 28:78 جَمْعًا
+  - 42:7 جَمْعِ
+  - 42:29 جَمْعِ
+  - 54:45 جَمْعُ
+  - 64:9 جَمْعِ
+  - 75:17 جَمْعَ
+  - 100:5 ◀ focus جَمْعًا
+- tier 2, other forms: مُّجْتَمِعُون N form VIII 1; جُمُعَة PN 1; مَّجْمُوع N 2; ٱجْتَمَعُ V form VIII 2; مَجْمَع N 2; جَامِع N 3; أَجْمَعُ V form IV 4; جَمَعَ V 22; أَجْمَعِين N 26; جَمِيع N 50
+- rare form مُّجْتَمِعُون (N form VIII):
+  - 26:39 مُّجْتَمِعُونَ
+- rare form جُمُعَة (PN):
+  - 62:9 جُمُعَةِ
+- rare form مَّجْمُوع (N):
+  - 11:103 مَّجْمُوعٌ
+  - 56:50 مَجْمُوعُونَ
+- rare form ٱجْتَمَعُ (V form VIII):
+  - 17:88 ٱجْتَمَعَتِ
+  - 22:73 ٱجْتَمَعُ
+- rare form مَجْمَع (N):
+  - 18:60 مَجْمَعَ
+  - 18:61 مَجْمَعَ
+- rare form جَامِع (N):
+  - 3:9 جَامِعُ
+  - 4:140 جَامِعُ
+  - 24:62 جَامِعٍ
+- rare form أَجْمَعُ (V form IV):
+  - 10:71 أَجْمِعُ
+  - 12:15 أَجْمَعُ
+  - 12:102 أَجْمَعُ
+  - 20:64 أَجْمِعُ
+- roots co-occurring across the listed ayat: ء ل ه (19), ي و م (14), ك و ن (8), ء م ن (7), ق و ل (7), ع ل م (6), ب ع ض (6), ء ذ ن (5), ش ي ء (5), ء م ر (5), ن و س (4), م ث ل (4), ء ي ي (4), ء ت ي (4)
+
+## 3. Related passages (reciprocal inter-ayah candidates, strongest first: the ayah and why it may bear on the focus, as an earlier review saw it — a lead to test, not a finding)
+- 100:4 — Immediate precursor: dust-raising movement culminates in the entry.
+- 36:53 — A dispersed plurality is made present as one assembled body.
+- 100:9 — The later scattering of graves reframes the gathered whole as provisional.
+- 54:45 — A collective's defeat and reversal bounds the incursion scene.
+- 100:1 — Opens the same accelerating movement that reaches the center.
+- 100:10 — Later extraction makes the earlier gathered whole temporary and examinable.
+- 54:44 — Claims of unified strength are tested by the ensuing collapse.
+- 100:3 — The dawn incursion is the immediate movement leading to 100:5.
+- 100:2 — The spark-producing action advances the same compact sequence.
+- 100:7 — The nearby witness motif supports later disclosure of the whole.
+- 100:11 — The closing knowledge motif completes the later disclosure horizon.
+- 75:17 — Gathering and ordered articulation preserve a whole without loss.
+- 62:9 — A summons turns dispersion toward a shared center.
+- 77:38 — Reiterates complete final gathering without a distinct addition.
+- 59:14 — Visible collective unity can conceal inward division, a key boundary.
+- 10:28 — Gathering becomes a judgment scene that exposes and separates claims.
+- 58:18 — Complete raising gathers divergent displays into one exposing forum.
+- 8:45 — Directly supplies the encounter-of-forces frame for center-entry.
+- 18:47 — Comprehensive gathering with none omitted sharpens the whole-as-total reading.
+- 36:32 — Universal presence before a single forum directly extends final assembly.
+- 37:22 — An explicit command to gather for judgment develops the disclosure horizon.
+- 39:68 — The trumpet sequence connects total disruption, rising, and final presence.
+- 50:44 — Rapid emergence and gathering give a close final counterpart to movement into a whole.
+- 58:6 — Raising all and reporting deeds directly strengthens later disclosure.
+- 64:9 — The named day of gathering is a direct final-assembly anchor.
+- 78:18 — The trumpet summons crowds into a common occasion.
+- 77:2 — This completes the parallel oath-series with penetration into a gathered body, preserving its rapid-force sequence as a whole.
+- 79:1 — Penetrating a gathered host completes the pursuit-and-entry side of the racing sequence.
+- 11:103 — Places collective assembly within a witnessed final horizon.
+- 18:99 — Contrasts turbulent mixing with comprehensive reassembly.
+- 20:60 — Shows resources consolidated for an organized counter-move.
+- 28:78 — Challenges accumulated wealth as durable significance.
+- 26:38 — A summoned public assembly supplies a parallel visible gathering.
+- 26:39 — Shows a collective produced through summons and expectation.
+- 4:71 — Connects precaution, departure, and formation of a body.
+- 12:15 — A concealed joint decision supplies a secondary organized-force reading.
+- 8:41 — A meeting of two collectives frames force and subsequent division.
+- 5:36 — Sets a boundary: amassed totality cannot settle final liability.
+- 42:7 — A final assembly supports the hearing-and-account horizon.
+- 44:40 — Assembly is presented as the condition for measured distinction.
+- 100:8 — The following attachment theme complicates the force sequence.
+- 70:14 — Tests a gathered human total against self-serving separation.
+- 70:18 — Conjoins gathering with retaining, sharpening the whole-as-contained reading.
+- 20:64 — A concerted plan made into a line parallels organized force.
+- 100:6 — The next human-condition claim gives the sequence an evaluative turn.
+- 14:21 — Collective exposure removes the protection of hierarchy.
+- 104:2 — Accumulation and counting give a material counterpart to provisional totality.
+- 12:102 — A hidden collective decision supplies a secondary concealed-interior reading.
+- 75:9 — Forced cosmic conjunction supports the later totalizing horizon.
+- 77:4 — Distinction is too detached from a gathered body here.
+- 10:71 — Opposing parties are pressed to make their combined plan public.
+- 7:48 — An amassed group proves unable to secure its claimed strength.
+- 15:92 — Comprehensive questioning develops the later examination horizon.
+- 62:11 — Departure from the shared center provides a contrary assembly pattern.
+- 42:29 — Dispersion remains reversible through a power to regather.
+- 26:95 — A fully mobilized host still fails to furnish support.
+- 26:65 — Separation preserves a complete accompanying group through danger.
+- 38:85 — A final total is formed through traceable following relations.
+- 45:26 — Links dispersed lives, regathering, and a determinate final occasion.
+- 3:173 — An opposing force gathers against others, retaining the incursion frame.
+- 24:61 — Tests social unity across togetherness and separation.
+- 17:88 — A fully allied plurality still cannot achieve the challenged result.
+- 38:82 — A hostile design aims to consolidate individual deviation into a body.
+- 7:18 — Individual following accumulates into a shared final result.
+- 8:15 — The command against reversal provides a contrary boundary to incursion.
+- 3:121 — Battlefield positioning supplies a secondary formation-and-center parallel.
+- 33:9 — The arrival of combined forces retains the collective-threat frame.
+- 6:22 — Universal gathering becomes an addressed judgment scene.
+- 6:128 — A gathered plurality is examined through its relational claims.
+- 10:45 — The gathered day exposes the brevity and limits of prior association.
+- 17:97 — A collective raising supplies a contrary, incapacitated movement pattern.
+- 19:68 — Gathering hostile followers with their leader develops accountable collective formation.
+- 19:85 — A distinguished gathering preserves differentiated group outcomes.
+- 20:102 — The trumpet day gives the assembly a visible marked condition.
+- 23:79 — Earthly dispersion is explicitly reversible into gathering.
+- 25:17 — A common gathering tests claimed associations before judgment.
+- 25:34 — A group driven toward its outcome supplies a contrary directional pattern.
+- 27:83 — Selected bodies are assembled from each community for examination.
+- 34:40 — Universal gathering becomes interrogation of alleged alliances.
+- 36:51 — Emergence from graves gives the later totality a kinetic sequence.
+- 50:21 — Individual arrival with attendant evidence complements the assembled forum.
+- 54:7 — Mass emergence in a dispersed swarm contrasts with ordered center-entry.
+- 69:18 — Public presentation with no hidden matter advances the disclosure reading.
+- 70:43 — Rapid mass emergence supplies a final movement-and-assembly parallel.
+- 81:7 — Pairing of souls offers a secondary totalizing configuration.
+- 82:4 — Scattered graves anticipate the later reversal of a gathered whole.
+- 99:6 — Separate issuing of people after upheaval bounds gathering with differentiation.
+- 51:1 — Missing oath-sequence member includes dust-raising, a secondary physical parallel to ذَرْوًا.
+- 51:4 — Completes the sequence's penetration action and preserves its differentiated functions.
+- 56:75 — Completes the directional-motion oath sequence.
+- 21:77 — Offers a remote image of total enclosure, not center-entry.
+- 68:28 — The middle figure offers a limited, secondary center reading.
+- 2:238 — A balanced-center reading is only a remote parallel.
+- 39:47 — Reiterates the inadequate-ransom boundary already established.
+- 15:43 — Adds only a general appointed collective destination.
+- 5:89 — Its reparative social exchange is remote from the focus scene.
+- 2:143 — The communal-middle reading remains secondary and indirect.
+- 54:50 — The single-command motif is too indirect after stronger force parallels.
+- 56:50 — Reiterates final gathering without adding a distinct route.
+- 54:31 — Collapse after a single cry is only a distant boundary parallel.
+- 3:9 — Reiterates the final-assembly horizon already covered.
+- 75:28 — Separation is too unspecified to clarify the gathered center.
+- 77:33 — No specific assembly or entry relation is established.
+- 20:123 — Collective descent is a remote spatial parallel.
+- 75:29 — The bodily joining image does not clarify the focus relation.
+- 14:8 — Universal scope adds little beyond the established final horizon.
+- 75:30 — Directional movement is too general to illuminate center-entry.
+- 3:157 — The wealth comparison is secondary after stronger accumulation cards.
+- 75:23 — No clear contribution to the focus.
+- 77:30 — The branching image does not establish a focus relation.
+- 3:155 — The battle reference adds little after clearer collective-force cards.
+- 45:13 — A broad integrative reading is remote from the entry scene.
+- 3:166 — Reiterates the two-collective encounter already represented.
+- 3:25 — A general final gathering is redundant at this point.
+- 2:29 — A created whole is only a remote structural parallel.
+- 2:38 — Collective descent and guidance remain only a remote parallel.
+- 6:149 — Distinguishes complete proof from uniform response, indirectly only.
+- 7:124 — Public disabling of a group is a distant contrary force image.
+- 6:153 — Path and division offer only a remote contrary pattern.
+- 101:4 — A dispersed human multitude is a distant contrary collective image.
+- 26:56 — Charging into the midst of a gathered force supplies only a broad military-collective resonance.
+- 56:76 — The fifth oath sign is sequence support only.
+- 69:38 — A formal oath member is redundant after closer oath parallels.
+- 75:3 — Passing through a gathered body is only a limited spatial parallel to collection.
+- 75:16 — 'Bihi' dışında 75:16'nın ana temasına belirgin katkı yoktur.
+- 79:23 — Bir topluluğun ortasına girme imgesi, 79:23'teki kalabalığın sahne düzenine yalnız sınırlı paraleldir.
+- 80:18 — Human ingratitude is a response parallel, not source evidence.

@@ -2,10 +2,15 @@
 """V12: one ayah → one Opus call (ledger + reading) on V11's evidence plus the existing chains (HFT, channel review),
 the neighbours' branches and the root dossiers; one surah (or passage) pass over every ledger. Fully automated:
 every step validates its own output, repairs what a script can, sends the rest to a small repair call, and records
-the outcome in status.json. See README.md and RUNBOOK.md.
+the outcome in status.json. See RUNBOOK.md (commands) and README.md (design).
+
+Cost rule (the user's): a call starts only when its estimated cost is below --max-cost ($5); once started it is never
+stopped and never retried, whatever it costs. The estimate (estimate()) is input tokens (bytes × tokens per byte) at
+$8/M (one-hour cache write) plus the expected output tokens at $20/M, both calibrated on the finished calls in out/.
 
   prep    scripts only: inputs.py (V11 prep + hft.md, channels.md, neighbours.md, usage.md)
-  write   one Opus call (no tools): evidence first, prompts/write.md last → ledger, reading (one retry on a bad answer)
+  write   one Opus call (no tools): evidence first, prompts/write.md last → ledger, reading (no retry: an unusable
+          answer marks the ayah failed)
   check   tag repair (commas), verify_src --fix, wrong-source fix (the quote occurs in exactly one place), validator;
           residual problems → one repair call for the affected paragraphs (up to 2 rounds); what still fails is
           reduced to plain Turkish (the tag's gloss) and counted — nothing waits for a human
@@ -19,7 +24,8 @@ the outcome in status.json. See README.md and RUNBOOK.md.
 Usage: python3 _commentary/v12/run.py ayah 29:39,29:41,29:45 --parallel 3
        python3 _commentary/v12/run.py surah 1 --parallel 7
        python3 _commentary/v12/run.py status 1
-Options: --effort high|xhigh|max (writer; default high), --force (redo finished ayat), --max-cost 5 (per ayah call).
+Options: --effort high|xhigh|max (writer; default high), --force (redo finished ayat), --max-cost 5 (a call starts only
+         below this estimate), --no-usage (leave usage.md out), --tag NAME (outputs in out-NAME/, for arms).
 Outputs: _commentary/v12/out/sNNN/S_A/, out/sNNN/surah/<window>/.
 """
 from __future__ import annotations
@@ -51,6 +57,12 @@ SYSTEM = ("You are a careful scholar of Quranic Arabic and a fine Turkish prose 
 EFFORT = "high"
 MAX_COST = 5.0
 FORCE = False
+USAGE = True                  # --no-usage: usage.md (root dossiers) is left out of the evidence
+OUT = V12 / "out"             # --tag NAME: V12 / "out-NAME"
+PRICE_IN, PRICE_OUT = 8e-6, 20e-6        # $/token: input as a one-hour cache write, output (V11 100:7 bill: exact)
+TOK_PER_BYTE = 1.0                      # default until calibrated (Arabic-heavy evidence)
+EXPECTED_OUT = {"high": 60_000, "xhigh": 80_000, "max": 110_000}   # defaults until calibrated
+SURAH_OUT = 50_000
 TAG_RE = re.compile(r"\{\s*ar\s*:\s*([^{},\n]*?)\s*,\s*tr\s*:\s*([^{}]*?)\s*,\s*gloss\s*:\s*([^{}]*?)"
                     r"(?:\s*,\s*source\s*:\s*([^{}]*?))?\s*\}")
 
@@ -60,7 +72,7 @@ def paths(ref: str) -> dict:
     s, a = (int(x) for x in ref.split(":"))
     sa = f"{s}_{a}"
     return {"sa": sa, "pkg": V9 / "input" / "v2" / f"s{s:03d}" / sa, "v9w": V9 / "lines" / "work" / sa,
-            "in": I.work_dir(ref), "out": V12 / "out" / f"s{s:03d}" / sa}
+            "in": I.work_dir(ref), "out": OUT / f"s{s:03d}" / sa}
 
 
 def quran() -> dict[str, str]:
@@ -98,6 +110,34 @@ def get_status(ref: str) -> dict:
     return json.loads(f.read_text(encoding="utf-8")) if f.exists() else {"ref": ref, "state": "new"}
 
 
+def _median(xs: list[float]) -> float | None:
+    xs = sorted(xs)
+    return xs[len(xs) // 2] if xs else None
+
+
+def calibration() -> tuple[float, dict[str, float]]:
+    """Tokens per input byte and output tokens per effort, from the finished ayah calls (≥ 3 each), else defaults."""
+    ratios, outs = [], {}
+    for f in V12.glob("out*/s*/*/status.json"):
+        try:
+            d = json.loads(f.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        if d.get("in") and d.get("input_bytes") and d.get("attempts") == 1:
+            ratios.append(d["in"] / d["input_bytes"])
+        if d.get("out") and d.get("effort"):
+            outs.setdefault(d["effort"], []).append(d["out"])
+    tpb = _median(ratios) if len(ratios) >= 3 else TOK_PER_BYTE
+    exp = {e: (_median(outs.get(e, [])) if len(outs.get(e, [])) >= 3 else n) for e, n in EXPECTED_OUT.items()}
+    return tpb, exp
+
+
+def estimate(input_bytes: int, out_tokens: float | None = None) -> float:
+    tpb, exp = calibration()
+    out = out_tokens if out_tokens is not None else exp.get(EFFORT, EXPECTED_OUT["high"])
+    return round(input_bytes * tpb * PRICE_IN + out * PRICE_OUT, 2)
+
+
 def locked(ref: str) -> bool:
     """A running write of this ayah (another process) is never restarted."""
     lock = paths(ref)["out"] / "lock"
@@ -109,6 +149,27 @@ def locked(ref: str) -> bool:
     except (ValueError, ProcessLookupError, PermissionError):
         lock.unlink(missing_ok=True)
         return False
+
+
+_HELD: set[str] = set()
+
+
+def acquire(ref: str) -> bool:
+    """Take the ayah's lock atomically (O_EXCL; a stale lock is cleared first), so two runs — or one ref listed twice —
+    can never start two writer calls for the same ayah."""
+    lock = paths(ref)["out"] / "lock"
+    lock.parent.mkdir(parents=True, exist_ok=True)
+    for _ in range(2):
+        try:
+            fd = os.open(lock, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+        except FileExistsError:
+            if locked(ref):
+                return False
+            continue
+        with os.fdopen(fd, "w") as fh:
+            fh.write(str(os.getpid()))
+        return True
+    return False
 
 
 # ---------------------------------------------------------------- the model call
@@ -144,8 +205,10 @@ def prep(ref: str) -> dict:
 
 def evidence(ref: str) -> list[Path]:
     p = paths(ref)
-    files = [p["v9w"] / "context.md", p["pkg"] / "01_dictionary.md", p["v9w"] / "digest_v2.md"]
-    files += [p["in"] / n for n in ("usage.md", "hft.md", "channels.md", "neighbours.md") if (p["in"] / n).exists()]
+    dig = p["in"] / "digest_v2.md" if USAGE and (p["in"] / "digest_v2.md").exists() else p["v9w"] / "digest_v2.md"
+    files = [p["v9w"] / "context.md", p["pkg"] / "01_dictionary.md", dig]
+    names = ("usage.md", "hft.md", "channels.md", "neighbours.md") if USAGE else ("hft.md", "channels.md", "neighbours.md")
+    files += [p["in"] / n for n in names if (p["in"] / n).exists()]
     return files
 
 
@@ -157,20 +220,16 @@ def write(ref: str) -> dict:
               f"({files[-1].name}) is last. Follow the brief exactly and return the ledger and the reading with their "
               f"marker lines.")
     stdin = inline(*files)
-    total = {"cost": 0.0, "in": 0, "out": 0}
-    for attempt in (1, 2):
-        final, u = opus(prompt, stdin, p["out"] / "run.log.jsonl")
-        total = {k: round(total[k] + u[k], 3) for k in total}
-        (p["out"] / f"final.{attempt}.txt").write_text(final, encoding="utf-8")
-        ledger, _, reading = final.partition("===== READING =====")
-        ledger = ledger.split("===== LEDGER =====", 1)[-1]
-        if len(reading.split()) >= 300 and "===== LEDGER =====" in final and ledger.count("\n- ") >= 10:
-            (p["out"] / f"{p['sa']}.ledger.md").write_text(ledger.strip() + "\n", encoding="utf-8")
-            (p["out"] / f"{p['sa']}.reading.tr.md").write_text(reading.strip() + "\n", encoding="utf-8")
-            return {"attempts": attempt, **total}
-        if total["cost"] >= MAX_COST:
-            break
-    raise RuntimeError(f"{ref}: no usable ledger + reading after {attempt} attempt(s) (see final.*.txt)")
+    final, u = opus(prompt, stdin, p["out"] / "run.log.jsonl")
+    set_status(ref, attempts=1, effort=EFFORT, **u)
+    (p["out"] / "final.txt").write_text(final, encoding="utf-8")
+    ledger, _, reading = final.partition("===== READING =====")
+    ledger = ledger.split("===== LEDGER =====", 1)[-1]
+    if len(reading.split()) >= 300 and "===== LEDGER =====" in final and ledger.count("\n- ") >= 10:
+        (p["out"] / f"{p['sa']}.ledger.md").write_text(ledger.strip() + "\n", encoding="utf-8")
+        (p["out"] / f"{p['sa']}.reading.tr.md").write_text(reading.strip() + "\n", encoding="utf-8")
+        return {"attempts": 1, "effort": EFFORT, **u}
+    raise RuntimeError(f"{ref}: no usable ledger + reading (no retry, by rule; see final.txt)")
 
 
 def repair_commas(path: Path) -> int:
@@ -281,8 +340,9 @@ by its marker line exactly as given (`===== P<n> =====`), and nothing else.
 """
 
 
-def repair_call(path: Path, problems: list[str], log: Path) -> int:
-    """One small Opus call over the paragraphs that hold the flagged tags; the script replaces those paragraphs."""
+def repair_call(path: Path, problems: list[str], log: Path) -> tuple[int, float]:
+    """One small Opus call over the paragraphs that hold the flagged tags; the script replaces those paragraphs.
+    Returns (paragraphs replaced, cost)."""
     text = path.read_text(encoding="utf-8")
     paras = re.split(r"(\n\s*\n)", text)
     starts, pos = [], 0
@@ -297,10 +357,10 @@ def repair_call(path: Path, problems: list[str], log: Path) -> int:
             if st <= off < st + len(paras[i]) and paras[i].strip():
                 want.add(i)
     if not want:
-        return 0
+        return 0, 0.0
     order = sorted(want)
     body = "\n\n".join(f"===== P{k} =====\n{paras[i]}" for k, i in enumerate(order, 1))
-    final, _ = opus("Follow the repair brief at the end exactly.",
+    final, u = opus("Follow the repair brief at the end exactly.",
                     "## Problems\n" + "\n".join(problems) + "\n\n## Paragraphs\n" + body + "\n\n" + REPAIR_BRIEF,
                     log, effort="medium")
     got = {int(m.group(1)): m.group(2).strip("\n") for m in
@@ -312,7 +372,7 @@ def repair_call(path: Path, problems: list[str], log: Path) -> int:
             paras[i] = new
             n += 1
     path.write_text("".join(paras), encoding="utf-8")
-    return n
+    return n, u["cost"]
 
 
 def strip_unverified(path: Path, problems: list[str]) -> int:
@@ -343,7 +403,7 @@ def strip_unverified(path: Path, problems: list[str]) -> int:
 
 def check_text(path: Path, log: Path) -> dict:
     """The whole automatic check-and-repair loop for one reading file."""
-    res = {"comma_fixes": repair_commas(path), "source_fixes": 0, "repair_calls": 0, "stripped": 0}
+    res = {"comma_fixes": repair_commas(path), "source_fixes": 0, "repair_calls": 0, "repair_cost": 0.0, "stripped": 0}
     for rnd in range(3):
         summary, problems = verify(path)
         res["source_fixes"] += fix_sources(path, problems)
@@ -356,7 +416,7 @@ def check_text(path: Path, log: Path) -> dict:
             break
         if rnd < 2:
             res["repair_calls"] += 1
-            repair_call(path, block, log)
+            res["repair_cost"] = round(res["repair_cost"] + repair_call(path, block, log)[1], 3)
             repair_commas(path)
         else:
             res["stripped"] = strip_unverified(path, block)
@@ -386,7 +446,7 @@ def check(ref: str) -> dict:
         "reading_words": len(body.split()),
         "reading_refs": len(set(re.findall(r"\b\d{1,3}:\d{1,3}\b", body))),
         "related_uncited": len(uncited), "related_uncited_first": uncited[:15],
-        "input_bytes": sum(sizes.values()), "inputs": sizes})
+        "input_bytes": sum(f.stat().st_size for f in evidence(ref) + [V12 / "prompts" / "write.md"]), "inputs": sizes})
     (p["out"] / "check.txt").write_text(json.dumps(res, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     return res
 
@@ -405,7 +465,7 @@ def families(ledger: str) -> dict[str, list[str]]:
 def surah_out(surah: int, win: tuple[int, int] | None) -> Path:
     n = I.surah_len(surah)
     name = "all" if not win or win == (1, n) else f"{win[0]}-{win[1]}"
-    return V12 / "out" / f"s{surah:03d}" / "surah" / name
+    return OUT / f"s{surah:03d}" / "surah" / name
 
 
 def render(ref: str) -> None:
@@ -447,7 +507,7 @@ def render(ref: str) -> None:
         doc += usage
     doc += ["", "## Kelimeler ve okuyuşlar", ""] + entries(("dictionary", "readings"), False)
     s, a = (int(x) for x in ref.split(":"))
-    for notes in sorted((V12 / "out" / f"s{s:03d}" / "surah").glob("*/ayat.md")):
+    for notes in sorted((OUT / f"s{s:03d}" / "surah").glob("*/ayat.md")):
         mine = [l for l in notes.read_text(encoding="utf-8").splitlines() if re.match(rf"-\s*\**{re.escape(ref)}\b", l)]
         if mine:
             doc += ["", "## Surenin bütününde", ""] + [re.sub(rf"^-\s*\**{re.escape(ref)}\**:?\s*", "", m) for m in mine]
@@ -473,30 +533,37 @@ def ayah(ref: str, prepped: bool = False) -> str:
     """prep → write → check → render, with status and lock; never raises (the status says what happened)."""
     if done(ref) and not FORCE:
         return f"{ref}: done (skipped)"
-    if locked(ref):
-        return f"{ref}: running in another process (skipped)"
     p = paths(ref)
-    p["out"].mkdir(parents=True, exist_ok=True)
-    (p["out"] / "lock").write_text(str(os.getpid()))
+    if ref in _HELD or not acquire(ref):
+        return f"{ref}: running elsewhere (skipped)"
+    _HELD.add(ref)
     try:
         set_status(ref, state="prep")
         sizes = read_sizes(ref) if prepped and (p["in"] / "inputs.tsv").exists() else prep(ref)
         usage_err = (p["in"] / "usage.error.txt").read_text(encoding="utf-8")[-300:] if (p["in"] / "usage.error.txt").exists() else ""
-        set_status(ref, state="writing", input_bytes=sum(sizes.values()), usage_error=usage_err)
+        nbytes = sum(f.stat().st_size for f in evidence(ref) + [V12 / "prompts" / "write.md"])
+        est = estimate(nbytes)
+        if est >= MAX_COST:
+            set_status(ref, state="over-cost", input_bytes=nbytes, estimate=est, usage_error=usage_err)
+            return f"{ref}: NOT STARTED (estimated ${est:.2f} ≥ ${MAX_COST:.2f})"
+        set_status(ref, state="writing", input_bytes=nbytes, estimate=est, usage=USAGE, usage_error=usage_err)
         u = write(ref)
         set_status(ref, state="checking", **u)
         c = check(ref)
         render(ref)
         st = set_status(ref, state="done", verify=c["verify"], stripped=c["stripped"], repair_calls=c["repair_calls"],
+                        repair_cost=c["repair_cost"], total_cost=round(u["cost"] + c["repair_cost"], 3),
                         validator_errors=c["validator_errors"], ledger_findings=c["ledger_findings"],
                         new=c["families"].get("new", 0), reading_words=c["reading_words"])
-        return (f"{ref}: done ${st.get('cost', 0):.2f} (in {st.get('in', 0):,} out {st.get('out', 0):,}); "
+        return (f"{ref}: done ${st.get('total_cost', 0):.2f} (estimate ${est:.2f}; in {st.get('in', 0):,} out "
+                f"{st.get('out', 0):,}); "
                 f"ledger {c['ledger_findings']} (new {st['new']}); reading {c['reading_words']} words; "
-                f"verify {c['verify']}; repairs {c['repair_calls']}, stripped {c['stripped']}")
+                f"verify {c['verify']}; repairs {c['repair_calls']} (${c['repair_cost']:.2f}), stripped {c['stripped']}")
     except (Exception, SystemExit) as e:  # noqa: BLE001 — the status records every failure; the run goes on
         set_status(ref, state="failed", error=f"{type(e).__name__}: {str(e)[-800:]}")
         return f"{ref}: FAILED {str(e)[-300:]}"
     finally:
+        _HELD.discard(ref)
         (p["out"] / "lock").unlink(missing_ok=True)
 
 
@@ -537,26 +604,27 @@ def chains(s: int, win: tuple[int, int] | None = None) -> str:
     prompt = (f"Surah {s}, ayat {lo}–{hi}. The evidence comes first ({', '.join(f.name for f in ev)}, then the ledger "
               f"of every ayah); the brief (surah.md) is last. Follow it exactly and return the three parts with their "
               f"marker lines.")
-    total = 0.0
-    for attempt in (1, 2):
-        final, u = opus(prompt, stdin, out / "run.log.jsonl")
-        total += u["cost"]
-        (out / f"final.{attempt}.txt").write_text(final, encoding="utf-8")
-        a, _, rest = final.partition("===== SURAH =====")
-        b, _, c = rest.partition("===== AYAT =====")
-        if "===== CHAINS =====" in a and len(b.split()) >= 400 and c.strip():
-            break
-    else:
-        (out / "check.txt").write_text(json.dumps({"failed": "no usable answer after 2 attempts", "cost": round(total, 3)})
-                                       + "\n", encoding="utf-8")
-        return f"surah {s} {lo}-{hi}: FAILED (no usable answer; see {out}/final.*.txt)"
+    est = estimate(len((prompt + stdin).encode()), SURAH_OUT)
+    if est >= MAX_COST:
+        (out / "check.txt").write_text(json.dumps({"failed": f"not started: estimated ${est:.2f} >= ${MAX_COST:.2f}",
+                                                   "estimate": est}) + "\n", encoding="utf-8")
+        return f"surah {s} {lo}-{hi}: NOT STARTED (estimated ${est:.2f} ≥ ${MAX_COST:.2f}; raise --max-cost to run it)"
+    final, u = opus(prompt, stdin, out / "run.log.jsonl")
+    total = u["cost"]
+    (out / "final.txt").write_text(final, encoding="utf-8")
+    a, _, rest = final.partition("===== SURAH =====")
+    b, _, c = rest.partition("===== AYAT =====")
+    if not ("===== CHAINS =====" in a and len(b.split()) >= 400 and c.strip()):
+        (out / "check.txt").write_text(json.dumps({"failed": "no usable answer (no retry, by rule)", "estimate": est,
+                                                   "cost": round(total, 3)}) + "\n", encoding="utf-8")
+        return f"surah {s} {lo}-{hi}: FAILED (no usable answer; see {out}/final.txt)"
     (out / "chains.md").write_text(a.split("===== CHAINS =====", 1)[-1].strip() + "\n", encoding="utf-8")
     reading = out / f"{s}.surah.tr.md"
     reading.write_text(b.strip() + "\n", encoding="utf-8")
     (out / "ayat.md").write_text(c.strip() + "\n", encoding="utf-8")
     res = check_text(reading, out / "repair.log.jsonl")
     nch = sum(1 for l in (out / "chains.md").read_text(encoding="utf-8").splitlines() if l.startswith("### "))
-    res.update(cost=round(total, 3), chains=nch, words=len(reading.read_text(encoding="utf-8").split()),
+    res.update(estimate=est, cost=round(total + res["repair_cost"], 3), chains=nch, words=len(reading.read_text(encoding="utf-8").split()),
                input_bytes=sum(f.stat().st_size for f in ev + ledgers))
     (out / "check.txt").write_text(json.dumps(res, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     for r in refs:
@@ -570,9 +638,10 @@ def status(s: int) -> str:
     rows = []
     for r in surah_refs(s):
         d = get_status(r)
-        rows.append(f"{r}\t{d.get('state')}\t${d.get('cost', 0):.2f}\tin {d.get('in', 0):,}\tout {d.get('out', 0):,}\t"
+        rows.append(f"{r}\t{d.get('state')}\t${d.get('total_cost', d.get('cost', 0)):.2f} (est ${d.get('estimate', 0):.2f})\t"
+                    f"in {d.get('in', 0):,}\tout {d.get('out', 0):,}\t"
                     f"{d.get('verify', '')}\tstripped {d.get('stripped', '')}\t{d.get('error', '')[:120]}")
-    for f in sorted((V12 / "out" / f"s{s:03d}" / "surah").glob("*/check.txt")):
+    for f in sorted((OUT / f"s{s:03d}" / "surah").glob("*/check.txt")):
         d = json.loads(f.read_text(encoding="utf-8"))
         rows.append(f"surah {f.parent.name}\t{'FAILED ' + d['failed'] if d.get('failed') else 'done'}\t"
                     f"${d.get('cost', 0):.2f}\tchains {d.get('chains', '-')}\t{d.get('verify', '')}")
@@ -580,7 +649,7 @@ def status(s: int) -> str:
 
 
 def main() -> None:
-    global EFFORT, MAX_COST, FORCE
+    global EFFORT, MAX_COST, FORCE, USAGE, OUT
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("step", choices=("prep", "write", "check", "render", "ayah", "surah", "chains", "status"))
     ap.add_argument("ref", help="S:A (comma-separated for several), or a surah number")
@@ -590,8 +659,13 @@ def main() -> None:
     ap.add_argument("--window", help="chains: LO-HI (default: the whole surah, or every passage window)")
     ap.add_argument("--no-chains", action="store_true")
     ap.add_argument("--force", action="store_true")
+    ap.add_argument("--no-usage", action="store_true", help="leave usage.md (root dossiers) out of the evidence")
+    ap.add_argument("--tag", help="write to out-TAG/ instead of out/ (arms, e.g. --tag nousage)")
+    ap.add_argument("--estimate", action="store_true", help="ayah/surah: print the cost estimate per ayah and exit")
     a = ap.parse_args()
-    EFFORT, MAX_COST, FORCE = a.effort, a.max_cost, a.force
+    EFFORT, MAX_COST, FORCE, USAGE = a.effort, a.max_cost, a.force, not a.no_usage
+    if a.tag:
+        OUT = V12 / f"out-{a.tag}"
     if a.step == "status":
         print(status(int(a.ref)))
         return
@@ -606,10 +680,18 @@ def main() -> None:
             fn = {"prep": prep, "write": write, "check": check, "render": render}[a.step]
             print(r, json.dumps(fn(r), ensure_ascii=False, default=str)[:600] if a.step != "render" else fn(r) or "rendered")
         return
-    refs = a.ref.split(",") if a.step == "ayah" else surah_refs(int(a.ref))
+    refs = list(dict.fromkeys(a.ref.split(","))) if a.step == "ayah" else surah_refs(int(a.ref))
     for r in refs:  # scripts first, sequentially (shared caches), so the parallel writers start at once
         if FORCE or not done(r):
             prep(r)
+    if a.estimate:
+        tpb, exp = calibration()
+        for r in refs:
+            nb = sum(f.stat().st_size for f in evidence(r) + [V12 / "prompts" / "write.md"])
+            print(f"{r}\t{nb:,} bytes\t${estimate(nb):.2f}", flush=True)
+        print(f"(tokens/byte {tpb:.2f}; expected output {exp.get(EFFORT):,.0f} tokens at effort {EFFORT}; limit "
+              f"${MAX_COST:.2f})")
+        return
     with ThreadPoolExecutor(a.parallel) as pool:
         for line in pool.map(lambda r: ayah(r, prepped=True), refs):
             print(line, flush=True)

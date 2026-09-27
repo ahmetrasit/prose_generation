@@ -182,5 +182,5 @@ script flag in brackets when something is wrong (0 flagged steps here).
   - with: 18:84 مَكَّنَّا م ك ن B005; 18:84 سَبَبًا س ب ب B003; 18:85 فَأَتْبَعَ ت ب ع B002; 18:97 ٱسْطَٰعُوٓا۟ ٱسْتَطَٰعُوا۟ ط و ع B003; 18:97 يَظْهَرُوهُ ظ ه ر B007; 18:97 نَقْبًا ن ق ب B005
 - **delta_means_reach_their_term** (focus 18:98, strong) — after: The promise is the reached term of a divinely provisioned course: means remain effective until their appointed boundary is attained.
   - here: 18:86 w3 بَلَغَ → ب ل غ B001 (bir yere, şeye veya son sınıra ulaşma; bağlama göre yaklaşma ya da olgunluğa erme) — Reaching the end-point gives each course a limit rather than indefinite extension.
-  - with: 18:84 سَبَبًا س ب ب B003; 18:85 فَأَتْبَعَ ت ب ع B003; 18:98 جَآءَ ج ي ء B001 [!]; 18:98 وَعْدُ وَعْدُ و ع د B003
+  - with: 18:84 سَبَبًا س ب ب B003; 18:85 فَأَتْبَعَ ت ب ع B003; 18:98 جَآءَ ج ي ء B001; 18:98 وَعْدُ وَعْدُ و ع د B003
 

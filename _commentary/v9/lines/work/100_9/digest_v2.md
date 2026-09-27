@@ -1,0 +1,212 @@
+# Quranic reach for 100:9 (script digest, unjudged)
+
+Candidates for reading the ayah through the Quran itself. Nothing here is a finding yet: judge each one.
+
+## 1. Variant readings (qirāʾāt)
+
+(none recorded)
+
+## 2. Usage: each root of the ayah across the Quran (ref and the word as it occurs)
+
+### U-بعثر root ب ع ث ر (focus word بُعْثِرَ: بُعْثِرَ V) — 2 occurrences in 2 ayat; same form 2, other forms 0
+- tier 1, same form (بُعْثِرَ V): 2
+  - 82:4 بُعْثِرَتْ
+  - 100:9 ◀ focus بُعْثِرَ
+
+### U-قبر root ق ب ر (focus word ٱلْقُبُورِ: قَبْر N) — 8 occurrences in 8 ayat; same form 6, other forms 2
+- tier 1, same form (قَبْر N): 6
+  - 9:84 قَبْرِ
+  - 22:7 قُبُورِ
+  - 35:22 قُبُورِ
+  - 60:13 قُبُورِ
+  - 82:4 قُبُورُ
+  - 100:9 ◀ focus قُبُورِ
+- tier 2, other forms: أَقْبَرَ V form IV 1; مَقَابِر N 1
+- rare form أَقْبَرَ (V form IV):
+  - 80:21 أَقْبَرَ
+- rare form مَقَابِر (N):
+  - 102:2 مَقَابِرَ
+- roots co-occurring across the listed ayat: م و ت (4), ء ل ه (4), س م ع (2), ق و م (2), ك ف ر (2), ي ء س (2)
+
+## 3. Related passages (reciprocal inter-ayah candidates, strongest first: the ayah and why it may bear on the focus, as an earlier review saw it — a lead to test, not a finding)
+- 82:4 — Near-verbatim grave scattering; anchors the event.
+- 100:7 — Earlier in the same unit, supplies the witnessing frame for the final question.
+- 22:7 — Explicitly joins resurrection with those in graves.
+- 100:10 — Immediate sequel: complements grave scattering with disclosure of what is within breasts.
+- 102:2 — Names visiting burial places; supports the grave setting but not the scattering.
+- 100:11 — Immediate sequel gives the divine knowledge conclusion for that day.
+- 100:5 — Earlier gathering imagery in the same unit provides a secondary scatter-gather parallel.
+- 80:21 — Directly links death with burial, supplying the burial stage before the focus event.
+- 100:8 — Immediate moral context helps locate the final questioning within the surah's human indictment.
+- 100:4 — Stirring dust in the same oath sequence gives secondary upheaval imagery.
+- 57:6 — Direct knowledge of what breasts contain strongly complements the next ayah's interior disclosure.
+- 47:29 — Explicitly brings what is in hearts out, a close parallel to the following ayah's disclosure.
+- 47:37 — Bringing out hidden rancor is a close interior-disclosure parallel.
+- 35:38 — Divine knowledge of the unseen and what breasts contain closely complements 100:10.
+- 16:19 — Hidden and public knowledge is relevant but redundant after closer passages.
+- 99:4 — The earth reporting its news supplies a close resurrection-day disclosure parallel.
+- 24:64 — Return and being informed of deeds provide a general final-disclosure parallel.
+- 20:55 — Explicit earth-origin, return, and later emergence sequence; a direct structural parallel.
+- 23:16 — Explicitly places resurrection after death.
+- 36:51 — Trumpet, emergence from graves, and movement toward the Lord form a direct parallel.
+- 36:53 — A single summons followed by universal gathering closely complements scattering and disclosure.
+- 36:79 — Affirms re-creation of decayed remains; directly supports resurrection from graves.
+- 39:68 — Trumpet, rising, and waiting establish the public resurrection scene.
+- 50:44 — The earth splits and people emerge rapidly for a gathering; one of the closest omitted parallels.
+- 54:7 — Emergence from graves in dispersed multitudes closely parallels the focus's scattering.
+- 70:43 — Emergence from graves and hurried movement gives a direct resurrection-stage parallel.
+- 71:18 — Return to the earth and subsequent bringing-out supplies the full burial-to-emergence movement.
+- 75:13 — Final self-information supports the following ayah's disclosed interior and account.
+- 84:3 — The earth's casting out of what is within it is a direct extraction parallel.
+- 84:4 — The earth's expulsion of its contents completes the preceding extraction image.
+- 84:5 — The earth's response under command supports compelled disclosure.
+- 86:9 — Testing of hidden matters closely complements the following disclosure of what breasts contain.
+- 99:2 — The earth bringing out its burdens is a close parallel to graves being scattered.
+- 99:5 — The earth's report is a disclosure-stage parallel within the same scene.
+- 99:6 — People emerging separately to be shown their deeds extends the resurrection-account sequence.
+- 99:7 — Visible requital of even the smallest good deed supports final disclosure and account.
+- 58:6 — Resurrection followed by being informed of deeds supports the accounting outcome.
+- 3:9 — Depicts graves overturned and what is in hearts brought forth.
+- 6:28 — Joins raised graves with the disclosure of what is within chests.
+- 6:67 — Graves overturned make concealed history available to disclosure.
+- 7:7 — Graves and breast-content are brought out, completing hidden-evidence disclosure.
+- 11:111 — Hidden contents are brought out, directly extending deeds to interior disclosure.
+- 13:21 — Connects the opening of graves with disclosure of what is hidden within.
+- 13:42 — Opens the final exposure of what lies in graves.
+- 14:41 — What is in graves being raised supplies the bodily prerequisite for standing.
+- 14:49 — Adds graves emptied for final exposure.
+- 15:25 — Scattering graves and exposing inner contents supplies evidentiary content for final judgment.
+- 15:92 — Graves are overturned for the day of disclosure.
+- 16:38 — Directly depicts the contents of graves being brought forth.
+- 18:47 — Graves are overturned and concealed contents are brought out.
+- 18:48 — The graves are overturned and what is in hearts is exposed.
+- 19:70 — The graves are overturned for final disclosure.
+- 21:23 — The graves are overturned, initiating disclosure before judgment.
+- 29:5 — Names the exposure of graves and what is hidden in breasts.
+- 30:12 — What is in graves is scattered out.
+- 36:12 — Joins graves overturned with the final disclosure.
+- 41:22 — What is in graves is scattered and brought forth, supplying the resurrection-side disclosure that frames the focus's tribunal.
+- 45:22 — Kabirdekilerin cikarilmasi, 45:22'de varsayilan dirilis ve hesap sahnesini destekler.
+- 53:40 — Graves being opened frames the future horizon of manifestation.
+- 54:52 — Scattering graves begins the adjacent disclosure sequence that continues in 100:10.
+- 64:7 — Graves overturned is direct ba'th imagery.
+- 69:18 — Grave contents being scattered supplies the emergence mechanism.
+- 75:20 — The overturning of graves makes the buried future judgment the answer to present attachment.
+- 75:36 — Kabirlerdekilerin çıkarılmasını bildirir; diriltme bağlamına doğrudan paraleldir.
+- 76:10 — Shows graves overturned on the day of full disclosure.
+- 77:38 — Kabirlerdekinin çıkarılması, 77:38'deki ilkler ve sonrakilerin toplanmasının diriltme safhasını ekler.
+- 79:8 — Kabirlerin altüst edilmesi, 79:8-14’teki sarsıntı, çağrı ve ortaya çıkış dizisine doğrudan paraleldir.
+- 79:35 — Kabirlerdekinin çıkarıldığı gün, 79:35'in eschatolojik zamanını doğrudan destekler.
+- 80:22 — Scattering of graves directly supplies the post-burial opening image.
+- 81:14 — Resurrection exposure supplies the first half of the final disclosure.
+- 82:5 — Grave contents being raised develops the resurrection-to-disclosure sequence.
+- 82:6 — Grave disclosure supplies the final reckoning frame for the 100:6 rebuke.
+- 82:17 — Graves are overturned, providing resurrection imagery.
+- 82:18 — Adds the overturning of graves.
+- 83:5 — Adds graves overturned and hidden contents brought out.
+- 83:6 — بعثرة القبور تضيف أصلَ الخروج للوقوف.
+- 83:11 — Graves emptied supplies resurrection context for assessment.
+- 86:4 — Connects resurrection from graves to disclosure of inner contents.
+- 86:7 — Grave scattering and breast-content exposure strongly extend the disclosure horizon of f02.
+- 86:8 — Depicts what is in graves being brought out.
+- 89:14 — Exposes what is in graves on the day of disclosure.
+- 89:23 — Grave contents are scattered, adding resurrection disclosure.
+- 102:3 — Future disturbance of graves and exposure of inner contents answer the warning's temporal horizon.
+- 102:4 — The graves are overturned and hidden contents are brought out.
+- 33:2 — Adds received direction and comprehensive knowledge, with a branch resonance to the focus sequence.
+- 35:22 — Frames graves as a boundary between living and dead; preserves a secondary grave reading.
+- 36:68 — Ageing reversal does not clarify the focus event.
+- 59:22 — Sets hidden and witnessed things under divine knowledge; supports the knowledge frame.
+- 22:70 — Divine knowledge and an inscribed record support the certainty of the question.
+- 60:13 — Refers to grave-dwellers, but its despair comparison is not the focus event.
+- 4:166 — Divine knowledge and testimony reinforce the certainty of disclosed evidence.
+- 43:86 — Knowledge-bearing truthful testimony supports the evidentiary side of disclosure.
+- 6:3 — Explicit hidden and public knowledge supports disclosure beyond concealment.
+- 100:2 — Opening oath imagery does not independently explain the focus event.
+- 9:84 — A grave is directly named, supplying a concrete burial context.
+- 4:71 — Moving out in groups or together provides a secondary formation-and-gathering parallel.
+- 63:1 — Truthful testimony versus false claim supports the knowledge-and-witness frame.
+- 28:70 — Return for judgment and a channel resonance to interior disclosure add a final-account frame.
+- 100:6 — Immediate accusation against the human subject prepares the final question.
+- 36:76 — Knowledge of concealed and public matters supports the disclosure frame.
+- 6:80 — Encompassing divine knowledge supports the certainty implied by the question.
+- 59:18 — Forward-looking self-account and knowledge of deeds support the judgment setting.
+- 67:14 — Creator knowledge supports the certainty that concealment cannot remain hidden.
+- 78:4 — The future certainty of knowing supports the focus question, though it is generic.
+- 2:77 — Knowledge of what is concealed and declared supports disclosure beyond secrecy.
+- 72:26 — Unseen knowledge and non-disclosure form only a boundary around the focus event.
+- 18:19 — Awakening followed by questioning gives a secondary resurrection-and-knowledge sequence.
+- 22:5 — Resurrection is explicit, though the detailed creation argument is broader than grave scattering.
+- 47:31 — Testing that makes people and reports known supports disclosure by examination.
+- 27:65 — Restricts knowledge of the unseen and names the time of resurrection as unknown; useful boundary evidence.
+- 64:4 — Hidden, public, and inner knowledge support the disclosure frame, though broadly.
+- 99:3 — The human question to the upheaving earth supports the adjacent resurrection-disclosure scene.
+- 63:11 — The fixed term and knowledge of deeds support final accountability.
+- 4:63 — Divine knowledge of what hearts contain supports the concealed-interior dimension.
+- 58:7 — Private matters are known and later reported on the resurrection day; supports judgmental disclosure.
+- 29:11 — Knowing that distinguishes believers from hypocrites supports examination and exposure.
+- 57:17 — Life after the earth's death provides a secondary resurrection analogy.
+- 36:52 — Adds the response of those emerging from their resting places.
+- 36:78 — Raises the bodily-remains objection that the focus event answers by enactment.
+- 75:3 — Bone gathering gives a close bodily-restoration parallel.
+- 75:14 — The self as witness supports the focus unit's knowledge-and-account frame.
+- 78:18 — The trumpet and arrival in groups supply a secondary public-resurrection parallel.
+- 79:13 — A single cry initiating the final event complements the transition from concealment to appearance.
+- 79:14 — Sudden presence upon the open surface parallels emergence after burial.
+- 99:8 — Visible requital of even the smallest evil deed supports final disclosure and account.
+- 17:49 — The objection about becoming bones and fragments supplies the bodily-resurrection question behind the focus.
+- 17:52 — Response to the summons and rising from the earth gives a direct emergence parallel.
+- 30:19 — Bringing the living from the dead and reviving the earth provides a secondary resurrection analogy.
+- 30:25 — A summons from the earth followed by emergence closely parallels the focus event.
+- 32:10 — Being lost within the earth establishes the burial-concealment side of the contrast.
+- 2:154 — The graves are overturned, directly evoking post-burial disclosure.
+- 3:161 — What is in graves is brought out, adding public emergence imagery.
+- 4:41 — Graves being overturned provides a broad resurrection parallel.
+- 11:103 — Graves are overturned and what is in chests is exposed.
+- 14:38 — Links the extraction of what is in breasts to divine expertise.
+- 16:28 — Exposed graves add a resurrection-stage extension to the focus death scene.
+- 17:14 — Adds disclosure of what is in the graves.
+- 18:21 — Asks whether people know what is scattered from graves.
+- 19:95 — Graves are overturned, directly framing the resurrection preceding final appearance.
+- 21:110 — It joins the exposure of graves with the gathering of what is in breasts under the Lord's full awareness.
+- 31:16 — The graves being overturned supplies the physical emergence that precedes the disclosure in the next ayah.
+- 45:15 — بعثرة القبور تمهد لانكشاف ما يتعلق بالرجوع والحساب.
+- 45:28 — Brings buried contents out in the final disclosure.
+- 47:19 — Unavoidable disclosure after graves are stirred is a late-knowledge boundary.
+- 52:3 — What is in graves being brought out supports the secondary emergence/resurrection reading.
+- 80:37 — Kabirlerin altüst edilmesi, odak ayetindeki günün diriliş zeminini güçlendirir.
+- 83:9 — What is in graves brought out supports the disclosure phase of final accounting.
+- 84:6 — Graves overturned contributes the disclosed-afterlife setting.
+- 84:10 — Graves being overturned develops the final disclosure setting.
+- 90:7 — What is in graves is brought forth for exposure.
+- 90:11 — Ita al-mal ala hubbihi supplies a costly-giving parallel.
+- 92:11 — The graves being overturned gives the terminal setting for that attachment.
+- 96:3 — The exposure of graves develops the final-accountability horizon of return.
+- 101:3 — Paired with 100:10, frames the hidden-content disclosure as a knowledge question.
+- 102:7 — Exposes what is in graves and breasts, a final-disclosure parallel to certainty after concealment.
+- 4:70 — Only a general knowledge link; the auxiliary route is weak.
+- 34:6 — Knowledge, truth, and guidance are present, but not the grave-disclosure event.
+- 100:1 — Part of the opening oath, with no specific clarification of grave scattering.
+- 37:155 — The interrogative admonition loosely parallels the focus question.
+- 29:43 — Understanding examples is only a distant epistemic parallel.
+- 16:91 — General knowledge of deeds is redundant and lacks the event frame.
+- 9:115 — Divine clarification and knowledge are general and indirect.
+- 32:4 — The admonitory question is only a formal parallel.
+- 52:47 — Future punishment and ignorance are too general after stronger judgment passages.
+- 2:232 — The contrast between divine and human knowledge is general and distant.
+- 15:3 — Deferred knowledge is a limited temporal parallel.
+- 84:1 — Cosmic rupture is an apocalyptic parallel but does not add grave-specific evidence.
+- 100:3 — Opening oath imagery does not independently explain the focus event.
+- 82:1 — Cosmic rupture is redundant apocalyptic background.
+- 58:11 — Rising and knowledge grades are a remote, secondary parallel.
+- 96:5 — Teaching what was unknown is a general knowledge parallel, now redundant.
+- 44:32 — Knowledge-based choosing among peoples is not the focus event.
+- 49:16 — Comprehensive divine knowledge is relevant but redundant and generic.
+- 63:8 — Ignorance in a social dispute does not clarify the focus event.
+- 53:30 — Limits of human knowledge and divine discernment are only a general parallel.
+- 78:5 — Repeated future knowing is generic and redundant.
+- 5:116 — Divine knowledge of an inner self is relevant but not tied to the focus event.
+- 5:31 — The uncovering of grave contents reverses the hiding action taught in 5:31.
+- 12:68 — Forced later disclosure is too remote from Jacob's present knowledge and practical act.
+- 16:45 — The scattering of graves offers a remote earth-disruption image without the focus's setting.
+- 20:110 — The disclosure of what is in graves and breasts gives a final-account setting for hidden knowledge.
