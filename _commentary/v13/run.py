@@ -324,46 +324,106 @@ def mustland(ref: str) -> Path:
     out = out_dir(ref)
     items, nf = [], network_file(ref)
     here = re.compile(rf"(?<![\d:]){re.escape(ref)}:\d+")
+    # the finding ids the network attributes to this ayah inside a member entry: "[1:6 F40 F47]"
+    fids_here = re.compile(rf"(?<![\d:]){re.escape(ref)}\s+(F\d+(?:\s+F\d+)*)")
+    qeq_text = (out / "qeq.md").read_text(encoding="utf-8") if (out / "qeq.md").exists() else ""
     if nf:
         for l in nf.read_text(encoding="utf-8").splitlines():
             m = re.match(r"^(I\d+) \| ([^|]+)\|", l)
             if not m:
                 continue
             fields = l.split(" | ")
+            head = l.split(" | meets:")[0]
             disc = next((p for p in fields if p.startswith("disclosure:")), "")
             roles = [role for seg in re.split(r"[;,]", disc[len("disclosure:"):]) if (role := plan_role(seg, ref))]
-            members_here = len(here.findall(l.split(" | meets:")[0]))
-            if not roles and not members_here:
+            words_here = len(set(here.findall(head)))          # distinct words of this ayah (bug fixed 18:40: entries were counted)
+            if not roles and not words_here:
                 continue
             meets = next((p for p in fields if p.startswith("meets:")), "")
+            fids = list(dict.fromkeys(f for grp in fids_here.findall(head) for f in grp.split()))
             items.append({"iid": m.group(1), "name": m.group(2).strip(), "role": roles[0] if roles else "touch",
-                          "note": "" if roles else " (member here; not in the plan)", "n": members_here,
-                          "meets": [s.strip() for s in meets[len("meets:"):].split(";") if here.search(s)]})
-    for it in sorted([it for it in items if it["role"] == "assemble"], key=lambda it: (-it["n"], int(it["iid"][1:])))[MAX_ASSEMBLE:]:
-        it["role"], it["note"] = "touch", " (its assembly is deferred to the surah commentary: at most two images are assembled in one ayah)"
+                          "note": "" if roles else " (member here; not in the plan)", "n": words_here, "fids": fids,
+                          "meets": [s.strip() for s in meets[len("meets:"):].split(";") if here.search(s)],
+                          "passages": passages_for(fids, qeq_text)})
+    deferred = sorted([it for it in items if it["role"] == "assemble"], key=lambda it: (-it["n"], int(it["iid"][1:])))[MAX_ASSEMBLE:]
+    for it in deferred:
+        it["role"], it["note"] = "touch", " (assembly deferred to the surah commentary: at most two images are assembled in one ayah)"
     items.sort(key=lambda it: (-ROLE_RANK[it["role"]], -it["n"], int(it["iid"][1:])))
     jobs = [it for it in items if it["role"] != "touch"][:MAX_ITEMS]
     touches = [it for it in items if it not in jobs]
     lines = [f"# mustland.md — the ranked budget of {ref}'s commentary (script, from the network and QeQ)", "",
              "Ranked by the job this ayah has in each image (assemble > develop > meet), then by how many of its words are "
-             "members. Land the jobs; touches and passages are evidence to use where they pay off, not obligations.", "",
+             "members. Land the jobs; touches are evidence to use where they pay off, not obligations. Each job lists the "
+             "passages QeQ attached to its findings (stagings first); quote the ones that do the job's work.", "",
              "## Jobs (M-items; the coverage block answers these)", ""]
     for n, it in enumerate(jobs, 1):
         lines.append(f"- M{n} | {it['role']} | image {it['iid']} {it['name']}{it['note']} | words of {ref} in it: {it['n']}"
+                     + (f" | findings here: {' '.join(it['fids'])}" if it["fids"] else "")
+                     + (f" | passages: {', '.join(it['passages'])}" if it["passages"] else "")
                      + (f" | meets here: {'; '.join(it['meets'])}" if it["meets"] else "")
-                     + (" | assemble: the whole image, every member, as one scene (see the network line)" if it["role"] == "assemble" else ""))
+                     + (" | assemble: the mechanism working, with the members that make it move (see the network line)" if it["role"] == "assemble" else ""))
     if touches:
         lines += ["", "## Also present through a word of this ayah (a clause where it costs nothing; else the surah commentary)", ""]
-        lines += [f"- image {it['iid']} {it['name']}{it['note']}" + (f" | meets here: {'; '.join(it['meets'])}" if it["meets"] else "")
-                  for it in touches]
-    q = out / "qeq.md"
-    if q.exists():
-        st = list(dict.fromkeys(re.findall(r"(\d{1,3}:\d{1,3})\s*\[staging\]", q.read_text(encoding="utf-8"))))
-        if st:
-            lines += ["", "## Passages QeQ tagged as telling a latent scene openly (evidence; quote the ones that do work)", "",
-                      ", ".join(st)]
+        lines += [f"- image {it['iid']} {it['name']}{it['note']}"
+                  + (f" | findings here: {' '.join(it['fids'])}" if it["fids"] else "")
+                  + (f" | passages: {', '.join(it['passages'])}" if it["passages"] else "")
+                  + (f" | meets here: {'; '.join(it['meets'])}" if it["meets"] else "") for it in touches]
+    if deferred:
+        lines += ["", "## Deferred to the surah commentary (assemblies this ayah could not carry; recorded, not lost)", ""]
+        lines += [f"- deferred | image {it['iid']} {it['name']} | assembly planned here by the network; touch here" for it in deferred]
+    axis = list(dict.fromkeys(r for l in qeq_text.splitlines() if re.match(r"^A\d+ \|", l)
+                              for r in re.findall(r"(?<![\d:])(\d{1,3}:\d{1,3})(?![\d:])", l)))[:MAX_AXIS]
+    if axis:
+        lines += ["", "## Axis passages (QeQ's pass on the plain sense and grammar; always in view)", "", ", ".join(axis)]
     f = out / "mustland.md"
     f.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return f
+
+
+MAX_AXIS = 6
+MAX_PASSAGES_PER_JOB = 3
+TAGGED = re.compile(r"(?<![\d:])(\d{1,3}:\d{1,3})(?![\d:])((?:\s*\[(?:staging|same-word)\])*)")
+
+
+def passages_for(fids: list[str], qeq_text: str) -> list[str]:
+    """The passages QeQ attached to these findings (annotation lines F<n>, and Q-lines whose `with:` names them),
+    stagings first, at most MAX_PASSAGES_PER_JOB; both tags are read (a ref may carry `[same-word] [staging]`)."""
+    if not fids or not qeq_text:
+        return []
+    want, found = set(fids), {}
+    for l in qeq_text.splitlines():
+        m = re.match(r"^([FQ]\d+) \|", l)
+        if not m:
+            continue
+        rel = m.group(1) in want or (m.group(1).startswith("Q") and set(re.findall(r"F\d+", next(
+            (p for p in l.split(" | ") if p.startswith("with:")), ""))) & want)
+        if not rel:
+            continue
+        for r, tags in TAGGED.findall(l):
+            t = set(re.findall(r"\[(staging|same-word)\]", tags))
+            if t:
+                found[r] = found.get(r, set()) | t
+    ranked = sorted(found, key=lambda r: (0 if "staging" in found[r] else 1, r))
+    return [f"{r} ({'/'.join(sorted(found[r]))})" for r in ranked[:MAX_PASSAGES_PER_JOB]]
+
+
+def network_view(ref: str) -> Path | None:
+    """The network reduced to the images touching this ayah (a member or a role here) plus the unplaced line."""
+    nf = network_file(ref)
+    if not nf:
+        return None
+    here = re.compile(rf"(?<![\d:]){re.escape(ref)}:\d+")
+    keep = []
+    for l in nf.read_text(encoding="utf-8").splitlines():
+        if re.match(r"^I\d+ \|", l):
+            disc = next((p for p in l.split(" | ") if p.startswith("disclosure:")), "")
+            if here.search(l.split(" | meets:")[0]) or any(plan_role(s, ref) for s in re.split(r"[;,]", disc)):
+                keep.append(l)
+        elif l.startswith("unplaced:"):
+            keep.append(l)
+    f = out_dir(ref) / "network.view.md"
+    f.write_text(f"# network.view.md — the surah's images that touch {ref} (from network.md; the other images are "
+                 "the surah commentary's)\n\n" + "\n".join(keep) + "\n", encoding="utf-8")
     return f
 
 
@@ -406,9 +466,9 @@ def qeq(ref: str) -> str:
     if not (out / "act.md").exists():
         return f"{ref} qeq: waiting for step 1"
     nf = network_file(ref)
-    files = [PROMPTS / "qeq.md", w / "window_text.md", a / "ayah.md", out / "act.md"]
-    files += [nf] if nf else []
-    files += [a / "concordance.md", digest(ref)]  # the reciprocal list is postponed to a final check (user, 2026-09-27)
+    files = [PROMPTS / "qeq.md", w / "window_text.md"] + ([nf] if nf else []) + [a / "ayah.md", out / "act.md"]
+    # the focus dictionary lets the fourth scope activate branches the records did not cite (review, 18:40)
+    files += [a / "dictionary.md", a / "concordance.md", digest(ref)]  # the reciprocal list is postponed to a final check (user, 2026-09-27)
     msg = call(ref, "qeq", files, "===== QEQ =====", out / "qeq.md")
     if (out / "qeq.md").exists():
         c = check_records(out / "qeq.md", r"^[FQ]\d+ \|")
@@ -446,11 +506,12 @@ def write(ref: str) -> str:
     a, out = PK.ayah_dir(ref), out_dir(ref)
     if not (out / "qeq.md").exists():
         return f"{ref} write: waiting for step 2"
-    nf, w = network_file(ref), PK.window_dir(ref)
-    prev = previous_file(ref)
-    files = [PROMPTS / "write.md", a / "ayah.md", w / "window_text.md"] + ([prev] if prev else [])
-    files += [out / "act.md", out / "qeq.md"] + ([nf] if nf else [])
-    files += [mustland(ref), a / "dictionary.md", branches_file(ref), a / "concordance.md", variants_file(ref)]
+    w = PK.window_dir(ref)
+    prev, nv = previous_file(ref), network_view(ref)
+    # shared part first (brief, window text, the network view), then the ayah's own files: a cacheable prefix in production
+    files = [PROMPTS / "write.md", w / "window_text.md"] + ([nv] if nv else []) + [a / "ayah.md"] + ([prev] if prev else [])
+    files += [out / "act.md", out / "qeq.md", mustland(ref), a / "dictionary.md", branches_file(ref), a / "concordance.md",
+              variants_file(ref)]
     return _write_call(ref, files, out / f"{PK.sa(ref)}.reading.tr.md")
 
 
@@ -480,8 +541,12 @@ def _write_call(ref: str, files: list[Path], target: Path) -> str:
             if (out_dir(ref) / "mustland.md").exists() else []
         got = {re.match(r"M\d+", l).group(0) for l in cov_lines if "landed" in l}
         held = [l for l in items if re.search(r"M\d+", l).group(0) not in got]
+        deferred = [l for l in (out_dir(ref) / "mustland.md").read_text(encoding="utf-8").splitlines() if l.startswith("- deferred |")] \
+            if (out_dir(ref) / "mustland.md").exists() else []
         (out_dir(ref) / "handforward.md").write_text(
-            f"# handforward.md — mustland items of {ref} not landed (for the surah commentary)\n\n" + "\n".join(held) + "\n",
+            f"# handforward.md — what {ref}'s commentary did not carry (for the surah commentary)\n\n"
+            "## Jobs held by the writer\n\n" + ("\n".join(held) or "(none)") + "\n\n"
+            "## Assemblies deferred by script (at most two per ayah)\n\n" + ("\n".join(deferred) or "(none)") + "\n",
             encoding="utf-8")
         c = R12.check_text(target, out_dir(ref) / "repair.log.jsonl")
         prose = target.read_text(encoding="utf-8")

@@ -203,3 +203,39 @@ images to assemble, 66 tagged passages) and the prose a 7.5K-word catalogue at 1
 Test: arm `out-v3` = step 1 and QeQ seeded from `out-v2`, network from `out-v2`, write 1:5 then 1:6 (estimate ≈ $2.0
 each), scored against the v2 column of `EVAL_ANCHORS.md` (no anchor may drop from I; form must move toward the first
 run).
+
+## 12. After the independent review (Opus 5.5, 2026-09-27, 18:45)
+
+A fresh reviewer read the design, today's changes, the three 1:6 commentaries and the v14 lane. Its findings, verified by
+the orchestrator against the files:
+- **Two bugs in `mustland()` chose 1:6's jobs.** The "words" count counted member entries, not distinct words (I14: 4
+  entries over 2 words), so the two assembly slots went to the contest scene and the halted-walker instead of being
+  decided on merit; and the staging regex `ref [staging]` missed a double tag `28:22 [same-word] [staging]`, so the
+  north star's own traveller staging never reached the writer. Demoted assemblies were not recorded anywhere
+  (handforward.md empty), against the "nothing lost silently" guardrail.
+- **"The water system is assembled nowhere" was wrong**: v2's 1:4 assembles it (¶13, incl. the well-frame), as a
+  roll-call that names later ayat's members in advance. The defect is the kind of assembly, not only its place.
+- **v3 did not remove the catalogue, it re-shaped it**: root/branch mentions per 1,000 words are 10.2 (first run), 13.6
+  (v2), 17.5 (v3), 7.6 (Sol). Headings and paragraph length cannot see this; the scoring gains a catalogue proxy.
+- For the reader the first run's 1:6 is still the best of the three; v3's strongest part is its opening (ground and
+  Turkish loss), its weakest the ~900-word war scene the buggy ranking made job #1.
+- Prose faults the anchor scoring cannot see in v3 1:6: a "not X but Y" against an attested branch ("itmek ya da sürmek
+  değildir" vs the driven hady), unsupported bridges (blood-money; "güneş tapılacak bir şey değildir"), first-person
+  memory hedges and workflow words ("kayıtlarda"), scholarly transliteration unsuited to the reader.
+- v14's JSON account is the accounting trap (51% of Sol's output bytes; 180 of 192 items claimed "connected"); v14's
+  exact-passages file, two-tag regex, per-ayah network view and "assembly shows members acting together" are worth
+  adopting.
+
+Fixed at no cost (this section's commit): distinct-word count; both tags read; **passages attached per job** (the
+findings the network attributes to this ayah → their QeQ annotations and Q-lines → tagged refs, stagings first, ≤ 3 per
+job) instead of a flat list; the axis passages (A-lines, ≤ 6) always in view; deferred assemblies recorded in
+mustland.md and handforward.md; `network.view.md` (only the images touching the ayah) replaces the whole network in
+the write input; the write and QeQ inputs ordered shared-first for caching; QeQ receives the focus dictionary; the
+write brief defines an assembly as the mechanism working with 3–5 members and bans roll-calls and naming later ayat's
+members, scales length to the ayah's words, fixes the memory marker `(hafızadan)` and Turkish transliteration, and cuts
+catalogue sentences; the network brief gives working parts `develop` at their own ayah and forbids assemblies that name
+later members.
+
+Not done yet (need a call or a decision): rerun the S1 network under the new brief and take its roles verbatim (the
+reviewer's first run; ≈ $2–3); an exact-passages file for the writer; wave-batched sequential writes for production;
+step S; two replicates per decisive comparison; shortening previous.md.

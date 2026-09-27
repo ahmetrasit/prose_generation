@@ -21,11 +21,14 @@ analysis.
   (`Q<n>`) from the passages' own words, and the axis pass (`A<n>`: passages for the plain sense and grammar). It gives
   references only: quote the Quran's Arabic yourself, exactly, where a passage does its work (every quotation is
   checked against the canonical text).
-- **network** (when present): the surah's images (`I<n>`), their members, how they interact, and a disclosure plan.
+- **network.view.md** (when present): the surah's images (`I<n>`) that touch this ayah, their members, how they
+  interact, and a disclosure plan. The other images belong to the surah commentary.
 - **mustland.md** (made by script from the network and QeQ): the ranked budget of this ayah. Its **jobs** (M-items) are
   the images this ayah assembles, develops or first meets, ranked by the job and by how many of this ayah's words are
-  members; at most two images are assembled in any one ayah. Below the jobs it lists the images this ayah merely
-  touches, and the passages QeQ tagged as telling a latent scene openly. Only the jobs are answered in the coverage
+  members; at most two images are assembled in any one ayah. Each job names the findings of this ayah it absorbs and
+  the passages QeQ attached to them (stagings first): quote the ones that do the job's work. Below the jobs it lists
+  the images this ayah merely touches, the assemblies deferred to the surah commentary, and the axis passages (QeQ's
+  pass on the plain sense and grammar), which stay in view for the ground. Only the jobs are answered in the coverage
   block.
 - **dictionary.md**: every branch of the focus roots (gloss | image | definition | first phrase), for the concept and
   what Turkish loses; **branches.md**: the dictionary lines of every other branch the findings cite. Quote dictionary
@@ -55,8 +58,11 @@ The records are evidence, not an outline and not an obligation list.
 
 ## What to land, and how much
 
-Land the jobs: an `assemble` as the whole image, every member, shown as one scene (not a sentence that names it); a
-`develop` as a real step through this ayah's word; a `meet` as the reader's first sense of the image. Everything else
+Land the jobs: an `assemble` as the mechanism working, the three to five members that make it move acting together in
+one scene, the rest in a clause or left to the surah commentary; a `develop` as a real step through this ayah's word;
+a `meet` as the reader's first sense of the image. An assembly is never a roll-call: no sentence that walks the members
+ayah by ayah ("1:2'de …, 1:4'te …, 1:7'de …"), and no member of a later ayah the reader has not met yet; what a later
+ayah brings is left to it. Everything else
 in the evidence is chosen by payoff: what does a reading make perceptible in the plain reading that a paraphrase
 could not (more spatial, bodily, causal, relational, material, temporal, compositional)? A reading with a small
 payoff stays a clause or is left to the surah commentary; a bold reading with a real payoff gets the room it needs.
@@ -64,11 +70,12 @@ Several findings, members, meetings and passages often do one explanatory job: g
 write a paragraph per record, and never land something only because a list names it. A job you cannot land honestly
 is held, with the reason, in the coverage block; it goes on to the surah commentary.
 
-Size follows payoff, but the reader's attention is finite. A commentary of this kind usually runs 3,000–4,500 words
-and is longer only when an assembled scene needs it. Each paragraph carries one movement (roughly 80–200 words); a
-paragraph that runs past 300 words is two paragraphs or one too many. Use 3–6 headings that name real movements of the
-reading, so the reader can find their way back. Aim at 50–90 Arabic tags: a quotation earns its place by doing work
-the prose could not do without it.
+Size follows payoff, but the reader's attention is finite. Length scales with the ayah: about 900–1,200 words per focus
+word plus what an assembled scene needs, so a three-word ayah lands near 3,000–4,000 words and a one-word ayah far
+below. Each paragraph carries one movement (roughly 80–200 words); a paragraph that runs past 300 words is two
+paragraphs or one too many. Use 3–6 headings that name real movements of the reading, so the reader can find their way
+back. A quotation earns its place by doing work the prose could not do without it; a sentence that only names roots
+and branches ("bu kökte …, o kökün dalında …") one after another is a catalogue and is cut.
 
 ## How to write
 
@@ -87,10 +94,14 @@ the prose could not do without it.
   rereading the ayah, not by relisting.
 - What QeQ adds (a "shifts", "expands" or "none") stands beside the latent reading in a clause at most; it never turns
   the reading into "only an echo" and never reverses it.
-- Counts of uses come only from the concordance; any other count, variant, hadith or grammar claim from memory is
-  marked as such. Do not say an image "has been followed since the start of the surah" unless previous.md shows it. No
-  defensive disclaimers at the end of paragraphs; state a real qualification where the reader needs it. Internal labels
-  (F/Q/I/M ids, branch ids), file names, confidence and workflow language do not belong in the prose.
+- Counts of uses come only from the concordance. A count, variant, hadith, grammar or tradition claim that comes from
+  memory rather than from the evidence carries the fixed marker `(hafızadan)` at the end of its sentence, and nothing
+  else: no first-person hedges ("benim bildiğim", "bildiğim kadarıyla"), no reference to records, files or dictionary
+  lines. Do not say an image "has been followed since the start of the surah" unless previous.md shows it. No defensive
+  disclaimers or apologetic asides; state a real qualification where the reader needs it. Internal labels (F/Q/I/M
+  ids, branch ids), file names, confidence and workflow language do not belong in the prose.
+- Transliteration follows the Turkish convention the reader can sound out: â î û for long vowels, plain consonants
+  (sırât, ihdinâ, el-mustakîm, nesteîn), not the scholarly system (ṣ-ṣirāṭa, ʿ).
 
 ## Arabic tags (checked by scripts)
 

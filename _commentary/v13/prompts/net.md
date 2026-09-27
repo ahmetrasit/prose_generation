@@ -24,7 +24,10 @@ Quran and write the commentaries from your network.
   `develop` (it grows here), `assemble` (the whole image is shown here, with every member). One `assemble` per image,
   placed where the ayah's own words carry the image's working parts (not simply its last member), and **no ayah
   assembles more than two images**: an ayah commentary cannot show eight whole scenes. Images that find no room are
-  assembled in the surah commentary; give them `develop` at their strongest ayah instead.
+  assembled in the surah commentary; give them `develop` at their strongest ayah instead. A member that is a working
+  part of a mechanism (the frame that lifts the water, the lead animal, the way-mark that is read) gets `develop` at its
+  own ayah whoever assembles. An assembly shows the members the reader has met by then; it never names a later ayah's
+  members in advance (that is the later ayah's disclosure).
 
 ## Your final message
 
