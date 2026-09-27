@@ -7,6 +7,7 @@ import shutil
 from pathlib import Path
 
 import synthesis as S
+import sources as SRC
 
 ROOT = Path(__file__).resolve().parent
 SNAPSHOT = ROOT / "baseline.manifest.json"
@@ -39,7 +40,9 @@ def baseline_check() -> dict:
             "ok": not changed and not copies_changed}
 
 
-def prepare(arm: Path, source: Path, refs: list[str]) -> dict:
+def prepare(arm: Path, source: Path, refs: list[str], source_mode: str = "inline") -> dict:
+    if source_mode not in ("inline", "lookup"):
+        raise ValueError("Source mode must be inline or lookup")
     if archived(arm):
         raise ValueError("Choose a new --tag; copied v13 arms are immutable")
     if arm.exists():
@@ -51,6 +54,7 @@ def prepare(arm: Path, source: Path, refs: list[str]) -> dict:
         raise ValueError("Expected positive S:A references")
     copies = {}
     inventories = {}
+    quran = SRC.corpus()
     for ref in refs:
         saved = ayah_dir(source, ref)
         dest = ayah_dir(Path("."), ref)
@@ -76,6 +80,8 @@ def prepare(arm: Path, source: Path, refs: list[str]) -> dict:
         window = (work / "window").read_text().strip()
         copies[str(dest / "inputs" / "window_text.md")] = ROOT / window / "window_text.md"
     copies["inputs/write.md"] = ROOT / "prompts" / "write.md"
+    if source_mode == "lookup":
+        copies["inputs/quran.tsv"] = SRC.QURAN_TEXT
     # Validate all sources before creating the destination.
     for src in copies.values():
         if not src.is_file():
@@ -87,9 +93,37 @@ def prepare(arm: Path, source: Path, refs: list[str]) -> dict:
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(src, target)
         hashes[name] = S.sha(target)
-        origins[name] = str(src.relative_to(ROOT))
+        origins[name] = str(src.relative_to(ROOT)) if src.is_relative_to(ROOT) else str(src)
     for ref, data in inventories.items():
         out = ayah_dir(arm, ref)
+        for name, normalize in (("concordance.md", SRC.concordance), ("window_text.md", SRC.window)):
+            target = out / "inputs" / name
+            target.write_text(normalize(target.read_text(), quran), encoding="utf-8")
+            key = str(target.relative_to(arm))
+            hashes[key] = S.sha(target)
+            origins[key] += " (Quran quotations mapped to the verifier corpus)"
+        concordance_refs = set(re.findall(r"^- (\d+:\d+):\d+ ", (out / "inputs" / "concordance.md").read_text(), re.M))
+        window_refs = set(re.findall(r"^(\d+:\d+)\|", (out / "inputs" / "window_text.md").read_text(), re.M))
+        references = set(data["passages"]) | concordance_refs | window_refs | {ref}
+        if source_mode == "inline":
+            pf = out / "inputs" / "passages.md"
+            pf.write_text(SRC.render(quran, references), encoding="utf-8")
+        else:
+            pf = out / "inputs" / "source_access.md"
+            command = f"python3 -B {ROOT / 'sources.py'} --tag {arm.name.removeprefix('out-')} --ref {ref} --refs S:A,S:A --context 1"
+            pf.write_text("# source_access.md — exact Quran passages on demand\n\n"
+                          "Before developing a Quran cross-reference, retrieve its actual text and adjacent context. "
+                          "Use this command, replacing S:A,S:A with the references you need (up to 16 per request):\n\n"
+                          f"    {command}\n\n"
+                          "The helper reads only the frozen Quran corpus and logs the returned references and bytes. "
+                          "It never calls a model. Context may be 0, 1, 2 or 3 ayat on each side; use further requests "
+                          "when a scene needs more context. Do not read the entire corpus or unrelated repository files. "
+                          "Copy Quran quotations from returned text or the normalized concordance. Retrieval is for "
+                          "checking and understanding the passages you develop, not for turning all candidates into "
+                          "obligatory quotations. The full preceding prose is reader context, not a quotation source.\n",
+                          encoding="utf-8")
+        hashes[str(pf.relative_to(arm))] = S.sha(pf)
+        origins[str(pf.relative_to(arm))] = "Verifier Quran corpus; exact passages or selective lookup access"
         digest = ROOT.parent / "v9" / "lines" / "work" / ref.replace(":", "_") / "digest_v2.md"
         variants = "No supplied variant readings. Do not invent one.\n"
         if digest.exists():
@@ -107,7 +141,8 @@ def prepare(arm: Path, source: Path, refs: list[str]) -> dict:
         for step in ("act", "qeq"):
             dump(out / f"{step}.status.json", {"state": "reused", "source": origins[str((out / f'{step}.md').relative_to(arm))],
                                              "sha256": S.sha(out / f"{step}.md"), "cost": 0})
-    manifest = {"schema": 1, "source_arm": source.name, "refs": refs, "upstream": "frozen",
+    manifest = {"schema": 1, "writer_contract": 2, "source_mode": source_mode, "source_arm": source.name, "refs": refs, "upstream": "frozen",
+                "quran_source": {"path": str(SRC.QURAN_TEXT), "sha256": S.sha(SRC.QURAN_TEXT)},
                 "default_writer": {"model": "opus", "effort": "high"}, "files": hashes, "origins": origins}
     dump(arm / "experiment.json", manifest)
     return manifest
@@ -117,6 +152,9 @@ def verify(arm: Path) -> dict:
     if archived(arm):
         raise ValueError("Copied v13 data is read-only")
     manifest = json.loads((arm / "experiment.json").read_text())
+    source = manifest.get("quran_source")
+    if source and S.sha(Path(source["path"])) != source["sha256"]:
+        raise ValueError("Verifier Quran corpus changed since preparation")
     changed = [name for name, digest in manifest["files"].items()
                if not (arm / name).is_file() or S.sha(arm / name) != digest]
     if changed:
@@ -160,6 +198,8 @@ def packet(arm: Path, ref: str) -> tuple[str, dict]:
     files = [arm / "inputs" / "write.md", out / "inputs" / "ayah.md", out / "inputs" / "window_text.md",
              out / "synthesis.md", out / "inputs" / "dictionary.md", out / "inputs" / "branches.md",
              out / "inputs" / "concordance.md", out / "inputs" / "variants.md"]
+    if manifest.get("writer_contract", 1) >= 2:
+        files.append(out / "inputs" / ("source_access.md" if manifest.get("source_mode") == "lookup" else "passages.md"))
     text = "\n\n".join(f"===== {p.name} =====\n{p.read_text()}" for p in files)
     text += "\n\n===== previous.md =====\n" + earlier
     return text, {"ref": ref, "files": {str(p.relative_to(arm)): S.sha(p) for p in files},
@@ -202,7 +242,7 @@ def claim(arm: Path, ref: str, model: str, effort: str) -> Path:
 
 
 def ingest(arm: Path, ref: str, response: str, usage: dict | None = None) -> dict:
-    verify(arm)
+    manifest = verify(arm)
     out = ayah_dir(arm, ref)
     started = json.loads((out / "write.started.json").read_text())
     if S.sha(out / "write.input.md") != started["input_sha256"]:
@@ -223,6 +263,8 @@ def ingest(arm: Path, ref: str, response: str, usage: dict | None = None) -> dic
     if not marker or len(body.split()) < 300 or "===== CONTINUE =====" in response:
         errors.append("Missing final synthesis marker, incomplete output or insufficient prose")
     data = json.loads((out / "synthesis.json").read_text())
+    if manifest.get("writer_contract", 1) >= 2 and (not isinstance(account, dict) or account.get("schema") != 2):
+        errors.append("This arm requires the compact synthesis account (schema 2)")
     check = S.check_account(data, body.strip(), account)
     check["errors"] += errors
     check["structurally_valid"] = check["structurally_valid"] and not errors

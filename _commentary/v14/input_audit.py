@@ -25,6 +25,8 @@ def audit(arm: Path, ref: str) -> dict:
         'branches.md': 'cross-root evidence beyond the focus dictionary',
         'concordance.md': 'verified count scope and recurring-use patterns',
         'variants.md': 'only meaningful alternative readings, no conflicting legacy usage table',
+        'passages.md': 'deduplicated complete ayat for QeQ leads, concordance and window; verifier spelling',
+        'source_access.md': 'selective access to exact Quran text and adjacent context; returned bytes logged separately',
     }
     inputs = [{'file': name, 'bytes': (arm / name).stat().st_size, 'job': roles[Path(name).name]}
               for name in receipt['files']]
@@ -50,6 +52,16 @@ def audit(arm: Path, ref: str) -> dict:
                                  'Previous context covers one ayah, not a complete verified surah reader state.',
                                  'Dictionary branches supply first classical phrases, not all attested quotations.']}
     reading = out / f"{ref.replace(':', '_')}.reading.tr.md"
+    if manifest.get('writer_contract', 1) >= 2:
+        result['remaining_gaps'].remove('QeQ passage leads are mostly references and descriptions, not retrieved Arabic with context.')
+        result['source_mode'] = manifest['source_mode']
+        result['remaining_gaps'].append('Passage text is available; actual use and sufficient surrounding context still need review.')
+        if manifest['source_mode'] == 'lookup':
+            log = out / 'source.lookups.jsonl'
+            queries = [json.loads(line) for line in log.read_text().splitlines()] if log.exists() else []
+            result['lookup_input'] = {'calls': len(queries), 'returned_bytes': sum(q['bytes'] for q in queries),
+                                      'distinct_ayat': len({ref for q in queries for ref in q['returned']}),
+                                      'note': 'Add tool responses to initial input; actual tokens/billing are not known from bytes.'}
     if reading.exists():
         text = reading.read_text()
         cited = S.prose_passages(text)

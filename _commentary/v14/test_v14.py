@@ -3,11 +3,14 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+import io
+from contextlib import redirect_stdout
 from unittest.mock import patch
 
 import experiment as EX
 import synthesis as S
 import review as R
+import sources as SRC
 
 
 class SynthesisTests(unittest.TestCase):
@@ -73,17 +76,66 @@ class SynthesisTests(unittest.TestCase):
         self.assertFalse(check['structurally_valid'])
         self.assertEqual(check['decisions']['F1']['level'], 'deferred')
 
+    def test_compact_anchors_resolve_complete_paragraphs_without_model_repetition(self):
+        first = 'A source illuminates the receiver. ' + 'The explanation develops the relationship. ' * 12
+        second = 'A different passage explains the consequence for the reader.'
+        account = {'schema': 2, 'bundles': [{'id': 'B1', 'items': ['F1'], 'level': 'connected',
+                    'evidence': ['A source illuminates the receiver.', second], 'payoff': 'Source and consequence.'}],
+                   'deferred': [{'items': 'remaining', 'destination': 'review', 'reason': 'not developed'}]}
+        check = S.check_account(self.data(), first + '\n\n' + second, account)
+        self.assertTrue(check['structurally_valid'])
+        self.assertEqual(check['decisions']['F1']['evidence'], first + '\n\n' + second)
+        account['bundles'][0]['evidence'] = [first]
+        self.assertFalse(S.check_account(self.data(), first, account)['structurally_valid'])
+        account['bundles'][0]['evidence'] = ['A source illuminates the receiver.']
+        self.assertFalse(S.check_account(self.data(), first + '\n\n' + first, account)['structurally_valid'])
+
+
+class SourceContractTests(unittest.TestCase):
+    def test_concordance_maps_declared_clause_to_exact_source_and_keeps_counts(self):
+        quran = {'24:35': 'نُورٌۭ عَلَىٰ نُورٍۢ'}
+        original = '## root — 12 uses\n- 24:35:3 [lemma N] نُورٌ عَلَىٰ ⟦نُورٍ⟧\n'
+        normalized = SRC.concordance(original, quran)
+        self.assertIn('12 uses', normalized)
+        self.assertIn(quran['24:35'], normalized)
+        with self.assertRaises(ValueError):
+            SRC.exact_excerpt('كِتَاب', '24:35', quran)
+        with self.assertRaises(ValueError):
+            SRC.exact_excerpt('نور', '24:35', quran)
+
+    def test_exact_passages_deduplicate_and_reject_unknown_references(self):
+        quran = {'24:35': 'نُورٌۭ عَلَىٰ نُورٍۢ'}
+        self.assertEqual(SRC.render(quran, {'24:35'}).count('## 24:35'), 1)
+        with self.assertRaises(ValueError):
+            SRC.render(quran, {'24:36'})
+        with self.assertRaises(ValueError):
+            SRC.window('24:35|كِتَاب\n', quran)
+
+    def test_lookup_context_stays_in_surah_and_has_bounded_requests(self):
+        quran = {f'24:{a}': f'text {a}' for a in range(1, 5)}
+        self.assertEqual(SRC.select(quran, {'24:1', '24:3'}, 1), set(quran))
+        self.assertEqual(SRC.select(quran, {'24:3'}, 0), {'24:3'})
+        with self.assertRaises(ValueError):
+            SRC.select(quran, {'24:5'}, 1)
+        with self.assertRaises(ValueError):
+            SRC.select(quran, {'24:3'}, 10)
+
 
 class FrozenExperimentTests(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
-        self.root = Path(self.tmp.name)
+        self.root = Path(self.tmp.name) / 'v14'
+        self.root.mkdir()
         self.patch = patch.object(EX, 'ROOT', self.root)
         self.patch.start()
         self.snapshot = self.root / 'baseline.manifest.json'
         self.snapshot.write_text(json.dumps({'files': {'out-v2/example': 'hash'}}))
         self.patch2 = patch.object(EX, 'SNAPSHOT', self.snapshot)
         self.patch2.start()
+        source = self.root.parent/'quran.tsv'
+        source.write_text(''.join(f'24:{a}|source text {a}\n' for a in range(34, 37)))
+        self.source_patch = patch.object(SRC, 'QURAN_TEXT', source)
+        self.source_patch.start()
         (self.root/'prompts').mkdir()
         (self.root/'prompts/write.md').write_text('Synthesis brief. Do not read evaluation material.')
         for a in (35, 36):
@@ -105,7 +157,7 @@ class FrozenExperimentTests(unittest.TestCase):
         self.arm=self.root/'out-trial'
 
     def tearDown(self):
-        self.patch2.stop(); self.patch.stop(); self.tmp.cleanup()
+        self.source_patch.stop(); self.patch2.stop(); self.patch.stop(); self.tmp.cleanup()
 
     def test_frozen_content_and_no_target_or_eval_leak(self):
         EX.prepare(self.arm,self.root/'out-v2',['24:35'])
@@ -123,7 +175,7 @@ class FrozenExperimentTests(unittest.TestCase):
         EX.export(self.arm,'24:35')
         EX.claim(self.arm,'24:35','test-model','max')
         body=' '.join(['The commentary develops a connected explanation.']*70)
-        account={'bundles':[], 'deferred':[{'items':'remaining','destination':'surah','reason':'test deferral'}]}
+        account={'schema':2, 'bundles':[], 'deferred':[{'items':'remaining','destination':'surah','reason':'test deferral'}]}
         EX.ingest(self.arm,'24:35',body+'\n===== SYNTHESIS =====\n'+json.dumps(account))
         packet,receipt=EX.packet(self.arm,'24:36')
         self.assertIn(body,packet)
@@ -153,6 +205,37 @@ class FrozenExperimentTests(unittest.TestCase):
         path.write_text('changed after model started')
         with self.assertRaisesRegex(ValueError,'changed during generation'):
             EX.ingest(self.arm,'24:35','any response')
+
+    def test_corpus_change_invalidates_new_packet_but_old_arms_are_compatible(self):
+        EX.prepare(self.arm,self.root/'out-v2',['24:35'])
+        text, _ = EX.packet(self.arm,'24:35')
+        self.assertIn('passages.md', text)
+        SRC.QURAN_TEXT.write_text('changed corpus')
+        with self.assertRaisesRegex(ValueError,'corpus changed'):
+            EX.packet(self.arm,'24:35')
+
+    def test_lookup_corpus_is_frozen_but_not_bulk_writer_input(self):
+        manifest = EX.prepare(self.arm,self.root/'out-v2',['24:35'],source_mode='lookup')
+        text, _ = EX.packet(self.arm,'24:35')
+        self.assertIn('source_access.md', text)
+        self.assertNotIn('source text 34', text)
+        self.assertIn('inputs/quran.tsv', manifest['files'])
+        (self.arm/'inputs/quran.tsv').write_text('changed lookup corpus')
+        with self.assertRaisesRegex(ValueError,'Frozen evidence changed'):
+            EX.packet(self.arm,'24:35')
+
+    def test_lookup_cli_returns_and_logs_exact_additional_input(self):
+        EX.prepare(self.arm,self.root/'out-v2',['24:35'],source_mode='lookup')
+        EX.export(self.arm,'24:35')
+        EX.claim(self.arm,'24:35','test','max')
+        output = io.StringIO()
+        with patch('sys.argv',['sources.py','--tag','trial','--ref','24:35','--refs','24:34','--context','1']), redirect_stdout(output):
+            SRC.main()
+        record = json.loads((EX.ayah_dir(self.arm,'24:35')/'source.lookups.jsonl').read_text())
+        self.assertEqual(record['requested'], ['24:34'])
+        self.assertEqual(record['returned'], ['24:34', '24:35'])
+        self.assertEqual(record['bytes'], len(output.getvalue().encode()))
+        self.assertNotIn('source text 36', output.getvalue())
 
 
 class AcceptanceTests(unittest.TestCase):

@@ -179,6 +179,10 @@ def check_account(data: dict, prose: str, account: dict) -> dict:
     if not isinstance(account, dict):
         account = {}
         errors.append("synthesis account must be a JSON object")
+    version = account.get("schema", 1)
+    if version not in (1, 2):
+        errors.append("unsupported synthesis account schema")
+    paragraphs = [p for p in prose.split("\n\n") if p.strip()]
     rows, deferred = account.get("bundles", []), account.get("deferred", [])
     if not isinstance(rows, list) or not isinstance(deferred, list):
         rows, deferred = [], []
@@ -192,20 +196,29 @@ def check_account(data: dict, prose: str, account: dict) -> dict:
         level = row.get("level")
         keys = row.get("items", [])
         evidence, payoff = row.get("evidence", ""), row.get("payoff", "")
+        evidence_valid = isinstance(evidence, str) and len(evidence.strip()) >= 20 and evidence in prose
+        resolved = evidence
+        if version == 2:
+            evidence_valid = (isinstance(evidence, list) and 1 <= len(evidence) <= 3
+                              and all(isinstance(anchor, str) and 20 <= len(anchor.strip()) <= 240
+                                      for anchor in evidence))
+            matches = [[p for p in paragraphs if anchor in p] for anchor in evidence] if evidence_valid else []
+            evidence_valid = evidence_valid and all(len(found) == 1 for found in matches)
+            resolved = "\n\n".join(dict.fromkeys(p for found in matches for p in found))
         valid = (bool(re.fullmatch(r"B\d+", str(bid))) and bid not in seen_bundles
                  and level in ("mentioned", "explained", "connected")
                  and isinstance(keys, list) and bool(keys) and all(isinstance(k, str) and k in items for k in keys)
-                 and isinstance(evidence, str) and len(evidence.strip()) >= 20 and evidence in prose
-                 and isinstance(payoff, str) and bool(payoff.strip()))
+                 and evidence_valid and isinstance(payoff, str) and bool(payoff.strip())
+                 and (version != 2 or len(payoff) <= 240))
         seen_bundles.add(str(bid))
         if not valid:
-            errors.append(f"{bid or '?'}: invalid IDs, level, payoff or non-verbatim evidence")
+            errors.append(f"{bid or '?'}: invalid IDs, level, payoff or evidence (schema 2 needs short, unambiguous anchors)")
             continue
         for key in keys:
             if key in decisions:
                 errors.append(f"{key}: duplicate disposition; join its explanations in one bundle")
-            decisions[key] = {"level": level, "bundle": bid, "evidence": evidence, "payoff": payoff}
-        bundles.append(row)
+            decisions[key] = {"level": level, "bundle": bid, "evidence": resolved, "payoff": payoff}
+        bundles.append(dict(row, resolved_evidence=resolved) if version == 2 else row)
     # A single explicit remainder declaration avoids hundreds of bookkeeping lines.
     for row in deferred:
         if not isinstance(row, dict):

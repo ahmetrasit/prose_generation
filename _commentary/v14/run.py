@@ -337,6 +337,8 @@ def write(ref: str) -> str:
     """Only prepared, frozen arms use the v14 writer; preceding candidates must finish first."""
     if EFFORT != "high":
         raise ValueError("The controlled Opus writer holds effort at high; external models have separate provenance")
+    if EX.verify(OUT).get("source_mode") == "lookup":
+        raise ValueError("This tool-free Opus runner needs an inline-source arm; lookup arms require an external tool-capable writer")
     if get_status(ref, "write")["state"] in (*CALLED, "review-needed"):
         return f"{ref} write: already called; never again"
     EX.export(OUT, ref)
@@ -398,6 +400,7 @@ def main() -> None:
     ap.add_argument("--tag")
     ap.add_argument("--max-cost", type=float, default=5.0)
     ap.add_argument("--seed-from", default="v2")
+    ap.add_argument("--source-mode", choices=("inline", "lookup"), default="inline", help="prepare: complete passages inline, or selective lookup for external writers")
     ap.add_argument("--network-from")
     ap.add_argument("--response", type=Path)
     ap.add_argument("--execute", action="store_true", help="allow the explicitly requested model step")
@@ -424,13 +427,16 @@ def main() -> None:
         ap.error("Choose a new --tag; copied v13 arms are read-only")
     if a.step == "prepare":
         src = V13 / (f"out-{a.seed_from}" if a.seed_from else "out")
-        result = EX.prepare(OUT, src, refs)
+        result = EX.prepare(OUT, src, refs, source_mode=a.source_mode)
         print(f"Frozen {len(result['files'])} files for {', '.join(result['refs'])}; no model called")
         return
     if a.step == "preview":
         for ref in refs:
             result = EX.export(OUT, ref)
-            print(f"{ref}: {result['input_bytes']:,} bytes; Opus high estimate ${estimate(result['input_bytes'], 'write'):.2f}; no model called")
+            if EX.verify(OUT).get("source_mode") == "lookup":
+                print(f"{ref}: {result['input_bytes']:,} initial bytes; source lookup responses are additional; external writer only; no model called")
+            else:
+                print(f"{ref}: {result['input_bytes']:,} bytes; Opus high estimate ${estimate(result['input_bytes'], 'write'):.2f}; no model called")
         return
     if a.step == "external-start":
         if len(refs) != 1:

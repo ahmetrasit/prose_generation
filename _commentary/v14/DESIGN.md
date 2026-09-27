@@ -1,5 +1,7 @@
 # v14 design — 2026-09-27
 
+For the subsequent exact-source/compact-account revision and the controlled same-model repeat, see STABILIZATION.md.
+
 v14 began as a byte-for-byte copy of all 308 v13 files. `baseline.manifest.json` records their hashes and source
 commit. The copied out*/ and work/ data remain unchanged. The active changes are confined to writing experiments
 and their evaluation. The v13 discovery/network/QeQ prompts and packet builder are retained unchanged; this is

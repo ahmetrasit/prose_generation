@@ -3,6 +3,13 @@
 Read DESIGN.md and INPUT_AUDIT.md. The v13 handoff remains at ../v13/HANDOFF.md. V14 began as an exact copy of all
 308 files; baseline.manifest.json records that snapshot. Never edit copied historical out*/ or work/ files.
 
+Latest revision: read STABILIZATION.md. New arms have exact source mapping and compact schema-2 evidence anchors.
+The agreed repeat is prepared at out-sol-stable using lookup mode, the same Sol max model/effort, v2 upstream and
+full v2 1:5 context. Its initial input is 203,821 bytes, plus whichever lookup responses the writer requests.
+Twenty offline tests now pass. The earlier out-sol-max result and its review below remain historical, unchanged.
+Concurrent commits f1465ac9b/91ce372cc advanced live v13. `audit` now reports that live-source drift while the copied
+historical data remains unchanged; do not restore v13. See STABILIZATION.md for the scope of this check.
+
 User scope: create v14 from v13, revise the synthesis handover and regression protection, audit redundant/missing
 inputs, then run one Sol agent at max effort on a chosen ayah and compare with earlier runs. Selected ayah: 1:6.
 No unrequested Opus runs. Comparisons are done by the primary agent. The user explicitly authorized this Sol writer.
