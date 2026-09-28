@@ -279,6 +279,33 @@ def root_uses(root):
     return _ROOT_USES.get(root, 0)
 
 
+def jobs_frames_missing():
+    """One job for branches that a finished frames job was given but did not return."""
+    returned, expected = set(), set()
+    for p in glob.glob(os.path.join(DATA, 'frames', 'jobs', '*', 'keys.json')):
+        out = os.path.join(DATA, 'frames', 'out', os.path.basename(os.path.dirname(p)) + '.json')
+        if os.path.exists(out):
+            expected |= set(lib.read_json(p))
+            returned |= {it['key'] for it in lib.read_json(out).get('items', [])}
+    missing = sorted(expected - returned)
+    bk, hints = lib.branch_by_key(), qnet_hints()
+    batch = [(k, bk[k]) for k in missing if k in bk]
+    if not batch:
+        print('frames: no branch is missing')
+        return
+    jid = 'frames_missing_' + hashlib.sha1('|'.join(k for k, _ in batch).encode()).hexdigest()[:10]
+    d = os.path.join(DATA, 'frames', 'jobs', jid)
+    lines = [f"- {k} | {b['image']} | {b['what_is']} | {b['source_phrase'][:320]}"
+             + (f" | hints: {', '.join(hints.get((b['root_id'], b['branch']), [])[:8])}" if hints.get((b['root_id'], b['branch'])) else '')
+             for k, b in batch]
+    lib.write_text(os.path.join(d, 'input.md'), f"# Branches to tag ({len(batch)})\n\nkey | image | definition | "
+                   "classical phrases | hints\n\n" + '\n'.join(lines) + '\n')
+    lib.write_json(os.path.join(d, 'keys.json'), [k for k, _ in batch])
+    lib.write_json(os.path.join(d, 'job.json'), {'kind': 'frames', 'prompt': 'luna_frames.md', 'schema': 'frames.schema.json',
+                                                 'extra': ['data/frames_inventory.json'], 'out': f'data/frames/out/{jid}.json'})
+    print(f"frames: {len(batch)} branches were not returned -> job {jid}: {[k for k, _ in batch]}")
+
+
 def root_index_lines(root, limit=None, tr=True, image_only=False):
     """One line per branch: id | image | definition (| Turkish gloss). Never drops a branch."""
     out = []
@@ -915,10 +942,13 @@ def main():
     ap.add_argument('--refs', help="loanwords/profiles: only the lemmas of these ayat, e.g. '4:34,5:6'")
     ap.add_argument('--sample', type=int, help='frames only: tag a random sample of branches from the whole Quran')
     ap.add_argument('--seed', type=int, default=15)
+    ap.add_argument('--missing', action='store_true', help='frames only: one job for branches finished jobs did not return')
     ap.add_argument('--exclude', help="with --sample: surahs, ayat or ranges whose roots are left out, e.g. '1,100,5:6,29:39-45'")
     x = ap.parse_args()
     if x.cmd == 'base':
         build_base()
+    elif x.cmd == 'jobs' and x.kind == 'frames' and x.missing:
+        jobs_frames_missing()
     elif x.cmd == 'jobs' and x.kind == 'frames':
         jobs_frames(parse_surahs(x.surahs or ''), sample=x.sample, seed=x.seed, exclude=x.exclude)
     elif x.cmd == 'jobs':
