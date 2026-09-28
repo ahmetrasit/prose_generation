@@ -4,6 +4,8 @@
   base                      derive data/words.tsv, branches.tsv, lemmas.tsv, quran.tsv
   jobs frames|loanwords|profiles --surahs 1,100
                             write Luna job inputs for what the scope still lacks
+  jobs loanwords|profiles --refs 4:34,5:6
+                            Luna job inputs for the lemmas of these ayat only
   jobs frames --sample 120 --exclude 1,100,103,5:6
                             scene-tag jobs for a random sample of branches (inventory coverage test)
   pull --surahs 1,100       write per-root classical entries and per-lemma concordances
@@ -176,6 +178,12 @@ def scope_lemmas(surahs):
     return out
 
 
+def refs_lemmas(refs):
+    """(root, lemma) pairs of the given ayat (own roots only)."""
+    return {(r, lemma) for ref in refs for wd in ayah_words(ref) for r, lemma, alt, _ in word_roots(wd)
+            if not alt and lemma}
+
+
 def safe(name):
     return re.sub(r'\s+', '', lib.skeleton(name)) + '_' + hashlib.sha1(name.encode()).hexdigest()[:6]
 
@@ -284,9 +292,9 @@ def root_index_lines(root, limit=None, tr=True, image_only=False):
     return out
 
 
-def jobs_loanwords(surahs):
+def jobs_loanwords(surahs, refs=None):
     have = lib.loanword_cards()
-    todo = sorted(k for k in scope_lemmas(surahs) if f'{k[0]}|{k[1]}' not in have)
+    todo = sorted(k for k in (refs_lemmas(refs) if refs else scope_lemmas(surahs)) if f'{k[0]}|{k[1]}' not in have)
     n = CFG['jobs']['lemmas_per_loanword_job']
     made = 0
     for i in range(0, len(todo), n):
@@ -306,10 +314,10 @@ def jobs_loanwords(surahs):
     print(f"loanwords: {len(todo)} lemmas need cards -> {made} new jobs")
 
 
-def jobs_profiles(surahs):
+def jobs_profiles(surahs, refs=None):
     have = lib.profiles()
     lem = lib.lemmas()
-    todo = sorted(k for k in scope_lemmas(surahs)
+    todo = sorted(k for k in (refs_lemmas(refs) if refs else scope_lemmas(surahs))
                   if len(lem.get(k, [])) >= CFG['jobs']['profile_min_uses'] and f'{k[0]}|{k[1]}' not in have)
     made = 0
     for root, lemma in todo:
@@ -878,6 +886,7 @@ def main():
     ap.add_argument('--surah', type=int)
     ap.add_argument('--ayah', type=int)
     ap.add_argument('--ref')
+    ap.add_argument('--refs', help="loanwords/profiles: only the lemmas of these ayat, e.g. '4:34,5:6'")
     ap.add_argument('--sample', type=int, help='frames only: tag a random sample of branches from the whole Quran')
     ap.add_argument('--seed', type=int, default=15)
     ap.add_argument('--exclude', help="with --sample: surahs, ayat or ranges whose roots are left out, e.g. '1,100,5:6,29:39-45'")
@@ -887,7 +896,8 @@ def main():
     elif x.cmd == 'jobs' and x.kind == 'frames':
         jobs_frames(parse_surahs(x.surahs or ''), sample=x.sample, seed=x.seed, exclude=x.exclude)
     elif x.cmd == 'jobs':
-        {'loanwords': jobs_loanwords, 'profiles': jobs_profiles}[x.kind](parse_surahs(x.surahs))
+        refs = [r.strip() for r in x.refs.split(',')] if x.refs else None
+        {'loanwords': jobs_loanwords, 'profiles': jobs_profiles}[x.kind](parse_surahs(x.surahs or ''), refs=refs)
     elif x.cmd == 'pull':
         build_pull(parse_surahs(x.surahs))
     elif x.cmd == 'window':

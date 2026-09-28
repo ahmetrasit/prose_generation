@@ -136,11 +136,26 @@ def resolve(text, s, a, cited):
     for ref, t in lib.quran().items():
         if len(sk) > 4 and sk in lib.skeleton(t).replace(' ', ''):
             return ref
-    for wd in lib.words()[f'{s}:{a}']:
-        for root in roots_for(wd):
-            for b in lib.branches().get(root, []):
-                if len(sk) > 3 and sk in lib.skeleton(b['image'] + b['what_is'] + b['source_phrase']).replace(' ', ''):
-                    return f"{root} {b['branch']}"
+    ayah_roots = [root for wd in lib.words()[f'{s}:{a}'] for root in roots_for(wd)]
+    for root in ayah_roots:
+        for b in lib.branches().get(root, []):
+            if len(sk) > 3 and sk in lib.skeleton(b['image'] + b['what_is'] + b['source_phrase']).replace(' ', ''):
+                return f"{root} {b['branch']}"
+    # a phrase from the full classical entries the agent read (data/entries/<root>.md): cite the root and source work
+    roots = list(dict.fromkeys([k.rsplit(' ', 1)[0] for k in cited] + ayah_roots))
+    for root in roots:
+        p = os.path.join(lib.DATA, 'entries', root.replace(' ', '') + '.md')
+        if not os.path.exists(p):
+            continue
+        with open(p, encoding='utf-8') as f:
+            for part in f.read().split('\n## ')[1:]:
+                if len(sk) > 3 and sk in lib.skeleton(part).replace(' ', ''):
+                    return f"{root} entry:{part.split(chr(10), 1)[0].strip()}"
+    # a single Quranic word cited from elsewhere: its first occurrence
+    for ref in lib.quran():
+        for i, t in enumerate(lib.tokens(ref), 1):
+            if sk == lib.skeleton(t).replace(' ', ''):
+                return f'{ref}:{i}'
     return None
 
 

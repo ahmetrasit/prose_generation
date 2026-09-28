@@ -13,7 +13,7 @@ Rules kept here, not by habit:
 - agents run from a fresh temp directory in safe mode (no CLAUDE.md, memory, skills or hooks)
   and may read only v15/data.
 
-  luna frames|loanwords|profiles [--limit N] [--parallel P] [--only JOB]   pending Luna jobs under data/<kind>/jobs
+  luna frames|loanwords|profiles|all [--limit N] [--parallel P] [--only JOB]   pending Luna jobs (all kinds share one pool)
   window --surah S [--ayah A]      Opus window reading      -> out/sNNN/window_lo-hi/window.json
   discover --ref S:A               Opus ayah reading        -> out/sNNN/S_A/record.json
   evidence --ref S:A               Luna evidence notes      -> out/sNNN/S_A/evidence.json
@@ -257,8 +257,10 @@ def call_luna(unit, text, out_path, schema, ayah=None, dry=False, repair=False):
 # ------------------------------------------------------------------ steps
 
 def luna_jobs(kind, limit=None, parallel=1, dry=False, repair=False, only=None):
+    """Pending jobs of one kind, or of every kind ('all') in one pool of `parallel` slots."""
+    kinds = ['frames', 'loanwords', 'profiles'] if kind == 'all' else [kind]
     jobs = []
-    for jp in sorted(glob.glob(os.path.join(DATA, kind, 'jobs', '*', 'job.json'))):
+    for jp in sorted(p for k in kinds for p in glob.glob(os.path.join(DATA, k, 'jobs', '*', 'job.json'))):
         if only and os.path.basename(os.path.dirname(jp)) != only:
             continue
         job = lib.read_json(jp)
@@ -269,7 +271,7 @@ def luna_jobs(kind, limit=None, parallel=1, dry=False, repair=False, only=None):
         text = prompt(job['prompt']) + '\n' + read(os.path.join(jd, 'input.md'))
         for extra in job.get('extra', []):
             text += f"\n\n## {os.path.basename(extra)}\n\n" + read(os.path.join(lib.HERE, extra))
-        jobs.append((f"luna:{kind}:{os.path.basename(jd)}", text, out, job['schema']))
+        jobs.append((f"luna:{job['kind']}:{os.path.basename(jd)}", text, out, job['schema']))
     if limit:
         jobs = jobs[:limit]
     print(f"{kind}: {len(jobs)} pending job(s)" + (' (dry)' if dry else ''))
