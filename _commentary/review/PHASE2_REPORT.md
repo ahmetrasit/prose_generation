@@ -387,6 +387,21 @@ Previously missing parallels found: 4:90 (by phrase), 2:238 and 4:81 (by word ec
 9. **API access** for the Batch smoke test (E5)?
 10. **Approvals** for E1–E6, individually or as a set.
 
+## 10. Decisions taken (user, 2026-09-28)
+
+| # | decision | ruling |
+|---|---|---|
+| — | collocation-bound sense without its construction | echo tier: a marked phrase-level echo, never the word's sense here |
+| — | loaded word whose role is construction-bound (nafakha) | usage-role statement with references, never a transferred sense |
+| 2 | Majāz al-Qurʾān | allowed as construction-level evidence, only quoted directly from the Majāz text (never through Lisān or other late compilations) |
+| 3 | budget | up to about $2 per ayah. A 2–3× model upgrade (e.g. Fable) only after it is shown that ~$2 almost meets the goals and the model is the limiting factor |
+| 4 | Tier 3 (no HFT) | if a must, HFT is generated later with Sol or Opus (the user: Luna cannot do it); not now |
+| 5 | stretched readings (e.g. zayyana as "coating") | transparent: show how a native speaker or philologist may hear the actual and resonant meanings; no fabrication; a stretch is named as an echo, with its basis |
+| 7 | scene tags | dropped from supplies; rebuild only if tests show scenes help |
+| 8 | gold examples | probes, not must-finds: a workflow that misses a named example but brings other supported layers that deepen understanding is doing its job |
+| 9 | API access | none. Runs stay on the claude -p / codex subscriptions, so the 64K-per-response CLI cap applies and E5 cannot run |
+| 1, 6 | derived-form / semantic-frame constructions; blind-read capacity | open |
+
 ## Appendix: files
 
 - `phase2/agents/*.json`: the nine reports.
