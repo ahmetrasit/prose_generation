@@ -13,12 +13,12 @@ For each lemma, decide whether present-day Turkish has one or more common words 
 For each loanword:
 - word: the Turkish word as written today;
 - modern_senses: its senses in present-day Turkish, everyday and religious, most common first;
-- drift: how it narrowed, widened, shifted or specialised against the Arabic word, in one or two sentences;
+- drift: how it narrowed, widened, shifted or specialised against the Arabic word;
 - reader_hears: what a Turkish reader most likely hears when a translation uses it;
 - arabic_keeps: what the Arabic word keeps that the Turkish word does not, each tied to a branch id of the input (branch, note); only from the given branches;
 - false_friend: a warning if the Turkish word can mislead, else null.
 
-Rules: descriptive; no verse interpretation; no invented etymologies; if you are unsure of a Turkish usage, leave it out. Keep each card under 120 words. Return every lemma of the input exactly as given (root and lemma strings unchanged).
+Rules: descriptive; no verse interpretation; no invented etymologies; if you are unsure of a Turkish usage, leave it out. Return every lemma of the input exactly as given (root and lemma strings unchanged).
 
 Output only the JSON object required by the schema.
 

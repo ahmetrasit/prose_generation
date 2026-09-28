@@ -13,11 +13,11 @@ The North Star, read as a spec, pulls against itself in six places. v15 resolves
 
 | Conflict | v15 |
 |---|---|
-| The ayah spec is a checklist ("every image", "each finding's QeQ", "each key word's loss"), and checklists produce catalogues. | **Record vs prose.** Completeness, anchors, QeQ notes, sources and set-aside items live in the record (JSON, shown by the app). The prose answers only to the reader: payoff decides, and a word budget applies. |
+| The ayah spec is a checklist ("every image", "each finding's QeQ", "each key word's loss"), and checklists produce catalogues. | **Record vs prose.** Completeness, anchors, QeQ notes, sources and set-aside items live in the record (JSON, shown by the app). The prose answers only to the reader: payoff decides what goes in. There is no word cap. |
 | No premature pruning, a compact funnel, and "bulk dilutes" cannot all hold across handoffs. Coalitions need one mind that sees all the words. | **One mind per unit.** The window reading and the ayah reading each do activation → coalition → maturation → payoff inside one Opus context. Everything upstream *supplies* (scripts, Luna data built once per branch or lemma) and nothing upstream *selects*. |
 | One prompt with two stances loses one of them. | **Three stances, three steps.** Generative (Opus discover) → evidential (Luna evidence: annotates, never deletes) → communicative (Opus write). QeQ comes after the latent reading, as the North Star orders. |
 | "No ranking" vs containment, payoff hierarchy and marked contradictions. | Phrased as an action: *never say which reading is correct; do decide which readings this reader needs here.* The primary reading is the ground, space follows payoff, and contradictions are stated, not hidden. |
-| Progressive disclosure vs a standalone commentary per ayah. | The window reading hands each ayah an **allocation** (≤3 images it opens, advances or completes), never a touch-list. The writer re-grounds earlier images in one clause for readers who arrive directly. |
+| Progressive disclosure vs a standalone commentary per ayah. | The window reading hands each ayah an **allocation** (the images it opens, advances or completes, as many as it carries), never a touch-list. The writer re-grounds earlier images in one clause for readers who arrive directly. |
 | The trigger rule stops discriminating at scale, and the payoff test is self-judged. | The payoff test is explicit in every record (`perceptible`). A different model (Luna) checks attestation, triggers and QeQ, and it can only annotate. |
 
 ## 2. What the inputs showed (checked 2026-09-27)
@@ -79,11 +79,11 @@ need new scenes or get forced tags, the inventory is S1-shaped and is fixed firs
 | Step | Who | Reads | Writes | Stance |
 |---|---|---|---|---|
 | 0. data | scripts + Luna (once) | raw sources | §3 | supply |
-| 1. window reading | Opus 5.5, effort high | window text, the existing chain map (starting point), words, full branch index, scene lines (window, plus surah-wide ones for long surahs), variants | `window.json`: images (source chain or "new"; members with ref + root Bnnn + role; containment; perceptible; interactions; movement), root concepts, movement, plan (≤3 images per ayah), chains set aside with why, other activations | generative |
+| 1. window reading | Opus 5.5, effort high | window text, the existing chain map (starting point), words, full branch index, scene lines (window, plus surah-wide ones for long surahs), variants | `window.json`: images (source chain or "new"; members with ref + root Bnnn + role; containment; perceptible; interactions; movement), root concepts, movement, plan (images per ayah, uncapped), chains set aside with why, other activations | generative |
 | 2. ayah reading | Opus 5.5, effort high | ayah ±7, words, branch index (+alternatives), scene lines touching its words, its plan entry, concordance or profiles, variants, loanword cards | `record.json`: ground, findings (anchor, triggers, containment statement, perceptible, image, memory flag, lead/support/record), loaded words, losses, grammar, variants, reread, disclosed, set aside | generative |
 | 3. evidence | Luna max | the record, cited branches with their classical phrases, concordance, related-passage list, the Quran text | `evidence.json`: per finding, attestation, trigger, QeQ (supports / expands / shifts / contradicts with refs), contradiction flag; missing passages | evidential; annotates only |
-| 4. commentary | Opus 5.5, effort high, no tools | record, evidence, plan, Turkish glosses of the cited branches | `commentary.tr.md`, about 700 words, cap 1,100, `{{ar:…}}` for Arabic | communicative |
-| 5. checks | scripts | outputs | anchors valid, containment wording, budget, a source for every Arabic quotation (`src:S:A:W` or `src:root Bnnn`) | — |
+| 4. commentary | Opus 5.5, effort high, no tools | record, evidence, plan, Turkish glosses of the cited branches | `commentary.tr.md`, as long as the ayah needs (no word cap), `{{ar:…}}` for Arabic | communicative |
+| 5. checks | scripts | outputs | anchors valid, containment wording, length reported (never capped), a source for every Arabic quotation (`src:S:A:W` or `src:root Bnnn`) | — |
 | 6. surah commentary | Opus 5.5, effort high, no tools | surah text, window reading(s), each ayah's ground, lead findings and reread | `surah.tr.md` | communicative |
 
 Windows: a surah of up to 40 ayat, or one without pericope records, is one window. A longer one is read per
@@ -107,7 +107,8 @@ CLAUDE.md, memory, skills or hooks reach them.
 
 ## 6. Parameters (`config.json`)
 
-- Ayah prose: target 700 words, cap 1,100, at most 3 images.
+- **No caps on what agents produce, ever** (user rule, 2026-09-28): no word target or cap, no images-per-ayah limit, no item or
+  sentence counts in any prompt. Earlier outputs (S1, the first 4:34 and 5:6) were written under the old caps.
 - Neighbourhood: ±7.
 - Keyword-in-context lines: lemmas with ≤30 uses, ±3 words.
 - Definitions trimmed to 100 characters in packets. No branch is ever dropped: frequent roots keep their
@@ -182,9 +183,32 @@ context only):
   4:81, 4:3, 4:129-130. For 5:6: 5:89, 5:91, 5:11, 35:10. It also makes the North Star's 5:6 example in full
   (mirfaq as leaning; kaʿb → Kaʿba → qiyāman in 5:97 → qumtum), which v15 makes only in half.
 - **Where v15 is better:** the Turkish-loss layer, sourcing and checkability, dictionary-only surprises (the
-  husband's nushuz defined as harshness and beating), the reader budget, the record behind the prose, and one
+  husband's nushuz defined as harshness and beating), brevity, the record behind the prose, and one
   generic process for every ayah.
 - **Next levers:**
   - Give the ayah reading a mechanical list of same-surah passages that share its roots, lemmas or scene tags
     (Luna noting how each relates), before the reading rather than only in the evidence step.
-  - Reconsider the prose budget for dense legal ayat (the North Star sets no length).
+  - The word cap is removed (user rule: never impose one). Earlier outputs were written under it.
+
+## 12. No caps: 4:34 and 5:6 rerun (2026-09-28)
+
+User rule: no caps of any kind on what agents produce. The windows and both ayat were rerun into `out-nocap/`;
+the capped outputs in `out/` are kept. Opus $7.91 in total; no failed calls.
+
+| | cold arm | v15 capped | v15 no caps |
+|---|---|---|---|
+| 4:34 | 3,211 words | 1,042 | 1,893 (49/49 quotations sourced; plan places 7 images) |
+| 5:6 | 2,382 words | 845 | 1,658 (44/44 sourced; plan places 5 images) |
+
+- **4:34:** gains the cold arm's surah links (4:5 wealth as qiyam, 4:19-21, 4:25, 4:37, 4:58, 58:11, 2:238,
+  33:35). It adds its own: salihat as "righteous deeds" in 59 of 62 uses; mughiba; takhafun as expecting harm
+  from a sign; 38:22/24 baghy against "some over some". It names outright the tension between the dictionary's
+  definition of the husband's nushuz and the permitted steps. It lacks 4:3, 4:81, 4:129-130, tawʿ/karh and
+  (this time) 4:90.
+- **5:6:** the North Star example is now made: mirfaq as leaning (the dictionary quoted), kaʿb → the Kaʿba as
+  the House the face turns to, and qumtum → qawwamin in 5:8. Only 5:97's qiyaman is still not named. New links:
+  al-atyaban ("eating and marriage") matching 5:5's two goods to 5:6's two causes; haraj as prohibition tied to
+  the surah's opening knots; both readings of lamastum; 2:184-185, 24:61, 48:17; 18:8 and 18:40; 2:150. It
+  lacks 5:89, 5:91 and 35:10.
+- **Verdict:** without caps, v15 roughly matches the cold arm's depth (each has links the other lacks) and keeps
+  its own advantages (sourcing, dictionary-backed surprises, the Turkish layer) at 55-70% of the length.

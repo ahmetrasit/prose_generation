@@ -3,7 +3,7 @@
 
   record --ref S:A        anchors exist (word, root, branch), triggers exist, containment wording
   window --surah S        image members exist; plan covers every ayah within the image limit
-  prose --ref S:A         length against the budget; every {{ar:…}} quotation resolved to a source
+  prose --ref S:A         length (reported, never capped); every {{ar:…}} quotation resolved to a source
                           -> out/sNNN/S_A/commentary.tagged.tr.md
   surah-prose --surah S   sources for the surah commentary -> out/sNNN/surah.tagged.tr.md
 """
@@ -95,8 +95,6 @@ def check_window(s):
                 problems.append(f"plan: {s}:{a} missing")
         for x in w.get('plan', []):
             placed = x.get('opens', []) + x.get('advances', []) + x.get('completes', [])
-            if len(placed) > CFG['prose']['max_images_per_ayah']:
-                problems.append(f"plan: {x['ayah']} places {len(placed)} images")
             for iid in placed:
                 if iid not in ids:
                     problems.append(f"plan: {x['ayah']} names unknown image {iid}")
@@ -185,13 +183,10 @@ def check_prose(ref):
     cited = [f"{f['anchor']['root']} {f['anchor']['branch']}" for f in rec.get('findings', [])
              if f.get('anchor', {}).get('branch')]
     n, unresolved, words, out = tag(os.path.join(o, 'commentary.tr.md'), s, a, cited)
-    t, cap = CFG['prose']['ayah_words_target'], CFG['prose']['ayah_words_cap']
-    flag = 'OVER CAP' if words > cap else ('over target' if words > t else 'ok')
-    print(f"{ref}: {words} words (target {t}, cap {cap}: {flag}); {n} Arabic quotations, "
-          f"{n - len(unresolved)} sourced -> {os.path.relpath(out, lib.HERE)}")
+    print(f"{ref}: {words} words; {n} Arabic quotations, {n - len(unresolved)} sourced -> {os.path.relpath(out, lib.HERE)}")
     for u in unresolved:
         print('  unresolved:', u)
-    return words <= cap and not unresolved
+    return not unresolved
 
 
 def check_surah_prose(s):

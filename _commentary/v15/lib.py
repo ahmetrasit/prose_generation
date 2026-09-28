@@ -19,7 +19,8 @@ REPO = os.path.abspath(os.path.join(HERE, '..', '..'))
 PROJECTS = os.path.abspath(os.path.join(REPO, '..'))
 DATA = os.path.join(HERE, 'data')
 WORK = os.path.join(HERE, 'work')
-OUT = os.path.join(HERE, 'out')
+# V15_OUT runs a variant into its own folder (its own ledger); the default is out/
+OUT = os.path.join(HERE, os.environ.get('V15_OUT', 'out'))
 PROMPTS = os.path.join(HERE, 'prompts')
 SCHEMAS = os.path.join(HERE, 'schemas')
 

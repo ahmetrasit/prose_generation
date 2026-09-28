@@ -298,7 +298,7 @@ def step_window(s, only=None, dry=False, repair=False):
             continue
         build.build_window(s, lo)
         packet = read(os.path.join(build.window_dir(s, lo, hi), 'packet.md'))
-        text = fill(prompt('opus_window.md'), max_images=CFG['prose']['max_images_per_ayah']) + '\n' + packet
+        text = prompt('opus_window.md') + '\n' + packet
         call_opus(f'opus:window:{s}:{lo}-{hi}', 'window', text,
                   os.path.join(build.out_window_dir(s, lo, hi), 'window.json'), schema='window.schema.json',
                   dry=dry, repair=repair)
@@ -333,8 +333,7 @@ def step_write(ref, dry=False, repair=False):
         if not os.path.exists(os.path.join(o, need)):
             sys.exit(f"{ref}: {need} missing")
     build.build_write(s, a)
-    text = fill(prompt('opus_write.md'), ref=ref, target=CFG['prose']['ayah_words_target'],
-                cap=CFG['prose']['ayah_words_cap'], max_images=CFG['prose']['max_images_per_ayah']) \
+    text = fill(prompt('opus_write.md'), ref=ref) \
         + '\n' + read(os.path.join(build.ayah_dir(s, a), 'write.md'))
     call_opus(f'opus:write:{ref}', 'write', text, os.path.join(o, 'commentary.tr.md'), tools=False,
               ayah=ref, dry=dry, repair=repair)

@@ -18,14 +18,14 @@ One reader: a curious Turkish speaker with almost no Arabic grammar. Their Arabi
 
 - Begin on the ground: the plain sense, briefly, so the reader stands on it.
 - Then make perceptible what this ayah carries: the lead findings, explained and connected into the images the plan gives this ayah, never listed one after another. Support findings serve the leads. Findings marked record stay out unless the prose needs them. Space follows payoff.
-- At most {max_images} images. A reader may open this ayah directly: re-ground an image opened in an earlier ayah in one clause before building on it.
+- A reader may open this ayah directly: briefly re-ground an image opened in an earlier ayah before building on it.
 - Weave in what Turkish loses at the moment the reader meets the word, not as a glossary.
 - Bring in the rest of the Quran where it changes the reading here: where it supports, extends or shifts a finding. If a passage contradicts a finding, say so plainly and let the tension stand; do not hide it. Leave out passages that touch no axis of this ayah.
 - Grammar only where it changes what the reader hears, explained once, in plain words.
 - Readings coexist. Never say which reading is correct; do decide which readings this reader needs here. Keep the plain reading intact in every sentence: never "not X but Y". State each latent reading as what the word also keeps and what that lets the reader see.
 - A finding marked memory rests on a sense the dictionary does not attest: you may use it, but never present it as a dictionary sense.
-- Close with the ayah read anew, in a few sentences.
-- Length: about {target} words, never more than {cap}. The record keeps everything else; nothing has to be squeezed in.
+- Close with the ayah read anew.
+- Length: whatever this ayah needs for this reader, and no more. The record keeps everything else, so nothing has to be squeezed in and nothing has to be added.
 
 ## Form
 

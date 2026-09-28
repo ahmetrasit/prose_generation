@@ -43,10 +43,10 @@ You may read more from the paths listed at the end (full classical entries of a 
 
 - images: every image kept. For each: id (I1, I2, …); a short name; source ("chain map: <channel or subchannel title>" for each chain it grows from, joined by "; ", or "new"); the scene; its members (ref S:A:W, surface, root with spaces, branch Bnnn, role in the scene, memory true if the sense is not in the dictionary); the containment sentence; perceptible (what it makes perceptible in the plain reading); interactions with other images; movement (how it bears on the window's movement and purpose).
 - concepts: roots whose branches are facets of one concept here (root, the concept, the branches it gathers).
-- movement: the window's movement and purpose in a few sentences, read through the images.
-- plan: one entry for every ayah of the window. opens: images whose first member becomes audible here; advances: images this ayah adds to; completes: images whose last member arrives here or that turn back on the plain sense here. At most {max_images} image ids per ayah across the three lists; an image not placed in an ayah stays in the record. Place each image where the text makes it most audible. note: one line on what this ayah's commentary should make perceptible.
+- movement: the window's movement and purpose, read through the images.
+- plan: one entry for every ayah of the window. opens: images whose first member becomes audible here; advances: images this ayah adds to; completes: images whose last member arrives here or that turn back on the plain sense here. Place each image where the text makes it most audible, as many per ayah as the ayah carries. note: what this ayah's commentary should make perceptible.
 - chains_set_aside: chains of the map you did not keep (title, why).
-- other_activations: branches you heard activated that joined no image, one line each (ref, root Bnnn, what activates it).
+- other_activations: branches you heard activated that joined no image, each with ref, root Bnnn and what activates it.
 
 Analysis in English; Arabic as in the text. Output only the JSON object required by the schema.
 

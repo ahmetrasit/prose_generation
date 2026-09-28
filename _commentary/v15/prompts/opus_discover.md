@@ -33,7 +33,7 @@ You may read more from the paths listed at the end. Read only what a specific qu
 ## The record
 
 - ref: {ref}.
-- ground: the plain sense in two to four sentences, as a careful translator would give it.
+- ground: the plain sense, as a careful translator would give it.
 - findings: every latent reading, local resonance, image member, root concept, Quran-loaded word, variant and grammar point you hear. For each:
   - id (F1, F2, …); kind: latent | image | local_resonance | concept | loaded_word | variant | grammar;
   - anchor: the word (ref S:A:W, surface) and the dictionary branch (root with spaces, branch Bnnn) the finding stands on (branch may be empty for grammar);
@@ -45,9 +45,9 @@ You may read more from the paths listed at the end. Read only what a specific qu
   - for_prose: lead | support | record. Lead: this ayah's commentary should make it perceptible; support: it can serve a lead finding; record: kept here, not needed in this ayah's prose. Decide by payoff for this reader in this ayah, respecting the plan.
 - loaded_words: words the Quran uses with one recurring role (read it from the concordance: the role, and how many uses keep it), and where a usual translation departs from that role here.
 - losses: for the key Turkish words the reader will meet for this ayah (from the loanword cards and your knowledge of Turkish; memory true for what the cards do not give): what the Turkish word loses or adds against the Arabic here.
-- grammar: only grammar the Turkish reader cannot hear and that matters to a reading here, one line each; else empty.
-- variants: variant readings that open or support a reading, one line each; else empty.
-- reread: the plain reading read anew with the findings heard together, three to six sentences.
+- grammar: only grammar the Turkish reader cannot hear and that matters to a reading here; else empty.
+- variants: variant readings that open or support a reading; else empty.
+- reread: the plain reading read anew with the findings heard together.
 - disclosed: the image ids this ayah's commentary will make audible (so later ayat can build on them).
 - set_aside: activations you considered and did not keep, each with why. Nothing is lost silently.
 
