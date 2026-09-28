@@ -1,0 +1,1 @@
+- Korunan alanın adı {ar:ٱلْغَيْبِ, tr:el-gayb, gloss:görünmeyen, göz önünde olmayan}dir.

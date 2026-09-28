@@ -1,0 +1,344 @@
+[
+ {
+  "ref": "1:2",
+  "runs": {
+   "cold": {
+    "words": 1913,
+    "same": 4,
+    "other": 19,
+    "tags": 27,
+    "dict_only_tags": 0,
+    "neg1000": 8.4,
+    "cost": 0.5,
+    "out": 22744,
+    "think": 14102
+   },
+   "dict": {
+    "words": 1964,
+    "same": 6,
+    "other": 0,
+    "tags": 46,
+    "dict_only_tags": 29,
+    "neg1000": 7.6,
+    "cost": 0.78,
+    "out": 30290,
+    "think": 21694
+   },
+   "perm1": {
+    "words": 1650,
+    "same": 4,
+    "other": 3,
+    "tags": 33,
+    "dict_only_tags": 16,
+    "neg1000": 8.5,
+    "cost": 0.47,
+    "out": 15055,
+    "think": 8027
+   },
+   "perm2": {
+    "words": 1634,
+    "same": 6,
+    "other": 4,
+    "tags": 29,
+    "dict_only_tags": 17,
+    "neg1000": 8.0,
+    "cost": 0.54,
+    "out": 18809,
+    "think": 11898
+   }
+  },
+  "jaccard": {
+   "cold~dict": 0.16,
+   "cold~perm1": 0.25,
+   "cold~perm2": 0.269,
+   "dict~perm1": 0.444,
+   "dict~perm2": 0.6,
+   "perm1~perm2": 0.7
+  }
+ },
+ {
+  "ref": "1:6",
+  "runs": {
+   "cold": {
+    "words": 1421,
+    "same": 2,
+    "other": 12,
+    "tags": 21,
+    "dict_only_tags": 0,
+    "neg1000": 9.1,
+    "cost": 0.35,
+    "out": 15601,
+    "think": 9386
+   },
+   "dict": {
+    "words": 1643,
+    "same": 4,
+    "other": 0,
+    "tags": 29,
+    "dict_only_tags": 22,
+    "neg1000": 7.3,
+    "cost": 0.64,
+    "out": 22591,
+    "think": 15624
+   },
+   "perm1": {
+    "words": 1962,
+    "same": 0,
+    "other": 15,
+    "tags": 43,
+    "dict_only_tags": 22,
+    "neg1000": 10.7,
+    "cost": 0.6,
+    "out": 20996,
+    "think": 12765
+   },
+   "perm2": {
+    "words": 1761,
+    "same": 4,
+    "other": 12,
+    "tags": 38,
+    "dict_only_tags": 16,
+    "neg1000": 9.7,
+    "cost": 0.55,
+    "out": 18447,
+    "think": 10525
+   }
+  },
+  "jaccard": {
+   "cold~dict": 0.125,
+   "cold~perm1": 0.45,
+   "cold~perm2": 0.304,
+   "dict~perm1": 0.0,
+   "dict~perm2": 0.25,
+   "perm1~perm2": 0.24
+  }
+ },
+ {
+  "ref": "4:34",
+  "runs": {
+   "cold": {
+    "words": 3211,
+    "same": 28,
+    "other": 6,
+    "tags": 60,
+    "dict_only_tags": 0,
+    "neg1000": 5.9,
+    "cost": 1.58,
+    "out": 60210,
+    "think": 44987
+   },
+   "dict": {
+    "words": 3659,
+    "same": 26,
+    "other": 0,
+    "tags": 70,
+    "dict_only_tags": 27,
+    "neg1000": 6.0,
+    "cost": 1.88,
+    "out": 43193,
+    "think": 26560
+   },
+   "perm1": {
+    "words": 2460,
+    "same": 27,
+    "other": 6,
+    "tags": 32,
+    "dict_only_tags": 0,
+    "neg1000": 4.9,
+    "cost": 1.52,
+    "out": 25616,
+    "think": 14674
+   },
+   "perm2": {
+    "words": 3085,
+    "same": 25,
+    "other": 6,
+    "tags": 61,
+    "dict_only_tags": 0,
+    "neg1000": 7.1,
+    "cost": 1.6,
+    "out": 29913,
+    "think": 15622
+   }
+  },
+  "jaccard": {
+   "cold~dict": 0.538,
+   "cold~perm1": 0.634,
+   "cold~perm2": 0.477,
+   "dict~perm1": 0.513,
+   "dict~perm2": 0.425,
+   "perm1~perm2": 0.561
+  }
+ },
+ {
+  "ref": "18:86",
+  "runs": {
+   "cold": {
+    "words": 1893,
+    "same": 29,
+    "other": 3,
+    "tags": 40,
+    "dict_only_tags": 0,
+    "neg1000": 4.2,
+    "cost": 0.6,
+    "out": 20796,
+    "think": 12240
+   },
+   "dict": {
+    "words": 2753,
+    "same": 32,
+    "other": 3,
+    "tags": 61,
+    "dict_only_tags": 13,
+    "neg1000": 6.9,
+    "cost": 1.71,
+    "out": 50251,
+    "think": 37869
+   },
+   "perm1": {
+    "words": 2700,
+    "same": 26,
+    "other": 3,
+    "tags": 55,
+    "dict_only_tags": 10,
+    "neg1000": 3.7,
+    "cost": 1.3,
+    "out": 30380,
+    "think": 18265
+   },
+   "perm2": {
+    "words": 2066,
+    "same": 27,
+    "other": 3,
+    "tags": 63,
+    "dict_only_tags": 11,
+    "neg1000": 4.8,
+    "cost": 1.15,
+    "out": 22973,
+    "think": 13453
+   }
+  },
+  "jaccard": {
+   "cold~dict": 0.634,
+   "cold~perm1": 0.605,
+   "cold~perm2": 0.512,
+   "dict~perm1": 0.684,
+   "dict~perm2": 0.625,
+   "perm1~perm2": 0.595
+  }
+ },
+ {
+  "ref": "100:1",
+  "runs": {
+   "cold": {
+    "words": 1560,
+    "same": 10,
+    "other": 7,
+    "tags": 23,
+    "dict_only_tags": 0,
+    "neg1000": 10.3,
+    "cost": 0.48,
+    "out": 21846,
+    "think": 15068
+   },
+   "dict": {
+    "words": 1621,
+    "same": 10,
+    "other": 0,
+    "tags": 34,
+    "dict_only_tags": 12,
+    "neg1000": 9.3,
+    "cost": 0.74,
+    "out": 28926,
+    "think": 21922
+   },
+   "perm1": {
+    "words": 1567,
+    "same": 10,
+    "other": 10,
+    "tags": 40,
+    "dict_only_tags": 13,
+    "neg1000": 7.7,
+    "cost": 0.5,
+    "out": 17495,
+    "think": 10543
+   },
+   "perm2": {
+    "words": 1664,
+    "same": 10,
+    "other": 1,
+    "tags": 37,
+    "dict_only_tags": 9,
+    "neg1000": 6.6,
+    "cost": 0.5,
+    "out": 17801,
+    "think": 10515
+   }
+  },
+  "jaccard": {
+   "cold~dict": 0.588,
+   "cold~perm1": 0.609,
+   "cold~perm2": 0.556,
+   "dict~perm1": 0.5,
+   "dict~perm2": 0.909,
+   "perm1~perm2": 0.476
+  }
+ },
+ {
+  "ref": "100:6",
+  "runs": {
+   "cold": {
+    "words": 1425,
+    "same": 10,
+    "other": 7,
+    "tags": 27,
+    "dict_only_tags": 1,
+    "neg1000": 5.6,
+    "cost": 0.35,
+    "out": 15427,
+    "think": 9024
+   },
+   "dict": {
+    "words": 1585,
+    "same": 10,
+    "other": 2,
+    "tags": 30,
+    "dict_only_tags": 15,
+    "neg1000": 5.0,
+    "cost": 0.56,
+    "out": 19471,
+    "think": 12409
+   },
+   "perm1": {
+    "words": 1594,
+    "same": 10,
+    "other": 8,
+    "tags": 31,
+    "dict_only_tags": 11,
+    "neg1000": 4.4,
+    "cost": 0.46,
+    "out": 15325,
+    "think": 8391
+   },
+   "perm2": {
+    "words": 1307,
+    "same": 10,
+    "other": 4,
+    "tags": 25,
+    "dict_only_tags": 8,
+    "neg1000": 9.2,
+    "cost": 0.47,
+    "out": 15711,
+    "think": 9793
+   }
+  },
+  "jaccard": {
+   "cold~dict": 0.706,
+   "cold~perm1": 0.591,
+   "cold~perm2": 0.632,
+   "dict~perm1": 0.5,
+   "dict~perm2": 0.733,
+   "perm1~perm2": 0.6
+  }
+ }
+]

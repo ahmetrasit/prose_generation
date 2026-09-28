@@ -1,0 +1,181 @@
+Focus: 100:1. Follow the brief below (write.md) exactly. The evidence is context.md (the ayah, its words and anchor translation, the Fatiha, the whole surah) and 01_dictionary.md (every attested branch of every root of the ayah's words, with the classical dictionaries' source phrases) and your own knowledge of Arabic and the Quran. Return only the reader's prose as your final message.
+
+===== _commentary/v9/prompts/write_v10.md =====
+Write the finished Turkish reading of the focus Quranic ayah. The reader knows
+neither Arabic nor how lexical families and associations work. Let the reader
+see what the ayah makes possible to hear. Work only from the supplied evidence;
+do not use tools, delegate, browse or inspect files. Return only the reader's
+prose in Markdown. This is an independent interpretation, not a catalogue, a
+translation expanded with footnotes, or a report on an analytical workflow.
+
+First understand the focus in its immediate grammar and scene. Then develop
+the consequential resonances into connected readings. A supplied reading brief
+is a proposal, not an authority: correct it when the original sources require
+correction. Without a brief, perform the same synthesis yourself from the source
+readings and lexical and Quranic evidence. Do not merely rewrite each finding
+in a separate paragraph. Let a concrete detail make the next detail necessary:
+what changes, through what operation, with what consequence for the focus?
+An image chain earns space through the new understanding it enables. Sustain
+its material specificity long enough for that consequence to become visible.
+Do not flatten a well, a support, a pressure, or an obstruction into a generic
+label such as care, connection, life or direction before explaining its work.
+
+The aim is main themes and important image chains, not every possible finding.
+Several independent readings can coexist without being subordinate to one
+thesis. Give them the space their development needs. There is no word target,
+section quota, required number of verses, or symmetry requirement. Select for
+explanatory importance; novelty alone is neither a reason to include nor to
+exclude. Use headings only when they help the reader follow a real movement.
+
+Quran usage can load a word with an existing scene beyond its dictionary
+definition. Read the concordance panels and actual passages, including nearby
+ayat. Explain what returns, what changes, and why it matters here. Distinguish
+same word from same root, and textual repetition from interpretive analogy.
+Let other ayat supply indispensable stages, contrasts and consequences, rather
+than gathering references after an already finished claim. The full surah and
+Fatiha are present for this purpose; do not impose a formulaic Fatiha paragraph.
+Do not infer the chronology of revelation from surah order.
+
+Show the non-Arabic reader where an image comes from. For example, introduce
+the relevant word, explain the attested family image or form, then demonstrate
+its connection to another detail before drawing the reading. A dictionary
+sense of a related noun does not become the translation of this verb. A split
+mapping marked as an echo does not establish root identity. An image can remain
+powerful as an analogy when stated accurately. Do not require every image to
+be a literal object in the focus. Do not invent sources, vowels, etymologies,
+lexical meanings, historical facts or citations to support a graceful passage.
+
+Write natural, precise Turkish. Follow a question, image or developing insight,
+not the source inventory's order. Retain productive tension and contrast.
+Avoid repetitive constructions of the form "this image meets that image and
+opens a field." Name the particular action and explain its effect. Avoid
+restarting the same discovery in several sections. Do not end every paragraph
+with a defensive disclaimer about what the verse does not say. State an actual
+qualification at the point where the reader needs it, then continue the reading.
+Internal labels, branch IDs, confidence ratings and workflow language do not
+belong in the prose. Do not tell the reader how many sources converged.
+
+Format Arabic in the established reader tag:
+{ar:exact Arabic, tr:readable Turkish transliteration, gloss:Turkish meaning}
+Every Arabic quotation must be intelligible in its paragraph. Use these tags
+as normal prose, never inside backticks. Cite Quran passages with exact refs,
+e.g. (15:26, 15:28, 15:33); do not use ayah ranges. Copy Quran Arabic from the
+supplied canonical text. Distinguish a dictionary quotation from Quran wording.
+Transliteration and gloss must explain what is being discussed; they must not
+quietly translate a lexical resonance as the word's contextual meaning.
+
+Before returning, read as someone encountering these relations for the first
+time: can that person explain how the main images work together and reread the
+focus with a changed understanding? Remove mere inventories, unsupported
+bridges, repeated qualifications and restatements. Preserve the discoveries
+that made the change possible.
+
+
+===== _commentary/v9/lines/work/100_1/context.md =====
+# 100:1 — focus
+
+وَٱلْعَٰدِيَٰتِ ضَبْحًۭا
+
+Anchor translation (canonical reading, reference only):
+
+Soluk soluğa koşanlara andolsun.
+
+## Words (QAC; roots via quran-data gateway)
+
+| w | surface | lemma | root | pos |
+|---|---|---|---|---|
+| 1 | وَٱلْعَٰدِيَٰتِ | عَٰدِيَٰت | ع د و | P;DET;N |
+| 2 | ضَبْحًا | ضَبْح | ض ب ح | N |
+
+## Word notes (precomputed word analysis; support, not obligations)
+
+- 100:1:1 وَ: oath-opening particle, not ordinary coordination here; it governs the following genitive oath object and compresses an oath formula into one initial letter — topics: oath particle governs the sworn object; compressed oath verb and delayed answer; particle fuses audibly with the oath image
+- 100:1:2 ٱلْعَٰدِيَٰتِ: the definite feminine plural active participle naming the charging or running ones as an oath object; the local sense selects kinetic motion while retaining an adversarial and boundary-crossing pressure — topics: action-class stands as the sworn object; definite feminine plural leaves the referent open; motion is selected with hostile edge; variant redirects the oath toward dawn-going; extended participle rushes into clipped breath; first participle teaches the next oath images
+- 100:1:3 ضَبْحًۭا: an indefinite accusative verbal noun marking the runners' panting or hard-breathing manner/state; harsh cry and heat-scorching pressure remain secondary, locally narrowed by the oath scene and following spark image — topics: indefinite accusative makes panting the manner; tanwin leaves the breath unbounded; rare breath-word makes local evidence decisive; breath remains primary while heat points to sparks; meaning binds to nearby oath sequence; ayah closes on audible breath; variant would turn manner into dawn time
+
+# Fatiha (recited in every salah)
+- 1:1 بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- 1:2 ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+- 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- 1:4 مَٰلِكِ يَوْمِ ٱلدِّينِ
+- 1:5 إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
+- 1:6 ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
+- 1:7 صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ
+
+# Surah 100 — full text (context; no pericope)
+
+- 100:1 ◀ focus وَٱلْعَٰدِيَٰتِ ضَبْحًۭا
+- 100:2 فَٱلْمُورِيَٰتِ قَدْحًۭا
+- 100:3 فَٱلْمُغِيرَٰتِ صُبْحًۭا
+- 100:4 فَأَثَرْنَ بِهِۦ نَقْعًۭا
+- 100:5 فَوَسَطْنَ بِهِۦ جَمْعًا
+- 100:6 إِنَّ ٱلْإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٌۭ
+- 100:7 وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌۭ
+- 100:8 وَإِنَّهُۥ لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ
+- 100:9 ۞ أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِى ٱلْقُبُورِ
+- 100:10 وَحُصِّلَ مَا فِى ٱلصُّدُورِ
+- 100:11 إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍۢ لَّخَبِيرٌۢ
+
+
+===== _commentary/v9/input/v2/s100/100_1/01_dictionary.md =====
+# Dictionary — every branch of every focus root
+
+One line per branch: gloss | Arabic image | definition | facets | not | source phrase.
+Identity roots come from the quran-data gateway. Word-scoped alternatives are cited analyses of this
+exact word. **Echo roots** are observed but withheld mappings: sound-family candidates, not identity.
+
+## ع د و (root_000993) — identity root of وَٱلْعَٰدِيَٰتِ (w1)
+
+Kök, sınırı aşma ve hızlı ilerlemeden düşmanlık, dışarıda bırakma, hak arama, hastalık aktarımı, engel, avdaki ardışıklık, yan ve kıyı, sert zemin, yaz bitkisi ve eğrilikle birleşen güçlüğe uzanan çok dallı bir anlam yapısı kurar. Dalların bir bölümü geçme ve ilerleme fikriyle bağlanırken bir bölümü tarihsel olarak özelleşmiş bağımsız adlandırmalardır.
+
+- **B001** hakkı aşan saldırganlık | مجاوزة الحد والظلم | Uyulması gereken sınırı ya da başkasının hakkını haksız biçimde aşmaktır. Birine saldırmak, malını almak, onu vurmak veya baskın yapmak bu aşmanın özel görünümleri olabilir. | facets: Uyulması gereken sınırı veya başkasının hakkını aşarak açıkça haksızlık etme. / Haksız saldırı, vurma, mal alma ya da baskın yoluyla bu sınır aşımını gerçekleştirme. | not: ليس العَدْو بمعنى الحضر ولا العَدُوّ بمعنى الخصم ولا العدوى بمعنى انتقال الداء | src: التعدي تجاوز ما ينبغي أن يقتصر عليه (maqayis;ayn)؛ العدوان الظلم الصراح (maqayis;sihah)؛ الاعتداء مجاوزة الحق (mufradat)؛ العادية الخيل المغيرة (ayn;sihah)
+- **B002** yaya ya da atla koşma | العَدْو والحَضْر | Bir insanın ayakları üzerinde veya bir atın hızlı biçimde koşmasıdır. At için kullanılan özel kalıp, koşunun iyi ve çok oluşunu da bildirir. | facets: İnsanın ayakları üzerinde ya da atın hızlı biçimde koşması. / Atın koşusunun iyi, güçlü ve çok oluşunu belirten özel kullanım. | not: ليس العدوان بمعنى الظلم ولا العداوة بمعنى الخصومة | src: العَدْو هو الحضر (maqayis;ayn;sihah)؛ يقال من عدو الفرس عدوان أي جيد العدو وكثيره (maqayis)؛ بالمشي فيقال له العدو (mufradat)
+- **B003** düşmanlık ve düşman | العَدُوّ والعداوة | Birinin dostu olmayan ve ona karşı duran kişi ile kişiler arasındaki karşıt ve uzlaşmaz ilişkidir. Kişiyi bildiren biçim tek kişi, iki kişi veya topluluk için kullanılabilir. | facets: Kişiler arasında dostluğun karşıtı olan düşmanlık ve karşıtlık ilişkisi. / Bu karşıt ilişkideki kişiyi bildiren ve farklı sayılardaki özneler için kullanılabilen ad. | not: ليس الحضر ولا جانب الوادي ولا العدوى | src: العَدُوّ ضد الولي والجمع الأعداء (sihah)؛ العداوة والمعاداة (sihah;mufradat)؛ يقال للواحد والاثنين والجمع عَدُوّ (maqayis)
+- **B004** aşma, dışarıda bırakma ve öteye geçirme | المجاوزة والاستثناء والصرف | Bir şeyi geçmek veya onu kapsamın dışında bırakmaktır. Ayrıca bir konuyu bırakıp başkasına yönelmeyi ve dil bilgisinde eylemin etkisini yapandan etkilenene geçirmeyi anlatır. | facets: Bir şeyi ya da sınırı geçerek ötesine gitme. / Belirtilen ögeyi genel kapsamın dışında tutma. / Bir konuyu geride bırakıp başka bir konuya yönelme. / Eylemin etkisini yapandan etkilenene geçirerek eylemi nesne alır duruma getirme. | not: ليس الظلم إذا كان المقصود مجرد المجاوزة ولا العدوى ولا العداوة | src: ما عدا زيدا أي ما جاوز زيدا (maqayis;ayn)؛ عدا فعل يستثنى به (sihah)؛ ما عدا كذا يستعمل في الاستثناء (mufradat)؛ عد عن هذا الأمر أي تجاوزه وخذ في غيره (maqayis)
+- **B005** yetkiliden hakkını almasını isteme | العَدْوى في طلب الإنصاف | Haksızlığa uğrayan kişinin bir yöneticiye veya yargıca başvurup kendisine yardım etmesini ve hakkını haksızlık edenden almasını istemesidir. | facets: Haksızlığa uğrayan kişinin yetkiliye başvurarak yardım ve hakkının alınmasını istemesi. | not: ليس العدوى بمعنى انتقال الداء ولا العدوان نفسه | src: العَدْوى طلبك إلى وال أو قاض أن يعديك على من ظلمك (maqayis)؛ طلبك إلى وال ليعديك على من ظلمك (ayn;sihah)
+- **B006** hastalığın bulaşması | العَدْوى في انتقال الداء | Uyuz ya da başka bir hastalığın, onu taşıyan canlıdan başka bir canlıya geçmesidir. | facets: Bir hastalığın onu taşıyan canlıdan başka bir canlıya geçmesi. | not: ليس طلب الإنصاف إلى الوالي ولا العداوة | src: العَدْوى ما يقال إنه يعدي من جرب أو داء (maqayis;ayn)؛ ما يعدي من جرب أو غيره ومجاوزته من صاحبه إلى غيره (sihah)
+- **B007** işten alıkoyan uğraş veya engel | العَوادي والعادية الشاغلة | Kişiyi yapmak istediği işten uzaklaştıran bir uğraş, engel veya kötü olaydır. Zamanın getirdiği sıkıntılar ve bir işin kişiyi başka birinden alıkoyması bu çekirdeğin özel kullanımlarıdır. | facets: Kişiyi asıl işinden uzaklaştıran uğraş veya engel. / Zamanın getirdiği engel, sıkıntı veya kötü olay. | not: ليس العادية بمعنى الخيل المغيرة ولا العَدْو بمعنى الحضر | src: العادية شغل من أشغال الدهر يعدوك عن أمرك (maqayis;ayn)؛ عوادي الدهر عوائقه (sihah)؛ عدواء الشغل موانعه (sihah)
+- **B008** iki avı peş peşe ele geçirme | العِداء في تعاقب الصيد | Atın, köpeğin veya avcının iki avı peş peşe izlemesi ya da avlardan birini ötekinin hemen ardından ele geçirmesidir. | facets: İki avı peş peşe izleme veya birini ötekinin ardından ele geçirme. | not: ليس العَداء بمعنى الظلم ولا العَداء بمعنى طوار الشيء | src: العِداء أن يعادي الفرس أو الكلب أو الصياد بين صيدين (maqayis)؛ العِداء الموالاة بين الصيدين (sihah)؛ فعادى عداء بين ثور ونعجة أي أعدى أحدهما إثر الآخر (mufradat)
+- **B009** boyunca uzanan yan ve kıyı | العَداء والعُدوة في الجانب والطوار | Bir şeyin eni veya boyu boyunca uzanan yanı, kenarı ya da kıyısıdır. Irmağın veya dağın boyunca giden taraf ile vadinin yanı bu anlamın yerle ilişkili görünümleridir. | facets: Bir şeyin eni veya boyu boyunca uzanan yan, kenar ya da kıyı. / Irmak, dağ veya vadinin boyunca uzanan tarafı ve kıyısı. | not: ليس العدواء بمعنى الأرض الصلبة غير المستوية ولا العِداء في الصيد | src: العَداء طوار كل شيء (maqayis;sihah)؛ لزمت عداء النهر وطريق يأخذ عداء الجبل (maqayis)؛ العدوة جانب الوادي وحافته (sihah)؛ بالعدوة الدنيا أي الجانب المتجاوز للقرب (mufradat)
+- **B010** sert, kuru ve engebeli yer | العَدْواء في صلابة المكان واضطرابه | Kuru ve sert olan, parçaları birbirine uymadığı için engebeli duran ve üzerine oturan kişiye rahatlık vermeyen yer veya zemindir. | facets: Kuru ve sert yer ya da zemin. / Parçaları uyumsuz, engebeli ve üzerine oturana rahatlık vermeyen yer. | not: ليس العدوة بمعنى جانب الوادي ولا العداء بمعنى طوار الشيء | src: العَدْواء الأرض اليابسة الصلبة (maqayis)؛ العدواء المكان الذي لا يطمئن من قعد عليه (sihah)؛ مكان ذو عدواء أي غير متلائم الأجزاء (mufradat)
+- **B011** develerin otladığı yaz yeşermesi | العَدَوِيّة من نبات الصيف | Bahar geçtikten sonra küçük ağaçların yeşermesiyle ortaya çıkan ve develerin otladığı yaz bitkisidir. | facets: Bahar bittikten sonra yeşeren, küçük ağaçlarla ilişkili ve develerin otladığı yaz bitkisi. | not: ليس العدوى بمعنى الداء ولا العدوى بمعنى طلب الإنصاف | src: العَدَوِيّة من نبات الصيف بعد ذهاب الربيع يخضر فترعاه الإبل (maqayis)؛ العَدَوِيّة من نبات الصيف بعد ذهاب الربيع يخضر صغار الشجر فترعاه الإبل (sihah)
+- **B012** eğrilik ve güçlük | العَنْدَأْوَة في الالتواء والعسر | Bir şeyde eğrilik ile güçlüğün birlikte bulunmasıdır; kaynak bu biçimi aynı kökteki başka bir biçimle ilişkilendirir. | facets: Eğrilik ve güçlüğün aynı durumda birlikte bulunması. / Biçimin aynı kökteki başka bir söz biçimiyle ilişkilendirilmesi. | not: ليس العداوة بمعنى الخصومة ولا العدوى | src: العَنْدَأْوَة التواء وعسر وهو من العداء (maqayis)
+
+## ض ب ح (root_000901) — identity root of ضَبْحًا (w2)
+
+Bu kök, birbirinden ayrılan beş anlam dalı taşır: tilki ve benzeri sesler, ön bacakları uzatarak koşma, değneğin üstünü ateşle yakma ve ateşten etkilenme, rengin hafifçe kararması ve kül. Ateş etkisi, renk değişimi ve kül arasında kavramsal yakınlık bulunsa da ses ve hareket dalları ayrı çekirdekler oluşturur.
+
+- **B001** tilki sesi ve ona benzetilen sesler | صوت الضباح | Tilkinin ve bazı gece hayvanlarının çıkardığı özel sestir; yankı için ve koşan atların ağız ya da soluklarından gelen, kişneme olmayan ses için de kullanılır. | facets: Çekirdek, tilkinin çıkardığı ve bazı gece hayvanlarına da yüklenen ayırt edici sestir. / Adlandırma, yankıya ve koşan atların ağız ya da soluklarından duyulan kişneme dışı sese genişler. | not: ليس الصهيل ولا الحمحمة ولا مجرد مد الضبعين في السير | src: صوت الثعلب وصوته الضباح (maqayis;jamhara;sihah;tahdhib;mufradat)؛ الهام تضبح والبوم والذئب والصدى (ayn;jamhara;tahdhib)؛ صوت أنفاس الخيل إذا عدون وليس بصهيل ولا حمحمة (ayn;sihah;tahdhib;mufradat)
+- **B002** ön bacakları uzatarak koşma | عدو ممدود الضبعين | Atın ön bacaklarını ileri doğru hareket ettirip uzatarak yaptığı, hafif koşu ile onun üstündeki bir koşu derecesi arasında tanımlanan yürüyüş veya koşu biçimidir. | facets: Çekirdek, atın ön bacaklarını belirgin biçimde hareket ettirip uzatarak ilerlemesidir. / Hız bakımından hafif koşu veya hafif koşunun üstündeki bir koşu derecesi olarak betimlenir. | not: ليس الضباح الصوتي ولا إحراق العود | src: هو عدو فوق التقريب وأصله ضبع (maqayis)؛ ضبح الفرس وضبع إذا حرك ضبعيه في مشيه (jamhara)؛ ضبحت الخيل مثل ضبعت وهو السير (sihah;tahdhib)؛ مد الضبع في العدو والعدو الخفيف (mufradat)
+- **B003** üst bölümünü ateşle yakma ve ateşten etkilenme | إحراق أعالي العود | Bir değneğin üst bölümünü ateşle yakmaktır; ayrıca ateş değmiş ya da yanmış görünen nesneyi ve ateş kullanılarak doğrultulmuş değneği niteleyebilir. | facets: Çekirdek eylem, bir değneğin üst bölümünden bir parçayı ateşle yakmaktır. / Ateş değmiş veya yanmış görünüş kazanan nesneler, özellikle çakmak taşları, aynı kökle nitelenir. / Bir değneğin ateş yardımıyla doğrultulması, yakma çekirdeğine bağlı özel bir uygulamadır. | not: ليس الصوت ولا العدو ولا مجرد تغير اللون | src: الضبح إحراق أعالي العود بالنار (maqayis;ayn;tahdhib;mufradat)؛ حجارة القداحة مضبوحة (maqayis;ayn;sihah;tahdhib)؛ كل شيء مسته النار فقد ضبحته (ayn)؛ قدح ضبيح ومضبوح إذا قوم بالنار (jamhara)
+- **B004** siyaha doğru kararma | تغير اللون إلى السواد | Bir rengin siyaha doğru değişip kararmasıdır; bu değişim kimi anlatımlarda hafiftir ve güneşin veya ateşin etkisiyle gerçekleşebilir. | facets: Çekirdek, mevcut rengin siyaha doğru değişip kararmasıdır. / Güneş ya da ateş, bu renk değişiminin belirtilen dış nedeni olabilir. | not: ليس إحراق العود نفسه ولا الرماد | src: الانضباح تغير اللون إلى السواد (maqayis)؛ انضبح لونه أي تغير إلى السواد قليلا (sihah)؛ ضبحته الشمس وضبته إذا غيرت لونه وكذلك النار (tahdhib)
+- **B005** kül | الرماد | Yanma sonunda kalan ince, kül niteliğindeki maddedir. | facets: Dalın tek çekirdeği, yanma sonrasında kalan kül maddesidir. | not: ليس صوت الضباح ولا عدو الخيل ولا تغير اللون | src: الضبح الرماد (maqayis;sihah;tahdhib)
+
+## ECHO ع د د (root_000989) — for وَٱلْعَٰدِيَٰتِ (w1): withheld observed target; not identity
+
+Kök, sayma ve sayıyla belirleme merkezinden geleceğe hazırlama, sayılı zaman dilimi, sürekli su, belirli zamanda geri geliş ve kişiler arasındaki karşılıklı pay ya da denklik alanlarına yayılan çok dallı bir anlam yapısı gösterir.
+
+- **B001** sayma, sayı ve sayıya göre bir topluluğa katma | إحصاء المعدود | Bir şeyi tek tek sayarak miktarını belirleme; bu işlemin sonucu olan sayı, sayılan varlıkların sayıca niteliği ve bir kimseyi ya da şeyi belirli bir topluluk içinde sayma alanıdır. | facets: Bir şeyin birimlerini sayıp toplam miktarını belirleme işlemi. / Sayma sonucundaki miktar, sayı ve sayılmış ya da sınırlandırılmış varlık. / Sayıca çokluğu belirtme veya birini belirli bir topluluğun üyeleri arasında sayma. | not: ليس إعداد الشيء وتهيئته ولا عدة المرأة ولا الماء العد ولا العداد الزماني | src: عددت الشيء عدا أي أحصيته (maqayis;ayn;sihah;tahdhib)؛ العدد مقدار ما يعد (maqayis)؛ العديد الكثرة (maqayis;ayn;sihah;tahdhib)؛ فلان في عداد الصالحين (maqayis;ayn;sihah)؛ العدد آحاد مركبة (mufradat)
+- **B002** gelecekteki bir iş için hazırlama ve hazır bulundurma | تهيئة العدة | Bir şeyi ileride doğacak bir iş veya ihtiyaç için önceden hazırlamak, gerektiğinde kullanılabilecek biçimde hazır tutmak ve bu amaçla mal, silah ya da başka gereç ayırmaktır. | facets: Bir şeyi gelecekteki belirli bir iş veya olay için önceden hazırlamak. / İhtiyaç anı için mal, silah veya başka bir gereci ayırıp hazır tutmak. / Hazırlanan şeyi gerektiğinde erişilip alınabilecek bir durumda bulundurmak. | not: ليست الإحصاء نفسه ولا عدة المرأة ولا الماء العد | src: أعددت الشيء إعدادا (maqayis)؛ أعددت الشيء هيأته (ayn)؛ العدة من السلاح ما اعتددته (jamhara)؛ أعده لأمر كذا هيأه له (sihah)؛ العدة ما أعد لأمر يحدث مثل الأهبة (tahdhib)؛ أعددت هذا لك أي جعلته بحيث تعده وتتناوله (mufradat)
+- **B003** sayılı zaman dilimi ve bağlama bağlı bekleme ya da tamamlama süresi | مدة العدة المعدودة | Sayısı veya bitiş ölçütü belirlenmiş bir zaman dilimidir. Bağlama göre bu dilim kadın için bekleme süresi, kaçırılan günler kadar sonradan yerine getirme süresi ya da özellikle belirlenmiş sınırlı günler olabilir. | facets: Gün, ay, dönemsel çevrim veya olay sonuyla ölçülüp sınırlandırılmış zaman dilimi. / Bir kadının belirli çevrimler, aylar veya gebeliğin sona ermesiyle ölçülen bekleme süresi. / Kaçırılmış günlerin sayısına eşit sayıda günü daha sonra yerine getirme yükümlülüğü. / Belirli ve az sayıdaki günlerin adl… | not: ليست الأهبة والسلاح ولا مجرد كثرة العدد | src: عدة المرأة أيام قروئها (ayn)؛ عدة المرأة معروفة (jamhara)؛ عدة المرأة أيام أقرائها (sihah)؛ العدة عدة المرأة شهورا كانت أو أقراء أو وضع حمل (tahdhib)؛ فعدة من أيام أخر أي عليه أيام بعدد ما فاته (mufradat)؛ الأيام المعدو…
+- **B004** kaynağı kesilmeyen kalıcı su ve su yeri | الماء العد | Doğal olarak birikmiş, eski veya besleyici kaynağı kesilmediği için çekmekle tükenmeyen sürekli su ve bu suyun bulunduğu kalıcı su yeridir. | facets: Doğal olarak bir yerde toplanmış su veya bu suyun bulunduğu yer. / Eskiden beri var olan ve su çekildikçe tükenmeyen kalıcı su. / Besleyici kaynağı kesilmediği için akışı veya varlığı sürekli kalan su. | not: ليس ماء السماء ولا ماء الغدران المنقطع ولا العداد الزماني | src: العد مجتمع الماء وجمعه أعداد (maqayis;ayn)؛ العد من الماء القديم الذي لا ينتزح (jamhara)؛ العد بالكسر الماء الذي له مادة لا تنقطع (sihah)؛ الماء العد الدائم الذي لا انقطاع له (tahdhib)؛ ماء عد (mufradat)
+- **B005** belirli zaman ve bilinen aralıklarla geri gelme | عداد الوقت ومعاودته | Bir şeyin belirli zamanı veya dönemi ile belli aralıklarda yeniden ortaya çıkmasıdır. Zehir ağrısının alevlenmesi bunun özel gerçekleşmesiyken yayın sesi ve titreşimi ile dağıtım ya da toplanma günü kalıba bağlı ilişkili kullanımlardır. | facets: Bir şeyin belirlenmiş zamanı, dönemi veya en güçlü evresi. / Bir olayın bilinen veya sayılı zaman aralıklarında yeniden ortaya çıkması. / Zehirlenme veya sokulma ağrısının belirli aralıklarla yeniden alevlenmesi. / Yayın aralıklı titreşimini veya bu titreşimden çıkan sesi adlandırma. / Dağıtım, yok… | not: ليس العدد الحسابي وحده ولا العدة الشرعية ولا الماء العد | src: العداد اهتياج وجع اللديغ (maqayis;ayn;sihah)؛ العداد الشيء الذي يأتيك لوقت (tahdhib)؛ عدان الشيء عهده وزمانه (mufradat)؛ كان ذلك في عدان شبابه (ayn;sihah;tahdhib)؛ عداد القوس أن تنبض بها ساعة بعد ساعة (maqayis)؛ عداد ال…
+- **B006** karşılıklı paydaşlık, pay ve denk sayılma | نظير يعد مع غيره | Birden çok kişinin sayılabilir bir mal, değer veya üstünlük bakımından karşılıklı paydaş olması; bundan doğan payların ya da birbirine karşılık ve denk sayılan kişilerin adlandırılmasıdır. | facets: Kişilerin sayılabilir bir mal, değer veya üstünlükte karşılıklı paydaş olması. / Ortaklıktan doğan payları veya özellikle mirasta karşılıklı paydaşları adlandırma. / Bir kişiyi başka bir kişinin karşılığı, eşi veya dengi sayma. | not: ليس مجرد كثرة العدد ولا الاستعداد ولا العداد الزماني | src: هم يتعادون إذا اشتركوا فيما يعدد به بعضهم على بعض (ayn;tahdhib)؛ العدائد النظراء (tahdhib)؛ العدائد الحصص (tahdhib)؛ من يعاده في الميراث (sihah)؛ فلان عد فلان أي قرنه (tahdhib)
+
+## ECHO ع و د (root_001058) — for وَٱلْعَٰدِيَٰتِ (w1): withheld observed target; not identity
+
+Kök, geri dönme ve yineleme çekirdeğinden alışkanlık, son varış, ziyaret, yarar ve düzenli özel güne uzanan dalların yanında yaşlı deve, eski yol, tahta ve özel adlar gibi ayrı sözlüksel alanlar taşır.
+
+- **B001** geri dönme ve yeniden yapma | رجوع بعد انصراف وتثنية بعد بدء | Bir yerden, nesneden ya da işten ayrıldıktan sonra ona geri yönelmek veya başlanmış bir şeyi bir kez daha yapmak; türemiş biçimlerde bir başkasına yeniden yaptırmak ya da tekrar istemektir. | facets: Ayrılınan bir şeye geri gelme ve başlangıçtan sonra aynı işe yeniden yönelme çekirdektir. / Bir işi yinelemek, bir başkasına yineletmek veya ondan yeniden yapmasını istemek dönüş çekirdeğinin eylemsel uzantılarıdır. / Bir topluluğun yeniden çatışmaya girmesi, ateşin nüksetmesi, sorunun tekrarlanmas… | not: ليس هو العادة الراسخة، ولا العيد، ولا العائدة والمنفعة، ولا العود من الخشب، ولا اسم عاد القبيلة. | src: أصل يدل على تثنية في الأمر (maqayis)؛ بدأ ثم عاد (maqayis;ayn)؛ عاد إليه يعود عودة وعودا رجع (sihah)؛ العود الرجوع إلى الشيء بعد الانصراف عنه (mufradat)؛ استعدته الشيء فأعاده (sihah)؛ تعاود القوم في الحرب وغيرها (sihah)…
+- **B002** dönüş yeri ve son varış | مصير ومرجع ومعاد | Bir varlığın sonunda döneceği yer veya ulaşacağı son durak; bağlama göre dönüşün gerçekleştiği zaman ya da mekândır. | facets: Dönüşün yöneldiği son yer, varış veya akıbet temel anlamdır. / Aynı birim, dönüşün gerçekleştiği zamanı veya dönülen mekânı adlandırabilir. | not: ليس هو مجرد فعل الرجوع في الحال، ولا العادة، ولا العيد، ولا الخشب. | src: المعاد كل شيء إليه المصير (maqayis)؛ والآخرة معاد للناس (maqayis)؛ الحج معاد الحاج (ayn)؛ لرادك إلى معاد يعني مكة (ayn)؛ المعاد المصير والمرجع (sihah)؛ الآخرة معاد الخلق (sihah)؛ المعاد يقال للعود وللزمان الذي يعود فيه …
+- **B003** tek söz söylememek | سكوت لا يبدئ ولا يعيد | Belirli bir olumsuz anlatım içinde, kişinin ne konuşmayı başlatması ne de bir karşılık vermesi, yani hiçbir söz söylememesidir. | facets: Söze başlamamak ve karşılık olarak da hiçbir şey söylememek birlikte yapının çekirdeğini oluşturur. | not: ليس هو الإبداء والإعادة في الخلق أو الفعل، ولا مطلق الرجوع. | src: رأيت فلانا ما يبدئ وما يعيد أي ما يتكلم ببادية ولا عادية (ayn)؛ ما يبدئ وما يعيد أي ما يتكلم ببادئة ولا عائدة (maqayis)
+- **B004** tekrarla alışkanlık ve yatkınlık kazanma | عادة ودرَبة ومواظبة | Bir eylemi tekrar tekrar yaparak onu kolay, yerleşik bir davranış veya yatkınlık hâline getirmek; bu yolla süreklilik, deneyim ve yapabilme gücü kazanmaktır. | facets: Tekrarlanan eylemin kolaylaşıp yerleşik davranış veya yaradılış niteliği kazanması çekirdektir. / Bir şeye alışmak, bir canlıyı alıştırmak ve sürekli uygulama yoluyla yeterlik kazanmak bu çekirdeğin süreç uzantılarıdır. / Bir işi defalarca deneyen kişi ile çiftleşmeye defalarca katılmış erkek hayva… | not: ليس هو رجوعا عارضا مرة واحدة، ولا عيد الاجتماع، ولا عيادة المريض. | src: العادة الدربة والتمادي في شيء حتى يصير له سجية (maqayis;ayn)؛ المواظب على الشيء المعاود (maqayis;ayn)؛ بطل معاود (maqayis;ayn)؛ العادة معروفة والجمع عاد وعادات (sihah)؛ عاده واعتاده وتعوده (sihah)؛ عود كلبه الصيد فتعوده…
+- **B005** hasta veya yas ziyareti | عيادة ومعادة وزيارة راجعة | Bir hastayı ziyaret etmek veya bir felaket ya da yas dolayısıyla insanların aynı haneye gidip gelmesi; türemiş adlarda bu ziyaretçiler ya da ziyaret edilen acı olay da anlatılır. | facets: Hastaya giderek onu ziyaret etmek dalın başlıca sözlüksel gerçekleşmesidir. / Hasta ziyaretini yapan erkek ve kadın toplulukları ayrı ad biçimleriyle gösterilir. / Bir felaket veya yas sebebiyle insanların uğradığı hane ve olay, tekrarlanan ziyaret ilişkisi üzerinden adlandırılır. | not: ليس هو كل عادة أو مواظبة، ولا مطلق الرجوع، ولا العائدة بمعنى المنفعة. | src: العيادة أن تعود مريضا (maqayis)؛ عدت المريض أعوده عيادة (sihah)؛ من العود عيادة المريض (mufradat)؛ الرجال عواد المريض والنساء عود (ayn)؛ فلان في معادة أي مصيبة يغشاه الناس (ayn)؛ لآل فلان معادة أي أمر يغشاهم الناس له (m…
+- **B006** kişiye dönen yarar ve iyilik | عائدة ومعروف يرجع | Bir kimseye iyilik, bağış, şefkat, yarar veya kolaylık olarak ulaşan ve onun lehine sonuç veren şey; türemiş yapılarda daha yararlı olma ya da yapılan iyiliği artırma anlamıdır. | facets: Bir kişiye ulaşan iyilik, bağış, şefkat veya yarar temel anlamı oluşturur. / Bir seçeneğin kişi için başka bir seçenekten daha yararlı veya daha elverişli olması karşılaştırmalı uzantıdır. / Bir kimsenin yaptığı iyiliğin ardından daha fazlasını sunması art arda iyilik bildiren özel kullanımdır. | not: ليس هو رجوع الذات إلى مكان، ولا عيادة المريض، ولا عيد الاجتماع. | src: عاد فلان بمعروفه إذا أحسن ثم زاد (ayn)؛ العائدة وهو المعروف والصلة (maqayis)؛ ما أكثر عائدة فلان علينا (maqayis)؛ العائدة العطف والمنفعة (sihah)؛ هذا الشيء أعود عليك من كذا أي أنفع (sihah)؛ هذا الأمر أعود عليك أي أرفق ب…
+- **B007** yeniden gelen özel gün veya hâl | عيد وحال يعاود | Belirli aralıklarla yeniden gelen toplanma veya sevinç günü; ayrıca kişiye tekrar tekrar dönen kaygı, sevgi ya da başka bir durumdur. | facets: Bir günün veya hâlin belirli aralıklarla yeniden gelmesi ortak anlamsal çekirdektir. / Toplanma ya da sevinç için düzenli olarak geri gelen özel gün, çekirdeğin toplumsal gerçekleşmesidir. / Kaygı, sevgi, hayal veya başka bir hâlin kişiye yeniden gelmesi bireysel uzantıdır. / Bu özel güne katılmak … | not: ليس هو مطلق العادة الفردية، ولا معاد المكان، ولا قبيلة عاد نفسها، ولا عود الخشب، ولا الإبل العيدية المنسوبة إلى علم. | src: العيد ما يعتاد من خيال أو هم (maqayis)؛ العيد كل يوم مجمع (maqayis)؛ لأنه يعود كل عام (maqayis)؛ عيد قد مضى ذكره في محله لأن ذلك هو الأصل (maqayis-crossref)؛ العيد ما اعتادك من هم أو غيره (sihah)؛ العيد واحد الأعياد (si…
+- **B008** gücü kalmış yaşlı deve | عود مسن فيه بقايا قوة | İleri yaşa gelmiş fakat gücünden bir miktar kalmış deve; bazı aktarımlarda dişi koyunu da kapsar. Türemiş biçim yaşlanmayı, kalıplaşmış söyleyiş ise deneyimli yaşlılardan yardım almayı anlatır. | facets: İleri yaşa gelmiş ve hâlâ bir miktar gücü bulunan deve temel göndergedir. / Hayvan adının yalnız deveye mi yoksa koyuna da mı uygulandığı konusunda kapsam aktarımı değişir. / Türemiş eylem bir hayvanın veya insanın ileri yaşa ulaşmasını anlatır. / Savaşta yaş ve bilgi sahibi kişilerden yardım istem… | not: ليس هو العود من الخشب، ولا الطريق القديم، ولا اسم عاد. | src: الجمل المسن فهو يسمى عودا (maqayis)؛ كأنه عاود الأسفار والرحل مرة بعد مرة (maqayis)؛ العود الجمل المسن وفيه سورة أي بقية (ayn)؛ العود المسن من الإبل (sihah)؛ زاحم بعود أو دع (sihah)؛ العود الجمل المسن الذي فيه بقية قوة …
+- **B009** eski yol ve köklü geçmiş | قدم وطريق عود | Uzun zamandır var olan ve yolcuların tekrar tekrar kullandığı eski yol; belirli tamlamalarda geçmişten gelen köklü saygınlığı veya eski akrabalık bağını niteler. | facets: Eskiden beri var olan ve yeniden kullanılan yol başlıca sözlüksel göndergedir. / Saygınlığın eskiliğini ve köklülüğünü niteleyen tamlama kullanımı yalnız bu toplumsal nitelikle sınırlıdır. / Akrabalık bağının eski ve geçmişten gelen oluşunu niteleyen tamlama ayrı bir kullanımdır. | not: ليس هو اسم عاد القبيلة في نفسه، ولا الجمل المسن، ولا عود الخشب. | src: العود الطريق القديم (ayn)؛ رحم عودة يعني قديمة (ayn)؛ السودد العود (maqayis)؛ الطريق القديم عود (maqayis)؛ العود الطريق القديم (sihah)؛ سودد عود أي قديم (sihah)؛ طريق عود إذا كان عاديا (tahdhib)؛ العود الطريق القديم الذ…
+- **B010** tahta parçası, tütsülük odun veya telli çalgı | عود من خشب وطيب وآلة | Bir tahta parçası veya ince dal; özel kullanımlarda yakılarak kokusundan yararlanılan odun ya da çalınan telli bir müzik aletidir. | facets: Tahta parçası, ince dal veya odunsu malzeme temel maddi göndergedir. / Yakılarak kokusundan yararlanılan özel odun, maddi çekirdeğin kullanım temelli uzmanlaşmasıdır. / Çalınan telli müzik aleti aynı maddi addan gelişmiş ayrı bir sözlüksel uzmanlaşmadır. | not: ليس هو الرجوع، ولا العادة، ولا الجمل المسن، ولا الطريق القديم. | src: الأصل الآخر فالعود وهو كل خشبة دقت (maqayis)؛ كل خشبة عود (maqayis)؛ العود الذي يتبخر به معروف (maqayis)؛ العود بالضم من الخشب واحد العيدان والأعواد (sihah)؛ العود الذي يضرب به (sihah)؛ العود الذي يتبخر به (sihah)؛ العو…
+- **B011** bağlayıcı eş sözünden ilgili davranışa dönüş | عود الظهار إلى ما قيل | Eş hakkında kurulmuş bağlayıcı bir sözden sonra, o sözle ilişkili davranışa dönmeyi bildiren özel hukukî yapıdır; dönüşün ne olduğu, sözü yineleme, cinsel birliktelik, evliliği sürdürme veya kaçınılacağı söylenen işi yapma biçimlerinde farklı yorumlanır. | facets: Özel aile hukuku söyleyişinde, daha önce söylenen sözle bağlantılı bir davranışa yeniden yönelme ortak çekirdektir. / Dönüş, aynı sözü ikinci kez söyleme olarak yorumlanabilir. / Dönüş, eşle cinsel birliktelik veya evlilik bağını sürdürme olarak yorumlanabilir. / Dönüş, kişinin yapmayacağını belirt… | not: ليس هو مطلق الرجوع، ولا مجرد العادة، ولا العيد. | src: ثم يعودون لما قالوا (mufradat)؛ عند أهل الظاهر هو أن يقول للمرأة ذلك ثانيا (mufradat)؛ عند أبي حنيفة العود في الظهار هو أن يجامعها (mufradat)؛ عند الشافعي هو إمساكها (mufradat)؛ يحمل على فعل ما حلف له أن لا يفعل (mufrad…
+- **B012** biçime bağlı adlandırmalar | عاد وأعلام منسوبة إليها | Bu dal tek bir kavram değil, eski bir kavmin adı, o kavme bağlanan eskilik nitelemesi, bağımsız bir erkek adı ve kökeni tartışmalı bir soylu deve adından oluşan yapısal bir demettir. | facets: Eski bir kavmin özel adı, kendi başına ayrı bir gönderge oluşturur. / Bir nesneyi o eski kavme bağlayarak eski sayan niteleme, özel addan türemiş ayrı bir anlamdır. / Bağımsız bir erkek adı, kavim göndergesiyle tek kavram altında birleştirilemez. / Soylu develerin adı bir aktarımda eski kavme, başk… | not: ليس هو عاد بمعنى رجع، ولا العيد بمعنى اليوم المجمع، ولا عود الخشب. | src: عاد قبيلة وهم قوم هود (sihah)؛ شيء عادي أي قديم كأنه منسوب إلى عاد (sihah)؛ عادياء اسم رجل (sihah)؛ العيدية نجائب منسوبة قالوا نسبت إلى عاد (maqayis)؛ العيدية إبل منسوبة إلى فحل يقال له عيد (mufradat)
+
