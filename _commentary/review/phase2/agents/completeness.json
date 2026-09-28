@@ -1,0 +1,266 @@
+{
+ "missing_questions": [
+  "Guard scope for non-lexical constructions (no proposal asks this). Does a construction count as 'present' when it rests on a derived form (tawallā used intransitively, Form V) or on a semantic frame (dhikr 'by the tongue')? These two kinds make up 110 of the 397 root-dossier placements that every critic used as gold (و ل ي B007 n=83, ذ ك ر B004 n=27). The heuristics detect 10 of 83 and 1 of 27 respectively (/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/Z-completeness/z04_orthography_probe.txt). The strict/frame/echo question that B, C1, C2 and D ask the user does not cover this case.",
+  "Is an early source that is not among the dictionary's six (Majāz al-Qurʾān, 1,308 ayah-keyed glosses) allowed as construction-level evidence? Phase 1 §5 and A's planned early-citation file say yes. The binding rule says sense evidence comes only from the project's own dictionary.",
+  "Evaluation-only question about the 29:38 watch case: it describes zayyana as 'adorning/coating', but the dictionary's three ز ي ن branches (root_000660 B001 beauty free of blemish, B002 beautifying / making beauty visible, B003 the set of adornments) attest no coating sense. Under the dictionary principle a 'coating' activation would be memory-sourced and must be marked. Should the scorecard reward it only when it is marked? Separately, ص د د B012 (a woman's screen or veil, bare, Tahdhīb) sits in the ayah's own fa-ṣaddahum, and no proposal or critic mentions it. It must not become a pipeline rule.",
+  "Production budget ruling. The three critics' combined designs differ about 2×: one Opus call plus a chain map at about $0.75–0.95 per ayah (cost critic), a two-call F2 sequence at about $0.7–1.0 (K critic), and B's primary at about $1.2–2.1 ($1.75 corrected; dilution critic). Is the ~$1 aim a ceiling?",
+  "Tier 3: 24 long surahs, about 3,113 ayat, with no HFT and no v5, about half the Quran. Accept a thinner product, or approve Luna-HFT at about $71–143 and 27–37 h of wall time (cost critic c06)?",
+  "Is the configuration of the v9 29:38 pilot acceptable as a positive-control arm, and as a production candidate through the synchronous API rather than Batch? That pilot had an agentic Opus read the whole package (about 350k tokens including building, ≈$1.7 per ayah), and the user called it 'great / excellent analysis and prose' (v9/DESIGN.md findings log).",
+  "How many blind pairs will the user read per round? B asks for 8–10 pairs plus a whole S88, and the critics add replicates. Reading time, not dollars, is the binding limit on replicates.",
+  "Should branch_kind be audited or repaired before it becomes a hard check? Its accuracy has never been sampled, and the S1 dictionary audit found 11 of 157 definitions needing correction, all unrepaired.",
+  "For long surahs, is a pericope-then-surah hierarchy acceptable? It adds a selection point before the surah commentary. S2's uncapped ayah commentaries total about 1.6–1.8M tokens (cost critic c08).",
+  "v15 scene paths are answer-contaminated (e.g. 'film over the eye' under body.eye). Drop them from C1 and C2, or approve a blind Luna rebuild? The rebuild is about 193 jobs, roughly $4 list-equivalent (Inference from the cost critic's median of 29k in / 12.5k out per frames job).",
+  "Should the user's own v9 gap list join the frozen evaluation gold? It covers the night shelter بيت ↔ عشو B006 (43:36) ↔ mustabṣirīn, the Ād / ع د د echo roots, and the Fatiha road resonating from 29:38.",
+  "Is API access available now for a Batch plus cache smoke test? Every production cost figure depends on a Batch runner that has never been built, and the CLI showed no cross-call prefix reuse."
+ ],
+ "unverified_claims": [
+  {
+   "claim": "C1's neighbour-activation ordering (convergence / floor-gated fusion) beats similarity, +0.036 to +0.048 latent MRR, and should order the push.",
+   "where": "C1-branch-distance answers, na_eval3.json, conv_eval.json (v12 labels, primary-sense-biased readers)",
+   "how_to_verify": "Partly verified; it fails to transfer. I re-scored the K critic's independent HFT-outlier test under C1's own protocol (non-B001 candidates only). On the 57 live targets C1 scores MRR 0.332 against random 0.393, and top-3 24 against 28.0 expected. Across all non-B001 branches (echo-only and absent ranked last) it scores 0.304 against random 0.349 and dictionary-id order 0.371. The ayah-cluster bootstrap gives C1−random −0.046 [95% −0.098, +0.014] and C1−dictionary order −0.068 [−0.146, +0.003]. Script: /private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/Z-completeness/z01_c1_hft_rerank.py (.txt). Before any ordering enters a prompt, run C1's V2 held-out surahs and add a surprise-class test set."
+  },
+  {
+   "claim": "Memory permission restores outside-surah QeQ reach (median 30 against 1.5), independent of input size.",
+   "where": "D experiment (3) confound.py; EXECUTIVE_SUMMARY finding 2; PHASE1_REPORT §4.3 table",
+   "how_to_verify": "Not isolated. All 17 permitted dictionary-fed runs also carried a findings ledger: write_v11.md:1 'findings ledger, then the reading'; :29 'Collect every finding'. D's FED-NOPERM group contains v9:w10-opus-ledger, which is in fact permitted (write_ledger.md:15 'Include what you know from the whole Quran'); it cites 38 outside refs with 62.7k output. The only permitted no-ledger runs are the cold arm, median 11 outside refs. Script: /private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/Z-completeness/z05_output_shape_confound.py (.txt). Verify with a dictionary-fed arm that has permission and no ledger, on the ayat where the dict arm exists, 2 replicates."
+  },
+  {
+   "claim": "Permitted, fed synthesis calls produce about 50.6k output tokens, so every proposal's cost should rise 40–70%.",
+   "where": "X-cost-critic c03_output_shape.py, c07_cost_model.py, cross_cutting item 1",
+   "how_to_verify": "Same confound. The v11:out median of 58.3k output is 39.9k thinking plus 17.9k visible text, and the visible text includes a ledger of 62 findings. The permitted cold arm without a ledger has a median of 19.8k (z05). The true figure for a permitted, no-ledger brief is unmeasured, somewhere between about 20k and 50k. Use 50k as the $5 gate and measure the real figure in the first approved calls."
+  },
+  {
+   "claim": "Thinking collapses at or above about 140k billed tokens, so every call must stay below that.",
+   "where": "Cap used by A (S1), B (110k), C2, D, and all three critics (e.g. the cost critic's '25 of 75 windows over 140k')",
+   "how_to_verify": "Contradicted as a size threshold. v11:out runs at 142–219k kept 42–46k thinking; 1:2 v11-script at 144k kept 53.6k; the 4:34 ledger arm at 226k kept 36.0k and was the best-scoring 4:34 arm in Phase 1 §4.3 ('dict + slim Luna, 225k … scored highest (9)'). The full-package arm (w10-opus) thinks little even at 57–75k (103:1 17.4k; 103:2 10.9k). Script: /private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/Z-completeness/z06_collapse_band.py (.txt). Inference: the drop comes from package composition, not size. Test it in D's V2 with a KA+neutral-bulk arm alongside the KA+package arm."
+  },
+  {
+   "claim": "All construction heuristics miss 61–79% of legitimate constructions.",
+   "where": "X-dilution-critic k5/k6/k6c; K critic frame_rule; C2 construction_eval2",
+   "how_to_verify": "Direction confirmed, size overstated. The gold (root-dossier activation_map) is assigned per group by Luna (root-dossier/README.md:38). In a seeded sample of 30 placements I judged: 23 with the lexical construction present, 2 present by form only (tawallā), 2 with only a semantic frame (dhikr), and 3 absent or arguable. All 3 come from one Luna group (ء ت ي B011 g23, 33 occurrences: bare 'the punishment / the Hour comes to them'). Three branches hold 36% of the gold; excluding them, C2 R5 recall rises from 0.33 to 0.44. Uthmani spelling is not the cause (A's cue 134/397 both ways). Scripts: /private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/Z-completeness/z02_dossier_colloc_sample.py, z03_dossier_gold_by_branch.py, z04_orthography_probe.py. Next: a hand audit of 60 placements by the user (C1's V1) and form-aware signatures."
+  },
+  {
+   "claim": "36.2% of channel subchannels contain collocation-bound members whose construction is absent, and 94% of anchored collocation members lack it.",
+   "where": "K-northstar-critic channel_drift2.py / channel_drift3.py",
+   "how_to_verify": "This is an upper bound built on R5, whose recall is 0.19–0.44 (see above); the K critic says so itself. Hand-check 30 subchannels with a form-aware guard before claiming this level of drift."
+  },
+  {
+   "claim": "29:38 is the only watch case not fed its answer.",
+   "where": "K-northstar-critic checks_run",
+   "how_to_verify": "It holds only for briefs. The v15 scene inventory lists 'film over the eye' under body.eye (K contamination_check.out), so C1's and C2's scene paths are answer-fed on 29:38. Lint every input layer of every arm, not just the briefs."
+  },
+  {
+   "claim": "A's digest is label-free and flags every branch.",
+   "where": "A-v5-step avoids_known_failures / branch_kind guard layer",
+   "how_to_verify": "Refuted in part. The digest sorts by '[N readings]', a popularity label (dilution critic k7), and F3 lists ع م ل B011 with no flag (K critic, digests_tier2/29_38.digest.md). Run a lint over all 909 digests."
+  },
+  {
+   "claim": "Given the digest, supply, packet or sheet, Opus assembles the eye film + spider + kohl, the 18:86 observer reading and the 18:96 usage echo.",
+   "where": "Every proposal's watch_cases",
+   "how_to_verify": "Untested; only the ingredients' presence was checked, which is trivially true when every branch is listed. Needs the approved model runs, with at least 3-of-4 replicate criteria for single items (dilution critic k9)."
+  },
+  {
+   "claim": "D's memory_score predicts what memory lacks (AUC 0.88).",
+   "where": "D policy_eval.py",
+   "how_to_verify": "In-sample on 13 ayat from 4 famous surahs. On the HFT outliers it pushes phrases for only 44% (K critic). Check out of sample through the probe pilot, or simply push phrases for every non-plain branch (+12–22% tokens)."
+  },
+  {
+   "claim": "S1 chain-map windows of 7–10 ayat fit in 40–80k.",
+   "where": "A-v5-step stage S1",
+   "how_to_verify": "The cost critic measured pericopes at 16.8 ayat on average, giving 82–97k median and 140–242k maximum. Rebuild the windows from surah_pericopes.jsonl with the calibrated token formula."
+  },
+  {
+   "claim": "Batch plus a cached shared surah prefix halves production cost.",
+   "where": "A, B and D production figures; PHASE1 §4.7",
+   "how_to_verify": "The runner has never been built, and the CLI shows no cross-call prefix reuse (cost critic c09). Confirm with an API smoke test of 3–5 Batch requests that share a prefix."
+  },
+  {
+   "claim": "The dictionary's branch_kind labels are right.",
+   "where": "Assumed by every proposal and critic; binding rule",
+   "how_to_verify": "Never sampled. Hand-check 30 collocation and 30 bare labels against their early phrases; the user decides what to repair."
+  }
+ ],
+ "unrun_checks": [
+  "Isolate permission from the ledger: a dictionary-fed arm with permission and no ledger. It is the only way to settle both D's QeQ claim and the cost critic's output shape (z05).",
+  "Positive control: rerun the configuration of the v9 29:38 pilot that the user rated 'great / excellent' (an agentic Opus reading the package) next to a compact-supply call on the same ayat. No proposal has one.",
+  "Test the typed-path annotations on the surprise class, as path existence against a base rate. The K critic reports that the HFT activator root is among the branch's best-path activators in 37 of 74 cases, but no one computed the rate for a random other root in the same ayah. xref_idf, bridges through lemmas in 30 or fewer ayat, and B's G joins should be scored the same way.",
+  "Build a form-aware construction guard (QAC measure/voice plus the governed preposition) for derived-form constructions and the 749 non_bare branches, and score it on the dossier gold with the noisy ء ت ي B011 group removed. و ل ي B007 is detected in 10 of 83 (z04).",
+  "Hand-audit branch_kind: 30 collocation and 30 bare labels checked against their early phrases.",
+  "Measure coverage of assembled readings (coalitions), not only branch ids, for any script union against v5, HFT and the v13 anchors. A's 98.2% is at branch level; only 25% of the coalitions from rejected candidates survive (dilution critic k2c).",
+  "Build a Tier-3 digest or supply for one no-HFT ayah, and size 2:282, for A and B.",
+  "Use the user's v9 gap list as a small gold. عشو appears in none of the five 29:38 supplies (grep over A's Tier-1 and Tier-2 digests, B supply/29_38.md, D 29_38.ka.phrase.md, C2 harvest/29_38.md, C1 harvest2/029_038.push.md). Nobody tested whether any detector finds the shared-concept 'night' join (بيت 'يبات' ↔ عشو B006), which the user asked for in the v9 findings log.",
+  "Train an ayah-level reranker on the 623k graded inter-ayah pairs, with a bias probe (the share of C2's loaded-word partner pairs graded 'no value'). Only the branch-pair learned metric was tested (C1).",
+  "Cross-encoder fine-tune and personalised PageRank over a typed graph (M5). These are blocked: there is no torch in any local Python, and the quran-slm .venv python3.13 symlinks to a missing /opt/homebrew path (checked).",
+  "A script check of the disclosure plan (each image opened once and advanced where planned): specified by B and the K critic, never built.",
+  "NS2: no one measured whether pushed Turkish gloss error profiles (A's F5, B's mini-supply) change the Turkish layer. Loanword cards cover 74 lemmas.",
+  "Contrast sources: dictionary polarity relations found 0 of 62 S1 contrasts (C1). al-ʿAskarī's Furūq (919 contrasts), allowed as a secondary aid, was not tested.",
+  "Maqāyīs single-aṣl statements (473 roots), a ready NS7 'one concept per root' layer, are pushed by no proposal.",
+  "Adjacent-ayah bridges (36,493 typed items, study repo, model unknown) were considered by no proposal for NS3/NS12. Check them for verdict-bearing content first.",
+  "Replicate power: two replicates cannot detect loss of a single item at a handover (dilution critic k9: '≥1 of 2' passes a p=0.3 item 51% of the time). No validation plan except the dilution critic's budgets for ≥4 replicates of the handover call."
+ ],
+ "unconsidered_alternatives": [
+  "An agentic pull arm: Opus with Read access to a full package, as in the v9 29:38 pilot the user praised (v9/DESIGN.md: 'Opus lane … reads the whole package', ≈$1.7 per ayah). Every proposal pushes compact supplies and rules out tool loops only because Batch is single-shot. The synchronous API can run tool loops in production at roughly twice the Batch price (Inference).",
+  "One session with staged supply, over multiple turns: (1) a permitted cold reading; (2) script supply of rare branches with phrases, joins and counts, asking what changes; (3) the slice of the chain map; (4) compose. The turn order puts QeQ after the latent reading, nothing crosses a records-to-prose handover, and no independent canonical reading reaches an integrator. That answers the K critic's objection to B and the dilution critic's objection to A. The cost is re-billed context per turn, cheap only with API cache reads (Inference).",
+  "Surah at once for short surahs: one Opus call writes every ayah commentary and the surah commentary, which gives progressive disclosure (NS4) and NS12 natively for surahs whose output fits 64K (CLI) or 128K (API), e.g. S100, S103, S88. Nobody costed or tested it.",
+  "v5 middle-layer prose (the 1:6 version holds nearly every North Star image) integrated with a permitted cold reading, as the cheapest Q3 test. It appears only as B's optional arm C.",
+  "Reuse the existing output of the v11 arm-S seed pass (S1, $1.64, which assembled the herd, waymarks, rain and soft-against-hard) as the first chain-map input, instead of new S1 windows.",
+  "Rebuild the scene inventory blind with Luna, instead of either dropping scene paths or keeping contaminated ones.",
+  "Use the HFT traces (216,787 word→branch→role steps) as a co-activation signal for branch affinity, split by surah because it is circular with the HFT evaluation set.",
+  "Co-citation in early entries (Mufradāt 8,056 and Tahdhīb 3,239 ayah references filed under branches) as a per-ayah, construction-scoped activation signal that satisfies the dictionary principle, and as independent gold for the guard. B uses quoted-ayah 3-grams only as a licence.",
+  "A form-aware guard (QAC measure and voice plus the governed preposition) instead of lexical partner matching, which misses the derived-form and semantic constructions behind most of the measured misses.",
+  "Q2 read as 'training data' for fine-tuning or distillation (e.g. a cross-encoder, or distilling Opus readings into cheaper discovery): not discussed by any proposal, and blocked locally with no torch."
+ ],
+ "contradictions": [
+  {
+   "between": "C1 (NA ordering beats Neo on v12) vs the K critic (below random on HFT outliers)",
+   "issue": "Whether the neighbour-activation order should order what is pushed.",
+   "resolution": "Verified by z01. Under C1's own non-B001 protocol, C1 still scores below random (0.332 vs 0.393) and below dictionary-id order (0.304 vs 0.371), with a bootstrap CI that includes zero and centres below it. Drop the ordering. Keep C1's guard statistics, construction-grouped concordance and low-df bridges / xref_idf as annotations."
+  },
+  {
+   "between": "Cost critic (permitted = 50.6k output) vs the proposals (22k) vs the K critic (FED-PERM is v11 ledger runs)",
+   "issue": "The output shape that drives every cost estimate.",
+   "resolution": "z05: permission and the ledger are perfectly confounded across all 17 permitted fed runs. Treat 20–50k as unmeasured: gate at 50k, estimate at the midpoint, and measure in the first approved calls."
+  },
+  {
+   "between": "D / EXECUTIVE_SUMMARY ('permission restores QeQ, 30 vs 1.5') vs z05",
+   "issue": "D's FED-NOPERM group contains a permitted ledger arm (w10-opus-ledger, 38 outside refs). The only permitted no-ledger runs (cold) give 11.",
+   "resolution": "Mark the finding 'permission or ledger, not separated' in the synthesis document, and run the isolation arm (next step 4)."
+  },
+  {
+   "between": "The 140k collapse cap (A, B, C2, D, all critics) vs the Phase 1 metrics",
+   "issue": "The cost critic's objection to A's S1, the dilution critic's bulk arguments and B's 110k cap all treat 140k as a size cliff.",
+   "resolution": "z06: the collapse belongs to the full-package arm, not to size. Permitted ledger arms at 142–226k keep 33–54k thinking. Keep a size cap only as a cost limit; test composition in D's V2."
+  },
+  {
+   "between": "K critic (push each chain member's construction state) vs dilution critic (never push a presence verdict) vs D (keep presence out of the prompt)",
+   "issue": "How the dictionary principle reaches the chains and supplies.",
+   "resolution": "z02–z04: even with the noisy gold group removed, the heuristics miss more than half of real constructions (C2 0.44). Push the dictionary's scope note and construction phrase (D's C[…] tag) for every branch and chain member. Keep presence verdicts in verification, where they go to the user and the record and never into a repair or a deletion."
+  },
+  {
+   "between": "A ('v5 rejects and narrows cost nothing') vs dilution critic k2c",
+   "issue": "Branch ids survive, but readings assembled from rejected candidates survive only 25%.",
+   "resolution": "Count retention by coalition, and put v5 readings in as a reading stream rather than as the base of the packet."
+  },
+  {
+   "between": "A (flags on every branch) vs the K critic (F3 ع م ل B011 unflagged) and dilution critic k7 ([N readings] sorting)",
+   "issue": "A's digest carries labels and unflagged chain members.",
+   "resolution": "Lint the digests. Remove count sorting. Flag chain members with scope notes."
+  },
+  {
+   "between": "B ('no set-asides') vs dilution critic",
+   "issue": "Channels the S-reading does not take up never reach R_lex or the integrator, so they are set aside by omission.",
+   "resolution": "Push every subchannel that touches the ayah, unlabelled, next to the S-slice."
+  },
+  {
+   "between": "B's 18:86 mechanism (R_mem recalls the creation passages) vs D and the K critic (the brief example '(15:26, 15:28, 15:33)')",
+   "issue": "B's evidence for 18:86 is contaminated.",
+   "resolution": "Score 18:86 only against arms whose brief has passed the lint, and treat the older runs as contaminated baselines."
+  },
+  {
+   "between": "The critics' combined designs: cost (one call plus chain map) vs K (F2, two calls) vs dilution (B, three to five calls)",
+   "issue": "Production cost of about $0.75–1.0 vs about $1.2–2.1 per ayah.",
+   "resolution": "Decide with B's Step 1 integration pilot, a paired F1/F2 arm and the user's budget ruling; do not decide by argument."
+  },
+  {
+   "between": "Cost critic (C1 'strong') vs the K and dilution critics (C1 'weak')",
+   "issue": "The cost critic judged cost only; the quality evidence goes against C1's ordering.",
+   "resolution": "Keep C1 as a cheap annotation layer without the ordering (z01)."
+  },
+  {
+   "between": "Phase 1 §5 / A's early-citation file (Majāz usable) vs the binding principle (only the project's own dictionary)",
+   "issue": "Whether a source outside the six may serve as construction-level evidence.",
+   "resolution": "User ruling (missing question 2)."
+  },
+  {
+   "between": "Token estimators: A bytes/2 (+29%), C1 chars/2.2 (−25%), C2 chars/2.5–3 (−40%)",
+   "issue": "Size and cost claims are inconsistent across proposals.",
+   "resolution": "Use the cost critic's calibrated formula (c01) for every budget."
+  },
+  {
+   "between": "The 29:38 watch-case wording ('zayyana: coating') vs the dictionary (no coating sense in ز ي ن B001–B003)",
+   "issue": "A scorecard that rewards an unmarked coating reading would reward construction-free or memory drift.",
+   "resolution": "User question; the scorecard accepts it only when marked or anchored to an attested branch."
+  },
+  {
+   "between": "North Star ('nafakha animating in 19 of 20 uses') vs v13 (12 horn, 5 breath, 2 ʿĪsā, 1 craft) vs C2/D (ṣūr 10 + rūḥ 6 of 18 ayat), and the construction-bound 'giving life' facet of ن ف خ B001",
+   "issue": "Whether horn-blowing counts as 'animating' is interpretive, and the role cannot be stated as the root's sense.",
+   "resolution": "Push counts by construction, frame the reading as a Quranic usage echo, and score 18:96 on that framing."
+  }
+ ],
+ "user_answers_status": [
+  {
+   "question": "Q1: Is this the most we can do?",
+   "status": "partly",
+   "gap": "Everyone says no and lists unused script layers (branch_kind, definitional joins, loaded-word counts, parallels) plus integration. There is no measured gain over the v5 bar (no runs). The alternatives with the biggest possible effect are untested: agentic pull, staged single session, surah at once, a form-aware guard, the early-citation file."
+  },
+  {
+   "question": "Q2a: Where does the model's pretraining knowledge suffice, so data need not be pushed?",
+   "status": "partly",
+   "gap": "D's class-level map stands (rare, collocation and never-activated branches need data). But its central lever, permission, is confounded with the ledger (z05). Its labels are in-sample (13 ayat from famous surahs). There is still no cold 29:38 run (planned in C1 V3 and D V1). Whether the model marks memory as asked is untested."
+  },
+  {
+   "question": "Q2b: Are there enough labelled examples to train or tune a retriever or distance model?",
+   "status": "partly",
+   "gap": "For branch pairs: enough labels, and the learned metric is no better than Neo (C1; features are the bottleneck). Not done: training an ayah-level retriever on the 623k graded pairs, quantifying canonical label bias at scale, a cross-encoder (blocked, no torch), and a surprise-class gold beyond the HFT outliers (which are circular for relay layers)."
+  },
+  {
+   "question": "Q3: Could a step on top of v5 with more data processing work?",
+   "status": "partly",
+   "gap": "A's digest exists and holds the ingredients. But coalitions from rejected candidates survive only 25% (k2c). Tier 3 (half the Quran, no HFT) is untested. S1 and S5 are mis-sized for long surahs. The cheapest test, v5 middle-layer prose integrated as a reading, is only an optional arm in B."
+  },
+  {
+   "question": "Q4: A significantly different, non-iterative method?",
+   "status": "partly",
+   "gap": "B offers parallel readings integrated once, with F1/F2 fallbacks and a real change of method (frozen scorecard, replicates, seeded blind ayat). Not considered: agentic pull, a staged single session, surah at once for short surahs. B's core hypothesis is untested, though an $8–12 pilot on existing readings is ready."
+  },
+  {
+   "question": "Q5: A better distance, improving or replacing quran-slm's, or new distance methods, so script discovery and harvest can run before synthesis?",
+   "status": "partly",
+   "gap": "Typed lenses and the guard were built. The only ordering validated on independent data (C1) does not transfer to the surprise class (z01), and the typed paths are validated only in-sample (spider, ghishāwa). Still open: contrasts (0 of 62), zayyana ↔ eye film, the user's night-shelter shared-concept link (عشو absent from every 29:38 supply). Untested: cross-encoder, personalised PageRank, a blind scene rebuild, HFT co-activation, early-citation co-citation."
+  }
+ ],
+ "recommended_next_steps": [
+  {
+   "step": "User rulings in one sitting: guard mode including derived-form and semantic constructions; Majāz and other non-dictionary early sources; Tier 3 depth; production budget ceiling; the zayyana 'coating' criterion; blind-read capacity per round; scene paths dropped or rebuilt.",
+   "needs_model_runs": "none",
+   "why": "Several designs cannot be frozen without these, and every loosened script rule re-admits ḍaraba = travel (K critic frame_rule: 9.2% false activation).",
+   "cost": "$0"
+  },
+  {
+   "step": "Guard evidence cleanup by script and hand: audit 60 dossier placements and 30+30 branch_kind labels; add form-aware construction signatures (QAC measure plus governed preposition); re-score on the dossier gold without the noisy ء ت ي B011 group; fix the rule that presence verdicts live in verification only.",
+   "needs_model_runs": "none",
+   "why": "It turns the four inconsistent heuristic results (A 66%, B 79%, C1 61% echo, C2 67% missed) into one audited guard, and settles the K critic vs dilution critic dispute (z02–z04).",
+   "cost": "$0 (about half a day of scripting plus the user's audit time)"
+  },
+  {
+   "step": "Freeze a surprise-class evaluation set: the K critic's HFT outliers (3,398 cases, named surahs excluded, seeded 40-ayat sample) plus the user's v9 gap list. Score typed-path annotations as path existence against a random-root base rate. Drop any ordering that does not beat dictionary-id order; C1's already does not (z01).",
+   "needs_model_runs": "none",
+   "why": "It is the only independent test of script discovery for the 29:38 class. It answers Q5 honestly before anything reaches a prompt.",
+   "cost": "$0"
+  },
+  {
+   "step": "Isolation arm: a dictionary-fed call with the memory-permission clause and no ledger, otherwise the dict-arm brief, on 6 ayat that already have cold and dict arms (e.g. 1:6, 4:34, 5:6, 18:86, 18:96, 100:1), 2 replicates. Log output and thinking.",
+   "needs_model_runs": "yes: 12 Opus 5.5 effort-high calls via claude -p (user approval)",
+   "why": "It settles the permission-vs-ledger confound behind D's Q2a answer and the executive summary, and replaces the cost critic's 50.6k guess with a measured output shape for every cost model (z05).",
+   "cost": "≈$8–15 ($0.6–1.2 per call, depending on the output measured)"
+  },
+  {
+   "step": "B's Step 1 integration pilot on existing readings: integrate v9 cold with v9 dict for 18:86, 4:34 and 1:6, 2 replicates with the order swapped, plus one challenge turn each.",
+   "needs_model_runs": "yes: 6 integration + 6 challenge Opus calls via claude -p (user approval)",
+   "why": "It is the cheapest decisive test between the one-call (cost critic), F2 (K critic) and B (dilution critic) designs, which differ about 2× in production cost.",
+   "cost": "≈$8–12 (B's estimate $8–9, plus the cost critic's challenge re-ingestion correction)"
+  },
+  {
+   "step": "Positive control against compact push: rerun the v9 29:38 pilot configuration (agentic Opus reading the v9 package) on 29:38 and 2 seeded blind ayat, 2 replicates. Compare with one permitted compact-supply call on the same ayat (D's KA phrase-for-all or B's R_lex), 2 replicates.",
+   "needs_model_runs": "yes: about 12 Opus 5.5 effort-high calls via claude -p (user approval)",
+   "why": "It tests whether the compact designs lose what the user-praised configuration found. It gives the first matched 29:38 comparison, and tests the unconsidered pull alternative for Q4.",
+   "cost": "≈$15–25 (pilot ≈$1.7 per call; compact ≈$0.9–1.3 per call)"
+  },
+  {
+   "step": "Batch runner smoke test on the API: 3–5 requests sharing a surah prefix; confirm Batch and cache-read billing before any production figure is trusted.",
+   "needs_model_runs": "yes: 3–5 Opus API Batch requests (needs API access and user approval)",
+   "why": "Every production estimate ($0.6–2.1 per ayah) assumes a runner designed three times and never built, and the CLI showed no cross-call prefix reuse.",
+   "cost": "≈$1–3"
+  }
+ ]
+}

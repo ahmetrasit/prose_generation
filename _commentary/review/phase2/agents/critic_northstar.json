@@ -1,0 +1,244 @@
+{
+ "lens": "North Star fit and the watch cases (adversarial). I checked every proposal against NS1–NS12, the dictionary principle and contamination. I also re-tested the salience claims on an independent, generic stand-in for the 29:38 case: 3,398 neighbour-activated outlier branches from HFT, labelled by Sol at max effort, with the named surahs excluded.",
+ "per_proposal": [
+  {
+   "key": "B-noniterative",
+   "verdict": "viable",
+   "objections": [
+    {
+     "objection": "The claim that no input carries a verdict fails at integration. The integrator reads two finished readings, and finished readings are full of verdicts. The R_mem stand-in is exactly the 18:86 failure: the cold arm frames ḥamaʾ as 'a root similarity, not an equation'. So in practice QeQ arrives before, and alongside, the latent reading and can suppress R_lex's surprise, against NS6 and NS9.",
+     "evidence": "Negation and disclaimer frames per 1,000 words: v9 cold arm median 6.5 (range 4.4–10.7, n=17); dict arm 7.3 (3.8–9.3, n=12). Both are above the v5 rate of 5.4 that proposal A treats as the disclaimer problem (K-northstar-critic/neg_frames.py, neg_frames.out). The 18:86 cold reading says 'Bu yüzden bu bir yorum benzerliğidir, bir eşitleme değildir' (v9/lines/work/18_86/synth/w10-opus-cold/18_86.reading.tr.md:15).",
+     "severity": "major"
+    },
+    {
+     "objection": "The 18:86 mechanism rests on contaminated evidence. 'R_mem cites the creation passages from memory (every earlier Opus run did, the cold arm included)' is not evidence of memory: the cold arm's brief carried exactly those references as its citation example.",
+     "evidence": "'e.g. (15:26, 15:28, 15:33)' appears at v9/prompts/write_v10.md:59, write_v11.md:112, v10/prompts/write.md:59, v11/prompts/write.md:113 and v11/prompts/write_s.md:128. The cold arm ran on write_v10. Proposal D found this; I confirmed it by grep.",
+     "severity": "major"
+    },
+    {
+     "objection": "The S-reading reads the channel reviews raw. Those reviews carry many collocation-bound members whose construction is absent at the anchored ayah, so drift enters the chains and the disclosure plan. The guard only catches it at 4c, after the prose exists.",
+     "evidence": "5,090 of 54,976 channel-chain members (9.3%) are collocation-bound. For 4,676 of them (94% of those anchored), no construction is detected (C2 R5 index; R5 recall is 0.19–0.33, so this is an upper bound). 3,301 of 9,125 subchannels (36.2%) contain at least one. In S1 all 28 collocation members are affected: م ل ك B005/B007/B008, ق و م B016, ن ع م B011, ع ب د B009 … (K-northstar-critic/channel_drift2.py, channel_drift3.py, *.out).",
+     "severity": "major"
+    },
+    {
+     "objection": "The 21/21 watch check is uninformative: the supply lists every branch of every root, so presence is guaranteed. Salience, and whether the integrator keeps the eye film, is untested. The G joins are the real, generic contribution: B010 → عنكبوت 29:41 and غشاوة 2:7, 45:23; ص ل و B006 → سبق 29:39.",
+     "evidence": "watch_check.py checks regex presence only. The 29:38 readings used in B's scorecard were v9 package or lines runs (v9/lines/work/29_38/synth/{opus1,sol1,sol2}); no supply-only or R_lex-like run exists.",
+     "severity": "minor"
+    },
+    {
+     "objection": "The loaded-word lens is promised for the integrator but not written. 18:96 needs a rule that keeps a usage echo separate from a branch sense. The 'giving life' facet of ن ف خ B001 is itself construction-bound in the dictionary, so verification step 4c could flag the animating reading, or the writer could state it as the root's sense.",
+     "evidence": "The ن ف خ B001 note (quran-data tr entry) binds the fire, trumpet and life-giving uses to their phrases (K-northstar-critic/kb.py \"ن ف خ\").",
+     "severity": "minor"
+    }
+   ],
+   "what_would_fix": "Make B's own fallback F2 the primary arm, or test it against B as a paired arm: first R_lex (the latent reading), then one call that does QeQ from memory after the latent reading and composes the commentary. Nothing independent and canonical then reaches the integrator. Give the S-reading chain members with their branch_kind and construction state at the anchored ayah. Write the generic loaded-word rule (echo stated with Quran references, never as a sense of the root). Keep B's methodology intact: frozen scorecard, seeded blind ayat, lint, two replicates.",
+   "survives_if": "F2, or a changed R_mem stance that outputs passages with relation types and no verdicts, keeps the 18:86 creation-clay and observer reading in both replicates. The integrator also has to keep the 29:38 eye film with its 29:41 link on the named case and carry the analogous readings on the blind ayat."
+  },
+  {
+   "key": "A-v5-step",
+   "verdict": "viable",
+   "objections": [
+    {
+     "objection": "For the 29:38 class, generic power comes from relay, not from the design. The eye film is in section A only because HFT (Sol) found the 'webbed path'. Early phrases (F6) are pushed only for activated branches, so the 42% of branches never activated (64% for rare roots) get a one-line Turkish gloss in E. The same holds throughout the 3,113 Tier-3 ayat that have no HFT. F7 is no generic substitute.",
+     "evidence": "On 68 independent HFT neighbour-activation pairs outside the named surahs, only 15 (22%) fall inside F7's pushed top 30. The median rank is 91 of 296 pairs (K-northstar-critic/a_f7_on_hft.py, a_f7_on_hft.out). The 29:38 eye-film~kohl pair is at rank 25 under a cutoff of 30. s05_digest.py:227 computes F6 only for section A branches.",
+     "severity": "major"
+    },
+    {
+     "objection": "F3 and the S1 chain map push channel-chain members with no branch_kind flag, contrary to the claim that flags are on every branch. The relay itself also carries drift, so the dictionary principle is bypassed through the existing chains.",
+     "evidence": "The 29:38 Tier-2 digest's F3 lists 'a well-used worked road (ع م ل B011)', which is collocation-bound with its construction absent (طريق معمل), and it carries no flag (A-v5-step/out/digests_tier2/29_38.digest.md, F3 section). Of the relay's own collocation activations, 87% lack a construction cue (A s03). 449 of 3,398 HFT outlier branches (13%) are collocation-bound (K-northstar-critic/d_policy_on_hft.out).",
+     "severity": "major"
+    },
+    {
+     "objection": "S2 asks one call for two stances (generative integration plus evidence-bound QeQ). The North Star's own lesson says this loses one of them. The supporting FED-PERM evidence comes from v11, whose ledger brief also said 'collect every finding' and which was recorded as structurally unable to form cross-ayah coalitions. V1's criterion 'QeQ distinct refs ≥ cold arm' rewards breadth, but the gold is latent-rich and QeQ-light. The 18:86 cold baseline is also contaminated by the brief example.",
+     "evidence": "The FED-PERM group is v11 'out' runs, plus v11-luna and v11-script (D-knowledge-supply/r3/confound.txt). v11 missed 9 of 26 gold items, 7 of them for architectural reasons (PHASE1_REPORT §2). Brief example: write_v10.md:59.",
+     "severity": "major"
+    },
+    {
+     "objection": "The brief draft decides the user's open question in advance. 'Use it only where the construction (or its partner word) is present, or say which word supplies it' licenses surah-level frames for collocation-bound branches before the user has ruled. Every loosened script version I tested readmits the user's cardinal error.",
+     "evidence": "A-v5-step/brief_draft.md lines 29–31. A word-window frame rule (W=4) raises dossier recall from 0.19 to 0.405, but false activation rises from 0.98% to 9.2%, and it activates ض ر ب B002 (travel) at 4:34 through تبغوا (K-northstar-critic/frame_rule.py, frame_rule.out).",
+     "severity": "minor"
+    },
+    {
+     "objection": "The S1 evidence is contaminated: v5 prompts carried CHANNELS.md, quran-slm is in-sample on S1, and the S1 channel review contains the gold chains. This is acknowledged. For 18:86 and 18:96 the design supplies counts (F1, including س و ي 4) but no rule separating a usage echo from a sense, and S3(d) may flag the animating reading as construction drift.",
+     "evidence": "s12_watch_eval; A's own risks list; the ن ف خ B001 scope note.",
+     "severity": "minor"
+    }
+   ],
+   "what_would_fix": "Show every chain member in F3 and in the S1 input with its branch_kind and its construction state at the anchored ayah. Push early phrases for every branch of rare roots and every branch with 1–3 sources, not only activated ones, reusing B's part C or D's phrase mode. Move F7 to the lookup. Remove 'or say which word supplies it' until the user rules. Measure QeQ as relation-typed items attached to latent readings, not as distinct references. Test S2 as a single call against B's F2 as a two-call sequence in paired arms. Add the rule for usage echoes.",
+   "survives_if": "On 29:38 and on blind ayat (including one Tier-3 ayah without HFT), the single S2 call keeps both the latent readings and a non-suppressing QeQ, and the relayed chains carry no unflagged construction-free members."
+  },
+  {
+   "key": "D-knowledge-supply",
+   "verdict": "viable",
+   "objections": [
+    {
+     "objection": "Supply without a synthesis lens is inert. The ḥamaʾ references were in every 18:86 run (through the brief example or memory), and the reading was still dismissed. D's brief is a legend with no loaded-word or coalition lens, so the 18:86 observer framing, the 18:96 usage echo and the Fatiha coalitions depend on luck.",
+     "evidence": "PHASE1_REPORT §4.3: 'supply without an instruction saying what to make of it is inert (the Fatiha well …)'. The cold and v11 18:86 readings have 15:26/28/33 and still frame them as 'kök ortaklığıdır, eşitlik değil' (v11/out/s018/18_86/18_86.ledger.md:19). D's wording_principles contain no lens.",
+     "severity": "major"
+    },
+    {
+     "objection": "The static memory score, used as the rule for which phrases get pushed, under-supplies the watch class. Its threshold was chosen after seeing the 13-ayah labels, and the eye film sits exactly on it (score 1; the lean mode loses it).",
+     "evidence": "Of 3,398 independent HFT neighbour-activated outlier branches, D pushes the phrase for 1,492 (44%) and gives 1,906 only an index line. Without the partly circular HFT feature, 2,472 (73%) are pushed (K-northstar-critic/d_policy_on_hft.py, .out).",
+     "severity": "major"
+    },
+    {
+     "objection": "The confound finding is overstated. The FED-PERM runs are v11 runs whose brief also demanded a findings ledger. Permission alone was never isolated, and high QeQ breadth co-occurred with coalition failures. So 'permission restores QeQ' is not the same as 'permission helps the North Star'.",
+     "evidence": "D-knowledge-supply/r3/confound.txt: the PERM group is 'out' (v11) runs; the v11 brief says 'Collect every finding … so that nothing is lost'. v11 missed 9 of 26 gold items.",
+     "severity": "minor"
+    },
+    {
+     "objection": "D has no definitional joins: the spider link and ghishāwa are left to the reader. There is no chain map or surah commentary (NS4, NS12), and Turkish loss is left to memory (NS2).",
+     "evidence": "D's packet sections (r3/kapacket.py). D's north_star_coverage says NS2 is untested.",
+     "severity": "minor"
+    }
+   ],
+   "what_would_fix": "Push phrases by a generous structural rule (every branch of roots with 60 or fewer uses and every branch with 1–3 sources), not by fitted score. Add B's G joins and C2's departure counts, phrased as counts. Put a generic loaded-word and coalition lens into the synthesis brief (A's lines 23–28). Keep the verifier against the full early entries and the brief lint.",
+   "survives_if": "It is used as the supply and verification layer under an A/B synthesis that carries the lens. Its corrections (brief contamination, 12 of 14 phrases attested, root-level concordance) go into every design."
+  },
+  {
+   "key": "C2-loaded-parallels",
+   "verdict": "viable",
+   "objections": [
+    {
+     "objection": "The strict guard, with low recall, works as a pruner. With a recall of 0.33 (excluding the two grammatical constructions), about two thirds of true collocation placements are withheld and named without their phrase. That is premature pruning by a noisy detector (NS8) in the name of the dictionary principle.",
+     "evidence": "C2 construction_eval2: R5 recall 0.33, false activation 0.95%. The sheet shows 'withheld here … B011 الطريق المعمل' by name only (C2-loaded-parallels/harvest/29_38.md:63).",
+     "severity": "major"
+    },
+    {
+     "objection": "The watch results are in-sample. Thresholds were set while viewing watch-case outputs (the same-ayah rank limit of 40 was kept to preserve kohl at rank 38). Quran-slm similarity does not generalise to the 29:38 class.",
+     "evidence": "This is C2's own risk statement. The quran-slm family is at chance on independent HFT neighbour pairs (A's F7: 15 of 68 in the top 30; C1: MRR 0.296 against random 0.355), per K-northstar-critic/a_f7_on_hft.out and c1_on_hft.txt.",
+     "severity": "major"
+    },
+    {
+     "objection": "'THIS OCCURRENCE DEPARTS' is a verdict-shaped label with 40–50% precision, which would push about 440 noise flags across the Quran. The parallels union includes the v15 scene lens, whose inventory is contaminated.",
+     "evidence": "loaded_sample_judgments.tsv (10 of 20 real for roots with 60 or fewer ayat). frames_inventory.json: body.eye roles include 'film over the eye'; herding 'lead animal' and 'stray'; race.horse_race 'follower'; water.well 'frame', 'beam' (K-northstar-critic/contamination_check.out).",
+     "severity": "minor"
+    },
+    {
+     "objection": "C2 is not a pipeline: it has no synthesis stance, no chains and no surah commentary (NS4, NS9, NS12). Its strengths for my lens are real and generic: the [plain] mark (NS1), the ḥamaʾ and nafakha departures, and the sawwā→nafakha formula echo.",
+     "evidence": "ن ف خ ∩ س و ي co-occur in exactly 15:29, 18:96, 32:9, 38:72 (my check on v15 words.tsv). The 18:96 sheet line is at harvest/18_96.md:190.",
+     "severity": "minor"
+    }
+   ],
+   "what_would_fix": "Turn the guard into a label: show each withheld branch with its phrase and 'bound to <construction>; absent here'. Phrase departures as counts and references, never 'DEPARTS'. Drop the scene lens until the inventory is rebuilt blind. Freeze thresholds and re-validate on the HFT outlier set and on seeded blind ayat.",
+   "survives_if": "Its layers ([plain], construction index as verifier, loaded-role counts, formula echoes, parallels union minus scene) feed a host synthesis design as descriptive supply."
+  },
+  {
+   "key": "C1-branch-distance",
+   "verdict": "weak",
+   "objections": [
+    {
+     "objection": "The central claim does not transfer. The neighbour-activation ordering is at or below chance on an independent labeller of the 29:38 class, so the eye film's first place at 29:38 is not representative. The gains shown are on v12 labels, which have a primary-sense bias.",
+     "evidence": "40 seeded ayat and 74 HFT neighbour-activated outlier cases, named surahs excluded. Pushed with paths 29, listed as 'then' 28, echo-only 11, absent 6. On the 57 ranked cases, C1 MRR is 0.296 against a random expectation of 0.355 (dictionary order 0.245). Top-3 hits are 17 against 23.8 expected at random (K-northstar-critic/hft_na_set.py, c1_on_hft.py, c1_on_hft.txt/.json).",
+     "severity": "major"
+    },
+    {
+     "objection": "Contaminated path type. The scene-complement path comes from v15's inventory, which lists the answers as roles. The 29:38 push shows 'scene body.eye: film over the eye' on the eye-film line and 'scene body.eye' on the kohl line, and M8's S1 coalition growth uses the same tags.",
+     "evidence": "C1-branch-distance/harvest2/029_038.push.md (w12, w14). frames_inventory.json roles (K-northstar-critic/contamination_check.out).",
+     "severity": "major"
+    },
+    {
+     "objection": "NS1 and NS11 risk. The push reorders branches and does not mark the plain one, and much of the displayed evidence is noise that invites spurious readings.",
+     "evidence": "B001 is not the first listed branch in 64% of the 135 word blocks. 521 of 790 (66%) 'Quran pairs «X»' paths go through lemmas found in more than 100 ayat (الشيء 175 times). The 29:38 eye film's top activator is listed as لقوم 29:35 (K-northstar-critic/c1_paths.py, c1_paths.out).",
+     "severity": "major"
+    },
+    {
+     "objection": "The 'echo only' tier softens the binding rule rather than leaving it to the user. The 'unknown' status (5,174 pairs) stays live, and 'window' matches are right in 6 of 15 cases. At the same time the guard would hide 11 of 74 independent HFT outlier branches as echo-only, which shows it has real teeth on relayed data.",
+     "evidence": "C1 guard_sample.log. My c1_on_hft run.",
+     "severity": "minor"
+    },
+    {
+     "objection": "C1 does not design synthesis (NS2, NS6, NS9, NS12 are absent), and its S2 surah step is not built.",
+     "evidence": "C1 stages S2 and S3 ('not built end to end', 'not designed here').",
+     "severity": "minor"
+    }
+   ],
+   "what_would_fix": "Keep C1's measured components as annotations, not as an order: the guard statistics, the construction-grouped concordance (نفخ [في + من روح] ×5), rare-lemma bridges with ayah frequency of 30 or less (غشاوة 2:7, 45:23) and xref_idf pointers (عنكبوت 29:41). Drop the neighbour-activation reordering and the scene path, and mark the plain branch.",
+   "survives_if": "It is reduced to a typed-path annotation layer feeding B's or D's supply, with the ordering claim dropped."
+  }
+ ],
+ "checks_run": [
+  {
+   "what": "Brief contamination (D's claim) and whether any brief names the 29:38 answer",
+   "result": "Confirmed: '(15:26, 15:28, 15:33)' appears as the citation example at v9/prompts/write_v10.md:59, write_v11.md:112, v10/prompts/write.md:59, v11/prompts/write.md:113 and v11/prompts/write_s.md:128. The 18:86 memory evidence is therefore confounded. No v9–v15 prompt contains سبل, sabal, eye film, عنكبوت or kohl. The S29 channel review has no eye film. 29:38 is the only watch case not answer-fed by any brief, inventory or chain; HFT's Sol outlier found it.",
+   "script_path": "grep over _commentary/v9..v15/prompts (inline); /Volumes/OZTURK/_projects/quran-data/data/analysis/channels/network-v3/s029/review/reader_a_pilot.md"
+  },
+  {
+   "what": "Contamination of the v15 scene inventory used by C1 (scene path) and C2 (scene lens)",
+   "result": "The inventory roles list the answers: body.eye 'film over the eye'; herding 'lead animal', 'stray'; race.horse_race 'follower'; water.well 'frame', 'beam'. C1's 29:38 eye-film and kohl lines display body.eye scene paths.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/K-northstar-critic/contamination_check.out"
+  },
+  {
+   "what": "branch_kind of the watch-case branches (dictionary principle compatibility)",
+   "result": "س ب ل B010: bare, Ṣiḥāḥ only. ص د د B013 (kohl): bare, Tahdhīb. ز ي ن B001–B003: mixed. ح م ء B001: mixed. So 29:38 and 18:86 are fully guard-compatible. ن ف خ B001 is mixed, and its note binds the life-giving facet to its phrases, so the 18:96 reading is legitimate only as a Quranic usage echo. Dictionary source tags are early only: tahdhib 9,371, sihah 9,057, maqayis 6,888, mufradat 5,431, ayn 4,353, jamhara 2,363; no late lexicons. HFT packets carry Furūq branches without branch_kind.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/K-northstar-critic/kb.py"
+  },
+  {
+   "what": "Construction-to-root drift carried by the existing chains (channel reviews), which every design pushes",
+   "result": "5,090 of 54,976 members (9.3%) are collocation-bound. 4,676 of them (94% of anchored) have no construction detected; this is an upper bound, since R5 recall is 0.19–0.33 and only 6% are detected overall. 3,301 of 9,125 subchannels (36.2%) contain at least one, and 290 have at least 50% such members. S1: 28 of 28, including م ل ك B005/B007/B008, ق و م B016 and ن ع م B011. A's 29:38 F3 shows ع م ل B011 unflagged.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/K-northstar-critic/channel_drift2.py, channel_drift3.py (channel_drift2.out, channel_drift3.out, channel_drift2_rows.tsv)"
+  },
+  {
+   "what": "Can a generic loosened construction rule ('frame') resolve the North Star conflicts without re-admitting drift?",
+   "result": "No. Word-window W=4: dossier recall 0.19 → 0.405, but false activation 0.98% → 9.17%, and it activates ض ر ب B002 (travel) at 4:34 through تبغوا. Attachment-based variant: recall 0.32, false activation 2.65%. Neither licenses م ل ك B005/B007/B008 at 1:4. The Fatiha items need a surah-level ruling from the user, not a script.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/K-northstar-critic/frame_rule.py, frame_rule2.py (frame_rule.out, frame_rule2.out)"
+  },
+  {
+   "what": "Independent generic analogue of 29:38: HFT surprising outliers whose first step activates a non-B001 branch of a focus word, with another in-ayah root in the trace (named surahs excluded)",
+   "result": "3,398 cases in 1,980 ayat; a seeded sample of 40 ayat and 74 cases. This is usable as a held-out salience test for supply designs; it is circular for A's relay sections.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/K-northstar-critic/hft_na_set.py (hft_na_set.json)"
+  },
+  {
+   "what": "C1's neighbour-activation ordering on the independent set (C1's harvest2 run read-only; outputs in my dir)",
+   "result": "Pushed with paths 29, listed as 'then' 28, echo-only 11, absent 6. On 57 ranked cases: MRR 0.296 against random 0.355 and dictionary order 0.245. Top-3: 17 against 23.8 expected at random. The HFT activator root is among the branch's best-path activators in 37 of 74.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/K-northstar-critic/c1_on_hft.py (c1_on_hft.txt, c1_on_hft.json, c1_hft_out/)"
+  },
+  {
+   "what": "A's F7 quran-slm pair layer (top 30 pushed) on the independent set",
+   "result": "15 of 68 pairs are in the pushed top 30. Median rank 91 of a median 296 pairs (relative 0.27). The 29:38 kohl pair at rank 25 sits just under the cutoff.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/K-northstar-critic/a_f7_on_hft.py (a_f7_on_hft.out, .json)"
+  },
+  {
+   "what": "D's static memory score on the independent set",
+   "result": "The early phrase is pushed for 1,492 of 3,398 (44%); 1,906 get only an index line. Without the HFT feature, 2,472 (73%) are pushed. 449 of these outlier branches (13%) are collocation-bound, a drift risk in any HFT relay.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/K-northstar-critic/d_policy_on_hft.py (d_policy_on_hft.out)"
+  },
+  {
+   "what": "Verdict content of finished readings (the inputs to B's integrator)",
+   "result": "Negation and disclaimer frames per 1,000 words: cold arm median 6.5 (4.4–10.7, n=17); dict arm 7.3 (3.8–9.3, n=12). 18:86 cold: 'bir yorum benzerliğidir, bir eşitleme değildir'.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/K-northstar-critic/neg_frames.py (neg_frames.out)"
+  },
+  {
+   "what": "C1 push quality for NS1 and NS11",
+   "result": "66% of bridge paths (521 of 790) go through lemmas found in more than 100 ayat (الشيء 175 times). B001 is not first in 64% of 135 word blocks, and no plain mark is given.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/K-northstar-critic/c1_paths.py (c1_paths.out)"
+  },
+  {
+   "what": "18:96 generic loaded-word evidence (C2's sawwā echo) and the 29:38 digest and supply contents",
+   "result": "ن ف خ and س و ي co-occur exactly at 15:29, 18:96, 32:9 and 38:72 (roots in 18 and 80 ayat). B's supply, D's packet and A's Tier-2 digest all carry B010 with the Ṣiḥāḥ phrase and ص د د B013. A's F2 and B's G carry the 29:41 spider link. C2 marks [plain] and C1 does not.",
+   "script_path": "inline python over /Volumes/OZTURK/_projects/prose_generation/_commentary/v15/data/words.tsv; greps of B-noniterative/supply/29_38.md, D-knowledge-supply/r3/packets/29_38.ka.phrase.md, A-v5-step/out/digests_tier2/29_38.digest.md, C2-loaded-parallels/harvest/*.md"
+  },
+  {
+   "what": "A's brief draft lint",
+   "result": "No watch-case term or reference appears. The generic lenses are there (coalitions; a root with few uses carrying one role; collocation scope; QeQ never cancels). But 'or say which word supplies it' pre-decides the frame question.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/A-v5-step/brief_draft.md (grep inline)"
+  }
+ ],
+ "cross_cutting": [
+  "All five proposals contain every watch-case ingredient, and none shows that Opus produces the readings. For any design that lists every branch of every root, presence checks are trivially satisfied. The one thing sold as generic salience does not hold on an independent HFT set of the 29:38 type: C1's neighbour-activation order scores MRR 0.296 against random 0.355, and A's F7 puts only 15 of 68 pairs in its pushed top 30. Scripts should annotate with typed paths (definitional joins such as عنكبوت 29:41 and غشاوة 2:7/45:23, construction-grouped concordance, formula echoes) and never reorder branches.",
+  "The dictionary principle is applied to branches the pipelines list, but not to the chains they inherit. 36.2% of channel subchannels, all 28 S1 collocation members and 13% of HFT outlier branches rest on collocation-bound branches without a detected construction. Every chain member pushed to a chain map or ayah call must carry its branch_kind and construction state at the anchored ayah.",
+  "The user's own North Star items collide with the binding rule in two ways. (1) Lexical: م ل ك B008 lead animal and B007 water at 1:4, ن ع م B011/B012 at 1:7, ق و م B016 at 1:6, and ع م ل B011 in the S29 road chain. Only the user can rule on these, and loosened script rules re-admit ḍaraba = travel at 4:34 (W=4 frame: false activation 9.2%). (2) Usage: the life-giving facet of ن ف خ B001 is construction-bound. A generic distinction resolves the second: a Quran-loaded reading is stated as a usage echo with Quran references, never as the word's sense here, and the verifier must treat the two differently.",
+  "Contamination: the v15 scene inventory lists the answers as roles ('film over the eye', 'lead animal', 'stray', 'follower', well 'frame' and 'beam'), so C1's and C2's scene paths and any S1 test are answer-fed. The '(15:26, 15:28, 15:33)' brief example confounds every earlier 18:86 memory claim, including B's mechanism and A's baseline. 29:38 is the only uncontaminated watch case. A generic held-out stand-in exists in the HFT outliers, usable for supply designs but circular for relay sections.",
+  "18:86 and 18:96 are stance problems, not supply problems. The ḥamaʾ references were present in every run and were still called 'not an equation'. A design needs a generic loaded-word lens in the synthesis brief, and must feed the writer no dismissive prose. Finished readings carry 6.5–7.3 negation frames per 1,000 words.",
+  "QeQ breadth is the wrong success metric. The gold is latent-rich and QeQ-light, and v11's high breadth (FED-PERM median 30 outside references) came with 7 of 9 architectural coalition misses. Score QeQ as relation-typed items attached to latent readings, plus non-suppression.",
+  "NS12 and progressive disclosure are designed only in A (S1 map plus S5) and B (S-reading plus surah commentary). Both run the ayat in parallel from a plan, and both need a script check that each image opens once and advances where the plan says."
+ ],
+ "ranking": [
+  "B-noniterative",
+  "A-v5-step",
+  "D-knowledge-supply",
+  "C2-loaded-parallels",
+  "C1-branch-distance"
+ ],
+ "combined_design": "A repair of B and A, with D, C2 and C1 as supply and verification layers. There are no case rules.\n\n**S0: supply per ayah (script, free).**\n- B's part C: every branch of every root, with image, early phrase, branch_kind and 'construction present here: yes/no'.\n- C2's [plain] mark from root-dossier (NS1).\n- Joins: B's G plus A's F2 (definitional cross-references).\n- Loaded-word counts:\n  - root-level uses for roots with 30 or fewer uses (D);\n  - C1's construction-grouped concordance;\n  - A's F1 co-occurrence counts, including formula partners (C2's echo, e.g. ن ف خ with س و ي at 15:29/18:96/32:9/38:72), phrased as counts, never as 'DEPARTS';\n- A's F5 Turkish losses.\n- Where they exist, A's label-free relay of v5, HFT and v12, with every relayed branch flagged.\n- Channel-chain members listed with their branch_kind and construction state at the anchored ayah.\n- Kept out of the push: C1's reordering and path strings, quran-slm F7 pairs (lookup only), and any v15 scene-tag path until an inventory is built blind.\n- Size is B's or D's: median about 23k tokens, with the light mode above 110k.\n\n**S1: chain map per surah or pericope (Opus high).** A's S1 is the same step as B's S-reading. It grounds and extends the channel chains without set-asides, with each member's guard state visible, and returns a disclosure plan.\n\n**S2: latent reading (Opus high).**\n- Brief: A's generic brief, minus 'or say which word supplies it' until the user rules. Add one generic line: a loaded-word reading is stated as the Quran's usage with references, never as a sense of this word.\n- Memory is permitted and marked.\n\n**S3: QeQ after the latent reading, and composition (Opus high).**\n- This is B's F2 arm. It reads the finished S2 reading, the surah text and memory, and writes the Turkish commentary: ground, Turkish loss, readings, QeQ with relation types.\n- No independent canonical reading ever reaches it, which avoids R_mem's 'not an equation' verdicts.\n- The single-call alternative (A's S2) runs as a paired arm, not as an assumption.\n\n**S4: checks (script).**\n- v15 check.py for source tags and quotations.\n- The construction index (C2 or B licence v2) on cited root-and-branch senses, treating usage echoes separately.\n- D's attestation of memory phrases against the full early entries.\n- An unused index built from S2 sentences missing in S3 (B/A).\n- A disclosure-plan check.\n\n**S5: one fixed challenge-or-repair turn on flags and unused items.** This merges B's challenge and A's repair; there are no reruns.\n\n**S6: surah commentary with the unused index** (A S5 / B step 6).\n\n**Before any run (user decisions, free):**\n- (a) Strict guard versus an explicit construction-level echo for the lexical conflicts: lead animal, water in mālik, ن ع م B011/B012, ق و م B016, ع م ل B011.\n- (b) The brief lint, which also checks '(15:26, 15:28, 15:33)' and the inventory role names.\n- (c) The frozen scorecard: watch probes, rare-branch activations with triggers, relation-typed QeQ per latent reading, negation-frame rate, form, sources.\n\n**Evaluation (B's methodology).**\n- Two replicates per arm; blind ayat seeded (19:70, 19:73, 19:75, 88:7, 88:17). 29:38 is the only uncontaminated watch case; 18:86 and 18:96 are read against the contaminated earlier baselines.\n- A supply-salience check on the held-out HFT outlier set (3,398 cases), never on relay sections.\n- V1 (needs approval): 29:38, 18:86, 18:96 and 4 blind ayat × 2 replicates × 2 arms (F2 sequential, A single call). About 28 ayah-runs, each 1–2 Opus calls plus 4 S1 windows. Estimated cost: about $1.2–1.7 per ayah-run on claude -p (S2 about $0.6 plus S3 about $0.8 by the dict-arm and B integrator shapes), about $35–50 in total, with every call under $5. My estimate from the proposers' recorded token shapes; not run.\n- Production: about $0.7–1.0 per ayah through Batch with a cached surah prefix (Inference).\n\n**Why this combination.** It is the only one that:\n- keeps the rare branch and its phrase visible for every ayah (29:38 generically), not only where HFT relayed it;\n- keeps the chains while exposing their drift;\n- puts QeQ structurally after the latent reading without verdict-laden inputs (NS6, NS9);\n- carries loaded words as counts plus a lens, framed as usage echoes (18:86, 18:96);\n- keeps NS12 and progressive disclosure through S1 and S6;\n- leaves the one real conflict with the North Star to the user rather than to a loosened heuristic."
+}

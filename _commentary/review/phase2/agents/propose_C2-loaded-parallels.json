@@ -1,0 +1,699 @@
+{
+ "key": "C2-loaded-parallels",
+ "title": "Script discovery at word and ayah level: a construction guard, Quran-loaded roles per construction, a Pareto parallels union, and a per-ayah harvest sheet",
+ "summary": "Q5 answer: instead of one better distance, use a set of typed script lenses. Each lens hands synthesis its own evidence path and none of them decides what is relevant. Four parts, all scripts, prototyped and measured locally with no model runs. (0) A construction guard that puts the dictionary principle into code. It extracts each collocation-bound branch's construction from its own early-source phrases (the words around the root word, and any preposition right after it). It then checks each Quranic occurrence against its grammar attachments and the neighbouring words. A collocation branch is pushed only where its construction is present. On ḍaraba, all 13 bare uses get no collocation sense, 4:34 included. ḍaraba fī l-arḍ is found at 5 of 6 places, ḍaraba mathalan at 27 of 31, and no branch is confused with another. Across the root-dossier labels (excluding the two grammatical constructions) the guard finds 33% of collocation placements, with 0.95% false activations. (1) A Quran-loaded-word detector. It computes each root's recurring roles, separately for each construction, from its recurring partners (binomial test plus lift). Occurrences outside the dominant role are flagged. It flags ḥamaʾ at 18:86: 3 of 4 uses share ṣalṣāl, and 18:86 departs in both frame and form. It flags nafakha at 18:96: ṣūr and rūḥ cover 16 of 18 ayat, and 18:96 departs. It also finds a structural echo nobody recorded: sāwā at 18:96, set against sawwaytuhu/sawwāhu at 15:29, 32:9 and 38:72. (2) A Pareto union of seven parallels lenses: root, lemma, phrase with pronoun normalisation, word-level echo, loaded role, scene and quran-slm text map. On 4:34 it lifts same-surah recall at about 30 items from 0.36–0.45 (single lenses) to 0.55, or 0.62 outside the ±7 window. It reaches 1.0 on 5:6 and 18:86. For 18:96 it gets 0.75 across the whole Quran at K10. (3) A per-ayah harvest sheet: every activatable branch with a classical phrase and its branch_kind, neighbour activation, loaded roles, parallels, contrasts and qirāʾāt. Each item carries its evidence, and everything left out is one read away in the pull file. On 29:38 it surfaces the eye film with the spider-house cross-reference (29:41). It also finds kohl through fa-ṣaddahum's own branch ص د د B013, a path not recorded before. The design rests on Phase 1: data must supply rare branches, counts and dominant roles, parallels, and a check on memory. The model supplies the rest. The sheet is supply only: no verdicts, no list of things that must land.",
+ "answers": "Q5 (main): replaces one distance with typed, context-conditioned lenses at word level (construction guard, loaded roles per construction, neighbour activation using quran-slm only as the conditional branch selector, definitional cross-references) and at ayah level (a Pareto union of 7 lenses). Every lens is measured on the watch cases and the recorded parallels (tables in extra). Q1: shows three unharvested layers that were never used: the dictionary's branch_kind with construction scope, Quran usage-role statistics (grammar attachments, collocation and co-occurrence) and definitional cross-references. With the lens union, the parallels v15 lacked appear by script (4:90 by phrase, 2:238 and 4:81 by echo, 4:3 by loaded role, 5:89/5:91/5:95/5:97). Q2a: the sheet pushes only what memory lacks: rare branches with early phrases, counts and dominant roles, out-of-window partners, construction scope. It assumes the model may use memory, marked, and reuses the construction index as the script that checks memory-sourced senses against branch_kind. Q2b: labelled data is enough to evaluate these scripts: root-dossier plain branches (696 collocation-branch placements against 27,076 negatives), the 5 known root partitions, and the recorded 4:34/5:6 parallels. It is not enough to train a loaded-word or construction model, so the lenses stay untrained and every score orders; nothing is thresholded out without being listed in the pull file. Q3: the same sheet can sit on top of v5 discovery as the cross-ayah and loaded-word supply v5's per-ayah lanes lacked. Q4: not addressed; the sheet is the supply layer for any B/D design.",
+ "stages": [
+  {
+   "name": "0a. Base indexes (dictionary + grammar)",
+   "who": "script (common.py build_trcache)",
+   "input": "quran-data/data/dictionary/tr/*_entry.json (1,704 entries: branches with lexicalization_scope.branch_kind, occurrence_evidence with aligned grammar attachments); v15/data words.tsv, lemmas.tsv, branches.tsv, quran.tsv",
+   "output": "tr_cache.pkl: 11,773 branches (kind, image, what, phrase, gloss, neighbour relations); 49,618 occurrences with attachments (37,411 aligned)",
+   "size_or_tokens": "about 5 s",
+   "stance": "supply",
+   "once_or_per_ayah": "once"
+  },
+  {
+   "name": "0b. Construction guard index",
+   "who": "script (construction.py, rule R5)",
+   "input": "early-source phrases of 1,800 collocation and 748 non_bare branches; per-occurrence attachments; words within 1 before and 3 after",
+   "output": "construction signatures (partner roots and stems, preposition after or before); construction_index.tsv (72,323 occurrence x collocation-branch pairs, 1,220 marked present, each with its matched partner); root-dossier plain branch overrides where it exists (123 roots)",
+   "size_or_tokens": "about 30 s",
+   "stance": "guard (dictionary principle): orders and withholds, never deletes; withheld items listed",
+   "once_or_per_ayah": "once"
+  },
+  {
+   "name": "0c. Loaded-role index",
+   "who": "script (loaded.py)",
+   "input": "root occurrences, ayah and attachment contexts plus adjacent ayat, construction groups from 0b",
+   "output": "loaded_roots.tsv (1,226 roots with 2 or more ayat; 396 loaded), per-construction units (271; 119 loaded), loaded_flags.tsv (1,308 departures; 876 in roots with 60 or fewer ayat)",
+   "size_or_tokens": "about 15 s",
+   "stance": "descriptive statistics (counts, partners, refs); no interpretation",
+   "once_or_per_ayah": "once"
+  },
+  {
+   "name": "0d. Parallels indexes",
+   "who": "script (parallels.py)",
+   "input": "roots, lemmas, token n-grams (particle and pronoun normalised), v15 Luna scene tags, quran-slm ayah_semantic_map ranks, loaded index",
+   "output": "inverted indexes per lens",
+   "size_or_tokens": "about 10 s",
+   "stance": "supply",
+   "once_or_per_ayah": "once"
+  },
+  {
+   "name": "0e (optional). Explicit construction patterns for collocation branches",
+   "who": "Luna (gpt-6-luna, max reasoning), about 30 jobs of 60 branches",
+   "input": "each collocation branch's early phrases plus its Turkish scope note",
+   "output": "construction pattern(s) per branch (head form, preposition, partner lemma set) to replace the heuristic signatures",
+   "size_or_tokens": "about 29k input + 13k output tokens per job (v15 frames-job average; inference)",
+   "stance": "extraction only",
+   "once_or_per_ayah": "once; needs approval"
+  },
+  {
+   "name": "1. Harvest sheet",
+   "who": "script (harvest.py)",
+   "input": "0a–0d plus quran-slm branch rank memmaps (fused E5/Neo/char), qirāʾāt, v15 documented alternative roots",
+   "output": "harvest/<S_A>.md (sections A–G, each item with its evidence path) + <S_A>.pull.json (withheld collocation branches with reasons, all neighbour candidates, full lens lists)",
+   "size_or_tokens": "8k chars (1:6) to 166k chars (2:282); about 1–3 s per ayah",
+   "stance": "supply; no verdicts, no must-land; push limits are strength thresholds with '+N in pull' shown",
+   "once_or_per_ayah": "per ayah (or all ayat once: about 2 h on a laptop, inference)"
+  },
+  {
+   "name": "2. Synthesis (belongs to the host design A/B/D)",
+   "who": "Opus 5.5 effort high",
+   "input": "ayah window text + harvest sheet (framed in one line as supply: use what serves the reading, own memory allowed and marked)",
+   "output": "reading/prose",
+   "size_or_tokens": "sheet adds 3k–66k input tokens (chars/2.5–3; inference)",
+   "stance": "generative",
+   "once_or_per_ayah": "per ayah; needs approval"
+  },
+  {
+   "name": "3. Post-synthesis sense check",
+   "who": "script (to build; reuses construction_index + branch_kind)",
+   "input": "the record/prose's Arabic senses with their anchors",
+   "output": "flags: collocation-bound sense used where its construction is absent; memory sense not attested in the dictionary (marked, not deleted)",
+   "size_or_tokens": "seconds",
+   "stance": "evidential; annotates only",
+   "once_or_per_ayah": "per ayah"
+  }
+ ],
+ "data_processing": [
+  {
+   "layer": "branch_kind + construction scope",
+   "source": "quran-data/data/dictionary/tr/*_entry.json (lexicalization_scope, source_phrase_ar, what_is_ar)",
+   "method": "Signature per collocation branch from its early phrases: partner tokens within 3 of the root word mapped to roots through a Quran surface lexicon (Uthmani alif-less keys); prepositions right after (or before) the root word; recurring partners (2 or more phrases) make a 'lexically fixed' construction that needs those partners.",
+   "cost": "script, about 30 s",
+   "coverage": "1,719 of 1,800 collocation branches have a root-word hit in their phrases; 1,671 have partners; 346 have a dominant preposition"
+  },
+  {
+   "layer": "per-occurrence construction context",
+   "source": "tr entries occurrence_evidence.alignment.attachments (relation, prep_base, other_root) + v15 words.tsv",
+   "method": "attachment partners plus roots and stems of words within 1 before and 3 after; prepositions after the word, or attached before it",
+   "cost": "script",
+   "coverage": "49,618 occurrences; 75% aligned with attachments; the window fallback covers the rest"
+  },
+  {
+   "layer": "root-dossier plain branch override",
+   "source": "root-dossier/out/activation_map.tsv",
+   "method": "where the dossier's plain branch at an occurrence is collocation-bound, the construction counts as present by definition",
+   "cost": "none",
+   "coverage": "123 roots; 22,127 dominant rows; 696 collocation-branch placements"
+  },
+  {
+   "layer": "usage roles per root and construction",
+   "source": "words.tsv roots per ayah, attachments, adjacent ayat",
+   "method": "recurring partner = in 2 or more of the unit's ayat, binomial tail < 1e-3 against its ayah frequency (ayah plus 2 neighbours), lift 3 or more; echo = p < 0.05; dominant role = greedy cover by up to 2 partners, 'loaded' if cover is at least 0.6 and n is at least 3; departures by frame, form, plain branch or construction",
+   "cost": "script, about 15 s",
+   "coverage": "1,226 roots; 396 loaded; 271 construction units"
+  },
+  {
+   "layer": "phrase tokens",
+   "source": "v15 words.tsv",
+   "method": "lemma for content words; particles stripped of wa/fa and pronoun suffixes (ʿalayhinna → على+P); 2–3-grams that contain a lemma with 300 or fewer ayat; n-gram IDF",
+   "cost": "script",
+   "coverage": "whole Quran"
+  },
+  {
+   "layer": "scene profile per ayah",
+   "source": "v15/data/frames/out (Luna scene tags)",
+   "method": "each root's scenes weighted 1/number of branches; shared-scene IDF sum",
+   "cost": "script",
+   "coverage": "11,337 branches tagged"
+  },
+  {
+   "layer": "ayah text map",
+   "source": "quran-slm/artifacts/ayah_semantic_map/v1 raw directional ranks",
+   "method": "navigation fusion 0.35 E5 + 0.35 Neo + 0.30 char, symmetric RRF (reuses Phase 1 ayah_parallels.py)",
+   "cost": "memmap reads",
+   "coverage": "6,236 ayat"
+  },
+  {
+   "layer": "branch-pair coherence for neighbour activation",
+   "source": "quran-slm/artifacts/corpus_network + corpus_ensemble rank memmaps",
+   "method": "fused best-direction rank between a focus branch and each branch of a context-linked word (the conditional selector Phase 1 measured at MRR 0.54); plus the focus definition naming the neighbour's root, and typed dictionary relations",
+   "cost": "memmap reads per ayah",
+   "coverage": "10,932 Quran cards"
+  },
+  {
+   "layer": "definitional cross-reference",
+   "source": "branch image/definition/phrases",
+   "method": "roots named in a branch's own definition that occur in the surah (30 or fewer ayat in the Quran), or that the Quran pairs with a root of the ayah in at least half of their 12 or fewer ayat",
+   "cost": "script",
+   "coverage": "all branches (tokens to roots through the lexicon; noisy for common words, hence the rarity limits)"
+  },
+  {
+   "layer": "qirāʾāt and alternative roots",
+   "source": "study/_project_corpus/qiraat.tsv; quran-data bridges word-root analyses via v15 lib.alternative_roots (read-only import)",
+   "method": "v15 letter exchanges plus a hamza↔yāʾ/wāw exchange (catches ḥamiʾa → ḥāmiya, ح م ي)",
+   "cost": "script",
+   "coverage": "3,812 variant records; 15 documented analyses"
+  }
+ ],
+ "avoids_known_failures": [
+  {
+   "failure": "Construction-to-root drift (ḍaraba = travel; Lisān-style folding; model memory)",
+   "mechanism": "A collocation branch is pushed only where its construction is present (guard) or the root-dossier assigns it. ḍaraba: 0 of 13 bare uses (4:34 included) get B002/B003/B004/B005/B006/B011. Withheld branches are named in the sheet ('withheld here, construction absent') and listed in pull.json with the reason. Stage 3 reuses the index to check memory-sourced senses. Late lexicons are never read."
+  },
+  {
+   "failure": "Verdict-carrying labels used as filters (v10 'no value' on 15:26/28/33 for 18:86; registry labels in v3–v6)",
+   "mechanism": "No relevance grades or canonical inter-ayah labels enter the sheet. The lenses are textual or statistical and carry their path, not a verdict. 15:26/28/33 reach the 18:86 sheet through the loaded-role and echo lenses."
+  },
+  {
+   "failure": "Premature pruning by a selector (v14 composition dropped the eye film)",
+   "mechanism": "No model selects. Every activatable branch of every root in the ayah is listed in section B (the eye film always appears). Push limits in C are strength thresholds, and every branch line shows '+N in pull'. Measured trade-off: a leaner C (same-ayah quran-slm rank ≤ 20) would have lost the kohl edge (rank 38), so the push threshold stays at 40."
+  },
+  {
+   "failure": "Architecture cannot see a partner in another ayah (v11: 7 of 9 S1 misses)",
+   "mechanism": "C looks at neighbours within ±2 ayat. Definitional cross-references reach surah occurrences (sabal B010 → ع ن ك ب at 29:41). D reports the same root within ±7 (18:96 → 18:99). E gives same-surah and other-surah parallels."
+  },
+  {
+   "failure": "Parallels buried in concordance lines and never used (v15: 5:91, 35:10 in KWIC/profile lines)",
+   "mechanism": "An explicit parallels section with lens tags and shared words: 5:91 [lemma, textmap], 5:95/5:97 [echo kaʿbayn ~ kaʿba], 4:90 [phrase على+P سبيل], 2:238 [echo qānitāt ~ qānitīn]."
+  },
+  {
+   "failure": "Worklists and 'every record must land' producing catalogues (v3, v4, v7, v13 v2)",
+   "mechanism": "The sheet is supply with no coverage check. Flags are orderings. The synthesis framing line says what the sheet is, not what must be used."
+  },
+  {
+   "failure": "quran-slm global neighbours used as discovery (they find near-synonyms, not scenes)",
+   "mechanism": "quran-slm is used only as the conditional branch selector for word pairs already linked by context, where Phase 1 measured MRR 0.54. Global lists are never used. The ayah text map is one lens among seven."
+  },
+  {
+   "failure": "Bulk input collapsing thinking (150–400k-token packages)",
+   "mechanism": "Sheets are 8k–166k characters (about 3k–66k tokens, inference), below the collapse band. Sections are typed. Full lists sit in pull.json."
+  },
+  {
+   "failure": "Instruction confound 'work only from the supplied evidence'",
+   "mechanism": "The sheet assumes memory is allowed and marked. The guard and branch_kind check memory afterwards (stage 3) instead of forbidding it."
+  }
+ ],
+ "watch_cases": [
+  {
+   "case": "29:38 sabal eye film (neighbour-activated rare branch)",
+   "how_produced": "Section B lists س ب ل B010 (bare, so the guard does not block it) with al-Jawharī's phrase «السبل داء في العين شبه غشاوة كأنها نسج العنكبوت بعروق حمر». Section C: B010 ← fa-ṣaddahum ص د د B013 «كحل المرآة» (kohl; quran-slm rank 38), and 'definition names ع ن ك ب, which occurs in this surah at 29:41'. Section D: the zayyana formula (zayyana la-hum al-shayṭān aʿmālahum) with 27:24, 40:37, 8:48, 6:43, 16:63.",
+   "tested": "yes (harvest/29_38.md)",
+   "result": "Eye film, spider-house link and a kohl link are present. The kohl link comes through ṣadda's own branch B013, not through zayyana: a new, script-found path. quran-slm does not relate B010 to mustabṣirīn (ب ص ر B001, rank 271) or to zayyana (ranks above 5,000), so the seeing/adorning activation must come from the reader seeing the neighbours in the text next to B010. The script does not make that link."
+  },
+  {
+   "case": "18:86 ḥamaʾ (Quran-loaded word vs literal reading)",
+   "how_produced": "Section D: 'ح م ء: 4 ayat | dominant role: ص ل ص ل 3 (15:26, 15:28, 15:33) = 0.75 | THIS OCCURRENCE DEPARTS: frame, form (lemma حَمِئَة ADJ)'. The analysis works at root level, so the adjective is not split off. Section E: 15:26/28/33 at echo ranks 1–3 and loaded ranks 7–9. Section G: reading ḥāmiyatin → alternative root ح م ي.",
+   "tested": "yes (loaded.py, parallels.py, harvest/18_86.md)",
+   "result": "Flag and partners present; parallels union@K10 recall 1.0 (3 of 3). The observer reading (Iblīs, the angels, Dhū l-Qarnayn seeing the material) is not scripted; synthesis has to make it."
+  },
+  {
+   "case": "18:96 nafakha",
+   "how_produced": "Section D: dominant role ص و ر 10 + ر و ح 6 = 0.889 of 18 ayat; 'THIS OCCURRENCE DEPARTS: frame'; 'echo س و ي with 15:29, 32:9, 38:72'; 'same root in ±7: 18:99'. Loaded lens ranks: 15:29 #1, 32:9 #2, 38:72 #3, 5:110 #5, 18:99 #7, 21:91 #9, 66:12 #15; 3:49 not ranked.",
+   "tested": "yes",
+   "result": "Whole-Quran union@K10 recall 0.75 (K20 0.88); same-surah 1.0. New structural echo: 'fa-idhā sawwaytuhu wa-nafakhtu' against 'ḥattā idhā sāwā … qāla nfukhū'. Caveat: in the dictionary the 'giving life' facet of ن ف خ B001 is itself construction-bound, so the sheet states usage-role counts, not a sense transfer."
+  },
+  {
+   "case": "4:34 ḍaraba (the user's drift example) and parallels",
+   "how_produced": "Section B: 'withheld here (construction absent): B002 السعي في الأرض, B003 تصوير المثل, B004, B005, B006, B011'. nushūz: role shared with 4:128 (khawf, ṣulḥ, nisāʾ, ṭawʿ). C: ن ش ز B004 ← wa-ḍribūhunna (the dictionary's definition of the spouses' nushūz names ḍarb). E: 4:90 [phrase على+P سبيل #2], 2:238 [echo qānitāt ~ qānitīn #2], 4:81 [echo ṭāʿa], 4:3 [loaded], 4:128/4:129, 4:19, 4:135.",
+   "tested": "yes",
+   "result": "The drift is prevented. Named-parallel union@K10 recall: same surah 0.55 (0.62 outside ±7). Missing: 4:5, 4:130 (4:36–37 are in the window)."
+  },
+  {
+   "case": "5:6 mirfaq, kaʿb → Kaʿba, qiyāman",
+   "how_produced": "Section B: ر ف ق B004 «المرفق مرفق الإنسان لأنه يستريح في الاتكاء عليه»; ك ع ب B002 «الكعبة بيت الله… لنتوه وتربيعه». E: 5:95/5:97 via echo kaʿbayn ~ kaʿba (#1/#2) and the loaded role (ṭaʿām, ḥalāl); 5:89 [phrase #1, text map #1]; 5:91; 5:11.",
+   "tested": "yes",
+   "result": "Same-surah named recall 1.0 at K10. 35:10 appears only at K20 (other surahs). The qumtum ~ qiyāman echo is covered only through the q-w-m root, which is frequent, so the echo lens (roots in 200 or fewer ayat) skips it."
+  },
+  {
+   "case": "North Star Fatiha chains (contaminated test case)",
+   "how_produced": "1:6 sheet: ṣirāṭ B002 (passing out of sight, swallowing), hādī B003 (what goes first), tahādī B008, ق و م B012 (the upright frame at the well mouth), B015 (full-weight dinar); qirāʾa sirāṭ → س ر ط; contrast ḍalāl in 1:7; parallels 37:118, 48:2, 6:153, 36:61, 3:51.",
+   "tested": "yes (1:6); guard effects checked on 1:2, 1:4, 1:5, 1:7",
+   "result": "The strict guard withholds branches the North Star itself uses: م ل ك B008 (the lead animal) at 1:4, م ل ك B007 ('water is the mainstay'), ن ع م B011/B012 (a pleasant halt; going on foot) at 1:7, and ق و م B016 (water that 'stands', which the dictionary arm used) at 1:6. All are collocation-bound in the dictionary and their constructions are absent. This needs a user decision (open question 1)."
+  },
+  {
+   "case": "29:45 ṣalāh as the second horse",
+   "how_produced": "ص ل و has no collocation branches, so B006 stays visible in B",
+   "tested": "guard only",
+   "result": "Not blocked; neighbour activation for 29:39–45 not evaluated"
+  }
+ ],
+ "north_star_coverage": [
+  {
+   "id": "NS1",
+   "how": "The plain branch at each occurrence (root-dossier) is marked [plain] in B, so the ground is visible before any latent branch."
+  },
+  {
+   "id": "NS2",
+   "how": "Only partly: Turkish concept glosses next to each branch; antonym/polarity contrasts (F). No loanword-drift data; that stays with v15's loanword cards."
+  },
+  {
+   "id": "NS3",
+   "how": "C: neighbour activation within the ayah and ±2 ayat, each candidate as branch + trigger word + evidence; D: same-root recurrence within ±7."
+  },
+  {
+   "id": "NS4",
+   "how": "Does not rediscover chains. Definitional cross-references reach surah occurrences (B010 → 29:41). The chain map (HFT, channel reviews) stays with the host design."
+  },
+  {
+   "id": "NS5",
+   "how": "D: role statistics per root and per construction, departures (frame/form/plain branch/construction), shared and echo partners with refs. Flags ḥamaʾ at 18:86 and nafakha at 18:96 unaided."
+  },
+  {
+   "id": "NS6",
+   "how": "E: Pareto union of 7 lenses, same surah (naẓm) and other surahs, before synthesis. Typed by lens and never graded, so canonical relevance cannot suppress a surprise."
+  },
+  {
+   "id": "NS7",
+   "how": "B lists every activatable branch of each root, with kind and early phrase. Grouping a root's branches into one concept is not scripted."
+  },
+  {
+   "id": "NS8",
+   "how": "Scripts only order and withhold with a reason. No plausibility filter, no verdict. Everything unpushed is in pull.json, with per-line '+N in pull' counts."
+  },
+  {
+   "id": "NS9",
+   "how": "The sheet carries no ranking of readings. The plain branch is marked only as ground."
+  },
+  {
+   "id": "NS10",
+   "how": "Every item carries its path (dict root Bnnn with its early phrase and source tag, refs, lens and rank, quran-slm rank, attachment partner). Stage 3 checks memory senses against branch_kind and construction scope."
+  },
+  {
+   "id": "NS11",
+   "how": "The guard prevents construction-to-root invention. Withheld branches are listed, never silently dropped."
+  },
+  {
+   "id": "NS12",
+   "how": "Not addressed directly. The loaded-role and window indexes are reusable by a surah step."
+  },
+  {
+   "id": "NS13",
+   "how": "$0 model cost for all discovery. Sheets add about 3k–66k input tokens to one synthesis call: about $0.01–0.13 through Batch, $0.02–0.53 through claude -p (inference)."
+  }
+ ],
+ "cost": {
+  "per_ayah_test_cli": "Sheet: $0 (script, about 1–3 s). If fed to one Opus 5.5 high synthesis call through claude -p: sheet input about 3k (1:6) to 66k (2:282) tokens × $8/M (1-hour cache write at 2×) = $0.02–0.53, plus the call's own output/thinking (cold-arm median $0.44, range $0.32–1.58). About $0.5–2.1 per ayah, under the $5 gate.",
+  "per_ayah_production_api": "Sheet $0. Its input through the Batch API ($2/M effective) = $0.006–0.13 per ayah. With one Batch synthesis call (output 30–60k tokens × $10/M) about $0.35–0.75 per ayah, inside the ~$1 aim (inference from list prices in v15 config.json and the Phase 1 §4.7 cost structure).",
+  "one_time": "Scripts: indexes about 1 minute; all 6,236 sheets about 2 h on a laptop (inference from about 1–3 s per ayah measured on 8 ayat). Optional Luna construction extraction: about 30 jobs (1,803 collocation branches ÷ 60) on the subscription. API equivalent likely under $1 (inference: v15 frames jobs averaged 29k in / 13k out tokens; Luna about 40× cheaper than Opus).",
+  "assumptions": "Token counts estimated as characters ÷ 2.5–3 for mixed Arabic/Latin text (not measured with a tokenizer). Opus $4/$20 per MTok, claude -p input billed as a 2× cache write, Batch at 50%. Synthesis cost belongs to the host design; this design adds only the sheet."
+ },
+ "experiments_run": [
+  {
+   "what": "Construction guard vs root-dossier plain branches (collocation-bound)",
+   "method": "Signatures from early phrases; 4 rules; dossier rows marked 'stop' excluded; subsets",
+   "result": "R5 (chosen): all 696 placements: recall 0.19, false-activation rate 0.0096, precision 0.34. Excluding the grammatical nafs 'self' and min dūni: recall 0.33, false activation 0.95%. Lexically fixed only: recall 0.33, false activation 0.64%, precision 0.45. R3 (looser): recall 0.46, false activation 3.9%. ḍaraba under R5: bare B001 0/13 false; B002 5/6; B003 27/31; B006 4/7; no confusion between branches. Whole Quran: 1,220 of 72,323 occurrence × collocation-branch pairs marked present.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/C2-loaded-parallels/construction.py; construction_eval2.py (→ construction_eval.json, construction_eval2.json, construction_index.tsv)"
+  },
+  {
+   "what": "Guard effect on North Star ingredients",
+   "method": "Collocation branches of roots at 1:2, 1:4, 1:5, 1:7, 29:45, 100:1, 103:1 checked with R5",
+   "result": "Withheld at their Fatiha occurrences: م ل ك B005/B007/B008 (B008 = lead animal), ن ع م B008/B011/B012/B013, ع ب د B009, ض ل ل B004, ع و ن B003/B005, ح م د B005/B006; ق و م B016 at 1:6. ص ل و, ع ل م, ر ب ب, غ ي ر, ع د و have no collocation branches.",
+   "script_path": "inline check using construction.py (the same rule set)"
+  },
+  {
+   "what": "Loaded-word detector on the watch cases",
+   "method": "loaded.py: recurring partners (binomial p < 1e-3, lift ≥ 3), greedy two-partner cover, departures per construction",
+   "result": "ḥamaʾ: cover 0.75 by ṣalṣāl (15:26/28/33); 18:86 departs (frame, form). nafakha: cover 0.889 by ṣūr (10) + rūḥ (6); 18:96 departs (frame); echo س و ي with 15:29, 32:9, 38:72. ḍaraba: the bare construction unit (11 ayat) holds 4:34; not flagged. kaʿb: 5:6 shares ṭaʿām/ḥalāl with 5:95, 5:97. nushūz: 4:34 shares khabīr with 4:128 and 58:11, echoes khawf/ṣulḥ/nisāʾ/ṭawʿ with 4:128.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/C2-loaded-parallels/loaded.py (→ loaded_eval.json, loaded_roots.tsv, loaded_flags.tsv)"
+  },
+  {
+   "what": "Known partitions (known_dossiers.json) with score_dossiers.py",
+   "method": "Detector frames written as dossier groups; two variants: connected components, and partner assignment (each ayah goes to its most specific recurring partner)",
+   "result": "Connected components: mixed groups ḥamaʾ 0, nafakha 1, ʿarsh 1, rabb 0, ṣalāh 1. Partner assignment: 0 / 1 / 1 / 0 / 0. The two remaining mixes are formula-level merges: rūḥ joins Ādam + Maryam (same nafakha fīhi min rūḥihi), and khāwiya ʿalā ʿurūshihā joins town + garden. 18:86 and 18:96 are alone in both variants.",
+   "script_path": "loaded.py, partition_variant.py (→ dossier_groups/, dossier_groups_v2/); scored with /Volumes/OZTURK/_projects/prose_generation/_commentary/v12/eval/score_dossiers.py --final <dir> (read-only run)"
+  },
+  {
+   "what": "Loaded-flag precision on a random sample",
+   "method": "30 flags sampled (seed 7) from loaded_flags.tsv, judged by me from the data (the dominant role is a real recurring usage, and the flagged occurrence really lies outside it)",
+   "result": "All: 12/30 real (40%), 5 of them interesting (bathth 12:86, sūd 35:27, biḍāʿa 12:19, yukhayyalu 20:66, thamarāt 2:155); 2 correct construction-type flags; 16 noise. Roots with 60 or fewer ayat: 10/20 real (50%), 5 interesting; the noise sits in high-frequency roots (arḍ 440, ṣ-l-ḥ 170, kh-l-d 83, layl 81) and in same-role-different-word cases (saʿīr vs nār). The sheet pushes loaded flags only for roots with 2–60 ayat (876 flags in the Quran, about 0.14 per ayah).",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/C2-loaded-parallels/loaded_sample_judgments.tsv"
+  },
+  {
+   "what": "Parallels lenses and Pareto union vs recorded parallels",
+   "method": "recall@k per lens and union (top K per lens) against the named lists (task text) and the refs cited in the cold/cold2/v15-nocap prose; same surah and whole Quran; also gold outside ±7",
+   "result": "4:34 named, same surah: single lenses R@10 0.09–0.27 (root 0.18, text map 0.18, loaded 0.27); root R@30 0.36, text map R@30 0.45; union@K10 0.55 at 33 items (outside window 0.62); union@K20 0.64 (0.75). 5:6 named, same surah: union@K10 1.0 (29 items); other-surah 35:10 at K20. 18:86: loaded lens R@10 1.0; union@K10 1.0. 18:96: loaded lens R@10 0.75 whole Quran; union@K10 0.75, K20 0.88; same surah 1.0. Prose-cited gold outside window, same surah: 4:34 0.53@K10 / 0.72@K20; 5:6 0.70 / 0.90. The v15 dry root ranking is reproduced (4:128 #2, 4:129 #6, 4:19 #19, 4:3 #35, 4:90 #47, 4:81 #72, 4:130 #115).",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/C2-loaded-parallels/parallels.py (→ parallels_eval.json, parallels_eval.txt, parallels_table.json)"
+  },
+  {
+   "what": "Harvest sheet prototype: sizes and ingredients",
+   "method": "harvest.py on 1:6, 4:34, 5:6, 18:86, 18:96, 29:38, 2:282, 2:255; grep for watch-case ingredients",
+   "result": "Characters (A/B/C/D/E sections): 1:6 8,213 (B 3.7k, C 0.3k, E 2.9k); 29:38 27,977 (B 9.4k, C 11.3k, E 5.0k); 18:96 31,623; 18:86 45,571; 4:34 75,336 (B 20.4k, C 44.2k); 2:255 80,813; 5:6 122,700 (B 31.7k, C 76.6k); 2:282 165,784 (B 42.2k, C 104.6k). Withheld collocation branches per sheet: 7–58. A lean C (same-ayah rank ≤ 20 plus cross-refs) would give 5:6 78k and 29:38 21.6k but loses the kohl edge. Ingredients: see watch_cases.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/C2-loaded-parallels/harvest.py (→ harvest/*.md, harvest/*.pull.json, harvest/sizes.json)"
+  },
+  {
+   "what": "quran-slm on the 29:38 activation pairs",
+   "method": "fused best-direction rank between branches",
+   "result": "ب ص ر B001 ~ س ب ل B010: 271; ب ص ر B002 ~ B010: 1,121; ز ي ن B001/B002/B003 ~ B010: 5,376 / 6,467 / 5,630; ص د د B013 (kohl) ~ B010: 38. Similarity does not model the seeing/adorning activation.",
+   "script_path": "inline, using the SLM class in harvest.py"
+  }
+ ],
+ "validation_plan": [
+  {
+   "step": "V0 (done): script-only evaluation of the guard, loaded roles, parallels and sheet ingredients",
+   "model_runs": "none",
+   "success_criterion": "reported in experiments_run",
+   "cost": "$0"
+  },
+  {
+   "step": "V1: user decision on what the guard withholds among the North Star's own readings (م ل ك B008 lead animal and B007 water at 1:4; ن ع م B011/B012 at 1:7; ق و م B016 at 1:6): strict withholding, or a marked 'bound elsewhere: construction X' line usable only as a construction-level echo",
+   "model_runs": "none",
+   "success_criterion": "a written rule the scripts implement; no case-specific exception",
+   "cost": "$0"
+  },
+  {
+   "step": "V2 (optional): Luna extracts explicit construction patterns for the 1,803 collocation branches; rerun construction_eval2.py",
+   "model_runs": "about 30 Luna jobs (subscription); needs approval",
+   "success_criterion": "recall ≥ 0.8 at false activation ≤ 1% against root-dossier placements; ḍaraba stays at 0 false activations on bare uses",
+   "cost": "subscription; API equivalent likely under $1 (inference)"
+  },
+  {
+   "step": "V3: paired synthesis test. Arm A = the host design's brief with memory allowed and marked; arm B = the same + harvest sheet framed as supply. 6 ayat (29:38, 18:86, 18:96 + 3 blind ayat the user picks outside the North Star list), 2 replicates per arm",
+   "model_runs": "24 Opus 5.5 high calls through claude -p; needs approval",
+   "success_criterion": "B contains per ayah at least 2 dictionary-backed, script-only ingredients A lacks (a rare branch with its phrase, loaded-role counts, an out-of-window parallel); the stage 3 script finds no collocation-bound sense used without its construction in B; mechanical checks pass (sources, containment); the user's blind preference B ≥ A on at least 4 of 6 ayat; no catalogue drift (paragraphs in sheet order, 'every item' language)",
+   "cost": "about $0.5–1.5 per call → about $12–36 in total on the subscription, each call under $5"
+  },
+  {
+   "step": "V4: if V3 passes, the sheet becomes the supply of the chosen Phase 2 synthesis design and stage 3 its post-check; thresholds frozen before any further change",
+   "model_runs": "per the host design",
+   "success_criterion": "a fixed scorecard with two replicates, as Phase 1 §4.8 asks",
+   "cost": "per host design"
+  }
+ ],
+ "risks": [
+  {
+   "risk": "The strict guard withholds readings the user's own North Star uses (lead animal, water 'malak al-amr', naʿīm halt and walking, water that stands)",
+   "mitigation": "Surfaced as a decision (V1), not resolved in code. Withheld branches stay named in the sheet and listed in pull.json, so nothing is lost silently."
+  },
+  {
+   "risk": "Heuristic construction signatures miss many real placements (recall 0.33 excluding grammatical constructions); a missed construction withholds a legitimate collocation sense",
+   "mitigation": "Root-dossier overrides on 123 roots; optional Luna extraction (V2). Misses show as 'withheld (construction not found)' with the branch named, so the reader or synthesis can still pull it."
+  },
+  {
+   "risk": "Loaded-word flags are noisy (40–50% real by data); a synthesis model may over-weight them",
+   "mitigation": "Only roots with 2–60 ayat are pushed (where memory lacks counts). Flags are shown as counts and refs, never as readings. A merge of same-role partners (using quran-slm near-synonymy, e.g. nār/saʿīr) is a cheap next script."
+  },
+  {
+   "risk": "Overfitting: some thresholds (quran-slm rank limit 40, echo weighting, loaded-lens weights, cross-reference rarity) were adjusted while looking at the watch-case and 4:34/5:6 outputs",
+   "mitigation": "Declared here. Freeze the thresholds now and validate on blind ayat (V3) before any retuning. Never add case-specific rules."
+  },
+  {
+   "risk": "Sheet size grows with ayah length (2:282: 166k characters, about 55–66k tokens), weakening the 'compact' claim and adding cost",
+   "mitigation": "Still below the measured thinking-collapse band (150–400k tokens). C is the variable section and can be trimmed only by strength thresholds with '+N in pull'. The measured cost of trimming (losing kohl at rank 38) argues against going below rank 40."
+  },
+  {
+   "risk": "The sheet becomes a worklist (the v3/v7 lesson)",
+   "mitigation": "One framing line (supply; nothing must land); no coverage check; section order is not the prose order."
+  },
+  {
+   "risk": "Facet-level construction scope inside mixed_non_bare branches is not guarded (e.g. the 'giving life' facet of ن ف خ B001)",
+   "mitigation": "State loaded roles as usage counts ('the Quran's other nafakha scenes'), never as a transferred sense. A facet-level guard needs construction fields per facet (Luna job or dictionary work)."
+  },
+  {
+   "risk": "Definitional cross-references depend on noisy mapping from tokens to roots",
+   "mitigation": "Rarity limits (named root in 30 or fewer ayat in the surah case; the Quran-pairing rule needs 12 or fewer ayat and at least half co-occurring). The spider (1 ayah) and ghishāwa (2 ayat) cases pass."
+  }
+ ],
+ "reuse": [
+  "Phase 1 scripts: v15/parallels.py (root-IDF ranking, reproduced), distance/ayah_parallels.py (ayah text-map fusion), distance/branch_choice_eval.py (fused branch affinity; the conditional-selector finding)",
+  "quran-slm rank memmaps (corpus_network, corpus_ensemble) and ayah_semantic_map v1: as the conditional branch selector and one parallels lens, never as global discovery",
+  "quran-data dictionary tr entries: branch_kind scope notes, early phrases, Turkish concept glosses, neighbour_distinctions (antonym/polarity), and occurrence_evidence with aligned grammar attachments (never used by v9–v15)",
+  "root-dossier activation_map (plain branch per occurrence) as the ground marker and construction override",
+  "v15 base tables (words, lemmas, branches, quran), v15 Luna scene tags (one lens), v15 lib.alternative_roots (read-only import)",
+  "v12/eval/known_dossiers.json + score_dossiers.py for the partition check",
+  "study qiraat.tsv; quran-data bridges word-root analyses",
+  "The construction index doubles as the stage 3 memory/sense checker (NS10)"
+ ],
+ "open_questions": [
+  "Strict guard vs the North Star's own examples: should a collocation-bound branch whose construction is absent (م ل ك B008 lead animal at 1:4; B007 water; ن ع م B011/B012 at 1:7; ق و م B016 at 1:6) be withheld entirely, or listed as 'bound elsewhere (construction X)', usable only as an explicitly construction-level echo?",
+  "Is a surah-level image (the herd, the road) ever a 'construction present in the text' for a collocation-bound branch, or must the partner word be in the clause?",
+  "nafakha at 18:96: does the user accept the loaded reading as a usage-role statement (the Quran's other nafakha scenes animate), given that the dictionary marks the 'giving life' facet of B001 as construction-bound?",
+  "Should non_bare branches (749; derived-form scope) be guarded by form the same way? Not implemented.",
+  "Should the sheet also carry the chain-map lines (channel reviews/HFT) that touch the ayah, or is that the host design's job? I left it out to avoid duplication.",
+  "Which 3 blind ayat for V3, chosen by the user outside the North Star list, so the thresholds are tested on unseen cases?",
+  "Is the optional Luna construction-extraction job (about 30 jobs) worth approving before V3, or only if V3 shows the guard's misses matter?"
+ ],
+ "extra": {
+  "scratch_dir": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/C2-loaded-parallels/",
+  "construction_guard": {
+   "rule": "R5: a partner root or stem match (a lexically fixed construction needs its partners recurring in 2 or more early phrases), or a dominant preposition after or before the word when the construction is not lexically fixed",
+   "eval_vs_root_dossier": {
+    "R5_all": {
+     "tp": 132,
+     "fn": 564,
+     "fp": 259,
+     "tn": 26817,
+     "recall": 0.19,
+     "false_activation_rate": 0.0096,
+     "precision": 0.338
+    },
+    "R5_excl_2_grammatical": {
+     "recall": 0.332,
+     "false_activation_rate": 0.0095,
+     "precision": 0.34
+    },
+    "R5_lexically_fixed_excl_gram": {
+     "recall": 0.326,
+     "false_activation_rate": 0.0064,
+     "precision": 0.454
+    },
+    "R3_excl_2_grammatical": {
+     "recall": 0.463,
+     "false_activation_rate": 0.0391,
+     "precision": 0.149
+    },
+    "R4_excl_2_grammatical": {
+     "recall": 0.247,
+     "false_activation_rate": 0.0104,
+     "precision": 0.259
+    }
+   },
+   "daraba_R5": {
+    "bare_B001": "0 of 13 get any collocation sense (incl. 4:34:29)",
+    "B002_travel": "5/6 (missed 4:94 'fī sabīli llāh', beyond ±3 in the phrase)",
+    "B003_parable": "27/31",
+    "B006_cover": "4/7",
+    "B004": "0/1",
+    "cross_confusion": 0
+   },
+   "whole_quran": "72,323 occurrence × collocation-branch pairs; 1,220 present; 26,666 occurrences have ≥1 collocation branch in their root",
+   "withheld_per_sheet": {
+    "1:6": 7,
+    "4:34": 34,
+    "5:6": 58,
+    "18:86": 29,
+    "18:96": 34,
+    "29:38": 10,
+    "2:282": 56,
+    "2:255": 43
+   },
+   "north_star_conflicts": [
+    "م ل ك B008 المتقدم القائد في الحيوان (lead animal) withheld at 1:4",
+    "م ل ك B007 الماء مَلَك الأمر withheld at 1:4",
+    "ن ع م B011 موافقة المكان / B012 المشي على القدم withheld at 1:7",
+    "ق و م B016 جمود ووقوف (قام الماء جمد) withheld at 1:6"
+   ]
+  },
+  "loaded_words": {
+   "stats": {
+    "roots_n_ge_2": 1226,
+    "roots_n_ge_3": 1024,
+    "loaded_roots": 396,
+    "construction_units": 271,
+    "loaded_construction_units": 119,
+    "flags": 1308,
+    "flags_roots_le_60_ayat": 876
+   },
+   "watch": {
+    "18:86": "ح م ء 4 ayat; cover 0.75 by ص ل ص ل (15:26, 15:28, 15:33); 18:86 departs: frame, form",
+    "18:96": "ن ف خ 18 ayat; cover 0.889 by ص و ر (10) + ر و ح (6); 18:96 departs: frame; echo س و ي with 15:29, 32:9, 38:72; same root in ±7: 18:99",
+    "4:34_daraba": "bare construction unit 11 ayat; 4:34 inside cover (ب ع ض with 2:73, 47:4, 47:27); not flagged",
+    "5:6_kaab": "ك ع ب 4 ayat; 5:6 shares ط ع م, ح ل ل with 5:95, 5:97",
+    "4:34_nushuz": "shares خ ب ر with 4:128, 58:11; echoes خ و ف, ص ل ح, ن س و, ط و ع with 4:128"
+   },
+   "known_partitions_mixed_groups": {
+    "connected_components": {
+     "حمء": 0,
+     "نفخ": 1,
+     "عرش": 1,
+     "ربب": 0,
+     "صلو": 1
+    },
+    "partner_assignment": {
+     "حمء": 0,
+     "نفخ": 1,
+     "عرش": 1,
+     "ربب": 0,
+     "صلو": 0
+    },
+    "note": "the remaining mixes are formula merges (nafakha fīhi min rūḥihi: Ādam + Maryam; khāwiya ʿalā ʿurūshihā: town + garden)"
+   },
+   "sample_precision": {
+    "all_30": "12 real (5 interesting), 2 construction, 16 noise",
+    "roots_le_60_ayat_20": "10 real (5 interesting), 2 construction, 8 noise"
+   }
+  },
+  "parallels": {
+   "lenses": [
+    "root",
+    "lemma",
+    "phrase",
+    "echo",
+    "loaded",
+    "scene",
+    "textmap"
+   ],
+   "4:34_named_same_surah": {
+    "R@10": {
+     "root": 0.18,
+     "lemma": 0.18,
+     "phrase": 0.09,
+     "echo": 0.09,
+     "loaded": 0.27,
+     "scene": 0.09,
+     "textmap": 0.18
+    },
+    "size_matched_single_lens_R@30": {
+     "root": 0.36,
+     "lemma": 0.45,
+     "textmap": 0.45
+    },
+    "union@K10": "0.55 (33 items)",
+    "union@K20": "0.64 (53)",
+    "outside_window7_union@K10": "0.62",
+    "missing@K10": [
+     "4:5",
+     "4:36",
+     "4:37",
+     "4:81",
+     "4:130"
+    ]
+   },
+   "4:34_prose_outside_window7_same_surah": {
+    "union@K10": 0.53,
+    "union@K20": 0.72
+   },
+   "5:6_named_same_surah": {
+    "R@10": {
+     "root": 0.5,
+     "lemma": 0.5,
+     "phrase": 0.17,
+     "echo": 0.5,
+     "loaded": 0.33,
+     "scene": 0.33,
+     "textmap": 0.67
+    },
+    "union@K10": "1.0 (29 items)"
+   },
+   "5:6_named_outside_window7_whole_quran": {
+    "union@K10": 0.4,
+    "union@K20": 0.8,
+    "missing@K20": [
+     "5:91"
+    ]
+   },
+   "5:6_prose_outside_window7_same_surah": {
+    "union@K10": 0.7,
+    "union@K20": 0.9
+   },
+   "18:86_whole_quran": {
+    "loaded_R@10": 1,
+    "union@K10": 1
+   },
+   "18:96": {
+    "same_surah_union@K10": 1,
+    "whole_quran_loaded_R@10": 0.75,
+    "whole_quran_union@K10": 0.75,
+    "whole_quran_union@K20": 0.88,
+    "missed": [
+     "3:49"
+    ]
+   },
+   "notable_hits": {
+    "4:90": "phrase على+P سبيل, same-surah #2",
+    "2:238": "echo qānitāt ~ qānitīn, whole-Quran #2",
+    "4:81": "echo aṭaʿnakum ~ ṭāʿa",
+    "5:95/5:97": "echo kaʿbayn ~ kaʿba #1/#2",
+    "5:89": "phrase and text map #1",
+    "35:10": "loaded #13, root #11 (K20 only)"
+   }
+  },
+  "harvest_sheet_sizes_chars": {
+   "1:6": {
+    "total": 8213,
+    "A": 81,
+    "B": 3736,
+    "C": 313,
+    "D": 373,
+    "E": 2881,
+    "F": 191,
+    "G": 583
+   },
+   "29:38": {
+    "total": 27977,
+    "B": 9352,
+    "C": 11323,
+    "D": 892,
+    "E": 5003
+   },
+   "18:96": {
+    "total": 31623,
+    "B": 12087,
+    "C": 12238,
+    "D": 661,
+    "E": 4405,
+    "G": 1390
+   },
+   "18:86": {
+    "total": 45571,
+    "B": 14886,
+    "C": 23818,
+    "D": 1059,
+    "E": 4574
+   },
+   "4:34": {
+    "total": 75336,
+    "B": 20428,
+    "C": 44213,
+    "D": 2520,
+    "E": 5877
+   },
+   "2:255": {
+    "total": 80813,
+    "B": 23001,
+    "C": 48065
+   },
+   "5:6": {
+    "total": 122700,
+    "B": 31659,
+    "C": 76578,
+    "D": 5072,
+    "E": 6130
+   },
+   "2:282": {
+    "total": 165784,
+    "B": 42203,
+    "C": 104615,
+    "D": 5053,
+    "E": 6445
+   },
+   "token_estimate": "chars ÷ 2.5–3 (inference): about 3k (1:6) to 55–66k (2:282)",
+   "lean_C_variant_total_chars": {
+    "29:38": 21567,
+    "5:6": 78113,
+    "2:282": 122873,
+    "note": "drops the kohl edge (rank 38) of 29:38"
+   }
+  },
+  "sections": {
+   "A": "words with root",
+   "B": "all activatable branches of the ayah's roots: kind, image, one early phrase (≤ 70 chars), Turkish gloss, [plain], collocation-bound only where the construction is present; withheld named",
+   "C": "neighbour activation per non-plain branch: same-ayah partners (quran-slm rank ≤ 40, definition names, dictionary relation); ±2-ayat partners only with score ≥ 2 or rank ≤ 10; definitional cross-refs to the surah (≤ 30 ayat) or Quran pairings (≤ 12 ayat, ≥ 50% co-occurrence); '+N in pull'",
+   "D": "loaded roles for roots with 2–60 ayat: dominant role counts and refs, departure types, shared and echo partners, same root in ±7",
+   "E": "parallels union top 10 per lens, same surah and other surahs, lens:rank and shared words",
+   "F": "antonym/polarity partners present in the window or surah",
+   "G": "qirāʾāt and alternative roots (incl. hamza↔yāʾ exchange)"
+  },
+  "untested": [
+   "Any synthesis quality effect (no model runs made)",
+   "Blind ayat outside the watch cases (thresholds were set while viewing watch-case outputs)",
+   "Neighbour activation for the 29:39–45 race/ṣalāh case and the S100 horses",
+   "Facet-level scope inside mixed_non_bare branches",
+   "Non_bare derived-form guard",
+   "Tokenizer-measured token counts"
+  ]
+ }
+}

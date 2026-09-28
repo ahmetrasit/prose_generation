@@ -1,0 +1,472 @@
+{
+ "key": "D-knowledge-supply",
+ "title": "Knowledge-aware supply: push what memory lacks, leave the rest one read away, let memory speak marked, and check it by script against the early entries and the construction guard",
+ "summary": "Phase 1's dilution lesson splits into four separate effects, and each one needs a different fix. (1) An instruction confound. Dictionary-fed arms that were allowed Quran memory (the v11 brief) cite a median of 30 outside-surah passages (range 12–47, n=16). The same inputs without that permission give 1.5 (10 of 24 runs cite none). The cold arm gives 10.5. Once permission is fixed, input size no longer predicts outside reach (Spearman −0.03). (2) Real bulk dilution, but only above about 140k billed tokens: thinking collapses only in the package arms. (3) A contaminated test. The shared brief's example citation \"(15:26, 15:28, 15:33)\" in write_v10.md line 59 and write_v11.md line 112 is exactly the ḥamaʾ partner set for 18:86. So \"every run, cold included, recalls the ḥamaʾ passages\" is not evidence of memory. (4) Real memory gaps with a clear, scriptable shape. I labelled by hand every lexical claim in the 13 fully annotatable cold readings (344 non-plain branches). Memory reaches 35% of branches in positions B001–B003 but only 3% of B004+. It reaches 21% of branches with 4–6 early sources but 4–5% of those with 1–3. It reaches 0 of the 60 branches that no HFT or v12 reader ever activated, and 1 of 56 collocation branches. Its Quran parallels are thematic: only 1.24% of 299,657 memory suggestions share a root of ≤30 uses with the focus ayah, against 7.8% of retrieved pairs. Nearly all the phrases it quotes are real: 12 of 14 non-Quran Arabic tags in the cold readings are in the six early entries. Phase 1's \"7 phrases found nowhere\" came from checking against truncated packet text. My design has four parts. A free three-feature score per branch (position, early-source count, activation history; AUC 0.88 on those labels, in-sample) decides which branches get their early phrases pushed. Every branch still keeps an index line, so nothing is dropped. Collocation-bound branches always carry their construction. Roots with ≤30 uses get every use pushed at root level; this reaches 15:26/28/33 for 18:86, which v15's per-lemma concordance misses. Partner-by-form profiles show dominant roles (nafakha: active verb with rūḥ in 5 of 9 attachments; passive with ṣūr). The whole surah is pushed as a cached prefix for 113 of the 114 surahs. The synthesis call is allowed memory and asked to mark it, and gets no audit instructions. A script verifier runs afterwards. It found memory to be no worse than the dictionary-fed arm on the construction guard: 1 unscoped use (arḍ kanūd applied to insān) against 4 for the dictionary arm, which never saw branch_kind. The resulting packets are 16–93k tokens, under the collapse zone, and hold every watch-case ingredient tested. An optional one-time knowledge-gap probe would replace the static score with measured Opus recall for about $26–51 through the Batch API.",
+ "answers": "Q2a (main). Model memory is enough for the following, so push nothing and verify afterwards:\n- Quran references and thematic cross-surah parallels. Memory Quran suggestions are 92.5% cross-surah, 52% share only frequent roots, and 1.24% share a ≤30-use root. Permitted fed arms cite 12–47 outside passages.\n- Primary senses, and secondary senses in the early branch positions of well-known words. Memory's latent recall is 35% for B001–B003 and 46% for branches with score 3. Examples: ṣirāṭ/saraṭa, ḍālla, ṭarīq muʿabbad, ḍabḥ B003 (fire), kanūd, ʿaṣr B002/B003, mirfaq/irtifāq, dayn, hādī/hadiyya.\n- Classical phrases for those senses: 12 of 14 cold non-Quran tags are attested in the six early entries, for example kamā tadīnu tudān and ḍalla l-māʾu fī l-laban (Tahdhīb).\n- The construction scope of famous cases. Both 4:34 cold arms rule out ḍaraba = travel because it needs fī.\n- Grammar and Turkish drift.\n\nData must supply the rest:\n- Minor and rare branches, with their early phrases: B004+ at 3%, 1–3 sources at 4–5%, never-activated at 0%. The watch-case examples are sabal B010, ʿayn B008 (the sun disk), qawm B012, mālik B006/B008 and ṣudūd B013 (kohl).\n- Construction tags. Memory, like the dictionary arm that lacked branch_kind, applied arḍ kanūd to insān at 100:6.\n- Root-level concordance for low-frequency roots, and partner profiles for mid-frequency ones. The cold arm missed 15:29, 38:72 and 32:9 for nafakha; memory suggestions never contain the loaded-word partners; the inter-ayah labels grade them \"no value\" or \"medium\".\n- The surah text, which is where the cold arm's same-surah reach came from.\n- The project's own chains, which memory cannot hold.\n\nDilution. It is real only for bulk packages of ≥140k billed tokens: thinking fell 45k→9k, 42k→8k and 29k→11k. Below that, the drop in outside reach was the \"work only from the supplied evidence\" clause, and the \"cold beats dict\" gap (8 against 5 anchors) is inside replicate noise (Jaccard 0.60). The knowledge-aware packet stays at 16–93k tokens.\n\nQ2b, from this angle. The existing labels are enough to set a rule but not to train one:\n- 344 hand-labelled branch cases with 41 positives in 13 ayat (recall_manual.tsv);\n- about 100 [recall] marks in v11/v12, mostly Quran references;\n- 299,657 memory rows from the GPT inter-ayah runs, which measure GPT, not Opus.\n\nThe proposed probe would give about 11.4k branch labels, 1,633 root count and dominant-role labels, and construction-drift labels for Opus directly. Any learned policy only decides what gets pushed; the index line guarantees nothing is dropped.\n\nAlso bears on:\n- Q1: the brief contamination and the three Phase 1 detector artefacts are corrections to what we thought we knew.\n- Q4: this is the supply layer that \"synthesize free, anchor afterward\" needs.",
+ "stages": [
+  {
+   "name": "0a. Branch supply table",
+   "who": "script (policy_eval.py / kapacket.py logic), no model",
+   "input": "quran-data/data/dictionary/tr/*_entry.json (branch position, sources, branch_kind + scope note, early phrases); HFT and v12 activation counts (../branch_table.py)",
+   "output": "Per branch: memory_score 0–3 = [B001–B003] + [≥4 of 6 early sources] + [HFT+v12 ≥10]; a construction tag for collocation/non_bare branches (C[first early phrase]); the phrase to push when score ≤1",
+   "once_or_per_ayah": "once (Quran-wide)",
+   "size_or_tokens": "11,392 Quranic branches: 61% get phrases pushed, 22% get a construction tag",
+   "stance": "supply only; descriptive"
+  },
+  {
+   "name": "0b. Uses and partner index",
+   "who": "script",
+   "input": "v15/data/lemmas.tsv (root level, all lemmas); quran-data/data/grammar/contextual/collocation_profiles_v2.tsv",
+   "output": "For roots ≤30 uses: every use as keyword-in-context. For roots with ≥3 uses: partners by form with counts (e.g. ن ف خ PV:I with ر و ح 5/9; PV_PASS with ص و ر 6/8; ح م أ with ص ل ص ل 3/3)",
+   "once_or_per_ayah": "once",
+   "size_or_tokens": "0.6–20k tokens per ayah when pushed",
+   "stance": "descriptive counts, no labels"
+  },
+  {
+   "name": "0c. Optional knowledge-gap probe (needs approval)",
+   "who": "Opus 5.5 at effort low through the Batch API (pilot: 30 roots × effort low/high via claude -p); scored by script (character n-grams, with local E5 models from quran-slm later) plus an optional Luna mapping pass",
+   "input": "Per root: the root letters and its Quranic surface forms only (no dictionary). Ask for every sense known from the early lexicons, with a classical phrase, any construction it needs, the Quran use count, the dominant use and 2–3 references",
+   "output": "Per branch: recalled y/n; phrase attested y/n; construction drift (a collocation sense claimed as bare). Per root: count error; dominant role hit. This replaces memory_score (not recalled → push; recalled → index line only)",
+   "once_or_per_ayah": "once (1,633 Quranic roots)",
+   "size_or_tokens": "~350 input and ~1.5–3k output tokens per root",
+   "stance": "measurement job; its output never enters a synthesis prompt"
+  },
+  {
+   "name": "1. Knowledge-aware packet",
+   "who": "script (kapacket.py, KA_MODE=phrase)",
+   "input": "Stage 0 tables; v15 loaders (text, words, qirāʾāt, channel index)",
+   "output": "The whole surah (window plus same-surah list for S2); the ayah's words; every branch of its roots as one line (id | image | Turkish gloss), plus early phrases when score ≤1, plus the construction tag; rare branches of neighbour roots within ±3 ayat; root-level uses and partners; same-surah occurrences; chain-map lines anchored at the ayah; variant readings; pull paths. No verdicts, grades or construction-presence status",
+   "once_or_per_ayah": "per ayah",
+   "size_or_tokens": "billed tokens: 1:6 15.5k; 29:38 33.7k; 18:86 44.8k; 18:96 48.0k; 4:34 81.1k; 2:282 80.9k; 5:6 92.7k (the surah text is a cached prefix)",
+   "stance": "supply"
+  },
+  {
+   "name": "2. Synthesis",
+   "who": "Opus 5.5 at effort high (whichever generative step Phase 2 adopts: A/B)",
+   "input": "Brief + KA packet",
+   "output": "Record and/or reading, with memory-sourced senses, phrases, counts and reports marked [memory]",
+   "once_or_per_ayah": "per ayah",
+   "size_or_tokens": "output uncapped (cold arms 15–60k tokens including thinking)",
+   "stance": "generative. Memory permitted; no audit or checklist instructions; a neutral citation-format example"
+  },
+  {
+   "name": "3. Verification",
+   "who": "script (verify_memory.py prototype, plus v11 verify_src.py / v15 check.py for Quran quotes)",
+   "input": "Synthesis output; full early entries (dictionary/data/output/root_packets entry_text_clean); dictionary branch fields; Quran text; C2 construction index",
+   "output": "V1 each non-Quran Arabic phrase → early:<source> | dictionary-branch | not-found (→ memory mark). V2 each construction-bound sense → construction present at the focus | cited at its own locus | FLAG. V3 each Quran reference and quotation checked. V4 unmarked lexical claims that match no branch → marked. All marks are appended; nothing is deleted",
+   "once_or_per_ayah": "per ayah",
+   "size_or_tokens": "~20 s over 30 readings",
+   "stance": "evidential; annotates only"
+  },
+  {
+   "name": "4. Second look at flags only",
+   "who": "Luna (gpt-6-luna, max reasoning)",
+   "input": "Each V2 flag with its branch, scope note, early phrases and focus ayah",
+   "output": "Is the construction present at the focus: yes / no / partial, with the words quoted. For example, ḍabḥ B002 (foreleg stride) at 100:1 has horses as subject, so the flag is probably false",
+   "once_or_per_ayah": "per ayah, only where flags exist (0–4 per reading observed)",
+   "size_or_tokens": "a few hundred tokens per flag",
+   "stance": "annotation only"
+  },
+  {
+   "name": "5. Render and record",
+   "who": "script plus the writer step of the chosen pipeline",
+   "input": "Marks",
+   "output": "Marks shown in the app. Senses whose construction is absent go to the record's set-aside list with the reason (nothing lost silently)",
+   "once_or_per_ayah": "per ayah",
+   "size_or_tokens": "small",
+   "stance": "communicative"
+  }
+ ],
+ "data_processing": [
+  {
+   "layer": "memory_score and push table",
+   "source": "quran-data dictionary tr entries + HFT (latent_activation focus_trace) + v12 cross-run anchors (../branch_table.py → ../branches.tsv)",
+   "method": "3 binary features; push the early phrase (≤120 chars, source tags kept) when score ≤1",
+   "coverage": "all 11,392 Quranic branches (18,785 in the table)",
+   "cost": "free, seconds"
+  },
+  {
+   "layer": "construction tags",
+   "source": "lexicalization_scope.branch_kind + note + source_phrase_ar",
+   "method": "The collocation/non_bare tag carries the construction phrase. Presence at the occurrence (C2 construction_index.tsv, recall 0.21–0.46) is used only in verification",
+   "coverage": "2,471 Quranic branches",
+   "cost": "free"
+  },
+  {
+   "layer": "root-level uses",
+   "source": "v15/data/lemmas.tsv (QAC)",
+   "method": "All lemmas of a root pooled; every use as KWIC for roots ≤30 uses",
+   "coverage": "all roots",
+   "cost": "free"
+  },
+  {
+   "layer": "partner-by-form profiles (counts, dominant roles)",
+   "source": "quran-data/data/grammar/contextual/collocation_profiles_v2.tsv (33,552 rows; used by no earlier version)",
+   "method": "Top partners per form with attach counts, printed descriptively",
+   "coverage": "all QAC root/form groups",
+   "cost": "free"
+  },
+  {
+   "layer": "surah text and same-surah occurrences",
+   "source": "Quran text; v15 words.tsv",
+   "method": "Whole surah when ≤40k tokens (every surah except S2 at 61k); same-surah root occurrences for roots ≤400 uses",
+   "coverage": "113 of 114 surahs whole; S2 by window",
+   "cost": "free; a cached prefix in production"
+  },
+  {
+   "layer": "early-entry verification corpus",
+   "source": "dictionary/data/output/root_packets/*.json (six early sources, full text) + branch fields",
+   "method": "Diacritic-folded substring match of every non-Quran Arabic tag",
+   "coverage": "1,679 roots",
+   "cost": "free (~15 s load)"
+  },
+  {
+   "layer": "probe labels (optional)",
+   "source": "Opus 5.5 probe output",
+   "method": "Map claimed senses to branches by script; hand-check 30 roots; derive recall, phrase, drift and count labels",
+   "coverage": "1,633 roots",
+   "cost": "$26–51 one-time plus a $3–9 pilot"
+  }
+ ],
+ "avoids_known_failures": [
+  {
+   "failure": "Bulk input diluting synthesis (thinking 45k→9k at 318k–419k packages)",
+   "mechanism": "Push only what memory lacks. KA packets are 16–93k billed tokens, and nothing above ~140k is ever pushed. Full lists stay one read away as paths"
+  },
+  {
+   "failure": "Instruction confound ('Work only from the supplied evidence' removed outside reach: dict arms 0–3 outside refs)",
+   "mechanism": "One evidence clause in every step and arm: memory permitted and marked. FED-PERM arms show that feeding plus permission gives 12–47 outside refs"
+  },
+  {
+   "failure": "Known answers in prompts (write_v10.md:59 and write_v11.md:112 example '(15:26, 15:28, 15:33)' = the 18:86 watch partners)",
+   "mechanism": "A neutral citation-format example ('(S:A, S:A)'); a script check that the brief contains no watch-case refs or words"
+  },
+  {
+   "failure": "Verdict-carrying inputs (the 'no value' labels on 15:26/28/33; v12's 'never the plain sense')",
+   "mechanism": "The packet carries descriptive data only. Inter-ayah grades are not pushed, and the construction-presence judgment is kept out of the generative call"
+  },
+  {
+   "failure": "Construction-to-root drift (Lisān-style folding; ḍaraba = travel)",
+   "mechanism": "The C[construction] tag on every collocation branch in the packet. V2 checks every construction-bound sense at the focus occurrence after synthesis. Found: cold arm 1 flag (kanūd), dictionary arm 4 flags"
+  },
+  {
+   "failure": "Unmarked memory (recall_marks = 0 in every cold run)",
+   "mechanism": "A marking instruction (format, not audit), plus V1/V4 marking by script whatever the model does"
+  },
+  {
+   "failure": "Per-lemma concordance hiding root-level loaded-word partners (18:86's lemma ḥamiʾa has 1 use; the ḥamaʾ uses sit under another lemma)",
+   "mechanism": "Root-level uses for roots ≤30 uses: the 18:86 packet holds 15:26, 15:28, 15:33 and the ṣalṣāl clause; the v15 packet holds none of them"
+  },
+  {
+   "failure": "Loaded-word role invisible without counts (nafakha animating)",
+   "mechanism": "20 KWIC lines plus partner profile (active perfect with rūḥ 5/9) pushed; 3:49, 5:110, 15:29, 21:91, 32:9, 38:72 and 66:12 all in the packet"
+  },
+  {
+   "failure": "Premature pruning by a selector (v14 dropped the eye film)",
+   "mechanism": "No selection by any model. Every branch keeps an index line; the policy only adds phrases"
+  },
+  {
+   "failure": "Checks against truncated packets producing false 'memory drift' (Phase 1: 7 phrases 'found nowhere')",
+   "mechanism": "Verify against the full early entries: 12 of 14 cold tags attested, and the 2 unmatched are constructed grammar examples"
+  },
+  {
+   "failure": "Rediscovering chains",
+   "mechanism": "The chain-map lines anchored at the ayah are pushed as a starting point; the probe and scripts never rebuild chains"
+  }
+ ],
+ "watch_cases": [
+  {
+   "case": "29:38 sabal eye film (neighbour-activated rare branch), spider house 29:41, kohl",
+   "how_produced": "س ب ل B010 (bare, 1 source: Ṣiḥāḥ; score 1) is pushed with 'السبل داء في العين شبه غشاوة كأنها نسج العنكبوت بعروق حمر'. The kohl ingredient is in the ayah's own root ص د د B013 (ṣudūd, 'kohl prepared on a mirror', Tahdhīb; score 0), pushed with its phrase. ز ي ن and ب ص ر get full branch indexes; the whole surah text includes 29:41 ('العنكبوت'). One reader sees all of them together",
+   "tested": "script (kapacket.py): string checks on the packet",
+   "result": "All 6 ingredients are in the KA packet (33.7k tokens). The 'lean' mode (phrases only at score 0) loses the spider-weaving phrase, so the threshold score ≤1 is required. Whether Opus then makes the reading is untested (no run)"
+  },
+  {
+   "case": "18:86 ḥamaʾ as a Quran-loaded word",
+   "how_produced": "Root-level uses of ح م ء (4 uses: 15:26, 15:28, 15:33, 18:86) as KWIC, plus partners (NOUN with ص ل ص ل 3/3, س ن ن 3/3; ADJ with ع ي ن 1/1). No 'no value' labels",
+   "tested": "script",
+   "result": "KA 1/1 on 15:26, 15:28, 15:33 and the ṣalṣāl clause. The rebuilt v15 packet has 0 of 4 (its per-lemma concordance shows ḥamiʾa's single use). The cold context has the refs only through the brief's citation example: contamination found (write_v10.md:59). The observer reading itself is untested"
+  },
+  {
+   "case": "18:96 nafakha animates (19 of 20 uses)",
+   "how_produced": "Every use of ن ف خ (20) as KWIC, plus partners by form: PV:I (5 uses) with ر و ح 5/9; PV_PASS (7) and IV_PASS (4) with ص و ر. Counts only, no interpretation",
+   "tested": "script; inter-ayah probe",
+   "result": "KA 8 of 8 (15:29, 38:72, 32:9, 3:49, 5:110, 21:91, 66:12 and the rūḥ count). Cold 0 of 8; the v9 package 4 of 8. In the inter-ayah data, 15:29 and 38:72 appear only as retrieval rows graded 'medium'; 32:9, 3:49, 5:110, 21:91 and 66:12 appear nowhere; the memory rows hold none"
+  },
+  {
+   "case": "Fatiha rare branches (1:6 and its neighbours)",
+   "how_produced": "Phrases pushed for ص ر ط B002, ق و م B012, ه د ي B003; neighbour rare branches for م ل ك B006 (road's middle), م ل ك B008 (lead animal), ض ل ل B005. ع ب د B005 (trodden road) is memory-likely (score 2) and the cold 1:5 arm recalled it",
+   "tested": "script",
+   "result": "KA 6 of 6 pushed ingredients (15.5k tokens); the v15 packet 4 of 6. Contaminated as a test (S1 answers leaked into earlier prompts and v15's scene inventory), so blind ayat are required"
+  },
+  {
+   "case": "4:34 ḍaraba (dictionary principle) and the husband's nushūz",
+   "how_produced": "ض ر ب B002 carries C[ضرب في الأرض …]. B001 strike is plain. ن ش ز B004 pushed with 'نشز بعلها جفاها وضربها'. The whole surah includes 4:128",
+   "tested": "script plus manual reading of both cold arms",
+   "result": "Both cold arms scope travel to fī and reject it for wa-ḍribūhunna ('bu cümlenin dilbilgisi onları taşımaz'). cold2's summary lists vurmak, yola çıkmak, örnek vermek, örtmek and yüz çevirmek as the root's field (Lisān-style folding) before scoping each to its construction. V2 classes all three ḍaraba statements (cold, cold2, dict) as 'cited at its own locus 4:94/4:101'"
+  },
+  {
+   "case": "100:6 kanūd (collocation outside its construction)",
+   "how_produced": "ك ن د B003 is collocation-bound ('Tanım yalnız toprağı niteleyen yapıya bağlıdır'). In the KA packet it carries C[الأرض الكنود …]",
+   "tested": "verify_memory.py on the cold and dict arms",
+   "result": "Flagged in both (arḍ kanūd applied to insān; no arḍ at 100:6). HFT activated B003 17 times and v12 once, so the drift is not memory-specific; the guard was absent from every input. Needs the user's ruling on whether an explicitly labelled analogy is allowed"
+  },
+  {
+   "case": "5:6 mirfaq / kaʿb / qiyāman",
+   "how_produced": "ر ف ق B004 phrase (الارتفاق التوكؤ على مرفقه); ك ع ب B002; the whole surah includes 5:8 and 5:97",
+   "tested": "script",
+   "result": "KA 4 of 4. The inter-ayah labels grade 5:95 and 5:97 'no value' for 5:6 (canonical bias again)"
+  },
+  {
+   "case": "Long ayah 2:282 (size)",
+   "how_produced": "S2 is 61k tokens, so the window text plus the same-surah list is pushed instead of the whole surah",
+   "tested": "script",
+   "result": "KA 80.9k tokens against v15 120.2k (rebuilt, without plan, cards or profiles) and cold 71.5k (rebuilt with the whole surah)"
+  }
+ ],
+ "north_star_coverage": [
+  {
+   "id": "NS3",
+   "how": "Whole-surah text for 113 of 114 surahs (the cold arm's same-surah reach came from it); same-surah root occurrences; ±3 neighbour rare branches"
+  },
+  {
+   "id": "NS4",
+   "how": "Chain-map lines anchored at the ayah are pushed as a starting point to ground and extend, never rediscovered; the probe and scripts do not build chains"
+  },
+  {
+   "id": "NS5",
+   "how": "Root-level uses plus partner-by-form counts make the recurring role visible without an interpretation (nafakha with rūḥ 5/9; ḥamaʾ with ṣalṣāl 3/3)"
+  },
+  {
+   "id": "NS6",
+   "how": "Memory is permitted, so QeQ reach returns (fed and permitted arms: 12–47 outside refs), and V3 checks every reference afterwards"
+  },
+  {
+   "id": "NS7",
+   "how": "Every branch of every root stays visible, so a root's branches can be read as one concept; rare branches carry quotable early phrases"
+  },
+  {
+   "id": "NS8",
+   "how": "No model selects or drops anything; the policy only adds; flags annotate and never delete; failed construction checks go to set-aside with the reason"
+  },
+  {
+   "id": "NS10",
+   "how": "Each finding stays anchored to a dictionary branch; V1 attests phrases against the six early entries; memory is marked by the model and by script"
+  },
+  {
+   "id": "NS11",
+   "how": "Nothing is lost silently: full lists stay pullable, and set-asides are recorded"
+  },
+  {
+   "id": "NS1/NS9",
+   "how": "The construction guard keeps collocation senses off the plain reading (ḍaraba at 4:34), which protects the ground"
+  },
+  {
+   "id": "NS13",
+   "how": "Packets of 16–93k tokens (the surah as a cached prefix) cost about $0.2–0.7 per synthesis call through Batch; verification by script is free"
+  },
+  {
+   "id": "NS2",
+   "how": "Turkish drift is left to memory: loanword cards stay pullable, not pushed (untested whether pushing helps)"
+  }
+ ],
+ "cost": {
+  "per_ayah_test_cli": "One KA synthesis call on the subscription (claude -p bills input as a 1-hour cache write at $8/M and output at $20/M; output assumed 20–45k including thinking): 1:6 ≈ $0.5; 29:38 ≈ $0.9; 18:86 and 18:96 ≈ $1.0–1.3; 4:34 and 5:6 ≈ $1.5–1.7. Verification by script: $0. Luna second look: only where flags exist (0–4 per reading), estimated < $0.05 (Luna runs are unpriced in the ledger).",
+  "per_ayah_production_api": "Opus 5.5 at $4/$20 per MTok, Batch −50% (stacks with caching), cache read $0.20/M, 1-hour cache write 2×. Surah text as a shared cached prefix ≈ $0.004 per ayah read (one write per surah: ≤38k tokens × $8/M × 0.5 ≈ $0.15, amortized). Ayah-specific part 10–55k tokens × $2/M = $0.02–0.11. Output 20–60k × $10/M = $0.20–0.60. That is ≈ $0.2–0.7 per synthesis call, or ≈ $0.5–1.4 per ayah if the pipeline has two Opus calls (discover + write) on the same supply. Verification: $0 plus Luna flags ≈ $0.01–0.05.",
+  "one_time": "Branch supply table, uses and partner index, KA builder and verifier: scripts only (prototypes exist), about 1–2 days to harden. Optional probe: pilot of 30 roots × effort low/high on the subscription ≈ $3–9 list-equivalent; full probe of 1,633 roots through Batch ≈ $26–51 (≈350 input and 1.5–3k output tokens per root), plus an optional Luna mapping pass ≤ ~$5 (estimate).",
+  "assumptions": "Token counts come from a calibration fitted to 41 billed single-turn v9 runs (calib.py: tokens ≈ 4,581 + 1.151 × Arabic chars + 0.366 × other chars; median error 0.8%). Output sizes are taken from the v9 cold arms (15–60k). Pricing is from the claude-api skill (Opus 5.5 $4/$20; cache read $0.20; writes 1.25× (5 min) or 2× (1 h); Batch 50% stacking with caching; cache hits inside a concurrent batch are best-effort, so submit each surah's first ayah before the rest). Luna costs are estimates (Luna ≈ 40× cheaper than Opus per the project)."
+ },
+ "experiments_run": [
+  {
+   "what": "(3) Instruction confound",
+   "method": "Parsed the evidence clauses in v9/lines/synth.py and the evidence sentences of write_v10.md and write_v11.md. Grouped the 58 Phase 1 metrics rows as COLD (18), FED-NOPERM (24) and FED-PERM (16: v11 brief, dictionary-fed, 'The Quran itself, from the files and from your own knowledge of the whole Quran'); compared ayah by ayah; Spearman of input against outside refs within each group",
+   "result": "Median outside-surah refs: COLD 10.5 (3–28), FED-NOPERM 1.5 (0–38; zero in 10 of 24), FED-PERM 30 (12–47; zero in none), e.g. 1:6 cold 12 / dict 0 / v11 42. Within FED-PERM, input size does not predict outside refs (rho −0.03); within FED-NOPERM it does (rho 0.74, because packages carry related-passage lists). Across all fed runs, rho(permission, outside) = 0.67. Thinking medians by billed input: 14.1k (0–50k), 26.6k (50–150k), 20.3k (>150k). The collapse is specific to the 140–420k package arms. Also found: the example citation '(15:26, 15:28, 15:33)' in write_v10.md:59, write_v11.md:112, v10/prompts/write.md:59 and v11/prompts/write.md:113 is the 18:86 watch set, and every w10/v11 18:86 run cites exactly those three",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/D-knowledge-supply/r3/confound.py (output confound.txt, confound.tsv)"
+  },
+  {
+   "what": "(1) What memory recalls unaided, by branch class",
+   "method": "Manually annotated every lexical-claim sentence of the cold readings (../r2/lex_claims_w10-opus-cold.txt) against the dictionary branches of each ayah's identity roots, for the 13 fully annotatable ayat (1:1–1:7, 18:86, 100:1, 100:6, 100:10, 103:1, 103:2): 392 branches, 48 plain, 344 latent candidates. Compared with the dictionary-fed arms' Arabic-token hits (Phase 1 q2a_branches.tsv; a lower bound for the fed arms)",
+   "result": "Cold latent recall 41 of 344 (11.9%); fed ≥66 (19.2%); both 29, cold-only 12, fed-only 37. By position: B001–B003 35%, B004+ 3%. By early sources: 4–6 at 21%, 2–3 at 4%, 1 at 5%. By HFT/v12 activation: ≥10 at 21%, <10 at 2%, never 0 of 60. By kind: mixed 21%, bare 9%, collocation 1 of 56, non_bare 0 of 19. By root frequency: 0–1 words 33% (hapax roots are discussed in tafsir: ḍabḥ B003, kanūd, ḥ-ṣ-l B002). Corrects Phase 1's '105 of 109 branches only when fed' (an Arabic-script detector artefact; e.g. ḍabḥ B003 fire-scorching was recalled in Turkish)",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/D-knowledge-supply/r3/recall_manual.py (recall_manual.tsv, recall_manual.txt)"
+  },
+  {
+   "what": "Static knowledge-gap score",
+   "method": "memory_score = [B001–B003] + [≥4 sources] + [HFT+v12 ≥10], evaluated on the manual labels, then applied to the whole dictionary",
+   "result": "Cold recall by score: 0 → 0/96, 1 → 2/112, 2 → 13/80, 3 → 26/56; AUC 0.88 (in-sample, thresholds chosen after seeing the table). Pushing phrases at score ≤1 covers 60% of latent branches with only 2 of 41 memory positives among them (redundant pushes). 17 fed-only branches stay index-only, mostly plain-adjacent senses of frequent roots (e.g. ح س ن B001, ء خ ذ B001). Whole dictionary: 61% of 11,392 Quranic branches pushed, 22% construction-tagged. Watch branches: sabal B010, ʿayn B008, ṣudūd B013, qawm B012, mālik B006/B008 are pushed; ḥamaʾ B001, nafakha B001 and ḍaraba B002 get index lines (their ingredients come from the uses section)",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/D-knowledge-supply/r3/policy_eval.py (policy_eval.txt)"
+  },
+  {
+   "what": "(2) Packet sizes and watch ingredients: KA vs cold vs v15 vs full package",
+   "method": "Built KA packets in four modes (full, phrase, lean, index) for 1:6, 4:34, 5:6, 18:86, 18:96, 29:38 and 2:282. Built v15 ayah packets for ayat v15 never ran with v15 build_ayah redirected to scratch. Token estimates use the calibrated formula. Diacritic-folded ingredient checks",
+   "result": "Billed tokens, cold / v15 / package / KA-phrase: 1:6 8.1k / 19.2k / 112.7k / 15.5k; 4:34 48.8k / 82.6k / 318.0k / 81.1k; 5:6 40.1k / 98.7k / 414.0k / 92.7k; 18:86 25.9k / 45.5k* / 201.8k / 44.8k; 18:96 24.1k / 40.8k* / 142.3k / 48.0k; 29:38 19.7k / 39.9k* / 195.6k / 33.7k; 2:282 71.5k† / 120.2k* / – / 80.9k (*rebuilt without window plan, loanword cards or profiles; †rebuilt cold). KA-phrase holds every pushed ingredient tested (29:38 6 of 6 including kohl ṣ-d-d B013; 18:86 4 of 4; 18:96 8 of 8; 1:6 6 of 6; 4:34 4 of 4; 5:6 4 of 4). Index mode loses the sabal phrase, ʿayn's gloss and the husband-nushūz phrase; lean loses the sabal phrase",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/D-knowledge-supply/r3/kapacket.py (packets/*.ka.{mode}.md, sizes.*.tsv, sizes_phrase.txt; token calibration calib.py/calib.json)"
+  },
+  {
+   "what": "Dictionary principle in memory: verification prototype on the existing readings",
+   "method": "V1: every non-Quran Arabic tag in 18 cold and 12 dict readings matched against the full six early entries (root_packets entry_text_clean) and the dictionary branch fields. V2: every collocation/non_bare branch sense statement checked for its construction at the focus occurrence (partner of the branch's own early phrase within ±3 tokens of the root word) or at a cited locus",
+   "result": "Cold: 575 tags = 561 Quran + 12 early-attested + 2 unmatched, both constructed grammar examples (نعبدك; a rewritten variant). Phase 1's 'found nowhere' phrases are attested: كما تدين تدان (Tahdhīb), ضل الماء في اللبن (Tahdhīb; not 'reversed': Maqāyīs has the other order), غضبان. Dict: 428 tags, 2 unmatched (root-letter strings). Construction guard: cold 4 statements, 3 scoped at their own locus (ḍaraba travel ×2 via 4:94/4:101; nashaza 58:11) and 1 FLAG (arḍ kanūd at 100:6). Dict 5 statements, 4 FLAGs (ḥamd B005, malaka B005 kneading, ḍabḥ B002, which is probably a false flag, kanūd B003). No memory-specific drift beyond the guard missing from every input",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/D-knowledge-supply/r3/verify_memory.py (verify_memory.tsv, verify_memory.txt)"
+  },
+  {
+   "what": "Inter-ayah memory suggestions as a free probe of Quran-parallel recall",
+   "method": "All 6,236 focus files: rows 101+ (memory) against rows 1–100 (retrieval) against random pairs. Share of a content root (excluding roots >1,500 uses) and of low-frequency roots; watch partners",
+   "result": "Memory rows 299,657: 52.4% share a content root, 4.85% a ≤60-use root, 1.24% a ≤30-use root. Retrieval rows: 72.5%, 16.6%, 7.8%. Random: 18.8%, 0.72%, 0.23%. Memory rows are graded strong/medium in 96%. Watch partners appear only as retrieval rows, with canonical grades: 18:86 → 15:26/28/33 'no value'; 18:96 → 15:29/38:72 'medium'; 5:6 → 5:95/5:97 'no value'; 29:38 → 29:41 'weak'. 32:9, 3:49, 5:110, 21:91 and 66:12 are absent for 18:96",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/D-knowledge-supply/r3/interayah_probe.py (interayah_probe.txt)"
+  },
+  {
+   "what": "Can the probe be scored by script? (mapper feasibility)",
+   "method": "Character 3-gram cosine: each branch's Arabic definition as a query against image + early phrases of every branch of its root (definition excluded)",
+   "result": "Top-1 96.1% (chance 13.9%); roots with 10+ branches 94.9% (chance 7.9%). This is an optimistic upper bound, since model paraphrases differ from dictionary wording. The E5 query encoder could not be run (no torch in any available environment; the quran-slm venv interpreter link is broken)",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/D-knowledge-supply/r3/mapper_feasibility.py (mapper_feasibility.txt)"
+  }
+ ],
+ "validation_plan": [
+  {
+   "step": "V0: freeze before any run (free)",
+   "model_runs": "none",
+   "success_criterion": "KA packets and a script scorecard frozen for 6 named ayat (1:6, 4:34, 5:6, 18:86, 18:96, 29:38) and 6 blind ayat drawn by script from held-out surahs with channel reviews (never named cases). A brief lint confirms no watch refs or words. One evidence clause shared by every arm: memory permitted, memory marked, a neutral citation example, no audit instructions",
+   "cost": "$0"
+  },
+  {
+   "step": "V1: cold vs KA, same brief, 2 replicates (needs approval)",
+   "model_runs": "Opus 5.5 at effort high via claude -p: 12 ayat × 2 arms × 2 replicates = 48 calls",
+   "success_criterion": "Scored blind to arm by script: rare-branch activations (score ≤1 branches anchored and verified by V1/V2), loaded-word partners (predefined, never in prompts), outside and same-surah refs, memory marks, V1/V2 flags, thinking tokens. KA beats cold on rare-branch and loaded-word ingredients by more than the replicate-to-replicate difference (cold-vs-cold ref Jaccard ~0.6 sets the noise band) and is not below cold − noise on same-surah refs. Then the user's own blind pairwise reading of one replicate per arm (compare-myself rule; no comparison agents)",
+   "cost": "≈ $3 per ayah list-equivalent (cold ≈ $0.5, KA ≈ $1.0 per call) ≈ $36; every call < $5"
+  },
+  {
+   "step": "V2: does bulk dilute? KA vs KA+bulk (needs approval)",
+   "model_runs": "4 ayat (4:34, 5:6, 18:96, where thinking collapsed before, plus 1 blind) × 2 replicates of KA+bulk (v9 package appended: 150–400k tokens); reuses V1's KA runs",
+   "success_criterion": "Dilution is confirmed only if thinking falls by more than 40% and ingredient hits fall beyond the replicate noise, with the evidence clause identical across arms",
+   "cost": "≈ $2.3 per call ≈ $18 (≤ $4.6 per ayah)"
+  },
+  {
+   "step": "V3: probe pilot (needs approval)",
+   "model_runs": "30 roots stratified by frequency and branch count × effort {low, high} via claude -p = 60 calls",
+   "success_criterion": "The script mapper reaches ≥ 0.8 precision on my hand check of the 30 roots; low- and high-effort recall sets agree (Jaccard ≥ 0.8) → run the full probe at low effort; the construction-drift rate is measured",
+   "cost": "≈ $3–9 list-equivalent"
+  },
+  {
+   "step": "V4: full probe and policy refit (needs approval)",
+   "model_runs": "Batch API over 1,633 roots, then a V1-style re-run (KA with the probe-based policy vs KA with the static policy) on 6 new blind ayat × 2 replicates",
+   "success_criterion": "The probe policy pushes fewer redundant phrases without losing ingredient hits; the static score's AUC against probe labels is reported (an out-of-sample check of the 0.88)",
+   "cost": "≈ $26–51 plus ≈ $12 for the re-run"
+  }
+ ],
+ "risks": [
+  {
+   "risk": "The static score is fitted in-sample on 13 ayat of famous surahs (S1, S100, S103, S18)",
+   "mitigation": "Every branch keeps an index line (nothing dropped). The probe (V3/V4) gives out-of-sample labels. The push threshold is deliberately generous (61% of branches)"
+  },
+  {
+   "risk": "Probe recall in isolation is not activation in context (29:38 needs the neighbours seen together)",
+   "mitigation": "Use it asymmetrically: not recalled → push; recalled → index line only. Measure in-context activation in V1"
+  },
+  {
+   "risk": "The model under-marks memory: v11/v12 used [recall] mostly for Quran refs; cold arms marked nothing",
+   "mitigation": "V1/V4 mark by script regardless (phrase attestation, sense statements that match no branch); the marking count is a V1 metric"
+  },
+  {
+   "risk": "The construction check is weak (C2 index recall 0.21–0.46; my partner-proximity rule misses semantic subjects, e.g. ḍabḥ B002)",
+   "mitigation": "Kept out of the generative packet (no verdicts); flags get only a Luna second look and are annotated, never deleted; failures go to set-aside with the reason"
+  },
+  {
+   "risk": "The user's guard may forbid labelled analogies such as arḍ kanūd for insān, or may allow them",
+   "mitigation": "Flag them and ask the user; the script keeps both options (FLAG class) without changing the synthesis brief"
+  },
+  {
+   "risk": "KA packets for S3–S9 (whole surah up to 38k tokens) reach 81–93k tokens, which is untested with a permission brief",
+   "mitigation": "Below every observed collapse (≥140k package arms); FED-PERM runs at 90–226k kept 33k median thinking. V1 measures it; fallback to window text plus the same-surah list"
+  },
+  {
+   "risk": "Contaminated named cases (S1 answers leaked into earlier prompts; the 18:86 refs in old briefs) inflate the named results",
+   "mitigation": "Blind ayat in V1, V2 and V4; the brief lint; results reported separately for named and blind ayat"
+  },
+  {
+   "risk": "Effect of Turkish-loss supply is unknown (loanword cards left pullable)",
+   "mitigation": "Score NS2 in V1; add a cards-pushed variant only if KA underperforms v15 on the Turkish layer"
+  }
+ ],
+ "reuse": [
+  "v15/lib.py and build.py: loaders and text/words/qirāʾāt/channel-index blocks (imported read-only; build.WORK redirected)",
+  "quran-data/data/dictionary/tr/*_entry.json: lexicalization_scope.branch_kind and notes (the construction guard)",
+  "quran-data/data/grammar/contextual/collocation_profiles_v2.tsv: partner-by-form counts (unused by every earlier version)",
+  "dictionary/data/output/root_packets/*.json: full six early entries as the verification corpus",
+  "Sibling C2 construction_index.tsv (per-occurrence construction presence; used only in verification)",
+  "v11/verify_src.py and v15/check.py: Quran quote and source checks (V3)",
+  "Phase 1 metrics.tsv, q2a_branches.tsv, tags.py; the earlier D scratch: ../branch_table.py → ../branches.tsv, ../r2/lex_claims.py, ../root_sents.py, ../r2/calib.py",
+  "root-dossier activation_map.tsv and HFT/v12 activation counts (features)",
+  "quran-slm models/multilingual-e5-small|large (for probe scoring, once a torch environment is available)"
+ ],
+ "open_questions": [
+  "The user's ruling on collocation-bound senses used as an explicitly labelled analogy outside their construction (arḍ kanūd at 100:6, flagged in both cold and dict arms and activated 17× by HFT): forbidden, or allowed when the reading names the construction as the word's use elsewhere?",
+  "Should the construction-presence status ever appear in the generative packet? My proposal: no (script judgment, low recall), verification only.",
+  "The marker form: a Turkish in-prose marker such as v13's (hafızadan), or record-only marks the app renders?",
+  "Whole surah vs window text for S3–S9 (26–38k tokens): does the same-surah reach justify the size? (V1 variant)",
+  "Does effort-low probe recall match effort-high recall for Opus 5.5? (V3)",
+  "Phase 1 corrections to carry into the synthesis document: the 18:86 memory claim is confounded by the brief; the 'phrases found nowhere' and '105 of 109 only when fed' came from checking against truncated packets and an Arabic-only detector.",
+  "Not tested: any model output with the KA packet or the permission brief; the E5-based mapper; Luna's flag-check accuracy; the effect on the Turkish layer."
+ ],
+ "extra": {
+  "confound_groups": {
+   "COLD": {
+    "n": 18,
+    "median_outside_refs": 10.5,
+    "range": "3–28",
+    "median_thinking": 12277
+   },
+   "FED_NOPERM": {
+    "n": 24,
+    "median_outside_refs": 1.5,
+    "range": "0–38",
+    "zero_runs": 10,
+    "median_thinking": 13664
+   },
+   "FED_PERM": {
+    "n": 16,
+    "median_outside_refs": 30,
+    "range": "12–47",
+    "median_thinking": 32722
+   }
+  },
+  "brief_contamination": "write_v10.md:59, write_v11.md:112, v10/prompts/write.md:59 and v11/prompts/write.md:113 all use the example '(15:26, 15:28, 15:33)', the 18:86 watch partners",
+  "manual_recall_by_class": {
+   "B001-B003": "33/94 (35%)",
+   "B004+": "8/250 (3%)",
+   "sources_4_6": "34/161 (21%)",
+   "sources_1_3": "7/183 (4%)",
+   "never_activated": "0/60",
+   "collocation": "1/56",
+   "score_3": "26/56 (46%)",
+   "score_0": "0/96",
+   "AUC_static_score": 0.88
+  },
+  "interayah_memory_probe": {
+   "memory_rows": 299657,
+   "share_root_le30_uses": "1.24%",
+   "retrieval_rows_share_root_le30": "7.76%",
+   "random_share_root_le30": "0.23%"
+  },
+  "verification_prototype": {
+   "cold_nonquran_tags_attested_in_early_entries": "12/14 (2 constructed grammar examples)",
+   "cold_construction_flags": "1 of 4 statements",
+   "dict_construction_flags": "4 of 5 statements"
+  },
+  "ka_packet_tokens_phrase_mode": {
+   "1:6": 15545,
+   "29:38": 33708,
+   "18:86": 44828,
+   "18:96": 48049,
+   "4:34": 81061,
+   "2:282": 80934,
+   "5:6": 92710
+  },
+  "wording_principles": [
+   "Permission: 'Your own knowledge of Arabic and of the whole Quran is open to you beyond what is supplied.' The same clause in every step and every test arm.",
+   "Marking as output format: 'Mark a sense, phrase, count or report that you take from memory rather than from the supplied material with [memory].' No request to check, list or account.",
+   "Informational only: 'Quotations and references are checked afterwards against the canonical text and the early dictionaries.' No audit, verdict or checklist instructions in the generative call.",
+   "A legend, not a rule list: 'C[…] shows the construction a branch belongs to; F[…] a form it belongs to.' Stated once as data semantics, never case-specific.",
+   "Supplied data is descriptive only: counts, uses, partners, branch lines. No grades ('no value', 'strong'), no 'never the plain sense' lines, no ranked relevance, no must-land lists, no caps.",
+   "No watch-case refs, words or North Star examples anywhere in a brief (a neutral '(S:A, S:A)' citation example), enforced by a lint script."
+  ]
+ }
+}

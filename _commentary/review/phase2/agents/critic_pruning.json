@@ -1,0 +1,253 @@
+{
+ "lens": "Dilution, pruning and the handover wall (NS8, NS11, NS13 dilution). I looked for places where a reading can die before or at synthesis: verdict labels acting as filters, stance mixing, selectors that hide what they drop, must-land incentives, budgets, records-to-prose handovers, set-asides that never reach a step able to use them, and bulk inside the collapse band (at or above ~140k tokens). For each proposal I also checked whether its evaluation plan could detect these failures. My scripts and outputs are in /private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/X-dilution-critic/ (cited below as \"XD/\"). Sibling paths are cited as \"phase2/<key>/\". No model runs were made. Any claim about how a writer would behave on these inputs is inferred from the recorded v9/v13/v14 precedents.",
+ "per_proposal": [
+  {
+   "key": "A-v5-step",
+   "verdict": "weak",
+   "objections": [
+    {
+     "objection": "S2 rebuilds the records-to-prose handover wall rather than avoiding it. One Opus writer has to select from and compose over hundreds of atomized items, and anything it drops never comes back to that ayah's commentary.",
+     "evidence": "XD/k7_digest_items.py (909 digests): median 238 atomized item lines per digest (p10 157, p90 373, max 874). Examples: 1:6 has 336, 5:6 has 594, the tier-2 29:38 digest has 202. By section: C (readings) median 23, B 32, F2 32, F7 30, C2 37. Phase 1 §4.2 found that every contract over v14's 169 records traded recall against form: no contract gave 23/30 on 1:6 ('things found, then dropped'); a must-land list gave a catalogue. The closest precedent is v9/DESIGN.md:285-300 and 340-355: Opus writing on a 274-reading harvest produced 9,289 words with ~43% of words in catalogue paragraphs, and v3 still pushed every record (~93k tokens). A's unused index goes to S5 and audit only. S4 repairs hard flags only, so nothing dropped returns to S2.",
+     "severity": "major"
+    },
+    {
+     "objection": "The digest drops v5's labels but introduces popularity labels and a tiered layout, and these act as verdicts. Every branch line carries '[N readings]' and lines are sorted by it. The E header says '(not used above)'. The rare branches the North Star wants sit at the bottom with the lowest count.",
+     "evidence": "XD/k7: 1,816 of 1,816 A/B sections are sorted by descending [N readings], and a median 80% of branch lines read '[1-2 readings]'. In 1:6.digest.md the lead animal (م ل ك r1444/B008) is on line 99 as '[1 readings] [COLLOCATION-BOUND]', while ق و م B008 heads the list at '[30 readings]'. In digests_tier2/29_38.digest.md the eye film is '[1 readings]' and kohl (ص د د B013) appears only as one clause of a semicolon list in E. Phase 1 evidence that pushed grades get echoed: A's own s08 (global cite rate 17.8% for 'strong' vs 0.3% for 'no value'); §4.1 (registry labels used as filters). v9/DESIGN.md:294-300 records two things: notes printed on one line without their source phrase never reached a writer, and 'a strength field + pull-only reserve would bury exactly the rare, low-confidence finds the user values'.",
+     "severity": "major"
+    },
+    {
+     "objection": "The claim that 'v5's rejects and narrows cost nothing' is refuted. Branch ids survive, but the assembled coalition (the reading) mostly does not, and the v5-inherited sections still carry v5's label-driven selection of partners.",
+     "evidence": "XD/k2c_coalition_survival.py, qac ledger rows excluded. Share of multi-branch candidates with ≥50% of their branches in one C reading: accepted 99.9% (of 15,653); narrowed 72.9% (of 1,944); rejected 25.2% (of 1,088). Every branch still appears somewhere in 100% of cases. XD/k2b_rejects_by_reason.py: of 11,277 semantic rejects, 5,581 were killed on anchor/binding grounds and 1,217 on lane boundary ('needs non-focus context outside this micro packet'). Only 108 and 50 of these leave a title trace. XD/k1_inherited_label_filter.py: v5 connection rows reach the inherited sections A–D at 16.7% if labelled strong, 2.3% if 'no value', 1.1% if unlabelled. Only the script sections rescue some (18:86 via F1).",
+     "severity": "major"
+    },
+    {
+     "objection": "The set-aside handed forward is nominal. The per-surah unused index S5 is supposed to read is far beyond what any call can read, so in practice it is never read (the v6 pattern) or it needs a hidden selector.",
+     "evidence": "XD/k8_unused_index_to_S5.py uses A's all_digest_sizes.json at A's 2.0 B/token. Assuming 60–80% of digest items go uncited: S100 (11 ayat) 129–172k tokens; S18 1.28–1.71M; S5 1.78–2.37M. In 15 of 36 v5 surahs the index exceeds 150k tokens. S5 is costed at $1.5–2.5 per surah, which implies roughly ≤100k input. Phase 1 §2 v6: 'delivery counters… indicated full inspection' while the material went unread.",
+     "severity": "major"
+    },
+    {
+     "objection": "The S3→S4 hard flag on collocation-bound citations would repair away legitimate constructions. The cue heuristic misses most real constructions.",
+     "evidence": "XD/k6_guards_vs_dossier.py and k6c_per_branch.py. Against 397 root-dossier placements where the collocation branch is the plain sense (so the construction is present by definition; the 2 grammatical ones excluded), A's s03 cue returns 'no construction' for 66%. The per-branch median is 0.80, and for 12 of 39 branches every placement is flagged. A's own hand check found only 6/12 'present' flags true. The same mechanism removes the North Star Fatiha items: all 54 S1 activations of collocation-bound branches lack a cue (A s03).",
+     "severity": "major"
+    },
+    {
+     "objection": "As specified, the S1 chain-map input falls in the collapse band for about a third of v5 windows. The lean fix is an unargued push budget. S2 is told to follow the S1 plan, so chains in F3 but not in the plan risk becoming inert.",
+     "evidence": "phase2/X-cost-critic/c05_A_window_input.py (out_c05*.txt; upper bound using the whole F2 and the whole review): median 97k, 25 of 75 windows over 140k, max 242k. The lean index (top-10 F2/F7) brings the max to 140k, but it drops, for example, the 29:38 eye-film~kohl pair (F7 rank 25) from S1. Phase 1 §4.3, end: supply with no instruction about what to make of it stayed inert (the Fatiha well sat in v15's scene lines and was set aside).",
+     "severity": "minor"
+    },
+    {
+     "objection": "The validation plan cannot detect pruning. The criteria pass lossy designs, one check is circular, and S1 is left out of V1.",
+     "evidence": "V1 requires 29:41 'in at least 1 of 2 replicates'. XD/k9_replicate_power.py: an item that lands 30% of the time passes that rule with p=0.51, and a well-kept item (p=0.8) versus a lossy one (p=0.3) is separated only 47% of the time. V2's 'my review of the unused index finds no watch ingredient dropped without trace' is true by construction, because the index lists every uncited item. The blind ayat are judged only by the designer against the v5 editorial, with no pooled gold. V1 omits the S1 map, so losses S1 causes go untested. V2 uses S100, a North Star example, which is contaminated. Phase 1 §4.3: identical runs share ~60% of citations.",
+     "severity": "major"
+    }
+   ],
+   "survives_if": "The digest is treated as material, not a harvest to be accounted for, and what the writer drops comes back once, in the same ayah session.",
+   "what_would_fix": "Remove '[N readings]', count-sorting and the tier headers ('not used above'). List every branch of the ayah's roots in dictionary order with its early phrase, as B does. Turn v5's C readings into one more reading stream, as in B's optional arm C, not the base of the packet. Add a single challenge turn that returns the uncited sentences and paths to S2. Give S5 only a chain-bounded list (S1 and F3 chain members never mentioned in any ayah), not the whole unused index. Make collocation checks flags for the user and the record, never S4 repairs. Validate with frozen upstream and ≥4 replicates of S2, with retention of script-derived ingredients as the metric, on seeded blind ayat."
+  },
+  {
+   "key": "B-noniterative",
+   "verdict": "viable",
+   "objections": [
+    {
+     "objection": "R_lex's supply pushes a guard verdict computed by a heuristic that misses most real constructions. Combined with the brief's rule, it works as a pre-synthesis filter. This contradicts 'descriptive supply only; no verdicts'.",
+     "evidence": "XD/k10_pushed_guard_verdicts.sh: 296 'present in this ayah: no' lines against 16 'yes' across B's 17 supplies. Several read 'construction keys: ?; present in this ayah: no' (for example 29_38.md lines 64 and 90). XD/k6 and k6c: licence v2 says 'no' for 79% of the 397 true dossier placements (per-branch median 1.00; all placements missed for 21 of 39 branches). The brief tells R_lex that a collocation-bound sense 'may be heard only where its construction is present'. Phase 1 §5 records that Opus applies the constraint by itself when shown the entry: the 4:34 dict arm wrote 'Yolculuk anlamı yeryüzünde gibi bir tamamlayıcı ister'.",
+     "severity": "major"
+    },
+    {
+     "objection": "Existing chains that the S-reading does not take up never reach R_lex or the integrator. This repeats v15's early set-aside: omission without a verdict is still a set-aside.",
+     "evidence": "Per B's stage list, R_lex gets supply A–H, the S-slice and memory permission. The supply has no channel lines. Untaken channels are only 'handed forward as not taken up' to the record. Phase 1 §2 v15: 'the Fatiha well was set aside at the window step, and its fragments stayed scattered over five ayah records that nothing reassembles'. If the list were instead pushed under a 'not taken up' label, it would be a verdict of the kind A's s08 shows getting echoed (0.3% cite rate for 'no value').",
+     "severity": "major"
+    },
+    {
+     "objection": "'One read away' does not hold. R_lex has no tools, and supplies over 110k name the rest 'by count', which is a selector that hides what it left out.",
+     "evidence": "B stage 0: 'switch to light above 110k, then push G tiers 1–2 and name the rest by count'. Stages 2a/2b/3: 'no tools'. Named sizes (full/light): 5:6 146.5k/110.7k, 2:255 127.8k/102.0k, 4:34 101.6k/76.9k (phase2/B-noniterative/supply_sizes_all.txt, supply_sizes_light.txt). Phase 1 §4.2: v14 composition, 'the writer had no cue that the relationship was there'.",
+     "severity": "major"
+    },
+    {
+     "objection": "The challenge turn puts an audit instruction, built on mostly false flags, into the composition session.",
+     "evidence": "Step 5: 'show the construction or drop the root attribution for flagged construction-bound senses', while licence v2 misses 79% of true placements (XD/k6). Phase 1 §4.3(4): audit instructions and verdict lists are what hurt below the size threshold. The same turn also carries 40–96 unselected sentences with 'revise where…' (unselected_demo.txt), which invites a v13 v2-style catalogue. Step 1's form bounds only partly contain that.",
+     "severity": "major"
+    },
+    {
+     "objection": "R_lex's own selection from its 23–146k supply is never indexed. The unselected index only covers readings→commentary, so the first and largest pruning point is invisible to the challenge turn.",
+     "evidence": "phase2/B-noniterative/unselected.py compares refs, quotes and anchors of the readings against the commentary only. Phase 1 §3: a single configuration returns one slice. On 1:6 the dict arm had the 'deepest lexicon' but no outside-surah reach.",
+     "severity": "minor"
+    },
+    {
+     "objection": "Step 1's recall criterion rewards union-listing, an implicit must-land. The long-surah map call is not sized.",
+     "evidence": "Step 1 requires 'pooled ingredient recall ≥ better input + 0.10'. It is bounded only by words ≤1.5× the longer input (about ≤2,465 words for 1:6's 1,421/1,643-word inputs). For S5, surah_sizes.txt gives 839k total tokens and 8 windows; the whole-surah map call reads all window readings. Inference: 8 readings of ~15k tokens each land near the 140k band.",
+     "severity": "minor"
+    }
+   ],
+   "survives_if": "The supply shows the construction scope as the dictionary states it but never a presence verdict. Every existing chain that touches the ayah reaches R_lex whatever the S-reading took up. No push limit hides content behind a count.",
+   "what_would_fix": "Replace 'present in this ayah: yes/no' with D's C[construction phrase] tag and the dictionary's scope note. Push the channel-review subchannels that touch the ayah (A's F3 lines) unlabelled, next to the S-slice. For supplies over 110k (rare: 0 of 120 random ayat), split R_lex by word groups rather than naming by count. Have the challenge turn ask the writer to name the construction a flagged sense belongs to, or to mark it as a phrase-level echo, and never to 'drop' it; the user settles strict vs frame mode first. Add supply→reading retention (non-plain branches with a script path that neither reading used) to the scorecard, stored and not pushed. Size the map call, or give it the S-readings' disclosure plans only."
+  },
+  {
+   "key": "C1-branch-distance",
+   "verdict": "weak",
+   "objections": [
+    {
+     "objection": "The 'echo only (construction absent here)' tier tells synthesis that legitimate constructions are never the word's sense. C1's hand check could not see this, because 'absent' is almost always right by base rate.",
+     "evidence": "XD/k5_c1_guard_vs_dossier.py: of 329 true dossier placements (grammatical ones excluded), 61% are 'absent', which means echo-only. Only 14% are present_strict. Across other-branch occurrences, 'absent' is correct 22,565 of 22,765 times (99.1%). That is why C1's samples of 'absent' decisions (25/25 and 30/30) looked perfect. XD/k6c_per_branch.py: per-branch median 0.14, but all placements are echo-demoted for 10 of 39 branches. XD/k10: 207 echo-only items across 13 pushes.",
+     "severity": "major"
+    },
+    {
+     "objection": "Each branch line shows a convergence score ('N kinds') built largely on generic words. That is confidence scoring during discovery, which NS8 forbids, and it fills the push with pseudo-evidence.",
+     "evidence": "harvest2/029_038.push.md line 54: the eye film's headline reads '6 kinds ← لِّقَوْمٍۢ 29:35: ق و م B001 names this word… scene body.eye… ← لِّقَوْمٍۢ'. The real paths (غشاوة with mustabṣirīn; العنكبوت 29:41) come after it. XD/k4_c1_path_noise.py: in 182 of 694 branch lines (26%), the displayed evidence includes a generic-lemma path (الشيء/الناس/بينهما).",
+     "severity": "major"
+    },
+    {
+     "objection": "Only the top 3 branches of each word get paths. The rest drop to 'then:' lines without a phrase, demoted by an order whose gain is small and measured on primary-sense-biased labels.",
+     "evidence": "C1 T6: +0.036 to +0.048 latent MRR over Neo on v12 LLM labels (49.5% of targets are B001, per Phase 1 §4.5). v9/DESIGN.md:294-297: notes printed without their source phrase 'never reached' the writers.",
+     "severity": "minor"
+    },
+    {
+     "objection": "The evaluation cannot catch drift or pruning. One V3 criterion is vacuous as written, and the retrieval evaluations never measure what reaches the prose.",
+     "evidence": "V3 says '≥0 construction-drift flags from S4', which always passes. The designer scores blind to arm with 2 replicates (XD/k9: '2 of 2' still passes a p=0.3 item 9% of the time and fails a p=0.8 item 36% of the time). T1/T6 rank branches, but no measure of retention at synthesis exists.",
+     "severity": "major"
+    }
+   ],
+   "survives_if": "It is used strictly as an ordering: no displayed scores, no echo tier, and every branch shown with its phrase.",
+   "what_would_fix": "Drop 'N kinds', the echo tier and the 3-path limit from the push. Keep the NA order as the only use of the scores, and show every branch with its early phrase and at most the non-generic paths. Paths with generic words or roots in more than 400 ayat go to the pull. Keep guard status in verification only. Rewrite V3 so construction flags must not rise over the arm without the push, and score retention of the pushed paths across ≥4 replicates."
+  },
+  {
+   "key": "C2-loaded-parallels",
+   "verdict": "weak",
+   "objections": [
+    {
+     "objection": "Collocation branches whose construction the heuristic cannot find are withheld from the push. This is a label used as a filter, and it removes about two thirds of legitimate placements.",
+     "evidence": "C2's own construction_eval2.json: R5 recall 0.332 with the grammatical ones excluded (fn 265 of 397), so 67% of true placements are withheld. XD/k10: 271 withheld branches across 8 sheets (1:6 has 7, 5:6 has 58), shown only as 'withheld here (construction absent): B00x <short image>'. The full entries sit in pull.json, which a production Batch call cannot read. NORTH_STAR guardrail: 'retrieval labels order and never filter'.",
+     "severity": "major"
+    },
+    {
+     "objection": "Push thresholds were tuned while looking at the watch case. On a blind ayah, the same kind of edge just past the cutoff goes into the pull as a count only. This is the v13 v3 budget pattern.",
+     "evidence": "C2 keeps quran-slm rank ≤40 because the 29:38 kohl edge sits at 38, and says this was done while viewing watch outputs. ±2-ayat partners are kept only at score ≥2 or rank ≤10. Every other line shows '+N in pull'. Phase 1 §4.2: the ranked budget got 19/30 anchors on 1:6.",
+     "severity": "major"
+    },
+    {
+     "objection": "Loaded-word flags with 40–50% precision are pushed in verdict-like capitals ('THIS OCCURRENCE DEPARTS'). Section C, a bulk of script findings, dominates the long sheets.",
+     "evidence": "loaded_sample_judgments.tsv: 12 of 30 flags real (10 of 20 for roots with ≤60 ayat). XD/k10: 5 DEPARTS lines in 8 sheets. Section C sizes: 5:6 76.6k chars, 2:282 104.6k chars (harvest/sizes.json). v9 findings-lane precedent (v9/DESIGN.md:340-355).",
+     "severity": "minor"
+    },
+    {
+     "objection": "The evaluation rewards landing and cannot tell payoff from catalogue.",
+     "evidence": "V3 success: 'B contains per ayah at least 2 dictionary-backed, script-only ingredients A lacks', which is an implicit must-land. Catalogue drift is checked only by regex. 2 replicates (XD/k9). Thresholds were frozen only after the watch-case outputs had been seen.",
+     "severity": "minor"
+    }
+   ],
+   "survives_if": "The guard becomes a tag rather than a withholding, and the thresholds become orderings with the full lists attached.",
+   "what_would_fix": "Show every collocation branch with its phrase and a C[construction] tag, with no withholding and no 'absent' wording. Replace the rank and score cutoffs with ordering, and keep the section complete. Present loaded roles as plain counts and refs, without 'DEPARTS'. Score V3 by retention and the user's blind preference, not by ingredients landed."
+  },
+  {
+   "key": "D-knowledge-supply",
+   "verdict": "viable",
+   "objections": [
+    {
+     "objection": "The phrase policy withholds early phrases exactly where memory fails, including branches only the dictionary arm reached, and saves only 12–22% of tokens in a range where Phase 1 found no dilution. The push limit is not argued for attention.",
+     "evidence": "XD/k3_d_policy_loss.py and k3b_d_indexonly_detail.py, on D's own labels (recall_manual.tsv): 97 of 303 latent branches that memory did not recall get an index line only. So do 17 of the 37 branches only the fed arm reached. Among them are ض ب ح B002 (100:1, the running horses' foreleg stride), ر ب ب B008 (1:2), ق ر ن B005 (18:86) and ح ص ل B003 (100:10). Token counts, phrase-for-all vs policy (D r3/sizes.full.tsv vs sizes.phrase.tsv): 1:6 17.7k vs 15.5k; 29:38 40.3k vs 33.7k; 18:86 56.5k vs 44.8k; 5:6 115.4k vs 92.7k. All are below the ≥140k band (Phase 1 §4.3). D's lean mode already lost the spider phrase at 29:38. v9/DESIGN.md:294-300: one-line notes without their source phrase never reached writers; a strength-gated reserve 'would bury exactly the rare… finds'.",
+     "severity": "major"
+    },
+    {
+     "objection": "One of the three features gating the push is an inherited popularity label, and it measures dictionary-fed readers, not memory.",
+     "evidence": "memory_score includes [HFT+v12 ≥10 activations]. HFT packets carry every focus root's 'full branch inventories' (latent_activation/focus_trace/README.md:132-146), so an activation count reflects what readers did with the dictionary in front of them. In D's own table, 79% of branches with ≥10 activations were not recalled by cold Opus (21% recall). AUC 0.88 is in-sample, on 13 ayat from 4 famous surahs.",
+     "severity": "minor"
+    },
+    {
+     "objection": "Losses at synthesis are left entirely to the host. Stage 5 may move senses out of the prose on the basis of a low-recall construction index.",
+     "evidence": "D has no unused index and no return turn. Stage 5 says 'senses whose construction is absent go to the record's set-aside list'. The V2 check reuses C2's construction_index.tsv (recall 0.21–0.46; XD/k6 finds a 66–79% false-absent rate on true placements for comparable heuristics), with a Luna second look whose accuracy is untested.",
+     "severity": "minor"
+    },
+    {
+     "objection": "There is no definitional cross-reference layer. A partner in another ayah that a phrase names survives only while that branch's phrase is pushed.",
+     "evidence": "The KA packet lists no xref joins. At 29:38 the spider link rides on the pushed B010 phrase and the whole-surah text (sizes_phrase.txt; lean mode loses it). B's and A's detectors find the joins without case rules (س ب ل B010 → 29:41; ص ل و B006 → 29:39).",
+     "severity": "minor"
+    }
+   ],
+   "survives_if": "Phrases are pushed for every non-plain branch of the ayah's roots. The ~12–22% cost is well inside the safe size range.",
+   "what_would_fix": "Drop the memory_score gate from push decisions and keep it as a diagnostic for the probe. Add B's G joins. State that stage 5 annotates and never removes from the prose. Keep D's strongest parts: the construction-presence status stays out of the generative packet, the permission clause is the same in every arm, and V2 (KA vs KA+bulk with an identical evidence clause) is the only direct dilution test among the five proposals and should be adopted whatever is built."
+  }
+ ],
+ "checks_run": [
+  {
+   "what": "K1: do the v5-inherited sections of A's digest still carry v5's label-driven selection of inter-ayah partners?",
+   "result": "Reach into inherited sections A–D: strong 16.7%, medium 7.1%, weak 4.6%, 'no value' 2.3%, unlabelled 1.1%. Reach into script sections: 21.2 / 14.1 / 13.3 / 8.6 / 5.4%. A 7× label gradient survives the label removal.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/X-dilution-critic/k1_inherited_label_filter.py (.txt)"
+  },
+  {
+   "what": "K2/K2b: rejected v5 candidates and their reasons, with any title trace in A's digest",
+   "result": "17,402 rejects; 6.1% leave a title trace. Excluding qac ledger rows: 11,277 semantic rejects, of which anchor/binding 5,581 (108 visible) and lane boundary 1,217 (50 visible).",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/X-dilution-critic/k2_rejected_readings.py, k2b_rejects_by_reason.py (.txt)"
+  },
+  {
+   "what": "K2c: coalition survival (≥50% of a candidate's branches in one digest reading) by v5 decision, as a control for K2",
+   "result": "Accepted 99.9% (15,653); narrowed 72.9% (1,944); rejected 25.2% (1,088). Every branch appears somewhere in 100% of cases. The branch survives but the reading dies.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/X-dilution-critic/k2c_coalition_survival.py (.txt)"
+  },
+  {
+   "what": "K3/K3b: what D's phrase policy leaves as index-only lines, on D's own hand labels",
+   "result": "344 latent branches: 208 pushed, 136 index-only. Of 303 not recalled by memory, 97 are index-only. Of 37 reached only by the fed arm, 17 are index-only, including ض ب ح B002 (100:1), ر ب ب B008, ق ر ن B005 and ح ص ل B003. Phrase-for-all costs +12–22% tokens (D's sizes.full vs sizes.phrase).",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/X-dilution-critic/k3_d_policy_loss.py, k3b_d_indexonly_detail.py (.txt)"
+  },
+  {
+   "what": "K4: generic-lemma noise in C1's displayed paths",
+   "result": "182 of 694 branch lines (26%) show a path through الشيء/الناس/بينهما; 226 of 899 lexical paths (25%) are generic.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/X-dilution-critic/k4_c1_path_noise.py (.txt)"
+  },
+  {
+   "what": "K5: C1's guard status against root-dossier plain branches (true collocation placements)",
+   "result": "Grammatical constructions excluded: of 329 true placements, 61% absent (echo-only), 13% prep-only, 9% window, 3% unknown, 14% strict. On other-branch occurrences, 'absent' is right 99.1% of the time, which is why C1's hand checks of 'absent' looked perfect.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/X-dilution-critic/k5_c1_guard_vs_dossier.py (.txt)"
+  },
+  {
+   "what": "K6/K6c: A's s03 construction cue and B's licence v2 against the same dossier labels, micro and per branch",
+   "result": "397 true placements, grammatical excluded. A calls 66% 'no construction' (per-branch median 0.80; all placements missed for 12/39 branches). B calls 79% 'no' (median 1.00; 21/39). C1 not-strict: median 1.00 (28/39); C1 echo: median 0.14 (10/39). C2's own R5: recall 0.33. The first run had a bidi-reordered regex; it was fixed with escaped code points and verified on 2:3 ق و م B005 (present).",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/X-dilution-critic/k6_guards_vs_dossier.py, k6c_per_branch.py (.txt)"
+  },
+  {
+   "what": "K7: size of A's digest as a set of atomized records, and the popularity labels it carries",
+   "result": "Median 238 item lines per digest (p10 157, p90 373, max 874). Every A/B section (1,816) is sorted by [N readings], and 80% of branch lines show [1-2 readings].",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/X-dilution-critic/k7_digest_items.py (.txt)"
+  },
+  {
+   "what": "K8: size of the per-surah unused index A hands to S5",
+   "result": "At 60–80% of digest items uncited: S100 129–172k tokens, S18 1.28–1.71M, S5 1.78–2.37M. In 15 of 36 v5 surahs it exceeds 150k.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/X-dilution-critic/k8_unused_index_to_S5.py (.txt)"
+  },
+  {
+   "what": "K9: can 2-replicate criteria detect a single item dropped at a handover?",
+   "result": "'≥1 of 2' passes an item that lands 30% of the time with p=0.51 and separates a kept item (0.8) from a lossy one (0.3) only 47% of the time. '2 of 2' separates them 58%, '≥3 of 4' 75%, '≥6 of 8' 79%.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/X-dilution-critic/k9_replicate_power.py (.txt)"
+  },
+  {
+   "what": "K10: pre-synthesis guard verdicts actually pushed by each prototype",
+   "result": "B supplies: 296 'present in this ayah: no' against 16 'yes' (17 supplies). C1: 207 echo-only items (13 pushes). C2: 271 withheld branches and 5 DEPARTS flags (8 sheets). A: 13,086 [COLLOCATION-BOUND] lines (909 digests). D: 225 C[construction] tags and no presence verdicts.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/X-dilution-critic/k10_pushed_guard_verdicts.sh (.txt)"
+  },
+  {
+   "what": "Reused a sibling's measurement: size of A's S1 window input",
+   "result": "Upper bound (whole F2 plus whole review): median 97k, 25 of 75 windows over 140k, max 242k. Lean index: max 140k, 1 window over 140k. I read the script and the calibration (41 billed runs) and did not rerun it.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/X-cost-critic/c05_A_window_input.py, c05b_A_window_input_lean.py (out_c05*.txt)"
+  },
+  {
+   "what": "Read-only evidence checks",
+   "result": "v9/DESIGN.md:285-300 and 340-355: Opus on a 274-reading harvest gave 9,289 words with ~43% catalogue; one-line notes without their phrase never reached writers; a strength field would bury rare finds. latent_activation/focus_trace/README.md:132-146: HFT packets carry full branch inventories. C1 harvest2/029_038.push.md line 54: the eye film's headline activator is لِّقَوْمٍۢ. Not tested: any model behaviour. The dossier labels cover only 123 roots and 39 collocation branches, a skewed sample. The Batch-API point (no tool execution inside one request) is an inference."
+  }
+ ],
+ "cross_cutting": [
+  "All four construction heuristics miss most legitimate constructions. False-absent rates on the 397 true root-dossier placements: A 66%, B 79%, C2 67%; C1 puts 61% into echo-only and 86% outside 'strict' (XD/k5, k6, k6c; C2 construction_eval2.json). Any pre-synthesis use therefore prunes legitimate readings: B's 'present: no', C1's echo tier, C2's withholding. Any post-synthesis 'repair' or 'drop' deletes them: A's S4, B's challenge turn. Only D keeps presence out of the prompt. The binding dictionary principle is best served by showing the dictionary's scope note and construction phrase, which Opus applies (Phase 1 §5), and by routing script flags to the user and the record, never to deletion. The user's strict-versus-frame ruling (4–8 North Star gold items) has to come before any wording enters a prompt.",
+  "Labels come back under new names in every proposal: A's '[N readings]', count-sorting and '(not used above)'; B's 'present: no' and 'not taken up'; C1's 'N kinds' and 'echo only'; C2's 'withheld' and 'DEPARTS'; D's memory_score push gate. Phase 1 shows pushed grades get echoed (A s08: 17.8% vs 0.3%; §4.1 registry labels) and that one-line items without their source phrase never reach a writer (v9/DESIGN.md:294-297). Pushed material should be descriptive and flat: every branch with its phrase, ordered at most, with no scores shown.",
+  "'One read away' does not hold in production. A's lookup is audit-only, B has no tools, and the C1/C2/D pull files cannot be reached from a single Batch request, where a Read needs a second round trip that no design costs (Inference about Batch mechanics). Every push limit must therefore either append the rest or be argued for attention. D's own sizes show phrase-for-all costs only +12–22% well below 140k.",
+  "A set-aside counts as handed forward only if its consumer can read it. A's per-surah unused index runs from 130k tokens (S100) to 1.3–2.4M (XD/k8). B's sentence-level unselected list (7–18k characters) fits one turn. Set-aside lists should be bounded by structure (chain membership, the ayah), not by score.",
+  "The unit that dies is the coalition, not the branch. v5 rejects keep 100% of their branches in A's digest, but only 25% of the multi-branch readings survive (XD/k2c). Retention metrics must count assembled readings and paths, not branch ids.",
+  "Evaluation: no plan measures retention at each handover, and the single-item criteria are too weak for the ~60% replicate overlap (XD/k9: '≥1 of 2' passes a p=0.3 item half the time). Two fixes are cheap. Stage-isolated replicates: freeze the upstream and repeat only the handover call 4×, at integration-size cost of about $0.7–1.1 per call. Script-derived ingredient lists as the denominator, never the watch cases. Only B pre-registers pooled gold, seeded blind ayat and a blind read by the user. Only D tests dilution directly: supply against supply+bulk under an identical evidence clause.",
+  "Bulk: all per-ayah synthesis calls stay under 140k except B's R_lex at 5:6 full (146.5k) and A's S1 windows as specified (25 of 75 over 140k, upper bound). B's long-surah map call is not sized. Below that band, Phase 1 says stance and labels matter more than size, so the objections above outweigh token counts."
+ ],
+ "ranking": [
+  "B-noniterative",
+  "D-knowledge-supply",
+  "C2-loaded-parallels",
+  "C1-branch-distance",
+  "A-v5-step"
+ ],
+ "combined_design": "Start from B, the only architecture that removes the records-to-prose wall: two independent finished readings, integrated once from prose, a sentence-level unselected index and one return turn. Feed it the flattest supply the proposals can jointly build.\n\n(1) Supply for R_lex, built by script:\n- B's part C: every branch of every root in the ayah, with image, definition and early phrase, with no phrase gate. D's sizes show this costs +12–22% and stays under 140k.\n- B's G definitional joins.\n- D's root-level uses (roots with ≤30 uses) and partner-by-form counts.\n- C2's parallels union as a typed list, with no ranks shown.\n- A's F3: every channel-review subchannel that touches the ayah, pushed unlabelled whatever the S-reading took up.\n- Guard information only as the dictionary's scope note plus D's C[construction phrase] tag. No 'present: yes/no', no echo tier, no withholding, no counts or 'N kinds'.\n- C1's NA order may set the order within each word's branch list, silently.\n- For the rare supply over 110k, split R_lex by word groups (both halves see the whole ayah and window) instead of naming the rest by count.\n\n(2) R_mem: surah text plus memory permission, with D's shared evidence clause used verbatim in every call and arm.\n\n(3) S-reading per surah or window, fed a lean index to stay ≤110k. It issues no set-asides and serves as context, not a gate.\n\n(4) Integrator (Opus): composes from the two readings and the S-slice. Its single return turn in the same session carries:\n- B's unselected sentences;\n- the construction flags, phrased 'name the construction this sense belongs to, or mark it as a phrase-level echo', never 'drop', after the user rules strict vs frame.\n\n(5) Script checks write flags to the record and to the user, never into repairs. S5 reads the S-readings, the ayah surah notes and a chain-bounded unused list (chain members never mentioned), not a whole unused index.\n\n(6) v5's harvest (A Tier 1) enters only as an evaluation arm, with v5 readings as a third reading on v5 surahs, and as a source for the pooled gold. It is never the packet base, because it would bring back the 238-item handover and v5's inherited coalition losses (XD/k2c, k7).\n\n(7) Evaluation:\n- B's frozen scorecard, seeded blind ayat and blind read by the user.\n- Stage-isolated replicates: freeze the readings, run the integrator 4× per test ayah, about $3–4 extra.\n- Retention per handover (supply→R_lex, readings→commentary, return turn), counted as assembled readings and paths.\n- ≥3-of-4 criteria for single items.\n- D's V2 dilution arm (supply vs supply+bulk under an identical clause).\n- A K6-style guard audit against root-dossier before any guard wording enters a prompt.\n\nModel runs: every Opus and Luna step above needs the user's approval. Costs are B's (Batch about $1.2–2.1 per ayah); the extra replicates apply to tests only."
+}

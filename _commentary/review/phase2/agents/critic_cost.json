@@ -1,0 +1,240 @@
+{
+ "lens": "Cost and feasibility (NS13). I recomputed every proposal's per-ayah cost from the recorded ledgers, using one calibrated token formula and one set of reconciled rates. claude -p: input billed as 1-hour write $8/M, output $20/M, cache read $0.20/M; this reconciles exactly on all 28 v15 calls. Batch (claude-api skill): 50% off every token including cache, so $2 input / $10 output / $0.10 cache read / $4 for a 1-hour write; single-shot, no tool loop, caching best-effort. I then checked what breaks at long-surah scale and on the CLI (64K per-response cap, no cross-call prefix reuse). Scripts and outputs are in /private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/X-cost-critic/.",
+ "per_proposal": [
+  {
+   "key": "D-knowledge-supply",
+   "verdict": "strong",
+   "objections": [
+    {
+     "objection": "The output assumption (20–45k including thinking) contradicts D's own confound table. Fed calls with memory permission, which is exactly D's synthesis condition, produced a median of 50.6k output tokens (32.7k thinking, max 76k, n=16), against 22.2k for the no-permission arms whose shape D borrows. So D's CLI cost per synthesis call is about $0.9 (1:6) to $1.9 (4:34, 5:6), not $0.5–1.7. Production is about $0.43–0.77 per call and about $0.59 per ayah across the whole Quran, not $0.2–0.7.",
+     "evidence": "c03_output_shape.py → out_c03_output_shape.txt (FED-PERM out median 50,556, thinking 32,722; FED-NOPERM 22,218 / 13,664); c07_cost_model.py → out_c07_cost_model.txt ('D KA packet' rows: CLI P 0.52–1.60 vs R 0.92–1.90; Batch R 0.43–0.77; whole Quran R $3,658)",
+     "severity": "major"
+    },
+    {
+     "objection": "Long ayat under the no-caps rule go past the CLI's 64K per-response cap. Cold-arm output grows by about 764 tokens per ayah word; 4:34 cold already reached 60,210. For 2:282-class ayat (D built 2:282 at 80.9k input) the call needs a continuation turn on the CLI, which v11 recorded at about $0.5 of re-billed input each, or it has to go through the API.",
+     "evidence": "c03 fit out ≈ 16.5k + 764×words (extrapolated 2:282 ≈ 114k, 16 ayat > 64K; this is an inference from 3 long data points); v13/HANDOFF.md:151 'The CLI caps one response at 64K output tokens whatever CLAUDE_CODE_MAX_OUTPUT_TOKENS says; thinking counts'; v11/REVIEW.md:277–278 second turns ≈ $0.5 each",
+     "severity": "minor"
+    },
+    {
+     "objection": "The validation budgets are low. V1 (48 calls, '≈$36') comes to about $50–65 at the recorded permitted-and-fed output. V2 appends a 150–400k bulk package, so its 400k-input calls cost about $3.6–4.1 each, not $2.3. The probe assumes 1.5–3k output per root at effort low, which is too little for roots with 10–40 branches; a plausible total is $30–70, and the effort-high pilot $6–18 rather than $3–9.",
+     "evidence": "c07 rates; metrics.tsv package arm (w10-opus) costs up to $3.69 at 318–414k input; the dictionary averages about 6.9 branches per root (11,773 branches / 1,708 entries)",
+     "severity": "minor"
+    },
+    {
+     "objection": "'Whole surah as a cached prefix' saves nothing in tests. The recorded claude -p calls show no cross-call reuse of user content (only the CLI's own 531–1,459-token prefix was read from cache), so every test call pays the surah text at $8/M; for S3/S4 that is $0.27–0.30. D's CLI figures do include the surah in billed input, so its own test numbers are internally consistent. The saving exists only through the Batch/API, where it is best-effort.",
+     "evidence": "v15 out*/**/*.raw.json: write calls cache_read_input_tokens 531/1,459 constant; v15 prompts diverge at char 73, so cross-call prefix reuse was never exercised (inline check; out_c09_rate_reconcile.txt)",
+     "severity": "minor"
+    }
+   ],
+   "what_would_fix": "Budget the synthesis output at 40–60k (short to long) and send ayat of 40 words or more (109 ayat) through the API from the start. Re-price V1/V2 before asking for approval. Run the probe pilot first and cost the full probe from its measured output per branch.",
+   "survives_if": "The corrected per-ayah cost stays near $0.6 in production (my estimate: $0.59 weighted), and V1 shows the KA packet beating cold by more than replicate noise. Packet sizes are already right: my calibrated recomputation reproduces D's 15.5k–92.7k exactly."
+  },
+  {
+   "key": "C1-branch-distance",
+   "verdict": "strong",
+   "objections": [
+    {
+     "objection": "The chars/2.2 token estimate undercounts C1's own push files by about 25% (Arabic share around 0.30). 5:6 is 40.0k calibrated tokens, not 29.7k; 4:34 is 22.3k, not 16.6k; 29:38 is 9.1k, not 6.9k. The push alone therefore costs $0.02–0.40 on the CLI, not $0.005–0.24.",
+     "evidence": "c01_calib.py (chars/2.2 median signed error −0.213 on 41 billed runs); c02_packet_tokens.py → out_c02_packet_tokens.txt ('C1 push' proposal-vs-calibrated median −0.25)",
+     "severity": "minor"
+    },
+    {
+     "objection": "The V3 budget ($12–20) prices both arms at the cold-arm median of $0.44 per call. Arm B (push plus memory permission) is a fed, permitted call, so expect $0.8–1.2 per short call and about $1.8 for 4:34, which puts V3 at about $25–35.",
+     "evidence": "c03 (FED-PERM vs COLD output); c07 'C1 push' rows: CLI R $0.84 short / $1.75 long",
+     "severity": "minor"
+    },
+    {
+     "objection": "C1 is not a pipeline. The synthesis and the per-surah coalition step (S2/M8) are unbuilt and uncosted, and pull.json (4–176 KB, reached by 'pull on demand') needs a tool loop, which Batch production cannot run. Tests would measure a configuration that production cannot reproduce.",
+     "evidence": "C1 stages S2 ('not built end to end') and S3 ('not designed here'); claude-api skill shared/cost-optimization.md §2.5: 'Batch requests are single-shot - no mid-batch tool loop'",
+     "severity": "major"
+    },
+    {
+     "objection": "The long-ayah push is not bounded: 5:6 is already 40k calibrated tokens, and 2:282 is unbuilt (extrapolated at about 50k).",
+     "evidence": "c02: 005_006.push.md 39,963 calibrated tokens",
+     "severity": "minor"
+    }
+   ],
+   "what_would_fix": "Use the calibrated token formula for push budgets. Price V3 arm B as a permitted, fed call. Drop pull-on-demand from production (append a bounded pull, or none).",
+   "survives_if": "C1 is adopted as a push layer inside a host synthesis call. At zero model cost and at most about $0.10 per ayah of Batch input, it is the cheapest verified addition."
+  },
+  {
+   "key": "A-v5-step",
+   "verdict": "viable",
+   "objections": [
+    {
+     "objection": "S2's output (22k) is borrowed from the v9 dictionary arm, which ran without permission ('work only from the supplied evidence'). A's brief grants memory, asks for QeQ and integration of a median 23 findings and 49 branches, and does not cap output. Recorded permitted-and-fed calls give a median of 50.6k output (32.7k thinking). S2 is then about $0.95–1.25 per short or medium ayah on the CLI and $1.4–1.6 per long one. Per ayah the CLI comes to $1.35–2.0, not $0.8–1.1; production to $0.60–0.87 (weighted $0.72), and the whole Quran to about $4.5k, not $2.2–3.4k.",
+     "evidence": "c03_output_shape.py; c07_cost_model.py → out_c07_cost_model.txt (A rows: CLI P 0.92–1.23 vs R 1.35–2.00; Batch R 0.60–0.87; whole Quran R $4,475)",
+     "severity": "major"
+    },
+    {
+     "objection": "Tier 3 is half the Quran: 24 long surahs with about 3,113 numbered ayat, including S2, S3, S4 and S6–S11, with no HFT traces and no v5. Every measured quality claim (98.2% script coverage, watch-case ingredients) comes from Tier 1 or 2. For parity, S0b Luna-HFT is effectively required, not optional. My estimate is $143 list / $71 Batch (A's $220/$110 is conservative) and about 27–37 h of wall time at 15 parallel. The S2 packets have a median of 164k tokens and a maximum of 213k (15 packets above 200k). HFT was run on Sol, so Luna on these packets is unvalidated.",
+     "evidence": "c04_surah_scale.py → out_c04_surah_scale.txt (24 no-HFT surahs = 3,136 lines incl. basmalas, all >40 ayat, none in v5); c06_luna_jobs.py → out_c06_luna_jobs.txt (3,113 packets, median 102k, S2 median 163,810, max 213,135; v15 Luna evidence jobs median 465 s)",
+     "severity": "major"
+    },
+    {
+     "objection": "S1 is sized for '7–10-ayat windows' at 40–80k input, but the network-v3 pericopes average 16.8 ayat (median 16, max 36). A's own per-ayah compact index, measured from its 909 digests, is 3.5k tokens (lean) to 5.6k (literal). Pericope windows with the surah review then come to a median of 82k and a maximum of 140k (lean), or up to 242k (literal), and 25 of 75 v5 windows exceed 140k, the band where thinking collapsed. Shrinking windows to 7–10 ayat roughly doubles the window count and splits the chains S1 exists to assemble.",
+     "evidence": "c05_A_window_input.py / c05b_A_window_input_lean.py → out_c05*.txt (e.g. S5 87–108: 242k literal / 129k lean; S18 1–26: 217k / 132k); surah_pericopes.jsonl (351 pericopes)",
+     "severity": "major"
+    },
+    {
+     "objection": "S5 cannot run as specified for long surahs. At v15's uncapped size (5.6–6.4k tokens per ayah commentary), S2's 286 commentaries total about 1.6–1.8M tokens, above the 1M context; lead paragraphs alone come to about 350k, above the collapse band. On output, v15's 7-ayah S1 surah commentary already used 45.5k output tokens, so an uncapped S2 surah commentary cannot fit in one 64K CLI response. The step needs a pericope-then-surah hierarchy: about 351 plus 114 calls, roughly $0.1–0.15 per ayah on the CLI, against A's $0.02. That hierarchy adds a selection point before S5.",
+     "evidence": "c08_surah_step.py → out_c08_surah_step.txt (nocap 4:34 6,410 and 5:6 5,636 calibrated tokens; S1 surah output 45,551); v13/HANDOFF.md:151",
+     "severity": "major"
+    },
+    {
+     "objection": "S2's stated input (about 29k) omits the S1 map it lists as part of the prefix (v15 window JSON ran 12–17k output tokens). With no cross-call prefix reuse on the CLI, brief, window and map are billed at $8/M on every test call (+$0.10). This is partly offset: bytes/2.0 overstates A's Turkish-heavy digest by 29% (calibrated median 14.3k, not 18.5k; p90 21.5k; max 41.9k at 5:110).",
+     "evidence": "c02 ('A digest' proposal vs calibrated +0.29); v15 window raw.json output 30–42k incl. 13–17k thinking; v15 write calls' cross-call cache_read 531–1,459",
+     "severity": "minor"
+    },
+    {
+     "objection": "Tests let Opus Read the lookup through a tool loop, but production Batch is single-shot, so the lookup must be appended (median 42.7k calibrated tokens, about +$0.085 Batch) or dropped. The configuration measured in V1 is not the one production runs. The Batch runner A's production figure depends on has been designed three times and never built.",
+     "evidence": "claude-api skill shared/cost-optimization.md §2.5; c02 ('A lookup' median 42,725; max 154,719); PHASE1_REPORT §4.7",
+     "severity": "minor"
+    },
+    {
+     "objection": "Long ayat exceed the CLI cap: 2:282 and the Tier-3 digests are unmeasured, and uncapped output for 60+-word ayat runs past 64K per response (extrapolated). V1 ('≈$10' for 14 calls) comes to about $16–20 at the recorded output.",
+     "evidence": "c03 extrapolation (inference); c07 A 'extreme' row CLI R $3.60",
+     "severity": "minor"
+    }
+   ],
+   "what_would_fix": "Budget S2 output at 40–60k. Make the V3 Luna-HFT validation a gate and treat S0b as required for Tier 3, or declare Tier 3 a thinner product. Size S1 by pericope with a calibrated input limit (≤100k: lean index plus window-anchored subchannels only) and carry chains across windows. Make S5 an explicit pericope-to-surah hierarchy and cost it. Run ayat of 40 words or more and long-surah S5 through the API (128K) from the start. Measure a Tier-3 digest and 2:282 before V1.",
+   "survives_if": "V1 confirms S2 output of about 50k or less at quality. Even at my corrected $0.72 per ayah, production stays under the $1 aim."
+  },
+  {
+   "key": "C2-loaded-parallels",
+   "verdict": "viable",
+   "objections": [
+    {
+     "objection": "Sheet sizes are understated by about 40%: chars/2.5–3 is wrong for sheets with an Arabic share around 0.31. Calibrated, 2:282 is 101.4k tokens (C2 says 55–66k), 5:6 is 77.2k (about 45k claimed) and 4:34 is 45.6k (27k). With the brief and window or surah text, the 2:282 and 5:6 synthesis calls reach about 99–113k input, a thin margin below the 140k collapse band that C2 says it stays 'below'. The sheet alone costs $0.81 on the CLI for 2:282, not $0.53.",
+     "evidence": "c01_calib.py (chars/2.5 −0.287, chars/3.0 −0.382 median signed error); c02_packet_tokens.py ('C2 sheet' proposal-vs-calibrated median −0.40; 2_282.md 101,442; 5_6.md 77,157)",
+     "severity": "major"
+    },
+    {
+     "objection": "Section C (neighbour activation) makes up 57–63% of the long sheets, and its push threshold (quran-slm rank ≤40) was set so the 29:38 kohl edge (rank 38) survives; C2 admits the overfit. The size cannot come down without abandoning the only justification given, so the long-ayah bulk is structural.",
+     "evidence": "C2 harvest sizes (5:6: C 76.6k of 122.7k chars; 2:282: C 104.6k of 165.8k); C2 risks ('thresholds adjusted while looking at watch-case outputs')",
+     "severity": "major"
+    },
+    {
+     "objection": "The V3 budget ($12–36) comes to about $25–45 at calibrated input and the recorded output of permitted, fed calls. pull.json needs a tool loop, which Batch cannot run.",
+     "evidence": "c07 'C2 sheet' rows: CLI R $0.87 short / $1.99 long / $3.64 extreme",
+     "severity": "minor"
+    }
+   ],
+   "what_would_fix": "Budget sheets with the calibrated formula. Tier section C by ayah length: top slice pushed, the rest in an appended pull only if V1 shows it is used. Or drop C in favour of C1's typed neighbour-activation lines, which cover the same job at about half the size, and keep C2's loaded-role (D) and parallels (E) sections, which are small (D 0.4–5k chars, E 3–6k chars).",
+   "survives_if": "C2 is used as a trimmed supply layer (loaded roles plus parallels plus guard) inside a host call. At that point it costs about $0.02–0.2 per ayah of Batch input."
+  },
+  {
+   "key": "B-noniterative",
+   "verdict": "weak",
+   "objections": [
+    {
+     "objection": "Production cost is off-target. B's own figure is $1.62 per ayah (about $10.1k for the Quran); corrected, it is about $1.75 (about $10.9k). That is 1.75× the ~$1 aim and 2.4–3× A or D at matched assumptions, because the primary makes five Opus calls per ayah plus the S-reading and surah shares.",
+     "evidence": "c07_cost_model.py → out_c07_cost_model.txt ('B-noniterative primary' Batch P 1.20–2.23 / R 1.45–3.53; whole Quran P $9,367, R $10,934)",
+     "severity": "major"
+    },
+    {
+     "objection": "B breaches the test ceiling on long ayat. Recomputed with the calibrated supply (5:6 light ≈111k plus brief and slice; full 152.6k), the 4:34/5:6 class costs $5.03 on the CLI even under B's own output assumptions, and $5.68 at the recorded output. The 2:282 class is about $9.3. v15's gate (usd_per_ayah 5.0) would block 109 ayat of 40 words or more. 2:282's supply was never measured, and 2:255's full supply is 124.5k, above B's 110k budget.",
+     "evidence": "c02 ('B supply named/blind': 5_6 152,562; 2_255 124,493; 4_34 103,519); c07 B long/extreme rows; v15/config.json gate.usd_per_ayah 5.0; c03 (109 ayat of 40 words or more)",
+     "severity": "major"
+    },
+    {
+     "objection": "The challenge turn is mispriced. B bills the integrator's 30–38k output as a $0.20/M cache read, but resuming re-ingests that output, including preserved thinking on Opus 5.5, as a new 1-hour write at $8/M. That adds about $0.25–0.36 per ayah on the CLI. Batch has no same-session turns, so the challenge becomes a second sequential batch request whose prefix hit is best-effort.",
+     "evidence": "B cost_model.py (chal_cr = int_in + int_out billed at cr); claude-api skill shared/prompt-caching.md (Opus 5.5 keeps previous-turn thinking blocks; editing history is enforced) and §2.5 Batch single-shot; c07 challenge P $0.39–0.52 vs R $0.64–0.88",
+     "severity": "major"
+    },
+    {
+     "objection": "R_lex's output is borrowed from the no-permission dictionary arm (22k), but R_lex is granted memory. Permitted, fed calls produced 50.6k (thinking 2.4×), which adds about $0.4–0.6 per ayah on the CLI and about $0.2 in Batch.",
+     "evidence": "c03 (FED-PERM vs FED-NOPERM); B cost_model.txt ('R_lex proxy (dict arm)')",
+     "severity": "major"
+    },
+    {
+     "objection": "The long-surah steps hit the same limits as A's S1 and S5. S-reading windows cover up to 3–8 × 110k per long surah plus a whole-surah map (S2 has no HFT and a 61k-token review). Step 6 has to read 286 surah notes plus S-readings for S2, and an uncapped S2 surah commentary cannot fit in one 64K CLI response. The hierarchy is unpriced.",
+     "evidence": "c04 (S2 review 61,180 tokens; whole-S2 text 60,412); c08 (v15 7-ayah surah commentary 45.5k output); B surah_sizes.txt",
+     "severity": "minor"
+    },
+    {
+     "objection": "Validation costs about $100–175 by B's own figures and about $130–230 at corrected output, plus 8–10 blind pairs and a whole-S88 read by the user. The production figure depends on a never-built Batch runner with two sequential batches per surah (integration, then challenge).",
+     "evidence": "B validation_plan costs; PHASE1_REPORT §4.7 (Batch runner designed in v8, v11 and v13, never built)",
+     "severity": "minor"
+    }
+   ],
+   "what_would_fix": "Run Step 1, the $8–9 integration pilot on existing readings; it is the cheapest decisive test in any proposal. Whatever it shows, make F1 (one permitted R_lex reading plus a script check, then at most one repair) the production default: $0.91–1.27 in Batch, corrected. Keep the two-reading integration as an evaluation arm, or as a production variant only for ayat where the pilot shows a gain beyond noise. Price the challenge as a re-ingestion or fold its flags into a repair call. Enforce a calibrated supply budget and send ayat of 40 words or more through the API.",
+   "survives_if": "Step 1 shows the integration adds pooled recall well beyond replicate noise on at least 2 of 3 ayat, and the user accepts about $1.75 per ayah in production (about $11k for the Quran). Otherwise only the methodology and F1 survive."
+  }
+ ],
+ "checks_run": [
+  {
+   "what": "Token calibration: refit the two-rate formula (Arabic vs other chars) on the 41 billed single-turn v9 runs, out-of-sample check on the 12 single-turn v15 write/surah calls, and a test of each proposal's own estimator",
+   "result": "intercept 4,581, 1.151 per Arabic char, 0.366 per other char; median error 0.8% in-sample, +4.9% out-of-sample. Estimator bias against billed tokens: A's bytes/2.0 +2.7% on v9 inputs (but +29% on A's Turkish-heavy digests); C1's chars/2.2 −21%; C2's chars/2.5 −29%, chars/3.0 −38%",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/X-cost-critic/c01_calib.py (out_c01_calib.txt, calib.json)"
+  },
+  {
+   "what": "Calibrated sizes of every packet the proposals actually built",
+   "result": "A digest (910 files): median 14.3k, p90 21.5k, max 41.9k (A's own estimate 18.5k/28k/55k); A lookup median 42.7k. B supply: random120 median 24.1k, max 75.1k; 29:38 40.1k; 4:34 103.5k; 2:255 124.5k; 5:6 152.6k. C1 push: 0.8k–40.0k (5:6), about 25% above C1's figures. C2 sheet: 4.8k–101.4k (2:282), about 40% above C2's figures. D KA packet: matches D exactly (15.5k–92.7k with intercept)",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/X-cost-critic/c02_packet_tokens.py (out_c02_packet_tokens.txt/.json)"
+  },
+  {
+   "what": "Output shape by condition (metrics.tsv joined with D's confound groups) and output versus ayah length",
+   "result": "Output medians: COLD 20.3k (thinking 12.3k, max 60.2k); FED-NOPERM 22.2k (13.7k); FED-PERM 50.6k (32.7k, max 76.2k). Every proposal borrows FED-NOPERM's shape but runs under FED-PERM conditions. Cold arm: output ≈ 16.5k + 764×words; 4:34 recorded at 60.2k and 56.6k (the 64K cap is close). Extrapolated (inference, 3 long points): 2:282 ≈ 114k; 16 ayat over 64K; 79 over 50K",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/X-cost-critic/c03_output_shape.py (out_c03_output_shape.txt)"
+  },
+  {
+   "what": "Surah-scale facts: long-surah share, pericopes, channel-review sizes, HFT/v5 coverage, whole-surah text",
+   "result": "83.9% of lines (incl. basmalas) are in the 57 surahs over 40 ayat. 351 pericopes: mean 16.8 ayat, median 16, max 36. Channel reviews: S2 61.2k tokens, S11 86.3k, S69 135.6k; S108/110/113/114 missing. HFT: 3,123 ayat in 90 surahs; the 24 surahs without it hold 3,136 lines, all long, none in v5. Whole-surah text: S2 60.4k, S4 37.3k, S3 34.3k",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/X-cost-critic/c04_surah_scale.py (out_c04_surah_scale.txt/.json)"
+  },
+  {
+   "what": "A's S1 window input, measured from A's own digests (compact index = A + C titles + F1 + F2 + F7) summed per pericope, plus the surah review",
+   "result": "Index per ayah: 5.6k literal / 3.5k lean. Windows (75, v5 surahs), with the whole review: literal median 97k, max 242k (25 over 140k); lean median 82k, max 140k (8 over 120k). Cost $1.26–2.94 per window on the CLI",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/X-cost-critic/c05_A_window_input.py, c05b_A_window_input_lean.py (out_c05_A_window_input.txt, out_c05b_A_window_input_lean.txt)"
+  },
+  {
+   "what": "One-time Luna jobs: v15 Luna throughput; A's S0b on the existing HFT packets of the 24 no-trace surahs",
+   "result": "v15 Luna medians: frames 29k in / 12.5k out / 252 s; loanwords 171k / 25.6k / 507 s; evidence 52k / 24.8k / 465 s. S0b: 3,113 packets, median 102k tokens (S2 median 164k, max 213k; 15 over 200k); about 334M input and about 63M output tokens, $143 at Luna list or $71 Batch (A said $220/$110); 27–37 h wall at 15 parallel. Whole-Quran loanword cards (187 jobs): about $12 list-equivalent and about 1.8 h",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/X-cost-critic/c06_luna_jobs.py (out_c06_luna_jobs.txt)"
+  },
+  {
+   "what": "Unified per-ayah cost model: proposal's own output (P) vs recorded shape (R); CLI vs Batch; 64K continuation penalty; B's challenge re-ingestion",
+   "result": "Batch per ayah, P → R: A 0.41–0.51 → 0.60–0.87 (whole Quran $2.7k → $4.5k); B primary 1.20–2.23 → 1.45–3.53 ($9.4k → $10.9k); B-F1 0.61–0.95 → 0.91–1.89; C1-hosted 0.21–0.57 → 0.41–0.74; C2-hosted 0.31–0.75 → 0.42–0.80; D-hosted 0.23–0.62 → 0.43–0.77. CLI long class: B 5.03 (P) / 5.68 (R), over the $5 gate",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/X-cost-critic/c07_cost_model.py (out_c07_cost_model.txt/.json)"
+  },
+  {
+   "what": "Surah-commentary feasibility for long surahs (A S5, B step 6)",
+   "result": "Recorded ayah commentaries: v15 capped median 2.4k tokens; uncapped 5.6–6.4k. S2 × 286 at the uncapped size ≈ 1.6–1.8M tokens (over the 1M context); the capped size already gives 677k. v15's 7-ayah S1 surah commentary: 45.5k output (31.5k thinking), so an uncapped S2 surah commentary cannot fit in one 64K CLI response. A hierarchy is required",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/X-cost-critic/c08_surah_step.py (out_c08_surah_step.txt)"
+  },
+  {
+   "what": "Rate reconciliation on all v15 claude -p calls, and the share of spend on 1-hour writes",
+   "result": "cost = input×$4 + 1-hour write×$8 + read×$0.2 + output×$20 per M reconciles exactly (max relative error 0.0000, n=28); 1-hour writes 47.9% of spend, output 49.3%",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/X-cost-critic/out_c09_rate_reconcile.txt (inline script)"
+  },
+  {
+   "what": "Cross-call prefix reuse on the CLI",
+   "result": "v15 write calls read only 531–1,459 cached tokens (the CLI's own prefix), and their prompts diverge at character 73 (the ayah ref). Cross-call reuse of user content was never exercised; every test call pays its full prompt at $8/M. Whether a shared-prefix prompt would hit through claude -p is untested",
+   "script_path": "inline (v15/out/s001/*/commentary.tr.md.prompt.md; raw.json usage)"
+  },
+  {
+   "what": "CLI output cap evidence",
+   "result": "v13/HANDOFF.md:151 and DESIGN.md:173: 'exceeded the 64000 output token maximum' despite CLAUDE_CODE_MAX_OUTPUT_TOKENS=128000; v11/REVIEW.md:277: second turns on 1:4/1:6/1:7 ≈ $0.5 each in re-billed input. The claude-api skill gives Opus 5.5 a 128K output limit through the API",
+   "script_path": "grep over _commentary/v11, v13 (inline)"
+  }
+ ],
+ "cross_cutting": [
+  "Output (thinking), not input, drives cost: 49–94% of recorded spend. Every proposal borrows its output shape from the v9 arms that ran without permission (22k), then grants memory. Recorded permitted, fed calls produce 50.6k (thinking 32.7k, 2.4× higher). Re-price every permitted synthesis call at 40–60k output: that raises the per-ayah estimates by 40–70% (c03, c07).",
+  "The CLI caps one response at 64K output, thinking included (v13 HANDOFF:151). Under the no-caps rule, cold-arm output grows by about 764 tokens per ayah word, and 4:34 is already at 60k. The longest ayat (2:282, 2:102, 24:31, 73:20; 16 over 64K by extrapolation), surah commentaries of long surahs, and long S1/S-reading windows need the API (128K) or continuation turns at about $0.5 each (v11 REVIEW:277). Plan those on the API from the first test.",
+  "The CLI shows no cross-call prefix reuse (cache reads of 531–1,459 tokens), and 48% of v15 spend was 1-hour writes. Every 'cached surah prefix' saving (A, B, D) exists only through the API/Batch. Tests pay full input at $8/M, so a sync API call at $4/M input is cheaper than the CLI for input-heavy calls (A's S1 windows, B's R_lex).",
+  "Batch is single-shot: no tool loop and no same-session turns, with caching best-effort within a batch (claude-api skill §2.5). Four designs test with Read or pull access (A's lookup, C1/C2 pull.json, D pull paths, B's optional pull), and B relies on a same-session challenge. What V1 measures would not be what production runs. The Batch runner every production figure depends on was designed in v8, v11 and v13 and never built.",
+  "Long-surah scale: 83.9% of lines are in surahs over 40 ayat. The 24 surahs without HFT hold about 3,113 ayat (half the Quran), all long, none in v5. Pericopes average 16.8 ayat, not 7–10. S2 has a 61k-token review and 60k tokens of text. A single surah-commentary call cannot read S2's ayah commentaries (1.6–1.8M tokens uncapped), so any surah layer must be pericope-then-surah, which is a hidden stage and a new selection point.",
+  "Token estimators disagree by up to 40%. Use one calibrated formula (c01: 1.151 per Arabic char, 0.366 per other char, 4,581 intercept; +5% out-of-sample) for every push budget. C1 understates by 25%, C2 by 40%, A overstates by 29%, B and D are within 5%.",
+  "The one-time costs are small in dollars and large in wall time. Luna-HFT for Tier 3: $71–143 list-equivalent, 27–37 h at 15 parallel. Whole-Quran loanword cards: about $12, 1.8 h. The D probe: $30–70. C2 construction extraction: under $1. Subscription throughput and rate limits for codex and claude -p are not recorded anywhere, so the wall-time figures are lower bounds.",
+  "Validation budgets are about 30–60% low across the board, because each prices its test arms at the cold-arm $0.44 or the dictionary-arm $0.62."
+ ],
+ "ranking": [
+  "D-knowledge-supply",
+  "C1-branch-distance",
+  "A-v5-step",
+  "C2-loaded-parallels",
+  "B-noniterative"
+ ],
+ "combined_design": "One Opus synthesis call per ayah over a compact, calibrated supply, with a pericope-level chain map before it and a hierarchical surah layer after it. B's methodology decides; B's ensemble stays a test arm.\n\n(1) S0 supply, script, free. D's knowledge-aware packet is the base:\n- the surah text as prefix;\n- every branch as an index line, with phrases for memory_score ≤1;\n- construction tags;\n- root-level uses and partner profiles.\n\nAdded to it:\n- C1's guard statuses and the top-3 typed neighbour-activation lines per word;\n- C2's loaded-role section D and parallels section E only (C2's section C is the bulk, and C1 covers the same job at about half the size);\n- A's harvest sections A, C titles and D where Tier 1/2 exist.\n\nBudget with the c01 formula: ≤60k tokens for ayat under 40 words, ≤90k for longer ones. Overflow goes to an appended lookup only if V1 logs show it is read. No tool reads in production.\n\n(2) S1 chain map, Opus, one call per pericope (about 351, plus about 35 whole short surahs):\n- input ≤100k: A's lean index at 3.5k per ayah plus window-anchored channel subchannels, never the whole review;\n- no set-asides;\n- cost $1.3–1.7 CLI or about $0.6–0.8 Batch, about $0.04 per ayah.\n\n(3) S2, one Opus effort-high call per ayah:\n- memory permitted and marked, no audit instructions;\n- output budgeted at 40–60k (never capped): about $0.5–0.8 Batch, $1.2–2.0 CLI;\n- ayat of 40 words or more (109) and 2:282-class ayat through the API from the start.\n\n(4) S3 script checks: sources, the branch_kind/construction guard, memory verification against the early entries, and an unused index (A's S3, B's step 4 and D's V1–V4 merged). S4: at most one repair on hard flags.\n\n(5) Surah layer, hierarchical: pericope commentaries, then the surah commentary, through the API for long surahs. About $0.07 per ayah in Batch.\n\n(6) Tier 3: A's V3 (12 Luna calls, about $1) first. If it passes, S0b at $71–143 list-equivalent and about 1.5 days of wall time; otherwise Tier 3 runs on channels, v12 and the script layers, declared as thinner.\n\n(7) Evaluation: B's frozen scorecard, 2 replicates, seeded blind ayat and the contamination lint. B's Step 1 integration pilot on existing readings ($8–9) is the only test of the ensemble; the two-reading integration enters production only for ayat classes where it beats F1 beyond noise.\n\n(8) Infrastructure: build the Batch runner before scaling. Order the prefix as brief → surah text → pericope map → ayah packet, with a 1-hour TTL on the surah prefix and the first ayah of each surah submitted first. Measure a whole short blind surah (S88) end to end before any bulk run.\n\nEstimated production: about $0.75–0.95 per ayah, about $4.7–5.9k for the Quran. Tests: about $1.3–2.0 per ayah for short and medium ayat on the CLI, and about $1.5–2.5 for long ayat on the API. Every call stays under $5.\n\nWhy this combination: it keeps the cheapest verified parts (D's packet, C1's guard and paths, A's harvest, the script checks). It removes the pieces that fail on cost or feasibility (C2's section C bulk, B's five-call primary as the default, single-call S5 for long surahs, tool reads in production). It moves the calls that cannot run on the CLI to the API, where the recorded ledgers show they must go."
+}

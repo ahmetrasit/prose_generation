@@ -1,0 +1,279 @@
+# Harvest sheet 18:96
+ءَاتُونِى زُبَرَ ٱلْحَدِيدِ ۖ حَتَّىٰٓ إِذَا سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ قَالَ ٱنفُخُوا۟ ۖ حَتَّىٰٓ إِذَا جَعَلَهُۥ نَارًۭا قَالَ ءَاتُونِىٓ أُفْرِغْ عَلَيْهِ قِطْرًۭا
+
+## A. Words (QAC)
+1:ءَاتُونِى[ء ت ي] 2:زُبَرَ[ز ب ر] 3:ٱلْحَدِيدِ[ح د د] 4:حَتَّىٰٓ[-] 5:إِذَا[-] 6:سَاوَىٰ[س و ي] 7:بَيْنَ[ب ي ن] 8:ٱلصَّدَفَيْنِ[ص د ف] 9:قَالَ[ق و ل] 10:ٱنفُخُوا۟[ن ف خ] 11:حَتَّىٰٓ[-] 12:إِذَا[-] 13:جَعَلَهُۥ[ج ع ل] 14:نَارًۭا[ن و ر] 15:قَالَ[ق و ل] 16:ءَاتُونِىٓ[ء ت ي] 17:أُفْرِغْ[ف ر غ] 18:عَلَيْهِ[-] 19:قِطْرًۭا[ق ط ر]
+
+## B. Branches of this ayah's roots (dict:root Bnnn; kind; early phrase; plain here = root-dossier)
+- ء ت ي (word 1 ءَاتُونِى; 486 ayat in the Quran)
+  - B001 mixed: الإتيان والمجيء «أتى يأتي أتيا (jamhara)» gelmek, ulaşmak
+  - B002 bare [plain]: الإيتاء والإعطاء «آتى يؤتي إيتاء في معنى أعطى (jamhara)» vermek; getirip sunmak
+  - B003 mixed: مأتى الأمر وتهيؤه «أتيت الأمر من مأتاته (sihah» uygun yoldan ele almak ve elverişli hale gelmek
+  - B004 mixed: مجرى الماء وتسليك سبيله «أت لمائك أي سهل له سبيلا وذلك السبيل الأتي (jamhara)» su kanalı açmak ve akışı yönlendirmek
+  - B007 mixed: خروج النماء والنتاج «أتاء هذا النخل أي ثمره وكذلك الزرع (jamhara)» gelişip bol ürün vermek
+  - B008 mixed: الإتاوة المؤداة «الإتاوة الخراج أو الجزية يؤديه القوم إلى الملك (jamhara)» ödenen vergi; rüşvet
+  - B010 mixed: الميتاء طريق ومحاذاة «الميتاء والميداء آخر الغاية حيث ينتهي إليه جري الخيل (sihah)» işlek ana yol, son sınır ve karşı hizası
+  - withheld here (construction absent; in pull file): B005 السيل الآتي من غير البلد, B006 الغريب الداخل في غير قومه, B009 رجع يدي الناقة في السير, B011 إتيان البلاء والهلاك, B012 استئتاء الناقة, B013 نَفاذ الرجل
+- ز ب ر (word 2 زُبَرَ; 11 ayat in the Quran)
+  - B001 mixed: إحكام الشيء وطي البئر بالحجارة «أصل يدل على إحكام الشيء وتوثيقه» sağlamlaştırıp sıkıca tutturma
+  - B002 mixed [plain]: الزبرة قطعة مجتمعة أو كتلة «زبرة الحديد وهي القطعة منه والجمع زبر» toplanmış iri parça ya da yoğun kütle
+  - B003 mixed: الكتابة والكتاب والزبور «زبرت الكتاب إذا كتبته» yazıya geçirme ve yazılı eser
+  - B004 mixed: الزجر والانتهار والمنع «زبر فلان فلانا يزبره زبرا وزبرة انتهره (ayn)» sertçe azarlayıp alıkoyma
+  - B005 bare: الزبير أو الزوبر للداهية «الزبير وهي الداهية (maqayis)» ağır felaket
+  - B007 mixed: انتفاش الزئبر ونبات الوبر «ازبأر الشعر إذا انتفش تقوى (maqayis)» tüy ve liflerin kabarıp yüzeyde belirginleşmesi
+  - B008 bare: الزبير حمأة وكدر «الزبير الحمأة» çamurlu balçık veya bulanıklık
+  - withheld here (construction absent; in pull file): B006 أخذ الشيء بزوبره كله, B009 هاجت زبراؤه للغضب
+- ح د د (word 3 ٱلْحَدِيدِ; 20 ayat in the Quran)
+  - B001 mixed: الحاجز والغاية المميزة «الحد الحاجز بين الشيئين (maqayis» ayıran ve kapsamı belirleyen sınır
+  - B002 mixed: المنع والصرف والحظر «الأصل الأول المنع (maqayis)» engelleme ve geri çevirme
+  - B003 mixed: المحادة والمخالفة «المحادة المخالفة فكأنه الممانعة (maqayis)» karşı çıkma ve direnme
+  - B004 bare [plain]: الحديد والصلابة الممتنعة «سمي الحديد حديدا لامتناعه وصلابته وشدته (maqayis)» sert ve dayanıklı demir
+  - B005 non-bare: الطرف الحاد والنفاذ «الأصل الآخر طرف الشيء (maqayis)» keskin ağız ve nüfuz eden etki
+  - B006 mixed: حدة البأس والشراب والغضب «حد الشراب صلابته (maqayis» sertlik, atılgan güç ve öfkeli taşkınlık
+  - B007 mixed: إحداد المرأة وترك الزينة «حدت المرأة على بعلها وأحدت إذا منعت نفسها الزينة والخضاب (maqayis)» eş için süsten kaçınarak yas tutma
+  - B008 mixed: الاستحداد بالحديد «الاستحداد استعمال الحديد (maqayis)» demir araç kullanma, tıraş etme ve bileme
+- س و ي (word 6 سَاوَىٰ; 80 ayat in the Quran)
+  - B001 mixed [plain]: مساواة ومعادلة بين شيئين «أصل يدل على استقامة واعتدال بين شيئين (maqayis)» iki şeyi birbirine denk kılma veya denk sayma
+  - B002 mixed: استقامة وتمام في الذات «سويت الشيء فاستوى (ayn» kendi içinde düzgün ve tam duruma gelme
+  - B005 bare: بلوغ وتمام الشباب «استوى الرجل إذا انتهى شبابه (sihah)» gençlik olgunluğuna erişmek
+  - B006 mixed: وسط وعدل ومكان منصف «السواء ممدود وسط كل شيء (ayn)» iki yanın ortasında ve ikisine karşı yansız olma
+  - B007 bare: مباينة وكون الشيء غيره «سوى مقصور إذا كان في موضع غير (ayn)» başka ve ayrı olan
+  - B009 bare: السِيّ واسع أملس من الأرض «السِيّ الفضاء من الأرض الواسع (jamhara)» geniş ve açık arazi
+  - B010 bare: السَّويّة على ظهر البعير «السَّويّة قتب أعجمي للبعير والجميع السوايا (ayn» devenin sırtına konan dolgulu binme örtüsü
+  - B011 bare: إسقاط وإغفال «أسوى فلان حرفا من كتاب الله أي أسقط وأغفل (ayn)» atlayıp dışarıda bırakmak
+  - B012 bare: ليلة استواء القمر «ليلة السواء ليلة ثلاث عشرة (sihah)» ayın on üçüncü gecesi
+  - withheld here (construction absent; in pull file): B003 علو واستقرار على شيء, B004 إقبال وقصد إلى جهة, B008 قصد نحو شخص أو جهة, B013 سِيّ الرأس وقدر يوازي الرأس من مال أو نعمة
+- ب ي ن (word 7 بَيْنَ; 454 ayat in the Quran)
+  - B001 bare: انفصال الشيء وافتراقه «البين الفراق (maqayis» ayrılıp kopma
+  - B002 mixed [plain]: الخلالة والوسط بين شيئين «بين بمعنى وسط (sihah)» arada olma
+  - B003 mixed: الوصلة القائمة بين الأطراف «البين الوصل (ayn» arayı bağlayan ilişki
+  - B004 mixed: ظهور الشيء وانكشافه «بان الشيء وأبان إذا اتضح وانكشف (maqayis)» açığa çıkıp belirginleşme
+  - B005 mixed: كشف المعنى بالقول أو العلامة «أبين من فلان أي أوضح كلاما منه (maqayis)» anlamı açıkça ortaya koyma
+  - B006 bare: بعد المسافة واتساع الفجوة «أصل واحد وهو بعد الشيء (maqayis)» geniş uzaklık
+  - B007 bare: قطعة أرض تمتد في النظر «البين قطعة من الأرض قدر مد البصر (maqayis)» göz erimindeki arazi parçası
+  - B009 bare: الحالب من جهة مخصوصة «البائن أحد الحالبين والآخر يسمى المستعلي (ayn)» sol yandan sağan kişi
+  - B010 non-bare: الوقت الواقع أثناء حال أو فعل «قولك بينا فلان معناه بينما (ayn)» o sırada
+  - B011 non-bare: حالة متوسطة بين طرفين «هذا الشيء بين بين أي بين الجيد والرديء (sihah)» iki arada kalmış hal
+  - withheld here (construction absent; in pull file): B008 انفراج العضو أو الشيء عن ملاصقه, B012 طلاق يقطع الرجعة, B013 علامة الفراق المشؤومة
+- ص د ف (word 8 ٱلصَّدَفَيْنِ; 3 ayat in the Quran)
+  - B001 mixed: الميل والإعراض «صدف عن الشيء إذا مال عنه وولى ذاهبا (maqayis)» yana sapma, yüz çevirme ve başka yöne sevk etme
+  - B002 bare: الصَّدَف غشاء البحر «الصدف المحارة (maqayis)» inci taşıyabilen çift kapaklı deniz canlısı ve kabuğu
+  - B003 bare [plain]: جانب الجبل والناحية المرتفعة «الصدف جانب الجبل (maqayis» dağ yanı, yüksek dağ kesimi veya yüksek yapı
+  - B004 non-bare: المصادفة واللقاء «صادفت فلانا لقيته (ayn» birine rastlamak veya onu bulmak
+  - B005 bare: الإبل الصوادف عند الحوض «الصوادف الإبل التي تقف عند أعجاز الإبل على الحوض تنتظر انصراف الشاربة …» su yalağında içen sürünün arkasında sıra bekleyen develer
+- ق و ل (word 9 قَالَ; 1383 ayat in the Quran)
+  - B001 bare: إخراج القول بالنطق «القول من النطق (maqayis)» söze dökme
+  - B002 bare: اللسان آلة القول «المقول اللسان (maqayis» konuşma organı
+  - B003 non-bare: كثرة القول في صاحبه «رجل قولة وقوال كثير القول (maqayis)» çok sözlü kişi
+  - B004 bare: القيل صاحب القول النافذ «المقول بلغة أهل اليمن القيل وهم المقاولة والأقيال والأقوال والواحد الق…» sözü geçen yönetici unvanı
+  - B007 mixed: القول الفاشي بين الناس «انتشرت له قالة حسنة أو قبيحة في الناس (ayn)» dolaşımdaki söz
+  - B008 bare: عود القال لضرب القلة «القال الخشبة التي تضرب بها القلة (sihah)» oyun sopası
+  - B011 non-bare: قول يجري مجرى الظن «العرب تجري تقول وحدها في الاستفهام مجرى تظن في العمل (sihah)» sanma işlevli söyleme
+  - B017 non-bare: القول إلهام يلقي معنى «في الإلهام فإن ذلك لم يكن بخطاب ورد عليه بل كان ذلك إلهاما فسماه قولا …» içe doğan anlam
+  - withheld here (construction absent; in pull file): B005 قول ما لم يكن أو نسبته, B006 اجترار القول إلى النفس, B009 المقاولة في الأمر, B010 اقتالة الحكم على غيره, B012 قول في النفس لم يظهر, B013 القول اعتقاد ومذهب, B014 قول الشيء دلالته, B015 العناية الصادقة بالشيء, B016 قول الشيء حده
+- ن ف خ (word 10 ٱنفُخُوا۟; 18 ayat in the Quran)
+  - B001 mixed [plain]: إرسال الريح في الشيء «النفخ معروف» bir şeye hava üfleme
+  - B002 mixed: انتفاخ الشيء وامتلاؤه بالريح «أصل صحيح يدل على انتفاخ وعلو» şişme ve kabarma
+  - B003 mixed: علو الشيء وربو الأرض «انتفخ النهار علا» yükselip belirginleşme
+  - B005 non-bare: ما بالدار نافخ ضرمة «ما بالدار نافخ ضرمة أي ما بها أحد» evde hiç kimse olmaması
+  - withheld here (construction absent; in pull file): B004 نفخ بها بمعنى حبق, B006 انتفاخ الفخر والكبر
+- ج ع ل (word 13 جَعَلَهُۥ; 311 ayat in the Quran)
+  - B001 bare: إحداث الشيء وصنعه «جعلت الشيء صنعته (maqayis)» bir şeyi yapıp var etme
+  - B002 bare [plain]: تصيير الشيء على حال «جعله الله نبيا أي صيره (sihah)» birini veya şeyi belirli bir duruma getirme
+  - B003 unres: قول الشيء أو تسميته «جعلوا الملائكة إناثا أي سموهم (sihah)» öyle adlandırma ya da öyle olduğunu söyleme; başka yorumda öyle kılma
+  - B004 non-bare: الشروع في الفعل أو ملازمته «تقول جعل يقول ولا تقول صنع يقول (maqayis)» bir eylemi yapmaya başlama
+  - B005 bare: أجر مجعول على عمل «الجعل والجعالة والجعلية ما يجعل للإنسان على الأمر يفعله (maqayis)» iş karşılığı belirlenen ücret veya ortaklaşa kararlaştırılan ödeme
+  - B006 bare: النخل الصغار أو القصار «الجعل النخل يفوت اليد والواحدة جعلة (maqayis)» kısa veya küçük hurma ağaçları
+  - B007 bare: خرقة إنزال القدر «الجعال الخرقة التي تنزل بها القدر عن الأثافي (maqayis)» sıcak tencereyi indirme bezi ve onunla indirme
+  - B008 mixed: دويبة الجعلان «الجعل دابة من هوام الأرض (ayn)» kara küçük yer hayvanı ve bunlarla dolu su
+  - B009 mixed: اشتهاء الأنثى للفحل «كلبة مجعل إذا أرادت السفاد (maqayis)» dişinin çiftleşmek için erkeği istemesi
+  - B010 bare: فرخ النعام «الجعول ولد النعام (maqayis)» deve kuşu yavrusu
+  - B011 non-bare: الجَعْلة اسم مكان «الجَعْلة اسم مكان (maqayis)» belirtilmemiş bir yer adı
+  - B012 bare: قصر مع سمن ولجاج «الجعل القصر مع السمن واللجاج (tahdhib)» kısa, şişman ve inatçı olma
+- ن و ر (word 14 نَارًۭا; 174 ayat in the Quran)
+  - B001 bare: الضياء والإضاءة «النور الضياء والفعل نار وأنار ونورا وإنارة واستنار أي أضاء (ayn)» ışık ve aydınlatma
+  - B002 mixed [plain]: النار المتقدة والسمة بها «النار مؤنثة وهي من الواو» yanan ateş ve ateşle yapılan hayvan damgası
+  - B004 mixed: نور الشجر وزهره «النور نور الشجر» ağaç çiçeği ve çiçeklenme
+  - B005 mixed: المنار والمنارة الظاهرة «المنارة مفعلة من الإنارة» yol gösteren belirgin işaret ve yüksek yapı
+  - B006 mixed: النِّفار وقلة الثبات «امرأة نوار وهي العفيفة النافرة عن الشر والقبيح» ürkmek, kaçınmak ve uzaklaştırmak
+  - B007 bare: النائرة بين القوم «النائرة الكائنة تقع بين القوم (ayn)» topluluklar arası düşmanlık ve kin
+  - B008 bare: دخان الوشم والكحل «النؤور دخان الفتيلة يتخذ كحلا أو وشما (ayn)» göz boyası ve dövme için kullanılan duman karası
+  - B009 bare: النُّورَة المطلية «النورة يطلى بها (ayn)» bedene sürülen özel karışım ve onu sürünme
+  - B011 mixed: وضوح النِّير وبروزه «النون والياء والراء كلمة تدل على وضوح شيء وبروزه» açıkça seçilen veya belirgin biçimde çıkan şey
+  - withheld here (construction absent; in pull file): B003 تنور النار من بعيد, B010 التلبيس على الغير
+- ف ر غ (word 17 أُفْرِغْ; 6 ayat in the Quran)
+  - B001 mixed: الخلو بعد الشغل «الفراغ خلاف الشغل (maqayis» meşguliyetten çıkma veya içi boş kalma
+  - B002 mixed [plain]: الصب وإخلاء الوعاء «الفرغ مفرغ الدلو الذي ينصب منه الماء (maqayis)» dökerek boşaltma veya akıp dökülme
+  - B005 bare: ماء الرجل «الفراغة ماء الرجل وهو النطفة (sihah)» erkeğin döl sıvısı
+  - withheld here (construction absent; in pull file): B003 السعة في الحركة والأثر, B004 الدم المهدور, B006 القصد إلى الأمر
+- ق ط ر (word 19 قِطْرًۭا; 5 ayat in the Quran)
+  - B001 mixed: النواحي والجوانب «القطر الناحية والأقطار النواحي (ayn)» yan, yön ve dış bölüm
+  - B002 bare: الإلقاء على الجنب «قطرت فلانا تقطيرا صرعته صرعة شديدة (ayn)» yana devirip düşürmek
+  - B003 mixed: سيلان القطرات «القطر والقطران مصدر قطر الماء (ayn)» damlama, damla damla akma
+  - B004 bare: التتابع في نسق «القطار قطار الإبل بعضها إلى بعض على نسق واحد (ayn» aynı düzende art arda sıralanma
+  - B005 mixed: القَطِران المتحلب «القطران ما يتحلب من شجر الأبهل يطبخ فيتحلب منه (ayn» ağaçtan elde edilen koyu katran
+  - B006 bare [plain]: النحاس المذاب «القطر النحاس الذائب (ayn)» erimiş bakır
+  - B007 bare: عود البخور ومجمرته «القطر عود يتبخر به (ayn» tütsü odunu ve tütsü kabı
+  - B010 bare: تهيؤ النبات لليبس «اقطار النبت اقطيرارا تهيأ لليبس (sihah)» eğilip kurumaya yüz tutmak
+  - B011 bare: البيع جرافا بلا كيل «القطر أن يزن جلة من تمر أو عدلا من المتاع والحب ويأخذ ما بقي على حساب …» örnek hesaba göre toplu ve ölçüsüz satış
+  - B013 bare: النسبة إلى قطر «القطر أيضا ضرب من البرود يقال لها القطرية (sihah)» yer nispetiyle anılan
+  - B014 bare: نبات قطوراء «قطور اسم نبات سوادية (ayn)» koyu renkli belirli bir bitki
+  - withheld here (construction absent; in pull file): B008 الذهاب في الأرض, B009 التهيؤ للقتال, B012 الكراء ذهابا وجيئة
+
+## C. Neighbour activation (non-plain branches; neighbours = this ayah and +-2 ayat)
+- ء ت ي B001 الإتيان والمجيء ← جَآءَ (18:98) ج ي ء B001 المجيء والحصول (slm rank 1; dict relation synonym) | definition names ط ل ب, which occurs in this surah at 18:41
+- ء ت ي B003 مأتى الأمر وتهيؤه ← definition names ف ت ي, which occurs in this surah at 18:10, 18:13, 18:22, 18:60 (+4 in pull)
+- ء ت ي B004 مجرى الماء وتسليك سبيله ← definition names و ر ق, which occurs in this surah at 18:19 | definition names و ق ع, which occurs in this surah at 18:53
+- ء ت ي B007 خروج النماء والنتاج ← ٱسْطَٰعُوٓا۟ (18:97) ط و ع B007 تهيؤ المرعى والثمر (slm rank 10) | definition names ز ر ع, which occurs in this surah at 18:32 | definition names ن خ ل, which occurs in this surah at 18:32 (+2 in pull)
+- ء ت ي B008 الإتاوة المؤداة ← جَآءَ (18:98) ج ي ء B003 جائية الجراح (slm rank 9) (+1 in pull)
+- ز ب ر B004 الزجر والانتهار والمنع ← نَارًۭا (same ayah) ن و ر B004 نور الشجر وزهره (slm rank 17) | definition names م ن ع, which occurs in this surah at 18:55
+- ز ب ر B007 انتفاش الزئبر ونبات الوبر ← definition names ك ل ب, which occurs in this surah at 18:18, 18:22 | definition names ن ب ت, which occurs in this surah at 18:45 (+1 in pull)
+- ح د د B001 الحاجز والغاية المميزة ← زُبَرَ (same ayah) ز ب ر B002 الزبرة قطعة مجتمعة أو كتلة [plain] (ز ب ر B002 definition names ح د د) | نَارًۭا (same ayah) ن و ر B005 المنار والمنارة الظاهرة (ن و ر B005 definition names ح د د) | نَقْبًۭا (18:97) ن ق ب B001 فتح الشيء وثقبه إلى ما وراءه [plain] (ن ق ب B001 definition names ح د د) | definition names ح و ط, which occurs in this surah at 18:29, 18:42, 18:68, 18:91 (+2 in pull)
+- ح د د B002 المنع والصرف والحظر ← زُبَرَ (same ayah) ز ب ر B002 الزبرة قطعة مجتمعة أو كتلة [plain] (ز ب ر B002 definition names ح د د) | نَارًۭا (same ayah) ن و ر B005 المنار والمنارة الظاهرة (ن و ر B005 definition names ح د د) | نَقْبًۭا (18:97) ن ق ب B001 فتح الشيء وثقبه إلى ما وراءه [plain] (ن ق ب B001 definition names ح د د) | definition names م ن ع, which occurs in this surah at 18:55 | definition names ص ر ف, which occurs in this surah at 18:53, 18:54 (+2 in pull)
+- ح د د B003 المحادة والمخالفة ← زُبَرَ (same ayah) ز ب ر B002 الزبرة قطعة مجتمعة أو كتلة [plain] (ز ب ر B002 definition names ح د د) | نَارًۭا (same ayah) ن و ر B005 المنار والمنارة الظاهرة (ن و ر B005 definition names ح د د) | نَقْبًۭا (18:97) ن ق ب B001 فتح الشيء وثقبه إلى ما وراءه [plain] (ن ق ب B001 definition names ح د د) | definition names ك ن ن, which occurs in this surah at 18:57 | definition names م ن ع, which occurs in this surah at 18:55 (+2 in pull)
+- ح د د B005 الطرف الحاد والنفاذ ← زُبَرَ (same ayah) ز ب ر B002 الزبرة قطعة مجتمعة أو كتلة [plain] (ز ب ر B002 definition names ح د د) | نَارًۭا (same ayah) ن و ر B005 المنار والمنارة الظاهرة (ن و ر B005 definition names ح د د) | نَقْبًۭا (18:97) ن ق ب B001 فتح الشيء وثقبه إلى ما وراءه [plain] (ن ق ب B001 definition names ح د د) | definition names س ن ن, which occurs in this surah at 18:55 (+1 in pull)
+- ح د د B006 حدة البأس والشراب والغضب ← زُبَرَ (same ayah) ز ب ر B002 الزبرة قطعة مجتمعة أو كتلة [plain] (ز ب ر B002 definition names ح د د) | نَارًۭا (same ayah) ن و ر B005 المنار والمنارة الظاهرة (ن و ر B005 definition names ح د د) | نَقْبًۭا (18:97) ن ق ب B001 فتح الشيء وثقبه إلى ما وراءه [plain] (ن ق ب B001 definition names ح د د) | definition names ل ب س, which occurs in this surah at 18:31 (+1 in pull)
+- ح د د B007 إحداد المرأة وترك الزينة ← زُبَرَ (same ayah) ز ب ر B002 الزبرة قطعة مجتمعة أو كتلة [plain] (ز ب ر B002 definition names ح د د) | نَارًۭا (same ayah) ن و ر B005 المنار والمنارة الظاهرة (ن و ر B005 definition names ح د د) | نَقْبًۭا (18:97) ن ق ب B001 فتح الشيء وثقبه إلى ما وراءه [plain] (ن ق ب B001 definition names ح د د) | definition names م ن ع, which occurs in this surah at 18:55 | definition names ر ب ع, which occurs in this surah at 18:22 (+6 in pull)
+- ح د د B008 الاستحداد بالحديد ← زُبَرَ (same ayah) ز ب ر B002 الزبرة قطعة مجتمعة أو كتلة [plain] (ز ب ر B002 definition names ح د د) | نَارًۭا (same ayah) ن و ر B005 المنار والمنارة الظاهرة (ن و ر B005 definition names ح د د) | نَقْبًۭا (18:97) ن ق ب B001 فتح الشيء وثقبه إلى ما وراءه [plain] (ن ق ب B001 definition names ح د د) (+2 in pull)
+- س و ي B002 استقامة وتمام في الذات ← مُفْسِدُونَ (18:94) ف س د B001 خروج الشيء عن الصلاح والاعتدال [plain] (slm rank 23; dict relation polarity_pair) | دَكَّآءَ (18:98) د ك ك B001 الدق والهدم حتى التسوية (د ك ك B001 definition names س و ي) | definition names ف ر ط, which occurs in this surah at 18:28
+- س و ي B005 بلوغ وتمام الشباب ← دَكَّآءَ (18:98) د ك ك B001 الدق والهدم حتى التسوية (د ك ك B001 definition names س و ي) | وَكَانَ (18:98) ك و ن B005 الشيخ المنسوب إلى كُنْتُ (slm rank 2) | definition names ر ب ع, which occurs in this surah at 18:22
+- س و ي B006 وسط وعدل ومكان منصف ← دَكَّآءَ (18:98) د ك ك B001 الدق والهدم حتى التسوية (د ك ك B001 definition names س و ي) | بَيْنَ (same ayah) ب ي ن B002 الخلالة والوسط بين شيئين [plain] (slm rank 9) | definition names م د د, which occurs in this surah at 18:109 (+2 in pull)
+- س و ي B007 مباينة وكون الشيء غيره ← دَكَّآءَ (18:98) د ك ك B001 الدق والهدم حتى التسوية (د ك ك B001 definition names س و ي) | بَيْنَ (same ayah) ب ي ن B002 الخلالة والوسط بين شيئين [plain] (slm rank 26) | definition names ك ن ن, which occurs in this surah at 18:57 | definition names و ض ع, which occurs in this surah at 18:49 (+2 in pull)
+- س و ي B009 السِيّ واسع أملس من الأرض ← دَكَّآءَ (18:98) د ك ك B001 الدق والهدم حتى التسوية (د ك ك B001 definition names س و ي) | بَيْنَ (same ayah) ب ي ن B007 قطعة أرض تمتد في النظر (dict relation near_neighbor) | definition names و ض ع, which occurs in this surah at 18:49 (+2 in pull)
+- س و ي B010 السَّويّة على ظهر البعير ← يَظْهَرُوهُ (18:97) ظ ه ر B001 البروز والانكشاف (definition names ظ ه ر) | دَكَّآءَ (18:98) د ك ك B001 الدق والهدم حتى التسوية (د ك ك B001 definition names س و ي) | definition names ر ك ب, which occurs in this surah at 18:71 | definition names ح و ل, which occurs in this surah at 18:108
+- س و ي B011 إسقاط وإغفال ← دَكَّآءَ (18:98) د ك ك B001 الدق والهدم حتى التسوية (د ك ك B001 definition names س و ي)
+- س و ي B012 ليلة استواء القمر ← دَكَّآءَ (18:98) د ك ك B001 الدق والهدم حتى التسوية (د ك ك B001 definition names س و ي) | definition names ث ل ث, which occurs in this surah at 18:22, 18:25 | definition names م د د, which occurs in this surah at 18:109
+- ب ي ن B003 الوصلة القائمة بين الأطراف ← نَارًۭا (same ayah) ن و ر B007 النائرة بين القوم (slm rank 6) | definition names ح و ل, which occurs in this surah at 18:108 (+1 in pull)
+- ب ي ن B004 ظهور الشيء وانكشافه ← يَظْهَرُوهُ (18:97) ظ ه ر B001 البروز والانكشاف (slm rank 1; definition names ظ ه ر)
+- ب ي ن B005 كشف المعنى بالقول أو العلامة ← قَالَ (same ayah) ق و ل B001 إخراج القول بالنطق (slm rank 6) (+4 in pull)
+- ب ي ن B006 بعد المسافة واتساع الفجوة ← definition names ف ج و, which occurs in this surah at 18:17 | definition names ت س ع, which occurs in this surah at 18:25
+- ب ي ن B007 قطعة أرض تمتد في النظر ← سَاوَىٰ (same ayah) س و ي B009 السِيّ واسع أملس من الأرض (dict relation near_neighbor) (+1 in pull)
+- ب ي ن B009 الحالب من جهة مخصوصة ← definition names ش م ل, which occurs in this surah at 18:17, 18:18
+- ب ي ن B010 الوقت الواقع أثناء حال أو فعل ← جَعَلَهُۥ (same ayah) ج ع ل B004 الشروع في الفعل أو ملازمته (slm rank 40) | definition names و ق ع, which occurs in this surah at 18:53 (+4 in pull)
+- ص د ف B001 الميل والإعراض ← definition names م ل ل, which occurs in this surah at 18:20 (+1 in pull)
+- ص د ف B005 الإبل الصوادف عند الحوض ← definition names ص ر ف, which occurs in this surah at 18:53, 18:54
+- ق و ل B001 إخراج القول بالنطق ← بَيْنَ (same ayah) ب ي ن B005 كشف المعنى بالقول أو العلامة (slm rank 6) | definition names ب ر ز, which occurs in this surah at 18:47 (+2 in pull)
+- ق و ل B003 كثرة القول في صاحبه ← definition names ص ف ف, which occurs in this surah at 18:48
+- ق و ل B004 القيل صاحب القول النافذ ← definition names ك ن ن, which occurs in this surah at 18:57 (+2 in pull)
+- ق و ل B007 القول الفاشي بين الناس ← definition names ن ش ر, which occurs in this surah at 18:16
+- ق و ل B008 عود القال لضرب القلة ← جَعَلَهُۥ (same ayah) ج ع ل B007 خرقة إنزال القدر (slm rank 40) (+4 in pull)
+- ق و ل B011 قول يجري مجرى الظن ← جَعَلَهُۥ (same ayah) ج ع ل B004 الشروع في الفعل أو ملازمته (slm rank 14) (+4 in pull)
+- ن ف خ B002 انتفاخ الشيء وامتلاؤه بالريح ← definition names خ و ي, which occurs in this surah at 18:42 | definition names م ل ل, which occurs in this surah at 18:20 (+1 in pull)
+- ج ع ل B001 إحداث الشيء وصنعه ← definition names ص ن ع, which occurs in this surah at 18:104 (+1 in pull)
+- ج ع ل B004 الشروع في الفعل أو ملازمته ← قَالَ (same ayah) ق و ل B011 قول يجري مجرى الظن (slm rank 14) | بَيْنَ (same ayah) ب ي ن B010 الوقت الواقع أثناء حال أو فعل (slm rank 40) | definition names ص ن ع, which occurs in this surah at 18:104 (+5 in pull)
+- ج ع ل B006 النخل الصغار أو القصار ← definition names ص غ ر, which occurs in this surah at 18:49 | definition names ن خ ل, which occurs in this surah at 18:32
+- ج ع ل B007 خرقة إنزال القدر ← قَالَ (same ayah) ق و ل B008 عود القال لضرب القلة (slm rank 40) | definition names خ ر ق, which occurs in this surah at 18:71 (+5 in pull)
+- ج ع ل B009 اشتهاء الأنثى للفحل ← ٱلْحَدِيدِ (same ayah) ح د د B007 إحداد المرأة وترك الزينة (slm rank 29) | definition names ك ل ب, which occurs in this surah at 18:18, 18:22 | definition names س ب ع, which occurs in this surah at 18:22
+- ن و ر B001 الضياء والإضاءة ← definition names س ف ر, which occurs in this surah at 18:62
+- ن و ر B004 نور الشجر وزهره ← زُبَرَ (same ayah) ز ب ر B004 الزجر والانتهار والمنع (slm rank 17)
+- ن و ر B005 المنار والمنارة الظاهرة ← ٱلْحَدِيدِ (same ayah) ح د د B001 الحاجز والغاية المميزة (definition names ح د د) | يَظْهَرُوهُ (18:97) ظ ه ر B001 البروز والانكشاف (definition names ظ ه ر) | definition names س ر ج; the Quran pairs س ر ج with ج ع ل (this ayah) in 3 of its 4 ayat: 25:61, 71:16, 78:13
+- ن و ر B006 النِّفار وقلة الثبات ← definition names ن ف ر, which occurs in this surah at 18:34 (+1 in pull)
+- ن و ر B007 النائرة بين القوم ← بَيْنَ (same ayah) ب ي ن B003 الوصلة القائمة بين الأطراف (slm rank 6) | definition names و ق ع, which occurs in this surah at 18:53 (+2 in pull)
+- ن و ر B008 دخان الوشم والكحل ← definition names ذ ر ع, which occurs in this surah at 18:18
+- ن و ر B009 النُّورَة المطلية ← ٱلْحَدِيدِ (same ayah) ح د د B008 الاستحداد بالحديد (dict relation thematic) | قِطْرًۭا (same ayah) ق ط ر B005 القَطِران المتحلب (slm rank 30)
+- ن و ر B011 وضوح النِّير وبروزه ← definition names ء ر ك, which occurs in this surah at 18:31 | definition names ث و ب, which occurs in this surah at 18:31, 18:44, 18:46
+- ف ر غ B005 ماء الرجل ← definition names ن ط ف, which occurs in this surah at 18:37 (+1 in pull)
+- ق ط ر B001 النواحي والجوانب ← ٱلصَّدَفَيْنِ (same ayah) ص د ف B003 جانب الجبل والناحية المرتفعة [plain] (slm rank 5) (+1 in pull)
+- ق ط ر B002 الإلقاء على الجنب ← definition names و ق ع, which occurs in this surah at 18:53
+- ق ط ر B003 سيلان القطرات ← definition names و ق د; the Quran pairs و ق د with ن و ر (this ayah) in 10 of its 11 ayat: 2:17, 2:24, 3:10, 5:64
+- ق ط ر B004 التتابع في نسق ← definition names ك ف ف, which occurs in this surah at 18:42
+- ق ط ر B005 القَطِران المتحلب ← نَارًۭا (same ayah) ن و ر B009 النُّورَة المطلية (slm rank 30) (+2 in pull)
+- ق ط ر B007 عود البخور ومجمرته ← definition names ك ف ف, which occurs in this surah at 18:42
+- ق ط ر B010 تهيؤ النبات لليبس ← definition names ع و ج, which occurs in this surah at 18:1 | definition names ن ب ت, which occurs in this surah at 18:45 (+2 in pull)
+- ق ط ر B011 البيع جرافا بلا كيل ← definition names م ر ي, which occurs in this surah at 18:22 | definition names و ز ن, which occurs in this surah at 18:105 (+2 in pull)
+- ق ط ر B013 النسبة إلى قطر ← فَأَعِينُونِى (18:95) ع و ن B008 النسبة إلى عانة (slm rank 2; dict relation near_neighbor) | definition names ن س ب; the Quran pairs ن س ب with ج ع ل (this ayah) in 2 of its 3 ayat: 25:54, 37:158 | definition names ك ف ف, which occurs in this surah at 18:42 (+4 in pull)
+- ق ط ر B014 نبات قطوراء ← definition names ن ب ت, which occurs in this surah at 18:45 | definition names م د د, which occurs in this surah at 18:109 (+1 in pull)
+
+## D. Quran-loaded words (role statistics per root / construction; loaded.py)
+- ص د ف: 3 ayat | echo ء ت ي with 6:46, 6:157; خ ي ر with 6:157
+- ق ط ر: 5 ayat | echo ط و ع with 55:33
+- ن ف خ: 18 ayat | dominant role: ص و ر 10 (6:73, 18:99, 20:102, 23:101, 27:87, 36:51); ر و ح 6 (5:110, 15:29, 21:91, 32:9, 38:72, 66:12) = 0.889 of 18 | THIS OCCURRENCE DEPARTS: frame (lemma نَفَخَ V) | echo س و ي with 15:29, 32:9, 38:72 | same root in +-7: 18:99
+- ح د د: 20 ayat | dominant role: ت ل ك 6 (2:187, 2:229, 2:230, 4:13, 58:4, 65:1); ق و ي 4 (18:96, 57:25, 58:20, 58:22) = 0.5 of 20 | shares ق و ي with 57:25, 58:20, 58:22 | echo ط و ع with 4:13, 4:14, 58:4, 58:5
+
+## E. Parallels (Pareto union of lenses, top 10 per lens; lens:rank; shared words)
+### same surah (21)
+- 18:32 [root:7 lemma:5 scene:1] root: ج ع ل, ب ي ن; lemma: جعل, بين; scene: trade.hire, new.making, fire.heat
+- 18:52 [root:1 lemma:1 scene:3] root: ق و ل, ج ع ل, ب ي ن; lemma: قال, جعل, بين; scene: trade.hire, new.making, fire.heat
+- 18:99 [root:6 lemma:6 loaded:1] root: ن ف خ; lemma: نفخ; loaded: ن ف خ dominant role (ص و ر+ر و ح)
+- 18:37 [root:5 echo:1] root: ق و ل, س و ي; echo: س و ي: ساوي ~ سوي
+- 18:74 [textmap:1] 
+- 18:94 [root:2 lemma:2 scene:8 textmap:9] root: ق و ل, ج ع ل, ب ي ن; lemma: قال, جعل, بين; scene: trade.hire, new.making, fire.heat
+- 18:95 [root:3 lemma:3 scene:2 textmap:6] root: ق و ل, ج ع ل, ب ي ن; lemma: قال, جعل, بين; scene: trade.hire, new.making, fire.heat
+- 18:71 [textmap:2] 
+- 18:93 [scene:5 textmap:3] scene: new.intention, posture.upright, new.calamity
+- 18:19 [root:4 lemma:4] root: ق و ل, ء ت ي, ب ي ن; lemma: قال, اتي, بين
+- 18:21 [lemma:9 scene:4] lemma: قال, بين; scene: trade.hire, craft.metal, water.irrigation
+- 18:77 [textmap:4] 
+- 18:86 [textmap:5] 
+- 18:15 [root:8 lemma:7 scene:6] root: ء ت ي, ب ي ن; lemma: اتي, بين; scene: fire.kindling, water.irrigation, new.task_preparation
+- 18:98 [root:10 textmap:7] root: ق و ل, ج ع ل
+- 18:53 [scene:7] scene: trade.hire, fire.heat, fire.kindling
+- 18:29 [root:9 lemma:8 scene:9] root: ق و ل, ن و ر; lemma: قال, نار; scene: fire.heat, fire.kindling, craft.metal
+- 18:60 [textmap:8] 
+- 18:78 [lemma:10] lemma: قال, بين
+- 18:90 [scene:10] scene: trade.hire, new.making, fire.heat
+- 18:109 [textmap:10] 
+### other surahs (50)
+- 13:16 [root:5 echo:1 scene:10] root: ق و ل, ج ع ل, ن و ر; echo: ن و ر: نار ~ نور, س و ي: ساوي ~ استوي; scene: trade.hire, new.making, fire.heat
+- 32:9 [root:1 lemma:9 loaded:2] root: ج ع ل, ن ف خ, س و ي; lemma: جعل, نفخ; loaded: ن ف خ with س و ي, ن ف خ dominant role (ص و ر+ر و ح)
+- 2:250 [lemma:6 phrase:1] lemma: قال, افرغ; phrase: افرغ على+P
+- 20:10 [phrase:7 textmap:1] phrase: نار قال
+- 4:91 [scene:1] scene: trade.hire, new.making, fire.heat
+- 15:29 [loaded:1] loaded: ن ف خ with س و ي, ن ف خ dominant role (ص و ر+ر و ح)
+- 34:12 [lemma:1] lemma: قطر, بين
+- 6:46 [root:7 echo:2] root: ق و ل, ء ت ي, ص د ف; echo: ص د ف: صدفين ~ صدف
+- 7:126 [phrase:2 scene:7] phrase: افرغ على+P; scene: trade.hire, animal.reptile_fish, water.washing
+- 74:31 [root:10 lemma:2] root: ق و ل, ج ع ل, ء ت ي; lemma: قال, جعل, اتي
+- 3:184 [root:2] root: ن و ر, ز ب ر, ب ي ن
+- 22:5 [scene:2] scene: trade.hire, fire.kindling, craft.metal
+- 43:38 [textmap:2] 
+- 6:157 [root:6 echo:3 loaded:4] root: ق و ل, ص د ف, ب ي ن; echo: ص د ف: صدفين ~ صدف; loaded: ص د ف with ء ت ي, ص د ف with خ ي ر
+- 3:183 [phrase:3] phrase: نار قال
+- 16:44 [lemma:3] lemma: زبر, بين
+- 24:43 [scene:3] scene: trade.hire, new.making, fire.heat
+- 35:25 [root:3] root: ن و ر, ز ب ر, ب ي ن
+- 38:72 [loaded:3] loaded: ن ف خ with س و ي, ن ف خ dominant role (ص و ر+ر و ح)
+- 14:50 [root:9 echo:4] root: ق ط ر, ن و ر; echo: ق ط ر: قطر ~ قطران
+- 4:19 [scene:4] scene: trade.hire, new.making, fire.heat
+- 6:27 [phrase:4] phrase: نار قال
+- 20:58 [root:4] root: ج ع ل, ء ت ي, س و ي
+- 23:53 [lemma:4] lemma: زبر, بين
+- 5:110 [loaded:5] loaded: ن ف خ dominant role (ص و ر+ر و ح)
+- 7:38 [phrase:5] phrase: نار قال
+- 24:40 [scene:5] scene: trade.hire, new.making, fire.heat
+- 33:14 [echo:5] echo: ق ط ر: قطر ~ اقطار
+- 34:10 [lemma:5] lemma: اتي, حديد
+- 3:55 [scene:6] scene: trade.hire, new.making, fire.heat
+- 6:73 [loaded:6] loaded: ن ف خ dominant role (ص و ر+ر و ح)
+- 7:47 [phrase:6] phrase: نار قال
+- 23:99 [textmap:6] 
+- 55:33 [echo:6] echo: ق ط ر: قطر ~ اقطار
+- 23:101 [lemma:7 loaded:10] lemma: نفخ, بين; loaded: ن ف خ dominant role (ص و ر+ر و ح)
+- 28:10 [echo:7 scene:9] echo: ف ر غ: افرغ ~ فرغ; scene: fire.heat, animal.reptile_fish, fire.kindling
+- 28:29 [phrase:8 textmap:7] phrase: نار قال
+- 21:91 [lemma:8 loaded:9] lemma: جعل, نفخ; loaded: ن ف خ dominant role (ص و ر+ر و ح)
+- 20:102 [loaded:8] loaded: ن ف خ dominant role (ص و ر+ر و ح)
+- 28:71 [scene:8] scene: trade.hire, new.making, fire.heat
+- 39:73 [textmap:8] 
+- 55:31 [echo:8] echo: ف ر غ: افرغ ~ فرغ
+- 65:1 [root:8] root: ء ت ي, ح د د, ب ي ن
+- 17:53 [textmap:9] 
+- 33:66 [phrase:9] phrase: نار قال
+- 94:7 [echo:9] echo: ف ر غ: افرغ ~ فرغ
+- 5:48 [lemma:10] lemma: جعل, اتي, بين
+- 26:196 [textmap:10] 
+- 33:19 [echo:10] echo: ح د د: حديد ~ حداد
+- 40:47 [phrase:10] phrase: نار قال
+
+## F. Typed contrasts (dictionary antonym / polarity pairs present in the window or surah)
+- ب ي ن B002 الخلالة والوسط بين شيئين ↔ و ل ي B001 قرب ودنو بلا فاصل (antonym): window 18:102
+- ب ي ن B003 الوصلة القائمة بين الأطراف ↔ ب ي ن B001 انفصال الشيء وافتراقه (antonym): window 18:93, 18:94, 18:95, 18:96
+
+## G. Alternative roots and qira'at
+- ءَاتُونِى (18:96:1): إِيتُونِي / ائْتُونِي ītūnī / iʾtūnī (Vr) — Variant reads Form I imperative iʾtūnī "come to me [with]" instead of Form IV ātūnī "bring me." Form I = the workers come carrying iron; Form IV = they cause ir
+- ٱلصَّدَفَيْنِ (18:96:8): الصُّدْفَيْنِ aṣ-ṣudfayni (skn) — Sukūn on dāl: ṣudf instead of ṣadaf. Same meaning (cliff-face/shell), different dialectal voweling. May reflect a distinct nominal pattern with slight semantic 
+- ٱلصَّدَفَيْنِ (18:96:8): الصُّدُفَيْنِ aṣ-ṣudufayni (vw) — Double ḍamma: ṣuduf. This pattern (fuʿul) may indicate a different plural base or intensive form. Still denotes cliff-faces but with a morphological distinction
+- قَالَ (18:96:15): قَالْ إِيتُونِي / قَالَ ائْتُونِي qāl ītūnī / qāla iʾtūnī (Vr) — Variant affects boundary between qāla and ātūnī: in one reading qāla loses final vowel before hamzat al-waṣl, producing qāl + ītūnī (Form I: come to me). The ve
+- ءَاتُونِىٓ (18:96:16): إِيتُونِي / ائْتُونِي ītūnī / iʾtūnī (Vr) — Same variant as word 1: Form I "come to me [with]" vs Form IV "bring me." Here the second ʾātūnī may have an elided object — "bring me [molten copper material]"
+
+Pull: harvest/18_96.pull.json (withheld branches, all neighbour candidates, full lens lists); v15/data/branches.tsv and dictionary tr entries (full branch index); construction_index.tsv; loaded_flags.tsv.

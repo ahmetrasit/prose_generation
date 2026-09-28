@@ -368,6 +368,10 @@ rests on one ayah. The records weaken it in four ways:
      | cold arm | 10.5 |
 
      Within the permitted group, input size does not predict outside reach (Spearman −0.03).
+   - **Caveat (Phase 2 completeness check, verified).** Every permitted dictionary-fed run also carried v11's findings
+     ledger ("Collect every finding…"), and the "no permission" group includes the ledger arm, whose brief does grant
+     memory ("Include what you know from the whole Quran"). Permission and ledger are not separated. The only
+     permitted runs without a ledger (the cold arm) cite a median of 11 outside passages.
 2. **Noise floor.**
    - The only true repeat (4:34 cold vs cold2) shares 28 of 47 cited passages (Jaccard 0.596) and scored 8 against 6
      anchors.
@@ -375,7 +379,10 @@ rests on one ayah. The records weaken it in four ways:
      sampling noise.
    - An arm with far more input than the cold arm (dict + slim Luna, 225k tokens) scored highest (9), while the full
      package (318k) scored 5. Size alone does not predict recall.
-3. **Thinking collapses only at very large inputs.**
+3. **Thinking collapses only at very large inputs.** Corrected in Phase 2: size is *not* the trigger. Many runs above
+   140k billed tokens kept high thinking: v11 42–46k, v12 42–83k, v13 65–138k, the 4:34 ledger arm 36k at 226k. The
+   collapse belongs to the full Luna-package arms under the "work only from the supplied evidence" brief. Package
+   composition and brief, not size, is the lever. The original observation follows:
    - It collapses for full packages: 4:34 45k → 9k thinking tokens; 5:6 42k → 8k; 18:96 29k → 11k (packages of
      140k–420k billed tokens).
    - It does not fall on 18:86 or 103:1–3.
@@ -391,9 +398,10 @@ rests on one ayah. The records weaken it in four ways:
 **Inference.**
 
 - Bulk input costs money at any size (claude -p bills it at 2×).
-- It costs thinking above roughly 150–300k tokens.
-- Below that, what dilutes synthesis is pre-judged content, audit instructions and the lack of permission to use the
-  model's own knowledge.
+- It costs thinking only in certain combinations: the full Luna package under a no-permission brief. It does not cost
+  thinking at a given size (Phase 2 correction).
+- What dilutes synthesis is pre-judged content, audit instructions and the lack of permission to use the model's own
+  knowledge (permission is confounded with v11's ledger).
 - Supply without an instruction saying what to make of it is inert: the Fatiha well sat in v15's scene lines and was
   set aside until the coalition line was added.
 

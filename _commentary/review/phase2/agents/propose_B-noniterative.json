@@ -1,0 +1,635 @@
+{
+ "key": "B-noniterative",
+ "title": "Readings, not records: two independent complementary Opus readings per ayah, integrated once over a shared surah-first reading, developed under a frozen blind evaluation",
+ "summary": "Phase 1 found that readings are rarely lost at discovery. They are lost afterwards: labels were used as filters, chains were judged from one member, set-asides were never handed forward, a cheap selector dropped the eye film, and every records-to-prose contract in v13/v14 traded recall against form. It also found that each single configuration returns a different slice of what the North Star asks for (1:6, four configurations), and that two identical runs share only about 60% of their citations.\n\nThe design therefore changes two things.\n\n(1) Architecture. The serial funnel (window → record → evidence → writer, each handover a pruning point that works on atomized records) is replaced by a parallel shape:\n- a shared, coalition-first surah reading (S-reading), grounded in the existing channel reviews, which gives each ayah the chain members and a disclosure role (opens, advances or completes each image);\n- two independent finished readings per ayah, with different evidence and different stances: R_mem gets only the surah text and permission to use memory (this is where pretraining suffices, so no data is pushed); R_lex gets a small, script-built, descriptive supply (every branch of every root in the ayah with its branch_kind and construction licence, same-surah echoes, rare-root concordance, usage counts, and definitional cross-reference joins);\n- one Opus integration that composes the Turkish commentary from those finished readings, not from records;\n- script verification: sources, the branch_kind/construction guard, and an index of what was left unselected, taken sentence by sentence from the readings;\n- one fixed challenge turn in the same session.\nNo stage between discovery and integration can prune, because no such stage exists.\n\n(2) Development methodology. The version-by-version replacement tuned on named cases gives way to a small family of arms (primary B, fallback F1 = single free reading plus challenge, fallback F2 = sequential). They are compared on a frozen scorecard with pooled ingredient recall, a blind read by the user, 2 replicates, and blind ayat picked by a seeded script. The decision rules are written down before any run.\n\nI argue the methodology matters most. Without it, any architecture is again judged at n=1 on contaminated cases, where noise (±2 of 12 anchors between identical runs) is as large as the effects decisions rested on, and 7 planned measurements since v11 never ran. The architecture is the hypothesis this methodology tests first, and it was chosen because it can be tested cheaply: the first pilot integrates readings that already exist.\n\nFree script evidence:\n- All 21 watch-case ingredients are present in the targeted supply, in both full and light mode.\n- The cross-reference detector finds, with no case rules, the eye-film joins (to ʿankabūt at 29:41; ghishāwa to 2:7 and 45:23), the muṣallī joins (to sābiqīn at 29:39 and yatlū at 29:45), and the stray-animal/rabb and lead-animal/hādī joins in S1.\n- On 120 random ayat the supply has a median of 22.8k tokens (maximum 72.9k).\n- Complementarity is measured: the memory reading carries the Quran reach, while the dictionary reading supplies 124 of the 153 dictionary-branch signals.\n- Production cost is about $1.2–2.1 per ayah on the Batch API (about $1.6 weighted).\n- The guard has real work in v15: 12 of 271 finding anchors are collocation-bound without their construction, 3 of them marked for prose.\n- The guard also conflicts with 4 of the 26 eligible S1 gold items. Only the user can resolve that.",
+ "answers": "Q4 (primary)\n\nA method that differs in both architecture and methodology, with the argument that the methodology matters most:\n- **Architecture:** parallel independent readings that are finished prose, integrated once, instead of a serial funnel of records. No verdict-bearing stage sits between discovery and integration. The only selection happens at an Opus integrator, and a script index plus a fixed challenge turn make it visible and reversible.\n- **Methodology:** arms, not versions:\n  - frozen scorecard;\n  - pooled (TREC-style) ingredient recall, so that no earlier run is the gold;\n  - the user's blind read;\n  - 2 replicates;\n  - seeded blind ayat that have v5 prose (the North Star bar);\n  - pre-registered decision rules;\n  - a contamination lint on every brief.\n\nThe four families, and what the design takes from each:\n- **(i) Synthesize free, anchor afterward:** the stance of every reading (no schema, IDs or ledgers during synthesis; inline source tags only), plus script anchoring and the challenge turn (quran-roots LESSONS.md and v5/METHODOLOGY.md). It is also fallback F1.\n- **(ii) Ensemble:** the core. Different evidence and stance per call, integrated from finished readings.\n- **(iii) Surah-first:** the shared S-reading supplies the chains and the disclosure plan. It is context, not a gate: there are no set-aside verdicts, and a script lists the channels it did not take up.\n- **(iv) Evaluation-driven development:** the development method.\n\nPartial answers to the other questions:\n- **Q2a:** R_mem receives no data pushed (Quran memory, famous lexicon, same-surah naẓm). Data is pushed only where Phase 1 says memory fails: rare branches, counts and dominant roles, materialized joins, and construction scope.\n- **Q1:** The study shows the guard, the cross-reference joins and the pooled evaluation are all script-buildable today at no cost.\n- **Q3:** Optionally, v5's middle-layer prose can be a third reading at integration on v5 surahs (the blind ayat are chosen from v5 surahs).\n- **Q5:** The design needs no quran-slm similarity. Its typed supply (cross-reference joins, construction licence, usage counts, same-surah echoes) serves discovery before synthesis.",
+ "stages": [
+  {
+   "name": "0. Script data layer (supply builder)",
+   "who": "script (no model)",
+   "input": "v15/data {quran,words,lemmas,branches}.tsv; quran-data dictionary tr/*_entry.json (lexicalization_scope.branch_kind, source_phrase_ar); grammar/contextual/collocation_profiles_v2.tsv; study qiraat.tsv; grammar attachments translation_support.tsv",
+   "output": "supply/<S_A>.md with eight parts. A: ayah and word table. B: ±7 window. C: every branch of every ayah root, with image, full definition, early phrase, Turkish gloss, branch_kind, and for collocation-bound branches the construction keys and 'present in this ayah: yes/no'. D: same-surah echoes. E: KWIC for roots with ≤30 uses. F: usage profile counts for roots with ≤60 uses. G: definitional cross-reference joins, ordered by specificity. H: qirāʾāt. Also a small NS2 table for the integrator.",
+   "once_or_per_ayah": "per ayah (about 1 s); whole-Quran tables once",
+   "size_or_tokens": "120 random ayat: median 22.8k tokens, p90 57.9k, max 72.9k (full); median 16.2k with the light branch index. Named: 1:6 13.7k; 29:38 36.4k; 18:86 59.5k; 4:34 101.6k; 5:6 146.5k full / 110.7k light. Budget: switch to light above 110k, then push G tiers 1–2 and name the rest by count.",
+   "stance": "descriptive supply only; no verdicts, scores, 'no value' labels or earlier readers' conclusions"
+  },
+  {
+   "name": "1. S-reading (surah-first coalition reading)",
+   "who": "Opus 5.5, effort high, no tools; one fixed 'did you cap it?' turn in the same session",
+   "input": "Surah or window text; the channel review (network-v3 reader_a_pilot.md), or the subchannels anchored in the window, as the existing chains to ground, extend, correct and connect, never rediscover; HFT compacted to 'ref word → root Bnnn (role)' where present (optional); a branch-image table of the window's roots; script cross-reference joins inside the window",
+   "output": "The surah's images as prose (members as S:A word → root Bnnn → role), how they interact, the surah's movement and purpose, and a per-ayah disclosure plan (image X opens, advances or completes here). No rejection list: a script lists the review channels not taken up, handed forward as 'not taken up'.",
+   "once_or_per_ayah": "once per surah of ≤40 ayat; long surahs per pericope window plus one whole-surah map call that reads the window readings",
+   "size_or_tokens": "S1 about 72.5k tokens in (text, review, compact HFT, branch table). Long surahs total 320–840k, so 3–8 windows at a ≤110k budget each. Cost: S1 $0.93 (v15 window) to $1.64 (v11 arm S); long-surah windows about $1.6–1.7 each, about $0.1 per ayah.",
+   "stance": "generative, coalition before judgement; no per-member verdicts"
+  },
+  {
+   "name": "2a. R_mem (Quran-memory reading)",
+   "who": "Opus 5.5, effort high, no tools",
+   "input": "Ayah, word table, whole surah text (the cold arm handled all of S4 at 49k tokens); a short fresh brief with no named-case examples; explicit permission to use its own knowledge of Arabic and the Quran; lexical senses from memory marked [memory]",
+   "output": "A finished reading: Quran web, same-surah naẓm, famous lexical images, grammar. Turkish by default; English is an open question.",
+   "once_or_per_ayah": "per ayah",
+   "size_or_tokens": "Cold-arm actuals: short ayat 7.9k in / 16.5k out (median); long 33k in / 46k out; $0.32–1.58, median $0.44 (claude -p)",
+   "stance": "generative; the evidence is context and memory; no data pushed (Q2a)"
+  },
+  {
+   "name": "2b. R_lex (lexicon and chain reading)",
+   "who": "Opus 5.5, effort high, no tools",
+   "input": "Supply A–H; the S-slice for this ayah (images through its words, with members' branch lines and their disclosure role); memory permission with [memory] marking. The construction licence is shown: a collocation-bound sense may be heard only where its construction is present (mode set by the user, see open questions).",
+   "output": "A finished Turkish commentary-grade reading. It is also the product of fallback arm F1, which makes arms A and B paired.",
+   "once_or_per_ayah": "per ayah",
+   "size_or_tokens": "in: median 23k tokens (p90 58k); out: about 21k short, 47k long (dict-arm actuals); $0.62–1.60 (claude -p)",
+   "stance": "generative: activation → coalition → maturation → payoff inside one mind; branch-agnostic"
+  },
+  {
+   "name": "3. Integration",
+   "who": "Opus 5.5, effort high, no tools",
+   "input": "Ayah and ±7 text; the R_lex and R_mem readings, in an order randomized per replicate; the S-slice with disclosure roles; an NS2 mini-supply (Turkish concept glosses of the branches cited in the readings, v15 loanword cards where they exist, and the ayah's grammar translation_support rows, about 1–2k chars)",
+   "output": "The Turkish ayah commentary: ground, what Turkish loses, local resonance, images opened, advanced or completed here, loaded words, QeQ after the latent readings. No word cap. Then a short 'surah note' on what this ayah gives each image.",
+   "once_or_per_ayah": "per ayah (all ayat of a surah in parallel: Batch-friendly)",
+   "size_or_tokens": "in about 20–45k tokens (two readings of about 8–15k tokens each, plus context); out about 30–38k; $0.81–1.12 (claude -p)",
+   "stance": "communicative and integrative: compose, never audit; no refutation of a reading from one member; no verdict lists; readings coexist (containment)"
+  },
+  {
+   "name": "4. Verification and unselected index",
+   "who": "script",
+   "input": "Commentary; readings; S-slice; supply",
+   "output": "(a) Every Arabic quotation resolved to src S:A:W or root Bnnn (v12/v15 verify_src logic). (b) Refs valid. (c) For every root Bnnn cited: branch_kind; collocation-bound branches get construction licence v2 (quoted-ayah n-gram, particle pattern after the occurrence, or key root nearby); memory-marked senses without a branch get 'memory, unattested'. (d) The unselected index: sentences of the readings whose refs, quotes or anchors the commentary does not carry (demo: 40–96 sentences, 7–18k chars). It is stored in the record (nothing lost silently) and needs no model-written reasons.",
+   "once_or_per_ayah": "per ayah",
+   "size_or_tokens": "seconds",
+   "stance": "deterministic checker (F3: verifiers, not exhortation); flags, never deletes"
+  },
+  {
+   "name": "5. Fixed challenge turn",
+   "who": "Opus 5.5, same session as step 3 (cached prefix)",
+   "input": "The step-4 flags and unselected sentences, under one fixed string: revise where a left-out reading changes how the ayah is understood; show the construction or drop the root attribution for flagged construction-bound senses; no accounting required",
+   "output": "Final commentary",
+   "once_or_per_ayah": "per ayah, one round (no-reruns rule; at most one repair of a failed call)",
+   "size_or_tokens": "new input about 2–9k tokens plus cached prefix; out about 18–22k; $0.39–0.47 (claude -p)",
+   "stance": "anti-curation (quran-roots: the challenge promoted 4 findings in the gold dialogue)"
+  },
+  {
+   "name": "6. Surah commentary (NS12)",
+   "who": "Opus 5.5, effort high, no tools",
+   "input": "S-reading(s) and map; each ayah's surah note; the full ayah commentaries for short surahs",
+   "output": "Surah commentary: the images, what each ayah and word contributes, how the images interact, their convergence on the surah's purpose, and the surah read anew",
+   "once_or_per_ayah": "once per surah",
+   "size_or_tokens": "≤110k tokens in; about $1.1 (v15 S1) to $2.6 (v12 S1)",
+   "stance": "communicative"
+  },
+  {
+   "name": "7. Evaluation round (development method, not production)",
+   "who": "script plus the user (blind read)",
+   "input": "Outputs of the arms on a fixed set: named watch ayat plus seeded blind ayat",
+   "output": "Scorecard: form metrics, sourcing, reach, pooled ingredient recall, watch probes, guard flags; paired blind reads; decision by pre-registered rules",
+   "once_or_per_ayah": "per design round",
+   "size_or_tokens": "free (scripts); the user reads about 8–10 pairs",
+   "stance": "frozen before any run; no tuning on named cases between rounds"
+  }
+ ],
+ "data_processing": [
+  {
+   "layer": "Branch index with branch_kind and construction licence (supply part C; verification 4c)",
+   "source": "quran-data/data/dictionary/tr/root_*_entry.json (11,773 branches: bare 3,326, mixed 5,653, non-bare 749, collocation 1,803, unresolved 242) joined to v15/data/branches.tsv by root_id+branch (11,698 QAC-attested; 11 missing)",
+   "method": "construction.py. v1: construction keys are content roots near the headword in the early-source phrases. v2: adds particle patterns (headword + fī/ʿalā/ʿan/ilā/bayna/lahum) and a quoted-ayah licence (a 3-gram of the ayah inside the branch's phrase, e.g. Mufradāt quoting 5:6).",
+   "coverage": "All collocation-bound branches. Evaluated by hand on every ḍaraba occurrence: B002 precision 0.75 / recall 1.00; B003 0.96/0.90; B004 1/1; B006 0.62/0.83. Preposition constructions of the ʿalā yad type still need grammar attachments.",
+   "cost": "free"
+  },
+  {
+   "layer": "Definitional cross-reference joins (supply part G)",
+   "source": "Branch image, definition and early phrase of every branch; Quranic word forms (v15 words.tsv)",
+   "method": "supply.py. Clitic-stripped lexeme skeletons (alif dropped, so غشاوة matches غشوة) are mapped to Quranic roots. 'Out' joins: a lexeme in an ayah branch's text belongs to another root. 'In' joins: a window root's branch text holds a lexeme of the ayah's roots. Kept: window hits always; hits in the surah for roots with ≤100 uses; Quran-wide hits for roots with ≤12 uses. A dictionary-IDF filter (lexeme in ≤40 branch texts) applies outside the window. Rows are ordered by specificity.",
+   "coverage": "Rows: 37 (1:6), 125 (29:38), 182 (18:86), 387 (4:34), 569 (5:6). Rows with IDF ≤15 or window hits: 21–357. Gold joins found with no case rules: س ب ل B010→ع ن ك ب 29:41 and →غ ش و 2:7, 45:23; ص ل و B006→س ب ق 29:39 and →ت ل و 29:45; ض ل ل B005→ر ب ب 1:2; م ل ك B008→ه د ي 1:6.",
+   "cost": "free"
+  },
+  {
+   "layer": "Loaded-word counts (supply parts E and F)",
+   "source": "words.tsv concordance; grammar/contextual/collocation_profiles_v2.tsv",
+   "method": "KWIC for roots with ≤30 uses; per-form partner counts for roots with ≤60 uses (descriptive counts only, no dominance verdict)",
+   "coverage": "ḥamaʾ: 4 uses (15:26, 15:28, 15:33, 18:86); NOUN with ṣalṣāl 3/6 and masnūn 3/6; ADJ with ʿayn 1/1. nafakha: 20 uses; ṣūr 6/8 (passive), rūḥ 5/9 (active).",
+   "cost": "free"
+  },
+  {
+   "layer": "Same-surah echoes (supply part D)",
+   "source": "words.tsv",
+   "method": "Every other occurrence in the surah of each of the ayah's roots, as ref + surface",
+   "coverage": "For example 5:6: ك ع ب at 5:95 and 5:97; ق و م at 5:8 and 5:97. 4:34: ن ش ز at 4:128; ق و م at 4:5 and 4:135.",
+   "cost": "free"
+  },
+  {
+   "layer": "S-reading input",
+   "source": "network-v3 channel reviews (110 surahs), pericopes, HFT focus_trace (90 surahs), branch images",
+   "method": "surah_sizes.py measured it; windowing at ≤110k tokens",
+   "coverage": "S1 72.5k tokens. Long surahs 320–840k in total, so 3–8 windows. Reviews are missing for S108, S110, S113 and S114, and HFT is optional.",
+   "cost": "free"
+  },
+  {
+   "layer": "NS2 mini-supply for the integrator",
+   "source": "branches.tsv tr_gloss; v15 loanword cards (74 lemmas so far); grammar/attachments/translation_support.tsv (24,935 rows, about 4 per ayah)",
+   "method": "Glosses of the branches cited in the readings, plus the ayah's rows with preserve_ambiguity, target_language_may_force_choice or transfer_risk",
+   "coverage": "All ayat for glosses and grammar rows; loanword cards only for S1, 4:34 and 5:6 (whole Quran about 187 Luna jobs, about 3 h, optional)",
+   "cost": "free (Luna cards optional, need approval)"
+  },
+  {
+   "layer": "Unselected index (verification 4d)",
+   "source": "Readings and commentary",
+   "method": "unselected.py: refs, ≥2-word Arabic quotes and root Bnnn anchors present in a reading but missing from the commentary, collapsed to the reading's sentences",
+   "coverage": "Demo against stand-in commentaries: 18:86 89 items → 59 sentences (about 10k chars); 4:34 132 → 96 (about 18k); 1:6 53 → 40 (about 7k). These overestimate, because the stand-ins were independent runs.",
+   "cost": "free"
+  },
+  {
+   "layer": "Frozen scorecard (evaluation)",
+   "source": "Any commentary files",
+   "method": "scorecard.py: words, paragraphs, mean and max words per paragraph, headings, disclaimer rate, 'değil,' count, tags sourced, same-surah and other-surah refs, pooled ref recall, evaluation-only watch probes; plus guard flags from verification",
+   "coverage": "Demo on 1:6, 4:34, 18:86, 18:96 and 29:38 sets. The disclaimer regex under-detects v5's style and needs calibration against the user's read before freezing.",
+   "cost": "free"
+  },
+  {
+   "layer": "Blind-ayah picker and contamination lint",
+   "source": "v5 editorial prose, channel reviews, HFT",
+   "method": "pick_blind.py: seed 20260928; excludes surahs 1, 2, 4, 5, 18, 29, 96, 100 and 103; one long-surah window (3 ayat, one of ≥20 words) and one short surah (2 ayat of ≥6 words). The lint (specified, not built) greps every brief for named-case refs, roots and phrases taken from NORTH_STAR and the gold files.",
+   "coverage": "Picked 19:70, 19:73, 19:75 and 88:7, 88:17. All have v5 prose, a review and HFT.",
+   "cost": "free"
+  }
+ ],
+ "avoids_known_failures": [
+  {
+   "failure": "Provenance or registry labels used as filters (v3, v5, v6)",
+   "mechanism": "No labels are pushed. branch_kind appears as information plus a verification flag, not a discovery filter (a strict mode only if the user chooses it). Retrieval orders; it never filters."
+  },
+  {
+   "failure": "Worklists crowding out discovery (v4: 0 discoveries against 954 facet decisions; v7 pilot 2)",
+   "mechanism": "Readings carry no obligation lists, ledgers or IDs. Cross-references are data rows, not tasks. The only list the model sees comes after its commentary exists (the unselected index) and carries no must-land rule."
+  },
+  {
+   "failure": "Pushed bulk ignored (0 of 253 rows; 0 of 338 candidates)",
+   "mechanism": "Targeted supply with a median of 23k tokens, a hard budget of 110k, and joins materialized as single rows (F4 'materialize the join'). R_mem gets no bulk at all."
+  },
+  {
+   "failure": "Writer re-judges and rejects on literal grounds (v9 Sol/Luna)",
+   "mechanism": "Opus alone synthesizes and integrates. The integrator may not refute a reading from one of its members. The challenge turn reopens anything dropped."
+  },
+  {
+   "failure": "Upstream verdict echoed (v10 'no value' on 15:26/28/33 for 18:86)",
+   "mechanism": "No verdict-bearing inputs anywhere: no inter-ayah grades and no dossier 'never plain' lists (v12 turned that list into a pruning reason). The watch check confirms no 'no value' text in the supply."
+  },
+  {
+   "failure": "Architecture cannot see the partner in another ayah (v11: 7 of 9 S1 misses)",
+   "mechanism": "The S-slice carries surah-level coalition members from other ayat, plus same-surah echoes (D) and window cross-references (G)."
+  },
+  {
+   "failure": "Chain judged from one member; absence of a Quranic scene used as a filter (v12 '1:4'te tutmaz')",
+   "mechanism": "No per-ayah chain verdicts; disclosure roles replace them. The brief says absence of an open Quranic scene never removes a reading (North Star)."
+  },
+  {
+   "failure": "Records-to-prose handover wall (v13/v14: no contract achieved recall and form together)",
+   "mechanism": "The integrator composes from finished readings whose payoff is already argued in prose, not from 169 atomized records. What it leaves out is computed by script and returned once."
+  },
+  {
+   "failure": "Early set-aside with no reassembly (v15 window set aside the well; v15 1:4 set aside water in mālik as 'not completed by any word in 1:4–6')",
+   "mechanism": "The S-reading issues no set-asides; a script lists the channels it did not take up. Nothing upstream of the integrator can remove a reading."
+  },
+  {
+   "failure": "Cheap selector drops the eye film (v14 composition: Sol kept 19 of 169)",
+   "mechanism": "There is no selector stage. The eye film is argued inside R_lex (all its ingredients are present, watch check). If the integrator drops it, the unselected index names the sentence."
+  },
+  {
+   "failure": "Dilution at very large inputs (thinking 45k → 9k at ≥140k tokens)",
+   "mechanism": "Every call stays at ≤110k tokens. Measured: none of 120 random ayat exceeds 73k for R_lex. The integrator reads about 20–45k tokens."
+  },
+  {
+   "failure": "Instruction confound: no permission to use memory (dict arms cited 0 passages outside the surah in 10 of 14 runs)",
+   "mechanism": "Every reading gets explicit permission to use memory. Memory is marked, and the script verifies it against the branch and its construction scope."
+  },
+  {
+   "failure": "Construction-to-root drift (Lisān; model memory): ḍaraba = travel",
+   "mechanism": "branch_kind and the construction licence are shown in the supply and checked in verification (licence v2). Late lexicons are never used. v15 evidence: 12 of 271 anchors are collocation-bound with no construction found, including 4:34 ض ر ب B005 'ʿalā yad' recorded as a root sense."
+  },
+  {
+   "failure": "Every version replaced before measurement; n=1 decisions against a Jaccard 0.6 noise floor",
+   "mechanism": "Frozen scorecard and decision rules, 2 replicates, paired arms sharing R_lex, pooled recall, blind ayat, and a gated sequence in which no brief changes within a round."
+  },
+  {
+   "failure": "Contamination (CHANNELS.md in v3–v5; 'a well, a support' in v10's brief; v15 scene roles mirror the North Star)",
+   "mechanism": "Fresh briefs with no named-case examples; a contamination lint before any run; named cases used only for evaluation; blind ayat by seeded script; the v5 bar compared on blind ayat."
+  },
+  {
+   "failure": "Writer self-accounting took 20–51% of output (v14)",
+   "mechanism": "No accounting in the prose or the challenge turn. The script's unselected index is the record."
+  },
+  {
+   "failure": "48% of v15 Opus spend was 1-hour cache writes on single-use prompts",
+   "mechanism": "The challenge reuses the integration session (cache reads). Production runs on the Batch API; surah-level prefixes are shared per surah."
+  }
+ ],
+ "watch_cases": [
+  {
+   "case": "29:38 sabal eye film (neighbour-activated rare branch), with spider-house (29:41) and kohl ties",
+   "how_produced": "Generic. R_lex sees every branch of every root in the ayah together: س ب ل B010 (eye film, al-Jawharī's definition, bare), ز ي ن B002/B003 (adorning), ب ص ر (seeing), and ص د د B013 (kohl on a mirror, under fa-ṣaddahum). Script joins put B010's own words next to the surah: عنكبوت → 29:41, and غشاوة → 2:7 and 45:23 (sight covered). The integrator keeps it because R_lex argues its payoff; if dropped, the unselected index returns the sentence once.",
+   "tested": "Supply ingredients: yes (watch_check.py, 6 of 6, full and light supply). Detector output inspected. The scorecard probe on 5 earlier 29:38 readings: eye film and spider tie in 5 of 5, kohl in the 3 Opus runs, absent in Sol and Luna. Not tested: whether the integration keeps it (needs Step 2).",
+   "result": "All ingredients present in the supply; mechanism untested with models."
+  },
+  {
+   "case": "18:86 ḥamaʾ (Quran-loaded word; the observer reading)",
+   "how_produced": "R_lex gets the 4-use concordance and the usage row (NOUN with ṣalṣāl 3/6 and masnūn 3/6; the single ADJ use with ʿayn), plus ع ي ن B008 (sun disk). R_mem cites the creation passages from memory (every earlier Opus run did, the cold arm included). No inter-ayah grade is pushed. The brief's generic loaded-word lens has no example.",
+   "tested": "Supply: yes (3 checks). The scorecard probe shows 'looking at the clay' framing in 2 of 5 earlier readings (full package, v11) and none in cold or dict: the ingredient exists, but the framing depends on synthesis. Not tested with models.",
+   "result": "Ingredients present; framing untested."
+  },
+  {
+   "case": "18:96 nafakha (animating in nearly all uses)",
+   "how_produced": "R_lex gets the 20-use KWIC and the counts: ṣūr 6/8 passive, rūḥ 5/9 active. Phase 1 found this materialized count is what made the animating role appear (v13; full package).",
+   "tested": "Supply: yes (2 checks). The earlier cold arm had 3:49 only (Phase 1).",
+   "result": "Ingredients present."
+  },
+  {
+   "case": "Fatiha road, herd and water chains (North Star; contaminated)",
+   "how_produced": "The S-reading grows them from the S1 channel review (existing chains). Script joins found ض ل ل B005 'لا يعرف ربها' → ر ب ب (1:2) and م ل ك B008 → ه د ي (1:6); supply C has ص ر ط B002 (swallowing) and ق و م B012 (well frame).",
+   "tested": "Joins and supply: yes. gold_guard.py: a strict construction guard would make 4 of the 26 eligible S1 gold items unreachable (G007 م ل ك B008 lead animal; G019 ن ع م B011; G020 ن ع م B012; G023 water coalition with م ل ك B007), because the branches are collocation-bound and their constructions are absent.",
+   "result": "Available, but in direct conflict with the binding guard; the user must decide (open question 1)."
+  },
+  {
+   "case": "29:39–45 ṣalāh heard as 'the one that comes second in a race' (contaminated)",
+   "how_produced": "Cross-reference detector: ص ل و B006 (muṣallī, 'تالي السابق', 'رأسه يتلو الصلا') contains سبق → س ب ق at 29:39 (sābiqīn), and يتلو → ت ل و at 29:45 (utlu). This is the t-l-w / ṣ-l-w cross-definition that quran-roots says could not be made responsibly from memory.",
+   "tested": "Yes, script (supply/29_45.md).",
+   "result": "Found generically, with no case rule."
+  },
+  {
+   "case": "5:6 mirfaq, kaʿb and qiyāman (contaminated)",
+   "how_produced": "Supply C: ر ف ق B004 (elbow, leaning), ك ع ب B002 (Kaʿba). D: ك ع ب at 5:95 and 5:97; ق و م at 5:8 and 5:97. Guard: ق و م B003 (resolving to rise) is licensed by Mufradāt quoting 5:6.",
+   "tested": "Supply: yes (4 checks); licence: yes.",
+   "result": "Present."
+  },
+  {
+   "case": "4:34 ḍaraba travel (the dictionary principle's own example)",
+   "how_produced": "Supply C marks ض ر ب B002 as collocation with 'construction present in this ayah: no'. Licence v2 finds neither B002 nor B005 at 4:34:29. Verification flags any root attribution of these senses.",
+   "tested": "Yes. Earlier Opus runs already applied the fī l-arḍ condition by themselves (cold, cold2, dict, v15), but v15's capped run recorded B005 'ʿalā yad' (restraining) as a root sense at 4:34, and the guard catches that.",
+   "result": "Guard works on the named example; its main value is on the long tail."
+  },
+  {
+   "case": "S100 running horses",
+   "how_produced": "Supply for 100:1 built (4.6k tokens); chains come from the S100 channel review via the S-reading",
+   "tested": "Size only; ingredients not checked",
+   "result": "Not evaluated"
+  }
+ ],
+ "north_star_coverage": [
+  {
+   "id": "NS1",
+   "how": "The integrator brief opens with the plain sense. R_lex and R_mem both ground it. The scorecard's form metrics and the user's blind read ('never disoriented') judge it."
+  },
+  {
+   "id": "NS2",
+   "how": "The integrator owns the Turkish loss, with a mini-supply: concept glosses of cited branches, loanword cards where built, and grammar translation_support rows (preserve_ambiguity, transfer_risk). Memory is allowed (Phase 1: the model knows Turkish drift)."
+  },
+  {
+   "id": "NS3",
+   "how": "R_lex window supply (±7), same-surah echoes and window cross-reference joins; R_mem sees the whole surah (the cold arm cites 2–3× the same-surah passages)."
+  },
+  {
+   "id": "NS4",
+   "how": "The S-reading grounds, extends and connects the channel-review chains, never rediscovering them, and hands each ayah a disclosure role (opens, advances, completes). Ayat are written in parallel from it; for readers who arrive directly, the brief asks that earlier images be re-grounded in one clause."
+  },
+  {
+   "id": "NS5",
+   "how": "Rare-root concordance and descriptive usage counts materialize recurring roles (ḥamaʾ with ṣalṣāl; nafakha with rūḥ and ṣūr). The integrator brief carries a generic loaded-word lens with no example."
+  },
+  {
+   "id": "NS6",
+   "how": "R_mem is the Quran web; R_lex's memory permission removes the dict-arm confound. The integration order puts QeQ after the latent readings, and a contradiction is stated, never used to suppress."
+  },
+  {
+   "id": "NS7",
+   "how": "Readings are finished syntheses that integrate the branches of one root. Cross-reference joins supply the non-canonical-but-supported links. The integrator composes rather than catalogues, and form metrics plus the blind read check it."
+  },
+  {
+   "id": "NS8",
+   "how": "No pruning stage exists between discovery and integration. Each reading runs activation → coalition → maturation inside one mind. The S-reading issues no set-asides. The unselected index plus the challenge turn catch late loss."
+  },
+  {
+   "id": "NS9",
+   "how": "The integrator's stance is composition with coexisting readings; the scorecard counts 'değil,' constructions as a containment flag."
+  },
+  {
+   "id": "NS10",
+   "how": "Every Arabic quotation is tagged src S:A:W or root Bnnn and verified by script. Memory senses are marked and checked against the branch and its construction licence. Flags go back once."
+  },
+  {
+   "id": "NS11",
+   "how": "Late lexicons are never used. Construction-bound senses are flagged. The unselected index stores every left-out reading sentence with its source, so nothing is lost silently."
+  },
+  {
+   "id": "NS12",
+   "how": "The S-reading(s) plus a whole-surah map for long surahs, and the integrators' surah notes, feed one surah-commentary call per surah."
+  },
+  {
+   "id": "NS13",
+   "how": "Opus is used only where synthesis happens. Estimated $1.22 (short) to $2.06 (long) per ayah on the Batch API, about $1.62 weighted over the Quran's ayah mix (930 short, 4,262 medium, 1,044 long). F1 costs $0.62–0.89 if the ensemble does not earn its cost."
+  }
+ ],
+ "cost": {
+  "per_ayah_test_cli": "Primary B, full chain (S-reading share + R_mem + R_lex + integrate + challenge + surah-commentary share): about $2.65 per short ayah and $4.83 per long ayah of the 4:34/5:6 class. Per call: R_mem $0.44 / $1.48; R_lex $0.62 / $1.60; integrate $0.81 / $1.12; challenge $0.39 / $0.47. Weighted about $3.7. Every single call stays under $5. Fallback F1 (R_lex writing the commentary + challenge + shares): $1.32 / $2.13. Paired test design (B reuses F1's R_lex): per ayah-replicate about $3.0 (short) to $5.2 (4:34 class; 18:86, 18:96 and 29:38 should cost less, since their cold arms cost $0.60–0.95 against 4:34's $1.58).",
+  "per_ayah_production_api": "Batch API: primary about $1.22 (short) and $2.06 (long); weighted about $1.62, whole Quran about $10.1k. F1: $0.62 / $0.89. Thinking tokens dominate R_mem on long surahs. Readings in English analytic prose would cut prose tokens (Turkish reading prose runs at 4.47 output tokens per word) but not thinking.",
+  "one_time": "Scripts: free (built here, in scratchpad). S-readings: about $1–1.7 per short surah or long-surah window (included above as $0.06–0.23 per ayah). Optional: Luna loanword cards for the whole Quran (about 187 jobs, about 3 h per v15 STATUS; needs approval). Engineering: a Batch API runner with a shared surah prefix (designed in v8, v11 and v13, never built). Validation Steps 1–3: about $8–9, then about $55–75, then about $40–80, each needing its own approval.",
+  "assumptions": "Rates from the task brief. claude -p: output $20/M; input as a 1-hour cache write $8/M; cache read $0.20/M. Batch: half of list ($2 in, $10 out; cache read $0.20/M). Token counts come from recorded runs (Phase 1 metrics.tsv): R_mem = the v9 cold arm (short median 7.9k in / 16.5k out; long 33k / 46k); R_lex = the dict arm (21.9k in / 20.7k out short; 110k / 46.7k long) with my measured supply sizes. Integrator: two readings of 8–15k tokens each plus 6–15k context, and 30–38k output (assumed). Challenge: 18–22k output with a cached prefix (assumed). Weighting: short = surah ≤40 ayat and ayah <20 words; long = ayah ≥20 words; medium assumed at $1.60 Batch. Caveat: integrator and challenge token counts are untested assumptions, and Batch caching is best-effort."
+ },
+ "experiments_run": [
+  {
+   "what": "Targeted supply builder and its size",
+   "method": "supply.py over 17 named and blind ayat; supply_sample.py over 120 seeded random ayat (full vs light branch index)",
+   "result": "Random 120: full median 22.8k tokens, p90 57.9k, max 72.9k; light median 16.2k, p90 42.7k, max 57.2k; 0 of 120 above 110k. Named, full / light: 1:6 13.7k / 8.3k; 29:38 36.4k / 25.1k; 18:96 52.9k / 38.4k; 18:86 59.5k / 41.2k; 4:34 101.6k / 76.9k; 2:255 127.8k / 102.0k; 5:6 146.5k / 110.7k. The branch index dominates, and cross-references for long ayat (53–85k chars) once tiered.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/B-noniterative/supply.py (outputs supply_sizes_all.txt, supply_sizes_light.txt, supply_sample.txt, xref_tiers.txt, supply/*.md)"
+  },
+  {
+   "what": "Watch-case ingredient presence",
+   "method": "watch_check.py: 21 generic regex/section checks on the supplies (evaluation only)",
+   "result": "21 of 21 present in full mode, and again in light mode",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/B-noniterative/watch_check.py (watch_check.txt, watch_check_light.txt)"
+  },
+  {
+   "what": "Definitional cross-reference detector (never built in any version)",
+   "method": "supply.py part G: clitic-stripped lexeme skeletons mapped to Quranic roots; window, surah and rare-Quran scope; dictionary-IDF filter outside the window",
+   "result": "Found, with no case rules: س ب ل B010 → ع ن ك ب (29:41) and → غ ش و (2:7, 45:23); ص ل و B006 → س ب ق (29:39) and → ت ل و (29:45); ض ل ل B005 → ر ب ب (1:2); م ل ك B008 → ه د ي (1:6). Volume: 37–569 rows per ayah; 21–357 in tiers 1–2.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/B-noniterative/supply.py"
+  },
+  {
+   "what": "branch_kind construction guard, evaluated by hand on ḍaraba",
+   "method": "construction.py v1 (key roots from early phrases) and v2 (particle patterns plus quoted-ayah licence), against my labels for all 58 ḍaraba occurrences",
+   "result": "v2 precision / recall: B002 travel 0.75 / 1.00 (false positives 13:17, 47:4); B003 parable 0.96 / 0.90 (misses 30:58, 39:27, 43:58); B004 1 / 1; B006 0.62 / 0.83. 4:34:29: B002 and B005 not licensed. 5:6 ق و م B003 licensed because Mufradāt quotes 'إذا قمتم إلى الصلاة'.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/B-noniterative/construction.py (construction_drb.txt)"
+  },
+  {
+   "what": "Would the guard have had work in earlier outputs?",
+   "method": "guard_scan.py over 683 v11–v15 output files (textual root Bnnn mentions); v15_guard.py over the structured finding anchors of v15 records",
+   "result": "1,180 distinct citations (mixed 584, bare 385, collocation 137, non_bare 38, unresolved 26, missing 10); 52 collocation citations with the root in the focus ayah, 50 with no construction found (mostly set-asides). In v15's finding anchors, 17 of 271 are collocation-bound and 12 have no construction found. 3 of those 12 are marked for prose: 5:6 ق و م B005 (partner-ayah construction), 1:5 ع و ن B005, 1:7 ض ل ل B004. The record-level ones include 4:34 ض ر ب B005 and 1:4 م ل ك B005/B008. Separately, all three 4:34 v9 Opus arms applied the fī l-arḍ condition unprompted.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/B-noniterative/guard_scan.py, v15_guard.py (guard_scan.tsv/.txt, v15_guard.txt)"
+  },
+  {
+   "what": "Guard against S1 gold (conflict check)",
+   "method": "gold_guard.py on quran-slm/reports/s1_ar3_v1_gold_ledger.jsonl (evaluation only)",
+   "result": "26 eligible items; required anchors: bare 42, mixed 29, collocation 5, non_bare 1. A strict guard makes 4 of 26 unreachable: G007 (م ل ك B008 lead animal), G019 (ن ع م B011), G020 (ن ع م B012) and G023 (water coalition with م ل ك B007).",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/B-noniterative/gold_guard.py (gold_guard.tsv/.txt)"
+  },
+  {
+   "what": "Complementarity: stance-diverse union against a replicate",
+   "method": "ensemble_union.py on Phase 1 refs.json and q2a_branches.tsv",
+   "result": "4:34 refs: cold ∪ cold2 = 47 (gain 1.15, Jaccard 0.60); cold ∪ dict = 39 (1.15, 0.54); cold ∪ v15-nocap = 43 (1.26, 0.30); dict ∪ v15 = 38 (1.46, 0.26). The 3-stance union also has 47 refs, but 10 differ each way. Dictionary-branch signals over 15 ayat: cold 29, dict 138, union 153 (only cold 15, only dict 124). The best single Opus run holds 0.50–0.94 of the union of refs across all Opus configurations (median 0.70). Inference: the stances cover different dimensions (Quran reach against rare branches); replicates add only within one dimension.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/B-noniterative/ensemble_union.py (ensemble_union.txt)"
+  },
+  {
+   "what": "Cost model",
+   "method": "cost_model.py from recorded cold and dict arm tokens plus measured supply; ayah-class weighting",
+   "result": "Primary: $2.65 / $4.83 on claude -p, $1.22 / $2.06 on Batch (short / long). F1: $1.32 / $2.13 on claude -p, $0.62 / $0.89 on Batch. Classes: 930 short, 4,262 medium, 1,044 long; weighted about $1.62 Batch and $3.66 on claude -p.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/B-noniterative/cost_model.py (cost_model.txt, ayah_classes.txt)"
+  },
+  {
+   "what": "Frozen scorecard, mechanical half",
+   "method": "scorecard.py on the 1:6, 4:34, 18:86, 18:96 and 29:38 sets",
+   "result": "Pooled ref recall of single runs: 1:6 v5 middle 0.72, v11 0.49, cold 0.15, v15 0.05, dict 0.04. 18:86: 'looking at the clay' in package and v11, not in cold or dict. 29:38: eye film and spider in 5 of 5 v9 pilots; kohl only in the Opus ones. The disclaimer regex under-detects v5's style, so calibration against the user's read is needed before freezing.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/B-noniterative/scorecard.py (scorecard_demo.txt)"
+  },
+  {
+   "what": "Unselected index size",
+   "method": "unselected.py with earlier cold and dict readings as stand-in R_mem/R_lex and independent later runs as stand-in commentaries",
+   "result": "18:86: 59 sentences (about 10k chars); 4:34: 96 (about 18k); 1:6: 40 (about 7k). Small enough for one challenge turn, and an overestimate, since the stand-ins did not integrate these readings.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/B-noniterative/unselected.py (unselected_demo.txt)"
+  },
+  {
+   "what": "S-reading input sizes",
+   "method": "surah_sizes.py: surah text + channel review + compact HFT + branch-image table",
+   "result": "S1 72.5k tokens; S100 53.5k; S103 33.7k. S29 497k, S18 630k, S5 839k, S2 401k (no HFT): windows are needed (3–8 at 110k). Channel reviews alone run 100–154k chars for long surahs.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/B-noniterative/surah_sizes.py (surah_sizes.txt)"
+  },
+  {
+   "what": "Blind validation ayat",
+   "method": "pick_blind.py (seed 20260928)",
+   "result": "19:70, 19:73, 19:75 (S19, 98 ayat; 19:75 has 25 words) and 88:7, 88:17 (S88). All have v5 editorial prose (the North Star bar), a channel review and HFT. Supply sizes 7.6k–47.3k tokens.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/B-noniterative/pick_blind.py (pick_blind.txt, supply_sizes_blind.txt)"
+  }
+ ],
+ "validation_plan": [
+  {
+   "step": "0. Free, before any model run: (a) the user chooses the guard mode for collocation-bound branches without their construction: strict (drop the root attribution) or frame (allowed only when a coalition supplies the construction's partner frame, and the prose must name the phrase), shown against the 4 affected S1 gold items; (b) write the fresh briefs and run a contamination lint (named-case refs, roots and phrases); (c) freeze the scorecard after calibrating the disclaimer/catalogue regexes on 3 earlier texts the user has already judged; (d) record the decision rules and brief hashes in a ledger",
+   "model_runs": "none",
+   "success_criterion": "Guard mode decided; briefs pass the lint; scorecard and decision rules frozen and hashed",
+   "cost": "$0"
+  },
+  {
+   "step": "1. Integration pilot on EXISTING readings (tests the core hypothesis at the lowest cost): integrate(v9 cold, v9 dict) plus the challenge turn for 18:86, 4:34 and 1:6, 2 replicates each with the reading order swapped. Named cases, so this tests integration mechanics only, not discovery.",
+   "model_runs": "6 integration calls plus 6 challenge turns (Opus 5.5, high, claude -p); needs the user's approval",
+   "success_criterion": "Pre-registered. (1) The integrated commentary's pooled ingredient recall (refs, dictionary phrases and anchors across the two inputs) ≥ the better input's recall + 0.10 on at least 2 of 3 ayat in both replicates. (2) Form: words ≤ 1.5 × the longer input, max paragraph ≤ 300 words, disclaimer rate ≤ the inputs'. (3) 18:86 keeps the creation passages. (4) The user's blind read prefers the integration over the better input in ≥ 4 of 6 pairs. If it fails, drop B and go to Step 2 with F1 alone.",
+   "cost": "about $8–9 (6 × about $1.3–1.5)"
+  },
+  {
+   "step": "2a. Fresh paired arms on 4 ayat, 1 replicate: 29:38, 18:86 (watch) and blind 19:75, 88:17. S-readings for the windows 29:31–45, 18:83–98, 19:66–82 and all of S88. Arm A = F1 (R_lex writes the commentary, then verify, then challenge). Arm B reuses A's R_lex plus R_mem, integrate, verify and challenge.",
+   "model_runs": "4 S-reading calls plus a challenge turn each; per ayah: R_lex, challenge A, R_mem, integrate, challenge B (Opus high); needs approval",
+   "success_criterion": "Mechanics gate. No call fails its schema or cost estimate; verification flags are ≥80% true on manual check; the unselected index stays ≤100 sentences; the watch ingredients reach the prose of at least one arm. Otherwise fix the briefs once (one repair) before 2b.",
+   "cost": "about $14–17 (S-readings about $5.5)"
+  },
+  {
+   "step": "2b. Full paired comparison: 8 ayat (29:38, 18:86, 18:96; blind 19:70, 19:73, 19:75, 88:7, 88:17) × 2 replicates, both arms. Reuse the 2a outputs as replicate 1 only if no brief changed. Optional arm C on the blind S19 and S88 ayat: B plus v5 middle prose as a third reading (tests Q3 cheaply).",
+   "model_runs": "About 16 ayah-replicates × (R_lex, challenge, R_mem, integrate, challenge); optional arm C adds 10 integrate+challenge; needs approval",
+   "success_criterion": "Pre-registered. Adopt B over A only if (1) B's pooled ingredient recall exceeds A's by more than A's replicate spread on ≥5 of 8 ayat; (2) the user's blind read prefers B in ≥2/3 of pairs, with no more 'disoriented' marks; (3) form within the Step 1 bounds; (4) ≤$5 per ayah per arm on claude -p. Otherwise adopt A (F1). Whichever arm is adopted must beat v5 in the user's blind read on ≥3 of 5 blind ayat (the North Star bar). Watch cases are reported per case. No brief may be tuned on these results within the round.",
+   "cost": "about $40–58 (plus about $10 for optional arm C)"
+  },
+  {
+   "step": "3. One blind short surah end to end with the adopted arm: S88 (26 ayat), with the S-reading, all ayah commentaries and the surah commentary. Tests progressive disclosure and NS12.",
+   "model_runs": "1 S-reading, 26 × adopted-arm calls, 1 surah commentary; needs approval",
+   "success_criterion": "The user reads the surah commentary and 4 random ayah commentaries blind against v5. Disclosure holds: every image the plan opens is introduced once and completed where the plan says, checked by script against the plan. Surah commentary judged not a canonical summary. Cost ≤ $5 per ayah.",
+   "cost": "about $40–80 on claude -p (about $20–40 on Batch once the runner exists)"
+  },
+  {
+   "step": "4. Only after 1–3: build the Batch API runner with a shared surah prefix, then scale surah by surah. Every new design change is tested as a new arm on new blind ayat with replicates, never by replacing a version.",
+   "model_runs": "production; approval per batch",
+   "success_criterion": "Measured Batch cost ≤ $2 per ayah on average; the scorecard is tracked per surah",
+   "cost": "about $1.6 per ayah on Batch (estimate)"
+  }
+ ],
+ "risks": [
+  {
+   "risk": "The integrator becomes the new handover wall: it drops surprises or tours both readings as a catalogue",
+   "mitigation": "Its inputs are finished readings with payoff argued, not records. The script's unselected index plus one challenge turn make drops visible. Form metrics and the blind read are part of the decision rule, and Step 1 tests exactly this for about $9 before anything else."
+  },
+  {
+   "risk": "Integration anchors on one reading (R_lex is longer and sourced, so it dominates)",
+   "mitigation": "Randomize reading order per replicate; measure the share of each reading's ingredients retained; the challenge lists the dropped sentences per reading."
+  },
+  {
+   "risk": "The strict construction guard kills 4 of 26 S1 gold items (lead animal, water in mālik, the two nʿm road branches), or dictionary branch_kind labels are wrong in places (the S1 audit found 11 of 157 definitions needing correction)",
+   "mitigation": "The user decides the mode in Step 0. The guard flags and never silently filters. Flags go back once, and a false flag can be answered by showing the construction."
+  },
+  {
+   "risk": "Guard heuristic precision (0.62–1.0 on ḍaraba), with preposition-plus-noun constructions missed",
+   "mitigation": "Licence v2 already uses particle patterns and quoted-ayah n-grams. Next come QAC and grammar attachments (the governed preposition and its complement). The mechanics gate in Step 2a requires ≥80% true flags (F3: a checker with false positives poisons the metric)."
+  },
+  {
+   "risk": "Cost at the claude -p ceiling for long ayat ($4.8 estimated for the 4:34 class) and about $1.6 per ayah in production (above the ~$1 aim)",
+   "mitigation": "Light supply for long ayat; readings in English; Batch runner; shared surah prefix. F1 is adopted if B's gain is within noise. F2 (sequential) is a cheaper middle option."
+  },
+  {
+   "risk": "The S-reading repeats the v15 window's kill (the well set aside) or the v12 surah pass's rejection list",
+   "mitigation": "No set-asides in its brief; a script lists the untaken review channels; a fixed challenge turn at S level; the slice reaches the integrator as disclosure roles, not verdicts."
+  },
+  {
+   "risk": "Too little signal from 8 ayat × 2 replicates; the user's reading time becomes a bottleneck",
+   "mitigation": "Pooled mechanical metrics first, then a blind read on at most 8–10 pairs. Paired design sharing R_lex reduces variance. Decisions only where differences exceed the replicate spread."
+  },
+  {
+   "risk": "Changing R_mem's brief or language (fresh brief, maybe English) loses the cold arm's strengths",
+   "mitigation": "18:86 and 18:96 have earlier cold arms; the scorecard compares new R_mem readings against them (same-surah reach). Revert to Turkish if reach drops."
+  },
+  {
+   "risk": "Contamination through the briefs or the scorecard's watch probes",
+   "mitigation": "Probes are evaluation-only files never read by a model. A lint runs before every run. The blind ayat come from v5 surahs no version tuned on."
+  }
+ ],
+ "reuse": [
+  "v15/data base tables (build.py base: quran, words with pause-mark-safe alignment, lemmas, branches) and v15 check.py / v12 verify_src.py for source checking",
+  "v9/lines/synth.py claude -p invocation pattern (no tools, strict MCP, JSON usage) and v15 run.py gates (estimate < $5, never rerun, one repair, ledger)",
+  "v11 arm S coalition-first stance (prompts/seeds.md, seeds_input.py) as the S-reading's precedent; v15 window infrastructure and pericope records for long surahs; v11 NOTES long-surah design (window seeds → whole-surah map)",
+  "Channel reviews (quran-data network-v3/sNNN/review) as the chain source; HFT focus_trace as an optional compact layer",
+  "quran-data dictionary tr entries: lexicalization_scope.branch_kind and source_phrase_ar (the guard), plus concept glosses",
+  "quran-data grammar/contextual collocation_profiles_v2.tsv (usage counts) and grammar/attachments translation_support.tsv (NS2 grammar)",
+  "study/_project_corpus/qiraat.tsv",
+  "v15 Luna loanword cards (74 lemmas) where present",
+  "Phase 1 scripts and data: dilution metrics.py ref extraction, refs.json, q2a_branches.tsv, overlaps (noise floor)",
+  "quran-roots activation LESSONS.md / v5 METHODOLOGY.md (synthesize free, anchor afterward; mandatory challenge turn), MODEL-BEHAVIOR-FINDINGS F3/F4/F7 (verifiers, materialized joins, unsteered pass)",
+  "quran-slm s1_ar3_v1_gold_ledger.jsonl (evaluation only) and v5 editorial prose (the North Star bar on the blind ayat)",
+  "Scripts built here (scratchpad phase2/B-noniterative): load.py, supply.py, construction.py (guard v2), watch_check.py, guard_scan.py, v15_guard.py, gold_guard.py, ensemble_union.py, cost_model.py, scorecard.py, unselected.py, surah_sizes.py, pick_blind.py, supply_sample.py"
+ ],
+ "open_questions": [
+  "Guard mode (binding principle against the North Star examples): a collocation-bound branch whose construction is absent from the ayah but whose partner frame is supplied by a surah coalition. For example م ل ك B008 (lead animal; the dictionary says only with bees, mounts, camels or sheep) and B007 (water 'malak al-amr') in 1:4. Strict mode makes 4 of 26 eligible S1 gold items unreachable (G007, G019, G020, G023). Is frame mode (allowed, and the prose must name the phrase as phrase-bound) acceptable, or does strict apply?",
+  "Readings in Turkish (as the cold arm) or English analysis prose (cheaper; reusable for EN/DE rendering)? This design defaults to Turkish for the first tests to keep variables fixed.",
+  "Challenge turn: one fixed round (no-reruns rule) or repeat-until-dry as quran-roots recommends? Step 2 could measure a second round's yield on 2 ayat.",
+  "Should R_lex get read-only pull access to the full supply and classical entries (as v15 did), or stay push-only? No evidence yet on whether pulls get used.",
+  "Pooled gold for the blind ayat: will the user mark 'must-have' ingredients from the pooled union after the runs, or judge only by blind pairwise preference?",
+  "Is HFT needed in the S-reading, or are channel reviews enough (HFT is missing for 24 surahs, including S2 and S4)?",
+  "Could a cheap Luna rare-branch sweep serve as a third, low-cost reading if Step 2 shows gaps in rare branches? This is not in the design, and a Luna run would need approval.",
+  "Batch API runner: who builds it, and does best-effort Batch caching hold for the same-session challenge turn?",
+  "Not testable without model runs: whether one Opus integration keeps the union without a catalogue (the core hypothesis); the new S-reading brief's quality; whether the integrator carries the 18:86 observer framing; how precise the guard is beyond ḍaraba."
+ ],
+ "extra": {
+  "which_matters_most": "Methodology. With n=1 comparisons on contaminated named cases, noise (identical cold runs: anchors 8 against 6 of 12, ref Jaccard 0.596) equals the effects decisions rested on, and 7 planned measurements since v11 never ran. The architecture change is the hypothesis this methodology tests first; it is the one contract v13/v14 never tried (integration from finished readings instead of records), and a pilot on existing readings costs about $9.",
+  "precedent_and_counterevidence": "v5's consolidator saw only lane prose and the eye film survived, but without its lexical chain (Sol, weak synthesis, a landing ledger). The v12 surah pass (Opus reading ledgers with an audit stance) rejected the water and well channels. Stance and model matter: Opus, integrative stance, no ledgers.",
+  "ensemble_union": {
+   "4:34_replicate_cold_cold2": {
+    "A": 34,
+    "B": 41,
+    "union": 47,
+    "gain": 1.15,
+    "jaccard": 0.6
+   },
+   "4:34_cold_dict": {
+    "union": 39,
+    "gain": 1.15,
+    "jaccard": 0.54
+   },
+   "4:34_cold_v15nocap": {
+    "union": 43,
+    "gain": 1.26,
+    "jaccard": 0.3
+   },
+   "4:34_dict_v15nocap": {
+    "union": 38,
+    "gain": 1.46,
+    "jaccard": 0.26
+   },
+   "dictionary_branch_signals_15_ayat": {
+    "cold": 29,
+    "dict": 138,
+    "union": 153,
+    "only_cold": 15,
+    "only_dict": 124
+   },
+   "best_single_opus_run_share_of_union_refs": "0.50–0.94, median 0.70 (15 ayat)"
+  },
+  "guard": {
+   "daraba_v2": {
+    "B002": "P0.75 R1.00",
+    "B003": "P0.96 R0.90",
+    "B004": "P1 R1",
+    "B006": "P0.62 R0.83"
+   },
+   "earlier_outputs_textual": {
+    "files": 683,
+    "distinct_citations": 1180,
+    "collocation": 137,
+    "collocation_root_in_focus": 52,
+    "no_construction_anywhere": 50
+   },
+   "v15_finding_anchors": {
+    "total": 271,
+    "collocation": 17,
+    "no_construction": 12,
+    "marked_for_prose": 3
+   },
+   "s1_gold_strict_unreachable": "4 of 26 (G007, G019, G020, G023)"
+  },
+  "supply_tokens": {
+   "random120_full": {
+    "median": 22758,
+    "p90": 57914,
+    "max": 72854
+   },
+   "random120_light": {
+    "median": 16184,
+    "p90": 42656,
+    "max": 57239
+   },
+   "named_full": {
+    "1:6": 13737,
+    "29:38": 36356,
+    "18:96": 52852,
+    "18:86": 59534,
+    "4:34": 101595,
+    "2:255": 127768,
+    "5:6": 146529
+   },
+   "named_light": {
+    "1:6": 8282,
+    "29:38": 25054,
+    "18:96": 38407,
+    "18:86": 41172,
+    "4:34": 76878,
+    "2:255": 102048,
+    "5:6": 110694
+   }
+  },
+  "watch_ingredients_present": "21/21 (full and light)",
+  "blind_ayat": [
+   "19:70",
+   "19:73",
+   "19:75",
+   "88:7",
+   "88:17"
+  ],
+  "cost_estimates": {
+   "primary_cli": {
+    "short": 2.65,
+    "long": 4.83,
+    "weighted": 3.66
+   },
+   "primary_batch": {
+    "short": 1.22,
+    "long": 2.06,
+    "weighted": 1.62
+   },
+   "F1_cli": {
+    "short": 1.32,
+    "long": 2.13
+   },
+   "F1_batch": {
+    "short": 0.62,
+    "long": 0.89
+   }
+  },
+  "fallbacks": {
+   "F1": "A single free reading (R_lex supply + S-slice + memory) that writes the Turkish commentary, then verification and the challenge turn. The cheapest; adopted if B's gain is within noise.",
+   "F2": "Sequential: R_lex first (latent reading), then an integrator that holds the surah text with memory permission and does the Quran-memory/QeQ reading itself, after the latent readings as the North Star orders. It saves one call and tests whether independence matters."
+  },
+  "not_tested": [
+   "Any model behaviour (no runs allowed)",
+   "Integrator and challenge token counts (assumed)",
+   "Guard precision beyond ḍaraba",
+   "Catalogue regexes (need calibration against the user's judgement)"
+  ]
+ }
+}

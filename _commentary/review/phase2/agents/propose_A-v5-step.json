@@ -1,0 +1,539 @@
+{
+ "key": "A-v5-step",
+ "title": "Harvest digest plus two Opus stances: re-synthesising v5 and the upstream data v5 relayed, with the script layers v5 lacked and the branch_kind guard",
+ "summary": "v5 is less a Luna discovery harvest than a checked relay of upstream data. Of its 96,140 anchored activations, 86,031 (89.5%) reuse a branch that a candidate had already nominated: HFT supplied 61,508 (64%), the channel reviews 15,523 (16%) and v12 about 9%. Luna added about 10.5%, and 4.5k of those are branch picks for word-analysis topics (s02). Where HFT exists, a script-only union of HFT traces, channel subchannels and v12 anchors already holds a median 98.2% of the branches v5 activated per ayah (902 ayat; s09). The step that pays is therefore a deterministic digest built from v5's JSON wherever v5 ran, united with v5's upstream everywhere else, and enriched with the script layers v5 lacked:\n- concordance and co-occurrence counts;\n- definitional cross-references;\n- cross-word branch pairs;\n- early-source phrases;\n- Turkish gloss losses;\n- the full list of attested branches;\n- branch_kind flags.\nOpus then reads it in two stances: first a surah or pericope chain map that only assembles and sets nothing aside, then one ayah call that integrates and writes. What the writer leaves out goes into an unused index computed by script. There is no selector and no self-accounting.\nThe prototypes support this:\n- The digest holds every watch-case ingredient. At 29:38: the eye-film branch, the dictionary definition leading to the spider of 29:41, and a script pair linking the eye film to the kohl branch of the ayah's own ص د د (rank 25 of 3,126 pairs). At 18:86: ḥamaʾ's 3-of-3 co-occurrence with ṣalṣāl (15:26/28/33). At 18:96: nafakha in 18 ayat, 10 with the horn and 6 with rūḥ. All 16 Fatiha ingredient branches are present.\n- Verdict labels measurably filtered v5. Its global lane cited 'strong' rows at 17.8% and 'no value' rows at 0.3%, and every connection it cited for 18:86 was strong or medium. So the digest carries no labels, no epistemic status and no reject reasons. It also drops the containment and boundary fields, which are 76–78% negatively framed and are where v5's disclaimers came from.\n- Across all 909 v5 ayat the digest's median is about 18.5k tokens (p90 about 28k). That is the size band in which the dictionary arm kept its full thinking.\nEstimated cost: about $0.8–1.1 per ayah on claude -p tests and about $0.35–0.55 per ayah through the Batch API.",
+ "answers": "Main answer: Q3, yes with conditions. A step on top of v5 works if it reads v5's discovery JSON through a label-free digest and unites it with the upstream data v5 relayed, so that v5's rejects and narrows cost nothing. It must add the layers v5 structurally lacked:\n- concordance counts (18:86 and 18:96 are absent from v5 without them);\n- definitional and pair partners across words and ayat;\n- early-source phrases;\n- Turkish gloss losses;\n- the full list of attested branches;\n- branch_kind flags.\nOpus synthesises in two stances: a chain map first, then one ayah call. Nothing selects before the writer, and an unused index is computed by script.\n\nExtending to the 85% v5 never ran:\n- Do not rerun v5's Luna lanes. They are about 90% relay, a script union reproduces 98% of their branches, their accept/reject step was a pruning layer that echoed labels, and a rerun would cost about $3k (v8 COSTS: ~$0.56/ayah).\n- Tier 2 (2,214 ayat with HFT): the same digest built from HFT, channels and v12 by script. Tested on 29:38, 29:41, 29:45 and 100:1.\n- Tier 3 (3,113 ayat in 24 long surahs without HFT): channels plus v12 (3,097 of 3,136 ayat have v12 findings, about 1.4 per ayah, which is thin), plus an optional cheap Luna-HFT run on the HFT packets that already exist, after a small validation.\n\nPartly answers:\n- Q1: the unharvested value is in not losing readings downstream and in script layers, not in more discovery.\n- Q2a: memory is allowed, marked and checked by script. Data is pushed only for rare branches, counts, phrases and partners.\n- Q5: quran-slm similarity is useful as a within-ayah pair ranker, used for ordering only.",
+ "stages": [
+  {
+   "name": "S0 harvest digest (Tier 1: v5 JSON united with HFT/v12 extras; Tier 2: HFT + channels + v12; Tier 3: channels + v12 (+S0b))",
+   "who": "script (s05_digest.py; Tier-2 adapter s13_tier2_digest.py)",
+   "input": "v5 raw/<aid>/sNNN/S_A/{micro,macro,global}.discovery.json plus input packets (candidate titles and connection ids); HFT focus_trace JSON; v12-cross-run anchors; channel review reader_a_pilot.md; dictionary tr entries (branch_kind, scope notes, source phrases, gloss error profiles, occurrence attachments); qac_root_ayah.tsv; quran-slm corpus_network ranks",
+   "output": "digest.md, the only per-ayah model input. Sections: A activated branches of the ayah's words with the words and ayat that activated them; B other words' branches brought to the ayah; C readings (title, first clause, branch ids); C2 word and grammar note titles; D proposals not bound upstream (branch plus proposer's title, no reason); E every other attested branch of the ayah's roots; F1 counts and co-occurrence for roots in 60 ayat or fewer; F2 definitional cross-references; F3 surah chains touching the ayah; F4 same-surah shared rare roots; F5 Turkish gloss losses and additions; F6 early-source phrases (first two clauses); F7 top-30 cross-word branch pairs. Plus lookup.jsonl: full claims, mechanisms, containment, statuses, every reject reason, full phrases, far xrefs, pairs 31–300",
+   "size_or_tokens": "909 v5 ayat: digest median 37.0 KB ≈ 18.5k tokens (15.4–23.1k at 2.4–1.6 B/token), p90 55.6 KB ≈ 28k, max 109 KB ≈ 55k (5:6-type long ayat, F2-heavy); lookup median ≈ 56k tokens. Tier-2 29:38: 16k tokens",
+   "stance": "supply only; no labels, verdicts, epistemic status or reject reasons pushed",
+   "once_or_per_ayah": "once per ayah, free"
+  },
+  {
+   "name": "S0b Luna-HFT for Tier 3 (optional)",
+   "who": "Luna (gpt-6-luna, max reasoning) via codex exec, existing HFT prompt and schema",
+   "input": "existing HFT pericope-lean packets (all 6,236 exist; median 203 KB ≈ 100k tokens)",
+   "output": "focus_trace JSON (baseline models, context deltas, surprising outliers with word→branch→role traces), read by the Tier-2 adapter",
+   "size_or_tokens": "≈100k in, ≈30–40k out (trace median 29 KB plus reasoning) ≈ $0.07/ayah",
+   "stance": "recall-first discovery trace; no synthesis",
+   "once_or_per_ayah": "once per ayah, 3,113 ayat, only after V3 passes and with user approval"
+  },
+  {
+   "name": "S1 chain map per surah or pericope window",
+   "who": "Opus 5.5, effort high",
+   "input": "cached prefix: window text + channel review subchannels for the surah (existing chains) + per-ayah compact index (A's branches with glosses, C titles, F1 roots in 60 ayat or fewer with concentrated co-occurrence, F2 intra-surah links, F7 top pairs)",
+   "output": "chains (channel id or new), members per ayah with root Bnnn, where each first becomes perceptible and where it completes (disclosure plan), interactions between chains, convergence on the surah's movement, candidate loaded words. Explicitly no set-asides and no per-member verdicts: digests stay complete for S2",
+   "size_or_tokens": "≈40–80k in, ≈30–50k out; long surahs per pericope (network-v3 surah_pericopes.jsonl) so input stays well under 150k",
+   "stance": "assembling and generative (grounds, extends and connects the existing chains; never rediscovers them)",
+   "once_or_per_ayah": "once per window"
+  },
+  {
+   "name": "S2 ayah commentary (single call: integrate, then QeQ, then write)",
+   "who": "Opus 5.5, effort high",
+   "input": "cached prefix (generic brief ≈2.5k tokens with no named cases, surah or window text, S1 map) + this ayah's digest; lookup readable via Read in tests (appendix or audit-only in production, decided by V1)",
+   "output": "Turkish commentary of uncapped length: ground; what Turkish loses (F5 and memory); local resonance; chains opened here per the S1 plan; loaded words (F1 counts); QeQ after the latent readings (supports/expands/shifts/contradicts, memory allowed and marked [bellek]); every Arabic quotation tagged src:S:A:W or src:root Bnnn",
+   "size_or_tokens": "≈29k in at the median digest (p90 ≈38k); ≈22k out including thinking (the dictionary arm's measured shape)",
+   "stance": "generative-integrative with the payoff test at synthesis. The brief says: the digest is material, not a boundary; memory is welcome and marked; a COLLOCATION-BOUND branch is a sense only where its construction is in the text; containment is one sentence in positive form; no ranking, no 'not X but Y', no accounting sections",
+   "once_or_per_ayah": "per ayah"
+  },
+  {
+   "name": "S3 checks and unused index",
+   "who": "script (reuse v15 check.py; new unused.py)",
+   "input": "commentary, digest, lookup, dictionary, Quran text",
+   "output": "(a) source tags resolve to real branches whose root occurs in the ayah or the cited trigger ayah; (b) Arabic quotations match the Quran text; (c) every cited collocation-bound branch has a construction cue (grammar-attachment heuristic, s03) or is flagged; (d) memory-marked senses are checked against the dictionary: attested, branch_kind, construction; (e) unused index: every digest branch, reading, xref and pair not cited, stored per ayah and handed to S5 and to audit",
+   "size_or_tokens": "free",
+   "stance": "mechanical; flags, never rewrites",
+   "once_or_per_ayah": "per ayah"
+  },
+  {
+   "name": "S4 repair (at most one)",
+   "who": "Opus 5.5, effort high",
+   "input": "S2 output + S3 hard flags only (unsourced Arabic, collocation-bound branch cited without construction, invalid ref)",
+   "output": "corrected commentary",
+   "size_or_tokens": "≈$0.3 when triggered",
+   "stance": "corrective, limited to the flags",
+   "once_or_per_ayah": "per flagged ayah, never rerun"
+  },
+  {
+   "name": "S5 surah commentary",
+   "who": "Opus 5.5, effort high",
+   "input": "S1 map + each ayah's commentary (or its lead paragraphs for long surahs) + the surah's unused index grouped by chain",
+   "output": "surah commentary: images, what each ayah contributes, interactions, convergence on purpose; can pick up threads the ayah calls left unused",
+   "size_or_tokens": "≈$1.5–2.5 per surah on claude -p, ≈$0.7–1.2 through Batch",
+   "stance": "communicative, holistic",
+   "once_or_per_ayah": "once per surah"
+  }
+ ],
+ "data_processing": [
+  {
+   "layer": "A/B/C/C2/D harvest (Tier 1)",
+   "source": "v5 discovery JSON (2,844 files) + input packets (candidate titles, connection ids resolved to target refs)",
+   "method": "group activations by branch and list the words or ayat that activated them; readings as title, first clause and branch ids; micro findings with no non-lexical branch become note titles; set-asides are branches excluded or in rejected candidates and activated in no lane of the ayah (median 0, p90 9, max 197 per ayah). Dropped to lookup: mechanism, containment, boundary, resulting_reading, epistemic status, decision reasons",
+   "cost": "free",
+   "coverage": "909 numbered ayat (S1, 5, 12, 17, 18, 19, 31, 32, 87–114); 29:38 from git arms"
+  },
+  {
+   "layer": "Tier-2 harvest adapter",
+   "source": "HFT focus_trace (baseline models, context deltas, surprising outliers, discarded_or_unchanged) + v12-cross-run anchored findings",
+   "method": "map HFT models and v12 findings into the same schema; triggers come from each trace step's source_ref; HFT discards become D",
+   "cost": "free",
+   "coverage": "2,214 non-v5 ayat with HFT; also unites with Tier 1 (HFT has a mean 13 branches per ayah that v5 did not bind)"
+  },
+  {
+   "layer": "E attested-branch inventory",
+   "source": "dictionary tr entries",
+   "method": "every branch of the ayah's roots not already in A/D, with Turkish gloss and branch_kind flag",
+   "cost": "free",
+   "coverage": "all ayat"
+  },
+  {
+   "layer": "F1 concordance and co-occurrence (loaded-word evidence)",
+   "source": "quran-slm qac_root_ayah.tsv",
+   "method": "for roots in 60 ayat or fewer: ayah count, top co-occurring roots with counts, refs of the top partner, all refs if 25 or fewer (roots in more than 700 ayat excluded as partners)",
+   "cost": "free",
+   "coverage": "all ayat; median 452 B"
+  },
+  {
+   "layer": "F2 definitional cross-references",
+   "source": "dictionary definitions (image, what_is, early-source phrase) × surah word forms (lemmas and surfaces)",
+   "method": "generalises Phase 1 sweep/xref2.py. Pushed when the matched token appears in 60 or fewer definitions, or in 200 or fewer and within ±2 ayat, or inside the ayah itself; everything else goes to lookup; both directions (the ayah's branches naming surah words; window branches naming the ayah's words)",
+   "cost": "free",
+   "coverage": "all ayat; median 3.9 KB, p90 11.7 KB"
+  },
+  {
+   "layer": "F3 existing chains",
+   "source": "network-v3 channel reviews (reader_a_pilot.md, 110 surahs; both motif formats parsed)",
+   "method": "subchannels whose ayah anchors include the ayah or whose members include a branch of the ayah's roots: title, scene, members",
+   "cost": "free",
+   "coverage": "110 surahs (S108, 110, 113, 114 missing; all are in v5)"
+  },
+  {
+   "layer": "F4 same-surah parallels",
+   "source": "qac_root_ayah.tsv",
+   "method": "surah ayat sharing two or more of the ayah's roots, or one root found in 150 or fewer ayat, rarest first",
+   "cost": "free",
+   "coverage": "all ayat (weak prototype; the quran-slm ayah_semantic_map ranks from Phase 1 ayah_parallels.py could replace it)"
+  },
+  {
+   "layer": "F5 Turkish loss",
+   "source": "dictionary concept and contextual gloss error profiles (fit, loses, adds, collision)",
+   "method": "for the activated branches of the ayah's words, glosses whose fit is not 'none'",
+   "cost": "free",
+   "coverage": "all ayat; v15 loanword cards (74 lemmas) could be added"
+  },
+  {
+   "layer": "F6 early-source phrases",
+   "source": "dictionary source_phrase_ar (Maqāyīs, ʿAyn, Jamhara, Ṣiḥāḥ, Tahdhīb, Mufradāt tags only; no late lexicons)",
+   "method": "first two clauses per activated non-B001 branch, plus the scope note for collocation-bound branches; full phrase in lookup",
+   "cost": "free",
+   "coverage": "all ayat"
+  },
+  {
+   "layer": "F7 cross-word branch pairs",
+   "source": "quran-slm corpus_network E5 / NeoAraBERT / character directional ranks",
+   "method": "all branch pairs across the ayah's roots (roots in more than 1,500 ayat excluded), fused 0.35/0.35/0.30 symmetric RRF, top 30 pushed and 31–300 in lookup; ordering only",
+   "cost": "free (≈0.4 s per ayah)",
+   "coverage": "all ayat"
+  },
+  {
+   "layer": "branch_kind guard",
+   "source": "dictionary lexicalization_scope.branch_kind + scope note + occurrence grammar attachments",
+   "method": "[COLLOCATION-BOUND] and [derived-form] flags on every branch in A/B/D/E/F7; construction-cue heuristic (an attachment partner's root or surface appears in the branch's source phrase or definition) used in S3",
+   "cost": "free",
+   "coverage": "all 11,773 branches"
+  },
+  {
+   "layer": "not built yet: per-ayah early-citation file",
+   "source": "Mufradāt (8,056 ayah refs), Tahdhīb (3,239), ʿAyn (530), Majāz al-Qurʾān (1,308)",
+   "method": "Phase 1 opportunity 8; each citation shown with its construction; Lisān only as a pointer to early glosses it quotes",
+   "cost": "≈1 day of scripting (Phase 1 estimate)",
+   "coverage": "≈3,900 loci"
+  }
+ ],
+ "avoids_known_failures": [
+  {
+   "failure": "v14 composition: a cheap selector dropped the eye film and the writer had no cue that it existed",
+   "mechanism": "No selector before the writer: Opus S2 sees the whole digest (median ≈18.5k tokens). What it leaves out is computed by script (S3 unused index, never self-reported) and handed to S5 and to audit. S1 assembles chains over the whole window before any ayah is written and is forbidden to set anything aside."
+  },
+  {
+   "failure": "verdict-carrying inputs acting as filters (v10 'no value' echo; v5 'registry=unresolved')",
+   "mechanism": "Measured in v5 (s08): global lane cite rate 17.8% for 'strong' rows against 0.3% for 'no value' and 0.8% for unlabelled; all 16 connections cited for 18:86 were strong or medium. The digest pushes no prior labels, epistemic statuses or reject reasons; D shows unbound proposals with the proposer's title only."
+  },
+  {
+   "failure": "v5 catalogue and accounting prose (landing ledger; 'every finding must land')",
+   "mechanism": "No landing ledger and no must-land list. Readings arrive grouped by branch ids, and the brief applies the payoff test with space following payoff. Coverage is measured afterwards by script, never demanded."
+  },
+  {
+   "failure": "v5 defensive disclaimers ('… anlamına gelmez' in almost every paragraph; 'değil' at 5.4 per 1,000 words)",
+   "mechanism": "The digest drops containment (76% negatively framed) and activation boundary (78%), together 17.3% of v5 JSON text (s10). The brief states containment once, as one positive sentence per reading."
+  },
+  {
+   "failure": "v5 CE lost the lexical chain (it saw prose only)",
+   "mechanism": "Every reading keeps its branch ids; A gives each branch's triggers; F6 gives the early-source phrase. Source tags are required and S3 checks that a cited branch's root occurs in the ayah or the trigger ayah."
+  },
+  {
+   "failure": "v12 chain judged from one member ('1:4'te tutmaz'); v11 unable to see partners in other ayat",
+   "mechanism": "S1 builds chains over the whole window from all ayat's harvest and existing channel chains before any ayah call; F2 and F3 carry partners in other ayat into each digest; per-ayah chain verdicts are never asked for."
+  },
+  {
+   "failure": "v15 early set-aside at the window step (the Fatiha well), with fragments nothing reassembled",
+   "mechanism": "S1 emits no set-asides; the digests (A–F) stay complete for S2 regardless of S1; unused items remain indexed per ayah for S5."
+  },
+  {
+   "failure": "instruction confound: 'work only from the supplied evidence' suppressed outside-surah QeQ (0–3 passages in dictionary-fed arms)",
+   "mechanism": "The brief says the digest is material, not a boundary; memory is encouraged and marked [bellek]; S3 checks memory-marked senses against the dictionary, including branch_kind and construction."
+  },
+  {
+   "failure": "construction-to-root drift (Lisān-style; also in model memory and in v5 itself)",
+   "mechanism": "Measured in v5 (s03): 5,463 activations of collocation-bound branches (5.7%), 87% with no construction cue. A hand check of 12 found 9 true construction-free uses, 2 questionable, 1 false. The digest flags every collocation-bound branch and shows its scope note; the brief rule is generic; S3 flags every such citation without a cue; late lexicons are never read."
+  },
+  {
+   "failure": "bulk evidence re-read by every step (v5's 2.2 MB packets)",
+   "mechanism": "About 18.5k tokens per ayah pushed once to one Opus call; the surah prefix is cached; the lookup is only in tests or as an appendix; no second pass over the harvest."
+  },
+  {
+   "failure": "single-sample decisions (identical runs share about 60% of citations) and targets moving before measurement",
+   "mechanism": "Validation uses two replicates per ayah and a fixed scorecard frozen before V1; blind ayat are drawn by seed."
+  },
+  {
+   "failure": "known answers leaking into prompts (CHANNELS.md, v10 brief, v15 scene roles)",
+   "mechanism": "The brief is generic and names no case. Watch cases appear only in the evaluation script s12_watch_eval.py. F-layers are generic rules tuned only on token document frequency, not on cases."
+  }
+ ],
+ "watch_cases": [
+  {
+   "case": "29:38 sabal eye film (neighbour-activated rare branch)",
+   "how_produced": "A: س ب ل B010 present (v5 macro, relayed from HFT's 'webbed path' outlier, 1 reading); F2: 'B010 … its definition names عنكبوت → 29:41' (the Ṣiḥāḥ phrase 'كأنها نسج العنكبوت'); F6: the Jawharī phrase with its sihah tag; F7: 'س ب ل B010 ~ ص د د B013 (kohl rubbed on a mirror, Tahdhīb)' at rank 25 of 3,126 pairs and 'ب ص ر B001 ~ ص د د B013' at rank 19; ز ي ن B002 in A",
+   "tested": "script only: s05 digest, s11 pair ranks, s12 section check, s13 Tier-2 digest; git show of the v5 29:38 arms (compact, lexical, ledger)",
+   "result": "Every ingredient is in both the Tier-1 digest (v5 git arms) and the Tier-2 digest (HFT only, 16k tokens; there HFT's claim also links beautification to the film). In v5 itself: B010 appears only in the macro lane as an attributed or analogical HFT relay with exploratory status, never in the micro lane, and there is no kohl reading in any arm. New by script: the kohl branch of the ayah's own ṣadda (ص د د B013) paired with the eye film. Whether Opus assembles eye film, kohl, zayyana and the spider house from this digest is untested (V1)."
+  },
+  {
+   "case": "18:86 ḥamaʾ as Quran-loaded word",
+   "how_produced": "F1: 'ح م ء: 4 ayat; with خ ل ق 3, س ن ن 3, ص ل ص ل 3, ب ش ر 2; at 15:26, 15:28, 15:33; all: 15:26, 15:28, 15:33, 18:86'. F5: و ج د 'bulmak' loses the perceiving extension (the observer). No inter-ayah label is pushed.",
+   "tested": "script (s05, s12); resolution of the connection ids v5 cited (16 rows, all strong or medium)",
+   "result": "The v5 harvest lacks it: the 15:26/28/33 rows were pushed to the global lane with 'no value' notes and never cited in any lane. The digest supplies the evidence through F1 only. The observer framing (Iblīs, the angels, Dhū l-Qarnayn's wajada) is left to Opus and is a V1 success criterion."
+  },
+  {
+   "case": "18:96 nafakha animating",
+   "how_produced": "F1: 'ن ف خ: 18 ayat; with ص و ر 10, ر و ح 6, س و ي 4 …; all: 3:49, 5:110, 6:73, 15:29, 18:96, 18:99, 20:102, 21:91, 23:101, 27:87, 32:9, 36:51, 38:72, 39:68, 50:20, 66:12, 69:13, 78:18'; F2: ص و ر B004 (the horn, 18:99) names نفخ",
+   "tested": "script (s05, s12, s08)",
+   "result": "v5 cited none of 15:29/38:72 (rows marked 'medium'). The digest carries the full concordance with role-bearing collocates. The 'animating' role label is not scripted and is left to Opus (V1 criterion)."
+  },
+  {
+   "case": "Fatiha chains: road, herd, water-well (contaminated)",
+   "how_produced": "A/F3/F6/F7 for all 16 ingredient branches (waymark, ʿaylam, road middle, lead animal, water as mainstay, trodden road, swallowing, stray, rabrab herd, gathered water, clouds, well frame, water standing, leaning gait, wild-ass herd, livestock); F2 'ض ل ل B005 … names رب → 1:2'; F7 'ض ل ل B005 ~ ن ع م B005' rank 1 of 432",
+   "tested": "s04 (v5 S1 lanes), s12, s03 construction cue",
+   "result": "All 16 branches are activated in v5 S1, almost all relayed from channel reviews and HFT (Luna's own: a handful of uncandidate activations). S1 is in-sample for quran-slm and v5 prompts carried CHANNELS.md, so this validates nothing about discovery. Binding-rule tension: 5 of the branches are collocation-bound (م ل ك B005/B007/B008, ق و م B016, ع ب د B009) and all 54 of their S1 activations lack a construction cue, the lead animal among them (open question)."
+  },
+  {
+   "case": "5:6 mirfaq / kaʿb / qiyāman (contaminated)",
+   "how_produced": "F2: ر ف ق B004 (elbow, leaning) and ر ف ق B002 (travel companion, naming سفر in 5:6); F1/F2: ك ع ب ↔ كعبة at 5:95/5:97; A/B/F4: ق و م with 5:8",
+   "tested": "script (s12)",
+   "result": "Kaʿb↔Kaʿba and qiyām↔5:8 are present. Mirfaq leaning appears only via F2 (v5 did not activate B004 in A). The 5:6 digest is the largest (≈47k tokens, F2 34 KB)."
+  },
+  {
+   "case": "29:39–45 ṣalāh as 'second in a race' (contaminated)",
+   "how_produced": "Tier-2 digest for 29:45: ص ل و B006 activated (HFT, 2 readings); F2 'ص ل و B006 … names سابق → 29:39'; F6 'المصلى تالي السابق (sihah)'; the 29:39 digest carries the reverse link",
+   "tested": "s13 Tier-2 digests for 29:39, 29:40, 29:45",
+   "result": "Present by relay plus a definitional script link, with no v5 needed."
+  },
+  {
+   "case": "S100 running horses in the surah's argument",
+   "how_produced": "A/F6/F7 (ع د و B002 ~ ض ب ح B002 rank 1 of 60); integration into the argument requires S1 and S5",
+   "tested": "script only",
+   "result": "Ingredients present; the argument-level integration is untested (V2)."
+  }
+ ],
+ "north_star_coverage": [
+  {
+   "id": "NS1",
+   "how": "S2 opens on the ground; the digest keeps the primary branches (A, the lexical mode) and C2 grammar note titles; S3 checks sources."
+  },
+  {
+   "id": "NS2",
+   "how": "F5 pushes the dictionary's recorded Turkish losses, additions and collisions for the activated branches; memory covers Turkish drift, which the model already knows (Phase 1 §4.4). Grammar appears only through C2 titles, one read away."
+  },
+  {
+   "id": "NS3",
+   "how": "A and B (triggers in the window and surah), F7 within-ayah pairs, F2 definitional partners within ±2 ayat, F4 same-surah shared rare roots."
+  },
+  {
+   "id": "NS4",
+   "how": "F3 feeds the existing channel chains into every digest and S1; S1 grounds, extends and connects them with a per-ayah disclosure plan. Chains are never rediscovered: the channel titles are the input."
+  },
+  {
+   "id": "NS5",
+   "how": "F1 counts and co-occurrence (18:86 ḥamaʾ 3 of 3 with ṣalṣāl; 18:96 nafakha horn 10, rūḥ 6); S1 flags candidate loaded words; no canonical label is pushed."
+  },
+  {
+   "id": "NS6",
+   "how": "S2 does QeQ after the latent readings, with memory permitted (the confound removed); F1/F4 refs; relation types supports/expands/shifts/contradicts; QeQ never suppresses a surprise, because no labels are pushed."
+  },
+  {
+   "id": "NS7",
+   "how": "Readings arrive with branch ids for integration; E lists all branches of each root so facets of one concept stay visible; the payoff test applies at synthesis; nothing must land."
+  },
+  {
+   "id": "NS8",
+   "how": "No pruning before S2: D keeps the unbound proposals, the lookup keeps every reason, Tier 1 is united with HFT/v12 extras v5 did not bind, S1 has no set-asides, and the unused index stays visible."
+  },
+  {
+   "id": "NS9",
+   "how": "The containment and boundary texts (76–78% negative) are dropped; the brief asks for one positive containment sentence; S3 counts 'değil'-type frames for review."
+  },
+  {
+   "id": "NS10",
+   "how": "src:S:A:W and src:root Bnnn tags checked by S3; branch plus trigger kept per reading; memory marked and verified against dictionary, branch_kind and construction."
+  },
+  {
+   "id": "NS11",
+   "how": "No invented senses (every branch exists in the dictionary); late lexicons excluded; S3 flags collocation-bound branches without construction; exclusions are indexed, not silent."
+  },
+  {
+   "id": "NS12",
+   "how": "S1 chain map plus S5 surah commentary; the unused index feeds S5."
+  },
+  {
+   "id": "NS13",
+   "how": "Test about $0.8–1.1 per ayah, production about $0.35–0.55 per ayah through Batch and a cached prefix; pushed input ≈18.5k tokens at the median, far below where thinking collapsed; two Opus calls per ayah at most including amortised passes."
+  }
+ ],
+ "cost": {
+  "per_ayah_test_cli": "≈$0.8–1.1 typical, ≤$1.6 worst.\n- S2 ayah call: ≈$0.67 at the median digest (≈29k input tokens billed as 1-hour cache write at $8/M = $0.23, plus ≈22k output including thinking at $20/M = $0.44). ≈$0.74 at the p90 digest.\n- S1 chain map: $1.0–1.6 per window, amortised to $0.12–0.23 per ayah for 7–10-ayat windows (v11 arm S measured $1.64 for S1).\n- S5 surah commentary: $1.5–2.5 per surah.\n- S4 repair: ≈$0.3, only on flags.\n- Every call stays under the $5 gate.",
+  "per_ayah_production_api": "≈$0.35–0.55.\n- S2 via Batch: ≈$0.27 (≈21k uncached input × $2/M + ≈8k cached prefix read ≈$0.002 + 22k output × $10/M).\n- S1: ≈$0.6 per window, about $0.05–0.1 per ayah.\n- S5: ≈$1 per surah, about $0.02 per ayah on average.\n- Repair: ≈$0.03.\n- Optional complementary memory-QeQ call if V1 needs it: +≈$0.15.\n- Whole Quran: ≈$2.2–3.4k.",
+  "one_time": "- Scripts: free (prototyped here).\n- Optional S0b Luna-HFT for the 3,113 ayat without HFT traces: ≈$0.07/ayah, about $220 standard or $110 Batch, only after V3.\n- Validation V1–V3: ≈$21 on subscriptions.\n- Not recommended: rerunning v5's Luna lanes on the remaining 5,327 ayat (≈$0.56–0.69/ayah by v8_batch/COSTS.md, ≈$3,000–3,700).",
+  "assumptions": "- Opus 5.5 at $4 input / $20 output per MTok, thinking billed as output (v15 config.json; Phase 1 §4.7). claude -p bills input as a 1-hour cache write at 2×. Batch is 50% off; cache read is 0.1×.\n- Luna at $0.20/$1.20 per MTok (v8_batch/COSTS.md).\n- Tokens = UTF-8 bytes / 2.0: the median of 37 single-turn Opus runs in dilution metrics.tsv is 2.06 (range 1.6–3.0).\n- The output shape copies the v9 dictionary arm (median 22.8k in, 22.2k out including 15.3k thinking, $0.62).\n- The surah prefix is ≈8k tokens for short windows and larger for long pericopes, amortised by caching.\n- No actual runs were made, so every figure is an estimate."
+ },
+ "experiments_run": [
+  {
+   "what": "Branch index with branch_kind, scope notes, early-source phrases, Turkish gloss profiles and occurrence grammar attachments",
+   "method": "parse 1,708 quran-data dictionary tr entries",
+   "result": "11,773 branches; kinds: bare 3,326, mixed_non_bare 5,653, non_bare 749, collocation 1,803, unresolved 242 (matches Phase 1)",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/A-v5-step/s01_branch_index.py"
+  },
+  {
+   "what": "How much of v5 is upstream relay vs Luna's own; reject reasons; branches lost upstream",
+   "method": "full scan of 2,844 discovery JSON joined to their input packets' candidate inventories",
+   "result": "96,140 activations:\n- relayed branch nominated by the candidate: 86,031 (89.5%). By source: HFT 61,508, channel 15,523, v12 publications 6,025, v12 reader walks 2,971.\n- Luna-added branches inside candidate findings: 7,218 (4,507 of them in micro word-analysis findings).\n- Luna uncandidate findings: 2,891 (3.0%).\n17,675 rejects by reason class: anchor or binding 35%, ledger or duplicate 16%, lane boundary 7%, literal or mechanism 3%, unclassified 39%. 9,367 branch-ayah pairs were excluded and activated in no lane of the ayah.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/A-v5-step/s02_v5_scan.py (out/v5_scan.txt)"
+  },
+  {
+   "what": "branch_kind guard audit of v5",
+   "method": "every v5 activation of a collocation-bound branch; construction-cue heuristic from grammar attachments; hand check of 12+12 random cases",
+   "result": "5,463 collocation-bound activations (5.7%): cue absent 4,738 (87%), present 505 (9%), root absent from the carrier ayat 220. Hand check: 9 of 12 absent flags are true construction-free uses (2 questionable, 1 false: اطلع على was present); 6 of 12 present flags are true. All 54 S1 activations of collocation-bound Fatiha branches lack a cue.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/A-v5-step/s03_collocation_check.py (out/collocation_check.json)"
+  },
+  {
+   "what": "Fatiha ingredient presence in v5 S1 (evaluation only)",
+   "method": "16 ingredient branches across the 21 S1 lane files: activations with status, mode, relay vs Luna; exclusions",
+   "result": "All 16 activated (4 to 37 activations each), overwhelmingly relayed from channels, HFT or v12, mostly with exploratory status. Some global-lane exclusions for lane-boundary reasons ('The lane has no 1:7 …').",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/A-v5-step/s04_fatiha_check.py"
+  },
+  {
+   "what": "Prototype digest: 12 ayat, then all 909 v5 ayat",
+   "method": "deterministic builder over three lanes plus seven script layers; section sizes measured",
+   "result": "909 ayat: digest median 37.0 KB ≈ 18.5k tokens, p90 55.6 KB ≈ 28k, max 109 KB ≈ 55k; lookup median ≈56k tokens. Findings median 23, branches median 49. Section medians in bytes: A 2,592, B 4,530, C 5,934, E 1,865, F2 3,878, F3 5,064, F7 3,339. Sample digests: 1:6 62 KB, 18:86 54 KB, 18:96 51 KB, 100:1 49 KB, 103:1 24 KB, 29:38 45 KB, 5:6 95 KB.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/A-v5-step/s05_digest.py, s07_all_sizes.py (out/digests/, out/all_digest_sizes_final.txt, out/all_digest_sizes.json)"
+  },
+  {
+   "what": "Did pushed inter-ayah prior labels filter v5?",
+   "method": "label distribution of pushed connection rows vs rows cited in discovery, across 915 ayat",
+   "result": "Global lane cite rates: strong 17.8%, medium 7.1%, weak 2.2%, no value 0.3%, unlabelled 0.8%. Macro: 88.2 / 72.0 / 49.5 / 28.9%. Every connection cited for 18:86 was strong or medium; the 15:26/28/33 rows ('no value') were never cited.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/A-v5-step/s08_label_echo.py (out/label_echo.txt)"
+  },
+  {
+   "what": "Can a script-only harvest reproduce v5's branches?",
+   "method": "902 v5 ayat whose surah has HFT: v5 activated-branch set compared with HFT traces ∪ channel subchannels anchored at the ayah ∪ v12 anchors",
+   "result": "Coverage median 98.2% (mean 96.4%); HFT alone median 91.4%, channels 20.4%, v12 10.9%. v5-only branches: ≈2 per ayah, mostly contextual_resonance (1,361 of 1,879). The script union has a mean 13 branches per ayah that v5 did not bind.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/A-v5-step/s09_script_harvest_coverage.py (out/script_harvest_coverage.txt)"
+  },
+  {
+   "what": "What the digest drops, and how negatively framed it is",
+   "method": "byte share and negation-regex share of each field over all v5 findings",
+   "result": "Decision reasons 12.5%, mechanism 11.9%, epistemic 10.0%, activation boundary 9.2% (78% negatively framed), containment 8.1% (76% negatively framed), resulting_reading 7.8%, claim 7.6% (11%), title 1.9%.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/A-v5-step/s10_dropped_fields.py (out/dropped_fields.txt)"
+  },
+  {
+   "what": "Neighbour-activated rare branch by script (F7)",
+   "method": "all cross-word branch pairs within an ayah ranked by the quran-slm fused affinity",
+   "result": "29:38: eye film ~ kohl (ص د د B013) rank 25 of 3,126; eyesight ~ kohl rank 19; eye film ~ eyesight rank 192; eye film ~ zayyana B002 rank 2,790. 1:7: stray ~ livestock rank 1 of 432 (in-sample for S1). 100:1: ʿadw B002 ~ ḍabḥ B002 rank 1 of 60. 1:6 well frame ~ leaning gait rank 137 of 313. 5:6: kaʿb ~ rijl rank 113, mirfaq ~ yad rank 352 of 35,510. Per-root ranking (s06): the eye film is 3rd of 8 sabal branches.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/A-v5-step/s11_pair_layer.py, s06_intra_ayah_coherence.py"
+  },
+  {
+   "what": "Watch-ingredient presence per digest section (evaluation only)",
+   "method": "regex over the 12 prototype digests",
+   "result": "All tracked ingredients present. The eye film is in A, F2, F6 and F7. The spider link is in F2. Kohl and the eye-film~kohl pair are in F7. The ḥamaʾ creation refs and ṣalṣāl co-occurrence are in F1. The nafakha spirit and concordance are in F1. The 16 Fatiha branches are in A, F3 and F6. Stray↔rabb is in F2, stray~livestock in F7. Mirfaq leaning is in F2, kaʿb↔Kaʿba in F1 and F2, qiyām↔5:8 in A, B, F1, F2 and F4.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/A-v5-step/s12_watch_eval.py (out/watch_eval.txt)"
+  },
+  {
+   "what": "Tier-2 adapter (no v5, no Luna)",
+   "method": "same digest built from HFT traces plus v12 anchored findings",
+   "result": "29:38 at 16k tokens: B010 via the HFT 'webbed path' outlier (claim links beautification to the film), F2 spider, F6 Ṣiḥāḥ phrase, F7 eye film ~ kohl. 29:45: ص ل و B006 plus F2 link to سابق at 29:39. 100:1 at 11.6k tokens.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/A-v5-step/s13_tier2_digest.py (out/digests_tier2/)"
+  },
+  {
+   "what": "Coverage and cost facts for the extension",
+   "method": "file counts",
+   "result": "- HFT traces: 3,123 ayat in 90 surahs. Non-v5 ayat: 5,327, of which 2,214 have HFT.\n- 24 surahs (3,113 ayat) have no HFT trace, but HFT packets exist for all 6,236 ayat (median 203 KB).\n- v12 findings cover 3,097 of 3,136 ayat in those surahs (4,325 findings).\n- Channel reviews: all 24.\n- Token ratio: 2.06 bytes/token median over 37 single-turn Opus runs.",
+   "script_path": "inline checks (see s09 and the metrics.tsv query in /Volumes/OZTURK/_projects/prose_generation/_commentary/review/phase1/scripts/dilution/metrics.tsv)"
+  }
+ ],
+ "validation_plan": [
+  {
+   "step": "V0 (done, free): digest and layers built; watch ingredients located by section; Tier-2 parity on 29:38/29:41/29:45/100:1; full-corpus size distribution",
+   "model_runs": "none",
+   "success_criterion": "All tracked ingredients present (met); p90 digest ≤ 30k tokens (met: ≈28k)",
+   "cost": "$0"
+  },
+  {
+   "step": "V0b (free): build the S3 checker (reuse v15 check.py plus the construction cue plus the unused index); write the generic brief with no named cases; freeze the scorecard before any run; --dry prompt sizes",
+   "model_runs": "none",
+   "success_criterion": "Checker passes on existing v15 outputs; the brief is reviewed by the user for case leakage",
+   "cost": "$0"
+  },
+  {
+   "step": "V1: S2 digest-only (no chain map), two replicates each, on 29:38 (Tier-1 digest from the v5 git arms), 18:86, 18:96, 5:6, 100:1 and two blind v5 ayat drawn by fixed seed outside the named cases",
+   "model_runs": "14 Opus 5.5 effort-high calls via claude -p (user approval required)",
+   "success_criterion": "- 29:38: the eye-film reading is anchored to س ب ل B010 with an in-ayah trigger, stated with the road reading intact, and tied to 29:41 in at least 1 of 2 replicates (both for 'robust'); kohl/ṣadda B013 or zayyana counts as a bonus.\n- 18:86: 15:26/28/33 read as the creation clay seen by an observer, with a coexisting reading for wajada and Dhū l-Qarnayn, and no dismissal of the 'root similarity only' kind.\n- 18:96: the concordance of animating uses is cited and read into the scene while keeping the smith.\n- QeQ: distinct refs ≥ the cold arm (18:86: 32, 18:96: 34, 5:6: 24, 100:1: 17) allowing for the ≈60% replicate overlap.\n- Checks: 0 unsourced Arabic; 0 collocation-bound branches cited without a construction; 'değil' rate ≤ the cold arm.\n- Blind ayat: materially exceed the v5 editorial on NS3/NS5/NS7 (my comparison).\n- Cost: each call ≤ $1.2.\n- Decision rule: if QeQ breadth falls short in both replicates, run V1b (a complementary memory-QeQ call on 5 ayat, ≈$2) before V2.",
+   "cost": "≈$10"
+  },
+  {
+   "step": "V2: S100 end to end (S1 chain map, 11 × S2, S5 surah commentary)",
+   "model_runs": "13 Opus calls",
+   "success_criterion": "The running horses become part of the surah's argument in S5. Disclosure is progressive: a chain is introduced once and advanced, not repeated per ayah. My review of the unused index finds no watch ingredient dropped without trace. Materially exceeds the v5 S100 editorials and middle layer on NS3/NS4/NS7/NS12. ≤ $1.1 per ayah.",
+   "cost": "≈$10"
+  },
+  {
+   "step": "V3 (optional, only if Tier 3 is wanted): Luna-HFT on the existing packets for S100 (11 ayat) and 29:38, compared with Sol-HFT",
+   "model_runs": "12 Luna max calls via codex exec",
+   "success_criterion": "≥80% recall of the branches Sol-HFT activated per ayah; for 29:38, a B010 activation or a webbed-path-type outlier. If this fails, Tier 3 runs on channels + v12 + script layers only.",
+   "cost": "≈$1"
+  }
+ ],
+ "risks": [
+  {
+   "risk": "v5 and Tier 2 inherit the blind spots of HFT and the channel reviews (90% relay; 42% of Quranic branches never activated by HFT or v12, 64% for rare roots)",
+   "mitigation": "E pushes every attested branch; F2/F7 add partners independent of the relay (the 29:38 kohl pair came from F7 alone); memory is permitted in S2."
+  },
+  {
+   "risk": "The S1-based evidence is contaminated (v5 prompts carried CHANNELS.md; quran-slm was calibrated on S1; the channel reviews relay the S1 chains)",
+   "mitigation": "Validate on 29:38, 18:86/96, 5:6, S100 and two seeded blind ayat; treat S1 as a sanity check only."
+  },
+  {
+   "risk": "The construction-cue heuristic is noisy (hand check: 9/12 true absent flags, 6/12 true present flags)",
+   "mitigation": "Use it only as a flag. Opus sees the dictionary's scope note, S3 lists every collocation-bound citation for my review, and nothing is auto-deleted. A better cue could use prep_base plus the lexical partner."
+  },
+  {
+   "risk": "Long ayat produce large digests (5:6 ≈47k tokens; max ≈55k), mostly from F2",
+   "mitigation": "Still below the ≈150k level where thinking collapsed. Order F2 by definitional document frequency; V1 includes 5:6 to test. The B long tail and F3 member glosses can be moved to lookup if V1 shows dilution."
+  },
+  {
+   "risk": "The lookup is never read (v6: delivery counters claimed full inspection)",
+   "mitigation": "The digest alone is designed to suffice; V1 logs Read calls; production appends the lookup or keeps it audit-only by measured use."
+  },
+  {
+   "risk": "One call holding two stances loses QeQ or the latent readings",
+   "mitigation": "The digest pushes no verdicts and memory is explicitly allowed. V1 compares QeQ breadth with the cold arm; the fallback is a complementary memory-QeQ call (V1b), still within about $0.5 per ayah in production."
+  },
+  {
+   "risk": "S1 turns into an early filter as v15's window did",
+   "mitigation": "S1 output contains no set-aside field; S2 always receives the full digest; the S3 unused index goes to S5."
+  },
+  {
+   "risk": "Memory folds collocation senses into roots like Lisān",
+   "mitigation": "[bellek] marking plus S3 verification against the attested branch and branch_kind/construction; late lexicons are never read."
+  },
+  {
+   "risk": "Luna-HFT quality for Tier 3 is unknown (HFT was run on Sol max)",
+   "mitigation": "V3 before any bulk run; if it fails, run Tier 3 on channels, v12 and the script layers."
+  },
+  {
+   "risk": "v5's templated or generic readings (18 files with templated triggers) add noise in C",
+   "mitigation": "Titles and first clauses only; no must-land; the payoff test at synthesis."
+  },
+  {
+   "risk": "The North Star's own Fatiha examples use collocation-bound branches without their construction (e.g. the lead animal), so the binding rule could erase a target reading",
+   "mitigation": "Surface it to the user as an open question; do not special-case it in any prompt."
+  }
+ ],
+ "reuse": [
+  "Prototype scripts in /private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/A-v5-step/ (s01–s13; out/digests, out/digests_tier2, out/git2938)",
+  "Phase 1 scripts: sweep/xref2.py (generalised into F2); distance/branch_choice_eval.py fused affinity (F7); v5-v8/disc.py and rows.py (scan pattern); dilution/metrics.tsv (cold-arm baselines and token ratio)",
+  "v15 run.py infrastructure (ledger, $5 estimate gate, no reruns, one --repair, --dry) and check.py source-tag checks; v15 loanword cards (74 lemmas) and use profiles for F5/F1",
+  "v5 raw discovery JSON and input packets (Tier 1); v8_batch/batch_discovery.py transport for Luna Batch (S0b)",
+  "HFT focus_trace runs and the existing HFT packets, prompt and schema for all 6,236 ayat (Tier 2 and 3)",
+  "quran-data dictionary tr entries (branch_kind, scope notes, early-source phrases, gloss error profiles, grammar attachments); channels/network-v3 reviews and surah_pericopes.jsonl (S1 windows); v12-cross-run anchored findings",
+  "quran-slm qac_root_ayah.tsv (F1/F4), corpus_network and corpus_ensemble directional ranks (F7), ayah_semantic_map (possible F4 upgrade)"
+ ],
+ "open_questions": [
+  "Binding rule vs North Star: may a collocation-bound branch count as 'construction present' when the construction's complement is supplied by a neighbouring word rather than syntactically? The lead animal (م ل ك B008, bound to ملك الإبل/الدابة) and water as mainstay (م ل ك B007) have no construction cue in any of their S1 activations.",
+  "In production (Batch, no tools), should the lookup ride along as an appendix (≈+$0.10 per ayah via Batch) or stay audit-only? V1's Read logs should decide.",
+  "Is Tier 3 wanted at digest depth (optional Luna-HFT, ≈$110–220 once), or is channels + v12 + script layers acceptable for the 24 long surahs?",
+  "Should the early-citation file (Mufradāt, Tahdhīb, ʿAyn, Majāz; about a day of scripting) be built before V1 so F6 can quote construction-bound early glosses per ayah?",
+  "Not tested: whether Opus actually assembles the 29:38 eye film, kohl and spider house, and the 18:86 and 18:96 loaded-word readings, from this digest. No model run was made; every quality claim about outputs is pending V1/V2.",
+  "The token ratio (2.0 bytes/token) and output size (22k) are borrowed from earlier runs; actual costs may vary ±30%."
+ ],
+ "extra": {
+  "relay_share_of_v5_activations": {
+   "total": 96140,
+   "relayed_branch": 86031,
+   "by_source": {
+    "hft": 61508,
+    "channel": 15523,
+    "v12_publication": 6025,
+    "v12_reader_walks": 2971
+   },
+   "luna_added_in_candidate_findings": 7218,
+   "luna_uncandidate_findings": 2891
+  },
+  "script_union_coverage_of_v5_branches": {
+   "ayat": 902,
+   "median": 0.982,
+   "mean": 0.964,
+   "hft_only_median": 0.914
+  },
+  "label_echo_global_cite_rate": {
+   "strong": 0.178,
+   "medium": 0.071,
+   "weak": 0.022,
+   "no_value": 0.003,
+   "unlabelled": 0.008
+  },
+  "collocation_audit": {
+   "collocation_activations": 5463,
+   "cue_absent": 4738,
+   "cue_present": 505,
+   "root_absent": 220,
+   "hand_check_absent_true": "9/12",
+   "hand_check_present_true": "6/12"
+  },
+  "digest_size_909_ayat": {
+   "median_bytes": 36965,
+   "p90_bytes": 55577,
+   "max_bytes": 109107,
+   "median_tokens_est": 18482,
+   "p90_tokens_est": 27788,
+   "lookup_median_tokens_est": 56287
+  },
+  "dropped_field_negative_share": {
+   "containment": 0.76,
+   "activation_boundary": 0.78
+  },
+  "pair_ranks": {
+   "29:38 sabal B010 ~ sadd B013 (kohl)": "25/3126",
+   "29:38 basar B001 ~ sadd B013": "19/3126",
+   "1:7 dalal B005 ~ naam B005": "1/432",
+   "100:1 adw B002 ~ dabh B002": "1/60"
+  },
+  "extension_coverage": {
+   "non_v5_ayat": 5327,
+   "with_hft": 2214,
+   "without_hft": 3113,
+   "hft_packets_exist_all": 6236
+  }
+ }
+}

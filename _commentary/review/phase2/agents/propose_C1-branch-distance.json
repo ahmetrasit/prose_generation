@@ -1,0 +1,688 @@
+{
+ "key": "C1-branch-distance",
+ "title": "Neighbour activation with typed paths and the construction guard: a replacement for the single branch distance (Q5, Q2b)",
+ "summary": "I tested this by script on independent labels. Quran-slm's similarity is still the best way to choose between branches once the partner branch is known. On 12,000 v12 cases where the partner branch is given, NeoAraBERT scores MRR 0.521 on non-B001 targets. That compares with 0.337 for an exact random order (Phase 1's \"random 0.145\" understated the baseline). No learned combination beats it: surah-grouped 5-fold CV gives 0.503, and the learning curve is flat from 10% of the labels. Similarity is still the wrong tool for the harvest. That task is neighbour activation (NA): given only the ayah's words, which rare branch of each word lights up, through what, and is that sense allowed there. On the same independent v12 data, rebuilt as NA cases (3,053 latent targets), two orderings do better than similarity: (a) a floor-gated fusion of typed path scores and (b) a \"convergence\" count, i.e. how many independent path types tie a branch to one neighbouring word. Latent-branch MRR is 0.594–0.606 against 0.558 for Neo, and recall@3 is 0.72–0.73 against 0.685. Both apply the dictionary's own construction guard. Every candidate carries a path in words. On the 29:38 watch case the harvest puts the sabal eye film first of the 8 س ب ل branches with two explicit paths. One is \"Quran pairs «غشاوة» with مستبصرين (2:7, 45:23)\". The other is \"names «العنكبوت» = 29:41, the only ayah with that word\"; the IDF cross-reference ranks 29:41 first of 6,235 ayat. The guard is a real, measurable fix, not a formality. 19.6% of slm's top-1 branch pairs for same-ayah words, and 18.8% of v15-style scene links, rest on a collocation-bound branch whose construction is absent. ḍaraba at 4:34 gets 40 travel-scene partners only through B002. Independent readers' rejects carry 2.7× more such branches (16.4% vs 6.1% of pairs). The guard also collides with 8 gold items the user valued: 5 S1 anchors, including mālik as lead animal, and 3 ع م ل links in 29:38. So I recommend it as a labelled \"echo only\" tier that is never stated as the word's sense, and I leave the strict filter to the user. Within the ayah, NA does not reach S1's surah-level coalitions: the median relative rank of S1 anchors is 0.33. Those need the surah step built on the existing chains.",
+ "answers": "**Q5 (main).** Replace \"one distance\" with a typed, context-gated neighbour-activation (NA) harvest.\n- **Candidates:** ayah words, then the ±3-ayah window, then definitional pointers into the same surah. The global neighbour list is never used for discovery.\n- **Scoring:** every branch of every word is scored against every other window word, over those of the word's branches that are senses there. There are 8 path types:\n  - Neo similarity;\n  - E5 clause similarity (M3, using quran-slm's July clause vectors);\n  - rare shared component (M4);\n  - IDF definitional cross-reference (M4);\n  - a new lemma-level corpus bridge: a lemma named in the branch definition that the Quran pairs with the neighbour's root, scored by binomial significance, with witness ayat;\n  - Luna scene complement (M2);\n  - dictionary neighbour;\n  - dictionary contrast.\n- **Order:** convergence or floor-gated RRF, with similarity breaking ties. Nothing is filtered, and each line keeps its path.\n- **Performance:** on independent NA cases this beats Neo by +0.036 to +0.048 latent-branch MRR (conv_eval.json, na_eval3.json). With the partner branch given, it only ties Neo (T1).\n- **Scope:** it adds what similarity cannot:\n  - the ayah-external partner (29:41 is rank 1 of 6,235 ayat by xref_idf);\n  - the construction guard;\n  - explanations;\n  - via the harvest's construction-grouped concordance, same-root recurrence, which quran-slm excludes by design (ك ع ب: 5:95, 5:97; ن ف خ: horn ×10 vs \"fī … min rūḥī\" ×5 vs fī ×3).\n- **What it does not add:**\n  - contrasts (G014/G015: 0 of 62 S1 pairs found by the dictionary's contrast relations);\n  - zayyana ↔ eye film (no metric links them);\n  - S1's surah coalitions.\n- **M8 (set-conditioned growth):** helps the typed union (road spine: 21 → 26 of 30 members recovered) but hurts pure similarity (23 → 15). Use it only at surah level, with the typed union, as candidates for grounding the existing chains.\n\n**Q2b.** There are enough labels to evaluate and to tune 2–3 weights: 30k strong v12 branch pairs, 3,053 NA latent cases, and 479 reject pairs. There is no case for a learned metric.\n- A conditional logit on 12 typed features reaches 0.503, below Neo's 0.521.\n- With the guard as a feature it reaches 0.509.\n- The learning curve is flat (0.500 at 10% of training surahs, 0.503 at 100%): the features are the bottleneck, not the label count.\n- Adding a branch-order prior gives 0.695 overall but 0.422 on non-B001 targets: it learns the readers' primary-sense bias.\n- The strong-vs-reject AUC is at most 0.556 for any metric, so nothing separates good readings from bad ones.\n- For the aha layer (complementary roles, contrasts, loaded words) there is no gold beyond S1/29:38-size sets. S1 is in-sample for slm, and v15's scene inventory is contaminated.\n- A cross-encoder fine-tune is the only learned option left untried. It could not be run: the quran-slm .venv's python3.13 binary is missing, so there is no torch.\n\n**Also touches Q1:** the guard, the lemma bridge and the construction concordance are cheap, unharvested layers.\n\n**Also touches Q2a:** the push supplies the rare branches, witness ayat and counts that the model lacks, and the guard gives memory verification a construction check.",
+ "stages": [
+  {
+   "name": "S0 build indices (once)",
+   "who": "script (Python 3.14 + numpy; no model)",
+   "input": "quran-slm catalog/cards/rank maps/embeddings and s1_ar3_v1 clause embeddings; dictionary tr/*_entry.json (branch_kind, neighbor_distinctions, occurrence_evidence alignments); furuq_v4.sqlite lexical_unit_senses (collocation expressions); v15 words/lemmas/frames; QAC via v15 words.tsv",
+   "output": "cache/*.pkl: card→lemma mentions, lemma/root ayah sets, random-pair floors (90th/95th/99th percentiles), construction signatures for 1,564 of 1,641 collocation branches, status for all 66,187 occurrence × collocation-branch pairs",
+   "once_or_per_ayah": "once (rerun when the dictionary changes)",
+   "size_or_tokens": "about 1 min total; guard pass 4–5 s",
+   "stance": "descriptive; labels only"
+  },
+  {
+   "name": "S1 per-ayah NA harvest",
+   "who": "script (harvest2.py)",
+   "input": "focus ayah, ±3 window, guard statuses, 8 path types",
+   "output": "NNN_AAA.push.md: per word, every live branch in NA order; the top 3 plus pointer-grade or ≥5-kind branches carry up to 3 paths (activator word, type, witness ayat); an 'echo only' line lists construction-absent collocation branches with their phrase; same-surah definitional pointers; a construction-grouped concordance for roots in ≤40 ayat. NNN_AAA.pull.json: every (word, branch) with every type's best value, activator branch and word, and guard status",
+   "once_or_per_ayah": "per ayah",
+   "size_or_tokens": "push 1.4k–65k chars ≈ 0.6k–30k tokens (13 sample ayat: 1:3 630 tokens, 1:6 2.4k, 29:38 6.9k, 18:96 10.4k, 18:86 11.7k, 4:34 16.6k, 5:6 29.7k); pull 4–176 KB; 5–15 s per ayah on a laptop",
+   "stance": "order only, never filter; no verdicts"
+  },
+  {
+   "name": "S2 per-surah coalition candidates (M8)",
+   "who": "script",
+   "input": "S1 pull tables of all ayat in the surah; the existing chains (channel reviews/HFT) as seeds",
+   "output": "for each existing chain, the surah branches the typed union adds under set-conditioned growth, each with its paths, handed to the surah step as grounding/extension candidates (never a rediscovery pass)",
+   "once_or_per_surah": "per surah",
+   "size_or_tokens": "not built end to end; tested only on S1 gold coalitions",
+   "stance": "candidates for grounding existing chains"
+  },
+  {
+   "name": "S3 synthesis",
+   "who": "Opus 5.5 effort high (not designed here; reads the push, pulls on demand)",
+   "input": "core context + push.md (+ permission to use memory, marked)",
+   "output": "prose",
+   "once_or_per_ayah": "per ayah",
+   "size_or_tokens": "push adds 0.6k–30k input tokens"
+  },
+  {
+   "name": "S4 post-synthesis construction check",
+   "who": "script",
+   "input": "prose Arabic tags / claimed senses mapped to branches; guard statuses",
+   "output": "flags: a collocation-bound sense stated as the word's sense where its construction is absent; a memory sense matching no branch (marked); a construction-absent echo used without its phrase",
+   "once_or_per_ayah": "per ayah",
+   "size_or_tokens": "seconds",
+   "stance": "verification, not pruning; flags go to the writer/editor"
+  }
+ ],
+ "data_processing": [
+  {
+   "layer": "construction guard",
+   "source": "quran-data dictionary/tr branch_kind + occurrence_evidence grammar alignments; dictionary furuq_v4.sqlite lexical_unit_senses (unit_kind=collocation); card source phrases",
+   "method": "derive a signature (preposition + partner root/lemma) from each collocation expression and from 'root-form + prep + noun' in the classical phrases; at each occurrence, match the aligned attachments (strict) or a ±4-word window (weak)",
+   "coverage": "1,641 catalog collocation branches, 1,564 with signatures; 66,187 occurrence statuses: absent 59,557, strict 531, window 601, prep-only 324, unknown 5,174",
+   "cost": "script, 5 s. My hand check (guard_sample.log): strict 26/30 correct, window 6/15, absent 25/25 random plus 30/30 of the 'partner root elsewhere in the ayah' risky subset (guard_sample2.log)"
+  },
+  {
+   "layer": "lemma-level corpus bridge",
+   "source": "card texts + v15 words/lemmas",
+   "method": "tokens that map to exactly one Quranic lemma (least-stripped spelling first; lemmas in >300 ayat skipped); -log10 binomial tail of co-occurring with the neighbour root; witness ayat kept",
+   "coverage": "all 10,932 cards",
+   "cost": "script, seconds; floors: 95th percentile 2.12, 99th 4.66"
+  },
+  {
+   "layer": "IDF definitional cross-reference",
+   "source": "card texts",
+   "method": "card names a Quranic lexeme of another root; weight = log(#ayat / #ayat with that root)",
+   "coverage": "80,443 root mentions; 53,061 after the df>400 stoplist",
+   "cost": "script"
+  },
+  {
+   "layer": "construction-grouped concordance",
+   "source": "dictionary occurrence_evidence alignments",
+   "method": "occurrences of the root grouped by lemma × (relation, preposition, partner root)",
+   "coverage": "any root; pushed for roots in ≤40 ayat",
+   "cost": "script"
+  },
+  {
+   "layer": "scene complement",
+   "source": "v15 Luna frames/out (existing, no new runs)",
+   "method": "shared concrete scene with a different role, IDF-weighted; added scene ids merged by prefix",
+   "coverage": "10,563 cards tagged",
+   "cost": "none new; inventory contamination noted"
+  },
+  {
+   "layer": "micro-motif similarity (M3)",
+   "source": "quran-slm artifacts/s1_ar3_v1/embeddings (E5 clause and source-unit vectors, mapped back by clause_map.py)",
+   "method": "max cosine over centred clause vectors",
+   "coverage": "all cards",
+   "cost": "local, existing vectors (no encoder run possible: no torch)"
+  }
+ ],
+ "avoids_known_failures": [
+  {
+   "failure": "construction-to-root drift (ḍaraba = travel; Lisān-style folding), also in model memory",
+   "mechanism": "the dictionary's branch_kind is applied at every occurrence. A construction-absent collocation branch cannot activate others, is ordered after all live branches, and appears only on an 'echo only' line with its phrase. At 4:34 B002/B003/B004/B005/B011 are echo-only; at 3:156, 4:94, 4:101, 5:106 and 73:20, B002 is present. S4 flags prose that states such a sense as the word's sense. No late lexicon is read."
+  },
+  {
+   "failure": "readings lost between stages; selector hides what it left out (v14 composition dropped the eye film)",
+   "mechanism": "the push lists every live branch of every word in order (paths for the top ones), plus the echo line; the pull holds every score. 29:38: all 16 gold link branches are visible in the push (7 with paths, 6 listed, 3 echo-only)."
+  },
+  {
+   "failure": "similarity finds near-synonyms, not scene parts",
+   "mechanism": "similarity is one path type among 8. Scene complement, lexical bridge and cross-reference reach partners similarity ranks far (29:41 is ayah rank 1 by xref_idf vs 737 by bridge_dir and 581.5 by shared mention)."
+  },
+  {
+   "failure": "bulk push dilutes synthesis / 2 MB packets",
+   "mechanism": "push median ≈ 7k tokens on the 13 sample ayat (maximum 30k for 5:6), an order of magnitude below the 150k-token range where Phase 1 saw thinking collapse; the rest is a pull away"
+  },
+  {
+   "failure": "verdict-carrying inputs and labels used as filters",
+   "mechanism": "no grades or plausibility in the push: counts, paths and witness ayat only; the guard is a label and an order"
+  },
+  {
+   "failure": "architecture cannot see the partner in another ayah (v11: 7 of 9 S1 misses)",
+   "mechanism": "±3 window activators plus same-surah definitional pointers; the S2 surah coalition step is designed for the rest"
+  },
+  {
+   "failure": "known answers in prompts",
+   "mechanism": "nothing case-specific in scripts or push; watch cases used only as evaluation. The convergence rule was motivated by 29:38 during design but validated on independent v12 NA cases (+0.036 MRR)."
+  }
+ ],
+ "watch_cases": [
+  {
+   "case": "29:38 sabal eye film activated by neighbours",
+   "how_produced": "harvest2.py and conv_eval/gold2 NA ranking of س ب ل B010 among the 8 س ب ل branches and the 74 non-primary branches of the ayah",
+   "tested": "yes",
+   "result": "Ayah words only: ranks 3/8 by Neo (21/74), by the lemma bridge (20/74; path غشاوة in 2:7, 45:23 ← mustabṣirīn), by convergence (18/74; 4 kinds ← mustabṣirīn); scene complement 4/8 (body.eye ← mustabṣirīn). ±3 window: 1/8 by xref_idf, RRF union and convergence (1/74, 8/74, 5/74). In the final push it is the first سبيل line and carries 'in the ayah, 4 kinds: Quran pairs «غشاوه» with مُسْتَبْصِرِينَ (2:7, 45:23)' and 'names «العنكبوت» = 29:41 (1 ayat)'. Spider link: 29:41 is rank 1 of 6,235 ayat by xref_idf. Kohl (ص د د B013) is 3rd of 12 in فصدهم, '4 kinds ← مستبصرين'. Not found by any metric: zayyana (coating) ↔ eye film."
+  },
+  {
+   "case": "29:38 cold-Opus links (19)",
+   "how_produced": "gold2.py T4 (branch choice given the target word/ayah)",
+   "tested": "yes",
+   "result": "MRR: union_floor 0.782, union_rrf 0.772, slm_fused 0.763, Neo 0.752, random 0.348. 3 links (ع م ل B010/B011/B012 'trodden road', 'working limb', 'foot travellers') are collocation-bound with construction absent (طريق معمل, عوامل الدابة, بنو العمل): echo tier."
+  },
+  {
+   "case": "ḥamaʾ 18:86 (Quran-loaded word)",
+   "how_produced": "harvest concordance section",
+   "tested": "partly (output inspected; loaded-word reading is C2's scope)",
+   "result": "push line 'ح م ء (4 ayat): حمإ ×3: 15:26, 15:28, 15:33; حمئة ×1: 18:86'. The recurrence reaches synthesis with no 'no value' label; the framing is left to synthesis."
+  },
+  {
+   "case": "nafakha 18:96",
+   "how_produced": "harvest concordance from grammar alignments",
+   "tested": "partly",
+   "result": "'نفخ [في صور] ×10; نفخ [في + من روح] ×5: 15:29, 21:91, 32:9, 38:72, 66:12; نفخ [في] ×3: 3:49, 5:110, 39:68; 18:96 [-]'. The animating role is visible as counts by construction."
+  },
+  {
+   "case": "Fatiha chains (S1 gold ledger; in-sample for slm, v15 inventory contaminated)",
+   "how_produced": "gold2.py T3; conv_eval S1 anchors; push_recall.py",
+   "tested": "yes",
+   "result": "Pairs found in the top 10 of about 130 other-root S1 branches, out of 62: slm_fused 33, union_floor 35, union_min 48. union_min reads about 34 candidates, and slm at 34 also gets 47, so there is no gain at equal size. Contrasts G014/G015 were found by nothing (dict_contrast 0). Push carries 37 of 47 anchors with paths, 6 listed, 4 echo-only. Within their own ayah, anchors reach only median relative rank 0.333 (convergence) vs 0.353 (Neo): S1's chains are surah-level. M8 growth with the union: road spine 21→26/30, water 9→14/30."
+  },
+  {
+   "case": "5:6 kaʿb → Kaʿba, mirfaq (contaminated)",
+   "how_produced": "harvest concordance",
+   "tested": "output inspected",
+   "result": "'ك ع ب (4 ayat): كعبة ×2: 5:95, 5:97; كعبين 5:6; كواعب 78:33' and 'ر ف ق: مرتفق ×2: 18:29, 18:31 … مرافق [after إلى] 5:6'. Same-root recurrence, which the branch distance excludes by design, is supplied here."
+  },
+  {
+   "case": "guard conflicts with valued readings",
+   "how_produced": "guard_impact.py",
+   "tested": "yes",
+   "result": "S1 G007/G026 (م ل ك B008 lead animal: 'مَلِيك النحل; مَلَك الدابة'), G023 (م ل ك B007), G019/G020 (ن ع م B011/B012), 29:38 ع م ل B010–B012, and the dictionary arm's 'water that stands' (ق و م B016 'قام الماء' at 1:6) all fall in the echo tier. A strict filter would remove them."
+  }
+ ],
+ "north_star_coverage": [
+  {
+   "id": "NS3",
+   "how": "NA over ayah words and the ±3 window; convergence on one activator"
+  },
+  {
+   "id": "NS4",
+   "how": "S2 feeds typed-union coalition candidates to the existing chains (tested: road spine +5 members)"
+  },
+  {
+   "id": "NS5",
+   "how": "construction-grouped concordance (nafakha, ḥamaʾ counts) in the push"
+  },
+  {
+   "id": "NS7",
+   "how": "every branch of a root visible and ordered; same-root recurrence in the concordance; one-root-concept not computed"
+  },
+  {
+   "id": "NS8",
+   "how": "ordering only; full lists visible; echo tier instead of deletion"
+  },
+  {
+   "id": "NS10",
+   "how": "each candidate = dictionary branch + activating word + typed path with witness ayat; guard labels"
+  },
+  {
+   "id": "NS11",
+   "how": "nothing dropped silently; pull has every score; S4 flags drift"
+  },
+  {
+   "id": "NS13",
+   "how": "script-only; push median ≈7k tokens"
+  },
+  {
+   "id": "NS1",
+   "how": "guard prevents root-level misreading of construction-bound senses"
+  }
+ ],
+ "cost": {
+  "per_ayah_test_cli": "Harvest $0. The push adds 0.6k–30k input tokens (median ≈7k on 13 sample ayat) to one Opus call: about $0.005–0.24, typically $0.06, at the $8/M 'claude -p' input rate recorded in Phase 1 §4.7.",
+  "per_ayah_production_api": "About $0.001–0.06, typically $0.014, for the push through Batch, assuming about $2/M Batch input (Phase 1's $8/M is a 2× cache write, so base is about $4/M, halved by Batch). The synthesis call itself is costed elsewhere.",
+  "one_time": "Scripts only, no model runs. Index and guard build: about 1 min. Whole-Quran harvest: estimated 9–26 CPU-hours at the measured 5–15 s per ayah, about 1.5–3 h on 8 cores (Inference). Optional cleanup of the v15 scene inventory: 0 runs proposed.",
+  "assumptions": "Token count ≈ chars/2.2 for Arabic-heavy text (Inference, not measured with a tokenizer). Prices are taken from Phase 1's recorded figures, not quoted from a price list. No Luna runs are needed."
+ },
+ "experiments_run": [
+  {
+   "what": "T1 conditional branch choice (partner branch given), same 12,000 v12 cases as Phase 1, all metrics, exact random baseline and tie-fair expected RR",
+   "method": "eval_t1_new.py (expected reciprocal rank under random tie-breaking)",
+   "result": "nonB001 MRR: Neo 0.521, slm_fused 0.504, clause 0.462, bridge_lemma 0.405, mention 0.379, scene_other 0.374, xref_idf 0.363, dict 0.344, union_floor+guard 0.519, union_rrf 0.503, prior_B001 0.245, random 0.337",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/C1-branch-distance/eval_t1_new.py"
+  },
+  {
+   "what": "Q2b learned metric (conditional logit, surah-grouped 5-fold CV), learning curve; T2 strong vs reject AUC",
+   "method": "eval_v12.py",
+   "result": "learned_no_prior 0.503, +guard 0.509, slm_only 0.518, with_prior 0.695 all / 0.422 nonB001; curve 0.500→0.503 (10%→100%). AUC ≤0.556 for every metric; guard indicator 0.551; pairs with a construction-absent collocation branch: strong 6.1% vs reject 16.4%",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/C1-branch-distance/eval_v12.py"
+  },
+  {
+   "what": "T6 neighbour activation on v12 (context only), 6,000 cases, 3,053 latent targets, unguarded and guarded",
+   "method": "na_eval.py 6000 (→ na_eval3.json)",
+   "result": "ayah-context guarded, latent MRR / R@3: union_floor 0.606/0.732, union_rrf 0.601/0.732, Neo 0.558/0.685, slm_fused 0.549/0.686, bridge_dir 0.523/0.668, xref_idf 0.470/0.570, scene 0.444/0.575, prior 0.403/0.507, random 0.379/0.464. The guard lifts every metric (for example union 0.587→0.606).",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/C1-branch-distance/na_eval.py"
+  },
+  {
+   "what": "Convergence ordering (count of independent types above the 95th percentile tying a branch to one word)",
+   "method": "conv_eval.py 6000",
+   "result": "T6 latent MRR / R@3: partner 0.595/0.723 vs Neo 0.566/0.699; ayah 0.594/0.724 vs 0.558/0.685. Eye film 3/8 (win0), 1/8 (win3). S1 anchors median relative rank 0.333 vs Neo 0.353.",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/C1-branch-distance/conv_eval.py"
+  },
+  {
+   "what": "S1 gold pairs, M8 coalition growth, 29:38 links, eye film, spider",
+   "method": "gold2.py (single-list unions, effective list size reported)",
+   "result": "see watch_cases and extra.metric_results; S1 union_min's apparent gain (48 vs 33 pairs in the top 10) disappears at equal list size (slm top-34: 47)",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/C1-branch-distance/gold2.py"
+  },
+  {
+   "what": "Construction guard build, hand-check samples, impact on v12, v15 scene index, slm pairs, and gold",
+   "method": "guard.py, guard_sample.py, guard_sample2.py, guard_impact.py",
+   "result": "see data_processing; v15 memberships 80,042/780,754 (10.25%) exist only via absent collocations; v15-style ±3 links 128,163/682,327 (18.8%); slm top-1 same-ayah branch pairs 3,901/19,892 (19.6%); v12 strong activations 1,179/31,459 (3.7%) vs reject 185/1,602 (11.5%); ض ر ب B002 cited without its construction by v12 readers: 0",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/C1-branch-distance/guard_impact.py"
+  },
+  {
+   "what": "Harvest output on 13 ayat (1:1–1:7, 4:34, 5:6, 18:86, 18:96, 29:38, 29:45) and gold carried by the push",
+   "method": "harvest2.py; push_recall.py",
+   "result": "sizes in stages; 29:38 gold branches 7 with paths / 6 listed / 3 echo; S1 anchors 37/6/4",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/C1-branch-distance/harvest2.py"
+  },
+  {
+   "what": "Provenance note",
+   "method": "My key directory already held an interrupted earlier attempt. Its common.py source had been overwritten, so I rebuilt it from the compiled module (old/dis_common.txt), kept the old logs in old/, and recomputed every number reported here with readable scripts.",
+   "result": "The cards, dictionary, words and tags caches are byte-identical to the earlier run. The lexicon was made stricter (least-stripped match, pronoun stoplist).",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/C1-branch-distance/common.py"
+  }
+ ],
+ "validation_plan": [
+  {
+   "step": "V1 guard audit by the user: 60 sampled decisions (20 strict, 20 window, 20 absent) plus a ruling on the 8 conflicting gold items (strict filter vs echo tier)",
+   "model_runs": "none",
+   "success_criterion": "strict precision ≥85% and absent precision ≥95% confirmed; the tier rule is fixed before any model run",
+   "cost": "$0"
+  },
+  {
+   "step": "V2 freeze the metric set and ordering (convergence vs union_floor), then rerun T6 on the 11 reserved and 8 validation surahs only, with no changes allowed afterwards",
+   "model_runs": "none",
+   "success_criterion": "latent MRR above Neo by ≥0.02 on the held-out surahs",
+   "cost": "$0"
+  },
+  {
+   "step": "V3 Opus A/B, 6 ayat (29:38, 18:86, 18:96, 4:34, 100:1, one unseen ayah), arm A = the Phase 1 brief with memory permission, arm B = the same brief plus the push; 2 replicates each; I score blind to arm",
+   "model_runs": "24 Opus (effort high) calls via claude -p; needs the user's approval",
+   "success_criterion": "arm B surfaces more supported rare branches with their activating word (eye film + 29:41 in both B replicates), ≥0 construction-drift flags from S4, no rise in catalogue length",
+   "cost": "≈$12–20 at the Phase 1 cold-arm median $0.44 per call + push $0.03–0.24"
+  },
+  {
+   "step": "V4 surah step: typed-union M8 on existing chains for 2 surahs, compared with the chain reviews",
+   "model_runs": "none for the candidates; any surah synthesis is a separate approval",
+   "success_criterion": "adds grounded members to ≥50% of existing chains without inventing new chains",
+   "cost": "$0 script"
+  }
+ ],
+ "risks": [
+  {
+   "risk": "The guard's weak detection: a ±4-word 'window' match is right only 6/15 times; 'unknown' covers 5,174 statuses",
+   "mitigation": "only 'strict' counts as present; window/prep-only are labelled 'construction?' and stay live; unknown stays live and is flagged"
+  },
+  {
+   "risk": "The strict dictionary principle removes readings the user valued (8 gold items)",
+   "mitigation": "the echo tier keeps them visible as phrase echoes and never as the word's sense; the user decides (open question 1)"
+  },
+  {
+   "risk": "Lexical-path noise from generic lemmas (الشيء, الناس, بينهما) and frequent activator roots",
+   "mitigation": "floors, lemma df≤300, activator root df≤400 for the bridge; lowering lemma df to 150 (v9's value) is untested"
+  },
+  {
+   "risk": "Label bias: v12 readers are LLMs with a primary-sense bias; the 29:38 watch case shaped the convergence idea",
+   "mitigation": "evaluation on non-B001 targets among latent branches only; the convergence gain was measured on 3,053 independent cases; freeze before the held-out rerun (V2)"
+  },
+  {
+   "risk": "Push length for long ayat (5:6 ≈30k tokens)",
+   "mitigation": "push 'then:' lines as branch IDs only for ayat over about 20k tokens, with everything a pull away; still an order of magnitude below the collapse range"
+  },
+  {
+   "risk": "v15 scene tags are contaminated (the inventory knew the North Star examples) and noisy",
+   "mitigation": "scene is one of 8 types and never decisive alone; S1 results are reported as in-sample"
+  }
+ ],
+ "reuse": [
+  "quran-slm rank maps + embeddings (artifacts/corpus_network, corpus_ensemble) and the July E5 clause vectors (artifacts/s1_ar3_v1/embeddings)",
+  "quran-data dictionary/tr: branch_kind, neighbor_distinctions, occurrence_evidence grammar alignments",
+  "dictionary/data/working/furuq_v4.sqlite lexical_unit_senses (collocation expressions)",
+  "v15 data (words, lemmas, frames/out scene tags); v9 network.py ideas (lexical and relation edges, convergence)",
+  "Phase 1 distance scripts (branch_choice_eval, v12_pairs, gold_ranks), extended here",
+  "v12 cross-run findings as the independent evaluation set"
+ ],
+ "open_questions": [
+  "Dictionary principle in practice: is a construction-absent collocation branch (mālik as lead animal, the trodden road in aʿmālahum, the standing water in al-mustaqīm) forbidden, or allowed as a marked phrase echo that is never stated as the word's sense? 8 gold items depend on the answer.",
+  "Push shape for long ayat: every branch listed in order (current design) or only the top slice plus pointers?",
+  "Contrasts (standing ↔ vanishing, soft ↔ hard) are reached by no local signal, the dictionary's polarity relations included. Is a contrast source wanted (for example al-ʿAskarī's Furūq as a secondary aid)?",
+  "Should the zayyana ↔ eye film link be left to synthesis? No card text supports it.",
+  "Should the torch environment be repaired (the quran-slm .venv interpreter is missing) so a cross-encoder can be tested? This is the only untested learned option."
+ ],
+ "extra": {
+  "metric_results": {
+   "eval_sets": {
+    "T1": "v12 strong findings, partner branch given; rank the co-cited branch among all branches of the other root; 12,000 cases; nonB001 MRR (tie-fair)",
+    "T6": "v12 strong findings, context only; rank the cited latent branch among the root's non-B001 branches; 3,053 latent targets; guarded",
+    "T2": "AUC of v12 strong (3,000) vs reject (489) cross-root pairs",
+    "T3": "S1 gold ledger 62 cross-root anchor pairs; partner in the top 10 of ~130 other-root S1 branches; items of 26 (in-sample for slm)",
+    "T4": "29:38 cold-Opus links (19), branch-choice MRR",
+    "T5": "29:38 eye film rank among 8 سبيل branches / 74 latent branches of the ayah; spider = rank of 29:41 among 6,235 ayat"
+   },
+   "columns": [
+    "T1 MRR",
+    "T6 partner MRR",
+    "T6 partner R@3",
+    "T6 ayah MRR",
+    "T6 ayah R@3",
+    "T2 AUC",
+    "T3 pairs/62",
+    "T3 items/26",
+    "T4 MRR",
+    "T5 win0 /8",
+    "T5 win0 /74",
+    "T5 win3 /8",
+    "T5 win3 /74",
+    "spider rank"
+   ],
+   "table": {
+    "slm_fused (current)": [
+     0.504,
+     0.553,
+     0.678,
+     0.549,
+     0.686,
+     0.55,
+     33,
+     20,
+     0.763,
+     3,
+     26,
+     5,
+     33,
+     4
+    ],
+    "slm_neo": [
+     0.521,
+     0.566,
+     0.699,
+     0.558,
+     0.685,
+     0.556,
+     29,
+     17,
+     0.752,
+     3,
+     21,
+     5,
+     45,
+     null
+    ],
+    "clause_max (M3)": [
+     0.462,
+     0.548,
+     0.689,
+     0.545,
+     0.702,
+     0.551,
+     25,
+     19,
+     0.619,
+     6,
+     53,
+     6,
+     48,
+     null
+    ],
+    "mention_shared (M4)": [
+     0.379,
+     0.48,
+     0.594,
+     0.478,
+     0.61,
+     0.509,
+     15,
+     11,
+     0.424,
+     7,
+     56,
+     5,
+     35.5,
+     581.5
+    ],
+    "xref_idf (M4)": [
+     0.363,
+     0.454,
+     0.549,
+     0.47,
+     0.57,
+     null,
+     11,
+     9,
+     0.498,
+     8,
+     74,
+     1,
+     1,
+     1
+    ],
+    "bridge_lemma (new, symmetric)": [
+     0.405,
+     0.461,
+     0.572,
+     0.488,
+     0.615,
+     null,
+     10,
+     6,
+     0.35,
+     4.5,
+     19,
+     4.5,
+     48,
+     null
+    ],
+    "bridge_dir (new, directional)": [
+     0.337,
+     0.518,
+     0.652,
+     0.523,
+     0.668,
+     null,
+     10,
+     6,
+     0.322,
+     3,
+     20,
+     6,
+     57,
+     737
+    ],
+    "scene_other (M2)": [
+     0.374,
+     0.448,
+     0.569,
+     0.444,
+     0.575,
+     0.499,
+     27,
+     12,
+     0.536,
+     4,
+     23,
+     1,
+     15,
+     null
+    ],
+    "dict_rel": [
+     0.344,
+     0.427,
+     0.527,
+     0.437,
+     0.536,
+     0.494,
+     1,
+     1,
+     0.507,
+     8,
+     74,
+     3,
+     11,
+     null
+    ],
+    "dict_contrast": [
+     0.339,
+     0.412,
+     0.514,
+     0.412,
+     0.515,
+     null,
+     0,
+     0,
+     0.343,
+     8,
+     74,
+     8,
+     74,
+     null
+    ],
+    "union_rrf": [
+     0.503,
+     0.59,
+     0.714,
+     0.601,
+     0.732,
+     null,
+     31,
+     19,
+     0.772,
+     4,
+     55,
+     1,
+     8,
+     null
+    ],
+    "union_floor": [
+     0.51,
+     0.597,
+     0.715,
+     0.606,
+     0.732,
+     null,
+     35,
+     19,
+     0.782,
+     4,
+     55,
+     1,
+     8,
+     null
+    ],
+    "convergence": [
+     null,
+     0.595,
+     0.723,
+     0.594,
+     0.724,
+     null,
+     null,
+     null,
+     null,
+     3,
+     18,
+     1,
+     5,
+     null
+    ],
+    "learned_no_prior (Q2b)": [
+     0.503,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "learned_with_prior": [
+     0.422,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "prior_B001": [
+     0.245,
+     0.403,
+     0.507,
+     0.403,
+     0.507,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "random (exact)": [
+     0.337,
+     0.379,
+     0.464,
+     0.379,
+     0.464,
+     0.5,
+     null,
+     null,
+     0.348,
+     null,
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   "guarded_T1": {
+    "union_floor+guard": 0.519,
+    "union_rrf+guard": 0.511,
+    "learned_no_prior_guard": 0.509
+   },
+   "M8_coalition_growth_12_steps_members_recovered_of_30": {
+    "G023_water": {
+     "slm_fused": "11→9",
+     "scene_other": "10→13",
+     "union_rrf": "9→14"
+    },
+    "G026_herd": {
+     "slm_fused": "19→18",
+     "scene_other": "15→17",
+     "union_rrf": "14→14"
+    },
+    "road_spine": {
+     "slm_fused": "23→15",
+     "scene_other": "27→19",
+     "union_rrf": "21→26"
+    }
+   },
+   "fair_size_note": "S1 union_min (min rank over types) reads a median 34 candidates for its 'top 10'; slm_fused top-34 recovers 47/62 vs union_min 48/62",
+   "files": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/C1-branch-distance/{metric_results.json,eval_t1_new.json,eval_v12.json,na_eval3.json,conv_eval.json,gold2.json,guard_impact.json,push_recall.json}"
+  },
+  "guard_impact": {
+   "v15_scene_memberships_only_via_absent_collocation": "80,042 / 780,754 (10.25%)",
+   "v15_style_scene_links_removed_pm3": "128,163 / 682,327 (18.8%)",
+   "slm_top1_same_ayah_branch_pairs_flagged": "3,901 / 19,892 (19.6%)",
+   "daraba_434": "40 travel-scene partners in ±3 ayat exist only via ض ر ب B002 (construction absent; present at 3:156, 4:94, 4:101, 5:106, 73:20, 2:273)",
+   "v12_activations_on_absent_collocation": "strong 1,179/31,459 (3.7%); reject 185/1,602 (11.5%)"
+  },
+  "harvest_format_sample": "## w14 ٱلسَّبِيلِ (س ب ل; 8 branches)\n  - B010 «غشاوة في العين تشبه النسج» [bare; 1 src] 6 kinds ← لِّقَوْمٍۢ 29:35: … | in the ayah, 4 kinds: Quran pairs «غشاوه» with مُسْتَبْصِرِينَ (2:7, 45:23) | names «العنكبوت» = ٱلْعَنكَبُوتِ 29:41 (1 ayat)\n  - B001 «طريق ممتد يسلك» [mixed] 5 kinds ← فَصَدَّهُمْ: scene travel.route: road + hazard …\n  - then: B005 «مطر سابل بين السحاب والأرض» · B004 … · B008 …\n  - echo only (construction absent here): B007 «حافة أو مخرج متقدم» (phrase: أسبال الدلو/سبلة الإناء)\n## Quranic uses of the rarer roots here, grouped by lemma and construction\n- ن ف خ (18 ayat): نفخ [في ص و ر] ×10 … ; نفخ [في + من ر و ح] ×5: 15:29, 21:91, 32:9, 38:72, 66:12 ; …",
+  "harvest_files": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase2/C1-branch-distance/harvest2/",
+  "sizes_tokens_est": {
+   "1:1": 1460,
+   "1:2": 2223,
+   "1:3": 630,
+   "1:4": 1342,
+   "1:5": 1419,
+   "1:6": 2404,
+   "1:7": 3033,
+   "29:38": 6850,
+   "29:45": 10914,
+   "18:96": 10437,
+   "18:86": 11689,
+   "4:34": 16582,
+   "5:6": 29707
+  },
+  "not_tested": [
+   "neural clause encoding of new text (no torch; used the existing July E5 clause vectors instead)",
+   "personalised PageRank over a full typed graph (M5); only 1-hop NA plus M8 at surah level",
+   "qirāʾāt/metathesis edges beyond the paronomasia 'sound' check (T1 MRR 0.226, below random under tie-averaging)",
+   "channel reviews as a stated-bias recall check (skipped as circular)",
+   "effect of the push on actual Opus prose (V3 requires approval)"
+  ]
+ }
+}

@@ -33,12 +33,13 @@ catalogue) and choosing (losing a surprise).
      "work only from the supplied evidence". The dictionary-fed arms cite 0–3 passages outside the surah (zero in 10
      of 14 runs), against 3–28 for the context-only arm.
    - Dictionary-fed runs that *were* allowed memory (the v11 brief) cite a median of 30 outside passages (12–47).
-     Input size does not predict that reach (ρ −0.03).
+     Input size does not predict that reach (ρ −0.03). But those runs also carried v11's "collect every finding"
+     ledger, so permission and ledger are not yet separated.
    - Two identical context-only runs share only about 60% of their citations, so the famous 8-against-5 anchor gap
      is within noise.
-   - Reasoning volume really does collapse, but only for very large packages (≈150–400k tokens: 45k → 9k thinking
-     tokens).
-   - Below that, what hurts is stance: verdict-carrying inputs, audit instructions, must-land lists.
+   - Reasoning volume does collapse, 45k → 9k thinking tokens. It happens in the full Luna-package arms under the
+     no-memory brief. Phase 2 showed it is not a size threshold: v11/v12/v13 runs at 140–380k kept 42–138k thinking.
+   - What hurts is stance: verdict-carrying inputs, audit instructions, must-land lists.
 3. **The model already knows a lot; data is needed in a few specific places.**
    - Context-only Opus recalls Quran references, famous lexical images with real early phrases (12 of 14 attested
      in the six early entries), grammar, Turkish drift and cross-surah parallels.
@@ -103,15 +104,26 @@ catalogue) and choosing (losing a surprise).
 9. **A fixed blind scorecard with two replicates per decision.** Every version since v11 was replaced before its
    planned measurement ran.
 
-## Next: Phase 2 (approved)
+## Phase 2 (done; see `PHASE2_REPORT.md`)
 
-Four independent proposals, attacked by critics on cost, North Star fit, and dilution/pruning, plus a completeness
-critic:
+Five proposals, three critics and a completeness check. Scripts only; no pipeline runs.
 
-- (A) a step on top of v5;
-- (B) a non-iterative method;
-- (C) a new distance, tested by free scripts;
-- (D) using the model's own knowledge to shrink input.
+**Convergence.** All five designs arrive at the same shape:
 
-Every design is scored on the watch cases: 29:38's neighbour-activated eye film, ḥamaʾ at 18:86 and nafakha at
-18:96 as Quran-loaded words, and the Fatiha chains. No Luna or Opus pipeline runs without a separate approval.
+- a free script supply per ayah: every branch with its early phrase and the dictionary's scope note, typed path
+  annotations, root- and construction-level concordance, a parallels union, and chain members with scope notes;
+- an Opus reading allowed to use memory, with memory marked;
+- script checks that flag and never delete;
+- a chain map before the ayah calls and a surah layer after them.
+
+**What the critics settled:**
+
+- Scripts should annotate, never order or withhold. The new neighbour-activation ordering falls below random on an
+  independent surprise test.
+- Construction verdicts stay out of prompts; the detectors miss 44–79% of real constructions.
+- 18:86 and 18:96 need a stance lens in the brief, not more data.
+
+**Cost:** about $0.7–1.0 per ayah in production for one or two Opus calls, about $1.75 for parallel readings.
+
+**Next:** experiments E1–E6, about $110–200 in total, each needing approval, plus nine user decisions (§9 of the
+report).
