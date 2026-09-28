@@ -1,0 +1,136 @@
+{
+ "type": "object",
+ "additionalProperties": false,
+ "properties": {
+  "findings": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "attestation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+       "status": {
+        "type": "string",
+        "enum": [
+         "attested",
+         "partly",
+         "not_attested",
+         "not_applicable"
+        ]
+       },
+       "phrase": {
+        "type": "string"
+       },
+       "note": {
+        "type": "string"
+       }
+      },
+      "required": [
+       "status",
+       "phrase",
+       "note"
+      ]
+     },
+     "trigger": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+       "status": {
+        "type": "string",
+        "enum": [
+         "present",
+         "partly",
+         "absent",
+         "not_applicable"
+        ]
+       },
+       "note": {
+        "type": "string"
+       }
+      },
+      "required": [
+       "status",
+       "note"
+      ]
+     },
+     "quran": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "properties": {
+        "ref": {
+         "type": "string"
+        },
+        "relation": {
+         "type": "string",
+         "enum": [
+          "supports",
+          "expands",
+          "shifts",
+          "contradicts"
+         ]
+        },
+        "note": {
+         "type": "string"
+        }
+       },
+       "required": [
+        "ref",
+        "relation",
+        "note"
+       ]
+      }
+     },
+     "contradicted": {
+      "type": "boolean"
+     },
+     "flag_note": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "id",
+     "attestation",
+     "trigger",
+     "quran",
+     "contradicted",
+     "flag_note"
+    ]
+   }
+  },
+  "missing_passages": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "ref": {
+      "type": "string"
+     },
+     "axis": {
+      "type": "string"
+     },
+     "note": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "ref",
+     "axis",
+     "note"
+    ]
+   }
+  }
+ },
+ "required": [
+  "findings",
+  "missing_passages"
+ ]
+}

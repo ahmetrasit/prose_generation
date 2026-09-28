@@ -1,0 +1,93 @@
+{
+ "type": "object",
+ "additionalProperties": false,
+ "properties": {
+  "items": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "root": {
+      "type": "string"
+     },
+     "lemma": {
+      "type": "string"
+     },
+     "loanwords": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "properties": {
+        "word": {
+         "type": "string"
+        },
+        "modern_senses": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "drift": {
+         "type": "string"
+        },
+        "reader_hears": {
+         "type": "string"
+        },
+        "arabic_keeps": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+           "branch": {
+            "type": "string"
+           },
+           "note": {
+            "type": "string"
+           }
+          },
+          "required": [
+           "branch",
+           "note"
+          ]
+         }
+        },
+        "false_friend": {
+         "type": [
+          "string",
+          "null"
+         ]
+        }
+       },
+       "required": [
+        "word",
+        "modern_senses",
+        "drift",
+        "reader_hears",
+        "arabic_keeps",
+        "false_friend"
+       ]
+      }
+     },
+     "none_reason": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    },
+    "required": [
+     "root",
+     "lemma",
+     "loanwords",
+     "none_reason"
+    ]
+   }
+  }
+ },
+ "required": [
+  "items"
+ ]
+}

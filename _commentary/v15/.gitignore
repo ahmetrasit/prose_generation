@@ -1,0 +1,11 @@
+# Rebuilt in seconds by `python3 build.py base` / `build.py pull` from the raw sources.
+data/words.tsv
+data/branches.tsv
+data/lemmas.tsv
+data/quran.tsv
+data/entries/
+data/kwic/
+# Packets are rebuilt before every model call.
+work/
+# Temporary model output while a call runs.
+*.tmp

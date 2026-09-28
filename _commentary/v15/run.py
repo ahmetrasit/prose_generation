@@ -1,0 +1,352 @@
+#!/usr/bin/env python3
+"""v15 runner: Luna through `codex exec`, Opus through `claude -p` (both on the subscriptions).
+
+Rules kept here, not by habit:
+- a completed unit is never rerun;
+- a failed unit is not retried automatically; `--repair` allows one further attempt, logged;
+- every call is logged in out/ledger.jsonl (time, unit, model, status, seconds, cost where reported);
+- Opus spend per ayah is capped by config gate.usd_per_ayah (passed as --max-budget-usd);
+- agents run from a fresh temp directory in safe mode (no CLAUDE.md, memory, skills or hooks)
+  and may read only v15/data.
+
+  luna frames|loanwords|profiles [--limit N] [--parallel P]   pending Luna jobs under data/<kind>/jobs
+  window --surah S [--ayah A]      Opus window reading      -> out/sNNN/window_lo-hi/window.json
+  discover --ref S:A               Opus ayah reading        -> out/sNNN/S_A/record.json
+  evidence --ref S:A               Luna evidence notes      -> out/sNNN/S_A/evidence.json
+  write --ref S:A                  Opus Turkish commentary  -> out/sNNN/S_A/commentary.tr.md
+  surah --surah S                  Opus surah commentary    -> out/sNNN/surah.tr.md
+  status --surahs 1,100            what exists for a scope
+Add --dry to see what would run (prompt size, command) without calling any model.
+"""
+import argparse
+import concurrent.futures as cf
+import glob
+import json
+import os
+import re
+import shutil
+import subprocess
+import sys
+import tempfile
+import time
+
+import build
+import lib
+from lib import CFG, DATA, OUT
+
+LEDGER = os.path.join(OUT, 'ledger.jsonl')
+
+
+# ------------------------------------------------------------------ ledger and guards
+
+def log(entry):
+    os.makedirs(OUT, exist_ok=True)
+    entry = {'time': time.strftime('%Y-%m-%dT%H:%M:%S'), **entry}
+    with open(LEDGER, 'a', encoding='utf-8') as f:
+        f.write(json.dumps(entry, ensure_ascii=False) + '\n')
+
+
+def ledger():
+    if not os.path.exists(LEDGER):
+        return []
+    with open(LEDGER, encoding='utf-8') as f:
+        return [json.loads(l) for l in f if l.strip()]
+
+
+def may_run(unit, out_path, repair):
+    if os.path.exists(out_path):
+        print(f"skip {unit}: done ({os.path.relpath(out_path, lib.HERE)})")
+        return False
+    failed = [e for e in ledger() if e.get('unit') == unit and e.get('status') != 'ok']
+    if failed and not repair:
+        print(f"skip {unit}: failed before ({failed[-1].get('status')}); not retried. Use --repair once if wanted.")
+        return False
+    if repair and any(e.get('repair') for e in failed):
+        print(f"skip {unit}: its one repair attempt is already used")
+        return False
+    return True
+
+
+def spent(ayah):
+    return sum(e.get('cost_usd') or 0 for e in ledger() if e.get('ayah') == ayah)
+
+
+def fill(template, **kw):
+    for k, v in kw.items():
+        template = template.replace('{' + k + '}', str(v))
+    return template
+
+
+def prompt(name):
+    with open(os.path.join(lib.PROMPTS, name), encoding='utf-8') as f:
+        return f.read()
+
+
+def read(path):
+    with open(path, encoding='utf-8') as f:
+        return f.read()
+
+
+def parse_json_text(text):
+    t = text.strip()
+    t = re.sub(r'^```(?:json)?\s*|\s*```$', '', t)
+    try:
+        return json.loads(t)
+    except json.JSONDecodeError:
+        m = re.search(r'\{.*\}', t, re.S)
+        if m:
+            try:
+                return json.loads(m.group(0))
+            except json.JSONDecodeError:
+                return None
+    return None
+
+
+# ------------------------------------------------------------------ model calls
+
+def call_opus(unit, text, out_path, schema=None, tools=True, budget=None, ayah=None, dry=False, repair=False):
+    if not may_run(unit, out_path, repair):
+        return None
+    m = CFG['models']['opus']
+    cmd = ['claude', '-p', '--model', m['model'], '--effort', m['effort'], '--output-format', 'json',
+           '--safe-mode', '--no-session-persistence', '--permission-mode', 'dontAsk']
+    if tools:
+        cmd += ['--tools', 'Read', 'Grep', 'Glob', '--allowedTools', 'Read', 'Grep', 'Glob', '--add-dir', DATA]
+    else:
+        cmd += ['--tools', '']
+    if budget is not None:
+        cmd += ['--max-budget-usd', f'{budget:.2f}']
+    if schema:
+        cmd += ['--json-schema', json.dumps(lib.read_json(os.path.join(lib.SCHEMAS, schema)))]
+    if dry:
+        shown = [c if len(c) < 120 else c[:60] + '…' for c in cmd]
+        print(f"[dry] {unit}: prompt {len(text):,} chars (~{len(text) // 3:,} tokens) -> "
+              f"{os.path.relpath(out_path, lib.HERE)}\n      {' '.join(shown)}")
+        return None
+    if budget is not None and budget <= 0.05:
+        print(f"stop {unit}: the ${CFG['gate']['usd_per_ayah']:.2f} gate for {ayah} is used up")
+        return None
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    lib.write_text(out_path + '.prompt.md', text)
+    t0 = time.time()
+    with tempfile.TemporaryDirectory(prefix='v15_opus_') as cwd:
+        try:
+            p = subprocess.run(cmd, input=text, capture_output=True, text=True, cwd=cwd,
+                               timeout=CFG.get('timeout_s', 5400))
+            raw, err = p.stdout, p.stderr
+        except subprocess.TimeoutExpired:
+            raw, err = '', 'timeout'
+    lib.write_text(out_path + '.raw.json', raw + ('\n\n[stderr]\n' + err if err else ''))
+    try:
+        obj = json.loads(raw)
+    except json.JSONDecodeError:
+        obj = None
+    cost = obj.get('total_cost_usd') if isinstance(obj, dict) else None
+    status = 'ok'
+    if not isinstance(obj, dict) or obj.get('is_error'):
+        status = 'error'
+    elif schema:
+        data = obj.get('structured_output')
+        if data is None and isinstance(obj.get('result'), str):
+            data = parse_json_text(obj['result'])
+        if data is None:
+            status = 'no_json'
+        else:
+            lib.write_json(out_path, data)
+    else:
+        if not (obj.get('result') or '').strip():
+            status = 'no_text'
+        else:
+            lib.write_text(out_path, obj['result'].strip() + '\n')
+    log({'unit': unit, 'ayah': ayah, 'model': m['model'], 'effort': m['effort'], 'status': status,
+         'seconds': round(time.time() - t0), 'cost_usd': cost, 'repair': repair,
+         'out': os.path.relpath(out_path, lib.HERE)})
+    print(f"{unit}: {status} in {round(time.time() - t0)}s" + (f", ${cost:.2f}" if cost else ''))
+    return status
+
+
+def call_luna(unit, text, out_path, schema, ayah=None, dry=False, repair=False):
+    if not may_run(unit, out_path, repair):
+        return None
+    m = CFG['models']['luna']
+    tmp_out = out_path + '.tmp'
+    base = ['codex', 'exec', '-m', m['model'], '-c', f'model_reasoning_effort="{m["effort"]}"',
+            '--disable', 'skill_search', '--skip-git-repo-check', '--ephemeral', '-s', 'read-only',
+            '--output-schema', os.path.join(lib.SCHEMAS, schema), '-o', tmp_out, '--json']
+    if dry:
+        print(f"[dry] {unit}: prompt {len(text):,} chars (~{len(text) // 3:,} tokens) -> "
+              f"{os.path.relpath(out_path, lib.HERE)}\n      {' '.join(base)} -C <tmp> -")
+        return None
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    t0 = time.time()
+    with tempfile.TemporaryDirectory(prefix='v15_luna_') as cwd:
+        try:
+            p = subprocess.run(base + ['-C', cwd, '-'], input=text, capture_output=True, text=True,
+                               timeout=CFG.get('timeout_s', 5400))
+            events, err = p.stdout, p.stderr
+        except subprocess.TimeoutExpired:
+            events, err = '', 'timeout'
+    usage = {}
+    for line in events.splitlines():
+        try:
+            ev = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        u = ev.get('usage') or (ev.get('msg') or {}).get('usage') if isinstance(ev, dict) else None
+        if isinstance(u, dict):
+            usage = u
+    status = 'ok'
+    data = parse_json_text(read(tmp_out)) if os.path.exists(tmp_out) else None
+    if data is None:
+        status = 'no_json'
+        lib.write_text(out_path + '.failed.log', events[-20000:] + '\n\n[stderr]\n' + err[-5000:])
+    else:
+        lib.write_json(out_path, data)
+    if os.path.exists(tmp_out):
+        os.remove(tmp_out)
+    log({'unit': unit, 'ayah': ayah, 'model': m['model'], 'effort': m['effort'], 'status': status,
+         'seconds': round(time.time() - t0), 'usage': usage, 'repair': repair,
+         'out': os.path.relpath(out_path, lib.HERE)})
+    print(f"{unit}: {status} in {round(time.time() - t0)}s")
+    return status
+
+
+# ------------------------------------------------------------------ steps
+
+def luna_jobs(kind, limit=None, parallel=1, dry=False, repair=False):
+    jobs = []
+    for jp in sorted(glob.glob(os.path.join(DATA, kind, 'jobs', '*', 'job.json'))):
+        job = lib.read_json(jp)
+        out = os.path.join(lib.HERE, job['out'])
+        if os.path.exists(out):
+            continue
+        jd = os.path.dirname(jp)
+        text = prompt(job['prompt']) + '\n' + read(os.path.join(jd, 'input.md'))
+        for extra in job.get('extra', []):
+            text += f"\n\n## {os.path.basename(extra)}\n\n" + read(os.path.join(lib.HERE, extra))
+        jobs.append((f"luna:{kind}:{os.path.basename(jd)}", text, out, job['schema']))
+    if limit:
+        jobs = jobs[:limit]
+    print(f"{kind}: {len(jobs)} pending job(s)" + (' (dry)' if dry else ''))
+    if dry:
+        for u, t, o, s in jobs[:3]:
+            call_luna(u, t, o, s, dry=True)
+        if jobs:
+            print(f"      … total prompt chars {sum(len(t) for _, t, _, _ in jobs):,}")
+        return
+    with cf.ThreadPoolExecutor(max_workers=max(1, parallel)) as ex:
+        list(ex.map(lambda j: call_luna(j[0], j[1], j[2], j[3], repair=repair), jobs))
+
+
+def ensure_base(s):
+    if not os.path.exists(os.path.join(DATA, 'words.tsv')):
+        sys.exit('base tables missing: run `python3 build.py base` first')
+    build.build_pull([s])
+
+
+def step_window(s, only=None, dry=False, repair=False):
+    ensure_base(s)
+    for lo, hi, label in lib.windows_of_surah(s):
+        if only and not (lo <= only <= hi):
+            continue
+        build.build_window(s, lo)
+        packet = read(os.path.join(build.window_dir(s, lo, hi), 'packet.md'))
+        text = fill(prompt('opus_window.md'), max_images=CFG['prose']['max_images_per_ayah']) + '\n' + packet
+        call_opus(f'opus:window:{s}:{lo}-{hi}', text,
+                  os.path.join(build.out_window_dir(s, lo, hi), 'window.json'), schema='window.schema.json',
+                  budget=CFG['gate']['usd_per_window'], dry=dry, repair=repair)
+
+
+def step_discover(ref, dry=False, repair=False):
+    s, a = [int(x) for x in ref.split(':')]
+    ensure_base(s)
+    build.build_ayah(s, a)
+    packet = read(os.path.join(build.ayah_dir(s, a), 'discover.md'))
+    text = fill(prompt('opus_discover.md'), ref=ref, radius=CFG['windows']['local_radius'],
+                kwic_max=CFG['concordance']['kwic_max_uses']) + '\n' + packet
+    call_opus(f'opus:discover:{ref}', text, os.path.join(build.out_ayah_dir(s, a), 'record.json'),
+              schema='record.schema.json', budget=CFG['gate']['usd_per_ayah'] - spent(ref), ayah=ref,
+              dry=dry, repair=repair)
+
+
+def step_evidence(ref, dry=False, repair=False):
+    s, a = [int(x) for x in ref.split(':')]
+    if not os.path.exists(os.path.join(build.out_ayah_dir(s, a), 'record.json')):
+        sys.exit(f"{ref}: no record yet (run discover first)")
+    ensure_base(s)
+    build.build_evidence(s, a)
+    text = prompt('luna_evidence.md') + '\n' + read(os.path.join(build.ayah_dir(s, a), 'evidence.md'))
+    call_luna(f'luna:evidence:{ref}', text, os.path.join(build.out_ayah_dir(s, a), 'evidence.json'),
+              'evidence.schema.json', ayah=ref, dry=dry, repair=repair)
+
+
+def step_write(ref, dry=False, repair=False):
+    s, a = [int(x) for x in ref.split(':')]
+    o = build.out_ayah_dir(s, a)
+    for need in ('record.json', 'evidence.json'):
+        if not os.path.exists(os.path.join(o, need)):
+            sys.exit(f"{ref}: {need} missing")
+    build.build_write(s, a)
+    text = fill(prompt('opus_write.md'), ref=ref, target=CFG['prose']['ayah_words_target'],
+                cap=CFG['prose']['ayah_words_cap'], max_images=CFG['prose']['max_images_per_ayah']) \
+        + '\n' + read(os.path.join(build.ayah_dir(s, a), 'write.md'))
+    call_opus(f'opus:write:{ref}', text, os.path.join(o, 'commentary.tr.md'), tools=False,
+              budget=CFG['gate']['usd_per_ayah'] - spent(ref), ayah=ref, dry=dry, repair=repair)
+
+
+def step_surah(s, dry=False, repair=False):
+    build.build_surah(s)
+    text = fill(prompt('opus_surah.md'), surah=s) + '\n' + read(os.path.join(lib.WORK, f's{s:03d}', 'surah.md'))
+    call_opus(f'opus:surah:{s}', text, os.path.join(OUT, f's{s:03d}', 'surah.tr.md'), tools=False,
+              budget=CFG['gate']['usd_per_window'], dry=dry, repair=repair)
+
+
+def status(surahs):
+    for s in surahs:
+        wins = lib.windows_of_surah(s)
+        print(f"S{s}: {lib.surah_len(s)} ayat, {len(wins)} window(s)")
+        for lo, hi, _ in wins:
+            w = os.path.exists(os.path.join(build.out_window_dir(s, lo, hi), 'window.json'))
+            print(f"  window {lo}-{hi}: {'done' if w else '-'}")
+        for a in range(1, lib.surah_len(s) + 1):
+            o = build.out_ayah_dir(s, a)
+            marks = ''.join('x' if os.path.exists(os.path.join(o, f)) else '.'
+                            for f in ('record.json', 'evidence.json', 'commentary.tr.md'))
+            if marks != '...':
+                print(f"  {s}:{a} record/evidence/commentary {marks}  spent ${spent(f'{s}:{a}'):.2f}")
+        print(f"  surah commentary: {'done' if os.path.exists(os.path.join(OUT, f's{s:03d}', 'surah.tr.md')) else '-'}")
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument('cmd')
+    ap.add_argument('kind', nargs='?')
+    ap.add_argument('--ref')
+    ap.add_argument('--surah', type=int)
+    ap.add_argument('--ayah', type=int)
+    ap.add_argument('--surahs')
+    ap.add_argument('--limit', type=int)
+    ap.add_argument('--parallel', type=int, default=1)
+    ap.add_argument('--dry', action='store_true')
+    ap.add_argument('--repair', action='store_true')
+    x = ap.parse_args()
+    if x.cmd == 'luna':
+        luna_jobs(x.kind, x.limit, x.parallel, x.dry, x.repair)
+    elif x.cmd == 'window':
+        step_window(x.surah, x.ayah, x.dry, x.repair)
+    elif x.cmd == 'discover':
+        step_discover(x.ref, x.dry, x.repair)
+    elif x.cmd == 'evidence':
+        step_evidence(x.ref, x.dry, x.repair)
+    elif x.cmd == 'write':
+        step_write(x.ref, x.dry, x.repair)
+    elif x.cmd == 'surah':
+        step_surah(x.surah, x.dry, x.repair)
+    elif x.cmd == 'status':
+        status(build.parse_surahs(x.surahs))
+    else:
+        sys.exit(__doc__)
+
+
+if __name__ == '__main__':
+    main()

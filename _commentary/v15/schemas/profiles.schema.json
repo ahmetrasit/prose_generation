@@ -1,0 +1,90 @@
+{
+ "type": "object",
+ "additionalProperties": false,
+ "properties": {
+  "items": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "root": {
+      "type": "string"
+     },
+     "lemma": {
+      "type": "string"
+     },
+     "total": {
+      "type": "integer"
+     },
+     "groups": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "properties": {
+        "label": {
+         "type": "string"
+        },
+        "count": {
+         "type": "integer"
+        },
+        "refs": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        }
+       },
+       "required": [
+        "label",
+        "count",
+        "refs"
+       ]
+      }
+     },
+     "dominant": {
+      "type": "string"
+     },
+     "outside": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "properties": {
+        "ref": {
+         "type": "string"
+        },
+        "how": {
+         "type": "string"
+        }
+       },
+       "required": [
+        "ref",
+        "how"
+       ]
+      }
+     },
+     "collocates": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    },
+    "required": [
+     "root",
+     "lemma",
+     "total",
+     "groups",
+     "dominant",
+     "outside",
+     "collocates"
+    ]
+   }
+  }
+ },
+ "required": [
+  "items"
+ ]
+}

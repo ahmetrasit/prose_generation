@@ -1,0 +1,228 @@
+{
+ "type": "object",
+ "additionalProperties": false,
+ "properties": {
+  "ref": {
+   "type": "string"
+  },
+  "ground": {
+   "type": "string"
+  },
+  "findings": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "kind": {
+      "type": "string",
+      "enum": [
+       "latent",
+       "image",
+       "local_resonance",
+       "concept",
+       "loaded_word",
+       "variant",
+       "grammar"
+      ]
+     },
+     "anchor": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+       "ref": {
+        "type": "string"
+       },
+       "surface": {
+        "type": "string"
+       },
+       "root": {
+        "type": "string"
+       },
+       "branch": {
+        "type": "string"
+       }
+      },
+      "required": [
+       "ref",
+       "surface",
+       "root",
+       "branch"
+      ]
+     },
+     "triggers": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "properties": {
+        "ref": {
+         "type": "string"
+        },
+        "surface": {
+         "type": "string"
+        },
+        "how": {
+         "type": "string"
+        }
+       },
+       "required": [
+        "ref",
+        "surface",
+        "how"
+       ]
+      }
+     },
+     "statement": {
+      "type": "string"
+     },
+     "perceptible": {
+      "type": "string"
+     },
+     "image": {
+      "type": "string"
+     },
+     "memory": {
+      "type": "boolean"
+     },
+     "for_prose": {
+      "type": "string",
+      "enum": [
+       "lead",
+       "support",
+       "record"
+      ]
+     }
+    },
+    "required": [
+     "id",
+     "kind",
+     "anchor",
+     "triggers",
+     "statement",
+     "perceptible",
+     "image",
+     "memory",
+     "for_prose"
+    ]
+   }
+  },
+  "loaded_words": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "lemma": {
+      "type": "string"
+     },
+     "root": {
+      "type": "string"
+     },
+     "role": {
+      "type": "string"
+     },
+     "count": {
+      "type": "string"
+     },
+     "departure": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "lemma",
+     "root",
+     "role",
+     "count",
+     "departure"
+    ]
+   }
+  },
+  "losses": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "arabic": {
+      "type": "string"
+     },
+     "turkish": {
+      "type": "string"
+     },
+     "loses": {
+      "type": "string"
+     },
+     "adds": {
+      "type": "string"
+     },
+     "memory": {
+      "type": "boolean"
+     }
+    },
+    "required": [
+     "arabic",
+     "turkish",
+     "loses",
+     "adds",
+     "memory"
+    ]
+   }
+  },
+  "grammar": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "variants": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "reread": {
+   "type": "string"
+  },
+  "disclosed": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "set_aside": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "what": {
+      "type": "string"
+     },
+     "why": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "what",
+     "why"
+    ]
+   }
+  }
+ },
+ "required": [
+  "ref",
+  "ground",
+  "findings",
+  "loaded_words",
+  "losses",
+  "grammar",
+  "variants",
+  "reread",
+  "disclosed",
+  "set_aside"
+ ]
+}

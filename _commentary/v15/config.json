@@ -1,0 +1,57 @@
+{
+  "version": "v15",
+  "sources": {
+    "_comment": "Paths relative to /Volumes/OZTURK/_projects. Raw sources only; no earlier pipeline packets.",
+    "quran_text": "quran-data/data/text/quran-uthmani.tsv",
+    "root_ayah": "quran-slm/resources/source/qac_root_ayah.tsv",
+    "branches": "quran-slm/resources/source/furuq_full_branches_ar.tsv",
+    "tr_entries_glob": "quran-data/data/dictionary/tr/*_entry.json",
+    "root_packets_dir": "dictionary/data/output/root_packets",
+    "qiraat": "study/_project_corpus/qiraat.tsv",
+    "pericopes": "quran-data/data/analysis/channels/network-v3/pericopes/surah_pericopes.jsonl",
+    "inter_ayah_dir": "quran-data/data/analysis/inter-ayah",
+    "root_alternatives": "quran-data/data/bridges/qac-dictionary-word-root-analyses.json",
+    "channel_review": "quran-data/data/analysis/channels/network-v3/s{S:03d}/review/reader_a_pilot.md",
+    "qnet_keywords": "quran-roots/_corpus/activation/Qnet/v2/network/incidence_full/branch_keywords.tsv"
+  },
+  "models": {
+    "opus": {
+      "cli": "claude",
+      "model": "claude-opus-5-5",
+      "effort": "high"
+    },
+    "luna": {
+      "cli": "codex",
+      "model": "gpt-6-luna",
+      "effort": "max"
+    }
+  },
+  "windows": {
+    "local_radius": 7,
+    "short_surah_max_ayat": 40
+  },
+  "concordance": {
+    "kwic_max_uses": 30,
+    "kwic_context_words": 3,
+    "definition_chars": 100,
+    "image_only_above_uses": 1000000,
+    "_comment": "image_only_above_uses is effectively off: frequent roots are where readers hear only one sense, so their definitions stay."
+  },
+  "prose": {
+    "ayah_words_target": 700,
+    "ayah_words_cap": 1100,
+    "max_images_per_ayah": 3
+  },
+  "jobs": {
+    "frames_per_job": 60,
+    "lemmas_per_loanword_job": 25,
+    "profile_min_uses": 31,
+    "profile_sample_max": 400
+  },
+  "gate": {
+    "usd_per_ayah": 5.0,
+    "usd_per_window": 5.0,
+    "_comment": "Opus spend caps (passed as --max-budget-usd). Ayah steps share the per-ayah gate; window and surah passes have their own."
+  },
+  "timeout_s": 5400
+}

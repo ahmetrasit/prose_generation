@@ -1,0 +1,179 @@
+{
+ "type": "object",
+ "additionalProperties": false,
+ "properties": {
+  "images": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "name": {
+      "type": "string"
+     },
+     "scene": {
+      "type": "string"
+     },
+     "members": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "properties": {
+        "ref": {
+         "type": "string"
+        },
+        "surface": {
+         "type": "string"
+        },
+        "root": {
+         "type": "string"
+        },
+        "branch": {
+         "type": "string"
+        },
+        "role": {
+         "type": "string"
+        },
+        "memory": {
+         "type": "boolean"
+        }
+       },
+       "required": [
+        "ref",
+        "surface",
+        "root",
+        "branch",
+        "role",
+        "memory"
+       ]
+      }
+     },
+     "containment": {
+      "type": "string"
+     },
+     "perceptible": {
+      "type": "string"
+     },
+     "interactions": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "properties": {
+        "with": {
+         "type": "string"
+        },
+        "how": {
+         "type": "string"
+        }
+       },
+       "required": [
+        "with",
+        "how"
+       ]
+      }
+     },
+     "movement": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "id",
+     "name",
+     "scene",
+     "members",
+     "containment",
+     "perceptible",
+     "interactions",
+     "movement"
+    ]
+   }
+  },
+  "concepts": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "root": {
+      "type": "string"
+     },
+     "concept": {
+      "type": "string"
+     },
+     "branches": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    },
+    "required": [
+     "root",
+     "concept",
+     "branches"
+    ]
+   }
+  },
+  "movement": {
+   "type": "string"
+  },
+  "plan": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "ayah": {
+      "type": "string"
+     },
+     "opens": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "advances": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "completes": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "note": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "ayah",
+     "opens",
+     "advances",
+     "completes",
+     "note"
+    ]
+   }
+  },
+  "other_activations": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  }
+ },
+ "required": [
+  "images",
+  "concepts",
+  "movement",
+  "plan",
+  "other_activations"
+ ]
+}
