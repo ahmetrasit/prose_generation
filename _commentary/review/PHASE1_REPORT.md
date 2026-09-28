@@ -415,9 +415,12 @@ Two more signals:
 
 **Inference.** A small, targeted supply beats both "cold" and "full package":
 
-- the ayah's and window's rare branches with their classical phrases;
+- the ayah's and window's rare branches with their classical phrases and their `branch_kind`;
 - counts and dominant roles for lemmas the model half-knows;
 - permission to use memory, with memory marked and verified.
+
+Verifying memory means checking the dictionary's branch and its construction scope, not only that a sense is
+attested somewhere. Model memory, like Lisān, tends to fold collocation-bound senses into the root (§5).
 
 ### 4.5 Labelled data (Q2b)
 
@@ -539,23 +542,68 @@ Two more signals:
 
 ## 5. What the sister repos add
 
-- **Full classical lexicons nobody has used (NEW).** They are in `quran-roots/_corpus/lexicons/cache/`:
+### The dictionary principle (user correction, 2026-09-28)
 
-  | source | coverage | why it matters |
+**Late compilations are not sense evidence.** Lisān al-ʿArab, Lane and al-Qāmūs fold collocation-bound senses into
+the root's senses. The user's example is ḍaraba:
+
+- its bare root image is a single strike;
+- "travelling" belongs only to the construction ḍaraba fī l-arḍ;
+- Lisān lists it among the root's senses ("ضرب في الأرض … إذا سار فيها مسافرا").
+
+That construction-to-root drift is exactly what the project's own dictionary, built from the earliest dictionaries,
+prevents. The dictionary encodes the guard on every branch as `lexicalization_scope.branch_kind`:
+
+| branch_kind | branches |
+|---|---|
+| bare | 3,326 |
+| mixed_non_bare | 5,653 |
+| non_bare | 749 |
+| collocation | 1,803 |
+| unresolved | 242 |
+
+For ض ر ب, B001 (striking) is `bare`, while B002 (going about the earth) is `collocation`: "yalın köke yolculuk
+anlamı yüklenmez". So are the parable (B003), refraining (B004), staying the hand (B005) and the stallion (B011).
+
+**This guard is unharvested.**
+
+- v3–v5 carried `lexicalization_scope` in their branch registries.
+- v9–v15, the quran-slm cards and v15's scene index never used it. The card for ض ر ب B002 contains "الضرب في الأرض"
+  and is tagged as travel, so any ḍaraba occurrence can pick up a travel partner without its construction.
+- When Opus is shown the entry, it applies the constraint. The 4:34 dictionary arm writes: "Yolculuk anlamı
+  'yeryüzünde' gibi bir tamamlayıcı ister".
+
+**Model memory carries the same drift risk as Lisān.** Verification of a memory-sourced sense must therefore check
+the branch kind and whether the construction is present, not merely whether the sense is attested somewhere.
+
+### Other material
+
+- **Classical lexicons nobody has used,** in `quran-roots/_corpus/lexicons/cache/`. Given the principle above, only the
+  early, construction-aware material may count as evidence. The late compilations are at most secondary witnesses
+  (for example, for an exegete quoted on a specific ayah, with the construction shown). Never branch evidence and
+  never a sense supplier.
+
+  | source | coverage | status under the dictionary principle |
   |---|---|---|
-  | Lisān al-ʿArab | 9,411 entries, 19.4M characters; 6,133 marked Quran quotations; cites al-Farrāʾ, al-Zajjāj, Abū ʿUbayda, Mujāhid and Ibn ʿAbbās | the richest rare-sense source; has the sabal entry |
-  | Lane | 60,221 entries | an English bridge |
-  | al-Qāmūs | 10,370 entries | — |
-  | Majāz al-Qurʾān (Abū ʿUbayda) | 1,308 ayah-keyed glosses | the only early Quran-philology text present |
-  | Asās al-Balāgha | 3,823 entries | literal vs figurative extension, which is exactly NS7's move |
-  | al-ʿAskarī's al-Furūq | 919 near-synonym contrasts | NS2, NS5 |
+  | Majāz al-Qurʾān (Abū ʿUbayda, d. 209) | 1,308 ayah-keyed glosses | early; glosses a Quranic phrase in its construction: usable as construction-level evidence |
+  | Lisān al-ʿArab | 9,411 entries, 19.4M characters; 6,133 marked Quran quotations; cites al-Farrāʾ, al-Zajjāj, Abū ʿUbayda, Mujāhid and Ibn ʿAbbās | late compilation; folds collocations into root senses: not a sense source; at most a witness for the early glosses it quotes |
+  | Lane | 60,221 entries | late and English: not evidence |
+  | al-Qāmūs | 10,370 entries | late: not evidence |
+  | Asās al-Balāgha | 3,823 entries | late (al-Zamakhsharī); separates literal from figurative, but judge it under the same principle |
+  | al-ʿAskarī's al-Furūq | 919 near-synonym contrasts | a secondary aid for NS2/NS5 contrasts, not a sense source |
 
-- **Per-ayah citations inside the entries (unindexed):**
+  The sabal eye film does not need Lisān: it is al-Jawharī's (Ṣiḥāḥ) definition, already among the dictionary's six
+  early sources.
+
+- **Per-ayah citations inside the early entries (unindexed):**
   - Mufradāt: 8,056 ayah references to about 3,900 loci;
   - Tahdhīb: 3,239;
-  - Lisān: 6,133 marked Quran quotations.
+  - ʿAyn: 530 marked Quran quotations;
+  - Majāz al-Qurʾān: 1,308 ayah-keyed entries.
 
-  Together they give a script-built "what the lexicographers said about this ayah's words" file.
+  Together they give a script-built "what the early lexicographers said about this ayah's words" file. Each citation
+  shows its construction, so collocation-bound senses stay bound. Lisān's 6,133 quotations may only point to the
+  early glosses they repeat.
 - **Maqāyīs aṣl statements.** 473 roots declared "one aṣl", 205 "two". A citable single concept per root for NS7.
 - **No classical tafsir, munāsabāt (al-Biqāʿī) or iʿrāb text exists locally.**
 - **Unused ready layers:**
@@ -593,7 +641,8 @@ Two more signals:
 | 5 | Re-synthesize the v5 harvest (909 ayat, 96k anchored activations, including rejects with reasons) with Opus from a ~16 KB digest per ayah | §2 v5 | ~$0.5–1/ayah est. | Q3 |
 | 6 | A coalition-first surah step (v11 arm S) plus progressive-disclosure overlays (Layer 2.5): never run end to end | §2 v6–v7, v11 | one Opus call per surah | NS4, NS8, NS12 |
 | 7 | Script discovery layer: definitional cross-reference detector, loaded-word detector (collocation profiles + dossiers), IDF + phrase + ayah-map parallels, typed contrasts | §4.6, §5 | scripts | NS3–NS7 |
-| 8 | Per-ayah classical citation file (Mufradāt, Tahdhīb, Lisān, Majāz) and Lisān/Asās/ʿAskarī as a checker | §5 | ~1 day scripting | NS10, NS7, NS2 |
+| 8 | Per-ayah early-citation file (Mufradāt, Tahdhīb, ʿAyn, Maqāyīs, Majāz), each citation with its construction; late compilations (Lisān, Lane, Qāmūs) never as sense evidence | §5 | ~1 day scripting | NS10, NS7, NS2 |
+| 8b | The `branch_kind` guard (bare / mixed / non-bare / collocation): a collocation-bound branch is activatable only where its construction is present. Apply it in the scene index, the distance, script discovery and memory verification | §5 dictionary principle | scripts (grammar attachments give the constructions) | NS10, NS11, NS1 |
 | 9 | Batch API plus no 1-hour cache writes on single-use prompts | §4.7 | engineering | NS13 (≈½ cost) |
 | 10 | Unused layers for NS2/NS3: grammar translation-support, gloss error profiles, adjacent-ayah bridges, Maqāyīs aṣl | §5 | scripts | NS2, NS3, NS7 |
 | 11 | A fixed blind scorecard with two replicates per decision, frozen before the next change | §4.8 | small | process |
@@ -607,7 +656,9 @@ Two more signals:
   cheap opportunities are untouched (§6), several of them already built or designed and never run.
 - **Q2a.** The model covers Quran references, famous lexicon, small famous concordances, grammar, Turkish drift and
   thematic parallels. Data must supply rare branches, counts, classical phrases, cross-ayah partners and
-  verification. The inter-ayah labels show why canonical relevance must never gate a reading.
+  verification. Verification includes the `branch_kind` guard, because memory, like the late lexicons, folds
+  collocation-bound senses into the root. The inter-ayah labels show why canonical relevance must never gate a
+  reading.
 - **Q2b.** There is enough labelled data to train and evaluate a pair or ayah reranker with held-out surahs. There
   is not enough gold for complementary roles, contrasts or loaded words; those need a small curated set.
 - **Q3.** Plausible, with conditions:

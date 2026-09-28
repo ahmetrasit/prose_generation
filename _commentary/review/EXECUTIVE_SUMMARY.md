@@ -78,13 +78,19 @@ catalogue) and choosing (losing a surprise).
    - a loaded-word detector (collocation profiles: ḥamaʾ with ṣalṣāl 3 of 3);
    - a parallels list;
    - typed contrasts.
-7. **Unused sources:**
-   - full Lisān al-ʿArab (it holds the sabal eye film), Majāz al-Qurʾān, Asās al-Balāgha and al-ʿAskarī;
-   - 11k+ per-ayah lexicon citations;
-   - Maqāyīs "one aṣl" statements (473 roots);
-   - grammar translation-support rows and Turkish gloss error profiles.
+7. **Unused guards and sources.**
+   - **The dictionary's own `branch_kind`.** Every branch is marked bare (3,326), mixed (5,653), non-bare (749) or
+     collocation-bound (1,803). For example, ض ر ب B002 "travel" belongs only to ḍaraba fī l-arḍ: "yalın köke
+     yolculuk anlamı yüklenmez". v9–v15, quran-slm and the scene index never used it.
+   - **Early-source citation files.** Per-ayah citations in the early lexicons (Mufradāt 8,056, Tahdhīb 3,239, ʿAyn
+     530) and Majāz al-Qurʾān (1,308 ayah-keyed glosses).
+   - **Other unused material:** Maqāyīs "one aṣl" statements (473 roots); grammar translation-support rows; Turkish
+     gloss error profiles.
 
-   No classical tafsir or munāsabāt text exists locally.
+   **User correction.** Late compilations (Lisān, Lane, Qāmūs) are *not* sense evidence: they fold collocation-bound
+   senses into the root (ḍaraba = travel), the very drift the project's earliest-sources dictionary prevents. Model
+   memory carries the same risk, so memory checks must use `branch_kind`. No classical tafsir or munāsabāt text
+   exists locally.
 8. **Batch API and no 2× cache writes.** They were designed three times and never built, and they would halve Opus
    cost. One or two Opus calls per ayah would then land at about $0.3–1.0.
 9. **A fixed blind scorecard with two replicates per decision.** Every version since v11 was replaced before its
