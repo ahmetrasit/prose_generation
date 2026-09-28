@@ -1,0 +1,192 @@
+{
+  "schema": "v14-composition-independent-review-1",
+  "ref": "29:38",
+  "reviewer": "primary agent",
+  "review_complete": true,
+  "candidate": "29_38.reading.tr.md",
+  "candidate_sha256": "b7b04e2014d2c6298353b736377e855d5d4a40ff72b4cc5606d1912c1d837fa6",
+  "baseline": "../../../out-astra-blind-29-38/s029/29_38/29_38.reading.tr.md",
+  "baseline_sha256": "f24993fb6f6cd3801182436cd1dcafa96358cd0a3ff770a11fed3fde894d51a0",
+  "composition_sha256": "5a983732bc159cc0c511e0e63ddeb8f6379eeef5994d3710c206bc7ae526b2b9",
+  "predeclared_dimensions": "../../../COMPOSITION_TRIAL.md",
+  "predeclared_dimensions_sha256": "6a29118b77a68b7830a4fc22afa295826d3b1d9933d0000458c021b124392812",
+  "report": "../../../COMPOSITION_RESULT.md",
+  "accepted": false,
+  "verdict": "Failed treatment: substantially clearer and shorter, but loses the predeclared supported lexical contribution. Stop this variant under the agreed rule.",
+  "automatic_next_run": false,
+  "generation_count_per_stage": 1,
+  "repairs": 0,
+  "retries": 0,
+  "comparison_agents": 0,
+  "target_specific_generation_material": false,
+  "review_method": "Primary agent read the complete baseline, synthesis and candidate and compared against frozen evaluation-only criteria. Exact excerpts below were checked against the immutable documents. Source validation is independent of semantic acceptance.",
+  "scope": "Known-ayah development comparison on identical source evidence; additional Sol synthesis, selected handover, Astra prose. No model isolation, no held-out claim, no network, no preceding prose.",
+  "criteria": [
+    {
+      "id": "orientation",
+      "finding": "improved",
+      "evidence": [
+        {
+          "document": "candidate",
+          "prose_paragraph": 1,
+          "quote": "Kendi yaptıklarına bakıp onları iyi bulan insanlarla, şimdi o işlerin sonucuna bakan muhatapları karşı karşıya getirir."
+        },
+        {
+          "document": "candidate",
+          "prose_paragraph": 4,
+          "quote": "Böylece iki bakış ayrılır: Yaptıkları onlara güzel görünmüştür; yaptıklarının akıbeti ise şimdi size açıkça görünmektedir."
+        }
+      ],
+      "note": "Plain sense first, then the two audiences give the reader a reason to follow the sequence. Headings are unnecessary for this argument."
+    },
+    {
+      "id": "supported_surprise",
+      "finding": "failed",
+      "evidence": [
+        {
+          "document": "baseline",
+          "prose_paragraph": 39,
+          "quote": "Derinin kalın olması yetmez; kenarlar birbirine tutunmalıdır."
+        },
+        {
+          "document": "baseline",
+          "prose_paragraph": 40,
+          "quote": "Koruyucu sanılan şey, insanı gerçeğe karşı örten şeye dönüşür."
+        },
+        {
+          "document": "candidate",
+          "prose_paragraph": 8,
+          "quote": "Taştan bir ev gerçekten sağlam olabilir; insanın ona ve temsil ettiği güce bağladığı korunma beklentisi yine de boşa çıkabilir."
+        }
+      ],
+      "note": "The old seam-to-shelter and eye-film-to-obstruction interaction is absent. The new ordinary spider-house parallel does not perform that interpretive work. This is based on reading the full prose, not just missing IDs."
+    },
+    {
+      "id": "convergence_and_emphasis",
+      "finding": "improved_with_consequential_loss",
+      "evidence": [
+        {
+          "document": "candidate",
+          "prose_paragraph": 7,
+          "quote": "İşaretin gösterdiği şey değişmiştir."
+        },
+        {
+          "document": "candidate",
+          "prose_paragraph": 11,
+          "quote": "Önce onlar görüp yorumlamaktadır; sonunda görülen, kendilerinden kalan yurtlardır."
+        },
+        {
+          "document": "candidate",
+          "prose_paragraph": 15,
+          "quote": "Sondaki “basiretliydiler” kaydı, baştaki “size belli olmuştur” sözünü de kolay bir üstünlük duygusuna çevirmemizi engeller."
+        }
+      ],
+      "note": "The chosen signs/sight argument is sustained from opening to rereading. Most detached root tours disappear. The distinctive rare-branch relationship to the surah movement is lost."
+    },
+    {
+      "id": "earned_scope",
+      "finding": "mixed",
+      "evidence": [
+        {
+          "document": "candidate",
+          "prose_paragraph": 5,
+          "quote": "Güzel görünen kendi işleri, yürümeleri gereken yola engel olmuştur."
+        },
+        {
+          "document": "candidate",
+          "prose_paragraph": 13,
+          "quote": "Bağlantı, yolda olan insanın gördüğünden ne öğrendiğidir."
+        }
+      ],
+      "note": "Reader words fall from 5131 to 1221, with no imposed cap. Many weak excursions disappear. Some later travel/seeing parallels still restate the established distinction. The central supported lexical reading is lost, so brevity is not sufficient."
+    },
+    {
+      "id": "grounding",
+      "finding": "source_and_format_checks_pass",
+      "evidence": [
+        {
+          "document": "candidate",
+          "prose_paragraph": 9,
+          "quote": "Tek başına bunlardan birini kesinleştirmez;"
+        },
+        {
+          "document": "candidate",
+          "prose_paragraph": 7,
+          "quote": "“Yaptıkları” bütün davranışlarını kapsar;"
+        }
+      ],
+      "note": "All 18 Arabic tags exact and format valid. No frequency totals asserted. No tribe-name etymological construction. Quotation matching does not establish semantic payoff or certify every interpretive inference."
+    },
+    {
+      "id": "qeq_and_turkish_losses",
+      "finding": "mixed",
+      "evidence": [
+        {
+          "document": "candidate",
+          "prose_paragraph": 4,
+          "quote": "Türkçede “amel” deyince yalnız ibadetleri veya hayırlı işleri düşünmemek gerekir;"
+        },
+        {
+          "document": "candidate",
+          "prose_paragraph": 7,
+          "quote": "Türkçede daha çok Kur'an'ın cümleleri için kullandığımız “âyet”, burada göze çarpan bir işarettir:"
+        },
+        {
+          "document": "candidate",
+          "prose_paragraph": 9,
+          "quote": "Basireti burada yalnız ileride olacakları sezme yeteneği gibi düşünmemeliyiz."
+        }
+      ],
+      "note": "QeQ is integrated more effectively, but remains the chief source of development. Amel and basiret distinctions survive; ayet is explicit. Named Turkish ziynet comparison, sebil fountain sense and mesken/miskin relation are absent. Those omissions differ in consequence; no word-by-word preservation quota applied."
+    },
+    {
+      "id": "corrections_and_limitations",
+      "finding": "retained_in_developed_claims",
+      "evidence": [
+        {
+          "document": "candidate",
+          "prose_paragraph": 3,
+          "quote": "Bununla birlikte yıkılan yurtlardan söz edilmesi, toplulukların bütün üyelerinin öldüğü anlamına gelmez."
+        },
+        {
+          "document": "candidate",
+          "prose_paragraph": 13,
+          "quote": "Bu yolları 29:38'deki “doğru yol” ile aynı coğrafi güzergâh saymak gerekmez."
+        }
+      ],
+      "note": "Rescue qualification retained. Deeds not reduced to construction. No reproduction of the prior problematic punishment assignments. No network or preceding prose was supplied; sequence/surah continuity remains untested."
+    },
+    {
+      "id": "stage_attribution",
+      "finding": "decisive_loss_in_synthesis_and_selected_handover",
+      "evidence": [
+        {
+          "document": "candidate",
+          "prose_paragraph": 8,
+          "quote": "Birkaç âyet sonraki örümcek evi benzetmesi de Allah'tan başka koruyuculara yaslanmanın kırılganlığını anlatır (29:41)."
+        }
+      ],
+      "note": "Sol had the linked F74/F75 records, expansions and exact rare branches; explanation and selection omit them. Compiler follows this selection and supplies no unselected-material index. Astra performs no lookup, preserves the supplied argument, and does not recover the relationship. No comparable new substantive rendering regression identified."
+    }
+  ],
+  "stage_evidence": {
+    "available_records": [
+      "F74",
+      "E_F74",
+      "F75",
+      "E_F75"
+    ],
+    "omitted_selected_records": [
+      "F74",
+      "F75"
+    ],
+    "omitted_selected_branches": [
+      "ب ص ر B006",
+      "س ب ل B010"
+    ],
+    "writer_additional_lookups": 0,
+    "pre_writer_audit": "synthesis.audit.json",
+    "note": "No feedback from the audit entered writing. The composer did not state why it omitted this relation; internal motive is unknown."
+  },
+  "cost_is_rejection_reason": false
+}

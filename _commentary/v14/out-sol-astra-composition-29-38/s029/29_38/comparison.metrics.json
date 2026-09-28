@@ -1,0 +1,140 @@
+{
+  "ref": "29:38",
+  "baseline": {
+    "candidate_sha256": "f24993fb6f6cd3801182436cd1dcafa96358cd0a3ff770a11fed3fde894d51a0",
+    "raw_words": 6509,
+    "gloss_substituted_words": 5131,
+    "prose_bytes": 62305,
+    "headings": 6,
+    "paragraphs": 60,
+    "median_paragraph_words": 108.0,
+    "max_paragraph_words": 147,
+    "median_gloss_paragraph_words": 85.0,
+    "max_gloss_paragraph_words": 111,
+    "arabic_tags": 140,
+    "quran_tags": 89,
+    "dictionary_tags": 51,
+    "distinct_cited_dictionary_branches": 50,
+    "distinct_cited_ayat": 137,
+    "explicit_reference_starts": 121
+  },
+  "treatment": {
+    "candidate_sha256": "b7b04e2014d2c6298353b736377e855d5d4a40ff72b4cc5606d1912c1d837fa6",
+    "raw_words": 1374,
+    "gloss_substituted_words": 1221,
+    "prose_bytes": 13076,
+    "headings": 0,
+    "paragraphs": 15,
+    "median_paragraph_words": 88,
+    "max_paragraph_words": 127,
+    "median_gloss_paragraph_words": 78,
+    "max_gloss_paragraph_words": 109,
+    "arabic_tags": 18,
+    "quran_tags": 18,
+    "dictionary_tags": 0,
+    "distinct_cited_dictionary_branches": 0,
+    "distinct_cited_ayat": 30,
+    "explicit_reference_starts": 30
+  },
+  "reader_word_reduction_percent": 76.2,
+  "stages": {
+    "synth": {
+      "model": "gpt-6-sol",
+      "effort": "max",
+      "generation_count": 1,
+      "repair_count": 0,
+      "initial_input_bytes": 171674,
+      "input_sha256": "5af72c5c4b6dd45bd0f35a8426b6c615c2e78da606ecf8161a9e42d933c480ee",
+      "raw_response_bytes": 7168,
+      "raw_response_sha256": "0b955ba4c5d85a5900e4603178fe96965d8e612c7f07bc75d7ec2daa0b7a9b69",
+      "lookup": {
+        "calls": 6,
+        "returned_bytes": 27355,
+        "distinct_requested": 36,
+        "distinct_returned": 98,
+        "returned_occurrences": 99
+      },
+      "claim_to_ingestion_seconds": 381.198,
+      "token_usage": null,
+      "cost_usd": null
+    },
+    "write": {
+      "model": "gpt-6-astra",
+      "effort": "max",
+      "generation_count": 1,
+      "repair_count": 0,
+      "initial_input_bytes": 66379,
+      "input_sha256": "07d602b875d2aaf97dfbeac303a964c971bfd130c5e9c9b6e3de85d565eb121f",
+      "raw_response_bytes": 13076,
+      "raw_response_sha256": "b7b04e2014d2c6298353b736377e855d5d4a40ff72b4cc5606d1912c1d837fa6",
+      "lookup": {
+        "calls": 0,
+        "returned_bytes": 0,
+        "distinct_requested": 0,
+        "distinct_returned": 0,
+        "returned_occurrences": 0
+      },
+      "claim_to_ingestion_seconds": 532.619,
+      "token_usage": null,
+      "cost_usd": null
+    }
+  },
+  "selection": {
+    "research_items": 169,
+    "selected_by_composer": 19,
+    "dictionary_branches": 10,
+    "quran_refs": 27,
+    "concordance_roots": 3,
+    "explanation_words": 819,
+    "qualification_ids": [
+      "E_F37"
+    ],
+    "note": "Selections do not certify semantic use. Research items are retained in the archive; the writer receives explanation and selected sources, not all selected record texts."
+  },
+  "verification": {
+    "copied_source_files_identical": {
+      "s029/29_38/act.md": true,
+      "s029/29_38/qeq.md": true,
+      "s029/29_38/synthesis.json": true,
+      "s029/29_38/inputs/ayah.md": true,
+      "s029/29_38/inputs/window_text.md": true,
+      "s029/29_38/inputs/dictionary.md": true,
+      "s029/29_38/inputs/branches.md": true,
+      "s029/29_38/inputs/concordance.md": true,
+      "s029/29_38/inputs/variants.md": true,
+      "inputs/quran.tsv": true
+    },
+    "treatment_frozen_files": 14,
+    "baseline_frozen_files": 13,
+    "treatment_generation_code_hashes_verified": 4,
+    "historical_copied_files_checked": 298,
+    "historical_copied_changes": [],
+    "evaluation_document_unchanged": true,
+    "baseline_candidate_unchanged": true,
+    "writer_response_unchanged": true,
+    "cited_ayat_not_referenced_in_supplied_writer_input": [],
+    "source_checks": "All 18 Arabic tags exact; prose format valid."
+  },
+  "accounting": {
+    "baseline_bytes_including_separator_whitespace": 19251,
+    "treatment_writer_inventory_bytes": 0,
+    "synth_raw_response_bytes": 7168,
+    "note": "Writer inventory removed by design. Composer still produces a JSON explanation and evidence selection; this is not zero overall structural output."
+  },
+  "usage": {
+    "new_upstream_calls": 0,
+    "total_initial_input_bytes": 238053,
+    "total_lookup_returned_bytes": 27355,
+    "sum_claim_to_ingestion_seconds": 913.817,
+    "provider_tokens": null,
+    "provider_cost_usd": null,
+    "note": "Bytes are not tokens or billing. Claim-to-ingestion includes coordination, retrieval and ingestion; it is not provider latency. No cost rejection."
+  },
+  "metric_notes": [
+    "Raw words include Arabic tags and metadata; reader words replace every tag with its Turkish gloss.",
+    "Paragraphs exclude heading-only blocks; headings include title.",
+    "Citation counts include inclusive ranges; explicit starts count written S:A references before range expansion.",
+    "Quran tags may declare multiple Quran sources.",
+    "Counts describe scope, not semantic integration."
+  ]
+}

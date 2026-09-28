@@ -8,17 +8,23 @@ fixes, manually supplied missing connections, or generation rules derived from t
 omissions belong in evaluation only. Generic changes must be justified as mechanisms that work from normal inputs.
 The 1:6 comparison selects a promising writer; it does not establish readiness for arbitrary ayat.
 
-Current authorized experiment: COMPOSITION_TRIAL.md. The user chose 29:38 again for a controlled comparison and
-specified Sol 6 max for interpretive synthesis, then a fresh Astra 6 max for reader prose. New arm:
-out-sol-astra-composition-29-38. Source evidence is copied exactly from the completed blind arm; no new upstream
-calls, target hints, inherited conversation, previous target prose or evaluation enter generation. The separate
-composition.py path retains the whole research archive while the writer receives completed reasoning and selected
-evidence, plus on-demand source access. Prose contains no inventory JSON. Thirty offline tests passed before calls.
-This is a known-ayah development test of the whole redesigned process, not a blind or model-isolation result.
-One generation per stage; a failed synthesis blocks the writer. Do not interrupt, repair or restart either call.
-The primary agent reviews. Concurrent v15 work is unrelated and must be left alone.
+Latest result: read COMPOSITION_RESULT.md and the unchanged pre-run plan COMPOSITION_TRIAL.md. The user chose
+29:38 again and specified Sol 6 max for synthesis, then a fresh Astra 6 max for prose. Both completed once, with
+no inherited conversation, target hints, interruption, retry, repair or manual prose edit. The ten evidence files
+are byte-identical to the previous arm; no new upstream call was made. Arm: out-sol-astra-composition-29-38.
+This is a known-ayah development comparison of the whole redesigned process, not a blind or model-isolation test.
 
-Latest result: read BLIND_29_38_RESULT.md and the unchanged pre-run plan BLIND_29_38.md. The user-requested blind
+The result is clearer but fails the predeclared goal: 1,374 raw / 1,221 reader words, 15 paragraphs, 18 exact Quran
+tags, zero dictionary quotations. The tent-seam / web-like eye-film relationship is already absent from Sol's
+819-word explanation and source selection, although the full synthesis input contains it. Astra's selected
+packet contains no cue to recover it; Astra makes no extra lookup and does not recover it. Archive retention
+and exact-key lookup do not make unknown omissions visible. The primary agent reviewed; no comparison agent ran.
+Read independent.review.json and comparison.metrics.json beside the candidate. No acceptance pointer exists.
+Under the agreed stopping rule, stop this treatment: no prompt tuning, target-specific restoration or new call
+starts automatically. Thirty offline tests passed before generation; code, prompts, inputs and 298 copied
+historical data files remain intact. Cost/tokens are unavailable, not a rejection reason. Leave v15 work alone.
+
+Previous result: read BLIND_29_38_RESULT.md and the unchanged pre-run plan BLIND_29_38.md. The user-requested blind
 29:38 run is complete: fresh Opus-high discovery and Quran-relation analysis, then one Astra 6 max generation,
 with no prompt/code changes, target hints, retry or repair. This is the existing standalone-ayah path: normal
 29:21–51 window, no window network and no preceding prose. It does not test sequential or full-surah continuity.
