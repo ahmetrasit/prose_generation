@@ -65,7 +65,9 @@ dictionary arm) and keep what both found, without turning into a catalogue?
 - One return call per replicate that saw the script-computed sentences the commentary did not carry.
 - Criteria fixed before the run (`e2_score.py`):
   - C1 recall ≥ the better input's + 0.10;
-  - C2 form: words ≤ 1.5 × the longer input, longest paragraph ≤ 300 words, negation rate ≤ the inputs';
+  - C2 form: words ≤ 1.5 × the longer input, longest paragraph ≤ 300 words, negation rate ≤ the inputs'. **Corrected
+    after the run:** judging length breaks the user's no-caps rule ("checks report length and never judge it"), so
+    C2 now judges only the negation rate and reports length;
   - C3 the user's blind read.
 
 **Results:**
@@ -73,8 +75,8 @@ dictionary arm) and keep what both found, without turning into a catalogue?
 | ayah | pooled items | recall: cold / dict / integrated (rep1, rep2) | C1 | words: longer input / integrated | C2 |
 |---|---|---|---|---|---|
 | 18:86 | 120 | 0.65 / 0.82 / 0.93, 0.93 | pass, pass | 2,753 / 3,226, 3,302 | pass, pass |
-| 4:34 | 138 | 0.70 / 0.71 / 0.98, 0.99 | pass, pass | 3,659 / 4,590, 4,795 | fail (negation 6.97 > 6.0), pass |
-| 1:6 | 61 | 0.57 / 0.57 / 0.95, 0.97 | pass, pass | 1,643 / 2,542, 2,526 | fail (words 1.55× > 1.5×), fail |
+| 4:34 | 138 | 0.70 / 0.71 / 0.98, 0.99 | pass, pass | 3,659 / 4,590, 4,795 | fail (negation 6.97 > 6.01), pass |
+| 1:6 | 61 | 0.57 / 0.57 / 0.95, 0.97 | pass, pass | 1,643 / 2,542, 2,526 | pass, pass (the original "fail" was length only: retracted) |
 
 - The integration call cost $0.41–1.11 and used only 2–6k thinking tokens.
 - The return call changed nothing in 6 of 6 cases: the output was byte-identical to the draft. Only 1–5 sentences
@@ -98,8 +100,8 @@ is the integrated commentary against the better input. The key is in `KEY_open_a
 
 ## What E1 and E2 change
 
-- **Integration from finished readings works mechanically.** It passed recall in 6 of 6 runs. On form it failed 3 of
-  6, by small margins: length and negation rate.
+- **Integration from finished readings works mechanically.** It passed recall in 6 of 6 runs. On form (negation rate
+  only, after the no-caps correction) it passed 5 of 6.
 - **The permitted single reading (E1) already carries both slices on some ayat** (1:6: 15 outside refs and 22
   dictionary quotations). So the real contest is F1 (one permitted reading) against B (a memory reading plus a
   dictionary reading plus integration, with no return turn). That is E3.

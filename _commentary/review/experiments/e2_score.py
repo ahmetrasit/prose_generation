@@ -7,7 +7,8 @@ Per ayah and replicate, for the two inputs (cold, dict), the integrated draft an
 - form: words, longest paragraph (words), negation/disclaimer frames per 1,000 words (değil/sayılmaz/anlamına gelmez/
   demek değildir/söylemez), [bellek] marks, same-surah and other-surah refs outside the pool (new material).
 Criterion 1 passes for an ayah-replicate when final recall >= max(input recall) + 0.10.
-Criterion 2 passes when words <= 1.5 x longer input, longest paragraph <= 300, negation rate <= max(input rates).
+Criterion 2 (corrected 2026-09-28 to the no-caps rule: length is reported, never judged) passes when the negation
+rate <= max(input rates).
 Usage: python3 e2_score.py
 """
 from __future__ import annotations
@@ -63,8 +64,7 @@ def main() -> None:
                 longer = max(base["cold"]["words"], base["dict"]["words"])
                 negmax = max(base["cold"]["neg_per_1000"], base["dict"]["neg_per_1000"])
                 row["c1_recall_pass"] = fin["recall"] >= best + 0.10
-                row["c2_form_pass"] = (fin["words"] <= 1.5 * longer and fin["longest_para"] <= 300
-                                       and fin["neg_per_1000"] <= negmax)
+                row["c2_form_pass"] = fin["neg_per_1000"] <= negmax  # length reported only (no-caps rule)
             rows.append(row)
     E.OUT.mkdir(parents=True, exist_ok=True)
     out = E.OUT / "score.json"
