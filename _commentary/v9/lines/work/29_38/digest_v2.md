@@ -1,0 +1,540 @@
+# Quranic reach for 29:38 (script digest, unjudged)
+
+Candidates for reading the ayah through the Quran itself. Nothing here is a finding yet: judge each one.
+
+## 1. Variant readings (qirāʾāt)
+
+- word 4 · وَثَمُودًا (wa-Thamūdan) · Tnw · Canonical variant adding tanwīn to Thamūd — treats it as fully declinable (triptote), harmonizing with ʿĀdan; removes the morphological asymmetry between the paired names
+
+## 2. Usage: each root of the ayah across the Quran (ref and the word as it occurs)
+
+### U-عود root ع و د (focus word وَعَادًا: عَاد2 PN) — 62 occurrences in 58 ayat; same form 24, other forms 38
+- tier 1, same form (عَاد2 PN): 24
+  - 7:65 عَادٍ
+  - 7:74 عَادٍ
+  - 9:70 عَادٍ
+  - 11:50 عَادٍ
+  - 11:59 عَادٌ
+  - 11:60 عَادًا
+  - 11:60 عَادٍ
+  - 14:9 عَادٍ
+  - 22:42 عَادٌ
+  - 25:38 عَادًا
+  - 26:123 عَادٌ
+  - 29:38 ◀ focus عَادًا
+  - 38:12 عَادٌ
+  - 40:31 عَادٍ
+  - 41:13 عَادٍ
+  - 41:15 عَادٌ
+  - 46:21 عَادٍ
+  - 50:13 عَادٌ
+  - 51:41 عَادٍ
+  - 53:50 عَادًا
+  - 54:18 عَادٌ
+  - 69:4 عَادٌۢ
+  - 69:6 عَادٌ
+  - 89:6 عَادٍ
+- tier 2, other forms: عِيد N 1; مَعَاد N 1; عَآئِدُون N 1; أُعِيدُ V form IV 17; عَادَ V 18
+- rare form عِيد (N):
+  - 5:114 عِيدًا
+- rare form مَعَاد (N):
+  - 28:85 مَعَادٍ
+- rare form عَآئِدُون (N):
+  - 44:15 عَآئِدُونَ
+- roots co-occurring across the listed ayat: ء ل ه (11), ق و م (11), ق و ل (7), ك ذ ب (6), ر س ل (6), ب ي ن (5), ر ب ب (5), ك و ن (5), ب ع د (4), ق ب ل (4), ء خ و (4), ن ذ ر (4), ع ب د (4), ع ذ ب (3)
+
+### U-بين root ب ي ن (focus word تَّبَيَّنَ: تَبَيَّنَ V form V) — 484 occurrences in 454 ayat; same form 17, other forms 467
+- tier 1, same form (تَبَيَّنَ V form V): 17
+  - 2:109 تَبَيَّنَ
+  - 2:187 يَتَبَيَّنَ
+  - 2:256 تَّبَيَّنَ
+  - 2:259 تَبَيَّنَ
+  - 4:94 تَبَيَّنُ
+  - 4:115 تَبَيَّنَ
+  - 8:6 تَبَيَّنَ
+  - 9:43 يَتَبَيَّنَ
+  - 9:113 تَبَيَّنَ
+  - 9:114 تَبَيَّنَ
+  - 14:45 تَبَيَّنَ
+  - 29:38 ◀ focus تَّبَيَّنَ
+  - 34:14 تَبَيَّنَتِ
+  - 41:53 يَتَبَيَّنَ
+  - 47:25 تَبَيَّنَ
+  - 47:32 تَبَيَّنَ
+  - 49:6 تَبَيَّنُ
+- tier 2, other forms: تَسْتَبِينَ V form X 1; تِبْيَٰن N 1; بَيِّن ADJ 1; مُّبَيِّنَة N form II 1; مُسْتَبِين ADJ form X 1; يُبِينُ V form IV 1; مُّبَيِّنَٰت N 1; مُّبَيِّنَة ADJ form II 2; مُّبَيِّنَٰت ADJ 2; بَيَان N 3; بَيِّنَة ADJ 16; بَيْن N 21; بَيَّنُ V form II 35; مُّبِين ADJ form IV 47; بَيِّنَة N 54; مُّبِين N form IV 72; بَيْن LOC 208
+- rare form تَسْتَبِينَ (V form X):
+  - 6:55 تَسْتَبِينَ
+- rare form تِبْيَٰن (N):
+  - 16:89 تِبْيَٰنًا
+- rare form بَيِّن (ADJ):
+  - 18:15 بَيِّنٍ
+- rare form مُّبَيِّنَة (N form II):
+  - 33:30 مُّبَيِّنَةٍ
+- rare form مُسْتَبِين (ADJ form X):
+  - 37:117 مُسْتَبِينَ
+- rare form يُبِينُ (V form IV):
+  - 43:52 يُبِينُ
+- rare form مُّبَيِّنَٰت (N):
+  - 65:11 مُبَيِّنَٰتٍ
+- rare form مُّبَيِّنَة (ADJ form II):
+  - 4:19 مُّبَيِّنَةٍ
+  - 65:1 مُّبَيِّنَةٍ
+- rare form مُّبَيِّنَٰت (ADJ):
+  - 24:34 مُّبَيِّنَٰتٍ
+  - 24:46 مُّبَيِّنَٰتٍ
+- rare form بَيَان (N):
+  - 3:138 بَيَانٌ
+  - 55:4 بَيَانَ
+  - 75:19 بَيَانَ
+- roots co-occurring across the listed ayat: ء ل ه (31), ء م ن (10), ب ع د (9), ك و ن (8), ء ت ي (7), ش ي ء (7), ء ي ي (7), ع ل م (6), ن ف س (6), ق و ل (6), ه د ي (6), ك ل ل (5), م و ت (5), ك ر ه (4)
+
+### U-سكن root س ك ن (focus word مَّسَٰكِنِهِمْ: مَسْكَن N) — 69 occurrences in 66 ayat; same form 12, other forms 57
+- tier 1, same form (مَسْكَن N): 12
+  - 9:24 مَسَٰكِنُ
+  - 9:72 مَسَٰكِنَ
+  - 14:45 مَسَٰكِنِ
+  - 20:128 مَسَٰكِنِ
+  - 21:13 مَسَٰكِنِ
+  - 27:18 مَسَٰكِنَ
+  - 28:58 مَسَٰكِنُ
+  - 29:38 ◀ focus مَّسَٰكِنِ
+  - 32:26 مَسَٰكِنِ
+  - 34:15 مَسْكَنِ
+  - 46:25 مَسَٰكِنُ
+  - 61:12 مَسَٰكِنَ
+- tier 2, other forms: سِكِّين N 1; مَسْكُونَة N 1; سَاكِن N 1; مِسْكِين ADJ 1; مَسْكَنَة N 2; سَكَن N 3; أَسْكَن V form IV 5; سَكِينَة N 6; سَكَنَ V 15; مِسْكِين N 22
+- rare form سِكِّين (N):
+  - 12:31 سِكِّينًا
+- rare form مَسْكُونَة (N):
+  - 24:29 مَسْكُونَةٍ
+- rare form سَاكِن (N):
+  - 25:45 سَاكِنًا
+- rare form مِسْكِين (ADJ):
+  - 69:34 مِسْكِينِ
+- rare form مَسْكَنَة (N):
+  - 2:61 مَسْكَنَةُ
+  - 3:112 مَسْكَنَةُ
+- rare form سَكَن (N):
+  - 6:96 سَكَنًا
+  - 9:103 سَكَنٌ
+  - 16:80 سَكَنًا
+- rare form أَسْكَن (V form IV):
+  - 14:14 نُسْكِنَ
+  - 14:37 أَسْكَن
+  - 23:18 أَسْكَ
+  - 42:33 يُسْكِنِ
+  - 65:6 أَسْكِنُ
+- rare form سَكِينَة (N):
+  - 2:248 سَكِينَةٌ
+  - 9:26 سَكِينَتَ
+  - 9:40 سَكِينَتَ
+  - 48:4 سَّكِينَةَ
+  - 48:18 سَّكِينَةَ
+  - 48:26 سَكِينَتَ
+- roots co-occurring across the listed ayat: ء ل ه (25), ك و ن (12), ء م ن (9), ق و ل (8), ء ي ي (8), ر ب ب (8), ج ع ل (8), ن ز ل (7), ك ف ر (7), ع ل م (6), ء ت ي (5), ج ن ن (5), ر ء ي (5), ق و م (5)
+
+### U-زين root ز ي ن (focus word وَزَيَّنَ: زَيَّنَ V form II) — 45 occurrences in 43 ayat; same form 26, other forms 19
+- tier 1, same form (زَيَّنَ V form II): 26
+  - 2:212 زُيِّنَ
+  - 3:14 زُيِّنَ
+  - 6:43 زَيَّنَ
+  - 6:108 زَيَّ
+  - 6:122 زُيِّنَ
+  - 6:137 زَيَّنَ
+  - 8:48 زَيَّنَ
+  - 9:37 زُيِّنَ
+  - 10:12 زُيِّنَ
+  - 13:33 زُيِّنَ
+  - 15:16 زَيَّ
+  - 15:39 أُزَيِّنَ
+  - 16:63 زَيَّنَ
+  - 27:4 زَيَّ
+  - 27:24 زَيَّنَ
+  - 29:38 ◀ focus زَيَّنَ
+  - 35:8 زُيِّنَ
+  - 37:6 زَيَّ
+  - 40:37 زُيِّنَ
+  - 41:12 زَيَّ
+  - 41:25 زَيَّنُ
+  - 47:14 زُيِّنَ
+  - 48:12 زُيِّنَ
+  - 49:7 زَيَّنَ
+  - 50:6 زَيَّ
+  - 67:5 زَيَّ
+- tier 2, other forms: ٱزَّيَّنَتْ V form V 1; زِينَة N 18
+- rare form ٱزَّيَّنَتْ (V form V):
+  - 10:24 ٱزَّيَّنَتْ
+- roots co-occurring across the listed ayat: ء ل ه (19), ع م ل (13), س م و (10), ك و ن (8), ك ف ر (7), ق و م (7), ق و ل (6), د ن و (6), ع ل م (5), س و ء (5), ش ط ن (5), ج ع ل (5), ظ ن ن (5), ه د ي (4)
+
+### U-شطن root ش ط ن (focus word ٱلشَّيْطَٰنُ: شَيْطَٰن PN) — 82 occurrences in 78 ayat; same form 74, other forms 8
+- tier 1, same form (شَيْطَٰن PN): 74 — common form, not listed
+- tier 2, other forms: شَيْطَٰن N 8
+- rare form شَيْطَٰن (N):
+  - 2:14 شَيَٰطِينِ
+  - 4:117 شَيْطَٰنًا
+  - 6:112 شَيَٰطِينَ
+  - 15:17 شَيْطَٰنٍ
+  - 22:3 شَيْطَٰنٍ
+  - 37:7 شَيْطَٰنٍ
+  - 43:36 شَيْطَٰنًا
+  - 81:25 شَيْطَٰنٍ
+- roots co-occurring across the listed ayat: ك ل ل (4), ق و ل (4), م ر د (3), د ع و (2), ح ف ظ (2), ر ج م (2), ب ع ض (2), ء م ن (2)
+
+### U-عمل root ع م ل (focus word أَعْمَٰلَهُمْ: عَمَل N) — 354 occurrences in 313 ayat; same form 68, other forms 286
+- tier 1, same form (عَمَل N): 68 — common form, not listed
+- tier 2, other forms: عَامِلَة ADJ 1; عَٰمِل N 12; عَمِلَ V 273
+- rare form عَامِلَة (ADJ):
+  - 88:3 عَامِلَةٌ
+
+### U-صدد root ص د د (focus word فَصَدَّهُمْ: صَدَّ V) — 42 occurrences in 41 ayat; same form 37, other forms 5
+- tier 1, same form (صَدَّ V): 37
+  - 3:99 تَصُدُّ
+  - 4:55 صَدَّ
+  - 4:61 يَصُدُّ
+  - 4:167 صَدُّ
+  - 5:2 صَدُّ
+  - 5:91 يَصُدَّ
+  - 7:45 يَصُدُّ
+  - 7:86 تَصُدُّ
+  - 8:34 يَصُدُّ
+  - 8:36 يَصُدُّ
+  - 8:47 يَصُدُّ
+  - 9:9 صَدُّ
+  - 9:34 يَصُدُّ
+  - 11:19 يَصُدُّ
+  - 14:3 يَصُدُّ
+  - 14:10 تَصُدُّ
+  - 16:88 صَدُّ
+  - 16:94 صَدَد
+  - 20:16 يَصُدَّ
+  - 22:25 يَصُدُّ
+  - 27:24 صَدَّ
+  - 27:43 صَدَّ
+  - 28:87 يَصُدُّ
+  - 29:38 ◀ focus صَدَّ
+  - 34:32 صَدَدْ
+  - 34:43 يَصُدَّ
+  - 40:37 صُدَّ
+  - 43:37 يَصُدُّ
+  - 43:57 يَصِدُّ
+  - 43:62 يَصُدَّ
+  - 47:1 صَدُّ
+  - 47:32 صَدُّ
+  - 47:34 صَدُّ
+  - 48:25 صَدُّ
+  - 58:16 صَدُّ
+  - 63:2 صَدُّ
+  - 63:5 يَصُدُّ
+- tier 2, other forms: صُدُود N 1; صُدُّ V form II 1; صَدِيد ADJ 1; صَدّ N 2
+- rare form صُدُود (N):
+  - 4:61 صُدُودًا
+- rare form صُدُّ (V form II):
+  - 13:33 صُدُّ
+- rare form صَدِيد (ADJ):
+  - 14:16 صَدِيدٍ
+- rare form صَدّ (N):
+  - 2:217 صَدٌّ
+  - 4:160 صَدِّ
+- roots co-occurring across the listed ayat: ء ل ه (41), س ب ل (25), ك ف ر (18), ك و ن (14), ق و ل (12), ع م ل (9), ح ر م (9), ع ذ ب (9), ء م ن (8), ه د ي (7), ب ي ن (7), ب غ ي (6), س ج د (6), ب ع د (6)
+
+### U-سبل root س ب ل (focus word ٱلسَّبِيلِ: سَبِيل N) — 168 occurrences in 164 ayat; same form 168, other forms 0
+- tier 1, same form (سَبِيل N): 168 — common form, not listed
+
+### U-بصر root ب ص ر (focus word مُسْتَبْصِرِينَ: مُسْتَبْصِرِين N form X) — 148 occurrences in 139 ayat; same form 1, other forms 147
+- tier 1, same form (مُسْتَبْصِرِين N form X): 1
+  - 29:38 ◀ focus مُسْتَبْصِرِينَ
+- tier 2, other forms: تَبْصِرَة N form II 1; يُبَصَّرُ V form II 1; مُبْصِرَة N form IV 3; بَصُرَتْ V 3; مُبْصِر N form IV 4; بَصِيرَة N 7; بَصِير ADJ 20; أَبْصَرَ V form IV 29; بَصِير N 31; بَصَر N 48
+- rare form تَبْصِرَة (N form II):
+  - 50:8 تَبْصِرَةً
+- rare form يُبَصَّرُ (V form II):
+  - 70:11 يُبَصَّرُ
+- rare form مُبْصِرَة (N form IV):
+  - 17:12 مُبْصِرَةً
+  - 17:59 مُبْصِرَةً
+  - 27:13 مُبْصِرَةً
+- rare form بَصُرَتْ (V):
+  - 20:96 بَصُرْ
+  - 20:96 يَبْصُرُ
+  - 28:11 بَصُرَتْ
+- rare form مُبْصِر (N form IV):
+  - 7:201 مُّبْصِرُونَ
+  - 10:67 مُبْصِرًا
+  - 27:86 مُبْصِرًا
+  - 40:61 مُبْصِرًا
+- rare form بَصِيرَة (N):
+  - 6:104 بَصَآئِرُ
+  - 7:203 بَصَآئِرُ
+  - 12:108 بَصِيرَةٍ
+  - 17:102 بَصَآئِرَ
+  - 28:43 بَصَآئِرَ
+  - 45:20 بَصَٰٓئِرُ
+  - 75:14 بَصِيرَةٌ
+- roots co-occurring across the listed ayat: ء ي ي (9), ق و ل (7), ج ع ل (5), ل ي ل (5), ن ه ر (5), ر ب ب (5), ق و م (4), ن و س (4), ء ل ه (4), س ك ن (3), ذ ك ر (3), ه د ي (3), ر ح م (3), ر س ل (3)
+
+## 3. Related passages (reciprocal inter-ayah candidates, strongest first: the ayah and why it may bear on the focus, as an earlier review saw it — a lead to test, not a finding)
+
+### Formula group (ز ي ن + ش ط ن + ع م ل): these ayat share the roots with the focus
+- 16:63 — Onceki toplumlarda seytanin amelleri susleyip onlar icin dost olmasini bildirerek odaktaki tarihsel ve nedensel deseni dogrudan paraleller.
+- 8:48 — Seytanin amelleri susleyip sahte guven ve koruma vaadi vermesi, odaktaki suslemenin nasil aldatma uretdigini somutlastirir.
+
+### Formula group (ب ص ر + ع م ل + ك و ن): these ayat share the roots with the focus
+- 5:71 — Fitne olmayacagini sananlarin kor ve sagir kesilmesini tekrar ederek gorur olmanin hidayet icin yeterli olmadigini gosterir.
+- 57:4 — Allah'in yapilanlari gormesi, insanin gorus kapasitesinden farkli olsa da gizli yonelisi de kusatan ilahi bilginin genel zeminini verir.
+
+### Formula group (س ب ل + ص د د + ع م ل + ك و ن): these ayat share the roots with the focus
+- 9:9 — Allah'in ayetlerini dusuk bir bedele degistirip insanlari yolundan cevirmeyi, odaktaki yol engellemesinin kamusal boyutu olarak verir.
+- 63:2 — Yeminleri kalkan yapip Allah yolundan cevirenleri anlatarak yol engellemesinin koruyucu gorunen toplumsal bir duzene donusmesini ekler.
+
+### Formula group (س ب ل + ص د د + ع م ل): these ayat share the roots with the focus
+- 47:1 — Inkar edip Allah yolunu engelleyenlerin amellerinin bosa cikarilmasi, odaktaki engellemenin fail uzerindeki sonucunu verir.
+- 3:99 — Satan adorns deeds and turns knowing people away from the way.
+
+### Formula group (ب ي ن + ش ط ن + ص د د): these ayat share the roots with the focus
+- 43:62 — Satan beautifies actions and turns people from the path despite available insight.
+- 5:91 — Seytanin sarhosluk ve kumarla Allah'i anmaktan ve namazdan alikoymasi, odaktaki seytani yol engellemesinin pratik bir gorunumunu verir.
+- 47:25 — Hidayet aciklandiktan sonra geri donusu ve seytanin telkinini bildirerek kanit varliginda bilinclI sapmayi netlestirir.
+- 29:29 — Yol kesme ve acik hayasizlik, ayni surede yolun dusmanca engellenmesi temasini ve Lut kavminin yikim gerekcesini verir.
+- 29:39 — Karun, Firavun ve Haman'in acik delillere ragmen kibirlenmesini ekleyerek odaktaki helak edilmis kavimler zincirini hemen surdurur.
+- 25:38 — Ad ve Semud'u onceki kusaklarla birlikte helak edilmis topluluklar olarak acikca sayarak odagin tarihsel adlarini dogrudan teyit eder.
+- 43:37 — Saptiran yoldaslarin insanlari yoldan cevirirken kendilerini hidayette sanmalarini anlatarak gorur haldeki yanilginin dogrudan paralelini verir.
+- 29:35 — Yikilan kentten akledenler icin acik bir ayet birakildigini soyleyerek odaktaki gorunur meskenlerin islevini ayni sure icinde aciklar.
+- 46:25 — Ad'in helakindan sonra yalniz meskenlerinin gorunur kalmasini bildirerek odaktaki mesken kanitini en dogrudan bicimde aciklar.
+- 51:37 — Lut kentinde azaptan korkanlara bir isaret birakilmasi, yikim sonrasi korunan kanit islevini tekrarlar.
+- 53:51 — Semud'un hicbirakilmadan yok edilmesini kisaca bildirerek odaktaki Semud helakini teyit eder.
+- 15:16 — Gogun bakmak isteyenler icin suslenmesi, aldatici susleme veya helak edilmis meskenler hakkinda degildir.
+- 27:4 — Ahirete inanmayanlara amellerinin suslenip bocalamasi, suslenmenin kisi kendi degerlendirmesine hapseden yonunu aciklar.
+- 28:58 — Refaha sImarmis nice kentlerin issiz kalan meskenlerini anlatarak yikimdan sonra gorunen konutlari yakin bir genel paralel yapar.
+- 20:128 — Onceki kusaklarin helak edilmis meskenlerinde yuruyenler icin ayetler oldugunu soyleyerek odaktaki gorunur meskenlerden cikarilacak dersi dogrudan paraleller.
+- 32:26 — Helak edilmis kusaklarin meskenlerinde yuruyenlere yoneltilen uyari, odaktaki meskenlerin gorunur kanit olmasini neredeyse ayni bicimde aciklar.
+- 41:15 — Ad'in haksiz kibirlenmesini, kudretine guvenmesini ve ayetleri inkar etmesini anlatarak odaktaki Ad helakinin ahlaki nedenini verir.
+- 9:37 — Kotuluklerinin kendilerine suslenmesini ve hidayetten mahrum kalmalarini bildirerek suslemenin daha genel bir sapma bicimini ekler.
+- 48:12 — Kalplerde guzel gosterilen kotu zannin toplulugu helake goturmesini anlatarak suslemenin icten isleyen yaniltici senaryo yonunu ekler.
+- 18:7 — Yeryuzundeki susun bir sinama oldugunu bildirerek her susun gercek deger degil imtihan olabilecegini hatirlatir.
+- 29:37 — Suayb'i yalanlayanlarin sarsintiyle kendi yurtlarinda cokup kalmasi, odagin hemen onceki yikim ve mesken zincirini dogrudan kurar.
+- 29:40 — Her toplulugun gunahi yuzunden farkli bicimde yakalandigini bildirerek odaktaki Ad ve Semud dahil helak anlatilarinin yargisal sonucunu hemen aciklar.
+- 3:14 — Dunyevi arzularin insanlara suslu gosterilmesi, seytanin amelleri suslemesinden farkli olsa da deger algisinin bozulmasina sinirli katkidir.
+- 4:115 — Hidayet aciklandiktan sonra baska yolu secmenin sonucunu bildirerek odaktaki aciklik karsisinda yon degistirme temasini destekler.
+- 51:21 — Insanin kendi nefsinde ayetler bulunmasi ve bakmasi cagrisi, odaktaki dis mesken isaretleriyle icgoru arasindaki ekseni genisletir.
+- 15:82 — Hicr halkinin daglardan guvenli evler yonttugunu bildirerek Semud'un odakta anilan meskenlerinin somut niteligini dogrudan aciklar.
+- 11:53 — Ad kavminin Hud'un acik delil getirmedigini ileri surup ilahlarini birakmayacaklarini soylemesi, kaniti reddetmelerinin onceden verilmis sonucunu gosterir.
+- 15:80 — Hicr halkinin elcileri yalanladigini bildirerek Semud'a bagli meskenlerin helakinin peygamberlik reddi boyutunu ekler.
+- 41:53 — Ufuklarda ve nefislerde ayetlerin hak oldugu aciklasincaya kadar gosterilecegini bildirerek gorunur delil ile basiret temasini guclu bicimde genisletir.
+- 7:30 — Seytanlari dost edinip kendilerini hidayette sanan sapmis grubu anlatarak gorur halde yanlis yonde olmanin yakin paralelini verir.
+- 7:74 — Semud'un daglardan evler yontmasini bildirerek odakta gorunen Semud meskenlerinin insa edilmis niteligini dogrudan aciklar.
+- 7:78 — Semud'un sarsintiyla kendi yurtlarinda cokup kalmasi, odaktaki Semud helakinin meskenle bagli sonucunu tekrarlar.
+- 7:146 — Ayetleri gordugu halde inkar edenlerin dogru yolu almamasi ve sapiklik yolunu secmesini bildirerek odaktaki basiret-sapma gerilimini dogrudan aciklar.
+- 11:67 — Semud'u yakalayan sayha sonunda kendi yurtlarinda cokup kalmalarini bildirerek odaktaki meskenler ve yikim iliskisini dogrudan paraleller.
+- 15:81 — Hicr halkina ayetler verildigi halde onlardan yuz cevirmelerini bildirerek Semud baglaminda kanit mevcutken reddetmeyi dogrudan ekler.
+- 15:83 — Hicr halkini sabah vakti yakalayan sayhayi bildirerek Semud meskenlerinin ardindaki helak sonucunu tamamlar.
+- 22:45 — Zalimlik yuzunden cokmus kentleri, issiz kuyulari ve terk edilmis saraylari sayarak gorunur harabenin yargi kaniti olmasini kuvvetle paraleller.
+- 22:46 — Yeryuzunde gezip kalplerle kavramama ve gozlerin degil kalplerin korlugu uyarisi, odaktaki gorur halde basiretin islemezligini dogrudan aciklar.
+- 25:40 — Azap yagdirilmis kente ugrayanlarin onu gormelerine ragmen dirilisi ummamalarini anlatarak gorunur yikim kanitinin etkisiz kalmasini paraleller.
+- 26:149 — Semud'un daglardan beceriyle evler yontmasini anlatarak odaktaki meskenlerin en yakin yapisal paralelini verir.
+- 27:52 — Zulumleri yuzunden bomboS kalan evleri gosteren ayet, odaktaki gorunur meskenlerin en dogrudan paralel yikim kanitlarindandir.
+- 27:69 — Yeryuzunde gezip suclularin sonunu gorme emri, odaktaki gecmis kavimlerden cikarilacak gorunur dersi destekler.
+- 40:82 — Yeryuzunde gezip oncekilerin sonunu gormeyi ve kazandiklarinin fayda vermedigini bildirerek sapmis amellerin sonucunu ekler.
+- 41:13 — Ad ve Semud'un basina gelen sayha gibi bir azapla uyarmasi, odagin iki kavmini birlikte yargi ornegi olarak dogrudan yeniden verir.
+- 41:16 — Ad'a gonderilen yikici ruzgari bildirerek odaktaki Ad helakinin nasil gerceklestigini aciklar.
+- 41:17 — Semud'a hidayet verildigi halde korlugu hidayete tercih etmelerini bildirerek odaktaki gorur halde yoldan sapmanin en yakin tarihsel aciklamasini verir.
+- 46:24 — Ad'in yaklasan azap bulutunu yagmur sanmasi, gorunen isareti yanlis degerlendirmenin odaktaki basiret sorunuyla guclu bagini kurar.
+- 46:26 — Ad'a verilen isitme, gorme ve gonul yetilerinin ayetleri inkar ettikleri icin fayda vermemesini bildirerek odaktaki gorur olmakla sapma arasini dogrudan aciklar.
+- 69:4 — Semud ve Ad'in ezici felaketi yalanladiklarini birlikte bildirerek odaktaki iki kavmin ortak ret ve yikim bagini dogrudan teyit eder.
+- 89:6 — Iremli Ad'i anarak odaktaki Ad adini ve tarihsel konumunu yeniden one cikarir.
+- 89:9 — Vadide kayalari yaran Semud'u anlatarak odakta gorunen meskenlerin kaya isciligi boyutunu dogrudan ekler.
+- 91:11 — Semud'un azginligi yuzunden yalanlamasini bildirerek odaktaki Semud helakinin ahlaki nedenini verir.
+- 91:14 — Semud'un yalanlayip deveyi kesmesi uzerine Rabbin onlarin gunahi yuzunden yerle bir etmesini bildirerek yikimin kesin sonucunu ekler.
+- 2:212 — Shows Satan beautifying deeds and turning people from the path.
+- 4:44 — Satan beautifies deeds and bars people from the way while they perceive themselves as seeing.
+- 4:55 — The Arabic joins diversion from the divine path with a deceptive influence, directly paralleling the obstruction theme.
+- 4:119 — Attributes beautified deeds and path-obstruction to Satan.
+- 4:167 — Shows embellished deeds becoming a barrier from the way while people think they see clearly.
+- 6:113 — Repeats the beautification-and-obstruction pattern in another setting.
+- 7:175 — A second, independent adornment-and-path-blocking formulation.
+- 7:202 — Satan beautifies deeds and bars people from the path, closely paralleling sustained deviation.
+- 11:89 — Names Aad and Thamud as evident destroyed precedents.
+- 12:109 — Âd ve Semûd'un harabelerinin açık oluşu, geçmiş akıbetin görülebilirliği için doğrudan örnek sağlar.
+- 14:30 — Şeytanın amelleri süslemesi ve yoldan alıkoyması, 14:30’daki saptırmaya paralel fail-düzen verir.
+- 14:45 — Directly states that the former dwellings make the fate of Ad and Thamud evident.
+- 15:39 — Satan beautifies deeds and turns people from the path despite their discernment.
+- 15:42 — Şeytanın amelleri süsleyip yoldan alıkoyması, 15:39'daki süslemenin 15:42'ye açılan işlevini doğrudan destekler.
+- 15:77 — Ad ve Semud’un meskenlerinin görünür kalması, yıkım sonrası maddi izin gözle okunmasını ekler.
+- 17:63 — Şeytanın amelleri süsleyip insanları yoldan alıkoyması, 17:64'teki aldatma ve yön kesme işlevini açıklar.
+- 18:59 — Aad and Thamud are recalled as destroyed peoples whose former dwellings made their fate evident.
+- 19:44 — Satan makes past peoples' deeds appear fair and bars them from the way, reinforcing his role in misguidance.
+- 19:83 — Satan beautifies former peoples' deeds and turns them from the path, giving a historical parallel to the focus.
+- 26:128 — Ad ve Semud'un meskenlerinden ibret alınması, kudret ve yerleşikliğin onları cezadan korumadığını doğrudan hatırlatır.
+- 26:142 — Ad ve Semud'un harabelerinin görünür kılınması, Sâlih kavmine ait uyarının tarihsel izini taşır.
+- 27:51 — The ruins of 'Ad and Thamud are made evident through their dwellings, matching the focus's visible evidence of destruction.
+- 28:63 — Satan makes past peoples' deeds attractive and bars them from the path despite their discernment, directly pairing allure with diversion.
+- 35:6 — It says Satan beautified former peoples' deeds and barred them from the path despite their discernment.
+- 36:60 — Satan makes destructive deeds attractive and turns people from the path.
+- 38:12 — Ad and Thamud are visibly destroyed in their dwellings, pairing two communities central to the focus's wider list.
+- 38:13 — It explicitly names Thamud with Ad as communities whose ruined dwellings make their fate evident.
+- 43:36 — Satan beautified deeds for earlier peoples and barred them from the path despite their discernment.
+- 43:57 — Satan beautifies deeds and turns people from the way despite clear perception, closely explaining self-deceived diversion.
+- 47:8 — Embellished deeds obstruct the way, giving a concrete distortion mechanism.
+- 50:12 — Joins عاد and ثمود as manifest historical signs within one retrospective statement.
+- 50:13 — Pairs Ad and Thamud as manifest historical signs, directly strengthening the catalogue pattern.
+- 51:43 — Explicitly names Thamud and states that their dwellings made the warning evident.
+- 53:50 — Names Ad and Thamud together as made evident before their destruction, broadening the paired-precedent frame.
+- 54:18 — It names Ad and Thamud as ruined despite the apparent attractiveness of their works.
+- 58:10 — Missing precedent of Satan beautifying deeds and turning people from the path.
+- 59:2 — Tail-audit positive f04 route joins visible dwellings with obstructed discernment and lesson.
+- 59:16 — Reiterates beautification and obstruction from the path in a communal setting.
+- 68:7 — Adorned acts and diversion from the way join misguidance to impaired seeing.
+- 89:13 — Names Aad and Thamud together as manifestly destroyed examples.
+- 91:10 — Thamud's beautified deeds and diversion despite perception closely illuminate a hidden corruptive stage.
+- 27:24 — Seytanin amelleri susleyip insanlari yoldan cevirmesini neredeyse ayni ifadeyle verir; gorur halde hidayeti kaybetmeyi aciklar.
+- 47:14 — Rabbin kaniti uzerinde olmakla kotu ameli suslenmis ve hevesine uymus olmak arasindaki karsitlik, odaktaki algi bozulmasini dogrudan aciklar.
+- 6:43 — Sikinti geldigi halde kalplerin katilasmasini ve seytanin yaptiklarini suslemesini, odaktaki sapmanin onceki toplumlarda isleyen nedeni yapar.
+- 13:33 — Kafirlerin hilesinin suslenmesini ve yoldan cevrilmelerini, ilahi bilginin onunde sorumlulugu silmeyen yakin bir paralel olarak verir.
+- 47:32 — Hidayet aciklandiktan sonra Resule karsi cikma ve Allah yolunu engelleme, odaktaki bilinclI sapma boyutunu yeniden kurar.
+- 41:25 — v12:tr:f-29_38-001 links satanic beautification, being barred from the way, and a past destroyed people.
+- 44:32 — Bilerek secilme, Ad ve Semud'un kalintilari, suslenmis amelleri veya yoldan cevrilmeyi acmaz.
+- 29:28 — Lut kavminin benzersiz fahisesini acarak ayni suredeki suclu topluluklar ve helak dizisinin onceki zeminini verir.
+- 51:20 — Yeryuzundeki ayetleri, odaktaki meskenlerde gorunur hale gelen tarihsel kanitin daha genel bir cercevesine yerlestirir.
+- 29:31 — Meleklerin zalim kent halkini helak edeceklerini bildirmesi, odaktan onceki Lut olayinin yargilanma basamagini tamamlar.
+- 34:15 — Sebe'nin meskenindeki ayet, yerlesim yerinin ilahi isaret olabilecegini gosterir fakat yikim ve sapma baglami farklidir.
+- 80:20 — Yolun insana kolaylastirilmasi, suslenmis amellerle yoldan cevrilme temasini aciklamaz.
+- 29:34 — Lut kentinin fiski yuzunden gokten ceza alacagini bildirerek ayni suredeki yikim ornegini tamamlar.
+- 29:5 — Allah'a kavusma umudu ve ecelin gelisi, odaktaki kavimler, meskenler veya susleme mekanizmasini acmaz.
+- 29:36 — Medyen halkina ibadet, ahiret umudu ve bozgunculuktan kacInma cagrisi yapilmasi, ayni suredeki reddedilen kavimler dizisini odaga yaklastirir.
+- 52:15 — Azabin sihir mi yoksa gormemek mi oldugu sorusu, gorunen kaniti yanlis siniflandirmanin odaktaki icgoru sorunuyla bagini kurar.
+- 69:39 — Gorunmeyen seyler uzerine yemin, odaktaki gorunur tarihsel isaret veya basiret kaybini gelistirmez.
+- 29:43 — Bu misalleri ancak bilenlerin kavradigini soyleyerek odaktaki gorur oldugu halde kavrayamama gerilimini ayni surede cerceveler.
+- 22:16 — Acik ayetlerin indirildigini ve Allah'in hidayet verdigini bildirerek odaktaki acik kanit ile ondan uzaklastirilma arasindaki normatif karsitligi verir.
+- 24:34 — Onceki topluluklardan ornekler ve acik ayetlerin ogut olarak verilmesi, odaktaki gecmis kalintilarinin sonraki muhataba yonelik ders islevini aciklar.
+- 2:75 — Allah'in sozunu anlayip bilerek tahrif edenleri anlatarak bilgi ve kavrayis mevcutken gercegi bozma olasiligini ekler.
+- 47:34 — Allah yolunu engelleyip inkar uzerine olenlerin bagislanmayacagini bildirerek engellemenin nihai sonucunu tekrarlar.
+- 45:20 — Insanlar icin basiretler, hidayet ve rahmet oldugunu bildirerek odaktaki basiret imkaninin dogru kullanilan karsiligini verir.
+- 47:23 — Lanetlenenlerin sagirlastirilip gozlerinin kor edilmesini, odaktaki basiret imkaninin kaybedilmis daha sert karsiligi olarak verir.
+- 9:34 — Dini otoritelerin haksiz kazanc ve Allah yolundan cevirme duzenini anlatir; odaktaki yol engellemesine somut toplumsal bir bicim ekler.
+- 3:137 — Yeryuzunde gezip yalanlayanlarin sonunu gorme cagrisi, gorunur tarihsel kalintidan ibret alma temasini destekler.
+- 6:11 — Yeryuzunde dolasip yalanlayanlarin sonunu gorme emri, odaktaki mesken kanitinin genel bir yorum yoludur.
+- 11:59 — Ad'in Rabbin ayetlerini inkar edip zorba emrine uymasini anlatarak odaktaki Ad helakinin sapma ve otorite boyutunu verir.
+- 11:68 — Semud'un sanki o yurtlarda hic yasamamis gibi silinmesini bildirerek gorunur mesken kalintisinin yok olmus halkla karsitligini ekler.
+- 14:9 — Nuh, Ad ve Semud'un haberleri ile elcilerin getirdigi acik delilleri birlikte anarak odagin tarihsel uyarici cercevesini genisletir.
+- 26:123 — Ad kavminin elcileri yalanlamasini bildirerek odaktaki Ad helakinin peygamberlik reddi yonunu ekler.
+- 26:141 — Semud'un elcileri yalanlamasini bildirerek odaktaki Semud helakinin temel reddini tekrarlar.
+- 26:158 — Semud'u yakalayan azabi bildirerek yontulmus meskenlere ragmen gelen sonu teyit eder.
+- 30:9 — Yeryuzunde dolasip oncekilerin sonunu gormeyi ve guclerinin kendilerinden ustun oldugunu bildirerek tarihsel helak kanitini genisletir.
+- 35:44 — Onceki kavimlerin sonunu yeryuzunde gorme cagrisi, odaktaki meskenlerin uyarici islevine genel bir paraleldir.
+- 37:137 — Helak edilmis yerlerden sabah aksam gecenlere yoneltilen akletme cagrisi, gorunur kalintinin ibret vermesi temasini destekler.
+- 40:21 — Daha guclu onceki topluluklarin sonunu yeryuzunde gorme emri, Ad ve Semud orneginin tarihsel uyariciligini genisletir.
+- 46:27 — Cevredeki kentlerin yok edilmesini ve ayetlerin tekrar aciklanmasini bildirerek odaktaki gorunur helak delilinin bolgesel uyarici baglamini verir.
+- 47:10 — Yeryuzunde gezip oncekilerin sonunu gormeyi emrederek odaktaki harap meskenlerden ibret alma cagrisi ile paralellik kurar.
+- 69:5 — Semud'un tasan sayhayla helak edilmesini, odaktaki Semud yikiminin ozlu bir aciklamasi olarak verir.
+- 69:6 — Ad'in azgin soguk ruzgarla helak edilmesini, odaktaki Ad yikiminin ozlu bir aciklamasi olarak verir.
+- 2:208 — Says Satan made former peoples' deeds attractive and barred them from the way.
+- 2:256 — Shows Satan beautifying deeds and barring people from the path despite insight.
+- 4:117 — It attributes beautified deeds and diverted path to Satan.
+- 4:118 — Links Satanic beautification with blockage from the path.
+- 4:120 — Satanic embellishment and obstruction recur in another setting.
+- 5:30 — Beautified deeds and blocked direction extend the same adverse-agency pattern.
+- 5:77 — Links embellished deeds to being turned away from the path.
+- 6:103 — Claims of insight can coexist with seduction and diversion from the way.
+- 6:112 — Repeats Satanic adornment as a way of blocking people from the path.
+- 6:121 — Satanic beautification of deeds supplies a secondary mechanism of misguidance.
+- 7:16 — Satan's beautification and blockage from the path directly echo key elements of the focus.
+- 7:69 — ʿĀd and Thamūd as evident historical examples support the warning horizon.
+- 7:200 — Satan's beautification and obstruction from the path repeat the deception-and-diversion pattern.
+- 8:52 — Places Aad and Thamud among made-evident historical ruins.
+- 10:75 — Visible prior ruins and blocked path add historical evidence of misdirected action; tail-audit context.
+- 11:99 — Adorned deeds and obstruction from the path give a mechanism for destructive following.
+- 12:18 — Eylemlerin suslenmesi ve yoldan cevirme, 12:18'deki ic suslemeyi daha genis bir ayartma kalibina baglar.
+- 15:17 — Shows satanic adornment blocking the path, a secondary obstruction parallel.
+- 15:41 — Parallels Satanic adornment and blockage from the route despite perceptual capacity.
+- 16:36 — Offers Ad and Thamud as visible historical evidence after their deviation.
+- 16:100 — Şeytanın amelleri süsleyip yoldan alıkoymasını gösterir.
+- 17:17 — Ad and Thamud, their ruined dwellings, and deceived conduct add a close historical-warning parallel.
+- 17:27 — Adds Satan's beautification of conduct and diversion from the path.
+- 17:36 — Shows visible evidence and inner awareness being overridden by embellished judgment.
+- 17:64 — Satanic beautification turns prior knowledge into misdirected action.
+- 18:50 — Satan beautifies prior peoples' deeds and turns them from the path despite their discernment.
+- 20:51 — Ad and Thamud are presented through their former dwellings, making their vanished condition visible in place.
+- 20:125 — People with discernment are nevertheless barred from the path after their deeds are adorned, a related corruption of guidance.
+- 22:4 — Satan makes people's deeds attractive and bars them from the path while they perceive themselves as guided.
+- 25:29 — Satan beautifies deeds and diverts people from the way despite their capacity to perceive.
+- 25:39 — It names Aad and Thamud and points to their dwellings as clear evidence of their fate.
+- 26:95 — Satan beautifies past peoples' deeds and bars them from the path, a general pattern of collective misguidance.
+- 26:135 — Ad's visible ruined dwellings turn its outcome into an accessible warning trace.
+- 26:157 — It names Thamud as a destroyed people whose ruined dwellings remain evident, preserving the focus narrative's outcome.
+- 26:222 — Satan makes people's deeds attractive and turns them from the path, another direct deception-and-action parallel.
+- 28:87 — It joins visible evidence with Satan's beautification that bars people from the way.
+- 35:26 — It names 'Ad and Thamud as destroyed after their wrongdoing became evident from their dwellings.
+- 36:29 — The destruction of Aad and Thamud is recalled as a warning about communities ruined through rejection.
+- 36:62 — Satan's beautifying of deeds and barring people from the path closely parallels the focus, though the narrative setting is remote.
+- 37:30 — Satan makes deeds appealing and turns people away from the path despite their apparent insight.
+- 37:79 — Its explicit branch route treats destroyed peoples' sites as discernible evidence, a secondary trace parallel.
+- 37:162 — Satan makes deeds appear fair and turns people from the path, directly describing deceptive blockage of guidance.
+- 37:163 — Satan beautifies deeds and bars people from the path, a parallel mechanism of being led astray.
+- 38:82 — Satan makes former peoples' deeds attractive and obstructs them from the path.
+- 41:36 — It says Satan made past peoples' deeds attractive and turned them from the path.
+- 44:13 — People with insight are turned from the path by embellished deeds, a related failure to act on what is evident.
+- 46:21 — Ad and Thamud are presented as visible historical cases of destructive error.
+- 50:27 — Shaytan's beautification of deeds and blocking from the path offers a broad inducement pattern.
+- 50:36 — Aad and Thamud appear as visible ruined precedents, though strength is not explicit here.
+- 51:41 — Ad's destroyed dwellings retain a secondary historical trace of the judgment.
+- 51:44 — Names Ad and Thamud together within a broader destruction precedent.
+- 53:17 — Shows insight present yet blocked by adorned action, a useful but secondary reception contrast.
+- 54:23 — Names Thamud alongside Ad and directs attention to their visible former dwellings.
+- 54:31 — Thamud's visible dwellings and destruction give a concise habitation-to-ruin parallel.
+- 54:51 — Names Ad and Thamud and locates their fate in dwellings visible to later people.
+- 58:19 — Combines Satanic beautification with being barred from the path.
+- 69:7 — Aad and Thamud as observable ruined communities secondarily support f04.
+- 85:18 — Adds Thamud's visible dwellings and its turning from the way despite insight.
+- 89:7 — Pairs عاد and ثمود with visible consequences in their dwelling places.
+- 89:8 — Names ʿAd and Thamud with their ruined dwellings; useful material-historical context.
+- 114:4 — Satanic embellishment of deeds is confirmatory but redundant with stronger examples.
+- 114:6 — Again portrays Satan as beautifying human action and blocking the way.
+- 16:88 — Allah yolundan cevirmenin ek azabi gerektirdigini bildirerek odaktaki engellemenin toplumsal sonucunu ekler.
+- 40:37 — Firavun'un kotu amelinin suslenip yoldan cevrilmesini anlatir; ayni dili yeni bir zorbalik ornegiyle tekrarlar.
+- 11:15 — Shows adorned works diverting those who see, reinforcing the danger of attractive action.
+- 4:50 — Allah'a yalan isnat edenlerin acik gunahi, bozuk degerlendirmenin bir sonucu olarak uzaktan bag kurar.
+- 20:35 — Allah'in Musa ve Harun'u gormesi, odaktaki insanlardaki gorur-olma ve sapma iliskisini aciklamaz.
+- 29:30 — Lut'un bozguncu kavme karsi yardim duasI, ayni suredeki helak anlatilarinin onceki halkasidir fakat odagin ana mekanizmasini acmaz.
+- 37:6 — Gogun yildizlarla suslenmesi, seytanin kotu ameli suslemesiyle ayni islevde degildir.
+- 29:32 — Lut ve ailesinin kurtarilmasi, ayni suredeki onceki helak anlatimini surdurur fakat Ad ve Semud'a gecisi aciklamaz.
+- 49:18 — Allah'in gizliyi ve amelleri gormesi, odaktaki gorur olduklari halde yanilma temasina yalnizca genel bir karsitlik saglar.
+- 29:33 — Lut'a gelen meleklerin kurtulus ve istisna haberleri, odagin onceki perikopunun ayrintisidir.
+- 29:44 — Yaratilis ve onda inananlar icin ayet bulunmasi, odaktaki gorunur tarihsel isaretle yalnizca genel olarak baglantilidir.
+- 36:66 — Gozlerin silinmesiyle yol bulamama, odaktaki gorur iken yoldan sapmanin tersinden bir gorus-yol iliskisi kurar.
+- 29:41 — Allah disindan edinilen dayanaklarin zayifligini anlatir; ayni suredeki sapma ve bilme yetersizligi baglamina sinirli katkidir.
+- 37:175 — Simdi bakma ile ileride zorunlu olarak gorme karsitligi, odaktaki gorus ve sonuc temasina uzaktan baglanir.
+- 43:2 — Acik Kitap vurgusu, odaktaki acik kanit ve kavrayisla yalnizca genel bir aciklik temasi tasir.
+- 68:5 — Karsilikli gorme, gercegin ileride ortaya cikacagi fikrini verir ama yikim kaniti veya sapma mekanizmasini gelistirmez.
+- 37:78 — Nuh'a sonraki kusaklarda bir iz birakilmasi, odaktaki gorunur mesken ve yoldan sapma temalarini aciklamaz.
+- 12:1 — Acik Kitabin ayetleri, kanitin okunabilirligiyle genel bir bag kurar fakat tarihsel mesken isaretini acmaz.
+- 29:54 — Azabi acele isteme ve cehennemin kafirleri kusatmasi, ayni suredeki yargi ufkunu verir fakat odagin delil ve sapma anlatimini acmaz.
+- 37:179 — Bakma emri ve sonradan gorme, daha onceki benzer kartlardan sonra odaga sinirli bir sonuc-gorus paraleli saglar.
+- 22:27 — Hac icin uzak yollardan gelmeye cagrilmasi, odaktaki engellenmis dogru yol veya helak edilmis meskenleri aciklamaz.
+- 9:113 — Durum cehennemlik olduktan sonra aciga cikinca yakinlik baginin kesilmesi, odaktaki acikliktan sonra degerlendirme temasina uzak bir paraleldir.
+- 29:42 — Allah'in O'ndan baskasina yoneltilen cagrilari bilmesi, ayni suredeki sahte yonelisler icin yakin ama genel bir zemindir.
+- 26:97 — Apaçik sapiklik itirafi, odaktaki yoldan sapmanin sonucuna genel bir paralel kurar.
+- 36:24 — Acik sapiklik sozunu kullanarak hakka karsi yanlis yonelisi adlandirir, ancak odaga yeni bir neden veya kanit eklemez.
+- 9:114 — Ibrahim'in dusmanlik aciga cikinca babasindan uzaklasmasi, acikliktan sonra duzeltici bir tavir alinmasina uzak bir paraleldir.
+- 6:119 — Hevesleriyle bilgisizce baskalarini saptiranlari anlatir; seytani susleme yerine cehalet ve arzu yoluyla sapmaya ikincil paraleldir.
+- 16:72 — Esler, cocuklar ve rIzIk nimetleri, odaktaki helak, isaret veya yoldan cevrilme temasini aciklamaz.
+- 60:1 — Dogru yoldan sapmayla sonuclanan yanlis baglilik, yol secimi temasina baglanir fakat odagin tarihsel delilini veya suslemesini acmaz.
+- 26:30 — Musa'nin acik bir sey getirdigini soylemesi, kanitin incelenebilirligiyle genel bir bag kurar fakat Ad ve Semud anlatimini acmaz.
+- 37:77 — Nuh'un soyunun kalici kilinmasi, odaktaki mesken kalintisi veya yoldan sapmayla ilgili degildir.
+- 40:25 — Hak geldikten sonra inananlara yonelik zorbaligi ve kafirlerin tuzaginin sapiklikta olusunu bildirir; odaga genel bir zulme-sapma paralelidir.
+- 2:259 — Harap bir kentin diriltilis kanitina donusmesi, yikik yerden ders alma temasina baglanir ama aslen dirilis delilidir.
+- 3:75 — Bile bile Allah'a yalan soyleyen bir kesimi anlatir; bilgi varken yanlis davranmaya genel bir paraleldir.
+- 2:68 — Becoming clear despite diversion is a remote response pattern in a tail-audit card.
+- 2:211 — Shows Shaytan adorning deeds and diverting an aware people from the way.
+- 4:144 — Seductive works blocking the path offer only a broad analogue to misdirected allegiance.
+- 4:161 — Yoldan alıkoyma ortak olsa da mali alma ve riba yoktur.
+- 7:65 — Aad and Thamud are recalled as prior destroyed peoples.
+- 25:23 — Adorned deeds leading earlier peoples from the path give a limited background for why works may fail.
+- 26:150 — It names Thamud as a destroyed people whose ruined dwellings remained evident.
+- 27:45 — Thamud's destroyed dwellings are named as a broad historical warning.
+- 28:4 — Past peoples led from the path offer only a broad corruption outcome.
+- 37:82 — Destroyed peoples and visible dwellings offer a broad historical-warning parallel only.
+- 43:30 — People shown signs are diverted from the way despite insight, a broad analogue of resistant perception.
+- 54:20 — Names Ad among manifest historical destruction signs.
+- 56:46 — Seeing clearly yet diverted from the path offers a limited refusal parallel.
+- 74:49 — Shows being turned from the path despite insight, a secondary analogy.
+- 79:11 — Adds a past denial-and-destruction pattern, only general warning context.
+- 91:12 — Thamud is named as a visible ruined precedent, without the local action.

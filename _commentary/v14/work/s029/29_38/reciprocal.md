@@ -1,0 +1,271 @@
+# reciprocal.md — earlier GPT reviews' related passages for 29:38 (incomplete, sometimes misleading)
+
+- 27:24 (strong): Seytanin amelleri susleyip insanlari yoldan cevirmesini neredeyse ayni ifadeyle verir; gorur halde hidayeti kaybetmeyi aciklar.
+- 44:32 (no value): Bilerek secilme, Ad ve Semud'un kalintilari, suslenmis amelleri veya yoldan cevrilmeyi acmaz.
+- 4:50 (weak): Allah'a yalan isnat edenlerin acik gunahi, bozuk degerlendirmenin bir sonucu olarak uzaktan bag kurar.
+- 16:63 (strong): Onceki toplumlarda seytanin amelleri susleyip onlar icin dost olmasini bildirerek odaktaki tarihsel ve nedensel deseni dogrudan paraleller.
+- 29:28 (medium): Lut kavminin benzersiz fahisesini acarak ayni suredeki suclu topluluklar ve helak dizisinin onceki zeminini verir.
+- 47:14 (strong): Rabbin kaniti uzerinde olmakla kotu ameli suslenmis ve hevesine uymus olmak arasindaki karsitlik, odaktaki algi bozulmasini dogrudan aciklar.
+- 47:25 (strong): Hidayet aciklandiktan sonra geri donusu ve seytanin telkinini bildirerek kanit varliginda bilinclI sapmayi netlestirir.
+- 29:29 (medium): Yol kesme ve acik hayasizlik, ayni surede yolun dusmanca engellenmesi temasini ve Lut kavminin yikim gerekcesini verir.
+- 5:71 (medium): Fitne olmayacagini sananlarin kor ve sagir kesilmesini tekrar ederek gorur olmanin hidayet icin yeterli olmadigini gosterir.
+- 6:43 (medium): Sikinti geldigi halde kalplerin katilasmasini ve seytanin yaptiklarini suslemesini, odaktaki sapmanin onceki toplumlarda isleyen nedeni yapar.
+- 29:39 (strong): Karun, Firavun ve Haman'in acik delillere ragmen kibirlenmesini ekleyerek odaktaki helak edilmis kavimler zincirini hemen surdurur.
+- 20:35 (no value): Allah'in Musa ve Harun'u gormesi, odaktaki insanlardaki gorur-olma ve sapma iliskisini aciklamaz.
+- 8:48 (strong): Seytanin amelleri susleyip sahte guven ve koruma vaadi vermesi, odaktaki suslemenin nasil aldatma uretdigini somutlastirir.
+- 51:20 (medium): Yeryuzundeki ayetleri, odaktaki meskenlerde gorunur hale gelen tarihsel kanitin daha genel bir cercevesine yerlestirir.
+- 16:88 (medium): Allah yolundan cevirmenin ek azabi gerektirdigini bildirerek odaktaki engellemenin toplumsal sonucunu ekler.
+- 25:38 (strong): Ad ve Semud'u onceki kusaklarla birlikte helak edilmis topluluklar olarak acikca sayarak odagin tarihsel adlarini dogrudan teyit eder.
+- 29:30 (weak): Lut'un bozguncu kavme karsi yardim duasI, ayni suredeki helak anlatilarinin onceki halkasidir fakat odagin ana mekanizmasini acmaz.
+- 13:33 (strong): Kafirlerin hilesinin suslenmesini ve yoldan cevrilmelerini, ilahi bilginin onunde sorumlulugu silmeyen yakin bir paralel olarak verir.
+- 40:37 (medium): Firavun'un kotu amelinin suslenip yoldan cevrilmesini anlatir; ayni dili yeni bir zorbalik ornegiyle tekrarlar.
+- 29:31 (medium): Meleklerin zalim kent halkini helak edeceklerini bildirmesi, odaktan onceki Lut olayinin yargilanma basamagini tamamlar.
+- 14:16 (no value): Cehennemde irinli su icirilmesi, gorunur meskenler veya seytani susleme temasina katki saglamaz.
+- 43:37 (strong): Saptiran yoldaslarin insanlari yoldan cevirirken kendilerini hidayette sanmalarini anlatarak gorur haldeki yanilginin dogrudan paralelini verir.
+- 29:35 (strong): Yikilan kentten akledenler icin acik bir ayet birakildigini soyleyerek odaktaki gorunur meskenlerin islevini ayni sure icinde aciklar.
+- 37:6 (no value): Gogun yildizlarla suslenmesi, seytanin kotu ameli suslemesiyle ayni islevde degildir.
+- 46:25 (strong): Ad'in helakindan sonra yalniz meskenlerinin gorunur kalmasini bildirerek odaktaki mesken kanitini en dogrudan bicimde aciklar.
+- 51:37 (medium): Lut kentinde azaptan korkanlara bir isaret birakilmasi, yikim sonrasi korunan kanit islevini tekrarlar.
+- 9:9 (medium): Allah'in ayetlerini dusuk bir bedele degistirip insanlari yolundan cevirmeyi, odaktaki yol engellemesinin kamusal boyutu olarak verir.
+- 53:51 (medium): Semud'un hicbirakilmadan yok edilmesini kisaca bildirerek odaktaki Semud helakini teyit eder.
+- 29:32 (weak): Lut ve ailesinin kurtarilmasi, ayni suredeki onceki helak anlatimini surdurur fakat Ad ve Semud'a gecisi aciklamaz.
+- 49:18 (weak): Allah'in gizliyi ve amelleri gormesi, odaktaki gorur olduklari halde yanilma temasina yalnizca genel bir karsitlik saglar.
+- 34:15 (weak): Sebe'nin meskenindeki ayet, yerlesim yerinin ilahi isaret olabilecegini gosterir fakat yikim ve sapma baglami farklidir.
+- 29:33 (weak): Lut'a gelen meleklerin kurtulus ve istisna haberleri, odagin onceki perikopunun ayrintisidir.
+- 84:15 (no value): Rabbin insani gormesi, odaktaki kavimlerin sahip oldugu icgoru ve onu kullanmamasi hakkinda belirgin bir sey eklemez.
+- 80:20 (no value): Yolun insana kolaylastirilmasi, suslenmis amellerle yoldan cevrilme temasini aciklamaz.
+- 29:44 (weak): Yaratilis ve onda inananlar icin ayet bulunmasi, odaktaki gorunur tarihsel isaretle yalnizca genel olarak baglantilidir.
+- 15:16 (no value): Gogun bakmak isteyenler icin suslenmesi, aldatici susleme veya helak edilmis meskenler hakkinda degildir.
+- 47:32 (medium): Hidayet aciklandiktan sonra Resule karsi cikma ve Allah yolunu engelleme, odaktaki bilinclI sapma boyutunu yeniden kurar.
+- 27:4 (medium): Ahirete inanmayanlara amellerinin suslenip bocalamasi, suslenmenin kisi kendi degerlendirmesine hapseden yonunu aciklar.
+- 36:66 (weak): Gozlerin silinmesiyle yol bulamama, odaktaki gorur iken yoldan sapmanin tersinden bir gorus-yol iliskisi kurar.
+- 28:58 (strong): Refaha sImarmis nice kentlerin issiz kalan meskenlerini anlatarak yikimdan sonra gorunen konutlari yakin bir genel paralel yapar.
+- 29:34 (medium): Lut kentinin fiski yuzunden gokten ceza alacagini bildirerek ayni suredeki yikim ornegini tamamlar.
+- 63:2 (medium): Yeminleri kalkan yapip Allah yolundan cevirenleri anlatarak yol engellemesinin koruyucu gorunen toplumsal bir duzene donusmesini ekler.
+- 20:128 (strong): Onceki kusaklarin helak edilmis meskenlerinde yuruyenler icin ayetler oldugunu soyleyerek odaktaki gorunur meskenlerden cikarilacak dersi dogrudan paraleller.
+- 29:41 (weak): Allah disindan edinilen dayanaklarin zayifligini anlatir; ayni suredeki sapma ve bilme yetersizligi baglamina sinirli katkidir.
+- 37:175 (weak): Simdi bakma ile ileride zorunlu olarak gorme karsitligi, odaktaki gorus ve sonuc temasina uzaktan baglanir.
+- 32:26 (strong): Helak edilmis kusaklarin meskenlerinde yuruyenlere yoneltilen uyari, odaktaki meskenlerin gorunur kanit olmasini neredeyse ayni bicimde aciklar.
+- 29:5 (no value): Allah'a kavusma umudu ve ecelin gelisi, odaktaki kavimler, meskenler veya susleme mekanizmasini acmaz.
+- 43:2 (weak): Acik Kitap vurgusu, odaktaki acik kanit ve kavrayisla yalnizca genel bir aciklik temasi tasir.
+- 68:5 (weak): Karsilikli gorme, gercegin ileride ortaya cikacagi fikrini verir ama yikim kaniti veya sapma mekanizmasini gelistirmez.
+- 37:78 (no value): Nuh'a sonraki kusaklarda bir iz birakilmasi, odaktaki gorunur mesken ve yoldan sapma temalarini aciklamaz.
+- 12:1 (weak): Acik Kitabin ayetleri, kanitin okunabilirligiyle genel bir bag kurar fakat tarihsel mesken isaretini acmaz.
+- 41:15 (strong): Ad'in haksiz kibirlenmesini, kudretine guvenmesini ve ayetleri inkar etmesini anlatarak odaktaki Ad helakinin ahlaki nedenini verir.
+- 29:36 (medium): Medyen halkina ibadet, ahiret umudu ve bozgunculuktan kacInma cagrisi yapilmasi, ayni suredeki reddedilen kavimler dizisini odaga yaklastirir.
+- 9:37 (medium): Kotuluklerinin kendilerine suslenmesini ve hidayetten mahrum kalmalarini bildirerek suslemenin daha genel bir sapma bicimini ekler.
+- 47:1 (medium): Inkar edip Allah yolunu engelleyenlerin amellerinin bosa cikarilmasi, odaktaki engellemenin fail uzerindeki sonucunu verir.
+- 29:54 (weak): Azabi acele isteme ve cehennemin kafirleri kusatmasi, ayni suredeki yargi ufkunu verir fakat odagin delil ve sapma anlatimini acmaz.
+- 37:179 (weak): Bakma emri ve sonradan gorme, daha onceki benzer kartlardan sonra odaga sinirli bir sonuc-gorus paraleli saglar.
+- 48:12 (medium): Kalplerde guzel gosterilen kotu zannin toplulugu helake goturmesini anlatarak suslemenin icten isleyen yaniltici senaryo yonunu ekler.
+- 22:27 (no value): Hac icin uzak yollardan gelmeye cagrilmasi, odaktaki engellenmis dogru yol veya helak edilmis meskenleri aciklamaz.
+- 18:7 (weak): Yeryuzundeki susun bir sinama oldugunu bildirerek her susun gercek deger degil imtihan olabilecegini hatirlatir.
+- 9:113 (weak): Durum cehennemlik olduktan sonra aciga cikinca yakinlik baginin kesilmesi, odaktaki acikliktan sonra degerlendirme temasina uzak bir paraleldir.
+- 29:37 (strong): Suayb'i yalanlayanlarin sarsintiyle kendi yurtlarinda cokup kalmasi, odagin hemen onceki yikim ve mesken zincirini dogrudan kurar.
+- 52:15 (medium): Azabin sihir mi yoksa gormemek mi oldugu sorusu, gorunen kaniti yanlis siniflandirmanin odaktaki icgoru sorunuyla bagini kurar.
+- 30:13 (no value): Ortaklarin sefaat edememesi, Ad ve Semud'un meskenleri ya da suslenmis amelleriyle ilgili degildir.
+- 29:40 (strong): Her toplulugun gunahi yuzunden farkli bicimde yakalandigini bildirerek odaktaki Ad ve Semud dahil helak anlatilarinin yargisal sonucunu hemen aciklar.
+- 3:14 (weak): Dunyevi arzularin insanlara suslu gosterilmesi, seytanin amelleri suslemesinden farkli olsa da deger algisinin bozulmasina sinirli katkidir.
+- 4:115 (medium): Hidayet aciklandiktan sonra baska yolu secmenin sonucunu bildirerek odaktaki aciklik karsisinda yon degistirme temasini destekler.
+- 5:82 (no value): Topluluklar arasindaki dusmanlik ve alçakgonulluluk karsitligi, odaktaki kanit, mesken ve seytani engelleme eksenini acmaz.
+- 69:39 (no value): Gorunmeyen seyler uzerine yemin, odaktaki gorunur tarihsel isaret veya basiret kaybini gelistirmez.
+- 10:63 (no value): Inanan ve sakinanlarin nitelenmesi, odaktaki sapma mekanizmasi veya helak kanitini aciklamaz.
+- 29:42 (weak): Allah'in O'ndan baskasina yoneltilen cagrilari bilmesi, ayni suredeki sahte yonelisler icin yakin ama genel bir zemindir.
+- 26:97 (weak): Apaçik sapiklik itirafi, odaktaki yoldan sapmanin sonucuna genel bir paralel kurar.
+- 2:61 (no value): Israilogullarinin nimetlere karsi nankorlugu ve cezasi, odaktaki Ad-Semud delili veya susleme mekanizmasini acmaz.
+- 51:21 (medium): Insanin kendi nefsinde ayetler bulunmasi ve bakmasi cagrisi, odaktaki dis mesken isaretleriyle icgoru arasindaki ekseni genisletir.
+- 36:24 (weak): Acik sapiklik sozunu kullanarak hakka karsi yanlis yonelisi adlandirir, ancak odaga yeni bir neden veya kanit eklemez.
+- 9:114 (weak): Ibrahim'in dusmanlik aciga cikinca babasindan uzaklasmasi, acikliktan sonra duzeltici bir tavir alinmasina uzak bir paraleldir.
+- 29:43 (medium): Bu misalleri ancak bilenlerin kavradigini soyleyerek odaktaki gorur oldugu halde kavrayamama gerilimini ayni surede cerceveler.
+- 57:4 (weak): Allah'in yapilanlari gormesi, insanin gorus kapasitesinden farkli olsa da gizli yonelisi de kusatan ilahi bilginin genel zeminini verir.
+- 6:119 (weak): Hevesleriyle bilgisizce baskalarini saptiranlari anlatir; seytani susleme yerine cehalet ve arzu yoluyla sapmaya ikincil paraleldir.
+- 16:72 (no value): Esler, cocuklar ve rIzIk nimetleri, odaktaki helak, isaret veya yoldan cevrilme temasini aciklamaz.
+- 22:16 (medium): Acik ayetlerin indirildigini ve Allah'in hidayet verdigini bildirerek odaktaki acik kanit ile ondan uzaklastirilma arasindaki normatif karsitligi verir.
+- 60:1 (weak): Dogru yoldan sapmayla sonuclanan yanlis baglilik, yol secimi temasina baglanir fakat odagin tarihsel delilini veya suslemesini acmaz.
+- 24:34 (medium): Onceki topluluklardan ornekler ve acik ayetlerin ogut olarak verilmesi, odaktaki gecmis kalintilarinin sonraki muhataba yonelik ders islevini aciklar.
+- 18:26 (no value): Allah'in gizliyi en iyi gormesi, odaktaki gorur halde yoldan sapma ile belirgin bir yorum baglantisi kurmaz.
+- 2:75 (medium): Allah'in sozunu anlayip bilerek tahrif edenleri anlatarak bilgi ve kavrayis mevcutken gercegi bozma olasiligini ekler.
+- 47:34 (medium): Allah yolunu engelleyip inkar uzerine olenlerin bagislanmayacagini bildirerek engellemenin nihai sonucunu tekrarlar.
+- 26:30 (weak): Musa'nin acik bir sey getirdigini soylemesi, kanitin incelenebilirligiyle genel bir bag kurar fakat Ad ve Semud anlatimini acmaz.
+- 15:82 (strong): Hicr halkinin daglardan guvenli evler yonttugunu bildirerek Semud'un odakta anilan meskenlerinin somut niteligini dogrudan aciklar.
+- 37:77 (no value): Nuh'un soyunun kalici kilinmasi, odaktaki mesken kalintisi veya yoldan sapmayla ilgili degildir.
+- 11:53 (strong): Ad kavminin Hud'un acik delil getirmedigini ileri surup ilahlarini birakmayacaklarini soylemesi, kaniti reddetmelerinin onceden verilmis sonucunu gosterir.
+- 40:25 (weak): Hak geldikten sonra inananlara yonelik zorbaligi ve kafirlerin tuzaginin sapiklikta olusunu bildirir; odaga genel bir zulme-sapma paralelidir.
+- 45:20 (medium): Insanlar icin basiretler, hidayet ve rahmet oldugunu bildirerek odaktaki basiret imkaninin dogru kullanilan karsiligini verir.
+- 15:80 (strong): Hicr halkinin elcileri yalanladigini bildirerek Semud'a bagli meskenlerin helakinin peygamberlik reddi boyutunu ekler.
+- 47:23 (medium): Lanetlenenlerin sagirlastirilip gozlerinin kor edilmesini, odaktaki basiret imkaninin kaybedilmis daha sert karsiligi olarak verir.
+- 2:187 (no value): Oruc hukumlerinin vakit sinirlarini aciklamasi, odaktaki tarihsel isaret ve sapma temasina katki yapmaz.
+- 41:53 (strong): Ufuklarda ve nefislerde ayetlerin hak oldugu aciklasincaya kadar gosterilecegini bildirerek gorunur delil ile basiret temasini guclu bicimde genisletir.
+- 2:259 (weak): Harap bir kentin diriltilis kanitina donusmesi, yikik yerden ders alma temasina baglanir ama aslen dirilis delilidir.
+- 9:34 (medium): Dini otoritelerin haksiz kazanc ve Allah yolundan cevirme duzenini anlatir; odaktaki yol engellemesine somut toplumsal bir bicim ekler.
+- 3:75 (weak): Bile bile Allah'a yalan soyleyen bir kesimi anlatir; bilgi varken yanlis davranmaya genel bir paraleldir.
+- 5:91 (medium): Seytanin sarhosluk ve kumarla Allah'i anmaktan ve namazdan alikoymasi, odaktaki seytani yol engellemesinin pratik bir gorunumunu verir.
+- 3:137 (medium): Yeryuzunde gezip yalanlayanlarin sonunu gorme cagrisi, gorunur tarihsel kalintidan ibret alma temasini destekler.
+- 6:11 (medium): Yeryuzunde dolasip yalanlayanlarin sonunu gorme emri, odaktaki mesken kanitinin genel bir yorum yoludur.
+- 7:30 (strong): Seytanlari dost edinip kendilerini hidayette sanan sapmis grubu anlatarak gorur halde yanlis yonde olmanin yakin paralelini verir.
+- 7:74 (strong): Semud'un daglardan evler yontmasini bildirerek odakta gorunen Semud meskenlerinin insa edilmis niteligini dogrudan aciklar.
+- 7:78 (strong): Semud'un sarsintiyla kendi yurtlarinda cokup kalmasi, odaktaki Semud helakinin meskenle bagli sonucunu tekrarlar.
+- 7:146 (strong): Ayetleri gordugu halde inkar edenlerin dogru yolu almamasi ve sapiklik yolunu secmesini bildirerek odaktaki basiret-sapma gerilimini dogrudan aciklar.
+- 11:59 (medium): Ad'in Rabbin ayetlerini inkar edip zorba emrine uymasini anlatarak odaktaki Ad helakinin sapma ve otorite boyutunu verir.
+- 11:67 (strong): Semud'u yakalayan sayha sonunda kendi yurtlarinda cokup kalmalarini bildirerek odaktaki meskenler ve yikim iliskisini dogrudan paraleller.
+- 11:68 (medium): Semud'un sanki o yurtlarda hic yasamamis gibi silinmesini bildirerek gorunur mesken kalintisinin yok olmus halkla karsitligini ekler.
+- 14:9 (medium): Nuh, Ad ve Semud'un haberleri ile elcilerin getirdigi acik delilleri birlikte anarak odagin tarihsel uyarici cercevesini genisletir.
+- 15:81 (strong): Hicr halkina ayetler verildigi halde onlardan yuz cevirmelerini bildirerek Semud baglaminda kanit mevcutken reddetmeyi dogrudan ekler.
+- 15:83 (medium): Hicr halkini sabah vakti yakalayan sayhayi bildirerek Semud meskenlerinin ardindaki helak sonucunu tamamlar.
+- 22:45 (strong): Zalimlik yuzunden cokmus kentleri, issiz kuyulari ve terk edilmis saraylari sayarak gorunur harabenin yargi kaniti olmasini kuvvetle paraleller.
+- 22:46 (strong): Yeryuzunde gezip kalplerle kavramama ve gozlerin degil kalplerin korlugu uyarisi, odaktaki gorur halde basiretin islemezligini dogrudan aciklar.
+- 25:40 (strong): Azap yagdirilmis kente ugrayanlarin onu gormelerine ragmen dirilisi ummamalarini anlatarak gorunur yikim kanitinin etkisiz kalmasini paraleller.
+- 26:123 (medium): Ad kavminin elcileri yalanlamasini bildirerek odaktaki Ad helakinin peygamberlik reddi yonunu ekler.
+- 26:141 (medium): Semud'un elcileri yalanlamasini bildirerek odaktaki Semud helakinin temel reddini tekrarlar.
+- 26:149 (strong): Semud'un daglardan beceriyle evler yontmasini anlatarak odaktaki meskenlerin en yakin yapisal paralelini verir.
+- 26:158 (medium): Semud'u yakalayan azabi bildirerek yontulmus meskenlere ragmen gelen sonu teyit eder.
+- 27:52 (strong): Zulumleri yuzunden bomboS kalan evleri gosteren ayet, odaktaki gorunur meskenlerin en dogrudan paralel yikim kanitlarindandir.
+- 27:69 (medium): Yeryuzunde gezip suclularin sonunu gorme emri, odaktaki gecmis kavimlerden cikarilacak gorunur dersi destekler.
+- 30:9 (medium): Yeryuzunde dolasip oncekilerin sonunu gormeyi ve guclerinin kendilerinden ustun oldugunu bildirerek tarihsel helak kanitini genisletir.
+- 35:44 (medium): Onceki kavimlerin sonunu yeryuzunde gorme cagrisi, odaktaki meskenlerin uyarici islevine genel bir paraleldir.
+- 37:137 (medium): Helak edilmis yerlerden sabah aksam gecenlere yoneltilen akletme cagrisi, gorunur kalintinin ibret vermesi temasini destekler.
+- 40:21 (medium): Daha guclu onceki topluluklarin sonunu yeryuzunde gorme emri, Ad ve Semud orneginin tarihsel uyariciligini genisletir.
+- 40:82 (medium): Yeryuzunde gezip oncekilerin sonunu gormeyi ve kazandiklarinin fayda vermedigini bildirerek sapmis amellerin sonucunu ekler.
+- 41:13 (strong): Ad ve Semud'un basina gelen sayha gibi bir azapla uyarmasi, odagin iki kavmini birlikte yargi ornegi olarak dogrudan yeniden verir.
+- 41:16 (strong): Ad'a gonderilen yikici ruzgari bildirerek odaktaki Ad helakinin nasil gerceklestigini aciklar.
+- 41:17 (strong): Semud'a hidayet verildigi halde korlugu hidayete tercih etmelerini bildirerek odaktaki gorur halde yoldan sapmanin en yakin tarihsel aciklamasini verir.
+- 46:24 (strong): Ad'in yaklasan azap bulutunu yagmur sanmasi, gorunen isareti yanlis degerlendirmenin odaktaki basiret sorunuyla guclu bagini kurar.
+- 46:26 (strong): Ad'a verilen isitme, gorme ve gonul yetilerinin ayetleri inkar ettikleri icin fayda vermemesini bildirerek odaktaki gorur olmakla sapma arasini dogrudan acikla…
+- 46:27 (medium): Cevredeki kentlerin yok edilmesini ve ayetlerin tekrar aciklanmasini bildirerek odaktaki gorunur helak delilinin bolgesel uyarici baglamini verir.
+- 47:10 (medium): Yeryuzunde gezip oncekilerin sonunu gormeyi emrederek odaktaki harap meskenlerden ibret alma cagrisi ile paralellik kurar.
+- 69:4 (strong): Semud ve Ad'in ezici felaketi yalanladiklarini birlikte bildirerek odaktaki iki kavmin ortak ret ve yikim bagini dogrudan teyit eder.
+- 69:5 (medium): Semud'un tasan sayhayla helak edilmesini, odaktaki Semud yikiminin ozlu bir aciklamasi olarak verir.
+- 69:6 (medium): Ad'in azgin soguk ruzgarla helak edilmesini, odaktaki Ad yikiminin ozlu bir aciklamasi olarak verir.
+- 89:6 (medium): Iremli Ad'i anarak odaktaki Ad adini ve tarihsel konumunu yeniden one cikarir.
+- 89:9 (strong): Vadide kayalari yaran Semud'u anlatarak odakta gorunen meskenlerin kaya isciligi boyutunu dogrudan ekler.
+- 91:11 (strong): Semud'un azginligi yuzunden yalanlamasini bildirerek odaktaki Semud helakinin ahlaki nedenini verir.
+- 91:14 (strong): Semud'un yalanlayip deveyi kesmesi uzerine Rabbin onlarin gunahi yuzunden yerle bir etmesini bildirerek yikimin kesin sonucunu ekler.
+- 2:68 (reverse:weak): Becoming clear despite diversion is a remote response pattern in a tail-audit card.
+- 2:208 (reverse:medium): Says Satan made former peoples' deeds attractive and barred them from the way.
+- 2:211 (reverse:weak): Shows Shaytan adorning deeds and diverting an aware people from the way.
+- 2:212 (reverse:strong): Shows Satan beautifying deeds and turning people from the path.
+- 2:256 (reverse:medium): Shows Satan beautifying deeds and barring people from the path despite insight.
+- 3:61 (reverse:no value): Does not add to the focus.
+- 3:99 (reverse:medium): Satan adorns deeds and turns knowing people away from the way.
+- 4:44 (reverse:strong): Satan beautifies deeds and bars people from the way while they perceive themselves as seeing.
+- 4:55 (reverse:strong): The Arabic joins diversion from the divine path with a deceptive influence, directly paralleling the obstruction theme.
+- 4:117 (reverse:medium): It attributes beautified deeds and diverted path to Satan.
+- 4:118 (reverse:medium): Links Satanic beautification with blockage from the path.
+- 4:119 (reverse:strong): Attributes beautified deeds and path-obstruction to Satan.
+- 4:120 (reverse:medium): Satanic embellishment and obstruction recur in another setting.
+- 4:144 (reverse:weak): Seductive works blocking the path offer only a broad analogue to misdirected allegiance.
+- 4:161 (reverse:weak): Yoldan alıkoyma ortak olsa da mali alma ve riba yoktur.
+- 4:167 (reverse:strong): Shows embellished deeds becoming a barrier from the way while people think they see clearly.
+- 5:30 (reverse:medium): Beautified deeds and blocked direction extend the same adverse-agency pattern.
+- 5:77 (reverse:medium): Links embellished deeds to being turned away from the path.
+- 6:103 (reverse:medium): Claims of insight can coexist with seduction and diversion from the way.
+- 6:112 (reverse:medium): Repeats Satanic adornment as a way of blocking people from the path.
+- 6:113 (reverse:strong): Repeats the beautification-and-obstruction pattern in another setting.
+- 6:121 (reverse:medium): Satanic beautification of deeds supplies a secondary mechanism of misguidance.
+- 7:16 (reverse:medium): Satan's beautification and blockage from the path directly echo key elements of the focus.
+- 7:65 (reverse:weak): Aad and Thamud are recalled as prior destroyed peoples.
+- 7:69 (reverse:medium): ʿĀd and Thamūd as evident historical examples support the warning horizon.
+- 7:175 (reverse:strong): A second, independent adornment-and-path-blocking formulation.
+- 7:200 (reverse:medium): Satan's beautification and obstruction from the path repeat the deception-and-diversion pattern.
+- 7:202 (reverse:strong): Satan beautifies deeds and bars people from the path, closely paralleling sustained deviation.
+- 8:52 (reverse:medium): Places Aad and Thamud among made-evident historical ruins.
+- 10:75 (reverse:medium): Visible prior ruins and blocked path add historical evidence of misdirected action; tail-audit context.
+- 11:15 (reverse:medium): Shows adorned works diverting those who see, reinforcing the danger of attractive action.
+- 11:89 (reverse:strong): Names Aad and Thamud as evident destroyed precedents.
+- 11:99 (reverse:medium): Adorned deeds and obstruction from the path give a mechanism for destructive following.
+- 12:18 (reverse:medium): Eylemlerin suslenmesi ve yoldan cevirme, 12:18'deki ic suslemeyi daha genis bir ayartma kalibina baglar.
+- 12:109 (reverse:strong): Âd ve Semûd'un harabelerinin açık oluşu, geçmiş akıbetin görülebilirliği için doğrudan örnek sağlar.
+- 14:30 (reverse:strong): Şeytanın amelleri süslemesi ve yoldan alıkoyması, 14:30’daki saptırmaya paralel fail-düzen verir.
+- 14:45 (reverse:strong): Directly states that the former dwellings make the fate of Ad and Thamud evident.
+- 15:17 (reverse:medium): Shows satanic adornment blocking the path, a secondary obstruction parallel.
+- 15:39 (reverse:strong): Satan beautifies deeds and turns people from the path despite their discernment.
+- 15:41 (reverse:medium): Parallels Satanic adornment and blockage from the route despite perceptual capacity.
+- 15:42 (reverse:strong): Şeytanın amelleri süsleyip yoldan alıkoyması, 15:39'daki süslemenin 15:42'ye açılan işlevini doğrudan destekler.
+- 15:77 (reverse:strong): Ad ve Semud’un meskenlerinin görünür kalması, yıkım sonrası maddi izin gözle okunmasını ekler.
+- 16:36 (reverse:medium): Offers Ad and Thamud as visible historical evidence after their deviation.
+- 16:100 (reverse:medium): Şeytanın amelleri süsleyip yoldan alıkoymasını gösterir.
+- 17:17 (reverse:medium): Ad and Thamud, their ruined dwellings, and deceived conduct add a close historical-warning parallel.
+- 17:26 (reverse:no value): Being turned from the path does not add to the focus reading.
+- 17:27 (reverse:medium): Adds Satan's beautification of conduct and diversion from the path.
+- 17:36 (reverse:medium): Shows visible evidence and inner awareness being overridden by embellished judgment.
+- 17:63 (reverse:strong): Şeytanın amelleri süsleyip insanları yoldan alıkoyması, 17:64'teki aldatma ve yön kesme işlevini açıklar.
+- 17:64 (reverse:medium): Satanic beautification turns prior knowledge into misdirected action.
+- 18:50 (reverse:medium): Satan beautifies prior peoples' deeds and turns them from the path despite their discernment.
+- 18:59 (reverse:strong): Aad and Thamud are recalled as destroyed peoples whose former dwellings made their fate evident.
+- 19:44 (reverse:strong): Satan makes past peoples' deeds appear fair and bars them from the way, reinforcing his role in misguidance.
+- 19:83 (reverse:strong): Satan beautifies former peoples' deeds and turns them from the path, giving a historical parallel to the focus.
+- 20:51 (reverse:medium): Ad and Thamud are presented through their former dwellings, making their vanished condition visible in place.
+- 20:125 (reverse:medium): People with discernment are nevertheless barred from the path after their deeds are adorned, a related corruption of guidance.
+- 22:4 (reverse:medium): Satan makes people's deeds attractive and bars them from the path while they perceive themselves as guided.
+- 24:7 (reverse:no value): Its historical account of peoples diverted from the path does not aid interpretation of the focus.
+- 25:23 (reverse:weak): Adorned deeds leading earlier peoples from the path give a limited background for why works may fail.
+- 25:29 (reverse:medium): Satan beautifies deeds and diverts people from the way despite their capacity to perceive.
+- 25:39 (reverse:medium): It names Aad and Thamud and points to their dwellings as clear evidence of their fate.
+- 26:95 (reverse:medium): Satan beautifies past peoples' deeds and bars them from the path, a general pattern of collective misguidance.
+- 26:128 (reverse:strong): Ad ve Semud'un meskenlerinden ibret alınması, kudret ve yerleşikliğin onları cezadan korumadığını doğrudan hatırlatır.
+- 26:135 (reverse:medium): Ad's visible ruined dwellings turn its outcome into an accessible warning trace.
+- 26:142 (reverse:strong): Ad ve Semud'un harabelerinin görünür kılınması, Sâlih kavmine ait uyarının tarihsel izini taşır.
+- 26:150 (reverse:weak): It names Thamud as a destroyed people whose ruined dwellings remained evident.
+- 26:157 (reverse:medium): It names Thamud as a destroyed people whose ruined dwellings remain evident, preserving the focus narrative's outcome.
+- 26:222 (reverse:medium): Satan makes people's deeds attractive and turns them from the path, another direct deception-and-action parallel.
+- 27:45 (reverse:weak): Thamud's destroyed dwellings are named as a broad historical warning.
+- 27:51 (reverse:strong): The ruins of 'Ad and Thamud are made evident through their dwellings, matching the focus's visible evidence of destruction.
+- 28:4 (reverse:weak): Past peoples led from the path offer only a broad corruption outcome.
+- 28:63 (reverse:strong): Satan makes past peoples' deeds attractive and bars them from the path despite their discernment, directly pairing allure with diversion.
+- 28:87 (reverse:medium): It joins visible evidence with Satan's beautification that bars people from the way.
+- 35:6 (reverse:strong): It says Satan beautified former peoples' deeds and barred them from the path despite their discernment.
+- 35:26 (reverse:medium): It names 'Ad and Thamud as destroyed after their wrongdoing became evident from their dwellings.
+- 36:29 (reverse:medium): The destruction of Aad and Thamud is recalled as a warning about communities ruined through rejection.
+- 36:60 (reverse:strong): Satan makes destructive deeds attractive and turns people from the path.
+- 36:62 (reverse:medium): Satan's beautifying of deeds and barring people from the path closely parallels the focus, though the narrative setting is remote.
+- 37:30 (reverse:medium): Satan makes deeds appealing and turns people away from the path despite their apparent insight.
+- 37:79 (reverse:medium): Its explicit branch route treats destroyed peoples' sites as discernible evidence, a secondary trace parallel.
+- 37:82 (reverse:weak): Destroyed peoples and visible dwellings offer a broad historical-warning parallel only.
+- 37:109 (reverse:no value): Ad ve Semud'un sapması, İbrahim'e verilen selam veya sınamayla ilgili değildir.
+- 37:162 (reverse:medium): Satan makes deeds appear fair and turns people from the path, directly describing deceptive blockage of guidance.
+- 37:163 (reverse:medium): Satan beautifies deeds and bars people from the path, a parallel mechanism of being led astray.
+- 38:12 (reverse:strong): Ad and Thamud are visibly destroyed in their dwellings, pairing two communities central to the focus's wider list.
+- 38:13 (reverse:strong): It explicitly names Thamud with Ad as communities whose ruined dwellings make their fate evident.
+- 38:82 (reverse:medium): Satan makes former peoples' deeds attractive and obstructs them from the path.
+- 41:12 (reverse:no value): Satan's adornment of deeds is unrelated to God's adornment of the sky.
+- 41:25 (reverse:strong): v12:tr:f-29_38-001 links satanic beautification, being barred from the way, and a past destroyed people.
+- 41:36 (reverse:medium): It says Satan made past peoples' deeds attractive and turned them from the path.
+- 43:30 (reverse:weak): People shown signs are diverted from the way despite insight, a broad analogue of resistant perception.
+- 43:36 (reverse:strong): Satan beautified deeds for earlier peoples and barred them from the path despite their discernment.
+- 43:57 (reverse:strong): Satan beautifies deeds and turns people from the way despite clear perception, closely explaining self-deceived diversion.
+- 43:62 (reverse:strong): Satan beautifies actions and turns people from the path despite available insight.
+- 44:13 (reverse:medium): People with insight are turned from the path by embellished deeds, a related failure to act on what is evident.
+- 46:6 (reverse:no value): No material link to the focus's themes.
+- 46:21 (reverse:medium): Ad and Thamud are presented as visible historical cases of destructive error.
+- 47:8 (reverse:strong): Embellished deeds obstruct the way, giving a concrete distortion mechanism.
+- 50:12 (reverse:strong): Joins عاد and ثمود as manifest historical signs within one retrospective statement.
+- 50:13 (reverse:strong): Pairs Ad and Thamud as manifest historical signs, directly strengthening the catalogue pattern.
+- 50:27 (reverse:medium): Shaytan's beautification of deeds and blocking from the path offers a broad inducement pattern.
+- 50:36 (reverse:medium): Aad and Thamud appear as visible ruined precedents, though strength is not explicit here.
+- 51:41 (reverse:medium): Ad's destroyed dwellings retain a secondary historical trace of the judgment.
+- 51:43 (reverse:strong): Explicitly names Thamud and states that their dwellings made the warning evident.
+- 51:44 (reverse:medium): Names Ad and Thamud together within a broader destruction precedent.
+- 53:17 (reverse:medium): Shows insight present yet blocked by adorned action, a useful but secondary reception contrast.
+- 53:50 (reverse:strong): Names Ad and Thamud together as made evident before their destruction, broadening the paired-precedent frame.
+- 54:18 (reverse:strong): It names Ad and Thamud as ruined despite the apparent attractiveness of their works.
+- 54:20 (reverse:weak): Names Ad among manifest historical destruction signs.
+- 54:23 (reverse:medium): Names Thamud alongside Ad and directs attention to their visible former dwellings.
+- 54:31 (reverse:medium): Thamud's visible dwellings and destruction give a concise habitation-to-ruin parallel.
+- 54:51 (reverse:medium): Names Ad and Thamud and locates their fate in dwellings visible to later people.
+- 56:46 (reverse:weak): Seeing clearly yet diverted from the path offers a limited refusal parallel.
+- 58:10 (reverse:strong): Missing precedent of Satan beautifying deeds and turning people from the path.
+- 58:19 (reverse:medium): Combines Satanic beautification with being barred from the path.
+- 59:2 (reverse:strong): Tail-audit positive f04 route joins visible dwellings with obstructed discernment and lesson.
+- 59:16 (reverse:strong): Reiterates beautification and obstruction from the path in a communal setting.
+- 68:7 (reverse:strong): Adorned acts and diversion from the way join misguidance to impaired seeing.
+- 69:7 (reverse:medium): Aad and Thamud as observable ruined communities secondarily support f04.
+- 74:49 (reverse:weak): Shows being turned from the path despite insight, a secondary analogy.
+- 79:11 (reverse:weak): Adds a past denial-and-destruction pattern, only general warning context.
+- 85:18 (reverse:medium): Adds Thamud's visible dwellings and its turning from the way despite insight.
+- 89:7 (reverse:medium): Pairs عاد and ثمود with visible consequences in their dwelling places.
+- 89:8 (reverse:medium): Names ʿAd and Thamud with their ruined dwellings; useful material-historical context.
+- 89:13 (reverse:strong): Names Aad and Thamud together as manifestly destroyed examples.
+- 91:10 (reverse:strong): Thamud's beautified deeds and diversion despite perception closely illuminate a hidden corruptive stage.
+- 91:12 (reverse:weak): Thamud is named as a visible ruined precedent, without the local action.
+- 114:4 (reverse:medium): Satanic embellishment of deeds is confirmatory but redundant with stronger examples.
+- 114:6 (reverse:medium): Again portrays Satan as beautifying human action and blocking the way.
