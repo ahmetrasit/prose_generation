@@ -100,7 +100,9 @@ def check_window(s):
             for iid in placed:
                 if iid not in ids:
                     problems.append(f"plan: {x['ayah']} names unknown image {iid}")
-        print(f"window {s}:{lo}-{hi}: {len(ids)} images, {len(w.get('concepts', []))} concepts, "
+        new = sum(1 for i in w.get('images', []) if i.get('source', '').strip() == 'new')
+        print(f"window {s}:{lo}-{hi}: {len(ids)} images ({new} new, {len(ids) - new} from the chain map), "
+              f"{len(w.get('chains_set_aside', []))} chains set aside, {len(w.get('concepts', []))} concepts, "
               f"{len(w.get('other_activations', []))} other activations")
         for p_ in problems:
             print('  PROBLEM', p_)

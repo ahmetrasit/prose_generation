@@ -4,6 +4,8 @@
   base                      derive data/words.tsv, branches.tsv, lemmas.tsv, quran.tsv
   jobs frames|loanwords|profiles --surahs 1,100
                             write Luna job inputs for what the scope still lacks
+  jobs frames --sample 120 --exclude 1,100,103,5:6
+                            scene-tag jobs for a random sample of branches (inventory coverage test)
   pull --surahs 1,100       write per-root classical entries and per-lemma concordances
   window --surah S          packet for the window reading (whole short surah or one pericope)
   ayah --ref S:A            packet for the ayah reading
@@ -17,6 +19,7 @@ import glob
 import hashlib
 import json
 import os
+import random
 import re
 import sys
 from collections import Counter, defaultdict
@@ -73,6 +76,7 @@ def build_base():
 
     # branches: Furuq branch table + Turkish concept gloss from the Turkish dictionary entries
     tr = {}
+    tr_branch = {}
     for p in glob.glob(lib.src('tr_entries_glob')):
         try:
             d = lib.read_json(p)
@@ -80,17 +84,37 @@ def build_base():
             continue
         for b in d.get('branches', []):
             ref = b.get('branch_ref', '')
+            if '/' not in ref:
+                continue
+            key = tuple(ref.split('/'))
+            tr_branch[key] = b
             g = (b.get('concept_gloss') or {}).get('text')
-            if '/' in ref and g:
-                tr[tuple(ref.split('/'))] = g
+            if g:
+                tr[key] = g
     brows = []
     for r in lib.read_tsv(lib.src('branches')):
         brows.append({'root': r['surface_root'], 'branch': r['branch_id'], 'root_id': r['source_root_id'],
                       'image': r['branch_image_ar'], 'what_is': r['what_is_ar'],
                       'source_phrase': r['source_phrase_ar'], 'qac_attested': r['qac_attested'],
                       'subset': r['subset_class'], 'tr_gloss': tr.get((r['source_root_id'], r['branch_id']), '')})
+    # the Turkish dictionary (the reader app's dictionary) attests branches the Furuq table lacks: add them
+    have_b = {(r['root_id'], r['branch']) for r in brows}
+    root_of = {r['root_id']: r['root'] for r in brows}
+
+    def flat(v):
+        return '؛ '.join(str(x) for x in v) if isinstance(v, list) else (v or '')
+    added = 0
+    for (rid, bid), b in tr_branch.items():
+        if (rid, bid) in have_b or rid not in root_of:
+            continue
+        brows.append({'root': root_of[rid], 'branch': bid, 'root_id': rid, 'image': flat(b.get('branch_image_ar')),
+                      'what_is': flat(b.get('what_is_ar')), 'source_phrase': flat(b.get('source_phrase_ar')),
+                      'qac_attested': 'yes', 'subset': 'tr_entry_only', 'tr_gloss': tr.get((rid, bid), '')})
+        added += 1
+    brows.sort(key=lambda r: (r['root'], int(re.sub(r'\D', '', r['branch']) or 0)))
     lib.write_tsv(os.path.join(DATA, 'branches.tsv'), brows,
                   ['root', 'branch', 'root_id', 'image', 'what_is', 'source_phrase', 'qac_attested', 'subset', 'tr_gloss'])
+    print(f"branches added from the Turkish dictionary (absent from the Furuq table): {added}")
 
     roots_used = {x for r in out for x in r['roots'].split('|') if x}
     have = {b['root'] for b in brows}
@@ -169,11 +193,34 @@ def qnet_hints():
     return out
 
 
-def jobs_frames(surahs):
+def excluded_roots(spec):
+    """Roots occurring in the excluded scope: surahs ('1'), ayat ('5:6') or ayah ranges ('29:39-45')."""
+    refs = []
+    for part in (spec or '').split(','):
+        part = part.strip()
+        if not part:
+            continue
+        if ':' not in part:
+            refs += lib.refs_of_surah(int(part))
+        else:
+            s, a = part.split(':')
+            lo, hi = a.split('-') if '-' in a else (a, a)
+            refs += [f'{s}:{x}' for x in range(int(lo), int(hi) + 1)]
+    return {r for ref in refs for wd in ayah_words(ref) for r, _, _, _ in word_roots(wd)}
+
+
+def jobs_frames(surahs, sample=None, seed=15, exclude=None):
+    """Scene-tag jobs for every untagged branch of the scope's roots, or for a random sample of
+    branches from the whole Quran outside an excluded scope (a coverage test of the inventory)."""
     have = lib.frames()
     hints = qnet_hints()
+    if sample:
+        skip = excluded_roots(exclude)
+        pool = [r for r in sorted(scope_roots(range(1, 115))) if r not in skip]
+    else:
+        pool = sorted(scope_roots(surahs))
     todo = []
-    for root in sorted(scope_roots(surahs)):
+    for root in pool:
         for b in lib.branches().get(root, []):
             key = f"{root} {b['branch']}"
             if key not in have:
@@ -182,11 +229,13 @@ def jobs_frames(surahs):
     for p in glob.glob(os.path.join(DATA, 'frames', 'jobs', '*', 'keys.json')):
         pending |= set(lib.read_json(p))
     todo = [t for t in todo if t[0] not in pending]
+    if sample:
+        todo = random.Random(seed).sample(todo, min(sample, len(todo)))
     n = CFG['jobs']['frames_per_job']
     made = 0
     for i in range(0, len(todo), n):
         batch = todo[i:i + n]
-        jid = 'frames_' + hashlib.sha1('|'.join(k for k, _ in batch).encode()).hexdigest()[:10]
+        jid = ('frames_sample_' if sample else 'frames_') + hashlib.sha1('|'.join(k for k, _ in batch).encode()).hexdigest()[:10]
         lines = []
         for key, b in batch:
             h = ', '.join(hints.get((b['root_id'], b['branch']), [])[:8])
@@ -390,42 +439,75 @@ def scene_lines(refs, focus_refs=None, min_words=2):
             byw[(m[0], m[1])].append(f"{m[2]}{'~alt' if m[5] else ''} {m[3]} {m[4]}")
         parts = [f"{w[1]} {w[0]}: " + ', '.join(dict.fromkeys(v)) for w, v in
                  sorted(byw.items(), key=lambda x: [int(p) for p in x[0][0].split(':')])]
-        lines.append((len(ws), len(roles), frame, f"- {frame} [{len(ws)} words, {len(roles)} roles] " + ' · '.join(parts)))
+        label = frame
+        if frame.startswith('new.') and frame in lib.new_frames():
+            label += f" ({lib.new_frames()[frame]['scene']})"
+        lines.append((len(ws), len(roles), frame, f"- {label} [{len(ws)} words, {len(roles)} roles] " + ' · '.join(parts)))
     lines.sort(key=lambda x: (-x[0], -x[1], x[2]))
     return [x[3] for x in lines]
 
 
+def motif_keys(motif_line):
+    """Branch keys from an 'Active motifs' line. Reviews write either `ع ل م:B002/m02` or
+    `quranic:root_000123:B002/m01`; internal root ids are resolved to Arabic roots."""
+    ids = lib.root_by_id()
+    out = []
+    for root, br in re.findall(r'`(?:quranic:)?([^`:]+):(B\d+)', motif_line or ''):
+        out.append(f"{ids.get(root, root)}:{br}")
+    return ', '.join(dict.fromkeys(out))
+
+
+def anchor_spans(s, anchor_line):
+    """(from, to) ayah spans named in an anchor line, expanding ranges like 2:271-273."""
+    return [(int(m.group(1)), int(m.group(2) or m.group(1)))
+            for m in re.finditer(rf'\b{s}:(\d+)(?:[–-](\d+))?', anchor_line or '')]
+
+
 def channel_index(s, lo=None, hi=None):
-    """Titles, motifs and anchors from the earlier channel review, scoped to the window's ayat."""
+    """Invariants, scenes, motifs and places from the earlier channel review, scoped to the window's ayat.
+    A parent channel is shown only when at least one of its subchannels is anchored in the window."""
     p = lib.src('channel_review', S=s)
     if not os.path.exists(p):
         return ''
-    out, parent, cur = [], '', None
+    out, pending = [], None
 
     def in_scope(anchor_line):
         if lo is None:
             return True
-        for m in re.finditer(rf'\b{s}:(\d+)', anchor_line):
-            if lo <= int(m.group(1)) <= hi:
-                return True
-        return False
+        return any(a <= hi and b >= lo for a, b in anchor_spans(s, anchor_line))
+
+    def places(anchor_line):
+        return ', '.join(dict.fromkeys(f'{s}:{a}' + (f'-{b}' if b != a else '')
+                                       for a, b in anchor_spans(s, anchor_line)))
     with open(p, encoding='utf-8') as f:
         text = f.read()
     for block in re.split(r'\n(?=#{3,4} )', text):
         head = block.split('\n', 1)[0]
+        scene = re.search(r'Scene or process:(.*)', block)
+        motifs = re.search(r'Active motifs:(.*)', block)
+        anchors = re.search(r'Ayah anchors:(.*)', block)
+        a = anchors.group(1).strip() if anchors else ''
+        mot = motif_keys(motifs.group(1) if motifs else '')
         if head.startswith('### ') and not head.startswith('#### '):
             parent = head[4:].strip()
+            pending = None
+            inv = re.search(r'Semantic invariant:(.*)', block)
+            if re.match(r'S\d+\.', parent):
+                if in_scope(a):
+                    out.append(f"\n### standalone: {parent}\n- scene: {trim(scene.group(1).strip(), 220) if scene else ''}"
+                               f" | motifs: {mot} | at {places(a)}")
+            elif inv:
+                pending = f"\n### {parent}\ninvariant: {trim(inv.group(1).strip(), 220)}"
             continue
         if head.startswith('#### '):
-            motifs = re.search(r'Active motifs:(.*)', block)
-            anchors = re.search(r'Ayah anchors:(.*)', block)
-            a = anchors.group(1).strip() if anchors else ''
             if not in_scope(a):
                 continue
-            mot = ', '.join(re.findall(r'`([^`:]+:B\d+)', motifs.group(1))) if motifs else ''
-            refs = ', '.join(dict.fromkeys(re.findall(rf'\b{s}:\d+\b', a)))
-            out.append(f"- {parent} / {head[5:].strip()} — {mot} — at {refs}")
-    return '\n'.join(out)
+            if pending:
+                out.append(pending)
+                pending = None
+            out.append(f"- {head[5:].strip()}: {trim(scene.group(1).strip(), 220) if scene else ''}"
+                       f" | motifs: {mot} | at {places(a)}")
+    return '\n'.join(out).strip()
 
 
 def qiraat_block(refs):
@@ -511,20 +593,20 @@ def build_window(s, only=None):
         if only and not (lo <= only <= hi):
             continue
         refs = [f'{s}:{a}' for a in range(lo, hi + 1)]
+        chains = channel_index(s, lo, hi) if long_surah else channel_index(s)
         parts = [f"# Window {s}:{lo}–{hi} ({label})\n",
                  section('Text', text_block(s, lo, hi)),
+                 section('Existing chain map (earlier machine review; the starting point: ground, correct, extend, '
+                         'connect; unranked, partly noisy)', chains or '(no chain map for this surah)'),
                  section('Words (ref surface | root | lemma | pos)', words_block(refs)),
-                 section('Dictionary: every branch of every root (branch | image | definition | tr: Turkish gloss)',
-                         dictionary_block(refs)),
-                 section('Scene map in this window (mechanical, generous; an ordering aid, not a worklist)',
+                 section('Dictionary: every branch of every root (branch | image | definition)', dictionary_block(refs)),
+                 section('Scene map in this window (mechanical, generous; for what the chain map missed)',
                          '\n'.join(scene_lines(refs)) or '(scene tags not built yet)')]
         if long_surah:
             surah_refs = lib.refs_of_surah(s)
             wide = [l for l in scene_lines(surah_refs, focus_refs=refs, min_words=3)]
             parts.append(section('Scene lines across the whole surah that touch this window', '\n'.join(wide)))
-        parts += [section('Earlier channel map for this surah (machine-built, noisy; titles, motifs and anchors only)',
-                          channel_index(s, lo, hi) if long_surah else channel_index(s)),
-                  section('Variant readings', qiraat_block(refs)),
+        parts += [section('Variant readings', qiraat_block(refs)),
                   section('Paths you may read', pull_paths(s))]
         d = window_dir(s, lo, hi)
         lib.write_text(os.path.join(d, 'packet.md'), '\n'.join(parts))
@@ -673,11 +755,16 @@ def main():
     ap.add_argument('--surah', type=int)
     ap.add_argument('--ayah', type=int)
     ap.add_argument('--ref')
+    ap.add_argument('--sample', type=int, help='frames only: tag a random sample of branches from the whole Quran')
+    ap.add_argument('--seed', type=int, default=15)
+    ap.add_argument('--exclude', help="with --sample: surahs, ayat or ranges whose roots are left out, e.g. '1,100,5:6,29:39-45'")
     x = ap.parse_args()
     if x.cmd == 'base':
         build_base()
+    elif x.cmd == 'jobs' and x.kind == 'frames':
+        jobs_frames(parse_surahs(x.surahs or ''), sample=x.sample, seed=x.seed, exclude=x.exclude)
     elif x.cmd == 'jobs':
-        {'frames': jobs_frames, 'loanwords': jobs_loanwords, 'profiles': jobs_profiles}[x.kind](parse_surahs(x.surahs))
+        {'loanwords': jobs_loanwords, 'profiles': jobs_profiles}[x.kind](parse_surahs(x.surahs))
     elif x.cmd == 'pull':
         build_pull(parse_surahs(x.surahs))
     elif x.cmd == 'window':

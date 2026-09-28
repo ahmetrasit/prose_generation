@@ -14,6 +14,9 @@
      "name": {
       "type": "string"
      },
+     "source": {
+      "type": "string"
+     },
      "scene": {
       "type": "string"
      },
@@ -84,6 +87,7 @@
     "required": [
      "id",
      "name",
+     "source",
      "scene",
      "members",
      "containment",
@@ -162,6 +166,25 @@
     ]
    }
   },
+  "chains_set_aside": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "title": {
+      "type": "string"
+     },
+     "why": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "title",
+     "why"
+    ]
+   }
+  },
   "other_activations": {
    "type": "array",
    "items": {
@@ -174,6 +197,7 @@
   "concepts",
   "movement",
   "plan",
+  "chains_set_aside",
   "other_activations"
  ]
 }

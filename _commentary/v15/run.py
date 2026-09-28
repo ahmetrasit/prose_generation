@@ -6,7 +6,10 @@ Rules kept here, not by habit:
 - a failed unit is not retried automatically; `--repair` allows one further attempt, logged;
 - every call is logged in out/ledger.jsonl (time, unit, model, status, seconds, cost where reported);
 - an Opus call starts only when its estimate is below gate.usd_per_call and keeps the ayah within
-  gate.usd_per_ayah; once started it runs to the end, whatever it then costs;
+  gate.usd_per_ayah; once started it runs to the end, whatever it then costs. The gate is Opus-only by
+  design: Luna runs on the flat Codex subscription and reports tokens, not dollars (logged as usage);
+- a CLI usage error that never reached a model (non-zero exit, no output, under a minute, or a usage
+  message on stderr) is logged as cli_error and does not block the unit; anything else is a failed run;
 - agents run from a fresh temp directory in safe mode (no CLAUDE.md, memory, skills or hooks)
   and may read only v15/data.
 
@@ -58,7 +61,8 @@ def may_run(unit, out_path, repair):
     if os.path.exists(out_path):
         print(f"skip {unit}: done ({os.path.relpath(out_path, lib.HERE)})")
         return False
-    failed = [e for e in ledger() if e.get('unit') == unit and e.get('status') != 'ok']
+    # a CLI usage error never reached a model, so it is not a failed run
+    failed = [e for e in ledger() if e.get('unit') == unit and e.get('status') not in ('ok', 'cli_error')]
     if failed and not repair:
         print(f"skip {unit}: failed before ({failed[-1].get('status')}); not retried. Use --repair once if wanted.")
         return False
@@ -77,7 +81,8 @@ def estimate(step, chars):
     config defaults until the ledger has a reported cost for the step."""
     hist = [e for e in ledger() if e.get('step') == step and e.get('cost_usd') and e.get('prompt_chars')]
     if not hist:
-        return CFG['estimates_usd'][step], 'default'
+        ref = CFG['estimates_reference_chars'][step]
+        return CFG['estimates_usd'][step] * max(1.0, chars / ref), 'default, scaled by prompt size'
     worst = max(hist, key=lambda e: e['cost_usd'])
     return worst['cost_usd'] * max(1.0, chars / worst['prompt_chars']), f'ledger ({len(hist)} runs)'
 
@@ -154,9 +159,9 @@ def call_opus(unit, step, text, out_path, schema=None, tools=True, ayah=None, dr
         try:
             p = subprocess.run(cmd, input=text, capture_output=True, text=True, cwd=cwd,
                                timeout=CFG.get('timeout_s', 5400))
-            raw, err = p.stdout, p.stderr
+            raw, err, code = p.stdout, p.stderr, p.returncode
         except subprocess.TimeoutExpired:
-            raw, err = '', 'timeout'
+            raw, err, code = '', 'timeout', None
     lib.write_text(out_path + '.raw.json', raw + ('\n\n[stderr]\n' + err if err else ''))
     try:
         obj = json.loads(raw)
@@ -164,7 +169,9 @@ def call_opus(unit, step, text, out_path, schema=None, tools=True, ayah=None, dr
         obj = None
     cost = obj.get('total_cost_usd') if isinstance(obj, dict) else None
     status = 'ok'
-    if not isinstance(obj, dict) or obj.get('is_error'):
+    if obj is None and is_cli_error(code, raw, err, time.time() - t0):
+        status = 'cli_error'
+    elif not isinstance(obj, dict) or obj.get('is_error'):
         status = 'error'
     elif schema:
         data = obj.get('structured_output')
@@ -187,45 +194,53 @@ def call_opus(unit, step, text, out_path, schema=None, tools=True, ayah=None, dr
     return status
 
 
+USAGE_ERROR = re.compile(r'unexpected argument|unrecognized|unknown option|invalid value|^Usage:|error: .*argument',
+                         re.I | re.M)
+
+
+def is_cli_error(code, output, err, seconds):
+    """True only when the CLI itself refused the call, so no model ran."""
+    if code in (0, None) or output.strip():
+        return False
+    return seconds < 60 or bool(USAGE_ERROR.search(err or ''))
+
+
 def call_luna(unit, text, out_path, schema, ayah=None, dry=False, repair=False):
     if not may_run(unit, out_path, repair):
         return None
     m = CFG['models']['luna']
-    tmp_out = out_path + '.tmp'
     base = ['codex', 'exec', '-m', m['model'], '-c', f'model_reasoning_effort="{m["effort"]}"',
             '--disable', 'skill_search', '--skip-git-repo-check', '--ephemeral', '-s', 'read-only',
-            '--output-schema', os.path.join(lib.SCHEMAS, schema), '-o', tmp_out, '--json']
+            '--output-schema', os.path.join(lib.SCHEMAS, schema), '--json']
     if dry:
         print(f"[dry] {unit}: prompt {len(text):,} chars (~{len(text) // 3:,} tokens) -> "
-              f"{os.path.relpath(out_path, lib.HERE)}\n      {' '.join(base)} -C <tmp> -")
+              f"{os.path.relpath(out_path, lib.HERE)}\n      {' '.join(base)} -o <tmp>/last.json -C <tmp> -")
         return None
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     t0 = time.time()
     with tempfile.TemporaryDirectory(prefix='v15_luna_') as cwd:
+        last = os.path.join(cwd, 'last.json')   # fresh per call: a stale message can never be read
         try:
-            p = subprocess.run(base + ['-C', cwd, '-'], input=text, capture_output=True, text=True,
+            p = subprocess.run(base + ['-o', last, '-C', cwd, '-'], input=text, capture_output=True, text=True,
                                timeout=CFG.get('timeout_s', 5400))
-            events, err = p.stdout, p.stderr
+            events, err, code = p.stdout, p.stderr, p.returncode
         except subprocess.TimeoutExpired:
-            events, err = '', 'timeout'
+            events, err, code = '', 'timeout', None
+        data = parse_json_text(read(last)) if os.path.exists(last) else None
     usage = {}
     for line in events.splitlines():
         try:
             ev = json.loads(line)
         except json.JSONDecodeError:
             continue
-        u = ev.get('usage') or (ev.get('msg') or {}).get('usage') if isinstance(ev, dict) else None
-        if isinstance(u, dict):
-            usage = u
+        if isinstance(ev, dict) and isinstance(ev.get('usage'), dict):
+            usage = ev['usage']
     status = 'ok'
-    data = parse_json_text(read(tmp_out)) if os.path.exists(tmp_out) else None
     if data is None:
-        status = 'no_json'
+        status = 'cli_error' if is_cli_error(code, events, err, time.time() - t0) else 'no_json'
         lib.write_text(out_path + '.failed.log', events[-20000:] + '\n\n[stderr]\n' + err[-5000:])
     else:
         lib.write_json(out_path, data)
-    if os.path.exists(tmp_out):
-        os.remove(tmp_out)
     log({'unit': unit, 'step': unit.split(':')[1], 'ayah': ayah, 'model': m['model'], 'effort': m['effort'],
          'status': status, 'seconds': round(time.time() - t0), 'usage': usage, 'prompt_chars': len(text),
          'repair': repair,

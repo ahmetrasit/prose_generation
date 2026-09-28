@@ -51,7 +51,7 @@
   "gate": {
     "usd_per_call": 5.0,
     "usd_per_ayah": 5.0,
-    "_comment": "A call starts only when its estimate is below usd_per_call, and an ayah's calls stay within usd_per_ayah (tests). Never retried; once started it runs to the end."
+    "_comment": "Opus only: a call starts only when its estimate is below usd_per_call, and an ayah's calls stay within usd_per_ayah (tests). Never retried; once started it runs to the end. Luna runs on the flat Codex subscription and reports tokens, not dollars, so it is not gated."
   },
   "timeout_s": 5400,
   "estimates_usd": {
@@ -60,5 +60,12 @@
     "write": 1.5,
     "surah": 3.0,
     "_comment": "Uncalibrated defaults, used until the ledger has a reported cost for the step; then the dearest earlier call of the step, scaled by prompt size."
+  },
+  "estimates_reference_chars": {
+    "window": 45000,
+    "discover": 25000,
+    "write": 30000,
+    "surah": 45000,
+    "_comment": "Default estimates assume a prompt of this size and scale up linearly above it."
   }
 }

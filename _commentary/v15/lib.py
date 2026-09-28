@@ -177,6 +177,12 @@ def branch_by_key():
 
 
 @lru_cache(maxsize=1)
+def root_by_id():
+    """'root_000123' -> Arabic root with spaces."""
+    return {r['root_id']: r['root'] for rs in branches().values() for r in rs}
+
+
+@lru_cache(maxsize=1)
 def lemmas():
     """(root, lemma) -> list of 'S:A:W'. Built by build.py base."""
     out = {}
@@ -284,6 +290,16 @@ def frames():
     for it in _jsonl_items(os.path.join(DATA, 'frames', 'out', '*.json')):
         for fr in it.get('frames', []):
             out[it['key']].append((fr['frame'], fr['role']))
+    return out
+
+
+@lru_cache(maxsize=1)
+def new_frames():
+    """Scenes Luna added when the inventory had none: id -> {scene, roles} (first description wins)."""
+    out = {}
+    for it in _jsonl_items(os.path.join(DATA, 'frames', 'out', '*.json')):
+        for nf in it.get('new_frames', []):
+            out.setdefault(nf['id'], {'scene': nf.get('scene', ''), 'roles': nf.get('roles', [])})
     return out
 
 

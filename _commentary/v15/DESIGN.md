@@ -33,8 +33,12 @@ The North Star, read as a spec, pulls against itself in six places. v15 resolves
   misses real partners and admits generic ones. The distance finds a scene only when the definitions name it
   (a race: rank 5). Hence the new scene index (§3). The matrices are not used.
 - **The channel reviews** (`network-v3/sNNN/review/reader_a_pilot.md`, 110 surahs, median 88 KB) contain real
-  chains, but as an unranked taxonomy: S1 has 12 parent channels and about 40 subchannels, many of them noise.
-  v15 shows only their titles, motifs and places, to the window reading, as a missing-chain check.
+  chains, but as an unranked taxonomy: S1 has 12 parent channels and 44 subchannels, some of them noise, and each
+  S1 ayah is anchored in 10–32 of them (1:6 in 32). They never discuss how channels interact or serve the surah's
+  purpose (only 13 of 110 reviews have a cross-pericope section), and nothing says which ayah should carry which
+  chain. v15 therefore gives the window reading their invariants, scenes, motifs and places as its **starting
+  map**, to be grounded, corrected, extended and connected, never rediscovered (as the North Star asks). The window
+  reading adds what they lack: selection by payoff, interactions and purpose, and the per-ayah plan.
 - **Turkish losses have no source.** The Turkish dictionary's gloss error profiles judge each gloss against its
   own branch ("namaz" for the ritual branch and "okumak" for the reading branch both lose nothing). Loanword
   drift is recorded nowhere. Hence Luna loanword cards (§3).
@@ -65,12 +69,17 @@ The North Star, read as a spec, pulls against itself in six places. v15 resolves
 Scene tags are generous and multi-label, so they only order candidates; retrieval labels order and never filter.
 A scene's parts come from different words. That is exactly what similarity misses and what an image is.
 
+The scene inventory (142 scenes in 42 domains) is generic, but it was written by someone who knew the North Star's
+examples. Its coverage is therefore tested before the whole Quran is tagged: a random sample of 120 branches from
+outside the named cases (`build.py jobs frames --sample 120 --exclude …`) is tagged alongside S1. If many branches
+need new scenes or get forced tags, the inventory is S1-shaped and is fixed first.
+
 ## 4. Stages (per surah)
 
 | Step | Who | Reads | Writes | Stance |
 |---|---|---|---|---|
 | 0. data | scripts + Luna (once) | raw sources | §3 | supply |
-| 1. window reading | Opus 5.5, effort high | window text, words, full branch index, scene lines (window, plus surah-wide ones for long surahs), channel titles, variants | `window.json`: images (members with ref + root Bnnn + role; containment; perceptible; interactions; movement), root concepts, movement, plan (≤3 images per ayah), other activations | generative |
+| 1. window reading | Opus 5.5, effort high | window text, the existing chain map (starting point), words, full branch index, scene lines (window, plus surah-wide ones for long surahs), variants | `window.json`: images (source chain or "new"; members with ref + root Bnnn + role; containment; perceptible; interactions; movement), root concepts, movement, plan (≤3 images per ayah), chains set aside with why, other activations | generative |
 | 2. ayah reading | Opus 5.5, effort high | ayah ±7, words, branch index (+alternatives), scene lines touching its words, its plan entry, concordance or profiles, variants, loanword cards | `record.json`: ground, findings (anchor, triggers, containment statement, perceptible, image, memory flag, lead/support/record), loaded words, losses, grammar, variants, reread, disclosed, set aside | generative |
 | 3. evidence | Luna max | the record, cited branches with their classical phrases, concordance, related-passage list, the Quran text | `evidence.json`: per finding, attestation, trigger, QeQ (supports / expands / shifts / contradicts with refs), contradiction flag; missing passages | evidential; annotates only |
 | 4. commentary | Opus 5.5, effort high, no tools | record, evidence, plan, Turkish glosses of the cited branches | `commentary.tr.md`, about 700 words, cap 1,100, `{{ar:…}}` for Arabic | communicative |
@@ -87,6 +96,8 @@ CLAUDE.md, memory, skills or hooks reach them.
 ## 5. Rules kept by code
 
 - Never rerun a completed unit. Never retry a failed one automatically; `--repair` allows one further attempt.
+  A CLI usage error that never reached a model (non-zero exit, no output, under a minute) is logged as
+  `cli_error` and does not block the unit.
 - Every call is logged in `out/ledger.jsonl`.
 - An Opus call starts only when its estimate is below $5, and an ayah's calls stay within $5 (tests). Once
   started, a call runs to the end, whatever it then costs. Estimates come from the ledger (the dearest earlier call
