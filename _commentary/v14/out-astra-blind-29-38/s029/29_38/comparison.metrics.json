@@ -1,0 +1,68 @@
+{
+  "ref": "29:38",
+  "candidate": "29_38.reading.tr.md",
+  "candidate_sha256": "f24993fb6f6cd3801182436cd1dcafa96358cd0a3ff770a11fed3fde894d51a0",
+  "raw_words": 6509,
+  "gloss_substituted_words": 5131,
+  "prose_bytes": 62305,
+  "headings": 6,
+  "paragraphs": 60,
+  "median_paragraph_words": 108.0,
+  "max_paragraph_words": 147,
+  "arabic_tags": 140,
+  "quran_tags": 89,
+  "dictionary_tags": 51,
+  "distinct_cited_ayat": 137,
+  "candidate_passages_cited": 106,
+  "candidate_passages_available": 171,
+  "raw_response_bytes": 81578,
+  "accounting_bytes_including_separator_whitespace": 19251,
+  "accounting_percent": 23.6,
+  "account_levels": {
+    "linked": 135,
+    "partial": 9,
+    "deferred": 21,
+    "unreported": 4
+  },
+  "unreported": [
+    "F13",
+    "F70",
+    "E_F70",
+    "Q2"
+  ],
+  "account_valid": false,
+  "initial_input_bytes": 181493,
+  "lookup": {
+    "calls": 7,
+    "returned_bytes": 93789,
+    "distinct_requested": 108,
+    "distinct_returned": 347,
+    "returned_occurrences": 360,
+    "requested_cited": 99,
+    "cited_not_returned": [
+      "29:27"
+    ]
+  },
+  "verification": {
+    "frozen_files_verified": 13,
+    "generation_code_or_prompt_changes": [],
+    "copied_historical_files_checked": 298,
+    "copied_historical_changes": [],
+    "evaluation_document_unchanged": true,
+    "writer_input_unchanged": true
+  },
+  "usage": {
+    "upstream_cost_usd": 4.413,
+    "discovery_minutes": 10.8,
+    "qeq_minutes": 5.4,
+    "astra_tokens": null,
+    "astra_cost_usd": null,
+    "astra_observation_interval_minutes": 28.77,
+    "note": "Observation interval is not provider generation latency; bytes are not token usage."
+  },
+  "metric_notes": [
+    "Paragraphs exclude heading-only blocks; headings include the title.",
+    "Raw words include Arabic, transliteration and source metadata; gloss words substitute each Arabic tag with its Turkish gloss.",
+    "Linked inventory locations are not semantic coverage scores. Citation counts are not integration scores."
+  ]
+}

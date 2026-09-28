@@ -8,7 +8,25 @@ fixes, manually supplied missing connections, or generation rules derived from t
 omissions belong in evaluation only. Generic changes must be justified as mechanisms that work from normal inputs.
 The 1:6 comparison selects a promising writer; it does not establish readiness for arbitrary ayat.
 
-Latest result: read ARGUMENT_COMPARISON.md. The authorized Sol 6 max / Astra 6 max pair finished in parallel,
+Latest result: read BLIND_29_38_RESULT.md and the unchanged pre-run plan BLIND_29_38.md. The user-requested blind
+29:38 run is complete: fresh Opus-high discovery and Quran-relation analysis, then one Astra 6 max generation,
+with no prompt/code changes, target hints, retry or repair. This is the existing standalone-ayah path: normal
+29:21–51 window, no window network and no preceding prose. It does not test sequential or full-surah continuity.
+
+Candidate: out-astra-blind-29-38/s029/29_38/29_38.reading.tr.md. All 140 Arabic tags pass exactly; 6,509 raw /
+5,131 gloss words, 60 prose paragraphs and five section headings. The house/seam/eye-film and road/water sequences
+develop functional connections, and upstream corrections survive. Serial excursions and explicit omissions remain.
+The account fails on two rows sharing an anchor whose final period differs from the prose's colon. F13, Q2, F70
+and E_F70 consequently become unreported despite explanations in the prose. No generated output was hand-fixed.
+Read independent.review.json, sources.check.json and comparison.metrics.json beside the candidate. No acceptance
+pointer exists. All 13 frozen files, unchanged generation code/prompts and 298 copied historical data files verify.
+Upstream cost is $4.413; Astra billing/tokens are unavailable and are not a rejection reason. The historical V9 Sol
+comparison has different inputs and is not a matched model comparison. No further call starts automatically.
+
+The neutral input catalogue requested by the user is at ../../AVAILABLE_INPUTS.md. Concurrent work, including v15,
+must not be staged or restored as part of this run. Earlier comparisons below remain historical evidence.
+
+Previous result: read ARGUMENT_COMPARISON.md. The authorized Sol 6 max / Astra 6 max pair finished in parallel,
 one generation each, no interruption/restart/repair. Same 1:6 evidence, v2 upstream, full v2 1:5, revised brief,
 lookup capability and schema-3 trace; packets are identical after normalizing the routing tag. Fifteen criteria
 were separately frozen and excluded from writer input. Both complete outputs were compared by the primary agent.
