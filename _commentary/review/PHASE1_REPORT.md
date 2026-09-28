@@ -289,8 +289,10 @@ nearly all of it. That is a finding about method, not a verdict on one version (
   - Mechanism: every branch of every root in the ayah must be visible, and one reader must see the neighbours'
     senses (seeing, adorning) together with the rare branch.
 - **18:86 (ḥamaʾ).**
-  - Every Opus run, including the cold arm, cites 15:26, 15:28 and 15:33: the root has only four uses and they are
-    famous.
+  - Every Opus run, including the cold arm, cites 15:26, 15:28 and 15:33.
+  - **Correction (Phase 2, verified).** The shared v10/v11 writer brief's citation-format example is literally
+    "e.g. (15:26, 15:28, 15:33)" (write_v10.md:59, write_v11.md:112). The recall is therefore contaminated and says
+    nothing about memory.
   - The difference is framing. The cold arm calls it "a root similarity, not an equation". The full-package arm
     comes closest to the user's reading: Iblīs refuses "looking at exactly this material" (15:33), 18:50 retells
     the moment, and vecede makes Dhū l-Qarnayn the observer.
@@ -357,6 +359,15 @@ rests on one ayah. The records weaken it in four ways:
    - Result: the dictionary-fed arms (dict and dhft, 14 runs) cite **0–3 passages outside the surah**, with zero in 10
      of 14, including 6 of the 7 Fatiha ayat, 4:34 and 100:1. The cold arms cite 3–28.
    - v11's README already called this "mostly an instruction artefact".
+   - Phase 2 D quantified the confound:
+
+     | group | outside-surah passages cited (median, range) |
+     |---|---|
+     | dictionary-fed arms *with* memory permission (v11 brief, n=16) | 30 (12–47) |
+     | the same inputs without permission (n=24) | 1.5 (zero in 10 runs) |
+     | cold arm | 10.5 |
+
+     Within the permitted group, input size does not predict outside reach (Spearman −0.03).
 2. **Noise floor.**
    - The only true repeat (4:34 cold vs cold2) shares 28 of 47 cited passages (Jaccard 0.596) and scored 8 against 6
      anchors.
@@ -391,19 +402,19 @@ rests on one ayah. The records weaken it in four ways:
 | the model supplies it (push nothing, verify after) | evidence |
 |---|---|
 | Quran text and references | v11/v12 S1: 0 missing, 0 wrong-ayah after the check |
-| famous classical images | the cold arm quoted 7 dictionary phrases it never saw (ṭarīq muʿabbad, saraṭa, ḍālla, arḍ kanūd, al-ʿaṣrān, ikhrāj al-lubb) |
-| small famous concordances | 18:86: every run, cold included, cites the ḥamaʾ creation passages |
+| famous classical images and their phrases | the cold arm quoted 7 dictionary phrases it never saw (ṭarīq muʿabbad, saraṭa, ḍālla, arḍ kanūd, al-ʿaṣrān, ikhrāj al-lubb); against the full six early entries, 12 of its 14 non-Quran Arabic tags are attested (Phase 2 D) |
+| ~~small famous concordances~~ | withdrawn: the ḥamaʾ recall at 18:86 is contaminated by the brief's citation example "(15:26, 15:28, 15:33)" |
 | thematic cross-surah parallels | inter-ayah memory follow-up: 299,667 suggestions, 48% strong, only 68 overlapping retrieval; 92.5% cross-surah |
 | same-surah parallels, when attention allows | the cold arm cites 2–3× the same-surah passages of v15 |
 | grammar, Turkish drift, mechanism schemas | v13/v15 records ("good, better than v12"); the well needs its rope and pulley |
 
 | data must supply it | evidence |
 |---|---|
-| rare branch senses | sabal eye film, ʿayn = sun disk, ʿalam = waymark mountain, ʿaylam, the husband's nushūz as harshness, ḍabḥ B001–B003: all only in dictionary-fed runs (105 of 109 dictionary branches surface only when fed) |
+| rare branch senses | sabal eye film, ʿayn = sun disk, ʿalam = waymark mountain, ʿaylam, the husband's nushūz as harshness. Phase 2 D annotated by hand every lexical claim of 13 cold readings (344 latent branches). Cold recall is 11.9% (dictionary-fed at least 19.2%): 35% for branch positions B001–B003 but 3% for B004+; 21% for branches with 4–6 early sources, 4–5% with 1–3; **0 of 60** never-activated branches; 1 of 56 collocation branches. (Phase 1's "105 of 109 only when fed" was an Arabic-script detector artefact: senses given in Turkish were missed.) |
 | counts and dominant roles of mid-frequency words | nafakha as animating only with concordance counts |
 | quotable classical phrases | 33% of Arabic tags in dictionary-fed runs are dictionary phrases vs 1% cold; mirfaq's leaning phrase reached v15's writer only through the evidence step |
 | cross-ayah coalitions | the partner branch belongs to another ayah's root (v11: 7 of 9 misses) |
-| a check on memory | the cold arm quotes 7 phrases found nowhere (e.g. ḍalla l-māʾu fī l-laban, reversed from the dictionary's ḍalla l-labanu fī l-māʾ); recall marks 0 |
+| a check on memory | **corrected:** memory's quoted phrases are real (12 of 14 attested in the early entries; ḍalla l-māʾu fī l-laban is Tahdhīb's order, Maqāyīs has the other; the 2 unmatched are constructed grammar examples). Phase 1 checked against truncated packet text. What memory lacks is marking (recall marks 0 in every cold run) and construction scope (arḍ kanūd applied to insān at 100:6). |
 
 Two more signals:
 

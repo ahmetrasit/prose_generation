@@ -32,21 +32,28 @@ catalogue) and choosing (losing a surprise).
    - The context-only arm was the only one allowed to use "your own knowledge of the Quran". Every fed arm was told
      "work only from the supplied evidence". The dictionary-fed arms cite 0–3 passages outside the surah (zero in 10
      of 14 runs), against 3–28 for the context-only arm.
+   - Dictionary-fed runs that *were* allowed memory (the v11 brief) cite a median of 30 outside passages (12–47).
+     Input size does not predict that reach (ρ −0.03).
    - Two identical context-only runs share only about 60% of their citations, so the famous 8-against-5 anchor gap
      is within noise.
    - Reasoning volume really does collapse, but only for very large packages (≈150–400k tokens: 45k → 9k thinking
      tokens).
    - Below that, what hurts is stance: verdict-carrying inputs, audit instructions, must-land lists.
 3. **The model already knows a lot; data is needed in a few specific places.**
-   - Context-only Opus recalls Quran references, famous lexical images, small famous concordances (all runs cite the
-     ḥamaʾ creation passages), grammar, Turkish drift and cross-surah parallels. It even quoted seven dictionary
-     phrases it never saw.
+   - Context-only Opus recalls Quran references, famous lexical images with real early phrases (12 of 14 attested
+     in the six early entries), grammar, Turkish drift and cross-surah parallels.
+   - Its latent-sense recall collapses outside the famous core:
+     - 35% for branch positions B001–B003, but 3% for B004+;
+     - 0 of 60 branches no earlier reader ever activated;
+     - 1 of 56 collocation-bound branches.
    - Only data supplies:
      - rare branches (the sabal eye film, ʿayn as the sun disk, ʿalam as a waymark mountain);
      - counts and dominant roles (nafakha as animating appears only when concordance counts are pushed);
-     - quotable classical phrases;
      - partners that sit in other ayat;
-     - a check on memory, which drifts and goes unmarked.
+     - construction scope;
+     - marking, which memory never does unprompted.
+   - **Correction (Phase 2).** "Every run recalls the ḥamaʾ creation passages" is withdrawn. The shared brief's
+     citation example was literally "(15:26, 15:28, 15:33)".
 
 ## Answers so far (Phase 2 tests them)
 
