@@ -101,7 +101,8 @@ CLAUDE.md, memory, skills or hooks reach them.
 - Every call is logged in `out/ledger.jsonl`.
 - An Opus call starts only when its estimate is below $5, and an ayah's calls stay within $5 (tests). Once
   started, a call runs to the end, whatever it then costs. Estimates come from the ledger (the dearest earlier call
-  of the same step, scaled by prompt size), with uncalibrated defaults in `config.json` until the first runs.
+  of the same step, scaled by prompt size); before a step has history, from list prices in `config.json`
+  (Opus 5.5: $4 in / $20 out per MTok, thinking billed as output) with generous output-token assumptions.
 - Luna runs `gpt-6-luna` at max reasoning, read-only sandbox, ephemeral, skill search off.
 
 ## 6. Parameters (`config.json`)
@@ -134,3 +135,18 @@ Any step takes `--dry` to show the prompt size and command without calling a mod
 Judge by the reader criterion, on named cases and on blind ayat together: similar performance on any ayah must
 be shown, not assumed. The mechanical checks (§4, step 5) run on every output. Comparisons are done directly
 (no comparison agents).
+
+## 9. First run: S1 and 1:6 (2026-09-27)
+
+- **Luna data:** 21 jobs, all ok. Scene tags for S1 plus 120 random branches outside the named cases. About 8% of
+  sampled branches needed a new scene (general or abstract ones), so the inventory is not S1-shaped. The Fatiha
+  scene lines surface the road (9 words, 9 roles), the herd (6 words) and the well (4 words, 4 roles) mechanically.
+- **Window reading S1:** $0.93, 303 s. 7 images, all grown from existing chains; 19 chains set aside with reasons.
+  The traveller's road and the herd match the North Star. **Miss:** the water/well image was set aside as "no
+  neighbouring word activates". Next windows should state that a coalition of the surah's words is itself an
+  activation.
+- **1:6:** ayah reading $0.60 (22 findings, 5 lead), Luna evidence (annotations only, no contradictions),
+  commentary $0.39 (716 words, 19/19 quotations sourced). About $1.13 per ayah including its share of the window.
+- **Judged against the North Star:** ground, Turkish losses, contained and connected latent readings, progressive
+  disclosure, light Quran parallels and checkable sources are all met. Blind ayat are still needed to show that
+  quality holds beyond the named cases.

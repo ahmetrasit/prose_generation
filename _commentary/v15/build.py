@@ -426,24 +426,40 @@ def scene_members(refs):
     return members
 
 
-def scene_lines(refs, focus_refs=None, min_words=2):
+def scene_lines(refs, focus_refs=None, min_words=2, compact=False, beyond=None):
+    """One line per scene: the words of `refs` whose branches belong to it, with their roles.
+    focus_refs: keep only scenes touching these ayat. compact: branch ids only for the focus words,
+    other words as surface, ref and role. beyond: skip scenes whose words all lie in these ayat
+    (already shown in a neighbourhood section)."""
     focus = {wd['ref'] for r in (focus_refs or []) for wd in ayah_words(r)}
+    shown = {wd['ref'] for r in (beyond or []) for wd in ayah_words(r)}
     lines = []
     for frame, ms in scene_members(refs).items():
         ws = {m[0] for m in ms}
-        if len(ws) < min_words or (focus and not ws & focus):
+        if len(ws) < min_words or (focus and not ws & focus) or (beyond is not None and ws <= shown):
             continue
         roles = {m[4] for m in ms}
         byw = defaultdict(list)
         for m in ms:
-            byw[(m[0], m[1])].append(f"{m[2]}{'~alt' if m[5] else ''} {m[3]} {m[4]}")
-        parts = [f"{w[1]} {w[0]}: " + ', '.join(dict.fromkeys(v)) for w, v in
-                 sorted(byw.items(), key=lambda x: [int(p) for p in x[0][0].split(':')])]
+            byw[(m[0], m[1])].append(m)
+        order = sorted(byw.items(), key=lambda x: [int(p) for p in x[0][0].split(':')])
+
+        def full(w, v):
+            return f"{w[1]} {w[0]}: " + ', '.join(dict.fromkeys(f"{m[2]}{'~alt' if m[5] else ''} {m[3]} {m[4]}" for m in v))
         label = frame
         if frame.startswith('new.') and frame in lib.new_frames():
             label += f" ({lib.new_frames()[frame]['scene']})"
-        lines.append((len(ws), len(roles), frame, f"- {label} [{len(ws)} words, {len(roles)} roles] " + ' · '.join(parts)))
-    lines.sort(key=lambda x: (-x[0], -x[1], x[2]))
+        head = f"- {label} [{len(ws)} words, {len(roles)} roles] "
+        if compact and focus:
+            here = [full(w, v) for w, v in order if w[0] in focus]
+            others = [f"{w[1]} {w[0]} " + ', '.join(dict.fromkeys(m[4] for m in v)) for w, v in order if w[0] not in focus]
+            text = head + 'here: ' + ' · '.join(here) + (' | with: ' + ' · '.join(others) if others else '')
+        else:
+            text = head + ' · '.join(full(w, v) for w, v in order)
+        lines.append((len(ws), len(roles), frame, text))
+    # order only (nothing is dropped): concrete scenes first, those where many words fill many
+    # different roles leading; abstract scenes (moral.*, divine.*) mostly restate the plain sense, so last
+    lines.sort(key=lambda x: (x[2].split('.')[0] in ('moral', 'divine'), -min(x[0], x[1]), -x[0], x[2]))
     return [x[3] for x in lines]
 
 
@@ -549,7 +565,11 @@ def loanword_block(ref):
         for root, lemma, alt, _ in word_roots(wd):
             c = cards.get(f'{root}|{lemma}')
             if c and c.get('loanwords'):
-                out.append(f"- {lemma} ({root}): " + json.dumps(c['loanwords'], ensure_ascii=False))
+                for lw in c['loanwords']:
+                    keeps = '; '.join(f"{k['branch']} {k['note']}" for k in lw.get('arabic_keeps', []))
+                    out.append(f"- {lemma} ({root}) → {lw['word']}: today {' / '.join(lw.get('modern_senses', []))}. "
+                               f"Reader hears: {lw.get('reader_hears', '')} Drift: {lw.get('drift', '')} "
+                               f"Arabic keeps: {keeps}" + (f" False friend: {lw['false_friend']}" if lw.get('false_friend') else ''))
     return '\n'.join(dict.fromkeys(out))
 
 
@@ -645,13 +665,13 @@ def build_ayah(s, a):
     ref = f'{s}:{a}'
     lo, hi = lib.local_range(s, a)
     local = [f'{s}:{x}' for x in range(lo, hi + 1)]
-    wide = [l for l in scene_lines(lib.refs_of_surah(s), focus_refs=[ref], min_words=3)]
+    wide = scene_lines(lib.refs_of_surah(s), focus_refs=[ref], min_words=3, compact=True, beyond=local)
     parts = [f"# Ayah {ref}\n",
              section(f'The ayah in its neighbourhood ({s}:{lo}–{hi})', text_block(s, lo, hi, focus=a)),
              section('Its words (ref surface | root | lemma | pos)', words_block([ref])),
              section('Dictionary for its roots (branch | image | definition | tr: Turkish gloss)', dictionary_block([ref])),
-             section('Scene lines touching its words, in the neighbourhood', '\n'.join(scene_lines(local, focus_refs=[ref])) or '(none)'),
-             section('Scene lines touching its words, across the surah', '\n'.join(wide)),
+             section('Scene lines touching its words, in the neighbourhood', '\n'.join(scene_lines(local, focus_refs=[ref], compact=True)) or '(none)'),
+             section('Scene lines touching its words that reach beyond the neighbourhood', '\n'.join(wide)),
              section('Plan from the window reading', plan_block(s, a)),
              section('Concordance for its lemmas', concordance_block(ref)),
              section('Variant readings', qiraat_block([ref])),

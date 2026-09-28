@@ -13,7 +13,7 @@ Rules kept here, not by habit:
 - agents run from a fresh temp directory in safe mode (no CLAUDE.md, memory, skills or hooks)
   and may read only v15/data.
 
-  luna frames|loanwords|profiles [--limit N] [--parallel P]   pending Luna jobs under data/<kind>/jobs
+  luna frames|loanwords|profiles [--limit N] [--parallel P] [--only JOB]   pending Luna jobs under data/<kind>/jobs
   window --surah S [--ayah A]      Opus window reading      -> out/sNNN/window_lo-hi/window.json
   discover --ref S:A               Opus ayah reading        -> out/sNNN/S_A/record.json
   evidence --ref S:A               Luna evidence notes      -> out/sNNN/S_A/evidence.json
@@ -81,8 +81,13 @@ def estimate(step, chars):
     config defaults until the ledger has a reported cost for the step."""
     hist = [e for e in ledger() if e.get('step') == step and e.get('cost_usd') and e.get('prompt_chars')]
     if not hist:
-        ref = CFG['estimates_reference_chars'][step]
-        return CFG['estimates_usd'][step] * max(1.0, chars / ref), 'default, scaled by prompt size'
+        p, m = CFG['pricing'], CFG['estimate_model']
+        tokens_in = chars / m['chars_per_token'] + m['cli_overhead_tokens']
+        usd = (tokens_in * p['opus_in_per_mtok'] * p['cache_write_multiplier']
+               + m['tool_rounds'][step] * tokens_in * p['opus_cache_read_per_mtok']
+               + m['expected_output_tokens'][step] * p['opus_out_per_mtok']) / 1e6
+        return usd, 'price-based default'
+
     worst = max(hist, key=lambda e: e['cost_usd'])
     return worst['cost_usd'] * max(1.0, chars / worst['prompt_chars']), f'ledger ({len(hist)} runs)'
 
@@ -251,9 +256,11 @@ def call_luna(unit, text, out_path, schema, ayah=None, dry=False, repair=False):
 
 # ------------------------------------------------------------------ steps
 
-def luna_jobs(kind, limit=None, parallel=1, dry=False, repair=False):
+def luna_jobs(kind, limit=None, parallel=1, dry=False, repair=False, only=None):
     jobs = []
     for jp in sorted(glob.glob(os.path.join(DATA, kind, 'jobs', '*', 'job.json'))):
+        if only and os.path.basename(os.path.dirname(jp)) != only:
+            continue
         job = lib.read_json(jp)
         out = os.path.join(lib.HERE, job['out'])
         if os.path.exists(out):
@@ -366,9 +373,10 @@ def main():
     ap.add_argument('--parallel', type=int, default=1)
     ap.add_argument('--dry', action='store_true')
     ap.add_argument('--repair', action='store_true')
+    ap.add_argument('--only', help='luna: run just this job id')
     x = ap.parse_args()
     if x.cmd == 'luna':
-        luna_jobs(x.kind, x.limit, x.parallel, x.dry, x.repair)
+        luna_jobs(x.kind, x.limit, x.parallel, x.dry, x.repair, x.only)
     elif x.cmd == 'window':
         step_window(x.surah, x.ayah, x.dry, x.repair)
     elif x.cmd == 'discover':

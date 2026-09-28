@@ -284,12 +284,26 @@ def _jsonl_items(pattern):
 
 
 @lru_cache(maxsize=1)
+def inventory_ids():
+    return {f['id'] for f in read_json(os.path.join(DATA, 'frames_inventory.json'))['frames']}
+
+
+def normalize_frame(fid):
+    """Map a slipped id (e.g. weather.rain_cloud) to the inventory id with the same name, if unique."""
+    inv = inventory_ids()
+    if fid in inv or fid.startswith('new.'):
+        return fid
+    same = [i for i in inv if i.split('.', 1)[1] == fid.split('.', 1)[-1]]
+    return same[0] if len(same) == 1 else fid
+
+
+@lru_cache(maxsize=1)
 def frames():
     """'root Bnnn' -> list of (frame, role). From Luna frame jobs under data/frames/out/."""
     out = defaultdict(list)
     for it in _jsonl_items(os.path.join(DATA, 'frames', 'out', '*.json')):
         for fr in it.get('frames', []):
-            out[it['key']].append((fr['frame'], fr['role']))
+            out[it['key']].append((normalize_frame(fr['frame']), fr['role']))
     return out
 
 

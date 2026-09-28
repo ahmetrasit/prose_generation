@@ -54,18 +54,28 @@
     "_comment": "Opus only: a call starts only when its estimate is below usd_per_call, and an ayah's calls stay within usd_per_ayah (tests). Never retried; once started it runs to the end. Luna runs on the flat Codex subscription and reports tokens, not dollars, so it is not gated."
   },
   "timeout_s": 5400,
-  "estimates_usd": {
-    "window": 4.0,
-    "discover": 3.0,
-    "write": 1.5,
-    "surah": 3.0,
-    "_comment": "Uncalibrated defaults, used until the ledger has a reported cost for the step; then the dearest earlier call of the step, scaled by prompt size."
+  "pricing": {
+    "opus_in_per_mtok": 4.0,
+    "opus_out_per_mtok": 20.0,
+    "opus_cache_read_per_mtok": 0.2,
+    "cache_write_multiplier": 1.25,
+    "_source": "claude-api skill model table (claude-opus-5-5: $4 in / $20 out per MTok, cache reads $0.20); thinking is billed as output"
   },
-  "estimates_reference_chars": {
-    "window": 45000,
-    "discover": 25000,
-    "write": 30000,
-    "surah": 45000,
-    "_comment": "Default estimates assume a prompt of this size and scale up linearly above it."
+  "estimate_model": {
+    "chars_per_token": 2.5,
+    "cli_overhead_tokens": 15000,
+    "tool_rounds": {
+      "window": 6,
+      "discover": 6,
+      "write": 0,
+      "surah": 0
+    },
+    "expected_output_tokens": {
+      "window": 100000,
+      "discover": 60000,
+      "write": 20000,
+      "surah": 60000
+    },
+    "_comment": "Used until the ledger has a reported cost for the step (then: the dearest earlier call of the step, scaled by prompt size). Deliberately generous on output/thinking tokens."
   }
 }
