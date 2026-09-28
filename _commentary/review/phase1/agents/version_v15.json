@@ -1,0 +1,393 @@
+{
+ "scope": "v15 of the commentary workflow. Root: /Volumes/OZTURK/_projects/prose_generation/_commentary/v15. Files covered: DESIGN.md, STATUS.md, SUMMARY.md, config.json, build.py, run.py, check.py, lib.py, prompts/ (8), schemas/ (6), data/ (scene inventory frames_inventory.json, 193 Luna frame outputs, 4 loanword and 39 profile outputs, the gitignored base tables, entries, kwic and scenes), work/ packets (s001, s004, s005, plus a dry 29:45 packet), out/ and out-nocap/ with both ledger.jsonl files and every raw.json usage record. Reference arm for comparison: _commentary/v9/lines/work/{4_34,5_6}/synth/w10-opus-cold. Everything here is read-only. My scripts are in /private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase1/v15/: frames_stats.py, parallels.py and bykey.json. Other checks ran inline: ledger and token decomposition, citation tracing, the fused-rank check on quran-slm, and check.py record/window with PYTHONDONTWRITEBYTECODE=1 (those only print). I did not compare prose quality across versions. What I measured mechanically: word counts, cited references, quotation sources, and where each piece of material came from.",
+ "timeline": "Everything comes from git log -- _commentary/v15 and the commit messages. v15 was built in about 15.5 hours, from 2026-09-27 21:19 to 2026-09-28 12:43.\n- 2026-09-27 21:19, ee6b2da81 \"from-scratch workflow (not yet run)\". The prose had a 700-word target and an 1,100-word cap, and images per ayah were capped. The motive is recorded in DESIGN.md line 3: \"Written 2026-09-27, from scratch: from NORTH_STAR.md and the raw inputs listed in AVAILABLE_INPUTS.md. No earlier workflow was consulted\". This matches the user's memory rule \"From scratch, no runbooks\". v14 ran at the same time and is not v15's baseline; v14/HANDOFF.md:25 says \"Leave v15 work alone.\"\n- 21:21, be1bbf07d. The gate now works on pre-call estimates.\n- 22:01, 08ec4db6b \"fixes from Sonnet review + dictionary union\". The chain map moved from \"a missing-chain check after your own reading\" to \"your starting point\" (git diff of prompts/opus_window.md). The window prompt lost \"Do not prune early … No plausibility filter\". 819 branches found only in the Turkish dictionary were added, and the coverage sample was set to 120 random branches. The Sonnet review itself is not saved in any file.\n- 22:48, f0bd207aa, first run. S1 Luna data (21 jobs), the S1 window ($0.93) and 1:6 ($1.00 Opus). The commit records: \"Window set aside the water/well image (coalition not counted as activation)\".\n- 23:12, e8d412382. Packets for long surahs (4:34 window 468k to 105k characters). The line \"a coalition of the surah's words is itself an activation\" was added to the window and discover prompts.\n- 2026-09-28 00:06, df4de064c. Fatiha complete (7 ayat and the surah commentary, $8.72).\n- 00:09, 49cfc0acc. Snapshot taken during whole-Quran tagging.\n- 00:53, 720ca46a7. 4:34 and 5:6 run end to end under the caps; whole-Quran tags finished (192 jobs).\n- 01:11, 9a5d8c6c8. Seven branches that the tagging dropped were tagged.\n- 01:14, 40e9a8204. First comparison with the cold arm.\n- 01:55, 91ea7aca4. The user rule \"no caps\"; 4:34 and 5:6 were rerun into out-nocap/.\n- 12:35, 055335033 STATUS.md; 12:43, 3c99fd6bf SUMMARY.md.\nThe ledger (out/ledger.jsonl) shows Luna frame jobs running from 22:05 to 01:00 (about 3 hours at 15 concurrent).",
+ "mechanism": "Stages (DESIGN.md §4; run.py; build.py):\n0. Data, built once.\n   - Scripts (build.py base, about 5 s) build words.tsv (77,430 words), lemmas.tsv (4,657), branches.tsv (19,604 = the Furūq table plus 819 Turkish-only branches, with the Turkish concept gloss) and quran.tsv. Word alignment skips pause marks.\n   - Luna (gpt-6-luna, reasoning max, codex exec, read-only, ephemeral) builds three things:\n     - scene tags: 60 branches per job, 142-scene closed inventory, 193 jobs for the whole Quran;\n     - loanword cards: 25 lemmas per job; only 74 lemmas done (4 jobs);\n     - use profiles: one lemma per job, for lemmas with at least 31 uses; 39 of 295 done.\n1. Window reading: Opus 5.5 effort high, `claude -p`, safe mode, Read/Grep/Glob on v15/data.\n   - Input: window text, the parsed channel-review chain map (invariant, scene, motifs, anchors), words, the dictionary, scene lines, a surah-wide scene digest for long surahs, variants and pull paths. The dictionary has definitions trimmed to 100 characters for windows of up to 40 roots and images only for larger ones.\n   - Output: window.json with images (members = ref + root + branch + role), concepts, movement, a per-ayah plan (opens / advances / completes), chains set aside with reasons, and other activations.\n   - Windows are a whole surah of up to 40 ayat, otherwise a network-v3 pericope.\n2. Ayah reading: Opus high, same tools.\n   - Input: ±7 ayat of text, words, the dictionary (with ~alt alternatives from documented analyses and qirāʾāt letter exchanges), scene lines in the neighbourhood and beyond, this ayah's plan entry, concordance (every use for lemmas with up to 30 uses, else a Luna profile), variants and loanword cards.\n   - Output: record.json with ground, findings (kind, one anchor branch, triggers, containment statement, perceptible, image, memory flag, for_prose = lead / support / record), loaded words, losses, grammar, variants, reread, disclosed and set aside.\n3. Evidence: Luna max.\n   - Input: the record's findings, the cited anchor branches with their classical phrases, concordance, the earlier GPT inter-ayah list (strong or medium only), and search access.\n   - Output: evidence.json with attestation, trigger, QeQ relations (supports / expands / shifts / contradicts) and missing passages. It annotates and never deletes.\n4. Write: Opus high, no tools.\n   - Input: the ayah, ±2 neighbours, the plan, the full record JSON, the full evidence JSON and the Turkish glosses of cited branches.\n   - Output: commentary.tr.md with {{ar:…}} quotations.\n5. Checks (check.py): anchors exist, trigger refs exist, a regex for \"not X but Y\" wording, and sources for Arabic quotations. The resolver tries, in order: ayah/window words, cited branches, the whole Quran, the ayah's roots, full classical entries, then the first occurrence of a single word. It writes commentary.tagged.tr.md.\n6. Surah commentary: Opus high, no tools.\n   - Input: surah text, window JSON, and per ayah the ground, the reread and only the lead and support findings. Record-level findings are excluded (build.py build_surah).\nRules in code (run.py):\n- no reruns, one --repair;\n- a gate of $5 per call and $5 per ayah, estimated from the ledger;\n- every call logged;\n- V15_OUT points at a variant folder (used for out-nocap).\nPrompt sizes, in characters (out*/…/*.prompt.md):\n| Step | Fatiha | 4:34 and 5:6 |\n|---|---|---|\n| window | 58,888 | 117,977–124,353 |\n| ayah reading | 17,289–39,833 | 133,538–158,351 |\n| write | 37,811–70,317 | 92,469–101,615 |\n| surah | 66,153 | — |\n| Luna evidence packets (work/) | 39–77k | 84–87k |\nComposition of the uncapped 5:6 reading prompt (158k characters):\n- instructions about 6k (4%);\n- dictionary 32k (20%);\n- scene lines 29k + 23k = 52k (33%);\n- concordance 27k (17%);\n- loanword cards 22k (14%);\n- plan 12k (8%);\n- text 4.4k.\nHandoffs: window.json goes to plan_block in the reading packet. record.json is embedded whole in the evidence and write packets. evidence.json is embedded whole in the write packet. Chains the window set aside are not handed to the ayah reading, and record-level findings are not handed to the surah step.",
+ "inputs_pushed": [
+  "Window reading (build.py build_window): window text (quran-uthmani.tsv).",
+  "Window reading: the channel-review chain map from quran-data/…/network-v3/sNNN/review/reader_a_pilot.md, parsed into invariant, scene, motifs (root:Bnnn) and places, and scoped to the window for long surahs (channel_index).",
+  "Window reading: words with root, lemma and POS (qac_root_ayah.tsv); the dictionary (furuq_full_branches_ar.tsv plus Turkish entries), trimmed to 100 characters or images only above 40 roots; scene lines from the Luna scene index (capped to 60 lines and 6 members for long windows).",
+  "Window reading: a surah-wide scene digest (long surahs only: 30 lines, 4 far words each); qirāʾāt variants (study/_project_corpus/qiraat.tsv); pull paths.",
+  "Ayah reading (build_ayah): ±7 ayat of text; words; the dictionary for the ayah's roots, plus ~alt roots from qac-dictionary-word-root-analyses.json and qirāʾāt letter exchanges.",
+  "Ayah reading: scene lines in the neighbourhood (40 lines, 6 members) and a far-scene digest (25 lines, 4 far words); the plan entry and window movement.",
+  "Ayah reading: concordance as KWIC ±3 words for lemmas with up to 30 uses, else a compact Luna profile (dominant role, groups, the first 5 outside uses, collocates); variants; Turkish loanword cards (Luna).",
+  "Evidence (build_evidence): ayah, words, findings JSON, the cited anchor branches with the full source_phrase_ar (classical phrases), concordance, the inter-ayah focus list (quran-data/data/analysis/inter-ayah/focus_S_A_cutoff_100.tsv, strong and medium only) with target ayah text.",
+  "Write (build_write): ayah, ±2 neighbours, plan, full record JSON, full evidence JSON, the Turkish concept gloss of each cited branch.",
+  "Surah (build_surah): surah text, full window JSON(s), and per ayah the ground, the reread and the lead and support finding statements with their root and branch.",
+  "Luna frames jobs: branch image, definition, source phrase (320 characters), Qnet core keywords as hints (quran-roots/…/branch_keywords.tsv), the scene inventory.",
+  "Luna loanword jobs: lemma plus the root's branches with Turkish gloss (160 characters). Luna profile jobs: every use as KWIC ±6 words (an even sample of 400 above that)."
+ ],
+ "inputs_pulled_or_optional": [
+  "data/entries/<root>.md: the full classical entry texts from dictionary/data/output/root_packets entry_text_clean (590 files built for S1, S4 and S5).",
+  "data/kwic/: every use of each frequent lemma (272 files).",
+  "data/branches.tsv: the whole dictionary, including source phrases, which the reading packets do not carry. Long windows tell the agent to Grep it for definitions.",
+  "data/scenes/sNNN/<scene>.md: full member lists for every scene line that was capped (485 files, for s001, s004 and s005).",
+  "data/quran.tsv, words.tsv, lemmas.tsv: for searching (Opus and Luna).",
+  "data/profiles/out/: the full use profiles (packets show only the first 5 outside uses).",
+  "Evidence that pulling happened: Opus discover calls took 2–10 turns, with up to 593k cache-read tokens (out-nocap/s004/4_34/record.json.raw.json). Luna evidence read up to 708k input tokens (5:6 uncapped, ledger). Which files were read is unknown, because tool calls are not logged."
+ ],
+ "available_but_unused": [
+  "Word-analysis prose (quran-data word-analysis sNNN.jsonl.zst). Excluded on purpose: DESIGN §2 says it \"carries must_integrate obligations: a worklist in disguise\".",
+  "HFT / Focus Trace and the v12 ayah walks and cross-run findings. Excluded on purpose as earlier readers' hypotheses (DESIGN §2). The ultimate-goal text names the v12 cross-run findings as a desired source.",
+  "Bundles (about 0.8 MB per ayah), the grammar translation-support table, attachments, clauses and referents (DESIGN §2: \"Opus reads the Arabic\").",
+  "quran-slm distance matrices and embeddings. Rejected in DESIGN §2 (\"Similarity is not scene … The matrices are not used\"). My check finds they do rank several Fatiha scene partners first (see Q5 lessons).",
+  "Reciprocal inter-ayah lists (quran-data/…/inter-ayah/reciprocal/). The North Star recommends them as a final missing-passage check; v15 uses only the focus_*_cutoff_100 lists, in the evidence step.",
+  "Grammar contextual profiles (quran-data/data/grammar/contextual/*_v2.tsv: role, valency, collocation, referent). They overlap Luna's use profiles and collocates and cover the whole Quran, but were not used.",
+  "Gloss-generation records with losses, additions and collisions (dictionary/v2/gloss_generation/results/tr). DESIGN §2 judges they carry no loanword drift.",
+  "The full QAC morphology features (qac.sqlite.gz: measure, mood, voice, state). Only root, lemma and POS are used.",
+  "Root dossiers (root-dossier/out/final, 123 roots); Hebrew Bible; all earlier prose.",
+  "Modern-Turkish dictionaries were not supplied. In one loanword job Luna fetched sozluk.gov.tr and islamansiklopedisi.org.tr on its own (URLs in data/loanwords/out/loan_57608f9c9b.json)."
+ ],
+ "models_and_cost": "Models (config.json):\n- Opus claude-opus-5-5, effort high, through `claude -p` (safe mode, --no-session-persistence).\n- Luna gpt-6-luna, model_reasoning_effort max, through `codex exec` (read-only, ephemeral, skill search off), 15 concurrent.\nOpus, from the two ledgers and every raw.json usage record:\n- 28 calls, $23.86 (out/: 22 calls $15.95; out-nocap/: 6 calls $7.91). STATUS.md and SUMMARY.md say \"30 Opus calls\"; the ledgers hold 28 Opus rows.\n- The reported costs fit exactly: output $20/MTok, cache write $8/MTok (the 1-hour cache at 2x), cache read $0.20/MTok. config.json assumes a 1.25x cache-write multiplier.\n- Split: output $11.75 (49%), cache writes $11.43 (48%), cache reads $0.67.\nPer step:\n| Step | Fatiha | Long surahs |\n|---|---|---|\n| window | $0.93 (303 s) | $1.61–1.74 (331–400 s) |\n| discover | $0.31–0.84 | $1.27–1.53 |\n| write | $0.26–0.45 | $0.53–0.61 capped; $0.85–0.88 uncapped (27k output tokens) |\n| surah | $1.12 (45.5k output tokens) | — |\nPer ayah:\n- Fatiha: $8.74 / 7 = $1.25, including the window and surah commentary.\n- 1:6: $1.13 including its window share (DESIGN §9).\n- 4:34 uncapped: $2.41 plus $1.74/17 window share, about $2.51.\n- 5:6 uncapped: $2.12 plus $1.64/11, about $2.27.\nLuna (247 calls, ledger usage; dollar cost unknown because it runs on the subscription):\n| Job | Calls | Input tokens | Output tokens | Other |\n|---|---|---|---|---|\n| frames | 193 | 5.58M | 2.44M | about 262 s each |\n| profiles | 39 | 0.95M | 0.49M | |\n| loanwords | 4 | 0.74M | 0.09M | |\n| evidence | 11 | 1.89M | 0.29M | 357–835 s each; up to 708k input for uncapped 5:6 |\nWall time per ayah: reading 2–5 min, Luna evidence 6–14 min, writing 1–4 min (STATUS §1, consistent with the ledger seconds).\nReference (v9 run.log.json): the cold arm cost $1.58 for 4:34 (46k input, 60k output tokens, one call) and $1.36 for 5:6.\nProjection (STATUS §3): about $14k for the whole Quran at CLI rates. 83% of ayat are in long surahs. No Batch API and no cached shared prefix are used.",
+ "ayat_run": [
+  "S1 window 1:1–7 (capped-era prompt, run before the coalition line was added)",
+  "1:1, 1:2, 1:3, 1:4, 1:5, 1:6, 1:7: record, Luna evidence, commentary (under the caps)",
+  "S1 surah commentary (3,453 words by DESIGN; my wc gives 3,501)",
+  "Window 4:19–35 twice (out/ capped, out-nocap/)",
+  "4:34 twice (capped 1,042 words; uncapped 1,893)",
+  "Window 5:1–11 twice",
+  "5:6 twice (capped 845 words; uncapped 1,658)",
+  "Dry packets only, never run: 29:45 (window 29:45–56, built 2026-09-27 21:10 before whole-Quran tags)",
+  "Luna scene tags for the whole Quran: 11,372 branch keys, 11,425 items including 53 duplicate keys; loanword cards and profiles only for the lemmas of S1, 4:34 and 5:6"
+ ],
+ "north_star_scorecard": [
+  {
+   "id": "NS1",
+   "rating": "strong",
+   "evidence": "The discover prompt requires 'ground' and the write prompt 'Begin on the ground'. All 11 records have a ground field. out/s001/1_6/commentary.tr.md line 1 and out-nocap/s005/5_6/commentary.tr.md line 1 open with the plain sense. DESIGN §10 records 4:34 keeping the plain sense \"(including the blow)\". In 4:34 the prose kept the primary sense (\"Düz anlamda söz konusu olan erkeklere verilen fazlalıktır. Yine de ayet bunu … kurar\") where record F5 had phrased it as 'not men over women'."
+  },
+  {
+   "id": "NS2",
+   "rating": "strong",
+   "evidence": "Luna loanword cards (data/loanwords/out, 74 lemmas, 66 with loanwords, tied to branch ids). Record 'losses' ran from 5 to 17 per ayah (check.py record output). The prose weaves hidayet/hediye, sırat, müstakim/istikamet (1:6) and abdest/gusül/teyemmüm/taharet (5:6). Recorded verdict (DESIGN §11): \"Where v15 is better: the Turkish-loss layer\". Grammar appears only where it matters (1:6: the verb takes the road without ilā, two readings). Caveats: cards cover 74 of 4,657 lemmas, and they come from Luna's memory; one job fetched TDK and TDV online."
+  },
+  {
+   "id": "NS3",
+   "rating": "partial",
+   "evidence": "Uncapped 5:6 made the North Star example: mirfaq as leaning (quoting ر ف ق B004), kaʿb and the Kaʿba, qumtum and qawwāmīn in 5:8. The qiyāman of 5:97 is missing (STATUS §2). The capped 5:6 record had the full 5:97 qiyām link (record F11 triggers 5:95:0 and 5:97:0), but the writer used only half. My citation count for the same surah: the cold arm has 29 same-surah refs against 14 uncapped for 4:34, and 18 against 6 for 5:6."
+  },
+  {
+   "id": "NS4",
+   "rating": "partial",
+   "evidence": "The channel review is the starting map: 9–10 of every 10–11 window images come from it, and 1 per window is 'new' (check.py window). The plan gives per-ayah disclosure (Fatiha: I1 road opens at 1:6 and completes at 1:7). Misses: the Fatiha water/well image was set aside (window.json chains_set_aside: \"generous scene-map matches that no neighbouring word activates\"). Pericope windows end chains at the boundary (5:97 lies outside 5:1–11). Chains set aside never reach the ayah reading."
+  },
+  {
+   "id": "NS5",
+   "rating": "partial",
+   "evidence": "Records carry 2–11 loaded words, taken from concordance and profiles: qawwāmūn elsewhere only in 4:135 and 5:8; ṣāliḥāt as deeds in 59 of 62 uses; ṣirāṭ as a route in 40 of 45 (profiles). Profiles exist for only 39 of 295 frequent lemmas. Luna cut the 'outside' list short at 20 in 19 of 39 profiles (e.g. سبيل should list 78 and lists 20)."
+  },
+  {
+   "id": "NS6",
+   "rating": "partial",
+   "evidence": "QeQ comes after the latent reading, in a separate evidential Luna step. It gives 718 relations (302 supports, 299 expands, 117 shifts, 0 contradicts) and 112 missing passages across 11 ayat. The writer left out 4:129–130, which Luna had flagged (STATUS §2). The Fatiha surah commentary refers to parallels without references (\"Kur'an'ın başka bir yerinde …\", 4 matches in out/s001/surah.tr.md). Luna never marked a contradiction."
+  },
+  {
+   "id": "NS7",
+   "rating": "partial",
+   "evidence": "Surprises the dictionary backs: the husband's nushūz defined as harshness and beating (4:34), mirfaq as leaning, sirāṭ as the road that swallows its walker (through the س ر ط qirāʾa), the herd with its stray whose rabb is unknown (Fatiha). Integration shows as 4–8 concept findings per record and 10–13 window concepts. But the Fatiha water system was never assembled. Its fragments sit in five ayah records as 'record' or set aside: 1:1 F12 wasmī first rain, 1:2 F29 ʿaylam deep well, 1:3 F9 rain, 1:4 mulūk waters set aside, 1:6 F18 still water."
+  },
+  {
+   "id": "NS8",
+   "rating": "partial",
+   "evidence": "One Opus mind per unit, and the discover prompt says \"Do not prune early … No plausibility filter\". But the window step prunes chains by payoff before any coalition forms: the Fatiha well was set aside, and the coalition line was added only afterwards (e8d412382). The window prompt lost \"No plausibility filter\" in 08ec4db6b. Chains set aside are not passed to later steps, and record-level findings are cut from the surah packet (build.py build_surah keeps only lead and support), so fragments across ayat cannot mature."
+  },
+  {
+   "id": "NS9",
+   "rating": "strong",
+   "evidence": "Every prompt forbids 'not X but Y'. The check.py regex flags few statements (1:2 F8, 1:7 F19, 4:34 F18, 5:6 uncapped F13/F24/F35). Record 4:34 F5 slipped (\"says 'some of them over some' … not 'men over women'\") and the regex missed it, but the prose restored the primary sense. No recorded verdict ranks readings."
+  },
+  {
+   "id": "NS10",
+   "rating": "strong",
+   "evidence": "All ayah commentaries have every {{ar:}} quotation resolved: 49/49 and 44/44 uncapped, 19/19 for 1:6. My classification of the tagged files: neighbourhood words and phrases, branch keys and classical entries; in ayah commentaries nothing fell back to a first occurrence elsewhere. Records keep an anchor branch, triggers and memory flags (14 of 284 findings flagged memory). The cold arm's stdout recorded \"Arabic/prose problems 50\". Caveats: the 11 roots with two dictionary entries make 'root Bnnn' ambiguous (53 colliding keys). Invalid trigger refs such as 5:95:0 and 4:15:24 appear in three records, while STATUS says 'every anchor was valid'. Dictionary claims written in Turkish carry no inline source. Each finding has a single anchor, even when its statement cites several branches."
+  },
+  {
+   "id": "NS11",
+   "rating": "partial",
+   "evidence": "Records keep set_aside lists (104 in total) and windows keep chains_set_aside (65) and other_activations (62). Luna annotates and never deletes. Losses: window set-asides are not handed forward; record-level findings are excluded from the surah step; Luna silently cut profile 'outside' lists to 20; 35 branches came back with no scene and 7 were not returned until the --missing job. In the capped 5:6, Luna noted the 5:97 link \"does not establish an etymological link\" and the writer then dropped half of it. No invented sources were found by the resolver."
+  },
+  {
+   "id": "NS12",
+   "rating": "partial",
+   "evidence": "One surah commentary, Fatiha, written under the caps: 3,501 words by wc. It is organised ayah by ayah (headings follow the ayat) and ends with 'Sure yeniden okunduğunda'. It links herd and road (\"Sürünün önünde giden hayvan, altıncı ayetteki rehberle aynı kökten\"). The water image is absent, and all 26 quotations are Quran words, none from the dictionary. STATUS §3 lists 'A surah commentary for a long surah' as not yet shown."
+  },
+  {
+   "id": "NS13",
+   "rating": "partial",
+   "evidence": "Luna does only non-synthesis steps (tags, cards, profiles, evidence), as the North Star asks. Cost is $1.25 per ayah for Fatiha and $2.3–2.5 for long surahs uncapped, against a $1 aim. There is no Batch API and no shared cached prefix (run.py uses claude -p). 48% of the Opus spend ($11.43 of $23.86) is 1-hour cache writes at $8/MTok on prompts used once. The whole-Quran projection is about $14k (STATUS §3). The cold arm cost $1.36–1.58 per ayah in one call."
+  }
+ ],
+ "improvements": [
+  {
+   "claim": "Without caps, v15 roughly matches the cold arm's depth and keeps sourcing, dictionary-backed surprises and the Turkish layer, at 55–70% of the length.",
+   "evidence": "DESIGN.md §12 verdict and table: 4:34 1,893 words (49/49 sourced) against 3,211; 5:6 1,658 (44/44) against 2,382. This is the author's own judgement against the North Star; no reader has judged it (STATUS §3).",
+   "over": "the cold arm (v9 w10-opus-cold) and v15 capped"
+  },
+  {
+   "claim": "Removing the output caps doubled the prose and brought in surah links and the North Star's 5:6 example, while the readings behind the prose barely changed.",
+   "evidence": "STATUS §2 runs 1: 4:34 up 82%, 5:6 up 96%; 31–36 findings with 11–13 leads in both runs (check.py record: capped 33/34 findings, uncapped 31/36). My citation count: 4:34 went from 12 to 22 refs, 5:6 from 8 to 18–19 (including named refs).",
+   "over": "v15 capped"
+  },
+  {
+   "claim": "Checkable sourcing: every Arabic quotation resolves mechanically to an ayah word, a branch or a classical entry.",
+   "evidence": "check.py prose output in the tagged files. The cold arm's stdout.txt records \"60 Arabic tags; Arabic/prose problems 50\".",
+   "over": "the cold arm"
+  },
+  {
+   "claim": "A Turkish-loss layer with its own data source (Luna loanword cards tied to branch ids), where none existed before.",
+   "evidence": "DESIGN §2: \"Turkish losses have no source … Loanword drift is recorded nowhere\"; data/loanwords/out (74 lemmas); DESIGN §11 \"Where v15 is better: the Turkish-loss layer\".",
+   "over": "all earlier inputs (per DESIGN)"
+  },
+  {
+   "claim": "One generic process for any ayah, with a record behind the prose, gates in code and no failed calls.",
+   "evidence": "run.py rules; ledgers: all 275 rows status ok, zero failed and zero repairs.",
+   "over": "hand-tuned per-case arms"
+  },
+  {
+   "claim": "A scene index over the whole Quran, built once for about 3 hours of Luna, that surfaces multi-word scenes mechanically.",
+   "evidence": "11,337 of 11,372 branches tagged. The Fatiha scene map lists travel.route (9 words, 9 roles), pastoral.herding (6) and water.well (4 words, 4 roles) (out/s001/window_1-7/window.json.prompt.md). The rate of added scenes was the same in the random sample and the full run (8.3% both, my count).",
+   "over": "similarity matrices (not used)"
+  }
+ ],
+ "regressions": [
+  {
+   "claim": "The cold arm is still richer in same-surah parallels, even without caps.",
+   "evidence": "DESIGN §11 names what the cold arm has: 4:5, 4:36–38, 2:238, 4:81, 4:3, 4:129–130; 5:89, 5:91, 5:11, 35:10. My count of refs cited in the prose: 4:34 cold 35 against uncapped 22 (same surah 29 against 14); 5:6 cold 25 against 18–19 (same surah 18 against 6). The uncapped runs still lack 4:3, 4:81, 4:90, 4:129–130, 5:89, 5:91, 35:10 and 5:97 (STATUS §2).",
+   "cause": "The ayah reading supplies most of what the prose cites, and it gets no list of parallels. Parallels sit buried in concordance lines (5:91 in a profile's outside list, 35:10 in a KWIC line of the 5:6 reading prompt), and windows stop at pericope boundaries."
+  },
+  {
+   "claim": "The water/well image of Fatiha was lost.",
+   "evidence": "out/s001/window_1-7/window.json chains_set_aside: \"Settlement, water and rain-cloud branches are generous scene-map matches that no neighbouring word activates\"; \"Well gear … are material homonyms\". Commit f0bd207aa. The fragments stayed 'record' or set aside in five ayah records. The Fatiha surah commentary mentions rain only through rahmet.",
+   "cause": "The window pruned by payoff before counting coalitions (the prompt fix came later). Ayah readings are atomised, and nothing downstream reassembles record-level fragments."
+  },
+  {
+   "claim": "Run-to-run variance loses readings.",
+   "evidence": "4:90 is present in the capped 4:34 record (F27 trigger) and absent from the uncapped run (STATUS §2 runs 5). The capped 5:6 record F11 has 'the Kaʿba a standing (qiyām) … sharing ق و م with قمتم'; the uncapped record F-kaʿb notes only 'named at 5:95 and 5:97'.",
+   "cause": "Single stochastic readings; no pooling over runs."
+  },
+  {
+   "claim": "The chain map changed from a check after the reading to its starting point. Windows now grow from existing chains and add about one new image each.",
+   "evidence": "Diff of prompts/opus_window.md in 08ec4db6b; check.py window: 7 images with 0 new for S1, 9–10 from the chain map plus 1 new for 4:34 and 5:6.",
+   "cause": "Fix from the Sonnet review to honour 'never rediscover'. Inference: anchoring on a noisy taxonomy may crowd out new images from the scene map."
+  },
+  {
+   "claim": "Cost per ayah rose above the North Star's aim once long surahs and no caps came in.",
+   "evidence": "Ledgers: $1.25 per ayah for Fatiha, against $2.27–2.51 for uncapped 4:34 and 5:6 (writing +$0.27–0.32 per ayah, STATUS §2).",
+   "cause": "Packets of 100–160k characters written to the 1-hour cache at 2x input price, plus 25–42k output tokens per call."
+  },
+  {
+   "claim": "A dictionary union introduced ambiguous branch keys.",
+   "evidence": "branches.tsv has 53 duplicate (root, branch) pairs across 11 roots (ق ر ء, ج ي ء, ش ي ء …). lib.branch_by_key() keeps the last row only, and lib.frames() merges both entries' tags.",
+   "cause": "The Furūq table holds two root entries (root_000090 and root_000091, etc.) each numbered from B001, and v15 keys by 'root Bnnn' rather than source_root_id."
+  }
+ ],
+ "recorded_verdicts": [
+  {
+   "source": "_commentary/v15/DESIGN.md §9",
+   "verdict": "\"Judged against the North Star: ground, Turkish losses, contained and connected latent readings, progressive disclosure, light Quran parallels and checkable sources are all met. Blind ayat are still needed to show that quality holds beyond the named cases.\""
+  },
+  {
+   "source": "_commentary/v15/DESIGN.md §9",
+   "verdict": "\"Miss: the water/well image was set aside as 'no neighbouring word activates'. Next windows should state that a coalition of the surah's words is itself an activation.\""
+  },
+  {
+   "source": "_commentary/v15/DESIGN.md §11",
+   "verdict": "\"Depth: v15 does not beat the cold arm. It shares most core readings in about a third of the length\"; \"Where the cold arm is richer: surah-internal parallels, al-Biqāʿī's naẓm\"; \"Where v15 is better: the Turkish-loss layer, sourcing and checkability, dictionary-only surprises …, brevity, the record behind the prose, and one generic process for every ayah.\""
+  },
+  {
+   "source": "_commentary/v15/DESIGN.md §12",
+   "verdict": "\"Verdict: without caps, v15 roughly matches the cold arm's depth (each has links the other lacks) and keeps its own advantages (sourcing, dictionary-backed surprises, the Turkish layer) at 55-70% of the length.\""
+  },
+  {
+   "source": "_commentary/v15/STATUS.md §2 and §3",
+   "verdict": "\"The caps were why v15 was thin.\" \"Supply is not use.\" \"One run is a noisy measure.\" \"A reader's judgement. Every verdict so far is mine, judged against the North Star.\" Not yet shown: blind ayat, the v5 comparison, the named cases, a long surah commentary, about $1 per ayah."
+  },
+  {
+   "source": "NORTH_STAR.md Economics",
+   "verdict": "\"The workflow is worth running only if it materially exceeds v5 on this reader's criterion.\" STATUS §3 records that this comparison has not been made."
+  },
+  {
+   "source": "_commentary/v9/lines/work/4_34/synth/w10-opus-cold/stdout.txt",
+   "verdict": "\"w10-opus-cold: 3211 words, 35 distinct refs, 60 Arabic tags; Arabic/prose problems 50\"."
+  },
+  {
+   "source": "My verification of the STATUS claims",
+   "verdict": "Confirmed: $23.86 Opus; scene statistics (704 added ids, 587 used once, 494 branches with only an added scene, 35 empty, 8.3% added); 53 key collisions across 11 roots; the dry parallels ranking, which my IDF shared-root script reproduces closely (5:97 #4 vs #6, 5:89 #14, 5:91 #16, 35:10 #11 across the Quran; 4:128 #2, 4:129 #6, 4:19 #19, 4:3 #35 vs #30, 4:90 #47 vs #45, 4:81 #70 vs #72, 4:130 #122 vs #115). Corrected: 28 Opus calls, not 30. 5:91 and 35:10 were in the reading packet (concordance lines) but never used, so this was not a pure supply gap. 'Every anchor valid' holds, but trigger refs are invalid in three records. Cited-passage trace (my extraction): 4:34 has 22 cited (15 from the record, 4 only from evidence, 3 only from the window); 5:6 has 18 (16 record, 2 evidence). STATUS gives 25 and 19; same direction."
+  }
+ ],
+ "failure_modes": [
+  "Supply is not use. The scene map showed the Fatiha well (4 words, 4 roles) and the window set it aside. 5:91 and 35:10 sat in the 5:6 reading packet but reached no output. Luna flagged 4:129–130 and the writer dropped them. The capped 5:6 record carried the 5:97 qiyām link and the writer made only half of it.",
+  "Per-ayah atomisation. One surah image's fragments land in several ayah records as 'record' or set aside (Fatiha water, 5 ayat). The surah step sees only lead and support findings, so no step assembles them.",
+  "Early pruning at the window step. Chains are set aside by payoff before coalitions count (\"no neighbouring word activates\"), and the set-asides are not handed forward.",
+  "Pericope windows cut chains: 5:97 falls outside window 5:1–11; the 29:45 window starts at 45, so 29:39's sābiqīn falls in another window. Only the ±7 ayah neighbourhood spans the boundary.",
+  "Run-to-run variance (4:90; the qiyām link) and no pooling.",
+  "Ambiguous 'root Bnnn' keys for 11 roots (1,007 Quran uses). Wrong image, phrase or gloss is possible through branch_by_key, and scene tags are merged.",
+  "Scattered scene inventory: 704 ad-hoc 'new.*' ids, 587 used by a single branch, near-duplicates (sleep/sleeping, genitals/genitalia, intent/intention), and 494 branches with only an added scene that can never join a coalition. Role labels are free text: 3,770 distinct (scene, role) pairs, with 81% of tags using inventory role names.",
+  "Scene lines are noisy and large. They are 33% of the uncapped 5:6 reading packet. In the 4:34 packet, 4:3 shows up 12 times only through generic far-scene digests (body.limbs 'crooked leg', body.illness 'medicine', war.battle 'spoils').",
+  "Luna self-truncation and low discrimination. Profile 'outside' lists were cut at 20 in 19 of 39 profiles. Attestation is 'partly' for 173 of 284 findings (61%), 16 of them explicitly because only the single anchor branch was supplied. Zero 'contradicts' among 718 QeQ relations.",
+  "Single-anchor schema versus integrated findings. Concept findings cite several branches (e.g. 4:34 F1 B002 + B004), but record.schema allows one anchor, so the evidence step checks one branch.",
+  "Packet defect: the discover dictionary header promises 'tr: Turkish gloss', but root_index_lines is called with tr=False.",
+  "The checks under-report. 'Every anchor valid' is true, but trigger refs such as 5:95:0, 5:97:0, 5:41:0 and 4:15:24 are invalid. The containment regex misses \"… not 'men over women'\" (4:34 F5).",
+  "Cost structure: the CLI's 1-hour cache writes at 2x input price cost as much as all output tokens, on prompts used once (write and surah use no tools and could be batched as they are).",
+  "The scene inventory was written by someone who knew the North Star examples, and its roles mirror them: travel.route has waymark, main course and stray; water.well has pulley and beam; pastoral.herding has lead animal, stray and owner; race.horse_race has follower. The 8.3% coverage test cannot detect that leak (DESIGN §3 admits the authorship)."
+ ],
+ "dilution_evidence": [
+  "Helped (instruction removed): dropping the output caps raised prose length by 82–96% and added surah links and the North Star 5:6 example, at +$0.27–0.32 per ayah (STATUS §2 and §4).",
+  "Hurt (data removed, then reverted): an images-only dictionary for frequent roots lost rare senses (STATUS §4, \"so it was reverted: rare senses live in the definitions\").",
+  "Neutral or unknown: the input limits for long surahs made 4:34 and 5:6 runnable, but \"their effect on quality was never isolated\" (STATUS §4).",
+  "Supply without instruction did not help. The scene index surfaced the well, and it was used only after an instruction said what a coalition means; that instruction was never re-tested on Fatiha (STATUS §4).",
+  "Bulk scene material may dilute. It is the largest block of the reading packet (52k of 158k characters for 5:6). Lifting all limits would add 200–216k of far-scene lists per packet (STATUS §4 dry build). Inference: with 4:3 appearing only as generic scene noise, further scene bulk is unlikely to supply parallels.",
+  "The cold arm comparison. One Opus call with about 46k input tokens (context only) cites about twice the same-surah passages (4:34: 29 against 14; 5:6: 18 against 6, my count) for $1.36–1.58. v15 spends $2.3–2.5 on 100–160k-character packets, three Opus steps and a Luna step. This is consistent with the North Star's recorded result that bulk input dilutes synthesis.",
+  "Luna evidence helped a little. It supplied 4 of 22 cited passages in uncapped 4:34 and 2 of 18 in 5:6 (my trace), and it delivered the classical phrase the writer quoted for mirfaq (ر ف ق B004 source phrase: evidence.json 1 hit, reading packet 0). It may also deflate: in capped 5:6 it wrote \"does not establish an etymological link to the ankle bones\", and the writer made the qiyām link only in half.",
+  "Most cited passages come from the ayah reading: 15–16 of 18–22 cited (my trace), and 18 of 25 and 18 of 19 per STATUS. The writer adds nothing that was not upstream (0 cited passages missing from record, evidence and window). So each extra upstream step adds little content."
+ ],
+ "luna_evidence": [
+  "Did well, scene tagging: whole Quran in about 3 hours at 15 concurrent, 193 jobs, all ok. Tags in a random sample of 30 are grounded in the Arabic definitions (e.g. ص ل و B006 'تلو السابق في السباق' tagged race.horse_race/follower; ض ل ل B005 tagged pastoral.herding/stray; ر ف ق B004 tagged posture.leaning/elbow rest).",
+  "Did badly, scene tagging: 35 branches returned with no scene and 7 not returned at all. 704 ad-hoc new scene ids with near-duplicates. Free-text role labels.",
+  "Did well, evidence: caught invalid word positions (\"both cited :0 word positions are invalid; it is at 5:95:26 and 5:97:3\"); flagged 112 missing passages, including 4:129 and 4:130; gave 718 QeQ relations with notes; kept the annotate-only stance (no finding deleted).",
+  "Did badly, evidence: 61% of findings rated 'partly', low discrimination, often penalising any extension beyond the anchor phrase; never marked a contradiction; took 6–14 minutes per ayah with up to 708k input tokens.",
+  "Profiles: descriptive and usable (\"Qualifies a path or route as straight in 34 of 37 uses\"). Luna ignored 'every use' and stopped the outside list at 20 in 19 of 39 profiles; the schemas have no maxItems.",
+  "Loanword cards: plausible Turkish drift tied to branches (sırat as the afterlife bridge, used as a false-friend note; hidayet/hediye/mehdi; kıyam/kıyamet/kavim). One job went online to TDK and TDV without being asked, an uncontrolled source.",
+  "Division of labour confirmed: Luna did every non-synthesis job with zero failures; all synthesis (window, reading, prose) stayed with Opus. No Sol or Astra runs in v15."
+ ],
+ "pretraining_vs_data_evidence": [
+  "Data made the difference: the husband's nushūz as harshness and beating came from the dictionary definition (DESIGN §10: \"the husband's nushuz (4:128) defined by the dictionary as harshness and beating\"; STATUS §2 findings 1).",
+  "Data made the difference: the mirfaq-as-leaning quote came from the classical source phrase (ر ف ق B004: \"المرفق مرفق الإنسان لأنه يستريح في الاتكاء عليه (maqayis)\"), which reached the writer only through the evidence packet. The reading packet carries definitions trimmed to 100 characters and no source phrases.",
+  "Data made the difference: sirāṭ as 'the road that swallows its walker' via the س ر ط reading came from lib.alternative_roots (a qirāʾāt letter exchange), with the dictionary phrase \"طريق يسترط سالكه\" quoted in 1:6. ʿaylam (ع ل م B005, the deep well) is a rare sense surfaced from the dictionary in the 1:2 record.",
+  "Pretraining sufficed: modern Turkish drift in the loanword cards (Luna from memory, except one web lookup); grammar (1:6 ihdinā without ilā; 4:34 qānitāt as a nominal sentence), with the grammar tables deliberately unused (DESIGN §2); the Turkish idiom 'rahmet yağıyor' (1:3).",
+  "Pretraining likely suffices for same-surah parallels when attention allows: the cold arm, with context only and no dictionary, cited 2–3 times more same-surah passages than v15. A simple IDF shared-root ranking also recovers them (my parallels.py), so a list supplied by script is cheap insurance.",
+  "Memory use is marked: 14 of 284 findings carry memory=true (Fatiha 1:7 has 4: blood-feud readings; 4:34 capped had 4, uncapped 2). Luna's evidence notes memory-only parts (4:34 F16: \"the reader and gloss are explicitly recalled from memory\")."
+ ],
+ "reusable_artifacts": [
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v15/data/frames/out/*.json (193 files) + data/frames_inventory.json",
+   "what": "Luna scene tags: each branch gets 1–4 scenes with a role, from a 142-scene / 42-domain inventory plus 704 added ids.",
+   "coverage": "11,337 of 11,372 branches of Quran roots (the whole Quran). 53 keys are ambiguous (11 roots).",
+   "reuse_idea": "Scene co-membership features for script-based discovery and a distance measure (Q5): an ayah-to-ayah scene overlap weighted by scene rarity; weak labels for training a scene classifier. First merge the added ids and re-key the 11 roots by source_root_id."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v15/data/loanwords/out/*.json",
+   "what": "Turkish loanword cards: modern senses, drift, what the reader hears, what the Arabic keeps (branch ids), false friends.",
+   "coverage": "74 lemmas (the lemmas of S1, 4:34 and 5:6) of 4,657. About 184 more jobs for the whole Quran (STATUS §3).",
+   "reuse_idea": "Language-specific layer usable by any workflow. Ground modern senses in TDK instead of Luna's memory."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v15/data/profiles/out/*.json",
+   "what": "Use profiles per lemma: role groups with refs, dominant role with count, outside uses, collocates.",
+   "coverage": "39 of 295 lemmas with at least 31 uses. 'Outside' lists cut at 20 in 19 profiles.",
+   "reuse_idea": "Evidence for loaded words (NS5). Could be checked against or merged with the unused quran-data grammar contextual profiles, which cover the whole Quran."
+  },
+  {
+   "path": "_commentary/v15/build.py (build_base, channel_index, scene_lines/scene_digest, dictionary_block) + lib.py (tokens, alternative_roots, kwic)",
+   "what": "Scripts: QAC-aligned word table (0 mismatches when pause marks are skipped); the network-v3 review parser that resolves internal root ids (68 of 110 reviews had lost their motifs, per 08ec4db6b); alternative roots from qirāʾāt letter exchanges.",
+   "coverage": "Whole Quran. Base tables are rebuilt in about 5 s (gitignored).",
+   "reuse_idea": "A shared data layer for any new method; the channel parser for surah-level synthesis."
+  },
+  {
+   "path": "_commentary/v15/check.py (resolve/tag)",
+   "what": "Resolver that gives each {{ar:}} quotation a source: ayah word, phrase, branch, classical entry, or Quran word.",
+   "coverage": "Any prose.",
+   "reuse_idea": "A post-hoc checkability pass for cold-arm-style outputs (which had 50 tag problems)."
+  },
+  {
+   "path": "_commentary/v15/out*/s00*/**/record.json, evidence.json, window.json (11 records, 11 evidence files, 5 windows)",
+   "what": "Structured readings: 284 findings with anchor, triggers, for_prose labels and memory flags; 104 set-asides; 718 Luna QeQ relations; 112 missing passages; 47 images with members and roles; 65 set-aside chains with reasons.",
+   "coverage": "11 ayat (Fatiha, 4:34, 5:6).",
+   "reuse_idea": "Silver labels to evaluate a parallels retriever or distance measure. Too few to train one (Q2b)."
+  },
+  {
+   "path": "_commentary/v15/out/ledger.jsonl, out-nocap/ledger.jsonl, *.raw.json",
+   "what": "Every call with seconds, cost and token usage.",
+   "coverage": "28 Opus and 247 Luna calls.",
+   "reuse_idea": "Calibrated cost model: output $20/MTok, 1-hour cache write $8/MTok, cache read $0.20/MTok. The estimator's cache multiplier in config.json (1.25) should be 2.0 for the CLI."
+  },
+  {
+   "path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase1/v15/parallels.py",
+   "what": "My IDF-weighted shared-root/lemma ayah ranking. It reproduces STATUS's dry parallels ranking.",
+   "coverage": "Whole Quran (words.tsv).",
+   "reuse_idea": "Baseline for the parallels list and for Q5."
+  }
+ ],
+ "unharvested_ideas": [
+  {
+   "idea": "A parallels list given to the ayah reading as supply: passages sharing the ayah's rarer roots or lemmas, from the same surah and the whole Quran, plus a phrase match.",
+   "where": "STATUS.md §4 'Other data' and §5 decision 5; DESIGN §11 'Next levers'",
+   "why_dropped": "Not dropped; waiting on user approval ($5–8 of Opus to test on 4:34 and 5:6). Risk named: it could turn into a worklist.",
+   "potential": "High and cheap (about $0.1 per ayah). My IDF script puts 5:97 at #4, 5:89 at #14, 5:91 at #16 in the same surah and 35:10 at #11 across the Quran. Phrase echoes (4:90 #47, 4:81 #70) and thematic ones (4:130 #122) need skeleton n-grams or semantics."
+  },
+  {
+   "idea": "Key the 11 ambiguous roots by source_root_id and re-tag about 2 Luna jobs.",
+   "where": "STATUS §3 Data and §5 decision 4",
+   "why_dropped": "Pending. No output has cited these roots yet.",
+   "potential": "Correct anchors and glosses for ق ر ء (iqraʾ, the North Star's own example) and 10 more roots (1,007 uses)."
+  },
+  {
+   "idea": "Merge the 704 added scenes into inventory additions.",
+   "where": "STATUS §4 'Other data'",
+   "why_dropped": "Pending; it would change every packet's scene lines.",
+   "potential": "944 branches could join coalitions (494 have only an added scene)."
+  },
+  {
+   "idea": "Batch API for write and surah (no tools), and a cached shared surah prefix.",
+   "where": "STATUS §3 Economics; NORTH_STAR Economics",
+   "why_dropped": "Not implemented; the readings use file tools, so batching them needs pulled data in the packet or a multi-turn loop.",
+   "potential": "Cost roughly halves under Batch. Dropping the 1-hour 2x cache write on prompts used once alone would save about 24% of spend (half of the 48% cache-write share)."
+  },
+  {
+   "idea": "Loanword cards and profiles for the whole Quran (about 440 Luna jobs, about 3 hours).",
+   "where": "STATUS §3 Data and §4",
+   "why_dropped": "Not yet run; needed before any other ayah.",
+   "potential": "Makes 'any ayah' real."
+  },
+  {
+   "idea": "Pass record-level findings and the window's set-aside chains to a cross-ayah assembly or to the surah step.",
+   "where": "My inference from build.py build_surah (lead and support only) and the 5 scattered Fatiha water fragments",
+   "why_dropped": "Never proposed in v15 files.",
+   "potential": "Lets fragments across ayat form coalitions (the North Star's 'maturation' step), e.g. the Fatiha water system."
+  },
+  {
+   "idea": "Take the union of scene tags and quran-slm similarity, and weight scene lines by how rare the scene is.",
+   "where": "My inference. DESIGN §2 rejected the matrices outright. My fused-RRF check within Fatiha's 144 branches puts pulley–beam at 1, abundant water–well at 1, the two lead-animal branches at 1 and rabb owner–stray at 4, but lead animal–stray at 77 and lead animal–herd at 94. Weighting by rarity moves water.well from line 16 to 7 of the 81 Fatiha scene lines.",
+   "why_dropped": "Similarity was judged 'not scene' and dropped wholesale.",
+   "potential": "Better ordering of candidates for script-based discovery."
+  },
+  {
+   "idea": "Multi-branch anchors for concept findings, so the evidence step checks every branch cited.",
+   "where": "My inference: record.schema.json has one anchor; 16 'partly' notes blame branches that were not supplied.",
+   "why_dropped": "Not considered.",
+   "potential": "Fewer spurious 'partly' ratings; better checkability for integrated readings (NS7 and NS10)."
+  },
+  {
+   "idea": "One writing step per language for English and German from the same English records.",
+   "where": "STATUS §3 'English and German'",
+   "why_dropped": "Out of the current scope.",
+   "potential": "Analyse once, render per language, as the North Star asks."
+  },
+  {
+   "idea": "Test the named cases (S100, 29:39–45, 18:86 and 18:96, S103), blind ayat, the v5 comparison and a Fatiha rerun without caps.",
+   "where": "STATUS §3 and §5 decisions 2–3",
+   "why_dropped": "Pending approval.",
+   "potential": "Needed to establish the North Star's bar ('materially exceeds v5'). Note that 29:45 is split from 29:39 by the pericope boundary."
+  }
+ ],
+ "key_lessons": [
+  "Q1: v15 leaves cheap, verified wins unharvested:\n- the parallels list, whose IDF ranking reproduces the missing same-surah passages (5:97, 5:89, 5:91, 4:128–129, 35:10) in a top 15–30;\n- the 11-root fix and merging the scattered scenes;\n- handing record-level fragments and set-aside chains forward so fragments across ayat can mature (the Fatiha water image died this way);\n- the Batch API and dropping the 1-hour 2x cache writes, since 48% of Opus spend is cache writes on prompts used once.",
+  "Q1/Q4: More steps added little content. The prose cites almost only what the ayah reading recorded (15–16 of 18–22 passages). The evidence step adds 2–4 passages and a quotable classical phrase. The writer adds nothing new. The window contributes a plan and a few links (3 in 4:34) but pruned the Fatiha well. A cold single call gets twice the same-surah links for about 60% of v15's per-ayah cost; v15's edge is checkability and the Turkish layer.",
+  "Q2a: The model already knows Turkish drift, grammar and most parallels. Pushed data made the difference only for rare branch senses and classical phrases (the husband's nushūz as harshness and beating, mirfaq's leaning phrase, ʿaylam, the س ر ط reading). Classical phrases are not in the reading packet; they arrived only through the evidence step. So a targeted supply of phrases for the ayah's own roots may be worth more than bulk scene lists, which are 33% of the packet.",
+  "Q2b: v15's labels are small: 284 findings over 11 ayat, 47 images, 65 set-aside chains, 718 QeQ relations and 112 missing passages. All are machine labels (Opus and Luna), with no gold. The 11,337 scene-tagged branches are the only large labelled set, and they are Luna's weak labels. Enough to evaluate a parallels retriever on a few ayat (cold-arm plus v15 cited passages as silver positives); not enough to train one.",
+  "Q3: The v15 data layer (scene index, parallels script, resolver, loanword cards, alternative roots) is independent of the workflow and could sit under a v5-based or cold-arm-based method.",
+  "Q5, ayah to ayah: simple IDF-weighted shared rare roots is a strong baseline for same-surah parallels. It misses phrase echoes (4:90 'ʿalayhim sabīlan' #47; 4:81 ṭāʿa #70) and thematic kin (4:130 #122), so add consonantal-skeleton n-grams with pronoun normalisation, lemma-level rarity, and scene co-membership weighted by scene rarity.",
+  "Q5, branch to branch: fused char/E5 similarity ranks some Fatiha scene partners first but others at 77–94 of 144. Scene tags supply what similarity misses, and the two are complementary rather than substitutes.",
+  "Evaluation hygiene: the scene inventory's roles mirror the North Star examples, so results on the named cases overstate how well it generalises. Single runs vary (4:90; the qiyām link), and v15's verdicts are the author's own with no reader judgement."
+ ],
+ "open_questions": [
+  "Does v15 materially exceed v5 on this reader's criterion? No comparison has been made, although v5's Fatiha prose exists (STATUS §3).",
+  "Does quality hold on blind ayat and on the other named cases (S100, 29:39–45 across a pericope boundary, 18:86/96, S103)?",
+  "Would a supplied parallels list lift same-surah links without turning into a worklist, and at what dilution cost?",
+  "Does Luna's 61% 'partly' rate (and zero contradictions) inform the writer or deflate bold readings (the capped 5:6 qiyām link)?",
+  "Should the input limits be kept, lifted, or relaxed only to full definitions? The STATUS dry builds show lifting adds mostly far-scene bulk (+200k characters).",
+  "How would a surah commentary for a long, multi-window surah be built, given that windows end chains at pericope boundaries?",
+  "What is the real API cost per ayah with Batch and 5-minute or no caching instead of the CLI's 1-hour 2x cache writes? The ledger model predicts roughly half.",
+  "How much would pooling 2–3 readings per ayah recover of the losses caused by run-to-run variance, against the cost?",
+  "Unknown from the files: which pulled files the agents actually read (tool calls are not logged); Luna's dollar cost; the Sonnet review content."
+ ]
+}

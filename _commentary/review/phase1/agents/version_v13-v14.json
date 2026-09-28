@@ -1,0 +1,547 @@
+{
+ "scope": "v13 and v14 of the Quran-commentary workflow. Repo root R = /Volumes/OZTURK/_projects/prose_generation; all paths below are relative to R unless absolute. v13 = _commentary/v13: DESIGN.md, HANDOFF.md, EVAL_ANCHORS.md, prompts/{act,net,qeq,write}.md, packet.py, run.py, work/ (S1 window plus 1:1-1:7, and the 18:76-105 window plus 18:96), and the arms out, out-max, out-v2, out-xhigh, out-mixed, out-v3, out-v4 with their *.status.json, *.run.log and check files. v14 = _commentary/v14: DESIGN, HANDOFF, COMPARISON, INPUT_AUDIT, STABILIZATION, STABILIZATION_COMPARISON, REVIEW_RESPONSE, ARGUMENT_TRIAL/COMPARISON, BLIND_29_38(+_RESULT), COMPOSITION_TRIAL/RESULT, the scripts (run, synthesis, sources, experiment, review, input_audit, composition), baseline.manifest.json, eval/regressions*.json and the new arms out-sol-max, out-sol-stable, out-sol-argument, out-astra-argument, out-blind-29-38-upstream, out-astra-blind-29-38 and out-sol-astra-composition-29-38. v14/out, out-max, out-v2, out-xhigh and out-mixed are byte copies of v13 taken at commit 522a4321d (v14/baseline.manifest.json: source ../v13, 308 files). They were not re-analysed. I read all design, handoff and result documents and every prompt, and skimmed the scripts. I computed costs and tokens from every *.status.json with my own script (scratchpad phase1/v13-v14/costs.py), and counted records, memory flags, network images and prose words myself. v13 (Claude/Opus lane) and v14 (a separate \"primary agent\" lane that ran Sol/Astra agents through a \"collaboration facility\") ran concurrently on 2026-09-27; which model ran the v14 primary agent is unknown. Luna was not used in either version.",
+ "timeline": "All dates are 2026-09-27 (git, local -0400) unless noted.\n\nv13, prompted by NORTH_STAR.md revised that day. The diagnosed root cause was \"one prompt asked to hold two stances (generative latent discovery; evidence-bound QeQ), plus bulk input that dilutes synthesis\" (v13/DESIGN.md §1).\n- 11:53 3daf39b64: design, a funnel of packet → activations → network → QeQ → prose → surah prose.\n- 12:01 a0dc9bfde: test path built, with changes after an Opus design review (known-answer leak removed from act/net briefs; DESIGN §8).\n- 12:38 dc2fc9c56: test 1 at effort high (step 1 on 1:1-7 and 18:96; S1 network of 15 images; QeQ and prose on 1:4-7 and 18:96).\n- 12:53 49775758e: effort-max arm on 18:96 failed ($10.28, 256K output tokens, all thinking).\n- 13:27 d1aa42e69: fixes A-H after the first comparison (disclosure names every member ayah; mustland list, coverage block and handforward; QeQ staging/same-word tags and axis pass; no reversals; no bullet tours).\n- 13:34 5a25a1ace: output in parts (CONTINUE protocol) because of the CLI's 64K cap per response.\n- 14:01 182693cf8: 429 session limit; QeQ hit the 64K cap on thinking.\n- 14:09 7752e96ba: QeQ trimmed by the user (references only; reciprocal check postponed).\n- 14:40 10c62eddd: v2 arm done (mustland 100% landed, prose 5.3-7.9K words).\n- 15:04 and 15:09: handoff; xhigh and mixed arms done.\n- 17:06 f1465ac9b: EVAL_ANCHORS scoring (v2 shows no recall regression; the felt regression was form).\n- 17:16 91ce372cc: §11 ranked budget (at most 2 assemblies per ayah; form targets; sequential writes; window_text, previous, concordance and variants added to the writer).\n- 17:41 725f9cdde: v3 write-only arm (form met, recall down).\n- 17:56 01d2fc58b: §12 after an independent Opus review (mustland bugs, catalogue proxy, passages attached per job, network.view, (hafızadan) marker).\n- 18:26 b161bd20e: v4 (new S1 network, 28 images; 1:6 at 22/7/1 anchors; the network gave 1:6 17 develops). This was the last v13 commit.\n\nv14, prompted by the user's scope as quoted in v14/HANDOFF.md: \"create v14 from v13, revise the synthesis handover and regression protection, audit redundant/missing inputs, then run one Sol agent at max effort on a chosen ayah and compare with earlier runs\".\n- 16:42 83a00ca52: baseline preserved, synthesis experiments frozen, regression gate added.\n- 17:04 78794ecb5: Sol max 1:6 trial, input audit and comparison.\n- 17:32 7ade57587: exact source text, selective lookup and compact accounting (STABILIZATION.md).\n- 18:15 db51afa81: same-Sol repeat.\n- 18:23 f15e74b4a: matched Sol/Astra argument trial prepared; 19:04 9e9a6c2dd compared.\n- 19:08 20a86994c: \"require blind generalization before production readiness\". The user clarified that the pipeline must run blind for any ayah.\n- 20:49 be35a1621: AVAILABLE_INPUTS.md and 29:38 prep; 21:50 8b746bd13 blind Astra 29:38 done with fresh Opus upstream.\n- 22:39 79d7e934e and 22:47 b42a5ef5a: Sol-synthesis → Astra-prose composition frozen; 23:06 e2f20d378 complete, recorded as a failed treatment.\n- After that, v15 started \"from scratch\" (per the user's memory note, not in scope).",
+ "mechanism": "v13 funnel (v13/DESIGN.md §3, HANDOFF.md). Every model step ran on Opus 5.5 (claude-opus-5-5, via `claude -p`, no tools, one call; output could come in parts through ===== CONTINUE =====). Effort was high, with arms at xhigh and max. Records are in English; only the prose is Turkish.\n\nStep 0, packet.py (script). Per window (short surah = one window, otherwise the pericope ±7), window.md holds:\n- the window text;\n- \"the scan\": every branch of every root in the window as `Bnnn gloss | image`;\n- the channel-review excerpt.\n\nPer ayah:\n- ayah.md: QAC words, anchor translation, word notes from V9 context.md;\n- dictionary.md: focus roots, one line per branch with gloss | image | definition | first classical phrase;\n- pairs.md: V9 script image partners (same / ±7 / surah), ranked by reciprocal-rank affinity (v9/prepare.py:212-222);\n- concordance.md: roots with ≤60 uses, every use with its clause;\n- hft.md;\n- reciprocal.md.\n\nMeasured sizes: S1 window.md 63 KB, 18:76-105 window.md 156 KB; per-ayah hft.md 25-62 KB (the largest per-ayah file); 18:96 step-1 input compacted from 594 KB to 350 KB (DESIGN §8).\n\nStep 1, act (Opus). Discovery stance, no pruning and no verdicts. Output is F-records: `kind | words | branches | trigger (scope) | with | image | anchor | memory`, with 12 kinds (local, window, surah, chain, loaded, cross-definition, concept, scene, fragment, loss, grammar). The first run produced 31-66 records per ayah (v13/out/test1.run.log).\n\nStep N, net (Opus, per surah). Assembles the I-images with members, roles, movement, meetings and purpose, plus a disclosure plan (meet / touch / develop / assemble). Members found in the scan are marked N-added, and unabsorbed findings are listed as `unplaced`. S1 produced 15, 25, 23 and 28 images in four runs (my count).\n\nStep 2, qeq (Opus). Per finding: supports / expands / shifts / contradicts, with [staging] and [same-word] tags; new Q findings (the fourth scope); an A axis pass. References only, from the model's own knowledge of the Quran (prompts/qeq.md).\n\nStep 3, write (Opus). Turkish prose plus a coverage block. Its inputs changed across arms:\n- first run: ayah, act, qeq, full network, dictionary, branches (149 KB for 1:6);\n- v2: added mustland.md, the must-land obligation list (49-144 items);\n- v3: mustland became a ranked budget (≤2 assemblies), plus window_text, previous.md (the prior ayah's prose, written sequentially), concordance and variants;\n- v4: network.view.md, passages attached per job, axis set; 235 KB input for 1:6.\n\nStep S (surah prose) was never built. Script checks: record ids, branch existence (unknown_branches = [] in every act.check.json), and verify_src exact-tag verification with at most one repair.\n\nv14 (v14/DESIGN.md, STABILIZATION.md, ARGUMENT_TRIAL.md). Upstream was frozen from v13 v2 (act, QeQ and network for 1:6); v14's act/net/qeq prompts are the v13 v2-era copies (13:26/14:09 timestamps). The components:\n- synthesis.py builds a \"lossless\" index (every F, E_F, Q, A, image and meeting record; 95 KB for 1:6, 192 items).\n- The writer gets write.md, ayah, window_text, synthesis.md, dictionary, branches, concordance, variants and the full previous 1:5 prose (49 KB). Total 201-207 KB, plus the lookup helper (sources.py; exact verifier spelling; ≤16 refs plus 0-3 neighbours per query; logged in source.lookups.jsonl).\n- The writer returns prose plus a trace JSON. Schema 1 copied whole paragraphs (51.4% of output). Schema 2 used short anchors. Schema 3 has links, partial and deferred rows, with no quality grades.\n- review.py adds a frozen, evaluation-only regression gate (10, then 15 passage criteria), independent review JSONs and an immutable accept pointer (never created).\n- External writers used export → exclusive claim → one agent → ingest, with gpt-6-sol and gpt-6-astra at max effort and no token or billing data.\n\nThe 29:38 blind run: fresh Opus-high act+QeQ ($4.41), then one Astra writer, with no window network and no previous prose.\n\nThe composition trial (composition.py, prompts/compose.md, write_composition.md):\n1. Sol reads the full research (171,674 bytes plus 6 lookups) and returns an integrated explanation and evidence selection in JSON (819 words; 19 of 169 records selected).\n2. A fresh Astra writes the prose from a 66,379-byte selected packet and made 0 lookups.\n\nThe primary agent reviewed everything; no comparison agents were used.",
+ "inputs_pushed": [
+  "v13 step 1 (act): window.md, containing the window text, the scan (every branch of every root in the window, `Bnnn gloss | Arabic image`) and the channel-review index plus sub-channels anchored in the window. Also: ayah.md (QAC words, anchor translation, V9 word notes), dictionary.md (every focus-root branch: gloss | image | definition | first classical phrase), pairs.md, concordance.md (roots with ≤60 uses, each with its clause; larger roots as counts only) and hft.md (v13/packet.py docstring; act.status.json 'files'). Input sizes: 43-161K tokens (v13/out/*/act.status.json); 29:38 act input 326,722 bytes (v14/out-blind-29-38-upstream/s029/29_38/act.status.json).",
+  "v13 network (net): all step-1 records of the surah (net.input.records.md), the scan, the channel review and the surah text (prompts/net.md). Inputs 110K tokens (first run) to 464K tokens including cache reads (v4/mixed) (net.status.json).",
+  "v13 QeQ: the ayah's act records, network entries touching the ayah, ayah core and window text. From §12 also the focus dictionary; from §8 also the concordance and the V11 digest. The reciprocal list was planned for a closing check, then dropped by the 14:09 trim (commit 7752e96ba). Inputs 41-67K tokens at high.",
+  "v13 write, first run: write.md, ayah.md, act.md, qeq.md, network.md (full), dictionary.md, branches.md (148,948 bytes for 1:6; v13/out/s001/1_6/write.status.json).",
+  "v13 write v2: the above plus mustland.md, an obligation list of 49-144 items (151,835 bytes for 1:6).",
+  "v13 write v3/v4: window_text.md, previous.md (preceding ayah's prose, 38 KB), network.view.md (60 KB), mustland ranked budget with passages per job, concordance.md, variants.md (235,132 bytes for 1:6 v4; v13/out-v4/s001/1_6/write.status.json).",
+  "v14 writer (Sol/Astra 1:6): write.md 7-11 KB, ayah 2.8 KB, window_text 0.6 KB, synthesis.md 95 KB (lossless index of 192 items), dictionary 11.6 KB, branches 24 KB, concordance 10 KB, variants 0.4 KB, previous 1:5 prose 49 KB, for 201,665-206,601 bytes in total (v14/out-*/s001/1_6/input.audit.json).",
+  "v14 blind 29:38 writer: 181,493 bytes (synthesis.md 69.6 KB, dictionary 29.8 KB, concordance 35.6 KB, window_text 8.7 KB); no previous prose, no network (v14/out-astra-blind-29-38/.../input.audit.json).",
+  "v14 composition: Sol synthesis input 171,674 bytes (full research); Astra writer input 66,379 bytes, of which selected concordance is ~26.2 KB, selected dictionary lines ~3.5 KB and the composed explanation plus limits ~6.5 KB (v14/COMPOSITION_RESULT.md)."
+ ],
+ "inputs_pulled_or_optional": [
+  "v14 lookup helper (sources.py; `--source-mode lookup`): exact Quran passages plus 0-3 neighbouring ayat, logged in source.lookups.jsonl. Measured pulls:\n- Sol stable: 15 calls, 97,910 bytes, 349 distinct ayat returned;\n- Sol argument: 15 calls, 94,287 bytes;\n- Astra argument: 11 calls, 112,390 bytes, 409 ayat;\n- Astra blind 29:38: 7 calls, 93,789 bytes, 347 ayat;\n- Sol composition: 6 calls, 27,355 bytes;\n- Astra composition: 0 calls.\nSources: v14/STABILIZATION_COMPARISON.md, ARGUMENT_COMPARISON.md, BLIND_29_38_RESULT.md, COMPOSITION_RESULT.md.",
+  "v14 composition: the full frozen research archive was retrievable by exact key through the helper, but the writer received no index of unselected items. The result was 'Permission to investigate an omitted relationship cannot help when the writer has no cue that the relationship was there' (v14/COMPOSITION_RESULT.md).",
+  "v14 inline alternative (`--source-mode inline`): complete ayat for QeQ leads, concordance and window. It adds 50,114 bytes for 1:6 (175 ayat) (v14/STABILIZATION.md). Built but not used in the reported arms.",
+  "v13: reciprocal.md was built for every ayah but no stage consumed it after the QeQ trim ('File exists but no consuming stage exists', v14/INPUT_AUDIT.md)."
+ ],
+ "available_but_unused": [
+  "Reciprocal inter-ayah lists (quran-data analysis/inter-ayah/reciprocal): packet.py builds reciprocal.md, but the final missing-passage check was never built (v13/HANDOFF.md next steps §5; v14/INPUT_AUDIT.md).",
+  "Full dictionary entries: only the first classical phrase per branch is supplied, 'so some usable quotations remain unavailable' (v14/INPUT_AUDIT.md). The fuller section_dictionary (3x larger) was replaced by branch_table (v13/DESIGN.md §8).",
+  "Concordance for rare lemmas inside frequent roots: the root threshold (>60 uses → counts only) hides their clauses (v14/INPUT_AUDIT.md; input.audit.json remaining_gaps).",
+  "Variant readings beyond the focus ayah: F30's alternative reading at 43:61 had no variant evidence and Astra deferred it (v14/ARGUMENT_COMPARISON.md).",
+  "Branch references embedded in finding text but not in the formal branch field (gh-d-b B004 missing from branches.md) (v14/ARGUMENT_COMPARISON.md).",
+  "Per-lemma-and-form word-analysis summaries: deferred ('use the current word notes until ready', v13/DESIGN.md §7).",
+  "Root dossiers: dropped as a v13 input (v13/DESIGN.md §7).",
+  "Grammar attachment records (quran-data/data/grammar/attachments): Inference: not used; packet.py and v12/inputs.py build from QAC words and V9 word notes only (v12/inputs.py function list; v13/work/s001/1_6/ayah.md).",
+  "quran-slm resources and any embedding distance: not referenced by v13/v14 code. Inference: the V9 pairs, built from a precomputed 'global network' rank matrix (v9/prepare.py:212-222), are the only similarity measure in the path.",
+  "HFT was pushed in step 1 (the largest per-ayah file, e.g. 56 KB for 1:6) but never ablated ('Test removal separately', v14/INPUT_AUDIT.md). Pairs were likewise pushed and never ablated ('first safe ablation candidate').",
+  "Handforward.md and deferred/partial records (v13 out-v3/v4; v14 handforward.md up to 46 KB) are produced but nothing consumes them, because no surah writer exists (v14/INPUT_AUDIT.md; BLIND_29_38_RESULT.md: 'a destination named `surah commentary` is only a record of unfinished material')."
+ ],
+ "models_and_cost": "Models:\n- v13: Opus 5.5 (claude-opus-5-5, Claude Code 2.1.283, init record in *.log.jsonl) via `claude -p`, no tools. Effort high by default, with xhigh and max arms. Caveat: the xhigh/mixed statuses were recomputed at 15:05 and say \"high\"; the arm tags and run logs are the evidence for xhigh.\n- v14: gpt-6-sol and gpt-6-astra at max (agent.provenance.json: token_usage null, cost_usd null, \"not supplied by collaboration facility\"). Opus high for the 29:38 upstream.\n- Costs are claude -p list-price equivalents with no prefix cache hits (DESIGN §9: \"claude -p caches only an identical whole message\"). Sums are from my script over every *.status.json.\n\nv13 per-call costs at high:\n- step 1: 1:1 $0.99, 1:2 $1.13, 1:3 $0.65, 1:4 $1.13, 1:5 $0.87, 1:6 $1.32, 1:7 $1.43, 18:96 $2.24. Output 15-48K tokens, of which thinking is 8-33K; 2.8-7.6 min.\n- QeQ, first run: $1.26-1.56 (6.4-8.1 min); v2: $1.31-1.69.\n- Write, first run: $1.28-2.56 (6.8-11 min); v2: $1.73-3.65 (up to 18.7 min, 2 parts); v3: $2.41 and $2.71; v4: $1.94.\n- S1 network: $1.84 first (15 images), $2.77 v2 (25), $3.05 mixed/xhigh (23), $2.92 v4 (28).\n- Thinking share of output, first run (my sums): step 1 62% (153,801 of 247,796), QeQ 78%, write 70%.\n\nv13 per-ayah totals (act + qeq + write + network/7):\n- first run: 1:4 $4.26, 1:5 $3.68, 1:6 $4.68, 1:7 $5.80, 18:96 $4.94 (no network);\n- v2: 1:4 $5.24, 1:5 $4.63, 1:6 $6.68, 1:7 $6.15, 18:96 $6.83.\n- DESIGN §5 estimated $2.7-4.7 (claude -p) and $1.3-1.9 (batch) per ayah.\n\nv13 effort arms:\n- xhigh 1:5: act $3.15 (109K out, 94K thinking), QeQ $4.96 (187K out, 177K thinking, 30.5 min), write $5.90 (187K out, 153K thinking, 4 parts, 27.6 min, estimated $2.39); $14.00 total.\n- mixed 1:5: network $3.05, QeQ $4.87, write $3.50 (6 parts); $11.42.\n- max 18:96 step 1: $10.28, 256,000 output tokens all thinking, no answer, 42.9 min, against $2.24 at high.\n- Run logs first showed double-counted part costs (mixed write \"$18.14\", xhigh write \"$20.70\"), corrected to the last cumulative total (v13/HANDOFF.md traps).\n\nv13 totals: $103.45 across all status files (out 26.93, max 10.28, v2 29.10, xhigh 15.74 including a $1.74 capped QeQ, mixed 11.42, v3 5.13, v4 4.85). The handoff reported \"≈ $98\" at 15:10 before v3/v4 and listed v2 as $34.46. That $5.36 gap from my status sum equals the capped QeQ calls, so it is possibly double-counted; the cause is unknown. Four QeQ calls hit the 64K cap on thinking ($1.72-1.87 each, set aside). Five calls were refused by 429 at $0. Measured 0.44-0.45 tokens per packet byte.\n\nv14:\n- Opus 29:38 upstream: act $3.214 (369K in including 152.5K cache read, 72.5K out, 54.5K thinking, 10.8 min) and QeQ $1.199 (69K in, 32K out, 5.4 min), $4.413 in total (out-blind-29-38-upstream/*.status.json).\n- Sol and Astra: 7 generations, cost and tokens unknown. Observed claim-to-completion times: Sol stable ~30 min; Sol argument ~25 min; Astra argument ~28.5 min; Astra blind ~29 min; composition Sol 6m21s, Astra 8m53s (v14 result docs, provenance files). These are not provider latency.\n- No Batch API or cache_control runner was built in either version (DESIGN §9; v14/DESIGN.md 'API caching/batching ... remain outstanding').",
+ "ayat_run": [
+  "v13 first run (out, high): step 1 on 1:1-1:7 and 18:96; S1 network (15 images); QeQ and prose on 1:4, 1:5, 1:6, 1:7 and 18:96 (v13/out/test1.run.log).",
+  "v13 out-max: 18:96 step 1 only, which failed (v13/out-max.run.log).",
+  "v13 out-v2: step 1 reused; new S1 network (25); QeQ and prose on 1:4-1:7 and 18:96 (out-v2.run*.log).",
+  "v13 out-xhigh: 1:5 (act, QeQ, write) with the v2 network (out-xhigh.run*.log).",
+  "v13 out-mixed: 1:5 (xhigh network of 23 images, QeQ and write; step 1 reused) (out-mixed.run*.log).",
+  "v13 out-v3: write-only 1:5 and 1:6, seeded from v2 (out-v3.run.log).",
+  "v13 out-v4: new S1 network (28) and write 1:6 (EVAL_ANCHORS.md v4 section; out-v4/s001/1_6/write.status.json).",
+  "v14 out-sol-max, out-sol-stable, out-sol-argument (gpt-6-sol max) and out-astra-argument (gpt-6-astra max): 1:6 only, on frozen v13 v2 upstream with v2 1:5 as previous prose.",
+  "v14 out-blind-29-38-upstream (Opus high act and QeQ) followed by out-astra-blind-29-38 (Astra max writer): 29:38.",
+  "v14 out-sol-astra-composition-29-38: 29:38 (Sol synthesis, then Astra prose) on the same frozen evidence.",
+  "Planned but never run in v13/v14: 18:86 (ḥamaʾ), 5:6 (including the dilution arm), 4:34, 29:41, the remaining S1 prose (1:1-1:3), and any surah commentary (v13/HANDOFF.md next steps 4-5; v13/DESIGN.md §6)."
+ ],
+ "north_star_scorecard": [
+  {
+   "id": "NS1",
+   "rating": "strong",
+   "evidence": "v13/HANDOFF.md 'Where we are': 'Ground (plain sense, not disorienting) | good (all arms)'. v14/COMPARISON.md: 'Plain sense and neighbours | Preserved'. v14/ARGUMENT_COMPARISON.md: preserved in both Sol and Astra. v14/BLIND_29_38_RESULT.md: 'Plain reading and local context | Strong'. v14/COMPOSITION_RESULT.md: orientation improved. Caveat: v13/EVAL_ANCHORS.md finds v2's 600-900-word paragraphs disorient 'by shape'."
+  },
+  {
+   "id": "NS2",
+   "rating": "strong",
+   "evidence": "v13/HANDOFF.md: 'What Turkish loses ... good, better than v12'; first-run 1:6 has 'the best Turkish-loss layer (sırat bridge vs sword, hidayet, doğru/istikamet, the two articles)'. v13/out/s018/18_96/18_96.reading.tr.md ¶41: 'Türkçe meal \"Körükleyin\" der ve Arapçanın adını anmadığı bir alet ekler'. v14 regressions criterion s001_006_turkish_loss is preserved in every Sol/Astra arm (COMPARISON.md, ARGUMENT_COMPARISON.md). Exception: composition dropped 'Ziynet's named Turkish comparison, sebil's fountain sense and the mesken/miskin relation' (COMPOSITION_RESULT.md)."
+  },
+  {
+   "id": "NS3",
+   "rating": "strong",
+   "evidence": "v13/HANDOFF.md: 'Local resonance ... good (step 1 + prose)'. Step 1 yields 31-66 records per ayah, including local, window and scene kinds (v13/out/test1.run.log). Astra blind 29:38 develops house/seam/eye-film and road/water within the 29:37-41 window (BLIND_29_38_RESULT.md)."
+  },
+  {
+   "id": "NS4",
+   "rating": "partial",
+   "evidence": "The chains are found and planned; the landing is where it fails.\n- Channel review is pushed as 'strong input: articulate, extend and connect it; do not audit it' (prompts/act.md). The network assembles 'the images v12 lost (road, herd, water, womb, benefaction circuit, swallowing passage)' (HANDOFF.md).\n- First-run prose 'lost what the funnel had found': plans skipped member ayat and assemblies did not assemble.\n- v2 forced landing into a catalogue; v2's 1:4 water assembly was a 'roll-call that names later ayat's members' (DESIGN §12). v4's cap pushed 17 develops into 1:6 (EVAL_ANCHORS v4).\n- 'The water system still does not land as a system' in any arm (HANDOFF.md; STABILIZATION_COMPARISON.md: 'The full rain–well–beam–watering system is not explained').\n- True progressive disclosure became possible only with the v3 sequential writes (EVAL_ANCHORS v3: '1:6 refers back to 1:5's trodden road ... in clauses')."
+  },
+  {
+   "id": "NS5",
+   "rating": "partial",
+   "evidence": "Strong where it was tested. 18:96 nafakha was found from the concordance: F4 'Of 20 uses ... 12 are the horn blast, 5 are breath/spirit blown into a formed body ... 1 is here' (v13/out/s018/18_96/act.md), and it landed in the prose (¶41, ¶49). HANDOFF.md: 'No earlier version had this'. More loaded patterns in the same file: zubar, ṣadaf, ḥadīd, afrigh, qiṭr. 18:86 ḥamaʾ was never tested ('not yet tested', HANDOFF.md). The rare-lemma concordance gap is open (INPUT_AUDIT.md)."
+  },
+  {
+   "id": "NS6",
+   "rating": "partial",
+   "evidence": "QeQ is a separate evidence-bound step after activations, with 'A passage read canonically never suppresses a latent reading' and 'Finding no passage that tells a latent scene openly is never a contradiction' (prompts/qeq.md). HANDOFF.md: 'works; staging passages now land'.\nFailures:\n- first-run prose turned 'QeQ \"none/shifts\" ... into caveats or even reversals';\n- QeQ hit the 64K thinking cap and had to be trimmed;\n- the reciprocal final check was never built;\n- in composition 'QeQ is better organized but still supplies most of the development' and Sol's synthesis was 'chiefly from Quranic narrative', i.e. a tilt back toward the evidence-bound stance (COMPOSITION_RESULT.md)."
+  },
+  {
+   "id": "NS7",
+   "rating": "partial",
+   "evidence": "Discovery finds supported non-canonical readings: the 1:6 well-frame ق و م B012, the trodden road, the stray whose rabb is unknown (HANDOFF.md), and the 29:38 tent seam ب ص ر B006 and eye-film س ب ل B010 (v14/out-blind-29-38-upstream/.../act.md F74/F75). Integration is uneven:\n- Astra develops functional relations ('Durmak, burada hareketin koşuludur', ARGUMENT_COMPARISON.md; seam → eye-film in BLIND_29_38_RESULT.md);\n- v2 was a catalogue (EVAL_ANCHORS.md);\n- v3 made root tours, catalogue proxy 17.5 root/branch mentions per 1,000 words (DESIGN §12);\n- composition lost the supported surprise entirely (COMPOSITION_RESULT.md: 'We shifted from excessive inclusion to consequential exclusion')."
+  },
+  {
+   "id": "NS8",
+   "rating": "partial",
+   "evidence": "Step 1 and the network are explicitly no-prune: records flagged, never dropped; an `unplaced` list; N-added members (prompts/act.md, net.md; v13/out-v4/s001/network.md unplaced line). v14 synthesis.py keeps every record ('lossless'). Downstream pruning without a record:\n- v13 mustland bugs chose jobs by entry count and missed double tags; 'Demoted assemblies were not recorded anywhere' (DESIGN §12);\n- the v3 ranked budget cost −8 anchors on 1:6 (EVAL_ANCHORS.md);\n- the v14 composition made Sol's early selection (19 of 169 records) decisive and dropped F74/F75 (COMPOSITION_RESULT.md)."
+  },
+  {
+   "id": "NS9",
+   "rating": "partial",
+   "evidence": "The rule is in every writer brief ('never \"not X but Y\"', v13/prompts/write.md; v14/prompts/write.md). A recorded violation in v13 v3 1:6: 'a \"not X but Y\" against an attested branch (\"itmek ya da sürmek değildir\" vs the driven hady)' (DESIGN §12; v3 1:6 reading ¶11). v14 criterion s001_006_coexistence was preserved in all Sol/Astra 1:6 arms (COMPARISON.md, ARGUMENT_COMPARISON.md)."
+  },
+  {
+   "id": "NS10",
+   "rating": "strong",
+   "evidence": "Step-1 records carry branch + trigger + anchor + a memory flag (prompts/act.md); unknown_branches is [] in every act.check.json. Every v13 prose file verifies with missing=0, bad-source=0 (run logs, e.g. 'exact=59 fixed=12 ... missing=0'). v14: all 110+140 tags in the argument arms and 140 in the blind arm are exact. The `(hafızadan)` memory marker was introduced in §12 and used 5 times in v4 1:6.\nLimits:\n- the Sol 1:6 first arm had only 27 tags in 5K words and 4 spelling mismatches (COMPARISON.md);\n- 'Many dictionary and Quran claims have only Turkish prose or a reference' (REVIEW_RESPONSE.md);\n- the verifier checks text, not the claim or the transliteration ('sebbel tü', BLIND_29_38_RESULT.md)."
+  },
+  {
+   "id": "NS11",
+   "rating": "partial",
+   "evidence": "Handforward.md and coverage blocks exist (v13 v2+). The v14 schema-3 partial/deferred rows and research.disposition.json keep the archive. Failures:\n- first-run losses were silent (HANDOFF.md 'What went wrong');\n- v3 1:6 has 'unsupported bridges (blood-money; \"güneş tapılacak bir şey değildir\")' (DESIGN §12);\n- 'multi-part records can hide omitted explanations': Sol linked E_F1 without the Book/fire components (ARGUMENT_COMPARISON.md);\n- 'Retaining an archive on disk is different from making omitted evidence discoverable' (COMPOSITION_RESULT.md);\n- QeQ digest counts conflict with the concordance (1:6 h-d-y 308/316; q-w-m 643/660; INPUT_AUDIT.md)."
+  },
+  {
+   "id": "NS12",
+   "rating": "absent",
+   "evidence": "Step S was never built. v13/HANDOFF.md: 'Surah commentary ... **not built** (step S)'. v14/DESIGN.md: 'Surah writing ... remain outstanding'. Only English S1 network records exist, with a purpose per image, e.g. 'This is the surah's single petition. Everything before it ... supplies a road part' (v13/out-v4/s001/network.md). Handforward and deferred material has no consumer."
+  },
+  {
+   "id": "NS13",
+   "rating": "weak",
+   "evidence": "Measured $3.7-5.8 per ayah (first run) and $4.6-6.8 (v2) via claude -p (my sums from the status files), against the ~$1 aim. HANDOFF.md: 'Economics ... not met (≈ $4.5–7 via claude -p; ≈ half via batch)'.\n- xhigh roughly doubles or triples the cost; max failed at $10.28.\n- Batch/cache_control was never built, and claude -p gave 0 prefix hits (DESIGN §9).\n- Writer inputs grew instead of funnelling: 149 → 235 KB in v13, 201-207 KB in v14.\n- v14 Sol/Astra costs are unknown; the 29:38 Opus upstream alone was $4.41 before any writer.\n- The funnel principle holds only upstream: compact English records of 17-42 KB per ayah."
+  }
+ ],
+ "improvements": [
+  {
+   "claim": "Separating the stances (generative step 1; evidence-bound QeQ) recovered the latent chains that v11/v12 had audited away.",
+   "evidence": "v13/HANDOFF.md 'What went right': 'Discovery works. Step 1 found nearly every gold and anchor item in every tested ayah (the road's way-marks, middle and trodden surface; the herd and the stray whose rabb is unknown; the water system including the 1:6 well-frame, ق و م B012; the womb; cross-definitions such as mālik ↔ ʿabd; the balance)'. The network 'assembles the images v12 lost'.",
+   "over": "v11/v12"
+  },
+  {
+   "claim": "A Quran-loaded word was found unaided for the first time, from the concordance input.",
+   "evidence": "v13/out/s018/18_96/act.md F4 (nafakha: 12 horn, 5 breath into a formed body, 1 craft use; 15:29/32:9 shape → blow → make); HANDOFF.md 'No earlier version had this'; prose ¶41/¶49 of v13/out/s018/18_96/18_96.reading.tr.md.",
+   "over": "all earlier versions (v1-v12)"
+  },
+  {
+   "claim": "The Turkish-loss layer improved.",
+   "evidence": "v13/HANDOFF.md: 'What Turkish loses ... good, better than v12'; first-run 1:6 'the best Turkish-loss layer'.",
+   "over": "v12"
+  },
+  {
+   "claim": "v2 fixes A-H raised recall with no anchor lost except 2:255.",
+   "evidence": "v13/EVAL_ANCHORS.md: 1:5 I/M/A 10/7/5 → 19/2/1; 1:6 23/4/3 → 27/3/0; 'Regressions first → v2 (I → M or A): none' for 1:5; one loss on 1:6 (2:255).",
+   "over": "v13 first run"
+  },
+  {
+   "claim": "The v3 ranked budget restored form, and sequential writing enabled real progressive disclosure at 55-70% of v2's write cost.",
+   "evidence": "v13/EVAL_ANCHORS.md v3: 'v3 hits every target (headings back, no paragraph over 275 words, tags in range) at 55–70% of v2's cost, and progressive disclosure worked: 1:6 refers back to 1:5's trodden road, herd, ship and breakdown scene in clauses'. 1:6 went 7,451 → 5,039 words; write $3.65 → $2.71.",
+   "over": "v13 v2"
+  },
+  {
+   "claim": "v4 (network rerun under the new brief, passages attached per job, fixed mustland) recovered anchors and cut catalogue density.",
+   "evidence": "v13/EVAL_ANCHORS.md v4: 1:6 anchors 19/8/3 → 22/7/1; catalogue proxy 17.5 → 13.1; 'no roll-call sentence, the assemblies are mechanisms'; five (hafızadan) markers used correctly; G021, gift-return circuit, 23:74 and B010 recovered; write cost $1.94.",
+   "over": "v13 v3"
+  },
+  {
+   "claim": "The v14 writer handover with Sol max produced much better paragraphing and a local water-frame improvement while preserving all 8 protected explanations.",
+   "evidence": "v14/COMPARISON.md: 8 preservation criteria preserved; water-system and reader-development criteria 'Improved'. Metrics: median paragraph 113 vs 275 words, longest 151 vs 897 (EVAL_ANCHORS.md). Sol anchors 23/6/1 vs v2 27/3/0; catalogue proxy 7.6 (lowest of all).",
+   "over": "v13 v2 (1:6)"
+  },
+  {
+   "claim": "Exact-source normalization and compact accounting fixed Sol's source failures, cut accounting by 55%, and restored two passages.",
+   "evidence": "v14/STABILIZATION_COMPARISON.md: exact/fixable tags 23/4 → 23/0; accounting 44,781 → 20,173 bytes (51.4% → 32.1% of the response); 'P3 restores Moses ... (20:10)'; 'P15 restores 17:97 and 25:34'.",
+   "over": "v14 out-sol-max"
+  },
+  {
+   "claim": "Astra at max on the same packet retained more and developed stronger functional relationships than Sol.",
+   "evidence": "v14/ARGUMENT_COMPARISON.md: 'Astra preserves the upright Book, fire/guide, bodily resurrection and working well frame that the new Sol candidate omits'. 140 exact tags; orientation 'Improved'; 5,119 gloss words vs v2's 5,672 with a longest paragraph of 184 vs 897.",
+   "over": "v14 Sol argument; v13 v2"
+  },
+  {
+   "claim": "Blind 29:38 (fresh Opus upstream, Astra writer) carried a rare-sense supported surprise and kept the upstream corrections.",
+   "evidence": "v14/BLIND_29_38_RESULT.md: 'Blocks 42–45 are the clearest architectural development ... A tent's material needs a working seam. A web-like covering then moves from the shelter to the eye'; 'believers were rescued ... These corrections survive synthesis'; all 140 tags exact.",
+   "over": "historical V9 Sol 29:38 (different inputs; not matched)"
+  },
+  {
+   "claim": "The Sol-synthesis → Astra-prose composition gave the clearest, most argued, shortest commentary.",
+   "evidence": "v14/COMPOSITION_RESULT.md: 1,221 vs 5,131 reader words; 15 vs 60 paragraphs; 'The reader has a reason to follow each development even without headings'; excursions removed; rescue correction kept.",
+   "over": "v14 out-astra-blind-29-38"
+  }
+ ],
+ "regressions": [
+  {
+   "claim": "v2 prose became a catalogue: 5.3-7.9K words and 900-word paragraphs, at higher cost.",
+   "evidence": "v13/HANDOFF.md: 'Fix A overshot: the must-land list grew to 49–144 items per ayah ... v2 prose grew to 5.3–7.9K words'. EVAL_ANCHORS.md: 1:6 v2 has 0 headings, median paragraph 275 words, longest 897. v2 per-ayah cost $4.6-6.8 (my sums).",
+   "cause": "Must-land obligation list ('every item lands') plus liberal QeQ tagging (63-77 tags per ayah)."
+  },
+  {
+   "claim": "The v3 ranked budget lost recall: −3 anchors on 1:5 and −8 on 1:6, below the first run.",
+   "evidence": "v13/EVAL_ANCHORS.md v3: 1:5 16/4/2 (v2 19/2/1); 1:6 19/8/3 (v2 27/3/0). Dropped: 28:22, 20:10, 4:69, 23:74, 49:17, the gift-return circuit, B010.",
+   "cause": "Staging passages stopped being obligations. Two mustland bugs (counting member entries rather than distinct words; the regex missed '28:22 [same-word] [staging]') handed the assembly slots to the war scene and the halted walker. The demoted images I15/I16 carried G021 (DESIGN §12)."
+  },
+  {
+   "claim": "v4 1:6 became a serial tour in shorter units: 17 develops, 1,700 words longer than the first run, and still one anchor short.",
+   "evidence": "v13/EVAL_ANCHORS.md v4: '1:6 got 2 assemblies and 17 develops ... the writer had 19 jobs and gave most a paragraph'. out-v4/s001/1_6/coverage.md shows 19/19 landed.",
+   "cause": "The network cap on assemblies (at most 2 per ayah) pushed the surplus into 'develop'; nothing selects by payoff when roles are assigned."
+  },
+  {
+   "claim": "Effort above high added cost and length, not anchors, and lost some anchors.",
+   "evidence": "v13/EVAL_ANCHORS.md: 1:5 mixed 20 and xhigh 18 integrated vs v2 19, at 2x and 3.4x cost. 'v2 → mixed: v11-2, 3:79 lost. v2 → xhigh: G029, v11-7 partly, 3:79 lost'. Paragraphs up to 906 words.",
+   "cause": "More thinking produced more scenes; combined with the must-land overshoot this made denser prose."
+  },
+  {
+   "claim": "Effort max failed completely.",
+   "evidence": "v13/DESIGN.md §10; out-max/s018/18_96/act.raw.txt 'API Error: Claude's response exceeded the 64000 output token maximum'; $10.28, 256K output tokens all thinking, 42.9 min.",
+   "cause": "The CLI caps each response at 64K output tokens, including thinking, whatever CLAUDE_CODE_MAX_OUTPUT_TOKENS says; max effort filled it with thinking."
+  },
+  {
+   "claim": "First-run prose dropped what the funnel found.",
+   "evidence": "v13/HANDOFF.md: 'disclosure plans skipped member ayat; assembly points did not assemble (1:7's water in one sentence); QeQ's open stagings dropped; QeQ \"none/shifts\" turned into caveats or even reversals; root tours in bullet lists'.",
+   "cause": "The records-to-prose handover had no contract for which items must land and how."
+  },
+  {
+   "claim": "The Sol repeat lost the 18:1-2 upright-Book explanation while claiming its record connected; the argument Sol lost Book, fire (20:10), face-down resurrection and the working well frame.",
+   "evidence": "v14/STABILIZATION_COMPARISON.md: 'The first Sol's explanation of the unbent, upright Book at 18:1–2 disappears'. ARGUMENT_COMPARISON.md: 'The Book, fire and face-down passages were all explicitly requested and returned to Sol. Their absence is therefore not a missing Quran-source problem'. Sol deferred F47 (well).",
+   "cause": "Sol compresses distinct explanations away (writer-model behaviour on the same packet); multi-part records hide the omitted components."
+  },
+  {
+   "claim": "Both matched argument writers lost the trodden-surface connection to signs and centre line.",
+   "evidence": "v14/ARGUMENT_COMPARISON.md: 'Signs + centre + trodden surface | Mixed: surface connection lost' for both.",
+   "cause": "Prior knowledge in previous.md (1:5) was not reconnected; 'prior knowledge can be confused with a new connection'."
+  },
+  {
+   "claim": "The composition treatment lost the predeclared supported surprise (tent seam / eye-film / spider-house).",
+   "evidence": "v14/COMPOSITION_RESULT.md: 'Absent from Sol's answer: its 819-word explanation omits both relations, and its selection omits both findings and both branches. It selects 19 of 169 records'; 0 dictionary quotations; the independent.review.json verdict 'Failed treatment'.",
+   "cause": "Sol's early selection became decisive. The writer got no index of unselected material ('Permission to investigate an omitted relationship cannot help when the writer has no cue'). The structural gate checks schema, not contribution."
+  },
+  {
+   "claim": "v14 writer input grew 32.8% over v13 v2 with unproven benefit.",
+   "evidence": "v14/COMPARISON.md: '201,665-byte packet is 32.8% larger than v13 v2's recorded 151,835 bytes. The 49,245-byte preceding prose explains almost all the growth ... It sometimes retells material too'.",
+   "cause": "Full previous prose was supplied for continuity; the compact reader-state ablation was never run."
+  },
+  {
+   "claim": "First Sol accounting ate half the output and overclaimed.",
+   "evidence": "v14/COMPARISON.md: '44,781 bytes (51.4%) are accounting JSON'; '180 connected claims are not endorsed as semantic coverage'.",
+   "cause": "The output contract asked for exact-excerpt accounting and let whole paragraphs be copied."
+  },
+  {
+   "claim": "v3 prose introduced faults the anchor scoring cannot see.",
+   "evidence": "v13/DESIGN.md §12: 'a \"not X but Y\" against an attested branch ... unsupported bridges (blood-money; \"güneş tapılacak bir şey değildir\"), first-person memory hedges and workflow words (\"kayıtlarda\"), scholarly transliteration'.",
+   "cause": "Unknown. Inference: budget pressure plus payoff-driven compression."
+  }
+ ],
+ "recorded_verdicts": [
+  {
+   "source": "_commentary/v13/HANDOFF.md 'Overall assessment'",
+   "verdict": "The funnel's split is right: generative discovery (step 1) and the network are strong and recover what v11/v12 audited away ... The weak joint is the handover from records to prose. The first run under-delivered (things found, then dropped); the v2 fix over-delivered (everything forced in, catalogue-sized)."
+  },
+  {
+   "source": "_commentary/v13/HANDOFF.md, 1:5 effort comparison",
+   "verdict": "Recommendation: high for the per-ayah steps; test xhigh for the network alone (one call per surah); fix the must-land list first. The length of the three new versions is the must-land overshoot, not effort."
+  },
+  {
+   "source": "_commentary/v13/EVAL_ANCHORS.md 'What the scores say'",
+   "verdict": "v2 has no content regression against the first run ... The 'first-run 1:6 is the richest' judgment is about form, not content ... 'regression' in this project has two axes that must be scored separately: anchors (recall) and form ... Effort above high buys little on anchors."
+  },
+  {
+   "source": "_commentary/v13/EVAL_ANCHORS.md v3",
+   "verdict": "the ranked budget bought form at the price of recall: −3 to −4 anchors on 1:5, −8 on 1:6. The trade is not acceptable as it stands for 1:6 (below the first run)."
+  },
+  {
+   "source": "_commentary/v13/EVAL_ANCHORS.md v4",
+   "verdict": "Against the first run v4 is one anchor short and 1,700 words longer; against Sol it is one anchor short with 3.6× the checkable tags and headings."
+  },
+  {
+   "source": "_commentary/v13/DESIGN.md §12 (independent Opus review)",
+   "verdict": "v3 did not remove the catalogue, it re-shaped it: root/branch mentions per 1,000 words are 10.2 (first run), 13.6 (v2), 17.5 (v3), 7.6 (Sol) ... For the reader the first run's 1:6 is still the best of the three ... v14's JSON account is the accounting trap (51% of Sol's output bytes; 180 of 192 items claimed 'connected')."
+  },
+  {
+   "source": "_commentary/v14/COMPARISON.md",
+   "verdict": "The eight predeclared preservation criteria survive; the two improvement criteria show progress. The candidate remains unaccepted: four Arabic quotations differ from the verifier's spelling conventions."
+  },
+  {
+   "source": "_commentary/v14/STABILIZATION_COMPARISON.md",
+   "verdict": "The same Sol max model can produce exact tagged sources and substantially smaller accounting ... It still omits an earlier explanatory connection while claiming the larger source record is connected ... not evidence that the remaining synthesis problem is solved or that a model ceiling has been identified."
+  },
+  {
+   "source": "_commentary/v14/REVIEW_RESPONSE.md",
+   "verdict": "The project's NORTH_STAR.md does state an Opus-high production preference based on older runs. That is a prior project decision, not a fresh controlled finding that this Sol writer cannot transfer ... A model limitation remains possible; this comparison has not established it."
+  },
+  {
+   "source": "_commentary/v14/ARGUMENT_COMPARISON.md",
+   "verdict": "Astra is the stronger candidate in this matched run ... Neither candidate is accepted: both lose the explicit connection between the trodden road surface, the signs and the centre line ... The prompt and the writer both matter."
+  },
+  {
+   "source": "_commentary/v14/BLIND_29_38_RESULT.md",
+   "verdict": "Astra produced a substantial, well-grounded reading from the unchanged v14 single-ayah path ... It remains experimental: two invalid trace anchors fail the structural check, and the reading still contains serial excursions and unresolved deferrals. This result does not establish reliable blind generation for arbitrary ayat."
+  },
+  {
+   "source": "_commentary/v14/COMPOSITION_RESULT.md",
+   "verdict": "The old design encouraged exhaustive representation and produced a catalogue. This design successfully removes that pressure, but does not reliably distinguish an expendable association from a consequential supported surprise ... We shifted from excessive inclusion to consequential exclusion."
+  },
+  {
+   "source": "_commentary/v14/out-sol-astra-composition-29-38/s029/29_38/independent.review.json",
+   "verdict": "Failed treatment: substantially clearer and shorter, but loses the predeclared supported lexical contribution. Stop this variant under the agreed rule."
+  },
+  {
+   "source": "_commentary/v14/INPUT_AUDIT.md",
+   "verdict": "the funnel does not need a broad rewrite for this trial. The writer handover needed an outcome-based revision. The inherited upstream has specific gaps to fix and test separately before production."
+  },
+  {
+   "source": "_commentary/v14/HANDOFF.md",
+   "verdict": "Under the agreed stopping rule, stop this treatment: no prompt tuning, target-specific restoration or new call starts automatically ... Production requirement clarified by the user: this pipeline must run blind for any supplied ayah."
+  }
+ ],
+ "failure_modes": [
+  "Handover loss (records → prose): items found upstream are dropped, turned into caveats or reversed, and assemblies are not assembled (v13/HANDOFF.md).",
+  "Obligation-list catalogue: 'every item lands' produced 49-144 items and 5-8K words with 900-word paragraphs (v13/HANDOFF.md; EVAL_ANCHORS.md).",
+  "Budget-driven recall loss: the ranked budget demoted the images that carried the anchors (EVAL_ANCHORS.md v3).",
+  "Script-proxy bugs silently deciding content: mustland counted entries instead of distinct words, the staging regex missed double tags, and demotions were unrecorded (v13/DESIGN.md §12).",
+  "Role caps displacing work: an assembly cap produced 17 develops at 1:6 and a serial tour (EVAL_ANCHORS.md v4).",
+  "Roll-call assemblies that name later ayat's members (v2's 1:4 water; DESIGN §12).",
+  "An image never assembled as one scene across any arm (the water system: rain, gathered water, well, beam), plus misuse of a member (B012 as a sword hilt in v2 1:6) (EVAL_ANCHORS.md G023).",
+  "CLI 64K-per-response cap: max effort was all thinking and failed; QeQ was capped 4 times, forcing a QeQ trim (DESIGN §10; HANDOFF.md).",
+  "429 session limits refused 5 calls at $0 (out-v2.run.log; out-mixed.run.log).",
+  "Estimator blind to output growth: xhigh write $5.90 against an estimate of $2.39; mixed QeQ $4.87 against $1.42 (status files).",
+  "Cost double-counting over resumed parts, fixed later (HANDOFF.md traps).",
+  "No prefix caching via claude -p (DESIGN §9).",
+  "Writer self-accounting bloat and overclaiming: 51.4% of output, 180/192 'connected' (v14/COMPARISON.md).",
+  "Source-convention mismatch: concordance spelling differed from the verifier's (4 failures) (v14/COMPARISON.md).",
+  "Multi-part records hide omitted components: a 'linked' record does not mean it was explained (v14/ARGUMENT_COMPARISON.md).",
+  "Writer compression drops explanations even after retrieving the source (Sol: 18:1-2, 20:10, 17:97) (ARGUMENT_COMPARISON.md).",
+  "Word mislocation: Sol placed 'âlemler' and 'sahip' in 1:5 (ARGUMENT_COMPARISON.md).",
+  "Early selection pruning a supported surprise with no discoverable cue downstream (composition) (COMPOSITION_RESULT.md).",
+  "Trace anchor punctuation mismatch leaves 4 IDs unreported (Astra blind) (BLIND_29_38_RESULT.md).",
+  "Broken Turkish transliteration that the verifier cannot see ('sebbel tü', 'müm teli'') (BLIND_29_38_RESULT.md).",
+  "Persistent serial touring and excursions in both Sol and Astra (ARGUMENT_COMPARISON.md; BLIND_29_38_RESULT.md).",
+  "Containment violations, unsupported bridges, first-person hedges and workflow words in the prose (v13/DESIGN.md §12).",
+  "Missing evidence lines: branches embedded in finding text but absent from branches.md; variant evidence absent; rare lemmas hidden by the concordance threshold (v14/ARGUMENT_COMPARISON.md; INPUT_AUDIT.md).",
+  "The concordance was specified in the v13 brief but never supplied to the v13 writer until v3 (v14/INPUT_AUDIT.md: 'Writer never received it in v13 despite being told to use it').",
+  "Narrow acceptance gates: the ten-case gate returns 'eligible: true' while real losses exist (STABILIZATION_COMPARISON.md).",
+  "One-sample decisions: 'two replicates per decisive comparison' was listed as not done (v13/DESIGN.md §12); run-to-run variance of the network (15/25/23/28 images) was never measured."
+ ],
+ "dilution_evidence": [
+  "More obligations raised recall and destroyed form. v2's must-land list (1:6: 119 items) lifted 1:6 anchors from 23 to 27 but produced 7,451 words with a longest paragraph of 897 (v13/EVAL_ANCHORS.md). The 'richest' first run (149 KB input, no mustland) had the best form.",
+  "Fewer obligations restored form and lost recall: v3 went from 27 to 19 anchors on 1:6 (EVAL_ANCHORS.md). No v13 contract got both.",
+  "More instructions and inputs to the writer did not buy anchors. v4 input was 235 KB (network.view 60 KB plus previous 38 KB plus mustland) against 149 KB in the first run, yet 1:6 scored 22/7/1 against the first run's 23/4/3 (out-v4/s001/1_6/write.status.json; EVAL_ANCHORS.md).",
+  "More thinking did not buy anchors. xhigh and mixed 1:5 scored 18 and 20 against v2's 19 at 3.4x and 2x cost; max failed outright (EVAL_ANCHORS.md; DESIGN §10).",
+  "Step 1 with a large packet (60-161K tokens including 25-62 KB of HFT and a 63-156 KB window scan) still found 'nearly every gold and anchor item' (HANDOFF.md). Bulk input did not visibly hurt discovery; the harm appears at synthesis. Inference: dilution is a synthesis-stage problem.",
+  "Full previous prose (49 KB) was supplied for continuity; 'It sometimes retells material too' and 'no ablation establishes that the entire preceding essay was necessary' (v14/COMPARISON.md).",
+  "Retrieved or available input does not mean it was used. Sol retrieved 18:1-2 and 20:10 and still omitted them (STABILIZATION_COMPARISON.md; ARGUMENT_COMPARISON.md). 'Large research retention is not itself evidence that its distinctive material reaches the reader' (COMPOSITION_RESULT.md).",
+  "Output breadth tracked input breadth. Astra with the full 181 KB index plus 94 KB of lookups wrote 6,509 raw words in 60 paragraphs with excursions; with a 66 KB selected packet it wrote 1,374 words in 15 paragraphs and lost the rare-sense surprise (BLIND_29_38_RESULT.md; COMPOSITION_RESULT.md). Inference: neither extreme meets NS7; the missing piece is payoff-aware selection that protects supported surprises.",
+  "An extra step can hurt. The added Sol synthesis stage made its omission decisive for the downstream writer (COMPOSITION_RESULT.md).",
+  "Compaction without a quality test: the 18:96 step-1 input went from 594 KB to 350 KB by using branch_table instead of section_dictionary and compacting pairs (DESIGN §8). No before/after quality comparison was recorded.",
+  "Quoted in v13/DESIGN.md §1 (from w10, outside my scope): '4:34: cold Opus 8 anchors, with the dictionary 5, with the full package 5'."
+ ],
+ "luna_evidence": [
+  "Luna: not used in v13 or v14 ('Luna is not used in v13', v13/HANDOFF.md standing rules; 'Dropped: ... Luna as a nominator', v13/DESIGN.md §7). No Luna evidence in this scope.",
+  "Sol (gpt-6-sol, max) did well on paragraph discipline (median paragraph 113-164 words, longest 151-280), the lowest catalogue proxy (7.6 per 1,000 words, DESIGN §12), exact sources once the packet and verifier agreed (23/23, then 110 tags), and a clear opening, gift circuit and balance/reckoning (v14/COMPARISON.md, STABILIZATION_COMPARISON.md, ARGUMENT_COMPARISON.md). Its 1:6 anchor score was 23/6/1 on the v13 30-anchor sheet, equal to the Opus first run's 23 integrated and below Opus v2's 27 (EVAL_ANCHORS.md).",
+  "Sol did badly at compressing distinct explanations away, including requested and retrieved ones (Book 18:1-2, fire 20:10, face-down 17:97). It deferred the well frame as adding 'no direction'. It mislocated words to the wrong ayah. It overclaimed 'connected' (180/192) (ARGUMENT_COMPARISON.md; COMPARISON.md). As synthesizer in the composition trial it selected 19 of 169 records and dropped the rare-sense tent-seam/eye-film relation, building 'chiefly from Quranic narrative and wording relationships' (COMPOSITION_RESULT.md).",
+  "Astra (gpt-6-astra, max) did well: 'stronger retention, source caution and functional development' ('Durmak, burada hareketin koşuludur'). It used 90:10 to keep the direct-object claim from becoming mechanical. It reported source gaps (gh-d-b B004) instead of inventing. In blind 29:38 it carried rare dictionary senses (51 dictionary tags) and kept the upstream corrections (ARGUMENT_COMPARISON.md; BLIND_29_38_RESULT.md). As a prose-only writer after Sol it 'preserves the valuable connections Sol did supply' and 'does not introduce the decisive regression' (COMPOSITION_RESULT.md).",
+  "Astra did badly on length (6.4-6.5K raw words), serial excursions, broken transliteration, and a trace anchor punctuation failure. It lost the trodden-surface connection in 1:6 and made no extra lookups when given a selected packet (ARGUMENT_COMPARISON.md; BLIND_29_38_RESULT.md; COMPOSITION_RESULT.md).",
+  "No Opus control was ever run on the v14 handover: 'an Opus control would be a separate authorized experiment' (v14/DESIGN.md). So the v14 evidence cannot say whether Astra matches or beats Opus-high on synthesis. This leaves NORTH_STAR's 'Sol and Astra (v5's S1) did not reach it' unretested on matched inputs (REVIEW_RESPONSE.md). Sol and Astra cost per ayah is unknown."
+ ],
+ "pretraining_vs_data_evidence": [
+  "Pushed dictionary data made the difference for rare senses. In 29:38, Opus step 1 found F74 'بصيرة is defined as the join between the two panels of a house (tent)' (ب ص ر B006) and F75 'The path-word's eye-disease is defined as a film \"like a spider's weaving\"' (س ب ل B010), copied from dictionary anchors (v14/out-blind-29-38-upstream/s029/29_38/act.md lines 75-76). This is the NORTH_STAR's own example of a rare sense a model will not recall ('the eye disease in as-sabīl'). It reached the reader only when the writer had the dictionary lines (Astra blind: 51 dictionary tags). It was lost when the selection dropped the branches (composition: 0 dictionary quotations).",
+  "Pushed concordance data made the difference for loaded words and counts. 18:96 F4's exact distribution (20 uses: 12 horn, 5 breath, 2 Isa, 1 craft) and further loaded patterns (zubar 10/11 scripture; ṣadaf 4/5 turning away; ḥadīd 14/25 limits) come from concordance.md (v13/out/s018/18_96/act.md). The write brief makes the concordance the only authority for counts (v13/prompts/write.md). The QeQ legacy digest counts conflicted with it (h-d-y 308/316; q-w-m 643/660; v14/INPUT_AUDIT.md).",
+  "Pretraining sufficed to locate QeQ passages. The QeQ brief says 'Work from your knowledge of the whole Quran' with references only (v13/prompts/qeq.md). It produced 54-76 annotation lines per ayah, and staging passages like 28:22, 20:10 and 17:97 were found. Exact Arabic still needed a source: every quotation was checked against the canonical text, and Sol's 4 mismatches came from input spelling, not memory (v14/COMPARISON.md). v14 added exact lookup because 'Most QeQ entries give references and English descriptions, not retrieved Arabic' (INPUT_AUDIT.md).",
+  "Memory contributes a notable share of discovery (my counts of 'memory: yes' flags): 44 of 408 first-run step-1 records (10.8%) across 1:1-1:7 and 18:96; 11 of 71 (15.5%) in xhigh 1:5; 16 of 86 (18.6%) in 29:38. The flag is used mostly for Quran cross-references recalled from memory (e.g. v13/out/s001/1_3/act.md F11 'people ask one another by God and by the wombs'), not for invented senses. unknown_branches was [] in every act.check.json, so the dictionary guard held.",
+  "Model knowledge supplied the loaded-word idea but not its evidence. The brief asks for 'the share (e.g. 11 of 13 uses)' and the model computed it from the pushed clauses (v13/prompts/act.md; act.md F4).",
+  "Grammar and Turkish loss came largely from pretraining plus word notes (no grammar DB in the packet). They were rated 'good, better than v12' (v13/HANDOFF.md). Inference: the model's own grammar knowledge suffices for NS2 without pushing the grammar attachment records.",
+  "Mechanism and scene knowledge (the well needs its rope and pulley) is pretraining. The designers removed such examples from the briefs as known-answer leaks (v13/DESIGN.md §8), and step 1 still assembled the water system's members, including the well-frame (HANDOFF.md). Inference: the model supplies the mechanism schema; the dictionary supplies the rare members."
+ ],
+ "reusable_artifacts": [
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v13/packet.py",
+   "what": "Script packet builder: window scan (every branch of every root), compact focus dictionary, concordance with clause per use, compact pairs, HFT, reciprocal, window_text.",
+   "coverage": "Runs for any ayah whose V9 context.md and 03_pairs.md exist: 30 ayat (_commentary/v9/lines/work: S1, S100, S103 1-3, 18:86, 18:96, 29:38/39/41/45, 4:34, 5:6, 96:1). The V9 builders are scripts (v9/lines/package.py, v9/prepare.py), so this is extendable.",
+   "reuse_idea": "The deterministic evidence layer for any new method. The concordance-with-clauses is the cheapest high-value input (loaded words, counts)."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v13/out/s0*/*/act.md (+ v13/out-xhigh/s001/1_5/act.md, v14/out-blind-29-38-upstream/s029/29_38/act.md)",
+   "what": "Opus-high discovery records: kind, words, branches, trigger with scope, partners, image, verbatim anchor, memory flag.",
+   "coverage": "1:1-1:7, 18:96, 29:38 (plus an xhigh 1:5): 408 + 71 + 86 records.",
+   "reuse_idea": "Labelled positives (branch plus trigger word plus image) for training or evaluating a distance measure or retriever (Q2b, Q5). Too few for training; usable as an eval set for 'does the retriever surface these branch pairs'."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v13/out*/s001/network.md",
+   "what": "Four independent S1 image networks: members with roles, movement, meetings, purpose, disclosure plan, N-added members, unplaced list.",
+   "coverage": "S1 only; 15, 25, 23 (xhigh) and 28 images.",
+   "reuse_idea": "Chain gold for S1 and the only multi-run data on network stability. Input for a surah-commentary step (NS12), which was never built."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v13/out*/s0*/*/qeq.md",
+   "what": "Per-finding QeQ relation labels (supports/expands/shifts/contradicts) with [staging]/[same-word] tags, Q findings and axis passages.",
+   "coverage": "1:4-1:7 and 18:96 (first run and v2), 1:5 xhigh and mixed, 29:38 (v14 upstream).",
+   "reuse_idea": "Labelled (finding, passage, relation) triples for tuning a passage retriever or evaluating QeQ recall."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v13/EVAL_ANCHORS.md",
+   "what": "Hand scoring on the A/M/I scale: 22 anchors for 1:5 across 5 arms and 30 anchors for 1:6 across 6 arms incl. Sol, plus form metrics and the catalogue proxy.",
+   "coverage": "1:5 and 1:6.",
+   "reuse_idea": "A ready two-axis regression yardstick (recall plus form/catalogue density) for any new method on 1:5/1:6."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v14/eval/regressions-v3.json (and regressions.json)",
+   "what": "15 passage-based, evaluation-only criteria for 1:6 with rationale.",
+   "coverage": "1:6 only.",
+   "reuse_idea": "Frozen acceptance criteria for 1:6; the template for per-ayah semantic criteria."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v14/sources.py + source.lookups.jsonl in each v14 arm",
+   "what": "Exact Quran text under the verifier's normalization, bounded lookup with neighbours, and logs of what each writer chose to retrieve.",
+   "coverage": "Whole Quran text (inputs/quran.tsv 1.4 MB); lookup logs for 5 writer runs.",
+   "reuse_idea": "A pull-not-push source tool for any writer. The lookup logs are weak labels of which passages writers found relevant."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v14/synthesis.py",
+   "what": "Lossless parser and index of F/E_F/Q/A/I/meeting records, fixing wrapped records and adjacent tags.",
+   "coverage": "Any v13-format arm.",
+   "reuse_idea": "Handover builder. Pair it with a visible index of unselected items (the composition's missing piece)."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v14/out-*/s0*/*/synthesis.account.json, handforward.md, research.disposition.json",
+   "what": "Writer traces (linked/partial/deferred per item) and the Sol selection of 19/169 records.",
+   "coverage": "1:6 (4 writers), 29:38 (2).",
+   "reuse_idea": "Weak labels of which findings writers used, partially used or dropped; paired with the reviews, these give evidence of consequential omissions."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v14/review.py, input_audit.py, experiment.py, test_v14.py, test_composition.py",
+   "what": "Frozen-arm experiment harness: hashes, exclusive claims, evaluation exclusion, source check via v11 verify_src.py and v5 validate_prose.py, per-file input byte audit; 30 offline tests.",
+   "coverage": "Generic.",
+   "reuse_idea": "A controlled A/B harness for any new method (freeze inputs, one generation, independent review)."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v13/out*/s0*/*/*.reading.tr.md and v14/out-*/*/*.reading.tr.md",
+   "what": "Turkish commentaries.",
+   "coverage": "v13: 1:4-1:7 and 18:96 (first run), five v2 files, 1:5 xhigh and mixed, 1:5/1:6 v3, 1:6 v4. v14: four 1:6 Sol/Astra files and two 29:38 files.",
+   "reuse_idea": "Cross-model and cross-contract comparison corpus for the main session; candidates for gold-reading curation."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v13/out*/**/*.status.json",
+   "what": "Per-call token accounting: cache write/read, output, thinking, minutes, parts, cost.",
+   "coverage": "All v13 calls and the v14 29:38 upstream.",
+   "reuse_idea": "Calibrating an output-aware cost estimator and Batch/caching projections."
+  }
+ ],
+ "unharvested_ideas": [
+  {
+   "idea": "Batch API runner with explicit cache_control after the shared window part (brief plus window.md byte-identical across the ayat of a window).",
+   "where": "v13/DESIGN.md §9; HANDOFF.md next steps 5",
+   "why_dropped": "Tests ran on claude -p, which gives no prefix hits; never built.",
+   "potential": "Inference: ~50% batch discount plus cached window prefixes (63-156 KB shared) could bring the measured $3.7-6.8 per ayah toward the $1.3-1.9 the design estimated (DESIGN §5)."
+  },
+  {
+   "idea": "Step S, the surah commentary consuming the network plus handforward/deferred material.",
+   "where": "v13/DESIGN.md §3 Step S; v14/DESIGN.md",
+   "why_dropped": "Never reached; each session tuned the per-ayah writer instead.",
+   "potential": "NS12 is absent without it. It would also give the deferred material and the 'assemblies deferred to the surah commentary' a real destination."
+  },
+  {
+   "idea": "Reciprocal inter-ayah list as a final missing-passage check.",
+   "where": "v13/DESIGN.md §3 Step 2; qeq trim commit 7752e96ba",
+   "why_dropped": "Postponed to cut QeQ output below the 64K cap.",
+   "potential": "A cheap script-plus-small-call recall check for QeQ (NS6)."
+  },
+  {
+   "idea": "5:6 dilution arm (scan vs focus dictionary only), and the remaining test ayat 18:86, 5:6, 4:34, 29:41.",
+   "where": "v13/DESIGN.md §8, §6; HANDOFF.md next steps 4",
+   "why_dropped": "Time went to handover fixes on S1.",
+   "potential": "The only planned direct measurement of input dilution inside the funnel, plus the ḥamaʾ test of NS5."
+  },
+  {
+   "idea": "xhigh for the network alone (one call per surah).",
+   "where": "v13/HANDOFF.md 1:5 effort comparison",
+   "why_dropped": "Never tested separately.",
+   "potential": "The mixed arm's gain was cross-root scenes from the xhigh network (the four-root traveller); per-surah cost amortizes."
+  },
+  {
+   "idea": "Ablations of HFT and pairs in step 1.",
+   "where": "v14/INPUT_AUDIT.md ('Test removal separately'; pairs 'first safe ablation candidate')",
+   "why_dropped": "Not run.",
+   "potential": "HFT is the largest per-ayah step-1 file (25-62 KB). Removing it could cut cost if the channel review covers it."
+  },
+  {
+   "idea": "Compact verified reader-state in place of the full previous prose (49 KB).",
+   "where": "v14/COMPARISON.md; STABILIZATION.md; HANDOFF.md",
+   "why_dropped": "Kept as a 'separate ablation', never run.",
+   "potential": "Continuity (NS4 progressive disclosure) at a fraction of the input; could also fix the trodden-surface reconnection failure."
+  },
+  {
+   "idea": "An index of unselected findings and branches visible to the downstream writer (a discoverable archive).",
+   "where": "v14/COMPOSITION_RESULT.md 'Root cause'",
+   "why_dropped": "The treatment was stopped under the agreed rule.",
+   "potential": "It directly addresses the composition failure mode; lets a two-stage synth → prose design keep supported surprises."
+  },
+  {
+   "idea": "Opus-high control on the v14 handover.",
+   "where": "v14/DESIGN.md ('an Opus control would be a separate authorized experiment')",
+   "why_dropped": "Not authorized or run.",
+   "potential": "Would settle whether Astra can replace Opus for synthesis (NS13 cost) on matched inputs."
+  },
+  {
+   "idea": "Blind generalization batch on varied, previously unused ayat with frozen prompts.",
+   "where": "v14/ARGUMENT_COMPARISON.md; HANDOFF.md",
+   "why_dropped": "Only 29:38 was run.",
+   "potential": "Needed before any production claim; also yields labelled examples across the Quran."
+  },
+  {
+   "idea": "Component-level omission tracking (partial use inside multi-part records).",
+   "where": "v14/STABILIZATION_COMPARISON.md; ARGUMENT_COMPARISON.md",
+   "why_dropped": "Schema 3 was attempted; writer self-reports still missed components.",
+   "potential": "Inference: better done by a script or a separate cheap reviewer than by the writer."
+  },
+  {
+   "idea": "Separate root and lemma concordance coverage (rare lemma inside a frequent root); recover branch refs embedded in finding text; count authority for QeQ.",
+   "where": "v14/INPUT_AUDIT.md; ARGUMENT_COMPARISON.md",
+   "why_dropped": "Recorded as gaps, not implemented.",
+   "potential": "Cheap script fixes that close evidence gaps behind NS5/NS10."
+  },
+  {
+   "idea": "Two replicates per decisive comparison; measure network stability.",
+   "where": "v13/DESIGN.md §12 'Not done yet'",
+   "why_dropped": "Cost and time.",
+   "potential": "Every v13/v14 decision rests on single samples. The four S1 networks (15-28 images) suggest high variance."
+  },
+  {
+   "idea": "Output-aware cost estimate.",
+   "where": "v13/HANDOFF.md next steps 5",
+   "why_dropped": "Not built.",
+   "potential": "Would have prevented the xhigh and max overruns; needed for the $5 gate."
+  },
+  {
+   "idea": "Long-surah handling (network per window plus surah merge; step S per image section).",
+   "where": "v13/DESIGN.md §8",
+   "why_dropped": "Not addressed.",
+   "potential": "Required for production beyond short surahs."
+  }
+ ],
+ "key_lessons": [
+  "Q1: Discovery is not the bottleneck. Opus-high step 1, on a big deterministic packet, found nearly every gold/anchor item for S1, the rare-sense tent seam and eye-film for 29:38, and the loaded word nafakha for 18:96 (v13/HANDOFF.md; v14 29:38 act.md F74/F75). Every loss happened at the records-to-prose handover. The unharvested value is in synthesis selection and in the never-built surah commentary (NS12).",
+  "Q1/Q4: Every handover contract tried trades recall against form, with no contract achieving both. Obligation lists gave a catalogue (v2). Budgets and caps lost recall or produced serial tours (v3, v4). A lossless index plus a strong writer gave retention with touring (Astra). Upstream selection gave clarity and lost the surprise (composition). This is iterative contract tuning hitting a wall, as the user suspects. Inference: a qualitatively different selection mechanism is needed, one that ranks by payoff for the primary reading while protecting rare-sense cross-definitions from being cut, and that keeps unselected material visible downstream.",
+  "Effort above high is not the lever. xhigh and mixed added scenes, not anchors, at 2-3.4x the cost. Max failed under the CLI's 64K per-response cap (EVAL_ANCHORS.md; DESIGN §10). Thinking is already 62-78% of output at high.",
+  "Q2a: Push data where the model cannot recall it: dictionary branches for rare senses (29:38 eye-film/tent seam) and concordance clauses for counts and loaded roles (18:96). Let pretraining supply Quran cross-references (QeQ worked from memory, references only) and mechanism schemas, and verify exact Arabic by lookup afterwards (v14 sources.py). About 11-19% of discovery records lean on memory, flagged (my counts). The dictionary guard held: zero unknown branches.",
+  "Q2b: The labelled material in this scope is small and concentrated. About 565 discovery records (branch + trigger + anchor) cover 9 ayat; there are 4 S1 networks, QeQ relation labels for 6 ayat, 52 hand-scored anchors (1:5/1:6), 15 regression criteria (1:6), 5 writer lookup logs and 6 writer traces. That is enough for an eval set for a retriever or distance model, not for training one.",
+  "Q3: The composition experiment is the closest analogue to 'a new step on top of existing upstream': a cheaper or different model selects, then a strong writer writes. It failed because the first stage's selection was decisive and invisible downstream (COMPOSITION_RESULT.md). Any step added on top of v5/Luna outputs must hand forward a discoverable index of what it did not select and protect rare-sense findings. Otherwise it reproduces this failure.",
+  "Q4: Writer model matters on a fixed packet. Astra retained and developed more than Sol, and Sol compressed away even retrieved explanations (ARGUMENT_COMPARISON.md). No Opus control was run, so the NORTH_STAR claim that only Opus-high synthesizes is untested on the v14 handover. Astra's cost per ayah is unknown.",
+  "Q5: The only similarity measure in the path is V9's pairs (reciprocal-rank affinity over a global branch-image network, v9/prepare.py:212-222). It was used as candidate ordering and never ablated or evaluated. The step-1 records (branch pairs that formed images, with the activating word) are a ready test set for any new quran-slm distance: does it rank those partners above the scan's other branches?",
+  "Measurement lesson: regression needs at least two axes, anchors (recall) and form (words, paragraph length, catalogue proxy of root/branch mentions per 1,000 words). A narrow predeclared gate or writer self-accounting overstates coverage (EVAL_ANCHORS.md; STABILIZATION_COMPARISON.md). Writer self-accounting also costs 20-51% of output (v14 metrics).",
+  "Economics lesson: the funnel compressed upstream records (17-42 KB per ayah) but writer inputs grew (149 → 235 KB), and claude -p gives no caching. Measured $3.7-6.8 per ayah list price. Reaching ~$1-2 requires the Batch plus cache_control path, which was designed but never built (DESIGN §9), and smaller writer inputs."
+ ],
+ "open_questions": [
+  "Would Opus-high as writer on the v14 argument handover (lossless index plus lookup plus schema-3) match or beat Astra-max, and at what cost? No control was run (v14/DESIGN.md).",
+  "What do Sol and Astra cost per ayah? Unknown: token_usage and cost_usd are null in every agent.provenance.json.",
+  "Is the S1 network's image and role assignment stable across reruns? Four runs gave 15, 25, 23 and 28 images; variance was never measured and no replicates were run (v13/DESIGN.md §12).",
+  "Does HFT add anything beyond the channel review in step 1? Do pairs help? Both are unablated (v14/INPUT_AUDIT.md).",
+  "Can a compact reader-state replace the 49 KB previous prose without losing continuity? Untested.",
+  "What is the real production cost with Batch plus cache_control on window-shared prefixes? Unmeasured (v13/DESIGN.md §9).",
+  "Does the funnel beat the cold arm per dollar on the same ayat? v13 never ran 5:6 or 4:34 (the cold-arm ayat). Unknown within this scope.",
+  "Can any selection mechanism reliably protect a 'consequential supported surprise' (e.g. a rare-sense cross-definition) without reintroducing obligation-list cataloguing? The composition failure leaves this open (v14/COMPOSITION_RESULT.md).",
+  "Does the pipeline generalize blind to unseen ayat? Only 29:38 was run blind; 'This result does not establish reliable blind generation for arbitrary ayat' (BLIND_29_38_RESULT.md).",
+  "Whether the xhigh network alone improves cross-root assembly enough to justify its cost is untested.",
+  "The status files record effort 'high' for the xhigh and mixed arms, likely overwritten when statuses were recomputed at 15:05. The actual effort per call is confirmed only by the arm tags and run logs, not the status files.",
+  "The handoff's v2 cost ($34.46) differs from my status-file sum ($29.10) by exactly the capped QeQ calls ($5.36); the reason for the difference is unknown."
+ ]
+}

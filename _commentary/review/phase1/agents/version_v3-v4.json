@@ -1,0 +1,410 @@
+{
+ "scope": "Commentary workflows v3 and v4. Paths: /Volumes/OZTURK/_projects/prose_generation/_commentary/v3 and /Volumes/OZTURK/_projects/prose_generation/_commentary/v4, covering README, ORCHESTRATION, workflow.py, v3lib, render_authoring.py, composition.py, prompts, schemas, inputs, outputs, and the raw/editorial/legacy/stale/failed-artifacts folders. I also looked at what they inherited: the v2 single-prompt Layer-2 PROMPT in _ayah_commentary/v2/PROMPT.md, 1,055 v2 editorial outputs in _commentary/outputs, the archived ledger-first v2 in archive/_commentary/v2, the S100 v2 writer-model comparison, the root specs of that time (COMMENTARY_SPEC.md at git 097b3e383, PRINCIPLES.md, and PLAN.md at git 076332f0a), and bundles/schema.json. Several 29:38 artifacts were deleted from the working tree on 2026-09-08 (commit f74734ef4, whose message says checkpoint 25916df4 keeps the comparison baselines). I read them read-only from git: v3 legacy f0d37fe75, v3 authoring completion 08cdb7ec5, and v4 generations c64ab8234 and e86c67b2f. Temporary extracts are in /private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase1/v3-v4/git/. The north-star ids NS1–NS13 are used throughout. I did not compare prose quality across versions. Ratings are for v3/v4 against NORTH_STAR.md only.",
+ "timeline": "Recorded dates come from git log and file mtimes. Commit messages are terse and record no costs.\n- Inheritance, 2026-07-27 to 08-25. The v2 single-prompt Layer-2 path used _ayah_commentary/v2/PROMPT.md (added 08-17 in 5ff3eaec8), bundles and an editorial follow-up. It produced 1,055 editorial ayah proses by 08-25 (my count of *.prose.editorial.tr.md in _commentary/outputs, for S1, 5, 12, 17, 18, 19, 22, 24, 29 and 87–114; last batch fa1de7f88 'Add layer 2 commentary outputs for S17 S19 S22 S24 S29', 08-25). PLAN.md (076332f0a) already warned that 'S1 cannot be the eval surah' because docs/CHANNELS.md holds worked Fatiha answers.\n- v3 legacy structured path. Created 08-28 in f0d37fe75 ('Add standalone commentary v3 workflow'): two model calls, adjudication then synthesis, over one hermetic bundle with micro/macro/global as evidence scopes. The same day it ran on 29:38–29:41; outputs are committed in f0d37fe75. Matured 08-29 in 19d0eb082, which added the 2,147-line discovery.py.\n- v3 prose-first authoring path. Added 08-31 in a4c466a87. The same evening 317b67db8 ('Expose all HFT evidence to prose authoring') and 13390413b ('lossless reciprocal inter-ayah') followed. Completed 09-01 in 08cdb7ec5, which includes a finished 29:38 lineage with editorial output. Then came native multi-agent orchestration (5c0855db7), S29 hermetic inputs for all 69 ayat (c1e69b155), and JSON hardening, compaction and semantic-review strengthening (fd8788364, 70df97096, f74a84961). The reader-map and invitation prompts were refined in 289fb6d1e. f521fcd33 ('Refresh S1 bundles and branch resolution') removed the prior S29 authoring run. S1 prompts were prepared in fa08c0854 and 3d2430289. Code review was switched to Luna max in a1191bb14.\n- The S1 v3 run started 2026-09-01 22:16 UTC. Session UUIDv7 timestamps in outputs/authoring/s001/*/sessions show 21 scope sessions at 22:16–22:24, reconcilers at 23:18–00:56 and canonical writers for 1:2 at 23:45 and for 1:3 at 00:10. No S1 ayah reached editorial.\n- v4 created 09-01 21:18 EDT (09-02 01:18 UTC) in b4d17b8e9 ('feat: add simplified commentary v4 workflow'). That was about 20 minutes after the last S1 reconciler started. Its README: 'There is no reconciler, scope repair, reconciliation repair, semantic retry, session registry'. Inference: the v3 S1 repair loop prompted v4.\n- v4 changes. 09-02: 58bbb71c6, a4fccc7cd and bf0811edb added basmala units, explicit context and pericope bundles. The first v4 generation ran 09-02 15:xx on 29:38 and 29:0 (later relocated to legacy/pre-v5). cb180d3c4 'Simplify V4 scope authoring' introduced the one-pass scope.md with draft prose, and the second generation ran 09-02 21:28–22:13 (later relocated to stale/rerun-20260903). 09-03 00:25: 097b3e383 'Harden V4 semantic preservation and provenance' added immutable per-finding and per-branch sentences and provenance ledgers. The third generation ran 09-03 08:37–10:50 (e86c67b2f, 'Rerun commentary v4 for 29:0 and 29:38').\n- v4 superseded 09-03 14:48 by V5 (fe7ccf8ee 'Add V5 two-stage commentary workflow'). V5 still imports v3 render_authoring and v3lib.prepare (_commentary/v5/workflow.py:128-130).\n- 09-08: f74734ef4 removed all generated 29:38 outputs of v2/v3/v4 from the tree for a fresh V5 29:38 rerun.\nTotal life: v3 about 5 days, v4 about 2 days.",
+ "mechanism": "v3 legacy structured path (README 'Legacy structured workflow'; prompts adjudication.md and synthesis.md):\n- prepare, in code: validates the bundle and builds a candidate docket from word-analysis topics (must_integrate and candidate count as mandatory), QAC, channel nominations, HFT, reader walks and cross-run anchors. It assigns trust roles, and legacy_unbound material is marked selection-ineligible (adjudication.md:72).\n- one adjudication call: exactly one decision per eligible candidate; mandatory candidates must be selected; a branch_review covers every focus branch as activated or unactivated, with an exact quote.\n- one synthesis call: exactly one finding per selection, each needing a landing_quote in a paragraph.\n- deterministic rendering of four files: prose, evidence, index and friction. Friction holds the full ledgers.\n- Sizes: adjudication prompts of 155–314 KB (inputs/adjudication/s029/*.prompt.json: 69–143 candidates, 48–128 registered branches) and synthesis prompts of 79–147 KB. The Aug-28 synthesis limits were max_findings 48, max_paragraphs 16 and max_prose_chars 24,000 (inputs/synthesis/s029/*.prompt.json).\n- Model: not recorded.\n\nv3 prose-first authoring path (README stage list; ORCHESTRATION §2 and §6), all agents GPT-5.6 Luna at max (ORCHESTRATION.md:68):\n1. Three fresh persistent scope reviewers in parallel: micro (focus surface plus every focus branch facet), macro (pericope, channel nominations, HFT) and global (reader walks, cross-run, reciprocal inter-ayah connections). Each returns an accounting ledger: surface_coverage, branch_screen with tested_facets, contact_opportunities, candidate_decisions, referrals and accepted_findings.\n2. Deterministic conservation checks, then same-session validation repairs.\n3. A fresh reconciler (prompts about 2.06–2.36 MB for 29:38) with repair turns and scope repairs.\n4. Prose preparation in the same scope sessions, under the rule 'every locked finding' must land.\n5. A fresh canonical merge writer: four first-pass files; its prompt embeds PRINCIPLES, COMMENTARY_SPEC, CHANNELS.md and the v2 PROMPT verbatim (scope-merge.md placeholders).\n6. A same-session editorial follow-up (editorial-followup.md, byte-exact).\n7. Turn receipts and workspace guards.\n8. A fresh reader-map worker, never run.\n9. A fresh invitation writer, never run.\n10. A hash-bound completion manifest.\nHandoffs are by absolute prompt path only. Every artifact is content-addressed and Git-staged.\nPacket sizes for 29:38 (inputs/authoring/s029/29_38): micro review about 746 KB, macro about 757 KB, global about 1.45 MB, reconcile about 2.36 MB, scope prose 365–862 KB, merge 315 KB. Repair prompts about 0.8–1.3 MB each.\nCode: about 33k lines of Python including tests (render_authoring.py alone is 11,975 lines).\n\nv4 (README; ORCHESTRATION):\n- prepare: derives the v3 docket in memory and projects the lanes. Each context member is a lean projection. The host S:0 basmala is mandatory in macro, and there are explicit --add-ayat, segments and pericope packages.\n- Three fresh one-pass Luna-max scope authors (gpt-5.6-luna, max; ORCHESTRATION.md:125). Each decides every candidate, tests every branch/facet pair against the whole surface, reviews every connection and its evidence rows, and writes findings with Turkish draft_prose, one immutable prose_statement per finding and one per branch_activation.\n- At most one same-agent repair.\n- A fresh merge-only canonical writer (canonical.md:8: 'Your job is composition, not adjudication'). It copies a workflow-derived provenance ledger per finding into both evidence and index, and a landing map binds the exact sentences.\n- A same-writer editorial pass, then mechanical verify.\n- Sizes for 29:38 in the third generation (input/native/s029/29_38): micro prompt 831 KB, macro 983 KB, global 1.71 MB, canonical 1.29 MB. The branch_registry was 601–878k characters per lane (97–133 branches); global carried 253 connections.\n- Code: about 11k lines.",
+ "inputs_pushed": [
+  "Full Turkish dictionary branch registry for every focus root, pushed verbatim into every lane. It includes definition, distinctive facets as review_facets, contextual and lexical glosses with error_profile (loses/adds/collision), excluded glosses, neighbor distinctions, boundary, sources and what_is/what_is_not_ar. v4 29:38: micro 97 branches / 600,831 chars of a 714,968-char packet; macro 124 / 697,828; global 133 / 877,809 (my count of input/native/s029/29_38/*.packet.json).",
+  "QAC morphemes and focus_surface_evidence word rows from word analysis, plus primary_floor (a plain Turkish footing).",
+  "Word-analysis topics as candidates, with commentary_obligation must_integrate, candidate or ledger_only. v4 29:38 micro: 18 word_analysis, 10 qac_morpheme and 3 hft candidates.",
+  "HFT (Hermetic Focus Trace) records: baseline_models, context_deltas and surprising_valid_outliers, carrying trust labels such as legacy_unbound. v3 legacy quarantined them (README --hft-policy quarantine). Authoring exposed them all (317b67db8).",
+  "Channel review excerpts as channel_subchannels_anchored_here candidates, in macro only. v4 29:38 macro: 4 channel candidates, 20 supports.",
+  "v12 reader walks, wide walks and cross-run publication as global candidates. v4 29:38 global: 2 walks, 3 wide walks, 1 cross-run, 17 hft.",
+  "Inter-ayah focus rows and a lossless reciprocal inter-ayah projection as connection_registry, with authored and reciprocal evidence rows. 29:38 global: 253 connections, 472,144 chars; 1:2 global: 200 connections.",
+  "Pericope and selected context units: v4 used a lean projection (text, root sequence, root occurrences, compact branch_image_ar cues) plus hydrated context branches (auxiliary_context_sources), with the host basmala S:0 in macro.",
+  "Governing documents embedded verbatim in every v4 lane prompt and in the v3/v4 writer prompts: PRINCIPLES.md, COMMENTARY_SPEC.md, docs/CHANNELS.md (which contains worked Fatiha answers) and the v2 PROMPT. The V5 review counts about 10,600 words per lane for these (docs/reviews/commentary-v5-review-2026-09-04.md:129).",
+  "The contract, review_inventory (every surface ref, support id and branch/facet pair to be accounted) and source_coverage blocks in each packet."
+ ],
+ "inputs_pulled_or_optional": [
+  "Nothing was pullable. Both versions are hermetic: 'The inline lane packet is the only evidence available. Paths... are provenance, not permission to read other files' (v4/prompts/scope.md), and 'Add no outside knowledge' (v3/prompts/synthesis.md:5).",
+  "channel_generated_outputs (candidate graphs, family inventories, path families) were given as a manifest only. The v2 PROMPT allowed reading the listed files if access was granted, but the v4 29:0 friction records 'channel-generated outputs were manifest-only and were not read' (v4/editorial/s029-basmala-full/s029/29_0/29_0.friction.editorial.tr.md).",
+  "Code-review agents (Luna max) were optional and used only when code or prompts changed (v3 ORCHESTRATION §2, §11)."
+ ],
+ "available_but_unused": [
+  "Whole-Quran concordance of each focus root (all Quranic uses) for Quran-loaded-word analysis (NS5). Only focus-ayah and pericope/context occurrences were pushed (branch_registry focus_root_occurrences and context_root_occurrences; packet key tree). The source exists at ../quran-slm/resources/source/qac_root_ayah.tsv (AVAILABLE_INPUTS.md).",
+  "Full surah channel reviews (quran-data channels/network-v3/sNNN/review/reader_a_pilot.md, 110 surahs) as surah image chains. Only per-ayah anchored subchannel excerpts were used, and ayah-level prose was forbidden to name surah-wide systems (COMMENTARY_SPEC@097b3e383 line 86; _ayah_commentary/v2/PROMPT.md:174).",
+  "Variant readings (qiraat, ../study/_project_corpus/qiraat.tsv). Not present in the packets. The v3 29:38 friction records sound and genre records as missing.",
+  "Grammar attachment records (../quran-data/data/grammar/attachments/*.tsv). Only QAC morphemes and word-analysis rows were pushed.",
+  "Model pretraining knowledge was treated as contamination: a micro contribution citing 7:201 (not in the micro packet) was rejected as 'invalid-unknown-7-201' (git c64ab8234: v4/failed-artifacts/native/s029/29_38/micro.contribution.invalid-unknown-7-201.json).",
+  "The layer-1 consideredNotPrimary and exclusion artifacts were absent. Their absence is recorded in the v3 1:2 friction under 'Coverage gaps'."
+ ],
+ "models_and_cost": "Models (recorded):\n- v3 authoring: all roles on GPT-5.6 Luna at maximum reasoning (v3/ORCHESTRATION.md:68; code review Luna max per a1191bb14).\n- v4: 'gpt-5.6-luna, reasoning effort max' for scope authors and canonical/editorial writer (v4/ORCHESTRATION.md:125,166).\n- v3 legacy (29:38–41, 08-28): model not recorded in manifests, READMEs or commit messages. Unknown.\n- No Opus, Sol or Astra was used in v3/v4.\n\nCost: no usage ledger exists for v3/v4. Session receipts hold only session IDs. The local ~/.codex/sessions logs start 2026-09-08, after v3/v4, so tokens and dollars are unknown from records. Luna list price recorded elsewhere: GPT-5.6 Luna $0.20 in / $1.20 out per 1M tokens (_commentary/v5/s001-astra-model-pricing-estimate.md:18).\n\nMy counting, using v3's own chars/4 token heuristic ('estimated_tokens_chars_div_4' in the v3 prompt manifests):\n- v3 S1 authoring: 133 prompts totalling 112.9M chars (about 28.2M input tokens) and 137 output artifacts totalling 29.3M chars (about 7.3M output tokens). The repair prompts alone: 131 generated repair prompts totalling about 133M bytes across S1 and 29:38 input trees.\n- Inference: at Luna prices that is about $14 for S1 before reasoning tokens and caching, i.e. about $2 per ayah. None of the seven ayat reached editorial.\n- v4 29:38, third generation: prompts 4.47M chars (about 1.1M tokens) over 5 turns, plus at least 3 failed contribution turns. Outputs about 7.7M chars (about 1.9M tokens), of which about 6.7 MB is provenance-ledger apparatus: raw evidence 1,331,593 B + raw index 2,006,394 B + editorial evidence 1,331,906 B + editorial index 2,006,655 B, against a 45 KB prose file.\n- Inference: about $2.5 per ayah at Luna prices, excluding reasoning; the same token volume through Opus would be far above the $5 ceiling.\n- v4 29:0: prompts 2.11M chars (about 0.53M tokens).\n\nWall time (file mtimes and session IDs):\n- v3 S1: 22:16 to at least 00:56 UTC (2 h 40 min or more) without completion.\n- v4 29:0 third generation: 08:37–09:58 (about 1 h 20 min).\n- v4 29:38 third generation: 08:37–10:50 (about 2 h 13 min).",
+ "ayat_run": [
+  "v3 legacy (adjudication + synthesis): 29:38 (08-28, git f0d37fe75, removed in f74734ef4), and 29:39, 29:40 and 29:41 (still in the tree at v3/outputs/s029 and outputs/adjudication|synthesis/s029).",
+  "v3 authoring: 29:38 completed with editorial (git 08cdb7ec5 COMPLETION.json, 65-artifact lineage; removed in f521fcd33). A partial 29:38 rerun (scope reviews, reconcile, prose drafts, no merge) is in git b4d17b8e9 and was removed in f74734ef4.",
+  "v3 authoring S1, 1:1–1:7 (09-01/02). 1:2 and 1:3 reached first-pass merge (v3/outputs/authoring/s001/1_2|1_3/merge). 1:1, 1:4, 1:5, 1:6 and 1:7 stopped in scope repair or reconciliation. There were 21 reviews, 99 repairs, 6 prose drafts and 3 reconciles in total, and no editorial output.",
+  "v4 29:38 native, three generations: gen1 on 09-02 (legacy/pre-v5, via git c64ab8234), gen2 on 09-02 (stale/rerun-20260903, git e86c67b2f) and gen3 on 09-03 (git e86c67b2f). All were removed from the tree in f74734ef4.",
+  "v4 29:0 prefatory basmala: native gen1 (v4/legacy/pre-v5/.../native/s029/29_0); s029-basmala-full with the whole of S29 as macro context, gen1 review only, gen2 stale, gen3 final (v4/raw|editorial/s029-basmala-full/s029/29_0, in the tree).",
+  "Prepared but not run: v4 inputs for all 70 S29 units, 29:0–29:69 (v4/input/native/s029). v3 dockets exist for 1:1–1:7 and 29:1–29:69 (v3/inputs/adjudication)."
+ ],
+ "north_star_scorecard": [
+  {
+   "id": "NS1",
+   "rating": "partial",
+   "evidence": "Every output opens on the plain sense: v4 29:38 gen3 prose 'Bu âyet Âd ile Semûd'u, geride bıraktıkları yurtların açık tanıklığıyla birlikte anar…'; v3 1:2 '1:2'nin açık cümlesi şudur…'. PRINCIPLES §5 grounding was embedded. Orientation is undermined by volume and morpheme-level treatment. v3 1:2 first pass has 4,060 words, 56 landing paragraphs and 75 locked findings for a four-word ayah (1_2.friction.tr.md density audit). v4 29:38 gen3 has 5,008 words and 285 sentences, with sentences for 'İlk وَ', 'İkinci وَ', 'Ara وَ' and 'Son وَ'. Recorded verdict (commentary-v5-review-2026-09-04.md:34): 'many repeated sentence frames and grammatical fragments'."
+  },
+  {
+   "id": "NS2",
+   "rating": "weak",
+   "evidence": "The v2 PROMPT asked for what Turkish cannot render (article doubling). Dictionary error_profile fields (loses/adds) were pushed for every contextual gloss. My count of sentences mentioning 'Türkçe': 0 in the v3 legacy, v3 authoring and v4 gen3 29:38 proses; 1 each in v3 1:2 ('teşekkür' does not carry ḥamd), v3 1:3 (the article on ar-Raḥmān) and v4 29:0 (bi- wider than 'ile'). Grammar was covered morpheme by morpheme because surface_coverage required every surface word (scope-micro.md), not 'only when it matters'."
+  },
+  {
+   "id": "NS3",
+   "rating": "partial",
+   "evidence": "A dedicated macro lane covered the pericope 'before/after' (v4/prompts/scope.md 'Active lane'). v3 29:38 editorial prose (git 08cdb7ec5) ties the ayah to 29:41 (spider house as bearing capacity), 29:19–20, 29:35, 29:44, 29:39, 29:45, 29:64–65, 29:67 and 29:69. v4 29:38 macro: 16 connections, 11 activated. Findings stay atomic, one per candidate, and the resonances appear as a sequence rather than a coalition."
+  },
+  {
+   "id": "NS4",
+   "rating": "weak",
+   "evidence": "Prohibited by design at ayah level: 'Layer 2 may not carry the surah's architecture or name a recurring surah-wide system' (COMMENTARY_SPEC@097b3e383 line 86); 'Name the image as an established surah-wide system' is listed under what you must not do (_ayah_commentary/v2/PROMPT.md:174); 'Do not introduce Layer 3, surah-wide channels, or network claims' (v3/prompts/editorial-followup.md:5). The v3 29:38 friction says 'yinelenen bir kanal veya sûre tezi adlandırılmadı' ('no recurring channel or surah thesis was named'). Channel reviews entered only as per-ayah candidates (4 in the 29:38 macro lane). No progressive disclosure of chains."
+  },
+  {
+   "id": "NS5",
+   "rating": "absent",
+   "evidence": "No concordance of a root's Quranic uses was pushed: the packet key tree shows only focus_root_occurrences and context_root_occurrences within the pericope or selected context. No prompt asks for a word's recurring Quranic role or where the canonical translation departs from it (scope-micro.md, v4/prompts/scope.md, canonical-prose.md)."
+  },
+  {
+   "id": "NS6",
+   "rating": "partial",
+   "evidence": "The global lane reviewed reciprocal inter-ayah connections row by row. v4 29:38 global: 253 connections, 13 activated and 240 'no_return_path' (off-axis QeQ left out, as NS6 wants). Counter-evidence is kept (PRINCIPLES §9). v3 29:38 prose uses 7:201 as an antithetical parallel ('Daha çarpıcı olan, 7:201'de benzer bir karşılaşmanın kişiyi hatırlamaya ve açıkça görmeye döndürmesi…'). However, QeQ runs in parallel with the latent readings rather than after them, and relations are typed only as supports-primary or shifts-primary on surprise rows (COMMENTARY_SPEC §5), not as supports/expands/shifts/contradicts per finding."
+  },
+  {
+   "id": "NS7",
+   "rating": "weak",
+   "evidence": "The discovery material was present: v3 1:2 first pass has sentences on the well with crossbeam, water, herd/lead/stray and way-marks (my grep: 'işaret' 27 sentences, 'yol' 15, 'kuyu' 2). They were delivered as 75 locked findings in 56 paragraphs (aggregation). v4 forbids coalition: 'Do not place several merely related candidates into one generic finding' (v4/prompts/scope.md:33); the writer may not 'collapse' findings (canonical.md). S1 is confounded: docs/CHANNELS.md with the Fatiha water/well answer (lines 39, 60, 233) is embedded in the v3 merge and v4 prompts, and the dictionary registry of the 1:2 packets contains 'kuyu' ('well') 28 times. Recorded lesson (NORTH_STAR.md:134-135): 'every record must reach the prose' turns prose into a catalogue (v3)."
+  },
+  {
+   "id": "NS8",
+   "rating": "weak",
+   "evidence": "There are verdicts per facet during discovery: v4 29:38 has 954 branch/facet dispositions, 882 of them 'no_independent_trigger'. Trust labels filtered in v3 legacy: legacy_unbound reader walks and HFT were selection-ineligible (adjudication.md:72), and the 29:39 friction rejects the retrospective surprises as 'bağlanmamış eski kayıt' ('unbound old record'). v4 gen3 had 0 uncandidate discoveries in all three 29:38 lanes (discovered_finding_refs empty). There is no coalition, maturation or reciprocal-reinforcement stage: findings are atomic and owned by candidates."
+  },
+  {
+   "id": "NS9",
+   "rating": "partial",
+   "evidence": "A containment field per finding and PRINCIPLES §4 were embedded; 'Do not rank accepted findings' (scope-micro.md). But the prose carries many negations. My count of değil/değildir/yoktur: 20 (v3 legacy 29:38), 25 (v3 authoring 29:38), 23 (v4 29:38), 43 (v3 1:2). There are 'not X but Y' frames, e.g. v4 'Buradaki engelleme, yolu ortadan kaldıran bir yıkım değil… uzaklaştırmadır' ('the blocking here is not a destruction that removes the road… but a turning away') and v3 legacy 'Buradaki içgörü çıplak gözle görme, kan, silah, taş ve dikiş değildir' ('the insight here is not naked-eye seeing, blood, weapon, stone or stitching'). Recorded (v5 review:33): V3 'accumulates negative qualifications'."
+  },
+  {
+   "id": "NS10",
+   "rating": "partial",
+   "evidence": "Anchors are strong in the apparatus. v4 branch_activations carry branch_ref, facet_id, carrier_refs, trigger_refs, focus_return_refs and an exact facet_statement (98 activations for 29:38, 27 for 29:0), and the v3 legacy branch_review quotes the exact contact support. Reader-prose Arabic spans {ar,tr,gloss} carry no source:S:A or root Bnnn. Memory-only senses are forbidden rather than marked ('Add no outside knowledge'), so a memory-sourced 7:201 became an invalid artifact."
+  },
+  {
+   "id": "NS11",
+   "rating": "partial",
+   "evidence": "'Nothing lost silently' is enforced exhaustively: every candidate, facet and connection row has a disposition and reason, the friction lists the excluded candidate ids (v3 29:38 friction), and 'no fallback may silently omit' (v3 README). But the v3 legacy trust labels filtered rather than ordered (legacy_unbound was ineligible for synthesis). Proper-name root plays were kept as 'controlled' readings (v3 29:38: Âd with return, Semûd with depletion; v4 gen3: 'عَاد adı, dönüş çağrışımını koruyarak… ironi'). Inference: that is close to a name etymology."
+  },
+  {
+   "id": "NS12",
+   "rating": "absent",
+   "evidence": "No surah commentary in v3/v4. Layer 3 was a separate workflow (_channel/layer3; COMMENTARY_SPEC §2). The closest artifact is 29:0 (basmala focus with all of S29 as macro context: 46 findings, 1,879 words), still framed as an ayah reading."
+  },
+  {
+   "id": "NS13",
+   "rating": "weak",
+   "evidence": "Luna max did everything, including synthesis. Prompts ran 0.75–2.36 MB per turn; S1 needed 99 repair turns (about 28M input tokens by my estimate) with no editorial completion; v4 gen3 wrote about 6.7 MB of apparatus per ayah. No Opus synthesis, Batch API or cached shared prefix design: persistent sessions were used instead. Costs were not recorded. About 44k lines of Python were built for loss prevention."
+  }
+ ],
+ "improvements": [
+  {
+   "claim": "An explicit, exhaustive branch review: every focus branch is decided activated or unactivated, with an exact contact excerpt, so rare dictionary senses are considered rather than left to memory.",
+   "evidence": "v3/README.md (Adjudication 'ordered branch_review'); v3/outputs/adjudication/s029/29_39|40|41.response.json: 48/128/99 branch decisions, 4/13/6 activated; 29:39 friction 'Odak dal taraması: 48/48'. Recorded (v5 review:33): V3 'retains the eye-film and worked-road material'.",
+   "over": "The v2 single-prompt Layer 2 (_ayah_commentary/v2/PROMPT.md), where branch review was implicit"
+  },
+  {
+   "claim": "A two-key activation contract made explicit: surface carrier plus distinctive facet plus an independent trigger (independent of the branch definition) plus changed reading and payoff. The North Star later endorses the 'two keys' idea.",
+   "evidence": "v3/prompts/scope-micro.md ('Name the exact surface carrier, the exact facet being activated, the independent word, syntax, or image that activates it'); v4/prompts/scope.md 'Complete branch test'; NORTH_STAR.md lessons ('two keys: a dictionary branch plus an independent trigger').",
+   "over": "The v2 PROMPT's looser 'Activation requires an anchored mechanism and a changed understanding'"
+  },
+  {
+   "claim": "Separate stances: independent fresh micro, macro and global agents that cannot see one another, so local, pericope and wider evidence each get their own reading.",
+   "evidence": "v3/ORCHESTRATION.md §2 ('The micro, macro, and global first turns must be independent'); v4/ORCHESTRATION.md §2.",
+   "over": "v2's single writer and v3 legacy's single adjudication call"
+  },
+  {
+   "claim": "HFT and reader walks were restored to authoring, and reciprocal inter-ayah evidence was carried losslessly.",
+   "evidence": "Commits 317b67db8 'Expose all HFT evidence to prose authoring' and 13390413b 'Add lossless reciprocal inter-ayah authoring input'. The v3 legacy had quarantined HFT (README '--hft-policy quarantine').",
+   "over": "The v3 legacy structured path"
+  },
+  {
+   "claim": "v4 removed the state machine (reconciler, repair loops, session registry) and completed ayat end to end.",
+   "evidence": "v4/README.md ('There is no reconciler, scope repair…'). 29:0 and 29:38 completed in three generations each on 09-02/03, gen3 in about 1 h 20 min and about 2 h 13 min wall time (file mtimes), whereas v3 S1 completed none of 7 in 2 h 40 min or more.",
+   "over": "v3 authoring"
+  },
+  {
+   "claim": "Explicit, composable context: a mandatory host basmala, a dedicated S:0 focus with the whole surah as context, --add-ayat external members (for example a Fatiha lens), ordered segments and pericope packages.",
+   "evidence": "v4/README.md 'Context membership', 'Basmala policy', 'Pericope packages'; v4/composition.py; run as s029-basmala-full.",
+   "over": "v3 (numbered ayah and native pericope only; v3 README says S:0 must not be passed to v3)"
+  },
+  {
+   "claim": "Each activated branch must become an explicit reader-facing movement (carrier, trigger, why, where it stops), against 'decorative ambiguity'.",
+   "evidence": "COMMENTARY_SPEC@097b3e383 line 240; v4/prompts/scope.md branch_activations.prose_statement.",
+   "over": "v3 (branch contributions only in the apparatus)"
+  },
+  {
+   "claim": "The gen2 simplified one-pass authoring produced a much less catalogued result than both gen1 and gen3.",
+   "evidence": "My counts from git: v4 29:38 gen1 69 findings / 1,775 words; gen2 22 findings / 1,361 words (stale/rerun-20260903 index and prose, git e86c67b2f); gen3 75 findings / 5,008 words. No recorded verdict on gen2 specifically.",
+   "over": "v4 gen1 (v3 lane prompts reused)"
+  }
+ ],
+ "regressions": [
+  {
+   "claim": "The v3 authoring S1 run drowned in validation repairs: 99 repair turns, and 5 of 7 ayat never reached prose.",
+   "evidence": "My count in v3/outputs/authoring/s001: 1:1 18 repairs, 1:4 17, 1:5 25, 1:6 9, 1:7 16, 1:2 4, 1:3 10. Of the 99 repair issues, 37 were 'scope_validation repair loses or rewrites pre-existing linguistic content' and 14 'accepted candidate silently drops branches'. Only about 1 was a substantive reconciler finding (parsed from the requested_repairs_json in inputs/authoring/s001/*/scope/*/repair/*/prompt.md). Repair prompts were about 823 KB each.",
+   "cause": "The validator required a complete replacement JSON that preserved all prior content verbatim ('Return one complete replacement scope-review JSON object, not a patch', scope-repair-followup.md). Luna could not re-emit 0.8–1.3 MB verbatim, so each repair created a new defect."
+  },
+  {
+   "claim": "v3 legacy pruned latent readings by provenance and discovered nothing new.",
+   "evidence": "adjudication.md:72 (legacy_unbound is 'audit/grounding material' kept out of synthesis). The 29:39 friction rejects reader-walk retrospective surprises as 'bağlanmamış eski kayıt' ('unbound old record'); density audit 'Seçilen yeni aday: 0' ('new candidates selected: 0'), with 0 new candidates in 29:39 and 29:41 and 3 in 29:40 (response.json).",
+   "cause": "Trust labels used as filters. The v2 PROMPT had called retrospective surprises 'the highest-value material'."
+  },
+  {
+   "claim": "v3 legacy imposed caps on prose and findings.",
+   "evidence": "inputs/synthesis/s029/29_3*.prompt.json limits: max_findings 48, max_paragraphs 16, max_prose_chars 24,000. The later README recasts 512 ceilings as 'fail-loud guards'.",
+   "cause": "Budget ceilings in the first implementation. They conflict with the user's no-caps rule."
+  },
+  {
+   "claim": "Internal apparatus leaked into reader prose in v3 legacy.",
+   "evidence": "v3/outputs/s029/29_39.prose.tr.md: '29:39:7, bu bağlacın analiz kaydındaki referansıdır' ('29:39:7 is this conjunction's reference in the analysis record').",
+   "cause": "Every mandatory word-analysis record needed a landing, which pulled coordinates into prose. Model unknown."
+  },
+  {
+   "claim": "Catalogue prose: every locked finding and every surface morpheme must land.",
+   "evidence": "v3 1:2 first pass: 75 locked findings, 56 landing paragraphs, 4,060 words for four words (1_2.friction.tr.md density audit). NORTH_STAR.md:134-135 names v3.",
+   "cause": "Prose follow-ups demand an account of 'every locked micro finding and the reconciled surface-word coverage' (scope-micro-prose-followup.md), and a Luna writer composed the result."
+  },
+  {
+   "claim": "The v4 gen3 'hardening' tripled prose length and inflated the apparatus about 150-fold, with repeated sentence frames, near-duplicates and English leakage.",
+   "evidence": "Recorded (v5 review:34): '75 findings and 98 immutable branch sentences… many repeated sentence frames and grammatical fragments. Exact preservation did not ensure good exposition or sound interpretation.' My counts: gen3 prose 45,438 B / 5,008 words vs gen2 12,227 B / 1,361 words; index 2,006,655 B vs 9,000 B. Examples: the near-identical sentences '“صَدَّ” kelimesinin ص د د köküyle taşıdığı engel oluşturan dağ alanı, مُسْتَبْصِرِينَ unsuruyla temas ettiğinde…' and the same with زَيَّنَ; 'discernment'in'; three successive sentences opening 'er-Rahmân ile er-Rahîm' in 29:0.",
+   "cause": "Commit 097b3e383 required immutable per-finding and per-branch sentences, a dedicated finding per accepted candidate, and exact provenance ledgers copied into both apparatus files."
+  },
+  {
+   "claim": "The writer could not integrate: the canonical writer was merge-only and could not reopen evidence or combine findings.",
+   "evidence": "v4/prompts/canonical.md:8 ('Your job is composition, not adjudication… Do not reopen candidate decisions'); 'Do not collapse merely related findings into a generic theme'.",
+   "cause": "Loss-prevention priority, which blocks the coalition and maturation the North Star requires."
+  },
+  {
+   "claim": "Worklist crowd-out: zero uncandidate discoveries when a docket existed.",
+   "evidence": "v4 29:38 gen3 contributions (git e86c67b2f): discovered_finding_refs = 0 in micro, macro and global, against 954 facet dispositions and 269 connection dispositions. Contrast 29:0 macro, where all 69 candidates were rejected and 17 findings were discovered (v4/raw/s029-basmala-full/s029/29_0/macro.contribution.json).",
+   "cause": "The accounting load (review_inventory copy-back, every facet, every row) fills the turn. Luna follows worklists."
+  },
+  {
+   "claim": "Strict lane routing rejected valid cross-references and produced failed artifacts.",
+   "evidence": "The failed artifacts are micro.contribution.invalid-unknown-7-201.json, macro …invalid-unknown-29-39-7.json, macro …invalid-connection-disposition-disagreement.json and global …invalid-malformed-evidence-rows.json (git c64ab8234/e86c67b2f), plus 29:0 macro …invalid-unknown-29-8-3.json (in the tree). The V5 review (items 2 and 3) documents candidates rejected for being in the wrong lane and routing disagreements inherited from the v3 projector.",
+   "cause": "Hermetic per-lane ref validation."
+  },
+  {
+   "claim": "Bulk governing text and worked examples were embedded in every lane, priming readings.",
+   "evidence": "V5 review:129 'Four embedded governing documents add approximately 10,600 whitespace words per lane… The Fatiha examples can also prime an interpretation'. v4/prompts/scope.md embeds @@CHANNELS_MD@@; PLAN.md@076332f0a 'Contamination — why S1 cannot be the eval surah'.",
+   "cause": "'Preserve the established v2/v3 standard' implemented as verbatim inclusion."
+  },
+  {
+   "claim": "The lexical origin of the eye-film reading weakened by v4 gen3.",
+   "evidence": "v3 legacy 29:38: 'س ب ل kökündeki “kırmızı damarlı ağsı göz perdesi” dalı' (explicit branch, i.e. the root's 'red-veined, web-like film over the eye' branch). v4 gen3: 'yol kelimesi örümcek ağına benzeyen bir perdeye dair yalnızca analojik bir yankı kazanır' ('the word for road gains only an analogical echo of a film like a spider's web'). The V5 review:38 says later V5 'still does not adequately explain its lexical origin'.",
+   "cause": "Inference: a lane split (the sabil facet belongs to micro, the spider to macro/global) plus the analogical_mode label."
+  }
+ ],
+ "recorded_verdicts": [
+  {
+   "source": "/Volumes/OZTURK/_projects/prose_generation/docs/reviews/commentary-v5-review-2026-09-04.md:33",
+   "verdict": "V3: 'Broader scoped evidence and extensive review/repair machinery. The saved prose retains the eye-film and worked-road material, but also accumulates negative qualifications and repeated explanatory statements.'"
+  },
+  {
+   "source": "/Volumes/OZTURK/_projects/prose_generation/docs/reviews/commentary-v5-review-2026-09-04.md:34",
+   "verdict": "V4 (097b3e38, e86c67b2): 'Stronger exact preservation and provenance. The current 29:38 editorial friction records 75 findings and 98 immutable branch sentences. The prose contains many repeated sentence frames and grammatical fragments. Exact preservation did not ensure good exposition or sound interpretation.'"
+  },
+  {
+   "source": "/Volumes/OZTURK/_projects/prose_generation/docs/reviews/commentary-v5-review-2026-09-04.md:32",
+   "verdict": "The pre-v3 Layer-2 29:38 prose 'explicitly explains the same-root, red-veined eye-film resonance and its contact with sight, the spider, and weakness.'"
+  },
+  {
+   "source": "/Volumes/OZTURK/_projects/prose_generation/docs/reviews/commentary-v5-review-2026-09-04.md:125-140 (item 4)",
+   "verdict": "Packets built with the inherited v3 projector are 'substantially larger than the discovery task needs': micro 848,090 B, macro 900,582 B, global 1,368,025 B for 29:38; branch registry about 580–621k chars; about 10,600 words of governing docs per lane; Fatiha examples 'can also prime an interpretation'."
+  },
+  {
+   "source": "/Volumes/OZTURK/_projects/prose_generation/NORTH_STAR.md:134-135",
+   "verdict": "'An editor cannot recover findings rejected upstream (v5); worklists and \"every record must reach the prose\" turn discovery into accounting and prose into a catalogue (V9 findings lane, v3, v7).'"
+  },
+  {
+   "source": "PLAN.md at git 076332f0a, 'Contamination — why S1 cannot be the eval surah' (line 110)",
+   "verdict": "The governing docs contain worked answers for Fatiha (CHANNELS.md: sırât swallowing its traveller, ṣ-r-ṭ:B002), so S1 output cannot prove the pipeline works. v3 S1 and v4 prompts still embedded CHANNELS.md."
+  },
+  {
+   "source": "git e86c67b2f: _commentary/v4/editorial/native/s029/29_38/29_38.friction.editorial.tr.md",
+   "verdict": "Self-audit: '75 bulgunun tamamı ile 98 dal etkinleştirme cümlesi korunarak…' ('all 75 findings and 98 branch-activation sentences preserved'); '173 immutable landings'; must_integrate count 'unavailable' because the obligation field was not inlined."
+  },
+  {
+   "source": "git 08cdb7ec5: v3 authoring 29:38 editorial friction",
+   "verdict": "'yinelenen bir kanal veya sûre tezi adlandırılmadı' ('no recurring channel or surah thesis was named'); HFT kept 'nitelikli' ('qualified'), and 12 candidates kept as ledger-only rather than prose."
+  },
+  {
+   "source": "/Volumes/OZTURK/_projects/prose_generation/_ayah_commentary/outputs/s100-default-writer-model-comparison/*.md:5,60 (inherited v2 era)",
+   "verdict": "'gpt-5.6-sol max is the best reader-facing Layer 2 writer… compresses most successfully without turning the prose into a list'; xhigh is 'the best editorial/depth source'; 'A two-tier downstream reading surface is well supported, provided it is explicitly derived'."
+  }
+ ],
+ "failure_modes": [
+  "Accounting replaces reading. Every candidate, branch/facet pair and connection evidence row must be decided and copied back (review_inventory), so the output budget goes to ledgers. v4 29:38 has 954 facet and 269 connection dispositions but 0 discoveries.",
+  "Repair loop on verbatim JSON re-emission. v3 S1 had 99 repairs, 37 of them caused by the repair itself changing content.",
+  "Conservation obligations become catalogue prose: each locked finding needs a landing; each surface morpheme gets a sentence ('İlk/İkinci/Ara/Son وَ'); immutable sentences are stitched together with near-duplicates.",
+  "Integration forbidden: findings are atomic and owned by candidates, and the merge-only writer cannot combine related readings (NS7/NS8 coalition is impossible).",
+  "Provenance used as a filter: legacy_unbound HFT and reader walks were excluded or qualified, and retrospective surprises rejected.",
+  "Lane walls: strict per-lane ref validation rejects correct cross-lane or pretraining references (7:201) and routes evidence wrongly (V5 review items 2 and 3).",
+  "Dictionary boundary fields leak into prose as negation lists: the branch boundary 'iç kavrayış ve kan, silah, taş ya da dikiş anlamları dışarıda kalır' ('inner insight and the senses blood, weapon, stone or stitching are excluded') reappears as v3 legacy 'Buradaki içgörü çıplak gözle görme, kan, silah, taş ve dikiş değildir' ('the insight here is not naked-eye seeing, blood, weapon, stone or stitching').",
+  "The Luna writer produces analyst register and English leakage ('discernment'in'; friction written in Turkish-English mix).",
+  "Surah chains prohibited at ayah level, so the NS4 progressive disclosure is structurally impossible.",
+  "Test contamination: S1 prompts include worked Fatiha answers (CHANNELS.md), confounding the discovery evidence.",
+  "Apparatus explosion: 6.7 MB of copied provenance ledgers per ayah (v4 gen3).",
+  "Artifacts deleted from the working tree (29:38 outputs removed in f74734ef4, the 29:38 v3 completion removed in f521fcd33), leaving the evidence only in git history."
+ ],
+ "dilution_evidence": [
+  "More instructions hurt (v4, same ayah, same model). gen2 (cb180d3c4: lighter one-pass scope prompt, 'Combine findings into one movement only when they genuinely perform the same work') gave 22 findings and 1,361 words. gen3 (097b3e383: dedicated finding per candidate, every facet tested, immutable sentences, ledgers) gave 75 findings, 98 branch sentences, 5,008 words and a 2 MB index. Recorded: 'Exact preservation did not ensure good exposition' (v5 review:34). My counts come from the git files in the scratch dir.",
+  "More steps hurt (v3 to v4). The v3 authoring state machine (reconcile, scope repair, prose repair, receipts) completed 0 of 7 S1 ayat in 2 h 40 min or more with 99 repairs. The v4 one-pass path completed 29:38 and 29:0.",
+  "Bulk packets coincide with zero discovery. v4 29:38 lane prompts were 0.83–1.71 MB, with the branch registry 84% of the micro packet (600,831 of 714,968 chars), and there were 0 uncandidate discoveries. The V5 review item 4 calls this payload 'substantially larger than the discovery task needs'.",
+  "Pushed governing text primes: CHANNELS.md with worked Fatiha answers was embedded in the writer and lane prompts (v5 review:129-140; PLAN.md contamination).",
+  "Pushed data helped: the rare sabil 'red-veined web-like eye film' branch reached v3 legacy prose explicitly, as the dictionary branch registry supplied it. The water/well senses for 1:2 came from the registry ('kuyu' 28 times in the 1:2 packets).",
+  "Pushed data hurt: dictionary boundary/what_is_not fields turned into negation catalogues in prose (see failure modes), and prose negation counts are high (20–43 per ayah, my count).",
+  "Where the docket was irrelevant, the agent read freshly. 29:0 macro rejected all 69 context candidates and discovered 17 findings. Inference: the worklist itself, not the model, suppressed discovery at 29:38."
+ ],
+ "luna_evidence": [
+  "Well: exhaustive, reasoned worklist compliance. For v4 29:38 every facet (954) and connection row (253 global plus 16 macro) has a specific reason. The v3 S1 micro reviews tested 562 facets (my count).",
+  "Well: its first-pass S1 1:2 contained the latent Fatiha images: water, the well with crossbeam, herd/lead/stray, way-marks and road. This is confounded by CHANNELS.md and the dictionary in the prompt.",
+  "Well: it discovers when the docket does not fit (29:0 macro: 17 discovered findings after rejecting 69 candidates). It also brought the correct antithetical parallel 7:201 from memory into the micro lane (git c64ab8234 failed artifact: 'Nadir kapanış biçimi 7:201'deki Şeytan temasından sonra hatırlama ve görme ile kurulan ilişkiye ters yönde…', i.e. the rare closing form runs opposite to the remembering-and-seeing that follows Satan's touch in 7:201).",
+  "Badly: synthesis. As canonical writer it produced catalogue prose: v3 1:2 with 56 landing paragraphs and v4 29:38 with 5,008 words, repeated frames, near-duplicate sentences and English leakage ('discernment'in'). Recorded in v5 review:34.",
+  "Badly: it could not reproduce large JSON verbatim across repair turns (37 of 99 v3 S1 repair issues were a repair rewriting prior content).",
+  "Badly: follows worklists over discovery. 0 uncandidate findings in v4 29:38. v3 S1 'new_findings' were 0–4 per lane, and accept+narrow ran about 85–100% of candidates (e.g. 1:7 macro 45 of 45 narrowed).",
+  "Badly: produced invalid refs and malformed rows (5 failed contribution artifacts in v4).",
+  "Sol and Astra were not used in v3/v4. The inherited v2 S100 comparison preferred gpt-5.6-sol max as writer (s100-default-writer-model-comparison)."
+ ],
+ "pretraining_vs_data_evidence": [
+  "Pretraining was enough, and the system punished it: the micro agent cited 7:201 ('when a touch from Satan… they remember, and then they see') for 29:38 mustabṣirīn without it being in the micro packet (7:201 occurs 0 times in micro.packet.json and 13 times in global.packet.json, my count). The hermetic validator rejected the contribution as 'invalid-unknown-7-201'. The same parallel is a highlight of the v3 authoring 29:38 prose.",
+  "Data was necessary: the rare sabil 'kırmızı damarlı ağsı göz perdesi' ('red-veined, web-like film over the eye') branch is a dictionary-only sense (NORTH_STAR names 'the eye disease in as-sabīl' as the kind of sense a model will not recall). It appears explicitly in v3 legacy 29:38 prose via the branch registry.",
+  "Data was necessary but confounded: the water-rich well and pulley senses for 1:2 are in the pushed registry ('kuyu' 28 times per 1:2 lane packet) and also in CHANNELS.md worked examples embedded in the prompts. Pretraining versus data cannot be separated for S1.",
+  "Pushed data dominating the prompt coincides with lost discovery. The registry was 600–878k chars per lane, much of it neighbor distinctions and contextual glosses (the V5 review estimates about 140k chars of neighbor distinctions and 66k of contextual glosses per lane).",
+  "Some boundary and what_is_not fields hurt: they became reader-facing negation lists."
+ ],
+ "reusable_artifacts": [
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v4/input/native/s029/",
+   "what": "Lane packets and prompts for micro, macro and global, plus docket, manifest and source/basmala bundle snapshots per unit: branch registries with facets, candidate inventories, connection registries with authored and reciprocal rows. 414 MB.",
+   "coverage": "All 70 S29 units (29:0–29:69). Canonical/editorial prompts only for 29:38. Plus s029-basmala-full/29_0.",
+   "reuse_idea": "A ready S29 test bed and a pre-joined per-ayah index of branch facets and candidates for script-based retrieval (Q5), without rebuilding bundles. Strip it to senses plus triggers for lean packets."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v3/inputs/adjudication/ (and v3/inputs/source, v3/inputs/prepared)",
+   "what": "Canonical minified source snapshots, prepared seed ledgers and adjudication dockets (candidates with trust roles, support registry, branch registry).",
+   "coverage": "S1 1:1–1:7 and S29 29:1–29:69 (76 dockets, 79 source snapshots).",
+   "reuse_idea": "Candidate nominations per ayah (word analysis, HFT, channel, walks, cross-run) as recall seeds for a harvest step; a check of what upstream data nominated versus what a cold agent finds."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v3/outputs/authoring/s001/*/scope/*/review/*/review.json (plus repairs)",
+   "what": "Luna-max scope ledgers: branch_screen.tested_facets (contact / no_independent_trigger) with reasons, contact_opportunities with carrier, facet, trigger, changed reading and payoff, and candidate decisions with failed_edge.",
+   "coverage": "S1, all 7 ayat. 562 micro facet decisions and 252 contacts in first reviews (my count).",
+   "reuse_idea": "Weak labels for Q2b: (facet, ayah, trigger) positive and negative pairs to train or tune a facet-activation scorer or distance model. Contacts are near-gold two-key examples to audit."
+  },
+  {
+   "path": "git e86c67b2f:_commentary/v4/raw/native/s029/29_38/{micro,macro,global}.contribution.json and /Volumes/OZTURK/_projects/prose_generation/_commentary/v4/raw/s029-basmala-full/s029/29_0/*.contribution.json",
+   "what": "Structured two-key activations (branch_ref, facet_id, carrier_refs, trigger_refs, focus_return_refs, application_mode, boundary, Turkish prose_statement), facet dispositions and connection-row dispositions with reasons.",
+   "coverage": "29:38 (954 facet dispositions, 72 activated; 269 connections, 24 activated; 98 activations) and 29:0 (294 facet dispositions, 27 activated).",
+   "reuse_idea": "Labelled examples for a QeQ-relevance classifier (connection activated versus no_return_path) and a facet-activation scorer. A schema template for a lean 'anchor = branch + trigger' record (NS10)."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v3/outputs/adjudication/s029/29_39|40|41.response.json (29:38 in git f0d37fe75)",
+   "what": "Complete focus-branch review ledgers (activated or unactivated, reason_code, exact contact excerpt) and candidate decisions.",
+   "coverage": "4 ayat; 275 branch decisions in the tree (23 activated).",
+   "reuse_idea": "More activation labels, with the other model (unknown) as a second annotator for agreement checks."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v3/v3lib/prepare.py and v3/render_authoring.py",
+   "what": "Bundle to docket to lane projection; HFT normalization and packet-identity checks; v12 reader-walk extraction; QAC-to-lexicon joins with hamza canonicalization; word_morpheme_spans join; reciprocal inter-ayah reconstruction; hashing.",
+   "coverage": "Generic, any ayah with a bundle. Already imported by V5 (_commentary/v5/workflow.py:128-130); 73–74 preparation tests pass per the v5 reviews.",
+   "reuse_idea": "Keep the joins and normalizers. Drop the accounting and lane-routing layers that the V5 review found faulty."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v4/composition.py",
+   "what": "Ordered analysis composition: segments, --add-ayat external members, the host-basmala rule and S:0-focus full-surah context.",
+   "coverage": "Generic.",
+   "reuse_idea": "Run lens experiments cheaply (the Fatiha traveller lens over S100/S29; basmala per surah as a surah-level entry)."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v3/prompts/reader-map.md, invitation-summary.md, schemas/reader-map-response.schema.json, reader-view.schema.json",
+   "what": "Design for classifying finished prose into a core path and typed expandable detail blocks, with Guided, Custom and Full views and TTS units, plus a short invitation.",
+   "coverage": "Never run (0 outputs in git history).",
+   "reuse_idea": "A progressive-disclosure layer for the app: ground first, resonances expandable, mature chains surfaced later (NS1/NS4)."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/outputs/ (inherited)",
+   "what": "v2 Layer-2 prose, evidence, index and friction, first-pass and editorial.",
+   "coverage": "1,055 editorial ayah proses (S1, 5, 12, 17, 18, 19, 22, 24, 29, 87–114).",
+   "reuse_idea": "Broad baseline and a candidate pool of prior readings for the main session's comparisons."
+  }
+ ],
+ "unharvested_ideas": [
+  {
+   "idea": "Reader map: core versus typed expandable detail blocks, Guided/Custom/Full views, the same blocks as TTS units.",
+   "where": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v3/README.md (prose-first stage 8 and the 'structured reader view' paragraph); prompts/reader-map.md",
+   "why_dropped": "v4 dropped it when it removed the v3 state machine (b4d17b8e9). It was designed after the only completed v3 lineage and never ran.",
+   "potential": "Answers the user's layered-app need (primary reading not disorienting, detail on demand) without rewriting prose. Could carry mature chains progressively (NS4)."
+  },
+  {
+   "idea": "A derived short reading or invitation over a rich field (two-tier surface).",
+   "where": "v3/prompts/invitation-summary.md; ad hoc v4 gen1 29_38.prose.summary.editorial.tr.md (237 words, git 88df0805b); _ayah_commentary/outputs/s100-default-writer-model-comparison:60 'two-tier… well supported'",
+   "why_dropped": "Treated as a reader derivative with no authority. Not in the v4 ORCHESTRATION.",
+   "potential": "Inference: a compression pass by Opus over a Luna-harvested field may give a grounded, integrated reading for about the cost of one short call."
+  },
+  {
+   "idea": "Lens composition: the Fatiha traveller lens (--add-ayat 1:1-7) over another surah, and ordered cross-surah segments.",
+   "where": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v4/README.md 'Context membership' (s100-with-fatiha, fatiha-lens-s100, s029-p03-with-fatiha)",
+   "why_dropped": "Only s029-basmala-full was run before V5 replaced v4. A later s029-p03 ledger exists (_commentary/s029-p03-ledger-20260909).",
+   "potential": "A direct test of cross-surah image chains (NS4) and of whether a lens surfaces supported surprises (NS7)."
+  },
+  {
+   "idea": "Basmala per surah with the whole surah as context, as a surah-level entry point.",
+   "where": "v4 29:0 s029-basmala-full outputs",
+   "why_dropped": "Run once. Framed as an ayah commentary, not a surah commentary.",
+   "potential": "A cheap surah-overview slot for NS12 (images the basmala opens onto)."
+  },
+  {
+   "idea": "Before/after isolation reading: begin with the isolated ayah, then state what context changes.",
+   "where": "v4/prompts/scope.md macro lane; v2 PROMPT 'Before and after'",
+   "why_dropped": "Folded into accounting; HFT before/after was qualified as legacy.",
+   "potential": "A natural activation, then coalition order for discovery (NS8), and a reader-facing 'aha' device."
+  },
+  {
+   "idea": "Structured two-key records (carrier_refs, trigger_refs, focus_return_refs) generated by script, not by an agent.",
+   "where": "v4/prompts/scope.md branch_activations schema",
+   "why_dropped": "Used only as post-hoc apparatus filled by Luna.",
+   "potential": "Q5: score (facet keyword, other-word) co-occurrence and embedding proximity inside the window to pre-rank carrier and trigger pairs before any model call."
+  },
+  {
+   "idea": "Per-direction review of inter-ayah connections (authored versus reciprocal rows) with a return-path test.",
+   "where": "v3/README.md ('each direction receives an independent nested result'); v4 connection_dispositions",
+   "why_dropped": "Became part of the accounting burden.",
+   "potential": "Labels (24 of 269 activated for 29:38) to train a QeQ relevance filter so that only axis-touching passages reach synthesis (NS6)."
+  },
+  {
+   "idea": "surprise:<id> rows typed supports-primary / shifts-primary.",
+   "where": "COMMENTARY_SPEC@097b3e383 §5 findings index",
+   "why_dropped": "Kept as apparatus only.",
+   "potential": "A precursor to the NS6 supports/expands/shifts/contradicts typing."
+  }
+ ],
+ "key_lessons": [
+  "Q1: v3/v4 put roughly 44k lines of Python and most model tokens into conservation: hashes, ledgers, per-facet dispositions, repairs and copied provenance. That bought traceability but not understanding. The lesson is the opposite of harvesting more machinery: the payoff sat in discovery and synthesis, which the machinery crowded out (0 discoveries at 29:38; catalogue prose).",
+  "Q1/Q4: 'Nothing lost' enforced as 'every record lands in prose' is the root of catalogue prose (NORTH_STAR.md:135). Losslessness belongs in a discoverable apparatus, not in the prose. The reader-map idea (never run) is the right split: core prose plus expandable detail.",
+  "Q1/Q4: Integration needs permission to merge readings into one concept (coalition). v4 explicitly forbade it ('Do not place several merely related candidates into one generic finding'; merge-only writer).",
+  "NS13: Luna at max follows worklists exhaustively and can discover when unconstrained (29:0 macro), but as writer it catalogues. v3/v4 put Luna on synthesis, contradicting the North Star economics lesson.",
+  "Q2a: Hermetic 'no outside knowledge' threw away correct pretraining knowledge (7:201). Pushed dictionary data was essential for rare senses (the sabil eye film), yet its boundary and neighbor fields leaked into prose as negations. Push senses and facets; let the model use and mark memory.",
+  "Q2b: v3/v4 left about 2,000 facet-level activation judgments with reasons across 12 ayat (562 S1 micro, 954 at 29:38, 294 at 29:0, 275 in the v3 legacy branch reviews), plus 269 connection-row judgments. The activation rate is about 8%. These are weak labels from one model family with no gold. Enough to prototype a scorer, not to train one alone.",
+  "Q3: V5, the Luna-generated base, inherits v3's docket and lane projector (v5/workflow.py:128-130). The V5 review traced lane misrouting and legacy_unbound mislabelling to that inheritance, so a new step on v5 should re-derive routing and drop provenance-as-filter.",
+  "Q5: The two-key record (branch facet plus an independent trigger in the window, plus a return to a focus word) is precise enough to become a script-computed candidate score before any model call. The v4 contributions give the schema and positive and negative examples.",
+  "S1 cannot validate discovery while CHANNELS.md or dictionary examples are in the prompt (PLAN.md D-f). v3 S1 and v4 ignored this.",
+  "The ayah-level ban on surah-wide chains (COMMENTARY_SPEC §2.2) made NS4 impossible in v3/v4. The current North Star reverses it, so no v3/v4 output can be used as evidence about chain disclosure."
+ ],
+ "open_questions": [
+  "Actual v3/v4 token usage and cost: no usage records exist (receipts hold session IDs only; ~/.codex/sessions starts 2026-09-08). My figures are chars/4 estimates at the recorded Luna price.",
+  "Which model ran the v3 legacy adjudication and synthesis for 29:38–29:41 on 08-28? Not recorded.",
+  "Would an Opus 5.5 writer fed v4 gen2's 22 compact findings (or the v3 29:38 locked set) produce integrated prose within about $1–2? Never tested in v3/v4.",
+  "How reliable are Luna's 'no_independent_trigger' negatives as training labels? No gold or second-annotator agreement exists. v3 legacy versus v4 on 29:38 could serve as a two-annotator sample.",
+  "How much of the S1 v3 'aha' material (water/well/herd/way-marks) came from agent discovery versus the dictionary registry and the CHANNELS.md examples in the prompt? Confounded.",
+  "Would the reader-map progressive-disclosure layer have met NS1 (ground) while carrying the full field? Never run.",
+  "Are the deleted 29:38 artifacts (v2 Layer-2, v3 legacy, v3 authoring, v4 gen1–3) accessible to the main session for cross-version comparison? They exist in git (f0d37fe75, 08cdb7ec5, b4d17b8e9, c64ab8234, e86c67b2f, and checkpoint 25916df4 per the f74734ef4 message)."
+ ]
+}

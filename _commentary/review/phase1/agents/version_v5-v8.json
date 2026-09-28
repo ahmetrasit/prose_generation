@@ -1,0 +1,463 @@
+{
+ "scope": "Commentary v5 (/Volumes/OZTURK/_projects/prose_generation/_commentary/v5, 3.8 GB: README.md, ORCHESTRATION.md, prompts/, guidance/, benchmark/, operations/, inter-ayah-test/, workflow.py, input/ 3.1 GB, raw/ 409 MB, middle/ 26 MB, editorial/ 27 MB, concise/, output/, archive/, s1-astra-comparison-2026-09-11.md, s001-astra-*-estimate.md); v8_batch (/Volumes/OZTURK/_projects/prose_generation/_commentary/v8_batch: README.md, COSTS.md, V5_SOURCE_SNAPSHOT.md, batch_discovery.py); repo-root AUDIT_V5_INPUT_COMPATIBILITY_2026-09-08.md and HANDOFF_V5_BRIDGE_ALIGNMENT_2026-09-08.md; plus v5 reviews in docs/reviews/commentary-v5-*.md, and recorded verdicts about v5 in _commentary/v11/compare_s001_v5.md, v9/DESIGN.md, v10/DESIGN.md, v13/DESIGN.md and NORTH_STAR.md. /Volumes/OZTURK/_projects/prose_generation/_commentary/s017 is an empty directory (created Aug 23, before v5; not v5). /Volumes/OZTURK/_projects/prose_generation/_commentary/s029-p03-ledger-20260909 has only empty directories (s029/29_38); its name matches the v5 analysis id s029-p03-ledger-20260909, whose outputs now exist only in git history (commits e3c7cc413..4f34d87ff) and in the snapshot at _commentary/v5/operations/runtime/snapshot.json. Method: read docs, git history, and my own read-only counting scripts under /private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase1/v5-v8/ (inv.py, cov.py, disc.py, sizes.py, words.py, proxies.py, rows.py). I also ran the repo's read-only validators validate_prose.py (all editorials) and validate_scope_ledger.py (a 150-file sample). I did not compare prose quality across versions; the quality judgments below are quoted from recorded reviews.",
+ "timeline": "Sources: git -C prose_generation log -- _commentary/v5 (100 commits), plus the docs cited.\n- Predecessor problem (docs/reviews/commentary-v5-review-2026-09-04.md, evolution table): V4 had \"stronger exact preservation and provenance… 75 findings and 98 immutable branch sentences. The prose contains many repeated sentence frames and grammatical fragments.\" V5 was created to separate discovery from composition and drop the state machine.\n- 2026-09-03: fe7ccf8ee \"Add V5 two-stage commentary workflow\"; 8c99bbf2 \"Simplify commentary v5 orchestration\" (removes the state machine but, per the 09-04 review, also semantic-preparation functions the prompt still assumed); 41763703 is the compact baseline later pinned in guidance/README.md.\n- 2026-09-04: validator, subtitles, visible context refs, macro --add-ayat overlay, default Fatiha 1:2-7 context, Firebase operations monitor (f39be784f etc.); 29:38-41 run (bc99ea3d9). Evidence-routing \"repairs\" 45332231, 6f73a182 and 90b02449 expanded packets (global 1.37 MB → 2.08 MB for 29:38; AUDIT_V5_INPUT_COMPATIBILITY). Code reviews commentary-v5-review/fix-review/cache-and-packets were written the same day.\n- 2026-09-05: 1a8df9b3 accepted QAC bridge links; restores 110 missing word topics in 5:3/12:31/24:31 (HANDOFF_V5_BRIDGE_ALIGNMENT).\n- 2026-09-08: full-guidance experiment (fb7a80c89, bf06a4f8e). After a user-reported behaviour regression, production rolled back to the compact early-V5 input contract (604e3fc50) and added 8.63 KiB of reviewed evidence for 29:38 (c775b8561). AUDIT and HANDOFF docs written.\n- 2026-09-09: 29:38 arms (compact 25916df43, lexical-source b7e83ee72, attributed evidence e3c7cc413, composition landing comparison c3c6e287a, articulation e9fec9685). Opus wrote benchmark/29_38_macro_ideal_catalog.md, which diagnosed the \"registry=unresolved\" gap, and the legacy_unbound rule followed in 087660300. CE model arms ce-luna/ce-sol-cinematic (4f34d87ff).\n- 2026-09-10: ce-terra arm, then \"Use Sol max for V5 consolidation\" (4b2903dea); S1 baseline and invitations (a362019d8); invitation stage (ca543c85d); \"Constrain cinematic continuity\" (d18a3daa). The repo README says the workflow was frozen at d18a3daa and made canonical \"As of 2026-09-10\". Reset and fresh S1 run (ffd454af8).\n- 2026-09-11: S1 rerun on Astra high (9aa95c402, 85f52984d); s1-astra-comparison-2026-09-11.md; token and pricing estimates (92ab5affa); S87 outputs; S100-114 inputs prepared.\n- 2026-09-12/13: S100-114 complete (2c3c0a30a); through S99 (bcd0666cf); S18 (19730c07a), S5 (977ec1b2b), S12/S19 captured (df59a5ce0); 18:86 inter-ayah test prose (672856eac).\n- 2026-09-14: S12 commentary and tests (cb94705c3). 2026-09-19: S13/S14/S31/S32 prepared; S1 concise layer (f9e527259).\n- 2026-09-20: middle-layer prompt iterated on S1 1:5 with Luna-max trials (ce0a07fbb, b7d65aa5a, 463987541); deterministic path-only middle orchestration (56d6cb061); ledger-free middle adopted (8bb2f0ce9); S12 complete (ce306a123); basmala workflows (23965ef80).\n- 2026-09-21: S17 complete (bb456a884), S19 complete (fc21c0a7b), S103 middle, middle layers for S87-114 and the V8 Batch framework (950e82064).\n- 2026-09-23: S103 GPT-6 Luna rerun preserved as *.luna-6.*; originals restored (5362e0577, afc21c635).\n- 2026-09-24: the V9 pipeline commit touches v5 (8688bd24f); V9 takes over.\n- v8_batch has a single commit (950e82064) and no input/, raw/ or batches/ output. Inference: it was never executed.",
+ "mechanism": "Per ayah (ORCHESTRATION.md \"Fixed Sequence\"; README.md):\n0) prepare (script workflow.py, deterministic). From bundles/sNNN/S_A.ayah.json it builds three hermetic prompts: micro, macro and global.discovery.prompt.md. Each holds an instruction template (prompts/discovery.md), the four pinned governing documents in full (guidance/PRINCIPLES.md, COMMENTARY_SPEC.md, CHANNELS.md, PROMPT_V2.md; 69,650 bytes), and a single-line lane packet JSON. Packet keys (my packet.py on 100:1 macro): branch_registry 387 KB (116 focus-root branch cards with gloss, semantic_detail, boundary, review_facets), support_registry 267 KB, candidate_inventory 70 KB, hft_evidence 55 KB, selected_context_units 53 KB, connection_registry 21 KB (inter-ayah rows; 150-250 rows in global), plus focus/QAC alignment. Candidate types (100:1): micro = word_topic, focus_root_occurrence and HFT baseline_model; macro = channel resonance_nomination (trusted) plus HFT context_delta and surprising_outlier (legacy_unbound); global = v12 cross-run published_finding, reader_walk and reader_summary_claim, hft_reader_extension. Prompt sizes (my sizes.py over 1,130 prompt sets): median micro 565 KB, macro 753 KB, global 892 KB, about 2.2 MB per ayah; max global 3.94 MB. 29:38 measured 848/997/1,370 KB (AUDIT); 22:5 global 7.4 MB (v6/README.md).\n1) Three fresh scope agents, gpt-5.6-luna at max, run in parallel. Turn 1 (discovery) decides every candidate (accept, narrow, represented or reject, with reasons and branch/facet/context/obligation exclusions) and writes findings with claim, mechanism, reader_payoff, containment, epistemic status (grounded, qualified or exploratory), and branch_activations (branch_ref, facet, carrier_refs, trigger_refs, focus_return_refs, application_mode). Schema: commentary-v5-scope-discovery-v1.\n2) Turn 2 of the same agent (prompts/composition.md) writes Turkish scope prose (*.scope.tr.md) and a landing ledger mapping every finding movement to a paragraph anchor. The agent runs validate_scope_ledger.py itself.\n3) CE: one fresh gpt-5.6-sol max consolidator, prompts/canonical.md. Input = the three scope proses, the three ledgers, the four guidance docs and a focus brief; discovery JSON is deliberately excluded. Canonical prompt median 205 KB, max 996 KB. It writes S_A.prose.tr.md, then in the same session the editorial pass (prompts/editorial.md), validate_prose.py with up to 2 repair cycles, and a fixed \"qualification/image presentation\" follow-up with revalidation.\n4) prepare-middle (script) renders a hermetic middle-layer prompt (median 44 KB). A fresh gpt-5.6-luna max agent writes lossless-compressed middle prose, then gets the fixed audit follow-up (prompts/middle-layer-audit-followup.md). The orchestrator must not inspect the output.\n5) prepare-invitation renders the invitation prompt from the editorial (median 31 KB). A fresh Luna max agent writes a 2-4 paragraph selective reading invitation that follows one or two channels.\n6) Optional continuation outside v5: _surah_commentary/v2 (editorial-v1) builds surah readings from the editorial texts only. 36 runs consumed v5 editorials (grep of source-packet.json).\nOperations: a Firebase monitor (operations/monitor.py) records start and terminal events only; runtime state ends 2026-09-10 (operations/runtime/snapshot.json). Agents are launched with \"the multiagent spawn tool, not codex exec\" (ORCHESTRATION.md).\nStances: all three lanes are generative-plus-adjudicative in one prompt (accept/reject during discovery). CE is a \"non-compression\" merger (\"every retained finding… must land explicitly\"). The middle layer is lossless compression; the invitation is the only selective stage.\nv8_batch copies v5 at 5da704350 (V5_SOURCE_SNAPSHOT.md) and moves only the three discovery turns to the OpenAI Batch API (batch_discovery.py, MODEL = \"gpt-5.6-luna\", 50% discount). Composition replays prompt, frozen JSON and composition prompt in a replacement agent.",
+ "inputs_pushed": [
+  "Full four governing documents embedded in every discovery prompt and every CE prompt: guidance/PRINCIPLES.md 9.2 KB, COMMENTARY_SPEC.md 20 KB, CHANNELS.md 14.6 KB, PROMPT_V2.md 25 KB (69,650 bytes; about 10,600 words per lane per commentary-v5-review-2026-09-04.md #4). They include Fatiha worked examples that 'can also prime an interpretation'.",
+  "Focus-root branch registry, i.e. dictionary branch cards with gloss, semantic_detail, boundary, review_facets and neighbour distinctions: 387 KB of the 100:1 macro packet; 580-621K chars per lane for 29:38 (review #4). The same atlas is repeated in all three lanes.",
+  "Candidate inventory: word-analysis topics (micro, all of them; e.g. 49 for 29:38), focus-root occurrences, HFT baseline/context-delta/outlier/reader-extension records (legacy_unbound), network-v3 channel resonance nominations (trusted), v12 cross-run published findings, and reader-walk items.",
+  "Support registry with full source text of supports (267 KB in the 100:1 macro packet).",
+  "Connection registry = inter-ayah relation rows from quran-data inter-ayah/focus and reciprocal files (global lane: median 189 rows; 253 rows for 29:38; 241 for 1:3), each with target Arabic but no typed target morphology (review #7).",
+  "Selected context units: lean projection of pericope or whole-surah context ayat, the mandatory host basmala S:0, and Fatiha 1:2-1:7 as --add-ayat external context in 'with-fatiha' analyses.",
+  "Focus QAC morphemes, word-analysis refs and the verified qac-analysis-bridge-v1 word alignment (focus_word_alignment; per-candidate word_alignment).",
+  "For 29:38 only: 8.63 KiB of reviewed supplements (7:201 and 29:39 Arabic plus QAC rows; dictionary excerpts for root_000347/B011, root_001222/B008, root_001273/B012), per reviewed_supplements.py and AUDIT.",
+  "CE input: three scope proses, three landing ledgers, the four guidance docs and focus_context_brief (median 205 KB). Discovery JSON is not given to CE.",
+  "Middle and invitation inputs: final editorial prose only, plus instructions (median 44 KB and 31 KB)."
+ ],
+ "inputs_pulled_or_optional": [
+  "None pullable by design: discovery.md says 'The inline lane packet is the complete evidence boundary. Paths and pointers inside it are provenance, not permission to read other files.' The CE, middle and invitation prompts are equally hermetic (ORCHESTRATION.md sections 4, 7, 8).",
+  "Optional at prepare time: --add-ayat external context (the Fatiha default for non-S1/S9 hosts), pericope packages (--context-bundles-dir), and a dedicated basmala focus (S:0 analyses 'sNNN-basmala-full' with the whole numbered surah as macro context).",
+  "Exception, the inter-ayah test (inter-ayah-test/*.txt): the agent was allowed to read the Arabic source file /Users/ahmetrasit/projects/quran/_shared/quran/complete-quran.txt to verify target text and surrounding passage, for 18:86 and 18:96 only."
+ ],
+ "available_but_unused": [
+  "Qirāʾāt table (../study/_project_corpus/qiraat.tsv): 0 hits for 'qiraat' in the 100:1 lane prompts (my grep). Variant readings reach prose only when word-analysis topics mention them.",
+  "Root occurrence concordance (quran-slm qac_root_ayah.tsv) and root dossiers (../root-dossier): not packet fields (0 hits for 'concordance'/'dossier' in the 100:1 prompts). NS5-style 'one recurring role' analysis therefore had no input.",
+  "quran-slm distance ensembles (E5/NeoAraBERT/character directional ranks): not used in v5 (no neoarabert hits; the distance was first used in V10 per v10/DESIGN.md).",
+  "Grammar attachment/valency tables (quran-data grammar/attachments, contextual profiles): not in packets ('valency' 0 hits). The 29:38 kāna-predicate error survived all stages (review #6).",
+  "Typed morphology for global targets: 'Their target evidence generally supplies exact Arabic but no target morphology' (review #7). The Sept 4 context-morphology registry was rolled back (AUDIT).",
+  "Full dictionary source quotations (Furūq/Turkish entries with Arabic source phrases): only branch-card fields are pushed; reviewed source excerpts were added for 3 branches of 29:38 only.",
+  "Pushed but largely unused: inter-ayah rows. v9/DESIGN.md:24 says 'V5 global lane used 0 of 253 inter-ayah rows for 29:38'. My rows.py over 120 random Luna/Sol editorials: median 7 of 181 other-surah row targets cited (3.7%), against 56 of 200 (28%) in the Astra S1 editorials."
+ ],
+ "models_and_cost": "MODELS (recorded assignments; per the Astra comparison they are not runtime-verified: \"Model assignments here are based on the recorded workflow and operator description, not independently verified runtime telemetry\"):\n- Standing (ORCHESTRATION.md \"Run-Scoped Model Overrides\"; repo README.md): gpt-5.6-luna at max for scope discovery and composition, middle layer and invitation; gpt-5.6-sol at max for CE consolidation, editorial and presentation follow-up. This covers S5, S12, S17, S18, S19, S31, S32, S87-S114 and the basmalas.\n- S1 (analysis s001-fresh-20260910, current files): gpt-6-astra at high for scope, CE and invitation; middle layer on Luna max (ORCHESTRATION.md; s1-astra-comparison-2026-09-11.md). Earlier Luna/Sol S1 versions survive in git (8f763df2, ffd454af, e8832a35).\n- S103:0-3: an additional GPT-6 Luna full rerun stored as *.luna-6.* (5362e0577).\n- 29:38 CE arms: Luna, Sol and \"Terra\" cinematic arms (4f34d87ff, 4b2903dea); Sol was chosen. No written verdict.\n- The benchmark catalog was generated by \"Claude Opus analysis of the hermetic lane packet evidence\" (benchmark/29_38_macro_ideal_catalog.md).\n- Note: v5 used gpt-5.6-luna, not gpt-6-luna, except in the S103 rerun.\nPRICES recorded: Luna $0.20/M input and $1.20/M output (above 272K input: $0.40/$1.80); Sol $4/$20; Astra $10/$50 (s001-astra-model-pricing-estimate.md; v8_batch/COSTS.md).\nCOST PER AYAH:\n- S12, measured token projection at Luna standard rates (v8_batch/COSTS.md): discovery 81.866M input / 7.411M output = $34.50; composition 89.875M / 3.709M = $33.62; CE $6.49; invitations $0.26; middle $2.23; total $77.11 for 112 units (111 + 12:0), about $0.69 per ayah. v9/DESIGN.md:218: \"V5 S12 measured: discovery ≈$0.31/ayah, discovery+composition ≈$0.61/ayah\". Per ayah that is about 731K discovery input tokens plus 802K composition input tokens.\n  - Inference: the $6.49 CE line is priced at Luna rates. Sol pricing of the same volume would be about 20x higher. The S1 estimate suggests about 340K input and 57K output tokens for CE on 1:1, i.e. about $2.5 at Sol rates.\n- Whole Quran (v8_batch/COSTS.md): \"prior 6,236-ayah all-Luna estimate was $3,506.17\" (about $0.56 per ayah). The underlying calculation file was not found in the repo.\n- V8 Batch projection: S12 $59.86 (22.4% saved); whole Quran $2,740.89 with batched discovery, or $1,995.14 if composition is batched too. Never executed.\n- S1 Astra run, bytes/4 estimate (s001-astra-token-usage-estimate.md): 13.41M input and 2.75M output for 7 ayat, i.e. about 1.92M input and 0.39M output per ayah. Priced at $38.83 per ayah on Astra, $15.53 on Sol, $0.86 on Luna (s001-astra-model-pricing-estimate.md). Stage shares of the weighted workload: discovery, composition and repairs 81.6%; CE 17.7%; invitations 0.7% (s1-astra-comparison).\n- Billed actuals: unknown. No usage logs, run.log.json or ledgers are stored for v5. Agents ran through the multiagent spawn tool (ORCHESTRATION.md), so the dollar figures are API-equivalent projections.\nWALL TIME: unknown for bulk runs; the monitor runtime snapshot ends 2026-09-10T20:53Z. Git dates: S100-114 inputs prepared 09-11 (5eaee97d8) and committed complete 09-12 (2c3c0a30a).",
+ "ayat_run": [
+  "Complete numbered surahs with discovery ×3, scope prose ×3, ledgers ×3, canonical, editorial and invitation (my cov.py): S1 (7, Astra), S5 (120, 8 pericopes with Fatiha), S12 (111, 6 pericopes), S17 (111, 6 pericopes), S18 (110), S19 (98), S31 (34), S32 (30), S87-S114 (288). Total 909 of 6,236 numbered ayat (14.6%) across 36 surahs.",
+  "Basmala-focus (S:0) full chains: S5, S12, S18, S31, S32, S87-S114 (33 editorials). Basmala prompts only (no outputs): 79 further surahs (s0NN-basmala-full input dirs).",
+  "Middle layer: S1:1-7, S17:1-53 and S31:1-10 carry legacy claim ledgers (70); S87-S114 all 288 plus 28 basmalas are ledger-free. Total 386.",
+  "Concise layer: S1 only (7 files, about 10,000 words, from 64,566 editorial words; concise/.../README.md).",
+  "Partial: S13:1-3 and S14:1-3 (discovery and scope only, no CE). S13 and S14 prompts exist for all ayat (43, 52).",
+  "Inter-ayah exhaustive test: 18:86 (155 connection rows) and 18:96 (raw/s018-regular-20260912/s018/18_86, 18_96: global.inter-ayah.ledger.json, gap-audit, prose).",
+  "GPT-6 Luna rerun: 103:0-103:3 (*.luna-6.* files).",
+  "Experiments now deleted from the tree but in git: 29:38 in about ten arms (s029-38-41-with-fatiha, s029-p03, compact, full-guidance, lexical-prose, ledger, relation-preservation, CE luna/sol/terra), and S1 runs s001-full-20260910 and s001-fresh at 8f763df2 (Luna/Sol).",
+  "v8_batch: no ayat run (no outputs in its tree)."
+ ],
+ "north_star_scorecard": [
+  {
+   "id": "NS1",
+   "rating": "partial",
+   "evidence": "Editorials open on the plain scene. 12:84: 'Böylece ayetin ilk zemini açıktır: kayıp karşısında yön değiştiren… bir baba' (editorial/s012-p05-with-fatiha/s012/12_84/12_84.prose.editorial.tr.md); 100:1 opens with the oath scene. But length and machinery work against orientation. Median 2,247 words (S1 Astra median 8,671; my words.py). Astra comparison: 'several openings sound like methodological notes'. The 09-04 review (#8) found production facts in reader prose ('target morphology or trust levels were not established')."
+  },
+  {
+   "id": "NS2",
+   "rating": "weak",
+   "evidence": "No Turkish-loss worklist or instruction. PROMPT_V2.md only frames the reader ('Turkish loanwords that have shifted, narrowed, or lost their meaning') and grammar the reader cannot hear. The proxy 'Türkçe' appears in 4% of S5-32 editorials and 19% of S87-114 (my proxies.py). v13/DESIGN.md credits Turkish loss to v11/v12, not v5."
+  },
+  {
+   "id": "NS3",
+   "rating": "partial",
+   "evidence": "The macro lane gives median 10 findings per ayah; median 14-16 same-surah refs per editorial (proxies.py). 5:6 editorial links قُمْتُمْ to قَوَّامِينَ (5:8), but has no kaʿb→Kaʿba 'qiyāman' and no mirfaq-leaning reading (grep of editorial/s005-p01-with-fatiha/s005/5_6). The same branches recur across many ayat (S18: 329 branches activated in ≥5 ayat), so the resonance is often not focus-specific (my inference)."
+  },
+  {
+   "id": "NS4",
+   "rating": "partial",
+   "evidence": "Network-v3 channel nominations enter macro as 'trusted' candidates (resonance_nomination), and HFT context deltas as legacy_unbound; they are accepted or narrowed, not rediscovered. But each ayah runs independently and in parallel ('Do not finish one ayah end to end before starting the next', ORCHESTRATION.md), so there is no progressive disclosure across ayat. The v11 comparison lists v5 S1 surah chains (A-F), with the caveat that those surah files are partly from an Aug 19 run (compare_s001_v5.md)."
+  },
+  {
+   "id": "NS5",
+   "rating": "weak",
+   "evidence": "No concordance or recurring-role input. The standard 18:86 editorial cites none of 15:26/15:28/15:33, and 18:96 cites none of 15:29/38:72/3:49/5:110 (my grep). v10/DESIGN.md: 18:86 'the creation association is briefly named, but the clay passages are not used'. The exhaustive inter-ayah test did surface both patterns (18_86 inter-ayah prose: 15:26 ×2, 15:28 ×3, 55:14 ×3; 18_96 editorial: 15:29, 38:72, 3:49, 5:110, 21:91, 66:12, 32:9), but inside 71,476-word and 15,623-word catalogues."
+  },
+  {
+   "id": "NS6",
+   "rating": "partial",
+   "evidence": "The global lane exists, but QeQ is not sequenced after latent readings and the prose never labels supports/expands/shifts/contradicts. Luna/Sol editorials cite median 8 other-surah refs, 3.7% of pushed row targets (rows.py). v9/DESIGN.md: 'V5 global lane used 0 of 253 inter-ayah rows for 29:38'. The Astra S1 editorials are much broader (357 distinct refs). compare_s001_v5.md: 'v5 still wins on thematic cross-reference breadth, especially ethical and practical mercy verses and counter-verses'. All 86 non-S1 refs in 1:3 came from the pushed connection_registry (rows.py-style check)."
+  },
+  {
+   "id": "NS7",
+   "rating": "partial",
+   "evidence": "v13/DESIGN.md: v5 gained 'dictionary breadth; most gold ingredients present' and lost '\"refuses to assemble them\"; catalogue feel'. The Astra comparison shows Luna discovery already held the creditor-advance, straying-as-lost-findability and water/well readings ('Luna is already supplying valuable discoveries'). compare_s001_v5.md lists v5's water system, womb→cultivation chain and flock belonging, which v11 dropped. The editorial is 'non-compression' (every finding must land), so it aggregates rather than integrates."
+  },
+  {
+   "id": "NS8",
+   "rating": "weak",
+   "evidence": "Discovery prunes and scores. Across 84,062 candidate decisions: 17,675 reject, 8,208 narrow, 4,358 represented. Global rejects 8,097 of 16,847 (48%), mostly for missing anchors or focus return ('unanchored summary', 'no exact carrier'). Every finding gets grounded/qualified/exploratory (30,643/28,627/4,788) (my disc.py). Benchmark: 'Luna treats registry=unresolved as a disqualification'. Astra comparison: 'an expensive editor… cannot legitimately recover rejected findings'."
+  },
+  {
+   "id": "NS9",
+   "rating": "partial",
+   "evidence": "A mandatory 'containment' field per finding, and composition requires the ordinary reading intact. But negatives are dense: 'değil' at 5.4 per 1,000 words in Luna/Sol editorials, 2.9 in Astra (proxies.py). Astra comparison: 'persistent defensive qualifications'. 100:1 editorial: 'bir hayvan adını değil, koşma eylemiyle tanınan… topluluğu getirir' (not-X-but-Y form)."
+  },
+  {
+   "id": "NS10",
+   "rating": "partial",
+   "evidence": "Discovery JSON is fully anchored (branch_ref, facet, carrier_refs, trigger_refs, focus_return_refs; exact IDs). Prose carries ayah refs near each comment (a rule in editorial.md) and all Arabic in {ar,tr,gloss} tags: 942 of 942 editorials pass validate_prose.py (my run). But only 4 of 942 editorials name a classical dictionary, none uses source:S:A or source:root hover tags, and memory-only senses are not marked (the packet boundary replaces marking)."
+  },
+  {
+   "id": "NS11",
+   "rating": "partial",
+   "evidence": "The hermetic packet boundary and per-candidate exclusion records hand exclusions forward inside the JSON. But CE never sees the JSON (ORCHESTRATION.md section 4). Astra comparison: the 1:5 editorial lost palm/rain, spring/delivery and the leaking container present in macro scope ('the clearest substantive retention regression'). The earlier Luna/Sol 1:5 smoking perfume vessel 'went beyond that evidence'. B009 delay/non-delay polarity is inconsistent across ayat. The kāna-predicate grammar error survived CE (review #6)."
+  },
+  {
+   "id": "NS12",
+   "rating": "weak",
+   "evidence": "v5 is ayah-level by design ('Not \"what does the surah argue\" — that is layer 3's job', guidance/PROMPT_V2.md). The separate _surah_commentary/v2 editorial-v1 continuation produced 36 surah readings from v5 editorials only (S1, 5, 12, 17, 18, 19, 31, 32, 87-114; e.g. runs/editorial-v1/s100/.../100.surah-reading.prose.tr.md, 1,685 words). Not rated here beyond existence."
+  },
+  {
+   "id": "NS13",
+   "rating": "partial",
+   "evidence": "Cheap only because it is all Luna/Sol: S12 about $0.61/ayah for discovery plus composition at Luna rates, about $0.69/ayah whole-workflow projection (v8_batch/COSTS.md; v9/DESIGN.md:218). Volumes are huge: about 1.5M input tokens per ayah before CE, and 2.2 MB of discovery prompts per ayah. There is no funnel (composition re-reads discovery; CE re-reads three proses plus 69 KB of guidance), no Opus synthesis, no cached shared prefix, and Batch was built but never run. Pricing the same volumes at Astra gives $38.8/ayah (s001-astra-model-pricing-estimate.md). NORTH_STAR: 'Bulk evidence re-read by every step made v5 expensive'."
+  }
+ ],
+ "improvements": [
+  {
+   "claim": "Discovery separated from composition; state machine, manifests and hidden registries removed; prose more flexible than V4",
+   "evidence": "docs/reviews/commentary-v5-review-2026-09-04.md evolution table: V4 'prose contains many repeated sentence frames'; 'Current V5: More flexible prose and several useful uncandidate findings'. README.md: 'There is no V5 state machine after prepare'.",
+   "over": "v4"
+  },
+  {
+   "claim": "Word-analysis data completeness: the QAC bridge restored 110 missing topics",
+   "evidence": "HANDOFF_V5_BRIDGE_ALIGNMENT_2026-09-08.md: 5:3 83→102/102, 12:31 60→106/106, 24:31 35→80/80 after 1a8df9b3.",
+   "over": "v5 before 2026-09-05 and v3/v4 preparation"
+  },
+  {
+   "claim": "An instruction fix closed the systematic HFT-activation gap on 29:38 macro",
+   "evidence": "benchmark/29_38_macro_ideal_catalog.md: '~90% of the activation gap is systematic and instruction-addressable' (lexical-prose run 33 of 42-43 activations; Failed Stability 3/12). My check of git versions of the macro discovery JSON: Failed Stability branches 3/12 in b7e83ee72 versus 12/12 in e3c7cc413, 087660300 and 4f34d87ff. The compact run 25916df43 also had 12/12, so part of this is run variance. The legacy_unbound rule is now in prompts/discovery.md.",
+   "over": "earlier v5 29:38 runs"
+  },
+  {
+   "claim": "Selective reading invitations: choosing one channel instead of compressing the main meaning",
+   "evidence": "s1-astra-comparison-2026-09-11.md: 'Its invitations are substantially closer to the intended experience: choosing a concrete resonance and showing how it expands the ordinary reading'.",
+   "over": "the grammar-led invitations of the earlier S1 run"
+  },
+  {
+   "claim": "Astra S1 run: evidence-role discipline, broader and more discriminating global context, recovery of the 1:6 macro range",
+   "evidence": "s1-astra-comparison: 'this Astra-led run is analytically stronger overall, but not uniformly better edited'; 1:6 'restore ten of the eleven candidates rejected in the latest previous run'; corrected the 4:56 misuse and the 36:61 over-attribution.",
+   "over": "the Luna/Sol S1 run at 8f763df2"
+  },
+  {
+   "claim": "Scale and mechanical reliability: the first workflow to finish whole surahs in bulk with well-formed artifacts",
+   "evidence": "909 numbered ayat plus 33 basmalas completed (cov.py). 2,844/2,844 discovery JSON parse and 2,843 have coverage_complete true (disc.py); 2,809 ledgers parse and 150/150 sampled pass validate_scope_ledger.py; 942/942 editorials pass validate_prose.py.",
+   "over": "v3/v4 (per-ayah experiments)"
+  },
+  {
+   "claim": "Compact input contract restored after an expansion regression, preserving correctness fixes",
+   "evidence": "AUDIT_V5_INPUT_COMPATIBILITY: the rollback to 41763703 shape at 604e3fc5 gives global 2,076,949 → 1,370,617 bytes for 29:38 and 'exact equality with the early candidate order, support registries, branch registries…'.",
+   "over": "v5 at 1a8df9b3 (the Sept 4-5 expansion)"
+  }
+ ],
+ "regressions": [
+  {
+   "claim": "Sept 4 'evidence repairs' changed agent behaviour for the worse and were rolled back",
+   "evidence": "AUDIT_V5_INPUT_COMPATIBILITY: fourteen candidates rerouted, 330 semantic-obligation records, context morphology (+639 KB global), transport expansion (+341 KB global); 'The user selected a production rollback'. The full-guidance arm 'recovered some macro imagery but did not consistently recover the earlier word-to-image explanations'.",
+   "cause": "More data, instructions and obligations in one prompt; lane ownership changed; guidance replaced by a compact policy."
+  },
+  {
+   "claim": "Simplification removed preparation functions the prompt still assumed",
+   "evidence": "commentary-v5-review-2026-09-04.md #1: the prompt expects root_branch_options, semantic_obligations and required_branch_facets, but 'None occurs on candidates'. 'This is a specific simplification regression' (8c99bbf2).",
+   "cause": "Code deleted while the instruction contract stayed."
+  },
+  {
+   "claim": "Candidates rejected for lane misrouting rather than semantics",
+   "evidence": "Review #2: 29:38 next-ayah-participle-echo was rejected in micro because 29:39 is outside micro and was not handed to macro; all five reader-walk candidates were routed to global and rejected.",
+   "cause": "Inherited v3 routing; evidence-binding failure conflated with a semantic verdict."
+  },
+  {
+   "claim": "Images survive CE without the lexical chain that licenses them",
+   "evidence": "Review #5: the 29:38 editorial keeps the red-veined eye film but 'does not clearly explain the separate lexical item in the same root family that licenses the association'.",
+   "cause": "CE receives prose only, without discovery records or source snippets."
+  },
+  {
+   "claim": "The stronger-model run made the editorial much longer and more defensive; retention loss in 1:5",
+   "evidence": "s1-astra-comparison: 26,849 → 57,790 words (2.15x); 'The Presentation Follow-Up Improves Function More Than Economy… This is the principal reader-facing regression'; 1:5 macro-scope concrete readings missing from the editorial.",
+   "cause": "Non-compression CE contract plus the presentation follow-up; confounded with the model change (Astra plus the new follow-up)."
+  },
+  {
+   "claim": "Landing ledgers turned scope prose into mechanical accounting",
+   "evidence": "raw/s100-regular-20260911/s100/100_1/macro.scope.tr.md is 260 KB (31,163 words), with repeated frames ('…içindeki ilk temasta… ikinci temasta… üçüncü temasta…'). Also 96:3 363 KB, 105:1 228 KB (ls -S). NORTH_STAR: '\"every record must reach the prose\" turn discovery into accounting'.",
+   "cause": "Ledger requires every activation, obligation, connection and context ref to land once per finding (prompts/composition.md)."
+  },
+  {
+   "claim": "Cost: bulk evidence re-read at each turn",
+   "evidence": "S12: composition input 89.9M tokens exceeds discovery input 81.9M (v8_batch/COSTS.md). NORTH_STAR: 'Bulk evidence re-read by every step made v5 expensive (2 MB lane packets, composition re-reading discovery)'.",
+   "cause": "Composition is a second turn of the same 700 KB-900 KB context; the full packet is repeated in all three lanes."
+  },
+  {
+   "claim": "Exploratory range narrowed in the Astra S1 run",
+   "evidence": "s1-astra-comparison 1:1: 'The earlier editorial's field was more adventurous… Several of these channels are rejected upstream in the new discovery'.",
+   "cause": "Stricter participant-mapping checks at discovery (adjudication inside discovery)."
+  }
+ ],
+ "recorded_verdicts": [
+  {
+   "source": "_commentary/v5/s1-astra-comparison-2026-09-11.md",
+   "verdict": "\"The defensible model conclusion is: this Astra-led run is analytically stronger overall, but not uniformly better edited, and one evolving run does not isolate the model effect from the new follow-up or normal run variation.\""
+  },
+  {
+   "source": "_commentary/v5/s1-astra-comparison-2026-09-11.md",
+   "verdict": "\"Luna is already supplying valuable discoveries, not merely raw hints of the obvious meaning… an expensive editor can clarify weakly expressed retained findings; it cannot legitimately recover rejected findings, reverse explicit scope restrictions, or add missing evidence.\" Proposed test: \"Luna max for the three discovery/scope sessions, Astra high for the existing consolidation/editorial session, and Luna max for invitations.\""
+  },
+  {
+   "source": "_commentary/v11/compare_s001_v5.md",
+   "verdict": "\"v11 ≥ v5 on depth, precision and surah architecture. v5 still wins on thematic cross-reference breadth, especially ethical and practical mercy verses and counter-verses. A targeted 'concept concordance plus caveat' pass would close most of the gap.\" Also: \"The v5 prose cites 357 distinct refs. v11 cites 426. 190 of v5's refs also appear in v11. 167 appear only in v5\" and \"The caveat verses are the most consequential gap.\""
+  },
+  {
+   "source": "_commentary/v11/compare_s001_v5.md",
+   "verdict": "\"What v5 finds that v11 rightly drops. v5's HFT pipeline produces many material and embodied metaphors from marginal, sound-alike or split-root branches: water systems, rain cycles, womb-passage, gift/offering, covenant… Two are worth retrieving: Womb → cultivation (chain B)… 1:4 → 1:6 q-w-m.\" Note: NORTH_STAR lists the Fatiha water system (rain, gathered water, well and pulley) as a target 'aha', so this verdict conflicts with the North Star."
+  },
+  {
+   "source": "_commentary/v13/DESIGN.md (v1-v12 review table)",
+   "verdict": "v5 (Luna lanes → Sol/Astra consolidation): gained \"dictionary breadth; most gold ingredients present\"; lost \"'refuses to assemble them'; catalogue feel; bulk re-reading (2 MB packets) made it expensive\"."
+  },
+  {
+   "source": "NORTH_STAR.md",
+   "verdict": "\"The workflow is worth running only if it materially exceeds v5 on this reader's criterion.\" \"Sonnet, lower effort, Luna, Sol and Astra (v5's S1) did not reach it\". \"An editor cannot recover findings rejected upstream (v5)\". \"Bulk evidence re-read by every step made v5 expensive (2 MB lane packets, composition re-reading discovery).\""
+  },
+  {
+   "source": "_commentary/v5/benchmark/29_38_macro_ideal_catalog.md",
+   "verdict": "\"~90% of the activation gap is systematic and instruction-addressable… Luna treats `registry=unresolved` as a disqualification… This is NOT: An Arabic knowledge gap.\""
+  },
+  {
+   "source": "AUDIT_V5_INPUT_COMPATIBILITY_2026-09-08.md",
+   "verdict": "\"The full guidance experiment described below completed; it recovered some macro imagery but did not consistently recover the earlier word-to-image explanations. Its expanded data contract is not the selected production workflow.\""
+  },
+  {
+   "source": "docs/reviews/commentary-v5-review-2026-09-04.md",
+   "verdict": "\"This division is useful. Its present weaknesses are in evidence preparation, prompt consistency, and preservation of the explanation connecting a lexical source to an unusual reading.\" Recommends \"Include a run without HFT or channel nominations to see what the raw evidence can elicit.\""
+  },
+  {
+   "source": "_commentary/v9/DESIGN.md",
+   "verdict": "\"V5 global lane used 0 of 253 inter-ayah rows for 29:38; the final editorial cited one non-S29 ayah. The whole-Quran layer must be a worklist (the rows), not background.\" \"Luna follows worklists well, synthesizes poorly.\""
+  },
+  {
+   "source": "_commentary/v10/DESIGN.md",
+   "verdict": "12:84: \"The contained grief, sealed vessel, source and hidden-water-channel connection is already substantive synthesis. The same grief/anger boundary is revisited.\" 93:3: \"Many images are introduced as another version of care… rather than equal passage through a catalogue.\" 18:86: \"the creation association is briefly named, but the clay passages are not used to develop its Quranic significance.\""
+  },
+  {
+   "source": "_commentary/v6/README.md",
+   "verdict": "\"Restoring V5 semantics alone did not recover V5's analysis\" (V5-semantics pilot: 'nine of its fifteen finding records became generic attributed placeholders')."
+  },
+  {
+   "source": "_commentary/v5/concise/s001-fresh-20260910/s001/README.md",
+   "verdict": "\"The source files total 492 prose paragraphs and 64,566 whitespace-delimited words. This layer is about 10,200 words: substantially shorter, but too compressed to warrant a claim of detail-complete preservation.\""
+  }
+ ],
+ "failure_modes": [
+  "Pushed bulk not read or used. 29:38 global used 0/253 inter-ayah rows (v9/DESIGN.md). Luna/Sol editorials cite median 3.7% of pushed other-surah row targets (my rows.py, 120 ayat).",
+  "Registry metadata treated as a verdict: 'registry=unresolved' excluded HFT-traced branches (benchmark: Failed Stability 3/12 in the lexical-prose run).",
+  "Evidence-binding failure turned into semantic rejection: 8,097 global rejects, crudely 5,247 'no anchor/focus return' (my disc.py sample of reasons, e.g. 'The HFT payload is an unanchored summary with zero exact anchor refs'). Review #2: 'A failed evidence binding should be distinguishable from a semantic judgment'.",
+  "Lane misrouting: candidates rejected because the context was outside the lane (review #2, #3).",
+  "Loss of the explanatory chain between lexical source and image in CE (review #5), and outright retention loss (Astra comparison, 1:5).",
+  "Accounting prose from landing ledgers (100:1 macro scope 31,163 words of 'ilk temasta… ikinci temasta…').",
+  "Generic or templated activations. 18 discovery files contain the template trigger 'Independent contextual grounding enters at…' (e.g. 99:7 macro 117/191 activations, 87:2 98/211, 100:1 63/354; my disc.py). v6 V5-semantics pilot: 9 of 15 findings were generic placeholders.",
+  "Grammar error surviving all stages: mustabṣirīna called a transitive object instead of kāna's predicate (review #6).",
+  "Source-polarity inconsistency: root_000973/B009 'brief delay' versus 'non-delay' handled differently in 1:4, 1:5, 1:6 and 1:7 (Astra comparison #3).",
+  "Evidence overreach from association: a smoking incense vessel from a perfume-mortar branch (Astra comparison #4, earlier Luna/Sol 1:5).",
+  "Defensive negatives and machinery leaking into reader prose ('değil' 5.4 per 1,000 words; review #8).",
+  "Run-to-run selection variance: S1 1:6 macro 44 → 33 → 45 findings across reruns (Astra comparison); 29:38 Failed Stability 12/12 → 3/12 → 12/12 across arms (my git check).",
+  "Verbosity scales with the stronger model and the extra follow-up: 2.15x words (Astra comparison).",
+  "Invitation overlap across a surah: 1:1/1:3 gestation, 1:5/1:6 assisted walking (Astra comparison).",
+  "Operational: the monitor could synthesize 'passed' without a lifecycle event (review #10); stale bundles failed preparation (73:20, 14:22; review #9); the S13/S14 runs stopped after 3 ayat each (reason unknown).",
+  "Artifact wrinkles: S19:60-73 use alternate filenames (micro/macro/global.prose.tr.md and *.landing_ledger.json); 2 discovery files with nonstandard schema strings (18:47 macro 'v5.discovery.macro.1', 91:14 macro 'v5-macro-scope-discovery'); 5:12 global coverage_complete false; a stray output/s019-regular-20260912/s019/19_17/global.discovery.json."
+ ],
+ "dilution_evidence": [
+  "Hurt: the Sept 4 packet expansion (routing, 330 obligations, context morphology +639 KB global, repeated records +341 KB) coincided with a user-reported behaviour regression and was rolled back (AUDIT_V5_INPUT_COMPATIBILITY_2026-09-08.md). The measured separate contributions were 'not experimentally isolated'.",
+  "Mixed: re-embedding the full 69 KB guidance in discovery 'recovered some macro imagery but did not consistently recover the earlier word-to-image explanations' (AUDIT). The full-guidance macro run had 12 findings but 28 distinct branches, against 7 findings and 39 branches in compact (my git check).",
+  "Hurt: pushed bulk was ignored. The 29:38 global lane used 0 of 253 rows (v9/DESIGN.md). Luna/Sol editorials used median 3.7% of about 181 pushed row targets (rows.py). Rows only reached prose when turned into a per-row worklist (inter-ayah test found the NS5 clay/breath patterns for 18:86/18:96 that the standard lanes missed).",
+  "Review #4 (commentary-v5-review-2026-09-04.md): 'The prompt payload is substantially larger than the discovery task needs' (branch registry about 580,000-621,000 characters per lane; the four governing documents about 10,600 words per lane; 'The Fatiha examples can also prime an interpretation'). It warns that one-line JSON can be truncated by bounded reads.",
+  "Hurt: more instructions and steps downstream. The presentation follow-up made the prose state each function twice ('principal reader-facing regression'), and length grew 2.15x without proportional value (Astra comparison: 'More explanation is not automatically more value for either the reader or the budget').",
+  "Hurt: the 'every finding must land' ledger produced catalogue or accounting prose (100:1 macro scope 31,163 words). v13/DESIGN.md: 'catalogue feel'.",
+  "Helped: small targeted additions. Reviewed 8.63 KiB supplements for 29:38 (tent frame, socket, upright support; 7:201/29:39 QAC) were approved as bounded evidence (AUDIT). Their effect was not measured.",
+  "Helped: one targeted instruction (legacy_unbound HFT traces count as attributed evidence) closed about 90% of the benchmark gap (benchmark; prompts/discovery.md)."
+ ],
+ "luna_evidence": [
+  "Good at discovery breadth. Astra comparison, 'What Luna Already Had': 1:4 creditor supplies the capacity to answer (macro:cand_f0238210878c5c01408d); 1:7 'Straying becomes a loss of recoverable orientation, so guidance appears as restoration of findability'; 1:2 water, well and continuous nurture; 1:6 supported procession. 'Paying for discovery again to obtain that same core is hard to justify from this evidence.'",
+  "Good at following schemas and worklists at scale: 2,844 discovery JSON all parse, 2,843 coverage_complete, 84,062 candidate decisions each with a reason, 96,140 activations with carrier/trigger/focus-return refs; ledgers validate (disc.py; 150/150 validate_scope_ledger.py). Benchmark: 'Epistemic calibration: appropriate grounded/qualified/exploratory labels'; 'All 4 channel candidates: accepted/narrowed with appropriate activations'.",
+  "Good at uncandidate discovery in the wider lanes: 1,948 findings with no origin candidate (global 1,165, macro 734, micro 49).",
+  "Bad: a registry label treated as disqualifying (benchmark). Fixable by instruction (NORTH_STAR: 'Luna's discovery gaps were instruction-fixable').",
+  "Bad: ignores pushed bulk rows (0/253 for 29:38) unless they are itemized as a worklist (v9/DESIGN.md lesson).",
+  "Bad: generic payoffs and templated activations in some files ('some Luna findings use a generic payoff such as perceiving the focus through a newly activated image', Astra comparison; 18 templated files). v6 V5-semantics pilot: 9 of 15 findings were generic placeholders.",
+  "Bad: run variance in what it accepts (1:6 macro 44/44/33; Failed Stability 12/12, 3/12, 12/12).",
+  "Bad at synthesis: NORTH_STAR says Luna 'does not synthesize'. v5's middle layer (Luna max, lossless compression of the editorial) has no recorded quality verdict in files. Its iteration commits on S1 1:5 cite 'exact-anchor and paragraph-density issues' (ce0a07fbb).",
+  "Sol (gpt-5.6-sol max) was chosen for CE after Luna/Sol/Terra cinematic arms on 29:38 (4f34d87ff, 4b2903dea); no written rationale. Sol/Luna editorials cite median 8 other-surah refs.",
+  "Astra (gpt-6-astra high, S1): 'analytically stronger overall', better at evidence roles and contextual counterexamples; stylistic gain is 'explanatory clarity, not brevity, warmth, or musicality'; 2.15x longer; estimated 45x Luna cost per ayah ($38.83 vs $0.86)."
+ ],
+ "pretraining_vs_data_evidence": [
+  "Pushed data made the difference for QeQ breadth. All 86 non-S1 refs in the Astra 1:3 editorial were present in the pushed global connection_registry (241 rows) (my check on input/s001-fresh-20260910/s001/1_3/global.discovery.prompt.md). The 'thematic concordance' credited to v5 in compare_s001_v5.md (3:159, 30:21, 42:28, 16:64, 17:82…) came from pushed inter-ayah rows, not memory. Whether a model used them depended on the model: Luna/Sol used median 3.7% of row targets, Astra 28% (rows.py).",
+  "Rare senses came from pushed dictionary branches. The eye-film sense of سبل (root_000672/B010, 'red-veined, web-like eye film') is in the packet; the benchmark calls it 'partly an Arabic knowledge test', and Luna retained it at reduced scope. The tent-frame, socket and upright-support branches (root_001222/B008 etc.) needed reviewed dictionary excerpts to be usable (AUDIT approved additions).",
+  "Benchmark: the Luna gap was 'NOT an Arabic knowledge gap (Luna identifies the 3 retained HFT branches correctly)'. It was an instruction-following issue, so pretraining sufficed once the instruction allowed it.",
+  "The dictionary as guard: the perfume-mortar branch root_000973/B012 'does not, by itself, supply burning incense'. The earlier prose's smoking vessel was a model association beyond the data, corrected when the run respected the branch (Astra comparison #4).",
+  "Pushed data can mislead: the short label of root_000973/B009 ('brief delay') contradicts its detailed scope ('non-delay'); models followed the label inconsistently (Astra comparison #3).",
+  "Grammar reasoning failed despite supportive data: word analysis described a copular construction, yet 'mustabṣirīna' became a transitive object and survived CE (review #6).",
+  "Specific concrete details depend on upstream acceptance, not model knowledge: Luna explicitly bounded 'No specific animal, retained afterbirth, or swelling specialization is asserted', while Astra used the retained-afterbirth image (Astra comparison). A downstream editor cannot add it legitimately.",
+  "NS5 recurring-role patterns (ḥamaʾ as human-creation clay; nafakha as animating) were not produced from pretraining in the standard lanes (18:86/18:96 editorials: 0 of the key refs). They appeared when the connection rows were processed one by one (inter-ayah test)."
+ ],
+ "reusable_artifacts": [
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v5/raw/<analysis-id>/sNNN/S_A/{micro,macro,global}.discovery.json",
+   "what": "Luna-max discovery records (S1 Astra), schema commentary-v5-scope-discovery-v1. Top-level: schema_version, ayah_ref, lane, coverage_complete, candidate_decisions[{candidate_id, decision accept/narrow/represented/reject, reason, finding_refs, branch/facet/context/semantic_obligation_exclusions}], findings[{finding_ref, origin_candidate_id, title, claim, mechanism, reader_payoff, containment, epistemic{status, source_trust, reason}, support_ids, branch_activations[{branch_ref, facet_id, branch_gloss, facet_statement, application_mode, carrier_refs, trigger_refs, focus_return_refs, carrier, independent_trigger, activation, resulting_reading, boundary}], connection_refs, context_refs}], friction_notes. Totals: 64,063 findings (micro 45,515; macro 11,587; global 6,961); 96,140 activations (attributed 53,856, contextual_resonance 31,535, analogical 3,801, lexical 3,499, intrinsic_cross_root 3,448); 84,062 decisions; 1,948 uncandidate findings. 249 MB. 100% JSON-valid; 2 nonstandard schema strings; 1 coverage_complete false; 18 files with templated activations.",
+   "coverage": "948 ayat × 3 lanes = 2,844 files: 909 numbered ayat (S1, S5, S12, S17, S18, S19, S31, S32, S87-S114 complete), 33 basmalas, S13:1-3, S14:1-3. About 14.6% of the Quran.",
+   "reuse_idea": "A precomputed harvest for an Opus synthesis step without rediscovery. A deterministic digest (title | claim | payoff | branch_ref:gloss | carriers | triggers, skipping plain word-topic findings) measures median 16 KB, p90 26 KB per ayah (my estimate), against 2.2 MB of discovery prompts. Rejected decisions with reasons can be reopened as counter-evidence or re-bound. Labels (accept/reject, epistemic) are model judgments, usable only as weak labels."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v5/raw/<analysis-id>/sNNN/S_A/{lane}.scope.tr.md and {lane}.scope.ledger.json",
+   "what": "Turkish scope prose per lane, plus a landing ledger (commentary-v5-scope-landing-ledger-v1) mapping each finding's claim/mechanism/payoff/containment, obligations, activation index, connections and contexts to paragraph number and exact anchor sentence. 2,809 ledgers; 63,346 finding rows; 161,282 landings. Scope prose median words: micro 1,707, macro 1,591, global 959. Some are huge accounting texts (100:1 macro 31,163 words).",
+   "coverage": "Same 948 ayat; S19:60-73 use alternate names (*.prose.tr.md, *.landing_ledger.json).",
+   "reuse_idea": "Finding-to-sentence alignments (161K pairs) as training or eval data for a verbalizer or grounding checker. Macro/global scope prose as a per-lane Turkish rendering of each finding."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v5/raw/.../S_A.prose.tr.md and /Volumes/OZTURK/_projects/prose_generation/_commentary/v5/editorial/<analysis-id>/sNNN/S_A/S_A.prose.editorial.tr.md",
+   "what": "Sol-max consolidated first-pass and editorial Turkish commentary (S1: Astra), with {ar:..., tr:..., gloss:...} tags and inline ayah refs. Editorial median 2,247 words (S1 median 8,671); median 5 H2 headings; 942/942 pass validate_prose.py. Also published to ../quran-data/data/commentary/ayah/detailed/tr/sNNN/S_A.prose.tr.md.",
+   "coverage": "942 editorials = 909 numbered ayat + 33 basmalas.",
+   "reuse_idea": "The North Star's bar ('materially exceeds v5'); a baseline for blind comparison; a compact input to Opus re-synthesis (about 6K tokens) where upstream-rejected material is not needed."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v5/editorial/.../S_A.invitation.tr.md",
+   "what": "Luna-max (S1 Astra) selective reading invitation: 2-4 paragraphs following one or two channels, median 245 words.",
+   "coverage": "942",
+   "reuse_idea": "Weak labels for 'most revealing channel per ayah' (which image Luna chose to lead with). A reader-facing short layer."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v5/middle/<analysis-id>/sNNN/S_A/S_A.prose.middle.tr.md and S_A.middle.claims.json",
+   "what": "Luna-max 'lossless' compression of the editorial (median 1,758 words; S1 4,836). 70 legacy claim ledgers (commentary-v5-middle-claim-ledger-v2) with source_paragraphs, semantic_units (e.g. 166 for 1:5, each with assertion_tr, carrier, trigger_or_context, contact_or_mechanism, changed_reading, boundaries, live_alternatives, relation classification) and synthesis_clusters.",
+   "coverage": "386 middle proses (S1:1-7, S17:1-53, S31:1-10, S87-S114 plus 28 basmalas). Claim ledgers: 70 (S1, S17:1-53, S31:1-10).",
+   "reuse_idea": "Semantic-unit inventories of 70 ayat as an atomic-claim dataset (dedup/equivalence labels) for evaluating retention. v15 names the S1 middle prose as the v5 comparison target (v15/STATUS.md)."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v5/input/<analysis-id>/sNNN/S_A/*.discovery.prompt.md (plus canonical, editorial, middle-layer, invitation prompts)",
+   "what": "Frozen hermetic prompts with single-line lane packet JSON: branch_registry, candidate_inventory (word topics, HFT, channel nominations, v12 published findings, reader walks), support_registry, connection_registry (inter-ayah rows), selected_context_units, focus_word_alignment. 3.1 GB. Median about 2.2 MB per ayah across three lanes.",
+   "coverage": "1,116 ayah dirs with discovery prompts (including all of S13/S14, 79 more basmala-full foci and S5 no-fatiha variants).",
+   "reuse_idea": "Exact reproducibility of what each agent saw. The connection_registry per ayah is a ready QeQ candidate list. Regenerable by workflow.py, so not unique data."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v5/raw/s018-regular-20260912/s018/{18_86,18_96}/global.inter-ayah.ledger.json, *.gap-audit.json, *.global.inter-ayah.prose*.tr.md, and _commentary/v5/inter-ayah-test/*.txt",
+   "what": "Row-by-row analysis of every connection_registry row (155 for 18:86): verified target Arabic, surrounding context, triggers, activated focus branches, surprise strength. Plus gap audit and Turkish thematic prose (18:86: 71,476 words; 18:96 editorial: 15,623 words). Schema global-inter-ayah-discovery-ledger-v1. Model not recorded.",
+   "coverage": "2 ayat (18:86, 18:96).",
+   "reuse_idea": "Proof that a per-row worklist surfaces NS5 recurring-role patterns (clay as human creation 15:26/28/33, 55:14; nafakha animating 15:29, 38:72, 3:49, 5:110, 21:91, 66:12, 32:9). A template for a Luna row-worklist stage whose compact output feeds Opus."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v5/benchmark/29_38_macro_ideal_catalog.md (copy in v8_batch/benchmark/)",
+   "what": "Opus-generated ideal findings catalog for 29:38 macro: 7 findings, 42-43 ideal branch activations with carrier, trigger and difficulty grading, with a diagnostic of Luna's gaps.",
+   "coverage": "1 ayah, 1 lane.",
+   "reuse_idea": "Gold-style eval item for a discovery or retrieval model (recall of branch activations by difficulty). The only labelled 'ideal activation' set in scope; extendable."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v5/s1-astra-comparison-2026-09-11.md, s001-astra-token-usage-estimate.md, s001-astra-model-pricing-estimate.md",
+   "what": "Per-ayah gains and losses (Luna/Sol vs Astra) with discovery IDs, stage-wise token estimates and model pricing.",
+   "coverage": "S1 (7 ayat).",
+   "reuse_idea": "Evidence base for model allocation. A ready design for the Luna-upstream plus strong-CE crossover test."
+  },
+  {
+   "path": "git history of _commentary/v5 (e.g. 8f763df2 S1 Luna/Sol run; 25916df43/b7e83ee72/e3c7cc413/e9fec9685/087660300/4f34d87ff/4b2903dea 29:38 arms) and *.luna-6.* files for S103",
+   "what": "Matched-input A/B pairs: same discovery prompts under different instructions or models; CE arms Luna/Sol/Terra on identical scope proses; S103 gpt-5.6 vs GPT-6 Luna full reruns.",
+   "coverage": "29:38, S1, S103:0-3.",
+   "reuse_idea": "Free comparison data (no new runs) for instruction and model effects on discovery recall and CE retention."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_surah_commentary/v2/runs/editorial-v1/sNNN/tr/*/outputs/S.surah-reading.prose.tr.md",
+   "what": "Surah readings built only from v5 editorials (outline, draft and prose, with source-packet.json).",
+   "coverage": "36 surahs: 1, 5, 12, 17, 18, 19, 31, 32, 87-114.",
+   "reuse_idea": "Existing NS12 baseline at surah level for the v5 surahs."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v5/concise/s001-fresh-20260910/s001/*.prose.concise.tr.md",
+   "what": "About 10,200-word digest of the 64,566-word S1 editorials, with paragraph citations (1:4 ¶12) covering all 492 source paragraphs.",
+   "coverage": "S1 only.",
+   "reuse_idea": "Provenance-preserving compression pattern (paragraph-cited digest)."
+  }
+ ],
+ "unharvested_ideas": [
+  {
+   "idea": "Luna-upstream plus strong-model CE crossover. Feed identical Luna scope prose and ledgers (1:4, 1:7) to Sol CE and Astra CE; test the global lane as the first selective upstream upgrade; run a same-editorial invitation A/B.",
+   "where": "_commentary/v5/s1-astra-comparison-2026-09-11.md, 'Smallest Useful Controlled Test'",
+   "why_dropped": "Not run in v5. Work moved to V6-V9 redesigns (git shows no crossover run).",
+   "potential": "Directly answers Q3. The recorded analysis already found most gold ingredients in Luna discovery. With Opus 5.5 at high on a compact digest (about 16 KB/ayah) instead of 205 KB CE prompts, cost could fit the $1-2/ayah band (inference)."
+  },
+  {
+   "idea": "Opus synthesis directly on the stored v5 discovery JSON, including rejected and narrowed candidates with reasons. The editor then sees what was excluded, fixing 'an editor cannot recover findings rejected upstream'.",
+   "where": "raw/*/*/*/*.discovery.json (948 ayat); NORTH_STAR lesson; Astra comparison 'hybrid limit'",
+   "why_dropped": "v5's CE contract deliberately withheld discovery JSON ('Discovery JSON stays with the scope agents', ORCHESTRATION.md section 4).",
+   "potential": "Reuses about 64K Luna findings for 909 ayat at no discovery cost. Needs a digest script and an Opus writer brief."
+  },
+  {
+   "idea": "Discovery run without HFT or channel nominations, to see what raw evidence elicits.",
+   "where": "docs/reviews/commentary-v5-review-2026-09-04.md ('Include a run without HFT or channel nominations')",
+   "why_dropped": "Never run within v5 (no such analysis id). Later cold arms (V9 cold Opus, the v15 cold arm) explored similar ground (v13/DESIGN.md table).",
+   "potential": "Would measure how much of v5's aha content is HFT relay (56% of activations are 'attributed', i.e. HFT traces) against model and dictionary discovery."
+  },
+  {
+   "idea": "Batch API for discovery (and composition)",
+   "where": "_commentary/v8_batch (batch_discovery.py, COSTS.md)",
+   "why_dropped": "Built 2026-09-21; no outputs, the only commit is 950e82064; V9 started 09-24.",
+   "potential": "22% (discovery only) to 43% (discovery plus composition) projected savings on the v5 cost base; the same transport is usable for any Luna worklist stage."
+  },
+  {
+   "idea": "Exhaustive per-row inter-ayah worklist with verified target text, surprise grading, then thematic synthesis",
+   "where": "_commentary/v5/inter-ayah-test/*.txt; raw/s018-regular-20260912/s018/18_86, 18_96",
+   "why_dropped": "Run on two ayat only. Output was a 71K-word catalogue, and the editorial never absorbed it (18:86 editorial cites none of 15:26/28/33).",
+   "potential": "Surfaced NS5 loaded-word patterns. Luna-suited (worklist). Needs a compact per-row code output and an Opus integrator, as V9 later did with 'W3 inter-ayah targets'."
+  },
+  {
+   "idea": "Compact discovery cards: one record per branch/facet, an allowlisted evidence appendix, record-sized pages, measured tokens",
+   "where": "docs/reviews/commentary-v5-review-2026-09-04.md, 'A leaner discovery and writing contract'",
+   "why_dropped": "v5 rolled back to the compact early contract, which is still about 2 MB per ayah (AUDIT). Card redesign went to V6/V7.",
+   "potential": "An input reduction of an order of magnitude or more without deleting distinct senses. Bears on dilution (NS13)."
+  },
+  {
+   "idea": "Give CE compact retained findings plus source snippets so it can check grammar and lexical claims",
+   "where": "review #6",
+   "why_dropped": "Consolidation stayed prose-only after the rollback (AUDIT).",
+   "potential": "Would catch errors like kāna-predicate and B009 polarity at synthesis time."
+  },
+  {
+   "idea": "Middle-layer claim ledgers: atomic semantic units, equivalence classes, synthesis clusters",
+   "where": "middle/*/*/*/*.middle.claims.json (70 ayat); commits b7d65aa5a, 8bb2f0ce9 'Adopt ledger-free middle layer'",
+   "why_dropped": "Replaced by a ledger-free middle layer (2026-09-20/21). Reason not documented beyond the commit subjects.",
+   "potential": "A labelled retention-eval set (Q2b) and a basis for measuring what synthesis drops."
+  },
+  {
+   "idea": "Surah-level chain index from stored discovery",
+   "where": "raw/*/*/*/macro.discovery.json (my inference)",
+   "why_dropped": "Not attempted. v5 ran ayat independently.",
+   "potential": "Grouping activations by branch_ref across a surah's ayat gives chain candidates by script (S1: 58 of 161 activated branches recur in ≥5 of 7 ayat; S18: 329 branches in ≥5 ayat). Recurrence is partly pericope-wide noise, so it needs a focus-specificity measure (see Q5)."
+  },
+  {
+   "idea": "Re-binding the global rejections that failed on anchors",
+   "where": "global.discovery.json candidate_decisions (8,097 rejects; about 5,247 'no anchor/focus return' by crude classification)",
+   "why_dropped": "Not attempted.",
+   "potential": "Many rejected items are HFT reader-synthesis claims lacking coordinates. The v12 cross-run anchor maps (AVAILABLE_INPUTS.md) could supply coordinates and recover the readings without new discovery (inference)."
+  },
+  {
+   "idea": "Extend the Opus 'ideal catalog' benchmark beyond 29:38 macro",
+   "where": "benchmark/29_38_macro_ideal_catalog.md",
+   "why_dropped": "One-off diagnostic.",
+   "potential": "A small gold set with difficulty grades to evaluate Luna discovery or a quran-slm retriever (Q2b, Q5)."
+  },
+  {
+   "idea": "Compare the S103 GPT-6 Luna rerun with the gpt-5.6 run",
+   "where": "*.luna-6.* files for 103:0-3 (5362e0577)",
+   "why_dropped": "No comparison recorded; originals restored (afc21c635).",
+   "potential": "Tells whether gpt-6-luna changes discovery or synthesis at the same price class."
+  }
+ ],
+ "key_lessons": [
+  "Q1: v5 left a large, well-formed and unused Luna discovery harvest: 909 ayat, 64K findings, 96K anchored branch activations, 84K decisions with reasons, all JSON-valid (disc.py). Recorded reviews agree the gold ingredients are mostly present ('most gold ingredients present', v13/DESIGN.md; 'Luna is already supplying valuable discoveries', Astra comparison). The failure was assembly, not discovery. Nothing has been re-synthesized from this harvest with Opus.",
+  "Q2a: in v5, pushed data, not memory, supplied the cross-references. 86/86 non-S1 refs in the Astra 1:3 editorial came from pushed inter-ayah rows, and rare senses (eye-film, tent frame) came from pushed branch cards. Pushed bulk was ignored by the cheaper pipeline (Luna/Sol cite 3.7% of row targets; 29:38 global 0/253). So the issue is attention and format (worklist versus background), not whether the data exists.",
+  "Q2b: labelled material in v5 is mostly model judgments, not gold. There is one Opus ideal catalog (29:38 macro, 42-43 activations), v5-only items reused as eval anchors (v11/eval/s001_anchors.md, v13/EVAL_ANCHORS.md), 70 semantic-unit ledgers and 161K finding-to-sentence alignments. They are sufficient for weak supervision or eval, not for training a distance model without human validation.",
+  "Q3: building on v5 is feasible if the new step (a) reads the discovery JSON (including rejects and narrows) rather than only prose, (b) uses a deterministic compact digest (median about 16 KB/ayah by my estimate) instead of 205 KB CE prompts, (c) drops the 'every finding must land' rule, and (d) uses Opus for integration. The recorded limit: 'an expensive editor… cannot legitimately recover rejected findings'. The harvest is also biased by early pruning and HFT relay (56% of activations are 'attributed'), and S1 is Astra-made.",
+  "Q4: v5's architecture splits by context distance (micro/macro/global), not by stance. Each lane holds generative and adjudicative stances at once (accept/reject plus epistemic labels during discovery), and a non-compression CE aggregates three proses, which yields a catalogue. A non-iterative alternative suggested by the evidence: script-built compact inputs, Luna per-item worklists only for recall (rows, branches), and one Opus synthesis that integrates, with no accounting ledger.",
+  "Q5: v5 never used a quran-slm distance. The same branches get activated for many ayat of a pericope (S18: 329 branches in ≥5 ayat). A useful distance should score focus-specific contact (branch × trigger word in the focus's window) rather than pericope co-presence, and could be evaluated on the 29:38 ideal catalog and the per-row inter-ayah ledgers.",
+  "Economics: v5 was cheap only because Luna and Sol did everything (S12 about $0.61/ayah for discovery plus composition at Luna rates). Its volumes (about 1.9M input tokens per ayah, estimated for S1) would be $15-39/ayah on Sol or Astra. The funnel, not the model, has to change for Opus synthesis.",
+  "Instruction beats volume for Luna: one targeted rule fixed about 90% of a recall gap (benchmark), while adding 700 KB of evidence or 69 KB of guidance did not reliably help (AUDIT)."
+ ],
+ "open_questions": [
+  "Actual billed tokens and cost per v5 stage: no usage logs or ledgers are stored. COSTS.md cites a 'previously measured S12 V5 token projection' whose source file I did not find. Did it price CE at Luna rates? (The arithmetic suggests yes.)",
+  "Which model produced each stored layer in the bulk runs? Only standing assignments are recorded, and runtime telemetry ends 2026-09-10.",
+  "Quality of the Luna middle layer against the editorial: no recorded verdict. v15/STATUS.md plans to use the S1 middle prose as the v5 bar.",
+  "Why was Sol chosen for CE over Luna/Terra on 29:38? Only commit subjects exist.",
+  "Does the legacy_unbound instruction fix generalize beyond 29:38? The Failed Stability recovery also shows run variance (12/12 in compact before the fix).",
+  "How much of v5's surprising content is HFT relay rather than Luna discovery (56% of activations are 'attributed')? The no-HFT ablation was never run.",
+  "S103 GPT-6 Luna against gpt-5.6 Luna: no comparison recorded.",
+  "Why S13/S14 stopped after 3 ayat each, and whether 79 basmala-full prompt sets were intentionally left unrun.",
+  "Would Astra or Opus CE on Luna scope inputs reach the full-Astra S1 quality? This is the hybrid question the Astra comparison left 'Not demonstrated'.",
+  "The v11 comparison says v11 'rightly drops' the v5 water-system and womb images, while NORTH_STAR treats the Fatiha water system as a target 'aha'. Which standard governs the Q3 build-on-v5 decision?"
+ ]
+}

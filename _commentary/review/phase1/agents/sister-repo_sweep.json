@@ -1,0 +1,602 @@
+{
+ "assets": [
+  {
+   "repo": "quran-roots",
+   "path": "/Volumes/OZTURK/_projects/quran-roots/_corpus/lexicons/cache/shards/lisan_compact.sqlite (+ lane_compact__part01-03.sqlite, openiti_extra/qamus.sqlite)",
+   "what": "Full-text classical lexicons parsed per root/headword: Lisan al-Arab 9,411 entries / 19.4M chars (9,391 roots); Lane 60,221 entries / 30.2M chars; al-Qamus 10,370 entries. Quran quotations are marked @QB@..@QE@ (Lisan: 6,133 marked quotes in 1,487 entries); Lisan also quotes exegetes (al-Farra' 2,470 mentions/1,480 entries, al-Zajjaj 1,091, Abu Ubayda 753, Mujahid/Ibn Abbas 885) and hadith (6,151 mentions). Counts from my script over the SQLite files.",
+   "coverage": "All Quranic roots and far beyond (Lisan 9,391 roots). Completeness unknown: Lisan ض ل ل entry is 12,647 chars, ر ب ب 23,074 chars; I did not compare with a printed edition.",
+   "unharvested_potential": "NEW (not in AVAILABLE_INPUTS.md). No commentary version references Lisan, Lane or Qamus (grep of _commentary and scripts *.py: 0 hits). The v15 pull files take only the six sources in dictionary root packets (v15/build.py:381-390), so the richest rare-sense source (Lisan) and its embedded exegete/gharib material never reach discovery or checking. Serves rare senses the model will not recall (North Star 'dictionary is the supplier') and source checks for aha readings.",
+   "north_star_ids": "NS10, NS11, NS7, NS1, NS6",
+   "quality": "High-value primary source (OpenITI cleaned JK version per README); Lane is an English bridge, 'never sole support' per source_policy table in quran_furuq_portable.sqlite. Licence note in shard: OpenITI CC BY-NC-SA 4.0, verify before publishing excerpts.",
+   "used_by": "none"
+  },
+  {
+   "repo": "quran-roots",
+   "path": "/Volumes/OZTURK/_projects/quran-roots/_corpus/lexicons/cache/openiti_context.sqlite; sources/majaz_quran, asas_balagha, sibawayh, early_poetry",
+   "what": "Majaz al-Qur'an of Abu Ubayda (d. 209), the only Quran-specialized philology text present: 1,308 entries keyed by Quranic phrase and ayah marker (1,287 distinct markers). Asas al-Balagha (al-Zamakhshari): 3,823 root/headword entries, the classical literal-versus-figurative (majaz) lexicon. Kitab Sibawayh: 812 chunks. Jamharat Ash'ar al-Arab: 81 early-poetry chunks.",
+   "coverage": "Majaz: phrase-level glosses for about 1,300 Quranic loci across the Quran (my count of distinct markers). Asas: root-keyed. Sibawayh/poetry: audit corpora.",
+   "unharvested_potential": "NEW. Never used (grep 0 hits). Majaz gives per-ayah early gloss evidence (NS10 source for a reading). Asas separates literal from figurative extensions of a root, which is exactly the move from a concrete branch to an ayah's latent image (NS7). Poetry attests register and collocation.",
+   "north_star_ids": "NS7, NS10, NS11, NS2, NS1",
+   "quality": "Manifest reliability notes: Majaz 'strongest as verse/form/construction evidence, not as root-dictionary evidence'; Asas 'strong for metaphor, collocation, figurative extension'. Segmentation is by regex (manifest section_regex), so entry boundaries may be imperfect.",
+   "used_by": "none"
+  },
+  {
+   "repo": "quran-roots",
+   "path": "/Volumes/OZTURK/_projects/quran-roots/_corpus/lexicons/cache/shards/furuq.sqlite; cache/quran_furuq_portable.sqlite (table grounded_contrasts)",
+   "what": "al-Furuq al-Lughawiyya of Abu Hilal al-Askari, 919 near-synonym contrast entries (387K chars). Portable DB: 33,859 lexicon entries from 9 source families with source_policy ranks, root_source_coverage for 1,862 roots, and 10,309 grounded_contrasts (5,299 root-level, 5,010 form-level) with distinction_axis, focus_not_candidate and candidate_not_focus fields.",
+   "coverage": "al-Askari: 915 headword groups. Contrasts: 1,616 distinct focus items.",
+   "unharvested_potential": "NEW. Unused (grep 0). Near-synonym distinctions are what a Turkish word flattens (NS2: 'what the Turkish word loses') and what separates a loaded word's role from its neighbours (NS5).",
+   "north_star_ids": "NS2, NS5, NS10",
+   "quality": "al-Askari: primary classical source. grounded_contrasts: model-generated (sample rows show mechanical passive-tag splits), so medium quality.",
+   "used_by": "none"
+  },
+  {
+   "repo": "dictionary",
+   "path": "/Volumes/OZTURK/_projects/dictionary/data/output/root_packets/root_*.json (dictionary_sources[].entry_text_clean)",
+   "what": "1,679 root packets holding the six-source classical entries in full: Maqayis 1,957 entries (1,377 exact routes), Mufradat 1,729 (1,323), Sihah 1,710 (1,508), Tahdhib 1,708 (1,128), Ayn 1,696 (1,208), Jamhara 1,744 (716 exact, 1,010 no_match). About 10.6M chars in total. Also 11,637 branches, 37,264 lexical senses, QAC occurrences, attachments and Qnet keywords/neighbours per branch. Counts from my script.",
+   "coverage": "All 1,679 root envelopes. Median text per entry: Tahdhib 1,532 chars, Sihah 814, Maqayis 487, Mufradat 428, Ayn 342.",
+   "unharvested_potential": "Known (AVAILABLE_INPUTS). Only v15 uses it, as on-demand pull files (v15/build.py:381-390; DESIGN.md:67). Unharvested by script: (a) per-ayah citations inside the entries (Mufradat alone has 8,056 [surah/ayah] references to about 3,900 distinct loci; Tahdhib 3,239 '(surah : n)' refs); (b) Maqayis asl statements. Of 1,572 roots with Maqayis text, 473 say 'one asl', 205 'two', 16 'three', 2 'four', 58 generic 'usul', 14 'not measured'; 804 have no simple regex hit. These give a citable 'one concept' per root (NS7 integration).",
+   "north_star_ids": "NS10, NS7, NS11, NS5, NS1",
+   "quality": "High; primary sources. Jamhara routing is weak (1,010 of 1,744 no_match).",
+   "used_by": "v15 (pull files)"
+  },
+  {
+   "repo": "latent_activation",
+   "path": "/Volumes/OZTURK/_projects/latent_activation/focus_trace/runs/sNNN/readers/reader_hft_a/*.focus_trace.json",
+   "what": "Hermetic Focus Trace (gpt-5.6-sol, max effort, per focus_trace/README.md): 3,133 ayah outputs over 90 surahs. They hold 9,993 baseline models, 23,131 context deltas (9,514 revised, 7,481 strengthened, 6,002 new, 134 weakened) and 8,025 surprising_valid_outliers (7,324 exploratory, 701 medium), with 216,787 activation steps. Every step carries source_ref, word indices, root_id, branch_id and a role sentence. 120,406 steps sit in other ayat (window activations); 46,902 distinct word-branch activations; 48,364 distinct focus-to-other-ayah links. My counts.",
+   "coverage": "90 surahs. Missing 24: S2, 3, 4, 6, 7, 8, 9, 10, 11, 15, 16, 20, 21, 23, 25, 26, 27, 28, 30, 33, 37, 38, 39, 43. That is 3,113 of 6,236 ayat (50%). S4 has 176 packets prepared and 0 reader outputs, so the 4:34 test ayah has no HFT. S2 has 286 packets and 0 outputs.",
+   "unharvested_potential": "Known. Used via bundles and v10/v12. Script-harvestable: cross-ayah activation links as window or chain candidates (NS3/NS4); the outliers as an aha candidate pool; word-branch pairs with role sentences as silver trigger-to-branch labels. Filling the 24 missing surahs (packets already built for S2–S79) would remove the S4 gap.",
+   "north_star_ids": "NS3, NS4, NS7, NS8, NS10",
+   "quality": "Model-generated. Every step is anchored to a branch id (216,787 of 216,787 have branch_id). Confidence labels are present, which cuts against NS8's ban on confidence scoring during discovery, but outliers are kept (README: 'carried under surprising_valid_outliers').",
+   "used_by": "scripts/build_bundle.py (bundles, v3-v8 era), v10, v12"
+  },
+  {
+   "repo": "latent_activation / quran-data",
+   "path": "/Volumes/OZTURK/_projects/latent_activation/network/v3/reviews/sNNN/reader_a_pilot.md (= quran-data/data/analysis/channels/network-v3/sNNN/review, identical by diff for s018); network/v3/experiments/corpus_neo_adaptive/",
+   "what": "Channel reviews for 110 surahs: 2,317 parent channels, 7,150 subchannels, 50,577 root:branch motif citations, 9,203 reading-type lines (mixed 4,630; latent/lexical 3,890; surface-primary 669; latent 14). Each carries a semantic invariant, surprising reach and ayah anchors. Underneath (README): 89,199 dense candidates, 11,572 dense families, 4,157,715 sparse paths and 457,281 path families, all generated from the quran-slm Neo ensemble graph.",
+   "coverage": "Reviews missing for S108, S110, S113 and S114 (my check). Path families exist for 111 surahs.",
+   "unharvested_potential": "Known; the North Star names reviews as the chain source. The 457K path families were only harvested through one blind review per surah. README: 'remaining project work is blind hierarchical review/adjudication'. Motif citations resolve to 3,647 distinct branches (144 refs unresolved). Could feed a script chain index: ayah to channel to motif branches.",
+   "north_star_ids": "NS4, NS12, NS3",
+   "quality": "Model unknown (the orchestration files I read name none). README calls them 'candidate data pending blind review/adjudication' (quran-data README staged-imports list).",
+   "used_by": "scripts/build_bundle.py, v10, v11, v12, v15"
+  },
+  {
+   "repo": "quran-data / latent_activation",
+   "path": "/Volumes/OZTURK/_projects/quran-data/data/analysis/ayah-activation/v12-cross-run/tr/*_ayah_findings_publication.json; latent_activation/_status/v12_cross_run/",
+   "what": "v12 cross-run publication from gpt-5.6-sol at high effort (ORCHESTRATION.md:83). 6,348 ayah rows (including basmala rows) hold 12,807 graded findings: 8,711 strong, 3,210 weak, 886 reject. There are 32,792 anchors of the form [qac_word_ref, root_id, branch_ids], and a Turkish baseline with target tokens per ayah.",
+   "coverage": "All 114 surahs.",
+   "unharvested_potential": "Known and used. Also a graded label set (see labelled_data). Its anchors touch 4,609 distinct branches.",
+   "north_star_ids": "NS3, NS1, NS10",
+   "quality": "Model-graded. Grades are not NS-aligned (NS8/NS9 forbid ranking), but reject findings are retained in full (README).",
+   "used_by": "bundles / v3-v9 (scripts/build_bundle.py, instantiate.py)"
+  },
+  {
+   "repo": "quran-slm / quran-data",
+   "path": "/Volumes/OZTURK/_projects/quran-slm/inter-ayah/outputs/focus_S_A_cutoff_100.tsv (= quran-data/data/analysis/inter-ayah + reciprocal/)",
+   "what": "'5.6 terra high' agents (ORCHESTRATION_SPEC.md stage 3) reviewed the top 100 retrieved candidate ayat per focus, then answered a fixed memory-only follow-up ('do not read any files... be comprehensive'). 923,267 rows over all 6,236 ayat. Rows 1-100 are 623,600 retrieved candidates: 16.7% strong, 30.4% medium, 30.3% weak, 22.6% no value. Rows after 100 are 299,667 memory-only suggestions (median 43 per ayah): 48.1% strong, 48.1% medium, 3.8% weak; only 68 duplicate a retrieved row. Reciprocal projection: 1,846,572 typed records (COVERAGE.md).",
+   "coverage": "Complete: 6,236 of 6,236 files.",
+   "unharvested_potential": "Known. The North Star uses it as an end-of-pipeline missing-passage check. Unharvested: its value as a Q2a and Q2b dataset (see labelled_data and pretraining signals). The labels are canonical-biased. 18:86 gives 'no value' to 15:26, 15:28 and 15:33 (ḥamaʾ creation) and 18:96 gives only 'medium' to 15:29 and 38:72 ('a wholly different act of creation'). Those are exactly the North Star's loaded-word examples (NS5).",
+   "north_star_ids": "NS6, NS5, NS13",
+   "quality": "Single model annotator; labels are marginal-usefulness judgments on a canonical reading, not NS-oriented relevance.",
+   "used_by": "reciprocal: v3-v14 (26 .py files); focus TSV: v9"
+  },
+  {
+   "repo": "quran-slm",
+   "path": "/Volumes/OZTURK/_projects/quran-slm/inter-ayah/feedback_reranker/ (FEASIBILITY_PILOT.md, reports/feasibility_pilot_v1.json)",
+   "what": "Materialized readiness arrays (248 source-only features) over labelled (focus, candidate, prefix) rows. Train split: 38 surahs, 119 focuses, 11,619 rows. Validation: 8 surahs, 25 focuses, 2,474 rows. 11 surahs reserved for confirmation; 19 blind surahs sealed. Pilot result: the static arm improved log loss over the prior by 0.227 (95% CI 0.137-0.324). On reviewed sets NDCG@20 rose from 0.7454 to 0.8529 and no-value share@20 fell from 0.0974 to 0.0208.",
+   "coverage": "Reviewed candidates of the listed surahs only. The doc says it does not establish omission recall.",
+   "unharvested_potential": "NEW. Never referenced by prose_generation. It is a ready retriever-training scaffold with held-out splits. Caveat from the file: scores 'must not be used to exclude ayat'. Its labels inherit the canonical bias above.",
+   "north_star_ids": "NS6, NS13, NS11",
+   "quality": "Rigorous protocol, independently recomputed (section 12). Labels are model judgments.",
+   "used_by": "none"
+  },
+  {
+   "repo": "quran-slm",
+   "path": "/Volumes/OZTURK/_projects/quran-slm/artifacts/ (corpus_network, corpus_ensemble, ayah_semantic_map, ayah_channel_network); experiments/focus_ayah_atlas, ayah_branch_potential; reports/dense_model_bakeoff.md, ayah_semantic_map_v1.md",
+   "what": "Branch-card graphs (10,932 Quranic cards; 18,785 with Furuq) from E5-small, NeoAraBERT and character TF-IDF with directional rank matrices. A Quran-wide multiplex ayah graph. A focus-ayah atlas with lenses: whole-ayah, facet, lexical/formula, v12, branch-potential, channels. The bakeoff chose an equal E5+Neo blend. Hubness diagnostics: raw three-signal graph max in-degree 60; length-z rejected.",
+   "coverage": "All ayat and branch cards.",
+   "unharvested_potential": "Known (the Q5 agent covers distance). Evidence for my scope: the top-100 retrieval yielded only 16.7% strong under terra review. On S1, SLM path search reached 46.15% inclusive recall of 26 eligible gold items (12 items) at 16.7 reviewed paths per recovered item (reports/s1_ar3_v1_feasibility.md).",
+   "north_star_ids": "NS4, NS6, NS13",
+   "quality": "Well-engineered retrieval underlay; recall on gold is weak.",
+   "used_by": "v9, v10 (e5/neo branch ranks); atlas/recall scripts: none"
+  },
+  {
+   "repo": "quran-data",
+   "path": "/Volumes/OZTURK/_projects/quran-data/data/grammar/attachments/translation_support.tsv (+ attachments.tsv, clauses.tsv, ellipsis.tsv, implicit_arguments.tsv, cross_references.tsv)",
+   "what": "Reviewed attachment enrichment final_v3. translation_support has 24,935 rows over 6,227 ayat in 114 surahs. Support types: construction_unit 4,636, scope 4,079, referent_resolution_risk 3,754, surface_force 3,201, context_window 2,753, transfer_risk 2,221, semantic_role 1,996, ellipsis_projection 712, ambiguity_note 272, particle_function 158. Each row has a translation_instruction (preserve_scope 5,334; preserve_ambiguity 1,278; target_language_may_force_choice 173; and others) plus a risk and a reason. Other tables: 58,427 attachments, 24,505 clauses, 713 ellipsis rows, 14,129 implicit arguments.",
+   "coverage": "Near-complete (6,227 of 6,236 ayat).",
+   "unharvested_potential": "Known in the inventory but used by no version (grep of _commentary and scripts *.py for attachments.tsv, translation_support, clauses, ellipsis, implicit: 0). It is a ready feed for 'grammar the reader cannot hear in Turkish, only when it matters, explained once' (NS2), e.g. ellipsis in the basmala and ambiguity to preserve.",
+   "north_star_ids": "NS2, NS1, NS9",
+   "quality": "Model-generated, then reviewed ('reviewed attachment enrichment final_v3' in the quran-data README). Status mix: strongly_licensed 10,545, syntactically_forced 8,823, ambiguous 2,255.",
+   "used_by": "none (the root packets embed attachments per root, and v15 pulls root packets only for classical text)"
+  },
+  {
+   "repo": "quran-data",
+   "path": "/Volumes/OZTURK/_projects/quran-data/data/grammar/contextual/*_v2.tsv",
+   "what": "Root/form deployment profiles: collocation_profiles 33,552 rows (partner root, pair_ratio, relation), role_profiles 5,550, referent_profiles 4,866, discourse/polarity 5,639 each, valency 2,705.",
+   "coverage": "All QAC root/form groups.",
+   "unharvested_potential": "Unused by any version (grep 0). Script signal for Quran-loaded words (NS5). ح م أ NOUN uses collocate with ص ل ص ل and س ن ن (creation of man, 3 of 3). ن ف خ PV:I partners ر و ح 5 of 9, PV_PASS partners ص و ر 6 of 8. Profiles split by form tag, though: 18:86 (ADJ_QUALIT) sits apart from the three creation NOUN uses, so a detector must work at root level.",
+   "north_star_ids": "NS5, NS6",
+   "quality": "Syntactic, not semantic, roles; low-occurrence flag present.",
+   "used_by": "none"
+  },
+  {
+   "repo": "root-dossier",
+   "path": "/Volumes/OZTURK/_projects/root-dossier/out/final/*.json, out/activation_map.tsv, deliver.py (never_plain)",
+   "what": "Descriptive per-root concordance (Luna max). Occurrences are grouped by stated context, each group with its plain branch. 123 roots done covering 22,127 words; activation_map has 25,203 occurrence-to-branch rows. Includes a never-plain branch list per root. Luna usage over the 123 roots: 39.6M input tokens (30.6M cached), 4.16M output (3.46M reasoning), 57 repairs (sum over out/status).",
+   "coverage": "123 of 1,647 indexed roots (S1, 29:38-45 and 18:83-99 roots per git log 0ffdbab).",
+   "unharvested_potential": "Known; used by v12-v14. It makes loaded-word patterns visible without interpretation: ح م ء has 4 uses, all B001, with 3 in the creation group and 18:86 alone. ن ف خ has 20 uses in 6 groups. Extending it to all roots amortizes per root rather than per ayah (NS13). The never-plain lists mark branches reachable only as latent readings (NS7).",
+   "north_star_ids": "NS5, NS7, NS13, NS10",
+   "quality": "Checked by script (check.py). Status files record problems such as ids that are not occurrences of the root, fixed by repair.",
+   "used_by": "v9, v12, v13, v14"
+  },
+  {
+   "repo": "dictionary",
+   "path": "/Volumes/OZTURK/_projects/dictionary/v2/gloss_generation/results/tr/*.json; quran-data/data/translation/glosses/locales/tr/",
+   "what": "Turkish gloss records for 1,679 roots and 11,637 branches: 18,825 contextual glosses and 36,379 lexical glosses. Every gloss has an error profile {fit, loses_facet_ids, adds, collision, reason}. All records have status 'reviewed'.",
+   "coverage": "All root envelopes (the quran-data copy has 1,572 files).",
+   "unharvested_potential": "Known. Recent versions use only concept_gloss (grep: concept_gloss in v3-v15; loses_facet only in scripts/build_bundle.py). The loss/add/collision fields are a script-ready NS2 feed. There is no Turkish-loanword drift dataset anywhere: quran-roots term-labels.tsv has 18 rows, and no file names match loan/drift.",
+   "north_star_ids": "NS2",
+   "quality": "Model-generated and reviewed. The error reasons read as templated in the sample ('Bu gloss yalnız belirtilen anlam yönlerini verir').",
+   "used_by": "v3-v5 era bundles (scripts/build_bundle.py); concept_gloss v3-v15"
+  },
+  {
+   "repo": "dictionary",
+   "path": "/Volumes/OZTURK/_projects/dictionary/data/working/furuq_v4.sqlite; S1-DICTIONARY-AUDIT-2026-09-24.md; S1-LUNA-BLIND-COMPARISON-2026-09-24.md",
+   "what": "Canonical dictionary DB: 3,470 roots and 19,933 branch images (11,639 quranic, 8,294 furuq-origin), 37,263 senses, 7,645 branch reviews, 4,106 sense reviews. S1 audit: 157 branches screened; 11 confirmed as needing bounded correction (e.g. root_000532/B012 'small tree' adds an unattested size, B013 'gathered water' should require abundant water) plus 1 unresolved. 'No canonical entry has been repaired.'",
+   "coverage": "Audit covers S1 only (19 roots).",
+   "unharvested_potential": "Recorded: about 7% of S1 branch definitions need correction (11 of 157, a nonrandom sample). Inference: aha readings rest on exactly these rare branches, so the classical full text should be checked before synthesis. The audit also shows excerpt-only screening produced 10 false alarms in 19.",
+   "north_star_ids": "NS10, NS11",
+   "quality": "Primary dictionary; known small error rate, unrepaired.",
+   "used_by": "all versions via quran-data entries"
+  },
+  {
+   "repo": "quran-roots",
+   "path": "/Volumes/OZTURK/_projects/quran-roots/_corpus/activation/ (LESSONS.md, MODEL-BEHAVIOR-FINDINGS.md, v5/METHODOLOGY.md, v5/SCALING.md, v14/experiments/qnet-sonnet-s001/evaluation-report.md, v15/)",
+   "what": "A separate July 2026 activation lineage (v2-v15) with recorded S1 gold recall. v2 about 2/10; v3 3/10; v4 4/10 on one run and 0/10 on an identical rerun; free research dialogue about 10/10 (LESSONS.md table). Qnet decompose/recompose on Sonnet reached about 10 of 14 pre-registered gold cores (7 YES, 6 PARTIAL, 1 WEAK), with 577 evidence spans and 0 unanchored, i.e. zero fabricated Arabic. Rules recorded: 'schema-first pipelines suppress exactly the discovery they exist to harvest'; 'synthesize free, anchor afterward'; a mandatory exhaustiveness challenge turn; the concrete/rural branch class (animals, roads, water, lodgings) is the systematic blind spot. The v5 design (axis registry ratchet, scoring without gold) was never piloted (v5/output empty; no axes.tsv).",
+   "coverage": "S1 (plus S29 and S87 transcripts); method evidence.",
+   "unharvested_potential": "NEW. No prose_generation reference. These lessons predate and match the user's current diagnosis (cold Opus beats layered pipelines). The design artifacts, never piloted, bear directly on Q4.",
+   "north_star_ids": "NS8, NS7, NS10, NS13, NS4",
+   "quality": "n=1 per cell mostly; LESSONS itself warns of 'brutal' run variance (0/10 vs 4/10).",
+   "used_by": "none"
+  },
+  {
+   "repo": "quran-roots",
+   "path": "/Volumes/OZTURK/_projects/quran-roots/_corpus/activation/Qnet/v2/network/ (bridge_theme_current, bridge_theme_full, themes/, incidence_full/branch_keywords.tsv)",
+   "what": "Qnet keyword networks: raw core/bridge keywords per branch with replicate votes, a frozen two-level bridge-theme taxonomy (current DB: 17 parent themes, 127 leaf themes, 2,812 bridge keywords over 791 roots), and a full bridge-theme DB with a root-level QAC occurrence layer.",
+   "coverage": "Full incidence for all roots in incidence_full; the current staging DB covers 791 roots.",
+   "unharvested_potential": "branch_keywords is known and was used only by v9. The bridge-theme DBs are NEW to the inventory and unused (grep 0). They were the substrate of the Sonnet 10/14 S1 result.",
+   "north_star_ids": "NS4, NS7, NS12",
+   "quality": "Model keywords, 2 replicates; the taxonomy was reviewed.",
+   "used_by": "v9 (branch_keywords only)"
+  },
+  {
+   "repo": "quran-note-app (from study)",
+   "path": "/Volumes/OZTURK/_projects/quran-note-app/public/content/v/2026-06-01-full-en-r2/en/bridge/*/bridge.json; guided-discovery/*/guided-discovery.json",
+   "what": "Adjacent-ayah bridge analyses for all 114 surahs: 36,493 labelled items (root_handoff 9,759; semantic_bridge 7,457; pronoun_chain 5,480; scene_shift 5,370; register_shift 5,347; particle_bridge 4,022). Plus a 'guided discovery' surah essay per surah. English; source 'local-study-export' (study/_json/boundary_json, 114 files).",
+   "coverage": "114 of 114 surahs.",
+   "unharvested_potential": "NEW and unused (grep 0). A ready local-window layer for NS3 (root hand-offs across ayah boundaries). Scene and register shifts outline surah movement (NS12).",
+   "north_star_ids": "NS3, NS12, NS1",
+   "quality": "Model unknown (the study pipeline was 'powered by Claude Opus' per FEATURES-SUMMARY.md; the exact model for bridges is not recorded in files I read). English only.",
+   "used_by": "none"
+  },
+  {
+   "repo": "study",
+   "path": "/Volumes/OZTURK/_projects/study/_project_corpus/qiraat.tsv; root-disputes.tsv; _project_semantic_network/; _project_occurrence/; dq/",
+   "what": "qiraat.tsv: 3,812 variant records with semantic notes. root-disputes.tsv: 6,410 word-level dispute rows (Basran/Kufan, etc.). Semantic network build: 266,691 critical claims, 284,857 word meanings, 373,724 co-occurrence edges, 35,201 motif candidates. Full root occurrence and co-occurrence exports. dq/: a March-April 2026 Opus 4.6 study of 18:83-98 (full-Quran scan; 11 MB conversation transcript) that already links 18:86 ḥamaʾ to 15:26/28/33 (dq-linguistic-findings.md:282).",
+   "coverage": "qiraat: whole Quran. dq: 18:83-98.",
+   "unharvested_potential": "qiraat is known and used (v9, v15). dq is NEW and unused: human-steered research on the 18:86 test ayah, usable as a reference reading. Its thesis ('AI agent reading', SUMMARY.md) is speculative, so use it only for its pattern data (NS11). Dispute notes cite authorities from memory (NS10 risk).",
+   "north_star_ids": "NS2, NS5, NS10, NS11, NS7",
+   "quality": "qiraat: sourced (erquran.org). Critical claims and disputes: model-generated, English.",
+   "used_by": "qiraat: v9, v15; the rest: none"
+  },
+  {
+   "repo": "dictionary",
+   "path": "/Volumes/OZTURK/_projects/dictionary/data/output/water_secondary_resonance/",
+   "what": "Theme sweep: 259 strict water-word targets in 197 focus ayat (20 families: maa' 63, bahr 41, shariba 39 ...), each read for secondary resonance in five-ayah windows, with graded adjudication and a calibration audit.",
+   "coverage": "Whole Quran for one image (water).",
+   "unharvested_potential": "NEW and unused (grep 0). A precedent for chain-first harvesting: one surah image swept across the Quran, which serves the North Star's water image in S1.",
+   "north_star_ids": "NS4, NS12, NS7",
+   "quality": "Model readings plus an adjudication layer.",
+   "used_by": "none"
+  },
+  {
+   "repo": "quran-roots / latent_activation / quran-slm",
+   "path": "quran-roots/_corpus/activation/v3/exemplars/gold_s001_tr.md (= latent_activation/s1-bulgular-tr.md); quran-roots/s87-findings.tsv; quran-slm/reports/s1_ar3_v1_gold_ledger.jsonl; /Users/ahmetrasit/Desktop/S1_sessions.txt (outside repos)",
+   "what": "S1 gold findings document (16,990 bytes). S87 findings (35 rows, with tiers and parallels). A machine-checkable S1 gold ledger: 32 items (26 eligible) with required root and branch anchors. The research transcript that produced the golds (177 KB on the Desktop; LESSONS calls it 'the most valuable methodological artifact' and recommends copying it into the repo).",
+   "coverage": "S1, S87 (and S29 in the transcript).",
+   "unharvested_potential": "The ledger is NEW to the commentary (grep 0) and can score chain retrieval by script.",
+   "north_star_ids": "NS7, NS4, NS8",
+   "quality": "Human-steered gold. Not exhaustive ('The S1 gold document is not exhaustive').",
+   "used_by": "none (prose_generation keeps its own eval sets)"
+  },
+  {
+   "repo": "quran-roots",
+   "path": "/Volumes/OZTURK/_projects/quran-roots/_corpus/root-etymology.tsv; _corpus/disputes.json",
+   "what": "root-etymology.tsv: 1,668 roots with CORE, PHYSICAL and '7C' narratives that cite Lane, Lisan and Maqayis in prose. disputes.json: 52 roots with root-derivation disputes.",
+   "coverage": "1,668 roots.",
+   "unharvested_potential": "Unused (grep 0). Inference: these are model-memory narratives (study FEATURES-SUMMARY says they were produced by batch runs), so they must not be used as evidence (NS10/NS11). Checking their Lane and Lisan claims against the actual texts in the lexicon cache would measure memory accuracy (Q2a).",
+   "north_star_ids": "NS10, NS11",
+   "quality": "Unverified memory claims.",
+   "used_by": "none"
+  },
+  {
+   "repo": "word_analysis",
+   "path": "/Volumes/OZTURK/_projects/word_analysis/outputs/production/; qac_summary/ (family_packages.py, packets/families-s001)",
+   "what": "95,304 per-word analyses over 6,236 ayat (from 1,268,518 upstream CRITICAL rows). A new whole-family package design (one package per root across all its lemmas and forms) for Luna max, prepared for S1 (18 roots, 11 non-rooted families).",
+   "coverage": "Word analyses complete; family summaries: S1 prepared only (git 2026-09-26).",
+   "unharvested_potential": "Word analyses are known and used by v3/v5/v8/v10. The per-root family summaries are the North Star's 'in progress' item. Like root-dossier, they amortize per root.",
+   "north_star_ids": "NS5, NS1, NS13",
+   "quality": "Check script validates accounting only ('validates explicit accounting, not cognition').",
+   "used_by": "word analyses: v3, v5, v8_batch, v10; qac_summary: none"
+  },
+  {
+   "repo": "quran-slm",
+   "path": "/Volumes/OZTURK/_projects/quran-slm/resources/source/hebrew_bible_wlc_*.tsv; experiments/quran_hebrew_bible/",
+   "what": "Westminster Leningrad Codex 4.20 verse catalog (pointed, unpointed, consonantal) with variants and versification.",
+   "coverage": "Hebrew Bible.",
+   "unharvested_potential": "Unused (grep 'hebrew' 0). Only relevant where the Quran licenses a cross-scripture hearing (87:18-19, cited in the quran-roots v5 METHODOLOGY). Otherwise it risks NS11.",
+   "north_star_ids": "NS11",
+   "quality": "Sourced text.",
+   "used_by": "none"
+  },
+  {
+   "repo": "latent_activation",
+   "path": "/Volumes/OZTURK/_projects/latent_activation/focus_trace_v2/; v11/run/ (29 surah dirs: s001, s087-s114)",
+   "what": "HFT v2: an isolated, linguistic-only packet redesign with Luna max as default (pilot-luna runs only, 2026-09-05). v11 surah activation runs: candidate bridges, activation packets, secondary expansions, final reports.",
+   "coverage": "HFT v2: pilot only. v11: 29 surahs.",
+   "unharvested_potential": "HFT v2 is unused (grep 0); it is a Luna-based way to fill HFT gaps cheaply. v11 is used by v11/v12.",
+   "north_star_ids": "NS3, NS4, NS13",
+   "quality": "Pilot.",
+   "used_by": "v11/run: v11, v12; focus_trace_v2: none"
+  },
+  {
+   "repo": "book, tree-maker, quran-apps, lexicon-build",
+   "path": "/Volumes/OZTURK/_projects/book; /Volumes/OZTURK/_projects/tree-maker; /Volumes/OZTURK/_projects/quran-apps; /Volumes/OZTURK/_projects/lexicon-build",
+   "what": "book: a computational-diagnostics book series (CDBX_VISUAL_REGENERATION_PLAN.md), unrelated. tree-maker: 'Tree Maker Atelier', a decoration app, unrelated. quran-apps: downstream reader/tafsir-web consumer (reader dictionary catalogue already in AVAILABLE_INPUTS). lexicon-build: the upstream build of the dictionary (Maqayis catalog: root_sources/entry_catalog routing rows; V4 passes).",
+   "coverage": "n/a",
+   "unharvested_potential": "No commentary-relevant unused signal beyond what the dictionary already exposes. The quran-apps 'tafsir' filename hits are the app name, not classical tafsir.",
+   "north_star_ids": "none",
+   "quality": "n/a",
+   "used_by": "n/a"
+  }
+ ],
+ "labelled_data": [
+  {
+   "name": "Inter-ayah usefulness labels (retrieved)",
+   "path": "/Volumes/OZTURK/_projects/quran-slm/inter-ayah/outputs/focus_*_cutoff_100.tsv (rows 1-100)",
+   "count": "623,600 (focus, candidate) pairs over 6,236 ayat: strong 104,195; medium 189,425; weak 188,992; no value 140,979. Each has a one-line rationale.",
+   "kind": "4-level marginal-usefulness grade conditional on rank order, plus explanation",
+   "derived_from": "Top-100 package fused from quran-slm recall (text/token/root), focus atlas (E5/Neo/char, branch potential, channels) and v12 routes (ORCHESTRATION_SPEC.md stage 1); reviewed by '5.6 terra high'.",
+   "independence": "One model annotator per row. Not independent of canonical reading: 18:86 marks 15:26/28/33 'no value', and 18:96 marks 15:29 and 38:72 only 'medium'.",
+   "usable_for": "Training or evaluating a canonical-relevance reranker (the feedback-reranker pilot shows learnable signal). Not usable as relevance for NS5/NS7 latent links without relabelling. Useful as a negative-bias probe."
+  },
+  {
+   "name": "Inter-ayah memory-only suggestions",
+   "path": "same files, rows after 100",
+   "count": "299,667 rows (median 43 per ayah): strong 144,152; medium 144,164; weak 11,330; no value 14. Only 68 duplicate a retrieved row.",
+   "kind": "Model-recalled parallel passages with rationale (no retrieval, 'do not read any files')",
+   "derived_from": "Pretraining memory of the same terra agent after its review",
+   "independence": "Same model; accuracy of the references not verified (9 of about 36K sampled refs did not resolve to a rooted ayah in my check).",
+   "usable_for": "Q2a measurement of what the model recalls. A recall-union candidate pool for QeQ. Positive-only labels for a thematic retriever."
+  },
+  {
+   "name": "Feedback-reranker readiness splits",
+   "path": "/Volumes/OZTURK/_projects/quran-slm/inter-ayah/feedback_reranker/",
+   "count": "Train: 11,619 rows / 119 focuses / 38 surahs (1,650 strong, 3,484 medium, 3,713 weak, 2,772 no value). Validation: 2,474 rows / 25 focuses / 8 surahs. 11 reserved and 19 sealed blind surahs.",
+   "kind": "Feature arrays (248 source-only features) plus labels",
+   "derived_from": "Inter-ayah reviews above",
+   "independence": "Held-out surahs; labels share the canonical bias.",
+   "usable_for": "Q2b and Q5: an existing train/validation/blind protocol for any new distance measure or reranker."
+  },
+  {
+   "name": "v12 cross-run graded findings",
+   "path": "/Volumes/OZTURK/_projects/quran-data/data/analysis/ayah-activation/v12-cross-run/tr/",
+   "count": "12,807 findings (8,711 strong, 3,210 weak, 886 reject) with 32,792 [qac_word_ref, root_id, branch_ids] anchors over 6,348 ayah rows",
+   "kind": "Graded contextual readings anchored to word and branch",
+   "derived_from": "v12 regular and ±5 reader runs, consolidated by gpt-5.6-sol at high effort",
+   "independence": "Model-graded; grades conflict with NS8/NS9 (ranking).",
+   "usable_for": "Silver positives for word-to-branch activation in context. Reject rows as contrast. Evaluating whether a retriever surfaces the branches readers used."
+  },
+  {
+   "name": "HFT activation traces",
+   "path": "/Volumes/OZTURK/_projects/latent_activation/focus_trace/runs/",
+   "count": "3,133 ayat / 90 surahs. 216,787 steps (word to branch with role sentence), 46,902 distinct word-branch pairs, 120,406 cross-ayah steps, 8,025 surprising outliers, 23,131 context deltas.",
+   "kind": "Chains of activation steps: trigger word, branch, role; before/after readings",
+   "derived_from": "gpt-5.6-sol max on lean pericope or whole-surah packets",
+   "independence": "Model-generated; confidence labels present.",
+   "usable_for": "Silver training pairs for trigger-to-branch retrieval and for window-link prediction (focus ayah to other-ayah word). Chain seeds."
+  },
+  {
+   "name": "Channel review motifs and anchors",
+   "path": "/Volumes/OZTURK/_projects/latent_activation/network/v3/reviews/",
+   "count": "110 surahs; 2,317 parent channels; 7,150 subchannels; 50,577 root:branch motif citations (3,647 distinct branches resolved; 144 unresolved); ayah anchors per subchannel",
+   "kind": "Chain membership (branch set plus ayah set per image)",
+   "derived_from": "Blind review of network/v3 candidate bundles (quran-slm Neo ensemble graph)",
+   "independence": "Model unknown; derived from the same SLM graph a new distance would replace (circular for evaluating that graph).",
+   "usable_for": "Chain-retrieval evaluation (does a distance group the reviewed motifs?). Chain index for NS4."
+  },
+  {
+   "name": "Root-dossier occurrence-to-branch map",
+   "path": "/Volumes/OZTURK/_projects/root-dossier/out/activation_map.tsv; out/final/*.json",
+   "count": "25,203 occurrence rows over 123 roots (22,127 words in finals); group labels; never-plain branch lists",
+   "kind": "Plain-reading word-sense assignment per occurrence, grouped by context",
+   "derived_from": "Luna max grouping sessions plus script checks; known-answer scorer in prose_generation _commentary/v12/eval",
+   "independence": "Model-generated; a separate known-answer set exists (not read here).",
+   "usable_for": "WSD labels (plain branch); loaded-word detection; defining the never-plain (latent-only) branch set per root."
+  },
+  {
+   "name": "S1 gold ledger",
+   "path": "/Volumes/OZTURK/_projects/quran-slm/reports/s1_ar3_v1_gold_ledger.jsonl",
+   "count": "32 items (26 eligible) with required root/branch anchors and anchor groups",
+   "kind": "Machine-checkable gold for chain/finding retrieval",
+   "derived_from": "The S1 gold findings document (human-steered research dialogue)",
+   "independence": "Human-steered; the most independent label set found in sister repos; tiny.",
+   "usable_for": "Scoring a distance or discovery script on S1 (the baseline SLM path search reached 46.15% inclusive recall)."
+  },
+  {
+   "name": "S1 gold document and S87 findings",
+   "path": "/Volumes/OZTURK/_projects/quran-roots/_corpus/activation/v3/exemplars/gold_s001_tr.md; /Volumes/OZTURK/_projects/quran-roots/s87-findings.tsv",
+   "count": "S1 document (16,990 bytes; a 10-finding recall checklist in v3/POSTMORTEM_V2.md per LESSONS); S87: 35 findings with tiers",
+   "kind": "Gold readings",
+   "derived_from": "Research dialogues (S1_sessions.txt, outside the repos)",
+   "independence": "Human-steered",
+   "usable_for": "Evaluation only (LESSONS standing rule: nothing S1-derived in any prompt)."
+  },
+  {
+   "name": "Adjacent-ayah bridges",
+   "path": "/Volumes/OZTURK/_projects/quran-note-app/public/content/v/2026-06-01-full-en-r2/en/bridge/",
+   "count": "36,493 items over 114 surahs (root_handoff 9,759; semantic_bridge 7,457; pronoun_chain 5,480; scene_shift 5,370; register_shift 5,347; particle_bridge 4,022)",
+   "kind": "Typed labels for adjacent ayah pairs with explanation (English)",
+   "derived_from": "study boundary_json pipeline",
+   "independence": "Model unknown",
+   "usable_for": "Window-level link labels (NS3), surah-movement segmentation (NS12)."
+  },
+  {
+   "name": "Grammar translation-support records",
+   "path": "/Volumes/OZTURK/_projects/quran-data/data/grammar/attachments/translation_support.tsv",
+   "count": "24,935 rows over 6,227 ayat",
+   "kind": "Typed transfer-risk and instruction labels",
+   "derived_from": "Attachment enrichment passes 1-3, reviewed final_v3",
+   "independence": "Model-generated, reviewed",
+   "usable_for": "NS2 grammar selection; evaluating whether prose mentions the grammar that matters."
+  },
+  {
+   "name": "Turkish gloss error profiles",
+   "path": "/Volumes/OZTURK/_projects/dictionary/v2/gloss_generation/results/tr/",
+   "count": "18,825 contextual plus 36,379 lexical glosses, each with fit/loses/adds/collision",
+   "kind": "Loss/addition labels per Turkish gloss",
+   "derived_from": "Gloss-generation workflow plus review",
+   "independence": "Model-generated, reviewed",
+   "usable_for": "NS2 feed; a loanword-drift gold is absent."
+  },
+  {
+   "name": "Dictionary QA labels",
+   "path": "/Volumes/OZTURK/_projects/dictionary/data/working/furuq_v4.sqlite (branch_reviews, sense_reviews); dictionary/v2/audits/s001-2026-09-24/",
+   "count": "7,645 branch reviews; 4,106 sense reviews; S1 audit: 157 branches, 11 confirmed corrections plus 1 unresolved",
+   "kind": "Error and issue labels on dictionary branches",
+   "derived_from": "Review passes; Sol, Luna and Astra audits",
+   "independence": "Multi-model adjudication for the S1 audit",
+   "usable_for": "Estimating the dictionary error rate on rare branches (NS10/NS11)."
+  },
+  {
+   "name": "Water secondary-resonance adjudication",
+   "path": "/Volumes/OZTURK/_projects/dictionary/data/output/water_secondary_resonance/adjudication/",
+   "count": "259 targets / 197 ayat; graded candidate tables plus calibration audit",
+   "kind": "Graded secondary-resonance candidates for one image",
+   "derived_from": "Independent readers per five-ayah window",
+   "independence": "Model; has a calibration audit",
+   "usable_for": "Evaluating chain harvest for the water image."
+  },
+  {
+   "name": "Grounded near-synonym contrasts",
+   "path": "/Volumes/OZTURK/_projects/quran-roots/_corpus/lexicons/cache/quran_furuq_portable.sqlite (grounded_contrasts)",
+   "count": "10,309 (5,299 root-level, 5,010 form-level)",
+   "kind": "Pairwise distinction axis with 'focus not candidate' and 'candidate not focus'",
+   "derived_from": "Furuq v2 harvest",
+   "independence": "Model",
+   "usable_for": "Negative pairs for a branch-distance model; NS2/NS5 contrasts."
+  }
+ ],
+ "classical_sources": [
+  {
+   "name": "Maqayis al-Lugha (Ibn Faris)",
+   "path": "/Volumes/OZTURK/_projects/dictionary/data/output/root_packets/ (dictionary_sources, source_id maqayis); full: /Volumes/OZTURK/_projects/quran-roots/_corpus/lexicons/cache/shards/maqayis_compact.sqlite",
+   "coverage": "Root packets: 1,957 entries across 1,679 packets (1,377 exact, 470 variant, 110 no_match). Full: 5,377 entries / 5,303 roots / 2.5M chars.",
+   "notes": "Explicit asl statements: 473 roots 'one asl', 205 'two', 16 'three', 2 'four' (my regex count). A citable unifying concept per root (NS7). In v15 pull files only."
+  },
+  {
+   "name": "al-Mufradat fi Gharib al-Qur'an (al-Raghib)",
+   "path": "root packets (mufradat); /Volumes/OZTURK/_projects/quran-roots/_corpus/lexicons/cache/openiti_extra/mufradat.sqlite; shards/wizsk_mufradat.sqlite",
+   "coverage": "Root packets: 1,729 entries (1,323 exact). OpenITI: 1,697 entries / 1,613 roots / 1.26M chars.",
+   "notes": "A Quran lexicon (gharib/wujuh-like): 8,056 explicit [surah/ayah] references to about 3,901 distinct loci (my count; surah-name variants inflate 114 to 119 names). source_policy calls it 'strongest primary source for Quranic sense narrowing'. Not indexed per ayah by any version."
+  },
+  {
+   "name": "Tahdhib al-Lugha (al-Azhari)",
+   "path": "root packets (tahdhib); openiti_extra/tahdhib.sqlite",
+   "coverage": "Root packets: 1,708 entries (1,128 exact), median 1,532 chars. OpenITI extra: 802 entries / 8.2M chars.",
+   "notes": "Quotes exegetes (al-Zajjaj, al-Farra', al-Layth) on specific ayat; 3,239 '(surah : n)' refs in the OpenITI extra (2,232 distinct loci)."
+  },
+  {
+   "name": "al-Sihah (al-Jawhari)",
+   "path": "root packets (sihah); openiti_extra/sihah.sqlite; shards/wizsk_sihah.sqlite",
+   "coverage": "Root packets: 1,710 entries (1,508 exact). OpenITI: 5,644 entries / 5,601 roots.",
+   "notes": "Early classical control source."
+  },
+  {
+   "name": "Kitab al-Ayn (al-Khalil)",
+   "path": "root packets (ayn); openiti_extra/ayn.sqlite",
+   "coverage": "Root packets: 1,696 entries (1,208 exact). OpenITI: 4,884 entries / 4,859 roots.",
+   "notes": "530 marked Quran quotes. Holds the stray-animal sense 'لا يعرف ربها' for ض ل ل (checked: true in the ayn text of the packet)."
+  },
+  {
+   "name": "Jamharat al-Lugha (Ibn Durayd)",
+   "path": "root packets (jamhara); openiti_extra/jamhara.sqlite",
+   "coverage": "Root packets: 1,744 entries but 1,010 no_match (median text 1 char). OpenITI: 2,916 entries.",
+   "notes": "Weakly routed."
+  },
+  {
+   "name": "Lisan al-Arab (Ibn Manzur)",
+   "path": "/Volumes/OZTURK/_projects/quran-roots/_corpus/lexicons/cache/shards/lisan_compact.sqlite; quran_furuq_portable.sqlite (1,693 roots)",
+   "coverage": "9,411 entries / 9,391 roots / 19.4M chars",
+   "notes": "NOT in the root packets and used by no version. 6,133 marked Quran quotations; cites al-Farra' (1,480 entries), al-Zajjaj (690), Abu Ubayda (604), Mujahid/Ibn Abbas (608), hadith (2,644 entries). This is the largest embedded gharib/tafsir-lite material present. Completeness vs. the printed text is unknown."
+  },
+  {
+   "name": "Lane's Arabic-English Lexicon",
+   "path": "quran-roots/_corpus/lexicons/cache/shards/lane_compact__part01-03.sqlite",
+   "coverage": "60,221 entries / 30.2M chars",
+   "notes": "English bridge; source_policy: 'never sole support for an Arabic semantic claim'. Unused."
+  },
+  {
+   "name": "al-Qamus al-Muhit (al-Fayruzabadi)",
+   "path": "quran-roots/_corpus/lexicons/cache/openiti_extra/qamus.sqlite",
+   "coverage": "10,370 entries / 9,643 roots",
+   "notes": "Unused; source_policy notes heading under-matching."
+  },
+  {
+   "name": "Majaz al-Qur'an (Abu Ubayda)",
+   "path": "quran-roots/_corpus/lexicons/cache/openiti_context.sqlite (quran_specialized_entries); sources/majaz_quran/raw/0209AbuCubayda.MajazQuran.JK010146-ara1",
+   "coverage": "1,308 phrase-keyed entries (1,287 distinct ayah markers)",
+   "notes": "The only early Quran-specialized philology (gharib/majaz) work present. Unused."
+  },
+  {
+   "name": "Asas al-Balagha (al-Zamakhshari)",
+   "path": "quran-roots/_corpus/lexicons/cache/openiti_context.sqlite (audit_corpus_entries, source asas_balagha)",
+   "coverage": "3,823 root/headword chunks",
+   "notes": "Literal-versus-figurative lexicon (relevant to NS7 figurative extension). Unused."
+  },
+  {
+   "name": "al-Furuq al-Lughawiyya (Abu Hilal al-Askari)",
+   "path": "quran-roots/_corpus/lexicons/cache/shards/furuq.sqlite",
+   "coverage": "919 contrast entries / 387K chars",
+   "notes": "Near-synonym distinctions (NS2/NS5). Unused. Not to be confused with the project's 'Furuq v4' dictionary DB."
+  },
+  {
+   "name": "Kitab Sibawayh",
+   "path": "quran-roots/_corpus/lexicons/cache/openiti_context.sqlite (source sibawayh)",
+   "coverage": "812 chunks",
+   "notes": "Grammar audit corpus. Unused."
+  },
+  {
+   "name": "Jamharat Ash'ar al-Arab (early poetry)",
+   "path": "quran-roots/_corpus/lexicons/cache/openiti_context.sqlite (source early_poetry)",
+   "coverage": "81 poem chunks",
+   "notes": "Register and collocation audit. Unused."
+  },
+  {
+   "name": "Modern dictionaries (Hans Wehr, al-Ghani, al-Mu'asira, al-Muhit, al-Wasit)",
+   "path": "quran-roots/_corpus/lexicons/cache/shards/wizsk_*.sqlite",
+   "coverage": "Hans Wehr 24,799 entries; al-Wasit 6,763; others 14-19K per part",
+   "notes": "Useful only as a modern-drift detector (the North Star warns against modern-Arabic drift)."
+  },
+  {
+   "name": "Qira'at",
+   "path": "/Volumes/OZTURK/_projects/study/_project_corpus/qiraat.tsv",
+   "coverage": "3,812 variant records, whole Quran",
+   "notes": "Source erquran.org; used by v9 and v15."
+  },
+  {
+   "name": "Root-derivation disputes",
+   "path": "/Volumes/OZTURK/_projects/study/_project_corpus/root-disputes.tsv; quran-roots/_corpus/disputes.json; quran-data/data/bridges/qac-dictionary-word-root-analyses.json",
+   "coverage": "6,410 word rows (study); 52 roots (quran-roots); 15 reviewed records (quran-data)",
+   "notes": "The study and quran-roots notes attribute positions to Sibawayh, al-Kisa'i and others from model memory (NS10 risk). Only the 15 quran-data records are reviewed."
+  },
+  {
+   "name": "ABSENT: tafsir, munasabat/nazm (al-Biqai's Nazm al-durar), i'rab works, hadith collections, wujuh wa-naza'ir works, Taj al-Arus",
+   "path": "none found (filename search at depth 5-6 across all 13 sister repos; large-file listing in quran-data/data)",
+   "coverage": "0",
+   "notes": "No classical tafsir or munasabat text is present locally. Embedded exegete glosses exist only inside Lisan, Tahdhib, Ayn and Majaz. Grammar (i'rab-like) exists only as model-generated attachments in quran-data/data/grammar."
+  }
+ ],
+ "pretraining_gap_signals": [
+  "Recorded (quran-slm inter-ayah outputs, my counts): retrieval top-100 candidates graded 16.7% strong and 22.6% no value. The same agent's memory-only follow-up added 299,667 passages (median 43 per ayah), 48.1% strong and 48.1% medium, with only 68 overlapping retrieval. Inference: for QeQ-style parallels the model's pretraining recall is large and mostly disjoint from the retriever. QeQ need not be pushed as bulk data (NS6, NS13), but memory references need a verification step.",
+  "Recorded (sample of 800 focus ayat, strong/medium rows, excluding 13 roots in more than 400 ayat): memory suggestions share no content root with the focus in 56% of cases (20,326 of 36,300) vs 26% for retrieved (10,019 of 37,985). Memory suggestions are 92.5% other-surah vs 78% for retrieved. Inference: pretraining supplies thematic cross-surah parallels; retrieval supplies lexical and same-surah ones.",
+  "Recorded (my script): of 11,637 Quranic dictionary branches, 4,840 (42%) were never activated in HFT (90 surahs) or v12 cross-run anchors. 4,243 of those belong to roots where another branch was activated. The never-activated rate falls with root frequency: 64% for roots with 0-1 words, 48% for 2-10, 27% for 11-100, 13% for more than 100. Adding the channel reviews, 4,271 branches (37%) were never touched. Inference: minor branches of rare roots are where model recall ends and the dictionary must supply. Confound: HFT packets were 'lean', so some branches may never have been offered.",
+  "Recorded (quran-roots MODEL-BEHAVIOR-FINDINGS.md F7): gold findings whose carriers share no Arabic token (texture axis, vertical axis, water field) were produced only under free scene lenses and vanished when discovery was steered by token-match tables or embeddings. 'Any GPT pipeline steered by retrieval/matching artifacts inherits the artifact's blindness.'",
+  "Recorded (quran-roots LESSONS.md): the concrete/rural branch class (animals, roads, water, lodgings) is the systematic blind spot of every pipeline pass. 'Model memory is never evidence'; injected inventory 're-weights the model away from its training priors'; 'richer data raises recall and apophenia pressure together' (v5/METHODOLOGY.md section 1.3).",
+  "Recorded (MODEL-BEHAVIOR-FINDINGS.md section 3b): high-effort triage deferrals converted 48/48, while its dismissals were about 85% wrong (30/35 converted at max). This is direct evidence for NS8's ban on early pruning.",
+  "Recorded (dictionary S1 audit): excerpt-only screening of 157 branches raised 19 flags, 10 of them false alarms. Luna passed 6 of 9 known-problem branches. Model lexical judgment without full classical text is unreliable in both directions. 11 confirmed definition errors remain unrepaired, so a dictionary sense is not automatically safe either.",
+  "Measurable, not yet run: root-etymology.tsv (1,668 roots of CORE/PHYSICAL narratives citing Lane, Lisan and Maqayis from memory) could be diffed against the actual Lisan, Lane and Maqayis texts in quran-roots/_corpus/lexicons/cache to estimate how often memory-cited lexicon claims are wrong.",
+  "Measurable, not yet run: the exegete glosses embedded in Lisan (al-Farra' 2,470 mentions, al-Zajjaj 1,091, Abu Ubayda 753), Majaz al-Qur'an (1,308 loci) and Mufradat (8,056 ayah refs) give a per-ayah classical answer key. A cold model could be asked for the classical gloss of an ayah's rare word and scored against it, measuring which senses need data (Q2a).",
+  "Recorded (dictionary root packet ض ل ل): the stray-animal sense 'لا يعرف ربها' (a named North Star aha) is attested in the Ayn text and branch B005, and is absent from the Jamhara, Maqayis, Mufradat, Sihah and Tahdhib texts in the packet. Rare aha senses may rest on a single source, so source-count metadata (root_source_coverage in quran_furuq_portable.sqlite) is a cheap rarity signal.",
+  "Recorded (quran-roots LESSONS 'water test'): a base-rate check (water field 0.44 in the passage vs 0.40 in the corpus, 'at_base') caught an overclaim. Base-rate nulls (non-Quran replicate batches, mock passages in activation/v15) are available as controls for whether an image is surah-specific.",
+  "Recorded (quran-slm s1_ar3_v1_feasibility.md): SLM path search recovered 12 of 26 eligible S1 gold items (46.15% inclusive recall) at 16.7 reviewed paths per recovered item. Distance alone does not reach the gold."
+ ],
+ "top_opportunities": [
+  {
+   "opportunity": "Build a per-ayah classical citation index by script (no model): collect every lexicon passage that cites the ayah. Sources: Mufradat [surah/ayah] refs (8,056, about 3,900 loci), Tahdhib '(surah : n)' refs (3,239), Lisan @QB@ quotes (6,133, matched to ayah text), Ayn (530), Maqayis (367), Majaz al-Qur'an (1,308 ayah-keyed entries). Give each ayah a small file of what the classical lexicographers and exegetes said about its words.",
+   "assets": "quran-roots/_corpus/lexicons/cache/{shards/lisan_compact.sqlite, openiti_extra/*.sqlite, openiti_context.sqlite}; dictionary/data/output/root_packets",
+   "why": "This is the only classical exegetical material present locally (no tafsir or munasabat exists). It is small per ayah, so it adds checkable sources without bulk dilution (NS13 notes bulk input measurably diluted synthesis). It supplies rare senses the model will not recall and a source for every Arabic quotation. It also fits a Q3 step on top of v5: annotate v5 findings with classical support or absence.",
+   "effort": "Low to medium. Surah-name normalization for Mufradat/Tahdhib; fuzzy Uthmani-to-plain matching for @QB@ quotes; about a day of scripting (inference).",
+   "north_star_ids": "NS10, NS11, NS1, NS5, NS7, NS13"
+  },
+  {
+   "opportunity": "Build the deterministic definitional cross-reference detector: find branch prose of root A that contains a lexeme of root B from the same window, and emit (trigger word, branch, other root) rows. My scratch test on S1 (branch_image_ar + what_is_ar + what_is_not_ar over 18 roots) gave 33 hits. They include ض ل ل B005 'لا يعرف ربها' linked to ر ب ب (the stray whose rabb is unknown), م ل ك B002 linked to ع ب د, ء ل ه B001 linked to ع ب د, and ض ل ل B001 defined against ه د ي. S100 gave 28 hits and S103 6; whole S18 gave 12,742 and whole S4 22,055, so window restriction and IDF filtering are needed.",
+   "assets": "dictionary/data/working/furuq_v4.sqlite (branch_images, lexical_unit_senses); quran-slm/resources/source/qac_root_ayah.tsv; scratch script /private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase1/sweep/xref2.py",
+   "why": "quran-roots LESSONS.md records this as 'the highest-yield cue class across all five gold pericopes... A weekend of code that would have auto-found most of the best results'. It was never built. It is script-based discovery before synthesis (Q4/Q5), recall-first with no plausibility filter (NS8), and every hit is already a dictionary branch plus trigger (NS10).",
+   "effort": "Low (about 40 lines exist in scratch). Add window scoping (±5 ayat or pericope), IDF weighting of common tokens (غير, اسم, عين), and lexical_unit_senses text.",
+   "north_star_ids": "NS3, NS4, NS7, NS8, NS10, NS13"
+  },
+  {
+   "opportunity": "Replace iteration with 'synthesize free, anchor afterward'. One Opus call per ayah or window gets a short brief plus the compact script outputs above (cross-ref hits, classical citation file, channel and HFT chain index). A mandatory fixed exhaustiveness challenge turn follows ('did you cap it?'). Then a script-only anchor check deletes any Arabic claim that cannot be anchored. The axis-registry ratchet from quran-roots activation v5 can carry confirmed axes across surahs.",
+   "assets": "quran-roots/_corpus/activation/{LESSONS.md, v5/METHODOLOGY.md, v5/SCALING.md, v15/scripts/anchor_check.py}; v14/experiments/qnet-sonnet-s001/evaluation-report.md",
+   "why": "Recorded in sister-repo files: three schema-first pipelines plateaued at 2-4/10 S1 gold recall, while the free dialogue reached about 10/10. Qnet decompose/recompose let Sonnet reach about 10/14 gold cores with 0 unanchored spans. In the gold conversation the curation confession ('Capped... precision over recall') was fixed by the challenge turn, which promoted four findings. This matches the user's cold-Opus observation and gives a non-iterative design (Q4). Verification is scripted, so only generation costs money (NS13).",
+   "effort": "Medium. The anchor checker exists (quran-roots activation v15/scripts/anchor_check.py). The registry and challenge turn need wiring. Run variance means at least two runs per test (LESSONS R19).",
+   "north_star_ids": "NS8, NS7, NS9, NS10, NS13, NS4"
+  },
+  {
+   "opportunity": "Extend the pull layer beyond the six root-packet sources to Lisan, Asas al-Balagha, al-Askari's Furuq and Majaz. Use them first as a checker (verify a rare-branch aha reading against Lisan) rather than as synthesis input.",
+   "assets": "quran-roots/_corpus/lexicons/cache/shards/{lisan_compact, furuq}.sqlite; openiti_context.sqlite",
+   "why": "v15 uses only Maqayis, Jamhara, Mufradat, Sihah, Tahdhib and Ayn (build.py:381-390). The dictionary S1 audit found 11 of 157 branch definitions overgeneralized and unrepaired (e.g. 'gathered water'), exactly the rare branches that aha readings use. Asas and al-Askari add figurative-extension and near-synonym evidence for NS7 and NS2.",
+   "effort": "Low: a root_norm join; the portable DB already has root_source_coverage and source_policy.",
+   "north_star_ids": "NS10, NS11, NS2, NS7"
+  },
+  {
+   "opportunity": "Fill chain coverage before running any new commentary workflow: HFT for the 24 missing surahs (3,113 ayat; packets already built, e.g. S4 176 packets with 0 outputs, S2 286 with 0) via the Luna HFT v2, and channel reviews for S108, S110, S113, S114.",
+   "assets": "latent_activation/focus_trace/runs/s*/packets; latent_activation/focus_trace_v2; latent_activation/network/v3/experiments/corpus_neo_adaptive",
+   "why": "The user memory and North Star say to use existing chains (HFT plus channel reviews) and never rediscover them. Half the Quran, including the 4:34 test ayah, has no HFT, so any workflow there either rediscovers or runs without it (NS4).",
+   "effort": "Model runs needed (Luna or Sol): requires the user's approval; cost unknown (no $ ledgers found for past HFT runs).",
+   "north_star_ids": "NS4, NS3, NS13"
+  },
+  {
+   "opportunity": "Run a loaded-word detector by script: combine root-level collocation concentration (contextual collocation_profiles_v2), root-dossier groups, and the inter-ayah 'no value' labels as a negative signal. Output flagged roots whose uses cluster in one role, with the ayat where the canonical reading departs.",
+   "assets": "quran-data/data/grammar/contextual/collocation_profiles_v2.tsv; root-dossier/out/final; quran-slm/inter-ayah/outputs",
+   "why": "NS5 examples are recoverable. ḥamaʾ: 3 of 4 uses collocate with ṣalṣāl/masnūn (creation of man), and the dossier keeps 18:86 in the same branch. nafakha: partners rūḥ 5/9 (PV:I) and ṣūr 6/8 (PV_PASS). The terra reviewer marked 15:26/28/33 'no value' for 18:86, so these links are exactly what canonical relevance suppresses. Contextual profiles are used by no version.",
+   "effort": "Low to medium (script). Extending root-dossier beyond 123 roots needs Luna runs; the past usage was about 39.6M input / 4.2M output tokens for 123 roots.",
+   "north_star_ids": "NS5, NS6, NS9, NS13"
+  },
+  {
+   "opportunity": "Q2b decision: do not train a relevance retriever on the 923K inter-ayah labels or the v12 grades as-is. Instead (a) use the feedback-reranker protocol (train 38 surahs / validation 8 / 19 sealed blind) to evaluate any new distance, (b) score chain retrieval on the S1 gold ledger (32 items, baseline 46% recall) and the channel-review motif sets, and (c) if a learned model is wanted, relabel a small NS-oriented set (loaded-word and latent links) rather than reuse canonical labels.",
+   "assets": "quran-slm/inter-ayah/feedback_reranker; quran-slm/reports/s1_ar3_v1_gold_ledger.jsonl; latent_activation/network/v3/reviews; latent_activation/focus_trace/runs",
+   "why": "Plenty of labelled data exists (623,600 graded retrieved pairs, 299,667 memory pairs, 216,787 HFT steps, 12,807 graded findings, 50,577 motif citations). Nearly all are single-model silver labels. The inter-ayah labels are demonstrably canonical-biased against NS5 links (18:86 to 15:26 'no value'; 18:96 to 15:29 'medium'). Channel motifs come from the same SLM graph a new distance would replace (circularity).",
+   "effort": "Low for evaluation (the protocol exists). Medium to high for a new NS-oriented label set (human or Opus labelling).",
+   "north_star_ids": "NS5, NS6, NS9, NS11, NS13"
+  },
+  {
+   "opportunity": "Use the unused ready-made layers as compact, per-ayah, script-selected inputs rather than bulk: translation_support rows for grammar-that-matters, gloss error profiles (loses/adds/collision) for Turkish loss, adjacent-ayah bridges (root_handoff, scene_shift) for the local window, and Maqayis asl statements (768 roots explicit) as the root-concept anchor for integration.",
+   "assets": "quran-data/data/grammar/attachments/translation_support.tsv; dictionary/v2/gloss_generation/results/tr; quran-note-app/public/content/v/2026-06-01-full-en-r2/en/bridge; dictionary root packets (maqayis text)",
+   "why": "NS2 (grammar explained once, what Turkish loses), NS3 (window) and NS7 (a root's branches as facets of one concept) each have a whole-Quran precomputed layer that no version reads (grep 0 for translation_support, bridges, asl). All are small per ayah. No Turkish loanword-drift dataset exists (term-labels.tsv has 18 rows), so NS2 loanword loss will depend on the model's own knowledge plus gloss error profiles (inference).",
+   "effort": "Low (selection scripts).",
+   "north_star_ids": "NS2, NS3, NS7, NS12, NS1"
+  },
+  {
+   "opportunity": "Harvest chains image-first: sweep each surah image across the Quran, following the water_secondary_resonance precedent (259 targets / 197 ayat, graded and calibrated), seeded from channel-review parent channels and the 457,281 unreviewed path families. The surah commentary then assembles from image dossiers rather than from ayah outputs.",
+   "assets": "dictionary/data/output/water_secondary_resonance; latent_activation/network/v3/experiments/corpus_neo_adaptive/*/paths/path_families; network/v3/reviews",
+   "why": "The North Star's surah product needs image interaction and convergence (NS12). Per-ayah pipelines re-derive images every ayah. A per-image pass is done once and read by every ayah (NS13 funnel). Base-rate nulls in quran-roots activation v15 can test surah-specificity.",
+   "effort": "Medium to high (Luna for sweeps, Opus for interaction synthesis); needs approval.",
+   "north_star_ids": "NS4, NS12, NS13, NS8"
+  }
+ ],
+ "open_questions": [
+  "Which model wrote the 110 channel reviews (network/v3/reviews)? REVIEW_ORCHESTRATION.md and the prompts I read name none. Unknown.",
+  "Is lisan_compact.sqlite complete relative to the printed Lisan? ض ل ل has 12,647 chars and ر ب ب 23,074; no completeness audit was found. The OpenITI licence (CC BY-NC-SA 4.0, per the shard's license_note) needs checking before classical excerpts are shown in the reader app.",
+  "Are the 299,667 memory-suggested inter-ayah references accurate, i.e. real ayat whose content fits the rationale? Only reference format was checked (9 of about 36K sampled strong/medium refs did not resolve to a rooted ayah).",
+  "How much did HFT's lean packets restrict which branches the reader could activate? This confounds the 42% never-activated-branch figure as a pretraining signal.",
+  "No $ cost ledgers were found in sister repos for HFT, v12, inter-ayah or channel-review runs (they appear to be Codex subscription runs). The only token record found is root-dossier status JSON (123 roots: 39.6M input / 30.6M cached / 4.16M output Luna tokens).",
+  "Do the S1 gold ledger (32 items, quran-slm) and prose_generation's own eval sets (v5/benchmark, v11-v14 eval) agree on the S1 findings? Not compared here.",
+  "Should S1_sessions.txt (177 KB, /Users/ahmetrasit/Desktop, outside all repos) be copied into a repo as an evaluation-only artifact, as quran-roots LESSONS.md recommends? Nothing in a repo currently preserves it.",
+  "The quran-roots activation v5 design (axis registry, challenge turn, anchor-or-discard) and the Qnet v15 package were never piloted on anything beyond S1/S103 in files I found. Would a single run on the prose_generation test ayat (1:6-7, 18:86, 4:34, 5:6) reproduce the Sonnet 10/14 result with Opus?",
+  "The adjacent-ayah bridges and guided-discovery essays (quran-note-app, from study) are English and of unknown model provenance. Is their quality sufficient for NS3/NS12 use?",
+  "No Turkish loanword semantic-drift dataset exists (oku, ibadet, alem, salat). Is the model's own knowledge enough for NS2, or should a small curated list be built? Unmeasured."
+ ]
+}

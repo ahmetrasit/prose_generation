@@ -1,0 +1,491 @@
+{
+ "scope": "_commentary/v6 (incl. v6/reviews) and _commentary/v7 (29:38 Luna pilots, 2026-09-05..07), plus the surah-level and side products placed in the timeline: _commentary/experiments (S12 non-tiered bundles), _commentary/empirical_resonance (96:15-16), _commentary/surah/v1, _commentary/work (layer_3_channel_commentary, nontier symlink sets, HFT-variant S100 bundles), _surah_commentary (retired PROMPT.md; v2 legacy channel-first Layer 3 = 57 surah readings; S1 v3 prelude/postlude; editorial-v1 surah readings built on v5 editorials = 36 surahs), _channel, _channel_review, _channel_integration, _surah_final, _translation/v1. The v6/v7 raw and editorial outputs were removed from the working tree (commit f74734ef4; v6 rerun review: 'removed from the working tree at the user's request'). I read them from git (v6 at 68c70189f, v7 at e2aa970c9) and copied them to /private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase1/v6-v7-side/. Every count marked 'my count' comes from a local read-only script.",
+ "timeline": "2026-07-27: _translation/v1 'layer 1 spine' is built. S1 pilot in c60f92a49, S103 TR pilot in 0d2c30e9d. Root PLAN.md and STATUS.md are written. PLAN.md D-f makes S100 the evaluation surah because the S1 governing docs contain worked answers for 1:6 (PLAN.md 'Contamination'). 2026-07-28: c70a6f7b2 adds the layered commentary and channel workflows: _channel/PROMPT.md (combined Layer 3 + Layer 2.5), _channel_review, _channel_integration, _surah_final, _commentary/surah/v1, and the work/layer_3_channel_commentary copy. The same day brings the S1 channel draft (e9414bf32), the S87 translation pilot plus the authored-only redesign (5bbcca234; README D1-D6), and REVIEW_AUTHORITY.json, in which the project owner accepts the network-v3 channel reviews as reviewed. 2026-07-29/30: the S100 layer-3 discover input; HFT variant bundles for 100:1-2 (fe2da5a6f); legacy channel-first Layer 3 (discover, review, compose) runs for 57 surahs (0c391d685 'new prose for multiple surahs', 8631bc5a8, 70f870c55); copied to quran-data/data/commentary on 07-30. 2026-08-07: S1 Sonnet Layer-3 run (46839e733). 2026-08-08/09: empirical-resonance test on 96:15-16 with Luna max and Terra max (ec2ecf9da). 2026-08-17/19: Layer 3 v3 migration and the S1 v3 run (prelude, postlude, span evidence map; 9d7408c8d, 3874a7183). That run's failure analysis led to a revised contract ('revised after the S1 v3 regression diagnosis'), which was never run (LEGACY_IMPLEMENTATION_STATUS.md). S12 layer-2 non-tiered outputs land in b41381c3f. 2026-08-23: non-tiered and two-pericope bundles, including the work/sNNN-nontier-bundles symlinks (f2723cb17, d649661d6). 2026-09-05: v6 adds bounded paged discovery for large packets (14be45ea5), prompted by 7.2-7.4 MB packets (22:5, 73:20; v6/README table). 09-06: v6 R1 (b04a5900e), R2 (0327ba229), R3 with V5 semantics restored (cb7b2d553, afa4ebb8e), and R4 with literal checkpoints (bb0810d88, 68c70189f). The R4 review closes v6: 'V7 will start from V5'. 09-06/07: v7 with the initial Luna pilot (8909d7857) and pilot 2 with a single-explanation schema and full-embedding handoffs (e2aa970c9). 09-08: v6/v7 outputs removed from the tree (f74734ef4). 09-11..14: surah v2 becomes 'editorial-only', consuming only the v5 final editorials (IMPLEMENTATION_STATUS.md; 6dda7110d, 7903a3775 'prose-first', 496773963 S90 and S106-S114, cb94705c3 S12). 09-20..22: S103 surah readings; a Luna-6 S103 surah run is archived and the original artifacts restored (1d29b353f, 59d15a2b9). 09-24: _channel/layer3 becomes a symlink to _surah_commentary/v2. Later verdicts that mention my scope: v9/DESIGN.md:20 (2026-09-24) and NORTH_STAR.md (2026-09-26/27).",
+ "mechanism": "V6 (2026-09-05/06). Copies V5's deterministic preparation: bundles become micro, macro and global lane packets holding candidates, branch registry, connection registry (reciprocal inter-ayah rows), context evidence and HFT. It adds discovery.py, which pages the frozen packet into pages of at most 24,000 bytes and batches of at most 120,000 bytes. For 29:38 the global packet is 2,064,492 bytes, giving 22 batches, 111 pages, plus 5 branch and 9 connection catalog pages. One fresh gpt-5.6-luna agent at max effort per lane reads the batches, writes checkpoint notes to work.json, then revisits the catalogs. 'discovery.py finish' checks page and batch accounting and cited IDs before it publishes discovery.json. That file records accept, narrow or reject per candidate, and each finding carries claim, mechanism, payoff, containment, branch_activations and evidence_facts. The same agent then writes scope prose. A consolidator merges the 3 lanes, writes the editorial, and runs validate_prose.py (format only), with at most 2 repairs. Only the global lane was ever run (4 runs); R3 and R4 added same-agent composition. Prompts were 19-22 KB plus the 2 MB packet, and a Firebase operations monitor ran alongside.\n\nV7 (2026-09-06/07). Restarts from V5's inline hermetic evidence: the packet JSON is embedded in each discovery prompt (micro 0.87 MB, macro 1.07 MB, global 2.07 MB). There are no gates, checkpoints or ledgers, and 'authoring.py read' serves records statelessly. Per ayah: 3 fresh gpt-5.6-luna max scope agents (discovery JSON, then scope prose in the same session), then 1 fresh gpt-5.6-luna max consolidator (canonical merge, editorial, validator). Pilot 1 used the multi-field schema v2 and path-only handoffs of about 7.5 KB. Pilot 2 used schema v3 (one free-text 'reading' plus evidence_refs), rendered reading-standard.md into every stage, and embedded all authored inputs and cited records in its handoffs: composition 0.33-0.42 MB, canonical 1.12 MB, editorial 1.15 MB. Per-ayah prompt totals: pilot 1 4.06 MB, pilot 2 7.36 MB (my sum).\n\nSurah products.\n(a) _commentary/surah/v1: a one-paragraph brief ('read v11 and network/v3 ... write a prose'). Whether it was ever run is unknown.\n(b) Combined Layer 3 + 2.5 design, 7/27-7/30. Layer 3 writes the argument plus channels. Review admits channels by 5 membership tests. A maturity path runs latent, emerging, mature, complete. Layer 2.5 overlays are to be inserted into unchanged ayah prose, followed by final reconciliation. Channel bundles compiled from network-v3 reviews carry a motifAnchorMap. Only the S1/S87 drafts and the S87 draft-to-review pass were ever run.\n(c) Legacy channel-first pipeline, 7/29-8/19. build_packet assembles Quran text, Layer-2 v2 prose and evidence (labelled default.v2.5.6-sol-high), network-v3 review cards and the V11 report. 01-discover works blind to Layer 2 from activation cards only (36 KB for S100). 02-review writes channel briefs with the Layer-2 handoff (155 KB). 03-compose is 81 KB. The v3 version adds 04-edit, prelude and postlude, and a span evidence map with exact-coverage validators.\n(d) editorial-v1, 9/11-9/21. workflow.py freezes the v5 final editorials of every numbered ayah as the only evidence. Outline stage: movements with at least 2 ayah members, anchored by exact spans of at least 6 words. Compose stage: prelude plus postlude in one Markdown file. Edit stage: integration plus suppression of defensive denials. Validation is mechanical only, and the model is left to the operator. Prompt load is about 78 KB per ayah (S5: about 3 MB per stage).\n\nTranslation v1. Stage 0 (anchors): build_anchor_input enumerates every rooted stem against every candidate root and branch, including split QAC-to-Furuq roots, plus an ordinary Turkish baseline. An agent picks primary plus resonances, then check_anchors runs. Stage 1: build_bundle assembles the selected branch cores, contextual senses, error profiles, languagePolicy, grammarSupport and alignmentGroups. The agent writes only occurrence glosses, card glosses, translation text and target tokens. assemble.py joins the identities and check_output runs.\n\nEmpirical resonance. Packet (ayah, optional Layer 2, hooks, frozen sources), then a render prompt, then prose plus a findings table with strength labels. A source-discovery pass with external search is specified but was never run.",
+ "inputs_pushed": [
+  "v6 global lane 29:38: packet of 2,064,492 bytes (R1/R2) or 2,061,437 bytes (R3/R4), holding 24 candidates, 133 branches, 253 connections and 283 context ayat; delivered as 111 pages plus catalogs; prompt 19,217-21,725 bytes (v6/reviews/*.md; v6/input/*/s029/29_38).",
+  "v7 discovery prompts, packet inline: global 2,072,766 bytes (pilot 2). My parse of its sections: branch_registry 703,064; context_evidence 685,354; connection_registry 541,861; candidate_inventory 83,789; support_registry 70,336; review_inventory 28,521; hft_evidence 19,513 bytes. The macro packet carries network-v3 channel reviews as support records (source_type 'channel', e.g. 'A:Fitted Dwelling Structure').",
+  "v7 pilot-2 later handoffs embed all authored inputs plus cited source records: composition 328,859-418,461 bytes, canonical 1,121,298, editorial 1,151,502 (v7/input/pilot-29-38-p03-fatiha-r2-202609070227).",
+  "Legacy surah Layer 3 (S100): source packet of 123,388 bytes (Quran text; Layer-2 v2 prose and evidence by Sol-high; network-v3 review; V11 final report). Discover prompt 36,035 bytes (activation cards only, blind to Layer 2); review 154,935; compose 81,217 (_surah_commentary/v2/inputs/s100, packets/s100).",
+  "Surah editorial-v1: the full text of every v5 final editorial of the surah. S1 snapshot 616,901 bytes (IMPLEMENTATION_STATUS.md). S5 about 3.0-3.2 MB per stage prompt. Total 71,044,706 prompt bytes over 909 ayat, about 78 KB per ayah (my count).",
+  "Translation stage 1: selectedBranchEvidence (branch cores, contextual senses, errorProfile with narrowing, losesFacetIds, loses, adds, collision), languagePolicy, grammarSupport, alignmentGroups. S87 input is 67,861 bytes (prompts/s087.translation.tr.manifest.json). Stage 0 gets the exhaustive stem-by-candidate-root/branch inventory plus a Turkish baseline.",
+  "Layer 3 + 2.5 combined prompt (S87): 265,723 bytes, of which 256,998 bytes are inlined reviewed channels, the anchor map and unchanged Layer-2 prose (layer_3_channel_commentary/ADVERSARY_REVIEW.md).",
+  "Empirical resonance 96:15-16: ayah text only; no research sources were supplied (outputs/s096/*.md)."
+ ],
+ "inputs_pulled_or_optional": [
+  "v6: after the scheduled batches the agent could use targeted 'lookup' and 'state' reads across batches; the prompt required exact rereads after compaction (v6/README.md).",
+  "v7: stateless 'authoring.py read --section/--refs' calls over the inline packet; the source appendix in handoffs was 'consult as needed' (v7/README.md).",
+  "Surah editorial-v1 and translation: hermetic; nothing can be pulled beyond the frozen prompt.",
+  "Empirical resonance: the orchestration allows a separate source-discovery pass with external search whose chosen sources are frozen into the packet (empirical_resonance/README.md). It was never run."
+ ],
+ "available_but_unused": [
+  "Whole-Quran connection registry: v7 pilot-2 global cited 0 connection records against a 541,861-byte registry; v6 R4 global cited 1 of 253 connections (my count).",
+  "Network-v3 channel reviews (110 surahs, accepted by the project owner in _channel/REVIEW_AUTHORITY.json): v7 used them only as macro-lane supports, and surah editorial-v1 excludes them outright ('does not consume ... network/V11 evidence', _surah_commentary/v2/ORCHESTRATION.md).",
+  "S87 maturityByAyah disclosure path (_commentary/outputs/archive/pre-layer2-v2-20260818/s087-channel-review/87.surah.channels.reviewed.json): no downstream consumer; no Layer 2.5 overlay file exists anywhere (my find).",
+  "Translation stage-0 resonances (primary-anchor-seed-v4; S87 has 13): 'preserved for downstream analysis' (translation README D4), but no workflow consumes them. The S1 and S103 seeds were never upgraded to v4.",
+  "Dictionary gloss error profiles (loses/adds/collision): pushed into the translation writer, but absent from every commentary prompt in scope; commentary prose never discusses Turkish loss.",
+  "Compiled channel bundles with motifAnchorMap (work/layer_3_channel_commentary/generated/bundles; S1, S87, S100, S103): never consumed by an authored pass ('Residual Work: Run a real S87 Layer-3 authoring pass', ADVERSARY_REVIEW.md).",
+  "The legacy 2,511 discovery hypotheses and 391 channel briefs (57 surahs) are not an input to v5, v7 or editorial-v1."
+ ],
+ "models_and_cost": "v6, all 4 runs on 29:38, global lane only: gpt-5.6-luna at max effort, one fresh agent each (v6/reviews).\n- R1: 20m37s, 108 tool calls, 12,573,545 cumulative input tokens (12,119,808 cached), 47,936 output (17,600 reasoning).\n- R2: 50m03s, 259 calls, 34,096,115 input (32,910,336 cached), 96,270 output (27,747 reasoning).\n- R3: discovery 45m24s plus composition 5m36s, 247 calls, 30,489,524 input (29,310,720 cached), 91,185 output (26,327 reasoning).\n- R4: tokens not recorded.\nThe reviews say these totals 'are neither the packet's token count nor a price estimate'. $ per ayah is unknown: the runs went through Codex multiagent spawn and no price table exists in the files.\n\nv7: gpt-5.6-luna max for 3 scope agents plus 1 consolidator per ayah (v7/README.md). Neither pilot has any token, time or $ record (unknown).\n\nSurah legacy (57 surahs, 2026-07-30): the surah-level model is not recorded. The Layer-2 inputs are labelled gpt-5.6-sol high ('default.v2.5.6-sol-high' in packets/s100/100.source-packet.json). There is also a Sonnet S1 variant (commit 46839e733).\n\nSurah editorial-v1 (36 surahs): the model is not recorded ('Use the operator-selected model', ORCHESTRATION.md:110). completedBy reads codex-orchestrator, codex-20260913 or codex-20260920 (source-packet.json). The S103 'luna-6' variant has label only (inference: gpt-6-luna). Upstream v5 editorials: gpt-5.6-luna max scope plus gpt-5.6-sol max consolidator, S1 on gpt-6-astra high (v5/ORCHESTRATION.md:48-58; v11/NOTES.md).\n\nTranslation: S87 stage 1 is gpt-5.6-sol (output/tr/s087.json provenance). The other translation runs are unrecorded.\n\nEmpirical: gpt-5.6-luna max and gpt-5.6-terra max (output headers).\n\nNo run in scope records a $ figure. Byte-load proxies: v6 2.06 MB packet per lane; v7 pilot 2 7.36 MB of prompts per ayah; surah editorial-v1 about 78 KB of prompts per ayah (my counts).",
+ "ayat_run": [
+  "29:38, v6 global lane: R1 native whole-surah pilot-29-38-global-20260906021739; R2 native -r2-20260906025511; R3 pericope 29:28-44 plus 1:2-7 -r3-20260906130518; R4 same context -r4-20260906145008",
+  "29:38, v7 full pipeline (micro, macro, global, consolidation, editorial), pericope 29:28-44 plus Fatiha 1:2-7: pilot-29-38-p03-fatiha-20260906161918 and -r2-202609070227",
+  "Legacy channel-first surah readings (2026-07-30/31), 57 surahs: S1, S5, S12, S13, S14, S17, S18, S19, S24, S31, S32, S35, S41, S42, S44, S45, S46, S48, S49, S51, S54, S56, S80-S114",
+  "S1 Sonnet Layer-3 run (2026-08-07); S1 Layer-3 v3 prelude/postlude (2026-08-19)",
+  "Surah editorial-v1 (2026-09-12..21), 36 surahs / 909 ayat: S1, S5, S12, S17, S18, S19, S31, S32, S87-S114; S103 also has a luna-6 variant",
+  "_channel drafts S1 and S87 (2026-07-28); S87 channel draft, then review, then surah prose (archive pre-layer2-v2-20260818; quran-data copy 87.surah.prose.tr.md)",
+  "Empirical resonance: 96:15-16 (Luna max, Terra max)",
+  "Translation v1: S1 (EN, plus TR cold-test, v2-cold-test, v3-gloss-test), S87 TR, S103 TR draft; anchor seeds for S1, S87, S100:1-5, S103; anchor inputs also for S100 and S112",
+  "Bundles only, with no outputs in scope: S12 non-tiered (111 files); nontier symlink sets for S5, S17, S18, S19, S22, S24, S29; HFT reader variants for 100:1-2"
+ ],
+ "north_star_scorecard": [
+  {
+   "id": "NS1",
+   "rating": "partial",
+   "evidence": "The v7 pilot-2 editorial opens with the plain flow ('29:38'in olağan akışında ... önceki yıkım çerçevesine iki topluluğu ekler'), then walks the grammar word by word ('ʿĀdan akuzatif tenvinli bir özel ad...'; git e2aa970c9 v7/editorial/...r2.../29_38.prose.editorial.tr.md). The legacy surah prompt requires the argument to hold 'with every latent reading removed' (_surah_commentary/PROMPT.md). editorial-v1 outlines carry an anchored primaryArc (runs/editorial-v1/s100/.../outline.json). No reader verdict on disorientation is recorded in scope."
+  },
+  {
+   "id": "NS2",
+   "rating": "weak",
+   "evidence": "0 occurrences of 'Türkçe' and no loanword-loss discussion in v6 R3/R4 prose or either v7 editorial (my grep). Translation v1 pushes error profiles into the writer ('Respect every supplied errorProfile', _translation/v1/prompt.md). Its v2/v3 tests move away from canonical labels: naʿbudu goes from 'kulluk eder' to 'boyun eğerek tapınırız', ihdinā from 'ilet' to 'yöneltip benimseterek erdir' (output/tr/s001.*.json). But the outputs hold glosses only, not what is lost, and there is 'no accepted output/tr/s001.json' (_translation/v1/README.md). The per-word gloss product is outside NS scope."
+  },
+  {
+   "id": "NS3",
+   "rating": "partial",
+   "evidence": "v6 R4 recovered same-surah mechanisms at 29:2-4, 29:12-13, 29:17/25/29, 29:19-20/35, 29:45, 29:47-49/61-63, 29:64-65, 29:67 and 29:69, which R3 had reduced to placeholders (v6/reviews/29-38-global-literal-checkpoints-2026-09-06.md). The v7 editorial develops masākin through 29:35, 29:37, 29:39-41 and ahl in 29:31-34 (git e2aa970c9). v7 micro: 55 accepted candidates in pilot 1, 24 findings in pilot 2 (my count)."
+  },
+  {
+   "id": "NS4",
+   "rating": "partial",
+   "evidence": "v7 used network-v3 channel reviews only as macro support records inside a 1.07 MB prompt (my parse), and the runs are single-ayah, so nothing is disclosed across ayat. Progressive disclosure (latent, emerging, mature, complete; Layer 2.5 overlays) was designed (_channel_integration/PROMPT.md, _channel/PROMPT.md section 5) but never produced; only S87 has a maturityByAyah path. The legacy surah workflow re-reviewed channels (the S87 review cut membership from 24 to 21), and editorial-v1 excludes channel reviews entirely (_surah_commentary/v2/ORCHESTRATION.md)."
+  },
+  {
+   "id": "NS5",
+   "rating": "weak",
+   "evidence": "The v7 pilot-2 editorial traces zayyana across 6:43, 8:48, 15:39, 16:63 and the near-identical formula at 27:24, but never states where a canonical translation departs from that recurring role. No loaded-word analysis appears elsewhere in scope."
+  },
+  {
+   "id": "NS6",
+   "rating": "partial",
+   "evidence": "The global lane works as QeQ. v7 pilot 1 found five non-candidate parallels (46:26, 22:46, 46:24, 7:30, 7:146/41:17) and 41:17 and 46:26 reached the editorial. Pilot 2 lost them (my count; git e2aa970c9). v6 R1/R2 noticed 41:17 and 46:26 but never landed them (v6 pilot and rerun reviews). No supports/expands/shifts/contradicts typing anywhere; v6 R4 cited 1 connection and v7 pilot 2 cited 0."
+  },
+  {
+   "id": "NS7",
+   "rating": "partial",
+   "evidence": "Supported non-canonical readings exist. v7: masākin read as a load-bearing structure through 29:41. Legacy S100: the charging horses become the human's locked attachment, and the cultivation and threshing yield channel 'beslenmeden-urune' (outputs/s100/100.surah-reading.tr.md, 100.channel-briefs.json). The S1 v3 postlude covers road, herd, water and pulley (my keyword count: water 20, herd 6, well/pulley 3). But catalogue rhythm is on record: the follow-up prompt for surahs that 'still read as a channel catalogue' (LEGACY_ORCHESTRATION.md:401), and NORTH_STAR names v7 among the catalogue outputs. The _channel/s001 draft deliberately kept the water system marginal ('yalnız âlemler paragrafına nitelikli zemin sağladı')."
+  },
+  {
+   "id": "NS8",
+   "rating": "weak",
+   "evidence": "v6 forced an accept/narrow/reject decision per candidate and ran a core/extension gate that produced an invented activation (rerun review, section 2). R3 wrote 57 identical branch-exclusion reasons and 94 identical HFT-obligation exclusions (v5-semantics review). v7 removed the gates but kept per-candidate accept/narrow/represented/reject. The legacy surah review admitted channels through five membership tests (_channel_review/PROMPT.md)."
+  },
+  {
+   "id": "NS9",
+   "rating": "partial",
+   "evidence": "Readings coexist and nothing is ranked. Containment is phrased as denials: 9.2 denial markers per 1,000 words in the v7 editorials and 14.3 in legacy surah readings. The editorial-v1 edit prompt turns denials into affirmative scope, taking drafts from 5.4 to 1.5 per 1,000 words in final prose (median 0) (my count; prompts/12-editorial-edit.md). 'Not X but Y' was never audited systematically."
+  },
+  {
+   "id": "NS10",
+   "rating": "partial",
+   "evidence": "v7 discovery cites support, branch and context IDs (pilot-2 micro: 76 support and 43 branch refs). The prose quotes Arabic in {ar,tr,gloss} tags with ayah references (98 and 92 tags) but contains 0 source: root-branch tags (my grep). S1 v3 publishes a span-level evidence JSON, and _channel/s001 lists branch IDs and network PF ids. Instead of marking memory-only claims, the July rule forbids them: 'A true claim from outside the bundle is still a violation' (work/layer_3_channel_commentary/PRINCIPLES.md section 1)."
+  },
+  {
+   "id": "NS11",
+   "rating": "weak",
+   "evidence": "v6 R2 and R4 falsely claimed that supplied SOURCE_IMAGE facets were absent. R2 misdescribed 29:48 and 29:62. R3 left nine placeholder findings. R4 excluded the Thamud dossier (v6/reviews). In v7 pilot 2, consolidation misattributed a verse (household rescue given to 29:31 instead of 29:32) and the editorial kept it (v7/README.md; confirmed in the git copy). Lexical connections were lost in prose. Exclusions did carry reasons (candidate_decisions)."
+  },
+  {
+   "id": "NS12",
+   "rating": "partial",
+   "evidence": "Produced (my counts): 57 legacy surah readings (75,510 words; 2,511 hypotheses; 391 channel briefs); 36 editorial-v1 readings (100,343 words; 185 movements; 1,060 members); the S1 v3 prelude/postlude; S1 Sonnet; S103 Luna-6; S87 channel prose; S1/S87 drafts. The legacy pass condition was to 'say something that an ayah-by-ayah reading could not produce' (_surah_commentary/PROMPT.md). No human verdict exists on any of them in scope. v11/compare_s001_v5.md credits the v5-level S1 surah material with 6 chains and 7 briefs, including the water system. The revised contract was never run (LEGACY_IMPLEMENTATION_STATUS.md)."
+  },
+  {
+   "id": "NS13",
+   "rating": "weak",
+   "evidence": "A single v6 global lane consumed 12.6M-34.1M cumulative input tokens (96-97% cached) and 48K-96K output tokens over 20-50 minutes (v6/reviews). v7 pilot 2 needed 7.36 MB of prompts per ayah; the editorial-v1 surah step took 71.0 MB of prompts for 909 ayat (my counts). No $ figure, funnel, Batch API or cached prefix exists in scope. One real saving: translation D1 cut output tokens by about 60-70% by assembling identities in code (_translation/v1/README.md D1)."
+  }
+ ],
+ "improvements": [
+  {
+   "claim": "v6 made large-packet delivery verifiably lossless and safe across compaction",
+   "evidence": "4,059 pages recovered all 1,937,529 source values, no page over 24,000 bytes (v6/README.md). In R2, 7 batch reviews were durable before the first compaction and all 22 survived (v6/reviews/29-38-global-rerun-2026-09-06.md).",
+   "over": "V5 inline packet reading"
+  },
+  {
+   "claim": "v6 R2 removed the boilerplate and the wrong anatomical facet",
+   "evidence": "Distinct activation explanations rose from 1/28 to 26/26, and dwelling activations used B009/F002 instead of F001 (rerun review table).",
+   "over": "v6 R1"
+  },
+  {
+   "claim": "v6 R4 recovered the wider-context mechanisms R3 had lost",
+   "evidence": "Findings with activations went 6 to 14, branch activations 6 to 22, retained context ayat 24 to 30 (V5: 16/31/43), after a 1,622-byte prompt change that removed the core-facet rule and banned semantic scripts (literal-checkpoints review).",
+   "over": "v6 R3"
+  },
+  {
+   "claim": "v7 pilot 1 showed independent discovery beyond the candidate docket",
+   "evidence": "5 global findings with no candidate link (46:26, 22:46, 46:24, 7:30, 7:146+41:17); 41:17 and 46:26 reached the editorial (my count, git e2aa970c9). In v6, 'All 15 findings originate from supplied candidates' (v6 pilot review).",
+   "over": "v6"
+  },
+  {
+   "claim": "v7 removed semantic gates and ledgers; handoffs carried authored inputs verbatim and format validation passed",
+   "evidence": "v7/README.md: 'All five later handoffs reproduced their authored inputs verbatim, and editorial format validation passed.'",
+   "over": "v6"
+  },
+  {
+   "claim": "The legacy channel-first Layer 3 produced whole-surah readings at scale from lean inputs",
+   "evidence": "57 surahs, 2,511 hypotheses, 391 channel briefs; the S100 discover prompt is 36 KB (my counts; _surah_commentary/v2/inputs/s100).",
+   "over": "no earlier surah product (STATUS.md 2026-07-27: layer 3 not started)"
+  },
+  {
+   "claim": "Surah editorial-v1 went prose-first and ledger-free, suppressed defensive denials, and ran for 36 surahs on top of v5",
+   "evidence": "Denial markers per 1,000 words: 5.4 in drafts, 1.5 in final prose (my count); IMPLEMENTATION_STATUS.md: 'No upstream discovery, scope ledgers ... enter the active prompts.'",
+   "over": "legacy channel-first Layer 3"
+  },
+  {
+   "claim": "Translation v1 made transcription errors structurally impossible and cut output tokens",
+   "evidence": "README D1: the writer returns authored-only fields; 'output tokens drop by roughly 60–70%'; a round trip reproduced output/tr/s103.json.",
+   "over": "writer emitting the full artifact with copied identities"
+  },
+  {
+   "claim": "Translation v2/v3 tests rendered occurrence-specific meanings instead of conventional labels",
+   "evidence": "1:5 went from 'kulluk eder' (cold) to 'boyun eğerek tapınırız' (v2/v3); 1:6 from 'Bizi doğru yola ilet' to 'Bizi sapmasız, düzgün yola yönelt; onu benimsetip ona erdir' (output/tr/s001.*.json). None was accepted.",
+   "over": "tr/s001.cold-test.json"
+  }
+ ],
+ "regressions": [
+  {
+   "claim": "v6 R3 (V5 semantics restored) collapsed the analysis",
+   "evidence": "9 of 15 findings became generic placeholders. Findings with activations went 16 to 6, activations 31 to 6, contexts 43 to 24, retained obligations 87 to 27, prose 18,841 to 8,894 bytes, all against V5 (v6/reviews/29-38-global-v5-semantics-2026-09-06.md).",
+   "cause": "The agent wrote narrowFinding(), which kept obligations[0] by array position and emptied activations, and it treated legacy_unbound status as disqualifying."
+  },
+  {
+   "claim": "v6 reading discipline more than doubled time and tool calls without making selection dependable",
+   "evidence": "20m37s to 50m03s, 108 to 259 tool calls, 4 compactions. The review: 'did not, by itself, make final evidence selection dependable.'",
+   "cause": "Scheduled paging, mandatory checkpoints and catalog revisits"
+  },
+  {
+   "claim": "v6 R2 inserted an unsupported intransitive reading of ṣaddahum",
+   "evidence": "At 04:52:42, 'finish' rejected root_000848/B001 without a core facet; at 04:53:04 the agent inserted F001 (rerun review, section 2).",
+   "cause": "The core/extension validator inherited from V5's prompt"
+  },
+  {
+   "claim": "v6 R4 still lost V5 material",
+   "evidence": "The Thamud finding excluded all fourteen dossier contexts; the 29:61 cosmic-direction contrast was absent; visible-sign and road-cutting exclusions claimed missing descriptors (literal-checkpoints review).",
+   "cause": "A missing lexical branch treated as preclusive; false absence judgments"
+  },
+  {
+   "claim": "v7 pilot 2 lost pilot 1's independent global readings and most lexical and connection citations",
+   "evidence": "Non-candidate global findings 5 to 0; global branch refs 46 to 1; connection refs 16 to 0; 41:17 and 46:26 are absent from the pilot-2 editorial (my count). v7/README.md: 'the first pilot's five additional global readings were missing'. v9/DESIGN.md:20: 'single-explanation schemas (V7) lost findings'.",
+   "cause": "Schema v3 (one free-text 'reading') plus a shortened prompt that dropped 'Independently inspect ... for uncandidate activations and surprise readings' (git diff 8909d7857 to e2aa970c9). Inference: single-run variance cannot be excluded."
+  },
+  {
+   "claim": "v7 pilot 2 introduced a factual error and still lost connections in prose despite 1.1 MB handoffs",
+   "evidence": "'consolidation introduced a verse attribution error that editorial retained (household rescue assigned to 29:31, rather than 29:32)'; 'lexical connections still disappeared in prose' (v7/README.md).",
+   "cause": "Bulk embedded handoffs (canonical 1.12 MB, editorial 1.15 MB) and consolidation as a merge of three drafts"
+  },
+  {
+   "claim": "The S1 v3 surah postlude read as a catalogue",
+   "evidence": "Sentences of the form '1:N'deki X, Y olur' repeat per member (outputs/s001/1.surah-reading.postlude.tr.md). The runbook adds a follow-up for outputs that 'still read as a channel catalogue' (LEGACY_ORCHESTRATION.md:399-431).",
+   "cause": "Enforced invariants: every activation card accounted for, and every channel, member and hinge given a distinct prose landing (LEGACY_IMPLEMENTATION_STATUS.md)."
+  },
+  {
+   "claim": "Surah editorial-v1 cut off channel reviews, network and V11 evidence",
+   "evidence": "'The sole semantic source is the completed final editorial prose' (IMPLEMENTATION_STATUS.md). A surah reading therefore cannot exceed what the v5 editorials kept.",
+   "cause": "Design choice to avoid ledgers and evidence sidecars"
+  },
+  {
+   "claim": "The legacy review re-adjudicated channels the owner had already accepted",
+   "evidence": "The S87 review cut 24 members to 21 and rejected 3 motifs (quran-data/data/commentary/surah/detailed/tr/s087/87.surah.channels.review.md), against REVIEW_AUTHORITY.json ('accepted as the reviewed channel source').",
+   "cause": "A review stage with five membership tests"
+  }
+ ],
+ "recorded_verdicts": [
+  {
+   "source": "_commentary/v6/reviews/29-38-global-literal-checkpoints-2026-09-06.md",
+   "verdict": "V6 is closed as an experiment after this run... V7 will start from V5; V6 is a reference for failure cases, not an implementation base."
+  },
+  {
+   "source": "_commentary/v6/reviews/29-38-global-rerun-2026-09-06.md",
+   "verdict": "This is a partial improvement, not evidence of readiness for bulk or 7 MB analysis."
+  },
+  {
+   "source": "_commentary/v6/reviews/29-38-global-v5-semantics-2026-09-06.md",
+   "verdict": "Restoring the V5 semantic instructions did not recover the latest V5 global analysis in this run."
+  },
+  {
+   "source": "_commentary/v6/reviews/29-38-global-pilot-2026-09-06.md",
+   "verdict": "The workflow's validator accepted the resulting registered identities without judging their semantic fit... All 15 findings originate from supplied candidates."
+  },
+  {
+   "source": "_commentary/v7/README.md",
+   "verdict": "Semantic review was mixed: some explanations recovered, but the first pilot's five additional global readings were missing from discovery, lexical connections still disappeared in prose, and consolidation introduced a verse attribution error... successful evidence transport and format checks do not establish adequate discovery or preservation."
+  },
+  {
+   "source": "_commentary/v9/DESIGN.md:20",
+   "verdict": "Many-small-files and paged reading (V6) failed; single-explanation schemas (V7) lost findings."
+  },
+  {
+   "source": "NORTH_STAR.md (Lessons)",
+   "verdict": "worklists and 'every record must reach the prose' turn discovery into accounting and prose into a catalogue (V9 findings lane, v3, v7)."
+  },
+  {
+   "source": "PLAN.md 'Contamination'",
+   "verdict": "the governing docs a writer is ordered to read contain worked answers for that exact ayah... never evaluate on S1."
+  },
+  {
+   "source": "_surah_commentary/v2/LEGACY_ORCHESTRATION.md:401",
+   "verdict": "If the validated editorial surfaces preserve coverage but still read as a channel catalogue, send the message below verbatim..."
+  },
+  {
+   "source": "_surah_commentary/v2/LEGACY_IMPLEMENTATION_STATUS.md",
+   "verdict": "No new semantic S1 discovery, review, compose, or edit pass has been run with the revised prompts."
+  },
+  {
+   "source": "_surah_commentary/v2/IMPLEMENTATION_STATUS.md",
+   "verdict": "A full semantic run remains a separate operation... Mechanical tests and S1 source-snapshot checks do not substitute for that acceptance."
+  },
+  {
+   "source": "_commentary/work/layer_3_channel_commentary/ADVERSARY_REVIEW.md",
+   "verdict": "Residual Work: Run a real S87 Layer-3 authoring pass... judge whether emerging hints clarify or clutter."
+  },
+  {
+   "source": "_commentary/v11/compare_s001_v5.md:306-330",
+   "verdict": "v5 surah level has 6 chains and 7 channel briefs; 'v5 chains v11 lacks': gestation-to-cultivation, gift/offering circuit, water/rain/settlement and covenant."
+  },
+  {
+   "source": "_commentary/v11/NOTES.md:58-61",
+   "verdict": "User on the v11 surah reading: 'too compressed, I cannot follow what is coming from where'; 'every S100 ayah reading re-tells the raid scene'."
+  },
+  {
+   "source": "_translation/v1/README.md",
+   "verdict": "S1 has an English output and three Turkish test artifacts with no accepted output/tr/s001.json; S103 has a Turkish draft."
+  },
+  {
+   "source": "_commentary/empirical_resonance/outputs/s096/96_15-16.terra-max.empirical.md",
+   "verdict": "No positive empirical claim is therefore retained."
+  },
+  {
+   "source": "_channel/README.md",
+   "verdict": "Files directly under _channel/ that predate layer3/ are retired."
+  }
+ ],
+ "failure_modes": [
+  "The agent wrote scripts that made semantic choices: facet_for() returned the first core facet (anatomical F001 for dwellings); narrowFinding() kept obligations[0] by array position (v6 R1, R3).",
+  "Tool responses were filtered or projected (connection context rows dropped, image_ar/image_en removed) while the delivery counters claimed full inspection (v6 R1).",
+  "Registry or verification status used as a veto: 'no reviewed facet' claimed for supplied SOURCE_IMAGE facets; legacy_unbound and missing lexical descriptors used to discard ordinary contextual evidence (v6 R2-R4).",
+  "Validator pressure manufactured a reading: the core/extension gate made the agent add an intransitive activation (v6 R2).",
+  "Generic boilerplate: 1 activation sentence repeated for 28 activations (v6 R1); 57 identical exclusion reasons (v6 R3).",
+  "Truncation warnings ignored after compaction (v6 R2 at 04:44:20; four truncations in R3).",
+  "The evaluation boundary leaked: a broad search returned other lanes' prompts (v6 R3).",
+  "Discovery stayed bound to candidates: every v6 finding and every v7 pilot-2 finding came from the supplied docket.",
+  "The global lane ignored the whole-Quran connection registry (0-1 connection citations).",
+  "Consolidation drifted on facts: household rescue attributed to 29:31 instead of 29:32 (v7 pilot 2).",
+  "Prose was a grammar walk plus catalogue, with defensive denials (v7 editorial: 9.2 per 1,000 words).",
+  "Exhaustive-landing contracts produced catalogue rhythm in surah prose (S1 v3 postlude).",
+  "The designated evaluation surah was contaminated: S1 docs contain worked answers (PLAN.md).",
+  "Mechanical validation treated as completion: 36 editorial-v1 and 57 legacy surah readings were published with no semantic review on record.",
+  "Stale inputs: input/tr/s103.json was stale against the gloss results; 'the shipped output/tr/s103.json was authored against the older evidence' (translation README).",
+  "A strict no-memory rule without data yielded nothing: the empirical render could only list 'unsupported' hooks.",
+  "Model and cost provenance was not recorded for the surah-level runs (legacy and editorial-v1)."
+ ],
+ "dilution_evidence": [
+  "v6: lossless paging of 2 MB into 111 pages did not make the model read it. In R1, 'semantic material was also omitted while helper delivery counters and the final review narrative indicated full inspection' (v6 pilot review).",
+  "v6 R2: added reading discipline stretched the run to 50 minutes and 259 calls with 4 compactions, and 'did not, by itself, make final evidence selection dependable' (rerun review).",
+  "v6 R3: batch notes recognized burden transfer, field observation and nonbinding knowledge, yet final synthesis reduced them to placeholders. The analysis survived reading and was lost at synthesis under load (v5-semantics review).",
+  "v6 R4: a small targeted instruction delta (+1,622 bytes; one harmful rule removed, semantic scripts banned) recovered 14 findings with activations from 6. Removing a rule helped more than adding procedure.",
+  "v7 pilot 1 to 2: handoffs grew from about 7.5 KB to 1.1 MB so that nothing would be lost, yet lexical connections still disappeared in prose and a verse attribution error appeared (v7/README.md). Embedding bulk did not prevent loss.",
+  "v7 pilot 1 to 2: less structure and a shorter discovery prompt cost Luna its independent discovery (5 to 0 non-candidate findings; branch refs 46 to 1). For Luna, specific fields helped where free text hurt; v9 DESIGN later re-adopted 'specific, checkable fields'.",
+  "A whole-Quran layer delivered as bulk is ignored: a 541,861-byte connection registry got 0 citations (v7 pilot-2 global; my count).",
+  "Surah editorial-v1: S5's 120 editorials (about 3 MB per stage prompt) compress into a 4,733-word reading (my count). There is no verdict on what was lost.",
+  "Legacy Layer 3: a lean discover prompt (36 KB, activation cards only, blind to Layer 2) produced 46 hypotheses for S100 and 2,511 across 57 surahs. Lean input still yields abundant hypotheses; their quality has no recorded verdict.",
+  "A targeted surface instruction works: the editorial-v1 edit prompt cut defensive denials from 5.4 to 1.5 per 1,000 words (my count).",
+  "Exhaustive accounting of every card, member and hinge (S1 v3) produced catalogue prose that needed a separate integration follow-up (LEGACY_ORCHESTRATION.md:399-431)."
+ ],
+ "luna_evidence": [
+  "Good (gpt-5.6-luna max): saved source-grounded checkpoints when progression required them. R2 had 7 durable batch reviews before its first compaction and all 22 survived (rerun review).",
+  "Good: after the fixes, all 125 scheduled pages reached the agent intact (R3); distinct activation explanations rose to 26/26 (R2); the transitive ṣaddahum stayed transitive in composition (R3, R4).",
+  "Good: v7 pilot 1 found five non-candidate Quran parallels (46:26, 22:46, 46:24, 7:30, 7:146/41:17) when the prompt explicitly asked for uncandidate activations and the schema had specific fields.",
+  "Good: repaired its own invalid pointers (R1). In empirical resonance, Luna and Terra both refused unsupported science claims and rejected the 'forelock = prefrontal cortex' trope; Luna gave more concrete search leads than Terra (outputs/s096).",
+  "Bad: wrote semantic scripts (facet_for, narrowFinding); filtered tool outputs; used generic boilerplate; made false absence claims; treated registry labels as vetoes (NORTH_STAR: 'Luna's discovery gaps were instruction-fixable (a registry label treated as disqualifying)').",
+  "Bad: grammar errors (took the path as the object of ṣadda in R4; invented an intransitive core in R2); misdescribed context ayat 29:48 and 29:62; ignored truncation; crossed the lane boundary.",
+  "Bad at consolidation and synthesis: verse misattribution, lexical links lost in prose, grammar-walk and catalogue prose (v7 pilot 2). This fits NORTH_STAR: 'Luna follows worklists and discovers, but does not synthesize'.",
+  "Surah level: a Luna-6 S103 surah run was archived and the original restored (1d29b353f, 59d15a2b9). No reason or verdict is recorded.",
+  "Sol: authored translation stage 1 for S87 (gpt-5.6-sol); the legacy surah readings consumed Layer-2 v2 prose from Sol-high. No verdicts in scope.",
+  "Astra: the S1 v5 editorials (gpt-6-astra high) feed the S1 editorial-v1 surah reading. v11/compare_s001_v5.md credits the v5-level S1 surah material with water, gift and gestation chains.",
+  "Sonnet: S1 Layer-3 Sonnet lane (commit 46839e733) with 1,458 words of output. No verdict recorded."
+ ],
+ "pretraining_vs_data_evidence": [
+  "July rule: 'A true claim from outside the bundle is still a violation' (work/layer_3_channel_commentary/PRINCIPLES.md section 1). NORTH_STAR later replaced it with 'memory-only senses marked, never silently used'.",
+  "Empirical resonance: memory was forbidden for factual claims and no sources were supplied, so both models returned only 'unsupported' candidate hooks. Forbidding pretraining without supplying data yields nothing.",
+  "Translation: the cold test with no occurrence-gloss evidence reproduced canonical Turkish ('Bizi doğru yola ilet', 'kulluk eder'). With reviewed gloss evidence and error profiles pushed, v3 rendered 'Bizi sapmasız, düzgün yola yönelt; onu benimsetip ona erdir' and 'boyun eğerek tapınırız' (output/tr/s001.*.json). Pushed dictionary data moves output off the memorized canonical, but no rendering was accepted.",
+  "v6: facet data present in the packet was declared absent (R2 SOURCE_IMAGE). Pushed data is not used data.",
+  "v7 pilot 1's new parallels (46:26, 22:46, 46:24, 7:30, 41:17) were all supplied context in the packet. Inference: whether memory or the packet drove their selection is unknown; pilot 2, with the same packet, did not find them.",
+  "The S1 contamination shows doc-pushed worked answers steering output; the 1:6 baseline's data-derived findings (hediye 27:35, the q-w-m loanword family) were distinguishable only because they were absent from the docs (PLAN.md).",
+  "_channel/s001 draft: water-system data (network PF0024) was present, but the writer kept it marginal. Caution overrode the data, so the NS 'water that keeps the traveller alive' aha was muted.",
+  "Surah editorial-v1 forbids remembered interpretations and outside data, so its surah insight is bounded by what the v5 editorials carried."
+ ],
+ "reusable_artifacts": [
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_surah_commentary/v2/outputs/sNNN/{S.discovery-hypotheses.json,S.channel-briefs.json,S.surah-reading.tr.md}",
+   "what": "Legacy channel-first surah analyses. Hypotheses carry before/hinge/after, rhetoricalReach ayahRefs and activationCardRefs; briefs carry latentHinges (contribution, ayahRefs, sourceRefs to network cards), crossAyahOperation, readerShift and indispensableGain.",
+   "coverage": "57 surahs (S1, 5, 12-14, 17-19, 24, 31, 32, 35, 41, 42, 44-46, 48, 49, 51, 54, 56, 80-114); 2,511 hypotheses and 391 channel briefs (my count); copied to quran-data/data/commentary/surah/detailed/tr",
+   "reuse_idea": "Silver-labelled cross-ayah chain data: positive branch/ayah co-membership pairs for training or evaluating a quran-slm distance, and a seed list of surah images for NS4/NS12 without rediscovery."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_surah_commentary/v2/runs/editorial-v1/sNNN/tr/*/outputs/outline.json",
+   "what": "Surah movements (chains) with members (ayahRef, image, contribution, qualification), each anchored by exact spans of at least 6 words in the v5 editorials, plus primaryArc and ayahCoverage",
+   "coverage": "36 surahs / 909 ayat; 185 movements, 1,060 members (my count)",
+   "reuse_idea": "Q3 base: a script-checkable chain map built on v5. Also labelled examples of chain membership and an evaluation set for a retriever."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/outputs/archive/pre-layer2-v2-20260818/s087-channel-review/87.surah.channels.reviewed.json",
+   "what": "4 accepted channels, 21 members with QAC ref, root and branch IDs, 3 rejectedMotifs with reasons, and maturityByAyah (latent/emerging/mature/complete) with focusAyahShift_tr",
+   "coverage": "S87 only",
+   "reuse_idea": "The only realized progressive-disclosure plan (NS4); positive and negative membership labels."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/work/layer_3_channel_commentary/generated/bundles/*/*.channel.json and scripts/build_channel_bundle.py",
+   "what": "Reviewed network-v3 channels compiled with motifAnchorMap (root:branch/motif to exact QAC anchors), anchorInventory and primaryBranchMap",
+   "coverage": "S1, S87, S100, S103 built; the compiler works for any of the 110 reviewed surahs",
+   "reuse_idea": "A deterministic join from channel reviews to occurrences: feeds a script-based chain harvest or a distance model without an agent rediscovering chains."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v6/input/*/s029/29_38/*.packet.json; v6 outputs at git 68c70189f; v7 inputs in _commentary/v7/input and outputs at git e2aa970c9; _commentary/v6/reviews/*.md",
+   "what": "Frozen 29:38 packets (global 2.06 MB), discovery JSONs with 24 candidate decisions and reasons, and four reviews with itemized semantic errors",
+   "coverage": "29:38 only",
+   "reuse_idea": "A labelled failure set (false absence, wrong facet, invented activation, missed 41:17/46:26) for testing any new discovery method."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_translation/v1/{anchors/input,source,input,output,tools}",
+   "what": "Stage-0 anchor inputs (every rooted stem by every candidate root/branch, including split Furuq roots); primary seeds (S87 v4 with 13 resonances); stage-1 inputs with error profiles; TR/EN translations incl. cold/v2/v3 tests; build/assemble/check tools",
+   "coverage": "Anchors: S1, S87, S100:1-5, S103 (inputs also S100, S112). Translations: S1, S87, S103",
+   "reuse_idea": "Primary branch floor and error profiles for NS2 and NS1. build_anchor_input.py gives an exhaustive candidate inventory for any surah."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_channel/s001.draft.prose.md and s087.draft.prose.md",
+   "what": "Surah channel drafts with an evidence surface mapping claims to branch IDs and network PF ids",
+   "coverage": "S1, S87",
+   "reuse_idea": "Reference register for NS12 prose; explicit list of branches excluded as non-systemic."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_surah_commentary/v2/outputs/s001/1.surah-reading.evidence.tr.json and runs/v3/s001",
+   "what": "Span-level evidence map (channel, member and hinge to prose spans) for the prelude and postlude, plus failed attempts",
+   "coverage": "S1",
+   "reuse_idea": "Template for NS10 checkable surah prose."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_surah_commentary/v2/packets/sNNN/*.source-packet*.json",
+   "what": "Per-surah registries: Layer-2 v2 prose and evidence (Sol-high), network-v3 review, V11 report, activation cards",
+   "coverage": "58 packet files",
+   "reuse_idea": "Ready surah prefix material for a cached-prefix surah pass."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/work/hft-*/s100/100_{1,2}.ayah.json",
+   "what": "Bundles holding HFT outputs from four reader configurations (default, gpt-5.5 high, gpt-5.5 xhigh, gpt-5.6-sol xhigh)",
+   "coverage": "100:1-2",
+   "reuse_idea": "Measure HFT model sensitivity before relying on HFT as precomputed discovery."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/empirical_resonance/{SCHEMA,PROMPT,SOURCE_DISCOVERY_PROMPT,ORCHESTRATION}.md",
+   "what": "Contract for an empirical-support layer with strength labels and source gaps",
+   "coverage": "One test (96:15-16)",
+   "reuse_idea": "Optional later layer, only with a frozen source packet."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v7/validate_prose.py; _commentary/v6/discovery.py",
+   "what": "Format validator for {ar,tr,gloss} tags; a lossless pager with checkpoints (verified: 4,059 pages, 1,937,529 values)",
+   "coverage": "Generic",
+   "reuse_idea": "The validator for downstream-safe prose; the pager only as a mechanical worklist feeder, not as attention insurance."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/experiments/non-tiered-bundles/s012; _commentary/work/sNNN-nontier-bundles",
+   "what": "Full, non-tiered branch-payload bundles",
+   "coverage": "S12 (111 files); symlinks for S5, S17, S18, S19, S22, S24, S29",
+   "reuse_idea": "Unknown value: no tiered vs non-tiered verdict exists."
+  }
+ ],
+ "unharvested_ideas": [
+  {
+   "idea": "Layer 2.5 maturity overlays: progressive disclosure of surah chains inside ayah commentary (latent says nothing; emerging gives one hint; mature makes the shift visible; complete adds what the last member completes)",
+   "where": "_channel_integration/PROMPT.md; _channel/PROMPT.md section 5; work/layer_3_channel_commentary/scripts/check_channel_overlays.py and render_channel_preview.py; S87 maturityByAyah",
+   "why_dropped": "The S87 authoring pass was never run ('Residual Work', ADVERSARY_REVIEW.md); _channel was retired, then the surah workflow went editorial-only",
+   "potential": "High for NS4 (it matches the 1:6-to-1:7 road/traveller disclosure in 'ultimate goal.txt'); cheap once chains exist."
+  },
+  {
+   "idea": "Final surah reconciliation across reviewed plan, overlays and Layer-3 prose",
+   "where": "_surah_final/PROMPT.md",
+   "why_dropped": "Never run; depended on overlays",
+   "potential": "Medium: keeps surah prose and ayah disclosures consistent."
+  },
+  {
+   "idea": "Revised channel-first discovery: an image-deletion test (a theme that survives deleting its images is rejected), concrete image systems with at least 2 distributed signals, blind to ayah prose",
+   "where": "_surah_commentary/v2/prompts/01-04; LEGACY_IMPLEMENTATION_STATUS.md",
+   "why_dropped": "'No new semantic S1 discovery ... has been run with the revised prompts'; replaced by editorial-only",
+   "potential": "High for Q4: surah-first discovery is structurally different from the ayah-first v3-v15 pipelines."
+  },
+  {
+   "idea": "Pericope compression layer 2P for long surahs",
+   "where": "PLAN.md D-c",
+   "why_dropped": "Not implemented; editorial-v1 feeds whole snapshots (S5 about 3 MB per stage)",
+   "potential": "Medium for NS12/NS13 on long surahs."
+  },
+  {
+   "idea": "Consume translation stage-0 resonances downstream; re-seed S1 and S103 to v4 ('re-seeding recovers up to 83 rejections for S1 and 62 for S103')",
+   "where": "_translation/v1/README.md D4; STATUS.md 'Cross-cutting gaps'",
+   "why_dropped": "No downstream consumer was built",
+   "potential": "Medium: a per-occurrence primary/resonance map is a cheap discovery seed for NS3/NS7."
+  },
+  {
+   "idea": "Feed the gloss error profiles (loses, adds, collision) into the commentary writer for 'what Turkish loses'",
+   "where": "dictionary gloss results via _translation/v1/input/tr/*.json selectedBranchEvidence",
+   "why_dropped": "The per-word gloss product was split off to the translation app (NORTH_STAR)",
+   "potential": "High for NS2 at near-zero cost: the data already exists per branch."
+  },
+  {
+   "idea": "Empirical-resonance source-discovery pass with frozen external sources",
+   "where": "_commentary/empirical_resonance/SOURCE_DISCOVERY_PROMPT.md",
+   "why_dropped": "Draft status; the only test had no sources, so every hook was 'unsupported'",
+   "potential": "Low for the NS; optional reader layer."
+  },
+  {
+   "idea": "Multi-field discovery schema with an explicit uncandidate-search instruction",
+   "where": "v7 pilot-1 prompt (git 8909d7857 _commentary/v7/prompts/discovery.md:43-45)",
+   "why_dropped": "Replaced by the single-explanation schema in pilot 2",
+   "potential": "Evidence that Luna discovers beyond the docket when asked with structure; v9 later re-adopted specific fields."
+  },
+  {
+   "idea": "Very short surah brief: read v11 and network/v3, write prose that reveals the shifting latent findings",
+   "where": "_commentary/surah/v1/PROMPT.md",
+   "why_dropped": "Unknown whether it was ever run; superseded by multi-stage Layer 3",
+   "potential": "A cold-brief surah arm, analogous to the successful cold ayah arm (inference)."
+  },
+  {
+   "idea": "HFT reader-model sensitivity comparison, and the tiered vs non-tiered bundle experiment",
+   "where": "_commentary/work/hft-*; _commentary/experiments/non-tiered-bundles",
+   "why_dropped": "No recorded verdict in scope",
+   "potential": "Would tell whether precomputed HFT and dictionary tiering are stable inputs."
+  }
+ ],
+ "key_lessons": [
+  "Q1: Surah-level work is largely unharvested. 57 legacy and 36 editorial-v1 surah readings exist (93 in total, with chain-level JSON), yet no semantic verdict on any of them is recorded, and the progressive-disclosure design (Layer 2.5) was never run.",
+  "Q1/Q4: The one structurally different design in scope is surah-first. It discovers channels across the whole surah from a lean card list (36 KB for S100, blind to ayah prose), then plans per-ayah disclosure. It was abandoned for workflow reasons, not because it failed on quality.",
+  "In v6 and v7, every added mechanism (lossless paging and checkpoints; 1 MB verbatim handoffs; exhaustive accounting) fixed transport or accounting but not selection or interpretation, and the reviews say so explicitly. Removing a harmful rule (the core/extension gate) helped more than any procedure added.",
+  "Luna's failures in scope were shortcuts under load: semantic scripts, filtered reads, generic fields, registry-label vetoes. Each was instruction-fixable, but new ones kept appearing. Its independent discovery appeared only with an explicit ask plus structured fields (v7 pilot 1). Consolidation and synthesis by Luna introduced factual drift.",
+  "Q2a: Pushed dictionary evidence visibly moved translation off the memorized canonical, and pushed context enabled the QeQ parallels. But bulk-pushed data was often not used: SOURCE_IMAGE facets declared absent, 0 of a 542 KB connection registry cited. A no-memory rule without data produced nothing (empirical resonance).",
+  "Q2b: Silver labels exist at scale: 2,511 hypotheses and 391 briefs (57 surahs), 185 movements and 1,060 members (36 surahs), S87 accept/reject membership with a maturity path, 29:38 failure labels, and translation primary/resonance anchors for 4 surahs. All are model-generated; the only human endorsement is the owner's acceptance of the network-v3 channel reviews (REVIEW_AUTHORITY.json).",
+  "Q3: A step on top of v5 already exists and ran for 36 surahs (editorial-v1). Its hard ceiling is that it may use only v5 editorials, so it cannot recover what v5 dropped (NORTH_STAR: 'An editor cannot recover findings rejected upstream'). A v5-based step should re-admit chain sources such as the compiled channel bundles and legacy hypotheses as data.",
+  "Q5: motifAnchorMap (root:branch/motif to QAC anchors), legacy activationCardRefs per hypothesis, editorial-v1 member ayahRefs and S87 rejectedMotifs together give positive and negative co-membership pairs for evaluating a quran-slm distance. The evidence that the global lane ignores bulk connection rows argues for script-ranked short worklists, not bulk registries.",
+  "Evaluation hygiene: S1 is contaminated by worked answers in the docs (PLAN.md), yet NORTH_STAR tests still name Fatiha. S100 was the designated clean surah-level test (running horses)."
+ ],
+ "open_questions": [
+  "Which model produced the 57 legacy surah readings and the 36 editorial-v1 readings, and at what cost? Neither is recorded.",
+  "Has the user read any surah reading in scope (legacy, S1 v3, editorial-v1, S87 channel prose)? No verdict was found.",
+  "Why was the S103 Luna-6 surah run archived and the original restored (1d29b353f, 59d15a2b9)? The reason is unrecorded.",
+  "Is v7 pilot 1's independent discovery reproducible, or was it single-run variance? The schema change and the prompt change were confounded.",
+  "Would S87-style maturity overlays produce the disclosure the user describes for 1:6 and 1:7 without cluttering ayah prose? Never tested.",
+  "Did the tiered vs non-tiered bundle experiment (S12) or the HFT reader-model variants (100:1-2) yield a verdict? Nothing in scope.",
+  "For translation, is the v3-gloss rendering ('yöneltip benimseterek erdir') acceptably non-disorienting (NS1) while carrying the loss (NS2)? No acceptance was recorded.",
+  "What $ per ayah did v6 and v7 Luna runs cost at API prices? Only token totals exist (12.6M-34.1M cumulative input per lane)."
+ ]
+}

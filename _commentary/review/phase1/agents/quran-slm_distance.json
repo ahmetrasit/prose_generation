@@ -1,0 +1,535 @@
+{
+ "how_built": "RECORDED IN FILES (quran-slm, built 2026-07-19..22; howto.md §5-6; src/quran_slm/corpus_network.py:269-275, :884-896; corpus_underlay.py:613-675; dense_profiles.py:150-165; artifacts/corpus_network/build_report.json; artifacts/corpus_ensemble/manifest.json).\n(1) Nodes = dictionary BRANCH CARDS, not words or occurrences. Quran catalog = 10,932 cards / 1,696 roots (artifacts/corpus_network/catalog.json; README \"Global Network Catalog Status\"); expanded Quran+Furuq catalog = 18,785 cards / 3,329 roots (artifacts/furuq_full_network). Catalog order is hash-bound to the rank maps (catalog sha256 b6bc2400...).\n(2) Card text = only three Arabic fields: branch_image_ar + what_is_ar + source_phrase_ar, Latin metadata stripped, joined as \"passage: <image> [فصل] <definition> [فصل] <phrases>\" (corpus_network.py:269-275). English, tafsir, translations, Qnet keywords and gold findings are excluded from construction (README; howto §1). My count: card median 280 chars (p90 445, max 970); 66% of characters are classical source phrases; median 4 dictionary citations per card (card_stats.py).\n(3) Three signals, each turned into a complete directional rank per card over all OTHER-ROOT cards (same-root cells = sentinel 0, i.e. excluded by design): (a) multilingual-E5-small (revision 614241f6..., 384-d, normalized, CPU); (b) Arabic character TF-IDF, analyzer=char, ngram 3-5, min_df 2, max_features 200,000, sublinear tf, l2, on diacritic-stripped normalized text (build_report.json identity.character_vectorizer); (c) NeoAraBERT (U4RASD/NeoAraBERT rev 36ca991e, 768-d, attention-mask mean pooling, max 1,024 tokens; no fine-tuning; Apple-MPS compat shim). Ranks stored as uint16 N×N row-major memmaps (239,017,248 bytes each for N=10,932; 705,752,450 for 18,785). Build times: baseline 184 s (CPU), Neo overlay ~601 s (MPS); expanded 318 s / 1,004 s (howto §10-11).\n(4) Fusion at query time: A(i,j)=0.5·[1/(10+r(i→j)) + 1/(10+r(j→i))] per signal (symmetric reciprocal rank, offset 10); baseline B=0.70·A_E5+0.30·A_char; Neo component N=0.70·A_Neo+0.30·A_char; selected S=0.5B+0.5N = 0.35 E5 + 0.35 Neo + 0.30 char (howto §6). Raw embeddings never concatenated.\n(5) Weight provenance: the 70/30 dense/char split is \"an S1 feasibility calibration, not a held-out estimate\": equal weighting moved the sealed S1 water terminal to rank 14; E5 weights 0.70-0.80 pass, ≤0.675 miss the terminal, ≥0.825 miss the pulley; offsets 10-100 pass, 5 fails (experiments/s1_sequence_explorer/README.md:112-116). The Neo 50/50 blend was chosen by a frozen replay (31 transitions, 6 paths, S1/S48/S100/S103) plus a 3-reviewer blind Arabic-only review; \"equal component weights not searched\" (reports/dense_model_bakeoff.md; ensemble manifest calibration_status).\n(6) Surah views (114): select the surah's activated branches (QAC root occurrences → canonical branch roots, supplemental/additive ledgers) and restrict each global total order to that subset, compressing gaps to local ranks; the stored s###/affinity.npy is the fused local affinity (corpus_underlay.py:613-654; surah_networks_global_ensemble/s001/build_report.json: 144 branches, 18 roots, 23 root activations, 0 additive activations). Union of views = 10,600 branches / 1,635 roots; 328 branches of 61 roots are global-only (no occurrence row) (dense_model_bakeoff.md). Alternative/qirāʾāt roots (e.g. س ر ط, و ل ه) are absent from the Quran catalog and exist only as furuq:root_003172 / root_005296 in the expanded catalog, so no surah view can activate them (my check).\n(7) Path policy (separate from the network): top 10 per target ayah, same/forward/backward moves, skip_n=1, ≥3 distinct ayat per finding, no maximum length (catalog policy; howto §1).\n(8) Ayah-level sibling network (reports/ayah_semantic_map_v1.md): 6,236 ayah nodes, same three encoders on whole-ayah text, raw and length-z directional ranks, navigation fusion 0.35/0.35/0.30 (length-z rejected); branch-potential projection (smooth-IDF root mass spread uniformly over all branches; separate exact-root lens because the branch network excludes same-root pairs); segment/coverage prototype; channel network of 469,818 witness routes in nine lenses (v12 grades, reviewed subchannels/parents/bridges, cross-surah exact-branch resonance).\n(9) Consumers build on it: latent_activation network/v3 mines top_k=10 ego clusters and sparse role-progressive paths on each surah's local affinity (edge floor quantile 0.35, ≥3 roots, adaptive ayah span; S1: 921 graph edges, 134 raw → 70 deduped candidates; corpus: 89,199 dense candidates, 11,572 families, 4,157,715 sparse paths, 457,281 path families), Qnet labels attached only afterwards, then one LLM reviewer per surah writes reader_a_pilot.md from a bundle holding ALL surah branches plus the rank-mined families/paths (network/v3/README.md; REVIEW_ORCHESTRATION.md; experiments/corpus_neo_adaptive/s001/summary.json).\nv15 instead built a Luna scene index (not a distance): 142-scene closed inventory in 42 domains, each branch → 1-4 scenes with a role; 193 Luna jobs (5.58M input tokens, 2.19M cached, 2.44M output; out/ledger.jsonl), 11,425 tagged items, 4,645 distinct (scene, role) pairs, 995 new-scene proposals; \"scene lines\" list the words of a passage whose branches share a scene, ordered by distinct words then roles, order only (v15 DESIGN.md §3; build.py:453-555).",
+ "measured_results": [
+  {
+   "claim": "Recorded: the selected Neo blend is the best robust first-order retriever tested: 31/31 replay transitions kept, mean accumulated rank 3.742 → 2.968, S1 pairwise diagnostic 0.8333 → 0.8519 (lift over matched null 0.0914 → 0.1019), 5/5 topology-eligible three-ayah gold channels; in blind review NeoAraBERT 6/6 coherent seeds with 5 strong chains, blend 6/6 with 4, baseline 5/6 with 3. Jina retrieval best single model in blind review but lost 2 transitions.",
+   "evidence": "quran-slm/reports/dense_model_bakeoff.md (Mechanical results table; Blind Arabic-only review table)"
+  },
+  {
+   "claim": "Recorded: the bakeoff's own verdict is that no embedding turns pairwise similarity into higher-order coherence; the experiment does not establish a semantic precision rate (unselected candidates never labelled; chain yield saturated).",
+   "evidence": "dense_model_bakeoff.md 'What the experiment establishes': 'no tested embedding converts pairwise similarity into higher-order coherence by itself'"
+  },
+  {
+   "claim": "Recorded (S1 feasibility, s1_ar3_v1): 200 frozen paths → 195 accepted → 122 finding clusters, 71 with an inclusive gold relation; but only 12/26 eligible gold items recovered inclusively (46.15%), 7/26 strictly; G009 and G003 absorb 63/86 (73.3%) of cluster-gold relations; exact anchors for 20/26 items exist in the 14,857-path materialized index but only 6/26 reach the frozen top 200. Verdict: 'no-go for naive 10,820-node scaling of this ranking and selection treatment'; a selection/diversity bottleneck, and some relations (contrast, complementary scene roles, coalitions like G023's six water anchors) may need higher-order composition.",
+   "evidence": "quran-slm/reports/s1_ar3_v1_feasibility.md (Verdict; Final counts; Concentration; Preliminary root-cause analysis items 2-4)"
+  },
+  {
+   "claim": "Recorded: closed-set inflation: of 2,880 closed-S1 top-20 neighbours only 436 (15.14%) stay in the global top 200; median global rank 1,291.",
+   "evidence": "s1_ar3_v1_feasibility.md 'Construction and search'"
+  },
+  {
+   "claim": "Recorded: accumulated (set-conditioned) context rescues scene members that pairwise rank misses: S1 water path ranks 6,1,1,8,10 (E5-only misses the pulley at 16, char-only misses the غ ي ر closure at 19); S48 last-only ranks 52, 76, 17 lifted to accumulated 1, 3, 1; S100 raid path accumulated 1,1,1,1,2,8,1.",
+   "evidence": "experiments/s1_sequence_explorer/README.md (signal table); reports/surah_transfer_pilots.md (S48, S100 rank lists)"
+  },
+  {
+   "claim": "Recorded: supervised metric learning on S1 alone did not generalise: capacity fit 100% Recall@10 on 54 memberships, but branch-held-out 9/54 (attention) or 16/54 (regularised metric) Recall@10 with mean rank no better than frozen E5, and root-group-held-out 5/54 (mean rank 43.91 vs E5 43.44): 'the relevant disambiguation check, and it fails'.",
+   "evidence": "quran-slm/experiments/s1_conditional/README.md 'Frozen prototype result'"
+  },
+  {
+   "claim": "Recorded: prose_generation v9's typed ayah network on 29:38 found 17/19 cold-Opus links by strong edges (shared Quranic lemma in branch text, dictionary neighbour relations, sound, form, frame); the quran-slm 'img' edge type was 'Weak: extends, never makes'; k=5 added ~900 image edges and +60% triangles with no new gold, k=8 turned 2 misses into weak links at 2.2× edges; kept k=3. The night link عشو B006 → بيت B001/B004 ranked 399/371 in the image network ('a shared component (night), not image similarity').",
+   "evidence": "_commentary/v9/DESIGN.md:359-440 (esp. :381, :397-398) and :121"
+  },
+  {
+   "claim": "Recorded: v15 dropped the matrices: 'Similarity is not scene... known scene partners rank anywhere from 2 to 92... The distance finds a scene only when the definitions name it (a race: rank 5)'; v15 STATUS lists the distances as 'noise' ('they find near-synonyms, not scenes; at most a list of contrasts for the Turkish layer').",
+   "evidence": "_commentary/v15/DESIGN.md:29-35; v15/STATUS.md:54-56 and the 'Other data' table row"
+  },
+  {
+   "claim": "My check (reproduces the v15 claim): in the S1 local view (144 branches; each source has 124-142 cross-root candidates), eligible S1 gold-ledger anchor pairs (62 pairs, 26 records) have best-direction local rank median 9.5, min 1, max 133; 20/62 within top 3, 32/62 within top 10. Globally (10,932 cards) the fused rank median is 358.5; only 6/62 within top 10, 20/62 within top 100, 38/62 within top 1,000.",
+   "evidence": "scratchpad/phase1/distance/gold_ranks.py → gold_ranks.json"
+  },
+  {
+   "claim": "My check: pairs whose definitions share object vocabulary rank close; complementary roles rank far. Close: م ل ك B006 road-middle ↔ ص ر ط B001 road local 1/2; ر ب ب B013 abundant water ↔ ع ل م B005 water-rich well 1/1 (global 1/1); م ل ك B008 lead animal ↔ ه د ي B003 'what goes first' 1/1 (global 1/1); م ل ك B002 ownership ↔ ع ب د B001 slavery global 2/2. Far: ح م د B002 'finding a place praiseworthy' ↔ road 133/136; ن ع م B011 pleasant halt ↔ road 116/98; ن ع م B012 going on foot ↔ road 97/89; rain-water ر ب ب B013 ↔ pulley frame ق و م B012 64/81 (global 6,654/7,863); rain ر ب ب B013 ↔ غ ي ر B001 watering 41/91; wild-ass herd ع و ن B006 ↔ sanctuary animals ه د ي B005 95/104; contrasts G014 standing ↔ disappearing 33-82 and G015 womb softness ↔ rock hardness 21-68.",
+   "evidence": "gold_ranks.py output (per-pair e5/char/neo/fused/local ranks)"
+  },
+  {
+   "claim": "My check with v15's own Luna scene members in S1 (local view): travel.route best-direction ranks min 1, median 18.5, max 107 (e.g. ع ب د B010 fork ↔ ق و م B008 road 111/105; ه د ي B003 guide ↔ ق و م B008 120/104); water.well min 1, median 8.5, max 85 (pulley ↔ beam 1/1, abundant water ↔ beam 85/112); pastoral.herding min 1, median 7, max 112 (fold ر ب ب B007 ↔ herd ع و ن B006 122/112); alt-root members (س ر ط, و س م, و ل ه) cannot be ranked at all because the S1 view lacks them.",
+   "evidence": "scratchpad/phase1/distance/s1_scene_local.py"
+  },
+  {
+   "claim": "My check: top-3 local lists admit generic or lexical-echo partners: ع ل م B002 waymark → ر ب ب B003 'علم رباني' (the word علم appears in its definition) and س م و B001 'elevation'; ق و م B012 pulley frame → ص ر ط B003 cutting sword and ر ب ب B010 arrow-bundle; ض ل ل B005 stray → ن ع م B006 ostrich.",
+   "evidence": "gold_ranks.py 'Top-3 local partners' output"
+  },
+  {
+   "claim": "My check (whole Quran, 1,500 sampled sources, Luna tags as labels, concrete scenes only): fused top-10 neighbours are 35.1% same-scene-same-role (random expectation 0.78%, ≈45× enrichment) vs 28.0% same-scene-other-role (expectation 4.18%, ≈6.7×) and 33% no shared concrete scene. Same-role partners median rank 840 (4.1% in top 10); other-role scene partners median rank 2,703 (0.6% in top 10, 5.2% in top 100). AUC for ranking an other-role scene partner above a random non-scene card: 0.702. This quantifies 'near-synonyms close, scene parts far'.",
+   "evidence": "scratchpad/phase1/distance/scene_vs_rank.py"
+  },
+  {
+   "claim": "My check: card bundling dilutes scene partners: 80% of branches carry 2-4 Luna scenes (2,270 one, 4,105 two, 3,629 three, 1,318 four); other-role scene partners of two single-scene cards have median rank 1,329 (17% in top 100) vs ~2,700-2,800 (5% in top 100) when the pair carries 5-6 scenes. Example: ق و م B012's card bundles the well pulley (القامة البكرة التي يستقى بها الماء) with sword hilt, bed legs, animal legs and plough handle.",
+   "evidence": "card_stats.py; dilution.py; resources/source/corpus_branches_ar.tsv row quranic:root_001273:B012"
+  },
+  {
+   "claim": "My check (independent labels): v12 strong-finding cross-root branch pairs have median global fused rank 1,692 (2.9% in top 10, 9.9% in top 100, 36.7% in top 1,000); weak 1,949; REJECT pairs 1,959 (2.7%/10.0%/36.3%); random 4,684. The distance separates co-activated pairs from random but does not separate accepted from rejected readings.",
+   "evidence": "scratchpad/phase1/distance/v12_pairs.py (30,475 strong / 8,443 weak / 479 reject cross-root pairs in the Quran catalog)"
+  },
+  {
+   "claim": "My check (independent labels, key positive result): used as a CONDITIONAL branch selector (given branch a of word X that a v12 reader co-cited, pick the co-cited branch among all branches of word Y's root, ≥3 branches), the fused similarity reaches MRR 0.540 (non-B001 targets 0.497; latent-latent pairs 0.503) vs random 0.145; components: Neo 0.558, char 0.481, E5 0.456; Qnet keywords 0.392; Luna domain 0.335, Luna scene 0.311, Luna other-role 0.296; dictionary neighbour link 0.253; B001-first prior 0.677 overall but 0.360 on non-B001 targets. An untuned sum of scene+slm+dict (0.526) did not beat slm alone.",
+   "evidence": "scratchpad/phase1/distance/branch_choice_eval.py and branch_choice_sub.py (12,000 cases; 49.5% of targets are B001)"
+  },
+  {
+   "claim": "My check: channel-review subchannel pairs (the network-v3 reviews built on these ranks) are much nearer in the same affinity than Luna scene pairs: 16,733 cross-root pairs in 96 surahs, best local rank ≤10 for 44.1% (median relative rank 0.050) vs Luna same-scene pairs 18.2% (0.177) vs random pairs 4.1% (0.435).",
+   "evidence": "scratchpad/phase1/distance/review_circularity.py"
+  },
+  {
+   "claim": "My check: where definitions name the shared object the distance does find the scene: S100 raised dust نقع B004 ↔ ثور B001/B002 local 1/1, 2/2; stirring earth ثور B002 ↔ overturning graves بعثر B001 (100:9) 1/1; بعثر B001 ↔ extracting kernel حصل B002 (100:10) 4/1; S29 second horse in a race ص ل و B006 ↔ precedence س ب ق B001 local 6/12 of 1,809 (v15 recorded 5). But running ع د و B002 ↔ dust 75-104 of 161, and the prayer branch ص ل و B003 ↔ س ب ق B001 639/572.",
+   "evidence": "scratchpad/phase1/distance/race_raid.py"
+  },
+  {
+   "claim": "My check: branch-level hubness of the dense signals: top-10 in-degree Gini E5 0.578 (max 282, 786 cards never in anyone's top 10), Neo 0.556 (max 253, 1,013 never), char 0.345 (max 87, 59 never); hubs are generic cards (خ م ر B010 'like vinegar and wine' 282 in E5; ر و د B001 'will' 253 in Neo).",
+   "evidence": "scratchpad/phase1/distance/hubness.py"
+  },
+  {
+   "claim": "Recorded (ayah level): raw three-signal navigation graph in-degree Gini 0.199, max 60, in-degree/length Spearman +0.0003; length-z calibration rejected (Neo max in-degree 211 → 1,176). 1:6 navigation neighbours 37:118, 26:182, 36:4, 23:73, 22:24.",
+   "evidence": "quran-slm/reports/ayah_semantic_map_v1.md 'Length and hubness result'"
+  },
+  {
+   "claim": "My check (ayah level vs recorded cold-arm parallels): for 5:6 the navigation map ranks 5:89 same-surah #1, 5:11 #2, 5:91 #6, 4:43 global #1, 2:185 #2, but 5:97 (qiyāman, the North Star's kaʿb → Kaʿba link) same-surah #59 (global 1,254), 5:8 #21, 35:10 global 787. For 4:34: 4:19 #3, 4:128 #10, 4:129 #15, 4:3 #26, 4:36 #31, 4:5 #48, 4:130 #102, 4:81 #114, 2:238 global 249. v15 recorded a rarer-root-overlap dry ranking with 5:97 #6, 5:89 #14, 5:91 #16, 5:8 #22 and 4:128 #3, 4:129 #6, 4:19 #19, 4:3 #30, 4:90 #45, 4:81 #72, 4:130 #115: the two are complementary.",
+   "evidence": "scratchpad/phase1/distance/ayah_parallels.py; v15/STATUS.md 'Other data' table (Parallels list row); v15/DESIGN.md §11 cold-arm list"
+  },
+  {
+   "claim": "Recorded: the feedback reranker pilot (inter-ayah review labels, held-out surahs) found static source-only features improve log loss over the prior by 0.227 (CI 0.137-0.324; all 8 surahs positive), NDCG@20 0.745 → 0.853 on reviewed sets; approved only for prioritising a high-recall union, never for excluding ayat.",
+   "evidence": "quran-slm/inter-ayah/feedback_reranker/FEASIBILITY_PILOT.md §12"
+  },
+  {
+   "claim": "My check: Luna same concrete scene covers 33/62 S1 gold pairs, same concrete domain 48/62, slm local ≤10 32/62; scene-or-slm 43/62, domain-or-slm 51/62. Neither covers contrasts (G014, G015), the ring G013, worship G012, time/debt G010, herd care G004, stray/owner G008.",
+   "evidence": "scratchpad/phase1/distance/gold_scene_cov.py"
+  },
+  {
+   "claim": "My check: a naive shared-mention signal (tokens in card text matching another root's Quranic lemma, IDF-weighted) covers 98.3% of cards (median 5 mentioned roots) but is noisy (function words such as على map to ع ل و, 2,532 cards); with a stoplist (df>400) and tie-fair ranks it places 17/62 gold pairs in local top 10 (40 pairs score 0) and adds 3 pairs beyond slm (either ≤10: 35 vs 32); it puts pulley ↔ well (shared بئر, ماء) at rank 1 vs slm 7/17.",
+   "evidence": "scratchpad/phase1/distance/mention_graph.py, mention_graph2.py"
+  }
+ ],
+ "limitations": [
+  {
+   "claim": "The metric is similarity of whole card texts, so it encodes 'same kind of thing / same role' (near-synonymy) rather than 'parts of one scene / roles in one process'; complementary roles described in different vocabulary rank far.",
+   "evidence": "scene_vs_rank.py (same-role ≈45× enrichment in top-10 vs other-role ≈6.7×; other-role partners median rank 2,703); gold_ranks.py (pulley ↔ rain-water 64/81 local, 6,654 global)"
+  },
+  {
+   "claim": "Same-root pairs are excluded by construction (sentinel 0), so the distance cannot express a root's branches as facets of one concept (NS7 integration), same-root Quranic recurrence (NS5: ḥamaʾ, nafakha), or word-level echoes like kaʿbayn (5:6) ↔ al-Kaʿba (5:97); the ṣalāh 'second horse' reading needs a cross-root trigger to reach a non-primary branch of the word's own root.",
+   "evidence": "howto.md §2 'Same-root branches use zero as an exclusion sentinel'; ayah_semantic_map_v1.md 'Exact-root recurrence is a separate lens because the branch rank underlay intentionally excludes same-root pairs'; race_raid.py"
+  },
+  {
+   "claim": "No representation of contrast/antonymy/complement: S1 contrast gold (G014 standing vs disappearing, G015 soft vs hard) ranks 21-82 locally; v9 needed a complement table (ليل/نهار/صبح) for 29:37.",
+   "evidence": "gold_ranks.py; _commentary/v9/DESIGN.md:395, :406"
+  },
+  {
+   "claim": "One vector per multi-sense card: 80% of branches belong to 2-4 scenes, and multi-scene pairs rank farther (median ~2,700 vs 1,329 for single-scene pairs).",
+   "evidence": "card_stats.py; dilution.py"
+  },
+  {
+   "claim": "Weights were calibrated in-sample on the S1 water path (70/30), and the Neo blend was selected on S1/S48/S100/S103 replays; S1 results for the current metric are development numbers, not held-out.",
+   "evidence": "experiments/s1_sequence_explorer/README.md:112-116; dense_model_bakeoff.md 'Frozen protocol'"
+  },
+  {
+   "claim": "Global retrieval is poor for independent reading pairs and indifferent to reading quality: v12 strong pairs median global rank 1,692 (63% beyond 1,000); reject pairs rank the same.",
+   "evidence": "v12_pairs.py"
+  },
+  {
+   "claim": "Surah views omit alternative/qirāʾāt roots (س ر ط, و ل ه absent from the Quran catalog; S1 view has 0 additive activations) and 328 branches of 61 roots without occurrence rows.",
+   "evidence": "surah_networks_global_ensemble/s001/build_report.json (additive_root_activation_count 0); my catalog check; dense_model_bakeoff.md (328 global-only branches)"
+  },
+  {
+   "claim": "Dense-signal hubness: 786 (E5) and 1,013 (Neo) cards never appear in any top-10; generic hubs recur in top lists.",
+   "evidence": "hubness.py"
+  },
+  {
+   "claim": "Downstream use as a top-k graph prunes implicitly (network v3 top_k=10 ego graph with an edge floor at the 0.35 affinity quantile; v9 kept k=3), which cuts against 'labels order, never filter' unless every candidate stays reachable.",
+   "evidence": "latent_activation/network/v3/experiments/corpus_neo_adaptive/s001/summary.json parameters; _commentary/v9/DESIGN.md:397-398"
+  },
+  {
+   "claim": "The distance says nothing about the Turkish-loss layer (NS2) or QeQ axes (NS6); at ayah level, text similarity misses word-level parallels (5:97 at same-surah #59 for 5:6) and phrase echoes (4:90/4:81/4:130 for 4:34).",
+   "evidence": "ayah_parallels.py; v15/STATUS.md parallels row"
+  },
+  {
+   "claim": "The Luna scene index that replaced it has its own defects: 704 added scene ids (587 used by one branch; 494 branches only in added scenes, so they can never join a coalition), 11 roots with duplicate B-numbering (incl. ق ر ء), an inventory written by someone who knew the North Star examples, and dilution when pushed as lists (far-scene lists +189-216k characters per packet without limits). It is also weak at choosing among a root's branches (MRR 0.31 vs slm 0.54).",
+   "evidence": "v15/SUMMARY.md 'Scattered scenes'; v15/STATUS.md:110-128, :160-184; v15/DESIGN.md:72-75; branch_choice_eval.py"
+  }
+ ],
+ "downstream_consumers": [
+  "latent_activation/network/v3 (run_corpus_candidates.py, discover_surah_channels.py, assemble_semantic_paths.py, consolidate_*): reads quran-slm/artifacts/surah_networks_global_ensemble/s###/affinity.npy + catalog.json; outputs latent_activation/network/v3/experiments/corpus_neo_adaptive/s001..s114 (89,199 dense candidates, 11,572 families, 4,157,715 sparse paths, 457,281 path families) → review_bundle.json → reviews/s###/reader_a_pilot.md (110 surahs)",
+  "quran-data/data/analysis/channels/network-v3/sNNN/ (candidates, families, paths, review/reader_a_pilot.md): byte-identical copies of the 110 reviews (my cmp: 110/110 identical); these are the 'channel reviews' the North Star says to build on",
+  "quran-slm experiments/ayah_branch_potential (branch ranks projected to ayah pairs) and experiments/ayah_channel_network (network_v1: 469,818 routes incl. reviewed-channel and cross-surah exact-branch lenses) → scripts/query_focus_ayah_atlas.py → inter-ayah/inputs/all/focus_ayah_S_A_cutoff_100.json (100-card dossiers, min 5 per lens) → inter-ayah/outputs/focus_S_A_cutoff_100.tsv (6,236 reviews, 923,267 rows) → quran-data/data/analysis/inter-ayah/ (+ reciprocal/ projection, 1,846,572 typed records)",
+  "quran-slm/inter-ayah/feedback_reranker (pair features over 2,244,600 focus-candidate pairs; 16,789 train / 3,767 validation rows; pilot result reports/feasibility_pilot_v1.json)",
+  "latent_activation/focus_trace/scripts/generate_pericope_packets.py (HFT pericope-lean packets S2-S79): selected_neo_refs uses ayah-level Neo ranks to nominate out-of-window orientation ayat; nominate_branch_potential_roots uses the branch-potential engine (lines ~602-720); packets are 'orientation_only', 'citable: False'",
+  "prose_generation/_commentary/v9/prepare.py:118-261 (memmaps the three global rank files; 03_pairs = top-3 partners by distinct root in same ayah / ±7 / surah; near-synonym contrast) and v9/network/network.py:472 ('img' edges)",
+  "prose_generation/_commentary/v10/retrieval.py and v10/evidence.py:147 (optional retrieval, 'never a semantic admission rule')",
+  "prose_generation/_commentary/v13/packet.py:180-185 and v14/packet.py:180-185 (pairs.md = compacted V9 03_pairs.md from _commentary/v9/input/v2/...)",
+  "prose_generation/_commentary/v11/verify_src.py and v11/seeds_input.py, v12/inputs.py (card list via v9 prepare/extra_names; not the ranks themselves)",
+  "quran-slm reports/s1_ar3_v1_* (historical 10,820-branch S1 build) and s1_conditional / s1_sequence_explorer / s1_openworld* experiments",
+  "prose_generation/_commentary/v15: does NOT use the matrices (DESIGN.md §2 'The matrices are not used'); uses its own Luna scene index under v15/data/frames and v15/data/scenes"
+ ],
+ "circularity_notes": "Derived from these ranks, hence unfair for evaluating a new distance (they favour whatever the current metric puts near):\n(1) Channel reviews (latent_activation/network/v3/reviews, 110 surahs; quran-data channels/network-v3 copies): candidates, families and sparse paths were mined from the surah-local fused affinity (top_k=10 graph). The reviewer saw all surah branches, and a <50% coverage check forced an underharvest pass, so reviewers could add non-rank associations (S1's review holds the well/pulley assembly), but subchannel co-members are strongly rank-biased: 44.1% of 16,733 cross-root pairs are local top-10 neighbours vs 18.2% for Luna scene pairs and 4.1% random (review_circularity.py). Usable only as a recall check with that bias stated, never as a neutral test.\n(2) The bakeoff replay set (31 transitions / 6 paths, S1/S48/S100/S103) consists of paths agents walked through the network itself: fully circular.\n(3) S1 gold ledger (32 records, 26 eligible; quran-slm/reports/s1_ar3_v1_gold_ledger.jsonl): built after the construction freeze from the user's S1 findings document (resources/evaluation/s1-bulgular-tr.md, i.e. latent_activation/s1-bulgular-tr.md), so the labels are independent. But the 70/30 dense/char weights were calibrated on S1's water path and the Neo blend was selected partly on S1, so S1 is in-sample for the CURRENT metric (still fair for a genuinely new metric not tuned on it). v15's scene inventory was 'written by someone who knew the North Star's examples' (v15 DESIGN.md:72-75), so S1/North-Star cases flatter the Luna scene index too.\n(4) Inter-ayah 100-card labels (623,600 ranked rows): candidate packages mix text, v12, branch-image (branch ranks) and reviewed-channel lenses, so labels exist only for items those lenses surfaced: partly circular for branch-derived metrics, strongly circular for the ayah text map. The 299,667 follow-up missing-ayah suggestions are less circular but still conditioned on the package.\n(5) HFT (90 surahs; focus_trace/runs): in-window inventories are complete (no pruning by ranks), but S2-S79 pericope-lean packets add out-of-window orientation ayat chosen by ayah-level Neo ranks and branch-potential roots: low-to-moderate coupling.\n(6) v9 03_pairs and v13/v14 pairs.md and anything assessed from them (v13 anchors on pairs-fed runs): rank-derived.\nIndependent of the ranks: v12 cross-run findings (packets built from dictionary and QAC, no quran-slm input; the only 'affinity' hit in v12/runs/*/full_context_packet.json is an English gloss); root-dossier groups (Luna from occurrences); dictionary neighbor_distinctions (candidates nominated from Qnet keyword/theme overlaps and siblings, then writer-verified: dictionary/v2/schema/README.md 'Arabic Neighbors'); Qnet keywords (LLM keyword incidence, excluded from quran-slm construction); Luna scene tags (from card text, Qnet keywords as hints); grammar attachments; QAC co-occurrence; qirāʾāt; v5/v8 29:38 catalogue; v9 29:38 cold-Opus links; v12 known answers; v14 regressions; recorded v15 cold-arm parallels. Shared-prior caveat: v12 readers, Luna and the channel reviewers are LLMs whose sense of coherence correlates with embedding similarity, so even 'independent' labels are not prior-free.",
+ "script_checks": [
+  {
+   "what": "Ranks of S1 gold-ledger anchor pairs (all 32 records; 62 eligible cross-root pairs) per signal and fused, global and S1-local; top-3 local partners of scene anchors",
+   "method": "memory-read the three u16 rank maps (E5, char, Neo); fused row = 0.35/0.35/0.30 symmetric RRF offset 10 over other-root cards; local rank from the stored s001 affinity.npy restricted to cross-root branches",
+   "result": "local best-direction median 9.5 (min 1, max 133; 20 ≤3, 32 ≤10); global fused median 358.5 (6 ≤10, 20 ≤100, 38 ≤1,000); v15's '2 to 92 among 124-141' reproduced (candidate counts 124-142)",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase1/distance/gold_ranks.py (output gold_ranks.json)"
+  },
+  {
+   "what": "Local ranks of v15 Luna scene members in S1 (road, well, rain, gathered water, herd, open land)",
+   "method": "imported v15 build.scene_members (read-only, bytecode writing disabled) and ranked every cross-root pair in the s001 view",
+   "result": "road median 18.5 (max 107), well median 8.5 (max 85), herd median 7 (max 112); alt-root members not rankable (absent from view)",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase1/distance/s1_scene_local.py"
+  },
+  {
+   "what": "Synonym vs scene-partner bias of the fused metric over the whole Quran catalog",
+   "method": "1,500 random tagged sources; categories from Luna concrete scene tags: same scene + same role vs same scene + other role only; top-10 composition vs expectation; AUC vs random non-scene cards",
+   "result": "top-10: 35.1% same-role (≈45× chance) vs 28.0% other-role (≈6.7×); other-role median rank 2,703; AUC 0.702",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase1/distance/scene_vs_rank.py"
+  },
+  {
+   "what": "Dilution of multi-sense cards",
+   "method": "other-role scene-partner ranks stratified by the pair's total number of concrete scenes (600 sources); card text statistics",
+   "result": "median rank 1,329 (2 scenes) → ~2,700-2,800 (5-6 scenes); 80% of branches have 2-4 scenes; cards median 280 chars, 66% classical phrases",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase1/distance/dilution.py; card_stats.py"
+  },
+  {
+   "what": "Do v12 finding grades separate in the distance?",
+   "method": "cross-root branch pairs from v12 finding_word_branches.v3.tsv (114 surahs) by grade; best-direction global fused rank; random baseline",
+   "result": "strong median 1,692, weak 1,949, reject 1,959, random 4,684; share ≤100: 9.9% / 8.5% / 10.0% / 0.9%",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase1/distance/v12_pairs.py"
+  },
+  {
+   "what": "Conditional branch choice: which signal picks the co-cited branch of the neighbouring word (v12 strong findings)",
+   "method": "12,000 cases (a → b, rank b among all branches of root(b), ≥3 branches, single target branch per finding); MRR per signal with tie-fair ranks; subsets non-B001 and latent-latent",
+   "result": "slm fused 0.540 (Neo 0.558, char 0.481, E5 0.456), Qnet 0.392, Luna domain 0.335, Luna scene 0.311, dict neighbour 0.253, B001 prior 0.677 (0.360 on non-B001), random 0.145; latent-latent (3,393): slm 0.503 vs random 0.131",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase1/distance/branch_choice_eval.py; branch_choice_sub.py"
+  },
+  {
+   "what": "Circularity of channel reviews as labels",
+   "method": "parsed '- Active motifs:' lines of 110 reader_a_pilot.md (96 surah views ≤2,500 branches), cross-root pairs, best local rank in each s### view, vs Luna same-scene pairs and random pairs",
+   "result": "≤10 for 44.1% (review) vs 18.2% (Luna scene) vs 4.1% (random); median relative rank 0.050 / 0.177 / 0.435",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase1/distance/review_circularity.py"
+  },
+  {
+   "what": "Named-case checks S29 race and S100 raid-to-graves",
+   "method": "local ranks in s029 and s100 views for ص ل و B006/B003, س ب ق B001/B004, ع د و, نقع B004, ثور, بعثر, حصل",
+   "result": "ص ل و B006 ↔ س ب ق B001 6/12 of 1,809; prayer branch 639/572; dust ↔ stirring 1/1; stirring ↔ overturning graves 1/1; overturning ↔ extracting kernel 4/1; running ↔ dust 75-104 of 161",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase1/distance/race_raid.py"
+  },
+  {
+   "what": "Branch-level hubness",
+   "method": "top-10 directional in-degree per signal over 10,932 cards",
+   "result": "Gini E5 0.578 / Neo 0.556 / char 0.345; never-in-top-10 cards 786 / 1,013 / 59",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase1/distance/hubness.py"
+  },
+  {
+   "what": "Ayah-level text map vs recorded cold-arm/v15 parallels for 4:34 and 5:6",
+   "method": "raw directional ayah rank maps (E5, Neo, char) + navigation fusion; global and same-surah rank",
+   "result": "5:6 → 5:89 s#1, 5:11 s#2, 5:91 s#6, but 5:97 s#59, 5:8 s#21, 35:10 g787; 4:34 → 4:19 s#3, 4:128 s#10, 4:81 s#114, 4:130 s#102",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase1/distance/ayah_parallels.py"
+  },
+  {
+   "what": "Luna scene coverage of S1 gold pairs; complementarity with slm",
+   "method": "gold anchor pairs vs Luna concrete scenes and domains",
+   "result": "same scene 33/62, same domain 48/62, slm ≤10 32/62, union with domain 51/62; contrasts and abstract relations uncovered",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase1/distance/gold_scene_cov.py"
+  },
+  {
+   "what": "Prototype shared-mention (component) signal",
+   "method": "card tokens matched to undiacritised Quranic lemmas of other roots (v15 data/lemmas.tsv), IDF-weighted shared mentions + direct mention; stoplist df>400 in version 2; tie-fair local ranks",
+   "result": "coverage 98.3% of cards; v1 median 12.5 / v2 17 of 62 gold pairs ≤10; adds 3 pairs beyond slm; pulley ↔ well rank 1",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase1/distance/mention_graph.py; mention_graph2.py"
+  },
+  {
+   "what": "Coverage of other independent signals",
+   "method": "QAC root co-occurrence (v15 words.tsv), consonant relations among catalog roots, qirāʾāt records, grammar attachments, dictionary neighbour relations, Qnet keywords, root-dossier map, inter-ayah labels, v12 findings",
+   "result": "74,185 root pairs co-occur in ≥1 ayah (16,750 in ≥3; 270,418 within ±3); 758 metathesis and 11,092 one-radical-substitution pairs among 1,648 triliteral roots; 3,812 qirāʾāt records on 2,969 words; 19,138 verb instances (4,941 with object roots; 2,531 verb-object root pairs), 58,427 attachments, 33,552 collocation rows; 29,912 neighbour relations (26,256 cross-root); Qnet 186,797 rows on 11,275 branches; root-dossier 25,203 occurrences / 123 roots; v12 12,807 findings",
+   "script_path": "/private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase1/distance/other_signals.py (plus inline python counts)"
+  }
+ ],
+ "available_signals": [
+  {
+   "signal": "Current fused branch similarity (E5 + Neo + char) and its components",
+   "source": "quran-slm/artifacts/corpus_network/*.u16le, corpus_ensemble/neoarabert_directional_rank.u16le; furuq_full_* for the 18,785 catalog",
+   "coverage": "10,932 Quran cards (18,785 with Furūq); surah views 10,600 cards",
+   "how_it_could_help": "Best measured conditional branch selector inside a word pair (MRR 0.54, Neo alone 0.558): use it to choose which branches of two context-linked words cohere, and as one weak edge type; contrast lists for NS2",
+   "independence": "Reference signal (the thing being replaced)"
+  },
+  {
+   "signal": "Luna scene tags with roles",
+   "source": "prose_generation/_commentary/v15/data/frames/out/*.json; inventory data/frames_inventory.json",
+   "coverage": "11,337-11,365 of 11,372 Quran-root branches incl. alt roots; 142 scenes + 704 added ids (587 singletons); 1-4 scenes per branch",
+   "how_it_could_help": "Only signal that marks complementary roles in one scene (well: water, well, pulley, beam); explains 'why near' in words; basis for coalition detection across words",
+   "independence": "Independent of ranks (built from card text, Qnet keywords as hints); inventory designed with knowledge of North Star examples"
+  },
+  {
+   "signal": "QAC root/lemma co-occurrence in ayat, windows, surahs",
+   "source": "quran-slm/resources/source/qac_root_ayah.tsv; v15/data/words.tsv; quran-data/data/morphology/qac.sqlite.gz",
+   "coverage": "49,967 rooted words, 1,642 roots, 6,214 ayat; 74,185 root pairs co-occur in ≥1 ayah, 270,418 within ±3",
+   "how_it_could_help": "Defines 'activation by neighbouring words' (NS3/NS4): candidate word pairs come from Quranic context, not from similarity; PMI across the Quran gives recurring partners (al-Khūlī induction)",
+   "independence": "Fully independent"
+  },
+  {
+   "signal": "Grammar co-argument frames and collocation profiles",
+   "source": "quran-data/data/grammar/attachments/{verb_instances,noun_instances,attachments,verb_valency_frames,noun_governing_patterns}.tsv; contextual/*_profiles_v2.tsv",
+   "coverage": "114 surahs; 19,138 verb instances (4,941 with object roots, 4,492 with prep-object roots), 30,353 noun instances, 58,427 attachments, 6,208 valency frames, 3,604 noun governing patterns, 33,552 collocation rows",
+   "how_it_could_help": "Typed 'roles in one process' within an ayah (agent/patient/prepositional: qawwāmūn ʿalā, aqāma aṣ-ṣalāh); verb-object pairs across the Quran give a word's recurring role (NS5)",
+   "independence": "Independent of ranks (grammar passes); root normalization differs (أ vs ء) and needs mapping"
+  },
+  {
+   "signal": "Dictionary neighbour distinctions (typed relations)",
+   "source": "quran-data/data/dictionary/tr/*_entry.json branches[].neighbor_distinctions",
+   "coverage": "11,472 of 11,773 branches; 29,912 relations (26,256 cross-root): near_neighbor 11,674, near_synonym 11,272, same_field 4,435, thematic 941, polarity_pair 678, synonym 549, antonym 229, other 134",
+   "how_it_could_help": "The only curated antonym/polarity edges (contrast readings G014/G015 type); v9 used them as strong 'rel' edges; near-synonym boundaries serve NS2",
+   "independence": "Candidates nominated from Qnet keyword/theme overlap and siblings, then writer-verified; not from quran-slm ranks"
+  },
+  {
+   "signal": "Classical-phrase and definition mentions (shared components)",
+   "source": "card fields in quran-slm/resources/source/corpus_branches_ar.tsv; full entries entry_text_clean in dictionary/data/output/root_packets (1,679 JSON)",
+   "coverage": "98.3% of cards mention ≥1 other Quranic root (median 5) in my naive tokenizer",
+   "how_it_could_help": "Links cards that name the same object (ماء, بئر, طريق, ليل) or name the other root: v9's strongest 'lex' edges (17/19 29:38 links with rel); rescues pulley ↔ well",
+   "independence": "Independent of embeddings, though it overlaps with the char n-gram signal; needs lemma normalization and a stoplist"
+  },
+  {
+   "signal": "Qnet branch keywords (English core/bridge)",
+   "source": "quran-roots/_corpus/activation/Qnet/v2/network/incidence_full/branch_keywords.tsv",
+   "coverage": "186,797 rows, 11,275 branches, 9,805 distinct keywords, replicate votes 1-2",
+   "how_it_could_help": "Cheap concept overlap and WordNet antonyms; conditional branch choice MRR 0.392; v9: carries meaning-level misses but 'too broad' as evidence",
+   "independence": "Independent of ranks (explicitly excluded from quran-slm construction)"
+  },
+  {
+   "signal": "Root-dossier occurrence → branch groups",
+   "source": "root-dossier/out/activation_map.tsv; out/final/*.json",
+   "coverage": "123 roots, 25,203 occurrences (22,127 dominant, 3,076 minor); 246 final JSON files",
+   "how_it_could_help": "A word's recurring Quranic role and the plain branch per occurrence (NS5, 'where the canonical translation departs'); marks which branch is primary here, so latent branches can be ranked by departure",
+   "independence": "Independent (Luna grouping by stated context); partial coverage"
+  },
+  {
+   "signal": "Qirāʾāt letter exchanges and consonant relations (ishtiqāq kabīr)",
+   "source": "study/_project_corpus/qiraat.tsv; v15 lib.alternative_roots; root list",
+   "coverage": "3,812 qirāʾāt records on 2,969 words; 758 metathesis and 11,092 one-radical-substitution pairs among 1,648 triliteral roots",
+   "how_it_could_help": "Sound-echo / alternative-root edges (س ر ط for ṣirāṭ; و ل ه for ilāh) that the surah views cannot activate today; v9 proposed a typed non-identity echo layer",
+   "independence": "Independent"
+  },
+  {
+   "signal": "v12 cross-run findings",
+   "source": "latent_activation/_status/v12_cross_run/sNNN/derived/finding_word_branches.v3.tsv",
+   "coverage": "12,807 findings (8,711 strong, 3,210 weak, 886 reject) on 114 surahs; 8,495 multi-root; 30,529 strong cross-root branch pairs",
+   "how_it_could_help": "Largest independent labelled set of branch co-activation in one reading, with negatives; trains or evaluates a pair metric",
+   "independence": "Independent of ranks; LLM readers with primary-sense bias (49.5% of targets B001 in my sample)"
+  },
+  {
+   "signal": "Inter-ayah reviews and reciprocal projection",
+   "source": "quran-data/data/analysis/inter-ayah/ (focus files + reciprocal/); quran-slm/inter-ayah/outputs",
+   "coverage": "6,236 focus ayat; 923,267 rows (strong 248,347, medium 333,589, weak 200,322, no value 140,993); 623,600 ranked + 299,667 suggestions",
+   "how_it_could_help": "Ayah-level edges for QeQ and naẓm harvest; supervision for an ayah-pair reranker (pilot positive)",
+   "independence": "Partly circular (candidates from text/branch/channel lenses); suggestions less so"
+  },
+  {
+   "signal": "Channel reviews (network-v3) and HFT traces",
+   "source": "latent_activation/network/v3/reviews/s###/reader_a_pilot.md (= quran-data copies); latent_activation/focus_trace/runs (3,133 reader JSONs, 90 surahs complete per NORTH_STAR)",
+   "coverage": "110 surahs, 9,203 subchannels, 62,511 ayah-witness links (atlas report); HFT 90 surahs",
+   "how_it_could_help": "Existing chains to ground/extend (NS4); scene-level positive pairs",
+   "independence": "Reviews strongly rank-derived (44% top-10); HFT low-moderate coupling"
+  },
+  {
+   "signal": "Ayah-level text map, branch potential, exact-root lens, v15 rare-root parallels",
+   "source": "quran-slm/artifacts/ayah_semantic_map/v1; experiments/ayah_branch_potential; v15 STATUS parallels dry ranking",
+   "coverage": "6,236 ayat",
+   "how_it_could_help": "QeQ/naẓm candidate passages; text map and rare-root overlap are complementary (5:89 vs 5:97)",
+   "independence": "Text map independent of branch ranks; branch potential derived from them"
+  },
+  {
+   "signal": "Per-lemma use profiles and loanword cards (v15 Luna)",
+   "source": "v15/data/profiles/out (39 jobs), v15/data/loanwords/out (4 jobs)",
+   "coverage": "Only Fatiha, 4:34, 5:6 scope",
+   "how_it_could_help": "Dominant-role counts per lemma (NS5) and Turkish drift (NS2)",
+   "independence": "Independent; tiny coverage"
+  }
+ ],
+ "candidate_metrics": [
+  {
+   "name": "M1 Context-first, similarity-second (conditional branch coherence)",
+   "definition": "Candidate WORD pairs come from Quranic context only: same ayah, ±7 window, surah, grammar attachments, QeQ parallels (M7). For each word pair, score every branch pair of the two roots by the existing fused similarity (Neo weighted up) and hand over, per word pair, the branch pairs ordered by coherence, non-primary branches included. The global neighbour list is never used for discovery.",
+   "why_fits_north_star": "NS3 (activation by neighbouring words is the gate, not similarity); NS8 (orders, never prunes: every branch pair stays listed); NS10 (each candidate = branch + trigger word); on independent v12 data this is where the current distance works (MRR 0.54; 0.50 latent-latent vs 0.13 random)",
+   "data_needed": "Existing rank maps + QAC word/root table + window policy; optional grammar attachments",
+   "cost": "Script only; no model calls; rows read on demand (O(pairs))",
+   "risks": "Inherits synonym bias (misses complementary roles and contrasts); bulk if pushed to Opus unfiltered, so present as pull files plus a compact top slice; primary-sense bias of any tuning on v12"
+  },
+  {
+   "name": "M2 Scene-role complementarity score",
+   "definition": "s(a,b) = Σ over shared concrete scenes S of IDF(S) · [role_a(S) ≠ role_b(S)] / (|scenes(a)|·|scenes(b)|)^0.5, plus a coalition score for a set of words = number of distinct words × distinct roles filled in S (v15's scene-line order made numeric). Merge the 704 added scene ids first; key the 11 duplicate-entry roots by source id.",
+   "why_fits_north_star": "NS4/NS7: finds parts of one image across different words (road, well, herd) that similarity ranks far; NS8 coalition before maturation; explanations are words ('the pulley and the beam of the well'), so checkable",
+   "data_needed": "v15 Luna tags (exist, whole Quran); inventory cleanup (a few Luna jobs + script per v15 STATUS)",
+   "cost": "Script; cleanup a few Luna jobs",
+   "risks": "Coarse (weak at choosing among a root's branches: MRR 0.31); inventory biased toward the North Star cases; generous tags produce long far-scene lists (dilution: +189-216k chars per packet in v15 dry builds)"
+  },
+  {
+   "name": "M3 Micro-motif (clause-level) similarity",
+   "definition": "Split each card into micro-motifs (items of the 'يدخل فيه ...، ...' list and each '؛'-separated classical phrase, or Luna/LLM-split atomic motifs as the channel-review prompt defines them), embed each with NeoAraBERT, and define branch-pair proximity as the max (or top-2 mean) over motif pairs, keeping which motifs matched.",
+   "why_fits_north_star": "NS7/NS4: a card's minor sense (pulley frame inside a 'standing parts' card) can meet its scene partner without being averaged away; NS10: the matched clause is the evidence to quote",
+   "data_needed": "Card texts (exist); Neo model (local)",
+   "cost": "Script + local encoding. Inference: roughly 3-5× the current ~600 s Neo build for ~40-50k clauses on the M2; no API cost",
+   "risks": "Clause fragments lose context; more near-duplicate hubs; still similarity (does not by itself create complementary-role links)"
+  },
+  {
+   "name": "M4 Shared-component (mention) graph",
+   "definition": "Bipartite card–object graph: an edge when a card's text names a Quranic lemma (after normalization, article/clitic stripping, a stoplist for function words and a df cap), and card–root 'names the other root' edges; proximity = IDF-weighted shared objects + direct mention bonus; complement table (ليل/نهار/صبح, نور/ظلمة, حياة/موت) as a typed sub-edge.",
+   "why_fits_north_star": "NS4/NS7: links parts of one scene through the thing they share (water, night, road): v9's strongest edge type; v9 recorded عشو B006 ↔ بيت at image ranks 399/371 as a 'shared component (night)' link",
+   "data_needed": "Card texts; v15 lemmas.tsv or QAC lemma list; optional full classical entries",
+   "cost": "Script",
+   "risks": "Noisy lemma matching (على → ع ل و hit 2,532 cards in my naive run); sparse after cleaning (40/62 gold pairs score 0 in v2); ambiguous lemmas need a root fallback"
+  },
+  {
+   "name": "M5 Heterogeneous typed graph with meta-path / personalised-PageRank proximity",
+   "definition": "Nodes: branches, words (occurrences), ayat, roots, scenes+roles, mentioned objects. Typed edges: word–branch (has sense), word–word (same ayah / ±7 / grammar attachment with relation type), branch–branch (M1 similarity top-k as a weak type; dictionary neighbour relation by type incl. antonym/polarity; sound echo / qirāʾāt / metathesis), branch–scene(role), branch–object (M4), ayah–ayah (inter-ayah review grade, exact-root recurrence, phrase match), v12 co-citation as optional evidence. Proximity from a focus ayah = PPR or counts of whitelisted meta-paths (e.g. word→branch→scene(other role)←branch←word; word→branch→object←branch←word), reported per path type with the path as its explanation; never fused into one score for filtering.",
+   "why_fits_north_star": "NS3/NS4/NS6/NS7 in one structure: activation by neighbouring words, image chains across ayat, QeQ passages and contrasts; NS10/NS11: each candidate carries its typed evidence path; NS8: ordering by path type, Pareto across lenses like quran-slm's atlas; NS13: a script harvest that shrinks what Opus must read",
+   "data_needed": "All signals above (all exist locally); v9 network.py is a working prototype for one ayah (29:38)",
+   "cost": "Scripts; graph small (~11k branches, 77k words, 6.2k ayat); per-ayah query seconds (v9: 13 s for 29:38 without models)",
+   "risks": "Edge-type weights need evaluation; hubs (dense signals have many); path explosion (v9: k=5 added ~900 edges with no new gold); must be supply, never a worklist (v3/v7 lesson)"
+  },
+  {
+   "name": "M6 Learned pair metric (tunable)",
+   "definition": "A small bilinear or cross-encoder / GNN link predictor over frozen Neo motif vectors + typed features (scene-role, mention, dictionary relation, co-occurrence, grammar), trained on v12 strong co-citations (≈30k pairs) with v12 reject pairs (479) and random same-ayah branch pairs as negatives, and Luna scene complementarity as weak positives; grouped by surah for held-out evaluation (as the feedback-reranker protocol does).",
+   "why_fits_north_star": "Could learn what readers actually co-activate beyond synonymy; outputs orderings only (NS8/NS11)",
+   "data_needed": "v12 findings (exist), Luna tags, typed features; held-out gold: S1 ledger (fair only for a metric not tuned on S1), 29:38 cold-Opus links (19), v12 known answers, recorded cold-arm parallels, v14 regressions",
+   "cost": "Scripts + local training; no API",
+   "risks": "Learns v12 readers' habits (primary-sense bias, shared LLM prior); the S1-only supervised probe failed to generalise (root-group-held-out 5/54); labels for complementary scene roles are sparse; must never threshold-exclude (reranker pilot rule)"
+  },
+  {
+   "name": "M7 Ayah-level parallels as a Pareto union (QeQ / naẓm harvest)",
+   "definition": "For a focus ayah, list passages by three separate lenses: rare-root/lemma IDF overlap (v15 dry ranking), phrase match (n-gram of 2-3 lemmas, e.g. ʿalayhinna sabīlan), and the existing ayah text map; keep the union ordered by lens, same-surah first, with the shared words shown.",
+   "why_fits_north_star": "NS6 and al-Biqāʿī naẓm: the cold arm's advantage was same-surah parallels (v15 DESIGN §11); lenses are complementary (5:97 #6 by rare roots vs #59 by text map; 5:89 #1 by text map vs #14 by rare roots)",
+   "data_needed": "QAC lemmas/roots, ayah map (exists), phrase index (script)",
+   "cost": "Script; v15 estimated +10-15k characters per reading, about $0.1",
+   "risks": "Turns into a worklist if framed as one; give as supply, never check coverage (v15 STATUS)"
+  },
+  {
+   "name": "M8 Set-conditioned coalition growth",
+   "definition": "Score candidates against the growing set of already-activated branches (mean or max of M1/M5 proximities to all members, ayah-order aware) instead of against the last branch; stop only at budget, never on a plausibility threshold.",
+   "why_fits_north_star": "NS8 activation → coalition → maturation → reciprocal reinforcement: a completed image strengthens weak parts; recorded rescues (water path 6,1,1,8,10; S48 52→1, 76→3)",
+   "data_needed": "Any pairwise proximity (M1-M5)",
+   "cost": "Script",
+   "risks": "Drift along generic hubs; needs a diversity rule (the S1 report's concentration problem: G009/G003 absorbed 73% of relations)"
+  },
+  {
+   "name": "M9 Usage-role concentration (loaded words)",
+   "definition": "Per lemma/form: distribution of its Quranic uses over contexts/branches (root-dossier groups, verb-object frames, collocates); 'loaded' when one role dominates (e.g. nafakha 19/20); departure flag when the canonical translation's branch differs from the dominant role.",
+   "why_fits_north_star": "NS5 directly; supports NS2 (what the Turkish loanword keeps or loses)",
+   "data_needed": "root-dossier (123 roots now), grammar frames, QAC lemma concordance, v15 use profiles (3 units)",
+   "cost": "Script where dossiers exist; Luna for the remaining roots (root-dossier workflow exists)",
+   "risks": "Coverage (123 roots); descriptive groupings must not become interpretations (dossier rule)"
+  }
+ ],
+ "evaluation_sets": [
+  {
+   "name": "S1 gold ledger",
+   "source": "quran-slm/reports/s1_ar3_v1_gold_ledger.jsonl (+ notes); from resources/evaluation/s1-bulgular-tr.md",
+   "size": "32 records (26 eligible, 24 strong / 2 medium; G027-G032 excluded); 62 eligible cross-root anchor pairs with node ids",
+   "independence": "Labels independent of ranks; S1 is in-sample for the current metric's weights; the v15 scene inventory knew the examples",
+   "notes": "Best-structured pair gold (required anchors, groups, equivalences); includes contrasts and a 6-anchor water coalition"
+  },
+  {
+   "name": "S1 anchor set (v11)",
+   "source": "prose_generation/_commentary/v11/eval/s001_anchors.md",
+   "size": "78 items: 26 G + 6 bonus, v5/v11 distinctive per-ayah findings, North Star examples",
+   "independence": "Independent of ranks; prose-level scoring (absent/mentioned/integrated), used in v13 EVAL_ANCHORS.md",
+   "notes": "End-to-end evaluation, not pair training"
+  },
+  {
+   "name": "v12 cross-run findings",
+   "source": "latent_activation/_status/v12_cross_run/sNNN/derived/finding_word_branches.v3.tsv",
+   "size": "12,807 findings (8,711 strong, 3,210 weak, 886 reject); 30,529 strong / 8,443 weak / 479 reject cross-root branch pairs in the Quran catalog",
+   "independence": "Independent of quran-slm ranks; LLM readers (shared prior); primary-sense bias",
+   "notes": "Largest usable training/eval set for a pair metric; group by surah for held-out tests"
+  },
+  {
+   "name": "29:38 cold-Opus link set",
+   "source": "prose_generation/_commentary/v9/network/eval_29_38.py (GOLD) and v9/DESIGN.md",
+   "size": "19 branch → focus word/ayah links + 1 control + 3 word-pair links",
+   "independence": "Independent (from the cold Opus reading and the user's review); used by v9 to tune k (k=3), so mildly consumed",
+   "notes": "Includes night/complement, antonym and synonym links the image network missed"
+  },
+  {
+   "name": "29:38 macro ideal catalogue",
+   "source": "_commentary/v5/benchmark/29_38_macro_ideal_catalog.md (= v8_batch copy)",
+   "size": "349 lines",
+   "independence": "Independent",
+   "notes": "Prose/finding level"
+  },
+  {
+   "name": "v12 known answers and root-dossier partitions",
+   "source": "_commentary/v12/eval/known_answers.md; known_dossiers.json; score_dossiers.py",
+   "size": "5 roots (ḥamaʾ, nafakha, ʿarsh, rabb, ṣalāh) as occurrence partitions; 1 S29 probe (29:39 race ↔ 29:45 ṣalāh ↔ 29:41 houses)",
+   "independence": "Independent",
+   "notes": "Fits a usage-role metric (M9) and the race case"
+  },
+  {
+   "name": "v14 regression criteria",
+   "source": "_commentary/v14/eval/regressions.json (10 cases), regressions-v3.json (15)",
+   "size": "10 / 15 criteria with baseline excerpts",
+   "independence": "Independent; prose-level",
+   "notes": "End-to-end guard, not a metric label"
+  },
+  {
+   "name": "Recorded cold-arm and v15 parallels (4:34, 5:6)",
+   "source": "_commentary/v15/DESIGN.md §11-12; v15/STATUS.md parallels row",
+   "size": "~25 ayah-level parallels (4:5, 4:36-38, 2:238, 4:81, 4:3, 4:129-130, 4:19, 4:128, 4:90; 5:89, 5:91, 5:11, 35:10, 5:8, 5:97...)",
+   "independence": "Independent of branch ranks",
+   "notes": "Evaluation for M7 (ayah-level parallels)"
+  },
+  {
+   "name": "North Star named cases",
+   "source": "NORTH_STAR.md 'The aha' and 'What an ayah commentary carries' (checks only, never model input)",
+   "size": "~8 cases: Fatiha road/water/herd, S100 horses, 29:39-45 ṣalāh race, 5:6 mirfaq/kaʿb/qiyāman, ḥamaʾ 18:86, nafakha 18:96, S103 ʿ-ṣ-r",
+   "independence": "Independent of ranks but known to every designer (v15 inventory)",
+   "notes": "Qualitative checks; my rank checks used them only as test sets"
+  },
+  {
+   "name": "Channel reviews (network-v3)",
+   "source": "latent_activation/network/v3/reviews (= quran-data channels/network-v3/*/review)",
+   "size": "110 surahs; 9,203 subchannels; 16,733 cross-root pairs parsed in 96 surahs",
+   "independence": "Strongly circular with the current ranks (44.1% top-10 vs 4.1% random)",
+   "notes": "Recall check only, with the bias stated"
+  },
+  {
+   "name": "Bakeoff replay transitions",
+   "source": "quran-slm/artifacts/model_pilots/evaluation_final_mechanical.json; dense_model_bakeoff.md",
+   "size": "31 transitions in 6 paths (S1 16, S48 5, S100 7, S103 3)",
+   "independence": "Circular (paths walked through the network)",
+   "notes": "Regression test only"
+  },
+  {
+   "name": "S1 conditional channel memberships",
+   "source": "quran-slm/experiments/s1_conditional/channels.json",
+   "size": "54 branch/channel memberships, 7 channels",
+   "independence": "From gold prose; in-sample",
+   "notes": "Too small to train a generalising metric (recorded failure)"
+  },
+  {
+   "name": "Inter-ayah 100-card reviews + reranker datasets",
+   "source": "quran-data/data/analysis/inter-ayah; quran-slm/inter-ayah/feedback_reranker (config, reports)",
+   "size": "923,267 rows (623,600 ranked + 299,667 suggestions); readiness 16,789 train / 3,767 validation rows × 248 features; 19 blind surahs sealed, 11 reserved",
+   "independence": "Partly circular (candidate lenses include branch ranks and channels)",
+   "notes": "Ayah-level; blind and reserved surahs remain usable for a fresh test"
+  },
+  {
+   "name": "HFT traces",
+   "source": "latent_activation/focus_trace/runs",
+   "size": "90 surahs complete (NORTH_STAR); 3,133 reader JSON files",
+   "independence": "Low-moderate coupling (orientation cues from ayah Neo ranks in S2-S79 packets)",
+   "notes": "Chains and surprising_valid_outliers can serve as positives"
+  },
+  {
+   "name": "Luna scene tags (weak labels)",
+   "source": "v15/data/frames/out",
+   "size": "11,425 items; 4,645 (scene, role) pairs",
+   "independence": "Independent of ranks; not gold",
+   "notes": "Weak supervision for complementarity"
+  }
+ ],
+ "north_star_alignment": "Scorecard for my scope (the quran-slm distance as it stands), grounded in the checks above:\nNS1 ground: n/a (retrieval layer).\nNS2 turkish_loss: low. At most a near-synonym contrast list (v15 STATUS); the dictionary's typed neighbour distinctions (29,912) serve this better.\nNS3 local_resonance: medium. As a conditional branch selector for context-linked word pairs it is the best measured signal (MRR 0.54 vs random 0.145 on independent v12 data; 0.50 for latent-latent pairs). As a global retriever it is weak (v12 strong pairs median rank 1,692).\nNS4 chains: low-medium. It finds scene parts only when the definitions share object words (road, abundant water, dust/earth in S100: ranks 1-4); complementary roles rank far (S1 road partners up to 107-133 of 124-142; other-role scene partners median 2,703 globally; top-10 ≈45× enriched for same-role vs ≈6.7× for other-role). Chains appear through accumulated context and LLM review (the S1 channel review holds the well/pulley), not pairwise.\nNS5 loaded_words: none. Same-root pairs are excluded, and there is no usage data in the metric.\nNS6 qeq: low. The ayah-level map finds some parallels (5:89, 5:11, 4:19) but misses word- and phrase-level ones (5:97 same-surah #59; 4:81/4:130 >100).\nNS7 aha/integration: low. It cannot relate a root's branches, contrasts (G014/G015 at 21-82) or a complement (night ↔ morning).\nNS8 no_pruning: medium. There is no plausibility score by design, and accumulated context supports coalition growth. But downstream top-k graphs (v3 top_k=10 with an edge floor; v9 k=3) prune implicitly, and the S1 top-200 concentrated on two relations (73%).\nNS9 containment: n/a.\nNS10 checkable: high. Branch node ids, Arabic evidence and dictionary provenance are carried in every query.\nNS11 no_invention_nothing_lost: medium. Docs say ranks order and never filter (README; reranker rule), but surah views drop alt/qirāʾāt roots (س ر ط, و ل ه) and 328 global-only branches.\nNS12 surah_commentary: medium, indirectly. The 110 channel reviews were mined from it, though they lack interactions and purpose (v15 DESIGN §2).\nNS13 economics: high. Script-only, O(N) rows, no API cost. v15's Luna replacement cost 193 calls (5.58M input, 2.44M output tokens) and added dilution risk when pushed as lists.\n\nAnswer to Q5 (inference from the evidence): the task needs a typed, context-conditioned proximity, not a better single similarity. First, candidates come from Quranic context (co-occurrence, windows, grammar frames, parallels). Second, the existing Neo-heavy similarity chooses which branches of those words cohere (M1). Third, complementary-role links (M2 scene roles, M3 micro-motifs, M4 shared components) and typed contrast/sound edges bring in what similarity misses (M5). Fourth, set-conditioned scoring grows coalitions (M8). Every candidate carries its path type as explanation and stays ordered, never filtered. This fits NS3, NS4, NS7, NS8, NS10 and NS13, and hands Opus a compact, explained harvest instead of bulk.\n\nAnswer to Q2b: yes for training a pair metric at scale. v12 has about 30k independent strong pairs with 479 reject pairs; the inter-ayah reviews have 923k ayah-level labels, partly circular. But complementary-scene gold is small: S1 ledger 26 records, 29:38 19 links, the North Star cases. The channel reviews are rank-derived. So any tuned metric must be evaluated on held-out surahs and the independent gold, and must stay an ordering.",
+ "open_questions": [
+  "Does a clause-level (micro-motif) re-embedding (M3) actually move complementary scene partners up? Untested; needs a script run on local encoders (no API).",
+  "How much of v12's co-citation signal is primary-sense habit rather than latent activation? 49.5% of my test targets were B001; a latent-only gold set (non-B001 pairs judged as North Star 'aha') does not exist beyond S1 and 29:38.",
+  "Would M5 typed meta-paths beat M1 alone on held-out surahs? The untuned sum scene+slm+dict (MRR 0.526) did not beat slm (0.540), so edge-type weighting must be evaluated, not assumed.",
+  "Which model wrote the v12 findings, the channel reviews and the inter-ayah reviews ('Terra High review agent' per inter-ayah/outputs/README.md)? The shared-prior bias with the embeddings is unknown in size.",
+  "Luna's price per token is not recorded in v15/out/ledger.jsonl (only token counts), so the scene index's dollar cost is unknown; the user's '~40× cheaper' is the only figure.",
+  "Alternative/qirāʾāt roots (س ر ط, و ل ه) exist only in the Furūq-expanded catalog: would activating them in surah views (or in M5 as echo edges) change named-case recall? Untested.",
+  "How many of the 14 S1 gold misses (s1_ar3_v1) are complementary-role or contrast relations vs search/selection failures? The pending 'methodology audit' in s1_ar3_v1_feasibility.md is not found in the repo (unknown whether it was done).",
+  "Can the v15 scene inventory's 704 added ids be merged without re-biasing toward the North Star cases? The inventory author knew the examples (v15 DESIGN.md:72-75); a blind inventory test on non-S1 gold (e.g. 29:38 links) has not been run.",
+  "The inter-ayah feedback reranker's fresh confirmation on the 11 reserved surahs and the 19 sealed blind surahs has not been run; these remain the only untouched ayah-level test sets.",
+  "Grammar attachment roots use a different normalization (أ vs ء, e.g. ش ي أ, أ ل ه); the mapping to catalog roots has not been checked."
+ ]
+}

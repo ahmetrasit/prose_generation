@@ -1,0 +1,443 @@
+{
+ "scope": "v11 and v12 of the commentary workflow, plus the root-dossier sister repo as v12 used it. Files read:\n- v11 (/Volumes/OZTURK/_projects/prose_generation/_commentary/v11): README.md, NOTES.md, REVIEW.md, compare_s001_v5.md, eval/s001_anchors.md, prompts/{write,write_s,surah,surah_s,seeds}.md, run.py, seeds_input.py, verify_src.py (header), and out/ (s001, s100, s018/18_86, arms/S/s001/seeds/all).\n- v12 (/Volumes/OZTURK/_projects/prose_generation/_commentary/v12): README, NOTES, HANDOFF, RUNBOOK, inputs.py, run.py, eval/{known_answers.md, known_dossiers.json, score_dossiers.py}, prompts/{write,surah}.md, work/*/inputs.tsv, and out/s001 (ledgers, status, check, surah/all incl. chains.md \"Rejected / not carried\", dossier_corrections.md).\n- root-dossier (/Volumes/OZTURK/_projects/root-dossier): README, RUNBOOK, prompts/group.md, run.py (Luna invocation), deliver.py (header), index.tsv, out/final (123 JSON), out/status (123), out/activation_map.tsv, packets/.\n- Also: the v11 test arms stored in /Volumes/OZTURK/_projects/prose_generation/_commentary/v9/lines/work/{4_34,18_86,1_2}/synth/v11-{script,luna}, and later verdicts about v11/v12 recorded in v13 DESIGN/HANDOFF and NORTH_STAR.\n- Numbers come from run.log.jsonl result records, status.json and check.txt, read by my own scripts under /private/tmp/claude-502/-Volumes-OZTURK--projects-prose-generation/9b253717-be1d-4238-a42b-f4b098b1d894/scratchpad/phase1/v11-v12/ (costs.py, chains_verdicts.py).\n- I did not judge prose quality across versions. The term counts I report are presence counts only.",
+ "timeline": "All dates are from git log (`git log --format='%ad %h %s' -- _commentary/v11 | _commentary/v12`) and from NOTES.\n\n**2026-09-25/26: what prompted v11**\n- The V9 lines \"synth\" arms (v11 README \"Why this shape\") showed three things:\n  - a cold Opus reading matched packaged inputs (4:34 anchors: cold 8, +dictionary 5, +full Luna package 5);\n  - Luna discovery (~20–35 sessions, ~1M tokens per ayah) did not beat a script digest;\n  - a ledger written before the prose captures most of the sampling-variance union.\n- So v11 = one Opus call per ayah, fed context + dictionary + script digest, returning a Turkish findings ledger and then the reading.\n\n**2026-09-26, v11**\n- 01:09 (276c65245): first run, 100:1 ($0.86).\n- 01:24 (bb37143e6): S100 complete, 11 ayat, $11.14.\n- 01:31–01:36 (d6fea465e, 5ed06076d): whole-surah chains pass added; S100 chains $1.21, 16 chains.\n- 11:00 (a4a1dc11e): 18:86, $2.96.\n- 11:36 (fe823a6d7): S1 run, 7 ayat $11.92 plus chains $1.06, 18 chains.\n- 11:48 (b8a4ee1de): compare_s001_v5.md.\n- 12:24 (7aa24d29c): root cause of the missed v5 refs found (the digest drops the review notes).\n- 13:26 (1803f7adc): Opus REVIEW.md. Verdict: best QeQ and best prose, but structurally blind to cross-ayah coalitions (9 of 26 gold items missed). Proposed a surah-level seed pass, digest v2, Limits, a source tag and a test plan.\n- 15:50–15:57 (ff135f51e, 068af5f53): arms B/D/S/S0 built, plus seeds_input.py, verify_src.py and the frozen S1 anchors.\n- 16:03 (0734a00f0): production plan recorded (batch API, shared cached surah prefix). Not built.\n- 16:08 (d0862bff6): long-surah design reviewed. Not built.\n- 16:12 (99b9c1566): arm S seed pass on S1, $1.64, \"14 mature systems; members ~all already in HFT/channel review; adds Quran staging + limits\". The arm S ayah writers and surah pass were never run.\n\n**2026-09-26 evening to 09-27, v12**\n- 17:51 (b28589a31): v12 built. What prompted it:\n  - the user rule that the image chains already exist (HFT + channel reviews) and must never be rediscovered, which dropped the seed pass;\n  - the REVIEW's cross-ayah finding, answered with neighbours.md;\n  - the user's complaint that the surah reading was \"too compressed\";\n  - al-Khūlī istiqrāʾ, answered with the root dossiers.\n- 18:59: Sonnet review fixes.\n- 20:19: HANDOFF written.\n- 21:22 (41c854e33): HFT read from focus_trace/runs (90 surahs); cost gate; RUNBOOK; known-answer scorer.\n- 21:58 (2f8dd06e9): 01_dictionary.md rebuilt fresh at every prep. V11's copy had been frozen and missed the merged envelopes and the reviewed alternatives.\n- 22:33–23:31: root-dossier 10-root Luna test.\n- 23:25 to 01:45 on 09-27 (0ffdbab): dossier run next.txt, 113 roots.\n- 23:38 (2876f5573): dossiers declared \"a map, not a verdict\"; \"never twice\" rule.\n- 23:56 to 00:22 on 09-27 (c8f5c2142): the v12 S1 run, 7 ayat plus surah pass, $20.96, no failures.\n- 09:14 on 09-27 (c668b3c28): evidence rebuilt for 29:39, 29:41, 29:45 and 18:86. The S29 probe was never run.\n- Same day (3109ba808): NORTH_STAR revised for v13 \"from the user's answers after the v12 S1 run\". v13 DESIGN names v11/v12's loss: \"the latent chains, audited away one word at a time; a surah pass with a reject list\".\n- Documentation drift: v12 HANDOFF still says \"no Opus call has been made\", while NOTES records the S1 run as done.",
+ "mechanism": "**v11 arm B (baseline; run.py)**\n\n1. **prep (scripts, no model).**\n   - V9 prepare.py builds 01_dictionary.md: every branch of the focus ayah's own roots only, with classical phrases.\n   - luna/worklists.py builds context.md: ayah, words, word notes carrying v5-era topics, the Fatiha, the whole surah.\n   - v9/lines/digest.py builds digest.md: qirāʾāt, each root's occurrences as ref + word (\"common form, not listed\" for frequent forms), and inter-ayah candidates as ref + 60-character opening. The review reason was dropped.\n2. **write.**\n   - One `claude -p --model opus --effort high --tools '' --strict-mcp-config` call per ayah. Evidence first, brief last. Quran from memory is allowed and verified; dictionary Arabic only from the file; unanchored claims are marked [recall].\n   - Output: a Turkish ledger with families Surah → Quran → Dictionary → Readings and grammar → Fatiha, each line `[refs | roots | core|develop|note]`, followed by the reading.\n   - Input sizes (run.log.jsonl): S100 20–40k tokens; S1 25–36k for single-turn ayat; 18:86 219k.\n   - Output 28–76k tokens, of which 13.5–54.8k thinking.\n3. **check.** verify_ar --fix, repair_tags, and the frozen v5 validator.\n4. **render.** S_A.md = reading + Kur'an'ı Kur'an'la + Kelimeler ve okuyuşlar (+ Surenin bütününde).\n5. **chains (one Opus call per surah).** Input is the surah text plus every ledger (S1 59.7k tokens in, 28.9k out). The brief forbids \"dictionary senses the ledgers do not record\". Output: chains.md, S.surah.tr.md (~1,120 words) and ayat.md.\n\n**v11 arm S (built; only the seed pass ran)**\n- seeds_input.py (script) builds one 156 KB file for S1:\n  - (a) branch table of every root in the window (identity roots plus flagged ~alt/~echo);\n  - (b) compact HFT;\n  - (c) surface-staging windows elsewhere in the Quran (branch image words widened by dictionary synonyms, top 40, noisy);\n  - (d) definitional cross-root links;\n  - (e) pairs, off by default.\n  - Windows: the whole surah up to 40 ayat, otherwise pericopes ±7.\n- One Opus seed call: 76.8k in, 51.4k out, $1.64. The prompts/seeds.md stance is \"coalition before judgement … Do not prune early\". It produced:\n  - seeds.md (36 KB): 16 systems, each with members `S:A word → root Bnnn → role`, mechanism, containment, perceptible, staging, limits, maturity;\n  - ayat.md: a Turkish note per ayah.\n- Planned but never run:\n  - writers would get seeds_for(ref) (~2–4k tokens) + digest_v2 + write_s.md (Limits family, Turkish loss, disclosure rule, 4-field source tags);\n  - a surah_s pass over branch table + seed sheet + ledgers.\n\n**v12 (inputs.py + run.py)**\n- Same writer shape, with more pushed evidence per ayah (inputs.tsv, S1):\n  - context 2.7–6.4 KB;\n  - 01_dictionary 5–42 KB (rebuilt fresh);\n  - digest_v2 12.6–29 KB (reasons, counter flags, labels order but are not printed, \"no value\" rows dropped);\n  - usage.md 12–36 KB (root dossiers; includes \"branches never the plain sense in any occurrence\");\n  - hft.md 21–52 KB (script-flagged traces);\n  - channels.md 16–39 KB (network-v3 review);\n  - neighbours.md 21–26 KB (every branch of the other surah roots).\n  - Totals: 127–232 KB for S1 ayat; 272–407 KB prepared for 29:39/29:41/29:45 and 18:86.\n- Brief write.md (14.8 KB):\n  - \"ground / correct / connect / go beyond\" the known chains;\n  - ledger families Surah, Quran, Usage, Limits, Dictionary, Readings, Chains (holds / corrected / does not hold, per ayah), New, Fatiha;\n  - the reading must carry Ground, Loss, chains at the ayah's turning point, and the surprise connected.\n- Checks: comma repair → verify_src --fix → single-location source fix → validator → at most one repair call at medium effort → unverifiable tags stripped to plain Turkish → status.json.\n- Gates: estimate below $5 (input $8/M as a 1-hour cache write, output $20/M), never retried, never twice, lock.\n- Surah pass (one Opus call): context + channels 48 KB + hft 46 KB + branch_table 56 KB + usage (window) 0.9 KB + 7 ledgers = 323 KB (162.8k tokens), 62k out. Output order: plain walk → maqṣūd → one section per core chain → meetings → develop chains → close with the next surah.\n\n**root-dossier (Luna)**\n- build.py: index of 1,647 roots; one packet per root (A.md; A_wa.md for the word-analysis arm), up to ~840 KB per packet directory (ء م ن).\n- One `codex exec -m gpt-6-luna -s read-only` session per root at reasoning effort max, ≤15 in parallel, working directory holding only quran.txt.\n- Task: group every occurrence by stated context, one plain branch per group, exceptions, wording, minor lemmas.\n- Script check, at most one repair, salvage, then final JSON + activation_map.tsv.\n- deliver.py writes usage.md per ayah (≤60 KB cap; every group listed; \"never plain\" branches) or per window.\n- Handoffs are files only. No agent sees another agent's reasoning, and there are no tools in the Opus calls.",
+ "inputs_pushed": [
+  "v11 B writer: context.md (ayah, words, word notes with v5 topics, Fatiha, whole surah), 01_dictionary.md (focus-ayah roots only), digest.md (qirāʾāt; root occurrences as ref+word; inter-ayah candidates as ref + 60-character Arabic opening without the reason). Source: v11 README Workflow; run.py write().",
+  "v11 B chains pass: context.md plus every ayah ledger (no dictionary; the brief forbids senses the ledgers lack). Source: v11/prompts/surah.md.",
+  "v11 arm S seed pass: seeds_input.md, 156 KB for S1: a branch table of 193 branches (REVIEW) across 18 identity roots plus alt/echo roots; compact HFT records; 40 staging windows; definitional links. Source: out/arms/S/s001/seeds/all/seeds_input.md.",
+  "v11 arm S writers (never run): seeds_for(ref) (systems through the ayah plus the members' branch lines) plus digest_v2. Source: run.py seeds_for().",
+  "v12 writer: context.md, 01_dictionary.md, digest_v2.md, usage.md, hft.md, channels.md, neighbours.md, 127–232 KB per S1 ayah (v12/work/s001/*/inputs.tsv). The brief is 14.8 KB.",
+  "v12 surah pass: context.md, channels.md (48 KB), hft.md (46 KB), branch_table.md (56 KB), usage.md for the window (0.9 KB), and all 7 ledgers (323 KB in total; check.txt input_bytes 322,999).",
+  "root-dossier Luna: one packet per root (every occurrence in its ayah; T0/T1 with neighbouring ayat; forms table; variant readings; disputed words; branches), up to ~321–378 KB of text for the largest roots (NOTES)."
+ ],
+ "inputs_pulled_or_optional": [
+  "No tool access in any Opus call (`--tools ''`, `--strict-mcp-config`). The only 'pull' is the model's own Quran memory, allowed and then verified by script (write.md 'What you may draw on').",
+  "Luna in root-dossier could read quran.txt in its working directory to check neighbouring ayat (prompts/group.md step 1). For ر ب ب it built its own Python classifier over quran.txt (v12 NOTES).",
+  "Optional switches: --no-usage (v12; the arm was never run), --pairs (seeds_input; off by default), --no-hft (arm S0; never run), --tag for arms, DOSSIER_OUT for the word-analysis dossier arm (never run), --effort xhigh|max (never used in v12)."
+ ],
+ "available_but_unused": [
+  "Gloss error profiles for the Turkish loss (quran-data translation/glosses/locales/tr/root_*.json: loses_facet_ids, collision). REVIEW §2.3 item 6 and R3 proposed a 1–2 KB gloss sheet per focus word. It never entered v11 or v12 inputs (v12/inputs.py has only the dictionary's concept_gloss); the Turkish loss came from instruction alone.",
+  "The v11 seed sheet (out/arms/S/s001/seeds/all/seeds.md: herd, water/rain, waymarks + trodden road with م ل ك B006/B008, soft vs hard, womb/rearing). It was never given to any writer: v11 arm S writers were never run, and v12 dropped it.",
+  "Raw V9 package parts 02_hft.md, 03_pairs.md, 04_bridges.md, 06_concepts.md and 10_leads.md were deliberately excluded from v11 writers (REVIEW R7). v12 put HFT back in, as hft.md.",
+  "Root dossiers' word-analysis arm (A_wa.md packets exist; the --wa run was never done). Word-analysis per-word summaries beyond context.md's word notes.",
+  "v12 cross-run findings and the V11/V12 surah-activation artifacts in latent_activation / quran-data (inventory rows) were not used by the v11/v12 writers.",
+  "The activation map (25,203 occurrence→plain-branch rows) was used only through usage.md text, never as a computable feature (for example to flag latent branches as surprise candidates).",
+  "The prepared v12 evidence for 29:39, 29:41, 29:45, 18:86, 96:1 and 100:1–11 (v12/work/*) was never run by an Opus writer.",
+  "The reciprocal inter-ayah lists reached the writers only through digest_v2 notes, never as a final missing-passage check.",
+  "v5 findings and ledgers (quran-data …/detailed/tr/s001/1_N.index/evidence; v5 raw ledgers of 81–130 findings per ayah) were used only for comparison (compare_s001_v5.md), never as writer input."
+ ],
+ "models_and_cost": "**Models**\n- All v11/v12 synthesis ran on claude-opus-5-5 (run.log.jsonl modelUsage), effort high, through `claude -p`, one call per ayah, no tools.\n- v12 repair calls used medium effort (run.py REPAIR_BRIEF; the S1 surah repair cost $0.06).\n- Recorded billing basis: input at $8/M as a one-hour cache write, output at $20/M (v12 HANDOFF \"Tokens\"; v11 README).\n- Output is about 84% of cost, and thinking about 75–80% of output (REVIEW §2.4, §R5).\n\n**v11 per ayah (my sums from v11/out run.log.jsonl)**\n- S100: $0.77–1.30 per ayah; 11 ayat $11.14, plus chains $1.21, total $12.35, about $1.12 per ayah (README).\n- S1: $1.16–2.29 per ayah; 7 ayat $11.92, plus chains $1.06, total $12.98, about $1.85 per ayah.\n- 18:86: $2.96 (219k tokens in, 2 turns).\n- Arm S seed pass on S1: $1.64 (76,835 in / 51,356 out / 34,100 thinking), about $0.23 per ayah if amortised.\n- All v11/out calls: 22 calls, $29.92.\n- v11 test arms in v9/lines/work: 4:34 $2.49 (script) / $2.50 (Luna package); 18:86 $1.81 / $1.79; 1:2 $2.34 / $1.59.\n- Tokens per S1 ayah: output 45–76k, thinking 28–55k.\n\n**v12 S1 (status.json, run.log.jsonl)**\n- Per ayah $1.81–3.22, total $18.35; surah pass $2.54 + $0.06 repair = $2.61; grand total $20.96, about $2.99 per ayah including the surah pass.\n- Estimates were $2.21–3.06 per ayah and $4.07 for the surah pass. 1:5 overshot its estimate ($3.22 vs $2.61; 101,937 output tokens).\n- Output per ayah 59–102k tokens; thinking 34–83k.\n- 5 of 7 v12 ayat and 3 of 7 v11 S1 ayat ran in 2 turns (num_turns=2), re-billing input. REVIEW puts this at about $0.5 per continuation on v11. v13 HANDOFF names a 64K CLI output cap.\n\n**Wall time (duration_ms)**\n- v11: 4.6–11.5 min per ayah call.\n- v12: 9.4–16.3 min per ayah; the S1 run took 26 minutes wall (23:56–00:22) at parallel 7; surah pass 9.2 min.\n\n**root-dossier (Luna gpt-6-luna, codex, reasoning max)**\n- Across 123 roots (out/status sums): 39.63M input tokens (30.56M cached), 4.16M output tokens (3.46M reasoning).\n- The rabb session alone: 57 minutes, 8.6M input, 179K output (NOTES).\n- The next.txt run of 113 roots took about 2h20m wall at parallel 10.\n- The dollar cost of Luna is not recorded anywhere I found: unknown.\n\n**Production projection (never built)**\n- v11 README: for a 20-ayah surah, no reuse ≈ $38, shared cached prefix ≈ $30, plus batch ≈ $15 (≈ $0.75 per ayah).\n- REVIEW R8: batch alone brings about $1.9 to about $0.9–1.0 per ayah.",
+ "ayat_run": [
+  "v11 B: 100:1–100:11 plus the S100 chains pass (v11/out/s100)",
+  "v11 B: 18:86 (v11/out/s018/18_86)",
+  "v11 B: 1:1–1:7 plus the S1 chains pass (v11/out/s001)",
+  "v11 arm S: S1 seed pass only, whole surah as one window (v11/out/arms/S/s001/seeds/all)",
+  "v11 test arms (stored in v9/lines/work/*/synth): 4:34, 18:86, 1:2 as v11-script and v11-luna; 100:1 first v11 run",
+  "v12: 1:1–1:7 plus the S1 surah pass (v12/out/s001); the only v12 Opus run",
+  "v12 evidence prepared without any model run: 29:39, 29:41, 29:45, 18:86, 96:1, 100:1–100:11 (v12/work)",
+  "root-dossier Luna: 123 roots. test10 = ح م ء, ن ف خ, ر ب ب, ص ل و, ع ر ش, و س م, و ل ه, ع و ن, غ ض ب, ص ر ط. next.txt = 113 roots: the rest of S1 without ء ل ه, then 29:38–45, then 18:83–99. Together these cover 22,127 of the 49,968 rooted word occurrences in index.tsv (44.3%) and 5,519 ayat in activation_map.tsv."
+ ],
+ "north_star_scorecard": [
+  {
+   "id": "NS1",
+   "rating": "strong",
+   "evidence": "Recorded: REVIEW.md §1.3 rates v11 'prose: grounding, not a catalogue: best: concrete, readable, rarely hedged'. v12 write.md makes Ground explicit ('what the ayah says in its plain sense and why it stands where it does'), and the v12 surah reading opens with '## Düz anlam: sure ne söylüyor' (v12/out/s001/surah/all/1.surah.tr.md line 3). No recorded disorientation complaint against v11 or v12 ayah readings. The only complaint was about the compressed v11 surah reading (NOTES)."
+  },
+  {
+   "id": "NS2",
+   "rating": "partial",
+   "evidence": "v11: weak. REVIEW §1.3 says 'three touches in S1 (din, Rab, besmele); sırat köprüsü never addressed'. My count finds 'Türkçe' in 3 of the 7 v11 S1 readings, once each. v12: explicit Loss instruction, and 'Türkçe' appears 2–5 times in every S1 reading (27 in total). v12 1:6 addresses the bridge ('Kur'an onu hiçbir yerde köprü diye betimlemez'), backed by a Usage line on ṣirāṭ's 45 uses. Recorded verdict: v13 DESIGN credits v11/v12 with 'Turkish loss (the user: \"loved it\")'; v13 HANDOFF rates v13 'better than v12'. Gloss error profiles were never used as input."
+  },
+  {
+   "id": "NS3",
+   "rating": "partial",
+   "evidence": "Within-ayah resonance is present: REVIEW lists v11's hamur/el in 1:4, muʿabbad in 1:5 and hâdî-değnek in 1:6 as strong. Cross-ayah coalitions are absent. REVIEW §1.3: v11 'weak: only same-ayah coalitions'; 7 of the 9 gold misses are architectural (the member branch belongs to another ayah's root). v12 added neighbours.md, but its per-ayah writers set the neighbours' branches aside. Example, 1:4 ledger: 'B006 (yolun ortası), B007 (su), B008 (öncü hayvan): 1:4'te tek başlarına iş görmezler'. v12 New lines are mostly QeQ passages, not branch coalitions."
+  },
+  {
+   "id": "NS4",
+   "rating": "weak",
+   "evidence": "v11's chains pass produced 18 chains, mostly grammatical (v12 README: '1,124 words of grammar chains'). v11 arm S's seed pass found the image chains (Waymarks and the trodden road with م ل ك B006; the flock with م ل ك B008 and ض ل ل B005; Rain as mercy with ر ب ب B013, ع ل م B005, م ل ك B007, غ ي ر B001), but none was ever delivered to a writer. v12 fed HFT and channels to every writer but judged them per ayah; the surah pass then rejected the channel review's water and well channels: chains.md 'Channels 9A and 9B, and all of 10 and 11C. No Quranic scene.' and 'Channel 4B, the leading animal (م ل ك B008). Fails for 1:4'. Recorded: NORTH_STAR 'v11/v12 audited the chains away'. Progressive disclosure was only an instruction (v12 'turning point' rule)."
+  },
+  {
+   "id": "NS5",
+   "rating": "partial",
+   "evidence": "v11 18:86 ledger has the loaded-word finding as core: 'Kökün Kur'an'daki öbür üç kullanımı insanın yaratıldığı kara balçıktır' (15:26, 15:28, 15:33). v12's Usage family (8–13 lines per ayah) found usage patterns: ṣirāṭ tekil in 45 uses and never a bridge; مغضوب the only passive participle; Form X istaʿāna always in scenes of pressure; iyyāka only here (marked [recall, sayım kontrol edilmeli]). Not tested in v11/v12 on 18:96 nafakha. v13 HANDOFF says no earlier version had that one."
+  },
+  {
+   "id": "NS6",
+   "rating": "partial",
+   "evidence": "QeQ recall is strong. REVIEW: v11 is 'the best Quran-explains-Quran engine the project has produced', with 63–90 refs per ayah and 525 ledger refs in S1 (compare_s001_v5.md). v12 added a Limits family (5–11 lines per ayah), recovering counter-verses. But the stance violates NS6. QeQ comes first in the ledger order (Surah → Quran before Dictionary). v12 used the absence of an open Quranic scene to reject latent readings: 1:3 ledger 'B004 … Kur'an'da bir sahnesi yoktur. Bu okumada kullanılmaz'; 1:6 '\"Kesici geçit\" zincirinin Kur'an'da bir sahnesi yoktur; tutmaz'; surah pass 'No Quranic scene'. NORTH_STAR now says the absence of such a passage 'never removes it'."
+  },
+  {
+   "id": "NS7",
+   "rating": "partial",
+   "evidence": "Real surprise readings exist, mostly Quran- or grammar-based. REVIEW §2.2 lists: the rasm of bismi (11:41, 27:30 vs 96:1); the ark as the shape of mercy (11:41–43); 82:19 as the definition of the mālik day; Iblīs sitting on the ṣirāṭ (7:16); one man saying both 28:17 and 26:20; the particles' journey. Lexical coalition 'aha' readings (the traveller's prayer, the water system, the herd) are missing: gold 11 Y / 4 P / 2 L / 9 N (REVIEW §2.1). The seed sheet integrated them (for example 'The named term and the record' joins debt, term, record and full-weight coin into one mechanism) but was never used downstream."
+  },
+  {
+   "id": "NS8",
+   "rating": "weak",
+   "evidence": "v11 judged branches in isolation (REVIEW: 1:7 'ayete taşınması ancak ses rengi olarak mümkündür'; 'Bu anlam 1:7'de işlek değildir'). v12 formalised per-member verdicts on chains, the exact anti-pattern of 'no verdict on a chain from one of its members'. The Chains family has 12–23 lines per ayah, and about 40 lines contain tutmaz/zayıf by my count. The dossier's 'never the plain sense' list became a pruning reason: 1:7 ledger 'Yankı köklerine ya da Kur'an'da düz anlam olarak geçmeyen dallara dayanırlar'. The only coalition-first step was the v11 seed pass (prompts/seeds.md 'Coalition before judgement … Do not prune early'), and it worked ($1.64; 14 mature systems). v13 DESIGN §7 later dropped 'per-ayah chain verdicts; the reject list'."
+  },
+  {
+   "id": "NS9",
+   "rating": "partial",
+   "evidence": "Containment is written into the briefs: seeds.md requires a containment sentence per system; v12 write.md says 'every latent reading keeps the plain reading intact (… never \"not X but Y\")'. But v12 ranks chains (holds / corrected / does not hold) and ends the surah pass with a 'Rejected / not carried' list, a verdict on which readings stand. I did not check the prose for 'not X but Y' sentences: not evidenced either way."
+  },
+  {
+   "id": "NS10",
+   "rating": "strong",
+   "evidence": "v11 B: every S1 Arabic quotation verified (verify_ar: missing=0 and wrong-ayah=0 in all 7 ayat), but tags carry no source field (REVIEW §1.3). v12 adds a per-tag source field (S:A or root Bnnn) checked by verify_src: all 7 S1 ayat 'missing=0 no-source=0 bad-source=0', nothing stripped; the surah pass has exact=72. Memory-only claims are marked [recall]: 30 ledger lines in v11 S1, 34 in S100, 25 in v12 S1 (my count)."
+  },
+  {
+   "id": "NS11",
+   "rating": "partial",
+   "evidence": "The ledger keeps findings the prose does not use and publishes them as chapters (render). v12 hands dossier errors forward (dossier_corrections.md, 27 lines). v12's exclusions are recorded, not silent (chains.md 'Rejected / not carried'), but they remove readings from the prose. Script-level losses: v11's digest dropped the review reason, so 90% of it was a 'reasonless list' (NOTES), the root cause of the v5-only refs. digest_v2 drops all 'no value' rows, a filter by label, contrary to 'labels order, never filter'. No invention: verify scripts, and the brief's 'No invented senses, sources, etymologies or chronology'."
+  },
+  {
+   "id": "NS12",
+   "rating": "partial",
+   "evidence": "v11 surah readings were about 1,120 words each; the user said 'too compressed, I cannot follow what is coming from where' (v11 NOTES). REVIEW: the S100 horses chain was 'already excellent in B'. The v12 surah reading has 5,125 words and 19 chains, with a plain walk, 'Surenin cevap verdiği soru', one section per core chain, 'Zincirlerin buluştuğu yerler' and a close linking to al-Baqara (headings of 1.surah.tr.md). But its images exclude the rejected water, well and lead-animal channels, so the 'interaction' covers ownership, road, standing and account rather than the latent landscape."
+  },
+  {
+   "id": "NS13",
+   "rating": "partial",
+   "evidence": "v11 S100 cost about $1.12 per ayah including chains, even at claude -p rates (README). v11 S1 about $1.85 per ayah. v12 S1 about $2.99 per ayah ($20.96 / 7), within the $5 test ceiling but 2–5x v11's input bytes per ayah. The funnel economics were never built: batch plus cached shared prefix was designed (v11 README 'Production'; about $0.75 per ayah projected for a 20-ayah surah) but not built (v12 HANDOFF 'Not built'). Luna was used only upstream for descriptive dossiers (no synthesis), in line with NS13, but its output was pushed as bulk (usage.md 12–36 KB per ayah)."
+  }
+ ],
+ "improvements": [
+  {
+   "claim": "One Opus call per ayah with a ledger-first answer replaced multi-session Luna discovery, at similar or better anchor recall and much lower orchestration cost.",
+   "evidence": "v11 README table (4:34, 12 anchors): cold 8/8, +dictionary 5/5, +full Luna package 5/5, v11 dictionary+digest+ledger 9 in the reading / 11 in the ledger at $2.49. 'Luna discovery was ~20–35 sessions and ~1M tokens per ayah'. S100 validation: 'cold and dictionary-only Opus readings cite almost nothing the v11 ledger lacks'.",
+   "over": "V9 lines / w10 arms (Luna package → Opus)"
+  },
+  {
+   "claim": "v11 produced the project's strongest QeQ and syntactic naẓm, with new grounded surprise readings.",
+   "evidence": "REVIEW §0.1: 'v11 is the best prose and the best Quran-explains-Quran engine the project has produced'. §2.2 lists v11-only finds (rasm of bismi, 27:30–31, the ark 11:41–43, 82:19, 7:16, 28:17/26:20, the particles' journey). compare_s001_v5.md counts 525 v11 ledger refs vs 357 v5 prose refs.",
+   "over": "v5 (Astra) and the S1 gold"
+  },
+  {
+   "claim": "The coalition-first seed pass recovered, in one $1.64 call, the cross-ayah image systems the per-ayah writers missed.",
+   "evidence": "v11/out/arms/S/s001/seeds/all/seeds.md: 16 systems, 14 mature. It includes the herd (م ل ك B008, ه د ي B003, ن ع م B005, ع و ن B006, ض ل ل B005 'لا يعرف ربها'), waymarks + trodden road (ع ل م B002, ع ب د B005, م ل ك B006), rain (ر ب ب B013, ع ل م B005, م ل ك B007, غ ي ر B001), soft vs hard (غ ض ب B004/B005/B008 against ر ح م B001), and womb/rearing (ر ب ب B005 rabīb). It also recorded HFT dispositions that corrected broken traces (for example 'س م و B011 does not exist').",
+   "over": "v11 arm B per-ayah writers (gold 11 Y / 9 N)"
+  },
+  {
+   "claim": "Every quotation became checkable at its source.",
+   "evidence": "v12 status.json for all 7 S1 ayat: 'missing=0 no-source=0 bad-source=0', stripped 0; surah pass exact=72 (check.txt). verify_src.py checks each tag against its declared S:A or root Bnnn.",
+   "over": "v11 B (verify_ar only; no source per tag, REVIEW §1.3)"
+  },
+  {
+   "claim": "The Turkish loss became systematic.",
+   "evidence": "'Türkçe' mentions per S1 reading: v11 0–1 (3 in total) vs v12 2–5 (27 in total) (my grep). v12 1:6 addresses sırat köprüsü, which REVIEW §1.3 said v11 never did. v13 DESIGN records the user 'loved it' for Turkish loss in v11/v12.",
+   "over": "v11 B"
+  },
+  {
+   "claim": "Quran-loaded-word findings (al-Khūlī istiqrāʾ) and counter-verses entered the ledger through the Usage and Limits families.",
+   "evidence": "v12 ledgers: Usage 8–13 lines, Limits 5–11 lines per ayah (check.txt families). Examples in 1_6 and 1_7 Usage: ṣirāṭ tekil in 45 uses and never a bridge; مغضوب the only passive participle; 37:23 the only ṣirāṭ to hell. REVIEW had flagged the missing counter-verses (57:15, 6:70, 7:186, 2:256).",
+   "over": "v11 B"
+  },
+  {
+   "claim": "The surah commentary became explicit and structured.",
+   "evidence": "v12 1.surah.tr.md: 5,125 words, 19 chains, with a plain walk, the question the surah answers, a section per core chain, 'Zincirlerin buluştuğu yerler' and a transition to al-Baqara, against v11's 1,124 words that the user called 'too compressed' (v11 NOTES).",
+   "over": "v11 chains pass"
+  },
+  {
+   "claim": "Operational robustness: stale-input fix, a cost gate and full automation.",
+   "evidence": "v12 rebuilds 01_dictionary.md at every prep. 'V11's copy was frozen at first build and missed the merged-envelope fix and reviewed alternatives such as و ل ه for ٱللَّه' (commit 2f8dd06e9). Merged envelopes: 'ق ر ء and ten other merged roots were missing' (4f31e2ba9). The S1 run had no failure, no over-cost and 1 repair call (NOTES).",
+   "over": "v11"
+  }
+ ],
+ "regressions": [
+  {
+   "claim": "v12 audited the latent image chains away per ayah and rejected the water, well and lead-animal channels at surah level.",
+   "evidence": "v12 1:4 ledger: 'B006 (yolun ortası), B007 (su), B008 (öncü hayvan): 1:4'te tek başlarına iş görmezler' and 'Öndeki önder, sürü, … suyla güvenceye alınmış konak … 1:4'te tutmaz'. 1:7: '… out_hydrological_way …: odak kelimelerde tutmaz' and 'channels … 8, 9, 10, 11 odak kelimelerde tutmaz'. Surah chains.md 'Rejected / not carried': 'Channel 4B, the leading animal (م ل ك B008). Fails'; 'Channels 9A and 9B, and all of 10 and 11C. No Quranic scene.' Channel 9B is the 'Water-Secured Encampment' and 10B the 'Well and Water-Lifting Assembly' with ق و م B012 (channels.md). Recorded: v13 DESIGN 'the latent chains, audited away one word at a time; a surah pass with a reject list'; v13 HANDOFF 'The network assembles the images v12 lost (road, herd, water, womb …)'.",
+   "cause": "Three stances pushed into one evidence-bound writer. (1) A per-ayah 'holds / corrected / does not hold' verdict on each known chain, i.e. judging a chain from one member. (2) 'Ground them: where the Quran tells the same scene openly' read as a precondition. (3) usage.md's 'branches never the plain sense in any occurrence' list used as a reason to reject. The seed pass that held the coalition-first stance was removed under the 'never rediscover' rule."
+  },
+  {
+   "claim": "The v11 architecture could not form cross-ayah coalitions, so 9 of the 26 gold items were missed.",
+   "evidence": "REVIEW §2.1: v11 11 Y / 4 P / 2 L / 9 N. 'Architecture (7 of 9): a member branch belongs to another ayah's root, and neither the writer nor the chains pass can see it'. The chains brief says 'do not introduce dictionary senses the ledgers do not record'.",
+   "cause": "The writer sees only its own roots' dictionary; the surah pass sees only ledgers; branches were judged in isolation and graded note."
+  },
+  {
+   "claim": "v12 cost about 62% more per S1 ayah than v11, with 2–5x the input.",
+   "evidence": "v11 S1 about $1.85 per ayah ($12.98 / 7) vs v12 about $2.99 ($20.96 / 7). First-turn input per ayah: v11 25–36k tokens for short ayat; v12 74–161k tokens; input bytes 127–232 KB vs 88 KB for 1:7 in v11 (v12 README). Thinking did not fall: total S1 thinking 284k (v11) vs 374k (v12), my sums.",
+   "cause": "HFT (21–52 KB), channels (16–39 KB), neighbours (21–26 KB) and usage (12–36 KB) pushed whole into every ayah call, plus a longer ledger (80–124 lines vs 53–88)."
+  },
+  {
+   "claim": "The v11 comparison verdict first treated the water systems as noise ('rightly drops'); the Opus REVIEW had to reverse it.",
+   "evidence": "compare_s001_v5.md Verdict: 'What v5 finds that v11 rightly drops … water systems, rain cycles …'. REVIEW §0.2: 'The earlier verdict … has to be reversed on one point … The water system and the traveller's prayer are the user's own examples of the \"aha\".'",
+   "cause": "Findings were scored by ref counts and a 'weak-root' notion that also covered identity-root non-primary branches (REVIEW §4)."
+  },
+  {
+   "claim": "The v11 digest silently lost the reasons, and so v5's concept-level QeQ and counter-verses.",
+   "evidence": "v11 NOTES 'Root cause …: every one is in v5's global input … AND in v11's digest — but the digest keeps only ref + 60 chars of opening Arabic, dropping the review label and the one-line note … ~90% of the digest is this reasonless list.' compare_s001_v5.md: 167 v5 prose refs missing from v11, including 57:15, 6:70, 7:186, 2:256.",
+   "cause": "digest.py deliberately removed labels because they 'have suppressed good links before', but removed the reasons with them."
+  },
+  {
+   "claim": "Homogenisation: ayah readings retold the surah scene.",
+   "evidence": "v11 NOTES: 'every S100 ayah reading re-tells the raid scene'. REVIEW R1 risk table: 'Homogenisation: every ayah retells the surah image (already seen in S100's raid)'.",
+   "cause": "Parallel independent ayah calls, each given the whole surah and no disclosure plan."
+  }
+ ],
+ "recorded_verdicts": [
+  {
+   "source": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v11/REVIEW.md §0.1",
+   "verdict": "\"v11 is the best prose and the best Quran-explains-Quran engine the project has produced. It is also structurally unable to produce the gold's signature finding.\""
+  },
+  {
+   "source": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v11/REVIEW.md §2.1",
+   "verdict": "\"v11: 11 Y, 4 P, 2 L, 9 N.\" (26 eligible gold items) \"v5 contains the ingredients of nearly all 26. It then refuses to assemble them.\""
+  },
+  {
+   "source": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v11/compare_s001_v5.md, Summary",
+   "verdict": "\"v11 ≥ v5 on depth, precision and surah architecture. v5 still wins on thematic cross-reference breadth, especially ethical and practical mercy verses and counter-verses.\""
+  },
+  {
+   "source": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v11/REVIEW.md §0.2",
+   "verdict": "\"The earlier verdict in compare_s001_v5.md has to be reversed on one point … The water system and the traveller's prayer are the user's own examples of the 'aha'.\""
+  },
+  {
+   "source": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v11/NOTES.md (next steps, item 2)",
+   "verdict": "The user on the v11 surah commentary: \"too compressed, I cannot follow what is coming from where\"."
+  },
+  {
+   "source": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v11/README.md",
+   "verdict": "\"Luna's judgment did not beat its own unjudged candidates: the script digest gives the writer the same reach at no discovery cost.\" \"Sampling variance is large (cold vs repeat cold: different anchors each time).\""
+  },
+  {
+   "source": "git commit 99b9c1566 (v11 arm S)",
+   "verdict": "\"S1 seed pass ($1.64; 14 mature systems; members ~all already in HFT/channel review; adds Quran staging + limits)\""
+  },
+  {
+   "source": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v12/README.md",
+   "verdict": "\"V11 left HFT out … so its surah pass and the arm-S seed pass rediscovered it ($1.64 for S1; the seed sheet's members were ~all in HFT/channels).\" \"(S1's has the road, herd, water camp, even the well and pulley the seed pass missed).\""
+  },
+  {
+   "source": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v12/NOTES.md (rabb dossier)",
+   "verdict": "\"the big groups are broad genres … rather than stated contexts; membership errors … Dossiers are not authoritative for the writer (user, 2026-09-27).\""
+  },
+  {
+   "source": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v12/NOTES.md (S1 run)",
+   "verdict": "\"27 dossier corrections recorded by the writers …, many credible: 12:23 is not the king (ر ب ب); 1:4 mālik given B003 where the form carries B002 …\""
+  },
+  {
+   "source": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v13/DESIGN.md §1",
+   "verdict": "\"v11 / v12 (ledger, QeQ first, chains judged per ayah) | QeQ, syntactic naẓm, Turkish loss (the user: 'loved it') | the latent chains, audited away one word at a time; a surah pass with a reject list\""
+  },
+  {
+   "source": "/Volumes/OZTURK/_projects/prose_generation/NORTH_STAR.md, Lessons",
+   "verdict": "\"Asking one prompt for two stances loses one of them: QeQ and grammar are evidence-bound, latent resonance is generative; each version tilted toward one (v11/v12 audited the chains away; the gold is latent-rich and QeQ-light).\""
+  },
+  {
+   "source": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v13/DESIGN.md §7",
+   "verdict": "\"Dropped: root dossiers as a v13 input (loaded words come from the concordance …); Luna as a nominator; per-ayah chain verdicts; the reject list.\""
+  },
+  {
+   "source": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v13/HANDOFF.md",
+   "verdict": "\"The network assembles the images v12 lost (road, herd, water, womb, benefaction circuit, swallowing passage).\" \"v12's QeQ strength is largely kept.\" Turkish loss in v13: \"good, better than v12\"."
+  },
+  {
+   "source": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v11/REVIEW.md §5.4",
+   "verdict": "On S100: \"This checks that the horses chain, already excellent in B, survives.\""
+  }
+ ],
+ "failure_modes": [
+  "Judging a chain by one of its members: v12's per-ayah Chains family ('1:4'te tutmaz'), 12–23 verdict lines per ayah.",
+  "Grounding used as a filter: 'no Quranic scene' became grounds to reject (v12 1:3, 1:6 ledgers; surah pass 'No Quranic scene' for the water and well channels).",
+  "Descriptive metadata used as a filter: usage.md's 'branches never the plain sense in any occurrence' was used as a reason to drop latent branches (1:7 ledger: 'Kur'an'da düz anlam olarak geçmeyen dallara dayanırlar').",
+  "Architectural blindness: each writer sees only its own roots, and the surah pass sees only ledgers, so cross-ayah coalitions cannot form (v11; REVIEW §2.1).",
+  "Silent script loss: the digest dropped the reason for each related passage (v11 NOTES root cause).",
+  "Stale evidence: V11 prep built 01_dictionary.md once and never refreshed it, missing merged envelopes (ق ر ء and ten others) and reviewed alternatives (و ل ه).",
+  "CLI output cap: multi-turn continuations re-bill the input (3/7 v11 S1 ayat, 5/7 v12 S1 ayat at num_turns=2). v13 HANDOFF names a 64K CLI cap.",
+  "Homogenisation: S100 ayah readings each retold the raid (v11 NOTES).",
+  "Compressed surah reading the reader could not follow (v11).",
+  "Writer turned into an auditor: v12 ledgers of 80–124 lines, with Chains verdicts and 27 dossier corrections. Inference: effort went into accounting over the inputs rather than into assembly.",
+  "Luna dossier failures: fragmentation (ر ح م 202 groups for 339 uses; ج ع ل 252/346), catch-alls (ء م ن 810/879 in one group; ع ل م 722/854), broad genre groups (rabb 209 ids), membership errors (2:129:1), wrong 'never plain' claims (ي و م B005, د ي ن B004); 54 of 113 roots needed their one repair and 9 were salvaged.",
+  "Known-answer leak risk: the seed prompt's Fatiha example had to be replaced (068af5f53). Codex's read-only sandbox can read the disk, so the known answers are protected 'by instruction, not by the sandbox' (root-dossier README).",
+  "Tests planned and never run (arm S writers, the Opus judge, the blind read, the S29 probe, the no-usage arm), so versions were replaced on qualitative reads without measured deltas.",
+  "Documentation drift: v12 HANDOFF says no Opus call was made, but NOTES records the finished S1 run."
+ ],
+ "dilution_evidence": [
+  "Recorded (v11 README, from V9 arms): 4:34 thinking tokens fell from 45k (cold) to 9k (full package); anchors went cold 8 → +dictionary 5 → +full Luna package 5. 'Input size costs thinking … so the writer's input is kept to context + dictionary + digest'.",
+  "Recorded (REVIEW §0.5): '\"More input is fine\" collides with the project's own measurement … Add seeds, not packages'. It proposed a 2–4k-token seed extract per writer instead of raw HFT/channels.",
+  "My computation (run logs in v9/lines/work/*/synth): writers given a judged slim Luna package instead of the unjudged script digest thought much less. 4:34: 13.7k vs 33.0k thinking; 18:86: 17.2k vs 27.7k; 1:2: 33.2k vs 53.6k. At 4:34 recall was 5 (reading) / 9 (ledger) vs 9 / 11 (README table). Inference: pre-judged inputs displace the writer's own exploration.",
+  "My computation (v11 vs v12 S1): v12 received 2–5x the input (first turn, for example, 1:1 142k vs 28k tokens; 1:3 117k vs 25k), yet thinking did not fall (S1 total 374k vs 284k; 1:5 83k vs 28k). So 'input reduces thinking' did not replicate in v12. The damage was in stance: the added chain maps and dossiers came with verdict families, and the writer audited (Chains family, 27 dossier corrections) and rejected latent chains. Inference: bulk input plus verdict instructions dilute generative synthesis even when thinking length holds.",
+  "More steps helped: the separate seed pass (one call, generative stance) produced the coalitions that the per-ayah stance-mixed writer did not. A step with a distinct stance beat more input to a single step.",
+  "More instructions helped in a targeted way: an explicit Loss instruction raised Turkish-loss coverage (v12 'Türkçe' mentions 27 vs 3), and the Limits family recovered counter-verses.",
+  "Recorded (v11 README): 'The earlier \"dictionary crowds out Quran reach\" was mostly an instruction artefact (fixed in write.md)'. Instruction wording, not input size, caused that apparent dilution.",
+  "Not measured: v12 README promised to measure the input effect ('knobs: inputs.SPAN, the HFT clips, dropping channels.md or neighbours.md for an arm') and a --no-usage arm. None was run."
+ ],
+ "luna_evidence": [
+  "Good at descriptive, worklist-shaped grouping when checked by script. 10-root test: '0 mixed groups; all expected branches; both repeated phrases recorded; ḥamaʾ records the variant ḥāmiya; Luna split 18:42 (garden on trellises, B003) from the towns on their roofs, which corrected the answer key' (v12 NOTES).",
+  "Resourceful: for ر ب ب (980 occurrences, 321 KB packet) Luna built its own Python classifier over quran.txt, with hand cases for Yūsuf's master and 6:76–78 (v12 NOTES). It completed 123/123 roots with 0 failures and 0 lint flags on next.txt.",
+  "Weak at the right granularity and at consistency: 39 roots have more than one group per two uses (ر ح م 202/339); the three largest roots collapse into catch-alls (ء م ن 810/879); rabb's 209-id 'broad genre' group; membership errors; wrong 'never plain' assertions (v12 NOTES; S1 dossier_corrections.md, 27 corrections by Opus writers). 54 of 113 roots used their one repair; 9 salvaged (NOTES).",
+  "Luna's judgment added little over script data for commentary discovery: 'Luna's judgment did not beat its own unjudged candidates' (v11 README). The v11-luna arm had lower recall than v11-script at 4:34 (5/9 vs 9/11).",
+  "Recorded role advice (REVIEW R6): use Luna as a miner before Opus (one-time branch image tagging of the whole dictionary) and as an auditor after Opus, never as an editor. It quotes the V9 finding that 'Luna and Sol writers rejected kohl and the night path on literal grounds and made attribution errors'. None of these Luna roles was run in v11/v12.",
+  "Cost: 39.6M input tokens (30.6M cached) and 4.16M output for 123 roots (out/status sums). Dollar cost unknown. Sol and Astra were not used in v11/v12 (Astra appears only as v5's comparison baseline)."
+ ],
+ "pretraining_vs_data_evidence": [
+  "Pretraining suffices for Quran text and references when a script verifies them. v11 allowed Quran quotes from memory: all 7 S1 ayat verify missing=0, wrong-ayah=0 (fixed 0–2 per ayah); S100 had 1 missing (a dictionary phrase) and 1 wrong-ayah across 11 ayat (check.txt). There are 525 ledger refs in S1, many beyond the digest ('including what the files do not list').",
+  "Pretraining supplied many of v11's distinctive surprises without pushed data: the rasm of bismi, 27:30–31, 82:19 as the definition of the mālik day, 7:16, 28:17/26:20 (REVIEW §2.2). These are Quran-internal and memory-based.",
+  "Rare dictionary senses must be pushed, and pushed across ayat. The herd, road and water coalitions need م ل ك B006/B007/B008, ع ل م B005 (ʿaylam), ر ب ب B013, غ ي ر B001 and ق و م B012. The v11 writer had some of these in its own dictionary but skipped them (REVIEW: G002, G025 'in-dictionary cases'). It could not see the others at all. The seed pass, given the whole-surah branch table, found them.",
+  "Pushed data with reasons matters more than bare refs. Every v5-only concept-level ref was already in v11's digest, but without its reason line, and v11 did not use it (v11 NOTES root cause). Digest v2 restored the reasons.",
+  "Usage patterns: Opus stated many from memory with [recall] flags (v12 1:5 'iyyāka … [recall, sayım kontrol edilmeli]'; 1:6 '[recall: hiçbir geçişte çoğul değildir]'). Opus's knowledge was good enough to correct Luna's groupings 27 times. Inference: the valuable data is the exact script occurrence lists and counts, not the model-made grouping.",
+  "A memory sense the dictionary lacks was held back. v11 S100 left out 'ḍabḥan = at dawn' because it is 'not in our qirāʾāt source' (v11 NOTES). The guard worked, at the cost of a v5 reading.",
+  "Rare-sense counts: [recall] ledger lines were 30 (v11 S1), 34 (S100) and 25 (v12 S1), about 3–7% of ledger lines (my count). Most content was anchored in pushed data or in the verified Quran."
+ ],
+ "reusable_artifacts": [
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v11/out/arms/S/s001/seeds/all/seeds.md",
+   "what": "Opus seed sheet: 16 latent image systems (14 mature). Each gives members as S:A word → root Bnnn → role, mechanism, containment sentence, perceptible payoff, Quran staging refs, limits and maturity; plus single-branch surprises and HFT dispositions that correct broken traces. ayat.md next to it holds a Turkish per-ayah disclosure note.",
+   "coverage": "S1 only",
+   "reuse_idea": "Labelled positive examples of cross-ayah coalitions (member sets with roles) for tuning a coalition/distance model. The ready S1 input for a disclosure-plan or prose step. A template for a coalition-first surah step."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v11/seeds_input.py",
+   "what": "Script, no model: whole-window branch table; compact HFT; surface-staging windows (Quran passages where several of the window's branch images appear on the surface in other words, widened by dictionary synonyms); definitional cross-root links (a branch phrase naming another window root); pericope windows ±7.",
+   "coverage": "Any surah (pericope windows for long surahs); output kept only for S1",
+   "reuse_idea": "Q5: the staging score and the definitional-link graph are ready script-level discovery features. Replace the regex image words with per-branch image-field tags (REVIEW R6a) and add base rates against random windows."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v11/eval/s001_anchors.md",
+   "what": "Frozen S1 anchor set: G = 26 gold items + 6 bonus, each with evidence phrases (Arabic dictionary lines); V5 = v5-only items incl. a limits subset; V11 = v11-only finds (regression guard); N = north-star examples. Also judge categories absent / ledger-only / mentioned / integrated.",
+   "coverage": "S1",
+   "reuse_idea": "An evaluation set and seed labels for a retriever or distance model (branch pairs that should be close: م ل ك B008 ↔ ه د ي B003, ض ل ل B005 ↔ ر ب ب …)."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/root-dossier/out/activation_map.tsv",
+   "what": "One row per QAC occurrence: surface, lemma, morphology, root, role (dominant/minor), plain-reading branch_ref, variant, group, basis (group / stop / minor / script / exception).",
+   "coverage": "25,203 occurrences, 123 roots, 5,519 ayat; 22,127 of 49,968 rooted word occurrences (44.3%)",
+   "reuse_idea": "Compute per branch whether and where it is ever the plain sense. Use 'never plain but activated' as a surprise-candidate flag, not a filter. Branch co-activation statistics for a Q5 distance. Training labels for a plain-branch classifier."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/root-dossier/out/final/*.json (123) and packets/*/A.md, A_wa.md",
+   "what": "Luna-grouped concordances (groups by stated context with labels and branch, exceptions, wording, minor lemmas) and full per-root concordance packets (every occurrence in its ayah, forms table, variant readings, disputes; the A_wa variant adds local word-analysis senses).",
+   "coverage": "123 roots (packets: 123 roots, 18 MB)",
+   "reuse_idea": "Use the packets (script-exact) as a concordance source for loaded-word detection. Treat the groupings as a noisy map. The A_wa packets allow the never-run word-analysis arm."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v12/out/s001/dossier_corrections.md",
+   "what": "27 Opus corrections of Luna dossier groupings, each with refs and the reason.",
+   "coverage": "S1 roots",
+   "reuse_idea": "A labelled error set for dossier quality. Evidence of where a model-made grouping misleads."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v12/out/s001/*/1_*.ledger.md and /Volumes/OZTURK/_projects/prose_generation/_commentary/v11/out/{s001,s100,s018}/*/*.ledger.md",
+   "what": "Turkish findings ledgers with refs, roots and grade per line. v12: 738 lines in 9 families, including about 134 Chains verdict lines and 63 New lines. v11: 461 (S1), 567 (S100), 62 (18:86).",
+   "coverage": "S1 (v11 and v12), S100 and 18:86 (v11)",
+   "reuse_idea": "QeQ retrieval gold (ayah → passage + the job it does) for training or evaluating a passage retriever. The v12 Chains verdicts are a record of pruning decisions (negative examples of the anti-pattern)."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v11/out/s001/surah/chains.md, /Volumes/OZTURK/_projects/prose_generation/_commentary/v11/out/s100/surah/chains.md, /Volumes/OZTURK/_projects/prose_generation/_commentary/v12/out/s001/surah/all/chains.md",
+   "what": "Surah chains with ayat, parts, movement, (v12: meets / staging / limits / sources), grade. v12 ends with a 'Rejected / not carried' list.",
+   "coverage": "S1 (18 + 19 chains), S100 (16)",
+   "reuse_idea": "Chain labels at surah level. The v12 reject list documents which channel-review channels a stance-mixed pass drops."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v12/inputs.py",
+   "what": "Evidence builders: branch_table, hft_records/hft_for (every HFT trace step resolved to its word and branch and flagged as nonexistent branch / echo / alternative / not the word's root), channels parser, pericope windows, neighbours.",
+   "coverage": "Any ayah; HFT for 90 surahs, channel reviews for 110",
+   "reuse_idea": "Already reused by v13. The script-flagged HFT traces give a cheap validity filter on existing chains before any synthesis."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v11/verify_src.py and /Volumes/OZTURK/_projects/prose_generation/_commentary/v12/run.py (check/repair/strip, estimate gate, never-twice lock)",
+   "what": "Source-checked Arabic tag verification with --fix; an automated check → one repair → strip pipeline; cost gate and status.",
+   "coverage": "Any output",
+   "reuse_idea": "Checkability layer (NS10) for any new method."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v9/lines/work/*/digest_v2.md (built by v9/lines/digest.py --v2 via v11 prep)",
+   "what": "Script digest: qirāʾāt, each root's occurrences, related passages with the earlier review's reason and counter flags, ordered by label with labels not printed.",
+   "coverage": "Ayat prepared in v11/v12 (S1, S100, 18:86, 29:39/41/45, 96:1, 4:34 …)",
+   "reuse_idea": "A compact QeQ candidate list with reasons. Better used as a late missing-passage check (per NORTH_STAR) than as upfront bulk."
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v12/eval/known_dossiers.json + score_dossiers.py; known_answers.md",
+   "what": "Occurrence partitions for ḥamaʾ, nafakha and ʿarsh; partial classes for rabb and ṣalāh; a scorer; the S29 known answer (29:39 race ↔ 29:45 ṣalāh 'second horse' ↔ 29:41 houses).",
+   "coverage": "5 roots; 1 S29 probe",
+   "reuse_idea": "Known-answer tests for loaded-word detection and for a script retriever (can a distance measure surface 29:39–29:45 without a model?)."
+  }
+ ],
+ "unharvested_ideas": [
+  {
+   "idea": "Run the full arm S: surah seed pass → ayah writers given only their seed extract (2–4k tokens) with a disclosure rule → surah_s pass over branch table + seeds + ledgers. Then score against the frozen anchors (bar: G ≥ 22/26 integrated, ≥ 18/26 in the ayah prose).",
+   "where": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v11/REVIEW.md §5; run.py --arm S; out/arms/S/s001 (only the seed pass exists)",
+   "why_dropped": "v12 dropped the seed pass as rediscovery ('members ~all already in HFT/channel review'; user rule to never rediscover chains). The pass's value was the assembly, staging, limits and trace corrections, which the raw chain maps pushed into v12 did not replace.",
+   "potential": "High. It is the coalition-first, stance-separated step that NS8 demands, at about $0.23 per ayah, and the seed sheet already exists for S1 (estimated arm cost ≈ $15 for S1, REVIEW)."
+  },
+  {
+   "idea": "One-time Luna image tagging of every dictionary branch (concrete object or scene, image fields such as water / road / herd / body / texture, other roots named in its classical phrase). Then script coalition candidates (≥3 roots' non-primary branches sharing a field in a window) with base rates against random windows (a shuffle test), plus precise surface-staging retrieval.",
+   "where": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v11/REVIEW.md R6a, §2.5",
+   "why_dropped": "Deferred until after the S1 test ('R1 works on S1 without it'), which never ran. v12 went to root dossiers instead.",
+   "potential": "High for Q5: a reusable, whole-Quran, script-computable distance (shared image fields plus definitional links, normalised by base rate) that feeds discovery before any synthesis."
+  },
+  {
+   "idea": "A surface-staging script: find passages where the Quran tells a surah's latent scene openly (28:21–24, 16:5–16, 20:49–54 for the Fatiha's traveller, herd and water).",
+   "where": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v11/REVIEW.md §2.5 (a 30-line QAC prototype with 8 fields); seeds_input.py staging()",
+   "why_dropped": "Implemented only inside seeds_input (noisy top-40 list), which v12 dropped. It was never evaluated.",
+   "potential": "Checkable 'aha' through QeQ for latent images (NS6/NS7). Under the current NORTH_STAR it should strengthen a reading, never gate it."
+  },
+  {
+   "idea": "Luna as auditor after the Opus draft (a gap list of seed members, HFT traces, counter rows) plus one Opus patch call that integrates only what changes the reading.",
+   "where": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v11/REVIEW.md R6b, R6c",
+   "why_dropped": "Optional arm; never scheduled.",
+   "potential": "Medium: a cheap recall check that keeps Luna out of synthesis."
+  },
+  {
+   "idea": "Production through the Messages API in batch mode with a byte-identical shared surah prefix and a cache_control marker (≈ $15 for a 20-ayah surah).",
+   "where": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v11/README.md 'Production'; REVIEW R8",
+   "why_dropped": "'Decided 2026-09-26, not built'; v12 HANDOFF lists it under 'Not built'.",
+   "potential": "High for NS13: roughly halves to thirds the claude -p cost with no quality change. It also removes the CLI continuation turns."
+  },
+  {
+   "idea": "A gloss error-profile sheet per focus word (selected Turkish gloss, fit, loses, collision) to make the Turkish loss data-driven.",
+   "where": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v11/REVIEW.md §2.3 item 6, R3",
+   "why_dropped": "v12 relied on instruction alone.",
+   "potential": "Medium: systematic NS2 at about 1–2 KB per ayah."
+  },
+  {
+   "idea": "Long-surah design: window seed passes → one whole-surah map call with a script recurrence index (repeated phrases, Quran-rare roots recurring, non-primary branches of one root across non-adjacent pericopes) → writers get window seeds plus map chains.",
+   "where": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v11/NOTES.md 'Long surahs'",
+   "why_dropped": "Reviewed, never built. v12 runs the surah pass per passage window.",
+   "potential": "Needed for 80–110-ayah surahs; the recurrence index is a pure-script discovery aid."
+  },
+  {
+   "idea": "Ablation arms planned in v12: --no-usage; dropping channels.md or neighbours.md; the Opus judge and the user's blind read against v11/v5; the S29 probe (known answer: 29:39 race ↔ 29:45 ṣalāh B006 'second in a race').",
+   "where": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v12/README.md 'Test plan'; eval/known_answers.md; work/s029",
+   "why_dropped": "Superseded by v13 right after the S1 run.",
+   "potential": "They would have isolated whether usage.md's 'never plain' line and the bulk maps caused the pruning (a causal answer to Q2a and to dilution)."
+  },
+  {
+   "idea": "Root dossiers for the whole Quran, and the word-analysis arm (--wa).",
+   "where": "/Volumes/OZTURK/_projects/root-dossier (123 of 1,647 roots done; A_wa packets built)",
+   "why_dropped": "v13 DESIGN §7: 'Dropped: root dossiers as a v13 input (loaded words come from the concordance …)'. The user's rule: dossiers are not authoritative.",
+   "potential": "Low as groupings (noisy). Medium as a script-exact concordance plus an activation map that flags latent branches."
+  },
+  {
+   "idea": "Ledger paragraph pointers and a terse ledger (dictionary lines citing root Bnnn instead of quoting).",
+   "where": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v11/REVIEW.md R5 (pointers built in render() for non-B arms and in v12)",
+   "why_dropped": "The terse ledger was deferred as a recall risk.",
+   "potential": "Low. REVIEW measured the ledger at $0.08–0.13 per ayah."
+  }
+ ],
+ "key_lessons": [
+  "Q1: Significant opportunities were started and never harvested. The clearest is the v11 seed pass: one coalition-first surah call ($1.64 for S1) assembled the herd, road, rain and soft-hard systems that both v11's and v12's per-ayah writers pruned. It was dropped under a 'no rediscovery' rule, although its value was assembly, staging and limits rather than discovery. The batch plus cached-prefix production path (projected about $0.75 per ayah) was also designed and never built.",
+  "Q1/Q4: The decisive variable was stance, not data. v12 fed the writer the very chains the user wanted (channel 9B 'Water-Secured Encampment', 10B 'Well and Water-Lifting Assembly' with ق و م B012). The writer rejected them because the brief asked it to judge each chain per ayah and to require an open Quranic scene. A non-iterative design should keep the generative assembly (surah-level, coalition-first) and evidence-bound checking (QeQ, verification) in separate calls. The QeQ step may strengthen a reading but never delete one.",
+  "Q2a: Pretraining suffices for Quran text, references and many Quran-internal surprises, given script verification (0 missing quotes across S1 in both versions). Rare branch senses and cross-ayah branch visibility must be supplied, but compactly and to the step that assembles (a surah-level call). Pushing them to every per-ayah writer is costly and can backfire.",
+  "Q2a: Descriptive metadata can act as a hidden filter. usage.md's 'branches never the plain sense' line, meant as description, was used as grounds to reject latent readings. A latent-branch signal should be delivered as 'surprise candidate', never as 'not plain'.",
+  "Q2b: Labelled material in this scope is enough to evaluate but thin for training a latent-coalition retriever: 26+6 S1 gold items with evidence phrases, 16 seed systems (S1), about 53 surah chains (S1 ×2, S100), about 134 per-ayah chain verdicts (biased toward rejection), 27 dossier corrections, 5 known-answer roots. The large labelled resource is the activation map: 25,203 plain-branch labels, which can train or define 'plain vs latent' but not coalitions. Inference.",
+  "Q3 (inference from recorded verdicts): v5 'contains the ingredients of nearly all 26 [gold items] … then refuses to assemble them' (REVIEW). A step on top of v5 that mirrors the seed pass (an Opus assembly call over v5's ingredient records plus the surah branch table, coalition-first, no per-member verdicts) is the direct analogue of what worked here.",
+  "Q5: Script-level distance ideas already prototyped in this scope: (a) surface-staging windows, where the Quran tells a scene openly with other words (QAC field co-occurrence, 6-ayah windows); (b) a definitional cross-root graph (a branch's classical phrase naming another root of the window); (c) per-branch image-field tags with base rates against random windows (a shuffle test); (d) plain-branch map features from activation_map.tsv. Combined, they give a branch–branch distance of shared image field + definitional link + co-staging, normalised by base rate.",
+  "Economics: a single Opus call per ayah at effort high cost $0.77–1.30 on short ayat even through claude -p. The cost growth came from bulk inputs, longer ledgers and CLI continuations, not from the synthesis model itself. Output (mostly thinking) is about 84% of cost.",
+  "Process lesson: every version since v11 replaced its predecessor before its planned measurement ran (arm S, judge, blind read, S29 probe, the no-usage arm). The iteration loop lacked a fixed, cheap, automatic scorecard, and the frozen anchors existed but were never used as a judge."
+ ],
+ "open_questions": [
+  "Would arm S (seed extract → writers → surah_s) have met the REVIEW bar (G ≥ 22/26 integrated, V11 ≥ 90% retained, thinking not down more than 30%)? Unknown: never run.",
+  "Is the pruning in v12 caused mainly by the per-ayah verdict families, by the 'never plain' line in usage.md, or by bulk input? Unknown: no --no-usage or reduced-input arm was run.",
+  "Did the user blind-read v11 or v12 against v5 or the cold arms? The README and NOTES list it as open. NORTH_STAR says it was revised 'from the user's answers after the v12 S1 run', but those answers are not recorded in the v12 files.",
+  "What did the Luna dossier runs cost in dollars (39.6M input / 4.16M output tokens)? Unknown.",
+  "Can a script retriever (staging windows, definitional links, image-field tags) surface the S29 known answer (29:39 sābiqīn ↔ 29:45 ṣalāh B006 ↔ 29:41) and the Fatiha stagings (28:21–24, 16:5–16, 20:49–54) without a model? The prototype found 16:5–10 but ranked noisy windows (86:1–6, 5:106–111) alongside it (seeds_input.md §c). Not evaluated.",
+  "Did the CLI continuation turns (num_turns=2 on 5 of 7 v12 ayat) affect output quality, or only cost? Unknown.",
+  "Does the seed sheet's 'Rain as mercy' system, which it marks as homonymous lexemes 'heard only as root resonance', satisfy the reader's water system (the well and pulley were missed by the seed pass per the v12 README)? Unresolved."
+ ]
+}

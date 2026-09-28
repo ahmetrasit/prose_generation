@@ -1,0 +1,420 @@
+{
+ "scope": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v10: DESIGN.md, README.md, experiments/2026-09-25/REPORT.md, evidence.py, sources.py, retrieval.py, prepare.py, prompts/curate.md, prompts/write.md, work/ (evidence packets for 1:2, 12:84, 18:86, 93:3 and 2:255; two Luna map runs, one failed init, a Sol writer preview that was never sent), tests/ (only the bytecode of a deleted test_workflow.py is left), plus bytecode of the deleted runner.py, checks.py and __main__.py in __pycache__. Because v10's writer prompt was frozen byte-identical into V9 as _commentary/v9/prompts/write_v10.md (md5 dddcd1b2 for both files) and run as the 44 \"w10-*\" arms (the \"cold arm\"), I also report the recorded results of those runs as evidence about v10's writer brief. I did not compare prose quality across versions; I only quote recorded verdicts and count facts such as refs and costs.",
+ "timeline": "Recorded in files and git:\n- 2026-09-25, about 21:00–22:07 (file mtimes; run.json started_at): v10 was built in one evening, after V9's 20:36 commit e5fb8cd2a. First prototype: prepare, a Luna \"map\" step with a JSON schema and a per-chain coverage ledger, a writer, runner.py (codex exec for gpt-6-luna/gpt-6-sol; claude -p for claude-opus-5-5 with --max-budget-usd), checks.py (mechanical prose checks), __main__.py and tests/test_workflow.py. All of these survive only as .pyc files in __pycache__ (mtimes 21:33–21:45).\n- 21:24–21:31: evidence packets for 1:2, 12:84 and 18:86, without network retrieval. retrieval.py was added at 21:30, and the *-auto packets plus 2_255-no-hft were built at 21:31.\n- 21:33:55: the first 18:86 Luna map failed at sandbox init after 0.28 s (\"failed to initialize in-process app-server client: Operation not permitted\", work/18_86-auto/luna-map-1/stderr.log).\n- 21:34:23: the second 18:86 Luna map completed in 365.26 s (luna-map-2/run.json).\n- 21:39:34: the 93:3 Luna map (no HFT) started. The runner's 900 s timeout killed it at 900.07 s (93_3-pilot/luna-map/run.json).\n- 21:45: a Sol writer preview was prepared and never sent (sol-writer.preview/preview.json: \"model_call_started\": false). The user's quota instruction then stopped any further launches (REPORT.md l.4-6).\n- 21:45–22:07: revision. The runner, checks, __main__ and tests were removed. The JSON map became a plain Markdown brief with no coverage ledger. Old inter-ayah relevance verdicts were stripped from model input. contrast_candidates and rare-panel survival were added. A local transport check (work/18_86-local-reader and -local-writer, 22:06) re-used the old map converted to Markdown (reading-brief.from-map.md).\n- 2026-09-25 22:24 (commit b476dbf9f): V9 froze v10/prompts/write.md as v9/prompts/write_v10.md and ran the w10 arms through about 00:50 on 2026-09-26 (commits 492850b62, 623b31c5c, 5e0ce9e13, 2cf722f23, 703c43d03, e0fcd6610, ab3741ac3, 40b2b5aae, 737d71935, e88c33032).\n- 2026-09-26 13:09 (commit d85915bb2, \"V11: raise claude CLI output limit …; add _commentary/v10 (cache ignored)\"): v10's only commit, 53 files and 456,920 insertions, work/ included even though README l.46 says work artifacts are ignored.\n\nWhat prompted it (DESIGN.md l.1-62):\n- v5 editorial prose was catalogue-like and long (1:6: 11,249 words; 93:3: \"many images are introduced as another version of care\").\n- v5's discovery prompts were bulky (12:84: 2,773,383 bytes).\n- HFT should not be a mandatory, expensive prerequisite.\n- The question \"whether an explicit division of observable work reproduces the useful result\" of Opus with cheaper models (Luna Max, then Sol Max) (DESIGN l.16-21; README l.11-13).\n\nAuthor (agent or model): unknown.\n\nLater references: v11/README.md (anchor table, l.35-54); v11/NOTES.md l.77 and l.88 (\"v10 has no 18:86 prose\"); v13/DESIGN.md l.16, l.94 and l.138; NORTH_STAR.md (lessons: \"the 5:6 / 4:34 cold arm (a 68-line brief on context only, $1.4–1.5)\"); v15/DESIGN.md §11–12; v15/STATUS.md.",
+ "mechanism": "Stage 0, script only (prepare.py → evidence.prepare; never calls a model):\n- Inputs: QAC morphology (qac.sqlite.gz, decompressed to .cache), the dictionary/tr root entries, root gateways (qac-dictionary-root-resolutions.json, qac-dictionary-word-root-analyses.json, qac-furuq-v4-root-map), the v12 full_context_packet branch inventory for the focus surah plus S1, the ayah bundle (bundles/sNNN/S_A.ayah.json or its pericope copy), HFT reader files (latent_activation/focus_trace/runs), channel-review Markdown (quran-data/.../network-v3/sNNN/review/reader_a_pilot.md for the surah and S1), the v12 reader walks and wide walks, word analysis (word-analysis/sNNN.jsonl.zst) and the reciprocal inter-ayah TSV.\n- Each word gets root_mappings typed identity / attributed_alternative / observed_echo_only (sources.py l.164-202).\n- Each HFT trace step is re-bound to QAC as exact / root_matched_legacy_index_differs / unresolved (sources.py l.204-218).\n- Channel reviews are parsed into subnetworks with branch refs and ayah anchors; an unrecognized format raises an error, \"refusing silent loss\" (evidence.py l.18-40).\n- Retrieval (retrieval.py): for every branch of every focus root, rank the branches in the surah+S1 inventory pool by symmetric reciprocal-rank fusion over the quran-slm directional rank matrices: 0.35 E5-small, 0.35 NeoAraBERT, 0.30 character TF-IDF, offset 10, pairs with zero rank excluded. Keep the top 3 distinct non-focus roots per focus branch (k=3). The embedded texts are branch cards (branch_image_ar, what_is_ar, source_phrase_ar; quran-slm/artifacts/corpus_network/build_report.json). The score is \"retrieval affinity only; not relevance\" (retrieval.py l.53).\n- Quran usage: root-to-lemma concordance from QAC. A root in ≤24 ayat gets a complete panel across derivatives; otherwise, focus lemmas in ≤24 ayat get a panel (evidence.py l.155-170). Frequent roots get counts only.\n- contrast_candidates: ayat sharing ≥2 focus roots, at least one with df ≤500, ranked by summed IDF, top 12 (sources.py l.254-269).\n- Ayah texts: the whole surah plus the Fatiha, plus ±2 ayat around every seed (focus, rare panels, contrasts, inter-ayah refs, chain anchors, refs in word analysis).\n- Inter-ayah verdict labels and notes are replaced by bare candidate refs (evidence.py l.270-276).\n\nStage 1, reader/curator (prompts/curate.md, 78 lines; intended model Luna Max, \"also usable with Opus\"):\n- Returns a Turkish Markdown brief starting \"Focus: S:A\".\n- It orients the writer, develops \"the strongest readings\" in connected paragraphs, and cites source pointers (H###, C###-###, W-…), branch refs and ayah refs.\n- No section count and no per-finding ledger.\n- Prototype (the version actually run): the same text, but returning a JSON map (movements with chain_ids/branch_refs/ayah_roles/relationship/focus_change/boundary, plus a mandatory coverage decision develop|merge|defer|unsupported for every focus-linked chain; luna-map-2/prompt.txt, response.schema.json).\n\nStage 1→2 handoff, script (evidence.hydrate_brief l.207-246):\n- Only the chains the brief cites travel whole, with lexical evidence for their branches and any root_/B refs in the brief.\n- ±2 windows go around every cited ref.\n- ALL rare usage panels are added whatever the brief says (\"Corpus-loading panels survive semantic reduction\").\n- The whole surah and the Fatiha are always added.\n- The source manifest's sha256 values are re-checked for drift.\n- Chains the brief omits are not passed on, and no exclusion list is handed forward.\n\nStage 2, writer (prompts/write.md, 68 lines; Sol Max or Opus):\n- Output: Turkish prose with {ar:…, tr:…, gloss:…} tags and exact refs.\n- A brief is \"a proposal, not an authority\"; without a brief the writer does the synthesis itself (a direct writer on the broad evidence).\n\nNo runner, retries, checks or acceptance gate exist in the committed version (README l.15-16; REPORT l.57-58).\n\nPacket sizes (bytes measured; tokens from provider usage):\n- 18:86 reader prompt: 1,147,237 B → 335,235 Luna input tokens (about 3.42 B/token).\n- Revised 18:86 reader prompt: 1,131,506 B. Instructions are 5,366 B (0.5%). Payload shares: lexical_evidence 27.4%, branch_catalog 23.2% (719 cards), ayah_texts 21.3% (816 ayat), chains 19.7% (156 chains, of which background subnetworks are 183,993 B, i.e. 83% of chain bytes), network_candidates 3.0%.\n- Writer prompt after hydration: 303,187 B (ayah_texts 31.8%, lexical 28.2% for 45 branches, chains 13.5% for 16 chains, brief 5.0%).\n- Other reader payloads, measured by my script with v10's model_payload: 12:84 927,705 B; 93:3 no-HFT 508,271 B; 2:255 no-HFT 1,747,556 B (about 511K tokens at 3.42 B/token; Inference).\n\nStances:\n- Curator: synthesis and selection by \"reader value and coherence, not familiar versus unfamiliar … confident versus exploratory\" (curate.md l.47-50).\n- Writer: develop main themes, \"not every possible finding\" (write.md l.20).",
+ "inputs_pushed": [
+  "Reader/curator prompt (evidence.model_payload): focus Arabic text, QAC words and morphemes with typed root_mappings (identity / attributed_alternative / observed_echo_only)",
+  "focus.linguistic_observations: word-analysis prose, gloss_range and root display per focus word (18:86: 29,368 B). Inference: this prose is itself model interpretation (e.g. balagha 'limit … where movement becomes responsibility' matches HFT H001), yet README l.53-55 keeps it even under --upstream none as 'canonical linguistic analysis'",
+  "Every HFT record (baseline_models, context_deltas, surprising_valid_outliers) with changed_reading, mechanism, focus_anchor, reader_inference, containment and the HFT 'confidence' label (strong/medium/exploratory); trace steps pushed as resolved_steps with binding_status and occurrence mapping (evidence.py l.97-108, l.280-281)",
+  "All network-v3 channel-review subsections for the focus surah and for S1: focus-linked ones with parent framing, background ones without it (18:86: 144 subnetworks, 3 focus-linked; 1:2: 45, 32 focus-linked)",
+  "Complete v12 reader walks and wide-context walks (W-v12_reader_walks-*, W-v12_reader_walks_wide-*)",
+  "branch_catalog: image_ar, scope_ar and gloss_tr for every visible branch (focus roots, chain branches, retrieval candidates); 18:86 has 719 cards",
+  "lexical_evidence: full dictionary branch records (attestation_ar, sources, source_details, definition_tr, lexicalization_scope, identity_judgment) for all branches of focus roots and of focus-linked chains (18:86: 184 branches, 308 KB)",
+  "occurrence_bindings: QAC word refs, mappings and morphology for chain anchor ayat",
+  "network_candidates: 3 distinct-root neighbours per focus branch (18:86: 156 focus branches, 405 candidates)",
+  "quran_usage_index: per-root lemma counts, with refs when a lemma has ≤24 ayat; quran_usage_panels: complete concordance for rare roots (18:86: ḥ-m-ʾ 4 ayat, gh-r-b 17, q-r-n lemma 22, ḥ-s-n lemma 13; 1:2: none)",
+  "contrast_candidates: 12 IDF-ranked co-occurrence ayat (added after the Luna run; never shown to a model)",
+  "inter_ayah: candidate refs only, with an instruction that they are not endorsed. Before the revision, the 131 rows including 'no value' labels and notes were pushed (the 18:86 run saw them)",
+  "ayah_texts: whole surah, whole Fatiha, ±2 around every seed (18:86: 816 ayat)",
+  "Writer prompt (hydrate_brief): the brief, the cited chains whole, lexical evidence for cited branches, bindings, all rare usage panels, ±2 windows around cited refs, whole surah and Fatiha",
+  "V9 w10 arms using write.md (V9's harness, not v10's): cold = context.md only (ayah, words, word notes, anchor translation, Fatiha, whole surah); dict = + 01_dictionary.md; dhft = + 02_hft.md; dslim = + dictionary + slim Luna package; w10-opus/sol/luna = + full V9 package.md (_commentary/v9/lines/synth.py l.8-14, l.61-66)"
+ ],
+ "inputs_pulled_or_optional": [
+  "--upstream auto|no-hft|none switches the three kinds of upstream interpretation: HFT, channel reviews and reader walks (prepare.py l.23; README l.50-55)",
+  "--network-k 0 exposes the full surah+Fatiha branch catalog instead of 3 neighbours; missing rank data falls back to the full catalog (README l.66-69)",
+  "The brief may cite any extra exact ayah refs; hydrate_brief supplies them with ±2 neighbours (curate.md l.30-33; evidence.py l.225)",
+  "The complete concordance for frequent roots 'stays on disk'; agents get counts plus contrast passages (curate.md l.41-43; model_payload l.256-269)",
+  "Direct writer: omitting --brief gives the writer the broad evidence without curation (README l.44)",
+  "Archived inter-ayah verdicts stay on disk and never reach a model (README l.64-65)",
+  "evidence.json keeps source_manifest sha256 values, passages, visible_branch_ids and retrieval_provenance for review; these are omitted from model input (model_payload l.251)",
+  "HFT is used when present, but no replacement HFT run is generated when absent (DESIGN l.9-14)"
+ ],
+ "available_but_unused": [
+  "Merged dictionary envelopes (11 files named root_A--root_B_entry.json) and the supplemental entries: sources.entry reads only dictionary/tr/{rid}_entry.json (sources.py l.130-136), so the 2:255 packet has 7 'inventory_only' branches (root_000099/100, 000466/467, 001409/1410, 003669). Fixed later in V9/V11 (commit 4f31e2ba9), not in v10",
+  "Turkish gloss records with loss/addition/collision fields (quran-data/data/translation/glosses/locales/tr; dictionary/v2/gloss_generation). Neither prompt asks what Turkish words lose (NS2)",
+  "Qirāʾāt (study/_project_corpus/qiraat.tsv): not read by v10, though V11's digest used it",
+  "Grammar attachments, clauses and translation_support (quran-data/data/grammar)",
+  "Pericope boundaries: v10 uses fixed ±2 windows, 'not a claim about passage boundaries' (evidence.py l.183)",
+  "latent_activation network candidate graphs, sparse paths and path families: only the review prose is used",
+  "Cross-Quran branch neighbours: retrieval is restricted to the surah+S1 inventory pool (retrieval.py l.25; DESIGN l.75-76)",
+  "v12 cross-run publication findings, root dossiers, reciprocal-list labels (deliberately stripped)",
+  "In the one completed run: 338 of 405 retrieved network candidates were in no chain, and the Luna map used 0 of them; 141 background subnetworks were pushed and 1 was used (C018-032). Counted by my script over work/18_86-auto/evidence.json and luna-map-2/map.json",
+  "contrast_candidates (e.g. 18:86 → 18:90, 18:17, 2:258, 41:50, 73:20, 17:23, 3:37, 20:130, 50:39, 18:93, 12:79, 46:23): built after the model run, never evaluated by any model"
+ ],
+ "models_and_cost": "v10's own model calls (all Luna; no Opus or Sol call was made inside v10):\n- 18:86 map attempt 1: gpt-6-luna, effort max, codex exec read-only with tools disabled. Failed at sandbox init after 0.28 s with 0 tokens (work/18_86-auto/luna-map-1/run.json).\n- 18:86 map attempt 2: completed in 365.26 s. Usage: 335,235 input tokens (0 cached), 19,918 output tokens, of which 14,486 were reasoning (luna-map-2/run.json; REPORT l.31-36).\n- 93:3 map (no HFT, 526,038 B prompt): killed by the runner's 900 s timeout (900.07 s). Usage is unknown, not zero (93_3-pilot/luna-map/run.json; REPORT l.40-49).\n- Dollar cost of the Luna calls: not recorded (subscription via codex).\n- The Sol writer preview (gpt-6-sol max, 307,481 B) was never sent.\n- The cost per ayah of the v10 curate→write pipeline is unknown: no end-to-end reading exists (REPORT l.3).\n\nv10's write.md run inside V9's harness (claude -p --model opus --effort high, no tools; CLI-reported total_cost_usd, which is an API-equivalent figure; tabulated by my script over _commentary/v9/lines/work/*/synth/w10-*/run.log.json):\n- 42 Opus calls, $43.69 in total.\n- 18 cold arms (context only): $0.32–1.58 per ayah, median $0.46, mean $0.64. Examples: 1:1–1:7 $0.35–0.71; 100:1/6/10 $0.35–0.48; 103:1–3 $0.32–0.40; 18:86 $0.60 (22,938 input tokens, 20,796 output); 18:96 $0.95; 5:6 $1.36 (38,291 in, 52,840 out); 4:34 $1.58 and $1.50 on the repeat.\n- Dictionary arms: $0.34–1.88.\n- Full V9 package arms: 103:1 $0.93; 103:2 $0.99; 18:96 $1.55; 103:3 $1.96; 18:86 $2.25 (198,711 in); 4:34 $2.93 (315,778 in); 5:6 $3.69 (416,230 in).\n- 4:34 ledger arm: $3.04.\n- w10-luna and w10-sol on 18:86 (codex, max): about 144K input tokens; 13,842 and 18,368 output tokens; 662 and 780 words against Opus's 2,382 (commit 492850b62). Dollar cost not recorded.\n- Wall time for the Opus arms: 157–600 s (duration_ms).",
+ "ayat_run": [
+  "v10 script preparation only (no model): 1:2 (work/1_2), 12:84 (work/12_84, 12_84-auto), 18:86 (work/18_86, 18_86-auto, 18_86-local-reader, 18_86-local-writer), 93:3 (work/93_3, 93_3-nohft, 93_3-pilot), 2:255 without HFT (work/2_255-no-hft)",
+  "v10 model runs: 18:86 Luna reading map, completed (luna-map-2/map.json: 5 movements, 15 coverage decisions, 4 unresolved questions); 18:86 first attempt failed at init; 93:3 Luna map timed out with no output",
+  "Named in DESIGN as a calibration case but never prepared: 29:38. The '--upstream none' condition was never prepared",
+  "v10 write.md in V9 w10 arms (44 runs): 1:1–1:7 (cold + dict; 1:2 also dhft), 4:34 (opus, cold, cold2, dict, dslim, ledger), 5:6 (opus, cold), 18:86 (opus, cold, dict, dslim, sol, luna), 18:96 (opus, cold), 100:1, 100:6, 100:10 (cold + dict), 103:1 (opus, cold, dhft), 103:2 (opus, cold), 103:3 (opus, cold)"
+ ],
+ "north_star_scorecard": [
+  {
+   "id": "NS1",
+   "rating": "partial",
+   "evidence": "Design: write.md l.8 'First understand the focus in its immediate grammar and scene'; curate.md l.62 'orient the writer to the ayah and the central reading question'. The v10 Luna map keeps the plain sense (M1: arrival, then the people found; M3: qulnā as the shift to divine speech, 18:87-88 fill the two options; work/18_86-auto/luna-map-2/map.json). No recorded review of orientation for any v10 output. The cold arms are long (4:34 3,211 words, 5:6 2,382; v15/DESIGN.md §11)."
+  },
+  {
+   "id": "NS2",
+   "rating": "absent",
+   "evidence": "Neither curate.md nor write.md asks what Turkish (loan)words lose or add, and the Turkish gloss/loss records are not loaded. Recorded: v15/DESIGN.md §11 'Where v15 is better: the Turkish-loss layer' (against the cold arm run on v10's write.md)."
+  },
+  {
+   "id": "NS3",
+   "rating": "strong",
+   "evidence": "Via write.md in the V9 cold arms. v13/DESIGN.md l.16: w10 cold arm gained 'local resonance within ayah and surah (mirfaq, kaʿb → Kaʿba \"qiyāman\" → \"qawwāmīn\") at $1.4–1.5'. v15/DESIGN.md §11: 'It also makes the North Star's 5:6 example in full'; it is richer in 'surah-internal parallels, al-Biqāʿī's naẓm'. v10's own curator run was weaker: its in-surah links (18:84-85 means, the 18:86/90/93 arrival formula, 18:17 sun, 18:94-98 barrier) all come from HFT H001–H010 and C018-032/034/056/071."
+  },
+  {
+   "id": "NS4",
+   "rating": "partial",
+   "evidence": "Design treats HFT/channel reviews as 'intellectual substance … not lists of related keywords' and says 'HFT is a starting point, not the ceiling' (curate.md l.9-13, l.52-53). Pointers hydrate whole chains, and separate subnetworks may combine (evidence.py l.207-246; README l.56-58). Luna map: all 10 HFT records and all 5 other focus-linked chains are grounded and reorganized, and one background subnetwork is connected (C018-032). No extension: all 44 cited branches are already in chains, and 0 of 338 retrieval-only branches are used (my count). Single-ayah design, so no progressive disclosure across ayat. The cold arm has no chain input."
+  },
+  {
+   "id": "NS5",
+   "rating": "partial",
+   "evidence": "Design: 'Add Quranic usage as a separate relation, including different derivatives' (DESIGN l.84-86); rare-root panels across derivatives (ḥamiʾa 18:86 / ḥamaʾ 15:26,28,33) survive reduction (evidence.py l.155-170, l.226-227). Failure: the Luna map says the inter-ayah assessment found the creation passages do not explain the focus (map.json M5; REPORT l.18-23 'The significant failure is Quranic loading'). By contrast, every w10 18:86 arm cites 15:26/15:28/15:33, the context-only cold arm included (my grep). No instruction on 'one recurring role' or on where the canonical translation departs from it."
+  },
+  {
+   "id": "NS6",
+   "rating": "partial",
+   "evidence": "write.md l.27-34: 'Let other ayat supply indispensable stages, contrasts and consequences, rather than gathering references after an already finished claim.' Old verdict labels are removed so they cannot suppress a reading (evidence.py l.270-276; curate.md l.35-39). There is no supports/expands/shifts/contradicts structure, no ordering of QeQ after the latent readings, and no rule leaving out QeQ that touches no axis. contrast_candidates (script QeQ candidates) were never shown to a model."
+  },
+  {
+   "id": "NS7",
+   "rating": "partial",
+   "evidence": "Design principle of integration: 'A source of water, its storage, the device making it accessible, and its use are not synonyms. Their relation explains something that a list of water words cannot' (DESIGN l.66-70). curate.md l.18-21: 'Complementary operations need not be semantically similar … do not veto a latent image because its physical object is not literally in the ayah.' NORTH_STAR lessons credit the cold arm (v10 write.md) with 'the latent readings the later auditing briefs lost'. v10's own Luna map added no aha beyond HFT: M5 = H010, M2 = H002+H006."
+  },
+  {
+   "id": "NS8",
+   "rating": "partial",
+   "evidence": "Against NS8: the prototype map forced a develop|merge|defer|unsupported disposition on every focus-linked chain (luna-map-2/response.schema.json). The revised curator selects 'the strongest readings' (curate.md l.16), and hydrate_brief passes only cited chains, so uncited ones vanish from the writer (evidence.py l.219). HFT 'confidence' labels (strong/medium/exploratory) are pushed to the model (model_payload l.280-281). For NS8: 'No frequency, hub-degree or literal-image admission threshold' (evidence.py l.200); retrieval 'never a semantic admission rule' (retrieval.py l.1); rare panels survive reduction."
+  },
+  {
+   "id": "NS9",
+   "rating": "partial",
+   "evidence": "write.md l.39-42: 'A dictionary sense of a related noun does not become the translation of this verb … An image can remain powerful as an analogy when stated accurately.' curate.md l.46 'Multiple consequential readings may coexist'. The cold 18:86 arm keeps the primary reading ('bu bir yorum benzerliğidir, bir eşitleme değildir', w10-opus-cold/18_86.reading.tr.md l.15). The Luna map ranks, though: M3 fixes ʿadhāb as punishment ('çeviride cezanın yerini alamaz'; the restraint branch only 'possible purpose'), following HFT H009's 'sharply subordinates'."
+  },
+  {
+   "id": "NS10",
+   "rating": "partial",
+   "evidence": "Scripts give typed word-root mappings, echo marked 'not an etymology' (sources.py l.178-199). HFT steps are re-bound to QAC: 250/250 exact across the 1:2, 12:84, 18:86 and 93:3 packets (my count). The source manifest carries sha256 values with a drift check (evidence.py l.232-235). write.md requires {ar,tr,gloss} tags, exact refs and Quran Arabic 'from the supplied canonical text', but has no per-quotation source tag. The mechanical checks.py was deleted before the commit (pyc only). v13/DESIGN.md l.16: the cold arm lost on 'rare senses beyond memory; unchecked lexical claims'."
+  },
+  {
+   "id": "NS11",
+   "rating": "partial",
+   "evidence": "write.md l.43: 'Do not invent sources, vowels, etymologies, lexical meanings, historical facts or citations.' channel_readings raises instead of losing an unparsed review (evidence.py l.38-39). Labels no longer filter (inter-ayah verdicts stripped). Gaps: the revised brief removed the coverage list, so the curator's exclusions are not handed forward. Merged dictionary envelopes are silently missed (2:255: 7 inventory_only branches)."
+  },
+  {
+   "id": "NS12",
+   "rating": "absent",
+   "evidence": "v10 has no surah-level product or step (README l.8-12, only reader and writer per ayah)."
+  },
+  {
+   "id": "NS13",
+   "rating": "weak",
+   "evidence": "Pipeline: the reader prompt for one ayah is 1.15 MB (335,235 Luna tokens), with instructions at 0.5% of it. 2:255's payload is 1.75 MB. Luna is placed in a synthesis role ('The central task is synthesis', curate.md l.8), against NS13's 'Luna upstream only where no synthesis is needed'. No Batch API or cached prefix; no end-to-end cost. Sound principles: 'Compare total cost per accepted reading, including curator and failed runs. Do not confuse smaller writer input with smaller total workflow cost' (DESIGN l.144-148). Counterpoint: write.md on context only cost $0.32–1.58 per ayah (median $0.46) across 18 Opus runs."
+  }
+ ],
+ "improvements": [
+  {
+   "claim": "Dropped the requirement that every finding survive as its own reader-facing item, and dropped the per-finding coverage ledger (final version)",
+   "evidence": "DESIGN.md l.59-62 'removes the requirement that each finding survive as its own reader-facing item … There is no per-finding coverage ledger'; curate.md l.68; write.md l.20-25",
+   "over": "v5 editorial prose (catalogue; 1:6 11,249 words) and V9 findings lane ('every record must reach the prose', NORTH_STAR lessons)"
+  },
+  {
+   "claim": "Upstream relevance verdicts no longer reach the model; inter-ayah rows become bare candidate refs",
+   "evidence": "evidence.py l.270-276 (comment: 'In the first 18:86 pilot, \"no value\" notes overruled the creation passages'); curate.md l.35-39; REPORT l.25-29",
+   "over": "the v10 prototype and earlier packets that carried reciprocal-list labels"
+  },
+  {
+   "claim": "Rare-root concordance across derivatives as a separate Quran-usage relation, guaranteed to survive curation",
+   "evidence": "evidence.py l.155-170 (ḥamiʾa/ḥamaʾ comment), l.226-227; REPORT l.61-63 'the clay passages and all rare usage panels survived'",
+   "over": "lemma-only matching, which misses different derivatives"
+  },
+  {
+   "claim": "Pointer-based hydration: the curator cites IDs, and the script supplies complete original chains, lexical sources and ±2 passages, so mechanisms are not split into pairs or paraphrased away",
+   "evidence": "evidence.py l.207-246; DESIGN l.81-83; REPORT l.60-63 ('All 16 selected source readings matched their originals')",
+   "over": "V9 network/pair packets"
+  },
+  {
+   "claim": "Word-level separation of identity, attributed alternative and observed echo, plus HFT trace re-binding to QAC",
+   "evidence": "sources.py l.164-218; 250/250 HFT steps exact across 4 packets (my count)",
+   "over": "legacy HFT word indices and split mappings taken on trust"
+  },
+  {
+   "claim": "HFT made optional; the no-HFT and no-bundle paths are implemented",
+   "evidence": "DESIGN l.9-14; README l.50-55, l.71-73; work/2_255-no-hft and 93_3-nohft",
+   "over": "pipelines needing HFT as a mandatory expensive prerequisite"
+  },
+  {
+   "claim": "A short craft brief (68 lines) that became the project's reference 'cold arm'",
+   "evidence": "md5 dddcd1b2 of v10/prompts/write.md equals v9/prompts/write_v10.md; NORTH_STAR lessons; v13/DESIGN.md l.94 'The v10 cold brief's writing rules carry over (concrete detail makes the next detail necessary; no defensive disclaimers; show where an image comes from)'",
+   "over": "long rule-heavy V9 Sol/argument prompts and v5 editorial passes"
+  },
+  {
+   "claim": "Measurement honesty: bytes are measured, tokens only from provider usage, unknown usage is marked unknown, and the runner failure is not blamed on the model",
+   "evidence": "evidence.py l.294; REPORT l.40-49 ('Actual consumption is unknown, not zero')",
+   "over": "earlier estimates stated as facts"
+  }
+ ],
+ "regressions": [
+  {
+   "claim": "The reader/curator input is bulk: about 1.1 MB per ayah, and background material dominates",
+   "evidence": "18_86-local-reader/reader.prompt.md: 1,131,506 B; background subnetworks 183,993 B of 222,275 B chain bytes; 719 catalog cards; 816 ayat. Luna used 1 of 141 background subnetworks and 0 of 338 retrieval-only branches (my count)",
+   "cause": "'The full surah catalog allows new compositions across reviewed subnetworks' (evidence.py l.130-132); the whole surah plus the Fatiha for every ayah"
+  },
+  {
+   "claim": "The curator's exclusions are lost to the writer",
+   "evidence": "hydrate_brief keeps only chains whose IDs appear in the brief (evidence.py l.215-219); coverage/defer lists were removed from the revised prompt (diff of luna-map-2/prompt.txt against curate.md)",
+   "cause": "the coverage ledger was removed to avoid accounting, with nothing kept to hand exclusions forward (NS11)"
+  },
+  {
+   "claim": "Known answers leaked into the prompts, contaminating the calibration cases",
+   "evidence": "write.md l.17 'Do not flatten a well, a support, a pressure, or an obstruction' (the S1 gold well). Recorded: v13/DESIGN.md l.138 'the v10 phrase \"a well, a support …\" in the prose brief made neutral'. Inference: curate.md l.36-39 'A verse about creation, for example …' was written right after the 18:86 ḥamaʾ failure and hints at that test case's answer",
+   "cause": "prompt text drafted from the calibration cases (S1 water mechanism; 18:86 clay)"
+  },
+  {
+   "claim": "No mechanical checks in the committed version",
+   "evidence": "checks.py (reader-tag format, leaked IDs, Arabic outside tags, citations not supplied, ayah ranges, quote attribution) survives only as __pycache__/checks.cpython-314.pyc; REPORT l.57-58 'There is no automated runner or test suite in v10'",
+   "cause": "simplification after the quota stop: 'The runner and structured map requirement have since been removed' (DESIGN l.159-160)"
+  },
+  {
+   "claim": "Dictionary defect: merged root envelopes are not read",
+   "evidence": "sources.py l.130-136; 2:255 packet has 7 inventory_only branches; 11 '--' envelope files in quran-data/data/dictionary/tr",
+   "cause": "path built from a single root id; fixed later for V9/V11 (commit 4f31e2ba9) but not in v10"
+  },
+  {
+   "claim": "The only curator output that exists was schema-bound and ledger-driven; the revised curator was never run",
+   "evidence": "DESIGN l.152-161: 'Existing pilot results therefore describe the earlier prototype, not the revised prompt'",
+   "cause": "user quota stop after two Luna pilots (REPORT l.4-6)"
+  },
+  {
+   "claim": "The 93:3 run was killed by the harness",
+   "evidence": "93_3-pilot/luna-map/run.json timed_out true at 900.07 s",
+   "cause": "a 900 s timeout set by the assistant's runner (REPORT l.43-44)"
+  }
+ ],
+ "recorded_verdicts": [
+  {
+   "source": "_commentary/v10/experiments/2026-09-25/REPORT.md l.3-5",
+   "verdict": "No new finished prose was generated. This experiment has not demonstrated Opus-equivalent quality or cost savings."
+  },
+  {
+   "source": "_commentary/v10/experiments/2026-09-25/REPORT.md l.18-23",
+   "verdict": "The significant failure is Quranic loading. The prompt already contained 15:26, 15:28 and 15:33, but the output explicitly repeated upstream notes that the creation passages contributed nothing to the focus reading."
+  },
+  {
+   "source": "_commentary/v10/README.md l.13",
+   "verdict": "Comparable prose quality and total cost savings remain unproved."
+  },
+  {
+   "source": "_commentary/v10/DESIGN.md l.36-47",
+   "verdict": "v5 12:84: 'The contained grief, sealed vessel, source and hidden-water-channel connection is already substantive synthesis' but restates; 93:3: 'Many images are introduced as another version of care or reassurance'; 100:1: details 'accumulated faster than their individual necessity is established'."
+  },
+  {
+   "source": "_commentary/v11/NOTES.md l.88",
+   "verdict": "v5 18:86 has no creation/Iblis layer; v10 has no 18:86 prose."
+  },
+  {
+   "source": "_commentary/v11/README.md l.35-54",
+   "verdict": "4:34 anchors (12): cold Opus 8, cold repeat 6, + dictionary 5, + full Luna package 5, + dictionary + slim Luna 9; 'Sampling variance is large'; 'Input size costs thinking (4:34 thinking tokens: cold 45k → full package 9k)'; 18:86: cold 8/8, full package 9/9."
+  },
+  {
+   "source": "_commentary/v13/DESIGN.md l.16",
+   "verdict": "w10 cold arm (5:6, 4:34; 68-line brief, context only): gained 'local resonance within ayah and surah (mirfaq, kaʿb → Kaʿba \"qiyāman\" → \"qawwāmīn\") at $1.4–1.5'; lost 'rare senses beyond memory; unchecked lexical claims'."
+  },
+  {
+   "source": "_commentary/v13/DESIGN.md l.121",
+   "verdict": "5:6 is the 'regression against the cold reading the user liked'."
+  },
+  {
+   "source": "NORTH_STAR.md, Lessons",
+   "verdict": "The first cold Opus brief … and the 5:6 / 4:34 cold arm (a 68-line brief on context only, $1.4–1.5) produced the latent readings the later auditing briefs lost."
+  },
+  {
+   "source": "_commentary/v15/DESIGN.md §11",
+   "verdict": "v15 does not beat the cold arm in depth; the cold arm is richer in surah-internal parallels and makes the 5:6 North Star example in full; v15 is better on the Turkish-loss layer, sourcing and dictionary-only surprises."
+  },
+  {
+   "source": "_commentary/v15/DESIGN.md §12",
+   "verdict": "Without caps, v15 roughly matches the cold arm's depth (each has links the other lacks) … at 55-70% of the length."
+  },
+  {
+   "source": "git commit 492850b62",
+   "verdict": "18:86 v10 writer prompt on the V9 package: Opus (effort high, $2.25, 2382 words), Sol max (780 words), Luna max (662 words)."
+  }
+ ],
+ "failure_modes": [
+  "Inherited relevance verdicts steer the curator: the Luna map repeated the 'no value' inter-ayah notes on 15:26/28/33 (map.json M5: 'sağlanan inter-ayah değerlendirmesi onun … açıklamadığını belirtir')",
+  "Curator as reorganizer, not discoverer: 5 movements map almost one-to-one onto HFT H001–H010 (M1 = H001+H004, M2 = H002+H006, M3 = H005+H009, M4 = H003+H007+H008, M5 = H010); 44/44 cited branches were already in chains",
+  "Coverage ledger turns curation into accounting: all 15 focus-linked chains got 'develop' or 'merge' (map.json coverage)",
+  "Disambiguation through defensive boundaries: M3 fixes ʿadhāb to punishment; every movement carries a 'boundary' qualifier ('kanıtlamaz', 'söylenemez')",
+  "Similarity retrieval returns near-synonyms rather than complementary roles, e.g. ʿayn 'seeing eye' → baṣar/naẓar/raʾy; ʿadhāb B005 → ʿiqāb; ḥamaʾ B001 → zubr/ḥāl mud (my inspection of 18_86-local-reader network_candidates)",
+  "Unused rare senses already in the packet: ʿayn B008 'sun disk' (عين الشمس) and ʿadhab B004 'uncovered to the sky' were in lexical_evidence but in no chain, and Luna did not use them. The V9 dict/package/Sol arms on write.md did cite 'ʿayn al-shams' from the dictionary",
+  "Harness failures: sandbox init failure (0.28 s); a 900 s timeout killed the 93:3 run; the ephemeral session was not recoverable (REPORT l.45-48)",
+  "Prompt contamination by known answers (well/support; creation example)",
+  "Long-surah blow-up: the 2:255 no-HFT payload is 1.75 MB (DESIGN l.163-167 'Long-surah preparation can still be large')",
+  "S1-centric lens: the Fatiha is always included for every ayah, and write.md must warn 'do not impose a formulaic Fatiha paragraph' (write.md l.33)",
+  "The '--upstream none' condition is not clean: word-analysis prose carries upstream interpretation (18:86 balagha note matches HFT H001)",
+  "Stale data defects: merged dictionary envelopes missing"
+ ],
+ "dilution_evidence": [
+  "Recorded (v11/README.md l.35-53): on 4:34 with v10's write.md, cold Opus 8/12 anchors vs + dictionary 5 vs + full Luna package 5; thinking tokens cold 45k → full package 9k",
+  "My tabulation of the w10 run.log.json files (output tokens include thinking): 4:34 cold 46K in / 60,210 out vs full package 316K in / 20,265 out; 5:6 cold 38K / 52,840 vs package 416K / 18,119; 18:96 cold 21K / 39,152 vs package 137K / 22,771. The same brief thinks less as input grows on long surahs",
+  "Counter-evidence: added data can help. 4:34 dictionary + slim Luna scored 9 anchors against cold 8 (v11/README l.41). On 18:86 the dictionary arm produced more output (87,726 in / 50,251 out) than cold (22,938 / 20,796)",
+  "v10 Luna curator: with 1.15 MB of input (instructions 0.5%), it used 0/338 retrieval-only branches and 1/141 background subnetworks, and echoed 3 verdict notes out of 131 inter-ayah rows. Bulk evidence did not widen discovery",
+  "Recorded sampling variance (v11/README l.48): cold vs repeat cold gave different anchors (8 vs 6), so single-run arm comparisons are noisy",
+  "v15/STATUS.md §4: the scene index data surfaced the Fatiha images, but 'the well was still set aside until an instruction said what a coalition means' (data alone does not steer)"
+ ],
+ "luna_evidence": [
+  "Good: on a 335K-token packet, Luna (gpt-6-luna max) returned a schema-valid map in 365 s (map.check.json errors []) with exact chain IDs and root-local branch refs. It was grounded in syntax (wa-wajada opening a new object slot; qulnā as divine-speech frame; fīhim as the field of action) and listed 4 unresolved questions (map.json)",
+  "Good: it connected the focus to a background subnetwork (C018-032, the barrier scene in 18:94-98) and kept the HFT qualifications (H010 'material analogy, not prediction')",
+  "Bad: no discovery beyond HFT. Every cited branch was already in chains, 0 retrieval-only candidates were used, and the ḥamaʾ creation loading was dismissed by echoing the upstream verdict (REPORT l.18-23)",
+  "Bad: it disambiguated (ʿadhāb fixed to punishment) and wrote defensive boundaries in every movement, in tension with NS9",
+  "As a writer on v10's write.md (V9 w10-luna, 18:86): 662 words vs Opus 2,382 (commit 492850b62). It still cited 15:26/28/33 and developed the clay echo with containment (w10-luna/18_86.reading.tr.md l.3)",
+  "Sol (w10-sol, 18:86, V9 package): 780 words, cited 15:26/28/33 and the dictionary's 'güneşin gözü' sense",
+  "Astra: only mentioned as the user-reported model of v5's S1 run (DESIGN l.25-28), with a caution not to attribute quality differences to the model label alone",
+  "Runner lesson recorded for Luna: 'Future Luna work must not have an automatic time cutoff' (REPORT l.48-49; README l.80-81)"
+ ],
+ "pretraining_vs_data_evidence": [
+  "Pretraining sufficed: the w10-opus-cold 18:86 arm (context.md = S18 + Fatiha only, no concordance) cited 15:26, 15:28, 15:33 and developed ḥamaʾ as the material of human creation (w10-opus-cold/18_86.reading.tr.md l.15). This is the rare-root loaded-word case that v10 built concordance panels to supply",
+  "Pushed data made the difference: the dictionary sense ʿayn = sun disk ('طلعت العين وغابت العين، أي الشمس') appears in the w10-opus-dict and w10-opus 18:86 readings, which quote the classical source, but not in the cold arm (my grep). Recorded generally: the cold arm lost 'rare senses beyond memory' (v13/DESIGN.md l.16)",
+  "Pushed data can be ignored or harmful: the v10 Luna curator had the ḥamaʾ passages and the ʿayn/ʿadhab rare branches in its packet and used neither; the verdict labels it also had pushed it to dismiss the clay passages",
+  "Frequent roots: the 1:2 packet has zero rare-usage panels because all focus roots are frequent (work/1_2/evidence.json). The Fatiha water/well chain there comes only from channel-review subnetworks (C001-032, C001-033, C001-035). Inference: whether pretraining alone reaches the well image cannot be read from the 1:2 cold arm, because write.md l.17 names 'a well, a support' (a leak recorded in v13/DESIGN.md l.138)",
+  "Recorded (v11/README l.65-66): on 100:1/6/10, cold and dictionary-only Opus 'cite almost nothing the v11 ledger lacks', so for S100 pretraining plus the dictionary covered the reach",
+  "Q2b, labelled data available: HFT has 3,133 reader files in 90 surah dirs with 41,149 records and 216,787 trace steps (word → branch → role; my count over latent_activation/focus_trace/runs). v10's resolve_step bound 250/250 sampled steps exactly to QAC. Channel reviews give 110 surahs of subnetworks with branch refs. These are model-generated, not gold, but they are clean, script-verifiable (word, branch, chain) labels usable for the held-out chain-recovery test DESIGN l.90-94 proposes"
+ ],
+ "reusable_artifacts": [
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v10/prompts/write.md",
+   "what": "68-line writer brief (md5 dddcd1b2), the 'cold arm' prompt",
+   "coverage": "Any ayah. Run on 17 ayat via V9 (44 runs)",
+   "reuse_idea": "Keep as the fixed reference/baseline writer and as the synthesis stance in a two-call design. Remove the 'well, support' example first"
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v10/sources.py (Sources.words, resolve_step)",
+   "what": "Typed word-root mappings (identity / attributed_alternative / observed_echo_only) from QAC and the dictionary bridges; HFT step re-binding to QAC with binding_status",
+   "coverage": "Whole Quran (QAC) and all 90 HFT surahs",
+   "reuse_idea": "Anchor checks (NS10) and label cleaning for a retriever training set built from HFT traces"
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v10/sources.py (contrast_candidates)",
+   "what": "IDF-weighted multi-root co-occurrence passage retrieval (≥2 shared focus roots, one with df ≤500)",
+   "coverage": "Whole Quran, script only",
+   "reuse_idea": "The mechanical same-surah/Quran passage list that v15/DESIGN §11 names as its next lever. Evaluate it against the passages the cold arm found (4:5, 4:36-38, 5:89, 5:91 …)"
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v10/evidence.py (usage panels, prepare l.155-170)",
+   "what": "Rare-root concordance across derivatives (≤24 ayat) plus lemma panels for frequent roots",
+   "coverage": "Whole Quran",
+   "reuse_idea": "Loaded-word input (NS5), pullable rather than pushed where pretraining already knows the concordance"
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v10/evidence.py (channel_readings, hydrate_brief)",
+   "what": "Channel-review parser into subnetworks with branch refs and anchors; pointer hydration of whole chains plus sources plus ±2 passages; sha256 drift check",
+   "coverage": "110 channel-review surahs; any brief",
+   "reuse_idea": "Transport step for a Luna-nominate → Opus-write funnel without paraphrase loss"
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v10/retrieval.py",
+   "what": "Symmetric RRF over quran-slm rank matrices (E5/NeoAraBERT/char) with a distinct-root constraint, restricted to a pool",
+   "coverage": "10,824 Quranic branch cards (catalog.json)",
+   "reuse_idea": "Baseline for Q5: the distance any new context-conditioned or complementary-role measure should beat on held-out chains"
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v10/work/18_86-auto/luna-map-2/map.json",
+   "what": "The only Luna curator output, with a recorded failure (verdict echo, no extension beyond HFT)",
+   "coverage": "18:86",
+   "reuse_idea": "Negative example or regression test for a curator prompt; it shows what verdict-carrying input does"
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v10/work/*/evidence.json",
+   "what": "Prepared evidence packets (schema commentary-v10-evidence-1)",
+   "coverage": "1:2, 12:84, 18:86, 93:3, 2:255 (prepared 2026-09-25; the dictionary has changed since)",
+   "reuse_idea": "Size and composition benchmarks. Rebuild before any model use"
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v10/__pycache__/checks.cpython-314.pyc",
+   "what": "Deleted mechanical prose checks (tag format, leaked IDs, Arabic outside tags, uncited refs, ranges, quote attribution)",
+   "coverage": "Any prose",
+   "reuse_idea": "The logic was re-implemented in v11/v12 verify; only the pyc remains"
+  },
+  {
+   "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v9/lines/work/*/synth/w10-*/",
+   "what": "44 readings with run.log.json costs and usage from the v10 brief under 6 input conditions (cold, dict, dhft, dslim, ledger, package)",
+   "coverage": "17 ayat",
+   "reuse_idea": "A ready input-ablation dataset for dilution analysis and the reference arm (already used by v13/v15)"
+  }
+ ],
+ "unharvested_ideas": [
+  {
+   "idea": "Held-out chain recovery test for retrieval: compare retrieval channels separately, penalize generic hubs, and test whether context-conditioned complementary-role links recover held-out image chains; use matched background passages to measure specificity",
+   "where": "_commentary/v10/DESIGN.md l.90-97",
+   "why_dropped": "Deferred: 'No new GNN, Steiner-tree optimizer … is required before we know whether the supplied mechanisms can be written well'; the quota stop",
+   "potential": "Directly answers Q5. HFT traces (216,787 steps) and channel reviews (110 surahs) provide labels. quran-slm's weights were 'not searched' (corpus_ensemble/build_report.json calibration_status)"
+  },
+  {
+   "idea": "Complementary-role retrieval (source / storage / access device / use), not similarity",
+   "where": "_commentary/v10/DESIGN.md l.64-70, l.79-88",
+   "why_dropped": "Never implemented; v10 kept the existing similarity ensemble as the candidate generator",
+   "potential": "The mechanism the North Star's aha examples need (the well + pulley + rain system). Later partly approximated by v15's Luna scene index"
+  },
+  {
+   "idea": "Five-arm controlled comparison on shared evidence: Direct Sol, Luna→Sol, Direct Opus, Luna→Opus, Opus brief→Sol",
+   "where": "_commentary/v10/DESIGN.md l.105-118",
+   "why_dropped": "User quota; only Direct Sol, Luna and Opus on the V9 package were run (V9 w10 arms)",
+   "potential": "Luna→Opus and Opus-brief→Sol were never run. They test Q3/Q4 directly: whether a cheap nominator or a cheap writer can sit on either side of one Opus call"
+  },
+  {
+   "idea": "Revised plain-brief curator without verdicts or coverage ledger",
+   "where": "_commentary/v10/prompts/curate.md; DESIGN l.152-161",
+   "why_dropped": "Never run after the revision (quota)",
+   "potential": "Unknown whether removing verdicts fixes the ḥamaʾ failure. A cheap single-ayah Luna test"
+  },
+  {
+   "idea": "Script QeQ/naẓm passage candidates (contrast_candidates) handed to the writer",
+   "where": "_commentary/v10/sources.py l.254-269",
+   "why_dropped": "Added after the only model run; never evaluated",
+   "potential": "Targets v15's recorded 'largest content gap' (same-surah passages the reading never brings up)"
+  },
+  {
+   "idea": "Calibration set with known failure modes, including 29:38, a 2:255 no-HFT case and the 'none' upstream condition",
+   "where": "_commentary/v10/DESIGN.md l.120-134",
+   "why_dropped": "Only prepared, not run; 29:38 and 'none' were never prepared",
+   "potential": "A standing benchmark for discovery without upstream interpretation (long surahs without HFT)"
+  },
+  {
+   "idea": "Editor on top of v5/Luna output: 'Preserve Luna's existing contained-grief/water mechanism; reduce restatement without flattening it' (12:84)",
+   "where": "_commentary/v10/DESIGN.md l.125",
+   "why_dropped": "Never run",
+   "potential": "Bears on Q3. The NORTH_STAR lesson warns that 'an editor cannot recover findings rejected upstream (v5)'"
+  },
+  {
+   "idea": "Cost per accepted reading, including curator and failed runs, as the economic metric",
+   "where": "_commentary/v10/DESIGN.md l.144-148",
+   "why_dropped": "No end-to-end run",
+   "potential": "The right unit for NS13 comparisons across funnels"
+  }
+ ],
+ "key_lessons": [
+  "Q1/Q4: v10's lasting output is its 68-line writer brief, not its pipeline. On context only it became the cold arm that v11–v15 measure themselves against, and v15 only 'roughly matches' it (v15/DESIGN §12). The curate→write pipeline itself produced no prose",
+  "Q3: the single Luna curator run on rich existing upstream (HFT + channel review + walks) reorganized HFT without extending it and inherited an upstream veto. A cheap step on top of Luna-generated material adds little unless its inputs are stripped of verdicts and it is asked only to nominate, not to synthesize",
+  "Labels must not reach the model as judgments. One inter-ayah 'no value' note overrode passages that context-only Opus (and Luna as writer) found unaided",
+  "Q5: branch-card embedding similarity (E5/NeoAraBERT/char over the Arabic definitions) retrieves paradigmatic neighbours (synonyms and same-field senses), not the complementary roles that make an image mechanism. In the one run, 0 of 338 retrieval-only candidates were used",
+  "Q2a: pretraining covered the ḥamaʾ concordance (a 4-ayah root); the dictionary was needed for rare senses such as ʿayn = sun disk. So push rare dictionary senses, and leave concordances of well-known words pullable",
+  "Dilution is measurable on the same brief: 4:34 anchors 8 (cold) vs 5 (+dictionary or +package), with output/thinking tokens falling roughly 3x as input grows on long surahs. Sampling variance (8 vs 6 on repeat) means one run per arm is not a verdict",
+  "Known-answer phrases in prompts ('a well, a support'; 'a verse about creation') contaminate calibration; keep test-case imagery out of briefs",
+  "Harness hygiene matters: a runner timeout, a sandbox init failure and deleted checks cost results. Luna needs no auto time cutoff; mechanical checks should not be dropped in simplification",
+  "Economics: Opus on a short brief with context only cost $0.32–1.58 per ayah (median $0.46, CLI API-equivalent). That is already at the production aim for short surahs, before Batch or caching"
+ ],
+ "open_questions": [
+  "Would the revised plain-brief curator (no verdicts, no coverage ledger) develop the ḥamaʾ loading and use retrieval-only candidates? Never run",
+  "Luna→Opus: does a Luna nomination brief plus hydrated originals raise Opus above the cold arm at lower Opus input? Never run",
+  "Opus brief→Sol or Luna writer: can the expensive part be isolated to a short Opus brief? Never run",
+  "How much did write.md's 'a well, a support' shape the S1 cold readings, and how much did the Fatiha always being present shape all readings?",
+  "Do contrast_candidates recover the same-surah passages the cold arm found and v15 misses (4:5, 4:36-38, 5:89, 5:91)?",
+  "Would a complementary-role or context-conditioned distance recover held-out channel-review/HFT chains better than the current RRF ensemble (whose weights were never searched)?",
+  "Actual Luna consumption for the 93:3 run (unknown), and Luna's dollar price per token (not recorded in v10)",
+  "Which agent or model authored v10 (not recorded)?"
+ ]
+}
