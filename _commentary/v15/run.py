@@ -5,7 +5,8 @@ Rules kept here, not by habit:
 - a completed unit is never rerun;
 - a failed unit is not retried automatically; `--repair` allows one further attempt, logged;
 - every call is logged in out/ledger.jsonl (time, unit, model, status, seconds, cost where reported);
-- Opus spend per ayah is capped by config gate.usd_per_ayah (passed as --max-budget-usd);
+- an Opus call starts only when its estimate is below gate.usd_per_call and keeps the ayah within
+  gate.usd_per_ayah; once started it runs to the end, whatever it then costs;
 - agents run from a fresh temp directory in safe mode (no CLAUDE.md, memory, skills or hooks)
   and may read only v15/data.
 
@@ -71,6 +72,28 @@ def spent(ayah):
     return sum(e.get('cost_usd') or 0 for e in ledger() if e.get('ayah') == ayah)
 
 
+def estimate(step, chars):
+    """Pre-call estimate: the dearest earlier call of the same step, scaled up by prompt size;
+    config defaults until the ledger has a reported cost for the step."""
+    hist = [e for e in ledger() if e.get('step') == step and e.get('cost_usd') and e.get('prompt_chars')]
+    if not hist:
+        return CFG['estimates_usd'][step], 'default'
+    worst = max(hist, key=lambda e: e['cost_usd'])
+    return worst['cost_usd'] * max(1.0, chars / worst['prompt_chars']), f'ledger ({len(hist)} runs)'
+
+
+def gate_ok(unit, step, chars, ayah):
+    est, basis = estimate(step, chars)
+    if est >= CFG['gate']['usd_per_call']:
+        print(f"stop {unit}: estimate ${est:.2f} ({basis}) is not below the ${CFG['gate']['usd_per_call']:.2f} call gate")
+        return False, est
+    if ayah and spent(ayah) + est > CFG['gate']['usd_per_ayah']:
+        print(f"stop {unit}: {ayah} has spent ${spent(ayah):.2f}; with this call's estimate ${est:.2f} "
+              f"it would pass the ${CFG['gate']['usd_per_ayah']:.2f} ayah gate")
+        return False, est
+    return True, est
+
+
 def fill(template, **kw):
     for k, v in kw.items():
         template = template.replace('{' + k + '}', str(v))
@@ -104,7 +127,7 @@ def parse_json_text(text):
 
 # ------------------------------------------------------------------ model calls
 
-def call_opus(unit, text, out_path, schema=None, tools=True, budget=None, ayah=None, dry=False, repair=False):
+def call_opus(unit, step, text, out_path, schema=None, tools=True, ayah=None, dry=False, repair=False):
     if not may_run(unit, out_path, repair):
         return None
     m = CFG['models']['opus']
@@ -114,17 +137,15 @@ def call_opus(unit, text, out_path, schema=None, tools=True, budget=None, ayah=N
         cmd += ['--tools', 'Read', 'Grep', 'Glob', '--allowedTools', 'Read', 'Grep', 'Glob', '--add-dir', DATA]
     else:
         cmd += ['--tools', '']
-    if budget is not None:
-        cmd += ['--max-budget-usd', f'{budget:.2f}']
     if schema:
         cmd += ['--json-schema', json.dumps(lib.read_json(os.path.join(lib.SCHEMAS, schema)))]
+    ok, est = gate_ok(unit, step, len(text), ayah)
     if dry:
         shown = [c if len(c) < 120 else c[:60] + '…' for c in cmd]
-        print(f"[dry] {unit}: prompt {len(text):,} chars (~{len(text) // 3:,} tokens) -> "
+        print(f"[dry] {unit}: prompt {len(text):,} chars (~{len(text) // 3:,} tokens), estimate ${est:.2f} -> "
               f"{os.path.relpath(out_path, lib.HERE)}\n      {' '.join(shown)}")
         return None
-    if budget is not None and budget <= 0.05:
-        print(f"stop {unit}: the ${CFG['gate']['usd_per_ayah']:.2f} gate for {ayah} is used up")
+    if not ok:
         return None
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     lib.write_text(out_path + '.prompt.md', text)
@@ -158,8 +179,9 @@ def call_opus(unit, text, out_path, schema=None, tools=True, budget=None, ayah=N
             status = 'no_text'
         else:
             lib.write_text(out_path, obj['result'].strip() + '\n')
-    log({'unit': unit, 'ayah': ayah, 'model': m['model'], 'effort': m['effort'], 'status': status,
-         'seconds': round(time.time() - t0), 'cost_usd': cost, 'repair': repair,
+    log({'unit': unit, 'step': step, 'ayah': ayah, 'model': m['model'], 'effort': m['effort'], 'status': status,
+         'seconds': round(time.time() - t0), 'cost_usd': cost, 'estimate_usd': round(est, 2),
+         'prompt_chars': len(text), 'repair': repair,
          'out': os.path.relpath(out_path, lib.HERE)})
     print(f"{unit}: {status} in {round(time.time() - t0)}s" + (f", ${cost:.2f}" if cost else ''))
     return status
@@ -204,8 +226,9 @@ def call_luna(unit, text, out_path, schema, ayah=None, dry=False, repair=False):
         lib.write_json(out_path, data)
     if os.path.exists(tmp_out):
         os.remove(tmp_out)
-    log({'unit': unit, 'ayah': ayah, 'model': m['model'], 'effort': m['effort'], 'status': status,
-         'seconds': round(time.time() - t0), 'usage': usage, 'repair': repair,
+    log({'unit': unit, 'step': unit.split(':')[1], 'ayah': ayah, 'model': m['model'], 'effort': m['effort'],
+         'status': status, 'seconds': round(time.time() - t0), 'usage': usage, 'prompt_chars': len(text),
+         'repair': repair,
          'out': os.path.relpath(out_path, lib.HERE)})
     print(f"{unit}: {status} in {round(time.time() - t0)}s")
     return status
@@ -252,9 +275,9 @@ def step_window(s, only=None, dry=False, repair=False):
         build.build_window(s, lo)
         packet = read(os.path.join(build.window_dir(s, lo, hi), 'packet.md'))
         text = fill(prompt('opus_window.md'), max_images=CFG['prose']['max_images_per_ayah']) + '\n' + packet
-        call_opus(f'opus:window:{s}:{lo}-{hi}', text,
+        call_opus(f'opus:window:{s}:{lo}-{hi}', 'window', text,
                   os.path.join(build.out_window_dir(s, lo, hi), 'window.json'), schema='window.schema.json',
-                  budget=CFG['gate']['usd_per_window'], dry=dry, repair=repair)
+                  dry=dry, repair=repair)
 
 
 def step_discover(ref, dry=False, repair=False):
@@ -264,9 +287,8 @@ def step_discover(ref, dry=False, repair=False):
     packet = read(os.path.join(build.ayah_dir(s, a), 'discover.md'))
     text = fill(prompt('opus_discover.md'), ref=ref, radius=CFG['windows']['local_radius'],
                 kwic_max=CFG['concordance']['kwic_max_uses']) + '\n' + packet
-    call_opus(f'opus:discover:{ref}', text, os.path.join(build.out_ayah_dir(s, a), 'record.json'),
-              schema='record.schema.json', budget=CFG['gate']['usd_per_ayah'] - spent(ref), ayah=ref,
-              dry=dry, repair=repair)
+    call_opus(f'opus:discover:{ref}', 'discover', text, os.path.join(build.out_ayah_dir(s, a), 'record.json'),
+              schema='record.schema.json', ayah=ref, dry=dry, repair=repair)
 
 
 def step_evidence(ref, dry=False, repair=False):
@@ -290,15 +312,15 @@ def step_write(ref, dry=False, repair=False):
     text = fill(prompt('opus_write.md'), ref=ref, target=CFG['prose']['ayah_words_target'],
                 cap=CFG['prose']['ayah_words_cap'], max_images=CFG['prose']['max_images_per_ayah']) \
         + '\n' + read(os.path.join(build.ayah_dir(s, a), 'write.md'))
-    call_opus(f'opus:write:{ref}', text, os.path.join(o, 'commentary.tr.md'), tools=False,
-              budget=CFG['gate']['usd_per_ayah'] - spent(ref), ayah=ref, dry=dry, repair=repair)
+    call_opus(f'opus:write:{ref}', 'write', text, os.path.join(o, 'commentary.tr.md'), tools=False,
+              ayah=ref, dry=dry, repair=repair)
 
 
 def step_surah(s, dry=False, repair=False):
     build.build_surah(s)
     text = fill(prompt('opus_surah.md'), surah=s) + '\n' + read(os.path.join(lib.WORK, f's{s:03d}', 'surah.md'))
-    call_opus(f'opus:surah:{s}', text, os.path.join(OUT, f's{s:03d}', 'surah.tr.md'), tools=False,
-              budget=CFG['gate']['usd_per_window'], dry=dry, repair=repair)
+    call_opus(f'opus:surah:{s}', 'surah', text, os.path.join(OUT, f's{s:03d}', 'surah.tr.md'), tools=False,
+              dry=dry, repair=repair)
 
 
 def status(surahs):

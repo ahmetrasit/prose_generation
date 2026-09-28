@@ -49,9 +49,16 @@
     "profile_sample_max": 400
   },
   "gate": {
+    "usd_per_call": 5.0,
     "usd_per_ayah": 5.0,
-    "usd_per_window": 5.0,
-    "_comment": "Opus spend caps (passed as --max-budget-usd). Ayah steps share the per-ayah gate; window and surah passes have their own."
+    "_comment": "A call starts only when its estimate is below usd_per_call, and an ayah's calls stay within usd_per_ayah (tests). Never retried; once started it runs to the end."
   },
-  "timeout_s": 5400
+  "timeout_s": 5400,
+  "estimates_usd": {
+    "window": 4.0,
+    "discover": 3.0,
+    "write": 1.5,
+    "surah": 3.0,
+    "_comment": "Uncalibrated defaults, used until the ledger has a reported cost for the step; then the dearest earlier call of the step, scaled by prompt size."
+  }
 }

@@ -88,7 +88,9 @@ CLAUDE.md, memory, skills or hooks reach them.
 
 - Never rerun a completed unit. Never retry a failed one automatically; `--repair` allows one further attempt.
 - Every call is logged in `out/ledger.jsonl`.
-- Per-ayah Opus spend is capped at the $5 gate (`--max-budget-usd`). Window and surah passes have their own $5 caps.
+- An Opus call starts only when its estimate is below $5, and an ayah's calls stay within $5 (tests). Once
+  started, a call runs to the end, whatever it then costs. Estimates come from the ledger (the dearest earlier call
+  of the same step, scaled by prompt size), with uncalibrated defaults in `config.json` until the first runs.
 - Luna runs `gpt-6-luna` at max reasoning, read-only sandbox, ephemeral, skill search off.
 
 ## 6. Parameters (`config.json`)
