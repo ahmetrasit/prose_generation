@@ -150,3 +150,23 @@ be shown, not assumed. The mechanical checks (§4, step 5) run on every output. 
 - **Judged against the North Star:** ground, Turkish losses, contained and connected latent readings, progressive
   disclosure, light Quran parallels and checkable sources are all met. Blind ayat are still needed to show that
   quality holds beyond the named cases.
+
+## 10. Whole-Quran tags, Fatiha complete, 4:34 and 5:6 (2026-09-28)
+
+- **Luna:** scene tags for the whole Quran (192 jobs, 11,365 of 11,372 branches, 8.4% needing a new scene, the
+  same as the random sample, so the inventory generalises); loanword cards and profiles for 4:34 and 5:6. All
+  Luna calls ok at 15 concurrent.
+- **Long surahs:** full tags made the packets explode (4:34 ayah packet 249k characters). Presentation budgets
+  fixed it: images-only dictionaries for long windows; capped scene lines (new roles first, repeats counted,
+  abstract scenes collapsed); top-N scene lines in full and the rest named; compact profiles and loanword cards.
+  Every full list stays pullable. Result: 4:34 window 124k / ayah 125k characters, 5:6 118k / 147k; S1 unchanged.
+- **Fatiha:** 7 ayah commentaries (705-828 words) and the surah commentary (3,453 words). Every quotation
+  sourced; $8.72 Opus in total.
+- **4:34:** window 4:19-35 $1.68; ayah $1.98; commentary 1,042 words, 19/19 sourced. The plain sense is kept
+  (including the blow). Readings supported by the Quran and the dictionary: qawwamun elsewhere only as the burden
+  of justice (4:135, 5:8); qiwam as the pillar under the house; the husband's nushuz (4:128) defined by the
+  dictionary as harshness and beating; the ceasefire formula of 4:90.
+- **5:6:** window 5:1-11 $1.61; ayah $1.95; commentary 845 words, 28/28 sourced. kaʿb and the Kaʿba (5:95, 5:97)
+  are heard as closeness, and the rising in 5:6 leads to 5:8's qawwamin. Still missing: the qiyaman of 5:97 and
+  mirfaq as leaning.
+- **Totals so far:** 22 Opus calls, $15.95; 244 Luna calls; zero failed calls.

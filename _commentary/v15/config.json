@@ -31,8 +31,17 @@
     "short_surah_max_ayat": 40,
     "full_definitions_max_roots": 40,
     "digest_members": 10,
-    "_comment": "Long windows (more roots than full_definitions_max_roots) show dictionary images only; definitions stay one Grep away. Surah-wide scenes are digests: at most digest_members far words each, full lists in data/scenes/.",
-    "scene_line_members": 20
+    "_comment": "Presentation budgets (order and cap only; every full list stays in data/scenes/, data/kwic/, data/profiles/). Long windows (> full_definitions_max_roots) show dictionary images only.",
+    "scene_line_members": 6,
+    "window_digest_members": 4,
+    "window_digest_min_new_roles": 3,
+    "ayah_scene_members": 6,
+    "ayah_digest_members": 4,
+    "ayah_digest_min_new_roles": 2,
+    "window_scene_max_lines": 60,
+    "window_digest_max_lines": 30,
+    "ayah_scene_max_lines": 40,
+    "ayah_digest_max_lines": 25
   },
   "concordance": {
     "kwic_max_uses": 30,
