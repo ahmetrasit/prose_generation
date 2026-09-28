@@ -170,3 +170,21 @@ be shown, not assumed. The mechanical checks (§4, step 5) run on every output. 
   are heard as closeness, and the rising in 5:6 leads to 5:8's qawwamin. Still missing: the qiyaman of 5:97 and
   mirfaq as leaning.
 - **Totals so far:** 22 Opus calls, $15.95; 244 Luna calls; zero failed calls.
+
+## 11. Against the cold arm (2026-09-28)
+
+Compared with the cold arms (`_commentary/v9/lines/work/{4_34,5_6}/synth/w10-opus-cold/`, one Opus call on
+context only):
+
+- **Depth:** v15 does not beat the cold arm. It shares most core readings in about a third of the length
+  (4:34: 1,042 vs 3,211 words; 5:6: 845 vs 2,382).
+- **Where the cold arm is richer:** surah-internal parallels, al-Biqāʿī's naẓm. For 4:34: 4:5, 4:36-38, 2:238,
+  4:81, 4:3, 4:129-130. For 5:6: 5:89, 5:91, 5:11, 35:10. It also makes the North Star's 5:6 example in full
+  (mirfaq as leaning; kaʿb → Kaʿba → qiyāman in 5:97 → qumtum), which v15 makes only in half.
+- **Where v15 is better:** the Turkish-loss layer, sourcing and checkability, dictionary-only surprises (the
+  husband's nushuz defined as harshness and beating), the reader budget, the record behind the prose, and one
+  generic process for every ayah.
+- **Next levers:**
+  - Give the ayah reading a mechanical list of same-surah passages that share its roots, lemmas or scene tags
+    (Luna noting how each relates), before the reading rather than only in the evidence step.
+  - Reconsider the prose budget for dense legal ayat (the North Star sets no length).
