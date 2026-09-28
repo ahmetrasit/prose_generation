@@ -370,7 +370,7 @@ def main():
     ap.add_argument('--ayah', type=int)
     ap.add_argument('--surahs')
     ap.add_argument('--limit', type=int)
-    ap.add_argument('--parallel', type=int, default=1)
+    ap.add_argument('--parallel', type=int, default=CFG['jobs'].get('luna_parallel', 1))
     ap.add_argument('--dry', action='store_true')
     ap.add_argument('--repair', action='store_true')
     ap.add_argument('--only', help='luna: run just this job id')

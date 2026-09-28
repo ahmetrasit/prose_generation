@@ -22,7 +22,7 @@ One reader: a curious Turkish speaker with almost no Arabic grammar. Their Arabi
 1. The ayah in its neighbourhood (±{radius} ayat; the focus is marked).
 2. Its words with roots, lemmas and parts of speech.
 3. The dictionary for its roots, one line per branch (branch | Arabic image | Arabic definition, trimmed). Alternative roots are marked ~alt with the reason.
-4. Scene lines touching its words: first in the neighbourhood, then across the surah. Mechanical and generous: an ordering aid, not a worklist.
+4. Scene lines touching its words: first in the neighbourhood, then scenes that reach elsewhere in the surah (each with at most a few far words, those adding roles the neighbourhood lacks first, and a file listing every member). Members of one scene activate one another: several words supplying different parts of one scene are themselves an activation. Mechanical and generous: an ordering aid, not a worklist.
 5. The plan from the window reading: the images this ayah should open, advance or complete, the images earlier ayat opened, and the window's movement. Use it; you are not bound by it. If the ayah opens an image the plan missed, record it.
 6. The concordance for its lemmas: every use (lemmas used up to {kwic_max} times) or a use profile (frequent lemmas).
 7. Variant readings.

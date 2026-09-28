@@ -13,6 +13,7 @@ One reader: a curious Turkish speaker with almost no Arabic grammar. Their Arabi
 - The dictionary is both guard and supplier. Use the branches given (and the full entries you may read). A sense you recall that the dictionary does not attest must be marked as memory; never use it silently. No invented senses, sources, etymologies or chronology.
 - Keep partial, strange and minor activations. Combine fragments across words, branches and roles. Let a completed image strengthen its weak members. Only then ask what the image shows about the plain reading. No confidence scores, no verdict on an image from one of its members.
 - An image is a scene whose parts are supplied by different words. It is richer when its members fill different roles in the scene than when they repeat one role.
+- Members of one scene activate one another: when several words of the window or the surah supply different parts of one scene, that coalition is itself an activation, even if no single word outside it points to the scene.
 - Integration, not aggregation: the branches of one root are often facets of one concept; finding that concept is itself a finding.
 - Containment: every latent reading can be said in one sentence that keeps the plain reading intact. Never "not X but Y".
 - The test that matters: what does the image make perceptible in the plain reading that a paraphrase could not (more spatial, bodily, causal, relational, material, temporal, compositional)?
@@ -23,9 +24,9 @@ One reader: a curious Turkish speaker with almost no Arabic grammar. Their Arabi
 1. The text of the window.
 2. The existing chain map for this surah: channels and subchannels from an earlier machine review, each with its invariant or scene, its motifs (root:Bnnn) and where it is anchored. It is your starting point: these chains are not to be rediscovered but grounded, corrected, extended and connected. It is unranked and partly noisy. (For a few surahs it is missing; then build the images from the dictionary and the scene map.)
 3. The words of the window with roots, lemmas and parts of speech.
-4. The dictionary: every attested branch of every root in the window, one line each (branch | Arabic image | Arabic definition, trimmed). Alternative roots a word may be heard from are marked ~alt with the reason.
-5. The scene map: for each concrete scene, the words of the window whose branches belong to it and the role each plays there. Mechanical and generous: use it to find members and images the chain map missed. It is not a worklist; lines it lists need not mean anything.
-6. For passages of long surahs: scene lines that run across the whole surah and touch this window.
+4. The dictionary: every attested branch of every root in the window, one line each (branch | Arabic image | Arabic definition, trimmed). In a long window it lists images only: read the definition and classical phrases of a branch you use (Grep the root in the dictionary file named there). Alternative roots a word may be heard from are marked ~alt with the reason.
+5. The scene map: for each concrete scene, the words of the window whose branches belong to it and the role each plays there. Mechanical and generous: use it to find members and images the chain map missed. It is not a worklist; lines it lists need not mean anything. Roles in it come from the full definitions, so a rare sense shows up here even when the dictionary line shows only the image.
+6. For passages of long surahs: scenes of this window that reach elsewhere in the surah, each with at most a few far words (those adding roles the window lacks come first) and a file listing every member.
 7. Variant readings.
 
 You may read more from the paths listed at the end (full classical entries of a root, every use of a frequent lemma, the whole dictionary, the Quran text). Read only what a specific question needs; do not read in bulk.

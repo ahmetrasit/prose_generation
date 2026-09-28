@@ -28,7 +28,11 @@
   },
   "windows": {
     "local_radius": 7,
-    "short_surah_max_ayat": 40
+    "short_surah_max_ayat": 40,
+    "full_definitions_max_roots": 40,
+    "digest_members": 10,
+    "_comment": "Long windows (more roots than full_definitions_max_roots) show dictionary images only; definitions stay one Grep away. Surah-wide scenes are digests: at most digest_members far words each, full lists in data/scenes/.",
+    "scene_line_members": 20
   },
   "concordance": {
     "kwic_max_uses": 30,
@@ -46,7 +50,8 @@
     "frames_per_job": 60,
     "lemmas_per_loanword_job": 25,
     "profile_min_uses": 31,
-    "profile_sample_max": 400
+    "profile_sample_max": 400,
+    "luna_parallel": 15
   },
   "gate": {
     "usd_per_call": 5.0,

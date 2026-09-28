@@ -388,8 +388,9 @@ def words_block(refs):
     return '\n'.join(out)
 
 
-def dictionary_block(refs):
-    """Every branch of every root of the given ayat (own roots first, then alternatives)."""
+def dictionary_block(refs, image_only=False):
+    """Every branch of every root of the given ayat (own roots first, then alternatives).
+    image_only (long windows): images without definitions; the definitions stay one Grep away."""
     uses = defaultdict(list)
     alts = {}
     order = []
@@ -404,10 +405,10 @@ def dictionary_block(refs):
     out = []
     for root in order:
         n = root_uses(root)
-        common = n > CFG['concordance']['image_only_above_uses']
+        common = image_only or n > CFG['concordance']['image_only_above_uses']
         head = (f"### {root}" + (f" ~alt ({alts[root]})" if root in alts else '')
                 + f" — {n} uses; here: " + '; '.join(dict.fromkeys(uses[root]))
-                + (" (frequent root: images only; definitions in branches.tsv)" if common else ''))
+                + ('' if image_only or not common else " (frequent root: images only; definitions in branches.tsv)"))
         lines = root_index_lines(root, CFG['concordance']['definition_chars'], tr=False,
                                  image_only=common) or ['(no branches in the dictionary)']
         out.append(head + '\n' + '\n'.join(lines))
@@ -426,41 +427,134 @@ def scene_members(refs):
     return members
 
 
-def scene_lines(refs, focus_refs=None, min_words=2, compact=False, beyond=None):
+def refkey(ref):
+    return [int(p) for p in ref.split(':')]
+
+
+def member_text(w, v):
+    return f"{w[1]} {w[0]}: " + ', '.join(dict.fromkeys(f"{m[2]}{'~alt' if m[5] else ''} {m[3]} {m[4]}" for m in v))
+
+
+def scene_file(s, frame):
+    """Write every word of the surah whose branches belong to the scene; return its path for the packet."""
+    p = os.path.join(DATA, 'scenes', f's{s:03d}', frame + '.md')
+    if not os.path.exists(p):
+        byw = defaultdict(list)
+        for m in scene_members(lib.refs_of_surah(s)).get(frame, []):
+            byw[(m[0], m[1])].append(m)
+        lib.write_text(p, f"# {frame}: every word of surah {s} whose branches belong to it\n\n"
+                       + '\n'.join(f"- {member_text(w, v)}" for w, v in sorted(byw.items(), key=lambda x: refkey(x[0][0]))) + '\n')
+    return f"data/scenes/s{s:03d}/{frame}.md"
+
+
+def pick(words, known_roles, cap):
+    """Up to cap words: first one word for each role not yet known (a scene's missing parts, so a frequent
+    word repeating one role cannot fill the line), then the rest in text order."""
+    words = sorted(words, key=lambda x: refkey(x[0][0]))
+    seen, adds = set(known_roles), []
+    for x in words:
+        new = {m[4] for m in x[1]} - seen
+        if new:
+            adds.append(x)
+            seen |= new
+    # then words bringing a branch-and-role not yet shown; further occurrences of the same one only add to the count
+    shown = {frozenset((m[2], m[3], m[4]) for m in x[1]) for x in adds}
+    rest = []
+    for x in words:
+        sig = frozenset((m[2], m[3], m[4]) for m in x[1])
+        if x not in adds and sig not in shown:
+            rest.append(x)
+            shown.add(sig)
+    chosen = (adds + rest)[:cap] if cap else adds + rest
+    return sorted(chosen, key=lambda x: refkey(x[0][0])), len(words) - len(chosen)
+
+
+def scene_lines(refs, focus_refs=None, min_words=2, compact=False, cap=None):
     """One line per scene: the words of `refs` whose branches belong to it, with their roles.
     focus_refs: keep only scenes touching these ayat. compact: branch ids only for the focus words,
-    other words as surface, ref and role. beyond: skip scenes whose words all lie in these ayat
-    (already shown in a neighbourhood section)."""
+    other words as surface, ref and role. cap: at most this many other words per line (new roles
+    first), with the file listing every member."""
     focus = {wd['ref'] for r in (focus_refs or []) for wd in ayah_words(r)}
-    shown = {wd['ref'] for r in (beyond or []) for wd in ayah_words(r)}
+    s = int(refs[0].split(':')[0])
     lines = []
     for frame, ms in scene_members(refs).items():
         ws = {m[0] for m in ms}
-        if len(ws) < min_words or (focus and not ws & focus) or (beyond is not None and ws <= shown):
+        if len(ws) < min_words or (focus and not ws & focus):
             continue
         roles = {m[4] for m in ms}
         byw = defaultdict(list)
         for m in ms:
             byw[(m[0], m[1])].append(m)
-        order = sorted(byw.items(), key=lambda x: [int(p) for p in x[0][0].split(':')])
-
-        def full(w, v):
-            return f"{w[1]} {w[0]}: " + ', '.join(dict.fromkeys(f"{m[2]}{'~alt' if m[5] else ''} {m[3]} {m[4]}" for m in v))
         label = frame
         if frame.startswith('new.') and frame in lib.new_frames():
             label += f" ({lib.new_frames()[frame]['scene']})"
         head = f"- {label} [{len(ws)} words, {len(roles)} roles] "
         if compact and focus:
-            here = [full(w, v) for w, v in order if w[0] in focus]
-            others = [f"{w[1]} {w[0]} " + ', '.join(dict.fromkeys(m[4] for m in v)) for w, v in order if w[0] not in focus]
-            text = head + 'here: ' + ' · '.join(here) + (' | with: ' + ' · '.join(others) if others else '')
+            mine = sorted(((w, v) for w, v in byw.items() if w[0] in focus), key=lambda x: refkey(x[0][0]))
+            known = {m[4] for _, v in mine for m in v}
+            others, more = pick([(w, v) for w, v in byw.items() if w[0] not in focus], known, cap)
+            text = (head + 'here: ' + ' · '.join(member_text(w, v) for w, v in mine)
+                    + (' | with: ' + ' · '.join(f"{w[1]} {w[0]} " + ', '.join(dict.fromkeys(m[4] for m in v))
+                                                for w, v in others) if others else ''))
         else:
-            text = head + ' · '.join(full(w, v) for w, v in order)
+            others, more = pick(list(byw.items()), set(), cap)
+            text = head + ' · '.join(member_text(w, v) for w, v in others)
+        if more:
+            text += f" · +{more} more (all: {scene_file(s, frame)})"
         lines.append((len(ws), len(roles), frame, text))
     # order only (nothing is dropped): concrete scenes first, those where many words fill many
     # different roles leading; abstract scenes (moral.*, divine.*) mostly restate the plain sense, so last
     lines.sort(key=lambda x: (x[2].split('.')[0] in ('moral', 'divine'), -min(x[0], x[1]), -x[0], x[2]))
     return [x[3] for x in lines]
+
+
+def scene_digest(s, focus_refs, local_refs):
+    """Scenes that touch the focus and also have members elsewhere in the surah: one compact line each.
+    At most windows.digest_members words from beyond the neighbourhood are shown, those adding roles the
+    neighbourhood lacks first (a scene's missing parts); every member is listed in data/scenes/sNNN/<scene>.md.
+    Order only, nothing dropped: the full list stays one Read away."""
+    cap = CFG['windows']['digest_members']
+    focus = {wd['ref'] for r in focus_refs for wd in ayah_words(r)}
+    local = {wd['ref'] for r in local_refs for wd in ayah_words(r)}
+    whole_window = set(focus_refs) == set(local_refs)
+    lines, quiet = [], []
+    for frame, ms in scene_members(lib.refs_of_surah(s)).items():
+        ws = {m[0] for m in ms}
+        outside = [m for m in ms if m[0] not in local]
+        if not ws & focus or not outside:
+            continue
+        path = scene_file(s, frame)
+        inside_roles = {m[4] for m in ms if m[0] in local}
+        far = defaultdict(list)
+        for m in outside:
+            far[(m[0], m[1])].append(m)
+        new_roles = {m[4] for v in far.values() for m in v} - inside_roles
+        abstract = frame.split('.')[0] in ('moral', 'divine')
+        if abstract or not new_roles:
+            # far words only repeat roles already present here (or the scene is abstract): named, not spelled out
+            quiet.append(f"{frame} ({len(ws)})")
+            continue
+        shown, more = pick(list(far.items()), inside_roles, cap)
+        others = ' · '.join(f"{w[1]} {w[0]} " + ', '.join(dict.fromkeys(m[4] for m in v)) for w, v in shown)
+        if whole_window:
+            here = f"in this window: {len(ws & local)} words ({', '.join(sorted(inside_roles))})"
+        else:
+            byw = defaultdict(list)
+            for m in ms:
+                if m[0] in focus:
+                    byw[(m[0], m[1])].append(m)
+            here = 'here: ' + ' · '.join(member_text(w, v) for w, v in sorted(byw.items(), key=lambda x: refkey(x[0][0])))
+        label = frame + (f" ({lib.new_frames()[frame]['scene']})" if frame in lib.new_frames() else '')
+        text = (f"- {label} [{len(ws)} words in the surah, {len({m[4] for m in ms})} roles] {here} | beyond the "
+                f"neighbourhood, {len(far)} words; roles missing here: {', '.join(sorted(new_roles))}: {others}"
+                + (f" · +{more} more" if more else '') + f" (all: {path})")
+        lines.append((-len(new_roles), -len(ws), frame, text))
+    lines.sort()
+    out = [x[3] for x in lines]
+    if quiet:
+        out.append(f"- also reaching beyond the neighbourhood, with no role missing here or abstract (every member in "
+                   f"data/scenes/s{s:03d}/<scene>.md): " + ', '.join(sorted(quiet)))
+    return out
 
 
 def motif_keys(motif_line):
@@ -614,18 +708,25 @@ def build_window(s, only=None):
             continue
         refs = [f'{s}:{a}' for a in range(lo, hi + 1)]
         chains = channel_index(s, lo, hi) if long_surah else channel_index(s)
+        n_roots = len({r for ref in refs for wd in ayah_words(ref) for r, _, _, _ in word_roots(wd)})
+        long_window = n_roots > CFG['windows']['full_definitions_max_roots']
+        dict_title = ('Dictionary: every branch of every root (branch | image). A long window, so images only: '
+                      f'each branch\'s definition and classical phrases are in {os.path.join(DATA, "branches.tsv")} '
+                      '(Grep the root, e.g. "ق و م\\tB012"); full entries in data/entries/'
+                      if long_window else 'Dictionary: every branch of every root (branch | image | definition)')
         parts = [f"# Window {s}:{lo}–{hi} ({label})\n",
                  section('Text', text_block(s, lo, hi)),
                  section('Existing chain map (earlier machine review; the starting point: ground, correct, extend, '
                          'connect; unranked, partly noisy)', chains or '(no chain map for this surah)'),
                  section('Words (ref surface | root | lemma | pos)', words_block(refs)),
-                 section('Dictionary: every branch of every root (branch | image | definition)', dictionary_block(refs)),
+                 section(dict_title, dictionary_block(refs, image_only=long_window)),
                  section('Scene map in this window (mechanical, generous; for what the chain map missed)',
-                         '\n'.join(scene_lines(refs)) or '(scene tags not built yet)')]
+                         '\n'.join(scene_lines(refs, cap=CFG['windows']['scene_line_members'] if long_window else None))
+                         or '(scene tags not built yet)')]
         if long_surah:
-            surah_refs = lib.refs_of_surah(s)
-            wide = [l for l in scene_lines(surah_refs, focus_refs=refs, min_words=3)]
-            parts.append(section('Scene lines across the whole surah that touch this window', '\n'.join(wide)))
+            parts.append(section('Scenes of this window that reach elsewhere in the surah (at most '
+                                 f"{CFG['windows']['digest_members']} far words each, new roles first; every member "
+                                 'in the file named)', '\n'.join(scene_digest(s, refs, refs))))
         parts += [section('Variant readings', qiraat_block(refs)),
                   section('Paths you may read', pull_paths(s))]
         d = window_dir(s, lo, hi)
@@ -665,13 +766,15 @@ def build_ayah(s, a):
     ref = f'{s}:{a}'
     lo, hi = lib.local_range(s, a)
     local = [f'{s}:{x}' for x in range(lo, hi + 1)]
-    wide = scene_lines(lib.refs_of_surah(s), focus_refs=[ref], min_words=3, compact=True, beyond=local)
+    wide = scene_digest(s, [ref], local)
     parts = [f"# Ayah {ref}\n",
              section(f'The ayah in its neighbourhood ({s}:{lo}–{hi})', text_block(s, lo, hi, focus=a)),
              section('Its words (ref surface | root | lemma | pos)', words_block([ref])),
              section('Dictionary for its roots (branch | image | definition | tr: Turkish gloss)', dictionary_block([ref])),
-             section('Scene lines touching its words, in the neighbourhood', '\n'.join(scene_lines(local, focus_refs=[ref], compact=True)) or '(none)'),
-             section('Scene lines touching its words that reach beyond the neighbourhood', '\n'.join(wide)),
+             section('Scene lines touching its words, in the neighbourhood', '\n'.join(scene_lines(local, focus_refs=[ref], compact=True, cap=CFG['windows']['digest_members'])) or '(none)'),
+             section('Scenes of its words that reach beyond the neighbourhood (at most '
+                     f"{CFG['windows']['digest_members']} far words each, new roles first; every member in the file named)",
+                     '\n'.join(wide)),
              section('Plan from the window reading', plan_block(s, a)),
              section('Concordance for its lemmas', concordance_block(ref)),
              section('Variant readings', qiraat_block([ref])),
