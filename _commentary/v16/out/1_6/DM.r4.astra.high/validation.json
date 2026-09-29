@@ -1,0 +1,27 @@
+{
+  "generation_status": "ok",
+  "format": {
+    "status": "ok",
+    "findings": []
+  },
+  "quoted_arabic_summary": "exact=13 fixed=0 fixable=0 missing=0 wrong-ayah=0",
+  "quoted_arabic_sources": "Frozen DM r3 evidence in r4 packet plus local canonical Quran text; no automatic fixes.",
+  "legacy_full_source_check": {
+    "status": "blocked",
+    "reason": "Legacy check.py uses unavailable /Volumes/OZTURK/_projects paths. See check.error.log."
+  },
+  "manual_review_flags": [
+    {
+      "kind": "paraphrase_reference",
+      "paragraph": "Terazinin basindaki insan / Yolun sonunda ayaga kalkmak",
+      "current": "83:1",
+      "suggested": [
+        "83:2",
+        "83:3"
+      ],
+      "note": "The sentence describes taking full measure and giving short measure; those details are in 83:2 and 83:3. Raw generation preserved."
+    }
+  ],
+  "raw_response_preserved": true,
+  "prose_sha256": "9e89824fbecda1d2b576df9fe74feb421e2568214477f3f03a2d0d86ad5d4b94"
+}

@@ -1,0 +1,26 @@
+{
+  "argv": [
+    "codex",
+    "exec",
+    "--ignore-user-config",
+    "-m",
+    "gpt-6-astra",
+    "-c",
+    "model_reasoning_effort=\"high\"",
+    "-c",
+    "web_search=\"disabled\"",
+    "--disable",
+    "skill_search",
+    "--skip-git-repo-check",
+    "--ephemeral",
+    "-s",
+    "read-only",
+    "--json",
+    "-o",
+    "/var/folders/rg/bw13sfkn0fdb6zxbhx0sbt9m0000gn/T/v16_astra_7e05dn15/response.md",
+    "-C",
+    "/var/folders/rg/bw13sfkn0fdb6zxbhx0sbt9m0000gn/T/v16_astra_7e05dn15",
+    "-"
+  ],
+  "stdin": "prompt.md"
+}

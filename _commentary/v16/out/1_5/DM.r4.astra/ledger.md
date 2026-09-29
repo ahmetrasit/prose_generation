@@ -1,0 +1,11 @@
+- memory: Fronted objects, repeated exclusive address, the shift to direct address, first-person plural verbs, and the nonconditional conjunction; the common Turkish narrowing of “ibadet” (Arabic grammar and Turkish usage).
+- memory: Rival owners, powerless objects of worship, the two Nahl comparisons, and Pharaoh’s appeal to upbringing answered with enslavement (39:29; 16:73; 16:75; 16:76; 26:18; 26:22).
+- memory: The immediate worship-and-misdirection context surrounding the straight-path statement (36:60; 36:61; 36:62).
+- memory: Seeking help through patience and prayer, meeting the Lord, trials, belonging and return, mercy and guidance (2:45; 2:46; 2:153; 2:155; 2:156; 2:157).
+- memory: The cow narrative’s command, middle age, requests for clarification, and reluctant completion; steadfast communities and their prayer; refusal of servitude and the absence of another protector or helper (2:67; 2:68; 2:70; 2:71; 3:146; 3:147; 4:172; 4:173).
+- memory: Cooperation and its ethical limits; the offered payment, requested assistance, construction, and attribution to the Lord’s mercy; individual enumeration and arrival (5:2; 18:94; 18:95; 18:96; 18:97; 18:98; 19:94; 19:95).
+- memory: Water retention in treated skins, waterproofing with pitch, and a fixed pulley changing the direction of pulling are ordinary material knowledge, not additional dictionary senses.
+- not written: The perfume-grinding stone and the fixed expressions for acting without delay or running faster — neither perfume nor speed acquired a supported function in the paired declaration and request.
+- not written: The old palm repeats the age dimension without adding the horse’s functional maturity; pubic hair, shaving, and the place-name/wine branches would require an unsupported bodily rite or geographical setting.
+- not written: The proposed ‘ayn echoes, including eye, spring, cash, and identification — ‘ayn is not the root of nasta‘in, and sound resemblance alone did not establish these connections.
+- not written: Further mapped developments involving bridal conveyance, offerings, weather, blood-money, scales, disappearance, and eye states — their distinctive mechanisms lacked an established additional connection to the focus; importing them would require further premises rather than extend the demonstrated relationships.

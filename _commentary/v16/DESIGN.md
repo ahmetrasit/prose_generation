@@ -1,5 +1,8 @@
 # Commentary v16
 
+Current ayah brief: **r4**, discovery before themes and full coherent development, described at the end.
+Earlier sections preserve the design and results of r1-r3.
+
 2026-09-29. One permitted Opus reading per ayah: what already writes coherent prose, plus assembled findings and a
 valve for leftovers. Not the PHASE2 §3 design. That design's supply, bookkeeping rules and integration merge are
 rejected by the user's E2 read and `review/adversary/REPORT.md`. v16 is the adversarial audit's next step (§6), with
@@ -509,3 +512,82 @@ $20/M, output $50/M). Both runs had an identical prompt.
 
 **My reading.** Fable writes the stronger 1:5: sharper cross-passage joins and cleaner prose, on a quarter of Opus's
 thinking, at 1.6× the cost. One ayah is not a verdict.
+
+## Brief r4: discovery and coherent development (2026-09-29)
+
+The user identified two remaining deviations from v9: the writer is cast as an accountant of supplied findings,
+and "choose the few" preselects how much can enter. The agreed criterion is that everything coherent contributes:
+major themes carry the reading, and other findings expand, build, complicate or connect those themes. A finding
+stays outside only after exploring whether it can contribute, or because its evidence fails.
+
+`prompts/r4/write.md` and `additions.md` restore the writer's discovery responsibility. Connected readings come
+before the outline or controlling question. Consequential findings can enlarge or reshape a theme, or establish
+another major theme. There is no target number, omission proportion or length limit. Supporting findings receive
+the development their contribution needs. The cinematic treatment, Turkish-loss layer, source accuracy rules
+and separate memory/omissions ledger remain. Omissions must explain why a finding could not contribute, rather
+than appealing to length or the initial scene. r4 is the default ayah brief; r1-r3 remain unchanged.
+
+**Authorized trial:** DM r4 on 1:5 and 1:6, each one `gpt-6-astra` call at max reasoning effort through the Codex
+subscription. `run_astra.py` is build-only unless passed `--run`; it preserves an exclusive started marker, exact
+prompt, command, raw stream, response, usage and split prose/ledger. Outputs are in `out/<S_A>/DM.r4.astra/`.
+The CLI does not report USD cost, so these subscription runs record null cost and estimate rather than borrowing
+Opus prices. The existing under-$5 estimated-cost gate remains in the Claude runner.
+
+**Evidence control:** the local upstream checkout lacks v9's root-resolution gateway. These runs use the exact
+evidence in the saved DM r3 prompts, including the r2 S1 map, and replace only the two writing briefs. The builder
+asserts byte-identical evidence and saves source/prompt/evidence hashes in `work/<S_A>/DM.r4/packet.json`. No earlier
+reading, result, assessment, known-case list or this design document is supplied to the writer. This comparison
+changes both brief and model; it cannot isolate the effect of either.
+
+Command (requires NumPy, as does the existing v16 packet module):
+
+```sh
+python3 -B _commentary/v16/run_astra.py --ayah 1:5 --ayah 1:6 --run
+```
+
+Status: all four calls completed; results and checks below.
+
+**Effort preference (user, while these calls were running):** future Astra runs use **high**, now the default in
+`run_astra.py`. The user explicitly asked to let the current two max-effort calls continue unchanged. Their command
+and started records preserve `max`; `--effort max` can reproduce that setting only when explicitly requested.
+
+**Additional trial authorized by the user:** run 1:5 and 1:6 at high effort in parallel while both max runs
+continue. High outputs use `out/<S_A>/DM.r4.astra.high/`; max keeps `DM.r4.astra/`. Both read the identical r4
+prompt. Output paths include effort, and exclusive started markers prevent overwriting or duplicate calls.
+
+### r4 results: Astra max and high
+
+| ayah | effort | prose words | elapsed | output tokens | reasoning tokens |
+|---|---|---:|---|---:|---:|
+| 1:5 | max | 2,449 | 15m 12s | 30,206 | 24,008 |
+| 1:6 | max | 2,951 | 16m 59s | 33,745 | 26,223 |
+| 1:5 | high | 2,215 | 4m 55s | 9,494 | 3,742 |
+| 1:6 | high | 3,071 | 6m 51s | 13,452 | 5,600 |
+
+All four completed in one call each, with separate ledgers and no tool use. Each high/max pair has an identical
+prompt hash. Earlier runs and the raw new responses are preserved. Output tokens include reasoning; word counts
+are whitespace counts of prose including the Arabic reader tags, matching the runner's convention.
+
+**Reading observations.** All four develop the well and pulley within larger themes. On 1:5 the apparatus makes
+shared help concrete; high extends this through Moses helping at the watering place while remaining in need
+(28:23–26). On 1:6 the well develops the relation between guidance, support and a functioning structure; high
+connects Moses's request for guidance (28:22) to water, assistance, reception and the household that follows.
+Both 1:6 readings develop the balance, value/compensation, disappearance and final dwelling as further aspects
+of the journey rather than excluding them because an initial road scene cannot carry them. The ledgers explain
+remaining omissions by evidence or lack of an additional consequence. These are observations, not a user quality
+verdict or a controlled estimate of the brief's effect. The high/max pair controls the prompt, but is one sample
+per setting, with no replicates.
+
+**Validation.** Python syntax, unchanged r1-r3 prompts, frozen evidence, identical paired prompts, exclusive-run
+guards, response/prose identity and `git diff --check` passed. All four pass `v5/validate_prose.py`; `v9/verify_ar.py`
+finds 8, 10, 9 and 13 exact Arabic quotations respectively, with no missing, fixable or wrong-ayah tags. These are
+quotation and formatting checks, not validation of every interpretation or paraphrase.
+
+The comprehensive legacy `review/e0/checks/check.py` cannot run on this machine: it uses unavailable absolute
+`/Volumes/OZTURK/_projects/...` paths. Each run preserves its failure in `check.error.log`, with this limitation
+recorded in `validation.json`. No claim of full source-check success is made.
+
+**Manual reference flag:** high 1:6, the opening paragraph under "Yolun sonunda ayağa kalkmak", describes taking
+full measure and giving short measure but cites 83:1. Those details are in 83:2 and 83:3. The flag is saved in
+that run's `validation.json`; the raw generated reading has not been edited. Ledger references to the same
+paraphrase share that citation issue.

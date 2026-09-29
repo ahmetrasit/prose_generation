@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/Users/ahmetrasit/projects/prose_generation/_commentary/review/e0/checks/check.py", line 423, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/Users/ahmetrasit/projects/prose_generation/_commentary/review/e0/checks/check.py", line 404, in main
+    rec = check(Path(a.commentary), a.ref)
+  File "/Users/ahmetrasit/projects/prose_generation/_commentary/review/e0/checks/check.py", line 273, in check
+    R = Resolver(focus)
+  File "/Users/ahmetrasit/projects/prose_generation/_commentary/review/e0/checks/check.py", line 57, in __init__
+    self.win = set(C.window(focus))
+                   ~~~~~~~~^^^^^^^
+  File "/Users/ahmetrasit/projects/prose_generation/_commentary/review/e0/checks/common.py", line 229, in window
+    return [f"{s}:{x}" for x in range(max(1, a - radius), min(surah_len(s), a + radius) + 1)]
+                                                              ~~~~~~~~~^^^
+  File "/Users/ahmetrasit/projects/prose_generation/_commentary/review/e0/checks/common.py", line 220, in surah_len
+    q = quran_text()
+  File "/Users/ahmetrasit/projects/prose_generation/_commentary/review/e0/checks/common.py", line 207, in quran_text
+    for line in SRC["quran"].read_text(encoding="utf-8").splitlines():
+                ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 787, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 771, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Volumes/OZTURK/_projects/quran-data/data/text/quran-uthmani.tsv'

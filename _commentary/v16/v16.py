@@ -6,6 +6,9 @@ Briefs:
       2026-09-29 used r1; its packets rebuild byte for byte (outputs in out/<S_A>/<arm>/, out/sNNN/surah/).
   r2  after REVIEW.md: prompts/r2/{write,additions,surah_map}.md, context.md without the word notes, the v16
       dictionary in every arm, the judgements clause on HFT and channel review (outputs in <arm>.r2/, surah.r2/).
+  r3  cinematic scenes; memory and omissions in a separate ledger; reuses the r2 surah map.
+  r4  discovery before themes; every coherent contribution develops the themes; no selection quota (default).
+      Reuses the r2 surah map. GPT-6 Astra subscription runs use run_astra.py with frozen earlier evidence.
 
 Arms (the assembled-findings slot):
   H   the ayah's HFT records (v9/input/v2/…/02_hft.md) and the surah channel review's subchannels anchored in the
@@ -24,9 +27,10 @@ starts only if its estimate is below $5; every call is logged in out/ledger.json
 runs after writing and never edits the prose. Packets are built in the main thread; only the calls run in parallel.
 
 Usage:
-  python3 _commentary/v16/v16.py build [--brief r1|r2] [--arm X] [--ayah S:A]   write packets, print estimates
-  python3 _commentary/v16/v16.py run --arm X [--brief r2] [--ayah S:A] [--parallel N]
+  python3 _commentary/v16/v16.py build [--brief r1|r2|r3|r4] [--arm X] [--ayah S:A]
+  python3 _commentary/v16/v16.py run --arm X [--brief r4] [--ayah S:A] [--parallel N]
   python3 _commentary/v16/v16.py surah --surah 1 [--brief r2] [--run]
+  python3 _commentary/v16/run_astra.py --ayah 1:5 --ayah 1:6 [--run]
 """
 from __future__ import annotations
 
@@ -68,6 +72,9 @@ BRIEFS = {
     "r3": {"write": HERE / "prompts" / "r3" / "write.md", "add": HERE / "prompts" / "r3" / "additions.md",
            "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"],
            "map_from": "r2", "ledger": True},
+    "r4": {"write": HERE / "prompts" / "r4" / "write.md", "add": HERE / "prompts" / "r4" / "additions.md",
+           "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"],
+           "map_from": "r2", "ledger": True},
 }
 LEDGER_MARK = "=== LEDGER ==="
 # model key -> (model id, cache-write $/token (1h = 2x input), output $/token); opus is the default and has no suffix
@@ -101,6 +108,7 @@ ARM_EVIDENCE = {
                   "dictionary phrases of their members in other ayat; a proposal, not an authority)")},
 }
 ARM_EVIDENCE["r3"] = ARM_EVIDENCE["r2"]
+ARM_EVIDENCE["r4"] = ARM_EVIDENCE["r2"]
 _SRC = None
 
 
@@ -304,7 +312,7 @@ def surah_build(s: int, brief: str) -> tuple[str, Path]:
     text = wd / "text.md"
     text.write_text(f"# Surah {s}\n\n" + "\n".join(f"- {r} {src().quran[r]}" for r in refs) + "\n", encoding="utf-8")
     dic = wd / "dictionary.md"
-    dic.write_text(D.surah_section(src(), refs, brief), encoding="utf-8")
+    dic.write_text(D.surah_section(src(), refs, "r1" if brief == "r1" else "r2"), encoding="utf-8")
     hft = wd / "hft.md"
     parts = [f"# HFT: earlier activation hypotheses, per focus ayah of surah {s}"]
     if brief != "r1":
@@ -478,7 +486,7 @@ def surah_run(s: int, brief: str) -> str:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("cmd", choices=("build", "run", "surah"))
-    ap.add_argument("--brief", choices=tuple(BRIEFS), default="r2")
+    ap.add_argument("--brief", choices=tuple(BRIEFS), default="r4")
     ap.add_argument("--arm")
     ap.add_argument("--ayah")
     ap.add_argument("--surah", type=int)
