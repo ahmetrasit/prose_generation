@@ -25,7 +25,7 @@ the few that make this ayah's scene and let the rest go to the ledger. A chain
 the map says an earlier ayah opened is recalled in a sentence, not explained
 again; show what this ayah adds to it.
 
-First understand the focus in its immediate grammar and scene. Then develop
+Before writing, treat any supplied recall-first discovery as an over-inclusive candidate pool, not as authority. Do not re-run discovery under prose constraints: verify candidates against the supplied evidence, then select only what survives and serves the focus. A candidate may be discarded here; the discovery stage should not have discarded it for you.\n\nFirst understand the focus in its immediate grammar and scene. Then develop
 the consequential resonances into connected readings. Readings and maps
 supplied by earlier readers are proposals, not authorities: correct them when
 the original sources require correction. Let a concrete detail make the next
