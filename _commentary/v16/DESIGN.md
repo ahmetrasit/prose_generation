@@ -71,4 +71,42 @@ everything, or did you curate?"). If the chains still don't cross ayat: a surah-
 
 ## Status
 
-- 2026-09-29: packets built for the first test. No model run yet; waiting for approval.
+- 2026-09-29: packets built for the first test.
+- 2026-09-29: first test run with approval. 6 of 6 calls ok, $4.79 in total, no reruns (`out/ledger.jsonl`).
+
+  | ayah | arm | words | cost | thinking | refs | negation /1000 |
+  |---|---|---|---|---|---|---|
+  | 1:6 | E1 (reference) | 1,962 | – | – | 15 | 10.7 |
+  | 1:6 | H | 1,684 | $0.92 | 18.7k | 22 | 10.7 |
+  | 1:6 | V | 2,278 | $1.45 | 19.6k | 29 | 6.6 |
+  | 100:1 | E1 | 1,567 | – | – | 21 | 7.7 |
+  | 100:1 | H | 1,846 | $0.89 | 10.3k | 21 | 7.0 |
+  | 100:1 | V | 1,556 | $0.47 | 5.6k | 20 | 6.4 |
+  | 100:6 | E1 | 1,594 | – | – | 19 | 4.4 |
+  | 100:6 | H | 1,473 | $0.55 | 4.8k | 15 | 8.8 |
+  | 100:6 | V | 1,648 | $0.52 | 5.9k | 20 | 5.5 |
+
+  "refs" counts distinct ayah references, S100's own included. `check.py`: every tag is sourced in all six, and
+  there is no unmarked memory.
+
+  **My reading, against E1 rep1 and the v9 arms:**
+
+  - Every run is above the v9 dictionary arm, but most of that margin is E1's memory permission.
+  - **Above E1:**
+    - 1:6 H: the supported gait (yuhādā bayna-thnayn) becomes a thread tied to nastaʿīn.
+    - 1:6 V:
+      - hady as someone's gait, followed (6:90, 19:43);
+      - the qāʾim dinar and the balance (26:182, 55:9), which frame 1:7's two sides;
+      - 7:43 closes on 1:2.
+    - 100:6 V: 16:83 ("know, then deny": the rope is cut after it was bound) and the four inne…la- verdicts
+      as the surah's architecture.
+  - **Level with E1:**
+    - 100:1 H and V;
+    - 100:6 H.
+    - V's "what is inside comes out" thread on 100:1 (breath, flint, earth, graves, breasts) is the best
+      integration in the set.
+  - **Missing everywhere: the pulley.** It was in both 1:6 inputs (the channel subchannel "Well and
+    Water-Lifting Assembly"; v5 macro's well apparatus) and was dropped both times. The rural blind spot
+    persists in a single call.
+  - The Ek Notlar valve works: leftovers go there instead of into hedged paragraphs. V has the lowest negation
+    rate on all three ayat.
