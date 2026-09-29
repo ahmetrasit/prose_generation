@@ -378,3 +378,32 @@ one paragraph where the pilot gives a section.
 **The eye film is activated by a neighbour.** It came from the assembled chains (HFT), not from the dictionary
 alone. That supports reading HFT and channels in the surah or pericope map. A pericope map for long surahs is not
 built yet.
+
+## Brief r3 (2026-09-29, user feedback; built, not run)
+
+The user read DM r2 (1:6, 1:7) and H r2 (29:38):
+
+- "hafızadan aktarıyorum" and "bildiğim kadarıyla" do not belong in reader prose;
+- the prose should be cinematic (a filmmaker's perspective) with hooks, and is too dry now;
+- 1:6 reads like a catalogue, not a synthesis;
+- a very basic ledger of what was not written, and why, is enough;
+- otherwise everything is good.
+
+**r3** (`prompts/r3/write.md`, `prompts/r3/additions.md`; DM reads the r2 S1 map):
+
+- **Filmmaker's eye.** Open on a concrete moment; move from wide shot to close-up and back; cut between scenes the
+  words connect; open each section with a hook; end it on an image that carries forward. The drama comes only from
+  the evidence. A dictionary phrase enters as something seen or heard in the scene, not as "sözlükler şöyle der".
+- **Scenes, not words.** Each section is a scene where several of the ayah's words act together, never one section
+  per word or root. One controlling question or image opens the reading and returns at its end. From the map,
+  choose the few chains that make this ayah's scene; the rest go to the ledger. A chain an earlier ayah opened is
+  recalled in a sentence and not explained again.
+- **No source talk in the prose.** Memory is written plainly in the prose and listed in the ledger (the North Star's
+  "marked, never silently used" is kept in the ledger).
+- **Turkish loss.** Where a key word lives in Turkish as a narrowed or shifted loanword, the reader feels what the
+  Turkish word no longer carries, once.
+- **No Ek Notlar.** The output ends with `=== LEDGER ===`, then `- memory: …` and `- not written: … - why` lines.
+  `run_one` splits this into `ledger.md`.
+
+**Checks.** r1 and r2 packets rebuild identical. The r3 briefs name no known case. The ledger split was tested on a
+synthetic output.

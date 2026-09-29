@@ -63,7 +63,13 @@ BRIEFS = {
            "surah": HERE / "prompts" / "surah_map.md", "arms": ["H", "V", "D", "VD", "DM"]},
     "r2": {"write": HERE / "prompts" / "r2" / "write.md", "add": HERE / "prompts" / "r2" / "additions.md",
            "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"]},
+    # r3 (user, 2026-09-29): cinematic prose with hooks, scenes not words, no source talk in the prose; memory and
+    # what was left out go to a ledger split off after "=== LEDGER ==="; DM reads the r2 surah map.
+    "r3": {"write": HERE / "prompts" / "r3" / "write.md", "add": HERE / "prompts" / "r3" / "additions.md",
+           "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"],
+           "map_from": "r2", "ledger": True},
 }
+LEDGER_MARK = "=== LEDGER ==="
 R1_V16_DICT = {"D", "VD", "DM"}
 V5_RUN = {1: "s001-fresh-20260910", 100: "s100-regular-20260911"}
 LANES = ["micro", "macro", "global"]
@@ -92,6 +98,7 @@ ARM_EVIDENCE = {
            "DM": ("map.md (an earlier reader's map of the image chains that run through the whole surah, with the "
                   "dictionary phrases of their members in other ayat; a proposal, not an authority)")},
 }
+ARM_EVIDENCE["r3"] = ARM_EVIDENCE["r2"]
 _SRC = None
 
 
@@ -218,7 +225,7 @@ def build(ref: str, arm: str, brief: str) -> tuple[str, dict]:
         v16_dict = True
     if v16_dict:
         dic = wd / "01_dictionary.md"
-        dic.write_text(D.section(src(), ref, brief), encoding="utf-8")
+        dic.write_text(D.section(src(), ref, "r1" if brief == "r1" else "r2"), encoding="utf-8")
     else:
         dic = V9 / "input" / "v2" / f"s{s:03d}" / name / "01_dictionary.md"
     meta = {"ref": ref, "arm": arm, "brief": brief}
@@ -229,7 +236,8 @@ def build(ref: str, arm: str, brief: str) -> tuple[str, dict]:
     elif arm == "D":
         extra = []
     elif arm == "DM":
-        m = OUT / f"s{s:03d}" / ("surah" if brief == "r1" else f"surah.{brief}") / "map.md"
+        mb = BRIEFS[brief].get("map_from", brief)
+        m = OUT / f"s{s:03d}" / ("surah" if mb == "r1" else f"surah.{mb}") / "map.md"
         if not map_complete(m):
             raise SystemExit(f"{ref} DM: no complete surah map at {rel(m)} (needs '## Chains' and '## Ayat')")
         extra = [m]
@@ -243,7 +251,8 @@ def build(ref: str, arm: str, brief: str) -> tuple[str, dict]:
     prompt = (f"Focus: {ref}. Follow the brief below (write.md) and its additions (additions.md) exactly. The "
               f"evidence is {BASE_EVIDENCE}{' and ' + ev if ev else ''} and your own "
               f"knowledge of Arabic and the Quran. "
-              f"Return only the reader's prose as your final message.")
+              + ("Return the reader's prose and then the ledger, as write.md specifies." if b.get("ledger") else
+                 "Return only the reader's prose as your final message."))
     text = prompt + "\n\n" + stdin
     (wd / "prompt.md").write_text(text, encoding="utf-8")
     meta["files"] = [rel(p) for p in (b["write"], b["add"], ctx, dic, *extra)]
@@ -423,6 +432,12 @@ def run_one(ref: str, arm: str, brief: str, text: str, est: float) -> str:
     row = {"ref": ref, "arm": arm, "brief": brief, "seconds": round(time.time() - t0), "estimate_usd": round(est, 2),
            **usage_row(obj, text)}
     result = (obj.get("result") or "").strip()
+    if result and BRIEFS[brief].get("ledger"):
+        prose, sep, ledger = result.partition(LEDGER_MARK)
+        row["ledger"] = bool(sep)
+        if sep:
+            (d / "ledger.md").write_text(ledger.strip() + "\n", encoding="utf-8")
+            result = prose.strip()
     if result:
         reading = d / f"{name}.reading.tr.md"
         reading.write_text(result + "\n", encoding="utf-8")
