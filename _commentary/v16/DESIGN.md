@@ -158,3 +158,22 @@ characters) and 51% smaller than v9 without clipping.
     persists in a single call.
   - The Ek Notlar valve works: leftovers go there instead of into hedged paragraphs. V has the lowest negation
     rate on all three ayat.
+- 2026-09-29: arms D and VD on 1:6, run with approval: D $0.77 (23.5k thinking), VD $1.22 (12.1k thinking).
+
+  **The pulley is still absent in both.** The whole B012 source line, including "النعامة الخشبة المعترضة ثم تعلق
+  القامة", was in both prompts. The cut dictionary was therefore not the only cause. The writer sees the join and
+  does not use it. The brief itself says a related noun's sense does not become the word's meaning, and the pulley
+  needs two such hops: qāma the noun → istiqāma, and naʿāma → anʿamta.
+
+  **Otherwise:**
+
+  - **D** (dictionary only, no findings, the cheapest input at about 20k tokens) is as strong as V:
+    - the qāʾim dinar and "the day's balance stood";
+    - the balance's two pans read into 1:7;
+    - hady as the offering that reaches its place (2:196) and the bride conveyed;
+    - 4:68 and 4:69 as fellow travellers;
+    - 11:56's forelock with hādī as the neck.
+  - **VD:**
+    - a new thread of the guide ahead, the support at the side (yuhādā), then upright walking (67:22, 4:175);
+    - 72:16 (istaqāmū → abundant water) in Ek Notlar: the Quran's own join of istiqāma and water, parked outside
+      the threads.
