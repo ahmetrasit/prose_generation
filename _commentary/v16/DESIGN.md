@@ -352,3 +352,29 @@ is marked throughout.
 
 **Across both ayat.** The well chain reaches both writers from the map, and both rank other chains higher. This
 is now a stable judgement of the ayah writer, not missing data.
+
+## 29:38, the watch case (2026-09-29, with approval)
+
+The DM path needs a surah map, and S29 has 69 ayat with HFT for only four of them. So only the two arms that need
+no map ran:
+
+| arm | cost | words | refs | neg/1000 | eye film (sebel) | notes |
+|---|---|---|---|---|---|---|
+| D r2 (dictionary only) | $0.88 | 2,689 | 36 | 3.35 | **no**, though its dictionary carries «داء في العين شبه غشاوة كأنها نسج العنكبوت» | 29:41, shaṭana as a well-rope and turning from one's heading, ṣadd as the blocking mountain wall joined to Thamūd's carved houses, 27:24's twin sentence, 17:59 mubṣira, 14:45, 7:201 |
+| H r2 (+ HFT, channel subchannels) | $0.99 | 2,525 | 34 | 2.38 | **yes**: sebel's film "like spider's weave" set beside 29:41 "evlerin en çürüğü"; the section closes on "gözün üstüne gerilmiş ince bir ağ" | ʿamal → ṭarīq muʿmal (the trodden road of their own works), ʿĀd → ʿādī (old roads), 27:24 vs "kānū mustabṣirīn", 17:59 and 41:17, 16:63, three tafsir readings of mustabṣirīn kept together, ʿaql/ʿiqāl marked as memory |
+
+**Against the v9 pilot** (4,011 words, the user's "great / excellent"). H covers the pilot's movements:
+
+- two ways of appearing (tabayyana / zayyana);
+- the veiled eye;
+- their own trodden road;
+- dwellings that could not keep them standing;
+- "they were seeing";
+- the ʿĀd name.
+
+It lacks the pilot's kohl (the pilot's eye section is "Sürmelenmiş ve Perdelenmiş Göz"), and it gives the eye film
+one paragraph where the pilot gives a section.
+
+**The eye film is activated by a neighbour.** It came from the assembled chains (HFT), not from the dictionary
+alone. That supports reading HFT and channels in the surah or pericope map. A pericope map for long surahs is not
+built yet.
