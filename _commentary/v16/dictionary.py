@@ -53,6 +53,30 @@ def section(src: P.Sources, ref: str) -> str:
     return "\n".join(HEADER) + body.split("\n", 5)[5]
 
 
+def surah_section(src: P.Sources, refs: list[str]) -> str:
+    """Every root of every ayah in `refs`, each root once, in text order (identity, alternatives, echo)."""
+    lines = HEADER[:1] + ["", "Every root of the surah's words, each once, headed by the ayah and word where it first "
+                          "occurs; it also serves the later words listed with it."] + HEADER[2:]
+    first, seen = {}, {}
+    for ref in refs:
+        for w in src.words(ref):
+            r = src.word_roots(w)
+            kinds = [("identity", rid, "") for rid in r["identity"]]
+            kinds += [("alternative", rid, why) for rid, why in r["alternatives"]]
+            kinds += [("echo", rid, why) for rid, why in r["echo"]]
+            for kind, rid, why in kinds:
+                seen.setdefault(rid, []).append(f"{ref} {w['surface']}")
+                first.setdefault(rid, (kind, why))
+    for rid, (kind, why) in first.items():
+        name = src.root_name.get(rid, rid)
+        where = ", ".join(seen[rid])
+        head = {"identity": f"## {name} ({rid}): {where}",
+                "alternative": f"## {name} ({rid}): documented alternative for {where}: {P.clip(why, 160)}",
+                "echo": f"## ECHO {name} ({rid}): for {where}: {why}; not identity"}[kind]
+        lines += [head, ""] + dict_lines(src, rid)
+    return "\n".join(lines) + "\n"
+
+
 if __name__ == "__main__":
     src = P.Sources()
     for ref in sys.argv[1:]:

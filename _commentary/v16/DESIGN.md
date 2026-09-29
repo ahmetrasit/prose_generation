@@ -101,6 +101,41 @@ characters) and 51% smaller than v9 without clipping.
 - **D:** the E1 base with the v16 dictionary and nothing else. Does the whole evidence alone bring the pulley back?
 - **VD:** V with the v16 dictionary.
 
+## The surah step (built 2026-09-29, not yet run)
+
+**Why.** With the whole B012 line in hand, the 1:6 writer still left out the pulley. It sees the join; judged from
+one ayah, a chain whose other members sit in other ayat does not earn a place. So the chains are settled once at
+surah level, and every ayah call receives them.
+
+**Surah call** (`v16.py surah --surah N [--run]`, brief `prompts/surah_map.md`, output
+`out/sNNN/surah/map.md`). It reads:
+
+- the surah text;
+- the v16 surah dictionary (`dictionary.surah_section`): every root once, whole source phrases;
+- the trimmed HFT of every ayah (`trim_hft`). It keeps the record name (class prefix and [label] removed), the
+  changed reading, the mechanism, and trace steps as ayah, word, branch and contribution. It drops `before`,
+  `containment`, the reader overview and the glosses the dictionary already carries. For S1: 196 KB → 108 KB;
+- the whole channel review. The chains live there as well as in the HFT, and some (the well assembly) only there.
+
+**What it writes.** A map in English, in two parts:
+
+- `## Chains`: for each chain, its members as ayah, word, root and branch, and the dictionary's own phrase quoted
+  exactly, plus Quran passages that stage it;
+- `## Ayat`: which chains each ayah opens, advances or completes.
+
+It carries no ranking, no strength labels and no must-include list. The brief names no known case (linted).
+
+**Judgements.** At the user's instruction, every prompt that carries the HFT or the channel review (the surah call,
+arm H) says they are earlier readers' proposals: ignore their judgements (grades, strength or confidence labels,
+reading types, statements of what a reading may or may not do) and make your own.
+
+**Arm DM.** D plus the surah map, described to the writer as a proposal, not an authority.
+
+**Cost.** S1 surah call: about 119k tokens in, estimated $1.75. DM on 1:6: about $0.8.
+
+**Provenance.** Every run now saves its exact prompt in `out/…/prompt.md`. The eight earlier runs were
+backfilled from `work/`, and their character counts match the ledger.
+
 ## Rules
 
 - One call per arm per ayah. No duplicates, no retries, no reruns: an existing `out/…/run.log.json` is never
@@ -114,7 +149,8 @@ characters) and 51% smaller than v9 without clipping.
 - `v16.py`: `build` writes `work/<S_A>/<arm>/prompt.md` and `packet.json` and prints sizes and estimates; `run`
   makes the calls (`--arm`, `--ayah`).
 - `prompts/additions.md`: the three additions.
-- `dictionary.py`: the v16 dictionary (arms D and VD); run it with refs to compare sizes against v9.
+- `dictionary.py`: the v16 dictionary (arms D, VD and DM; `surah_section` for the surah call); run it with refs to compare sizes against v9.
+- `prompts/surah_map.md`: the surah-call brief.
 - `out/<S_A>/<arm>/`: the reading, `run.log.json` and `check.json`.
 
 ## Status

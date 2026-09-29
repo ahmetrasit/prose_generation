@@ -11,13 +11,18 @@ Arms (the assembled-findings slot):
      0.2 is template-generated ledger text, not prose, and is left out
   D  no findings slot, and the v16 dictionary (dictionary.py) in place of v9's clipped 01_dictionary.md
   VD V with the v16 dictionary
+  DM D plus the surah map (out/sNNN/surah/map.md), written once per surah by the surah call
+
+Surah call (`surah`): one Opus call reads the whole surah (text, v16 surah dictionary, the trimmed HFT of every
+ayah, the whole channel review) with prompts/surah_map.md and writes the map of its image chains.
 
 Rules: one call per arm per ayah; never rerun an existing output; no retries; a call starts only if its estimate is
 below $5; every call is logged in out/ledger.jsonl; check.py runs after writing and never edits the prose.
 
 Usage:
   python3 _commentary/v16/v16.py build            write every packet to work/ and print sizes and estimates
-  python3 _commentary/v16/v16.py run --arm H|V|D|VD [--ayah S:A] [--parallel N]
+  python3 _commentary/v16/v16.py run --arm H|V|D|VD|DM [--ayah S:A] [--parallel N]
+  python3 _commentary/v16/v16.py surah --surah 1 [--run]   build (and with --run, make) the surah call
 """
 from __future__ import annotations
 
@@ -41,14 +46,15 @@ CHANNELS = REPO.parent / "latent_activation" / "network" / "v3" / "reviews"
 CHECK = C / "review" / "e0" / "checks" / "check.py"
 W10 = V9 / "prompts" / "write_v10.md"
 ADD = HERE / "prompts" / "additions.md"
+SURAH_BRIEF = HERE / "prompts" / "surah_map.md"
 WORK = HERE / "work"
 OUT = HERE / "out"
 
 SYSTEM = ("You are a careful scholar of Quranic Arabic and a fine Turkish prose writer. Follow the brief in the "
           "user message exactly and return only the requested output.")
 AYAT = ["1:6", "100:1", "100:6"]
-ARMS = ["H", "V", "D", "VD"]
-V16_DICT = {"D", "VD"}  # arms that read the v16 dictionary
+ARMS = ["H", "V", "D", "VD", "DM"]
+V16_DICT = {"D", "VD", "DM"}  # arms that read the v16 dictionary
 V5_RUN = {1: "s001-fresh-20260910", 100: "s100-regular-20260911"}
 LANES = ["micro", "macro", "global"]
 PROSE_MIN_GZ = 0.2  # natural prose compresses to 0.28-0.38 of its size; templated lanes to 0.06-0.09
@@ -58,13 +64,17 @@ OUT_TOKENS_ASSUMED = 40_000  # E1 permitted calls measured 15-30k
 BASE_EVIDENCE = ("context.md (the ayah, its words and anchor translation, the Fatiha, the whole surah) and "
                  "01_dictionary.md (every attested branch of every root of the ayah's words, with the classical "
                  "dictionaries' source phrases)")
+JUDGEMENTS = ("both are earlier readers' proposals: ignore their judgements (grades, strength or confidence labels, "
+              "reading types, statements of what a reading may or may not do) and make your own")
 ARM_EVIDENCE = {
     "H": ("02_hft.md (earlier activation hypotheses for this ayah in its surah) and channels.md (the surah's "
-          "channel-review subchannels anchored in this ayah)"),
+          f"channel-review subchannels anchored in this ayah; {JUDGEMENTS})"),
     "V": ("the scope notes (an earlier reader's findings: micro on the ayah's own words, macro on its surah, "
           "global on the Quran and the Fatiha; that reader had to state every limit, so its boundary sentences are "
           "its caution, not rules for you)"),
     "D": None,
+    "DM": ("surah_map.md (an earlier reader's map of the image chains that run through the whole surah, with the "
+           "dictionary phrases of their members in other ayat; a proposal, not an authority)"),
 }
 ARM_EVIDENCE["VD"] = ARM_EVIDENCE["V"]
 _SRC = None
@@ -150,6 +160,11 @@ def build(ref: str, arm: str) -> tuple[str, dict]:
         extra = [V9 / "input" / "v2" / f"s{s:03d}" / name / "02_hft.md", ch]
     elif arm == "D":
         extra = []
+    elif arm == "DM":
+        m = OUT / f"s{s:03d}" / "surah" / "map.md"
+        if not m.exists():
+            raise SystemExit(f"{ref} DM: no surah map at {rel(m)}; run the surah call first")
+        extra = [m]
     else:
         lanes = v5_lanes(ref)
         extra = [p for p, r in lanes if r >= PROSE_MIN_GZ]
@@ -181,6 +196,27 @@ def log(row: dict) -> None:
         f.write(json.dumps(row, ensure_ascii=False) + "\n")
 
 
+def call_opus(text: str, d: Path) -> dict:
+    cmd = ["claude", "-p", "--model", "claude-opus-5-5", "--effort", "high", "--tools", "",
+           "--output-format", "json", "--no-session-persistence", "--safe-mode",
+           "--permission-mode", "dontAsk", "--system-prompt", SYSTEM]
+    with tempfile.TemporaryDirectory(prefix="v16_opus_") as cwd:
+        p = subprocess.run(cmd, input=text, capture_output=True, text=True, cwd=cwd)
+    (d / "run.log.json").write_text((p.stdout or json.dumps({"error": p.stderr[-3000:]})).strip() + "\n",
+                                    encoding="utf-8")
+    try:
+        return json.loads(p.stdout)
+    except json.JSONDecodeError:
+        return {}
+
+
+def usage_row(obj: dict) -> dict:
+    usage = obj.get("usage", {}) or {}
+    return {"cost_usd": obj.get("total_cost_usd"), "output_tokens": usage.get("output_tokens"),
+            "thinking_tokens": (usage.get("output_tokens_details") or {}).get("thinking_tokens"),
+            "cache_write": usage.get("cache_creation_input_tokens"), "num_turns": obj.get("num_turns")}
+
+
 def run_one(ref: str, arm: str) -> str:
     _, name = sa(ref)
     d = OUT / name / arm
@@ -192,18 +228,9 @@ def run_one(ref: str, arm: str) -> str:
         log({"ref": ref, "arm": arm, "status": "gated", "estimate_usd": round(est, 2)})
         return f"{ref} {arm}: gated at ${est:.2f}"
     d.mkdir(parents=True, exist_ok=True)
-    cmd = ["claude", "-p", "--model", "claude-opus-5-5", "--effort", "high", "--tools", "",
-           "--output-format", "json", "--no-session-persistence", "--safe-mode",
-           "--permission-mode", "dontAsk", "--system-prompt", SYSTEM]
+    (d / "prompt.md").write_text(text, encoding="utf-8")
     t0 = time.time()
-    with tempfile.TemporaryDirectory(prefix="v16_opus_") as cwd:
-        p = subprocess.run(cmd, input=text, capture_output=True, text=True, cwd=cwd)
-    (d / "run.log.json").write_text((p.stdout or json.dumps({"error": p.stderr[-3000:]})).strip() + "\n",
-                                    encoding="utf-8")
-    try:
-        obj = json.loads(p.stdout)
-    except json.JSONDecodeError:
-        obj = {}
+    obj = call_opus(text, d)
     result = (obj.get("result") or "").strip()
     status = "ok" if result and not obj.get("is_error") else "error"
     reading = d / f"{name}.reading.tr.md"
@@ -211,20 +238,105 @@ def run_one(ref: str, arm: str) -> str:
         reading.write_text(result + "\n", encoding="utf-8")
         subprocess.run([sys.executable, str(CHECK), str(reading), "--ref", ref, "--out", str(d / "check.json"),
                         "--quiet"], cwd=CHECK.parent)
-    usage = obj.get("usage", {}) or {}
     row = {"ref": ref, "arm": arm, "status": status, "seconds": round(time.time() - t0),
-           "cost_usd": obj.get("total_cost_usd"), "estimate_usd": round(est, 2),
-           "output_tokens": usage.get("output_tokens"),
-           "thinking_tokens": (usage.get("output_tokens_details") or {}).get("thinking_tokens"),
-           "cache_write": usage.get("cache_creation_input_tokens"), "num_turns": obj.get("num_turns"),
+           "estimate_usd": round(est, 2), **usage_row(obj),
            "words": len(result.split()) if result else 0, "prompt_chars": len(text)}
     log(row)
     return f"{ref} {arm}: {status} ${row['cost_usd']} {row['words']}w {row['seconds']}s"
 
 
+HFT_TRACE = re.compile(r"^(\s*- )(\d+:\d+)\s+w[\d,]+\s+(\*\*.+?\*\*)\s+\((.+?)\s+(B\d+):.*?\)\s+—\s+(.*)$")
+HFT_PREFIX = re.compile(r"^(?:baseline|base|ctx|context|delta|outlier|out|[bcdo]\d*)[_-]", re.I)
+
+
+def trim_hft(text: str) -> str:
+    """One ayah's HFT records without judgements: the record name without its class prefix and [label], the
+    changed reading, the mechanism, and each trace step as ayah, word, branch and contribution (the dictionary
+    carries the branch glosses). Drops `before`, `containment` and the reader overview."""
+    out, keep = [], False
+    for line in text.splitlines():
+        if line.startswith("## "):
+            keep = not line.startswith("## HFT reader overview")
+            if keep:
+                name = HFT_PREFIX.sub("", re.sub(r"\s*\[[^\]]*\]\s*$", "", line[3:]))
+                name = re.sub(r"^(?:\d+[_-])+", "", name)
+                out += ["", "## " + re.sub(r"[_-]", " ", name).lower()]
+            continue
+        if not keep:
+            continue
+        if line.startswith("- after:"):
+            reading = re.sub(r"^Exploratorily,\s*", "", line[len("- after:"):].strip())
+            out.append("- reading: " + reading[:1].upper() + reading[1:])
+        elif line.startswith(("- mechanism:", "- trace:")):
+            out.append(line)
+        elif line.startswith("  - "):
+            m = HFT_TRACE.match(line)
+            out.append(f"{m[1]}{m[2]} {m[3]} {m[4]} {m[5]}: {m[6]}" if m else line)
+    return "\n".join(out).strip() + "\n"
+
+
+def surah_build(s: int) -> tuple[str, Path]:
+    global _SRC
+    sys.path.insert(0, str(HERE))
+    import dictionary as D
+    if _SRC is None:
+        _SRC = D.P.Sources()
+    refs = []
+    while f"{s}:{len(refs) + 1}" in _SRC.quran:
+        refs.append(f"{s}:{len(refs) + 1}")
+    wd = WORK / f"s{s:03d}" / "surah"
+    wd.mkdir(parents=True, exist_ok=True)
+    text = wd / "text.md"
+    text.write_text(f"# Surah {s}\n\n" + "\n".join(f"- {r} {_SRC.quran[r]}" for r in refs) + "\n", encoding="utf-8")
+    dic = wd / "dictionary.md"
+    dic.write_text(D.surah_section(_SRC, refs), encoding="utf-8")
+    hft = wd / "hft.md"
+    parts = [f"# HFT: earlier activation hypotheses, per focus ayah of surah {s}"]
+    for r in refs:
+        f = V9 / "input" / "v2" / f"s{s:03d}" / r.replace(":", "_") / "02_hft.md"
+        parts.append(f"\n# Focus {r}\n\n" + trim_hft(f.read_text(encoding="utf-8")))
+    hft.write_text("\n".join(parts), encoding="utf-8")
+    src = CHANNELS / f"s{s:03d}" / "reader_a_pilot.md"
+    ch = wd / "channels.md"
+    ch.write_text(f"(source: {src.relative_to(REPO.parent)})\n\n" + src.read_text(encoding="utf-8"), encoding="utf-8")
+    prompt = (f"Surah: {s}. Follow the brief below (surah_map.md) exactly. The evidence is text.md (the surah), "
+              f"dictionary.md (every root of the surah's words, each branch with the classical dictionaries' own "
+              f"phrases), hft.md and channels.md ({JUDGEMENTS}) and your own knowledge of Arabic and the Quran. "
+              f"Return only the map as your final message.")
+    full = prompt + "\n\n" + inline(SURAH_BRIEF, text, dic, hft, ch)
+    (wd / "prompt.md").write_text(full, encoding="utf-8")
+    return full, wd
+
+
+def surah_run(s: int) -> str:
+    d = OUT / f"s{s:03d}" / "surah"
+    if (d / "run.log.json").exists():
+        return f"S{s} surah: exists, skipped (never rerun)"
+    text, _ = surah_build(s)
+    est = estimate(text)
+    if est >= GATE_USD:
+        log({"ref": f"S{s}", "arm": "surah", "status": "gated", "estimate_usd": round(est, 2)})
+        return f"S{s} surah: gated at ${est:.2f}"
+    d.mkdir(parents=True, exist_ok=True)
+    (d / "prompt.md").write_text(text, encoding="utf-8")
+    t0 = time.time()
+    obj = call_opus(text, d)
+    result = (obj.get("result") or "").strip()
+    status = "ok" if result and not obj.get("is_error") else "error"
+    if result:
+        (d / "map.md").write_text(result + "\n", encoding="utf-8")
+    row = {"ref": f"S{s}", "arm": "surah", "status": status, "seconds": round(time.time() - t0),
+           "estimate_usd": round(est, 2), **usage_row(obj),
+           "words": len(result.split()) if result else 0, "prompt_chars": len(text)}
+    log(row)
+    return f"S{s} surah: {status} ${row['cost_usd']} {row['words']}w {row['seconds']}s"
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=("build", "run"))
+    ap.add_argument("cmd", choices=("build", "run", "surah"))
+    ap.add_argument("--surah", type=int)
+    ap.add_argument("--run", action="store_true", help="surah: make the call (default: build and estimate)")
     ap.add_argument("--arm", choices=ARMS)
     ap.add_argument("--ayah")
     ap.add_argument("--parallel", type=int, default=3)
@@ -232,12 +344,28 @@ def main() -> None:
     ayat = [a.ayah] if a.ayah else AYAT
     arms = [a.arm] if a.arm else ARMS
     jobs = [(r, k) for r in ayat for k in arms]
+    if a.cmd == "surah":
+        if not a.surah:
+            ap.error("surah needs --surah N")
+        if a.run:
+            print(surah_run(a.surah))
+            return
+        full, wd = surah_build(a.surah)
+        for f in ("text.md", "dictionary.md", "hft.md", "channels.md"):
+            print(f"  {f:14} {len((wd / f).read_text(encoding='utf-8')):>8,} chars")
+        print(f"S{a.surah} surah: {len(full):,} chars ~{est_tokens(full):,} tokens  est ${estimate(full):.2f}"
+              f"  ({'ok' if estimate(full) < GATE_USD else 'BLOCK'})")
+        return
     if a.cmd == "run" and not a.arm:
         ap.error("run needs --arm (each arm is approved separately)")
     if a.cmd == "build":
         total = 0.0
         for r, k in jobs:
-            t, meta = build(r, k)
+            try:
+                t, meta = build(r, k)
+            except SystemExit as e:
+                print(f"{r:6} {k}  skipped: {e}")
+                continue
             e = estimate(t)
             total += e
             lanes = ""
