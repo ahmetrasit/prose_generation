@@ -1,0 +1,14 @@
+- memory: Fatiha is recited standing (qiyām) in every rakʿa (fiqh of salah, common knowledge)
+- memory: Arabic text of 42:52, 6:153, 7:16, 5:95, 5:97, 17:35, 83:6 (not in supplied canonical text; recalled)
+- memory: hadith of the Prophet's last illness, going out to the prayer «يُهَادَى بَيْنَ رَجُلَيْنِ» (Bukhari, from ʿĀʾisha)
+- memory: the bridge over hell described as thinner than a hair and sharper than a sword (hadith, Muslim, Abū Saʿīd al-Khudrī); Turkish "Sırat köprüsü"
+- memory: sīn reading (Qunbul, Ruways) and zāy-inclined ishmām (Khalaf ʿan Ḥamza) of الصراط; stated only generally in prose
+- memory: Turkish usage of hidayet ("hidayete ermek") and istikamet (= direction)
+- not written: صرط B003 «السراط السيف القاطع» - tempting link to the "sharper than a sword" bridge, but maqayis-only and would suggest a false connection
+- not written: correction to map chain 5 - sihah's «هديته الطريق والبيت» says "the house" generically, not the Kaaba; kept generic and reached the Kaaba only through 5:95 and 5:97
+- not written: هدي B007 captive sense; B009 dull heavy man; B011 poetry exchange - would muddy the gentle conveying image or have no scene
+- not written: chain 2 (herd, ملك الدابة), chain 9 (well pulley قامة), chain 11 (قوام as pillar), chain 14 (price), chain 15 (coin/noon balance; kept only 17:35 in one sentence), chain 19 (eye) - one ayah cannot carry them; 1:6's scene is road, guide and posture
+- not written: chain 13 qiyāma developed only as 83:6 in one sentence - the day belongs to 1:4
+- not written: chain 18 scattering - touched only through 6:153
+- not written: echo root ه د د (lullaby, crashing, threat) - not identity
+- not written: 20:10 «هدى» at the fire - uncertain fit, recalled only from memory

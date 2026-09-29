@@ -407,3 +407,59 @@ The user read DM r2 (1:6, 1:7) and H r2 (29:38):
 
 **Checks.** r1 and r2 packets rebuild identical. The r3 briefs name no known case. The ledger split was tested on a
 synthetic output.
+
+## r3 test (2026-09-29, with approval): 1:6 DM, 1:7 DM, 29:38 H; $2.80
+
+| reading | words | sections | branches quoted | refs outside the surah | neg/1000 | source talk |
+|---|---|---|---|---|---|---|
+| 1:6 r2 → r3 | 2,337 → 1,559 | 6 → 5 | 22 → 12 (r3 ⊂ r2) | 16 → 7 | 3.85 → 4.49 | 7 → 0 |
+| 1:7 r2 → r3 | 2,023 → 1,427 | 5 → 5 | 21 → 13 (r3 ⊂ r2) | 14 → 4 | 4.45 → 4.20 | 14 → 0 |
+| 29:38 r2 → r3 | 2,525 → 1,711 | 5 → 6 | 16 → 13 (10 shared) | 13 → 12 | 2.38 → 3.51 | 9 → 0 |
+
+Word counts are prose only: the ledger is split off. "Source talk" counts hafıza, bildiğim and "sözlükler şöyle".
+
+**Gains.**
+
+- Every reading opens on a scene with a controlling question and returns to it at the end:
+  - 1:6: the standing prayer row. Why does someone standing still ask for a road?
+  - 1:7: the six-beat madd on ed-dâllîn, then "âmîn". What is a road known by?
+  - 29:38: doors carved in rock on the caravan road. Is seeing enough to keep one on the road?
+- Sections end on hooks.
+- The Turkish-loss layer arrived: hidayete ermek, istikamet as mere direction, sırat as the bridge; nimet, dalâlet,
+  gazap; mesken abonesi, sebil as a kiosk.
+- New finds:
+  - 1:6: 42:52 contrasted with the direct object;
+  - 1:7: 20:81; a sound hook;
+  - 29:38: the aṭlāl, 35:8, 46:26, 15:76, and basīra as the blood trail of wounded game.
+- 29:38 keeps the eye film inside the spider-house scene.
+- The ledgers work. They give reasons, including for the pulley ("one ayah cannot carry them"), and for dropping
+  the ʿAdī b. Ḥātim Jews/Christians gloss ("would narrow the images into a label").
+
+**Misses** (the cost of selecting fewer things on 1:6 and 1:7):
+
+- 1:6 lost:
+  - the trodden road ṭarīq muʿabbad (a North Star aha item);
+  - 36:61 and 43:64, where worship itself is the straight road;
+  - 41:30;
+  - 37:23, the road to the fire;
+  - 22:46, the blind eye;
+  - the fixed dinar and noon balance, cut to one line.
+- 1:7 lost:
+  - 8:53 and 13:11, favour changed only when a people change within: the best find of r2;
+  - 2:40 and 2:61, one people in both groups;
+  - 2:90, wrath upon wrath;
+  - ghayr as rain and as change;
+  - anʿamtu arḍan.
+- The rule against re-explaining held only partly: 1:7 retells the swallowing road and the sırat bridge.
+- 29:38 dropped ʿamal as a trodden road (the ledger calls it "too thin") and 14:45; otherwise it is equal to r2.
+
+**Against v5's S1** (the middle and editorial layers of 1:6 and 1:7).
+
+- v5's breadth is far larger:
+  - 60 and 72 Quran passages outside the surah, against 7 and 4 in r3 and 16 and 14 in r2;
+  - chains v16's ayah readings do not carry: waymarks (ʿālamīn), the well and crossbeam apparatus, and water in 1:6
+    and 1:7.
+- v16 quotes far more early-source Arabic (12–13 branches per reading against v5's 2–5), integrates instead of
+  cataloguing (v5 1:6 middle: 31 "değildir / anlamına gelmez / söylemez"), and stays at 1,400–2,300 words against
+  4,861 to 11,249.
+- 7:16 (Iblīs sitting on the straight road) is in 1:6 r2, r3 and v5 (v5 by reference only). It is in no 1:7.

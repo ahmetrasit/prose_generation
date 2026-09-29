@@ -1,0 +1,17 @@
+- memory: madd lāzim of six ḥarakāt on الضالين as the longest prolongation in the Fatiha (tajwīd tradition)
+- memory: congregation saying āmīn after the imam's ولا الضالين (hadith, Bukhari/Muslim)
+- memory: Turkish "Sırat köprüsü" as "kıldan ince, kılıçtan keskin" (hadith tradition, cf. Muslim, Abū Saʿīd: أدق من الشعر وأحد من السيف)
+- memory: صراط in 1:7 read grammatically as badal of الصراط المستقيم (iʿrāb tradition)
+- memory: two readings of غير, as description of الذين or as exclusion/badal (tafsir and grammar tradition, e.g. Zamakhsharī)
+- memory: Arabic text of 4:69, 20:81, 93:7 and 32:10 (not in supplied canonical text; 32:10 phrase is also quoted in the dictionary)
+- memory: رفيق as travel companion (general Arabic usage)
+- memory: hadith on the stray camel, «معها سقاؤها وحذاؤها ترد الماء وتأكل الشجر حتى يلقاها ربها» (Bukhari, Zayd b. Khālid al-Juhanī)
+- memory: present-day Turkish senses of nimet, dalâlet, gazap, intikam
+- not written: map chain 17 says maqayis defines صراط's root as ghayba. Maqayis defines سرط and only reports "some scholars" deriving السراط from it. The prose presents it as an old view.
+- not written: the hadith of ʿAdī b. Ḥātim identifying the maghḍūb with Jews and the ḍāllīn with Christians (Tirmidhī) - would narrow the images into a label; the prose keeps the scene open to any walker.
+- not written: صرط B003, the cutting sword - would feed the Turkish bridge image that the section sets aside.
+- not written: chain 14 (غِيرة blood-money, ذهب دمه ضلة) - strong, but it needs its own settlement scene and would split the road/pasture focus.
+- not written: chains 5 (هدي offering led as نعم), 8 (غارهم الله بالغيث, نعامى rain), 9 (نعامة crossbeam), 10 (نعمتني الأرض), 3 (تنعمت on foot), 13 (days of نعمة and غضب), 18 (شالت نعامتهم), 19 (eye states) - each is a valid chain, but this ayah's scene is carried by road, descent and pasture.
+- not written: غير B004 jealousy (Turkish "gayret") and B003 change - no role in the ayah's scene.
+- not written: variant readings (سراط/زراط, عليهُم of Ḥamza, غيرَ in the accusative) - they do not change the images.
+- not written: 3:159 and 2:74 on soft and hard hearts - the rock/softness contrast stands without them.

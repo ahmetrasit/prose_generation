@@ -1,0 +1,21 @@
+- memory: Thamud carving houses from mountains (7:74; 26:149)
+- memory: Meccan caravans passing the ruins on the northern route to Syria (tafsir tradition)
+- memory: text of 15:76 on Lot's towns lying on an established road
+- memory: pre-Islamic qasida opening with weeping at abandoned camp traces (aṭlāl)
+- memory: grammatical note that the accusative names depend on an unspoken verb supplied from context (classical grammarians: أهلكنا/أخذنا or اذكر)
+- memory: text of 46:25; paraphrases of 46:26 and 28:58
+- memory: Aad's constructions in 26:128 and 26:129 (paraphrased)
+- memory: 27:24, the same chain ending فهم لا يهتدون (Hoopoe on Sheba)
+- memory: 35:8 فرآه حسنا; 17:59 الناقة مبصرة; 41:17 فاستحبوا العمى على الهدى
+- memory: two classical readings of مستبصرين (people of insight vs. confident in and admiring their error; Tabari reports the latter from Qatada/Mujahid and al-Farra has the former; attributions uncertain, so left unnamed in prose)
+- memory: vocalization السَّبَل for the eye disease (Lisan al-Arab)
+- memory: Turkish usages "mesken abonesi/tarifesi", "sakin" (calm and resident), and "sebil" as a water kiosk
+- not written: echo root ع د د (counting-ledger reading of عاد): a split mapping, not identity
+- not written: س ك ن sakina, miskin, ship's rudder, provisions: did not serve the scene
+- not written: ص د د road to water, valley flanks, pus, clamor: distracting; the valley/Thamud link is too speculative
+- not written: ش ط ن well-rope developed as a scene, and the well-drawing channel S22: no work in this ayah
+- not written: ع م ل "worked road" (طريق معمل): considered, too thin beside sabil
+- not written: 29:12 and 29:13 burden transfer, 29:25 mawadda, 29:29 nadi (socialized obstruction): touched only in one sentence
+- not written: 29:45 prayer restraining, 29:64 and 29:65 crisis salience, 29:67 security: beyond this ayah's scene
+- not written: Turkish "basiret" narrowing: kept the loanword notes to mesken and sebil
+- not written: etymology of Thamud and the specific punishments in 29:40: uncertain or not needed
