@@ -200,8 +200,8 @@ def clean_context(ref: str, path: Path) -> Path:
 
 
 def map_complete(m: Path) -> bool:
-    t = m.read_text(encoding="utf-8").lstrip() if m.exists() else ""
-    return t.startswith("## Chains") and "\n## Ayat" in t
+    t = "\n" + (m.read_text(encoding="utf-8") if m.exists() else "")
+    return "\n## Chains" in t and "\n## Ayat" in t
 
 
 def build(ref: str, arm: str, brief: str) -> tuple[str, dict]:

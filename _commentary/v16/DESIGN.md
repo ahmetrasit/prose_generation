@@ -284,3 +284,54 @@ anti-catalogue rule.
 
 **Tests.** Without model calls: r1 rebuilds identical; the r2 lint is clean. Anchor parsing was checked on six
 real formats. The partial-stream path, the started-call guard and X-block slicing (7:150) were each tested.
+
+## r2 test: the S1 surah call (repair) and DM on 1:6 (2026-09-29, with approval)
+
+| call | cost | output | thinking | result |
+|---|---|---|---|---|
+| S1 surah r2 | $4.24 (est. $3.51) | 121.8k | 94.8k | complete map, 9,960 words: 19 chains, `## Ayat`, `## Not carried` |
+| DM r2, 1:6 | $0.76 (est. $1.19) | 21.7k | 10.7k | 2,337 words |
+
+The first DM attempt was skipped by the map check. The map opens with a "# Map…" title before `## Chains`, and the
+check wanted `## Chains` first. The check was relaxed (it now finds both headings anywhere), a note row was logged,
+and DM ran.
+
+**The map carries the pulley.**
+
+- Chain 9 is "The well and its rig: the crossbeam, the pulley hung from it, the brimming well, the water that keeps
+  the camp". It quotes the dictionary's join «النعامة الخشبة المعترضة ثم تعلق القامة». Its members are 1:7 ن ع م
+  B007, 1:6 ق و م B012, 1:2 ع ل م B005 and 1:4 م ل ك B007.
+- The 1:6 entry of `## Ayat` lists 14 chains, including "Advances 9: the pulley hung from the beam".
+- `## Not carried` gives a reason for every subchannel and HFT record left out, and catches HFT errors: senses
+  credited to س م و that belong to و س م.
+
+**DM r2 still does not use the pulley.** The writer had the map, with the pulley under 1:6, and developed about
+eight of the 14 chains:
+
+- the guide ahead;
+- the trodden road, ṭarīq muʿabbad (from the root of naʿbudu);
+- walking held between two (tahādā, with the hadith);
+- standing, from qawma to qiyāma (83:6 → 1:2);
+- the coin that does not tip and the day's balance, read into 1:7's two sides;
+- the four conveyances (offering, bride, gift, the one who seeks refuge), with 5:97 "qiyāman li-n-nās", where the
+  Kaʿba, hady and ق و م meet;
+- the stray camel whose owner (rabb) is unknown, joined to 1:2;
+- the eye that stands but does not see (22:46);
+- two ways out of sight: swallowed by the road, dissolved into the ground.
+
+Chain 9 (the well), 10 (settling), 12 (fitting out), 14 (price) and 18 (the gathered) stay out.
+
+**My reading.** DM r2 is the strongest 1:6 reading so far: the most surah chains woven into the threads, the fewest
+disclaimers, and memory marked. The r2 brief fixes show:
+
+- negation 3.85 per 1,000 words (D 8.7, DM r1 8.9);
+- six "hafızadan" marks;
+- three Ek Notlar items (DM r1 had six).
+
+`check.py` counts three quotations as "unsourced unmarked". Two are hadith marked "(hafızadan, Buhârî)"; the checker
+recognises only [bellek]. One is a compressed dictionary phrase.
+
+**Conclusion on the pulley.** Data and assembly now deliver it to the ayah writer as a surah finding with its
+dictionary join. The writer ranks it below the other 13 chains for 1:6. The pulley is a chain across four ayat that
+belongs to the surah; the ayah reading chooses. It would appear naturally in a surah-level commentary (the layer
+the North Star calls the surah argument), which reads the map as a whole.
