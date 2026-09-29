@@ -213,3 +213,28 @@ backfilled from `work/`, and their character counts match the ledger.
     - a new thread of the guide ahead, the support at the side (yuhādā), then upright walking (67:22, 4:175);
     - 72:16 (istaqāmū → abundant water) in Ek Notlar: the Quran's own join of istiqāma and water, parked outside
       the threads.
+- 2026-09-29: the S1 surah call and DM on 1:6, run with approval: surah $2.85 (70.8k output, 44.6k thinking),
+  DM $0.57.
+
+  **Failure: the map is incomplete.** The answer ran past the CLI's per-message output cap, so `claude -p` continued
+  in a second turn, and `--output-format json` returned only that last message. `map.md` starts in the middle of
+  chain 14. Chains 1–13 are lost, and no transcript survives because calls run without session persistence. The
+  `## Ayat` part survived whole.
+
+  **Fixed.** `call_opus` now reads `--output-format stream-json --verbose`, joins every assistant message in order,
+  keeps the raw stream (`run.stream.jsonl`), sets `CLAUDE_CODE_MAX_OUTPUT_TOKENS=128000`, and logs `joined_turns`.
+  Tested on a synthetic two-turn stream; not yet on a real call.
+
+  **The pulley: no well chain in the map.** The 1:6 entry of the surviving `## Ayat` part lists eleven chains: the
+  road, being made known, two ways out of sight, the led mount, the lone traveller, worship, mainstay, the Day,
+  journey's end, rearing, gathered and scattered. Water appears only as "weather" (cloud and rain) and "mainstay"
+  («ملك أمر أي يقوم به الأمر»). The surah reader had the whole B012 line and the channel review's "Well and
+  Water-Lifting Assembly", and still left the pulley out. Counting the E1 base, seven configurations have now
+  declined it: E1, H, V, D, VD, the surah map, and DM.
+
+  **DM, even on the partial map, brings in surah chains D lacked:**
+
+  - in the threads: naʿbudu as the road worn smooth ("kulluk yolcuyu yola uysal kılar"), and «قوام الأمر ملاكه» tied
+    to 1:4's mālik;
+  - in the threads: 35:34 and 35:35 dār al-muqāma, the same root as müstaqīm, as the end of the road;
+  - in Ek Notlar: «ملك الدابة قوائمها وهاديها» (1:4's root naming 1:6's two roots as the mount's legs and neck).

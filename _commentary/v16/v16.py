@@ -29,6 +29,7 @@ from __future__ import annotations
 import argparse
 import concurrent.futures as cf
 import json
+import os
 import re
 import subprocess
 import sys
@@ -197,24 +198,40 @@ def log(row: dict) -> None:
 
 
 def call_opus(text: str, d: Path) -> dict:
+    """One Opus call. stream-json keeps every assistant message: a long answer that the CLI splits over several
+    turns is joined back in order (`--output-format json` returns only the last message; the first S1 surah call
+    lost two thirds of its map that way). The raw event stream is kept in run.stream.jsonl."""
     cmd = ["claude", "-p", "--model", "claude-opus-5-5", "--effort", "high", "--tools", "",
-           "--output-format", "json", "--no-session-persistence", "--safe-mode",
+           "--output-format", "stream-json", "--verbose", "--no-session-persistence", "--safe-mode",
            "--permission-mode", "dontAsk", "--system-prompt", SYSTEM]
+    env = {**os.environ, "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "128000"}
     with tempfile.TemporaryDirectory(prefix="v16_opus_") as cwd:
-        p = subprocess.run(cmd, input=text, capture_output=True, text=True, cwd=cwd)
-    (d / "run.log.json").write_text((p.stdout or json.dumps({"error": p.stderr[-3000:]})).strip() + "\n",
+        p = subprocess.run(cmd, input=text, capture_output=True, text=True, cwd=cwd, env=env)
+    (d / "run.stream.jsonl").write_text(p.stdout or "", encoding="utf-8")
+    texts, final = [], {}
+    for line in (p.stdout or "").splitlines():
+        try:
+            ev = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if ev.get("type") == "assistant":
+            texts += [c.get("text", "") for c in (ev.get("message") or {}).get("content", []) if c.get("type") == "text"]
+        elif ev.get("type") == "result":
+            final = ev
+    if final:
+        final["result_last_message"] = final.get("result")
+        final["result"] = "".join(texts) if texts else final.get("result")
+    (d / "run.log.json").write_text(json.dumps(final or {"error": p.stderr[-3000:]}, ensure_ascii=False) + "\n",
                                     encoding="utf-8")
-    try:
-        return json.loads(p.stdout)
-    except json.JSONDecodeError:
-        return {}
+    return final
 
 
 def usage_row(obj: dict) -> dict:
     usage = obj.get("usage", {}) or {}
     return {"cost_usd": obj.get("total_cost_usd"), "output_tokens": usage.get("output_tokens"),
             "thinking_tokens": (usage.get("output_tokens_details") or {}).get("thinking_tokens"),
-            "cache_write": usage.get("cache_creation_input_tokens"), "num_turns": obj.get("num_turns")}
+            "cache_write": usage.get("cache_creation_input_tokens"), "num_turns": obj.get("num_turns"),
+            "joined_turns": obj.get("result") != obj.get("result_last_message")}
 
 
 def run_one(ref: str, arm: str) -> str:
