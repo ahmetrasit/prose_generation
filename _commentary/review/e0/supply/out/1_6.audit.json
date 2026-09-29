@@ -1,0 +1,5520 @@
+{
+ "ayah": "1:6",
+ "config": {
+  "_comment": "Switches and definitions for supply v0. Numbers here DEFINE a link type or a lens (what counts as a pointer, a bridge, a parallel); none of them caps or trims a list. Sizes are reported, never judged.",
+  "window_radius": 7,
+  "whole_surah_text_except": [
+   2
+  ],
+  "links": {
+   "definitional_pointers": true,
+   "definitional_pointers_inward": true,
+   "rare_lemma_bridges": true,
+   "dictionary_neighbours": true,
+   "root_cooccurrence": true,
+   "quran_slm_pairs": false
+  },
+  "cooccurrence": {
+   "_comment": "The validator's root_cooccurrence rule (validate/recommended_links.json, push): two roots of the ayah held together by at least min_other_ayat other ayat with ln PMI above min_ln_pmi, this ayah removed from all counts. Every positively associated pair is kept in the pull file.",
+   "min_other_ayat": 2,
+   "min_ln_pmi": 2.0
+  },
+  "pointer": {
+   "_comment": "A lexeme named in a branch's own text (image, definition, early phrases) points to another root. Kept when that root is in this ayah or the window and the lexeme is not general defining vocabulary (defining_df = number of dictionary branches whose text contains it), or elsewhere in the surah and the lexeme is specific, or anywhere in the Quran when the root itself is rare.",
+   "window_max_defining_df": 100,
+   "window_root_max_ayat": 400,
+   "surah_max_defining_df": 40,
+   "surah_root_max_ayat": 100,
+   "rare_root_max_ayat": 12
+  },
+  "bridge": {
+   "_comment": "A lemma named in a branch text, found in few ayat, that the Quran puts beside a neighbour's root in at least min_share of its ayat and in at least min_witness_ayat ayat (random branch-root pairs pass this about 1.4% of the time; see README).",
+   "lemma_max_ayat": 30,
+   "neighbour_root_max_ayat": 400,
+   "min_witness_ayat": 2,
+   "min_share": 0.5
+  },
+  "neighbours": {
+   "_comment": "Dictionary neighbour_distinctions whose other branch's root is in this ayah or window; contrast relations also at surah level.",
+   "surah_level_relations": [
+    "antonym",
+    "polarity_pair"
+   ]
+  },
+  "slm_pairs": {
+   "max_mutual_rank": 10
+  },
+  "usage": {
+   "every_use_max_uses": 40,
+   "kwic_words": 4,
+   "partner_min_attach": 1,
+   "formula_max_ayat": 8
+  },
+  "parallels": {
+   "_comment": "A lens includes an ayah when its lens score beats the quantile of the same lens over random ayah pairs (membership by evidence, not by count).",
+   "lenses": [
+    "root",
+    "lemma",
+    "phrase",
+    "echo",
+    "loaded",
+    "textmap"
+   ],
+   "random_quantile": 0.999,
+   "random_focus_sample": 400,
+   "seed": 15,
+   "show_text_other_surah": true,
+   "echo_root_max_ayat": 200,
+   "phrase_ngram_max_ayat": 60,
+   "phrase_content_lemma_max_ayat": 300,
+   "loaded_root_ayat": [
+    2,
+    60
+   ]
+  },
+  "chains": {
+   "channel_reviews": true,
+   "hft_relay": true,
+   "v12_relay": true,
+   "relay_text": false
+  },
+  "majaz": {
+   "raw_fallback": true,
+   "marker_window": 5
+  },
+  "_validation": {
+   "_comment": "How each switch maps to the E0 validator (validate/recommended_links.json, frozen 2026-09-28) and the E0 review (review/fixes.md M3-M5). Recorded for the user; the page never shows it. Which types are pushed and which are pulled is the user's decision (push limits undecided).",
+   "definitional_pointers": "validator push (ptr_card400, lift 3.25). The supply's own ayah-level rule scores 3.47 [2.42, 5.21] on the same harness (review M4). Surah and rare-anywhere levels are not validated.",
+   "definitional_pointers_inward": "not validated",
+   "rare_lemma_bridges": "validator excluded a looser rule; the supply's rule scores 1.99 [1.22, 3.53], dev half 1.48 [0.71, 3.16] (review M3). Focus ayah now excluded from k and n. Decision open.",
+   "dictionary_neighbours": "validator push (dictionary_neighbour_relation, lift 8.13)",
+   "root_cooccurrence": "validator push (PMI > 2, lift 2.03); PMI > 1 still scores 1.29 [1.18, 1.43] (review M5), so the threshold is a push limit, not a definition of signal",
+   "quran_slm_pairs": "validator pull (image pairs, lift 2.29, about 67 lines per ayah)",
+   "usage.formula (D rare pairings)": "validator's within-ayah test found no signal; untested across ayat; keeps the 18:96 formula (review M6). Shown.",
+   "parallels": "not validated (cross-ayah)",
+   "chains": "answer-bearing on probe pages (review B2); decision open"
+  }
+ },
+ "definitional_pointers": [
+  {
+   "branch_ref": "root_001583/B001",
+   "token": "الطريق",
+   "root": "ط ر ق",
+   "defining_df": 154,
+   "root_ayat": 11,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B001",
+   "token": "والحق",
+   "root": "ح ق ق",
+   "defining_df": 19,
+   "root_ayat": 263,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B001",
+   "token": "الرشاد",
+   "root": "ر ش د",
+   "defining_df": 5,
+   "root_ayat": 19,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B001",
+   "token": "والبيان",
+   "root": "ب ي ن",
+   "defining_df": 9,
+   "root_ayat": 454,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B001",
+   "token": "والدين",
+   "root": "و ل د",
+   "defining_df": 18,
+   "root_ayat": 80,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B001",
+   "token": "والتوفيق",
+   "root": "و ف ق",
+   "defining_df": 2,
+   "root_ayat": 4,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001583/B001",
+   "token": "وقبول",
+   "root": "ق ب ل",
+   "defining_df": 7,
+   "root_ayat": 282,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B001",
+   "token": "نقيض",
+   "root": "ق ي ض",
+   "defining_df": 109,
+   "root_ayat": 2,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B001",
+   "token": "الضلاله",
+   "root": "ض ل ل",
+   "defining_df": 8,
+   "root_ayat": 170,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001583/B001",
+   "token": "للدين",
+   "root": "د ي ن",
+   "defining_df": 3,
+   "root_ayat": 87,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001583/B001",
+   "token": "والبيت",
+   "root": "ب ي ت",
+   "defining_df": 23,
+   "root_ayat": 54,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B001",
+   "token": "واخراج",
+   "root": "خ ر ج",
+   "defining_df": 12,
+   "root_ayat": 157,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B001",
+   "token": "والطاعه",
+   "root": "ط و ع",
+   "defining_df": 15,
+   "root_ayat": 118,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B001",
+   "token": "التقدم",
+   "root": "ق د م",
+   "defining_df": 15,
+   "root_ayat": 48,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B001",
+   "token": "خلاف",
+   "root": "خ ل ف",
+   "defining_df": 213,
+   "root_ayat": 116,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "token": "وسيرته",
+   "root": "س ي ر",
+   "defining_df": 2,
+   "root_ayat": 25,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "token": "وقصده",
+   "root": "ق ص د",
+   "defining_df": 8,
+   "root_ayat": 6,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "token": "ووجهته",
+   "root": "و ج ه",
+   "defining_df": 1,
+   "root_ayat": 71,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "token": "الحديث",
+   "root": "ح د ث",
+   "defining_df": 77,
+   "root_ayat": 36,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "token": "العمل",
+   "root": "ع م ل",
+   "defining_df": 97,
+   "root_ayat": 313,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "token": "كنت",
+   "root": "ك و ن",
+   "defining_df": 33,
+   "root_ayat": 1176,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "token": "تعدل",
+   "root": "ع د ل",
+   "defining_df": 9,
+   "root_ayat": 24,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "token": "امره",
+   "root": "ء م ر",
+   "defining_df": 98,
+   "root_ayat": 226,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "token": "قبله",
+   "root": "ق ب ل",
+   "defining_df": 25,
+   "root_ayat": 282,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "token": "دبره",
+   "root": "د ب ر",
+   "defining_df": 11,
+   "root_ayat": 44,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "token": "مثلها",
+   "root": "م ث ل",
+   "defining_df": 10,
+   "root_ayat": 148,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "token": "نظر",
+   "root": "ن ظ ر",
+   "defining_df": 34,
+   "root_ayat": 115,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "token": "احسن",
+   "root": "ح س ن",
+   "defining_df": 32,
+   "root_ayat": 177,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "token": "رميت",
+   "root": "ر م ي",
+   "defining_df": 9,
+   "root_ayat": 7,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "token": "باخر",
+   "root": "ء خ ر",
+   "defining_df": 8,
+   "root_ayat": 242,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B003",
+   "token": "اول",
+   "root": "ء و ل",
+   "defining_df": 121,
+   "root_ayat": 158,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B003",
+   "token": "تقدم",
+   "root": "ق د م",
+   "defining_df": 14,
+   "root_ayat": 48,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B003",
+   "token": "كاعناق",
+   "root": "ع ن ق",
+   "defining_df": 1,
+   "root_ayat": 9,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001583/B003",
+   "token": "الخيل",
+   "root": "خ ي ل",
+   "defining_df": 146,
+   "root_ayat": 9,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B003",
+   "token": "ورقبه",
+   "root": "ر ق ب",
+   "defining_df": 1,
+   "root_ayat": 20,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B003",
+   "token": "ونصل",
+   "root": "ص ل ي",
+   "defining_df": 6,
+   "root_ayat": 25,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B003",
+   "token": "والعصا",
+   "root": "ع ص ي",
+   "defining_df": 7,
+   "root_ayat": 32,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B003",
+   "token": "الدليل",
+   "root": "د ل ل",
+   "defining_df": 7,
+   "root_ayat": 8,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001583/B003",
+   "token": "لغيرها",
+   "root": "غ ي ر",
+   "defining_df": 3,
+   "root_ayat": 146,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001583/B003",
+   "token": "ممسكها",
+   "root": "م س ك",
+   "defining_df": 1,
+   "root_ayat": 24,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B004",
+   "token": "بعثه",
+   "root": "ب ع ث",
+   "defining_df": 6,
+   "root_ayat": 64,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B004",
+   "token": "موده",
+   "root": "و د د",
+   "defining_df": 8,
+   "root_ayat": 28,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B004",
+   "token": "اللطيفه",
+   "root": "ل ط ف",
+   "defining_df": 4,
+   "root_ayat": 8,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001583/B004",
+   "token": "الطبق",
+   "root": "ط ب ق",
+   "defining_df": 9,
+   "root_ayat": 3,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001583/B004",
+   "token": "واحده",
+   "root": "و ح د",
+   "defining_df": 162,
+   "root_ayat": 67,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B004",
+   "token": "امراه",
+   "root": "م ر ء",
+   "defining_df": 158,
+   "root_ayat": 37,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "token": "الحرم",
+   "root": "ح ر م",
+   "defining_df": 16,
+   "root_ayat": 71,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "token": "بيت",
+   "root": "ب ي ت",
+   "defining_df": 60,
+   "root_ayat": 54,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "token": "النعم",
+   "root": "ن ع م",
+   "defining_df": 21,
+   "root_ayat": 128,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "token": "المال",
+   "root": "م و ل",
+   "defining_df": 243,
+   "root_ayat": 80,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "token": "المتاع",
+   "root": "م ت ع",
+   "defining_df": 45,
+   "root_ayat": 65,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "token": "قربه",
+   "root": "ق ر ب",
+   "defining_df": 14,
+   "root_ayat": 91,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "token": "البدنه",
+   "root": "ب د ن",
+   "defining_df": 3,
+   "root_ayat": 2,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "token": "والابل",
+   "root": "ء ب ل",
+   "defining_df": 58,
+   "root_ayat": 3,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "token": "يبلغ",
+   "root": "ب ل غ",
+   "defining_df": 34,
+   "root_ayat": 73,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "token": "محله",
+   "root": "ح ل ل",
+   "defining_df": 12,
+   "root_ayat": 43,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "token": "خفيف",
+   "root": "خ ف ف",
+   "defining_df": 35,
+   "root_ayat": 17,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "token": "وغيره",
+   "root": "غ ي ر",
+   "defining_df": 188,
+   "root_ayat": 146,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "token": "تسمي",
+   "root": "س م و",
+   "defining_df": 101,
+   "root_ayat": 352,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "token": "استيسر",
+   "root": "ي س ر",
+   "defining_df": 1,
+   "root_ayat": 40,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "token": "الكعبه",
+   "root": "ك ع ب",
+   "defining_df": 12,
+   "root_ayat": 4,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "token": "تعالي",
+   "root": "ع ل و",
+   "defining_df": 86,
+   "root_ayat": 68,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "token": "زوجها",
+   "root": "ز و ج",
+   "defining_df": 37,
+   "root_ayat": 72,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "token": "مفعول",
+   "root": "ف ع ل",
+   "defining_df": 6,
+   "root_ayat": 102,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "token": "قولك",
+   "root": "ق و ل",
+   "defining_df": 33,
+   "root_ayat": 1383,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "token": "الرجل",
+   "root": "ر ج ل",
+   "defining_df": 1409,
+   "root_ayat": 66,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "token": "امراته",
+   "root": "م ر ء",
+   "defining_df": 29,
+   "root_ayat": 37,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "token": "سميت",
+   "root": "س م و",
+   "defining_df": 166,
+   "root_ayat": 352,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "token": "كالاسيره",
+   "root": "ء س ر",
+   "defining_df": 1,
+   "root_ayat": 6,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "token": "بعلها",
+   "root": "ب ع ل",
+   "defining_df": 12,
+   "root_ayat": 5,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001583/B007",
+   "token": "الحرمه",
+   "root": "ح ر م",
+   "defining_df": 14,
+   "root_ayat": 71,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B007",
+   "token": "والاسير",
+   "root": "ء س ر",
+   "defining_df": 2,
+   "root_ayat": 6,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001583/B007",
+   "token": "للرجل",
+   "root": "ر ج ل",
+   "defining_df": 74,
+   "root_ayat": 66,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B007",
+   "token": "الاخذ",
+   "root": "ء خ ذ",
+   "defining_df": 56,
+   "root_ayat": 244,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B007",
+   "token": "عهدا",
+   "root": "ع ه د",
+   "defining_df": 6,
+   "root_ayat": 36,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B007",
+   "token": "يجار",
+   "root": "ج و ر",
+   "defining_df": 2,
+   "root_ayat": 10,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001583/B007",
+   "token": "البيت",
+   "root": "ب ي ت",
+   "defining_df": 122,
+   "root_ayat": 54,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B007",
+   "token": "ياتي",
+   "root": "ء ت ي",
+   "defining_df": 46,
+   "root_ayat": 486,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B008",
+   "token": "مشي",
+   "root": "م ش ي",
+   "defining_df": 31,
+   "root_ayat": 20,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B008",
+   "token": "اثنين",
+   "root": "ث ن ي",
+   "defining_df": 28,
+   "root_ayat": 24,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B008",
+   "token": "ضعف",
+   "root": "ض ع ف",
+   "defining_df": 50,
+   "root_ayat": 45,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B008",
+   "token": "النساء",
+   "root": "ن س و",
+   "defining_df": 114,
+   "root_ayat": 53,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B008",
+   "token": "والابل",
+   "root": "ء ب ل",
+   "defining_df": 58,
+   "root_ayat": 3,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B008",
+   "token": "الثقال",
+   "root": "ث ق ل",
+   "defining_df": 1,
+   "root_ayat": 26,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B008",
+   "token": "بينهما",
+   "root": "ب ي ن",
+   "defining_df": 64,
+   "root_ayat": 454,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B008",
+   "token": "جاء",
+   "root": "ج ي ء",
+   "defining_df": 139,
+   "root_ayat": 262,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B009",
+   "token": "الضعيف",
+   "root": "ض ع ف",
+   "defining_df": 44,
+   "root_ayat": 45,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B009",
+   "token": "للرجل",
+   "root": "ر ج ل",
+   "defining_df": 74,
+   "root_ayat": 66,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B009",
+   "token": "الثقيل",
+   "root": "ث ق ل",
+   "defining_df": 22,
+   "root_ayat": 26,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B010",
+   "token": "وحسن",
+   "root": "ح س ن",
+   "defining_df": 44,
+   "root_ayat": 177,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B010",
+   "token": "وترك",
+   "root": "ت ر ك",
+   "defining_df": 88,
+   "root_ayat": 37,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B010",
+   "token": "مهزوم",
+   "root": "ه ز م",
+   "defining_df": 2,
+   "root_ayat": 3,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001583/B011",
+   "token": "الشعر",
+   "root": "ش ع ر",
+   "defining_df": 153,
+   "root_ayat": 40,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B011",
+   "token": "انسان",
+   "root": "ء ن س",
+   "defining_df": 26,
+   "root_ayat": 93,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000858/B001",
+   "token": "الطريق",
+   "root": "ط ر ق",
+   "defining_df": 154,
+   "root_ayat": 11,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000858/B001",
+   "token": "المستقيم",
+   "root": "ق و م",
+   "defining_df": 15,
+   "root_ayat": 597,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000858/B001",
+   "token": "وخاصه",
+   "root": "خ ص ص",
+   "defining_df": 67,
+   "root_ayat": 4,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000858/B001",
+   "token": "باب",
+   "root": "ب و ب",
+   "defining_df": 75,
+   "root_ayat": 24,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000858/B001",
+   "token": "ذكر",
+   "root": "ذ ك ر",
+   "defining_df": 100,
+   "root_ayat": 264,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000858/B001",
+   "token": "اهل",
+   "root": "ء ه ل",
+   "defining_df": 132,
+   "root_ayat": 120,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000858/B001",
+   "token": "العلم",
+   "root": "ع ل م",
+   "defining_df": 89,
+   "root_ayat": 728,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000858/B001",
+   "token": "الذاهب",
+   "root": "ذ ه ب",
+   "defining_df": 14,
+   "root_ayat": 56,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000858/B002",
+   "token": "الغيبه",
+   "root": "غ ي ب",
+   "defining_df": 8,
+   "root_ayat": 59,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000858/B002",
+   "token": "الطعام",
+   "root": "ط ع م",
+   "defining_df": 158,
+   "root_ayat": 41,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000858/B002",
+   "token": "بسهوله",
+   "root": "س ه ل",
+   "defining_df": 4,
+   "root_ayat": 1,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_000858/B002",
+   "token": "وسعه",
+   "root": "و س ع",
+   "defining_df": 23,
+   "root_ayat": 29,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000858/B002",
+   "token": "وذهاب",
+   "root": "ذ ه ب",
+   "defining_df": 49,
+   "root_ayat": 56,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000858/B003",
+   "token": "القاطع",
+   "root": "ق ط ع",
+   "defining_df": 17,
+   "root_ayat": 36,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000858/B003",
+   "token": "الضربه",
+   "root": "ض ر ب",
+   "defining_df": 8,
+   "root_ayat": 54,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "token": "والرجال",
+   "root": "ر ج ل",
+   "defining_df": 9,
+   "root_ayat": 66,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "token": "النساء",
+   "root": "ن س و",
+   "defining_df": 114,
+   "root_ayat": 53,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "token": "وشيعته",
+   "root": "ش ي ع",
+   "defining_df": 1,
+   "root_ayat": 11,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "token": "وعشيرته",
+   "root": "ع ش ر",
+   "defining_df": 3,
+   "root_ayat": 26,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "token": "تدخل",
+   "root": "د خ ل",
+   "defining_df": 21,
+   "root_ayat": 111,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "token": "تبعا",
+   "root": "ت ب ع",
+   "defining_df": 3,
+   "root_ayat": 156,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "token": "لغير",
+   "root": "غ ي ر",
+   "defining_df": 10,
+   "root_ayat": 146,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "token": "سبيل",
+   "root": "س ب ل",
+   "defining_df": 35,
+   "root_ayat": 164,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "token": "عامه",
+   "root": "ع و م",
+   "defining_df": 9,
+   "root_ayat": 7,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "token": "القران",
+   "root": "ق ر ء",
+   "defining_df": 61,
+   "root_ayat": 79,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "token": "جميعا",
+   "root": "ج م ع",
+   "defining_df": 36,
+   "root_ayat": 123,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "token": "امري",
+   "root": "م ر ء",
+   "defining_df": 12,
+   "root_ayat": 37,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B002",
+   "token": "بالبدن",
+   "root": "ب د ن",
+   "defining_df": 5,
+   "root_ayat": 2,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B002",
+   "token": "مره",
+   "root": "م ر ر",
+   "defining_df": 79,
+   "root_ayat": 32,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B002",
+   "token": "الصلاه",
+   "root": "ص ل و",
+   "defining_df": 56,
+   "root_ayat": 90,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B002",
+   "token": "الذكر",
+   "root": "ذ ك ر",
+   "defining_df": 72,
+   "root_ayat": 264,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B002",
+   "token": "الشجر",
+   "root": "ش ج ر",
+   "defining_df": 160,
+   "root_ayat": 26,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B002",
+   "token": "الدابه",
+   "root": "د ب ب",
+   "defining_df": 227,
+   "root_ayat": 18,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B002",
+   "token": "هامد",
+   "root": "ه م د",
+   "defining_df": 3,
+   "root_ayat": 1,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B002",
+   "token": "الرجل",
+   "root": "ر ج ل",
+   "defining_df": 1409,
+   "root_ayat": 66,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B002",
+   "token": "الواحده",
+   "root": "و ح د",
+   "defining_df": 142,
+   "root_ayat": 67,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B002",
+   "token": "ساجدا",
+   "root": "س ج د",
+   "defining_df": 2,
+   "root_ayat": 81,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B002",
+   "token": "تركتموها",
+   "root": "ت ر ك",
+   "defining_df": 1,
+   "root_ayat": 37,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B002",
+   "token": "اصولها",
+   "root": "ء ص ل",
+   "defining_df": 5,
+   "root_ayat": 10,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B003",
+   "token": "عزم",
+   "root": "ع ز م",
+   "defining_df": 15,
+   "root_ayat": 9,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B003",
+   "token": "الصلاه",
+   "root": "ص ل و",
+   "defining_df": 56,
+   "root_ayat": 90,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B004",
+   "token": "وحفظ",
+   "root": "ح ف ظ",
+   "defining_df": 7,
+   "root_ayat": 42,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B004",
+   "token": "وولايه",
+   "root": "و ل ي",
+   "defining_df": 4,
+   "root_ayat": 202,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B004",
+   "token": "امرهم",
+   "root": "ء م ر",
+   "defining_df": 23,
+   "root_ayat": 226,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B004",
+   "token": "الملك",
+   "root": "م ل ك",
+   "defining_df": 51,
+   "root_ayat": 191,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B004",
+   "token": "اهل",
+   "root": "ء ه ل",
+   "defining_df": 132,
+   "root_ayat": 120,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B004",
+   "token": "بيته",
+   "root": "ب ي ت",
+   "defining_df": 16,
+   "root_ayat": 54,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B004",
+   "token": "شانهم",
+   "root": "ش ء ن",
+   "defining_df": 4,
+   "root_ayat": 4,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B004",
+   "token": "اسماء",
+   "root": "س م و",
+   "defining_df": 114,
+   "root_ayat": 352,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B004",
+   "token": "للشيء",
+   "root": "ش ي ء",
+   "defining_df": 75,
+   "root_ayat": 449,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B004",
+   "token": "لكل",
+   "root": "ك ل ل",
+   "defining_df": 140,
+   "root_ayat": 355,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B004",
+   "token": "الدين",
+   "root": "د ي ن",
+   "defining_df": 83,
+   "root_ayat": 87,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B004",
+   "token": "والحق",
+   "root": "ح ق ق",
+   "defining_df": 19,
+   "root_ayat": 263,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B005",
+   "token": "الصلاه",
+   "root": "ص ل و",
+   "defining_df": 56,
+   "root_ayat": 90,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B005",
+   "token": "الكتاب",
+   "root": "ك ت ب",
+   "defining_df": 66,
+   "root_ayat": 279,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B005",
+   "token": "والعمل",
+   "root": "ع م ل",
+   "defining_df": 53,
+   "root_ayat": 313,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B005",
+   "token": "حقه",
+   "root": "ح ق ق",
+   "defining_df": 30,
+   "root_ayat": 263,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B006",
+   "token": "بالمكان",
+   "root": "ك و ن",
+   "defining_df": 47,
+   "root_ayat": 1176,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B006",
+   "token": "مستقر",
+   "root": "ق ر ر",
+   "defining_df": 9,
+   "root_ayat": 37,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B007",
+   "token": "غيره",
+   "root": "غ ي ر",
+   "defining_df": 387,
+   "root_ayat": 146,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B007",
+   "token": "يجعل",
+   "root": "ج ع ل",
+   "defining_df": 118,
+   "root_ayat": 311,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B007",
+   "token": "مكان",
+   "root": "ك و ن",
+   "defining_df": 133,
+   "root_ayat": 1176,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B008",
+   "token": "الطريق",
+   "root": "ط ر ق",
+   "defining_df": 154,
+   "root_ayat": 11,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B008",
+   "token": "الانسان",
+   "root": "ء ن س",
+   "defining_df": 603,
+   "root_ayat": 93,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B008",
+   "token": "والدين",
+   "root": "و ل د",
+   "defining_df": 18,
+   "root_ayat": 80,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B008",
+   "token": "وعدل",
+   "root": "ع د ل",
+   "defining_df": 4,
+   "root_ayat": 24,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B008",
+   "token": "الكلام",
+   "root": "ك ل م",
+   "defining_df": 206,
+   "root_ayat": 71,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B008",
+   "token": "ورجل",
+   "root": "ر ج ل",
+   "defining_df": 170,
+   "root_ayat": 66,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B008",
+   "token": "المله",
+   "root": "م ل ل",
+   "defining_df": 10,
+   "root_ayat": 16,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B008",
+   "token": "دينا",
+   "root": "د ي ن",
+   "defining_df": 6,
+   "root_ayat": 87,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B008",
+   "token": "الطاعه",
+   "root": "ط و ع",
+   "defining_df": 27,
+   "root_ayat": 118,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B009",
+   "token": "وعماد",
+   "root": "ع م د",
+   "defining_df": 1,
+   "root_ayat": 7,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B009",
+   "token": "ومعاش",
+   "root": "ع ي ش",
+   "defining_df": 3,
+   "root_ayat": 8,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B009",
+   "token": "ويثبت",
+   "root": "ث ب ت",
+   "defining_df": 3,
+   "root_ayat": 17,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B009",
+   "token": "والجسم",
+   "root": "ج س م",
+   "defining_df": 14,
+   "root_ayat": 2,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B009",
+   "token": "ويغنيك",
+   "root": "غ ن ي",
+   "defining_df": 1,
+   "root_ayat": 72,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B009",
+   "token": "جعل",
+   "root": "ج ع ل",
+   "defining_df": 193,
+   "root_ayat": 311,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B009",
+   "token": "تمامه",
+   "root": "ت م م",
+   "defining_df": 11,
+   "root_ayat": 20,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B009",
+   "token": "يمسككم",
+   "root": "م س ك",
+   "defining_df": 1,
+   "root_ayat": 24,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B009",
+   "token": "ومعادهم",
+   "root": "ع و د",
+   "defining_df": 1,
+   "root_ayat": 58,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B009",
+   "token": "الدين",
+   "root": "د ي ن",
+   "defining_df": 83,
+   "root_ayat": 87,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B009",
+   "token": "والحق",
+   "root": "ح ق ق",
+   "defining_df": 19,
+   "root_ayat": 263,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B010",
+   "token": "ثمن",
+   "root": "ث م ن",
+   "defining_df": 11,
+   "root_ayat": 19,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B010",
+   "token": "المتاع",
+   "root": "م ت ع",
+   "defining_df": 45,
+   "root_ayat": 65,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B010",
+   "token": "بيان",
+   "root": "ب ي ن",
+   "defining_df": 14,
+   "root_ayat": 454,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B010",
+   "token": "واحده",
+   "root": "و ح د",
+   "defining_df": 162,
+   "root_ayat": 67,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B010",
+   "token": "الامه",
+   "root": "ء م م",
+   "defining_df": 31,
+   "root_ayat": 108,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B010",
+   "token": "مايه",
+   "root": "م ء ي",
+   "defining_df": 19,
+   "root_ayat": 7,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B010",
+   "token": "دينار",
+   "root": "د ن ر",
+   "defining_df": 2,
+   "root_ayat": 1,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B010",
+   "token": "بلغت",
+   "root": "ب ل غ",
+   "defining_df": 28,
+   "root_ayat": 73,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B011",
+   "token": "الجسم",
+   "root": "ج س م",
+   "defining_df": 52,
+   "root_ayat": 2,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B011",
+   "token": "والطول",
+   "root": "ط و ل",
+   "defining_df": 8,
+   "root_ayat": 10,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B011",
+   "token": "مقدار",
+   "root": "ق د ر",
+   "defining_df": 33,
+   "root_ayat": 121,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B011",
+   "token": "الانسان",
+   "root": "ء ن س",
+   "defining_df": 603,
+   "root_ayat": 93,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B011",
+   "token": "وحسن",
+   "root": "ح س ن",
+   "defining_df": 44,
+   "root_ayat": 177,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B011",
+   "token": "الرجل",
+   "root": "ر ج ل",
+   "defining_df": 1409,
+   "root_ayat": 66,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B011",
+   "token": "تمامه",
+   "root": "ت م م",
+   "defining_df": 11,
+   "root_ayat": 20,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B012",
+   "token": "وجزء",
+   "root": "ج ز ء",
+   "defining_df": 1,
+   "root_ayat": 3,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B012",
+   "token": "للبكره",
+   "root": "ب ك ر",
+   "defining_df": 1,
+   "root_ayat": 12,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B012",
+   "token": "البير",
+   "root": "ب ء ر",
+   "defining_df": 97,
+   "root_ayat": 1,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B012",
+   "token": "والخوان",
+   "root": "خ و ن",
+   "defining_df": 1,
+   "root_ayat": 11,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B012",
+   "token": "والدابه",
+   "root": "د ب ب",
+   "defining_df": 30,
+   "root_ayat": 18,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B012",
+   "token": "والخشبه",
+   "root": "خ ش ب",
+   "defining_df": 8,
+   "root_ayat": 1,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B012",
+   "token": "يمسكها",
+   "root": "م س ك",
+   "defining_df": 2,
+   "root_ayat": 24,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B012",
+   "token": "مقدار",
+   "root": "ق د ر",
+   "defining_df": 33,
+   "root_ayat": 121,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B012",
+   "token": "الرجل",
+   "root": "ر ج ل",
+   "defining_df": 1409,
+   "root_ayat": 66,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B012",
+   "token": "واحده",
+   "root": "و ح د",
+   "defining_df": 162,
+   "root_ayat": 67,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B012",
+   "token": "الماء",
+   "root": "م و ه",
+   "defining_df": 508,
+   "root_ayat": 60,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B012",
+   "token": "سوي",
+   "root": "س و ي",
+   "defining_df": 12,
+   "root_ayat": 80,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B013",
+   "token": "وبعث",
+   "root": "ب ع ث",
+   "defining_df": 2,
+   "root_ayat": 64,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B013",
+   "token": "الساعه",
+   "root": "س و ع",
+   "defining_df": 13,
+   "root_ayat": 44,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B013",
+   "token": "يوم",
+   "root": "ي و م",
+   "defining_df": 112,
+   "root_ayat": 377,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B013",
+   "token": "الخلق",
+   "root": "خ ل ق",
+   "defining_df": 147,
+   "root_ayat": 218,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B013",
+   "token": "لربهم",
+   "root": "ر ب ب",
+   "defining_df": 1,
+   "root_ayat": 871,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B013",
+   "token": "يدي",
+   "root": "ي د ي",
+   "defining_df": 26,
+   "root_ayat": 110,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B013",
+   "token": "العالمين",
+   "root": "ع ل م",
+   "defining_df": 3,
+   "root_ayat": 728,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B014",
+   "token": "ومنازله",
+   "root": "ن ز ل",
+   "defining_df": 1,
+   "root_ayat": 257,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B014",
+   "token": "الحرب",
+   "root": "ح ر ب",
+   "defining_df": 112,
+   "root_ayat": 11,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B014",
+   "token": "بينهم",
+   "root": "ب ي ن",
+   "defining_df": 68,
+   "root_ayat": 454,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B014",
+   "token": "لبعض",
+   "root": "ب ع ض",
+   "defining_df": 8,
+   "root_ayat": 87,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B014",
+   "token": "وغيرها",
+   "root": "غ ي ر",
+   "defining_df": 82,
+   "root_ayat": 146,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B014",
+   "token": "فلانا",
+   "root": "ف ل ن",
+   "defining_df": 353,
+   "root_ayat": 1,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B015",
+   "token": "وزن",
+   "root": "و ز ن",
+   "defining_df": 22,
+   "root_ayat": 21,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B015",
+   "token": "ومقدار",
+   "root": "ق د ر",
+   "defining_df": 5,
+   "root_ayat": 121,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B015",
+   "token": "والدينار",
+   "root": "د ن ر",
+   "defining_df": 2,
+   "root_ayat": 1,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B015",
+   "token": "مثقال",
+   "root": "ث ق ل",
+   "defining_df": 3,
+   "root_ayat": 26,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B016",
+   "token": "وكلال",
+   "root": "ك ل ل",
+   "defining_df": 2,
+   "root_ayat": 355,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B016",
+   "token": "الماء",
+   "root": "م و ه",
+   "defining_df": 508,
+   "root_ayat": 60,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B016",
+   "token": "الدابه",
+   "root": "د ب ب",
+   "defining_df": 227,
+   "root_ayat": 18,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B016",
+   "token": "وعجزها",
+   "root": "ع ج ز",
+   "defining_df": 1,
+   "root_ayat": 25,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B016",
+   "token": "السير",
+   "root": "س ي ر",
+   "defining_df": 153,
+   "root_ayat": 25,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B016",
+   "token": "تسر",
+   "root": "س ر ر",
+   "defining_df": 3,
+   "root_ayat": 43,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B017",
+   "token": "النهار",
+   "root": "ن ه ر",
+   "defining_df": 69,
+   "root_ayat": 102,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B017",
+   "token": "الظهيره",
+   "root": "ظ ه ر",
+   "defining_df": 7,
+   "root_ayat": 57,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B017",
+   "token": "ميزان",
+   "root": "و ز ن",
+   "defining_df": 4,
+   "root_ayat": 21,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B017",
+   "token": "الشمس",
+   "root": "ش م س",
+   "defining_df": 126,
+   "root_ayat": 32,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B017",
+   "token": "وكاد",
+   "root": "ك و د",
+   "defining_df": 3,
+   "root_ayat": 24,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B017",
+   "token": "يعقل",
+   "root": "ع ق ل",
+   "defining_df": 6,
+   "root_ayat": 49,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B018",
+   "token": "نفاق",
+   "root": "ن ف ق",
+   "defining_df": 2,
+   "root_ayat": 86,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B018",
+   "token": "السوق",
+   "root": "س و ق",
+   "defining_df": 28,
+   "root_ayat": 16,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B019",
+   "token": "ظهري",
+   "root": "ظ ه ر",
+   "defining_df": 4,
+   "root_ayat": 57,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B019",
+   "token": "جسدك",
+   "root": "ج س د",
+   "defining_df": 3,
+   "root_ayat": 4,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B020",
+   "token": "ياخذ",
+   "root": "ء خ ذ",
+   "defining_df": 79,
+   "root_ayat": 244,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B021",
+   "token": "عين",
+   "root": "ع ي ن",
+   "defining_df": 81,
+   "root_ayat": 63,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B021",
+   "token": "ذاهبه",
+   "root": "ذ ه ب",
+   "defining_df": 1,
+   "root_ayat": 56,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B021",
+   "token": "البصر",
+   "root": "ب ص ر",
+   "defining_df": 57,
+   "root_ayat": 139,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B021",
+   "token": "وبقيت",
+   "root": "ب ق ي",
+   "defining_df": 4,
+   "root_ayat": 21,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B001",
+   "token": "الطعام",
+   "root": "ط ع م",
+   "defining_df": 158,
+   "root_ayat": 41,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B001",
+   "token": "مضغ",
+   "root": "م ض غ",
+   "defining_df": 3,
+   "root_ayat": 2,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_003172/B001",
+   "token": "ووصف",
+   "root": "و ص ف",
+   "defining_df": 96,
+   "root_ayat": 14,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B001",
+   "token": "الاكل",
+   "root": "ء ك ل",
+   "defining_df": 51,
+   "root_ayat": 101,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B001",
+   "token": "السريع",
+   "root": "س ر ع",
+   "defining_df": 35,
+   "root_ayat": 23,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B002",
+   "token": "طريق",
+   "root": "ط ر ق",
+   "defining_df": 87,
+   "root_ayat": 11,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B002",
+   "token": "سالكه",
+   "root": "س ء ل",
+   "defining_df": 2,
+   "root_ayat": 118,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B002",
+   "token": "والمنهاج",
+   "root": "ن ه ج",
+   "defining_df": 2,
+   "root_ayat": 1,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_003172/B002",
+   "token": "الصراط",
+   "root": "ص ر ط",
+   "defining_df": 1,
+   "root_ayat": 45,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_003172/B002",
+   "token": "الذاهب",
+   "root": "ذ ه ب",
+   "defining_df": 14,
+   "root_ayat": 56,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B002",
+   "token": "غيبه",
+   "root": "غ ي ب",
+   "defining_df": 11,
+   "root_ayat": 59,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B002",
+   "token": "الطعام",
+   "root": "ط ع م",
+   "defining_df": 158,
+   "root_ayat": 41,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B003",
+   "token": "اكله",
+   "root": "ء ك ل",
+   "defining_df": 24,
+   "root_ayat": 101,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B004",
+   "token": "قطع",
+   "root": "ق ط ع",
+   "defining_df": 130,
+   "root_ayat": 36,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B005",
+   "token": "اخذ",
+   "root": "ء خ ذ",
+   "defining_df": 142,
+   "root_ayat": 244,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B005",
+   "token": "الدين",
+   "root": "د ي ن",
+   "defining_df": 83,
+   "root_ayat": 87,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_003172/B005",
+   "token": "صاحبه",
+   "root": "ص ح ب",
+   "defining_df": 162,
+   "root_ayat": 89,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B005",
+   "token": "وتكره",
+   "root": "ك ر ه",
+   "defining_df": 3,
+   "root_ayat": 35,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B006",
+   "token": "حيوان",
+   "root": "ح ي ي",
+   "defining_df": 11,
+   "root_ayat": 161,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B006",
+   "token": "ماء",
+   "root": "م و ه",
+   "defining_df": 243,
+   "root_ayat": 60,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B006",
+   "token": "خلق",
+   "root": "خ ل ق",
+   "defining_df": 56,
+   "root_ayat": 218,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B007",
+   "token": "السماء",
+   "root": "س م و",
+   "defining_df": 128,
+   "root_ayat": 352,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B007",
+   "token": "بروج",
+   "root": "ب ر ج",
+   "defining_df": 5,
+   "root_ayat": 6,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_003172/B008",
+   "token": "قايمه",
+   "root": "ق و م",
+   "defining_df": 11,
+   "root_ayat": 597,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B008",
+   "token": "الدابه",
+   "root": "د ب ب",
+   "defining_df": 227,
+   "root_ayat": 18,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B008",
+   "token": "ذكر",
+   "root": "ذ ك ر",
+   "defining_df": 100,
+   "root_ayat": 264,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B008",
+   "token": "للانسان",
+   "root": "ء ن س",
+   "defining_df": 46,
+   "root_ayat": 93,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B008",
+   "token": "يظهر",
+   "root": "ظ ه ر",
+   "defining_df": 58,
+   "root_ayat": 57,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B008",
+   "token": "ياخذ",
+   "root": "ء خ ذ",
+   "defining_df": 79,
+   "root_ayat": 244,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B008",
+   "token": "يقلب",
+   "root": "ق ل ب",
+   "defining_df": 5,
+   "root_ayat": 155,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B008",
+   "token": "حافره",
+   "root": "ح ف ر",
+   "defining_df": 4,
+   "root_ayat": 2,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_003172/B008",
+   "token": "يعرض",
+   "root": "ع ر ض",
+   "defining_df": 12,
+   "root_ayat": 72,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000047/B001",
+   "token": "قوما",
+   "root": "ق و م",
+   "defining_df": 9,
+   "direction": "inward",
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000532/B002",
+   "token": "وقام",
+   "root": "ق و م",
+   "defining_df": 4,
+   "direction": "inward",
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000532/B005",
+   "token": "يقوم",
+   "root": "ق و م",
+   "defining_df": 47,
+   "direction": "inward",
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000532/B007",
+   "token": "واقامه",
+   "root": "ق و م",
+   "defining_df": 12,
+   "direction": "inward",
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001040/B002",
+   "token": "ويهدي",
+   "root": "ه د ي",
+   "defining_df": 1,
+   "direction": "inward",
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001444/B001",
+   "token": "يقوم",
+   "root": "ق و م",
+   "defining_df": 47,
+   "direction": "inward",
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001444/B005",
+   "token": "يقوم",
+   "root": "ق و م",
+   "defining_df": 47,
+   "direction": "inward",
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001444/B007",
+   "token": "يقوم",
+   "root": "ق و م",
+   "defining_df": 47,
+   "direction": "inward",
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001444/B008",
+   "token": "هادي",
+   "root": "ه د ي",
+   "defining_df": 2,
+   "direction": "inward",
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001700/B004",
+   "token": "بقوم",
+   "root": "ق و م",
+   "defining_df": 4,
+   "direction": "inward",
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001525/B008",
+   "token": "للقوم",
+   "root": "ق و م",
+   "defining_df": 18,
+   "direction": "inward",
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001525/B011",
+   "token": "المقام",
+   "root": "ق و م",
+   "defining_df": 9,
+   "direction": "inward",
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001092/B003",
+   "token": "لقومه",
+   "root": "ق و م",
+   "defining_df": 1,
+   "direction": "inward",
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000913/B001",
+   "token": "الهدي",
+   "root": "ه د ي",
+   "defining_df": 14,
+   "direction": "inward",
+   "shown": true
+  }
+ ],
+ "rare_lemma_bridges": [
+  {
+   "branch_ref": "root_001583/B001",
+   "lemma": "رَّشَاد",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 1.22,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B001",
+   "lemma": "رَّشَاد",
+   "neighbour_root": "ي و م",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 0.931,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B001",
+   "lemma": "وَالِد",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 12,
+   "neglog10_p": 0.506,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B001",
+   "lemma": "وَالِد",
+   "neighbour_root": "ي و م",
+   "k": 1,
+   "n": 12,
+   "neglog10_p": 0.278,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B001",
+   "lemma": "وَالِد",
+   "neighbour_root": "ع ب د",
+   "k": 3,
+   "n": 12,
+   "neglog10_p": 1.962,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B001",
+   "lemma": "قَبُول",
+   "neighbour_root": "غ ي ر",
+   "k": 1,
+   "n": 1,
+   "neglog10_p": 1.631,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B001",
+   "lemma": "قَيَّضْ",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 1.009,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B001",
+   "lemma": "ضَلَٰلَة",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 9,
+   "neglog10_p": 0.431,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B001",
+   "lemma": "ضَلَٰلَة",
+   "neighbour_root": "ع ب د",
+   "k": 1,
+   "n": 9,
+   "neglog10_p": 0.51,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B001",
+   "lemma": "إِخْرَاج",
+   "neighbour_root": "ي و م",
+   "k": 1,
+   "n": 6,
+   "neglog10_p": 0.506,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B001",
+   "lemma": "إِخْرَاج",
+   "neighbour_root": "د ي ن",
+   "k": 2,
+   "n": 6,
+   "neglog10_p": 2.551,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B001",
+   "lemma": "إِخْرَاج",
+   "neighbour_root": "غ ي ر",
+   "k": 1,
+   "n": 6,
+   "neglog10_p": 0.878,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B001",
+   "lemma": "طَاعَة",
+   "neighbour_root": "غ ي ر",
+   "k": 1,
+   "n": 3,
+   "neglog10_p": 1.164,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B001",
+   "lemma": "تَقَدَّمَ",
+   "neighbour_root": "ص ر ط",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 1.842,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B001",
+   "lemma": "تَقَدَّمَ",
+   "neighbour_root": "ن ع م",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 1.391,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "lemma": "سُيِّرَتْ",
+   "neighbour_root": "ي و م",
+   "k": 1,
+   "n": 5,
+   "neglog10_p": 0.572,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "lemma": "سُيِّرَتْ",
+   "neighbour_root": "د ي ن",
+   "k": 1,
+   "n": 5,
+   "neglog10_p": 1.169,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "lemma": "وَجَّهْ",
+   "neighbour_root": "س م و",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 0.96,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "lemma": "وَجَّهْ",
+   "neighbour_root": "ص ر ط",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 1.842,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "lemma": "حَدِيث",
+   "neighbour_root": "س م و",
+   "k": 2,
+   "n": 28,
+   "neglog10_p": 0.324,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "lemma": "حَدِيث",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 28,
+   "neglog10_p": 0.117,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "lemma": "حَدِيث",
+   "neighbour_root": "م ل ك",
+   "k": 2,
+   "n": 28,
+   "neglog10_p": 0.675,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "lemma": "حَدِيث",
+   "neighbour_root": "ي و م",
+   "k": 1,
+   "n": 28,
+   "neglog10_p": 0.083,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "lemma": "حَدِيث",
+   "neighbour_root": "ن ع م",
+   "k": 1,
+   "n": 28,
+   "neglog10_p": 0.356,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "lemma": "حَدِيث",
+   "neighbour_root": "غ ي ر",
+   "k": 4,
+   "n": 28,
+   "neglog10_p": 2.406,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "lemma": "حَدِيث",
+   "neighbour_root": "ض ل ل",
+   "k": 2,
+   "n": 28,
+   "neglog10_p": 0.752,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "lemma": "عَدَلَ",
+   "neighbour_root": "س م و",
+   "k": 2,
+   "n": 13,
+   "neglog10_p": 0.783,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "lemma": "عَدَلَ",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 13,
+   "neglog10_p": 0.312,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "lemma": "عَدَلَ",
+   "neighbour_root": "ح م د",
+   "k": 1,
+   "n": 13,
+   "neglog10_p": 0.921,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "lemma": "عَدَلَ",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 13,
+   "neglog10_p": 0.478,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "lemma": "عَدَلَ",
+   "neighbour_root": "د ي ن",
+   "k": 1,
+   "n": 13,
+   "neglog10_p": 0.777,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "lemma": "سَارَ",
+   "neighbour_root": "س م و",
+   "k": 1,
+   "n": 16,
+   "neglog10_p": 0.218,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "lemma": "سَارَ",
+   "neighbour_root": "ي و م",
+   "k": 1,
+   "n": 16,
+   "neglog10_p": 0.2,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "lemma": "سَارَ",
+   "neighbour_root": "ع ب د",
+   "k": 1,
+   "n": 16,
+   "neglog10_p": 0.317,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "lemma": "سَارَ",
+   "neighbour_root": "ض ل ل",
+   "k": 1,
+   "n": 16,
+   "neglog10_p": 0.447,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "lemma": "دُبُر",
+   "neighbour_root": "م ل ك",
+   "k": 2,
+   "n": 18,
+   "neglog10_p": 0.984,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B002",
+   "lemma": "دُبُر",
+   "neighbour_root": "غ ض ب",
+   "k": 1,
+   "n": 18,
+   "neglog10_p": 1.23,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B003",
+   "lemma": "تَقَدَّمَ",
+   "neighbour_root": "ص ر ط",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 1.842,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B003",
+   "lemma": "تَقَدَّمَ",
+   "neighbour_root": "ن ع م",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 1.391,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B003",
+   "lemma": "عُنُق",
+   "neighbour_root": "س م و",
+   "k": 1,
+   "n": 9,
+   "neglog10_p": 0.39,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B003",
+   "lemma": "عُنُق",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 9,
+   "neglog10_p": 0.612,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B003",
+   "lemma": "عُنُق",
+   "neighbour_root": "ي و م",
+   "k": 1,
+   "n": 9,
+   "neglog10_p": 0.367,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B003",
+   "lemma": "خَيْل",
+   "neighbour_root": "ن ع م",
+   "k": 1,
+   "n": 5,
+   "neglog10_p": 1.007,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B003",
+   "lemma": "رَقَبَة",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 7,
+   "neglog10_p": 0.708,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B003",
+   "lemma": "رَقَبَة",
+   "neighbour_root": "ي و م",
+   "k": 2,
+   "n": 7,
+   "neglog10_p": 1.203,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B003",
+   "lemma": "رَقَبَة",
+   "neighbour_root": "ض ل ل",
+   "k": 1,
+   "n": 7,
+   "neglog10_p": 0.755,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B003",
+   "lemma": "أُصْلِي",
+   "neighbour_root": "غ ي ر",
+   "k": 2,
+   "n": 4,
+   "neglog10_p": 2.497,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001583/B003",
+   "lemma": "مُمْسِك",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 1,
+   "neglog10_p": 1.299,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B004",
+   "lemma": "مَّوَدَّة",
+   "neighbour_root": "ر ح م",
+   "k": 2,
+   "n": 7,
+   "neglog10_p": 1.35,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B004",
+   "lemma": "مَّوَدَّة",
+   "neighbour_root": "ي و م",
+   "k": 1,
+   "n": 7,
+   "neglog10_p": 0.451,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B004",
+   "lemma": "مَّوَدَّة",
+   "neighbour_root": "ع ب د",
+   "k": 1,
+   "n": 7,
+   "neglog10_p": 0.602,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B004",
+   "lemma": "مَّوَدَّة",
+   "neighbour_root": "ض ل ل",
+   "k": 1,
+   "n": 7,
+   "neglog10_p": 0.755,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B004",
+   "lemma": "لَطِيف",
+   "neighbour_root": "س م و",
+   "k": 2,
+   "n": 7,
+   "neglog10_p": 1.257,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B004",
+   "lemma": "لَطِيف",
+   "neighbour_root": "ع ب د",
+   "k": 1,
+   "n": 7,
+   "neglog10_p": 0.602,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B004",
+   "lemma": "طَبَق",
+   "neighbour_root": "س م و",
+   "k": 2,
+   "n": 3,
+   "neglog10_p": 2.036,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001583/B004",
+   "lemma": "طَبَق",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 3,
+   "neglog10_p": 0.844,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B004",
+   "lemma": "ٱمْرَأَت",
+   "neighbour_root": "س م و",
+   "k": 1,
+   "n": 25,
+   "neglog10_p": 0.116,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B004",
+   "lemma": "ٱمْرَأَت",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 25,
+   "neglog10_p": 0.14,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B004",
+   "lemma": "ٱمْرَأَت",
+   "neighbour_root": "م ل ك",
+   "k": 2,
+   "n": 25,
+   "neglog10_p": 0.751,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B004",
+   "lemma": "ٱمْرَأَت",
+   "neighbour_root": "د ي ن",
+   "k": 2,
+   "n": 25,
+   "neglog10_p": 1.326,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B004",
+   "lemma": "ٱمْرَأَت",
+   "neighbour_root": "ع ب د",
+   "k": 1,
+   "n": 25,
+   "neglog10_p": 0.193,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B004",
+   "lemma": "ٱمْرَأَت",
+   "neighbour_root": "غ ي ر",
+   "k": 1,
+   "n": 25,
+   "neglog10_p": 0.35,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B004",
+   "lemma": "ٱمْرَأَت",
+   "neighbour_root": "ض ل ل",
+   "k": 2,
+   "n": 25,
+   "neglog10_p": 0.83,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "lemma": "إِبِل",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 1.009,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "lemma": "إِبِل",
+   "neighbour_root": "غ ي ر",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 1.335,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "lemma": "إِبِل",
+   "neighbour_root": "ض ل ل",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 1.269,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "lemma": "مَحِلّ",
+   "neighbour_root": "س م و",
+   "k": 1,
+   "n": 3,
+   "neglog10_p": 0.796,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "lemma": "مَحِلّ",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 3,
+   "neglog10_p": 0.844,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "lemma": "مَحِلّ",
+   "neighbour_root": "ي و م",
+   "k": 1,
+   "n": 3,
+   "neglog10_p": 0.768,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "lemma": "مَحِلّ",
+   "neighbour_root": "غ ي ر",
+   "k": 1,
+   "n": 3,
+   "neglog10_p": 1.164,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "lemma": "تَسْمِيَة",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 1,
+   "neglog10_p": 1.514,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "lemma": "ٱسْتَيْسَرَ",
+   "neighbour_root": "ي و م",
+   "k": 1,
+   "n": 1,
+   "neglog10_p": 1.219,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "lemma": "كَعْبَة",
+   "neighbour_root": "س م و",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 0.96,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "lemma": "كَعْبَة",
+   "neighbour_root": "ن ع م",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 1.391,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "lemma": "تَعَٰلَىٰ",
+   "neighbour_root": "س م و",
+   "k": 3,
+   "n": 20,
+   "neglog10_p": 0.999,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "lemma": "تَعَٰلَىٰ",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 20,
+   "neglog10_p": 0.192,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "lemma": "تَعَٰلَىٰ",
+   "neighbour_root": "م ل ك",
+   "k": 2,
+   "n": 20,
+   "neglog10_p": 0.907,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "lemma": "تَعَٰلَىٰ",
+   "neighbour_root": "ي و م",
+   "k": 1,
+   "n": 20,
+   "neglog10_p": 0.147,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "lemma": "تَعَٰلَىٰ",
+   "neighbour_root": "ع ب د",
+   "k": 1,
+   "n": 20,
+   "neglog10_p": 0.252,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B005",
+   "lemma": "تَعَٰلَىٰ",
+   "neighbour_root": "غ ي ر",
+   "k": 1,
+   "n": 20,
+   "neglog10_p": 0.423,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "lemma": "مَفْعُول",
+   "neighbour_root": "س م و",
+   "k": 1,
+   "n": 7,
+   "neglog10_p": 0.476,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "lemma": "مَفْعُول",
+   "neighbour_root": "ع ب د",
+   "k": 1,
+   "n": 7,
+   "neglog10_p": 0.602,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "lemma": "مَفْعُول",
+   "neighbour_root": "ن ع م",
+   "k": 1,
+   "n": 7,
+   "neglog10_p": 0.869,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "lemma": "ٱمْرَأَت",
+   "neighbour_root": "س م و",
+   "k": 1,
+   "n": 25,
+   "neglog10_p": 0.116,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "lemma": "ٱمْرَأَت",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 25,
+   "neglog10_p": 0.14,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "lemma": "ٱمْرَأَت",
+   "neighbour_root": "م ل ك",
+   "k": 2,
+   "n": 25,
+   "neglog10_p": 0.751,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "lemma": "ٱمْرَأَت",
+   "neighbour_root": "د ي ن",
+   "k": 2,
+   "n": 25,
+   "neglog10_p": 1.326,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "lemma": "ٱمْرَأَت",
+   "neighbour_root": "ع ب د",
+   "k": 1,
+   "n": 25,
+   "neglog10_p": 0.193,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "lemma": "ٱمْرَأَت",
+   "neighbour_root": "غ ي ر",
+   "k": 1,
+   "n": 25,
+   "neglog10_p": 0.35,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "lemma": "ٱمْرَأَت",
+   "neighbour_root": "ض ل ل",
+   "k": 2,
+   "n": 25,
+   "neglog10_p": 0.83,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "lemma": "سَمَّىٰ",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 8,
+   "neglog10_p": 0.657,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "lemma": "سَمَّىٰ",
+   "neighbour_root": "د ي ن",
+   "k": 2,
+   "n": 8,
+   "neglog10_p": 2.288,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "lemma": "سَمَّىٰ",
+   "neighbour_root": "ع ب د",
+   "k": 1,
+   "n": 8,
+   "neglog10_p": 0.553,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "lemma": "سَمَّىٰ",
+   "neighbour_root": "ن ع م",
+   "k": 1,
+   "n": 8,
+   "neglog10_p": 0.816,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "lemma": "سَمَّىٰ",
+   "neighbour_root": "غ ض ب",
+   "k": 1,
+   "n": 8,
+   "neglog10_p": 1.575,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "lemma": "سَمَّىٰ",
+   "neighbour_root": "ض ل ل",
+   "k": 1,
+   "n": 8,
+   "neglog10_p": 0.703,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "lemma": "أَسِير",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 4,
+   "neglog10_p": 0.73,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "lemma": "أَسِير",
+   "neighbour_root": "ي و م",
+   "k": 1,
+   "n": 4,
+   "neglog10_p": 0.656,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "lemma": "بَعْل",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 4,
+   "neglog10_p": 0.73,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "lemma": "بَعْل",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 4,
+   "neglog10_p": 0.932,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "lemma": "بَعْل",
+   "neighbour_root": "ي و م",
+   "k": 1,
+   "n": 4,
+   "neglog10_p": 0.656,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B006",
+   "lemma": "بَعْل",
+   "neighbour_root": "غ ي ر",
+   "k": 1,
+   "n": 4,
+   "neglog10_p": 1.044,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B007",
+   "lemma": "أَسِير",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 4,
+   "neglog10_p": 0.73,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B007",
+   "lemma": "أَسِير",
+   "neighbour_root": "ي و م",
+   "k": 1,
+   "n": 4,
+   "neglog10_p": 0.656,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B007",
+   "lemma": "عَهْد",
+   "neighbour_root": "ر ح م",
+   "k": 2,
+   "n": 26,
+   "neglog10_p": 0.423,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B007",
+   "lemma": "عَهْد",
+   "neighbour_root": "م ل ك",
+   "k": 2,
+   "n": 26,
+   "neglog10_p": 0.724,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B007",
+   "lemma": "عَهْد",
+   "neighbour_root": "ي و م",
+   "k": 3,
+   "n": 26,
+   "neglog10_p": 0.687,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B007",
+   "lemma": "عَهْد",
+   "neighbour_root": "د ي ن",
+   "k": 1,
+   "n": 26,
+   "neglog10_p": 0.514,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B007",
+   "lemma": "عَهْد",
+   "neighbour_root": "ن ع م",
+   "k": 1,
+   "n": 26,
+   "neglog10_p": 0.38,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B007",
+   "lemma": "عَهْد",
+   "neighbour_root": "غ ض ب",
+   "k": 1,
+   "n": 26,
+   "neglog10_p": 1.076,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B007",
+   "lemma": "يُجِيرُ",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 5,
+   "neglog10_p": 0.644,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B007",
+   "lemma": "يُجِيرُ",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 5,
+   "neglog10_p": 0.842,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B008",
+   "lemma": "ٱثْنَيْن",
+   "neighbour_root": "س م و",
+   "k": 1,
+   "n": 11,
+   "neglog10_p": 0.326,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B008",
+   "lemma": "ٱثْنَيْن",
+   "neighbour_root": "ر ح م",
+   "k": 2,
+   "n": 11,
+   "neglog10_p": 0.989,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B008",
+   "lemma": "ٱثْنَيْن",
+   "neighbour_root": "ي و م",
+   "k": 1,
+   "n": 11,
+   "neglog10_p": 0.304,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B008",
+   "lemma": "ٱثْنَيْن",
+   "neighbour_root": "د ي ن",
+   "k": 1,
+   "n": 11,
+   "neglog10_p": 0.844,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B008",
+   "lemma": "ٱثْنَيْن",
+   "neighbour_root": "غ ي ر",
+   "k": 2,
+   "n": 11,
+   "neglog10_p": 1.582,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B008",
+   "lemma": "ٱثْنَيْن",
+   "neighbour_root": "ض ل ل",
+   "k": 2,
+   "n": 11,
+   "neglog10_p": 1.46,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B008",
+   "lemma": "إِبِل",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 1.009,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B008",
+   "lemma": "إِبِل",
+   "neighbour_root": "غ ي ر",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 1.335,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B008",
+   "lemma": "إِبِل",
+   "neighbour_root": "ض ل ل",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 1.269,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B008",
+   "lemma": "ثَقِيل",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 5,
+   "neglog10_p": 0.644,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B008",
+   "lemma": "ثَقِيل",
+   "neighbour_root": "ي و م",
+   "k": 1,
+   "n": 5,
+   "neglog10_p": 0.572,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B008",
+   "lemma": "مَّشَ",
+   "neighbour_root": "س م و",
+   "k": 1,
+   "n": 18,
+   "neglog10_p": 0.188,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B008",
+   "lemma": "مَّشَ",
+   "neighbour_root": "ر ح م",
+   "k": 2,
+   "n": 18,
+   "neglog10_p": 0.642,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B008",
+   "lemma": "مَّشَ",
+   "neighbour_root": "م ل ك",
+   "k": 2,
+   "n": 18,
+   "neglog10_p": 0.984,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B008",
+   "lemma": "مَّشَ",
+   "neighbour_root": "ع ب د",
+   "k": 1,
+   "n": 18,
+   "neglog10_p": 0.282,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B008",
+   "lemma": "مَّشَ",
+   "neighbour_root": "ص ر ط",
+   "k": 1,
+   "n": 18,
+   "neglog10_p": 0.913,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B009",
+   "lemma": "ضَعِيف",
+   "neighbour_root": "س م و",
+   "k": 1,
+   "n": 8,
+   "neglog10_p": 0.43,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B009",
+   "lemma": "ضَعِيف",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 8,
+   "neglog10_p": 0.472,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B009",
+   "lemma": "ضَعِيف",
+   "neighbour_root": "د ي ن",
+   "k": 1,
+   "n": 8,
+   "neglog10_p": 0.973,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B009",
+   "lemma": "ضَعِيف",
+   "neighbour_root": "ض ل ل",
+   "k": 1,
+   "n": 8,
+   "neglog10_p": 0.703,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B009",
+   "lemma": "ثَقِيل",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 5,
+   "neglog10_p": 0.644,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B009",
+   "lemma": "ثَقِيل",
+   "neighbour_root": "ي و م",
+   "k": 1,
+   "n": 5,
+   "neglog10_p": 0.572,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B011",
+   "lemma": "شِّعْر",
+   "neighbour_root": "ي و م",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 0.931,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001583/B011",
+   "lemma": "شِّعْر",
+   "neighbour_root": "ن ع م",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 1.391,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000858/B001",
+   "lemma": "ذَاهِب",
+   "neighbour_root": "ه د ي",
+   "k": 1,
+   "n": 1,
+   "neglog10_p": 1.367,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000858/B002",
+   "lemma": "طَعَام",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 23,
+   "neglog10_p": 0.292,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000858/B002",
+   "lemma": "طَعَام",
+   "neighbour_root": "ي و م",
+   "k": 4,
+   "n": 23,
+   "neglog10_p": 1.328,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000858/B002",
+   "lemma": "طَعَام",
+   "neighbour_root": "ه د ي",
+   "k": 1,
+   "n": 23,
+   "neglog10_p": 0.197,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000858/B002",
+   "lemma": "طَعَام",
+   "neighbour_root": "ن ع م",
+   "k": 1,
+   "n": 23,
+   "neglog10_p": 0.421,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000858/B002",
+   "lemma": "طَعَام",
+   "neighbour_root": "غ ي ر",
+   "k": 3,
+   "n": 23,
+   "neglog10_p": 1.796,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000858/B002",
+   "lemma": "طَعَام",
+   "neighbour_root": "غ ض ب",
+   "k": 1,
+   "n": 23,
+   "neglog10_p": 1.127,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000858/B002",
+   "lemma": "سَعَة",
+   "neighbour_root": "ر ح م",
+   "k": 2,
+   "n": 5,
+   "neglog10_p": 1.643,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000858/B002",
+   "lemma": "سَعَة",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 5,
+   "neglog10_p": 0.842,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_000858/B002",
+   "lemma": "ذَهَاب",
+   "neighbour_root": "س م و",
+   "k": 1,
+   "n": 1,
+   "neglog10_p": 1.248,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "lemma": "رِجَال",
+   "neighbour_root": "س م و",
+   "k": 1,
+   "n": 27,
+   "neglog10_p": 0.101,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "lemma": "رِجَال",
+   "neighbour_root": "ر ح م",
+   "k": 3,
+   "n": 27,
+   "neglog10_p": 0.819,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "lemma": "رِجَال",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 27,
+   "neglog10_p": 0.245,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "lemma": "رِجَال",
+   "neighbour_root": "ي و م",
+   "k": 3,
+   "n": 27,
+   "neglog10_p": 0.654,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "lemma": "رِجَال",
+   "neighbour_root": "د ي ن",
+   "k": 1,
+   "n": 27,
+   "neglog10_p": 0.501,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "lemma": "رِجَال",
+   "neighbour_root": "ه د ي",
+   "k": 2,
+   "n": 27,
+   "neglog10_p": 0.489,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "lemma": "رِجَال",
+   "neighbour_root": "غ ي ر",
+   "k": 2,
+   "n": 27,
+   "neglog10_p": 0.882,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "lemma": "رِجَال",
+   "neighbour_root": "ض ل ل",
+   "k": 2,
+   "n": 27,
+   "neglog10_p": 0.777,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "lemma": "شِيعَة",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 10,
+   "neglog10_p": 0.395,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "lemma": "شِيعَة",
+   "neighbour_root": "د ي ن",
+   "k": 2,
+   "n": 10,
+   "neglog10_p": 2.09,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "lemma": "شِيعَة",
+   "neighbour_root": "ض ل ل",
+   "k": 1,
+   "n": 10,
+   "neglog10_p": 0.617,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "lemma": "عَشِيرَت",
+   "neighbour_root": "ي و م",
+   "k": 1,
+   "n": 3,
+   "neglog10_p": 0.768,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "lemma": "عَشِيرَت",
+   "neighbour_root": "ه د ي",
+   "k": 1,
+   "n": 3,
+   "neglog10_p": 0.908,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "lemma": "تَبَع",
+   "neighbour_root": "ه د ي",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 1.075,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "lemma": "عَام",
+   "neighbour_root": "ي و م",
+   "k": 1,
+   "n": 7,
+   "neglog10_p": 0.451,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "lemma": "عَام",
+   "neighbour_root": "ه د ي",
+   "k": 1,
+   "n": 7,
+   "neglog10_p": 0.577,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B001",
+   "lemma": "عَام",
+   "neighbour_root": "ض ل ل",
+   "k": 1,
+   "n": 7,
+   "neglog10_p": 0.755,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B002",
+   "lemma": "دَآبَّة",
+   "neighbour_root": "س م و",
+   "k": 7,
+   "n": 18,
+   "neglog10_p": 4.477,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B002",
+   "lemma": "دَآبَّة",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 18,
+   "neglog10_p": 0.368,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B002",
+   "lemma": "دَآبَّة",
+   "neighbour_root": "ع ب د",
+   "k": 2,
+   "n": 18,
+   "neglog10_p": 0.79,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B002",
+   "lemma": "دَآبَّة",
+   "neighbour_root": "ص ر ط",
+   "k": 1,
+   "n": 18,
+   "neglog10_p": 0.913,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B002",
+   "lemma": "دَآبَّة",
+   "neighbour_root": "ن ع م",
+   "k": 1,
+   "n": 18,
+   "neglog10_p": 0.506,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B002",
+   "lemma": "دَآبَّة",
+   "neighbour_root": "غ ي ر",
+   "k": 1,
+   "n": 18,
+   "neglog10_p": 0.459,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B002",
+   "lemma": "هَامِدَة",
+   "neighbour_root": "س م و",
+   "k": 1,
+   "n": 1,
+   "neglog10_p": 1.248,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B002",
+   "lemma": "هَامِدَة",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 1,
+   "neglog10_p": 1.299,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B002",
+   "lemma": "هَامِدَة",
+   "neighbour_root": "غ ي ر",
+   "k": 1,
+   "n": 1,
+   "neglog10_p": 1.631,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B002",
+   "lemma": "سَاجِد",
+   "neighbour_root": "ر ح م",
+   "k": 3,
+   "n": 23,
+   "neglog10_p": 0.974,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B002",
+   "lemma": "سَاجِد",
+   "neighbour_root": "ح م د",
+   "k": 3,
+   "n": 23,
+   "neglog10_p": 2.844,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B002",
+   "lemma": "سَاجِد",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 23,
+   "neglog10_p": 0.292,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B002",
+   "lemma": "سَاجِد",
+   "neighbour_root": "ع ب د",
+   "k": 1,
+   "n": 23,
+   "neglog10_p": 0.214,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B002",
+   "lemma": "سَاجِد",
+   "neighbour_root": "ه د ي",
+   "k": 1,
+   "n": 23,
+   "neglog10_p": 0.197,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B002",
+   "lemma": "سَاجِد",
+   "neighbour_root": "ن ع م",
+   "k": 1,
+   "n": 23,
+   "neglog10_p": 0.421,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B002",
+   "lemma": "أَصْل",
+   "neighbour_root": "س م و",
+   "k": 1,
+   "n": 3,
+   "neglog10_p": 0.796,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B004",
+   "lemma": "وَلَٰيَت",
+   "neighbour_root": "د ي ن",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 1.557,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B004",
+   "lemma": "حَٰفِظ",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 13,
+   "neglog10_p": 0.312,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B004",
+   "lemma": "حَٰفِظ",
+   "neighbour_root": "ح م د",
+   "k": 1,
+   "n": 13,
+   "neglog10_p": 0.921,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B004",
+   "lemma": "حَٰفِظ",
+   "neighbour_root": "ع ب د",
+   "k": 1,
+   "n": 13,
+   "neglog10_p": 0.383,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B004",
+   "lemma": "شَأْن",
+   "neighbour_root": "س م و",
+   "k": 2,
+   "n": 4,
+   "neglog10_p": 1.752,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B004",
+   "lemma": "شَأْن",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 4,
+   "neglog10_p": 0.73,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B004",
+   "lemma": "شَأْن",
+   "neighbour_root": "ي و م",
+   "k": 1,
+   "n": 4,
+   "neglog10_p": 0.656,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B006",
+   "lemma": "مَّكَان",
+   "neighbour_root": "س م و",
+   "k": 1,
+   "n": 27,
+   "neglog10_p": 0.101,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B006",
+   "lemma": "مَّكَان",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 27,
+   "neglog10_p": 0.124,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B006",
+   "lemma": "مَّكَان",
+   "neighbour_root": "ي و م",
+   "k": 2,
+   "n": 27,
+   "neglog10_p": 0.308,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B006",
+   "lemma": "مَّكَان",
+   "neighbour_root": "د ي ن",
+   "k": 1,
+   "n": 27,
+   "neglog10_p": 0.501,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B006",
+   "lemma": "مَّكَان",
+   "neighbour_root": "ع ب د",
+   "k": 3,
+   "n": 27,
+   "neglog10_p": 1.031,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B006",
+   "lemma": "مَّكَان",
+   "neighbour_root": "ه د ي",
+   "k": 1,
+   "n": 27,
+   "neglog10_p": 0.158,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B006",
+   "lemma": "مَّكَان",
+   "neighbour_root": "ن ع م",
+   "k": 1,
+   "n": 27,
+   "neglog10_p": 0.368,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B006",
+   "lemma": "مَّكَان",
+   "neighbour_root": "غ ي ر",
+   "k": 1,
+   "n": 27,
+   "neglog10_p": 0.326,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B006",
+   "lemma": "مَّكَان",
+   "neighbour_root": "غ ض ب",
+   "k": 1,
+   "n": 27,
+   "neglog10_p": 1.06,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B006",
+   "lemma": "مَّكَان",
+   "neighbour_root": "ض ل ل",
+   "k": 3,
+   "n": 27,
+   "neglog10_p": 1.439,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B007",
+   "lemma": "مَّكَان",
+   "neighbour_root": "س م و",
+   "k": 1,
+   "n": 27,
+   "neglog10_p": 0.101,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B007",
+   "lemma": "مَّكَان",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 27,
+   "neglog10_p": 0.124,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B007",
+   "lemma": "مَّكَان",
+   "neighbour_root": "ي و م",
+   "k": 2,
+   "n": 27,
+   "neglog10_p": 0.308,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B007",
+   "lemma": "مَّكَان",
+   "neighbour_root": "د ي ن",
+   "k": 1,
+   "n": 27,
+   "neglog10_p": 0.501,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B007",
+   "lemma": "مَّكَان",
+   "neighbour_root": "ع ب د",
+   "k": 3,
+   "n": 27,
+   "neglog10_p": 1.031,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B007",
+   "lemma": "مَّكَان",
+   "neighbour_root": "ه د ي",
+   "k": 1,
+   "n": 27,
+   "neglog10_p": 0.158,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B007",
+   "lemma": "مَّكَان",
+   "neighbour_root": "ن ع م",
+   "k": 1,
+   "n": 27,
+   "neglog10_p": 0.368,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B007",
+   "lemma": "مَّكَان",
+   "neighbour_root": "غ ي ر",
+   "k": 1,
+   "n": 27,
+   "neglog10_p": 0.326,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B007",
+   "lemma": "مَّكَان",
+   "neighbour_root": "غ ض ب",
+   "k": 1,
+   "n": 27,
+   "neglog10_p": 1.06,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B007",
+   "lemma": "مَّكَان",
+   "neighbour_root": "ض ل ل",
+   "k": 3,
+   "n": 27,
+   "neglog10_p": 1.439,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B008",
+   "lemma": "وَالِد",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 12,
+   "neglog10_p": 0.506,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B008",
+   "lemma": "وَالِد",
+   "neighbour_root": "ي و م",
+   "k": 1,
+   "n": 12,
+   "neglog10_p": 0.278,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B008",
+   "lemma": "وَالِد",
+   "neighbour_root": "ع ب د",
+   "k": 3,
+   "n": 12,
+   "neglog10_p": 1.962,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B008",
+   "lemma": "مِلَّة",
+   "neighbour_root": "س م و",
+   "k": 1,
+   "n": 15,
+   "neglog10_p": 0.235,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B008",
+   "lemma": "مِلَّة",
+   "neighbour_root": "د ي ن",
+   "k": 3,
+   "n": 15,
+   "neglog10_p": 2.963,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B008",
+   "lemma": "مِلَّة",
+   "neighbour_root": "ه د ي",
+   "k": 3,
+   "n": 15,
+   "neglog10_p": 1.611,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B008",
+   "lemma": "مِلَّة",
+   "neighbour_root": "ص ر ط",
+   "k": 1,
+   "n": 15,
+   "neglog10_p": 0.987,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B008",
+   "lemma": "مِلَّة",
+   "neighbour_root": "ن ع م",
+   "k": 1,
+   "n": 15,
+   "neglog10_p": 0.573,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B008",
+   "lemma": "طَاعَة",
+   "neighbour_root": "غ ي ر",
+   "k": 1,
+   "n": 3,
+   "neglog10_p": 1.164,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B009",
+   "lemma": "جِسْم",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 1.22,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B009",
+   "lemma": "أَغْنَتْ",
+   "neighbour_root": "س م و",
+   "k": 2,
+   "n": 28,
+   "neglog10_p": 0.324,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B009",
+   "lemma": "أَغْنَتْ",
+   "neighbour_root": "ر ح م",
+   "k": 2,
+   "n": 28,
+   "neglog10_p": 0.383,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B009",
+   "lemma": "أَغْنَتْ",
+   "neighbour_root": "م ل ك",
+   "k": 2,
+   "n": 28,
+   "neglog10_p": 0.675,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B009",
+   "lemma": "أَغْنَتْ",
+   "neighbour_root": "ي و م",
+   "k": 3,
+   "n": 28,
+   "neglog10_p": 0.623,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B009",
+   "lemma": "أَغْنَتْ",
+   "neighbour_root": "ع ب د",
+   "k": 3,
+   "n": 28,
+   "neglog10_p": 0.994,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B009",
+   "lemma": "أَغْنَتْ",
+   "neighbour_root": "غ ي ر",
+   "k": 1,
+   "n": 28,
+   "neglog10_p": 0.314,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B009",
+   "lemma": "تَمَام",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 1,
+   "neglog10_p": 1.299,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B009",
+   "lemma": "تَمَام",
+   "neighbour_root": "ه د ي",
+   "k": 1,
+   "n": 1,
+   "neglog10_p": 1.367,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B009",
+   "lemma": "مَعَاد",
+   "neighbour_root": "ه د ي",
+   "k": 1,
+   "n": 1,
+   "neglog10_p": 1.367,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B009",
+   "lemma": "مَعَاد",
+   "neighbour_root": "ض ل ل",
+   "k": 1,
+   "n": 1,
+   "neglog10_p": 1.564,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B010",
+   "lemma": "بَيَان",
+   "neighbour_root": "ه د ي",
+   "k": 1,
+   "n": 3,
+   "neglog10_p": 0.908,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B010",
+   "lemma": "مِائَة",
+   "neighbour_root": "ي و م",
+   "k": 2,
+   "n": 7,
+   "neglog10_p": 1.203,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B010",
+   "lemma": "مِائَة",
+   "neighbour_root": "د ي ن",
+   "k": 1,
+   "n": 7,
+   "neglog10_p": 1.028,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B011",
+   "lemma": "جِسْم",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 1.22,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B011",
+   "lemma": "مِقْدَار",
+   "neighbour_root": "س م و",
+   "k": 1,
+   "n": 3,
+   "neglog10_p": 0.796,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B011",
+   "lemma": "مِقْدَار",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 3,
+   "neglog10_p": 0.844,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B011",
+   "lemma": "مِقْدَار",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 3,
+   "neglog10_p": 1.05,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B011",
+   "lemma": "مِقْدَار",
+   "neighbour_root": "ي و م",
+   "k": 2,
+   "n": 3,
+   "neglog10_p": 1.978,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B011",
+   "lemma": "تَمَام",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 1,
+   "neglog10_p": 1.299,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B011",
+   "lemma": "تَمَام",
+   "neighbour_root": "ه د ي",
+   "k": 1,
+   "n": 1,
+   "neglog10_p": 1.367,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B012",
+   "lemma": "جُزْء",
+   "neighbour_root": "ع ب د",
+   "k": 1,
+   "n": 3,
+   "neglog10_p": 0.936,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B012",
+   "lemma": "بُكْرَة",
+   "neighbour_root": "س م و",
+   "k": 1,
+   "n": 7,
+   "neglog10_p": 0.476,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B012",
+   "lemma": "دَآبَّة",
+   "neighbour_root": "س م و",
+   "k": 7,
+   "n": 18,
+   "neglog10_p": 4.477,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B012",
+   "lemma": "دَآبَّة",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 18,
+   "neglog10_p": 0.368,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B012",
+   "lemma": "دَآبَّة",
+   "neighbour_root": "ع ب د",
+   "k": 2,
+   "n": 18,
+   "neglog10_p": 0.79,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B012",
+   "lemma": "دَآبَّة",
+   "neighbour_root": "ص ر ط",
+   "k": 1,
+   "n": 18,
+   "neglog10_p": 0.913,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B012",
+   "lemma": "دَآبَّة",
+   "neighbour_root": "ن ع م",
+   "k": 1,
+   "n": 18,
+   "neglog10_p": 0.506,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B012",
+   "lemma": "دَآبَّة",
+   "neighbour_root": "غ ي ر",
+   "k": 1,
+   "n": 18,
+   "neglog10_p": 0.459,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B012",
+   "lemma": "مِقْدَار",
+   "neighbour_root": "س م و",
+   "k": 1,
+   "n": 3,
+   "neglog10_p": 0.796,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B012",
+   "lemma": "مِقْدَار",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 3,
+   "neglog10_p": 0.844,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B012",
+   "lemma": "مِقْدَار",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 3,
+   "neglog10_p": 1.05,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B012",
+   "lemma": "مِقْدَار",
+   "neighbour_root": "ي و م",
+   "k": 2,
+   "n": 3,
+   "neglog10_p": 1.978,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B014",
+   "lemma": "حَرْب",
+   "neighbour_root": "ي و م",
+   "k": 1,
+   "n": 4,
+   "neglog10_p": 0.656,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B014",
+   "lemma": "حَرْب",
+   "neighbour_root": "ض ل ل",
+   "k": 1,
+   "n": 4,
+   "neglog10_p": 0.98,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B015",
+   "lemma": "مِقْدَار",
+   "neighbour_root": "س م و",
+   "k": 1,
+   "n": 3,
+   "neglog10_p": 0.796,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B015",
+   "lemma": "مِقْدَار",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 3,
+   "neglog10_p": 0.844,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B015",
+   "lemma": "مِقْدَار",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 3,
+   "neglog10_p": 1.05,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B015",
+   "lemma": "مِقْدَار",
+   "neighbour_root": "ي و م",
+   "k": 2,
+   "n": 3,
+   "neglog10_p": 1.978,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B015",
+   "lemma": "مِثْقَال",
+   "neighbour_root": "س م و",
+   "k": 4,
+   "n": 8,
+   "neglog10_p": 3.228,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_001273/B015",
+   "lemma": "مِثْقَال",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 8,
+   "neglog10_p": 0.657,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B015",
+   "lemma": "مِثْقَال",
+   "neighbour_root": "ي و م",
+   "k": 1,
+   "n": 8,
+   "neglog10_p": 0.406,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B016",
+   "lemma": "كَلَٰلَة",
+   "neighbour_root": "د ي ن",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 1.557,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B016",
+   "lemma": "كَلَٰلَة",
+   "neighbour_root": "غ ي ر",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 1.335,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B016",
+   "lemma": "كَلَٰلَة",
+   "neighbour_root": "ض ل ل",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 1.269,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B016",
+   "lemma": "دَآبَّة",
+   "neighbour_root": "س م و",
+   "k": 7,
+   "n": 18,
+   "neglog10_p": 4.477,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B016",
+   "lemma": "دَآبَّة",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 18,
+   "neglog10_p": 0.368,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B016",
+   "lemma": "دَآبَّة",
+   "neighbour_root": "ع ب د",
+   "k": 2,
+   "n": 18,
+   "neglog10_p": 0.79,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B016",
+   "lemma": "دَآبَّة",
+   "neighbour_root": "ص ر ط",
+   "k": 1,
+   "n": 18,
+   "neglog10_p": 0.913,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B016",
+   "lemma": "دَآبَّة",
+   "neighbour_root": "ن ع م",
+   "k": 1,
+   "n": 18,
+   "neglog10_p": 0.506,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B016",
+   "lemma": "دَآبَّة",
+   "neighbour_root": "غ ي ر",
+   "k": 1,
+   "n": 18,
+   "neglog10_p": 0.459,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B016",
+   "lemma": "سَيْر",
+   "neighbour_root": "ي و م",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 0.931,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B017",
+   "lemma": "ظَّهِيرَة",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 1,
+   "neglog10_p": 1.514,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B017",
+   "lemma": "مِيزَان",
+   "neighbour_root": "س م و",
+   "k": 1,
+   "n": 16,
+   "neglog10_p": 0.218,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B017",
+   "lemma": "مِيزَان",
+   "neighbour_root": "ي و م",
+   "k": 2,
+   "n": 16,
+   "neglog10_p": 0.599,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B017",
+   "lemma": "مِيزَان",
+   "neighbour_root": "ع ب د",
+   "k": 2,
+   "n": 16,
+   "neglog10_p": 0.873,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B017",
+   "lemma": "مِيزَان",
+   "neighbour_root": "غ ي ر",
+   "k": 2,
+   "n": 16,
+   "neglog10_p": 1.276,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B017",
+   "lemma": "كَادَ",
+   "neighbour_root": "س م و",
+   "k": 4,
+   "n": 24,
+   "neglog10_p": 1.36,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B017",
+   "lemma": "كَادَ",
+   "neighbour_root": "ر ح م",
+   "k": 2,
+   "n": 24,
+   "neglog10_p": 0.467,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B017",
+   "lemma": "كَادَ",
+   "neighbour_root": "ح م د",
+   "k": 1,
+   "n": 24,
+   "neglog10_p": 0.677,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B017",
+   "lemma": "كَادَ",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 24,
+   "neglog10_p": 0.279,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B017",
+   "lemma": "كَادَ",
+   "neighbour_root": "ع ب د",
+   "k": 1,
+   "n": 24,
+   "neglog10_p": 0.203,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B017",
+   "lemma": "كَادَ",
+   "neighbour_root": "ه د ي",
+   "k": 1,
+   "n": 24,
+   "neglog10_p": 0.186,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B017",
+   "lemma": "كَادَ",
+   "neighbour_root": "غ ي ر",
+   "k": 1,
+   "n": 24,
+   "neglog10_p": 0.363,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B017",
+   "lemma": "كَادَ",
+   "neighbour_root": "غ ض ب",
+   "k": 1,
+   "n": 24,
+   "neglog10_p": 1.109,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B017",
+   "lemma": "كَادَ",
+   "neighbour_root": "ض ل ل",
+   "k": 1,
+   "n": 24,
+   "neglog10_p": 0.314,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B018",
+   "lemma": "نِفَاق",
+   "neighbour_root": "ي و م",
+   "k": 1,
+   "n": 3,
+   "neglog10_p": 0.768,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B018",
+   "lemma": "سُّوق",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 4,
+   "neglog10_p": 0.73,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B018",
+   "lemma": "سُّوق",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 4,
+   "neglog10_p": 0.932,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B019",
+   "lemma": "جَسَد",
+   "neighbour_root": "ه د ي",
+   "k": 1,
+   "n": 4,
+   "neglog10_p": 0.793,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B021",
+   "lemma": "ذَاهِب",
+   "neighbour_root": "ه د ي",
+   "k": 1,
+   "n": 1,
+   "neglog10_p": 1.367,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_001273/B021",
+   "lemma": "بَقِيَّت",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 3,
+   "neglog10_p": 1.05,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B001",
+   "lemma": "طَعَام",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 23,
+   "neglog10_p": 0.292,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B001",
+   "lemma": "طَعَام",
+   "neighbour_root": "ي و م",
+   "k": 4,
+   "n": 23,
+   "neglog10_p": 1.328,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B001",
+   "lemma": "طَعَام",
+   "neighbour_root": "ه د ي",
+   "k": 1,
+   "n": 23,
+   "neglog10_p": 0.197,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B001",
+   "lemma": "طَعَام",
+   "neighbour_root": "ن ع م",
+   "k": 1,
+   "n": 23,
+   "neglog10_p": 0.421,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B001",
+   "lemma": "طَعَام",
+   "neighbour_root": "غ ي ر",
+   "k": 3,
+   "n": 23,
+   "neglog10_p": 1.796,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B001",
+   "lemma": "طَعَام",
+   "neighbour_root": "غ ض ب",
+   "k": 1,
+   "n": 23,
+   "neglog10_p": 1.127,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B001",
+   "lemma": "مُضْغَة",
+   "neighbour_root": "س م و",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 0.96,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B001",
+   "lemma": "مُضْغَة",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 1.009,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B001",
+   "lemma": "مُضْغَة",
+   "neighbour_root": "غ ي ر",
+   "k": 1,
+   "n": 2,
+   "neglog10_p": 1.335,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B001",
+   "lemma": "وَصْف",
+   "neighbour_root": "ن ع م",
+   "k": 1,
+   "n": 1,
+   "neglog10_p": 1.688,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B001",
+   "lemma": "سَرِيع",
+   "neighbour_root": "س م و",
+   "k": 1,
+   "n": 10,
+   "neglog10_p": 0.356,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B001",
+   "lemma": "سَرِيع",
+   "neighbour_root": "ر ح م",
+   "k": 2,
+   "n": 10,
+   "neglog10_p": 1.062,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B001",
+   "lemma": "سَرِيع",
+   "neighbour_root": "ي و م",
+   "k": 2,
+   "n": 10,
+   "neglog10_p": 0.924,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B001",
+   "lemma": "سَرِيع",
+   "neighbour_root": "د ي ن",
+   "k": 1,
+   "n": 10,
+   "neglog10_p": 0.882,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B002",
+   "lemma": "ذَاهِب",
+   "neighbour_root": "ه د ي",
+   "k": 1,
+   "n": 1,
+   "neglog10_p": 1.367,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B002",
+   "lemma": "طَعَام",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 23,
+   "neglog10_p": 0.292,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B002",
+   "lemma": "طَعَام",
+   "neighbour_root": "ي و م",
+   "k": 4,
+   "n": 23,
+   "neglog10_p": 1.328,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B002",
+   "lemma": "طَعَام",
+   "neighbour_root": "ه د ي",
+   "k": 1,
+   "n": 23,
+   "neglog10_p": 0.197,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B002",
+   "lemma": "طَعَام",
+   "neighbour_root": "ن ع م",
+   "k": 1,
+   "n": 23,
+   "neglog10_p": 0.421,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B002",
+   "lemma": "طَعَام",
+   "neighbour_root": "غ ي ر",
+   "k": 3,
+   "n": 23,
+   "neglog10_p": 1.796,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B002",
+   "lemma": "طَعَام",
+   "neighbour_root": "غ ض ب",
+   "k": 1,
+   "n": 23,
+   "neglog10_p": 1.127,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B005",
+   "lemma": "أُكْرِهَ",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 4,
+   "neglog10_p": 0.73,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B005",
+   "lemma": "أُكْرِهَ",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 4,
+   "neglog10_p": 0.932,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B005",
+   "lemma": "أُكْرِهَ",
+   "neighbour_root": "غ ض ب",
+   "k": 1,
+   "n": 4,
+   "neglog10_p": 1.873,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B007",
+   "lemma": "مُّسَمًّى",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 21,
+   "neglog10_p": 0.18,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B007",
+   "lemma": "مُّسَمًّى",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 21,
+   "neglog10_p": 0.319,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B007",
+   "lemma": "مُّسَمًّى",
+   "neighbour_root": "ي و م",
+   "k": 1,
+   "n": 21,
+   "neglog10_p": 0.137,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B007",
+   "lemma": "مُّسَمًّى",
+   "neighbour_root": "د ي ن",
+   "k": 1,
+   "n": 21,
+   "neglog10_p": 0.593,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B007",
+   "lemma": "مُّسَمًّى",
+   "neighbour_root": "ع ب د",
+   "k": 2,
+   "n": 21,
+   "neglog10_p": 0.685,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B007",
+   "lemma": "مُّسَمًّى",
+   "neighbour_root": "غ ي ر",
+   "k": 2,
+   "n": 21,
+   "neglog10_p": 1.066,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B007",
+   "lemma": "مُّسَمًّى",
+   "neighbour_root": "ض ل ل",
+   "k": 1,
+   "n": 21,
+   "neglog10_p": 0.356,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B007",
+   "lemma": "بُرُوج",
+   "neighbour_root": "س م و",
+   "k": 3,
+   "n": 4,
+   "neglog10_p": 3.162,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_003172/B008",
+   "lemma": "قَآئِمَة",
+   "neighbour_root": "ر ح م",
+   "k": 1,
+   "n": 5,
+   "neglog10_p": 0.644,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B008",
+   "lemma": "دَآبَّة",
+   "neighbour_root": "س م و",
+   "k": 7,
+   "n": 18,
+   "neglog10_p": 4.477,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B008",
+   "lemma": "دَآبَّة",
+   "neighbour_root": "م ل ك",
+   "k": 1,
+   "n": 18,
+   "neglog10_p": 0.368,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B008",
+   "lemma": "دَآبَّة",
+   "neighbour_root": "ع ب د",
+   "k": 2,
+   "n": 18,
+   "neglog10_p": 0.79,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B008",
+   "lemma": "دَآبَّة",
+   "neighbour_root": "ص ر ط",
+   "k": 1,
+   "n": 18,
+   "neglog10_p": 0.913,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B008",
+   "lemma": "دَآبَّة",
+   "neighbour_root": "ن ع م",
+   "k": 1,
+   "n": 18,
+   "neglog10_p": 0.506,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B008",
+   "lemma": "دَآبَّة",
+   "neighbour_root": "غ ي ر",
+   "k": 1,
+   "n": 18,
+   "neglog10_p": 0.459,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B008",
+   "lemma": "أَظْهَرَ",
+   "neighbour_root": "س م و",
+   "k": 1,
+   "n": 8,
+   "neglog10_p": 0.43,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B008",
+   "lemma": "أَظْهَرَ",
+   "neighbour_root": "ح م د",
+   "k": 1,
+   "n": 8,
+   "neglog10_p": 1.121,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B008",
+   "lemma": "أَظْهَرَ",
+   "neighbour_root": "د ي ن",
+   "k": 4,
+   "n": 8,
+   "neglog10_p": 5.596,
+   "shown": true
+  },
+  {
+   "branch_ref": "root_003172/B008",
+   "lemma": "أَظْهَرَ",
+   "neighbour_root": "ه د ي",
+   "k": 3,
+   "n": 8,
+   "neglog10_p": 2.423,
+   "shown": false
+  },
+  {
+   "branch_ref": "root_003172/B008",
+   "lemma": "قَلَّبُ",
+   "neighbour_root": "ي و م",
+   "k": 1,
+   "n": 6,
+   "neglog10_p": 0.506,
+   "shown": false
+  }
+ ],
+ "root_cooccurrence": [
+  {
+   "roots": [
+    "ه د ي",
+    "ص ر ط"
+   ],
+   "c": 23,
+   "nA": 267,
+   "nB": 44,
+   "ln_pmi": 2.502,
+   "shown": true
+  },
+  {
+   "roots": [
+    "ه د ي",
+    "ق و م"
+   ],
+   "c": 65,
+   "nA": 267,
+   "nB": 596,
+   "ln_pmi": 0.935,
+   "shown": false
+  },
+  {
+   "roots": [
+    "ص ر ط",
+    "ق و م"
+   ],
+   "c": 32,
+   "nA": 44,
+   "nB": 596,
+   "ln_pmi": 2.029,
+   "shown": true
+  }
+ ],
+ "parallels": {
+  "thresholds": {
+   "root": 12.37838077545166,
+   "lemma": 12.037954330444336,
+   "phrase": 11.5984525680542,
+   "echo": 5.60260009765625,
+   "loaded": 10.327842712402344,
+   "textmap": 0.034885942935943604
+  },
+  "scores": {
+   "1:7": {
+    "loaded": 15.3561
+   },
+   "2:142": {
+    "lemma": 13.4688,
+    "loaded": 15.3561
+   },
+   "2:213": {
+    "lemma": 13.4688,
+    "loaded": 15.3561
+   },
+   "3:101": {
+    "lemma": 13.4688,
+    "loaded": 15.3561
+   },
+   "4:68": {
+    "lemma": 13.4688,
+    "phrase": 19.3791,
+    "loaded": 15.3561
+   },
+   "4:175": {
+    "lemma": 13.4688,
+    "loaded": 15.3561
+   },
+   "5:16": {
+    "lemma": 13.4688,
+    "loaded": 15.3561
+   },
+   "6:87": {
+    "lemma": 13.4688,
+    "loaded": 15.3561
+   },
+   "6:126": {
+    "loaded": 15.3561
+   },
+   "6:153": {
+    "loaded": 15.3561
+   },
+   "6:161": {
+    "lemma": 13.4688,
+    "loaded": 15.3561
+   },
+   "10:25": {
+    "lemma": 13.4688,
+    "loaded": 15.3561
+   },
+   "16:121": {
+    "lemma": 13.4688,
+    "loaded": 15.3561,
+    "textmap": 0.0376
+   },
+   "22:24": {
+    "textmap": 0.0386
+   },
+   "22:54": {
+    "loaded": 15.3561
+   },
+   "23:73": {
+    "textmap": 0.0412
+   },
+   "24:46": {
+    "lemma": 13.4688,
+    "loaded": 15.3561
+   },
+   "26:182": {
+    "textmap": 0.0666
+   },
+   "36:4": {
+    "textmap": 0.0415
+   },
+   "37:118": {
+    "lemma": 13.4688,
+    "phrase": 19.3791,
+    "loaded": 15.3561,
+    "textmap": 0.0896
+   },
+   "42:52": {
+    "lemma": 13.4688,
+    "loaded": 15.3561
+   },
+   "42:53": {
+    "loaded": 15.3561
+   },
+   "48:2": {
+    "lemma": 13.4688,
+    "phrase": 19.3791,
+    "loaded": 15.3561
+   },
+   "48:20": {
+    "lemma": 13.4688,
+    "phrase": 19.3791,
+    "loaded": 15.3561
+   },
+   "67:22": {
+    "loaded": 15.3561
+   }
+  }
+ }
+}

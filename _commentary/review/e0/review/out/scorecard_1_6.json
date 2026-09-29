@@ -1,0 +1,690 @@
+{
+ "frozen": {
+  "status": "match",
+  "changed": []
+ },
+ "tool_sha256": {
+  "common.py": "a694d2f583fec2dbb2c42e2f9ecc4b80663de2923e65e2e38fba9c451e58f29d",
+  "check.py": "0e1781015943b467caaae706ab0dea67490c046db0714a39217a9ef0b986c037",
+  "lint.py": "563ba83e3f179bf4cd2d0905aca370326e5a1a3f714d1db75de4654b56483ad9",
+  "scorecard.py": "80d413add2a5c0ef9023e2d45c3a0457e2db6a5e2c12465abf369ef6bd160c8a",
+  "lint_terms.eval.json": "7295efbfe24ffd8da044aedce8551cb355a91d6f39a48e427abeb9ffc0cccf60",
+  "probes.eval.json": "2c95a3b0f650c1982f83569e1920280f708982eaafd9abad93ff340bc492386d"
+ },
+ "results": [
+  {
+   "ref": "1:6",
+   "supply": "/Volumes/OZTURK/_projects/prose_generation/_commentary/review/e0/supply/out/1_6.md",
+   "pool": [],
+   "rows": [
+    {
+     "label": "E2r1",
+     "file": "/Volumes/OZTURK/_projects/prose_generation/_commentary/review/experiments/e2/1_6/rep1/final.tr.md",
+     "file_sha256": "ea1dbf3bae13a3beb8e2acdf604a3518b9920bcdf582cabcb937f7247477acd2",
+     "ref": "1:6",
+     "form": {
+      "words": 2542,
+      "paragraphs": 34,
+      "longest_paragraph_words": 147,
+      "mean_paragraph_words": 74.0,
+      "headings": 6,
+      "bellek_marks": 1,
+      "negation": {
+       "neg_e2_count": 23,
+       "neg_e2_per_1000": 9.05,
+       "breakdown": {
+        "değil": 22,
+        "değil,": 14,
+        "demek değildir": 1,
+        "söylemez": 1
+       },
+       "not_only_frames": 1
+      }
+     },
+     "sourcing": {
+      "tags": 41,
+      "tags_checkable": 41,
+      "share_sourced": 1.0,
+      "by_source": {
+       "quran": 17,
+       "dictionary": 24
+      },
+      "levels": {
+       "clitic": 1,
+       "exact": 40
+      },
+      "dictionary_early_phrase": 24,
+      "dictionary_definition_only": 0,
+      "arabic_outside_tags_quotations": 0,
+      "arabic_outside_tags_quotations_sourced": 0,
+      "arabic_outside_tags_root_names": 0,
+      "unsourced_unmarked": 0,
+      "bellek_status": {
+       "no Arabic item (not checkable by script)": 1
+      },
+      "cited_bound_branches": 6,
+      "bound_citations_with_echo_marker": 2,
+      "bound_citations_without_echo_marker": 4,
+      "bound_citations_extended_marker_only": 0
+     },
+     "reach": {
+      "refs_total": 15,
+      "window": 3,
+      "same_surah_beyond_window": 0,
+      "same_surah": 3,
+      "other_surah": 12,
+      "other_surahs_named": 10,
+      "refs": [
+       "1:4",
+       "1:5",
+       "1:7",
+       "2:142",
+       "3:51",
+       "6:153",
+       "7:16",
+       "7:17",
+       "11:112",
+       "18:1",
+       "18:2",
+       "36:61",
+       "37:118",
+       "41:30",
+       "48:2"
+      ]
+     },
+     "pooled": {
+      "pool_size": 107,
+      "pool_files": 4,
+      "share_of_pool": 0.523,
+      "refs_share": 0.556,
+      "quotes_share": 0.512
+     },
+     "supply": {
+      "supply_file": "/Volumes/OZTURK/_projects/prose_generation/_commentary/review/e0/supply/out/1_6.md",
+      "supply_est_tokens": 77743,
+      "supply_chars": 149307,
+      "supply_branches": 128,
+      "supply_plain_marked": 0,
+      "dossier_plain_at_focus": 3,
+      "plain_source": "root-dossier (the supply carries no [plain] marks)",
+      "nonplain_branches": 125,
+      "nonplain_used": 13,
+      "share_nonplain_used": 0.104,
+      "nonplain_focus_root_branches": 32,
+      "nonplain_focus_used": 13,
+      "share_nonplain_focus_used": 0.406,
+      "nonplain_used_list": [
+       "ص ر ط B002 [bare]",
+       "ق و م B002 [mixed_non_bare]",
+       "ق و م B003 [collocation]",
+       "ق و م B004 [mixed_non_bare]",
+       "ق و م B005 [collocation]",
+       "ق و م B007 [collocation]",
+       "ق و م B014 [collocation]",
+       "ق و م B015 [non_bare]",
+       "ق و م B016 [collocation]",
+       "ه د ي B002 [mixed_non_bare]",
+       "ه د ي B003 [mixed_non_bare]",
+       "ه د ي B004 [bare]",
+       "ه د ي B010 [bare]"
+      ],
+      "typed_links": 11,
+      "typed_links_used": 7,
+      "share_typed_links_used": 0.636,
+      "typed_link_types": [
+       "Rare-lemma bridges: a word named in a branch text that the Q",
+       "Same surah (1)",
+       "Same-surah occurrences of this ayah's roots"
+      ],
+      "link_refs": 21,
+      "link_refs_cited": 2,
+      "candidate_new_findings": {
+       "note": "used here, in no pooled input (not in the supply, not in any --pool file, not in any other file scored for this ayah); for the user to read, not a score",
+       "refs": [],
+       "arabic_quotations": [],
+       "branches": []
+      }
+     },
+     "probes": [
+      {
+       "id": "traveller",
+       "key": "1:1-7",
+       "what": "a traveller / road frame named",
+       "hit": true,
+       "snippet": "endirilen olur. Dua eden \"beni\" demez. Yolu isteyen tek bir yolcu değil, birlikte yürüyen bir topluluktur.  Okunuşta da istey"
+      },
+      {
+       "id": "sirat-swallowing",
+       "key": "1:6",
+       "what": "sirat as the road that swallows",
+       "hit": true,
+       "snippet": "den kaybolma\" diye tarif eder. Bu ailenin en gündelik fiili yutmaktır: {ar:سرطت الطعام إذا بلعته لأنه إذا سرط غاب, tr:sarattü't-t"
+      },
+      {
+       "id": "qawm-well-or-standing-water",
+       "key": "1:6",
+       "what": "q-w-m: the standing water or the well frame",
+       "hit": true,
+       "snippet": "ayakta durmak\", yerinde durmak da olabilir. Sözlüklerde {ar:قام الماء, tr:kâme'l-mâ', gloss:su durdu, yani dondu} ve {ar:قامت الد"
+      }
+     ]
+    },
+    {
+     "label": "E2r2",
+     "file": "/Volumes/OZTURK/_projects/prose_generation/_commentary/review/experiments/e2/1_6/rep2/final.tr.md",
+     "file_sha256": "52465fc175f3a091f0061e55449243246f56bb40d829713f0470929d225be848",
+     "ref": "1:6",
+     "form": {
+      "words": 2526,
+      "paragraphs": 33,
+      "longest_paragraph_words": 122,
+      "mean_paragraph_words": 75.6,
+      "headings": 7,
+      "bellek_marks": 2,
+      "negation": {
+       "neg_e2_count": 18,
+       "neg_e2_per_1000": 7.13,
+       "breakdown": {
+        "değil": 17,
+        "değil,": 10,
+        "demek değildir": 1,
+        "söylemez": 1
+       },
+       "not_only_frames": 1
+      }
+     },
+     "sourcing": {
+      "tags": 42,
+      "tags_checkable": 42,
+      "share_sourced": 1.0,
+      "by_source": {
+       "quran": 18,
+       "dictionary": 24
+      },
+      "levels": {
+       "clitic": 1,
+       "exact": 41
+      },
+      "dictionary_early_phrase": 24,
+      "dictionary_definition_only": 0,
+      "arabic_outside_tags_quotations": 0,
+      "arabic_outside_tags_quotations_sourced": 0,
+      "arabic_outside_tags_root_names": 0,
+      "unsourced_unmarked": 0,
+      "bellek_status": {
+       "attested": 1,
+       "no Arabic item (not checkable by script)": 1
+      },
+      "cited_bound_branches": 6,
+      "bound_citations_with_echo_marker": 2,
+      "bound_citations_without_echo_marker": 4,
+      "bound_citations_extended_marker_only": 0
+     },
+     "reach": {
+      "refs_total": 17,
+      "window": 5,
+      "same_surah_beyond_window": 0,
+      "same_surah": 5,
+      "other_surah": 12,
+      "other_surahs_named": 10,
+      "refs": [
+       "1:2",
+       "1:3",
+       "1:4",
+       "1:5",
+       "1:7",
+       "2:142",
+       "3:51",
+       "6:153",
+       "7:16",
+       "7:17",
+       "11:112",
+       "18:1",
+       "18:2",
+       "36:61",
+       "37:118",
+       "41:30",
+       "48:2"
+      ]
+     },
+     "pooled": {
+      "pool_size": 107,
+      "pool_files": 4,
+      "share_of_pool": 0.551,
+      "refs_share": 0.63,
+      "quotes_share": 0.525
+     },
+     "supply": {
+      "supply_file": "/Volumes/OZTURK/_projects/prose_generation/_commentary/review/e0/supply/out/1_6.md",
+      "supply_est_tokens": 77743,
+      "supply_chars": 149307,
+      "supply_branches": 128,
+      "supply_plain_marked": 0,
+      "dossier_plain_at_focus": 3,
+      "plain_source": "root-dossier (the supply carries no [plain] marks)",
+      "nonplain_branches": 125,
+      "nonplain_used": 13,
+      "share_nonplain_used": 0.104,
+      "nonplain_focus_root_branches": 32,
+      "nonplain_focus_used": 13,
+      "share_nonplain_focus_used": 0.406,
+      "nonplain_used_list": [
+       "ص ر ط B002 [bare]",
+       "ق و م B002 [mixed_non_bare]",
+       "ق و م B003 [collocation]",
+       "ق و م B004 [mixed_non_bare]",
+       "ق و م B005 [collocation]",
+       "ق و م B007 [collocation]",
+       "ق و م B014 [collocation]",
+       "ق و م B015 [non_bare]",
+       "ق و م B016 [collocation]",
+       "ه د ي B002 [mixed_non_bare]",
+       "ه د ي B003 [mixed_non_bare]",
+       "ه د ي B004 [bare]",
+       "ه د ي B010 [bare]"
+      ],
+      "typed_links": 11,
+      "typed_links_used": 7,
+      "share_typed_links_used": 0.636,
+      "typed_link_types": [
+       "Rare-lemma bridges: a word named in a branch text that the Q",
+       "Same surah (1)",
+       "Same-surah occurrences of this ayah's roots"
+      ],
+      "link_refs": 21,
+      "link_refs_cited": 2,
+      "candidate_new_findings": {
+       "note": "used here, in no pooled input (not in the supply, not in any --pool file, not in any other file scored for this ayah); for the user to read, not a score",
+       "refs": [],
+       "arabic_quotations": [
+        {
+         "folded": "من بين ايديهم",
+         "source": "quran"
+        }
+       ],
+       "branches": []
+      }
+     },
+     "probes": [
+      {
+       "id": "traveller",
+       "key": "1:1-7",
+       "what": "a traveller / road frame named",
+       "hit": true,
+       "snippet": "rilen olmuştur. Dua eden \"beni\" demez. Yolu isteyen tek bir yolcu değil, birlikte yürüyen bir topluluktur.  Kısa fiilin ardın"
+      },
+      {
+       "id": "sirat-swallowing",
+       "key": "1:6",
+       "what": "sirat as the road that swallows",
+       "hit": true,
+       "snippet": "den kaybolma\" diye tarif eder. Bu ailenin en gündelik fiili yutmaktır: {ar:سرطت الطعام إذا بلعته لأنه إذا سرط غاب, tr:saratu't-ta"
+      },
+      {
+       "id": "qawm-well-or-standing-water",
+       "key": "1:6",
+       "what": "q-w-m: the standing water or the well frame",
+       "hit": true,
+       "snippet": "yakta durmak, durmak da demektir. Su için söylendiğinde {ar:قام الماء, tr:kâme'l-mâ', gloss:su durdu, yani dondu}, binek için söy"
+      }
+     ]
+    },
+    {
+     "label": "E1r1",
+     "file": "/Volumes/OZTURK/_projects/prose_generation/_commentary/review/experiments/e1/1_6/rep1/1_6.reading.tr.md",
+     "file_sha256": "b066039fd22e6cb4303c1d2a82f32ccf48f579f4acc696d5a2a0358fcadf4f8d",
+     "ref": "1:6",
+     "form": {
+      "words": 1962,
+      "paragraphs": 25,
+      "longest_paragraph_words": 125,
+      "mean_paragraph_words": 77.4,
+      "headings": 6,
+      "bellek_marks": 0,
+      "negation": {
+       "neg_e2_count": 21,
+       "neg_e2_per_1000": 10.7,
+       "breakdown": {
+        "değil": 21,
+        "değil,": 12,
+        "demek değildir": 1
+       },
+       "not_only_frames": 3
+      }
+     },
+     "sourcing": {
+      "tags": 43,
+      "tags_checkable": 43,
+      "share_sourced": 1.0,
+      "by_source": {
+       "quran": 16,
+       "dictionary": 27
+      },
+      "levels": {
+       "clitic": 2,
+       "exact": 41
+      },
+      "dictionary_early_phrase": 27,
+      "dictionary_definition_only": 0,
+      "arabic_outside_tags_quotations": 0,
+      "arabic_outside_tags_quotations_sourced": 0,
+      "arabic_outside_tags_root_names": 0,
+      "unsourced_unmarked": 0,
+      "bellek_status": {},
+      "cited_bound_branches": 2,
+      "bound_citations_with_echo_marker": 0,
+      "bound_citations_without_echo_marker": 2,
+      "bound_citations_extended_marker_only": 0
+     },
+     "reach": {
+      "refs_total": 15,
+      "window": 0,
+      "same_surah_beyond_window": 0,
+      "same_surah": 0,
+      "other_surah": 15,
+      "other_surahs_named": 11,
+      "refs": [
+       "3:51",
+       "6:153",
+       "6:161",
+       "7:16",
+       "7:17",
+       "11:56",
+       "11:112",
+       "19:36",
+       "36:61",
+       "37:23",
+       "37:118",
+       "41:30",
+       "43:64",
+       "48:2",
+       "83:6"
+      ]
+     },
+     "pooled": {
+      "pool_size": 107,
+      "pool_files": 4,
+      "share_of_pool": 0.505,
+      "refs_share": 0.556,
+      "quotes_share": 0.487
+     },
+     "supply": {
+      "supply_file": "/Volumes/OZTURK/_projects/prose_generation/_commentary/review/e0/supply/out/1_6.md",
+      "supply_est_tokens": 77743,
+      "supply_chars": 149307,
+      "supply_branches": 128,
+      "supply_plain_marked": 0,
+      "dossier_plain_at_focus": 3,
+      "plain_source": "root-dossier (the supply carries no [plain] marks)",
+      "nonplain_branches": 125,
+      "nonplain_used": 17,
+      "share_nonplain_used": 0.136,
+      "nonplain_focus_root_branches": 32,
+      "nonplain_focus_used": 11,
+      "share_nonplain_focus_used": 0.344,
+      "nonplain_used_list": [
+       "د ي ن B002 [mixed_non_bare]",
+       "ص ر ط B002 [bare]",
+       "ض ل ل B001 [mixed_non_bare]",
+       "ض ل ل B003 [mixed_non_bare]",
+       "ع ب د B005 [mixed_non_bare]",
+       "ق و م B001 [mixed_non_bare]",
+       "ق و م B002 [mixed_non_bare]",
+       "ق و م B003 [collocation]",
+       "ق و م B013 [bare]",
+       "ق و م B016 [collocation]",
+       "م ل ك B004 [mixed_non_bare]",
+       "ن ع م B002 [mixed_non_bare]",
+       "ه د ي B002 [mixed_non_bare]",
+       "ه د ي B003 [mixed_non_bare]",
+       "ه د ي B004 [bare]",
+       "ه د ي B005 [bare]",
+       "ه د ي B010 [bare]"
+      ],
+      "typed_links": 11,
+      "typed_links_used": 0,
+      "share_typed_links_used": 0.0,
+      "typed_link_types": [
+       "Rare-lemma bridges: a word named in a branch text that the Q",
+       "Same surah (1)",
+       "Same-surah occurrences of this ayah's roots"
+      ],
+      "link_refs": 21,
+      "link_refs_cited": 0,
+      "candidate_new_findings": {
+       "note": "used here, in no pooled input (not in the supply, not in any --pool file, not in any other file scored for this ayah); for the user to read, not a score",
+       "refs": [
+        {
+         "ref": "11:56",
+         "sentence": "Şüphesiz Rabbim dosdoğru bir yol üzerindedir\" (11:56)."
+        },
+        {
+         "ref": "19:36",
+         "sentence": "Îsâ'nın ağzından birkaç yerde aynı söz duyulur: \"Allah benim de Rabbim, sizin de Rabbinizdir; O'na kulluk edin; bu dosdoğru bir yoldur\" (3:51, 19:36, 43:64)."
+        },
+        {
+         "ref": "37:23",
+         "sentence": "Saffât suresinde zalimler için meleklere \"onları cehennemin yoluna götürün\" denir (37:23)."
+        },
+        {
+         "ref": "43:64",
+         "sentence": "Îsâ'nın ağzından birkaç yerde aynı söz duyulur: \"Allah benim de Rabbim, sizin de Rabbinizdir; O'na kulluk edin; bu dosdoğru bir yoldur\" (3:51, 19:36, 43:64)."
+        },
+        {
+         "ref": "83:6",
+         "sentence": "Başka bir sure o günü şöyle tarif eder: \"İnsanların âlemlerin Rabbi için ayağa kalkacakları gün\" (83:6)."
+        }
+       ],
+       "arabic_quotations": [
+        {
+         "folded": "انقاد",
+         "source": "dictionary"
+        },
+        {
+         "folded": "قامت الدابه وقفت",
+         "source": "dictionary"
+        },
+        {
+         "folded": "قومت الشي فهو قويم اي مستقيم",
+         "source": "dictionary"
+        },
+        {
+         "folded": "هوادي",
+         "source": "dictionary"
+        }
+       ],
+       "branches": [
+        "ء ل ه B002 [mixed_non_bare] (root_000047/B002)",
+        "د ي ن B001 [mixed_non_bare] (root_000504/B001)"
+       ]
+      }
+     },
+     "probes": [
+      {
+       "id": "traveller",
+       "key": "1:1-7",
+       "what": "a traveller / road frame named",
+       "hit": true,
+       "snippet": "cüyle bulduğu bir yol değil, ona gönderilen bir yoldur.  ## Yolcusunu içine alan yol  Arapçada yol için başka kelimeler de vardır"
+      },
+      {
+       "id": "sirat-swallowing",
+       "key": "1:6",
+       "what": "sirat as the road that swallows",
+       "hit": true,
+       "snippet": "kelimesinde tersine dönmüş olarak geri gelir.  Aynı kök, soyut \"doğruyu gösterme\" anlamının altında çok somut bir konum da"
+      },
+      {
+       "id": "qawm-well-or-standing-water",
+       "key": "1:6",
+       "what": "q-w-m: the standing water or the well frame",
+       "hit": true,
+       "snippet": "tesir, gloss:bineği yorulup tükendi ve artık yürümedi}, {ar:قام الماء جمد, tr:kâme'l-mâ': cemede, gloss:su dondu}. Demek ki \"ayak"
+      }
+     ]
+    },
+    {
+     "label": "v15",
+     "file": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v15/out/s001/1_6/commentary.tr.md",
+     "file_sha256": "c74d18365d53780e56a26a094d0f85196f805d2ff74385098c5385611205bd35",
+     "ref": "1:6",
+     "form": {
+      "words": 767,
+      "paragraphs": 9,
+      "longest_paragraph_words": 120,
+      "mean_paragraph_words": 85.2,
+      "headings": 0,
+      "bellek_marks": 0,
+      "negation": {
+       "neg_e2_count": 2,
+       "neg_e2_per_1000": 2.61,
+       "breakdown": {
+        "değil": 2
+       },
+       "not_only_frames": 0
+      }
+     },
+     "sourcing": {
+      "tags": 19,
+      "tags_checkable": 19,
+      "share_sourced": 0.895,
+      "by_source": {
+       "quran": 9,
+       "dictionary": 8,
+       "unsourced": 2
+      },
+      "levels": {
+       "clitic": 1,
+       "exact": 16
+      },
+      "dictionary_early_phrase": 8,
+      "dictionary_definition_only": 0,
+      "arabic_outside_tags_quotations": 0,
+      "arabic_outside_tags_quotations_sourced": 0,
+      "arabic_outside_tags_root_names": 0,
+      "unsourced_unmarked": 2,
+      "bellek_status": {},
+      "cited_bound_branches": 0,
+      "bound_citations_with_echo_marker": 0,
+      "bound_citations_without_echo_marker": 0,
+      "bound_citations_extended_marker_only": 0
+     },
+     "reach": {
+      "refs_total": 5,
+      "window": 1,
+      "same_surah_beyond_window": 0,
+      "same_surah": 1,
+      "other_surah": 4,
+      "other_surahs_named": 4,
+      "refs": [
+       "1:5",
+       "17:35",
+       "47:17",
+       "49:17",
+       "67:22"
+      ]
+     },
+     "pooled": {
+      "pool_size": 107,
+      "pool_files": 4,
+      "share_of_pool": 0.224,
+      "refs_share": 0.185,
+      "quotes_share": 0.237
+     },
+     "supply": {
+      "supply_file": "/Volumes/OZTURK/_projects/prose_generation/_commentary/review/e0/supply/out/1_6.md",
+      "supply_est_tokens": 77743,
+      "supply_chars": 149307,
+      "supply_branches": 128,
+      "supply_plain_marked": 0,
+      "dossier_plain_at_focus": 3,
+      "plain_source": "root-dossier (the supply carries no [plain] marks)",
+      "nonplain_branches": 125,
+      "nonplain_used": 6,
+      "share_nonplain_used": 0.048,
+      "nonplain_focus_root_branches": 32,
+      "nonplain_focus_used": 6,
+      "share_nonplain_focus_used": 0.188,
+      "nonplain_used_list": [
+       "ص ر ط B002 [bare]",
+       "ص ر ط B003 [bare]",
+       "ه د ي B002 [mixed_non_bare]",
+       "ه د ي B003 [mixed_non_bare]",
+       "ه د ي B004 [bare]",
+       "ه د ي B008 [mixed_non_bare]"
+      ],
+      "typed_links": 11,
+      "typed_links_used": 0,
+      "share_typed_links_used": 0.0,
+      "typed_link_types": [
+       "Rare-lemma bridges: a word named in a branch text that the Q",
+       "Same surah (1)",
+       "Same-surah occurrences of this ayah's roots"
+      ],
+      "link_refs": 21,
+      "link_refs_cited": 0,
+      "candidate_new_findings": {
+       "note": "used here, in no pooled input (not in the supply, not in any --pool file, not in any other file scored for this ayah); for the user to read, not a score",
+       "refs": [
+        {
+         "ref": "17:35",
+         "sentence": "Aynı sıfatı teraziye de verir: el-kıstâsu'l-müstakîm, bir yana yatmayan doğru terazi (17:35)."
+        },
+        {
+         "ref": "47:17",
+         "sentence": "Kur'an da yola girmiş olanların hidayetinin artırıldığını söyler (47:17)."
+        },
+        {
+         "ref": "49:17",
+         "sentence": "Kur'an da imana yöneltilmeyi bir lütuf olarak anar (49:17)."
+        }
+       ],
+       "arabic_quotations": [
+        {
+         "folded": "الاستقامه في الطريق الذي يكون علي خط مستو",
+         "source": "dictionary"
+        },
+        {
+         "folded": "السراط الطريق المستسهل",
+         "source": "unsourced"
+        },
+        {
+         "folded": "الهدايه دلاله بلطف",
+         "source": "dictionary"
+        },
+        {
+         "folded": "الهديه ما اهديت من لطف الي ذي موده",
+         "source": "dictionary"
+        }
+       ],
+       "branches": []
+      }
+     },
+     "probes": [
+      {
+       "id": "traveller",
+       "key": "1:1-7",
+       "what": "a traveller / road frame named",
+       "hit": true,
+       "snippet": "{{ar:طريق يسترط سالكه}} (tarîkun yesteritu sâlikehû), yani yolcusunu yutan yol der, ve onu {{ar:السراط الطريق المستسهل}} (es-sir"
+      },
+      {
+       "id": "sirat-swallowing",
+       "key": "1:6",
+       "what": "sirat as the road that swallows",
+       "hit": true,
+       "snippet": "fiyle {{ar:السِّرَاطَ}} (es-sirât) okur. Bu okuyuşta kelime yutmak anlamındaki köke açılır: {{ar:سرطت الطعام إذا بلعته}} (seri"
+      },
+      {
+       "id": "qawm-well-or-standing-water",
+       "key": "1:6",
+       "what": "q-w-m: the standing water or the well frame",
+       "hit": true,
+       "snippet": "iri onu sin harfiyle {{ar:السِّرَاطَ}} (es-sirât) okur. Bu okuyuşta kelime yutmak anlamındaki köke açılır: {{ar:سرطت الطعام إذا"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

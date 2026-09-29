@@ -1,0 +1,3372 @@
+{
+ "record": "E0 check.py verification record (for the user and the scorecard; never a model input)",
+ "file": "/Volumes/OZTURK/_projects/prose_generation/_commentary/review/experiments/e2/4_34/rep2/final.tr.md",
+ "file_sha256": "02cc0f771205758358a9c865ae14d06f7436616b838b60df6d2a5cf71b0e5504",
+ "ref": "4:34",
+ "tool_sha256": {
+  "check.py": "0e1781015943b467caaae706ab0dea67490c046db0714a39217a9ef0b986c037",
+  "common.py": "a694d2f583fec2dbb2c42e2f9ecc4b80663de2923e65e2e38fba9c451e58f29d"
+ },
+ "index_signature": {
+  "version": 4,
+  "quran": [
+   1396724,
+   1784646236.0
+  ],
+  "tr_entries": [
+   1704,
+   198596704,
+   1790480242.5
+  ],
+  "root_packets": [
+   1679,
+   707294008,
+   1785174411.9
+  ],
+  "majaz": [
+   9216000,
+   1781101281.7
+  ],
+  "qiraat": [
+   833825,
+   1779761837.0
+  ],
+  "activation_map": [
+   2789461,
+   1790487877.7
+  ],
+  "furuq": [
+   19782184,
+   1784717571.0
+  ]
+ },
+ "summary": {
+  "words": 4795,
+  "tags": 94,
+  "tags_checkable": 92,
+  "tags_sourced": 92,
+  "share_sourced": 1.0,
+  "by_source": {
+   "quran": 65,
+   "too_short": 2,
+   "dictionary": 27
+  },
+  "levels": {
+   "exact": 92
+  },
+  "dictionary_early_phrase": 27,
+  "dictionary_definition_only": 0,
+  "arabic_outside_tags": 18,
+  "arabic_outside_tags_quotations": 0,
+  "arabic_outside_tags_quotations_sourced": 0,
+  "arabic_outside_tags_root_names": 18,
+  "arabic_outside_tags_by_context": {
+   "bare": 16,
+   "parentheses": 1,
+   "quotation marks": 1
+  },
+  "bellek_marks": 1,
+  "bellek_status": {
+   "no Arabic item (not checkable by script)": 1
+  },
+  "unsourced_unmarked": 0,
+  "cited_branches": 22,
+  "cited_bound_branches": 2,
+  "bound_citations_with_echo_marker": 0,
+  "bound_citations_without_echo_marker": 2,
+  "bound_citations_extended_marker_only": 1,
+  "negation": {
+   "neg_e2_count": 27,
+   "neg_e2_per_1000": 5.63,
+   "breakdown": {
+    "değil": 26,
+    "değil,": 11,
+    "demek değildir": 1,
+    "söylemez": 1,
+    "taşımaz": 2
+   },
+   "not_only_frames": 2
+  }
+ },
+ "quotations": [
+  {
+   "n": 1,
+   "line": 5,
+   "quote": "بِمَا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:34",
+     "4:47",
+     "4:60",
+     "4:62",
+     "4:88",
+     "4:94"
+    ],
+    "n_ayat": 13,
+    "where": "focus"
+   },
+   "also": {
+    "dictionary": [
+     "س ب ل B003 (root_000672/B003) source_phrase_ar [tahdhib]",
+     "ط و ع B005 (root_000956/B005) source_phrase_ar [mufradat]",
+     "غ ي ب B004 (root_001117/B004) source_phrase_ar",
+     "ب ع ض - (root_000133/-) lexical_source_phrase [maqayis;ayn;tahdhib]"
+    ],
+    "early_entry": [
+     "ء ب ل tahdhib",
+     "ء ت ي sihah",
+     "ء ث م ayn",
+     "ء ث م mufradat",
+     "ء ج ر mufradat",
+     "ء خ ذ ayn",
+     "ء خ ر ayn",
+     "ء خ ر mufradat"
+    ],
+    "majaz": [
+     10,
+     39,
+     68,
+     77
+    ],
+    "qiraat": [
+     "42:30:6"
+    ]
+   },
+   "sentence_index": 12,
+   "bellek_marked": false
+  },
+  {
+   "n": 2,
+   "line": 5,
+   "quote": "فَ",
+   "source": "too_short",
+   "level": null,
+   "detail": {},
+   "also": {},
+   "sentence_index": 13,
+   "bellek_marked": false
+  },
+  {
+   "n": 3,
+   "line": 9,
+   "quote": "ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:34"
+    ],
+    "n_ayat": 1,
+    "where": "focus"
+   },
+   "also": {},
+   "sentence_index": 22,
+   "bellek_marked": false
+  },
+  {
+   "n": 4,
+   "line": 13,
+   "quote": "من يسوس أمرهم",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001273/B004",
+      "root": "ق و م",
+      "branch": "B004",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001273/B004",
+      "root": "ق و م",
+      "branch": "B004",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ق و م ayn"
+    ]
+   },
+   "sentence_index": 30,
+   "bellek_marked": false
+  },
+  {
+   "n": 5,
+   "line": 13,
+   "quote": "قوام الأمر نظامه وعماده",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001273/B009",
+      "root": "ق و م",
+      "branch": "B009",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001273/B009",
+      "root": "ق و م",
+      "branch": "B009",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {},
+   "sentence_index": 32,
+   "bellek_marked": false
+  },
+  {
+   "n": 6,
+   "line": 13,
+   "quote": "القوام من العيش ما يقيمك ويغنيك",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001273/B009",
+      "root": "ق و م",
+      "branch": "B009",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001273/B009",
+      "root": "ق و م",
+      "branch": "B009",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ق و م ayn"
+    ]
+   },
+   "sentence_index": 33,
+   "bellek_marked": false
+  },
+  {
+   "n": 7,
+   "line": 13,
+   "quote": "عَلَى",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:34",
+     "4:30",
+     "4:32",
+     "4:33",
+     "4:41",
+     "4:27"
+    ],
+    "n_ayat": 58,
+    "where": "focus"
+   },
+   "also": {
+    "dictionary": [
+     "ء ل ه B001 (root_000047/B001) source_phrase_ar [mufradat]",
+     "ب غ ي B001 (root_000138/B001) source_phrase_ar [maqayis]",
+     "ب غ ي B002 (root_000138/B002) source_phrase_ar [mufradat]",
+     "ب غ ي B003 (root_000138/B003) source_phrase_ar [maqayis]"
+    ],
+    "early_entry": [
+     "ء ب ب jamhara",
+     "ء ب ب tahdhib",
+     "ء ب د maqayis",
+     "ء ب د mufradat",
+     "ء ب د sihah",
+     "ء ب د tahdhib",
+     "ء ب ق maqayis",
+     "ء ب ق tahdhib"
+    ],
+    "majaz": [
+     1,
+     3,
+     4,
+     5
+    ],
+    "qiraat": [
+     "15:41:4",
+     "7:105:2"
+    ]
+   },
+   "sentence_index": 35,
+   "bellek_marked": false
+  },
+  {
+   "n": 8,
+   "line": 15,
+   "quote": "أَمْوَٰلَكُمُ ٱلَّتِى جَعَلَ ٱللَّهُ لَكُمْ قِيَٰمًۭا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:5"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {},
+   "sentence_index": 39,
+   "bellek_marked": false
+  },
+  {
+   "n": 9,
+   "line": 15,
+   "quote": "وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:34"
+    ],
+    "n_ayat": 1,
+    "where": "focus"
+   },
+   "also": {},
+   "sentence_index": 42,
+   "bellek_marked": false
+  },
+  {
+   "n": 10,
+   "line": 19,
+   "quote": "النَّفَقَة لأنها تمضي لوجهها",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001537/B002",
+      "root": "ن ف ق",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis",
+       "sihah",
+       "tahdhib",
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001537/B002",
+      "root": "ن ف ق",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ن غ ض maqayis",
+     "ن ف ق maqayis"
+    ]
+   },
+   "sentence_index": 52,
+   "bellek_marked": false
+  },
+  {
+   "n": 11,
+   "line": 19,
+   "quote": "مِنْ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:34",
+     "4:32",
+     "4:35",
+     "4:36",
+     "4:37",
+     "4:40"
+    ],
+    "n_ayat": 121,
+    "where": "focus"
+   },
+   "also": {
+    "dictionary": [
+     "ء ل ه B001 (root_000047/B001) source_phrase_ar [tahdhib]",
+     "ب ع ض B002 (root_000133/B002) source_phrase_ar [mufradat]",
+     "ب غ ي B002 (root_000138/B002) source_phrase_ar [sihah]",
+     "ب غ ي B003 (root_000138/B003) source_phrase_ar [maqayis]"
+    ],
+    "early_entry": [
+     "ء ب ب jamhara",
+     "ء ب ب maqayis",
+     "ء ب ب mufradat",
+     "ء ب د maqayis",
+     "ء ب د mufradat",
+     "ء ب د sihah",
+     "ء ب د tahdhib",
+     "ء ب ق ayn"
+    ],
+    "majaz": [
+     1,
+     3,
+     4,
+     5
+    ]
+   },
+   "sentence_index": 54,
+   "bellek_marked": false
+  },
+  {
+   "n": 12,
+   "line": 21,
+   "quote": "فَلَا تَأْخُذُوا۟ مِنْهُ شَيْـًٔا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:20"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {},
+   "sentence_index": 56,
+   "bellek_marked": false
+  },
+  {
+   "n": 13,
+   "line": 21,
+   "quote": "وَلَا تَعْضُلُوهُنَّ لِتَذْهَبُوا۟ بِبَعْضِ مَآ ءَاتَيْتُمُوهُنَّ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:19"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {
+    "early_entry": [
+     "ذ ن ب mufradat",
+     "ع ض ل tahdhib"
+    ]
+   },
+   "sentence_index": 57,
+   "bellek_marked": false
+  },
+  {
+   "n": 14,
+   "line": 23,
+   "quote": "كُونُوا۟ قَوَّٰمِينَ بِٱلْقِسْطِ شُهَدَآءَ لِلَّهِ وَلَوْ عَلَىٰٓ أَنفُسِكُمْ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:135"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {},
+   "sentence_index": 60,
+   "bellek_marked": false
+  },
+  {
+   "n": 15,
+   "line": 23,
+   "quote": "وَأَن تَقُومُوا۟ لِلْيَتَٰمَىٰ بِٱلْقِسْطِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:127"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {},
+   "sentence_index": 63,
+   "bellek_marked": false
+  },
+  {
+   "n": 16,
+   "line": 25,
+   "quote": "فلان قائم على رجل إذا جد في أمر حزبه",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000546/B019",
+      "root": "ر ج ل",
+      "branch": "B019",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "collocation",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000546/B019",
+      "root": "ر ج ل",
+      "branch": "B019",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "collocation",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ر ج ل ayn"
+    ]
+   },
+   "sentence_index": 66,
+   "bellek_marked": false
+  },
+  {
+   "n": 17,
+   "line": 25,
+   "quote": "وَٱلْمُسْتَضْعَفِينَ مِنَ ٱلرِّجَالِ وَٱلنِّسَآءِ وَٱلْوِلْدَٰنِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:75"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {
+    "early_entry": [
+     "ض ع ف mufradat",
+     "ه د ي mufradat"
+    ]
+   },
+   "sentence_index": 71,
+   "bellek_marked": false
+  },
+  {
+   "n": 18,
+   "line": 29,
+   "quote": "بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:34"
+    ],
+    "n_ayat": 1,
+    "where": "focus"
+   },
+   "also": {
+    "early_entry": [
+     "ف ض ل mufradat",
+     "ق و م mufradat"
+    ]
+   },
+   "sentence_index": 75,
+   "bellek_marked": false
+  },
+  {
+   "n": 19,
+   "line": 29,
+   "quote": "الفضل الزيادة",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001163/B001",
+      "root": "ف ض ل",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001163/B001",
+      "root": "ف ض ل",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001163/B001",
+      "root": "ف ض ل",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 3
+   },
+   "also": {
+    "early_entry": [
+     "ف ض ل maqayis",
+     "ف ض ل mufradat"
+    ]
+   },
+   "sentence_index": 77,
+   "bellek_marked": false
+  },
+  {
+   "n": 20,
+   "line": 31,
+   "quote": "فَضَّلَ ٱللَّهُ ٱلْمُجَٰهِدِينَ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ عَلَى ٱلْقَٰعِدِينَ دَرَجَةًۭ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:95"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {},
+   "sentence_index": 89,
+   "bellek_marked": false
+  },
+  {
+   "n": 21,
+   "line": 33,
+   "quote": "وَلَا تَتَمَنَّوْا۟ مَا فَضَّلَ ٱللَّهُ بِهِۦ بَعْضَكُمْ عَلَىٰ بَعْضٍۢ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:32"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {},
+   "sentence_index": 93,
+   "bellek_marked": false
+  },
+  {
+   "n": 22,
+   "line": 33,
+   "quote": "لِّلرِّجَالِ نَصِيبٌۭ مِّمَّا ٱكْتَسَبُوا۟",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:32"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {
+    "early_entry": [
+     "ك س ب mufradat"
+    ]
+   },
+   "sentence_index": 94,
+   "bellek_marked": false
+  },
+  {
+   "n": 23,
+   "line": 33,
+   "quote": "وَلِلنِّسَآءِ نَصِيبٌۭ مِّمَّا ٱكْتَسَبْنَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:32"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {
+    "early_entry": [
+     "ك س ب mufradat"
+    ]
+   },
+   "sentence_index": 94,
+   "bellek_marked": false
+  },
+  {
+   "n": 24,
+   "line": 33,
+   "quote": "وَسْـَٔلُوا۟ ٱللَّهَ مِن فَضْلِهِۦٓ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:32"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {},
+   "sentence_index": 95,
+   "bellek_marked": false
+  },
+  {
+   "n": 25,
+   "line": 35,
+   "quote": "بعض الشيء جزء منه",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000133/B001",
+      "root": "ب ع ض",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000133/B001",
+      "root": "ب ع ض",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ب ع ض mufradat"
+    ]
+   },
+   "sentence_index": 100,
+   "bellek_marked": false
+  },
+  {
+   "n": 26,
+   "line": 37,
+   "quote": "وَقَدْ أَفْضَىٰ بَعْضُكُمْ إِلَىٰ بَعْضٍۢ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:21"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {
+    "early_entry": [
+     "ف ض و mufradat",
+     "ف ض و tahdhib"
+    ]
+   },
+   "sentence_index": 104,
+   "bellek_marked": false
+  },
+  {
+   "n": 27,
+   "line": 38,
+   "quote": "بَعْضُكُم مِّنۢ بَعْضٍۢ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:25"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {
+    "dictionary": [
+     "ق ط ع B007 (root_001240/B007) source_phrase_ar [tahdhib]"
+    ],
+    "early_entry": [
+     "ط ف ف tahdhib",
+     "ق ط ع tahdhib"
+    ]
+   },
+   "sentence_index": 109,
+   "bellek_marked": false
+  },
+  {
+   "n": 28,
+   "line": 38,
+   "quote": "خَلَقَكُم مِّن نَّفْسٍۢ وَٰحِدَةٍۢ وَخَلَقَ مِنْهَا زَوْجَهَا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:1"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {},
+   "sentence_index": 110,
+   "bellek_marked": false
+  },
+  {
+   "n": 29,
+   "line": 43,
+   "quote": "إِنَّ ٱللَّهَ لَا يُحِبُّ مَن كَانَ مُخْتَالًۭا فَخُورًا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:36"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {},
+   "sentence_index": 116,
+   "bellek_marked": false
+  },
+  {
+   "n": 30,
+   "line": 43,
+   "quote": "وَيَكْتُمُونَ مَآ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضْلِهِۦ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:37"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {
+    "early_entry": [
+     "ك ت م mufradat"
+    ]
+   },
+   "sentence_index": 118,
+   "bellek_marked": false
+  },
+  {
+   "n": 31,
+   "line": 43,
+   "quote": "يُنفِقُونَ أَمْوَٰلَهُمْ رِئَآءَ ٱلنَّاسِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:38"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {},
+   "sentence_index": 119,
+   "bellek_marked": false
+  },
+  {
+   "n": 32,
+   "line": 43,
+   "quote": "وَأَنفَقُوا۟ مِمَّا رَزَقَهُمُ ٱللَّهُ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:39"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {
+    "majaz": [
+     420
+    ]
+   },
+   "sentence_index": 120,
+   "bellek_marked": false
+  },
+  {
+   "n": 33,
+   "line": 49,
+   "quote": "فَٱلصَّٰلِحَٰتُ قَٰنِتَٰتٌ حَٰفِظَٰتٌۭ لِّلْغَيْبِ بِمَا حَفِظَ ٱللَّهُ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:34"
+    ],
+    "n_ayat": 1,
+    "where": "focus"
+   },
+   "also": {},
+   "sentence_index": 128,
+   "bellek_marked": false
+  },
+  {
+   "n": 34,
+   "line": 53,
+   "quote": "أصل صحيح يدل على طاعة وخير في دين",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001260/B001",
+      "root": "ق ن ت",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {
+    "early_entry": [
+     "ق ن ت maqayis"
+    ]
+   },
+   "sentence_index": 135,
+   "bellek_marked": false
+  },
+  {
+   "n": 35,
+   "line": 53,
+   "quote": "كل استقامة في طريق الدين",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001260/B001",
+      "root": "ق ن ت",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001260/B001",
+      "root": "ق ن ت",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ق ن ت maqayis"
+    ]
+   },
+   "sentence_index": 136,
+   "bellek_marked": false
+  },
+  {
+   "n": 36,
+   "line": 55,
+   "quote": "حَٰفِظُوا۟ عَلَى ٱلصَّلَوَٰتِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "2:238"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 141,
+   "bellek_marked": false
+  },
+  {
+   "n": 37,
+   "line": 55,
+   "quote": "وَقُومُوا۟ لِلَّهِ قَٰنِتِينَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "2:238"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "dictionary": [
+     "ق ن ت B004 (root_001260/B004) lexical_source_phrase [tahdhib]"
+    ],
+    "early_entry": [
+     "ق ن ت ayn",
+     "ق ن ت jamhara",
+     "ق ن ت maqayis",
+     "ق ن ت mufradat",
+     "ق ن ت tahdhib"
+    ]
+   },
+   "sentence_index": 141,
+   "bellek_marked": false
+  },
+  {
+   "n": 38,
+   "line": 57,
+   "quote": "أَطَعْنَكُمْ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:34"
+    ],
+    "n_ayat": 1,
+    "where": "focus"
+   },
+   "also": {},
+   "sentence_index": 147,
+   "bellek_marked": false
+  },
+  {
+   "n": 39,
+   "line": 57,
+   "quote": "وَٱلْقَٰنِتِينَ وَٱلْقَٰنِتَٰتِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "33:35"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ق ن ت jamhara",
+     "ق ن ت mufradat",
+     "ق ن ت sihah"
+    ]
+   },
+   "sentence_index": 150,
+   "bellek_marked": false
+  },
+  {
+   "n": 40,
+   "line": 57,
+   "quote": "وَٱلْحَٰفِظِينَ فُرُوجَهُمْ وَٱلْحَٰفِظَٰتِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "33:35"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ح ف ظ mufradat"
+    ]
+   },
+   "sentence_index": 150,
+   "bellek_marked": false
+  },
+  {
+   "n": 41,
+   "line": 59,
+   "quote": "حافظت على الرجل محافظة وحفاظا إذا حفظته في مغيبه",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000342/B006",
+      "root": "ح ف ظ",
+      "branch": "B006",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "jamhara"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000342/B006",
+      "root": "ح ف ظ",
+      "branch": "B006",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "jamhara"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ح ف ظ jamhara"
+    ]
+   },
+   "sentence_index": 154,
+   "bellek_marked": false
+  },
+  {
+   "n": 42,
+   "line": 59,
+   "quote": "حافظات للغيب أي لا يفعلن في غيبة الزوج ما يكرهه الزوج",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001117/B005",
+      "root": "غ ي ب",
+      "branch": "B005",
+      "field": "source_phrase_ar",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001117/B005",
+      "root": "غ ي ب",
+      "branch": "B005",
+      "field": "lexical_source_phrase",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {},
+   "sentence_index": 156,
+   "bellek_marked": false
+  },
+  {
+   "n": 43,
+   "line": 61,
+   "quote": "وَيَقُولُونَ طَاعَةٌۭ فَإِذَا بَرَزُوا۟ مِنْ عِندِكَ بَيَّتَ طَآئِفَةٌۭ مِّنْهُمْ غَيْرَ ٱلَّذِى تَقُولُ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:81"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {},
+   "sentence_index": 160,
+   "bellek_marked": false
+  },
+  {
+   "n": 44,
+   "line": 63,
+   "quote": "فَمَآ أَرْسَلْنَٰكَ عَلَيْهِمْ حَفِيظًۭا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:80"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {
+    "majaz": [
+     455
+    ]
+   },
+   "sentence_index": 169,
+   "bellek_marked": false
+  },
+  {
+   "n": 45,
+   "line": 65,
+   "quote": "بِمَا حَفِظَ ٱللَّهُ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:34"
+    ],
+    "n_ayat": 1,
+    "where": "focus"
+   },
+   "also": {
+    "early_entry": [
+     "ح ف ظ mufradat",
+     "غ ي ب mufradat"
+    ]
+   },
+   "sentence_index": 170,
+   "bellek_marked": false
+  },
+  {
+   "n": 46,
+   "line": 71,
+   "quote": "وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:34"
+    ],
+    "n_ayat": 1,
+    "where": "focus"
+   },
+   "also": {},
+   "sentence_index": 181,
+   "bellek_marked": false
+  },
+  {
+   "n": 47,
+   "line": 71,
+   "quote": "الخوف توقع مكروه عن أمارة مظنونة أو معلومة",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000447/B001",
+      "root": "خ و ف",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000447/B001",
+      "root": "خ و ف",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "خ و ف mufradat"
+    ]
+   },
+   "sentence_index": 186,
+   "bellek_marked": false
+  },
+  {
+   "n": 48,
+   "line": 73,
+   "quote": "وَإِنْ خِفْتُمْ أَلَّا تُقْسِطُوا۟ فِى ٱلْيَتَٰمَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:3"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {},
+   "sentence_index": 188,
+   "bellek_marked": false
+  },
+  {
+   "n": 49,
+   "line": 75,
+   "quote": "النشز المكان العالي المرتفع",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001504/B001",
+      "root": "ن ش ز",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001504/B001",
+      "root": "ن ش ز",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ن ش ز maqayis"
+    ]
+   },
+   "sentence_index": 190,
+   "bellek_marked": false
+  },
+  {
+   "n": 50,
+   "line": 75,
+   "quote": "وَإِذَا قِيلَ ٱنشُزُوا۟ فَٱنشُزُوا۟",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "58:11"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "dictionary": [
+     "ن ش ز B002 (root_001504/B002) lexical_source_phrase [tahdhib]"
+    ],
+    "early_entry": [
+     "ن ش ز mufradat",
+     "ن ش ز sihah"
+    ]
+   },
+   "sentence_index": 193,
+   "bellek_marked": false
+  },
+  {
+   "n": 51,
+   "line": 75,
+   "quote": "وَٱنظُرْ إِلَى ٱلْعِظَامِ كَيْفَ نُنشِزُهَا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "2:259"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ن ش ر tahdhib",
+     "ن ش ز mufradat"
+    ]
+   },
+   "sentence_index": 194,
+   "bellek_marked": false
+  },
+  {
+   "n": 52,
+   "line": 77,
+   "quote": "النشوز يكون من الزوجين",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001504/B004",
+      "root": "ن ش ز",
+      "branch": "B004",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001504/B004",
+      "root": "ن ش ز",
+      "branch": "B004",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ن ش ز tahdhib"
+    ]
+   },
+   "sentence_index": 204,
+   "bellek_marked": false
+  },
+  {
+   "n": 53,
+   "line": 77,
+   "quote": "نشز بعلها جفاها وضربها",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001504/B004",
+      "root": "ن ش ز",
+      "branch": "B004",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001504/B004",
+      "root": "ن ش ز",
+      "branch": "B004",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ن ش ز maqayis"
+    ]
+   },
+   "sentence_index": 205,
+   "bellek_marked": false
+  },
+  {
+   "n": 54,
+   "line": 77,
+   "quote": "وَإِنِ ٱمْرَأَةٌ خَافَتْ مِنۢ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًۭا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:128"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {},
+   "sentence_index": 206,
+   "bellek_marked": false
+  },
+  {
+   "n": 55,
+   "line": 83,
+   "quote": "وَ",
+   "source": "too_short",
+   "level": null,
+   "detail": {},
+   "also": {},
+   "sentence_index": 214,
+   "bellek_marked": false
+  },
+  {
+   "n": 56,
+   "line": 85,
+   "quote": "فَعِظُوهُنَّ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:34"
+    ],
+    "n_ayat": 1,
+    "where": "focus"
+   },
+   "also": {
+    "early_entry": [
+     "ن ش ز tahdhib"
+    ]
+   },
+   "sentence_index": 217,
+   "bellek_marked": false
+  },
+  {
+   "n": 57,
+   "line": 85,
+   "quote": "التذكير بالخير وما يرق له قلبه",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001663/B001",
+      "root": "و ع ظ",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis",
+       "ayn",
+       "tahdhib",
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {
+    "early_entry": [
+     "و ع ظ maqayis"
+    ]
+   },
+   "sentence_index": 218,
+   "bellek_marked": false
+  },
+  {
+   "n": 58,
+   "line": 85,
+   "quote": "إِنَّ ٱللَّهَ نِعِمَّا يَعِظُكُم بِهِۦٓ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:58"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {
+    "early_entry": [
+     "ن ع م tahdhib"
+    ]
+   },
+   "sentence_index": 221,
+   "bellek_marked": false
+  },
+  {
+   "n": 59,
+   "line": 85,
+   "quote": "فَأَعْرِضْ عَنْهُمْ وَعِظْهُمْ وَقُل لَّهُمْ فِىٓ أَنفُسِهِمْ قَوْلًۢا بَلِيغًۭا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:63"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {},
+   "sentence_index": 222,
+   "bellek_marked": false
+  },
+  {
+   "n": 60,
+   "line": 87,
+   "quote": "وَٱهْجُرُوهُنَّ فِى ٱلْمَضَاجِعِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:34"
+    ],
+    "n_ayat": 1,
+    "where": "focus"
+   },
+   "also": {
+    "early_entry": [
+     "ه ج ر mufradat"
+    ]
+   },
+   "sentence_index": 225,
+   "bellek_marked": false
+  },
+  {
+   "n": 61,
+   "line": 87,
+   "quote": "الهجر ضد الوصل",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001578/B001",
+      "root": "ه ج ر",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis",
+       "jamhara",
+       "sihah"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001578/B001",
+      "root": "ه ج ر",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis",
+       "jamhara",
+       "sihah"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ه ج ر jamhara",
+     "ه ج ر maqayis",
+     "ه ج ر sihah"
+    ]
+   },
+   "sentence_index": 226,
+   "bellek_marked": false
+  },
+  {
+   "n": 62,
+   "line": 87,
+   "quote": "مفارقة الإنسان غيره إما بالبدن أو باللسان أو بالقلب",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001578/B001",
+      "root": "ه ج ر",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001578/B001",
+      "root": "ه ج ر",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ه ج ر mufradat"
+    ]
+   },
+   "sentence_index": 227,
+   "bellek_marked": false
+  },
+  {
+   "n": 63,
+   "line": 89,
+   "quote": "أَلَمْ تَكُنْ أَرْضُ ٱللَّهِ وَٰسِعَةًۭ فَتُهَاجِرُوا۟ فِيهَا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:97"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {},
+   "sentence_index": 229,
+   "bellek_marked": false
+  },
+  {
+   "n": 64,
+   "line": 89,
+   "quote": "يَجِدْ فِى ٱلْأَرْضِ مُرَٰغَمًۭا كَثِيرًۭا وَسَعَةًۭ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:100"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {
+    "early_entry": [
+     "ر غ م maqayis",
+     "ه ج ر tahdhib"
+    ],
+    "majaz": [
+     470
+    ]
+   },
+   "sentence_index": 230,
+   "bellek_marked": false
+  },
+  {
+   "n": 65,
+   "line": 91,
+   "quote": "ضجيعك الذي يضاجعك في فراشك",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000902/B002",
+      "root": "ض ج ع",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000902/B002",
+      "root": "ض ج ع",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ض ج ع ayn"
+    ]
+   },
+   "sentence_index": 233,
+   "bellek_marked": false
+  },
+  {
+   "n": 66,
+   "line": 93,
+   "quote": "فَلَا تَمِيلُوا۟ كُلَّ ٱلْمَيْلِ فَتَذَرُوهَا كَٱلْمُعَلَّقَةِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:129"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {},
+   "sentence_index": 239,
+   "bellek_marked": false
+  },
+  {
+   "n": 67,
+   "line": 93,
+   "quote": "وَإِن يَتَفَرَّقَا يُغْنِ ٱللَّهُ كُلًّۭا مِّن سَعَتِهِۦ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:130"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {},
+   "sentence_index": 241,
+   "bellek_marked": false
+  },
+  {
+   "n": 68,
+   "line": 95,
+   "quote": "وَٱضْرِبُوهُنَّ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:34"
+    ],
+    "n_ayat": 1,
+    "where": "focus"
+   },
+   "also": {},
+   "sentence_index": 245,
+   "bellek_marked": false
+  },
+  {
+   "n": 69,
+   "line": 95,
+   "quote": "الضرب إيقاع شيء على شيء",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000906/B001",
+      "root": "ض ر ب",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000906/B001",
+      "root": "ض ر ب",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ض ر ب mufradat"
+    ]
+   },
+   "sentence_index": 248,
+   "bellek_marked": false
+  },
+  {
+   "n": 70,
+   "line": 95,
+   "quote": "وَإِذَا ضَرَبْتُمْ فِى ٱلْأَرْضِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:101"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {
+    "early_entry": [
+     "ض ر ب jamhara",
+     "ض ر ب maqayis",
+     "ض ر ب mufradat",
+     "ض ر ب tahdhib"
+    ]
+   },
+   "sentence_index": 249,
+   "bellek_marked": false
+  },
+  {
+   "n": 71,
+   "line": 95,
+   "quote": "أضرب عن الأمر إذا كف",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000906/B004",
+      "root": "ض ر ب",
+      "branch": "B004",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis",
+       "ayn",
+       "tahdhib"
+      ],
+      "branch_kind": "collocation",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000906/B004",
+      "root": "ض ر ب",
+      "branch": "B004",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis",
+       "ayn",
+       "tahdhib"
+      ],
+      "branch_kind": "collocation",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {},
+   "sentence_index": 250,
+   "bellek_marked": false
+  },
+  {
+   "n": 72,
+   "line": 97,
+   "quote": "فِى",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:34",
+     "4:3",
+     "4:10",
+     "4:11",
+     "4:12",
+     "4:15"
+    ],
+    "n_ayat": 59,
+    "where": "focus"
+   },
+   "also": {
+    "dictionary": [
+     "ب ع ض B002 (root_000133/B002) source_phrase_ar [ayn]",
+     "ب ع ض B002 (root_000133/B002) source_phrase_ar [tahdhib]",
+     "ب غ ي B001 (root_000138/B001) source_phrase_ar [mufradat]",
+     "ب غ ي B003 (root_000138/B003) source_phrase_ar [sihah]"
+    ],
+    "early_entry": [
+     "ء ب ب jamhara",
+     "ء ب ب maqayis",
+     "ء ب ب sihah",
+     "ء ب ب tahdhib",
+     "ء ب د maqayis",
+     "ء ب د mufradat",
+     "ء ب د sihah",
+     "ء ب د tahdhib"
+    ],
+    "majaz": [
+     1,
+     2,
+     4,
+     6
+    ]
+   },
+   "sentence_index": 252,
+   "bellek_marked": false
+  },
+  {
+   "n": 73,
+   "line": 97,
+   "quote": "يَضْرِبُونَ وُجُوهَهُمْ وَأَدْبَٰرَهُمْ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "8:50",
+     "47:27"
+    ],
+    "n_ayat": 2,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "د ب ر mufradat"
+    ],
+    "majaz": [
+     812
+    ]
+   },
+   "sentence_index": 257,
+   "bellek_marked": false
+  },
+  {
+   "n": 74,
+   "line": 99,
+   "quote": "وَعَاشِرُوهُنَّ بِٱلْمَعْرُوفِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:19"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {
+    "early_entry": [
+     "ع ش ر mufradat"
+    ],
+    "majaz": [
+     387
+    ]
+   },
+   "sentence_index": 268,
+   "bellek_marked": false
+  },
+  {
+   "n": 75,
+   "line": 103,
+   "quote": "فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:34"
+    ],
+    "n_ayat": 1,
+    "where": "focus"
+   },
+   "also": {},
+   "sentence_index": 270,
+   "bellek_marked": false
+  },
+  {
+   "n": 76,
+   "line": 107,
+   "quote": "الطوع نقيض الكره",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000956/B001",
+      "root": "ط و ع",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000956/B001",
+      "root": "ط و ع",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn",
+       "tahdhib",
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ط و ع ayn",
+     "ط و ع tahdhib"
+    ]
+   },
+   "sentence_index": 273,
+   "bellek_marked": false
+  },
+  {
+   "n": 77,
+   "line": 107,
+   "quote": "ٱئْتِيَا طَوْعًا أَوْ كَرْهًۭا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "41:11"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ط و ع mufradat",
+     "و ح ي jamhara"
+    ]
+   },
+   "sentence_index": 274,
+   "bellek_marked": false
+  },
+  {
+   "n": 78,
+   "line": 107,
+   "quote": "لَا يَحِلُّ لَكُمْ أَن تَرِثُوا۟ ٱلنِّسَآءَ كَرْهًۭا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:19"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {
+    "early_entry": [
+     "ك ر ه mufradat",
+     "ك ر ه tahdhib",
+     "و ر ث mufradat"
+    ]
+   },
+   "sentence_index": 275,
+   "bellek_marked": false
+  },
+  {
+   "n": 79,
+   "line": 107,
+   "quote": "إِنْ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:34",
+     "4:27",
+     "4:28",
+     "4:29",
+     "4:31",
+     "4:32"
+    ],
+    "n_ayat": 107,
+    "where": "focus"
+   },
+   "also": {
+    "dictionary": [
+     "ب غ ي B002 (root_000138/B002) source_phrase_ar [maqayis]",
+     "ب غ ي B002 (root_000138/B002) source_phrase_ar [ayn]",
+     "ب غ ي B002 (root_000138/B002) source_phrase_ar [sihah]",
+     "ب غ ي B003 (root_000138/B003) source_phrase_ar [maqayis]"
+    ],
+    "early_entry": [
+     "ء ب ب jamhara",
+     "ء ب ب maqayis",
+     "ء ب ب sihah",
+     "ء ب ب tahdhib",
+     "ء ب د maqayis",
+     "ء ب د mufradat",
+     "ء ب د sihah",
+     "ء ب د tahdhib"
+    ],
+    "majaz": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "qiraat": [
+     "16:36:9",
+     "23:32:6",
+     "24:7:3",
+     "24:9:3"
+    ]
+   },
+   "sentence_index": 277,
+   "bellek_marked": false
+  },
+  {
+   "n": 80,
+   "line": 109,
+   "quote": "بغى الرجل على الرجل استطال",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000138/B003",
+      "root": "ب غ ي",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000138/B003",
+      "root": "ب غ ي",
+      "branch": "B003",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ب غ ي sihah"
+    ]
+   },
+   "sentence_index": 283,
+   "bellek_marked": false
+  },
+  {
+   "n": 81,
+   "line": 109,
+   "quote": "كل مجاوزة في الحد وإفراط على المقدار فهو بغي",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000138/B003",
+      "root": "ب غ ي",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000138/B003",
+      "root": "ب غ ي",
+      "branch": "B003",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {},
+   "sentence_index": 284,
+   "bellek_marked": false
+  },
+  {
+   "n": 82,
+   "line": 111,
+   "quote": "سببا ووصلة",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000672/B001",
+      "root": "س ب ل",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000672/B001",
+      "root": "س ب ل",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "س ب ل sihah",
+     "س ل س ب ل sihah",
+     "س ن ب ل sihah"
+    ],
+    "majaz": [
+     1308
+    ]
+   },
+   "sentence_index": 289,
+   "bellek_marked": false
+  },
+  {
+   "n": 83,
+   "line": 113,
+   "quote": "عَلَى",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:34",
+     "4:30",
+     "4:32",
+     "4:33",
+     "4:41",
+     "4:27"
+    ],
+    "n_ayat": 58,
+    "where": "focus"
+   },
+   "also": {
+    "dictionary": [
+     "ء ل ه B001 (root_000047/B001) source_phrase_ar [mufradat]",
+     "ب غ ي B001 (root_000138/B001) source_phrase_ar [maqayis]",
+     "ب غ ي B002 (root_000138/B002) source_phrase_ar [mufradat]",
+     "ب غ ي B003 (root_000138/B003) source_phrase_ar [maqayis]"
+    ],
+    "early_entry": [
+     "ء ب ب jamhara",
+     "ء ب ب tahdhib",
+     "ء ب د maqayis",
+     "ء ب د mufradat",
+     "ء ب د sihah",
+     "ء ب د tahdhib",
+     "ء ب ق maqayis",
+     "ء ب ق tahdhib"
+    ],
+    "majaz": [
+     1,
+     3,
+     4,
+     5
+    ],
+    "qiraat": [
+     "15:41:4",
+     "7:105:2"
+    ]
+   },
+   "sentence_index": 294,
+   "bellek_marked": false
+  },
+  {
+   "n": 84,
+   "line": 113,
+   "quote": "عَلَيْهِنَّ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:34",
+     "4:15",
+     "4:25"
+    ],
+    "n_ayat": 3,
+    "where": "focus"
+   },
+   "also": {
+    "dictionary": [
+     "غ ل ل B005 (root_001102/B005) lexical_source_phrase [tahdhib]",
+     "ع ط ل B002 (root_001027/B002) lexical_sense_ar"
+    ],
+    "early_entry": [
+     "ء ث ث mufradat",
+     "ء ح د mufradat",
+     "ء ل م ayn",
+     "ء ل و sihah",
+     "ب ت ل maqayis",
+     "ب ت ل tahdhib",
+     "ب ر ر maqayis",
+     "ب ل و ayn"
+    ],
+    "majaz": [
+     411
+    ],
+    "qiraat": [
+     "4:34:46",
+     "2:228:43",
+     "2:228:49",
+     "4:15:9"
+    ]
+   },
+   "sentence_index": 294,
+   "bellek_marked": false
+  },
+  {
+   "n": 85,
+   "line": 115,
+   "quote": "أَن تَبْتَغُوا۟ بِأَمْوَٰلِكُم مُّحْصِنِينَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:24"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {},
+   "sentence_index": 297,
+   "bellek_marked": false
+  },
+  {
+   "n": 86,
+   "line": 117,
+   "quote": "فَإِنِ ٱعْتَزَلُوكُمْ فَلَمْ يُقَٰتِلُوكُمْ وَأَلْقَوْا۟ إِلَيْكُمُ ٱلسَّلَمَ فَمَا جَعَلَ ٱللَّهُ لَكُمْ عَلَيْهِمْ سَبِيلًۭا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:90"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {},
+   "sentence_index": 303,
+   "bellek_marked": false
+  },
+  {
+   "n": 87,
+   "line": 117,
+   "quote": "أَوْ يَجْعَلَ ٱللَّهُ لَهُنَّ سَبِيلًۭا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:15"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {},
+   "sentence_index": 307,
+   "bellek_marked": false
+  },
+  {
+   "n": 88,
+   "line": 119,
+   "quote": "وَإِنْ خِفْتُمْ شِقَاقَ بَيْنِهِمَا فَٱبْعَثُوا۟ حَكَمًۭا مِّنْ أَهْلِهِۦ وَحَكَمًۭا مِّنْ أَهْلِهَآ إِن يُرِيدَآ إِصْلَٰحًۭا يُوَفِّقِ ٱللَّهُ بَيْنَهُمَآ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:35"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {},
+   "sentence_index": 313,
+   "bellek_marked": false
+  },
+  {
+   "n": 89,
+   "line": 119,
+   "quote": "فَلَا جُنَاحَ عَلَيْهِمَآ أَن يُصْلِحَا بَيْنَهُمَا صُلْحًۭا ۚ وَٱلصُّلْحُ خَيْرٌۭ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:128"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {},
+   "sentence_index": 315,
+   "bellek_marked": false
+  },
+  {
+   "n": 90,
+   "line": 121,
+   "quote": "فَإِن تَابَا وَأَصْلَحَا فَأَعْرِضُوا۟ عَنْهُمَآ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:16"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {},
+   "sentence_index": 322,
+   "bellek_marked": false
+  },
+  {
+   "n": 91,
+   "line": 125,
+   "quote": "إِنَّ ٱللَّهَ كَانَ عَلِيًّۭا كَبِيرًۭا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:34"
+    ],
+    "n_ayat": 1,
+    "where": "focus"
+   },
+   "also": {
+    "early_entry": [
+     "ع ل و mufradat"
+    ]
+   },
+   "sentence_index": 325,
+   "bellek_marked": false
+  },
+  {
+   "n": 92,
+   "line": 137,
+   "quote": "العلي هو الرفيع القدر",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001042/B002",
+      "root": "ع ل و",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001042/B002",
+      "root": "ع ل و",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ع ل و mufradat"
+    ]
+   },
+   "sentence_index": 346,
+   "bellek_marked": false
+  },
+  {
+   "n": 93,
+   "line": 137,
+   "quote": "علا في الأرض تكبر",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001042/B003",
+      "root": "ع ل و",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001042/B003",
+      "root": "ع ل و",
+      "branch": "B003",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ع ل و sihah"
+    ]
+   },
+   "sentence_index": 347,
+   "bellek_marked": false
+  },
+  {
+   "n": 94,
+   "line": 137,
+   "quote": "إِنَّ ٱللَّهَ كَانَ عَلَيْكُمْ رَقِيبًۭا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:1"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {},
+   "sentence_index": 352,
+   "bellek_marked": false
+  }
+ ],
+ "arabic_outside_tags": [
+  {
+   "line": 11,
+   "text": "ق و م",
+   "context": "bare",
+   "source": "root_name",
+   "level": null,
+   "detail": {
+    "root": "ق و م",
+    "root_id": "root_001273",
+    "in_dictionary": true
+   },
+   "also": {},
+   "sentence_index": 23,
+   "bellek_marked": false
+  },
+  {
+   "line": 19,
+   "text": "ن ف ق",
+   "context": "quotation marks",
+   "source": "root_name",
+   "level": null,
+   "detail": {
+    "root": "ن ف ق",
+    "root_id": "root_001537",
+    "in_dictionary": true
+   },
+   "also": {},
+   "sentence_index": 50,
+   "bellek_marked": false
+  },
+  {
+   "line": 29,
+   "text": "ف ض ل",
+   "context": "bare",
+   "source": "root_name",
+   "level": null,
+   "detail": {
+    "root": "ف ض ل",
+    "root_id": "root_001163",
+    "in_dictionary": true
+   },
+   "also": {},
+   "sentence_index": 76,
+   "bellek_marked": false
+  },
+  {
+   "line": 37,
+   "text": "ف ض و",
+   "context": "bare",
+   "source": "root_name",
+   "level": null,
+   "detail": {
+    "root": "ف ض و",
+    "root_id": "root_001164",
+    "in_dictionary": true
+   },
+   "also": {},
+   "sentence_index": 106,
+   "bellek_marked": false
+  },
+  {
+   "line": 51,
+   "text": "ص ل ح",
+   "context": "bare",
+   "source": "root_name",
+   "level": null,
+   "detail": {
+    "root": "ص ل ح",
+    "root_id": "root_000876",
+    "in_dictionary": true
+   },
+   "also": {},
+   "sentence_index": 130,
+   "bellek_marked": false
+  },
+  {
+   "line": 53,
+   "text": "ق ن ت",
+   "context": "bare",
+   "source": "root_name",
+   "level": null,
+   "detail": {
+    "root": "ق ن ت",
+    "root_id": "root_001260",
+    "in_dictionary": true
+   },
+   "also": {},
+   "sentence_index": 134,
+   "bellek_marked": false
+  },
+  {
+   "line": 59,
+   "text": "ح ف ظ",
+   "context": "bare",
+   "source": "root_name",
+   "level": null,
+   "detail": {
+    "root": "ح ف ظ",
+    "root_id": "root_000342",
+    "in_dictionary": true
+   },
+   "also": {},
+   "sentence_index": 152,
+   "bellek_marked": false
+  },
+  {
+   "line": 59,
+   "text": "غ ي ب",
+   "context": "bare",
+   "source": "root_name",
+   "level": null,
+   "detail": {
+    "root": "غ ي ب",
+    "root_id": "root_001117",
+    "in_dictionary": true
+   },
+   "also": {},
+   "sentence_index": 155,
+   "bellek_marked": false
+  },
+  {
+   "line": 75,
+   "text": "ن ش ز",
+   "context": "bare",
+   "source": "root_name",
+   "level": null,
+   "detail": {
+    "root": "ن ش ز",
+    "root_id": "root_001504",
+    "in_dictionary": true
+   },
+   "also": {},
+   "sentence_index": 190,
+   "bellek_marked": false
+  },
+  {
+   "line": 85,
+   "text": "و ع ظ",
+   "context": "bare",
+   "source": "root_name",
+   "level": null,
+   "detail": {
+    "root": "و ع ظ",
+    "root_id": "root_001663",
+    "in_dictionary": true
+   },
+   "also": {},
+   "sentence_index": 218,
+   "bellek_marked": false
+  },
+  {
+   "line": 87,
+   "text": "ه ج ر",
+   "context": "bare",
+   "source": "root_name",
+   "level": null,
+   "detail": {
+    "root": "ه ج ر",
+    "root_id": "root_001578",
+    "in_dictionary": true
+   },
+   "also": {},
+   "sentence_index": 226,
+   "bellek_marked": false
+  },
+  {
+   "line": 91,
+   "text": "ض ج ع",
+   "context": "bare",
+   "source": "root_name",
+   "level": null,
+   "detail": {
+    "root": "ض ج ع",
+    "root_id": "root_000902",
+    "in_dictionary": true
+   },
+   "also": {},
+   "sentence_index": 232,
+   "bellek_marked": false
+  },
+  {
+   "line": 93,
+   "text": "و س ع",
+   "context": "parentheses",
+   "source": "root_name",
+   "level": null,
+   "detail": {
+    "root": "و س ع",
+    "root_id": "root_001647",
+    "in_dictionary": true
+   },
+   "also": {},
+   "sentence_index": 242,
+   "bellek_marked": false
+  },
+  {
+   "line": 95,
+   "text": "ض ر ب",
+   "context": "bare",
+   "source": "root_name",
+   "level": null,
+   "detail": {
+    "root": "ض ر ب",
+    "root_id": "root_000906",
+    "in_dictionary": true
+   },
+   "also": {},
+   "sentence_index": 247,
+   "bellek_marked": false
+  },
+  {
+   "line": 107,
+   "text": "ط و ع",
+   "context": "bare",
+   "source": "root_name",
+   "level": null,
+   "detail": {
+    "root": "ط و ع",
+    "root_id": "root_000956",
+    "in_dictionary": true
+   },
+   "also": {},
+   "sentence_index": 273,
+   "bellek_marked": false
+  },
+  {
+   "line": 109,
+   "text": "ب غ ي",
+   "context": "bare",
+   "source": "root_name",
+   "level": null,
+   "detail": {
+    "root": "ب غ ي",
+    "root_id": "root_000138",
+    "in_dictionary": true
+   },
+   "also": {},
+   "sentence_index": 282,
+   "bellek_marked": false
+  },
+  {
+   "line": 121,
+   "text": "ص ل ح",
+   "context": "bare",
+   "source": "root_name",
+   "level": null,
+   "detail": {
+    "root": "ص ل ح",
+    "root_id": "root_000876",
+    "in_dictionary": true
+   },
+   "also": {},
+   "sentence_index": 320,
+   "bellek_marked": false
+  },
+  {
+   "line": 127,
+   "text": "ع ل و",
+   "context": "bare",
+   "source": "root_name",
+   "level": null,
+   "detail": {
+    "root": "ع ل و",
+    "root_id": "root_001042",
+    "in_dictionary": true
+   },
+   "also": {},
+   "sentence_index": 329,
+   "bellek_marked": false
+  }
+ ],
+ "bellek": [
+  {
+   "line": 55,
+   "mark": "[bellek]",
+   "sentence": "Kunûtun Allah'la birlikte Resul'e de yöneldiği bir yer vardır (33:31), ama orada da muhatap bir koca değildir [bellek].",
+   "items": [],
+   "refs": [
+    "33:31"
+   ],
+   "italic_transliterations": [],
+   "status": "no Arabic item (not checkable by script)"
+  }
+ ],
+ "unsourced_unmarked": [],
+ "cited_branches": [
+  {
+   "branch_ref": "root_001273/B004",
+   "root": "ق و م",
+   "branch": "B004",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yalın yönetici ve koruyucu adları ile belirli işi gözetme yapıları ayrıştırılır; yetersizlik anlatımı yalnız kendi sözlük biriminde verilir.",
+   "image_ar": "رعاية وحفظ وولاية",
+   "quote": "من يسوس أمرهم",
+   "line": 13,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Sözlükçüler \"kayyım\"ı {ar:من يسوس أمرهم, tr:men yesûsu emrahum, gloss:onların işini çekip çeviren kimse} diye tanımlar."
+  },
+  {
+   "branch_ref": "root_001273/B009",
+   "root": "ق و م",
+   "branch": "B009",
+   "branch_kind": "bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yalın dayanak ve sürdürme aracı tanımlanır; başka dallardaki yönetim, boy ve fiyat anlamları eklenmez.",
+   "image_ar": "قوام وعماد ومعاش",
+   "quote": "قوام الأمر نظامه وعماده",
+   "line": 13,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Bir sözlük {ar:قوام الأمر نظامه وعماده, tr:kıvâmu'l-emri nizâmuhû ve imâduh, gloss:bir işin kıvâmı onun düzeni ve direğidir} der."
+  },
+  {
+   "branch_ref": "root_001537/B002",
+   "root": "ن ف ق",
+   "branch": "B002",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Dal, gider ve harcama bildiren biçimlerle kişinin malını yitirip yoksullaşmasını bildiren özel yapıyı birlikte içerir; sonuç anlamı yalın biçimlere yayılmaz.",
+   "image_ar": "خروج المال في النفقة",
+   "quote": "النَّفَقَة لأنها تمضي لوجهها",
+   "line": 19,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Sözlükçü nafakanın adını şöyle açıklar: {ar:النَّفَقَة لأنها تمضي لوجهها, tr:en-nafakatu li-ennehâ temdî li-vechihâ, gloss:nafakaya bu ad verilir çünkü kendi yönüne gidip gider}."
+  },
+  {
+   "branch_ref": "root_000546/B019",
+   "root": "ر ج ل",
+   "branch": "B019",
+   "branch_kind": "collocation",
+   "bound": true,
+   "root_in": "focus",
+   "scope_note": "Ciddi çaba anlamı yalnız kalıplaşmış duruş yapısında geçerlidir ve çıplak beden uzvu anlamına aktarılmaz.",
+   "image_ar": "القيام على رجل",
+   "quote": "فلان قائم على رجل إذا جد في أمر حزبه",
+   "line": 25,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [
+    "deyim"
+   ],
+   "sentence": "Sözlükler ayetin ilk iki kelimesinin köklerini bir deyimde de birleştirir: {ar:فلان قائم على رجل إذا جد في أمر حزبه, tr:fulânun kâimun alâ riclin izâ cedde fî emrin hazebeh, gloss:biri kendisini sıkıştıran bir işe ciddiyetle sarıldığında \"bir ayak üstünde duruyor\" denir}."
+  },
+  {
+   "branch_ref": "root_001163/B001",
+   "root": "ف ض ل",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yalın biçimler artma ve kalma çekirdeğini taşır; ganimet, su, mal ve yiyecek çevresindeki bağlı kullanımlar kendi nesne ve işlem sınırları içinde yorumlanır.",
+   "image_ar": "الزيادة والبقية",
+   "quote": "الفضل الزيادة",
+   "line": 29,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Bir sözlük {ar:الفضل الزيادة, tr:el-fadlu'z-ziyâde, gloss:fadl artıktır} der."
+  },
+  {
+   "branch_ref": "root_000133/B001",
+   "root": "ب ع ض",
+   "branch": "B001",
+   "branch_kind": "bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Çıplak dal, genel parça ve parçalara ayırma anlamlarıyla tanımlanır; belirli bir kalıba veya özel bir bölme oranına bağlanmaz.",
+   "image_ar": "تجزئة الشيء وطائفته",
+   "quote": "بعض الشيء جزء منه",
+   "line": 35,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Bir sözlük {ar:بعض الشيء جزء منه, tr:ba'du'ş-şey'i cuz'un minh, gloss:bir şeyin ba'dı ondan bir parçadır} der."
+  },
+  {
+   "branch_ref": "root_001260/B001",
+   "root": "ق ن ت",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanıklar hem yalın eylem ve kişi biçimlerini hem de kadının kocasına uymasını bildiren kalıba bağlı kullanımı içerir; tanım ortak özü verirken bu özel ilişkiyi bütün dala yaymaz.",
+   "image_ar": "طاعة دينية خاضعة",
+   "quote": "أصل صحيح يدل على طاعة وخير في دين",
+   "line": 53,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Bir sözlük bu kök için {ar:أصل صحيح يدل على طاعة وخير في دين, tr:aslun sahîhun yedullu alâ tâatin ve hayrin fî dîn, gloss:dinde bağlılık ve iyiliğe delalet eden sağlam bir köktür} der."
+  },
+  {
+   "branch_ref": "root_000342/B006",
+   "root": "ح ف ظ",
+   "branch": "B006",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Dalın koruma ve bağlılık çekirdeği yalın biçimlerde görülebilir; yokluğunda birini koruma, cinsel özdenetim ve evlilik bağını gözetme yalnız kendi yapıları içinde tutulur.",
+   "image_ar": "صون الحرم والعهد والعفة",
+   "quote": "حافظت على الرجل محافظة وحفاظا إذا حفظته في مغيبه",
+   "line": 59,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Sözlüklerde bu kökün özel bir kullanımı ayete doğrudan ışık tutar: {ar:حافظت على الرجل محافظة وحفاظا إذا حفظته في مغيبه, tr:hâfaztu ale'r-raculi muhâfazaten ve hıfâzan izâ hafıztuhû fî meğîbih, gloss:bir adamı yokluğunda koruduğunda \"onu gözettim\" denir}."
+  },
+  {
+   "branch_ref": "root_001117/B005",
+   "root": "غ ي ب",
+   "branch": "B005",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım, kadının kocasının yokluğuyla oluşan durumu, bu yoklukta korunması gerekeni gözetmeyi bildiren özel yapıdan ayrı bir facet olarak tutar.",
+   "image_ar": "غيبة الزوج وحفظ الغيب",
+   "quote": "حافظات للغيب أي لا يفعلن في غيبة الزوج ما يكرهه الزوج",
+   "line": 59,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Sözlükçüler bu ayetteki ifadeyi {ar:حافظات للغيب أي لا يفعلن في غيبة الزوج ما يكرهه الزوج, tr:hâfizâtun li'l-ğaybi ey lâ yef'alne fî ğaybeti'z-zevci mâ yekrahuhu'z-zevc, gloss:gaybı koruyanlar, yani kocanın yokluğunda onun hoşlanmayacağı şeyi yapmayanlar} diye açıklar."
+  },
+  {
+   "branch_ref": "root_000447/B001",
+   "root": "خ و ف",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yalın korku çekirdeği ile belirli söz öbeklerine ve katılımcı ilişkilerine bağlı kullanımlar ayrı tutulur; çok korkan kişi veya topluluk anlatımları ve başkası için korkma kullanımı yalın anlamın tamamı sayılmaz.",
+   "image_ar": "ذعر يتوقع المكروه",
+   "quote": "الخوف توقع مكروه عن أمارة مظنونة أو معلومة",
+   "line": 71,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Bir sözlük korkuyu {ar:الخوف توقع مكروه عن أمارة مظنونة أو معلومة, tr:el-havfu tevakku'u mekrûhin an emâretin maznûnetin ev ma'lûme, gloss:korku, bilinen ya da sanılan bir belirtiye dayanarak hoşa gitmeyen bir şeyi beklemektir} diye tanımlar."
+  },
+  {
+   "branch_ref": "root_001504/B001",
+   "root": "ن ش ز",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım, yalın biçimlerin yükseklik ve çıkıntı anlamını temel alır; hayvanın sırtı ile dize bağlı kullanımları bu çekirdeğin özel gerçekleşmeleri olarak ayrı tutar.",
+   "image_ar": "الارتفاع والنتوء",
+   "quote": "النشز المكان العالي المرتفع",
+   "line": 75,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "\"Nüşûz\" kelimesi ن ش ز (n-ş-z) kökündendir ve çok görsel bir köktür: {ar:النشز المكان العالي المرتفع, tr:en-neşzu'l-mekânu'l-âli'l-murtefi', gloss:neşz yüksek ve kabarık yerdir}."
+  },
+  {
+   "branch_ref": "root_001504/B004",
+   "root": "ن ش ز",
+   "branch": "B004",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım evlilik alanındaki biçim ve kişi yapılarını birlikte kapsar; kadın ile kocaya özgü davranışları ortak soğuma ve karşı koyma çekirdeğinde ayırır.",
+   "image_ar": "نشوز الزوجين",
+   "quote": "النشوز يكون من الزوجين",
+   "line": 77,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Sözlükler bu ikinci hareketin tek taraflı olmadığını açıkça söyler: {ar:النشوز يكون من الزوجين, tr:en-nuşûzu yekûnu mine'z-zevceyn, gloss:nüşûz eşlerin ikisinden de olur}."
+  },
+  {
+   "branch_ref": "root_001663/B001",
+   "root": "و ع ظ",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Çıplak öğüt verme alanı ile öğüdü kabul etmeyi bildiren türemiş biçim ve kalıplaşmış sözdeki yinelenmiş biçim ayrı tutulur; kalıplaşmış söz çıplak anlama genellenmez.",
+   "image_ar": "تذكير مخوِّف يرق له القلب",
+   "quote": "التذكير بالخير وما يرق له قلبه",
+   "line": 85,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "و ع ظ (v-a-z) kökü öğüdü {ar:التذكير بالخير وما يرق له قلبه, tr:et-tezkîru bi'l-hayri ve mâ yerıkku lehû kalbuh, gloss:iyiliği ve kalbini yumuşatacak şeyi hatırlatma} diye tanımlar."
+  },
+  {
+   "branch_ref": "root_001578/B001",
+   "root": "ه ج ر",
+   "branch": "B001",
+   "branch_kind": "bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım yalın anlamla sınırlıdır; bağ kesme, uzaklaşma ve gözetilmesi gereken şeyi bırakma bu kapsamda birlikte değerlendirilir.",
+   "image_ar": "الانقطاع والمفارقة",
+   "quote": "الهجر ضد الوصل",
+   "line": 87,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "ه ج ر (h-c-r) kökü için bir sözlük {ar:الهجر ضد الوصل, tr:el-hecru ziddu'l-vasl, gloss:hecr bağın karşıtıdır} der."
+  },
+  {
+   "branch_ref": "root_000902/B002",
+   "root": "ض ج ع",
+   "branch": "B002",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Dal, birlikte yatan kişiyi bildiren bir biçim ile eşlerin aynı örtü altında yatmasını bildiren kalıbı ayırarak korur.",
+   "image_ar": "مشاركة المضجع",
+   "quote": "ضجيعك الذي يضاجعك في فراشك",
+   "line": 91,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Aynı kök yatağı paylaşmayı da adlandırır: {ar:ضجيعك الذي يضاجعك في فراشك, tr:dacîuke'llezî yudâciuke fî firâşik, gloss:dacîin, seninle yatağında yan yana yatandır}."
+  },
+  {
+   "branch_ref": "root_000906/B001",
+   "root": "ض ر ب",
+   "branch": "B001",
+   "branch_kind": "bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım yalın eylemin doğrudan fiziksel temas anlamıyla sınırlıdır; kalıplaşmış söz öbeklerinin anlamları içeri alınmaz.",
+   "image_ar": "إيقاع شيء على شيء",
+   "quote": "الضرب إيقاع شيء على شيء",
+   "line": 95,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Sözlüğün temel tanımı {ar:الضرب إيقاع شيء على شيء, tr:ed-darbu îkâu şey'in alâ şey', gloss:darb, bir şeyi bir şeyin üzerine indirmektir} şeklindedir."
+  },
+  {
+   "branch_ref": "root_000906/B004",
+   "root": "ض ر ب",
+   "branch": "B004",
+   "branch_kind": "collocation",
+   "bound": true,
+   "root_in": "focus",
+   "scope_note": "Dal iki ayrı kalıplaşmış söz öbeğiyle sınırlıdır; vazgeçme çekirdeği ile evde kalma yan kullanımı birbirine karıştırılmaz.",
+   "image_ar": "القبض عن الشيء والكف",
+   "quote": "أضرب عن الأمر إذا كف",
+   "line": 95,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Örnek vermeyi, bir işten el çekmeyi ({ar:أضرب عن الأمر إذا كف, tr:edrabe ani'l-emri izâ keff, gloss:bir işten geri durduğunda \"edrabe\" denir}) ve iki şeyin arasına engel koymayı da anlatır."
+  },
+  {
+   "branch_ref": "root_000956/B001",
+   "root": "ط و ع",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım, yalın boyun eğme çekirdeğini korur; el, dizgin, yular ve dil kalıplarındaki kolay yönlenme kullanımlarını bu çekirdeğe bağlı özel gerçekleşmeler olarak sınırlar.",
+   "image_ar": "الانقياد والطاعة",
+   "quote": "الطوع نقيض الكره",
+   "line": 107,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Kökü ط و ع (t-v-a) ve sözlükler bu kökü bir karşıtlıkla tanımlar: {ar:الطوع نقيض الكره, tr:et-tav'u nakîdu'l-kerh, gloss:tav' zorlamanın karşıtıdır}."
+  },
+  {
+   "branch_ref": "root_000138/B003",
+   "root": "ب غ ي",
+   "branch": "B003",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım, yalın haksız sınır aşımını; birine karşı yöneltilen, fail adıyla belirtilen ve karşılıklı gerçekleşen özel kullanımlardan açıkça ayırır.",
+   "image_ar": "تجاوز الحد بالعدوان والظلم",
+   "quote": "بغى الرجل على الرجل استطال",
+   "line": 109,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Ama aynı kök, ayette de bulunan \"birinin aleyhine\" yapısıyla haddi aşmayı anlatır: {ar:بغى الرجل على الرجل استطال, tr:beğa'r-raculu ale'r-racul isteṭâl, gloss:adam adama karşı beğy etti, yani ona karşı büyüklük tasladı}."
+  },
+  {
+   "branch_ref": "root_000672/B001",
+   "root": "س ب ل",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yalın biçimlerin yol ve ulaşma aracı anlamları ile dinsel yön bildiren söz öbeği ayrı tutulmuştur.",
+   "image_ar": "طريق ممتد يسلك",
+   "quote": "سببا ووصلة",
+   "line": 111,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Sözlükler onu bir amaca ulaştıran bağ olarak da tanımlar: {ar:سببا ووصلة, tr:sebeben ve vusleten, gloss:bir sebep ve bir ulaşma aracı}."
+  },
+  {
+   "branch_ref": "root_001042/B002",
+   "root": "ع ل و",
+   "branch": "B002",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Mekanik kapsam karışıktır; tanım hem biçimlerdeki değer yüksekliğini hem de kalıplardaki seçkinlik kullanımını ayırarak verir.",
+   "image_ar": "الرفعة والشرف",
+   "quote": "العلي هو الرفيع القدر",
+   "line": 137,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Bir yanda övülen saygınlık vardır: {ar:العلي هو الرفيع القدر, tr:el-aliyyu huve'r-refîu'l-kadr, gloss:aliyy, değeri yüksek olandır}."
+  },
+  {
+   "branch_ref": "root_001042/B003",
+   "root": "ع ل و",
+   "branch": "B003",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Mekanik kapsam karışıktır; tanım çıplak kınanan üstünlük anlamını ve yer yapısındaki taşkınlığı ayrı tutar.",
+   "image_ar": "العظمة والتجبر",
+   "quote": "علا في الأرض تكبر",
+   "line": 137,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Öbür yanda kınanan büyüklük taslama vardır: {ar:علا في الأرض تكبر, tr:alâ fi'l-ardı tekebbere, gloss:yeryüzünde yükseldi, yani büyüklük tasladı}."
+  }
+ ]
+}

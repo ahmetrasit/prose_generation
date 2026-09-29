@@ -1,0 +1,556 @@
+{
+ "rule": "(fixed in this file; volume is reported, never used to gate -- no caps):\n  1. Per family, among its candidate variants, pick the one with the highest DEV-half (odd surahs) lower 95% bound\n     of lift_af (frequency-matched other word of the same ayah, ayah-cluster bootstrap). A variant needs at least\n     10 true paths on the dev half to be eligible (below that the bound is not estimable).\n  2. The family is INCLUDED if, on the TEST half (even surahs), that variant's lift_af lower bound is > 1.\n     It is marked branch-discriminating if its test-half lift_b lower bound is also > 1 (branch->root scope only).\n  3. A family whose every variant has test lift_af upper bound <= 1.05 or dev lower bound < 1 is EXCLUDED as carrying\n     no activation signal on this set.",
+ "families": {
+  "definitional_pointer": {
+   "decision": "include",
+   "chosen": "ptr_card400",
+   "scope": "branch->root",
+   "dev_lift_af": 3.1100928691240846,
+   "dev_ci": [
+    1.7826825127334465,
+    5.875392863745608
+   ],
+   "test_lift_af": 3.008849557522124,
+   "test_ci": [
+    1.950101146325017,
+    4.993487887470696
+   ],
+   "test_lift_b": 1.712683483652517,
+   "test_lift_b_ci": [
+    1.2947078331927173,
+    2.224070143521325
+   ],
+   "branch_discriminating": true,
+   "full_lift_af": 3.048501065517297,
+   "full_ci_ayah": [
+    2.153369792504423,
+    4.581315529644082
+   ],
+   "full_ci_surah": [
+    1.8977036353367407,
+    4.886766566291895
+   ],
+   "full_lift_b": 1.4357115476438662,
+   "full_lift_b_ci": [
+    1.1536037393825636,
+    1.74429858186148
+   ],
+   "coverage": 0.03115264797507788,
+   "paths_per_ayah": 5.236666666666666,
+   "paths_per_ayah_p90": 14.0,
+   "share_frequent_element": 0.1935073201782304,
+   "share_frequent_partner": 0.1935073201782304
+  },
+  "rare_lemma_bridge": {
+   "decision": "exclude",
+   "chosen": "bridge30_rev",
+   "scope": "root->root",
+   "dev_lift_af": 1.0453385353340807,
+   "dev_ci": [
+    1.0060156591204588,
+    1.085196296726434
+   ],
+   "test_lift_af": 1.022746854211436,
+   "test_ci": [
+    0.9948229315471903,
+    1.0514908018882316
+   ],
+   "test_lift_b": null,
+   "test_lift_b_ci": null,
+   "branch_discriminating": null,
+   "full_lift_af": 1.0326293302788627,
+   "full_ci_ayah": [
+    1.0099393342385872,
+    1.056497169167713
+   ],
+   "full_ci_surah": [
+    1.0063674567199665,
+    1.0565332064097481
+   ],
+   "full_lift_b": null,
+   "full_lift_b_ci": null,
+   "coverage": 0.7385669781931464,
+   "paths_per_ayah": 42.82666666666667,
+   "paths_per_ayah_p90": 107.10000000000002,
+   "share_frequent_element": 0.0,
+   "share_frequent_partner": 0.27506226650062265
+  },
+  "dictionary_neighbour": {
+   "decision": "include",
+   "chosen": "nb_any",
+   "scope": "branch->root",
+   "dev_lift_af": 9.186440677966102,
+   "dev_ci": [
+    4.333333333333333,
+    40.57142857142858
+   ],
+   "test_lift_af": 6.716970777884483,
+   "test_ci": [
+    3.1206480034105435,
+    23.38505954529051
+   ],
+   "test_lift_b": 2.5895987414371078,
+   "test_lift_b_ci": [
+    1.799556104000642,
+    4.072518985094717
+   ],
+   "branch_discriminating": true,
+   "full_lift_af": 7.757758552266052,
+   "full_ci_ayah": [
+    4.398340248962656,
+    17.2005772005772
+   ],
+   "full_ci_surah": [
+    4.642694583522986,
+    15.882352941176471
+   ],
+   "full_lift_b": 2.6440531150979467,
+   "full_lift_b_ci": [
+    2.0125537640703612,
+    3.5908951852707047
+   ],
+   "coverage": 0.017990654205607477,
+   "paths_per_ayah": 2.0866666666666664,
+   "paths_per_ayah_p90": 6.0,
+   "share_frequent_element": 0.0,
+   "share_frequent_partner": 0.28913738019169327
+  },
+  "antonym_polarity": {
+   "decision": "insufficient data",
+   "variants": [
+    "nb_contrast"
+   ],
+   "note": "fewer than 10 true paths on the dev half in every variant"
+  },
+  "root_cooccurrence": {
+   "decision": "include",
+   "chosen": "cooc_ayah_pmi2",
+   "scope": "root->root",
+   "dev_lift_af": 2.026673953483484,
+   "dev_ci": [
+    1.5239735274787418,
+    2.740909214472766
+   ],
+   "test_lift_af": 2.0211122773200136,
+   "test_ci": [
+    1.6076048747726215,
+    2.602828172600373
+   ],
+   "test_lift_b": null,
+   "test_lift_b_ci": null,
+   "branch_discriminating": null,
+   "full_lift_af": 2.023985809394365,
+   "full_ci_ayah": [
+    1.685820263493209,
+    2.440113050598473
+   ],
+   "full_ci_surah": [
+    1.7358550039401106,
+    2.3758382892885144
+   ],
+   "full_lift_b": null,
+   "full_lift_b_ci": null,
+   "coverage": 0.09481827622014538,
+   "paths_per_ayah": 1.0533333333333332,
+   "paths_per_ayah_p90": 3.0,
+   "share_frequent_element": 0.08227848101265822,
+   "share_frequent_partner": 0.08227848101265822
+  },
+  "formula_cooccurrence": {
+   "decision": "exclude",
+   "chosen": "formula_k5_pmi",
+   "scope": "root->root",
+   "dev_lift_af": 1.1350128620208322,
+   "dev_ci": [
+    0.9958453455444185,
+    1.2956523623156146
+   ],
+   "test_lift_af": 1.0607625352979937,
+   "test_ci": [
+    0.9490137144128679,
+    1.1948253776528017
+   ],
+   "test_lift_b": null,
+   "test_lift_b_ci": null,
+   "branch_discriminating": null,
+   "full_lift_af": 1.0921784280357687,
+   "full_ci_ayah": [
+    1.0051815332319614,
+    1.1882139004469428
+   ],
+   "full_ci_surah": [
+    1.004639008269274,
+    1.184072781733492
+   ],
+   "full_lift_b": null,
+   "full_lift_b_ci": null,
+   "coverage": 0.2615368639667705,
+   "paths_per_ayah": 5.32,
+   "paths_per_ayah_p90": 14.0,
+   "share_frequent_element": 0.09649122807017543,
+   "share_frequent_partner": 0.09649122807017543
+  },
+  "slm_similarity": {
+   "decision": "include",
+   "chosen": "slm_p99",
+   "scope": "branch->root",
+   "dev_lift_af": 2.229510428721794,
+   "dev_ci": [
+    1.7906334968522277,
+    2.808478792624365
+   ],
+   "test_lift_af": 2.7661235223739715,
+   "test_ci": [
+    2.2740589762424093,
+    3.4079562584187983
+   ],
+   "test_lift_b": 1.607359444082711,
+   "test_lift_b_ci": [
+    1.447762352533412,
+    1.7745800212760892
+   ],
+   "branch_discriminating": true,
+   "full_lift_af": 2.507216159713137,
+   "full_ci_ayah": [
+    2.166325681758066,
+    2.90900354301317
+   ],
+   "full_ci_surah": [
+    2.108094979239194,
+    2.9947308537784303
+   ],
+   "full_lift_b": 1.4820280243620054,
+   "full_lift_b_ci": [
+    1.3751579573251251,
+    1.5989083692860349
+   ],
+   "coverage": 0.16833852544132916,
+   "paths_per_ayah": 39.78333333333333,
+   "paths_per_ayah_p90": 108.20000000000005,
+   "share_frequent_element": 0.0,
+   "share_frequent_partner": 0.3126099706744868
+  },
+  "qnet_keywords": {
+   "decision": "include",
+   "chosen": "qnet_core_df50",
+   "scope": "branch->root",
+   "dev_lift_af": 2.8544795773411438,
+   "dev_ci": [
+    2.1586267282982754,
+    3.8535967727687637
+   ],
+   "test_lift_af": 2.828539048113517,
+   "test_ci": [
+    2.1748263219066613,
+    3.780024097516704
+   ],
+   "test_lift_b": 1.7683154884146097,
+   "test_lift_b_ci": [
+    1.521190625332763,
+    2.014804495788653
+   ],
+   "branch_discriminating": true,
+   "full_lift_af": 2.8396817775311325,
+   "full_ci_ayah": [
+    2.33517195219425,
+    3.4863350908387054
+   ],
+   "full_ci_surah": [
+    2.4241155617104506,
+    3.4118716297794442
+   ],
+   "full_lift_b": 1.6394858867810052,
+   "full_lift_b_ci": [
+    1.4785999167310393,
+    1.8213829231807985
+   ],
+   "coverage": 0.1023208722741433,
+   "paths_per_ayah": 22.60333333333333,
+   "paths_per_ayah_p90": 59.200000000000045,
+   "share_frequent_element": 0.0,
+   "share_frequent_partner": 0.28624096740893673
+  },
+  "early_cocitation": {
+   "decision": "include",
+   "chosen": "cc_quote_root",
+   "scope": "root->root",
+   "dev_lift_af": 1.1554796115417003,
+   "dev_ci": [
+    1.0183743214690855,
+    1.310099670811997
+   ],
+   "test_lift_af": 1.3401835761161796,
+   "test_ci": [
+    1.1689474465424885,
+    1.5376714906125624
+   ],
+   "test_lift_b": null,
+   "test_lift_b_ci": null,
+   "branch_discriminating": null,
+   "full_lift_af": 1.2478673273063723,
+   "full_ci_ayah": [
+    1.1331058561278928,
+    1.3763936238827974
+   ],
+   "full_ci_surah": [
+    1.1239277809442365,
+    1.3977229641360391
+   ],
+   "full_lift_b": null,
+   "full_lift_b_ci": null,
+   "coverage": 0.1575129802699896,
+   "paths_per_ayah": 2.6266666666666665,
+   "paths_per_ayah_p90": 7.0,
+   "share_frequent_element": 0.0,
+   "share_frequent_partner": 0.26903553299492383
+  }
+ },
+ "included": {
+  "union": {
+   "types": [
+    "ptr_card400",
+    "nb_any",
+    "cooc_ayah_pmi2",
+    "slm_p99",
+    "qnet_core_df50",
+    "cc_quote_root"
+   ],
+   "coverage_pairs": 0.377324996406497,
+   "lift_af": 1.7055790781122657,
+   "ci": [
+    1.5831454514103747,
+    1.8405147541694356
+   ],
+   "lift_b": 1.23750346532859,
+   "ci_b": [
+    1.1906999393379518,
+    1.2863792742341673
+   ],
+   "true": 875.0166666666667,
+   "expected": 513.0320123503947
+  },
+  "unique": {
+   "ptr_card400": {
+    "reached": 0.03255713669685209,
+    "only_this": 0.004204398447606727
+   },
+   "nb_any": {
+    "reached": 0.01951272100043122,
+    "only_this": 0.0003234152652005175
+   },
+   "cooc_ayah_pmi2": {
+    "reached": 0.09567342245220642,
+    "only_this": 0.058372861865746736
+   },
+   "slm_p99": {
+    "reached": 0.16980738824205835,
+    "only_this": 0.07474486129078625
+   },
+   "qnet_core_df50": {
+    "reached": 0.10631019117435675,
+    "only_this": 0.038270806382061234
+   },
+   "cc_quote_root": {
+    "reached": 0.12201379905131522,
+    "only_this": 0.08607876958459107
+   }
+  },
+  "jaccard": {
+   "ptr_card400|slm_p99": 0.1424,
+   "ptr_card400|qnet_core_df50": 0.1076923076923077,
+   "nb_any|ptr_card400": 0.125,
+   "nb_any|slm_p99": 0.10491803278688525,
+   "nb_any|qnet_core_df50": 0.1485148514851485,
+   "cooc_ayah_pmi2|ptr_card400": 0.049868766404199474,
+   "cooc_ayah_pmi2|nb_any": 0.04956268221574344,
+   "cooc_ayah_pmi2|slm_p99": 0.07581227436823104,
+   "cooc_ayah_pmi2|qnet_core_df50": 0.053929121725731895,
+   "qnet_core_df50|slm_p99": 0.2827763496143959,
+   "cc_quote_root|ptr_card400": 0.036885245901639344,
+   "cc_quote_root|nb_any": 0.019693654266958426,
+   "cc_quote_root|cooc_ayah_pmi2": 0.06853582554517133,
+   "cc_quote_root|slm_p99": 0.06837606837606838,
+   "cc_quote_root|qnet_core_df50": 0.06040268456375839
+  },
+  "by_branch_kind": {
+   "bare": {
+    "pairs": 1015,
+    "coverage": 0.373989898989899,
+    "lift_af": 1.72991403549269,
+    "ci": [
+     1.5068757807781672,
+     1.9925320923313243
+    ]
+   },
+   "mixed_non_bare": {
+    "pairs": 1897,
+    "coverage": 0.38013182674199625,
+    "lift_af": 1.7226926565728957,
+    "ci": [
+     1.5617574013901738,
+     1.9005978912721722
+    ]
+   },
+   "non_bare": {
+    "pairs": 122,
+    "coverage": 0.39089147286821707,
+    "lift_af": 1.807347670250896,
+    "ci": [
+     1.2404746319942792,
+     2.7484464023048343
+    ]
+   },
+   "collocation": {
+    "pairs": 468,
+    "coverage": 0.37910052910052905,
+    "lift_af": 1.6601669857946546,
+    "ci": [
+     1.3662172729151432,
+     2.0177824857379725
+    ]
+   }
+  },
+  "by_branch_number": {
+   "B002-B003": {
+    "pairs": 1310,
+    "coverage": 0.40028968713789104,
+    "lift_af": 1.8169755511675894,
+    "ci": [
+     1.6235756383958195,
+     2.050989896916417
+    ]
+   },
+   "B004+": {
+    "pairs": 2221,
+    "coverage": 0.36371336996336995,
+    "lift_af": 1.639990495682978,
+    "ci": [
+     1.4907378215834817,
+     1.805988518889857
+    ]
+   }
+  },
+  "per_type_by_kind": {
+   "ptr_card400": {
+    "bare_or_mixed": {
+     "pairs": 2912,
+     "lift_af": 2.8284184877496594,
+     "ci": [
+      1.9133138191898733,
+      4.395262618911033
+     ],
+     "true": 58.5
+    },
+    "collocation_or_non_bare": {
+     "pairs": 590,
+     "lift_af": 6.387096774193548,
+     "ci": [
+      2.8371881606765323,
+      31.72142857142853
+     ],
+     "true": 16.5
+    }
+   },
+   "nb_any": {
+    "bare_or_mixed": {
+     "pairs": 2912,
+     "lift_af": 9.267810840844549,
+     "ci": [
+      4.853093769648481,
+      22.76910722723372
+     ],
+     "true": 34.75
+    },
+    "collocation_or_non_bare": {
+     "pairs": 590,
+     "lift_af": 5.040000000000001,
+     "ci": [
+      1.783734643734644,
+      94.04999999999971
+     ],
+     "true": 10.5
+    }
+   },
+   "cooc_ayah_pmi2": {
+    "bare_or_mixed": {
+     "pairs": 2912,
+     "lift_af": 2.0425506395446797,
+     "ci": [
+      1.6763944839689184,
+      2.507191374731553
+     ],
+     "true": 180.61666666666667
+    },
+    "collocation_or_non_bare": {
+     "pairs": 590,
+     "lift_af": 1.9847651290732118,
+     "ci": [
+      1.282979307365285,
+      3.292449522407343
+     ],
+     "true": 39.08333333333333
+    }
+   },
+   "slm_p99": {
+    "bare_or_mixed": {
+     "pairs": 2912,
+     "lift_af": 2.544526261066582,
+     "ci": [
+      2.1689969271137017,
+      3.028072593091539
+     ],
+     "true": 325.33333333333337
+    },
+    "collocation_or_non_bare": {
+     "pairs": 590,
+     "lift_af": 2.4269749506706724,
+     "ci": [
+      1.7555189975160035,
+      3.4846852867324865
+     ],
+     "true": 68.45
+    }
+   },
+   "qnet_core_df50": {
+    "bare_or_mixed": {
+     "pairs": 2912,
+     "lift_af": 2.922456210680133,
+     "ci": [
+      2.346588065131888,
+      3.6635750846005175
+     ],
+     "true": 195.66666666666666
+    },
+    "collocation_or_non_bare": {
+     "pairs": 590,
+     "lift_af": 2.5555643575765,
+     "ci": [
+      1.6778246422945697,
+      4.095046448772727
+     ],
+     "true": 49.7
+    }
+   },
+   "cc_quote_root": {
+    "bare_or_mixed": {
+     "pairs": 2912,
+     "lift_af": 1.2688489288706934,
+     "ci": [
+      1.146057572875549,
+      1.4133120201828935
+     ],
+     "true": 238.11666666666665
+    },
+    "collocation_or_non_bare": {
+     "pairs": 590,
+     "lift_af": 1.143507972665148,
+     "ci": [
+      0.8942988493090348,
+      1.4597727272727272
+     ],
+     "true": 41.83333333333333
+    }
+   }
+  }
+ }
+}

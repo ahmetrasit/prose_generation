@@ -1,0 +1,22 @@
+== ../../experiments/prompts/e2_integrate.md [brief] ~6,364 tokens; text lines {'named-ref': 1, 'cap-review': 1}; data lines {}
+     10: [named-ref] 'Fatiha' (NORTH_STAR aha: Fatiha as a traveller's prayer) | translation, the Fatiha and the whole surah). Compose one commentary from them.
+     38: [cap-review] 'word target' (cap vocabulary (review: 'there is no word target' is fine)) | thesis. Give them the space their development needs. There is no word target,
+== ../../experiments/prompts/e2_return.md [brief] ~4,793 tokens; text lines {}; data lines {}
+== ../../../v15/prompts/luna_evidence.md [brief] ~5,354 tokens; text lines {}; data lines {}
+== ../../../v15/prompts/luna_frames.md [brief] ~5,230 tokens; text lines {'scene': 2}; data lines {}
+      1: [scene] 'Scene tags' (scene vocabulary (decision 7)) | # Scene tags for dictionary branches
+      9: [scene] 'scene inventory' (scene vocabulary (decision 7)) | The scene inventory (JSON) follows the list of branches. Each scene has an id, a description and typical roles.
+== ../../../v15/prompts/luna_loanwords.md [brief] ~5,147 tokens; text lines {}; data lines {}
+== ../../../v15/prompts/luna_profiles.md [brief] ~5,004 tokens; text lines {}; data lines {}
+== ../../../v15/prompts/opus_discover.md [brief] ~6,874 tokens; text lines {'cap-review': 1, 'scene': 2, 'cap': 2}; data lines {}
+     16: [cap-review] 'in one sentence' (form rules stated as a count (review: a rule, or a cap?)) | - Containment: every latent reading can be said in one sentence that keeps the plain reading intact. Never "not X but Y".
+     25: [scene] 'Scene lines' (scene vocabulary (decision 7)) | 4. Scene lines touching its words: first in the neighbourhood, then scenes that reach elsewhere in the surah (each with at most a few far wo
+     25: [scene] 'scenes that' (scene vocabulary (decision 7)) | 4. Scene lines touching its words: first in the neighbourhood, then scenes that reach elsewhere in the surah (each with at most a few far wo
+     25: [cap] 'at most a few far words' (word-number caps) | 4. Scene lines touching its words: first in the neighbourhood, then scenes that reach elsewhere in the surah (each with at most a few far wo
+     27: [cap] 'up to {kwic_max} times' (template-parameter caps (e.g. 'up to {kwic_max} times')) | 6. The concordance for its lemmas: every use (lemmas used up to {kwic_max} times) or a use profile (frequent lemmas).
+== ../../../v15/prompts/opus_surah.md [brief] ~5,254 tokens; text lines {}; data lines {}
+== ../../../v15/prompts/opus_window.md [brief] ~7,090 tokens; text lines {'cap-review': 1, 'cap': 1, 'scene': 1}; data lines {}
+     18: [cap-review] 'in one sentence' (form rules stated as a count (review: a rule, or a cap?)) | - Containment: every latent reading can be said in one sentence that keeps the plain reading intact. Never "not X but Y".
+     29: [cap] 'at most a few far words' (word-number caps) | 6. For passages of long surahs: scenes of this window that reach elsewhere in the surah, each with at most a few far words (those adding rol
+     36: [scene] 'scene lines' (scene vocabulary (decision 7)) | 1. Start from the chain map. For each chain: ground it (each member is a word of this window plus a dictionary branch that carries the sense
+== ../../../v15/prompts/opus_write.md [brief] ~5,845 tokens; text lines {}; data lines {}

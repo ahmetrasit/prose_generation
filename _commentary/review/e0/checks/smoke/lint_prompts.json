@@ -1,0 +1,239 @@
+{
+ "tool_sha256": {
+  "lint.py": "563ba83e3f179bf4cd2d0905aca370326e5a1a3f714d1db75de4654b56483ad9",
+  "common.py": "a694d2f583fec2dbb2c42e2f9ecc4b80663de2923e65e2e38fba9c451e58f29d",
+  "lint_terms.eval.json": "7295efbfe24ffd8da044aedce8551cb355a91d6f39a48e427abeb9ffc0cccf60"
+ },
+ "inventory": {
+  "frames": 142,
+  "multi_word_roles": 114,
+  "path": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v15/data/frames_inventory.json"
+ },
+ "reports": [
+  {
+   "file": "../../experiments/prompts/e2_integrate.md",
+   "kind": "brief",
+   "sha256": "48a35b3e7311baa027a2db979d44a6757bf42a8972aebd469ca9e69ff692a7f8",
+   "chars": 4873,
+   "est_tokens": 6364,
+   "hits": [
+    {
+     "line": 10,
+     "category": "named-ref",
+     "severity": "named-ref",
+     "match": "Fatiha",
+     "from": "NORTH_STAR aha: Fatiha as a traveller's prayer",
+     "context": "text",
+     "text": "translation, the Fatiha and the whole surah). Compose one commentary from them."
+    },
+    {
+     "line": 38,
+     "category": "cap",
+     "severity": "cap-review",
+     "match": "word target",
+     "from": "cap vocabulary (review: 'there is no word target' is fine)",
+     "context": "text",
+     "text": "thesis. Give them the space their development needs. There is no word target,"
+    }
+   ],
+   "summary_text_lines": {
+    "named-ref": 1,
+    "cap-review": 1
+   },
+   "summary_data_lines": {}
+  },
+  {
+   "file": "../../experiments/prompts/e2_return.md",
+   "kind": "brief",
+   "sha256": "6e87b91d0a7c32a18b1a6d8c3a1fc0e934f59d9e00c805671c7b6861fd696709",
+   "chars": 580,
+   "est_tokens": 4793,
+   "hits": [],
+   "summary_text_lines": {},
+   "summary_data_lines": {}
+  },
+  {
+   "file": "../../../v15/prompts/luna_evidence.md",
+   "kind": "brief",
+   "sha256": "19ad12b47f9e10c815a52cc52f6e3650ddb01592971f310fd159ec4587c17842",
+   "chars": 2113,
+   "est_tokens": 5354,
+   "hits": [],
+   "summary_text_lines": {},
+   "summary_data_lines": {}
+  },
+  {
+   "file": "../../../v15/prompts/luna_frames.md",
+   "kind": "brief",
+   "sha256": "c4f93ea13482cdd3e7186a0f0df5b3e499e96cb9c7e36dca7041592f1d922811",
+   "chars": 1775,
+   "est_tokens": 5230,
+   "hits": [
+    {
+     "line": 1,
+     "category": "scene",
+     "severity": "scene",
+     "match": "Scene tags",
+     "from": "scene vocabulary (decision 7)",
+     "context": "text",
+     "text": "# Scene tags for dictionary branches"
+    },
+    {
+     "line": 9,
+     "category": "scene",
+     "severity": "scene",
+     "match": "scene inventory",
+     "from": "scene vocabulary (decision 7)",
+     "context": "text",
+     "text": "The scene inventory (JSON) follows the list of branches. Each scene has an id, a description and typical roles."
+    }
+   ],
+   "summary_text_lines": {
+    "scene": 2
+   },
+   "summary_data_lines": {}
+  },
+  {
+   "file": "../../../v15/prompts/luna_loanwords.md",
+   "kind": "brief",
+   "sha256": "e2cfcb4c48a125ebcbbfca73cd940beab2878850e02c06950dc3abe4b0d4688e",
+   "chars": 1549,
+   "est_tokens": 5147,
+   "hits": [],
+   "summary_text_lines": {},
+   "summary_data_lines": {}
+  },
+  {
+   "file": "../../../v15/prompts/luna_profiles.md",
+   "kind": "brief",
+   "sha256": "240c3299114870657f13c6a46e15441f4e460df6cca249a45628bd8464c096fc",
+   "chars": 1157,
+   "est_tokens": 5004,
+   "hits": [],
+   "summary_text_lines": {},
+   "summary_data_lines": {}
+  },
+  {
+   "file": "../../../v15/prompts/opus_discover.md",
+   "kind": "brief",
+   "sha256": "414ee4ca35c25458f3f0b42190503dd1d68cf8df43c4de81e2bee630d5c6dfe8",
+   "chars": 6267,
+   "est_tokens": 6874,
+   "hits": [
+    {
+     "line": 16,
+     "category": "cap",
+     "severity": "cap-review",
+     "match": "in one sentence",
+     "from": "form rules stated as a count (review: a rule, or a cap?)",
+     "context": "text",
+     "text": "- Containment: every latent reading can be said in one sentence that keeps the plain reading intact. Never \"not X but Y\"."
+    },
+    {
+     "line": 25,
+     "category": "scene",
+     "severity": "scene",
+     "match": "Scene lines",
+     "from": "scene vocabulary (decision 7)",
+     "context": "text",
+     "text": "4. Scene lines touching its words: first in the neighbourhood, then scenes that reach elsewhere in the surah (each with at most a few far words, those adding roles the neighbourhood lacks first, and a file listing every "
+    },
+    {
+     "line": 25,
+     "category": "scene",
+     "severity": "scene",
+     "match": "scenes that",
+     "from": "scene vocabulary (decision 7)",
+     "context": "text",
+     "text": "4. Scene lines touching its words: first in the neighbourhood, then scenes that reach elsewhere in the surah (each with at most a few far words, those adding roles the neighbourhood lacks first, and a file listing every "
+    },
+    {
+     "line": 25,
+     "category": "cap",
+     "severity": "cap",
+     "match": "at most a few far words",
+     "from": "word-number caps",
+     "context": "text",
+     "text": "4. Scene lines touching its words: first in the neighbourhood, then scenes that reach elsewhere in the surah (each with at most a few far words, those adding roles the neighbourhood lacks first, and a file listing every "
+    },
+    {
+     "line": 27,
+     "category": "cap",
+     "severity": "cap",
+     "match": "up to {kwic_max} times",
+     "from": "template-parameter caps (e.g. 'up to {kwic_max} times')",
+     "context": "text",
+     "text": "6. The concordance for its lemmas: every use (lemmas used up to {kwic_max} times) or a use profile (frequent lemmas)."
+    }
+   ],
+   "summary_text_lines": {
+    "cap-review": 1,
+    "scene": 2,
+    "cap": 2
+   },
+   "summary_data_lines": {}
+  },
+  {
+   "file": "../../../v15/prompts/opus_surah.md",
+   "kind": "brief",
+   "sha256": "a880b26b8fdbba0b387b12f7bfae31f5b63d13ff1f269d2b8fd11c28801dc112",
+   "chars": 1841,
+   "est_tokens": 5254,
+   "hits": [],
+   "summary_text_lines": {},
+   "summary_data_lines": {}
+  },
+  {
+   "file": "../../../v15/prompts/opus_window.md",
+   "kind": "brief",
+   "sha256": "675bf0ea557f6fb4cd6927faffe5e154f8898bb4259da29b084b49140a6038e1",
+   "chars": 6856,
+   "est_tokens": 7090,
+   "hits": [
+    {
+     "line": 18,
+     "category": "cap",
+     "severity": "cap-review",
+     "match": "in one sentence",
+     "from": "form rules stated as a count (review: a rule, or a cap?)",
+     "context": "text",
+     "text": "- Containment: every latent reading can be said in one sentence that keeps the plain reading intact. Never \"not X but Y\"."
+    },
+    {
+     "line": 29,
+     "category": "cap",
+     "severity": "cap",
+     "match": "at most a few far words",
+     "from": "word-number caps",
+     "context": "text",
+     "text": "6. For passages of long surahs: scenes of this window that reach elsewhere in the surah, each with at most a few far words (those adding roles the window lacks come first) and a file listing every member."
+    },
+    {
+     "line": 36,
+     "category": "scene",
+     "severity": "scene",
+     "match": "scene lines",
+     "from": "scene vocabulary (decision 7)",
+     "context": "text",
+     "text": "1. Start from the chain map. For each chain: ground it (each member is a word of this window plus a dictionary branch that carries the sense), correct it (members the dictionary does not carry, or that no word here suppl"
+    }
+   ],
+   "summary_text_lines": {
+    "cap-review": 1,
+    "cap": 1,
+    "scene": 1
+   },
+   "summary_data_lines": {}
+  },
+  {
+   "file": "../../../v15/prompts/opus_write.md",
+   "kind": "brief",
+   "sha256": "a690bd10cc42ef8581b4d9a1f7a639a22c2bb373d911b21a327ee33c1d66e0ce",
+   "chars": 3443,
+   "est_tokens": 5845,
+   "hits": [],
+   "summary_text_lines": {},
+   "summary_data_lines": {}
+  }
+ ]
+}

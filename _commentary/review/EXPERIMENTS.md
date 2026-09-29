@@ -114,12 +114,64 @@ is the integrated commentary against the better input. The key is in `KEY_open_a
 
   Production through Batch would be roughly half of each.
 
+## E0: the free layer (supply, link validation, checks, construction guard)
+
+**What was built** (`e0/`). Five agents wrote local scripts; no model read or wrote any commentary.
+
+| part | folder | what it is |
+|---|---|---|
+| supply v0 | `e0/supply/` | a per-ayah page (sections A–I), a pull file with every full list, and an audit file for the user only; 12 ayat |
+| link validator | `e0/validate/` | tests each link type on the HFT surprise set: does its path reach the word that activated a branch more often than chance? |
+| checks | `e0/checks/` | `check.py` (source of every Arabic quotation), `lint.py` (contamination), a frozen `scorecard.py`, a self-test |
+| construction guard | `e0/guard/` | for every occurrence of a root: does each collocation-bound branch's construction stand in the text? A record for the user only, plus an audit sheet |
+| adversarial review | `e0/review/fixes.md` | three blockers, nine major and thirteen minor findings |
+
+**What held up in the review:**
+
+- the [plain] marks: 82 of 82 match root-dossier;
+- the C/F tags: they match branch_kind;
+- determinism;
+- Majāz raw-text mapping: 25 of 25 sampled;
+- no script-authored verdict, score or scene id anywhere a model reads;
+- `check.py` on 21 real commentaries;
+- all 6 watch ingredients and all 17 probe items on the pages.
+
+**Fixed after the review** (details in each folder's README):
+
+| finding | fix | effect |
+|---|---|---|
+| B3 Majāz entry 1308 held surahs 19–114 | sqlite entries end at the first surah header; checks read the supply's mapped index | 18:108's Majāz section: about 160k tokens → 133; surah-19 quotes resolve to their own entries (19:73) |
+| M1 guard: most "present" calls wrong | lexeme matches need the same word class, no vowel clash and no sibling branch naming the same lexeme; partner/preposition matches need the same head class | present calls 2,553 → 1,597; lexeme presents 1,042 → 218 (all 21 outside عند right by hand); main-set precision at dossier placements ≤ 64% → 70%; recall 72.3% → 70.9% |
+| M2 audit sheet anchored and had no precision part | script calls hidden; positive questions; a new Part C (30 present + 10 absent calls, shuffled); dossier examples only | ready for your read: `e0/guard/audit_sheet.md` |
+| M3 bridge rule untested, focus counted | the supply's rule registered in the validator; focus ayah removed from k and n | full 2.24 [1.32, 4.05], test half 2.91 [1.39, 6.80], dev lower bound 0.75: positive but thin |
+| M4 recommended links not wired | root co-occurrence (PMI > 2) added to the supply; a `_validation` map in `supply_config.json` | 0–8 co-occurrence lines per page (31 on 5:6) |
+| M5, M6 thresholds read as "no signal" | the validator now says thresholds are push limits, and what "excluded" means | PMI > 1 still scores 1.28 [1.17, 1.42] |
+| M7, m10 scorecard mis-parsed the page | explicit E0 section map; `[plain: …]` read | 1:6: 40 non-plain branches (was 125), 136 link lines (was 11) |
+| M8 lens labels "echo", "loaded" | renamed `same-root-other-form`, `recurring-partner` | — |
+| m1 lint | a `relay` context for the chain section; JSON lines classed by key | the 29:38 relay bundle now shows as `answer/relay` |
+| m2, m3 late footnotes and markers in early entries | shared `e0/textclean.py`: 6 Ṣiḥāḥ edition notes (quoting Lisān, Tāj, Ibn Barrī, manuscripts) marked as omitted; OpenITI markers stripped | a late quote is no longer certified as early |
+| m5 HFT relay order leaked its classes | sorted by branch | — |
+| m8 folding joined حماة / وحماه to حمإ | a stem left ending in alif after suffix removal no longer joins a hamza root | the calf-muscle pointer to 15:26/28/33 is gone; bare حما (a true homograph) remains |
+| m12 blind surahs in the validator's set | S19 and S88 held out (3,325 → 3,210 targets) | the push set is unchanged: pointer 3.05, neighbours 7.76, co-occurrence 2.02 |
+| M9 plan gaps | 2:282 sized: 710k tokens; the 4:34 page is itself a Tier-3 page (surah 4 has no HFT); v5 relay left out on purpose (98% of its branches come from the sources the page relays) | — |
+
+The checks are now scorecard version 2 (37 of 37 self-test controls pass, re-frozen). Nothing had been scored with
+version 1 for a decision.
+
+**Still open (your decisions):**
+
+- **B1 push limits.** Pages run 39k–461k tokens, and 2:282 is 710k.
+- **B2 answer-fed probes.** On the probe ayat, the chain and relay layers carry the answers (29:38's HFT relay line
+  holds the whole eye-film bundle; the S1 channel review holds the Fatiha items).
+- **Bridges.** Whether the supply keeps its bridge rule.
+- **Pointer levels.** The unvalidated rare-anywhere level.
+
 ## Deferred and pending
 
 - **E3** (F1 vs B on 29:38, 18:86, 18:96 and 4 seeded blind ayat, with replicates; about $40–70) and **E6** (one blind
   short surah end to end; about $40–80). Both come after the small experiments and need a separate approval.
 - **E4 as specified cannot be reproduced faithfully.** The praised 29:38 pilot was written inside an interactive
-  session with no saved brief. Proposed replacement: the praised reading as the fixed reference, the compact supply run
-  twice on 29:38 (about $3–5). It must wait for E0, because both prototype supplies still carry presence verdicts
-  ("here: not found") and noisy cross-references.
+  session with no saved brief. Approved replacement: the praised reading as the fixed reference, the compact supply
+  run twice on 29:38 (about $3–5). E0 is built and fixed, but E4 waits for B1 (what the 137k-token 29:38 page pushes)
+  and B2 (whether its HFT relay, which carries the eye-film bundle, stays on).
 - **E5** needs an API key.

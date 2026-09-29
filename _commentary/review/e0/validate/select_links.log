@@ -1,0 +1,259 @@
+/Volumes/OZTURK/_projects/prose_generation/_commentary/review/e0/validate/select_links.py:109: RuntimeWarning: divide by zero encountered in divide
+  L = ys[idx].sum(1) / es[idx].sum(1)
+definitional_pointer   include  ptr_card400        dev 3.11 [1.7826825127334465, 5.875392863745608] test 3.01 [1.95,4.99] lift_b 1.712683483652517 disc True paths/ayah 5.2
+rare_lemma_bridge      exclude  bridge30_rev       dev 1.05 [1.0060156591204588, 1.085196296726434] test 1.02 [0.99,1.05] lift_b None disc None paths/ayah 42.8
+dictionary_neighbour   include  nb_any             dev 9.19 [4.333333333333333, 40.57142857142858] test 6.72 [3.12,23.39] lift_b 2.5895987414371078 disc True paths/ayah 2.1
+antonym_polarity {'decision': 'insufficient data', 'variants': ['nb_contrast'], 'note': 'fewer than 10 true paths on the dev half in every variant'}
+root_cooccurrence      include  cooc_ayah_pmi2     dev 2.03 [1.5239735274787418, 2.740909214472766] test 2.02 [1.61,2.60] lift_b None disc None paths/ayah 1.1
+formula_cooccurrence   exclude  formula_k5_pmi     dev 1.14 [0.9958453455444185, 1.2956523623156146] test 1.06 [0.95,1.19] lift_b None disc None paths/ayah 5.3
+slm_similarity         include  slm_p99            dev 2.23 [1.7906334968522277, 2.808478792624365] test 2.77 [2.27,3.41] lift_b 1.607359444082711 disc True paths/ayah 39.8
+qnet_keywords          include  qnet_core_df50     dev 2.85 [2.1586267282982754, 3.8535967727687637] test 2.83 [2.17,3.78] lift_b 1.7683154884146097 disc True paths/ayah 22.6
+early_cocitation       include  cc_quote_root      dev 1.16 [1.0183743214690855, 1.310099670811997] test 1.34 [1.17,1.54] lift_b None disc None paths/ayah 2.6
+{
+ "union": {
+  "types": [
+   "ptr_card400",
+   "nb_any",
+   "cooc_ayah_pmi2",
+   "slm_p99",
+   "qnet_core_df50",
+   "cc_quote_root"
+  ],
+  "coverage_pairs": 0.377324996406497,
+  "lift_af": 1.7055790781122657,
+  "ci": [
+   1.5831454514103747,
+   1.8405147541694356
+  ],
+  "lift_b": 1.23750346532859,
+  "ci_b": [
+   1.1906999393379518,
+   1.2863792742341673
+  ],
+  "true": 875.0166666666667,
+  "expected": 513.0320123503947
+ },
+ "unique": {
+  "ptr_card400": {
+   "reached": 0.03255713669685209,
+   "only_this": 0.004204398447606727
+  },
+  "nb_any": {
+   "reached": 0.01951272100043122,
+   "only_this": 0.0003234152652005175
+  },
+  "cooc_ayah_pmi2": {
+   "reached": 0.09567342245220642,
+   "only_this": 0.058372861865746736
+  },
+  "slm_p99": {
+   "reached": 0.16980738824205835,
+   "only_this": 0.07474486129078625
+  },
+  "qnet_core_df50": {
+   "reached": 0.10631019117435675,
+   "only_this": 0.038270806382061234
+  },
+  "cc_quote_root": {
+   "reached": 0.12201379905131522,
+   "only_this": 0.08607876958459107
+  }
+ },
+ "jaccard": {
+  "ptr_card400|slm_p99": 0.1424,
+  "ptr_card400|qnet_core_df50": 0.1076923076923077,
+  "nb_any|ptr_card400": 0.125,
+  "nb_any|slm_p99": 0.10491803278688525,
+  "nb_any|qnet_core_df50": 0.1485148514851485,
+  "cooc_ayah_pmi2|ptr_card400": 0.049868766404199474,
+  "cooc_ayah_pmi2|nb_any": 0.04956268221574344,
+  "cooc_ayah_pmi2|slm_p99": 0.07581227436823104,
+  "cooc_ayah_pmi2|qnet_core_df50": 0.053929121725731895,
+  "qnet_core_df50|slm_p99": 0.2827763496143959,
+  "cc_quote_root|ptr_card400": 0.036885245901639344,
+  "cc_quote_root|nb_any": 0.019693654266958426,
+  "cc_quote_root|cooc_ayah_pmi2": 0.06853582554517133,
+  "cc_quote_root|slm_p99": 0.06837606837606838,
+  "cc_quote_root|qnet_core_df50": 0.06040268456375839
+ },
+ "by_branch_kind": {
+  "bare": {
+   "pairs": 1015,
+   "coverage": 0.373989898989899,
+   "lift_af": 1.72991403549269,
+   "ci": [
+    1.5068757807781672,
+    1.9925320923313243
+   ]
+  },
+  "mixed_non_bare": {
+   "pairs": 1897,
+   "coverage": 0.38013182674199625,
+   "lift_af": 1.7226926565728957,
+   "ci": [
+    1.5617574013901738,
+    1.9005978912721722
+   ]
+  },
+  "non_bare": {
+   "pairs": 122,
+   "coverage": 0.39089147286821707,
+   "lift_af": 1.807347670250896,
+   "ci": [
+    1.2404746319942792,
+    2.7484464023048343
+   ]
+  },
+  "collocation": {
+   "pairs": 468,
+   "coverage": 0.37910052910052905,
+   "lift_af": 1.6601669857946546,
+   "ci": [
+    1.3662172729151432,
+    2.0177824857379725
+   ]
+  }
+ },
+ "by_branch_number": {
+  "B002-B003": {
+   "pairs": 1310,
+   "coverage": 0.40028968713789104,
+   "lift_af": 1.8169755511675894,
+   "ci": [
+    1.6235756383958195,
+    2.050989896916417
+   ]
+  },
+  "B004+": {
+   "pairs": 2221,
+   "coverage": 0.36371336996336995,
+   "lift_af": 1.639990495682978,
+   "ci": [
+    1.4907378215834817,
+    1.805988518889857
+   ]
+  }
+ },
+ "per_type_by_kind": {
+  "ptr_card400": {
+   "bare_or_mixed": {
+    "pairs": 2912,
+    "lift_af": 2.8284184877496594,
+    "ci": [
+     1.9133138191898733,
+     4.395262618911033
+    ],
+    "true": 58.5
+   },
+   "collocation_or_non_bare": {
+    "pairs": 590,
+    "lift_af": 6.387096774193548,
+    "ci": [
+     2.8371881606765323,
+     31.72142857142853
+    ],
+    "true": 16.5
+   }
+  },
+  "nb_any": {
+   "bare_or_mixed": {
+    "pairs": 2912,
+    "lift_af": 9.267810840844549,
+    "ci": [
+     4.853093769648481,
+     22.76910722723372
+    ],
+    "true": 34.75
+   },
+   "collocation_or_non_bare": {
+    "pairs": 590,
+    "lift_af": 5.040000000000001,
+    "ci": [
+     1.783734643734644,
+     94.04999999999971
+    ],
+    "true": 10.5
+   }
+  },
+  "cooc_ayah_pmi2": {
+   "bare_or_mixed": {
+    "pairs": 2912,
+    "lift_af": 2.0425506395446797,
+    "ci": [
+     1.6763944839689184,
+     2.507191374731553
+    ],
+    "true": 180.61666666666667
+   },
+   "collocation_or_non_bare": {
+    "pairs": 590,
+    "lift_af": 1.9847651290732118,
+    "ci": [
+     1.282979307365285,
+     3.292449522407343
+    ],
+    "true": 39.08333333333333
+   }
+  },
+  "slm_p99": {
+   "bare_or_mixed": {
+    "pairs": 2912,
+    "lift_af": 2.544526261066582,
+    "ci": [
+     2.1689969271137017,
+     3.028072593091539
+    ],
+    "true": 325.33333333333337
+   },
+   "collocation_or_non_bare": {
+    "pairs": 590,
+    "lift_af": 2.4269749506706724,
+    "ci": [
+     1.7555189975160035,
+     3.4846852867324865
+    ],
+    "true": 68.45
+   }
+  },
+  "qnet_core_df50": {
+   "bare_or_mixed": {
+    "pairs": 2912,
+    "lift_af": 2.922456210680133,
+    "ci": [
+     2.346588065131888,
+     3.6635750846005175
+    ],
+    "true": 195.66666666666666
+   },
+   "collocation_or_non_bare": {
+    "pairs": 590,
+    "lift_af": 2.5555643575765,
+    "ci": [
+     1.6778246422945697,
+     4.095046448772727
+    ],
+    "true": 49.7
+   }
+  },
+  "cc_quote_root": {
+   "bare_or_mixed": {
+    "pairs": 2912,
+    "lift_af": 1.2688489288706934,
+    "ci": [
+     1.146057572875549,
+     1.4133120201828935
+    ],
+    "true": 238.11666666666665
+   },
+   "collocation_or_non_bare": {
+    "pairs": 590,
+    "lift_af": 1.143507972665148,
+    "ci": [
+     0.8942988493090348,
+     1.4597727272727272
+    ],
+    "true": 41.83333333333333
+   }
+  }
+ }
+}

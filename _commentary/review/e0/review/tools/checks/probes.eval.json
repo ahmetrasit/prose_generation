@@ -1,0 +1,359 @@
+{
+ "_about": "EVALUATION ONLY. Never a model input, never copied into a brief, prompt or supply; lint.py skips *.eval.json. Watch probes for scorecard.py, written 2026-09-28 from NORTH_STAR.md (examples and 'The aha'), PHASE2_REPORT.md (sections 1, 5, 7 and the watch cases), phase2 B-noniterative watch lists and v12/eval/known_answers.md. Decision 8 (2026-09-28): named examples are probes, not must-finds; a workflow that misses one but brings other supported layers is doing its job. A probe hit or miss is a diagnostic line for the user, never a pass/fail and never a weight in any total. Each probe: id, what it looks for, 'any' = case-insensitive regexes (a hit if one matches anywhere) and/or 'all_in_sentence' = regexes that must all match inside one sentence (a hit if some sentence matches them all). Keys are focus refs; 'S:A-B' covers each ayah of the range.",
+ "probes": {
+  "1:1-7": [
+   {
+    "id": "traveller",
+    "what": "a traveller / road frame named",
+    "any": [
+     "yolcu\\w*",
+     "kervan\\w*"
+    ]
+   }
+  ],
+  "1:2": [
+   {
+    "id": "waymarks-alamin",
+    "what": "alamin heard with alam, the waymark",
+    "any": [
+     "(yol|kervan)\\w*[^.]{0,80}(işaret|alâmet|alamet|nişan)",
+     "(işaret|alâmet|alamet|nişan)\\w*[^.]{0,80}(yol|kervan)",
+     "أعلام الطريق|علم الطريق"
+    ]
+   },
+   {
+    "id": "rabb-herd",
+    "what": "rabb beside the one who tends / leads a herd",
+    "all_in_sentence": [
+     "sürü\\w*",
+     "rab\\w*|güd\\w*|çoban\\w*|besle\\w*"
+    ]
+   }
+  ],
+  "1:4": [
+   {
+    "id": "malik-lead-animal",
+    "what": "malik and the animal at the front of the herd",
+    "all_in_sentence": [
+     "sürü|kervan|deve|hayvan",
+     "önde|önden|başında|önünde|yeden"
+    ]
+   },
+   {
+    "id": "malik-road-middle",
+    "what": "malik and the middle of the road",
+    "any": [
+     "yol\\w*[^.]{0,40}orta\\w*",
+     "orta\\w*[^.]{0,40}yol\\w*",
+     "ملك الطريق"
+    ]
+   }
+  ],
+  "1:5": [
+   {
+    "id": "nabudu-trodden-road",
+    "what": "nabudu and the trodden road",
+    "any": [
+     "(çiğnen|ayak bas|dövül|düzlen|döşen|aşın)\\w*[^.]{0,40}yol",
+     "yol\\w*[^.]{0,40}(çiğnen|ayak bas|dövül|düzlen|aşın)",
+     "طريق معبد|معبد"
+    ]
+   }
+  ],
+  "1:6": [
+   {
+    "id": "sirat-swallowing",
+    "what": "sirat as the road that swallows",
+    "any": [
+     "yut\\w*",
+     "يبتلع|ابتلاع|بلع|سرط"
+    ]
+   },
+   {
+    "id": "qawm-well-or-standing-water",
+    "what": "q-w-m: the standing water or the well frame",
+    "any": [
+     "kuyu\\w*",
+     "makara\\w*",
+     "(duran|dikilen|durgun) su",
+     "suyun dur\\w*",
+     "قام الماء|بئر"
+    ]
+   }
+  ],
+  "1:7": [
+   {
+    "id": "dallin-stray",
+    "what": "dallin as the stray animal whose owner is unknown",
+    "any": [
+     "ضالة|الضالة"
+    ],
+    "all_in_sentence": [
+     "başıboş|kaybol|yitik|yolunu kaybet|sahibi\\w* bilin",
+     "deve|hayvan|sürü"
+    ]
+   }
+  ],
+  "4:34": [
+   {
+    "id": "qawwam-4:135",
+    "what": "qawwam echoed at 4:135",
+    "any": [
+     "4:135"
+    ]
+   },
+   {
+    "id": "qiyam-4:5",
+    "what": "the property 'made qiyam' at 4:5",
+    "any": [
+     "4:5\\b"
+    ]
+   },
+   {
+    "id": "nushuz-4:128",
+    "what": "the husband's nushuz at 4:128",
+    "any": [
+     "4:128"
+    ]
+   },
+   {
+    "id": "qanitat-parallel",
+    "what": "qanitat beside 2:238 or 33:31",
+    "any": [
+     "2:238",
+     "33:31"
+    ]
+   },
+   {
+    "id": "phrase-4:90",
+    "what": "the phrase parallel at 4:90",
+    "any": [
+     "4:90"
+    ]
+   },
+   {
+    "id": "word-4:81",
+    "what": "the word echo at 4:81",
+    "any": [
+     "4:81"
+    ]
+   },
+   {
+    "id": "daraba-travel-scoped",
+    "what": "daraba's travel sense tied to its phrase (fi l-ard) or marked as an echo",
+    "all_in_sentence": [
+     "yolculu\\w*|yola çık\\w*|sefer\\w*|yolcu\\w*",
+     "fi'?l-?arz|yeryüzünde|kalıp\\w*|kalıb\\w*|yankı\\w*|ifade\\w*|söz öbe\\w*|kuruluş\\w*"
+    ]
+   }
+  ],
+  "5:6": [
+   {
+    "id": "mirfaq-leaning",
+    "what": "mirfaq and leaning",
+    "all_in_sentence": [
+     "dirsek\\w*|mirfak\\w*|mer[aâ]fik\\w*|مرفق|ٱلْمَرَافِقِ|المرافق",
+     "yaslan\\w*|dayan\\w*|ittik[aâ]\\w*|الاتكاء|dinlen\\w*|rahatla\\w*"
+    ]
+   },
+   {
+    "id": "kab-kaba",
+    "what": "kab and the Kaba (5:95, 5:97)",
+    "any": [
+     "5:95",
+     "5:97"
+    ],
+    "all_in_sentence": [
+     "k[aâ]'?be\\b|k[aâ]'?be'\\w*|kâbe\\w*|الكعبة",
+     "ka'?b\\b|k[aâ]'b\\b|ka'?beyn\\w*|topuk\\w*|kemi\\w*|aynı kök\\w*|ٱلْكَعْبَيْنِ|كعب\\b|ayak\\w*"
+    ]
+   },
+   {
+    "id": "qawwamin-5:8",
+    "what": "qumtum heard again in qawwamin at 5:8",
+    "any": [
+     "5:8\\b",
+     "kavv[aâ]m[iî]n",
+     "قوامين|قَوَّٰمِينَ"
+    ]
+   }
+  ],
+  "18:86": [
+   {
+    "id": "hama-creation-passages",
+    "what": "hama beside the creation passages 15:26/28/33",
+    "any": [
+     "15:26",
+     "15:28",
+     "15:33"
+    ]
+   },
+   {
+    "id": "observer",
+    "what": "the mud as seen by an observer",
+    "all_in_sentence": [
+     "gör\\w*|bak\\w*|seyr\\w*|tanık\\w*|göz\\w*",
+     "balçık\\w*|çamur\\w*"
+    ]
+   },
+   {
+    "id": "ayn-sun-disk",
+    "what": "ayn as the sun disk",
+    "any": [
+     "güneş\\w*[^.]{0,40}(kurs|disk|gözü)",
+     "عين الشمس"
+    ]
+   },
+   {
+    "id": "hamiya",
+    "what": "the reading hamiya",
+    "any": [
+     "h[aâ]miye\\w*",
+     "حامية"
+    ]
+   },
+   {
+    "id": "iblis-18:50",
+    "what": "the refusal returns in the surah (18:50)",
+    "any": [
+     "18:50"
+    ]
+   }
+  ],
+  "18:96": [
+   {
+    "id": "nafakha-animating-passages",
+    "what": "the animating nafakha passages",
+    "any": [
+     "15:29",
+     "38:72",
+     "32:9",
+     "21:91",
+     "66:12",
+     "3:49",
+     "5:110"
+    ]
+   },
+   {
+    "id": "animating-named",
+    "what": "breathing life named",
+    "any": [
+     "can ver\\w*",
+     "dirilt\\w*",
+     "hayat ver\\w*",
+     "ruh üfle\\w*",
+     "canlandır\\w*"
+    ]
+   },
+   {
+    "id": "formula-echo-sawwa",
+    "what": "the formula echo sawwa ... nafakha",
+    "any": [
+     "sevv[aâ]\\w*",
+     "s[aâ]v[aâ]\\b",
+     "sawwa",
+     "سويته|سَوَّيْتُهُۥ"
+    ]
+   }
+  ],
+  "29:38": [
+   {
+    "id": "eye-film",
+    "what": "the eye film (sabil)",
+    "any": [
+     "السبل"
+    ],
+    "all_in_sentence": [
+     "göz\\w*",
+     "perde\\w*|zar\\b|zarı\\w*|örtü\\w*|hastalı\\w*|bulut\\w*|\\bağ\\b"
+    ]
+   },
+   {
+    "id": "spider-29:41",
+    "what": "the spider's house (29:41)",
+    "any": [
+     "29:41",
+     "örümcek\\w*"
+    ]
+   },
+   {
+    "id": "kohl-sadd",
+    "what": "fa-saddahum and kohl on a mirror",
+    "any": [
+     "sürme\\w*",
+     "كحل",
+     "kohl"
+    ]
+   },
+   {
+    "id": "ghishawa-bridge",
+    "what": "ghishawa at 2:7 or 45:23",
+    "any": [
+     "2:7\\b",
+     "45:23",
+     "غشاوة|غِشَٰوَةٌ"
+    ]
+   },
+   {
+    "id": "night-shelter-43:36",
+    "what": "the night shelter (43:36)",
+    "any": [
+     "43:36"
+    ]
+   },
+   {
+    "id": "coating-marked",
+    "what": "a 'coating' hearing of zayyana marked as memory",
+    "any": [
+     "(kapla|sıva|cila)\\w*[^.]{0,160}\\[bellek\\]"
+    ]
+   }
+  ],
+  "29:39-45": [
+   {
+    "id": "salah-second-horse",
+    "what": "salah beside the horse that comes second",
+    "any": [
+     "musall[iî]",
+     "المصلي"
+    ],
+    "all_in_sentence": [
+     "namaz\\w*|sal[aâ]t\\w*|ص ل و",
+     "ikinci\\w*|arkadan|peşinden|yarış\\w*"
+    ]
+   },
+   {
+    "id": "race-29:39",
+    "what": "the race of those who could not outstrip (29:39)",
+    "any": [
+     "29:39",
+     "yarış\\w*",
+     "s[aâ]bık\\w*"
+    ]
+   }
+  ],
+  "100:1-11": [
+   {
+    "id": "horses-in-argument",
+    "what": "the running horses tied to the surah's argument about man",
+    "all_in_sentence": [
+     "\\bat(lar|ların|lara|ları)?\\b",
+     "insan\\w*|nankör\\w*|ken[uû]d\\w*"
+    ]
+   }
+  ],
+  "103:1-3": [
+   {
+    "id": "asr-compression",
+    "what": "a-s-r as retention under compression (pressing)",
+    "any": [
+     "عصير|العصارة|usare"
+    ],
+    "all_in_sentence": [
+     "sık\\w*|basınç\\w*|sıkış\\w*",
+     "tut\\w*|koru\\w*|kalan\\w*|damla\\w*|çıkar\\w*|öz\\b|özü\\w*"
+    ]
+   }
+  ]
+ }
+}

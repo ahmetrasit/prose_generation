@@ -1,0 +1,416 @@
+{
+ "_about": "EVALUATION ONLY. Never a model input, never copied into a brief, prompt or supply. The contamination list for lint.py: named-case refs and names, answer phrases, the known contaminated example, verdict labels and length-cap patterns. Derived 2026-09-28 from NORTH_STAR.md ('What an ayah commentary carries', 'The aha', 'How a branch becomes heard', 'Integration'), PHASE2_REPORT.md (sections 1, 2, 4, 5, 6, 7, 9, 10 watch cases and examples), EXPERIMENTS.md, v12/eval/known_answers.md, and the v15 scene inventory (roles read live from v15/data/frames_inventory.json by lint.py; the curated single-word roles below are the ones that coincide with answers). Patterns are Python regexes, matched case-insensitively.",
+ "known_contamination": [
+  {
+   "id": "brief-example-15:26",
+   "pattern": "15:26\\W{1,6}(?:15:)?28\\W{1,6}(?:15:)?33",
+   "from": "PHASE2_REPORT 0 and 5: the v10/v11 brief citation example '(15:26, 15:28, 15:33)'"
+  }
+ ],
+ "named_refs": {
+  "_note": "Named cases (evaluation probes) and the refs that answer them. In a brief every hit counts; in a supply file refs are data and are reported as info only.",
+  "cases": [
+   "1:1",
+   "1:2",
+   "1:3",
+   "1:4",
+   "1:5",
+   "1:6",
+   "1:7",
+   "4:34",
+   "5:6",
+   "18:86",
+   "18:96",
+   "29:38",
+   "29:39",
+   "29:40",
+   "29:41",
+   "29:42",
+   "29:43",
+   "29:44",
+   "29:45",
+   "100:1-11",
+   "103:1-3"
+  ],
+  "answer_refs": [
+   "5:8",
+   "5:95",
+   "5:97",
+   "15:26",
+   "15:28",
+   "15:29",
+   "15:33",
+   "38:72",
+   "32:9",
+   "21:91",
+   "66:12",
+   "3:49",
+   "5:110",
+   "18:50",
+   "18:88",
+   "18:99",
+   "2:7",
+   "45:23",
+   "43:36",
+   "4:5",
+   "4:81",
+   "4:90",
+   "4:128",
+   "4:135",
+   "2:238",
+   "33:31",
+   "28:85"
+  ],
+  "blind_probe_refs": [
+   "19:70",
+   "19:73",
+   "19:75",
+   "88:17"
+  ]
+ },
+ "named_case_words": [
+  {
+   "pattern": "F[aâā]ti[hḥ]a\\w*",
+   "from": "NORTH_STAR aha: Fatiha as a traveller's prayer"
+  },
+  {
+   "pattern": "\\bS\\s?100\\b|s[uû]re(?:si)?\\s*100\\b|surah?\\s*100\\b|[ʿ'’]?[AĀ]diy[aā]t",
+   "from": "NORTH_STAR aha: S100"
+  },
+  {
+   "pattern": "\\bS\\s?103\\b|s[uû]re(?:si)?\\s*103\\b|surah?\\s*103\\b|al-[ʿ'’]?A[sṣ]r\\b",
+   "from": "NORTH_STAR: S103"
+  },
+  {
+   "pattern": "\\bS\\s?29\\b|\\bS29\\b",
+   "from": "v12 known answers: S29 probe"
+  },
+  {
+   "pattern": "\\bwatch[- ]cases?\\b|\\bgold (?:ledger|examples?|set)\\b|\\bknown answers?\\b",
+   "from": "evaluation vocabulary"
+  }
+ ],
+ "answer_phrases": [
+  {
+   "pattern": "travell?er'?s[’']? prayer|yolcu(?:nun)? dua",
+   "from": "NORTH_STAR aha"
+  },
+  {
+   "pattern": "way-?marks?\\b|yol (?:işaret|im)\\w*",
+   "from": "NORTH_STAR aha: way-marks in alamin"
+  },
+  {
+   "pattern": "lead(?:ing)? animal|bell-?wether|sürünün önünde\\w*|önden giden hayvan|kılavuz hayvan",
+   "from": "NORTH_STAR aha: the lead animal in malik; v15 inventory role"
+  },
+  {
+   "pattern": "(?:the )?road'?s middle|middle of the road|yolun ortası\\w*",
+   "from": "NORTH_STAR aha: the road's middle in malik"
+  },
+  {
+   "pattern": "trodden (?:road|path|way)|beaten (?:road|path|track)|çiğnen\\w* yol|ayak basıl\\w* yol|dövülmüş yol|ta[rṛ][iī]q mu[ʿ'’]?abbad",
+   "from": "NORTH_STAR aha: the trodden road in nabudu"
+  },
+  {
+   "pattern": "swallow\\w*[^.\\n]{0,40}(?:travell?er|road|path)|(?:road|path)[^.\\n]{0,30}swallow\\w*|yutan yol|yolcu\\w* yut\\w*",
+   "from": "NORTH_STAR aha: the road that swallows its travellers in sirat"
+  },
+  {
+   "pattern": "stray whose|whose (?:rabb|lord|owner) is unknown|sahibi bilinmeyen|başıboş (?:deve|hayvan)",
+   "from": "NORTH_STAR aha: the stray in dallin"
+  },
+  {
+   "pattern": "keeps? the travell?er alive|water that keeps|yolcuyu hayatta tut\\w*",
+   "from": "NORTH_STAR aha: the water that keeps the traveller alive"
+  },
+  {
+   "pattern": "gathered water|water as (?:a )?mainstay|water that stands|standing water|duran su|suyun dur\\w*",
+   "from": "NORTH_STAR aha + PHASE2 7: water as mainstay (B007), water that stands (q-w-m B016)"
+  },
+  {
+   "pattern": "\\bpulley\\b|well and its|kuyu makara\\w*|\\bmakara\\w*",
+   "from": "NORTH_STAR aha: the well and its pulley; v15 inventory role"
+  },
+  {
+   "pattern": "herd led by|led by its (?:rabb|lord)|sürü\\w*[^.\\n]{0,30}rabb\\w*",
+   "from": "NORTH_STAR aha + surah commentary: the herd led by its rabb"
+  },
+  {
+   "pattern": "running horses|horses?[^.\\n]{0,40}(?:argument|surah'?s argument)|koşan atlar",
+   "from": "NORTH_STAR aha: S100's running horses"
+  },
+  {
+   "pattern": "(?:comes?|coming) second in a race|second (?:horse|in a race)|horse that comes second|yarış\\w*[^.\\n]{0,30}ikinci|ikinci gelen at|mu[sṣ]all[iī]\\b",
+   "from": "NORTH_STAR aha + v12 known answers: salah beside the horse that comes second"
+  },
+  {
+   "pattern": "tried to outrun|outrun|outstrip\\w*|s[aā]biq[iī]n",
+   "from": "NORTH_STAR aha: those who tried to outrun (29:39)"
+  },
+  {
+   "pattern": "eye[- ]disease|eye[- ]film|film over the eye|göz\\w* perde\\w*|gözdeki perde|göz hastalığ\\w*",
+   "from": "NORTH_STAR dictionary as supplier: the eye disease in as-sabil; 29:38 watch case; v15 inventory role"
+  },
+  {
+   "pattern": "\\bspider\\w*|örümcek\\w*|[ʿ'’]?ankab[uū]t",
+   "from": "PHASE2 1: the eye film definition names the spider, 29:41"
+  },
+  {
+   "pattern": "\\bkohl\\b|sürme(?:si|yle|li)?\\b|\\bkuhl\\b",
+   "from": "PHASE2 7: sadd B013 kohl on a mirror; v15 inventory role (dress.adornment)"
+  },
+  {
+   "pattern": "\\bcoating\\b|kaplama\\w*|sıva\\w*",
+   "from": "PHASE2 7 and decision 5: zayyana as 'coating'"
+  },
+  {
+   "pattern": "gh[iī]sh[aā]wa|ğişâve|gışave",
+   "from": "PHASE2 1: rare-word bridge ghishawa (2:7, 45:23)"
+  },
+  {
+   "pattern": "night[- ]shelter|gece barına\\w*",
+   "from": "PHASE2 9.8: the night shelter bayt ~ ashw (43:36)"
+  },
+  {
+   "pattern": "iqra\\S*[^.\\n]{0,40}more than|more than [\"“']?oku\\b|oku[\"”']? kelimesinden fazla",
+   "from": "NORTH_STAR: iqra is more than 'oku'"
+  },
+  {
+   "pattern": "two articles",
+   "from": "NORTH_STAR: the two articles of as-sirat al-mustaqim"
+  },
+  {
+   "pattern": "mirfaq|mirfak\\b|dirsek\\w*[^.\\n]{0,40}yaslan\\w*|elbow\\w*[^.\\n]{0,30}lean\\w*|lean\\w*[^.\\n]{0,30}elbow",
+   "from": "NORTH_STAR: 5:6 mirfaq leaning"
+  },
+  {
+   "pattern": "ka[ʿ'’]?b(?:ayn)?\\b[^.\\n]{0,60}ka[ʿ'’]?ba|ka[ʿ'’]?be\\w*[^.\\n]{0,60}topuk|topuk\\w*[^.\\n]{0,60}ka[ʿ'’]?be",
+   "from": "NORTH_STAR: 5:6 kab and the Kaba"
+  },
+  {
+   "pattern": "qiy[aā]man|qaww[aā]m[iī]n|kavv[aâ]m[iî]n",
+   "from": "NORTH_STAR: 5:6 qiyaman, qawwamin in 5:8"
+  },
+  {
+   "pattern": "human fabric|seen by an observer|\\bobserver\\b|gözlemci|bakan göz",
+   "from": "NORTH_STAR: hama as mud seen by an observer (18:86)"
+  },
+  {
+   "pattern": "\\banimating\\b|breath\\w* life|blowing the bellows|\\bbellows\\b|körük\\w*|can ver\\w*|ruh üfle\\w*",
+   "from": "NORTH_STAR: nafakha animating, not only bellows (18:96)"
+  },
+  {
+   "pattern": "19 of (?:its )?20|20 kullanımın\\w* 19",
+   "from": "NORTH_STAR: nafakha animating in 19 of 20 uses"
+  },
+  {
+   "pattern": "f[iī]hi min r[uū][hḥ][iī]|f[iī] [sṣ]-?[sṣ][uū]r|sawwaytuhu|nafakhtu",
+   "from": "PHASE2 1 and 7: nafakha constructions and the formula echo"
+  },
+  {
+   "pattern": "retention under compression|sıkıştır\\w*[^.\\n]{0,30}tut\\w*|squeez\\w*[^.\\n]{0,30}retain\\w*",
+   "from": "NORTH_STAR integration: S103 a-s-r"
+  },
+  {
+   "pattern": "the thirsty hear water|the lost hear guidance|susamış\\w* su\\w* duy",
+   "from": "NORTH_STAR question"
+  },
+  {
+   "pattern": "sun[- ]dis[ck]|güneş (?:kursu|diski)|[hḥ][aā]miya\\b",
+   "from": "PHASE2 7: 18:86 ayn B008 the sun disk; the qiraa hamiya"
+  },
+  {
+   "pattern": "[ḍd]araba\\w*[^.\\n]{0,60}travel|strike\\w*[^.\\n]{0,40}travel|daraba fi l-?ar[dḍ]",
+   "from": "PHASE2 3, 5: daraba at 4:34 and travel (B002)"
+  },
+  {
+   "pattern": "[ʿ'’][AĀ]d\\b[^.\\n]{0,40}[ʿ'’]adad|[ʿ'’]-?d-?d echo",
+   "from": "PHASE2 9.8: the Ad / a-d-d echo"
+  },
+  {
+   "pattern": "halt and walking|na[ʿ'’][iī]m[^.\\n]{0,40}(?:halt|walk)",
+   "from": "PHASE2 7: naim as halt and walking (n-a-m B011/B012)"
+  },
+  {
+   "pattern": "\\bveil\\b[^.\\n]{0,40}\\bs[aṣ]dd|mirror\\b[^.\\n]{0,40}kohl|kohl[^.\\n]{0,40}mirror",
+   "from": "PHASE2 7: sadd B012 veil, B013 kohl on a mirror"
+  }
+ ],
+ "answer_phrases_ar": [
+  {
+   "pattern": "كحل",
+   "from": "29:38 kohl"
+  },
+  {
+   "pattern": "غشاوه",
+   "from": "ghishawa bridge"
+  },
+  {
+   "pattern": "عنكبوت",
+   "from": "spider, 29:41"
+  },
+  {
+   "pattern": "المصلي",
+   "from": "the horse that comes second (salah)"
+  },
+  {
+   "pattern": "طريق معبد",
+   "from": "the trodden road (nabudu)"
+  }
+ ],
+ "curated_roles": {
+  "_note": "Single-word v15 inventory roles that coincide with answers (lint.py also flags every multi-word inventory role and every scene id). 'near' roles count only with a context word on the same line.",
+  "roles": [
+   "stray",
+   "straggler",
+   "follower",
+   "waymark",
+   "halt",
+   "lead animal",
+   "film over the eye",
+   "pulley",
+   "kohl",
+   "elbow rest",
+   "being swallowed",
+   "tar coating",
+   "coating",
+   "turn at water",
+   "abundant water",
+   "dry well",
+   "water source",
+   "getting lost",
+   "star-guide",
+   "falling behind"
+  ],
+  "near": {
+   "frame": [
+    "well",
+    "bucket",
+    "pulley",
+    "rope",
+    "kuyu",
+    "bi[ʾ']?r\\b",
+    "بئر",
+    "بير",
+    "water"
+   ],
+   "beam": [
+    "well",
+    "bucket",
+    "pulley",
+    "rope",
+    "kuyu",
+    "بئر",
+    "water"
+   ],
+   "middle": [
+    "road",
+    "yol",
+    "herd",
+    "mālik",
+    "malik"
+   ],
+   "leaning": [
+    "elbow",
+    "dirsek",
+    "mirfaq",
+    "mirfak"
+   ],
+   "guide": [
+    "herd",
+    "animal",
+    "sürü"
+   ],
+   "leader": [
+    "herd",
+    "animal",
+    "sürü"
+   ],
+   "last": [
+    "race",
+    "horse",
+    "yarış"
+   ]
+  }
+ },
+ "verdict_patterns": [
+  {
+   "pattern": "\\bno value\\b",
+   "from": "inter-ayah labels (PHASE2 2)"
+  },
+  {
+   "pattern": "[\\[(|:]\\s*(?:strong|moderate|weak)\\s*[\\])|,;]|^\\s*(?:strong|moderate|weak)\\b|\\t(?:strong|moderate|weak)\\t|\\bSTRONG\\b|\\bstrength:\\s*\\w+",
+   "from": "grade labels (strong/moderate/weak)"
+  },
+  {
+   "pattern": "DEPARTS",
+   "from": "C2 'THIS OCCURRENCE DEPARTS'"
+  },
+  {
+   "pattern": "\\bwithheld\\b",
+   "from": "C2 'withheld here'"
+  },
+  {
+   "pattern": "present(?: in this ayah| here)?\\s*:\\s*(?:no|yes)\\b|here:\\s*not found|\\bnot found here\\b|construction (?:absent|present)\\b",
+   "from": "presence verdicts (B 'present: no', 'here: not found')"
+  },
+  {
+   "pattern": "\\[\\s*\\d+\\s+readings?\\s*\\]|\\(not used above\\)",
+   "from": "A's popularity labels"
+  },
+  {
+   "pattern": "\\becho[- ]only\\b|\\becho tier\\b|^#+\\s*ECHO\\b|\\[\\s*echo\\s*\\]",
+   "from": "script-computed echo-tier labels"
+  },
+  {
+   "pattern": "\\b(?:confidence|grade|score|verdict)\\s*[:=]\\s*\\S+|\\bgrade\\s*=\\s*|\\breject(?:ed)?\\b\\s*[:|]",
+   "from": "confidence / grade / verdict fields"
+  },
+  {
+   "pattern": "\\bdominant role\\b[^\\n]*=\\s*0?\\.\\d+|=\\s*0\\.\\d+\\s+of\\s+\\d+",
+   "from": "C2 dominant-role ratio used as a verdict"
+  }
+ ],
+ "cap_patterns": [
+  {
+   "pattern": "(?:at most|no more than|not more than|up to|maximum(?: of)?|max\\.?|under|fewer than|less than|limit(?:ed)? to|cap(?:ped)? at|not (?:to )?exceed(?:ing)?|within|≤|<=)\\s*~?\\{?\\w*\\}?\\s*\\d[\\d,.]*\\s*(?:words?|sentences?|paragraphs?|lines?|items?|refs?|references?|passages?|verses?|ayat|ayahs?|images?|chains?|findings?|tokens?|characters?|chars?|pages?|bullets?|sections?|examples?|quotations?|branches?|members?|times)\\b",
+   "severity": "cap",
+   "from": "numeric caps"
+  },
+  {
+   "pattern": "(?:at most|no more than|up to|maximum(?: of)?|max\\.?|within)\\s*\\{[a-z_]+\\}\\s*(?:words?|sentences?|paragraphs?|lines?|items?|refs?|verses?|images?|members?|times|uses?)?",
+   "severity": "cap",
+   "from": "template-parameter caps (e.g. 'up to {kwic_max} times')"
+  },
+  {
+   "pattern": "\\b\\d[\\d,]*\\s*[–-]\\s*\\d[\\d,]*\\s*(?:words?|sentences?|paragraphs?|lines?|pages?)\\b",
+   "severity": "cap",
+   "from": "length ranges"
+  },
+  {
+   "pattern": "\\b\\d[\\d,]*\\s*(?:words?|sentences?|paragraphs?|lines?)\\s*(?:max(?:imum)?|or (?:fewer|less)|at most)\\b",
+   "severity": "cap",
+   "from": "trailing caps"
+  },
+  {
+   "pattern": "(?:at most|no more than|up to|only|exactly|maximum of)\\s+(?:one|two|three|four|five|six|seven|eight|nine|ten|a few)\\s+(?:words?|sentences?|paragraphs?|lines?|items?|refs?|references?|passages?|verses?|images?|chains?|findings?|examples?|far words)\\b",
+   "severity": "cap",
+   "from": "word-number caps"
+  },
+  {
+   "pattern": "en (?:fazla|çok)\\s*\\d+|\\d+\\s*(?:kelime|sözcük|cümle|paragraf|satır)\\w*\\s*(?:geçme|aşma|sınır|en fazla|ile sınırl)",
+   "severity": "cap",
+   "from": "Turkish caps"
+  },
+  {
+   "pattern": "\\b(?:in )?(?:one|a single|two|three) (?:sentence|clause|paragraph)s?\\b",
+   "severity": "cap-review",
+   "from": "form rules stated as a count (review: a rule, or a cap?)"
+  },
+  {
+   "pattern": "\\bword (?:target|limit|count|budget)\\b|\\blength (?:limit|cap|budget)\\b|\\bimage limit\\b|\\bcap\\b",
+   "severity": "cap-review",
+   "from": "cap vocabulary (review: 'there is no word target' is fine)"
+  }
+ ]
+}

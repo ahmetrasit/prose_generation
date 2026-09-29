@@ -1,0 +1,77 @@
+{
+ "_comment": "Switches and definitions for supply v0. Numbers here DEFINE a link type or a lens (what counts as a pointer, a bridge, a parallel); none of them caps or trims a list. Sizes are reported, never judged.",
+ "window_radius": 7,
+ "whole_surah_text_except": [
+  2
+ ],
+ "links": {
+  "definitional_pointers": true,
+  "definitional_pointers_inward": true,
+  "rare_lemma_bridges": true,
+  "dictionary_neighbours": true,
+  "quran_slm_pairs": false
+ },
+ "pointer": {
+  "_comment": "A lexeme named in a branch's own text (image, definition, early phrases) points to another root. Kept when that root is in this ayah or the window and the lexeme is not general defining vocabulary (defining_df = number of dictionary branches whose text contains it), or elsewhere in the surah and the lexeme is specific, or anywhere in the Quran when the root itself is rare.",
+  "window_max_defining_df": 100,
+  "window_root_max_ayat": 400,
+  "surah_max_defining_df": 40,
+  "surah_root_max_ayat": 100,
+  "rare_root_max_ayat": 12
+ },
+ "bridge": {
+  "_comment": "A lemma named in a branch text, found in few ayat, that the Quran puts beside a neighbour's root in at least min_share of its ayat and in at least min_witness_ayat ayat (random branch-root pairs pass this about 1.4% of the time; see README).",
+  "lemma_max_ayat": 30,
+  "neighbour_root_max_ayat": 400,
+  "min_witness_ayat": 2,
+  "min_share": 0.5
+ },
+ "neighbours": {
+  "_comment": "Dictionary neighbour_distinctions whose other branch's root is in this ayah or window; contrast relations also at surah level.",
+  "surah_level_relations": [
+   "antonym",
+   "polarity_pair"
+  ]
+ },
+ "slm_pairs": {
+  "max_mutual_rank": 10
+ },
+ "usage": {
+  "every_use_max_uses": 40,
+  "kwic_words": 4,
+  "partner_min_attach": 1,
+  "formula_max_ayat": 8
+ },
+ "parallels": {
+  "_comment": "A lens includes an ayah when its lens score beats the quantile of the same lens over random ayah pairs (membership by evidence, not by count).",
+  "lenses": [
+   "root",
+   "lemma",
+   "phrase",
+   "echo",
+   "loaded",
+   "textmap"
+  ],
+  "random_quantile": 0.999,
+  "random_focus_sample": 400,
+  "seed": 15,
+  "show_text_other_surah": true,
+  "echo_root_max_ayat": 200,
+  "phrase_ngram_max_ayat": 60,
+  "phrase_content_lemma_max_ayat": 300,
+  "loaded_root_ayat": [
+   2,
+   60
+  ]
+ },
+ "chains": {
+  "channel_reviews": true,
+  "hft_relay": true,
+  "v12_relay": true,
+  "relay_text": false
+ },
+ "majaz": {
+  "raw_fallback": true,
+  "marker_window": 5
+ }
+}

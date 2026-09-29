@@ -1,0 +1,1375 @@
+{
+ "schema": "e0.validate.recommended_links.v2",
+ "frozen": "2026-09-28",
+ "status": "recommendation from free local scripts; thresholds are frozen (a change needs a re-run of eval_hft.py and select_links.py); what is pushed versus pulled is the user's decision (push limits are not decided). The thresholds are PUSH LIMITS, not definitions of signal: the selection rule maximises the dev-half lower bound of lift, a precision criterion, and looser variants still carry signal (root co-occurrence PMI > 1: lift 1.28 [1.167, 1.415]; quran-slm top 5%: 1.42 [1.332, 1.514]; pointer with no card threshold: 2.27 [1.769, 2.942]). Every candidate of every type stays in the pull file; nothing is pruned (review M5).",
+ "question": "does a path of this type connect a neighbour-activated dictionary branch to the word that activated it, more often than it connects the same branch to another word of the ayah (matched on frequency, and on part of speech), and more often than another branch of the same root to the same word?",
+ "evaluation_set": {
+  "targets": 3210,
+  "raw_cases": 3279,
+  "ayat": 1902,
+  "surahs": 79,
+  "activator_pairs": 4627,
+  "dev_targets": 1476,
+  "test_targets": 1734,
+  "bootstrap": 2000,
+  "seed": 20260928,
+  "volume_ayat": 300,
+  "source": "HFT surprising_valid_outliers (Sol, max effort) whose first trace step activates a non-B001 branch of a focus word and whose trace cites another root of the same ayah; named surahs excluded (K-northstar-critic/hft_na_set.py); the E3 blind surahs 19 and 88 held out (review m12)",
+  "split": "dev = odd surahs, test = even surahs",
+  "ci": "percentile bootstrap, 2,000 resamples, clustered by ayah (and by surah)"
+ },
+ "selection_rule": "(fixed in this file; volume is reported, never used to gate -- no caps):\n  1. Per family, among its candidate variants, pick the one with the highest DEV-half (odd surahs) lower 95% bound\n     of lift_af (frequency-matched other word of the same ayah, ayah-cluster bootstrap). A variant needs at least\n     10 true paths on the dev half to be eligible (below that the bound is not estimable).\n  2. The family is INCLUDED if, on the TEST half (even surahs), that variant's lift_af lower bound is > 1.\n     It is marked branch-discriminating if its test-half lift_b lower bound is also > 1 (branch->root scope only).\n  3. A family whose every variant has test lift_af upper bound <= 1.05 or dev lower bound < 1 is EXCLUDED as carrying\n     no activation signal on this set.",
+ "label_caveats": [
+  "HFT labels come from Sol readers and share their biases: they are surprise-seeking, canonical-leaning in what they accept as valid, and 13% of the target branches are collocation-bound (construction drift in the labels themselves).",
+  "The HFT readers saw each focus branch's image and definition (what_is) and the images of the neighbour roots' branches, but not the early source phrases, the dictionary neighbour relations, Qnet keywords or co-citations. Types built from the visible card text (definitional pointer, quran-slm card similarity, Qnet keywords generated from the same card prose) share the labeller's input and are likely inflated; the pointer restricted to the unseen early phrases has a lower lift (1.49, 95% CI [0.946, 2.427]) than the pointer in the seen fields (2.83).",
+  "Only within-ayah neighbour activation of non-B001 branches is tested. Cross-ayah links (window, surah, parallels such as formula echoes) and plain-sense activation are untested here; the 29:38 check is in-sample and never tuned anything.",
+  "Activators are rarer content words than the average word of an ayah (median 74 vs 177 ayat), so the unmatched base rate is biased; all decisions use the frequency-matched base, and a POS+frequency matched base gives the same conclusions.",
+  "Even the whole recommended set reaches only 38% of HFT activator pairs; most neighbour activations have no script path.",
+  "What \"excluded\" and \"no signal\" mean here: the type does not single out the cited activator among the other words of the ayah. HFT lists only the activators its readers cited, so real but uncited activators sit in the base, and a type that reaches many words scores near 1 even when it carries signal (review M6). The test is within-ayah only; an excluded type may still serve another job (cross-ayah parallels, formula echoes)."
+ ],
+ "display_rules": [
+  "Descriptive lines only: no score, rank, PMI value, similarity value, confidence, count used for sorting, or any verdict (present/absent, strong/weak) in anything a model reads.",
+  "Lines sit under their branch; branches in dictionary order; partner words in ayah word order; witness ayat in Quran order.",
+  "Every branch line keeps its branch_kind scope note (the construction guard applies to link lines as to branch lines).",
+  "No numeric limit on the number of lines of an included type (no caps); sizes are reported, not trimmed.",
+  "Nothing named in the North Star or the watch cases may appear in a template or an example."
+ ],
+ "push": [
+  {
+   "id": "definitional_pointer",
+   "family": "definitional pointer",
+   "rule": {
+    "source": "dictionary tr entry of the branch: branch_image_ar, what_is_ar, source_phrase_ar (source tags removed); what_is_not_ar is never used",
+    "normalize": "strip diacritics and tatweel; أإآٱ→ا, ى→ي, ة→ه, ؤ→و, ئ→ي",
+    "match": "whole word: a token equals a QAC lemma (article removed) or a single-root surface form; the least-stripped spelling wins (token; minus pronoun suffix ها هم هن كم نا ه ك; minus prefix وال فال بال كال لل ال و ف ب ل ك with at least 3 letters left; both)",
+    "skip": "function words (lib.STOP_TOK) and و/ف + function word; the branch's own root; ء ل ه",
+    "threshold": "the named root is named in the texts of at most 400 of the dictionary's 11,773 branches (card df over the same three fields)",
+    "direction": "from every branch of every root in the ayah to every other word of the ayah whose root it names (validated); to window or surah words: allowed, not validated here",
+    "implementation": "links._ptr(T, r, cardcap=400); lib.NAMES; lib.CARD_DF"
+   },
+   "display_template": "{root} {Bnn} names «{token as written}» ({field}) → {surface} ({partner root}, w{n})",
+   "evidence": {
+    "variant": "ptr_card400",
+    "coverage_of_true_pairs": 0.031,
+    "lift_vs_freq_matched_word": 3.049,
+    "ci95_ayah": [
+     2.153,
+     4.581
+    ],
+    "ci95_surah": [
+     1.898,
+     4.887
+    ],
+    "lift_vs_other_branch_same_root": 1.436,
+    "ci95_branch": [
+     1.154,
+     1.744
+    ],
+    "dev_odd_surahs": {
+     "lift": 3.11,
+     "ci95": [
+      1.783,
+      5.875
+     ]
+    },
+    "test_even_surahs": {
+     "lift": 3.009,
+     "ci95": [
+      1.95,
+      4.993
+     ],
+     "lift_branch": 1.713,
+     "ci95_branch": [
+      1.295,
+      2.224
+     ]
+    },
+    "units_per_ayah_hft_sample": {
+     "mean": 5.237,
+     "p90": 14.0,
+     "max": 59.0
+    },
+    "share_through_frequent_root_or_lemma": 0.194,
+    "lift_vs_pos_and_freq_matched_word": 2.822,
+    "ci95_pos_matched": [
+     1.953,
+     4.275
+    ],
+    "in_sample_29_38": "6/19 gold links (expected 0.0 for other words, 0.69 for other branches)",
+    "calibrated_tokens_per_ayah_whole_quran_sample": {
+     "mean": 224.604,
+     "p90": 592.43,
+     "max": 2843.202,
+     "at_2_282": 7252.018
+    }
+   },
+   "note": "The HFT-unseen early-phrase part alone is weaker and uncertain (see label_caveats). Chosen over the ayah-frequency cap (ptr_df300, test lift 2.53) by the dev-half rule."
+  },
+  {
+   "id": "dictionary_neighbour_relation",
+   "family": "dictionary neighbour relation (typed), including antonym/polarity",
+   "rule": {
+    "source": "neighbor_distinctions of both branches (symmetric)",
+    "relation_types": "all: near_synonym, synonym, near_neighbor, same_field, thematic, other, polarity_pair, antonym",
+    "implementation": "links._nb(T, r)"
+   },
+   "display_template": "{root} {Bnn} «{image}» / {partner root} {Bmm} «{image}»: {relation_type} [optionally the dictionary's own distinction sentence]",
+   "evidence": {
+    "variant": "nb_any",
+    "coverage_of_true_pairs": 0.018,
+    "lift_vs_freq_matched_word": 7.758,
+    "ci95_ayah": [
+     4.398,
+     17.201
+    ],
+    "ci95_surah": [
+     4.643,
+     15.882
+    ],
+    "lift_vs_other_branch_same_root": 2.644,
+    "ci95_branch": [
+     2.013,
+     3.591
+    ],
+    "dev_odd_surahs": {
+     "lift": 9.186,
+     "ci95": [
+      4.333,
+      40.571
+     ]
+    },
+    "test_even_surahs": {
+     "lift": 6.717,
+     "ci95": [
+      3.121,
+      23.385
+     ],
+     "lift_branch": 2.59,
+     "ci95_branch": [
+      1.8,
+      4.073
+     ]
+    },
+    "units_per_ayah_hft_sample": {
+     "mean": 2.087,
+     "p90": 6.0,
+     "max": 24.0
+    },
+    "share_through_frequent_root_or_lemma": 0.0,
+    "lift_vs_pos_and_freq_matched_word": 6.602,
+    "ci95_pos_matched": [
+     3.672,
+     15.935
+    ],
+    "in_sample_29_38": "5/19 gold links (expected 0.13 for other words, 0.09 for other branches)",
+    "calibrated_tokens_per_ayah_whole_quran_sample": {
+     "mean": 156.539,
+     "p90": 466.229,
+     "max": 1983.574,
+     "at_2_282": 4398.281
+    }
+   },
+   "antonym_polarity": {
+    "true_paths": 4.583,
+    "expected_freq_matched": 0.0,
+    "lift_vs_global_freq_matched": 20.0,
+    "ci95": [
+     5.246,
+     62.0
+    ],
+    "note": "too few cases to test alone (5 true paths); kept as a labelled subtype of the relation, never as a separate claim. Contrasts in general remain unsolved by script."
+   },
+   "note": "Independent of what the HFT readers saw; the highest lift of all types, tiny volume."
+  },
+  {
+   "id": "root_cooccurrence",
+   "family": "root co-occurrence (PMI over ayat)",
+   "rule": {
+    "unit": "ayah; root sets from QAC words",
+    "exclude": "the current ayah is removed from all counts",
+    "threshold": "c >= 2 other ayat contain both roots and ln(c*(N-1)/(nA*nB)) > 2.0 (nA, nB: other ayat with each root; N = 6,236)",
+    "implementation": "links._cooc(T, r, X, \"ayah\", 2.0)"
+   },
+   "display_template": "{root} + {partner root} also meet in {every witness ayah, Quran order}",
+   "evidence": {
+    "variant": "cooc_ayah_pmi2",
+    "coverage_of_true_pairs": 0.095,
+    "lift_vs_freq_matched_word": 2.024,
+    "ci95_ayah": [
+     1.686,
+     2.44
+    ],
+    "ci95_surah": [
+     1.736,
+     2.376
+    ],
+    "lift_vs_other_branch_same_root": null,
+    "ci95_branch": null,
+    "dev_odd_surahs": {
+     "lift": 2.027,
+     "ci95": [
+      1.524,
+      2.741
+     ]
+    },
+    "test_even_surahs": {
+     "lift": 2.021,
+     "ci95": [
+      1.608,
+      2.603
+     ],
+     "lift_branch": null,
+     "ci95_branch": null
+    },
+    "units_per_ayah_hft_sample": {
+     "mean": 1.053,
+     "p90": 3.0,
+     "max": 25.0
+    },
+    "share_through_frequent_root_or_lemma": 0.082,
+    "lift_vs_pos_and_freq_matched_word": 1.971,
+    "ci95_pos_matched": [
+     1.619,
+     2.435
+    ],
+    "in_sample_29_38": "3/19 gold links (expected 0.75 for other words, 3.0 for other branches)",
+    "calibrated_tokens_per_ayah_whole_quran_sample": {
+     "mean": 90.719,
+     "p90": 281.638,
+     "max": 1354.938,
+     "at_2_282": 716.27
+    }
+   },
+   "note": "Root-level: it cannot tell branches of one root apart. The ±3-ayah window variant (lift 1.72) was not chosen by the rule."
+  }
+ ],
+ "pull_only_proposal": [
+  {
+   "id": "image_pair",
+   "family": "quran-slm card similarity OR shared rare core Qnet keyword",
+   "rule": {
+    "slm": "fused RRF (0.35 E5 + 0.35 NeoAraBERT + 0.30 character, symmetric) of the target branch with the best branch of the partner root >= the 99th percentile of 20,000 random cross-root card pairs (0.00755)",
+    "qnet": "a shared core keyword whose keyword appears on at most 50 branches (Qnet v2 branch_keywords.tsv)",
+    "implementation": "links._slm_floor(T, r, 99) or links._qnet_ov(T, r, maxdf=50, core=True)"
+   },
+   "display_template": "{root} {Bnn} «{image}» ~ {partner root} {Bmm} «{image}»  (both dictionary images; no score, no keyword)",
+   "evidence": {
+    "merged": {
+     "coverage_of_true_pairs": 0.216,
+     "lift_vs_freq_matched_word": 2.316,
+     "ci95_ayah": [
+      2.052,
+      2.643
+     ],
+     "lift_vs_other_branch_same_root": 1.619,
+     "ci95_branch": [
+      1.494,
+      1.748
+     ],
+     "calibrated_tokens_per_ayah_whole_quran_sample": {
+      "mean": 3857.693,
+      "p90": 9676.405,
+      "max": 59121.536,
+      "at_2_282": 105069.614
+     }
+    },
+    "slm_p99": {
+     "variant": "slm_p99",
+     "coverage_of_true_pairs": 0.168,
+     "lift_vs_freq_matched_word": 2.507,
+     "ci95_ayah": [
+      2.166,
+      2.909
+     ],
+     "ci95_surah": [
+      2.108,
+      2.995
+     ],
+     "lift_vs_other_branch_same_root": 1.482,
+     "ci95_branch": [
+      1.375,
+      1.599
+     ],
+     "dev_odd_surahs": {
+      "lift": 2.23,
+      "ci95": [
+       1.791,
+       2.808
+      ]
+     },
+     "test_even_surahs": {
+      "lift": 2.766,
+      "ci95": [
+       2.274,
+       3.408
+      ],
+      "lift_branch": 1.607,
+      "ci95_branch": [
+       1.448,
+       1.775
+      ]
+     },
+     "units_per_ayah_hft_sample": {
+      "mean": 39.783,
+      "p90": 108.2,
+      "max": 561.0
+     },
+     "share_through_frequent_root_or_lemma": 0.0,
+     "lift_vs_pos_and_freq_matched_word": 2.408,
+     "ci95_pos_matched": [
+      2.082,
+      2.802
+     ],
+     "in_sample_29_38": "13/19 gold links (expected 1.62 for other words, 1.73 for other branches)",
+     "calibrated_tokens_per_ayah_whole_quran_sample": {
+      "mean": 2896.457,
+      "p90": 7027.567,
+      "max": 45264.378,
+      "at_2_282": 76754.154
+     }
+    },
+    "qnet_core_df50": {
+     "variant": "qnet_core_df50",
+     "coverage_of_true_pairs": 0.102,
+     "lift_vs_freq_matched_word": 2.84,
+     "ci95_ayah": [
+      2.335,
+      3.486
+     ],
+     "ci95_surah": [
+      2.424,
+      3.412
+     ],
+     "lift_vs_other_branch_same_root": 1.639,
+     "ci95_branch": [
+      1.479,
+      1.821
+     ],
+     "dev_odd_surahs": {
+      "lift": 2.854,
+      "ci95": [
+       2.159,
+       3.854
+      ]
+     },
+     "test_even_surahs": {
+      "lift": 2.829,
+      "ci95": [
+       2.175,
+       3.78
+      ],
+      "lift_branch": 1.768,
+      "ci95_branch": [
+       1.521,
+       2.015
+      ]
+     },
+     "units_per_ayah_hft_sample": {
+      "mean": 22.603,
+      "p90": 59.2,
+      "max": 336.0
+     },
+     "share_through_frequent_root_or_lemma": 0.0,
+     "lift_vs_pos_and_freq_matched_word": 2.754,
+     "ci95_pos_matched": [
+      2.252,
+      3.471
+     ],
+     "in_sample_29_38": "9/19 gold links (expected 0.97 for other words, 0.99 for other branches)",
+     "calibrated_tokens_per_ayah_whole_quran_sample": {
+      "mean": 1615.424,
+      "p90": 4127.333,
+      "max": 23450.034,
+      "at_2_282": 45415.157
+     }
+    }
+   },
+   "why_not_pushed": [
+    "It passes the signal test (branch-discriminating too), but its volume is large and unbounded: mean 67 lines and 3858 calibrated tokens per ayah, 105070 tokens at 2:282; pushing it needs a push limit, which is undecided.",
+    "It is unexplained similarity (no typed path in words); Phase 2 kept quran-slm pair lists out of the prompt.",
+    "Qnet keywords are English atoms a model produced from memory from the branch prose, not dictionary text: they may serve as an index, never as evidence or as displayed wording.",
+    "Both quran-slm and Qnet read the same card text the HFT readers saw, so their lift is the most exposed to label bias.",
+    "Correction of scope: Phase 2 found quran-slm at chance for ORDERING a word's branches; as top-1% path existence it is well above chance on the same HFT set."
+   ]
+  }
+ ],
+ "per_ayah_layer_proposal": [
+  {
+   "id": "early_citations",
+   "family": "early-source co-citation",
+   "rule": {
+    "source": "six early entries only (dictionary/data/output/root_packets entry_text_clean); explicit refs (Mufradat [surah/ n], Tahdhib ( surah : n )) and quoted runs of >= 3 words matching at most 2 ayat by consonant skeleton; kept only when the cited ayah contains a word of the entry's root",
+    "show": "the early passage verbatim around the citation, with its source; no branch attribution",
+    "implementation": "cocite.py (cache/cocite.pkl), links.CC_ROOT / CC_QROOT"
+   },
+   "index": {
+    "citations": 17335,
+    "verified": 11780,
+    "verified_share": 0.68,
+    "attributed_of_verified": 9968,
+    "attributed_share": 0.846,
+    "distinct_root_ayah_loci": 7798,
+    "distinct_ayat": 4026,
+    "by_source": {
+     "ayn": {
+      "explicit": 0,
+      "implicit": 1504,
+      "verified": 396,
+      "clauses": 6102,
+      "anchors_located": 5639
+     },
+     "maqayis": {
+      "explicit": 0,
+      "implicit": 1042,
+      "verified": 529,
+      "clauses": 8089,
+      "anchors_located": 7597
+     },
+     "jamhara": {
+      "explicit": 0,
+      "implicit": 249,
+      "verified": 168,
+      "clauses": 2527,
+      "anchors_located": 2275
+     },
+     "sihah": {
+      "explicit": 0,
+      "implicit": 1184,
+      "verified": 668,
+      "clauses": 10635,
+      "anchors_located": 9476
+     },
+     "tahdhib": {
+      "explicit": 2781,
+      "implicit": 1993,
+      "verified": 3067,
+      "clauses": 11782,
+      "anchors_located": 10969
+     },
+     "mufradat": {
+      "explicit": 8200,
+      "implicit": 382,
+      "verified": 6952,
+      "clauses": 6095,
+      "anchors_located": 5583
+     }
+    },
+    "verified_share_explicit": 0.832,
+    "verified_share_implicit": 0.415,
+    "attribution_method": {
+     "lexical": 1871,
+     "lexical+position": 6020,
+     "null": 1812,
+     "position": 1943,
+     "single": 134
+    }
+   },
+   "evidence": {
+    "quoted_words_link": {
+     "variant": "cc_quote_root",
+     "coverage_of_true_pairs": 0.158,
+     "lift_vs_freq_matched_word": 1.248,
+     "ci95_ayah": [
+      1.133,
+      1.376
+     ],
+     "ci95_surah": [
+      1.124,
+      1.398
+     ],
+     "lift_vs_other_branch_same_root": null,
+     "ci95_branch": null,
+     "dev_odd_surahs": {
+      "lift": 1.155,
+      "ci95": [
+       1.018,
+       1.31
+      ]
+     },
+     "test_even_surahs": {
+      "lift": 1.34,
+      "ci95": [
+       1.169,
+       1.538
+      ],
+      "lift_branch": null,
+      "ci95_branch": null
+     },
+     "units_per_ayah_hft_sample": {
+      "mean": 2.627,
+      "p90": 7.0,
+      "max": 27.0
+     },
+     "share_through_frequent_root_or_lemma": 0.0,
+     "lift_vs_pos_and_freq_matched_word": 1.287,
+     "ci95_pos_matched": [
+      1.148,
+      1.464
+     ],
+     "in_sample_29_38": "0/19 gold links (expected 0.12 for other words, 0.0 for other branches)",
+     "calibrated_tokens_per_ayah_whole_quran_sample": {
+      "mean": 90.755,
+      "p90": 246.777,
+      "max": 885.738,
+      "at_2_282": 1105.232
+     }
+    },
+    "filed_under_target_branch": {
+     "lift_vs_other_branch_same_root": 0.925,
+     "ci95": [
+      0.744,
+      1.128
+     ],
+     "note": "early sources do not file the surprise branches' ayat under them more than under other branches: co-citation is a canonical signal"
+    }
+   },
+   "attribution_check": "about 65% of branch attributions correct (13 of 20 on the final method); root-level citation (which ayah an early entry cites) is not affected",
+   "note": "The \"quoted words\" link passes the rule weakly (construction adjacency in the lexicographer's quote); it is delivered by showing the passage, not as a separate line. Its value as evidence for the plain sense and for the construction guard is untested here."
+  }
+ ],
+ "exclude": [
+  {
+   "id": "rare_lemma_bridge",
+   "variants": [
+    "bridge30",
+    "bridge100",
+    "bridge30_sig2",
+    "bridge100_sig2",
+    "bridge30_rev",
+    "bridge_supply"
+   ],
+   "why": "the loose variants (any single witness ayah) are at or below chance: lift 0.83-0.97 against the frequency-matched word, with 24-276 units per ayah. The rule the supply ships (bridge_supply: at least 2 witness ayat and at least half of the lemma's ayat, the focus ayah removed) is positive on the full set (2.24 [1.319, 4.049]) and on the test half (2.91 [1.394, 6.796]) but fails the frozen dev-half rule (dev lower bound 0.75): thin evidence at 1.0% coverage. Whether the supply keeps it is the user's decision (review M3).",
+   "evidence": {
+    "bridge30": {
+     "variant": "bridge30",
+     "coverage_of_true_pairs": 0.332,
+     "lift_vs_freq_matched_word": 0.828,
+     "ci95_ayah": [
+      0.784,
+      0.872
+     ],
+     "ci95_surah": [
+      0.771,
+      0.88
+     ],
+     "lift_vs_other_branch_same_root": 1.002,
+     "ci95_branch": [
+      0.963,
+      1.043
+     ],
+     "dev_odd_surahs": {
+      "lift": 0.793,
+      "ci95": [
+       0.728,
+       0.867
+      ]
+     },
+     "test_even_surahs": {
+      "lift": 0.855,
+      "ci95": [
+       0.8,
+       0.914
+      ],
+      "lift_branch": 1.018,
+      "ci95_branch": [
+       0.965,
+       1.072
+      ]
+     },
+     "units_per_ayah_hft_sample": {
+      "mean": 193.373,
+      "p90": 529.6,
+      "max": 2570.0
+     },
+     "share_through_frequent_root_or_lemma": 0.0,
+     "in_sample_29_38": "10/19 gold links (expected 8.36 for other words, 7.73 for other branches)"
+    },
+    "bridge100_sig2": {
+     "variant": "bridge100_sig2",
+     "coverage_of_true_pairs": 0.095,
+     "lift_vs_freq_matched_word": 0.966,
+     "ci95_ayah": [
+      0.842,
+      1.111
+     ],
+     "ci95_surah": [
+      0.832,
+      1.115
+     ],
+     "lift_vs_other_branch_same_root": 1.143,
+     "ci95_branch": [
+      1.031,
+      1.258
+     ],
+     "dev_odd_surahs": {
+      "lift": 0.94,
+      "ci95": [
+       0.759,
+       1.163
+      ]
+     },
+     "test_even_surahs": {
+      "lift": 0.984,
+      "ci95": [
+       0.816,
+       1.176
+      ],
+      "lift_branch": 1.213,
+      "ci95_branch": [
+       1.058,
+       1.374
+      ]
+     },
+     "units_per_ayah_hft_sample": {
+      "mean": 50.233,
+      "p90": 140.0,
+      "max": 703.0
+     },
+     "share_through_frequent_root_or_lemma": 0.0,
+     "in_sample_29_38": "3/19 gold links (expected 2.01 for other words, 0.77 for other branches)"
+    },
+    "bridge_supply": {
+     "variant": "bridge_supply",
+     "coverage_of_true_pairs": 0.01,
+     "lift_vs_freq_matched_word": 2.243,
+     "ci95_ayah": [
+      1.319,
+      4.049
+     ],
+     "ci95_surah": [
+      1.412,
+      3.983
+     ],
+     "lift_vs_other_branch_same_root": 1.558,
+     "ci95_branch": [
+      1.056,
+      2.167
+     ],
+     "dev_odd_surahs": {
+      "lift": 1.754,
+      "ci95": [
+       0.75,
+       4.538
+      ]
+     },
+     "test_even_surahs": {
+      "lift": 2.905,
+      "ci95": [
+       1.394,
+       6.796
+      ],
+      "lift_branch": 1.421,
+      "ci95_branch": [
+       0.812,
+       2.245
+      ]
+     },
+     "units_per_ayah_hft_sample": {
+      "mean": 3.173,
+      "p90": 9.1,
+      "max": 47.0
+     },
+     "share_through_frequent_root_or_lemma": 0.0,
+     "in_sample_29_38": "2/19 gold links (expected 0.23 for other words, 0.0 for other branches)"
+    }
+   }
+  },
+  {
+   "id": "formula_cooccurrence",
+   "variants": [
+    "formula_k3",
+    "formula_k5",
+    "formula_k10",
+    "formula_k5_pmi"
+   ],
+   "why": "does not single out the cited activator within the ayah: test lift 1.06 [0.949, 1.195] for the best variant; untested as a cross-ayah parallel pointer (a different job), so the supply's D rare pairings, which carry formula echoes, stay",
+   "evidence": {
+    "formula_k5": {
+     "variant": "formula_k5",
+     "coverage_of_true_pairs": 0.327,
+     "lift_vs_freq_matched_word": 1.012,
+     "ci95_ayah": [
+      0.944,
+      1.085
+     ],
+     "ci95_surah": [
+      0.934,
+      1.089
+     ],
+     "lift_vs_other_branch_same_root": null,
+     "ci95_branch": null,
+     "dev_odd_surahs": {
+      "lift": 1.044,
+      "ci95": [
+       0.929,
+       1.171
+      ]
+     },
+     "test_even_surahs": {
+      "lift": 0.987,
+      "ci95": [
+       0.9,
+       1.08
+      ],
+      "lift_branch": null,
+      "ci95_branch": null
+     },
+     "units_per_ayah_hft_sample": {
+      "mean": 7.22,
+      "p90": 17.1,
+      "max": 147.0
+     },
+     "share_through_frequent_root_or_lemma": 0.102,
+     "in_sample_29_38": "5/19 gold links (expected 5.11 for other words, 5.0 for other branches)"
+    },
+    "formula_k5_pmi": {
+     "variant": "formula_k5_pmi",
+     "coverage_of_true_pairs": 0.262,
+     "lift_vs_freq_matched_word": 1.092,
+     "ci95_ayah": [
+      1.005,
+      1.188
+     ],
+     "ci95_surah": [
+      1.005,
+      1.184
+     ],
+     "lift_vs_other_branch_same_root": null,
+     "ci95_branch": null,
+     "dev_odd_surahs": {
+      "lift": 1.135,
+      "ci95": [
+       0.996,
+       1.296
+      ]
+     },
+     "test_even_surahs": {
+      "lift": 1.061,
+      "ci95": [
+       0.949,
+       1.195
+      ],
+      "lift_branch": null,
+      "ci95_branch": null
+     },
+     "units_per_ayah_hft_sample": {
+      "mean": 5.32,
+      "p90": 14.0,
+      "max": 120.0
+     },
+     "share_through_frequent_root_or_lemma": 0.096,
+     "lift_vs_pos_and_freq_matched_word": 1.062,
+     "ci95_pos_matched": [
+      0.968,
+      1.155
+     ],
+     "in_sample_29_38": "3/19 gold links (expected 3.32 for other words, 3.0 for other branches)"
+    }
+   }
+  },
+  {
+   "id": "pointer_without_generic_threshold",
+   "variants": [
+    "ptr",
+    "ptr_df1000"
+   ],
+   "why": "43% of its paths go through roots found in more than 300 ayat (يدخل in \"يدخل فيه\", كان ...); lower lift",
+   "evidence": {
+    "ptr": {
+     "variant": "ptr",
+     "coverage_of_true_pairs": 0.049,
+     "lift_vs_freq_matched_word": 2.272,
+     "ci95_ayah": [
+      1.769,
+      2.942
+     ],
+     "ci95_surah": [
+      1.67,
+      3.056
+     ],
+     "lift_vs_other_branch_same_root": 1.582,
+     "ci95_branch": [
+      1.336,
+      1.866
+     ],
+     "dev_odd_surahs": {
+      "lift": 2.403,
+      "ci95": [
+       1.646,
+       3.627
+      ]
+     },
+     "test_even_surahs": {
+      "lift": 2.188,
+      "ci95": [
+       1.578,
+       3.059
+      ],
+      "lift_branch": 1.774,
+      "ci95_branch": [
+       1.397,
+       2.173
+      ]
+     },
+     "units_per_ayah_hft_sample": {
+      "mean": 12.247,
+      "p90": 32.0,
+      "max": 243.0
+     },
+     "share_through_frequent_root_or_lemma": 0.434,
+     "in_sample_29_38": "7/19 gold links (expected 0.39 for other words, 1.19 for other branches)"
+    }
+   }
+  },
+  {
+   "id": "weak_or_flooding_similarity",
+   "variants": [
+    "slm_pair10",
+    "slm_pair3",
+    "slm_p95",
+    "qnet_any",
+    "qnet_df200",
+    "qnet_core"
+   ],
+   "why": "lift 1.1-2.1 with 60-260 units per ayah: some signal, low precision; a push-limit question, not an absence of signal",
+   "evidence": {
+    "slm_pair10": {
+     "variant": "slm_pair10",
+     "coverage_of_true_pairs": 0.684,
+     "lift_vs_freq_matched_word": 1.109,
+     "ci95_ayah": [
+      1.076,
+      1.142
+     ],
+     "ci95_surah": [
+      1.075,
+      1.147
+     ],
+     "lift_vs_other_branch_same_root": 1.131,
+     "ci95_branch": [
+      1.106,
+      1.157
+     ],
+     "dev_odd_surahs": {
+      "lift": 1.108,
+      "ci95": [
+       1.061,
+       1.159
+      ]
+     },
+     "test_even_surahs": {
+      "lift": 1.109,
+      "ci95": [
+       1.063,
+       1.158
+      ],
+      "lift_branch": 1.133,
+      "ci95_branch": [
+       1.099,
+       1.169
+      ]
+     },
+     "units_per_ayah_hft_sample": {
+      "mean": 269.287,
+      "p90": 769.4,
+      "max": 4723.0
+     },
+     "share_through_frequent_root_or_lemma": 0.0,
+     "in_sample_29_38": "19/19 gold links (expected 11.98 for other words, 9.94 for other branches)"
+    },
+    "qnet_any": {
+     "variant": "qnet_any",
+     "coverage_of_true_pairs": 0.75,
+     "lift_vs_freq_matched_word": 1.218,
+     "ci95_ayah": [
+      1.18,
+      1.258
+     ],
+     "ci95_surah": [
+      1.173,
+      1.267
+     ],
+     "lift_vs_other_branch_same_root": 1.14,
+     "ci95_branch": [
+      1.119,
+      1.161
+     ],
+     "dev_odd_surahs": {
+      "lift": 1.185,
+      "ci95": [
+       1.124,
+       1.249
+      ]
+     },
+     "test_even_surahs": {
+      "lift": 1.244,
+      "ci95": [
+       1.192,
+       1.301
+      ],
+      "lift_branch": 1.164,
+      "ci95_branch": [
+       1.137,
+       1.194
+      ]
+     },
+     "units_per_ayah_hft_sample": {
+      "mean": 283.42,
+      "p90": 807.2,
+      "max": 4702.0
+     },
+     "share_through_frequent_root_or_lemma": 0.31,
+     "in_sample_29_38": "19/19 gold links (expected 13.73 for other words, 11.98 for other branches)"
+    }
+   }
+  },
+  {
+   "id": "cooccurrence_low_threshold",
+   "variants": [
+    "cooc_ayah_pmi0",
+    "cooc_win3_pmi0",
+    "cooc_ayah_pmi1",
+    "cooc_win3_pmi2"
+   ],
+   "why": "PMI > 0 is at chance (0.97 [0.925, 1.014]); PMI > 1 still carries signal (1.28 [1.167, 1.415]) at lower precision, so PMI > 2 is a push limit",
+   "evidence": {
+    "cooc_ayah_pmi0": {
+     "variant": "cooc_ayah_pmi0",
+     "coverage_of_true_pairs": 0.447,
+     "lift_vs_freq_matched_word": 0.968,
+     "ci95_ayah": [
+      0.925,
+      1.014
+     ],
+     "ci95_surah": [
+      0.919,
+      1.013
+     ],
+     "lift_vs_other_branch_same_root": null,
+     "ci95_branch": null,
+     "dev_odd_surahs": {
+      "lift": 0.962,
+      "ci95": [
+       0.899,
+       1.027
+      ]
+     },
+     "test_even_surahs": {
+      "lift": 0.973,
+      "ci95": [
+       0.916,
+       1.034
+      ],
+      "lift_branch": null,
+      "ci95_branch": null
+     },
+     "units_per_ayah_hft_sample": {
+      "mean": 14.717,
+      "p90": 41.3,
+      "max": 181.0
+     },
+     "share_through_frequent_root_or_lemma": 0.33,
+     "in_sample_29_38": "10/19 gold links (expected 11.05 for other words, 10.0 for other branches)"
+    },
+    "cooc_ayah_pmi1": {
+     "variant": "cooc_ayah_pmi1",
+     "coverage_of_true_pairs": 0.207,
+     "lift_vs_freq_matched_word": 1.284,
+     "ci95_ayah": [
+      1.167,
+      1.415
+     ],
+     "ci95_surah": [
+      1.172,
+      1.412
+     ],
+     "lift_vs_other_branch_same_root": null,
+     "ci95_branch": null,
+     "dev_odd_surahs": {
+      "lift": 1.319,
+      "ci95": [
+       1.148,
+       1.518
+      ]
+     },
+     "test_even_surahs": {
+      "lift": 1.253,
+      "ci95": [
+       1.096,
+       1.442
+      ],
+      "lift_branch": null,
+      "ci95_branch": null
+     },
+     "units_per_ayah_hft_sample": {
+      "mean": 3.51,
+      "p90": 9.0,
+      "max": 53.0
+     },
+     "share_through_frequent_root_or_lemma": 0.133,
+     "in_sample_29_38": "6/19 gold links (expected 3.64 for other words, 6.0 for other branches)"
+    }
+   }
+  },
+  {
+   "id": "cocitation_as_branch_link",
+   "variants": [
+    "cc_here_branch",
+    "cc_quote_branch",
+    "cc_else_branch",
+    "cc_else_root"
+   ],
+   "why": "no branch-level signal (branch attribution is also only about 65% correct); \"cited elsewhere with the partner\" is at or below chance",
+   "evidence": {
+    "cc_quote_branch": {
+     "variant": "cc_quote_branch",
+     "coverage_of_true_pairs": 0.021,
+     "lift_vs_freq_matched_word": 1.412,
+     "ci95_ayah": [
+      1.043,
+      1.934
+     ],
+     "ci95_surah": [
+      0.994,
+      1.914
+     ],
+     "lift_vs_other_branch_same_root": 0.987,
+     "ci95_branch": [
+      0.765,
+      1.239
+     ],
+     "dev_odd_surahs": {
+      "lift": 1.453,
+      "ci95": [
+       0.908,
+       2.438
+      ]
+     },
+     "test_even_surahs": {
+      "lift": 1.384,
+      "ci95": [
+       0.934,
+       2.188
+      ],
+      "lift_branch": 1.024,
+      "ci95_branch": [
+       0.71,
+       1.408
+      ]
+     },
+     "units_per_ayah_hft_sample": {
+      "mean": 2.407,
+      "p90": 7.0,
+      "max": 28.0
+     },
+     "share_through_frequent_root_or_lemma": 0.0,
+     "in_sample_29_38": "0/19 gold links (expected 0.0 for other words, 0.0 for other branches)"
+    },
+    "cc_else_root": {
+     "variant": "cc_else_root",
+     "coverage_of_true_pairs": 0.309,
+     "lift_vs_freq_matched_word": 0.864,
+     "ci95_ayah": [
+      0.814,
+      0.921
+     ],
+     "ci95_surah": [
+      0.806,
+      0.917
+     ],
+     "lift_vs_other_branch_same_root": null,
+     "ci95_branch": null,
+     "dev_odd_surahs": {
+      "lift": 0.88,
+      "ci95": [
+       0.802,
+       0.965
+      ]
+     },
+     "test_even_surahs": {
+      "lift": 0.851,
+      "ci95": [
+       0.789,
+       0.919
+      ],
+      "lift_branch": null,
+      "ci95_branch": null
+     },
+     "units_per_ayah_hft_sample": {
+      "mean": 19.393,
+      "p90": 54.1,
+      "max": 229.0
+     },
+     "share_through_frequent_root_or_lemma": 0.0,
+     "in_sample_29_38": "8/19 gold links (expected 8.89 for other words, 8.0 for other branches)"
+    }
+   }
+  }
+ ],
+ "diagnostics": {
+  "pointer_seen_fields_image_what": {
+   "variant": "ptr_imgwhat",
+   "coverage_of_true_pairs": 0.035,
+   "lift_vs_freq_matched_word": 2.826,
+   "ci95_ayah": [
+    2.055,
+    4.01
+   ],
+   "ci95_surah": [
+    2.047,
+    3.967
+   ],
+   "lift_vs_other_branch_same_root": 1.678,
+   "ci95_branch": [
+    1.385,
+    2.01
+   ],
+   "dev_odd_surahs": {
+    "lift": 3.119,
+    "ci95": [
+     1.897,
+     5.465
+    ]
+   },
+   "test_even_surahs": {
+    "lift": 2.652,
+    "ci95": [
+     1.787,
+     4.208
+    ],
+    "lift_branch": 1.916,
+    "ci95_branch": [
+     1.437,
+     2.495
+    ]
+   },
+   "units_per_ayah_hft_sample": {
+    "mean": 8.003,
+    "p90": 20.2,
+    "max": 195.0
+   },
+   "share_through_frequent_root_or_lemma": 0.389,
+   "in_sample_29_38": "7/19 gold links (expected 0.07 for other words, 0.69 for other branches)"
+  },
+  "pointer_unseen_early_phrase_only": {
+   "variant": "ptr_phrase_only",
+   "coverage_of_true_pairs": 0.014,
+   "lift_vs_freq_matched_word": 1.493,
+   "ci95_ayah": [
+    0.946,
+    2.427
+   ],
+   "ci95_surah": [
+    0.891,
+    2.491
+   ],
+   "lift_vs_other_branch_same_root": 1.377,
+   "ci95_branch": [
+    0.962,
+    1.876
+   ],
+   "dev_odd_surahs": {
+    "lift": 1.504,
+    "ci95": [
+     0.693,
+     3.202
+    ]
+   },
+   "test_even_surahs": {
+    "lift": 1.485,
+    "ci95": [
+     0.837,
+     2.791
+    ],
+    "lift_branch": 1.492,
+    "ci95_branch": [
+     0.977,
+     2.119
+    ]
+   },
+   "units_per_ayah_hft_sample": {
+    "mean": 4.243,
+    "p90": 12.0,
+    "max": 86.0
+   },
+   "share_through_frequent_root_or_lemma": 0.519,
+   "lift_vs_pos_and_freq_matched_word": 1.38,
+   "ci95_pos_matched": [
+    0.848,
+    2.171
+   ],
+   "in_sample_29_38": "0/19 gold links (expected 0.33 for other words, 0.5 for other branches)"
+  },
+  "pointer_reverse_direction": {
+   "variant": "ptr_rev",
+   "coverage_of_true_pairs": 0.207,
+   "lift_vs_freq_matched_word": 1.326,
+   "ci95_ayah": [
+    1.185,
+    1.495
+   ],
+   "ci95_surah": [
+    1.146,
+    1.519
+   ],
+   "lift_vs_other_branch_same_root": null,
+   "ci95_branch": null,
+   "dev_odd_surahs": {
+    "lift": 1.331,
+    "ci95": [
+     1.126,
+     1.598
+    ]
+   },
+   "test_even_surahs": {
+    "lift": 1.321,
+    "ci95": [
+     1.142,
+     1.521
+    ],
+    "lift_branch": null,
+    "ci95_branch": null
+   },
+   "units_per_ayah_hft_sample": {
+    "mean": 8.403,
+    "p90": 24.1,
+    "max": 122.0
+   },
+   "share_through_frequent_root_or_lemma": 0.434,
+   "in_sample_29_38": "4/19 gold links (expected 0.83 for other words, 4.0 for other branches)",
+   "note": "the same type seen from the partner's branch; covered by running the pointer over every branch"
+  }
+ },
+ "recommended_push_size": {
+  "types": [
+   "ptr_card400",
+   "nb_any",
+   "cooc_ayah_pmi2"
+  ],
+  "calibrated_tokens_per_ayah": {
+   "mean": 471.862,
+   "p90": 1224.371,
+   "at_2_282": 12366.569
+  },
+  "note": "increments only (the 4,581-token per-call constant is not included)"
+ },
+ "recommended_set_on_hft": {
+  "union_of": [
+   "ptr_card400",
+   "nb_any",
+   "cooc_ayah_pmi2",
+   "slm_p99",
+   "qnet_core_df50",
+   "cc_quote_root"
+  ],
+  "coverage_of_true_pairs": 0.377,
+  "lift_vs_freq_matched_word": 1.706,
+  "ci95": [
+   1.583,
+   1.841
+  ],
+  "lift_vs_other_branch": 1.238,
+  "ci95_branch": [
+   1.191,
+   1.286
+  ],
+  "by_branch_kind": {
+   "bare": {
+    "pairs": 1015,
+    "lift": 1.73,
+    "ci95": [
+     1.507,
+     1.993
+    ]
+   },
+   "mixed_non_bare": {
+    "pairs": 1897,
+    "lift": 1.723,
+    "ci95": [
+     1.562,
+     1.901
+    ]
+   },
+   "non_bare": {
+    "pairs": 122,
+    "lift": 1.807,
+    "ci95": [
+     1.24,
+     2.748
+    ]
+   },
+   "collocation": {
+    "pairs": 468,
+    "lift": 1.66,
+    "ci95": [
+     1.366,
+     2.018
+    ]
+   }
+  }
+ },
+ "push_set_on_hft": {
+  "push_core_hft": {
+   "types": [
+    "ptr_card400",
+    "nb_any",
+    "cooc_ayah_pmi2"
+   ],
+   "coverage_of_true_pairs": 0.132,
+   "lift_vs_freq_matched_word": 2.229,
+   "ci95": [
+    1.904,
+    2.622
+   ],
+   "lift_vs_other_branch": 1.162,
+   "ci95_branch": [
+    1.1,
+    1.23
+   ]
+  },
+  "push_core_plus_imgpair_hft": {
+   "types": [
+    "ptr_card400",
+    "nb_any",
+    "cooc_ayah_pmi2",
+    "imgpair"
+   ],
+   "coverage_of_true_pairs": 0.291,
+   "lift_vs_freq_matched_word": 2.064,
+   "ci95": [
+    1.866,
+    2.279
+   ],
+   "lift_vs_other_branch": 1.353,
+   "ci95_branch": [
+    1.28,
+    1.427
+   ]
+  }
+ },
+ "in_sample_29_38": {
+  "push_core": {
+   "gold_hits": 11,
+   "of": 19,
+   "control_hit": true
+  },
+  "push_core_plus_imgpair": {
+   "gold_hits": 16,
+   "of": 19,
+   "control_hit": true
+  }
+ },
+ "code": {
+  "dir": "/Volumes/OZTURK/_projects/prose_generation/_commentary/review/e0/validate",
+  "run_order": [
+   "cocite.py",
+   "eval_hft.py",
+   "select_links.py",
+   "robust_pos.py",
+   "sizes.py",
+   "eval_29_38.py",
+   "build_config.py"
+  ],
+  "library": "lib.py (loaders), links.py (type definitions)"
+ }
+}

@@ -387,20 +387,24 @@ Previously missing parallels found: 4:90 (by phrase), 2:238 and 4:81 (by word ec
 9. **API access** for the Batch smoke test (E5)?
 10. **Approvals** for E1–E6, individually or as a set.
 
-## 10. Decisions taken (user, 2026-09-28)
+## 10. Decisions taken (user, 2026-09-28; completed after the E0 review)
 
 | # | decision | ruling |
 |---|---|---|
 | — | collocation-bound sense without its construction | echo tier: a marked phrase-level echo, never the word's sense here |
 | — | loaded word whose role is construction-bound (nafakha) | usage-role statement with references, never a transferred sense |
 | 2 | Majāz al-Qurʾān | allowed as construction-level evidence, only quoted directly from the Majāz text (never through Lisān or other late compilations) |
-| 3 | budget | up to about $2 per ayah. A 2–3× model upgrade (e.g. Fable) only after it is shown that ~$2 almost meets the goals and the model is the limiting factor |
+| 3 | budget | up to about $2 per ayah, measured as the cost the CLI reports for the call(s). A 2–3× model upgrade (e.g. Fable) only after it is shown that ~$2 almost meets the goals and the model is the limiting factor |
 | 4 | Tier 3 (no HFT) | if a must, HFT is generated later with Sol or Opus (the user: Luna cannot do it); not now |
 | 5 | stretched readings (e.g. zayyana as "coating") | transparent: show how a native speaker or philologist may hear the actual and resonant meanings; no fabrication; a stretch is named as an echo, with its basis |
 | 7 | scene tags | dropped from supplies; rebuild only if tests show scenes help |
-| 8 | gold examples | probes, not must-finds: a workflow that misses a named example but brings other supported layers that deepen understanding is doing its job |
+| 8 | gold examples | probes, not must-finds: a workflow that misses a named example but brings other supported layers that deepen understanding is doing its job. **Exception:** the three watch cases (the 29:38 eye film in as-sabīl, ḥamaʾ as human fabric at 18:86, nafakha as animating at 18:96) stay must-finds |
 | 9 | API access | none. Runs stay on the claude -p / codex subscriptions, so the 64K-per-response CLI cap applies and E5 cannot run |
-| 1, 6 | derived-form / semantic-frame constructions; blind-read capacity | open |
+| 1 | derived-form constructions | a derived verb form counts as the construction being present (tawallā, Form V, without ʿan = turning away); a context alone does not, though the writer may say "the context suggests…". Semantic frames (dhikr "by the tongue") remain open |
+| 6 | blind-read capacity | 6 pairs per round |
+| — | plain sense | "context alone does not count" governs latent readings only; the plain sense follows the canonical / root-dossier reading even when it rests on context |
+| — | native hearing | the classical ear of the early lexicons; modern hearings are left out or labelled modern |
+| — | when an echo reaches the prose | containment always (the echo stands beside the plain sense, never replaces it). An echo enters the prose only with a warrant: istiqrāʾ (the Quran's own usage, al-Khūlī / Bint al-Shāṭiʾ) or naẓm (the neighbours and the surah's aim, al-Biqāʿī). Without one it stays in the record |
 
 ## Appendix: files
 

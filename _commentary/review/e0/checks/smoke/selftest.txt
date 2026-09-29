@@ -1,0 +1,33 @@
+PASS  Quran quotation -> quran 1:2
+PASS  dictionary phrase -> dictionary with source tags
+PASS  ar-rubb (a dictionary noun) is not matched to rabb in 1:2
+PASS  invented Arabic stays unsourced: السيارة الحمراء في الشارع
+PASS  invented Arabic stays unsourced: الصراط الطريق الذي يبتلع سالكه
+PASS  invented Arabic stays unsourced: نفخ فيه الروح فصار حيا
+PASS  invented Arabic stays unsourced: ضرب الرجل في الأرض إذا سافر بعيدا
+PASS  invented Arabic stays unsourced: الحاسوب
+PASS  invented Arabic stays unsourced: ديمقراطية
+PASS  root name -> root_name (not a quotation)
+PASS  single letter -> too_short
+PASS  silent elision -> gapped dictionary match
+PASS  pieces joined by ؛ -> resolved piecewise
+PASS  Majaz direct text -> majaz
+PASS  early entry only (al-Ayn, d-r-b) -> early_entry
+PASS  variant reading at the focus -> quran or qiraat
+PASS  check: unsourced unmarked quotation listed
+PASS  check: Arabic in quotation marks flagged and sourced
+PASS  check: [bellek] mark recorded with its sentence
+PASS  check: bound branch (non_bare) cited with an echo marker
+PASS  check: negation counted (E2 regex)
+PASS  lint: category 'known' detected
+PASS  lint: category 'named-ref' detected
+PASS  lint: category 'answer' detected
+PASS  lint: category 'verdict' detected
+PASS  lint: category 'cap' detected
+PASS  lint: category 'scene' detected
+PASS  lint: clean line has no hit
+PASS  scorecard: supply branches and [plain] parsed
+PASS  scorecard: typed link parsed
+PASS  scorecard: frozen status readable
+
+31 of 31 controls pass

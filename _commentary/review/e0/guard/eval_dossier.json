@@ -1,0 +1,174 @@
+{
+ "policy": "default",
+ "results": {
+  "all": {
+   "true_placements": 696,
+   "branches": 41,
+   "recall_present": 0.478,
+   "false_absent": 0.464,
+   "unknown": 0.057,
+   "missed_not_present": 0.522,
+   "macro_recall_by_branch": 0.469,
+   "branches_all_missed": 16,
+   "other_branch_occurrences": 26840,
+   "false_activation_present": 0.0041,
+   "present_calls_true": 333,
+   "present_calls_other_branch": 110,
+   "present_precision_at_placements": 0.752,
+   "other_unknown": 0.1329,
+   "reasons_true": {
+    "partner-def": 5,
+    "prep": 45,
+    "form-named": 9,
+    "formula": 98,
+    "partner": 106,
+    "partner-2hop": 3,
+    "partner-other-form": 4,
+    "object": 11,
+    "form": 52
+   },
+   "reasons_other_present": {
+    "partner": 40,
+    "partner-2hop": 3,
+    "partner-other-form": 7,
+    "prep": 39,
+    "partner-def": 8,
+    "formula": 8,
+    "object": 2,
+    "form-named": 1,
+    "form": 2
+   }
+  },
+  "excl_gram": {
+   "true_placements": 397,
+   "branches": 39,
+   "recall_present": 0.657,
+   "false_absent": 0.249,
+   "unknown": 0.093,
+   "missed_not_present": 0.343,
+   "macro_recall_by_branch": 0.479,
+   "branches_all_missed": 15,
+   "other_branch_occurrences": 26676,
+   "false_activation_present": 0.0041,
+   "present_calls_true": 261,
+   "present_calls_other_branch": 110,
+   "present_precision_at_placements": 0.704,
+   "other_unknown": 0.1338,
+   "reasons_true": {
+    "partner-def": 5,
+    "prep": 45,
+    "form-named": 9,
+    "formula": 27,
+    "partner": 105,
+    "partner-2hop": 3,
+    "partner-other-form": 4,
+    "object": 11,
+    "form": 52
+   },
+   "reasons_other_present": {
+    "partner": 40,
+    "partner-2hop": 3,
+    "partner-other-form": 7,
+    "prep": 39,
+    "partner-def": 8,
+    "formula": 8,
+    "object": 2,
+    "form-named": 1,
+    "form": 2
+   }
+  },
+  "main": {
+   "true_placements": 364,
+   "branches": 38,
+   "recall_present": 0.709,
+   "false_absent": 0.19,
+   "unknown": 0.102,
+   "missed_not_present": 0.291,
+   "macro_recall_by_branch": 0.49,
+   "branches_all_missed": 15,
+   "other_branch_occurrences": 26511,
+   "false_activation_present": 0.0041,
+   "present_calls_true": 258,
+   "present_calls_other_branch": 110,
+   "present_precision_at_placements": 0.701,
+   "other_unknown": 0.1321,
+   "reasons_true": {
+    "form-named": 9,
+    "formula": 27,
+    "partner": 105,
+    "prep": 44,
+    "partner-2hop": 3,
+    "partner-def": 3,
+    "partner-other-form": 4,
+    "object": 11,
+    "form": 52
+   },
+   "reasons_other_present": {
+    "partner": 40,
+    "partner-2hop": 3,
+    "partner-other-form": 7,
+    "prep": 39,
+    "partner-def": 8,
+    "formula": 8,
+    "object": 2,
+    "form-named": 1,
+    "form": 2
+   }
+  },
+  "dev": {
+   "true_placements": 190,
+   "branches": 19,
+   "recall_present": 0.705,
+   "false_absent": 0.211,
+   "unknown": 0.084,
+   "missed_not_present": 0.295,
+   "macro_recall_by_branch": 0.499,
+   "branches_all_missed": 8,
+   "other_branch_occurrences": 776,
+   "false_activation_present": 0.0116,
+   "present_calls_true": 134,
+   "present_calls_other_branch": 9,
+   "present_precision_at_placements": 0.937,
+   "other_unknown": 0.0657,
+   "reasons_true": {
+    "prep": 30,
+    "partner-2hop": 3,
+    "partner": 82,
+    "formula": 6,
+    "partner-other-form": 2,
+    "object": 11
+   },
+   "reasons_other_present": {
+    "prep": 9
+   }
+  },
+  "test": {
+   "true_placements": 174,
+   "branches": 19,
+   "recall_present": 0.713,
+   "false_absent": 0.167,
+   "unknown": 0.121,
+   "missed_not_present": 0.287,
+   "macro_recall_by_branch": 0.48,
+   "branches_all_missed": 7,
+   "other_branch_occurrences": 427,
+   "false_activation_present": 0.0047,
+   "present_calls_true": 124,
+   "present_calls_other_branch": 2,
+   "present_precision_at_placements": 0.984,
+   "other_unknown": 0.356,
+   "reasons_true": {
+    "form-named": 9,
+    "formula": 21,
+    "partner": 23,
+    "prep": 14,
+    "partner-def": 3,
+    "form": 52,
+    "partner-other-form": 2
+   },
+   "reasons_other_present": {
+    "prep": 2
+   }
+  }
+ }
+}

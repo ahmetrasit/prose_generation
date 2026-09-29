@@ -1,0 +1,285 @@
+{
+ "new_detector": {
+  "all": {
+   "true_placements": 696,
+   "branches": 41,
+   "recall_present": 0.428,
+   "false_absent": 0.359,
+   "unknown": 0.213,
+   "missed_not_present": 0.572,
+   "macro_recall_by_branch": 0.488,
+   "branches_all_missed": 14,
+   "other_branch_occurrences": 26840,
+   "false_activation_present": 0.0315,
+   "other_unknown": 0.1369,
+   "reasons_true": {
+    "partner-before-pronoun": 3,
+    "partner": 204,
+    "prep": 33,
+    "prep-other-form": 2,
+    "partner-2hop": 6,
+    "partner-win": 20,
+    "object-other-form": 14,
+    "object": 6,
+    "partner-other-form": 9,
+    "form": 1
+   },
+   "reasons_other_present": {
+    "partner-before-pronoun": 53,
+    "partner": 143,
+    "partner-2hop": 33,
+    "partner-other-form": 13,
+    "prep": 41,
+    "partner-win": 147,
+    "partner-def": 15,
+    "object-other-form": 282,
+    "object": 78,
+    "prep-other-form": 40,
+    "form": 1
+   }
+  },
+  "excl_gram": {
+   "true_placements": 397,
+   "branches": 39,
+   "recall_present": 0.519,
+   "false_absent": 0.257,
+   "unknown": 0.224,
+   "missed_not_present": 0.481,
+   "macro_recall_by_branch": 0.496,
+   "branches_all_missed": 14,
+   "other_branch_occurrences": 26676,
+   "false_activation_present": 0.0317,
+   "other_unknown": 0.1377,
+   "reasons_true": {
+    "partner-before-pronoun": 3,
+    "partner": 130,
+    "prep": 33,
+    "prep-other-form": 2,
+    "partner-2hop": 5,
+    "object-other-form": 14,
+    "object": 6,
+    "partner-other-form": 9,
+    "partner-win": 3,
+    "form": 1
+   },
+   "reasons_other_present": {
+    "partner-before-pronoun": 53,
+    "partner": 143,
+    "partner-2hop": 33,
+    "partner-other-form": 13,
+    "prep": 41,
+    "partner-win": 147,
+    "partner-def": 15,
+    "object-other-form": 282,
+    "object": 78,
+    "prep-other-form": 40,
+    "form": 1
+   }
+  },
+  "main": {
+   "true_placements": 364,
+   "branches": 38,
+   "recall_present": 0.555,
+   "false_absent": 0.201,
+   "unknown": 0.245,
+   "missed_not_present": 0.445,
+   "macro_recall_by_branch": 0.506,
+   "branches_all_missed": 14,
+   "other_branch_occurrences": 26511,
+   "false_activation_present": 0.0319,
+   "other_unknown": 0.1361,
+   "reasons_true": {
+    "partner": 128,
+    "prep-other-form": 2,
+    "partner-2hop": 5,
+    "prep": 32,
+    "object-other-form": 14,
+    "object": 6,
+    "partner-other-form": 9,
+    "partner-before-pronoun": 2,
+    "partner-win": 3,
+    "form": 1
+   },
+   "reasons_other_present": {
+    "partner-before-pronoun": 53,
+    "partner": 143,
+    "partner-2hop": 33,
+    "partner-other-form": 13,
+    "prep": 41,
+    "partner-win": 147,
+    "partner-def": 15,
+    "object-other-form": 282,
+    "object": 78,
+    "prep-other-form": 40,
+    "form": 1
+   }
+  },
+  "dev": {
+   "true_placements": 190,
+   "branches": 19,
+   "recall_present": 0.658,
+   "false_absent": 0.216,
+   "unknown": 0.126,
+   "missed_not_present": 0.342,
+   "macro_recall_by_branch": 0.567,
+   "branches_all_missed": 5,
+   "other_branch_occurrences": 776,
+   "false_activation_present": 0.0116,
+   "other_unknown": 0.0168,
+   "reasons_true": {
+    "prep-other-form": 1,
+    "partner-2hop": 5,
+    "prep": 20,
+    "partner": 90,
+    "partner-before-pronoun": 2,
+    "partner-other-form": 3,
+    "object": 4
+   },
+   "reasons_other_present": {
+    "partner-before-pronoun": 1,
+    "partner-win": 1,
+    "prep-other-form": 3,
+    "object-other-form": 1,
+    "prep": 3
+   }
+  },
+  "test": {
+   "true_placements": 174,
+   "branches": 19,
+   "recall_present": 0.443,
+   "false_absent": 0.184,
+   "unknown": 0.374,
+   "missed_not_present": 0.557,
+   "macro_recall_by_branch": 0.444,
+   "branches_all_missed": 9,
+   "other_branch_occurrences": 427,
+   "false_activation_present": 0.0234,
+   "other_unknown": 0.3466,
+   "reasons_true": {
+    "partner": 38,
+    "object-other-form": 14,
+    "object": 2,
+    "prep-other-form": 1,
+    "partner-other-form": 6,
+    "partner-win": 3,
+    "prep": 12,
+    "form": 1
+   },
+   "reasons_other_present": {
+    "object-other-form": 9,
+    "prep": 1
+   }
+  }
+ },
+ "A": {
+  "all": {
+   "true_placements": 696,
+   "recall_present": 0.204,
+   "missed": 0.796,
+   "other": 26840,
+   "false_activation_present": 0.0439
+  },
+  "excl_gram": {
+   "true_placements": 397,
+   "recall_present": 0.338,
+   "missed": 0.662,
+   "other": 26676,
+   "false_activation_present": 0.044
+  },
+  "main": {
+   "true_placements": 364,
+   "recall_present": 0.368,
+   "missed": 0.632,
+   "other": 26511,
+   "false_activation_present": 0.0443
+  },
+  "dev": {
+   "true_placements": 190,
+   "recall_present": 0.468,
+   "missed": 0.532,
+   "other": 776,
+   "false_activation_present": 0.0786
+  },
+  "test": {
+   "true_placements": 174,
+   "recall_present": 0.259,
+   "missed": 0.741,
+   "other": 427,
+   "false_activation_present": 0.0539
+  }
+ },
+ "B": {
+  "all": {
+   "true_placements": 696,
+   "recall_present": 0.224,
+   "missed": 0.776,
+   "other": 26840,
+   "false_activation_present": 0.0143
+  },
+  "excl_gram": {
+   "true_placements": 397,
+   "recall_present": 0.214,
+   "missed": 0.786,
+   "other": 26676,
+   "false_activation_present": 0.0144
+  },
+  "main": {
+   "true_placements": 364,
+   "recall_present": 0.234,
+   "missed": 0.766,
+   "other": 26511,
+   "false_activation_present": 0.0144
+  },
+  "dev": {
+   "true_placements": 190,
+   "recall_present": 0.274,
+   "missed": 0.726,
+   "other": 776,
+   "false_activation_present": 0.0361
+  },
+  "test": {
+   "true_placements": 174,
+   "recall_present": 0.19,
+   "missed": 0.81,
+   "other": 427,
+   "false_activation_present": 0.0492
+  }
+ },
+ "C2": {
+  "all": {
+   "true_placements": 696,
+   "recall_present": 0.19,
+   "missed": 0.81,
+   "other": 26840,
+   "false_activation_present": 0.0099
+  },
+  "excl_gram": {
+   "true_placements": 397,
+   "recall_present": 0.332,
+   "missed": 0.668,
+   "other": 26676,
+   "false_activation_present": 0.01
+  },
+  "main": {
+   "true_placements": 364,
+   "recall_present": 0.357,
+   "missed": 0.643,
+   "other": 26511,
+   "false_activation_present": 0.01
+  },
+  "dev": {
+   "true_placements": 190,
+   "recall_present": 0.426,
+   "missed": 0.574,
+   "other": 776,
+   "false_activation_present": 0.0039
+  },
+  "test": {
+   "true_placements": 174,
+   "recall_present": 0.282,
+   "missed": 0.718,
+   "other": 427,
+   "false_activation_present": 0.0094
+  }
+ }
+}

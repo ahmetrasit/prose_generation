@@ -1,0 +1,37 @@
+{
+ "what": "hand check (by the E0 validate agent, reading the early text around each citation) of the branch that cocite.py files a verified citation under; multi-branch roots only",
+ "sample_1": {
+  "method": "positional only (first version, superseded)",
+  "seed": 7,
+  "n": 14,
+  "correct": 10,
+  "wrong": 2,
+  "uncertain": 2,
+  "wrong_items": [
+   "و د د mufradat 58:22 -> B002 (wishing); yuwāddūn is befriending/love; anchor 1,266 chars back",
+   "ب ض ع tahdhib 12:88 -> B004 (number 3-10); bidāʿa is merchandise"
+  ],
+  "uncertain_items": [
+   "ف ت ي mufradat 24:33 -> B001 youth (fatayāt glossed as slave girls)",
+   "م ر د tahdhib 9:101 -> B001 stripping (maradū ʿalā n-nifāq)"
+  ]
+ },
+ "sample_2": {
+  "method": "lexical form match, then position (final version)",
+  "seed": 11,
+  "n": 20,
+  "correct": 13,
+  "wrong": 7,
+  "wrong_items": [
+   "ق و م tahdhib 98:5 -> B017 midday (dīn al-qayyima)",
+   "و ق ع mufradat 4:100 -> B002 calamity (waqaʿa ajruhu)",
+   "ر م ي mufradat 8:17 -> B008 verbal throwing (wa-mā ramayta)",
+   "ر ف ق tahdhib 4:69 -> B001 gentleness (rafīqan = companion)",
+   "ط ل ع tahdhib 37:54 -> B009 seen face (muṭṭaliʿūn = looking down)",
+   "خ ل ل tahdhib 30:48 -> B013 dates (min khilālihi = gaps)",
+   "ب غ ي mufradat 22:60 -> B006 heavy rain (bughiya ʿalayhi = wronged)"
+  ]
+ },
+ "estimate": "about 65% of branch attributions correct (13 of 20 on the final method); root-level citation (which ayah an early entry cites) is not affected",
+ "consequence": "branch attribution must not be shown to a model as a fact; show the early passage itself"
+}

@@ -1,0 +1,1514 @@
+{
+ "record": "E0 check.py verification record (for the user and the scorecard; never a model input)",
+ "file": "../../../v9/lines/work/1_1/synth/w10-opus-cold/1_1.reading.tr.md",
+ "file_sha256": "abfdb73339759b7e03a5596b3e8d83d1f20fb7aebfc01366a6cb30b88f5177cb",
+ "ref": "1:1",
+ "tool_sha256": {
+  "check.py": "0e1781015943b467caaae706ab0dea67490c046db0714a39217a9ef0b986c037",
+  "common.py": "a694d2f583fec2dbb2c42e2f9ecc4b80663de2923e65e2e38fba9c451e58f29d"
+ },
+ "index_signature": {
+  "version": 4,
+  "quran": [
+   1396724,
+   1784646236.0
+  ],
+  "tr_entries": [
+   1704,
+   198596704,
+   1790480242.5
+  ],
+  "root_packets": [
+   1679,
+   707294008,
+   1785174411.9
+  ],
+  "majaz": [
+   9216000,
+   1781101281.7
+  ],
+  "qiraat": [
+   833825,
+   1779761837.0
+  ],
+  "activation_map": [
+   2789461,
+   1790487877.7
+  ],
+  "furuq": [
+   19782184,
+   1784717571.0
+  ]
+ },
+ "summary": {
+  "words": 1655,
+  "tags": 21,
+  "tags_checkable": 19,
+  "tags_sourced": 19,
+  "share_sourced": 1.0,
+  "by_source": {
+   "quran": 12,
+   "too_short": 2,
+   "dictionary": 7
+  },
+  "levels": {
+   "clitic": 4,
+   "exact": 15
+  },
+  "dictionary_early_phrase": 7,
+  "dictionary_definition_only": 0,
+  "arabic_outside_tags": 0,
+  "arabic_outside_tags_quotations": 0,
+  "arabic_outside_tags_quotations_sourced": 0,
+  "arabic_outside_tags_root_names": 0,
+  "arabic_outside_tags_by_context": {},
+  "bellek_marks": 0,
+  "bellek_status": {},
+  "unsourced_unmarked": 0,
+  "cited_branches": 9,
+  "cited_bound_branches": 0,
+  "bound_citations_with_echo_marker": 0,
+  "bound_citations_without_echo_marker": 0,
+  "bound_citations_extended_marker_only": 0,
+  "negation": {
+   "neg_e2_count": 9,
+   "neg_e2_per_1000": 5.44,
+   "breakdown": {
+    "değil": 8,
+    "değil,": 5,
+    "demek değildir": 1,
+    "söylemez": 1
+   },
+   "not_only_frames": 2
+  }
+ },
+ "quotations": [
+  {
+   "n": 1,
+   "line": 3,
+   "quote": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "1:1"
+    ],
+    "n_ayat": 1,
+    "where": "focus"
+   },
+   "also": {
+    "early_entry": [
+     "ء ي ي maqayis",
+     "ر ذ ل maqayis",
+     "س م و mufradat",
+     "ش ك ر tahdhib",
+     "ص ي ص mufradat",
+     "ك ر م tahdhib",
+     "م س خ tahdhib",
+     "م ع ع tahdhib"
+    ],
+    "majaz": [
+     1,
+     6,
+     226,
+     367
+    ]
+   },
+   "sentence_index": 2,
+   "bellek_marked": false
+  },
+  {
+   "n": 2,
+   "line": 7,
+   "quote": "بِ",
+   "source": "too_short",
+   "level": null,
+   "detail": {},
+   "also": {},
+   "sentence_index": 7,
+   "bellek_marked": false
+  },
+  {
+   "n": 3,
+   "line": 7,
+   "quote": "ٱسْم",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000047/B002",
+      "root": "ء ل ه",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000047/B002",
+      "root": "ء ل ه",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000745/B005",
+      "root": "س م و",
+      "branch": "B005",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000047/B001",
+      "root": "ء ل ه",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000047/B002",
+      "root": "ء ل ه",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn",
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000552/-",
+      "root": "ر ح م",
+      "branch": "-",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 91
+   },
+   "also": {
+    "quran": {
+     "refs": [
+      "5:4",
+      "6:118",
+      "6:119",
+      "6:121"
+     ],
+     "n_ayat": 32,
+     "level": "exact"
+    },
+    "early_entry": [
+     "ء ب د mufradat",
+     "ء ب ل maqayis",
+     "ء ب ل sihah",
+     "ء ب ل tahdhib",
+     "ء ت ي sihah",
+     "ء ث ث jamhara",
+     "ء ث ث sihah",
+     "ء ث ر sihah"
+    ],
+    "majaz": [
+     1,
+     25,
+     31,
+     137
+    ]
+   },
+   "sentence_index": 9,
+   "bellek_marked": false
+  },
+  {
+   "n": 4,
+   "line": 11,
+   "quote": "وَإِيَّاكَ نَسْتَعِينُ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "1:5"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {
+    "early_entry": [
+     "ق ل ب ayn"
+    ],
+    "majaz": [
+     4
+    ]
+   },
+   "sentence_index": 25,
+   "bellek_marked": false
+  },
+  {
+   "n": 5,
+   "line": 17,
+   "quote": "ٱسْم",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000047/B002",
+      "root": "ء ل ه",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000047/B002",
+      "root": "ء ل ه",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000745/B005",
+      "root": "س م و",
+      "branch": "B005",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000047/B001",
+      "root": "ء ل ه",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000047/B002",
+      "root": "ء ل ه",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn",
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000552/-",
+      "root": "ر ح م",
+      "branch": "-",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 91
+   },
+   "also": {
+    "quran": {
+     "refs": [
+      "5:4",
+      "6:118",
+      "6:119",
+      "6:121"
+     ],
+     "n_ayat": 32,
+     "level": "exact"
+    },
+    "early_entry": [
+     "ء ب د mufradat",
+     "ء ب ل maqayis",
+     "ء ب ل sihah",
+     "ء ب ل tahdhib",
+     "ء ت ي sihah",
+     "ء ث ث jamhara",
+     "ء ث ث sihah",
+     "ء ث ر sihah"
+    ],
+    "majaz": [
+     1,
+     25,
+     31,
+     137
+    ]
+   },
+   "sentence_index": 32,
+   "bellek_marked": false
+  },
+  {
+   "n": 6,
+   "line": 17,
+   "quote": "سماء",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000745/B001",
+      "root": "س م و",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000745/B001",
+      "root": "س م و",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000745/B002",
+      "root": "س م و",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000745/B002",
+      "root": "س م و",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000745/B002",
+      "root": "س م و",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000745/B002",
+      "root": "س م و",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 75
+   },
+   "also": {
+    "quran": {
+     "refs": [
+      "41:12",
+      "2:19",
+      "2:22",
+      "2:29"
+     ],
+     "n_ayat": 119,
+     "level": "exact"
+    },
+    "early_entry": [
+     "ء ب ب jamhara",
+     "ء ب ل maqayis",
+     "ء ب ل sihah",
+     "ء ث ل maqayis",
+     "ء ث ل tahdhib",
+     "ء ث م ayn",
+     "ء ث م mufradat",
+     "ء ث م tahdhib"
+    ],
+    "majaz": [
+     19,
+     27,
+     31,
+     47
+    ]
+   },
+   "sentence_index": 33,
+   "bellek_marked": false
+  },
+  {
+   "n": 7,
+   "line": 17,
+   "quote": "وسم",
+   "source": "dictionary",
+   "level": "clitic",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000047/B002",
+      "root": "ء ل ه",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "clitic"
+     },
+     {
+      "branch_ref": "root_000745/B002",
+      "root": "س م و",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "clitic"
+     },
+     {
+      "branch_ref": "root_000047/B001",
+      "root": "ء ل ه",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "clitic"
+     },
+     {
+      "branch_ref": "root_000745/B001",
+      "root": "س م و",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "clitic"
+     },
+     {
+      "branch_ref": "root_000745/B001",
+      "root": "س م و",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "clitic"
+     },
+     {
+      "branch_ref": "root_000745/B001",
+      "root": "س م و",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "clitic"
+     }
+    ],
+    "n_matches": 13
+   },
+   "also": {
+    "early_entry": [
+     "ء ب و mufradat",
+     "ء ث ر tahdhib",
+     "ء ث م ayn",
+     "ء ذ ن ayn",
+     "ء س ر mufradat",
+     "ء ل ف mufradat",
+     "ء ل م ayn",
+     "ء ل م maqayis"
+    ],
+    "majaz": [
+     1,
+     22,
+     1308
+    ]
+   },
+   "sentence_index": 35,
+   "bellek_marked": false
+  },
+  {
+   "n": 8,
+   "line": 19,
+   "quote": "بِ",
+   "source": "too_short",
+   "level": null,
+   "detail": {},
+   "also": {},
+   "sentence_index": 45,
+   "bellek_marked": false
+  },
+  {
+   "n": 9,
+   "line": 21,
+   "quote": "إِيَّاكَ نَعْبُدُ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "1:5"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {
+    "dictionary": [
+     "ع ب د B003 (root_000973/B003) source_phrase_ar [tahdhib]",
+     "ع ب د B003 (root_000973/B003) lexical_source_phrase [tahdhib]"
+    ],
+    "early_entry": [
+     "ء و ه mufradat",
+     "ع ب د tahdhib"
+    ],
+    "majaz": [
+     3,
+     4,
+     1308
+    ]
+   },
+   "sentence_index": 54,
+   "bellek_marked": false
+  },
+  {
+   "n": 10,
+   "line": 25,
+   "quote": "ٱلرَّحْمَٰنِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "1:1",
+     "1:3"
+    ],
+    "n_ayat": 2,
+    "where": "focus"
+   },
+   "also": {
+    "dictionary": [
+     "ر ح م B001 (root_000552/B001) lexical_source_phrase [ayn]",
+     "ر ح م B001 (root_000552/B001) lexical_source_phrase [jamhara]",
+     "ر ح م B001 (root_000552/B001) lexical_source_phrase [sihah]",
+     "ر ح م B001 (root_000552/B001) lexical_source_phrase [tahdhib]"
+    ],
+    "early_entry": [
+     "ء ت ي tahdhib",
+     "ء ر ب tahdhib",
+     "ء ف ف ayn",
+     "ء ف ف tahdhib",
+     "ء ل ف tahdhib",
+     "ء ل ه tahdhib",
+     "ء ن س mufradat",
+     "ء ن م tahdhib"
+    ],
+    "majaz": [
+     1,
+     6,
+     226,
+     367
+    ],
+    "qiraat": [
+     "78:37:8",
+     "78:37:8"
+    ]
+   },
+   "sentence_index": 59,
+   "bellek_marked": false
+  },
+  {
+   "n": 11,
+   "line": 25,
+   "quote": "ٱلرَّحِيمِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "1:1",
+     "1:3"
+    ],
+    "n_ayat": 2,
+    "where": "focus"
+   },
+   "also": {
+    "dictionary": [
+     "ر ح م B001 (root_000552/B001) source_phrase_ar [jamhara]",
+     "ر ح م B001 (root_000552/B001) lexical_source_phrase [ayn]",
+     "ر ح م B001 (root_000552/B001) lexical_source_phrase [jamhara]",
+     "ر ح م B001 (root_000552/B001) lexical_source_phrase [mufradat]"
+    ],
+    "early_entry": [
+     "ء ث م tahdhib",
+     "ء ل ه tahdhib",
+     "ء و ه tahdhib",
+     "ء ي ي maqayis",
+     "ب خ ل mufradat",
+     "ب د ع tahdhib",
+     "ب ر ر mufradat",
+     "ب ر ر tahdhib"
+    ],
+    "majaz": [
+     1,
+     6,
+     226,
+     367
+    ]
+   },
+   "sentence_index": 59,
+   "bellek_marked": false
+  },
+  {
+   "n": 12,
+   "line": 25,
+   "quote": "رَحِم",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000552/B002",
+      "root": "ر ح م",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000552/B002",
+      "root": "ر ح م",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000552/B002",
+      "root": "ر ح م",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000552/B002",
+      "root": "ر ح م",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000552/B003",
+      "root": "ر ح م",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000552/B003",
+      "root": "ر ح م",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "jamhara"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 69
+   },
+   "also": {
+    "quran": {
+     "refs": [
+      "11:43",
+      "11:119",
+      "12:53",
+      "44:42"
+     ],
+     "n_ayat": 84,
+     "level": "exact"
+    },
+    "early_entry": [
+     "ء ث ر tahdhib",
+     "ء ث م ayn",
+     "ء ث م tahdhib",
+     "ء ذ ن ayn",
+     "ء ر م ayn",
+     "ء ص ر ayn",
+     "ء ص ر sihah",
+     "ء ف ل maqayis"
+    ],
+    "majaz": [
+     1,
+     124,
+     128,
+     226
+    ]
+   },
+   "sentence_index": 62,
+   "bellek_marked": false
+  },
+  {
+   "n": 13,
+   "line": 25,
+   "quote": "أَرْحَام",
+   "source": "dictionary",
+   "level": "clitic",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000552/B002",
+      "root": "ر ح م",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "jamhara"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "clitic"
+     },
+     {
+      "branch_ref": "root_000552/B002",
+      "root": "ر ح م",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "jamhara"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "clitic"
+     },
+     {
+      "branch_ref": "root_000552/B002",
+      "root": "ر ح م",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "clitic"
+     },
+     {
+      "branch_ref": "root_000552/B003",
+      "root": "ر ح م",
+      "branch": "B003",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "clitic"
+     },
+     {
+      "branch_ref": "root_000552/B003",
+      "root": "ر ح م",
+      "branch": "B003",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "clitic"
+     },
+     {
+      "branch_ref": "root_000552/B002",
+      "root": "ر ح م",
+      "branch": "B002",
+      "field": "lexical_expression_ar",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "clitic"
+     }
+    ],
+    "n_matches": 8
+   },
+   "also": {
+    "quran": {
+     "refs": [
+      "6:143",
+      "6:144",
+      "2:228",
+      "3:6"
+     ],
+     "n_ayat": 12,
+     "level": "exact"
+    },
+    "early_entry": [
+     "ب ل ل maqayis",
+     "ب ل ل sihah",
+     "ب ل ل tahdhib",
+     "ث ر ي sihah",
+     "ح ج ر ayn",
+     "ح ج ر maqayis",
+     "ح ج ر tahdhib",
+     "خ ل ق tahdhib"
+    ],
+    "majaz": [
+     367,
+     825,
+     958,
+     1020
+    ]
+   },
+   "sentence_index": 63,
+   "bellek_marked": false
+  },
+  {
+   "n": 14,
+   "line": 29,
+   "quote": "رَّحْمَٰنِ",
+   "source": "quran",
+   "level": "clitic",
+   "detail": {
+    "refs": [
+     "1:1",
+     "1:3"
+    ],
+    "n_ayat": 2,
+    "where": "focus"
+   },
+   "also": {
+    "dictionary": [
+     "ح ن ن B001 (root_000364/B001) lexical_source_phrase [tahdhib]",
+     "ر ح م B001 (root_000552/B001) source_phrase_ar [jamhara]",
+     "ر ح م B001 (root_000552/B001) source_phrase_ar [mufradat]",
+     "ر ح م B001 (root_000552/B001) lexical_source_phrase [ayn]"
+    ],
+    "early_entry": [
+     "ء ت ي tahdhib",
+     "ء ر ب tahdhib",
+     "ء ف ف ayn",
+     "ء ف ف tahdhib",
+     "ء ل ف tahdhib",
+     "ء ل ه tahdhib",
+     "ء ن س mufradat",
+     "ء ن م tahdhib"
+    ],
+    "majaz": [
+     1,
+     6,
+     226,
+     367
+    ]
+   },
+   "sentence_index": 78,
+   "bellek_marked": false
+  },
+  {
+   "n": 15,
+   "line": 29,
+   "quote": "غَضْبَان",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001092/B001",
+      "root": "غ ض ب",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001092/B001",
+      "root": "غ ض ب",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001092/B001",
+      "root": "غ ض ب",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001092/B001",
+      "root": "غ ض ب",
+      "branch": "B001",
+      "field": "lexical_sense_ar",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001092/B001",
+      "root": "غ ض ب",
+      "branch": "B001",
+      "field": "lexical_expression_ar",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001092/B001",
+      "root": "غ ض ب",
+      "branch": "B001",
+      "field": "what_is_ar",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 6
+   },
+   "also": {
+    "quran": {
+     "refs": [
+      "7:150",
+      "20:86"
+     ],
+     "n_ayat": 2,
+     "level": "exact"
+    },
+    "early_entry": [
+     "ء ث ل sihah",
+     "ء خ ذ ayn",
+     "ء خ ر ayn",
+     "ء خ و ayn",
+     "ء س ف ayn",
+     "ء س ف maqayis",
+     "ء س ف mufradat",
+     "ء س ف sihah"
+    ],
+    "majaz": [
+     763
+    ]
+   },
+   "sentence_index": 81,
+   "bellek_marked": false
+  },
+  {
+   "n": 16,
+   "line": 31,
+   "quote": "رَحِيم",
+   "source": "quran",
+   "level": "clitic",
+   "detail": {
+    "refs": [
+     "1:1",
+     "1:3"
+    ],
+    "n_ayat": 2,
+    "where": "focus"
+   },
+   "also": {
+    "dictionary": [
+     "ر ق ق B001 (root_000586/B001) lexical_sense_ar",
+     "ر ح م B001 (root_000552/B001) source_phrase_ar [jamhara]",
+     "ر ح م B001 (root_000552/B001) source_phrase_ar [tahdhib]",
+     "ر ح م B001 (root_000552/B001) source_phrase_ar [mufradat]"
+    ],
+    "early_entry": [
+     "ء ث م tahdhib",
+     "ء ل ه tahdhib",
+     "ء و ه tahdhib",
+     "ء ي ي maqayis",
+     "ب خ ل mufradat",
+     "ب د ع tahdhib",
+     "ب ر ر mufradat",
+     "ب ر ر tahdhib"
+    ],
+    "majaz": [
+     1,
+     6,
+     226,
+     367
+    ]
+   },
+   "sentence_index": 89,
+   "bellek_marked": false
+  },
+  {
+   "n": 17,
+   "line": 37,
+   "quote": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "1:1",
+     "1:3"
+    ],
+    "n_ayat": 2,
+    "where": "focus"
+   },
+   "also": {
+    "dictionary": [
+     "ر ح م B001 (root_000552/B001) lexical_source_phrase [ayn]",
+     "ر ح م B001 (root_000552/B001) source_phrase_ar [jamhara]"
+    ],
+    "early_entry": [
+     "ء ل ه tahdhib",
+     "ء ي ي maqayis",
+     "ر ح م ayn",
+     "ر ح م jamhara",
+     "ر ح م tahdhib",
+     "ر ذ ل maqayis",
+     "س م و mufradat",
+     "ش ك ر tahdhib"
+    ],
+    "majaz": [
+     1,
+     6,
+     226,
+     367
+    ]
+   },
+   "sentence_index": 109,
+   "bellek_marked": false
+  },
+  {
+   "n": 18,
+   "line": 39,
+   "quote": "رَبِّ ٱلْعَٰلَمِينَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "1:2"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {
+    "dictionary": [
+     "ع ل م B003 (root_001040/B003) lexical_source_phrase [tahdhib]",
+     "ق و م B013 (root_001273/B013) source_phrase_ar [mufradat]"
+    ],
+    "early_entry": [
+     "ء ل ه tahdhib",
+     "ء م م sihah",
+     "ب ر ك mufradat",
+     "ج ب ي sihah",
+     "ج ن ن tahdhib",
+     "ح م د tahdhib",
+     "ح ي ي jamhara",
+     "ر ب ب mufradat"
+    ],
+    "majaz": [
+     2,
+     888,
+     901,
+     1308
+    ]
+   },
+   "sentence_index": 112,
+   "bellek_marked": false
+  },
+  {
+   "n": 19,
+   "line": 39,
+   "quote": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "1:4"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {
+    "dictionary": [
+     "د ي ن B002 (root_000504/B002) source_phrase_ar [tahdhib]",
+     "د ي ن B002 (root_000504/B002) lexical_source_phrase [tahdhib]",
+     "د ي ن B002 (root_000504/B002) lexical_source_phrase [maqayis]"
+    ],
+    "early_entry": [
+     "د ي ن maqayis",
+     "د ي ن tahdhib",
+     "م ل ك mufradat",
+     "م ل ك tahdhib"
+    ],
+    "majaz": [
+     3,
+     4
+    ]
+   },
+   "sentence_index": 112,
+   "bellek_marked": false
+  },
+  {
+   "n": 20,
+   "line": 41,
+   "quote": "ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "1:7"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {
+    "early_entry": [
+     "غ ي ر maqayis"
+    ]
+   },
+   "sentence_index": 120,
+   "bellek_marked": false
+  },
+  {
+   "n": 21,
+   "line": 41,
+   "quote": "ٱلْمَغْضُوبِ عَلَيْهِمْ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "1:7"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {
+    "early_entry": [
+     "غ ض ب mufradat",
+     "غ ي ر maqayis",
+     "غ ي ر tahdhib"
+    ],
+    "majaz": [
+     6
+    ]
+   },
+   "sentence_index": 122,
+   "bellek_marked": false
+  }
+ ],
+ "arabic_outside_tags": [],
+ "bellek": [],
+ "unsourced_unmarked": [],
+ "cited_branches": [
+  {
+   "branch_ref": "root_000047/B002",
+   "root": "ء ل ه",
+   "branch": "B002",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yalın özel ad, doğrudan seslenme biçimleri ve ant ya da şaşma kalıpları ayrı tutulur; kalıplara özgü işlevler özel adın her kullanımına genellenmez.",
+   "image_ar": "اسم الله في القسم والنداء",
+   "quote": "ٱسْم",
+   "line": 7,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Burada bağlanan şey bir addır, {ar:ٱسْم, tr:ism, gloss:ad}."
+  },
+  {
+   "branch_ref": "root_000745/B005",
+   "root": "س م و",
+   "branch": "B005",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Ad çekirdeği; ad verme, ad edinme, adaşlık ve ad ya da nitelik bakımından denklik bildiren özel biçimlerden ayrılarak tanımlanır.",
+   "image_ar": "الاسم تنويه ودلالة",
+   "quote": "ٱسْم",
+   "line": 7,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Burada bağlanan şey bir addır, {ar:ٱسْم, tr:ism, gloss:ad}."
+  },
+  {
+   "branch_ref": "root_000047/B001",
+   "root": "ء ل ه",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım, yalın eylem çekirdeğini türemiş eylem ve varlık adlarından ayırır; türemiş biçimlerin kapsamı yalın eylemin tamamına aktarılmaz.",
+   "image_ar": "التعبد والمعبود",
+   "quote": "ٱسْم",
+   "line": 7,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Burada bağlanan şey bir addır, {ar:ٱسْم, tr:ism, gloss:ad}."
+  },
+  {
+   "branch_ref": "root_000552/-",
+   "root": "ر ح م",
+   "branch": "-",
+   "branch_kind": "",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "",
+   "image_ar": "",
+   "quote": "ٱسْم",
+   "line": 7,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Burada bağlanan şey bir addır, {ar:ٱسْم, tr:ism, gloss:ad}."
+  },
+  {
+   "branch_ref": "root_000047/B002",
+   "root": "ء ل ه",
+   "branch": "B002",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yalın özel ad, doğrudan seslenme biçimleri ve ant ya da şaşma kalıpları ayrı tutulur; kalıplara özgü işlevler özel adın her kullanımına genellenmez.",
+   "image_ar": "اسم الله في القسم والنداء",
+   "quote": "ٱسْم",
+   "line": 17,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Verilen veride {ar:ٱسْم, tr:ism, gloss:ad} kelimesi s-m-v köküne bağlanır."
+  },
+  {
+   "branch_ref": "root_000745/B005",
+   "root": "س م و",
+   "branch": "B005",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Ad çekirdeği; ad verme, ad edinme, adaşlık ve ad ya da nitelik bakımından denklik bildiren özel biçimlerden ayrılarak tanımlanır.",
+   "image_ar": "الاسم تنويه ودلالة",
+   "quote": "ٱسْم",
+   "line": 17,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Verilen veride {ar:ٱسْم, tr:ism, gloss:ad} kelimesi s-m-v köküne bağlanır."
+  },
+  {
+   "branch_ref": "root_000047/B001",
+   "root": "ء ل ه",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım, yalın eylem çekirdeğini türemiş eylem ve varlık adlarından ayırır; türemiş biçimlerin kapsamı yalın eylemin tamamına aktarılmaz.",
+   "image_ar": "التعبد والمعبود",
+   "quote": "ٱسْم",
+   "line": 17,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Verilen veride {ar:ٱسْم, tr:ism, gloss:ad} kelimesi s-m-v köküne bağlanır."
+  },
+  {
+   "branch_ref": "root_000552/-",
+   "root": "ر ح م",
+   "branch": "-",
+   "branch_kind": "",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "",
+   "image_ar": "",
+   "quote": "ٱسْم",
+   "line": 17,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Verilen veride {ar:ٱسْم, tr:ism, gloss:ad} kelimesi s-m-v köküne bağlanır."
+  },
+  {
+   "branch_ref": "root_000745/B001",
+   "root": "س م و",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Genel yükselme çekirdeği ile bakış, toplumsal konum ve gururlu duruşa bağlı özel kullanımlar ayrı tutulur.",
+   "image_ar": "العلو والارتفاع",
+   "quote": "سماء",
+   "line": 17,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Bu kökün ailesinde yükseklik vardır; gök anlamına gelen {ar:سماء, tr:semâ, gloss:gök} de aynı ailedendir."
+  },
+  {
+   "branch_ref": "root_000745/B002",
+   "root": "س م و",
+   "branch": "B002",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Uzaktan belirme çekirdeği, belirli görünme kalıpları ve ayın ufuk üstündeki görünüşüyle birlikte fakat ayrı kapsamlarla verilir.",
+   "image_ar": "الشخص المرتفع الظاهر",
+   "quote": "سماء",
+   "line": 17,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Bu kökün ailesinde yükseklik vardır; gök anlamına gelen {ar:سماء, tr:semâ, gloss:gök} de aynı ailedendir."
+  },
+  {
+   "branch_ref": "root_000552/B002",
+   "root": "ر ح م",
+   "branch": "B002",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yalın biçimler yakın soy bağını adlandırır; bu bağı sürdürme veya koparma anlamı ise yalnızca eylem kalıbına bağlıdır ve yalın dal tanımına katılmaz.",
+   "image_ar": "الرَّحِم والقرابة",
+   "quote": "رَحِم",
+   "line": 25,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Arapçada {ar:رَحِم, tr:rahim (rahm), gloss:ana rahmi; akrabalık bağı}, bebeğin taşındığı organın adıdır."
+  },
+  {
+   "branch_ref": "root_000552/B003",
+   "root": "ر ح م",
+   "branch": "B003",
+   "branch_kind": "bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Dal bağımsız organ adını ve onun çoğulunu kapsar; herhangi bir kalıba bağlı yan anlam bu yalın tanıma eklenmez.",
+   "image_ar": "رَحِم الأنثى",
+   "quote": "رَحِم",
+   "line": 25,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Arapçada {ar:رَحِم, tr:rahim (rahm), gloss:ana rahmi; akrabalık bağı}, bebeğin taşındığı organın adıdır."
+  },
+  {
+   "branch_ref": "root_001092/B001",
+   "root": "غ ض ب",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "window",
+   "scope_note": "Tanım, yalın öfke anlamını kişi nitelemelerinden ve bir hedefe yönelen kalıplaşmış kullanımdan ayırarak birlikte gösterir.",
+   "image_ar": "اشتداد السخط وثورانه للانتقام",
+   "quote": "غَضْبَان",
+   "line": 29,
+   "framing": "echo marker in a neighbouring sentence",
+   "echo_markers": [
+    "kalıp"
+   ],
+   "extended_markers_in_sentence": [],
+   "sentence": "Mûsâ kavmine {ar:غَضْبَان, tr:gadbân, gloss:öfkeyle dolmuş} ve kederli olarak döner (7:150)."
+  }
+ ]
+}
