@@ -54,6 +54,53 @@ assumed 40k output tokens; E1 measured 15–30k. No call estimates at or above $
 **If the pulley or the gait still stays out of the threads:** add one same-session challenge turn ("is this
 everything, or did you curate?"). If the chains still don't cross ayat: a surah-first pass.
 
+## The dictionary (2026-09-29)
+
+**The v9 file cuts the evidence.** `v9/prepare.py:307` clips every branch's early-source phrases at 220
+characters. 603 of 1,791 branch lines in the v9 dictionaries (34%) are cut. Every run that read those files read
+them cut: the v9 dictionary arm, E1, v16 H/V. On 1:6 the cut removed Tahdhīb's "القامة البكرة التي يستقى بها الماء"
+and "النعامة الخشبة المعترضة ثم تعلق القامة" (the pulley hangs from the naʿāma crossbeam). That is the dictionary's
+own join of ق و م (1:6) to ن ع م (1:7), the second key the pulley lacked.
+
+**What the readings use.** Twelve readings were checked: the v9 dictionary arm, E1 rep1 and v16 H/V, each on 1:6,
+100:1 and 100:6.
+
+- 173 of 174 dictionary quotations come from `source_phrase_ar`. None comes from the pipeline's Arabic image, scope
+  or "not" lines.
+- Turkish 4-grams shared with the Turkish fields that were in the packet (definition 9, facets 4, gloss 2) sit at
+  the level of fields never shown (source synthesis 6, per-sense glosses 5, scope note 5). The writers translate
+  the Arabic; they do not reuse the dictionary's Turkish.
+
+**Size by field** (S1 + S100 roots, 374 branches; share of the entry's text):
+
+| field | share |
+|---|---|
+| neighbour distinctions | 35% |
+| identity judgment | 11% |
+| source synthesis | 8% |
+| source phrases | 8% |
+| gloss applicability and error profile | 8% |
+| facets | 6% |
+| definition | 4% |
+
+**The v16 dictionary** (`dictionary.py`; same roots and order as v9). Per branch it keeps:
+
+- the Turkish label;
+- the per-sense Turkish glosses (`lexical_glosses`), which follow the source phrases sense by sense. The definition
+  merges senses and adds verdicts: on ق و م B012 it buries the pulley among a sword hilt and a bed leg and ends on
+  "tartışmalıdır";
+- `[kalıp]` for collocation-bound branches, 15% of all branches. Their scope notes are formulaic negatives
+  ("…yalın köke genellenmez"), and the source phrases already show the construction;
+- the source phrases whole.
+
+It drops everything else, including the root summary. It is 47% smaller than v9's clipped file (1:6: 32.4k → 17.0k
+characters) and 51% smaller than v9 without clipping.
+
+**Arms added:**
+
+- **D:** the E1 base with the v16 dictionary and nothing else. Does the whole evidence alone bring the pulley back?
+- **VD:** V with the v16 dictionary.
+
 ## Rules
 
 - One call per arm per ayah. No duplicates, no retries, no reruns: an existing `out/…/run.log.json` is never
@@ -67,6 +114,7 @@ everything, or did you curate?"). If the chains still don't cross ayat: a surah-
 - `v16.py`: `build` writes `work/<S_A>/<arm>/prompt.md` and `packet.json` and prints sizes and estimates; `run`
   makes the calls (`--arm`, `--ayah`).
 - `prompts/additions.md`: the three additions.
+- `dictionary.py`: the v16 dictionary (arms D and VD); run it with refs to compare sizes against v9.
 - `out/<S_A>/<arm>/`: the reading, `run.log.json` and `check.json`.
 
 ## Status

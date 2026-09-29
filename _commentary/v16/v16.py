@@ -9,13 +9,15 @@ Arms (the assembled-findings slot):
      in the ayah, verbatim (latent_activation/network/v3/reviews/sNNN/reader_a_pilot.md)
   V  v5 scope prose (raw/<analysis>/sNNN/S_A/{micro,macro,global}.scope.tr.md); a lane whose gzip ratio is below
      0.2 is template-generated ledger text, not prose, and is left out
+  D  no findings slot, and the v16 dictionary (dictionary.py) in place of v9's clipped 01_dictionary.md
+  VD V with the v16 dictionary
 
 Rules: one call per arm per ayah; never rerun an existing output; no retries; a call starts only if its estimate is
 below $5; every call is logged in out/ledger.jsonl; check.py runs after writing and never edits the prose.
 
 Usage:
   python3 _commentary/v16/v16.py build            write every packet to work/ and print sizes and estimates
-  python3 _commentary/v16/v16.py run [--arm H|V] [--ayah S:A] [--parallel N]
+  python3 _commentary/v16/v16.py run --arm H|V|D|VD [--ayah S:A] [--parallel N]
 """
 from __future__ import annotations
 
@@ -45,7 +47,8 @@ OUT = HERE / "out"
 SYSTEM = ("You are a careful scholar of Quranic Arabic and a fine Turkish prose writer. Follow the brief in the "
           "user message exactly and return only the requested output.")
 AYAT = ["1:6", "100:1", "100:6"]
-ARMS = ["H", "V"]
+ARMS = ["H", "V", "D", "VD"]
+V16_DICT = {"D", "VD"}  # arms that read the v16 dictionary
 V5_RUN = {1: "s001-fresh-20260910", 100: "s100-regular-20260911"}
 LANES = ["micro", "macro", "global"]
 PROSE_MIN_GZ = 0.2  # natural prose compresses to 0.28-0.38 of its size; templated lanes to 0.06-0.09
@@ -61,7 +64,20 @@ ARM_EVIDENCE = {
     "V": ("the scope notes (an earlier reader's findings: micro on the ayah's own words, macro on its surah, "
           "global on the Quran and the Fatiha; that reader had to state every limit, so its boundary sentences are "
           "its caution, not rules for you)"),
+    "D": None,
 }
+ARM_EVIDENCE["VD"] = ARM_EVIDENCE["V"]
+_SRC = None
+
+
+def v16_dictionary(ref: str, path: Path) -> Path:
+    global _SRC
+    sys.path.insert(0, str(HERE))
+    import dictionary as D
+    if _SRC is None:
+        _SRC = D.P.Sources()
+    path.write_text(D.section(_SRC, ref), encoding="utf-8")
+    return path
 
 
 def rel(p: Path) -> str:
@@ -123,21 +139,25 @@ def v5_lanes(ref: str) -> list[tuple[Path, float]]:
 def build(ref: str, arm: str) -> tuple[str, dict]:
     s, name = sa(ref)
     ctx = V9 / "lines" / "work" / name / "context.md"
-    dic = V9 / "input" / "v2" / f"s{s:03d}" / name / "01_dictionary.md"
     wd = WORK / name / arm
     wd.mkdir(parents=True, exist_ok=True)
+    dic = (v16_dictionary(ref, wd / "01_dictionary.md") if arm in V16_DICT
+           else V9 / "input" / "v2" / f"s{s:03d}" / name / "01_dictionary.md")
     meta = {"ref": ref, "arm": arm}
     if arm == "H":
         ch = wd / "channels.md"
         ch.write_text(channel_slice(ref), encoding="utf-8")
         extra = [V9 / "input" / "v2" / f"s{s:03d}" / name / "02_hft.md", ch]
+    elif arm == "D":
+        extra = []
     else:
         lanes = v5_lanes(ref)
         extra = [p for p, r in lanes if r >= PROSE_MIN_GZ]
         meta["v5_lanes"] = {p.name: {"gz_ratio": round(r, 3), "kept": r >= PROSE_MIN_GZ} for p, r in lanes}
     stdin = inline(W10, ADD, ctx, dic, *extra)
     prompt = (f"Focus: {ref}. Follow the brief below (write.md) and its additions (additions.md) exactly. The "
-              f"evidence is {BASE_EVIDENCE} and {ARM_EVIDENCE[arm]} and your own knowledge of Arabic and the Quran. "
+              f"evidence is {BASE_EVIDENCE}{' and ' + ARM_EVIDENCE[arm] if ARM_EVIDENCE[arm] else ''} and your own "
+              f"knowledge of Arabic and the Quran. "
               f"Return only the reader's prose as your final message.")
     text = prompt + "\n\n" + stdin
     (wd / "prompt.md").write_text(text, encoding="utf-8")
@@ -212,6 +232,8 @@ def main() -> None:
     ayat = [a.ayah] if a.ayah else AYAT
     arms = [a.arm] if a.arm else ARMS
     jobs = [(r, k) for r in ayat for k in arms]
+    if a.cmd == "run" and not a.arm:
+        ap.error("run needs --arm (each arm is approved separately)")
     if a.cmd == "build":
         total = 0.0
         for r, k in jobs:
