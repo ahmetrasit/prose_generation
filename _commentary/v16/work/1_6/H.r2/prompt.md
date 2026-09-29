@@ -1,68 +1,73 @@
-Focus: 1:6. Follow the brief below (write.md) and its additions (additions.md) exactly. The evidence is context.md (the ayah, its words and anchor translation, the Fatiha, the whole surah) and 01_dictionary.md (every attested branch of every root of the ayah's words, with the classical dictionaries' source phrases) and 02_hft.md (earlier activation hypotheses for this ayah in its surah) and channels.md (the surah's channel-review subchannels anchored in this ayah) and your own knowledge of Arabic and the Quran. Return only the reader's prose as your final message.
+Focus: 1:6. Follow the brief below (write.md) and its additions (additions.md) exactly. The evidence is context.md (the ayah, its words and anchor translation, the Fatiha, the whole surah) and 01_dictionary.md (every attested branch of every root of the ayah's words, with the classical dictionaries' source phrases) and 02_hft.md (earlier activation hypotheses for this ayah in its surah) and channels.md (the surah's channel-review subchannels anchored in this ayah; both are earlier readers' proposals: ignore their judgements (grades, strength or confidence labels, reading types, statements of what a reading may or may not do) and make your own) and your own knowledge of Arabic and the Quran. Return only the reader's prose as your final message.
 
-===== _commentary/v9/prompts/write_v10.md =====
+===== _commentary/v16/prompts/r2/write.md =====
 Write the finished Turkish reading of the focus Quranic ayah. The reader knows
 neither Arabic nor how lexical families and associations work. Let the reader
-see what the ayah makes possible to hear. Work only from the supplied evidence;
-do not use tools, delegate, browse or inspect files. Return only the reader's
-prose in Markdown. This is an independent interpretation, not a catalogue, a
-translation expanded with footnotes, or a report on an analytical workflow.
+see what the ayah makes possible to hear. Work from the supplied evidence and
+your own knowledge of Arabic and the Quran. Where a sense, phrase or passage
+comes from memory rather than from the supplied dictionary or text, say so
+briefly where you use it. Do not use tools, delegate, browse or inspect files.
+Return only the reader's prose in Markdown. This is an independent
+interpretation, not a catalogue, a translation expanded with footnotes, or a
+report on an analytical workflow.
 
 First understand the focus in its immediate grammar and scene. Then develop
-the consequential resonances into connected readings. A supplied reading brief
-is a proposal, not an authority: correct it when the original sources require
-correction. Without a brief, perform the same synthesis yourself from the source
-readings and lexical and Quranic evidence. Do not merely rewrite each finding
+the consequential resonances into connected readings. Readings and maps
+supplied by earlier readers are proposals, not authorities: correct them when
+the original sources require correction. Do not merely rewrite each finding
 in a separate paragraph. Let a concrete detail make the next detail necessary:
 what changes, through what operation, with what consequence for the focus?
 An image chain earns space through the new understanding it enables. Sustain
 its material specificity long enough for that consequence to become visible.
-Do not flatten a well, a support, a pressure, or an obstruction into a generic
-label such as care, connection, life or direction before explaining its work.
+Do not flatten a concrete object, mechanism, pressure or obstruction into a
+generic label such as care, connection, life or direction before explaining
+its work.
 
 The aim is main themes and important image chains, not every possible finding.
 Several independent readings can coexist without being subordinate to one
 thesis. Give them the space their development needs. There is no word target,
 section quota, required number of verses, or symmetry requirement. Select for
 explanatory importance; novelty alone is neither a reason to include nor to
-exclude. Use headings only when they help the reader follow a real movement.
+exclude.
 
 Quran usage can load a word with an existing scene beyond its dictionary
-definition. Read the concordance panels and actual passages, including nearby
-ayat. Explain what returns, what changes, and why it matters here. Distinguish
-same word from same root, and textual repetition from interpretive analogy.
-Let other ayat supply indispensable stages, contrasts and consequences, rather
-than gathering references after an already finished claim. The full surah and
-Fatiha are present for this purpose; do not impose a formulaic Fatiha paragraph.
-Do not infer the chronology of revelation from surah order.
+definition. Read the actual passages, including nearby ayat. Explain what
+returns, what changes, and why it matters here. Distinguish same word from
+same root, and textual repetition from interpretive analogy. Let other ayat
+supply indispensable stages, contrasts and consequences, rather than gathering
+references after an already finished claim. The full surah and Fatiha are
+present for this purpose; do not impose a formulaic Fatiha paragraph. Do not
+infer the chronology of revelation from surah order.
 
 Show the non-Arabic reader where an image comes from. For example, introduce
 the relevant word, explain the attested family image or form, then demonstrate
-its connection to another detail before drawing the reading. A dictionary
-sense of a related noun does not become the translation of this verb. A split
-mapping marked as an echo does not establish root identity. An image can remain
-powerful as an analogy when stated accurately. Do not require every image to
-be a literal object in the focus. Do not invent sources, vowels, etymologies,
-lexical meanings, historical facts or citations to support a graceful passage.
+its connection to another detail before drawing the reading. Family images are
+heard beside the word's meaning in this ayah, not in place of it. Make that
+clear once, where the first such image enters; afterwards let the images work
+without repeating the qualification. A split mapping marked as an echo does not
+establish root identity. An image can remain powerful as an analogy when stated
+accurately. Do not require every image to be a literal object in the focus. Do
+not invent sources, vowels, etymologies, lexical meanings, historical facts or
+citations to support a graceful passage.
 
 Write natural, precise Turkish. Follow a question, image or developing insight,
 not the source inventory's order. Retain productive tension and contrast.
 Avoid repetitive constructions of the form "this image meets that image and
 opens a field." Name the particular action and explain its effect. Avoid
-restarting the same discovery in several sections. Do not end every paragraph
-with a defensive disclaimer about what the verse does not say. State an actual
-qualification at the point where the reader needs it, then continue the reading.
-Internal labels, branch IDs, confidence ratings and workflow language do not
-belong in the prose. Do not tell the reader how many sources converged.
+restarting the same discovery in several sections. Do not end paragraphs with
+a defensive disclaimer about what the verse does not say. State an actual
+qualification once, at the point where the reader needs it, then continue the
+reading. Internal labels, branch IDs, confidence ratings and workflow language
+do not belong in the prose. Do not tell the reader how many sources converged.
 
 Format Arabic in the established reader tag:
 {ar:exact Arabic, tr:readable Turkish transliteration, gloss:Turkish meaning}
 Every Arabic quotation must be intelligible in its paragraph. Use these tags
 as normal prose, never inside backticks. Cite Quran passages with exact refs,
-e.g. (15:26, 15:28, 15:33); do not use ayah ranges. Copy Quran Arabic from the
-supplied canonical text. Distinguish a dictionary quotation from Quran wording.
-Transliteration and gloss must explain what is being discussed; they must not
-quietly translate a lexical resonance as the word's contextual meaning.
+e.g. (2:255); do not use ayah ranges. Copy Quran Arabic from the supplied
+canonical text. Distinguish a dictionary quotation from Quran wording.
+Transliteration and gloss explain what is being discussed: the ayah's word by
+its meaning here, a family image by that image.
 
 Before returning, read as someone encountering these relations for the first
 time: can that person explain how the main images work together and reread the
@@ -71,7 +76,7 @@ bridges, repeated qualifications and restatements. Preserve the discoveries
 that made the change possible.
 
 
-===== _commentary/v16/prompts/additions.md =====
+===== _commentary/v16/prompts/r2/additions.md =====
 These additions take precedence over write.md where the two differ.
 
 1. Choose and integrate: most candidates you are given stay out. No ledger, no paragraph per item, no
@@ -80,10 +85,11 @@ These additions take precedence over write.md where the two differ.
    ayah's own words, its surah and neighbours, and the Quran and the Fatiha, woven together. Minor aspects
    attach to a thread as sentences, not paragraphs. A supplied chain running through this ayah is heard as
    one image.
-3. `## Ek Notlar` at the end: one sentence per real finding that fits no thread.
+3. `## Ek Notlar` at the end: one sentence per real finding that fits no thread. A finding that ties this ayah
+   to another ayah or to a chain belongs in a thread, not here.
 
 
-===== _commentary/v9/lines/work/1_6/context.md =====
+===== _commentary/v16/work/1_6/H.r2/context.md =====
 # 1:6 — focus
 
 ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
@@ -100,11 +106,6 @@ Bizi doğru yola ilet.
 | 2 | ٱلصِّرَٰطَ | صِرَٰط | ص ر ط | DET;N |
 | 3 | ٱلْمُسْتَقِيمَ | مُّسْتَقِيم | ق و م | DET;ADJ |
 
-## Word notes (precomputed word analysis; support, not obligations)
-
-- 1:6:1 ٱهْدِنَا: petitionary imperative for guided direction onto the named route; the local frame selects leading and showing the way while allowing bestowal pressure to color guidance as received direction — topics: silent addressee and object suffix reverse roles; recipient and route are compressed into one verb frame; right-direction sense is selected by the path object; gift branch colors guidance as bestowed direction; command morphology functions as supplication; rare imperative surface binds beneficiary to request; guidance immediately enters the path and uprightness field; prior declaration turns into a fresh petition; request creates need for path specification; short request opens into heavier nominal cadence
-- 1:6:2 ٱلصِّرَٰطَ: the definite route or path governed by the guidance request; locally a road-like way and normative conduit, with swallowing or engulfing pressure retained as image rather than replacement sense — topics: definiteness makes the path identifiable; path and qualifier are locked together; accusative route answers the imperative; physical route image carries abstract guidance; swallowing image deepens the route without replacing it; indefinite variant exposes canonical definiteness; sound texture is pressured while reference remains stable; path belongs to a recurrent straight-path formula; middle word pivots request toward specification; straight-path wording joins wider references; dominant abstract path form retains road pressure; liaison and length make the route audible
-- 1:6:3 ٱلْمُسْتَقِيمَ: the definite Form X active participial qualifier: upright, straight, established, and normatively right as the path's own qualifying standard — topics: agreement locks the adjective to the path; active participle gives uprightness property-force; standing image and rectitude stay together; wide root family narrows to upright quality; canonical adjective presents one definite standard; adjective completes the straight-path formula; uprightness closes the guidance request; final adjective gives closure weight; qualifier prepares fuller path identity; upright attribute resonates beyond this noun; standing-path wording shadows the surah horizon; sound texture tightens into closure
 
 # Fatiha (recited in every salah)
 - 1:1 بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
@@ -126,79 +127,118 @@ Bizi doğru yola ilet.
 - 1:7 صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ
 
 
-===== _commentary/v9/input/v2/s001/1_6/01_dictionary.md =====
-# Dictionary — every branch of every focus root
+===== _commentary/v16/work/1_6/H.r2/01_dictionary.md =====
+# Dictionary: every branch of every focus root
 
-One line per branch: gloss | Arabic image | definition | facets | not | source phrase.
+One entry per branch: a Turkish label and Turkish glosses of its attested senses, then the classical dictionaries' own phrases with their source tags (ayn, sihah, tahdhib, maqayis, mufradat, jamhara). [kalıp] marks a sense the dictionaries attest only inside a fixed expression.
 Identity roots come from the quran-data gateway. Word-scoped alternatives are cited analyses of this
 exact word. **Echo roots** are observed but withheld mappings: sound-family candidates, not identity.
 
 ## ه د ي (root_001583) — identity root of ٱهْدِنَا (w1)
 
-Bu kökün dalları doğru yolu gösterme ve izlenen yön çekirdeğinden önde bulunmaya; incelik armağanına, kutsal sunuya, gelinin götürülmesine ve korunan kişiye; ayrıca sallantılı yürüyüş, kişi niteliği, sakin tutum ve şiir sunma gibi ayrışmış alanlara yayılır. Anlam örgüsü hem göndermek ve öne yöneltmek çevresinde gelişen bağları hem de tarihsel olarak ayrılaşmış adlandırmaları birlikte taşır.
-
-- **B001** doğru yolu gösterme ve doğruya yönelme | دلالة بلطف إلى الطريق والحق | Bir kimseye yolu, doğruyu ya da benimsenmesi gereken yönü incelikle göstermek ve tanıtmak; gösterilen yönü kabul ederek doğruya ulaşmak, ayrıca bunun ilahi başarı desteğiyle gerçekleşmesidir. | facets: Doğru yönü, yolu veya gerçeği incelikle göstermek, açıklamak ve tanıtmaktır. / Gösterilen doğru yönü isteyerek kabul etme ve ona ulaşma sürecini de kapsar. / Dinsel doğruya yöneltme ve bu yönelişi mümkün kılan ilahi başarı desteği özel bir gerçekleşmedir. | not: لا يدخل فيه الهدية بمعنى العطاء ولا الهدي المهدى إلى الحرم ولا مجرد أول الشيء إلا إذا كان للتقدم والإرشاد | src: الهدى نقيض الضلالة؛ هدي فاهتدى (ayn;tahdhib)؛ الهدى الرشاد والدلالة؛ هداه الله للدين هدى؛ أولم يبين لهم؛ هديته الطريق والبيت هداية أي عرفته (sihah)؛ الهدى البيان وإخراج شيء إلى شيء والطاعة والورع؛ دله على الطريق (tahdhi…
-- **B002** yön, izlenen yol ve tutum | جهة الأمر وسيرته وقصده | Bir işin yönü, amacı ve izlenen doğrultusu ile bir kimsenin gidişi, görünür tutumu ve yöntemidir. Belirli anlatımlarda yürütülen söz ya da işten sapmama, başkasının yolunu izleme, ona benzeme veya aynı karşılığı yineleme anlamı kazanır. | facets: Bir işin yönünü, hedefini ve izlenen doğrultusunu bildirir. / Bir kimsenin gidişini, görünür tutumunu ve izlediği yöntemi anlatır. / Sürmekte olan söz veya işi bırakmama ve başkasının izlediği yolu izleme kullanımını içerir. / Özel bir söyleyişte benzerini verme veya aynı işi yeniden yapma anlamı t… | not: لا يدخل فيه الهدى بمعنى الإرشاد الديني وحده ولا الهدية العطية ولا مشي التمايل المعتمد على اثنين | src: خذ في هديتك أي فيما كنت فيه من الحديث أو العمل ولا تعدل عنه؛ هدية أمره وسيرته؛ هدى هدي فلان أي سار سيرته (sihah)؛ هدية أمره أي جهة أمره؛ هديت به أي قصدت به؛ هديه أي سمته؛ ليس لهذا الأمر هدية ولا قبلة ولا دبرة ولا وجهة؛ …
-- **B003** bir şeyin ilk veya öndeki bölümü | المتقدم الهادي وأوائل الشيء | Bir şeyin ilk, önde bulunan veya öne çıkan bölümü ya da üyesidir. Atların boyunları veya ilk sırası, yaban hayvanlarının öncüleri, okun ucu, koyunun boynu ve sahibinin önünde ilerleyen değnek bu konumsal çekirdeğin özel gerçekleşmeleridir. | facets: Bir bütünün ilk veya önde bulunan bölümü ya da üyesidir. / Atların boyunlarını veya ilk sırasını ve yaban hayvanlarının önde gidenlerini adlandırır. / Okun ucunu ve koyunun boynunu, öndeki parçalar olmaları bakımından adlandırır. / Önden ilerleyen değnek veya kılavuz, önde bulunma yoluyla başkasına… | not: لا يدخل فيه الهدى المجرد عن معنى التقدم ولا الهدية العطية ولا الهادي الراكس في البيدر | src: الهادي من كل شيء أوله؛ هوادي الخيل أعناقها أو أول رعيل؛ العصا هاديا لأنها تتقدمه؛ الدليل يسمى هاديا لتقدمه (ayn)؛ هادي السهم نصله؛ الهادي العنق؛ هوادي الخيل أعناقها أو أول رعيل؛ الهاديات أوائل الوحش (sihah)؛ الهادية من …
-- **B004** incelik göstergesi armağan verme | بعثة لطف وهدية إلى ذي مودة | Sevgi veya yakınlık duyulan birine incelik ve iyilik göstergesi olarak bir şey gönderme ya da verme ve verilen şeydir. Karşılıklı armağanlaşma, sunma tabağı ve bunu sık yapan kişi bu çekirdeğe bağlı kullanımlardır. | facets: Sevgi veya yakınlık duyulan birine incelik göstergesi olarak verilen şeydir. / Böyle bir armağanı birine göndermek veya vermek eylemidir. / İnsanların birbirlerine karşılıklı armağan vermesini kapsar. / Armağanın üzerine konduğu tabağı ve sık armağan veren kişiyi adlandırır. | not: لا يدخل فيه الهدي المهدى إلى الحرم ولا العروس المهدية إلى زوجها ولا المهاداة الشعرية إذا أريدت مهاجاة متبادلة | src: الهدية ما أهديت إلى ذي مودة من بر (ayn)؛ الهدية واحدة الهدايا؛ أهديت له وإليه؛ المهدى ما يهدى فيه؛ التهادي أن يهدي بعضهم إلى بعض؛ المهداء الذي من عادته أن يهدي (sihah)؛ أهديت الهدية إهداء؛ امرأة مهداء؛ المهدى الطبق الذي…
-- **B005** kutsal yere adanan hayvan, mal veya eşya | الهدي المهدى إلى الحرم | Kutsal eve veya bölgeye yakınlık kazanma amacıyla ayrılıp gönderilen hayvan, mal ya da eşyadır. Kimi anlatımlar bunu özellikle büyükbaş hayvanlara bağlar; develerin genel olarak aynı adla anılması ise bu kullanımdan genişlemedir. | facets: Kutsal bir hedefe yakınlık amacıyla ayrılıp gönderilen sunudur. / Sununun kapsamı kimi anlatımlarda büyükbaş hayvanlarla sınırlı, kimilerinde mal ve eşyayı da içerecek kadar geniştir. / Develerin genel olarak bu adla anılması, kutsal yere gönderilen deve sunusundan gelişen bir genişlemedir. | not: لا يدخل فيه الهدية العادية بين الناس ولا مجرد الدلالة والإرشاد | src: الهدي والهدي ما أهديت إلى مكة؛ كل شيء تهديه من مال أو متاع فهو هدي (ayn)؛ الهدي ما يهدى إلى الحرم من النعم؛ مالى هدي؛ حتى يبلغ الهدى محله (sihah)؛ أهديت الهدي إلى بيت الله؛ الهدي خفيف وعليه هدية أي بدنة؛ ما يهدى إلى مكة…
-- **B006** gelini eşinin yanına götürme | العروس المهدية إلى زوجها | Bir gelini eşinin yanına götürmek, onunla bir araya getirip ona katmak ve bu götürülme olayıdır. Aynı alan, eşine götürülen gelinin kendisini de adlandırır. | facets: Gelini eşinin yanına götürme ve onunla bir araya getirme eylemidir. / Gelinin eşine götürülmesi olayının adı olarak kullanılır. / Eşinin yanına götürülen gelinin kendisini adlandırır. | not: لا يدخل فيه الهدية العادية ولا الهدي إلى الحرم إلا من جهة أصل الإرسال | src: الهداء مصدر قولك هديت المرأة إلى زوجها؛ وهي مهدية وهدي (sihah)؛ هديت العروس فأنا أهديها هداء؛ أهدى الرجل امرأته جمعها إليه وضمها؛ المرأة سميت هديا لأنها كالأسيرة عند زوجها أو لأنها تهدى إلى زوجها (tahdhib)؛ الهدي يقال ف…
-- **B007** dokunulmaz sığınmacı; kimi açıklamalarda tutsak | هدي الحرمة والأسير | Bir topluluktan sığınma veya güvence isteyen ve bu yüzden dokunulmaz sayılan erkektir. Bazı kaynak açıklamalarında aynı ad tutsak erkek için de kullanılır. | facets: Bir topluluğa sığınan veya onlardan güvence alan, dokunulmazlığı bulunan erkektir. / Bazı kaynak açıklamalarında aynı ad tutsak erkek için kullanılır. | not: لا يدخل فيه الهدي القرباني إلا من جهة التشبيه بحرمة هدي البيت ولا العروس إلا في تفسير محتمل عند تهذيب اللغة | src: الرجل الذي له حرمة كحرمة هدي البيت؛ يقال للأسير أيضا هدي (sihah)؛ الهدي الرجل ذو الحرمة وهو أن يأتي القوم يستجيرهم أو يأخذ منهم عهدا؛ يقال للأسير أيضا الهدي (tahdhib)؛ وقيل الهدي الأسير (maqayis)
-- **B008** sallanarak, gerektiğinde başkalarına dayanarak yürüme | مشي التهادي مع الاعتماد والتمايل | Yürürken sağa sola sallanmak veya yalpalamaktır. Güçsüz bir kişinin iki kişi arasında ilerleyip ikisine dayanması bunun özel yapısıdır; kadınların ve ağır develerin yürüyüşü örneklenir. | facets: Yürüyüş sırasında sağa sola sallanma ve yalpalama hareketidir. / Güçsüz kişinin iki kişi arasında yürüyerek her ikisine dayanması özel yapıdır. / Kadınların ve ağır develerin sallantılı yürüyüşü bu hareketin örnekleri olarak verilir. | not: لا يدخل فيه التهادي بمعنى تبادل الهدايا ولا الهدي بمعنى السكون دون تمايل | src: التهادي مشي في تمايل يمينا وشمالا كمشي النساء والإبل الثقال (ayn)؛ يهادي بين اثنين إذا كان يمشي بينهما معتمدا عليهما من ضعفه وتمايله؛ المرأة إذا تمايلت في مشيتها قيل تهادى (sihah)؛ يهادى بين اثنين معناه يعتمد عليهما من …
-- **B009** bön, güçsüz ve ağır kimse | الهداء البليد الضعيف | Bön, güçsüz, ağır ve uyuşuk erkek için kullanılan olumsuz bir nitelemedir. | facets: Bir erkeği bön ve kavrayışı yavaş olarak niteler. / Aynı kişiyi güçsüz, ağır ve uyuşuk olarak niteler. | not: لا يدخل فيه الهداء مصدر هديت المرأة إلى زوجها ولا الهدي بمعنى السكون | src: الهداء الرجل البليد الضعيف (ayn)؛ رجل هداء وهدان للثقيل الوخم (tahdhib)
-- **B010** sakin, ölçülü ve düzgün ilerleyiş | هدي السكون وحسن الهيئة | Bozguna uğramış birinin telaşlı kaçışına benzemeyen sakin, ölçülü ve düzgün ilerleyiş ya da görünür tutumdur. | facets: Hareket ve tutumda sakinlik ve telaşsızlık bildirir. / Sakinliğe düzgün ve güzel bir görünür tutum eşlik eder. / Bozguna uğramış kişinin acele kaçışı, bu sakin ilerleyişin karşı örneğidir. | not: لا يدخل فيه المهموز هدأ إذا أريد باب السكون في أصل ه د ء ولا السيرة العامة إلا إذا نص المصدر على السكون | src: الهدي السكون؛ ما هدى هدي مهزوم؛ لم يسرع إسراع المنهزم ولكن على سكون وهدي حسن (ayn)؛ الهدي السكون؛ لم يسرع إسراع المنهزم ولكن على سكون وحسن هدي (tahdhib)
-- **B011** övgü veya yergi şiiri sunma ve şiirle yergileşme | إهداء الشعر ومهاداته | Bir kişiye övgü veya yergi içeren bir şiir sunmak ya da iki kişinin şiirle karşılıklı olarak birbirini yermesidir. | facets: Bir kişiye övgü veya yergi içeren şiir sunma eylemidir. / İki kişinin şiir yoluyla karşılıklı olarak birbirini yermesini anlatır. | not: لا يدخل فيه الهدية المادية ولا مطلق المهاجاة إذا لم ترد بلفظ هادى أو أهدى | src: الإهداء أن تهدي إلى إنسان مديحا أو هجاء شعرا (ayn)؛ هاداني فلان الشعر وهاديته أي هاجاني وهاجيته (tahdhib)
+- **B001** doğru yolu gösterme ve doğruya yönelme — doğru yol, doğruyu gösterme ve açıklama · ona yolu gösterip tanıttım · doğru yolu kabul edip buldu · yol gösteren, doğruya çağıran kimse
+  الهدى نقيض الضلالة؛ هدي فاهتدى (ayn;tahdhib)؛ الهدى الرشاد والدلالة؛ هداه الله للدين هدى؛ أولم يبين لهم؛ هديته الطريق والبيت هداية أي عرفته (sihah)؛ الهدى البيان وإخراج شيء إلى شيء والطاعة والورع؛ دله على الطريق (tahdhib)؛ الهداية دلالة بلطف؛ تعريف الطرق؛ التوفيق (mufradat)؛ التقدم للإرشاد؛ هديته الطريق هداية؛ الهدى خلاف الضلالة (maqayis)
+- **B002** yön, izlenen yol ve tutum — işin yönü, doğrultusu ve amacı · bir kimsenin gidişi, tutumu ve yöntemi · onun benzeri veya onu yeniden yapma
+  خذ في هديتك أي فيما كنت فيه من الحديث أو العمل ولا تعدل عنه؛ هدية أمره وسيرته؛ هدى هدي فلان أي سار سيرته (sihah)؛ هدية أمره أي جهة أمره؛ هديت به أي قصدت به؛ هديه أي سمته؛ ليس لهذا الأمر هدية ولا قبلة ولا دبرة ولا وجهة؛ هدياها أي مثلها أو أعاودك (tahdhib)؛ هدية فلان وهديه أي طريقته (mufradat)؛ نظر فلان هدي أمره أي جهته؛ ما أحسن هديته أي هديه؛ رميت بآخر هدياه أي قصده (maqayis)
+- **B003** bir şeyin ilk veya öndeki bölümü — bir şeyin ilki veya öndeki bölümü · atların boyunları ya da ilk sırası; yaban hayvanlarının öncüleri · okun ucu ve koyunun boynu
+  الهادي من كل شيء أوله؛ هوادي الخيل أعناقها أو أول رعيل؛ العصا هاديا لأنها تتقدمه؛ الدليل يسمى هاديا لتقدمه (ayn)؛ هادي السهم نصله؛ الهادي العنق؛ هوادي الخيل أعناقها أو أول رعيل؛ الهاديات أوائل الوحش (sihah)؛ الهادية من كل شيء أوله وما تقدم منه؛ هادية الشاة الرقبة؛ هوادي الخيل أعناقها أو أول رعيل؛ هاديات الوحش أوائلها (tahdhib)؛ هوادي الوحش متقدماتها الهادية لغيرها (mufradat)؛ كل متقدم لذلك هاد؛ هوادي الخيل أعناقها؛ هاديها أول رعيل؛ الهادية العصا لأنها تتقدم ممسكها (maqayis)
+- **B004** incelik göstergesi armağan verme — yakınlık ve incelik göstergesi armağan · armağan gönderdi veya verdi · karşılıklı armağanlaşma · armağanın sunulduğu tabak · sık sık armağan veren kimse
+  الهدية ما أهديت إلى ذي مودة من بر (ayn)؛ الهدية واحدة الهدايا؛ أهديت له وإليه؛ المهدى ما يهدى فيه؛ التهادي أن يهدي بعضهم إلى بعض؛ المهداء الذي من عادته أن يهدي (sihah)؛ أهديت الهدية إهداء؛ امرأة مهداء؛ المهدى الطبق الذي يهدى عليه (tahdhib)؛ الهدية مختصة باللطف؛ المهدى الطبق؛ المهداء من يكثر إهداء الهدية (mufradat)؛ الهدية ما أهديت من لطف إلى ذي مودة؛ المهدي الطبق تهدى عليه (maqayis)
+- **B005** kutsal yere adanan hayvan, mal veya eşya — kutsal bölgeye adanan hayvan, mal veya eşya · adanmış sunu adından genişleyen deve adı
+  الهدي والهدي ما أهديت إلى مكة؛ كل شيء تهديه من مال أو متاع فهو هدي (ayn)؛ الهدي ما يهدى إلى الحرم من النعم؛ مالى هدي؛ حتى يبلغ الهدى محله (sihah)؛ أهديت الهدي إلى بيت الله؛ الهدي خفيف وعليه هدية أي بدنة؛ ما يهدى إلى مكة من النعم وغيره من مال أو متاع؛ العرب تسمي الإبل هديا (tahdhib)؛ الهدي مختص بما يهدى إلى البيت؛ فما استيسر من الهدي؛ هديا بالغ الكعبة (mufradat)؛ الهدي والهدي ما أهدي من النعم إلى الحرم قربة إلى الله تعالى (maqayis)
+- **B006** gelini eşinin yanına götürme — gelini eşinin yanına götürdü · gelinin eşinin yanına götürülmesi · eşine götürülen gelin
+  الهداء مصدر قولك هديت المرأة إلى زوجها؛ وهي مهدية وهدي (sihah)؛ هديت العروس فأنا أهديها هداء؛ أهدى الرجل امرأته جمعها إليه وضمها؛ المرأة سميت هديا لأنها كالأسيرة عند زوجها أو لأنها تهدى إلى زوجها (tahdhib)؛ الهدي يقال في العروس؛ هديت العروس إلى زوجها (mufradat)؛ الهدى العروس وقد هديت إلى بعلها هداء (maqayis)
+- **B007** dokunulmaz sığınmacı; kimi açıklamalarda tutsak — dokunulmaz sığınmacı; kimi açıklamalarda tutsak
+  الرجل الذي له حرمة كحرمة هدي البيت؛ يقال للأسير أيضا هدي (sihah)؛ الهدي الرجل ذو الحرمة وهو أن يأتي القوم يستجيرهم أو يأخذ منهم عهدا؛ يقال للأسير أيضا الهدي (tahdhib)؛ وقيل الهدي الأسير (maqayis)
+- **B008** sallanarak, gerektiğinde başkalarına dayanarak yürüme — güçsüzlükten iki kişiye dayanarak yürümek · yürürken sağa sola sallandı
+  التهادي مشي في تمايل يمينا وشمالا كمشي النساء والإبل الثقال (ayn)؛ يهادي بين اثنين إذا كان يمشي بينهما معتمدا عليهما من ضعفه وتمايله؛ المرأة إذا تمايلت في مشيتها قيل تهادى (sihah)؛ يهادى بين اثنين معناه يعتمد عليهما من ضعفه وتمايله؛ هي تهادى إذا تمايلت في مشيها (tahdhib)؛ يهادي بين اثنين إذا مشى بينهما معتمدا عليهما؛ تهادت المرأة إذا مشت مشي الهدي (mufradat)؛ جاء فلان يهادي بين اثنين إذا كان يمشي بينهما معتمدا عليهما (maqayis)
+- **B009** bön, güçsüz ve ağır kimse — bön, güçsüz, ağır ve uyuşuk adam
+  الهداء الرجل البليد الضعيف (ayn)؛ رجل هداء وهدان للثقيل الوخم (tahdhib)
+- **B010** sakin, ölçülü ve düzgün ilerleyiş — sakinlik ve güzel, telaşsız tutum
+  الهدي السكون؛ ما هدى هدي مهزوم؛ لم يسرع إسراع المنهزم ولكن على سكون وهدي حسن (ayn)؛ الهدي السكون؛ لم يسرع إسراع المنهزم ولكن على سكون وحسن هدي (tahdhib)
+- **B011** övgü veya yergi şiiri sunma ve şiirle yergileşme — birine övgü veya yergi şiiri sunma · şiirle karşılıklı yergileşme
+  الإهداء أن تهدي إلى إنسان مديحا أو هجاء شعرا (ayn)؛ هاداني فلان الشعر وهاديته أي هاجاني وهاجيته (tahdhib)
 
 ## ص ر ط (root_000858) — identity root of ٱلصِّرَٰطَ (w2)
 
-Kök üç ayrı anlam dalında örgütlenir: genel yol ve özellikle düz yol, yutulan şeyin geçişte kaybolması, bir de vuruş sırasında keserek ilerleyen kılıç. Yol anlamı ile yutmadaki kaybolma arasında kaynakta bir türetme önerisi bulunsa da kılıç dalı ve güncel dal sınırları ayrı kavram çekirdekleri olarak korunur.
-
-- **B001** yol, özellikle düz yol | الطريق المستقيم | Bir yerden başka bir yere gitmeye yarayan yol; bu genel anlam içinde özellikle doğrultusu düzgün olan yol. | facets: Temel gönderim, üzerinde ilerlenen yoldur. / Yolun düz ve sapmasız olması özellikle öne çıkarılabilir. / Aynı yol anlamı, kaynakta üç ayrı söyleniş biçimiyle tanıklanır. | not: لا يدخل فيه بلع الطعام ولا السيف القاطع إلا من جهة الاشتقاق أو الاشتراك في لفظ السراط عند مقاييس | src: الصراط والسراط والزراط: الطريق (sihah)؛ الصراط: الطريق المستقيم؛ ويقال له سراط (mufradat)؛ صرط من باب الإبدال وقد ذكر في السين وهو الطريق (maqayis 2074)؛ بعض أهل العلم يقول السراط مشتق من ذلك لأن الذاهب فيه يغيب (maqayi…
-- **B002** geçişte gözden kaybolmak; özellikle yiyeceği yutmak | الغيبة في المرور والبلع | Geçiş ve gidiş sırasında gözden kaybolmak; özellikle bir şeyi, başta yiyeceği, boğazdan geçirerek yutmak. Kolay yutulan yiyecek ve geniş boğaz nitelemeleri bu çekirdeğe bağlı kullanımlardır. | facets: Temel anlam, bir şeyin geçiş ve gidiş sırasında gözden kaybolmasıdır. / Pelte kıvamlı bir tatlı, kolayca yutulması bakımından bu eylemle ilişkilendirilir. / Boğazı geniş olan kimse, yutmayı kolaylaştıran yapısı bakımından bu çekirdeğe bağlanır. / Bir şeyi, özellikle yiyeceği, boğazdan geçirerek yut… | not: لا يدخل فيه الطريق المستقيم بوصفه طريقا، ولا السيف القاطع | src: أصل صحيح واحد يدل على غيبة في مر وذهاب؛ سرطت الطعام إذا بلعته لأنه إذا سرط غاب؛ السرطراط على فعلال الفالوذ لأنه يسترط (maqayis 1774)؛ السرطم: الواسع الحلق، والميم فيه زائدة، وإنما هو من سرط، إذا بلع (maqayis السرطم)
-- **B003** vuruşta kesip ilerleyen kılıç | السيف القاطع الماضي في الضربة | Vuruş sırasında hedefi kesip içinde ilerleyen etkili kılıç. | facets: Gönderim, kesme gücü bulunan bir kılıçtır. / Kılıç vuruş sırasında hedefin içinde ilerleyerek etkisini sürdürür. | not: لا يدخل فيه الطريق، ولا بلع الطعام أو سعة الحلق | src: والسراط السيف القاطع الماضي في الضريبة (maqayis 1774)
+- **B001** yol, özellikle düz yol — yol, özellikle düz yol · yol veya düz yol · yol
+  الصراط والسراط والزراط: الطريق (sihah)؛ الصراط: الطريق المستقيم؛ ويقال له سراط (mufradat)؛ صرط من باب الإبدال وقد ذكر في السين وهو الطريق (maqayis 2074)؛ بعض أهل العلم يقول السراط مشتق من ذلك لأن الذاهب فيه يغيب (maqayis 1774)
+- **B002** geçişte gözden kaybolmak; özellikle yiyeceği yutmak — yiyeceği boğazdan geçirip gözden kaybolacak biçimde yutmak · kolayca yutulan pelte kıvamlı tatlı · geniş boğazlı
+  أصل صحيح واحد يدل على غيبة في مر وذهاب؛ سرطت الطعام إذا بلعته لأنه إذا سرط غاب؛ السرطراط على فعلال الفالوذ لأنه يسترط (maqayis 1774)؛ السرطم: الواسع الحلق، والميم فيه زائدة، وإنما هو من سرط، إذا بلع (maqayis السرطم)
+- **B003** vuruşta kesip ilerleyen kılıç — vuruşta kesip ilerleyen kılıç
+  والسراط السيف القاطع الماضي في الضريبة (maqayis 1774)
 
 ## ق و م (root_001273) — identity root of ٱلْمُسْتَقِيمَ (w3)
 
-Anlam örgüsü, dik durma ve bir şeyi ayakta tutma düşüncesinden topluluk, kararlı girişim, gözetim, sürdürme, yerleşme, yerine geçme, düzgünlük, dayanak, değer, boy ve araç parçası gibi çok sayıda alana yayılır. Son gün, mücadele, ölçün ağırlık, durgunluk, öğle ortası, pazar canlılığı, ağrı, hayvan hastalığı ve özel görme kaybı dalları ise belirli biçim ve yapılarda yerleşmiş ayrı anlam kümeleri o…
-
-- **B001** erkekler topluluğu ve yakın çevresi | جماعة الناس والرجال | Temelde erkeklerden oluşan insan topluluğudur; bir erkeğin yandaş ve yakın soy çevresini de anlatabilir. Kadınların topluluğa bağlı olarak kapsanması ve sözün insan dışı varlıklara aktarılması ikincildir. | facets: Temel gönderge, kadınlardan ayrı düşünülen erkekler topluluğudur. / Bir erkeğin yandaşları ile yakın soy çevresi, kadınların bağlı olarak kapsanması ve insan dışına aktarım bu çekirdeğe bağlıdır. | not: ليس هو القيام والانتصاب ولا القوام والعماد | src: القوم الرجال دون النساء؛ قوم كل رجل شيعته وعشيرته (ayn;tahdhib)؛ القوم الرجال دون النساء؛ ربما دخل النساء فيه على سبيل التبع (sihah)؛ القوم جماعة الرجال في الأصل دون النساء؛ وفي عامة القرآن أريدوا به والنساء جميعا (mufr…
-- **B002** ayağa kalkma ve dik durma | انتصاب وقيام بالبدن | Bir insanın ya da başka bir varlığın dik konuma gelmesi veya dik durumda bulunmasıdır. Tek seferlik ayağa kalkma, ibadetteki ayakta duruş, bitkinin kökü üzerinde kalması ve hayvanın durması bu fiziksel duruşun özel görünümleridir. | facets: Canlı ya da cansız bir varlık dik konuma gelir veya dik durumda bulunur. / Tek ayağa kalkış, ibadet duruşu, kökü üzerinde dik kalan bitki ve duran hayvan fiziksel çekirdeğin bağlama özgü görünümleridir. | not: ليس هو العزم على الأمر ولا حفظ الشيء ورعايته ولا إقامة المكان | src: القومة ما بين الركعتين من القيام؛ قمت قياما؛ منها هامد ومنها قائم (ayn;tahdhib)؛ قام الرجل قياما؛ القومة المرة الواحدة؛ قامت الدابة وقفت (sihah)؛ قيام بالشخص إما بتسخير أو اختيار؛ ساجدا وقائما؛ تركتموها قائمة على أصولها…
-- **B003** bir işe kararlılıkla girişme | عزم ونهوض إلى الأمر | Belirli bir işe kararlılıkla yönelmek, onu üstlenmek ve yapmaya girişmektir. | facets: Kişi belirli bir işe kesin niyetle yönelir, işi üstlenir ve ona girişir. | not: ليس هو مجرد انتصاب البدن ولا القوام بمعنى العماد | src: قام بمعنى العزيمة؛ قام بهذا الأمر إذا اعتنقه؛ قيام عزم (maqayis)؛ القيام الذي هو العزم؛ إذا قمتم إلى الصلاة (mufradat)
-- **B004** sürekli gözetip yönetme | رعاية وحفظ وولاية | Bir işi, topluluğu veya düzeni sorumluluk üstlenerek sürekli gözetmek, korumak, yönetmek ve işler durumda tutmaktır. | facets: Sorumlu kişi ya da güç, bir işi veya topluluğu sürekli gözetir, korur ve yönetir. / Her şeyi sürekli yönetip koruma ve bir düzenin ayakta kalmasını sağlama, aynı sorumluluğun en geniş uygulamasıdır. | not: ليس هو مجرد القيام بالبدن ولا قيمة السلعة ولا القامة | src: قيم القوم من يسوس أمرهم ويقومهم؛ القائم في الملك ونحوه الحافظ؛ القيوم (ayn)؛ قوام أهل بيته وقيام أهل بيته؛ الذي يقيم شأنهم؛ القيوم اسم من أسماء الله (sihah)؛ قيم القوم الذي يقومهم ويسوس أمرهم؛ القائم بالأمر؛ القيوم القا…
-- **B005** sürdürüp gereğini yerine getirme | إقامة وإدامة وتوفية حق | Bir şeyi sürdürmek, işler ve düzgün durumda tutmak ya da gereğini ve koşullarını eksiksiz yerine getirmektir. | facets: Bir şey devam ettirilir, işler durumda tutulur veya kendisine düşen gerekler eksiksiz uygulanır. / İbadetin ve kutsal kitabın gereklerini uygulamak, genel yerine getirme işleminin özel bağlamıdır. | not: ليس هو الإقامة في المكان ولا القيمة والتقويم | src: أقام الشيء أي أدامه؛ يقيمون الصلاة (sihah)؛ أقمت الشيء وقومته فقام بمعنى استقام؛ إقام الصلاة (tahdhib)؛ إقامة الشيء توفية حقه؛ تقيموا التوراة والإنجيل؛ أقيموا الصلاة؛ مقيم الصلاة (mufradat)
-- **B006** bir yerde kalma ve kalınan yer | مقام وإقامة في موضع | Bir yerde kalmak ve orayı geçici ya da sürekli durulan yer edinmektir; ayak basılan veya kalınan yer ile kalış süresi de bu çekirdekten adlandırılır. Oturum ve bir araya gelmiş topluluk anlamı bunun daha uzak uzantısıdır. | facets: Kişi bir yerde kalır; kalınan yer, ayak basılan yer veya kalış süresi bu ilişki üzerinden adlandırılır. / Oturum ve o oturumda bir araya gelen insanlar, yerleşme çekirdeğinden gelişen adlaşmış uzantılardır. | not: ليس هو النيابة بأن يقوم شيء مقام آخر ولا يوم القيامة | src: أقمت بالمكان إقامة ومقاما؛ المقام موضع القدمين؛ المقام والمقامة الموضع الذي تقيم فيه (ayn;tahdhib)؛ المقامة الإقامة؛ المقامة المجلس والجماعة من الناس؛ المقام موضع القيام أو الإقامة (sihah)؛ المقام يكون مصدرا واسم مكان ا…
-- **B007** başkasının yerini ve işlevini alma | نيابة وقيام مقام غيره | Bir kişi veya şeyin başka birinin ya da başka bir şeyin yerini alması, onun adına iş görmesi veya işlevini üstlenmesidir. | facets: Yeni katılımcı öncekinin yerini alır ve onun görevini ya da işlevini üstlenir. | not: ليس هو مقام الإقامة بالمكان ولا ثمن السلعة نفسه | src: القيمة أصله الواو لأنه يقوم مقام الشيء (sihah)؛ قام فلان مقام فلان إذا ناب عنه؛ يقومان مقامهما (mufradat)؛ أصل القيمة الواو وأصله أنك تقيم هذا مكان ذاك (maqayis)
-- **B008** düzgünlük, denge ve doğru yoldan sapmama | استقامة واعتدال واستواء | Bir yolun, nesnenin, kişinin davranışının, işin ya da sözün eğrilikten ve aşırılıktan uzak, düzgün, dengeli ve doğru olmasıdır. | facets: Bir şey fiziksel, davranışsal veya yargısal olarak düz çizgisini korur, dengeli olur ve sapmaz. / Doğru yolda kalma, doğru inanç düzeni ve adil söz, düzgünlük çekirdeğinin davranış ve değer alanına uzanmasıdır. | not: ليس هو قوام المعاش ولا مجرد القيام بالبدن ولا قيمة السلعة | src: رمح قويم ورجل قويم؛ القيمة الملة المستقيمة؛ إذا انقاد واستمرت طريقته فقد استقام (ayn)؛ الاستقامة الاعتدال؛ استقام له الأمر؛ قومت الشيء فهو قويم أي مستقيم؛ القوام العدل؛ دينا قيما (sihah)؛ الاستقامة على الطاعة؛ القيم هو …
-- **B009** ayakta tutan dayanak ve geçim temeli | قوام وعماد ومعاش | Bir işin, düzenin, bedenin veya yaşamın ayakta kalmasını sağlayan temel dayanak, düzenleyici unsur ya da yeterli geçim aracıdır. | facets: Bir şeyin varlığını ve düzenini sürdürmesini sağlayan temel dayanak veya düzenleyici unsur bulunur. / Yaşamı ve bedeni sürdüren yeterli geçim aracı, genel dayanak işlevinin özel gerçekleşmesidir. | not: ليس هو الرعاية والولاية نفسها ولا الطول والقامة ولا ثمن السلعة | src: هذا الأمر لا قومية له أي لا قوام له؛ القوام من العيش ما يقيمك ويغنيك؛ القيام العماد؛ قوام كل شيء ما استقام به (ayn)؛ قوام الأمر نظامه وعماده؛ قوام الأمر ملاكه؛ جعل الله لكم قياما (sihah)؛ قوام الأمر وملاكه؛ تقيمكم فتقوم…
-- **B010** değer biçme ve belirlenen bedel | قيمة وتقويم وتسعير | Bir malın parasal değerini belirlemek ve bu değerlendirme sonucunda ortaya çıkan bedeldir; tarafların değer üzerinde karşılıklı hesaplaşması da bu alana bağlıdır. | facets: Bir mala değer biçilir ve bu işlem sonucunda onun bedeli belirlenir. / Tarafların bir malın değeri üzerinde karşılıklı hesaplaşması, değer biçme çekirdeğine bağlı kullanımdır. | not: ليس هو النيابة العامة ولا القوام بمعنى العماد | src: القيمة ثمن الشيء بالتقويم؛ تقاوموا فيما بينهم (ayn)؛ قومت السلعة؛ استقمت السلعة؛ القيمة واحدة القيم (sihah)؛ القيمة ثمن الشيء بالتقويم؛ تقاوموه فيما بينهم؛ استقمت المتاع أي قومته؛ قامت الأمة مائة دينار أي بلغت قيمتها (t…
-- **B011** insanın boyu ve düzgün beden yapısı | قامة وقوام الجسم والطول | İnsanın ayakta dururken görülen boy ölçüsü, dik beden yapısı ve özellikle düzgün, güzel uzunluğudur. | facets: İnsanın dik bedeni üzerinden belirlenen boyu ve dış beden yapısı anlatılır. / Boyun düzgün ve güzel olması, genel beden ölçüsünün olumlu nitelendirilmiş biçimidir. | not: ليس هو القامة بمعنى آلة البئر ولا قائمة السيف والدابة | src: القامة مقدار قيام الرجل؛ قوام الجسم تمامه وطوله (ayn)؛ قوام الرجل قامته وحسن طوله؛ قامة الإنسان قده (sihah)؛ القامة قامة الرجل؛ حسن القامة والقمة والقومية؛ قوام الجسم تمامه (tahdhib)؛ تقويم الإنسان في أحسن تقويم؛ انتصاب…
-- **B012** düzeneğin dik, taşıyıcı veya tutulan parçası | آلة قائمة وجزء قائم | Bir düzeneğin dik duran, taşıyan veya elle tutulan parçasıdır; kuyu makarası ve donanımı, kılıç sapı, yatak ya da hayvan ayağı ve çiftçinin tuttuğu ahşap parça bu alandadır. Kuyu başında insan biçimli yapı yorumu tartışmalıdır. | facets: Bir araç veya varlığın dik duran, taşıyan ya da elle tutulan işlevsel parçası adlandırılır. / Kuyu başında insan biçiminde yapılmış bir düzenek açıklaması aktarılmış, fakat başka bir kaynakça yorumunda yanlış sayılmıştır. | not: ليس هو قامة الإنسان ولا القوم جماعة الناس | src: القامة مقدار قيام الرجل كهيئة الرجل يبنى على شفير بئر؛ قائم السيف مقبضه؛ قائمة السرير والخوان والدابة (ayn)؛ القامة البكرة بأداتها؛ قائم السيف وقائمته مقبضه؛ القائمة واحدة قوائم الدواب؛ المقوم الخشبة التي يمسكها الحراث …
-- **B013** ölülerin diriltildiği ve insanların yargı için kalktığı gün | قيامة وبعث وقيام الساعة | Dünyanın sonundaki saatin gerçekleştiği, ölülerin diriltildiği ve insanların yargılanmak üzere ayağa kalktığı gündür. | facets: Son saat gerçekleşir, ölüler diriltilir ve insanlar yargılanmak üzere ayağa kalkar. | not: ليس هو القومة الواحدة في الصلاة ولا المقام موضع الإقامة | src: القيامة يوم البعث يقوم الخلق بين يدي القيوم (ayn)؛ يوم القيامة معروف (sihah)؛ القيامة يوم البعث يوم يقوم فيه الخلق بين يدي الحي القيوم (tahdhib)؛ القيامة عبارة عن قيام الساعة؛ يوم يقوم الناس لرب العالمين (mufradat)
-- **B014** karşılıklı direnip mücadele etme | مقاومة ومنازلة | İki tarafın bir işte, güreşte veya savaşta birbirine karşı durması, direnmesi ve üstün gelmek için mücadele etmesidir. | facets: Taraflar birbirine karşı durur, birbirini engeller ve üstünlük için karşılıklı mücadele eder. | not: ليس هو تقويم السلعة ولا القيام على الرعاية | src: قاومته في كذا أي نازلته (ayn)؛ قاومه في المصارعة وغيرها؛ تقاوموا في الحرب أي قام بعضهم لبعض (sihah)؛ ما زلت أقاوم فلانا في هذا الأمر أي أنازله (tahdhib)
-- **B015** tam ve denk ağırlıktaki para | وزن سواء ومقدار معتدل | Belirli bir para parçasının ölçün ağırlığa tam eşit olması ve terazide ağır basmamasıdır. | facets: Para parçasının ağırlığı belirlenmiş ölçüye tam denk gelir ve fazlalık göstermez. | not: ليس هو القيمة بمعنى الثمن ولا الاستقامة الأخلاقية | src: دنانير قوم وقيم ودينار قائم أي مثقال سواء لا يرجح (ayn)؛ دنانير قوم وقيم ودينار قائم إذا كان مثقالا سواء لا يرجح (tahdhib)
-- **B016** donup akmama veya yorulup ilerleyememe | جمود ووقوف وكلال | Su için donarak akmaz duruma gelmek; binek hayvanı için durmak veya yorulup yürüyemez hale gelmektir. İki kullanımın ortak sonucu ilerleme ya da akışın kesilmesidir, nedenleri aynı değildir. | facets: Su donduğu için akışını yitirir ve hareketsiz kalır. / Binek hayvanı durur veya yorgunluk yüzünden yürümeyi sürdüremez. | not: ليس هو القيام المختار بالبدن ولا قيام الشجر على أصله | src: قام الماء جمد؛ قامت الدابة وقفت (sihah)؛ قامت لفلان دابته إذا كلت أو عيت فلم تسر (tahdhib)
-- **B017** güneşin tam tepede olduğu öğle ortası | انتصاف النهار وقائم الظهيرة | Güneşin göğün ortasında bulunduğu, günün iki yarısının dengelendiği ve gölgenin en kısa duruma yaklaştığı öğle ortasıdır. | facets: Gün tam ortasına ulaşır; güneşin konumu dengelenir ve gölge çok kısalır. | not: ليس هو قيام الشخص ولا قيام السوق | src: قام قائم الظهيرة إذا قامت الشمس وكاد الظل يعقل (ayn;tahdhib)؛ قام ميزان النهار إذا انتصف؛ قام ميزان النهار فاعتدل (tahdhib)
-- **B018** pazarın canlanıp satışların artması | نفاق السوق | Pazarın canlanması, malların alıcı bulması ve satışların hareketlenmesidir. | facets: Alıcı ilgisi ve satışlar artar, böylece pazar canlı ve işler hale gelir. | not: ليس هو قيام السوق بمعنى اجتماع الناس ولا كسادها | src: قامت السوق نفقت (sihah)؛ قامت السوق إذا نفقت ونامت إذا كسدت (tahdhib)
-- **B019** bir beden bölümünün kişiye ağrı vermesi | وجع قائم بالعضو | Sırt, göz veya bedenin başka bir bölümünün kişiye ağrı vermesi ve o kişinin bu organda acı duymasıdır. | facets: Bir beden bölümü ağrının kaynağı olur ve kişi o organda acı duyar. | not: ليس هو القوام داء الشاة ولا القيام بالبدن | src: قام بي ظهري أي أوجعني؛ قامت بي عيناي؛ كل ما أوجعك من جسدك فقد قام بك (tahdhib)
-- **B020** koyunun bacaklarını tutan hastalık | قوام في قوائم الشاة | Koyunun bacaklarını tutan ve hayvanın etkilenerek ayağa kalkmasına yol açan belirli bir hastalıktır. | facets: Hastalık koyunun bacaklarını etkiler ve hayvan bu etki yüzünden ayağa kalkar. | not: ليس هو قوام الأمر ولا قوائم الدواب أجزاءها | src: القوام داء يأخذ الشاة في قوائمها تقوم منه (sihah)؛ أخذها قوام وهو داء يأخذها في قوائمها تقوم منه (tahdhib)
-- **B021** göz bebeği sağlamken görme yetisinin kaybolması | عين قائمة ذاهبة البصر | Göz bebeği ve gözün görünür yapısı sağlam kaldığı halde görme yetisinin bütünüyle kaybolduğu göz durumudur. | facets: Görme yetisi kaybolur, fakat göz bebeği ve gözün görünür yapısı sağlam kalır. | not: ليس هو قيام البصر ولا قيام الشخص | src: عين قائمة ذهب بصرها والحدقة صحيحة (ayn)؛ العين القائمة أن يذهب بصرها والحدقة صحيحة (tahdhib)
+- **B001** erkekler topluluğu ve yakın çevresi — aslen erkeklerden oluşan topluluk · bir erkeğin yandaşları ve yakın soy çevresi · topluluklar; çoğulun çoğulu
+  القوم الرجال دون النساء؛ قوم كل رجل شيعته وعشيرته (ayn;tahdhib)؛ القوم الرجال دون النساء؛ ربما دخل النساء فيه على سبيل التبع (sihah)؛ القوم جماعة الرجال في الأصل دون النساء؛ وفي عامة القرآن أريدوا به والنساء جميعا (mufradat)؛ القوم جمع امرئ ولا يكون ذلك إلا للرجال؛ وربما استعير في غيرهم (maqayis)
+- **B002** ayağa kalkma ve dik durma — ayağa kalkmak veya dikilmek · bir kez ayağa kalkma; iki bölüm arasındaki ayakta duruş · kökleri üzerinde dikili kalmış
+  القومة ما بين الركعتين من القيام؛ قمت قياما؛ منها هامد ومنها قائم (ayn;tahdhib)؛ قام الرجل قياما؛ القومة المرة الواحدة؛ قامت الدابة وقفت (sihah)؛ قيام بالشخص إما بتسخير أو اختيار؛ ساجدا وقائما؛ تركتموها قائمة على أصولها (mufradat)؛ قام قياما والقومة المرة الواحدة إذا انتصب (maqayis)
+- **B003** bir işe kararlılıkla girişme [kalıp] — bu işi üstlenip kararlılıkla girişti
+  قام بمعنى العزيمة؛ قام بهذا الأمر إذا اعتنقه؛ قيام عزم (maqayis)؛ القيام الذي هو العزم؛ إذا قمتم إلى الصلاة (mufradat)
+- **B004** sürekli gözetip yönetme — işi gözeten, koruyan ve yürüten kişi · topluluğun işlerini yöneten kişi · her şeyi sürekli yöneten ve koruyan · onu taşıyamadı veya buna gücü yetmedi
+  قيم القوم من يسوس أمرهم ويقومهم؛ القائم في الملك ونحوه الحافظ؛ القيوم (ayn)؛ قوام أهل بيته وقيام أهل بيته؛ الذي يقيم شأنهم؛ القيوم اسم من أسماء الله (sihah)؛ قيم القوم الذي يقومهم ويسوس أمرهم؛ القائم بالأمر؛ القيوم القائم على كل شيء (tahdhib)؛ قيام للشيء هو المراعاة للشيء والحفظ له؛ قوامين لله؛ القيوم القائم الحافظ لكل شيء (mufradat)؛ قام بهذا الأمر إذا اعتنقه؛ قوام الدين والحق أي به يقوم (maqayis)
+- **B005** sürdürüp gereğini yerine getirme [kalıp] — bir şeyi sürdürmek, işler halde tutmak veya gereğini yerine getirmek · ibadetin ya da kitabın gereklerini eksiksiz uygulamak
+  أقام الشيء أي أدامه؛ يقيمون الصلاة (sihah)؛ أقمت الشيء وقومته فقام بمعنى استقام؛ إقام الصلاة (tahdhib)؛ إقامة الشيء توفية حقه؛ تقيموا التوراة والإنجيل؛ أقيموا الصلاة؛ مقيم الصلاة (mufradat)
+- **B006** bir yerde kalma ve kalınan yer — bir yerde yerleşip kalmak · ayak basılan veya kalınan yer ya da süre; oturum veya toplanmış topluluk
+  أقمت بالمكان إقامة ومقاما؛ المقام موضع القدمين؛ المقام والمقامة الموضع الذي تقيم فيه (ayn;tahdhib)؛ المقامة الإقامة؛ المقامة المجلس والجماعة من الناس؛ المقام موضع القيام أو الإقامة (sihah)؛ المقام يكون مصدرا واسم مكان القيام وزمانه؛ المقامة الإقامة؛ لا مقام لكم أي لا مستقر لكم (mufradat)
+- **B007** başkasının yerini ve işlevini alma [kalıp] — onun yerine geçti veya adına görev yaptı
+  القيمة أصله الواو لأنه يقوم مقام الشيء (sihah)؛ قام فلان مقام فلان إذا ناب عنه؛ يقومان مقامهما (mufradat)؛ أصل القيمة الواو وأصله أنك تقيم هذا مكان ذاك (maqayis)
+- **B008** düzgünlük, denge ve doğru yoldan sapmama — düzgün ve dengeli olmak; doğru yoldan ayrılmamak · düzgün, dengeli ve doğru
+  رمح قويم ورجل قويم؛ القيمة الملة المستقيمة؛ إذا انقاد واستمرت طريقته فقد استقام (ayn)؛ الاستقامة الاعتدال؛ استقام له الأمر؛ قومت الشيء فهو قويم أي مستقيم؛ القوام العدل؛ دينا قيما (sihah)؛ الاستقامة على الطاعة؛ القيم هو المستقيم؛ أقوم كلاما أي أعدل كلاما (tahdhib)؛ الاستقامة في الطريق الذي يكون على خط مستو؛ استقامة الإنسان لزومه المنهج المستقيم؛ دينا قيما أي ثابتا (mufradat)
+- **B009** ayakta tutan dayanak ve geçim temeli — bir şeyi ayakta tutan dayanak, düzen ve geçim temeli
+  هذا الأمر لا قومية له أي لا قوام له؛ القوام من العيش ما يقيمك ويغنيك؛ القيام العماد؛ قوام كل شيء ما استقام به (ayn)؛ قوام الأمر نظامه وعماده؛ قوام الأمر ملاكه؛ جعل الله لكم قياما (sihah)؛ قوام الأمر وملاكه؛ تقيمكم فتقومون بها؛ قوام الجسم تمامه؛ قوام كل شيء ما استقام به (tahdhib)؛ القيام والقوام اسم لما يقوم به الشيء؛ جعلها مما يمسككم؛ قياما للناس أي قواما لهم يقوم به معاشهم ومعادهم (mufradat)؛ قوام الدين والحق أي به يقوم (maqayis)
+- **B010** değer biçme ve belirlenen bedel — değer biçmeyle belirlenen bedel · malın değerini belirlemek veya ulaştığı bedeli bildirmek
+  القيمة ثمن الشيء بالتقويم؛ تقاوموا فيما بينهم (ayn)؛ قومت السلعة؛ استقمت السلعة؛ القيمة واحدة القيم (sihah)؛ القيمة ثمن الشيء بالتقويم؛ تقاوموه فيما بينهم؛ استقمت المتاع أي قومته؛ قامت الأمة مائة دينار أي بلغت قيمتها (tahdhib)؛ تقويم السلعة بيان قيمتها (mufradat)؛ قومت الشيء تقويما؛ أصل القيمة الواو (maqayis)
+- **B011** insanın boyu ve düzgün beden yapısı — insanın boyu ve beden uzunluğu · düzgün ve güzel boy; beden yapısı
+  القامة مقدار قيام الرجل؛ قوام الجسم تمامه وطوله (ayn)؛ قوام الرجل قامته وحسن طوله؛ قامة الإنسان قده (sihah)؛ القامة قامة الرجل؛ حسن القامة والقمة والقومية؛ قوام الجسم تمامه (tahdhib)؛ تقويم الإنسان في أحسن تقويم؛ انتصاب القامة (mufradat)؛ القوام الطول الحسن؛ القومية القوام والقامة (maqayis)
+- **B012** düzeneğin dik, taşıyıcı veya tutulan parçası — kuyu makarası veya ona bağlı donanım · kuyu başındaki insan biçimli yapı diye aktarılmış, fakat yanlış sayılmış yorum · kılıç sapı veya yatak, masa ve hayvanın dik duran parçası · çiftçinin elinde tuttuğu ahşap parça
+  القامة مقدار قيام الرجل كهيئة الرجل يبنى على شفير بئر؛ قائم السيف مقبضه؛ قائمة السرير والخوان والدابة (ayn)؛ القامة البكرة بأداتها؛ قائم السيف وقائمته مقبضه؛ القائمة واحدة قوائم الدواب؛ المقوم الخشبة التي يمسكها الحراث (sihah)؛ القامة البكرة التي يستقى بها الماء؛ النعامة الخشبة المعترضة ثم تعلق القامة؛ قائم السيف مقبضه وما سوى ذلك فهو قائمة (tahdhib)؛ القامة البكرة بأداتها (maqayis)
+- **B013** ölülerin diriltildiği ve insanların yargı için kalktığı gün — ölülerin diriltildiği ve insanların yargı için ayağa kalktığı son gün
+  القيامة يوم البعث يقوم الخلق بين يدي القيوم (ayn)؛ يوم القيامة معروف (sihah)؛ القيامة يوم البعث يوم يقوم فيه الخلق بين يدي الحي القيوم (tahdhib)؛ القيامة عبارة عن قيام الساعة؛ يوم يقوم الناس لرب العالمين (mufradat)
+- **B014** karşılıklı direnip mücadele etme [kalıp] — ona karşı durup mücadele etmek; tarafların birbirine karşı koyması
+  قاومته في كذا أي نازلته (ayn)؛ قاومه في المصارعة وغيرها؛ تقاوموا في الحرب أي قام بعضهم لبعض (sihah)؛ ما زلت أقاوم فلانا في هذا الأمر أي أنازله (tahdhib)
+- **B015** tam ve denk ağırlıktaki para — ölçün ağırlığa tam denk gelen, ağır basmayan para
+  دنانير قوم وقيم ودينار قائم أي مثقال سواء لا يرجح (ayn)؛ دنانير قوم وقيم ودينار قائم إذا كان مثقالا سواء لا يرجح (tahdhib)
+- **B016** donup akmama veya yorulup ilerleyememe [kalıp] — su dondu veya akmaz halde kaldı · binek hayvanı durdu veya yorulup yürüyemedi
+  قام الماء جمد؛ قامت الدابة وقفت (sihah)؛ قامت لفلان دابته إذا كلت أو عيت فلم تسر (tahdhib)
+- **B017** güneşin tam tepede olduğu öğle ortası — güneşin ortada, günün iki yarısının dengede olduğu öğle vakti
+  قام قائم الظهيرة إذا قامت الشمس وكاد الظل يعقل (ayn;tahdhib)؛ قام ميزان النهار إذا انتصف؛ قام ميزان النهار فاعتدل (tahdhib)
+- **B018** pazarın canlanıp satışların artması [kalıp] — pazar canlandı ve mallar alıcı buldu
+  قامت السوق نفقت (sihah)؛ قامت السوق إذا نفقت ونامت إذا كسدت (tahdhib)
+- **B019** bir beden bölümünün kişiye ağrı vermesi [kalıp] — sırtım veya gözlerim ağrıdı
+  قام بي ظهري أي أوجعني؛ قامت بي عيناي؛ كل ما أوجعك من جسدك فقد قام بك (tahdhib)
+- **B020** koyunun bacaklarını tutan hastalık — koyunun bacaklarını tutup onu ayağa kaldıran hastalık
+  القوام داء يأخذ الشاة في قوائمها تقوم منه (sihah)؛ أخذها قوام وهو داء يأخذها في قوائمها تقوم منه (tahdhib)
+- **B021** göz bebeği sağlamken görme yetisinin kaybolması — göz bebeği sağlam kaldığı halde görmeyen göz
+  عين قائمة ذهب بصرها والحدقة صحيحة (ayn)؛ العين القائمة أن يذهب بصرها والحدقة صحيحة (tahdhib)
 
 ## ECHO ه د د (root_001580) — for ٱهْدِنَا (w1): withheld observed target; not identity
 
-Bu kokte agir kirma-yikma, siddetli ses, kus adi, cocugu sallayarak uyutma, ovgu kalibi, korkutma, zihinde kesinlesmemis sani ve insan ya da arazi nitelikleri gibi birbirinden ayrilmis dallar bulunur. Dallar arasinda kimi sahne baglari olsa da roster genel olarak cok anlamli ve karma yapilidir.
-
-- **B001** agir kirip yikma | كسر شديد وهدم | Bu dal, bir varligin dayanak ve butunlugunu agir bicimde kirip yikma, cokertme veya bu duruma dusme anlamindadir. Felaketin kisiyi sarsip gucunu kirmasi bunun kisi uzerindeki ozel kullanimidir. | facets: Bir seyin yapisal butunlugunu agir bicimde kirip yikma veya cokertme. / Duvar, bina ve dag gibi kutleli varliklarda parcalanma veya yikilma olarak gerceklesir. / Yer cokmesi ya da yikima benzeyen agir olaylar ayni bozulma alanina girer. / Bir felaket kisiye yoneldiginde onu gucsuz dusurup dayanagin… | not: الصوت والوعيد وتحريك الصبي واسم الطائر وصيغة حسبك | src: أصل صحيح يدل على كسر وهضم وهدم (maqayis)؛ الهد الهدم الشديد (ayn;tahdhib)؛ هددت الحائط إذا هدمته (jamhara)؛ هد البناء يهده هدا كسره وضعضعه (sihah;tahdhib)؛ انهد الجبل أي انكسر (sihah)؛ الهدة الخسوف والهد الهدم (tahdhib)…
-- **B002** zayif ve korkak kisi | ضعف وجبن | Bu dal, erkek kisi icin zayif, korkak veya gucsuz olma nitelemesini anlatir. Birini zayif sayma ya da zayif olmadigini bildiren kaliplar bu kisi nitelemesine bagli ozel kullanimlardir. | facets: Bir erkegi zayif, gucsuz veya korkak diye niteleme. / Kaynak anlatimi zayiflik ve korkakligi birlikte ya da ayri sozcuklerle verir. / Birini zayif gormek veya zayif saymak bu nitelemenin eylemli kullanimidir. / Olumsuz kalipta kullanildiginda kisinin zayif olmadigini bildirir. | not: الكرم والقوة والمدح بصيغة حسبك والهدم والصوت | src: الهد من الرجال الضعيف كأنه هد (maqayis)؛ رجل هد جبان (jamhara)؛ رجل هد وأهد بمعنى الجبن والضعف (jamhara)؛ الهد الرجل الضعيف (sihah;tahdhib)؛ الهد بالكسر الجبان الضعيف (sihah;tahdhib)؛ استهددت فلانا أي استضعفته (tahdhib)
-- **B003** cömert ve guclu kisi | قوة وكرم في الرجل | Bu dal, erkek kisi icin cömert, soylu, guclu veya dayanikli olma nitelemesini anlatir. Birinin gucu ve sertligiyle ovulmesi, bu olumlu kisi nitelemesinin kalipli kullanimidir. | facets: Bir erkegi cömert, degerli ve guclu diye niteleme. / Cömertlik, malini harcayan eli acik kisi goruntusuyle aciklanir. / Guc ve dayaniklilik, ovgu sozu icinde erkegin saglamligi olarak verilir. / Kalipli kullanimda kisi, gucu veya dayanikliligi sebebiyle ovulur. | not: الجبن والضعف وصيغة حسبك الخاصة والهدم والصوت | src: الهد من الرجال الجواد الكريم (maqayis;tahdhib)؛ الهد الكريم الهاد لماله (maqayis)؛ فلان يهد إذا أثني عليه بالجلد والقوة (sihah)؛ لهد الرجل إذا أثني عليه بالجلد والشدة (tahdhib)؛ هد الرجل جلد الرجل (tahdhib)
-- **B004** siddetli ugultu | صوت شديد ودوي | Bu dal, dusme, cokme, deniz yonu, gok gurultusu veya hayvan bogazindan gelen siddetli ses, ugultu ve gurleme anlamindadir. Duyulan etki cekirdektir; yikimin kendisi veya kus adi degildir. | facets: Siddetli duyulan ses, ugultu veya gurleme. / Duvar, kose veya dag parcasinin dusmesinden gelen carpici ses olabilir. / Deniz kiyisi tarafindan duyulan siddetli ugultu veya gok gurultusu olarak kullanilir. / Kumru, erkek deve veya benzer hayvanin boguk gurlemesi icin de kullanilir. | not: الهدم نفسه والوعيد وتحريك الصبي واسم الطائر | src: الهدة صوت وقع الحائط (maqayis;sihah)؛ الهدة صوت تسمعه من سقوط ركن أو ناحية جبل (ayn;tahdhib)؛ الهاد صوت شديد يسمعه أهل السواحل (ayn;sihah;tahdhib)؛ ما سمعنا العام هادة أي رعدا (jamhara)؛ هدهد الحمام صوت (maqayis)؛ الفحل…
-- **B005** ibibik kusu | طائر الهدهد | Bu dal, ibibik diye bilinen kusun adi ve ona benzetilen kimi kus adlari icindir. Anlam, kus turu veya kus adi alaninda kalir. | facets: Bilinen ibibik kusunu adlandirma. / Benzer veya guvercine benzetilen kus adlari icin de kullanilir. / Kaynaklar tekil kus adini ve kucultmeli ya da cogul adlandirmalari birlikte verir. | not: الصوت والهدير وتحريك الصبي والقبيلة المسماة هداهد | src: الهدهد معروف (maqayis;tahdhib)؛ الهدهد طائر والهداهد مثله (sihah)؛ الهداهد طائر يشبه الحمام (tahdhib)؛ هداهد تصغير هدهد (tahdhib)
-- **B006** uyutmak icin sallama | هدهدة الصبي لينام | Bu dal, bir kadinin, annenin veya bakicinin cocugu uyusun diye onu sallayip hareket ettirmesi anlamindadir. Uyutma amaci kurucudur; yalniz ses cikarma anlamina genisletilmez. | facets: Cocugu uyutmak icin onu hafifce hareket ettirme veya sallama. / Eylem anne veya kadin tarafindan cocuga yoneltilir. / Uyuma sonucu hedeflenir, fakat anlam cocugun uyumasi degil uyutma hareketidir. | not: هدهدة الحمام والفحل إذا كانت صوتا أو هديرا واسم الطائر | src: هدهدت المرأة ابنها حركته لينام (maqayis;sihah)؛ الهدهدة تحريك الأم ولدها لينام (tahdhib)؛ يهدهد الصبي (tahdhib)
-- **B007** ovgu yeterlik kalibi | هدك من رجل في المدح | Bu dal, bir erkek hakkinda 'ona diyecek yok, ne iyi adam' degerinde kullanilan kalipli ovgu sozudur. Anlam, kisinin niteliginin kendisi degil, o kisiyi yeter derecede ovme kalibidir. | facets: Bir erkegi yeter derecede ovmeye yarayan kalipli soz. / Kalip, 'ona yeter' veya 'ustune yok' degerinde olumlu yargı kurar. / Bir yorum, ovulen kisinin iyi yanlarini saymanin agirligina bagli aciklama verir. | not: الضعف والكرم المجرد والوعيد والهدم | src: مررت برجل هدك من رجل كقولهم حسبك من رجل (maqayis)؛ هدك فلان من رجل أي حسبك به (jamhara)؛ مررت برجل هدك من رجل معناه أثقلك وصف محاسنه (sihah)؛ مررت برجل هدك من رجل فهو بمعنى حسبك وهو مدح (tahdhib)
-- **B008** agir basarak yurume | وطء شديد يثقل الأرض | Bu dal, bir kisinin yuruyusu sirasinda yere agir ve sert basmasi anlamindadir. Anlam zemine basma eylemine baglidir; yalniz ses cikarma veya yikma sonucu degildir. | facets: Yururken zemine agir ve sert bicimde basma. / Eylem kisinin yuruyus tarzi olarak anlatilir. / Yerin etkilenmesi vurgulanir, fakat cekirdek yuruyuste basma eylemidir. | not: الهدم والصوت والجبن والوعيد | src: فلان يهد الأرض في مشيه إذا جاء يطأ وطأ شديدا (jamhara)
-- **B009** sarp inisli gecit | منحدر شاق | Bu dal, inisi zor, sarp ve gecisi zahmetli tepe, yokus veya gecit anlamindadir. Tehlike, uzerinden inen canlinin yuvarlanabilecek kadar zor bir arazi olmasindan gelir. | facets: Inisi zor ve sarp olan arazi cikintisi veya gecit. / Tepe veya yokus gibi yuksek arazi bicimi olabilir. / Develerin boyle yerden yuvarlanmasi zorluk ve tehlike ornegidir. | not: الضعف والجبن والهدم والصوت | src: أكمة هدود صعبة المنحدر وربما تردت الإبل منها (jamhara)؛ الهدود العقبة الشاقة (tahdhib)
-- **B010** gozdagi vererek korkutma | وعيد وتخويف | Bu dal, birine zarar veya kotuluk gelecegini sezdirerek korkutma ve gozdagi verme anlamindadir. Uzaktan veya dolayli savrulan korkutucu sozler de bu alana baglanir. | facets: Birini korkutmak icin zarar veya kotuluk ihtimali bildirme. / Korkutma ve gozdagi verme ayni dal icinde birlikte verilir. / Uzaktan veya dolayli bicimde savrulan korkutucu soz de bu alandadir. | not: الهدم والصوت ومدح الرجل وتحريك الصبي | src: التهديد التخويف وكذلك التهدد (sihah)؛ التهدد والتهديد والتهداد من الوعيد (tahdhib)؛ يقال للوعيد من وراء وراء الفديد والهديد (tahdhib)
-- **B011** kesinlesmemis sani | تخييل الظن في النفس | Bu dal, bir seyin kisinin icinde sani gibi belirmesi, fakat onun kesinlestirilmemesi ve sabit bir benzetme yargisina baglanmamasi anlamindadir. Anlam, belirsiz zihinsel yoklama ile sinirlidir. | facets: Bir dusuncenin kisi icinde kesin olmayan sani olarak belirmesi. / Beliren sey kanitlanmis veya sabitlenmis degildir. / Benzetme veya tasavvur zihinde kalir, kesin hukum haline getirilmez. | not: الوعيد والصوت والهدم وتحريك الصبي | src: يقال يهدهد إلي كذا إذا شبه للإنسان في نفسه بالظن ما لم يثبته ولم يعقد عليه التشبيه (tahdhib)
-- **B012** uzun boylu adam | رجل طويل | Bu dal, erkek kisi icin uzun boylu olma nitelemesidir. Kapsam beden boyuna daralir; guc, ovgu, ses veya yikim anlamlari buna katilmaz. | facets: Erkek kisiyi uzun boylu diye niteleme. / Nitelik yalniz beden boyuna iliskindir, ahlaki veya guc degeri tasimaz. | not: الجبان والضعيف والقوي الكريم وصيغة حسبك | src: الهديد الرجل الطويل (tahdhib)
+- **B001** agir kirip yikma — kirip yikmak, sarsip bozmak · agir yikim ve kirilma · kirilip yikilmak · bir felaketin kisiyi sarsip gucunu kirmasi · yer cokmesi ya da yikima benzer agir olay
+  أصل صحيح يدل على كسر وهضم وهدم (maqayis)؛ الهد الهدم الشديد (ayn;tahdhib)؛ هددت الحائط إذا هدمته (jamhara)؛ هد البناء يهده هدا كسره وضعضعه (sihah;tahdhib)؛ انهد الجبل أي انكسر (sihah)؛ الهدة الخسوف والهد الهدم (tahdhib)؛ هد ركني إذا بلغ منه وكسره (tahdhib)
+- **B002** zayif ve korkak kisi — zayif veya korkak adam · korkak veya zayif adam · korkak adam · korkak topluluk · birini zayif saymak · zayif olmayan
+  الهد من الرجال الضعيف كأنه هد (maqayis)؛ رجل هد جبان (jamhara)؛ رجل هد وأهد بمعنى الجبن والضعف (jamhara)؛ الهد الرجل الضعيف (sihah;tahdhib)؛ الهد بالكسر الجبان الضعيف (sihah;tahdhib)؛ استهددت فلانا أي استضعفته (tahdhib)
+- **B003** cömert ve guclu kisi — cömert, degerli veya guclu adam · adam gucu ve dayanikliligiyla ovulmek · adami dayanikli diye ovmek
+  الهد من الرجال الجواد الكريم (maqayis;tahdhib)؛ الهد الكريم الهاد لماله (maqayis)؛ فلان يهد إذا أثني عليه بالجلد والقوة (sihah)؛ لهد الرجل إذا أثني عليه بالجلد والشدة (tahdhib)؛ هد الرجل جلد الرجل (tahdhib)
+- **B004** siddetli ugultu — duvar, kose veya dag dusmesinin siddetli sesi · deniz tarafindan duyulan siddetli ugultu · gok gurultusu · ses ve ugultu · kumru veya erkek devenin gurleyis ugultusu
+  الهدة صوت وقع الحائط (maqayis;sihah)؛ الهدة صوت تسمعه من سقوط ركن أو ناحية جبل (ayn;tahdhib)؛ الهاد صوت شديد يسمعه أهل السواحل (ayn;sihah;tahdhib)؛ ما سمعنا العام هادة أي رعدا (jamhara)؛ هدهد الحمام صوت (maqayis)؛ الفحل يهدهد في هديره (ayn;sihah;tahdhib)؛ الهديد والغديد الصوت (tahdhib)
+- **B005** ibibik kusu — ibibik kusu · ibibik veya guvercine benzetilen kus adlari
+  الهدهد معروف (maqayis;tahdhib)؛ الهدهد طائر والهداهد مثله (sihah)؛ الهداهد طائر يشبه الحمام (tahdhib)؛ هداهد تصغير هدهد (tahdhib)
+- **B006** uyutmak icin sallama [kalıp] — cocugu uyusun diye sallamak
+  هدهدت المرأة ابنها حركته لينام (maqayis;sihah)؛ الهدهدة تحريك الأم ولدها لينام (tahdhib)؛ يهدهد الصبي (tahdhib)
+- **B007** ovgu yeterlik kalibi — bir erkegi 'ona diyecek yok' anlaminda oven kalip
+  مررت برجل هدك من رجل كقولهم حسبك من رجل (maqayis)؛ هدك فلان من رجل أي حسبك به (jamhara)؛ مررت برجل هدك من رجل معناه أثقلك وصف محاسنه (sihah)؛ مررت برجل هدك من رجل فهو بمعنى حسبك وهو مدح (tahdhib)
+- **B008** agir basarak yurume [kalıp] — yururken yere cok sert basmak
+  فلان يهد الأرض في مشيه إذا جاء يطأ وطأ شديدا (jamhara)
+- **B009** sarp inisli gecit — sarp inisli tepe veya zorlu gecit
+  أكمة هدود صعبة المنحدر وربما تردت الإبل منها (jamhara)؛ الهدود العقبة الشاقة (tahdhib)
+- **B010** gozdagi vererek korkutma — gozdagi verme ve korkutma · korkutma ve gozdagi verme · gozdagi verme · uzaktan savrulan gozdagi
+  التهديد التخويف وكذلك التهدد (sihah)؛ التهدد والتهديد والتهداد من الوعيد (tahdhib)؛ يقال للوعيد من وراء وراء الفديد والهديد (tahdhib)
+- **B011** kesinlesmemis sani [kalıp] — kisinin icine kesinlesmemis bir sani gibi belirmek
+  يقال يهدهد إلي كذا إذا شبه للإنسان في نفسه بالظن ما لم يثبته ولم يعقد عليه التشبيه (tahdhib)
+- **B012** uzun boylu adam — uzun boylu adam
+  الهديد الرجل الطويل (tahdhib)
 
 
 
@@ -418,7 +458,7 @@ Note: HFT used an older root map; a trace step on a root the gateway now withhol
 
 
 
-===== _commentary/v16/work/1_6/H/channels.md =====
+===== _commentary/v16/work/1_6/H.r2/channels.md =====
 # Channel review of surah 1: subchannels anchored in 1:6
 
 (source: latent_activation/network/v3/reviews/s001/reader_a_pilot.md)
@@ -708,5 +748,3 @@ Note: HFT used an older root map; a trace step on a root the gateway now withhol
 - Active motifs: hard folded hide used as a shield `غ ض ب:B008/m01`; cutting and penetrating sword `ص ر ط:B003/m01`; hard layered rock `غ ض ب:B004/m01`; bodily strength and solidity `ع ب د:B007/m01`
 - Ayah anchors: 1:5 `نَعْبُدُ` (`ع ب د`); 1:6 and 1:7 `ٱلصِّرَٰطَ` / `صِرَٰطَ` (`ص ر ط`); 1:7 `ٱلْمَغْضُوبِ` (`غ ض ب`)
 - Synthesis: The sword supplies penetrating force, the shield supplies a worked resistant surface, rock supplies the material analogy for hardness, and bodily solidity supplies the agent capable of holding the defense.
-
-## Standalone Subchannels

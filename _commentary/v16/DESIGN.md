@@ -247,3 +247,40 @@ backfilled from `work/`, and their character counts match the ledger.
   - Five latent script bugs (S1–S5) and brief contradictions: memory (I1), a disclaimer per image (I2),
     verdict-carrying word notes (I7).
   - Fixes are not applied yet.
+
+## Brief r2 and script fixes (2026-09-29, after REVIEW.md; no model run)
+
+**Two briefs.**
+
+- **r1** is every run so far. Every r1 packet (H, V, D, VD, the surah call) still rebuilds byte for byte against
+  the prompt it ran with, in `out/…/prompt.md`.
+- **r2** is the revision. Its outputs go to `out/<S_A>/<arm>.r2/` and `out/sNNN/surah.r2/`.
+  - Arms: H, V, D, DM, all on the v16 dictionary. VD is V under r2.
+
+**Fixes**, keyed to REVIEW.md:
+
+| id | fix | where |
+|---|---|---|
+| I1 | "Work from the supplied evidence and your own knowledge of Arabic and the Quran. Where a sense, phrase or passage comes from memory rather than from the supplied dictionary or text, say so briefly where you use it." | prompts/r2/write.md |
+| I2 | The two "don't quietly translate" rules become one framing: "Family images are heard beside the word's meaning in this ayah, not in place of it. Make that clear once, where the first such image enters; afterwards let the images work without repeating the qualification." Glosses: "the ayah's word by its meaning here, a family image by that image." | write.md |
+| I4 | "A finding that ties this ayah to another ayah or to a chain belongs in a thread, not here." | prompts/r2/additions.md |
+| I5, I6 | Dropped "Use headings only when…", "concordance panels" and "Without a brief…". Supplied readings and maps are "proposals, not authorities". | write.md |
+| I7 | context.md is built without its "## Word notes" section. | `clean_context` |
+| I8 | The dictionary header no longer claims the glosses follow source-phrase order. | dictionary.py (r2 header) |
+| I9 | The surah brief now says: "where their wording abstracts a member, go back to the dictionary phrase"; "keep a scene at the level of its objects, their parts and their operation; … do not fold one into another's more abstract function unless nothing concrete is lost"; "carry every chain that meets this test, however unusual". It ends with `## Not carried` (each subchannel and HFT record not carried, and why), and puts the channel review before the HFT. | prompts/r2/surah_map.md |
+| I10 | "a well, a support" becomes "a concrete object, mechanism". | write.md |
+| S1 | Packets are built in the main thread; only calls run in parallel. dictionary.py no longer patches v9. | v16.py, dictionary.py |
+| S2 | Surah dictionary: a root is headed under its strongest role, with other roles listed. S18's ق ل ل is now identity. | dictionary.py |
+| S3 | Anchors: ranges and bare continuation numbers are parsed; `### X` cross-pericope blocks are matched by their pericope spans. Empty section headings are dropped (r2). | v16.py |
+| S4 | `started.json` is written before a call; a started or finished call blocks any other. | v16.py |
+| S5, S6 | A stream without a result event keeps its text as `partial`; assistant message ids are logged (`text_messages`). | v16.py |
+| S7 | DM refuses a map without `## Chains` and `## Ayat`. | v16.py |
+| S8 | The estimate adds re-caching per 64k of output; the surah call assumes 80k output. S1 surah: $3.51. | v16.py |
+| S9 | The HFT root-map note is kept (r2). | v16.py |
+| S10 | r2 file names match the evidence clause (write.md, map.md). The ledger records the brief, prompt sha256 and CLI version. | v16.py |
+
+**Not changed.** I3 ("most candidates … stay out") is kept on purpose: it is the adversarial audit's own
+anti-catalogue rule.
+
+**Tests.** Without model calls: r1 rebuilds identical; the r2 lint is clean. Anchor parsing was checked on six
+real formats. The partial-stream path, the started-call guard and X-block slicing (7:150) were each tested.
