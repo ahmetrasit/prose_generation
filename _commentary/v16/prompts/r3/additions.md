@@ -6,3 +6,6 @@ These additions take precedence over write.md where the two differ.
    neighbours, and the Quran and the Fatiha work together. Minor aspects attach to a scene as sentences, not
    paragraphs. A supplied chain running through this ayah is heard as one image.
 3. No notes section at the end of the prose. What fits no scene goes to the ledger, with why.
+
+
+4. Discovery and selection are separate objectives. If a recall-first discovery is supplied, assume it intentionally over-generates. Do not penalize it for breadth; verify here, then choose for prose.
