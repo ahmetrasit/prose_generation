@@ -131,7 +131,7 @@ reading types, statements of what a reading may or may not do) and make your own
 
 **Arm DM.** D plus the surah map, described to the writer as a proposal, not an authority.
 
-**Cost.** S1 surah call: about 119k tokens in, estimated $1.75. DM on 1:6: about $0.8.
+**Cost.** S1 surah call: about 119k tokens in, estimated $1.75. DM on 1:6: estimated $1.02 (actual $0.57).
 
 **Provenance.** Every run now saves its exact prompt in `out/…/prompt.md`. The eight earlier runs were
 backfilled from `work/`, and their character counts match the ledger.
@@ -197,9 +197,10 @@ backfilled from `work/`, and their character counts match the ledger.
 - 2026-09-29: arms D and VD on 1:6, run with approval: D $0.77 (23.5k thinking), VD $1.22 (12.1k thinking).
 
   **The pulley is still absent in both.** The whole B012 source line, including "النعامة الخشبة المعترضة ثم تعلق
-  القامة", was in both prompts. The cut dictionary was therefore not the only cause. The writer sees the join and
-  does not use it. The brief itself says a related noun's sense does not become the word's meaning, and the pulley
-  needs two such hops: qāma the noun → istiqāma, and naʿāma → anʿamta.
+  القامة", was in both prompts. The cut dictionary was therefore not the only cause.
+  *Corrected after REVIEW.md:* D and VD had no ن ع م entry (1:6 roots only), so the join's other end was not in
+  their input. D says of 1:6→1:7 "Bağ sözlükten değil". "The writer sees the join and does not use it" was wrong.
+  Only the surah call had every member.
 
   **Otherwise:**
 
@@ -238,3 +239,11 @@ backfilled from `work/`, and their character counts match the ledger.
     to 1:4's mālik;
   - in the threads: 35:34 and 35:35 dār al-muqāma, the same root as müstaqīm, as the end of the road;
   - in Ek Notlar: «ملك الدابة قوائمها وهاديها» (1:4's root naming 1:6's two roots as the mount's legs and neck).
+- 2026-09-29: independent read-only review, saved as `REVIEW.md`. Main points:
+  - The pulley is a data and design gap for the ayah writers: the chain's members are not in their input, and the
+    upstream chains abstract the pulley into "upright component".
+  - For the surah call it is model judgement, eased by brief gaps: no rule against folding a mechanism into its
+    function, and no record of what was not carried.
+  - Five latent script bugs (S1–S5) and brief contradictions: memory (I1), a disclaimer per image (I2),
+    verdict-carrying word notes (I7).
+  - Fixes are not applied yet.
