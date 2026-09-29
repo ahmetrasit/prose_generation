@@ -1,0 +1,14 @@
+- memory: grammarians' reading of the fronted object as restriction (taqdīm al-mafʿūl yufīd al-ḥaṣr) and the construction نعبدك as the unmarked form (Arabic grammar and balāgha tradition)
+- memory: the Fatiha is recited in every rakʿa, not only in every salah (fiqh consensus)
+- memory: the hadith qudsi on dividing the salah into two halves, with the words «هذا بيني وبين عبدي ولعبدي ما سأل» (Muslim, Sahih, Kitab al-Salat)
+- memory: the Arabic text of 16:75, 26:22, 5:2 and 6:153, and Moses as the speaker of 26:22 answering Pharaoh (26:18–22)
+- memory: the vocalization أُعْبِدَ بفلان as a passive, on the analogy of أُبْدِعَ به; the dictionary text is unvowelled
+- memory: the author names Halîl (ayn), Cevherî (sihah), Ezherî (tahdhib) and Râgıb (mufradat)
+- not written: the echo root ع ي ن under نستعين (eye, spring, watchful care) - it is an echo, not identity, and hearing it would mislead the reader
+- not written: عبد B006 (the honored one who is served), B007 (firmness, «ما لثوبك عبدة»), B008 (wounded pride, anger), B009, B012 (perfume stone), B005 ship caulked with pitch - none adds a stage to the owned/smoothed/stranded scene; the ship would duplicate the tarred camel
+- not written: عون B002 to B008 (middle age, repeated war, old palm, the herd of wild asses, pubic hair, the place ʿĀna) - no scene in this ayah
+- not written: map chains 2 (herd and stray), 11 (mainstay), 12 (fitting out) and 1 (road: guide, waymark, middle of the road) beyond the smoothed road - they belong to other ayat or would turn into inventory
+- not written: the hadith of the Prophet walking in his last illness «يهادى بين رجلين» (Bukhari) - the dictionary image was enough to close the scene
+- not written: modern Arabic معبّد meaning a paved road - outside the classical evidence
+- not written: the Turkish phrase "Allah'ın avni ile" preserving عون - a second loanword note would dilute the ibadet note
+- not written: 19:93 (everyone comes to the Rahman as ʿabd) - ayn's "free or slave, the servant of God" already carries the point

@@ -70,6 +70,8 @@ BRIEFS = {
            "map_from": "r2", "ledger": True},
 }
 LEDGER_MARK = "=== LEDGER ==="
+# model key -> (model id, cache-write $/token (1h = 2x input), output $/token); opus is the default and has no suffix
+MODELS = {"opus": ("claude-opus-5-5", 8e-6, 20e-6), "fable": ("claude-fable-5-1", 20e-6, 50e-6)}
 R1_V16_DICT = {"D", "VD", "DM"}
 V5_RUN = {1: "s001-fresh-20260910", 100: "s100-regular-20260911"}
 LANES = ["micro", "macro", "global"]
@@ -122,8 +124,9 @@ def sa(ref: str) -> tuple[int, str]:
     return int(s), f"{s}_{a}"
 
 
-def arm_dir(root: Path, name: str, arm: str, brief: str) -> Path:
-    return root / name / (arm if brief == "r1" else f"{arm}.{brief}")
+def arm_dir(root: Path, name: str, arm: str, brief: str, model: str = "opus") -> Path:
+    d = arm if brief == "r1" else f"{arm}.{brief}"
+    return root / name / (d if model == "opus" else f"{d}.{model}")
 
 
 # ---- inputs
@@ -339,10 +342,11 @@ def est_tokens(text: str) -> int:  # the cost critic's calibrated formula, as in
     return int(4581 + 1.151 * ar + 0.366 * (len(text) - ar))
 
 
-def estimate(text: str, kind: str = "ayah") -> float:
-    """Measured rates: cache write $8/M, output $20/M. Each output past a message cap re-caches the prompt."""
+def estimate(text: str, kind: str = "ayah", model: str = "opus") -> float:
+    """Opus measured: cache write $8/M, output $20/M; Fable 2.5x. Output past a message cap re-caches the prompt."""
     n_in, n_out = est_tokens(text), OUT_TOKENS[kind]
-    return (n_in * (1 + n_out // MESSAGE_CAP)) * 8e-6 + n_out * 20e-6
+    _, w, o = MODELS[model]
+    return (n_in * (1 + n_out // MESSAGE_CAP)) * w + n_out * o
 
 
 _CLI = None
@@ -367,7 +371,7 @@ def blocked(d: Path) -> bool:
     return (d / "run.log.json").exists() or (d / "started.json").exists()
 
 
-def call_opus(text: str, d: Path) -> dict:
+def call_opus(text: str, d: Path, model: str = "opus") -> dict:
     """One Opus call. stream-json keeps every assistant message: a long answer that the CLI splits over several
     turns is joined back in order (`--output-format json` returns only the last message; the first S1 surah call
     lost two thirds of its map that way). The raw event stream is kept in run.stream.jsonl. If the stream ends
@@ -375,7 +379,7 @@ def call_opus(text: str, d: Path) -> dict:
     (d / "started.json").write_text(json.dumps({"started": time.strftime("%Y-%m-%dT%H:%M:%S"),
                                                 "prompt_sha256": hashlib.sha256(text.encode()).hexdigest()}) + "\n",
                                     encoding="utf-8")
-    cmd = ["claude", "-p", "--model", "claude-opus-5-5", "--effort", "high", "--tools", "",
+    cmd = ["claude", "-p", "--model", MODELS[model][0], "--effort", "high", "--tools", "",
            "--output-format", "stream-json", "--verbose", "--no-session-persistence", "--safe-mode",
            "--permission-mode", "dontAsk", "--system-prompt", SYSTEM]
     env = {**os.environ, "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "128000"}
@@ -421,15 +425,16 @@ def usage_row(obj: dict, text: str) -> dict:
             "prompt_sha256": hashlib.sha256(text.encode()).hexdigest(), "cli": cli_version()}
 
 
-def run_one(ref: str, arm: str, brief: str, text: str, est: float) -> str:
+def run_one(ref: str, arm: str, brief: str, text: str, est: float, model: str = "opus") -> str:
     _, name = sa(ref)
-    d = arm_dir(OUT, name, arm, brief)
-    tag = f"{ref} {arm} {brief}"
+    d = arm_dir(OUT, name, arm, brief, model)
+    tag = f"{ref} {arm} {brief} {model}"
     d.mkdir(parents=True, exist_ok=True)
     (d / "prompt.md").write_text(text, encoding="utf-8")
     t0 = time.time()
-    obj = call_opus(text, d)
-    row = {"ref": ref, "arm": arm, "brief": brief, "seconds": round(time.time() - t0), "estimate_usd": round(est, 2),
+    obj = call_opus(text, d, model)
+    row = {"ref": ref, "arm": arm, "brief": brief, "model": MODELS[model][0], "seconds": round(time.time() - t0),
+           "estimate_usd": round(est, 2),
            **usage_row(obj, text)}
     result = (obj.get("result") or "").strip()
     if result and BRIEFS[brief].get("ledger"):
@@ -479,6 +484,7 @@ def main() -> None:
     ap.add_argument("--surah", type=int)
     ap.add_argument("--run", action="store_true", help="surah: make the call (default: build and estimate)")
     ap.add_argument("--parallel", type=int, default=3)
+    ap.add_argument("--model", choices=tuple(MODELS), default="opus")
     a = ap.parse_args()
     if a.cmd == "surah":
         if not a.surah:
@@ -501,7 +507,7 @@ def main() -> None:
     jobs = [(r, k) for r in ([a.ayah] if a.ayah else AYAT) for k in ([a.arm] if a.arm else arms)]
     built = []
     for r, k in jobs:  # main thread: Sources' SQLite connections belong to the thread that opened them
-        if a.cmd == "run" and blocked(arm_dir(OUT, sa(r)[1], k, a.brief)):
+        if a.cmd == "run" and blocked(arm_dir(OUT, sa(r)[1], k, a.brief, a.model)):
             print(f"{r} {k} {a.brief}: started or finished before, skipped (never rerun)")
             continue
         try:
@@ -509,7 +515,7 @@ def main() -> None:
         except SystemExit as e:
             print(f"{r:6} {k}  skipped: {e}")
             continue
-        e = estimate(t)
+        e = estimate(t, "ayah", a.model)
         lanes = ""
         if "v5_lanes" in meta:
             lanes = "  v5: " + ", ".join(f"{n.split('.')[0]} {v['gz_ratio']}{'' if v['kept'] else ' (out)'}"
@@ -526,7 +532,7 @@ def main() -> None:
               f"(assumes {OUT_TOKENS['ayah']:,} output tokens each)")
         return
     with cf.ThreadPoolExecutor(a.parallel) as ex:
-        for msg in ex.map(lambda j: run_one(j[0], j[1], a.brief, j[2], j[3]), built):
+        for msg in ex.map(lambda j: run_one(j[0], j[1], a.brief, j[2], j[3], a.model), built):
             print(msg, flush=True)
 
 

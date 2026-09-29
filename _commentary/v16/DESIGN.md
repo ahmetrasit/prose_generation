@@ -463,3 +463,49 @@ Word counts are prose only: the ledger is split off. "Source talk" counts hafız
   cataloguing (v5 1:6 middle: 31 "değildir / anlamına gelmez / söylemez"), and stays at 1,400–2,300 words against
   4,861 to 11,249.
 - 7:16 (Iblīs sitting on the straight road) is in 1:6 r2, r3 and v5 (v5 by reference only). It is in no 1:7.
+
+## 1:5 DM r3, Opus 5.5 against Fable 5.1 (2026-09-29, with approval)
+
+`v16.py --model fable` was added. Fable writes to `<arm>.<brief>.fable/`; the estimate uses Fable rates (cache write
+$20/M, output $50/M). Both runs had an identical prompt.
+
+| | Opus 5.5 | Fable 5.1 |
+|---|---|---|
+| cost | $0.75 | $1.20 |
+| output / thinking tokens | 22.5k / 16.4k | 9.0k / 4.0k |
+| time | 236 s | 131 s |
+| prose words (check.py) | 1,184 | 899 |
+| sourced tags | 94% (2 unmarked) | 100% |
+| neg/1000 | 2.53 | 1.11 |
+| refs outside S1 | 5:2, 6:153, 16:75, 26:22 | 7:128, 16:75, 23:47, 26:22, 36:71, 36:72 |
+| dictionary authors named in the prose | 8 | 0 |
+
+**Shared, from the map.** Both readings carry:
+
+- the turned face (from speaking about Him to speaking to Him);
+- ʿabd as the owned one against 1:2's rabb and 1:4's mālik;
+- ibadet narrowed in Turkish to ritual;
+- ṭarīq muʿabbad, the road smoothed by many feet (the trodden road 1:6 r3 lost);
+- the tarred camel;
+- 26:22, Pharaoh's enslaving;
+- uʿbida bihi, the traveller whose mount gave out;
+- ʿawn as a back under the load;
+- taʿāwun against ʿabādīd (scattering along diverging roads);
+- the hadith qudsi on the prayer divided in two;
+- closing on 1:6.
+
+**Opus only.** 5:2, "cooperate", set against "yalnız"; 6:153, the scattering roads.
+
+**Fable only.**
+
+- 23:47 "wa-qawmuhumā lanā ʿābidūn": Pharaoh's court fronts "lanā" just as the ayah fronts iyyāka, so "yalnız sana"
+  becomes a refusal of every other claimed owner.
+- 7:128 "istaʿīnū bi-llāhi wa-ṣbirū": Moses gives the enslaved people the ayah's second verb.
+- 36:71 and 36:72, "mālikūn" and "dhallalnāhā": ownership and being made tractable, tied to the tarred camel and
+  to 1:4. The camel is tarred against mange, so being owned and being cared for meet in one hide.
+- muavin as the Turkish trace of ʿawn.
+- The ayah as the surah's hinge.
+- Tighter and plainer, with no author names in the prose.
+
+**My reading.** Fable writes the stronger 1:5: sharper cross-passage joins and cleaner prose, on a quarter of Opus's
+thinking, at 1.6× the cost. One ayah is not a verdict.

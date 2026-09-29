@@ -1,0 +1,14 @@
+- memory: grammar of iyyāka (detached object pronoun, fronting gives restriction; normal order would be the suffixed naʿbuduka); the shift from third to second person (iltifāt) (classical tafsir/balāgha)
+- memory: 26:22 «أن عبدت بني إسرائيل», 23:47 «وقومهما لنا عابدون», 7:128 «استعينوا بالله واصبروا», quoted with diacritics from memory; the editor should check them against the canonical text
+- memory: diacritics of 16:75, 36:71, 36:72 and the split of the map's "36:71–72" quote into two refs (map gives the text unvocalised)
+- memory: tar (qaṭirān) is applied to camels against mange (general Arabic lexical knowledge, hanaʾa al-baʿīr); the dictionary only says "tarred and made tractable"
+- memory: passive vocalisation أُعْبِدَ بِهِ, by analogy with أُبْدِعَ بِهِ; the dictionary gives the phrase unvocalised
+- memory: ẓahīra/muẓāhara relate to ẓahr "back" (root ظ ه ر); Turkish "muavin" comes from ع و ن
+- memory: hadith qudsi "I have divided the prayer between Me and My servant… this is between Me and My servant" (Muslim, from Abū Hurayra)
+- not written: echo root ع ي ن (eye, spring, watchful care) - echo only, not identity; would blur the ʿawn image
+- not written: chain 2 wild-ass herd (عانة), chain 12 workshop as a separate scene - the tarred camel and ship were folded into the road scene; the herd adds nothing to the ayah
+- not written: chain 11 (support/pillar) as a chain - used only through ʿabada "firmness" and ʿawn "back"
+- not written: chain 4 household triad 114:1–3 and 19:93 - the owner relation is carried by 1:2, 1:4 and 16:75
+- not written: ع ب د B006 (honoured one who is served), B008 (wounded pride, anger), B009, B012 (perfume stone); ع و ن B002–B008 (middle age, repeated war, old palm, pubic hair, place name) - no scene in this ayah
+- not written: 2:45 and 5:2 (istiʿāna through patience and prayer; taʿāwun) - 7:128 carried the point with the Pharaoh contrast
+- not written: qirāʾāt note on 1:4 (malik/mālik) - not needed for the focus
