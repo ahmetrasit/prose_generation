@@ -335,3 +335,20 @@ recognises only [bellek]. One is a compressed dictionary phrase.
 dictionary join. The writer ranks it below the other 13 chains for 1:6. The pulley is a chain across four ayat that
 belongs to the surah; the ayah reading chooses. It would appear naturally in a surah-level commentary (the layer
 the North Star calls the surah argument), which reads the map as a whole.
+
+**DM r2 on 1:7** ($0.80, 14.7k thinking, 2,023 words). The map says 1:7 completes chain 9 with the naʿāma
+crossbeam. The writer does not take it up. From the map it uses:
+
+- the naʿam herd against the stray camel "lā yuʿrafu rabbuhā", which returns 1:2's rabb (chain 2);
+- nuʿāmā, the moist south wind (chain 8);
+- ghayr as rain that sets things right and as "ḥaṭṭa ʿanhu raḥlahu" (chains 8 and 10);
+- anʿamtu arḍan, "the land suited me and I stayed" (chain 10);
+- the ghaḍba rock (chain 16);
+- two ways out of sight (chain 17).
+
+Its own find is 8:53, "lam yaku mughayyiran niʿmatan anʿamahā ʿalā qawmin ḥattā yughayyirū": niʿma, anʿama,
+ʿalā and the ghayr root in one sentence. It reads غَيْرِ as the boundary crossed by a change from within. Memory
+is marked throughout.
+
+**Across both ayat.** The well chain reaches both writers from the map, and both rank other chains higher. This
+is now a stable judgement of the ayah writer, not missing data.
