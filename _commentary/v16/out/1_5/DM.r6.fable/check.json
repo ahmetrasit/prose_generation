@@ -1,0 +1,2306 @@
+{
+ "record": "E0 check.py verification record (for the user and the scorecard; never a model input)",
+ "file": "/Volumes/OZTURK/_projects/prose_generation/_commentary/v16/out/1_5/DM.r6.fable/1_5.reading.tr.md",
+ "file_sha256": "75ee70da2b375a46c20e9da52938e04b3df565aba2d670c0464a1ddf527817aa",
+ "ref": "1:5",
+ "tool_sha256": {
+  "check.py": "f443237e198fe17988a4940ce9bc3d2bcc8e01a581bb36786885d92f8c0be75c",
+  "common.py": "e979d232da09085eade7d0c68c91953f14f225f6f127cddba90ab5c670bf54df"
+ },
+ "index_signature": {
+  "version": 5,
+  "quran": [
+   1396724,
+   1784646236.0
+  ],
+  "tr_entries": [
+   1704,
+   198596704,
+   1790480242.5
+  ],
+  "root_packets": [
+   1679,
+   707294008,
+   1785174411.9
+  ],
+  "majaz": [
+   9216000,
+   1781101281.7
+  ],
+  "majaz_index": [
+   1169381,
+   1790647003.5
+  ],
+  "qiraat": [
+   833825,
+   1779761837.0
+  ],
+  "activation_map": [
+   2789461,
+   1790487877.7
+  ],
+  "furuq": [
+   19782184,
+   1784717571.0
+  ]
+ },
+ "summary": {
+  "words": 1770,
+  "tags": 46,
+  "tags_checkable": 46,
+  "tags_sourced": 45,
+  "share_sourced": 0.978,
+  "by_source": {
+   "quran": 20,
+   "dictionary": 24,
+   "unsourced": 1,
+   "early_entry": 1
+  },
+  "levels": {
+   "clitic": 2,
+   "exact": 39,
+   "gapped": 4
+  },
+  "dictionary_early_phrase": 23,
+  "dictionary_definition_only": 1,
+  "arabic_outside_tags": 0,
+  "arabic_outside_tags_quotations": 0,
+  "arabic_outside_tags_quotations_sourced": 0,
+  "arabic_outside_tags_root_names": 0,
+  "arabic_outside_tags_by_context": {},
+  "bellek_marks": 0,
+  "bellek_status": {},
+  "unsourced_unmarked": 1,
+  "cited_branches": 12,
+  "cited_bound_branches": 0,
+  "bound_citations_with_echo_marker": 0,
+  "bound_citations_without_echo_marker": 0,
+  "bound_citations_extended_marker_only": 0,
+  "negation": {
+   "neg_e2_count": 12,
+   "neg_e2_per_1000": 6.78,
+   "breakdown": {
+    "değil": 12,
+    "değil,": 8
+   },
+   "not_only_frames": 2
+  }
+ },
+ "quotations": [
+  {
+   "n": 1,
+   "line": 5,
+   "quote": "إِيَّاكَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "1:5"
+    ],
+    "n_ayat": 1,
+    "where": "focus"
+   },
+   "also": {
+    "dictionary": [
+     "ع ب د B003 (root_000973/B003) source_phrase_ar [tahdhib]",
+     "ع ب د B003 (root_000973/B003) lexical_source_phrase [tahdhib]",
+     "ء ي ي B005 (root_000074/B005) source_phrase_ar [ayn]",
+     "ح ص ص B003 (root_000329/B003) source_phrase_ar [tahdhib]"
+    ],
+    "early_entry": [
+     "ء ن س sihah",
+     "ء و ه mufradat",
+     "ء ي ي ayn",
+     "ح س ب mufradat",
+     "ح ص ص tahdhib",
+     "ح ن ن tahdhib",
+     "ر ف ق ayn",
+     "س و ء sihah"
+    ],
+    "majaz": [
+     3,
+     4,
+     845,
+     "raw:4203"
+    ]
+   },
+   "sentence_index": 6,
+   "bellek_marked": false
+  },
+  {
+   "n": 2,
+   "line": 7,
+   "quote": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "1:4"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {
+    "dictionary": [
+     "د ي ن B002 (root_000504/B002) source_phrase_ar [tahdhib]",
+     "د ي ن B002 (root_000504/B002) lexical_source_phrase [tahdhib]",
+     "د ي ن B002 (root_000504/B002) lexical_source_phrase [maqayis]"
+    ],
+    "early_entry": [
+     "د ي ن maqayis",
+     "د ي ن tahdhib",
+     "م ل ك mufradat",
+     "م ل ك tahdhib"
+    ],
+    "majaz": [
+     3,
+     4
+    ]
+   },
+   "sentence_index": 11,
+   "bellek_marked": false
+  },
+  {
+   "n": 3,
+   "line": 7,
+   "quote": "دانه أي أذله واستعبده",
+   "source": "dictionary",
+   "level": "gapped",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000504/B004",
+      "root": "د ي ن",
+      "branch": "B004",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "gapped"
+     },
+     {
+      "branch_ref": "root_000504/B004",
+      "root": "د ي ن",
+      "branch": "B004",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "gapped"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "د ي ن sihah"
+    ]
+   },
+   "sentence_index": 11,
+   "bellek_marked": false
+  },
+  {
+   "n": 4,
+   "line": 7,
+   "quote": "نَعْبُدُ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "1:5"
+    ],
+    "n_ayat": 1,
+    "where": "focus"
+   },
+   "also": {
+    "dictionary": [
+     "ع ب د B003 (root_000973/B003) source_phrase_ar [tahdhib]",
+     "ع ب د B003 (root_000973/B003) lexical_source_phrase [tahdhib]",
+     "ج ن ب B003 (root_000262/B003) lexical_source_phrase [ayn]",
+     "ج ن ب B003 (root_000262/B003) lexical_source_phrase [mufradat]"
+    ],
+    "early_entry": [
+     "ء ب و mufradat",
+     "ء و ه mufradat",
+     "ج ن ب ayn",
+     "ج ن ب mufradat",
+     "ج ن ب sihah",
+     "ج ن ب tahdhib",
+     "ص ن م mufradat",
+     "ع ب د tahdhib"
+    ],
+    "majaz": [
+     3,
+     4,
+     117,
+     293
+    ]
+   },
+   "sentence_index": 14,
+   "bellek_marked": false
+  },
+  {
+   "n": 5,
+   "line": 7,
+   "quote": "العبد وهو المملوك",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000973/B001",
+      "root": "ع ب د",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B001",
+      "root": "ع ب د",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ع ب د maqayis"
+    ]
+   },
+   "sentence_index": 14,
+   "bellek_marked": false
+  },
+  {
+   "n": 6,
+   "line": 7,
+   "quote": "عباد",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000973/B002",
+      "root": "ع ب د",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B002",
+      "root": "ع ب د",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B002",
+      "root": "ع ب د",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B002",
+      "root": "ع ب د",
+      "branch": "B002",
+      "field": "lexical_expression_ar",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B002",
+      "root": "ع ب د",
+      "branch": "B002",
+      "field": "lexical_sense_ar",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B002",
+      "root": "ع ب د",
+      "branch": "B002",
+      "field": "what_is_ar",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 32
+   },
+   "also": {
+    "quran": {
+     "refs": [
+      "7:194",
+      "21:26",
+      "37:40",
+      "37:74"
+     ],
+     "n_ayat": 92,
+     "level": "exact"
+    },
+    "early_entry": [
+     "ء ث م ayn",
+     "ء د ي tahdhib",
+     "ء ذ ن ayn",
+     "ء ل ف tahdhib",
+     "ء ل ه sihah",
+     "ء ل ه tahdhib",
+     "ء م م mufradat",
+     "ء م ن mufradat"
+    ],
+    "majaz": [
+     38,
+     485,
+     611,
+     873
+    ]
+   },
+   "sentence_index": 15,
+   "bellek_marked": false
+  },
+  {
+   "n": 7,
+   "line": 7,
+   "quote": "عبيد",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000973/B001",
+      "root": "ع ب د",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B001",
+      "root": "ع ب د",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B001",
+      "root": "ع ب د",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B001",
+      "root": "ع ب د",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B001",
+      "root": "ع ب د",
+      "branch": "B001",
+      "field": "lexical_sense_ar",
+      "source_tags": [],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B002",
+      "root": "ع ب د",
+      "branch": "B002",
+      "field": "lexical_expression_ar",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 23
+   },
+   "also": {
+    "quran": {
+     "refs": [
+      "3:182",
+      "8:51",
+      "22:10",
+      "41:46"
+     ],
+     "n_ayat": 5,
+     "level": "clitic"
+    },
+    "early_entry": [
+     "ء ب ب tahdhib",
+     "ء ب د tahdhib",
+     "ء ب ل maqayis",
+     "ء ب ل sihah",
+     "ء ب ل tahdhib",
+     "ء ب و maqayis",
+     "ء ب و tahdhib",
+     "ء ب ي tahdhib"
+    ],
+    "majaz": [
+     10,
+     59,
+     81,
+     106
+    ]
+   },
+   "sentence_index": 15,
+   "bellek_marked": false
+  },
+  {
+   "n": 8,
+   "line": 7,
+   "quote": "عَبْدًا مَّمْلُوكًا لَّا يَقْدِرُ عَلَىٰ شَيْءٍ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "16:75"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ع ب د mufradat"
+    ]
+   },
+   "sentence_index": 17,
+   "bellek_marked": false
+  },
+  {
+   "n": 9,
+   "line": 7,
+   "quote": "عَبْدًا",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000973/B004",
+      "root": "ع ب د",
+      "branch": "B004",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis",
+       "ayn"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B004",
+      "root": "ع ب د",
+      "branch": "B004",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B004",
+      "root": "ع ب د",
+      "branch": "B004",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis",
+       "ayn"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B004",
+      "root": "ع ب د",
+      "branch": "B004",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B004",
+      "root": "ع ب د",
+      "branch": "B004",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B004",
+      "root": "ع ب د",
+      "branch": "B004",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 13
+   },
+   "also": {
+    "quran": {
+     "refs": [
+      "4:172",
+      "16:75",
+      "17:3",
+      "18:65"
+     ],
+     "n_ayat": 6,
+     "level": "exact"
+    },
+    "early_entry": [
+     "ء ب د tahdhib",
+     "ء ر م ayn",
+     "ء م ر ayn",
+     "ء م ن maqayis",
+     "ء م ن sihah",
+     "ء و ل tahdhib",
+     "ب ء ر ayn",
+     "ب ر ص maqayis"
+    ],
+    "majaz": [
+     "raw:6290"
+    ]
+   },
+   "sentence_index": 19,
+   "bellek_marked": false
+  },
+  {
+   "n": 10,
+   "line": 13,
+   "quote": "العبادة غاية التذلل",
+   "source": "dictionary",
+   "level": "clitic",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000973/B003",
+      "root": "ع ب د",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "clitic"
+     },
+     {
+      "branch_ref": "root_000973/B003",
+      "root": "ع ب د",
+      "branch": "B003",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "clitic"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {},
+   "sentence_index": 25,
+   "bellek_marked": false
+  },
+  {
+   "n": 11,
+   "line": 13,
+   "quote": "إياك نعبد إياك نطيع الطاعة التي نخضع معها",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000973/B003",
+      "root": "ع ب د",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B003",
+      "root": "ع ب د",
+      "branch": "B003",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {},
+   "sentence_index": 26,
+   "bellek_marked": false
+  },
+  {
+   "n": 12,
+   "line": 15,
+   "quote": "طريق معبد",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000973/B005",
+      "root": "ع ب د",
+      "branch": "B005",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "jamhara",
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B005",
+      "root": "ع ب د",
+      "branch": "B005",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "jamhara",
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B005",
+      "root": "ع ب د",
+      "branch": "B005",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B005",
+      "root": "ع ب د",
+      "branch": "B005",
+      "field": "lexical_expression_ar",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 4
+   },
+   "also": {
+    "early_entry": [
+     "ع ب د jamhara",
+     "ع ب د mufradat",
+     "ع ب د sihah",
+     "ع ب د tahdhib"
+    ]
+   },
+   "sentence_index": 29,
+   "bellek_marked": false
+  },
+  {
+   "n": 13,
+   "line": 15,
+   "quote": "المسلوك المذلل",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000973/B005",
+      "root": "ع ب د",
+      "branch": "B005",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B005",
+      "root": "ع ب د",
+      "branch": "B005",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B005",
+      "root": "ع ب د",
+      "branch": "B005",
+      "field": "what_is_ar",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 3
+   },
+   "also": {
+    "early_entry": [
+     "ع ب د maqayis"
+    ]
+   },
+   "sentence_index": 29,
+   "bellek_marked": false
+  },
+  {
+   "n": 14,
+   "line": 15,
+   "quote": "مذلل",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000973/B005",
+      "root": "ع ب د",
+      "branch": "B005",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "jamhara",
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B005",
+      "root": "ع ب د",
+      "branch": "B005",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "jamhara",
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B005",
+      "root": "ع ب د",
+      "branch": "B005",
+      "field": "lexical_sense_ar",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B005",
+      "root": "ع ب د",
+      "branch": "B005",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "clitic"
+     },
+     {
+      "branch_ref": "root_000973/B005",
+      "root": "ع ب د",
+      "branch": "B005",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis",
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "clitic"
+     },
+     {
+      "branch_ref": "root_000973/B005",
+      "root": "ع ب د",
+      "branch": "B005",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "clitic"
+     }
+    ],
+    "n_matches": 10
+   },
+   "also": {
+    "early_entry": [
+     "ج د ل sihah",
+     "ذ ل ل tahdhib",
+     "س ق ي maqayis",
+     "س ق ي sihah",
+     "س ق ي tahdhib",
+     "ع ب د jamhara",
+     "ع ب د maqayis",
+     "ع ب د mufradat"
+    ]
+   },
+   "sentence_index": 30,
+   "bellek_marked": false
+  },
+  {
+   "n": 15,
+   "line": 15,
+   "quote": "البعير المعبد",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000973/B005",
+      "root": "ع ب د",
+      "branch": "B005",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis",
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B005",
+      "root": "ع ب د",
+      "branch": "B005",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B005",
+      "root": "ع ب د",
+      "branch": "B005",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B004",
+      "root": "ع ب د",
+      "branch": "B004",
+      "field": "what_is_not_ar",
+      "source_tags": [],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 4
+   },
+   "also": {
+    "early_entry": [
+     "ع ب د maqayis",
+     "ع ب د sihah",
+     "ع ب د tahdhib"
+    ]
+   },
+   "sentence_index": 31,
+   "bellek_marked": false
+  },
+  {
+   "n": 16,
+   "line": 15,
+   "quote": "المعبدة السفينة المقيرة",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000973/B005",
+      "root": "ع ب د",
+      "branch": "B005",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah",
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B005",
+      "root": "ع ب د",
+      "branch": "B005",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ع ب د sihah"
+    ]
+   },
+   "sentence_index": 31,
+   "bellek_marked": false
+  },
+  {
+   "n": 17,
+   "line": 15,
+   "quote": "وَذَلَّلْنَاهَا لَهُمْ فَمِنْهَا رَكُوبُهُمْ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "36:72"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ر ك ب tahdhib"
+    ]
+   },
+   "sentence_index": 33,
+   "bellek_marked": false
+  },
+  {
+   "n": 18,
+   "line": 17,
+   "quote": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "1:6"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {
+    "early_entry": [
+     "ق و م mufradat",
+     "ه د ي mufradat"
+    ]
+   },
+   "sentence_index": 36,
+   "bellek_marked": false
+  },
+  {
+   "n": 19,
+   "line": 19,
+   "quote": "العبد الأنفة والحمية",
+   "source": "dictionary",
+   "level": "gapped",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000973/B008",
+      "root": "ع ب د",
+      "branch": "B008",
+      "field": "what_is_ar",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "gapped"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 39,
+   "bellek_marked": false
+  },
+  {
+   "n": 20,
+   "line": 19,
+   "quote": "عبد فصمت",
+   "source": "unsourced",
+   "level": null,
+   "detail": {},
+   "also": {},
+   "sentence_index": 39,
+   "bellek_marked": false
+  },
+  {
+   "n": 21,
+   "line": 19,
+   "quote": "بعير متعبد إذا امتنع على الناس صعوبة",
+   "source": "dictionary",
+   "level": "gapped",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000973/B011",
+      "root": "ع ب د",
+      "branch": "B011",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "gapped"
+     },
+     {
+      "branch_ref": "root_000973/B011",
+      "root": "ع ب د",
+      "branch": "B011",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "gapped"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ع ب د tahdhib"
+    ]
+   },
+   "sentence_index": 40,
+   "bellek_marked": false
+  },
+  {
+   "n": 22,
+   "line": 19,
+   "quote": "وَمَن يَسْتَنكِفْ عَنْ عِبَادَتِهِ وَيَسْتَكْبِرْ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:172"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 42,
+   "bellek_marked": false
+  },
+  {
+   "n": 23,
+   "line": 19,
+   "quote": "إِنَّ الَّذِينَ يَسْتَكْبِرُونَ عَنْ عِبَادَتِي سَيَدْخُلُونَ جَهَنَّمَ دَاخِرِينَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "40:60"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "د خ ر mufradat"
+    ]
+   },
+   "sentence_index": 43,
+   "bellek_marked": false
+  },
+  {
+   "n": 24,
+   "line": 25,
+   "quote": "العبدة وهي القوة والصلابة",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000973/B007",
+      "root": "ع ب د",
+      "branch": "B007",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B007",
+      "root": "ع ب د",
+      "branch": "B007",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ع ب د maqayis"
+    ]
+   },
+   "sentence_index": 50,
+   "bellek_marked": false
+  },
+  {
+   "n": 25,
+   "line": 25,
+   "quote": "ما لثوبك عبدة",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000973/B007",
+      "root": "ع ب د",
+      "branch": "B007",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B007",
+      "root": "ع ب د",
+      "branch": "B007",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B007",
+      "root": "ع ب د",
+      "branch": "B007",
+      "field": "lexical_expression_ar",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B007",
+      "root": "ع ب د",
+      "branch": "B007",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "clitic"
+     }
+    ],
+    "n_matches": 4
+   },
+   "also": {
+    "early_entry": [
+     "ع ب د sihah",
+     "ع ب د tahdhib"
+    ]
+   },
+   "sentence_index": 50,
+   "bellek_marked": false
+  },
+  {
+   "n": 26,
+   "line": 25,
+   "quote": "لَّا يَقْدِرُ عَلَىٰ شَيْءٍ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "16:75",
+     "16:76"
+    ],
+    "n_ayat": 2,
+    "where": "other"
+   },
+   "also": {
+    "dictionary": [
+     "ج ي ء B005 (root_000281--root_000282/B005) lexical_source_phrase [sihah]"
+    ],
+    "early_entry": [
+     "ب ك م mufradat",
+     "ج ي ء sihah",
+     "ع ب د mufradat",
+     "ك ل ل tahdhib"
+    ]
+   },
+   "sentence_index": 52,
+   "bellek_marked": false
+  },
+  {
+   "n": 27,
+   "line": 27,
+   "quote": "نَسْتَعِينُ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "1:5"
+    ],
+    "n_ayat": 1,
+    "where": "focus"
+   },
+   "also": {
+    "early_entry": [
+     "ص ي ص mufradat",
+     "ق ل ب ayn"
+    ],
+    "majaz": [
+     4
+    ]
+   },
+   "sentence_index": 53,
+   "bellek_marked": false
+  },
+  {
+   "n": 28,
+   "line": 27,
+   "quote": "العون الظهيرة على الأمر",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001064/B001",
+      "root": "ع و ن",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001064/B001",
+      "root": "ع و ن",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ع و ن sihah"
+    ]
+   },
+   "sentence_index": 53,
+   "bellek_marked": false
+  },
+  {
+   "n": 29,
+   "line": 27,
+   "quote": "المعاونة والمظاهرة",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001064/B001",
+      "root": "ع و ن",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001064/B001",
+      "root": "ع و ن",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001064/B001",
+      "root": "ع و ن",
+      "branch": "B001",
+      "field": "lexical_sense_ar",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 3
+   },
+   "also": {
+    "early_entry": [
+     "ر ف د maqayis",
+     "ع و ن mufradat"
+    ]
+   },
+   "sentence_index": 53,
+   "bellek_marked": false
+  },
+  {
+   "n": 30,
+   "line": 27,
+   "quote": "استعنت بفلان فأعانني",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001064/B001",
+      "root": "ع و ن",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001064/B001",
+      "root": "ع و ن",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "clitic"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ع و ن sihah"
+    ]
+   },
+   "sentence_index": 56,
+   "bellek_marked": false
+  },
+  {
+   "n": 31,
+   "line": 27,
+   "quote": "رَبِّ بِمَا أَنْعَمْتَ عَلَيَّ فَلَنْ أَكُونَ ظَهِيرًا لِّلْمُجْرِمِينَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "28:17"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 57,
+   "bellek_marked": false
+  },
+  {
+   "n": 32,
+   "line": 27,
+   "quote": "أَنْعَمْتَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "1:7"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {
+    "dictionary": [
+     "خ ب ط B005 (root_000389/B005) source_phrase_ar [sihah]",
+     "خ ب ط B005 (root_000389/B005) lexical_source_phrase [sihah]",
+     "ي د ي B003 (root_001693/B003) lexical_source_phrase [tahdhib]",
+     "خ ب ط B005 (root_000389/B005) lexical_sense_ar"
+    ],
+    "early_entry": [
+     "ب ر ح maqayis",
+     "خ ب ط sihah",
+     "ز و ج tahdhib",
+     "غ ي ر maqayis",
+     "غ ي ر tahdhib",
+     "م ل ك tahdhib",
+     "ن ع م mufradat",
+     "ن ع م tahdhib"
+    ]
+   },
+   "sentence_index": 58,
+   "bellek_marked": false
+  },
+  {
+   "n": 33,
+   "line": 27,
+   "quote": "ظَهِيرًا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "17:88",
+     "25:55",
+     "28:17",
+     "28:86"
+    ],
+    "n_ayat": 4,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ظ ه ر mufradat",
+     "ظ ه ر tahdhib"
+    ],
+    "majaz": [
+     "raw:4805",
+     "raw:5073"
+    ]
+   },
+   "sentence_index": 58,
+   "bellek_marked": false
+  },
+  {
+   "n": 34,
+   "line": 27,
+   "quote": "وَكَانَ الْكَافِرُ عَلَىٰ رَبِّهِ ظَهِيرًا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "25:55"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ظ ه ر mufradat",
+     "ظ ه ر tahdhib"
+    ],
+    "majaz": [
+     "raw:4805"
+    ]
+   },
+   "sentence_index": 60,
+   "bellek_marked": false
+  },
+  {
+   "n": 35,
+   "line": 29,
+   "quote": "أعبد بفلان إذا كلت راحلته أو عطبت",
+   "source": "dictionary",
+   "level": "gapped",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000973/B011",
+      "root": "ع ب د",
+      "branch": "B011",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "gapped"
+     },
+     {
+      "branch_ref": "root_000973/B011",
+      "root": "ع ب د",
+      "branch": "B011",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "gapped"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {},
+   "sentence_index": 62,
+   "bellek_marked": false
+  },
+  {
+   "n": 36,
+   "line": 29,
+   "quote": "يهادي بين اثنين",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001583/B008",
+      "root": "ه د ي",
+      "branch": "B008",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001583/B008",
+      "root": "ه د ي",
+      "branch": "B008",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001583/B008",
+      "root": "ه د ي",
+      "branch": "B008",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001583/B008",
+      "root": "ه د ي",
+      "branch": "B008",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001583/B008",
+      "root": "ه د ي",
+      "branch": "B008",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001583/B008",
+      "root": "ه د ي",
+      "branch": "B008",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 9
+   },
+   "also": {
+    "early_entry": [
+     "ه د ي maqayis",
+     "ه د ي mufradat",
+     "ه د ي sihah",
+     "ه د ي tahdhib"
+    ]
+   },
+   "sentence_index": 63,
+   "bellek_marked": false
+  },
+  {
+   "n": 37,
+   "line": 31,
+   "quote": "وَاسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "2:45"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "majaz": [
+     39
+    ]
+   },
+   "sentence_index": 65,
+   "bellek_marked": false
+  },
+  {
+   "n": 38,
+   "line": 31,
+   "quote": "فَصَبْرٌ جَمِيلٌ وَاللَّهُ الْمُسْتَعَانُ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "12:18"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 69,
+   "bellek_marked": false
+  },
+  {
+   "n": 39,
+   "line": 35,
+   "quote": "نَعْبُدُ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "1:5"
+    ],
+    "n_ayat": 1,
+    "where": "focus"
+   },
+   "also": {
+    "dictionary": [
+     "ع ب د B003 (root_000973/B003) source_phrase_ar [tahdhib]",
+     "ع ب د B003 (root_000973/B003) lexical_source_phrase [tahdhib]",
+     "ج ن ب B003 (root_000262/B003) lexical_source_phrase [ayn]",
+     "ج ن ب B003 (root_000262/B003) lexical_source_phrase [mufradat]"
+    ],
+    "early_entry": [
+     "ء ب و mufradat",
+     "ء و ه mufradat",
+     "ج ن ب ayn",
+     "ج ن ب mufradat",
+     "ج ن ب sihah",
+     "ج ن ب tahdhib",
+     "ص ن م mufradat",
+     "ع ب د tahdhib"
+    ],
+    "majaz": [
+     3,
+     4,
+     117,
+     293
+    ]
+   },
+   "sentence_index": 73,
+   "bellek_marked": false
+  },
+  {
+   "n": 40,
+   "line": 35,
+   "quote": "نَسْتَعِينُ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "1:5"
+    ],
+    "n_ayat": 1,
+    "where": "focus"
+   },
+   "also": {
+    "early_entry": [
+     "ص ي ص mufradat",
+     "ق ل ب ayn"
+    ],
+    "majaz": [
+     4
+    ]
+   },
+   "sentence_index": 73,
+   "bellek_marked": false
+  },
+  {
+   "n": 41,
+   "line": 35,
+   "quote": "تعاون القوم",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001064/B001",
+      "root": "ع و ن",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001064/B001",
+      "root": "ع و ن",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "clitic"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ع و ن sihah"
+    ]
+   },
+   "sentence_index": 74,
+   "bellek_marked": false
+  },
+  {
+   "n": 42,
+   "line": 35,
+   "quote": "وَتَعَاوَنُوا عَلَى الْبِرِّ وَالتَّقْوَىٰ وَلَا تَعَاوَنُوا عَلَى الْإِثْمِ وَالْعُدْوَانِ",
+   "source": "early_entry",
+   "level": "exact",
+   "detail": {
+    "entries": [
+     {
+      "root_id": "root_001064",
+      "root": "ع و ن",
+      "source": "mufradat",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "root_id": "root_000993",
+      "root": "ع د و",
+      "source": "mufradat",
+      "where": "other",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {},
+   "sentence_index": 75,
+   "bellek_marked": false
+  },
+  {
+   "n": 43,
+   "line": 37,
+   "quote": "العباديد الفرق من الناس الذاهبون في كل وجه",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000973/B010",
+      "root": "ع ب د",
+      "branch": "B010",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000973/B010",
+      "root": "ع ب د",
+      "branch": "B010",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ع ب د sihah"
+    ]
+   },
+   "sentence_index": 78,
+   "bellek_marked": false
+  },
+  {
+   "n": 44,
+   "line": 37,
+   "quote": "الطرق المختلفة",
+   "source": "dictionary",
+   "level": "clitic",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000973/B010",
+      "root": "ع ب د",
+      "branch": "B010",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "clitic"
+     },
+     {
+      "branch_ref": "root_000973/B010",
+      "root": "ع ب د",
+      "branch": "B010",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "clitic"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ع ب د tahdhib"
+    ]
+   },
+   "sentence_index": 78,
+   "bellek_marked": false
+  },
+  {
+   "n": 45,
+   "line": 37,
+   "quote": "ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "1:6"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {
+    "early_entry": [
+     "ق و م mufradat",
+     "ه د ي mufradat"
+    ]
+   },
+   "sentence_index": 80,
+   "bellek_marked": false
+  },
+  {
+   "n": 46,
+   "line": 37,
+   "quote": "وَأَنَّ هَٰذَا صِرَاطِي مُسْتَقِيمًا فَاتَّبِعُوهُ وَلَا تَتَّبِعُوا السُّبُلَ فَتَفَرَّقَ بِكُمْ عَن سَبِيلِهِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "6:153"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 81,
+   "bellek_marked": false
+  }
+ ],
+ "arabic_outside_tags": [],
+ "bellek": [],
+ "unsourced_unmarked": [
+  {
+   "line": 19,
+   "quote": "عبد فصمت"
+  }
+ ],
+ "cited_branches": [
+  {
+   "branch_ref": "root_000504/B004",
+   "root": "د ي ن",
+   "branch": "B004",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "window",
+   "scope_note": "Dal eylem biçimleri, köleleştirilmiş kişiyi gösteren adlar ve tartışmalı bir deyim içerir; deyimdeki yorumlar yalın eylemin tek anlamı sayılmaz.",
+   "image_ar": "الإذلال والملك",
+   "quote": "دانه أي أذله واستعبده",
+   "line": 7,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "1:4 {ar:مَٰلِكِ يَوْمِ ٱلدِّينِ, tr:mâliki yevmi'd-dîn, gloss:din gününün sahibi} der; ve o ayetin \"din\" kökü, sözlük ailesinde yalnız hesap ve itaati değil, sahip olmayı da taşır: {ar:دانه أي أذله واستعبده, tr:dânehu ey ezellehu ve'sta'bedehu, gloss:onu boyun eğdirdi ve kul edindi}."
+  },
+  {
+   "branch_ref": "root_000973/B001",
+   "root": "ع ب د",
+   "branch": "B001",
+   "branch_kind": "bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Dal yalın bir ad anlamıdır; tanım herhangi bir özel söz öbeğine bağlı ek anlam taşımaz.",
+   "image_ar": "الرق والملك",
+   "quote": "العبد وهو المملوك",
+   "line": 7,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "{ar:نَعْبُدُ, tr:na'budu, gloss:kulluk ederiz} fiilinin ailesinde ilk anlam açıktır: {ar:العبد وهو المملوك, tr:el-abdu ve huve'l-memlûk, gloss:kul, yani sahip olunan}; hür olanın karşıtı."
+  },
+  {
+   "branch_ref": "root_000973/B002",
+   "root": "ع ب د",
+   "branch": "B002",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yalın insan adlandırması ile Tanrı'ya aitliği bildiren ad öbekleri birlikte bulunur; tanım bu kullanımları birbirine karıştırmadan kapsar.",
+   "image_ar": "الانتساب إلى الله عبدا",
+   "quote": "عباد",
+   "line": 7,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Ancak aynı aile bir ayrım da koyar: sözlük, Allah'ın kulları anlamındaki {ar:عباد, tr:ibâd, gloss:kullar} çoğuluyla alınıp satılan köleler anlamındaki {ar:عبيد, tr:abîd, gloss:köleler} çoğulunu birbirinden ayırır."
+  },
+  {
+   "branch_ref": "root_000973/B004",
+   "root": "ع ب د",
+   "branch": "B004",
+   "branch_kind": "bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Dal yalın eylem anlamını taşır; tanım belirli bir söz öbeğine özgü kapsam eklemez.",
+   "image_ar": "التعبيد والاستعباد",
+   "quote": "عَبْدًا",
+   "line": 7,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "19:93 herkesin sonunda Rahmân'a {ar:عَبْدًا, tr:abden, gloss:kul olarak} geleceğini söyler; Fâtiha'yı okuyan, o gelişi beklemez, şimdi söyler."
+  },
+  {
+   "branch_ref": "root_000973/B003",
+   "root": "ع ب د",
+   "branch": "B003",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yalın eylem ve adlar ile belirli nesnelere yönelen söz öbekleri birlikte bulunur; özel nesneli kullanımlar bütün dalın tek sınırı yapılmaz.",
+   "image_ar": "العبادة والطاعة الخاضعة",
+   "quote": "العبادة غاية التذلل",
+   "line": 13,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Arapça aile daha geniş ve daha sert bir şey söyler: {ar:العبادة غاية التذلل, tr:el-ibâdetu ğâyetu't-tezellül, gloss:kulluk, alçalmanın son noktasıdır}."
+  },
+  {
+   "branch_ref": "root_000973/B005",
+   "root": "ع ب د",
+   "branch": "B005",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Dal söz öbeğine bağlı yol ve deve anlamlarıyla bir gemi adlandırmasını birlikte taşır; her kullanım kendi nesnesi ve işlemiyle ayrı tutulur.",
+   "image_ar": "التذليل والتسوية",
+   "quote": "طريق معبد",
+   "line": 15,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "{ar:طريق معبد, tr:tarîkun mu'abbed, gloss:düzlenmiş yol}: çok geçilerek düzleşmiş yol; sözlük onu {ar:المسلوك المذلل, tr:el-meslûku'l-muzellel, gloss:yürünmüş, uysallaştırılmış} diye açıklar."
+  },
+  {
+   "branch_ref": "root_000973/B004",
+   "root": "ع ب د",
+   "branch": "B004",
+   "branch_kind": "bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Dal yalın eylem anlamını taşır; tanım belirli bir söz öbeğine özgü kapsam eklemez.",
+   "image_ar": "التعبيد والاستعباد",
+   "quote": "البعير المعبد",
+   "line": 15,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Aynı sıfat deveye de gider: {ar:البعير المعبد, tr:el-ba'îru'l-mu'abbed, gloss:katranlanmış deve}, derisi baştan başa katranla kaplanıp uysallaştırılmış deve; ve gemiye: {ar:المعبدة السفينة المقيرة, tr:el-mu'abbede es-sefînetu'l-mukayyera, gloss:katranla kaplanmış gemi}."
+  },
+  {
+   "branch_ref": "root_000973/B008",
+   "root": "ع ب د",
+   "branch": "B008",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yalın duygu adı ile gururu incindiği için susmayı anlatan söz öbeği birlikte bulunur; susma yalnız özel kullanımın sonucudur.",
+   "image_ar": "الأنفة والغضب",
+   "quote": "العبد الأنفة والحمية",
+   "line": 19,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [
+    "deyiş"
+   ],
+   "sentence": "Kısa seslerle okunan biçim {ar:العبد الأنفة والحمية, tr:el-abed el-enefetu ve'l-hamiyye, gloss:incinmiş gurur, öfke, kendini koruma} demektir; sözlük bir de şu deyişi verir: {ar:عبد فصمت, tr:abide fe samete, gloss:gururu incindi de sustu}."
+  },
+  {
+   "branch_ref": "root_000973/B011",
+   "root": "ع ب د",
+   "branch": "B011",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yolda kalmayı anlatan kalıpla güç deve nitelemesi birlikte bulunur; iki yapı kendi katılımcıları ve sonuçlarıyla ayrı tutulur.",
+   "image_ar": "العطب والانقطاع",
+   "quote": "بعير متعبد إذا امتنع على الناس صعوبة",
+   "line": 19,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Ve yine deve: {ar:بعير متعبد إذا امتنع على الناس صعوبة, tr:ba'îrun muta'abbid ize'mtene'a ale'n-nâsi su'ûbe, gloss:insanlara güçlük çıkararak direnen deve}."
+  },
+  {
+   "branch_ref": "root_000973/B007",
+   "root": "ع ب د",
+   "branch": "B007",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yalın güç adı ile deve ve kumaşa bağlı söz öbekleri birlikte bulunur; canlıya özgü semizlik bütün dalın genel anlamı yapılmaz.",
+   "image_ar": "القوة والصلابة",
+   "quote": "العبدة وهي القوة والصلابة",
+   "line": 25,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Kul kökünün en beklenmedik dalı şudur: {ar:العبدة وهي القوة والصلابة, tr:el-abede ve hiye'l-kuvvetu ve's-salâbe, gloss:güç ve sağlamlık}; sözlük bir kumaş için {ar:ما لثوبك عبدة, tr:mâ li sevbike abede, gloss:kumaşının hiç dayanıklılığı yok} der, dayanıklı ve semiz dişi deveye de aynı sözcüğü verir."
+  },
+  {
+   "branch_ref": "root_001064/B001",
+   "root": "ع و ن",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım, yalın yardım ve destek çekirdeğini korurken yardım isteme ve karşılıklı yardımlaşma gibi yapıya bağlı kullanımları ayrı yönler olarak sınırlar.",
+   "image_ar": "الإعانة والمظاهرة",
+   "quote": "العون الظهيرة على الأمر",
+   "line": 27,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "{ar:نَسْتَعِينُ, tr:nesta'în, gloss:yardım isteriz} fiilinin ailesi yardımı soyut bırakmaz: {ar:العون الظهيرة على الأمر, tr:el-avnu'z-zahîratu ale'l-emr, gloss:yardım, bir işte arka çıkmaktır}; {ar:المعاونة والمظاهرة, tr:el-mu'âvenetu ve'l-muzâhera, gloss:yardımlaşma, birbirine sırt vermek}."
+  },
+  {
+   "branch_ref": "root_000973/B011",
+   "root": "ع ب د",
+   "branch": "B011",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yolda kalmayı anlatan kalıpla güç deve nitelemesi birlikte bulunur; iki yapı kendi katılımcıları ve sonuçlarıyla ayrı tutulur.",
+   "image_ar": "العطب والانقطاع",
+   "quote": "أعبد بفلان إذا كلت راحلته أو عطبت",
+   "line": 29,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Kul kökünde bir de yolda kalmış yolcu vardır: {ar:أعبد بفلان إذا كلت راحلته أو عطبت, tr:u'bide bi fulânin izâ kellet râhiletuhu ev atibet, gloss:bineği yorulup ya da sakatlanıp yolda kaldı}."
+  },
+  {
+   "branch_ref": "root_001583/B008",
+   "root": "ه د ي",
+   "branch": "B008",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "window",
+   "scope_note": "Sallanarak yürüme biçimi ile iki kişi arasında onlara dayanarak yürüme kalıbı ayrı yüzler olarak tanımlanır; dayanak koşulu bütün kullanımlara yayılmaz.",
+   "image_ar": "مشي التهادي مع الاعتماد والتمايل",
+   "quote": "يهادي بين اثنين",
+   "line": 29,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Nadir bir kullanımdır, ama ayetin sırasına tam oturur: bineği çöken kişinin ilk sözü yardım istemektir; ve 1:6'nın \"ilet\" fiilinin ailesinde {ar:يهادي بين اثنين, tr:yuhâdî beyne'sneyn, gloss:iki kişinin arasında onlara dayanarak yürür} biçimi, güçsüzlükten iki omuza yaslanıp yürüyen adamı verir."
+  },
+  {
+   "branch_ref": "root_001064/B001",
+   "root": "ع و ن",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım, yalın yardım ve destek çekirdeğini korurken yardım isteme ve karşılıklı yardımlaşma gibi yapıya bağlı kullanımları ayrı yönler olarak sınırlar.",
+   "image_ar": "الإعانة والمظاهرة",
+   "quote": "تعاون القوم",
+   "line": 35,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Yardım kökü bu çoğulu kendisi taşır: {ar:تعاون القوم, tr:te'âvene'l-kavm, gloss:topluluk birbirine yardım etti}."
+  },
+  {
+   "branch_ref": "root_000973/B010",
+   "root": "ع ب د",
+   "branch": "B010",
+   "branch_kind": "bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Dal yalın bir çoğul adlandırmadır; özel bir söz öbeğinden alınmış ek kapsam içermez.",
+   "image_ar": "التفرق في الوجوه",
+   "quote": "العباديد الفرق من الناس الذاهبون في كل وجه",
+   "line": 37,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Kul kökü ise bu \"biz\"in dağılma biçimini adlandırır: {ar:العباديد الفرق من الناس الذاهبون في كل وجه, tr:el-abâdîd el-firaku mine'n-nâsi'z-zâhibûne fî kulli vech, gloss:her yöne gidip dağılan insan kümeleri}; sözlük bunu {ar:الطرق المختلفة, tr:et-turuku'l-muhtelife, gloss:birbirinden ayrılan yollar} ile de açıklar."
+  }
+ ]
+}

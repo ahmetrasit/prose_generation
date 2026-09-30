@@ -1,0 +1,19 @@
+- memory: the shift from third-person description (1:1–1:4) to direct address in 1:5, and the fronting of the object pronoun as the marker of exclusivity, as noted in the classical commentary tradition (general tafsir and balagha knowledge)
+- memory: 36:60 and 36:61 wording and speaker (Allah addressing the children of Adam on the day of reckoning)
+- memory: 26:22 wording, Musa answering Firavun's reproach
+- memory: 17:1, 16:75, 19:93, 89:29 wording
+- memory: 43:81 wording, and the minority early reading of ٱلْعَٰبِدِينَ there as "the disdainers" from the anafa sense of the root (recorded in classical tafsir, e.g. Tabari and Ibn Kathir on that ayah)
+- memory: 2:45, 7:128, 12:18, 18:95, 5:2, 11:123, 67:15, 36:71, 36:72 wording and situations
+- memory: the hadith qudsi on the division of the Fatiha between Allah and his servant, Sahih Muslim from Abu Hurayra, including "هذا بيني وبين عبدي ولعبدي ما سأل" for 1:5
+- memory: tarring of camels (هناء بالقطران) as a treatment for mange and parasites; caulking with pitch as sealing seams so a hull holds water out (general lexicographic and material knowledge; the dictionary supplies only "مهنوء بالقطران" and "مقيرة")
+- memory: the etymological link of ظهيرة to ظهر "back", used to explain "arka çıkmak"
+- memory: the classical remark that worship precedes seeking help in the ayah's order (goal before means / the servant's offering before his request), general tafsir tradition (e.g. Ibn Kathir)
+- memory: the Turkish loanwords ibadet, abd, muavin, muavenet, teavün, avene and their narrowed or pejorative Turkish senses
+- not written: echo root ع ي ن (eye, spring, watchfulness) for نَسْتَعِينُ - withheld observed target, not identity; using it would have blurred root identity and family image
+- not written: ع و ن B002 (middle-aged animal, 2:68 عوان), B003 (repeated war), B004 (old palm), B005 (bodily maturity) - the dictionaries derive these from "middle" and give no bridge to the help sense heard in this ayah
+- not written: ع و ن B006 (herd of wild asses, map chain 2) - no dictionary phrase or Quran passage joins it to seeking help; it would have been a catalogue entry
+- not written: ع و ن B007 and B008 (pubic hair, the place ʿĀna and its wine) - no image the surah lets a listener hear
+- not written: ع ب د B009 (not delaying, fixed expression) and B012 (perfume-grinding stone) - single or fixed-expression senses with no partner in the surah
+- not written: map chain 12 (workshop: seasoning, kneading, straightening) as a separate scene - the tarred camel and caulked ship were used only within the "made ready to carry" cluster beside the trodden road; the rest of the chain belongs to other ayat
+- not written: map chain 11's reading of عبدة as "firmness" joined with ملاك and قوام - I kept عبدة but marked the link to the trodden road as my own connection, since no dictionary joins the two branches
+- not written: 43:81 as evidence that Fatiha's نعبد carries a pride sense - it does not; the ayah's verb is unambiguous, and the pride branch was offered only as the gesture worship gives up

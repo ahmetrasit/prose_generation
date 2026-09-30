@@ -1,0 +1,29 @@
+- memory: Hadith qudsi "I have divided the prayer between Myself and My servant into two halves... this is between Me and My servant, and My servant shall have what he asked" at إياك نعبد وإياك نستعين (Sahih Muslim, Kitab al-Salat)
+- memory: Grammar of إيّا as the independent carrier of the object pronoun, and the fronting of the object before the verb conveying restriction/exclusivity (standard Arabic grammar and balagha)
+- memory: The shift from third-person reference (1:2–1:4) to second-person address in 1:5 is observed from the text; its framing as a turn (iltifat) is standard rhetoric
+- memory: نستعين is form X (istifʿāl) of ع و ن, with the و surfacing as ي/long ī (standard morphology)
+- memory: Tar (هناء) smeared on camels as treatment against mange/skin disease, explaining المهنوء بالقطران (general lexical/cultural knowledge)
+- memory: Pitch sealing the seams of a ship's hull as the function of المقيرة (general knowledge)
+- memory: Vocalizations مُعَبَّد (trodden road, tarred camel) versus مَعْبَد (place of worship, Turkish "mabet") (standard Arabic)
+- memory: Ibn Fāris's statement that ع ب د has two sound origins that seem opposite, one of softness and lowliness and the other of hardness and toughness (Maqayis al-Lugha, entry عبد); the supplied excerpts attest both senses but not the framing sentence
+- memory: ظهير/ظهيرة built on ظهر "back" (standard Arabic)
+- memory: 26:22 Arabic text, and its context of Pharaoh reminding Moses that he was raised in his house (26:18)
+- memory: 25:63 Arabic text, and its context as the opening of the description of عباد الرحمن
+- memory: 36:72 Arabic text «وذللناها لهم فمنها ركوبهم»; the map supplied only a paraphrase spanning 36:71–72
+- memory: 89:27–30 context (the soul at rest told to return to its Lord and enter among My servants and My garden); only «فادخلي في عبادي» was supplied, via sihah
+- memory: 2:45 Arabic text and its address to the Children of Israel; 7:128 Arabic text and its context of Moses speaking to his people under Pharaoh's threat
+- memory: 6:153 Arabic text and its place at the end of a list of commands the Prophet is told to recite (the map supplied a shorter unvocalized quotation)
+- memory: Turkish usage of ibadet, ibadethane, mabet, muavin and iane
+- not written: echo root ع ي ن (eye, spring, watching) - only a sound resemblance produced by the و→ي shift; mentioned once solely to dismiss it, no image drawn
+- not written: ع و ن B007 «استعان فلان حلق عانته» (the same form X in the sense of shaving pubic hair) - a homonymous use of the very verb form, irrelevant to the ayah and liable to mislead
+- not written: ع و ن B002/B003/B004/B005 (middle-aged cow, as in 2:68; repeated war; old palm; bodily maturity) - no connection to asking for help that the ayah or surah lets a reader hear
+- not written: ع و ن B006 herd of wild asses (map chain 2) - a herd image with no function in the servant's request; the map's herd scene joins it to other roots only by juxtaposition
+- not written: ع و ن B008 place name ʿĀna and its wine - a proper name
+- not written: ع ب د B008 (injured pride, anger) - an opposite pole of the root that the ayah gives no foothold for; possibly under Ibn Fāris's second origin, but not needed
+- not written: ع ب د B006 (the honored one who is served, «كأنه يعبد») - it would only restate the addressee's position already carried by the household of رب and مالك
+- not written: ع ب د B009 (not delaying, a slight quickening in running) - a fixed expression, rare and unrelated
+- not written: ع ب د B012 (stone for grinding perfume) - single source, no scene
+- not written: map chain 7 on ربّ as rearing, tied through Pharaoh's «ألم نربك» (26:18) - root identity of نربّك with ربّ is disputed (ر ب و vs ر ب ب), so the link was not asserted
+- not written: map chain 3's third member (يهادي بين اثنين from 1:6) - kept outside the prose to avoid building a three-root scene on a rare form; only the stranded rider and the request for help were placed side by side, flagged as a scene the words permit
+- not written: map chain 12 (workshop of seasoning, kneading, straightening) - only the tarred camel and caulked ship were used; the other members belong to other ayat and add no meaning to 1:5
+- not written: map chain 11 (عبدة and عون as what holds a thing up) - عبدة was used only as the durability branch with a guard; the mainstay reading would have joined two unrelated branches as one image

@@ -1,0 +1,25 @@
+- memory: Quran 16:75 wording «عبدا مملوكا لا يقدر على شيء» and its parable context (16:75)
+- memory: Quran 19:93 «إن كل من في السماوات والأرض إلا آتي الرحمن عبدا» (19:93)
+- memory: Quran 4:172 «لن يستنكف المسيح أن يكون عبدا لله ... ومن يستنكف عن عبادته ويستكبر» (4:172)
+- memory: Quran 40:60 «إن الذين يستكبرون عن عبادتي سيدخلون جهنم داخرين» (40:60)
+- memory: Quran 36:72 «وذللناها لهم فمنها ركوبهم» (36:72)
+- memory: Quran 28:17 «رب بما أنعمت علي فلن أكون ظهيرا للمجرمين» and that it follows help received (28:17)
+- memory: Quran 25:55 «وكان الكافر على ربه ظهيرا» (25:55)
+- memory: Quran 2:45 «واستعينوا بالصبر والصلاة» (2:45)
+- memory: Quran 12:18 «فصبر جميل والله المستعان على ما تصفون», Yaʿqūb to his sons (12:18)
+- memory: Quran 5:2 «وتعاونوا على البر والتقوى ولا تعاونوا على الإثم والعدوان» (5:2)
+- memory: Quran 6:153 «وأن هذا صراطي مستقيما فاتبعوه ولا تتبعوا السبل فتفرق بكم عن سبيله» (6:153; also listed in map chain 1)
+- memory: hadith qudsi on the division of the prayer between God and His servant, «هذه بيني وبين عبدي ولعبدي ما سأل» said at 1:5 (Muslim, Abū Hurayra)
+- memory: the dīn-family phrase «دانه دينا أي أذله واستعبده» is taken from the map's chain 4 (sihah), not from this ayah's dictionary
+- memory: the ه د ي phrase «يهادي بين اثنين» taken from the map's chain 3 (sihah)
+- memory: that ظهيرة/مظاهرة derive from ظهر "back" (standard derivation; the dictionary gives the words but not the etymology)
+- memory: the classical observation that worship precedes help as end precedes means (Ibn Kathīr and others)
+- not written: ECHO root ع ي ن (all branches) - withheld echo, not identity; nothing built on it
+- not written: ع و ن B002/B003/B005 (middle age, repeated war, bodily maturity), despite B002 matching 2:68 wording - same root, unrelated sense; no phrase joins them to this ayah's meaning
+- not written: ع و ن B004 (old palm), B006 (wild-ass herd, map chain 2), B007, B008 - no partner in the ayah's sense; the herd chain adds nothing 1:5 needs
+- not written: ع ب د B009 (not delaying; hurrying a little) - fixed expression, no connection to the ayah's action
+- not written: ع ب د B012 (perfume-grinding stone) - single source, no scene
+- not written: ع ب د B006 (المعبد the honored, served one) and the إله = معبود link (map chain 4) - true but adds only a restatement of the plain meaning; the ownership relation was carried through B001/B002 and the دين phrase instead
+- not written: ع ب د B004 (تعبيد, enslaving people) beyond the عباد/عبيد distinction - human enslavement has no place in the ayah's address
+- not written: map chain 12 (tarred camel and caulked ship as workshop scene with ربّ/ملك/قوّم) - the ship and camel were used only for what they share with worship (مذلل); the fitting-out scene as a whole would require the other roots' senses and did not change the reading of 1:5
+- not written: 18:95 «فأعينوني بقوة» and 7:128 «استعينوا بالله واصبروا» - would repeat what 2:45 and 12:18 already establish

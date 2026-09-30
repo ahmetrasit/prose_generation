@@ -770,3 +770,46 @@ stub. Frozen evidence as r6 (hashes match); 1:5 DM r7 prompt 70,551 characters, 
 
 **r6 on Fable 5.1, 1:5 DM (user-approved reference point):** estimate $2.90, running.
 
+## 1:5 DM: r6 and r7 × Opus 5.5 and Fable 5.1 (2026-09-30, user-approved; identical frozen evidence)
+
+| | cost | thinking | words (check.py) | tags (sourced) | Quran refs outside S1 | dictionary authors named | first-person hedges |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Opus r6 | $1.23 | 33.4k | 2,489 | 83 (95%) | 21 | 0 | ~3 |
+| Fable r6 | $1.61 | 7.7k | 1,770 | 46 (98%) | 11 | 8 | ~2 |
+| Opus r7 | $0.76 | 13.7k | 1,843 | 42 (98%) | 7 | 29 | ~9 |
+| Fable r7 | $1.93 | 11.0k | 2,647 | 52 (100%) | 17 | 12 | ~11 |
+
+The last two columns are rough regex counts.
+
+**Brief.**
+
+- r7 brought back source talk in both models: dictionary authors named in the prose, and first-person hedges ("bu
+  bağı ben kuruyorum, sözlük değil"). The "beside, not instead" disclaimer repeats.
+- Fable r7 organises by root ("Kul olmak: na'budu", "Sırtını vermek: nesteîn"), which r6 forbids.
+- r6's attribution, register and structure rules therefore do work, for both models.
+- Discovery split by model:
+  - Opus fell from 21 refs to 7 under r7, with thinking cut from 33k to 14k;
+  - Fable rose from 11 to 17.
+
+**Model.**
+
+- Fable finds the sharpest joins:
+  - r6: 28:17 against 25:55 (ẓahīr, beside anʿamta);
+  - r7: 43:81 (the early reading of ʿābidīn as "disdainers", from the anafa branch), 67:15 (al-arḍa dhalūlan,
+    the earth made tractable to walk on), 17:1 (bi-ʿabdihi at the highest honour, beside al-muʿabbad
+    al-mukarram), 11:123 (uʿbudhu wa-tawakkal ʿalayh, the ayah's own order) and "avene" as a Turkish pejorative
+    shift.
+- Opus is more thorough and careful. Fable has one slip in each reading:
+  - r6: "yürünmüş yol ile yürünecek yol aynı kökten", although ع ب د ≠ ص ر ط;
+  - r7: "Rahman adı bir önceki ayette", but 1:3 is not 1:4.
+- 7:16 (Iblīs on the straight path) is in the map's road chain, which includes 1:5's B005. None of the four uses
+  it, and no ledger mentions it. Only Astra r4 max and Sol r5 max used it on 1:5.
+
+**My reading.**
+
+- Content: Fable r7 ≥ Opus r6 > Fable r6 > Opus r7.
+- Style: Opus r6 > Fable r6 > the r7 readings.
+- Neither brief is best for both models. Next: a middle brief (r8): r7's core plus r6's discovery paragraph, the
+  attribution line (the word's family, not the dictionaries or their authors), thesis sections rather than one
+  per word, and no first-person hedging.
+
