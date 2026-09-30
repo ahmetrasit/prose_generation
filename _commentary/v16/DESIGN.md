@@ -1038,3 +1038,40 @@ technical". The draft:
   importance;
 - extends `## Not carried` to dictionary branches.
 
+## Brief r10: r7 plus themes first (2026-09-30; built, not run)
+
+**Why.**
+
+- r9 slid back toward a catalogue on 1:6. Inventory transitions ("aynı aile", "bir kolu", "ailesinde", "sözlük",
+  "de vardır") were 10.6 per 1,000 words, against r8's 4.7. Paragraphs with 3+ tags: 14 of 35, against 2 of 46.
+- Two r9 rules caused it: "try every finding before excluding" and "quote every family image". They made
+  inclusion the easier choice.
+- The user's principle is that themes are the focus, and words support, expand and grow them. The user asked to
+  go back to the minimal brief and build on it rather than add rules.
+
+**r10 = r7 (425 words) + the following, 623 words in all:**
+
+1. A theme-first paragraph: grammar and situation first; then discovery (senses across roots, chains, passages
+   sharing words or staging the same act, scene or stance, partial findings supporting each other); themes
+   emerge from that, not from the familiar reading; a theme is what the words show, not a lesson; a word, image
+   or passage enters where it grounds, expands, complicates or joins a theme; no family walked through for its
+   own sake; rarity or another ayah's chain is no reason to omit an image that works for a theme.
+2. Family images carry their Arabic phrase, and the prose speaks of the word's family, never of what
+   dictionaries say. This fixes r7's author names, r8 Fable's missing Arabic and r9's "sözlük".
+3. No first-person hedging (r7).
+4. One theme per `##` section (r7 Fable's per-root sections).
+5. Every Arabic quotation in the reader tag, never in quotation marks (r8 Opus 1:5).
+6. The ledger reason reads "did no work for a theme".
+
+Dropped from r8 and r9: the exclusion procedure, dictionary joins, ledger rules for map passages, and the ending
+rule.
+
+**Adversarial read.**
+
+- Theme-first risks familiar themes, or lessons, decorated with words. It is countered by "not from the familiar
+  reading" and "not a lesson drawn from them".
+- r7's weak discovery on Opus (7 refs) is countered by the discovery sentence inside the theme paragraph.
+- It names no known case.
+
+The 1:6 prompt is built with the evidence hash unchanged. Opus estimate $1.19.
+

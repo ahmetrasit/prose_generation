@@ -19,6 +19,9 @@ Briefs:
   r9  r8 plus: every Arabic quotation in the reader tag; family images quoted in Arabic; chains judged together;
       dictionary joins explored; exclusion only after trying, never for rarity or plain-meaning mismatch, one
       ledger line per finding; end on what was established, not a summary.
+  r10 r7 plus a theme-first paragraph (user, 2026-09-30): themes lead and words serve them; no family walked
+      through for its own sake; family images quoted in Arabic without dictionary talk; every Arabic quotation in
+      the reader tag; no first-person hedging.
 
 Arms (the assembled-findings slot):
   H   the ayah's HFT records (v9/input/v2/…/02_hft.md) and the surah channel review's subchannels anchored in the
@@ -100,6 +103,10 @@ BRIEFS = {
     "r8": {"write": HERE / "prompts" / "r8" / "write.md", "add": HERE / "prompts" / "r8" / "additions.md",
            "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"],
            "map_from": "r2", "ledger": True},
+    # r10 (user, 2026-09-30): theme-first rewrite after r9 slid back toward a catalogue.
+    "r10": {"write": HERE / "prompts" / "r10" / "write.md", "add": HERE / "prompts" / "r10" / "additions.md",
+            "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"],
+            "map_from": "r2", "ledger": True},
     # r9 (user, 2026-09-30): r8's fixes after the r8 runs on 1:5 and 1:6.
     "r9": {"write": HERE / "prompts" / "r9" / "write.md", "add": HERE / "prompts" / "r9" / "additions.md",
            "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"],
@@ -143,6 +150,7 @@ ARM_EVIDENCE["r6"] = ARM_EVIDENCE["r2"]
 ARM_EVIDENCE["r7"] = ARM_EVIDENCE["r2"]
 ARM_EVIDENCE["r8"] = ARM_EVIDENCE["r2"]
 ARM_EVIDENCE["r9"] = ARM_EVIDENCE["r2"]
+ARM_EVIDENCE["r10"] = ARM_EVIDENCE["r2"]
 _SRC = None
 
 
