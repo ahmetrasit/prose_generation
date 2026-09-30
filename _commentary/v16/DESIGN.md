@@ -746,3 +746,27 @@ Same frozen evidence as Opus r3 and Fable r3.
 - Sol's 43:12–14, 36:74–75, 18:95 and 39:29 are absent. The well and pulley are declined in the ledger ("chains
   that do not run through 1:5's words"), and 2:68 ʿawān is declined as forced.
 
+## Brief r7: a minimal core for Opus (2026-09-30, drafted; not run)
+
+**Why.** The user's best synthesis came from cold Opus with minimal instructions, and r6 on Opus showed that the
+long craft section is not needed. `prompts/r7/write.md` is 425 words against r6's 1,130. It keeps:
+
+- the task and reader;
+- the evidence framing (maps are proposals; "not a catalogue"; no length limit);
+- the guards:
+  - a family image beside the meaning, not in its place, with its provenance;
+  - identity, family and analogy kept distinct, and echo roots are not identity;
+  - a mechanism explained by its work, not flattened into a label;
+  - no invention;
+  - the Turkish loss, once;
+  - other passages introduced for a reader who does not know them;
+  - no source talk, memory to the ledger;
+- one form line (continuous prose in `##` sections; explain, do not dramatize; no lists, no closing recap);
+- format and ledger.
+
+It drops the discovery and theme methodology, openings and closings, the controlling question, the self-check,
+and the Fatiha and chronology rules (chronology is folded into "never invent"). `additions.md` is a one-line
+stub. Frozen evidence as r6 (hashes match); 1:5 DM r7 prompt 70,551 characters, Opus estimate $1.15.
+
+**r6 on Fable 5.1, 1:5 DM (user-approved reference point):** estimate $2.90, running.
+
