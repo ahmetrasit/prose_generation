@@ -1,0 +1,14 @@
+- memory: object-pronoun fronting (iyyāka before verb) conveys restriction; comparison with suffixed na'buduka (Arabic grammar/balagha)
+- memory: hadith qudsi "qasamtu al-salat bayni wa bayna 'abdi", incl. "hadha bayni wa bayna 'abdi wa li-'abdi ma sa'al" and "hadha li-'abdi" (Muslim, Kitab al-Salat)
+- memory: Quran text not supplied, quoted from memory: 26:18 (context), 26:22, 23:47, 7:127 (paraphrase), 7:128, 3:64, 36:60, 36:61, 36:62, 36:71, 36:72, 4:172, 19:93, 3:51, 19:36, 43:64, 6:153, 12:18, 2:45, 5:2, 40:60
+- memory: tar (hinā') smeared on camels to treat mange; pitch sealing a ship's seams
+- memory: muẓāhara from ẓ-h-r "back"
+- not written: echo root ʿ-y-n (eye/spring) for nastaʿīn - withheld echo, not identity; would mislead the reader into a false root link
+- not written: ʿawn B002 ʿawān (middle-aged cow, 2:68) - age stage, no bridge to the ayah or to its hinge position except by forcing
+- not written: ʿawn B003 repeated war, B005 bodily maturity, B006 wild-ass herd, B008 place-name/wine - no function beside the request for help; map chain 2 herd image adds nothing here
+- not written: ʿawn B007, where istaʿāna also means "shaved pubic hair" - same verb form, unrelated sense, cannot contribute
+- not written: ʿ-b-d B009 (not delaying) and B012 (perfume-grinding stone) - fixed expression or isolated sense, no link
+- not written: map chains 8, 9, 13, 14, 15, 16, 19 - they do not run through 1:5's words
+- not written: map chain 11 (ʿabada as firmness, ʿawn as support) - used only as durability within the road/ship image
+- not written: map chain 18 (taʿāwun al-qawm) - the "we" and mutual help are carried by 5:2 instead
+- not written: tahdhib gloss "iyyāka nuṭīʿ" - it would duplicate the taḏallul definition

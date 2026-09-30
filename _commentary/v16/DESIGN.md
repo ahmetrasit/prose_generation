@@ -720,3 +720,29 @@ user's approval.
 generation: "The 'gpt-6.1-sol' model is not supported when using Codex with a ChatGPT account." This machine has
 codex-cli 0.159.0; the ten earlier Astra and Sol runs used 0.159.1. Not retried (no-rerun rule). The started
 marker in `out/1_5/DM.r6.gpt-6.1-sol.high/` blocks another call until the user decides.
+
+**r6 trial, 1:5 DM, Opus 5.5 high (2026-09-30, user-approved; from now on Opus only unless the user says
+otherwise).** $1.23 (estimate $1.16), 46.5k output, 33.4k thinking, 467 s, 2,489 prose words, 6 sections.
+Same frozen evidence as Opus r3 and Fable r3.
+
+- `check.py` runs on this machine: 83 tags, 95% sourced. The four unsourced tags are the constructed form
+  na'buduke, the hadith twice (memory, listed in the ledger) and 26:22 in non-Uthmani spelling.
+- 21 refs outside S1 (Opus r3 4, Fable r3 6, Sol r5 high 37).
+- New and on-axis:
+  - 3:64: "do not take one another as rabbs";
+  - 4:172: istinkāf from being ʿabd;
+  - 19:93: all come to ar-Raḥmān as ʿabd;
+  - 3:51, 19:36 and 43:64: "worship Him; this is a straight path", the 1:5→1:6 hinge;
+  - 12:18: Allāhu l-mustaʿān;
+  - 2:45: help sought through prayer;
+  - 40:60: asking and "yastakbirūna ʿan ʿibādatī", which explains the second iyyāka;
+  - the dictionary join of dīn: «دانه دينا أي أذله واستعبده» (1:4→1:5);
+  - mutaʿabbid, the resisting camel, and ʿabad (wounded pride) as a tension inside the root.
+- Style: opens on the ayah, no staged tableaux ("sahne" once), commentator register.
+- Weaknesses:
+  - two list blocks (a bullet list of 1:1–1:4 roots, a numbered 36:60–62);
+  - a closing recap paragraph;
+  - one containment sentence reads as meta.
+- Sol's 43:12–14, 36:74–75, 18:95 and 39:29 are absent. The well and pulley are declined in the ledger ("chains
+  that do not run through 1:5's words"), and 2:68 ʿawān is declined as forced.
+
