@@ -1209,3 +1209,30 @@ Output in `out/s001/surah.map3.nohft/map.md` (69.2k characters).
 **Step 2 packets** (r10 unchanged, new map without `## Not carried`): 1:6 est $1.19, 1:5 est $1.15. Awaiting
 approval.
 
+## End-of-discovery passage check (2026-09-30, user design)
+
+The agent runs `missing.py` itself, once, when discovery is complete and before it writes its output. It passes
+the Quran refs it will use. The script returns the reciprocal list's strong passages (directional review, cross-
+surah, focus-side "strong") not among them, each with its canonical Arabic and without the list's notes. The full
+list never enters the context.
+
+- **Instruction.** The list is not authoritative and may be incomplete; judge each passage; add only what
+  supports or sharpens; also add any other passage you recall. It lives in the packet header (trusted) as well as
+  in the script's output.
+- **Once only.** A marker file in the call's temp cwd, written only after the answer is ready.
+- **Size.** 46 strong passages for 1:6 (with 7:16); 210 for S1 (with 7:16). "Strong in both directions" would
+  drop 7:16.
+- **Runner.**
+  - `call_opus(allow=…)` enables only `Bash(python3 …/missing.py *)` under `dontAsk` and `--safe-mode`, in a
+    temp cwd.
+  - The output is the text after the last tool call; the text before it is a fallback.
+  - Tool calls and results go to `tool_calls.json`.
+  - `packets.audit()` checks every command run against a strict whole-string pattern.
+  - The estimate includes the tool result: 1:6 writer $1.30, S1 map $3.08.
+- **Code review.** Sonnet, read-only: 9 findings, all fixed; re-review verdict "ready", then 2 nits fixed.
+- **Permission test** (`permtest.py`, Opus, $0.15; `out/permtest/run.log.json`). The allowed command ran. All
+  eight variants were refused with "Permission to use Bash has been denied … don't ask mode": `;`, `&&`, `$( )`,
+  backticks, `>`, `| tee`, newline plus a second command, and a plain other command. No "HACKED" text in any
+  tool output. The model also said it ignored the instructions inside the script's output as untrusted text,
+  which is why the instruction set was added to the packet header.
+

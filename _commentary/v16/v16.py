@@ -472,8 +472,8 @@ def call_opus(text: str, d: Path, model: str = "opus", allow: str | None = None)
             ev = json.loads(line)
         except json.JSONDecodeError:
             continue
-        if ev.get("type") == "assistant":
-            msg = ev.get("message") or {}
+        if ev.get("type") == "assistant" and isinstance(ev.get("message"), dict):
+            msg = ev["message"]
             for c in msg.get("content", []):  # in order: the output is the text after the last tool call
                 if c.get("type") == "tool_use":
                     tool_calls.append({"id": c.get("id"), "input": c.get("input")})
@@ -484,8 +484,8 @@ def call_opus(text: str, d: Path, model: str = "opus", allow: str | None = None)
                     texts.append(c.get("text", ""))
                     if msg.get("id") not in ids:
                         ids.append(msg.get("id"))
-        elif ev.get("type") == "user":
-            for c in (ev.get("message") or {}).get("content", []) or []:
+        elif ev.get("type") == "user" and isinstance(ev.get("message"), dict):
+            for c in ev["message"].get("content", []) or []:
                 if isinstance(c, dict) and c.get("type") == "tool_result" and tool_calls:
                     res = c.get("content")
                     if isinstance(res, list):

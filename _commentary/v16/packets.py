@@ -52,10 +52,15 @@ def audit(d: Path) -> list[str]:
 
 
 def tool_line(target: str) -> str:
+    # The instruction set lives here, in the prompt, as well as in the script's output: the permission test showed
+    # the model treats instructions inside a tool result as untrusted text (out/permtest/run.log.json).
     return (f"When your discovery is complete and before you write your final output, run this command once, "
             f"with every Quran reference outside this surah that your output will use: "
-            f"`{ALLOW} {target} <refs separated by spaces>`. Judge what it returns, then write your final output. "
-            f"Run it only once; no other tool is available.\n\n")
+            f"`{ALLOW} {target} <refs separated by spaces>`. It lists strong passages from an earlier "
+            f"cross-reference list that your refs do not include. That list is not authoritative and may be "
+            f"incomplete: judge each passage yourself, add it only where it supports or sharpens what you are "
+            f"writing, and leave the rest. Also add any other passage you now recall that belongs, whether listed "
+            f"or not. Then write your final output. Run the command only once; no other tool is available.\n\n")
 
 
 def split(text: str) -> tuple[str, list[list[str]]]:
