@@ -8,7 +8,9 @@ Every packet is an earlier saved prompt with named sections swapped, so everythi
 
   python3 -B _commentary/v16/packets.py map [--go]
   python3 -B _commentary/v16/packets.py writer --ayah 1:6 --brief r10 --map out/s001/surah.map3/map.md
-          [--no-labels] [--go]
+          [--no-labels] [--tool] [--go]
+--tool adds the end-of-discovery check (missing.py): one line in the packet header tells the agent to run it
+once before writing, and the call allows that single command and nothing else.
 Without --go it only builds and prints the estimate. Calls follow v16's rules: one call, never rerun, gate $5.
 """
 import argparse
@@ -24,6 +26,15 @@ sys.path.insert(0, str(Path(__file__).parent))
 import v16 as V  # noqa: E402
 
 HEAD = re.compile(r"(?m)^===== (.+?) =====\n")
+MISSING = V.HERE / "missing.py"
+ALLOW = f"python3 {MISSING}"
+
+
+def tool_line(target: str) -> str:
+    return (f"When your discovery is complete and before you write your final output, run this command once, "
+            f"with every Quran reference outside this surah that your output will use: "
+            f"`{ALLOW} {target} <refs separated by spaces>`. Judge what it returns, then write your final output. "
+            f"Run it only once; no other tool is available.\n\n")
 
 
 def split(text: str) -> tuple[str, list[list[str]]]:
@@ -71,10 +82,10 @@ NO_HFT_HEAD = ("channels.md and hft.md (both are earlier readers' proposals: ign
                "channels.md (an earlier reader's proposal: ignore its judgements")
 
 
-def map_packet(brief: str = "map3", hft: bool = True) -> tuple[str, Path]:
+def map_packet(brief: str = "map3", hft: bool = True, tool: bool = False) -> tuple[str, Path]:
     head, secs = split((V.OUT / "s001" / "surah.r2" / "prompt.md").read_text(encoding="utf-8"))
     body = (V.HERE / "prompts" / brief / "surah_map.md").read_text(encoding="utf-8")
-    name = brief if hft else f"{brief}.nohft"
+    name = (brief if hft else f"{brief}.nohft") + (".tool" if tool else "")
     if not hft:
         for a, b in NO_HFT:
             if body.count(a) != 1:
@@ -86,6 +97,8 @@ def map_packet(brief: str = "map3", hft: bool = True) -> tuple[str, Path]:
         secs = [s for s in secs if not s[0].endswith("hft.md")]
     swap(secs, "surah_map.md", f"_commentary/v16/prompts/{brief}/surah_map.md" + ("" if hft else " (adapted)"),
          body)
+    if tool:
+        head = head.rstrip("\n") + "\n\n" + tool_line("S1")
     text = join(head, secs)
     wd = V.WORK / "s001" / f"surah.{name}"
     wd.mkdir(parents=True, exist_ok=True)
@@ -96,15 +109,17 @@ def map_packet(brief: str = "map3", hft: bool = True) -> tuple[str, Path]:
     return text, V.OUT / "s001" / f"surah.{name}"
 
 
-def writer_packet(ref: str, brief: str, map_path: Path, labels: bool) -> tuple[str, Path, str]:
+def writer_packet(ref: str, brief: str, map_path: Path, labels: bool, tool: bool = False) -> tuple[str, Path, str]:
     name = V.sa(ref)[1]
     head, secs = split((V.WORK / name / f"DM.{brief}" / "prompt.md").read_text(encoding="utf-8"))
-    tag = map_path.parent.name.replace("surah.", "") + ("" if labels else ".nolabel")
+    tag = map_path.parent.name.replace("surah.", "") + ("" if labels else ".nolabel") + (".tool" if tool else "")
     swap(secs, "map.md", f"_commentary/v16/{map_path.relative_to(V.HERE)} (without ## Not carried)",
          strip_not_carried(map_path.read_text(encoding="utf-8")))
     if not labels:
         d = [s for s in secs if s[0].endswith("01_dictionary.md")][0]
         d[0], d[1] = d[0] + " (without branch labels)", drop_labels(d[1])
+    if tool:
+        head = head.rstrip("\n") + "\n\n" + tool_line(ref)
     text = join(head, secs)
     wd = V.WORK / name / f"DM.{brief}.{tag}"
     wd.mkdir(parents=True, exist_ok=True)
@@ -114,7 +129,7 @@ def writer_packet(ref: str, brief: str, map_path: Path, labels: bool) -> tuple[s
     return text, V.OUT / name / f"DM.{brief}.{tag}", tag
 
 
-def call(text: str, d: Path, kind: str, row: dict, ledger: bool) -> None:
+def call(text: str, d: Path, kind: str, row: dict, ledger: bool, tool: bool = False) -> None:
     est = V.estimate(text, kind)
     if V.blocked(d):
         raise SystemExit(f"{d}: started or finished before (never rerun)")
@@ -124,7 +139,7 @@ def call(text: str, d: Path, kind: str, row: dict, ledger: bool) -> None:
     d.mkdir(parents=True, exist_ok=True)
     (d / "prompt.md").write_text(text, encoding="utf-8")
     t0 = time.time()
-    obj = V.call_opus(text, d)
+    obj = V.call_opus(text, d, allow=ALLOW if tool else None)
     out = {**row, "model": V.MODELS["opus"][0], "seconds": round(time.time() - t0), "estimate_usd": round(est, 2),
            **V.usage_row(obj, text)}
     result = (obj.get("result") or "").strip()
@@ -152,11 +167,12 @@ def main() -> None:
     ap.add_argument("--map", type=Path)
     ap.add_argument("--no-labels", action="store_true")
     ap.add_argument("--no-hft", action="store_true")
+    ap.add_argument("--tool", action="store_true")
     ap.add_argument("--go", action="store_true")
     a = ap.parse_args()
     if a.cmd == "map":
         brief = a.brief or "map3"
-        text, d = map_packet(brief, not a.no_hft)
+        text, d = map_packet(brief, not a.no_hft, a.tool)
         n_out = 130_000  # r2 map measured 121.8k output; the estimate below also shows v16's standard 80k
         _, w, o = V.MODELS["opus"]
         n_in = V.est_tokens(text)
@@ -164,13 +180,13 @@ def main() -> None:
         print(f"{d.relative_to(V.HERE)}: {len(text):,} chars ~{n_in:,} tokens; est ${V.estimate(text, 'surah'):.2f} "
               f"(80k out), ${realistic:.2f} at {n_out // 1000}k out")
         if a.go:
-            call(text, d, "surah", {"ref": "S1", "arm": "surah", "brief": d.name.replace("surah.", "")}, False)
+            call(text, d, "surah", {"ref": "S1", "arm": "surah", "brief": d.name.replace("surah.", "")}, False, a.tool)
         return
     text, d, tag = writer_packet(a.ayah, a.brief, (V.HERE / a.map) if not a.map.is_absolute() else a.map,
-                                 not a.no_labels)
+                                 not a.no_labels, a.tool)
     print(f"{d.relative_to(V.HERE)}: {len(text):,} chars; est ${V.estimate(text, 'ayah'):.2f}")
     if a.go:
-        call(text, d, "ayah", {"ref": a.ayah, "arm": "DM", "brief": f"{a.brief}.{tag}"}, True)
+        call(text, d, "ayah", {"ref": a.ayah, "arm": "DM", "brief": f"{a.brief}.{tag}"}, True, a.tool)
 
 
 if __name__ == "__main__":

@@ -448,7 +448,7 @@ def call_solmax(text: str, d: Path) -> dict:
     (d / "run.log.json").write_text(json.dumps(obj, ensure_ascii=False) + "\n", encoding="utf-8")
     return obj
 
-def call_opus(text: str, d: Path, model: str = "opus") -> dict:
+def call_opus(text: str, d: Path, model: str = "opus", allow: str | None = None) -> dict:
     """One Opus call. stream-json keeps every assistant message: a long answer that the CLI splits over several
     turns is joined back in order (`--output-format json` returns only the last message; the first S1 surah call
     lost two thirds of its map that way). The raw event stream is kept in run.stream.jsonl. If the stream ends
@@ -456,14 +456,17 @@ def call_opus(text: str, d: Path, model: str = "opus") -> dict:
     (d / "started.json").write_text(json.dumps({"started": time.strftime("%Y-%m-%dT%H:%M:%S"),
                                                 "prompt_sha256": hashlib.sha256(text.encode()).hexdigest()}) + "\n",
                                     encoding="utf-8")
-    cmd = ["claude", "-p", "--model", MODELS[model][0], "--effort", "high", "--tools", "",
+    # allow: one Bash command prefix the model may run (the end-of-discovery check, missing.py); every other
+    # command is refused by --permission-mode dontAsk, and no other tool exists.
+    tools = ["--tools", "Bash", "--allowedTools", f"Bash({allow} *)"] if allow else ["--tools", ""]
+    cmd = ["claude", "-p", "--model", MODELS[model][0], "--effort", "high", *tools,
            "--output-format", "stream-json", "--verbose", "--no-session-persistence", "--safe-mode",
            "--permission-mode", "dontAsk", "--system-prompt", SYSTEM]
     env = {**os.environ, "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "128000"}
     with tempfile.TemporaryDirectory(prefix="v16_opus_") as cwd:
         p = subprocess.run(cmd, input=text, capture_output=True, text=True, cwd=cwd, env=env)
     (d / "run.stream.jsonl").write_text(p.stdout or "", encoding="utf-8")
-    texts, ids, final = [], [], {}
+    texts, ids, final, tool_calls = [], [], {}, []
     for line in (p.stdout or "").splitlines():
         try:
             ev = json.loads(line)
@@ -471,13 +474,24 @@ def call_opus(text: str, d: Path, model: str = "opus") -> dict:
             continue
         if ev.get("type") == "assistant":
             msg = ev.get("message") or {}
-            parts = [c.get("text", "") for c in msg.get("content", []) if c.get("type") == "text"]
-            if parts:
-                texts += parts
-                if msg.get("id") not in ids:
-                    ids.append(msg.get("id"))
+            for c in msg.get("content", []):  # in order: the output is the text after the last tool call
+                if c.get("type") == "tool_use":
+                    tool_calls.append({"input": c.get("input")})
+                    texts, ids = [], []
+                elif c.get("type") == "text" and c.get("text"):
+                    texts.append(c["text"])
+                    if msg.get("id") not in ids:
+                        ids.append(msg.get("id"))
+        elif ev.get("type") == "user":
+            for c in (ev.get("message") or {}).get("content", []) or []:
+                if isinstance(c, dict) and c.get("type") == "tool_result" and tool_calls:
+                    res = c.get("content")
+                    tool_calls[-1]["result"] = res if isinstance(res, str) else json.dumps(res, ensure_ascii=False)
+                    tool_calls[-1]["is_error"] = c.get("is_error", False)
         elif ev.get("type") == "result":
             final = ev
+    if tool_calls:
+        (d / "tool_calls.json").write_text(json.dumps(tool_calls, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     joined = "".join(texts)
     if final:
         final["result_last_message"] = final.get("result")
@@ -485,6 +499,7 @@ def call_opus(text: str, d: Path, model: str = "opus") -> dict:
     elif joined:
         final = {"result": joined, "partial": True, "is_error": True, "stderr_tail": p.stderr[-3000:]}
     final["text_message_ids"] = ids
+    final["tool_calls"] = len(tool_calls)
     (d / "run.log.json").write_text(json.dumps(final or {"error": p.stderr[-3000:]}, ensure_ascii=False) + "\n",
                                     encoding="utf-8")
     return final
@@ -497,7 +512,7 @@ def usage_row(obj: dict, text: str) -> dict:
             "cost_usd": obj.get("total_cost_usd"), "output_tokens": usage.get("output_tokens"),
             "thinking_tokens": (usage.get("output_tokens_details") or {}).get("thinking_tokens"),
             "cache_write": usage.get("cache_creation_input_tokens"), "num_turns": obj.get("num_turns"),
-            "text_messages": len(obj.get("text_message_ids") or []),
+            "text_messages": len(obj.get("text_message_ids") or []), "tool_calls": obj.get("tool_calls", 0),
             "words": len(result.split()) if result else 0, "prompt_chars": len(text),
             "prompt_sha256": hashlib.sha256(text.encode()).hexdigest(), "cli": cli_version()}
 
