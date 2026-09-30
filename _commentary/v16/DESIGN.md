@@ -1,6 +1,8 @@
 # Commentary v16
 
-Current ayah brief: **r4**, discovery before themes and full coherent development, described at the end.
+Current ayah brief: **r4** (runner default), discovery before themes and full coherent development. r5 adds
+grounding for contributing passages; r6 (built, not run) replaces the cinematic register with a commentator's.
+Both are described at the end.
 Earlier sections preserve the design and results of r1-r3.
 
 2026-09-29. One permitted Opus reading per ayah: what already writes coherent prose, plus assembled findings and a
@@ -639,4 +641,53 @@ Astra default and historical output paths. The new output is isolated in
 python3 -B _commentary/v16/run_astra.py --brief r5 --arm DM --ayah 1:5 --model gpt-6.1-sol --effort max --run
 ```
 
-GPT-6.1 status: generation in progress.
+The two GPT-6.1 Sol calls on 1:5 (r5 DM, high and max) and one on 29:38 (r3 H, high) completed:
+
+| ayah | brief | effort | prose words | elapsed | output tokens | reasoning tokens | format check |
+|---|---|---|---:|---|---:|---:|---|
+| 1:5 | r5 DM | high | 2,537 | 12m 49s | 17,400 | 10,876 | ok; 9 exact tags |
+| 1:5 | r5 DM | max | 3,134 | 28m 41s | 35,832 | 27,861 | error: malformed tag, line 51 (المعبدة السفينة المقيرة outside the tag) |
+| 29:38 | r3 H | high | 892 | 4m 55s | 7,690 | 5,178 | ok; 9 exact tags |
+
+29:38 Sol keeps the eye film (sebel) beside the spider's house (29:41).
+
+## Brief r6: a commentator, not a storyteller (2026-09-30)
+
+**User's read of the r5 prose (Astra and Sol):** close to the North Star in substance, but the style is too
+fictional.
+
+**My diagnosis** (agreed by the user). The cause is r3's filmmaker's-eye paragraph, which GPT follows more
+literally than Opus did:
+
+- Sections open on a present-tense tableau with no speaker, not on the ayah: 7 of 8 sections in 1:6 Astra r5
+  ("Asa, onu tutan kişinin önündedir." "Kuyu suyla doludur."), 6 of 8 in 1:5 Sol max.
+- "Let a dictionary phrase enter as something seen or heard in the scene" plus the ban on source talk hides
+  provenance. An attested sense (uʿbida bihi) reads as narration ("Bir yolcu, bineği yorulduğu için yolda kalır").
+- "End a section on an image that carries into the next" gives aphoristic closers ("Duvar hâlâ duvardır.").
+- r4's "develop consequences" with no length limit turns themes into lessons: 1:6 into 4:5 and 6:151, 1:5 into
+  Dhū al-Qarnayn's teamwork and 3:159.
+- Under the film rule, r5's introduced passages become retold stories.
+- "sahne" is 2.3–3.3 per 1,000 words in GPT r5, 0–0.8 in Opus r3. Opus r3 had the same paragraph, but anchored its
+  openings in the real act of recitation and named the source in the next sentence.
+
+**r6** (`prompts/r6/`) keeps r4's discovery and r5's grounding paragraph. It changes only the style passages:
+
+- The filmmaker paragraph is replaced by a commentator's register:
+  - vividness from exact material detail, never from staging;
+  - each section opens on the ayah's words or a Quran passage;
+  - no present-tense tableaux of unnamed people, animals, objects or places;
+  - no attested sense narrated as an event;
+  - a family image is attributed to its word in the sentence where it enters, and only then developed;
+  - a passage is introduced as far as the connection needs, not retold;
+  - no aphoristic section endings;
+  - no lesson beyond what the ayah or passage draws.
+- "Each section as a scene" becomes "around a thesis", in write.md and additions.md.
+- "Inside the scene" becomes "in the sentence where it enters".
+- The final check asks whether the reader can always tell the ayah, a family image, another passage and the
+  writer's inference apart.
+
+No word or section caps. The brief names no known case.
+
+**Built, not run.** `run_astra.py --brief r6` built `work/{1_5,1_6}/DM.r6/` and `work/29_38/H.r6/` from the frozen r3
+evidence. The evidence hashes match r5, and the prompts differ from r5 only in the two briefs. A trial needs the
+user's approval.
