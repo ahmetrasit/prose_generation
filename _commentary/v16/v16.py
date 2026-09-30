@@ -83,7 +83,7 @@ BRIEFS = {
 }
 LEDGER_MARK = "=== LEDGER ==="
 # model key -> (model id, cache-write $/token (1h = 2x input), output $/token); opus is the default and has no suffix
-MODELS = {"opus": ("claude-opus-5-5", 8e-6, 20e-6), "fable": ("claude-fable-5-1", 20e-6, 50e-6)}
+MODELS = {"opus": ("claude-opus-5-5", 8e-6, 20e-6), "fable": ("claude-fable-5-1", 20e-6, 50e-6), "solmax": ("gpt-6-sol", 0.0, 0.0)}
 R1_V16_DICT = {"D", "VD", "DM"}
 V5_RUN = {1: "s001-fresh-20260910", 100: "s100-regular-20260911"}
 LANES = ["micro", "macro", "global"]
@@ -385,6 +385,25 @@ def blocked(d: Path) -> bool:
     return (d / "run.log.json").exists() or (d / "started.json").exists()
 
 
+def call_solmax(text: str, d: Path) -> dict:
+    """Run GPT-6 Sol at max reasoning through the Codex subscription, isolated and read-only."""
+    (d / "started.json").write_text(json.dumps({"started": time.strftime("%Y-%m-%dT%H:%M:%S"),
+                                                 "prompt_sha256": hashlib.sha256(text.encode()).hexdigest()}) + "\n",
+                                    encoding="utf-8")
+    cmd = ["codex", "exec", "-m", "gpt-6-sol", "-c", 'model_reasoning_effort="max"',
+           "--disable", "skill_search", "--skip-git-repo-check", "--ephemeral", "-s", "read-only", "--json"]
+    with tempfile.TemporaryDirectory(prefix="v16_solmax_") as cwd:
+        last = Path(cwd) / "last.txt"
+        p = subprocess.run(cmd + ["-o", str(last), "-C", cwd, "-"], input=text,
+                           capture_output=True, text=True, timeout=5400)
+        result = last.read_text(encoding="utf-8") if last.exists() else ""
+    (d / "run.stream.jsonl").write_text(p.stdout or "", encoding="utf-8")
+    obj = {"result": result, "returncode": p.returncode, "stderr": (p.stderr or "")[-3000:],
+           "words": len(result.split()) if result else 0, "prompt_chars": len(text),
+           "prompt_sha256": hashlib.sha256(text.encode()).hexdigest(), "cli": "codex"}
+    (d / "run.log.json").write_text(json.dumps(obj, ensure_ascii=False) + "\n", encoding="utf-8")
+    return obj
+
 def call_opus(text: str, d: Path, model: str = "opus") -> dict:
     """One Opus call. stream-json keeps every assistant message: a long answer that the CLI splits over several
     turns is joined back in order (`--output-format json` returns only the last message; the first S1 surah call
@@ -446,7 +465,7 @@ def run_one(ref: str, arm: str, brief: str, text: str, est: float, model: str = 
     d.mkdir(parents=True, exist_ok=True)
     (d / "prompt.md").write_text(text, encoding="utf-8")
     t0 = time.time()
-    obj = call_opus(text, d, model)
+    obj = call_solmax(text, d) if model == "solmax" else call_opus(text, d, model)
     row = {"ref": ref, "arm": arm, "brief": brief, "model": MODELS[model][0], "seconds": round(time.time() - t0),
            "estimate_usd": round(est, 2),
            **usage_row(obj, text)}
