@@ -1,107 +1,92 @@
 Focus: 29:38. Follow the brief below (write.md) and its additions (additions.md) exactly. The evidence is context.md (the ayah, its words and anchor translation, the Fatiha, the whole surah) and 01_dictionary.md (every attested branch of every root of the ayah's words, with the classical dictionaries' source phrases) and 02_hft.md (earlier activation hypotheses for this ayah in its surah) and channels.md (the surah's channel-review subchannels anchored in this ayah; both are earlier readers' proposals: ignore their judgements (grades, strength or confidence labels, reading types, statements of what a reading may or may not do) and make your own) and your own knowledge of Arabic and the Quran. Return the reader's prose and then the ledger, as write.md specifies.
 
 ===== _commentary/v16/prompts/r6/write.md =====
-You are doing interpretive discovery. Read the evidence together, discover what
-becomes understandable only through its relationships, develop those discoveries,
-then write the Turkish reading of the focus Quranic ayah. Earlier findings and
-maps do not replace this work: what their members reveal together is yours to
-find. The reader knows
-neither Arabic nor how lexical families and associations work. Let the reader
-see and hear what the ayah makes possible. Work from the supplied evidence and
-your own knowledge of Arabic and the Quran. Do not use tools, delegate, browse
-or inspect files. This is an independent interpretation, not a catalogue, a
+You are doing interpretive discovery, then writing the Turkish reading of the
+focus Quranic ayah for a reader who knows neither Arabic nor how lexical
+families and associations work. The reader already has the plain meaning; it
+grounds the reading. Your work reveals the supported latent meanings and
+resonances that a translation cannot give, and lets the reader see and hear
+what the ayah makes possible. Work from the supplied evidence and your own
+knowledge of Arabic and the Quran. Do not use tools, delegate, browse or
+inspect files. This is an independent interpretation, not a catalogue, a
 translation expanded with footnotes, or a report on an analytical workflow.
 
-The reader already has the plain meaning; it grounds the reading. Your work
-reveals the supported latent meanings and resonances that a translation cannot
-give. Explore the attested senses beside one another, within and across roots,
-and through the ayah, its neighbours, its surah and the Quran. A partial finding
-may acquire its missing support through another finding. Discover these
-relationships before settling on the major themes or a controlling question.
+First understand the focus in its immediate grammar and situation. Then explore
+the attested senses beside one another, within and across roots, and through
+the ayah, its neighbours, its surah and the Quran. A partial finding may
+acquire its missing support through another finding. Readings and maps
+supplied by earlier readers are proposals, not authorities: a supplied chain is
+a starting point, and what its members reveal together here, and with the other
+chains, is yours to find; correct them where the original sources require it.
 Surprising results are welcome when the evidence supports them. Rigour comes
 from exact evidence and what it establishes, not from retreating to familiar
-interpretations. Keep root identity, attested family images and interpretive
-connections distinct while developing their consequences plainly.
+interpretations.
 
-Let the major themes emerge from those discoveries. Develop every supported
-finding that builds, expands, complicates or connects them: a mechanism, material
-detail, contrast, consequence or Quranic connection can deepen a theme without
-becoming a separate section. Let consequential findings expand or reshape the
-themes, or establish another major theme; an initial outline is revisable.
-Do not force unrelated findings together. Leave a finding outside the prose
-only when, after exploring its relationships, it cannot build or expand a major
-theme or connect themes, or its evidence does not hold. Record that reason
-briefly in the ledger after writing. There is no target number of themes or
-findings, no required proportion to omit and no length limit. Length and failure
-to fit an initial outline are not reasons for exclusion. Each finding earns space
-through what it contributes; repetition adds nothing.
+Let the major themes emerge from these discoveries; any outline stays
+revisable. Develop every supported finding that builds, expands, complicates or
+connects them: a mechanism, material detail, contrast or Quranic connection can
+deepen a theme without becoming a separate section, and a consequential finding
+may reshape a theme or establish another. Do not force unrelated findings
+together. Leave a finding out only when, after exploring its relationships, it
+cannot contribute or its evidence does not hold, and give the reason in the
+ledger. There is no target number of themes or findings, no proportion to omit
+and no length limit; length is not a reason for exclusion, and repetition adds
+nothing.
 
-Write as a commentator who makes the reader see, not as a storyteller. The
-reading explains the text; its vividness comes from exact material detail in
-the evidence (what an object is made of, how a mechanism moves, what a body
-does), never from staging. Open each section on the ayah's own words or on a
-Quran passage, with a question or a surprising detail the text itself raises.
-Do not open on a present-tense tableau of an unnamed person, animal, object or
-place, and do not narrate an attested sense as an event happening before the
-reader: a family image enters attributed to its word in the sentence where it
-first appears, and only then is developed concretely. A Quran passage is
-introduced as far as the connection needs, not retold as a story. End a
+Let a concrete detail make the next detail necessary: what changes, through
+what operation, with what consequence for how the ayah is read? Sustain an
+image's material specificity until that consequence is visible. Do not flatten
+a concrete object, mechanism, pressure or obstruction into a generic label such
+as care, connection, life or direction before explaining its work.
+
+Write `##` sections, each built on a thesis (what it reveals) in which several
+of the ayah's words work together with its neighbours, its surah and the Quran;
+never one section per word or per root, never a paragraph per item. A supplied
+chain running through this ayah is heard as one image. When recalling a chain
+opened by an earlier ayah, give only the grounding needed to understand what
+this ayah adds. A controlling question may open the reading and return at the
+end, changed by what the reading found. No notes section at the end.
+
+Write as a commentator who makes the reader see, not as a storyteller.
+Vividness comes from exact material detail in the evidence, never from staging.
+Open a section on the ayah's words, a Quran passage, or an attested detail
+named as such, with a question or surprise the evidence raises. Never open on a
+present-tense tableau of an unnamed person, animal, object or place, and never
+narrate an attested sense as an event happening before the reader. End a
 section on what it has established, not on an aphorism. Draw consequences for
-conduct only as far as the ayah or the cited passage draws them; add no lesson
-of your own. Never invent a scene, a detail, a source or a sense. Keep the
-register warm and direct; avoid lecture phrasing such as "sözlükler şöyle der"
-at every step.
+conduct only as far as the ayah or the cited passage draws them. Keep the
+register warm and direct.
 
-Synthesis, not catalogue. Build each section around a thesis in which several of
-the ayah's words work together, never one section per word or per root. The opening
-question or image grows out of the discovered themes and returns at the end,
-changed by their development. It must accommodate those themes; revise it if
-it sidelines a consequential discovery. A supplied chain is a starting point:
-discover what it reveals here and how it interacts with the other chains.
-When recalling a chain opened by an earlier ayah, give the grounding needed to
-understand what this ayah adds, without repeating an earlier explanation.
-
-First understand the focus in its immediate grammar and scene. Then develop
-the consequential resonances into connected readings. Readings and maps
-supplied by earlier readers are proposals, not authorities: correct them when
-the original sources require correction. Let a concrete detail make the next
-detail necessary: what changes, through what operation, with what consequence
-for the focus? Sustain an image's material specificity long enough for that
-consequence to become visible. Do not flatten a concrete object, mechanism,
-pressure or obstruction into a generic label such as care, connection, life or
-direction before explaining its work.
+Show where an image comes from in the sentence where it enters: the word, its
+attested family image, the detail it connects to, then the reading. Attribute
+the image to the word's family, not to "the dictionaries". Family images are
+heard beside the word's meaning in this ayah, not in place of it; make that
+clear once, where the first such image enters. Keep root identity, attested
+family images and interpretive connections distinct; a split mapping marked as
+an echo does not establish root identity. Never invent a scene, a detail, a
+source, a vowel, an etymology, a lexical meaning, a historical fact or a
+citation.
 
 Where a key word of the ayah lives in Turkish as a loanword whose meaning has
 narrowed, shifted or been lost, let the reader feel what the Turkish word no
 longer carries, once, where it matters to the reading.
 
 Quran usage can load a word with an existing scene beyond its dictionary
-definition. Read the actual passages, including nearby ayat. Let other ayat
-supply indispensable stages, contrasts and consequences, rather than gathering
+definition. Read the actual passages, including nearby ayat, and let them
+supply indispensable stages, contrasts and consequences rather than gathering
 references after an already finished claim. Distinguish same word from same
-root, and textual repetition from interpretive analogy. Do not impose a
-formulaic Fatiha paragraph. Do not infer the chronology of revelation from
-surah order.
+root, and textual repetition from interpretive analogy. Assume the reader does
+not know a passage you use: introduce the speaker or actor, the situation and
+the wording the connection needs, keeping any verbal detail that does
+interpretive work, without retelling it as a story. Bring in the Fatiha only
+where it connects. Do not infer the chronology of revelation from surah order.
 
-When another Quranic passage contributes to the reading, assume the reader does
-not know it. Introduce the speaker or actor, the relevant situation, and the
-wording needed to understand the connection, within the developing prose.
-Preserve any concrete verbal detail that does interpretive work.
-
-Show the non-Arabic reader where an image comes from, in the sentence where it
-enters: the word, its attested family image, the detail it connects to, then
-the reading. Family images are heard beside the word's meaning in this ayah, not in
-place of it. Make that clear once, where the first such image enters;
-afterwards let the images work without repeating the qualification. A split
-mapping marked as an echo does not establish root identity. Do not invent
-sources, vowels, etymologies, lexical meanings, historical facts or citations.
-
-The prose never talks about its own sources or process: no "bildiğim kadarıyla",
-"hafızadan", "sözlükte bulunmayan", "bu bir benzetmedir" repeated, no internal
-labels, branch IDs, confidence ratings or workflow language, and no count of
-converging sources. Where a sense, phrase, reading or passage comes from your
-memory rather than from the supplied dictionary or text, write it plainly in the
-prose and list it in the ledger.
+The prose never talks about its own sources or process: no "bildiğim
+kadarıyla", "hafızadan", "sözlükte bulunmayan", no internal labels, branch
+IDs, confidence ratings or workflow language, and no count of converging
+sources. Where a sense, phrase, reading or passage comes from your memory
+rather than from the supplied dictionary or text, write it plainly in the prose
+and list it in the ledger.
 
 Format Arabic in the established reader tag:
 {ar:exact Arabic, tr:readable Turkish transliteration, gloss:Turkish meaning}
@@ -111,37 +96,24 @@ normal prose, never inside backticks. Cite Quran passages with exact refs, e.g.
 text. Transliteration and gloss explain what is being discussed: the ayah's word
 by its meaning here, a family image by that image.
 
-Before returning, read as someone encountering these relations for the first
-time: is the reader pulled from one discovery to the next, and can that person
-reread the focus with a changed understanding? Can the reader always tell the
-ayah, an attested family image, another passage and your own inference apart?
+Before returning, read as someone meeting these relations for the first time:
+can that person follow every step, tell the ayah, a family image, another
+passage and your own inference apart, and reread the focus with a changed
+understanding? Would the argument stand unchanged without the latent and
+intertextual discoveries? If so, develop what they change in the reading.
 Remove inventories, staged tableaux, sermons, repeated qualifications and
-restatements. Have the major discoveries shaped the argument, and have
-supporting findings developed them? Would the argument remain unchanged without
-the latent and intertextual discoveries? If so, develop their consequences
-rather than treating them as decoration. Reconsider omissions justified only
-by an initial outline or a desire to keep the reading short.
+restatements; reconsider omissions made only to keep the reading short.
 
 Output: the reader's prose in Markdown; then a line containing only
 === LEDGER ===
 then the ledger, in plain English, one line per item:
 - memory: <what came from memory> (<ref or source you recalled>)
-- not written: <finding, chain or passage you considered> - <why it could not build, expand or connect a major theme, or where its evidence failed>
+- not written: <finding, chain or passage you considered> - <why it could not contribute, or where its evidence failed>
 The ledger is for the editor, never shown to the reader. Keep it short.
 
 
 ===== _commentary/v16/prompts/r6/additions.md =====
-These additions take precedence over write.md where the two differ.
-
-1. Discover and integrate: major themes emerge from the findings read together. Develop every supported finding
-   that builds, expands, complicates or connects those themes. No target count or omission quota. No ledger in
-   the prose, no paragraph per item, no word-by-word walk.
-2. `##` sections, each built on a thesis (what it reveals), in which the ayah's words, its surah and
-   neighbours, and the Quran and the Fatiha work together. Supporting findings develop the themes within their
-   sections, with the space their contribution needs. A supplied chain running through this ayah is heard as
-   one image; explore how it connects with the others.
-3. No notes section at the end of the prose. After exploring relationships and revising themes as needed, record
-   remaining findings in the separate ledger with why they could not contribute, or where their evidence failed.
+No additions: write.md is the whole brief.
 
 
 ===== _commentary/v16/work/29_38/H.r3/context.md =====

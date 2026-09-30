@@ -688,6 +688,30 @@ literally than Opus did:
 
 No word or section caps. The brief names no known case.
 
+**Cleanup (user-approved, 2026-09-30).** An audit of the draft found four conflicts:
+
+- additions.md asked for "the Fatiha" in every section while write.md forbade a formulaic Fatiha paragraph; 29:38
+  Astra r5 closes on a 1:6/1:5 section.
+- Two opening rules. The leftover "opening image returns at the end" rule produced bookend closings.
+- "Develop their consequences" was undefined, and GPT read it as lessons.
+- "Avoid 'sözlükler şöyle der'" can be read against attribution.
+
+It also found rules repeated 3–5 times: the revisable outline, chains as proposals, not a catalogue, provenance,
+introducing passages, no invention.
+
+**Fixes in r6:**
+
+- the Fatiha only where it connects;
+- one opening rule (the ayah's words, a passage, or an attested detail named as such);
+- a controlling question may return at the end, but no bookended image;
+- consequence means "for how the ayah is read";
+- images are attributed to the word's family, not to "the dictionaries";
+- each rule is said once;
+- additions.md is folded into write.md and now reads "No additions: write.md is the whole brief." The runner's
+  two-file structure is unchanged.
+
+Content and discovery rules are unchanged. r5's two files total 1,408 words; r6 has 1,137 (−19%).
+
 **Built, not run.** `run_astra.py --brief r6` built `work/{1_5,1_6}/DM.r6/` and `work/29_38/H.r6/` from the frozen r3
 evidence. The evidence hashes match r5, and the prompts differ from r5 only in the two briefs. A trial needs the
 user's approval.
