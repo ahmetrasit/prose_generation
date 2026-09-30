@@ -22,6 +22,9 @@ Briefs:
   r10 r7 plus a theme-first paragraph (user, 2026-09-30): themes lead and words serve them; no family walked
       through for its own sake; family images quoted in Arabic without dictionary talk; every Arabic quotation in
       the reader tag; no first-person hedging.
+  r10_1 r10 with the adversarial review's three replacements (REVIEW_r7_r10.md): judge senses by their work, not
+      their branch; chains another ayah completes can found a theme, earlier chains recalled briefly; usage
+      reported as "… denir", the family never a speaker; ledger states what an omission would have shown.
 
 Arms (the assembled-findings slot):
   H   the ayah's HFT records (v9/input/v2/…/02_hft.md) and the surah channel review's subchannels anchored in the
@@ -103,6 +106,10 @@ BRIEFS = {
     "r8": {"write": HERE / "prompts" / "r8" / "write.md", "add": HERE / "prompts" / "r8" / "additions.md",
            "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"],
            "map_from": "r2", "ledger": True},
+    # r10_1 (2026-09-30): the adversarial review's replacements; tested only after the map3 test (REVIEW step 4).
+    "r10_1": {"write": HERE / "prompts" / "r10_1" / "write.md", "add": HERE / "prompts" / "r10_1" / "additions.md",
+              "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"],
+              "map_from": "r2", "ledger": True},
     # r10 (user, 2026-09-30): theme-first rewrite after r9 slid back toward a catalogue.
     "r10": {"write": HERE / "prompts" / "r10" / "write.md", "add": HERE / "prompts" / "r10" / "additions.md",
             "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"],
@@ -151,6 +158,7 @@ ARM_EVIDENCE["r7"] = ARM_EVIDENCE["r2"]
 ARM_EVIDENCE["r8"] = ARM_EVIDENCE["r2"]
 ARM_EVIDENCE["r9"] = ARM_EVIDENCE["r2"]
 ARM_EVIDENCE["r10"] = ARM_EVIDENCE["r2"]
+ARM_EVIDENCE["r10_1"] = ARM_EVIDENCE["r2"]
 _SRC = None
 
 

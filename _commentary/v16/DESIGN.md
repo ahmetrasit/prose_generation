@@ -1122,3 +1122,52 @@ $1.30 (estimate $1.19), 48.6k output, 32.2k thinking, 497 s. Same map and eviden
 
 **Lost from r9:** 2:20 (qāmū in the dark), 47:17, 28:22, «ملك الدابة قوائمها وهاديها», 2:255.
 
+## Step 0 of REVIEW_r7_r10.md (2026-09-30, user-approved; no model calls)
+
+- **`scorecard.py`.** A fixed, mechanical scorecard. Columns: words; sections; paragraphs with 3+ tags; tags and
+  share sourced; dictionary tags per 1k; sentences opening "Aile…"; "sözlük"; "denir"; refs outside the surah;
+  Arabic outside tags; Latin letters inside `ar:`; unsourced; ledger "not written" lines; probes. The probes are
+  1:5 Iblīs's refusal, 1:6 well/pulley, well water and 7:16, and 1:7 crossbeam. They are read as probes, never
+  tuned for, and never named in briefs.
+- **`scorecard.py --diff`.** A map-use diff: for each map chain with a member in the reading's ayah, which of
+  this ayah's members were quoted (from check.json's cited branches), how many of other ayat's members were
+  quoted, and which listed passages were used. This replaces writer-side accounting of the map.
+- **`packets.py`.** Controlled packets:
+  - `map`: the saved r2 map prompt with only the brief swapped (37 changed lines; text, dictionary, channels and
+    HFT byte-identical);
+  - `writer`: a saved writer prompt with the map section replaced by a new map with `## Not carried` stripped,
+    optionally with the dictionary's branch labels dropped (`--no-labels`; per-sense glosses and phrases kept).
+  - Test builds on the r2 map: 1:6 r10 prompt 76,438 → 66,680 characters stripped, 65,023 without labels.
+- **`prompts/map3/surah_map.md`** (716 words; r2 is 585). It is r2 plus the reviewer's lines:
+  - "a chain may join a sense and its reversal";
+  - [fixed expression] as the only label, and a rejected source phrase flagged by itself;
+  - Quran passages with speaker, situation and scene-opening ayah;
+  - `## Interactions`;
+  - `## Ayat` naming each chain's whole scene, without the ownership verbs;
+  - Not carried one short line per item.
+  - My earlier map_r3 draft was removed.
+- **`prompts/r10_1/write.md`** (643 words). r10 with the reviewer's three replacements, and the GPT-only "not a
+  lesson" line cut. Frozen prompts built for 1:5 and 1:6. The 1:5 r10 frozen prompt was built too, for step 2.
+
+**Baseline scorecard** (current map):
+
+| run | words | paras 3+ tags | dict tags /1k | Aile openings | sözlük | denir | refs | Arabic outside tags | Latin in ar | probes |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| 1:5 r6 | 2,489 | 12/39 | 11.2 | 4 | 0 | 3 | 17 | 2 | 0 | Iblīs - |
+| 1:5 r7 | 1,843 | 7/22 | 13.6 | 0 | 8 | 1 | 7 | 0 | 0 | Iblīs - |
+| 1:5 r8 | 2,150 | 3/23 | 6.5 | 12 | 0 | 0 | 20 | 18 | 0 | Iblīs - |
+| 1:6 r8 | 2,770 | 2/46 | 5.8 | 5 | 0 | 13 | 25 | 0 | 0 | pulley -, 7:16 Y |
+| 1:6 r9 | 3,868 | 14/35 | 14.5 | 1 | 9 | 4 | 21 | 0 | 0 | pulley Y, 7:16 Y |
+| 1:6 r10 | 3,186 | 13/38 | 14.1 | 15 | 0 | 4 | 23 | 0 | 1 | pulley -, 7:16 Y |
+
+**Map-use diff for 1:6 r10:** chain 9's 1:6 member B012 is not used, 0/3 of its other members, and neither
+28:23 nor 22:45. Chain 1's passages 16:9 and 16:16 are not used; 6:153, 20:10, 36:61 and 7:16 are.
+
+**Step 1 cost.**
+
+- The standard estimate for the map3 call is $3.51. It assumes 80k output.
+- The r2 map measured 121.8k output ($4.24, +21%).
+- At 122k output the formula gives $4.35. At 130k (three turns) it gives $5.46.
+- The new brief adds Interactions and scene lines but shortens Not carried.
+- Awaiting the user's decision.
+

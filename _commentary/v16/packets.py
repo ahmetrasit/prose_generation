@@ -1,0 +1,149 @@
+#!/usr/bin/env python3
+"""Controlled packets for the map3 test (2026-09-30; see REVIEW_r7_r10.md, steps 0-3).
+
+Every packet is an earlier saved prompt with named sections swapped, so everything else stays byte-identical:
+  map     the S1 map call: out/s001/surah.r2/prompt.md with only the brief replaced (prompts/map3/surah_map.md)
+  writer  a writer call: work/<S_A>/DM.<brief>/prompt.md (frozen r3 evidence) with the map section replaced by a
+          new map without its `## Not carried` section, and optionally the dictionary without branch labels
+
+  python3 -B _commentary/v16/packets.py map [--go]
+  python3 -B _commentary/v16/packets.py writer --ayah 1:6 --brief r10 --map out/s001/surah.map3/map.md
+          [--no-labels] [--go]
+Without --go it only builds and prints the estimate. Calls follow v16's rules: one call, never rerun, gate $5.
+"""
+import argparse
+import hashlib
+import json
+import re
+import subprocess
+import sys
+import time
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+import v16 as V  # noqa: E402
+
+HEAD = re.compile(r"(?m)^===== (.+?) =====\n")
+
+
+def split(text: str) -> tuple[str, list[list[str]]]:
+    parts = HEAD.split(text)
+    return parts[0], [[p, b] for p, b in zip(parts[1::2], parts[2::2])]
+
+
+def join(head: str, secs: list[list[str]]) -> str:
+    return head + "".join(f"===== {p} =====\n{b}" for p, b in secs)
+
+
+def swap(secs: list[list[str]], suffix: str, path: str, body: str) -> None:
+    hits = [s for s in secs if s[0].endswith(suffix)]
+    if len(hits) != 1:
+        raise SystemExit(f"expected one section ending {suffix}, got {len(hits)}")
+    hits[0][0], hits[0][1] = path, body if body.endswith("\n\n") else body.rstrip("\n") + "\n\n"
+
+
+def strip_not_carried(map_text: str) -> str:
+    return re.split(r"(?m)^## Not carried\b", map_text)[0].rstrip() + "\n"
+
+
+def drop_labels(dict_text: str) -> str:
+    """`- **B012** label — gloss · gloss` becomes `- **B012** gloss · gloss` (per-sense glosses and phrases kept)."""
+    return re.sub(r"(?m)^(- \*\*B\d+\*\*) [^\n—]*? — ", r"\1 ", dict_text)
+
+
+def sha(t: str) -> str:
+    return hashlib.sha256(t.encode()).hexdigest()
+
+
+def map_packet(brief: str = "map3") -> tuple[str, Path]:
+    head, secs = split((V.OUT / "s001" / "surah.r2" / "prompt.md").read_text(encoding="utf-8"))
+    bpath = V.HERE / "prompts" / brief / "surah_map.md"
+    swap(secs, "surah_map.md", f"_commentary/v16/prompts/{brief}/surah_map.md", bpath.read_text(encoding="utf-8"))
+    text = join(head, secs)
+    wd = V.WORK / "s001" / f"surah.{brief}"
+    wd.mkdir(parents=True, exist_ok=True)
+    (wd / "prompt.md").write_text(text, encoding="utf-8")
+    json.dump({"brief": brief, "source_prompt": "out/s001/surah.r2/prompt.md", "prompt_sha256": sha(text),
+               "evidence_sha256": sha("".join(b for p, b in secs if not p.endswith("surah_map.md")))},
+              (wd / "packet.json").open("w"), indent=1)
+    return text, V.OUT / "s001" / f"surah.{brief}"
+
+
+def writer_packet(ref: str, brief: str, map_path: Path, labels: bool) -> tuple[str, Path, str]:
+    name = V.sa(ref)[1]
+    head, secs = split((V.WORK / name / f"DM.{brief}" / "prompt.md").read_text(encoding="utf-8"))
+    tag = map_path.parent.name.replace("surah.", "") + ("" if labels else ".nolabel")
+    swap(secs, "map.md", f"_commentary/v16/{map_path.relative_to(V.HERE)} (without ## Not carried)",
+         strip_not_carried(map_path.read_text(encoding="utf-8")))
+    if not labels:
+        d = [s for s in secs if s[0].endswith("01_dictionary.md")][0]
+        d[0], d[1] = d[0] + " (without branch labels)", drop_labels(d[1])
+    text = join(head, secs)
+    wd = V.WORK / name / f"DM.{brief}.{tag}"
+    wd.mkdir(parents=True, exist_ok=True)
+    (wd / "prompt.md").write_text(text, encoding="utf-8")
+    json.dump({"ref": ref, "brief": brief, "map": str(map_path.relative_to(V.HERE)), "labels": labels,
+               "prompt_sha256": sha(text)}, (wd / "packet.json").open("w"), indent=1)
+    return text, V.OUT / name / f"DM.{brief}.{tag}", tag
+
+
+def call(text: str, d: Path, kind: str, row: dict, ledger: bool) -> None:
+    est = V.estimate(text, kind)
+    if V.blocked(d):
+        raise SystemExit(f"{d}: started or finished before (never rerun)")
+    if est >= V.GATE_USD:
+        V.log({**row, "status": "gated", "estimate_usd": round(est, 2)})
+        raise SystemExit(f"gated at ${est:.2f}")
+    d.mkdir(parents=True, exist_ok=True)
+    (d / "prompt.md").write_text(text, encoding="utf-8")
+    t0 = time.time()
+    obj = V.call_opus(text, d)
+    out = {**row, "model": V.MODELS["opus"][0], "seconds": round(time.time() - t0), "estimate_usd": round(est, 2),
+           **V.usage_row(obj, text)}
+    result = (obj.get("result") or "").strip()
+    if result and kind == "surah":
+        (d / "map.md").write_text(result + "\n", encoding="utf-8")
+        out["map_complete"] = V.map_complete(d / "map.md")
+    elif result:
+        prose, sep, led = result.partition(V.LEDGER_MARK)
+        out["ledger"] = bool(sep)
+        if sep:
+            (d / "ledger.md").write_text(led.strip() + "\n", encoding="utf-8")
+        reading = d / f"{d.parent.name}.reading.tr.md"
+        reading.write_text(prose.strip() + "\n", encoding="utf-8")
+        subprocess.run([sys.executable, str(V.CHECK), str(reading), "--ref", row["ref"], "--out",
+                        str(d / "check.json"), "--quiet"], cwd=V.CHECK.parent)
+    V.log(out)
+    print(f"{d.relative_to(V.HERE)}: {out['status']} ${out.get('cost_usd')} {out.get('words')}w {out['seconds']}s")
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("cmd", choices=("map", "writer"))
+    ap.add_argument("--brief")
+    ap.add_argument("--ayah")
+    ap.add_argument("--map", type=Path)
+    ap.add_argument("--no-labels", action="store_true")
+    ap.add_argument("--go", action="store_true")
+    a = ap.parse_args()
+    if a.cmd == "map":
+        brief = a.brief or "map3"
+        text, d = map_packet(brief)
+        n_out = 130_000  # r2 map measured 121.8k output; the estimate below also shows v16's standard 80k
+        _, w, o = V.MODELS["opus"]
+        n_in = V.est_tokens(text)
+        realistic = n_in * (1 + n_out // V.MESSAGE_CAP) * w + n_out * o
+        print(f"{d.relative_to(V.HERE)}: {len(text):,} chars ~{n_in:,} tokens; est ${V.estimate(text, 'surah'):.2f} "
+              f"(80k out), ${realistic:.2f} at {n_out // 1000}k out")
+        if a.go:
+            call(text, d, "surah", {"ref": "S1", "arm": "surah", "brief": brief}, False)
+        return
+    text, d, tag = writer_packet(a.ayah, a.brief, (V.HERE / a.map) if not a.map.is_absolute() else a.map,
+                                 not a.no_labels)
+    print(f"{d.relative_to(V.HERE)}: {len(text):,} chars; est ${V.estimate(text, 'ayah'):.2f}")
+    if a.go:
+        call(text, d, "ayah", {"ref": a.ayah, "arm": "DM", "brief": f"{a.brief}.{tag}"}, True)
+
+
+if __name__ == "__main__":
+    main()
