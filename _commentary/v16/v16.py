@@ -466,7 +466,7 @@ def call_opus(text: str, d: Path, model: str = "opus", allow: str | None = None)
     with tempfile.TemporaryDirectory(prefix="v16_opus_") as cwd:
         p = subprocess.run(cmd, input=text, capture_output=True, text=True, cwd=cwd, env=env)
     (d / "run.stream.jsonl").write_text(p.stdout or "", encoding="utf-8")
-    texts, ids, final, tool_calls, pre_tool = [], [], {}, [], []
+    texts, ids, final, tool_calls, pre_tool, pre_ids = [], [], {}, [], [], []
     for line in (p.stdout or "").splitlines():
         try:
             ev = json.loads(line)
@@ -478,7 +478,7 @@ def call_opus(text: str, d: Path, model: str = "opus", allow: str | None = None)
                 if c.get("type") == "tool_use":
                     tool_calls.append({"id": c.get("id"), "input": c.get("input")})
                     if texts:
-                        pre_tool = texts  # kept as a fallback if nothing follows the last tool call
+                        pre_tool, pre_ids = texts, ids  # kept as a fallback if nothing follows the last tool call
                     texts, ids = [], []
                 elif c.get("type") == "text":
                     texts.append(c.get("text", ""))
@@ -498,7 +498,7 @@ def call_opus(text: str, d: Path, model: str = "opus", allow: str | None = None)
         (d / "tool_calls.json").write_text(json.dumps(tool_calls, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     joined = "".join(texts)
     if not joined and pre_tool:
-        joined = "".join(pre_tool)
+        joined, ids = "".join(pre_tool), pre_ids
     had_result = bool(final)
     if final:
         final["result_last_message"] = final.get("result")

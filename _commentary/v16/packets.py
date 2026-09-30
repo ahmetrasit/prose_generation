@@ -30,7 +30,7 @@ MISSING = V.HERE / "missing.py"
 ALLOW = f"python3 {MISSING}"
 
 
-SAFE_CMD = re.compile(rf"^{re.escape(ALLOW)} (?:S\d+|\d+:\d+)(?: [0-9:()\[\],;.\-–— ]*)?$")
+SAFE_CMD = re.compile(rf"{re.escape(ALLOW)} (?:S\d+|\d+:\d+)(?: [0-9:()\[\],;.\-–— ]*)?")  # used with fullmatch
 
 
 def tool_extra(target: str) -> int:
@@ -48,7 +48,7 @@ def audit(d: Path) -> list[str]:
     f = d / "tool_calls.json"
     calls = json.loads(f.read_text(encoding="utf-8")) if f.exists() else []
     return [str((c.get("input") or {}).get("command")) for c in calls
-            if not SAFE_CMD.match(str((c.get("input") or {}).get("command", "")))]
+            if not SAFE_CMD.fullmatch(str((c.get("input") or {}).get("command", "")))]
 
 
 def tool_line(target: str) -> str:
