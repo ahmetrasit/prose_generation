@@ -715,3 +715,8 @@ Content and discovery rules are unchanged. r5's two files total 1,408 words; r6 
 **Built, not run.** `run_astra.py --brief r6` built `work/{1_5,1_6}/DM.r6/` and `work/29_38/H.r6/` from the frozen r3
 evidence. The evidence hashes match r5, and the prompts differ from r5 only in the two briefs. A trial needs the
 user's approval.
+
+**r6 trial, 1:5 DM, gpt-6.1-sol high (2026-09-30, user-approved): failed, no output.** The call was rejected before
+generation: "The 'gpt-6.1-sol' model is not supported when using Codex with a ChatGPT account." This machine has
+codex-cli 0.159.0; the ten earlier Astra and Sol runs used 0.159.1. Not retried (no-rerun rule). The started
+marker in `out/1_5/DM.r6.gpt-6.1-sol.high/` blocks another call until the user decides.
