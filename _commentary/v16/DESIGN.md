@@ -920,3 +920,57 @@ commentary carries it.
 - a family image enters with its own Arabic phrase, only the dictionary's name is omitted;
 - end on what the reading established, not a summary.
 
+## Why the pulley stays out: reconstructed follow-ups (2026-09-30, user-approved)
+
+The v16 calls run without session persistence and their thinking is not recorded, so they cannot be resumed.
+`followup.py` makes one new Opus call with the run's exact prompt, its own full response, and two questions:
+
+1. why the pulley stayed out;
+2. what instruction would have brought it in where it contributes.
+
+The answers are post-hoc accounts by the same model on the same evidence, not replays. Outputs are in
+`out/1_6/DM.{r8,r3}.followup-pulley/answer.md`. Cost $0.50 and $0.43.
+
+**Opus 1:6 r8's own account:**
+
+- It tested the image against the plain meaning, not beside it. It says "I simply never tried the image".
+- It read the map's "rare or technical" as "peripheral".
+- Its sections (road, walking, arrival, scale) had no room for a vertical apparatus.
+- It skipped the brief's rule to explain a mechanism by its work first.
+- It missed the dictionary's own join of qāma and naʿāma, and 28:22→28:23, where Moses asks for guidance and
+  arrives at the water of Madyan; the map lists only 28:23.
+
+**Opus 1:6 r3's own account:**
+
+- The controlling image (road, guide, posture) excluded a fixed, vertical object. It never checked whether the
+  pulley serves the same operation.
+- It dismissed chain 9 together with five other chains under one reason, pushed by "choose the few".
+- The map's "rare or technical", plus ayn's rejected variant, made the whole chain feel unsafe.
+- It feared inventing a well scene.
+- It read "Advances", not "Core", as permission to drop the chain.
+- What it would now write: the qāma is an upright that exists to turn and draw, set against its own section on
+  standing that freezes; it hangs from the beam of 1:7's favour; the water lifted keeps the affair standing (1:4).
+
+**Folded into r9 (general, no case named):**
+
+- explore a dictionary phrase that joins this ayah's root with another root of the surah;
+- judge a chain member by the scene it makes with the others;
+- exclusion is allowed only when the evidence fails, or after trying: for a mechanism, explain its work, then
+  look for a neighbouring ayah, another root of the surah or a Quran scene that gives the work a place;
+- rarity, technicality, a mismatch with the plain meaning, or not fitting the planned sections are not reasons;
+- decide each finding on its own, with its own ledger line naming the failed evidence or what was tried.
+
+With the four format and ending fixes, r9 is 761 words. Prompts are built for 1:5 and 1:6, evidence hashes match
+r8, and Opus estimates are $1.15 and $1.19. Not run.
+
+**For the surah-map brief (not yet revised):**
+
+- no evaluative labels ("rare" describes frequency, not reliability);
+- flag a doubtful source phrase by itself, so it does not taint the sound members of its chain;
+- mark dictionary-joined links;
+- give Quran lines their speaker and situation, and include the preceding ayah where it starts the scene (28:22
+  before 28:23);
+- give each ayah's entry the scene its chain members complete, not a bare fragment;
+- add an interactions section;
+- make `## Not carried` cover dictionary branches.
+

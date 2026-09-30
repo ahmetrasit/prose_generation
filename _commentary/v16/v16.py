@@ -16,6 +16,9 @@ Briefs:
   r7  minimal core for Opus: task, evidence framing, guards, format and ledger; no craft instructions.
   r8  r7 plus r6's discovery paragraph (with scene-level Quran search), attribution without dictionary names,
       thesis sections and no first-person hedging.
+  r9  r8 plus: every Arabic quotation in the reader tag; family images quoted in Arabic; chains judged together;
+      dictionary joins explored; exclusion only after trying, never for rarity or plain-meaning mismatch, one
+      ledger line per finding; end on what was established, not a summary.
 
 Arms (the assembled-findings slot):
   H   the ayah's HFT records (v9/input/v2/…/02_hft.md) and the surah channel review's subchannels anchored in the
@@ -97,6 +100,10 @@ BRIEFS = {
     "r8": {"write": HERE / "prompts" / "r8" / "write.md", "add": HERE / "prompts" / "r8" / "additions.md",
            "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"],
            "map_from": "r2", "ledger": True},
+    # r9 (user, 2026-09-30): r8's fixes after the r8 runs on 1:5 and 1:6.
+    "r9": {"write": HERE / "prompts" / "r9" / "write.md", "add": HERE / "prompts" / "r9" / "additions.md",
+           "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"],
+           "map_from": "r2", "ledger": True},
 }
 LEDGER_MARK = "=== LEDGER ==="
 # model key -> (model id, cache-write $/token (1h = 2x input), output $/token); opus is the default and has no suffix
@@ -135,6 +142,7 @@ ARM_EVIDENCE["r5"] = ARM_EVIDENCE["r2"]
 ARM_EVIDENCE["r6"] = ARM_EVIDENCE["r2"]
 ARM_EVIDENCE["r7"] = ARM_EVIDENCE["r2"]
 ARM_EVIDENCE["r8"] = ARM_EVIDENCE["r2"]
+ARM_EVIDENCE["r9"] = ARM_EVIDENCE["r2"]
 _SRC = None
 
 
