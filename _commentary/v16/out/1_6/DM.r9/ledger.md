@@ -1,0 +1,42 @@
+- memory: the three constructions of hadā in the Quran (direct second object, with ilā, with li), and the observation that the direct construction here parallels sihah's هديته الطريق والبيت (general grammatical knowledge; 42:52; 17:9)
+- memory: the Fatiha is recited standing in every rak'a (fiqh of salah)
+- memory: hadith qudsi dividing the Fatiha between God and the servant, with هذا لعبدي ولعبدي ما سأل at 1:6 (Muslim, Kitab al-Salah)
+- memory: the Prophet went out to the mosque in his last illness leaning between two men (يهادى بين رجلين) (Bukhari)
+- memory: 47:17 wording
+- memory: 20:10 wording and its setting (Musa travelling at night with his family)
+- memory: 16:16 wording
+- memory: the bridge over hell called al-sirat comes from hadith; in the Quran sirat never names a bridge (general knowledge)
+- memory: some reciters read السراط with sin (Qunbul from Ibn Kathir, Ruways from Ya'qub); the prose says only "some reciters" (qira'at literature)
+- memory: sirat never occurs in the plural in the Quran, while subul does (concordance knowledge)
+- memory: wording and setting of 37:23, 6:153, 7:16 (Iblis after refusing to prostrate to Adam), 42:52, 42:53, 6:90 (after the list of prophets)
+- memory: wording and setting of 2:20 (the simile of the hypocrites in the storm), 67:22, 95:4, 17:35, 28:22 (Musa leaving Egypt toward Madyan), 22:46, 11:112, 41:30 (including the angels descending in its continuation), 83:6
+- memory: wording of 5:97, 35:35 (speech of the people of paradise), 4:69 (the list of the four groups and وحسن أولئك رفيقا)
+- memory: the common exegetical distinction that the maghdub know and do not act while the dallin act without knowing (tafsir tradition, e.g. Ibn Kathir)
+- memory: hady is from form IV (ahda) while ihdina and the bride sense are form I (from the dictionary phrases themselves, and morphological knowledge)
+- not written: identification of the maghdub and the dallin with specific religious communities (hadith in Tirmidhi) - not needed for the reading, and the prose keeps to the classical knowing/doing distinction
+- not written: qwm B001 (qawm, a man's people) - the supplied evidence gives no phrase tying the name to standing; tried it with the plural "nā", and it added nothing beyond the grammar already discussed
+- not written: qwm B003 (resolve, qama bi-l-amr; إذا قمتم إلى الصلاة) - tried it with the prayer-standing paragraph; it duplicated B002/B005 and added no image
+- not written: qwm B007 and B010 (standing in place of something; price by appraisal; map chain 14) - tried "the road as what one's worth stands on"; no neighbouring ayah or scene gives price a place in 1:6, so it added nothing
+- not written: qwm B014 (resisting in combat, fixed expression) - no conflict scene in the surah for it to join; 7:16's ambush was tried but uses a different verb
+- not written: qwm B018 (the market becoming brisk, fixed expression) - no partner in the surah or in the road scene
+- not written: qwm B019 (a body part aching, fixed expression) and B020 (sheep disease in the legs) - tried both with the weak walker leaning on two; neither shares an object with it and the pain sense is idiomatic
+- not written: hdy B009 (dull, heavy man) - tried as the opposite of the calm gait (B010); the dictionary gives no phrase joining them and no Quran scene uses it
+- not written: hdy B011 (presenting praise or lampoon in verse) - no partner in the ayah or surah; the praise of 1:2 is not poetic exchange
+- not written: hdy B007 "captive" gloss and tahdhib's "the woman is called hady because she is like a captive" - the refuge-seeker sense was used; the captive gloss is marked as a minority report ("قيل") and adds nothing to the conveying image
+- not written: echo root ه د د (rocking a child to sleep, demolition, threat, hoopoe) - an echo root, not the identity root of ihdina; kept out to avoid treating a sound-likeness as identity
+- not written: map chain 4 (the master's household) - bears on 1:2, 1:4 and 1:5; 1:6's words do not enter it except through the servant's request, which is already covered
+- not written: map chains 6, 7 and 8 (name and banner, womb and rearing, cloud and rain) - their members are in 1:1-1:3; no word of 1:6 takes part except qwm B004 (keeping the household standing), which was tried and duplicated the qiwam paragraph
+- not written: map chain 12 (fitting out and mending) - only "قومت الشيء" belongs to 1:6 and it is used in the straightening paragraph; the rest (seasoned skins, tarred camels) has no link to the road
+- not written: map chain 14 (debt, blood-money) - the qwm members (price, standing in place) failed as above; the rest belongs to 1:4 and 1:7
+- not written: map chain 16 (soft and hard) - no member from 1:6; the softness of guidance (دلالة بلطف) was used in the gift paragraph instead
+- not written: map chain 19 (eye states) beyond عين قائمة - na'im al-'ayn and the swollen eye belong to 1:7 and would pull the reading away from 1:6's road
+- not written: map chain 3 members غير (the load set down) and نعم (going on foot) - tried with the weak walker; they belong to 1:7 and would add a halt the reading already has through maqam
+- not written: hadith of the stray camel (Bukhari, from the map) - the dictionary's ضالة phrase already gives the image; the hadith's point (leave it until its owner finds it) runs against the stray-versus-led contrast and was not needed
+- not written: 36:61, 36:62 (the straight road and the multitude led astray) - covered by 6:153 and the huda/dalala pair; it added no new image
+- not written: 36:71, 36:72 (livestock owned and made tractable) - it belongs to the herd chain through 1:4, 1:5 and 1:7, not 1:6's words
+- not written: 2:196 and 22:36, 22:37 (offerings reaching their place) - 5:97 was chosen because it joins hdy and qwm in one ayah; these added only the offering itself
+- not written: 21:47 and 55:7, 55:8, 55:9 (balance and qiyama) - 17:35 already gives the scale called mustaqim; these repeat without adding
+- not written: 3:103 (hold together, do not scatter) - 6:153 already stages scattering off the one road
+- not written: 32:10 (lost in the earth) - the milk-in-water phrase carries the dissolving sense more precisely; the burial sense would pull toward death, away from the road
+- not written: 12:23, 16:75, 19:93, 114:1-3, 23:29, 25:74, 3:146, 3:159, 2:74, 39:23, 2:282, 2:178, 14:5, 40:16, 78:38, 82:17-19, 87:1, 55:78, 7:180, 19:65, 42:32, 17:24, 3:6, 4:23, 4:1, 7:57, 30:50, 42:28, 6:6, 28:23, 22:45 (map-listed passages) - they serve chains whose members are not 1:6's words; none adds to the road, standing or guidance here
+- not written: 36:66 (they race to the road, how can they see) - it adds to the eye image, but 22:46 already makes the point without the punitive setting

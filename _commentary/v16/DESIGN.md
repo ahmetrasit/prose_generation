@@ -974,3 +974,67 @@ r8, and Opus estimates are $1.15 and $1.19. Not run.
 - add an interactions section;
 - make `## Not carried` cover dictionary branches.
 
+## r9 on 1:6, Opus 5.5 (2026-09-30, user-approved)
+
+$1.74 (estimate $1.19; the CLI used 3 turns, 37.7k output, 17.9k thinking), 1,077 s. Same map and evidence as
+r8, so any change from r8 comes from the writer brief.
+
+| 1:6 | words (check.py) | tags | sourced | dictionary tags | branches | refs outside S1 | Arabic outside tags | "sözlük" in prose |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Opus r3 | 1,559 | 40 | 95% | 23 | 18 | 7 | 0 | 1 |
+| Opus r8 | 2,770 | 44 | 100% | 16 | 19 | 25 | 0 | 0 |
+| Opus r9 | 3,868 | 84 | 98.8% | 56 | 32 | 21 | 0 | 9 |
+
+**Pulley: in the prose for the first time in an Opus reading.**
+
+- The reading quotes the dictionary join «القامة البكرة التي يستقى بها الماء؛ النعامة الخشبة المعترضة ثم تعلق
+  القامة» and explains the rig: posts, crossbeam, pulley, rope, water drawn up.
+- It then reads it: the pulley cannot work without the beam it hangs from, as 1:7 hangs the straight road on
+  "those You favoured"; "Doğruluk nimete asılıdır".
+- It is one paragraph, framed "Bu bir benzetmedir". The water chain is not developed (1:2's brimming well, 1:4's
+  water that keeps the affair standing).
+- 28:22 is used for "the middle of the road", but 28:23 (arrival at the water of Madyan) is dismissed in a batch
+  ledger line of 30 map-listed passages "whose members are not 1:6's words". That is inconsistent with using the
+  pulley.
+
+**Other gains over r8:**
+
+- the root's sense of standing still: قامت دابته, قام الماء جمد, and 2:20 (the hypocrites in the storm "stand
+  still" when it goes dark), against istiqāma as uprightness that keeps moving;
+- the arrow's tip (هادي السهم) with the unbending shaft (رمح قويم), labelled an analogy;
+- هدى هدي فلان with 6:90 ("follow their guidance");
+- 47:17 (guidance increased for the guided);
+- «ملك الدابة قوائمها وهاديها», 1:4's root naming 1:6's two roots as the mount's legs and neck;
+- the ending: the surah opens with «هديته الطريق والبيت» and closes on those who «ضللت المسجد والدار».
+
+**Lost from r8:** 48:2, 37:118, 6:161, 19:43, 11:56, 5:16.
+
+**Ledger:** 27 "not written" lines against r8's 20, 8 of them stating what was tried. Map-listed passages are
+still batched in one line.
+
+**Faults:**
+
+- "sözlük" appears 9 times ("Sözlük bunu şöyle açıklar"). r9 bans naming a dictionary but no longer bans the
+  "sözlükler şöyle der" register that r6 banned.
+- "Bu bir benzetmedir" appears twice.
+- The last paragraph partly summarises.
+- One unsourced tag: the hadith qudsi, listed as memory.
+
+**Next writer-brief fix (r10, not drafted):**
+
+- say the family's image, not what "the dictionary says";
+- one ledger line per map-listed passage as well.
+
+**Map brief draft** (`prompts/map_r3/surah_map.md`, not wired, not run). The r2 map brief itself asked for "Say
+plainly when a member is a rare sense … and keep it", the source of chain 9's "All these senses are rare or
+technical". The draft:
+
+- keeps only [fixed expression], and bans rare, technical and marginal;
+- flags a doubtful phrase by itself;
+- marks [dictionary join];
+- gives Quran passages their speaker, situation and opening ayah;
+- adds `## Interactions`;
+- makes `## Ayat` name each chain's whole scene and says opens, advances and completes describe position, not
+  importance;
+- extends `## Not carried` to dictionary branches.
+
