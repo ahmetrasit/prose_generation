@@ -813,3 +813,49 @@ The last two columns are rough regex counts.
   attribution line (the word's family, not the dictionaries or their authors), thesis sections rather than one
   per word, and no first-person hedging.
 
+## Why 7:16 stayed out of 1:5 (2026-09-30)
+
+7:16 («لأقعدن لهم صراطك المستقيم», Iblīs sitting on the straight path) is in the S1 map's chain 1, and chain 1
+includes 1:5's ع ب د B005. None of the four r6/r7 readings uses it, and no ledger mentions it. Run thinking is not
+recorded (the stream's thinking blocks are empty), so the causes are inferred from the inputs and outputs.
+
+1. **The map strips the passage to its road image.** 7:16 is the last of six bare lines in chain 1's Quran list,
+   glossed "someone sitting in ambush on the road". The speaker is not named. Nothing records that the ambush
+   follows a refusal to bow out of pride (7:11–7:12).
+2. **The map never carries the pride branch.** ع ب د B008 (العبد الأنف والحمية, wounded pride) is in no chain.
+   `## Not carried` covers only subchannels and HFT records, not dictionary branches, so the omission is silent.
+   The writers found B008 in the dictionary themselves, but the map gave them no link from it to 7:16.
+3. **Chain 1 belongs to 1:6.** `## Ayat` lists 1:6 as "Core of 1", and 1:5 only as "Advances 1: the road
+   smoothed by treading". A 1:5 writer treats the rest of the chain as 1:6's material.
+4. **Quran recall is anchored on the root.** Every passage the four writers attach to the pride pole shares
+   ع ب د: 4:172, 40:60, 43:81, 19:93. Iblīs's refusal (2:34, 7:12, 38:74–76) shares no word with 1:5. The two
+   GPT runs that did use 7:16 on 1:5 (Astra r4 max, Sol r5 max) reached it through the scene (7:12, "ana khayrun
+   minhu"), not the root.
+5. **The ledger records only what was considered,** so a passage never considered leaves no trace.
+
+**Fixes.**
+
+- **In r8, general, no case named:**
+  - look for passages "that stage the same act, scene or stance without sharing a word";
+  - "a chain that a neighbouring ayah opens or completes can still be heard here, where this ayah's words take
+    part in it";
+  - the ledger's "not written" includes "passages the map lists".
+- **For the surah-map brief later:**
+  - a Quran line should name the speaker and the situation;
+  - `## Not carried` should also cover dictionary branches.
+
+## Brief r8: the middle brief (2026-09-30, user-approved; running)
+
+`prompts/r8/write.md`, 612 words. It is r7's core plus:
+
+- r6's discovery paragraph, with the scene-level Quran search and the neighbouring-chain sentence above;
+- attribution to the word's family, with no dictionary or lexicographer named in the prose;
+- thesis sections, never one per word or root;
+- no first-person hedging;
+- the ledger covering map passages.
+
+It names no known case. Frozen evidence as before (1:5 and 1:6 hashes match r5 and r6).
+
+Runs in parallel, one call each: 1:5 and 1:6 × Opus 5.5 and Fable 5.1. Estimates: Opus $1.15 and $1.19, Fable
+$2.88 and $2.96.
+

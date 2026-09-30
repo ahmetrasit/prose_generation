@@ -14,6 +14,8 @@ Briefs:
   r6  r5 with the filmmaker's-eye paragraph replaced by a commentator's register: no staged tableaux, images
       attributed where they enter, no aphoristic closers, no added lessons.
   r7  minimal core for Opus: task, evidence framing, guards, format and ledger; no craft instructions.
+  r8  r7 plus r6's discovery paragraph (with scene-level Quran search), attribution without dictionary names,
+      thesis sections and no first-person hedging.
 
 Arms (the assembled-findings slot):
   H   the ayah's HFT records (v9/input/v2/…/02_hft.md) and the surah channel review's subchannels anchored in the
@@ -91,6 +93,10 @@ BRIEFS = {
     "r7": {"write": HERE / "prompts" / "r7" / "write.md", "add": HERE / "prompts" / "r7" / "additions.md",
            "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"],
            "map_from": "r2", "ledger": True},
+    # r8 (user, 2026-09-30): middle brief after the 1:5 r6/r7 x Opus/Fable comparison.
+    "r8": {"write": HERE / "prompts" / "r8" / "write.md", "add": HERE / "prompts" / "r8" / "additions.md",
+           "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"],
+           "map_from": "r2", "ledger": True},
 }
 LEDGER_MARK = "=== LEDGER ==="
 # model key -> (model id, cache-write $/token (1h = 2x input), output $/token); opus is the default and has no suffix
@@ -128,6 +134,7 @@ ARM_EVIDENCE["r4"] = ARM_EVIDENCE["r2"]
 ARM_EVIDENCE["r5"] = ARM_EVIDENCE["r2"]
 ARM_EVIDENCE["r6"] = ARM_EVIDENCE["r2"]
 ARM_EVIDENCE["r7"] = ARM_EVIDENCE["r2"]
+ARM_EVIDENCE["r8"] = ARM_EVIDENCE["r2"]
 _SRC = None
 
 
