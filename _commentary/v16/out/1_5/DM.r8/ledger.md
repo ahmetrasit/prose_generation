@@ -1,0 +1,33 @@
+- memory: the term iltifat for the shift from third to second person in 1:5 (classical balagha)
+- memory: fronting the object pronoun iyyā- before the verb expresses restriction (hasr); the imperfect (mudari') covers present and habitual (Arabic grammar)
+- memory: hadith qudsi dividing the salah into two halves, with "this is between Me and My servant, and My servant shall have what he asked" at 1:5 (Muslim, Kitab al-Salah)
+- memory: 26:18 and 26:22, Pharaoh reminding Moses he raised him, and Moses answering that the "favor" is his enslavement of Israel; wording from memory
+- memory: 23:47 wording and speakers (Pharaoh's chiefs about Moses and Aaron)
+- memory: 39:29 parable of the man owned by quarrelling partners and the man belonging wholly to one man, wording from memory (Hafs reading سلما)
+- memory: 19:93 wording
+- memory: 36:60-61 context (God addressing the children of Adam on the Day) and 36:61 wording; 3:51 wording and speaker (Jesus)
+- memory: 67:15 and 16:69 wording, and the double reading of ذللا in 16:69 as describing either the paths or the bees (tafsir)
+- memory: the vowel distinction between ذِلّ (tractability, ease) and ذُلّ (abasement) (classical lexica, e.g. Lisan al-Arab)
+- memory: tar was rubbed on camels' hides against mange (hana' bi-l-qatiran); the supplied dictionary gives only "tarred and made tractable"
+- memory: caulking pitch keeping water out of a hull (general knowledge, explaining المعبدة السفينة المقيرة)
+- memory: 43:81 wording and the early exegetical reading of العابدين as "the disdainers/deniers" from عَبِد = أنف (reported in al-Tabari and others)
+- memory: 4:172 wording
+- memory: 6:153 wording (also listed in the map)
+- memory: 2:45, 5:2, 7:127-128, 12:18 (with its context of the shirt with false blood), 18:95, 20:29-31 and 11:123, all wording and context from memory
+- memory: hadith of the Prophet going out in his last illness "يهادى بين رجلين" (Bukhari), used only as the 1:6 family image the map's chain 3 links to 1:5
+- memory: the names Abdullah and Abdurrahman as Turkish names built on عبد plus names from 1:1
+- not written: echo root ع ي ن (eye, spring, cash, etc.) for نستعين - withheld mapping, not the identity root; an echo cannot establish identity
+- not written: ع و ن B002 عوان (middle-aged cow, used in 2:68 of Moses' cow) - same root in the Quran, but no image joins middle age to asking for backing in this ayah
+- not written: ع و ن B003 (repeated war, fixed expression), B004 (old palm, single source), B005 (bodily maturity, fixed expression), B007 (pubic hair), B008 (the place name 'Ana and its wine) - none forms a scene with this ayah or the surah
+- not written: ع و ن B006 العانة, herd of wild asses (map chain 2) - no attested link between the herd and help; the "herd with an owner" chain rests on other roots and does not need or gain from this sense
+- not written: ع ب د B009 (not delaying, fixed expression) - no contribution to the ayah's act
+- not written: ع ب د B012 (stone for grinding perfume, single source) - isolated, no partner
+- not written: ع ب د B006 المعبد (the honored one who is served) - true to the family but adds nothing beyond the household section; left out to avoid repetition
+- not written: map chain 12 as a whole "workshop" scene (seasoning a skin, kneading dough, straightening a shaft, mending saddles) - only the tarred camel and ship belong to this ayah's word and are used; the rest belongs to other ayat
+- not written: map chains 5, 6, 7, 8, 9, 10, 13, 14, 15, 16, 17, 19 - they do not pass through this ayah's words
+- not written: 36:71-72 (cattle made tractable, map chain 2) - fits the tractability image, but 67:15 and 16:69 carry it with the road, which is the ayah's link to 1:6
+- not written: 16:75 (the owned slave who has power over nothing, map chain 4) - 39:29 stages the exclusivity more directly
+- not written: 114:1-3 and 12:23 (map chain 4) - they confirm the rabb/malik/ilah triad but add nothing the surah's own 1:2 and 1:4 do not give here
+- not written: 3:103 and 3:146 (map chain 18) - 6:153 and 5:2 already carry scattering and mutual help with this ayah's roots
+- not written: 89:29-30 "فادخلي في عبادي" (cited in the dictionary under ع ب د B002) - considered for the "we" as a household, but the paragraph already carried the "we" through تعاون; omitted to keep the section focused
+- not written: ع ب د B011 as the tamed/resisting pair is written; map chain 3's other members (قوم B016, نعم B012, غير B001) - they belong to 1:6-1:7 and would stretch the stranded-traveller image beyond what this ayah's words hold

@@ -1,0 +1,48 @@
+- memory: the Fatiha is recited standing (qiyām) in every rak'a, 17 times a day in the obligatory prayers (fiqh of salat)
+- memory: the observation that hadā takes the road either with ilā or directly as a second object, and that the direct construction suggests being brought along the road rather than only pointed toward it (discussed by classical exegetes; the reading here is interpretive)
+- memory: wording of 6:161, 37:118, 48:2 (including "ويتم نعمته عليك" in the same ayah)
+- memory: hadith qudsi dividing the prayer between God and His servant, "هذا لعبدي ولعبدي ما سأل" for 1:6–7 (Muslim, from Abu Hurayra)
+- memory: Turkish usage of hidayet ("hidayete ermek"), istikamet (direction), and the list of Turkish loanwords from ق و م
+- memory: 20:10 Moses seeing the fire, "أو أجد على النار هدى"
+- memory: 19:43 Ibrahim to his father
+- memory: 11:56 Hud's words, and the practice of leading a horse by the forelock (nāṣiya)
+- memory: the Prophet in his last illness going out to prayer "يهادى بين رجلين ... ورجلاه تخطان في الأرض" (Bukhari, from Aisha)
+- memory: 25:63, the servants of the Rahman walking hawnan
+- memory: 2:196, 5:95, 5:97, and the practice of marking and garlanding the hady (qalā'id) and driving it to the sanctuary
+- memory: 35:34–35, the people of paradise saying al-ḥamdu lillāh and "دار المقامة"
+- memory: 4:68–69, the pairing of "ولهديناهم صراطا مستقيما" with those "أنعم الله عليهم", and rafīq as travel companion
+- memory: the Turkish popular image of sırat köprüsü, thinner than a hair and sharper than a sword, which comes from hadith reports on the bridge over Jahannam (Bukhari and Muslim; the hair and sword description in Muslim's report from Abu Sa'id)
+- memory: ṣirāṭ occurs in the Quran only in the singular
+- memory: qirāʾāt of الصراط: Qunbul (Ibn Kathīr) and Ruways (Yaʿqūb) read it with sīn; Khalaf from Ḥamza reads it with ishmām of zāy
+- memory: the vowel of سَرِطَ (kasra), as given in Lisān al-ʿArab
+- memory: 32:10 "أئذا ضللنا في الأرض"
+- memory: 6:153 and 5:16 wording
+- memory: 7:16–17, Iblis sitting on the straight road and coming from four sides
+- memory: 67:22 wording
+- memory: 36:60–62 context and wording
+- memory: 11:112 and 41:30 wording
+- memory: 2:255 "الحي القيوم"
+- memory: 17:35 wording
+- memory: 83:1–6, the opening of al-Muṭaffifīn on short measure leading to "يوم يقوم الناس لرب العالمين"
+- memory: انقاد as related to قود, leading an animal (used only in the gloss "yedeğe geldi")
+- memory: the reading of the straight road as the middle between the two deviations named in 1:7 is common in exegesis; the balance image here is interpretive
+- not written: echo root ه د د (breaking, lulling, the hoopoe) - withheld mapping, not the identity root of ihdinā; it cannot establish any sense of the word
+- not written: ه د ي B009 (dull, weak, heavy man) - it has no function beside the ayah's request, and the weakness theme is already carried by tahādī
+- not written: ه د ي B011 (presenting praise or lampoon in verse) - no partner in the ayah or the surah
+- not written: ق و م B001 (qawm, a man's people), map chain 18 - the adjective mustaqīm does not activate the people sense, and the ayah's "we" comes from the pronoun, not from this root
+- not written: ق و م B003 (undertaking resolutely) and B005 (iqāmat al-ṣalāt) - considered; the standing in prayer is already carried by B002, and they would crowd the section without adding a new finding
+- not written: ق و م B007 and B010 (standing in the place of a thing, price), map chain 14 - no role on the road; the debt and blood-money scene belongs to 1:4 and 1:7
+- not written: ق و م B011 (stature) - overlaps the upright walker of 67:22 without adding to it
+- not written: ق و م B012 (well pulley hung from the نعامة beam), map chain 9 - a technical apparatus with no bearing on road, guidance or straightness
+- not written: ق و م B014, B018, B019, B020 (mutual resistance, a lively market, a body part aching, a sheep's leg disease) - fixed or rare expressions that form no image with this ayah
+- not written: map chain 3 members from other ayat (أعبد به, the rider whose mount is spent; تنعّم, going on foot; غير, the load taken off) - only tahādī and the halted mount belong to 1:6's words, and those were used
+- not written: map chain 1 member العالمين as waymark, and 16:16 "وعلامات وبالنجم هم يهتدون" - considered; the Moses fire scene already carries wayfinding more concretely
+- not written: map chain 2's 36:71–72 and the stray-camel hadith - the herd image was used only through hawādī; ownership of livestock does not bear on 1:6
+- not written: map chains 4, 6, 7, 8, 10 (beyond iqāma), 12, 16 - they are built on the words of 1:1–1:5 and 1:7 with no member from 1:6 that adds to the road (12's straightening of the shaft was used under B008)
+- not written: map chain 13's 82:17–19, 40:16, 14:5, 78:38 - 83:6 alone carries the standing before Rabb al-ʿālamīn and joins it to the scale
+- not written: map chain 15's 55:7–9 and 21:47 - 17:35 carries the "straight scale" directly; the others would repeat it
+- not written: map chain 19 member نعمة العين and غضب of the eye - they belong to 1:7; from 1:6 only عين قائمة was used, as one of the failures of standing
+- not written: 3:51, 19:36, 43:64 ("worship Him, this is a straight path") - 36:61 chosen as the single representative, since 36:62 also brings in the leading astray of 1:7
+- not written: 2:143 (ummatan wasaṭan) - it would import the "middle" reading by a word the ayah does not share, and the scale image already carries the point
+- not written: 22:36–37 (the budn) - the hady image is sufficiently carried by 2:196, 5:95 and 5:97
+- not written: 3:103, 3:146, 3:159, 2:282 from the map - they serve chains (gathering, softness, forgetting) that 1:6's words do not enter

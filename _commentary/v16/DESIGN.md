@@ -857,5 +857,66 @@ recorded (the stream's thinking blocks are empty), so the causes are inferred fr
 It names no known case. Frozen evidence as before (1:5 and 1:6 hashes match r5 and r6).
 
 Runs in parallel, one call each: 1:5 and 1:6 × Opus 5.5 and Fable 5.1. Estimates: Opus $1.15 and $1.19, Fable
-$2.88 and $2.96.
+$2.88 and $2.96. All four completed.
+
+### r8 results (2026-09-30)
+
+| run | cost | thinking | words (check.py) | tags | Arabic outside tags | branches cited | Quran refs outside S1 | dictionary names |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1:5 Opus r8 | $0.87 | 18.3k | 2,150 | 25 | **18** (Quran in «») | 15 | 20 | 0 |
+| 1:5 Fable r8 | $2.03 | 11.7k | 2,636 | 48 | 0 | **0** | 27 | 0 |
+| 1:6 Opus r8 | $1.38 | 38.0k | 2,770 | 44 | 0 | 19 | 25 | 0 |
+| 1:6 Fable r8 | $1.78 | 7.4k | 2,261 | 37 | 0 | 11 | 21 | 0 |
+
+**7:16.**
+
+- Both 1:6 readings use it: Opus with "Âdem'e secde etmeyi reddedip kovulan İblis", Fable with "yolun kenarında
+  değil üstünde".
+- The 1:5 readings still do not.
+- The user's reading holds: 1:6 carries it (7:16 contains aṣ-ṣirāṭ al-mustaqīm verbatim), so its absence on 1:5
+  is a division of material between ayat, not a loss.
+
+**Pulley.** Both 1:6 r8 ledgers decline map chain 9:
+
+- Opus: "a technical apparatus with no bearing on road, guidance or straightness";
+- Fable: "yields no reading of the request for a road".
+
+This is stable across Opus r2–r8 and Fable. It is a writer's judgement; the user decides whether the surah
+commentary carries it.
+
+**Brief effect (r7→r8, 1:5).**
+
+- Refs: Opus 7→20, Fable 17→27.
+- Dictionary and lexicographer names: 29/21→0.
+- Thesis sections are restored. First-person hedging is rare ("aşağıda döneceğim", "diye çevirdiğim").
+- The scene-level line brought in passages that share no word with the ayah:
+  - Opus: 39:29, 67:15, 16:69 (dhululan read of the paths or of the bees);
+  - Fable: 39:29, 12:39 (arbāb mutafarriqūn beside ʿabādīd), 17:23–24 (lā taʿbudū illā iyyāhu, then janāḥ
+    adh-dhull), 5:54, 66:4 and 28:35 (the ẓahīr "back"), and 21:112 (Rabb, ar-Raḥmān, al-mustaʿān together).
+
+**Faults.**
+
+1. Opus 1:5 puts 18 Quran quotations in «» outside the reader tag. r8's shorter format paragraph lost r6's
+   "every Arabic quotation … in the tag".
+2. Fable 1:5 quotes no dictionary Arabic at all: every family image is given in Turkish only, so it is less
+   checkable. It probably reads "names no dictionary" as "quote no dictionary".
+3. Fable 1:5 gives 2:172 as addressed to the Children of Israel; it is addressed to the believers.
+4. Fable 1:6 ends on a recap paragraph and has "Bu bir benzetmedir".
+
+**1:6 against earlier readings.**
+
+- Both r8 readings exceed Opus r2 and r3 in reach and integration.
+- Opus: the direct double object against 6:161 and 37:118; 48:2 (guidance promised in the middle of victory);
+  the three failures of standing (the spent mount, still water, the intact but blind eye) against istiqāma as
+  uprightness in motion; 5:16's subul as-salām complicating 6:153.
+- Fable: 28:22, 3:8, 2:2 as the answer to the request, 37:23 (the same verb and noun without the adjective),
+  36:66 (eyes wiped out, racing to the road) with the blind man's staff, 6:161's dīnan qiyaman, and 3:101.
+- Against Astra r5 (40 refs, with the pulley), r8 is narrower but exact and checkable (100% of tags sourced on
+  1:6).
+
+**Next brief fix (r8.1):**
+
+- every Arabic quotation (Quran, hadith, dictionary phrase) goes in the reader tag;
+- a family image enters with its own Arabic phrase, only the dictionary's name is omitted;
+- end on what the reading established, not a summary.
 

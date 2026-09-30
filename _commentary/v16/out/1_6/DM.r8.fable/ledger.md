@@ -1,0 +1,19 @@
+- memory: هدى with a direct object (double accusative) vs. هدى إلى / هدى لـ, and the classical exegetical point that the direct construction fits those already on the road (continuance, تثبيت) (standard tafsir; 42:52, 3:8 quoted from memory)
+- memory: Quran Arabic and situations of 2:2, 2:196, 2:255, 3:8, 3:101, 4:69, 5:97, 6:153, 6:161, 7:16, 11:56, 11:112, 17:35, 20:10, 25:63, 28:22, 36:66, 37:23, 41:30, 42:52, 83:6 (Quran, from memory; map lists 6:153, 7:16, 20:10, 5:97, 2:196, 4:69, 83:6, 17:35, 2:255 without full text)
+- memory: the hadith that in his last illness the Prophet went out to the mosque «يهادى بين رجلين» (Bukhari, narration of Aisha; also listed in map chain 3)
+- memory: ض ل ل family phrases (الغيبوبة, milk lost in water, the buried dead, the house one cannot find, «الهدى نقيض الضلالة») taken from map.md's quotations of tahdhib/maqayis/jamhara; the ض ل ل dictionary itself was not supplied
+- memory: Turkish semantic narrowing of hidayet, sırat (Sırat köprüsü), istikamet, hediye (general knowledge of Turkish usage)
+- memory: the observation that ṣirāṭ is written with ص and س and has the look of a loan (general Arabic lexicography; the dictionary itself gives the three spellings)
+- not written: ص ر ط B003 (the cutting sword) - single-source (maqayis) and no partner word in the ayah or surah; would only dramatize
+- not written: echo root ه د د (breaking, lullaby, threat) - echo, not identity; nothing to attribute to ٱهْدِنَا
+- not written: ه د ي B009 (dull, heavy man) and B011 (exchanging praise/lampoon in verse) - no function in the ayah's scene
+- not written: map chain 9 (well pulley قامة with نعامة crossbeam) - technical and rare; joins 1:6 and 1:7 in one apparatus but yields no reading of the request for a road
+- not written: map chain 12 (straightening a shaft as workshop) - the unbending shaft is used only as a straightness image; the workshop scene adds nothing to the road
+- not written: map chain 14 (قيمة as price standing in the thing's place) and B010/B007 - the price sense of قوم does not touch the road or the guide
+- not written: map chain 18 (قوم as a people, the scattered) - the plural "us" and 6:153's scattering are used, but قوم = "men's group" as an image of the "we" is a root identity without a supporting phrase in this ayah; left as implicit
+- not written: map chain 19 fully (delighted and swollen eye) - only the قوم "open but blind eye" was used, with 36:66; the نعم/غضب eye senses belong to 1:7
+- not written: map chain 7 (قوام أهل بيته, household) and chain 10 (أقام بالمكان, settling) - settling is the end of the road but the ayah asks for the road, not the halt; the household keeper adds no image to مستقيم here
+- not written: map chain 16 (soft/hard) and chain 8 (rain) - their members are in 1:1–1:3 and 1:7, not in this ayah's words
+- not written: 16:9 «وعلى الله قصد السبيل ومنها جائر» - listed by the map; would restate the one-road/many-roads point already carried by 6:153
+- not written: 36:61–62 (straight road and the multitude led astray) - the map lists it; overlaps with 36:66 and 6:153, and its exact wording is less certain from memory
+- not written: reading of 1:4 مَلِك/مَالِك (qirāʾāt) - not relevant to 1:6
