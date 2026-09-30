@@ -1,0 +1,45 @@
+{
+  "generation_status": "ok",
+  "format": {
+    "status": "error",
+    "findings": [
+      {
+        "severity": "error",
+        "path": "_commentary/v16/out/1_5/DM.r5.gpt-6.1-sol.max/1_5.reading.tr.md",
+        "line": 51,
+        "code": "malformed_tag",
+        "message": "Malformed annotation"
+      },
+      {
+        "severity": "error",
+        "path": "_commentary/v16/out/1_5/DM.r5.gpt-6.1-sol.max/1_5.reading.tr.md",
+        "line": 51,
+        "code": "arabic_outside_tag",
+        "message": "Arabic outside tag: المعبدة"
+      },
+      {
+        "severity": "error",
+        "path": "_commentary/v16/out/1_5/DM.r5.gpt-6.1-sol.max/1_5.reading.tr.md",
+        "line": 51,
+        "code": "arabic_outside_tag",
+        "message": "Arabic outside tag: السفينة"
+      },
+      {
+        "severity": "error",
+        "path": "_commentary/v16/out/1_5/DM.r5.gpt-6.1-sol.max/1_5.reading.tr.md",
+        "line": 51,
+        "code": "arabic_outside_tag",
+        "message": "Arabic outside tag: المقيرة"
+      }
+    ]
+  },
+  "quoted_arabic_check_returncode": 0,
+  "quoted_arabic_result": "exact=8 fixed=0 fixable=0 missing=0 wrong-ayah=0",
+  "quoted_arabic_sources": "Frozen r3 evidence in r5 packet plus local canonical Quran text; no automatic fixes.",
+  "legacy_full_source_check": {
+    "status": "blocked",
+    "reason": "Legacy check.py uses unavailable /Volumes/OZTURK/_projects paths. See check.error.log."
+  },
+  "raw_response_preserved": true,
+  "prose_sha256": "d8124048661744b317c78c7c62ae894d6a7afd5ca12f3e83fd3fe0ac2119e301"
+}

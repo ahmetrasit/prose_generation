@@ -1,0 +1,182 @@
+## Ses, sahibine döner
+
+Namazda bir ağız, “hesap gününün sahibi” diye andığına birden “sana” diye seslenir. Önce Allah’ın adı, âlemlerin Rabbi oluşu, rahmeti ve hüküm günü üzerindeki sahipliği duyulmuştur. Şimdi sesin yönü değişir:
+
+{ar:إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ, tr:iyyâke na‘budu ve iyyâke nesta‘în, gloss:yalnız sana kulluk ederiz ve yalnız senden yardım isteriz} (1:5).
+
+Muhatap, yapılacak işten önce söylenir: “Sana.” Yardım istenirken aynı yöneliş yeniden kurulur: “Sana.” Türkçedeki “yalnız”ı duyuran da bu öne alış ve tekrardır. Kulluğun karşısında kim varsa, yardım arayışının karşısında da o vardır.
+
+Bir kişinin ağzından çıktığında bile söz “ederim, isterim” demez. “Ederiz, isteriz” der. Allah’a seslenen insan, daha dileğini açıklamadan kendisini bir “biz”in içine yerleştirir. Peki boyun eğen bu “biz”i ne ayakta tutacaktır?
+
+“Kulluk ederiz” sözünün ailesinde sahip olunan insanın görüntüsü bulunur: {ar:العبد وهو المملوك, tr:el-abdu ve hüve’l-memlûk, gloss:abd, sahip olunan köledir}. Ayetteki anlam kulluktur; ailenin öteki görüntüleri onun yerine geçmeden yanında duyulur. Burada insanın bütün iradesini ilgilendiren bir bağlılık vardır. Türkçede “ibadet”i yalnız belirli dinî hareketlerle duyduğumuzda, kelimenin taşıdığı söz dinleme, boyun eğme ve kime ait olduğunu kabul etme derinliği geride kalabilir. Bu cümlede insan, hayatının buyruğunu kime teslim ettiğini söyler.
+
+Fakat Allah’a ait olmakla bir insanın mülkü olmak aynı ilişki değildir. Hür insan da köleleştirilmiş insan da Allah’ın kuludur. Birinin ötekini satın alabilmesi, Allah’a ait oluşun ölçüsü olamaz. Fatiha’nın muhatabı, insanı var eden ve yetiştiren Rab’dir. “Rab” ailesindeki yetiştirme, bir şeyi durumdan duruma geçirerek tamamına ulaştırır. Rahmân ve Rahîm adlarının ailesinde ise çocuğun büyüdüğü rahim, onun beden içindeki kabı bulunur. Sahiplik söylenmeden önce ve sahipliğin çevresinde, büyüten ve esirgeyen bir ilişki kurulmuştur.
+
+İnsanların dünyasında bu ilişki kolayca başka bir şeye çevrilebilir. Kulluk fiilinin ailesinde, saygı gösterilen, yüceltilen ve hizmet edilen kişi de adlandırılır. Bir insanın gördüğü hizmet, onun kendisini bütün iradelerin sahibi saymasına kadar büyüyebilir.
+
+Firavun, Mûsâ’ya tam bu kapıdan seslenir: “Seni aramızda çocukken yetiştirmedik mi?” Sarayda geçen yılları hatırlatarak karşısındaki insan üzerinde bir hak ileri sürer (26:18). Mûsâ’nın cevabında, Fatiha’nın kulluk ailesi bu kez köleleştirme biçimiyle görünür: İsrâiloğullarını köleleştirmişken bu iyiliği kendisine başa kakmaktadır (26:22). Bir çocuğu yetiştirmiş olmak, bir halkı boyunduruk altında tutmanın gerekçesine dönüşemez.
+
+Ardından Firavun “Âlemlerin Rabbi de nedir?” diye sorar (26:23). Mûsâ’nın cevabı sarayın duvarlarını aşar: Göklerin, yerin ve ikisi arasındakilerin Rabbi (26:24). Fatiha’da “yalnız sana” diyen insanın önünde de böyle genişleyen bir sahiplik vardır. Bir insana duyulan saygı, ondan görülmüş iyilik veya onun yardımına duyulan ihtiyaç, bütün iradeyi ona teslim etme hakkı vermez.
+
+İkinci “sana” bu yüzden ilkini tamamlar. İnsan, yardım bulabilmek için yeniden başka bir mutlak sahibin önüne eğilmez. Kulluğunu yönelttiği Rab’be ihtiyacını da açar. Sarayda yetişmiş Mûsâ’nın ağzında “Rab”, göğe ve yere doğru açılmıştır; şimdi o genişliğin içinde yürünecek bir yol aranır.
+
+## Ayakların altında açılan yol
+
+Bir yol, üzerinden geçildikçe yürünür hâle gelir. Pürüzü azalır, geçişe elverişli olur. Kulluk fiilinin ailesi bu yolu şöyle adlandırır: {ar:الطريق المعبد وهو المسلوك المذلل, tr:et-tarîku’l-muabbad ve hüve’l-meslûku’l-müzellel, gloss:üzerinden geçilen, yürümeye elverişli hâle gelmiş yol}.
+
+Yolun görüntüsüyle kulluğun anlamını birbirine bağlayan ayrıntı, geçişe direnmenin azalmasıdır. Kullukta insan, kendi buyruğunu en yukarıya yerleştirmekten vazgeçer; yolun yüzeyinde ise ayağın ilerlemesini engelleyen sertlik giderilmiştir. Baş eğişin yanında, yürüyüşün önü açılır.
+
+Bir sonraki ayetin isteği bu görüntüyü büyütür:
+
+{ar:ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ, tr:ihdine’s-sırâta’l-müstakîm, gloss:bizi dosdoğru yola ilet} (1:6).
+
+Yardımın neye dönüşeceği hemen görünür: Bir yönün bulunmasına, o yönde yürüyebilmesine. “Bizi ilet” sözünün ailesindeki kılavuz önden gider. Elde tutulan değnek bile sahibinden önce ilerlediği için bu ailede adlandırılır. Yolcu, her adımda yalnız kendi önünü yoklamak zorunda kalmaz.
+
+Fatiha’nın daha önce söylediği “âlemler”in ailesindeki işaret ve yüksek dağ, bu yürüyüşün uzağında durur: Nerede olduğunu ve hangi yöne gideceğini belirlemeye yarar. “Mâlik”in ailesindeki yolun ortası ise ayağın tutulacağı hattı daraltır. Uzakta seçilecek işaret, önde yürüyen kılavuz ve üzerinde kalınacak yol birbirini tamamlar. Düz bir mızrak sapı gibi eğrilmeyen hat, ancak birinin adımını ona uydurmasıyla yürüyüş olur.
+
+Son ayet bu yolu insanlarla tanımlar: Kendilerine nimet verilmiş olanların yolu (1:7). İstenen şey boş bir çizgi değildir. İnsanların hayatlarında yürünmüş, bağlılığın ve yardımın birlikte yaşandığı bir yoldur. Kulluk ailesindeki üzerinden geçilmiş yol görüntüsü, burada ayak izi taşıyan bir istikamete dönüşür.
+
+Kur’an başka bir sahnede bu bağı açıkça kurar. Allah, Âdemoğullarına şeytana kulluk etmemeleri konusunda verdiği ahdi hatırlatır; şeytan onların açık düşmanıdır (36:60). Ardından “Bana kulluk edin; dosdoğru yol budur” der (36:61). Burada kullukla dosdoğru yol, metnin kendi içinde birleşmiştir. Hemen sonraki söz, şeytanın çok sayıda insanı yoldan çıkardığını bildirir (36:62). Yönün doğruluğu, insanın kimin buyruğunu izlediğinde açığa çıkar.
+
+Fakat açık yolun üzerinde de bir engel bulunabilir.
+
+Kulluk kökünün ayrı bir kolunda incinmiş gurur, öfke ve gururu incindiği için susan insan vardır. Aynı kökün bir kolunda boyun eğiş duyulurken, bu öteki kolda insanın kendisini eğilmeye kapatışı duyulur. Fatiha’nın “sana” diyerek açtığı ağız, böyle bir kapanıştan çıkmaktadır: İhtiyacını söyleyebilmek için kendini yeterli ve üstün ilan etmekten vazgeçmek gerekir.
+
+İblîs’in sahnesi bu kapanışın yol üzerindeki sonucunu gösterir. Allah’ın Âdem’e secde buyruğuna karşı İblîs, kendisinin ateşten, Âdem’in çamurdan yaratıldığını ileri sürerek “Ben ondan daha hayırlıyım” der (7:12). Sonra Allah’ın dosdoğru yolunun üzerine oturup insanları bekleyeceğini söyler (7:16). Üstünlük iddiası, yalnız kendi başını eğmemekle kalmaz; başkalarının yürüyüşünü kesen bir pusuya dönüşür.
+
+“Yalnız sana kulluk ederiz” diyen insan, önünü kapatabilecek bu iddiayı kendi içinde de tanımak zorundadır. Yolun düz oluşuyla yolcunun yürüyebilmesi arasında hâlâ bir mesafe vardır. İkinci “sana”, tam bu mesafede duyulur: Açık yolun üzerinde ilerlemek için yardım gerekir.
+
+## Deri işlenir, gemi kaplanır
+
+Bir devenin derisinin tamamı katranla kaplanmıştır. Kulluk fiilinin ailesindeki “muabbad”, bu deveyi de adlandırır. Aynı ailede ziftle kaplanmış gemi vardır: {ar:المعبدة السفينة المقيرة, tr:el-muabbede, es-sefînetü’l-mukayyere, gloss:muabbede, ziftle kaplanmış gemidir}.
+
+Deve derisine katran, uyuzun tedavisinde de sürülür. Geminin kaplaması ise suyun gövdeye sızmasını önler. İki yüzeyin ihtiyacı farklıdır: Birinde canlı bedenin derisi, ötekinde su üzerinde yük taşıyacak bir gövde vardır. İkisinde de yapılacak iş için yüzeye müdahale edilir. Yolun yürünebilir hâle gelmesiyle birlikte, yolculuğu taşıyacak şeylerin hazırlanması görünür.
+
+Deve aynı zamanda uysallaştırılmış hayvan diye anılır. Öne çevrilecek bir boynu, hareket edecek bacakları vardır. Fatiha’nın kılavuzluk ailesi atın boynunu ve önde giden hayvanları da adlandırır; sahiplik ailesinin bir ifadesinde hayvanın bacaklarıyla ön tarafı birlikte bulunur. Hareket, yalnız bir emrin verilmesiyle açıklanmaz. Yöneltilecek bir beden ve o yönü taşıyabilecek uzuvlar gerekir.
+
+Yardım fiilinin ayrı bir kolundaki yaban eşeği sürüsü, bu görüntüye evcil olmayan bir topluluğu ekler. Kılavuzluk ailesi, yaban hayvanlarının önden gidenlerini de tanır. Birlikte hareket etmek ve önde gideni izlemek, yalnız boyunduruk altına alınmış hayvanların görüntüsü değildir. Fatiha’nın “biz”i için de birlik, her ferdin gücünün silinmesi anlamına gelmez; güçlerin bir yön bulması gerekir.
+
+Sûrenin sonunda yolunu şaşıranların ailesinde görünen kayıp deve ise ıssız yerde kalmıştır; sahibi bilinmez. Buradaki ayrıntı, devenin sahibini zihninden silmesi değildir. Ortada kime ait olduğu belirlenemeyen, korunmuş ilişkiden kopmuş bir hayvan vardır. Fatiha baştan Rabbini ve sahibini adlandırır. Buna rağmen yol ister. Kime ait olduğunu bilmekle, önündeki her adımı bulabilmek aynı şey değildir.
+
+Hazırlama görüntüsü daha önce söylenen adlarda da çalışır. “Rab” ailesinde deri yağla işlenir; bir su tulumu koyu meyve özüyle hazırlanır. “Mâlik” ailesinde hamur kuvvetlice yoğrulur. Birinde yüzey kullanıma hazırlanır, ötekinde dağınık malzeme sıkı bir bütün olur. “Müstakîm”in ailesinde eğri bir şey düzeltilir; son ayetteki “gayr”ın ailesinde yolcular semerlerini onarır. Yol, binek, kap ve yükün yerleştirileceği düzenek, birbirinin işini mümkün kılar.
+
+Bu ayrıntılar, “kulluk ederiz” sözünü yalnız kendini aşağı indiren bir beden olarak görmemizi genişletir. O bedenin yetişmesi, hazırlanması ve dayanması da gerekir. Kulluk ailesinin başka bir kolu kuvveti ve sağlamlığı adlandırır; güçlü, semiz deve bu kolda görünür. “Kumaşının hiç dayanıklılığı yok” sözü de buradadır. Bir kumaşın dayanma gücü, üzerine verilen işi sürdürebilmesidir. Baş eğen insanın da sözünü taşıyacak bir dayanıklılığa ihtiyacı vardır.
+
+Mûsâ’nın yetiştirilmesi, bu hazırlığın Kur’an’daki canlı bir sahnesidir. Firavun’un “Seni yetiştirmedik mi?” iddiasının karşısında Allah, Mûsâ’ya daha önceki himayesini hatırlatır: Üzerine kendisinden bir sevgi bırakılmış, gözünün önünde yetiştirilmesi sağlanmıştır (20:39). Sonra “Seni kendim için seçip hazırladım” diye seslenir (20:41). Ardından Mûsâ ve kardeşi ayetlerle gönderilir (20:42). Yetiştirme, insanı bir işi yapabilecek hâle getirir.
+
+Yardım isteyen kişi, böylece yalnız kırılmış bir şey değildir. Bakım görmüş, güç kazanmış, yola hazırlanmış olabilir. Yine de hazırlanan devenin ayağı yorulabilir; onarılmış semerin taşıdığı binek bir yerde durabilir.
+
+## Binek durunca insan nasıl yürür?
+
+Bir yolcu, bineği yorulduğu veya zarar gördüğü için yolda kalır. Kulluk fiilinin ailesinde bu durumun da adı vardır. Bazı kullanımlarda binek bütünüyle kaybolmuştur. Yol yerindedir, gidilecek yön bulunabilir; fakat insanı o yönde taşıyan imkân ortadan kalkmıştır.
+
+Bir sonraki ayetin “müstakîm” ailesinde de hayvanın yorgunluktan durup ilerleyememesi anlatılır. Aynı kök, insanın ayağa kalkışını adlandırır. Bineğin durmasıyla insanın doğrulması, iki ayrı bedenin iki ayrı hâlidir. Birinin hareketi kesilince ötekinin yürüyüşü başka bir desteğe ihtiyaç duyar.
+
+“Bizi ilet” sözünün ailesinde bunun son derece somut bir görüntüsü bulunur: Güçsüzlüğünden ve sallanışından dolayı iki kişinin arasında, onlara dayanarak yürüyen insan. İki yanında destek vardır; ayakları yine yere kendisi basar. Yardım, yürüyüşü onun elinden almaz. Yürüyüşün sürmesini sağlar.
+
+“Kulluk ederiz” ile “yardım isteriz”in birlikteliği burada bedene kavuşur. İnsan işi üstlenir; o işi sürdürme gücünü bütünüyle kendisinden türetemez. İhtiyacını söylemesi, yaptığı taahhüdün içindedir.
+
+Bu ihtiyaç yalnız çocukluğa veya tükenmişliğe ait de değildir. Yardım kökünün bir kalıbında gücüyle yaşı birbirine yetişmiş yük atı vardır. Başka bir kolunda, yaşça orta evrede olan hayvan adlandırılır: {ar:العوان, tr:el-avân, gloss:ne genç ne yaşlı, yaş bakımından orta evrede olan}. Rab’bin durumdan duruma yetiştirdiği canlı, gücünün yerleştiği bir evreye ulaşabilir. Olgunluk, bütün dayanakları kendi içinde toplamak değildir.
+
+Mûsâ’nın kavmine bir inek kesme emri verildiğinde yaş sorusu bu kelimeyle cevaplanır: İnek ne yaşlıdır ne de körpe; ikisi arasındadır. Cevabın sonunda “Size emredileni yapın” denir (2:68). Soru sormaya devam ederken “Allah dilerse doğruyu bulacağız” diye konuşurlar (2:70). Sonunda hayvanı keserler; ayet, bunu neredeyse yapmayacaklarını da bildirir (2:71).
+
+Bu sahnede yönün açıklığa kavuşmasıyla fiilin gerçekleşmesi arasındaki aralık görünür. Bilmek, adımı kendiliğinden attırmaz. Fatiha’nın sesi ise yardım isterken aynı anda “kulluk ederiz” demektedir. İnsan, yardım arayışını eylemin dışında bir bekleme odasına yerleştirmez.
+
+Mûsâ, Firavun’a gönderildiğinde de yardım ister. İstediği destek, kardeşi Hârûn’dur: Ailesinden bir yardımcı verilmesini, onunla gücünün pekiştirilmesini talep eder (20:29; 20:30; 20:31). Bu talep Allah’a yönelir; cevabın içinde başka bir insan bulunabilir. Allah’tan yardım istemek, insanın omzuna dayanma imkânını da açar.
+
+İki kişinin arasında yürüyen adamın görüntüsünde olduğu gibi, destek insanın dışında durur ve onun hareketini taşır. Bazen bu destek bir kardeştir. Bazen, suya ulaşmayı mümkün kılan bir tahta ve makaradır.
+
+## Su, dayanağını görünür kılar
+
+Bir kuyunun ağzında iki dikme vardır. Üzerlerine yatay bir tahta yerleştirilmiş, tahtadan makara asılmıştır. Fatiha’nın son ayetindeki nimet ailesi bu yatay parçayı, bir önceki ayetin doğruluk ailesi ise makara ve donanımını adlandırır. İki kelime ailesinin parçaları, aynı düzeneğin içinde buluşur.
+
+Makara, çekişin yönünü değiştirir. İp aşağı çekilirken suyu taşıyan kap yukarı çıkabilir. Fakat makaranın kendisi de taşınmalıdır: Onu yatay tahta, tahtayı dikmeler tutar. Kuyuda su bulunmasıyla suyun insanın eline ulaşması arasında, birbirine dayanan parçaların işi vardır.
+
+“Âlemler” sözünün ailesindeki suyu bol kuyu, bu düzeneğin altındadır. “Mâlik”in ailesinde ise yolcunun yanında bulunan su, onun işini elinde tutmasını sağlayan şey diye adlandırılır. Suyun sahibi olmak, yolculuğu sürdürebilecek imkânı elinde bulundurmaktır. Katranlanmış geminin suyu dışarıda tutması, hazırlanmış tulumun suyu yanında taşıması ve kuyunun suyu yukarı vermesi farklı işlerdir; her biri aynı ihtiyacın başka bir yüzünü karşılar.
+
+Sûrenin sahiplik ve doğruluk aileleri, burada daha geniş bir bağlantı kurar. Bir işin dayandığı temel ile onu ayakta tutan düzen, aynı tarifte birleşir. Kalp bedenin dayanağıdır; duvarın sağlamlığı parçalarının birbirini tutmasıdır. Yatak ve masa, ayaklarıyla ayakta kalır. “Ayakta tutmak” artık genel bir teselli sözü değildir. Hangi parça hangi ağırlığı taşıyorsa, destek orada çalışır.
+
+Yardım kelimesinin tarifindeki genişlik de tam buraya oturur: Sana yardım eden yahut kendisiyle işini gördüğün her şey senin yardımındır. Bir insan, bir araç veya elde bulunan su gerçekten yardımcı olabilir. İkinci “yalnız sana”, bu yardımcıların işini görünmez kılmaz. Onların imkânını kime borçlu olduğumuzu ve hiçbirinin tek başına bütün hayatın sahibi olamayacağını sorar.
+
+Su bazen kuyudan yukarı çıkar; bazen yukarıda asılı buluttan iner.
+
+Fatiha’nın başlangıcındaki “isim”in yükseklik ailesinde gök, bulut, yağmur ve yağmurun büyüttüğü bitki bulunur. “Rab” ailesindeki üst üste binmiş bulut ise bitkiyi yetiştirmesiyle açıklanır. Yetiştiren Rab adıyla, bitkiye su taşıyan bulutun işi aynı aile içinde duyulur. Nimet ailesindeki nemli güney rüzgârı, bu gökyüzüne hareket katar. Son ayetin “gayr” ailesindeki bir ifadede Allah, yağmurla insanların durumunu düzeltir.
+
+Kur’an bu parçaların yaptığı işi bir sahneye yerleştirir. Allah rüzgârları rahmetinin önünden gönderir; rüzgârlar ağır bulutları kaldırır. Bulutlar ölü bir beldeye sevk edilir, su indirilir ve ürünler çıkarılır (7:57). Ağır bulutu taşıyan rüzgâr ile suyu taşıyan kuyu düzeneği aynı araç değildir. Fakat ikisinde de yardım, ihtiyaç duyulan şeyin bulunduğu yerden ihtiyaç sahibine ulaşmasıyla görünür olur.
+
+Başka bir ayette yağmur, insanlar ümitlerini kestikten sonra iner; Allah rahmetini yayar (42:28). Fatiha’nın yardım isteğinin önünde iki kez duyulan rahmet, burada kuru toprağa ulaşan su hâlini almıştır. Yardım isteyen ağız, zaten suyla, besinle ve yetiştirilmiş bir bedenle konuşmaktadır.
+
+## Yardım, elleri işe çağırır
+
+Bir dağın iki yanı arasındaki açıklığa demir parçaları yerleştirilir. İnsanlar ateşi harlamak için üfler; kızgın demirin üzerine erimiş bakır dökülür. Zülkarneyn’in kurduğu engelde güç, yalnız bir kişinin buyruğu olarak durmaz: Malzeme, emek ve birlikte yapılan iş olur (18:96).
+
+Bu işten önce halk, kendilerini tehdit eden Ye’cûc ve Me’cûc’e karşı bir engel yapması için Zülkarneyn’e ödeme teklif etmiştir (18:94). O ise Rabbinin kendisine verdiği imkânın daha hayırlı olduğunu söyleyip “Bana güçle yardım edin” diye karşılık verir (18:95). “Yardım edin” sözü, Fatiha’daki yardım isteme fiiliyle aynı köktendir; burada yardımın isteneceği kişiler açıkça insanlardır.
+
+Rab’den gelen imkân, insanların katkısını gerekli bir işe yerleştirir. Zülkarneyn onların ellerini, demiri ve ateşi kullanır. Ortaya çıkan yapıyı da “Rabbimden bir rahmet” diye adlandırır (18:98). Yapının rahmet oluşuyla insanların emek vermesi birlikte doğrudur.
+
+Bu sahne, “yalnız senden yardım isteriz” sözünün nasıl bir dünyada yaşandığını gösterir. Yardımı Allah’a yöneltmek, eldeki güçleri harekete geçirebilir. Allah’ın verdiği imkânı tanıyan insan, başka insanlardan katkı isterken onları hayatının mutlak sahibine dönüştürmez. Katkıyı verenler de bir işin gerçekleşmesine katılır.
+
+Zülkarneyn aynı anda yapının sınırını söyler: Rabbinin vaadi geldiğinde engel yerle bir olacaktır (18:98). Demirin sağlamlığı gerçektir; kalıcılığı sınırsız değildir. Kuyu makarasını taşıyan tahta, insanı taşıyan binek ve topluluğu koruyan yapı, belirli bir işi belirli bir süre yapar. İkinci “sana”, yardım arayışının bunlardan birine kapanmasını önler.
+
+Kur’an, Fatiha’daki yardım isteme fiilini sabır ve namazla birlikte de kullanır. Başkalarına iyiliği emrederken kendilerini unutanlara yöneltilen sorunun ardından, sabır ve namazla yardım istemeleri söylenir (2:44; 2:45). Fakat namazın, gönülden boyun eğenler dışında ağır bir iş olduğu da aynı yerde bildirilir (2:45). Yardım için yönelinen şey, insandan bir emek ister.
+
+Burada kullukla yardım isteme birbirini içeriden taşır. İnsan namaza yönelerek yardım ister; bu yönelişi sürdürebilmek için baş eğmesi gerekir. Hemen sonraki ayet, bu insanların Rablerine kavuşacaklarını ve O’na döneceklerini bildiklerini söyler (2:46). Fatiha’da da hüküm gününün sahibi anıldıktan sonra kulluk ve yardım sözü gelir.
+
+“Ve” ile birleşen iki cümlede bir yandan iş üstlenilir, bir yandan o işin desteği istenir. İpi çeken el, makaranın yardımını kullanırken çalışır. Namazdaki ağız, yardım isterken kulluğunu yerine getirir. Güç, kendisini tek başına yeterli ilan etmeye dönüşmeden işe katılır.
+
+## Bir tek muhatap, dağılmayan bir “biz”
+
+Bir adamın üzerinde birbirleriyle çekişen ortaklar vardır. Başka bir adam bütünüyle tek bir kişiye bağlıdır. Allah bu iki durumu yan yana koyup aynı olup olmadıklarını sorar; benzetmenin sonunda hamdin Allah’a ait olduğunu söyler (39:29).
+
+Çekişen sahiplerin bulunduğu yerde insanın bağlılığı da çekişmenin içine alınır. Her talep onu başka bir yöne çeker. Fatiha’daki iki “sana”, bu parçalanmanın karşısında tek bir yön kurar. Kulluk da yardım arayışı da aynı muhatapta toplanır.
+
+Fakat tek muhatap, tek kişilik bir dünya kurmaz. Ayetin iki fiili de “biz” diye konuşmaktadır.
+
+Kulluk kökünün bir kolunda {ar:العباديد, tr:el-abâdîd, gloss:her yana dağılan insan kümeleri ve ayrı yollar} vardır. İnsanlar bütün yönlere gitmiştir; yollar da birbirinden ayrılır. Fatiha’nın “biz”i, bu dağılma ihtimalini içinde taşır. Aynı ağızla bir cümle söylemek, kendiliğinden aynı yönde yaşamayı sağlamaz.
+
+Kur’an dosdoğru yolu gösterirken başka yolları izlememeyi ister; çünkü onlar insanları Allah’ın yolundan ayırıp dağıtacaktır (6:153). Burada yolların çoğalmasının sonucu, insanların birbirinden kopmasıdır. Ayetin tek “sana”sı ile çoğul “biz”i arasındaki ilişki belirginleşir: Ortak yöneliş, birbirini taşıyabilecek bir topluluğun şartıdır.
+
+Yardım ailesi bunun fiilini de verir: {ar:تعاون القوم, tr:teâvene’l-kavm, gloss:topluluk birbirine yardım etti}. Fatiha’da Allah’a yönelen yardım isteği, insan ilişkilerinde karşılıklı desteğe açılır.
+
+Kur’an bu desteğin yönünü ayrıca sınırlar. Kendilerini Mescid-i Haram’dan alıkoyanlara duydukları düşmanlığın insanları saldırganlığa sürüklememesi istenir; ardından iyilik ve takvada yardımlaşma, günah ve saldırganlıkta yardımlaşmama buyruğu gelir (5:2). Aynı yardım kökünün topluluk biçimi burada kullanılır. Birbirine destek olmak, desteğin yönüyle birlikte değerlendirilir. Kalabalığın kuvveti, yanlış bir işi de büyütebilir.
+
+Bu yüzden “yalnız sana” ile “biz” birbirine muhtaçtır. Tek muhatap, topluluğun yardımlaşmasına bir ölçü verir; topluluk da bu yönelişi yalnız ağızda kalan bir söz olmaktan çıkarıp birbirinin hayatını taşıyan işe dönüştürür.
+
+Yardım ailesindeki *avân* adı, başka bir kalıpta bir kez yaşandıktan sonra yeniden yaşanan savaş için de kullanılır. İlk karşılaşmanın ardından gelen ikinci karşılaşma, daha önce kazanılmış gücün bütün geleceği güvenceye alamadığını gösterir. Yardım isteği yeniden duyulur.
+
+Kur’an, bir peygamberin yanında savaşan çok sayıdaki bağlı topluluğu anlatırken onların başlarına gelenler yüzünden gevşemediklerini, zayıflamadıklarını ve boyun eğip teslim olmadıklarını söyler (3:146). Onların sözü ise günahlarının ve işlerinde aşırılıklarının bağışlanmasını, ayaklarının sağlam tutulmasını ve düşmana karşı destek verilmesini istemektir (3:147). Dayanıklılıkları vardır; aynı anda kusurlarını ve desteğe ihtiyaçlarını söylerler.
+
+Sağlam duruşun kalpte sertleşmeye dönüşmesi ise topluluğu dağıtabilir. Bir çatışmada insanların geri çekilip dağıldığı sahnenin ardından (3:153), Peygamber’e Allah’ın rahmeti sayesinde onlara yumuşak davrandığı söylenir. Kaba ve katı kalpli olsaydı çevresinden dağılırlardı (3:159). Fatiha’nın rahmet ailesindeki yumuşaklık, burada insanların bir arada kalmasını sağlayan davranış olur.
+
+Aynı ayet affetmeyi, onlar için bağışlanma istemeyi ve iş hakkında onlara danışmayı ister. Karar verildiğinde Allah’a dayanılır (3:159). Sonraki ayet, Allah yardım ederse kimsenin üstün gelemeyeceğini; O yüzüstü bırakırsa yardımın nereden bulunacağını sorar (3:160). İnsanların düşüncesine başvurmakla son dayanağı Allah’ta bulmak aynı sahnede yer alır.
+
+Fatiha’nın “biz”i böyle derinleşir. İçinde danışılan insan, destek istenen kardeş, ortak işe katılan el ve ayağı sağlam tutulması için dua eden kişi vardır. Onları bir arada tutan yalnız kuvvet değildir. Yaralı gururun sözü kapatmasına karşı, rahmetin insanı yeniden konuşmaya ve yardım istemeye açmasıdır.
+
+## Yürüyen ayak, hüküm gününe varır
+
+İnsanlar bir gün âlemlerin Rabbi için ayağa kalkacaktır (83:6). Fatiha’da daha önce duyulan “âlemlerin Rabbi”, bu sahnede önünde durulacak muhataptır. Yardımla yürüyen insanın yolu, sonunda bir hesapla buluşur.
+
+Rahmân’a çocuk isnadını reddeden ayetlerin içinde, göklerde ve yerde bulunan herkesin Rahmân’a kul olarak geleceği söylenir (19:93). Ardından her birinin kıyamet günü O’na tek başına geleceği bildirilir (19:95). Dünyada “biz” diye konuşmak, ferdin sorumluluğunu ortadan kaldırmaz. Birbirine destek olan insanlar, her birinin vereceği hesabı birbirinin yerine veremez.
+
+Şeytana kulluk etmemeyi ve Allah’a kulluğun dosdoğru yol olduğunu bildiren sahne de bu hesabın içinde ilerler. Suçluların ağızları mühürlenir; elleri konuşur, ayakları kazandıkları şeylere tanıklık eder (36:65). Başta kulluğunu söyleyen ağızla, hayat boyunca işi yapan uzuvlar arasındaki ilişki görünür hâle gelir.
+
+“Kulluk ederiz” sözünü hangi el gerçekleştirmiştir? Yardım isteyen insan, kendisine verilen gücü hangi yolda kullanmıştır? Yolu üzerinde geçilerek elverişli hâle getiren ayak görüntüsü, şimdi yürüyüşünün tanığı olan ayağa dönüşür. Sözün yönü, hayatın yönünde okunur.
+
+Hüküm gününü açıklayan başka bir ayet, o gün kimsenin kimse için bir şeye güç yetiremeyeceğini ve emrin Allah’a ait olduğunu söyler (82:19). Dünyada birbirini taşıyan araçların ve insanların sınırı burada bütünüyle açığa çıkar. Fatiha’nın ilk “sana”sıyla ikinci “sana”sının aynı muhatabı seçmesi, bütün dayanakların ötesine uzanır.
+
+Namazdaki ağız yeniden “sana” der. Boyun eğişini taşıyacak yardımı aynı muhataptan ister; ardından “bizi ilet” gelir. İki kişiye dayanarak yürüyen adamın ayağı hâlâ kendi ayağıdır. Önde bir kılavuz, yanında destek arayan insan, adımını kendisi atacaktır.
+
+=== LEDGER ===
+- memory: Pharaoh’s claim to have raised Moses, Moses’ response about enslaving Israel, and the exchange about the Lord of the worlds (26:18, 26:22, 26:23, 26:24).
+- memory: Satan’s superiority claim and the covenant against serving Satan; the later sealing of guilty mouths and testimony of hands and feet (7:12; 36:60, 36:65).
+- memory: Tar’s use in treating camel mange, pitch’s protection against water ingress, and the direction-changing operation of a fixed pulley (classical Arabic camel-care usage; ordinary material knowledge).
+- memory: Moses’ upbringing under divine care, his selection and commission with his brother, and his request for Aaron’s strengthening assistance (20:29, 20:30, 20:31, 20:39, 20:41, 20:42).
+- memory: The cow’s intermediate age, the command to act, the appeal for guidance, and the eventual reluctant performance (2:68, 2:70, 2:71).
+- memory: Zulkarnayn’s response to the payment offer, request for physical assistance, construction process, and attribution to divine mercy with an eventual limit (18:94, 18:95, 18:96, 18:98).
+- memory: The context and wording of seeking help through patience and prayer, including its difficulty and expectation of meeting the Lord (2:44, 2:45, 2:46).
+- memory: The competing-owners parable and its praise formula; cooperation’s ethical limits and the preceding warning against retaliatory aggression (39:29; 5:2).
+- memory: The fighters’ prayer, retreat context, consultation and reliance clauses, and the following statement about divine assistance (3:147, 3:153, 3:159, 3:160).
+- memory: The rejection of divine offspring surrounding universal servitude, each person’s individual arrival, and the inability to benefit another on Judgment Day (19:92, 19:95; 82:19).
+- not written: The perfume-grinding stone and the fixed idioms for not delaying or slightly quickening a run — neither supplies a supported operation connecting this address, dependence and guided walking; importing speed into the focus verbs would overreach.
+- not written: The old palm, pubic hair and shaving, and the place-associated wine — no textual connection establishes their contribution to assistance, maturity in action or the journey. The female bodily-balance idioms add no distinct consequence beyond the developed strength-and-age relationship.
+- not written: Deriving eyes, springs, ready cash or surveillance from nastaʿīn — its identity root is ʿ-w-n; the proposed ʿ-y-n echo cannot establish those meanings. Moses’ upbringing “under My eye” enters through the explicit Quranic passage, independently of that echo.

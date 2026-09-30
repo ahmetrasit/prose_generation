@@ -1,0 +1,13 @@
+- memory: The grammatical force of the repeated fronted object pronoun, first-person plural imperfect verbs, and request morphology; individual recitation retaining “we” (Arabic grammar and Muslim prayer practice).
+- memory: Pharaoh’s appeal to having raised Moses, Moses’ reply concerning Israelite enslavement, and the shared عبد root in 26:22; universal servanthood followed by individual appearance before God (26:18; 26:22; 19:93; 19:94; 19:95).
+- memory: The covenant against serving Satan, worship as the straight path, and the ethical instructions preceding the prohibition of divergent paths (36:60; 36:61; 36:62; 6:151; 6:152; 6:153).
+- memory: Riding ships and animals, remembering bestowed capacity, and returning to the Lord; livestock benefits followed by the adoption of powerless gods for hoped-for help (43:12; 43:13; 43:14; 36:71; 36:72; 36:73; 36:74; 36:75).
+- memory: Sacrificial camels benefiting people, feeding those in need, and piety rather than flesh or blood reaching God (22:36; 22:37).
+- memory: A fixed pulley redirects pulling force and transfers load through its supports; pitch coating limits water ingress (general mechanical and material knowledge).
+- memory: The women’s situation at Midian’s water and Moses watering their animals before expressing his own need (28:23; 28:24).
+- memory: Dhul-Qarnayn’s refusal of payment, request for practical assistance, iron-and-copper construction, and attribution of its strength to the Lord’s mercy (18:94; 18:95; 18:96; 18:97; 18:98).
+- memory: Cooperation restricted by its moral object; consultation and reliance following merciful conduct; divine aid; seeking help through patience and prayer amid losses, belonging, return, mercy, and guidance (5:2; 3:159; 3:160; 2:153; 2:155; 2:156; 2:157).
+- not written: عبد expressions for immediate action or faster running, and the perfume-grinding stone — the focus supplies neither urgency nor a scent-related action that would make these details consequential.
+- not written: عون expressions for repeated warfare, the old palm, pubic hair and shaving, and the place-associated wine — age alone does not establish productive endurance, and the focus supplies no repeated battle, grooming, locality, or wine scene.
+- not written: عين echo branches and the proposed eye-state chain — عين is not the root of نستعين, and no textual hinge establishes the eye, spring, cash, or surveillance images as part of this focus.
+- not written: Bridal conveyance, sanctuary destination, blood-money, appraisal, and balance proposals — their neighboring lexical images do not establish a bridal relation, sanctuary destination, exchange, financial claim, or adjudication in this ayah.

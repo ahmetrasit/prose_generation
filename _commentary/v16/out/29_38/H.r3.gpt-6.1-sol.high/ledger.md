@@ -1,0 +1,5 @@
+- memory: Thamud’s identification with the people of al-Hijr, their securely carved mountain dwellings, the morning cry, and the failure of their gains to protect them (15:80; 15:82; 15:83; 15:84).
+- memory: Thamud received guidance and preferred blindness to guidance (41:17).
+- not written: Aad’s return-and-habit associations and the counted-case echo — the proper name does not establish these meanings; counting belongs to the separately mapped echo root.
+- not written: Water-access roads, the long well rope, the lifting apparatus, and stitched shelter panels — their material mechanisms would introduce additional scenes without advancing the chosen argument.
+- not written: Correct answers about creation, crisis devotion at sea, and sanctuary security (29:61; 29:63; 29:65; 29:67) — these would repeat the distinction between available understanding and governing commitment.

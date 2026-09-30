@@ -1,0 +1,13 @@
+- memory: Pharaoh’s claim to have raised Moses, Moses’ response about enslaving Israel, and the exchange about the Lord of the worlds (26:18, 26:22, 26:23, 26:24).
+- memory: Satan’s superiority claim and the covenant against serving Satan; the later sealing of guilty mouths and testimony of hands and feet (7:12; 36:60, 36:65).
+- memory: Tar’s use in treating camel mange, pitch’s protection against water ingress, and the direction-changing operation of a fixed pulley (classical Arabic camel-care usage; ordinary material knowledge).
+- memory: Moses’ upbringing under divine care, his selection and commission with his brother, and his request for Aaron’s strengthening assistance (20:29, 20:30, 20:31, 20:39, 20:41, 20:42).
+- memory: The cow’s intermediate age, the command to act, the appeal for guidance, and the eventual reluctant performance (2:68, 2:70, 2:71).
+- memory: Zulkarnayn’s response to the payment offer, request for physical assistance, construction process, and attribution to divine mercy with an eventual limit (18:94, 18:95, 18:96, 18:98).
+- memory: The context and wording of seeking help through patience and prayer, including its difficulty and expectation of meeting the Lord (2:44, 2:45, 2:46).
+- memory: The competing-owners parable and its praise formula; cooperation’s ethical limits and the preceding warning against retaliatory aggression (39:29; 5:2).
+- memory: The fighters’ prayer, retreat context, consultation and reliance clauses, and the following statement about divine assistance (3:147, 3:153, 3:159, 3:160).
+- memory: The rejection of divine offspring surrounding universal servitude, each person’s individual arrival, and the inability to benefit another on Judgment Day (19:92, 19:95; 82:19).
+- not written: The perfume-grinding stone and the fixed idioms for not delaying or slightly quickening a run — neither supplies a supported operation connecting this address, dependence and guided walking; importing speed into the focus verbs would overreach.
+- not written: The old palm, pubic hair and shaving, and the place-associated wine — no textual connection establishes their contribution to assistance, maturity in action or the journey. The female bodily-balance idioms add no distinct consequence beyond the developed strength-and-age relationship.
+- not written: Deriving eyes, springs, ready cash or surveillance from nastaʿīn — its identity root is ʿ-w-n; the proposed ʿ-y-n echo cannot establish those meanings. Moses’ upbringing “under My eye” enters through the explicit Quranic passage, independently of that echo.
