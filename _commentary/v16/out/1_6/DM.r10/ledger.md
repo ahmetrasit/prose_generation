@@ -1,0 +1,20 @@
+- memory: Quran wording quoted outside Surah 1 (36:61, 36:62, 3:51, 37:118, 48:2, 17:9, 20:10, 6:90, 19:43, 67:22, 11:112, 41:30, 83:6, 25:63, 17:35, 7:16, 7:17, 6:153, 5:95, 5:2, 5:97, 37:23, 37:24) (mushaf)
+- memory: speakers and situations of those passages: the Day-of-Judgment address and the covenant not to serve Satan (36:60–62), Isa to his people (3:51), Musa and Harun given the Book (37:114–118), the Fath opening (48:1–2), Musa travelling with his family at night and seeing the fire (20:9–10), 6:90 following the list of prophets (6:83–89), Ibrahim to his father (19:42–43), Iblis after refusing to prostrate (7:11–17), the list of commands in al-Isra (17:23–39) (mushaf)
+- memory: hadith that in his final illness the Prophet went out يهادى بين رجلين (Bukhari, narrated by Aisha)
+- memory: hadith of Ibn Mas'ud that the Prophet drew a straight line with lines to its sides, each with a caller on it, and recited 6:153 (Ahmad; al-Nasa'i al-Kubra; al-Darimi)
+- memory: the early reading of المغضوب عليهم and الضالين as two kinds of error, knowing without following and going without knowing (tafsir tradition; cf. hadith of 'Adi b. Hatim in Tirmidhi)
+- memory: canonical readings of الصراط with sin (Qunbul from Ibn Kathir, Ruways from Ya'qub) and with ishmam of zay (Khalaf from Hamza) (qira'at literature)
+- memory: the Sirat as a bridge over Jahannam in hadith on the Day of Judgment (Bukhari; Muslim)
+- memory: the Fatiha is recited in the standing (qiyam) of every rak'a; the hady is marked with a garland (qilada) around its neck (fiqh of salah and hajj)
+- memory: Turkish usage of hidayet, hediye, istikamet, kıyam, kıyamet, sırat (Turkish lexicon)
+- memory: gold coins were weighed rather than counted in trade (historical practice, general knowledge)
+- not written: echo root ه د د (breaking, rocking a child to sleep, hoopoe, threat) - an echo root, not identity; no support for bringing it into هدى
+- not written: ه د ي B009 (the dull, heavy, weak man) and B011 (exchanging praise or lampoon in verse) - did no work for any theme
+- not written: ق و م B001 (a man's people and kin), B004 (القيوم, the one who keeps everything standing), B010/B007 (price and standing in another's place), B011 (stature), B012 (well pulley, sword grip, bed legs), B014 (resisting in combat), B018 (a lively market), B019 (bodily ache), B020 (sheep's leg disease) - considered; the upright, balance, halting and mainstay senses carried the themes, and these would have been walking the family
+- not written: map chain 2 (the led mount and the stray whose owner is unknown) - only the leading animals (هوادي) did work; the ضالة/رب link belongs to 1:7 and 1:2 and did not advance a theme here
+- not written: map chain 1's ملك الطريق (the middle of the road, 1:4) and علم as waymark (1:2) - considered for the road theme; the road already had enough ground from 6:153, 7:16 and the balance images
+- not written: map chains 4, 7, 8, 9, 10, 12, 14, 16, 18, 19 (household of master and servant, womb and rearing, cloud and rain, well rig, settling on good land, fitting out, claims and blood-money, soft and hard, gathered company, eye states except عين قائمة) - they belong to other ayat and did no work for this ayah's themes
+- not written: the stranded traveler chain's أعبد به and نعم on foot - only قامت الدابة and يهادي بين اثنين did work; the others belong to 1:5 and 1:7
+- not written: 22:37 (neither flesh nor blood reaches God) as a softening of the offering image - considered, but a plain statement that the image lends protection and arrival, not sacrifice, sufficed
+- not written: the proposed loan origin of صراط from Latin strata via Aramaic (from memory, Jeffery, Foreign Vocabulary) - not in the supplied evidence and did no work beside the family's own image
+- not written: 2:143 (a middle community) for the balance theme - it shares no word of the ayah, and 17:35 already gives the Quran's own "straight balance"

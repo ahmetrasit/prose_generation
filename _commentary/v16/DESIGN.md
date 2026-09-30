@@ -1075,3 +1075,50 @@ rule.
 
 The 1:6 prompt is built with the evidence hash unchanged. Opus estimate $1.19.
 
+### r10 on 1:6, Opus 5.5 (2026-09-30, user-approved)
+
+$1.30 (estimate $1.19), 48.6k output, 32.2k thinking, 497 s. Same map and evidence as r8 and r9.
+
+| 1:6 Opus | words | sections | tags | sourced | dictionary tags | refs outside S1 | inventory transitions /1k | paragraphs with 3+ tags | "sözlük" | pulley |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| r8 | 2,770 | 6 | 44 | 100% | 16 | 25 | 4.7 | 2/46 | 0 | no |
+| r9 | 3,868 | 6 | 84 | 98.8% | 56 | 21 | 10.6 | 14/35 | 9 | yes |
+| r10 | 3,186 | 7 | 77 | 97.4% | 45 | 23 | **4.1** | 13/38 | 0 | no |
+
+**Themes.** Each section carries one theme, and family images from different roots are joined inside it:
+
+- **Kulluk edenlerin yol istemesi.** 36:61–62 and 3:51 equate worship with the straight road. 37:118 and 48:2
+  show guidance still promised to prophets. The construction without ilā is contrasted with 17:9.
+- **Önden giden.** The staff, the guide, horses' necks, the herd's front runners, 20:10, and هدى هدي فلان with
+  6:90 and 19:43. The arrowhead leads, but reaches its mark only with an unbent shaft (رمح قويم), a join across
+  two roots that is labelled as such.
+- **Yere serili yolun ayakta durması.** Why a lying road is called "standing"; the walker's istiqāma; 67:22,
+  11:112, 41:30, 83:6.
+- **Donmayan, kaçmayan adım.** Standing-still failures of ق و م (the halted mount, frozen water, the eye that
+  stands but does not see) against the routed man's flight in ه د ي (الهدي السكون). The guided step lies between
+  the two, with 25:63 and يهادي بين اثنين. This is a genuine synthesis of two families into one theme.
+- **Terazinin dili.** 17:35, the day's balance at noon, the dinar and القوام العدل. 1:7's two groups read as two
+  deviations, with كل جائر عن القصد ضال. 7:16–17's four sides, and 6:153 with Ibn Masʿūd's line-drawing hadith:
+  the balance's tongue resisting a pull from both sides.
+- **Yolda dokunulmazlık, yolun sonunda kabul.** The hady, the garland, 5:2, the refuge-seeker, the bride
+  received, the gift, and hidāya/hadiyya as luṭf. This answers 7:16: the road where one is ambushed is also a
+  road on which the walker is inviolable. 5:97 joins the two roots.
+- **İçine alan yol.** sarita as swallowing, the traveller shrinking from view, 37:23–24, the Turkish sırat
+  köprüsü; closing on ḍalla as milk dissolving in water against the road that carries its traveller home.
+
+**Pulley: out again.**
+
+- The ledger groups ق و م B012 with the sword grip and bed legs: "would have been walking the family".
+- Chain 9 is placed among chains that "belong to other ayat and did no work for this ayah's themes".
+- Under themes first, an image enters only when a theme needs it. With the current map, no theme brings well and
+  water to 1:6. This is now a map-side question (interactions), not a writer-brief one.
+
+**Faults.**
+
+- A corrupted tag: «وكاda الظل يعقل», with Latin letters inside the Arabic.
+- A garbled transliteration: "süripa" for surita.
+- Two unsourced tags: the Bukhari hadith (listed as memory) and the corrupted line.
+- The ledger again batches passages and chains.
+
+**Lost from r9:** 2:20 (qāmū in the dark), 47:17, 28:22, «ملك الدابة قوائمها وهاديها», 2:255.
+
