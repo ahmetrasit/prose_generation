@@ -1171,3 +1171,41 @@ $1.30 (estimate $1.19), 48.6k output, 32.2k thinking, 497 s. Same map and eviden
 - The new brief adds Interactions and scene lines but shortens Not carried.
 - Awaiting the user's decision.
 
+## Step 1: the S1 map with the map3 brief, without HFT (2026-09-30, user-approved)
+
+The user dropped HFT from this run to keep the cost under the gate; it can be re-added. `packets.py map --no-hft`
+removes the hft.md section and adapts the HFT lines of the brief and header in the packet only. Estimate $2.79
+(80k out; $4.39 at 130k out). Actual **$4.30**: 133.0k output, 104.8k thinking, 3 turns, 1,187 s, 10,059 words.
+Output in `out/s001/surah.map3.nohft/map.md` (69.2k characters).
+
+**Read before any writer call.**
+
+- **Labels.** No "rare", "technical", "minor" or "marginal". `[fixed expression]` appears 13 times (31 in r2).
+- **Quran lines** carry speaker, situation and scene-opening ayah, e.g. "6:153 … (scene opens 6:151 …)" and
+  "28:21–24 — Mūsā fleeing alone toward Madyan … 28:22 «عسى ربي أن يهديني سواء السبيل»".
+- **`## Interactions`** has 22 lines. Most are lexical joins (Road × Worship, Owner × Debt, Day × Debt 83:1–6,
+  Womb × Owner × Worship 17:23–24, Standing × Led 5:97). Two bear on the well:
+  - "Water × Standing: «الماء ملاك الأشياء» — water as mainstay";
+  - "Road × Mount: 28:21–24".
+  There is no Road × Water or Mount × Water line (the traveller's water).
+- **`## Ayat`** gives whole scenes. 1:6's entry lists 12 chains, including "Water: قامة, the pulley. Scene:
+  layered cloud … the full well with crossbeam and pulley, water that keeps the traveller, water lost in the
+  desert". The r2 map had "the pulley hung from the beam".
+- **Chains** (18):
+  - merged: the well and rain into one "Water: … the well below"; the balance into "Debt, weight and
+    blood-price";
+  - new: "The worshipped one and the humbled worshipper", "The sky of worship: sun, crescent, zenith, sphere"
+    (6:77 Ibrāhīm), "Favour completed and praise returned", "The days of Allah";
+  - the ع ب د pride branch B008 is now carried, in "Soft and hard".
+- **`## Not carried`** is 2.8k characters (9.8k in r2).
+
+**Losses against the r2 map** (n=1: missing HFT or run variance, cannot say which):
+
+- **7:16 is gone from the map entirely.** Iblīs is named nowhere, so the pride branch has no Iblīs scene.
+- **The eye chain is gone.** «عين قائمة» is absent; r8, r9 and r10 all used it.
+- The fitting-out and gathering chains are dissolved into others.
+- The water chain's own passage still opens at 28:23. 28:22 appears only under "the failing mount".
+
+**Step 2 packets** (r10 unchanged, new map without `## Not carried`): 1:6 est $1.14, 1:5 est $1.10. Awaiting
+approval.
+
