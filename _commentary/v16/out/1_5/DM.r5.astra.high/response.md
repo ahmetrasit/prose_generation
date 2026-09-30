@@ -1,0 +1,116 @@
+## Sesin “sana”ya döndüğü yer
+
+Ses, “Hesap gününün sahibi” derken birden hitabını değiştirir: “Sana.” O ana kadar Allah’ın adı, rahmeti, âlemlerin Rabbi oluşu söylenmiştir. Şimdi O’ndan söz eden ağız, O’na seslenir:
+
+{ar:إِيَّاكَ نَعْبُدُ, tr:İyyâke na‘budu, gloss:Yalnız sana kulluk ederiz} (1:5).
+
+“Sana” öne alınmıştır. Cümle, daha ne yaptığımızı söylemeden kime yöneldiğimizi belirler. Ardından aynı yöneliş yeniden duyulur:
+
+{ar:وَإِيَّاكَ نَسْتَعِينُ, tr:Ve iyyâke nesta‘înü, gloss:Ve yalnız senden yardım isteriz} (1:5).
+
+İkinci “sana”, ilkine eklenmiş küçük bir açıklama değildir. Kulluk ederken kime bağlanıyorsak, yardım isterken de ona dönüyoruz. İtaatin başka, dayanağın başka bir merkezde toplanmasına izin vermeyen iki ayrı vurgudur bunlar.
+
+İki fiilin de içinde “biz” vardır. Üstelik bu biz, hem bir işi üstlenir hem yardım ister. “Kulluk ederiz” diyen, kendisini eylemin dışında bırakmaz; “yardım isteriz” diyen, o eylemi gerçekleştirecek gücü kendisinde tamamlanmış saymaz. Ayet, insanın yapacağı işi onun ağzından söyletirken, o işi yapabilmesinin ihtiyacını da aynı nefese yerleştirir.
+
+Kime söylendiği, bu ihtiyacın anlamını değiştirir. Muhatap, hemen önce rahmetiyle anılmış, hesap gününün sahibi diye tanınmıştır. Yardım istemek, hesap vermekten uzaklaşmak için açılmış bir kaçış değildir; hesabı verilecek hayatın içinde tutunma isteğidir. Kur’an, göklerde ve yerde bulunan herkesin Rahmân’a kul olarak geleceğini söyler (19:93). Fâtiha’daki ses, bütün varlığın bu aidiyetini kendi iradesiyle dile getirir.
+
+Bir sonraki cümlede yardımın ilk açık biçimi duyulacaktır: “Bizi doğru yola ilet” (1:6). “Kulluk ederiz” sözü, yolu artık bildiğini ilan ederek kapanmaz. Sözü veren ağız, önünde açılacak yolu ister.
+
+## Bir insanı kaç el çekiştirir?
+
+Bir insan düşünün: üzerinde anlaşamayan birkaç ortağın mülküdür. Birinin emri ötekininkiyle çatışır; aynı beden, birbirini bozan taleplere yetişmek zorundadır. Kur’an bu insanı, bütünüyle tek bir kişiye bağlı olan insanla karşılaştırır ve ikisinin durumunun bir olup olmadığını sorar. Benzetmenin ardından “Hamd Allah’a aittir” der (39:29).
+
+Fâtiha’nın hamdiyle kulluğu arasında, böylece elle tutulur bir bağ belirir. Kulluğun yöneldiği yer çoğaldığında, insanın yapacağı iş kadar kendisi de çekişmenin konusu olur.
+
+{ar:العبد, tr:Abd, gloss:Kul; eski hukuk dilinde sahip olunan insan} kelimesinin ailesinde bu ağır insanlık tecrübesi vardır: özgür kişinin karşısında, alınıp satılabilen kişi. Aynı aile, özgür veya köle her insanın Allah’ın kulu oluşunu da söyler. Bu akraba kullanımlar ayetin anlamının yerine geçmez; kulluk ve yardım isteğinin yanında, onların taşıdığı ilişkiyi görünür kılan görüntüler olarak durur.
+
+Türkçede “ibadet” dediğimizde çoğu zaman belirli dinî fiiller gözümüzün önüne gelir. Ayetin kulluk fiili, bunlarla birlikte boyun eğerek itaat etmeyi de taşır: insanın kimin hükmünü benimsediği, kimin buyruğuna kendisini açtığı meselesini. “Yalnız sana”, bu yüzden hayatın bir bölümüne ayrılmış bir cümle olarak kalamaz.
+
+Musa’nın Firavun karşısındaki sözü, bu bağlılığın insan ilişkilerinde neyi değiştirdiğini gösterir. Firavun, Musa’yı çocukken yanında büyüttüğünü hatırlatır (26:18). Musa ise kendisine başa kakılan nimetin karşısına İsrailoğullarının köleleştirilmesini koyar (26:22). Buradaki “köleleştirmek”, Fâtiha’nın kulluk fiiliyle aynı köktendir. Bir insana yapılan iyilik, başkalarının boyunduruk altına alınmasını örtemez; iyilik görmüş olmak da sınırsız itaat borcu doğurmaz.
+
+Fâtiha’nın iki “sana”sı burada birbirinden ayrılamaz. İnsanı kendisine kul etmek isteyen güç, çoğu zaman onun güvenlik ve yardım ihtiyacına da el koyar. Firavun yeniden oğulları öldürmekten, kadınları sağ bırakmaktan ve halk üzerindeki üstünlüğünden söz ettiğinde (7:127), Musa kavmine Allah’tan yardım istemelerini ve sabretmelerini söyler; yeryüzünün Allah’a ait olduğunu hatırlatır (7:128). “Yardım istemek” burada Fâtiha’daki fiilin kökünden gelir. Toprağa hükmeden zorbanın görünür kudreti karşısında, yardımın ve mülkün son merciini yeniden belirler.
+
+Fakat bu söz, sıkıntının hemen biteceği vaadine dönüşmez. Halk, Musa gelmeden önce de geldikten sonra da eziyet gördüklerini söyler. Musa’nın cevabı, kurtuluş ihtimalini gelecekte nasıl davranacakları sorusuna bağlar (7:129). Yardım, onların yapacağı işi ortadan kaldırmaz. Boyunduruktan çıkanların önünde de yürünecek bir yol vardır.
+
+## Yol açılmış, binek durmuş
+
+Toprağın üzerinden tekrar tekrar geçilir. Geçiş, yolu işler; ayakların önündeki direnç azalır. Kulluk fiilinin ailesindeki {ar:الطريق المعبد, tr:Et-tarîku’l-muabbed, gloss:Geçilerek yürünür hâle gelmiş, düzlenmiş yol} böyle bir yoldur.
+
+Kulluğun boyun eğişiyle yolun geçişe elverişli oluşu, aynı ailede birbirine yaklaşır. Yol, üzerinde yürüyene direnç göstermeyecek hâle gelir. İnsan bakımından bunun karşılığı, yöneldiği buyruğa açık olmak, her adımda başka bir buyruğun çekişine kapılmamaktır. Böylece “kulluk ederiz” sözünün hemen ardından yol istenmesi, iki ayrı konunun art arda gelmesi olmaktan çıkar: bağlılık, yürüyüş kazanmak ister.
+
+Yine de bir yolun çok yürünmüş olması, onun doğruluğunu kendiliğinden sağlamaz. Kur’an, Âdemoğullarına şeytana kulluk etmemeleri yönündeki ahdi hatırlatır (36:60); ardından Allah’a kulluğu “dosdoğru yol” diye adlandırır (36:61). Sonraki ayet, şeytanın çok büyük bir topluluğu saptırdığını söyler (36:62). Kalabalıkların geçişiyle belirginleşmiş izler de insanı yanlış yere götürebilir. Fâtiha, kulluk sözü verdikten sonra bu yüzden yolun niteliğini sorar: Bizi dosdoğru olana ilet.
+
+Şimdi gözümüzü yoldan bineğe çevirelim. Aynı kulluk ailesinde, insanlara güçlük çıkaran, yönetilmeye direnen deve de bulunur; bineği yorulduğu, zarar gördüğü veya elinden çıktığı için yolda kalan insan da. Birinde ilerlemeye direnç vardır; ötekinde ilerlemenin imkânı tükenmiştir. İstekli olmak, yola devam edebilmek için tek başına yetmez.
+
+Ayetin iki fiili bu ayrımı taşıyabilir: Sana yöneliyoruz; bu yönelişi sürdürebilmek için senden yardım istiyoruz. Yardım isteği, verilen sözü geri almak değildir. Sözün yol üzerinde gerçekleşebilmesi için açılan eldir.
+
+Bir sonraki ayetin {ar:ٱهْدِنَا, tr:İhdinâ, gloss:Bizi doğru yola ilet} sözü de bu eli karşılıksız bırakmayan bir görüntü taşır (1:6). Hidayetin kelime ailesinde önden yürüyen rehber vardır. Aynı ailede, güçsüzlüğünden sallandığı için iki kişinin arasında onlara dayanarak yürüyen insan da görülür. Yol göstermek, burada yalnız uzaktaki yönü işaret etmekle sınırlı kalmayan bir yakınlık kazanır: yürüyenin yanında bulunmak, adım atabilmesine destek olmak.
+
+“Müstakim”in ailesinde insanın ayağa kalkışı bulunurken, yorgun bineğin durup artık gidemeyişi de bulunur. Bir beden durur; başka bir beden doğrulmak ister. Fâtiha’nın yardım talebi, bu iki durumun arasına yerleşir. Yolun çizgisi gözün önündedir; insanın ağırlığı iki yanındaki insanlara yaslanır.
+
+## Eğilen şeyin dayanması da gerekir
+
+Bir kumaşın sağlamlığı yoksa, ondan beklenen işi uzun süre taşıyamaz. Kulluk kelimesinin ailesindeki {ar:العبدة, tr:Abde, gloss:Güç, sağlamlık ve dayanıklılık} sözü, kumaşın dayanıklılığı için de kullanılır.
+
+Boyun eğişin yanında duran bu sağlamlık görüntüsü önemlidir. Ayette kulluk edecek bir insan vardır; itaatin gerektirdiği işi sürdürecek, yorulacak, yeniden kalkacak bir insan. Onun yardım istemesi, yalnız önündeki engelin kaldırılmasını değil, kendisinin de dayanabilecek hâlde tutulmasını içerir.
+
+Aynı aile bizi devenin derisine ve geminin gövdesine yaklaştırır. Devenin derisi baştan başa katranlanır. {ar:المعبدة, tr:Muabbede, gloss:Ziftle kaplanmış gemi} ise gövdesi işlenmiş bir taşıttır. Gemide kaplama, suyun içeri girmesini önler; taşımanın sürebilmesi, gövdenin korunmasına bağlıdır. Yalnız geminin nereye yöneleceğiyle ilgilenmek yetmez: o yöne giderken su alıp almayacağı da önemlidir.
+
+Fâtiha’nın Rabbi, kelime ailesindeki başka görüntülerle bu hazırlığa eşlik eder. Yağla işlenen deri, koyu şurupla hazırlanıp bakımı yapılan su tulumu; bir şeyi düzeltmek ve tamamlamak… Bunlar yardımın yalnız arıza anında yetişen müdahale olmadığını düşünmemizi sağlar. Yardım, bir varlığın iş görebilmesi için hazırlanmasında ve korunmasında da belirir. Yürünecek yolu istemekle yürüyebilecek durumda tutulmayı istemek birbirini tamamlar.
+
+Yardım kelimesinin ailesinde de gücüyle yaşı birbirine yetişmiş yük atı için kullanılan {ar:متعاون, tr:Müteâvin, gloss:Gücü ile yaşı birbirine yetişmiş} nitelemesi vardır. Buradaki görüntü güçsüz bir hayvan değildir; kuvveti yerinde olan bir bedendir. Böylece yardım ihtiyacını yalnız çöküş anına sıkıştıran düşünce genişler. Güç sahibi olmak, o gücün kaynağından ve sürmesini sağlayan şartlardan bağımsız olmak anlamına gelmez.
+
+Kur’an bu ilişkiyi kullukla rızkı yan yana getirerek açar. Cinlerin ve insanların kulluk için yaratıldığını söyler (51:56). Ardından Allah’ın onlardan rızık istemediğini, kendisini doyurmalarını istemediğini bildirir (51:57). Rızkı veren ve sağlam kuvvet sahibi olan Allah’tır (51:58).
+
+İnsan efendi, hizmetinden yararlandığı kişinin emeğine muhtaç olabilir. Fâtiha’nın muhatabı, kulundan beslenmez. Kulun yapacağı işi mümkün kılan imkân da O’ndan gelir. Bu yüzden “kulluk ederiz ve yardım isteriz”, yapılmış bir hizmetin karşılığını tahsil eden cümleye dönüşmez. Yardım, kulluğun sonundaki ücret olmaktan önce, onu gerçekleştirecek bedenin, vaktin ve kudretin içindedir.
+
+## Yardımın tuttuğu kiriş
+
+Kuyunun ağzında iki dikme yükselir. Üzerlerine bir kiriş uzanır; makara bu kirişe asılır. Aşağıda su vardır. Fakat suyun bulunmasıyla bir insanın onu içebilmesi arasında, yükü taşıyan ve hareketi mümkün kılan bu düzenek durur.
+
+Fâtiha’nın “nimet verdiklerin” sözünün ailesinde, kuyu üzerindeki kirişin adı bulunur: {ar:النعامة, tr:Naâme, gloss:Kuyu dikmeleri üzerine konan enine kiriş}. “Müstakim”in ailesindeki {ar:القامة, tr:Kâme, gloss:Su çekilen makara ve düzeneği} o kirişe asılır. İkisinin ilişkisi somuttur: makarayı taşıyacak dayanak olmadan, suyu yukarı çekme işi sürdürülemez.
+
+“Mâlik”in ailesinde yolcunun suyunun, işini ayakta tutan şey olarak anılması da bu görüntüyü tamamlar. Yolcu suya muhtaçtır; suya ulaşmak için de birtakım şeylerin birbirini taşımasına. Yardımın sonucu bir yudum olabilir, fakat o yuduma varan yol birçok desteğin üzerinden geçer.
+
+Fâtiha’nın yardım fiilinin dayandığı {ar:عون, tr:Avn, gloss:Yardım; bir işi yapmaya destek olan kişi veya şey} böyle geniş bir alana sahiptir. Yardımına başvurulan, işi görmeye katkıda bulunan şey de yardımcımızdır. “Yalnız senden yardım isteriz” diyen ağız, böylece yaratılmış dünyadaki araçları ve insanları görünmez kılmaz. Onların sağlayabildiği yardımı, son dayanağıyla birlikte tanır.
+
+Zülkarneyn’in bir set yaptırdığı sahne bunu açıkça gösterir. Bir topluluk, bozgunculuktan korunmak için kendisine ödeme teklif eder (18:94). O, Rabbinin kendisine sağladığı imkânın daha hayırlı olduğunu söyledikten sonra insanlardan güçleriyle kendisine yardım etmelerini ister (18:95). Buradaki yardım fiili, Fâtiha’dakiyle aynı köktendir. Ardından demir parçaları taşınır, ateş körüklenir, kızdırılan yapının üzerine erimiş bakır dökülür (18:96).
+
+Rabbin verdiği imkânı anmakla insanlardan yardım istemek, bu sahnede aynı konuşmanın içindedir. Yardım demiri taşıyan ellerde, ateşi harlayan emekte, malzemenin işlenmesinde gerçekleşir. İlâhî bağış, insan emeğini harekete geçirir.
+
+Medyen kuyusunda ise yardım edenle yardım isteyen aynı kişidir. Musa, sürülerini geride tutan iki kadın görür. Kadınlar, çobanlar çekilmeden hayvanlarını sulayamadıklarını, babalarının da yaşlı olduğunu söylerler (28:23). Musa onların hayvanlarını sular; sonra gölgeye çekilip Rabbine, kendisine göndereceği her hayra muhtaç olduğunu söyler (28:24).
+
+Az önce başkasının ihtiyacını karşılayabilen eller, şimdi kendi ihtiyaçlarıyla açılmıştır. Yardım edebilmek, yardıma muhtaç oluşu silmemiştir. Fâtiha’nın “biz”i, hem kuyudan su çıkaranları hem o suyu bekleyenleri içine alabilecek genişliktedir.
+
+## “Biz”in dağılmaması
+
+İnsanlar her yana dağılır; her küme başka bir yola sapar. Kulluk fiilinin ailesinde bu görüntünün de adı vardır: {ar:العباديد, tr:Abâdîd, gloss:Her yana dağılan insan kümeleri ve ayrılan yollar}.
+
+Aynı ayette yardımın ailesi ters yönde bir hareket gösterir: insanların birbirine yardım etmesi, ortak bir işte birbirini desteklemesi. Ayetin iki “biz”i böylece yalnız birden fazla kişiyi bildirmez. Aynı muhataba yönelen, birbirinin yapacağı işe katılabilen insanların imkânını açar.
+
+Bu birliğin nasıl kurulacağı da önemlidir. Kur’an, kendilerini Mescid-i Harâm’dan alıkoymuş bir topluluğa duydukları öfkenin insanları saldırganlığa sürüklememesini ister; ardından iyilik ve takva üzerinde yardımlaşmayı, günah ve düşmanlık üzerinde yardımlaşmamayı emreder (5:2). “Yardımlaşmak”, yine Fâtiha’nın yardım kelimesiyle aynı köktendir. Demek ki birlikte hareket edebilmek, yardımın iyiliğini tek başına belirlemez. İnsanlar birbirlerini zulümde de güçlendirebilirler. “Sana kulluk ederiz” sözü, “yardım isteriz”in hangi işe yöneleceğini sınırlar.
+
+Dağılmanın daha sessiz bir başlangıcı da vardır. Kulluk ailesindeki {ar:عبدت فصمت, tr:Abidtü fe-samettü, gloss:Gururum incindi de sustum} ifadesi, incinen insanın içine kapanışını taşır. Boyun eğişin yanında, incinmiş gururun susturduğu ağız da durur. Bir topluluğun “biz” diyebilmesi, böyle insanların birbirleriyle yeniden konuşabilmesine bağlıdır.
+
+Kur’an, Peygamber’e çevresindeki insanlara Allah’ın rahmeti sayesinde yumuşak davrandığını söyler; kaba ve katı yürekli olsaydı onların çevresinden dağılıp gideceklerini bildirir. Ardından bağışlamasını, onlar için bağışlanma dilemesini, iş hakkında onlarla görüşmesini ve karar verdiğinde Allah’a dayanmasını ister (3:159). Rahmet burada topluluğun üzerinde duran bir duygu olarak kalmaz. İnsanları birlikte iş yapabilecek durumda tutar: kırılan ilişki onarılır, söz yeniden dolaşır, karar alınır.
+
+Fâtiha’nın başındaki rahmet ile ortasındaki “biz” arasında bu yüzden canlı bir bağ vardır. Yardımlaşacak insanların bir arada kalabilmesi, birbirlerine nasıl davrandıklarına bağlıdır. Aynı yola yönelmek, birbirini yoldan düşürmemeyi de gerektirir.
+
+Kur’an’ın dosdoğru yolu izleme çağrısında, başka yolların insanları o yoldan ayırıp dağıtacağı söylenir (6:153). Fâtiha da yol talebini, kendilerine nimet verilmiş insanlarla birlikte söyler (1:7). Başka bir ayet, Allah’a ve elçisine itaat edenlerin peygamberlerle, dosdoğru kimselerle, şehitlerle ve salihlerle beraberliğini anlatır (4:69). Yol, üzerinde hiç kimsenin bulunmadığı soyut bir çizgi olmaktan çıkar; yürümüş olanların ve yürüyenlerin beraberliği olur.
+
+Bu beraberlik kişisel sorumluluğu eritmez. Rahmân’a kul olarak gelecek herkesin, kıyamet günü O’na tek başına geleceği de söylenir (19:95). “Biz” demek, kendi adımının hesabını başkasına bırakmak değildir. Birbirine destek vererek yürüyenlerin her biri, yürüyüşünden sorumludur.
+
+Ses yeniden “sana”ya döner. O sesin içinde artık yolu bilenin yanında yolunu arayan, su çekenin yanında su bekleyen, kendi ayakları üzerinde duranın yanında iki insana yaslanarak yürüyen de duyulur. Hepsi aynı ağızda buluşur: Kulluk ederiz; yardım isteriz.
+
+=== LEDGER ===
+- memory: The grammatical force of fronted, repeated “iyyaka,” the shift to direct address, and the first-person plural verbs (Arabic grammar; 1:5).
+- memory: The servant with quarrelling owners; Pharaoh’s upbringing claim and Moses’ enslavement rebuttal; the threat, appeal for divine help, continuing suffering, and prospective responsibility (39:29; 26:18; 26:22; 7:127; 7:128; 7:129).
+- memory: The covenant against serving Satan and the identification of worship with the straight path; creation for worship, God’s freedom from needing sustenance, and divine provision and strength (36:60; 36:61; 36:62; 51:56; 51:57; 51:58).
+- memory: Dhu al-Qarnayn’s refusal of payment, request for human assistance, and construction operations; the women’s explanation at Midian and Moses’ subsequent prayer (18:94; 18:95; 18:96; 28:23; 28:24).
+- memory: Hostility and the ethical limits of cooperation; forgiveness, consultation, and reliance following the warning about dispersal; the identification of the favored company; individual appearance before God (5:2; 3:159; 4:69; 19:95).
+- memory: Pitch coating helps keep water outside a ship’s hull (general knowledge of traditional boat construction).
+- not written: The honored and attended person in the worship family—its “as though worshipped” comparison does not establish that ordinary human honor constitutes worship; speed and the perfume-grinding stone supplied no further supported relationship.
+- not written: The assistance family’s middle-aged cow, repeated war, old palm, wild-ass herd, pubic-hair expressions, and place-associated wine—none establishes that help means experience, recurrence, longevity, collective solidarity, bodily purification, or provision of wine.
+- not written: The proposed eye, spring, surveillance, cash, and credit connections—the supplied eye root is an unestablished echo, not the root of the focus verb.
+- not written: A literal back placed beneath a load as the dictionary meaning of assistance—the supplied definition establishes backing; the bodily support scene instead rests on the explicit guidance-family expression.
+- not written: The map’s further weather, birth, bridal conveyance, settlement, blood-payment, balance, and eye-state sequences—extending them into this focus required additional associative steps without establishing a further relation between exclusive worship and requested assistance.

@@ -591,3 +591,52 @@ recorded in `validation.json`. No claim of full source-check success is made.
 full measure and giving short measure but cites 83:1. Those details are in 83:2 and 83:3. The flag is saved in
 that run's `validation.json`; the raw generated reading has not been edited. Ledger references to the same
 paraphrase share that citation issue.
+
+## Brief r5: make contributing passages intelligible (2026-09-29)
+
+The user approved one additive paragraph, preserving r4's discovery and synthesis behavior:
+
+> When another Quranic passage contributes to the reading, assume the reader does
+> not know it. Introduce the speaker or actor, the relevant situation, and the
+> wording needed to understand the connection, within the developing prose.
+> Preserve any concrete verbal detail that does interpretive work.
+
+This is the only change in `prompts/r5/write.md`; `additions.md` is byte-identical to r4.
+No case-specific example, consolidation pass, selection quota or additional writer stage is introduced.
+r4 remains the default; the trial selects r5 explicitly.
+
+**Authorized trial:** Astra high on 1:5 and 1:6 (DM), and 29:38 (H), running concurrently.
+The saved r3 evidence is unchanged in all three packets; the DM evidence hashes also match r4.
+Outputs use `out/1_5/DM.r5.astra.high/`, `out/1_6/DM.r5.astra.high/` and
+`out/29_38/H.r5.astra.high/`, preserving every earlier run. The writers receive no previous prose or assessment.
+
+```sh
+python3 -B _commentary/v16/run_astra.py --brief r5 --arm DM --ayah 1:5 --ayah 1:6 --effort high --run
+python3 -B _commentary/v16/run_astra.py --brief r5 --arm H --ayah 29:38 --effort high --run
+```
+
+All three Astra high calls completed successfully, with separate ledgers and no tool use:
+
+| ayah | arm | prose words | elapsed | output tokens | reasoning tokens |
+|---|---|---:|---|---:|---:|
+| 1:5 | DM | 1,911 | 6m 50s | 13,485 | 8,406 |
+| 1:6 | DM | 3,025 | 7m 5s | 13,976 | 6,024 |
+| 29:38 | H | 3,053 | 6m 14s | 12,295 | 4,660 |
+
+All pass the prose-format check and Arabic-quotation check (13, 9 and 9 exact tags respectively;
+no missing, fixable or wrong-ayah tags). Raw responses are preserved and match the split prose.
+The comprehensive legacy source check remains blocked by the unavailable absolute source path,
+as in r4; `validation.json` records that limitation. Quotation checks do not validate every interpretation.
+The same Sol 5.6 reviewer has been asked to compare these readings with the previous prose using
+only the North Star and prose files, with the same rubric.
+
+**Additional authorized trial:** 1:5 with `gpt-6.1-sol` at max effort, using the byte-identical r5 DM
+prompt supplied to Astra high. `run_astra.py --model` supports this model while retaining the existing
+Astra default and historical output paths. The new output is isolated in
+`out/1_5/DM.r5.gpt-6.1-sol.max/`.
+
+```sh
+python3 -B _commentary/v16/run_astra.py --brief r5 --arm DM --ayah 1:5 --model gpt-6.1-sol --effort max --run
+```
+
+GPT-6.1 status: generation in progress.

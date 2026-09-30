@@ -10,6 +10,8 @@ Briefs:
   r4  discovery before themes; every coherent contribution develops the themes; no selection quota (default).
       Reuses the r2 surah map. GPT-6 Astra subscription runs use run_astra.py with frozen earlier evidence.
 
+  r5  r4 plus grounding for readers unfamiliar with a contributing Quranic passage.
+
 Arms (the assembled-findings slot):
   H   the ayah's HFT records (v9/input/v2/…/02_hft.md) and the surah channel review's subchannels anchored in the
       ayah (latent_activation/network/v3/reviews/sNNN/reader_a_pilot.md), verbatim
@@ -75,6 +77,9 @@ BRIEFS = {
     "r4": {"write": HERE / "prompts" / "r4" / "write.md", "add": HERE / "prompts" / "r4" / "additions.md",
            "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"],
            "map_from": "r2", "ledger": True},
+    "r5": {"write": HERE / "prompts" / "r5" / "write.md", "add": HERE / "prompts" / "r5" / "additions.md",
+           "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"],
+           "map_from": "r2", "ledger": True},
 }
 LEDGER_MARK = "=== LEDGER ==="
 # model key -> (model id, cache-write $/token (1h = 2x input), output $/token); opus is the default and has no suffix
@@ -109,6 +114,7 @@ ARM_EVIDENCE = {
 }
 ARM_EVIDENCE["r3"] = ARM_EVIDENCE["r2"]
 ARM_EVIDENCE["r4"] = ARM_EVIDENCE["r2"]
+ARM_EVIDENCE["r5"] = ARM_EVIDENCE["r2"]
 _SRC = None
 
 

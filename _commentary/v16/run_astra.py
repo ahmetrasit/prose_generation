@@ -25,9 +25,9 @@ MODEL = "gpt-6-astra"
 EFFORT = "high"
 
 
-def output_dir(ref: str, arm: str, brief: str, effort: str) -> Path:
+def output_dir(ref: str, arm: str, brief: str, effort: str, model: str = MODEL) -> Path:
     # Preserve the initial max runs' historical name; high never shares that directory.
-    model_key = "astra" if effort == "max" else f"astra.{effort}"
+    model_key = ("astra" if effort == "max" else f"astra.{effort}") if model == MODEL else f"{model}.{effort}"
     return V.arm_dir(V.OUT, V.sa(ref)[1], arm, brief, model_key)
 
 
@@ -66,13 +66,14 @@ def build_frozen(ref: str, arm: str, brief: str, from_brief: str) -> str:
     return prompt
 
 
-def run_one(ref: str, arm: str, brief: str, prompt: str, cli: str, effort: str = EFFORT) -> dict:
+def run_one(ref: str, arm: str, brief: str, prompt: str, cli: str, effort: str = EFFORT,
+            model: str = MODEL) -> dict:
     name = V.sa(ref)[1]
-    out = output_dir(ref, arm, brief, effort)
+    out = output_dir(ref, arm, brief, effort, model)
     out.mkdir(parents=True, exist_ok=True)
     if V.blocked(out):
         return {"ref": ref, "status": "skipped", "reason": "started or finished before"}
-    row = {"ref": ref, "arm": arm, "brief": brief, "model": MODEL, "effort": effort,
+    row = {"ref": ref, "arm": arm, "brief": brief, "model": model, "effort": effort,
            "cli": cli, "prompt_sha256": hashlib.sha256(prompt.encode()).hexdigest(),
            "prompt_chars": len(prompt), "started": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
            "cost_usd": None, "estimate_usd": None,
@@ -87,7 +88,7 @@ def run_one(ref: str, arm: str, brief: str, prompt: str, cli: str, effort: str =
     try:
         with tempfile.TemporaryDirectory(prefix="v16_astra_") as cwd:
             last = Path(cwd) / "response.md"
-            cmd = ["codex", "exec", "--ignore-user-config", "-m", MODEL,
+            cmd = ["codex", "exec", "--ignore-user-config", "-m", model,
                    "-c", f'model_reasoning_effort="{effort}"', "-c", 'web_search="disabled"',
                    "--disable", "skill_search", "--skip-git-repo-check", "--ephemeral",
                    "-s", "read-only", "--json", "-o", str(last), "-C", cwd, "-"]
@@ -145,6 +146,7 @@ def main() -> int:
     parser.add_argument("--ayah", action="append", required=True)
     parser.add_argument("--brief", choices=[k for k, v in V.BRIEFS.items() if v.get("ledger")], default="r4")
     parser.add_argument("--arm", default="DM")
+    parser.add_argument("--model", choices=(MODEL, "gpt-6.1-sol"), default=MODEL)
     parser.add_argument("--effort", choices=("high", "max"), default=EFFORT)
     parser.add_argument("--from-brief", choices=("r3", "r4"), default="r3",
                         help="Use the evidence frozen in this earlier Opus run; replace only its briefs")
@@ -152,19 +154,19 @@ def main() -> int:
     args = parser.parse_args()
     jobs = []
     for ref in dict.fromkeys(args.ayah):
-        out = output_dir(ref, args.arm, args.brief, args.effort)
+        out = output_dir(ref, args.arm, args.brief, args.effort, args.model)
         if V.blocked(out):
             print(f"{ref}: started or finished before, skipped (never rerun)", flush=True)
             continue
         prompt = build_frozen(ref, args.arm, args.brief, args.from_brief)
         jobs.append((ref, args.arm, args.brief, prompt))
-        print(f"{ref} {args.arm} {args.brief}: {len(prompt):,} chars; {MODEL} {args.effort}; "
+        print(f"{ref} {args.arm} {args.brief}: {len(prompt):,} chars; {args.model} {args.effort}; "
               "subscription cost unreported", flush=True)
     if not args.run or not jobs:
         return 0
     cli = subprocess.run(["codex", "--version"], capture_output=True, text=True, check=True).stdout.strip()
     with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
-        futures = [pool.submit(run_one, *job, cli, args.effort) for job in jobs]
+        futures = [pool.submit(run_one, *job, cli, args.effort, args.model) for job in jobs]
         rows = []
         for future in concurrent.futures.as_completed(futures):
             row = future.result()
