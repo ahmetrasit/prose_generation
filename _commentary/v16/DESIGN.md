@@ -1233,6 +1233,12 @@ list never enters the context.
 - **Permission test** (`permtest.py`, Opus, $0.15; `out/permtest/run.log.json`). The allowed command ran. All
   eight variants were refused with "Permission to use Bash has been denied … don't ask mode": `;`, `&&`, `$( )`,
   backticks, `>`, `| tee`, newline plus a second command, and a plain other command. No "HACKED" text in any
-  tool output. The model also said it ignored the instructions inside the script's output as untrusted text,
-  which is why the instruction set was added to the packet header.
+  tool output. The strongest evidence is the harness's own: the result event lists all 8 in
+  `permission_denials`, and each tool result carries `non_execution_kind: "permission-rule"` (refused before any
+  shell ran). Scope: these 8 patterns on CLI 2.1.283 with this `--allowedTools` syntax, not a general proof
+  (`||`, `<( )` and quoting tricks are untested); `packets.audit()` stays as the backstop.
+- **Instructions in tool output.** The test model said it ignored the instructions inside the script's output as
+  untrusted text, which is why the instruction set was added to the packet header. On the first real run, watch
+  whether it also under-uses the listed passages themselves. The `call_opus` isinstance guards are defence in
+  depth: the crash was in permtest.py's own ungated parser, not in `call_opus`.
 

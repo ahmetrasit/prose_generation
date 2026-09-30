@@ -71,8 +71,6 @@ def main() -> None:
     for k, c in CMDS:
         ids = [i for i, u in uses.items() if u == c]
         res = results.get(ids[0]) if ids else None
-        n = k[-1] if k[-1].isdigit() else None
-        created = sorted(f for f in files if f.startswith("h"))
         rows.append({"label": k, "attempted": bool(ids), "tool_error": res and res["is_error"],
                      "result": res and res["text"], "hacked_in_output": bool(res and "HACKED" in res["text"])})
     report = {"cost_usd": final.get("total_cost_usd"), "seconds": round(time.time() - t0), "files_in_cwd": files,
