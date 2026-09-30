@@ -1206,6 +1206,6 @@ Output in `out/s001/surah.map3.nohft/map.md` (69.2k characters).
 - The fitting-out and gathering chains are dissolved into others.
 - The water chain's own passage still opens at 28:23. 28:22 appears only under "the failing mount".
 
-**Step 2 packets** (r10 unchanged, new map without `## Not carried`): 1:6 est $1.14, 1:5 est $1.10. Awaiting
+**Step 2 packets** (r10 unchanged, new map without `## Not carried`): 1:6 est $1.19, 1:5 est $1.15. Awaiting
 approval.
 
