@@ -55,18 +55,45 @@ def sha(t: str) -> str:
     return hashlib.sha256(t.encode()).hexdigest()
 
 
-def map_packet(brief: str = "map3") -> tuple[str, Path]:
+# --no-hft (user, 2026-09-30): the map call without the HFT section, to keep its cost safely under the gate. The
+# brief and header lines that mention HFT are adapted in the packet only; prompts/<brief>/ keeps them for re-adding.
+NO_HFT = [
+    ("earlier readers' channel review (channels.md) and activation hypotheses (hft.md),",
+     "an earlier reader's channel review (channels.md),"),
+    ("The channel review and the HFT records are proposals by earlier readers. Ignore their judgements:",
+     "The channel review is an earlier reader's proposal. Ignore its judgements:"),
+    ("Do not rediscover what they already assembled: start from their chains,",
+     "Do not rediscover what it already assembled: start from its chains,"),
+    ("Where their wording\nabstracts", "Where its wording\nabstracts"),
+    ("Each channel subchannel and each HFT record you did not carry", "Each channel subchannel you did not carry"),
+]
+NO_HFT_HEAD = ("channels.md and hft.md (both are earlier readers' proposals: ignore their judgements",
+               "channels.md (an earlier reader's proposal: ignore its judgements")
+
+
+def map_packet(brief: str = "map3", hft: bool = True) -> tuple[str, Path]:
     head, secs = split((V.OUT / "s001" / "surah.r2" / "prompt.md").read_text(encoding="utf-8"))
-    bpath = V.HERE / "prompts" / brief / "surah_map.md"
-    swap(secs, "surah_map.md", f"_commentary/v16/prompts/{brief}/surah_map.md", bpath.read_text(encoding="utf-8"))
+    body = (V.HERE / "prompts" / brief / "surah_map.md").read_text(encoding="utf-8")
+    name = brief if hft else f"{brief}.nohft"
+    if not hft:
+        for a, b in NO_HFT:
+            if body.count(a) != 1:
+                raise SystemExit(f"brief line not found once: {a[:50]}")
+            body = body.replace(a, b)
+        if head.count(NO_HFT_HEAD[0]) != 1:
+            raise SystemExit("header line not found")
+        head = head.replace(*NO_HFT_HEAD)
+        secs = [s for s in secs if not s[0].endswith("hft.md")]
+    swap(secs, "surah_map.md", f"_commentary/v16/prompts/{brief}/surah_map.md" + ("" if hft else " (adapted)"),
+         body)
     text = join(head, secs)
-    wd = V.WORK / "s001" / f"surah.{brief}"
+    wd = V.WORK / "s001" / f"surah.{name}"
     wd.mkdir(parents=True, exist_ok=True)
     (wd / "prompt.md").write_text(text, encoding="utf-8")
-    json.dump({"brief": brief, "source_prompt": "out/s001/surah.r2/prompt.md", "prompt_sha256": sha(text),
+    json.dump({"brief": brief, "hft": hft, "source_prompt": "out/s001/surah.r2/prompt.md", "prompt_sha256": sha(text),
                "evidence_sha256": sha("".join(b for p, b in secs if not p.endswith("surah_map.md")))},
               (wd / "packet.json").open("w"), indent=1)
-    return text, V.OUT / "s001" / f"surah.{brief}"
+    return text, V.OUT / "s001" / f"surah.{name}"
 
 
 def writer_packet(ref: str, brief: str, map_path: Path, labels: bool) -> tuple[str, Path, str]:
@@ -124,11 +151,12 @@ def main() -> None:
     ap.add_argument("--ayah")
     ap.add_argument("--map", type=Path)
     ap.add_argument("--no-labels", action="store_true")
+    ap.add_argument("--no-hft", action="store_true")
     ap.add_argument("--go", action="store_true")
     a = ap.parse_args()
     if a.cmd == "map":
         brief = a.brief or "map3"
-        text, d = map_packet(brief)
+        text, d = map_packet(brief, not a.no_hft)
         n_out = 130_000  # r2 map measured 121.8k output; the estimate below also shows v16's standard 80k
         _, w, o = V.MODELS["opus"]
         n_in = V.est_tokens(text)
@@ -136,7 +164,7 @@ def main() -> None:
         print(f"{d.relative_to(V.HERE)}: {len(text):,} chars ~{n_in:,} tokens; est ${V.estimate(text, 'surah'):.2f} "
               f"(80k out), ${realistic:.2f} at {n_out // 1000}k out")
         if a.go:
-            call(text, d, "surah", {"ref": "S1", "arm": "surah", "brief": brief}, False)
+            call(text, d, "surah", {"ref": "S1", "arm": "surah", "brief": d.name.replace("surah.", "")}, False)
         return
     text, d, tag = writer_packet(a.ayah, a.brief, (V.HERE / a.map) if not a.map.is_absolute() else a.map,
                                  not a.no_labels)
