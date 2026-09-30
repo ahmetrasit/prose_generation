@@ -466,7 +466,7 @@ def call_opus(text: str, d: Path, model: str = "opus", allow: str | None = None)
     with tempfile.TemporaryDirectory(prefix="v16_opus_") as cwd:
         p = subprocess.run(cmd, input=text, capture_output=True, text=True, cwd=cwd, env=env)
     (d / "run.stream.jsonl").write_text(p.stdout or "", encoding="utf-8")
-    texts, ids, final, tool_calls = [], [], {}, []
+    texts, ids, final, tool_calls, pre_tool = [], [], {}, [], []
     for line in (p.stdout or "").splitlines():
         try:
             ev = json.loads(line)
@@ -476,31 +476,42 @@ def call_opus(text: str, d: Path, model: str = "opus", allow: str | None = None)
             msg = ev.get("message") or {}
             for c in msg.get("content", []):  # in order: the output is the text after the last tool call
                 if c.get("type") == "tool_use":
-                    tool_calls.append({"input": c.get("input")})
+                    tool_calls.append({"id": c.get("id"), "input": c.get("input")})
+                    if texts:
+                        pre_tool = texts  # kept as a fallback if nothing follows the last tool call
                     texts, ids = [], []
-                elif c.get("type") == "text" and c.get("text"):
-                    texts.append(c["text"])
+                elif c.get("type") == "text":
+                    texts.append(c.get("text", ""))
                     if msg.get("id") not in ids:
                         ids.append(msg.get("id"))
         elif ev.get("type") == "user":
             for c in (ev.get("message") or {}).get("content", []) or []:
                 if isinstance(c, dict) and c.get("type") == "tool_result" and tool_calls:
                     res = c.get("content")
-                    tool_calls[-1]["result"] = res if isinstance(res, str) else json.dumps(res, ensure_ascii=False)
-                    tool_calls[-1]["is_error"] = c.get("is_error", False)
+                    if isinstance(res, list):
+                        res = "".join(b.get("text", "") for b in res if isinstance(b, dict))
+                    call = next((x for x in tool_calls if x.get("id") == c.get("tool_use_id")), tool_calls[-1])
+                    call["result"], call["is_error"] = res, c.get("is_error", False)
         elif ev.get("type") == "result":
             final = ev
     if tool_calls:
         (d / "tool_calls.json").write_text(json.dumps(tool_calls, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     joined = "".join(texts)
+    if not joined and pre_tool:
+        joined = "".join(pre_tool)
+    had_result = bool(final)
     if final:
         final["result_last_message"] = final.get("result")
         final["result"] = joined or final.get("result")
     elif joined:
         final = {"result": joined, "partial": True, "is_error": True, "stderr_tail": p.stderr[-3000:]}
+    if not final:
+        final = {"error": p.stderr[-3000:]}
+    elif not had_result:
+        final.setdefault("stderr_tail", p.stderr[-3000:])
     final["text_message_ids"] = ids
     final["tool_calls"] = len(tool_calls)
-    (d / "run.log.json").write_text(json.dumps(final or {"error": p.stderr[-3000:]}, ensure_ascii=False) + "\n",
+    (d / "run.log.json").write_text(json.dumps(final, ensure_ascii=False) + "\n",
                                     encoding="utf-8")
     return final
 

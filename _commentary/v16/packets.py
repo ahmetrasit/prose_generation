@@ -30,6 +30,27 @@ MISSING = V.HERE / "missing.py"
 ALLOW = f"python3 {MISSING}"
 
 
+SAFE_CMD = re.compile(rf"^{re.escape(ALLOW)} (?:S\d+|\d+:\d+)(?: [0-9:()\[\],;.\-–— ]*)?$")
+
+
+def tool_extra(target: str) -> int:
+    """Upper bound on the tool result's tokens: every strong passage missing, with its Arabic."""
+    import missing as M
+    text = M.verses()
+    focus = [r for r in text if r.split(":")[0] == target[1:] and r.split(":")[1] != "0"] if target.startswith("S") \
+        else [target]
+    listed, _ = M.strong(focus)
+    return V.est_tokens("\n".join(f"- ({r}) {text.get(r, '')}" for r in listed) + M.INSTRUCTION)
+
+
+def audit(d: Path) -> list[str]:
+    """Every command the agent ran must be the allowed check with plain refs; anything else is reported."""
+    f = d / "tool_calls.json"
+    calls = json.loads(f.read_text(encoding="utf-8")) if f.exists() else []
+    return [str((c.get("input") or {}).get("command")) for c in calls
+            if not SAFE_CMD.match(str((c.get("input") or {}).get("command", "")))]
+
+
 def tool_line(target: str) -> str:
     return (f"When your discovery is complete and before you write your final output, run this command once, "
             f"with every Quran reference outside this surah that your output will use: "
@@ -103,7 +124,7 @@ def map_packet(brief: str = "map3", hft: bool = True, tool: bool = False) -> tup
     wd = V.WORK / "s001" / f"surah.{name}"
     wd.mkdir(parents=True, exist_ok=True)
     (wd / "prompt.md").write_text(text, encoding="utf-8")
-    json.dump({"brief": brief, "hft": hft, "source_prompt": "out/s001/surah.r2/prompt.md", "prompt_sha256": sha(text),
+    json.dump({"brief": brief, "hft": hft, "tool": tool, "source_prompt": "out/s001/surah.r2/prompt.md", "prompt_sha256": sha(text),
                "evidence_sha256": sha("".join(b for p, b in secs if not p.endswith("surah_map.md")))},
               (wd / "packet.json").open("w"), indent=1)
     return text, V.OUT / "s001" / f"surah.{name}"
@@ -124,13 +145,22 @@ def writer_packet(ref: str, brief: str, map_path: Path, labels: bool, tool: bool
     wd = V.WORK / name / f"DM.{brief}.{tag}"
     wd.mkdir(parents=True, exist_ok=True)
     (wd / "prompt.md").write_text(text, encoding="utf-8")
-    json.dump({"ref": ref, "brief": brief, "map": str(map_path.relative_to(V.HERE)), "labels": labels,
+    json.dump({"ref": ref, "brief": brief, "map": str(map_path.relative_to(V.HERE)), "labels": labels, "tool": tool,
                "prompt_sha256": sha(text)}, (wd / "packet.json").open("w"), indent=1)
     return text, V.OUT / name / f"DM.{brief}.{tag}", tag
 
 
-def call(text: str, d: Path, kind: str, row: dict, ledger: bool, tool: bool = False) -> None:
+def estimate(text: str, kind: str, target: str | None) -> float:
+    """v16's estimate, plus (with the check) the tool result written to cache and one extra cached re-read."""
     est = V.estimate(text, kind)
+    if target:
+        _, w, _ = V.MODELS["opus"]
+        est += tool_extra(target) * w + V.est_tokens(text) * w * 0.05
+    return est
+
+
+def call(text: str, d: Path, kind: str, row: dict, ledger: bool, tool: bool = False) -> None:
+    est = estimate(text, kind, (row["ref"] if tool else None))
     if V.blocked(d):
         raise SystemExit(f"{d}: started or finished before (never rerun)")
     if est >= V.GATE_USD:
@@ -155,6 +185,11 @@ def call(text: str, d: Path, kind: str, row: dict, ledger: bool, tool: bool = Fa
         reading.write_text(prose.strip() + "\n", encoding="utf-8")
         subprocess.run([sys.executable, str(V.CHECK), str(reading), "--ref", row["ref"], "--out",
                         str(d / "check.json"), "--quiet"], cwd=V.CHECK.parent)
+    if tool:
+        bad = audit(d)
+        out["tool_audit"] = "ok" if not bad else {"unexpected_commands": bad}
+        if bad:
+            print(f"WARNING: unexpected commands run by the agent, treat this run as contaminated: {bad}")
     V.log(out)
     print(f"{d.relative_to(V.HERE)}: {out['status']} ${out.get('cost_usd')} {out.get('words')}w {out['seconds']}s")
 
@@ -177,14 +212,15 @@ def main() -> None:
         _, w, o = V.MODELS["opus"]
         n_in = V.est_tokens(text)
         realistic = n_in * (1 + n_out // V.MESSAGE_CAP) * w + n_out * o
-        print(f"{d.relative_to(V.HERE)}: {len(text):,} chars ~{n_in:,} tokens; est ${V.estimate(text, 'surah'):.2f} "
-              f"(80k out), ${realistic:.2f} at {n_out // 1000}k out")
+        extra = estimate(text, "surah", "S1") - V.estimate(text, "surah") if a.tool else 0.0
+        print(f"{d.relative_to(V.HERE)}: {len(text):,} chars ~{n_in:,} tokens; est ${V.estimate(text, 'surah') + extra:.2f} "
+              f"(80k out), ${realistic + extra:.2f} at {n_out // 1000}k out")
         if a.go:
             call(text, d, "surah", {"ref": "S1", "arm": "surah", "brief": d.name.replace("surah.", "")}, False, a.tool)
         return
     text, d, tag = writer_packet(a.ayah, a.brief, (V.HERE / a.map) if not a.map.is_absolute() else a.map,
                                  not a.no_labels, a.tool)
-    print(f"{d.relative_to(V.HERE)}: {len(text):,} chars; est ${V.estimate(text, 'ayah'):.2f}")
+    print(f"{d.relative_to(V.HERE)}: {len(text):,} chars; est ${estimate(text, 'ayah', a.ayah if a.tool else None):.2f}")
     if a.go:
         call(text, d, "ayah", {"ref": a.ayah, "arm": "DM", "brief": f"{a.brief}.{tag}"}, True, a.tool)
 

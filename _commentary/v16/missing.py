@@ -43,19 +43,21 @@ def expand(tokens: list[str]) -> set[str]:
         s, a, s2, b = int(m.group(1)), int(m.group(2)), m.group(3), m.group(4)
         if b and (s2 is None or int(s2) == s) and int(b) >= a:
             used.update(f"{s}:{v}" for v in range(a, int(b) + 1))
-        else:
+        else:  # a single ref, a cross-surah range or a reversed range: keep both endpoints
             used.add(f"{s}:{a}")
-            if b and s2:
-                used.add(f"{int(s2)}:{int(b)}")
+            if b:
+                used.add(f"{int(s2) if s2 else s}:{int(b)}")
     return used
 
 
-def strong(focus_refs: list[str]) -> list[str]:
-    seen, out = set(), []
+def strong(focus_refs: list[str]) -> tuple[list[str], int]:
+    """Strong targets in list order, and how many focus lists were found (0 means the check could not run)."""
+    seen, out, found = set(), [], 0
     for ref in focus_refs:
         path = LISTS / f"focus_{ref.replace(':', '_')}_cutoff_100.tsv"
         if not path.exists():
             continue
+        found += 1
         with path.open(encoding="utf-8", newline="") as f:
             for row in csv.DictReader(f, delimiter="\t"):
                 # the list's own focus-side judgement: a directional review labelled strong for this focus
@@ -66,7 +68,7 @@ def strong(focus_refs: list[str]) -> list[str]:
                 if re.fullmatch(r"\d+:\d+", t) and t not in seen:
                     seen.add(t)
                     out.append(t)
-    return out
+    return out, found
 
 
 def main() -> None:
@@ -75,25 +77,29 @@ def main() -> None:
     if MARK.exists():
         print("This check has already run once. Write your final output now.")
         return
-    MARK.write_text("used\n")
     target, text = sys.argv[1], verses()
     if target.startswith("S"):
         s = target[1:]
-        focus = sorted((r for r in text if r.split(":")[0] == s), key=lambda r: int(r.split(":")[1]))
+        focus = sorted((r for r in text if r.split(":")[0] == s and r.split(":")[1] != "0"),
+                       key=lambda r: int(r.split(":")[1]))
     else:
         focus = [target]
-    used = expand(sys.argv[2:])
-    missing = [r for r in strong(focus) if r not in used]
-    if not missing:
-        print("Every strong passage of the earlier cross-reference list is already among your refs. The list is not "
-              "authoritative and may be incomplete: add any other passage you now recall that belongs, then write "
-              "your final output now. This check runs once.")
-        return
-    print(f"{len(missing)} passages:")
-    for r in missing:
-        print(f"- ({r}) {text.get(r, '')}")
-    print()
-    print(INSTRUCTION)
+    listed, found = strong(focus)
+    if not found:
+        answer = (f"No cross-reference list exists for {target}, so this check could not run. Add any passage you "
+                  f"recall that belongs, then write your final output now.")
+    else:
+        used = expand(sys.argv[2:])
+        missing = [r for r in listed if r not in used]
+        if missing:
+            answer = "\n".join([f"{len(missing)} passages:", *(f"- ({r}) {text.get(r, '')}" for r in missing), "",
+                                INSTRUCTION])
+        else:
+            answer = ("Every strong passage of the earlier cross-reference list is already among your refs. The list "
+                      "is not authoritative and may be incomplete: add any other passage you now recall that "
+                      "belongs, then write your final output now. This check runs once.")
+    MARK.write_text("used\n")  # only after the answer is ready, so a failure does not burn the one check
+    print(answer)
 
 
 if __name__ == "__main__":
