@@ -19,6 +19,15 @@ QD = Path("/Volumes/OZTURK/_projects/quran-data/data")
 LISTS = QD / "analysis" / "inter-ayah" / "reciprocal"
 TEXT = QD / "text" / "quran-uthmani.tsv"
 MARK = Path(".missing_py_used")
+# Claude Code shows a tool output longer than about 30k characters only as a 2 KB preview plus a file path the agent
+# cannot open (S1 map run, 2026-09-30: 43.2 KB). Above LIMIT, each ayah is shortened to its opening words.
+LIMIT = 24_000
+OPENING_WORDS = 6
+
+
+def opening(ayah: str) -> str:
+    words = ayah.split()
+    return " ".join(words[:OPENING_WORDS]) + (" …" if len(words) > OPENING_WORDS else "")
 INSTRUCTION = (
     "These strong passages from an earlier cross-reference list are not among the refs you gave. The list is not "
     "authoritative and may be incomplete. Judge each passage yourself: add it only where it supports or sharpens "
@@ -94,6 +103,9 @@ def main() -> None:
         if missing:
             answer = "\n".join([f"{len(missing)} passages:", *(f"- ({r}) {text.get(r, '')}" for r in missing), "",
                                 INSTRUCTION])
+            if len(answer) > LIMIT:  # the CLI shows only a short preview of a longer tool output
+                answer = "\n".join([f"{len(missing)} passages (each ayah's opening words):",
+                                    *(f"- ({r}) {opening(text.get(r, ''))}" for r in missing), "", INSTRUCTION])
         else:
             answer = ("Every strong passage of the earlier cross-reference list is already among your refs. The list "
                       "is not authoritative and may be incomplete: add any other passage you now recall that "

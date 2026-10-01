@@ -1,0 +1,22 @@
+- memory: Hadith of ʿAlī: the Prophet taught him "اللهم اهدني وسددني" with "واذكر بالهدى هدايتك الطريق والسداد سداد السهم" (Ṣaḥīḥ Muslim, Kitāb al-Dhikr)
+- memory: ʿĀʾisha's report that in his last illness the Prophet went out "يهادى بين رجلين" (Ṣaḥīḥ al-Bukhārī)
+- memory: the ṣirāṭ as a bridge set over Hell on the Day of Judgment, and its description as thinner than a hair (hadith tradition, e.g. Muslim's report from Abū Saʿīd)
+- memory: in some canonical readings al-ṣirāṭ is recited with sīn, or with a ṣād leaning toward zāy (Qunbul from Ibn Kathīr; Khalaf from Ḥamza)
+- memory: ṣirāṭ never occurs in the plural in the Quran
+- memory: al-Fātiḥa is recited in every rakʿa, which comes to seventeen times a day in the obligatory prayers, and it is recited in the standing (qiyām) position
+- memory: 48:2 belongs to a late period of the Prophet's life (the Ḥudaybiya context); the prose says only "late period of his life" in general terms
+- memory: 19:36 are ʿĪsā's words spoken in the cradle, and 43:64 repeats them in his address to his people
+- memory: 6:90 follows a list of prophets (6:83–89)
+- memory: Turkish loanwords from ق و م (kıyam, kıyamet, kıymet, ikamet, makam, kavim, takvim, istikamet) and the narrowing of Turkish "hidayet" and "sırat"
+- not written: ه د ي B009 (dull, weak man) and B011 (sending praise or satire as a poem) - they did no work for any theme of this ayah
+- not written: ه د ي B007 (the protected client with a sanctity like the offering's) - suggestive after nastaʿīn, but it would have needed a chain of analogy the ayah does not carry
+- not written: echo root ه د د (demolishing, the hoopoe, rocking a child to sleep, threat) - a sound family, not the identity root; the hoopoe's "فهم لا يهتدون" (27:24) was left out for that reason
+- not written: ق و م B001 (qawm, people), B019–B021 (aching body part, sheep disease, blind eye), B018 (market thriving), B014 (fighting back), B011 (bodily stature) - none joined a theme; stature came close to the upright walker of 67:22 but added nothing to it
+- not written: ق و م B009 (qiwām, the mainstay; 4:5, 5:97) and B013 (qiyāma, 83:6) - the standing section already had enough weight; qiyāma was touched only through the Turkish kıyamet and the bridge
+- not written: map chains Herd, Sky, Water, Womb, Debt beyond the balance, Name, Soft/hard - their links through ق و م B012 (pulley), B017 (zenith as sky) and the rest belong to other ayat's work; only the zenith and balance images were used, and only as balance
+- not written: 16:9 "وعلى الله قصد السبيل ومنها جائر" - fits the balance section but repeats what 6:153 and 17:35 already did
+- not written: 20:50 and 87:3 (guidance given to all creation) - widens hidāya beyond the road, but the ayah's request is a road for "us"
+- not written: 93:7 "ووجدك ضالا فهدى", 40:38, 13:7, 21:73, 32:24, 20:123, 2:38, 46:30, 23:73, 43:43, 3:101, 4:175, 5:16, 14:1, 34:6, 22:24, 24:46, 2:213, 6:87, 6:126, 16:121, 15:41, 27:63, 10:35, 12:108, 22:16, 92:12, 14:5 - consistent with the reading, but each would repeat a point already grounded by a sharper passage
+- not written: 3:51 - the same words of ʿĪsā as 19:36 and 43:64; one citation was enough
+- not written: hadith of ʿAdī b. Ḥātim identifying the two groups in 1:7 - belongs to the reading of 1:7, not to the balance image of this ayah
+- not written: ص ر ط B003 (the cutting sword) - used only briefly as a picture of passing through, not developed further

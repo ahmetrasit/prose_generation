@@ -1242,3 +1242,32 @@ list never enters the context.
   whether it also under-uses the listed passages themselves. The `call_opus` isinstance guards are defence in
   depth: the crash was in permtest.py's own ungated parser, not in `call_opus`.
 
+### First runs with the check (2026-09-30, user-approved; parallel, one call each)
+
+| run | cost (est.) | refs passed | passages returned | added from the list | audit |
+|---|---|---:|---:|---|---|
+| 1:6 writer, r10 + map3.nohft + check | $1.11 ($1.30) | 23 | 37 | 7:16, 37:118, 48:2, 6:161, 4:68, 19:43, 10:25 | ok |
+| S1 map, map3.nohft + check | $2.42 ($3.08) | 115 | 184, but only a 2 KB preview seen (≈17) | — | ok |
+
+**1:6 writer.**
+
+- The check brought 7:16 back, and the writer judged: it added 7 and left 30. It also recalled the hadith
+  «اللهم اهدني وسددني … واذكر بالهدى هدايتك الطريق والسداد سداد السهم», which joins the road and the arrow.
+- Pulley still out. The ledger says "map chains Herd, Sky, Water … belong to other ayat's work", the exit clause
+  REVIEW_r7_r10 flagged in r10; r10_1 replaces it.
+- Scorecard: 3,130 words, 6 sections, paragraphs with 3+ tags 11/29, 27 refs outside the surah, "Aile"
+  openings 10, "denir" 9, 2 Arabic outside tags (root names), 3 unsourced (hadith from memory).
+
+**S1 map.**
+
+- 78.8k output, 2 turns, cheaper than map3.nohft (133k).
+- **The tool output (43.2 KB) exceeded the CLI's inline limit.** The agent saw a 2 KB preview and a file path it
+  cannot read, so the check was largely ineffective on the map.
+- This draw recalled 7:16 itself (among the 115 refs passed), with its setting: "(Iblis vowing to God) «لأقعدن
+  لهم صراطك المستقيم» — an ambush on the road".
+- A separate well chain is back ("The well-head: crossbeam, pulley, and water that keeps a thing standing").
+- Still absent: Iblīs's refusal as the ع ب د pride pole, and the «عين قائمة» eye.
+
+**Fix.** `missing.py` shortens each ayah to its opening 6 words when the full answer exceeds 24k characters. The
+S1 answer goes from 43.2 KB to 22.5 KB (210 refs); 1:6 is unchanged at 11.7 KB with full Arabic.
+
