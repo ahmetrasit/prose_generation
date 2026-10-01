@@ -1504,3 +1504,17 @@ chain talk, the surah's own words in tags, its ayat named in words; (c) "Work fr
 knowledge" restored; (d) the writer gets only the `text` lookup, the list goes to augment; (e) the writer is built
 from the D arm plus the sliced images (no r2 map needed). Stop tuning on 1:6; validate on S100 end to end. The Luna
 thematic lists wait. packets.py map/images take --surah (surahs with v9 HFT and channel files only).
+
+## S100 and S107 end to end with r13 (user, 2026-10-01)
+
+| surah | map | images | readings | augments | total | per ayah |
+|---|---|---|---|---|---|---|
+| S100 (11 ayat) | $1.64 | $2.73 | 11, $12.06 | 11, $5.03 | $21.47 | $1.95 |
+| S107 (7 ayat) | $1.57 | $1.98 (repair run; first attempt hit the session limit at $0) | 7, $6.00 | 7, $2.66 | $12.21 | $1.74 |
+
+All readings clean: no Arabic outside tags, every checkable source verified except three (a quote of 100:8 tagged
+38:32; one wrong branch in 100:3; a single-letter quote in 107:2 the checker cannot match). "denir" persists (2–12
+per reading). The process-word flag catches "zincir" used as an ordinary word (oath chains, the Quran's chains):
+noisy, kept for the record. 100:1 reaches the North Star "horses as argument" unprompted (16:7–8 breath spent for
+the rider against 100:6 ingratitude; chest breath against 100:10). Augments: 5–16 insertions per ayah, all applied,
+all sources verified.
