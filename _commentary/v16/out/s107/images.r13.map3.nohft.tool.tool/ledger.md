@@ -1,0 +1,10 @@
+- not developed: chain 8 hadith on water, salt and fire - hadith excluded by brief
+- not developed: chain 12 member د ي ن B004 (brought low) - too thin; rest of chain merged into chain 5
+- not developed: chain 3 tafsir note on عن vs في - exegetes excluded; recast as plain usage
+- merged: chains 2+4, 5+12, 6+7 - each pair is one image
+- memory: ويل as a cry of ruin/woe
+- memory: عن in 107:5 means "away from", unlike في "within" (23:2)
+- memory: فَ in 107:2 marks a consequence/evidence; ذلك as a pointing demonstrative
+- memory: form III يرائي implies two-sided seeing
+- memory: غمرة (51:11) as overwhelming, covering water
+- memory: آوى as taking into shelter
