@@ -1455,3 +1455,20 @@ as one call; images several calls; the ayah call ~$1.5 with sliced images, ~$2.4
   for readings and for images.md.
 Not done (user, cost): a revision pass after the draft (+$0.3–1.5 per call; the 1:6 log shows the check already
 runs before the prose is written).
+
+## S1 images r12 and the augment step (user, 2026-10-01)
+
+**S1 images r12** ($3.09, est. $2.95; 92.6k output, 22.3k thinking; 14 turns): 13,021 words, 12 images + Buluşmalar.
+370 declared sources, every checkable one verified (342 ok, 22 source-only ok; 5 hadis, 1 memory); 98.6% of quotes
+sourced. The check ran once per ayah (1.6–2.5 KB each); a first combined shell loop was refused by the permission
+mode (not run; the audit lists it). The `text` lookup was used mostly to copy exact Arabic for refs already chosen;
+listed passages came in from the strong tiers (90:10, 11:56, 15:41, 16:121, 20:50, 25:63, 26:16–23, 7:43 …), the
+medium and other-side tiers were not looked up (72:16, 27:35, 31:19, 41:17, 2:186 absent). The well (with the pulley
+and 28:22–24) is now inside "Yaslanmak ve ayakta durmak", the rain inside "Rahim ve terbiye" (ledger). Quoting with
+sources pushes toward listing dictionary lines.
+
+**Augment step** (`augment.py`, prompts/augment1): after a writer, one Sonnet 5.5 high call gets the commentary with
+numbered paragraphs, its ledger, and every listed passage not cited, with its Arabic; it may add passages from its
+own knowledge and writes ledger lines only for those. It returns insertions as data; the script applies only anchors
+found once, at a sentence end, outside tags, and asserts that removing them restores the original byte for byte.
+Output in <run dir>/augment.augment1/. Est. S1 images $1.14 (928 passages, ~185k tokens), 1:6 ~$0.35. Reviewed.

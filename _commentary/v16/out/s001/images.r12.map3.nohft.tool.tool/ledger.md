@@ -1,0 +1,13 @@
+- not developed: Rain that rears the land (as a separate section) - merged into "Rahim ve terbiye", because the dictionary names the cloud rabâb for the same rearing verb used of the child, and 42:28 calls the rain His mercy; all its members are developed there.
+- not developed: Passing out of sight (as a separate section) - merged into the trodden-road section as the road's other face; ص ر ط and ض ل ل are kept distinct as roots, linked only through the shared verb ğâbe.
+- not developed: The well-head (as a separate section) - merged into "Yaslanmak ve ayakta durmak", since its operative members (water as milk/qiwâm of affairs, the pulley hung from the crossbeam) do the same work of keeping something standing.
+- not developed: member ق و م B001 (qawm as a man's party) in the trodden-road chain - "the company whose road it is" is not heard in al-mustaqîm; the company is carried by sırâta'llezîne itself.
+- not developed: members ع و ن B005 (mutaâwin horse), ع و ن B006 (âna, wild-ass herd), ر ب ب B014 (rabrab, wild-cow herd), ه د ي B009 (al-hidâ', the dull weak man) - too remote from the words of the ayah to be heard beside their meaning.
+- memory: the variant reading مَلِكِ يَوْمِ ٱلدِّينِ in 1:4 (canonical qirâ'ât; several readers read melik, others mâlik)
+- memory: the statement that most exegetes take rabbî in 12:23 as Joseph's Egyptian master (tafsir tradition)
+- memory: hadith «لَلَّهُ أَرْحَمُ بِعِبَادِهِ مِنْ هَذِهِ بِوَلَدِهَا», the captive mother (Bukhari, Muslim)
+- memory: hadith «مَعَهَا سِقَاؤُهَا وَحِذَاؤُهَا تَرِدُ الْمَاءَ وَتَأْكُلُ الشَّجَرَ حَتَّى يَلْقَاهَا رَبُّهَا», the stray camel (Bukhari, Muslim)
+- memory: hadith «لَلَّهُ أَشَدُّ فَرَحًا بِتَوْبَةِ عَبْدِهِ», the lost mount found again (Muslim; also Bukhari)
+- memory: hadith «فَخَرَجَ يُهَادَى بَيْنَ رَجُلَيْنِ», the Prophet in his last illness (Bukhari)
+- memory: hadith qudsi «هَذَا بَيْنِي وَبَيْنَ عَبْدِي وَلِعَبْدِي مَا سَأَلَ» on 1:5, from the dividing of the prayer between God and His servant (Muslim)
+- memory: passages added beyond the map: 11:41, 11:56, 15:41, 16:76, 16:121, 20:50, 20:86, 23:74, 25:60, 25:63, 26:16, 26:20, 26:21, 26:23, 37:20, 37:53, 55:1, 55:2, 56:86, 2:45, 2:61, 5:60, 7:43, 8:53, 90:10, 93:7, 22:28, 2:189
