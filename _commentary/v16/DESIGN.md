@@ -1268,6 +1268,17 @@ list never enters the context.
 - A separate well chain is back ("The well-head: crossbeam, pulley, and water that keeps a thing standing").
 - Still absent: Iblīs's refusal as the ع ب د pride pole, and the «عين قائمة» eye.
 
-**Fix.** `missing.py` shortens each ayah to its opening 6 words when the full answer exceeds 24k characters. The
-S1 answer goes from 43.2 KB to 22.5 KB (210 refs); 1:6 is unchanged at 11.7 KB with full Arabic.
+**Fix.** `missing.py` builds its answer within a 20 KB byte budget, in steps:
 
+1. full Arabic;
+2. each ayah's opening 6 words;
+3. refs only, grouped by surah, most widely listed first;
+4. the most widely listed refs, with a count of the rest.
+
+1:6 stays at 11.7 KB with full Arabic. S1 now gets all 210 refs as refs only (1.6 KB); the worst case over all
+lists is 19.8 KB (32:3). The first fix (opening words above 24k characters) was rejected in review: it bounded
+only S1, and the CLI limit is in bytes. The graded version was reviewed "correct, ready".
+
+**Dir names.** `packets.py map --tag check2` writes `surah.map3.nohft.tool.check2`. A writer's dir name is built
+from its map dir plus its own flags, so the r10_1 writer on that map is `DM.r10_1.map3.nohft.tool.check2.tool`:
+the first `.tool` is the map's check, the second the writer's. `--tag` is refused for `writer` (Sonnet review nit).

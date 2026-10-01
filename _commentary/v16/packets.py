@@ -226,6 +226,8 @@ def main() -> None:
         if a.go:
             call(text, d, "surah", {"ref": "S1", "arm": "surah", "brief": d.name.replace("surah.", "")}, False, a.tool)
         return
+    if a.tag:
+        ap.error("--tag is for map only; a writer's dir name comes from its --map dir")
     text, d, tag = writer_packet(a.ayah, a.brief, (V.HERE / a.map) if not a.map.is_absolute() else a.map,
                                  not a.no_labels, a.tool)
     print(f"{d.relative_to(V.HERE)}: {len(text):,} chars; est ${estimate(text, 'ayah', a.ayah if a.tool else None):.2f}")
