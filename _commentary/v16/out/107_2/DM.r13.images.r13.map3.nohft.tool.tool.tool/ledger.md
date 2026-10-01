@@ -1,0 +1,13 @@
+- memory: proverb كما تدين تدان as summary of dîn-as-recompense
+- memory: ذلك as distal demonstrative conveying distance or disdain
+- memory: Ottoman Turkish "dürr-i yetîm" for a unique pearl
+- memory: root د ع ع occurs in the Quran only at 107:2 and 52:13 (stated only implicitly as "bir kez daha")
+- not written: echo root د ع و (calling) - sound resemblance only, not identity; B004 already carries the call within the root
+- not written: د ع ع B005 slow twisting run - no bearing on the push or the orphan
+- not written: د ع ع B006 short man - possibly a variant form of another word, no thematic work
+- not written: د ع ع B007 gaps between palms / scattered palms - no link to the ayah's act
+- not written: د ع ع B008 summer water-plant eaten by cattle - no thematic work
+- not written: د ع ع B010 wild seed eaten in drought, its gatherer - suggests poverty food, but only through the miskin of the third ayah; belongs to the surah
+- not written: ي ت م B005 orphan-woman naming - a fixed expression with no role in this ayah
+- not written: 4:10 eating orphans' wealth as fire - Tûr already carries the fire through the same verb
+- not written: 90:15 orphan on the day of hunger, 2:83 covenant - overlap with 89:17 and 2:220, which make the point better

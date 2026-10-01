@@ -1,0 +1,12 @@
+- memory: أَرَءَيْتَ parsed as interrogative hamza + perfect 2nd sing.
+- memory: imperfect يُكَذِّبُ read as an ongoing, habitual state
+- memory: debt read "dayn" vs judgment "dīn" (dictionary text unvocalized)
+- memory: definite article in بِٱلدِّينِ as "the known dīn"
+- not written: ر ء ي dream, jinn companion, lung, banner, menstrual trace (B003, B007-B009, B011) - no work in this ayah
+- not written: ر ء ي mirror, mutual seeing, showing off (B004-B006, B012) - belong to 107:6; recalled in one sentence
+- not written: ك ذ ب "kadhaba ʿalaykum" = it became binding (B003) - fixed incitement idiom; link to debt would be wordplay only
+- not written: ك ذ ب al-kadhūb = the self (B008) - single attestation, no theme it joins
+- not written: د ي ن habit (B005) and city (B006) - no work beside judgment/obedience here
+- not written: echo root ر و ي (watering, narration, banner) - not identity; withheld
+- not written: 52:13-14, 69:31-34, 70:19-26, Saqar scene in full - scenes of other ayat, for the surah commentary
+- not written: 17:62, 25:43, 45:23 أرأيت-type pointing - would add instances without new support

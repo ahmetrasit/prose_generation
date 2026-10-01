@@ -1,0 +1,10 @@
+- memory: Form III (mufā'ala) implies an act engaging a second party
+- memory: emphatic/specifying force of هم before the verb
+- memory: Turkish rüya, rey, mir'ât, râyet derive from ر ء ي
+- not written: B002 opinion (ra'y) - only touched via loanword; "living by others' opinion" unsupported
+- not written: B003 dream - no bearing on display
+- not written: B007 menstrual trace and check cloth - no theme it could join
+- not written: B009 lung - unrelated to the act
+- not written: echo root ر و ي (ruwā', rāya, quenching) - not identity; ر ء ي B006/B011 already cover appearance and flag
+- not written: 26:61 Moses' hosts تراءى - redundant beside 8:48
+- not written: 9:105 deeds seen by God and believers - 2:271 already covers legitimate visibility

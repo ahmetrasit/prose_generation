@@ -1,0 +1,10 @@
+- memory: mennâ‘ is an intensive pattern denoting habitual action
+- memory: imperfect yamna‘ûn read as habitual, ongoing trait
+- not written: م ن ع B004 chaste woman - no bearing on withholding goods
+- not written: م ن ع B005 imperative manâ‘i - no thematic work
+- not written: م ن ع B006 mutual withholding - scene is one-sided refusal
+- not written: م ن ع B007 young camels resisting hard year - self-defence image too distant to join
+- not written: م ع ن B002 horse running far - no link to giving or withholding
+- not written: 7:12 Iblis "what prevented you" - would shift theme from giving to prostration
+- not written: ع و ن other branches (age, war, wild asses) - echo root, no identity, no theme
+- not written: 9:103 alms and prayer cycle - belongs to surah commentary's prayer image; Meâric carries it here

@@ -1,0 +1,14 @@
+- memory: wayl = cry/word of ruin, woe
+- memory: waylun as indefinite nominative noun of imprecation, not a verb
+- memory: fa- in 107:4 as consequence linking to ayat 1–3
+- memory: final weak letter alternation (waw/ya) between salat and fire verbs (yasla, sali)
+- memory: menu' (70:21) and yamna'un (107:7) share root m-n-'
+- memory: miskin and sakan share root s-k-n
+- memory: Mursalat refrain recurs many times
+- memory: Ahzab 33:41–42 command to remember God precedes 33:43
+- not written: B004 trap (musalla, plotting someone's ruin) - no support in surah beyond analogy; would read guile into the text
+- not written: B007 salawat as places of worship (22:40) - no work in this ayah's theme
+- not written: B008 grinding stone, B009 camel-fodder plant - no bearing
+- not written: B005 birth sense (sala opening at birth) - only the back sense served the race image
+- not written: 23:2 khashi'un "in" prayer - preposition contrast belongs to the fifth ayah
+- not written: 2:79 fa-waylun on scripture-writers for small price - parallel too loose beside stronger ones

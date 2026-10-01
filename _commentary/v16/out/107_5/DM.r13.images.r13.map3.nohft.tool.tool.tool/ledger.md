@@ -1,0 +1,13 @@
+- memory: fronted "hum" plus participle marks a settled state, not a single lapse
+- memory: "an" with sahw marks distance from the whole; "fî" marks being inside
+- memory: ghamra as overwhelming, covering mass (51:11 gloss)
+- memory: rahw as calm, easy motion (gloss of جاء سهوا رهوا)
+- memory: tastalûn (27:7) is the same verb as اصطليت بالنار
+- memory: salah (و) and fire (ي) often treated as separate roots; fire kept as image only
+- memory: Turkish "sehven/sehiv secdesi" narrowed senses
+- not written: ص ل و B004 trap/snare - linking it to show-off prayer would be speculation beyond the ayah
+- not written: ص ل و B007 place of worship - adds nothing to heedlessness theme
+- not written: ص ل و B008 grinding stone, B009 camel-fodder plant - no bearing on the ayah
+- not written: ص ل و B005 birth sense (opening of the salâ) - only the back/croup was needed for the horse image
+- not written: س ه و B006 pregnancy during menstruation "sahwan" - obscure; no supportable link
+- not written: Müddessir confession (74:43) - belongs to surah-wide scene, not this ayah's words

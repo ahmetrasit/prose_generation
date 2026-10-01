@@ -1,0 +1,15 @@
+- memory: ṭaʿām can function as verbal noun "feeding" (basis of the anchor translation)
+- memory: yaḥuḍḍu and yaduʿʿu both come from roots whose last letter is doubled
+- memory: Turkish "miskin" has shifted to mean lazy/sluggish ("miskin miskin oturmak")
+- memory: Ottoman Turkish hazîz (from ḥaḍīḍ) means the lowest degree
+- memory: ʿaqaba = steep mountain pass
+- memory: ḥamīm = close, warm friend
+- not written: ḥuḍaḍ bitter resin medicine (ح ض ض B003) - did nothing for any theme
+- not written: ṭaʿm as intellect/discipline, "lā yaṭʿam" (ط ع م B008) - tempting link to the denier, but too speculative
+- not written: ṭ-ʿ-m ripening, hunting bow, semi-fat camel, horse's mouth, grafting, power, choking, kissing, sequence (B005–B007, B009–B014) - no theme work
+- not written: sikkīn knife that stills the slaughtered (س ك ن B007) - its meaning works against the reading
+- not written: sukkān ship's rudder (س ك ن B008) - only a pun with the boat of 18:79
+- not written: sukna, where the head sits on the neck (س ك ن B009) - no theme work
+- not written: prompting the stalled imam vs heedless prayer of 107:5 - belongs to the surah's scene
+- not written: meskenet laid on Israel in 2:61 - would pull away from the ayah
+- not written: garden owners barring the miskin (68:17–24) - the surah commentary's scene
