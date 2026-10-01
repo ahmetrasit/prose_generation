@@ -19,15 +19,49 @@ QD = Path("/Volumes/OZTURK/_projects/quran-data/data")
 LISTS = QD / "analysis" / "inter-ayah" / "reciprocal"
 TEXT = QD / "text" / "quran-uthmani.tsv"
 MARK = Path(".missing_py_used")
-# Claude Code shows a tool output longer than about 30k characters only as a 2 KB preview plus a file path the agent
-# cannot open (S1 map run, 2026-09-30: 43.2 KB). Above LIMIT, each ayah is shortened to its opening words.
-LIMIT = 24_000
+# Claude Code shows a tool output above roughly 30-40 KB (bytes, not characters) only as a 2 KB preview plus a file
+# path the agent cannot open: the S1 map run's 44,228-byte answer was cut to a preview (2026-09-30). The answer is
+# therefore built within LIMIT_BYTES, degrading in steps: full Arabic, opening words, refs only, then the most
+# widely listed refs with an explicit count of the rest.
+LIMIT_BYTES = 20_000
 OPENING_WORDS = 6
+PAUSE = re.compile(r"^[\u06D6-\u06ED\u06DE\u06E9]+$")  # Uthmani pause/sajda marks written as separate tokens
 
 
 def opening(ayah: str) -> str:
-    words = ayah.split()
+    words = [w for w in ayah.split() if not PAUSE.match(w)]
     return " ".join(words[:OPENING_WORDS]) + (" …" if len(words) > OPENING_WORDS else "")
+
+
+def size(s: str) -> int:
+    return len(s.encode("utf-8"))
+
+
+def render(missing: list[str], text: dict[str, str]) -> str:
+    """The passage block within LIMIT_BYTES (the instruction is added by the caller and counted in the budget)."""
+    budget = LIMIT_BYTES - size(INSTRUCTION) - 200
+    full = "\n".join(f"- ({r}) {text.get(r, '')}" for r in missing)
+    if size(full) <= budget:
+        return f"{len(missing)} passages:\n{full}"
+    short = "\n".join(f"- ({r}) {opening(text.get(r, ''))}" for r in missing)
+    if size(short) <= budget:
+        return f"{len(missing)} passages (each ayah's opening words):\n{short}"
+
+    def refs_only(rs: list[str]) -> str:
+        by: dict[str, list[str]] = {}
+        for r in rs:
+            s, a = r.split(":")
+            by.setdefault(s, []).append(a)
+        return "\n".join(f"- {s}: {', '.join(a)}" for s, a in by.items())
+    if size(refs_only(missing)) <= budget:
+        return f"{len(missing)} passages (refs only, by surah, most widely listed first):\n{refs_only(missing)}"
+    n = len(missing)
+    while n > 1 and size(refs_only(missing[:n])) > budget - 120:
+        n = int(n * 0.9)
+    return (f"{len(missing)} passages; the {n} most widely listed are shown (refs only, by surah), "
+            f"{len(missing) - n} more are not shown:\n{refs_only(missing[:n])}")
+
+
 INSTRUCTION = (
     "These strong passages from an earlier cross-reference list are not among the refs you gave. The list is not "
     "authoritative and may be incomplete. Judge each passage yourself: add it only where it supports or sharpens "
@@ -60,8 +94,9 @@ def expand(tokens: list[str]) -> set[str]:
 
 
 def strong(focus_refs: list[str]) -> tuple[list[str], int]:
-    """Strong targets in list order, and how many focus lists were found (0 means the check could not run)."""
-    seen, out, found = set(), [], 0
+    """Strong targets, most widely listed first (then list order), and how many focus lists were found
+    (0 means the check could not run). For one ayah every count is 1, so list order is kept."""
+    seen, out, found, count = set(), [], 0, {}
     for ref in focus_refs:
         path = LISTS / f"focus_{ref.replace(':', '_')}_cutoff_100.tsv"
         if not path.exists():
@@ -74,10 +109,13 @@ def strong(focus_refs: list[str]) -> tuple[list[str], int]:
                         or row["focus_direction_label"] != "strong"):
                     continue
                 t = row["target_ref"].strip()
-                if re.fullmatch(r"\d+:\d+", t) and t not in seen:
-                    seen.add(t)
-                    out.append(t)
-    return out, found
+                if re.fullmatch(r"\d+:\d+", t):
+                    count[t] = count.get(t, 0) + 1
+                    if t not in seen:
+                        seen.add(t)
+                        out.append(t)
+    order = {r: i for i, r in enumerate(out)}
+    return sorted(out, key=lambda r: (-count[r], order[r])), found
 
 
 def main() -> None:
@@ -101,11 +139,7 @@ def main() -> None:
         used = expand(sys.argv[2:])
         missing = [r for r in listed if r not in used]
         if missing:
-            answer = "\n".join([f"{len(missing)} passages:", *(f"- ({r}) {text.get(r, '')}" for r in missing), "",
-                                INSTRUCTION])
-            if len(answer) > LIMIT:  # the CLI shows only a short preview of a longer tool output
-                answer = "\n".join([f"{len(missing)} passages (each ayah's opening words):",
-                                    *(f"- ({r}) {opening(text.get(r, ''))}" for r in missing), "", INSTRUCTION])
+            answer = render(missing, text) + "\n\n" + INSTRUCTION
         else:
             answer = ("Every strong passage of the earlier cross-reference list is already among your refs. The list "
                       "is not authoritative and may be incomplete: add any other passage you now recall that "
