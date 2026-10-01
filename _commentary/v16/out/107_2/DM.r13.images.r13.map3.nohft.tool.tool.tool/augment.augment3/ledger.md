@@ -1,0 +1,7 @@
+- added: 76:9-10 the feeders' words, Allah's good pleasure and fear of a day - gives the day that protects the orphan, joins ¶4
+- added: 74:44-46 the people in the fire confess not feeding the poor and denying the day of dîn - joins ¶4's logic
+- added: 69:33 disbelief named beside not urging the feeding of the poor - joins 69:34 in ¶7
+- added: 80:1, 80:8 the blind man who came, turned from - context for 80:10 in ¶5
+- added: 92:5, 92:8 the giver and the miser, named by source with 92:6 and 92:9 - joins ¶2
+- ignored: 83:10-12 "ellezîne yükezzibûne bi-yevmi'd-dîn" - repeats the Tûr pattern already shown in ¶9-10 and adds nothing to any paragraph
+- ignored: 68:17-33 the owners of the garden keeping the poor out - same door-closing as ¶5, but 80 and 93:10 already work there and this would only crowd it

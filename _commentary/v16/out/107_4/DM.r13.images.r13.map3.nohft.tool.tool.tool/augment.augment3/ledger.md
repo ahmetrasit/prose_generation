@@ -1,0 +1,3 @@
+- added: 75:32 yalanladı ve yüz çevirdi - 75:31'in karşıtı olarak adıyla anıldı
+- ignored: 69:34 yoksulun yemeğine teşvik etmemek - ¶12 bu ayeti zaten anlatıyor, yeni bir şey katmaz
+- ignored: 69:33 Allah'a iman etmemek - Hâkka sahnesinin açılışı, ¶12'nin söylediğini tekrarlar

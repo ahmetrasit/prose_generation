@@ -1,0 +1,58 @@
+=== INSERT ===
+paragraph: 1
+after: diliyle yoksulun yemeği için tek söz etmez.
+ref: 93:9
+text: Aynı çift, Duhâ suresinde Allah'ın Peygamber'e yönelttiği emirde de yan yana durur. Sure ona önce yetim bulunup barındırıldığını {source:93:6} ve ihtiyaç içindeyken zengin kılındığını hatırlatır: {ar:وَوَجَدَكَ عَآئِلًۭا فَأَغْنَىٰ, tr:ve vecedeke â‘ilen fe-ağnâ, gloss:seni ihtiyaç içinde buldu da zengin etti, source:93:8}. Ardından şu iki emir gelir: {ar:فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ, tr:fe-emme'l-yetîme fe-lâ takhar, gloss:yetime gelince, onu ezme, source:93:9}, {ar:وَأَمَّا ٱلسَّآئِلَ فَلَا تَنْهَرْ, tr:ve emme's-sâile fe-lâ tenher, gloss:isteyene gelince, onu azarlayıp ters çevirme, source:93:10}. Orada yasak olan, yetime güç göstermek ve isteyene sesi yükseltmektir. Gerekçe de kişinin kendi geçmişidir. Mâûn suresinde ise dil kaba kullanılmaz, hiç kullanılmaz. Duhâ'da sert söz yasaklanır, burada eksik olan söz edilmeyişidir.
+
+=== INSERT ===
+paragraph: 1
+after: ikinci ayetin bu fiiliyle birlikte kurulur.
+ref: 52:13
+text: Aynı fiil Tûr suresinde edilgen biçimiyle geri gelir. Sure yalanlayanlara "vay o gün haline" der {source:52:11} ve o günü şöyle anlatır: {ar:يَوْمَ يُدَعُّونَ إِلَىٰ نَارِ جَهَنَّمَ دَعًّا, tr:yevme yude‘‘ûne ilâ nâri cehenneme de‘‘â, gloss:o gün cehennem ateşine itile itile götürülürler, source:52:13}. Yetimi iten elin öteki yüzü budur: itenin kendisi itilir. Yalanlama da orada ikinci ayetteki gibi itiş fiiliyle birlikte anılır.
+
+=== INSERT ===
+paragraph: 3
+after: hiç kimse için, kendi nefsinden bile fazlasını istememiştir.
+ref: 59:9
+text: Bunun karşıtı Haşr suresinde görülür. Sure yurtlarından çıkarılmış yoksul muhacirleri anlattıktan {source:59:8} sonra, onlardan önce yurda ve imana yerleşmiş olanları anar: {ar:وَيُؤْثِرُونَ عَلَىٰٓ أَنفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌۭ, tr:ve yu'sirûne alâ enfusihim ve lev kâne bihim hasâsa, gloss:kendilerinin ihtiyacı olsa bile onları kendilerine tercih ederler, source:59:9}. Nefsi başkası için sürmek, ihtiyacı olanın bile yapabildiği bir iştir. Ayet bu hâlin adını da koyar: {ar:وَمَن يُوقَ شُحَّ نَفْسِهِۦ, tr:ve men yûka şuhha nefsihî, gloss:kim nefsinin cimriliğinden korunursa, source:59:9}. Üçüncü ayetteki adamın nefsine bile söz geçirmemesi, bu cimrilikten korunamamış bir nefsin sessizliğidir.
+
+=== INSERT ===
+paragraph: 5
+after: gloss:hem cimrilik ederler hem insanlara cimriliği emrederler, source:4:37} diye anlatır.
+ref: 68:24
+text: Bu tersine işleyen zincirin sahnesi Kalem suresinde de vardır. Allah, karşısındakileri bahçe sahiplerini sınadığı gibi sınadığını bildirir. Bahçe sahipleri sabahleyin devşirmek üzere yemin etmişlerdir {source:68:17}. Yola çıkarken kendi aralarında fısıldaşırlar {source:68:23} ve fısıltıları şudur: {ar:أَن لَّا يَدْخُلَنَّهَا ٱلْيَوْمَ عَلَيْكُم مِّسْكِينٌۭ, tr:en lâ yedhulennehâ'l-yevme aleykum miskîn, gloss:bugün oraya sizin yanınıza hiçbir yoksul girmesin, source:68:24}. Burada da söz birbirine geçen bir zincirdir, ama yoksulun önündeki kapıyı kapatmak için kurulur. Üçüncü ayetteki adam böyle bir zincire ses vermez. Yine de bu sahne, bu dilin sessiz kalmayı seçmeden önce neler söyleyebildiğini gösterir.
+
+=== INSERT ===
+paragraph: 4
+after: Söz, eli boş olanın da elindedir.
+ref: 65:7
+text: Kuran bu ölçüyü herkese elindekine göre koyar. Talâk suresinde nafaka anlatılırken şöyle denir: {ar:لِيُنفِقْ ذُو سَعَةٍۢ مِّن سَعَتِهِۦ ۖ وَمَن قُدِرَ عَلَيْهِ رِزْقُهُۥ فَلْيُنفِقْ مِمَّآ ءَاتَىٰهُ ٱللَّهُ, tr:li-yunfik zû sea‘tin min sea‘tih, ve men kudira aleyhi rizkuhû fe-li-yunfik mimmâ âtâhu'llâh, gloss:bolluk sahibi bolluğundan harcasın; rızkı daraltılmış olan da Allah'ın kendisine verdiğinden harcasın, source:65:7}. Hemen ardından gelen cümle gerekçeyi verir: {ar:لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا مَآ ءَاتَىٰهَا, tr:lâ yukellifu'llâhu nefsen illâ mâ âtâhâ, gloss:Allah hiçbir nefse, ona verdiğinden başkasını yüklemez, source:65:7}. Rızkı daralmış olandan beklenen de bu çerçevede, elindeki şeyle iyiliğe katılmasıdır. Elinde söz bulunan kişi bu paydan düşmüş sayılmaz.
+
+=== INSERT ===
+paragraph: 12
+after: Miskin, ihtiyacın yerinde durdurduğu kişidir.
+ref: 2:273
+text: Bakara suresi, infak edilecekler arasında bu durmuşluğu başka bir yüzüyle gösterir: {ar:لَا يَسْتَطِيعُونَ ضَرْبًۭا فِى ٱلْأَرْضِ, tr:lâ yestatîûne darben fi'l-ard, gloss:yeryüzünde dolaşıp kazanmaya güç yetiremezler, source:2:273}. Aynı ayet onların dışarıdan nasıl göründüğünü de söyler: {ar:يَحْسَبُهُمُ ٱلْجَاهِلُ أَغْنِيَآءَ مِنَ ٱلتَّعَفُّفِ, tr:yahsebuhumu'l-câhilu agniyâe mine't-teaffuf, gloss:bilmeyen, iffetlerinden ötürü onları zengin sanır, source:2:273}. Durdurulmuş olanın hâli çoğu zaman kendi ağzından çıkmaz, dışarıdan okunması da kolay olmaz. Bu yüzden yoksulun yemeği için konuşmak, başkasının görmediği hâli görenin işidir.
+
+=== INSERT ===
+paragraph: 15
+after: Doyurulacak olanlardan biri de toprağa yapışmış miskindir.
+ref: 90:15
+text: Ötekisi, ikinci ayetin itilen kişisi olan yetimdir: {ar:يَتِيمًۭا ذَا مَقْرَبَةٍ, tr:yetîmen zâ makrabe, gloss:yakınlığı olan bir yetim, source:90:15}. Böylece yokuşta Mâûn suresinin iki kişisi yan yana durur. Biri yakınlığıyla, öteki toprağıyla anılır. Sure orada yetimi itilecek biri olarak değil, yedirilecek biri olarak gösterir.
+
+=== INSERT ===
+paragraph: 22
+after: yalanlayana göre ise pay, onu elinde tutana kalmıştır.
+ref: 70:26
+text: Meâric suresi aynı bağı olumlu yönden kurar. Sure, hâli darlıktan kurtulmuş olanları sayarken önce namazlarında devamlı olanları anar {source:70:23}. Sonra şunları sayar: {ar:وَٱلَّذِينَ فِىٓ أَمْوَٰلِهِمْ حَقٌّۭ مَّعْلُومٌۭ, tr:ve'llezîne fî emvâlihim hakkun ma‘lûm, gloss:mallarında bilinen bir hak olanlar, source:70:24}, {ar:لِّلسَّآئِلِ وَٱلْمَحْرُومِ, tr:li's-sâili ve'l-mahrûm, gloss:isteyen ve yoksun kalan için, source:70:25}. Ardından gelen sıfat şudur: {ar:وَٱلَّذِينَ يُصَدِّقُونَ بِيَوْمِ ٱلدِّينِ, tr:ve'llezîne yusaddikûne bi-yevmi'd-dîn, gloss:din gününü doğrulayanlar, source:70:26}. Din gününü doğrulamak, yoksulun ve isteyenin payını tanıyan cümlelerin hemen yanında durur. Mâûn'un ilk ayetindeki "dini yalanlamak" bu doğrulamanın karşıtıdır.
+
+=== INSERT ===
+paragraph: 23
+after: Yoksulun yemeğine ağız açmayanın yemeği de yoktur.
+ref: 69:37
+text: Hâkka suresi bu yemeği yiyenin de adını verir: {ar:لَّا يَأْكُلُهُۥٓ إِلَّا ٱلْخَٰطِـُٔونَ, tr:lâ ye'kuluhû illâ'l-hâti'ûn, gloss:onu hatâ işleyenlerden başkası yemez, source:69:37}. Elinden yemeği çıkaran adam yemeksiz kalmakla yetinmez, yemek diye önüne konan şeyin sahibi olarak da suçlu sayılır.
+
+=== LEDGER ===
+- added: 52:13 yedu‘‘u kökünün edilgen biçimi, yalanlayanların cehenneme itilmesi
+- added: 68:23 bahçe sahiplerinin fısıldaşması, yalnızca adıyla anıldı
+- ignored: 4:10 yetim malı yiyenlerin karınlarına ateş doldurması - ayetin itişle ve söz etmemeyle ilgisi yok, mal yemeye kayıyor

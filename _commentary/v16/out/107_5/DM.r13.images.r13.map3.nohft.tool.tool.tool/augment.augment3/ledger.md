@@ -1,0 +1,16 @@
+- added: 6:162 "salâtî" as owned yet given to Allah - shifts ¶2's "their prayer"
+- added: 8:35 "salâtuhum" emptied to whistling and clapping - Quran names empty prayer "their prayer"
+- added: 4:102 ghafla "an" inside prayer, with a cost - joins ¶3's body present, attention elsewhere
+- added: 70:34 second Meâric instance the commentary mentions but does not quote - "alâ" as guarding
+- added: 19:59 prayer wasted, desires follow - fits ¶6's "no void"
+- added: 4:43 "hattâ ta'lemû mâ tekûlûn" - prayer's words must be known, joins ¶12
+- added: 6:92 belief in the hereafter beside guarding prayer - positive side of ¶13's din link
+- added: 87:15 remembering then praying - joins ¶16's "anmak için"
+- ignored: 4:142 lazy, showing-off prayer of hypocrites - show-off belongs to the sixth ayah; 87:15 already carries the remembrance point
+- ignored: 9:54 coming to prayer lazily - overlaps 4:142 and adds little to the paragraph
+- ignored: 10:7 heedless of signs, content with this life - 19:59 already fills the same joint
+- ignored: 24:37 men not distracted by trade - fits no paragraph's movement better than those added
+- ignored: 74:43-46 Müddessir confession - ledger's reason holds, it is surah-wide
+- ignored: 12:13 heedless of Yusuf, the wolf - only loosely joins the star image
+- ignored: 29:45 prayer forbids fahşâ and munkar - surah-wide moral scene, not this ayah's words
+- ignored: 2:238 guard the prayers - repeats the "alâ" point of 23:9 and 70:34

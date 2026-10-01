@@ -1,0 +1,15 @@
+- added: 59:9 Ensar'ın az elle de vermesi, esirgemenin kaynağı nefsin sıkılığı
+- added: 5:2 yardım kökünün karşılıklı kalıbı, yardımlaşma
+- added: 3:180 esirgenen şey kıyamette boyna halka olur, asıl sahip Allah
+- added: 56:33 aynı fiilin edilgeni, cennette esirgenmeyen meyve
+- added: 17:29 elin boyna bağlanması, esirgeyenin kendi bağı
+- added: 2:271 gizli verişin değeri, arka kapı alışverişi
+- added: 2:177 yüzün yönü ile malı vermek, iyiliğin tarifi
+- added: 2:264 gösteriş ile ahirete inanmama aynı kişide
+- added: 74:43-44 namaz ve yoksulu doyurma tek sorgu cevabında
+- added: 92:5-9 vermek doğrulamayla, esirgemek yalanlamayla yan yana
+- ignored: 51:19 isteyen ve yoksun kalanın hakkı - 70:24-25 ile aynı söz, yeni bir şey katmıyor
+- ignored: 106:3-4 komşu surede doyuran Rab - paragrafların hiçbirinin akışına oturmuyor
+- ignored: 57:7 mal üzerinde vekillik - 17:100 ve 3:180 aynı noktayı zaten gösteriyor
+- ignored: 89:17-18 yetimi ağırlamama, yoksulu doyurmaya teşvik etmeme - ikinci ve üçüncü ayetin işlediği zemin, yeni bir şey katmıyor
+- ignored: 2:262 başa kakma - esirgeme ile ilgisi dolaylı, paragraflarla birleşmiyor

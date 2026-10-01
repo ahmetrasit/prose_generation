@@ -1,0 +1,10 @@
+- added: 53:34 "azıcık verdi ve kesti", pointing question followed by a deed that stops midway
+- added: 83:13-14 "öncekilerin masalları" and the heart covered by what they earned; deeds darken the heart that judges
+- added: 12:25-27 shirt torn front or back decides sidq and kizb, a visible sign settling a claim
+- added: 96:6 "insan azar", the lead into 96:7, source only
+- added: 90:6, 90:8 the man's boast and "ona iki göz vermedik mi", source only beside 90:7
+- added: 24:24 tongues, hands and feet testify, source only beside 24:25
+- added: 70:22-23 the praying ones named before the due of the asker, source only beside 70:24-26
+- ignored: 78:27-28 "kizzâb" with "bi" and not expecting reckoning - already shown by 68:44 for the hadîs pattern
+- ignored: 37:21 "this is the day you used to deny" - another pointing from the far side, but it duplicates what 107:2 and the commentary's pointing already show
+- ignored: 59:12 the promised help that does not come - the same formula as 63:1, adds nothing new to ¶9 or ¶11

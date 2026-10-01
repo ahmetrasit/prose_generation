@@ -1,0 +1,3 @@
+- added: 52:13 yedu‘‘u kökünün edilgen biçimi, yalanlayanların cehenneme itilmesi
+- added: 68:23 bahçe sahiplerinin fısıldaşması, yalnızca adıyla anıldı
+- ignored: 4:10 yetim malı yiyenlerin karınlarına ateş doldurması - ayetin itişle ve söz etmemeyle ilgisi yok, mal yemeye kayıyor

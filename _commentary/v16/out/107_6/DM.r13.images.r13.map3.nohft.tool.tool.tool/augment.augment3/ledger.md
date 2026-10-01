@@ -1,0 +1,16 @@
+- added: 70:22-23 musallîn's own "ellezîne hum" clause, opposite of sâhûn
+- added: 23:2 "fî salâtihim" against "an salâtihim"
+- added: 3:188 love of praise beyond the deed, joins the watcher of the watching
+- added: 63:4 pleasing look with hollow inside, joins ri'y/appearance as measure
+- added: 2:177 "sadakû" same root as sıdk of the camel; face-turning not the measure
+- added: 74:43-46 prayer, poor and day of dîn named together; praying vs. displaying
+- added: 53:40 effort itself will be seen, joins the day of showing
+- added: 2:265 same downpour on a garden, shows the rock's difference is the ground
+- added: 90:7 boaster of spending asked whether no one saw him
+- added: 92:20 "a'lâ" face as the larger gaze, joins the "smaller eye"
+- added: 98:5 ihlâs of dîn with prayer and zakat, joins the "ortak koşmasın" paragraph
+- ignored: 2:274 secret and open spending - 2:271 already covers legitimate visibility
+- ignored: 4:36 arrogant boaster after listing orphan and poor - adds nothing the ¶10/¶17 movement needs
+- ignored: 9:54 laziness in prayer - already shown by 4:142 in ¶2
+- ignored: 4:108 hiding from people but not from God - ¶15 already shows the Seer
+- ignored: 39:3 pure dîn - 98:5 already carries ikhlâs
