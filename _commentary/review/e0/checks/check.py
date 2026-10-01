@@ -57,6 +57,8 @@ SOURCE_FIELD = re.compile(r'(?:^|,)\s*source:\s*(?:"([^"]*)"|([^,}]*))')
 # a tag without Arabic that carries a source: {source:15:41}, {gloss:…, source:"ق و م,B016"}
 SOURCE_ONLY = re.compile(r"\{(?!ar:)(?=[^{}]*\bsource:)(?:tr|gloss|source):[^{}]*\}")
 QREF = re.compile(r"(\d{1,3}):(\d{1,3})(?:\s*[-–]\s*(\d{1,3}))?")
+# words that usually mean the prose talks about its own inputs or process (record only; the user reads the lines)
+PROCESS = re.compile(r"\b(?:harita\w*|zincir\w*|beti[kğ]\w*|sözlü[kğ]\w*|kontrol listesi\w*)", re.I)
 
 
 class Resolver:
@@ -461,6 +463,7 @@ def check(path: Path, focus: str) -> dict:
         "bound_citations_extended_marker_only": sum(1 for c in bound if c["framing"] == "no echo marker"
                                                     and c["extended_markers_in_sentence"]),
         "negation": C.negation(text),
+        "process_words": len(PROCESS.findall(re.sub(r"\{[^{}]*\}", " ", text))),
         "sources_declared": sum(1 for x in sources if x["declared"]),
         "sources_by_kind": {k: sum(1 for x in sources if x["kind"] == k) for k in
                             sorted({str(x["kind"]) for x in sources if x["kind"]})},
@@ -474,6 +477,8 @@ def check(path: Path, focus: str) -> dict:
         "summary": summary, "quotations": quotations, "arabic_outside_tags": outside, "bellek": bellek,
         "unsourced_unmarked": unsourced_unmarked, "cited_branches": cited,
         "sources": [x for x in sources if x["status"] not in ("ok", "ok (no quote)")] if sources else [],
+        "process_lines": [{"line": C.line_of(text, m.start()), "word": m.group(0)}
+                          for m in PROCESS.finditer(re.sub(r"\{[^{}]*\}", lambda t: re.sub(r"[^\n]", " ", t.group(0)), text))],
         "sources_all": sources,
     }
 

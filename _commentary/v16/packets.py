@@ -238,9 +238,10 @@ IMAGES_DESC_OWN = ("images.md (an earlier reader's commentary on the surah's ima
                    "surah commentary's)")
 
 
-def slice_images(text: str, ref: str) -> tuple[str, list[str]]:
-    """The images text before the first section, every `## ` section whose Kaynaklar members (the part before
-    "Kur'an:") cite `ref`, and ## Buluşmalar; with the kept headings."""
+def slice_images(text: str, ref: str, preamble: bool = True) -> tuple[str, list[str]]:
+    """The images text before the first section (unless preamble=False: r13, after a process note opened the S100
+    images), every `## ` section whose Kaynaklar members (the part before "Kur'an:") cite `ref`, and ## Buluşmalar;
+    with the kept headings."""
     parts = re.split(r"(?m)^(?=## )", text)
     pre, secs = (parts[0], parts[1:]) if not parts[0].startswith("## ") else ("", parts)
     cite = re.compile(rf"(?<![\d:]){re.escape(ref)}(?![\d:])")
@@ -250,7 +251,7 @@ def slice_images(text: str, ref: str) -> tuple[str, list[str]]:
         members = " ".join(re.split(r"Kur'?an:", ln, maxsplit=1)[0] for ln in sec.splitlines() if ln.startswith("Kaynaklar:"))
         if head.startswith("Buluşmalar") or cite.search(members):
             kept.append(sec)
-    return pre + "".join(kept), [s.split("\n", 1)[0][3:].strip() for s in kept]
+    return (pre if preamble else "") + "".join(kept), [s.split("\n", 1)[0][3:].strip() for s in kept]
 
 
 def images_complete(f: Path) -> bool:
@@ -317,7 +318,7 @@ def writer_packet(ref: str, brief: str, map_path: Path, labels: bool, tool: bool
         sliced = V.BRIEFS[brief].get("slice_images", False)
         body, kept = images.read_text(encoding="utf-8"), None
         if sliced:
-            body, kept = slice_images(body, ref)
+            body, kept = slice_images(body, ref, preamble=not V.BRIEFS[brief].get("own_images", False))
             if not any(not k.startswith("Buluşmalar") for k in kept):
                 raise SystemExit(f"{images}: no image section cites {ref} in its Kaynaklar line")
         recall = V.BRIEFS[brief].get("recall_rule", False)
