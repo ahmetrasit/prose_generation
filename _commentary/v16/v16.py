@@ -34,6 +34,8 @@ Briefs:
       "root letters,branch id", a Quran ayah, "hadis" or "memory"; a passage named without quoting it gets a
       source-only tag); the ayah writer reads only the images that cite its ayah, plus ## Buluşmalar; the check
       (missing.py) gives refs only, by tier, with a text lookup, and runs per ayah in the images step.
+  r12_1 r12 with no hadith, tafsir or outside report (a passage's situation as the Quran tells it), terse ledger
+      lines, and a recalled image tied to the ayah whose words carry it, never "explained before" (images too).
 
 Arms (the assembled-findings slot):
   H   the ayah's HFT records (v9/input/v2/…/02_hft.md) and the surah channel review's subchannels anchored in the
@@ -128,6 +130,10 @@ BRIEFS = {
     "r11_1": {"write": HERE / "prompts" / "r11_1" / "write.md", "add": HERE / "prompts" / "r11_1" / "additions.md",
               "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"],
               "map_from": "r2", "ledger": True},
+    # r12_1 (user, 2026-10-01): r12 without hadith/tafsir, terse ledger, recall rule in the images description.
+    "r12_1": {"write": HERE / "prompts" / "r12_1" / "write.md", "add": HERE / "prompts" / "r12_1" / "additions.md",
+              "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"],
+              "map_from": "r2", "ledger": True, "slice_images": True, "recall_rule": True},
     # r12 (user, 2026-10-01): sources inside every tag; images sliced to the ayah; refs-only check with lookup.
     "r12": {"write": HERE / "prompts" / "r12" / "write.md", "add": HERE / "prompts" / "r12" / "additions.md",
             "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"],
@@ -186,6 +192,7 @@ ARM_EVIDENCE["r10_1"] = ARM_EVIDENCE["r2"]
 ARM_EVIDENCE["r11"] = ARM_EVIDENCE["r2"]
 ARM_EVIDENCE["r11_1"] = ARM_EVIDENCE["r2"]
 ARM_EVIDENCE["r12"] = ARM_EVIDENCE["r2"]
+ARM_EVIDENCE["r12_1"] = ARM_EVIDENCE["r2"]
 _SRC = None
 
 

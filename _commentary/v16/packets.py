@@ -65,21 +65,28 @@ def tool_extra(target: str, kind: str = "ayah") -> int:
     return n + LOOKUPS * 4_000
 
 
-def audit(d: Path, targets: list[str] | None = None) -> list[str]:
+DENIED = "Permission to use Bash has been denied"
+
+
+def audit(d: Path, targets: list[str] | None = None) -> tuple[list[str], list[str]]:
     """Every command the agent ran must be the allowed check with plain refs, for one of its own targets, or a text
-    lookup; anything else is reported."""
+    lookup; anything else is reported. Returns (commands that ran outside the rule, commands the permission mode
+    refused, which never ran)."""
     f = d / "tool_calls.json"
     calls = json.loads(f.read_text(encoding="utf-8")) if f.exists() else []
-    bad = []
+    bad, denied = [], []
     for c in calls:
         cmd = str((c.get("input") or {}).get("command", ""))
+        if c.get("is_error") and DENIED in str(c.get("result", "")):
+            denied.append(cmd)
+            continue
         if not SAFE_CMD.fullmatch(cmd):
             bad.append(cmd)
             continue
         t = cmd[len(ALLOW) + 1:].split(" ", 1)[0]
         if targets and t != "text" and t not in targets:
             bad.append(cmd)
-    return bad
+    return bad, denied
 
 
 def tool_line(target: str, kind: str = "ayah") -> str:
@@ -191,6 +198,16 @@ IMAGES_DESC_SLICED = ("images.md (an earlier reader's commentary on the surah's 
                       "what this ayah's words add to it)")
 
 
+# r12_1 (user, 2026-10-01): the r12 reading presented the surah commentary as "earlier ayat explained"; a recalled
+# image is tied to the ayah whose words carry it and restated briefly, never as something explained before.
+IMAGES_DESC_RECALL = IMAGES_DESC_SLICED.replace(
+    "The images are already explained at surah level: recall one briefly and develop what this ayah's words add to it",
+    "The surah commentary develops these images for the reader: recall one briefly, tied to the ayah whose words "
+    "carry it and restated in your own words, never as something explained or told before, and develop what this "
+    "ayah's words add to it")
+assert IMAGES_DESC_RECALL != IMAGES_DESC_SLICED
+
+
 def slice_images(text: str, ref: str) -> tuple[str, list[str]]:
     """The images text before the first section, every `## ` section whose Kaynaklar members (the part before
     "Kur'an:") cite `ref`, and ## Buluşmalar; with the kept headings."""
@@ -260,7 +277,8 @@ def writer_packet(ref: str, brief: str, map_path: Path, labels: bool, tool: bool
             body, kept = slice_images(body, ref)
             if not any(not k.startswith("Buluşmalar") for k in kept):
                 raise SystemExit(f"{images}: no image section cites {ref} in its Kaynaklar line")
-        head = head.replace(MAP_DESC, IMAGES_DESC_SLICED if sliced else IMAGES_DESC)
+        recall = V.BRIEFS[brief].get("recall_rule", False)
+        head = head.replace(MAP_DESC, (IMAGES_DESC_RECALL if recall else IMAGES_DESC_SLICED) if sliced else IMAGES_DESC)
         tag = images.parent.name + ("" if labels else ".nolabel") + (".tool" if tool else "")
         swap(secs, "map.md", f"_commentary/v16/{images.relative_to(V.HERE)}"
              + (f" (only the images that cite {ref}, and ## Buluşmalar)" if sliced else ""), body)
@@ -338,8 +356,11 @@ def call(text: str, d: Path, kind: str, row: dict, ledger: bool, tool: bool = Fa
         subprocess.run([sys.executable, str(V.CHECK), str(reading), "--ref", row["ref"], "--out",
                         str(d / "check.json"), "--quiet"], cwd=V.CHECK.parent)
     if tool:
-        bad = audit(d, targets)
+        bad, denied = audit(d, targets)
         out["tool_audit"] = "ok" if not bad else {"unexpected_commands": bad}
+        if denied:
+            out["tool_denied_not_run"] = denied
+            print(f"note: {len(denied)} command(s) refused by the permission mode (not run)")
         if bad:
             print(f"WARNING: unexpected commands run by the agent, treat this run as contaminated: {bad}")
     V.log(out)

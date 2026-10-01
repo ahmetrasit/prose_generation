@@ -1472,3 +1472,23 @@ numbered paragraphs, its ledger, and every listed passage not cited, with its Ar
 own knowledge and writes ledger lines only for those. It returns insertions as data; the script applies only anchors
 found once, at a sentence end, outside tags, and asserts that removing them restores the original byte for byte.
 Output in <run dir>/augment.augment1/. Est. S1 images $1.14 (928 passages, ~185k tokens), 1:6 ~$0.35. Reviewed.
+
+## 1:6 r12, S1 augment1, and r12_1 (user, 2026-10-01)
+
+**S1 augment1** ($1.29; 48.0k output of which 38.7k thinking): 24/24 insertions applied, all sources verified, the
+original byte-identical. All 24 from the list (13 strong, 7 medium, 4 other side, 1 weak); about 14 real joins
+(18:82, 14:41, 55:9, 6:71, 43:37, 27:63, 49:17, 31:19 …), 4–6 catalogue-leaning (21:107, 7:30, 2:138, 18:17); 72:16,
+27:35, 41:17, 2:186 passed over; memory search: 2 ignored lines only. User: 24 of 928 is too low for the cost;
+augment runs at ayah level from now on, and adds to the ayah readings only.
+
+**1:6 r12** ($1.57; 41.3k / 25.4k): 2,852 words; all 62 checkable sources verified. New: the arrowhead (هادي السهم
+نصله) with the straight shaft (رمح قويم), the qibla/direction branch (ليس لهذا الأمر هدية ولا قبلة) with 2:142 and
+16:9. Weak: "Önceki ayetler … anlatmıştı" presents the surah commentary as earlier ayat; spear given as the arrow's
+shaft; long ledger; 72:16 declined with a reason.
+
+**r12_1** (user): no hadith, tafsir or outside report in the prose (a passage's situation as the Quran tells it in
+its context; hadith and tafsir may come later); terse ledgers; a recalled image is tied to the ayah whose words
+carry it and restated, never as "explained before" (`recall_rule`, images description). augment2: a paragraph that
+already cites passages is as open to additions as one that cites none; same no-hadith rule. The audit now lists
+commands refused by the permission mode as denied, not run. Not reverted to r11 for length (user agreed): r12 is
+r11_1 plus sources; the length drop is one run and likely the sliced images.
