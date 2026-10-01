@@ -1,0 +1,9 @@
+- not developed: chain 7 (rain on the land) as its own section - merged into chain 6 as one image of kenûd
+- not developed: chain 9 (shared pot) as its own section - merged into chain 8 as the counter-scene of the closed hand
+- not developed: غ ي ر B001 "God's rain/provision" member in chains 6 and 7 - wrong root for al-mughīrāt, dropped
+- not developed: ضبح as owl and echo calls (chain 4) - relies on pre-Islamic lore outside the Quran, dropped
+- not developed: ربيون "great crowds" (chain 11) - too loose a link to rabb, dropped
+- not developed: the map's meysir lore (chain 9) and its commentators remark (chain 6) - reports from outside the Quran, dropped
+- memory: al-mughīrāt is the form IV participle of أغار "to raid", root غ و ر
+- memory: غار يغير "to provide rain" is a separate verb and not the root of al-mughīrāt
+- memory: the preposition عن in 38:32 can mean both "because of" and "away from"
