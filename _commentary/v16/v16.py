@@ -302,10 +302,22 @@ def v5_lanes(ref: str) -> list[tuple[Path, float]]:
     return lanes
 
 
+def fresh_context(ref: str) -> str:
+    """The same context.md for an ayah v9 never prepared (S107, 2026-10-01): the focus ayah, its anchor translation
+    from the ayah bundle, its words, the Fatiha and the whole surah, built by v9's own section functions."""
+    s, a = (int(x) for x in ref.split(":"))
+    bundle = D.P.load_bundle(REPO / "bundles" / f"s{s:03d}" / f"{s}_{a}.ayah.json", s, a)
+    head = D.P.section_ayah(src(), ref, bundle)
+    fat = "# Fatiha (recited in every salah)\n" + "".join(f"- 1:{i} {src().quran[f'1:{i}']}\n" for i in range(1, 8))
+    return head + "\n" + fat + "\n" + D.P.section_surah(src(), ref)
+
+
 def clean_context(ref: str, path: Path) -> Path:
-    """v9 context.md without its '## Word notes' section (precomputed verdicts, REVIEW.md I7)."""
+    """v9 context.md without its '## Word notes' section (precomputed verdicts, REVIEW.md I7); for an ayah v9 never
+    prepared, the same file built fresh (fresh_context)."""
     _, name = sa(ref)
-    t = (V9 / "lines" / "work" / name / "context.md").read_text(encoding="utf-8")
+    v9 = V9 / "lines" / "work" / name / "context.md"
+    t = v9.read_text(encoding="utf-8") if v9.exists() else fresh_context(ref)
     t = re.sub(r"\n## Word notes[^\n]*\n.*?(?=\n#)", "\n", t, flags=re.S)
     path.write_text(t, encoding="utf-8")
     return path
@@ -411,9 +423,10 @@ def surah_build(s: int, brief: str) -> tuple[str, Path]:
     parts = [f"# HFT: earlier activation hypotheses, per focus ayah of surah {s}"]
     if brief != "r1":
         parts.append("\n" + HFT_NOTE)
-    for r in refs:
+    for r in refs:  # an ayah without v9 HFT gets a stated gap (a nohft map drops this file anyway)
         f = V9 / "input" / "v2" / f"s{s:03d}" / r.replace(":", "_") / "02_hft.md"
-        parts.append(f"\n# Focus {r}\n\n" + trim_hft(f.read_text(encoding="utf-8")))
+        parts.append(f"\n# Focus {r}\n\n" + (trim_hft(f.read_text(encoding="utf-8")) if f.exists() else
+                                                "(no HFT records for this ayah)\n"))
     hft.write_text("\n".join(parts), encoding="utf-8")
     ch_src = CHANNELS / f"s{s:03d}" / "reader_a_pilot.md"
     ch = wd / "channels.md"

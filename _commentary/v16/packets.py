@@ -165,10 +165,9 @@ def surah_source(s: int) -> tuple[str, str]:
     if s == 1:
         p = V.OUT / "s001" / "surah.r2" / "prompt.md"
         return p.read_text(encoding="utf-8"), "out/s001/surah.r2/prompt.md"
-    # v16.surah_build reads every ayah's v9 HFT file and the surah's channel review (only some surahs have them)
+    # v16.surah_build needs the surah's channel review; v9 HFT files are optional (a nohft map drops them)
     ayat = surah_ayat(s)
-    need = [V.CHANNELS / f"s{s:03d}" / "reader_a_pilot.md"] + [
-        V.V9 / "input" / "v2" / f"s{s:03d}" / r.replace(":", "_") / "02_hft.md" for r in ayat]
+    need = [V.CHANNELS / f"s{s:03d}" / "reader_a_pilot.md"]
     lacking = [str(x) for x in need if not x.exists()]
     if not ayat or lacking:
         raise SystemExit(f"surah {s}: inputs missing for the surah build ({len(lacking)} files, e.g. "
