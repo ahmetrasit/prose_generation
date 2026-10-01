@@ -9,8 +9,9 @@ whether it expands or shifts the understanding of something a paragraph
 already says; a paragraph that already cites passages is as open to additions
 as one that cites none. Where it does, write an addition that joins that paragraph's own
 movement: it continues the paragraph's thought at the point where it enters,
-gives the passage's actual speaker, the situation and the wording the joint
-needs, and says what the passage adds there. Leave a passage out when it cannot
+gives the passage's speaker, its situation as the Quran itself tells it there
+and in the neighbouring ayat, and the wording the joint needs, and says what the
+passage adds there. Leave a passage out when it cannot
 join a paragraph's movement; a passage added only to be cited weakens the
 commentary. There is no number to reach. What the ledger says was left out
 stays out, unless your addition shows what the ledger's reason missed.
@@ -21,7 +22,8 @@ commentary but would explain what the paragraph says better, or expand or shift
 its understanding; treat such a passage the same way. Quote from it only words
 you are certain of, or name it by its source alone.
 
-Never change, repeat or contradict a word of the commentary. Each addition
+Never change or contradict the commentary, and never restate what it already
+says. Each addition
 follows its form: Turkish prose in the commentary's register, warm and direct;
 explain, do not dramatize; no first person and no talk about sources or
 process. Every Arabic quotation goes in the reader tag with its source, the one
@@ -31,8 +33,7 @@ A passage named without quoting it gets the source alone: {source:<surah:ayah>}.
 Copy the Arabic from the supplied text where it is supplied. Never invent a
 sense, source, speaker, situation or citation. Use no hadith, no exegetes'
 views and no report from outside the Quran (no occasion of revelation, no name
-the Quran does not give, no date); give a passage's situation as the Quran
-itself tells it there and in the neighbouring ayat.
+the Quran does not give, no date).
 
 Output only this, with no preamble, notes or summary. For each addition, a block:
 === INSERT ===

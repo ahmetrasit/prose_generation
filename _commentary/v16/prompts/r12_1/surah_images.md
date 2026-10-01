@@ -44,11 +44,10 @@ A branch's sense given in Turkish without its Arabic, and a Quran passage named
 without quoting it, carry the source alone: {source:"ق و م,B016"},
 {source:15:41}. Outside the `Kaynaklar:` lines, never write a Quran reference
 outside a tag. End each image section with one line, `Kaynaklar:`, giving its
-members as ayah, word, root and branch (e.g. 1:6 ٱلْمُسْتَقِيمَ ق و م B012) and its
-Quran refs.
+members as ayah, word, root and branch (e.g. 1:6 ٱلْمُسْتَقِيمَ ق و م B012).
 
 Output: the prose; then a line containing only
 === LEDGER ===
 then, in plain English, one short line per item, a few words each:
 - not developed: <chain> - <why>
-- memory: <what came from memory> (<ref>)
+- memory: <a claim about Arabic that neither the map nor the Quran text can check>
