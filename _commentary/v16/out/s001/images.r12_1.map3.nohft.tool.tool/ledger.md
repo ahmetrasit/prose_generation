@@ -1,0 +1,5 @@
+- not developed: none; Rain and Well-head merged into one water image
+- not developed: hadith items in Womb, Herd, Leaning chains - outside the Quran
+- memory: fronted إِيَّاكَ before the verb gives exclusivity ("only you")
+- memory: ٱلْمَغْضُوبِ is a passive participle that leaves the angry one unnamed, unlike أَنْعَمْتَ
+- memory: deyn (debt) and dîn (religion/requital) share one root د ي ن
