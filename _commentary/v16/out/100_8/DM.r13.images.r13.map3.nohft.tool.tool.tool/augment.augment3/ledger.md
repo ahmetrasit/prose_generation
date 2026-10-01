@@ -1,0 +1,3 @@
+- added: 75:15 insanın mazeret ortaya dökse de kendi aleyhine görücü olması, 75:14'ün hemen devamı olarak yalnız adıyla anıldı
+- ignored: 96:8 Rabbe dönüş - ayetin ¶'larından hiçbirinin hareketine eklenmiyor
+- ignored: 90:5 insanın "kimse bana güç yetiremez" sanması - 28:78 aynı noktayı Rabbin gücüyle daha açık bağlıyor

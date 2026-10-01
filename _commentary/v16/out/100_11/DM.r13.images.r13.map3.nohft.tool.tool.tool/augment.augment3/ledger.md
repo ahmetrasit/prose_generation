@@ -1,0 +1,18 @@
+- added: 96:14 "elem ya'lem" soru kalıbı nesnesiyle verilir, 100:9'un boş nesnesine yanaşır
+- added: 41:22 Allah'ın bilmediği zannı, bilinmeyi bilmemenin adı
+- added: 50:16 bilginin nesnesi insanın kendisi, şah damarından yakınlık
+- added: 18:21 "rabbuhum a'lemu bihim", aynı kalıp, halkın bilgisi Rabbe bırakılır
+- added: 19:70 kalabalıktan her birini ayırıp bilen, 19:94-95 ile aynı sure
+- added: 75:13 o gün haber alan insandır, kaynak Rab
+- added: 86:9 "tublâ's-serâ'ir", ayıklanan iç sırların adı
+- added: 6:103 gözler kavrayamaz, O kavrar; latîf-habîr
+- added: 83:15 "an rabbihim yevme'izin" perdesi, perde insan tarafında
+- added: 22:63 habîr, yağmurla yeşeren toprak sahnesinin sonunda
+- added: 11:111 Rabbin eksiksiz ödemesi ile habîr aynı ayette
+- added: 90:7 mal ile övünenin "kimse görmedi" sanısı
+- ignored: 9:105 gayb ve şehâde, tanıkla habîr ayrımına yeni bir şey katmaz - ¶8'in hareketini değiştirmez
+- ignored: 17:25 "rabbukum a'lemu bimâ fî nufûsikum" ve bağışlama - bu dünyaya ait, "o gün" çizgisine oturmuyor
+- ignored: 58:6 sayılan ama unutulan amel - ¶6 ve ¶17'ye belirgin bir şey eklemiyor
+- ignored: 67:13, 11:5, 20:7, 13:10, 3:29, 64:4, 35:38, 57:6, 40:19 göğüsleri bilen - ¶11'de 67:13 zaten var, tekrar olur
+- ignored: 75:12, 75:30 "rabbike yevme'izin" - 83:15 ve 75:13 içinden anıldı
+- ignored: 17:30, 42:27 "bi-ibâdihi habîr" - ledger gerekçesi geçerli

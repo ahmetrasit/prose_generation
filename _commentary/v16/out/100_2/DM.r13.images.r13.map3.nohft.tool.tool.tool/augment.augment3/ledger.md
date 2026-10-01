@@ -1,0 +1,17 @@
+- added: 2:17 fire kindled, light taken away - shows kindling does not secure guidance; joins ¶19
+- added: 7:20 "vûriye" covered shame exposed by whisper - same root's uncovering side, with 5:31's word; shows what the earlier reason missed
+- added: 24:35 oil that nearly lights without fire - light already in the tree before the strike; joins ¶13
+- added: 104:6-7 fire that reaches the hearts - reverses the direction of 100:2 and joins ¶12's interior
+- added: 28:29 Musa seeks news or a brand for warmth, 27:7 by source - travellers' double need at the fire; joins ¶20
+- ignored: 3:183 offering consumed by fire - claim about a sign, does not join the paragraphs' movement
+- ignored: 5:64 fire kindled for war and put out - would only repeat fire-as-failure
+- ignored: 9:35 heated hoard - drifts toward punishment, not the ayah's act
+- ignored: 18:96 iron made fiery by blowing - adds nothing beyond ¶3
+- ignored: 21:69 fire made cool - would not change what the paragraphs show
+- ignored: 42:51, 85:20, 59:14, 84:10, 14:16-17, 45:10, 2:91, 2:101, 6:94, 76:27 - "verâ" again, with no new face over what ¶16-17 already show
+- ignored: 23:7, 70:31 "verâ" as beyond, with "âdûn" - touches ayah 1's root, not this ayah
+- ignored: 77:2-5, 79:1-5, 51:1-4, 37:1-2 oath chains - already covered by the surah commentary and the ledger
+- ignored: 56:75-76, 52:1, 69:38, 75:8, 89:1, 30:17, 81:12, 87:5, 85:6 - oaths and scenes with no tie to this ayah's act
+- ignored: 57:13 hypocrites asking to take light - would repeat 2:17's point
+- ignored: 11:71-72, 19:5, 18:79, 4:24, 4:102, 33:53, 35:22, 49:2, 49:4, 50:9, 5:16, 3:184, 3:187, 7:26, 16:59, 11:92, 11:98, 14:17 - no join with any paragraph's movement
+- ignored: 8:60 horses made ready - does not join the lean-horse reading

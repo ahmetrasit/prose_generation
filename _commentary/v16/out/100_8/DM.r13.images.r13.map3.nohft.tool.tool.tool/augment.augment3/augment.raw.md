@@ -1,0 +1,76 @@
+=== INSERT ===
+paragraph: 3
+after: kendisinden önce anılan insana da dönebilir, Rabbe de.
+ref: 75:14
+text: İnsanın kendi üzerine tanık olması Kur'an'da başka bir yerde de söylenir. Kıyâme suresinde o gün insana önde gönderdiği ve geride bıraktığı şeyin haber verileceği anlatılır {source:75:13}. Ardından şu söz gelir: {ar:بَلِ ٱلْإِنسَٰنُ عَلَىٰ نَفْسِهِۦ بَصِيرَةٌۭ, tr:belil-insânu alâ nefsihî basîra, gloss:hayır, insan kendi aleyhine açıkça görendir, source:75:14}. Sonraki ayet, insan mazeretlerini ortaya dökse bile bunun değişmeyeceğini bildirir {source:75:15}. Böylece yedinci ayetteki "o"nun insana dönen okuması Kur'an'ın kendi dilinde de duyulur. Rabbe dönen okumayı da kapatmaz.
+
+=== INSERT ===
+paragraph: 2
+after: Bağlardan biri kesilmiş, öteki sıkılmıştır.
+ref: 17:27
+text: "Li-rabbihî" tamlaması Kur'an'da bir kez daha, bu kez malın harcanışıyla birlikte geçer. İsrâ suresinde akrabaya, yoksula ve yolcuya hakları verilmesi, saçıp savurmanın yasaklanması emredilir {source:17:26}. Ardından şöyle denir: {ar:إِنَّ ٱلْمُبَذِّرِينَ كَانُوٓا۟ إِخْوَٰنَ ٱلشَّيَٰطِينِ ۖ وَكَانَ ٱلشَّيْطَٰنُ لِرَبِّهِۦ كَفُورًۭا, tr:inne'l-mubezzirîne kânû ihvâne'ş-şeyâtîn, ve kâne'ş-şeytânu li-rabbihî kefûrâ, gloss:saçıp savuranlar şeytanların kardeşleridir; şeytan da Rabbine karşı pek nankördür, source:17:27}. Demek ki Rabbe karşı nankörlük, malla kurulan ilişkinin iki ucunda da anılır. Sekizinci ayetteki sıkılık yalnız tutmayı gösterir, ama malla Rab arasındaki bağın kopması savurmada da aynı sözle adlandırılır.
+
+=== INSERT ===
+paragraph: 4
+after: birincinin sonucudur: şiddetli bir sevgi, tutan bir el doğurur.
+ref: 17:100
+text: Bu sıkılığın yokluktan gelmediğini Kur'an insanın üzerinde ayrıca gösterir. İsrâ suresinde Peygambere, "de ki" diye başlayan bir söz bildirilir: Rabbimin rahmet hazinelerine siz sahip olsaydınız... Söz şöyle biter: {ar:إِذًۭا لَّأَمْسَكْتُمْ خَشْيَةَ ٱلْإِنفَاقِ ۚ وَكَانَ ٱلْإِنسَٰنُ قَتُورًۭا, tr:izen le-emsektum haşyete'l-infâk, ve kâne'l-insânu katûrâ, gloss:o zaman harcamaktan korkarak elbette tutardınız; insan zaten pek cimridir, source:17:100}. Hazine tükenmez de olsa el açılmaz. Cimriliğin kaynağı elde olanın azlığı değildir. Kaynak, sevginin kendi sıkılığıdır.
+
+=== INSERT ===
+paragraph: 6
+after: kabirlerdekilerin altüst edileceği günü insanın bilip bilmediğini sorar.
+ref: 102:1
+text: Tekâsür suresi bu yolu aynı yönde çizer. Orada Allah, çoğaltma yarışının insanları oyaladığını söyler: {ar:أَلْهَىٰكُمُ ٱلتَّكَاثُرُ, tr:elhâkumu't-tekâsur, gloss:çoğaltma yarışı sizi oyaladı, source:102:1}. Yarışın ne zamana kadar sürdüğü de hemen ardından gelir: {ar:حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ, tr:hattâ zurtumu'l-makâbir, gloss:ta ki kabirleri ziyaret ettiniz, source:102:2}. Dokuzuncu ayetin kabirleri burada da yarışın durduğu yer olarak anılır.
+
+=== INSERT ===
+paragraph: 7
+after: bağış anlamı, Rabbin o yetiştirmesinin insana ulaşan payıdır.
+ref: 20:131
+text: Kur'an bu bağı "Rabbinin rızkı" sözüyle de kurar. Tâhâ suresinde Allah Peygamberine, kendilerini denemek için bazı çiftlere verdiği dünya hayatının süsüne gözlerini dikmemesini söyler ve şöyle der: {ar:وَرِزْقُ رَبِّكَ خَيْرٌۭ وَأَبْقَىٰ, tr:ve rızku rabbike hayrun ve ebkâ, gloss:Rabbinin rızkı daha hayırlı ve daha kalıcıdır, source:20:131}. Burada "hayr", Rab'be nispet edilen rızıktır. İnsanın elinde tuttuğu mal da, Rabbin bağışı da aynı kelimeyle anılır. Fark, kelimenin başındaki "Rabbin" sözündedir.
+
+=== INSERT ===
+paragraph: 8
+after: Gelen şeydir, insan onu yalnızca kabul eder.
+ref: 70:24
+text: İstisnanın bu mala nasıl baktığı hemen ardından anlatılır: {ar:وَٱلَّذِينَ فِىٓ أَمْوَٰلِهِمْ حَقٌّۭ مَّعْلُومٌۭ, tr:ve'llezîne fî emvâlihim hakkun ma'lûm, gloss:onlar ki mallarında bilinen bir hak vardır, source:70:24}; {ar:لِّلسَّآئِلِ وَٱلْمَحْرُومِ, tr:li's-sâili ve'l-mahrûm, gloss:isteyen ve mahrum kalan için, source:70:25}. Namaz kılanlar için dokunan hayrın içinde başkasının payı bellidir. Esirgeyen elin yerini, payı bilen el alır.
+
+=== INSERT ===
+paragraph: 9
+after: İyi diye sevilen şey, yalnızca iyi sanılan bir şey olabilir.
+ref: 3:180
+text: Âl-i İmrân suresi bu uyarıyı açıkça yapar. Allah, kendi lütfundan verdiği şeyi esirgeyenlere seslenir: {ar:وَلَا يَحْسَبَنَّ ٱلَّذِينَ يَبْخَلُونَ بِمَآ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضْلِهِۦ هُوَ خَيْرًۭا لَّهُم ۖ بَلْ هُوَ شَرٌّۭ لَّهُمْ, tr:ve lâ yahsebenne'llezîne yebhalûne bimâ âtâhumu'llâhu min fadlihî huve hayran lehum, bel huve şerrun lehum, gloss:Allah'ın lütfundan verdiğini esirgeyenler bunu kendileri için hayır sanmasınlar; hayır, o kendileri için bir şerdir, source:3:180}. "Hayr" adı burada sevenin zannındadır, hüküm ise tersidir. Ayet devamında esirgedikleri şeyin nasıl bir yüke döneceğini de söyler: {ar:سَيُطَوَّقُونَ مَا بَخِلُوا۟ بِهِۦ يَوْمَ ٱلْقِيَٰمَةِ, tr:seyutavvekûne mâ bahilû bihî yevme'l-kıyâme, gloss:kıyamet günü esirgedikleri şey boyunlarına dolanacaktır, source:3:180}. Sevilen şeyin yerini, sıkı tutulan şey değil, boyna geçirilen şey alır. Sonra gelen "göklerin ve yerin mirası Allah'ındır" sözü, geride bırakılanın asıl sahibini de hatırlatır.
+
+=== INSERT ===
+paragraph: 10
+after: Hayrı seven insana, hayrın kendi kelimesiyle daha hayırlı olan gösterilir.
+ref: 59:9
+text: "Âsera" fiili Kur'an'da ters yönde de işler. Haşr suresinde yurda ve imana önceden yerleşmiş olanlar anılır: kendilerine hicret edeni severler, ona verilenlerden göğüslerinde bir ihtiyaç duymazlar ve şöyle yaparlar: {ar:وَيُؤْثِرُونَ عَلَىٰٓ أَنفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌۭ, tr:ve yu'sirûne alâ enfusihim ve lev kâne bihim hasâsa, gloss:kendileri muhtaç olsa bile başkalarını kendilerine tercih ederler, source:59:9}. A'lâ'daki "tu'sirûn" ile aynı köktendir. Orada tercih dünya hayatına, burada başkasınadır. Ayet şöyle biter: {ar:وَمَن يُوقَ شُحَّ نَفْسِهِۦ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ, tr:ve men yûka şuhha nefsihî fe-ulâike humu'l-muflihûn, gloss:kim nefsinin cimriliğinden korunursa kurtuluşa erenler onlardır, source:59:9}. Sevgi de tercih de yerinde durur. Değişen, bunların yönüdür.
+
+=== INSERT ===
+paragraph: 11
+after: ayetteki hayır sevgisi arasındaki bağ kopmuştur.
+ref: 49:7
+text: Sevginin kalpte kimin eliyle yerleştiği Hucurât suresinde de söylenir. Allah mü'minlere aralarında Allah'ın elçisi bulunduğunu hatırlatır ve elçinin pek çok işte onlara uysaydı zorluğa düşeceklerini söyler. Sonra şöyle der: {ar:وَلَٰكِنَّ ٱللَّهَ حَبَّبَ إِلَيْكُمُ ٱلْإِيمَٰنَ وَزَيَّنَهُۥ فِى قُلُوبِكُمْ, tr:ve lâkinna'llâhe habbebe ileykumu'l-îmâne ve zeyyenehû fî kulûbikum, gloss:ancak Allah size imanı sevdirdi ve onu kalplerinizde süsledi, source:49:7}. Âl-i İmrân'da süslenen şey sevgiydi, burada süslenen ve sevdirilen şey imandır. Sevgiyi kalbe koyan Rabbin kendisi olduğunda sevgi O'na doğru akar.
+
+=== INSERT ===
+paragraph: 15
+after: Toprağın vermesi beklenen tane, işte bu tanedir.
+ref: 2:261
+text: Bakara suresi tane ile malı doğrudan birbirine bağlar. Allah, mallarını Allah yolunda harcayanların örneğini verir: {ar:مَّثَلُ ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ فِى سَبِيلِ ٱللَّهِ كَمَثَلِ حَبَّةٍ أَنۢبَتَتْ سَبْعَ سَنَابِلَ فِى كُلِّ سُنۢبُلَةٍۢ مِّا۟ئَةُ حَبَّةٍۢ, tr:meselu'llezîne yunfikûne emvâlehum fî sebîli'llâhi ke-meseli habbetin enbetet seb'a senâbile fî kulli sunbuletin mi'etu habbe, gloss:mallarını Allah yolunda harcayanların durumu, yedi başak bitiren bir tane gibidir; her başakta yüz tane vardır, source:2:261}. Bu örnekte tane toprağa verilmiştir ve verdiğini kat kat geri getirir. Ayet "Allah dilediğine kat kat verir" diye sürer.
+
+=== INSERT ===
+paragraph: 19
+after: Rabbin yakalayışı ise ondan daha sıkıdır.
+ref: 28:78
+text: Kasas suresinde insanın gücü ve malı bu karşılaştırmanın içine girer. Karun Musa'nın kavmindendi ve onlara karşı azmıştı. Ona anahtarları güçlü bir topluluğa bile ağır gelen hazineler verilmişti. Kavmi ona böbürlenmemesini, Allah'ın verdiğinde ahireti araması gerektiğini ve Allah'ın ona iyilik ettiği gibi iyilik etmesini söylediğinde {source:28:77} Karun, bunu kendisindeki bir bilgiyle aldığını söyledi. Cevap bir soru olarak gelir: {ar:أَوَلَمْ يَعْلَمْ أَنَّ ٱللَّهَ قَدْ أَهْلَكَ مِن قَبْلِهِۦ مِنَ ٱلْقُرُونِ مَنْ هُوَ أَشَدُّ مِنْهُ قُوَّةًۭ وَأَكْثَرُ جَمْعًۭا, tr:e ve lem ya'lem enne'llâhe kad ehleke min kablihî mine'l-kurûni men huve eşeddu minhu kuvveten ve ekseru cem'â, gloss:bilmedi mi ki Allah, ondan önce kendisinden daha güçlü ve daha çok mal toplamış nice nesilleri helak etti, source:28:78}. Burada "eşedd" ile "cem'" yan yanadır: güç de toplanan mal da aynı terazide tartılır. Sonunda Karun yere geçirilir ve Allah'tan başka kendisine yardım edecek bir topluluğu da olmaz {source:28:81}. Güçte ve malda "şedîd" olan insan, güçte kendisinden "eşedd" olanın karşısında kalır.
+
+=== INSERT ===
+paragraph: 22
+after: kapısını kapatıp öteki "şedîd"in kapısını açmış olur.
+ref: 92:8
+text: Leyl suresi aynı yolu iki kola ayırır. Cimrilik edip kendini yeterli sayan ve en güzel olanı yalanlayan için şöyle denir: {ar:وَأَمَّا مَنۢ بَخِلَ وَٱسْتَغْنَىٰ, tr:ve emmâ men bahile ve'stağnâ, gloss:cimrilik edip kendini yeterli gören ise, source:92:8}; {ar:وَكَذَّبَ بِٱلْحُسْنَىٰ, tr:ve kezzebe bi'l-husnâ, gloss:ve en güzel olanı yalanlayan, source:92:9}; {ar:فَسَنُيَسِّرُهُۥ لِلْعُسْرَىٰ, tr:fe-senüyessiruhû li'l-usrâ, gloss:biz de onu zorluğa kolaylaştırırız, source:92:10}. Burada cimrilik, kendini yeterli görmekle yan yanadır. Alak suresindeki insan da azmasının sebebini böyle bulur: {ar:أَن رَّءَاهُ ٱسْتَغْنَىٰٓ, tr:en ra'âhu'stağnâ, gloss:kendini yeterli gördüğü için, source:96:7}. Şükrü kesen ile eli sıkı olan, aynı kendini yeterli görmeden beslenir. Şükürden artış doğduğu yerde, bu yolun adı "zorluğa kolaylaştırılmak"tır.
+
+=== LEDGER ===
+- added: 75:15 insanın mazeret ortaya dökse de kendi aleyhine görücü olması, 75:14'ün hemen devamı olarak yalnız adıyla anıldı
+- ignored: 96:8 Rabbe dönüş - ayetin ¶'larından hiçbirinin hareketine eklenmiyor
+- ignored: 90:5 insanın "kimse bana güç yetiremez" sanması - 28:78 aynı noktayı Rabbin gücüyle daha açık bağlıyor

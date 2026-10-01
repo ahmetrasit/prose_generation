@@ -1,0 +1,13 @@
+- added: 67:13 sözü gizleyin ya da açığa vurun, O göğüsleri bilir - 67:14'ün bağlamını verir
+- added: 19:93 herkes Rahmân'a kul olarak gelir - 19:95'in bağlamı
+- added: 19:94 O onları saymış ve tek tek hesap etmiştir - 19:95'in bağlamı
+- added: 50:42 çağrı ve sayha, "çıkış günü" - 50:44'ün sahnesi
+- added: 6:27 ateşin başında durdurulanlar geri dönmeyi diler - 6:28'in bağlamı
+- added: 102:6 cehennemin görüleceği - 102:7'nin öncesi
+- added: 102:4 uyarının tekrarı - 102:7'ye bağlı olarak anıldı
+- added: 47:36 Allah mallarınızı istemez - 47:37'nin bağlamı
+- added: 47:29 kalplerindeki kinlerin çıkarılacağı - mal ve göğüs bağını güçlendirir
+- added: 57:16 kalplerin katılaşması - 57:17'nin bağlamı
+- ignored: 27:65-66 kıyamet vaktinin bilinmemesi - 27:66'nın anlamı tartışmalı ve ¶2'nin ek bir şey kazanmadığı bir yerde kalır
+- ignored: 9:34-35 mal yığanlar - ¶19 zaten 104:2-3'le aynı bağı kuruyor
+- ignored: 17:51-52 "kim bizi geri getirecek" ve çağrı - 99:3-5 aynı noktayı daha açık söylüyor

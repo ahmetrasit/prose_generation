@@ -1,0 +1,5 @@
+- added: 20:59 Musa'nın andığı gün, insanların kuşluk vaktinde toplanması (source-only, 26:38 ile)
+- added: 3:156 kardeşleri için "bizimle olsalardı ölmezlerdi" diyenler (source-only, 3:157'nin zemini)
+- added: 77:29 yalanlayanlara "gidin" denmesi (source-only, 77:38'in zemini)
+- added: 104:3 malının onu ölümsüz kılacağını sanması (source-only, 104:2'nin devamı)
+- ignored: 3:173 insanların "toplandı" diye korkutması - 12. paragrafın hareketine yeni bir şey katmıyor, 26:62 ile 59:14 yeterli

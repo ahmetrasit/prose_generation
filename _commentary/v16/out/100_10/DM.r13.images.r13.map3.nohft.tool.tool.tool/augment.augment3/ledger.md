@@ -1,0 +1,10 @@
+- added: 13:17 köpük gider, yarayan kalır; maden ve selin örneği - ¶8'deki ayırma görüntüsünü Kur'an'ın kendi örneğiyle tamamlar
+- added: 102:2-5 kabir ziyaretine kadar oyalanma, "bilirsiniz", "ilme'l-yakîn" - ¶3'teki "şimdiden bilmesi gerekmez mi" sorusunu açar
+- added: 9:65 münafıkların "oynuyorduk" demesi - ¶9'daki kılık fikrini tamamlar; yalnızca kaynak olarak anıldı
+- added: 47:36 mal istenmeyeceği sözü - 47:37'nin bağlamı olarak kısaca anıldı
+- added: 50:21 sürücü ve tanık - 50:22'nin bağlamı olarak kaynakla anıldı
+- ignored: 75:14 insan kendi aleyhine basîra - ¶3'ün "tanık" cümlesiyle örtüşür, yeni bir şey katmaz
+- ignored: 18:49 kitaptan korku ve "hiçbir şeyi bırakmaz" - ¶7'deki 99:7-8 ve 82:5'in söylediğiyle aynı noktaya varır
+- ignored: 94:1, 20:25, 15:97 göğsün açılması ve daralması - ¶16'da 6:125 ve diğer örnekler aynı şeyi gösteriyor
+- ignored: 27:74, 28:69 Rabbin göğsün sakladığını bilmesi - 3:29 sonrası gereksiz tekrar olur
+- ignored: 82:19 o gün emir Allah'ındır - 99:5 aynı noktayı daha doğrudan karşılıyor

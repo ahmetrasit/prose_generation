@@ -1,0 +1,7 @@
+- added: 77:7 yeminin cevabı son adın hemen ardından gelir - 77:5 ile birlikte, dizinin bu surede fiile dönmesini göstermek için
+- added: 51:5 Zâriyât dizisinin ardından cevap - aynı karşılaştırma için kaynak olarak anıldı
+- added: 54:44, 54:46 "biz birlikteyiz" sözü ve saat "mev'id" - 54:45'in bağlamı ve 11:81'deki "mev'id" ile bağ
+- added: 15:74 Lut'un şehrinin altının üstüne getirilmesi - 15:73'ün devamı olarak anıldı
+- added: 113:3 gecenin çöktüğü vakitteki şer - 113:1'in bağlamı olarak anıldı
+- ignored: 15:72 Lut kavminin sarhoşluk içinde körü körüne dolaşması - kelimenin anlamından tam emin olunmadı, 15:73'ün bağlamına bir şey katmıyor
+- ignored: 25:63 Rahman'ın kulları - yalnızca surenin bağlamı olarak anılabilirdi, 25:70'e bir şey katmıyor

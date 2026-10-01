@@ -1,0 +1,12 @@
+- added: 89:20 mal sevgisi yetim ve yoksula karşı davranışlarla anlatılır, 100:8'in yanına somut bir yüz verir
+- added: 50:16 Allah'ın şahdamarından yakınlığı, 100:7'de Rab'bin tanıklığının yakınlığına bağlanır
+- added: 24:23 iftira atanların lanetlendiği bağlam, 24:24'te dilin tanıklığına zemin olur
+- added: 74:11 Allah'ın tek başına yarattığı adamı anması, 74:13'ün konuşanı ve sahnesi olarak verilir
+- added: 74:15 adamın daha fazlasını umması, 74:13 ve 74:16 arasında bağ kurar
+- added: 50:17 sağda ve solda oturan iki alıcı, 50:18'in sahnesini tamamlar
+- added: 50:21 her nefsin sürücü ve tanıkla gelmesi, 50:22'nin sahnesini kurar
+- added: 82:7 insanı yaratıp düzenleyen cömertliğin hatırlatılması, 82:6'nın sorusuna cevap yönünü verir
+- added: 41:20 organların tanıklığı, 41:21-22'nin sahnesini açar
+- ignored: 96:6-7 insan kendini ihtiyaçsız görünce azar - 89:20 aynı noktayı zaten taşıyor, ikisi birden paragrafı kalabalıklaştırır
+- ignored: 89:14 Rab gözetleme yerindedir - 50:16-18 Rab'bin hazır bulunuşunu daha doğrudan anlatıyor
+- ignored: 99:2 yer ağırlıklarını çıkarır - 9. ayetteki ortaya çıkarmayı anlatan paragrafa katkısı yok, paragrafın hareketine katılamıyor

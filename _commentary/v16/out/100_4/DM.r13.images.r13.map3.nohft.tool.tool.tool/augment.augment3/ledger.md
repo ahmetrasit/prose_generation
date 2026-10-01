@@ -1,0 +1,2 @@
+- ignored: 38:32 Süleyman'ın atlara ve "hayr" sevgisine bağlılığı - sahnenin nasıl anlaşılacağı Kur'an'ın kendi anlatımında kapalı, ¶14'ün "hayr" noktasına güvenle eklenemez
+- ignored: 7:57 rüzgârın kaldırdığı bulutla ölü beldeye su - 30:48 ve 35:9'un yaptığı işi tekrar eder, yeni bir şey katmaz

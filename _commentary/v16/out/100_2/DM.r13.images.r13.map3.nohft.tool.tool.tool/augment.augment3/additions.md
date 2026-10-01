@@ -1,0 +1,30 @@
+## ¶19 · 2:17 · applied
+
+… gösteren bir ateş de yakılabilir, yoldan çıkaran bir ateş de.
+
+**+** Yakılmış bir ateşin yol bulmaya yetmediği bir sahne de vardır. Allah, hidayet karşılığında sapıklığı satın alanları anlattıktan sonra {source:2:16} onlara şu örneği verir: {ar:مَثَلُهُمْ كَمَثَلِ ٱلَّذِى ٱسْتَوْقَدَ نَارًۭا فَلَمَّآ أَضَآءَتْ مَا حَوْلَهُۥ ذَهَبَ ٱللَّهُ بِنُورِهِمْ وَتَرَكَهُمْ فِى ظُلُمَٰتٍۢ لَّا يُبْصِرُونَ, tr:meselühüm ke-meseli'llezi'stevkade nâran fe-lemmâ edâet mâ havlehû zehebe'llâhu bi-nûrihim ve terekehum fî zulumâtin lâ yubsırûn, gloss:onların durumu ateş yakan kimsenin durumu gibidir; ateş çevresini aydınlatınca Allah onların nurunu giderdi ve onları göremedikleri karanlıklarda bıraktı, source:2:17}. Burada ateşi yakan da yakar, ateş çevreyi de aydınlatır. Yine de ışık onunla kalmaz. Çakmağın tutuşması ile yolun bulunması aynı şey değildir. Ateşi ortaya çıkaran emek ışığı sürdürmeye yetmez. Işığı sürdüren, onu verenin elindedir.
+
+## ¶17 · 7:20 · applied
+
+… Gömmek, burada bu kökle söylenir: toprağın altına örtmek.
+
+**+** Örtülenin açılması da aynı kökle söylenir, ama orada vuruşla değil fısıltıyla. Âdem ile eşi cennettedir ve bu ağaca yaklaşmamaları kendilerine bildirilmiştir {source:7:19}. Şeytan onlara vesvese verir: {ar:فَوَسْوَسَ لَهُمَا ٱلشَّيْطَٰنُ لِيُبْدِىَ لَهُمَا مَا وُۥرِىَ عَنْهُمَا مِن سَوْءَٰتِهِمَا, tr:fe-vesvese lehumâ'ş-şeytânu li-yubdiye lehumâ mâ vûriye anhumâ min sev'âtihimâ, gloss:Şeytan ikisine vesvese verdi; kendilerinden örtülmüş olan ayıp yerlerini onlara açığa çıkarsın diye, source:7:20}. "Vûriye", örtmenin edilgen biçimidir. Örtülü olan, karga sahnesindeki "sev'e" kelimesinin çoğuludur. Böylece aynı kökün iki ucu bir arada görünür: örtmek ve açığa çıkarmak. Açığa çıkarmanın her zaman iyilik için olmadığı da burada anlaşılır. Örtüyü kaldırmak isteyen, kendisine bildirilenin zararına çalışan bir sestir.
+
+## ¶13 · 24:35 · applied
+
+… Ateşi çıkaran insandır, ama ateşi içinde taşıyan ağacı o yapmamıştır.
+
+**+** Ağaçtaki ışık başka bir yerde Allah'ın nuruna verilen örnekte anılır. Kandil, bir ağaçtan beslenir: {ar:يُوقَدُ مِن شَجَرَةٍۢ مُّبَٰرَكَةٍۢ زَيْتُونَةٍۢ لَّا شَرْقِيَّةٍۢ وَلَا غَرْبِيَّةٍۢ يَكَادُ زَيْتُهَا يُضِىٓءُ وَلَوْ لَمْ تَمْسَسْهُ نَارٌۭ, tr:yûkadu min şeceretin mubâraketin zeytûnetin lâ şarkıyyetin ve lâ garbiyyetin yekâdu zeytuhâ yudî'u ve lev lem temseshu nâr, gloss:mübarek bir ağaçtan, doğuya da batıya da ait olmayan bir zeytinden yakılır; ateş dokunmasa bile yağı neredeyse aydınlatır, source:24:35}. Bu örnekte ışık, dokunuştan önce maddenin içinde bulunur, yani ağaçta ateşin ve aydınlığın hazır durduğu söylenmiş olur. Ateş ona dokununca ışık ışığın üstüne biner: {ar:نُّورٌ عَلَىٰ نُورٍۢ, tr:nûrun alâ nûr, gloss:nur üstüne nur, source:24:35}. Çakan insanın payı bu dokunuştur. Ağaçta olanı o koymamıştır.
+
+## ¶12 · 104:6 · applied
+
+… içinde ateş de olabilir, onu içten yiyen kurt da.
+
+**+** Kur'an içerinin ateşle karşılaşmasını başka bir surede de anar. Mal toplayıp onu sayan {source:104:2} ve malının kendisini ölümsüz kılacağını sanan {source:104:3} kişi anlatıldıktan sonra ona hazırlanan ateş şöyle tanıtılır: {ar:نَارُ ٱللَّهِ ٱلْمُوقَدَةُ, tr:nâru'llâhi'l-mûkade, gloss:Allah'ın yakılmış ateşi, source:104:6}, {ar:ٱلَّتِى تَطَّلِعُ عَلَى ٱلْأَفْـِٔدَةِ, tr:elletî tattali'u ale'l-ef'ide, gloss:ki yüreklerin üstüne çıkıp onlara erişir, source:104:7}. İkinci ayette ateş içeriden dışarı çıkıyordu. Burada ise ateş dışarıdan yüreklere doğru yükselir. Surede mal sevgisiyle anılan insanın göğsü, orada da ateşin ulaştığı yerdir.
+
+## ¶20 · 28:29 · applied
+
+… yanda sapıklığın çakmağı, öbür yanda başında yol bulunan ateş vardır.
+
+**+** Aynı ateş Musa'nın başka anlatışında yalnız yol için değil, yolcunun öbür ihtiyacı için de aranır. Süre dolduktan sonra ailesiyle yürürken Tûr'un yanında bir ateş görür ve onlara beklemelerini söyler: {ar:إِنِّىٓ ءَانَسْتُ نَارًۭا لَّعَلِّىٓ ءَاتِيكُم مِّنْهَا بِخَبَرٍ أَوْ جَذْوَةٍۢ مِّنَ ٱلنَّارِ لَعَلَّكُمْ تَصْطَلُونَ, tr:innî ânestu nâran le'allî âtîkum minhâ bi-haberin ev ceẕvetin mine'n-nâri le'allekum tastalûn, gloss:ben bir ateş gördüm; belki size ondan bir haber ya da ısınasınız diye bir kor getiririm, source:28:29}. Benzer söz {source:27:7} ayetinde de geçer. Gece yolcusu ateşten hem yön hem sıcaklık bekler. İkisi de ailesine dönük bir arayıştır. Taştan çakılan kıvılcımın ardından aranan şey, yolcunun yoldaşlarını ayakta tutan şeydir.
+
