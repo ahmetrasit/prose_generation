@@ -65,6 +65,7 @@ import subprocess
 import sys
 import tempfile
 import time
+import uuid
 import zlib
 from pathlib import Path
 
@@ -141,6 +142,7 @@ V5_RUN = {1: "s001-fresh-20260910", 100: "s100-regular-20260911"}
 LANES = ["micro", "macro", "global"]
 PROSE_MIN_GZ = 0.2  # natural prose compresses to 0.28-0.38 of its size; templated lanes to 0.06-0.09
 GATE_USD = 5.0
+SESSIONS = Path(tempfile.gettempdir()) / "v16_sessions"  # per-call cwd; sessions live in ~/.claude
 OUT_TOKENS = {"ayah": 40_000, "surah": 80_000}  # assumed; E1-shaped calls measured 15-33k, the S1 surah call 71k
 MESSAGE_CAP = 64_000  # observed per-message output cap; a longer answer continues in a new turn and re-caches
 
@@ -469,18 +471,25 @@ def call_opus(text: str, d: Path, model: str = "opus", allow: str | None = None,
     turns is joined back in order (`--output-format json` returns only the last message; the first S1 surah call
     lost two thirds of its map that way). The raw event stream is kept in run.stream.jsonl. If the stream ends
     without a result event, the text received is still returned, marked partial."""
+    # Sessions are kept (user, 2026-09-30) so that resume.py can ask diagnostic follow-ups in the same session; each
+    # call gets its own id and a working directory of its own that outlives the call (the CLI files a session under
+    # its cwd, and missing.py's once-only marker lives there too).
+    sid = str(uuid.uuid4())
+    cwd = SESSIONS / sid
+    cwd.mkdir(parents=True, exist_ok=False)
     (d / "started.json").write_text(json.dumps({"started": time.strftime("%Y-%m-%dT%H:%M:%S"),
-                                                "prompt_sha256": hashlib.sha256(text.encode()).hexdigest()}) + "\n",
+                                                "prompt_sha256": hashlib.sha256(text.encode()).hexdigest(),
+                                                "model": MODELS[model][0], "effort": effort, "session_id": sid,
+                                                "session_cwd": str(cwd)}) + "\n",
                                     encoding="utf-8")
     # allow: one Bash command prefix the model may run (the end-of-discovery check, missing.py); every other
     # command is refused by --permission-mode dontAsk, and no other tool exists.
     tools = ["--tools", "Bash", "--allowedTools", f"Bash({allow} *)"] if allow else ["--tools", ""]
     cmd = ["claude", "-p", "--model", MODELS[model][0], "--effort", effort, *tools,
-           "--output-format", "stream-json", "--verbose", "--no-session-persistence", "--safe-mode",
+           "--output-format", "stream-json", "--verbose", "--session-id", sid, "--safe-mode",
            "--permission-mode", "dontAsk", "--system-prompt", SYSTEM]
     env = {**os.environ, "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "128000"}
-    with tempfile.TemporaryDirectory(prefix="v16_opus_") as cwd:
-        p = subprocess.run(cmd, input=text, capture_output=True, text=True, cwd=cwd, env=env)
+    p = subprocess.run(cmd, input=text, capture_output=True, text=True, cwd=cwd, env=env)
     (d / "run.stream.jsonl").write_text(p.stdout or "", encoding="utf-8")
     texts, ids, final, tool_calls, pre_tool, pre_ids, safety = [], [], {}, [], [], [], []
     for line in (p.stdout or "").splitlines():
@@ -530,6 +539,7 @@ def call_opus(text: str, d: Path, model: str = "opus", allow: str | None = None,
     elif not had_result:
         final.setdefault("stderr_tail", p.stderr[-3000:])
     final["text_message_ids"] = ids
+    final["session_id"], final["session_cwd"] = sid, str(cwd)
     final["tool_calls"] = len(tool_calls)
     if safety:
         final["safety_stop"] = safety

@@ -1,0 +1,25 @@
+- not developed: Day of reckoning and Debt and the level scale as separate sections - merged into one section, since debt (dayn), recompense (din), term, scale and requital form a single settling-of-account scene (82:17–19, 2:282, 21:47).
+- not developed: Rain that rears the land and The well-head as separate sections - merged into one water section; they share gathered water (ر ب ب B013) and giving drink (غ ي ر B001), and the dictionary's "قوام الأمر ملاكه" ties the well to the rain's work.
+- not developed: Trodden road member ق و م B001 (قوم = a man's party/kin) - only a family sense of the root with no bearing on "straight" in 1:6; the company whose road it is comes from صِرَٰطَ ٱلَّذِينَ itself.
+- not developed: Trodden road members ن ع م B007 (ابن النعامة = beaten track) and ن ع م B012 (تنعمت = walking on one's soles) - too marginal and obscure to carry the scene.
+- not developed: و ل ه members of Trodden road (B001 bewildering land), Herd (B001 camel pining), Well-head and Passing out of sight (B003 water lost in desert) - و ل ه is a recorded alternative derivation of ٱللَّهِ, not its accepted root; used once only, with that status stated, in the Womb section.
+- not developed: Herd members ر ب ب B014 (ربرب wild-cattle herd) and ع و ن B006 (عانة wild-ass herd) - unowned wild herds add nothing to the owner/stray scene and the link to نَسْتَعِينُ is incidental.
+- not developed: Leaning and standing member ه د ي B009 (الهداء weak, dull man) - marginal; the swaying walk between two men (B008) carries the image.
+- not developed: Day of reckoning members ي و م B005 (يومئذ compound) and "اليوم الشديد يوم ذو أيام" - grammatical or too vague to show a mechanism.
+- not developed: Name and brand member س م و B005 "سميا" (namesake) as a separate member - folded into the 19:65 passage.
+- memory: the two canonical readings مَٰلِكِ / مَلِكِ in 1:4 (qira'at: Asim and al-Kisa'i read مالك, the others ملك).
+- memory: the canonical reading السراط with sīn in 1:6–7 (Qunbul from Ibn Kathir; also Ruways).
+- memory: Basran (س م و) vs Kufan (و س م) derivation of اسم (Arabic grammatical tradition).
+- memory: 114:1–3 «رب الناس ملك الناس إله الناس» (Quran 114:1–3).
+- memory: 20:50 «ربنا الذي أعطى كل شيء خلقه ثم هدى», Moses answering Pharaoh (Quran 20:50).
+- memory: 14:5 «وذكرهم بأيام الله», Moses commanded (Quran 14:5).
+- memory: the captive woman nursing her found child and God being more merciful to His servants (Bukhari 5999; Muslim 2754).
+- memory: the stray camel «معها سقاؤها وحذاؤها ترد الماء وتأكل الشجر حتى يلقاها ربها» (Bukhari and Muslim, from Zayd b. Khalid al-Juhani).
+- memory: God's joy at repentance likened to a man whose mount ran off in the desert and returned (Muslim 2747, from Anas).
+- memory: the Prophet in his last illness «يهادى بين رجلين» (Bukhari, from Aisha).
+- memory: correction that 26:182 is Shu'ayb addressing the people of the Thicket (26:176), not Madyan.
+- memory: correction that 27:30 is spoken by the Queen of Sheba reading Solomon's letter to her council.
+- memory: 20:81 (not 20:80) holds «فيحل عليكم غضبي ... فقد هوى», with 20:82 «ثم اهتدى».
+- memory: 3:79 in the Hafs reading is تُعَلِّمُونَ.
+- memory: the grammatical observations that iyyāka is fronted before the verb (exclusivity) and that 1:7 contrasts the active second-person أنعمت with the agentless passive participle المغضوب.
+- memory: 12:23 «إنه ربي» read as Joseph speaking of his Egyptian master (one exegetical reading).

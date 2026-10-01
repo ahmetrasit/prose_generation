@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reconstructed follow-up to a finished v16 run (the calls ran without session persistence, so they cannot be
+"""Reconstructed follow-up to a finished v16 run (calls before 2026-09-30 ran without session persistence, so they cannot be
 resumed). One new Opus call gets the run's exact prompt, then its own full response, then the follow-up questions.
 Its answer is a post-hoc account by the same model on the same evidence, not a replay of the original reasoning.
 

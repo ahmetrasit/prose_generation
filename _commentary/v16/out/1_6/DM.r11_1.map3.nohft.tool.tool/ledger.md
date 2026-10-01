@@ -1,0 +1,18 @@
+- memory: Hadith qudsi on the prayer being divided between God and His servant, with "هذا لعبدي ولعبدي ما سأل" said at "ihdinā..." (Sahih Muslim, Kitab al-Salat, from Abu Hurayra)
+- memory: Aisha's report that in his last illness the Prophet went out to the prayer "يهادى بين رجلين" with his feet tracing the ground (Sahih al-Bukhari, Kitab al-Adhan)
+- memory: Ibn Mas'ud's report of the Prophet drawing one line and side lines, with "على كل سبيل منها شيطان يدعو إليه", then reciting 6:153 (Musnad Ahmad; al-Nasa'i, al-Sunan al-Kubra; al-Darimi)
+- memory: Qira'at: السراط with sīn (Qunbul from Ibn Kathir, Ruways from Ya'qub) and ishmām of ṣād toward zāy (Khalaf from Hamza; Khallad at 1:6)
+- memory: ṣirāṭ never occurs in the plural in the Quran, while sabīl has the plural subul
+- memory: Fatiha recited in every rak'a, 17 obligatory rak'as daily, recited in the standing posture (qiyām)
+- memory: Turkish usages: "hidayete ermek" as one-time conversion, "sırat köprüsü / kıldan ince kılıçtan keskin", "istikamet" as direction, "refik" as friend/spouse, "cevr" as oppression
+- memory: rafīq as travel companion in a caravan; jā'ir meaning both veering off the road and unjust; tushṭiṭ as going to excess
+- memory: Situations: 36:61 within God's address on the Day (36:59–60); 38:21 the disputants climbing the wall of David's prayer chamber; 11:53–55 Hud's people threatening him; 7:11–17 Iblis expelled and vowing to come from front, behind, right and left; 6:83–89 the list of prophets before 6:90; 2:142 the change of qibla from Jerusalem; 26:176 Shu'ayb addressed to Ashab al-Ayka; 48:1 opening announcement of a clear victory; 72:1 governing "أوحي إلي" for 72:16; 7:43 rancour removed from the hearts of the people of Paradise
+- not written: ECHO root ه د د (demolition, hoopoe, rocking a child) - would have offered sound-play with ihdinā, but it is not identity and could ground nothing here
+- not written: ق و م B001 qawm (a man's company) - would have tied mustaqīm to the "we" walking the road, but beyond the root it does no work the singular-road theme does not already do with 6:153
+- not written: ص ر ط B003 sirāṭ as the sword that cuts through - would have fed the Turkish bridge image ("sharper than a sword") that the reading sets aside, and rests on a single attestation
+- not written: the hadith description of the bridge over Hell called al-ṣirāṭ - later eschatological usage, which the ayah's ordinary "road" does not call for
+- not written: ق و م B010 price and valuation, B004 qayyūm (3:2), B021 the seeing-less "standing" eye, B012 the pulley and sword-hilt - each attested, but none grounds or joins a theme of this ayah beyond the balance and standing already used
+- not written: ه د ي B009 the weak, dull man and B011 exchanging poems - they add nothing to the leaning walker or the gift
+- not written: map chains of the herd's lead animal, the well-head pulley, and rain - they belong to other ayat's words, and here they would only repeat the guide-ahead image
+- not written: 6:161 and 30:43 dīn qayyim - would have joined 1:4's dīn to the upright road, but the standing theme was already carried by 11:112, 41:30, 67:22
+- not written: 93:7 "found you astray and guided" and 27:35 Sheba's gift - the first fits 1:7 more than 1:6, and the second has no bearing on guidance

@@ -1388,3 +1388,28 @@ interaction lines) but hard to turn into prose: it gives no payoff, does not exp
 the road link in one interaction line, places the chain at 1:1 ("Scene as at 1:1"), and carries a doubtful ayn
 phrase. A map4 brief could add, per chain, what it makes perceptible through its operation and its road link,
 without verdicts. Not built.
+
+## Images step: the surah commentary draft (2026-09-30, user-approved)
+
+**Design.** One Opus call per surah (`packets.py images --map …`, brief `prompts/images1/surah_images.md`) reads the
+surah text and the map (without `## Not carried`) and writes, in Turkish with reader tags, one section per image
+(the scene by its operation, what it makes perceptible, what each ayah's words add, the Quran passages with
+speaker and situation, a `Kaynaklar:` line with ayah, word, root and branch), then `## Buluşmalar`, then a ledger
+(`not developed`, `memory`). `writer --images …` gives an ayah writer the images in place of the map; the header
+says they are already explained at surah level, so the writer recalls an image briefly and develops what its
+ayah's words add. The writer refuses incomplete images, a missing ledger, or a `--map` other than the images' map.
+
+**Sessions.** From this run on `call_opus` keeps each session (`--session-id`, a per-call cwd under
+`$TMPDIR/v16_sessions/`); `resume.py <run dir> "question" [--go]` asks diagnostic follow-ups in that session (no
+tools; logged as arm `followup`; never part of a reading). Code reviewed (Sonnet 5.5 high, read-only).
+
+| call | cost (est.) | output / thinking | result |
+|---|---|---|---|
+| S1 images | $2.54 ($2.24) | 88.0k / 32.8k | 10,840 words, 13 images + Buluşmalar; rain and well merged; pulley explained by its work; Buluşmalar: "Yol ile kuyu, Mûsâ'nın Medyen yolculuğunda tek bir sahnede durur" |
+| 1:6 r11_1 + map (control) | $1.79 ($1.37) | 61.4k / 44.2k | 3,280 words, 33 refs, 96% sourced; 72:16 (istiqāma on the road → abundant water) in the prose; pulley declined ("belong to other ayat's words"); "Araplar … derlerdi" persists (12) |
+| 1:6 r11_1 + images | $1.55 ($1.42) | 40.8k / 22.5k | 3,539 words, 36 refs, 93% sourced; best synthesis so far (6:71, 47:5–6 ʿarrafahā, 20:50, 81:28–29, closing on 7:43); **no water at all, and no ledger line for it**; one source leak ("Daha önceki bir okumada anılan…") |
+
+**Reading.** The images step works as the surah commentary: it carries the road–water scene no ayah reading has.
+As writer input it raises quality and halves thinking, but the writer leaves shared images to the surah level,
+silently. Open decision for the user: accept that division, or add a counterweight to the header's "recall
+briefly" line so that an image this ayah's words take part in is developed here as far as its words carry it.

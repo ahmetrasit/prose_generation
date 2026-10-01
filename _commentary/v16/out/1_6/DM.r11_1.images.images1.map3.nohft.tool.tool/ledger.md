@@ -1,0 +1,20 @@
+- memory: Muslim's hadith qudsi dividing the Fatiha between God and the servant, with "hādhā li-ʿabdī wa-li-ʿabdī mā saʾal" said of "ihdinā..." to the end of the surah (Sahih Muslim 395, Abu Hurayra)
+- memory: Aisha's report that in his last illness the Prophet went out "yuhādā bayna rajulayn" (Sahih al-Bukhari 664; also Muslim 418)
+- memory: Sufyan b. Abdullah al-Thaqafi asking for one word and receiving "qul āmantu billāhi fa-staqim" (Sahih Muslim 38)
+- memory: the hadith that the people of Paradise know the way to their dwellings there better than to their worldly homes, worded "ahdā bi-manzilihi" (Sahih al-Bukhari 6535, Abu Saʿid al-Khudri); a parallel in Bukhari 2440 uses "adallu", so the hdy wording relies on the 6535 version
+- memory: the variant readings of al-ṣirāṭ in 1:6, with sīn (Qunbul from Ibn Kathir, Ruways from Yaʿqub) and with ishmām toward zāy (Khalaf from Hamza); given in the prose without naming readers
+- memory: that ṣirāṭ never occurs in the plural in the Quran while sabīl is pluralized as subul (Quranic usage)
+- memory: that the Fatiha is recited standing (qiyām) in every rakʿa of salah (fiqh of prayer)
+- memory: the situations of the Quran passages used: the two litigants climbing into David's sanctuary (38:21-22), the speakers of 3:8 being "those firm in knowledge" (3:7), Iblis's vow in 15:39-40 before 15:41, Hud facing his people's threats (11:53-56), the context of 4:66-69, the people of Paradise in 7:43, Pharaoh's question before 20:50
+- memory: Turkish usage of "hidayete ermek", "sırat köprüsü" and "istikamet" as direction (modern Turkish)
+- not written: the bridge over Hell called al-ṣirāṭ in hadith (e.g. Bukhari 806) - it would have explained where the Turkish "sırat köprüsü" comes from, but it is a different, eschatological use of the word and would pull the reading away from the plain road the ayah asks for; it is only noted through the Turkish loanword
+- not written: s-r-ṭ B003, "the cutting sword that passes through the blow" - it could have given the road a sense of pushing forward, but nothing in the ayah or the surah supports it, and it would only have added a striking image
+- not written: h-d-y B007 (the inviolable refuge-seeker, or captive), B009 (dull weak man), B011 (presenting praise or satire poetry) - none of them grounds or sharpens what the ayah's request means; the refuge-seeker was already covered with the surah's images
+- not written: h-d-y B005/B006 (sacrificial animal, bride led to the husband) developed at length - already set out at surah level, so recalled in one sentence only, adding the road on which they are led
+- not written: the echo root h-d-d (demolishing, the hoopoe, threatening) - a sound neighbour, not the root's identity, and nothing in the ayah calls for it
+- not written: q-w-m branches for the market picking up, bodily pain, a blind eye, a sheep's leg disease, water freezing, a mount stopping from exhaustion - none bears on the straightness of the road; the exhausted mount was already used at surah level for 1:5
+- not written: q-w-m B013 (Resurrection) and B004 (qayyūm) - they belong to the surah's reckoning scene and to 1:4, not to what "mustaqīm" adds here
+- not written: the hadith identifying al-maghḍūb ʿalayhim and al-ḍāllīn with particular communities (Tirmidhi 2954) - it concerns 1:7's two edges, not the road requested in 1:6
+- not written: 36:66 (the blinded racing to the road) and 23:74 (those veering from the road) - they fit the road's opposite but add nothing that 37:23 and 6:71 do not already carry in this reading
+- not written: 93:7 ("He found you wandering and guided you") - a fine pair of ḍalla and hadā, but its weight lies in the Prophet's biography and in 1:7's antonym rather than in the request itself
+- not written: 2:142, 24:46, 22:54, 3:101, 48:20 and similar "yahdī ... ilā ṣirāṭin mustaqīm" formulas - they repeat the construction without sharpening any theme beyond the passages already used
