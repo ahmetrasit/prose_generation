@@ -1,0 +1,25 @@
+- memory: Hadith qudsi on dividing the prayer, with the answer to 1:6–7 "hādhā li-ʿabdī wa li-ʿabdī mā saʾal" (Muslim, Kitāb al-Ṣalāt, from Abū Hurayra)
+- memory: Prophet teaching ʿAlī "Allāhumma-hdinī wa saddidnī; wa-dhkur bi'l-hudā hidāyataka'ṭ-ṭarīq wa's-sadādi sadāda's-sahm" (Muslim, Kitāb al-Dhikr wa'l-Duʿāʾ, from ʿAlī)
+- memory: "Qul āmantu billāhi thumma-staqim", given in answer to Sufyān b. ʿAbdillāh al-Thaqafī's request for a single comprehensive word (Muslim, Kitāb al-Īmān)
+- memory: "wa yuḍrabu'ṣ-ṣirāṭu bayna ẓahrānay jahannam" (Bukhārī, from Abū Hurayra, the hadith of seeing the Lord on the Day of Resurrection; similar wording in Muslim)
+- memory: the qirāʾa variants: ṣirāṭ read with sīn (Qunbul from Ibn Kathīr, Ruways from Yaʿqūb) and with ishmām of zāy (Khalaf from Ḥamza)
+- memory: ṣirāṭ never occurs in the plural in the Quran, while subul does
+- memory: the qibla was turned from Jerusalem to the Kaʿba in the setting of 2:142–144
+- memory: the Fatiha is recited standing (qiyām) and facing the qibla in every rakʿa
+- memory: the imperative addressed from lower to higher counts as supplication (duʿāʾ) in Arabic rhetoric
+- memory: hadā takes its second object directly, with ilā, or with li (cf. 6:161, 17:9)
+- memory: 6:90 follows a list of eighteen prophets in 6:83–89; 3:8 is read as continuing the words of al-rāsikhūn fi'l-ʿilm from 3:7; the two litigants climbed over the wall to Dāwūd (38:21)
+- memory: rafīq as "travel companion" (general lexical knowledge; not in the supplied branches)
+- memory: inqāda glossed as "to be led / yield to the lead"; the B008 phrase is supplied, the gloss of this verb is mine
+- memory: Surah 48 came near the end of the prophetic mission, so the promise in 48:2 is made roughly twenty years into it (general chronology)
+- not written: ه د ي B006 (bride led to the husband) and B005 (hady offering driven to the Ḥaram) - would show guidance ending at a house; already developed at surah level, and here only the "road and house" phrase and 10:25 were needed
+- not written: ه د ي B008 (walking leaning between two) and B010 (calm gait) - would add weakness and composure to the plural "us"; already developed at surah level and would duplicate the companions theme
+- not written: ه د ي B009 (dull, weak man) and B011 (presenting praise or satire poems) - no work in this ayah's themes
+- not written: ق و م B010, B015 (value, full-weight coin), B017 (noon), B012 (well pulley), B004 qayyūm - developed at surah level as scales, sun and well; would only repeat them
+- not written: ق و م B001 (qawm, people) as root kin of mustaqīm - true root identity, but drawing an etymological bond to the plural "us" would be a connection the evidence does not make
+- not written: 72:16 (istiqāma on the way rewarded with abundant water) - would join the surah-level water image; it fits the istiqāma section but would pull it away from the plea
+- not written: 95:4 (aḥsan taqwīm) - would make standing upright a feature of human creation; a separate theme from asking for the road
+- not written: 13:7 ("for every people a hādī") - would ground the guide image, but the companions theme already carries it through 6:90 and 4:69
+- not written: 37:23 and 6:77 - the reversed road and Ibrāhīm's "if my Lord does not guide me" belong to 1:7's ḍāllīn and were developed at surah level
+- not written: the echo root ه د د (demolish, threaten, hoopoe) - a sound-family only, no identity and no grounded resonance with this plea
+- not written: Abū Saʿīd's report that the bridge is "sharper than the sword" set beside ص ر ط B003 (sword) - it is a reported saying (balaghanī), not the Prophet's words, so it could not carry the connection safely
