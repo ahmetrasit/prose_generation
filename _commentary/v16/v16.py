@@ -30,6 +30,10 @@ Briefs:
       the ledger says why an omission could not found, reshape or join a theme.
   r11_1 r11 with two fixes after its 1:6 run: no recurring attribution formula ("… denir", "Araplar … derlerdi");
       a Quran passage or hadith gets its actual speaker and the exact ayah that holds the cited words.
+  r12 r11_1 (and images1 for the images step) with every reader tag carrying its source (a dictionary branch as
+      "root letters,branch id", a Quran ayah, "hadis" or "memory"; a passage named without quoting it gets a
+      source-only tag); the ayah writer reads only the images that cite its ayah, plus ## Buluşmalar; the check
+      (missing.py) gives refs only, by tier, with a text lookup, and runs per ayah in the images step.
 
 Arms (the assembled-findings slot):
   H   the ayah's HFT records (v9/input/v2/…/02_hft.md) and the surah channel review's subchannels anchored in the
@@ -124,6 +128,10 @@ BRIEFS = {
     "r11_1": {"write": HERE / "prompts" / "r11_1" / "write.md", "add": HERE / "prompts" / "r11_1" / "additions.md",
               "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"],
               "map_from": "r2", "ledger": True},
+    # r12 (user, 2026-10-01): sources inside every tag; images sliced to the ayah; refs-only check with lookup.
+    "r12": {"write": HERE / "prompts" / "r12" / "write.md", "add": HERE / "prompts" / "r12" / "additions.md",
+            "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"],
+            "map_from": "r2", "ledger": True, "slice_images": True},
     # r10 (user, 2026-09-30): theme-first rewrite after r9 slid back toward a catalogue.
     "r10": {"write": HERE / "prompts" / "r10" / "write.md", "add": HERE / "prompts" / "r10" / "additions.md",
             "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"],
@@ -177,6 +185,7 @@ ARM_EVIDENCE["r10"] = ARM_EVIDENCE["r2"]
 ARM_EVIDENCE["r10_1"] = ARM_EVIDENCE["r2"]
 ARM_EVIDENCE["r11"] = ARM_EVIDENCE["r2"]
 ARM_EVIDENCE["r11_1"] = ARM_EVIDENCE["r2"]
+ARM_EVIDENCE["r12"] = ARM_EVIDENCE["r2"]
 _SRC = None
 
 

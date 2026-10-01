@@ -1424,3 +1424,34 @@ briefly" line so that an image this ayah's words take part in is developed here 
   recorded, not tuned: the ayah brief is no longer pushed (user).
 - Per surah: map, then images, then the ayah readings. Long surahs (output caps, pericope-level maps/images) are an
   open design question.
+
+## v5 comparison on 1:6 and r12 (user, 2026-10-01)
+
+**v5 vs v16 on 1:6.** v5's editorial (11,249 words) was read against the v16 1:6 reading and the S1 images. The
+synthesis is v16's; v5 is a catalogue of family chains with heavy disclaimers and some echo-root links (هدد). Two
+discovery losses are real: (1) Quran passages: v5 had a Quran-wide lane; 33 of its 60 passages are nowhere in v16,
+among them 72:16, 27:35, 31:19, 41:17, 49:17, 2:186, 43:10, 2:255, 4:5; v16 has 18 v5 lacks (4:66–69, 47:5–6, 15:41,
+81:28–29 …). (2) The map silently dropped ق و م B021 (the eye whose pupil is whole but sees nothing), which v5
+developed with 36:66 and 41:17; it was in the writer's dictionary. The 1:6 check (missing.py) did show most v5
+passages, but cut at 20 KB: 72:16, 41:17, 39:18/23, 19:76 came as bare refs after 67 passages with text; refs the
+writer declared and then dropped were never offered back. v5's pipeline cost ~$20–45 per ayah (its own estimate);
+v16 ~$2.3 per S1 ayah.
+
+**Inputs (S1, measured).** Ayah call: images.md 73–90%, dictionary 4–22%, brief ~4%, context ~2% (no HFT, no
+channels: the channel review reaches the ayah only through map → images; the map is nohft). Map call: dictionary
+69%, channels 28%. Images call: map 96%. S29 extrapolation: map ~536k input (dictionary 484k = 90%), over the gate
+as one call; images several calls; the ayah call ~$1.5 with sliced images, ~$2.4 with all of them.
+
+**r12** (user): r11_1 and images1 with
+- every reader tag ending in its source: `source:"<root letters>,<branch id>"`, `source:<surah:ayah>`,
+  `source:"hadis"` (collection in the ledger), `source:"memory"`; source-only tags for a branch sense or a passage
+  named without its Arabic ({source:15:41});
+- missing.py: refs only, by tier (own list strong, medium; other side's list strong, medium; own weak; other side
+  weak), "no value" and counterevidence left out; `missing.py text <refs>` for verse Arabic, as often as needed;
+  once per ayah; the images step runs it per ayah of the surah; the map call keeps strong only;
+- the ayah writer reads only the images whose Kaynaklar members cite its ayah, plus ## Buluşmalar (S1: 27% of the
+  images tokens for 1:3, 75% for 1:6);
+- check.py item 6 verifies declared sources (branch exists and holds the quoted Arabic; ayah exists and holds it)
+  for readings and for images.md.
+Not done (user, cost): a revision pass after the draft (+$0.3–1.5 per call; the 1:6 log shows the check already
+runs before the prose is written).

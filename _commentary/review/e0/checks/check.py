@@ -27,6 +27,11 @@ What it records:
      it may be stated as the word's sense here, or cited as a lexical unit; the user reads the sentence). For the
      record only: the script does not decide whether the construction is present.
   5. Negation/disclaimer rate (the E2 regex, frozen) with a breakdown.
+  6. Declared sources (v16 r12, 2026-10-01): a tag may end with `source:` - a dictionary branch as
+     "root letters,branch id" (e.g. "ق و م,B016"), a Quran ref (72:16), "hadis" or "memory"; a source-only tag
+     ({source:15:41}, {gloss:…, source:…}) cites without quoting. Each is verified: the root and branch exist and the
+     tag's Arabic is in that branch's texts; the ayah exists and the Arabic is in it; a memory tag is reported with
+     whatever project source the Arabic is found in anyway. Tags without a source are counted.
 """
 from __future__ import annotations
 
@@ -48,6 +53,10 @@ BELLEK = re.compile(r"\[\s*bellek[^\]]*\]", re.I)
 QUOTE_OPEN = "\"“«‘'„"
 ATTESTED = {"quran", "dictionary", "qiraat", "early_entry", "majaz"}
 NOT_QUOTATIONS = {"root_name", "too_short"}  # a root cited by its letters; a single letter or particle
+SOURCE_FIELD = re.compile(r'(?:^|,)\s*source:\s*(?:"([^"]*)"|([^,}]*))')
+# a tag without Arabic that carries a source: {source:15:41}, {gloss:…, source:"ق و م,B016"}
+SOURCE_ONLY = re.compile(r"\{(?!ar:)(?=[^{}]*\bsource:)(?:tr|gloss|source):[^{}]*\}")
+QREF = re.compile(r"(\d{1,3}):(\d{1,3})(?:\s*[-–]\s*(\d{1,3}))?")
 
 
 class Resolver:
@@ -235,6 +244,9 @@ class Resolver:
 
 def outside_tags(text: str) -> list[dict]:
     masked = C.TAG.sub(lambda m: " " * (m.end() - m.start()), text)
+    masked = SOURCE_ONLY.sub(lambda m: " " * (m.end() - m.start()), masked)  # their source names a root
+    # an images.md `Kaynaklar:` line lists its members (ayah, word, root, branch) in Arabic by design
+    masked = re.sub(r"(?m)^Kaynaklar:.*$", lambda m: " " * (m.end() - m.start()), masked)
     out = []
     for m in C.ARABIC_RUN.finditer(masked):
         run = m.group(0).strip()
@@ -262,6 +274,60 @@ def _early_phrase(q: dict) -> bool:
     which the dictionary pipeline wrote and no early source states in those words."""
     hs = q["detail"].get("branches", []) + [p for x in q["detail"].get("pieces", []) for p in x.get("detail", {}).get("branches", [])]
     return any(h["field"] in ("source_phrase_ar", "lexical_source_phrase") or h.get("source_tags") for h in hs)
+
+
+def declared(tag: str) -> str | None:
+    """The `source:` value of a tag (inner text without the braces), or None."""
+    m = None
+    for m in SOURCE_FIELD.finditer(tag):
+        pass
+    return None if m is None else (m.group(1) if m.group(1) is not None else m.group(2)).strip()
+
+
+def verify_source(R: "Resolver", quote: str | None, src: str) -> dict:
+    """One declared source checked against the project's Quran text and dictionary (see item 6)."""
+    low = src.lower()
+    if re.fullmatch(r"\s*[Bb]\d+\s*", src.split(",")[-1]) and "," in src:
+        root, br = src.rsplit(",", 1)
+        root, br = C.nroot(root.strip()), br.strip().upper()
+        rid = R.root_ids.get(root)
+        if not rid:
+            return {"kind": "branch", "status": "root not found", "root": root, "branch": br}
+        bref = f"{rid}/{br}"
+        if bref not in R.bb:
+            return {"kind": "branch", "status": "branch not found", "root": root, "branch": br}
+        if not quote:
+            return {"kind": "branch", "status": "ok (no quote)", "branch_ref": bref}
+        pieces = [quote] + [x.strip() for x in re.split("[؛۝]", quote) if C.fold(x)] if re.search("[؛۝]", quote) else [quote]
+        for g in (False, True):
+            for x in pieces:
+                if any(h["branch_ref"] == bref for h in R.dictionary(x, g)):
+                    return {"kind": "branch", "status": "ok", "branch_ref": bref, "gapped": g}
+        r = R.resolve(quote)
+        return {"kind": "branch", "status": "quote not in this branch", "branch_ref": bref, "found": r["source"],
+                "found_detail": r["detail"].get("refs") or [h["branch_ref"] for h in r["detail"].get("branches", [])]}
+    refs = []
+    for m in QREF.finditer(src):
+        s_, a = int(m.group(1)), int(m.group(2))
+        b = int(m.group(3)) if m.group(3) else a
+        refs += [f"{s_}:{x}" for x in range(a, min(b, a + 40) + 1)]
+    if refs and not re.sub(r"[\d:;,\s–-]", "", src):
+        valid = set(R.refs)
+        missing = [r for r in refs if r not in valid]
+        if missing:
+            return {"kind": "quran", "status": "no such ayah", "refs": refs, "missing": missing}
+        if not quote:
+            return {"kind": "quran", "status": "ok (no quote)", "refs": refs}
+        hits = {h["ref"] for g in (False, True) for h in R.quran(quote, g)}
+        if hits & set(refs):
+            return {"kind": "quran", "status": "ok", "refs": refs}
+        return {"kind": "quran", "status": "quote not in this ayah", "refs": refs, "found_in": sorted(hits, key=C.parse_ref)[:6]}
+    if low in ("hadis", "hadith"):
+        return {"kind": "hadith", "status": "declared"}
+    if low in ("memory", "hafıza", "bellek"):
+        r = R.resolve(quote) if quote else {"source": None}
+        return {"kind": "memory", "status": "declared", "found_anyway": r["source"] if r["source"] in ATTESTED else None}
+    return {"kind": "unknown", "status": "unreadable source", "value": src}
 
 
 def markers(s: str, table: dict) -> list[str]:
@@ -352,6 +418,18 @@ def check(path: Path, focus: str) -> dict:
                           "sentence": here.strip()[:500]})
     bound = [c for c in cited if c["bound"]]
 
+    # declared sources (item 6)
+    sources = []
+    for (st, en, ar), q in zip(C.tags(text), quotations):
+        v = declared(text[st + 1:en - 1])
+        rec = verify_source(R, ar, v) if v else {"kind": None, "status": "no source"}
+        sources.append({"line": q["line"], "quote": ar, "declared": v, **rec})
+    for m in SOURCE_ONLY.finditer(text):
+        v = declared(m.group(0)[1:-1])
+        if v:
+            sources.append({"line": C.line_of(text, m.start()), "quote": None, "declared": v,
+                            **verify_source(R, None, v)})
+
     by_source: dict[str, int] = {}
     for q in quotations:
         by_source[q["source"]] = by_source.get(q["source"], 0) + 1
@@ -383,6 +461,10 @@ def check(path: Path, focus: str) -> dict:
         "bound_citations_extended_marker_only": sum(1 for c in bound if c["framing"] == "no echo marker"
                                                     and c["extended_markers_in_sentence"]),
         "negation": C.negation(text),
+        "sources_declared": sum(1 for x in sources if x["declared"]),
+        "sources_by_kind": {k: sum(1 for x in sources if x["kind"] == k) for k in
+                            sorted({str(x["kind"]) for x in sources if x["kind"]})},
+        "sources_status": {k: sum(1 for x in sources if x["status"] == k) for k in sorted({x["status"] for x in sources})},
     }
     return {
         "record": "E0 check.py verification record (for the user and the scorecard; never a model input)",
@@ -391,6 +473,8 @@ def check(path: Path, focus: str) -> dict:
         "index_signature": C.index()["signature"],
         "summary": summary, "quotations": quotations, "arabic_outside_tags": outside, "bellek": bellek,
         "unsourced_unmarked": unsourced_unmarked, "cited_branches": cited,
+        "sources": [x for x in sources if x["status"] not in ("ok", "ok (no quote)")] if sources else [],
+        "sources_all": sources,
     }
 
 
@@ -413,7 +497,7 @@ def main() -> int:
                   f"(+{s['arabic_outside_tags_root_names']} root names); {s['bellek_marks']} [bellek] {s['bellek_status']}; "
                   f"{s['unsourced_unmarked']} unsourced unmarked; bound branches cited {s['cited_bound_branches']} "
                   f"(echo marker {s['bound_citations_with_echo_marker']}, none {s['bound_citations_without_echo_marker']}); "
-                  f"neg/1000 {s['negation']['neg_e2_per_1000']}")
+                  f"neg/1000 {s['negation']['neg_e2_per_1000']}; sources {s['sources_status']}")
     else:
         print(js)
     return 0
