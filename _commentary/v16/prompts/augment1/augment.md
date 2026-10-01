@@ -14,9 +14,11 @@ join a paragraph's movement; a passage added only to be cited weakens the
 commentary. There is no number to reach. What the ledger says was left out
 stays out, unless your addition shows what the ledger's reason missed.
 
-Then check your own knowledge of the Quran for passages that are not in the
-list and not in the commentary but would expand or shift the understanding of
-what a paragraph says, and treat them the same way.
+Then go through the commentary paragraph by paragraph and ask your own
+knowledge of the Quran what it holds that is in neither the list nor the
+commentary but would explain what the paragraph says better, or expand or shift
+its understanding; treat such a passage the same way. Quote from it only words
+you are certain of, or name it by its source alone.
 
 Never change, repeat or contradict a word of the commentary. Each addition
 follows its form: Turkish prose in the commentary's register, warm and direct;
