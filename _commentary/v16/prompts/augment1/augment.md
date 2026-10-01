@@ -30,15 +30,15 @@ A passage named without quoting it gets the source alone: {source:<surah:ayah>}.
 Copy the Arabic from the supplied text where it is supplied. Never invent a
 sense, source, speaker, situation or citation.
 
-Output only this. For each addition, a block:
+Output only this, with no preamble, notes or summary. For each addition, a block:
 === INSERT ===
 paragraph: <n>
-after: <the last words of the sentence after which the addition goes, copied exactly, at least six words, ending with that sentence's final punctuation>
+after: <the last six to ten words of the sentence after which the addition goes, copied exactly, ending with its final punctuation>
 ref: <surah:ayah>
-text: <the addition, one or more sentences, on one line>
+text: <the addition on one line, as long as the joint needs and no longer>
 Then a line containing only
 === LEDGER ===
-then, in plain English, one line for each passage from your own knowledge that
-you weighed (and only for those), whether you added it or not:
-- added: <surah:ayah> <what it says, in a few words> - <why>
-- ignored: <surah:ayah> <what it says, in a few words> - <why>
+then one short line for each passage from your own knowledge that you weighed
+(only those), its gist and reason in a few words each:
+- added: <surah:ayah> <gist>
+- ignored: <surah:ayah> <gist> - <reason>
