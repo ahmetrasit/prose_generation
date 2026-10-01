@@ -1320,3 +1320,20 @@ its medium union is 424 more refs.
   «إذ دخلوا على داوود»).
 - 1:6: 107 passages, 77 with text (38:22, 20:135 and 90:10 among them), 30 as refs. S1: 85 with text, 125 as refs
   (before: refs only).
+
+### r10_1 on 1:6 with the check, strong + medium (2026-09-30, user-approved; `DM.r10_1.map3.nohft.tool.tool`)
+
+$1.13 (est. $1.37), 3,003 words, 7 sections. Map: `surah.map3.nohft.tool`. The S1 map rerun was skipped (user).
+
+- **Check.** It passed 23 refs and got 93 back. It added 13: 37:118, 15:41, 10:25, 5:16, 11:56, 17:9, 90:10, 38:22,
+  17:35, 23:74, 29:69, 49:17, 47:17. Seven of those are medium-tier, 38:22 and 90:10 among them.
+  - 38:22 does real work twice: the verb with and without إلى (grammar), and "do not exceed, lead us to the middle
+    of the road" (balance).
+- **7:16** is now a section of its own, "Pusu kurulan yol". It opens with Iblīs's refusal to bow to Adam, so the
+  reader knows who sits on the road. Then 7:17, then 15:41 as God's answer. 37:23 («فاهدوهم إلى صراط الجحيم»)
+  shows that the verb and the noun alone guarantee nothing.
+- **Pulley.** Still out. The ledger: "B012 the well pulley … would not have served the road, standing or balance
+  themes here". The exit clause is gone; the decline is now a judgement on the themes.
+- **Scorecard against r10.** "Aile" openings 10 → 0. "denir" 9 → 32: the brief's "… denir" turned into the new
+  tic. "X için … denir" runs line up senses (the balance section), and once it is wrongly used for a Quran quote
+  (41:17). Paragraphs with 3+ tags 11/29 → 13/25.

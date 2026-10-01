@@ -1,0 +1,17 @@
+- memory: The hadith qudsi dividing the prayer (the Fatiha) between God and His servant, including "هذا لعبدي ولعبدي ما سأل" for the closing ayat (Sahih Muslim, Abu Hurayra)
+- memory: The Prophet in his last illness "يهادى بين رجلين", his feet tracing the ground (Sahih Bukhari, from Aisha)
+- memory: The qira'at variants: Qunbul (from Ibn Kathir) and Ruways read السراط with sin; Khalaf from Hamza reads it with ishmam toward za (canonical qira'at literature)
+- memory: Turkish "sırat" as the bridge over Hell comes from hadith about the ṣirāṭ set over Jahannam (Bukhari and Muslim, hadith on the Day of Resurrection)
+- memory: ṣirāṭ never occurs in the plural in the Quran, while sabīl has the plural subul (concordance knowledge)
+- memory: 47:17, 2:2, 41:17, 28:56, 42:52, 19:43, 11:112, 41:30 and 2:143 were quoted from memory; also 7:17 (Iblis coming from front, behind, right and left), paraphrased
+- memory: Context of 49:17 (Bedouin counting their islam as a favour), 38:22 (the two disputants climbing in on David), 11:56 (Hud defying his people), 28:56 (said about someone the Prophet loved, classically Abu Talib, left unnamed), 48:2 (after the treaty/opening), 37:23 (command at the gathering on the Day)
+- memory: The Fatiha is recited in the standing (qiyam) of the prayer (fiqh of salah)
+- memory: 90:10 النجدين as the two high roads or ways (standard tafsir)
+- not written: echo root ه د د (demolition, the hoopoe, rocking a child to sleep) - only a sound-family candidate, not the identity root, so it could not ground anything about ٱهْدِنَا
+- not written: ص ر ط B003, the sword that cuts through a blow - it would have given the road a sense of going straight through, but it is a lone attestation and adds nothing the swallowing image does not already do
+- not written: ق و م B001 قوم, the company - the map ties it to "the road of those", but hearing "company" inside مستقيم goes beyond the attested senses; the plural "-nā" and 1:7 already carry the company
+- not written: ه د ي B007 the refugee sacred like the offering, and B011 presenting a poem - these would have extended the "conveyed to where one belongs" image, but they would have diluted the offering/bride/house line, which already grounds it
+- not written: ق و م B010 price and valuation, B012 the well pulley, B018–B021 (market, ache, sheep's illness, the blind eye) - they would not have served the road, standing or balance themes here
+- not written: 36:66 (racing to the road with eyes effaced) and 2:142 (the qibla, "يهدي من يشاء إلى صراط مستقيم") - real occurrences, but they would not have sharpened any theme beyond what 23:74 and 10:25 already do
+- not written: 20:50 and 87:3 (guidance built into created things) - they would have shown a wider, creation-level hidaya, but that pulls away from the request for the road that this ayah makes
+- not written: the hadith of the stray camel and of God's joy at a servant's repentance - these belong to the ض ل ل and herd chains, which 1:7 completes, not to this ayah
