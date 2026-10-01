@@ -1,0 +1,2 @@
+- ignored: 6:97 stars given to find the way in the darkness of land and sea - repeats 16:16 already in ¶4; 27:63 carries the new point (the guide is named)
+- ignored: 3:103 holding fast to Allah's rope - the rope image belongs to no paragraph's scene
