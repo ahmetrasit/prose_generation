@@ -34,13 +34,13 @@ SAFE_CMD = re.compile(rf"{re.escape(ALLOW)} (?:S\d+|\d+:\d+)(?: [0-9:()\[\],;.\-
 
 
 def tool_extra(target: str) -> int:
-    """Upper bound on the tool result's tokens: every strong passage missing, with its Arabic."""
+    """Upper bound on the tool result's tokens: every listed passage missing, rendered as missing.py would."""
     import missing as M
     text = M.verses()
-    focus = [r for r in text if r.split(":")[0] == target[1:] and r.split(":")[1] != "0"] if target.startswith("S") \
-        else [target]
-    listed, _ = M.strong(focus)
-    return V.est_tokens("\n".join(f"- ({r}) {text.get(r, '')}" for r in listed) + M.INSTRUCTION)
+    surah = target.startswith("S")
+    focus = [r for r in text if r.split(":")[0] == target[1:] and r.split(":")[1] != "0"] if surah else [target]
+    passages, _ = M.listed(focus, M.LABELS["surah" if surah else "ayah"])
+    return V.est_tokens(M.render(passages, text) + M.INSTRUCTION)
 
 
 def audit(d: Path) -> list[str]:
@@ -56,7 +56,7 @@ def tool_line(target: str) -> str:
     # the model treats instructions inside a tool result as untrusted text (out/permtest/run.log.json).
     return (f"When your discovery is complete and before you write your final output, run this command once, "
             f"with every Quran reference outside this surah that your output will use: "
-            f"`{ALLOW} {target} <refs separated by spaces>`. It lists strong passages from an earlier "
+            f"`{ALLOW} {target} <refs separated by spaces>`. It lists passages from an earlier "
             f"cross-reference list that your refs do not include. That list is not authoritative and may be "
             f"incomplete: judge each passage yourself, add it only where it supports or sharpens what you are "
             f"writing, and leave the rest. Also add any other passage you now recall that belongs, whether listed "
@@ -136,6 +136,8 @@ def map_packet(brief: str = "map3", hft: bool = True, tool: bool = False, tag: s
 
 
 def writer_packet(ref: str, brief: str, map_path: Path, labels: bool, tool: bool = False) -> tuple[str, Path, str]:
+    if not V.map_complete(map_path):
+        raise SystemExit(f"{map_path}: incomplete map (no ## Chains or ## Ayat); a writer is never built on it")
     name = V.sa(ref)[1]
     head, secs = split((V.WORK / name / f"DM.{brief}" / "prompt.md").read_text(encoding="utf-8"))
     tag = map_path.parent.name.replace("surah.", "") + ("" if labels else ".nolabel") + (".tool" if tool else "")
@@ -197,6 +199,9 @@ def call(text: str, d: Path, kind: str, row: dict, ledger: bool, tool: bool = Fa
             print(f"WARNING: unexpected commands run by the agent, treat this run as contaminated: {bad}")
     V.log(out)
     print(f"{d.relative_to(V.HERE)}: {out['status']} ${out.get('cost_usd')} {out.get('words')}w {out['seconds']}s")
+    if out["status"] != "ok" or out.get("map_complete") is False:
+        raise SystemExit(f"{d.relative_to(V.HERE)}: not a clean output ({out['status']}, map_complete="
+                         f"{out.get('map_complete')}); stopping so a chained call does not use it")
 
 
 def main() -> None:

@@ -1282,3 +1282,41 @@ only S1, and the CLI limit is in bytes. The graded version was reviewed "correct
 **Dir names.** `packets.py map --tag check2` writes `surah.map3.nohft.tool.check2`. A writer's dir name is built
 from its map dir plus its own flags, so the r10_1 writer on that map is `DM.r10_1.map3.nohft.tool.check2.tool`:
 the first `.tool` is the map's check, the second the writer's. `--tag` is refused for `writer` (Sonnet review nit).
+
+### S1 map with the fixed check: a safety stop (2026-09-30, user-approved; `surah.map3.nohft.tool.check2`)
+
+$3.31 (est. $3.08), 76.1k output, 1,693 s.
+
+- **The check worked.** The map passed 75 refs; all 192 returned refs reached it (1.6 KB). It added 42 of them,
+  7:16 among them («لأقعدن لهم صراطك المستقيم», "an ambush set on the road"). 7:11–12 are cited.
+- **The output was stopped by the model's safeguards** in the "Tenderness and hardness" chain (anger: hard rock,
+  thick skin, blood boiling in the heart, swelling around the eye). The stream has `system/informational`
+  "Opus 5.5's safeguards stopped the response above · continuing once with that noted". On the continuation the
+  model wrote a note ("I can't give you the full map …") instead of the rest.
+  - About 12 chains are complete. Missing: ten planned chains (the well-head among them), and all of
+    `## Interactions`, `## Ayat` and `## Not carried`.
+  - Earlier map3 runs wrote the same anger material without a stop; it reads as a false positive.
+- **The runner logged it "ok"** (with `map_complete: False`) and exited 0, so the chained r10_1 writer started on
+  this map, including the model's note. The user stopped the writer about 2 minutes in, before its check call
+  (`out/1_6/DM.r10_1.map3.nohft.tool.check2.tool`, prompt only; ledger "stopped"). Not rerun.
+- **Fixes.**
+  - `call_opus` records a safeguards stop (`safety_stop`), and the status becomes "safety-stop".
+  - `packets.call` exits non-zero on any status other than "ok", or on an incomplete map, so a chained call
+    stops.
+  - `writer_packet` refuses an incomplete map.
+
+### The check with medium passages (user, 2026-09-30)
+
+The reciprocal list's medium tier holds some of 1:6's closest passages: 38:22 «واهدنا إلى سواء الصراط», 20:135
+«أصحاب الصراط السوي ومن اهتدى», 90:10 «وهديناه النجدين». The last 1:6 writer used 6 of the 61 medium
+passages. Ayah calls now get strong and medium, strong first, with no labels shown. The map call stays on strong:
+its medium union is 424 more refs.
+
+**Size.**
+- The CLI cut the 24,514-character, 44,228-byte answer, although `BASH_MAX_OUTPUT_LENGTH` is documented at 30,000
+  characters. The cut is byte-based and undocumented, so the setting is not relied on. 11.7 KB passed whole.
+- The answer stays within 20 KB: passages in list order with their full Arabic as long as they fit, the rest as
+  refs only, by surah. Opening words were dropped, because the relevant part is often at the end (38:22 opens
+  «إذ دخلوا على داوود»).
+- 1:6: 107 passages, 77 with text (38:22, 20:135 and 90:10 among them), 30 as refs. S1: 85 with text, 125 as refs
+  (before: refs only).

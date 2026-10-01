@@ -466,12 +466,16 @@ def call_opus(text: str, d: Path, model: str = "opus", allow: str | None = None)
     with tempfile.TemporaryDirectory(prefix="v16_opus_") as cwd:
         p = subprocess.run(cmd, input=text, capture_output=True, text=True, cwd=cwd, env=env)
     (d / "run.stream.jsonl").write_text(p.stdout or "", encoding="utf-8")
-    texts, ids, final, tool_calls, pre_tool, pre_ids = [], [], {}, [], [], []
+    texts, ids, final, tool_calls, pre_tool, pre_ids, safety = [], [], {}, [], [], [], []
     for line in (p.stdout or "").splitlines():
         try:
             ev = json.loads(line)
         except json.JSONDecodeError:
             continue
+        # The model's safeguards can stop a response; the CLI then continues once and the model may write a note in
+        # place of the rest (S1 map3.nohft.tool.check2, 2026-09-30). The run is then not a clean output.
+        if ev.get("type") == "system" and "safeguards" in str(ev.get("content", "")):
+            safety.append(str(ev.get("content")))
         if ev.get("type") == "assistant" and isinstance(ev.get("message"), dict):
             msg = ev["message"]
             for c in msg.get("content", []):  # in order: the output is the text after the last tool call
@@ -511,6 +515,8 @@ def call_opus(text: str, d: Path, model: str = "opus", allow: str | None = None)
         final.setdefault("stderr_tail", p.stderr[-3000:])
     final["text_message_ids"] = ids
     final["tool_calls"] = len(tool_calls)
+    if safety:
+        final["safety_stop"] = safety
     (d / "run.log.json").write_text(json.dumps(final, ensure_ascii=False) + "\n",
                                     encoding="utf-8")
     return final
@@ -519,7 +525,8 @@ def call_opus(text: str, d: Path, model: str = "opus", allow: str | None = None)
 def usage_row(obj: dict, text: str) -> dict:
     usage = obj.get("usage", {}) or {}
     result = (obj.get("result") or "").strip()
-    return {"status": "partial" if obj.get("partial") else ("ok" if result and not obj.get("is_error") else "error"),
+    return {"status": "safety-stop" if obj.get("safety_stop") else "partial" if obj.get("partial")
+            else ("ok" if result and not obj.get("is_error") else "error"),
             "cost_usd": obj.get("total_cost_usd"), "output_tokens": usage.get("output_tokens"),
             "thinking_tokens": (usage.get("output_tokens_details") or {}).get("thinking_tokens"),
             "cache_write": usage.get("cache_creation_input_tokens"), "num_turns": obj.get("num_turns"),
