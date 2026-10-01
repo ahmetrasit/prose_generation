@@ -25,7 +25,7 @@ MARK = Path(".missing_py_used")
 # widely listed refs with an explicit count of the rest.
 LIMIT_BYTES = 20_000
 OPENING_WORDS = 6
-PAUSE = re.compile(r"^[\u06D6-\u06ED\u06DE\u06E9]+$")  # Uthmani pause/sajda marks written as separate tokens
+PAUSE = re.compile(r"^[\u06D6-\u06ED]+$")  # Uthmani pause/sajda marks written as separate tokens
 
 
 def opening(ayah: str) -> str:
@@ -58,6 +58,7 @@ def render(missing: list[str], text: dict[str, str]) -> str:
     n = len(missing)
     while n > 1 and size(refs_only(missing[:n])) > budget - 120:
         n = int(n * 0.9)
+    assert budget > 0 and size(refs_only(missing[:n])) <= budget, "LIMIT_BYTES too small for INSTRUCTION"
     return (f"{len(missing)} passages; the {n} most widely listed are shown (refs only, by surah), "
             f"{len(missing) - n} more are not shown:\n{refs_only(missing[:n])}")
 
@@ -95,7 +96,8 @@ def expand(tokens: list[str]) -> set[str]:
 
 def strong(focus_refs: list[str]) -> tuple[list[str], int]:
     """Strong targets, most widely listed first (then list order), and how many focus lists were found
-    (0 means the check could not run). For one ayah every count is 1, so list order is kept."""
+    (0 means the check could not run). For one ayah the count is almost always 1 (22 lists repeat a target), so
+    list order is nearly always kept."""
     seen, out, found, count = set(), [], 0, {}
     for ref in focus_refs:
         path = LISTS / f"focus_{ref.replace(':', '_')}_cutoff_100.tsv"
