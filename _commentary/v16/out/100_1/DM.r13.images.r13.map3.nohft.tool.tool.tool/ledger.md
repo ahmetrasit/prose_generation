@@ -1,0 +1,17 @@
+- memory: "wa" here is the oath particle
+- memory: ʿādiyāt is the fem. pl. active participle of ʿadā yaʿdū; used for non-human plurals
+- memory: ḍabḥan read as ḥāl or as mafʿūl muṭlaq of the running
+- memory: ʿādiya is the singular of ʿādiyāt; ʿadā ʿan = carry/turn away from
+- memory: qidḥ (arrow shaft) and qadḥ (striking fire) share root ق د ح
+- memory: Turkish adâvet, maada (< mā ʿadā), taaddi from ع د و
+- memory: anfās and anfus share root ن ف س
+- memory: heating bent shafts over fire to straighten them (craft practice)
+- note: the 38:32 sentence quoting 100:8 has the wrong source tag; it should be source:100:8
+- not written: ع د و B005 asking a ruler for redress - no grounding in this ayah
+- not written: ع د و B006 contagion - no theme it joins
+- not written: ع د و B009 valley side, 8:42 Badr sides - would need a battle scene not carried by these words
+- not written: ع د و B011 summer plant, B012 twistedness - no work here
+- not written: echo roots ع د د, ع و د - not identity; not used
+- not written: hāma owl lore about the dead - outside-Quran belief
+- not written: fire-straightened shaft vs Fatiha's straight path - analogy too loose
+- not written: 59:6 awjaftum min khayl - adds nothing beyond 16:8

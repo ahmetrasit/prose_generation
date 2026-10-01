@@ -1,0 +1,6 @@
+- added: 81:18 sabahın nefes alması - ¶5'in gece ile sabah arasındaki soluk çizgisine bağlandı
+- added: 3:154 göğüslerdekinin sınanması - ¶7'deki saklı göğüs ve açığa çıkma düşüncesine ekleme
+- added: 56:71 çakılan ateş, "tûrûn" ve "mûriyât" aynı kök, 56:73 tezkire ve fayda - ¶9'daki kıvılcım anlatımına ekleme
+- added: 43:13 binenin nimeti anması, 43:14 Rabbe dönüş - ¶18'deki nankörlük ve bineğe bağlandı
+- ignored: 14:34 insan çok nankördür - 43:13 ve ¶18'in kendi cümlesi aynı yeri tutuyor
+- ignored: 36:80 yeşil ağaçtan ateş - 56:71 ile aynı iş görür, ikisi birden ¶9'u şişirirdi

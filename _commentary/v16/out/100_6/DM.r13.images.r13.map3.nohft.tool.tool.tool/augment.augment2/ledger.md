@@ -1,0 +1,20 @@
+- added: 17:27 şeytan li-rabbihî kefûr, aynı dizilişi taşıyor
+- added: 96:6 aynı inne'l-insâne kalıbı ve istiğnâ sebebi
+- added: 96:5 insana bilmediğini öğreten Rab, yalnız adıyla anıldı
+- added: 17:83 insanın nimet alınca yanını çevirmesi, "yan" kelimesine bağlandı
+- added: 43:13 binek üzerinde rabbin nimetini anmak, 43:12 ve 43:14-15 çevresiyle
+- added: 14:7 şükürde artış, nankörlükte azap, 14:6 çevresiyle
+- added: 14:34 nimet sayılamaz, musibet sayan defterin eksikliği
+- added: 39:8 dar günde Rabbine yönelen, nimette unutan
+- added: 16:83 nimeti tanıyıp inkâr etmek, 16:81 tamamlanan nimet çevresiyle
+- added: 2:152 şükür ve nankörlüğün karşılıklı konuşu, 2:151 çevresiyle
+- added: 27:40 şükrün kendi payına döndüğü, Rabbin ganî olduğu
+- added: 31:14 Rabbe ve ana babaya şükür bir arada
+- added: 79:24 Firavun'un Rablik iddiası, 79:23 çevresiyle
+- added: 16:112 rızkı bol gelen kentin nimeti inkârı
+- added: 89:15 insan "Rabbim ikram etti" der, 89:17-18 yetim ve yoksul
+- added: 7:144 Musa'ya şükredenlerden ol denmesi
+- added: 16:78 işitme, görme, gönül verilmesi, amacı şükür
+- ignored: 55:13 febi eyyi âlâi rabbikumâ nakaratı - 6 ve 11. paragraflara yeni bir yön eklemiyor
+- ignored: 106:3-4 Beyt'in Rabbi açlıktan doyuran - 18. paragrafa bağlanan 89:15 daha yakın
+- ignored: 76:2-3 işiten, gören insan, şâkir ya da kefûr - 16:78 aynı yeri doldurdu

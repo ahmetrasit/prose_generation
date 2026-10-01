@@ -1,0 +1,117 @@
+=== INSERT ===
+paragraph: 2
+after: ve "kenûd" ayetin sonunda, kafiyenin düştüğü yerde kalır.
+ref: 17:27
+text: Aynı dizilişi Kur'an bir ayette daha kurar ve nankörlüğü bu kez insana değil şeytana yükler: {ar:وَكَانَ ٱلشَّيْطَٰنُ لِرَبِّهِۦ كَفُورًۭا, tr:ve kâne'ş-şeytânu li-rabbihî kefûrâ, gloss:şeytan Rabbine karşı pek nankördü, source:17:27}. Orada da "li-rabbihî" önde, "kefûr" sonda durur. Cümle, israf edenleri şeytanların kardeşi sayan ifadenin ardından gelir. Öncesinde akrabaya, yoksula ve yolda kalmışa haklarının verilmesi emredilir {source:17:26}. Böylece nankörlük, verilen malın savrulmasıyla yan yana anılmış olur.
+
+=== INSERT ===
+paragraph: 2
+after: insan türünü bütünüyle anar.
+ref: 96:6
+text: Aynı kalıp Alak suresinde de kurulur: {ar:كَلَّآ إِنَّ ٱلْإِنسَٰنَ لَيَطْغَىٰٓ, tr:kellâ inne'l-insâne le-yatğâ, gloss:hayır, insan gerçekten azar, source:96:6}. Orada tespitin sebebi de hemen söylenir: {ar:أَن رَّءَاهُ ٱسْتَغْنَىٰٓ, tr:en raâhu'stağnâ, gloss:kendini kendine yeterli gördüğü için, source:96:7}. Ardından dönüşün Rabbe olduğu hatırlatılır {source:96:8}. Aynı surede insana bilmediğini öğretenin de Rab olduğu söylenmişti {source:96:5}. Kenûd tutumun altındaki hâl, bu kendine yeterlik duygusuyla birlikte okunabilir.
+
+=== INSERT ===
+paragraph: 3
+after: Bu kullanımda insan, şeylerin kendisine dönüp verdiği yerde durur.
+ref: 17:83
+text: Sözlük kaydındaki "yan" (cânib) kelimesi Kur'an'da insanın tutumu için de geçer. Allah insana nimet verdiğinde onun hâli şöyle anlatılır: {ar:وَإِذَآ أَنْعَمْنَا عَلَى ٱلْإِنسَٰنِ أَعْرَضَ وَنَـَٔا بِجَانِبِهِۦ, tr:ve izâ en'amnâ ale'l-insâni a'rada ve ne'â bi-cânibih, gloss:insana nimet verdiğimizde yüz çevirir ve yanını çevirip uzaklaşır, source:17:83}. Bineğin ve yayın insana dönük yanı verirken, nimet alan insan kendi yanını çevirip gider. Aynı ayette ona kötülük dokununca umutsuz olduğu da söylenir.
+
+=== INSERT ===
+paragraph: 4
+after: Sahibi ise kendi Sahibine karşılık vermez.
+ref: 43:13
+text: Kur'an, binek üzerindeki insana ne yapacağını da söyler. Allah insanlara binecekleri gemileri ve hayvanları kıldığını bildirir {source:43:12} ve ardından şunu ister: {ar:ثُمَّ تَذْكُرُوا۟ نِعْمَةَ رَبِّكُمْ إِذَا ٱسْتَوَيْتُمْ عَلَيْهِ, tr:summe tezkurû ni'mete rabbikum izâ'stevaytum aleyh, gloss:sonra ona yerleştiğinizde Rabbinizin nimetini anın diye, source:43:13}. Biniş anı, rabbin nimetinin anılacağı andır. Hemen ardından "Biz Rabbimize döneceğiz" sözü gelir {source:43:14}. Ayetlerin devamında aynı sure insan için şu kalıba varır: {ar:إِنَّ ٱلْإِنسَٰنَ لَكَفُورٌۭ مُّبِينٌ, tr:inne'l-insâne le-kefûrun mubîn, gloss:şüphesiz insan apaçık bir nankördür, source:43:15}.
+
+=== INSERT ===
+paragraph: 5
+after: İp sağlam kaldıkça bağ yaşar.
+ref: 14:7
+text: Bu bağın iki yönü, Musa'nın kavmine anlattığı bir bildirimde Rabbin ağzından açıkça konur: {ar:وَإِذْ تَأَذَّنَ رَبُّكُمْ لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ ۖ وَلَئِن كَفَرْتُمْ إِنَّ عَذَابِى لَشَدِيدٌۭ, tr:ve iz te'ezzene rabbukum le-in şekertum le-ezîdennekum, ve le-in kefertum inne azâbî le-şedîd, gloss:Rabbiniz şöyle bildirmişti: şükrederseniz elbette size artırırım; nankörlük ederseniz azabım pek şiddetlidir, source:14:7}. Musa bunu kavmine, Allah'ın nimetini anmalarını ve onları Firavun hanedanından kurtardığını hatırlatırken söyler {source:14:6}. Şükür geri dönünce verilen iyilik artar, ip kesilince ise karşılığı şiddetli bir azap olur.
+
+=== INSERT ===
+paragraph: 6
+after: Uğradığı sıkıntılar deftere işlenir, aldığı iyilikler işlenmez.
+ref: 14:34
+text: Kur'an bu defterin öbür sayfasını da gösterir ve orada hesabın tutmayacağını söyler: {ar:وَإِن تَعُدُّوا۟ نِعْمَتَ ٱللَّهِ لَا تُحْصُوهَآ ۗ إِنَّ ٱلْإِنسَٰنَ لَظَلُومٌۭ كَفَّارٌۭ, tr:ve in te'uddû ni'mete'llâhi lâ tuhsûhâ, inne'l-insâne le-zalûmun keffâr, gloss:Allah'ın nimetini saymaya kalksanız onu bitiremezsiniz; şüphesiz insan pek zalim, pek nankördür, source:14:34}. Musibetleri sayan kişinin defteri bu yüzden eksiktir, çünkü nimetin sayısına ulaşılamaz. Ayet insanı da bu eksik defterle niteler.
+
+=== INSERT ===
+paragraph: 6
+after: onun kimden geldiğini anmaz, yalnızca kötülüğün gittiğini söyler.
+ref: 39:8
+text: Başka bir ayet bu unutuşun kime kadar vardığını gösterir. Dar günde insan Rabbine yönelerek dua eder. Sonra Allah ona kendi katından bir nimet verince {ar:نَسِىَ مَا كَانَ يَدْعُوٓا۟ إِلَيْهِ مِن قَبْلُ, tr:nesiye mâ kâne yed'û ileyhi min kabl, gloss:daha önce kendisine yalvardığını unutur, source:39:8}. Ayetin devamında Allah'a ortaklar koştuğu da söylenir. Unutulan yalnızca nimet değildir, çağrılan Rab de unutulur.
+
+=== INSERT ===
+paragraph: 10
+after: halden hale ilerleyen bir yetiştirmenin basamaklarıdır.
+ref: 16:83
+text: Nimetin tamamlanması da Kur'an'da bu bakımın bir adımı olarak geçer. Allah'ın nimetini üzerinizde böyle tamamladığı söylenir {source:16:81}. İki ayet sonra kesilen ip, bilmeyenin değil, tanıyanın kestiği bir ip olarak anlatılır: {ar:يَعْرِفُونَ نِعْمَتَ ٱللَّهِ ثُمَّ يُنكِرُونَهَا وَأَكْثَرُهُمُ ٱلْكَٰفِرُونَ, tr:ya'rifûne ni'mete'llâhi summe yunkirûnehâ ve ekseruhumu'l-kâfirûn, gloss:Allah'ın nimetini tanırlar, sonra onu inkâr ederler; çoğu da nankörlerdir, source:16:83}. Kenûd tutum, bakımı görmeyen birinin değil, gördüğü hâlde bağı koparanın tutumudur.
+
+=== INSERT ===
+paragraph: 11
+after: iki ucunda iki karşıt cevap durur: biri ipi tutar, öbürü keser.
+ref: 2:152
+text: Bu iki cevap tek bir ayette karşı karşıya gelir: {ar:فَٱذْكُرُونِىٓ أَذْكُرْكُمْ وَٱشْكُرُوا۟ لِى وَلَا تَكْفُرُونِ, tr:fe'zkurûnî ezkurkum veşkurû lî ve lâ tekfurûn, gloss:beni anın ki ben de sizi anayım; bana şükredin, nankörlük etmeyin, source:2:152}. Ayetten önce içlerinden bir elçi gönderildiği, onlara âyetlerin okunduğu, onların arındırılıp öğretildiği hatırlatılır {source:2:151}. Şükür yine "lî" ile Rabbe yönelir ve nankörlük onun karşısına konur. Bağ tek yönlü de değildir: insan anarsa Allah da anar.
+
+=== INSERT ===
+paragraph: 11
+after: kesen insanın Rabbi, ipin öbür ucunda onu bilmeye devam eder.
+ref: 27:40
+text: Süleyman, getirilen şeyi kendi yanında yerleşmiş görünce bu ipin kime ait olduğunu söyler: {ar:هَٰذَا مِن فَضْلِ رَبِّى لِيَبْلُوَنِىٓ ءَأَشْكُرُ أَمْ أَكْفُرُ ۖ وَمَن شَكَرَ فَإِنَّمَا يَشْكُرُ لِنَفْسِهِۦ ۖ وَمَن كَفَرَ فَإِنَّ رَبِّى غَنِىٌّ كَرِيمٌۭ, tr:hâzâ min fadli rabbî li-yebluvenî e-eşkuru em ekfur, ve men şekere fe-innemâ yeşkuru li-nefsih, ve men kefere fe-inne rabbî ganiyyun kerîm, gloss:bu Rabbimin lütfundandır; şükür mü edeceğim, nankörlük mü, beni sınamak için. Kim şükrederse kendi lehine şükreder; kim nankörlük ederse Rabbim ganîdir, kerîmdir, source:27:40}. Şükür şükredenin kendi payına yazılır. İpi kesen, Rabbini eksiltmez.
+
+=== INSERT ===
+paragraph: 12
+after: yanında kucakta büyütmek vardır, "kenûd" kelimesinin yanında babadan kopmak.
+ref: 31:14
+text: Kur'an bu iki hareketi şükür bağında yan yana koyar. Lokman'ın oğluna öğüdü anlatılırken araya giren bir ayette Allah, insana ana babasını tavsiye eder: anası onu zayıflık üstüne zayıflıkla taşımış, sütten kesilmesi iki yılda olmuştur. Ardından şunu ister: {ar:أَنِ ٱشْكُرْ لِى وَلِوَٰلِدَيْكَ إِلَىَّ ٱلْمَصِيرُ, tr:eni'şkur lî ve li-vâlideyke ileyye'l-masîr, gloss:bana ve ana babana şükret; dönüş banadır, source:31:14}. Yetiştirene şükür, Rabbe şükürle aynı cümlede istenir ve hemen ardından dönüşün Allah'a olduğu hatırlatılır.
+
+=== INSERT ===
+paragraph: 13
+after: Firavun'a değil, göklerin ve yerin Rabbine borçlu olunan şükürdür.
+ref: 79:24
+text: Firavun yetiştirme iddiasını başka bir anlatımda doğrudan Rablik iddiasına çevirir. Musa'ya kendisine gitmesi emredilen sahnede Firavun halkını toplayıp seslenir {source:79:23} ve şöyle der: {ar:فَقَالَ أَنَا۠ رَبُّكُمُ ٱلْأَعْلَىٰ, tr:fe-kâle ene rabbukumu'l-a'lâ, gloss:"Ben sizin en yüce Rabbinizim" dedi, source:79:24}. "Yetiştirdim" sözü burada "Rab benim" sözüne varır. Şükrü isteme hakkı, sahip olma hakkının bir adı olarak ortaya konmuş olur.
+
+=== INSERT ===
+paragraph: 15
+after: Yağmuru almış ama karşılığında hiçbir şey çıkarmamış bir topraktır.
+ref: 16:112
+text: Kur'an'da bu resmin bir kent örneği olarak anlatıldığı yer de vardır. Allah, güvenli ve huzurlu bir kenti örnek verir. Rızkı her yandan bol bol gelmektedir; {ar:فَكَفَرَتْ بِأَنْعُمِ ٱللَّهِ فَأَذَٰقَهَا ٱللَّهُ لِبَاسَ ٱلْجُوعِ وَٱلْخَوْفِ بِمَا كَانُوا۟ يَصْنَعُونَ, tr:fe-keferet bi-en'umi'llâhi fe-ezâkahâ'llâhu libâse'l-cû'i ve'l-havfi bimâ kânû yasne'ûn, gloss:Allah'ın nimetlerine nankörlük etti; Allah da yaptıkları yüzünden ona açlık ve korku giysisini tattırdı, source:16:112}. Gelen rızka verilen cevap nimeti inkârdır ve sonunda tattırılan açlık ile korkudur.
+
+=== INSERT ===
+paragraph: 18
+after: Rabbe karşı kesilen ip, insanların arasındaki ipleri de keser.
+ref: 89:15
+text: Fecr suresi insanı tam bu noktada yakalar. Rabbi onu denediğinde, ona ikram edip nimet verdiğinde insan {ar:فَيَقُولُ رَبِّىٓ أَكْرَمَنِ, tr:fe-yekûlu rabbî ekramen, gloss:"Rabbim bana ikram etti" der, source:89:15}. Burada insan ikramı Rabbine bağlar. Ardından gelen ayetler bu sözü bir "hayır" ile karşılar: yetime ikram edilmez, yoksulun yemeğine teşvik edilmez {source:89:17} {source:89:18}. Rabbin ikramını anan dil, ikramın aşağıya akmadığı sofrada çürür.
+
+=== INSERT ===
+paragraph: 24
+after: ateşe yürür ve ateşin başında Rabbini bulur.
+ref: 7:144
+text: Musa'ya sonraki bir sahnede Rabbi, ona verdiklerini hatırlatır ve sözü şükürle bağlar: {ar:قَالَ يَٰمُوسَىٰٓ إِنِّى ٱصْطَفَيْتُكَ عَلَى ٱلنَّاسِ بِرِسَٰلَٰتِى وَبِكَلَٰمِى فَخُذْ مَآ ءَاتَيْتُكَ وَكُن مِّنَ ٱلشَّٰكِرِينَ, tr:kâle yâ mûsâ innî'stafeytuke ale'n-nâsi bi-risâlâtî ve bi-kelâmî fe-hud mâ âteytuke ve kun mine'ş-şâkirîn, gloss:dedi ki: Ey Musa, seni elçiliklerimle ve konuşmamla insanlara üstün kıldım; sana verdiğimi al ve şükredenlerden ol, source:7:144}. Kendisine seslenilmiş ve konuşulmuş Musa'dan istenen şey şükürdür.
+
+=== INSERT ===
+paragraph: 25
+after: bir varlık, Rabbine karşı kör ve uzak duruyor.
+ref: 16:78
+text: Kur'an insana görmenin ve işitmenin nasıl verildiğini de anar: {ar:وَٱللَّهُ أَخْرَجَكُم مِّنۢ بُطُونِ أُمَّهَٰتِكُمْ لَا تَعْلَمُونَ شَيْـًۭٔا وَجَعَلَ لَكُمُ ٱلسَّمْعَ وَٱلْأَبْصَٰرَ وَٱلْأَفْـِٔدَةَ ۙ لَعَلَّكُمْ تَشْكُرُونَ, tr:va'llâhu ahrecekum min butûni ummehâtikum lâ ta'lemûne şey'â, ve ce'ale lekumu's-sem'a ve'l-ebsâra ve'l-ef'ideh, le'allekum teşkurûn, gloss:Allah sizi analarınızın karınlarından hiçbir şey bilmezken çıkardı; size kulağı, gözleri ve gönülleri verdi, belki şükredersiniz, source:16:78}. Bilmeyen insanın gören, işiten ve kavrayan kılınması, ayette şükür için konmuş bir amaç olarak anılır.
+
+=== LEDGER ===
+- added: 17:27 şeytan li-rabbihî kefûr, aynı dizilişi taşıyor
+- added: 96:6 aynı inne'l-insâne kalıbı ve istiğnâ sebebi
+- added: 96:5 insana bilmediğini öğreten Rab, yalnız adıyla anıldı
+- added: 17:83 insanın nimet alınca yanını çevirmesi, "yan" kelimesine bağlandı
+- added: 43:13 binek üzerinde rabbin nimetini anmak, 43:12 ve 43:14-15 çevresiyle
+- added: 14:7 şükürde artış, nankörlükte azap, 14:6 çevresiyle
+- added: 14:34 nimet sayılamaz, musibet sayan defterin eksikliği
+- added: 39:8 dar günde Rabbine yönelen, nimette unutan
+- added: 16:83 nimeti tanıyıp inkâr etmek, 16:81 tamamlanan nimet çevresiyle
+- added: 2:152 şükür ve nankörlüğün karşılıklı konuşu, 2:151 çevresiyle
+- added: 27:40 şükrün kendi payına döndüğü, Rabbin ganî olduğu
+- added: 31:14 Rabbe ve ana babaya şükür bir arada
+- added: 79:24 Firavun'un Rablik iddiası, 79:23 çevresiyle
+- added: 16:112 rızkı bol gelen kentin nimeti inkârı
+- added: 89:15 insan "Rabbim ikram etti" der, 89:17-18 yetim ve yoksul
+- added: 7:144 Musa'ya şükredenlerden ol denmesi
+- added: 16:78 işitme, görme, gönül verilmesi, amacı şükür
+- ignored: 55:13 febi eyyi âlâi rabbikumâ nakaratı - 6 ve 11. paragraflara yeni bir yön eklemiyor
+- ignored: 106:3-4 Beyt'in Rabbi açlıktan doyuran - 18. paragrafa bağlanan 89:15 daha yakın
+- ignored: 76:2-3 işiten, gören insan, şâkir ya da kefûr - 16:78 aynı yeri doldurdu

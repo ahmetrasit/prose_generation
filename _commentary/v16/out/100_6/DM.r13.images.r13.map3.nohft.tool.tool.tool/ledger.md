@@ -1,0 +1,16 @@
+- memory: inne plus la- double emphasis
+- memory: li- marks the object of an intensive adjective; fronted li-rabbihi
+- memory: fa'ûl pattern marks a repeated or habitual trait
+- memory: nurabbika (26:18) belongs to r-b-w, not r-b-b
+- memory: vowels rıbâbe/erıbbe for the covenant and arrow-pouch senses
+- memory: maysir arrows drawn to divide shares of a slaughtered camel
+- not written: insan B001 "named for their visibility" - no theme it could carry here
+- not written: insân al-ayn, the pupil's image (B005) - no support in this ayah's situation
+- not written: ibn insik "oneself", the close confidant (B006) - would only repeat the intimacy theme
+- not written: isti'nâs, asking leave before entering (B007) - unrelated to the ayah
+- not written: rubbâ "tight knot / favor" (B016) - a single source, would crowd the rope image
+- not written: rabb as gathering (multitude, herd) - a list without theme work
+- not written: rabb as thick residue and fresh early stage - no link to ingratitude
+- not written: echo r-b-w (rising, usury, growth) - not identity; only the Pharaoh act is used
+- not written: nekid (7:58) beside kenûd - a sound likeness, no root identity
+- not written: the pronoun of the seventh ayah (man or Lord) - belongs to the seventh ayah
