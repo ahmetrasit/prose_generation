@@ -1492,3 +1492,15 @@ carry it and restated, never as "explained before" (`recall_rule`, images descri
 already cites passages is as open to additions as one that cites none; same no-hadith rule. The audit now lists
 commands refused by the permission mode as denied, not run. Not reverted to r11 for length (user agreed): r12 is
 r11_1 plus sources; the length drop is one run and likely the sliced images.
+
+## Opus progress review and r13 (user, 2026-10-01)
+
+An Opus review (read-only) found the work circling on the ayah brief (~20 calls on 1:6, each fix growing a new tic:
+"denir" → "Araplar … derlerdi" → "Sözlük"), while the map → images → ayah architecture moves forward. Decisions
+(user): freeze the ayah brief as **r13** = r12_1 + (a) option C: an image the ayah's own words take part in is
+developed in the reading as far as the word carries it (object, work, naming usage); the scene it forms with other
+ayat's words is the surah commentary's, recalled in a sentence tied to its ayah; (b) style lines: no "sözlük"/map/
+chain talk, the surah's own words in tags, its ayat named in words; (c) "Work from the supplied evidence and your own
+knowledge" restored; (d) the writer gets only the `text` lookup, the list goes to augment; (e) the writer is built
+from the D arm plus the sliced images (no r2 map needed). Stop tuning on 1:6; validate on S100 end to end. The Luna
+thematic lists wait. packets.py map/images take --surah (surahs with v9 HFT and channel files only).

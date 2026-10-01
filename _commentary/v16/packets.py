@@ -46,6 +46,8 @@ def check_targets(target: str, kind: str) -> list[str]:
     """The list targets a call may ask for: its ayah; for the images step every ayah of the surah; for the map S<n>."""
     if kind == "images":
         return surah_ayat(int(target.lstrip("S")))
+    if kind == "lookup":
+        return []
     return [target]
 
 
@@ -84,7 +86,7 @@ def audit(d: Path, targets: list[str] | None = None) -> tuple[list[str], list[st
             bad.append(cmd)
             continue
         t = cmd[len(ALLOW) + 1:].split(" ", 1)[0]
-        if targets and t != "text" and t not in targets:
+        if targets is not None and t != "text" and t not in targets:
             bad.append(cmd)
     return bad, denied
 
@@ -92,6 +94,9 @@ def audit(d: Path, targets: list[str] | None = None) -> tuple[list[str], list[st
 def tool_line(target: str, kind: str = "ayah") -> str:
     # The instruction set lives here, in the prompt, as well as in the script's output: the permission test showed
     # the model treats instructions inside a tool result as untrusted text (out/permtest/run.log.json).
+    if kind == "lookup":  # r13: the writer reads verse text; the list is left to augment
+        return (f"To read a Quran passage's Arabic before you use it, run `{ALLOW} text <refs>` (up to 40 refs "
+                f"per call) as often as you need. No other command or tool is available.\n\n")
     if kind == "images":
         ayat = surah_ayat(int(target.lstrip("S")))
         run = (f"run this command once for each ayah of the surah ({ayat[0]} to {ayat[-1]}), each time with every "
@@ -154,8 +159,28 @@ NO_HFT_HEAD = ("channels.md and hft.md (both are earlier readers' proposals: ign
                "channels.md (an earlier reader's proposal: ignore its judgements")
 
 
-def map_packet(brief: str = "map3", hft: bool = True, tool: bool = False, tag: str = "") -> tuple[str, Path]:
-    head, secs = split((V.OUT / "s001" / "surah.r2" / "prompt.md").read_text(encoding="utf-8"))
+def surah_source(s: int) -> tuple[str, str]:
+    """(prompt text, its path) of the r2 surah call a map packet starts from: S1's saved call prompt (the S1 packets
+    stay byte-identical); any other surah's r2 surah prompt, built fresh by v16.surah_build (writes work/s<NNN>/)."""
+    if s == 1:
+        p = V.OUT / "s001" / "surah.r2" / "prompt.md"
+        return p.read_text(encoding="utf-8"), "out/s001/surah.r2/prompt.md"
+    # v16.surah_build reads every ayah's v9 HFT file and the surah's channel review (only some surahs have them)
+    ayat = surah_ayat(s)
+    need = [V.CHANNELS / f"s{s:03d}" / "reader_a_pilot.md"] + [
+        V.V9 / "input" / "v2" / f"s{s:03d}" / r.replace(":", "_") / "02_hft.md" for r in ayat]
+    lacking = [str(x) for x in need if not x.exists()]
+    if not ayat or lacking:
+        raise SystemExit(f"surah {s}: inputs missing for the surah build ({len(lacking)} files, e.g. "
+                         f"{lacking[0] if lacking else 'no ayat'})")
+    text, wd = V.surah_build(s, "r2")
+    return text, str((wd / "prompt.md").relative_to(V.HERE))
+
+
+def map_packet(brief: str = "map3", hft: bool = True, tool: bool = False, tag: str = "",
+               s: int = 1) -> tuple[str, Path]:
+    src_text, src_path = surah_source(s)
+    head, secs = split(src_text)
     body = (V.HERE / "prompts" / brief / "surah_map.md").read_text(encoding="utf-8")
     name = (brief if hft else f"{brief}.nohft") + (".tool" if tool else "") + (f".{tag}" if tag else "")
     if not hft:
@@ -170,15 +195,15 @@ def map_packet(brief: str = "map3", hft: bool = True, tool: bool = False, tag: s
     swap(secs, "surah_map.md", f"_commentary/v16/prompts/{brief}/surah_map.md" + ("" if hft else " (adapted)"),
          body)
     if tool:
-        head = head.rstrip("\n") + "\n\n" + tool_line("S1")
+        head = head.rstrip("\n") + "\n\n" + tool_line(f"S{s}")
     text = join(head, secs)
-    wd = V.WORK / "s001" / f"surah.{name}"
+    wd = V.WORK / f"s{s:03d}" / f"surah.{name}"
     wd.mkdir(parents=True, exist_ok=True)
     (wd / "prompt.md").write_text(text, encoding="utf-8")
-    json.dump({"brief": brief, "hft": hft, "tool": tool, "source_prompt": "out/s001/surah.r2/prompt.md", "prompt_sha256": sha(text),
+    json.dump({"brief": brief, "hft": hft, "tool": tool, "source_prompt": src_path, "prompt_sha256": sha(text),
                "evidence_sha256": sha("".join(b for p, b in secs if not p.endswith("surah_map.md")))},
               (wd / "packet.json").open("w"), indent=1)
-    return text, V.OUT / "s001" / f"surah.{name}"
+    return text, V.OUT / f"s{s:03d}" / f"surah.{name}"
 
 
 # images (user, 2026-09-30): one surah call turns the map into developed images (the surah commentary draft); an
@@ -206,6 +231,11 @@ IMAGES_DESC_RECALL = IMAGES_DESC_SLICED.replace(
     "carry it and restated in your own words, never as something explained or told before, and develop what this "
     "ayah's words add to it")
 assert IMAGES_DESC_RECALL != IMAGES_DESC_SLICED
+# r13 (user, 2026-10-01): the writer develops each image its ayah's words take part in; the brief says how.
+IMAGES_DESC_OWN = ("images.md (an earlier reader's commentary on the surah's images, cut to the images whose sources "
+                   "include this ayah, and the section on where images meet; a proposal, not an authority. Develop "
+                   "here each image this ayah's words take part in, as write.md says; the shared scenes are the "
+                   "surah commentary's)")
 
 
 def slice_images(text: str, ref: str) -> tuple[str, list[str]]:
@@ -228,39 +258,52 @@ def images_complete(f: Path) -> bool:
     return t.count("\n## ") >= 3 and "\n## Buluşmalar" in t
 
 
-def images_packet(map_path: Path, brief: str = "images1", tool: bool = False) -> tuple[str, Path]:
+def images_packet(map_path: Path, brief: str = "images1", tool: bool = False, s: int = 1) -> tuple[str, Path]:
     if not V.map_complete(map_path):
         raise SystemExit(f"{map_path}: incomplete map (no ## Chains or ## Ayat)")
-    _, secs = split((V.OUT / "s001" / "surah.r2" / "prompt.md").read_text(encoding="utf-8"))
+    if map_path.parent.parent.name != f"s{s:03d}":
+        raise SystemExit(f"{map_path}: not a map of surah {s}")
+    _, secs = split(surah_source(s)[0])
     text_sec = [s for s in secs if s[0].endswith("text.md")]
     if len(text_sec) != 1:
         raise SystemExit("surah.r2 prompt: expected one text.md section")
     brief_f = V.HERE / "prompts" / brief / "surah_images.md"
-    head = ("Surah: 1. Follow the brief below (surah_images.md) exactly. The evidence is text.md (the surah) and "
+    head = (f"Surah: {s}. Follow the brief below (surah_images.md) exactly. The evidence is text.md (the surah) and "
             "map.md (an earlier reader's map of the surah's image chains, with the dictionary phrases of their "
             "members, Quran passages and interactions; a proposal, not an authority) and your own knowledge of "
             "Arabic and the Quran. Return the prose and then the ledger, as surah_images.md specifies.\n\n")
     if tool:
-        head = head.rstrip("\n") + "\n\n" + tool_line("S1", "images")
+        head = head.rstrip("\n") + "\n\n" + tool_line(f"S{s}", "images")
     secs = [[V.rel(brief_f), brief_f.read_text(encoding="utf-8")], text_sec[0],
             [f"_commentary/v16/{map_path.relative_to(V.HERE)} (without ## Not carried)",
              strip_not_carried(map_path.read_text(encoding="utf-8"))]]
-    for s in secs:
-        s[1] = s[1] if s[1].endswith("\n\n") else s[1].rstrip("\n") + "\n\n"
+    for sec in secs:
+        sec[1] = sec[1] if sec[1].endswith("\n\n") else sec[1].rstrip("\n") + "\n\n"
     text = join(head, secs)
     name = f"images.{brief}.{map_path.parent.name.replace('surah.', '')}" + (".tool" if tool else "")
-    wd = V.WORK / "s001" / name
+    wd = V.WORK / f"s{s:03d}" / name
     wd.mkdir(parents=True, exist_ok=True)
     (wd / "prompt.md").write_text(text, encoding="utf-8")
     json.dump({"brief": brief, "map": str(map_path.relative_to(V.HERE)), "tool": tool, "prompt_sha256": sha(text)},
               (wd / "packet.json").open("w"), indent=1)
-    return text, V.OUT / "s001" / name
+    return text, V.OUT / f"s{s:03d}" / name
 
 
 def writer_packet(ref: str, brief: str, map_path: Path, labels: bool, tool: bool = False,
                   images: Path | None = None) -> tuple[str, Path, str]:
     name = V.sa(ref)[1]
-    head, secs = split((V.WORK / name / f"DM.{brief}" / "prompt.md").read_text(encoding="utf-8"))
+    d_base = V.BRIEFS[brief].get("base") == "D"
+    if d_base:  # r13: the dictionary arm's packet plus the images; no map section to swap (any surah)
+        if not images:
+            raise SystemExit(f"brief {brief} needs --images")
+        head, secs = split(V.build(ref, "D", brief)[0])
+        anchor = V.BASE_EVIDENCE + " and your own knowledge"
+        if head.count(anchor) != 1:
+            raise SystemExit("header: evidence line not found once")
+        head = head.replace(anchor, V.BASE_EVIDENCE + " and " + MAP_DESC + " and your own knowledge")
+        secs.append(["map.md", ""])
+    else:
+        head, secs = split((V.WORK / name / f"DM.{brief}" / "prompt.md").read_text(encoding="utf-8"))
     if images:  # the images replace the map section; the header describes them instead of the map
         if not images_complete(images) or not (images.parent / "ledger.md").exists():
             raise SystemExit(f"{images}: incomplete images (fewer than 3 sections, no ## Buluşmalar or no ledger)")
@@ -278,7 +321,9 @@ def writer_packet(ref: str, brief: str, map_path: Path, labels: bool, tool: bool
             if not any(not k.startswith("Buluşmalar") for k in kept):
                 raise SystemExit(f"{images}: no image section cites {ref} in its Kaynaklar line")
         recall = V.BRIEFS[brief].get("recall_rule", False)
-        head = head.replace(MAP_DESC, (IMAGES_DESC_RECALL if recall else IMAGES_DESC_SLICED) if sliced else IMAGES_DESC)
+        desc = (IMAGES_DESC_OWN if V.BRIEFS[brief].get("own_images") else
+                (IMAGES_DESC_RECALL if recall else IMAGES_DESC_SLICED) if sliced else IMAGES_DESC)
+        head = head.replace(MAP_DESC, desc)
         tag = images.parent.name + ("" if labels else ".nolabel") + (".tool" if tool else "")
         swap(secs, "map.md", f"_commentary/v16/{images.relative_to(V.HERE)}"
              + (f" (only the images that cite {ref}, and ## Buluşmalar)" if sliced else ""), body)
@@ -292,7 +337,7 @@ def writer_packet(ref: str, brief: str, map_path: Path, labels: bool, tool: bool
         d = [s for s in secs if s[0].endswith("01_dictionary.md")][0]
         d[0], d[1] = d[0] + " (without branch labels)", drop_labels(d[1])
     if tool:
-        head = head.rstrip("\n") + "\n\n" + tool_line(ref)
+        head = head.rstrip("\n") + "\n\n" + tool_line(ref, "lookup" if V.BRIEFS[brief].get("lookup_only") else "ayah")
     text = join(head, secs)
     wd = V.WORK / name / f"DM.{brief}.{tag}"
     wd.mkdir(parents=True, exist_ok=True)
@@ -306,20 +351,21 @@ def writer_packet(ref: str, brief: str, map_path: Path, labels: bool, tool: bool
     return text, V.OUT / name / f"DM.{brief}.{tag}", tag
 
 
-def estimate(text: str, kind: str, target: str | None, model: str = "opus") -> float:
+def estimate(text: str, kind: str, target: str | None, model: str = "opus", check: str | None = None) -> float:
     """v16's estimate, plus (with the check) the tool result written to cache and one extra cached re-read."""
     est = V.estimate(text, "surah" if kind == "images" else kind, model)  # images: a surah-sized answer
     if target:
         _, w, _ = V.MODELS[model]
-        turns = len(check_targets(target, kind)) + LOOKUPS  # each tool turn re-reads the cached prompt
-        est += tool_extra(target, kind) * w + V.est_tokens(text) * w * 0.05 * turns
+        ck = check or kind
+        turns = len(check_targets(target, ck)) + LOOKUPS  # each tool turn re-reads the cached prompt
+        est += tool_extra(target, ck) * w + V.est_tokens(text) * w * 0.05 * turns
     return est
 
 
 def call(text: str, d: Path, kind: str, row: dict, ledger: bool, tool: bool = False, model: str = "opus",
-         effort: str = "high") -> None:
-    est = estimate(text, kind, (row["ref"] if tool else None), model)
-    targets = check_targets(row["ref"], kind) if tool else None
+         effort: str = "high", check: str | None = None) -> None:
+    est = estimate(text, kind, (row["ref"] if tool else None), model, check)
+    targets = check_targets(row["ref"], check or kind) if tool else None
     if V.blocked(d):
         raise SystemExit(f"{d}: started or finished before (never rerun)")
     if est >= V.GATE_USD:
@@ -383,19 +429,22 @@ def main() -> None:
     ap.add_argument("--model", choices=("opus", "sonnet"), default="opus", help="writer only")
     ap.add_argument("--effort", choices=("low", "medium", "high", "xhigh", "max"), default="high", help="writer only")
     ap.add_argument("--images", type=Path, help="writer: an images.md (from `images`) in place of the map")
+    ap.add_argument("--surah", type=int, default=1, help="map and images: the surah (default 1)")
     ap.add_argument("--go", action="store_true")
     a = ap.parse_args()
+    if a.cmd == "writer" and a.surah != 1:
+        ap.error("--surah is for map and images; a writer's surah comes from --ayah")
     if a.cmd == "images":
         if not a.map or a.ayah:
             ap.error("images needs --map and takes no --ayah")
         if a.no_labels or a.no_hft or a.tag or a.images or a.model != "opus" or a.effort != "high":
             ap.error("images takes only --map, --brief, --tool and --go")
         mp = (V.HERE / a.map) if not a.map.is_absolute() else a.map
-        text, d = images_packet(mp, a.brief or "images1", a.tool)
+        text, d = images_packet(mp, a.brief or "images1", a.tool, a.surah)
         print(f"{d.relative_to(V.HERE)}: {len(text):,} chars; "
-              f"est ${estimate(text, 'images', 'S1' if a.tool else None):.2f} (80k out)")
+              f"est ${estimate(text, 'images', f'S{a.surah}' if a.tool else None):.2f} (80k out)")
         if a.go:
-            call(text, d, "images", {"ref": "S1", "arm": "images", "brief": d.name}, True, a.tool)
+            call(text, d, "images", {"ref": f"S{a.surah}", "arm": "images", "brief": d.name}, True, a.tool)
         return
     if a.cmd == "map" and (a.model != "opus" or a.effort != "high"):
         ap.error("--model and --effort are for writer only")
@@ -403,16 +452,17 @@ def main() -> None:
         brief = a.brief or "map3"
         if a.tag and not re.fullmatch(r"[a-z0-9_]+", a.tag):
             ap.error("--tag: lowercase letters, digits and _ only")
-        text, d = map_packet(brief, not a.no_hft, a.tool, a.tag)
+        text, d = map_packet(brief, not a.no_hft, a.tool, a.tag, a.surah)
         n_out = 130_000  # r2 map measured 121.8k output; the estimate below also shows v16's standard 80k
         _, w, o = V.MODELS["opus"]
         n_in = V.est_tokens(text)
         realistic = n_in * (1 + n_out // V.MESSAGE_CAP) * w + n_out * o
-        extra = estimate(text, "surah", "S1") - V.estimate(text, "surah") if a.tool else 0.0
+        extra = estimate(text, "surah", f"S{a.surah}") - V.estimate(text, "surah") if a.tool else 0.0
         print(f"{d.relative_to(V.HERE)}: {len(text):,} chars ~{n_in:,} tokens; est ${V.estimate(text, 'surah') + extra:.2f} "
               f"(80k out), ${realistic + extra:.2f} at {n_out // 1000}k out")
         if a.go:
-            call(text, d, "surah", {"ref": "S1", "arm": "surah", "brief": d.name.replace("surah.", "")}, False, a.tool)
+            call(text, d, "surah", {"ref": f"S{a.surah}", "arm": "surah", "brief": d.name.replace("surah.", "")}, False,
+                 a.tool)
         return
     if a.tag:
         ap.error("--tag is for map only; a writer's dir name comes from its --map dir")
@@ -421,11 +471,12 @@ def main() -> None:
                                  not a.no_labels, a.tool, images)
     if a.model != "opus" or a.effort != "high":  # the prompt is the same; only the output dir differs
         d, tag = d.with_name(f"{d.name}.{a.model}.{a.effort}"), f"{tag}.{a.model}.{a.effort}"
-    est = estimate(text, 'ayah', a.ayah if a.tool else None, a.model)
+    ck = "lookup" if V.BRIEFS[a.brief].get("lookup_only") else None
+    est = estimate(text, 'ayah', a.ayah if a.tool else None, a.model, ck)
     print(f"{d.relative_to(V.HERE)}: {len(text):,} chars; est ${est:.2f} ({V.MODELS[a.model][0]}, effort {a.effort})")
     if a.go:
         call(text, d, "ayah", {"ref": a.ayah, "arm": "DM", "brief": f"{a.brief}.{tag}"}, True, a.tool, a.model,
-             a.effort)
+             a.effort, ck)
 
 
 if __name__ == "__main__":

@@ -34,6 +34,10 @@ Briefs:
       "root letters,branch id", a Quran ayah, "hadis" or "memory"; a passage named without quoting it gets a
       source-only tag); the ayah writer reads only the images that cite its ayah, plus ## Buluşmalar; the check
       (missing.py) gives refs only, by tier, with a text lookup, and runs per ayah in the images step.
+  r13 r12_1 frozen (user, 2026-10-01, after the Opus progress review): an image the ayah's own words take part
+      in is developed in the reading as far as the word carries it, the shared scene recalled in a sentence;
+      no "sözlük"/map/chain talk; surah words in tags, its ayat named in words; the writer gets the dictionary
+      and the sliced images (no map base) and only the `text` lookup (the list is left to augment).
   r12_1 r12 with no hadith, tafsir or outside report (a passage's situation as the Quran tells it), terse ledger
       lines, and a recalled image tied to the ayah whose words carry it, never "explained before" (images too).
 
@@ -130,6 +134,11 @@ BRIEFS = {
     "r11_1": {"write": HERE / "prompts" / "r11_1" / "write.md", "add": HERE / "prompts" / "r11_1" / "additions.md",
               "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"],
               "map_from": "r2", "ledger": True},
+    # r13 (user, 2026-10-01): r12_1 frozen with the own-images rule, style lines, lookup-only check, D base.
+    "r13": {"write": HERE / "prompts" / "r13" / "write.md", "add": HERE / "prompts" / "r13" / "additions.md",
+            "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"],
+            "map_from": "r2", "ledger": True, "slice_images": True, "own_images": True, "lookup_only": True,
+            "base": "D"},
     # r12_1 (user, 2026-10-01): r12 without hadith/tafsir, terse ledger, recall rule in the images description.
     "r12_1": {"write": HERE / "prompts" / "r12_1" / "write.md", "add": HERE / "prompts" / "r12_1" / "additions.md",
               "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"],
@@ -193,6 +202,7 @@ ARM_EVIDENCE["r11"] = ARM_EVIDENCE["r2"]
 ARM_EVIDENCE["r11_1"] = ARM_EVIDENCE["r2"]
 ARM_EVIDENCE["r12"] = ARM_EVIDENCE["r2"]
 ARM_EVIDENCE["r12_1"] = ARM_EVIDENCE["r2"]
+ARM_EVIDENCE["r13"] = ARM_EVIDENCE["r2"]
 _SRC = None
 
 
