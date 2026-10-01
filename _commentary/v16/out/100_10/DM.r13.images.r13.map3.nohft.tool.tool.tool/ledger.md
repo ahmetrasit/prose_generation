@@ -1,0 +1,14 @@
+- memory: Form II hassala as causative/intensive of hasala
+- memory: bâqiyât (18:46) and baqiya share root ب ق ي
+- memory: aw'â (70:18) = to put into a container and close it
+- memory: tamhîs (3:154) = purify/refine
+- memory: hashîm = dry broken plant debris
+- memory: Turkish tahsil, mahsul, hâsılı, havsala derive from this root
+- memory: masdar named by grammarians as source of verbs (supported by B004 only)
+- not written: ح ص ل B005 unripe dates - no work in any theme
+- not written: ح ص ل B006 horse colic from eating earth - flagged anomalous; only wordplay with dust scene
+- not written: ص د ر B005 imposing payment obligation - tempting with reckoning and wealth but too loose
+- not written: ص د ر B006 portion of a thing - adds nothing
+- not written: ص د ر B001 chest garment, brand, chest-band, chest-sick man - bodily detail without work
+- not written: 40:19, 29:10, 3:119 knowledge of chests - redundant after 3:29
+- not written: 17:13-14 book opened and read - overlaps 82:5 point

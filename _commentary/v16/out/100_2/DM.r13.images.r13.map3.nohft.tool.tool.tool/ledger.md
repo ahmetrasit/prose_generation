@@ -1,0 +1,15 @@
+- memory: Turkish "kadh/kadhetmek" survives only as disparagement
+- memory: Turkish "tevriye" known only as a literary figure
+- memory: "qadhan" is a cognate-synonym absolute object (mafʿūl muṭlaq)
+- memory: how flint and steel work (spark falls on tinder)
+- memory: vocalization verat (ورت) and verreytu/uverrîhi (form II)
+- not written: و ر ي B004 fat camel/full marrow - opposite of the lean horse; did not join a theme without forcing
+- not written: و ر ي B007 grandson - no tie to the ayah's act
+- not written: و ر ي B008 al-warā (all creatures) - no theme here
+- not written: ق د ح B006 drinking cup (Turkish kadeh) - a different word; belongs to the shared table scene
+- not written: ق د ح B009 tender plant tips - no theme
+- not written: و ر ي B003 "lawaraytu ʿan mawlāka" (defending) - vowels uncertain, left out
+- not written: 7:20/7:26 covering and uncovering of shame - drifted from the ayah's fire
+- not written: 37:1-2, 77:1-2 oath pattern - the surah commentary covers it
+- not written: 16:59 hiding from people and burying in dust - would only repeat 5:31
+- not written: 2:60 Musa strikes the rock for springs - 2:72-74 already does that work

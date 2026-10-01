@@ -1,0 +1,14 @@
+- memory: inne + le- double emphasis in the three answer sentences
+- memory: li- can mean "toward/in respect of" or "because of"
+- memory: 'an in 38:32 can mean "because of" or "away from"
+- memory: hubāhib filed under ḥ-b-b as reduplicated form
+- memory: 'adw of 100:1 shares root with 'adw in the shadd definition (ع د و)
+- not written: ḥubb B007 storage jar - marked arabized Persian, a homonym, not the family
+- not written: ḥubb B008 water bubbles - no theme it could ground
+- not written: ḥubb B003 ḥabbadhā / ḥubābuka formulas - adds nothing to the ayah
+- not written: ḥubb B009 teeth, B010 small stature, B012 snake - no bearing
+- not written: khayr B006 hyena driven from burrow - too remote, kalıp only
+- not written: shadd B005 rising of the day - kalıp only, no grounding
+- not written: shidda as famine/hard times - would suggest hoarding from fear, unsupported here
+- not written: "ushdud bihi azrī" support sense - no theme it joins
+- not written: 89:19 inheritance devoured - would echo 2:180 but stretches the ayah

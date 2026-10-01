@@ -1,0 +1,11 @@
+- memory: أَثَرْنَ is form IV أثار of a hollow root; long ā drops before the consonant suffix
+- memory: the participle with al- acts like a relative clause, so a finite verb can be coordinated to it with fa
+- memory: bi- can mark time ("at/in") as well as instrument and place
+- memory: ضبح, قدح, صبح, نقع are masculine nouns, so they can be antecedents of bihî
+- not written: ث و ر B005 (çökelek), B006 (proper names), B007 (yosun) - no work in any theme
+- not written: ث و ر B001 rash and twilight senses beyond one example - twilight sense is unquoted and not tied to dawn
+- not written: ن ق ع B005 ostrich sound and boaster - add nothing to the dust and cry
+- not written: ن ق ع B009 insult - no support in the surah
+- not written: ن ق ع B003 pure cooled milk, wedding food - shared-food point already made
+- not written: ء ث ر echo branches beyond the sound warning - echo root, not identity
+- not written: 80:40 dust on faces that day - different root; link would be forced

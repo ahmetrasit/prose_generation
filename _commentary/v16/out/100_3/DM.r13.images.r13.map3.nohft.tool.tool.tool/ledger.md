@@ -1,0 +1,12 @@
+- memory: أغار على القوم = "raided the people" (Form IV, with على)
+- memory: Form IV hollow verbs (أغار/يغير/مغير) look the same whether the middle root letter is و or ي
+- memory: the raid noun غارة is also commonly placed under غ و ر in Arabic usage
+- memory: the feminine plural participle most naturally refers to horses in Arabic
+- memory: عم صباحا glossed as a morning greeting ("may your morning be well")
+- not written: غ ي ر B002 blood money (غِيَر) - would need an invented link through blood feuds after raids
+- not written: غ ي ر B004 protective jealousy over one's family - only reachable through an imagined defence of the raided camp
+- not written: ص ب ح B009 fixed time phrases (لصبح خامسة) - add nothing beyond plain "morning"
+- not written: ص ب ح B006 beauty of the face (صبيح) - no work in the raid or light themes
+- not written: غ و ر Quran uses (18:41 water sinking, with يصبح; 9:57 caves) - echo root, not identity
+- not written: 15:66 Lut's people cut off at morning - repeats 11:81 and 54:38
+- not written: 68:18 "they made no exception" and غير as an exception word - too far from the raid

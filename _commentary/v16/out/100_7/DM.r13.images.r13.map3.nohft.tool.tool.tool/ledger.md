@@ -1,0 +1,10 @@
+- memory: inne + lâm on predicate is a double emphasis that pre-empts denial
+- memory: zâlike can point back to the whole preceding statement
+- memory: pronoun may grammatically take the nearest noun (rabb) or the subject (insân)
+- memory: "teşehhüd" as the name of the prayer section where "eşhedu" is said (supported by B003; practice detail beyond it from memory)
+- not written: B007 comb honey - no grounding in the ayah's act of witnessing
+- not written: B006 birth/puberty signs - linking them to the bringing-out of graves would be forced
+- not written: B004 martyr beyond the loanword note - foreign to this ayah's sense
+- not written: imraʾa muşhid (wife whose husband is present) - vowel unsure; adds nothing beyond "presence"
+- not written: 2:204-205 man calling God to witness on his heart - 63:1 does that work more cleanly
+- not written: 17:14 self as reckoner - covered by 75:14-15

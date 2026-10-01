@@ -1,0 +1,11 @@
+- memory: lām in predicate suspends يعلم, hence إنّ with kasra after a verb of knowing
+- memory: tanwīn of يومئذٍ stands in for an omitted clause (here 100:9–10)
+- memory: vocalization ribāba (with kasra) for the arrow-bag and covenant senses
+- memory: vocalization hâbir in مكان خَبِر
+- not written: خ ب ر B004 great waterskin / generous she-camel - fit no theme without inventing how it works
+- not written: خ ب ر B005 soft plant, camel hair, camel foam - no theme
+- not written: ر ب ب B005 stepchild/stepparent who raises - adds nothing beyond B002 raising
+- not written: ر ب ب B004 rabbiyyūn great multitudes, gathering - plural "hum" link too thin
+- not written: ر ب ب B007 staying put, B009 freshness, B006 thick syrup, B012–B017 - no theme
+- not written: echo root ر ب و (22:5 "ihtazzat wa rabat", tarbiya) - echo, not identity; Turkish "terbiye" left aside
+- not written: 17:30 / 42:27 "bi-'ibādihi khabīr" - parallel to "bihim" kept out to avoid overlap with the surah commentary's stinginess scene

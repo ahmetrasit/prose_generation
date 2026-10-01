@@ -1,0 +1,12 @@
+- memory: أفلا = interrogative hamza + fa + negation; fa links back to 6–8
+- memory: يعلم's object elided; إذا not governed by خبير after إنّ
+- memory: past-tense verbs after إذا denote certain future
+- memory: ما for things/contents vs من for persons
+- memory: بعثر occurs in the Quran only at 82:4 and 100:9
+- memory: بعثر and بعث are distinct roots; resemblance is sound only
+- not written: claimed composite origin of بعثر from بعث+أثار - unsupported etymology
+- not written: ع ل م sign/banner/mountain/road-marker senses - no grounding in this ayah's act
+- not written: ع ل م split lip, deep well, falcon, male hyena - no thematic work
+- not written: ق ب ر lark bird, nose-tip/anger senses - no thematic work
+- not written: hollow decayed part of aloe wood (ق ب ر B002) - adds nothing beyond hidden-enclosure image
+- not written: 100:4 dust/overturning scene and 100:10 sifting in depth - surah commentary's shared scenes, recalled only

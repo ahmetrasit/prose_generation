@@ -1,0 +1,14 @@
+- memory: definite active participle behaves like relative clause, allowing finite-verb coordination (100:3→4)
+- memory: bi- can mark time/place or accompaniment/instrument; bihî's referent options (ṣubḥ, naqʿ, place, running)
+- memory: naqʿ and ṣubḥ are masculine, so both fit bihî
+- memory: jamʿan in 18:99 is a cognate accusative; in 100:5 it is the object
+- memory: jamʿ in 28:78 and 7:48 can mean gathered men or amassed wealth
+- memory: farīq and tafrīq share root f-r-q
+- not written: و س ط B007 (large hair tent; camel filling the vessel) - no bearing on entering a crowd
+- not written: ج م ع B003 (resolve, ijmāʿ; cf. 20:64) - could have shaded the host theme but adds nothing that 26:56 and 54:44 don't already give
+- not written: ج م ع B006, B007 (sexual union; woman dying with child) - no bearing here
+- not written: ج م ع B011 (palm of unknown stock), B013 (siding with someone) - no bearing
+- not written: ج م ع B009 (bodily wholeness) - jamīʿ shown only through 26:56, 54:44 and 36:53-type forms, not developed
+- not written: Muzdalifa called Jamʿ - indefinite jamʿan doesn't point to a named place; Mecca/Friday phrase used instead
+- not written: 2:238 middle prayer, 5:89 "awsaṭ" feeding - tangential to this ayah's themes
+- not written: link from 2:143 witnesses to 100:7 shahīd - too thin to found a theme
