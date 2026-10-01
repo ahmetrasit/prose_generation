@@ -1413,3 +1413,14 @@ tools; logged as arm `followup`; never part of a reading). Code reviewed (Sonnet
 As writer input it raises quality and halves thinking, but the writer leaves shared images to the surah level,
 silently. Open decision for the user: accept that division, or add a counterweight to the header's "recall
 briefly" line so that an image this ayah's words take part in is developed here as far as its words carry it.
+
+## Decision: complementary commentaries (user, 2026-10-01)
+
+- **Surah commentary** = the images step (`images1`): the surah's shared images (water and the well, the herd, the
+  trodden road, the balance …) and where they meet.
+- **Ayah commentary** = r11_1 fed the images (`writer --images`): it develops what its own words add and recalls a
+  shared image briefly. No revert: on 1:6 it is the strongest reading (6:71, 47:5–6, the close on 7:43), with the
+  least re-telling of surah images and half the thinking. Its known weak points (one source leak, 93% sourced) are
+  recorded, not tuned: the ayah brief is no longer pushed (user).
+- Per surah: map, then images, then the ayah readings. Long surahs (output caps, pericope-level maps/images) are an
+  open design question.
