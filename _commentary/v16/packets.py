@@ -157,17 +157,18 @@ def writer_packet(ref: str, brief: str, map_path: Path, labels: bool, tool: bool
     return text, V.OUT / name / f"DM.{brief}.{tag}", tag
 
 
-def estimate(text: str, kind: str, target: str | None) -> float:
+def estimate(text: str, kind: str, target: str | None, model: str = "opus") -> float:
     """v16's estimate, plus (with the check) the tool result written to cache and one extra cached re-read."""
-    est = V.estimate(text, kind)
+    est = V.estimate(text, kind, model)
     if target:
-        _, w, _ = V.MODELS["opus"]
+        _, w, _ = V.MODELS[model]
         est += tool_extra(target) * w + V.est_tokens(text) * w * 0.05
     return est
 
 
-def call(text: str, d: Path, kind: str, row: dict, ledger: bool, tool: bool = False) -> None:
-    est = estimate(text, kind, (row["ref"] if tool else None))
+def call(text: str, d: Path, kind: str, row: dict, ledger: bool, tool: bool = False, model: str = "opus",
+         effort: str = "high") -> None:
+    est = estimate(text, kind, (row["ref"] if tool else None), model)
     if V.blocked(d):
         raise SystemExit(f"{d}: started or finished before (never rerun)")
     if est >= V.GATE_USD:
@@ -176,8 +177,9 @@ def call(text: str, d: Path, kind: str, row: dict, ledger: bool, tool: bool = Fa
     d.mkdir(parents=True, exist_ok=True)
     (d / "prompt.md").write_text(text, encoding="utf-8")
     t0 = time.time()
-    obj = V.call_opus(text, d, allow=ALLOW if tool else None)
-    out = {**row, "model": V.MODELS["opus"][0], "seconds": round(time.time() - t0), "estimate_usd": round(est, 2),
+    obj = V.call_opus(text, d, model, allow=ALLOW if tool else None, effort=effort)
+    out = {**row, "model": V.MODELS[model][0], "effort": effort, "seconds": round(time.time() - t0),
+           "estimate_usd": round(est, 2),
            **V.usage_row(obj, text)}
     result = (obj.get("result") or "").strip()
     if result and kind == "surah":
@@ -214,8 +216,12 @@ def main() -> None:
     ap.add_argument("--no-hft", action="store_true")
     ap.add_argument("--tool", action="store_true")
     ap.add_argument("--tag", default="", help="map: suffix for a new output dir (e.g. a later version of the check)")
+    ap.add_argument("--model", choices=("opus", "sonnet"), default="opus", help="writer only")
+    ap.add_argument("--effort", choices=("low", "medium", "high", "xhigh", "max"), default="high", help="writer only")
     ap.add_argument("--go", action="store_true")
     a = ap.parse_args()
+    if a.cmd == "map" and (a.model != "opus" or a.effort != "high"):
+        ap.error("--model and --effort are for writer only")
     if a.cmd == "map":
         brief = a.brief or "map3"
         if a.tag and not re.fullmatch(r"[a-z0-9_]+", a.tag):
@@ -235,9 +241,13 @@ def main() -> None:
         ap.error("--tag is for map only; a writer's dir name comes from its --map dir")
     text, d, tag = writer_packet(a.ayah, a.brief, (V.HERE / a.map) if not a.map.is_absolute() else a.map,
                                  not a.no_labels, a.tool)
-    print(f"{d.relative_to(V.HERE)}: {len(text):,} chars; est ${estimate(text, 'ayah', a.ayah if a.tool else None):.2f}")
+    if a.model != "opus" or a.effort != "high":  # the prompt is the same; only the output dir differs
+        d, tag = d.with_name(f"{d.name}.{a.model}.{a.effort}"), f"{tag}.{a.model}.{a.effort}"
+    est = estimate(text, 'ayah', a.ayah if a.tool else None, a.model)
+    print(f"{d.relative_to(V.HERE)}: {len(text):,} chars; est ${est:.2f} ({V.MODELS[a.model][0]}, effort {a.effort})")
     if a.go:
-        call(text, d, "ayah", {"ref": a.ayah, "arm": "DM", "brief": f"{a.brief}.{tag}"}, True, a.tool)
+        call(text, d, "ayah", {"ref": a.ayah, "arm": "DM", "brief": f"{a.brief}.{tag}"}, True, a.tool, a.model,
+             a.effort)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,7 @@
+- memory: Quran wording of 16:75, 36:71-72, 26:18 and 26:22, 17:111, 4:172, 38:30, 18:95, 7:128, 12:18, 21:112, 5:2, 6:153, 36:60-61, 40:60, 40:16, 82:19, 83:6, 25:26, 19:93, 29:17, 29:56, 41:37, 3:51/19:36/43:64 (Quran text recalled, not copied from the supplied passages)
+- memory: situation of 7:128 (Moses addressing the Israelites under Pharaoh's threat) and 12:18 (Jacob and the bloodied shirt) (Quran narrative)
+- memory: the observation that 2:133 and 26:71 both use the same first-person plural verb in other mouths (Quran)
+- not written: the wild-ass herd sense of ع و ن (العانة) - it might have shown a company that keeps together, but nothing in the ayah or the surah supports that image and it would have been invented
+- not written: the echo root ع ي ن (spring water, "ماء معين") - it would have linked help to flowing water, but an echo root does not establish identity with نستعين and the link would have been mere sound
+- not written: the Fatiha-divided-between-God-and-servant hadith - it would have shown this ayah as the hinge between God's share and the servant's, but it is outside the supplied evidence and not needed for the reading above
+- not written: the lunar/solar worship chain (إلاهة, 6:77) and the Madyan well sequence (28:22-24) - they were weighed but did not bear on this ayah's own verbs enough to deserve a section

@@ -1,0 +1,23 @@
+- memory: The hadith qudsi in which God divides the prayer between Himself and His servant, with the words هذا لعبدي ولعبدي ما سأل at this ayah (Muslim, Kitab al-Salat)
+- memory: The Fatiha is recited in every rak'ah of every prayer (hadith لا صلاة لمن لم يقرأ بفاتحة الكتاب, Bukhari and Muslim)
+- memory: 48:2 belongs to the victory surah revealed after Hudaybiya, late in the Prophet's mission (sira and tafsir reports)
+- memory: The three constructions of هدى (direct second object, with إلى, with لِ), and the reading that the direct object means being taken into and along the road itself (classical grammar and tafsir discussion)
+- memory: The Prophet came out in his last illness يهادى بين رجلين (Bukhari, from Aisha)
+- memory: 28:56 was revealed about Abu Talib's death (asbab al-nuzul reports, Bukhari and Muslim)
+- memory: The bridge over Hell called al-sirat, and the description finer than a hair and sharper than a sword (hadith in Muslim; the Turkish folk phrase "kıldan ince kılıçtan keskin")
+- memory: Some canonical readers read السراط with sin (Qunbul from Ibn Kathir, Ruways from Ya'qub), and Hamza's line reads the sad with a z-like sound (ishmam) (qira'at literature)
+- memory: Sirat is never pluralised in the Quran while sabil has the plural subul (Quranic concordance)
+- memory: The Prophet drew a straight line with short lines on either side and recited 6:153 (hadith of Ibn Mas'ud, Ahmad and Nasa'i)
+- memory: 6:83-86 names eighteen prophets before 6:87 and 6:90 (Quran count)
+- memory: Context of 7:17 (Iblis approaching from front, behind, right and left), 15:39-40 (Iblis vowing to mislead all but sincere servants), 36:60 (covenant not to serve Satan), 38:21 (the litigants climbing the wall of David's chamber), 83:1-5 (those who give short measure), 2:142 (the change of qibla), 3:100 (warning against being turned back) (Quran)
+- memory: The two readings of علي in 15:41, "leading to Me" and "whose keeping is upon Me" (tafsir)
+- memory: انقاد as being led by the rope (ق و د), and the forelock as the place an animal is held and steered (general Arabic usage)
+- not written: ق و م B001 (qawm, a man's company) as an echo of the "us" walking the road - it would have made the road's company audible in the adjective itself, but it is a pun across unrelated senses and the company theme already rests on 1:7, 4:69 and هدى هدي فلان
+- not written: ص ر ط B003 السراط السيف القاطع الماضي في الضريبة - a sword that cuts on through the blow would have added "going on without stopping", but it is thin, tied to the sin form, and pulls toward the Turkish bridge image the reading had to set aside
+- not written: م ل ك B006 الزم ملك الطريق أي وسطه (keep to the middle of the road) from 1:4 - it would have reinforced the middle-of-the-road theme, but 38:22 سواء الصراط and 28:22 سواء السبيل carry that theme in the Quran's own words, so a second-root echo added nothing
+- not written: ع ب د B010 العباديد (groups going off in every direction) and ن ع م B008 شالت نعامتهم as the scattering opposite of the one road - 6:153 already stages scattering directly, and these echo roots would only have decorated it
+- not written: ه د ي B003 هوادي الخيل / هوادي الوحش (necks of horses, leaders of wild herds) and the herd chain - it would have tied leading by the forelock (11:56) to a herd, but the staff and guide images already carry "going ahead", and the herd scene belongs to 1:7's stray
+- not written: ق و م B012 the well pulley, B016 قامت دابته (the mount stopping dead), and the well-head chain - these show the root's "stand still" side; they could not join a theme about a road that runs on without forcing a paradox
+- not written: The form-X echo between نستعين and المستقيم - the same pattern seeks in one word and settles in the other, but a shared pattern is not a shared meaning, and the leaning image already joins the two ayat with real lexical support
+- not written: Tafsir identification of the two groups in 1:7 (hadith of 'Adi ibn Hatim) - it belongs to 1:7, and the balance theme needed only that there are two departures
+- not written: 36:66, 23:74, 90:10, 13:7, 29:69, 20:123, 2:38, 87:3, 16:121, 22:24, 34:6, 14:1, 30:43, 3:2 and other listed passages - they repeat what the chosen passages already ground (showing the way, the guide per people, veering from the road, the upright religion, al-Qayyum) without changing any theme

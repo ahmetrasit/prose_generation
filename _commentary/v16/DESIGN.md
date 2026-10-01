@@ -1337,3 +1337,54 @@ $1.13 (est. $1.37), 3,003 words, 7 sections. Map: `surah.map3.nohft.tool`. The S
 - **Scorecard against r10.** "Aile" openings 10 → 0. "denir" 9 → 32: the brief's "… denir" turned into the new
   tic. "X için … denir" runs line up senses (the balance section), and once it is wrongly used for a Quran quote
   (41:17). Paragraphs with 3+ tags 11/29 → 13/25.
+
+## Sonnet 5.5 trials, r11 and r11_1 (2026-09-30, user-approved)
+
+**Runner.** `packets.py writer --model sonnet --effort <level>` (Sonnet 5.5, $4/M cache write, $10/M output); a
+non-default model or effort writes to `<dir>.<model>.<effort>/` on the same prompt. `call_opus` takes `effort`.
+Reviewed (Sonnet).
+
+| run (same prompt as the Opus r10_1 run on that ayah) | cost (est.) | time | words | refs outside S1 | result |
+|---|---|---|---:|---:|---|
+| 1:5 Sonnet high | $0.40 ($0.67) | 154 s | 1,698 | 26 | ok |
+| 1:5 Sonnet max | **$3.23** ($0.67) | 2,041 s | 0 | – | **failed**: 4 turns of thinking only, each cut at the CLI's 64k cap for Sonnet (although `CLAUDE_CODE_MAX_OUTPUT_TOKENS=128000`), then "API Error: … exceeded the 64000 output token maximum". Never called the check. Thinking is encrypted (signature only), so its content cannot be read. Not rerun. |
+| 1:6 Sonnet high | $0.42 ($0.68) | 161 s | 1,717 | 15 | ok |
+
+**Sonnet high against Opus.** Cheaper (a third) and fast, accurate on sources (96–100% tagged), sometimes a sharper
+join: 2:133 / 26:71 (na'budu in other mouths) on 1:5; on 1:6 the Madyan well, 28:22 → 28:24 ("İstenen şey bir
+yöndü, verilen şey su ve gölge oldu"), the road–water join no Opus run made, and hady as the inviolable refugee.
+But half the depth, first-person hedging against the brief (about six times on 1:6), and more slips (dīn read as a
+branch of ع ب د; 1:4 said to name qiyāma; garbled sentences). Not a replacement writer; possibly a cheap discovery
+pass. Max effort is unusable as is.
+
+**The check runs early, not at the end.** Thinking before / after the missing.py call: Opus r10 6.4k / 10.4k, Opus
+r10_1 4.8k / 11.9k, Sonnet 1:6 0.2k / 8.9k, Sonnet 1:5 1.6k / 7.9k. The list feeds discovery instead of checking it.
+A two-step runner (draft, then the list, one revision) would fix this; the user kept the tool as is for now.
+
+**Correction.** `surah.map3.nohft.tool/map.md` does carry "Trodden road / Well-head: 28:22–24" in `## Interactions`
+(the note above was about map3.nohft). The road–water gap is the writer's, not the map's.
+
+**r11** (`prompts/r11/`): r10_1 with four edits: no "do not use tools" (it contradicted the header's check line);
+usage "in varied wording" instead of the "… denir" example; "a scene where two such chains meet" can found a theme;
+the ledger says why an omission "could not found, reshape or join a theme".
+
+**r11 on 1:6, Opus high, with the whole S1 dictionary** (`--surah-dict`, user's choice; the header said the other
+roots serve only resonances within the focus ayah): $1.86 (est. $1.67), 503 s, 3,071 words, 37 refs, 97% sourced.
+- New: 4:68–69 (the Quran's own 1:6 → 1:7 order, "rafīqā"), 2:142 (istiqāma is not a compass direction), 25:63,
+  83:1–6 with the scale, 93:7, 6:87 / 6:90, 3:101, 32:10. Ends on a synthesis, not a recap. Ledger reasons are real.
+- The surah dictionary was read (the ledger declines «الزم ملك الطريق أي وسطه», «شالت نعامتهم», العباديد) but no
+  prose quote came from it: every other-root phrase used was already in the map.
+- Still no water, well or herd: it uses 28:22 and stops before the well.
+- "denir" 32 → 11, but "Araplar … derlerdi" 16; "Tanrı" 9 times; the hadith qudsi's speaker confused; 83:1 cited for
+  83:4–5.
+- **`--surah-dict` was removed again** (user): +64% cost, nothing in the prose.
+
+**r11_1** (`prompts/r11_1/`, 688 words; built for 1:5 and 1:6, not run): r11 plus "varying the grammar so that no
+formula recurs" and "give its actual speaker …; cite a Quran passage by the exact ayah that holds those words, and
+put a hadith's source in the ledger". Sonnet review: ready.
+
+**The map's water chain** is clear as an inventory (scene line, eight members, the naʿāma–qāma join, 28:22–24, two
+interaction lines) but hard to turn into prose: it gives no payoff, does not explain the pulley by its work, keeps
+the road link in one interaction line, places the chain at 1:1 ("Scene as at 1:1"), and carries a doubtful ayn
+phrase. A map4 brief could add, per chain, what it makes perceptible through its operation and its road link,
+without verdicts. Not built.

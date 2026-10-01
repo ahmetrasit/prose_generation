@@ -25,6 +25,11 @@ Briefs:
   r10_1 r10 with the adversarial review's three replacements (REVIEW_r7_r10.md): judge senses by their work, not
       their branch; chains another ayah completes can found a theme, earlier chains recalled briefly; usage
       reported as "… denir", the family never a speaker; ledger states what an omission would have shown.
+  r11 r10_1 with four edits (user, 2026-09-30): no "do not use tools" (the check is allowed by the packet header);
+      usage in varied wording instead of the "… denir" example; a scene where two chains meet can found a theme;
+      the ledger says why an omission could not found, reshape or join a theme.
+  r11_1 r11 with two fixes after its 1:6 run: no recurring attribution formula ("… denir", "Araplar … derlerdi");
+      a Quran passage or hadith gets its actual speaker and the exact ayah that holds the cited words.
 
 Arms (the assembled-findings slot):
   H   the ayah's HFT records (v9/input/v2/…/02_hft.md) and the surah channel review's subchannels anchored in the
@@ -110,6 +115,14 @@ BRIEFS = {
     "r10_1": {"write": HERE / "prompts" / "r10_1" / "write.md", "add": HERE / "prompts" / "r10_1" / "additions.md",
               "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"],
               "map_from": "r2", "ledger": True},
+    # r11 (user, 2026-09-30): r10_1 with four minimal edits after the r10_1 1:6 read against the North Star.
+    "r11": {"write": HERE / "prompts" / "r11" / "write.md", "add": HERE / "prompts" / "r11" / "additions.md",
+            "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"],
+            "map_from": "r2", "ledger": True},
+    # r11_1 (user, 2026-09-30): r11 plus the attribution-formula and speaker/ayah fixes.
+    "r11_1": {"write": HERE / "prompts" / "r11_1" / "write.md", "add": HERE / "prompts" / "r11_1" / "additions.md",
+              "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"],
+              "map_from": "r2", "ledger": True},
     # r10 (user, 2026-09-30): theme-first rewrite after r9 slid back toward a catalogue.
     "r10": {"write": HERE / "prompts" / "r10" / "write.md", "add": HERE / "prompts" / "r10" / "additions.md",
             "surah": HERE / "prompts" / "r2" / "surah_map.md", "arms": ["H", "V", "D", "DM"],
@@ -121,7 +134,8 @@ BRIEFS = {
 }
 LEDGER_MARK = "=== LEDGER ==="
 # model key -> (model id, cache-write $/token (1h = 2x input), output $/token); opus is the default and has no suffix
-MODELS = {"opus": ("claude-opus-5-5", 8e-6, 20e-6), "fable": ("claude-fable-5-1", 20e-6, 50e-6), "solmax": ("gpt-6-sol", 0.0, 0.0)}
+MODELS = {"opus": ("claude-opus-5-5", 8e-6, 20e-6), "fable": ("claude-fable-5-1", 20e-6, 50e-6),
+          "sonnet": ("claude-sonnet-5-5", 4e-6, 10e-6), "solmax": ("gpt-6-sol", 0.0, 0.0)}
 R1_V16_DICT = {"D", "VD", "DM"}
 V5_RUN = {1: "s001-fresh-20260910", 100: "s100-regular-20260911"}
 LANES = ["micro", "macro", "global"]
@@ -159,6 +173,8 @@ ARM_EVIDENCE["r8"] = ARM_EVIDENCE["r2"]
 ARM_EVIDENCE["r9"] = ARM_EVIDENCE["r2"]
 ARM_EVIDENCE["r10"] = ARM_EVIDENCE["r2"]
 ARM_EVIDENCE["r10_1"] = ARM_EVIDENCE["r2"]
+ARM_EVIDENCE["r11"] = ARM_EVIDENCE["r2"]
+ARM_EVIDENCE["r11_1"] = ARM_EVIDENCE["r2"]
 _SRC = None
 
 
@@ -448,7 +464,7 @@ def call_solmax(text: str, d: Path) -> dict:
     (d / "run.log.json").write_text(json.dumps(obj, ensure_ascii=False) + "\n", encoding="utf-8")
     return obj
 
-def call_opus(text: str, d: Path, model: str = "opus", allow: str | None = None) -> dict:
+def call_opus(text: str, d: Path, model: str = "opus", allow: str | None = None, effort: str = "high") -> dict:
     """One Opus call. stream-json keeps every assistant message: a long answer that the CLI splits over several
     turns is joined back in order (`--output-format json` returns only the last message; the first S1 surah call
     lost two thirds of its map that way). The raw event stream is kept in run.stream.jsonl. If the stream ends
@@ -459,7 +475,7 @@ def call_opus(text: str, d: Path, model: str = "opus", allow: str | None = None)
     # allow: one Bash command prefix the model may run (the end-of-discovery check, missing.py); every other
     # command is refused by --permission-mode dontAsk, and no other tool exists.
     tools = ["--tools", "Bash", "--allowedTools", f"Bash({allow} *)"] if allow else ["--tools", ""]
-    cmd = ["claude", "-p", "--model", MODELS[model][0], "--effort", "high", *tools,
+    cmd = ["claude", "-p", "--model", MODELS[model][0], "--effort", effort, *tools,
            "--output-format", "stream-json", "--verbose", "--no-session-persistence", "--safe-mode",
            "--permission-mode", "dontAsk", "--system-prompt", SYSTEM]
     env = {**os.environ, "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "128000"}
