@@ -108,10 +108,10 @@ NO_HFT_HEAD = ("channels.md and hft.md (both are earlier readers' proposals: ign
                "channels.md (an earlier reader's proposal: ignore its judgements")
 
 
-def map_packet(brief: str = "map3", hft: bool = True, tool: bool = False) -> tuple[str, Path]:
+def map_packet(brief: str = "map3", hft: bool = True, tool: bool = False, tag: str = "") -> tuple[str, Path]:
     head, secs = split((V.OUT / "s001" / "surah.r2" / "prompt.md").read_text(encoding="utf-8"))
     body = (V.HERE / "prompts" / brief / "surah_map.md").read_text(encoding="utf-8")
-    name = (brief if hft else f"{brief}.nohft") + (".tool" if tool else "")
+    name = (brief if hft else f"{brief}.nohft") + (".tool" if tool else "") + (f".{tag}" if tag else "")
     if not hft:
         for a, b in NO_HFT:
             if body.count(a) != 1:
@@ -208,11 +208,14 @@ def main() -> None:
     ap.add_argument("--no-labels", action="store_true")
     ap.add_argument("--no-hft", action="store_true")
     ap.add_argument("--tool", action="store_true")
+    ap.add_argument("--tag", default="", help="map: suffix for a new output dir (e.g. a later version of the check)")
     ap.add_argument("--go", action="store_true")
     a = ap.parse_args()
     if a.cmd == "map":
         brief = a.brief or "map3"
-        text, d = map_packet(brief, not a.no_hft, a.tool)
+        if a.tag and not re.fullmatch(r"[a-z0-9_]+", a.tag):
+            ap.error("--tag: lowercase letters, digits and _ only")
+        text, d = map_packet(brief, not a.no_hft, a.tool, a.tag)
         n_out = 130_000  # r2 map measured 121.8k output; the estimate below also shows v16's standard 80k
         _, w, o = V.MODELS["opus"]
         n_in = V.est_tokens(text)
