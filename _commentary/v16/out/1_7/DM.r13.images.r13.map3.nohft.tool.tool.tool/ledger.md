@@ -1,0 +1,17 @@
+- memory: ṣirāṭa in 1:7 as badal of al-ṣirāṭ in 1:6
+- memory: ghayri genitive, attached to alladhīna (descriptive)
+- memory: lā after ghayr renews negation, separates the two groups
+- memory: rafīq connoting travel companion ("yol arkadaşı")
+- memory: vocalization nuʿāmā for النعامى
+- memory: vocalizations ghaḍba / ghaḍb for rock, hide, red man
+- memory: vocalization tanaʿʿamtu, naʿʿama (children)
+- memory: literal sense of شالت as "rose/lifted"
+- memory: sirṭirāṭ vowels inferred from stated fiʿlāl pattern
+- memory: pulley (qāma) hanging from the beam, recalled from 1:6's root
+- not written: naʿam "yes" as opposite of lā (B004) - wordplay with the ayah's lā, no theme it could ground
+- not written: ghaḍiba li / ghaḍiba bi for living/dead (B002) - no bearing on the ayah
+- not written: mughāḍib / Dhū'l-Nūn going off angry (B003, 21:87) - the anger is his own; swallowing link to ṣ-r-ṭ only an analogy
+- not written: sirṭim, the wide-throated (B002) - vocalization uncertain, adds nothing to the swallowing image
+- not written: hearts hardened like stones (2:74) - different root; only an analogy for the rock image
+- not written: ostrich as a species (B006 beyond feather softness) - no work in any theme
+- not written: Iblis lying in wait on the path (7:16) - belongs to the 1:6 road scene, not this ayah's words

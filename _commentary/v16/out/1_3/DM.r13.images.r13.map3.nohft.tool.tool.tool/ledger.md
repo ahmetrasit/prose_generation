@@ -1,0 +1,11 @@
+- memory: fa'lān pattern conveys a full, overflowing state (as in ʿaṭshān, ghaḍbān)
+- memory: faʿīl pattern conveys a settled, lasting quality
+- memory: raḥmān is never used of a human in the Quran (not checked across the whole text)
+- memory: Turkish rahmet = rain, rahmetli = the deceased, merhamet narrowed to pity
+- not written: ewe not expelling afterbirth (B004) - only named, adds nothing beyond rahūm
+- not written: tarahhum, asking God's mercy for someone (B001) - no theme needed it
+- not written: 17:24 rabb/raḥma/upbringing scene - belongs to surah commentary; recalled only through 1:2
+- not written: 55:1-4 Rahmān as teacher - teaching thread is 1:2's rabb, not this ayah
+- not written: Maryam surah frequency of al-Raḥmān - count unverified
+- not written: 30:21 mawadda wa raḥma between spouses - kinship already grounded by 4:1, 47:22
+- not written: 39:53 despair of mercy - did not reshape any theme

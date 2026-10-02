@@ -1,0 +1,16 @@
+- memory: ṣirāṭ never occurs in plural in the Quran
+- memory: Turkish "sırat" mostly known as the afterlife bridge
+- memory: Turkish "hidayet" narrowed to conversion/becoming pious
+- memory: Turkish "istikamet" = direction, "müstakim" = honest
+- memory: istafʿala of qāma read as uprightness becoming a lasting state
+- not written: ق و م B013 qiyāma day - root link only; fourth ayah's scene belongs to surah commentary
+- not written: ق و م B004 qayyim/qayyūm, household keeper - root echo, no work in this ayah's request
+- not written: ق و م B001 qawm (kin group) - does not shape the road theme beyond 1:7's "those"
+- not written: ق و م B007, B010 substitution/price - the trade scene is the surah commentary's, weak here
+- not written: ق و م B011, B014, B018-B021 - no bearing on straightness or road
+- not written: ه د ي B009 dull weak man - adds nothing beyond B008
+- not written: ه د ي B011 presenting praise/satire poems - no work in the theme
+- not written: ه د د echo root - echo, not identity
+- not written: well beam/pulley scene with نعامة - belongs to 1:7 and the surah commentary; pulley only used here
+- not written: images.md womb/upbringing via قوام أهل بيته - too thin for this ayah
+- not written: 2:143 "middle community" - shares no word with the balance theme; would have diluted it

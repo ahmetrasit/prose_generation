@@ -1,0 +1,16 @@
+- memory: verbless nominal sentence expresses a settled state, not an act
+- memory: lām in لِلَّهِ marks belonging/entitlement
+- memory: ʿālamūn/ʿālamīn takes the sound plural ending normally used for rational beings
+- memory: رَبَّيَانِى belongs to the neighbouring root ر ب و, not ر ب ب
+- memory: رُكَام (24:43) is from a different root than رباب
+- memory: ancient Arabs cast lots with marked arrows (gloss of B010 context)
+- not written: و ل ه alternative derivation of the divine name - contested origin; would compete with the identity root rather than sit beside it
+- not written: ر ب ب B006 thick fruit syrup / ghee residue - no theme it could ground or join
+- not written: ر ب ب B015 particle rubba - attested as having no derivation; no image
+- not written: ر ب ب B017 ship captain - single attestation; joins no theme
+- not written: ر ب ب B016 need, firm knot - knot could join "gathering" but too thin; only favour sense used
+- not written: ر ب ب B009 first youth / freshness - weaker than the milk-ewe image already used
+- not written: ح م د B003 maḥmūd/muḥammad, B006 praising "with you" - no theme needed them beyond hamd as verdict
+- not written: ع ل م B004 harelip, B006 falcon, B007 male hyena - no bearing on the ayah's themes
+- not written: echo root ر ب و (increase, hill) - withheld; used only to keep rabbayānī distinct
+- not written: 16:75 parable ending in al-ḥamdu lillāh - belongs to the owner/servant scene of the surah commentary

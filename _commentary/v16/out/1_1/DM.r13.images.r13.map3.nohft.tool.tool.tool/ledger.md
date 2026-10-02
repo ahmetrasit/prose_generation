@@ -1,0 +1,11 @@
+- memory: "bi" carries both accompaniment and instrument senses
+- memory: fa'lân pattern (rahmân, ghadbân) denotes a full, overflowing state; fa'îl a lasting quality directed at someone
+- memory: plural asmâ' fits the s-m-w root rather than w-s-m
+- memory: rahmân is used in the Quran for God alone
+- memory: the w-s-m derivation of ism was proposed by some grammarians (per dictionary note, unnamed in prose)
+- not written: س م و B003 stallion leaping into the she-camels - no bearing on the name or the opening act
+- not written: س م و B006 going out to hunt / hunters - only a pun beside 5:4's naming over the catch, no supported theme
+- not written: و س م B005 beauty, B006 dye plant - add nothing to the mark or the name
+- not written: و ل ه B003 water lost in the desert - irrelevant even to the proposed derivation
+- not written: Musa's mother separated from her child (28:7-13) as a tawlîh scene - it hangs on a minority derivation; the terbiye scene belongs to the second ayah
+- not written: ر ح م B004 other forms (sheep with a swollen womb) - the rahûm she-camel already covers the image

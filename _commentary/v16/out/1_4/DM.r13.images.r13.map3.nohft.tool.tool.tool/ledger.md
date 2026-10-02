@@ -1,0 +1,14 @@
+- memory: some canonical readings read the word as "melik" (without long â)
+- memory: the vocalization "milk" for the road's middle; the sources give several vocalizations
+- memory: "el-mülk" vocalization in الملك لله المالك المليك
+- memory: "awrada" means leading herds down to water, and "wird" is the watering place (11:98)
+- memory: "kâna + imperfect" (kuntum ta'malûn) expresses continuous or habitual past action
+- memory: "dîn" is read with kasra and "deyn" with fatha; the Quran text confirms only the fatha of deyn
+- not written: malak/angel (B009) - the source derives it from alûk, so it is an echo, not this word's family
+- not written: madîna/city (B006) - its place in this root is itself disputed, and it adds nothing to the day
+- not written: "miyâhunâ mulûkunâ" - its vocalization and exact sense are uncertain
+- not written: "yâ dîna qalbika" (B004/B005) - the source marks it as disputed
+- not written: sha'n in 80:37 and the gloss العادة والشأن - a shared word only, not the same root or sense
+- not written: "yumlil" in 2:282 - root m-l-l, not m-l-k
+- not written: making someone king (B003 ملك القوم فلانا) - no work in this ayah's themes
+- not written: the stray phrase "Üç yüz kırk dokuzuncu değil" in section one is an editing slip and should be deleted

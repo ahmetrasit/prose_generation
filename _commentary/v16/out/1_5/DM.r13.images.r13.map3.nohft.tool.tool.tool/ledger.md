@@ -1,0 +1,17 @@
+- memory: iyyâ is a rootless support for a detached pronoun
+- memory: fronting the object pronoun restricts (yalnız sen)
+- memory: unfronted form would be na'buduka
+- memory: imperfect na'budu/nasta'în covers present and continuing
+- memory: zahîr derives from zahr, the back
+- memory: tar was smeared on camels' skin as care
+- memory: pitch caulks ship seams against water
+- memory: dhululan in 16:69 can qualify paths or the bee
+- memory: Turkish iane narrowed to donation; muavin to assistant
+- not written: ع ب د B008 indignation/pride - no ayah-supported tie to this address
+- not written: ع ب د B009 not delaying - fixed phrase, no thematic work
+- not written: ع ب د B012 perfume-grinding stone - no bridge to the ayah
+- not written: ع و ن B002–B005 middle age, recurring war, old palm, bodily balance - no textual bridge to seeking help
+- not written: ع و ن B007 pubic hair, B008 place name 'Âna - irrelevant to the ayah
+- not written: echo root ع ي ن (eye, spring) - sound only, not identity
+- not written: 10:28 partners disowning worship - 34:40-41 already does this work
+- not written: 25:55 disbeliever as backer against his Lord - 28:17 carried the point
