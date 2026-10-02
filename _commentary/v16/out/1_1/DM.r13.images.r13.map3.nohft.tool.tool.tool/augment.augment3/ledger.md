@@ -1,0 +1,6 @@
+- added: 87:15 adın önce anılıp namazın ardından gelmesi, ¶2'nin "ad önde, iş sonra" hareketine tanık
+- added: 21:32 göğün "korunmuş tavan" oluşu, ¶8'deki evin tavanı görüntüsüne Kur'an'ın kendi cümlesi
+- added: 20:14 Allah'ın kendi ağzından adı söyleyip hemen kulluğu emretmesi, ¶15'te ad ile kulluk bağı
+- ignored: 47:30 işaretle tanınma (sîmâ) - kökünü kesin söyleyemem, ¶14'e yalnız görüntü olarak girerdi
+- ignored: 13:2 göklerin direksiz yükseltilmesi - yükseltme fiili ad kökünden değil, ¶6-7'ye bir şey eklemez
+- ignored: 27:24 güneşe secde eden kavim - ¶18'in kendi payı zaten bütün sureye bırakılmış

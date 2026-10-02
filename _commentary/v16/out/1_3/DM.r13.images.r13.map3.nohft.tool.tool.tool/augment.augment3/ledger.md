@@ -1,0 +1,2 @@
+- added: 19:95 everyone comes to Rahmân alone on the day, named by source only to frame 19:96
+- ignored: 48:29 "ruhamâu beynehum" among believers - 49:10 already carries the believers' bond in ¶9, and the quoted words were not needed beyond that

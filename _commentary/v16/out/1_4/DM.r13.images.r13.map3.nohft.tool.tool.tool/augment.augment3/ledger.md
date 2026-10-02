@@ -1,0 +1,7 @@
+- added: 22:47 bir günün Rabbin katında saydığınızdan bin yıl gibi oluşu - ¶5'teki ölçü kaymasını azabı acele isteyenlere verilen cevapla tamamlıyor
+- added: 28:41 Firavun ve adamları ateşe çağıran önderler - ¶14'teki "çağırıcı" ile Firavun'un öncülüğünü karşılaştırıyor
+- added: 82:11 değerli yazıcılar - ¶18'deki kaydı, onu tutanları anarak tamamlıyor
+- ignored: 32:5 bin yıllık gün - 22:47 aynı kaymayı daha açık gösteriyor
+- ignored: 17:71 herkesin imamıyla çağrılışı - ¶14'ün çağırıcı sahnesini başka bir yöne çeker
+- ignored: 34:30 vadenin ne bir saat geri ne ileri oluşu - 77:12 ile aynı yerde duruyor, yeni bir şey katmıyor
+- ignored: 2:255 şefaatin izne bağlı oluşu - ¶24'te 20:109 ve 78:38 bunu zaten söylüyor

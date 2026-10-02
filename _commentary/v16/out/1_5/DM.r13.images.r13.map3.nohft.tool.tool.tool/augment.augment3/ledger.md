@@ -1,0 +1,6 @@
+- added: 19:30 Îsâ'nın beşikte "ben Allah'ın kuluyum" demesi - 19:36 eklemesine bağlandı, aynı cümleyi söyleyen kişinin kendi kulluğunu da söylediğini gösterir
+- added: 20:12 Musa'ya "Ben Rabbinim" diye seslenilmesi - 20:14 eklemesinde "ene"nin ardından kulluk çağrısının geldiği sırayı kurar
+- added: 36:20 şehrin ucundan koşan adam - 36:22 eklemesinde konuşanı tanıtır
+- added: 6:161 Peygamber'in dosdoğru yola iletildiğini söylemesi - 6:162'nin konuşanını ve sırat bağını verir
+- ignored: 51:57 Allah'ın rızık ve yedirme istemediği - ¶19'da 17:111 aynı noktayı zaten taşıyor, ¶9'a bağlanması zorlama olurdu
+- ignored: 4:171 kitap ehline "üç demeyin" hitabı - 4:172 eklemesinin durumunu anlatmaya yetecek, ayrıca alıntıya gerek yok

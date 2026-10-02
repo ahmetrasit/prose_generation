@@ -1,0 +1,5 @@
+- added: 17:44 everything glorifies with hamd, said before the reciter speaks
+- added: 53:39-41 effort, its being seen, full recompense, context for 53:42
+- added: 93:1-2, 93:6-8 oath by light and night; orphan, lost, poor, context for 93:3 and 93:11
+- added: 26:97 hell confession of manifest error, context for 26:98
+- ignored: 113:1 refuge with the Lord of the daybreak - no paragraph it would shift

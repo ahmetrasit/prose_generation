@@ -1,0 +1,1 @@
+- ignored: 26:86 İbrahim babasını "dâllîn"den sayıp bağışlanma diler - ¶27'nin 6:77 ve 26:20 ile kurduğu hareketi değiştirmez

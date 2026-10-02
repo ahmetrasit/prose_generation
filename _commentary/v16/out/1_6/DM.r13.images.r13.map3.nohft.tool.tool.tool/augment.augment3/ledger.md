@@ -1,0 +1,3 @@
+- added: 15:42 Allah'ın İblis'e cevabının devamı, kullar üzerinde yetkisizlik - 15:41'in sahnesini tamamlıyor
+- ignored: 4:69 nimet verilmiş olanlarla birlikte olmak - yedinci ayetin konusu; ayetlerin bu paragraflarda yeri yok
+- ignored: 7:17 İblis'in dört yönden gelişi - 7:16'daki pusu zaten anılmış, terazi anlatısına bir şey katmıyor
