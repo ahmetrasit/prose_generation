@@ -1522,4 +1522,4 @@ all sources verified.
 **S1 with r13** (user, 2026-10-01): images $3.92 (14,105 words, 413 tags all verified, no untagged Arabic, no bare
 refs, no process talk: the r12_1 style faults are gone); readings 1:1–1:7 $10.72 (one wrong branch in 1:2; "denir"
 3–17); augment3: a first attempt hit the session limit at $0 (kept as augment.augment3.session-limit-0usd), the
-repair run completed.
+repair run follows.
