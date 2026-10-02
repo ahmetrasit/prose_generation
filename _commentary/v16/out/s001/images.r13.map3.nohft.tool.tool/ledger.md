@@ -1,0 +1,11 @@
+- not developed: و ل ه members of ٱللَّهِ (road, womb, herd, well, passing) - alternative derivation, root identity not established
+- not developed: hadith items in womb, herd and leaning chains - outside the Quran
+- not developed: ن ع م B012 walking on soles - too remote
+- not developed: ع و ن B005 strength matching age - adds nothing
+- not developed: ق و م B012 ayn reading of qāma - recorded as wrong
+- not developed: Debt and scale chain - merged into Day of reckoning
+- not developed: Well-head chain - merged into Rain as water
+- memory: dīn (kasra) vs dayn (fatha) are distinct words of one root
+- memory: maghḍūb is a passive participle naming no agent; anʿamta names "you" as agent
+- memory: fronted iyyāka marks exclusivity ("only you")
+- memory: qāma also means "stopped dead" (beast), as well as "stood up"
