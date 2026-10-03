@@ -1,0 +1,41 @@
+{
+  "id": "MEAL-IBNKESIR-ANON",
+  "title": "Meal printed in a Turkish edition of İbn Kesîr's tafsir (translator not named)",
+  "author": "anonymous",
+  "translator": "anonymous",
+  "death_ah": null,
+  "kind": "meal",
+  "tradition": "",
+  "language": "tr",
+  "edition": "as published by acikkuran.com \"İbni Kesir\"",
+  "access": "yerel",
+  "locator": "ayah",
+  "coverage": "1-8,22,87-114 + partial 9 (1704/6236 ayat)",
+  "urls": [
+    "https://acikkuran.com/{slug}/{a}-ayet-meali.md  (section \"### İbni Kesir\")",
+    "https://mealler.org/SureveAyetler.aspx?sureid={sss}&ayet={aaa}  (row \"İbni Kesir\")",
+    "https://cdn.jsdelivr.net/gh/fawazahmed0/quran-api@1/editions/tur-ibnikesir.json"
+  ],
+  "fetched_at": "2026-10-03",
+  "files": {
+    "raw/fawaz_tur-ibnikesir.json": "305f4474bcba4a8317ec88c94f706cd7e434248f772f62b4fa37d3ab1da1e625"
+  },
+  "lineage": null,
+  "relay": null,
+  "licence": "acikkuran.com: CC BY-NC-SA 4.0, name the translator (robots Content-Signal: ai-train=no); local research copy only.",
+  "panel": false,
+  "host_label": "acikkuran.com \"İbni Kesir\"",
+  "cross_witnesses": [
+    "mealler.org \"İbni Kesir\"",
+    "fawazahmed0/quran-api tur-ibnikesir"
+  ],
+  "notes": "Host label \"Ibni Kesir\" names the tafsir, not the translator; the meal is anonymous. Not Ibn Kathīr's own text. Coverage incomplete (1704/6236); re-run `fetch_meal.py fetch --sources MEAL-IBNKESIR-ANON` then `build` to resume.",
+  "raw_shared": [
+    "acikkuran pages: ../MEAL-ISLAMOGLU/raw/acikkuran/",
+    "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
+  ],
+  "_notes_parts": {
+    "static": "Host label \"Ibni Kesir\" names the tafsir, not the translator; the meal is anonymous. Not Ibn Kathīr's own text.",
+    "build": "Coverage incomplete (1704/6236); re-run `fetch_meal.py fetch --sources MEAL-IBNKESIR-ANON` then `build` to resume."
+  }
+}

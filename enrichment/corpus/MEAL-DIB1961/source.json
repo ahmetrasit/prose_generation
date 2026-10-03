@@ -1,0 +1,46 @@
+{
+  "id": "MEAL-DIB1961",
+  "title": "Kur'an-ı Kerim ve Türkçe Anlamı (Diyanet İşleri, 1961; Hüseyin Atay - Yaşar Kutluay)",
+  "author": "Hüseyin Atay & Yaşar Kutluay (Diyanet İşleri Başkanlığı)",
+  "translator": "Hüseyin Atay & Yaşar Kutluay (Diyanet İşleri Başkanlığı)",
+  "death_ah": null,
+  "kind": "meal",
+  "tradition": "official-sunni",
+  "language": "tr",
+  "edition": "tanzil tr.diyanet (last update 2011-12-27); identified by kuranmeali.com as the old 1961 Diyanet meal (Atay-Kutluay)",
+  "access": "yerel",
+  "locator": "ayah",
+  "coverage": "1-114 (6236/6236 ayat)",
+  "urls": [
+    "https://tanzil.net/trans/?transID=tr.diyanet&type=txt-2",
+    "https://cdn.jsdelivr.net/gh/fawazahmed0/quran-api@1/editions/tur-diyanetisleri.json",
+    "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='diyanetislerieski+1')",
+    "https://mealler.org/SureveAyetler.aspx?sureid={sss}&ayet={aaa}  (row \"Diyanet İşleri (eski)\")",
+    "https://mealler.org/SureveAyetler.aspx?sureid={sss}&ayet={aaa}  (row \"Bekir Sadak\")"
+  ],
+  "fetched_at": "2026-10-03",
+  "files": {
+    "raw/fawaz_tur-diyanetisleri.json": "c6468b9a49622118cd07861ab6c64eff712164611a31aa036532e68d0d88aff4",
+    "raw/tanzil_tr.diyanet.txt": "a9be7b4f291d8cf6f72dbd22dbc4b58f4716c137e56dbdc562aee3fc8c4bc4af"
+  },
+  "lineage": "diyanet-1961",
+  "relay": null,
+  "licence": "tanzil.net translation terms: non-commercial use, verbatim, cite tanzil.net; rights remain with translator/publisher; local research copy only.",
+  "panel": true,
+  "host_label": "tanzil.net tr.diyanet",
+  "cross_witnesses": [
+    "fawazahmed0/quran-api tur-diyanetisleri",
+    "kuranmeali.com \"Diyanet İşleri Meali (Eski)\" (diyanetislerieski)",
+    "mealler.org \"Diyanet İşleri (eski)\"",
+    "mealler.org \"Bekir Sadak\""
+  ],
+  "notes": "Identity: kuranmeali.com about-page (id 11): e-text of the DİB meal, first edition 1961, prepared by Dr. Hüseyin Atay and Dr. Yaşar Kutluay under Hasan Hüsnü Erdem and Yusuf Ziyaeddin Ersal, revised by a committee chaired by Mahir İz; used by DİB until c. 1990. tanzil tr.diyanet = fawaz tur-diyanetisleri = kuranmeali \"Diyanet İşleri Meali (Eski)\" = mealler.org \"Diyanet İşleri (eski)\". mealler.org \"Bekir Sadak\" is also this text (~88% identical, ASCII-ised variants), i.e. a mislabelled copy. tanzil represents a merged verse group by repeating the group text on each ayah; consecutive identical ayat are stored once as a..a_end (except Arabic near-twins such as 94:5-6, 102:3-4). 571 merged verse groups stored once as a..a_end.",
+  "raw_shared": [
+    "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/",
+    "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
+  ],
+  "_notes_parts": {
+    "static": "Identity: kuranmeali.com about-page (id 11): e-text of the DİB meal, first edition 1961, prepared by Dr. Hüseyin Atay and Dr. Yaşar Kutluay under Hasan Hüsnü Erdem and Yusuf Ziyaeddin Ersal, revised by a committee chaired by Mahir İz; used by DİB until c. 1990. tanzil tr.diyanet = fawaz tur-diyanetisleri = kuranmeali \"Diyanet İşleri Meali (Eski)\" = mealler.org \"Diyanet İşleri (eski)\". mealler.org \"Bekir Sadak\" is also this text (~88% identical, ASCII-ised variants), i.e. a mislabelled copy. tanzil represents a merged verse group by repeating the group text on each ayah; consecutive identical ayat are stored once as a..a_end (except Arabic near-twins such as 94:5-6, 102:3-4).",
+    "build": "571 merged verse groups stored once as a..a_end."
+  }
+}

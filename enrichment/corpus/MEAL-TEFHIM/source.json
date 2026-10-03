@@ -1,0 +1,38 @@
+{
+  "id": "MEAL-TEFHIM",
+  "title": "Tefhîmu'l-Kur'ân - Turkish meal",
+  "author": "Abul Aʿla Mawdudi (Turkish: İnsan Yayınları team)",
+  "translator": "Abul Aʿla Mawdudi (Turkish: İnsan Yayınları team)",
+  "death_ah": null,
+  "kind": "meal",
+  "tradition": "",
+  "language": "tr",
+  "edition": "as published by mealler.org \"Tefhim-ul Kuran\"",
+  "access": "yerel",
+  "locator": "ayah",
+  "coverage": "1-3,22,87-114 + partial 4 (883/6236 ayat)",
+  "urls": [
+    "https://mealler.org/SureveAyetler.aspx?sureid={sss}&ayet={aaa}  (row \"Tefhim-ul Kuran\")",
+    "https://cdn.jsdelivr.net/gh/fawazahmed0/quran-api@1/editions/tur-tefhimulkuran.json"
+  ],
+  "fetched_at": "2026-10-03",
+  "files": {
+    "raw/fawaz_tur-tefhimulkuran.json": "cf64eef8c3b0b3e0876d03792d69e5fcd30a1e47ca35131e79f73ae6cf83e0d7"
+  },
+  "lineage": null,
+  "relay": "Mawdudi's Urdu Tafhīm al-Qurʾān (English consulted)",
+  "licence": "mealler.org aggregator; no licence stated; rights remain with translator/publisher; local research copy only.",
+  "panel": false,
+  "host_label": "mealler.org \"Tefhim-ul Kuran\"",
+  "cross_witnesses": [
+    "fawazahmed0/quran-api tur-tefhimulkuran"
+  ],
+  "notes": "Relay witness (Urdu -> Turkish). The Turkish Tefhîm team (İnsan Yayınları) included Ali Bulaç: its meal lines are ~73% identical to MEAL-BULAC over S1, S22, S87-114, so the two are not independent witnesses. 2 merged verse groups stored once as a..a_end. 2 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. Coverage incomplete (883/6236); re-run `fetch_meal.py fetch --sources MEAL-TEFHIM` then `build` to resume.",
+  "raw_shared": [
+    "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
+  ],
+  "_notes_parts": {
+    "static": "Relay witness (Urdu -> Turkish). The Turkish Tefhîm team (İnsan Yayınları) included Ali Bulaç: its meal lines are ~73% identical to MEAL-BULAC over S1, S22, S87-114, so the two are not independent witnesses.",
+    "build": "2 merged verse groups stored once as a..a_end. 2 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. Coverage incomplete (883/6236); re-run `fetch_meal.py fetch --sources MEAL-TEFHIM` then `build` to resume."
+  }
+}

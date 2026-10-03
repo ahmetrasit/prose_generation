@@ -1,0 +1,45 @@
+{
+  "id": "MEAL-ELMALILI",
+  "title": "Hak Dini Kur'an Dili - meal (original wording)",
+  "author": "Elmalılı Muhammed Hamdi Yazır",
+  "translator": "Elmalılı Muhammed Hamdi Yazır",
+  "death_ah": 1361,
+  "kind": "meal",
+  "tradition": "ottoman-late-hanafi",
+  "language": "tr",
+  "edition": "kuran.diyanet.gov.tr Mushaf, meal ML=6 (Elmalılı original)",
+  "access": "yerel",
+  "locator": "ayah",
+  "coverage": "106-108 (14/6236 ayat)",
+  "urls": [
+    "https://kuran.diyanet.gov.tr/mushaf/kuran-meal-1/<slug>-suresi-{s}/ayet-{a}/diyanet-isleri-baskanligi-meali-6  (one request per mushaf page; page JSON MPageDmList)",
+    "https://acikkuran.com/{slug}/{a}-ayet-meali.md  (section \"### Elmalılı Hamdi Yazır\"); whole surah without footnotes: https://acikkuran.com/{slug}.md?author=14",
+    "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='elmaliliorj+1')",
+    "https://mealler.org/SureveAyetler.aspx?sureid={sss}&ayet={aaa}  (row \"Elmalılı Hamdi Yazır\")"
+  ],
+  "fetched_at": "2026-10-03",
+  "files": {
+    "raw/kd/index.json": "560835a949c6387f3f80fb29be8d26cc37ef37cd667fc67064906d5d9e51fe0a",
+    "raw/kd/p603.html.gz": "78ae5719f8303a4f53e8074b4743ea2308d3f596ec8e52cdb290d70d5f240c35"
+  },
+  "lineage": null,
+  "relay": null,
+  "licence": "(c) T.C. Diyanet İşleri Başkanlığı (kuran.diyanet.gov.tr); no open licence stated; local research copy only.",
+  "panel": true,
+  "host_label": "kuran.diyanet.gov.tr meal ML=6",
+  "cross_witnesses": [
+    "acikkuran.com \"Elmalılı Hamdi Yazır\"",
+    "kuranmeali.com \"Elmalılı Meali (Orijinal)\" (elmaliliorj)",
+    "mealler.org \"Elmalılı Hamdi Yazır\""
+  ],
+  "notes": "Coverage incomplete (14/6236); re-run `fetch_meal.py fetch --sources MEAL-ELMALILI` then `build` to resume.",
+  "raw_shared": [
+    "acikkuran pages: ../MEAL-ISLAMOGLU/raw/acikkuran/",
+    "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/",
+    "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
+  ],
+  "_notes_parts": {
+    "static": "",
+    "build": "Coverage incomplete (14/6236); re-run `fetch_meal.py fetch --sources MEAL-ELMALILI` then `build` to resume."
+  }
+}

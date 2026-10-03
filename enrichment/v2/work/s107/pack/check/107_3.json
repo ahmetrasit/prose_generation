@@ -1,0 +1,3296 @@
+{
+ "record": "E0 check.py verification record (for the user and the scorecard; never a model input)",
+ "file": "/Volumes/aro/projects/prose_generation/enrichment/v2/work/s107/pack/base/107_3.md",
+ "file_sha256": "09516d1b63c91ec4270469ea08ca79102092c7ca63e082a02c23d3b03f034d78",
+ "ref": "107:3",
+ "tool_sha256": {
+  "check.py": "186ba08a3c2f4ddb5fd580d69aed6e8ed29fa276a5b97b2f6c12058c7ac10fe2",
+  "common.py": "57bea63ae0fa0fee7ec9cd9d07adc38af2926821690fbf9082796f5474d1a7c6"
+ },
+ "index_signature": {
+  "version": 5,
+  "quran": [
+   1396724,
+   1790991422.4
+  ],
+  "tr_entries": [
+   1704,
+   198596704,
+   1790991411.5
+  ],
+  "root_packets": [
+   1679,
+   707294008,
+   1790995197.3
+  ],
+  "majaz": [
+   9216000,
+   1790992389.4
+  ],
+  "majaz_index": [
+   1169381,
+   1790986397.2
+  ],
+  "qiraat": [
+   833825,
+   1790998112.2
+  ],
+  "activation_map": [
+   2789461,
+   1790994866.9
+  ],
+  "furuq": [
+   19782184,
+   1790991539.2
+  ]
+ },
+ "summary": {
+  "words": 3343,
+  "tags": 74,
+  "tags_checkable": 74,
+  "tags_sourced": 74,
+  "share_sourced": 1.0,
+  "by_source": {
+   "quran": 50,
+   "dictionary": 24
+  },
+  "levels": {
+   "exact": 73,
+   "gapped": 1
+  },
+  "dictionary_early_phrase": 24,
+  "dictionary_definition_only": 0,
+  "arabic_outside_tags": 0,
+  "arabic_outside_tags_quotations": 0,
+  "arabic_outside_tags_quotations_sourced": 0,
+  "arabic_outside_tags_root_names": 0,
+  "arabic_outside_tags_by_context": {},
+  "bellek_marks": 0,
+  "bellek_status": {},
+  "unsourced_unmarked": 0,
+  "cited_branches": 13,
+  "cited_bound_branches": 2,
+  "bound_citations_with_echo_marker": 1,
+  "bound_citations_without_echo_marker": 1,
+  "bound_citations_extended_marker_only": 0,
+  "negation": {
+   "neg_e2_count": 12,
+   "neg_e2_per_1000": 3.59,
+   "breakdown": {
+    "değil": 10,
+    "değil,": 4,
+    "sayılmaz": 1,
+    "söylemez": 1
+   },
+   "not_only_frames": 1
+  },
+  "process_words": 8,
+  "sources_declared": 88,
+  "sources_by_kind": {
+   "branch": 24,
+   "memory": 5,
+   "quran": 59
+  },
+  "sources_status": {
+   "declared": 5,
+   "ok": 74,
+   "ok (no quote)": 9
+  }
+ },
+ "quotations": [
+  {
+   "n": 1,
+   "line": 3,
+   "quote": "أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "107:1"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {},
+   "sentence_index": 1,
+   "bellek_marked": false
+  },
+  {
+   "n": 2,
+   "line": 3,
+   "quote": "فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "107:2"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {
+    "early_entry": [
+     "د ع ع ayn",
+     "د ع ع mufradat",
+     "د ع ع sihah",
+     "د ع ع tahdhib"
+    ],
+    "majaz": [
+     "raw:7404"
+    ]
+   },
+   "sentence_index": 2,
+   "bellek_marked": false
+  },
+  {
+   "n": 3,
+   "line": 3,
+   "quote": "وَوَجَدَكَ عَآئِلًۭا فَأَغْنَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "93:8"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "dictionary": [
+     "غ ن ي B001 (root_001110/B001) lexical_source_phrase [mufradat]"
+    ],
+    "early_entry": [
+     "ع ي ل mufradat",
+     "غ ن ي mufradat"
+    ]
+   },
+   "sentence_index": 7,
+   "bellek_marked": false
+  },
+  {
+   "n": 4,
+   "line": 3,
+   "quote": "فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "93:9"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ق ه ر mufradat"
+    ]
+   },
+   "sentence_index": 8,
+   "bellek_marked": false
+  },
+  {
+   "n": 5,
+   "line": 3,
+   "quote": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنْهَرْ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "93:10"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "س ي ل mufradat",
+     "ن ه ر mufradat"
+    ]
+   },
+   "sentence_index": 8,
+   "bellek_marked": false
+  },
+  {
+   "n": 6,
+   "line": 3,
+   "quote": "يَوْمَ يُدَعُّونَ إِلَىٰ نَارِ جَهَنَّمَ دَعًّا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "52:13"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "dictionary": [
+     "د ع ع B001 (root_000477/B001) lexical_source_phrase [maqayis]"
+    ],
+    "early_entry": [
+     "د ع ع maqayis",
+     "د ع ع mufradat"
+    ]
+   },
+   "sentence_index": 20,
+   "bellek_marked": false
+  },
+  {
+   "n": 7,
+   "line": 5,
+   "quote": "حض يحض حضا وهو الحث على الخير",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000334/B001",
+      "root": "ح ض ض",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000334/B001",
+      "root": "ح ض ض",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ح ض ض tahdhib"
+    ]
+   },
+   "sentence_index": 23,
+   "bellek_marked": false
+  },
+  {
+   "n": 8,
+   "line": 5,
+   "quote": "ويقال حضضت القوم على القتال تحضيضa إذا حرضتهم",
+   "source": "dictionary",
+   "level": "gapped",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000334/B001",
+      "root": "ح ض ض",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "gapped"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {
+    "early_entry": [
+     "ح ض ض tahdhib"
+    ]
+   },
+   "sentence_index": 24,
+   "bellek_marked": false
+  },
+  {
+   "n": 9,
+   "line": 5,
+   "quote": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "107:3"
+    ],
+    "n_ayat": 1,
+    "where": "focus"
+   },
+   "also": {
+    "early_entry": [
+     "ح ض ض mufradat",
+     "ط ع م mufradat"
+    ]
+   },
+   "sentence_index": 28,
+   "bellek_marked": false
+  },
+  {
+   "n": 10,
+   "line": 7,
+   "quote": "احتضضت نفسي لفلان وابتضضتها إذا استزدتها",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000334/B004",
+      "root": "ح ض ض",
+      "branch": "B004",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "collocation",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {
+    "early_entry": [
+     "ح ض ض tahdhib"
+    ]
+   },
+   "sentence_index": 32,
+   "bellek_marked": false
+  },
+  {
+   "n": 11,
+   "line": 7,
+   "quote": "وَيُؤْثِرُونَ عَلَىٰٓ أَنفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌۭ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "59:9"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "خ ص ص mufradat"
+    ]
+   },
+   "sentence_index": 36,
+   "bellek_marked": false
+  },
+  {
+   "n": 12,
+   "line": 7,
+   "quote": "وَمَن يُوقَ شُحَّ نَفْسِهِۦ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "59:9",
+     "64:16"
+    ],
+    "n_ayat": 2,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ش ح ح maqayis",
+     "ش ح ح tahdhib"
+    ]
+   },
+   "sentence_index": 38,
+   "bellek_marked": false
+  },
+  {
+   "n": 13,
+   "line": 9,
+   "quote": "رَبِّىٓ أَهَٰنَنِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "89:16"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ب ل ل mufradat"
+    ],
+    "majaz": [
+     "raw:5794"
+    ]
+   },
+   "sentence_index": 46,
+   "bellek_marked": false
+  },
+  {
+   "n": 14,
+   "line": 9,
+   "quote": "كَلَّا ۖ بَل لَّا تُكْرِمُونَ ٱلْيَتِيمَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "89:17"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ب ل ل mufradat"
+    ]
+   },
+   "sentence_index": 47,
+   "bellek_marked": false
+  },
+  {
+   "n": 15,
+   "line": 9,
+   "quote": "وَلَا تَحَٰٓضُّونَ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "89:18"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 47,
+   "bellek_marked": false
+  },
+  {
+   "n": 16,
+   "line": 9,
+   "quote": "لِيُنفِقْ ذُو سَعَةٍۢ مِّن سَعَتِهِۦ ۖ وَمَن قُدِرَ عَلَيْهِ رِزْقُهُۥ فَلْيُنفِقْ مِمَّآ ءَاتَىٰهُ ٱللَّهُ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "65:7"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 51,
+   "bellek_marked": false
+  },
+  {
+   "n": 17,
+   "line": 9,
+   "quote": "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا مَآ ءَاتَىٰهَا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "65:7"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 52,
+   "bellek_marked": false
+  },
+  {
+   "n": 18,
+   "line": 11,
+   "quote": "والمحاضة أن يحث كل واحد منهما صاحبه",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000334/B001",
+      "root": "ح ض ض",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {
+    "early_entry": [
+     "ح ض ض sihah"
+    ]
+   },
+   "sentence_index": 55,
+   "bellek_marked": false
+  },
+  {
+   "n": 19,
+   "line": 11,
+   "quote": "وَتَوَاصَوْا۟ بِٱلْمَرْحَمَةِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "90:17"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "dictionary": [
+     "ر ح م B001 (root_000552/B001) lexical_source_phrase [ayn;tahdhib]"
+    ],
+    "early_entry": [
+     "ر ح م ayn"
+    ]
+   },
+   "sentence_index": 60,
+   "bellek_marked": false
+  },
+  {
+   "n": 20,
+   "line": 11,
+   "quote": "وَتَوَاصَوْا۟ بِٱلْحَقِّ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "103:3"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "و ص ي mufradat"
+    ]
+   },
+   "sentence_index": 61,
+   "bellek_marked": false
+  },
+  {
+   "n": 21,
+   "line": 11,
+   "quote": "يَبْخَلُونَ وَيَأْمُرُونَ ٱلنَّاسَ بِٱلْبُخْلِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:37",
+     "57:24"
+    ],
+    "n_ayat": 2,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ب خ ل mufradat",
+     "ك ت م mufradat"
+    ]
+   },
+   "sentence_index": 63,
+   "bellek_marked": false
+  },
+  {
+   "n": 22,
+   "line": 11,
+   "quote": "أَن لَّا يَدْخُلَنَّهَا ٱلْيَوْمَ عَلَيْكُم مِّسْكِينٌۭ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "68:24"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 67,
+   "bellek_marked": false
+  },
+  {
+   "n": 23,
+   "line": 15,
+   "quote": "أصل في تذوق الشيء",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000934/B001",
+      "root": "ط ع م",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 75,
+   "bellek_marked": false
+  },
+  {
+   "n": 24,
+   "line": 15,
+   "quote": "الطعام اسم جامع لكل ما يؤكل",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000934/B001",
+      "root": "ط ع م",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000934/B001",
+      "root": "ط ع م",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "clitic"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ط ع م ayn"
+    ]
+   },
+   "sentence_index": 76,
+   "bellek_marked": false
+  },
+  {
+   "n": 25,
+   "line": 17,
+   "quote": "فِدْيَةٌۭ طَعَامُ مِسْكِينٍۢ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "2:184"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ط و ق mufradat",
+     "ف د ي mufradat"
+    ]
+   },
+   "sentence_index": 84,
+   "bellek_marked": false
+  },
+  {
+   "n": 26,
+   "line": 17,
+   "quote": "إِطْعَامُ عَشَرَةِ مَسَٰكِينَ مِنْ أَوْسَطِ مَا تُطْعِمُونَ أَهْلِيكُمْ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "5:89"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 87,
+   "bellek_marked": false
+  },
+  {
+   "n": 27,
+   "line": 19,
+   "quote": "فَـَٔاتِ ذَا ٱلْقُرْبَىٰ حَقَّهُۥ وَٱلْمِسْكِينَ وَٱبْنَ ٱلسَّبِيلِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "30:38"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 91,
+   "bellek_marked": false
+  },
+  {
+   "n": 28,
+   "line": 19,
+   "quote": "وَفِىٓ أَمْوَٰلِهِمْ حَقٌّۭ لِّلسَّآئِلِ وَٱلْمَحْرُومِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "51:19"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 93,
+   "bellek_marked": false
+  },
+  {
+   "n": 29,
+   "line": 21,
+   "quote": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "106:4"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 98,
+   "bellek_marked": false
+  },
+  {
+   "n": 30,
+   "line": 21,
+   "quote": "وَهُوَ يُطْعِمُ وَلَا يُطْعَمُ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "6:14"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ط ع م mufradat"
+    ]
+   },
+   "sentence_index": 100,
+   "bellek_marked": false
+  },
+  {
+   "n": 31,
+   "line": 21,
+   "quote": "وَٱلَّذِى هُوَ يُطْعِمُنِى وَيَسْقِينِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "26:79"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "س ق ي mufradat",
+     "س ق ي tahdhib"
+    ]
+   },
+   "sentence_index": 101,
+   "bellek_marked": false
+  },
+  {
+   "n": 32,
+   "line": 21,
+   "quote": "أَنُطْعِمُ مَن لَّوْ يَشَآءُ ٱللَّهُ أَطْعَمَهُۥٓ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "36:47"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ط ع م mufradat"
+    ]
+   },
+   "sentence_index": 105,
+   "bellek_marked": false
+  },
+  {
+   "n": 33,
+   "line": 23,
+   "quote": "رجل طاعم حسن الحال ومطعام كثير القرى",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000934/B004",
+      "root": "ط ع م",
+      "branch": "B004",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 108,
+   "bellek_marked": false
+  },
+  {
+   "n": 34,
+   "line": 23,
+   "quote": "الطعمة وجه المكسب وجعلت الضيعة طعمة",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000934/B004",
+      "root": "ط ع م",
+      "branch": "B004",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 110,
+   "bellek_marked": false
+  },
+  {
+   "n": 35,
+   "line": 25,
+   "quote": "استطعمني فلان الحديث إذا أرادك على أن تحدثه",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000934/B003",
+      "root": "ط ع م",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "collocation",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000934/B003",
+      "root": "ط ع م",
+      "branch": "B003",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "collocation",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ط ع م maqayis"
+    ]
+   },
+   "sentence_index": 114,
+   "bellek_marked": false
+  },
+  {
+   "n": 36,
+   "line": 25,
+   "quote": "وإذا استطعمكم الإمام فأطعموه",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000934/B003",
+      "root": "ط ع م",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "collocation",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000934/B003",
+      "root": "ط ع م",
+      "branch": "B003",
+      "field": "what_is_ar",
+      "source_tags": [],
+      "branch_kind": "collocation",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {},
+   "sentence_index": 115,
+   "bellek_marked": false
+  },
+  {
+   "n": 37,
+   "line": 25,
+   "quote": "ٱسْتَطْعَمَآ أَهْلَهَا فَأَبَوْا۟ أَن يُضَيِّفُوهُمَا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "18:77"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 121,
+   "bellek_marked": false
+  },
+  {
+   "n": 38,
+   "line": 29,
+   "quote": "السكون ذهاب الحركة",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000726/B001",
+      "root": "س ك ن",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000726/B001",
+      "root": "س ك ن",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "س ك ن ayn"
+    ]
+   },
+   "sentence_index": 125,
+   "bellek_marked": false
+  },
+  {
+   "n": 39,
+   "line": 29,
+   "quote": "المسكين الفقير وقد يكون بمعنى الذلة والضعف",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000726/B006",
+      "root": "س ك ن",
+      "branch": "B006",
+      "field": "source_phrase_ar",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000726/B006",
+      "root": "س ك ن",
+      "branch": "B006",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "س ك ن sihah"
+    ]
+   },
+   "sentence_index": 126,
+   "bellek_marked": false
+  },
+  {
+   "n": 40,
+   "line": 29,
+   "quote": "لَا يَسْتَطِيعُونَ ضَرْبًۭا فِى ٱلْأَرْضِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "2:273"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "س ك ن tahdhib",
+     "ض ر ب mufradat"
+    ]
+   },
+   "sentence_index": 128,
+   "bellek_marked": false
+  },
+  {
+   "n": 41,
+   "line": 29,
+   "quote": "يَحْسَبُهُمُ ٱلْجَاهِلُ أَغْنِيَآءَ مِنَ ٱلتَّعَفُّفِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "2:273"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ج ه ل mufradat",
+     "ج ه ل tahdhib",
+     "غ ن ي mufradat"
+    ]
+   },
+   "sentence_index": 129,
+   "bellek_marked": false
+  },
+  {
+   "n": 42,
+   "line": 31,
+   "quote": "فَكَانَتْ لِمَسَٰكِينَ يَعْمَلُونَ فِى ٱلْبَحْرِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "18:79"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ف ق ر tahdhib"
+    ]
+   },
+   "sentence_index": 137,
+   "bellek_marked": false
+  },
+  {
+   "n": 43,
+   "line": 31,
+   "quote": "أَوْ مِسْكِينًۭا ذَا مَتْرَبَةٍۢ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "90:16"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "dictionary": [
+     "ت ر ب B002 (root_000178/B002) lexical_source_phrase [mufradat]"
+    ],
+    "early_entry": [
+     "ت ر ب mufradat"
+    ]
+   },
+   "sentence_index": 140,
+   "bellek_marked": false
+  },
+  {
+   "n": 44,
+   "line": 33,
+   "quote": "الحضيض قرار الأرض عند سفح الجبل",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000334/B002",
+      "root": "ح ض ض",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn",
+       "tahdhib"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000334/B002",
+      "root": "ح ض ض",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn",
+       "tahdhib"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ح ض ض ayn",
+     "ح ض ض tahdhib"
+    ]
+   },
+   "sentence_index": 142,
+   "bellek_marked": false
+  },
+  {
+   "n": 45,
+   "line": 33,
+   "quote": "الحضيض القرار من الأرض عند منقطع الجبل",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000334/B002",
+      "root": "ح ض ض",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000334/B002",
+      "root": "ح ض ض",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ح ض ض sihah"
+    ]
+   },
+   "sentence_index": 142,
+   "bellek_marked": false
+  },
+  {
+   "n": 46,
+   "line": 35,
+   "quote": "فَلَا ٱقْتَحَمَ ٱلْعَقَبَةَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "90:11"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ء ل م ayn",
+     "ب ر ز خ mufradat",
+     "ب ل و ayn",
+     "ب ل ي ayn",
+     "ق ح م mufradat",
+     "ل ء ل ء ayn",
+     "ل و م ayn",
+     "ل و ي ayn"
+    ],
+    "majaz": [
+     "raw:7275"
+    ]
+   },
+   "sentence_index": 150,
+   "bellek_marked": false
+  },
+  {
+   "n": 47,
+   "line": 35,
+   "quote": "أَوْ إِطْعَٰمٌۭ فِى يَوْمٍۢ ذِى مَسْغَبَةٍۢ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "90:14"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ذ ك ر mufradat",
+     "س غ ب mufradat"
+    ],
+    "majaz": [
+     "raw:7275"
+    ]
+   },
+   "sentence_index": 153,
+   "bellek_marked": false
+  },
+  {
+   "n": 48,
+   "line": 35,
+   "quote": "يَتِيمًۭا ذَا مَقْرَبَةٍ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "90:15"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "dictionary": [
+     "ق ر ب B003 (root_001212/B003) lexical_source_phrase [mufradat]",
+     "ق ر ب B003 (root_001212/B003) source_phrase_ar [mufradat]"
+    ],
+    "early_entry": [
+     "ق ر ب mufradat",
+     "ق ر ب tahdhib"
+    ]
+   },
+   "sentence_index": 155,
+   "bellek_marked": false
+  },
+  {
+   "n": 49,
+   "line": 37,
+   "quote": "تمسكن إذا خضع لله",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000726/B006",
+      "root": "س ك ن",
+      "branch": "B006",
+      "field": "source_phrase_ar",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000726/B006",
+      "root": "س ك ن",
+      "branch": "B006",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "س ك ن tahdhib"
+    ]
+   },
+   "sentence_index": 161,
+   "bellek_marked": false
+  },
+  {
+   "n": 50,
+   "line": 37,
+   "quote": "فَمَا ٱسْتَكَانُوا۟ لِرَبِّهِمْ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "23:76"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "dictionary": [
+     "س ك ن B006 (root_000726/B006) lexical_source_phrase [tahdhib]"
+    ],
+    "early_entry": [
+     "س ك ن tahdhib",
+     "ك ي ل mufradat"
+    ]
+   },
+   "sentence_index": 163,
+   "bellek_marked": false
+  },
+  {
+   "n": 51,
+   "line": 41,
+   "quote": "سكنت داري وأسكنتها غيرى",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000726/B002",
+      "root": "س ك ن",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000726/B002",
+      "root": "س ك ن",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "س ك ن sihah"
+    ]
+   },
+   "sentence_index": 168,
+   "bellek_marked": false
+  },
+  {
+   "n": 52,
+   "line": 41,
+   "quote": "السكن أهل الدار",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000726/B003",
+      "root": "س ك ن",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000726/B003",
+      "root": "س ك ن",
+      "branch": "B003",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah",
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000726/B008",
+      "root": "س ك ن",
+      "branch": "B008",
+      "field": "what_is_not_ar",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 3
+   },
+   "also": {
+    "early_entry": [
+     "س ك ن sihah",
+     "س ك ن tahdhib"
+    ]
+   },
+   "sentence_index": 169,
+   "bellek_marked": false
+  },
+  {
+   "n": 53,
+   "line": 41,
+   "quote": "أَهْلِيكُمْ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "5:89",
+     "66:6"
+    ],
+    "n_ayat": 2,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "و ق ي mufradat"
+    ]
+   },
+   "sentence_index": 171,
+   "bellek_marked": false
+  },
+  {
+   "n": 54,
+   "line": 43,
+   "quote": "الأسكان الأقوات واحدها سكن",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000726/B010",
+      "root": "س ك ن",
+      "branch": "B010",
+      "field": "source_phrase_ar",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000726/B010",
+      "root": "س ك ن",
+      "branch": "B010",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "س ك ن tahdhib"
+    ]
+   },
+   "sentence_index": 175,
+   "bellek_marked": false
+  },
+  {
+   "n": 55,
+   "line": 43,
+   "quote": "قيل للقوت سكن لأن المكان به يسكن",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000726/B010",
+      "root": "س ك ن",
+      "branch": "B010",
+      "field": "source_phrase_ar",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000726/B010",
+      "root": "س ك ن",
+      "branch": "B010",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "س ك ن tahdhib"
+    ]
+   },
+   "sentence_index": 176,
+   "bellek_marked": false
+  },
+  {
+   "n": 56,
+   "line": 43,
+   "quote": "مرعى مسكن إذا كان كثيرا لا يخرج إلى الظعن عنه",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000726/B010",
+      "root": "س ك ن",
+      "branch": "B010",
+      "field": "source_phrase_ar",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000726/B010",
+      "root": "س ك ن",
+      "branch": "B010",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "س ك ن tahdhib"
+    ]
+   },
+   "sentence_index": 180,
+   "bellek_marked": false
+  },
+  {
+   "n": 57,
+   "line": 45,
+   "quote": "هدأ بعد تحرك",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000726/B001",
+      "root": "س ك ن",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000726/B001",
+      "root": "س ك ن",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "س ك ن tahdhib"
+    ]
+   },
+   "sentence_index": 184,
+   "bellek_marked": false
+  },
+  {
+   "n": 58,
+   "line": 47,
+   "quote": "السكن النار التي يسكن بها",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000726/B004",
+      "root": "س ك ن",
+      "branch": "B004",
+      "field": "source_phrase_ar",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000726/B004",
+      "root": "س ك ن",
+      "branch": "B004",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "س ك ن mufradat"
+    ]
+   },
+   "sentence_index": 190,
+   "bellek_marked": false
+  },
+  {
+   "n": 59,
+   "line": 47,
+   "quote": "كل ما سكنت إليه من محبوب",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000726/B004",
+      "root": "س ك ن",
+      "branch": "B004",
+      "field": "source_phrase_ar",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000726/B004",
+      "root": "س ك ن",
+      "branch": "B004",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "س ك ن maqayis"
+    ]
+   },
+   "sentence_index": 191,
+   "bellek_marked": false
+  },
+  {
+   "n": 60,
+   "line": 47,
+   "quote": "إِنَّ صَلَوٰتَكَ سَكَنٌۭ لَّهُمْ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "9:103"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "dictionary": [
+     "س ك ن B004 (root_000726/B004) lexical_source_phrase [mufradat]"
+    ],
+    "early_entry": [
+     "س ك ن mufradat",
+     "ص ل و mufradat",
+     "ص ل ي mufradat"
+    ]
+   },
+   "sentence_index": 192,
+   "bellek_marked": false
+  },
+  {
+   "n": 61,
+   "line": 49,
+   "quote": "والإطعام يقع حتى الماء",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000934/B001",
+      "root": "ط ع م",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 195,
+   "bellek_marked": false
+  },
+  {
+   "n": 62,
+   "line": 49,
+   "quote": "وَمَن لَّمْ يَطْعَمْهُ فَإِنَّهُۥ مِنِّىٓ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "2:249"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ط ع م maqayis",
+     "ط ع م mufradat",
+     "ط ع م sihah",
+     "ط ع م tahdhib"
+    ]
+   },
+   "sentence_index": 197,
+   "bellek_marked": false
+  },
+  {
+   "n": 63,
+   "line": 53,
+   "quote": "خُذُوهُ فَغُلُّوهُ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "69:30"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "غ ل ل mufradat"
+    ]
+   },
+   "sentence_index": 204,
+   "bellek_marked": false
+  },
+  {
+   "n": 64,
+   "line": 53,
+   "quote": "إِنَّهُۥ كَانَ لَا يُؤْمِنُ بِٱللَّهِ ٱلْعَظِيمِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "69:33"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 205,
+   "bellek_marked": false
+  },
+  {
+   "n": 65,
+   "line": 53,
+   "quote": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "107:3"
+    ],
+    "n_ayat": 1,
+    "where": "focus"
+   },
+   "also": {
+    "early_entry": [
+     "ح ض ض mufradat",
+     "ط ع م mufradat"
+    ]
+   },
+   "sentence_index": 205,
+   "bellek_marked": false
+  },
+  {
+   "n": 66,
+   "line": 53,
+   "quote": "وَٱلَّذِينَ فِىٓ أَمْوَٰلِهِمْ حَقٌّۭ مَّعْلُومٌۭ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "70:24"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 213,
+   "bellek_marked": false
+  },
+  {
+   "n": 67,
+   "line": 53,
+   "quote": "لِّلسَّآئِلِ وَٱلْمَحْرُومِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "51:19",
+     "70:25"
+    ],
+    "n_ayat": 2,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ح ر م mufradat",
+     "ح ر م sihah",
+     "س ي ل mufradat"
+    ]
+   },
+   "sentence_index": 213,
+   "bellek_marked": false
+  },
+  {
+   "n": 68,
+   "line": 53,
+   "quote": "وَٱلَّذِينَ يُصَدِّقُونَ بِيَوْمِ ٱلدِّينِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "70:26"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 214,
+   "bellek_marked": false
+  },
+  {
+   "n": 69,
+   "line": 53,
+   "quote": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "1:4"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "dictionary": [
+     "د ي ن B002 (root_000504/B002) source_phrase_ar [tahdhib]",
+     "د ي ن B002 (root_000504/B002) lexical_source_phrase [tahdhib]",
+     "د ي ن B002 (root_000504/B002) lexical_source_phrase [maqayis]"
+    ],
+    "early_entry": [
+     "د ي ن maqayis",
+     "د ي ن tahdhib",
+     "م ل ك mufradat",
+     "م ل ك tahdhib"
+    ],
+    "majaz": [
+     3,
+     4
+    ]
+   },
+   "sentence_index": 217,
+   "bellek_marked": false
+  },
+  {
+   "n": 70,
+   "line": 55,
+   "quote": "فَلَيْسَ لَهُ ٱلْيَوْمَ هَٰهُنَا حَمِيمٌۭ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "69:35"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 220,
+   "bellek_marked": false
+  },
+  {
+   "n": 71,
+   "line": 55,
+   "quote": "وَلَا طَعَامٌ إِلَّا مِنْ غِسْلِينٍۢ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "69:36"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "خ ط ء mufradat",
+     "ط ع م mufradat",
+     "غ س ل mufradat"
+    ]
+   },
+   "sentence_index": 220,
+   "bellek_marked": false
+  },
+  {
+   "n": 72,
+   "line": 55,
+   "quote": "لَّا يَأْكُلُهُۥٓ إِلَّا ٱلْخَٰطِـُٔونَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "69:37"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "خ ط ء mufradat",
+     "ص ب ء mufradat",
+     "ص ب و mufradat"
+    ]
+   },
+   "sentence_index": 224,
+   "bellek_marked": false
+  },
+  {
+   "n": 73,
+   "line": 55,
+   "quote": "وَلَمْ نَكُ نُطْعِمُ ٱلْمِسْكِينَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "74:44"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 227,
+   "bellek_marked": false
+  },
+  {
+   "n": 74,
+   "line": 57,
+   "quote": "إِنَّمَا نُطْعِمُكُمْ لِوَجْهِ ٱللَّهِ لَا نُرِيدُ مِنكُمْ جَزَآءًۭ وَلَا شُكُورًا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "76:9"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 231,
+   "bellek_marked": false
+  }
+ ],
+ "arabic_outside_tags": [],
+ "bellek": [],
+ "unsourced_unmarked": [],
+ "cited_branches": [
+  {
+   "branch_ref": "root_000334/B001",
+   "root": "ح ض ض",
+   "branch": "B001",
+   "branch_kind": "bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım yalın dalın eyleme yöneltme çekirdeğiyle sınırlıdır; belirli bir bağlama veya özel bir söz öbeğine bağlı anlam genelleştirilmez.",
+   "image_ar": "الحَضّ على الشيء",
+   "quote": "حض يحض حضا وهو الحث على الخير",
+   "line": 5,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Fiilin ne yaptığını Araplar şöyle anlatırdı: {ar:حض يحض حضا وهو الحث على الخير, tr:hadda yehuddu haddan ve huve'l-hassu ale'l-hayr, gloss:hadd, birini hayra doğru sürmektir, source:\"ح ض ض,B001\"}."
+  },
+  {
+   "branch_ref": "root_000334/B004",
+   "root": "ح ض ض",
+   "branch": "B004",
+   "branch_kind": "collocation",
+   "bound": true,
+   "root_in": "focus",
+   "scope_note": "Tanım yalnızca verilen sabit ifadeye bağlıdır; buradan yalın köke genel bir kendini artırma veya daha çok isteme anlamı çıkarılmaz.",
+   "image_ar": "استزادة النفس",
+   "quote": "احتضضت نفسي لفلان وابتضضتها إذا استزدتها",
+   "line": 7,
+   "framing": "echo marker in the sentence",
+   "echo_markers": [
+    "kalıp"
+   ],
+   "extended_markers_in_sentence": [],
+   "sentence": "Aynı kökün yalnızca kalıplaşmış bir sözde yaşayan bir kullanımı, sürmenin içe de dönebildiğini gösterir: {ar:احتضضت نفسي لفلان وابتضضتها إذا استزدتها, tr:ihtadadtu nefsî li-fulânin ve'btadadtuhâ izâ istezedtuhâ, gloss:falanca için kendimi sürdüm, yani kendimden daha fazlasını istedim, source:\"ح ض ض,B004\"}."
+  },
+  {
+   "branch_ref": "root_000334/B001",
+   "root": "ح ض ض",
+   "branch": "B001",
+   "branch_kind": "bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım yalın dalın eyleme yöneltme çekirdeğiyle sınırlıdır; belirli bir bağlama veya özel bir söz öbeğine bağlı anlam genelleştirilmez.",
+   "image_ar": "الحَضّ على الشيء",
+   "quote": "والمحاضة أن يحث كل واحد منهما صاحبه",
+   "line": 11,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Fecr suresindeki biçim karşılıklıdır ve aynı kökte bunun da adı vardır: {ar:والمحاضة أن يحث كل واحد منهما صاحبه, tr:ve'l-muhâddatu en yehusse küllü vâhidin minhumâ sâhibeh, gloss:muhâdda, iki kişiden her birinin ötekini sürmesidir, source:\"ح ض ض,B001\"}."
+  },
+  {
+   "branch_ref": "root_000934/B001",
+   "root": "ط ع م",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım yalın tatma, yeme ve besin anlamlarını kapsar; buğdaya özgü adlandırma ile doyurup besleyen yiyecek ya da su kullanımı ayrıca sınırlandırılır.",
+   "image_ar": "ذوق الشيء وتناوله",
+   "quote": "أصل في تذوق الشيء",
+   "line": 15,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Ayetin ikinci kelimesinin kökü önce tatmayı bildirir: {ar:أصل في تذوق الشيء, tr:aslun fî tezevvuki'ş-şey', gloss:kökü, bir şeyin tadına bakmaktır, source:\"ط ع م,B001\"}."
+  },
+  {
+   "branch_ref": "root_000934/B004",
+   "root": "ط ع م",
+   "branch": "B004",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yalın nitelemeler iyi durum, rızık ve bol ikramı; kalıplaşmış kullanımlar ise kazancın niteliğini ve bir yerin gelir kaynağı olarak tahsisini gösterir.",
+   "image_ar": "رزق ومعاش وحسن حال",
+   "quote": "رجل طاعم حسن الحال ومطعام كثير القرى",
+   "line": 23,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Bu kökte hâli vakti yerinde olmak bile yemekle adlandırılır: {ar:رجل طاعم حسن الحال ومطعام كثير القرى, tr:racülun tâ‘imun hasenu'l-hâl, ve mit‘âmun kesîru'l-kırâ, gloss:tâ‘im, hâli vakti yerinde adamdır; mit‘âm, konuğunu çok ağırlayandır, source:\"ط ع م,B004\"}."
+  },
+  {
+   "branch_ref": "root_000934/B003",
+   "root": "ط ع م",
+   "branch": "B003",
+   "branch_kind": "collocation",
+   "bound": true,
+   "root_in": "focus",
+   "scope_note": "Tanım yalnızca söz isteme ve okuyana unuttuğu bölümü söyleme kalıplarını kapsar; yalın köke bağımsız bir konuşma anlamı yüklemez.",
+   "image_ar": "استطعام الكلام وفتح القراءة",
+   "quote": "استطعمني فلان الحديث إذا أرادك على أن تحدثه",
+   "line": 25,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Biri sizden konuşmanızı istediğinde Araplar bunu yemek istemek diye anlatırdı: {ar:استطعمني فلان الحديث إذا أرادك على أن تحدثه, tr:istat‘amenî fulânun'l-hadîse izâ erâdeke alâ en tuhaddisehû, gloss:falanca benden söz \"yemek istedi\", yani konuşmamı istedi, source:\"ط ع م,B003\"}."
+  },
+  {
+   "branch_ref": "root_000726/B001",
+   "root": "س ك ن",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım yalın durma çekirdeğini korur; rüzgar, yağmur ve öfke kullanımlarını yalnızca belirli bağlamlara bağlı uzantılar olarak ayırır.",
+   "image_ar": "ذهاب الحركة",
+   "quote": "السكون ذهاب الحركة",
+   "line": 29,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Yoksulu adlandıran kelimenin kökü, hareketin dinmesini bildirir: {ar:السكون ذهاب الحركة, tr:es-sükûnu zehâbu'l-hareke, gloss:sükûn, hareketin gitmesidir, source:\"س ك ن,B001\"}."
+  },
+  {
+   "branch_ref": "root_000726/B006",
+   "root": "س ك ن",
+   "branch": "B006",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım yalın tek anlam varsaymaz; yoksul kişi ve yoksulluk durumunu, ezilmişlik ile boyun eğme bildiren türemiş eylemlerden açıkça ayırır.",
+   "image_ar": "ذل المسكنة",
+   "quote": "المسكين الفقير وقد يكون بمعنى الذلة والضعف",
+   "line": 29,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Miskin bu kökten gelir ve kelimenin anlamı ihtiyaçla birlikte bir çöküşü de taşır: {ar:المسكين الفقير وقد يكون بمعنى الذلة والضعف, tr:el-miskînu'l-fakîr, ve kad yekûnu bi-ma‘ne'z-zilleti ve'd-da‘f, gloss:miskin fakirdir; düşkünlük ve güçsüzlük anlamına da gelir, source:\"س ك ن,B006\"}."
+  },
+  {
+   "branch_ref": "root_000334/B002",
+   "root": "ح ض ض",
+   "branch": "B002",
+   "branch_kind": "bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım, yalın dalın alçak arazi anlamını verir; taş adı gibi türemiş bir birimin anlamı dalın çekirdeğine katılmaz.",
+   "image_ar": "الحَضيض قرار الأرض",
+   "quote": "الحضيض قرار الأرض عند سفح الجبل",
+   "line": 33,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Aynı harfler yeryüzünün en alt düzlüğünü de adlandırır: {ar:الحضيض قرار الأرض عند سفح الجبل, tr:el-hadîdu karâru'l-ardı inde safhi'l-cebel, gloss:hadîd, dağın eteğinde yerin durulduğu düzlüktür, source:\"ح ض ض,B002\"}; {ar:الحضيض القرار من الأرض عند منقطع الجبل, tr:el-hadîdu'l-karâru mine'l-ardı inde munkata‘ı'l-cebel, gloss:hadîd, dağın bittiği yerdeki durak yeridir, source:\"ح ض ض,B002\"}."
+  },
+  {
+   "branch_ref": "root_000726/B006",
+   "root": "س ك ن",
+   "branch": "B006",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım yalın tek anlam varsaymaz; yoksul kişi ve yoksulluk durumunu, ezilmişlik ile boyun eğme bildiren türemiş eylemlerden açıkça ayırır.",
+   "image_ar": "ذل المسكنة",
+   "quote": "تمسكن إذا خضع لله",
+   "line": 37,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Aynı kök, fakirleşmeyi ve Allah karşısında eğilmeyi tek fiilde birleştirir: {ar:تمسكن إذا خضع لله, tr:temeskene izâ hada‘a li'llâh, gloss:Allah'a boyun eğdiğinde \"temeskene\" denir, source:\"س ك ن,B006\"}."
+  },
+  {
+   "branch_ref": "root_000726/B002",
+   "root": "س ك ن",
+   "branch": "B002",
+   "branch_kind": "bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım yalın yerleşip yaşama anlamını temel alır; konut, birini oturtma ve karşılıksız kullanım verme biçimlerini aynı söz ailesinin açık uzantıları olarak gösterir.",
+   "image_ar": "استيطان المنزل",
+   "quote": "سكنت داري وأسكنتها غيرى",
+   "line": 41,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Miskinin kökü sadece bir çöküşü değil, bir evi de adlandırır: {ar:سكنت داري وأسكنتها غيرى, tr:sekentü dârî ve eskentuhâ ġayrî, gloss:evimde oturdum ve onu başkasına da oturttum, source:\"س ك ن,B002\"}."
+  },
+  {
+   "branch_ref": "root_000726/B003",
+   "root": "س ك ن",
+   "branch": "B003",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım ev halkını yalın çekirdek olarak verir; çoğul sakinler ve evde yaşayanları belirten kalıp kullanımı bu çekirdeğin ayrı gerçekleşmeleridir.",
+   "image_ar": "أهل الدار",
+   "quote": "السكن أهل الدار",
+   "line": 41,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Evin içindekiler de bu kökle anılır: {ar:السكن أهل الدار, tr:es-sekenu ehlu'd-dâr, gloss:seken, evin halkıdır, source:\"س ك ن,B003\"}."
+  },
+  {
+   "branch_ref": "root_000726/B008",
+   "root": "س ك ن",
+   "branch": "B008",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım gemi parçasının özel adını yalın biçimde korur; gemiyle kurulan kalıp ifade aynı parçayı işleviyle belirleyen kullanımdır ve genel durma anlamına genişletilmez.",
+   "image_ar": "تسكين السفينة بالسكان",
+   "quote": "السكن أهل الدار",
+   "line": 41,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Evin içindekiler de bu kökle anılır: {ar:السكن أهل الدار, tr:es-sekenu ehlu'd-dâr, gloss:seken, evin halkıdır, source:\"س ك ن,B003\"}."
+  },
+  {
+   "branch_ref": "root_000726/B010",
+   "root": "س ك ن",
+   "branch": "B010",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım geçimlik yiyecek biçimlerini yalın besin alanında, bol otlak kalıbını ise göçü gereksiz kılan özel hayvancılık bağlamında ayrı tutar.",
+   "image_ar": "قوت يثبت المقام",
+   "quote": "الأسكان الأقوات واحدها سكن",
+   "line": 43,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Araplar azığa da aynı adı verirlerdi: {ar:الأسكان الأقوات واحدها سكن, tr:el-eskânu'l-akvât, vâhiduhâ seken, gloss:eskân azıklardır, tekili seken, source:\"س ك ن,B010\"}."
+  },
+  {
+   "branch_ref": "root_000726/B001",
+   "root": "س ك ن",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım yalın durma çekirdeğini korur; rüzgar, yağmur ve öfke kullanımlarını yalnızca belirli bağlamlara bağlı uzantılar olarak ayırır.",
+   "image_ar": "ذهاب الحركة",
+   "quote": "هدأ بعد تحرك",
+   "line": 45,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Kök bu iyi durgunluğu da tanır: {ar:هدأ بعد تحرك, tr:hedee ba‘de taharruk, gloss:çalkantıdan sonra yatıştı, source:\"س ك ن,B001\"}."
+  },
+  {
+   "branch_ref": "root_000726/B004",
+   "root": "س ك ن",
+   "branch": "B004",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım yalın olarak kişinin yanında rahatlayıp dinginleştiği dayanağı verir; gece, yakarış ve ateş kullanımları ile ateşle düzeltme ayrı bağlamlara bağlı tutulur.",
+   "image_ar": "مأنس السكون",
+   "quote": "السكن النار التي يسكن بها",
+   "line": 47,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Biri barınılan ateştir: {ar:السكن النار التي يسكن بها, tr:es-sekenu'n-nâru'lletî yuskenu bihâ, gloss:seken, yanında barınılan ateştir, source:\"س ك ن,B004\"}."
+  },
+  {
+   "branch_ref": "root_000934/B001",
+   "root": "ط ع م",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım yalın tatma, yeme ve besin anlamlarını kapsar; buğdaya özgü adlandırma ile doyurup besleyen yiyecek ya da su kullanımı ayrıca sınırlandırılır.",
+   "image_ar": "ذوق الشيء وتناوله",
+   "quote": "والإطعام يقع حتى الماء",
+   "line": 49,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Yemeğin kendisi de sudan ayrılmaz: {ar:والإطعام يقع حتى الماء, tr:ve'l-it‘âmu yeka‘u hatte'l-mâ’, gloss:doyurmak suya kadar uzanır, source:\"ط ع م,B001\"}."
+  }
+ ],
+ "sources": [
+  {
+   "line": 15,
+   "quote": null,
+   "declared": "memory",
+   "kind": "memory",
+   "status": "declared",
+   "found_anyway": null
+  },
+  {
+   "line": 31,
+   "quote": null,
+   "declared": "memory",
+   "kind": "memory",
+   "status": "declared",
+   "found_anyway": null
+  },
+  {
+   "line": 33,
+   "quote": null,
+   "declared": "memory",
+   "kind": "memory",
+   "status": "declared",
+   "found_anyway": null
+  },
+  {
+   "line": 35,
+   "quote": null,
+   "declared": "memory",
+   "kind": "memory",
+   "status": "declared",
+   "found_anyway": null
+  },
+  {
+   "line": 55,
+   "quote": null,
+   "declared": "memory",
+   "kind": "memory",
+   "status": "declared",
+   "found_anyway": null
+  }
+ ],
+ "process_lines": [
+  {
+   "line": 11,
+   "word": "zincire"
+  },
+  {
+   "line": 11,
+   "word": "zincirin"
+  },
+  {
+   "line": 11,
+   "word": "Zincirin"
+  },
+  {
+   "line": 11,
+   "word": "zincirin"
+  },
+  {
+   "line": 11,
+   "word": "zincirdir"
+  },
+  {
+   "line": 11,
+   "word": "zincire"
+  },
+  {
+   "line": 11,
+   "word": "zincirin"
+  },
+  {
+   "line": 11,
+   "word": "zincirin"
+  }
+ ],
+ "sources_all": [
+  {
+   "line": 3,
+   "quote": "أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ",
+   "declared": "107:1",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "107:1"
+   ]
+  },
+  {
+   "line": 3,
+   "quote": "فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ",
+   "declared": "107:2",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "107:2"
+   ]
+  },
+  {
+   "line": 3,
+   "quote": "وَوَجَدَكَ عَآئِلًۭا فَأَغْنَىٰ",
+   "declared": "93:8",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "93:8"
+   ]
+  },
+  {
+   "line": 3,
+   "quote": "فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ",
+   "declared": "93:9",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "93:9"
+   ]
+  },
+  {
+   "line": 3,
+   "quote": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنْهَرْ",
+   "declared": "93:10",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "93:10"
+   ]
+  },
+  {
+   "line": 3,
+   "quote": "يَوْمَ يُدَعُّونَ إِلَىٰ نَارِ جَهَنَّمَ دَعًّا",
+   "declared": "52:13",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "52:13"
+   ]
+  },
+  {
+   "line": 5,
+   "quote": "حض يحض حضا وهو الحث على الخير",
+   "declared": "ح ض ض,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000334/B001",
+   "gapped": false
+  },
+  {
+   "line": 5,
+   "quote": "ويقال حضضت القوم على القتال تحضيضa إذا حرضتهم",
+   "declared": "ح ض ض,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000334/B001",
+   "gapped": true
+  },
+  {
+   "line": 5,
+   "quote": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+   "declared": "107:3",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "107:3"
+   ]
+  },
+  {
+   "line": 7,
+   "quote": "احتضضت نفسي لفلان وابتضضتها إذا استزدتها",
+   "declared": "ح ض ض,B004",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000334/B004",
+   "gapped": false
+  },
+  {
+   "line": 7,
+   "quote": "وَيُؤْثِرُونَ عَلَىٰٓ أَنفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌۭ",
+   "declared": "59:9",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "59:9"
+   ]
+  },
+  {
+   "line": 7,
+   "quote": "وَمَن يُوقَ شُحَّ نَفْسِهِۦ",
+   "declared": "59:9",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "59:9"
+   ]
+  },
+  {
+   "line": 9,
+   "quote": "رَبِّىٓ أَهَٰنَنِ",
+   "declared": "89:16",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "89:16"
+   ]
+  },
+  {
+   "line": 9,
+   "quote": "كَلَّا ۖ بَل لَّا تُكْرِمُونَ ٱلْيَتِيمَ",
+   "declared": "89:17",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "89:17"
+   ]
+  },
+  {
+   "line": 9,
+   "quote": "وَلَا تَحَٰٓضُّونَ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+   "declared": "89:18",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "89:18"
+   ]
+  },
+  {
+   "line": 9,
+   "quote": "لِيُنفِقْ ذُو سَعَةٍۢ مِّن سَعَتِهِۦ ۖ وَمَن قُدِرَ عَلَيْهِ رِزْقُهُۥ فَلْيُنفِقْ مِمَّآ ءَاتَىٰهُ ٱللَّهُ",
+   "declared": "65:7",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "65:7"
+   ]
+  },
+  {
+   "line": 9,
+   "quote": "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا مَآ ءَاتَىٰهَا",
+   "declared": "65:7",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "65:7"
+   ]
+  },
+  {
+   "line": 11,
+   "quote": "والمحاضة أن يحث كل واحد منهما صاحبه",
+   "declared": "ح ض ض,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000334/B001",
+   "gapped": false
+  },
+  {
+   "line": 11,
+   "quote": "وَتَوَاصَوْا۟ بِٱلْمَرْحَمَةِ",
+   "declared": "90:17",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "90:17"
+   ]
+  },
+  {
+   "line": 11,
+   "quote": "وَتَوَاصَوْا۟ بِٱلْحَقِّ",
+   "declared": "103:3",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "103:3"
+   ]
+  },
+  {
+   "line": 11,
+   "quote": "يَبْخَلُونَ وَيَأْمُرُونَ ٱلنَّاسَ بِٱلْبُخْلِ",
+   "declared": "4:37",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "4:37"
+   ]
+  },
+  {
+   "line": 11,
+   "quote": "أَن لَّا يَدْخُلَنَّهَا ٱلْيَوْمَ عَلَيْكُم مِّسْكِينٌۭ",
+   "declared": "68:24",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "68:24"
+   ]
+  },
+  {
+   "line": 15,
+   "quote": "أصل في تذوق الشيء",
+   "declared": "ط ع م,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000934/B001",
+   "gapped": false
+  },
+  {
+   "line": 15,
+   "quote": "الطعام اسم جامع لكل ما يؤكل",
+   "declared": "ط ع م,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000934/B001",
+   "gapped": false
+  },
+  {
+   "line": 17,
+   "quote": "فِدْيَةٌۭ طَعَامُ مِسْكِينٍۢ",
+   "declared": "2:184",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "2:184"
+   ]
+  },
+  {
+   "line": 17,
+   "quote": "إِطْعَامُ عَشَرَةِ مَسَٰكِينَ مِنْ أَوْسَطِ مَا تُطْعِمُونَ أَهْلِيكُمْ",
+   "declared": "5:89",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "5:89"
+   ]
+  },
+  {
+   "line": 19,
+   "quote": "فَـَٔاتِ ذَا ٱلْقُرْبَىٰ حَقَّهُۥ وَٱلْمِسْكِينَ وَٱبْنَ ٱلسَّبِيلِ",
+   "declared": "30:38",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "30:38"
+   ]
+  },
+  {
+   "line": 19,
+   "quote": "وَفِىٓ أَمْوَٰلِهِمْ حَقٌّۭ لِّلسَّآئِلِ وَٱلْمَحْرُومِ",
+   "declared": "51:19",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "51:19"
+   ]
+  },
+  {
+   "line": 21,
+   "quote": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+   "declared": "106:4",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "106:4"
+   ]
+  },
+  {
+   "line": 21,
+   "quote": "وَهُوَ يُطْعِمُ وَلَا يُطْعَمُ",
+   "declared": "6:14",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "6:14"
+   ]
+  },
+  {
+   "line": 21,
+   "quote": "وَٱلَّذِى هُوَ يُطْعِمُنِى وَيَسْقِينِ",
+   "declared": "26:79",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "26:79"
+   ]
+  },
+  {
+   "line": 21,
+   "quote": "أَنُطْعِمُ مَن لَّوْ يَشَآءُ ٱللَّهُ أَطْعَمَهُۥٓ",
+   "declared": "36:47",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "36:47"
+   ]
+  },
+  {
+   "line": 23,
+   "quote": "رجل طاعم حسن الحال ومطعام كثير القرى",
+   "declared": "ط ع م,B004",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000934/B004",
+   "gapped": false
+  },
+  {
+   "line": 23,
+   "quote": "الطعمة وجه المكسب وجعلت الضيعة طعمة",
+   "declared": "ط ع م,B004",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000934/B004",
+   "gapped": false
+  },
+  {
+   "line": 25,
+   "quote": "استطعمني فلان الحديث إذا أرادك على أن تحدثه",
+   "declared": "ط ع م,B003",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000934/B003",
+   "gapped": false
+  },
+  {
+   "line": 25,
+   "quote": "وإذا استطعمكم الإمام فأطعموه",
+   "declared": "ط ع م,B003",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000934/B003",
+   "gapped": false
+  },
+  {
+   "line": 25,
+   "quote": "ٱسْتَطْعَمَآ أَهْلَهَا فَأَبَوْا۟ أَن يُضَيِّفُوهُمَا",
+   "declared": "18:77",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "18:77"
+   ]
+  },
+  {
+   "line": 29,
+   "quote": "السكون ذهاب الحركة",
+   "declared": "س ك ن,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000726/B001",
+   "gapped": false
+  },
+  {
+   "line": 29,
+   "quote": "المسكين الفقير وقد يكون بمعنى الذلة والضعف",
+   "declared": "س ك ن,B006",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000726/B006",
+   "gapped": false
+  },
+  {
+   "line": 29,
+   "quote": "لَا يَسْتَطِيعُونَ ضَرْبًۭا فِى ٱلْأَرْضِ",
+   "declared": "2:273",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "2:273"
+   ]
+  },
+  {
+   "line": 29,
+   "quote": "يَحْسَبُهُمُ ٱلْجَاهِلُ أَغْنِيَآءَ مِنَ ٱلتَّعَفُّفِ",
+   "declared": "2:273",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "2:273"
+   ]
+  },
+  {
+   "line": 31,
+   "quote": "فَكَانَتْ لِمَسَٰكِينَ يَعْمَلُونَ فِى ٱلْبَحْرِ",
+   "declared": "18:79",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "18:79"
+   ]
+  },
+  {
+   "line": 31,
+   "quote": "أَوْ مِسْكِينًۭا ذَا مَتْرَبَةٍۢ",
+   "declared": "90:16",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "90:16"
+   ]
+  },
+  {
+   "line": 33,
+   "quote": "الحضيض قرار الأرض عند سفح الجبل",
+   "declared": "ح ض ض,B002",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000334/B002",
+   "gapped": false
+  },
+  {
+   "line": 33,
+   "quote": "الحضيض القرار من الأرض عند منقطع الجبل",
+   "declared": "ح ض ض,B002",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000334/B002",
+   "gapped": false
+  },
+  {
+   "line": 35,
+   "quote": "فَلَا ٱقْتَحَمَ ٱلْعَقَبَةَ",
+   "declared": "90:11",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "90:11"
+   ]
+  },
+  {
+   "line": 35,
+   "quote": "أَوْ إِطْعَٰمٌۭ فِى يَوْمٍۢ ذِى مَسْغَبَةٍۢ",
+   "declared": "90:14",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "90:14"
+   ]
+  },
+  {
+   "line": 35,
+   "quote": "يَتِيمًۭا ذَا مَقْرَبَةٍ",
+   "declared": "90:15",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "90:15"
+   ]
+  },
+  {
+   "line": 37,
+   "quote": "تمسكن إذا خضع لله",
+   "declared": "س ك ن,B006",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000726/B006",
+   "gapped": false
+  },
+  {
+   "line": 37,
+   "quote": "فَمَا ٱسْتَكَانُوا۟ لِرَبِّهِمْ",
+   "declared": "23:76",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "23:76"
+   ]
+  },
+  {
+   "line": 41,
+   "quote": "سكنت داري وأسكنتها غيرى",
+   "declared": "س ك ن,B002",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000726/B002",
+   "gapped": false
+  },
+  {
+   "line": 41,
+   "quote": "السكن أهل الدار",
+   "declared": "س ك ن,B003",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000726/B003",
+   "gapped": false
+  },
+  {
+   "line": 41,
+   "quote": "أَهْلِيكُمْ",
+   "declared": "5:89",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "5:89"
+   ]
+  },
+  {
+   "line": 43,
+   "quote": "الأسكان الأقوات واحدها سكن",
+   "declared": "س ك ن,B010",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000726/B010",
+   "gapped": false
+  },
+  {
+   "line": 43,
+   "quote": "قيل للقوت سكن لأن المكان به يسكن",
+   "declared": "س ك ن,B010",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000726/B010",
+   "gapped": false
+  },
+  {
+   "line": 43,
+   "quote": "مرعى مسكن إذا كان كثيرا لا يخرج إلى الظعن عنه",
+   "declared": "س ك ن,B010",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000726/B010",
+   "gapped": false
+  },
+  {
+   "line": 45,
+   "quote": "هدأ بعد تحرك",
+   "declared": "س ك ن,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000726/B001",
+   "gapped": false
+  },
+  {
+   "line": 47,
+   "quote": "السكن النار التي يسكن بها",
+   "declared": "س ك ن,B004",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000726/B004",
+   "gapped": false
+  },
+  {
+   "line": 47,
+   "quote": "كل ما سكنت إليه من محبوب",
+   "declared": "س ك ن,B004",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000726/B004",
+   "gapped": false
+  },
+  {
+   "line": 47,
+   "quote": "إِنَّ صَلَوٰتَكَ سَكَنٌۭ لَّهُمْ",
+   "declared": "9:103",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "9:103"
+   ]
+  },
+  {
+   "line": 49,
+   "quote": "والإطعام يقع حتى الماء",
+   "declared": "ط ع م,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000934/B001",
+   "gapped": false
+  },
+  {
+   "line": 49,
+   "quote": "وَمَن لَّمْ يَطْعَمْهُ فَإِنَّهُۥ مِنِّىٓ",
+   "declared": "2:249",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "2:249"
+   ]
+  },
+  {
+   "line": 53,
+   "quote": "خُذُوهُ فَغُلُّوهُ",
+   "declared": "69:30",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "69:30"
+   ]
+  },
+  {
+   "line": 53,
+   "quote": "إِنَّهُۥ كَانَ لَا يُؤْمِنُ بِٱللَّهِ ٱلْعَظِيمِ",
+   "declared": "69:33",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "69:33"
+   ]
+  },
+  {
+   "line": 53,
+   "quote": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+   "declared": "69:34",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "69:34"
+   ]
+  },
+  {
+   "line": 53,
+   "quote": "وَٱلَّذِينَ فِىٓ أَمْوَٰلِهِمْ حَقٌّۭ مَّعْلُومٌۭ",
+   "declared": "70:24",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "70:24"
+   ]
+  },
+  {
+   "line": 53,
+   "quote": "لِّلسَّآئِلِ وَٱلْمَحْرُومِ",
+   "declared": "70:25",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "70:25"
+   ]
+  },
+  {
+   "line": 53,
+   "quote": "وَٱلَّذِينَ يُصَدِّقُونَ بِيَوْمِ ٱلدِّينِ",
+   "declared": "70:26",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "70:26"
+   ]
+  },
+  {
+   "line": 53,
+   "quote": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
+   "declared": "1:4",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "1:4"
+   ]
+  },
+  {
+   "line": 55,
+   "quote": "فَلَيْسَ لَهُ ٱلْيَوْمَ هَٰهُنَا حَمِيمٌۭ",
+   "declared": "69:35",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "69:35"
+   ]
+  },
+  {
+   "line": 55,
+   "quote": "وَلَا طَعَامٌ إِلَّا مِنْ غِسْلِينٍۢ",
+   "declared": "69:36",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "69:36"
+   ]
+  },
+  {
+   "line": 55,
+   "quote": "لَّا يَأْكُلُهُۥٓ إِلَّا ٱلْخَٰطِـُٔونَ",
+   "declared": "69:37",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "69:37"
+   ]
+  },
+  {
+   "line": 55,
+   "quote": "وَلَمْ نَكُ نُطْعِمُ ٱلْمِسْكِينَ",
+   "declared": "74:44",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "74:44"
+   ]
+  },
+  {
+   "line": 57,
+   "quote": "إِنَّمَا نُطْعِمُكُمْ لِوَجْهِ ٱللَّهِ لَا نُرِيدُ مِنكُمْ جَزَآءًۭ وَلَا شُكُورًا",
+   "declared": "76:9",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "76:9"
+   ]
+  },
+  {
+   "line": 3,
+   "quote": null,
+   "declared": "93:6",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "93:6"
+   ]
+  },
+  {
+   "line": 3,
+   "quote": null,
+   "declared": "52:11",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "52:11"
+   ]
+  },
+  {
+   "line": 7,
+   "quote": null,
+   "declared": "59:8",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "59:8"
+   ]
+  },
+  {
+   "line": 9,
+   "quote": null,
+   "declared": "89:15",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "89:15"
+   ]
+  },
+  {
+   "line": 11,
+   "quote": null,
+   "declared": "68:17",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "68:17"
+   ]
+  },
+  {
+   "line": 11,
+   "quote": null,
+   "declared": "68:23",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "68:23"
+   ]
+  },
+  {
+   "line": 15,
+   "quote": null,
+   "declared": "memory",
+   "kind": "memory",
+   "status": "declared",
+   "found_anyway": null
+  },
+  {
+   "line": 31,
+   "quote": null,
+   "declared": "memory",
+   "kind": "memory",
+   "status": "declared",
+   "found_anyway": null
+  },
+  {
+   "line": 33,
+   "quote": null,
+   "declared": "memory",
+   "kind": "memory",
+   "status": "declared",
+   "found_anyway": null
+  },
+  {
+   "line": 35,
+   "quote": null,
+   "declared": "memory",
+   "kind": "memory",
+   "status": "declared",
+   "found_anyway": null
+  },
+  {
+   "line": 53,
+   "quote": null,
+   "declared": "69:25",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "69:25"
+   ]
+  },
+  {
+   "line": 53,
+   "quote": null,
+   "declared": "70:23",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "70:23"
+   ]
+  },
+  {
+   "line": 55,
+   "quote": null,
+   "declared": "memory",
+   "kind": "memory",
+   "status": "declared",
+   "found_anyway": null
+  },
+  {
+   "line": 57,
+   "quote": null,
+   "declared": "76:8",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "76:8"
+   ]
+  }
+ ]
+}

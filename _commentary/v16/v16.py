@@ -164,7 +164,7 @@ R1_V16_DICT = {"D", "VD", "DM"}
 V5_RUN = {1: "s001-fresh-20260910", 100: "s100-regular-20260911"}
 LANES = ["micro", "macro", "global"]
 PROSE_MIN_GZ = 0.2  # natural prose compresses to 0.28-0.38 of its size; templated lanes to 0.06-0.09
-GATE_USD = 5.0
+GATE_USD = float("inf")  # user, 2026-10-02: no cost gate; the user is told a surah's expected cost before it starts
 SESSIONS = Path(tempfile.gettempdir()) / "v16_sessions"  # per-call cwd; sessions live in ~/.claude
 OUT_TOKENS = {"ayah": 40_000, "surah": 80_000}  # assumed; E1-shaped calls measured 15-33k, the S1 surah call 71k
 MESSAGE_CAP = 64_000  # observed per-message output cap; a longer answer continues in a new turn and re-caches
@@ -409,11 +409,17 @@ def trim_hft(text: str) -> str:
     return "\n".join(out).strip() + "\n"
 
 
-def surah_build(s: int, brief: str) -> tuple[str, Path]:
+def surah_build(s: int, brief: str, channels: bool = True, hft_bundle: bool = False) -> tuple[str, Path]:
+    """channels=False (user, 2026-10-03): a surah without a channel review (S108, S110, S113, S114); hft_bundle: the
+    HFT records rendered from the ayah bundles (v9's own section_hft, byte-identical to its 02_hft.md files) for
+    surahs v9 never prepared."""
+    if brief == "r1" and (not channels or hft_bundle):
+        raise SystemExit("r1 surah builds take neither --no-channels nor --hft-bundle")
     refs = []
     while f"{s}:{len(refs) + 1}" in src().quran:
         refs.append(f"{s}:{len(refs) + 1}")
-    wd = WORK / f"s{s:03d}" / ("surah" if brief == "r1" else f"surah.{brief}")
+    wd = WORK / f"s{s:03d}" / (("surah" if brief == "r1" else f"surah.{brief}") + ("" if channels else ".nochannels")
+                               + (".hftbundle" if hft_bundle else ""))
     wd.mkdir(parents=True, exist_ok=True)
     text = wd / "text.md"
     text.write_text(f"# Surah {s}\n\n" + "\n".join(f"- {r} {src().quran[r]}" for r in refs) + "\n", encoding="utf-8")
@@ -425,13 +431,21 @@ def surah_build(s: int, brief: str) -> tuple[str, Path]:
         parts.append("\n" + HFT_NOTE)
     for r in refs:  # an ayah without v9 HFT gets a stated gap (a nohft map drops this file anyway)
         f = V9 / "input" / "v2" / f"s{s:03d}" / r.replace(":", "_") / "02_hft.md"
-        parts.append(f"\n# Focus {r}\n\n" + (trim_hft(f.read_text(encoding="utf-8")) if f.exists() else
-                                                "(no HFT records for this ayah)\n"))
+        if hft_bundle:
+            b = REPO / "bundles" / f"s{s:03d}" / f"{r.replace(':', '_')}.ayah.json"
+            bundle = json.loads(b.read_text(encoding="utf-8")) if b.exists() else {}
+            readers = (bundle.get("v12_focus_trace_hermetic") or {}).get("readers")
+            body = (trim_hft(D.P.section_hft(src(), bundle)).strip() + "\n" if readers else "").lstrip("\n")
+            body = body if body.strip() else "(no HFT records for this ayah)\n"
+        else:
+            body = trim_hft(f.read_text(encoding="utf-8")) if f.exists() else "(no HFT records for this ayah)\n"
+        parts.append(f"\n# Focus {r}\n\n" + body)
     hft.write_text("\n".join(parts), encoding="utf-8")
     ch_src = CHANNELS / f"s{s:03d}" / "reader_a_pilot.md"
     ch = wd / "channels.md"
-    ch.write_text(f"(source: {ch_src.relative_to(REPO.parent)})\n\n" + ch_src.read_text(encoding="utf-8"),
-                  encoding="utf-8")
+    if channels:
+        ch.write_text(f"(source: {ch_src.relative_to(REPO.parent)})\n\n" + ch_src.read_text(encoding="utf-8"),
+                      encoding="utf-8")
     if brief == "r1":
         prompt = (f"Surah: {s}. Follow the brief below (surah_map.md) exactly. The evidence is text.md (the surah), "
                   f"dictionary.md (every root of the surah's words, each branch with the classical dictionaries' own "
@@ -444,12 +458,32 @@ def surah_build(s: int, brief: str) -> tuple[str, Path]:
                   f"phrases), channels.md and hft.md ({JUDGEMENTS}) and your own knowledge of Arabic and the Quran. "
                   f"Return only the map as your final message.")
         files = (BRIEFS[brief]["surah"], text, dic, ch, hft)
+        if not channels:
+            prompt = (f"Surah: {s}. Follow the brief below (surah_map.md) exactly. The evidence is text.md (the "
+                      f"surah), dictionary.md (every root of the surah's words, each branch with the classical "
+                      f"dictionaries' own phrases), hft.md ({JUDGEMENTS.replace('both are', 'its records are')}) "
+                      f"and your own knowledge of Arabic and the Quran. Return only the map as your final message.")
+            files = (BRIEFS[brief]["surah"], text, dic, hft)
     full = prompt + "\n\n" + inline(*files)
     (wd / "prompt.md").write_text(full, encoding="utf-8")
     return full, wd
 
 
 # ---- calls
+
+
+def run_check(target: Path, ref: str, out: Path) -> str:
+    """check.py's record for an output; never silent (user, 2026-10-03): a failure or a missing record is printed
+    with check.py's own error and returned as "failed", for the caller's ledger row."""
+    target, out = Path(target).resolve(), Path(out).resolve()  # check.py runs in its own directory
+    out.unlink(missing_ok=True)
+    p = subprocess.run([sys.executable, str(CHECK), str(target), "--ref", ref, "--out", str(out), "--quiet"],
+                       cwd=CHECK.parent, capture_output=True, text=True)
+    if p.returncode == 0 and out.exists():
+        return "ok"
+    print(f"WARNING: check.py failed for {target} (exit {p.returncode}); no check.json\n"
+          + "\n".join((p.stderr or p.stdout).strip().splitlines()[-5:]))
+    return "failed"
 
 
 def est_tokens(text: str) -> int:  # the cost critic's calibrated formula, as in E1

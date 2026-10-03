@@ -1,0 +1,33 @@
+{
+  "id": "KURANYOLU-TEFSIR",
+  "title": "Kur'an Yolu: Türkçe Meal ve Tefsir (tefsir text)",
+  "author": "Hayreddin Karaman, Mustafa Çağrıcı, İbrahim Kâfi Dönmez, Sadrettin Gümüş",
+  "translator": "Hayreddin Karaman, Mustafa Çağrıcı, İbrahim Kâfi Dönmez, Sadrettin Gümüş",
+  "death_ah": null,
+  "kind": "tafsir_tr",
+  "tradition": "official-sunni",
+  "language": "tr",
+  "edition": "kuran.diyanet.gov.tr Mushaf, tefsir route (TefsirList); each unit carries its print reference (Kur'an Yolu Tefsiri cilt/sayfa) in 'ref'",
+  "access": "yerel",
+  "locator": "ayah",
+  "coverage": "1-45,47-66,68-76,78,87-114 + partial 46,67,77,79 (6011/6236 ayat)",
+  "urls": [
+    "https://kuran.diyanet.gov.tr/mushaf/kuran-tefsir-1/<slug>-suresi-{s}/ayet-{a}/diyanet-isleri-baskanligi-meali-1  (one request per mushaf page; page JSON MPageDmList)"
+  ],
+  "fetched_at": "2026-10-03",
+  "files": {},
+  "lineage": "diyanet",
+  "relay": null,
+  "licence": "(c) T.C. Diyanet İşleri Başkanlığı (kuran.diyanet.gov.tr); no open licence stated; local research copy only.",
+  "panel": false,
+  "host_label": "kuran.diyanet.gov.tr TefsirList",
+  "cross_witnesses": [],
+  "notes": "1231 merged verse groups stored once as a..a_end. 3 ayat empty on the host: 46:1, 67:12, 77:49 Coverage incomplete (6011/6236); re-run `fetch_meal.py fetch --sources KURANYOLU-TEFSIR` then `build` to resume.",
+  "raw_shared": [
+    "kuran.diyanet pages: ../MEAL-DIB/raw/kd/"
+  ],
+  "_notes_parts": {
+    "static": "",
+    "build": "1231 merged verse groups stored once as a..a_end. 3 ayat empty on the host: 46:1, 67:12, 77:49 Coverage incomplete (6011/6236); re-run `fetch_meal.py fetch --sources KURANYOLU-TEFSIR` then `build` to resume."
+  }
+}

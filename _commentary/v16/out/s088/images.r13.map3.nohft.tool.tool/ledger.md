@@ -1,0 +1,11 @@
+- not developed: 18 Sun's day - scattered fixed expressions, not heard in the ayat
+- not developed: 20 Well and cistern - unrelated technical senses, no staging here
+- not developed: 26 Grave - burial senses foreign to the ayat
+- not developed: 27 Generation - birth senses foreign to the ayat
+- not developed: 18:86 reading حامية - transmitted reading, outside the Quran text
+- not developed: Christians/monk reading and rider's-view gloss - exegetes' views, excluded
+- merged: 2, 3, 19 into the face/ground section; 7, 9, 24 into fire; 11, 12, 13 into camel; 15, 16 into furnishing; 22, 23 into reminder; 21 into covering
+- memory: الهيم in 56:55 = camels with thirst sickness
+- memory: ضامر in 22:27 = lean camel
+- memory: نمارق = cushions, زرابي = carpets (plain sense)
+- memory: حميم in 69:35 = close friend

@@ -1,0 +1,11 @@
+- not developed: 1 Night/dawn, odd and even prayer reading - exegetical, dropped; rest kept
+- not developed: 16 Wall and cover - merged into night/dawn section
+- not developed: 3 Rain - merged with 2 into one water section
+- not developed: 7 Raised/lowered and 22 Craft - merged into building/leveling section
+- not developed: 20 Eye - merged into lookout section
+- not developed: 11 Shares and 13 Brim - merged with 12 into food section
+- not developed: 14 Stuck to ground - merged into journey section
+- not developed: 15 Lap - merged with 10 honor section
+- not developed: 21 Breath - merged with 18 late-remembering section
+- not developed: weak members (rock hollow, rain pit, dammed flood, Lord as cloud, first rain, lung, أنّى as night hours, سارية pillar, البلد as skin mark, diggers in clay) - too remote
+- memory: إرم = stones set up as desert way-markers

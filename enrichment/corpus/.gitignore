@@ -1,0 +1,7 @@
+# Bulk source data stays local (copyrighted texts, large downloads, derived indexes).
+# Only each source's source.json (identity, URLs, hashes, licence notes) is versioned.
+*
+!.gitignore
+!*/
+!*/source.json
+!README.md

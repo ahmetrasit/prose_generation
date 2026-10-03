@@ -19,7 +19,7 @@ import re
 import sys
 from pathlib import Path
 
-QD = Path("/Volumes/OZTURK/_projects/quran-data/data")
+QD = Path(__file__).resolve().parents[3] / "quran-data" / "data"
 LISTS = QD / "analysis" / "inter-ayah" / "reciprocal"
 TEXT = QD / "text" / "quran-uthmani.tsv"
 SELF = Path(__file__).resolve()

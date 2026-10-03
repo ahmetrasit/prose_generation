@@ -155,33 +155,57 @@ NO_HFT = [
     ("Where their wording\nabstracts", "Where its wording\nabstracts"),
     ("Each channel subchannel and each HFT record you did not carry", "Each channel subchannel you did not carry"),
 ]
+# --no-channels (user, 2026-10-03): S108, S110, S113 and S114 have no channel review (short surahs; the HFT records
+# take its place, with --hft-bundle). Adapted in the packet only, like --no-hft.
+NO_CHANNELS = [
+    ("earlier readers' channel review (channels.md) and activation hypotheses (hft.md),",
+     "earlier readers' activation hypotheses (hft.md),"),
+    ("The channel review and the HFT records are proposals by earlier readers.",
+     "The HFT records are proposals by earlier readers."),
+    ("Each channel subchannel and each HFT record you did not carry", "Each HFT record you did not carry"),
+]
 NO_HFT_HEAD = ("channels.md and hft.md (both are earlier readers' proposals: ignore their judgements",
                "channels.md (an earlier reader's proposal: ignore its judgements")
 
 
-def surah_source(s: int) -> tuple[str, str]:
+def surah_source(s: int, channels: bool | None = True, hft_bundle: bool = False) -> tuple[str, str]:
     """(prompt text, its path) of the r2 surah call a map packet starts from: S1's saved call prompt (the S1 packets
-    stay byte-identical); any other surah's r2 surah prompt, built fresh by v16.surah_build (writes work/s<NNN>/)."""
+    stay byte-identical); any other surah's r2 surah prompt, built fresh by v16.surah_build (writes work/s<NNN>/).
+    channels=None: with the channel review when the surah has one (the images step needs only text.md)."""
+    if channels is None:
+        channels = (V.CHANNELS / f"s{s:03d}" / "reader_a_pilot.md").exists()
+    if s == 1 and (not channels or hft_bundle):
+        raise SystemExit("S1 map packets start from the saved r2 prompt: no --no-channels or --hft-bundle")
     if s == 1:
         p = V.OUT / "s001" / "surah.r2" / "prompt.md"
         return p.read_text(encoding="utf-8"), "out/s001/surah.r2/prompt.md"
     # v16.surah_build needs the surah's channel review; v9 HFT files are optional (a nohft map drops them)
     ayat = surah_ayat(s)
-    need = [V.CHANNELS / f"s{s:03d}" / "reader_a_pilot.md"]
+    need = [V.CHANNELS / f"s{s:03d}" / "reader_a_pilot.md"] if channels else []
     lacking = [str(x) for x in need if not x.exists()]
     if not ayat or lacking:
         raise SystemExit(f"surah {s}: inputs missing for the surah build ({len(lacking)} files, e.g. "
                          f"{lacking[0] if lacking else 'no ayat'})")
-    text, wd = V.surah_build(s, "r2")
+    text, wd = V.surah_build(s, "r2", channels, hft_bundle)
     return text, str((wd / "prompt.md").relative_to(V.HERE))
 
 
 def map_packet(brief: str = "map3", hft: bool = True, tool: bool = False, tag: str = "",
-               s: int = 1) -> tuple[str, Path]:
-    src_text, src_path = surah_source(s)
+               s: int = 1, channels: bool = True, hft_bundle: bool = False) -> tuple[str, Path]:
+    if not channels and not hft:
+        raise SystemExit("--no-channels needs the HFT records (an earlier reader's assembled proposals)")
+    if hft_bundle and not hft:
+        raise SystemExit("--hft-bundle and --no-hft exclude each other")
+    src_text, src_path = surah_source(s, channels, hft_bundle)
     head, secs = split(src_text)
     body = (V.HERE / "prompts" / brief / "surah_map.md").read_text(encoding="utf-8")
-    name = (brief if hft else f"{brief}.nohft") + (".tool" if tool else "") + (f".{tag}" if tag else "")
+    name = ((brief if hft else f"{brief}.nohft") + ("" if channels else ".nochannels")
+            + (".hftbundle" if hft_bundle else "") + (".tool" if tool else "") + (f".{tag}" if tag else ""))
+    if not channels:
+        for a, b in NO_CHANNELS:
+            if body.count(a) != 1:
+                raise SystemExit(f"brief line not found once: {a[:50]}")
+            body = body.replace(a, b)
     if not hft:
         for a, b in NO_HFT:
             if body.count(a) != 1:
@@ -191,7 +215,7 @@ def map_packet(brief: str = "map3", hft: bool = True, tool: bool = False, tag: s
             raise SystemExit("header line not found")
         head = head.replace(*NO_HFT_HEAD)
         secs = [s for s in secs if not s[0].endswith("hft.md")]
-    swap(secs, "surah_map.md", f"_commentary/v16/prompts/{brief}/surah_map.md" + ("" if hft else " (adapted)"),
+    swap(secs, "surah_map.md", f"_commentary/v16/prompts/{brief}/surah_map.md" + ("" if hft and channels else " (adapted)"),
          body)
     if tool:
         head = head.rstrip("\n") + "\n\n" + tool_line(f"S{s}")
@@ -199,7 +223,8 @@ def map_packet(brief: str = "map3", hft: bool = True, tool: bool = False, tag: s
     wd = V.WORK / f"s{s:03d}" / f"surah.{name}"
     wd.mkdir(parents=True, exist_ok=True)
     (wd / "prompt.md").write_text(text, encoding="utf-8")
-    json.dump({"brief": brief, "hft": hft, "tool": tool, "source_prompt": src_path, "prompt_sha256": sha(text),
+    json.dump({"brief": brief, "hft": hft, **({} if channels else {"channels": False}),
+               **({"hft_source": "bundles"} if hft_bundle else {}), "tool": tool, "source_prompt": src_path, "prompt_sha256": sha(text),
                "evidence_sha256": sha("".join(b for p, b in secs if not p.endswith("surah_map.md")))},
               (wd / "packet.json").open("w"), indent=1)
     return text, V.OUT / f"s{s:03d}" / f"surah.{name}"
@@ -237,6 +262,27 @@ IMAGES_DESC_OWN = ("images.md (an earlier reader's commentary on the surah's ima
                    "surah commentary's)")
 
 
+# Slice aliases (user, 2026-10-03): an ayah that repeats another ayah's words, whose images credit every shared member
+# to that other ayah, reads that ayah's image sections. Explicit, never inferred; announced on build and recorded in
+# packet.json. An ayah with no cited section and no alias stops the build (never a silent fallback).
+SLICE_ALIAS = {"94:6": "94:5"}  # 94:6 «إن مع العسر يسرا» repeats 94:5; S94 images credit ʿusr/yusr to 94:5
+
+
+def slice_report(images: Path, s: int) -> list[str]:
+    """Each ayah's image sections as a writer would receive them; ayat with none are named (`slices` command)."""
+    text = images.read_text(encoding="utf-8")
+    lacking = []
+    for ref in surah_ayat(s):
+        src = SLICE_ALIAS.get(ref, ref)
+        _, kept = slice_images(text, src, preamble=False)
+        own = [k for k in kept if not k.startswith("Buluşmalar")]
+        alias = f" (alias: reads {src})" if src != ref else ""
+        print(f"{ref}{alias}: {len(own)} image(s)" + ("" if own else "  <-- NONE: the writer build will stop"))
+        if not own:
+            lacking.append(ref)
+    return lacking
+
+
 def slice_images(text: str, ref: str, preamble: bool = True) -> tuple[str, list[str]]:
     """The images text before the first section (unless preamble=False: r13, after a process note opened the S100
     images), every `## ` section whose Kaynaklar members (the part before "Kur'an:") cite `ref`, and ## Buluşmalar;
@@ -263,7 +309,7 @@ def images_packet(map_path: Path, brief: str = "images1", tool: bool = False, s:
         raise SystemExit(f"{map_path}: incomplete map (no ## Chains or ## Ayat)")
     if map_path.parent.parent.name != f"s{s:03d}":
         raise SystemExit(f"{map_path}: not a map of surah {s}")
-    _, secs = split(surah_source(s)[0])
+    _, secs = split(surah_source(s, None)[0])
     text_sec = [s for s in secs if s[0].endswith("text.md")]
     if len(text_sec) != 1:
         raise SystemExit("surah.r2 prompt: expected one text.md section")
@@ -316,17 +362,23 @@ def writer_packet(ref: str, brief: str, map_path: Path, labels: bool, tool: bool
             raise SystemExit("header: map description not found once")
         sliced = V.BRIEFS[brief].get("slice_images", False)
         body, kept = images.read_text(encoding="utf-8"), None
+        slice_ref = SLICE_ALIAS.get(ref, ref) if sliced else ref
         if sliced:
-            body, kept = slice_images(body, ref, preamble=not V.BRIEFS[brief].get("own_images", False))
+            if slice_ref != ref:
+                print(f"NOTE: {ref} reads the image sections that cite {slice_ref} (SLICE_ALIAS)")
+            body, kept = slice_images(body, slice_ref, preamble=not V.BRIEFS[brief].get("own_images", False))
             if not any(not k.startswith("Buluşmalar") for k in kept):
-                raise SystemExit(f"{images}: no image section cites {ref} in its Kaynaklar line")
+                raise SystemExit(f"{images}: no image section cites {ref} in its Kaynaklar line; decide with the user "
+                                 f"(an explicit SLICE_ALIAS entry, the full images, or no reading)")
         recall = V.BRIEFS[brief].get("recall_rule", False)
         desc = (IMAGES_DESC_OWN if V.BRIEFS[brief].get("own_images") else
                 (IMAGES_DESC_RECALL if recall else IMAGES_DESC_SLICED) if sliced else IMAGES_DESC)
         head = head.replace(MAP_DESC, desc)
         tag = images.parent.name + ("" if labels else ".nolabel") + (".tool" if tool else "")
         swap(secs, "map.md", f"_commentary/v16/{images.relative_to(V.HERE)}"
-             + (f" (only the images that cite {ref}, and ## Buluşmalar)" if sliced else ""), body)
+             + ((f" (only the images that cite {ref}, and ## Buluşmalar)" if slice_ref == ref else
+                 f" (only the images that cite {slice_ref}, whose words {ref} repeats, and ## Buluşmalar)")
+                if sliced else ""), body)
     else:
         if not V.map_complete(map_path):
             raise SystemExit(f"{map_path}: incomplete map (no ## Chains or ## Ayat); a writer is never built on it")
@@ -347,6 +399,8 @@ def writer_packet(ref: str, brief: str, map_path: Path, labels: bool, tool: bool
         meta["images"] = str(images.relative_to(V.HERE))
         if kept is not None:
             meta["images_sections"] = kept
+            if slice_ref != ref:
+                meta["images_slice_alias"] = slice_ref
     json.dump({**meta, "prompt_sha256": sha(text)}, (wd / "packet.json").open("w"), indent=1)
     return text, V.OUT / name / f"DM.{brief}.{tag}", tag
 
@@ -390,8 +444,7 @@ def call(text: str, d: Path, kind: str, row: dict, ledger: bool, tool: bool = Fa
         (d / "images.md").write_text(prose.strip() + "\n", encoding="utf-8")
         out["map_complete"] = images_complete(d / "images.md") and bool(sep)
         # the same verification record as a reading (sources, unsourced Arabic); the focus only sets "where" labels
-        subprocess.run([sys.executable, str(V.CHECK), str(d / "images.md"), "--ref", f"{row['ref'].lstrip('S')}:1",
-                        "--out", str(d / "check.json"), "--quiet"], cwd=V.CHECK.parent)
+        out["check"] = V.run_check(d / "images.md", f"{row['ref'].lstrip('S')}:1", d / "check.json")
     elif result:
         prose, sep, led = result.partition(V.LEDGER_MARK)
         out["ledger"] = bool(sep)
@@ -399,8 +452,7 @@ def call(text: str, d: Path, kind: str, row: dict, ledger: bool, tool: bool = Fa
             (d / "ledger.md").write_text(led.strip() + "\n", encoding="utf-8")
         reading = d / f"{d.parent.name}.reading.tr.md"
         reading.write_text(prose.strip() + "\n", encoding="utf-8")
-        subprocess.run([sys.executable, str(V.CHECK), str(reading), "--ref", row["ref"], "--out",
-                        str(d / "check.json"), "--quiet"], cwd=V.CHECK.parent)
+        out["check"] = V.run_check(reading, row["ref"], d / "check.json")
     if tool:
         bad, denied = audit(d, targets)
         out["tool_audit"] = "ok" if not bad else {"unexpected_commands": bad}
@@ -418,12 +470,14 @@ def call(text: str, d: Path, kind: str, row: dict, ledger: bool, tool: bool = Fa
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=("map", "writer", "images"))
+    ap.add_argument("cmd", choices=("map", "writer", "images", "slices"))
     ap.add_argument("--brief")
     ap.add_argument("--ayah")
     ap.add_argument("--map", type=Path)
     ap.add_argument("--no-labels", action="store_true")
     ap.add_argument("--no-hft", action="store_true")
+    ap.add_argument("--no-channels", action="store_true", help="map: a surah without a channel review")
+    ap.add_argument("--hft-bundle", action="store_true", help="map: HFT records from the ayah bundles")
     ap.add_argument("--tool", action="store_true")
     ap.add_argument("--tag", default="", help="map: suffix for a new output dir (e.g. a later version of the check)")
     ap.add_argument("--model", choices=("opus", "sonnet"), default="opus", help="writer only")
@@ -432,12 +486,20 @@ def main() -> None:
     ap.add_argument("--surah", type=int, default=1, help="map and images: the surah (default 1)")
     ap.add_argument("--go", action="store_true")
     a = ap.parse_args()
+    if a.cmd == "slices":  # before a surah's readings: every ayah's slice, and the ayat a writer build would refuse
+        if not a.images:
+            ap.error("slices needs --images and --surah")
+        lacking = slice_report((V.HERE / a.images) if not a.images.is_absolute() else a.images, a.surah)
+        if lacking:
+            raise SystemExit(f"{len(lacking)} ayah(s) without image sections: {', '.join(lacking)}")
+        return
     if a.cmd == "writer" and a.surah != 1:
         ap.error("--surah is for map and images; a writer's surah comes from --ayah")
     if a.cmd == "images":
         if not a.map or a.ayah:
             ap.error("images needs --map and takes no --ayah")
-        if a.no_labels or a.no_hft or a.tag or a.images or a.model != "opus" or a.effort != "high":
+        if (a.no_labels or a.no_hft or a.no_channels or a.hft_bundle or a.tag or a.images or a.model != "opus"
+                or a.effort != "high"):
             ap.error("images takes only --map, --brief, --tool and --go")
         mp = (V.HERE / a.map) if not a.map.is_absolute() else a.map
         text, d = images_packet(mp, a.brief or "images1", a.tool, a.surah)
@@ -452,7 +514,7 @@ def main() -> None:
         brief = a.brief or "map3"
         if a.tag and not re.fullmatch(r"[a-z0-9_]+", a.tag):
             ap.error("--tag: lowercase letters, digits and _ only")
-        text, d = map_packet(brief, not a.no_hft, a.tool, a.tag, a.surah)
+        text, d = map_packet(brief, not a.no_hft, a.tool, a.tag, a.surah, not a.no_channels, a.hft_bundle)
         n_out = 130_000  # r2 map measured 121.8k output; the estimate below also shows v16's standard 80k
         _, w, o = V.MODELS["opus"]
         n_in = V.est_tokens(text)
@@ -464,6 +526,8 @@ def main() -> None:
             call(text, d, "surah", {"ref": f"S{a.surah}", "arm": "surah", "brief": d.name.replace("surah.", "")}, False,
                  a.tool)
         return
+    if a.no_channels or a.hft_bundle:
+        ap.error("--no-channels and --hft-bundle are for map only")
     if a.tag:
         ap.error("--tag is for map only; a writer's dir name comes from its --map dir")
     images = ((V.HERE / a.images) if not a.images.is_absolute() else a.images) if a.images else None

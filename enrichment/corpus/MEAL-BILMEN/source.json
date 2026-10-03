@@ -1,0 +1,39 @@
+{
+  "id": "MEAL-BILMEN",
+  "title": "Kur'ân-ı Kerîm'in Türkçe Meâl-i Âlîsi ve Tefsiri",
+  "author": "Ömer Nasuhi Bilmen",
+  "translator": "Ömer Nasuhi Bilmen",
+  "death_ah": 1391,
+  "kind": "meal",
+  "tradition": "ottoman-late-hanafi",
+  "language": "tr",
+  "edition": "kuranmeali.com about-page (Aciklama.php?id=21&islem=mealbilgi): Kur’ân-ı Kerîm’in Türkçe Meâl-i Âlîsi ve Tefsiri Ömer Nasuhi Bilmen Meali | 1883´te Erzurum´un Salasar köyünde doğdu Babası Hacı Ahmet Efendi, annesi Muhibe Hanım´dır Küçük yaştayken babasının vefat etmesi üzerine, Erzurum Ahmediyye Medresesi müderrisi ve nakibüleşraf kaymakamı olan amcası Abdürrezzak İlmi Efendi´nin himayesine girdi. | 1908´de İstanbul´a giderek derslerine devam ettiği Fatih ders",
+  "access": "yerel",
+  "locator": "ayah",
+  "coverage": "1-8,22,87-114 + partial 9 (1668/6236 ayat)",
+  "urls": [
+    "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='omernasuhi+1')",
+    "https://mealler.org/SureveAyetler.aspx?sureid={sss}&ayet={aaa}  (row \"Ömer Nasuhi Bilmen\")"
+  ],
+  "fetched_at": "2026-10-03",
+  "files": {
+    "raw/MANIFEST.sha256": "8076e32ab597fec914a5c48b44bc23d855553224a0e66175f718ae6491629b63",
+    "_count": "1719 files listed in raw/MANIFEST.sha256"
+  },
+  "lineage": null,
+  "relay": null,
+  "licence": "kuranmeali.com aggregator; no licence stated; rights remain with translator/publisher; local research copy only.",
+  "panel": true,
+  "host_label": "kuranmeali.com \"Ömer Nasuhi Bilmen Meali\" (omernasuhi)",
+  "cross_witnesses": [
+    "mealler.org \"Ömer Nasuhi Bilmen\""
+  ],
+  "notes": "kuranmeali.com gives one rendering per ayah; mealler.org repeats Bilmen's connected renderings across short ayat (e.g. 89:2-4, 100:1-2), which explains most per-ayah disagreement (~70% identical). 3 merged verse groups stored once as a..a_end. 2 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. Coverage incomplete (1668/6236); re-run `fetch_meal.py fetch --sources MEAL-BILMEN` then `build` to resume.",
+  "raw_shared": [
+    "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
+  ],
+  "_notes_parts": {
+    "static": "kuranmeali.com gives one rendering per ayah; mealler.org repeats Bilmen's connected renderings across short ayat (e.g. 89:2-4, 100:1-2), which explains most per-ayah disagreement (~70% identical).",
+    "build": "3 merged verse groups stored once as a..a_end. 2 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. Coverage incomplete (1668/6236); re-run `fetch_meal.py fetch --sources MEAL-BILMEN` then `build` to resume."
+  }
+}

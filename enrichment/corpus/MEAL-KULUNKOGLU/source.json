@@ -1,0 +1,37 @@
+{
+  "id": "MEAL-KULUNKOGLU",
+  "title": "Kur'an-ı Kerim Gerekçeli ve Açıklamalı Meali",
+  "author": "Cemal Külünkoğlu",
+  "translator": "Cemal Külünkoğlu",
+  "death_ah": null,
+  "kind": "meal",
+  "tradition": "",
+  "language": "tr",
+  "edition": "kuranmeali.com about-page (Aciklama.php?id=10&islem=mealbilgi): Kur'an-ı Kerim Gerekçeli ve Açıklamalı Meali Cemal Külünkoğlu Meali | Cemal Külünkoğlu, 1962 yılında Rize’de doğdu. Ortaöğrenimi sırasında eş zamanlı olarak Rize ve İstanbul’da medrese eğitimi aldı. Mısır’da başladığı hukuk eğitimini San Marino Üniversitesinde tamamladı. Şikago North Park Üniversitesinde İşletme Yönetimi (MBA) alanında yüksek lisans yaptı. İnsan Kaynakları Yönetimi ve Kurumsal Gel",
+  "access": "yerel",
+  "locator": "ayah",
+  "coverage": "1-8,22,87-114 + partial 9 (1707/6236 ayat)",
+  "urls": [
+    "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='cemalkulunkoglu+1')",
+    "https://mealler.org/SureveAyetler.aspx?sureid={sss}&ayet={aaa}  (row \"Cemal Külünkoğlu\")"
+  ],
+  "fetched_at": "2026-10-03",
+  "files": {},
+  "lineage": null,
+  "relay": null,
+  "licence": "kuranmeali.com aggregator; no licence stated; rights remain with translator/publisher; local research copy only.",
+  "panel": false,
+  "host_label": "kuranmeali.com \"Cemal Külünkoğlu Meali\" (cemalkulunkoglu)",
+  "cross_witnesses": [
+    "mealler.org \"Cemal Külünkoğlu\""
+  ],
+  "notes": "kuranmeali.com and mealler.org carry two different Külünkoğlu texts (~16% identical over S1, S22, S87-114; e.g. 89:7 grouped vs single-ayah, 22:3 different wording): different editions or revisions. kuranmeali (with notes) is primary; neither is dated on its host. 14 merged verse groups stored once as a..a_end. 10 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 954 segments carry footnotes in \"notes\" (808 truncated by the host, flagged notes_truncated). Coverage incomplete (1707/6236); re-run `fetch_meal.py fetch --sources MEAL-KULUNKOGLU` then `build` to resume.",
+  "raw_shared": [
+    "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/",
+    "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
+  ],
+  "_notes_parts": {
+    "static": "kuranmeali.com and mealler.org carry two different Külünkoğlu texts (~16% identical over S1, S22, S87-114; e.g. 89:7 grouped vs single-ayah, 22:3 different wording): different editions or revisions. kuranmeali (with notes) is primary; neither is dated on its host.",
+    "build": "14 merged verse groups stored once as a..a_end. 10 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 954 segments carry footnotes in \"notes\" (808 truncated by the host, flagged notes_truncated). Coverage incomplete (1707/6236); re-run `fetch_meal.py fetch --sources MEAL-KULUNKOGLU` then `build` to resume."
+  }
+}

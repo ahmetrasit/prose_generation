@@ -1,0 +1,325 @@
+## Chains
+
+### 1. The sun's day: light passed along and covered over
+Ayat 91:1–4 show one sky. The sun's light spreads into the forenoon. The moon comes after the sun in order. The day lays the sun bare, and the night draws a cover over it. The dictionary describes these bodies and hours in terms of one another again and again. The forenoon is "the sun's spreading". The day is "light from dawn to sunset". Dawn is "the sun's red in the night's black". The thirteenth night is the night "in which the moon is even". The raised moon is "الطاحي". A cloud "covers the sun's eye". Night and day "take turns". So the words of ayat 6–8 (طحاها, سواها, نفس, فجورها) and of 91:15 (عقباها) also carry senses about this sky. The relay is not finished at 91:4. Its vocabulary keeps returning through the surah.
+- 91:1 `ٱلشَّمْسِ`: ش م س B001: «الشمس عين الضح» (ayn;tahdhib); «الشمس يقال للقرصة وللضوء المنتشر عنها» (mufradat). It gives the disc and the light that spreads from it, two parts of one object.
+- 91:1 `ضُحَىٰهَا`: ض ح و B001: «الضحى انبساط الشمس وامتداد النهار وسمي الوقت به» (mufradat); «ضحوة النهار بعد طلوع الشمس ثم بعده الضحى ثم بعده الضحاء» (sihah). The dictionary joins ضحى, شمس and نهار. The forenoon is the sun's light spreading and the day lengthening, in measured stages.
+- 91:1 `ضُحَىٰهَا`: ض ح و B005: «تسمى الشمس الضحاء» (ayn); «ليلة إضحيانة وضحياء مضيئة إضاءة الضحى» (mufradat). The forenoon word can name the sun itself, and it can describe a night lit like the forenoon. This joins ضحى to شمس and to ليل.
+- 91:2 `ٱلْقَمَرِ`: ق م ر B001: «القمر قمر السماء سمى قمرا لبياضه» (maqayis). The moon is "the moon of the sky", which ties it to 91:5.
+- 91:2 `تَلَىٰهَا`: ت ل و B001: «تلاه تبعه متابعة» (mufradat). In this branch the Turkish gloss itself names the moon coming after the sun in order and as its follower. The moon comes in second place.
+- 91:3 `ٱلنَّهَارِ`: ن ه ر B002: «النهار ضياء ما بين طلوع الفجر إلى غروب الشمس» (ayn;tahdhib;maqayis); «النهار ضد الليل» (sihah). This joins نهار, فجر and شمس. The day is the span of light marked out by dawn and the sun.
+- 91:3 `جَلَّىٰهَا`: ج ل و B007: «والنهار إذا جلاها إذا بين الشمس» (tahdhib); «السماء جلواء أي مصحية» (maqayis;sihah;mufradat); «جلاء يوم واحد أي بياض يوم» (ayn;tahdhib). The dictionary quotes this ayah and names the sun as what is laid bare. It also joins جلو to سماء: a clear, cloudless sky.
+- 91:4 `ٱلَّيْلِ`: ل ي ل B001: «الليل خلاف النهار» (maqayis); «ظلام الليل» (tahdhib). This is the opposite of 91:3.
+- 91:4 `يَغْشَىٰهَا`: غ ش و B001: «أصل صحيح يدل على تغطية شيء بشيء» (maqayis); «الغشاء الغطاء» (sihah). Night lays a cover over the sun.
+- 91:5 `ٱلسَّمَآءِ`: س م و B004: «السماء كل ما علاك فأظلك» (sihah). The sky is the overhead field where the relay takes place.
+- 91:7 `سَوَّىٰهَا`: س و ي B012: «السواء ممدود ليلة ثلاث عشرة وفيها يستوي القمر» (tahdhib). This joins سواء and قمر: the night when the moon is evened out, the full moon.
+- 91:6 `طَحَىٰهَا`: ط ح و B008 [fixed expression]: «القمر الطاحي أي المرتفع والطاحي أيضا المنبسط» (tahdhib). This joins طحا and قمر: the moon raised high and its light spread.
+- 91:7 `نَفْسٍ`: ن ف س B009 [fixed expression]: «تنفس الصبح أي تبلج وتنفس النهار إذا زاد» (sihah); «تنفس النهار عبارة عن توسعه» (mufradat). Morning "breathes" as it breaks, and the day widens.
+- 91:8 `فُجُورَهَا`: ف ج ر B002: «الفجر حمرة الشمس في سواد الليل وهما فجران» (jamhara); «قيل للصبح فجر لكونه فجر الليل» (mufradat). This joins فجر, شمس and ليل. Dawn is the place where the night's cover splits.
+- 91:14 `فَعَقَرُوهَا`: ع ق ر B018: «العقر غيم ينشأ من قبل العين فيغشى عين الشمس» (ayn;tahdhib). This joins عقر, غشي and شمس: a cloud that covers the sun's eye, the same «عين» as in «الشمس عين الضح».
+- 91:15 `عُقْبَٰهَا`: ع ق ب B005: «الليل والنهار يتعاقبان» (tahdhib). This joins عقب, ليل and نهار. Night and day take turns.
+- 91:13 `ٱللَّهِ`: ء ل ه B001: «الإلاهة الشمس سميت بذلك لأن قوما كانوا يعبدونها» (maqayis). A word from the root of the divine name was used for the sun, because some people worshipped it. The oath swears by the sun as a creature, while the name in 91:13 belongs to the One who owns the camel.
+- Quran: 92:1–2 «وَٱلَّيْلِ إِذَا يَغْشَىٰ ۝ وَٱلنَّهَارِ إِذَا تَجَلَّىٰ»: God's oath opening the next surah, which pairs the same covering and uncovering. 79:29 «وَأَغْطَشَ لَيْلَهَا وَأَخْرَجَ ضُحَىٰهَا»: God asking deniers of the resurrection (scene opens 79:27), with night and forenoon as parts of the sky He built. 7:54 «يُغْشِى ٱلَّيْلَ ٱلنَّهَارَ يَطْلُبُهُۥ حَثِيثًۭا وَٱلشَّمْسَ وَٱلْقَمَرَ»: God describing creation, with night covering day in pursuit. 13:3 «يُغْشِى ٱلَّيْلَ ٱلنَّهَارَ»: God describing the earth He spread. 36:40 «لَا ٱلشَّمْسُ يَنۢبَغِى لَهَآ أَن تُدْرِكَ ٱلْقَمَرَ وَلَا ٱلَّيْلُ سَابِقُ ٱلنَّهَارِ»: God listing signs, where each body keeps its place in the order. 25:62 «جَعَلَ ٱلَّيْلَ وَٱلنَّهَارَ خِلْفَةًۭ»: night and day succeeding each other. 39:5 «يُكَوِّرُ ٱلَّيْلَ عَلَى ٱلنَّهَارِ». 10:5 «جَعَلَ ٱلشَّمْسَ ضِيَآءًۭ وَٱلْقَمَرَ نُورًۭا». 93:1–2 «وَٱلضُّحَىٰ ۝ وَٱلَّيْلِ إِذَا سَجَىٰ».
+
+### 2. Uncovering and covering: from the sun to the self to Thamud
+The surah's first operation is covering and uncovering: the day lays the sun bare and the night covers it (91:3–4). The same pair returns inside the self. In 91:8 fujūr splits a screen and taqwā keeps a screen in place. In 91:9–10 one person makes the self grow, where the dictionary names this as the opposite of دسّاها, and another hides it away. At 91:14 the pair ends in a covering that closes over the whole tribe. The dictionary itself defines دسا as «نقيض زكا» and describes the punishment that falls on a people as «عقوبة مجللة».
+- 91:1 `ضُحَىٰهَا`: ض ح و B002: «ضحى الرجل يضحى إذا تعرض للشمس» (maqayis); «ضحا الطريق إذا بدا وظهر» (maqayis;sihah); «فعل ذلك ضاحية أي ظاهرا بينا» (maqayis;ayn;sihah); «ضاحية كل بلدة ناحيتها البارزة». This is open exposure, standing out in the sun.
+- 91:3 `جَلَّىٰهَا`: ج ل و B001: «انكشاف الشيء وبروزه» (maqayis); «أصل الجلو الكشف الظاهر» (mufradat). Uncovering.
+- 91:4 `يَغْشَىٰهَا`: غ ش و B001: «الغشاء الغطاء» (sihah); «الغشاوة ما غشي القلب من رين الطبع» (ayn). A cover; the dictionary already carries it from the sky onto the heart.
+- 91:8 `فُجُورَهَا`: ف ج ر B004: «الفجور شق ستر الديانة» (mufradat). Fujūr splits a screen. B002: «قيل للصبح فجر لكونه فجر الليل» (mufradat). It is the same splitting as dawn tearing open the night's cover.
+- 91:8 `تَقْوَىٰهَا`: و ق ي B001: «كل ما وقى شيئا فهو وقاء له ووقاية» (ayn;jamhara;tahdhib); «وقاية المرأة وهي الخرقة التي بين جلبابها وشعرها» (jamhara). Taqwā is a guarding layer kept in place, the opposite of the torn screen.
+- 91:9 `زَكَّىٰهَا`: ز ك و B002: «رجل زكي تقي» (ayn). The dictionary joins zakā and taqwā, so the one who grows is also the one who is guarded.
+- 91:10 `دَسَّىٰهَا`: د س و B001: «دساها أي أخفاها» (sihah); «دس فلان نفسه إذا أخفاها وأخملها» (tahdhib). This joins دسا and نفس: the self is hidden and its name made obscure. B002: «وهو نقيض زكا يزكو زكاء وزكاة وهو داس لا زاك» (ayn). The dictionary joins the two verbs of 91:9–10 as opposites. From memory: the grammarians say دسّاها goes back to دسّسها, with one sīn turned to yāʾ. They connect it with دسّ, thrusting something out of sight. As I recall, al-Zamakhsharī adds that generous Arabs camped on rises and lit fires to be seen, while misers camped in hollows and on the margins. That puts the zakā/dassā pair in terms of standing in view against hiding.
+- 91:14 `فَدَمْدَمَ عَلَيْهِمْ`: د م د م B001: «الدَّمْدَمَة: الاستئصال». The dictionary gives only uprooting. From memory: the exegetes also explain دمدم عليهم as أطبق عليهم, "closed down over them", which is a covering sense.
+- 91:4 `يَغْشَىٰهَا`: غ ش و B002: «غاشية من عذاب الله أي عقوبة مجللة تعمهم» (tahdhib); «الغاشية كل ما يغطي الشيء ونائبة تغشاهم وتجللهم» (mufradat). This joins غشي to عقوبة, the root of 91:15. The night's verb is also the verb of a punishment that blankets a people.
+- 91:14 `فَعَقَرُوهَا`: ع ق ر B018: «العقر غيم ينشأ من قبل العين فيغشى عين الشمس» (ayn;tahdhib). The word for the deed also names a cover drawn over the sun.
+- Quran: 92:1–2, as in chain 1. 53:53–54 «وَٱلْمُؤْتَفِكَةَ أَهْوَىٰ ۝ فَغَشَّىٰهَا مَا غَشَّىٰ»: God on the overturned cities, where the covering is the punishment. 12:107 «أَن تَأْتِيَهُمْ غَٰشِيَةٌۭ مِّنْ عَذَابِ ٱللَّهِ»: God on those who feel safe. 29:55 «يَوْمَ يَغْشَىٰهُمُ ٱلْعَذَابُ مِن فَوْقِهِمْ وَمِن تَحْتِ أَرْجُلِهِمْ». 41:17 «وَأَمَّا ثَمُودُ فَهَدَيْنَٰهُمْ فَٱسْتَحَبُّوا۟ ٱلْعَمَىٰ عَلَى ٱلْهُدَىٰ فَأَخَذَتْهُمْ صَٰعِقَةُ ٱلْعَذَابِ ٱلْهُونِ»: God on Thamud, who were shown the way and chose blindness. 17:59 «وَءَاتَيْنَا ثَمُودَ ٱلنَّاقَةَ مُبْصِرَةًۭ»: the she-camel given as a sign that makes things visible. 16:59 «أَمْ يَدُسُّهُۥ فِى ٱلتُّرَابِ»: God describing the father of a newborn girl hiding from people (scene opens 16:58). Hiding and thrusting into the ground in one verb.
+
+### 3. The house of sky and earth, and the self built as a third structure
+Ayat 91:5–7 describe one building job in three verbs. The sky is joined together and raised as a roof. The earth is spread beneath it like a mat or carpet. The self is put together and evened out. The dictionary's sky is «سقف البيت». Its building root also names a domed hide tent and a spread leather mat («بسطنا له بناء أي نطعا»), and that is the very gloss given for طحو («البسط»). The earth root names «بساط ضخم». The building root also names the self's constitution («البنية الهيئة التي بني عليها») and the ribs as the posts of a house. 79:27–30 has the same verbs: بناها, فسواها, دحاها.
+- 91:5 `ٱلسَّمَآءِ`: س م و B004: «السماء سقف البيت وكل عال مطل سماء» (maqayis); «السماء كل ما علاك فأظلك» (sihah). The sky is a roof.
+- 91:5 `بَنَىٰهَا`: ب ن ي B001: «بناء الشيء بضم بعضه إلى بعض» (maqayis); «السماء بنيناها» (mufradat). Building means joining parts into one whole, and the dictionary quotes the sky as its example.
+- 91:5 `بَنَىٰهَا`: ب ن ي B004: «المبناة قبة من أدم» (tahdhib); «بسطنا له بناء أي نطعا» (tahdhib). A dome of hide, and also a mat that is spread out. The building root reaches into طحو's "spreading".
+- 91:6 `ٱلْأَرْضِ`: ء ر ض B001: «الأرض الجرم المقابل للسماء» (mufradat); «كل شيء يسفل ويقابل السماء» (maqayis). This joins أرض and سماء as the two faces of the house. B005: «الإراض بساط ضخم من وبر أو صوف» (maqayis). The earth's own root names a heavy floor carpet.
+- 91:6 `طَحَىٰهَا`: ط ح و B001: «الطحو كالدحو وهو البسط» (tahdhib;mufradat); «ودحاها وسعها» (tahdhib); «والطحا المنبسط من الأرض» (sihah). Spreading and widening, with the dictionary quoting 79:30. B005: «مظلة مطحوة ومطحية وطاحية وهو الضخم» (tahdhib). A huge spread tent.
+- 91:7 `سَوَّىٰهَا`: س و ي B002: «سويت الشيء فاستوى» (ayn;sihah); «السوي الذي سوى الله خلقه لا دمامة فيه ولا داء» (ayn). The finishing work: made even, whole and without flaw.
+- 91:7 `نَفْسٍ`: ن ف س B011: «النفس الروح الذي به حياة الجسد وكل إنسان نفس» (ayn). The third structure is a living self.
+- 91:5 `بَنَىٰهَا`: ب ن ي B002: «البنية الهيئة التي بني عليها» (tahdhib); «فلان صحيح البنية أي الفطرة» (sihah). The building root names a person's natural make-up, which bridges 91:5 and 91:7. B009: «البواني أضلاع الزور»; «البوائن جمع البوان وهو اسم كل عمود في البيت». Ribs are the posts of a house, so the body is framed like a tent.
+- 91:7 `سَوَّىٰهَا`: س و ي B004 [fixed expression]: «استوى إلى السماء أي قصد» (sihah). This joins سوى and سماء.
+- Quran: 79:27–30 «ءَأَنتُمْ أَشَدُّ خَلْقًا أَمِ ٱلسَّمَآءُ ۚ بَنَىٰهَا ۝ رَفَعَ سَمْكَهَا فَسَوَّىٰهَا ۝ وَأَغْطَشَ لَيْلَهَا وَأَخْرَجَ ضُحَىٰهَا ۝ وَٱلْأَرْضَ بَعْدَ ذَٰلِكَ دَحَىٰهَآ»: God asking deniers of the resurrection, with the same sequence in the same rhyme. 2:22 «جَعَلَ لَكُمُ ٱلْأَرْضَ فِرَٰشًۭا وَٱلسَّمَآءَ بِنَآءًۭ»: God addressing mankind. 51:47–48 «وَٱلسَّمَآءَ بَنَيْنَٰهَا بِأَيْي۟دٍۢ ... وَٱلْأَرْضَ فَرَشْنَٰهَا»: God's speech. 50:6 «كَيْفَ بَنَيْنَٰهَا وَزَيَّنَّٰهَا وَمَا لَهَا مِن فُرُوجٍۢ»: God to the deniers, a built sky without cracks. 71:19 «جَعَلَ لَكُمُ ٱلْأَرْضَ بِسَاطًۭا»: Noah to his people. 88:20 «وَإِلَى ٱلْأَرْضِ كَيْفَ سُطِحَتْ». 2:29 and 41:11 «ثُمَّ ٱسْتَوَىٰٓ إِلَى ٱلسَّمَآءِ»: God turning to the sky. 2:29 «فَسَوَّىٰهُنَّ سَبْعَ سَمَٰوَٰتٍۢ». 82:7 «ٱلَّذِى خَلَقَكَ فَسَوَّىٰكَ فَعَدَلَكَ»: God addressing man. 32:9 «ثُمَّ سَوَّىٰهُ وَنَفَخَ فِيهِ مِن رُّوحِهِۦ»: the forming of man.
+
+### 4. Levelled: the evened self and the razed tribe
+The same verb comes twice. At 91:7 سوّاها evens a self into a sound shape. At 91:14 فسوّاها levels a tribe flat. Between them come the earth spread flat (طحاها) and the she-camel brought down by cutting her legs. The dictionary's طحو also means being struck down and lying stretched on the ground, and it also means perishing. سوي also names wide, flat ground and "equal". So the levelling of 91:14 lays Thamud as flat as the spread earth of 91:6. This is the reversal of the proportioned self.
+- 91:7 `سَوَّىٰهَا`: س و ي B002: «سويت الشيء فاستوى» (ayn;sihah). Evened into a sound form.
+- 91:14 `فَسَوَّىٰهَا`: س و ي B009: «السِيّ الفضاء من الأرض الواسع» (jamhara). Flat, wide ground. B001: «السِيّ المثل من قولهم سِيّان أي مثلان» (jamhara;maqayis;mufradat). Made equal: none of them is spared, they are all alike.
+- 91:6 `طَحَىٰهَا`: ط ح و B006: «ضربه ضربة طحا منها أي امتد» (sihah); «وطحى البعير إلى الأرض أي لزق بها» (tahdhib). Struck down and lying stretched out; a camel pressed flat to the ground. B007: «طحا إذا هلك» (tahdhib).
+- 91:6 `ٱلْأَرْضِ`: ء ر ض B006: «التأرض أيضا التثاقل إلى الأرض» (sihah). Sinking heavily to the ground.
+- 91:14 `فَعَقَرُوهَا`: ع ق ر B002: «عقرت الفرس أي كسعت قوائمه بالسيف» (maqayis). The legs are cut so that the animal falls. This is the first felling, the camel's.
+- 91:14 `فَدَمْدَمَ`: د م د م B001: «الدَّمْدَمَة: الاستئصال». Pulled up by the root, the second felling, the tribe's.
+- Quran: 4:42 «لَوْ تُسَوَّىٰ بِهِمُ ٱلْأَرْضُ»: God on the deniers' wish on the Day to be levelled with the ground. 7:77–78 «فَعَقَرُوا۟ ٱلنَّاقَةَ ... فَأَخَذَتْهُمُ ٱلرَّجْفَةُ فَأَصْبَحُوا۟ فِى دَارِهِمْ جَٰثِمِينَ»: God narrating Thamud (scene opens 7:73). 11:67–68 «فَأَصْبَحُوا۟ فِى دِيَٰرِهِمْ جَٰثِمِينَ ۝ كَأَن لَّمْ يَغْنَوْا۟ فِيهَآ». 54:31 «فَكَانُوا۟ كَهَشِيمِ ٱلْمُحْتَظِرِ». 27:51 «أَنَّا دَمَّرْنَٰهُمْ وَقَوْمَهُمْ أَجْمَعِينَ»: God on Thamud's nine plotters (scene opens 27:48). 75:4 «بَلَىٰ قَٰدِرِينَ عَلَىٰٓ أَن نُّسَوِّىَ بَنَانَهُۥ»: God, who evens the fingertips.
+
+### 5. The field: spread ground, the plough, water, growth, and ground that bears nothing
+The earth spread in 91:6 is farmland in the dictionary. It is soft and fertile ground called «زكية», with plants that spread across its surface. أفلح is the ploughman's splitting of the soil. زكا is the crop's growth. سقيا is a plot's share of water. Rivers and bursting springs cut channels through the ground, and the ذنب of a valley is its run-off course. The sky's own root names rain and plants, and the root of "Lord" names a cloud that raises plants. The reverse also stands in the surah's words. خاب carries ground that got no rain. دسّا, from memory, is a thrusting into soil. عقر carries sand that grows nothing and a palm cut at the crown. So 91:9–10 can be heard as a field that is ploughed, watered and growing set against one that is buried or unrained.
+- 91:6 `ٱلْأَرْضِ`: ء ر ض B002: «أرض أريضة أي زكية» (sihah); «تأرض النبت تمكن على الأرض فكثر» (mufradat). This joins أرض and زكا: fertile ground is "growing" ground.
+- 91:6 `طَحَىٰهَا`: ط ح و B006: «والبقلة المطحية النابتة على وجه الأرض قد افترشتها» (tahdhib). This joins طحا and أرض: a plant spread flat across the ground's face.
+- 91:9 `أَفْلَحَ`: ف ل ح B001: «فلحت الأرض شققتها» (maqayis;sihah;tahdhib). B003: «سمي الأكار فلاحا لأنه يشق الأرض». Splitting the soil, and the ploughman.
+- 91:9 `زَكَّىٰهَا`: ز ك و B001: «زكا الزرع يزكو زكاء ممدود أي نما» (sihah); «أصل الزكاة النمو الحاصل عن بركة الله تعالى» (mufradat). The crop grows.
+- 91:13 `وَسُقْيَٰهَا`: س ق ي B003: «كم سقى أرضك أي حظها من الشرب» (maqayis;tahdhib). A plot's share of water.
+- 91:3 `ٱلنَّهَارِ`: ن ه ر B001: «سمي النهر لأنه ينهر الأرض أي يشقها» (maqayis). This joins نهر and أرض; the river splits the ground just as the plough does in أفلح.
+- 91:8 `فُجُورَهَا`: ف ج ر B001: «الفجرة موضع تفتح الماء» (maqayis;sihah); «شق الشيء شقا واسعا» (mufradat). The place where water opens out.
+- 91:14 `بِذَنۢبِهِمْ`: ذ ن ب B004: «المذانب مذانب التلاع وهي مسايل الماء فيها» (maqayis). Water courses in the slopes. B005: «المذنب ما أرطب من قبل ذنبه» (mufradat). A date ripening from its tail end.
+- 91:5 `ٱلسَّمَآءِ`: س م و B004: «العرب تسمى السحاب سماء والمطر سماء» (maqayis); «سمي المطر سماء» ; «سمي النبات سماء» (mufradat). Sky, rain and plant share one name.
+- 91:14 `رَبُّهُم`: ر ب ب B008: «الرباب: السحاب، سمي بذلك لأنه يرب النبات» (mufradat). A cloud named for raising plants. B002: «التربية، وهو إنشاء الشيء حالا فحالا إلى حد التمام» (mufradat). Raising stage by stage to completion.
+- 91:10 `خَابَ`: خ ي ب B004: «الخوبة والقواية والخطيطة الأرض التي لم تمطر». Unrained ground. This sits inside the branch as a خ و ب form; the same branch also records «لا أدري ما أصابتهم خوبة وأظنه حوبة» and then «والخوبة بالخاء صحيح».
+- 91:10 `دَسَّىٰهَا`: د س و B002: «وهو نقيض زكا يزكو زكاء» (ayn). The opposite of growing. From memory: as دسّسها it is the thrusting-into-soil of 16:59.
+- 91:14 `فَعَقَرُوهَا`: ع ق ر B017: «العاقر من الرمل ما لا ينبت شيئا» (maqayis). B007: «عقرت النخلة إذا قطعت رأسها كله مع الجمار» (sihah). Sand that grows nothing, and a palm whose growing point is cut out.
+- Quran: 80:25–27 «أَنَّا صَبَبْنَا ٱلْمَآءَ صَبًّۭا ۝ ثُمَّ شَقَقْنَا ٱلْأَرْضَ شَقًّۭا ۝ فَأَنۢبَتْنَا فِيهَا حَبًّۭا»: God telling man to look at his food (scene opens 80:24); pouring, splitting, growth. 2:22 «وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءًۭ فَأَخْرَجَ بِهِۦ مِنَ ٱلثَّمَرَٰتِ». 79:31 «أَخْرَجَ مِنْهَا مَآءَهَا وَمَرْعَىٰهَا», after the spreading of 79:30. 2:74 «وَإِنَّ مِنَ ٱلْحِجَارَةِ لَمَا يَتَفَجَّرُ مِنْهُ ٱلْأَنْهَٰرُ ۚ وَإِنَّ مِنْهَا لَمَا يَشَّقَّقُ فَيَخْرُجُ مِنْهُ ٱلْمَآءُ»: God to the Children of Israel, whose hearts are harder than such rocks. 20:76 «جَنَّٰتُ عَدْنٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ ... وَذَٰلِكَ جَزَآءُ مَن تَزَكَّىٰ»: the believing sorcerers to Pharaoh (scene opens 20:72). 9:103 «تُطَهِّرُهُمْ وَتُزَكِّيهِم بِهَا». 16:59, as above.
+
+### 6. Breach and overflow, against the guarding barrier
+In 91:8 two things are placed in the self: a bursting-open (fujūr) and a guard set between the self and harm (taqwā). Thamud's طغوى is water rising over everything and sweeping it away. The most wretched one "surged out" (انبعث). The dictionary's own definitions tie these together. Fujūr is «الانبعاث والتفتح في المعاصي», and the bursting of water is «إذا انبعث سائلا». The two ayat (91:8, 91:12) share one verb of release. The overflow ends in the overflow of punishment. «أهلكوا بالطاغية أي بطغيانهم»: Thamud perished by "the overflowing thing", that is, by their own overflow.
+- 91:8 `فُجُورَهَا`: ف ج ر B001: «وانفجر الماء وغيره انفجارا إذا انبعث سائلا» (jamhara). This joins فجر and انبعث: water bursting out. B004: «الانبعاث والتفتح في المعاصي فجورا» (maqayis); «انبعاثه في المعاصي» (jamhara); «كل مائل عن الحق فاجر» (maqayis); «فجر فجورا أي فسق وفجر أي كذب وأصله الميل» (sihah). This joins فجور to انبعث (91:12) and to كذب (91:11, 14).
+- 91:8 `تَقْوَىٰهَا`: و ق ي B001: «دفع شيء عن شيء بغيره» (maqayis). B002: «اتق الله توقه أي اجعل بينك وبينه كالوقاية» (maqayis); «التقوى جعل النفس في وقاية مما يخاف» (mufradat). This joins تقوى, نفس and خاف (91:15). Taqwā is a barrier placed between the self and what it fears.
+- 91:11 `بِطَغْوَىٰهَآ`: ط غ ي B001: «مجاوزة الحد في العصيان» (maqayis;mufradat). B002 [fixed expression]: «طغى السيل إذا جاء بماء كثير» (maqayis;sihah); «طغا البحر والماء إذا علا كل شيء فاجترفه» (tahdhib). A flood rising over everything and sweeping it off. B004: «أهلكوا بالطاغية أي بطغيانهم مصدر على فاعلة» (tahdhib); «الطاغية الصاعقة ويعني صيحة العذاب» (sihah). Thamud's overflow turns into what destroys them.
+- 91:12 `ٱنۢبَعَثَ`: ب ع ث B001: «أصل البعث إثارة الشيء وتوجيهه» (mufradat). Something roused and aimed. B004: «انبعث القوم في الخير والشر انبعاثا إذا تتابعوا» (jamhara); «كره الله انبعاثهم أي توجههم ومضيهم» (mufradat). A setting-off, which others follow.
+- 91:8 `فُجُورَهَا`: ف ج ر B003 [fixed expression]: «انفجرت عليهم الدواهي إذا جاءهم الكثير منها بغتة» (ayn). The reversal: disasters burst over them.
+- Quran: 69:5 «فَأَمَّا ثَمُودُ فَأُهْلِكُوا۟ بِٱلطَّاغِيَةِ»: God on Thamud, quoted in the dictionary. 69:11 «إِنَّا لَمَّا طَغَا ٱلْمَآءُ حَمَلْنَٰكُمْ فِى ٱلْجَارِيَةِ»: God on Noah's flood, the physical form of طغى. 89:9–13 «وَثَمُودَ ٱلَّذِينَ جَابُوا۟ ٱلصَّخْرَ بِٱلْوَادِ ... ٱلَّذِينَ طَغَوْا۟ فِى ٱلْبِلَٰدِ ... فَصَبَّ عَلَيْهِمْ رَبُّكَ سَوْطَ عَذَابٍ»: God on ʿĀd, Thamud and Pharaoh, whose overflow is answered by punishment poured down. 75:5 «بَلْ يُرِيدُ ٱلْإِنسَٰنُ لِيَفْجُرَ أَمَامَهُۥ». 79:37–41 «فَأَمَّا مَن طَغَىٰ ... وَأَمَّا مَنْ خَافَ مَقَامَ رَبِّهِۦ وَنَهَى ٱلنَّفْسَ عَنِ ٱلْهَوَىٰ»: God on the two outcomes; overflow against fear, and the self held back. 96:6–7 «إِنَّ ٱلْإِنسَٰنَ لَيَطْغَىٰٓ ۝ أَن رَّءَاهُ ٱسْتَغْنَىٰٓ». 9:46 «كَرِهَ ٱللَّهُ ٱنۢبِعَاثَهُمْ»: God on the hypocrites, quoted in the dictionary.
+
+### 7. Swallowing and drink: what is given into the self, the she-camel's turn, the tribe's bucket
+ألهمها means "made her swallow". The dictionary explains إلهام as something cast into the heart which the heart then gulps down, and it names a camel's calf draining its mother's udder. نفس names a draught and names water itself. The she-camel's سقيا is her drink and her share of the water. The tribe's ذنب comes from the root of ذَنوب, a full bucket and an allotted share. Across the surah: God gives the self its two portions to swallow. The messenger names the camel's draught. The tribe that denied her draught receives its own share.
+- 91:8 `فَأَلْهَمَهَا`: ل ه م B001: «لهمت الشيء وقلما يقال إلا التهمت وهو ابتلاعه بمرة» (ayn;tahdhib); «التهم الفصيل ما في ضرع أمه استوفاه» (maqayis;sihah;mufradat). Swallowing in one gulp; a calf draining the udder. B002: «الإلهام كأنه شيء ألقى في الروع فالتهمه» (maqayis); «الإلهام إلقاء الشيء في الروع ويختص بما كان من جهة الله تعالى» (mufradat). The dictionary joins swallowing and inspiration in one phrase.
+- 91:7 `نَفْسٍ`: ن ف س B006: «كرع في الإناء نفسا أو نفسين» (maqayis). A draught. B008: «يقال للماء نفس ولأن قوام النفس به» (maqayis). Water is called نفس because the self depends on it. B001: «التنفس خروج النسيم من الجوف» (maqayis;ayn). Breath goes in and out like drink.
+- 91:13 `وَسُقْيَٰهَا`: س ق ي B001: «السقي والسقيا أن يعطيه ما يشرب» (mufradat). B002: «الإسقاء أن يجعل له ذلك حتى يتناوله كيف شاء» (mufradat). Drink given, and a supply set aside for her to take freely.
+- 91:13 `رَسُولُ`: ر س ل B006: «الرسل اللبن الكثير المتتابع الدر» (mufradat). Plentiful milk flowing in succession, the camel's yield. From memory: in the exegetical tradition the she-camel drank on her day and gave milk to all of them.
+- 91:14 `بِذَنۢبِهِمْ`: ذ ن ب B007: «الذنوب الدلو الملأى ماء» (sihah). A bucket full of water. B006: «الذنوب في التنزيل هو النصيب» (jamhara). A share or portion. The water-share of 91:13 is answered by the bucket-share of 91:14.
+- Quran: 26:155 «هَٰذِهِۦ نَاقَةٌۭ لَّهَا شِرْبٌۭ وَلَكُمْ شِرْبُ يَوْمٍۢ مَّعْلُومٍۢ»: Ṣāliḥ to Thamud (scene opens 26:141). 54:28 «وَنَبِّئْهُمْ أَنَّ ٱلْمَآءَ قِسْمَةٌۢ بَيْنَهُمْ ۖ كُلُّ شِرْبٍۢ مُّحْتَضَرٌۭ»: God instructing Ṣāliḥ (scene opens 54:23). 51:59 «فَإِنَّ لِلَّذِينَ ظَلَمُوا۟ ذَنُوبًۭا مِّثْلَ ذَنُوبِ أَصْحَٰبِهِمْ»: God on the wrongdoers, given a bucket-share like their predecessors'. 2:60 «فَٱنفَجَرَتْ مِنْهُ ٱثْنَتَا عَشْرَةَ عَيْنًۭا ۖ قَدْ عَلِمَ كُلُّ أُنَاسٍۢ مَّشْرَبَهُمْ»: God to the Children of Israel, water burst from rock and divided into drinking places.
+
+### 8. The she-camel's body: roused, followed, easy-gaited, watered, cut at the hock
+Several of the surah's words carry the handling of a she-camel. The dictionary joins them to ناقة directly. بعثت الناقة is rousing a kneeling camel. تلو الناقة is the young that follows her. ناقة رسلة is a camel easy in the joints and gait. سقيا is her drink. Then come the cut leg and the hock tendon. The عقب of 91:15 is the tendon behind the heel, «العرقوب», which is exactly what عقر cuts. ذنب is the animal's rear end.
+- 91:13 `نَاقَةَ`: ن و ق B002: «ناقة ونوق» (maqayis). The she-camel.
+- 91:12 `ٱنۢبَعَثَ`: ب ع ث B001: «بعثت الناقة إذا أثرتها» (maqayis;sihah); «بعثت البعير فانبعث إذا حللت عقاله وأرسلته لو كان باركا فأثرته» (tahdhib). This joins بعث and ناقة, and joins بعث and أرسل. The verb is "rise from kneeling, loosed from the hobble". In 91:12 it is the man who rises up against the camel.
+- 91:2 `تَلَىٰهَا`: ت ل و B006: «تلو الناقة ولدها الذي يتلوها». This joins تلا and ناقة: the young following its mother, the way the moon follows the sun. From memory: the tradition records that her young fled to the mountain after she was cut down.
+- 91:13 `رَسُولُ`: ر س ل B003: «ناقة رسلة لينة المفاصل» (maqayis); «ناقة رسلة سهلة السير وإبل مراسيل منبعثة انبعاثا سهلا» (mufradat). This joins رسل, ناقة and انبعث: a camel loose in the joints, set going easily.
+- 91:8 `فَأَلْهَمَهَا`: ل ه م B001: «التهم الفصيل ما في ضرع أمه استوفاه». The calf draining her udder.
+- 91:13 `وَسُقْيَٰهَا`: س ق ي B001: «السقي والسقيا أن يعطيه ما يشرب» (mufradat). Her drink.
+- 91:14 `فَعَقَرُوهَا`: ع ق ر B002: «عقرت الفرس أي كسعت قوائمه بالسيف» (maqayis); «عقر البعير كسف عرقوبه ثم جعل النحر عقرا» (tahdhib). The hock tendon is cut, the animal falls, then it is slaughtered.
+- 91:15 `عُقْبَٰهَا`: ع ق ب B001: «العرقوب عقب موتر خلف الكعبين والراء زائدة» (maqayis-variant); «العقب العصب الذي تعمل منه الأوتار» (ayn). The very tendon عقر cuts. B002: «العقب مؤخر القدم» (ayn). The heel.
+- 91:14 `بِذَنۢبِهِمْ`: ذ ن ب B002: «ذنب وهو مؤخر الدواب» (maqayis). The animal's rear, where a hamstringing strikes.
+- Quran: 54:27–29 «إِنَّا مُرْسِلُوا۟ ٱلنَّاقَةِ فِتْنَةًۭ لَّهُمْ ... فَنَادَوْا۟ صَاحِبَهُمْ فَتَعَاطَىٰ فَعَقَرَ»: God tells Ṣāliḥ He is sending the camel; then the one man reaches for the blade and hamstrings her (scene opens 54:23). 7:73 «هَٰذِهِۦ نَاقَةُ ٱللَّهِ لَكُمْ ءَايَةًۭ ۖ فَذَرُوهَا تَأْكُلْ فِىٓ أَرْضِ ٱللَّهِ ۖ وَلَا تَمَسُّوهَا بِسُوٓءٍۢ»: Ṣāliḥ to Thamud. 11:64–65, the same scene ending «فَعَقَرُوهَا». 26:156–157 «وَلَا تَمَسُّوهَا بِسُوٓءٍۢ ... فَعَقَرُوهَا فَأَصْبَحُوا۟ نَٰدِمِينَ». 17:59 «وَءَاتَيْنَا ثَمُودَ ٱلنَّاقَةَ مُبْصِرَةًۭ فَظَلَمُوا۟ بِهَا».
+
+### 9. Sending and following
+The moon follows the sun in proper order. A messenger is sent from God and speaks. The most wretched one sends himself off: انبعث, a reflexive form of the verb the dictionary uses for God's sending of messengers. The tribe follow him, as tails follow heads, and call the messenger a liar. Right following and wrong following are set against each other: the moon following its leader, the tribe following its most wretched.
+- 91:2 `تَلَىٰهَا`: ت ل و B001: «تلاه تبعه متابعة» (mufradat). Following. B002: «التلاوة تختص باتباع كتب الله المنزلة تارة بالقراءة وتارة بالارتسام» (mufradat). Following a revealed book by reciting it and by acting on it.
+- 91:13 `رَسُولُ`: ر س ل B001: «أصل واحد يدل على الانبعاث والامتداد» (maqayis); «الإرسال يقابل الإمساك» (mufradat). This joins رسل and انبعث. B002: «الرسول يقال للقول المتحمل وتارة لمتحمل القول والرسالة» (mufradat). B005: «جاءوا أرسالا أي متتابعين» (mufradat).
+- 91:12 `ٱنۢبَعَثَ`: ب ع ث B002: «ولقد بعثنا في كل أمة رسولا نحو أرسلنا رسلنا» (mufradat). The dictionary joins بعث and رسول: God's sending against the man's sending of himself. B004: «انبعث القوم في الخير والشر انبعاثا إذا تتابعوا» (jamhara). Setting out, with others following.
+- 91:12 `أَشْقَىٰهَا`: ش ق و B001: «الشقوة خلاف السعادة» (maqayis). The one at the front of the tribe is its most wretched.
+- 91:13 `فَقَالَ`: ق و ل B001: «القول من النطق» (maqayis). The messenger's spoken word.
+- 91:11 `كَذَّبَتْ` / 91:14 `فَكَذَّبُوهُ`: ك ذ ب B002: «كذبته نسبته إلى الكذب» (mufradat); «أكذبت الرجل ألفيته كاذبا وكذبته إذا قلت له كذبت» (sihah). Refusing to follow: calling the sent one a liar.
+- 91:14 `بِذَنۢبِهِمْ`: ذ ن ب B003: «ذنب الرجل أتباعه وأذناب القوم أتباع الرؤساء» (tahdhib). Followers who trail their chiefs.
+- 91:15 `عُقْبَٰهَا`: ع ق ب B005: «العاقب الذي يجيء في أثر صاحبه» (jamhara). B002: «موطأ العقب أي كثير الأتباع» (maqayis). Coming in another's footsteps.
+- Quran: 16:36 «وَلَقَدْ بَعَثْنَا فِى كُلِّ أُمَّةٍۢ رَّسُولًا ... فَٱنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُكَذِّبِينَ»: God's speech, sending, denial and sequel in one ayah. 54:24 «أَبَشَرًۭا مِّنَّا وَٰحِدًۭا نَّتَّبِعُهُۥٓ»: Thamud refusing to follow one man (scene opens 54:23). 54:29 «فَنَادَوْا۟ صَاحِبَهُمْ فَتَعَاطَىٰ فَعَقَرَ». They summon their man, and he acts for them. 7:75–77: Thamud's arrogant chiefs against those who believe «أَنَّ صَٰلِحًۭا مُّرْسَلٌۭ مِّن رَّبِّهِۦ», ending «إِن كُنتَ مِنَ ٱلْمُرْسَلِينَ». 26:141–143 «كَذَّبَتْ ثَمُودُ ٱلْمُرْسَلِينَ ... إِنِّى لَكُمْ رَسُولٌ أَمِينٌۭ». 7:79 «لَقَدْ أَبْلَغْتُكُمْ رِسَالَةَ رَبِّى»: Ṣāliḥ turning away from the destroyed tribe.
+
+### 10. The offence and what comes at its heel
+ذنب and عقب are both names for the rear of a body: the tail and the heel. The dictionary defines each as "the last of a thing". It also joins them in so many words: punishment «سميت عقوبة لأنها تكون آخرا وثاني الذنب», «عاقبته بذنبه». Its definition of ذنب is «كل فعل يستوخم عقباه». So 91:14–15 runs as one movement: their offence, its sequel, and the One who brings it. He does not fear what follows, and «لا معقب لحكمه».
+- 91:14 `بِذَنۢبِهِمْ`: ذ ن ب B001: «يستعمل في كل فعل يستوخم عقباه» (mufradat). This joins ذنب and عقبى. B002: «ذنب كل شيء آخره» (tahdhib). The tail end.
+- 91:15 `عُقْبَٰهَا`: ع ق ب B006: «عاقبة كل شيء آخره والعقبى جزاء الأمر» (sihah). B007: «العقاب العقوبة وقد عاقبته بذنبه» (sihah); «سميت عقوبة لأنها تكون آخرا وثاني الذنب» (maqayis). This joins عقب and ذنب: punishment is "second to the offence". B008: «لا معقب لحكمه أي لا راد لقضائه» (ayn); «المعقب الذي يتتبع عقب إنسان في طلب حق» (ayn). Nobody comes after the judge to demand redress.
+- 91:15 `يَخَافُ`: خ و ف B001: «الخوف توقع مكروه عن أمارة مظنونة أو معلومة» (mufradat). Fear is the expectation of harm from a sign. B002: «التخويف من الله تعالى هو الحث على التحرز» (mufradat). God makes others fear; He Himself fears no sequel.
+- 91:14 `فَدَمْدَمَ عَلَيْهِمْ رَبُّهُم`: د م د م B001: «الدَّمْدَمَة: الاستئصال». ر ب ب B001: «رب كل شئ: مالكه» (sihah). The owner, who is also owner of the camel (ناقة الله), carries out the sequel.
+- 91:4 `يَغْشَىٰهَا`: غ ش و B002: «غاشية من عذاب الله أي عقوبة مجللة تعمهم» (tahdhib). The sequel arrives as a covering.
+- 91:9 `زَكَّىٰهَا`: ز ك و B002: «حلالا لا يستوخم عقباه» (mufradat). This joins زكا and عقبى: what is pure has a sequel that does not sicken. It is the reverse of ذنب's definition.
+- Quran: 13:41 «وَٱللَّهُ يَحْكُمُ لَا مُعَقِّبَ لِحُكْمِهِۦ»: God's speech. 27:51 «فَٱنظُرْ كَيْفَ كَانَ عَٰقِبَةُ مَكْرِهِمْ أَنَّا دَمَّرْنَٰهُمْ»: God on Thamud's nine plotters (scene opens 27:48). 16:36, as above. 17:59 «وَمَا نُرْسِلُ بِٱلْءَايَٰتِ إِلَّا تَخْوِيفًۭا», on the she-camel sent as a sign. 29:40 «فَكُلًّا أَخَذْنَا بِذَنۢبِهِۦ ... وَمِنْهُم مَّنْ أَخَذَتْهُ ٱلصَّيْحَةُ», from memory: God summing up the destroyed peoples. 11:65 «تَمَتَّعُوا۟ فِى دَارِكُمْ ثَلَٰثَةَ أَيَّامٍۢ ۖ ذَٰلِكَ وَعْدٌ غَيْرُ مَكْذُوبٍۢ», the sequel announced after the hamstringing. 26:156 «فَيَأْخُذَكُمْ عَذَابُ يَوْمٍ عَظِيمٍۢ». 51:59, as above.
+
+### 11. What the seeker comes away with: staying on in good, the dead fire-drill, the wretched toiler
+91:9–12 sets out outcomes. أفلح is staying on in good and reaching what was sought. خاب is losing what was sought, and the dictionary roots it in «القدح الذي لا يوري», a fire-drill that gives no spark. That spark sets the outcome against the surah's opening lights. أشقى is wretchedness and toil. The dictionary joins خاب to the hidden self in one phrase, quoting 91:10.
+- 91:9 `أَفْلَحَ`: ف ل ح B005: «الفلاح والفلح البقاء في الخير» (ayn;tahdhib); «الفلاح الفوز والنجاة والبقاء» (sihah); «أفلح وأنجح إذا أدرك مطلوبه» (jamhara); «الفلاح الظفر وإدراك بغية» (mufradat). Remaining, and reaching the goal.
+- 91:10 `خَابَ`: خ ي ب B001: «سعى في أمر فخاب إذا حرم فلم يفد خيرا» (maqayis); «الخيبة فوت الطلب» (mufradat). Missing what was sought. B002: «الأصل قولهم للقدح الذي لا يوري هو خياب» (maqayis). The striker that makes no fire.
+- 91:10 `دَسَّىٰهَا`: د س و B002: «خاب من دس نفسه أي أخملها وخسس حظها» (tahdhib). This joins خاب, دس and نفس: the self's share made small.
+- 91:12 `أَشْقَىٰهَا`: ش ق و B001: «الشقوة خلاف السعادة» (maqayis). B002: «يوضع الشقاء موضع التعب وكل شقاوة تعب وليس كل تعب شقاوة» (mufradat). Wretchedness as weary toil.
+- 91:15 `عُقْبَٰهَا`: ع ق ب B006: «عاقبة كل شيء آخره». How it ends.
+- Quran: 87:10–14 «سَيَذَّكَّرُ مَن يَخْشَىٰ ۝ وَيَتَجَنَّبُهَا ٱلْأَشْقَى ... قَدْ أَفْلَحَ مَن تَزَكَّىٰ»: God's speech placing الأشقى and أفلح … تزكّى in one passage. 92:15 «لَا يَصْلَىٰهَآ إِلَّا ٱلْأَشْقَى». 11:105 «فَمِنْهُمْ شَقِىٌّۭ وَسَعِيدٌۭ». 23:106 «رَبَّنَا غَلَبَتْ عَلَيْنَا شِقْوَتُنَا»: the damned speaking. 20:61 «وَقَدْ خَابَ مَنِ ٱفْتَرَىٰ»: Moses to the sorcerers. 20:111 «وَقَدْ خَابَ مَنْ حَمَلَ ظُلْمًۭا»: the Day of Judgement. 14:15 «وَخَابَ كُلُّ جَبَّارٍ عَنِيدٍۢ». 35:18 «وَمَن تَزَكَّىٰ فَإِنَّمَا يَتَزَكَّىٰ لِنَفْسِهِۦ».
+
+### 12. Thamud's ground: rock faces and heights, palaces on the spread plain
+The words of the Thamud ayat carry the terrain of the rock-hewers. طغوى carries «الصفاة الملساء», a smooth rock face, and a mountain top. أشقى carries a long ridge that is easy to climb. ناقة carries the mountain's highest point. عقبى carries a rough mountain pass. Against these heights stand the built and spread plain of 91:5–6, where «بنى قصورا» and طحا is flat ground. عقر names a raised building where villagers take refuge, and the heart of a homestead. 7:74 places both together in Thamud's land: palaces on its plains, houses cut into its mountains.
+- 91:11 `بِطَغْوَىٰهَآ`: ط غ ي B005: «الطغية الصفاة الملساء» (maqayis;tahdhib); «الطغية أعلى الجبل» (sihah); «كل مكان مرتفع طغوة» (sihah). Smooth rock and a summit.
+- 91:12 `أَشْقَىٰهَا`: ش ق و B004: «الشاقي من حيود الجبال الطالع الطويل ومع طوله أيسر صعودا وأقدر مقعدا للإنسان والجميع شاقيات وشواقي» (ayn). A long ridge where a man can sit.
+- 91:13 `نَاقَةَ`: ن و ق B001: «أصل يدل على سمو وارتفاع» (maqayis); «أرفع موضع في الجبل نيق» (maqayis). The highest point of a mountain. It shares «سمو» with the sky of 91:5.
+- 91:15 `عُقْبَٰهَا`: ع ق ب B012: «العقبة طريق وعر في الجبل» (mufradat); «العقبة الجبل الطويل يعرض للطريق وهو صعب شديد» (tahdhib). A hard pass.
+- 91:5 `بَنَىٰهَا`: ب ن ي B001: «بنى فلان بيتا من البنيان وبنى قصورا» (sihah). Building palaces.
+- 91:6 `طَحَىٰهَا`: ط ح و B001: «والطحا المنبسط من الأرض» (sihah). Flat ground. 91:14 `فَسَوَّىٰهَا`: س و ي B009: «السِيّ الفضاء من الأرض الواسع» (jamhara).
+- 91:14 `فَعَقَرُوهَا`: ع ق ر B015: «العقر القصر الذي يكون معتمدا لأهل القرية يلجؤون إليه» (maqayis;ayn;tahdhib); «العقر كل بناء مرتفع» (maqayis;sihah). This joins عقر and بناء: the palace of refuge. B013: «عقر الدار محلة القوم» (maqayis;ayn). The heart of the homestead.
+- Quran: 7:74 «تَتَّخِذُونَ مِن سُهُولِهَا قُصُورًۭا وَتَنْحِتُونَ ٱلْجِبَالَ بُيُوتًۭا»: Ṣāliḥ reminding Thamud (scene opens 7:73), just before 7:77–78 «فَعَقَرُوا۟ ... فَأَصْبَحُوا۟ فِى دَارِهِمْ جَٰثِمِينَ». 89:9 «وَثَمُودَ ٱلَّذِينَ جَابُوا۟ ٱلصَّخْرَ بِٱلْوَادِ». 15:82–83 «وَكَانُوا۟ يَنْحِتُونَ مِنَ ٱلْجِبَالِ بُيُوتًا ءَامِنِينَ ۝ فَأَخَذَتْهُمُ ٱلصَّيْحَةُ مُصْبِحِينَ»: God on the people of al-Ḥijr (scene opens 15:80). 26:149 «وَتَنْحِتُونَ مِنَ ٱلْجِبَالِ بُيُوتًۭا فَٰرِهِينَ». 11:67, «فِى دِيَٰرِهِمْ».
+
+## Interactions
+- Chains 1 and 2 at 91:3–4. جلاها and يغشاها are members of both. The dictionary's «والنهار إذا جلاها إذا بين الشمس» belongs to the sky relay, and «الغشاوة ما غشي القلب» already carries the cover onto the heart. 92:1–2 pairs يغشى and تجلّى.
+- Chains 1 and 2 at 91:8 فجورها: «قيل للصبح فجر لكونه فجر الليل» (dawn splitting the night's cover) and «الفجور شق ستر الديانة» (splitting a screen) are two branches of one root.
+- Chains 1, 2 and 10 at 91:14 عقروها / 91:4 يغشاها: «العقر غيم ينشأ من قبل العين فيغشى عين الشمس» joins عقر, غشي and شمس. «غاشية من عذاب الله أي عقوبة مجللة» joins the night's verb to the عقب root of 91:15.
+- Chains 1 and 10 at 91:15: «الليل والنهار يتعاقبان» puts the sky relay of 91:1–4 inside the word عقباها.
+- Chains 1 and 3/4 at سواها: «ليلة السواء ... وفيها يستوي القمر» puts the moon inside the verb that forms the self and levels the tribe. «القمر الطاحي» puts the moon inside طحاها.
+- Chains 3 and 4 at سوّى (91:7 / 91:14): the same verb finishes a structure and flattens one. 79:28 «رَفَعَ سَمْكَهَا فَسَوَّىٰهَا» against 4:42 «لَوْ تُسَوَّىٰ بِهِمُ ٱلْأَرْضُ».
+- Chains 3 and 4 at طحاها: «البسط» (spreading the floor of the house) and «ضربه ضربة طحا منها أي امتد» (struck down and lying stretched) are two branches of one root.
+- Chains 3 and 12 at بناها: «بنى قصورا» together with «العقر كل بناء مرتفع»; 7:74 stages the palaces of the plain.
+- Chains 3 and 5 at the sky and earth: «سمي المطر سماء ... سمي النبات سماء» and «أرض أريضة أي زكية» turn the house of 91:5–6 into a watered field.
+- Chains 5 and 11 at 91:9–10: «فلحت الأرض شققتها» / «الفلاح البقاء في الخير», and «الأرض التي لم تمطر» / «الخيبة فوت الطلب». Each verb carries both the field and the outcome.
+- Chains 5 and 2 at دسّاها: «وهو نقيض زكا» is the reversal of growth. From memory, دسّسها is a hiding in the soil (16:59).
+- Chains 6 and 9 at 91:12 انبعث: «الانبعاث والتفتح في المعاصي فجورا», «ولقد بعثنا في كل أمة رسولا نحو أرسلنا رسلنا», and «أصل واحد يدل على الانبعاث والامتداد» (رسل). The burst of fujūr, the man setting himself loose, and God's sending are one verb family.
+- Chains 6 and 8 at انبعث: «بعثت البعير فانبعث إذا حللت عقاله» (a camel roused from kneeling) and «إبل مراسيل منبعثة انبعاثا سهلا». The man "rises" with the verb used for the camel.
+- Chains 6 and 10 at 91:8 تقواها / 91:15 يخاف: «التقوى جعل النفس في وقاية مما يخاف» joins تقوى, نفس and خوف. 79:40 «وَأَمَّا مَنْ خَافَ مَقَامَ رَبِّهِۦ وَنَهَى ٱلنَّفْسَ».
+- Chains 6 and 9 at كذب: «فجر فجورا أي فسق وفجر أي كذب».
+- Chains 7 and 8 at 91:8 ألهمها: «التهم الفصيل ما في ضرع أمه استوفاه» puts the camel's calf at the udder inside the verb of inspiration. 91:2 تلاها carries «تلو الناقة ولدها الذي يتلوها».
+- Chains 7 and 10 at 91:14 ذنب: «الذنوب الدلو الملأى ماء» / «الذنوب في التنزيل هو النصيب» against «سميت عقوبة لأنها تكون آخرا وثاني الذنب». 51:59 stages the bucket-share as punishment.
+- Chains 8 and 10 at 91:15 عقباها: «العرقوب عقب موتر خلف الكعبين» is the tendon cut in «عقر البعير كسف عرقوبه». ذنب «مؤخر الدواب» and عقب «مؤخر القدم» are the rear parts that both chains share.
+- Chains 9 and 10 at the rear: «أذناب القوم أتباع الرؤساء» and «العاقب الذي يجيء في أثر صاحبه». The followers and the sequel both come behind.
+- Chains 11 and 1 at خاب: «القدح الذي لا يوري», a fire-drill with no spark, against the surah's opening lights. From memory, al-Zamakhsharī's generous men lit fires on high ground and misers hid in hollows.
+- Chains 10 and 5 at زكاها: «حلالا لا يستوخم عقباه» against ذنب's «كل فعل يستوخم عقباه». The two verbs of growth and offence are defined by their sequels.
+- Chains 12 and 3 at ناقة: «أصل يدل على سمو وارتفاع» (ن و ق) shares سمو with السماء.
+
+## Ayat
+- **91:1** `وَٱلشَّمْسِ وَضُحَىٰهَا`
+  - Chain 1: the disc and its spreading light; «الضحى انبساط الشمس وامتداد النهار»; «تسمى الشمس الضحاء». Scene: the sun spreads its forenoon, the moon comes after it, the day bares it and the night covers it, all within the built sky; dawn, the full moon and the raised moon are heard again in 91:6–8, and the turn of night and day in 91:15.
+  - Chain 2: ضحى as exposure, «ضحا الطريق إذا بدا وظهر», «فعل ذلك ضاحية أي ظاهرا بينا». Scene: the day bares and the night covers; the self splits its screen or keeps its guard, is made to grow or is hidden; a covering closes over Thamud.
+  - Chain 11, through the opening light: the outcome of 91:10 is a fire-drill with no spark. Scene: one person stays on in good, one comes away empty like a dead fire-drill, the most wretched one toils.
+- **91:2** `وَٱلْقَمَرِ إِذَا تَلَىٰهَا`
+  - Chain 1: the moon of the sky, coming second in order. Scene: as at 91:1.
+  - Chain 9: «تلاه تبعه متابعة»; «التلاوة ... بالقراءة وتارة بالارتسام». Scene: the moon follows the sun rightly; a messenger is sent from God and speaks; the most wretched one sends himself off, the tribe follows him like tails and calls the sent one a liar.
+  - Chain 8: «تلو الناقة ولدها الذي يتلوها». Scene: a she-camel roused, easy-gaited, her young following, watered on her day, then cut at the hock tendon and felled from behind.
+- **91:3** `وَٱلنَّهَارِ إِذَا جَلَّىٰهَا`
+  - Chain 1: «النهار ضياء ما بين طلوع الفجر إلى غروب الشمس»; «والنهار إذا جلاها إذا بين الشمس». The pronoun is the sun (tahdhib); from memory, others take it as the darkness or the world. Scene: as at 91:1.
+  - Chain 2: «انكشاف الشيء وبروزه». Scene: as at 91:1.
+  - Chain 5: «سمي النهر لأنه ينهر الأرض أي يشقها». Scene: earth spread with plants, split by the plough and by rivers, watered, growing; or thrust into the soil, unrained, barren sand.
+- **91:4** `وَٱلَّيْلِ إِذَا يَغْشَىٰهَا`
+  - Chain 1: «الليل خلاف النهار»; «الغشاء الغطاء». Scene: as at 91:1.
+  - Chain 2: the cover, and «الغشاوة ما غشي القلب»; «غاشية من عذاب الله أي عقوبة مجللة تعمهم». Scene: as at 91:1.
+  - Chain 10: the covering punishment, «عقوبة مجللة». Scene: their offence at the rear, its sequel following as punishment from their Lord, the owner; nobody pursues after Him and He fears nothing that follows.
+- **91:5** `وَٱلسَّمَآءِ وَمَا بَنَىٰهَا`
+  - Chain 3: «السماء سقف البيت»; «بناء الشيء بضم بعضه إلى بعض»; «المبناة قبة من أدم»; «البنية الهيئة التي بني عليها». Scene: a sky joined and raised as a roof, an earth spread under it like a carpet, a self put together and evened; the ribs are the posts of a house.
+  - Chain 1: the field of the lights, «القمر قمر السماء». Scene: as at 91:1.
+  - Chain 5: «سمي المطر سماء ... سمي النبات سماء». Scene: as at 91:3.
+  - Chain 12: «بنى قصورا». Scene: Thamud's smooth rock faces, ridges, heights and passes; palaces on the spread plain; the homestead where they lay levelled.
+- **91:6** `وَٱلْأَرْضِ وَمَا طَحَىٰهَا`
+  - Chain 3: «الطحو كالدحو وهو البسط»; «الإراض بساط ضخم»; «الأرض الجرم المقابل للسماء». Scene: as at 91:5.
+  - Chain 4: «ضربه ضربة طحا منها أي امتد»; «طحا إذا هلك»; «التأرض أيضا التثاقل إلى الأرض». Scene: the evening-out that formed the self comes back as a flattening; the camel's legs are cut, the tribe is uprooted and laid as flat as the spread ground.
+  - Chain 5: «أرض أريضة أي زكية»; «البقلة المطحية النابتة على وجه الأرض». Scene: as at 91:3.
+  - Chain 1: «القمر الطاحي» [fixed expression]. Scene: as at 91:1.
+  - Chain 12: «الطحا المنبسط من الأرض». Scene: as at 91:5.
+- **91:7** `وَنَفْسٍۢ وَمَا سَوَّىٰهَا`
+  - Chain 3: the self as the third structure, «السوي الذي سوى الله خلقه لا دمامة فيه ولا داء». Scene: as at 91:5.
+  - Chain 4: سوّى here builds; at 91:14 it flattens. Scene: as at 91:6.
+  - Chain 7: نفس as a draught and as water, «يقال للماء نفس ولأن قوام النفس به». Scene: the self given its two portions to swallow, as a calf drains the udder; the she-camel's water-turn; the tribe's bucket-share in return.
+  - Chain 1: «ليلة السواء ... يستوي القمر»; «تنفس النهار» [fixed expression]. Scene: as at 91:1.
+- **91:8** `فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَىٰهَا`
+  - Chain 7: «الإلهام كأنه شيء ألقى في الروع فالتهمه»; «التهم الفصيل ما في ضرع أمه». Scene: as at 91:7.
+  - Chain 6: fujūr is water bursting out, «انبعث سائلا», and «الانبعاث والتفتح في المعاصي»; taqwā is «جعل النفس في وقاية مما يخاف». Scene: a guard held against a burst; Thamud's flood-like overflow; the one who surged out; the overflow that sweeps them away.
+  - Chain 2: «الفجور شق ستر الديانة» against «وقاية المرأة ... بين جلبابها وشعرها». Scene: as at 91:1.
+  - Chain 1: «الفجر حمرة الشمس في سواد الليل». Scene: as at 91:1.
+  - Chain 5: «الفجرة موضع تفتح الماء». Scene: as at 91:3.
+- **91:9** `قَدْ أَفْلَحَ مَن زَكَّىٰهَا`
+  - Chain 5: «فلحت الأرض شققتها»; «زكا الزرع ... أي نما». Scene: as at 91:3.
+  - Chain 11: «الفلاح والفلح البقاء في الخير»; «إدراك بغية». Scene: as at 91:1.
+  - Chain 2: «رجل زكي تقي»; the opposite of دسّا. Scene: as at 91:1.
+  - Chain 10: «حلالا لا يستوخم عقباه». Scene: as at 91:4.
+- **91:10** `وَقَدْ خَابَ مَن دَسَّىٰهَا`
+  - Chain 2: «دساها أي أخفاها»; «دس فلان نفسه إذا أخفاها وأخملها»; «نقيض زكا»; from memory, دسّسها. Scene: as at 91:1.
+  - Chain 11: «الخيبة فوت الطلب»; «القدح الذي لا يوري»; «خاب من دس نفسه أي أخملها وخسس حظها». Scene: as at 91:1.
+  - Chain 5: «الأرض التي لم تمطر»; the reversal of growth. Scene: as at 91:3.
+- **91:11** `كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَآ`
+  - Chain 6: «مجاوزة الحد في العصيان»; «طغا البحر والماء إذا علا كل شيء فاجترفه» [fixed expression]; «أهلكوا بالطاغية أي بطغيانهم». Scene: as at 91:8.
+  - Chain 9: كذّب, giving the lie instead of following. Scene: as at 91:2.
+  - Chain 12: «الطغية الصفاة الملساء»; «الطغية أعلى الجبل». Scene: as at 91:5.
+- **91:12** `إِذِ ٱنۢبَعَثَ أَشْقَىٰهَا`
+  - Chain 6: «انبعث القوم في الخير والشر انبعاثا إذا تتابعوا»; the same انبعاث as fujūr. Scene: as at 91:8.
+  - Chain 9: the reflexive of «بعثنا في كل أمة رسولا»; the most wretched at the head. Scene: as at 91:2.
+  - Chain 8: «بعثت الناقة إذا أثرتها», the camel's own verb now used of the man. Scene: as at 91:2.
+  - Chain 11: «الشقوة خلاف السعادة»; «يوضع الشقاء موضع التعب». Scene: as at 91:1.
+  - Chain 12: «الشاقي من حيود الجبال». Scene: as at 91:5.
+- **91:13** `فَقَالَ لَهُمْ رَسُولُ ٱللَّهِ نَاقَةَ ٱللَّهِ وَسُقْيَٰهَا`
+  - Chain 8: ناقة; «ناقة رسلة لينة المفاصل»; سقيا. From knowledge of the syntax: the accusative is a warning, "keep away from the she-camel and her drink". Scene: as at 91:2.
+  - Chain 7: «السقي والسقيا أن يعطيه ما يشرب»; «الإسقاء أن يجعل له ذلك حتى يتناوله كيف شاء»; «الرسل اللبن الكثير المتتابع الدر». Scene: as at 91:7.
+  - Chain 9: the one sent, «الإرسال يقابل الإمساك», and his spoken word. Scene: as at 91:2.
+  - Chain 5: «كم سقى أرضك أي حظها من الشرب». Scene: as at 91:3.
+  - Chain 12: «أرفع موضع في الجبل نيق». Scene: as at 91:5.
+  - Chain 1: «الإلاهة الشمس», the sun named for being worshipped; here the name belongs to the camel's owner. Scene: as at 91:1.
+- **91:14** `فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُم بِذَنۢبِهِمْ فَسَوَّىٰهَا`
+  - Chain 8: «عقر البعير كسف عرقوبه ثم جعل النحر عقرا»; ذنب «مؤخر الدواب». Scene: as at 91:2.
+  - Chain 4: the felling; «الدَّمْدَمَة: الاستئصال»; فسوّاها as «السِيّ الفضاء من الأرض الواسع» and «سِيّان». Scene: as at 91:6.
+  - Chain 10: «يستعمل في كل فعل يستوخم عقباه»; «رب كل شئ: مالكه». Scene: as at 91:4.
+  - Chain 7: «الذنوب الدلو الملأى ماء»; «الذنوب في التنزيل هو النصيب». Scene: as at 91:7.
+  - Chain 9: كذّبوه; «أذناب القوم أتباع الرؤساء». Scene: as at 91:2.
+  - Chain 2: دمدم عليهم, from memory "closed down over them"; «فيغشى عين الشمس». Scene: as at 91:1.
+  - Chain 5: «العاقر من الرمل ما لا ينبت شيئا»; «عقرت النخلة إذا قطعت رأسها»; «المذانب ... مسايل الماء»; «الرباب ... يرب النبات». Scene: as at 91:3.
+  - Chain 12: «العقر القصر ... يلجؤون إليه»; «عقر الدار محلة القوم». Scene: as at 91:5.
+  - Chain 1: «العقر غيم ... فيغشى عين الشمس». Scene: as at 91:1.
+- **91:15** `وَلَا يَخَافُ عُقْبَٰهَا`
+  - Chain 10: «عاقبة كل شيء آخره»; «سميت عقوبة لأنها تكون آخرا وثاني الذنب»; «لا معقب لحكمه»; «الخوف توقع مكروه». From memory: Nāfiʿ and Ibn ʿĀmir read فلا يخاف. The subject is usually taken as God; it has also been taken as the most wretched one, who did not fear what would follow, or as Ṣāliḥ. Scene: as at 91:4.
+  - Chain 8: «العرقوب عقب موتر خلف الكعبين»; «العقب مؤخر القدم». Scene: as at 91:2.
+  - Chain 9: «العاقب الذي يجيء في أثر صاحبه». Scene: as at 91:2.
+  - Chain 6: fear, the opposite face of taqwā, «جعل النفس في وقاية مما يخاف». Scene: as at 91:8.
+  - Chain 1: «الليل والنهار يتعاقبان». Scene: as at 91:1.
+  - Chain 11: the end of the matter. Scene: as at 91:1.
+  - Chain 12: «العقبة طريق وعر في الجبل». Scene: as at 91:5.
+
+## Not carried
+- 1B Dawn as Aperture and Breath: its فجر and تنفس members went into chains 1, 2 and 6; widening (ن ه ر B003) has no anchor in the scene.
+- 1C Polishing, Glare, Visible Marking: sword-polishing, snow-blindness and white markings form no image with the surah's wording.
+- 1D Veiling and Loss of Awareness: carried in chain 2; fainting (B005) left out, with no anchor in the surah.
+- 2B Level Expanse and Open Way: level ground went into chains 4 and 12; the gap (ع ق ر B014), room (ن ف س B015) and carpet-as-passage have no scene.
+- 2C Ascent, Ridge, Summit: reworked as chain 12 around Thamud's terrain; the raised moon went into chain 1.
+- 2D Structural Supports and Settlement: ribs and posts went into chain 3, palace and homestead into chain 12; the rest has no anchor.
+- 3A Rousing and Dispatch: carried in chains 8 and 9; the hired carrier (ف ل ح B004) has no anchor.
+- 3B Fissure, Channel, Overflow: split between chains 5 and 6.
+- 3C Irrigated Ground and Growth: carried in chain 5; green plant (ر ب ب B012) and tail-plant (ذ ن ب B009) add nothing to the scene.
+- 3D Breath and Relief from Constriction: relief and ease have no anchor in the surah's wording.
+- 3E Rain Cloud and Overcast: rain-sky and raising cloud went into chain 5, the cloud over the sun into chain 1; the cloud senses of نهر and سقي are not needed.
+- 4A Water, Drink, Milk: carried in chain 7.
+- 4B Food Building the Body: بنى لحم and fattening are not heard in the surah's sequence.
+- 4C Multitude and Material Plenty: crowd and army senses have no scene in the surah.
+- 4D Generosity and Benefaction: no anchor beyond the from-memory note on al-Zamakhsharī, which is kept in chain 2.
+- 5A Self, Life, Inner Cognition: the self as a built structure is in chain 3 and as a drinker in chain 7; cognition (B013) adds no image.
+- 5B Purification, Protection, Flourishing: split between chains 2, 5, 6 and 11.
+- 5C Concealment, Corruption, Failure: carried in chains 2, 5 and 11.
+- 5D Deceptive Impulse and Divided Interior: built from abstractions (الكذوب النفس, inward saying) with no scene.
+- 6A Messenger and Utterance: carried in chain 9; the chieftain title (ق و ل B004) has no anchor.
+- 6B Inner Saying and Belief: no anchor in the surah.
+- 6C False Attribution and Denial: كذب is in chain 9; ت ل و B009, ق و ل B005 and ف ل ح B007 make no scene.
+- 6D Directive Speech, Rebuke, Objection: rebuke (ن ه ر B004) and injunction (ك ذ ب B003) are fixed expressions with no anchor.
+- 6E Rumor, Praise, Reputation: no anchor.
+- 6F Responsorial Voice and Performance: no anchor.
+- 7A Following, Procession, Iteration: carried in chain 9.
+- 7B Heel, Tail, Trace, Remainder: carried in chains 8 and 10; remainder (ت ل و B003, ع ق ب B011) adds nothing.
+- 7C Retreat, Desertion, Interrupted Motion: fixed expressions with no scene.
+- 7D Sin, Outcome, Punishment: carried in chain 10.
+- 8A Rebellion and Boundary Crossing: carried in chain 6; ط غ و heads of misguidance and the tyrant not needed.
+- 8B Hostility and Confrontation: fixed expressions with no scene.
+- 8C Competition and Overcoming: no anchor.
+- 8D Hardship and Endurance: toil went into chain 11; the contest senses have no anchor.
+- 8E Crowd, Rush, Jostling: no scene.
+- 8F Seizure and Extirpation: دمدم and غاشية went into chains 2, 4 and 10; snatching (ن ه ر B006) and the devouring calamity (ل ه م B005) have no anchor.
+- 9A Camel Handling and Riding: rousing and gait went into chain 8; riding pad and saddle cover have no anchor.
+- 9B Restiveness, Hoof Protection, Immobilization: the restive mount (ش م س B002) stands too far from the camel scene.
+- 9C Hamstringing and Bodily Wound: carried in chain 8.
+- 9D Moonlit Pursuit and Wild Herds: no anchor.
+- 9E Raptors, Carrion, Wetland Birds: no anchor.
+- 9F Feeding, Grazing, Night Watch: no anchor.
+- 9G Mounting, Dominance, Category Reversal: no anchor.
+- 10A Birth, Fosterage, Descent: the camel's young went into chain 8; the rest has no anchor.
+- 10B Maturity, Infertility, Final Offspring: barrenness of ground went into chain 5; human infertility has no anchor.
+- 10C Courtship, Unveiling, Marital Compensation: no anchor.
+- 11A Deity, Lordship, Worship: the owner-Lord went into chain 10 and الإلاهة into chain 1; the rest is not an image.
+- 11B Institutional Rank: no anchor.
+- 11C Covenant, Obligation, Judgment: «لا معقب لحكمه» went into chain 10; covenant and guarantee have no anchor.
+- 11D Invocation, Prayer, Sacrifice, Imprecation: no scene.
+- 12A Leather Shelter and Containers: the hide dome went into chain 3; bags and waterskins have no anchor.
+- 12B Tensioned Supports and Riding Gear: no anchor.
+- 12C Dye, Pattern, Visible Surface: no anchor.
+- 13A Ripening, Withering, Crop Loss: the cut palm and barren sand went into chain 5; frosted dates and yellowing plants add nothing.
+- 13B Material Decay and Failed Supply: no scene.
+- 13C Symptoms, Disease, Loss of Awareness: no anchor.
+- 13D Breath, Blood, Last Gasp: no anchor.
+- 14A Equality, Standard, Fair Middle: «سِيّان» went into chain 4; weights and portions have no anchor.
+- 14B Suitability, Deliberation, Meticulous Handling: no anchor.
+- 14C Choice, Pairing, Category Shift: no anchor.
+- S1 Casting Lots and Gaming Implements: no anchor.
+- S2 Naming and Proper-Name Transfer: no image, except الإلاهة, which is kept in chain 1.
+- S3 Constitution, Essence, Logical Definition: constitution went into chain 3; the logical senses have no anchor.
+- S4 Exile, Strangerhood, Night Travel: no anchor.
+- S5 Supposition, Modality, Otherness: no image.
+- S6 Predawn and Forenoon Meals: no anchor.
+- S7 Attendance and Visitation: no anchor.

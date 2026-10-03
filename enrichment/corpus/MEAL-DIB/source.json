@@ -1,0 +1,42 @@
+{
+  "id": "MEAL-DIB",
+  "title": "Kur'an-ı Kerim Meali (Diyanet İşleri Başkanlığı, current)",
+  "author": "Halil Altuntaş & Muzaffer Şahin (Diyanet İşleri Başkanlığı, Din İşleri Yüksek Kurulu)",
+  "translator": "Halil Altuntaş & Muzaffer Şahin (Diyanet İşleri Başkanlığı, Din İşleri Yüksek Kurulu)",
+  "death_ah": null,
+  "kind": "meal",
+  "tradition": "official-sunni",
+  "language": "tr",
+  "edition": "kuran.diyanet.gov.tr Mushaf, meal ML=1 (current DİB meal, with verse groups as on the site)",
+  "access": "yerel",
+  "locator": "ayah",
+  "coverage": "1-76,87-114 + partial 77 (5929/6236 ayat)",
+  "urls": [
+    "https://kuran.diyanet.gov.tr/mushaf/kuran-tefsir-1/<slug>-suresi-{s}/ayet-{a}/diyanet-isleri-baskanligi-meali-1  (one request per mushaf page; page JSON MPageDmList)",
+    "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='diyanetisleriyeni+1')",
+    "https://acikkuran.com/{slug}/{a}-ayet-meali.md  (section \"### Diyanet İşleri\")"
+  ],
+  "fetched_at": "2026-10-03",
+  "files": {
+    "raw/MANIFEST.sha256": "4bec0eb8cd7243f66a3ea43b89bf62740980f10f74091383264af931a32021e0",
+    "_count": "598 files listed in raw/MANIFEST.sha256"
+  },
+  "lineage": "diyanet",
+  "relay": null,
+  "licence": "(c) T.C. Diyanet İşleri Başkanlığı (kuran.diyanet.gov.tr); no open licence stated; local research copy only.",
+  "panel": true,
+  "host_label": "kuran.diyanet.gov.tr meal ML=1",
+  "cross_witnesses": [
+    "kuranmeali.com \"Diyanet İşleri Meali (Yeni)\" (diyanetisleriyeni)",
+    "acikkuran.com \"Diyanet İşleri\""
+  ],
+  "notes": "Identity: kuranmeali.com about-page (id 13) names the official current DİB meal as prepared by Halil Altuntaş and Muzaffer Şahin; kd ML=1 = kuranmeali \"Diyanet İşleri Meali (Yeni)\" = acikkuran \"Diyanet İşleri\" (see cross-check). The DİB footnotes are not in the kuran.diyanet page data; they are attached from kuranmeali.com (notes_host) where present. kuranmeali's square-bracketed numbers in this meal are footnote markers, not translator additions. 282 merged verse groups stored once as a..a_end. 244 segments carry notes attached from kuranmeali.com \"Diyanet İşleri Meali (Yeni)\" (diyanetisleriyeni) (field notes_host). 244 segments carry footnotes in \"notes\" (178 truncated by the host, flagged notes_truncated). Coverage incomplete (5929/6236); re-run `fetch_meal.py fetch --sources MEAL-DIB` then `build` to resume.",
+  "raw_shared": [
+    "acikkuran pages: ../MEAL-ISLAMOGLU/raw/acikkuran/",
+    "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/"
+  ],
+  "_notes_parts": {
+    "static": "Identity: kuranmeali.com about-page (id 13) names the official current DİB meal as prepared by Halil Altuntaş and Muzaffer Şahin; kd ML=1 = kuranmeali \"Diyanet İşleri Meali (Yeni)\" = acikkuran \"Diyanet İşleri\" (see cross-check). The DİB footnotes are not in the kuran.diyanet page data; they are attached from kuranmeali.com (notes_host) where present. kuranmeali's square-bracketed numbers in this meal are footnote markers, not translator additions.",
+    "build": "282 merged verse groups stored once as a..a_end. 244 segments carry notes attached from kuranmeali.com \"Diyanet İşleri Meali (Yeni)\" (diyanetisleriyeni) (field notes_host). 244 segments carry footnotes in \"notes\" (178 truncated by the host, flagged notes_truncated). Coverage incomplete (5929/6236); re-run `fetch_meal.py fetch --sources MEAL-DIB` then `build` to resume."
+  }
+}

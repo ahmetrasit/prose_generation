@@ -9,7 +9,7 @@ Sources (read-only, raw project data; nothing from earlier pipeline packets):
                                                                  of the six early sources, and lexical senses per branch
   quran-roots/_corpus/lexicons/cache/openiti_context.sqlite      Majaz al-Quran, direct text (quran_specialized_entries,
                                                                  source 'majaz_quran')
-  study/_project_corpus/qiraat.tsv                               variant readings
+  quran/_project_corpus/qiraat.tsv                               variant readings
   root-dossier/out/activation_map.tsv                            the [plain] branch per Quran word (role 'dominant')
 
 Late compilations (Lisan, Lane, al-Qamus) are never read. The derived index is cached in ./cache (rebuilt when a
@@ -36,13 +36,13 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent))
 from textclean import clean_early  # noqa: E402  (shared with the supply builder)
 CACHE = HERE / "cache"
-PROJ = Path("/Volumes/OZTURK/_projects")
+PROJ = Path(__file__).resolve().parents[5]
 SRC = {
     "quran": PROJ / "quran-data/data/text/quran-uthmani.tsv",
     "tr_entries": PROJ / "quran-data/data/dictionary/tr",
     "root_packets": PROJ / "dictionary/data/output/root_packets",
     "majaz": PROJ / "quran-roots/_corpus/lexicons/cache/openiti_context.sqlite",
-    "qiraat": PROJ / "study/_project_corpus/qiraat.tsv",
+    "qiraat": PROJ / "quran/_project_corpus/qiraat.tsv",
     "activation_map": PROJ / "root-dossier/out/activation_map.tsv",
     "furuq": PROJ / "quran-slm/resources/source/furuq_full_branches_ar.tsv",  # root letters for ids without a packet
     # the supply builder's Majaz index: sqlite entries cut at surah headers plus the raw OpenITI entries of surahs

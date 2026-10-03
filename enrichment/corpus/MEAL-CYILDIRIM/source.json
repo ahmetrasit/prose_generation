@@ -1,0 +1,38 @@
+{
+  "id": "MEAL-CYILDIRIM",
+  "title": "Kur'an-ı Kerim meali",
+  "author": "Celal Yıldırım",
+  "translator": "Celal Yıldırım",
+  "death_ah": null,
+  "kind": "meal",
+  "tradition": "",
+  "language": "tr",
+  "edition": "as published by mealler.org \"Celal Yıldırım\"",
+  "access": "yerel",
+  "locator": "ayah",
+  "coverage": "1-3,22,87-114 + partial 4 (883/6236 ayat)",
+  "urls": [
+    "https://mealler.org/SureveAyetler.aspx?sureid={sss}&ayet={aaa}  (row \"Celal Yıldırım\")",
+    "https://cdn.jsdelivr.net/gh/fawazahmed0/quran-api@1/editions/tur-celalyldrm.json"
+  ],
+  "fetched_at": "2026-10-03",
+  "files": {
+    "raw/fawaz_tur-celalyldrm.json": "038a781bda472417933c9ddb0062f51a5e6e8621b2f879def4a1319e3fcff60e"
+  },
+  "lineage": null,
+  "relay": null,
+  "licence": "mealler.org aggregator; no licence stated; rights remain with translator/publisher; local research copy only.",
+  "panel": false,
+  "host_label": "mealler.org \"Celal Yıldırım\"",
+  "cross_witnesses": [
+    "fawazahmed0/quran-api tur-celalyldrm"
+  ],
+  "notes": "fawaz label \"Celal Y Ld R M\" (broken diacritics). fawaz and mealler.org group verses differently (e.g. 113), hence ~68% per-ayah equality. 35 merged verse groups stored once as a..a_end. 33 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. Coverage incomplete (883/6236); re-run `fetch_meal.py fetch --sources MEAL-CYILDIRIM` then `build` to resume.",
+  "raw_shared": [
+    "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
+  ],
+  "_notes_parts": {
+    "static": "fawaz label \"Celal Y Ld R M\" (broken diacritics). fawaz and mealler.org group verses differently (e.g. 113), hence ~68% per-ayah equality.",
+    "build": "35 merged verse groups stored once as a..a_end. 33 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. Coverage incomplete (883/6236); re-run `fetch_meal.py fetch --sources MEAL-CYILDIRIM` then `build` to resume."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "MEAL-GOLPINARLI",
+  "title": "Kur'ân-ı Kerîm ve Meâli",
+  "author": "Abdülbâki Gölpınarlı",
+  "translator": "Abdülbâki Gölpınarlı",
+  "death_ah": 1402,
+  "kind": "meal",
+  "tradition": "",
+  "language": "tr",
+  "edition": "as published by mealler.org \"Abdulbaki Gölpınarlı\"",
+  "access": "yerel",
+  "locator": "ayah",
+  "coverage": "1-3,22,87-114 + partial 4 (877/6236 ayat)",
+  "urls": [
+    "https://mealler.org/SureveAyetler.aspx?sureid={sss}&ayet={aaa}  (row \"Abdulbaki Gölpınarlı\")",
+    "https://tanzil.net/trans/?transID=tr.golpinarli&type=txt-2",
+    "https://cdn.jsdelivr.net/gh/fawazahmed0/quran-api@1/editions/tur-abdulbakigolpin.json",
+    "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='golpinarli+1')"
+  ],
+  "fetched_at": "2026-10-03",
+  "files": {
+    "raw/fawaz_tur-abdulbakigolpin.json": "4be3a8b82423e43b25c05308d6a924d825668a04dd475d4cfb6be304a9d3db70",
+    "raw/tanzil_tr.golpinarli.txt": "a8a25cbb76a4cc6532d6dcf13ec9edda09fd126dad37290668c4d399e5d80f02"
+  },
+  "lineage": null,
+  "relay": null,
+  "licence": "mealler.org aggregator; no licence stated; rights remain with translator/publisher; local research copy only.",
+  "panel": true,
+  "host_label": "mealler.org \"Abdulbaki Gölpınarlı\"",
+  "cross_witnesses": [
+    "tanzil.net tr.golpinarli",
+    "fawazahmed0/quran-api tur-abdulbakigolpin",
+    "kuranmeali.com \"Abdulbaki Gölpınarlı Meali\" (golpinarli)"
+  ],
+  "notes": "Primary is mealler.org: it keeps the circumflexes (rahîmdir, kıyâmetin) and has fewer typos (1:7 \"gazaba\"; tanzil/fawaz \"gazebe\"). tanzil/fawaz/kuranmeali share one circumflex-stripped e-text. Coverage incomplete (877/6236); re-run `fetch_meal.py fetch --sources MEAL-GOLPINARLI` then `build` to resume.",
+  "raw_shared": [
+    "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/",
+    "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
+  ],
+  "_notes_parts": {
+    "static": "Primary is mealler.org: it keeps the circumflexes (rahîmdir, kıyâmetin) and has fewer typos (1:7 \"gazaba\"; tanzil/fawaz \"gazebe\"). tanzil/fawaz/kuranmeali share one circumflex-stripped e-text.",
+    "build": "Coverage incomplete (877/6236); re-run `fetch_meal.py fetch --sources MEAL-GOLPINARLI` then `build` to resume."
+  }
+}

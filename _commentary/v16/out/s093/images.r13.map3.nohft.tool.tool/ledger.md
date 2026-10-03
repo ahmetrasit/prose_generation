@@ -1,0 +1,6 @@
+- memory: قلا (و-form, camel surging) heard as kin of قلى (ي-form) in 93:3
+- memory: الآخرة and الأولى as feminine forms of آخر and أول
+- memory: لَسَوْفَ as emphatic lām plus future particle
+- memory: اسْتَغْنَى (form X) as deeming oneself rich versus أَغْنَى made rich by another
+- memory: ق ل ي occurs in the Quran only at 93:3 and 26:168; نهر as a verb only at 93:10 and 17:23
+- memory: one 17:24 quotation in the household section was wrongly tagged source:24:17

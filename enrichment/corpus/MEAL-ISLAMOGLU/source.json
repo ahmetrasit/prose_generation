@@ -1,0 +1,42 @@
+{
+  "id": "MEAL-ISLAMOGLU",
+  "title": "Hayat Kitabı Kur'an (current revised edition)",
+  "author": "Mustafa İslamoğlu",
+  "translator": "Mustafa İslamoğlu",
+  "death_ah": null,
+  "kind": "meal",
+  "tradition": "",
+  "language": "tr",
+  "edition": "kuranmeali.com about-page (Aciklama.php?id=31&islem=mealbilgi): Hayat Kitabı Kur'ân Mustafa İslamoğlu Meali | İlk ve orta eğitimini doğduğu ilçede yaptı. Kendisi ilk hocasının babası olduğunu, ilk Arapça ve temel İslami ilimlerini ondan aldığını söyler. Yükseköğrenimine, ilk önce Kayseri Yüksek İslam Enstitüsü’nde başlamış, akabinde İlahiyat Fakültesi’nde, daha sonra da Kahire, El-Ezher Üniversitesi’nde İslam Hukuku Fakültesi’nde sürdürmüştür. Yazın hayatına e",
+  "access": "yerel",
+  "locator": "ayah",
+  "coverage": "1-8,22,87-114 + partial 9 (1678/6236 ayat)",
+  "urls": [
+    "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='islamoglu+1')",
+    "https://acikkuran.com/{slug}/{a}-ayet-meali.md  (section \"### Mustafa İslamoğlu\"); whole surah without footnotes: https://acikkuran.com/{slug}.md?author=38",
+    "https://mealler.org/SureveAyetler.aspx?sureid={sss}&ayet={aaa}  (row \"Mustafa İslamoğlu\")"
+  ],
+  "fetched_at": "2026-10-03",
+  "files": {
+    "raw/MANIFEST.sha256": "e81b1286dca9856de27d283b2c694961514a0f178eb0e7006b8d889a1ede8d5f",
+    "_count": "1684 files listed in raw/MANIFEST.sha256"
+  },
+  "lineage": null,
+  "relay": null,
+  "licence": "kuranmeali.com aggregator; no licence stated; rights remain with translator/publisher; local research copy only.",
+  "panel": true,
+  "host_label": "kuranmeali.com \"Mustafa İslamoğlu Meali\" (islamoglu)",
+  "cross_witnesses": [
+    "acikkuran.com \"Mustafa İslamoğlu\"",
+    "mealler.org \"Mustafa İslamoğlu\""
+  ],
+  "notes": "kuranmeali.com carries a later revised edition with the numbered footnotes (e.g. 107:1 \"BAK ŞU Hesap Günü'nü yalanlayan kişiye!\"); acikkuran.com and mealler.org carry an earlier edition (107:1 \"Allah'a karşı borçluluk sorumluluğunu tümden inkar eden birini tasavvur edebilir misin!\"), kept separately as MEAL-ISLAMOGLU-ESKI. Square brackets with superscript numbers in the text are footnote markers. 1158 segments carry footnotes in \"notes\" (928 truncated by the host, flagged notes_truncated). Coverage incomplete (1678/6236); re-run `fetch_meal.py fetch --sources MEAL-ISLAMOGLU` then `build` to resume.",
+  "raw_shared": [
+    "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/",
+    "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
+  ],
+  "_notes_parts": {
+    "static": "kuranmeali.com carries a later revised edition with the numbered footnotes (e.g. 107:1 \"BAK ŞU Hesap Günü'nü yalanlayan kişiye!\"); acikkuran.com and mealler.org carry an earlier edition (107:1 \"Allah'a karşı borçluluk sorumluluğunu tümden inkar eden birini tasavvur edebilir misin!\"), kept separately as MEAL-ISLAMOGLU-ESKI. Square brackets with superscript numbers in the text are footnote markers.",
+    "build": "1158 segments carry footnotes in \"notes\" (928 truncated by the host, flagged notes_truncated). Coverage incomplete (1678/6236); re-run `fetch_meal.py fetch --sources MEAL-ISLAMOGLU` then `build` to resume."
+  }
+}

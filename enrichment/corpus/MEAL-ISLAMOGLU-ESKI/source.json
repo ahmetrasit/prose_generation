@@ -1,0 +1,37 @@
+{
+  "id": "MEAL-ISLAMOGLU-ESKI",
+  "title": "Hayat Kitabı Kur'an (earlier edition)",
+  "author": "Mustafa İslamoğlu",
+  "translator": "Mustafa İslamoğlu",
+  "death_ah": null,
+  "kind": "meal",
+  "tradition": "",
+  "language": "tr",
+  "edition": "as published by acikkuran.com \"Mustafa İslamoğlu\"",
+  "access": "yerel",
+  "locator": "ayah",
+  "coverage": "1-8,22,87-114 + partial 9 (1699/6236 ayat)",
+  "urls": [
+    "https://acikkuran.com/{slug}/{a}-ayet-meali.md  (section \"### Mustafa İslamoğlu\"); whole surah without footnotes: https://acikkuran.com/{slug}.md?author=38",
+    "https://mealler.org/SureveAyetler.aspx?sureid={sss}&ayet={aaa}  (row \"Mustafa İslamoğlu\")"
+  ],
+  "fetched_at": "2026-10-03",
+  "files": {},
+  "lineage": null,
+  "relay": null,
+  "licence": "acikkuran.com: CC BY-NC-SA 4.0, name the translator (robots Content-Signal: ai-train=no); local research copy only.",
+  "panel": false,
+  "host_label": "acikkuran.com \"Mustafa İslamoğlu\"",
+  "cross_witnesses": [
+    "mealler.org \"Mustafa İslamoğlu\""
+  ],
+  "notes": "Earlier edition; the current revised text is MEAL-ISLAMOGLU (kuranmeali.com). Coverage incomplete (1699/6236); re-run `fetch_meal.py fetch --sources MEAL-ISLAMOGLU-ESKI` then `build` to resume.",
+  "raw_shared": [
+    "acikkuran pages: ../MEAL-ISLAMOGLU/raw/acikkuran/",
+    "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
+  ],
+  "_notes_parts": {
+    "static": "Earlier edition; the current revised text is MEAL-ISLAMOGLU (kuranmeali.com).",
+    "build": "Coverage incomplete (1699/6236); re-run `fetch_meal.py fetch --sources MEAL-ISLAMOGLU-ESKI` then `build` to resume."
+  }
+}

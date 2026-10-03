@@ -1,0 +1,48 @@
+{
+  "id": "MEAL-TDV",
+  "title": "Kur'an-ı Kerim Meali (Türkiye Diyanet Vakfı)",
+  "author": "Ali Özek, Hayreddin Karaman, Ali Turgut, Mustafa Çağrıcı, İbrahim Kâfi Dönmez, Sadreddin Gümüş",
+  "translator": "Ali Özek, Hayreddin Karaman, Ali Turgut, Mustafa Çağrıcı, İbrahim Kâfi Dönmez, Sadreddin Gümüş",
+  "death_ah": null,
+  "kind": "meal",
+  "tradition": "official-sunni",
+  "language": "tr",
+  "edition": "kuran.diyanet.gov.tr Mushaf, meal ML=4 (official grouped TDV meal)",
+  "access": "yerel",
+  "locator": "ayah",
+  "coverage": "1-2,5-23,25-51,53-68,70-114 + partial 3-4,24,52,69 (6230/6236 ayat)",
+  "urls": [
+    "https://kuran.diyanet.gov.tr/mushaf/kuran-meal-1/<slug>-suresi-{s}/ayet-{a}/diyanet-isleri-baskanligi-meali-4  (one request per mushaf page; page JSON MPageDmList)",
+    "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='diyanetvakfi+1')",
+    "https://mealler.org/SureveAyetler.aspx?sureid={sss}&ayet={aaa}  (row \"Diyanet Vakfi\")",
+    "https://quranenc.com/downloads/sqlite/turkish_shahin.sqlite",
+    "https://tanzil.net/trans/?transID=tr.vakfi&type=txt-2"
+  ],
+  "fetched_at": "2026-10-03",
+  "files": {
+    "raw/MANIFEST.sha256": "2f2eb45faf02778d159c0f979840af9266cf603bb90acebfedc7a37c33f871a4",
+    "_count": "606 files listed in raw/MANIFEST.sha256"
+  },
+  "lineage": "diyanet",
+  "relay": null,
+  "licence": "(c) T.C. Diyanet İşleri Başkanlığı (kuran.diyanet.gov.tr); no open licence stated; local research copy only.",
+  "panel": true,
+  "host_label": "kuran.diyanet.gov.tr meal ML=4",
+  "cross_witnesses": [
+    "kuranmeali.com \"Diyanet Vakfı Meali\" (diyanetvakfi)",
+    "mealler.org \"Diyanet Vakfi\"",
+    "QuranEnc turkish_shahin",
+    "tanzil.net tr.vakfi"
+  ],
+  "notes": "TDV \"açıklamalı meal\" explanatory notes are not in the kuran.diyanet page data; attached from kuranmeali.com \"Diyanet Vakfı Meali\" (notes_host). Page-range division of labour (kuranmeali about-page id 14, from the TDV preface): Özek pp. 1-48, 581-604; Karaman 76-126; Çağrıcı 49-62, 281-358; Dönmez 63-75, 358-420, 561-580; Gümüş 127-280; Turgut 421-560. kuran.diyanet ML=4 lacks Turkish letters in some passages (e.g. 108:1-3 \"Kuskusuz\", \"Simdi\", \"süphesiz\") - a host data defect, kept as published. 315 merged verse groups stored once as a..a_end. 477 segments carry notes attached from kuranmeali.com \"Diyanet Vakfı Meali\" (diyanetvakfi) (field notes_host). 477 segments carry footnotes in \"notes\" (423 truncated by the host, flagged notes_truncated). Coverage incomplete (6230/6236); re-run `fetch_meal.py fetch --sources MEAL-TDV` then `build` to resume.",
+  "raw_shared": [
+    "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/",
+    "mealler.org pages: ../MEAL-UNAL/raw/mealler/",
+    "quranenc:turkish_shahin: ../MEAL-TDV-QE/raw/",
+    "tanzil:tr.vakfi: ../MEAL-TDV-DUZ/raw/"
+  ],
+  "_notes_parts": {
+    "static": "TDV \"açıklamalı meal\" explanatory notes are not in the kuran.diyanet page data; attached from kuranmeali.com \"Diyanet Vakfı Meali\" (notes_host). Page-range division of labour (kuranmeali about-page id 14, from the TDV preface): Özek pp. 1-48, 581-604; Karaman 76-126; Çağrıcı 49-62, 281-358; Dönmez 63-75, 358-420, 561-580; Gümüş 127-280; Turgut 421-560. kuran.diyanet ML=4 lacks Turkish letters in some passages (e.g. 108:1-3 \"Kuskusuz\", \"Simdi\", \"süphesiz\") - a host data defect, kept as published.",
+    "build": "315 merged verse groups stored once as a..a_end. 477 segments carry notes attached from kuranmeali.com \"Diyanet Vakfı Meali\" (diyanetvakfi) (field notes_host). 477 segments carry footnotes in \"notes\" (423 truncated by the host, flagged notes_truncated). Coverage incomplete (6230/6236); re-run `fetch_meal.py fetch --sources MEAL-TDV` then `build` to resume."
+  }
+}

@@ -1,0 +1,2634 @@
+{
+ "record": "E0 check.py verification record (for the user and the scorecard; never a model input)",
+ "file": "/Volumes/aro/projects/prose_generation/enrichment/v2/work/s107/pack/base/107_7.md",
+ "file_sha256": "2b235033b71f22a892b173018ea34de3e9005e541be53abd56ae86a2b143f204",
+ "ref": "107:7",
+ "tool_sha256": {
+  "check.py": "186ba08a3c2f4ddb5fd580d69aed6e8ed29fa276a5b97b2f6c12058c7ac10fe2",
+  "common.py": "57bea63ae0fa0fee7ec9cd9d07adc38af2926821690fbf9082796f5474d1a7c6"
+ },
+ "index_signature": {
+  "version": 5,
+  "quran": [
+   1396724,
+   1790991422.4
+  ],
+  "tr_entries": [
+   1704,
+   198596704,
+   1790991411.5
+  ],
+  "root_packets": [
+   1679,
+   707294008,
+   1790995197.3
+  ],
+  "majaz": [
+   9216000,
+   1790992389.4
+  ],
+  "majaz_index": [
+   1169381,
+   1790986397.2
+  ],
+  "qiraat": [
+   833825,
+   1790998112.2
+  ],
+  "activation_map": [
+   2789461,
+   1790994866.9
+  ],
+  "furuq": [
+   19782184,
+   1790991539.2
+  ]
+ },
+ "summary": {
+  "words": 3068,
+  "tags": 65,
+  "tags_checkable": 65,
+  "tags_sourced": 65,
+  "share_sourced": 1.0,
+  "by_source": {
+   "quran": 38,
+   "dictionary": 27
+  },
+  "levels": {
+   "exact": 65
+  },
+  "dictionary_early_phrase": 27,
+  "dictionary_definition_only": 0,
+  "arabic_outside_tags": 0,
+  "arabic_outside_tags_quotations": 0,
+  "arabic_outside_tags_quotations_sourced": 0,
+  "arabic_outside_tags_root_names": 0,
+  "arabic_outside_tags_by_context": {},
+  "bellek_marks": 0,
+  "bellek_status": {},
+  "unsourced_unmarked": 0,
+  "cited_branches": 8,
+  "cited_bound_branches": 0,
+  "bound_citations_with_echo_marker": 0,
+  "bound_citations_without_echo_marker": 0,
+  "bound_citations_extended_marker_only": 0,
+  "negation": {
+   "neg_e2_count": 16,
+   "neg_e2_per_1000": 5.22,
+   "breakdown": {
+    "değil": 15,
+    "değil,": 7,
+    "sayılmaz": 1
+   },
+   "not_only_frames": 1
+  },
+  "process_words": 0,
+  "sources_declared": 71,
+  "sources_by_kind": {
+   "branch": 27,
+   "quran": 44
+  },
+  "sources_status": {
+   "ok": 65,
+   "ok (no quote)": 6
+  }
+ },
+ "quotations": [
+  {
+   "n": 1,
+   "line": 3,
+   "quote": "وَيَمْنَعُونَ ٱلْمَاعُونَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "107:7"
+    ],
+    "n_ayat": 1,
+    "where": "focus"
+   },
+   "also": {
+    "early_entry": [
+     "ر ء ي tahdhib",
+     "م ن ع mufradat"
+    ]
+   },
+   "sentence_index": 3,
+   "bellek_marked": false
+  },
+  {
+   "n": 2,
+   "line": 3,
+   "quote": "ٱلَّذِينَ هُمْ يُرَآءُونَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "107:6"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {},
+   "sentence_index": 4,
+   "bellek_marked": false
+  },
+  {
+   "n": 3,
+   "line": 5,
+   "quote": "منعت الرجل عن الشئ فامتنع منه",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001448/B002",
+      "root": "م ن ع",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001448/B002",
+      "root": "م ن ع",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "م ن ع sihah"
+    ]
+   },
+   "sentence_index": 12,
+   "bellek_marked": false
+  },
+  {
+   "n": 4,
+   "line": 5,
+   "quote": "يَٰٓأَبَانَا مُنِعَ مِنَّا ٱلْكَيْلُ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "12:63"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 19,
+   "bellek_marked": false
+  },
+  {
+   "n": 5,
+   "line": 7,
+   "quote": "المعن الشيء اليسير الهين",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_004706/B003",
+      "root": "م ع ن",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "unresolved",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 27,
+   "bellek_marked": false
+  },
+  {
+   "n": 6,
+   "line": 7,
+   "quote": "ماله سعنة ولا معنة أي شيء",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_004706/B003",
+      "root": "م ع ن",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "unresolved",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 28,
+   "bellek_marked": false
+  },
+  {
+   "n": 7,
+   "line": 7,
+   "quote": "المعن القليل والمعن الكثير",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_004706/B003",
+      "root": "م ع ن",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "unresolved",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 29,
+   "bellek_marked": false
+  },
+  {
+   "n": 8,
+   "line": 7,
+   "quote": "وَيُؤْثِرُونَ عَلَىٰٓ أَنفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌۭ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "59:9"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "خ ص ص mufradat"
+    ]
+   },
+   "sentence_index": 35,
+   "bellek_marked": false
+  },
+  {
+   "n": 9,
+   "line": 7,
+   "quote": "وَمَن يُوقَ شُحَّ نَفْسِهِۦ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "59:9",
+     "64:16"
+    ],
+    "n_ayat": 2,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ش ح ح maqayis"
+    ]
+   },
+   "sentence_index": 36,
+   "bellek_marked": false
+  },
+  {
+   "n": 10,
+   "line": 11,
+   "quote": "الماعون اسم جامع لمنافع البيت",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_004706/B005",
+      "root": "م ع ن",
+      "branch": "B005",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "unresolved",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 40,
+   "bellek_marked": false
+  },
+  {
+   "n": 11,
+   "line": 11,
+   "quote": "أسقاط البيت نحو الفأس والقدر والدلو",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_004706/B005",
+      "root": "م ع ن",
+      "branch": "B005",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "unresolved",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 41,
+   "bellek_marked": false
+  },
+  {
+   "n": 12,
+   "line": 11,
+   "quote": "كل ما يستعار من قدوم وسفرة وشفرة",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_004706/B005",
+      "root": "م ع ن",
+      "branch": "B005",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "unresolved",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 42,
+   "bellek_marked": false
+  },
+  {
+   "n": 13,
+   "line": 13,
+   "quote": "الماعون المعروف كله والقصعة والقدر والفأس",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_004706/B005",
+      "root": "م ع ن",
+      "branch": "B005",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "unresolved",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 50,
+   "bellek_marked": false
+  },
+  {
+   "n": 14,
+   "line": 13,
+   "quote": "رجل معن في حاجته سهل",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_004706/B003",
+      "root": "م ع ن",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis",
+       "sihah"
+      ],
+      "branch_kind": "unresolved",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 53,
+   "bellek_marked": false
+  },
+  {
+   "n": 15,
+   "line": 13,
+   "quote": "المعان المباءة والمنزل",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_004706/B006",
+      "root": "م ع ن",
+      "branch": "B006",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "unresolved",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 56,
+   "bellek_marked": false
+  },
+  {
+   "n": 16,
+   "line": 15,
+   "quote": "كل شيء استعنت به أو أعانك فهو عونك",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001064/B001",
+      "root": "ع و ن",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "other",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001064/B001",
+      "root": "ع و ن",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "other",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ع و ن ayn"
+    ]
+   },
+   "sentence_index": 65,
+   "bellek_marked": false
+  },
+  {
+   "n": 17,
+   "line": 15,
+   "quote": "الماعون في الجاهلية كل منفعة وعطية",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_004706/B005",
+      "root": "م ع ن",
+      "branch": "B005",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "unresolved",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 67,
+   "bellek_marked": false
+  },
+  {
+   "n": 18,
+   "line": 15,
+   "quote": "وَإِيَّاكَ نَسْتَعِينُ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "1:5"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ق ل ب ayn"
+    ],
+    "majaz": [
+     4
+    ]
+   },
+   "sentence_index": 70,
+   "bellek_marked": false
+  },
+  {
+   "n": 19,
+   "line": 15,
+   "quote": "وَتَعَاوَنُوا۟ عَلَى ٱلْبِرِّ وَٱلتَّقْوَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "5:2"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ع د و mufradat",
+     "ع و ن mufradat"
+    ]
+   },
+   "sentence_index": 76,
+   "bellek_marked": false
+  },
+  {
+   "n": 20,
+   "line": 19,
+   "quote": "ماء معين أي جار",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_004706/B001",
+      "root": "م ع ن",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis",
+       "sihah",
+       "tahdhib"
+      ],
+      "branch_kind": "unresolved",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 81,
+   "bellek_marked": false
+  },
+  {
+   "n": 21,
+   "line": 19,
+   "quote": "المعنة ماء قليل يجري",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_004706/B001",
+      "root": "م ع ن",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "unresolved",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 82,
+   "bellek_marked": false
+  },
+  {
+   "n": 22,
+   "line": 19,
+   "quote": "المعنان مجاري الماء في الوادي",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_004706/B001",
+      "root": "م ع ن",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis",
+       "sihah"
+      ],
+      "branch_kind": "unresolved",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 83,
+   "bellek_marked": false
+  },
+  {
+   "n": 23,
+   "line": 19,
+   "quote": "يسمى الماء أيضا ماعونا",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_004706/B005",
+      "root": "م ع ن",
+      "branch": "B005",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "unresolved",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 84,
+   "bellek_marked": false
+  },
+  {
+   "n": 24,
+   "line": 19,
+   "quote": "أمعنت الأرض رويت",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_004706/B001",
+      "root": "م ع ن",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis",
+       "sihah",
+       "tahdhib"
+      ],
+      "branch_kind": "unresolved",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 87,
+   "bellek_marked": false
+  },
+  {
+   "n": 25,
+   "line": 21,
+   "quote": "قُلْ أَرَءَيْتُمْ إِنْ أَصْبَحَ مَآؤُكُمْ غَوْرًۭا فَمَن يَأْتِيكُم بِمَآءٍۢ مَّعِينٍۭ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "67:30"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 94,
+   "bellek_marked": false
+  },
+  {
+   "n": 26,
+   "line": 21,
+   "quote": "إِذًۭا لَّأَمْسَكْتُمْ خَشْيَةَ ٱلْإِنفَاقِ ۚ وَكَانَ ٱلْإِنسَٰنُ قَتُورًۭا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "17:100"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 98,
+   "bellek_marked": false
+  },
+  {
+   "n": 27,
+   "line": 21,
+   "quote": "سَيُطَوَّقُونَ مَا بَخِلُوا۟ بِهِۦ يَوْمَ ٱلْقِيَٰمَةِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "3:180"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ط و ق tahdhib"
+    ]
+   },
+   "sentence_index": 100,
+   "bellek_marked": false
+  },
+  {
+   "n": 28,
+   "line": 21,
+   "quote": "وَلِلَّهِ مِيرَٰثُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "3:180",
+     "57:10"
+    ],
+    "n_ayat": 2,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 101,
+   "bellek_marked": false
+  },
+  {
+   "n": 29,
+   "line": 21,
+   "quote": "رجل منوع ومناع إذا كان بخيلا ممسكا",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001448/B001",
+      "root": "م ن ع",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001448/B001",
+      "root": "م ن ع",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "م ن ع tahdhib"
+    ]
+   },
+   "sentence_index": 104,
+   "bellek_marked": false
+  },
+  {
+   "n": 30,
+   "line": 21,
+   "quote": "يُطَافُ عَلَيْهِم بِكَأْسٍۢ مِّن مَّعِينٍۭ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "37:45"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 107,
+   "bellek_marked": false
+  },
+  {
+   "n": 31,
+   "line": 21,
+   "quote": "لَّا مَقْطُوعَةٍۢ وَلَا مَمْنُوعَةٍۢ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "56:33"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "majaz": [
+     "raw:6762"
+    ]
+   },
+   "sentence_index": 109,
+   "bellek_marked": false
+  },
+  {
+   "n": 32,
+   "line": 25,
+   "quote": "خلاف الإعطاء",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001448/B001",
+      "root": "م ن ع",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis",
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001448/B001",
+      "root": "م ن ع",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis",
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "م ن ع maqayis",
+     "م ن ع sihah"
+    ]
+   },
+   "sentence_index": 118,
+   "bellek_marked": false
+  },
+  {
+   "n": 33,
+   "line": 25,
+   "quote": "ضد العطية",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001448/B001",
+      "root": "م ن ع",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001448/B001",
+      "root": "م ن ع",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "م ن ع mufradat"
+    ]
+   },
+   "sentence_index": 118,
+   "bellek_marked": false
+  },
+  {
+   "n": 34,
+   "line": 25,
+   "quote": "المنع أن تحول بين الرجل وبين الشيء الذي يريده",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001448/B002",
+      "root": "م ن ع",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001448/B002",
+      "root": "م ن ع",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "م ن ع tahdhib"
+    ]
+   },
+   "sentence_index": 119,
+   "bellek_marked": false
+  },
+  {
+   "n": 35,
+   "line": 25,
+   "quote": "وَلَا تَجْعَلْ يَدَكَ مَغْلُولَةً إِلَىٰ عُنُقِكَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "17:29"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "dictionary": [
+     "غ ل ل B006 (root_001102/B006) source_phrase_ar [mufradat]",
+     "غ ل ل B006 (root_001102/B006) lexical_source_phrase [mufradat]"
+    ],
+    "early_entry": [
+     "غ ل ل mufradat"
+    ],
+    "majaz": [
+     1180
+    ]
+   },
+   "sentence_index": 125,
+   "bellek_marked": false
+  },
+  {
+   "n": 36,
+   "line": 25,
+   "quote": "فَتَقْعُدَ مَلُومًۭا مَّحْسُورًا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "17:29"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "dictionary": [
+     "ح س ر B003 (root_000320/B003) lexical_source_phrase [tahdhib;mufradat]"
+    ],
+    "early_entry": [
+     "ب ذ ر tahdhib",
+     "ح س ر mufradat",
+     "ح س ر tahdhib"
+    ]
+   },
+   "sentence_index": 126,
+   "bellek_marked": false
+  },
+  {
+   "n": 37,
+   "line": 27,
+   "quote": "مَّنَّاعٍۢ لِّلْخَيْرِ مُعْتَدٍ أَثِيمٍ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "68:12"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 130,
+   "bellek_marked": false
+  },
+  {
+   "n": 38,
+   "line": 27,
+   "quote": "مَّنَّاعٍۢ لِّلْخَيْرِ مُعْتَدٍۢ مُّرِيبٍ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "50:25"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "م ن ع tahdhib"
+    ]
+   },
+   "sentence_index": 132,
+   "bellek_marked": false
+  },
+  {
+   "n": 39,
+   "line": 29,
+   "quote": "رجل منيع لا يخلص إليه وهو في عز ومنعة",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001448/B003",
+      "root": "م ن ع",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 136,
+   "bellek_marked": false
+  },
+  {
+   "n": 40,
+   "line": 29,
+   "quote": "في قوم يمنعونه ويحمونه",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001448/B003",
+      "root": "م ن ع",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001448/B003",
+      "root": "م ن ع",
+      "branch": "B003",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "م ن ع tahdhib"
+    ]
+   },
+   "sentence_index": 137,
+   "bellek_marked": false
+  },
+  {
+   "n": 41,
+   "line": 29,
+   "quote": "وَظَنُّوٓا۟ أَنَّهُم مَّانِعَتُهُمْ حُصُونُهُم مِّنَ ٱللَّهِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "59:2"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 143,
+   "bellek_marked": false
+  },
+  {
+   "n": 42,
+   "line": 33,
+   "quote": "إِن تُبْدُوا۟ ٱلصَّدَقَٰتِ فَنِعِمَّا هِىَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "2:271"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "dictionary": [
+     "ن ع م B003 (root_001525/B003) lexical_source_phrase [mufradat]"
+    ],
+    "early_entry": [
+     "خ ف ي mufradat",
+     "ن ع م mufradat",
+     "ن ع م tahdhib"
+    ]
+   },
+   "sentence_index": 152,
+   "bellek_marked": false
+  },
+  {
+   "n": 43,
+   "line": 33,
+   "quote": "وَإِن تُخْفُوهَا وَتُؤْتُوهَا ٱلْفُقَرَآءَ فَهُوَ خَيْرٌۭ لَّكُمْ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "2:271"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "خ ف ي mufradat"
+    ]
+   },
+   "sentence_index": 152,
+   "bellek_marked": false
+  },
+  {
+   "n": 44,
+   "line": 33,
+   "quote": "لَّيْسَ ٱلْبِرَّ أَن تُوَلُّوا۟ وُجُوهَكُمْ قِبَلَ ٱلْمَشْرِقِ وَٱلْمَغْرِبِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "2:177"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ب ر ر maqayis"
+    ],
+    "majaz": [
+     139,
+     478
+    ]
+   },
+   "sentence_index": 160,
+   "bellek_marked": false
+  },
+  {
+   "n": 45,
+   "line": 33,
+   "quote": "وَءَاتَى ٱلْمَالَ عَلَىٰ حُبِّهِۦ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "2:177"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 161,
+   "bellek_marked": false
+  },
+  {
+   "n": 46,
+   "line": 35,
+   "quote": "وَإِذَا قَامُوٓا۟ إِلَى ٱلصَّلَوٰةِ قَامُوا۟ كُسَالَىٰ يُرَآءُونَ ٱلنَّاسَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:142"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 164,
+   "bellek_marked": false
+  },
+  {
+   "n": 47,
+   "line": 35,
+   "quote": "وَٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ رِئَآءَ ٱلنَّاسِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "4:38"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 165,
+   "bellek_marked": false
+  },
+  {
+   "n": 48,
+   "line": 35,
+   "quote": "كَٱلَّذِى يُنفِقُ مَالَهُۥ رِئَآءَ ٱلنَّاسِ وَلَا يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "2:264"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 169,
+   "bellek_marked": false
+  },
+  {
+   "n": 49,
+   "line": 35,
+   "quote": "وَمَا مَنَعَهُمْ أَن تُقْبَلَ مِنْهُمْ نَفَقَٰتُهُمْ إِلَّآ أَنَّهُمْ كَفَرُوا۟ بِٱللَّهِ وَبِرَسُولِهِۦ وَلَا يَأْتُونَ ٱلصَّلَوٰةَ إِلَّا وَهُمْ كُسَالَىٰ وَلَا يُنفِقُونَ إِلَّا وَهُمْ كَٰرِهُونَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "9:54"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 174,
+   "bellek_marked": false
+  },
+  {
+   "n": 50,
+   "line": 39,
+   "quote": "إِنَّ ٱلْإِنسَٰنَ خُلِقَ هَلُوعًا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "70:19"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ش و ي tahdhib"
+    ],
+    "majaz": [
+     "raw:6979"
+    ]
+   },
+   "sentence_index": 181,
+   "bellek_marked": false
+  },
+  {
+   "n": 51,
+   "line": 39,
+   "quote": "وَإِذَا مَسَّهُ ٱلْخَيْرُ مَنُوعًا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "70:21"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "م ن ع tahdhib",
+     "ه ل ع tahdhib"
+    ],
+    "majaz": [
+     "raw:6979"
+    ]
+   },
+   "sentence_index": 182,
+   "bellek_marked": false
+  },
+  {
+   "n": 52,
+   "line": 39,
+   "quote": "إِلَّا ٱلْمُصَلِّينَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "70:22"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 184,
+   "bellek_marked": false
+  },
+  {
+   "n": 53,
+   "line": 39,
+   "quote": "ٱلَّذِينَ هُمْ عَلَىٰ صَلَاتِهِمْ دَآئِمُونَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "70:23"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 185,
+   "bellek_marked": false
+  },
+  {
+   "n": 54,
+   "line": 39,
+   "quote": "وَٱلَّذِينَ فِىٓ أَمْوَٰلِهِمْ حَقٌّۭ مَّعْلُومٌۭ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "70:24"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 185,
+   "bellek_marked": false
+  },
+  {
+   "n": 55,
+   "line": 39,
+   "quote": "لِّلسَّآئِلِ وَٱلْمَحْرُومِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "51:19",
+     "70:25"
+    ],
+    "n_ayat": 2,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ح ر م mufradat",
+     "ح ر م sihah",
+     "س ي ل mufradat"
+    ]
+   },
+   "sentence_index": 186,
+   "bellek_marked": false
+  },
+  {
+   "n": 56,
+   "line": 41,
+   "quote": "لَمْ نَكُ مِنَ ٱلْمُصَلِّينَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "74:43"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ص ل و mufradat",
+     "ص ل ي mufradat"
+    ]
+   },
+   "sentence_index": 200,
+   "bellek_marked": false
+  },
+  {
+   "n": 57,
+   "line": 41,
+   "quote": "وَلَمْ نَكُ نُطْعِمُ ٱلْمِسْكِينَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "74:44"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 200,
+   "bellek_marked": false
+  },
+  {
+   "n": 58,
+   "line": 43,
+   "quote": "وفي الإسلام الطاعة والزكاة",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_004706/B005",
+      "root": "م ع ن",
+      "branch": "B005",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "unresolved",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 204,
+   "bellek_marked": false
+  },
+  {
+   "n": 59,
+   "line": 43,
+   "quote": "الماعون الطاعة",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_004706/B005",
+      "root": "م ع ن",
+      "branch": "B005",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "unresolved",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 204,
+   "bellek_marked": false
+  },
+  {
+   "n": 60,
+   "line": 43,
+   "quote": "أمعن بحقي ذهب به",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_004706/B004",
+      "root": "م ع ن",
+      "branch": "B004",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis",
+       "sihah"
+      ],
+      "branch_kind": "unresolved",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 205,
+   "bellek_marked": false
+  },
+  {
+   "n": 61,
+   "line": 43,
+   "quote": "أمعن لي بحقي إذا أقر به وانقاد",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_004706/B004",
+      "root": "م ع ن",
+      "branch": "B004",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "unresolved",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 205,
+   "bellek_marked": false
+  },
+  {
+   "n": 62,
+   "line": 43,
+   "quote": "فَأَمَّا مَنْ أَعْطَىٰ وَٱتَّقَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "92:5"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 212,
+   "bellek_marked": false
+  },
+  {
+   "n": 63,
+   "line": 43,
+   "quote": "وَصَدَّقَ بِٱلْحُسْنَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "92:6"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 212,
+   "bellek_marked": false
+  },
+  {
+   "n": 64,
+   "line": 43,
+   "quote": "وَأَمَّا مَنۢ بَخِلَ وَٱسْتَغْنَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "92:8"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 213,
+   "bellek_marked": false
+  },
+  {
+   "n": 65,
+   "line": 43,
+   "quote": "وَكَذَّبَ بِٱلْحُسْنَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "92:9"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 213,
+   "bellek_marked": false
+  }
+ ],
+ "arabic_outside_tags": [],
+ "bellek": [],
+ "unsourced_unmarked": [],
+ "cited_branches": [
+  {
+   "branch_ref": "root_001448/B002",
+   "root": "م ن ع",
+   "branch": "B002",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım, genel alıkoyma çekirdeğini korurken nesneden uzaklaştıran yapıları, bırakma sebebi soran kalıbı ve engel sonrası geri durma sonucunu ayrı tutar.",
+   "image_ar": "حاجز بين المرء وما يريد",
+   "quote": "منعت الرجل عن الشئ فامتنع منه",
+   "line": 5,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Araplar {ar:منعت الرجل عن الشئ فامتنع منه, tr:mena‘tü'r-racüle ani'ş-şey' fe'mtene‘a minh, gloss:adamı o şeyden alıkoydum, o da geri durdu, source:\"م ن ع,B002\"} derlerdi."
+  },
+  {
+   "branch_ref": "root_004706/B003",
+   "root": "م ع ن",
+   "branch": "B003",
+   "branch_kind": "unresolved",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Çıplak biçimin kapsamı belirlenmediğinden kolaylık ve nicelik okumaları yalnız tanıklanan bağlamlarıyla verilir.",
+   "image_ar": "اليسر والقلة وخفة الخطر",
+   "quote": "المعن الشيء اليسير الهين",
+   "line": 7,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Araplar {ar:المعن الشيء اليسير الهين, tr:el-ma‘nu'ş-şey'ü'l-yesîru'l-heyyin, gloss:\"ma‘n\", az ve kolay şeydir, source:\"م ع ن,B003\"} derlerdi."
+  },
+  {
+   "branch_ref": "root_004706/B005",
+   "root": "م ع ن",
+   "branch": "B005",
+   "branch_kind": "unresolved",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Çıplak biçimin kapsamı belirlenmediğinden farklı yarar ve dinî kullanımlar tanıklanan bağlamlarıyla sınırlandırılır.",
+   "image_ar": "الماعون منفعة قليلة مبذولة",
+   "quote": "الماعون اسم جامع لمنافع البيت",
+   "line": 11,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Mâûn bir evin işe yarayan şeylerinin toplu adıdır: {ar:الماعون اسم جامع لمنافع البيت, tr:el-mâ‘ûnu'smun câmi‘un li-menâfi‘i'l-beyt, gloss:mâûn, evin işe yarar şeylerinin toplu adıdır, source:\"م ع ن,B005\"}."
+  },
+  {
+   "branch_ref": "root_004706/B005",
+   "root": "م ع ن",
+   "branch": "B005",
+   "branch_kind": "unresolved",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Çıplak biçimin kapsamı belirlenmediğinden farklı yarar ve dinî kullanımlar tanıklanan bağlamlarıyla sınırlandırılır.",
+   "image_ar": "الماعون منفعة قليلة مبذولة",
+   "quote": "الماعون المعروف كله والقصعة والقدر والفأس",
+   "line": 13,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Kelime bu ev eşyasından daha genişini de kapsar: {ar:الماعون المعروف كله والقصعة والقدر والفأس, tr:el-mâ‘ûnu'l-ma‘rûfu küllühû ve'l-kas‘atu ve'l-kıdru ve'l-fe's, gloss:mâûn bütün iyiliktir; çanak, tencere ve baltadır, source:\"م ع ن,B005\"}."
+  },
+  {
+   "branch_ref": "root_004706/B003",
+   "root": "م ع ن",
+   "branch": "B003",
+   "branch_kind": "unresolved",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Çıplak biçimin kapsamı belirlenmediğinden kolaylık ve nicelik okumaları yalnız tanıklanan bağlamlarıyla verilir.",
+   "image_ar": "اليسر والقلة وخفة الخطر",
+   "quote": "رجل معن في حاجته سهل",
+   "line": 13,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Kökün bir başka kullanımı mâûnu veren insanı da tarif eder: {ar:رجل معن في حاجته سهل, tr:racülün ma‘nun fî hâcetihî sehl, gloss:ihtiyacı olunduğunda kolay olan adam, source:\"م ع ن,B003\"}."
+  },
+  {
+   "branch_ref": "root_004706/B006",
+   "root": "م ع ن",
+   "branch": "B006",
+   "branch_kind": "unresolved",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Çıplak biçimin kapsamı belirlenmediğinden genel yer anlamı ve özel ad kullanımı ayrı tanıklanan biçimler olarak sunulur.",
+   "image_ar": "المعان منزلا ومباءة",
+   "quote": "المعان المباءة والمنزل",
+   "line": 13,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Kök evin kendisini de adlandırır: {ar:المعان المباءة والمنزل, tr:el-ma‘ânu'l-mebâetu ve'l-menzil, gloss:\"me‘ân\", konaklanan yer ve evdir, source:\"م ع ن,B006\"}."
+  },
+  {
+   "branch_ref": "root_004706/B005",
+   "root": "م ع ن",
+   "branch": "B005",
+   "branch_kind": "unresolved",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Çıplak biçimin kapsamı belirlenmediğinden farklı yarar ve dinî kullanımlar tanıklanan bağlamlarıyla sınırlandırılır.",
+   "image_ar": "الماعون منفعة قليلة مبذولة",
+   "quote": "الماعون في الجاهلية كل منفعة وعطية",
+   "line": 15,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Yardım anlamı ona sesinden değil, kullanımından gelir: {ar:الماعون في الجاهلية كل منفعة وعطية, tr:el-mâ‘ûnu fi'l-câhiliyyeti küllü menfe‘atin ve atıyye, gloss:mâûn, İslam öncesinde her türlü yarar ve bağıştı, source:\"م ع ن,B005\"}."
+  },
+  {
+   "branch_ref": "root_004706/B001",
+   "root": "م ع ن",
+   "branch": "B001",
+   "branch_kind": "unresolved",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Birimin çıplak biçime mi bağlı olduğu belirlenmediğinden tanım yalnızca tanıklanan su kullanımlarını kapsar.",
+   "image_ar": "جريان الماء وظهوره",
+   "quote": "ماء معين أي جار",
+   "line": 19,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Mâûnun kökü suyu akarken adlandırır: {ar:ماء معين أي جار, tr:mâun ma‘în, ey câr, gloss:\"ma‘în\" su, akan sudur, source:\"م ع ن,B001\"}."
+  },
+  {
+   "branch_ref": "root_004706/B005",
+   "root": "م ع ن",
+   "branch": "B005",
+   "branch_kind": "unresolved",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Çıplak biçimin kapsamı belirlenmediğinden farklı yarar ve dinî kullanımlar tanıklanan bağlamlarıyla sınırlandırılır.",
+   "image_ar": "الماعون منفعة قليلة مبذولة",
+   "quote": "يسمى الماء أيضا ماعونا",
+   "line": 19,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Suyun kendisine de mâûn denir: {ar:يسمى الماء أيضا ماعونا, tr:yusemme'l-mâu eyden mâ‘ûnâ, gloss:suya da mâûn denir, source:\"م ع ن,B005\"}."
+  },
+  {
+   "branch_ref": "root_001448/B001",
+   "root": "م ن ع",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım, vermemenin genel çekirdeği ile kişiyi sürekli esirgeyen ya da cimri gösteren türemiş kullanımları ayırarak kapsar.",
+   "image_ar": "كف اليد عن العطاء",
+   "quote": "رجل منوع ومناع إذا كان بخيلا ممسكا",
+   "line": 21,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Esirgeyen adamın tarifinde de aynı tutma vardır: {ar:رجل منوع ومناع إذا كان بخيلا ممسكا, tr:racülün menû‘un ve mennâ‘un izâ kâne bahîlen mümsikâ, gloss:cimri ve eli sıkı olana \"menû‘\" ve \"mennâ‘\" denir, source:\"م ن ع,B001\"}."
+  },
+  {
+   "branch_ref": "root_001448/B001",
+   "root": "م ن ع",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım, vermemenin genel çekirdeği ile kişiyi sürekli esirgeyen ya da cimri gösteren türemiş kullanımları ayırarak kapsar.",
+   "image_ar": "كف اليد عن العطاء",
+   "quote": "خلاف الإعطاء",
+   "line": 25,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Fiilin Arapçadaki ilk anlamı vermenin karşıtıdır: {ar:خلاف الإعطاء, tr:hılâfu'l-i‘tâ’, gloss:vermenin karşıtı, source:\"م ن ع,B001\"}; {ar:ضد العطية, tr:ziddu'l-atıyye, gloss:bağışın karşıtı, source:\"م ن ع,B001\"}."
+  },
+  {
+   "branch_ref": "root_001448/B002",
+   "root": "م ن ع",
+   "branch": "B002",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım, genel alıkoyma çekirdeğini korurken nesneden uzaklaştıran yapıları, bırakma sebebi soran kalıbı ve engel sonrası geri durma sonucunu ayrı tutar.",
+   "image_ar": "حاجز بين المرء وما يريد",
+   "quote": "المنع أن تحول بين الرجل وبين الشيء الذي يريده",
+   "line": 25,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Fiilin ikinci yüzü bir bedenin araya girmesini anlatır: {ar:المنع أن تحول بين الرجل وبين الشيء الذي يريده, tr:el-men‘u en tehûle beyne'r-racüli ve beyne'ş-şey'i'llezî yurîdüh, gloss:men‘, adamla istediği şeyin arasına girmektir, source:\"م ن ع,B002\"}."
+  },
+  {
+   "branch_ref": "root_001448/B003",
+   "root": "م ن ع",
+   "branch": "B003",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım, kişi ve yer için erişilmezlik bildiren biçimleri, koruyucu güç ve destekçi anlamını ve sabit saygınlık-koruma birlikteliğini ayrı görünümler olarak korur.",
+   "image_ar": "قوة تحمي فلا يخلص إليها",
+   "quote": "رجل منيع لا يخلص إليه وهو في عز ومنعة",
+   "line": 29,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Fiil korumayı ve erişilmezliği de anlatır: {ar:رجل منيع لا يخلص إليه وهو في عز ومنعة, tr:racülün menî‘un lâ yuhlasu ileyh, ve huve fî izzin ve men‘a, gloss:\"menî‘\" adama ulaşılamaz, o güç ve koruma içindedir, source:\"م ن ع,B003\"}."
+  },
+  {
+   "branch_ref": "root_004706/B005",
+   "root": "م ع ن",
+   "branch": "B005",
+   "branch_kind": "unresolved",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Çıplak biçimin kapsamı belirlenmediğinden farklı yarar ve dinî kullanımlar tanıklanan bağlamlarıyla sınırlandırılır.",
+   "image_ar": "الماعون منفعة قليلة مبذولة",
+   "quote": "وفي الإسلام الطاعة والزكاة",
+   "line": 43,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Mâûn yalnızca bir eşya değil, bir yükümlülüktür: {ar:وفي الإسلام الطاعة والزكاة, tr:ve fi'l-islâmi't-tâ‘atu ve'z-zekât, gloss:İslam'da itaat ve zekâttır, source:\"م ع ن,B005\"}; {ar:الماعون الطاعة, tr:el-mâ‘ûnu't-tâ‘a, gloss:mâûn itaattir, source:\"م ع ن,B005\"}."
+  },
+  {
+   "branch_ref": "root_004706/B004",
+   "root": "م ع ن",
+   "branch": "B004",
+   "branch_kind": "unresolved",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Çıplak biçim için karar verilmediğinden karşıt okumalar yalnız kaynakta tanıklanan iki hak yapısına bağlanır.",
+   "image_ar": "إمعان الحق بين الإذهاب والإقرار",
+   "quote": "أمعن بحقي ذهب به",
+   "line": 43,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Kökün fiili bir hakkın karşısındaki iki tavrı da adlandırır: {ar:أمعن بحقي ذهب به, tr:em‘ane bi-hakkî, zehebe bih, gloss:hakkımı alıp götürdü, source:\"م ع ن,B004\"}; {ar:أمعن لي بحقي إذا أقر به وانقاد, tr:em‘ane lî bi-hakkî izâ akarra bihî ve'nkâd, gloss:hakkımı tanıyıp ona boyun eğdiğinde böyle denir, source:\"م ع ن,B004\"}."
+  }
+ ],
+ "sources": [],
+ "process_lines": [],
+ "sources_all": [
+  {
+   "line": 3,
+   "quote": "وَيَمْنَعُونَ ٱلْمَاعُونَ",
+   "declared": "107:7",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "107:7"
+   ]
+  },
+  {
+   "line": 3,
+   "quote": "ٱلَّذِينَ هُمْ يُرَآءُونَ",
+   "declared": "107:6",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "107:6"
+   ]
+  },
+  {
+   "line": 5,
+   "quote": "منعت الرجل عن الشئ فامتنع منه",
+   "declared": "م ن ع,B002",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001448/B002",
+   "gapped": false
+  },
+  {
+   "line": 5,
+   "quote": "يَٰٓأَبَانَا مُنِعَ مِنَّا ٱلْكَيْلُ",
+   "declared": "12:63",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "12:63"
+   ]
+  },
+  {
+   "line": 7,
+   "quote": "المعن الشيء اليسير الهين",
+   "declared": "م ع ن,B003",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_004706/B003",
+   "gapped": false
+  },
+  {
+   "line": 7,
+   "quote": "ماله سعنة ولا معنة أي شيء",
+   "declared": "م ع ن,B003",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_004706/B003",
+   "gapped": false
+  },
+  {
+   "line": 7,
+   "quote": "المعن القليل والمعن الكثير",
+   "declared": "م ع ن,B003",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_004706/B003",
+   "gapped": false
+  },
+  {
+   "line": 7,
+   "quote": "وَيُؤْثِرُونَ عَلَىٰٓ أَنفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌۭ",
+   "declared": "59:9",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "59:9"
+   ]
+  },
+  {
+   "line": 7,
+   "quote": "وَمَن يُوقَ شُحَّ نَفْسِهِۦ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+   "declared": "59:9",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "59:9"
+   ]
+  },
+  {
+   "line": 11,
+   "quote": "الماعون اسم جامع لمنافع البيت",
+   "declared": "م ع ن,B005",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_004706/B005",
+   "gapped": false
+  },
+  {
+   "line": 11,
+   "quote": "أسقاط البيت نحو الفأس والقدر والدلو",
+   "declared": "م ع ن,B005",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_004706/B005",
+   "gapped": false
+  },
+  {
+   "line": 11,
+   "quote": "كل ما يستعار من قدوم وسفرة وشفرة",
+   "declared": "م ع ن,B005",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_004706/B005",
+   "gapped": false
+  },
+  {
+   "line": 13,
+   "quote": "الماعون المعروف كله والقصعة والقدر والفأس",
+   "declared": "م ع ن,B005",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_004706/B005",
+   "gapped": false
+  },
+  {
+   "line": 13,
+   "quote": "رجل معن في حاجته سهل",
+   "declared": "م ع ن,B003",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_004706/B003",
+   "gapped": false
+  },
+  {
+   "line": 13,
+   "quote": "المعان المباءة والمنزل",
+   "declared": "م ع ن,B006",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_004706/B006",
+   "gapped": false
+  },
+  {
+   "line": 15,
+   "quote": "كل شيء استعنت به أو أعانك فهو عونك",
+   "declared": "ع و ن,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001064/B001",
+   "gapped": false
+  },
+  {
+   "line": 15,
+   "quote": "الماعون في الجاهلية كل منفعة وعطية",
+   "declared": "م ع ن,B005",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_004706/B005",
+   "gapped": false
+  },
+  {
+   "line": 15,
+   "quote": "وَإِيَّاكَ نَسْتَعِينُ",
+   "declared": "1:5",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "1:5"
+   ]
+  },
+  {
+   "line": 15,
+   "quote": "وَتَعَاوَنُوا۟ عَلَى ٱلْبِرِّ وَٱلتَّقْوَىٰ",
+   "declared": "5:2",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "5:2"
+   ]
+  },
+  {
+   "line": 19,
+   "quote": "ماء معين أي جار",
+   "declared": "م ع ن,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_004706/B001",
+   "gapped": false
+  },
+  {
+   "line": 19,
+   "quote": "المعنة ماء قليل يجري",
+   "declared": "م ع ن,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_004706/B001",
+   "gapped": false
+  },
+  {
+   "line": 19,
+   "quote": "المعنان مجاري الماء في الوادي",
+   "declared": "م ع ن,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_004706/B001",
+   "gapped": false
+  },
+  {
+   "line": 19,
+   "quote": "يسمى الماء أيضا ماعونا",
+   "declared": "م ع ن,B005",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_004706/B005",
+   "gapped": false
+  },
+  {
+   "line": 19,
+   "quote": "أمعنت الأرض رويت",
+   "declared": "م ع ن,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_004706/B001",
+   "gapped": false
+  },
+  {
+   "line": 21,
+   "quote": "قُلْ أَرَءَيْتُمْ إِنْ أَصْبَحَ مَآؤُكُمْ غَوْرًۭا فَمَن يَأْتِيكُم بِمَآءٍۢ مَّعِينٍۭ",
+   "declared": "67:30",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "67:30"
+   ]
+  },
+  {
+   "line": 21,
+   "quote": "إِذًۭا لَّأَمْسَكْتُمْ خَشْيَةَ ٱلْإِنفَاقِ ۚ وَكَانَ ٱلْإِنسَٰنُ قَتُورًۭا",
+   "declared": "17:100",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "17:100"
+   ]
+  },
+  {
+   "line": 21,
+   "quote": "سَيُطَوَّقُونَ مَا بَخِلُوا۟ بِهِۦ يَوْمَ ٱلْقِيَٰمَةِ",
+   "declared": "3:180",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "3:180"
+   ]
+  },
+  {
+   "line": 21,
+   "quote": "وَلِلَّهِ مِيرَٰثُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ",
+   "declared": "3:180",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "3:180"
+   ]
+  },
+  {
+   "line": 21,
+   "quote": "رجل منوع ومناع إذا كان بخيلا ممسكا",
+   "declared": "م ن ع,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001448/B001",
+   "gapped": false
+  },
+  {
+   "line": 21,
+   "quote": "يُطَافُ عَلَيْهِم بِكَأْسٍۢ مِّن مَّعِينٍۭ",
+   "declared": "37:45",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "37:45"
+   ]
+  },
+  {
+   "line": 21,
+   "quote": "لَّا مَقْطُوعَةٍۢ وَلَا مَمْنُوعَةٍۢ",
+   "declared": "56:33",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "56:33"
+   ]
+  },
+  {
+   "line": 25,
+   "quote": "خلاف الإعطاء",
+   "declared": "م ن ع,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001448/B001",
+   "gapped": false
+  },
+  {
+   "line": 25,
+   "quote": "ضد العطية",
+   "declared": "م ن ع,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001448/B001",
+   "gapped": false
+  },
+  {
+   "line": 25,
+   "quote": "المنع أن تحول بين الرجل وبين الشيء الذي يريده",
+   "declared": "م ن ع,B002",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001448/B002",
+   "gapped": false
+  },
+  {
+   "line": 25,
+   "quote": "وَلَا تَجْعَلْ يَدَكَ مَغْلُولَةً إِلَىٰ عُنُقِكَ",
+   "declared": "17:29",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "17:29"
+   ]
+  },
+  {
+   "line": 25,
+   "quote": "فَتَقْعُدَ مَلُومًۭا مَّحْسُورًا",
+   "declared": "17:29",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "17:29"
+   ]
+  },
+  {
+   "line": 27,
+   "quote": "مَّنَّاعٍۢ لِّلْخَيْرِ مُعْتَدٍ أَثِيمٍ",
+   "declared": "68:12",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "68:12"
+   ]
+  },
+  {
+   "line": 27,
+   "quote": "مَّنَّاعٍۢ لِّلْخَيْرِ مُعْتَدٍۢ مُّرِيبٍ",
+   "declared": "50:25",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "50:25"
+   ]
+  },
+  {
+   "line": 29,
+   "quote": "رجل منيع لا يخلص إليه وهو في عز ومنعة",
+   "declared": "م ن ع,B003",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001448/B003",
+   "gapped": false
+  },
+  {
+   "line": 29,
+   "quote": "في قوم يمنعونه ويحمونه",
+   "declared": "م ن ع,B003",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001448/B003",
+   "gapped": false
+  },
+  {
+   "line": 29,
+   "quote": "وَظَنُّوٓا۟ أَنَّهُم مَّانِعَتُهُمْ حُصُونُهُم مِّنَ ٱللَّهِ",
+   "declared": "59:2",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "59:2"
+   ]
+  },
+  {
+   "line": 33,
+   "quote": "إِن تُبْدُوا۟ ٱلصَّدَقَٰتِ فَنِعِمَّا هِىَ",
+   "declared": "2:271",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "2:271"
+   ]
+  },
+  {
+   "line": 33,
+   "quote": "وَإِن تُخْفُوهَا وَتُؤْتُوهَا ٱلْفُقَرَآءَ فَهُوَ خَيْرٌۭ لَّكُمْ",
+   "declared": "2:271",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "2:271"
+   ]
+  },
+  {
+   "line": 33,
+   "quote": "لَّيْسَ ٱلْبِرَّ أَن تُوَلُّوا۟ وُجُوهَكُمْ قِبَلَ ٱلْمَشْرِقِ وَٱلْمَغْرِبِ",
+   "declared": "2:177",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "2:177"
+   ]
+  },
+  {
+   "line": 33,
+   "quote": "وَءَاتَى ٱلْمَالَ عَلَىٰ حُبِّهِۦ",
+   "declared": "2:177",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "2:177"
+   ]
+  },
+  {
+   "line": 35,
+   "quote": "وَإِذَا قَامُوٓا۟ إِلَى ٱلصَّلَوٰةِ قَامُوا۟ كُسَالَىٰ يُرَآءُونَ ٱلنَّاسَ",
+   "declared": "4:142",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "4:142"
+   ]
+  },
+  {
+   "line": 35,
+   "quote": "وَٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ رِئَآءَ ٱلنَّاسِ",
+   "declared": "4:38",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "4:38"
+   ]
+  },
+  {
+   "line": 35,
+   "quote": "كَٱلَّذِى يُنفِقُ مَالَهُۥ رِئَآءَ ٱلنَّاسِ وَلَا يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ",
+   "declared": "2:264",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "2:264"
+   ]
+  },
+  {
+   "line": 35,
+   "quote": "وَمَا مَنَعَهُمْ أَن تُقْبَلَ مِنْهُمْ نَفَقَٰتُهُمْ إِلَّآ أَنَّهُمْ كَفَرُوا۟ بِٱللَّهِ وَبِرَسُولِهِۦ وَلَا يَأْتُونَ ٱلصَّلَوٰةَ إِلَّا وَهُمْ كُسَالَىٰ وَلَا يُنفِقُونَ إِلَّا وَهُمْ كَٰرِهُونَ",
+   "declared": "9:54",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "9:54"
+   ]
+  },
+  {
+   "line": 39,
+   "quote": "إِنَّ ٱلْإِنسَٰنَ خُلِقَ هَلُوعًا",
+   "declared": "70:19",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "70:19"
+   ]
+  },
+  {
+   "line": 39,
+   "quote": "وَإِذَا مَسَّهُ ٱلْخَيْرُ مَنُوعًا",
+   "declared": "70:21",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "70:21"
+   ]
+  },
+  {
+   "line": 39,
+   "quote": "إِلَّا ٱلْمُصَلِّينَ",
+   "declared": "70:22",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "70:22"
+   ]
+  },
+  {
+   "line": 39,
+   "quote": "ٱلَّذِينَ هُمْ عَلَىٰ صَلَاتِهِمْ دَآئِمُونَ",
+   "declared": "70:23",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "70:23"
+   ]
+  },
+  {
+   "line": 39,
+   "quote": "وَٱلَّذِينَ فِىٓ أَمْوَٰلِهِمْ حَقٌّۭ مَّعْلُومٌۭ",
+   "declared": "70:24",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "70:24"
+   ]
+  },
+  {
+   "line": 39,
+   "quote": "لِّلسَّآئِلِ وَٱلْمَحْرُومِ",
+   "declared": "70:25",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "70:25"
+   ]
+  },
+  {
+   "line": 41,
+   "quote": "لَمْ نَكُ مِنَ ٱلْمُصَلِّينَ",
+   "declared": "74:43",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "74:43"
+   ]
+  },
+  {
+   "line": 41,
+   "quote": "وَلَمْ نَكُ نُطْعِمُ ٱلْمِسْكِينَ",
+   "declared": "74:44",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "74:44"
+   ]
+  },
+  {
+   "line": 43,
+   "quote": "وفي الإسلام الطاعة والزكاة",
+   "declared": "م ع ن,B005",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_004706/B005",
+   "gapped": false
+  },
+  {
+   "line": 43,
+   "quote": "الماعون الطاعة",
+   "declared": "م ع ن,B005",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_004706/B005",
+   "gapped": false
+  },
+  {
+   "line": 43,
+   "quote": "أمعن بحقي ذهب به",
+   "declared": "م ع ن,B004",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_004706/B004",
+   "gapped": false
+  },
+  {
+   "line": 43,
+   "quote": "أمعن لي بحقي إذا أقر به وانقاد",
+   "declared": "م ع ن,B004",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_004706/B004",
+   "gapped": false
+  },
+  {
+   "line": 43,
+   "quote": "فَأَمَّا مَنْ أَعْطَىٰ وَٱتَّقَىٰ",
+   "declared": "92:5",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "92:5"
+   ]
+  },
+  {
+   "line": 43,
+   "quote": "وَصَدَّقَ بِٱلْحُسْنَىٰ",
+   "declared": "92:6",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "92:6"
+   ]
+  },
+  {
+   "line": 43,
+   "quote": "وَأَمَّا مَنۢ بَخِلَ وَٱسْتَغْنَىٰ",
+   "declared": "92:8",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "92:8"
+   ]
+  },
+  {
+   "line": 43,
+   "quote": "وَكَذَّبَ بِٱلْحُسْنَىٰ",
+   "declared": "92:9",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "92:9"
+   ]
+  },
+  {
+   "line": 5,
+   "quote": null,
+   "declared": "12:60",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "12:60"
+   ]
+  },
+  {
+   "line": 27,
+   "quote": null,
+   "declared": "68:10",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "68:10"
+   ]
+  },
+  {
+   "line": 27,
+   "quote": null,
+   "declared": "50:24",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "50:24"
+   ]
+  },
+  {
+   "line": 35,
+   "quote": null,
+   "declared": "2:264",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "2:264"
+   ]
+  },
+  {
+   "line": 39,
+   "quote": null,
+   "declared": "70:20",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "70:20"
+   ]
+  },
+  {
+   "line": 41,
+   "quote": null,
+   "declared": "74:42",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "74:42"
+   ]
+  }
+ ]
+}

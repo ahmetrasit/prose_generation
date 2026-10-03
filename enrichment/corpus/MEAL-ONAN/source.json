@@ -1,0 +1,41 @@
+{
+  "id": "MEAL-ONAN",
+  "title": "Kur'an-ı Kerim meali",
+  "author": "Gültekin Onan",
+  "translator": "Gültekin Onan",
+  "death_ah": null,
+  "kind": "meal",
+  "tradition": "",
+  "language": "tr",
+  "edition": "as published by acikkuran.com \"Gültekin Onan\"",
+  "access": "yerel",
+  "locator": "ayah",
+  "coverage": "1-8,22,87-114 + partial 9 (1707/6236 ayat)",
+  "urls": [
+    "https://acikkuran.com/{slug}/{a}-ayet-meali.md  (section \"### Gültekin Onan\"); whole surah without footnotes: https://acikkuran.com/{slug}.md?author=18",
+    "https://cdn.jsdelivr.net/gh/fawazahmed0/quran-api@1/editions/tur-gultekinonan.json",
+    "https://mealler.org/SureveAyetler.aspx?sureid={sss}&ayet={aaa}  (row \"Gültekin Onan\")"
+  ],
+  "fetched_at": "2026-10-03",
+  "files": {
+    "raw/fawaz_tur-gultekinonan.json": "ad4df200c6122e78b5898b9bf4a71820e3ec1dc4adea32f100299b4cdc3cc5b6"
+  },
+  "lineage": null,
+  "relay": null,
+  "licence": "acikkuran.com: CC BY-NC-SA 4.0, name the translator (robots Content-Signal: ai-train=no); local research copy only.",
+  "panel": false,
+  "host_label": "acikkuran.com \"Gültekin Onan\"",
+  "cross_witnesses": [
+    "fawazahmed0/quran-api tur-gultekinonan",
+    "mealler.org \"Gültekin Onan\""
+  ],
+  "notes": "~69% identical to MEAL-BULAC over S1, S22, S87-114: not an independent witness to Bulaç. 2 merged verse groups stored once as a..a_end. 2 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. Coverage incomplete (1707/6236); re-run `fetch_meal.py fetch --sources MEAL-ONAN` then `build` to resume.",
+  "raw_shared": [
+    "acikkuran pages: ../MEAL-ISLAMOGLU/raw/acikkuran/",
+    "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
+  ],
+  "_notes_parts": {
+    "static": "~69% identical to MEAL-BULAC over S1, S22, S87-114: not an independent witness to Bulaç.",
+    "build": "2 merged verse groups stored once as a..a_end. 2 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. Coverage incomplete (1707/6236); re-run `fetch_meal.py fetch --sources MEAL-ONAN` then `build` to resume."
+  }
+}

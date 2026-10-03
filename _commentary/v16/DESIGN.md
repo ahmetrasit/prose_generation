@@ -145,7 +145,7 @@ backfilled from `work/`, and their character counts match the ledger.
 
 - One call per arm per ayah. No duplicates, no retries, no reruns: an existing `out/…/run.log.json` is never
   overwritten.
-- A call starts only when its estimate is below $5, whatever it then costs.
+- A call starts only when its estimate is below $5, whatever it then costs. *Replaced 2026-10-02 (user): no gate; the user is told a surah's expected cost before it starts.*
 - Every call is logged in `out/ledger.jsonl`.
 - No run without the user's approval.
 
@@ -1524,3 +1524,55 @@ refs, no process talk: the r12_1 style faults are gone); readings 1:1–1:7 $10.
 3–17); augment3: a first attempt hit the session limit at $0 (kept as augment.augment3.session-limit-0usd), the
 repair run completed ($4.19; 9–21 insertions per ayah, all applied; one new wrong ayah tag in 1:2).
 S1 total with r13: map $2.42 + images $3.92 + readings $10.72 + augments $4.19 = $21.25, $3.04 per ayah (7 ayat).
+
+## S87–S114 with r13; new machine (user, 2026-10-02)
+
+**Plan.** v16 r13 end to end (map3.nohft.tool → images r13 → r13 readings → augment3) for S87–S114; S100 and
+S107 are done.
+
+**Cost gate removed** (user): `GATE_USD` is infinite; before each surah starts, the user is told its expected cost.
+
+**Paths made relative.** The workspace moved from `/Volumes/OZTURK/_projects` to `/Volumes/aro/projects`.
+- Channel reviews: unchanged, `latent_activation/` beside this repo (identical to
+  `quran-data/data/analysis/channels/network-v3/sNNN/review/`).
+- `missing.py` and `review/e0/checks/common.py` resolve the projects dir from their own location; so does
+  `v9/prepare.py`'s word-analysis fallback.
+- `v9/prepare.py` `Sources` loads the network ranks (quran-slm `artifacts/`, gitignored, absent here) on first use;
+  the v16 dictionary never uses them.
+- Check: a fresh S107 map packet is byte-identical to the saved one, apart from the build dir.
+
+**Checker sources.** `dictionary/` and `root-dossier/` were added beside the repo; qiraat is now
+`quran/_project_corpus/qiraat.tsv` (`common.py` updated). `check.py` runs, and the 107:1 record reproduces the saved one
+exactly (only the hash of the edited `common.py` differs). Not needed by v16: quran-slm `artifacts/` (network ranks)
+and `word_analysis/` (every S87–S114 ayah has a bundle).
+
+## Surahs without a channel review: S108, S110, S113, S114 (user, 2026-10-03)
+
+S108 and S110 were excluded upstream (three ayat, below the channel minimum span); S113 and S114 have channel
+candidates but no reader review. Only the map reads the channel review, so only the map changes:
+
+`packets.py map --surah N --no-channels --hft-bundle --tool` (dir `surah.map3.nochannels.hftbundle.tool`):
+- no channels.md; the HFT records take its place as the earlier reader's assembled proposals. They come from the
+  ayah bundles (`v12_focus_trace_hermetic`) through v9's own `section_hft`, which renders byte-identical to v9's
+  `02_hft.md` (checked on 100:1), then `trim_hft` as before. Every ayah of the four surahs has records.
+- The map3 brief is adapted in the packet only (`NO_CHANNELS`, three lines); the header names hft.md alone.
+- `--no-channels` without HFT is refused. The images step takes text.md from the build without channels.
+- Dry builds: S108 74k chars ($2.62 at 80k out), S110 105k ($2.96), S113 115k ($3.02), S114 133k ($3.15).
+  S107's map packet still rebuilds byte-identical.
+- Images, readings and augment3 run unchanged.
+
+## No silent failures (user, 2026-10-03)
+
+- **94:6.** The S94 images credit every ʿusr/yusr member to 94:5, which 94:6 repeats («إن مع العسر يسرا»), so no image
+  section cites 94:6 and its writer build stopped. `packets.SLICE_ALIAS = {"94:6": "94:5"}`: 94:6 reads the sections
+  that cite 94:5 (6 images). It is explicit, never inferred; the build prints a NOTE, the section header names the
+  alias, and packet.json records `images_slice_alias`. An ayah with no cited section and no alias still stops the
+  build, naming the choices (an alias, the full images, or no reading).
+- **`packets.py slices --surah N --images …`** lists each ayah's image sections before a surah's readings and names
+  every ayah a writer build would refuse. S87, S88, S89, S91, S94 and S95: every ayah has at least one section; only
+  94:6 uses the alias.
+- **check.py failures are loud.** `v16.run_check` replaces the unchecked `subprocess.run` calls (images, readings,
+  augment): it prints check.py's error when it fails or writes no record, and the ledger row gets
+  `check: ok|failed`. 107:1 rechecked through it gives the saved summary.
+- The 107:1 writer packet rebuilt with these changes differs from the saved one only in the machine path of
+  missing.py.

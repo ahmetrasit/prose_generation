@@ -1,0 +1,822 @@
+{
+  "id": "TDVIA",
+  "title": "TDV İslâm Ansiklopedisi",
+  "author": "various (signed articles; authors recorded per segment)",
+  "death_ah": null,
+  "kind": "reference",
+  "tradition": "academic (Turkish Islamic studies), TDV/İSAM",
+  "language": "tr",
+  "edition": "online edition of the 44-vol. print encyclopaedia (1988–2013) + Ek 1–2 (2016); volume/page/year per article as printed on the site",
+  "access": "yerel",
+  "locator": "section",
+  "licence": "© TDV İslâm Araştırmaları Merkezi; free to read online; citation requested in the site's format; local research copy only, no redistribution",
+  "notes": "seg TDVIA:<slug>#<part>. Fields per segment: url, title, authors, printed (the site's 'Bu madde ... cildinde ... sayfalarda yer almıştır' line), vol, pages, year, pdf, cite. Surah articles carry s. Bibliography of each part is kept at the end of its text after 'BİBLİYOGRAFYA'.",
+  "coverage": "surah articles: 1,22,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114; 22 term/author articles",
+  "urls": [
+    "https://islamansiklopedisi.org.tr"
+  ],
+  "fetched_at": "2026-10-03T11:48:08-04:00",
+  "files": {
+    "raw/article/adiyat-suresi.html": "5513d3bc8a5c4058cc134cfcb3cbe05dcd1dba1b75a806ad69b7dfb6fe9b2753",
+    "raw/article/ala-suresi.html": "f5b42edb871eebbc5f10abaa8b6597fe64e9077581ef3772f6a4457ff4653dae",
+    "raw/article/alak-suresi.html": "52f0bd3a136926df8a6e90f7ca9bd55c3bfb8b57275c7a206a972beb06ee5ec0",
+    "raw/article/alem.html": "c74564f35c02321866cebef9715d68dbf54ce29213193ed51485b7f1be29403f",
+    "raw/article/asr-suresi.html": "d62d5df41399874b50bb30ddf2f076bce929e4af6dee9786340857bd962851d5",
+    "raw/article/beled-suresi.html": "18a3505239383efdcb3692509c27330682b9c0761dd33728a7ca368bfb192a0b",
+    "raw/article/beyyine-suresi.html": "ecbfaa8ef231b1bf564e94f5b1bc0bb2750e0b223c95b018c7552da31912b717",
+    "raw/article/din.html": "3e798f0ab8d5ab3e8b384c22542d62c1d1c380925ccf52ed4a80b88293ce495a",
+    "raw/article/duha-suresi.html": "4057faed0f8e80e6dbdd984df2877846e77d94826400f6e2d9848cc4700f77ee",
+    "raw/article/elmalili-muhammed-hamdi.html": "e051a053af4b7fada2281b47dbe18c6d9f7c7eb995c335829c3aa56cd308a2d4",
+    "raw/article/fatiha-suresi.html": "dc4dfedeb428627775bdd1c30221bbd647763add95d8fd59f9201f3eecf3f5d0",
+    "raw/article/fecr-suresi.html": "984ca69447cadd4c48b7f8a9f2b7b9d5f15f41d478e10dc410036a506d8755cb",
+    "raw/article/felak-suresi.html": "acbc9fae7e178e00a63f773c8ac4db08c4a910a416f5c1614c80039b25360f10",
+    "raw/article/fil-suresi.html": "596ef8d734fb8dc63614e1190668956b43586382e867cff096d75348e78e29ff",
+    "raw/article/gaflet--tasavvuf.html": "edc48374bd6872d3af0605b9d3674a5c3c90a9d4105688475a3c670a9408d13f",
+    "raw/article/gasiye-suresi.html": "f3c790d48dae748285cb2482bac8e36ec3f1b2cccfb852ab24d13f39dee8f36c",
+    "raw/article/gonul.html": "40f8a17fdc8bce49e4b0adda17461823fc2951de96024aef8ab32ceb973f3dc5",
+    "raw/article/hac-suresi.html": "ee3f679fa1e486b9c12c9d8e2695534f97b9a3dfbbf200bdc426d1136c839072",
+    "raw/article/hamd.html": "6c4b88a1c848dbd787c11181b181d7cbfffbd460f1f589ee61cc07f7d161f8e9",
+    "raw/article/humeze-suresi.html": "7fc6d4b76166cbb8ed58bb8f6ddc4a38ba6857c1bb133ad8fb8603ca3f6d2bfa",
+    "raw/article/ibadet.html": "fd3374998d8ce7b9adcab273dbaee7cd2b23486aa9a98da2e067ac2a1e1db1e1",
+    "raw/article/ihlas-suresi.html": "2595c2698e544a4524587f5ae546fc97d989f461c8fd6d65a35eae9b3f0bb8e1",
+    "raw/article/iman.html": "7ed66eb724e050e37da1acfb8bc3426aad46d6dc0e40399801c825c51e90bb3c",
+    "raw/article/insirah-suresi.html": "7c5721e7128dfa81a0df9c4d1cacc6100f71641a6f6e9c5ccccfc0809d1dfaea",
+    "raw/article/kadir-suresi.html": "e28b9f13749835904afe63ad4242d3834cc5d0e08b91e939f424c59bc9290f5b",
+    "raw/article/kadr-suresi.html": "f5a98e9f8fd8d62bbc930bb54e1051a0852a1d5aa357848b6698bb66c9acf3c8",
+    "raw/article/kafirun-suresi.html": "85ce3be9b8ff114fde8bfcaa1f476b51916ea1ade70d3b87d15b23ae9caf41d1",
+    "raw/article/kalb--kalp.html": "448176e1153a73318aa315a486ce92b6b59cd6bf9074bbe799193cac0850910d",
+    "raw/article/karia-suresi.html": "d1ce9e2c66750e615066c6be2d45f52a1d111e84b8e2bd5fb12cc3eb128c47ec",
+    "raw/article/kevser-suresi.html": "dcababa1e998dfa3b74821fecafbe92df4fef8b05107094b041952ed961146be",
+    "raw/article/kufur.html": "39b881a07d1384a704c99c7ae0d89bfba3d8263dedfb8a2e271189c200829a35",
+    "raw/article/kureys-suresi.html": "a0e9337ad0c5d12ab26cdf1f5f2d06431c000fe5b4769eed400e49e39e074ac6",
+    "raw/article/leyl-suresi.html": "a410ecdfc48d373db3e4248a4c93cda22747790896a173e1b35d133fffec5016",
+    "raw/article/maun-suresi.html": "f58a79be6ec55ddb9a331789d9e1bc23963e80cbe1e395b84206fb6598f6fd9f",
+    "raw/article/miskin.html": "fe4709695062e5e3e2e6ba526ab51346b0650d7a6b108a52feb7ecfeb4977e42",
+    "raw/article/namaz.html": "e822fb36720dd849660a4de33c076541a82d0ed621e1d97ff10b981d03309f2c",
+    "raw/article/nas-suresi.html": "b9a5211719d03ba06af2963ff1732d57b77f6c47c29411c9c3f8d0fd2c96d0e4",
+    "raw/article/nasr-suresi.html": "c6f889caf2ec4a2119572dd201b36ee1dab2266253b2decb159459c0f306efe3",
+    "raw/article/rab.html": "ce3f5a1d2890544d1dfc7a31cee0d4dddb53ebd371c6065c3ed02d1b93950a36",
+    "raw/article/rahmet.html": "d09d70a93a0f4b856005a2ec00d036367224e052ce532afccca890ab7724a278",
+    "raw/article/riya.html": "d348cc86d3a7a03f805ac341ebdd187e413032775f3d1a4b15567f779078fd81",
+    "raw/article/sadaka.html": "472e52ee8e753f122ec60685b81b45de745dd1a202fa5436e9ed1563fd9b1f38",
+    "raw/article/sehiv.html": "e493e007106988739a082b89c06a439e09661205807b9e870dd4968114855cf3",
+    "raw/article/sems-suresi.html": "4d897696681cad55efc3f74ca5199084680d1af435f24ce60c1208e2540a6ac6",
+    "raw/article/sirk.html": "83a6c3291237784cbf435b3bc29bbb8e4eb9f49bf9a955322f7bf192172623e5",
+    "raw/article/taberi-muhammed-b-cerir.html": "bfb138b599fd2c25ba4656792fa3a3652901fc115d2235b629b9fa00797e30d7",
+    "raw/article/takva.html": "a4fe1aba576b3903cac796d0f55ff8bf8ee2a795367467dbf25831f5b9c2aa0a",
+    "raw/article/tebbet-suresi.html": "f9482e68d87acc19ec5fc6555673b1e21466f74eda8c279b22619011c100c355",
+    "raw/article/tekasur-suresi.html": "b7b5a4bb36deb93c2b62358a09124631fb78224dc2fd51fa7c8d9ec05004d0eb",
+    "raw/article/tin-suresi.html": "743e6ff4caccf8c8e0ce5bd19f3f89f3e7e0b6be601dba172510369b570f05cf",
+    "raw/article/yetim.html": "3a60461340cec2bfdd268c501e46140d29ce3b806ce3dd303c17ef2cdb8d2a42",
+    "raw/article/zekat.html": "134bad880a1d61dd0f193174c45c0ca94ef3304c9dfa905e5cd1555a7765515c",
+    "raw/article/zilzal-suresi.html": "5bb4403f587320bc55b2f08e69f649cebf1848890813b5c58af33fa85e262b1a",
+    "raw/search/aa_alem.html": "dc8d06c80d4de80267fb90f94cdff041d6a3fef7ee38f41d021a6d31b3bd80f1",
+    "raw/search/aa_din.html": "0ba5b1d51278e58f1651ac467045b5b2a3f4ef27f58840572f18a8b6bd21c375",
+    "raw/search/aa_elmalili-muhammed-hamdi.html": "7e4378d8bfae57a9b6f7d2e03cdbbc12e71fa132b85f9ec9da49b3b2321e20f9",
+    "raw/search/aa_gaflet.html": "354b0f642623a5b53a1b0ee99c630c781418d801e04e4a5629dd5881c2894a51",
+    "raw/search/aa_gonul.html": "f07b96621f2cf46bda450269f8ff343a3877dae2299bcd540ccdf9330e73f59e",
+    "raw/search/aa_hamd.html": "5c4602bac0248cb46855df98c0a2adb23a8fa61c9c1e2f5b857b875ea045004c",
+    "raw/search/aa_ibadet.html": "ff5a6ea140d39f843e335cbc03fffb560e093bc3ba944fcf731cd401e71cf406",
+    "raw/search/aa_iman.html": "8cbe5befc27af79ac731b85acfd5b080afdda83087507b98126978e9b745cc03",
+    "raw/search/aa_kadir-suresi.html": "97d819407c76e17b3184bee14a621828dfd241538911b39d58bfa319694eac5c",
+    "raw/search/aa_kalp.html": "84305bd5cd8e2c1f85a6c4b018bb206ae800802cba28715ad18e6ff80b451510",
+    "raw/search/aa_kufur.html": "5f33848649bdea581572a4c33a75016c913a37b9e00a424ba46c1b6809d2f508",
+    "raw/search/aa_miskin.html": "a5dcad6616dae1f5210aede3dfb203e112971129cd03d41011f5de5b468a11bc",
+    "raw/search/aa_namaz.html": "eb8c2674b4b34bacf8dfc14af2b71e695d7dcf426d7d2d1e3f0ccf3be712fcb2",
+    "raw/search/aa_rab.html": "932b124bc47dc4cd5546964229d69e0ab59183b5e814c3db97592f8d9b637eea",
+    "raw/search/aa_rahmet.html": "2203654282466d0d4546123b0ed78df8438734a1d17b9c2c08dd9fedafc0be2f",
+    "raw/search/aa_riya.html": "27307a1e54eaeba4b63e693cb08333f3c0c8a24fbb791eeedac4007aa343070b",
+    "raw/search/aa_sadaka.html": "cdcc410b9eb240efb35d891741fda187204ca21facfc9eebdaf2cf11775db692",
+    "raw/search/aa_sadr.html": "82a2490e94de178d685d2fdeb10cef16e9c3b8e0b0b9950bc51314aa4451a93d",
+    "raw/search/aa_salat.html": "af31ec9d3f1627ab8d37ca3d9daafb7db2007ae5c120cb9eb9f2f42e129aca59",
+    "raw/search/aa_sehiv.html": "5006e78aa7241cc9175eda78c2ef5c9fa2cfef8a244a288d910f356d66724c9d",
+    "raw/search/aa_sirk.html": "d8ab033a3578cb33e097b5a72a61d07f2b6c1efb1e7375854a2b88255f09bd71",
+    "raw/search/aa_taberi-muhammed-b-cerir.html": "c009b4eec365d500e31b9f6eeb13ab98004aed165a90c303a432b98f9acd244a",
+    "raw/search/aa_taberi.html": "ab7f6ba0dbc19ce59879b7a5a5fc1066805ed5ee4132288878ffcf06cd6b4827",
+    "raw/search/aa_takva.html": "902559f2ee35e6effb64f83ff3e789ee27c5cfbb08fc1af6486ea3c34fffc643",
+    "raw/search/aa_yetim.html": "547c301b4255e4baa1ef054c7a8b8eed0edb330ec59bcf30d145e3ca62886959",
+    "raw/search/aa_zekat.html": "58f6efc947b9368f8d924b5c39bb4d518ffec170d26ddd9399d484ebd7faaf6e"
+  },
+  "fetch_log": "raw/_fetchlog.jsonl (url, status, sha256, date per raw file)",
+  "articles": {
+    "maun-suresi": {
+      "title": "MÂÛN SÛRESİ",
+      "s": 107,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/maun-suresi",
+      "parts": 1,
+      "authors": [
+        "M. KÂMİL YAŞAROĞLU"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 28. cildinde, 175-176 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "din": {
+      "title": "DİN",
+      "s": null,
+      "kind": "term",
+      "url": "https://islamansiklopedisi.org.tr/din",
+      "parts": 11,
+      "authors": [
+        "GÜNAY TÜMER",
+        "ÖMER FARUK HARMAN",
+        "BEKİR TOPALOĞLU",
+        "MEHMET ÂKİF AYDIN",
+        "ASLAN GÜNDÜZ",
+        "ALİ BARDAKOĞLU",
+        "MEHMET EMİN ARTUK",
+        "MEHMET S. AYDIN",
+        "KERİM YAVUZ",
+        "İZZET ER"
+      ],
+      "printed": [
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 312-320 numaralı sayfalarda yer almıştır.",
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 320-322 numaralı sayfalarda yer almıştır.",
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 322-325 numaralı sayfalarda yer almıştır.",
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 325-328 numaralı sayfalarda yer almıştır.",
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 328-330 numaralı sayfalarda yer almıştır.",
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 330-332 numaralı sayfalarda yer almıştır.",
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 332-333 numaralı sayfalarda yer almıştır.",
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 333-339 numaralı sayfalarda yer almıştır.",
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 339-341 numaralı sayfalarda yer almıştır.",
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 341-345 numaralı sayfalarda yer almıştır.",
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 345-349 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "kalb--kalp": {
+      "title": "KALP",
+      "s": null,
+      "kind": "term",
+      "url": "https://islamansiklopedisi.org.tr/kalb--kalp",
+      "parts": 1,
+      "authors": [
+        "SÜLEYMAN ULUDAĞ"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 2001 yılında İstanbul’da basılan 24. cildinde, 229-232 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "fatiha-suresi": {
+      "title": "FÂTİHA SÛRESİ",
+      "s": 1,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/fatiha-suresi",
+      "parts": 2,
+      "authors": [
+        "EMİN IŞIK",
+        "SALİM ÖĞÜT"
+      ],
+      "printed": [
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 12. cildinde, 252-254 numaralı sayfalarda yer almıştır.",
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 12. cildinde, 254-255 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "hac-suresi": {
+      "title": "HAC SÛRESİ",
+      "s": 22,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/hac-suresi",
+      "parts": 1,
+      "authors": [
+        "EMİN IŞIK"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 1996 yılında İstanbul’da basılan 14. cildinde, 420-421 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "ala-suresi": {
+      "title": "A‘LÂ SÛRESİ",
+      "s": 87,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/ala-suresi",
+      "parts": 1,
+      "authors": [
+        "EMİN IŞIK"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 310-311 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "gasiye-suresi": {
+      "title": "GĀŞİYE SÛRESİ",
+      "s": 88,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/gasiye-suresi",
+      "parts": 1,
+      "authors": [
+        "BEKİR TOPALOĞLU"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 1996 yılında İstanbul’da basılan 13. cildinde, 399 numaralı sayfada yer almıştır."
+      ]
+    },
+    "fecr-suresi": {
+      "title": "FECR SÛRESİ",
+      "s": 89,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/fecr-suresi",
+      "parts": 1,
+      "authors": [
+        "EMİN IŞIK"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 12. cildinde, 290-291 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "beled-suresi": {
+      "title": "BELED SÛRESİ",
+      "s": 90,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/beled-suresi",
+      "parts": 1,
+      "authors": [
+        "MUHAMMED EROĞLU"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 5. cildinde, 397-398 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "sems-suresi": {
+      "title": "ŞEMS SÛRESİ",
+      "s": 91,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/sems-suresi",
+      "parts": 1,
+      "authors": [
+        "M. KÂMİL YAŞAROĞLU"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 2010 yılında İstanbul’da basılan 38. cildinde, 510-511 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "leyl-suresi": {
+      "title": "LEYL SÛRESİ",
+      "s": 92,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/leyl-suresi",
+      "parts": 1,
+      "authors": [
+        "M. KÂMİL YAŞAROĞLU"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 2003 yılında Ankara’da basılan 27. cildinde, 155-156 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "duha-suresi": {
+      "title": "DUHÂ SÛRESİ",
+      "s": 93,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/duha-suresi",
+      "parts": 1,
+      "authors": [
+        "EMİN IŞIK"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 1994 yılında İstanbul’da basılan 9. cildinde, 546 numaralı sayfada yer almıştır."
+      ]
+    },
+    "insirah-suresi": {
+      "title": "İNŞİRÂH SÛRESİ",
+      "s": 94,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/insirah-suresi",
+      "parts": 1,
+      "authors": [
+        "M. KÂMİL YAŞAROĞLU"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 22. cildinde, 345-346 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "tin-suresi": {
+      "title": "TÎN SÛRESİ",
+      "s": 95,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/tin-suresi",
+      "parts": 1,
+      "authors": [
+        "ABDULHAMİT BİRIŞIK"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 2012 yılında İstanbul’da basılan 41. cildinde, 189-190 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "alak-suresi": {
+      "title": "ALAK SÛRESİ",
+      "s": 96,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/alak-suresi",
+      "parts": 1,
+      "authors": [
+        "EMİN IŞIK"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 333-334 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "kadr-suresi": {
+      "title": "KADR SÛRESİ",
+      "s": 97,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/kadr-suresi",
+      "parts": 1,
+      "authors": [
+        "M. SAİT ÖZERVARLI"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 2001 yılında İstanbul’da basılan 24. cildinde, 139-140 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "beyyine-suresi": {
+      "title": "BEYYİNE SÛRESİ",
+      "s": 98,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/beyyine-suresi",
+      "parts": 1,
+      "authors": [
+        "EMİN IŞIK"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 1992 yılında İstanbul’da basılan 6. cildinde, 98-99 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "zilzal-suresi": {
+      "title": "ZİLZÂL SÛRESİ",
+      "s": 99,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/zilzal-suresi",
+      "parts": 1,
+      "authors": [
+        "BEKİR TOPALOĞLU"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 2013 yılında İstanbul’da basılan 44. cildinde, 420-421 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "adiyat-suresi": {
+      "title": "ÂDİYÂT SÛRESİ",
+      "s": 100,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/adiyat-suresi",
+      "parts": 1,
+      "authors": [
+        "EMİN IŞIK"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 1988 yılında İstanbul’da basılan 1. cildinde, 386-387 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "karia-suresi": {
+      "title": "KĀRİA SÛRESİ",
+      "s": 101,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/karia-suresi",
+      "parts": 1,
+      "authors": [
+        "M. KÂMİL YAŞAROĞLU"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 2001 yılında İstanbul’da basılan 24. cildinde, 489-490 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "tekasur-suresi": {
+      "title": "TEKÂSÜR SÛRESİ",
+      "s": 102,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/tekasur-suresi",
+      "parts": 1,
+      "authors": [
+        "İDRİS ŞENGÜL"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 2011 yılında İstanbul’da basılan 40. cildinde, 339 numaralı sayfada yer almıştır."
+      ]
+    },
+    "asr-suresi": {
+      "title": "ASR SÛRESİ",
+      "s": 103,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/asr-suresi",
+      "parts": 1,
+      "authors": [
+        "MUHAMMED EROĞLU"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 1991 yılında İstanbul’da basılan 3. cildinde, 502 numaralı sayfada yer almıştır."
+      ]
+    },
+    "humeze-suresi": {
+      "title": "HÜMEZE SÛRESİ",
+      "s": 104,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/humeze-suresi",
+      "parts": 1,
+      "authors": [
+        "EMİN IŞIK"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 1998 yılında İstanbul’da basılan 18. cildinde, 483-484 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "fil-suresi": {
+      "title": "FÎL SÛRESİ",
+      "s": 105,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/fil-suresi",
+      "parts": 1,
+      "authors": [
+        "MUSTAFA ÇAĞRICI"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 1996 yılında İstanbul’da basılan 13. cildinde, 69-70 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "kureys-suresi": {
+      "title": "KUREYŞ SÛRESİ",
+      "s": 106,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/kureys-suresi",
+      "parts": 1,
+      "authors": [
+        "M. KÂMİL YAŞAROĞLU"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 2002 yılında Ankara’da basılan 26. cildinde, 444-445 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "kevser-suresi": {
+      "title": "KEVSER SÛRESİ",
+      "s": 108,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/kevser-suresi",
+      "parts": 1,
+      "authors": [
+        "İLYAS ÜZÜM"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 2022 yılında Ankara’da basılan 25. cildinde, 344-345 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "kafirun-suresi": {
+      "title": "KÂFİRÛN SÛRESİ",
+      "s": 109,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/kafirun-suresi",
+      "parts": 1,
+      "authors": [
+        "M. KÂMİL YAŞAROĞLU"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 2001 yılında İstanbul’da basılan 24. cildinde, 149 numaralı sayfada yer almıştır."
+      ]
+    },
+    "nasr-suresi": {
+      "title": "NASR SÛRESİ",
+      "s": 110,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/nasr-suresi",
+      "parts": 1,
+      "authors": [
+        "M. KÂMİL YAŞAROĞLU"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 2006 yılında İstanbul’da basılan 32. cildinde, 416-417 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "tebbet-suresi": {
+      "title": "TEBBET SÛRESİ",
+      "s": 111,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/tebbet-suresi",
+      "parts": 1,
+      "authors": [
+        "ABDULHAMİT BİRIŞIK"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 2011 yılında İstanbul’da basılan 40. cildinde, 212 numaralı sayfada yer almıştır."
+      ]
+    },
+    "ihlas-suresi": {
+      "title": "İHLÂS SÛRESİ",
+      "s": 112,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/ihlas-suresi",
+      "parts": 1,
+      "authors": [
+        "EMİN IŞIK"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 21. cildinde, 537-538 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "felak-suresi": {
+      "title": "FELAK SÛRESİ",
+      "s": 113,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/felak-suresi",
+      "parts": 1,
+      "authors": [
+        "EMİN IŞIK"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 12. cildinde, 301-302 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "nas-suresi": {
+      "title": "NÂS SÛRESİ",
+      "s": 114,
+      "kind": "surah",
+      "url": "https://islamansiklopedisi.org.tr/nas-suresi",
+      "parts": 1,
+      "authors": [
+        "M. KÂMİL YAŞAROĞLU"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 2006 yılında İstanbul’da basılan 32. cildinde, 392-393 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "namaz": {
+      "title": "NAMAZ",
+      "s": null,
+      "kind": "term",
+      "url": "https://islamansiklopedisi.org.tr/namaz",
+      "parts": 1,
+      "authors": [
+        "M. KÂMİL YAŞAROĞLU"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 2006 yılında İstanbul’da basılan 32. cildinde, 350-357 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "ibadet": {
+      "title": "İBADET",
+      "s": null,
+      "kind": "term",
+      "url": "https://islamansiklopedisi.org.tr/ibadet",
+      "parts": 5,
+      "authors": [
+        "MUSTAFA SİNANOĞLU",
+        "ABDURRAHMAN KÜÇÜK",
+        "FERHAT KOCA",
+        "SÜLEYMAN ULUDAĞ",
+        "HAYATİ HÖKELEKLİ"
+      ],
+      "printed": [
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 19. cildinde, 233-235 numaralı sayfalarda yer almıştır.",
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 19. cildinde, 235-240 numaralı sayfalarda yer almıştır.",
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 19. cildinde, 240-247 numaralı sayfalarda yer almıştır.",
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 19. cildinde, 247-248 numaralı sayfalarda yer almıştır.",
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 1999 yılında İstanbul’da basılan 19. cildinde, 248-252 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "zekat": {
+      "title": "ZEKÂT",
+      "s": null,
+      "kind": "term",
+      "url": "https://islamansiklopedisi.org.tr/zekat",
+      "parts": 2,
+      "authors": [
+        "MEHMET ERKAL",
+        "MAHMUT SALİHOĞLU"
+      ],
+      "printed": [
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 2013 yılında İstanbul’da basılan 44. cildinde, 197-207 numaralı sayfalarda yer almıştır.",
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 2013 yılında İstanbul’da basılan 44. cildinde, 207-209 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "rab": {
+      "title": "RAB",
+      "s": null,
+      "kind": "term",
+      "url": "https://islamansiklopedisi.org.tr/rab",
+      "parts": 2,
+      "authors": [
+        "BEKİR TOPALOĞLU",
+        "SÜLEYMAN ULUDAĞ"
+      ],
+      "printed": [
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 2007 yılında İstanbul’da basılan 34. cildinde, 372-373 numaralı sayfalarda yer almıştır.",
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 2007 yılında İstanbul’da basılan 34. cildinde, 373 numaralı sayfada yer almıştır."
+      ]
+    },
+    "sadaka": {
+      "title": "SADAKA",
+      "s": null,
+      "kind": "term",
+      "url": "https://islamansiklopedisi.org.tr/sadaka",
+      "parts": 1,
+      "authors": [
+        "ALİ DUMAN"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 2008 yılında İstanbul’da basılan 35. cildinde, 383-384 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "yetim": {
+      "title": "YETİM",
+      "s": null,
+      "kind": "term",
+      "url": "https://islamansiklopedisi.org.tr/yetim",
+      "parts": 1,
+      "authors": [
+        "ABDÜSSELAM ARI"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 2013 yılında İstanbul’da basılan 43. cildinde, 501-503 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "miskin": {
+      "title": "MİSKİN",
+      "s": null,
+      "kind": "term",
+      "url": "https://islamansiklopedisi.org.tr/miskin",
+      "parts": 1,
+      "authors": [
+        "CENGİZ KALLEK"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 2020 yılında Ankara’da basılan 30. cildinde, 183-184 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "riya": {
+      "title": "RİYA",
+      "s": null,
+      "kind": "term",
+      "url": "https://islamansiklopedisi.org.tr/riya",
+      "parts": 1,
+      "authors": [
+        "MUSTAFA ÇAĞRICI"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 2008 yılında İstanbul’da basılan 35. cildinde, 137-138 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "gaflet--tasavvuf": {
+      "title": "GAFLET",
+      "s": null,
+      "kind": "term",
+      "url": "https://islamansiklopedisi.org.tr/gaflet--tasavvuf",
+      "parts": 1,
+      "authors": [
+        "SÜLEYMAN ULUDAĞ"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 1996 yılında İstanbul’da basılan 13. cildinde, 283-284 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "sehiv": {
+      "title": "SEHİV",
+      "s": null,
+      "kind": "term",
+      "url": "https://islamansiklopedisi.org.tr/sehiv",
+      "parts": 1,
+      "authors": [
+        "MEHMET BOYNUKALIN"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 2009 yılında İstanbul’da basılan 36. cildinde, 317-318 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "takva": {
+      "title": "TAKVÂ",
+      "s": null,
+      "kind": "term",
+      "url": "https://islamansiklopedisi.org.tr/takva",
+      "parts": 1,
+      "authors": [
+        "SÜLEYMAN ULUDAĞ"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 2010 yılında İstanbul’da basılan 39. cildinde, 484-486 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "iman": {
+      "title": "İMAN",
+      "s": null,
+      "kind": "term",
+      "url": "https://islamansiklopedisi.org.tr/iman",
+      "parts": 3,
+      "authors": [
+        "MUSTAFA SİNANOĞLU",
+        "ALİ KÖSE",
+        "HANİFİ ÖZCAN"
+      ],
+      "printed": [
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 22. cildinde, 212-214 numaralı sayfalarda yer almıştır.",
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 22. cildinde, 214-216 numaralı sayfalarda yer almıştır.",
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 2000 yılında İstanbul’da basılan 22. cildinde, 216-219 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "kufur": {
+      "title": "KÜFÜR",
+      "s": null,
+      "kind": "term",
+      "url": "https://islamansiklopedisi.org.tr/kufur",
+      "parts": 1,
+      "authors": [
+        "MUSTAFA SİNANOĞLU"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 2002 yılında Ankara’da basılan 26. cildinde, 533-536 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "sirk": {
+      "title": "ŞİRK",
+      "s": null,
+      "kind": "term",
+      "url": "https://islamansiklopedisi.org.tr/sirk",
+      "parts": 1,
+      "authors": [
+        "MUSTAFA SİNANOĞLU"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 2010 yılında İstanbul’da basılan 39. cildinde, 193-198 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "rahmet": {
+      "title": "RAHMET",
+      "s": null,
+      "kind": "term",
+      "url": "https://islamansiklopedisi.org.tr/rahmet",
+      "parts": 1,
+      "authors": [
+        "ABDULHAMİT BİRIŞIK"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 2007 yılında İstanbul’da basılan 34. cildinde, 419 numaralı sayfada yer almıştır."
+      ]
+    },
+    "hamd": {
+      "title": "HAMD",
+      "s": null,
+      "kind": "term",
+      "url": "https://islamansiklopedisi.org.tr/hamd",
+      "parts": 1,
+      "authors": [
+        "BEKİR TOPALOĞLU"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 1997 yılında İstanbul’da basılan 15. cildinde, 442-445 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "gonul": {
+      "title": "GÖNÜL",
+      "s": null,
+      "kind": "term",
+      "url": "https://islamansiklopedisi.org.tr/gonul",
+      "parts": 1,
+      "authors": [
+        "CEMAL KURNAZ"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 1996 yılında İstanbul’da basılan 14. cildinde, 150-152 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "alem": {
+      "title": "ÂLEM",
+      "s": null,
+      "kind": "term",
+      "url": "https://islamansiklopedisi.org.tr/alem",
+      "parts": 2,
+      "authors": [
+        "SÜLEYMAN HAYRİ BOLAY",
+        "SÜLEYMAN ULUDAĞ"
+      ],
+      "printed": [
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 357-360 numaralı sayfalarda yer almıştır.",
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 1989 yılında İstanbul’da basılan 2. cildinde, 360-361 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "elmalili-muhammed-hamdi": {
+      "title": "ELMALILI MUHAMMED HAMDİ",
+      "s": null,
+      "kind": "author",
+      "url": "https://islamansiklopedisi.org.tr/elmalili-muhammed-hamdi",
+      "parts": 1,
+      "authors": [
+        "YUSUF ŞEVKİ YAVUZ"
+      ],
+      "printed": [
+        "Bu madde TDV İslâm Ansiklopedisi’nin 1995 yılında İstanbul’da basılan 11. cildinde, 57-62 numaralı sayfalarda yer almıştır."
+      ]
+    },
+    "taberi-muhammed-b-cerir": {
+      "title": "TABERÎ, Muhammed b. Cerîr",
+      "s": null,
+      "kind": "author",
+      "url": "https://islamansiklopedisi.org.tr/taberi-muhammed-b-cerir",
+      "parts": 3,
+      "authors": [
+        "MUSTAFA FAYDA",
+        "YUSUF ŞEVKİ YAVUZ",
+        "M. SUAT MERTOĞLU"
+      ],
+      "printed": [
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 2010 yılında İstanbul’da basılan 39. cildinde, 314-318 numaralı sayfalarda yer almıştır.",
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 2010 yılında İstanbul’da basılan 39. cildinde, 318-319 numaralı sayfalarda yer almıştır.",
+        "Maddenin bu bölümü TDV İslâm Ansiklopedisi’nin 2010 yılında İstanbul’da basılan 39. cildinde, 319-320 numaralı sayfalarda yer almıştır."
+      ]
+    }
+  }
+}

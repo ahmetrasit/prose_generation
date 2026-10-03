@@ -1,0 +1,6 @@
+- memory: يكذبك allows two readings (what makes you deny / who calls you a liar)
+- memory: أسفل governing plural سافلين gives "lowest of all the low"
+- memory: سينين is close to the name سيناء of 23:20
+- memory: ليس inside a question expects a "yes" answer (supported by 7:172, 36:81)
+- memory: تقويم read as verbal noun of "straighten, set upright"
+- memory: ل ي س family links to the particle ليس of 95:8 follow the map's grouping

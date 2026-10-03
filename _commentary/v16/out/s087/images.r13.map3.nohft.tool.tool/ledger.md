@@ -1,0 +1,3 @@
+- memory: حُوَّة as the colour noun behind أحوى
+- memory: سبح's base sense of swimming in water
+- memory: سيما (48:29) filed under a different root from وسم

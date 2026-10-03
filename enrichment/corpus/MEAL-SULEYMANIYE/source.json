@@ -1,0 +1,42 @@
+{
+  "id": "MEAL-SULEYMANIYE",
+  "title": "Süleymaniye Vakfı Meali (current edition)",
+  "author": "Süleymaniye Vakfı (Abdulaziz Bayındır et al.)",
+  "translator": "Süleymaniye Vakfı (Abdulaziz Bayındır et al.)",
+  "death_ah": null,
+  "kind": "meal",
+  "tradition": "",
+  "language": "tr",
+  "edition": "publisher's site suleymaniyevakfimeali.com (whole surah per page, with footnotes)",
+  "access": "yerel",
+  "locator": "ayah",
+  "coverage": "1-114 (6236/6236 ayat)",
+  "urls": [
+    "https://www.suleymaniyevakfimeali.com/Meal/{Sure}.htm",
+    "https://acikkuran.com/{slug}/{a}-ayet-meali.md  (section \"### Süleymaniye Vakfı\"); whole surah without footnotes: https://acikkuran.com/{slug}.md?author=52",
+    "https://mealler.org/SureveAyetler.aspx?sureid={sss}&ayet={aaa}  (row \"Süleymaniye Vakfı\")"
+  ],
+  "fetched_at": "2026-10-03",
+  "files": {
+    "raw/MANIFEST.sha256": "2dfce4f7874e459deec63d0ea9102aace62d35fb88ca51f173437463cee8c4f9",
+    "_count": "115 files listed in raw/MANIFEST.sha256"
+  },
+  "lineage": null,
+  "relay": null,
+  "licence": "suleymaniyevakfimeali.com (publisher's own site): \"Tüm hakları saklıdır\"; local research copy only.",
+  "panel": true,
+  "host_label": "suleymaniyevakfimeali.com",
+  "cross_witnesses": [
+    "acikkuran.com \"Süleymaniye Vakfı\"",
+    "mealler.org \"Süleymaniye Vakfı\""
+  ],
+  "notes": "The meal is revised continuously (kuranmeali about-page id 32). Versions found: publisher site (primary) ~80% = acikkuran author 52; mealler.org \"Süleymaniye Vakfı\" a further, different version (~4% identical to the current text); the old edition is MEAL-SULEYMANIYE-ESKI (acikkuran 117 = kuranmeali \"abayindir\"). [*] / [1*] in the text are the site's footnote markers. 5657 segments carry footnotes in \"notes\".",
+  "raw_shared": [
+    "acikkuran pages: ../MEAL-ISLAMOGLU/raw/acikkuran/",
+    "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
+  ],
+  "_notes_parts": {
+    "static": "The meal is revised continuously (kuranmeali about-page id 32). Versions found: publisher site (primary) ~80% = acikkuran author 52; mealler.org \"Süleymaniye Vakfı\" a further, different version (~4% identical to the current text); the old edition is MEAL-SULEYMANIYE-ESKI (acikkuran 117 = kuranmeali \"abayindir\"). [*] / [1*] in the text are the site's footnote markers.",
+    "build": "5657 segments carry footnotes in \"notes\"."
+  }
+}

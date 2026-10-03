@@ -1,0 +1,40 @@
+{
+  "id": "MEAL-OKUYAN",
+  "title": "Kur'an Meal-Tefsir",
+  "author": "Mehmet Okuyan",
+  "translator": "Mehmet Okuyan",
+  "death_ah": null,
+  "kind": "meal",
+  "tradition": "academic",
+  "language": "tr",
+  "edition": "as published by acikkuran.com \"Mehmet Okuyan\"",
+  "access": "yerel",
+  "locator": "ayah",
+  "coverage": "1-8,22,87-114 + partial 9 (1691/6236 ayat)",
+  "urls": [
+    "https://acikkuran.com/{slug}/{a}-ayet-meali.md  (section \"### Mehmet Okuyan\"); whole surah without footnotes: https://acikkuran.com/{slug}.md?author=107",
+    "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='mehmetokuyan+1')",
+    "https://mealler.org/SureveAyetler.aspx?sureid={sss}&ayet={aaa}  (row \"Mehmet Okuyan\")"
+  ],
+  "fetched_at": "2026-10-03",
+  "files": {},
+  "lineage": null,
+  "relay": null,
+  "licence": "acikkuran.com: CC BY-NC-SA 4.0, name the translator (robots Content-Signal: ai-train=no); local research copy only.",
+  "panel": true,
+  "host_label": "acikkuran.com \"Mehmet Okuyan\"",
+  "cross_witnesses": [
+    "kuranmeali.com \"Mehmet Okuyan Meali\" (mehmetokuyan)",
+    "mealler.org \"Mehmet Okuyan\""
+  ],
+  "notes": "BRACKET CAVEAT: hosts disagree on markup. kuranmeali.com puts retained Arabic terms in square brackets (\"[Rahmân], [Rahîm] [*]\", \"[salât]larından\", \"[Beyyine] [*](apaçık bir elçi)\"); acikkuran.com (primary) has plain terms with numbered footnotes; mealler.org has neither. Check the printed edition before judging Okuyan's marking of additions. 29 merged verse groups stored once as a..a_end. 29 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 1033 segments carry footnotes in \"notes\". Coverage incomplete (1691/6236); re-run `fetch_meal.py fetch --sources MEAL-OKUYAN` then `build` to resume.",
+  "raw_shared": [
+    "acikkuran pages: ../MEAL-ISLAMOGLU/raw/acikkuran/",
+    "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/",
+    "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
+  ],
+  "_notes_parts": {
+    "static": "BRACKET CAVEAT: hosts disagree on markup. kuranmeali.com puts retained Arabic terms in square brackets (\"[Rahmân], [Rahîm] [*]\", \"[salât]larından\", \"[Beyyine] [*](apaçık bir elçi)\"); acikkuran.com (primary) has plain terms with numbered footnotes; mealler.org has neither. Check the printed edition before judging Okuyan's marking of additions.",
+    "build": "29 merged verse groups stored once as a..a_end. 29 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 1033 segments carry footnotes in \"notes\". Coverage incomplete (1691/6236); re-run `fetch_meal.py fetch --sources MEAL-OKUYAN` then `build` to resume."
+  }
+}

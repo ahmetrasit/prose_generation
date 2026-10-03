@@ -1,0 +1,33 @@
+{
+  "id": "MEAL-CAVDAR",
+  "title": "Kur'an meali",
+  "author": "Mustafa Çavdar",
+  "translator": "Mustafa Çavdar",
+  "death_ah": null,
+  "kind": "meal",
+  "tradition": "",
+  "language": "tr",
+  "edition": "kuranmeali.com about-page (Aciklama.php?id=38&islem=mealbilgi): Kur'an Doğruyu Gösterir Mustafa Çavdar Meali",
+  "access": "yerel",
+  "locator": "ayah",
+  "coverage": "1-8,22,87-114 + partial 9 (1714/6236 ayat)",
+  "urls": [
+    "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='mustafacavdar+1')"
+  ],
+  "fetched_at": "2026-10-03",
+  "files": {},
+  "lineage": null,
+  "relay": null,
+  "licence": "kuranmeali.com aggregator; no licence stated; rights remain with translator/publisher; local research copy only.",
+  "panel": false,
+  "host_label": "kuranmeali.com \"Mustafa Çavdar Meali\" (mustafacavdar)",
+  "cross_witnesses": [],
+  "notes": "8 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. Coverage incomplete (1714/6236); re-run `fetch_meal.py fetch --sources MEAL-CAVDAR` then `build` to resume.",
+  "raw_shared": [
+    "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/"
+  ],
+  "_notes_parts": {
+    "static": "",
+    "build": "8 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. Coverage incomplete (1714/6236); re-run `fetch_meal.py fetch --sources MEAL-CAVDAR` then `build` to resume."
+  }
+}

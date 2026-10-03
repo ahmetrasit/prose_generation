@@ -1,0 +1,38 @@
+{
+  "id": "MEAL-FIZILAL",
+  "title": "Fî Zılâli'l-Kur'ân - Turkish meal lines",
+  "author": "Sayyid Quṭb (Turkish translators: Salih Uçan et al.)",
+  "translator": "Sayyid Quṭb (Turkish translators: Salih Uçan et al.)",
+  "death_ah": null,
+  "kind": "meal",
+  "tradition": "",
+  "language": "tr",
+  "edition": "as published by mealler.org \"Seyyid Kutub\"",
+  "access": "yerel",
+  "locator": "ayah",
+  "coverage": "1-3,22,87-114 + partial 4 (883/6236 ayat)",
+  "urls": [
+    "https://mealler.org/SureveAyetler.aspx?sureid={sss}&ayet={aaa}  (row \"Seyyid Kutub\")",
+    "https://cdn.jsdelivr.net/gh/fawazahmed0/quran-api@1/editions/tur-fizilalilkuran.json"
+  ],
+  "fetched_at": "2026-10-03",
+  "files": {
+    "raw/fawaz_tur-fizilalilkuran.json": "28fd0621d92350a41cbf46ae944d56f997a09d5dda1025c0af1c1ea2f64c903b"
+  },
+  "lineage": null,
+  "relay": "Quṭb's Arabic paraphrase (Fī ẓilāl al-Qurʾān)",
+  "licence": "mealler.org aggregator; no licence stated; rights remain with translator/publisher; local research copy only.",
+  "panel": false,
+  "host_label": "mealler.org \"Seyyid Kutub\"",
+  "cross_witnesses": [
+    "fawazahmed0/quran-api tur-fizilalilkuran"
+  ],
+  "notes": "Relay witness: the Turkish renders Quṭb's paraphrase, not the Qur'an directly. Coverage incomplete (883/6236); re-run `fetch_meal.py fetch --sources MEAL-FIZILAL` then `build` to resume.",
+  "raw_shared": [
+    "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
+  ],
+  "_notes_parts": {
+    "static": "Relay witness: the Turkish renders Quṭb's paraphrase, not the Qur'an directly.",
+    "build": "Coverage incomplete (883/6236); re-run `fetch_meal.py fetch --sources MEAL-FIZILAL` then `build` to resume."
+  }
+}

@@ -1,0 +1,7 @@
+- not developed: C14 - merged with C13; 3:187 holds both images
+- memory: "وضع عنه" used for a creditor remitting part of a debt
+- memory: repeated definite noun = same referent, repeated indefinite = possibly another (العسر / يسرا)
+- memory: fronted "وإلى ربك" before the verb restricts ("to your Lord alone")
+- memory: أزر in 20:31 is root أ ز ر, distinct from و ز ر
+- memory: حِمل (load) vs حَمل (pregnancy) differ only in vowelling
+- memory: أَلَمْ + jussive as a question expecting "yes" about a past fact

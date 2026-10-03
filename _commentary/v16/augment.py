@@ -228,13 +228,12 @@ def main() -> None:
             for r in ins), encoding="utf-8")
         (out / "ledger.md").write_text((led or "(no ledger lines)") + "\n", encoding="utf-8")
         _, _, _, cref = target(d)
-        subprocess.run([sys.executable, str(V.CHECK), str(out / src.name), "--ref", cref, "--out",
-                        str(out / "check.json"), "--quiet"], cwd=V.CHECK.parent)
+        res["check"] = V.run_check(out / src.name, cref, out / "check.json")
         res["insertions"] = len(ins)
         res["applied"] = sum(1 for r in ins if r["status"] == "applied")
         res["ledger_lines"] = sum(1 for ln in led.splitlines() if ln.strip().startswith("-"))
         V.log({"ref": res["ref"], "arm": "augment-applied", "brief": res["brief"], "insertions": res["insertions"],
-               "applied": res["applied"], "ledger_lines": res["ledger_lines"]})
+               "applied": res["applied"], "ledger_lines": res["ledger_lines"], "check": res["check"]})
     print(f"{out.relative_to(V.HERE)}: {res['status']} ${res.get('cost_usd')} "
           f"{res.get('applied')}/{res.get('insertions')} applied {res['seconds']}s")
     if res["status"] != "ok":

@@ -107,6 +107,23 @@ class Sources:
         from extra_names import extra_root_names  # ids quran-slm does not name (supplemental, Furūq transfers)
         for rid, name in extra_root_names().items():
             self.root_name.setdefault(rid, name)
+        self._dict = {}
+        self._rows = {}
+
+    _NETWORK = ("net_ids", "net_ix", "branches_of", "ranks")
+
+    def __getattr__(self, name: str):
+        """The network (quran-slm artifacts corpus_network + corpus_ensemble, not in git) loads on first use."""
+        if name not in Sources._NETWORK:
+            raise AttributeError(name)
+        try:
+            self._load_network()
+        except FileNotFoundError as e:
+            raise RuntimeError(f"quran-slm network artifacts missing ({e.filename}); only v9's network sections "
+                               f"need them") from e
+        return self.__dict__[name]
+
+    def _load_network(self) -> None:
         cat = json.loads((NET / "catalog.json").read_text(encoding="utf-8"))["cards"]
         self.net_ids = [c["node_id"] for c in cat]
         self.net_ix = {k: i for i, k in enumerate(self.net_ids)}
@@ -120,8 +137,6 @@ class Sources:
             (0.35, np.memmap(NEO / "neoarabert_directional_rank.u16le", dtype="<u2", mode="r", shape=(n, n))),
             (0.30, np.memmap(NET / "character_directional_rank.u16le", dtype="<u2", mode="r", shape=(n, n))),
         ]
-        self._dict = {}
-        self._rows = {}
 
     # -- dictionary
     def entry(self, root_id: str) -> dict:
@@ -745,7 +760,7 @@ def load_bundle(path: Path, surah: int, ayah: int) -> dict:
     analysis from word_analysis/outputs/production, everything else read from sources as usual."""
     if path.exists():
         return json.loads(path.read_text(encoding="utf-8"))
-    wa = Path("/Volumes/OZTURK/_projects/word_analysis/outputs/production") / f"{surah}-{ayah}.json"
+    wa = PROJECTS / "word_analysis" / "outputs" / "production" / f"{surah}-{ayah}.json"
     print(f"no bundle {path.name}: fallback (word analysis {'found' if wa.exists() else 'missing'}; no HFT, no translation)")
     return {"surah": surah, "ayah": ayah, "ayahRef": f"{surah}:{ayah}",
             "word_analysis": json.loads(wa.read_text(encoding="utf-8")) if wa.exists() else {}}

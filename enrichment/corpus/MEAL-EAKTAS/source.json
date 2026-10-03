@@ -1,0 +1,44 @@
+{
+  "id": "MEAL-EAKTAS",
+  "title": "Kerim Kur'an",
+  "author": "Erhan Aktaş",
+  "translator": "Erhan Aktaş",
+  "death_ah": null,
+  "kind": "meal",
+  "tradition": "",
+  "language": "tr",
+  "edition": "as published by acikkuran.com \"Erhan Aktaş\"",
+  "access": "yerel",
+  "locator": "ayah",
+  "coverage": "1-8,22,87-114 + partial 9 (1707/6236 ayat)",
+  "urls": [
+    "https://acikkuran.com/{slug}/{a}-ayet-meali.md  (section \"### Erhan Aktaş\"); whole surah without footnotes: https://acikkuran.com/{slug}.md?author=105",
+    "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='erhanaktas+1')",
+    "https://mealler.org/SureveAyetler.aspx?sureid={sss}&ayet={aaa}  (row \"Erhan Aktaş\")",
+    "https://acikkuran.com/{slug}/{a}-ayet-meali.md  (section \"### Erhan Aktaş (Eski Baskı)\")",
+    "https://acikkuran.com/{slug}/{a}-ayet-meali.md  (section \"### Erhan Aktaş (10. Baskı)\")"
+  ],
+  "fetched_at": "2026-10-03",
+  "files": {},
+  "lineage": null,
+  "relay": null,
+  "licence": "acikkuran.com: CC BY-NC-SA 4.0, name the translator (robots Content-Signal: ai-train=no); local research copy only.",
+  "panel": false,
+  "host_label": "acikkuran.com \"Erhan Aktaş\"",
+  "cross_witnesses": [
+    "kuranmeali.com \"Erhan Aktaş Meali\" (erhanaktas)",
+    "mealler.org \"Erhan Aktaş\"",
+    "acikkuran.com \"Erhan Aktaş (Eski Baskı)\"",
+    "acikkuran.com \"Erhan Aktaş (10. Baskı)\""
+  ],
+  "notes": "At least four revisions circulate: acikkuran current / 10th printing / old printing, kuranmeali (sent by the author, updated 2026-09-02) and mealler.org; they agree on only ~50-94% of ayat. 908 segments carry footnotes in \"notes\". Coverage incomplete (1707/6236); re-run `fetch_meal.py fetch --sources MEAL-EAKTAS` then `build` to resume.",
+  "raw_shared": [
+    "acikkuran pages: ../MEAL-ISLAMOGLU/raw/acikkuran/",
+    "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/",
+    "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
+  ],
+  "_notes_parts": {
+    "static": "At least four revisions circulate: acikkuran current / 10th printing / old printing, kuranmeali (sent by the author, updated 2026-09-02) and mealler.org; they agree on only ~50-94% of ayat.",
+    "build": "908 segments carry footnotes in \"notes\". Coverage incomplete (1707/6236); re-run `fetch_meal.py fetch --sources MEAL-EAKTAS` then `build` to resume."
+  }
+}

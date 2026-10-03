@@ -1,0 +1,8 @@
+- not developed: chain 2 as separate section - merged into chain 1 (one cover/uncover image)
+- not developed: chain 12 heights members (طغية, شاقي, نيق, عقبة) - scattered homonyms with no scene in the ayat; palaces/plain part merged into levelling
+- not developed: chain 1 member ء ل ه (إلاهة = sun) - does not hold beside the divine name in ayah 13
+- not developed: chain 5 member خوبة (unrained ground) - different root خ و ب, not خ ي ب
+- not developed: Zamakhsharī's fires, camel's young fleeing, camel's milk for the tribe, readings, views on who يخاف refers to - exegetical and traditional reports excluded
+- memory: دسّاها explained as دسّسها, with one sīn turned to yāʾ
+- memory: دمدم عليهم glossed as أطبق عليهم "closed down over them"
+- memory: the accusative نَاقَةَ ٱللَّهِ وَسُقْيَٰهَا is a warning (taḥdhīr)
