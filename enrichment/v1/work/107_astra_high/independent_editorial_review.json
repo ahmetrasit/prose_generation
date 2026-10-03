@@ -1,0 +1,68 @@
+{
+  "target": "107",
+  "variant": "astra-high",
+  "reviewer": "root",
+  "reviewed_at": "2026-10-03T02:21:52.652501+00:00",
+  "accepted": true,
+  "output_sha256": "62179e9263bddec313314b785c2cb586c2aae355a5d938767ffbbb444a16ff8f",
+  "structural_audit": "enrichment/v1/work/107_astra_high/independent_structural_audit.json",
+  "added_annotations_read": 104,
+  "novelty_records_read": 23,
+  "novelty_classification_counts": {
+    "partial": 14,
+    "explicit": 2,
+    "building_blocks_only": 6,
+    "none_found_in_checked_sources": 1
+  },
+  "research_artifacts_reviewed": [
+    "claim_map.json",
+    "evidence_matrix.json",
+    "source_content_audit.json"
+  ],
+  "source_spotchecks": [
+    {
+      "source": "Sunan Abi Dawud 1657",
+      "url": "https://sunnah.com/abudawud:1657",
+      "finding": "Ibn Masud companion wording and Hasan (Al-Albani) attribution match HAD-008; not presented as direct prophetic speech."
+    },
+    {
+      "source": "Sunan Ibn Majah 2473",
+      "url": "https://sunnah.com/ibnmajah:2473",
+      "finding": "Water, pasture, fire and Sahih (Darussalam) label match HAD-009; thematic relation retained."
+    },
+    {
+      "source": "Sunan Ibn Majah 2474",
+      "url": "https://sunnah.com/ibnmajah:2474",
+      "finding": "Distinct Aisha water, salt, fire reward report is Daif (Darussalam); HAD-010 retains this limitation."
+    },
+    {
+      "source": "Razi S107:7",
+      "archive": "sources/alrazy_7.txt",
+      "finding": "Four interpretations, neighbor oven/storage and explicit inversion of prayer for God versus help for people support TAF/HIS/NOV records; antecedents not claimed new."
+    },
+    {
+      "source": "Raghib, Mufradat, salat",
+      "archive": "sources/lex_صلو_mufradat_5476.txt",
+      "finding": "Reported prayer-removes-fire derivation and joint S107/Muddaththir references are preserved as partial antecedents with limits; broad musallin rule constrained."
+    },
+    {
+      "source": "Maqayis, da",
+      "archive": "sources/lex_دعع_maqayis_2981.txt",
+      "finding": "Entry explicitly excludes sound-imitation lifting calls from regular root analogy; MET-005 retains contrary evidence."
+    },
+    {
+      "source": "Abu Shama, Ibraaz, verse 638",
+      "archive": "sources/shama_638_excerpt.txt",
+      "finding": "Kisai deletion, Nafi facilitation and Warsh alif routes match QIR-001; no inference from exegete linguistic criticism that canonical reading is invalid."
+    }
+  ],
+  "editorial_findings": [
+    "All principal image networks and combined closing syntheses have scoped novelty assessments.",
+    "Classical lexical ingredients and explicit tafsir antecedents are separated from the project composition.",
+    "Competing chronology/asbab, companion readings and disputed marfu reports remain reported or disputed, with verification limits.",
+    "The 9:103 donor/Prophet direction, ayah endings, Maqayis split roots and anomalous branches are corrected by additions without changing base prose.",
+    "Registry gives actual digital passage scopes; header-only or duplicate pages are acknowledged, uninspected volumes and modern literature not claimed covered."
+  ],
+  "material_issues_remaining": [],
+  "review_limit": "Independent structural checks, reading of all added annotation prose/novelty records and targeted primary-source spotchecks; not a fresh full-corpus or isnad audit."
+}

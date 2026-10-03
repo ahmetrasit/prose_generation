@@ -1,0 +1,565 @@
+{
+  "target": 1,
+  "output": "/Volumes/aro/projects/prose_generation/enrichment/v1/out/1/1_enriched.md",
+  "completed_at": "2026-10-03T02:12:20.643511+00:00",
+  "structural_report": {
+    "target": 1,
+    "base_file": "_commentary/v16/out/s001/images.r13.map3.nohft.tool.tool/images.md",
+    "output_file": "enrichment/v1/out/1/1_enriched.md",
+    "base_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+    "output_sha256": "28e91e5d943582ee11970db3fd6cdb6f7022cec0ccf7ec76aa0ff1ec0b458e8b",
+    "base_blocks": 100,
+    "base_blocks_preserved_exactly_in_order": 100,
+    "base_prose_paragraphs": 73,
+    "original_headings": 14,
+    "original_inline_tags": 434,
+    "original_inline_tags_preserved_in_order": 434,
+    "annotation_count": 104,
+    "annotations_by_type": {
+      "asbab": 1,
+      "cross_quran": 9,
+      "hadith": 10,
+      "historical_context": 1,
+      "method_note": 20,
+      "nazm": 4,
+      "novelty": 21,
+      "qiraat": 4,
+      "reader_note": 3,
+      "revelation_history": 1,
+      "semantic_history": 7,
+      "source_note": 6,
+      "tafsir": 17
+    },
+    "novelty_count": 21,
+    "source_count": 77,
+    "errors": [],
+    "warnings": [],
+    "structural_qc_passed": true,
+    "scope_note": "Checks preservation and annotation structure. Source accuracy and research coverage require editorial review."
+  },
+  "canonical_checklist": {
+    "original_prose_preserved": {
+      "passed": true,
+      "evidence": "100 original blank-separated blocks, 73 prose paragraphs, 14 headings and 13 Kaynaklar lines; exact validator and base hash."
+    },
+    "no_paragraph_deleted": {
+      "passed": true,
+      "evidence": "73/73 claim paragraphs mapped and locally annotated; 100/100 original blocks in order."
+    },
+    "inline_lexical_tags_preserved": {
+      "passed": true,
+      "evidence": "434/434 original tags in order, including 413 ar tags and 21 source-only tags."
+    },
+    "heading_order_preserved": {
+      "passed": true,
+      "evidence": "14/14 original headings preserved."
+    },
+    "one_physical_line_per_annotation": {
+      "passed": true,
+      "evidence": "104 flat blocks pass canonical parser."
+    },
+    "unique_ids": {
+      "passed": true,
+      "evidence": "104 unique IDs."
+    },
+    "required_fields": {
+      "passed": true,
+      "evidence": "All blocks have id/type/ayah/role/relation/status/prose/source."
+    },
+    "canonical_enum_values": {
+      "passed": true,
+      "evidence": "Parent validator has zero errors or warnings."
+    },
+    "asbab_uncertainty": {
+      "passed": true,
+      "evidence": "Mursal Abu Maysara chain and competing chronology are explicitly uncertain/not_assessed."
+    },
+    "thematic_hadith_separated": {
+      "passed": true,
+      "evidence": "Ten checked primary reports; seven thematic/historical and three direct_hadith_tafsir, matching evidence matrix relation classifications."
+    },
+    "hadith_grades_verified": {
+      "passed": true,
+      "evidence": "Sahih collection basis and named Darussalam/Tirmidhi/Albani authority; no grade borrowed merely from tafsir quotation."
+    },
+    "reading_distinctions": {
+      "passed": true,
+      "evidence": "Canonical reading vs dialect/ishmaam and noncanonical explanatory reports distinguished; reader, rawi and path explicit."
+    },
+    "historical_context_sourced": {
+      "passed": true,
+      "evidence": "Lexicon use and theological restraint are typed separately from certain event claims; Ibrahim nazar/munazara dispute preserved."
+    },
+    "conflicting_reports_preserved": {
+      "passed": true,
+      "evidence": "Makki/Madani/double revelation; hamd/shukr; basmala counting; malik preference vs canonical maalik; alternative name derivations."
+    },
+    "every_novelty_has_checked_sources": {
+      "passed": true,
+      "evidence": "21 connection-specific lists; full Razi and other incomplete scopes expressly not_checked."
+    },
+    "no_absolute_classical_absence_claim": {
+      "passed": true,
+      "evidence": "No none_found_in_checked_sources classification; body denies universal absence and first-ever inference."
+    },
+    "building_blocks_separated": {
+      "passed": true,
+      "evidence": "Seven building_blocks_only, twelve partial, one explicit, one not_checked."
+    },
+    "resonance_not_contextual_translation": {
+      "passed": true,
+      "evidence": "Core method controls and local constraints retain primary ayah meaning; root identity and echo roots separated."
+    },
+    "report_deduplication": {
+      "passed": true,
+      "evidence": "Ten distinct primary hadith families get one hadith block each; later tafsir repetitions are attestations. Asbab family not multiplied."
+    },
+    "interpretive_consequences": {
+      "passed": true,
+      "evidence": "Local controls cover zero-shadow, anger-subject transfer, ghayr two roots, Quran prepositions, well apparatus, translation endpoint and Quran context."
+    },
+    "reader_orientation": {
+      "passed": true,
+      "evidence": "Three reader notes; research corpus scope at end; source registry resolves 77 IDs."
+    },
+    "filterable_layers": {
+      "passed": true,
+      "evidence": "Every annotation has priority, audience and tradition."
+    }
+  },
+  "claim_paragraphs_mapped": 73,
+  "claim_paragraphs_locally_annotated": 73,
+  "major_networks_and_closing_syntheses_audited": 21,
+  "novelty_classes": {
+    "building_blocks_only": 7,
+    "partial": 12,
+    "not_checked": 1,
+    "explicit": 1
+  },
+  "network_coverage": [
+    {
+      "network": "yol ve topluluk",
+      "base_claims": [
+        "S1-P003",
+        "S1-P005",
+        "S1-P007",
+        "S1-P009",
+        "S1-P011",
+        "S1-P013",
+        "S1-P015",
+        "S1-P017"
+      ],
+      "novelty_id": "S1-NOV-001",
+      "classical_attestation": "building_blocks_only",
+      "checked_sources": "Taberî 1:5 yol/deve bölümü, 1:6 hidayet ve yol yorumları, 1:7 nimetli yolun açıklaması; Mekâyîs ʿabd, q-w-m, n-ʿ-m, d-l-l tam maddeler. İlgili diğer nadir sözlük dalları ile Râzî tam Fatiha denetlenmedi."
+    },
+    {
+      "network": "sahip, efendi, kul ve ev",
+      "base_claims": [
+        "S1-P023",
+        "S1-P025",
+        "S1-P027",
+        "S1-P029",
+        "S1-P031",
+        "S1-P033"
+      ],
+      "novelty_id": "S1-NOV-002",
+      "classical_attestation": "partial",
+      "checked_sources": "Taberî 1:1 Allah türetmesi satır 64–85; 1:2 Rabb satır 31–44; 1:5 kulluk ve yardım; 12:23 rabbî açıklaması; Beyzâvî 1:2 terbiye; Mekâyîs ʿabd, r-b-b, m-l-k, d-y-n tam maddeler."
+    },
+    {
+      "network": "hesap, borç, fiyat ve tartı",
+      "base_claims": [
+        "S1-P039",
+        "S1-P041",
+        "S1-P043",
+        "S1-P045",
+        "S1-P047",
+        "S1-P049",
+        "S1-P051",
+        "S1-P053"
+      ],
+      "novelty_id": "S1-NOV-003",
+      "classical_attestation": "partial",
+      "checked_sources": "Taberî 1:4 hesap/karşılık ve borç verme şiiri satır 35–50; Mekâyîs d-y-n ve q-w-m tam maddeler; 2:282, 17:35, 26:182, 83:3–6, 21:47 tam ayetler; Müslim 223 matın."
+    },
+    {
+      "network": "rahim, büyütme ve ev",
+      "base_claims": [
+        "S1-P059",
+        "S1-P061",
+        "S1-P063",
+        "S1-P065",
+        "S1-P067"
+      ],
+      "novelty_id": "S1-NOV-004",
+      "classical_attestation": "building_blocks_only",
+      "checked_sources": "Zemahşerî/Beyzâvî 1:1 rahmet/rahim bölümleri; Beyzâvî 1:2 Rabb; Taberî 1:3 tekrar itirazı; Bikâî 1:3 tekrar; Mekâyîs r-h-m, r-b-b, q-w-m, gh-y-r, n-ʿ-m tam maddeler."
+    },
+    {
+      "network": "nimet, hamd ve tamamlanma",
+      "base_claims": [
+        "S1-P073",
+        "S1-P075",
+        "S1-P077",
+        "S1-P079"
+      ],
+      "novelty_id": "S1-NOV-005",
+      "classical_attestation": "partial",
+      "checked_sources": "Taberî 1:7 nimetliler başlangıcı; Beyzâvî 1:7 iman/bağışlama; İbn Kesîr/Zemahşerî 1:2 hamd–şükür; Bikâî 1:2 ve 1:7 satır 1–8; 48:2, 16:121, 7:43, 10:10 tam ayetler."
+    },
+    {
+      "network": "gazap, nimet ve yüzler",
+      "base_claims": [
+        "S1-P085",
+        "S1-P087",
+        "S1-P089",
+        "S1-P091",
+        "S1-P093"
+      ],
+      "novelty_id": "S1-NOV-006",
+      "classical_attestation": "partial",
+      "checked_sources": "İbn Kesîr 1:7 satır 20 etkin/meçhul; Taberî 1:7 gazap açıklamaları ve grup karşılaştırması; Mekâyîs gh-d-b, n-ʿ-m tam maddeler; 80:38–41, 83:24, 88:2,8–9, 14:5 tam ayetler."
+    },
+    {
+      "network": "ad, yükseklik ve işaret",
+      "base_claims": [
+        "S1-P099",
+        "S1-P101",
+        "S1-P103",
+        "S1-P105",
+        "S1-P107"
+      ],
+      "novelty_id": "S1-NOV-007",
+      "classical_attestation": "partial",
+      "checked_sources": "Zemahşerî/Beyzâvî 1:1 ism ve Allah bölümleri; Zemahşerî/İbn Kesîr 1:2 âlem işareti; Mekâyîs s-m-w, w-s-m, ʿ-l-m tam maddeler. İsm-i a‘zam naklinin bağımsız isnat/grade kaynağı denetlenmedi."
+    },
+    {
+      "network": "gök, öğle ve terazi",
+      "base_claims": [
+        "S1-P113",
+        "S1-P115",
+        "S1-P117"
+      ],
+      "novelty_id": "S1-NOV-008",
+      "classical_attestation": "not_checked",
+      "checked_sources": "Mekâyîs y-w-m, s-m-w, n-ʿ-m, ʿ-l-m, a-l-h tam maddeler; proje q-w-m B017. q-w-m öğle maddesinin asıl tam kitabı ve Râzî tam Fatiha denetlenmedi; bütün gök/terazi bağlantısının corpus taraması tamamlanmadı."
+    },
+    {
+      "network": "yağmur, su ve kuyu",
+      "base_claims": [
+        "S1-P123",
+        "S1-P125",
+        "S1-P127",
+        "S1-P129",
+        "S1-P131",
+        "S1-P133"
+      ],
+      "novelty_id": "S1-NOV-009",
+      "classical_attestation": "partial",
+      "checked_sources": "Taberî 1:1 satır 98; ed-Dürr 1:4 son Âişe rivayeti ve Ebû Dâvûd 1173 asıl matın/grade; Mekâyîs r-b-b, s-m-w, w-s-m, ʿ-l-m, n-ʿ-m, m-l-k tam maddeler; Tehzîb III:10 tam sunulan pasaj. Râzî tam Fatiha ve başka kuyu bağlantısı aramaları denetlenmedi."
+    },
+    {
+      "network": "sürü, öncü ve kayıp hayvan",
+      "base_claims": [
+        "S1-P139",
+        "S1-P141",
+        "S1-P143",
+        "S1-P145"
+      ],
+      "novelty_id": "S1-NOV-010",
+      "classical_attestation": "partial",
+      "checked_sources": "Beyzâvî 1:6 hidayet/havâdî cümleleri; Taberî 1:6 yol ve sebat yorumları; Mekâyîs h-d-y, r-b-b, d-l-l, n-ʿ-m tam maddeler; Müslim 2747a matın. Başka tam Fatiha ve nadir sürü maddeleri eksiksiz taranmadı."
+    },
+    {
+      "network": "destek, beden ve yürüyüş",
+      "base_claims": [
+        "S1-P151",
+        "S1-P153",
+        "S1-P155",
+        "S1-P157"
+      ],
+      "novelty_id": "S1-NOV-011",
+      "classical_attestation": "partial",
+      "checked_sources": "Taberî 1:5 yardım ve 1:6 tevfik/alternatif yorumu reddetme; Zemahşerî 1:5 sıra; Beyzâvî 1:5 yardım/binek; Mekâyîs h-d-y, ʿabd, q-w-m tam maddeler; q-w-m B016 sadece proje paketi. Nadir h-d-d maddesi bağımsız kontrol edilmedi."
+    },
+    {
+      "network": "iki kayboluş",
+      "base_claims": [
+        "S1-P163",
+        "S1-P165",
+        "S1-P167"
+      ],
+      "novelty_id": "S1-NOV-012",
+      "classical_attestation": "building_blocks_only",
+      "checked_sources": "Mekâyîs s-r-ṭ ve d-l-l tam maddeler; Zemahşerî/Beyzâvî 1:6 yutma türetmesi; Taberî 1:6 yol yorumları; İbn Kesîr 1:6 yol ve hidayet. Diğer klasiklerde bütün iki-kayboluş terkibi eksiksiz taranmadı."
+    },
+    {
+      "network": "ev, hediye, gelin, kurban ve varış",
+      "base_claims": [
+        "S1-P173",
+        "S1-P175",
+        "S1-P177",
+        "S1-P179"
+      ],
+      "novelty_id": "S1-NOV-013",
+      "classical_attestation": "partial",
+      "checked_sources": "Taberî 1:6 gelin/hediye/cennet yolu teklifinin tam aktarımı ve reddiyesi; İbn Kesîr 1:7 satır 19 ahiret sıratı; Mekâyîs h-d-y, m-l-k, r-b-b tam maddeler; 9:6, 22:33–37, 27:35–36 tam ayetler. Râzî tam Fatiha ve bütün diğer tefsirlerde ev zinciri eksiksiz taranmadı."
+    },
+    {
+      "network": "kulluk/yol buluşması",
+      "base_claims": [
+        "S1-P185"
+      ],
+      "novelty_id": "S1-NOV-014",
+      "classical_attestation": "explicit",
+      "checked_sources": "Taberî 1:5 satır 4–9; İbn Kesîr 1:5 başlangıcı; Mekâyîs ʿabd tam madde; 36:61 tam ayet."
+    },
+    {
+      "network": "sürü/yol/kurban/ad buluşması",
+      "base_claims": [
+        "S1-P187"
+      ],
+      "novelty_id": "S1-NOV-015",
+      "classical_attestation": "partial",
+      "checked_sources": "Beyzâvî 1:6 hidayet/havâdî; Mekâyîs h-d-y, n-ʿ-m, w-s-m tam maddeler; 16:5–9, 22:34–37, 36:71–72 tam ayetler. Bütün sürü/kurban/ad zinciri için tam klasik arama yapılmadı."
+    },
+    {
+      "network": "Musa, rahim ve Firavun buluşması",
+      "base_claims": [
+        "S1-P189"
+      ],
+      "novelty_id": "S1-NOV-016",
+      "classical_attestation": "building_blocks_only",
+      "checked_sources": "26:18–22, 17:23–24, 28:7–13 tam ayetler; Mekâyîs r-h-m ve r-b-b tam maddeler; Zemahşerî 1:1 rahmet; Beyzâvî 1:2 terbiye."
+    },
+    {
+      "network": "gazap/düşüş/doğrulma buluşması",
+      "base_claims": [
+        "S1-P191"
+      ],
+      "novelty_id": "S1-NOV-017",
+      "classical_attestation": "building_blocks_only",
+      "checked_sources": "20:81–82, 67:22 tam ayetler; İbn Kesîr 1:7 satır 20; Taberî 1:7 gazap bölümü; Mekâyîs q-w-m, gh-d-b tam maddeler."
+    },
+    {
+      "network": "borç/kayıt/öğle/terazi buluşması",
+      "base_claims": [
+        "S1-P193"
+      ],
+      "novelty_id": "S1-NOV-018",
+      "classical_attestation": "building_blocks_only",
+      "checked_sources": "2:282 ve 83:3–6 tam ayetler; Mekâyîs d-y-n, d-l-l, q-w-m tam maddeler; proje q-w-m B017. Asıl öğle maddesi ve bütün klasiklerde yazı/diklik terkibi denetlenmedi."
+    },
+    {
+      "network": "Musa/kuyu/rızık buluşması",
+      "base_claims": [
+        "S1-P195"
+      ],
+      "novelty_id": "S1-NOV-019",
+      "classical_attestation": "building_blocks_only",
+      "checked_sources": "28:22–24 ve 26:78–82 tam ayetler; Tehzîb III:10 tam sunulan pasaj; Mekâyîs n-ʿ-m, m-l-k tam maddeler. Musa için aygıt kullanımını belgeleyen bağımsız tarihsel metin denetlenmedi."
+    },
+    {
+      "network": "İbrahim/gök/işaret buluşması",
+      "base_claims": [
+        "S1-P197"
+      ],
+      "novelty_id": "S1-NOV-020",
+      "classical_attestation": "partial",
+      "checked_sources": "6:76–79 tam ayetler; İbn Kesîr 6:76 son açıklama ve 6:79 web satır 19–28; Mekâyîs s-m-w, ʿ-l-m, r-b-b tam maddeler. İbrahim kıssasının bütün klasik rivayetleri denetlenmedi."
+    },
+    {
+      "network": "bütün surenin birleşik proje ağı",
+      "base_claims": [
+        "S1-P199"
+      ],
+      "novelty_id": "S1-NOV-021",
+      "classical_attestation": "partial",
+      "checked_sources": "Taberî 1:5 ana metin, 1:6 ana tefsir pasajı, 1:7 tam sunulan metin; Bikâî 1:1 ana 1–9, 1:7 ana 1–8; Müslim 395a tam matın; Mekâyîs h-d-y, r-b-b, n-ʿ-m tam maddeler. Râzî’de yalnız giriş/dil pasajları incelendi, tam Fatiha not_checked; tüm ağ bağlantıları için eksiksiz corpus taraması yok."
+    }
+  ],
+  "editorial_annotation_reread": {
+    "chunks": [
+      [
+        1,
+        27
+      ],
+      [
+        28,
+        54
+      ],
+      [
+        55,
+        81
+      ],
+      [
+        82,
+        104
+      ]
+    ],
+    "no_truncation": true
+  },
+  "evidence_matrix_built_before_current_composition": "2026-10-03T02:06:48.782686+00:00",
+  "actually_checked_hadith": {
+    "H_M395": {
+      "url": "https://sunnah.com/muslim:395a",
+      "web_lines": "58–62",
+      "grade": "sahih",
+      "grade_authority": "Sahîh Müslim koleksiyonu",
+      "relation": "direct_hadith_tafsir"
+    },
+    "H_B4474": {
+      "url": "https://sunnah.com/bukhari:4474",
+      "web_lines": "64–68",
+      "grade": "sahih",
+      "grade_authority": "Sahîh Buhârî koleksiyonu",
+      "relation": "direct_hadith_tafsir"
+    },
+    "H_T2954": {
+      "url": "https://sunnah.com/tirmidhi:2954",
+      "web_lines": "58–64",
+      "grade": "hasan",
+      "grade_authority": "Sayfada Darussalam",
+      "relation": "direct_hadith_tafsir"
+    },
+    "H_B5999": {
+      "url": "https://sunnah.com/bukhari:5999",
+      "web_lines": "66–69",
+      "grade": "sahih",
+      "grade_authority": "Sahîh Buhârî koleksiyonu",
+      "relation": "thematic"
+    },
+    "H_B5988": {
+      "url": "https://sunnah.com/bukhari:5988",
+      "web_lines": "66–69",
+      "grade": "sahih",
+      "grade_authority": "Sahîh Buhârî koleksiyonu",
+      "relation": "thematic"
+    },
+    "H_M2747": {
+      "url": "https://sunnah.com/muslim:2747a",
+      "web_lines": "58–61",
+      "grade": "sahih",
+      "grade_authority": "Sahîh Müslim koleksiyonu",
+      "relation": "thematic"
+    },
+    "H_T2859": {
+      "url": "https://sunnah.com/tirmidhi:2859",
+      "web_lines": "58–62",
+      "grade": "hasan",
+      "grade_authority": "Müellif Tirmizî: hasen garîb; Darussalam aynı sayfada sahih",
+      "relation": "thematic"
+    },
+    "H_M223": {
+      "url": "https://sunnah.com/muslim:223",
+      "web_lines": "58–61",
+      "grade": "sahih",
+      "grade_authority": "Sahîh Müslim koleksiyonu",
+      "relation": "thematic"
+    },
+    "H_AD1173": {
+      "url": "https://sunnah.com/abudawud:1173",
+      "web_lines": "64–75",
+      "grade": "hasan",
+      "grade_authority": "Sayfada Elbânî: hasen; müellif: isnâduhu ceyyid",
+      "relation": "thematic"
+    },
+    "H_B3": {
+      "url": "https://sunnah.com/bukhari:3",
+      "web_lines": "66–74",
+      "grade": "sahih",
+      "grade_authority": "Sahîh Buhârî koleksiyonu",
+      "relation": "historical"
+    }
+  },
+  "actually_checked_corpus": {
+    "TAB1": "Taberî 1:1, yerel metin satırları 22–26, 64–87, 91–109; 98. satır ortak rızık, bulut, yağmur, bitki.",
+    "TAB2": "Taberî 1:2, satırlar 1–11 ve 29–62; hamd, Rabb ve âlemler.",
+    "TAB3": "Taberî 1:3, metnin bütünü; besmeleyi Fatiha ayeti saymayan görüş ve tekrar tartışması; dipnot müellif değil editör.",
+    "TAB4": "Taberî 1:4, satırlar 3–17 ve 35–56; melik tercihi, dîn karşılık ve borç verme benzetmeli şiir.",
+    "TAB5": "Taberî 1:5, satırlar 1–32; kulluk, çiğnenmiş yol, uysal binek, yardım ve zamir düzeni.",
+    "TAB6": "Taberî 1:6, ana tefsir pasajının bütünü; sebat/tevfik; açık yol; İslam/Kur’an yorumları; gelin/hediye/ahiret yorumunu aktarıp birincil anlam olarak reddetmesi. Dipnotların tamamı denetlenmedi.",
+    "TAB7": "Taberî 1:7, yerel 25.625 karakterlik metnin bütünü; 4:69, ghayr dilbilgisi, gazap görüşleri, Adiyy rivayeti ve iki grubun ortak kusurları.",
+    "TAB1223": "Taberî 12:23, web ana metni özellikle 88–105. satırlar; rabbî = kadının kocası/efendi yorumu.",
+    "IK1": "İbn Kesîr 1:1, satırlar 1–22; adlar, Mekkî/Medenî/iki kez nüzul, ayet sayımı, ilk vahiy ayrımı ve fazilet rivayetleri. 23–101 denetlenmedi.",
+    "IK2": "İbn Kesîr 1:2, 38 satırlık metnin bütünü; hamd–şükür boyutları, âlemler ve sayısal rivayetlere ihtiyat.",
+    "IK4": "İbn Kesîr 1:4, 10 satırın bütünü; iki kanonik okuyuş, Mervan iddiasının eleştirisi, hesap/af.",
+    "IK5": "İbn Kesîr 1:5, 12 satırın bütünü; yol/deve, hasr, iltifat, cemaat ve yardım.",
+    "IK6": "İbn Kesîr 1:6, 23 satırın bütünü; irşat/tevfik, yol yorumları, Nevvâs temsili, devam eden hidayet.",
+    "IK7": "İbn Kesîr 1:7, satırlar 1–21; nimetliler, Adiyy, açıklayıcı farklı okuyuş, ahiret sıratı ve etkin nimet/pasif gazap. 22–31 denetlenmedi.",
+    "IK676": "İbn Kesîr 6:76, web metninin bütünü; kaybolmayan ve sürekli Rabb gerekçesi.",
+    "IK679": "İbn Kesîr 6:79, web 19–28; nazar/araştırma ile münazara yorumlarının ayrımı ve münazara tercihi.",
+    "ZAM1": "Zemahşerî 1:1, sunulan 16 satırın bütünü; sayım, fiil takdiri, ism, Allah ve rahmet/rahim.",
+    "ZAM2": "Zemahşerî 1:2, sunulan 8 satırın bütünü; hamd–şükür, Rabb ve âlem.",
+    "ZAM4": "Zemahşerî 1:4, sunulan 4 satırın bütünü; mâlik/melik ve kanonik olmayan ek biçimler.",
+    "ZAM5": "Zemahşerî 1:5, sunulan 8 satırın bütünü; koyu/dokulu kumaş örneği, hasr, iltifat, ibadet→yardım→hidayet.",
+    "ZAM6": "Zemahşerî 1:6, sunulan 3 satırın bütünü; devam/artış, yutma mecazı, s/ṣ/işmam.",
+    "ZAM7": "Zemahşerî 1:7, sunulan 12 satırın bütünü; tekrar/bedel, topluluk referentleri ve gazap yorumu.",
+    "BAY1": "Beyzâvî 1:1, sunulan 20 satırın bütünü; sayım, Mekkî gerekçesi, ism etimolojileri ve rahmet.",
+    "BAY2": "Beyzâvî 1:2, sunulan 6 satırın bütünü; hamd–şükür, tedricî terbiye, âlem.",
+    "BAY4": "Beyzâvî 1:4, sunulan 4 satırın bütünü; okuyuş, sahiplik/hükümranlık.",
+    "BAY5": "Beyzâvî 1:5, sunulan 11 satırın bütünü; yol/kumaş, iltifat/çoğul, gerekli/isteğe bağlı yardım ve binek örneği.",
+    "BAY6": "Beyzâvî 1:6, sunulan 8 satırın bütünü; sürü öncüleri, dört hidayet düzeyi, yutma kökeni.",
+    "BAY7": "Beyzâvî 1:7, sunulan 18 satırın bütünü; iman/bağışlama nimeti, kusur tipleri, gazap.",
+    "DUR1": "Süyûtî ed-Dürr 1:1, satırlar 1–17; nüzul görüşleri ve Ebû Meysere anlatısı. 18–165 denetlenmedi.",
+    "DUR2": "Süyûtî 1:2, satırlar 1–18 ve 36–44; hamd ve Müslim 223 aktarımı; aradaki 19–35 denetlenmedi.",
+    "DUR3": "Süyûtî 1:3, sunulan 3 satırın bütünü; Katâde sure açıklaması ve Ümmü Seleme sayım rivayeti. Bu rivayetler ayrıca derecelendirilmedi.",
+    "DUR4": "Süyûtî 1:4, sunulan 22 satırın bütünü; çelişen okuyuş nispetleri, hesap ve Âişe yağmur duası; Ebû Dâvûd 1173 ayrıca asıl yerinden doğrulandı.",
+    "DUR5": "Süyûtî 1:5, sunulan 5 satırın bütünü; yardım bütün işler ve farklı telaffuz/seriyye rivayetleri. Bunların dereceleri değerlendirilmedi.",
+    "DUR6": "Süyûtî 1:6, sunulan 24 satırın bütünü; yol yorumları, Nevvâs, telaffuzlar.",
+    "DUR7": "Süyûtî 1:7, satırlar 1–15; açıklayıcı okuyuşlar ve grup referentleri; 16–51 denetlenmedi.",
+    "BIQ1": "Bikâî 1:1, ana metin satırlar 1–9; maksat, besmele ve sure düzeni. Kalan notların tamamı denetlenmedi.",
+    "BIQ2": "Bikâî 1:2, sunulan 13 satırın bütünü; hamd, malikiyet ve iyilik.",
+    "BIQ3": "Bikâî 1:3, sunulan 7 satırın bütünü; tekrarda anlam gelişimi.",
+    "BIQ4": "Bikâî 1:4, sunulan 35 satırın bütünü; rahmet/hesap, ümit/korku; dijital ayet numaraları ayrıca Kur’an ile kontrol edildi.",
+    "BIQ5": "Bikâî 1:5, ana metin satırlar 1–3; iltifat, yardım ve Harâllî’den cemaat. 4–48 denetlenmedi.",
+    "BIQ6": "Bikâî 1:6, sunulan 18 satırın bütünü; yumuşak sevk ve hidayet; 93:7 numarası dijital aktarımda kaymış.",
+    "BIQ7": "Bikâî 1:7, ana metin satırlar 1–8; yolculuk, vadiler/denizler, iyi yol ve iyi arkadaş, sure bütünü. 9–117 denetlenmedi.",
+    "RAZ_SCOPE": "Râzî sayfa 1:1–6 sunulan giriş kısımları ve 1:7 sunulan 81 satırın bütünü; 1:7 de giriş/dil felsefesi. Bunlar ayetlerin tam Fatiha şerhi olarak sayılamaz; basılı tam cilt denetlenmedi.",
+    "W_ASB": "Vâhidî Esbâb, Fatiha bölümü, İslamweb ana metin 575–582, rapor 19–22 ve Mekkî/Medenî tartışması; Ebû Meysere zincirinde sahabî adı yok.",
+    "NASHR": "İbnü’l-Cezerî en-Neşr, cilt 1 basılı s.271–272 (ABL sayfaları 279–280), okuyucu/râvi/tarîk ayrımları. Basılı nüshayla görüntü kolasyonu yapılmadı.",
+    "THD3_10": "Ezherî Tehzîb, ABL cilt 3, s.10; sunulan ana metnin tamamı: iyilik/tamamlama, nimetli çocuk, güney rüzgârı, kuyu kirişleri ve qâma = makara; matbu kolasyonu yapılmadı.",
+    "PKT": "Projenin sözlük paketi: dictionary.md q-w-m satırları 341–394 tamamen okundu; diğer seçilmiş dallar base/ledger ile denetlendi. Bu kayıt, başvurulan antik kitapların tüm maddelerinin bağımsız kontrol edildiği anlamına gelmez.",
+    "QUR": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı.",
+    "M_ABD": "İbn Fâris Mekâyîs, ABD kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_ALH": "İbn Fâris Mekâyîs, ALH kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_ALM": "İbn Fâris Mekâyîs, ALM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_DLL": "İbn Fâris Mekâyîs, DLL kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_DYN": "İbn Fâris Mekâyîs, DYN kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_GHDB": "İbn Fâris Mekâyîs, GHDB kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_GHYR": "İbn Fâris Mekâyîs, GHYR kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_HDY": "İbn Fâris Mekâyîs, HDY kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_HMD": "İbn Fâris Mekâyîs, HMD kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_MLK": "İbn Fâris Mekâyîs, MLK kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_NAAM": "İbn Fâris Mekâyîs, NAAM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_QWM": "İbn Fâris Mekâyîs, QWM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_RBB": "İbn Fâris Mekâyîs, RBB kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_RHM": "İbn Fâris Mekâyîs, RHM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_SMW": "İbn Fâris Mekâyîs, SMW kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_SRT": "İbn Fâris Mekâyîs, SRT kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_WSM": "İbn Fâris Mekâyîs, WSM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_YWM": "İbn Fâris Mekâyîs, YWM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "H_M395": "https://sunnah.com/muslim:395a Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 58–62; Sahîh Müslim koleksiyonu; ilişki direct_hadith_tafsir.",
+    "H_B4474": "https://sunnah.com/bukhari:4474 Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 64–68; Sahîh Buhârî koleksiyonu; ilişki direct_hadith_tafsir.",
+    "H_T2954": "https://sunnah.com/tirmidhi:2954 Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 58–64; Sayfada Darussalam; ilişki direct_hadith_tafsir.",
+    "H_B5999": "https://sunnah.com/bukhari:5999 Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 66–69; Sahîh Buhârî koleksiyonu; ilişki thematic.",
+    "H_B5988": "https://sunnah.com/bukhari:5988 Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 66–69; Sahîh Buhârî koleksiyonu; ilişki thematic.",
+    "H_M2747": "https://sunnah.com/muslim:2747a Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 58–61; Sahîh Müslim koleksiyonu; ilişki thematic.",
+    "H_T2859": "https://sunnah.com/tirmidhi:2859 Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 58–62; Müellif Tirmizî: hasen garîb; Darussalam aynı sayfada sahih; ilişki thematic.",
+    "H_M223": "https://sunnah.com/muslim:223 Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 58–61; Sahîh Müslim koleksiyonu; ilişki thematic.",
+    "H_AD1173": "https://sunnah.com/abudawud:1173 Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 64–75; Sayfada Elbânî: hasen; müellif: isnâduhu ceyyid; ilişki thematic.",
+    "H_B3": "https://sunnah.com/bukhari:3 Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 66–74; Sahîh Buhârî koleksiyonu; ilişki historical."
+  },
+  "research_limitations": [
+    "Razi seven retrieved pages are opening/introduction language material, not verified full Fatiha commentary. The copyLink insert-next-paragraph UI is not evidence of pagination.",
+    "Other authors were inspected in the stated ranges only; all retrieved pages do not equal complete source coverage.",
+    "Hawramani lexicons and ABL texts are digital primary reproductions, not image-collated editions.",
+    "Full rare-source lexical entries behind local packet were unavailable; packet authority is expressly separated.",
+    "Novelty statements make positive antecedent/ingredient distinctions and no universal nonattestation claim.",
+    "Additional a-w-n Hawramani lookups yielded no extracted Maqayis text: retrieved lookup pages are not checked primary-entry evidence and no absence claim follows. Standard aid interpretation is positively checked in the listed tafsir passages."
+  ],
+  "output_sha256": "28e91e5d943582ee11970db3fd6cdb6f7022cec0ccf7ec76aa0ff1ec0b458e8b",
+  "all_authorized_work_complete": true,
+  "complete_classical_corpus_audit_claimed": false
+}

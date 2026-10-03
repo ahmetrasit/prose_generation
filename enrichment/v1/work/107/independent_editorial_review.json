@@ -1,0 +1,84 @@
+{
+  "target": "107",
+  "variant": "sol-max",
+  "reviewer": "root",
+  "reviewed_at": "2026-10-03T02:50:27.880144+00:00",
+  "accepted": true,
+  "output_sha256": "bf7f07d837cf0b8dcce6c1843e8b35e92d901a2ae4fac8d5db0d2fccf34802a4",
+  "structural_audit": "enrichment/v1/work/107/independent_structural_audit.json",
+  "added_annotations_read": 104,
+  "novelty_records_read": 23,
+  "novelty_classification_counts": {
+    "partial": 15,
+    "building_blocks_only": 8
+  },
+  "research_artifacts_reviewed": [
+    "claim_map.json",
+    "evidence_matrix.json",
+    "content_audit.json",
+    "editorial_qc.json",
+    "source registry and final scope notes in output"
+  ],
+  "precomposition_matrix": {
+    "claim_rows": 44,
+    "sha256": "115b2b05f7d337a072f4cd1365df96169a2763d310b93208d61295d61d041b8f",
+    "completed_at": "2026-10-03T02:01:37.485343+00:00",
+    "stage": "substantive_evidence_matrix_complete_before_composition"
+  },
+  "source_spotchecks": [
+    {
+      "source": "Tabari 51:11",
+      "archive": "sources/tabary_51_11.txt",
+      "finding": "Ibn Zayd water-submersion analogy is present; CQ-002 and NOV-010 preserve this antecedent without asserting that the verse depicts a literal stream."
+    },
+    {
+      "source": "Ibn Atiyya 107:1",
+      "archive": "sources/ibnatiyya_107_1.txt",
+      "finding": "Author-qualified absence of known Makki disagreement and immediately reported Thalabi Madani attribution support SRC-007, rather than a claim of universal consensus."
+    },
+    {
+      "source": "Alusi 107:1",
+      "archive": "sources/alusi_107_1.txt",
+      "finding": "Hibatullah split-revelation report does not explicitly assign verses 1–3/4–7; REV-001 retains this restriction."
+    },
+    {
+      "source": "Ibn Kathir 107:7",
+      "archive": "sources/katheer_107_7.txt",
+      "finding": "Qurra ibn Damus raised stone/iron/water report has explicit gharīb/munkar and unknown-chain criticism; source disagreements are retained."
+    },
+    {
+      "source": "Muslim 2982",
+      "url": "https://sunnah.com/muslim:2982",
+      "finding": "Care for widows/poor comparison and narrator uncertainty about the fasting/prayer comparison match HAD-011."
+    },
+    {
+      "source": "Bukhari 1224",
+      "url": "https://sunnah.com/bukhari:1224",
+      "finding": "Ibn Buhayna report of forgotten sitting and prostrations before taslim supports HAD-003; ordinary prayer forgetfulness is distinguished from the S107 warning."
+    },
+    {
+      "source": "Bukhari 1497",
+      "url": "https://sunnah.com/bukhari:1497",
+      "finding": "Supplication for the donating family of Ibn Abi Awfa supports HAD-009 and the donor context of 9:103."
+    },
+    {
+      "source": "Abu Dawud 1657, Ibn Majah 2474 and Bukhari 2353",
+      "urls": [
+        "https://sunnah.com/abudawud:1657",
+        "https://sunnah.com/ibnmajah:2474",
+        "https://sunnah.com/bukhari:2353"
+      ],
+      "finding": "Primary pages independently checked during the preceding S107 variant reviews: named Hasan (Albani) companion loan report, distinct weak (Darussalam) water/salt/fire report and surplus-water qualification agree with this output."
+    }
+  ],
+  "editorial_findings": [
+    "All 104 added annotation prose records, 23 novelty records, 36 registry entries and final scope notes were read; all 44 base paragraphs have local claim coverage.",
+    "Chronology, historical actors, reported readings and disputed reports retain limits; behaviors are not converted into automatic individual faith judgements.",
+    "Split root origins, disputed water derivations and anomalous dictionary branches constrain project images instead of making them mandatory verse meanings.",
+    "Prayer in 9:103 concerns donors; QIR-003 explicitly records the base quotation plural versus the Hafs singular, and bounds Tabari reading attributions.",
+    "The full Raghib salat entry was not inspected in this variant; its older prayer/fire interpretation found in Astra/high is an additional classical antecedent outside this research scope.",
+    "Some Tehzib/Cemhere first-source collations remain openly not_checked. Strong audit coverage does not imply completion of every lexical or isnad investigation."
+  ],
+  "material_issues_remaining": [],
+  "review_limit": "Independent preservation/schema checks, reading of all added prose and novelty records, research coverage review and targeted primary-source spotchecks. Does not certify exhaustive classical literature, printed-text collation or independent isnad research."
+}

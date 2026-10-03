@@ -1,0 +1,91 @@
+{
+  "target": "100",
+  "variant": "sol-max",
+  "reviewer": "root",
+  "reviewed_at": "2026-10-03T02:39:28.932897+00:00",
+  "accepted": true,
+  "output_sha256": "d6d9cbefb8e8238849072ae9a1d8506bcd35d6c79191ea75b3877ff8f605c446",
+  "structural_audit": "enrichment/v1/work/100/independent_structural_audit.json",
+  "added_annotations_read": 110,
+  "novelty_records_read": 26,
+  "novelty_classification_counts": {
+    "explicit": 2,
+    "partial": 18,
+    "building_blocks_only": 6
+  },
+  "research_artifacts_reviewed": [
+    "claim_map.json",
+    "evidence_matrix.json",
+    "content_audit.json",
+    "preservation_audit.json",
+    "checked_source_catalog.json"
+  ],
+  "evidence_matrix_rows": 30,
+  "major_project_syntheses_with_local_novelty": 23,
+  "source_spotchecks": [
+    {
+      "source": "Razi S100:1",
+      "archive": "sources/alrazy_100_1.txt",
+      "finding": "Horse-to-master obedience versus human-to-Lord obedience is explicit in original source; TF02/N01 correctly retain an antecedent rather than novelty."
+    },
+    {
+      "source": "Tabari S100:2 and Ibn Kathir S100:2",
+      "archives": [
+        "sources/tabary_100_2.txt",
+        "sources/katheer_100_2.txt"
+      ],
+      "finding": "Actual Tabari conclusion includes multiple fire-causing senses; Ibn Kathir attributes hoof-only preference. SC03 correctly preserves the concrete source disagreement."
+    },
+    {
+      "source": "Ibn Kathir S100:6",
+      "archive": "sources/katheer_100_6.txt",
+      "finding": "Jafar ibn Zubayr matruk and weak chain explicitly stated for raised Abu Umama kenud trio; distinct mawquf version remains separate."
+    },
+    {
+      "source": "Raghib, Mufradat, hsl",
+      "archive": "sources/lex_hsl_d31_3.txt",
+      "finding": "Gold/ore, grain/chaff, kernel/shell, accounting remainder and direct100:10 explanation support explicit N11 antecedent."
+    },
+    {
+      "source": "Maqayis, hsl",
+      "archive": "sources/lex_hsl_d7_14.txt",
+      "finding": "Gold/silver derivation attributed to other linguists and conditionally accepted if true; SC04 preserves the source qualification."
+    },
+    {
+      "source": "Maqayis, nqa",
+      "archive": "sources/lex_nqa_d7_19.txt",
+      "finding": "Author prefers cautious bird/safe pool interpretation over repetitive experience proverb; SC07/N19 retain contrary evidence."
+    },
+    {
+      "source": "Ibn Khalawayh printed Adiyat shadh section p178",
+      "archive": "sources/ibn-khalawayh-pdfpage-190.png",
+      "finding": "Root visually inspected the Adiyat subheading on printed178: aththarna, fawassatna, bahatha, hasala variants and anna-rabbahum without lam support the reported reading notes. No full transmission-corpus audit inferred."
+    },
+    {
+      "source": "Muslim2625c",
+      "url": "https://sunnah.com/muslim:2625c",
+      "finding": "Abu Dharr broth/water/neighbors record matches HAD06, retained as thematic and independent from weak kenud trio."
+    },
+    {
+      "source": "Bukhari6436",
+      "url": "https://sunnah.com/bukhari:6436",
+      "finding": "Two valleys, third desired, dust-filled belly and repentance all match HAD05; thematic relation clear."
+    },
+    {
+      "source": "Muslim382",
+      "url": "https://sunnah.com/muslim:382",
+      "finding": "Dawn attack and suspension upon hearing adhan match historical-context HX02; no assertion that this fixes S100 event or chronology."
+    }
+  ],
+  "editorial_findings": [
+    "Opening process/checker preamble is preserved and explained rather than silently removed.",
+    "Horse/camel pilgrimage interpretations, disputed chronology and delayed-expedition reports retain limitations.",
+    "Local novelty assessments distinguish direct old tafsir/lexicon antecedents from the project arrangement across all23 major syntheses.",
+    "Maqayis split origins, conditional etymologies, distinct roots and contrary preferred interpretations are respected.",
+    "Divine Habir is not described as acquiring knowledge through human experimentation; shahid pronoun alternatives are retained.",
+    "Weak direct tafsir is explicitly graded by named source authority; repeated reports are not counted as independent testimony.",
+    "Actual inspected digital passages and supplementary selections are listed; absence claims do not extend to whole printed volumes."
+  ],
+  "material_issues_remaining": [],
+  "review_limit": "Independent preservation/schema checks, reading of all added prose and novelty records, coverage review, targeted original-source and printed-page spotchecks; not exhaustive primary-volume or independent isnad review."
+}

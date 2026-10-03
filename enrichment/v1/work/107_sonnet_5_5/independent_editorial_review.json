@@ -1,0 +1,71 @@
+{
+  "target": "107",
+  "variant": "sonnet-5-5",
+  "reviewer": "root",
+  "reviewed_on_local_date": "2026-10-02",
+  "accepted": false,
+  "output_sha256": "f34f95281fd1aff9057cb70ed2ea630a64e34ccf51b4544258a929302b3e7f79",
+  "structural_audit": "enrichment/v1/work/107_sonnet_5_5/independent_structural_audit.json",
+  "structural_qc_passed": true,
+  "added_annotations_read": 79,
+  "novelty_records_read": 12,
+  "source_registry_entries_read": 43,
+  "research_artifacts_reviewed": [
+    "claim_map.json (sampled and coverage assessed)",
+    "evidence_matrix.json (all fourteen rows)",
+    "translation_matrix.json (sampled)",
+    "audit_summary.json",
+    "validator_report.json",
+    "source registry and scope notes in output"
+  ],
+  "material_issues_remaining": [
+    {
+      "annotation_ids": ["S107-MEAL-004", "S107-MEAL-009"],
+      "output_lines": [70, 242],
+      "issue": "The conclusion that none of approximately fifty checked meal rows represents delaying prayer is contradicted by the comparison page used for this research.",
+      "evidence": "The Suleyman Tevfik (1927) row explicitly includes Vakitlerini gecirir in an explanatory parenthesis; the Ahmet Tekin row also mentions prayer times, and Suat Yildirim's note mentions letting the time pass. These must be accounted for before making the broad absence claim.",
+      "source_url": "https://www.kuranmeali.com/AyetKarsilastirma.php?sure=107&ayet=5",
+      "verification": "Independently opened full page through web tool; rows and notes checked, rather than relying on the worker's page summaries."
+    },
+    {
+      "annotation_ids": ["S107-TAF-014"],
+      "output_lines": [211],
+      "issue": "The annotation attributes Tabari's preference for singular salat to conveying greater plurality and variety, reversing his stated rationale.",
+      "evidence": "Tabari reports the numerical argument of other readers and accepts its linguistic possibility, but explicitly says that this is not his reason: the verse concerns the Prophet's supplication as reassurance, not a report about number. The source's editorial footnote clarifies the negative construction. Sol/max QIR-003 preserves this distinction.",
+      "source_url": "https://quran.ksu.edu.sa/tafseer/tabary/sura9-aya103.html",
+      "source_archive": "sources/tabary_9_103.txt",
+      "verification": "Full cached passage and independently opened primary text, including the final preference paragraph and its editorial footnote."
+    }
+  ],
+  "minor_issues": [
+    {
+      "annotation_ids": ["S107-SRC-001"],
+      "output_lines": [12],
+      "issue": "The opening source list says Tabersi although the actual source and registry are Tabari. These are different authors; correct the name."
+    }
+  ],
+  "positive_findings": [
+    "The full base prose, headings and inline tags are preserved; annotation structure passes the shared validator.",
+    "Substantial comparative classical interpretation, competing chronology/asbab, and distinctions between interpretation and lexical imagery are presented in detail.",
+    "Ten dedicated meal-review blocks offer a useful additional editorial dimension absent from the other three drafts.",
+    "The Ata b. Dinar versus Ata b. Yasar attribution discrepancy is explicitly identified and left unresolved; it is corroborated by the cached Tabari/Ibn Kathir and Suyuti texts.",
+    "Blocked primary hadith access, edition ambiguity and unread source passages are disclosed. These limitations are properties of this run and should not be generalized to model ability."
+  ],
+  "coverage_limits": [
+    "Hadith evidence is mainly mediated through tafsir quotations because primary collection pages were inaccessible; there is less independent collection verification than in the Sol and Astra drafts.",
+    "Most base lexicon quotations were not independently rechecked. The final scope notes name only Maqayis sahw, da and hadd as exceptions, whereas the evidence matrix also mentions yatm and man; do not infer a precise comprehensive dictionary count from these inconsistent scope descriptions.",
+    "No independently inspected Raghib salat entry, Wahidi al-Basit 23:50, or separate qiraat manual is documented.",
+    "Tabari 51:11 was inspected, but its explicit Ibn Zayd water-submersion analogy is omitted from the output's account of that passage.",
+    "The 9:103 additions do not explicitly correct the base's donor/beneficiary direction or identify its plural quotation against the local Hafs singular as clearly as the other drafts."
+  ],
+  "comparative_judgement": {
+    "preferred_single_main_reference": "astra-max",
+    "astra_high_strength": "Broadest independently checked lexical exploration; Raghib prayer/fire and joint S107/Muddaththir antecedents.",
+    "sol_max_strength": "Granular claim audit and precise source-driven corrections, including Ibn Zayd's water analogy and the base/Hafs quotation difference.",
+    "astra_max_strength": "Best overall balance of classical interpretation, disputed etymologies, hadith and qiraat checks, and bounded novelty assessments; especially Wahidi's water/assistance/rights passage.",
+    "sonnet_strength": "Sustained Turkish meal comparison, detailed classical branch mapping and an additional attribution discrepancy.",
+    "sonnet_current_readiness": "Useful supplementary editorial draft; two confirmed substantive source errors require correction before acceptance as a verified reference.",
+    "limit": "Comparison of these particular outputs, produced under different retrieval conditions and with different translation-review scope; not a general model benchmark."
+  },
+  "review_limit": "Reading all added annotation prose, novelty records, source registry and final scope notes; independent structural checks; research coverage review and targeted source spotchecks. Does not certify exhaustive literature, printed editions, every translation quotation or an independent isnad investigation. Original output was not edited."
+}

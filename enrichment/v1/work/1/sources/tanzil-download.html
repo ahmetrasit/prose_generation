@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Download authentic Quran Text in various formats." /> 
+	<meta name="keywords" content="Quran, Tanzil, Translation, Authentic, Qur'an, Al-Qur'an, Kuran, Koran, قرآن, تنزیل، تنزيل, قرءان مجيد, قرآن كريم, ترجمه "/>
+	<title>Download Quran Text - Tanzil</title>
+	<meta name="viewport" content="width=768" />
+	<link rel="stylesheet" type="text/css" href="/pub/tpl/css/page.css" />
+
+	<link rel="shortcut icon" href="/img/icons/tanzil.svg">
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-touch-icon.png">
+	<link rel="manifest" href="/img/icons/site.webmanifest">
+
+	<!-- Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-9204679-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-9204679-1');
+	</script>
+</head>
+
+<body>
+	
+<div class="header">
+	<div class="content">
+		<a href="/" title="Tanzil.net" class="item logo">TANZIL</a>
+		<div class="sep">&bull;</div>
+		<a href="/download/" class="item">Quran Text</a>
+		<a href="/trans/" class="item">Translations</a>
+		<a href="/spread/" class="item">Spread</a>
+		<a href="/docs/" class="item">Documents</a>
+		<div class="clear"></div>
+	</div>
+</div>
+<script>
+	// show active page in navbar
+	var path = window.location.pathname;
+	var link = document.querySelector('a[href="' + path + '"]');
+	if (link)
+		link.classList.add("active");
+</script>
+
+
+<div class="body">
+	<div class="content">
+	
+	<h1>Download Quran Text</h1>
+
+	<h2>Introduction</h2>
+
+	<p>
+		Tanzil Quran text is available to download in various formats from this page.
+		The latest release of the text (Version&nbsp;1.1) is published in February 2021.
+		See changes log <a href="/updates/">here</a>. 
+	</p>
+	
+	<h2>Terms of Use</h2>
+
+	<p> 
+		Permission is granted to copy and distribute verbatim copies 
+		of the Quran text provided here, but changing the text is not allowed. 
+		The text can be used in any website or application, 
+		provided that its source (Tanzil Project) is clearly indicated, and 
+		a link is made to <a href="http://tanzil.net/">tanzil.net</a> to enable users to keep track of changes.
+	</p>
+		
+		
+	<h2>Download</h2>
+	
+	<form action="/pub/download/index.php">
+	
+	<div style="float: right; width: 400px; padding: 18px 0px;">
+		<input type="checkbox" id="marks" name="marks" value="true" checked />
+		<label for="marks">&nbsp;Include</label> <a href="/docs/Pause_marks">pause marks</a><br>
+		<input type="checkbox" id="sajdah" name="sajdah" value="true" checked />
+		<label for="sajdah">&nbsp;Include sajdah signs (&#x6e9;)</label><br>
+		<input type="checkbox" id="rub" name="rub" value="true" />
+		<label for="rub">&nbsp;Include rub-el-hizb signs (&#x6de;)</label><br>
+		<!--div id="alef-options" style="display: none">
+			<input type="checkbox" id="alef" name="alef" value="true" checked />
+			<label for="alef">&nbsp;Include superscript alefs (like in إِلىٰ)</label><br>
+		</div--> 
+		<div id="tatweel-options">
+			<input type="checkbox" id="tatweel" name="tatweel" value="true" checked />
+			<label for="tatweel">&nbsp;Include tatweel below superscript alefs (like in الرَّحْمَـٰن)</label> 
+		</div> 
+		<!-- <div id="me_quran-options" style="border-top: 1px solid #e9e9e9; margin-top: 7px;">
+			<input type="checkbox" id="laa" name="laa" value="true" />
+			<label for="laa">&nbsp;Special lam+hamza+alef 
+			(only for <a href="/docs/Me_quran">me_quran</a> font)</label><br>
+		</div>  -->
+		<div id="tanween-options">
+			<input type="checkbox" id="stanween" name="stanween" value="true" />
+			<label for="stanween">&nbsp;Include sequential tanweens
+			(only for <a href="/docs/Me_quran">me_quran</a> font)</label><br>
+		</div> 
+	</div>
+
+	<h4>
+		Quran text type: <span class="info">[<a href="/docs/Quran_Text_Types">?</a>]</span>
+	</h4> 
+	<select id="quranType" name="quranType" size="6" style="width: 230px;" onchange="updateOptions();">
+		<option value="simple" title="Simple (Imla'ei) text" selected>Simple</option>
+		<option value="simple-plain" title="Simple text without Ikhfa and Idgham demonstration" >Simple (Plain)</option>
+		<option value="simple-min" title="Simple text with a minimal number of diacritics and symbols">Simple (Minimal)</option>
+		<option value="simple-clean" title="Simple text without any diacritics or symbols">Simple (Clean)</option>
+		<option value="uthmani" title="Uthmani text as in Madina Mushaf">Uthmani</option>
+		<option value="uthmani-min" title="Uthmani text with a minimal number of diacritics and symbols">Uthmani (Minimal)</option>
+	</select>	
+	
+	<h4>
+		Output file format:
+	</h4>
+	<select id="outType" name="outType" size="4" style="width: 230px;">
+		<option value="txt">Text</option>
+		<option value="txt-2" selected>Text (with aya numbers)</option>
+		<option value="xml">XML</option>
+		<option value="sql">SQL (MySql dump)</option>
+	</select>	
+	<br style="clear: both;" />
+	
+	<div style="float: right; width: 400px; margin: -50px 0 0;">
+		<input type="submit" id="bottun" value="Download" title="Download Text"  disabled="true" style="padding: 5px 15px"/>&nbsp;
+		<input type="checkbox" id="agree" name="agree" value="true"  onclick="$('bottun').disabled = !this.checked;" />
+		<label for="agree">I agree with</label> <a href="/docs/Text_License">Terms of Use</a>
+	</div>
+	</form>
+	
+	
+	<h2>What Next?</h2>
+	
+	<p>
+		If you are using Tanzil Quran text in a website or application, please make sure to do the followings:
+	</p>
+	<ul>
+		<li> 
+			Join</b> our <a href="http://groups.google.com/group/tanzil-text">mailing list</a> to get critical updates to the texts.
+		</li><li> 
+			Link</b> to <a href="http://tanzil.net/">Tanzil</a> to enable users to keep track of changes (see our <a href="/docs/Text_License">Terms of Use</a>).
+		</li>
+	</ul>
+	<p>
+		You are also welcome to download our additional resources below:
+	</p>
+	<ul>
+		<li> 
+			<a href="/docs/Quran_Metadata">Quran Metadata</a>
+		</li><li> 
+			<a href="/trans/">Quran Translations</a>
+		</li>
+	</ul>
+
+	</div>
+
+</div>
+
+<script type="text/javascript">
+
+	updateOptions();
+	
+	// update options
+	function updateOptions() {
+		var type = $('quranType').value;
+		var isUthmani = /^uthmani/.test(type);
+		//$('alef-options').style.display = (/^uthmani|clean/.test(type)) ? 'none' : 'block';
+		$('tatweel-options').style.display = (type == 'simple-clean') ? 'none' : 'block';
+		// $('me_quran-options').style.display = isUthmani ? 'block' : 'none';
+		$('tanween-options').style.display = (type == 'uthmani') ? 'block' : 'none';
+	}
+
+	// get element 
+	function $(element) {
+		if (typeof element == "string")
+			element = document.getElementById(element);
+		return element;
+	}
+	
+</script>
+
+<div class="footer">
+	<div class="content">
+		<div style="margin: 0 -20px; text-align: right;">
+			<a href="http://tanzil.net/">Tanzil</a> 
+			<span style="font-family:arial;">&copy;</span> 2007-2026 
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

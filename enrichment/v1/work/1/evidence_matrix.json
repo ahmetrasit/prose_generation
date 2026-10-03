@@ -1,0 +1,4128 @@
+{
+  "stage": "evidence_populated_before_annotation_composition",
+  "annotations_composed": false,
+  "created_at": "2026-10-03T02:06:48.782686+00:00",
+  "all_major_base_prose_claims": 73,
+  "source_passage_inventory": {
+    "TAB1": "Taberî 1:1, yerel metin satırları 22–26, 64–87, 91–109; 98. satır ortak rızık, bulut, yağmur, bitki.",
+    "TAB2": "Taberî 1:2, satırlar 1–11 ve 29–62; hamd, Rabb ve âlemler.",
+    "TAB3": "Taberî 1:3, metnin bütünü; besmeleyi Fatiha ayeti saymayan görüş ve tekrar tartışması; dipnot müellif değil editör.",
+    "TAB4": "Taberî 1:4, satırlar 3–17 ve 35–56; melik tercihi, dîn karşılık ve borç verme benzetmeli şiir.",
+    "TAB5": "Taberî 1:5, satırlar 1–32; kulluk, çiğnenmiş yol, uysal binek, yardım ve zamir düzeni.",
+    "TAB6": "Taberî 1:6, ana tefsir pasajının bütünü; sebat/tevfik; açık yol; İslam/Kur’an yorumları; gelin/hediye/ahiret yorumunu aktarıp birincil anlam olarak reddetmesi. Dipnotların tamamı denetlenmedi.",
+    "TAB7": "Taberî 1:7, yerel 25.625 karakterlik metnin bütünü; 4:69, ghayr dilbilgisi, gazap görüşleri, Adiyy rivayeti ve iki grubun ortak kusurları.",
+    "TAB1223": "Taberî 12:23, web ana metni özellikle 88–105. satırlar; rabbî = kadının kocası/efendi yorumu.",
+    "IK1": "İbn Kesîr 1:1, satırlar 1–22; adlar, Mekkî/Medenî/iki kez nüzul, ayet sayımı, ilk vahiy ayrımı ve fazilet rivayetleri. 23–101 denetlenmedi.",
+    "IK2": "İbn Kesîr 1:2, 38 satırlık metnin bütünü; hamd–şükür boyutları, âlemler ve sayısal rivayetlere ihtiyat.",
+    "IK4": "İbn Kesîr 1:4, 10 satırın bütünü; iki kanonik okuyuş, Mervan iddiasının eleştirisi, hesap/af.",
+    "IK5": "İbn Kesîr 1:5, 12 satırın bütünü; yol/deve, hasr, iltifat, cemaat ve yardım.",
+    "IK6": "İbn Kesîr 1:6, 23 satırın bütünü; irşat/tevfik, yol yorumları, Nevvâs temsili, devam eden hidayet.",
+    "IK7": "İbn Kesîr 1:7, satırlar 1–21; nimetliler, Adiyy, açıklayıcı farklı okuyuş, ahiret sıratı ve etkin nimet/pasif gazap. 22–31 denetlenmedi.",
+    "IK676": "İbn Kesîr 6:76, web metninin bütünü; kaybolmayan ve sürekli Rabb gerekçesi.",
+    "IK679": "İbn Kesîr 6:79, web 19–28; nazar/araştırma ile münazara yorumlarının ayrımı ve münazara tercihi.",
+    "ZAM1": "Zemahşerî 1:1, sunulan 16 satırın bütünü; sayım, fiil takdiri, ism, Allah ve rahmet/rahim.",
+    "ZAM2": "Zemahşerî 1:2, sunulan 8 satırın bütünü; hamd–şükür, Rabb ve âlem.",
+    "ZAM4": "Zemahşerî 1:4, sunulan 4 satırın bütünü; mâlik/melik ve kanonik olmayan ek biçimler.",
+    "ZAM5": "Zemahşerî 1:5, sunulan 8 satırın bütünü; koyu/dokulu kumaş örneği, hasr, iltifat, ibadet→yardım→hidayet.",
+    "ZAM6": "Zemahşerî 1:6, sunulan 3 satırın bütünü; devam/artış, yutma mecazı, s/ṣ/işmam.",
+    "ZAM7": "Zemahşerî 1:7, sunulan 12 satırın bütünü; tekrar/bedel, topluluk referentleri ve gazap yorumu.",
+    "BAY1": "Beyzâvî 1:1, sunulan 20 satırın bütünü; sayım, Mekkî gerekçesi, ism etimolojileri ve rahmet.",
+    "BAY2": "Beyzâvî 1:2, sunulan 6 satırın bütünü; hamd–şükür, tedricî terbiye, âlem.",
+    "BAY4": "Beyzâvî 1:4, sunulan 4 satırın bütünü; okuyuş, sahiplik/hükümranlık.",
+    "BAY5": "Beyzâvî 1:5, sunulan 11 satırın bütünü; yol/kumaş, iltifat/çoğul, gerekli/isteğe bağlı yardım ve binek örneği.",
+    "BAY6": "Beyzâvî 1:6, sunulan 8 satırın bütünü; sürü öncüleri, dört hidayet düzeyi, yutma kökeni.",
+    "BAY7": "Beyzâvî 1:7, sunulan 18 satırın bütünü; iman/bağışlama nimeti, kusur tipleri, gazap.",
+    "DUR1": "Süyûtî ed-Dürr 1:1, satırlar 1–17; nüzul görüşleri ve Ebû Meysere anlatısı. 18–165 denetlenmedi.",
+    "DUR2": "Süyûtî 1:2, satırlar 1–18 ve 36–44; hamd ve Müslim 223 aktarımı; aradaki 19–35 denetlenmedi.",
+    "DUR3": "Süyûtî 1:3, sunulan 3 satırın bütünü; Katâde sure açıklaması ve Ümmü Seleme sayım rivayeti. Bu rivayetler ayrıca derecelendirilmedi.",
+    "DUR4": "Süyûtî 1:4, sunulan 22 satırın bütünü; çelişen okuyuş nispetleri, hesap ve Âişe yağmur duası; Ebû Dâvûd 1173 ayrıca asıl yerinden doğrulandı.",
+    "DUR5": "Süyûtî 1:5, sunulan 5 satırın bütünü; yardım bütün işler ve farklı telaffuz/seriyye rivayetleri. Bunların dereceleri değerlendirilmedi.",
+    "DUR6": "Süyûtî 1:6, sunulan 24 satırın bütünü; yol yorumları, Nevvâs, telaffuzlar.",
+    "DUR7": "Süyûtî 1:7, satırlar 1–15; açıklayıcı okuyuşlar ve grup referentleri; 16–51 denetlenmedi.",
+    "BIQ1": "Bikâî 1:1, ana metin satırlar 1–9; maksat, besmele ve sure düzeni. Kalan notların tamamı denetlenmedi.",
+    "BIQ2": "Bikâî 1:2, sunulan 13 satırın bütünü; hamd, malikiyet ve iyilik.",
+    "BIQ3": "Bikâî 1:3, sunulan 7 satırın bütünü; tekrarda anlam gelişimi.",
+    "BIQ4": "Bikâî 1:4, sunulan 35 satırın bütünü; rahmet/hesap, ümit/korku; dijital ayet numaraları ayrıca Kur’an ile kontrol edildi.",
+    "BIQ5": "Bikâî 1:5, ana metin satırlar 1–3; iltifat, yardım ve Harâllî’den cemaat. 4–48 denetlenmedi.",
+    "BIQ6": "Bikâî 1:6, sunulan 18 satırın bütünü; yumuşak sevk ve hidayet; 93:7 numarası dijital aktarımda kaymış.",
+    "BIQ7": "Bikâî 1:7, ana metin satırlar 1–8; yolculuk, vadiler/denizler, iyi yol ve iyi arkadaş, sure bütünü. 9–117 denetlenmedi.",
+    "RAZ_SCOPE": "Râzî sayfa 1:1–6 sunulan giriş kısımları ve 1:7 sunulan 81 satırın bütünü; 1:7 de giriş/dil felsefesi. Bunlar ayetlerin tam Fatiha şerhi olarak sayılamaz; basılı tam cilt denetlenmedi.",
+    "W_ASB": "Vâhidî Esbâb, Fatiha bölümü, İslamweb ana metin 575–582, rapor 19–22 ve Mekkî/Medenî tartışması; Ebû Meysere zincirinde sahabî adı yok.",
+    "NASHR": "İbnü’l-Cezerî en-Neşr, cilt 1 basılı s.271–272 (ABL sayfaları 279–280), okuyucu/râvi/tarîk ayrımları. Basılı nüshayla görüntü kolasyonu yapılmadı.",
+    "THD3_10": "Ezherî Tehzîb, ABL cilt 3, s.10; sunulan ana metnin tamamı: iyilik/tamamlama, nimetli çocuk, güney rüzgârı, kuyu kirişleri ve qâma = makara; matbu kolasyonu yapılmadı.",
+    "PKT": "Projenin sözlük paketi: dictionary.md q-w-m satırları 341–394 tamamen okundu; diğer seçilmiş dallar base/ledger ile denetlendi. Bu kayıt, başvurulan antik kitapların tüm maddelerinin bağımsız kontrol edildiği anlamına gelmez.",
+    "QUR": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı.",
+    "M_ABD": "İbn Fâris Mekâyîs, ABD kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_ALH": "İbn Fâris Mekâyîs, ALH kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_ALM": "İbn Fâris Mekâyîs, ALM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_DLL": "İbn Fâris Mekâyîs, DLL kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_DYN": "İbn Fâris Mekâyîs, DYN kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_GHDB": "İbn Fâris Mekâyîs, GHDB kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_GHYR": "İbn Fâris Mekâyîs, GHYR kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_HDY": "İbn Fâris Mekâyîs, HDY kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_HMD": "İbn Fâris Mekâyîs, HMD kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_MLK": "İbn Fâris Mekâyîs, MLK kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_NAAM": "İbn Fâris Mekâyîs, NAAM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_QWM": "İbn Fâris Mekâyîs, QWM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_RBB": "İbn Fâris Mekâyîs, RBB kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_RHM": "İbn Fâris Mekâyîs, RHM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_SMW": "İbn Fâris Mekâyîs, SMW kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_SRT": "İbn Fâris Mekâyîs, SRT kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_WSM": "İbn Fâris Mekâyîs, WSM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "M_YWM": "İbn Fâris Mekâyîs, YWM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı.",
+    "H_M395": "https://sunnah.com/muslim:395a Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 58–62; Sahîh Müslim koleksiyonu; ilişki direct_hadith_tafsir.",
+    "H_B4474": "https://sunnah.com/bukhari:4474 Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 64–68; Sahîh Buhârî koleksiyonu; ilişki direct_hadith_tafsir.",
+    "H_T2954": "https://sunnah.com/tirmidhi:2954 Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 58–64; Sayfada Darussalam; ilişki direct_hadith_tafsir.",
+    "H_B5999": "https://sunnah.com/bukhari:5999 Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 66–69; Sahîh Buhârî koleksiyonu; ilişki thematic.",
+    "H_B5988": "https://sunnah.com/bukhari:5988 Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 66–69; Sahîh Buhârî koleksiyonu; ilişki thematic.",
+    "H_M2747": "https://sunnah.com/muslim:2747a Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 58–61; Sahîh Müslim koleksiyonu; ilişki thematic.",
+    "H_T2859": "https://sunnah.com/tirmidhi:2859 Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 58–62; Müellif Tirmizî: hasen garîb; Darussalam aynı sayfada sahih; ilişki thematic.",
+    "H_M223": "https://sunnah.com/muslim:223 Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 58–61; Sahîh Müslim koleksiyonu; ilişki thematic.",
+    "H_AD1173": "https://sunnah.com/abudawud:1173 Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 64–75; Sayfada Elbânî: hasen; müellif: isnâduhu ceyyid; ilişki thematic.",
+    "H_B3": "https://sunnah.com/bukhari:3 Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 66–74; Sahîh Buhârî koleksiyonu; ilişki historical."
+  },
+  "hadith_checked": {
+    "H_M395": {
+      "url": "https://sunnah.com/muslim:395a",
+      "web_lines": "58–62",
+      "grade": "sahih",
+      "grade_authority": "Sahîh Müslim koleksiyonu",
+      "relation": "direct_hadith_tafsir"
+    },
+    "H_B4474": {
+      "url": "https://sunnah.com/bukhari:4474",
+      "web_lines": "64–68",
+      "grade": "sahih",
+      "grade_authority": "Sahîh Buhârî koleksiyonu",
+      "relation": "direct_hadith_tafsir"
+    },
+    "H_T2954": {
+      "url": "https://sunnah.com/tirmidhi:2954",
+      "web_lines": "58–64",
+      "grade": "hasan",
+      "grade_authority": "Sayfada Darussalam",
+      "relation": "direct_hadith_tafsir"
+    },
+    "H_B5999": {
+      "url": "https://sunnah.com/bukhari:5999",
+      "web_lines": "66–69",
+      "grade": "sahih",
+      "grade_authority": "Sahîh Buhârî koleksiyonu",
+      "relation": "thematic"
+    },
+    "H_B5988": {
+      "url": "https://sunnah.com/bukhari:5988",
+      "web_lines": "66–69",
+      "grade": "sahih",
+      "grade_authority": "Sahîh Buhârî koleksiyonu",
+      "relation": "thematic"
+    },
+    "H_M2747": {
+      "url": "https://sunnah.com/muslim:2747a",
+      "web_lines": "58–61",
+      "grade": "sahih",
+      "grade_authority": "Sahîh Müslim koleksiyonu",
+      "relation": "thematic"
+    },
+    "H_T2859": {
+      "url": "https://sunnah.com/tirmidhi:2859",
+      "web_lines": "58–62",
+      "grade": "hasan",
+      "grade_authority": "Müellif Tirmizî: hasen garîb; Darussalam aynı sayfada sahih",
+      "relation": "thematic"
+    },
+    "H_M223": {
+      "url": "https://sunnah.com/muslim:223",
+      "web_lines": "58–61",
+      "grade": "sahih",
+      "grade_authority": "Sahîh Müslim koleksiyonu",
+      "relation": "thematic"
+    },
+    "H_AD1173": {
+      "url": "https://sunnah.com/abudawud:1173",
+      "web_lines": "64–75",
+      "grade": "hasan",
+      "grade_authority": "Sayfada Elbânî: hasen; müellif: isnâduhu ceyyid",
+      "relation": "thematic"
+    },
+    "H_B3": {
+      "url": "https://sunnah.com/bukhari:3",
+      "web_lines": "66–74",
+      "grade": "sahih",
+      "grade_authority": "Sahîh Buhârî koleksiyonu",
+      "relation": "historical"
+    }
+  },
+  "revelation_history_assessment": {
+    "sources": [
+      "W_ASB",
+      "IK1",
+      "DUR1",
+      "BAY1",
+      "H_B3",
+      "H_B4474"
+    ],
+    "makki": "preferred by several inspected authors; not a unanimous independently dated historical fact",
+    "madani": "early alternative explicitly preserved",
+    "double_revelation": "reported harmonization, not independently established",
+    "abu_maysara": "mursal structural gap; not independently graded",
+    "first_revelation": "Bukhari 3 specifies Iqra beginning; complete-first-surah question distinct"
+  },
+  "qiraat_assessment": {
+    "primary": "NASHR",
+    "malik_vs_maalik": "both canonical; four ten-readers maalik and other six malik",
+    "sirat": "sin vs sad and sad-zay ishmaam; specific narrator/path, not simply three interchangeable letters",
+    "noncanonical": "gloss/companion or grammar possibilities distinguished from canonical readings",
+    "numbering": "base basmala=1:1 retained; counting is contested"
+  },
+  "corpus_limitations": [
+    "Razi seven retrieved pages are opening/introduction language material, not verified full Fatiha commentary. The copyLink insert-next-paragraph UI is not evidence of pagination.",
+    "Other authors were inspected in the stated ranges only; all retrieved pages do not equal complete source coverage.",
+    "Hawramani lexicons and ABL texts are digital primary reproductions, not image-collated editions.",
+    "Full rare-source lexical entries behind local packet were unavailable; packet authority is expressly separated.",
+    "Novelty statements make positive antecedent/ingredient distinctions and no universal nonattestation claim."
+  ],
+  "claims": [
+    {
+      "claim_id": "S1-P003",
+      "base_line": 3,
+      "claims": [
+        "Hidayet istenir; abd ailesindeki çiğnenmiş yol kulluk anlamının yanında okunur."
+      ],
+      "quran_refs": [
+        "1:5",
+        "1:6"
+      ],
+      "lexical_branches": [
+        "ع ب د,B005"
+      ],
+      "supporting_sources": [
+        {
+          "source": "TAB5",
+          "actually_checked_passage": "Taberî 1:5, satırlar 1–32; kulluk, çiğnenmiş yol, uysal binek, yardım ve zamir düzeni."
+        },
+        {
+          "source": "IK5",
+          "actually_checked_passage": "İbn Kesîr 1:5, 12 satırın bütünü; yol/deve, hasr, iltifat, cemaat ve yardım."
+        },
+        {
+          "source": "M_ABD",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, ABD kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "TAB5",
+        "M_ABD"
+      ],
+      "later_development": [
+        "IK5"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "explicit",
+      "assessment": "Çiğnenmiş yol ve uysal binek doğrudan 1:5 tefsirinde var; 1:6 bağlantısı sureler arası terkiptir.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P005",
+      "base_line": 5,
+      "claims": [
+        "Hidayetin yolu/evi tanıtma, önden gitme, devam etme dalları ihdinâ duasında birleştirilir."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [
+        "ه د ي,B001",
+        "ه د ي,B002",
+        "ه د ي,B003"
+      ],
+      "supporting_sources": [
+        {
+          "source": "TAB6",
+          "actually_checked_passage": "Taberî 1:6, ana tefsir pasajının bütünü; sebat/tevfik; açık yol; İslam/Kur’an yorumları; gelin/hediye/ahiret yorumunu aktarıp birincil anlam olarak reddetmesi. Dipnotların tamamı denetlenmedi."
+        },
+        {
+          "source": "IK6",
+          "actually_checked_passage": "İbn Kesîr 1:6, 23 satırın bütünü; irşat/tevfik, yol yorumları, Nevvâs temsili, devam eden hidayet."
+        },
+        {
+          "source": "BAY6",
+          "actually_checked_passage": "Beyzâvî 1:6, sunulan 8 satırın bütünü; sürü öncüleri, dört hidayet düzeyi, yutma kökeni."
+        },
+        {
+          "source": "M_HDY",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, HDY kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "TAB6",
+          "actually_checked_passage": "Taberî 1:6, ana tefsir pasajının bütünü; sebat/tevfik; açık yol; İslam/Kur’an yorumları; gelin/hediye/ahiret yorumunu aktarıp birincil anlam olarak reddetmesi. Dipnotların tamamı denetlenmedi."
+        }
+      ],
+      "early_attestation": [
+        "TAB6",
+        "M_HDY"
+      ],
+      "later_development": [
+        "IK6",
+        "BAY6"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Öncülük/sebat açık tefsir; hediye/gelin ayrı Mekâyîs aslı. Taberî ikincisini aktararak birincil hidayet yorumu olarak reddeder.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P007",
+      "base_line": 7,
+      "claims": [
+        "Sırat düz yol olarak tanımlanır; s/ṣ/z telaffuzları; q-w-m düz çizgi ve mızrak."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [
+        "ص ر ط,B001",
+        "ق و م,B008"
+      ],
+      "supporting_sources": [
+        {
+          "source": "TAB6",
+          "actually_checked_passage": "Taberî 1:6, ana tefsir pasajının bütünü; sebat/tevfik; açık yol; İslam/Kur’an yorumları; gelin/hediye/ahiret yorumunu aktarıp birincil anlam olarak reddetmesi. Dipnotların tamamı denetlenmedi."
+        },
+        {
+          "source": "ZAM6",
+          "actually_checked_passage": "Zemahşerî 1:6, sunulan 3 satırın bütünü; devam/artış, yutma mecazı, s/ṣ/işmam."
+        },
+        {
+          "source": "BAY6",
+          "actually_checked_passage": "Beyzâvî 1:6, sunulan 8 satırın bütünü; sürü öncüleri, dört hidayet düzeyi, yutma kökeni."
+        },
+        {
+          "source": "NASHR",
+          "actually_checked_passage": "İbnü’l-Cezerî en-Neşr, cilt 1 basılı s.271–272 (ABL sayfaları 279–280), okuyucu/râvi/tarîk ayrımları. Basılı nüshayla görüntü kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_QWM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, QWM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_SRT",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, SRT kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "NASHR",
+          "actually_checked_passage": "İbnü’l-Cezerî en-Neşr, cilt 1 basılı s.271–272 (ABL sayfaları 279–280), okuyucu/râvi/tarîk ayrımları. Basılı nüshayla görüntü kolasyonu yapılmadı."
+        }
+      ],
+      "early_attestation": [
+        "TAB6",
+        "M_QWM",
+        "M_SRT"
+      ],
+      "later_development": [
+        "ZAM6",
+        "BAY6"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "explicit",
+      "assessment": "Düz yol ve yutma klasik; saf zāy lehçesi ile kanonik işmam aynı ses değildir.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P009",
+      "base_line": 9,
+      "claims": [
+        "İstek bilgiyi aşan toplulukla yürüme olarak sunulur; 1:7 önceki nimet sahiplerinin yolu."
+      ],
+      "quran_refs": [
+        "1:7"
+      ],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "TAB6",
+          "actually_checked_passage": "Taberî 1:6, ana tefsir pasajının bütünü; sebat/tevfik; açık yol; İslam/Kur’an yorumları; gelin/hediye/ahiret yorumunu aktarıp birincil anlam olarak reddetmesi. Dipnotların tamamı denetlenmedi."
+        },
+        {
+          "source": "TAB7",
+          "actually_checked_passage": "Taberî 1:7, yerel 25.625 karakterlik metnin bütünü; 4:69, ghayr dilbilgisi, gazap görüşleri, Adiyy rivayeti ve iki grubun ortak kusurları."
+        },
+        {
+          "source": "IK5",
+          "actually_checked_passage": "İbn Kesîr 1:5, 12 satırın bütünü; yol/deve, hasr, iltifat, cemaat ve yardım."
+        },
+        {
+          "source": "BAY5",
+          "actually_checked_passage": "Beyzâvî 1:5, sunulan 11 satırın bütünü; yol/kumaş, iltifat/çoğul, gerekli/isteğe bağlı yardım ve binek örneği."
+        },
+        {
+          "source": "BIQ7",
+          "actually_checked_passage": "Bikâî 1:7, ana metin satırlar 1–8; yolculuk, vadiler/denizler, iyi yol ve iyi arkadaş, sure bütünü. 9–117 denetlenmedi."
+        },
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "TAB6",
+        "TAB7"
+      ],
+      "later_development": [
+        "IK5",
+        "BAY5",
+        "BIQ7"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "explicit",
+      "assessment": "Devam eden itaat ve nimetli öncüler açık; çoğulun cemaat yorumu açık.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P011",
+      "base_line": 11,
+      "claims": [
+        "âlemîn/alam nişanları; mâlik/milk yol ortası; dîn/âdet sürdürülen yürüyüş."
+      ],
+      "quran_refs": [
+        "1:2",
+        "1:4"
+      ],
+      "lexical_branches": [
+        "د ي ن,B005",
+        "ع ل م,B002",
+        "م ل ك,B006"
+      ],
+      "supporting_sources": [
+        {
+          "source": "ZAM2",
+          "actually_checked_passage": "Zemahşerî 1:2, sunulan 8 satırın bütünü; hamd–şükür, Rabb ve âlem."
+        },
+        {
+          "source": "IK2",
+          "actually_checked_passage": "İbn Kesîr 1:2, 38 satırlık metnin bütünü; hamd–şükür boyutları, âlemler ve sayısal rivayetlere ihtiyat."
+        },
+        {
+          "source": "TAB4",
+          "actually_checked_passage": "Taberî 1:4, satırlar 3–17 ve 35–56; melik tercihi, dîn karşılık ve borç verme benzetmeli şiir."
+        },
+        {
+          "source": "M_ALM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, ALM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_MLK",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, MLK kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_DYN",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, DYN kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "M_DYN",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, DYN kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "early_attestation": [
+        "TAB4",
+        "M_ALM",
+        "M_MLK",
+        "M_DYN"
+      ],
+      "later_development": [
+        "ZAM2",
+        "IK2"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "building_blocks_only",
+      "assessment": "İşaret/âlem tefsiri var; yol ortası sahiplik ve âdetin aynı sahneye taşınması proje. Mekâyîs dîn-âdet şiirinin zabtını tartışır.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P013",
+      "base_line": 13,
+      "claims": [
+        "abd/abâbîd dağılışı; mustaqîm/kavm; anʿamta/ana yol ve dağılış; dalâl/ev bulamama; hidayet karşıtlığı."
+      ],
+      "quran_refs": [
+        "1:6",
+        "1:7"
+      ],
+      "lexical_branches": [
+        "ض ل ل,B001",
+        "ض ل ل,B003",
+        "ع ب د,B010",
+        "ق و م,B001",
+        "ن ع م,B007",
+        "ن ع م,B008"
+      ],
+      "supporting_sources": [
+        {
+          "source": "M_ABD",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, ABD kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_QWM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, QWM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_NAAM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, NAAM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_DLL",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, DLL kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "PKT",
+          "actually_checked_passage": "Projenin sözlük paketi: dictionary.md q-w-m satırları 341–394 tamamen okundu; diğer seçilmiş dallar base/ledger ile denetlendi. Bu kayıt, başvurulan antik kitapların tüm maddelerinin bağımsız kontrol edildiği anlamına gelmez."
+        },
+        {
+          "source": "TAB6",
+          "actually_checked_passage": "Taberî 1:6, ana tefsir pasajının bütünü; sebat/tevfik; açık yol; İslam/Kur’an yorumları; gelin/hediye/ahiret yorumunu aktarıp birincil anlam olarak reddetmesi. Dipnotların tamamı denetlenmedi."
+        },
+        {
+          "source": "TAB7",
+          "actually_checked_passage": "Taberî 1:7, yerel 25.625 karakterlik metnin bütünü; 4:69, ghayr dilbilgisi, gazap görüşleri, Adiyy rivayeti ve iki grubun ortak kusurları."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "M_QWM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, QWM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "early_attestation": [
+        "M_ABD",
+        "M_QWM",
+        "M_NAAM",
+        "M_DLL",
+        "TAB6",
+        "TAB7"
+      ],
+      "later_development": [],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "building_blocks_only",
+      "assessment": "Dağılma ve evini bulamama sözlük malzemesi; qawm Mekâyîs’te diklikten ayrı asıl. Bütün zıtlık ağını Fatiha tercümesi sayma.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P015",
+      "base_line": 15,
+      "claims": [
+        "6:153 tek yol/çok yol; 6:161 din/yol; 28:22 yol ortası; 16:15–16 yollar/işaretler."
+      ],
+      "quran_refs": [
+        "6:153",
+        "6:161",
+        "16:15",
+        "16:16",
+        "28:22"
+      ],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "TAB6",
+          "actually_checked_passage": "Taberî 1:6, ana tefsir pasajının bütünü; sebat/tevfik; açık yol; İslam/Kur’an yorumları; gelin/hediye/ahiret yorumunu aktarıp birincil anlam olarak reddetmesi. Dipnotların tamamı denetlenmedi."
+        },
+        {
+          "source": "IK6",
+          "actually_checked_passage": "İbn Kesîr 1:6, 23 satırın bütünü; irşat/tevfik, yol yorumları, Nevvâs temsili, devam eden hidayet."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "TAB6"
+      ],
+      "later_development": [
+        "IK6"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Ayetler yol ve yol ayrımını doğrudan söyler; ayrı kıssaların tek mekânsal sahne olması yorumdur.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P017",
+      "base_line": 17,
+      "claims": [
+        "6:71 şaşkın yolcu; 93:7 dalâl; 7:16–17 dört yönlü pusu; 36:60–62 ve 3:51 kulluk/yol; 37:23 cehennem yönü."
+      ],
+      "quran_refs": [
+        "3:51",
+        "6:71",
+        "7:16",
+        "7:17",
+        "19:36",
+        "36:59",
+        "36:61",
+        "36:62",
+        "37:23",
+        "43:64",
+        "93:7"
+      ],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "BIQ6",
+          "actually_checked_passage": "Bikâî 1:6, sunulan 18 satırın bütünü; yumuşak sevk ve hidayet; 93:7 numarası dijital aktarımda kaymış."
+        },
+        {
+          "source": "TAB6",
+          "actually_checked_passage": "Taberî 1:6, ana tefsir pasajının bütünü; sebat/tevfik; açık yol; İslam/Kur’an yorumları; gelin/hediye/ahiret yorumunu aktarıp birincil anlam olarak reddetmesi. Dipnotların tamamı denetlenmedi."
+        },
+        {
+          "source": "IK6",
+          "actually_checked_passage": "İbn Kesîr 1:6, 23 satırın bütünü; irşat/tevfik, yol yorumları, Nevvâs temsili, devam eden hidayet."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "TAB6"
+      ],
+      "later_development": [
+        "BIQ6",
+        "IK6"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "37:23 cehenneme sevk, hidayetin yalın fiil olarak her bağlamda kurtuluş olmadığını gösterir; 93:7 dalâl ahlaki sapıklık diye zorlanmaz.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P023",
+      "base_line": 23,
+      "claims": [
+        "ʿabd ailesinde yol, katranlı deve ve insan köleleştirme müzellel niteliğiyle bağlanır."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [
+        "ع ب د,B004",
+        "ع ب د,B005"
+      ],
+      "supporting_sources": [
+        {
+          "source": "TAB5",
+          "actually_checked_passage": "Taberî 1:5, satırlar 1–32; kulluk, çiğnenmiş yol, uysal binek, yardım ve zamir düzeni."
+        },
+        {
+          "source": "IK5",
+          "actually_checked_passage": "İbn Kesîr 1:5, 12 satırın bütünü; yol/deve, hasr, iltifat, cemaat ve yardım."
+        },
+        {
+          "source": "M_ABD",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, ABD kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "M_ABD",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, ABD kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "early_attestation": [
+        "TAB5",
+        "M_ABD"
+      ],
+      "later_development": [
+        "IK5"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "explicit",
+      "assessment": "Yol–uysal deve–kul bağlantısı tefsirde açık. Mekâyîs yumuşaklık ile kuvveti iki asıl sayar.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P025",
+      "base_line": 25,
+      "claims": [
+        "Allah/ilah/mabud; Rabb efendi/sahip; mâlik elin tuttuğu mülk; memlûk köle."
+      ],
+      "quran_refs": [
+        "1:1",
+        "1:2"
+      ],
+      "lexical_branches": [
+        "ء ل ه,B001",
+        "ر ب ب,B001",
+        "م ل ك,B002"
+      ],
+      "supporting_sources": [
+        {
+          "source": "TAB1",
+          "actually_checked_passage": "Taberî 1:1, yerel metin satırları 22–26, 64–87, 91–109; 98. satır ortak rızık, bulut, yağmur, bitki."
+        },
+        {
+          "source": "TAB2",
+          "actually_checked_passage": "Taberî 1:2, satırlar 1–11 ve 29–62; hamd, Rabb ve âlemler."
+        },
+        {
+          "source": "BAY1",
+          "actually_checked_passage": "Beyzâvî 1:1, sunulan 20 satırın bütünü; sayım, Mekkî gerekçesi, ism etimolojileri ve rahmet."
+        },
+        {
+          "source": "BAY2",
+          "actually_checked_passage": "Beyzâvî 1:2, sunulan 6 satırın bütünü; hamd–şükür, tedricî terbiye, âlem."
+        },
+        {
+          "source": "M_ALH",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, ALH kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_MLK",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, MLK kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_RBB",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, RBB kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "TAB1",
+        "TAB2",
+        "M_ALH",
+        "M_MLK",
+        "M_RBB"
+      ],
+      "later_development": [
+        "BAY1",
+        "BAY2"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "explicit",
+      "assessment": "Rab efendi/sahip/ıslah eden; Mekâyîs a-l-h ibadet aslı görülmüş olmakla birlikte Allah etimolojisinde tefsirin çıkarsama ve ihtilafı korunmalı.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P027",
+      "base_line": 27,
+      "claims": [
+        "dîn boyun eğdirme/itaat/mülk dalları sahibi–kul sahnesine katılır; ayet dîn=karşılık."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [
+        "د ي ن,B001",
+        "د ي ن,B004"
+      ],
+      "supporting_sources": [
+        {
+          "source": "TAB4",
+          "actually_checked_passage": "Taberî 1:4, satırlar 3–17 ve 35–56; melik tercihi, dîn karşılık ve borç verme benzetmeli şiir."
+        },
+        {
+          "source": "M_DYN",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, DYN kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "TAB4",
+        "M_DYN"
+      ],
+      "later_development": [],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Dîn bağlamsal hesap/karşılık; aynı aile itaat ve borç anlamı içerir, bu tek kelime özdeşliği değildir.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P029",
+      "base_line": 29,
+      "claims": [
+        "1:5 iltifat: üçüncü kişiden ikinci kişiye geçiş; iyyâka öne alınması; ibadet=nihai boyun eğme."
+      ],
+      "quran_refs": [
+        "1:5"
+      ],
+      "lexical_branches": [
+        "ع ب د,B001",
+        "ع ب د,B003"
+      ],
+      "supporting_sources": [
+        {
+          "source": "TAB5",
+          "actually_checked_passage": "Taberî 1:5, satırlar 1–32; kulluk, çiğnenmiş yol, uysal binek, yardım ve zamir düzeni."
+        },
+        {
+          "source": "ZAM5",
+          "actually_checked_passage": "Zemahşerî 1:5, sunulan 8 satırın bütünü; koyu/dokulu kumaş örneği, hasr, iltifat, ibadet→yardım→hidayet."
+        },
+        {
+          "source": "BAY5",
+          "actually_checked_passage": "Beyzâvî 1:5, sunulan 11 satırın bütünü; yol/kumaş, iltifat/çoğul, gerekli/isteğe bağlı yardım ve binek örneği."
+        },
+        {
+          "source": "IK5",
+          "actually_checked_passage": "İbn Kesîr 1:5, 12 satırın bütünü; yol/deve, hasr, iltifat, cemaat ve yardım."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "TAB5"
+      ],
+      "later_development": [
+        "ZAM5",
+        "BAY5",
+        "IK5"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "explicit",
+      "assessment": "İltifat, hasr ve kulluk açık klasik yorum; gramer tek başına kulun tüm hayat psikolojisini belirlemez.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P031",
+      "base_line": 31,
+      "claims": [
+        "Yaratılmış insanın Allahʿa aitliği; 19:93; ibadetin bunu kabul olması; muʿabbed/ağırlanan kişi evine eklenir."
+      ],
+      "quran_refs": [
+        "19:93"
+      ],
+      "lexical_branches": [
+        "ع ب د,B002",
+        "ع ب د,B006"
+      ],
+      "supporting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "TAB5",
+          "actually_checked_passage": "Taberî 1:5, satırlar 1–32; kulluk, çiğnenmiş yol, uysal binek, yardım ve zamir düzeni."
+        },
+        {
+          "source": "IK5",
+          "actually_checked_passage": "İbn Kesîr 1:5, 12 satırın bütünü; yol/deve, hasr, iltifat, cemaat ve yardım."
+        },
+        {
+          "source": "M_ABD",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, ABD kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "PKT",
+          "actually_checked_passage": "Projenin sözlük paketi: dictionary.md q-w-m satırları 341–394 tamamen okundu; diğer seçilmiş dallar base/ledger ile denetlendi. Bu kayıt, başvurulan antik kitapların tüm maddelerinin bağımsız kontrol edildiği anlamına gelmez."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "TAB5",
+        "M_ABD"
+      ],
+      "later_development": [
+        "IK5"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "building_blocks_only",
+      "assessment": "19:93 tümünün abd olarak gelişi açık; konuk ağırlama nadir paket dalı, ayetin bağımsız anlamı değil.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P033",
+      "base_line": 33,
+      "claims": [
+        "16:75 köle ve hamd; 36:71–72 hayvanlar; 26:18–22 Firavun; 12:23 rabbî insan efendi yorumu; 3:64 ve 12:40 sınır."
+      ],
+      "quran_refs": [
+        "3:64",
+        "12:23",
+        "12:40",
+        "16:75",
+        "17:111",
+        "26:18",
+        "26:22",
+        "36:71",
+        "36:72"
+      ],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "TAB1223",
+          "actually_checked_passage": "Taberî 12:23, web ana metni özellikle 88–105. satırlar; rabbî = kadının kocası/efendi yorumu."
+        },
+        {
+          "source": "M_RBB",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, RBB kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "TAB1223",
+        "M_RBB"
+      ],
+      "later_development": [],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "İnsan efendi yorumu Taberî 12:23’te açık; 3:64 ve 26:22 insanı rab/köle kılma karşısında sınır koyar.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P039",
+      "base_line": 39,
+      "claims": [
+        "Yevmüʿd-dîn hesap/hüküm/karşılık günüdür."
+      ],
+      "quran_refs": [
+        "1:4"
+      ],
+      "lexical_branches": [
+        "د ي ن,B002"
+      ],
+      "supporting_sources": [
+        {
+          "source": "TAB4",
+          "actually_checked_passage": "Taberî 1:4, satırlar 3–17 ve 35–56; melik tercihi, dîn karşılık ve borç verme benzetmeli şiir."
+        },
+        {
+          "source": "IK4",
+          "actually_checked_passage": "İbn Kesîr 1:4, 10 satırın bütünü; iki kanonik okuyuş, Mervan iddiasının eleştirisi, hesap/af."
+        },
+        {
+          "source": "M_DYN",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, DYN kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "TAB4",
+        "M_DYN"
+      ],
+      "later_development": [
+        "IK4"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "explicit",
+      "assessment": "Hesap/karşılık açık; bağışlama istisnası korunur.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P041",
+      "base_line": 41,
+      "claims": [
+        "Yevm olay ve şiddetli gün; yevmeizin; mâlik ile melik/hükümdarın güçlü eli."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [
+        "م ل ك,B003",
+        "ي و م,B003",
+        "ي و م,B005"
+      ],
+      "supporting_sources": [
+        {
+          "source": "TAB4",
+          "actually_checked_passage": "Taberî 1:4, satırlar 3–17 ve 35–56; melik tercihi, dîn karşılık ve borç verme benzetmeli şiir."
+        },
+        {
+          "source": "IK4",
+          "actually_checked_passage": "İbn Kesîr 1:4, 10 satırın bütünü; iki kanonik okuyuş, Mervan iddiasının eleştirisi, hesap/af."
+        },
+        {
+          "source": "NASHR",
+          "actually_checked_passage": "İbnü’l-Cezerî en-Neşr, cilt 1 basılı s.271–272 (ABL sayfaları 279–280), okuyucu/râvi/tarîk ayrımları. Basılı nüshayla görüntü kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_YWM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, YWM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_MLK",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, MLK kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "TAB4",
+        "M_YWM",
+        "M_MLK"
+      ],
+      "later_development": [
+        "IK4"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Mâlik/melik iki kanonik okuyuş; olay günü sözlük menzili, her olay günü ahiret değildir.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P043",
+      "base_line": 43,
+      "claims": [
+        "mustaqîm/qiyâma/kayyûm ailesi diriliş; Allahʿa gazap=cezalandırma tanımı."
+      ],
+      "quran_refs": [
+        "1:7"
+      ],
+      "lexical_branches": [
+        "غ ض ب,B001",
+        "ق و م,B004",
+        "ق و م,B013"
+      ],
+      "supporting_sources": [
+        {
+          "source": "TAB7",
+          "actually_checked_passage": "Taberî 1:7, yerel 25.625 karakterlik metnin bütünü; 4:69, ghayr dilbilgisi, gazap görüşleri, Adiyy rivayeti ve iki grubun ortak kusurları."
+        },
+        {
+          "source": "ZAM7",
+          "actually_checked_passage": "Zemahşerî 1:7, sunulan 12 satırın bütünü; tekrar/bedel, topluluk referentleri ve gazap yorumu."
+        },
+        {
+          "source": "BAY7",
+          "actually_checked_passage": "Beyzâvî 1:7, sunulan 18 satırın bütünü; iman/bağışlama nimeti, kusur tipleri, gazap."
+        },
+        {
+          "source": "M_QWM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, QWM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_GHDB",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, GHDB kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "TAB7",
+          "actually_checked_passage": "Taberî 1:7, yerel 25.625 karakterlik metnin bütünü; 4:69, ghayr dilbilgisi, gazap görüşleri, Adiyy rivayeti ve iki grubun ortak kusurları."
+        }
+      ],
+      "early_attestation": [
+        "TAB7",
+        "M_QWM",
+        "M_GHDB"
+      ],
+      "later_development": [
+        "ZAM7",
+        "BAY7"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Gazap=ceza belirli kelami yorum; Taberî alternatifleri de verir. Qiyâma/istikamet akraba biçimler, ayette kayyûm yok.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P045",
+      "base_line": 45,
+      "claims": [
+        "dîn ve dayn farklı kelimelerdir; hesap borç kapanışı; q-w-m kıymet/fiyat/denge sikke."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [
+        "د ي ن,B002",
+        "د ي ن,B003",
+        "ق و م,B007",
+        "ق و م,B010",
+        "ق و م,B015"
+      ],
+      "supporting_sources": [
+        {
+          "source": "TAB4",
+          "actually_checked_passage": "Taberî 1:4, satırlar 3–17 ve 35–56; melik tercihi, dîn karşılık ve borç verme benzetmeli şiir."
+        },
+        {
+          "source": "M_DYN",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, DYN kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_QWM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, QWM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_MLK",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, MLK kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "PKT",
+          "actually_checked_passage": "Projenin sözlük paketi: dictionary.md q-w-m satırları 341–394 tamamen okundu; diğer seçilmiş dallar base/ledger ile denetlendi. Bu kayıt, başvurulan antik kitapların tüm maddelerinin bağımsız kontrol edildiği anlamına gelmez."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "TAB4",
+        "M_DYN",
+        "M_QWM",
+        "M_MLK"
+      ],
+      "later_development": [],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Taberî karşılıklı borç şiiri kullanır; dîn/dayn ayrı lafızlar. Eksiksiz dinar yalnız paket düzeyinde denetlendi.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P047",
+      "base_line": 47,
+      "claims": [
+        "gh-y-r diyet/takas; d-l-l kanın boşa gitmesi/unutan tanık; bunlar 1:7 anlamının yanında."
+      ],
+      "quran_refs": [
+        "1:7"
+      ],
+      "lexical_branches": [
+        "ض ل ل,B003",
+        "ض ل ل,B004",
+        "غ ي ر,B002",
+        "غ ي ر,B003"
+      ],
+      "supporting_sources": [
+        {
+          "source": "M_GHYR",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, GHYR kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_DLL",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, DLL kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "PKT",
+          "actually_checked_passage": "Projenin sözlük paketi: dictionary.md q-w-m satırları 341–394 tamamen okundu; diğer seçilmiş dallar base/ledger ile denetlendi. Bu kayıt, başvurulan antik kitapların tüm maddelerinin bağımsız kontrol edildiği anlamına gelmez."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "M_GHYR",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, GHYR kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "early_attestation": [
+        "M_GHYR",
+        "M_DLL"
+      ],
+      "later_development": [],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "building_blocks_only",
+      "assessment": "Mekâyîs ghayr iki asıl, 1:7 farklılık altındadır; diyetin hangi asla ait olduğu bile tartışmalı.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P049",
+      "base_line": 49,
+      "claims": [
+        "Surenin doğru yolu ve şaşmayan teraziyi aynı kökte anması; borç–fiyat–tartı sentezi."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "TAB4",
+          "actually_checked_passage": "Taberî 1:4, satırlar 3–17 ve 35–56; melik tercihi, dîn karşılık ve borç verme benzetmeli şiir."
+        },
+        {
+          "source": "M_DYN",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, DYN kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_QWM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, QWM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "H_M223",
+          "actually_checked_passage": "https://sunnah.com/muslim:223 Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 58–61; Sahîh Müslim koleksiyonu; ilişki thematic."
+        },
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        }
+      ],
+      "early_attestation": [
+        "TAB4",
+        "M_DYN",
+        "M_QWM"
+      ],
+      "later_development": [],
+      "hadith_relation": [
+        {
+          "source": "H_M223",
+          "relation": "thematic",
+          "grade": "sahih",
+          "grade_authority": "Sahîh Müslim koleksiyonu"
+        }
+      ],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Karşılık-borç klasik öncül, değer/diklik sözlük; Fatiha tartı demiyor. Terazi Kur’an intertekstidir.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P051",
+      "base_line": 51,
+      "claims": [
+        "82:16–19 yetkinin Allahʿa aitliği; 83:3–6 eksik tartı/ayağa kalkış; 40:16,25:26; 21:47 ve 101:6–8 teraziler."
+      ],
+      "quran_refs": [
+        "21:47",
+        "25:26",
+        "40:16",
+        "82:16",
+        "82:17",
+        "82:19",
+        "83:3",
+        "83:6",
+        "101:6",
+        "101:8"
+      ],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "TAB4",
+          "actually_checked_passage": "Taberî 1:4, satırlar 3–17 ve 35–56; melik tercihi, dîn karşılık ve borç verme benzetmeli şiir."
+        },
+        {
+          "source": "IK4",
+          "actually_checked_passage": "İbn Kesîr 1:4, 10 satırın bütünü; iki kanonik okuyuş, Mervan iddiasının eleştirisi, hesap/af."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "TAB4"
+      ],
+      "later_development": [
+        "IK4"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "explicit",
+      "assessment": "Yevmüddîn, hüküm ve tartı için ayrı ayetler açık; tümünü bir kök anlamına katmak ayrı adım.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P053",
+      "base_line": 53,
+      "claims": [
+        "2:282 borç/unutma/akvem; 26:182 ve 17:35 müstakîm tartı; diyet/fidye sınırı; 2:16 hidayet takası; 51:6 ve 26:82."
+      ],
+      "quran_refs": [
+        "2:16",
+        "2:178",
+        "2:282",
+        "4:92",
+        "6:70",
+        "17:35",
+        "26:82",
+        "26:182",
+        "51:6"
+      ],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "M_DYN",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, DYN kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_QWM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, QWM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_DLL",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, DLL kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        }
+      ],
+      "early_attestation": [
+        "M_DYN",
+        "M_QWM",
+        "M_DLL"
+      ],
+      "later_development": [],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "2:282 borç sözleşmesi/tanık unutması ve aqwam tanıklık, bağlamı dini sapıklık veya fiziksel diklik değil.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P059",
+      "base_line": 59,
+      "claims": [
+        "r-h-m rahmet/rahim/akrabalık; rahim ev olarak tasvir; doğum acısı; Allahʿın rahmeti iyilikle ayrıştırılmalı."
+      ],
+      "quran_refs": [
+        "1:1"
+      ],
+      "lexical_branches": [
+        "ر ح م,B001",
+        "ر ح م,B002",
+        "ر ح م,B003",
+        "ر ح م,B004"
+      ],
+      "supporting_sources": [
+        {
+          "source": "ZAM1",
+          "actually_checked_passage": "Zemahşerî 1:1, sunulan 16 satırın bütünü; sayım, fiil takdiri, ism, Allah ve rahmet/rahim."
+        },
+        {
+          "source": "BAY1",
+          "actually_checked_passage": "Beyzâvî 1:1, sunulan 20 satırın bütünü; sayım, Mekkî gerekçesi, ism etimolojileri ve rahmet."
+        },
+        {
+          "source": "M_RHM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, RHM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "H_B5999",
+          "actually_checked_passage": "https://sunnah.com/bukhari:5999 Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 66–69; Sahîh Buhârî koleksiyonu; ilişki thematic."
+        },
+        {
+          "source": "H_B5988",
+          "actually_checked_passage": "https://sunnah.com/bukhari:5988 Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 66–69; Sahîh Buhârî koleksiyonu; ilişki thematic."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "M_RHM"
+      ],
+      "later_development": [
+        "ZAM1",
+        "BAY1"
+      ],
+      "hadith_relation": [
+        {
+          "source": "H_B5999",
+          "relation": "thematic",
+          "grade": "sahih",
+          "grade_authority": "Sahîh Buhârî koleksiyonu"
+        },
+        {
+          "source": "H_B5988",
+          "relation": "thematic",
+          "grade": "sahih",
+          "grade_authority": "Sahîh Buhârî koleksiyonu"
+        }
+      ],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Rahim bağlantısı ve ilahi merhameti insani değişimden ayırma klasik. Anatomik ev çerçevesi proje.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P061",
+      "base_line": 61,
+      "claims": [
+        "Rabb terbiye/tamamlama; üvey ebeveyn ve dadı; süt koyunu; rabbânî öğretici."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [
+        "ر ب ب,B002",
+        "ر ب ب,B003",
+        "ر ب ب,B005",
+        "ر ب ب,B009"
+      ],
+      "supporting_sources": [
+        {
+          "source": "TAB2",
+          "actually_checked_passage": "Taberî 1:2, satırlar 1–11 ve 29–62; hamd, Rabb ve âlemler."
+        },
+        {
+          "source": "BAY2",
+          "actually_checked_passage": "Beyzâvî 1:2, sunulan 6 satırın bütünü; hamd–şükür, tedricî terbiye, âlem."
+        },
+        {
+          "source": "M_RBB",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, RBB kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        }
+      ],
+      "early_attestation": [
+        "TAB2",
+        "M_RBB"
+      ],
+      "later_development": [
+        "BAY2"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Terbiye/tamamlama klasik; rabbayâni ayrı r-b-w ailesi, ses/anlam yakınlığı kök özdeşliği değil.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P063",
+      "base_line": 63,
+      "claims": [
+        "Basmala rahmet–Rab–rahmet çerçevesi rahim→terbiye evine dönüştürülür; q-w-m ev idaresi; nimetli çocuk ve gh-y-r erzak/kıskançlık."
+      ],
+      "quran_refs": [
+        "1:3"
+      ],
+      "lexical_branches": [
+        "غ ي ر,B001",
+        "غ ي ر,B004",
+        "ق و م,B004",
+        "ن ع م,B002"
+      ],
+      "supporting_sources": [
+        {
+          "source": "TAB3",
+          "actually_checked_passage": "Taberî 1:3, metnin bütünü; besmeleyi Fatiha ayeti saymayan görüş ve tekrar tartışması; dipnot müellif değil editör."
+        },
+        {
+          "source": "BIQ1",
+          "actually_checked_passage": "Bikâî 1:1, ana metin satırlar 1–9; maksat, besmele ve sure düzeni. Kalan notların tamamı denetlenmedi."
+        },
+        {
+          "source": "BIQ3",
+          "actually_checked_passage": "Bikâî 1:3, sunulan 7 satırın bütünü; tekrarda anlam gelişimi."
+        },
+        {
+          "source": "M_RHM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, RHM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_RBB",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, RBB kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_GHYR",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, GHYR kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_QWM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, QWM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_NAAM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, NAAM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "TAB3",
+          "actually_checked_passage": "Taberî 1:3, metnin bütünü; besmeleyi Fatiha ayeti saymayan görüş ve tekrar tartışması; dipnot müellif değil editör."
+        },
+        {
+          "source": "M_GHYR",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, GHYR kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "early_attestation": [
+        "TAB3",
+        "M_RHM",
+        "M_RBB",
+        "M_GHYR",
+        "M_QWM",
+        "M_NAAM"
+      ],
+      "later_development": [
+        "BIQ1",
+        "BIQ3"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "building_blocks_only",
+      "assessment": "Besmele sayımı koşulu altında çifte rahmet nazmı; ghayr erzak/kıskançlık 1:7 farklılık aslına taşınamaz.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P065",
+      "base_line": 65,
+      "claims": [
+        "3:6 rahimler;4:1 akrabalık;4:23 üvey kızlar;17:23–24 ibadet, rahmet, alçalma ve büyütme birlikte."
+      ],
+      "quran_refs": [
+        "3:6",
+        "4:1",
+        "4:23",
+        "17:23",
+        "17:24"
+      ],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "M_RHM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, RHM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_RBB",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, RBB kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "M_RHM",
+        "M_RBB"
+      ],
+      "later_development": [],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "İbadet–annebaba–rahmet aynı pasajda açık; iki terbiye kökünü özdeşleştirmiyor.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P067",
+      "base_line": 67,
+      "claims": [
+        "Musa annesi/ev/ilahi göz altında yetişme; Firavunʿun büyütme iddiasının sınırı;3:79 rabbânî ve55:1–4 öğretme."
+      ],
+      "quran_refs": [
+        "3:79",
+        "20:39",
+        "26:18",
+        "28:7",
+        "28:10",
+        "28:12",
+        "28:13",
+        "55:1",
+        "55:2",
+        "55:3",
+        "55:4"
+      ],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "M_RBB",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, RBB kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "M_RBB"
+      ],
+      "later_development": [],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Musa’nın annesine dönüşü ve Firavun iddiası metinle doğrulandı; dramatik tek ev sahnesi projeye ait.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P073",
+      "base_line": 73,
+      "claims": [
+        "n-ʿ-m el/iyilik/tamamlama; Rabb nimeti ve sanîʿayı tamamlar."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [
+        "ر ب ب,B002",
+        "ر ب ب,B016",
+        "ن ع م,B001",
+        "ن ع م,B010"
+      ],
+      "supporting_sources": [
+        {
+          "source": "M_NAAM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, NAAM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "TAB2",
+          "actually_checked_passage": "Taberî 1:2, satırlar 1–11 ve 29–62; hamd, Rabb ve âlemler."
+        },
+        {
+          "source": "BAY2",
+          "actually_checked_passage": "Beyzâvî 1:2, sunulan 6 satırın bütünü; hamd–şükür, tedricî terbiye, âlem."
+        },
+        {
+          "source": "TAB7",
+          "actually_checked_passage": "Taberî 1:7, yerel 25.625 karakterlik metnin bütünü; 4:69, ghayr dilbilgisi, gazap görüşleri, Adiyy rivayeti ve iki grubun ortak kusurları."
+        },
+        {
+          "source": "BAY7",
+          "actually_checked_passage": "Beyzâvî 1:7, sunulan 18 satırın bütünü; iman/bağışlama nimeti, kusur tipleri, gazap."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "M_NAAM",
+        "TAB2",
+        "TAB7"
+      ],
+      "later_development": [
+        "BAY2",
+        "BAY7"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Genel lütuf ve Rabb’in tamamlama yorumu var; 1:7 nimetler dünyevi refahtan ziyade dini doğru yolla ayrılır.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P075",
+      "base_line": 75,
+      "claims": [
+        "Hamd–şükür kapsam iddiası; ahmedu ilayka nimet anlatımı; yetehammedu başa kakma."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [
+        "ح م د,B001",
+        "ح م د,B005",
+        "ح م د,B006"
+      ],
+      "supporting_sources": [
+        {
+          "source": "TAB2",
+          "actually_checked_passage": "Taberî 1:2, satırlar 1–11 ve 29–62; hamd, Rabb ve âlemler."
+        },
+        {
+          "source": "IK2",
+          "actually_checked_passage": "İbn Kesîr 1:2, 38 satırlık metnin bütünü; hamd–şükür boyutları, âlemler ve sayısal rivayetlere ihtiyat."
+        },
+        {
+          "source": "ZAM2",
+          "actually_checked_passage": "Zemahşerî 1:2, sunulan 8 satırın bütünü; hamd–şükür, Rabb ve âlem."
+        },
+        {
+          "source": "BAY2",
+          "actually_checked_passage": "Beyzâvî 1:2, sunulan 6 satırın bütünü; hamd–şükür, tedricî terbiye, âlem."
+        },
+        {
+          "source": "M_HMD",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, HMD kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "IK2",
+          "actually_checked_passage": "İbn Kesîr 1:2, 38 satırlık metnin bütünü; hamd–şükür boyutları, âlemler ve sayısal rivayetlere ihtiyat."
+        },
+        {
+          "source": "ZAM2",
+          "actually_checked_passage": "Zemahşerî 1:2, sunulan 8 satırın bütünü; hamd–şükür, Rabb ve âlem."
+        },
+        {
+          "source": "BAY2",
+          "actually_checked_passage": "Beyzâvî 1:2, sunulan 6 satırın bütünü; hamd–şükür, tedricî terbiye, âlem."
+        }
+      ],
+      "early_attestation": [
+        "TAB2",
+        "M_HMD"
+      ],
+      "later_development": [
+        "IK2",
+        "ZAM2",
+        "BAY2"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "explicit",
+      "assessment": "Hamd yalnız nimet için değildir, şükür beden/kalp/dil ile olabilir; kapsam tek boyutlu hiyerarşi olamaz.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P077",
+      "base_line": 77,
+      "claims": [
+        "Rahmet iyilik kaynağı; hamd nimet adı anılmadan önde; nimet yol nimeti ve tamamlanması yürüyüş."
+      ],
+      "quran_refs": [
+        "1:2",
+        "1:7"
+      ],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "TAB7",
+          "actually_checked_passage": "Taberî 1:7, yerel 25.625 karakterlik metnin bütünü; 4:69, ghayr dilbilgisi, gazap görüşleri, Adiyy rivayeti ve iki grubun ortak kusurları."
+        },
+        {
+          "source": "BIQ2",
+          "actually_checked_passage": "Bikâî 1:2, sunulan 13 satırın bütünü; hamd, malikiyet ve iyilik."
+        },
+        {
+          "source": "BIQ3",
+          "actually_checked_passage": "Bikâî 1:3, sunulan 7 satırın bütünü; tekrarda anlam gelişimi."
+        },
+        {
+          "source": "BIQ7",
+          "actually_checked_passage": "Bikâî 1:7, ana metin satırlar 1–8; yolculuk, vadiler/denizler, iyi yol ve iyi arkadaş, sure bütünü. 9–117 denetlenmedi."
+        },
+        {
+          "source": "H_M395",
+          "actually_checked_passage": "https://sunnah.com/muslim:395a Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 58–62; Sahîh Müslim koleksiyonu; ilişki direct_hadith_tafsir."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "TAB7"
+      ],
+      "later_development": [
+        "BIQ2",
+        "BIQ3",
+        "BIQ7"
+      ],
+      "hadith_relation": [
+        {
+          "source": "H_M395",
+          "relation": "direct_hadith_tafsir",
+          "grade": "sahih",
+          "grade_authority": "Sahîh Müslim koleksiyonu"
+        }
+      ],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Övgüden ihtiyaç duasına sıra klasik; nimetlerin tamamlama yolculuğu bir proje terkibi.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P079",
+      "base_line": 79,
+      "claims": [
+        "48:2,2:150,5:3,12:6,16:121 nimet/hidayet/tamamlama;93:11 anlatma;106:3–4;7:43,10:10 sonunda hamd;26:22 başa kakma."
+      ],
+      "quran_refs": [
+        "2:150",
+        "5:3",
+        "7:43",
+        "10:10",
+        "12:6",
+        "16:121",
+        "26:22",
+        "48:1",
+        "48:2",
+        "93:11",
+        "106:3",
+        "106:4"
+      ],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "TAB7",
+          "actually_checked_passage": "Taberî 1:7, yerel 25.625 karakterlik metnin bütünü; 4:69, ghayr dilbilgisi, gazap görüşleri, Adiyy rivayeti ve iki grubun ortak kusurları."
+        },
+        {
+          "source": "BAY7",
+          "actually_checked_passage": "Beyzâvî 1:7, sunulan 18 satırın bütünü; iman/bağışlama nimeti, kusur tipleri, gazap."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "TAB7"
+      ],
+      "later_development": [
+        "BAY7"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "explicit",
+      "assessment": "Nimet/hidayet/tamamlama intertekstleri mevcut; bağlamları iman, hac yönü, öğreti ve ahirette farklı.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P085",
+      "base_line": 85,
+      "claims": [
+        "1:7 üçlü sınıflama ve aleyhim; nimet aktif/gazap pasif; hamd–rıza/nimet–niʿma/gazap karşıtlıkları."
+      ],
+      "quran_refs": [
+        "1:7"
+      ],
+      "lexical_branches": [
+        "ح م د,B001",
+        "ح م د,B002",
+        "غ ض ب,B001",
+        "ن ع م,B003"
+      ],
+      "supporting_sources": [
+        {
+          "source": "TAB7",
+          "actually_checked_passage": "Taberî 1:7, yerel 25.625 karakterlik metnin bütünü; 4:69, ghayr dilbilgisi, gazap görüşleri, Adiyy rivayeti ve iki grubun ortak kusurları."
+        },
+        {
+          "source": "IK7",
+          "actually_checked_passage": "İbn Kesîr 1:7, satırlar 1–21; nimetliler, Adiyy, açıklayıcı farklı okuyuş, ahiret sıratı ve etkin nimet/pasif gazap. 22–31 denetlenmedi."
+        },
+        {
+          "source": "ZAM7",
+          "actually_checked_passage": "Zemahşerî 1:7, sunulan 12 satırın bütünü; tekrar/bedel, topluluk referentleri ve gazap yorumu."
+        },
+        {
+          "source": "BAY7",
+          "actually_checked_passage": "Beyzâvî 1:7, sunulan 18 satırın bütünü; iman/bağışlama nimeti, kusur tipleri, gazap."
+        },
+        {
+          "source": "H_T2954",
+          "actually_checked_passage": "https://sunnah.com/tirmidhi:2954 Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 58–64; Sayfada Darussalam; ilişki direct_hadith_tafsir."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "TAB7",
+          "actually_checked_passage": "Taberî 1:7, yerel 25.625 karakterlik metnin bütünü; 4:69, ghayr dilbilgisi, gazap görüşleri, Adiyy rivayeti ve iki grubun ortak kusurları."
+        },
+        {
+          "source": "IK7",
+          "actually_checked_passage": "İbn Kesîr 1:7, satırlar 1–21; nimetliler, Adiyy, açıklayıcı farklı okuyuş, ahiret sıratı ve etkin nimet/pasif gazap. 22–31 denetlenmedi."
+        }
+      ],
+      "early_attestation": [
+        "TAB7"
+      ],
+      "later_development": [
+        "IK7",
+        "ZAM7",
+        "BAY7"
+      ],
+      "hadith_relation": [
+        {
+          "source": "H_T2954",
+          "relation": "direct_hadith_tafsir",
+          "grade": "hasan",
+          "grade_authority": "Sayfada Darussalam"
+        }
+      ],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "explicit",
+      "assessment": "Etkin nimet/pasif gazap açık klasik; Yahudi/Hristiyan örneklemesi aktarılır, dondurulmuş etnik kelime tanımı değildir.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P087",
+      "base_line": 87,
+      "claims": [
+        "İnsan gazabının kan/kırmızı/asık/şiş yüz dalları; nimetin yumuşak/serin göz dalları karşılaştırılır."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [
+        "غ ض ب,B001",
+        "غ ض ب,B005",
+        "غ ض ب,B006",
+        "غ ض ب,B007",
+        "ن ع م,B002",
+        "ن ع م,B013"
+      ],
+      "supporting_sources": [
+        {
+          "source": "M_GHDB",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, GHDB kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_NAAM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, NAAM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "ZAM1",
+          "actually_checked_passage": "Zemahşerî 1:1, sunulan 16 satırın bütünü; sayım, fiil takdiri, ism, Allah ve rahmet/rahim."
+        },
+        {
+          "source": "BAY1",
+          "actually_checked_passage": "Beyzâvî 1:1, sunulan 20 satırın bütünü; sayım, Mekkî gerekçesi, ism etimolojileri ve rahmet."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "ZAM1",
+          "actually_checked_passage": "Zemahşerî 1:1, sunulan 16 satırın bütünü; sayım, fiil takdiri, ism, Allah ve rahmet/rahim."
+        },
+        {
+          "source": "BAY1",
+          "actually_checked_passage": "Beyzâvî 1:1, sunulan 20 satırın bütünü; sayım, Mekkî gerekçesi, ism etimolojileri ve rahmet."
+        }
+      ],
+      "early_attestation": [
+        "M_GHDB",
+        "M_NAAM"
+      ],
+      "later_development": [
+        "ZAM1",
+        "BAY1"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "building_blocks_only",
+      "assessment": "İnsani gazabın yüz/beden imgeleri; ilahi gazap sahibine aynı bedensel değişimi isnat etmez.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P089",
+      "base_line": 89,
+      "claims": [
+        "İki sonuç iki yüz diye kuruluyor; eyyâmullâh azap ve nimet günleri;14:5."
+      ],
+      "quran_refs": [
+        "14:5"
+      ],
+      "lexical_branches": [
+        "ي و م,B004"
+      ],
+      "supporting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "TAB7",
+          "actually_checked_passage": "Taberî 1:7, yerel 25.625 karakterlik metnin bütünü; 4:69, ghayr dilbilgisi, gazap görüşleri, Adiyy rivayeti ve iki grubun ortak kusurları."
+        },
+        {
+          "source": "IK7",
+          "actually_checked_passage": "İbn Kesîr 1:7, satırlar 1–21; nimetliler, Adiyy, açıklayıcı farklı okuyuş, ahiret sıratı ve etkin nimet/pasif gazap. 22–31 denetlenmedi."
+        },
+        {
+          "source": "M_GHDB",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, GHDB kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_NAAM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, NAAM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        }
+      ],
+      "early_attestation": [
+        "TAB7",
+        "M_GHDB",
+        "M_NAAM"
+      ],
+      "later_development": [
+        "IK7"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "building_blocks_only",
+      "assessment": "Öfkelenen öznenin kızarması gazaba uğrayanın kızarmasını gerektirmez; kıyamet yüzleri ayrı ayetlerden.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P091",
+      "base_line": 91,
+      "claims": [
+        "20:81–82 ve86 gazap inişi ve hidayet;7:152;5:60;3:162 rıza–gazap yürüyüşü."
+      ],
+      "quran_refs": [
+        "3:162",
+        "5:60",
+        "7:152",
+        "20:81",
+        "20:82",
+        "20:86"
+      ],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "TAB7",
+          "actually_checked_passage": "Taberî 1:7, yerel 25.625 karakterlik metnin bütünü; 4:69, ghayr dilbilgisi, gazap görüşleri, Adiyy rivayeti ve iki grubun ortak kusurları."
+        },
+        {
+          "source": "IK7",
+          "actually_checked_passage": "İbn Kesîr 1:7, satırlar 1–21; nimetliler, Adiyy, açıklayıcı farklı okuyuş, ahiret sıratı ve etkin nimet/pasif gazap. 22–31 denetlenmedi."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        }
+      ],
+      "early_attestation": [
+        "TAB7"
+      ],
+      "later_development": [
+        "IK7"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "20:81 iniş/çöküş açık; 1:7 alayhim grameri literal yukarıdan aşağı hareketi zorunlu kılmaz.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P093",
+      "base_line": 93,
+      "claims": [
+        "4:69 nimet sahipleri ve refik;19:58;88:2,8–9,83:24,80:38–41 yüzler; aleyhâ/alayhim benzeşimi."
+      ],
+      "quran_refs": [
+        "4:69",
+        "19:58",
+        "80:38",
+        "80:39",
+        "80:40",
+        "80:41",
+        "83:24",
+        "88:2",
+        "88:8",
+        "88:9"
+      ],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "TAB7",
+          "actually_checked_passage": "Taberî 1:7, yerel 25.625 karakterlik metnin bütünü; 4:69, ghayr dilbilgisi, gazap görüşleri, Adiyy rivayeti ve iki grubun ortak kusurları."
+        },
+        {
+          "source": "IK7",
+          "actually_checked_passage": "İbn Kesîr 1:7, satırlar 1–21; nimetliler, Adiyy, açıklayıcı farklı okuyuş, ahiret sıratı ve etkin nimet/pasif gazap. 22–31 denetlenmedi."
+        },
+        {
+          "source": "BIQ7",
+          "actually_checked_passage": "Bikâî 1:7, ana metin satırlar 1–8; yolculuk, vadiler/denizler, iyi yol ve iyi arkadaş, sure bütünü. 9–117 denetlenmedi."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "TAB7"
+      ],
+      "later_development": [
+        "IK7",
+        "BIQ7"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "explicit",
+      "assessment": "4:69 arkadaş/öncü ve nimet sahipleri açık; yüzleri yine ayrı eskatolojik pasajlar açıklıyor.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P099",
+      "base_line": 99,
+      "claims": [
+        "Bism/ism s-m-w yükselme; alternatif w-s-m damga; iz okuma; iki etimoloji tek işlem diye birleştirilir."
+      ],
+      "quran_refs": [
+        "1:1"
+      ],
+      "lexical_branches": [
+        "س م و,B001",
+        "س م و,B002",
+        "س م و,B005",
+        "س م و,B008",
+        "و س م,B001",
+        "و س م,B002"
+      ],
+      "supporting_sources": [
+        {
+          "source": "ZAM1",
+          "actually_checked_passage": "Zemahşerî 1:1, sunulan 16 satırın bütünü; sayım, fiil takdiri, ism, Allah ve rahmet/rahim."
+        },
+        {
+          "source": "BAY1",
+          "actually_checked_passage": "Beyzâvî 1:1, sunulan 20 satırın bütünü; sayım, Mekkî gerekçesi, ism etimolojileri ve rahmet."
+        },
+        {
+          "source": "M_SMW",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, SMW kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_WSM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, WSM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "BAY1",
+          "actually_checked_passage": "Beyzâvî 1:1, sunulan 20 satırın bütünü; sayım, Mekkî gerekçesi, ism etimolojileri ve rahmet."
+        }
+      ],
+      "early_attestation": [
+        "M_SMW",
+        "M_WSM"
+      ],
+      "later_development": [
+        "ZAM1",
+        "BAY1"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Basra sumuv/Kufe vesm rakip etimolojiler; Beyzâvî ikinciyi sarf bakımından reddeder. İkisini eşzamanlı kesin kök yapma.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P101",
+      "base_line": 101,
+      "claims": [
+        "ʿ-l-m iz/dağ/sancak/bilgi; âlem varlığı bildiren işaret; çoğulun kapsamı."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [
+        "ع ل م,B001",
+        "ع ل م,B002",
+        "ع ل م,B003"
+      ],
+      "supporting_sources": [
+        {
+          "source": "ZAM2",
+          "actually_checked_passage": "Zemahşerî 1:2, sunulan 8 satırın bütünü; hamd–şükür, Rabb ve âlem."
+        },
+        {
+          "source": "BAY2",
+          "actually_checked_passage": "Beyzâvî 1:2, sunulan 6 satırın bütünü; hamd–şükür, tedricî terbiye, âlem."
+        },
+        {
+          "source": "IK2",
+          "actually_checked_passage": "İbn Kesîr 1:2, 38 satırlık metnin bütünü; hamd–şükür boyutları, âlemler ve sayısal rivayetlere ihtiyat."
+        },
+        {
+          "source": "M_ALM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, ALM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "M_ALM"
+      ],
+      "later_development": [
+        "ZAM2",
+        "BAY2",
+        "IK2"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "explicit",
+      "assessment": "Âlemin yaratıcı işareti oluşu açık klasik; çoğulun kapsamı konusunda türler/akıllılar alternatifleri var.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P103",
+      "base_line": 103,
+      "claims": [
+        "Ad–âlem işaret çifti; Allah en büyük ad şeklindeki nakil; işin altına ad koyma sentezi."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [
+        "ء ل ه,B002"
+      ],
+      "supporting_sources": [
+        {
+          "source": "TAB1",
+          "actually_checked_passage": "Taberî 1:1, yerel metin satırları 22–26, 64–87, 91–109; 98. satır ortak rızık, bulut, yağmur, bitki."
+        },
+        {
+          "source": "ZAM1",
+          "actually_checked_passage": "Zemahşerî 1:1, sunulan 16 satırın bütünü; sayım, fiil takdiri, ism, Allah ve rahmet/rahim."
+        },
+        {
+          "source": "BAY1",
+          "actually_checked_passage": "Beyzâvî 1:1, sunulan 20 satırın bütünü; sayım, Mekkî gerekçesi, ism etimolojileri ve rahmet."
+        },
+        {
+          "source": "ZAM2",
+          "actually_checked_passage": "Zemahşerî 1:2, sunulan 8 satırın bütünü; hamd–şükür, Rabb ve âlem."
+        },
+        {
+          "source": "M_SMW",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, SMW kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_WSM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, WSM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_ALM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, ALM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "BAY1",
+          "actually_checked_passage": "Beyzâvî 1:1, sunulan 20 satırın bütünü; sayım, Mekkî gerekçesi, ism etimolojileri ve rahmet."
+        }
+      ],
+      "early_attestation": [
+        "TAB1",
+        "M_SMW",
+        "M_WSM",
+        "M_ALM"
+      ],
+      "later_development": [
+        "ZAM1",
+        "BAY1",
+        "ZAM2"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "building_blocks_only",
+      "assessment": "Ad/işaret karşılaştırması klasik malzeme; tüm çağrışımları isimde eşzamanlı anlam diye sunma. İsm-i a‘zam rivayeti derecelendirilmedi.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P105",
+      "base_line": 105,
+      "claims": [
+        "87:1,55:78,96:1,19:65 ad/yükseklik/kulluk/bilgi;17:110;25:60;12:40 ataların adları."
+      ],
+      "quran_refs": [
+        "12:40",
+        "17:110",
+        "19:64",
+        "19:65",
+        "25:60",
+        "55:78",
+        "87:1",
+        "96:1"
+      ],
+      "lexical_branches": [
+        "س م و,B005"
+      ],
+      "supporting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "ZAM1",
+          "actually_checked_passage": "Zemahşerî 1:1, sunulan 16 satırın bütünü; sayım, fiil takdiri, ism, Allah ve rahmet/rahim."
+        },
+        {
+          "source": "BAY1",
+          "actually_checked_passage": "Beyzâvî 1:1, sunulan 20 satırın bütünü; sayım, Mekkî gerekçesi, ism etimolojileri ve rahmet."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [],
+      "later_development": [
+        "ZAM1",
+        "BAY1"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Ad/yükseklik/çağrı ayetleri doğrudan; 12:40 adları reddeder, bu isim kelimesinin tüm dallarını onaylamaz.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P107",
+      "base_line": 107,
+      "claims": [
+        "27:29–30 mektup basmalası;11:41 gemi;2:31 Âdemʿin adları;15:75 ve68:16 vesm izleri."
+      ],
+      "quran_refs": [
+        "2:31",
+        "11:41",
+        "15:74",
+        "15:75",
+        "27:29",
+        "27:30",
+        "68:16"
+      ],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "TAB1",
+          "actually_checked_passage": "Taberî 1:1, yerel metin satırları 22–26, 64–87, 91–109; 98. satır ortak rızık, bulut, yağmur, bitki."
+        },
+        {
+          "source": "ZAM1",
+          "actually_checked_passage": "Zemahşerî 1:1, sunulan 16 satırın bütünü; sayım, fiil takdiri, ism, Allah ve rahmet/rahim."
+        },
+        {
+          "source": "M_WSM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, WSM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "TAB1",
+        "M_WSM"
+      ],
+      "later_development": [
+        "ZAM1"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Basmala iş başında ve mektupta açık; vesm örnekleri alternatif etimolojinin katı ispatı değil.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P113",
+      "base_line": 113,
+      "claims": [
+        "Yevm güneşli gün; q-w-m öğle/gündüz terazisi; s-m-w hilal/semâ; n-ʿ-m Ay konağı; âlem felek."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [
+        "س م و,B002",
+        "س م و,B004",
+        "ع ل م,B003",
+        "ق و م,B017",
+        "ن ع م,B007",
+        "ي و م,B001"
+      ],
+      "supporting_sources": [
+        {
+          "source": "M_YWM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, YWM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_SMW",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, SMW kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_NAAM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, NAAM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_ALM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, ALM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "PKT",
+          "actually_checked_passage": "Projenin sözlük paketi: dictionary.md q-w-m satırları 341–394 tamamen okundu; diğer seçilmiş dallar base/ledger ile denetlendi. Bu kayıt, başvurulan antik kitapların tüm maddelerinin bağımsız kontrol edildiği anlamına gelmez."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "M_YWM",
+        "M_SMW",
+        "M_NAAM",
+        "M_ALM"
+      ],
+      "later_development": [],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "building_blocks_only",
+      "assessment": "Gök/hilal/işaret malzemesi; q-w-m öğle ve eksiksiz sıfır gölge bağıntısı asıl kitaptan bağımsız denetlenmedi.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P115",
+      "base_line": 115,
+      "claims": [
+        "Öğlen gölgesizliği ve yol düzlüğü; ilâhe güneşin adı ve ibadetin ondan ayrılması."
+      ],
+      "quran_refs": [
+        "1:5"
+      ],
+      "lexical_branches": [
+        "ء ل ه,B001"
+      ],
+      "supporting_sources": [
+        {
+          "source": "PKT",
+          "actually_checked_passage": "Projenin sözlük paketi: dictionary.md q-w-m satırları 341–394 tamamen okundu; diğer seçilmiş dallar base/ledger ile denetlendi. Bu kayıt, başvurulan antik kitapların tüm maddelerinin bağımsız kontrol edildiği anlamına gelmez."
+        },
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "ZAM1",
+          "actually_checked_passage": "Zemahşerî 1:1, sunulan 16 satırın bütünü; sayım, fiil takdiri, ism, Allah ve rahmet/rahim."
+        },
+        {
+          "source": "BAY1",
+          "actually_checked_passage": "Beyzâvî 1:1, sunulan 20 satırın bütünü; sayım, Mekkî gerekçesi, ism etimolojileri ve rahmet."
+        },
+        {
+          "source": "M_ALH",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, ALH kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "PKT",
+          "actually_checked_passage": "Projenin sözlük paketi: dictionary.md q-w-m satırları 341–394 tamamen okundu; diğer seçilmiş dallar base/ledger ile denetlendi. Bu kayıt, başvurulan antik kitapların tüm maddelerinin bağımsız kontrol edildiği anlamına gelmez."
+        }
+      ],
+      "early_attestation": [
+        "M_ALH"
+      ],
+      "later_development": [
+        "ZAM1",
+        "BAY1"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "not_checked",
+      "assessment": "Paket kaada gölge için yaklaşık söyleyiş; her öğlen/yerde gölgesizlik çıkmaz. Güneş adı Mekâyîs a-l-h tam maddesinde doğrulandı; bunun bütün Fatiha gök/terazi terkibi için kaynak taraması yapılmadı.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P117",
+      "base_line": 117,
+      "claims": [
+        "41:37 güneş/ay secdesi yasağı;6:75–79 İbrahimʿin sözleri ve hidayet;27:23–24;10:5,2:189 hesap;18:17."
+      ],
+      "quran_refs": [
+        "2:189",
+        "6:76",
+        "6:77",
+        "6:79",
+        "10:5",
+        "18:17",
+        "27:23",
+        "27:24",
+        "41:37"
+      ],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "IK676",
+          "actually_checked_passage": "İbn Kesîr 6:76, web metninin bütünü; kaybolmayan ve sürekli Rabb gerekçesi."
+        },
+        {
+          "source": "IK679",
+          "actually_checked_passage": "İbn Kesîr 6:79, web 19–28; nazar/araştırma ile münazara yorumlarının ayrımı ve münazara tercihi."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "IK679",
+          "actually_checked_passage": "İbn Kesîr 6:79, web 19–28; nazar/araştırma ile münazara yorumlarının ayrımı ve münazara tercihi."
+        }
+      ],
+      "early_attestation": [],
+      "later_development": [
+        "IK676",
+        "IK679"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "İbrahim nazar/münazara ihtilafı var; bu kesin tarihsel çoktanrıcılık evresi diye kurulamaz.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P123",
+      "base_line": 123,
+      "claims": [
+        "Rabb bulut/kalma; n-ʿ-m güney rüzgârı; s-m-w yağmur/bitki; w-s-m ilk yağmur izi."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [
+        "ر ب ب,B007",
+        "ر ب ب,B008",
+        "س م و,B004",
+        "ن ع م,B009",
+        "و س م,B003"
+      ],
+      "supporting_sources": [
+        {
+          "source": "TAB1",
+          "actually_checked_passage": "Taberî 1:1, yerel metin satırları 22–26, 64–87, 91–109; 98. satır ortak rızık, bulut, yağmur, bitki."
+        },
+        {
+          "source": "M_RBB",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, RBB kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_SMW",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, SMW kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_WSM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, WSM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_NAAM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, NAAM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "TAB1",
+        "M_RBB",
+        "M_SMW",
+        "M_WSM",
+        "M_NAAM"
+      ],
+      "later_development": [],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Taberî Rahman/Rahim yorumunda bulut–yağmur–bitki–ortak rızkı zaten birlikte anar.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P125",
+      "base_line": 125,
+      "claims": [
+        "Rabb yazın solmayan ot/bol su; gh-y-r yağmurla düzeltme/sulama; n-ʿ-m taze hayat; hamd beğenilen toprak."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [
+        "ح م د,B002",
+        "ر ب ب,B012",
+        "ر ب ب,B013",
+        "غ ي ر,B001",
+        "ن ع م,B002"
+      ],
+      "supporting_sources": [
+        {
+          "source": "TAB1",
+          "actually_checked_passage": "Taberî 1:1, yerel metin satırları 22–26, 64–87, 91–109; 98. satır ortak rızık, bulut, yağmur, bitki."
+        },
+        {
+          "source": "M_RBB",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, RBB kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_GHYR",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, GHYR kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_NAAM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, NAAM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_HMD",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, HMD kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "M_GHYR",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, GHYR kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "early_attestation": [
+        "TAB1",
+        "M_RBB",
+        "M_GHYR",
+        "M_NAAM",
+        "M_HMD"
+      ],
+      "later_development": [],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Yağmur/bitki klasik öncül; ghayr ilk aslı ile 1:7 ikinci aslı ayrıdır. H-m-d toprak dalı paket düzeyindedir.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P127",
+      "base_line": 127,
+      "claims": [
+        "ʿaylam kuyu; naʿâma kiriş; qâma makara; malik/melk yolcu suyu ve su kralları; qiwâm–milâk."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [
+        "ع ل م,B005",
+        "ق و م,B009",
+        "ق و م,B012",
+        "م ل ك,B007",
+        "ن ع م,B007"
+      ],
+      "supporting_sources": [
+        {
+          "source": "M_ALM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, ALM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_NAAM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, NAAM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_MLK",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, MLK kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_QWM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, QWM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "THD3_10",
+          "actually_checked_passage": "Ezherî Tehzîb, ABL cilt 3, s.10; sunulan ana metnin tamamı: iyilik/tamamlama, nimetli çocuk, güney rüzgârı, kuyu kirişleri ve qâma = makara; matbu kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "M_ALM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, ALM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "early_attestation": [
+        "M_ALM",
+        "M_NAAM",
+        "M_MLK",
+        "M_QWM"
+      ],
+      "later_development": [],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "building_blocks_only",
+      "assessment": "Mekâyîs ay̆lam için alternatif toplama etimolojisini mümkün sayar; Tehzîb kuyu kiriş/makara maddi terimlerini doğrular; Fatiha bağlamı bunları söylemez.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P129",
+      "base_line": 129,
+      "claims": [
+        "Rab/bitkiyi büyüten bulut ve mustaqîm/makara Fatihaʿya eklenir; susuz kalmayan yolcu sentezi."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "TAB1",
+          "actually_checked_passage": "Taberî 1:1, yerel metin satırları 22–26, 64–87, 91–109; 98. satır ortak rızık, bulut, yağmur, bitki."
+        },
+        {
+          "source": "DUR4",
+          "actually_checked_passage": "Süyûtî 1:4, sunulan 22 satırın bütünü; çelişen okuyuş nispetleri, hesap ve Âişe yağmur duası; Ebû Dâvûd 1173 ayrıca asıl yerinden doğrulandı."
+        },
+        {
+          "source": "H_AD1173",
+          "actually_checked_passage": "https://sunnah.com/abudawud:1173 Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 64–75; Sayfada Elbânî: hasen; müellif: isnâduhu ceyyid; ilişki thematic."
+        },
+        {
+          "source": "M_RBB",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, RBB kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_MLK",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, MLK kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_NAAM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, NAAM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "THD3_10",
+          "actually_checked_passage": "Ezherî Tehzîb, ABL cilt 3, s.10; sunulan ana metnin tamamı: iyilik/tamamlama, nimetli çocuk, güney rüzgârı, kuyu kirişleri ve qâma = makara; matbu kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "TAB1",
+        "M_RBB",
+        "M_MLK",
+        "M_NAAM"
+      ],
+      "later_development": [
+        "DUR4"
+      ],
+      "hadith_relation": [
+        {
+          "source": "H_AD1173",
+          "relation": "thematic",
+          "grade": "hasan",
+          "grade_authority": "Sayfada Elbânî: hasen; müellif: isnâduhu ceyyid"
+        }
+      ],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Rahmet/rızık ve yağmur duası öncülleri var; susuz yolcu/kuyu makarasının Fatiha terkibi için tam klasik arama yapılmadı.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P131",
+      "base_line": 131,
+      "claims": [
+        "42:28 yağmur/rahmet/hamd;7:57 rahmet/diriliş;30:48–50 iz;80:24–32 besin;32:27 çorak toprak."
+      ],
+      "quran_refs": [
+        "7:57",
+        "30:48",
+        "30:50",
+        "32:27",
+        "42:28",
+        "80:24",
+        "80:25",
+        "80:32"
+      ],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "TAB1",
+          "actually_checked_passage": "Taberî 1:1, yerel metin satırları 22–26, 64–87, 91–109; 98. satır ortak rızık, bulut, yağmur, bitki."
+        },
+        {
+          "source": "H_AD1173",
+          "actually_checked_passage": "https://sunnah.com/abudawud:1173 Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 64–75; Sayfada Elbânî: hasen; müellif: isnâduhu ceyyid; ilişki thematic."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "TAB1"
+      ],
+      "later_development": [],
+      "hadith_relation": [
+        {
+          "source": "H_AD1173",
+          "relation": "thematic",
+          "grade": "hasan",
+          "grade_authority": "Sayfada Elbânî: hasen; müellif: isnâduhu ceyyid"
+        }
+      ],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "explicit",
+      "assessment": "Yağmur, rahmet, hamd ve diriliş aynı seçilen ayetlerde açık; Fatihanın tüm sözlerini yağmura çevirmiyor.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P133",
+      "base_line": 133,
+      "claims": [
+        "28:22–24 Musa yol/su/gölge;12:10,19 Yusuf kuyusu;67:30 su kaybı;26:78–79 yaratma/hidayet/su."
+      ],
+      "quran_refs": [
+        "12:10",
+        "12:19",
+        "26:78",
+        "26:79",
+        "28:22",
+        "28:23",
+        "28:24",
+        "67:30"
+      ],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "THD3_10",
+          "actually_checked_passage": "Ezherî Tehzîb, ABL cilt 3, s.10; sunulan ana metnin tamamı: iyilik/tamamlama, nimetli çocuk, güney rüzgârı, kuyu kirişleri ve qâma = makara; matbu kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_MLK",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, MLK kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        }
+      ],
+      "early_attestation": [
+        "M_MLK"
+      ],
+      "later_development": [],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Medyen ayeti su yerini söyler, qâma/naama makara düzenini veya Musa’nın kullanmasını söylemez.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P139",
+      "base_line": 139,
+      "claims": [
+        "Sürü Rabb/mâlik; enʿâm; damga/taranmış deve; milk/hâdî öncü ve boyun; merabb/otlak."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [
+        "ح م د,B002",
+        "ر ب ب,B001",
+        "ر ب ب,B007",
+        "ع ب د,B005",
+        "م ل ك,B008",
+        "ن ع م,B005",
+        "ه د ي,B003",
+        "و س م,B001"
+      ],
+      "supporting_sources": [
+        {
+          "source": "M_RBB",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, RBB kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_MLK",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, MLK kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_NAAM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, NAAM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_WSM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, WSM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_HDY",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, HDY kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "BAY6",
+          "actually_checked_passage": "Beyzâvî 1:6, sunulan 8 satırın bütünü; sürü öncüleri, dört hidayet düzeyi, yutma kökeni."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "M_RBB",
+        "M_MLK",
+        "M_NAAM",
+        "M_WSM",
+        "M_HDY"
+      ],
+      "later_development": [
+        "BAY6"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Sürü öncüsü Bayzavi hidayet açıklamasında açık; geniş damga/süt/mera birleşimi ayrı sözlük malzemesi.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P141",
+      "base_line": 141,
+      "claims": [
+        "Dâlle sahibi bilinmeyen deve, kopuş; Rabb–mâlik tanımlarda; rabrab ve âne yabani sürüler."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [
+        "ر ب ب,B014",
+        "ض ل ل,B003",
+        "ض ل ل,B005",
+        "ع و ن,B006"
+      ],
+      "supporting_sources": [
+        {
+          "source": "M_DLL",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, DLL kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_RBB",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, RBB kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_NAAM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, NAAM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "H_M2747",
+          "actually_checked_passage": "https://sunnah.com/muslim:2747a Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 58–61; Sahîh Müslim koleksiyonu; ilişki thematic."
+        },
+        {
+          "source": "PKT",
+          "actually_checked_passage": "Projenin sözlük paketi: dictionary.md q-w-m satırları 341–394 tamamen okundu; diğer seçilmiş dallar base/ledger ile denetlendi. Bu kayıt, başvurulan antik kitapların tüm maddelerinin bağımsız kontrol edildiği anlamına gelmez."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "M_RBB",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, RBB kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "early_attestation": [
+        "M_DLL",
+        "M_RBB",
+        "M_NAAM"
+      ],
+      "later_development": [],
+      "hadith_relation": [
+        {
+          "source": "H_M2747",
+          "relation": "thematic",
+          "grade": "sahih",
+          "grade_authority": "Sahîh Müslim koleksiyonu"
+        }
+      ],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "building_blocks_only",
+      "assessment": "Rabrab Mekâyîs’te istisna/belirsiz kıyas; kayıp deve temsili sahih tövbe hadisinde, doğrudan Fatiha tefsiri değil.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P143",
+      "base_line": 143,
+      "claims": [
+        "İhdinâ sürü öncüsü ardında yürümek olarak görselleştirilir; dâllîn sahibinden kopmuş hayvan."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "BAY6",
+          "actually_checked_passage": "Beyzâvî 1:6, sunulan 8 satırın bütünü; sürü öncüleri, dört hidayet düzeyi, yutma kökeni."
+        },
+        {
+          "source": "M_HDY",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, HDY kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_DLL",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, DLL kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "TAB6",
+          "actually_checked_passage": "Taberî 1:6, ana tefsir pasajının bütünü; sebat/tevfik; açık yol; İslam/Kur’an yorumları; gelin/hediye/ahiret yorumunu aktarıp birincil anlam olarak reddetmesi. Dipnotların tamamı denetlenmedi."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "TAB6",
+          "actually_checked_passage": "Taberî 1:6, ana tefsir pasajının bütünü; sebat/tevfik; açık yol; İslam/Kur’an yorumları; gelin/hediye/ahiret yorumunu aktarıp birincil anlam olarak reddetmesi. Dipnotların tamamı denetlenmedi."
+        }
+      ],
+      "early_attestation": [
+        "M_HDY",
+        "M_DLL",
+        "TAB6"
+      ],
+      "later_development": [
+        "BAY6"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "İhdina sürü öncülüğü kısmi klasik öncüllü; dâllin bağlamda dini sapma, ayette deve yok.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P145",
+      "base_line": 145,
+      "claims": [
+        "16:5–9 hayvanlardan yola geçiş;36:71–72;7:179,25:44 daha sapmış insan; hayvan sahibini tanır çıkarımı."
+      ],
+      "quran_refs": [
+        "7:179",
+        "16:5",
+        "16:6",
+        "16:7",
+        "16:9",
+        "25:44",
+        "36:71",
+        "36:72"
+      ],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "BAY6",
+          "actually_checked_passage": "Beyzâvî 1:6, sunulan 8 satırın bütünü; sürü öncüleri, dört hidayet düzeyi, yutma kökeni."
+        },
+        {
+          "source": "M_HDY",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, HDY kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        }
+      ],
+      "early_attestation": [
+        "M_HDY"
+      ],
+      "later_development": [
+        "BAY6"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "16:5–9 sürüden yol sözüne geçer; 7:179 sebebi anlama/görme/işitme, sahibi tanıma kıyasını açık söylemez.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P151",
+      "base_line": 151,
+      "claims": [
+        "ʿ-b-d yolda kalma; q-w-m bineğin durması; h-d-y güçsüz/yaslanarak sallanma ve ihdinâ bağlantısı."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [
+        "ع ب د,B011",
+        "ق و م,B016",
+        "ه د ي,B008",
+        "ه د ي,B009"
+      ],
+      "supporting_sources": [
+        {
+          "source": "M_HDY",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, HDY kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_ABD",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, ABD kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_QWM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, QWM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "PKT",
+          "actually_checked_passage": "Projenin sözlük paketi: dictionary.md q-w-m satırları 341–394 tamamen okundu; diğer seçilmiş dallar base/ledger ile denetlendi. Bu kayıt, başvurulan antik kitapların tüm maddelerinin bağımsız kontrol edildiği anlamına gelmez."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "M_ABD",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, ABD kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_HDY",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, HDY kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "early_attestation": [
+        "M_HDY",
+        "M_ABD",
+        "M_QWM"
+      ],
+      "later_development": [],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "building_blocks_only",
+      "assessment": "Mekâyîs h-d-y iki yardımcı arasına yaslanma örneği var; h-d-ʾ/h-d-d ayrı kök. Bineğin durması ayağa kalkmayla aynı hareket değil.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P153",
+      "base_line": 153,
+      "claims": [
+        "nastaʿîn talebüʿl-avn; q-w-m doğrulma/destek; hedy iyi yürüyüş; m-l-k duvar/kalp; ʿabada güç ayrı çekirdek."
+      ],
+      "quran_refs": [
+        "1:5"
+      ],
+      "lexical_branches": [
+        "ع ب د,B007",
+        "ع و ن,B001",
+        "ق و م,B002",
+        "ق و م,B009",
+        "م ل ك,B001",
+        "م ل ك,B005",
+        "ه د ي,B010"
+      ],
+      "supporting_sources": [
+        {
+          "source": "TAB5",
+          "actually_checked_passage": "Taberî 1:5, satırlar 1–32; kulluk, çiğnenmiş yol, uysal binek, yardım ve zamir düzeni."
+        },
+        {
+          "source": "BAY5",
+          "actually_checked_passage": "Beyzâvî 1:5, sunulan 11 satırın bütünü; yol/kumaş, iltifat/çoğul, gerekli/isteğe bağlı yardım ve binek örneği."
+        },
+        {
+          "source": "ZAM5",
+          "actually_checked_passage": "Zemahşerî 1:5, sunulan 8 satırın bütünü; koyu/dokulu kumaş örneği, hasr, iltifat, ibadet→yardım→hidayet."
+        },
+        {
+          "source": "M_ABD",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, ABD kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_QWM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, QWM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_MLK",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, MLK kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_HDY",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, HDY kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "M_ABD",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, ABD kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "early_attestation": [
+        "TAB5",
+        "M_ABD",
+        "M_QWM",
+        "M_MLK",
+        "M_HDY"
+      ],
+      "later_development": [
+        "BAY5",
+        "ZAM5"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Yardımın sebep/potansiyel/binek düzeyi klasik; ʿabd kuvvet aslı itaat aslından ayrı.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P155",
+      "base_line": 155,
+      "claims": [
+        "1:5→6 yardım→yol ilişkisi; beden/omuz/dik duruş; duası yorgun binekli yolcu diye sentezlenir."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "TAB5",
+          "actually_checked_passage": "Taberî 1:5, satırlar 1–32; kulluk, çiğnenmiş yol, uysal binek, yardım ve zamir düzeni."
+        },
+        {
+          "source": "TAB6",
+          "actually_checked_passage": "Taberî 1:6, ana tefsir pasajının bütünü; sebat/tevfik; açık yol; İslam/Kur’an yorumları; gelin/hediye/ahiret yorumunu aktarıp birincil anlam olarak reddetmesi. Dipnotların tamamı denetlenmedi."
+        },
+        {
+          "source": "ZAM5",
+          "actually_checked_passage": "Zemahşerî 1:5, sunulan 8 satırın bütünü; koyu/dokulu kumaş örneği, hasr, iltifat, ibadet→yardım→hidayet."
+        },
+        {
+          "source": "ZAM6",
+          "actually_checked_passage": "Zemahşerî 1:6, sunulan 3 satırın bütünü; devam/artış, yutma mecazı, s/ṣ/işmam."
+        },
+        {
+          "source": "BAY5",
+          "actually_checked_passage": "Beyzâvî 1:5, sunulan 11 satırın bütünü; yol/kumaş, iltifat/çoğul, gerekli/isteğe bağlı yardım ve binek örneği."
+        },
+        {
+          "source": "BAY6",
+          "actually_checked_passage": "Beyzâvî 1:6, sunulan 8 satırın bütünü; sürü öncüleri, dört hidayet düzeyi, yutma kökeni."
+        },
+        {
+          "source": "M_HDY",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, HDY kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "TAB5",
+        "TAB6",
+        "M_HDY"
+      ],
+      "later_development": [
+        "ZAM5",
+        "ZAM6",
+        "BAY5",
+        "BAY6"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Yardım→hidayet sırası klasik açıklanır; yorgun yolcunun omuzla doğrultulması proje terkibi.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P157",
+      "base_line": 157,
+      "claims": [
+        "18:77 duvar;18:95 güçle yardım;12:18 ve21:112;7:128,2:45,5:2;67:22 ve25:63 yürüyüş karşılaştırması."
+      ],
+      "quran_refs": [
+        "2:45",
+        "5:2",
+        "7:128",
+        "12:18",
+        "18:65",
+        "18:77",
+        "18:94",
+        "18:95",
+        "21:112",
+        "25:63",
+        "67:22"
+      ],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "M_QWM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, QWM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_MLK",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, MLK kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "M_QWM",
+        "M_MLK"
+      ],
+      "later_development": [],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Duvarı doğrultma/güçle yardım/aşağı yüzüyle yürüme ayrı kıssalar, ortak anatomik Fatiha anlamı değil.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P163",
+      "base_line": 163,
+      "claims": [
+        "Sırat s-r-ṭ yutma/gözden kaybolma; dalâl gizlenme/gömülme/sütte kayıp/unutan hafıza."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [
+        "ص ر ط,B001",
+        "ص ر ط,B002",
+        "ض ل ل,B002",
+        "ض ل ل,B003",
+        "ض ل ل,B004"
+      ],
+      "supporting_sources": [
+        {
+          "source": "M_SRT",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, SRT kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_DLL",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, DLL kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "ZAM6",
+          "actually_checked_passage": "Zemahşerî 1:6, sunulan 3 satırın bütünü; devam/artış, yutma mecazı, s/ṣ/işmam."
+        },
+        {
+          "source": "BAY6",
+          "actually_checked_passage": "Beyzâvî 1:6, sunulan 8 satırın bütünü; sürü öncüleri, dört hidayet düzeyi, yutma kökeni."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "M_SRT",
+        "M_DLL"
+      ],
+      "later_development": [
+        "ZAM6",
+        "BAY6"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Yolu yutma ve yolcuda gözden kaybolma ayrı klasik açıklamalar; süt/kayıp/burial d-l-l diğer bağlamlar.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P165",
+      "base_line": 165,
+      "claims": [
+        "Yönü olan ve varışsız iki kayboluşun 1:6–7 karşılaştırması."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "M_SRT",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, SRT kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_DLL",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, DLL kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "TAB6",
+          "actually_checked_passage": "Taberî 1:6, ana tefsir pasajının bütünü; sebat/tevfik; açık yol; İslam/Kur’an yorumları; gelin/hediye/ahiret yorumunu aktarıp birincil anlam olarak reddetmesi. Dipnotların tamamı denetlenmedi."
+        },
+        {
+          "source": "IK6",
+          "actually_checked_passage": "İbn Kesîr 1:6, 23 satırın bütünü; irşat/tevfik, yol yorumları, Nevvâs temsili, devam eden hidayet."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "M_SRT",
+        "M_DLL",
+        "TAB6"
+      ],
+      "later_development": [
+        "IK6"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "building_blocks_only",
+      "assessment": "İki kayboluşun biri varışlı diye karşıt sahne yapılması proje; Fatiha dua olarak hak yola yönelmeyi ister.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P167",
+      "base_line": 167,
+      "claims": [
+        "32:10 ölüm/diriliş;6:24 ortak kaybı;82:16 kaybolamama;20:52 Allahʿın kaybetmemesi;Yusuf kayıp ve36:66 kör yol."
+      ],
+      "quran_refs": [
+        "6:22",
+        "6:24",
+        "12:10",
+        "20:51",
+        "20:52",
+        "32:10",
+        "36:66",
+        "82:16"
+      ],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "M_DLL",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, DLL kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "TAB6",
+          "actually_checked_passage": "Taberî 1:6, ana tefsir pasajının bütünü; sebat/tevfik; açık yol; İslam/Kur’an yorumları; gelin/hediye/ahiret yorumunu aktarıp birincil anlam olarak reddetmesi. Dipnotların tamamı denetlenmedi."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "M_DLL",
+        "TAB6"
+      ],
+      "later_development": [],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "32:10 ölüm/diriliş inkârı ve 20:52 ilahi bilgiden kayıp ayrı bağlam; dâllin lafzıyla tek ahlaki anlam değildir.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P173",
+      "base_line": 173,
+      "claims": [
+        "H-d-y kurbanlık/Harem/varış/kurbet; enʿâm/uysallaştırma; ad/yükselme; vesm/hac mevsimi."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [
+        "س م و,B005",
+        "ع ب د,B003",
+        "ع ب د,B005",
+        "ن ع م,B005",
+        "ه د ي,B005",
+        "و س م,B004"
+      ],
+      "supporting_sources": [
+        {
+          "source": "M_HDY",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, HDY kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_NAAM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, NAAM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_WSM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, WSM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "M_HDY",
+        "M_NAAM",
+        "M_WSM"
+      ],
+      "later_development": [],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Kurbanlık sevki Mekâyîs dostça gönderme aslı ve Hac ayetleri; bu bütün hidayetin sözlükte Harem’e taşıma anlamında olduğu demek değil.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P175",
+      "base_line": 175,
+      "claims": [
+        "H-d-y gelin eve/hediye dosta/sığınan koruma; m-l-k nikâh; Rabb/ribâbe ahit."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [
+        "ر ب ب,B011",
+        "م ل ك,B004",
+        "ه د ي,B004",
+        "ه د ي,B006",
+        "ه د ي,B007"
+      ],
+      "supporting_sources": [
+        {
+          "source": "M_HDY",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, HDY kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_MLK",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, MLK kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_RBB",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, RBB kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "TAB6",
+          "actually_checked_passage": "Taberî 1:6, ana tefsir pasajının bütünü; sebat/tevfik; açık yol; İslam/Kur’an yorumları; gelin/hediye/ahiret yorumunu aktarıp birincil anlam olarak reddetmesi. Dipnotların tamamı denetlenmedi."
+        },
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "TAB6",
+          "actually_checked_passage": "Taberî 1:6, ana tefsir pasajının bütünü; sebat/tevfik; açık yol; İslam/Kur’an yorumları; gelin/hediye/ahiret yorumunu aktarıp birincil anlam olarak reddetmesi. Dipnotların tamamı denetlenmedi."
+        }
+      ],
+      "early_attestation": [
+        "M_HDY",
+        "M_MLK",
+        "M_RBB",
+        "TAB6"
+      ],
+      "later_development": [],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Gelin/hediye Taberî’de doğrudan tartışılıp birincil Fatiha anlamı reddedilir; güvenli yere ulaştırma 9:6 ayrı lafızdır.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P177",
+      "base_line": 177,
+      "claims": [
+        "Hidayet bütün dört götürüşü eve varış şeklinde birleştirir; düz mealin varışsız olduğu iddiası."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [
+        "ه د ي,B001"
+      ],
+      "supporting_sources": [
+        {
+          "source": "TAB6",
+          "actually_checked_passage": "Taberî 1:6, ana tefsir pasajının bütünü; sebat/tevfik; açık yol; İslam/Kur’an yorumları; gelin/hediye/ahiret yorumunu aktarıp birincil anlam olarak reddetmesi. Dipnotların tamamı denetlenmedi."
+        },
+        {
+          "source": "IK7",
+          "actually_checked_passage": "İbn Kesîr 1:7, satırlar 1–21; nimetliler, Adiyy, açıklayıcı farklı okuyuş, ahiret sıratı ve etkin nimet/pasif gazap. 22–31 denetlenmedi."
+        },
+        {
+          "source": "M_HDY",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, HDY kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "TAB6",
+          "actually_checked_passage": "Taberî 1:6, ana tefsir pasajının bütünü; sebat/tevfik; açık yol; İslam/Kur’an yorumları; gelin/hediye/ahiret yorumunu aktarıp birincil anlam olarak reddetmesi. Dipnotların tamamı denetlenmedi."
+        }
+      ],
+      "early_attestation": [
+        "TAB6",
+        "M_HDY"
+      ],
+      "later_development": [
+        "IK7"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Eve/cennete varış önerisinin klasik öncülü var ve Taberî onu reddeder. İbn Kesîr dini hidayet→ahiret sıratı bağlantısı yapar. Türkçe yöneltme varışı zorunlu olarak dışlamaz.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P179",
+      "base_line": 179,
+      "claims": [
+        "22:33–37 ad/kurbanlık/hidayet;2:196,5:95,48:25,5:2;9:6 güvene ulaştırma;27:35–36 hediye;6:118."
+      ],
+      "quran_refs": [
+        "2:196",
+        "5:2",
+        "5:95",
+        "6:118",
+        "9:6",
+        "22:33",
+        "22:34",
+        "22:36",
+        "22:37",
+        "27:35",
+        "27:36",
+        "48:25"
+      ],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "M_HDY",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, HDY kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "TAB6",
+          "actually_checked_passage": "Taberî 1:6, ana tefsir pasajının bütünü; sebat/tevfik; açık yol; İslam/Kur’an yorumları; gelin/hediye/ahiret yorumunu aktarıp birincil anlam olarak reddetmesi. Dipnotların tamamı denetlenmedi."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        }
+      ],
+      "early_attestation": [
+        "M_HDY",
+        "TAB6"
+      ],
+      "later_development": [],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Hediye reddinin açık gerekçesi ilahi nimetin üstünlüğü; rakip/dost psikolojisi ek çıkarım. Bütün kurban ve hediye yolları tek ev olamaz.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P185",
+      "base_line": 185,
+      "claims": [
+        "Kulluk ve yol aynılaştırılır; müzellel deve/yol;36:61."
+      ],
+      "quran_refs": [
+        "36:61"
+      ],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "TAB5",
+          "actually_checked_passage": "Taberî 1:5, satırlar 1–32; kulluk, çiğnenmiş yol, uysal binek, yardım ve zamir düzeni."
+        },
+        {
+          "source": "IK5",
+          "actually_checked_passage": "İbn Kesîr 1:5, 12 satırın bütünü; yol/deve, hasr, iltifat, cemaat ve yardım."
+        },
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "M_ABD",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, ABD kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "TAB5",
+        "M_ABD"
+      ],
+      "later_development": [
+        "IK5"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "explicit",
+      "assessment": "Kulluk–yol açık klasik ve 36:61 doğrudan ayet; sonraki ağların tümünü onaylamıyor.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P187",
+      "base_line": 187,
+      "claims": [
+        "Sürü/yol kayıp deveyle;16:9 ikinci Türkçe gloss farkı;kurbanlık/ad/uysallaştırma/hidayet."
+      ],
+      "quran_refs": [
+        "16:9",
+        "22:37"
+      ],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "BAY6",
+          "actually_checked_passage": "Beyzâvî 1:6, sunulan 8 satırın bütünü; sürü öncüleri, dört hidayet düzeyi, yutma kökeni."
+        },
+        {
+          "source": "M_HDY",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, HDY kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_NAAM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, NAAM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        }
+      ],
+      "early_attestation": [
+        "M_HDY",
+        "M_NAAM"
+      ],
+      "later_development": [
+        "BAY6"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Sürü/yol/kurban birlikte proje, hidayet öncülüğü klasik. 16:9 iki Türkçe gloss eşdeğer bağlam açıklaması, kanonik okuyuş farkı değil.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P189",
+      "base_line": 189,
+      "claims": [
+        "Rahim/tamamlama Rabbʿde;26:18–22 beş ağ ve sahte büyüten–gerçek Rab karşıtlığı."
+      ],
+      "quran_refs": [
+        "26:18",
+        "26:20",
+        "26:21",
+        "26:22"
+      ],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "M_RBB",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, RBB kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_RHM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, RHM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "ZAM1",
+          "actually_checked_passage": "Zemahşerî 1:1, sunulan 16 satırın bütünü; sayım, fiil takdiri, ism, Allah ve rahmet/rahim."
+        },
+        {
+          "source": "BAY2",
+          "actually_checked_passage": "Beyzâvî 1:2, sunulan 6 satırın bütünü; hamd–şükür, tedricî terbiye, âlem."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "M_RBB",
+        "M_RHM"
+      ],
+      "later_development": [
+        "ZAM1",
+        "BAY2"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "building_blocks_only",
+      "assessment": "Musa’daki beş kök buluşması işaretlenebilir; alıntıların ayrı köklerini veya ayetin söylediği sınırı kaldırmaz.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P191",
+      "base_line": 191,
+      "claims": [
+        "Gazap/hesap yüzleri;20:81 düşüş ile tökezleme aynılaştırılır;67:22 doğrulma."
+      ],
+      "quran_refs": [
+        "20:81",
+        "20:82",
+        "67:22"
+      ],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "TAB7",
+          "actually_checked_passage": "Taberî 1:7, yerel 25.625 karakterlik metnin bütünü; 4:69, ghayr dilbilgisi, gazap görüşleri, Adiyy rivayeti ve iki grubun ortak kusurları."
+        },
+        {
+          "source": "IK7",
+          "actually_checked_passage": "İbn Kesîr 1:7, satırlar 1–21; nimetliler, Adiyy, açıklayıcı farklı okuyuş, ahiret sıratı ve etkin nimet/pasif gazap. 22–31 denetlenmedi."
+        },
+        {
+          "source": "M_QWM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, QWM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_GHDB",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, GHDB kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        }
+      ],
+      "early_attestation": [
+        "TAB7",
+        "M_QWM",
+        "M_GHDB"
+      ],
+      "later_development": [
+        "IK7"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "building_blocks_only",
+      "assessment": "20:81 kesin helak/düşüş, tökezleme fiziksel teşbih; 67:22 figürü bunu Fatiha’ya kelime anlamı olarak eklemiyor.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P193",
+      "base_line": 193,
+      "claims": [
+        "2:282 borç/unutma/akvem;öğle terazisi;83:3–6 ölçü–ayağa kalkış; yazı/dik durma yorumu."
+      ],
+      "quran_refs": [
+        "2:282",
+        "83:6"
+      ],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "M_DYN",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, DYN kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_DLL",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, DLL kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_QWM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, QWM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "PKT",
+          "actually_checked_passage": "Projenin sözlük paketi: dictionary.md q-w-m satırları 341–394 tamamen okundu; diğer seçilmiş dallar base/ledger ile denetlendi. Bu kayıt, başvurulan antik kitapların tüm maddelerinin bağımsız kontrol edildiği anlamına gelmez."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "PKT",
+          "actually_checked_passage": "Projenin sözlük paketi: dictionary.md q-w-m satırları 341–394 tamamen okundu; diğer seçilmiş dallar base/ledger ile denetlendi. Bu kayıt, başvurulan antik kitapların tüm maddelerinin bağımsız kontrol edildiği anlamına gelmez."
+        }
+      ],
+      "early_attestation": [
+        "M_DYN",
+        "M_DLL",
+        "M_QWM"
+      ],
+      "later_development": [],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "building_blocks_only",
+      "assessment": "Borç kaydı ve ölçü–kalkış intertekst güçlü; yazma/anımsama/öğle tek mecaz bütünü proje, eksiksiz klasik audit yapılmadı.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P195",
+      "base_line": 195,
+      "claims": [
+        "Musa Medyen yol/su/gölge ile kiriş/makara;26:78–82 hayat ve hesap sırası."
+      ],
+      "quran_refs": [
+        "26:78",
+        "26:79",
+        "26:82",
+        "28:22",
+        "28:24"
+      ],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "THD3_10",
+          "actually_checked_passage": "Ezherî Tehzîb, ABL cilt 3, s.10; sunulan ana metnin tamamı: iyilik/tamamlama, nimetli çocuk, güney rüzgârı, kuyu kirişleri ve qâma = makara; matbu kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_NAAM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, NAAM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_MLK",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, MLK kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        }
+      ],
+      "early_attestation": [
+        "M_NAAM",
+        "M_MLK"
+      ],
+      "later_development": [],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "building_blocks_only",
+      "assessment": "Musa su yerinde su verir; kiriş/makara ve sonraki hesap sırası ayrı malzemeler, tarihsel cihaz kullanım kanıtı değil.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P197",
+      "base_line": 197,
+      "claims": [
+        "İbrahim yıldız/ay/güneş semâve;Rab/değişen gök;işaret ile işaret edilen ayrımı."
+      ],
+      "quran_refs": [
+        "6:77",
+        "27:24"
+      ],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "QUR",
+          "actually_checked_passage": "Tanzil resmî Uthmani 1.1 metni; base içindeki 169 farklı atfın tam ayetleri okundu ve 205 arapça atıf denetlendi; iki fark yalnız hamza/tatvil yazımı."
+        },
+        {
+          "source": "IK676",
+          "actually_checked_passage": "İbn Kesîr 6:76, web metninin bütünü; kaybolmayan ve sürekli Rabb gerekçesi."
+        },
+        {
+          "source": "IK679",
+          "actually_checked_passage": "İbn Kesîr 6:79, web 19–28; nazar/araştırma ile münazara yorumlarının ayrımı ve münazara tercihi."
+        },
+        {
+          "source": "M_SMW",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, SMW kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_ALM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, ALM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [
+        {
+          "source": "IK679",
+          "actually_checked_passage": "İbn Kesîr 6:79, web 19–28; nazar/araştırma ile münazara yorumlarının ayrımı ve münazara tercihi."
+        }
+      ],
+      "early_attestation": [
+        "M_SMW",
+        "M_ALM"
+      ],
+      "later_development": [
+        "IK676",
+        "IK679"
+      ],
+      "hadith_relation": [],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Yaratıcı/işaret ayrımı klasik; İbrahim yorum ihtilafının bir tarafı tarihsel olgu yapılamaz.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    },
+    {
+      "claim_id": "S1-P199",
+      "base_line": 199,
+      "claims": [
+        "Tüm sure ad→besleyen Rab→hesap→kul/yardım→öncü/destek→ev→kayıp deve bütünleşik ağında okunur."
+      ],
+      "quran_refs": [],
+      "lexical_branches": [],
+      "supporting_sources": [
+        {
+          "source": "TAB5",
+          "actually_checked_passage": "Taberî 1:5, satırlar 1–32; kulluk, çiğnenmiş yol, uysal binek, yardım ve zamir düzeni."
+        },
+        {
+          "source": "TAB6",
+          "actually_checked_passage": "Taberî 1:6, ana tefsir pasajının bütünü; sebat/tevfik; açık yol; İslam/Kur’an yorumları; gelin/hediye/ahiret yorumunu aktarıp birincil anlam olarak reddetmesi. Dipnotların tamamı denetlenmedi."
+        },
+        {
+          "source": "TAB7",
+          "actually_checked_passage": "Taberî 1:7, yerel 25.625 karakterlik metnin bütünü; 4:69, ghayr dilbilgisi, gazap görüşleri, Adiyy rivayeti ve iki grubun ortak kusurları."
+        },
+        {
+          "source": "BIQ1",
+          "actually_checked_passage": "Bikâî 1:1, ana metin satırlar 1–9; maksat, besmele ve sure düzeni. Kalan notların tamamı denetlenmedi."
+        },
+        {
+          "source": "BIQ7",
+          "actually_checked_passage": "Bikâî 1:7, ana metin satırlar 1–8; yolculuk, vadiler/denizler, iyi yol ve iyi arkadaş, sure bütünü. 9–117 denetlenmedi."
+        },
+        {
+          "source": "H_M395",
+          "actually_checked_passage": "https://sunnah.com/muslim:395a Arapça matın, isnat, numara ve gösterilen derece alanı doğrudan okundu; web satırları 58–62; Sahîh Müslim koleksiyonu; ilişki direct_hadith_tafsir."
+        },
+        {
+          "source": "M_HDY",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, HDY kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_RBB",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, RBB kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        },
+        {
+          "source": "M_NAAM",
+          "actually_checked_passage": "İbn Fâris Mekâyîs, NAAM kökünün Hawramani dictionary_7 asıl metin maddesi bütünü; matbu nüsha kolasyonu yapılmadı."
+        }
+      ],
+      "contradicting_sources": [],
+      "early_attestation": [
+        "TAB5",
+        "TAB6",
+        "TAB7",
+        "M_HDY",
+        "M_RBB",
+        "M_NAAM"
+      ],
+      "later_development": [
+        "BIQ1",
+        "BIQ7"
+      ],
+      "hadith_relation": [
+        {
+          "source": "H_M395",
+          "relation": "direct_hadith_tafsir",
+          "grade": "sahih",
+          "grade_authority": "Sahîh Müslim koleksiyonu"
+        }
+      ],
+      "historical_context": "Lexical material is evidence of attested usage or an author’s derivational explanation; not documentary proof of a specific event. No fixed date/occasion is inferred from root meanings.",
+      "novelty_status": "partial",
+      "assessment": "Sure sırası/yolculuk/iyi refik klasik; ad→gök→kuyu→sürü→rahim→evin bütün dallarını eşzamanlı anlamsal akış yapma proje terkibi, tam kaynak yokluğu iddiası yok.",
+      "confidence": "high for quoted lexical/contextual observations; medium or low for the project recombination",
+      "retrieval_state": "inspected_positive_passages; non-exhaustive connection-level comparison",
+      "scope_limit": "Named inspected passages only. Razi complete Fatiha and uninspected portions are not_checked. Rare packet-only items are not independently primary-verified; no absence claim."
+    }
+  ]
+}

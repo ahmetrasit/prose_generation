@@ -1,0 +1,121 @@
+{
+  "output_file": "/Volumes/aro/projects/prose_generation/enrichment/v1/out/107/107_enriched.sonnet-5-5.md",
+  "output_sha256": "f34f95281fd1aff9057cb70ed2ea630a64e34ccf51b4544258a929302b3e7f79",
+  "base_sha256": "ffa9ec2329ee4a3578ae3272bba40f3d0114191d91553e15cf18809721e4be14",
+  "validator": {
+    "errors": [],
+    "warnings": [],
+    "structural_qc_passed": true
+  },
+  "base_paragraph_blocks_total": 63,
+  "base_blocks_preserved_exactly_in_order": 63,
+  "base_prose_paragraphs": 44,
+  "original_headings_preserved": 10,
+  "original_inline_tags": 243,
+  "original_inline_tags_preserved_in_order": 243,
+  "annotation_count": 79,
+  "annotations_by_type": {
+    "asbab": 2,
+    "cross_quran": 7,
+    "hadith": 7,
+    "historical_context": 2,
+    "method_note": 7,
+    "nazm": 4,
+    "novelty": 12,
+    "qiraat": 3,
+    "reader_note": 2,
+    "revelation_history": 1,
+    "semantic_history": 18,
+    "source_note": 3,
+    "tafsir": 11
+  },
+  "translation_review_blocks": 10,
+  "translation_review_block_ids": [
+    "S107-MEAL-010",
+    "S107-MEAL-001",
+    "S107-MEAL-002",
+    "S107-MEAL-003",
+    "S107-MEAL-004",
+    "S107-MEAL-005",
+    "S107-MEAL-006",
+    "S107-MEAL-007",
+    "S107-MEAL-008",
+    "S107-MEAL-009"
+  ],
+  "novelty_claims": 12,
+  "novelty_by_classical_attestation": {
+    "building_blocks_only": 4,
+    "none_found_in_checked_sources": 3,
+    "partial": 5
+  },
+  "every_novelty_block_has_checked_sources": true,
+  "rejected_candidate_blocks": [
+    "S107-REJ-001",
+    "S107-REJ-003",
+    "S107-REJ-004"
+  ],
+  "contested_or_uncertain_historical_reports": {
+    "blocks": [
+      "S107-REV-001",
+      "S107-ASB-001",
+      "S107-ASB-002"
+    ],
+    "named_competing_sabab_candidates": [
+      "al-As b. Wa'il",
+      "Abu Sufyan b. Harb",
+      "al-Walid b. al-Mughira",
+      "Abu Jahl",
+      "'Amr b. 'A'idh",
+      "an unnamed stingy hypocrite",
+      "'Abdullah b. Ubayy (Hibatullah's half-Medinan view)"
+    ],
+    "makki_madani_positions": 4
+  },
+  "hadith_blocks_by_grade": {
+    "sahih": 1,
+    "hasan": 0,
+    "daif": 2,
+    "mawdu": 0,
+    "not_assessed": 4
+  },
+  "unique_annotation_ids": true,
+  "source_count": 43,
+  "all_source_ids_resolve": true,
+  "registry_ids_unused": [],
+  "translations_retrieved": [
+    "Diyanet Isleri Baskanligi (current; official site verified)",
+    "Diyanet (old, aggregator label)",
+    "Mehmet Okuyan",
+    "Yasar Nuri Ozturk (two web variants)",
+    "Elmalili Hamdi Yazir (original + simplified)",
+    "Omer Nasuhi Bilmen",
+    "Suleyman Ates",
+    "Hayrat Nesriyat",
+    "Abdulbaki Golpinarli",
+    "Ali Bulac",
+    "Diyanet Vakfi",
+    "Suleymaniye Vakfi",
+    "Mustafa Islamoglu",
+    "Muhammed Esed (Turkish rendering)",
+    "Hasan Basri Cantay",
+    "Gultekin Onan",
+    "Ismail Hakki Izmirli",
+    "'Ibni Kesir' label on acikkuran.com (translator unverified)"
+  ],
+  "translations_partially_retrieved": [
+    "Edip Yuksel (search-result summary only; pages 403/500; low confidence)"
+  ],
+  "translations_not_retrieved": [
+    "Celal Yildirim (no page text obtained; nothing attributed)"
+  ],
+  "unresolved_items": [
+    "Primary hadith collection pages (sunnah.com etc.) returned 403; hadith data come via Ibn Kathir, Suyuti, Qurtubi quotations; Muslim 'tilka salat al-munafiq' graded only by collection inclusion (numbering 622/623 differs by source).",
+    "Alusi read for 107:1 and 107:7 only, Ibn Atiyya for 107:1 only, Wahidi for 107:1-2 only; remaining pages not read.",
+    "Turkish meal texts came through a page-summarising fetch tool; Ozturk and Suleymaniye Vakfi have two web variants whose editions could not be identified; the 'Lanet olsun' (Ozturk) and 'didinip duran' (Suleymaniye) renderings are flagged conditionally.",
+    "Whether 'Ata b. Dinar' (Tabari, Ibn Kathir) or 'Ata b. Yasar' (Suyuti text) is correct for the 'an/fi' remark was not resolved.",
+    "Base-file lexicon quotations were not re-verified except Maqayis sahw, da', hadd; two source-notes (S107-MET-004, S107-MET-005) record Maqayis qualifications of the base's da' da' and hadd/hadid associations; base prose left untouched.",
+    "Classical text was read from cached copies of ayah pages (work/107_sonnet_5_5/sources, copied from the shared earlier source cache) and not re-downloaded; the earlier run's retrieval_index.json (URL list only) was consulted for page URLs; no annotation, matrix or output of other runs was read.",
+    "Tension between 'hypocrite' identification and the Makki majority view is recorded as low-confidence inference (S107-MET-001), not resolved.",
+    "Ids have gaps (e.g. no NOV-003, TAF-003/004/012) because planned blocks were merged; ids remain unique."
+  ]
+}
