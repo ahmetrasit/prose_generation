@@ -1,11 +1,10 @@
 """Annotation blocks (schema 3.0): load the schema, check records, resolve sources, render tag lines.
 
-Agents write records to annotations.jsonl (one JSON object per line); nothing else writes blocks. A record is the
-block's fields plus placement:
+Agents write records to annotations.jsonl (one JSON object per line); nothing else writes blocks. One call writes
+the records of one page (the surah page or one ayah page). A record is the block's fields plus placement:
   {"id": "S107-HDS-001", "tur": "hadis", "ayet": "107:6", "islev": "destek", "iliski": "tematik", "durum": "acik",
    "kat": "ek", "derece": "sahih", "derece_veren": "Müslim", "metin": "…", "kaynak": "MUSLIM:2985",
-   "capa": "exact sentence of the surah base after whose paragraph the block goes",
-   "capa_ayet": "optional: exact sentence of the ayah base (default: end of the ayah page)"}
+   "capa": "exact sentence of that page's base after whose paragraph the block goes (default: end of the page)"}
 """
 from __future__ import annotations
 
@@ -21,7 +20,7 @@ FIELDS = SCHEMA["fields"]
 REQUIRED = SCHEMA["block"]["required"]
 LIMITS = SCHEMA["block"]["word_limits"]
 KOD = {k: v["kod"] for k, v in ENUMS["tur"].items()}
-PLACEMENT = ("capa", "capa_ayet")
+PLACEMENT = ("capa",)
 ORDER = ["id", "tur", "ayet", "islev", "iliski", "durum", "kat", "guc", "klasik_tanik", "tarama", "taranan", "derece",
          "derece_veren", "tarihsellik", "kiraat_turu", "sozluk", "mutercim", "terim", "kayip", "yon", "kiyas", "taban",
          "hata", "alim", "ravi", "koken", "tekrar", "gerekce", "not", "metin", "kaynak"]

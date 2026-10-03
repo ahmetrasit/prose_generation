@@ -46,9 +46,16 @@ when they add value (al-Biqāʿī, al-Khūlī/Bint al-Shāṭiʾ, ishārī, Muʿ
    (kalplerde drops "their"), collapsed range, unmarked addition, Turkish drift, marking change, relay drift; judged
    as patterns across the Qur'an (22:46 is the decisive test for ṣadr/qalb), with what Turkish forces kept apart.
 9. **Tags**: schema 3.0 in ASCII-folded Turkish with tr/en/de labels (`schema.json`, `SCHEMA.md` generated).
-10. **Orchestration**: v16-like (`enrich.py`), stage briefs instead of one protocol; agents write records, scripts
-    render and validate; one composing run plus an independent audit and at most two repair rounds, not parallel
-    drafts. Model: GPT-6 Astra (subscription; USD not reported).
+10. **Orchestration**: v16-like (`enrich.py`), after v16's augment step: one agent call per page (the surah page,
+    each ayah page), never rerun; the call writes records grounded in the saved files, scripts check, render and
+    accept. A record that fails a rule is dropped and listed, not repaired. Model: GPT-6 Astra (subscription; USD
+    not reported). Revised the same day (user: "i'm having only a single run per surah/ayah (called augment) and it
+    normally takes care of everything. the only difference is now we'll ground everything to saved files"): the
+    first version ran a research map ‖ meal review → compose → independent audit → up to two repair rounds per
+    surah (4–8 calls). Its briefs (`prompts/harita.md`, `meal.md`, `yaz.md`, `denetim.md`, `onarim.md`) are kept
+    as the record and are not used; `prompts/zengin.md` merges harita, meal and yaz, plus the audit's source check
+    as the call's own final step. Placement is one field, `capa`, a sentence of the page's own base
+    (`capa_ayet` removed).
 11. **Bible and other non-Islamic scripture**: a separate, parallel enrichment pass after this one is in place, so
     that nothing from it contaminates the Islamic-literature page. Corpus Coranicum's intertexts are stored apart
     (`CORPUSCORANICUM-INTERTEXT`, kind `intertext`) and excluded from this pass's index.

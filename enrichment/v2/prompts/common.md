@@ -1,4 +1,4 @@
-# Enrichment: shared core (read completely; every stage brief builds on it)
+# Enrichment: shared core (read completely; the brief that follows builds on it)
 
 ## What this work is
 A frozen Turkish commentary on one surah (and one commentary per ayah) already exists: the BASE, written by this
@@ -22,7 +22,7 @@ the knowledge around it and integrates the base's findings with the literature.
 - Corpus tool: `python3 enrichment/v2/tools/corpus.py` with `sources [--kind K]`, `get LOC [LOC …]`,
   `ayah S:A [--kind tafsir,meal]`, `search 'words' [--src ID,ID] [--kind K] [--surah N] [--n 20] [--sahih]`.
   Search matches word prefixes; Arabic is normalised (no tashkīl, unified alef/yāʾ/tāʾ marbūṭa). Try variants.
-- Your stage directory (the only place you write) is given in the job header.
+- Your call directory (the only place you write) is given in the job header.
 
 ## Sources: what is authoritative, what is allowed
 1. Word → root identity comes ONLY from PACK/binding.json (QAC + the project's root gateway). Never resolve a root
@@ -41,7 +41,7 @@ the knowledge around it and integrates the base's findings with the literature.
    `tarihsellik`. Never upgrade a grade because a tafsir quotes the report.
 5. Dataset hadith numbers are not sunnah.com numbers: cite the corpus locator and quote the opening words.
 6. Bible and other non-Islamic scripture are handled in a separate pass. Do not cite them here.
-7. If a source you need is missing, say so (in your stage output's gaps list); never fill the gap from memory
+7. If a source you need is missing, say so (in gaps.json); never fill the gap from memory
    without marking it.
 
 ## Epistemic rules

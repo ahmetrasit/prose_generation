@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
-"""Check annotations.jsonl against schema 3.0 and the rendered pages against the frozen base. Script only.
+"""Check one page's records against schema 3.0, and the rendered page against its frozen base. Script only.
 
-  python3 enrichment/v2/validate.py --surah 107 [--annotations PATH] [--out DIR] [--report PATH]
+  python3 enrichment/v2/validate.py --surah 107 --target surah|107:3 --annotations PATH [--out DIR] [--report PATH]
 
-Records: required and conditional fields, enum values, id pattern and code, ayah scope, word limits, every source
-locator resolves in the corpus index, hadis only sahih (and the cited report sahih under the project rule), memory
-only with durum:degerlendirilmedi and never for hadis/nuzul/grades, modern Arabic dictionaries only in anlam_tarihi,
-no intertext sources, duzeltme quotes the base verbatim, itiraz carries its argument, unique ids, anchors found.
-Pages (if rendered): every base paragraph present, byte-exact and in order; every block line parses back to its
-record; nothing after the registry but the registry. Exit 1 on any error.
+Records: required and conditional fields, enum values, id pattern and code, ayah scope (an ayah page's records must
+cover its ayah), word limits, every source locator resolves in the corpus index, hadis only sahih (and the cited
+report sahih under the project rule), memory only with durum:degerlendirilmedi and never for hadis/nuzul/grades,
+modern Arabic dictionaries only in anlam_tarihi, no intertext sources, duzeltme quotes the base verbatim, itiraz
+carries its argument, unique ids, capa found in the page's base. The report lists the errors per record: the
+orchestrator drops a failing record (it is not repaired) and renders the rest.
+Page (if DIR holds the rendered page): every base paragraph present, byte-exact and in order; every block line
+parses back to its record; nothing after the registry but the registry. Exit 1 on any error.
 """
 from __future__ import annotations
 
@@ -55,49 +57,62 @@ def check_page(page: Path, base: str, recs: list[dict]) -> list[str]:
     return e
 
 
-def validate(s: int, ann: Path, out: Path | None) -> dict:
-    wd = V2 / "work" / f"s{s:03d}"
-    pk = wd / "pack"
-    manifest = json.loads((pk / "pack.json").read_text(encoding="utf-8"))
-    n_ayat = manifest["ayat"]
-    base_surah = (pk / "base" / "surah.md").read_text(encoding="utf-8")
-    base_all = base_surah + "\n".join(p.read_text(encoding="utf-8") for p in (pk / "base").glob("*_*.md"))
+def check_records(s: int, target: str, recs: list[dict]) -> tuple[list[dict], list[dict], list[str]]:
+    """(kept records, dropped [{id, errors}], warnings) for one page."""
+    pk = V2 / "work" / f"s{s:03d}" / "pack"
+    n_ayat = json.loads((pk / "pack.json").read_text(encoding="utf-8"))["ayat"]
+    name, base, _ = R.target_page(s, target)
+    paras = R.paragraphs(base)
     corpus = B.Corpus(C.INDEX)
-    recs = R.load(ann)
-    errors, warnings = [], []
+    kept, dropped, warnings, seen = [], [], [], set()
     for r in recs:
-        errors += B.check_record(r, s, n_ayat, corpus, base_all)
+        rid = r.get("id", "?")
+        e = B.check_record(r, s, n_ayat, corpus, base)
+        if target != "surah":
+            a = int(target.split(":")[1])
+            try:
+                if not any(x[1] <= a <= x[2] for x in B.ayah_refs(r.get("ayet", ""))):
+                    e.append(f"{rid}: ayet {r.get('ayet')} does not cover the page's ayah {target}")
+            except ValueError:
+                pass  # reported by check_record
+        if r.get("capa") and R.find_para(paras, r["capa"]) is None:
+            e.append(f"{rid}: capa not found in {name}: {r['capa'][:80]!r}")
+        if rid in seen:
+            e.append(f"{rid}: duplicate id")
+        seen.add(rid)
+        if e:
+            dropped.append({"id": rid, "errors": e})
+            continue
+        kept.append(r)
         if r.get("tur") == "yenilik" and r.get("tarama") == "dilim" and r.get("klasik_tanik") == "bulunamadi" \
                 and not any(w in r.get("metin", "").lower() for w in ("dilim", "yalnız", "sadece", "only")):
-            warnings.append(f"{r['id']}: bulunamadi on the slice should say only the slice was searched")
+            warnings.append(f"{rid}: bulunamadi on the slice should say only the slice was searched")
         if not r.get("capa"):
-            warnings.append(f"{r['id']}: no capa; it goes to the end of the surah page")
-    dup = [k for k, c in Counter(r.get("id") for r in recs).items() if c > 1]
-    if dup:
-        errors.append(f"duplicate ids: {dup}")
-    paras = R.paragraphs(base_surah)
-    for r in recs:
-        if r.get("capa") and R.find_para(paras, r["capa"]) is None:
-            errors.append(f"{r['id']}: capa not found in the surah base")
-    if out and out.exists():
-        errors += check_page(out / "surah.md", base_surah, recs)
-        for p in sorted(out.glob(f"{s}_*.md")):
-            errors += check_page(p, (pk / "base" / p.name).read_text(encoding="utf-8"), recs)
-    return {"surah": s, "records": len(recs), "by_tur": dict(Counter(r.get("tur") for r in recs)),
-            "by_kat": dict(Counter(r.get("kat") for r in recs)),
-            "words": sum(B.words(r.get("metin", "")) for r in recs),
-            "errors": errors, "warnings": warnings, "passed": not errors}
+            warnings.append(f"{rid}: no capa; it goes to the end of the page")
+    return kept, dropped, warnings
+
+
+def validate(s: int, target: str, recs: list[dict], out: Path | None) -> dict:
+    kept, dropped, warnings = check_records(s, target, recs)
+    page_errors = []
+    name, base, _ = R.target_page(s, target)
+    if out and (out / name).exists():
+        page_errors = check_page(out / name, base, kept)
+    return {"surah": s, "target": target, "records": len(recs), "kept": len(kept), "dropped": dropped,
+            "by_tur": dict(Counter(r.get("tur") for r in kept)), "by_kat": dict(Counter(r.get("kat") for r in kept)),
+            "words": sum(B.words(r.get("metin", "")) for r in kept), "page_errors": page_errors,
+            "warnings": warnings, "passed": not dropped and not page_errors}
 
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--surah", type=int, required=True)
-    ap.add_argument("--annotations", type=Path)
+    ap.add_argument("--target", default="surah")
+    ap.add_argument("--annotations", type=Path, required=True)
     ap.add_argument("--out", type=Path)
     ap.add_argument("--report", type=Path)
     a = ap.parse_args()
-    wd = V2 / "work" / f"s{a.surah:03d}"
-    rep = validate(a.surah, a.annotations or wd / "annotations.jsonl", a.out or wd / "out")
+    rep = validate(a.surah, a.target, R.load(a.annotations), a.out)
     text = json.dumps(rep, ensure_ascii=False, indent=1)
     if a.report:
         a.report.write_text(text + "\n", encoding="utf-8")

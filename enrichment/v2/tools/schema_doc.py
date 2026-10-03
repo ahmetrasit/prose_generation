@@ -20,8 +20,8 @@ Every block is one line in the rendered page and one JSON object in annotations.
 - `kaynak` = corpus locators, pipe-separated, exactly as `tools/corpus.py` prints them, or `hafiza` (model memory).
 - `metin` = one paragraph in the page language; at most {S['block']['word_limits']['temel']} words (temel, ek) or
   {S['block']['word_limits']['arastirma']} (arastirma).
-- Placement (records only, not rendered): `capa` = an exact sentence of the surah base; `capa_ayet` = an exact
-  sentence of the ayah base.
+- Placement (records only, not rendered): `capa` = an exact sentence of the base of the page the record belongs to
+  (the surah page or one ayah page; one call writes one page's records); without it the block goes to the end.
 """
 
 

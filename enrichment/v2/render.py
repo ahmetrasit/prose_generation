@@ -1,15 +1,14 @@
 #!/usr/bin/env python3
-"""Stage dizgi: render annotations.jsonl into the frozen v16 base (surah page and ayah pages). Script only.
+"""Render one page's records into its frozen v16 base. Script only.
 
-  python3 enrichment/v2/render.py --surah 107 [--annotations PATH] [--out DIR]
+  python3 enrichment/v2/render.py --surah 107 --target surah --annotations PATH --out DIR
+  python3 enrichment/v2/render.py --surah 107 --target 107:3 --annotations PATH --out DIR
 
-Reads work/sNNN/pack/base/{surah.md,S_A.md} and work/sNNN/annotations.jsonl (default). Writes work/sNNN/out/:
-  surah.md      the surah page: base paragraphs untouched, each block on its own line after the paragraph that
-                contains its `capa` sentence, then the generated source registry
-  S_A.md        one page per ayah: blocks whose `ayet` covers the ayah, after the paragraph containing `capa_ayet`,
-                or under a closing "## Kaynak katmanları" section when no `capa_ayet` is given
-The registry is generated from the corpus metadata of every cited source; agents never write it.
-Blocks at one point are ordered by the order of `tur` in schema.json, then by id.
+A target is the surah page (`surah`, base work/sNNN/pack/base/surah.md) or one ayah page (`S:A`, base S_A.md). Writes
+DIR/surah.md or DIR/S_A.md: base paragraphs untouched, each block on its own line after the paragraph that contains
+its `capa` sentence; blocks without a capa at the end (on an ayah page under "## Kaynak katmanları"); then the source
+registry, generated from the corpus metadata of every cited source (agents never write it). Blocks at one point are
+ordered by the order of `tur` in schema.json, then by id.
 """
 from __future__ import annotations
 
@@ -124,45 +123,42 @@ def load(path: Path) -> list[dict]:
     return recs
 
 
-def render(s: int, ann: Path, out: Path) -> list[str]:
-    wd = V2 / "work" / f"s{s:03d}"
-    pk = wd / "pack"
+def target_page(s: int, target: str) -> tuple[str, str, dict]:
+    """(page file name, base text, base.json entry) of a target ("surah" or "S:A")."""
+    pk = V2 / "work" / f"s{s:03d}" / "pack"
     base = json.loads((pk / "base.json").read_text(encoding="utf-8"))
-    metas = C.sources_by_id() if hasattr(C, "sources_by_id") else {m["id"]: m for m in C.sources()}
-    recs = load(ann)
-    out.mkdir(parents=True, exist_ok=True)
-    stamp = date.today().isoformat()
-    errors = []
-    head = (f"<!-- schema:zenginlestirme {B.SCHEMA['version']}; target:S{s}; base:{base['surah']['path']} "
-            f"sha256:{base['surah']['sha256']}; rendered:{stamp} -->")
-    text, err = render_page((pk / "base" / "surah.md").read_text(encoding="utf-8"), recs, "capa", head, None, metas)
-    errors += [f"surah.md: {x}" for x in err]
-    (out / "surah.md").write_text(text, encoding="utf-8")
-    for ref, info in base["ayat"].items():
+    if target == "surah":
+        info, name = base["surah"], "surah.md"
+    else:
+        info = base["ayat"].get(target)
         if not info:
-            continue
-        a = int(ref.split(":")[1])
-        mine = [r for r in recs if any(x[1] <= a <= x[2] for x in B.ayah_refs(r["ayet"]))]
-        head = (f"<!-- schema:zenginlestirme {B.SCHEMA['version']}; target:{ref}; base:{info['path']} "
-                f"sha256:{info['sha256']}; rendered:{stamp} -->")
-        text, err = render_page((pk / "base" / f"{s}_{a}.md").read_text(encoding="utf-8"), mine, "capa_ayet", head,
-                                AYAH_SECTION, metas)
-        errors += [f"{s}_{a}.md: {x}" for x in err if "capa_ayet not found" in x]
-        (out / f"{s}_{a}.md").write_text(text, encoding="utf-8")
-    return errors
+            raise SystemExit(f"no ayah base for {target}")
+        name = target.replace(":", "_") + ".md"
+    return name, (pk / "base" / name).read_text(encoding="utf-8"), info
+
+
+def render(s: int, target: str, recs: list[dict], out: Path) -> tuple[Path, list[str]]:
+    name, base, info = target_page(s, target)
+    metas = {m["id"]: m for m in C.sources()}
+    head = (f"<!-- schema:zenginlestirme {B.SCHEMA['version']}; target:{'S' + str(s) if target == 'surah' else target}; "
+            f"base:{info['path']} sha256:{info['sha256']}; rendered:{date.today().isoformat()} -->")
+    text, errors = render_page(base, recs, "capa", head, None if target == "surah" else AYAH_SECTION, metas)
+    out.mkdir(parents=True, exist_ok=True)
+    (out / name).write_text(text, encoding="utf-8")
+    return out / name, errors
 
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--surah", type=int, required=True)
-    ap.add_argument("--annotations", type=Path)
-    ap.add_argument("--out", type=Path)
+    ap.add_argument("--target", default="surah")
+    ap.add_argument("--annotations", type=Path, required=True)
+    ap.add_argument("--out", type=Path, required=True)
     a = ap.parse_args()
-    wd = V2 / "work" / f"s{a.surah:03d}"
-    errors = render(a.surah, a.annotations or wd / "annotations.jsonl", a.out or wd / "out")
+    page, errors = render(a.surah, a.target, load(a.annotations), a.out)
     for e in errors:
         print("PLACEMENT", e)
-    print(f"rendered S{a.surah} -> {a.out or wd / 'out'}; placement errors: {len(errors)}")
+    print(f"rendered S{a.surah} {a.target} -> {page}; placement errors: {len(errors)}")
     sys.exit(1 if errors else 0)
 
 
