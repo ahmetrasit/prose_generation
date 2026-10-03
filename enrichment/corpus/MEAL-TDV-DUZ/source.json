@@ -33,11 +33,112 @@
     "fawazahmed0/quran-api tur-diyanetvakfi",
     "fawazahmed0/quran-api tur-ademugur"
   ],
-  "notes": "Identity: wording equals the official grouped TDV meal (kd ML=4) wherever that meal does not group (1:5, 1:7, 93:7) and shows an earlier revision elsewhere (22:46 \"(Sana karşı çıkanlar)\" vs kd \"(Seni yalanlayanlar)\"). The same e-text is labelled \"Adem Uğur\" on mealler.org and fawazahmed0 (tur-ademugur); no evidence was found that it is a separate Adem Uğur translation, so the label is treated as a misattribution of the TDV text (host label kept here for the record). 10 merged verse groups stored once as a..a_end.",
+  "notes": "Identity: wording equals the official grouped TDV meal (kd ML=4) wherever that meal does not group (1:5, 1:7, 93:7) and shows an earlier revision elsewhere (22:46 \"(Sana karşı çıkanlar)\" vs kd \"(Seni yalanlayanlar)\"). The same e-text is labelled \"Adem Uğur\" on mealler.org and fawazahmed0 (tur-ademugur); no evidence was found that it is a separate Adem Uğur translation, so the label is treated as a misattribution of the TDV text (host label kept here for the record). 10 merged verse groups stored once as a..a_end. Cross-check over S1, S22, S87-114 (primary tanzil.net tr.vakfi) - mealler.org \"Adem Uğur\": n=373, exact 71.8%, loose 94.1%, sim 0.988; â/î/û in 20.9% of ayat (primary 0.5%); bracket counts differ in 5 ayat (e.g. 1:1, 87:1, 87:5); most divergent 113:4 (sim 0.29) | fawazahmed0/quran-api tur-diyanetvakfi: n=373, exact 1.3%, loose 99.7%, sim 1.0; â/î/û in 0.5% of ayat (primary 0.5%); bracket counts differ in 1 ayat (e.g. 104:3); most divergent 104:3 (sim 0.98) | fawazahmed0/quran-api tur-ademugur: n=373, exact 0.8%, loose 94.4%, sim 0.991; â/î/û in 20.9% of ayat (primary 0.5%); bracket counts differ in 6 ayat (e.g. 1:1, 87:1, 87:5); most divergent 101:1 (sim 0.43).",
   "raw_shared": [
     "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
   ],
-  "_notes_parts": {
+  "crosscheck": {
+    "range": "S1, S22, S87-114",
+    "primary": "tanzil.net tr.vakfi",
+    "primary_diacritic_pct": 0.5,
+    "primary_groups": 0,
+    "vs": {
+      "mealler.org \"Adem Uğur\"": {
+        "n": 373,
+        "exact_pct": 71.8,
+        "loose_pct": 94.1,
+        "mean_sim": 0.988,
+        "bracket_diff": 5,
+        "bracket_diff_examples": [
+          "1:1",
+          "87:1",
+          "87:5",
+          "101:1",
+          "109:1"
+        ],
+        "worst": [
+          {
+            "ayah": "113:4",
+            "sim": 0.29,
+            "primary": "Ve düğümlere üfürüp büyü yapan üfürükçülerin şerrinden,",
+            "other": "De ki: 'Yaratıkların şerrinden, bastırdığı zaman karanlığın şerrinden, düğümlere nefes eden büyücülerin şerrinden, hased ettiği zaman hasedcilerin şerrinden, ta"
+          },
+          {
+            "ayah": "101:1",
+            "sim": 0.43,
+            "primary": "Kapı çalan!",
+            "other": "Kâria (kıyamet)!"
+          },
+          {
+            "ayah": "109:3",
+            "sim": 0.58,
+            "primary": "\"Benim taptıgıma da sizler tapmazsınız.\"",
+            "other": "Siz de benim taptığıma tapmıyorsunuz."
+          }
+        ],
+        "diacritic_pct": 20.9,
+        "groups": 0
+      },
+      "fawazahmed0/quran-api tur-diyanetvakfi": {
+        "n": 373,
+        "exact_pct": 1.3,
+        "loose_pct": 99.7,
+        "mean_sim": 1.0,
+        "bracket_diff": 1,
+        "bracket_diff_examples": [
+          "104:3"
+        ],
+        "worst": [
+          {
+            "ayah": "104:3",
+            "sim": 0.98,
+            "primary": "(O), malının kendisini ebedi kılacağını zanneder.",
+            "other": "malının kendisini ebedi kılacağını zanneder"
+          }
+        ],
+        "diacritic_pct": 0.5,
+        "groups": 0
+      },
+      "fawazahmed0/quran-api tur-ademugur": {
+        "n": 373,
+        "exact_pct": 0.8,
+        "loose_pct": 94.4,
+        "mean_sim": 0.991,
+        "bracket_diff": 6,
+        "bracket_diff_examples": [
+          "1:1",
+          "87:1",
+          "87:5",
+          "101:1",
+          "104:3"
+        ],
+        "worst": [
+          {
+            "ayah": "101:1",
+            "sim": 0.43,
+            "primary": "Kapı çalan!",
+            "other": "Kâria (kıyamet)"
+          },
+          {
+            "ayah": "109:3",
+            "sim": 0.58,
+            "primary": "\"Benim taptıgıma da sizler tapmazsınız.\"",
+            "other": "Siz de benim taptığıma tapmıyorsunuz"
+          },
+          {
+            "ayah": "109:5",
+            "sim": 0.61,
+            "primary": "\"Benim taptığıma da sizler tapmıyorsunuz.\"",
+            "other": "Evet, siz de benim taptığıma tapıyor değilsiniz"
+          }
+        ],
+        "diacritic_pct": 20.9,
+        "groups": 0
+      }
+    },
+    "summary": "Cross-check over S1, S22, S87-114 (primary tanzil.net tr.vakfi) - mealler.org \"Adem Uğur\": n=373, exact 71.8%, loose 94.1%, sim 0.988; â/î/û in 20.9% of ayat (primary 0.5%); bracket counts differ in 5 ayat (e.g. 1:1, 87:1, 87:5); most divergent 113:4 (sim 0.29) | fawazahmed0/quran-api tur-diyanetvakfi: n=373, exact 1.3%, loose 99.7%, sim 1.0; â/î/û in 0.5% of ayat (primary 0.5%); bracket counts differ in 1 ayat (e.g. 104:3); most divergent 104:3 (sim 0.98) | fawazahmed0/quran-api tur-ademugur: n=373, exact 0.8%, loose 94.4%, sim 0.991; â/î/û in 20.9% of ayat (primary 0.5%); bracket counts differ in 6 ayat (e.g. 1:1, 87:1, 87:5); most divergent 101:1 (sim 0.43)."
+  },
+  "notes_parts": {
     "static": "Identity: wording equals the official grouped TDV meal (kd ML=4) wherever that meal does not group (1:5, 1:7, 93:7) and shows an earlier revision elsewhere (22:46 \"(Sana karşı çıkanlar)\" vs kd \"(Seni yalanlayanlar)\"). The same e-text is labelled \"Adem Uğur\" on mealler.org and fawazahmed0 (tur-ademugur); no evidence was found that it is a separate Adem Uğur translation, so the label is treated as a misattribution of the TDV text (host label kept here for the record).",
     "build": "10 merged verse groups stored once as a..a_end."
   }

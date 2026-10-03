@@ -10,7 +10,7 @@
   "edition": "kuran.diyanet.gov.tr Mushaf, meal ML=4 (official grouped TDV meal)",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "1-2,5-23,25-51,53-68,70-114 + partial 3-4,24,52,69 (6230/6236 ayat)",
+  "coverage": "1-114 (6236/6236 ayat)",
   "urls": [
     "https://kuran.diyanet.gov.tr/mushaf/kuran-meal-1/<slug>-suresi-{s}/ayet-{a}/diyanet-isleri-baskanligi-meali-4  (one request per mushaf page; page JSON MPageDmList)",
     "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='diyanetvakfi+1')",
@@ -34,15 +34,140 @@
     "QuranEnc turkish_shahin",
     "tanzil.net tr.vakfi"
   ],
-  "notes": "TDV \"açıklamalı meal\" explanatory notes are not in the kuran.diyanet page data; attached from kuranmeali.com \"Diyanet Vakfı Meali\" (notes_host). Page-range division of labour (kuranmeali about-page id 14, from the TDV preface): Özek pp. 1-48, 581-604; Karaman 76-126; Çağrıcı 49-62, 281-358; Dönmez 63-75, 358-420, 561-580; Gümüş 127-280; Turgut 421-560. kuran.diyanet ML=4 lacks Turkish letters in some passages (e.g. 108:1-3 \"Kuskusuz\", \"Simdi\", \"süphesiz\") - a host data defect, kept as published. 315 merged verse groups stored once as a..a_end. 477 segments carry notes attached from kuranmeali.com \"Diyanet Vakfı Meali\" (diyanetvakfi) (field notes_host). 477 segments carry footnotes in \"notes\" (423 truncated by the host, flagged notes_truncated). Coverage incomplete (6230/6236); re-run `fetch_meal.py fetch --sources MEAL-TDV` then `build` to resume.",
+  "notes": "TDV \"açıklamalı meal\" explanatory notes are not in the kuran.diyanet page data; attached from kuranmeali.com \"Diyanet Vakfı Meali\" (notes_host). Page-range division of labour (kuranmeali about-page id 14, from the TDV preface): Özek pp. 1-48, 581-604; Karaman 76-126; Çağrıcı 49-62, 281-358; Dönmez 63-75, 358-420, 561-580; Gümüş 127-280; Turgut 421-560. kuran.diyanet ML=4 lacks Turkish letters in some passages (e.g. 108:1-3 \"Kuskusuz\", \"Simdi\", \"süphesiz\") - a host data defect, kept as published. 320 merged verse groups stored once as a..a_end. 1402 segments carry notes attached from kuranmeali.com \"Diyanet Vakfı Meali\" (diyanetvakfi) (field notes_host). 1402 segments carry footnotes in \"notes\" (1154 truncated by the host, flagged notes_truncated). Cross-check over S1, S22, S87-114 (primary kuran.diyanet.gov.tr meal ML=4) - kuranmeali.com \"Diyanet Vakfı Meali\" (diyanetvakfi): n=373, exact 98.7%, loose 98.9%, sim 1.0; â/î/û in 30.6% of ayat (primary 30.8%); most divergent 1:7 (sim 0.98) | mealler.org \"Diyanet Vakfi\": n=373, exact 93.0%, loose 96.8%, sim 0.998; â/î/û in 30.6% of ayat (primary 30.8%); bracket counts differ in 1 ayat (e.g. 113:4); most divergent 113:4 (sim 0.17) | QuranEnc turkish_shahin: n=373, exact 22.0%, loose 26.8%, sim 0.624; â/î/û in 19.8% of ayat (primary 30.8%); bracket counts differ in 130 ayat (e.g. 1:4, 1:5, 22:8); verse groups 0 vs 71; most divergent 89:12 (sim 0.15) | tanzil.net tr.vakfi: n=373, exact 19.3%, loose 33.5%, sim 0.62; â/î/û in 0.5% of ayat (primary 30.8%); bracket counts differ in 125 ayat (e.g. 1:1, 22:8, 22:9); verse groups 0 vs 71; most divergent 89:1 (sim 0.05).",
   "raw_shared": [
     "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/",
     "mealler.org pages: ../MEAL-UNAL/raw/mealler/",
     "quranenc:turkish_shahin: ../MEAL-TDV-QE/raw/",
     "tanzil:tr.vakfi: ../MEAL-TDV-DUZ/raw/"
   ],
-  "_notes_parts": {
+  "crosscheck": {
+    "range": "S1, S22, S87-114",
+    "primary": "kuran.diyanet.gov.tr meal ML=4",
+    "primary_diacritic_pct": 30.8,
+    "primary_groups": 71,
+    "vs": {
+      "kuranmeali.com \"Diyanet Vakfı Meali\" (diyanetvakfi)": {
+        "n": 373,
+        "exact_pct": 98.7,
+        "loose_pct": 98.9,
+        "mean_sim": 1.0,
+        "bracket_diff": 0,
+        "bracket_diff_examples": [],
+        "worst": [
+          {
+            "ayah": "1:7",
+            "sim": 0.98,
+            "primary": "Kendilerine lütuf ve ikramda bulunduğun kimselerin yolunu; gazaba uğramışların ve sapmışların yolunu değil! Âmin.",
+            "other": "Kendilerine lütuf ve ikramda bulunduğun kimselerin yolunu; gazaba uğramışların ve sapmışların yolunu değil!"
+          }
+        ],
+        "diacritic_pct": 30.6,
+        "groups": 71
+      },
+      "mealler.org \"Diyanet Vakfi\"": {
+        "n": 373,
+        "exact_pct": 93.0,
+        "loose_pct": 96.8,
+        "mean_sim": 0.998,
+        "bracket_diff": 1,
+        "bracket_diff_examples": [
+          "113:4"
+        ],
+        "worst": [
+          {
+            "ayah": "113:4",
+            "sim": 0.17,
+            "primary": "De ki: Yarattığı şeylerin şerrinden, karanlığı çöktüğü zaman gecenin şerrinden, düğümlere üfürüp büyü yapan üfürükçülerin şerrinden ve kıskandığı vakit kıskanç ",
+            "other": "“Ve kördüğümlere (felaketlere, içinden çıkılmaz belalara) üfürenlerin (neden olanların) şerrinden.”"
+          },
+          {
+            "ayah": "1:7",
+            "sim": 0.98,
+            "primary": "Kendilerine lütuf ve ikramda bulunduğun kimselerin yolunu; gazaba uğramışların ve sapmışların yolunu değil! Âmin.",
+            "other": "Kendilerine lütuf ve ikramda bulunduğun kimselerin yolunu; gazaba uğramışların ve sapmışların yolunu değil!"
+          }
+        ],
+        "diacritic_pct": 30.6,
+        "groups": 71
+      },
+      "QuranEnc turkish_shahin": {
+        "n": 373,
+        "exact_pct": 22.0,
+        "loose_pct": 26.8,
+        "mean_sim": 0.624,
+        "bracket_diff": 130,
+        "bracket_diff_examples": [
+          "1:4",
+          "1:5",
+          "22:8",
+          "22:9",
+          "22:15"
+        ],
+        "worst": [
+          {
+            "ayah": "89:12",
+            "sim": 0.15,
+            "primary": "Görmedin mi, Rabbin ne yaptı Âd kavmine; direkleri (yüksek binaları) olan, ülkelerde benzeri yaratılmamış İrem şehrine, o vadide kayaları yontan Semûd kavmine, ",
+            "other": "Oralarda kötülüğü çoğalttılar."
+          },
+          {
+            "ayah": "114:6",
+            "sim": 0.15,
+            "primary": "De ki: İnsanların kalplerine vesvese sokan, (insan Allah'ı andığında) pusuya çekilen cin ve insan şeytanının şerrinden insanların Rabbine, insanların Melikine (",
+            "other": "cin ve insanlardan."
+          },
+          {
+            "ayah": "89:7",
+            "sim": 0.15,
+            "primary": "Görmedin mi, Rabbin ne yaptı Âd kavmine; direkleri (yüksek binaları) olan, ülkelerde benzeri yaratılmamış İrem şehrine, o vadide kayaları yontan Semûd kavmine, ",
+            "other": "direkleri (yüksek binaları) olan,"
+          }
+        ],
+        "diacritic_pct": 19.8,
+        "groups": 0
+      },
+      "tanzil.net tr.vakfi": {
+        "n": 373,
+        "exact_pct": 19.3,
+        "loose_pct": 33.5,
+        "mean_sim": 0.62,
+        "bracket_diff": 125,
+        "bracket_diff_examples": [
+          "1:1",
+          "22:8",
+          "22:9",
+          "22:27",
+          "22:28"
+        ],
+        "worst": [
+          {
+            "ayah": "89:1",
+            "sim": 0.05,
+            "primary": "Fecre, on geceye (haccın on gecesine), çifte ve teke, (her şeyi karanlığı ile) örttüğü an geceye yemin ederim ki, akıl sahibi için bunlarda elbette bir yemin (d",
+            "other": "Andolsun Fecre,"
+          },
+          {
+            "ayah": "89:2",
+            "sim": 0.1,
+            "primary": "Fecre, on geceye (haccın on gecesine), çifte ve teke, (her şeyi karanlığı ile) örttüğü an geceye yemin ederim ki, akıl sahibi için bunlarda elbette bir yemin (d",
+            "other": "On geceye,"
+          },
+          {
+            "ayah": "91:4",
+            "sim": 0.11,
+            "primary": "Güneşe ve kuşluk vaktindeki aydınlığına, güneşi takip ettiğinde aya, onu açığa çıkarttığında gündüze, onu örttüğünde geceye, gökyüzüne ve onu bina edene, yere v",
+            "other": "Onu örttüğünde geceye,"
+          }
+        ],
+        "diacritic_pct": 0.5,
+        "groups": 0
+      }
+    },
+    "summary": "Cross-check over S1, S22, S87-114 (primary kuran.diyanet.gov.tr meal ML=4) - kuranmeali.com \"Diyanet Vakfı Meali\" (diyanetvakfi): n=373, exact 98.7%, loose 98.9%, sim 1.0; â/î/û in 30.6% of ayat (primary 30.8%); most divergent 1:7 (sim 0.98) | mealler.org \"Diyanet Vakfi\": n=373, exact 93.0%, loose 96.8%, sim 0.998; â/î/û in 30.6% of ayat (primary 30.8%); bracket counts differ in 1 ayat (e.g. 113:4); most divergent 113:4 (sim 0.17) | QuranEnc turkish_shahin: n=373, exact 22.0%, loose 26.8%, sim 0.624; â/î/û in 19.8% of ayat (primary 30.8%); bracket counts differ in 130 ayat (e.g. 1:4, 1:5, 22:8); verse groups 0 vs 71; most divergent 89:12 (sim 0.15) | tanzil.net tr.vakfi: n=373, exact 19.3%, loose 33.5%, sim 0.62; â/î/û in 0.5% of ayat (primary 30.8%); bracket counts differ in 125 ayat (e.g. 1:1, 22:8, 22:9); verse groups 0 vs 71; most divergent 89:1 (sim 0.05)."
+  },
+  "notes_parts": {
     "static": "TDV \"açıklamalı meal\" explanatory notes are not in the kuran.diyanet page data; attached from kuranmeali.com \"Diyanet Vakfı Meali\" (notes_host). Page-range division of labour (kuranmeali about-page id 14, from the TDV preface): Özek pp. 1-48, 581-604; Karaman 76-126; Çağrıcı 49-62, 281-358; Dönmez 63-75, 358-420, 561-580; Gümüş 127-280; Turgut 421-560. kuran.diyanet ML=4 lacks Turkish letters in some passages (e.g. 108:1-3 \"Kuskusuz\", \"Simdi\", \"süphesiz\") - a host data defect, kept as published.",
-    "build": "315 merged verse groups stored once as a..a_end. 477 segments carry notes attached from kuranmeali.com \"Diyanet Vakfı Meali\" (diyanetvakfi) (field notes_host). 477 segments carry footnotes in \"notes\" (423 truncated by the host, flagged notes_truncated). Coverage incomplete (6230/6236); re-run `fetch_meal.py fetch --sources MEAL-TDV` then `build` to resume."
+    "build": "320 merged verse groups stored once as a..a_end. 1402 segments carry notes attached from kuranmeali.com \"Diyanet Vakfı Meali\" (diyanetvakfi) (field notes_host). 1402 segments carry footnotes in \"notes\" (1154 truncated by the host, flagged notes_truncated)."
   }
 }

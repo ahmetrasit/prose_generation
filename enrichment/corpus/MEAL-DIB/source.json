@@ -10,7 +10,7 @@
   "edition": "kuran.diyanet.gov.tr Mushaf, meal ML=1 (current DİB meal, with verse groups as on the site)",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "1-76,87-114 + partial 77 (5929/6236 ayat)",
+  "coverage": "1-114 (6236/6236 ayat)",
   "urls": [
     "https://kuran.diyanet.gov.tr/mushaf/kuran-tefsir-1/<slug>-suresi-{s}/ayet-{a}/diyanet-isleri-baskanligi-meali-1  (one request per mushaf page; page JSON MPageDmList)",
     "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='diyanetisleriyeni+1')",
@@ -18,8 +18,8 @@
   ],
   "fetched_at": "2026-10-03",
   "files": {
-    "raw/MANIFEST.sha256": "4bec0eb8cd7243f66a3ea43b89bf62740980f10f74091383264af931a32021e0",
-    "_count": "598 files listed in raw/MANIFEST.sha256"
+    "raw/MANIFEST.sha256": "d6ef21d597c8cfba33b38419ffce7d98d3ade8560cce3f2f08be35652b9c8a65",
+    "_count": "606 files listed in raw/MANIFEST.sha256"
   },
   "lineage": "diyanet",
   "relay": null,
@@ -30,13 +30,76 @@
     "kuranmeali.com \"Diyanet İşleri Meali (Yeni)\" (diyanetisleriyeni)",
     "acikkuran.com \"Diyanet İşleri\""
   ],
-  "notes": "Identity: kuranmeali.com about-page (id 13) names the official current DİB meal as prepared by Halil Altuntaş and Muzaffer Şahin; kd ML=1 = kuranmeali \"Diyanet İşleri Meali (Yeni)\" = acikkuran \"Diyanet İşleri\" (see cross-check). The DİB footnotes are not in the kuran.diyanet page data; they are attached from kuranmeali.com (notes_host) where present. kuranmeali's square-bracketed numbers in this meal are footnote markers, not translator additions. 282 merged verse groups stored once as a..a_end. 244 segments carry notes attached from kuranmeali.com \"Diyanet İşleri Meali (Yeni)\" (diyanetisleriyeni) (field notes_host). 244 segments carry footnotes in \"notes\" (178 truncated by the host, flagged notes_truncated). Coverage incomplete (5929/6236); re-run `fetch_meal.py fetch --sources MEAL-DIB` then `build` to resume.",
+  "notes": "Identity: kuranmeali.com about-page (id 13) names the official current DİB meal as prepared by Halil Altuntaş and Muzaffer Şahin; kd ML=1 = kuranmeali \"Diyanet İşleri Meali (Yeni)\" = acikkuran \"Diyanet İşleri\" (see cross-check). The DİB footnotes are not in the kuran.diyanet page data; they are attached from kuranmeali.com (notes_host) where present. kuranmeali's square-bracketed numbers in this meal are footnote markers, not translator additions. 316 merged verse groups stored once as a..a_end. 544 segments carry notes attached from kuranmeali.com \"Diyanet İşleri Meali (Yeni)\" (diyanetisleriyeni) (field notes_host). 544 segments carry footnotes in \"notes\" (344 truncated by the host, flagged notes_truncated). Cross-check over S1, S22, S87-114 (primary kuran.diyanet.gov.tr meal ML=1) - kuranmeali.com \"Diyanet İşleri Meali (Yeni)\" (diyanetisleriyeni): n=373, exact 48.5%, loose 97.6%, sim 1.0; â/î/û in 29.0% of ayat (primary 16.6%); bracket counts differ in 38 ayat (e.g. 1:1, 1:2, 1:3); most divergent 22:8 (sim 0.98) | acikkuran.com \"Diyanet İşleri\": n=373, exact 67.0%, loose 97.3%, sim 1.0; â/î/û in 0.0% of ayat (primary 16.6%); most divergent 22:8 (sim 0.98).",
   "raw_shared": [
     "acikkuran pages: ../MEAL-ISLAMOGLU/raw/acikkuran/",
     "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/"
   ],
-  "_notes_parts": {
+  "crosscheck": {
+    "range": "S1, S22, S87-114",
+    "primary": "kuran.diyanet.gov.tr meal ML=1",
+    "primary_diacritic_pct": 16.6,
+    "primary_groups": 45,
+    "vs": {
+      "kuranmeali.com \"Diyanet İşleri Meali (Yeni)\" (diyanetisleriyeni)": {
+        "n": 373,
+        "exact_pct": 48.5,
+        "loose_pct": 97.6,
+        "mean_sim": 1.0,
+        "bracket_diff": 38,
+        "bracket_diff_examples": [
+          "1:1",
+          "1:2",
+          "1:3",
+          "1:4",
+          "22:3"
+        ],
+        "worst": [
+          {
+            "ayah": "22:8",
+            "sim": 0.98,
+            "primary": "İnsanlardan öylesi de vardır ki, ne bir ilmi, ne bir yol göstericisi, ne de aydınlatıcı bir kitabı olmadığı halde kibirlenerek insanları Allah'ın yolundan saptı",
+            "other": "İnsanlardan öylesi de vardır ki, bir ilmi, bir yol göstericisi, aydınlatıcı bir kitabı olmadığı hâlde kibirlenerek insanları Allah’ın yolundan saptırmak için, A"
+          },
+          {
+            "ayah": "22:9",
+            "sim": 0.98,
+            "primary": "İnsanlardan öylesi de vardır ki, ne bir ilmi, ne bir yol göstericisi, ne de aydınlatıcı bir kitabı olmadığı halde kibirlenerek insanları Allah'ın yolundan saptı",
+            "other": "İnsanlardan öylesi de vardır ki, bir ilmi, bir yol göstericisi, aydınlatıcı bir kitabı olmadığı hâlde kibirlenerek insanları Allah’ın yolundan saptırmak için, A"
+          }
+        ],
+        "diacritic_pct": 29.0,
+        "groups": 45
+      },
+      "acikkuran.com \"Diyanet İşleri\"": {
+        "n": 373,
+        "exact_pct": 67.0,
+        "loose_pct": 97.3,
+        "mean_sim": 1.0,
+        "bracket_diff": 0,
+        "bracket_diff_examples": [],
+        "worst": [
+          {
+            "ayah": "22:8",
+            "sim": 0.98,
+            "primary": "İnsanlardan öylesi de vardır ki, ne bir ilmi, ne bir yol göstericisi, ne de aydınlatıcı bir kitabı olmadığı halde kibirlenerek insanları Allah'ın yolundan saptı",
+            "other": "İnsanlardan öylesi de vardır ki, bir ilmi, bir yol göstericisi, aydınlatıcı bir kitabı olmadığı halde kibirlenerek insanları Allah'ın yolundan saptırmak için, A"
+          },
+          {
+            "ayah": "22:9",
+            "sim": 0.98,
+            "primary": "İnsanlardan öylesi de vardır ki, ne bir ilmi, ne bir yol göstericisi, ne de aydınlatıcı bir kitabı olmadığı halde kibirlenerek insanları Allah'ın yolundan saptı",
+            "other": "İnsanlardan öylesi de vardır ki, bir ilmi, bir yol göstericisi, aydınlatıcı bir kitabı olmadığı halde kibirlenerek insanları Allah'ın yolundan saptırmak için, A"
+          }
+        ],
+        "diacritic_pct": 0.0,
+        "groups": 45
+      }
+    },
+    "summary": "Cross-check over S1, S22, S87-114 (primary kuran.diyanet.gov.tr meal ML=1) - kuranmeali.com \"Diyanet İşleri Meali (Yeni)\" (diyanetisleriyeni): n=373, exact 48.5%, loose 97.6%, sim 1.0; â/î/û in 29.0% of ayat (primary 16.6%); bracket counts differ in 38 ayat (e.g. 1:1, 1:2, 1:3); most divergent 22:8 (sim 0.98) | acikkuran.com \"Diyanet İşleri\": n=373, exact 67.0%, loose 97.3%, sim 1.0; â/î/û in 0.0% of ayat (primary 16.6%); most divergent 22:8 (sim 0.98)."
+  },
+  "notes_parts": {
     "static": "Identity: kuranmeali.com about-page (id 13) names the official current DİB meal as prepared by Halil Altuntaş and Muzaffer Şahin; kd ML=1 = kuranmeali \"Diyanet İşleri Meali (Yeni)\" = acikkuran \"Diyanet İşleri\" (see cross-check). The DİB footnotes are not in the kuran.diyanet page data; they are attached from kuranmeali.com (notes_host) where present. kuranmeali's square-bracketed numbers in this meal are footnote markers, not translator additions.",
-    "build": "282 merged verse groups stored once as a..a_end. 244 segments carry notes attached from kuranmeali.com \"Diyanet İşleri Meali (Yeni)\" (diyanetisleriyeni) (field notes_host). 244 segments carry footnotes in \"notes\" (178 truncated by the host, flagged notes_truncated). Coverage incomplete (5929/6236); re-run `fetch_meal.py fetch --sources MEAL-DIB` then `build` to resume."
+    "build": "316 merged verse groups stored once as a..a_end. 544 segments carry notes attached from kuranmeali.com \"Diyanet İşleri Meali (Yeni)\" (diyanetisleriyeni) (field notes_host). 544 segments carry footnotes in \"notes\" (344 truncated by the host, flagged notes_truncated)."
   }
 }

@@ -354,7 +354,7 @@ def build_segments(sid, rows, explicit_groups=False, strip_prefix=True):
             seg = {'seg': f'{sid}:{s}:{a}', 's': s, 'a': a, 'a_end': a_end, 'page': None, 'text': text}
             if notes:
                 seg['notes'] = notes
-            for k in ('notes_truncated', 'ref', 'head'):
+            for k in ('notes_truncated', 'ref', 'head', 'host_flag'):
                 if r.get(k):
                     seg[k] = r[k]
             if a_end > a:

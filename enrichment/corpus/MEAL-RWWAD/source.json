@@ -28,8 +28,49 @@
   "cross_witnesses": [
     "fawazahmed0/quran-api tur-wwwislamhouseco"
   ],
-  "notes": "fawaz \"www.islamhouse.com\" = this text (~99%). ~26% identical to MEAL-DIB: draws on the DİB meal. 29 segments carry footnotes in \"notes\".",
-  "_notes_parts": {
+  "notes": "fawaz \"www.islamhouse.com\" = this text (~99%). ~26% identical to MEAL-DIB: draws on the DİB meal. 29 segments carry footnotes in \"notes\". Cross-check over S1, S22, S87-114 (primary QuranEnc turkish_rwwad) - fawazahmed0/quran-api tur-wwwislamhouseco: n=373, exact 0.8%, loose 98.7%, sim 0.997; â/î/û in 12.9% of ayat (primary 13.7%); bracket counts differ in 1 ayat (e.g. 90:13); verse groups 1 vs 0; most divergent 87:14 (sim 0.06).",
+  "crosscheck": {
+    "range": "S1, S22, S87-114",
+    "primary": "QuranEnc turkish_rwwad",
+    "primary_diacritic_pct": 13.7,
+    "primary_groups": 0,
+    "vs": {
+      "fawazahmed0/quran-api tur-wwwislamhouseco": {
+        "n": 373,
+        "exact_pct": 0.8,
+        "loose_pct": 98.7,
+        "mean_sim": 0.997,
+        "bracket_diff": 1,
+        "bracket_diff_examples": [
+          "90:13"
+        ],
+        "worst": [
+          {
+            "ayah": "87:14",
+            "sim": 0.06,
+            "primary": "Arınan kimse mutlaka kurtuluşa erer.",
+            "other": "Sonra onun içinde ne ölür, ne de yaşar"
+          },
+          {
+            "ayah": "101:4",
+            "sim": 0.93,
+            "primary": "O gün insanlar, her biri bir tarafa uçuşan kelebekler gibi olacaktır.",
+            "other": "O gün insanlar, her biri bir tarafa uçuşan pervaneler gibi olacaktır"
+          },
+          {
+            "ayah": "90:13",
+            "sim": 0.95,
+            "primary": "(O) Köle azat etmektir.",
+            "other": "Köle azat etmektir"
+          }
+        ],
+        "diacritic_pct": 12.9,
+        "groups": 1
+      }
+    },
+    "summary": "Cross-check over S1, S22, S87-114 (primary QuranEnc turkish_rwwad) - fawazahmed0/quran-api tur-wwwislamhouseco: n=373, exact 0.8%, loose 98.7%, sim 0.997; â/î/û in 12.9% of ayat (primary 13.7%); bracket counts differ in 1 ayat (e.g. 90:13); verse groups 1 vs 0; most divergent 87:14 (sim 0.06)."
+  },
+  "notes_parts": {
     "static": "fawaz \"www.islamhouse.com\" = this text (~99%). ~26% identical to MEAL-DIB: draws on the DİB meal.",
     "build": "29 segments carry footnotes in \"notes\"."
   }

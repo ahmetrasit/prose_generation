@@ -30,12 +30,93 @@
     "acikkuran.com \"Süleymaniye Vakfı\"",
     "mealler.org \"Süleymaniye Vakfı\""
   ],
-  "notes": "The meal is revised continuously (kuranmeali about-page id 32). Versions found: publisher site (primary) ~80% = acikkuran author 52; mealler.org \"Süleymaniye Vakfı\" a further, different version (~4% identical to the current text); the old edition is MEAL-SULEYMANIYE-ESKI (acikkuran 117 = kuranmeali \"abayindir\"). [*] / [1*] in the text are the site's footnote markers. 5657 segments carry footnotes in \"notes\".",
+  "notes": "The meal is revised continuously (kuranmeali about-page id 32). Versions found: publisher site (primary) ~80% = acikkuran author 52; mealler.org \"Süleymaniye Vakfı\" a further, different version (~4% identical to the current text); the old edition is MEAL-SULEYMANIYE-ESKI (acikkuran 117 = kuranmeali \"abayindir\"). [*] / [1*] in the text are the site's footnote markers. 5657 segments carry footnotes in \"notes\". Cross-check over S1, S22, S87-114 (primary suleymaniyevakfimeali.com) - acikkuran.com \"Süleymaniye Vakfı\": n=373, exact 10.5%, loose 79.6%, sim 0.969; â/î/û in 0.0% of ayat (primary 8.6%); bracket counts differ in 35 ayat (e.g. 1:3, 1:4, 1:6); most divergent 22:52 (sim 0.45) | mealler.org \"Süleymaniye Vakfı\": n=373, exact 0.3%, loose 3.8%, sim 0.553; â/î/û in 22.8% of ayat (primary 8.6%); bracket counts differ in 336 ayat (e.g. 1:1, 1:2, 1:3); most divergent 110:1 (sim 0.01).",
   "raw_shared": [
     "acikkuran pages: ../MEAL-ISLAMOGLU/raw/acikkuran/",
     "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
   ],
-  "_notes_parts": {
+  "crosscheck": {
+    "range": "S1, S22, S87-114",
+    "primary": "suleymaniyevakfimeali.com",
+    "primary_diacritic_pct": 8.6,
+    "primary_groups": 0,
+    "vs": {
+      "acikkuran.com \"Süleymaniye Vakfı\"": {
+        "n": 373,
+        "exact_pct": 10.5,
+        "loose_pct": 79.6,
+        "mean_sim": 0.969,
+        "bracket_diff": 35,
+        "bracket_diff_examples": [
+          "1:3",
+          "1:4",
+          "1:6",
+          "22:1",
+          "22:5"
+        ],
+        "worst": [
+          {
+            "ayah": "22:52",
+            "sim": 0.45,
+            "primary": "Senden önce, bir beklentiye girdiğinde onun beklentisine şeytanın bir şey katmadığı ne bir elçi gönderdik ne de bir nebi. Arkasından Allah, (gerçeği ortaya koya",
+            "other": "Senden önce gönderdiğimiz hiçbir resul ve nebi yoktur ki bir şeyi arzu ettiğinde şeytan onun arzusuna bir şey katmış olmasın[1]. Ama Allah, şeytanın kattığını h"
+          },
+          {
+            "ayah": "22:7",
+            "sim": 0.55,
+            "primary": "kendisinde hiç şüphe olmayan saatin mutlaka gelecek olması[1*] ve Allah’ın kabirlerde olanları mutlaka diriltecek olması sebebiyledir.[2*]",
+            "other": "Bir de o saat gelecektir, onda şüpheye yer yoktur[1] ve Allah kabirlerde olanları kaldıracaktır[2]."
+          },
+          {
+            "ayah": "22:4",
+            "sim": 0.61,
+            "primary": "Şeytan hakkında yazılan şudur: Kim onu, kendine veli edinirse /yakın bilirse o, mutlaka onu saptırır ve alevli ateşin azabına yönlendirir.[*]",
+            "other": "Şeytanla ilgili karar şudur: \"O, kendini veli /dost edineni saptırır ve alevli ateşe yöneltir[1].\""
+          }
+        ],
+        "diacritic_pct": 0.0,
+        "groups": 0
+      },
+      "mealler.org \"Süleymaniye Vakfı\"": {
+        "n": 373,
+        "exact_pct": 0.3,
+        "loose_pct": 3.8,
+        "mean_sim": 0.553,
+        "bracket_diff": 336,
+        "bracket_diff_examples": [
+          "1:1",
+          "1:2",
+          "1:3",
+          "1:5",
+          "1:6"
+        ],
+        "worst": [
+          {
+            "ayah": "110:1",
+            "sim": 0.01,
+            "primary": "(Ey Muhammed!) Allah’ın yardımı gelip o fetih (Mekke’nin fethi) gerçekleştiğinde[*]",
+            "other": "Allah’ın yardımı gelip Fetih gerçekleştiğinde [*] [*] Mekkeli müşrikler Müslümanlara baskıyı artırınca şu âyetler inmişti: “(Ya Muhammed!) Seni bu topraklardan "
+          },
+          {
+            "ayah": "113:4",
+            "sim": 0.01,
+            "primary": "(insanlar arasındaki) bağları[1*] (koparmak için) konuşup duranların[2*] şerrinden,[3*]",
+            "other": "ilişkilere [1*] fesat karıştıranların [2*] şerrinden. [1*] İlişkiler diye meal verdiğimiz kelime ukde (العقدة)nin çoğulu ukad (الْعُقَدِ) dır, sağlam kurulan he"
+          },
+          {
+            "ayah": "96:2",
+            "sim": 0.02,
+            "primary": "O, insanı rahim duvarına asılı embriyodan yaratmıştır.[*]",
+            "other": "O, insanları birbirine bağımlı olarak [*] yaratmıştır. [*] (علق)=alak'ın kök anlamı, bir şeyin üstteki şeyle ilişkilendirmesidir. Döllendikten sonra rahim cidar"
+          }
+        ],
+        "diacritic_pct": 22.8,
+        "groups": 0
+      }
+    },
+    "summary": "Cross-check over S1, S22, S87-114 (primary suleymaniyevakfimeali.com) - acikkuran.com \"Süleymaniye Vakfı\": n=373, exact 10.5%, loose 79.6%, sim 0.969; â/î/û in 0.0% of ayat (primary 8.6%); bracket counts differ in 35 ayat (e.g. 1:3, 1:4, 1:6); most divergent 22:52 (sim 0.45) | mealler.org \"Süleymaniye Vakfı\": n=373, exact 0.3%, loose 3.8%, sim 0.553; â/î/û in 22.8% of ayat (primary 8.6%); bracket counts differ in 336 ayat (e.g. 1:1, 1:2, 1:3); most divergent 110:1 (sim 0.01)."
+  },
+  "notes_parts": {
     "static": "The meal is revised continuously (kuranmeali about-page id 32). Versions found: publisher site (primary) ~80% = acikkuran author 52; mealler.org \"Süleymaniye Vakfı\" a further, different version (~4% identical to the current text); the old edition is MEAL-SULEYMANIYE-ESKI (acikkuran 117 = kuranmeali \"abayindir\"). [*] / [1*] in the text are the site's footnote markers.",
     "build": "5657 segments carry footnotes in \"notes\"."
   }

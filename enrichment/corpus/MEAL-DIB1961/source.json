@@ -34,12 +34,114 @@
     "mealler.org \"Diyanet İşleri (eski)\"",
     "mealler.org \"Bekir Sadak\""
   ],
-  "notes": "Identity: kuranmeali.com about-page (id 11): e-text of the DİB meal, first edition 1961, prepared by Dr. Hüseyin Atay and Dr. Yaşar Kutluay under Hasan Hüsnü Erdem and Yusuf Ziyaeddin Ersal, revised by a committee chaired by Mahir İz; used by DİB until c. 1990. tanzil tr.diyanet = fawaz tur-diyanetisleri = kuranmeali \"Diyanet İşleri Meali (Eski)\" = mealler.org \"Diyanet İşleri (eski)\". mealler.org \"Bekir Sadak\" is also this text (~88% identical, ASCII-ised variants), i.e. a mislabelled copy. tanzil represents a merged verse group by repeating the group text on each ayah; consecutive identical ayat are stored once as a..a_end (except Arabic near-twins such as 94:5-6, 102:3-4). 571 merged verse groups stored once as a..a_end.",
+  "notes": "Identity: kuranmeali.com about-page (id 11): e-text of the DİB meal, first edition 1961, prepared by Dr. Hüseyin Atay and Dr. Yaşar Kutluay under Hasan Hüsnü Erdem and Yusuf Ziyaeddin Ersal, revised by a committee chaired by Mahir İz; used by DİB until c. 1990. tanzil tr.diyanet = fawaz tur-diyanetisleri = kuranmeali \"Diyanet İşleri Meali (Eski)\" = mealler.org \"Diyanet İşleri (eski)\". mealler.org \"Bekir Sadak\" is also this text (~88% identical, ASCII-ised variants), i.e. a mislabelled copy. tanzil represents a merged verse group by repeating the group text on each ayah; consecutive identical ayat are stored once as a..a_end (except Arabic near-twins such as 94:5-6, 102:3-4). 571 merged verse groups stored once as a..a_end. Cross-check over S1, S22, S87-114 (primary tanzil.net tr.diyanet) - fawazahmed0/quran-api tur-diyanetisleri: n=373, exact 1.1%, loose 100.0%, sim 1.0; â/î/û in 0.0% of ayat (primary 0.0%) | kuranmeali.com \"Diyanet İşleri Meali (Eski)\" (diyanetislerieski): n=373, exact 93.8%, loose 99.7%, sim 1.0; â/î/û in 0.0% of ayat (primary 0.0%); bracket counts differ in 1 ayat (e.g. 88:6); verse groups 44 vs 46; most divergent 88:6 (sim 0.97) | mealler.org \"Diyanet İşleri (eski)\": n=373, exact 90.3%, loose 99.5%, sim 0.996; â/î/û in 0.0% of ayat (primary 0.0%); bracket counts differ in 1 ayat (e.g. 96:7); verse groups 44 vs 46; most divergent 113:4 (sim 0.26) | mealler.org \"Bekir Sadak\": n=373, exact 1.3%, loose 87.1%, sim 0.991; â/î/û in 0.0% of ayat (primary 0.0%); bracket counts differ in 11 ayat (e.g. 88:6, 88:7, 90:1); verse groups 45 vs 46; most divergent 22:14 (sim 0.03).",
   "raw_shared": [
     "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/",
     "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
   ],
-  "_notes_parts": {
+  "crosscheck": {
+    "range": "S1, S22, S87-114",
+    "primary": "tanzil.net tr.diyanet",
+    "primary_diacritic_pct": 0.0,
+    "primary_groups": 46,
+    "vs": {
+      "fawazahmed0/quran-api tur-diyanetisleri": {
+        "n": 373,
+        "exact_pct": 1.1,
+        "loose_pct": 100.0,
+        "mean_sim": 1.0,
+        "bracket_diff": 0,
+        "bracket_diff_examples": [],
+        "worst": [],
+        "diacritic_pct": 0.0,
+        "groups": 46
+      },
+      "kuranmeali.com \"Diyanet İşleri Meali (Eski)\" (diyanetislerieski)": {
+        "n": 373,
+        "exact_pct": 93.8,
+        "loose_pct": 99.7,
+        "mean_sim": 1.0,
+        "bracket_diff": 1,
+        "bracket_diff_examples": [
+          "88:6"
+        ],
+        "worst": [
+          {
+            "ayah": "88:6",
+            "sim": 0.97,
+            "primary": "Semirtmeyen, açlığı gidermeyen kötü kokulu (kuru) bir dikenden başka yiyecekleri yoktur.",
+            "other": "Semirtmeyen, açlığı gidermeyen kötü kokulu bir dikenden başka yiyecekleri yoktur."
+          }
+        ],
+        "diacritic_pct": 0.0,
+        "groups": 44
+      },
+      "mealler.org \"Diyanet İşleri (eski)\"": {
+        "n": 373,
+        "exact_pct": 90.3,
+        "loose_pct": 99.5,
+        "mean_sim": 0.996,
+        "bracket_diff": 1,
+        "bracket_diff_examples": [
+          "96:7"
+        ],
+        "worst": [
+          {
+            "ayah": "113:4",
+            "sim": 0.26,
+            "primary": "De ki: \"Yaratıkların şerrinden, bastırdığı zaman karanlığın şerrinden, düğümlere nefes eden büyücülerin şerrinden, hased ettiği zaman hasedcilerin şerrinden, ta",
+            "other": "Düğümlere üfürenlerin şerrinden,"
+          },
+          {
+            "ayah": "96:7",
+            "sim": 0.42,
+            "primary": "Ama, insanoğlu kendini müstağni sayarak azgınlık eder.",
+            "other": "(Benliğiyle perdelenip) kendini (hakikatten) müstağni gördüğü için."
+          }
+        ],
+        "diacritic_pct": 0.0,
+        "groups": 44
+      },
+      "mealler.org \"Bekir Sadak\"": {
+        "n": 373,
+        "exact_pct": 1.3,
+        "loose_pct": 87.1,
+        "mean_sim": 0.991,
+        "bracket_diff": 11,
+        "bracket_diff_examples": [
+          "88:6",
+          "88:7",
+          "90:1",
+          "90:2",
+          "92:19"
+        ],
+        "worst": [
+          {
+            "ayah": "22:14",
+            "sim": 0.03,
+            "primary": "Doğrusu Allah, inananları ve yararlı işler işleyenleri, içlerinden ırmaklar akan cennetlere koyar. Allah, şüphesiz, istediğini yapar.",
+            "other": "N/A"
+          },
+          {
+            "ayah": "90:3",
+            "sim": 0.29,
+            "primary": "Doğurana ve doğurduğuna and olsun ki;",
+            "other": "Ve andolsun babaya ve ondan meydana gelen çocuğa,"
+          },
+          {
+            "ayah": "22:52",
+            "sim": 0.64,
+            "primary": "Senden önce gönderdiğimiz hiçbir resul ve nebi yoktur ki, birşeyi arzuladığı zaman, şeytan onun arzusuna vesvese karıştırmamış olsun. Fakat Allah, şeytanın attı",
+            "other": "Senden once gonderdigimiz hicbir elci ve peygamber yoktur ki, birseyi arzuladigi zaman, seytan onun arzusuna vesvese karistirmamis olsun."
+          }
+        ],
+        "diacritic_pct": 0.0,
+        "groups": 45
+      }
+    },
+    "summary": "Cross-check over S1, S22, S87-114 (primary tanzil.net tr.diyanet) - fawazahmed0/quran-api tur-diyanetisleri: n=373, exact 1.1%, loose 100.0%, sim 1.0; â/î/û in 0.0% of ayat (primary 0.0%) | kuranmeali.com \"Diyanet İşleri Meali (Eski)\" (diyanetislerieski): n=373, exact 93.8%, loose 99.7%, sim 1.0; â/î/û in 0.0% of ayat (primary 0.0%); bracket counts differ in 1 ayat (e.g. 88:6); verse groups 44 vs 46; most divergent 88:6 (sim 0.97) | mealler.org \"Diyanet İşleri (eski)\": n=373, exact 90.3%, loose 99.5%, sim 0.996; â/î/û in 0.0% of ayat (primary 0.0%); bracket counts differ in 1 ayat (e.g. 96:7); verse groups 44 vs 46; most divergent 113:4 (sim 0.26) | mealler.org \"Bekir Sadak\": n=373, exact 1.3%, loose 87.1%, sim 0.991; â/î/û in 0.0% of ayat (primary 0.0%); bracket counts differ in 11 ayat (e.g. 88:6, 88:7, 90:1); verse groups 45 vs 46; most divergent 22:14 (sim 0.03)."
+  },
+  "notes_parts": {
     "static": "Identity: kuranmeali.com about-page (id 11): e-text of the DİB meal, first edition 1961, prepared by Dr. Hüseyin Atay and Dr. Yaşar Kutluay under Hasan Hüsnü Erdem and Yusuf Ziyaeddin Ersal, revised by a committee chaired by Mahir İz; used by DİB until c. 1990. tanzil tr.diyanet = fawaz tur-diyanetisleri = kuranmeali \"Diyanet İşleri Meali (Eski)\" = mealler.org \"Diyanet İşleri (eski)\". mealler.org \"Bekir Sadak\" is also this text (~88% identical, ASCII-ised variants), i.e. a mislabelled copy. tanzil represents a merged verse group by repeating the group text on each ayah; consecutive identical ayat are stored once as a..a_end (except Arabic near-twins such as 94:5-6, 102:3-4).",
     "build": "571 merged verse groups stored once as a..a_end."
   }

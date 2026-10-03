@@ -10,7 +10,7 @@
   "edition": "kuranmeali.com about-page (Aciklama.php?id=104&islem=mealbilgi): Kur'an-Açıklamalı Meal Orhan Kuntman Meali | 1922 yılında Kayseri’nin Talas ilçesinde doğdu. İlk ve orta öğrenimini Erzurum, Ordu, Kars illerinde; Lise eğitimini İstanbul Kabataş Erkek Lisesinde tamamladı.1944 yılında İstanbul Tıp Fakültesini bitirdi ve aynı fakültede uzmanlık eğitimine başlayarak 1949 yılında İç Hastalıkları uzmanı oldu. Bir süre aynı anabilim dalında araştırmalar yaptıktan sonra",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "1-8,22,87-114 + partial 9 (1714/6236 ayat)",
+  "coverage": "1-114 (6236/6236 ayat)",
   "urls": [
     "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='orhankuntman+1')"
   ],
@@ -22,12 +22,12 @@
   "panel": false,
   "host_label": "kuranmeali.com \"Orhan Kuntman Meali\" (orhankuntman)",
   "cross_witnesses": [],
-  "notes": "45 merged verse groups stored once as a..a_end. 40 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 237 segments carry footnotes in \"notes\" (189 truncated by the host, flagged notes_truncated). Coverage incomplete (1714/6236); re-run `fetch_meal.py fetch --sources MEAL-KUNTMAN` then `build` to resume.",
+  "notes": "239 merged verse groups stored once as a..a_end. 231 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 627 segments carry footnotes in \"notes\" (502 truncated by the host, flagged notes_truncated).",
   "raw_shared": [
     "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/"
   ],
-  "_notes_parts": {
+  "notes_parts": {
     "static": "",
-    "build": "45 merged verse groups stored once as a..a_end. 40 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 237 segments carry footnotes in \"notes\" (189 truncated by the host, flagged notes_truncated). Coverage incomplete (1714/6236); re-run `fetch_meal.py fetch --sources MEAL-KUNTMAN` then `build` to resume."
+    "build": "239 merged verse groups stored once as a..a_end. 231 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 627 segments carry footnotes in \"notes\" (502 truncated by the host, flagged notes_truncated)."
   }
 }

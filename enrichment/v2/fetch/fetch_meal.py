@@ -225,6 +225,28 @@ def build_one(src, today):
     segs, info = build_segments(sid, rows, explicit_groups=explicit, strip_prefix=not explicit)
     for g in segs:
         g.pop('title', None)
+    # ayat the primary host lacks: take them from the first cross witness that has them, flagged
+    filled = []
+    if src['cross'] and h != 'kdtefsir':
+        cov = coverage_of(segs)
+        gaps = [x for x in all_ayat(range(1, 115)) if x not in cov]
+        if gaps:
+            for cw in src['cross']:
+                try:
+                    crow = load_witness(cw)
+                except FileNotFoundError:
+                    continue
+                cexp = expand(build_segments(sid, crow, explicit_groups=wsplit(cw)[0] in ('kd', 'svm'),
+                                             strip_prefix=wsplit(cw)[0] not in ('kd', 'svm'))[0])
+                for x in list(gaps):
+                    if cexp.get(x):
+                        segs.append({'seg': f'{sid}:{x[0]}:{x[1]}', 's': x[0], 'a': x[1], 'a_end': x[1], 'page': None,
+                                     'text': cexp[x], 'host_flag': f'missing on primary host; text from {witness_label(cw)}'})
+                        filled.append(f'{x[0]}:{x[1]}')
+                        gaps.remove(x)
+                if not gaps:
+                    break
+            segs.sort(key=lambda g: (g['s'], g['a']))
     attached = 0
     if src.get('notes_from'):
         nrows = load_witness(src['notes_from'])
@@ -267,6 +289,8 @@ def build_one(src, today):
         build_notes.append(f'{info["merged_groups"]} merged verse groups stored once as a..a_end.')
     if info['prefix_stripped']:
         build_notes.append(f'{info["prefix_stripped"]} host verse-number prefixes (e.g. "6, 7.", "(6-7)") removed from the text; the range is in a..a_end.')
+    if filled:
+        build_notes.append(f'{len(filled)} ayat missing on the primary host filled from a cross witness (field host_flag): {", ".join(filled[:10])}.')
     if attached:
         build_notes.append(f'{attached} segments carry notes attached from {witness_label(src["notes_from"])} (field notes_host).')
     if withnotes:
@@ -298,13 +322,13 @@ def build_one(src, today):
     obj['_build_notes'] = ' '.join(build_notes)
     obj['notes'] = compose_notes(obj)
     obj.pop('_static_notes'); obj.pop('_build_notes')
-    obj['_notes_parts'] = {'static': src.get('notes') or '', 'build': ' '.join(build_notes)}
+    obj['notes_parts'] = {'static': src.get('notes') or '', 'build': ' '.join(build_notes)}
     save_source_json(sid, obj)
     return obj, len(cov), info['merged_groups']
 
 
 def compose_notes(obj):
-    parts = obj.get('_notes_parts') or {}
+    parts = obj.get('notes_parts') or {}
     static = obj.get('_static_notes', parts.get('static', ''))
     build = obj.get('_build_notes', parts.get('build', ''))
     out = [x for x in (static, build) if x]

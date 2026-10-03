@@ -10,7 +10,7 @@
   "edition": "kuranmeali.com about-page (Aciklama.php?id=9&islem=mealbilgi): Yeni Bir Anlayışın Işığında Kur'an Meali Bayraktar Bayraklı Meali | 1947’de Rize’nin Güneyce Nahiyesi’nde doğdu. İlkokulu ve hafızlığı köyünde tamamladı. 1968’de İstanbul İmam-Hatip Okulunu, 1969’da İstanbul Eyüp Lisesini, 1972’de Istanbul Yüksek Islam Enstitüsünü, 1977’de Istanbul Üniversitesi Edebiyat Fakültesi Sosyoloji Bölümünü bitirdi. | 1982’de \"Farabi’de Devlet Felsefesi\" adlı teziyle İstan",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "1-8,22,87-114 + partial 9 (1702/6236 ayat)",
+  "coverage": "1-114 (6236/6236 ayat)",
   "urls": [
     "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='bayraktar+1')",
     "https://acikkuran.com/{slug}/{a}-ayet-meali.md  (section \"### Bayraktar Bayraklı\"); whole surah without footnotes: https://acikkuran.com/{slug}.md?author=8",
@@ -27,14 +27,77 @@
     "acikkuran.com \"Bayraktar Bayraklı\"",
     "mealler.org \"Bayraktar Bayraklı\""
   ],
-  "notes": "71 merged verse groups stored once as a..a_end. 71 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 248 segments carry footnotes in \"notes\" (31 truncated by the host, flagged notes_truncated). Coverage incomplete (1702/6236); re-run `fetch_meal.py fetch --sources MEAL-BAYRAKLI` then `build` to resume.",
+  "notes": "399 merged verse groups stored once as a..a_end. 397 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 773 segments carry footnotes in \"notes\" (89 truncated by the host, flagged notes_truncated). Cross-check over S1, S22, S87-114 (primary kuranmeali.com \"Bayraktar Bayraklı Meali\" (bayraktar)) - acikkuran.com \"Bayraktar Bayraklı\": n=373, exact 27.1%, loose 95.4%, sim 0.998; â/î/û in 0.0% of ayat (primary 24.4%); bracket counts differ in 123 ayat (e.g. 1:1, 1:2, 1:3); verse groups 56 vs 58; most divergent 1:7 (sim 0.58) | mealler.org \"Bayraktar Bayraklı\": n=373, exact 66.8%, loose 99.7%, sim 0.998; â/î/û in 24.4% of ayat (primary 24.4%); bracket counts differ in 123 ayat (e.g. 1:1, 1:2, 1:3); most divergent 113:4 (sim 0.31).",
   "raw_shared": [
     "acikkuran pages: ../MEAL-ISLAMOGLU/raw/acikkuran/",
     "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/",
     "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
   ],
-  "_notes_parts": {
+  "crosscheck": {
+    "range": "S1, S22, S87-114",
+    "primary": "kuranmeali.com \"Bayraktar Bayraklı Meali\" (bayraktar)",
+    "primary_diacritic_pct": 24.4,
+    "primary_groups": 58,
+    "vs": {
+      "acikkuran.com \"Bayraktar Bayraklı\"": {
+        "n": 373,
+        "exact_pct": 27.1,
+        "loose_pct": 95.4,
+        "mean_sim": 0.998,
+        "bracket_diff": 123,
+        "bracket_diff_examples": [
+          "1:1",
+          "1:2",
+          "1:3",
+          "1:4",
+          "1:6"
+        ],
+        "worst": [
+          {
+            "ayah": "1:7",
+            "sim": 0.58,
+            "primary": "Bizi doğru yola, yani kendilerini nimetlendirdiklerinin yoluna ilet; gazaba uğramışların ve sapıkların yoluna değil![5]",
+            "other": "gazaba uğramışların ve sapıkların yoluna değil!"
+          },
+          {
+            "ayah": "1:6",
+            "sim": 0.74,
+            "primary": "Bizi doğru yola, yani kendilerini nimetlendirdiklerinin yoluna ilet; gazaba uğramışların ve sapıkların yoluna değil![5]",
+            "other": "Bizi doğru yola,yani kendilerini nimetlendirdiklerinin yoluna ilet;"
+          }
+        ],
+        "diacritic_pct": 0.0,
+        "groups": 56
+      },
+      "mealler.org \"Bayraktar Bayraklı\"": {
+        "n": 373,
+        "exact_pct": 66.8,
+        "loose_pct": 99.7,
+        "mean_sim": 0.998,
+        "bracket_diff": 123,
+        "bracket_diff_examples": [
+          "1:1",
+          "1:2",
+          "1:3",
+          "1:4",
+          "1:6"
+        ],
+        "worst": [
+          {
+            "ayah": "113:4",
+            "sim": 0.31,
+            "primary": "Yarattığı her şeyin şerrinden, kapladığında karanlığın şerrinden, düğümlere üfürenlerin şerrinden, haset edenin haset ettiği zamanki şerrinden.",
+            "other": "Düğümlere üfleyip tüküren büyücü kadınların şerrinden."
+          }
+        ],
+        "diacritic_pct": 24.4,
+        "groups": 58
+      }
+    },
+    "summary": "Cross-check over S1, S22, S87-114 (primary kuranmeali.com \"Bayraktar Bayraklı Meali\" (bayraktar)) - acikkuran.com \"Bayraktar Bayraklı\": n=373, exact 27.1%, loose 95.4%, sim 0.998; â/î/û in 0.0% of ayat (primary 24.4%); bracket counts differ in 123 ayat (e.g. 1:1, 1:2, 1:3); verse groups 56 vs 58; most divergent 1:7 (sim 0.58) | mealler.org \"Bayraktar Bayraklı\": n=373, exact 66.8%, loose 99.7%, sim 0.998; â/î/û in 24.4% of ayat (primary 24.4%); bracket counts differ in 123 ayat (e.g. 1:1, 1:2, 1:3); most divergent 113:4 (sim 0.31)."
+  },
+  "notes_parts": {
     "static": "",
-    "build": "71 merged verse groups stored once as a..a_end. 71 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 248 segments carry footnotes in \"notes\" (31 truncated by the host, flagged notes_truncated). Coverage incomplete (1702/6236); re-run `fetch_meal.py fetch --sources MEAL-BAYRAKLI` then `build` to resume."
+    "build": "399 merged verse groups stored once as a..a_end. 397 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 773 segments carry footnotes in \"notes\" (89 truncated by the host, flagged notes_truncated)."
   }
 }

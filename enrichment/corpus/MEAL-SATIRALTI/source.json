@@ -10,7 +10,7 @@
   "edition": "kuranmeali.com about-page (Aciklama.php?id=43&islem=mealbilgi): Anonim Satıraltı Kur'an Tercümesi Satıraltı Meal (1534) | Bu meal Selçuk Üniversitesi Edebiyat Fakültesi-Türk Dili ve Edebiyatı Bölüm Başkanı Prof. Dr. Mustafa TOKER tarafından hazırlanan \"ANONİM SATIR ALTI KUR’AN TERCÜMESİ (İnceleme‐Metin‐Tıpkıbasım Örnekleri)\" isimli eserden alınmıştır. | Meal ile ilgili olarak sözkonusu eserde şu bilgilere yer verilmektedir: | \"Üzerinde çalıştığımız eserin, her",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "1,3-8,22,87-114 + partial 2,9 (1715/6236 ayat)",
+  "coverage": "1,3-114 + partial 2 (6235/6236 ayat)",
   "urls": [
     "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='satiralti+1')"
   ],
@@ -22,12 +22,12 @@
   "panel": false,
   "host_label": "kuranmeali.com \"Satıraltı Meal (1534)\" (satiralti)",
   "cross_witnesses": [],
-  "notes": "Historical interlinear text as presented by kuranmeali.com; edition not stated on the host. 1 ayat empty on the host: 2:1 Coverage incomplete (1715/6236); re-run `fetch_meal.py fetch --sources MEAL-SATIRALTI` then `build` to resume.",
+  "notes": "Historical interlinear text as presented by kuranmeali.com; edition not stated on the host. 2 merged verse groups stored once as a..a_end. 1 ayat empty on the host: 2:1 Coverage incomplete (6235/6236); re-run `fetch_meal.py fetch --sources MEAL-SATIRALTI` then `build` to resume.",
   "raw_shared": [
     "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/"
   ],
-  "_notes_parts": {
+  "notes_parts": {
     "static": "Historical interlinear text as presented by kuranmeali.com; edition not stated on the host.",
-    "build": "1 ayat empty on the host: 2:1 Coverage incomplete (1715/6236); re-run `fetch_meal.py fetch --sources MEAL-SATIRALTI` then `build` to resume."
+    "build": "2 merged verse groups stored once as a..a_end. 1 ayat empty on the host: 2:1 Coverage incomplete (6235/6236); re-run `fetch_meal.py fetch --sources MEAL-SATIRALTI` then `build` to resume."
   }
 }

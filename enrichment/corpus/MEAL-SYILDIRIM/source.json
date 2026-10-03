@@ -10,7 +10,7 @@
   "edition": "kuranmeali.com about-page (Aciklama.php?id=23&islem=mealbilgi): Kur'an-ı Hakim'in Açıklamalı Meali Suat Yıldırım Meali",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "1-8,22,87-114 + partial 9 (1698/6236 ayat)",
+  "coverage": "1-114 (6236/6236 ayat)",
   "urls": [
     "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='syildirim+1')",
     "https://tanzil.net/trans/?transID=tr.yildirim&type=txt-2",
@@ -32,13 +32,105 @@
     "fawazahmed0/quran-api tur-suatyildirim",
     "mealler.org \"Suat Yıldırım\""
   ],
-  "notes": "kuranmeali text = tanzil tr.yildirim, plus footnotes. fawaz tur-suatyildirim and mealler.org carry a different edition (~80%). 68 merged verse groups stored once as a..a_end. 73 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 485 segments carry footnotes in \"notes\" (432 truncated by the host, flagged notes_truncated). Coverage incomplete (1698/6236); re-run `fetch_meal.py fetch --sources MEAL-SYILDIRIM` then `build` to resume.",
+  "notes": "kuranmeali text = tanzil tr.yildirim, plus footnotes. fawaz tur-suatyildirim and mealler.org carry a different edition (~80%). 442 merged verse groups stored once as a..a_end. 446 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 1292 segments carry footnotes in \"notes\" (1092 truncated by the host, flagged notes_truncated). Cross-check over S1, S22, S87-114 (primary kuranmeali.com \"Suat Yıldırım Meali\" (syildirim)) - tanzil.net tr.yildirim: n=373, exact 64.6%, loose 100.0%, sim 1.0; â/î/û in 26.3% of ayat (primary 26.3%) | fawazahmed0/quran-api tur-suatyildirim: n=373, exact 0.5%, loose 82.0%, sim 0.989; â/î/û in 26.3% of ayat (primary 26.3%); bracket counts differ in 57 ayat (e.g. 1:1, 1:4, 1:5); most divergent 112:3 (sim 0.68) | mealler.org \"Suat Yıldırım\": n=373, exact 58.2%, loose 80.4%, sim 0.986; â/î/û in 26.3% of ayat (primary 26.3%); bracket counts differ in 73 ayat (e.g. 1:1, 1:4, 1:5); most divergent 112:3 (sim 0.68).",
   "raw_shared": [
     "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/",
     "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
   ],
-  "_notes_parts": {
+  "crosscheck": {
+    "range": "S1, S22, S87-114",
+    "primary": "kuranmeali.com \"Suat Yıldırım Meali\" (syildirim)",
+    "primary_diacritic_pct": 26.3,
+    "primary_groups": 25,
+    "vs": {
+      "tanzil.net tr.yildirim": {
+        "n": 373,
+        "exact_pct": 64.6,
+        "loose_pct": 100.0,
+        "mean_sim": 1.0,
+        "bracket_diff": 0,
+        "bracket_diff_examples": [],
+        "worst": [],
+        "diacritic_pct": 26.3,
+        "groups": 25
+      },
+      "fawazahmed0/quran-api tur-suatyildirim": {
+        "n": 373,
+        "exact_pct": 0.5,
+        "loose_pct": 82.0,
+        "mean_sim": 0.989,
+        "bracket_diff": 57,
+        "bracket_diff_examples": [
+          "1:1",
+          "1:4",
+          "1:5",
+          "1:7",
+          "22:5"
+        ],
+        "worst": [
+          {
+            "ayah": "112:3",
+            "sim": 0.68,
+            "primary": "Ne doğurdu, ne de doğuruldu. [6, 101; 19, 88-90; 21, 26-27]",
+            "other": "Ne doğurdu, ne de doğuruldu."
+          },
+          {
+            "ayah": "88:11",
+            "sim": 0.73,
+            "primary": "Orada hiç boş söz işitmezler. [19, 62; 52, 23; 56-25-26]",
+            "other": "Orada hiç boş söz işitmezler"
+          },
+          {
+            "ayah": "91:7",
+            "sim": 0.85,
+            "primary": "Her bir nefis ve onu düzenleyen, [30, 30; 95, 4]",
+            "other": "Her bir nefis ve onu düzenleyen"
+          }
+        ],
+        "diacritic_pct": 26.3,
+        "groups": 25
+      },
+      "mealler.org \"Suat Yıldırım\"": {
+        "n": 373,
+        "exact_pct": 58.2,
+        "loose_pct": 80.4,
+        "mean_sim": 0.986,
+        "bracket_diff": 73,
+        "bracket_diff_examples": [
+          "1:1",
+          "1:4",
+          "1:5",
+          "1:7",
+          "22:1"
+        ],
+        "worst": [
+          {
+            "ayah": "112:3",
+            "sim": 0.68,
+            "primary": "Ne doğurdu, ne de doğuruldu. [6, 101; 19, 88-90; 21, 26-27]",
+            "other": "Ne doğurdu, ne de doğuruldu."
+          },
+          {
+            "ayah": "88:11",
+            "sim": 0.73,
+            "primary": "Orada hiç boş söz işitmezler. [19, 62; 52, 23; 56-25-26]",
+            "other": "Orada hiç boş söz işitmezler."
+          },
+          {
+            "ayah": "98:4",
+            "sim": 0.81,
+            "primary": "Ehl-i kitap mensupları, o kesin delil gelinceye kadar bu konuda ihtilaf etmemişlerdi. [2, 213-253; 3, 19; 5, 44-50; 10, 93; 42, 13-15]",
+            "other": "Ehl-i kitap mensupları, o kesin delil gelinceye kadar bu konuda ihtilaf etmemişlerdi."
+          }
+        ],
+        "diacritic_pct": 26.3,
+        "groups": 25
+      }
+    },
+    "summary": "Cross-check over S1, S22, S87-114 (primary kuranmeali.com \"Suat Yıldırım Meali\" (syildirim)) - tanzil.net tr.yildirim: n=373, exact 64.6%, loose 100.0%, sim 1.0; â/î/û in 26.3% of ayat (primary 26.3%) | fawazahmed0/quran-api tur-suatyildirim: n=373, exact 0.5%, loose 82.0%, sim 0.989; â/î/û in 26.3% of ayat (primary 26.3%); bracket counts differ in 57 ayat (e.g. 1:1, 1:4, 1:5); most divergent 112:3 (sim 0.68) | mealler.org \"Suat Yıldırım\": n=373, exact 58.2%, loose 80.4%, sim 0.986; â/î/û in 26.3% of ayat (primary 26.3%); bracket counts differ in 73 ayat (e.g. 1:1, 1:4, 1:5); most divergent 112:3 (sim 0.68)."
+  },
+  "notes_parts": {
     "static": "kuranmeali text = tanzil tr.yildirim, plus footnotes. fawaz tur-suatyildirim and mealler.org carry a different edition (~80%).",
-    "build": "68 merged verse groups stored once as a..a_end. 73 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 485 segments carry footnotes in \"notes\" (432 truncated by the host, flagged notes_truncated). Coverage incomplete (1698/6236); re-run `fetch_meal.py fetch --sources MEAL-SYILDIRIM` then `build` to resume."
+    "build": "442 merged verse groups stored once as a..a_end. 446 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 1292 segments carry footnotes in \"notes\" (1092 truncated by the host, flagged notes_truncated)."
   }
 }

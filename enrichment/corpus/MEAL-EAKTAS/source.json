@@ -10,7 +10,7 @@
   "edition": "as published by acikkuran.com \"Erhan Aktaş\"",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "1-8,22,87-114 + partial 9 (1707/6236 ayat)",
+  "coverage": "1-114 (6236/6236 ayat)",
   "urls": [
     "https://acikkuran.com/{slug}/{a}-ayet-meali.md  (section \"### Erhan Aktaş\"); whole surah without footnotes: https://acikkuran.com/{slug}.md?author=105",
     "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='erhanaktas+1')",
@@ -31,14 +31,167 @@
     "acikkuran.com \"Erhan Aktaş (Eski Baskı)\"",
     "acikkuran.com \"Erhan Aktaş (10. Baskı)\""
   ],
-  "notes": "At least four revisions circulate: acikkuran current / 10th printing / old printing, kuranmeali (sent by the author, updated 2026-09-02) and mealler.org; they agree on only ~50-94% of ayat. 908 segments carry footnotes in \"notes\". Coverage incomplete (1707/6236); re-run `fetch_meal.py fetch --sources MEAL-EAKTAS` then `build` to resume.",
+  "notes": "At least four revisions circulate: acikkuran current / 10th printing / old printing, kuranmeali (sent by the author, updated 2026-09-02) and mealler.org; they agree on only ~50-94% of ayat. 2751 segments carry footnotes in \"notes\". Cross-check over S1, S22, S87-114 (primary acikkuran.com \"Erhan Aktaş\") - kuranmeali.com \"Erhan Aktaş Meali\" (erhanaktas): n=373, exact 33.0%, loose 53.9%, sim 0.984; â/î/û in 31.4% of ayat (primary 0.0%); bracket counts differ in 165 ayat (e.g. 1:5, 22:1, 22:3); most divergent 112:3 (sim 0.31) | mealler.org \"Erhan Aktaş\": n=367, exact 33.5%, loose 49.6%, sim 0.793; â/î/û in 9.0% of ayat (primary 0.0%); bracket counts differ in 161 ayat (e.g. 1:5, 22:1, 22:3); most divergent 109:6 (sim 0.06) | acikkuran.com \"Erhan Aktaş (Eski Baskı)\": n=373, exact 61.7%, loose 79.1%, sim 0.979; â/î/û in 0.3% of ayat (primary 0.0%); bracket counts differ in 39 ayat (e.g. 1:5, 22:1, 22:7); most divergent 98:2 (sim 0.46) | acikkuran.com \"Erhan Aktaş (10. Baskı)\": n=373, exact 74.8%, loose 93.8%, sim 0.993; â/î/û in 0.5% of ayat (primary 0.0%); bracket counts differ in 16 ayat (e.g. 1:5, 22:12, 22:17); most divergent 98:2 (sim 0.47).",
   "raw_shared": [
     "acikkuran pages: ../MEAL-ISLAMOGLU/raw/acikkuran/",
     "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/",
     "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
   ],
-  "_notes_parts": {
+  "crosscheck": {
+    "range": "S1, S22, S87-114",
+    "primary": "acikkuran.com \"Erhan Aktaş\"",
+    "primary_diacritic_pct": 0.0,
+    "primary_groups": 0,
+    "vs": {
+      "kuranmeali.com \"Erhan Aktaş Meali\" (erhanaktas)": {
+        "n": 373,
+        "exact_pct": 33.0,
+        "loose_pct": 53.9,
+        "mean_sim": 0.984,
+        "bracket_diff": 165,
+        "bracket_diff_examples": [
+          "1:5",
+          "22:1",
+          "22:3",
+          "22:4",
+          "22:5"
+        ],
+        "worst": [
+          {
+            "ayah": "112:3",
+            "sim": 0.31,
+            "primary": "O, ürememiş, üretilmemiştir.[1]",
+            "other": "Doğmamıştır, çocuğu yoktur.1"
+          },
+          {
+            "ayah": "95:2",
+            "sim": 0.52,
+            "primary": "Ve Tur-i Sinin'e. [1]",
+            "other": "Ve Sîna Dağı’na,1"
+          },
+          {
+            "ayah": "87:19",
+            "sim": 0.74,
+            "primary": "İbrahim'ın ve Musa'nın sahifelerinde.",
+            "other": "İbrâhîm’ın ve Mûsâ’nın."
+          }
+        ],
+        "diacritic_pct": 31.4,
+        "groups": 0
+      },
+      "mealler.org \"Erhan Aktaş\"": {
+        "n": 367,
+        "exact_pct": 33.5,
+        "loose_pct": 49.6,
+        "mean_sim": 0.793,
+        "bracket_diff": 161,
+        "bracket_diff_examples": [
+          "1:5",
+          "22:1",
+          "22:3",
+          "22:4",
+          "22:5"
+        ],
+        "worst": [
+          {
+            "ayah": "109:6",
+            "sim": 0.06,
+            "primary": "\"Sizin dininiz[1] size, benim dinim[1] de bana.\"",
+            "other": "Sizin dininiz 1 size, benim dinim 1 de bana. 1- Din kavramı; Kur’an’da, inanç sistemi, yaşam biçimi, toplumsal düzen, yasa, hesap, karşılık/ceza vb. anlamlarda "
+          },
+          {
+            "ayah": "96:1",
+            "sim": 0.06,
+            "primary": "Yaratan Rabb'inin adıyla duyur.[1]",
+            "other": "Yaratan Rabb’inin adıyla duyur. 1 1- Vahyin ilk ayeti olduğu kabul gören bu ayetteki “ıkra” sözcüğüne “oku” anlamı vermek önemli bir yanılgıdır. Henüz ortada ok"
+          },
+          {
+            "ayah": "107:4",
+            "sim": 0.07,
+            "primary": "Vay haline salat edenlerin![1]",
+            "other": "Vay haline salat edenlerin. 1 1- Gösteriş olsun diye veya çıkarları için yardım edenlerin vay haline. Söz konusu bu kimseler, Mekkeli müşriklerdir. Ayete, “Göst"
+          }
+        ],
+        "diacritic_pct": 9.0,
+        "groups": 0
+      },
+      "acikkuran.com \"Erhan Aktaş (Eski Baskı)\"": {
+        "n": 373,
+        "exact_pct": 61.7,
+        "loose_pct": 79.1,
+        "mean_sim": 0.979,
+        "bracket_diff": 39,
+        "bracket_diff_examples": [
+          "1:5",
+          "22:1",
+          "22:7",
+          "22:12",
+          "22:16"
+        ],
+        "worst": [
+          {
+            "ayah": "98:2",
+            "sim": 0.46,
+            "primary": "Onlara tertemiz sayfalar okuyan, Allah tarafından görevlendirilen bir Resul.",
+            "other": "Allah'tan gelen dokunulmamış sahifelerden okuyan bir rasul."
+          },
+          {
+            "ayah": "95:2",
+            "sim": 0.55,
+            "primary": "Ve Tur-i Sinin'e. [1]",
+            "other": "Ve Sina Dağı'na[1],"
+          },
+          {
+            "ayah": "96:16",
+            "sim": 0.67,
+            "primary": "Yalancı ve yanlış yapan perçeminden.",
+            "other": "Yalancı, günahkar ve suçlu perçeminden."
+          }
+        ],
+        "diacritic_pct": 0.3,
+        "groups": 0
+      },
+      "acikkuran.com \"Erhan Aktaş (10. Baskı)\"": {
+        "n": 373,
+        "exact_pct": 74.8,
+        "loose_pct": 93.8,
+        "mean_sim": 0.993,
+        "bracket_diff": 16,
+        "bracket_diff_examples": [
+          "1:5",
+          "22:12",
+          "22:17",
+          "22:19",
+          "22:23"
+        ],
+        "worst": [
+          {
+            "ayah": "98:2",
+            "sim": 0.47,
+            "primary": "Onlara tertemiz sayfalar okuyan, Allah tarafından görevlendirilen bir Resul.",
+            "other": "Allah'tan gelen dokunulmamış sahifelerden okuyan bir resul."
+          },
+          {
+            "ayah": "95:2",
+            "sim": 0.55,
+            "primary": "Ve Tur-i Sinin'e. [1]",
+            "other": "Ve Sina Dağı'na[1],"
+          },
+          {
+            "ayah": "112:3",
+            "sim": 0.71,
+            "primary": "O, ürememiş, üretilmemiştir.[1]",
+            "other": "\"Doğurmamış, doğurulmamıştır.\""
+          }
+        ],
+        "diacritic_pct": 0.5,
+        "groups": 0
+      }
+    },
+    "summary": "Cross-check over S1, S22, S87-114 (primary acikkuran.com \"Erhan Aktaş\") - kuranmeali.com \"Erhan Aktaş Meali\" (erhanaktas): n=373, exact 33.0%, loose 53.9%, sim 0.984; â/î/û in 31.4% of ayat (primary 0.0%); bracket counts differ in 165 ayat (e.g. 1:5, 22:1, 22:3); most divergent 112:3 (sim 0.31) | mealler.org \"Erhan Aktaş\": n=367, exact 33.5%, loose 49.6%, sim 0.793; â/î/û in 9.0% of ayat (primary 0.0%); bracket counts differ in 161 ayat (e.g. 1:5, 22:1, 22:3); most divergent 109:6 (sim 0.06) | acikkuran.com \"Erhan Aktaş (Eski Baskı)\": n=373, exact 61.7%, loose 79.1%, sim 0.979; â/î/û in 0.3% of ayat (primary 0.0%); bracket counts differ in 39 ayat (e.g. 1:5, 22:1, 22:7); most divergent 98:2 (sim 0.46) | acikkuran.com \"Erhan Aktaş (10. Baskı)\": n=373, exact 74.8%, loose 93.8%, sim 0.993; â/î/û in 0.5% of ayat (primary 0.0%); bracket counts differ in 16 ayat (e.g. 1:5, 22:12, 22:17); most divergent 98:2 (sim 0.47)."
+  },
+  "notes_parts": {
     "static": "At least four revisions circulate: acikkuran current / 10th printing / old printing, kuranmeali (sent by the author, updated 2026-09-02) and mealler.org; they agree on only ~50-94% of ayat.",
-    "build": "908 segments carry footnotes in \"notes\". Coverage incomplete (1707/6236); re-run `fetch_meal.py fetch --sources MEAL-EAKTAS` then `build` to resume."
+    "build": "2751 segments carry footnotes in \"notes\"."
   }
 }

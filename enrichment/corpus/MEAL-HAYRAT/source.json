@@ -10,7 +10,7 @@
   "edition": "kuranmeali.com about-page (Aciklama.php?id=19&islem=mealbilgi): Muhtasar Kur'an meali Hayrat Neşriyat Meali | Hayrat Neşriyat tarafından hazırlanan meal,www.kuranharfleri.com adresinden yayınlanıyor. Mealin sitemizde de yayınlanmasını talep ettiğimizde -Allah (cc) onlardan razı olsun- bunu kabul ettiler. Biz de titiz bir çalışma ile sitemizin formatına uygun hale getirerek yayına sunuyoruz. Cenab-ı Mevla müstefid eylesin. | Meali Kim Hazırladı? | Neşriyâtımızı",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "1-8,22,87-114 + partial 9 (1693/6236 ayat)",
+  "coverage": "1-114 (6236/6236 ayat)",
   "urls": [
     "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='hayrat+1')",
     "https://mealler.org/SureveAyetler.aspx?sureid={sss}&ayet={aaa}  (row \"Hayrat Neşriyat\")"
@@ -25,13 +25,46 @@
   "cross_witnesses": [
     "mealler.org \"Hayrat Neşriyat\""
   ],
-  "notes": "31 merged verse groups stored once as a..a_end. 31 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 535 segments carry footnotes in \"notes\" (481 truncated by the host, flagged notes_truncated). Coverage incomplete (1693/6236); re-run `fetch_meal.py fetch --sources MEAL-HAYRAT` then `build` to resume.",
+  "notes": "240 merged verse groups stored once as a..a_end. 240 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 1255 segments carry footnotes in \"notes\" (1103 truncated by the host, flagged notes_truncated). Cross-check over S1, S22, S87-114 (primary kuranmeali.com \"Hayrat Neşriyat Meali\" (hayrat)) - mealler.org \"Hayrat Neşriyat\": n=373, exact 55.5%, loose 99.7%, sim 0.998; â/î/û in 62.7% of ayat (primary 62.7%); bracket counts differ in 67 ayat (e.g. 1:1, 1:2, 1:3); most divergent 92:2 (sim 0.38).",
   "raw_shared": [
     "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/",
     "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
   ],
-  "_notes_parts": {
+  "crosscheck": {
+    "range": "S1, S22, S87-114",
+    "primary": "kuranmeali.com \"Hayrat Neşriyat Meali\" (hayrat)",
+    "primary_diacritic_pct": 62.7,
+    "primary_groups": 23,
+    "vs": {
+      "mealler.org \"Hayrat Neşriyat\"": {
+        "n": 373,
+        "exact_pct": 55.5,
+        "loose_pct": 99.7,
+        "mean_sim": 0.998,
+        "bracket_diff": 67,
+        "bracket_diff_examples": [
+          "1:1",
+          "1:2",
+          "1:3",
+          "1:4",
+          "1:5"
+        ],
+        "worst": [
+          {
+            "ayah": "92:2",
+            "sim": 0.38,
+            "primary": "Ve açılıp ağardığı zaman, gündüze!",
+            "other": "Ve ışıyınca, güne."
+          }
+        ],
+        "diacritic_pct": 62.7,
+        "groups": 23
+      }
+    },
+    "summary": "Cross-check over S1, S22, S87-114 (primary kuranmeali.com \"Hayrat Neşriyat Meali\" (hayrat)) - mealler.org \"Hayrat Neşriyat\": n=373, exact 55.5%, loose 99.7%, sim 0.998; â/î/û in 62.7% of ayat (primary 62.7%); bracket counts differ in 67 ayat (e.g. 1:1, 1:2, 1:3); most divergent 92:2 (sim 0.38)."
+  },
+  "notes_parts": {
     "static": "",
-    "build": "31 merged verse groups stored once as a..a_end. 31 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 535 segments carry footnotes in \"notes\" (481 truncated by the host, flagged notes_truncated). Coverage incomplete (1693/6236); re-run `fetch_meal.py fetch --sources MEAL-HAYRAT` then `build` to resume."
+    "build": "240 merged verse groups stored once as a..a_end. 240 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 1255 segments carry footnotes in \"notes\" (1103 truncated by the host, flagged notes_truncated)."
   }
 }

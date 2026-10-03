@@ -278,24 +278,45 @@ class Segmenter:
                 a_end = max(a_end, y)
         return a, a_end
 
+    def cues(self, text: str, s: int):
+        ev = self.ev.collect(text, s)
+        if self.w.get("bare_numbers"):  # books that number each lemma with a bare ayah number opening the line;
+            bare = []                     # these come first: they are the book's own structure
+            for line in text.split("\n"):
+                m = re.match(r"\s*(\d{1,3})(?:\s|$)", line)
+                if m and self.q.valid(s, int(m.group(1))):
+                    bare.append((((int(m.group(1)), int(m.group(1))),), True))
+            ev = bare + ev
+        return ev
+
     def assign(self, seg):
+        if self.w.get("surah_only"):  # works about whole surahs (munāsabāt): the surah only, never an ayah
+            if self.cur_s and (self.in_surah or self.sec_ref):
+                seg["s"] = self.cur_s
+            return
         if self.sec_ref:
             s, a, b = self.sec_ref
             seg.update(s=s, a=a, a_end=b)
             self.stats["a_from_head"] += 1
             if b - a >= 2:  # a heading range (e.g. "الآيات 1 الى 54"): narrow it with the segment's own cues
                 lo = max(a, self.prev_a) if self.prev_a <= b else a
-                cues = self.ev.collect(seg["text"], s) or self.ev.lemma_cues(seg["text"], s, lo, b)
+                cues = self.cues(seg["text"], s) or self.ev.lemma_cues(seg["text"], s, lo, b)
                 pick = self.choose(cues, lo=lo, hi=b)
                 if pick:
                     seg.update(a=pick[0], a_end=pick[1])
                     self.prev_a = pick[0]
+            else:
+                # the next ayah's text often closes a heading's section (before the next heading): a segment whose
+                # strong cues all lie just after the heading's ayah belongs to that next ayah
+                strong = [h for hits, st in self.cues(seg["text"], s) if st for h in hits]
+                if strong and not any(a <= x <= b for x, _ in strong) and b < min(strong)[0] <= b + 3:
+                    seg.update(a=min(strong)[0], a_end=min(strong)[1])
             return
         s = self.cur_s
         if not s or not self.in_surah:
             return
         seg["s"] = s
-        cues = self.ev.collect(seg["text"], s) or self.ev.lemma_cues(seg["text"], s, self.prev_a, self.prev_a + 25)
+        cues = self.cues(seg["text"], s) or self.ev.lemma_cues(seg["text"], s, self.prev_a, self.prev_a + 25)
         pick = self.choose(cues)
         if pick:
             seg.update(a=pick[0], a_end=pick[1])

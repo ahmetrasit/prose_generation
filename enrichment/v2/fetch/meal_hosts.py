@@ -233,9 +233,18 @@ def parse_kd(ml):
         lo, hi = _rng(x['AyetNumber'], a)
         rows[(s, lo)] = {'text': clean(x['AyetText']), 'a_end': hi}
         covered.update((s, k) for k in range(lo, hi + 1))
-    for (s, a), x in items.items():        # invisible item whose visible group head is on an uncached page
-        if (s, a) not in covered and not x.get('AyetVisible'):
-            rows[(s, a)] = {'text': clean(x['AyetText']), 'a_end': a, '_orphan': True}
+    # invisible items with no visible group head covering them (host inconsistency, e.g. 3:167, 69:22-23):
+    # merge into the preceding unit when the text repeats it, else keep as a unit of their own
+    for (s, a), x in sorted(items.items()):
+        if (s, a) in covered or x.get('AyetVisible'):
+            continue
+        t = clean(x['AyetText'])
+        prev = [k for k in rows if k[0] == s and k[1] < a and rows[k]['a_end'] == a - 1]
+        if prev and rows[prev[0]]['text'] == t:
+            rows[prev[0]]['a_end'] = a
+        else:
+            rows[(s, a)] = {'text': t, 'a_end': a, 'host_flag': 'AyetVisible=false without a visible group head'}
+        covered.add((s, a))
     return rows
 
 

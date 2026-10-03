@@ -10,7 +10,7 @@
   "edition": "as published by acikkuran.com \"İbni Kesir\"",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "1-8,22,87-114 + partial 9 (1704/6236 ayat)",
+  "coverage": "1-114 (6236/6236 ayat)",
   "urls": [
     "https://acikkuran.com/{slug}/{a}-ayet-meali.md  (section \"### İbni Kesir\")",
     "https://mealler.org/SureveAyetler.aspx?sureid={sss}&ayet={aaa}  (row \"İbni Kesir\")",
@@ -29,13 +29,44 @@
     "mealler.org \"İbni Kesir\"",
     "fawazahmed0/quran-api tur-ibnikesir"
   ],
-  "notes": "Host label \"Ibni Kesir\" names the tafsir, not the translator; the meal is anonymous. Not Ibn Kathīr's own text. Coverage incomplete (1704/6236); re-run `fetch_meal.py fetch --sources MEAL-IBNKESIR-ANON` then `build` to resume.",
+  "notes": "Host label \"Ibni Kesir\" names the tafsir, not the translator; the meal is anonymous. Not Ibn Kathīr's own text. 1 merged verse groups stored once as a..a_end. Cross-check over S1, S22, S87-114 (primary acikkuran.com \"İbni Kesir\") - mealler.org \"İbni Kesir\": n=373, exact 100.0%, loose 100.0%, sim 1.0; â/î/û in 0.0% of ayat (primary 0.0%) | fawazahmed0/quran-api tur-ibnikesir: n=373, exact 0.3%, loose 100.0%, sim 1.0; â/î/û in 0.0% of ayat (primary 0.0%).",
   "raw_shared": [
     "acikkuran pages: ../MEAL-ISLAMOGLU/raw/acikkuran/",
     "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
   ],
-  "_notes_parts": {
+  "crosscheck": {
+    "range": "S1, S22, S87-114",
+    "primary": "acikkuran.com \"İbni Kesir\"",
+    "primary_diacritic_pct": 0.0,
+    "primary_groups": 0,
+    "vs": {
+      "mealler.org \"İbni Kesir\"": {
+        "n": 373,
+        "exact_pct": 100.0,
+        "loose_pct": 100.0,
+        "mean_sim": 1.0,
+        "bracket_diff": 0,
+        "bracket_diff_examples": [],
+        "worst": [],
+        "diacritic_pct": 0.0,
+        "groups": 0
+      },
+      "fawazahmed0/quran-api tur-ibnikesir": {
+        "n": 373,
+        "exact_pct": 0.3,
+        "loose_pct": 100.0,
+        "mean_sim": 1.0,
+        "bracket_diff": 0,
+        "bracket_diff_examples": [],
+        "worst": [],
+        "diacritic_pct": 0.0,
+        "groups": 0
+      }
+    },
+    "summary": "Cross-check over S1, S22, S87-114 (primary acikkuran.com \"İbni Kesir\") - mealler.org \"İbni Kesir\": n=373, exact 100.0%, loose 100.0%, sim 1.0; â/î/û in 0.0% of ayat (primary 0.0%) | fawazahmed0/quran-api tur-ibnikesir: n=373, exact 0.3%, loose 100.0%, sim 1.0; â/î/û in 0.0% of ayat (primary 0.0%)."
+  },
+  "notes_parts": {
     "static": "Host label \"Ibni Kesir\" names the tafsir, not the translator; the meal is anonymous. Not Ibn Kathīr's own text.",
-    "build": "Coverage incomplete (1704/6236); re-run `fetch_meal.py fetch --sources MEAL-IBNKESIR-ANON` then `build` to resume."
+    "build": "1 merged verse groups stored once as a..a_end."
   }
 }

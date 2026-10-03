@@ -161,7 +161,7 @@ w("KHULI", "Manāhij tajdīd fī al-naḥw wa-l-balāgha wa-l-tafsīr wa-l-adab"
 w("AKHFASH", "Maʿānī al-Qurʾān", "al-Akhfash al-Awsaṭ", 215, "maani", "basran philology, mutazili",
   "0215AkhfashAwsat.MacaniQuran.Shamela0022371-ara1", qorder=True, notes="ed. Hudā Maḥmūd Qarāʿa (al-Khānjī).")
 w("NAHHAS", "Iʿrāb al-Qurʾān", "Abū Jaʿfar al-Naḥḥās", 338, "maani", "irab", "0338AbuJacfarNahhas.IcrabQuran.JK001417-ara1",
-  qorder=True, notes="ed. Zuhayr Ghāzī Zāhid (ʿĀlam al-Kutub).")
+  qorder=True, bare_numbers=True, notes="ed. Zuhayr Ghāzī Zāhid (ʿĀlam al-Kutub).")
 w("SAMIN-DURR", "al-Durr al-maṣūn fī ʿulūm al-kitāb al-maknūn", "al-Samīn al-Ḥalabī", 756, "maani", "irab",
   "0756IbnYusufSaminHalabi.DurrMasun.Tafsir02079-ara1", qorder=True,
   notes="altafsir.com text (no pagination), passages headed surah.ayah.")
@@ -173,9 +173,9 @@ w("IBNJAWZI-ZAD", "Zād al-masīr fī ʿilm al-tafsīr", "Ibn al-Jawzī", 597, "
 w("THALABI", "al-Kashf wa-l-bayān ʿan tafsīr al-Qurʾān", "al-Thaʿlabī", 427, "tafsir", "sunni",
   "0427AbuIshaqThaclabi.KashfWaBayan.Shamela0023578-ara1", qorder=True, notes="ed. Ibn ʿĀshūr (Dār Iḥyāʾ al-Turāth).")
 w("GHARNATI", "al-Burhān fī tanāsub suwar al-Qurʾān", "Abū Jaʿfar Ibn al-Zubayr al-Gharnāṭī", 708, "nazm", "nazm",
-  "0708IbnIbrahimAbuJacfarGharnati.Burhan.Shamela0001388-ara1", qorder=True, notes="ed. Muḥammad Shaʿbānī.")
+  "0708IbnIbrahimAbuJacfarGharnati.Burhan.Shamela0001388-ara1", qorder=True, surah_only=True, notes="ed. Muḥammad Shaʿbānī.")
 w("SUYUTI-TANASUQ", "Tanāsuq al-durar fī tanāsub al-suwar (publ. as Asrār tartīb al-Qurʾān)", "al-Suyūṭī", 911,
-  "nazm", "nazm", "0911Suyuti.AsrarTartibQuran.JK000440-ara1", qorder=True,
+  "nazm", "nazm", "0911Suyuti.AsrarTartibQuran.JK000440-ara1", qorder=True, surah_only=True,
   notes="OpenITI title 'Asrār tartīb al-Qurʾān' (ed. ʿAbd al-Qādir Aḥmad ʿAṭā, Dār al-Iʿtiṣām) — the edition under "
         "which Tanāsuq al-durar is usually printed; check the introduction before citing it under the other title.")
 w("QUSHAYRI", "Laṭāʾif al-ishārāt", "al-Qushayrī", 465, "isari", "ishari",
@@ -253,4 +253,65 @@ w("IBNKHALAWAYH-MUKHTASAR", "Mukhtaṣar fī shawādhdh al-Qurʾān min Kitāb a
 BY_ID = {x["id"]: x for x in W}
 
 # Eyeball spot-checks of the s/a assignment (10 segments per Qur-an-ordered source), filled after review.
-QA: dict[str, str] = {}
+QA: dict[str, str] = {
+    # 10 random segments with an ayah, read against the Qur'an text (2026-10-03). "plausible" = the segment's
+    # discussion belongs to the assigned ayah (range); "off" = the segment mainly treats a neighbouring ayah.
+    "WAHIDI-ASBAB": "10/10 correct. Quality: good.",
+    "SUYUTI-LUBAB": "9/10 correct; 1 segment opens with material on 76:8 but is filed at 76:20. Quality: good.",
+    "MAJAZ": "10/10 correct (lemma «…» (n) structure). Front matter and the indexes carry no s/a. Quality: good.",
+    "FARRA": "9/10 correct, 1 off by one (5:95 filed as 5:96). Quality: good.",
+    "ZAJJAJ": "9/10 correct, 1 off by two (segment starts on 6:3, filed 6:5). Quality: good.",
+    "IBNQUTAYBA-GHARIB": "10/10 correct. Quality: good.",
+    "IBNMUJAHID": "8/10 correct, 2 off (2:97-98 filed 2:102; 28:34 filed 28:37); the uṣūl chapters inside S1-2 carry the "
+                  "surah only or the nearest farsh entry. Quality: partial.",
+    "IBNKHALAWAYH-HUJJA": "9/10 correct, 1 off (19:25 filed 19:31). Surah boundaries come partly from running page "
+                          "titles. Quality: good.",
+    "FARISI-HUJJA": "10/10 plausible (long grammatical excursuses are filed under the lemma that opened them); 70% of "
+                    "segments carry an ayah. Quality: partial.",
+    "IBNJINNI-MUHTASAB": "10/10 plausible but only ~53% of segments carry an ayah (the lemmas are shādhdh readings that "
+                         "often do not match the canonical text). Quality: partial.",
+    "MUQATIL": "10/10 correct (altafsir surah.ayah headings). Quality: good.",
+    "ABDURRAZZAQ": "10/10 correct (JK 'sura : ( n )' headings). Quality: good.",
+    "IBNABIHATIM": "10/10 correct. Quality: good.",
+    "YAHYA-SALLAM": "10/10 correct ([sura: n] citations after every lemma). Only the extant portions exist. Quality: good.",
+    "MUJAHID": "10/10 correct. Quality: good.",
+    "TAB-FULL": "10/10 correct (Shamela [sura: n] headings). Quality: good.",
+    "IBNKATHIR-FULL": "10/10 correct; long ḥadīth runs are filed under the section's ayah. Quality: good.",
+    "DURR-FULL": "10/10 correct; ~25% of segments (long runs of reports with no Qur'an quotation) carry the surah only. "
+                 "Quality: good where assigned.",
+    "KASHSHAF-FULL": "9/10 correct, 1 off by one (3:19 filed 3:18). Quality: good.",
+    "RAZI-FULL": "10/10 correct. Quality: good.",
+    "BAYDAWI-FULL": "altafsir surah.ayah headings (structural). Quality: good.",
+    "BIQAI-FULL": "10/10 plausible. Quality: good.",
+    "QURTUBI-FULL": "altafsir surah.ayah headings (structural); 87% of segments quote their ayah. Quality: good.",
+    "IBNATIYYA-FULL": "8/10 correct, 2 off by 1-2 (e.g. 2:282 filed 2:280-281). Shamela section headings give ranges. "
+                      "Quality: good.",
+    "ABUHAYYAN-FULL": "10/10 inside the right range, but Abū Ḥayyān's sections are long (e.g. 'الآيات 1 الى 54'): ~46% "
+                      "of segments carry the whole section range (a..a_end > 10 ayahs) because the commentary cites "
+                      "lemmas without brackets. Quality: partial (range-level).",
+    "ALUSI-FULL": "10/10 correct. Quality: good.",
+    "BAGHAWI-FULL": "10/10 correct. Quality: good.",
+    "MAWARDI-FULL": "10/10 correct. Quality: good.",
+    "WAHIDI-BASIT": "10/10 correct. Quality: good.",
+    "WAHIDI-WAJIZ": "altafsir surah.ayah headings (structural). Quality: good.",
+    "IBNASHUR-FULL": "10/10 correct; ~20% of segments (introduction, long excursuses) carry no ayah. Quality: good.",
+    "NASAFI-FULL": "10/10 correct. Quality: good.",
+    "TABRISI": "altafsir surah.ayah headings (structural). Quality: good.",
+    "AKHFASH": "9/10 correct, 1 general grammatical note filed under 2:41. Quality: good.",
+    "NAHHAS": "10/10 correct (the book's own bare ayah numbers). Quality: good.",
+    "SAMIN-DURR": "altafsir surah.ayah headings (structural); 81% of segments quote their ayah. Quality: good.",
+    "IBNJAWZI-ZAD": "10/10 correct. Quality: good.",
+    "THALABI": "10/10 plausible; ~10% carry a whole Shamela section range. Quality: good.",
+    "GHARNATI": "surah only (the book treats the link between whole surahs; ayah numbers are deliberately not set). "
+                "10/10 surahs correct. Quality: good (surah level).",
+    "SUYUTI-TANASUQ": "surah only (munāsabāt between whole surahs); 10/10 surahs correct. Quality: good (surah level).",
+    "QUSHAYRI": "9/10 correct, 1 off by two (50:25 filed 50:27). Quality: good.",
+    "SULAMI": "10/10 correct ([الآية: n] markers). Quality: good.",
+    "TUSTARI": "altafsir surah.ayah headings (structural). Quality: good.",
+    "BURSEVI": "10/10 correct; ~27% (Persian/Turkish verse, excursuses) carry the surah only. Quality: good.",
+    "TABATABAI": "altafsir surah.ayah headings (structural); the long baḥth sections carry the passage range. "
+                 "Quality: good.",
+    "QASHANI": "altafsir surah.ayah headings (structural). Quality: good.",
+    "JISHUMI": "9/10 correct where assigned, but only ~42% of segments carry an ayah (auto-tagged headings, sections "
+               "al-lugha/al-iʿrāb/al-maʿnā without quotations). Quality: partial.",
+}

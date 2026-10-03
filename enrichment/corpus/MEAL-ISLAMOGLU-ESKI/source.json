@@ -10,7 +10,7 @@
   "edition": "as published by acikkuran.com \"Mustafa İslamoğlu\"",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "1-8,22,87-114 + partial 9 (1699/6236 ayat)",
+  "coverage": "1-114 (6236/6236 ayat)",
   "urls": [
     "https://acikkuran.com/{slug}/{a}-ayet-meali.md  (section \"### Mustafa İslamoğlu\"); whole surah without footnotes: https://acikkuran.com/{slug}.md?author=38",
     "https://mealler.org/SureveAyetler.aspx?sureid={sss}&ayet={aaa}  (row \"Mustafa İslamoğlu\")"
@@ -25,13 +25,33 @@
   "cross_witnesses": [
     "mealler.org \"Mustafa İslamoğlu\""
   ],
-  "notes": "Earlier edition; the current revised text is MEAL-ISLAMOGLU (kuranmeali.com). Coverage incomplete (1699/6236); re-run `fetch_meal.py fetch --sources MEAL-ISLAMOGLU-ESKI` then `build` to resume.",
+  "notes": "Earlier edition; the current revised text is MEAL-ISLAMOGLU (kuranmeali.com). Cross-check over S1, S22, S87-114 (primary acikkuran.com \"Mustafa İslamoğlu\") - mealler.org \"Mustafa İslamoğlu\": n=373, exact 99.7%, loose 100.0%, sim 1.0; â/î/û in 0.0% of ayat (primary 0.0%).",
   "raw_shared": [
     "acikkuran pages: ../MEAL-ISLAMOGLU/raw/acikkuran/",
     "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
   ],
-  "_notes_parts": {
+  "crosscheck": {
+    "range": "S1, S22, S87-114",
+    "primary": "acikkuran.com \"Mustafa İslamoğlu\"",
+    "primary_diacritic_pct": 0.0,
+    "primary_groups": 0,
+    "vs": {
+      "mealler.org \"Mustafa İslamoğlu\"": {
+        "n": 373,
+        "exact_pct": 99.7,
+        "loose_pct": 100.0,
+        "mean_sim": 1.0,
+        "bracket_diff": 0,
+        "bracket_diff_examples": [],
+        "worst": [],
+        "diacritic_pct": 0.0,
+        "groups": 0
+      }
+    },
+    "summary": "Cross-check over S1, S22, S87-114 (primary acikkuran.com \"Mustafa İslamoğlu\") - mealler.org \"Mustafa İslamoğlu\": n=373, exact 99.7%, loose 100.0%, sim 1.0; â/î/û in 0.0% of ayat (primary 0.0%)."
+  },
+  "notes_parts": {
     "static": "Earlier edition; the current revised text is MEAL-ISLAMOGLU (kuranmeali.com).",
-    "build": "Coverage incomplete (1699/6236); re-run `fetch_meal.py fetch --sources MEAL-ISLAMOGLU-ESKI` then `build` to resume."
+    "build": ""
   }
 }

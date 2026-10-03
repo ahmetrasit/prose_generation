@@ -411,10 +411,14 @@ def kubbealti(word: str, refresh=False, offline=False):
 
 
 # ---------------------------------------------------------------- TDK GTS
+# modern TDK spellings of Arabic loans whose dictionary form differs (epenthesis / final devoicing)
+TDK_ALT = {"sadr": ["sadır"], "sehv": ["sehiv", "sehven"], "hamd": ["hamt"], "salât": ["salat"], "mâûn": ["maun"]}
+
+
 def tdk(word: str, refresh=False, offline=False):
     src = Source("TDK")
     tried = []
-    for w in dict.fromkeys([word, deaccent(word)]):
+    for w in dict.fromkeys([word, deaccent(word)] + TDK_ALT.get(word, [])):
         rel = f"gts/{slugify(w)}__{urllib.parse.quote(w, safe='')}.json"
         if offline and not src.cached(rel):
             continue

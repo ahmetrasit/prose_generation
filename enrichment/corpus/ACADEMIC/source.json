@@ -1,0 +1,430 @@
+{
+  "id": "ACADEMIC",
+  "title": "Pointer records for licensed / not-held Western academic works",
+  "kind": "reference",
+  "access": "hafiza",
+  "locator": "entry",
+  "language": "en",
+  "fetched_at": "2026-10-03",
+  "files": {},
+  "notes": "Index of ACADEMIC/<ID>/source.json pointer records (duplicated here because enrichment/corpus/.gitignore only versions <ID>/source.json one level deep; nested ACADEMIC/<ID>/source.json files are git-ignored). Each record: access hafiza, no segments. Claims marked '(from memory — verify)' were not checked against the books.",
+  "records": [
+    {
+      "id": "NOLDEKE-GDQ",
+      "title": "Geschichte des Qorāns",
+      "author": "Theodor Nöldeke; 2nd ed. Friedrich Schwally (Teil 1–2), Gotthelf Bergsträsser & Otto Pretzl (Teil 3)",
+      "death_ah": null,
+      "kind": "modern",
+      "tradition": "academic (19th–20th c. German historical-critical)",
+      "language": "de",
+      "edition": "1st ed. Göttingen: Dieterich, 1860 (Preisschrift); 2nd ed. Leipzig: Dieterich: T.1 Über den Ursprung des Qorāns (1909), T.2 Die Sammlung des Qorāns (1919), T.3 Die Geschichte des Korantexts (1926–1938). Reprint Hildesheim: Olms 1961. English: The History of the Qurʾān, tr. Wolfgang H. Behn, Leiden: Brill 2013.",
+      "access": "hafiza",
+      "locator": "page",
+      "coverage": "whole Qurʾān; T.1 assigns every sūra to a period (1st/2nd/3rd Meccan, Medinan) with discussion",
+      "target_coverage": {
+        "1": "treated among the first-period Meccan sūras (placed late in that group) (from memory — verify)",
+        "22": "discussed as a mixed sūra with Meccan and Medinan parts (from memory — verify)",
+        "87-114": "mostly first Meccan period; 98 and 110 treated as Medinan; 112–114 first Meccan (from memory — verify)"
+      },
+      "open_access": [
+        {
+          "url": "https://archive.org/details/geschichtedesqor01nluoft",
+          "what": "2nd ed. Teil 1 (1909), Univ. of Toronto scan; archive.org: NOT_IN_COPYRIGHT"
+        },
+        {
+          "url": "https://archive.org/details/geschichtedesqor00nluoft",
+          "what": "2nd ed. Teil 2 (1919), same series (archive.org metadata: volume 2, '1909-38')"
+        },
+        {
+          "url": "https://archive.org/details/geschichtedesqo00nlgoog",
+          "what": "1st ed. 1860 (Google scan); NOT_IN_COPYRIGHT"
+        }
+      ],
+      "urls": [
+        "https://archive.org/details/geschichtedesqor01nluoft",
+        "https://archive.org/details/geschichtedesqor00nluoft",
+        "https://archive.org/details/geschichtedesqo00nlgoog"
+      ],
+      "fetched_at": "2026-10-03",
+      "files": {},
+      "licence": "Public domain in life+70 jurisdictions for Nöldeke (d. 1930), Schwally (d. 1919), Bergsträsser (d. 1933); Teil 3 co-author Pretzl d. 1941 → PD since 2012. Behn's English translation (Brill 2013) is in copyright. Not downloaded (pointer only).",
+      "notes": "Teil 3 (Bergsträsser–Pretzl, 1926–38) not found as a separate open scan on archive.org (only the 1961 Olms reprint, lending-restricted). The Corpus Coranicum commentary cites it as GdQ1/GdQ2 and builds its 'Datierung' on Nöldeke's periods (see CORPUSCORANICUM). Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+    },
+    {
+      "id": "NEUWIRTH-KORAN1",
+      "title": "Der Koran. Band 1: Frühmekkanische Suren. Poetische Prophetie. Handkommentar mit Übersetzung",
+      "author": "Angelika Neuwirth",
+      "death_ah": null,
+      "kind": "modern",
+      "tradition": "academic (literary-historical; Neuwirth school)",
+      "language": "de",
+      "edition": "Berlin: Verlag der Weltreligionen im Insel Verlag, 2011 (2nd ed. 2013?) (from memory — verify). Sequel: Bd. 2/1 Frühmittelmekkanische Suren (2017).",
+      "access": "hafiza",
+      "locator": "page",
+      "coverage": "the early Meccan sūras (Nöldeke's first period), German translation + commentary",
+      "target_coverage": {
+        "87-114": "early Meccan sūras among 87–114 (i.e. not 98, 110) (from memory — verify)",
+        "1": "whether al-Fātiḥa is treated in Bd. 1 is uncertain (from memory — verify)",
+        "22": "not covered (Medinan/late)"
+      },
+      "open_access": [
+        {
+          "url": "https://corpuscoranicum.de/",
+          "what": "The Corpus Coranicum online commentary (Sinai/Schmid with Neuwirth's preparatory work for the early Meccan sūras; Hartwig/Neuwirth for 1 and 114) overlaps closely in method and is cached locally as CORPUSCORANICUM."
+        }
+      ],
+      "urls": [
+        "https://corpuscoranicum.de/"
+      ],
+      "fetched_at": "2026-10-03",
+      "files": {},
+      "licence": "© Insel Verlag / Verlag der Weltreligionen; licensed book, not held locally.",
+      "notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+    },
+    {
+      "id": "SINAI-KEYTERMS",
+      "title": "Key Terms of the Qur'an: A Critical Dictionary",
+      "author": "Nicolai Sinai",
+      "death_ah": null,
+      "kind": "lexicon",
+      "tradition": "academic (historical-critical semantics)",
+      "language": "en",
+      "edition": "Princeton: Princeton University Press, 2023",
+      "access": "hafiza",
+      "locator": "entry",
+      "coverage": "c. 60 entries on core Qurʾānic terms, with diachronic/intertextual discussion",
+      "target_coverage": {
+        "terms": "entries likely relevant to S1/S107 etc.: dīn, ṣallā/ṣalāh, zakāh, kafara, ashraka, ittaqā/taqwā, raḥmah/raḥmān, rabb, qalb, ʾāmana (from memory — verify)"
+      },
+      "open_access": [],
+      "urls": [],
+      "fetched_at": "2026-10-03",
+      "files": {},
+      "licence": "licensed book; not held locally",
+      "notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+    },
+    {
+      "id": "CUYPERS-COMPOSITION",
+      "title": "The Composition of the Qur'an: Rhetorical Analysis",
+      "author": "Michel Cuypers",
+      "death_ah": null,
+      "kind": "nazm",
+      "tradition": "academic (Semitic rhetorical analysis, Rhetorica Semitica)",
+      "language": "en",
+      "edition": "London: Bloomsbury Academic, 2015 (tr. Jerry Ryan); French orig. La composition du Coran, Pendé: Gabalda, 2012. Most relevant for the target sūras: Une apocalypse coranique: une lecture des trente-trois dernières sourates du Coran (Gabalda, 2014) / A Qurʾānic Apocalypse: A Reading of the Thirty-Three Last Sūrahs of the Qurʾān (Atlanta: Lockwood Press, 2018) — sūras 82–114.",
+      "access": "hafiza",
+      "locator": "page",
+      "coverage": "rhetorical structure (parallelism, concentric composition) of sūras; the 2014/2018 book covers 82–114",
+      "target_coverage": {
+        "81-114": "per-sūra rhetorical structure in the AnIsl/MIDEO articles below and in A Qurʾānic Apocalypse",
+        "1": "al-Fātiḥa analysed in The Composition of the Qur'an (from memory — verify)",
+        "22": "not known to be covered"
+      },
+      "open_access": [
+        {
+          "url": "https://www.ifao.egnet.net/anisl/33/2",
+          "what": "Cuypers, 'Structures rhétoriques des sourates 99 à 104', Annales islamologiques 33 (1999), 31–62 — free PDF (IFAO: AnIsl free online up to no. 60)"
+        },
+        {
+          "url": "https://www.ifao.egnet.net/anisl/34/6",
+          "what": "Cuypers, 'Structures rhétoriques des sourates 92 à 98', AnIsl 34 (2000/2001), 95–138 — free PDF"
+        },
+        {
+          "url": "https://www.ifao.egnet.net/anisl/35/3",
+          "what": "Cuypers, 'Structures rhétoriques des sourates 85 à 90', AnIsl 35 (2001), 27–99 — free PDF"
+        },
+        {
+          "url": "https://www.ifao.egnet.net/anisl/37/5",
+          "what": "Cuypers, 'La composition rhétorique des sourates 81 à 84', AnIsl 37 (2003), 91–136 — free PDF"
+        },
+        {
+          "url": null,
+          "what": "Cuypers, 'Structures rhétoriques des sourates 105 à 114', MIDEO 23 (1997) — open-access status not verified: journals.openedition.org/mideo answered with an Anubis bot challenge to scripted access (not bypassed). (from memory — verify)"
+        },
+        {
+          "url": null,
+          "what": "Cuypers, 'Une lecture rhétorique et intertextuelle de la sourate al-Ikhlâṣ', MIDEO 25–26 (2004) — status not verified (same reason). (from memory — verify)"
+        }
+      ],
+      "urls": [
+        "https://www.ifao.egnet.net/anisl/33/2",
+        "https://www.ifao.egnet.net/anisl/34/6",
+        "https://www.ifao.egnet.net/anisl/35/3",
+        "https://www.ifao.egnet.net/anisl/37/5"
+      ],
+      "fetched_at": "2026-10-03",
+      "files": {},
+      "licence": "Books licensed (Bloomsbury, Gabalda, Lockwood). AnIsl PDFs: free access from IFAO (verified HTTP 200 application/pdf, 2026-10-03); not downloaded.",
+      "notes": "Sūra 91 falls between AnIsl 35 (85–90) and AnIsl 34 (92–98); where Cuypers treats 91 (and whether MIDEO 23 covers 105–114 completely) is unverified. Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+    },
+    {
+      "id": "FARRIN-STRUCTURE",
+      "title": "Structure and Qur'anic Interpretation: A Study of Symmetry and Coherence in Islam's Holy Text",
+      "author": "Raymond Farrin",
+      "death_ah": null,
+      "kind": "nazm",
+      "tradition": "academic (ring composition / symmetry)",
+      "language": "en",
+      "edition": "Ashland, OR: White Cloud Press, 2014",
+      "access": "hafiza",
+      "locator": "page",
+      "coverage": "selected sūras and the overall arrangement of the Qurʾān (paired/ring structures)",
+      "target_coverage": {
+        "note": "which of S1, S22, S87–114 receive chapter-length treatment is not verified (from memory — verify)"
+      },
+      "open_access": [],
+      "urls": [],
+      "fetched_at": "2026-10-03",
+      "files": {},
+      "licence": "licensed book; not held locally",
+      "notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+    },
+    {
+      "id": "JEFFERY-FOREIGN",
+      "title": "The Foreign Vocabulary of the Qur'ān",
+      "author": "Arthur Jeffery",
+      "death_ah": null,
+      "kind": "lexicon",
+      "tradition": "academic (comparative-philological; loanwords)",
+      "language": "en",
+      "edition": "Baroda: Oriental Institute, 1938 (Gaekwad's Oriental Series 79); reprints Lahore 1977, Leiden: Brill 2007",
+      "access": "hafiza",
+      "locator": "page",
+      "coverage": "c. 275 words of possible non-Arabic origin, alphabetical by Arabic headword",
+      "target_coverage": {
+        "terms": "entries e.g. ṣalāt, zakāt, dīn, ʿālam/ʿālamīn, rabb?, raḥmān, sūra; Nişanyan's 'âlem' note cites Jeffery p. 209"
+      },
+      "open_access": [
+        {
+          "url": "https://archive.org/details/foreignvocabular030753mbp",
+          "what": "1938 Baroda ed., Million Books/DLI scan"
+        },
+        {
+          "url": "https://archive.org/details/in.ernet.dli.2015.68878",
+          "what": "1938 ed., Digital Library of India scan (other DLI copies: in.ernet.dli.2015.507015, .277274, .217779, .56841)"
+        }
+      ],
+      "urls": [
+        "https://archive.org/details/foreignvocabular030753mbp",
+        "https://archive.org/details/in.ernet.dli.2015.68878"
+      ],
+      "fetched_at": "2026-10-03",
+      "files": {},
+      "licence": "CAUTION: not safely public domain — Jeffery died 1959, so under life+70 the work is protected until end of 2029; US status depends on notice/renewal of a 1938 foreign publication (unverified). archive.org copies are DLI scans without a stated licence. Recorded, not downloaded.",
+      "notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+    },
+    {
+      "id": "ZAMMIT-COMPARATIVE",
+      "title": "A Comparative Lexical Study of Qur'ānic Arabic",
+      "author": "Martin R. Zammit",
+      "death_ah": null,
+      "kind": "lexicon",
+      "tradition": "academic (comparative Semitic lexicography)",
+      "language": "en",
+      "edition": "Leiden: Brill, 2002 (Handbook of Oriental Studies I.61)",
+      "access": "hafiza",
+      "locator": "entry",
+      "coverage": "Qurʾānic roots compared with other Semitic languages (statistics of shared roots)",
+      "target_coverage": {
+        "note": "root-level, not sūra-level; relevant roots: ṣ-l-w, z-k-w, d-y-n, ʿ-l-m, r-b-b, q-l-b, ṣ-d-r (from memory — verify)"
+      },
+      "open_access": [],
+      "urls": [],
+      "fetched_at": "2026-10-03",
+      "files": {},
+      "licence": "licensed book; not held locally",
+      "notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+    },
+    {
+      "id": "BADAWI-HALEEM",
+      "title": "Arabic-English Dictionary of Qur'anic Usage",
+      "author": "Elsaid M. Badawi & Muhammad Abdel Haleem",
+      "death_ah": null,
+      "kind": "lexicon",
+      "tradition": "academic/traditional lexicography (Qurʾānic usage)",
+      "language": "en",
+      "edition": "Leiden: Brill, 2008 (Handbook of Oriental Studies I.85)",
+      "access": "hafiza",
+      "locator": "entry",
+      "coverage": "all Qurʾānic roots and their senses in context",
+      "target_coverage": {
+        "note": "root-level, all target vocabulary"
+      },
+      "open_access": [],
+      "urls": [],
+      "fetched_at": "2026-10-03",
+      "files": {},
+      "licence": "licensed book; not held locally",
+      "notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+    },
+    {
+      "id": "EQ",
+      "title": "Encyclopaedia of the Qurʾān",
+      "author": "Jane Dammen McAuliffe (general editor)",
+      "death_ah": null,
+      "kind": "reference",
+      "tradition": "academic (Western Qurʾānic studies)",
+      "language": "en",
+      "edition": "Leiden: Brill, 2001–2006, 5 vols + index vol.; online as Encyclopaedia of the Qurʾān Online (EQO, subscription; brill.com returned 403 to scripted access)",
+      "access": "hafiza",
+      "locator": "entry",
+      "coverage": "thematic articles (no per-sūra articles except a few, e.g. 'Fātiḥa')",
+      "target_coverage": {
+        "articles": "e.g. 'Fātiḥa' (W. A. Graham?), 'Chronology and the Qurʾān' (G. Böwering), 'Pilgrimage' (G. Hawting?), 'Prayer', 'Almsgiving', 'Orphans', 'Poverty and the Poor', 'Heart', 'Religion', 'Hypocrites and Hypocrisy' (from memory — verify)"
+      },
+      "open_access": [],
+      "urls": [],
+      "fetched_at": "2026-10-03",
+      "files": {},
+      "licence": "licensed book; not held locally",
+      "notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+    },
+    {
+      "id": "STUDYQURAN",
+      "title": "The Study Quran: A New Translation and Commentary",
+      "author": "Seyyed Hossein Nasr (ed.-in-chief), Caner K. Dagli, Maria Massi Dakake, Joseph E. B. Lumbard, Mohammed Rustom",
+      "death_ah": null,
+      "kind": "tafsir",
+      "tradition": "academic-traditional (synthesis of classical Sunni, Shiʿi and Sufi tafsir)",
+      "language": "en",
+      "edition": "New York: HarperOne, 2015",
+      "access": "hafiza",
+      "locator": "ayah",
+      "coverage": "all 114 sūras: introduction per sūra + verse-by-verse commentary drawing on c. 40 tafsirs; essays",
+      "target_coverage": {
+        "1,22,87-114": "all covered (sūra introductions with dating/occasion; verse commentary)"
+      },
+      "open_access": [
+        {
+          "url": "https://www.studyquran.org/",
+          "what": "publisher/companion site (reachable); no open full text known"
+        }
+      ],
+      "urls": [
+        "https://www.studyquran.org/"
+      ],
+      "fetched_at": "2026-10-03",
+      "files": {},
+      "licence": "licensed book; not held locally",
+      "notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+    },
+    {
+      "id": "ISLAHI-TADABBUR",
+      "title": "Tadabbur-i Qurʾān",
+      "author": "Amin Ahsan Islahi (d. 1997)",
+      "death_ah": null,
+      "kind": "nazm",
+      "tradition": "Farahi school (naẓm, sūra pairs and groups)",
+      "language": "ur",
+      "edition": "Urdu orig. 9 vols, Lahore 1967–1980; English 'Pondering over the Qur'an' tr. Mohammad Saleem Kayani (Kuala Lumpur: Islamic Book Trust, partial) (from memory — verify)",
+      "access": "hafiza",
+      "locator": "page",
+      "coverage": "whole Qurʾān (Urdu); English translation partial",
+      "target_coverage": {
+        "87-114": "in the last volume (Urdu vol. 9 = sūras 67–114 (from memory — verify))",
+        "22": "Urdu vol. 5 (from memory — verify)",
+        "1": "Urdu vol. 1"
+      },
+      "open_access": [
+        {
+          "url": "https://amin-ahsan-islahi.org/english-books/",
+          "what": "official Islahi site (al-Mawrid digital archive, Wam): English 'Tadabbur e Quran' volumes listed: Vol. 3 (split by sūra 6–9), Vol. 4 (10–19), Vols 5–9 as whole-volume PDFs; no English Vol. 1–2 found"
+        },
+        {
+          "url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-9-english.pdf",
+          "what": "English Vol. 9 PDF (HEAD: 200 application/pdf, 8.2 MB) — the volume expected to hold 87–114; not downloaded, contents unverified"
+        },
+        {
+          "url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-5-english.pdf",
+          "what": "English Vol. 5 PDF (9.3 MB) — possibly holds S22; unverified"
+        },
+        {
+          "url": "https://archive.org/details/tadabbur-e-quran",
+          "what": "Urdu full set (third-party upload)"
+        },
+        {
+          "url": "https://archive.org/details/english-tadubbur-e-quran",
+          "what": "'English Tadabbur-e-Quran … Complete' (third-party upload by alqurantranslation.com, marked Public Domain Mark — licence claim unverified)"
+        }
+      ],
+      "urls": [
+        "https://amin-ahsan-islahi.org/english-books/",
+        "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-9-english.pdf",
+        "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-5-english.pdf",
+        "https://archive.org/details/tadabbur-e-quran",
+        "https://archive.org/details/english-tadubbur-e-quran"
+      ],
+      "fetched_at": "2026-10-03",
+      "files": {},
+      "licence": "Islahi d. 1997: in copyright; the official site offers free reading/download. Openly readable as whole volumes, not per-sūra pages.",
+      "notes": "Per-sūra openness: English is readable only as volume PDFs on the official site; no per-sūra HTML found. Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+    },
+    {
+      "id": "FARAHI-NIZAM",
+      "title": "Tafsīr Niẓām al-Qurʾān wa-taʾwīl al-Furqān bi-l-Furqān",
+      "author": "Ḥamīd al-Dīn al-Farāhī (d. 1930)",
+      "death_ah": null,
+      "kind": "nazm",
+      "tradition": "Farahi school (naẓm al-Qurʾān)",
+      "language": "ar",
+      "edition": "Arabic; incomplete, sūra fascicles published from 1930s (Azamgarh: Dāʾira Ḥamīdiyya); Urdu tr. by Islahi, Majmūʿa-yi Tafāsīr-i Farāhī (1973). English: Exordium to Coherence in the Qur'an (tr. Tariq Mahmood Hashmi, 2008) = the introduction (from memory — verify)",
+      "access": "hafiza",
+      "locator": "page",
+      "coverage": "c. 14 sūras: al-Fātiḥa, al-Dhāriyāt, al-Taḥrīm, al-Qiyāma, al-Mursalāt, ʿAbasa, al-Shams, al-Tīn, al-ʿAṣr, al-Fīl, al-Kawthar, al-Kāfirūn, al-Lahab/Tabbat, al-Ikhlāṣ (from memory — verify)",
+      "target_coverage": {
+        "covered": "1, 91, 95, 103, 105, 108, 109, 111, 112 (from memory — verify)",
+        "not": "22 and the remaining 87–114"
+      },
+      "open_access": [
+        {
+          "url": "https://archive.org/details/00139_201807",
+          "what": "Arabic 'Tafsīr Niẓām al-Qurʾān' PDF (third-party upload)"
+        },
+        {
+          "url": "https://archive.org/details/AAlexandrina-028095",
+          "what": "Tafsīr sūrat al-Kawthar (Bibliotheca Alexandrina scan)"
+        },
+        {
+          "url": "https://archive.org/details/292487-tafsir-e-bismillah-va-sura-e-fatiha-1",
+          "what": "'Some books by Farahi' incl. tafsīr of al-Fātiḥa (Urdu)"
+        },
+        {
+          "url": "https://archive.org/details/farahi_kotob",
+          "what": "collection of Farahi's books (Arabic)"
+        }
+      ],
+      "urls": [
+        "https://archive.org/details/00139_201807",
+        "https://archive.org/details/AAlexandrina-028095",
+        "https://archive.org/details/292487-tafsir-e-bismillah-va-sura-e-fatiha-1",
+        "https://archive.org/details/farahi_kotob"
+      ],
+      "fetched_at": "2026-10-03",
+      "files": {},
+      "licence": "Farahi d. 1930: Arabic original public domain under life+70; translations (Islahi, Hashmi) in copyright. Not downloaded.",
+      "notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+    },
+    {
+      "id": "AMBROS-CONCISE",
+      "title": "A Concise Dictionary of Koranic Arabic",
+      "author": "Arne A. Ambros, with Stephan Procházka",
+      "death_ah": null,
+      "kind": "lexicon",
+      "tradition": "academic (Vienna; grammatical-lexical)",
+      "language": "en",
+      "edition": "Wiesbaden: Reichert, 2004",
+      "access": "hafiza",
+      "locator": "entry",
+      "coverage": "all Qurʾānic roots/lexemes with grammatical information and loanword notes",
+      "target_coverage": {
+        "note": "root-level, all target vocabulary"
+      },
+      "open_access": [],
+      "urls": [],
+      "fetched_at": "2026-10-03",
+      "files": {},
+      "licence": "licensed book; not held locally",
+      "notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+    }
+  ]
+}

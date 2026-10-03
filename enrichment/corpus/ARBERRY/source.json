@@ -30,11 +30,49 @@
     "fawazahmed0/quran-api eng-ajarberry",
     "acikkuran.com \"Arthur John Arberry\""
   ],
-  "notes": "Literal English control for the meal review (what any translation loses vs what Turkish meals lose).",
+  "notes": "Literal English control for the meal review (what any translation loses vs what Turkish meals lose). Cross-check over S1, S22, S87-114 (primary tanzil.net en.arberry) - fawazahmed0/quran-api eng-ajarberry: n=373, exact 14.5%, loose 100.0%, sim 1.0; â/î/û in 0.0% of ayat (primary 0.0%) | acikkuran.com \"Arthur John Arberry\": n=373, exact 96.5%, loose 99.7%, sim 0.998; â/î/û in 0.0% of ayat (primary 0.0%); most divergent 1:1 (sim 0.38).",
   "raw_shared": [
     "acikkuran pages: ../MEAL-ISLAMOGLU/raw/acikkuran/"
   ],
-  "_notes_parts": {
+  "crosscheck": {
+    "range": "S1, S22, S87-114",
+    "primary": "tanzil.net en.arberry",
+    "primary_diacritic_pct": 0.0,
+    "primary_groups": 0,
+    "vs": {
+      "fawazahmed0/quran-api eng-ajarberry": {
+        "n": 373,
+        "exact_pct": 14.5,
+        "loose_pct": 100.0,
+        "mean_sim": 1.0,
+        "bracket_diff": 0,
+        "bracket_diff_examples": [],
+        "worst": [],
+        "diacritic_pct": 0.0,
+        "groups": 0
+      },
+      "acikkuran.com \"Arthur John Arberry\"": {
+        "n": 373,
+        "exact_pct": 96.5,
+        "loose_pct": 99.7,
+        "mean_sim": 0.998,
+        "bracket_diff": 0,
+        "bracket_diff_examples": [],
+        "worst": [
+          {
+            "ayah": "1:1",
+            "sim": 0.38,
+            "primary": "In the Name of God, the Merciful, the Compassionate",
+            "other": "In the Name of God, the Merciful, the Compassionate ## Kelimeler | # | kelime | anlam | kök | |---|---|---|---| | 1 | بِسْمِ — bismi | adıyla | سمو — Sin-Mim-Va"
+          }
+        ],
+        "diacritic_pct": 0.0,
+        "groups": 0
+      }
+    },
+    "summary": "Cross-check over S1, S22, S87-114 (primary tanzil.net en.arberry) - fawazahmed0/quran-api eng-ajarberry: n=373, exact 14.5%, loose 100.0%, sim 1.0; â/î/û in 0.0% of ayat (primary 0.0%) | acikkuran.com \"Arthur John Arberry\": n=373, exact 96.5%, loose 99.7%, sim 0.998; â/î/û in 0.0% of ayat (primary 0.0%); most divergent 1:1 (sim 0.38)."
+  },
+  "notes_parts": {
     "static": "Literal English control for the meal review (what any translation loses vs what Turkish meals lose).",
     "build": ""
   }

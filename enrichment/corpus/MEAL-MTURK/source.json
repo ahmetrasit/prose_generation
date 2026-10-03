@@ -10,7 +10,7 @@
   "edition": "kuranmeali.com about-page (Aciklama.php?id=12&islem=mealbilgi): Allah'ın Kelamı Kur’ân-ı Kerîm ve Meâli Mehmet Türk Meali | 1954 yılında Konya’da dünyaya geldi. İlk tahsilini Sedirler İlkokulunda, Orta tahsilini ise 1973 yılında Konya İmam-Hatip Okulunda tamamladı. 1977 yılında Konya Yüksek İslâm Enstitüsünü bitirdi. Sırasıyla Antalya-Korkuteli Lisesi Din Dersi öğretmenliği, Isparta-Yalvaç İmam-Hatip Lisesi, Şarkîkaraağaç İmam-Hatip Lisesi ve Kırşehir-Mucur İm",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "1-8,22,87-114 + partial 9 (1713/6236 ayat)",
+  "coverage": "1-114 (6236/6236 ayat)",
   "urls": [
     "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='mehmetturk+1')"
   ],
@@ -22,12 +22,12 @@
   "panel": false,
   "host_label": "kuranmeali.com \"Mehmet Türk Meali\" (mehmetturk)",
   "cross_witnesses": [],
-  "notes": "92 merged verse groups stored once as a..a_end. 93 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 993 segments carry footnotes in \"notes\" (858 truncated by the host, flagged notes_truncated). Coverage incomplete (1713/6236); re-run `fetch_meal.py fetch --sources MEAL-MTURK` then `build` to resume.",
+  "notes": "372 merged verse groups stored once as a..a_end. 363 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 3009 segments carry footnotes in \"notes\" (2276 truncated by the host, flagged notes_truncated).",
   "raw_shared": [
     "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/"
   ],
-  "_notes_parts": {
+  "notes_parts": {
     "static": "",
-    "build": "92 merged verse groups stored once as a..a_end. 93 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 993 segments carry footnotes in \"notes\" (858 truncated by the host, flagged notes_truncated). Coverage incomplete (1713/6236); re-run `fetch_meal.py fetch --sources MEAL-MTURK` then `build` to resume."
+    "build": "372 merged verse groups stored once as a..a_end. 363 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 3009 segments carry footnotes in \"notes\" (2276 truncated by the host, flagged notes_truncated)."
   }
 }

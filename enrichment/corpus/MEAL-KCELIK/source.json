@@ -10,7 +10,7 @@
   "edition": "kuranmeali.com about-page (Aciklama.php?id=20&islem=mealbilgi): Kur'an-ı Kerim ve Türkçe Açıklamalı Mealî (Ehl-î Beyt -A.S- Öğretileri Esasınca) Kadri Çelik Meali | 1965 yılında Diyarbakır'da doğdu. İlk orta ve lise eğitimini Diyarbakır'da tamamlayan Çelik henüz 17 yaşında iken 12 Eylül'de siyasi çalışmalarından dolayı tutuklandı ve 2 yıl Diyarbakır Askeri Cezaevinde, 2 yıl da Malatya E Tipi Cezaevi’nde yattıktan sonra 1984 yılında özgürlüğüne kavuştu. | Diyar",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "1-8,22,87-114 + partial 9 (1707/6236 ayat)",
+  "coverage": "1-114 (6236/6236 ayat)",
   "urls": [
     "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='kadricelik+1')",
     "https://mealler.org/SureveAyetler.aspx?sureid={sss}&ayet={aaa}  (row \"Kadri Çelik\")"
@@ -25,13 +25,42 @@
   "cross_witnesses": [
     "mealler.org \"Kadri Çelik\""
   ],
-  "notes": "132 segments carry footnotes in \"notes\" (126 truncated by the host, flagged notes_truncated). Coverage incomplete (1707/6236); re-run `fetch_meal.py fetch --sources MEAL-KCELIK` then `build` to resume.",
+  "notes": "313 segments carry footnotes in \"notes\" (270 truncated by the host, flagged notes_truncated). Cross-check over S1, S22, S87-114 (primary kuranmeali.com \"Kadri Çelik Meali\" (kadricelik)) - mealler.org \"Kadri Çelik\": n=372, exact 99.5%, loose 99.7%, sim 0.998; â/î/û in 5.4% of ayat (primary 5.1%); bracket counts differ in 1 ayat (e.g. 89:28); most divergent 89:28 (sim 0.41).",
   "raw_shared": [
     "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/",
     "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
   ],
-  "_notes_parts": {
+  "crosscheck": {
+    "range": "S1, S22, S87-114",
+    "primary": "kuranmeali.com \"Kadri Çelik Meali\" (kadricelik)",
+    "primary_diacritic_pct": 5.1,
+    "primary_groups": 0,
+    "vs": {
+      "mealler.org \"Kadri Çelik\"": {
+        "n": 372,
+        "exact_pct": 99.5,
+        "loose_pct": 99.7,
+        "mean_sim": 0.998,
+        "bracket_diff": 1,
+        "bracket_diff_examples": [
+          "89:28"
+        ],
+        "worst": [
+          {
+            "ayah": "89:28",
+            "sim": 0.41,
+            "primary": "Hoşnut olarak ve hoşnut olunarak Rabbine dön.",
+            "other": "\"Radiye olarak, Mardiye olarak (Seyir ve tasarruf kemâlâtını yaşayan olarak) Rabbine (Esmâ hakikatine) dön (şuur olarak)!\""
+          }
+        ],
+        "diacritic_pct": 5.4,
+        "groups": 0
+      }
+    },
+    "summary": "Cross-check over S1, S22, S87-114 (primary kuranmeali.com \"Kadri Çelik Meali\" (kadricelik)) - mealler.org \"Kadri Çelik\": n=372, exact 99.5%, loose 99.7%, sim 0.998; â/î/û in 5.4% of ayat (primary 5.1%); bracket counts differ in 1 ayat (e.g. 89:28); most divergent 89:28 (sim 0.41)."
+  },
+  "notes_parts": {
     "static": "",
-    "build": "132 segments carry footnotes in \"notes\" (126 truncated by the host, flagged notes_truncated). Coverage incomplete (1707/6236); re-run `fetch_meal.py fetch --sources MEAL-KCELIK` then `build` to resume."
+    "build": "313 segments carry footnotes in \"notes\" (270 truncated by the host, flagged notes_truncated)."
   }
 }

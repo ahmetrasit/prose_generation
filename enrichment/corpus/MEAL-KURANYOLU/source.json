@@ -10,25 +10,15 @@
   "edition": "kuran.diyanet.gov.tr Mushaf, meal ML=5",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "1,106-108 + partial 22 (93/6236 ayat)",
+  "coverage": "1-114 (6236/6236 ayat)",
   "urls": [
     "https://kuran.diyanet.gov.tr/mushaf/kuran-meal-1/<slug>-suresi-{s}/ayet-{a}/diyanet-isleri-baskanligi-meali-5  (one request per mushaf page; page JSON MPageDmList)",
     "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='kuranyolu+1')"
   ],
   "fetched_at": "2026-10-03",
   "files": {
-    "raw/kd/index.json": "560835a949c6387f3f80fb29be8d26cc37ef37cd667fc67064906d5d9e51fe0a",
-    "raw/kd/p001.html.gz": "28a308324769146b64598a5001c46ed5fdf36320e96d4e4105a197811ce70360",
-    "raw/kd/p332.html.gz": "c006a59be17c8bb7a6038b612cba69ea14e2c0b26c22cdf933bd1018f5996487",
-    "raw/kd/p333.html.gz": "c6e7391d1752385dcafac3483490b2c61af3d4b5e93b05d89568a209555b6323",
-    "raw/kd/p334.html.gz": "dd3d35184c172f13c04324483260da5cc518a881ff3e2508a4bb071881939810",
-    "raw/kd/p335.html.gz": "7bebc9acb5e73ed504a2ad204d6293488330184fb62d4a3ac021e0f7c00053fb",
-    "raw/kd/p336.html.gz": "3bcb7da0eaa5ffa31b111714f57f34c511709b9444149be51b4c4f9949a7bcc8",
-    "raw/kd/p337.html.gz": "a2f3c3f36e524d6512f8629917dae2410012e70e1621e2a98b6dbbd956c26aff",
-    "raw/kd/p338.html.gz": "11ac94501fa5125e9fde598a4f503fca34f401b903825f8e05d3f4555844436b",
-    "raw/kd/p339.html.gz": "296b1e908e6c533dfec11e2cbbeab20aac171ff2ab90713c5d0be6f949a2d752",
-    "raw/kd/p340.html.gz": "b6f6089987d90e5e29587034a07660638a0b18e1a4944e7ad53e756e5f57d500",
-    "raw/kd/p603.html.gz": "94e0090c6558532eab4a09f6666520baf6619e953ca55e7f9346b0684853055f"
+    "raw/MANIFEST.sha256": "3792401477e9649744d57f1f734ea16afee769aece37ee0fad143ee57932ac77",
+    "_count": "606 files listed in raw/MANIFEST.sha256"
   },
   "lineage": "diyanet",
   "relay": null,
@@ -38,12 +28,32 @@
   "cross_witnesses": [
     "kuranmeali.com \"Kur'an Yolu (Diyanet İşleri)\" (kuranyolu)"
   ],
-  "notes": "4 merged verse groups stored once as a..a_end. Coverage incomplete (93/6236); re-run `fetch_meal.py fetch --sources MEAL-KURANYOLU` then `build` to resume.",
+  "notes": "299 merged verse groups stored once as a..a_end. Cross-check over S1, S22, S87-114 (primary kuran.diyanet.gov.tr meal ML=5) - kuranmeali.com \"Kur'an Yolu (Diyanet İşleri)\" (kuranyolu): n=373, exact 97.9%, loose 99.2%, sim 1.0; â/î/û in 25.2% of ayat (primary 25.2%).",
   "raw_shared": [
     "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/"
   ],
-  "_notes_parts": {
+  "crosscheck": {
+    "range": "S1, S22, S87-114",
+    "primary": "kuran.diyanet.gov.tr meal ML=5",
+    "primary_diacritic_pct": 25.2,
+    "primary_groups": 27,
+    "vs": {
+      "kuranmeali.com \"Kur'an Yolu (Diyanet İşleri)\" (kuranyolu)": {
+        "n": 373,
+        "exact_pct": 97.9,
+        "loose_pct": 99.2,
+        "mean_sim": 1.0,
+        "bracket_diff": 0,
+        "bracket_diff_examples": [],
+        "worst": [],
+        "diacritic_pct": 25.2,
+        "groups": 27
+      }
+    },
+    "summary": "Cross-check over S1, S22, S87-114 (primary kuran.diyanet.gov.tr meal ML=5) - kuranmeali.com \"Kur'an Yolu (Diyanet İşleri)\" (kuranyolu): n=373, exact 97.9%, loose 99.2%, sim 1.0; â/î/û in 25.2% of ayat (primary 25.2%)."
+  },
+  "notes_parts": {
     "static": "",
-    "build": "4 merged verse groups stored once as a..a_end. Coverage incomplete (93/6236); re-run `fetch_meal.py fetch --sources MEAL-KURANYOLU` then `build` to resume."
+    "build": "299 merged verse groups stored once as a..a_end."
   }
 }

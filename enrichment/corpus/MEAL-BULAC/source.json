@@ -34,13 +34,130 @@
     "acikkuran.com \"Ali Bulaç\"",
     "mealler.org \"Ali Bulaç\""
   ],
-  "notes": "",
+  "notes": "Cross-check over S1, S22, S87-114 (primary tanzil.net tr.bulac) - fawazahmed0/quran-api tur-alibulac: n=373, exact 1.3%, loose 100.0%, sim 1.0; â/î/û in 0.3% of ayat (primary 0.3%) | kuranmeali.com \"Ali Bulaç Meali\" (abulac): n=373, exact 67.0%, loose 83.1%, sim 0.989; â/î/û in 2.4% of ayat (primary 0.3%); bracket counts differ in 2 ayat (e.g. 22:31, 96:15); verse groups 2 vs 0; most divergent 1:6 (sim 0.32) | acikkuran.com \"Ali Bulaç\": n=373, exact 68.9%, loose 90.6%, sim 0.998; â/î/û in 0.0% of ayat (primary 0.3%); bracket counts differ in 1 ayat (e.g. 22:31); most divergent 87:1 (sim 0.82) | mealler.org \"Ali Bulaç\": n=373, exact 68.4%, loose 90.9%, sim 0.998; â/î/û in 2.4% of ayat (primary 0.3%); bracket counts differ in 1 ayat (e.g. 22:31); most divergent 87:1 (sim 0.82).",
   "raw_shared": [
     "acikkuran pages: ../MEAL-ISLAMOGLU/raw/acikkuran/",
     "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/",
     "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
   ],
-  "_notes_parts": {
+  "crosscheck": {
+    "range": "S1, S22, S87-114",
+    "primary": "tanzil.net tr.bulac",
+    "primary_diacritic_pct": 0.3,
+    "primary_groups": 0,
+    "vs": {
+      "fawazahmed0/quran-api tur-alibulac": {
+        "n": 373,
+        "exact_pct": 1.3,
+        "loose_pct": 100.0,
+        "mean_sim": 1.0,
+        "bracket_diff": 0,
+        "bracket_diff_examples": [],
+        "worst": [],
+        "diacritic_pct": 0.3,
+        "groups": 0
+      },
+      "kuranmeali.com \"Ali Bulaç Meali\" (abulac)": {
+        "n": 373,
+        "exact_pct": 67.0,
+        "loose_pct": 83.1,
+        "mean_sim": 0.989,
+        "bracket_diff": 2,
+        "bracket_diff_examples": [
+          "22:31",
+          "96:15"
+        ],
+        "worst": [
+          {
+            "ayah": "1:6",
+            "sim": 0.32,
+            "primary": "Bizi doğru yola ilet;",
+            "other": "Bizi doğru yola ilet; kendilerine nimet verdiklerinin yoluna, gazaba uğrayanların ve sapmışlarınkine değil."
+          },
+          {
+            "ayah": "1:3",
+            "sim": 0.34,
+            "primary": "Rahman ve Rahimdir.",
+            "other": "Hamd, Alemlerin Rabbi, Rahman, Rahim ve Din gününün maliki olan Allah'adır."
+          },
+          {
+            "ayah": "1:4",
+            "sim": 0.46,
+            "primary": "Din gününün malikidir.",
+            "other": "Hamd, Alemlerin Rabbi, Rahman, Rahim ve Din gününün maliki olan Allah'adır."
+          }
+        ],
+        "diacritic_pct": 2.4,
+        "groups": 2
+      },
+      "acikkuran.com \"Ali Bulaç\"": {
+        "n": 373,
+        "exact_pct": 68.9,
+        "loose_pct": 90.6,
+        "mean_sim": 0.998,
+        "bracket_diff": 1,
+        "bracket_diff_examples": [
+          "22:31"
+        ],
+        "worst": [
+          {
+            "ayah": "87:1",
+            "sim": 0.82,
+            "primary": "Rabbinin Yüce ismini tesbih et,",
+            "other": "Yüce ismini tesbih et,"
+          },
+          {
+            "ayah": "87:13",
+            "sim": 0.91,
+            "primary": "Sonra onun içinde o, ne ölür, ne yaşar.",
+            "other": "onun içinde o, ne ölür, ne yaşar."
+          },
+          {
+            "ayah": "99:7",
+            "sim": 0.94,
+            "primary": "Artık kim zerre ağırlığınca hayır işlerse, onu görür.",
+            "other": "kim zerre ağırlığınca hayır işlerse, onu görür."
+          }
+        ],
+        "diacritic_pct": 0.0,
+        "groups": 0
+      },
+      "mealler.org \"Ali Bulaç\"": {
+        "n": 373,
+        "exact_pct": 68.4,
+        "loose_pct": 90.9,
+        "mean_sim": 0.998,
+        "bracket_diff": 1,
+        "bracket_diff_examples": [
+          "22:31"
+        ],
+        "worst": [
+          {
+            "ayah": "87:1",
+            "sim": 0.82,
+            "primary": "Rabbinin Yüce ismini tesbih et,",
+            "other": "Yüce ismini tesbih et,"
+          },
+          {
+            "ayah": "87:13",
+            "sim": 0.91,
+            "primary": "Sonra onun içinde o, ne ölür, ne yaşar.",
+            "other": "onun içinde o, ne ölür, ne yaşar."
+          },
+          {
+            "ayah": "99:7",
+            "sim": 0.94,
+            "primary": "Artık kim zerre ağırlığınca hayır işlerse, onu görür.",
+            "other": "kim zerre ağırlığınca hayır işlerse, onu görür."
+          }
+        ],
+        "diacritic_pct": 2.4,
+        "groups": 0
+      }
+    },
+    "summary": "Cross-check over S1, S22, S87-114 (primary tanzil.net tr.bulac) - fawazahmed0/quran-api tur-alibulac: n=373, exact 1.3%, loose 100.0%, sim 1.0; â/î/û in 0.3% of ayat (primary 0.3%) | kuranmeali.com \"Ali Bulaç Meali\" (abulac): n=373, exact 67.0%, loose 83.1%, sim 0.989; â/î/û in 2.4% of ayat (primary 0.3%); bracket counts differ in 2 ayat (e.g. 22:31, 96:15); verse groups 2 vs 0; most divergent 1:6 (sim 0.32) | acikkuran.com \"Ali Bulaç\": n=373, exact 68.9%, loose 90.6%, sim 0.998; â/î/û in 0.0% of ayat (primary 0.3%); bracket counts differ in 1 ayat (e.g. 22:31); most divergent 87:1 (sim 0.82) | mealler.org \"Ali Bulaç\": n=373, exact 68.4%, loose 90.9%, sim 0.998; â/î/û in 2.4% of ayat (primary 0.3%); bracket counts differ in 1 ayat (e.g. 22:31); most divergent 87:1 (sim 0.82)."
+  },
+  "notes_parts": {
     "static": "",
     "build": ""
   }

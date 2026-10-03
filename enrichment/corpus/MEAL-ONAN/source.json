@@ -10,7 +10,7 @@
   "edition": "as published by acikkuran.com \"Gültekin Onan\"",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "1-8,22,87-114 + partial 9 (1707/6236 ayat)",
+  "coverage": "1-114 (6236/6236 ayat)",
   "urls": [
     "https://acikkuran.com/{slug}/{a}-ayet-meali.md  (section \"### Gültekin Onan\"); whole surah without footnotes: https://acikkuran.com/{slug}.md?author=18",
     "https://cdn.jsdelivr.net/gh/fawazahmed0/quran-api@1/editions/tur-gultekinonan.json",
@@ -29,13 +29,51 @@
     "fawazahmed0/quran-api tur-gultekinonan",
     "mealler.org \"Gültekin Onan\""
   ],
-  "notes": "~69% identical to MEAL-BULAC over S1, S22, S87-114: not an independent witness to Bulaç. 2 merged verse groups stored once as a..a_end. 2 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. Coverage incomplete (1707/6236); re-run `fetch_meal.py fetch --sources MEAL-ONAN` then `build` to resume.",
+  "notes": "~69% identical to MEAL-BULAC over S1, S22, S87-114: not an independent witness to Bulaç. 3 merged verse groups stored once as a..a_end. 3 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. Cross-check over S1, S22, S87-114 (primary acikkuran.com \"Gültekin Onan\") - fawazahmed0/quran-api tur-gultekinonan: n=373, exact 1.3%, loose 100.0%, sim 1.0; â/î/û in 0.0% of ayat (primary 0.0%) | mealler.org \"Gültekin Onan\": n=373, exact 99.5%, loose 99.7%, sim 1.0; â/î/û in 0.0% of ayat (primary 0.0%); most divergent 22:49 (sim 0.92).",
   "raw_shared": [
     "acikkuran pages: ../MEAL-ISLAMOGLU/raw/acikkuran/",
     "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
   ],
-  "_notes_parts": {
+  "crosscheck": {
+    "range": "S1, S22, S87-114",
+    "primary": "acikkuran.com \"Gültekin Onan\"",
+    "primary_diacritic_pct": 0.0,
+    "primary_groups": 2,
+    "vs": {
+      "fawazahmed0/quran-api tur-gultekinonan": {
+        "n": 373,
+        "exact_pct": 1.3,
+        "loose_pct": 100.0,
+        "mean_sim": 1.0,
+        "bracket_diff": 0,
+        "bracket_diff_examples": [],
+        "worst": [],
+        "diacritic_pct": 0.0,
+        "groups": 2
+      },
+      "mealler.org \"Gültekin Onan\"": {
+        "n": 373,
+        "exact_pct": 99.5,
+        "loose_pct": 99.7,
+        "mean_sim": 1.0,
+        "bracket_diff": 0,
+        "bracket_diff_examples": [],
+        "worst": [
+          {
+            "ayah": "22:49",
+            "sim": 0.92,
+            "primary": "De ki: \"Ey insanlar, gerçekten ben sizin için yalnızca bir uyarıcıyım.\"",
+            "other": "De ki: «Ey insanlar, gerçekten ben sizin için yalnızca bir uyarıcı, korkutucuyum.»"
+          }
+        ],
+        "diacritic_pct": 0.0,
+        "groups": 2
+      }
+    },
+    "summary": "Cross-check over S1, S22, S87-114 (primary acikkuran.com \"Gültekin Onan\") - fawazahmed0/quran-api tur-gultekinonan: n=373, exact 1.3%, loose 100.0%, sim 1.0; â/î/û in 0.0% of ayat (primary 0.0%) | mealler.org \"Gültekin Onan\": n=373, exact 99.5%, loose 99.7%, sim 1.0; â/î/û in 0.0% of ayat (primary 0.0%); most divergent 22:49 (sim 0.92)."
+  },
+  "notes_parts": {
     "static": "~69% identical to MEAL-BULAC over S1, S22, S87-114: not an independent witness to Bulaç.",
-    "build": "2 merged verse groups stored once as a..a_end. 2 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. Coverage incomplete (1707/6236); re-run `fetch_meal.py fetch --sources MEAL-ONAN` then `build` to resume."
+    "build": "3 merged verse groups stored once as a..a_end. 3 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end."
   }
 }

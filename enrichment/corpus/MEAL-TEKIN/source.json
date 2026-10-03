@@ -10,7 +10,7 @@
   "edition": "kuranmeali.com about-page (Aciklama.php?id=7&islem=mealbilgi): Tefsiri Meal Kuran’ın Anlaşılmasına Doğru Ahmet Tekin Meali | Ahmet Tekin Hocamızın Mealini yayınlamak üzere iznini talep ettiğimizde tereddütsüz izin verdi. Kendi sitesinde http://www.ahmettekinhoca.com/ yeralan ilgili tanıtım yazısını aşağıya aynen alıyoruz; | \"Üç büyük lügat (Lisanü´l-Arab,Tacü´l-Arus, Kamus) ve hadis lügatları; 70´den fazla tefsir taranarak, nüzul sebepleri, nüzul seneleri ve ",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "1-8,22,87-114 + partial 9 (1708/6236 ayat)",
+  "coverage": "1-114 (6236/6236 ayat)",
   "urls": [
     "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='ahmettekin+1')",
     "https://mealler.org/SureveAyetler.aspx?sureid={sss}&ayet={aaa}  (row \"Ahmet Tekin\")"
@@ -25,13 +25,57 @@
   "cross_witnesses": [
     "mealler.org \"Ahmet Tekin\""
   ],
-  "notes": "621 segments carry footnotes in \"notes\" (31 truncated by the host, flagged notes_truncated). Coverage incomplete (1708/6236); re-run `fetch_meal.py fetch --sources MEAL-TEKIN` then `build` to resume.",
+  "notes": "1740 segments carry footnotes in \"notes\" (39 truncated by the host, flagged notes_truncated). Cross-check over S1, S22, S87-114 (primary kuranmeali.com \"Ahmet Tekin Meali\" (ahmettekin)) - mealler.org \"Ahmet Tekin\": n=373, exact 46.9%, loose 76.4%, sim 0.938; â/î/û in 46.6% of ayat (primary 46.4%); bracket counts differ in 4 ayat (e.g. 89:5, 92:19, 92:20); most divergent 1:6 (sim 0.2).",
   "raw_shared": [
     "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/",
     "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
   ],
-  "_notes_parts": {
+  "crosscheck": {
+    "range": "S1, S22, S87-114",
+    "primary": "kuranmeali.com \"Ahmet Tekin Meali\" (ahmettekin)",
+    "primary_diacritic_pct": 46.4,
+    "primary_groups": 0,
+    "vs": {
+      "mealler.org \"Ahmet Tekin\"": {
+        "n": 373,
+        "exact_pct": 46.9,
+        "loose_pct": 76.4,
+        "mean_sim": 0.938,
+        "bracket_diff": 4,
+        "bracket_diff_examples": [
+          "89:5",
+          "92:19",
+          "92:20",
+          "111:1"
+        ],
+        "worst": [
+          {
+            "ayah": "1:6",
+            "sim": 0.2,
+            "primary": "Allahım, bizi doğru, muhkem, güvenli, mutedil yolda, İslâmî hayatta büyük hedeflere, hayırlara, büyük mükâfatlara ulaştır, önümüzü aydınlatan bilgilerle donat, ",
+            "other": "Dine, kitaba ve şeriata kavuşturduğun, nimetlerine ve lütuflarına mazhar ettiğin kullarının, peygamberlerin, samimiyetlerini isbat edenlerin, İslâm önderlerinin"
+          },
+          {
+            "ayah": "107:4",
+            "sim": 0.23,
+            "primary": "Namazlarını terketmeyi umursamayanların, başka meşgalelerle ilgilenmeyi namaza tercih edenlerin, vakitlerine, şartlarına ve rükunlarına riâyet etmeksizin gaflet",
+            "other": "Göstermelik namaz kılanların, Allah’ın huzurunda namaz kıldıklarının şuuruna ermeyenlerin vay haline!"
+          },
+          {
+            "ayah": "1:5",
+            "sim": 0.28,
+            "primary": "Allahım, yalnız seni ilâh tanıyor, candan müslümanlar olarak sana teslim oluyor, saygıyla sana kulluk ve ibadet ediyor, yalnız senin şeriatına bağlanıyor, sana ",
+            "other": "Allahım, bizi doğru, muhkem, güvenli yolda, İslâmî hayatta büyük hedeflere, hayırlara, büyük mükâfatlara ulaştır, önümüzü aydınlatan bilgilerle donat, bizi seba"
+          }
+        ],
+        "diacritic_pct": 46.6,
+        "groups": 0
+      }
+    },
+    "summary": "Cross-check over S1, S22, S87-114 (primary kuranmeali.com \"Ahmet Tekin Meali\" (ahmettekin)) - mealler.org \"Ahmet Tekin\": n=373, exact 46.9%, loose 76.4%, sim 0.938; â/î/û in 46.6% of ayat (primary 46.4%); bracket counts differ in 4 ayat (e.g. 89:5, 92:19, 92:20); most divergent 1:6 (sim 0.2)."
+  },
+  "notes_parts": {
     "static": "",
-    "build": "621 segments carry footnotes in \"notes\" (31 truncated by the host, flagged notes_truncated). Coverage incomplete (1708/6236); re-run `fetch_meal.py fetch --sources MEAL-TEKIN` then `build` to resume."
+    "build": "1740 segments carry footnotes in \"notes\" (39 truncated by the host, flagged notes_truncated)."
   }
 }

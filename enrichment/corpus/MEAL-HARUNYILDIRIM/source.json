@@ -10,7 +10,7 @@
   "edition": "as published by mealler.org \"Harun Yıldırım\"",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "1-3,22,87-114 + partial 4 (885/6236 ayat)",
+  "coverage": "1-114 (6236/6236 ayat)",
   "urls": [
     "https://mealler.org/SureveAyetler.aspx?sureid={sss}&ayet={aaa}  (row \"Harun Yıldırım\")"
   ],
@@ -22,12 +22,12 @@
   "panel": false,
   "host_label": "mealler.org \"Harun Yıldırım\"",
   "cross_witnesses": [],
-  "notes": "Coverage incomplete (885/6236); re-run `fetch_meal.py fetch --sources MEAL-HARUNYILDIRIM` then `build` to resume.",
+  "notes": "9 merged verse groups stored once as a..a_end. 7 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end.",
   "raw_shared": [
     "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
   ],
-  "_notes_parts": {
+  "notes_parts": {
     "static": "",
-    "build": "Coverage incomplete (885/6236); re-run `fetch_meal.py fetch --sources MEAL-HARUNYILDIRIM` then `build` to resume."
+    "build": "9 merged verse groups stored once as a..a_end. 7 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end."
   }
 }

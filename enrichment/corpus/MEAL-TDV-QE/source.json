@@ -28,8 +28,37 @@
   "cross_witnesses": [
     "fawazahmed0/quran-api tur-muslimshahin"
   ],
-  "notes": "QuranEnc key \"turkish_shahin\" / fawaz \"Muslim Shahin\" is the TDV (Özek et al.) text revised for QuranEnc: ~60% identical to the TDV e-text (1:5 \"Ancak sana ibadet (kulluk) eder ve ancak senden yardım isteriz\"). The \"Shahin\" label does not name the translator.",
-  "_notes_parts": {
+  "notes": "QuranEnc key \"turkish_shahin\" / fawaz \"Muslim Shahin\" is the TDV (Özek et al.) text revised for QuranEnc: ~60% identical to the TDV e-text (1:5 \"Ancak sana ibadet (kulluk) eder ve ancak senden yardım isteriz\"). The \"Shahin\" label does not name the translator. Cross-check over S1, S22, S87-114 (primary QuranEnc turkish_shahin) - fawazahmed0/quran-api tur-muslimshahin: n=373, exact 6.7%, loose 99.7%, sim 1.0; â/î/û in 19.8% of ayat (primary 19.8%); bracket counts differ in 1 ayat (e.g. 104:3); most divergent 104:3 (sim 0.98).",
+  "crosscheck": {
+    "range": "S1, S22, S87-114",
+    "primary": "QuranEnc turkish_shahin",
+    "primary_diacritic_pct": 19.8,
+    "primary_groups": 0,
+    "vs": {
+      "fawazahmed0/quran-api tur-muslimshahin": {
+        "n": 373,
+        "exact_pct": 6.7,
+        "loose_pct": 99.7,
+        "mean_sim": 1.0,
+        "bracket_diff": 1,
+        "bracket_diff_examples": [
+          "104:3"
+        ],
+        "worst": [
+          {
+            "ayah": "104:3",
+            "sim": 0.98,
+            "primary": "(O), malının kendisini ebedi kılacağını zanneder.",
+            "other": "malının kendisini ebedi kılacağını zanneder"
+          }
+        ],
+        "diacritic_pct": 19.8,
+        "groups": 0
+      }
+    },
+    "summary": "Cross-check over S1, S22, S87-114 (primary QuranEnc turkish_shahin) - fawazahmed0/quran-api tur-muslimshahin: n=373, exact 6.7%, loose 99.7%, sim 1.0; â/î/û in 19.8% of ayat (primary 19.8%); bracket counts differ in 1 ayat (e.g. 104:3); most divergent 104:3 (sim 0.98)."
+  },
+  "notes_parts": {
     "static": "QuranEnc key \"turkish_shahin\" / fawaz \"Muslim Shahin\" is the TDV (Özek et al.) text revised for QuranEnc: ~60% identical to the TDV e-text (1:5 \"Ancak sana ibadet (kulluk) eder ve ancak senden yardım isteriz\"). The \"Shahin\" label does not name the translator.",
     "build": ""
   }

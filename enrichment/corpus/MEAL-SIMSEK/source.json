@@ -10,7 +10,7 @@
   "edition": "kuranmeali.com about-page (Aciklama.php?id=26&islem=mealbilgi): Açıklamalı Kur'ân-ı Kerim Meali Ümit Şimşek Meali | Ümit Şimşek Beyin Mealini yayınlamak için kendisinden iznini talep ettik. Yayınlamamıza müsaade ederek meal metnini gönderdiler. Allah ondan razı olsun. | Özgeçmiş için Tıklayın Meali Satınalmak için Tıklayın",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "1-8,22,87-114 + partial 9 (1707/6236 ayat)",
+  "coverage": "1-114 (6236/6236 ayat)",
   "urls": [
     "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='simsek+1')",
     "https://mealler.org/SureveAyetler.aspx?sureid={sss}&ayet={aaa}  (row \"Ümit Şimşek\")"
@@ -25,13 +25,46 @@
   "cross_witnesses": [
     "mealler.org \"Ümit Şimşek\""
   ],
-  "notes": "5 merged verse groups stored once as a..a_end. 5 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 335 segments carry footnotes in \"notes\" (224 truncated by the host, flagged notes_truncated). Coverage incomplete (1707/6236); re-run `fetch_meal.py fetch --sources MEAL-SIMSEK` then `build` to resume.",
+  "notes": "16 merged verse groups stored once as a..a_end. 16 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 946 segments carry footnotes in \"notes\" (531 truncated by the host, flagged notes_truncated). Cross-check over S1, S22, S87-114 (primary kuranmeali.com \"Ümit Şimşek Meali\" (simsek)) - mealler.org \"Ümit Şimşek\": n=373, exact 83.6%, loose 99.7%, sim 0.999; â/î/û in 17.2% of ayat (primary 17.2%); bracket counts differ in 42 ayat (e.g. 1:1, 1:2, 1:4); most divergent 99:6 (sim 0.68).",
   "raw_shared": [
     "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/",
     "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
   ],
-  "_notes_parts": {
+  "crosscheck": {
+    "range": "S1, S22, S87-114",
+    "primary": "kuranmeali.com \"Ümit Şimşek Meali\" (simsek)",
+    "primary_diacritic_pct": 17.2,
+    "primary_groups": 5,
+    "vs": {
+      "mealler.org \"Ümit Şimşek\"": {
+        "n": 373,
+        "exact_pct": 83.6,
+        "loose_pct": 99.7,
+        "mean_sim": 0.999,
+        "bracket_diff": 42,
+        "bracket_diff_examples": [
+          "1:1",
+          "1:2",
+          "1:4",
+          "1:5",
+          "22:5"
+        ],
+        "worst": [
+          {
+            "ayah": "99:6",
+            "sim": 0.68,
+            "primary": "O gün insanlar, yaptıkları işler kendilerine gösterilsin diye, bölük bölük Allah'ın huzuruna çıkarlar.",
+            "other": "O gün insanlar —amellerinin kendilerine gösterilmesi için— bölük bölük dağınık halde çıkıp gelirler."
+          }
+        ],
+        "diacritic_pct": 17.2,
+        "groups": 5
+      }
+    },
+    "summary": "Cross-check over S1, S22, S87-114 (primary kuranmeali.com \"Ümit Şimşek Meali\" (simsek)) - mealler.org \"Ümit Şimşek\": n=373, exact 83.6%, loose 99.7%, sim 0.999; â/î/û in 17.2% of ayat (primary 17.2%); bracket counts differ in 42 ayat (e.g. 1:1, 1:2, 1:4); most divergent 99:6 (sim 0.68)."
+  },
+  "notes_parts": {
     "static": "",
-    "build": "5 merged verse groups stored once as a..a_end. 5 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 335 segments carry footnotes in \"notes\" (224 truncated by the host, flagged notes_truncated). Coverage incomplete (1707/6236); re-run `fetch_meal.py fetch --sources MEAL-SIMSEK` then `build` to resume."
+    "build": "16 merged verse groups stored once as a..a_end. 16 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 946 segments carry footnotes in \"notes\" (531 truncated by the host, flagged notes_truncated)."
   }
 }

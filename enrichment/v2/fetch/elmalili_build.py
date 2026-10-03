@@ -235,6 +235,15 @@ def line_kind(ln):
     return 'body'
 
 
+def is_meal_cont(r):
+    """A body row that continues the meal: has meal type and no plain Turkish commentary text."""
+    sp = r['raw']['sp']
+    if not any(c == 'meal' and t.strip() for c, t in sp):
+        return False
+    plain = sum(len(t.strip()) for c, t in sp if c in ('tr', 'it', 'bold') and not re.fullmatch(r'[\s\[\]\d.,;:()“”"’]*', t))
+    return plain <= 3
+
+
 def parse_notes(lines):
     """Footnote lines of one page -> (continuation text, {n: text})."""
     notes, cont, cur = {}, [], None
@@ -272,6 +281,15 @@ def line_tokens(ln, v, p):
                 continue
             c = 'tr'
         if c == 'sym':        # Simgeler: ornamental symbols (e.g. a sun glyph before ayah commentary)
+            continue
+        if c in ('quran', 'ar'):   # braces / brackets set in the Arabic font belong to the running text
+            m = re.match(r'^([\s{}\[\]()]*)(.*?)([\s{}\[\]()]*)$', t, re.S)
+            if m.group(1):
+                toks.append(Tok('tr', m.group(1), v, p))
+            if m.group(2):
+                toks.append(Tok(c, m.group(2), v, p))
+            if m.group(3):
+                toks.append(Tok('tr', m.group(3), v, p))
             continue
         toks.append(Tok(c, t, v, p))
     return toks
@@ -401,7 +419,7 @@ def clean_text(t):
 
 def fix_braces(t):
     """The print sets lemma braces mirrored around right-to-left text: '}X{' -> '{X}'."""
-    return re.sub(r'\}\s*([^{}]{1,600}?)\s*\{', lambda m: '{' + m.group(1).strip() + '}', t)
+    return re.sub(r'\}\s*([^{}A-Za-zÇĞİÖŞÜÂÎÛçğıöşüâîû]{1,600}?)\s*\{', lambda m: '{' + m.group(1).strip() + '}', t)
 
 
 def render(toks, refmap=None, quote_fn=None):
@@ -412,6 +430,9 @@ def render(toks, refmap=None, quote_fn=None):
             lab = refmap(t) if refmap else t.t
             if lab:
                 out.append(f'[^{lab}]')
+            nxt = toks[i + 1].t if i + 1 < len(toks) else ''
+            if nxt[:1].isalnum() or (not lab and out and out[-1][-1:].isalnum() and nxt[:1].isalpha()):
+                out.append(' ')
             continue
         if t.cls == 'quran' and quote_fn:
             r = quote_fn(i, t)
@@ -588,12 +609,14 @@ def main():
             if m < n and stream[m]['kind'] == 'mhead':
                 mh = stream[m]
                 m += 1
-                while m < n and stream[m]['kind'] == 'meal':
+                while m < n and (stream[m]['kind'] == 'meal' or (mrows and stream[m]['kind'] == 'body' and
+                                                                 is_meal_cont(stream[m]))):
                     mrows.append(stream[m])
                     m += 1
             else:
                 mh = None
-                while m < n and stream[m]['kind'] == 'meal':
+                while m < n and (stream[m]['kind'] == 'meal' or (mrows and stream[m]['kind'] == 'body' and
+                                                                 is_meal_cont(stream[m]))):
                     mrows.append(stream[m])
                     m += 1
             if (mh is None and not mrows) or cur_surah == 0:
@@ -849,18 +872,29 @@ def main():
                 comm = comm[:cut]
         # meal: split by (n)
         meal_toks = merge_tokens(join_lines([r['toks'] for r in u['meal']]))
-        meal_plain = render([t for t in meal_toks if t.cls != 'ref'])
-        pieces = split_meal(meal_plain, a, b)
-        mh_ok = pieces is not None
-        if mh_ok:
-            for k_, txt in pieces.items():
-                meal_segs.append({'seg': f'MEAL-ELMALILI-HDKD:{s}:{k_}', 's': s, 'a': k_, 'a_end': k_,
-                                  'page': f'v{u["meal"][0]["v"]}p{u["meal"][0]["p"]}', 'text': txt})
-        elif meal_plain:
-            warn(f'S{s}:{a}-{b} meal numbers do not split cleanly')
-            meal_segs.append({'seg': f'MEAL-ELMALILI-HDKD:{s}:{a}-{b}', 's': s, 'a': a, 'a_end': b,
-                              'page': f'v{u["meal"][0]["v"]}p{u["meal"][0]["p"]}', 'text': meal_plain,
-                              'split': False})
+        meal_plain = render(meal_toks, refmap=lambda t: None)
+        pieces, reached = split_meal(meal_plain, a, b) if meal_plain else ({}, a - 1)
+        mh_ok = bool(pieces)
+        mpage = f'v{u["meal"][0]["v"]}p{u["meal"][0]["p"]}' if u['meal'] else None
+        for k_, (e_, txt, pu_) in sorted(pieces.items()):
+            txt = clean_text(txt + pu_)
+            loc_ = f'{s}:{k_}' if e_ == k_ else f'{s}:{k_}-{e_}'
+            meal_segs.append({'seg': f'MEAL-ELMALILI-HDKD:{loc_}', 's': s, 'a': k_, 'a_end': e_,
+                              'page': mpage, 'text': txt})
+        if meal_plain and reached < b:
+            warn(f'S{s}:{a}-{b} meal numbering stops at {reached}')
+            rest = meal_plain
+            if pieces:
+                last_txt = pieces[max(pieces)][1] + pieces[max(pieces)][2]
+                i_ = meal_plain.find(last_txt[-40:]) if last_txt else -1
+                rest = meal_plain[i_ + len(last_txt[-40:]):] if i_ >= 0 else ''
+                rest = re.sub(r'^\s*\(\d{1,3}\)[.,;:!?…]*', '', rest).strip()
+            if len(rest) > 3:
+                meal_segs.append({'seg': f'MEAL-ELMALILI-HDKD:{s}:{reached + 1}-{b}', 's': s, 'a': reached + 1,
+                                  'a_end': b, 'page': mpage, 'text': clean_text(rest), 'split': False})
+                pieces[reached + 1] = (b, clean_text(rest), '')
+        if not meal_plain:
+            warn(f'S{s}:{a}-{b} no meal found')
         # commentary paragraphs, cut at lemma paragraphs of later ayat
         paras = para_breaks(comm) if comm else []
         ptoks = [merge_tokens(join_lines([r['toks'] for r in pr])) for pr in paras]
@@ -877,7 +911,8 @@ def main():
             rows = [r for pi in pis for r in paras[pi]] or list(u['rows'])
             mealtxt = ''
             if mh_ok:
-                mealtxt = ' '.join(f'{pieces[x]} ({x})' for x in range(ga, gb + 1) if x in pieces)
+                mealtxt = ' '.join(f'{pieces[x][1]} ({x if pieces[x][0] == x else f"{x}-{pieces[x][0]}"}){pieces[x][2]}'
+                                   for x in range(ga, gb + 1) if x in pieces)
             elif gi == 0 and meal_plain:
                 mealtxt = meal_plain
             tparas = [ptoks[pi] for pi in pis]
@@ -900,11 +935,11 @@ def main():
     report['ayat_missing'] = len(missing)
     report['ayat_missing_list'] = compress(missing)
     report['meal_segments'] = len(meal_segs)
-    report['meal_ayat'] = sum(1 for m in meal_segs if m.get('split', True))
+    report['meal_ayat'] = sum(m['a_end'] - m['a'] + 1 for m in meal_segs if m.get('split', True))
     report['quote_match'] = dict(QM.stats)
     write_outputs(segs, meal_segs, report)
     print(json.dumps({k: v for k, v in report.items() if k not in ('warnings', 'ayat_missing_list',
-                                                                   'surah_names', 'passages_low_score')},
+                                                                   'surah_names', 'passages_low_score', 'passage_list')},
                      ensure_ascii=False, indent=1))
     print('warnings:', len(report['warnings']))
     for w in report['warnings'][:40]:
@@ -933,28 +968,22 @@ def compress(pairs):
 
 
 def split_meal(text, a, b):
-    """'… (1) … (2). …' -> {1: '…', 2: '….'} when the numbers run exactly a..b."""
-    marks = list(re.finditer(r'\((\d{1,3})\)([.,;:!?…]*)', text))
-    nums = [int(m.group(1)) for m in marks]
-    if nums != list(range(a, b + 1)):
-        # tolerate stray parenthesised numbers that are not ayah numbers: keep the increasing chain a..b
-        chain, want = [], a
-        for m in marks:
-            if int(m.group(1)) == want:
-                chain.append(m)
-                want += 1
-        if want != b + 1:
-            return None
-        marks = chain
-    out, pos = {}, 0
-    for m in marks:
-        piece = text[pos:m.start()].strip() + m.group(2)
-        out[int(m.group(1))] = clean_text(piece)
+    """'… (1) … (2). … (3-4) …' -> {start: (end, text)} along the chain a, a+1, … ; also returns the last
+    ayah reached (b when the meal splits completely)."""
+    out, pos, want = {}, 0, a
+    for m in re.finditer(r'\((\d{1,3})(?:\s*[-–,]\s*(\d{1,3}))?\)([.,;:!?…]*)', text):
+        x = int(m.group(1))
+        y = int(m.group(2)) if m.group(2) else x
+        if x != want or y < x or y > b:
+            continue
+        out[x] = (y, clean_text(text[pos:m.start()].strip()), m.group(3))
         pos = m.end()
+        want = y + 1
     tail = text[pos:].strip()
-    if tail and len(tail) > 3:
-        out[b] = clean_text(out[b] + ' ' + tail)
-    return out
+    if out and tail and len(tail) > 3 and want == b + 1:
+        last = max(out)
+        out[last] = (out[last][0], clean_text(out[last][1] + out[last][2] + ' ' + tail), '')
+    return out, want - 1
 
 
 def lemma_ayah(toks, Q, s, cur, b):

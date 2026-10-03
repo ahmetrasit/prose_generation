@@ -10,7 +10,7 @@
   "edition": "kuran.diyanet.gov.tr Mushaf, meal ML=6 (Elmalılı original)",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "106-108 (14/6236 ayat)",
+  "coverage": "1-114 (6236/6236 ayat)",
   "urls": [
     "https://kuran.diyanet.gov.tr/mushaf/kuran-meal-1/<slug>-suresi-{s}/ayet-{a}/diyanet-isleri-baskanligi-meali-6  (one request per mushaf page; page JSON MPageDmList)",
     "https://acikkuran.com/{slug}/{a}-ayet-meali.md  (section \"### Elmalılı Hamdi Yazır\"); whole surah without footnotes: https://acikkuran.com/{slug}.md?author=14",
@@ -19,8 +19,8 @@
   ],
   "fetched_at": "2026-10-03",
   "files": {
-    "raw/kd/index.json": "560835a949c6387f3f80fb29be8d26cc37ef37cd667fc67064906d5d9e51fe0a",
-    "raw/kd/p603.html.gz": "78ae5719f8303a4f53e8074b4743ea2308d3f596ec8e52cdb290d70d5f240c35"
+    "raw/MANIFEST.sha256": "a0a6e7dddf2d508bae05c96d36b979eb92b50e0974fbd1177f498fd5fba7ba5a",
+    "_count": "606 files listed in raw/MANIFEST.sha256"
   },
   "lineage": null,
   "relay": null,
@@ -32,14 +32,127 @@
     "kuranmeali.com \"Elmalılı Meali (Orijinal)\" (elmaliliorj)",
     "mealler.org \"Elmalılı Hamdi Yazır\""
   ],
-  "notes": "Coverage incomplete (14/6236); re-run `fetch_meal.py fetch --sources MEAL-ELMALILI` then `build` to resume.",
+  "notes": "ORTHOGRAPHY CAVEAT: the kuran.diyanet text is the original wording in lightly modernised spelling (şüphesiz, hakikaten, Rabbin, \"Allah Tealâ'nın adıyla (Okumaya başlarım)\" at 1:1) and it re-divides some sentences across ayat (22:42-43, 89:19-20, 91:14-15). kuranmeali.com \"Elmalılı Meali (Orijinal)\" keeps the 1935 spelling (şübhesiz, hakıkaten, rabbının, va'dinde) and is the better witness for the original orthography; acikkuran (author 14) = mealler.org (~99%), same e-text as kuranmeali but circumflex-stripped on acikkuran. Agreement with each is only ~70-75% per ayah for these reasons, not because of different translations. 40 merged verse groups stored once as a..a_end. Cross-check over S1, S22, S87-114 (primary kuran.diyanet.gov.tr meal ML=6) - acikkuran.com \"Elmalılı Hamdi Yazır\": n=373, exact 2.1%, loose 70.5%, sim 0.987; â/î/û in 0.0% of ayat (primary 40.2%); bracket counts differ in 4 ayat (e.g. 1:1, 22:32, 22:78); verse groups 0 vs 2; most divergent 22:43 (sim 0.38) | kuranmeali.com \"Elmalılı Meali (Orijinal)\" (elmaliliorj): n=373, exact 4.8%, loose 74.5%, sim 0.984; â/î/û in 40.8% of ayat (primary 40.2%); bracket counts differ in 3 ayat (e.g. 1:1, 22:65, 112:1); verse groups 0 vs 2; most divergent 89:20 (sim 0.37) | mealler.org \"Elmalılı Hamdi Yazır\": n=373, exact 4.0%, loose 70.5%, sim 0.988; â/î/û in 40.2% of ayat (primary 40.2%); bracket counts differ in 4 ayat (e.g. 1:1, 22:32, 22:78); verse groups 0 vs 2; most divergent 22:43 (sim 0.38).",
   "raw_shared": [
     "acikkuran pages: ../MEAL-ISLAMOGLU/raw/acikkuran/",
     "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/",
     "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
   ],
-  "_notes_parts": {
-    "static": "",
-    "build": "Coverage incomplete (14/6236); re-run `fetch_meal.py fetch --sources MEAL-ELMALILI` then `build` to resume."
+  "crosscheck": {
+    "range": "S1, S22, S87-114",
+    "primary": "kuran.diyanet.gov.tr meal ML=6",
+    "primary_diacritic_pct": 40.2,
+    "primary_groups": 2,
+    "vs": {
+      "acikkuran.com \"Elmalılı Hamdi Yazır\"": {
+        "n": 373,
+        "exact_pct": 2.1,
+        "loose_pct": 70.5,
+        "mean_sim": 0.987,
+        "bracket_diff": 4,
+        "bracket_diff_examples": [
+          "1:1",
+          "22:32",
+          "22:78",
+          "112:1"
+        ],
+        "worst": [
+          {
+            "ayah": "22:43",
+            "sim": 0.38,
+            "primary": "Ve eğer seni tekzib ederlerse emin ol onlardan evvel kavmi Nuh da tekzib etti, Ad da, Semûd da, kavim-i İbrahim de kavmi Lût da.",
+            "other": "kavmi İbrahim de, kavmi Lut da,"
+          },
+          {
+            "ayah": "22:35",
+            "sim": 0.47,
+            "primary": "Ki Allah anıldığı vakit kalbleri oynar, ve kendilerine isabet edene sabırlı ve namaza devamlıdırlar ve kısmet ettiğimiz şeylerden infak da ederler. Hem o bedene",
+            "other": "Ki Allah anıldığı vakıt kalbleri oynar ve kendilerine isabet edene sabırlı ve namaza devamlıdırlar ve kısmet ettiğimiz şeylerden infak da ederler"
+          },
+          {
+            "ayah": "1:1",
+            "sim": 0.55,
+            "primary": "Rahman ve Rahim olan Allah Tealâ’nın adıyla (Okumaya başlarım).",
+            "other": "Rahman, Rahim Allahın ismiyle"
+          }
+        ],
+        "diacritic_pct": 0.0,
+        "groups": 0
+      },
+      "kuranmeali.com \"Elmalılı Meali (Orijinal)\" (elmaliliorj)": {
+        "n": 373,
+        "exact_pct": 4.8,
+        "loose_pct": 74.5,
+        "mean_sim": 0.984,
+        "bracket_diff": 3,
+        "bracket_diff_examples": [
+          "1:1",
+          "22:65",
+          "112:1"
+        ],
+        "worst": [
+          {
+            "ayah": "89:20",
+            "sim": 0.37,
+            "primary": "Ve malı öyle bir seviş seviyorsunuzki yığmacasına.",
+            "other": "yığmacasına"
+          },
+          {
+            "ayah": "22:43",
+            "sim": 0.38,
+            "primary": "Ve eğer seni tekzib ederlerse emin ol onlardan evvel kavmi Nuh da tekzib etti, Ad da, Semûd da, kavim-i İbrahim de kavmi Lût da.",
+            "other": "kavmi İbrahim de, kavmi Lût da,"
+          },
+          {
+            "ayah": "91:15",
+            "sim": 0.46,
+            "primary": "Öyle ya o sonundan korkacak değil ki.",
+            "other": "Âlemlerin rabbı da günahlarını başlarına geçiri geçiriverdi de o yeri düzleyiverdi. Öyle ya o sonundan korkacak değil ki"
+          }
+        ],
+        "diacritic_pct": 40.8,
+        "groups": 0
+      },
+      "mealler.org \"Elmalılı Hamdi Yazır\"": {
+        "n": 373,
+        "exact_pct": 4.0,
+        "loose_pct": 70.5,
+        "mean_sim": 0.988,
+        "bracket_diff": 4,
+        "bracket_diff_examples": [
+          "1:1",
+          "22:32",
+          "22:78",
+          "112:1"
+        ],
+        "worst": [
+          {
+            "ayah": "22:43",
+            "sim": 0.38,
+            "primary": "Ve eğer seni tekzib ederlerse emin ol onlardan evvel kavmi Nuh da tekzib etti, Ad da, Semûd da, kavim-i İbrahim de kavmi Lût da.",
+            "other": "kavmi İbrahim de, kavmi Lût da,"
+          },
+          {
+            "ayah": "22:35",
+            "sim": 0.47,
+            "primary": "Ki Allah anıldığı vakit kalbleri oynar, ve kendilerine isabet edene sabırlı ve namaza devamlıdırlar ve kısmet ettiğimiz şeylerden infak da ederler. Hem o bedene",
+            "other": "Ki Allah anıldığı vakıt kalbleri oynar ve kendilerine isabet edene sabırlı ve namaza devamlıdırlar ve kısmet ettiğimiz şeylerden infak da ederler"
+          },
+          {
+            "ayah": "1:1",
+            "sim": 0.55,
+            "primary": "Rahman ve Rahim olan Allah Tealâ’nın adıyla (Okumaya başlarım).",
+            "other": "Rahmân, Rahîm Allahın ismiyle"
+          }
+        ],
+        "diacritic_pct": 40.2,
+        "groups": 0
+      }
+    },
+    "summary": "Cross-check over S1, S22, S87-114 (primary kuran.diyanet.gov.tr meal ML=6) - acikkuran.com \"Elmalılı Hamdi Yazır\": n=373, exact 2.1%, loose 70.5%, sim 0.987; â/î/û in 0.0% of ayat (primary 40.2%); bracket counts differ in 4 ayat (e.g. 1:1, 22:32, 22:78); verse groups 0 vs 2; most divergent 22:43 (sim 0.38) | kuranmeali.com \"Elmalılı Meali (Orijinal)\" (elmaliliorj): n=373, exact 4.8%, loose 74.5%, sim 0.984; â/î/û in 40.8% of ayat (primary 40.2%); bracket counts differ in 3 ayat (e.g. 1:1, 22:65, 112:1); verse groups 0 vs 2; most divergent 89:20 (sim 0.37) | mealler.org \"Elmalılı Hamdi Yazır\": n=373, exact 4.0%, loose 70.5%, sim 0.988; â/î/û in 40.2% of ayat (primary 40.2%); bracket counts differ in 4 ayat (e.g. 1:1, 22:32, 22:78); verse groups 0 vs 2; most divergent 22:43 (sim 0.38)."
+  },
+  "notes_parts": {
+    "static": "ORTHOGRAPHY CAVEAT: the kuran.diyanet text is the original wording in lightly modernised spelling (şüphesiz, hakikaten, Rabbin, \"Allah Tealâ'nın adıyla (Okumaya başlarım)\" at 1:1) and it re-divides some sentences across ayat (22:42-43, 89:19-20, 91:14-15). kuranmeali.com \"Elmalılı Meali (Orijinal)\" keeps the 1935 spelling (şübhesiz, hakıkaten, rabbının, va'dinde) and is the better witness for the original orthography; acikkuran (author 14) = mealler.org (~99%), same e-text as kuranmeali but circumflex-stripped on acikkuran. Agreement with each is only ~70-75% per ayah for these reasons, not because of different translations.",
+    "build": "40 merged verse groups stored once as a..a_end."
   }
 }

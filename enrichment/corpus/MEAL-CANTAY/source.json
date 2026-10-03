@@ -10,7 +10,7 @@
   "edition": "kuranmeali.com about-page (Aciklama.php?id=18&islem=mealbilgi): Kur’ân-ı Hakîm ve Meâl-i Kerîm Hasan Basri Çantay Meali | Balıkesir’de doğdu. Babası Balıkesir tüccarlarından ve ulemâdan Çantayoğlu Halil Cenâbî Efendi, annesi Sincanoğulları’ndan Kepsutlu Hatice Hanım’dır. Ailenin tek erkek evlâdı olan Hasan Basri, ilk tahsilini İbtidâ-i Kebîr Mektebi’nde gördükten sonra Balıkesir İdâdîsi’ne girdi. İdâdînin dördüncü sınıfında iken babasının ölümü üzerine (1903) ",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "1-8,22,87-114 + partial 9 (1669/6236 ayat)",
+  "coverage": "1-114 (6236/6236 ayat)",
   "urls": [
     "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='hbasricantay+1')",
     "https://acikkuran.com/{slug}/{a}-ayet-meali.md  (section \"### Hasan Basri Çantay\"); whole surah without footnotes: https://acikkuran.com/{slug}.md?author=19",
@@ -31,14 +31,125 @@
     "fawazahmed0/quran-api tur-hasanbasricanta",
     "mealler.org \"Hasan Basri Çantay\""
   ],
-  "notes": "22 merged verse groups stored once as a..a_end. 22 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. Coverage incomplete (1669/6236); re-run `fetch_meal.py fetch --sources MEAL-CANTAY` then `build` to resume.",
+  "notes": "136 merged verse groups stored once as a..a_end. 138 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 1 segments carry footnotes in \"notes\" (1 truncated by the host, flagged notes_truncated). Cross-check over S1, S22, S87-114 (primary kuranmeali.com \"Hasan Basri Çantay Meali\" (hbasricantay)) - acikkuran.com \"Hasan Basri Çantay\": n=373, exact 50.1%, loose 95.2%, sim 0.998; â/î/û in 0.0% of ayat (primary 45.0%); bracket counts differ in 2 ayat (e.g. 1:1, 22:64); most divergent 1:1 (sim 0.35) | fawazahmed0/quran-api tur-hasanbasricanta: n=373, exact 0.0%, loose 93.6%, sim 0.993; â/î/û in 45.0% of ayat (primary 45.0%); bracket counts differ in 6 ayat (e.g. 1:1, 1:5, 90:13); most divergent 1:4 (sim 0.24) | mealler.org \"Hasan Basri Çantay\": n=373, exact 94.6%, loose 95.2%, sim 0.998; â/î/û in 45.3% of ayat (primary 45.0%); bracket counts differ in 2 ayat (e.g. 1:1, 22:64); most divergent 1:1 (sim 0.35).",
   "raw_shared": [
     "acikkuran pages: ../MEAL-ISLAMOGLU/raw/acikkuran/",
     "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/",
     "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
   ],
-  "_notes_parts": {
+  "crosscheck": {
+    "range": "S1, S22, S87-114",
+    "primary": "kuranmeali.com \"Hasan Basri Çantay Meali\" (hbasricantay)",
+    "primary_diacritic_pct": 45.0,
+    "primary_groups": 8,
+    "vs": {
+      "acikkuran.com \"Hasan Basri Çantay\"": {
+        "n": 373,
+        "exact_pct": 50.1,
+        "loose_pct": 95.2,
+        "mean_sim": 0.998,
+        "bracket_diff": 2,
+        "bracket_diff_examples": [
+          "1:1",
+          "22:64"
+        ],
+        "worst": [
+          {
+            "ayah": "1:1",
+            "sim": 0.35,
+            "primary": "Rahman ve rahim olan Allahın adiyle.",
+            "other": "Hamd olsun Alemlerin Rabbi, Rahman, Rahim, Din günü'nün (tek) sahibi ve mutasarrıfı Allaha."
+          },
+          {
+            "ayah": "94:6",
+            "sim": 0.96,
+            "primary": "Muhakkak güçlükle beraber kolaylık var.",
+            "other": "Muhakkak güdükle beraber kolaylık var."
+          },
+          {
+            "ayah": "94:4",
+            "sim": 0.96,
+            "primary": "Senin nâmını da yükseltdik.",
+            "other": "Senin namına da yükseltdik."
+          }
+        ],
+        "diacritic_pct": 0.0,
+        "groups": 8
+      },
+      "fawazahmed0/quran-api tur-hasanbasricanta": {
+        "n": 373,
+        "exact_pct": 0.0,
+        "loose_pct": 93.6,
+        "mean_sim": 0.993,
+        "bracket_diff": 6,
+        "bracket_diff_examples": [
+          "1:1",
+          "1:5",
+          "90:13",
+          "101:11",
+          "104:6"
+        ],
+        "worst": [
+          {
+            "ayah": "1:4",
+            "sim": 0.24,
+            "primary": "Hamd olsun Alemlerin Rabbi, Rahman, Rahim, Dîn günü'nün (tek) sahibi ve mutasarrıfı Allaha.",
+            "other": "Yalınız sana ibâdet (kulluk) ederiz, yalınız senden yardım isteriz"
+          },
+          {
+            "ayah": "1:5",
+            "sim": 0.26,
+            "primary": "Yalınız sana ibâdet (kulluk) ederiz, yalınız senden yardım isteriz.",
+            "other": "Bizi doğru yola, kendilerine ni´met verdiklerinin yoluna ilet, gazaba uğrayanlarınkine, sapıklarınkine değil"
+          },
+          {
+            "ayah": "1:1",
+            "sim": 0.35,
+            "primary": "Rahman ve rahim olan Allahın adiyle.",
+            "other": "Hamd olsun Alemlerin Rabbi, Rahman, Rahim, Dîn günü´nün (tek) sahibi ve mutasarrıfı Allaha"
+          }
+        ],
+        "diacritic_pct": 45.0,
+        "groups": 8
+      },
+      "mealler.org \"Hasan Basri Çantay\"": {
+        "n": 373,
+        "exact_pct": 94.6,
+        "loose_pct": 95.2,
+        "mean_sim": 0.998,
+        "bracket_diff": 2,
+        "bracket_diff_examples": [
+          "1:1",
+          "22:64"
+        ],
+        "worst": [
+          {
+            "ayah": "1:1",
+            "sim": 0.35,
+            "primary": "Rahman ve rahim olan Allahın adiyle.",
+            "other": "Hamd olsun Alemlerin Rabbi, Rahman, Rahim, Dîn günü'nün (tek) sahibi ve mutasarrıfı Allaha."
+          },
+          {
+            "ayah": "94:6",
+            "sim": 0.96,
+            "primary": "Muhakkak güçlükle beraber kolaylık var.",
+            "other": "Muhakkak güdükle beraber kolaylık var."
+          },
+          {
+            "ayah": "94:4",
+            "sim": 0.96,
+            "primary": "Senin nâmını da yükseltdik.",
+            "other": "Senin nâmına da yükseltdik."
+          }
+        ],
+        "diacritic_pct": 45.3,
+        "groups": 8
+      }
+    },
+    "summary": "Cross-check over S1, S22, S87-114 (primary kuranmeali.com \"Hasan Basri Çantay Meali\" (hbasricantay)) - acikkuran.com \"Hasan Basri Çantay\": n=373, exact 50.1%, loose 95.2%, sim 0.998; â/î/û in 0.0% of ayat (primary 45.0%); bracket counts differ in 2 ayat (e.g. 1:1, 22:64); most divergent 1:1 (sim 0.35) | fawazahmed0/quran-api tur-hasanbasricanta: n=373, exact 0.0%, loose 93.6%, sim 0.993; â/î/û in 45.0% of ayat (primary 45.0%); bracket counts differ in 6 ayat (e.g. 1:1, 1:5, 90:13); most divergent 1:4 (sim 0.24) | mealler.org \"Hasan Basri Çantay\": n=373, exact 94.6%, loose 95.2%, sim 0.998; â/î/û in 45.3% of ayat (primary 45.0%); bracket counts differ in 2 ayat (e.g. 1:1, 22:64); most divergent 1:1 (sim 0.35)."
+  },
+  "notes_parts": {
     "static": "",
-    "build": "22 merged verse groups stored once as a..a_end. 22 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. Coverage incomplete (1669/6236); re-run `fetch_meal.py fetch --sources MEAL-CANTAY` then `build` to resume."
+    "build": "136 merged verse groups stored once as a..a_end. 138 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 1 segments carry footnotes in \"notes\" (1 truncated by the host, flagged notes_truncated)."
   }
 }

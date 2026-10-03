@@ -10,7 +10,7 @@
   "edition": "kuranmeali.com about-page (Aciklama.php?id=121&islem=mealbilgi): Kur'an-ı Kerim Meali ve Bir Katre Tefsiri Ömer Erdoğdu Meali | 1956 yılında Kayseri'nin Yahyalı ilçesinde doğdu. İlk ve orta öğreniminin ardından aile büyüklerinden geleneksel İslami ilimler dersleri aldı. 1974 yılında Niğde İmam Hatip Lisesinden, 1978 yılında ise Kayseri Yüksek İslam Enstitüsünden mezun oldu. | Çalışma hayatına Sivas Divriği İmam Hatip Lisesinde öğretmen ve müdür yardımcısı olara",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "1-3,5-8,22,87-114 + partial 4,9 (1714/6236 ayat)",
+  "coverage": "1-3,5-12,14-16,18,20-114 + partial 4,13,17,19 (6232/6236 ayat)",
   "urls": [
     "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='omererdogdu+1')"
   ],
@@ -22,12 +22,12 @@
   "panel": false,
   "host_label": "kuranmeali.com \"Ömer Erdoğdu Meali\" (omererdogdu)",
   "cross_witnesses": [],
-  "notes": "2 merged verse groups stored once as a..a_end. 2 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 38 segments carry footnotes in \"notes\" (32 truncated by the host, flagged notes_truncated). 1 ayat empty on the host: 4:36 Coverage incomplete (1714/6236); re-run `fetch_meal.py fetch --sources MEAL-ERDOGDU` then `build` to resume.",
+  "notes": "2 merged verse groups stored once as a..a_end. 2 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 64 segments carry footnotes in \"notes\" (56 truncated by the host, flagged notes_truncated). 4 ayat empty on the host: 4:36, 13:37, 17:103, 19:14 Coverage incomplete (6232/6236); re-run `fetch_meal.py fetch --sources MEAL-ERDOGDU` then `build` to resume.",
   "raw_shared": [
     "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/"
   ],
-  "_notes_parts": {
+  "notes_parts": {
     "static": "",
-    "build": "2 merged verse groups stored once as a..a_end. 2 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 38 segments carry footnotes in \"notes\" (32 truncated by the host, flagged notes_truncated). 1 ayat empty on the host: 4:36 Coverage incomplete (1714/6236); re-run `fetch_meal.py fetch --sources MEAL-ERDOGDU` then `build` to resume."
+    "build": "2 merged verse groups stored once as a..a_end. 2 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 64 segments carry footnotes in \"notes\" (56 truncated by the host, flagged notes_truncated). 4 ayat empty on the host: 4:36, 13:37, 17:103, 19:14 Coverage incomplete (6232/6236); re-run `fetch_meal.py fetch --sources MEAL-ERDOGDU` then `build` to resume."
   }
 }

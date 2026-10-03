@@ -252,7 +252,11 @@ def http_get(url: str, headers: dict | None = None, tries: int = 4) -> tuple[int
         except requests.exceptions.SSLError as e:
             # e.g. eski.lugatim.com serves an incomplete certificate chain; the system curl (macOS trust
             # store, AIA fetching) verifies it properly. Certificate verification stays ON.
-            return _curl_get(url, headers)
+            try:
+                return _curl_get(url, headers)
+            except Exception as ce:          # timeouts etc.: retry like any network error
+                err = ce
+                time.sleep(5 * (i + 1))
         except requests.RequestException as e:
             err = e
             time.sleep(5 * (i + 1))

@@ -10,7 +10,7 @@
   "edition": "as published by mealler.org \"Süleyman Ateş\"",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "1-3,22,87-114 + partial 4 (870/6236 ayat)",
+  "coverage": "1-114 (6236/6236 ayat)",
   "urls": [
     "https://mealler.org/SureveAyetler.aspx?sureid={sss}&ayet={aaa}  (row \"Süleyman Ateş\")",
     "https://tanzil.net/trans/?transID=tr.ates&type=txt-2",
@@ -34,14 +34,96 @@
     "kuranmeali.com \"Süleyman Ateş Meali\" (sates)",
     "acikkuran.com \"Süleyman Ateş\""
   ],
-  "notes": "Primary is mealler.org because it is the only host that keeps the circumflexes (Allâh, Âlemlerin, sâhibi); tanzil/kuranmeali/acikkuran carry the same wording with circumflexes stripped. Coverage incomplete (870/6236); re-run `fetch_meal.py fetch --sources MEAL-ATES` then `build` to resume.",
+  "notes": "Primary is mealler.org because it is the only host that keeps the circumflexes (Allâh, Âlemlerin, sâhibi); tanzil/kuranmeali/acikkuran carry the same wording with circumflexes stripped. 1 ayat missing on the primary host filled from a cross witness (field host_flag): 17:71. Cross-check over S1, S22, S87-114 (primary mealler.org \"Süleyman Ateş\") - tanzil.net tr.ates: n=373, exact 56.0%, loose 98.4%, sim 1.0; â/î/û in 0.0% of ayat (primary 39.4%); most divergent 96:9 (sim 0.98) | fawazahmed0/quran-api tur-suleymanates: n=373, exact 0.3%, loose 98.1%, sim 1.0; â/î/û in 0.0% of ayat (primary 39.4%); bracket counts differ in 1 ayat (e.g. 1:3); most divergent 1:3 (sim 0.95) | kuranmeali.com \"Süleyman Ateş Meali\" (sates): n=373, exact 56.0%, loose 98.1%, sim 1.0; â/î/û in 0.0% of ayat (primary 39.4%); most divergent 96:9 (sim 0.98) | acikkuran.com \"Süleyman Ateş\": n=373, exact 60.6%, loose 100.0%, sim 1.0; â/î/û in 0.0% of ayat (primary 39.4%).",
   "raw_shared": [
     "acikkuran pages: ../MEAL-ISLAMOGLU/raw/acikkuran/",
     "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/",
     "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
   ],
-  "_notes_parts": {
+  "crosscheck": {
+    "range": "S1, S22, S87-114",
+    "primary": "mealler.org \"Süleyman Ateş\"",
+    "primary_diacritic_pct": 39.4,
+    "primary_groups": 0,
+    "vs": {
+      "tanzil.net tr.ates": {
+        "n": 373,
+        "exact_pct": 56.0,
+        "loose_pct": 98.4,
+        "mean_sim": 1.0,
+        "bracket_diff": 0,
+        "bracket_diff_examples": [],
+        "worst": [
+          {
+            "ayah": "96:9",
+            "sim": 0.98,
+            "primary": "Gördün mü şu men edeni?",
+            "other": "Gördün mü şu men'edeni?"
+          }
+        ],
+        "diacritic_pct": 0.0,
+        "groups": 0
+      },
+      "fawazahmed0/quran-api tur-suleymanates": {
+        "n": 373,
+        "exact_pct": 0.3,
+        "loose_pct": 98.1,
+        "mean_sim": 1.0,
+        "bracket_diff": 1,
+        "bracket_diff_examples": [
+          "1:3"
+        ],
+        "worst": [
+          {
+            "ayah": "1:3",
+            "sim": 0.95,
+            "primary": "(O) Rahmân'dır, Rahim'dir.",
+            "other": "Rahman'dır, Rahim'dir"
+          },
+          {
+            "ayah": "96:9",
+            "sim": 0.98,
+            "primary": "Gördün mü şu men edeni?",
+            "other": "Gördün mü şu men'edeni"
+          }
+        ],
+        "diacritic_pct": 0.0,
+        "groups": 0
+      },
+      "kuranmeali.com \"Süleyman Ateş Meali\" (sates)": {
+        "n": 373,
+        "exact_pct": 56.0,
+        "loose_pct": 98.1,
+        "mean_sim": 1.0,
+        "bracket_diff": 0,
+        "bracket_diff_examples": [],
+        "worst": [
+          {
+            "ayah": "96:9",
+            "sim": 0.98,
+            "primary": "Gördün mü şu men edeni?",
+            "other": "Gördün mü şu men'edeni?"
+          }
+        ],
+        "diacritic_pct": 0.0,
+        "groups": 0
+      },
+      "acikkuran.com \"Süleyman Ateş\"": {
+        "n": 373,
+        "exact_pct": 60.6,
+        "loose_pct": 100.0,
+        "mean_sim": 1.0,
+        "bracket_diff": 0,
+        "bracket_diff_examples": [],
+        "worst": [],
+        "diacritic_pct": 0.0,
+        "groups": 0
+      }
+    },
+    "summary": "Cross-check over S1, S22, S87-114 (primary mealler.org \"Süleyman Ateş\") - tanzil.net tr.ates: n=373, exact 56.0%, loose 98.4%, sim 1.0; â/î/û in 0.0% of ayat (primary 39.4%); most divergent 96:9 (sim 0.98) | fawazahmed0/quran-api tur-suleymanates: n=373, exact 0.3%, loose 98.1%, sim 1.0; â/î/û in 0.0% of ayat (primary 39.4%); bracket counts differ in 1 ayat (e.g. 1:3); most divergent 1:3 (sim 0.95) | kuranmeali.com \"Süleyman Ateş Meali\" (sates): n=373, exact 56.0%, loose 98.1%, sim 1.0; â/î/û in 0.0% of ayat (primary 39.4%); most divergent 96:9 (sim 0.98) | acikkuran.com \"Süleyman Ateş\": n=373, exact 60.6%, loose 100.0%, sim 1.0; â/î/û in 0.0% of ayat (primary 39.4%)."
+  },
+  "notes_parts": {
     "static": "Primary is mealler.org because it is the only host that keeps the circumflexes (Allâh, Âlemlerin, sâhibi); tanzil/kuranmeali/acikkuran carry the same wording with circumflexes stripped.",
-    "build": "Coverage incomplete (870/6236); re-run `fetch_meal.py fetch --sources MEAL-ATES` then `build` to resume."
+    "build": "1 ayat missing on the primary host filled from a cross witness (field host_flag): 17:71."
   }
 }

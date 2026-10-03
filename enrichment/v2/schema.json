@@ -19,7 +19,7 @@
     "durum": {"label": {"tr": "Durum", "en": "Status", "de": "Status"}, "def": "epistemic status of the block's claim relative to its source", "enum": "durum"},
     "kat": {"label": {"tr": "Katman", "en": "Layer", "de": "Ebene"}, "def": "display layer", "enum": "kat"},
     "metin": {"label": {"tr": "Metin", "en": "Text", "de": "Text"}, "def": "the block's prose, in the page language, within the word limit of its layer"},
-    "kaynak": {"label": {"tr": "Kaynak", "en": "Source", "de": "Quelle"}, "def": "source locators, pipe-separated: <ID>:<locator> exactly as in the corpus (TAB:107:3, MUS:2985, ELMALILI:107:2, LISAN:دعع), or \"hafiza\" for model memory"},
+    "kaynak": {"label": {"tr": "Kaynak", "en": "Source", "de": "Quelle"}, "def": "source locators, pipe-separated: <ID>:<locator> exactly as in the corpus (TAB:107:3, MUSLIM:2985, ELMALILI:107:2, LISAN:دعع), or \"hafiza\" for model memory"},
     "guc": {"label": {"tr": "Güç", "en": "Strength", "de": "Stärke"}, "def": "strength of a connection to the project's reading", "enum": "guc", "required_for": {"tur": ["yenilik", "elenen", "ayet_ayet", "vucuh"], "islev": ["oncul"]}},
     "klasik_tanik": {"label": {"tr": "Klasik tanıklık", "en": "Classical attestation", "de": "Klassische Bezeugung"}, "def": "how far a project finding is attested in the checked sources", "enum": "klasik_tanik", "required_for": {"tur": ["yenilik"]}},
     "taranan": {"label": {"tr": "Taranan kaynaklar", "en": "Sources checked", "de": "Geprüfte Quellen"}, "def": "corpus IDs actually searched, pipe-separated", "required_for": {"tur": ["yenilik"]}},

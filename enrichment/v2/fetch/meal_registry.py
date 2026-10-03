@@ -92,7 +92,12 @@ SOURCES = [
       panel=True, lineage='diyanet', tradition='official-sunni', edition='kuran.diyanet.gov.tr Mushaf, meal ML=5'),
     S('MEAL-ELMALILI', "Hak Dini Kur'an Dili - meal (original wording)", 'Elmalılı Muhammed Hamdi Yazır', 'kd:6',
       ['ak:Elmalılı Hamdi Yazır', 'km:elmaliliorj', 'mo:Elmalılı Hamdi Yazır'], panel=True, tradition='ottoman-late-hanafi',
-      death_ah=1361, edition='kuran.diyanet.gov.tr Mushaf, meal ML=6 (Elmalılı original)'),
+      death_ah=1361, edition='kuran.diyanet.gov.tr Mushaf, meal ML=6 (Elmalılı original)',
+      notes='ORTHOGRAPHY CAVEAT: the kuran.diyanet text is the original wording in lightly modernised spelling (şüphesiz, hakikaten, Rabbin, '
+            '"Allah Tealâ\'nın adıyla (Okumaya başlarım)" at 1:1) and it re-divides some sentences across ayat (22:42-43, 89:19-20, 91:14-15). '
+            'kuranmeali.com "Elmalılı Meali (Orijinal)" keeps the 1935 spelling (şübhesiz, hakıkaten, rabbının, va\'dinde) and is the better witness '
+            'for the original orthography; acikkuran (author 14) = mealler.org (~99%), same e-text as kuranmeali but circumflex-stripped on acikkuran. '
+            'Agreement with each is only ~70-75% per ayah for these reasons, not because of different translations.'),
     S('MEAL-BILMEN', "Kur'ân-ı Kerîm'in Türkçe Meâl-i Âlîsi ve Tefsiri", 'Ömer Nasuhi Bilmen', 'km:omernasuhi',
       ['mo:Ömer Nasuhi Bilmen'], panel=True, tradition='ottoman-late-hanafi', death_ah=1391,
       notes='kuranmeali.com gives one rendering per ayah; mealler.org repeats Bilmen\'s connected renderings across short ayat (e.g. 89:2-4, 100:1-2), '

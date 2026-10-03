@@ -10,7 +10,7 @@
   "edition": "as published by acikkuran.com \"Mehmet Okuyan\"",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "1-8,22,87-114 + partial 9 (1691/6236 ayat)",
+  "coverage": "1-114 (6236/6236 ayat)",
   "urls": [
     "https://acikkuran.com/{slug}/{a}-ayet-meali.md  (section \"### Mehmet Okuyan\"); whole surah without footnotes: https://acikkuran.com/{slug}.md?author=107",
     "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='mehmetokuyan+1')",
@@ -27,14 +27,83 @@
     "kuranmeali.com \"Mehmet Okuyan Meali\" (mehmetokuyan)",
     "mealler.org \"Mehmet Okuyan\""
   ],
-  "notes": "BRACKET CAVEAT: hosts disagree on markup. kuranmeali.com puts retained Arabic terms in square brackets (\"[Rahmân], [Rahîm] [*]\", \"[salât]larından\", \"[Beyyine] [*](apaçık bir elçi)\"); acikkuran.com (primary) has plain terms with numbered footnotes; mealler.org has neither. Check the printed edition before judging Okuyan's marking of additions. 29 merged verse groups stored once as a..a_end. 29 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 1033 segments carry footnotes in \"notes\". Coverage incomplete (1691/6236); re-run `fetch_meal.py fetch --sources MEAL-OKUYAN` then `build` to resume.",
+  "notes": "BRACKET CAVEAT: hosts disagree on markup. kuranmeali.com puts retained Arabic terms in square brackets (\"[Rahmân], [Rahîm] [*]\", \"[salât]larından\", \"[Beyyine] [*](apaçık bir elçi)\"); acikkuran.com (primary) has plain terms with numbered footnotes; mealler.org has neither. Check the printed edition before judging Okuyan's marking of additions. 264 merged verse groups stored once as a..a_end. 264 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 3202 segments carry footnotes in \"notes\". Cross-check over S1, S22, S87-114 (primary acikkuran.com \"Mehmet Okuyan\") - kuranmeali.com \"Mehmet Okuyan Meali\" (mehmetokuyan): n=373, exact 49.6%, loose 93.8%, sim 0.999; â/î/û in 15.8% of ayat (primary 15.8%); bracket counts differ in 44 ayat (e.g. 1:1, 1:2, 1:3); most divergent 98:1 (sim 0.93) | mealler.org \"Mehmet Okuyan\": n=373, exact 52.0%, loose 99.7%, sim 1.0; â/î/û in 15.8% of ayat (primary 15.8%); bracket counts differ in 129 ayat (e.g. 1:1, 1:2, 1:3); most divergent 98:1 (sim 0.93).",
   "raw_shared": [
     "acikkuran pages: ../MEAL-ISLAMOGLU/raw/acikkuran/",
     "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/",
     "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
   ],
-  "_notes_parts": {
+  "crosscheck": {
+    "range": "S1, S22, S87-114",
+    "primary": "acikkuran.com \"Mehmet Okuyan\"",
+    "primary_diacritic_pct": 15.8,
+    "primary_groups": 17,
+    "vs": {
+      "kuranmeali.com \"Mehmet Okuyan Meali\" (mehmetokuyan)": {
+        "n": 373,
+        "exact_pct": 49.6,
+        "loose_pct": 93.8,
+        "mean_sim": 0.999,
+        "bracket_diff": 44,
+        "bracket_diff_examples": [
+          "1:1",
+          "1:2",
+          "1:3",
+          "1:4",
+          "22:1"
+        ],
+        "worst": [
+          {
+            "ayah": "98:1",
+            "sim": 0.93,
+            "primary": "Beyyine1 kendilerine gelinceye kadar kitap ehlinden ve müşriklerden bazı nankörler (küfürden) ayrılacak değillerdi.",
+            "other": "[Beyyine] [*](apaçık bir elçi) kendilerine gelinceye kadar kitap ehlinden ve müşriklerden bazı nankörler (küfürden) ayrılacak değillerdi."
+          },
+          {
+            "ayah": "95:1",
+            "sim": 0.96,
+            "primary": "Yemin olsun: Tîn'e, Zeytûn'a,[1]",
+            "other": "Yemin olsun: [Tîn]’e, [Zeytûn]’a, [*]"
+          },
+          {
+            "ayah": "103:1",
+            "sim": 0.97,
+            "primary": "Asra yemin olsun ki",
+            "other": "[Asr]a yemin olsun ki"
+          }
+        ],
+        "diacritic_pct": 15.8,
+        "groups": 17
+      },
+      "mealler.org \"Mehmet Okuyan\"": {
+        "n": 373,
+        "exact_pct": 52.0,
+        "loose_pct": 99.7,
+        "mean_sim": 1.0,
+        "bracket_diff": 129,
+        "bracket_diff_examples": [
+          "1:1",
+          "1:2",
+          "1:3",
+          "1:4",
+          "1:6"
+        ],
+        "worst": [
+          {
+            "ayah": "98:1",
+            "sim": 0.93,
+            "primary": "Beyyine1 kendilerine gelinceye kadar kitap ehlinden ve müşriklerden bazı nankörler (küfürden) ayrılacak değillerdi.",
+            "other": "Beyyine (apaçık bir elçi) kendilerine gelinceye kadar kitap ehlinden ve müşriklerden bazı nankörler (küfürden) ayrılacak değillerdi."
+          }
+        ],
+        "diacritic_pct": 15.8,
+        "groups": 17
+      }
+    },
+    "summary": "Cross-check over S1, S22, S87-114 (primary acikkuran.com \"Mehmet Okuyan\") - kuranmeali.com \"Mehmet Okuyan Meali\" (mehmetokuyan): n=373, exact 49.6%, loose 93.8%, sim 0.999; â/î/û in 15.8% of ayat (primary 15.8%); bracket counts differ in 44 ayat (e.g. 1:1, 1:2, 1:3); most divergent 98:1 (sim 0.93) | mealler.org \"Mehmet Okuyan\": n=373, exact 52.0%, loose 99.7%, sim 1.0; â/î/û in 15.8% of ayat (primary 15.8%); bracket counts differ in 129 ayat (e.g. 1:1, 1:2, 1:3); most divergent 98:1 (sim 0.93)."
+  },
+  "notes_parts": {
     "static": "BRACKET CAVEAT: hosts disagree on markup. kuranmeali.com puts retained Arabic terms in square brackets (\"[Rahmân], [Rahîm] [*]\", \"[salât]larından\", \"[Beyyine] [*](apaçık bir elçi)\"); acikkuran.com (primary) has plain terms with numbered footnotes; mealler.org has neither. Check the printed edition before judging Okuyan's marking of additions.",
-    "build": "29 merged verse groups stored once as a..a_end. 29 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 1033 segments carry footnotes in \"notes\". Coverage incomplete (1691/6236); re-run `fetch_meal.py fetch --sources MEAL-OKUYAN` then `build` to resume."
+    "build": "264 merged verse groups stored once as a..a_end. 264 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. 3202 segments carry footnotes in \"notes\"."
   }
 }

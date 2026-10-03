@@ -10,7 +10,7 @@
   "edition": "kuranmeali.com about-page (Aciklama.php?id=5&islem=mealbilgi): Kur'an-ı Kerim ve Özlü Tefsir Abdullah Parlıyan Meali | 1951 yılında Konya´da doğdu. ilkokulu, İmam Hatib Lisesini ve Yüksek İslam Enstitüsünü Konya’da okudu ve 1974 yılında mezun oldu. 1970 li yıllarda “İslamın ilk emri oku” dergisinde dergicilik yaptı. Daha sonraları “Hayra Hizmet vakfı”nda çalıştı halen “Konya Kitapçılık” sahibi olarak kitap neşretmektedir. | Yazar, Özlü Tefsir hakkında sorulan",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "1-8,22,87-114 + partial 9 (1708/6236 ayat)",
+  "coverage": "1-114 (6236/6236 ayat)",
   "urls": [
     "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='aparliyan+1')",
     "https://mealler.org/SureveAyetler.aspx?sureid={sss}&ayet={aaa}  (row \"Abdullah Parlıyan\")"
@@ -25,13 +25,33 @@
   "cross_witnesses": [
     "mealler.org \"Abdullah Parlıyan\""
   ],
-  "notes": "10 segments carry footnotes in \"notes\" (10 truncated by the host, flagged notes_truncated). Coverage incomplete (1708/6236); re-run `fetch_meal.py fetch --sources MEAL-PARLIYAN` then `build` to resume.",
+  "notes": "67 segments carry footnotes in \"notes\" (66 truncated by the host, flagged notes_truncated). Cross-check over S1, S22, S87-114 (primary kuranmeali.com \"Abdullah Parlıyan Meali\" (aparliyan)) - mealler.org \"Abdullah Parlıyan\": n=371, exact 100.0%, loose 100.0%, sim 1.0; â/î/û in 8.9% of ayat (primary 8.8%).",
   "raw_shared": [
     "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/",
     "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
   ],
-  "_notes_parts": {
+  "crosscheck": {
+    "range": "S1, S22, S87-114",
+    "primary": "kuranmeali.com \"Abdullah Parlıyan Meali\" (aparliyan)",
+    "primary_diacritic_pct": 8.8,
+    "primary_groups": 0,
+    "vs": {
+      "mealler.org \"Abdullah Parlıyan\"": {
+        "n": 371,
+        "exact_pct": 100.0,
+        "loose_pct": 100.0,
+        "mean_sim": 1.0,
+        "bracket_diff": 0,
+        "bracket_diff_examples": [],
+        "worst": [],
+        "diacritic_pct": 8.9,
+        "groups": 0
+      }
+    },
+    "summary": "Cross-check over S1, S22, S87-114 (primary kuranmeali.com \"Abdullah Parlıyan Meali\" (aparliyan)) - mealler.org \"Abdullah Parlıyan\": n=371, exact 100.0%, loose 100.0%, sim 1.0; â/î/û in 8.9% of ayat (primary 8.8%)."
+  },
+  "notes_parts": {
     "static": "",
-    "build": "10 segments carry footnotes in \"notes\" (10 truncated by the host, flagged notes_truncated). Coverage incomplete (1708/6236); re-run `fetch_meal.py fetch --sources MEAL-PARLIYAN` then `build` to resume."
+    "build": "67 segments carry footnotes in \"notes\" (66 truncated by the host, flagged notes_truncated)."
   }
 }

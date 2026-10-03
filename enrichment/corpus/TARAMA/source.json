@@ -16,7 +16,7 @@
   "licence": "© Türk Dil Kurumu.",
   "notes": "BLOCKED (2026-10-03): the new sozluk.gov.tr front-end loads all dictionaries other than GTS from https://api.sozluk.gov.tr/<ts|ds|yeni-derleme|etms|koken-bilgisi|osmanlica>?ara=<w>, which returns HTTP 403 {\"error\":\"FORBIDDEN\",\"message\":\"Bu API yalnızca yetkili web arayüzünden erişilebilir.\"} to non-browser clients. The legacy sozluk.gov.tr/<ts|...>?ara= paths now return the SPA shell. Not bypassed (no header spoofing). Evidence cached in raw/. Same block applies to Derleme Sözlüğü, Türk Dilinin Etimolojik Sözlüğü (ETMS), Köken Bilgisi Sözlüğü and Osmanlı Türkçesi Sözlüğü. Options: read in a browser and cite by hand; or the printed Tarama Sözlüğü (8 vols, TDK 1963–1977).",
   "coverage": "none (blocked)",
-  "fetched_at": "2026-10-03T11:57:35-04:00",
+  "fetched_at": "2026-10-03T14:34:31-04:00",
   "files": {
     "raw/blocked_probe_ts_kalp.json": "faa3eb84869087b9d3e897f97e37fb9a81a3ed1761f349ef8cc472b11b69a4f6"
   },

@@ -10,7 +10,7 @@
   "edition": "as published by acikkuran.com \"Süleymaniye Vakfı (Eski Baskı)\"",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "1-8,22,87-114 + partial 9 (1699/6236 ayat)",
+  "coverage": "1-114 (6236/6236 ayat)",
   "urls": [
     "https://acikkuran.com/{slug}/{a}-ayet-meali.md  (section \"### Süleymaniye Vakfı (Eski Baskı)\"); whole surah without footnotes: https://acikkuran.com/{slug}.md?author=117",
     "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='abayindir+1')"
@@ -25,13 +25,43 @@
   "cross_witnesses": [
     "kuranmeali.com \"Süleymaniye Vakfı Meali\" (abayindir)"
   ],
-  "notes": "633 segments carry footnotes in \"notes\". Coverage incomplete (1699/6236); re-run `fetch_meal.py fetch --sources MEAL-SULEYMANIYE-ESKI` then `build` to resume.",
+  "notes": "1519 segments carry footnotes in \"notes\". Cross-check over S1, S22, S87-114 (primary acikkuran.com \"Süleymaniye Vakfı (Eski Baskı)\") - kuranmeali.com \"Süleymaniye Vakfı Meali\" (abayindir): n=373, exact 59.8%, loose 99.7%, sim 0.998; â/î/û in 7.8% of ayat (primary 0.0%); bracket counts differ in 2 ayat (e.g. 1:4, 113:3); most divergent 1:4 (sim 0.43).",
   "raw_shared": [
     "acikkuran pages: ../MEAL-ISLAMOGLU/raw/acikkuran/",
     "kuranmeali pages: ../MEAL-BILMEN/raw/kuranmeali/"
   ],
-  "_notes_parts": {
+  "crosscheck": {
+    "range": "S1, S22, S87-114",
+    "primary": "acikkuran.com \"Süleymaniye Vakfı (Eski Baskı)\"",
+    "primary_diacritic_pct": 0.0,
+    "primary_groups": 0,
+    "vs": {
+      "kuranmeali.com \"Süleymaniye Vakfı Meali\" (abayindir)": {
+        "n": 373,
+        "exact_pct": 59.8,
+        "loose_pct": 99.7,
+        "mean_sim": 0.998,
+        "bracket_diff": 2,
+        "bracket_diff_examples": [
+          "1:4",
+          "113:3"
+        ],
+        "worst": [
+          {
+            "ayah": "1:4",
+            "sim": 0.43,
+            "primary": "Hesap verme[1] gününde yetki O'nundur.",
+            "other": "Yapılan her şeyin karşılığını bulacağı[1] günün tek yetki sahibidir[2]."
+          }
+        ],
+        "diacritic_pct": 7.8,
+        "groups": 0
+      }
+    },
+    "summary": "Cross-check over S1, S22, S87-114 (primary acikkuran.com \"Süleymaniye Vakfı (Eski Baskı)\") - kuranmeali.com \"Süleymaniye Vakfı Meali\" (abayindir): n=373, exact 59.8%, loose 99.7%, sim 0.998; â/î/û in 7.8% of ayat (primary 0.0%); bracket counts differ in 2 ayat (e.g. 1:4, 113:3); most divergent 1:4 (sim 0.43)."
+  },
+  "notes_parts": {
     "static": "",
-    "build": "633 segments carry footnotes in \"notes\". Coverage incomplete (1699/6236); re-run `fetch_meal.py fetch --sources MEAL-SULEYMANIYE-ESKI` then `build` to resume."
+    "build": "1519 segments carry footnotes in \"notes\"."
   }
 }

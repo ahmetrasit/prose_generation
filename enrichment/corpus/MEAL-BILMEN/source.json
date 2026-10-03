@@ -10,15 +10,15 @@
   "edition": "kuranmeali.com about-page (Aciklama.php?id=21&islem=mealbilgi): Kur’ân-ı Kerîm’in Türkçe Meâl-i Âlîsi ve Tefsiri Ömer Nasuhi Bilmen Meali | 1883´te Erzurum´un Salasar köyünde doğdu Babası Hacı Ahmet Efendi, annesi Muhibe Hanım´dır Küçük yaştayken babasının vefat etmesi üzerine, Erzurum Ahmediyye Medresesi müderrisi ve nakibüleşraf kaymakamı olan amcası Abdürrezzak İlmi Efendi´nin himayesine girdi. | 1908´de İstanbul´a giderek derslerine devam ettiği Fatih ders",
   "access": "yerel",
   "locator": "ayah",
-  "coverage": "1-8,22,87-114 + partial 9 (1668/6236 ayat)",
+  "coverage": "1-114 (6236/6236 ayat)",
   "urls": [
     "https://www.kuranmeali.com/AyetKarsilastirma.php?sure={s}&ayet={a}  (div id='omernasuhi+1')",
     "https://mealler.org/SureveAyetler.aspx?sureid={sss}&ayet={aaa}  (row \"Ömer Nasuhi Bilmen\")"
   ],
   "fetched_at": "2026-10-03",
   "files": {
-    "raw/MANIFEST.sha256": "8076e32ab597fec914a5c48b44bc23d855553224a0e66175f718ae6491629b63",
-    "_count": "1719 files listed in raw/MANIFEST.sha256"
+    "raw/MANIFEST.sha256": "73cf45ad95e3e9fb413b5e91572e4ae7f0bd31e78401aaa64a4a4dd72d83814a",
+    "_count": "6287 files listed in raw/MANIFEST.sha256"
   },
   "lineage": null,
   "relay": null,
@@ -28,12 +28,57 @@
   "cross_witnesses": [
     "mealler.org \"Ömer Nasuhi Bilmen\""
   ],
-  "notes": "kuranmeali.com gives one rendering per ayah; mealler.org repeats Bilmen's connected renderings across short ayat (e.g. 89:2-4, 100:1-2), which explains most per-ayah disagreement (~70% identical). 3 merged verse groups stored once as a..a_end. 2 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. Coverage incomplete (1668/6236); re-run `fetch_meal.py fetch --sources MEAL-BILMEN` then `build` to resume.",
+  "notes": "kuranmeali.com gives one rendering per ayah; mealler.org repeats Bilmen's connected renderings across short ayat (e.g. 89:2-4, 100:1-2), which explains most per-ayah disagreement (~70% identical). 6 merged verse groups stored once as a..a_end. 4 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. Cross-check over S1, S22, S87-114 (primary kuranmeali.com \"Ömer Nasuhi Bilmen Meali\" (omernasuhi)) - mealler.org \"Ömer Nasuhi Bilmen\": n=373, exact 67.0%, loose 69.4%, sim 0.897; â/î/û in 39.1% of ayat (primary 34.9%); bracket counts differ in 9 ayat (e.g. 88:14, 88:15, 88:21); verse groups 50 vs 2; most divergent 89:2 (sim 0.31).",
   "raw_shared": [
     "mealler.org pages: ../MEAL-UNAL/raw/mealler/"
   ],
-  "_notes_parts": {
+  "crosscheck": {
+    "range": "S1, S22, S87-114",
+    "primary": "kuranmeali.com \"Ömer Nasuhi Bilmen Meali\" (omernasuhi)",
+    "primary_diacritic_pct": 34.9,
+    "primary_groups": 2,
+    "vs": {
+      "mealler.org \"Ömer Nasuhi Bilmen\"": {
+        "n": 373,
+        "exact_pct": 67.0,
+        "loose_pct": 69.4,
+        "mean_sim": 0.897,
+        "bracket_diff": 9,
+        "bracket_diff_examples": [
+          "88:14",
+          "88:15",
+          "88:21",
+          "89:10",
+          "90:5"
+        ],
+        "worst": [
+          {
+            "ayah": "89:2",
+            "sim": 0.31,
+            "primary": "Ve on geceye.",
+            "other": "Ve on geceye. Ve çifte ve tek olana. Ve geçip gideceği zaman geceye."
+          },
+          {
+            "ayah": "96:7",
+            "sim": 0.32,
+            "primary": "Kendisini ihtiyaçtan kurtulmuş görünce.",
+            "other": "Kendisinin muhtaç olmadığını zannettiği için."
+          },
+          {
+            "ayah": "90:18",
+            "sim": 0.35,
+            "primary": "İşte meymenet sahipleri onlardır.",
+            "other": "Sonra da imân etmiş olanlardan ve birbirlerine sabrı tavsiye edenlerden ve merhameti tavsiyede bulunanlardan olmaktır. İşte meymenet sahipleri onlardır."
+          }
+        ],
+        "diacritic_pct": 39.1,
+        "groups": 50
+      }
+    },
+    "summary": "Cross-check over S1, S22, S87-114 (primary kuranmeali.com \"Ömer Nasuhi Bilmen Meali\" (omernasuhi)) - mealler.org \"Ömer Nasuhi Bilmen\": n=373, exact 67.0%, loose 69.4%, sim 0.897; â/î/û in 39.1% of ayat (primary 34.9%); bracket counts differ in 9 ayat (e.g. 88:14, 88:15, 88:21); verse groups 50 vs 2; most divergent 89:2 (sim 0.31)."
+  },
+  "notes_parts": {
     "static": "kuranmeali.com gives one rendering per ayah; mealler.org repeats Bilmen's connected renderings across short ayat (e.g. 89:2-4, 100:1-2), which explains most per-ayah disagreement (~70% identical).",
-    "build": "3 merged verse groups stored once as a..a_end. 2 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end. Coverage incomplete (1668/6236); re-run `fetch_meal.py fetch --sources MEAL-BILMEN` then `build` to resume."
+    "build": "6 merged verse groups stored once as a..a_end. 4 host verse-number prefixes (e.g. \"6, 7.\", \"(6-7)\") removed from the text; the range is in a..a_end."
   }
 }

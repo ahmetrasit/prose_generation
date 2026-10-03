@@ -1,0 +1,8 @@
+# Derived and bulk data stay local. Briefs, scripts, schema, accepted pages (out/) and the run records under work/
+# (prompts, outputs, logs) are versioned; the pack (copies of the base and of licensed lexicon texts) is rebuilt.
+.cache/
+__pycache__/
+fetch/openiti_cache/
+work/*/pack/
+work/*/*/run.stream.jsonl
+work/*/*/preview/

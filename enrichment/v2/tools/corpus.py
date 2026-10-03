@@ -116,7 +116,7 @@ V1_TAFSIR = {  # quran-tafsir.net slug -> (ID, author, work, death AH, tradition
     "alusy": ("ALUSI", "al-Ālūsī", "Rūḥ al-maʿānī", 1270, "sunni-dirayet"),
     "baghawy": ("BAGHAWI", "al-Baghawī", "Maʿālim al-tanzīl", 516, "sunni-rivaya"),
     "mawardy": ("MAWARDI", "al-Māwardī", "al-Nukat wa-l-ʿuyūn", 450, "sunni-dirayet"),
-    "wahidy": ("WAHIDI-QT", "al-Wāḥidī", "tafsir on quran-tafsir.net (al-Wasīṭ or al-Wajīz; not al-Basīṭ, not the Asbāb)", 468,
+    "wahidy": ("WAHIDI-QT", "al-Wāḥidī", "al-Wajīz fī tafsīr al-Kitāb al-ʿazīz (per-ayah slice; the site's book list names it)", 468,
                "sunni"),
     "ashour": ("IBNASHUR", "Ibn ʿĀshūr", "al-Taḥrīr wa-l-tanwīr", 1393, "modern-bayani"),
     "nasafy": ("NASAFI", "al-Nasafī", "Madārik al-tanzīl", 710, "sunni-dirayet"),
@@ -368,12 +368,25 @@ IMPORTERS = [import_v1_tafsir, import_hadith, import_classical, import_other_lex
 
 def sources() -> list[dict]:
     out = []
-    for p in sorted(CORPUS.glob("*/source.json")):
+    # one level, plus grouped pointer records (ACADEMIC/<ID>/source.json); never anything under raw/
+    paths = list(CORPUS.glob("*/source.json")) + [p for p in CORPUS.glob("*/*/source.json") if "raw" not in p.parts]
+    for p in sorted(paths):
         try:
             out.append(json.loads(p.read_text(encoding="utf-8")))
         except json.JSONDecodeError as e:
             print(f"bad source.json {p}: {e}", file=sys.stderr)
     return out
+
+
+def flat(v) -> str:
+    """Segment fields are usually strings; some sources give notes as lists or objects."""
+    if isinstance(v, str):
+        return v
+    if isinstance(v, list):
+        return " ".join(flat(x) for x in v)
+    if isinstance(v, dict):
+        return " ".join(flat(x) for x in v.values())
+    return "" if v is None else str(v)
 
 
 def build() -> None:
@@ -409,8 +422,7 @@ def build() -> None:
                 except sqlite3.IntegrityError:
                     print(f"duplicate locator {r['seg']} in {meta['id']}", file=sys.stderr)
                     continue
-                body = " ".join(x for x in (r.get("head") or "", r.get("text") or "", r.get("en") or "",
-                                            r.get("tr") or "", r.get("notes") or "") if x)
+                body = " ".join(flat(r.get(k)) for k in ("head", "text", "en", "tr", "notes") if r.get(k))
                 con.execute("INSERT INTO f(rowid, body) VALUES(?,?)", (cur.lastrowid, norm(body)))
                 n += 1
         total += n
