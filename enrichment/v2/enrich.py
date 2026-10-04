@@ -10,8 +10,8 @@ Per target:
                    sent back; the rest rendered into the frozen base (render.py); the page checked byte-exact against
                    the base; copied to out/sNNN/ (never overwritten); duzeltme records appended to errata.jsonl
 
-Models (--model, comma-separated, each key[:effort]): astra (default), sol, sol61 run through `codex exec`; opus,
-sonnet through `claude -p`. Every agent can write only in its call directory and has no network: Codex by its own
+Models (--model, comma-separated, each key[:effort]; default opus:high): astra, sol, sol61 run through `codex exec`;
+opus, sonnet through `claude -p`. Every agent can write only in its call directory and has no network: Codex by its own
 sandbox; Claude by Claude Code's own sandbox (every Bash command sandboxed and auto-allowed, writes only in the
 call directory, no network, no unsandboxed fallback) plus Write/Edit allowed only inside the call directory. Both
 runners get the identical prompt. Non-default models get their own call directory (zengin.<page>.<model>.<effort>).
@@ -23,11 +23,14 @@ call's tokens live. Rules as in v16: a call directory with started.json is never
 attempt, which gets its own directory); every call is logged in work/ledger.jsonl with its prompt hash.
 
   python3 enrichment/v2/enrich.py status --surah 107
-  python3 enrichment/v2/enrich.py build  --surah 107 [--target 107:3]       (writes nothing; sizes the prompts)
-  python3 enrichment/v2/enrich.py run    --surah 107 [--target surah] [--effort high|max] [--attempt 2]
-  python3 enrichment/v2/enrich.py run    --surahs 87-114 --parallel 3
+  python3 enrichment/v2/enrich.py build  --surah 107 --target surah        (builds a missing pack; sizes the prompts
+                                                                            and estimates the cost; no model call)
+  python3 enrichment/v2/enrich.py run    --surah 107 --target surah [--attempt 2]
+  python3 enrichment/v2/enrich.py run    --surahs 1,87,100 --target surah --parallel 2
   python3 enrichment/v2/enrich.py accept --surah 100 --target surah --model opus:high   (accept a finished trial page)
-Without --model, runs use opus:high (the user's choice after the S107/S100 trials).
+--target is required for build and run: surah | S:A | ayat (every ayah page with a base) | all (surah + ayat).
+Without --model, runs use opus:high (the user's choice after the S107/S100 trials). Each call records the sha256 of
+its page's base; a page whose base changed since its call (a pack rebuilt meanwhile) is never accepted.
 """
 from __future__ import annotations
 
@@ -111,6 +114,47 @@ def targets(s: int) -> list[str]:
     return ["surah"] + [ref for ref, info in base["ayat"].items() if info]
 
 
+def select(s: int, spec: str) -> list[str]:
+    """--target: surah | S:A | ayat | all."""
+    if spec == "all":
+        return targets(s)
+    if spec == "ayat":
+        return targets(s)[1:]
+    if spec == "surah":
+        return ["surah"]
+    if spec.split(":")[0] != str(s) or not spec.split(":")[-1].isdigit():
+        raise SystemExit(f"--target {spec!r}: expected surah, ayat, all or {s}:A")
+    return [spec]
+
+
+def base_words(s: int, target: str) -> int | None:
+    try:
+        return len(R.target_page(s, target)[1].split())
+    except (OSError, SystemExit, KeyError, ValueError):
+        return None
+
+
+def estimate(s: int, target: str, model: str, effort: str) -> str:
+    """USD estimate for a Claude call from the ledger: past calls of the same model, effort and page kind, scaled by
+    the base's word count (the surah pages ran $0.67–0.98 per 1k base words with Opus high)."""
+    if MODELS[model][0] != "claude":
+        return "subscription (no USD)"
+    kind = "surah" if target == "surah" else "ayah"
+    rates = []
+    for line in (LEDGER.read_text(encoding="utf-8").splitlines() if LEDGER.exists() else []):
+        r = json.loads(line)
+        if (r.get("cost_usd") and r.get("status") == "ok" and (r.get("model"), r.get("effort")) == (model, effort)
+                and ("surah" if r.get("target") == "surah" else "ayah") == kind):
+            w = r.get("base_words") or base_words(r["surah"], r["target"])
+            if w:
+                rates.append(r["cost_usd"] / w * 1000)
+    w = base_words(s, target)
+    if not rates or not w:
+        return f"no calibration yet for {model}:{effort} {kind} pages (base {w or '?'} words)"
+    lo, hi = min(rates), max(rates)
+    return f"${lo * w / 1000:.1f}–{hi * w / 1000:.1f} (base {w:,} words; {len(rates)} past calls)"
+
+
 # ---------------------------------------------------------------- prompt
 
 def header(s: int, target: str, d: Path, runner: str = "codex") -> str:
@@ -154,20 +198,23 @@ def call_codex(prompt: str, d: Path, model: str, effort: str) -> dict:
     env = {**os.environ, "PYTHONDONTWRITEBYTECODE": "1"}
     with (d / "run.stream.jsonl").open("w", encoding="utf-8") as out, (d / "stderr.log").open("w") as err:
         try:
-            p = subprocess.run(cmd, input=prompt, text=True, stdout=out, stderr=err, env=env, timeout=TIMEOUT)
+            p, timed_out = subprocess.run(cmd, input=prompt, text=True, stdout=out, stderr=err, env=env,
+                                          timeout=TIMEOUT), False
         except subprocess.TimeoutExpired:
-            p = subprocess.CompletedProcess(cmd, -9)
-    usage, completed, tools = {}, False, 0
+            p, timed_out = subprocess.CompletedProcess(cmd, -9), True
+    usage, completed, tools, bad = {}, False, 0, 0
     for line in (d / "run.stream.jsonl").read_text(encoding="utf-8").splitlines():
         try:
             ev = json.loads(line)
         except json.JSONDecodeError:
+            bad += 1  # counted and reported (stream_unparsable), never silently dropped
             continue
         if ev.get("type") == "turn.completed":
             completed, usage = True, ev.get("usage") or {}
         if ev.get("type") == "item.completed" and (ev.get("item") or {}).get("type") == "command_execution":
             tools += 1
-    return {"returncode": p.returncode, "turn_completed": completed, "usage": usage, "commands": tools}
+    return {"returncode": p.returncode, "turn_completed": completed, "usage": usage, "commands": tools,
+            "timed_out": timed_out, "stream_unparsable": bad}
 
 
 def others(d: Path) -> list[Path]:
@@ -198,14 +245,16 @@ def call_claude(prompt: str, d: Path, model: str, effort: str) -> dict:
            "FORCE_PROMPT_CACHING_5M": "1"}
     with (d / "run.stream.jsonl").open("w", encoding="utf-8") as out, (d / "stderr.log").open("w") as err:
         try:
-            p = subprocess.run(cmd, input=prompt, text=True, stdout=out, stderr=err, env=env, cwd=d, timeout=TIMEOUT)
+            p, timed_out = subprocess.run(cmd, input=prompt, text=True, stdout=out, stderr=err, env=env, cwd=d,
+                                          timeout=TIMEOUT), False
         except subprocess.TimeoutExpired:
-            p = subprocess.CompletedProcess(cmd, -9)
-    final, tools, denied = {}, 0, 0
+            p, timed_out = subprocess.CompletedProcess(cmd, -9), True
+    final, tools, denied, bad = {}, 0, 0, 0
     for line in (d / "run.stream.jsonl").read_text(encoding="utf-8").splitlines():
         try:
             ev = json.loads(line)
         except json.JSONDecodeError:
+            bad += 1  # counted and reported (stream_unparsable), never silently dropped
             continue
         if ev.get("type") == "assistant":
             tools += sum(1 for c in (ev.get("message") or {}).get("content", []) if c.get("type") == "tool_use")
@@ -216,7 +265,8 @@ def call_claude(prompt: str, d: Path, model: str, effort: str) -> dict:
         (d / "response.md").write_text(final["result"] + "\n", encoding="utf-8")
     return {"returncode": p.returncode, "turn_completed": bool(final) and not final.get("is_error"),
             "usage": final.get("usage") or {}, "cost_usd": final.get("total_cost_usd"),
-            "num_turns": final.get("num_turns"), "commands": tools, "permission_denials": denied, "session_id": sid}
+            "num_turns": final.get("num_turns"), "commands": tools, "permission_denials": denied, "session_id": sid,
+            "result_subtype": final.get("subtype"), "timed_out": timed_out, "stream_unparsable": bad}
 
 
 def session_file(d: Path) -> Path | None:
@@ -261,12 +311,16 @@ def weekly_now() -> dict:
     return {}
 
 
-def finish(s: int, target: str, d: Path, trial: bool = False) -> dict:
+def finish(s: int, target: str, d: Path, trial: bool = False, base_sha: str | None = None) -> dict:
     """Check the records, drop the failing ones, render, check the page, accept (unless trial). Nothing goes back to
-    the agent."""
+    the agent. base_sha: the sha256 of the base the call saw; a different base now (pack rebuilt) fails the page."""
     ann = d / "annotations.jsonl"
     if not ann.exists():
         return {"check": "no annotations.jsonl", "ok": False}
+    now = R.target_page(s, target)[2]["sha256"]
+    if base_sha and now != base_sha:
+        return {"check": f"base changed since the call ({base_sha[:12]} -> {now[:12]}): never accepted; "
+                         f"run a new attempt on the new base", "ok": False}
     try:
         recs = R.load(ann)
     except SystemExit as e:
@@ -281,12 +335,11 @@ def finish(s: int, target: str, d: Path, trial: bool = False) -> dict:
     check = {"surah": s, "target": target, "records": len(recs), "kept": len(kept), "dropped": dropped,
              "warnings": warnings, "page_errors": page_errors}
     (d / "check.json").write_text(json.dumps(check, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    counts = {"kept": len(kept), "dropped": len(dropped), "warnings": len(warnings)}
     if page_errors:
-        return {"check": f"page errors: {len(page_errors)} (see check.json)", "ok": False,
-                "kept": len(kept), "dropped": len(dropped)}
+        return {"check": f"page errors: {len(page_errors)} (see check.json)", "ok": False, **counts}
     if trial:
-        return {"check": "ok (trial: page in the call directory only)", "ok": True, "kept": len(kept),
-                "dropped": len(dropped)}
+        return {"check": "ok (trial: page in the call directory only)", "ok": True, **counts}
     dst = OUT / f"s{s:03d}" / name
     if dst.exists():
         return {"check": f"{rel(dst)} exists (never overwrite)", "ok": False}
@@ -305,7 +358,7 @@ def finish(s: int, target: str, d: Path, trial: bool = False) -> dict:
            "dictionary": pack.get("dictionary"), "annotations": rel(ann),
            "kept": len(kept), "dropped": [x["id"] for x in dropped]}
     dst.with_suffix(".json").write_text(json.dumps(rec, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    return {"check": "ok", "ok": True, "kept": len(kept), "dropped": len(dropped), "errata": len(errata)}
+    return {"check": "ok", "ok": True, **counts, "errata": len(errata)}
 
 
 def run_target(s: int, target: str, model: str, effort: str, attempt: int = 1, trial: bool = False) -> dict:
@@ -318,14 +371,21 @@ def run_target(s: int, target: str, model: str, effort: str, attempt: int = 1, t
         return {"surah": s, "target": target, "model": model, "status": "skipped", "reason": "page already accepted"}
     try:
         prompt = build_prompt(s, target, d, runner)
-    except Exception as e:  # a missing pack or brief stops this job, not the whole batch
+        _, base_text, info = R.target_page(s, target)
+        pack_sha = hashlib.sha256((wd(s) / "pack" / "pack.json").read_bytes()).hexdigest()
+    except (Exception, SystemExit) as e:  # a missing pack, base or brief stops this job, not the whole batch
         return {"surah": s, "target": target, "model": model, "status": "error", "reason": f"prompt: {e}"}
     d.mkdir(parents=True, exist_ok=True)
     row = {"surah": s, "target": target, "attempt": attempt, "brief": BRIEF, "model": model, "model_id": model_id,
            "runner": runner, "effort": effort, "trial": trial, "prompt_sha256": sha(prompt), "prompt_chars": len(prompt),
+           "base_sha256": info["sha256"], "base_words": len(base_text.split()), "pack_sha256": pack_sha,
            "started": time.strftime("%Y-%m-%dT%H:%M:%S%z")}
-    with (d / "started.json").open("x", encoding="utf-8") as f:
-        json.dump(row, f, ensure_ascii=False, indent=1)
+    try:
+        with (d / "started.json").open("x", encoding="utf-8") as f:
+            json.dump(row, f, ensure_ascii=False, indent=1)
+    except FileExistsError:  # another orchestrator started it a moment ago
+        return {"surah": s, "target": target, "model": model, "status": "skipped",
+                "reason": "started by another process (never rerun)"}
     (d / "prompt.md").write_text(prompt, encoding="utf-8")
     if runner == "codex":
         row["weekly_before"] = weekly_now()
@@ -334,15 +394,19 @@ def run_target(s: int, target: str, model: str, effort: str, attempt: int = 1, t
         if runner == "codex":
             row.update(call_codex(prompt, d, model_id, effort))
             sf = session_file(d)
-            if sf:
-                row["session"] = read_session(sf)
+            row["session"] = read_session(sf) if sf else {"missing": "no Codex session log found for this call"}
         else:
             row.update(call_claude(prompt, d, model_id, effort))
-        res = finish(s, target, d, trial) if row["returncode"] == 0 and row["turn_completed"] else \
-            {"check": "call did not complete", "ok": False}
+        if row["returncode"] == 0 and row["turn_completed"]:
+            res = finish(s, target, d, trial, info["sha256"])
+        else:
+            why = ("timed out after %ds" % TIMEOUT if row.get("timed_out") else
+                   f"result {row['result_subtype']}" if row.get("result_subtype") not in (None, "success") else
+                   f"exit code {row['returncode']}" if row["returncode"] else "no completed turn in the stream")
+            res = {"check": f"call did not complete ({why}; see stderr.log and run.stream.jsonl)", "ok": False}
         row["status"] = "ok" if res.pop("ok") else "error"
         row.update(res)
-    except Exception as e:  # keep the record; never retry automatically
+    except (Exception, SystemExit) as e:  # keep the record (run.log.json, ledger); never retry automatically
         row.update(status="error", error=f"{type(e).__name__}: {e}")
     row["seconds"] = round(time.monotonic() - t0)
     (d / "run.log.json").write_text(json.dumps(row, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
@@ -371,6 +435,11 @@ def status(s: int) -> None:
     print(f"S{s}:")
     for t in targets(s):
         line = "accepted" if accepted(s, t) else "due"
+        if t != "surah" and not accepted(s, t):
+            try:
+                R.target_page(s, t)
+            except SystemExit as e:
+                line = f"blocked: {e}"
         for d in sorted(wd(s).glob(f"{BRIEF}.{tag(t)}*")):
             if d.name != f"{BRIEF}.{tag(t)}" and not d.name.startswith(f"{BRIEF}.{tag(t)}."):
                 continue
@@ -381,6 +450,23 @@ def status(s: int) -> None:
                          + (f" ${r['cost_usd']:.2f}" if r.get("cost_usd") else ""))
             elif (d / "started.json").exists():
                 line += f"\n      {d.name}: started (running or interrupted)"
+                started = json.loads((d / "started.json").read_text(encoding="utf-8"))
+                stream = d / "run.stream.jsonl"
+                if started.get("runner") == "claude" and stream.exists():
+                    turns = tools = 0
+                    for ev_line in stream.read_text(encoding="utf-8").splitlines():
+                        try:
+                            ev = json.loads(ev_line)
+                        except json.JSONDecodeError:
+                            continue
+                        if ev.get("type") == "assistant":
+                            turns += 1
+                            tools += sum(1 for c in (ev.get("message") or {}).get("content", [])
+                                         if c.get("type") == "tool_use")
+                    idle = round(time.time() - stream.stat().st_mtime)
+                    line += (f"; so far {turns} assistant events, {tools} tool calls; last activity {idle}s ago"
+                             + (" (finishing: the model is done when run.log.json appears)" if (d / "response.md").exists()
+                                else ""))
                 sf = session_file(d)
                 if sf:
                     u = read_session(sf)
@@ -415,7 +501,7 @@ def main() -> None:
     ap.add_argument("cmd", choices=("status", "build", "run", "accept"))
     ap.add_argument("--surah", type=int)
     ap.add_argument("--surahs")
-    ap.add_argument("--target", help="surah or S:A (default: every page of the surah)")
+    ap.add_argument("--target", help="surah | S:A | ayat | all (required for build, run and accept)")
     ap.add_argument("--model", default=RUN_MODEL, help=f"key[:effort],... of {', '.join(MODELS)}")
     ap.add_argument("--effort", default=EFFORT, choices=("low", "medium", "high", "max"))
     ap.add_argument("--attempt", type=int, default=1)
@@ -430,9 +516,11 @@ def main() -> None:
             status(s)
         return
     specs = model_specs(a.model, a.effort)
+    if not a.target:
+        ap.error("--target is required: surah | S:A | ayat | all")
     if a.cmd == "accept":  # a finished trial page becomes the accepted page (no model call)
-        if len(specs) != 1 or not a.target:
-            ap.error("accept takes one --model and one --target")
+        if len(specs) != 1 or a.target in ("ayat", "all"):
+            ap.error("accept takes one --model and one page (--target surah or S:A)")
         (m, e), = specs
         for s in ss:
             d = call_dir(s, a.target, a.attempt, m, e)
@@ -440,7 +528,7 @@ def main() -> None:
             row = json.loads(log_path.read_text(encoding="utf-8")) if log_path.exists() else {}
             if row.get("status") != "ok":
                 raise SystemExit(f"{rel(d)}: no successful run to accept")
-            res = finish(s, a.target, d, trial=False)
+            res = finish(s, a.target, d, trial=False, base_sha=row.get("base_sha256"))
             row["accepted"] = {"at": time.strftime("%Y-%m-%dT%H:%M:%S%z"), **res}
             log_path.write_text(json.dumps(row, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
             log({"surah": s, "target": a.target, "stage": "accept", "model": m, "effort": e, "dir": rel(d), **res})
@@ -452,19 +540,31 @@ def main() -> None:
     for s in ss:
         if not ensure_pack(s):
             continue
-        jobs += [(s, t, m, e) for t in ([a.target] if a.target else targets(s)) for m, e in specs]
+        jobs += [(s, t, m, e) for t in select(s, a.target) for m, e in specs]
     if a.cmd == "build":
         for s, t, m, e in jobs:
             d = call_dir(s, t, a.attempt, m, e)
             p = build_prompt(s, t, d, MODELS[m][0])
-            print(f"S{s} {t} {m} ({MODELS[m][1]}, {e}): prompt {len(p):,} chars -> {rel(d)}"
-                  + (" [exists: will be skipped]" if blocked(d) else ""))
+            skip = (" [exists: will be skipped]" if blocked(d) else
+                    " [page already accepted: will be skipped]" if accepted(s, t) and not a.trial else "")
+            try:
+                R.target_page(s, t)
+            except SystemExit as err:
+                skip += f" [BLOCKED: {err}]"
+            print(f"S{s} {t} {m} ({MODELS[m][1]}, {e}): prompt {len(p):,} chars; estimate {estimate(s, t, m, e)} "
+                  f"-> {rel(d)}{skip}")
         print(f"{len(jobs)} calls")
         return
     with cf.ThreadPoolExecutor(a.parallel) as ex:
         for r in ex.map(lambda j: run_target(j[0], j[1], j[2], j[3], a.attempt, a.trial), jobs):
             print(json.dumps({k: r.get(k) for k in ("surah", "target", "model", "status", "check", "kept", "dropped",
-                                                     "seconds", "cost_usd", "reason")}, ensure_ascii=False), flush=True)
+                                                     "warnings", "errata", "seconds", "cost_usd", "reason", "error",
+                                                     "permission_denials", "stream_unparsable", "timed_out")
+                              if r.get(k) not in (None, 0, False) or k in ("status", "kept", "dropped")},
+                             ensure_ascii=False), flush=True)
+            if r.get("status") != "ok":
+                print(f"WARNING: S{r['surah']} {r['target']} {r.get('model')}: {r.get('status')} — "
+                      f"{r.get('check') or r.get('reason') or r.get('error')}", flush=True)
 
 
 if __name__ == "__main__":

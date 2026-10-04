@@ -17,7 +17,9 @@ the knowledge around it and integrates the base's findings with the literature.
 - PACK = enrichment/v2/work/sNNN/pack/ (built by script; read-only for you)
   - base/surah.md, base/S_A.md: the frozen base pages; base.json: their sha256
   - numbered/surah.md, numbered/S_A.md: the same pages with each prose paragraph numbered [¶n] (headings and
-    "Kaynaklar:" lines are not numbered); read these, and anchor blocks by these numbers
+    "Kaynaklar:" lines are not numbered); read these, and anchor blocks by these numbers. An ayah base also holds
+    v16's own additions (augment8): blocks opening with `<!-- v16:augment … para=n … -->`, unnumbered, under ¶n.
+    They are part of the base: never repeat their parallels or cross-references; build on them
   - ayah/S_A/{words.md, dictionary.md, usage.md, meals.md, sources.md, turkish.md}; roots/<root_id>.md; binding.json
   - errata_candidates.json (problems the base's own tag checker reported); pack.json (manifest, gaps)
 - Schema: enrichment/v2/SCHEMA_CARD.md (types, fields, values, rules for this pass). Read it once, completely.

@@ -4,10 +4,15 @@
   python3 enrichment/v2/pack.py --surah 107 [--force]
 
 Writes enrichment/v2/work/sNNN/pack/:
-  base/surah.md, base/S_A.md      the frozen v16 outputs (surah images; ayah readings after augment3), copied
+  base/surah.md, base/S_A.md      the frozen v16 outputs (surah images, never augmented; ayah readings after
+                                  augment8 (Opus), copied; an ayah without augment8 has no base and no ayah page
+                                  until it has run and the pack is rebuilt)
   base.json                       their paths and sha256
-  numbered/surah.md, S_A.md       the same with prose paragraphs numbered [¶n] (v16 augment's numbering): what the
-                                  agent reads; records anchor by paragraph number plus a confirming phrase
+  numbered/surah.md, S_A.md       the same with prose paragraphs numbered [¶n] (v16 augment's numbering; augment8
+                                  additions unnumbered, under their paragraph): what the agent reads; records
+                                  anchor by paragraph number plus a confirming phrase
+A rebuild (--force) is refused while a call of the surah is running. Finished calls are unaffected: each records
+the sha256 of its page's base, and acceptance refuses a page whose base has changed since its call.
   binding.json                    every word of every ayah -> QAC lemma/root keys -> dictionary root ids
                                   (identity, documented alternatives, echo) via v9's gateway: the only word->root
                                   binding the workflow uses
@@ -75,18 +80,24 @@ def surah_base(s: int) -> Path:
     return cands[0]
 
 
+AYAH_AUGMENT = R.AYAH_AUGMENT  # v16 production augment (v16 RUNBOOK, 2026-10-04); augment2/3 are superseded
+
+
 def ayah_base(s: int, a: int) -> Path | None:
+    """The final v16 ayah reading: the r13 reading after augment8 (Opus). None while augment8 has not run: an ayah
+    page is never built on a bare or superseded reading (the page would then miss or contradict v16's own additions)."""
     name = f"{s}_{a}"
-    arms = [p for p in (V16 / "out" / name).glob("DM.r13.images.r13.*") if "session-limit" not in p.name]
-    for arm in arms:
-        aug = arm / "augment.augment3" / f"{name}.reading.tr.md"
-        if aug.exists():
-            return aug
-    for arm in arms:
-        r = arm / f"{name}.reading.tr.md"
-        if r.exists():
-            return r
-    return None
+    hits = [p for p in (V16 / "out" / name).glob(f"DM.r13.images.r13.*/{AYAH_AUGMENT}/{name}.reading.tr.md")
+            if "session-limit" not in str(p)]
+    if len(hits) > 1:
+        raise SystemExit(f"{s}:{a}: several augment8 readings {[str(h.relative_to(PG)) for h in hits]}")
+    return hits[0] if hits else None
+
+
+def running_calls(s: int) -> list[str]:
+    """Call directories of the surah that started and have no run.log.json yet (running or interrupted)."""
+    return [d.name for d in sorted(work_dir(s).glob("zengin.*"))
+            if (d / "started.json").exists() and not (d / "run.log.json").exists()]
 
 
 # ---------------------------------------------------------------- morphology -> expected elements
@@ -377,11 +388,15 @@ def run_check(path: Path, ref: str, out: Path) -> dict:
 
 def problems(check: dict, label: str) -> list[dict]:
     out = []
+    if check.get("error"):  # the checker itself failed: say so, never an empty list
+        out.append({"file": label, "status": "check failed", "quote": check["error"]})
     for r in check.get("sources", []) or []:
         if r.get("status") not in ("ok", "declared"):
             out.append({"file": label, **{k: r.get(k) for k in ("line", "quote", "declared", "kind", "status", "found_in")}})
     for r in check.get("arabic_outside_tags", []) or []:
         out.append({"file": label, "status": "arabic outside tags", **(r if isinstance(r, dict) else {"quote": r})})
+    for r in check.get("unsourced_unmarked", []) or []:  # Arabic the checker found in no source and no bellek mark
+        out.append({"file": label, "status": "unsourced, unmarked", **(r if isinstance(r, dict) else {"quote": r})})
     return out
 
 
@@ -406,6 +421,9 @@ def build(s: int, force: bool, surah_base_path: Path | None) -> Path:
     pk = wd / "pack"
     if pk.exists() and not force:
         raise SystemExit(f"{pk.relative_to(PG)} exists; --force rebuilds it (never while a stage is running)")
+    if pk.exists() and running_calls(s):
+        raise SystemExit(f"S{s}: calls started without a run.log.json {running_calls(s)}: a rebuild would change "
+                         f"their pack under them; wait for them (or confirm they died) first")
     dstate = dictionary_state()
     if not dstate["match"]:
         raise SystemExit(f"dictionary transfer {dstate['transfer_commit']} != ../dictionary HEAD {dstate['dictionary_head']}: "
@@ -413,8 +431,10 @@ def build(s: int, force: bool, surah_base_path: Path | None) -> Path:
     if pk.exists():
         shutil.rmtree(pk)
     (pk / "base").mkdir(parents=True)
-    src = D.P.Sources()
     con = corpus_con()
+    if con is None:  # every meals/sources/turkish file would say "index missing": refuse instead
+        raise SystemExit(f"corpus index {C.INDEX} missing: run tools/corpus.py build first")
+    src = D.P.Sources()
     metas = source_meta(con)
     n_ayat = sum(1 for k in src.quran if k.startswith(f"{s}:") and not k.endswith(":0"))
     refs = [f"{s}:{a}" for a in range(1, n_ayat + 1)]
@@ -469,6 +489,9 @@ def build(s: int, force: bool, surah_base_path: Path | None) -> Path:
             errata += problems(run_check(p, ref, pk / "check" / f"{ref.replace(':', '_')}.json"), p.name)
     (pk / "errata_candidates.json").write_text(json.dumps(errata, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
+    failed = [e["file"] for e in errata if e.get("status") == "check failed"]
+    if failed:
+        print(f"WARNING: S{s}: check.py failed on {failed} (see errata_candidates.json)", flush=True)
     unbound = [(ref, w["surface"]) for ref, ws in binding.items() for w in ws if w["root_keys"] and not w["identity"]]
     kinds = {}
     for i, m in metas.items():
@@ -480,7 +503,7 @@ def build(s: int, force: bool, surah_base_path: Path | None) -> Path:
                    "sources_by_kind": {k: sorted(v) for k, v in sorted(kinds.items(), key=lambda x: str(x[0]))},
                    "pointers_hafiza": sorted(i for i, m in metas.items() if m.get("access") == "hafiza")},
         "binding": {"words": sum(len(v) for v in binding.values()), "roots": len(set(roots)), "unbound": unbound},
-        "errata_candidates": len(errata),
+        "errata_candidates": len(errata), "check_failed": failed,
         "turkish": {"per_ayah": turkish,
                     "fetch_candidates": sorted({c for v in turkish.values() for c in v["fetch_candidates"]})},
         "missing_ayah_bases": [r for r, v in base["ayat"].items() if not v],

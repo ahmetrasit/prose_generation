@@ -19,9 +19,10 @@ Every block is one line in the rendered page and one JSON object in annotations.
   120 (arastirma).
 - Placement (records only, not rendered), both required: `paragraf` = the number of a prose paragraph of the base of
   the page the record belongs to (numbered from 1 as in v16's augment; headings and "Kaynaklar:" lines unnumbered;
-  the pack's numbered/ files show the numbers), and `capa` = at least three exact words of that paragraph, which
-  confirm the number. The block is rendered right after that paragraph; there are no end-of-page blocks, and a
-  record whose number and words do not match is dropped. Both passes number the same base, so they merge by
+  the pack's numbered/ files show the numbers; v16 augment8 additions in an ayah base, `<!-- v16:augment … para=n -->`,
+  are unnumbered and belong to ¶n), and `capa` = at least three exact words of that paragraph or of its additions, which
+  confirm the number. The block is rendered right after that paragraph (after its additions); there are no
+  end-of-page blocks, and a record whose number and words do not match is dropped. Both passes number the same base, so they merge by
   paragraph.
 
 ## Fields

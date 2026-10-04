@@ -2,7 +2,7 @@
 
 Record = one JSON object per line in annotations.jsonl. Required in every record: id, tur, ayet, islev, iliski, durum, kat, metin, kaynak, paragraf, capa (gelenek is added by the script).
 - id S<sss>-<KOD>-<NNN>; ayet "107:3" or "107:1-3" (several with |); kaynak = corpus locators, pipe-separated, or hafiza; metin one paragraph, at most 80 words (temel, ek) or 120 (arastirma).
-- paragraf = the [¶n] number of the page's prose paragraph; capa = at least three exact words of it.
+- paragraf = the [¶n] number of the page's prose paragraph; capa = at least three exact words of it (or of its v16 additions, the unnumbered `<!-- v16:augment … para=n -->` blocks under it in an ayah base).
 
 ## tur (KOD; traditions; extra required fields)
 - tefsir_rivayet (TRV; islami): explanations of Companions/Successors as transmitted (Mujāhid, Muqātil, Ṭabarī's aqwāl, al-Durr al-manthūr)

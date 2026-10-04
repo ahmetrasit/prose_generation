@@ -234,7 +234,8 @@ def build_one(src, today):
             for cw in src['cross']:
                 try:
                     crow = load_witness(cw)
-                except FileNotFoundError:
+                except FileNotFoundError as e:
+                    log(f'[build] {sid}: cross witness {cw} not fetched, skipped for gap filling ({e})')
                     continue
                 cexp = expand(build_segments(sid, crow, explicit_groups=wsplit(cw)[0] in ('kd', 'svm'),
                                              strip_prefix=wsplit(cw)[0] not in ('kd', 'svm'))[0])
@@ -435,7 +436,8 @@ def do_crosscheck(args):
         for w in src['cross']:
             try:
                 pb, gb = per_ayah(w, surahs)
-            except FileNotFoundError:
+            except FileNotFoundError as e:
+                log(f'[compare] {w}: not fetched, left out of the comparison ({e})')
                 continue
             c = compare(pa, pb)
             if not c:
@@ -478,8 +480,8 @@ def identity_matrix(out):
     for w in HOMES:
         try:
             texts[w] = load_witness(w, surahs)
-        except FileNotFoundError:
-            pass
+        except FileNotFoundError as e:
+            log(f'[audit] {w}: not fetched, left out ({e})')
     for ml in (1, 4, 5, 6):
         texts[f'kd:{ml}'] = load_witness(f'kd:{ml}', surahs)
     texts['svm:site'] = load_witness('svm:site', surahs)

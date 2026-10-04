@@ -8,6 +8,7 @@ from __future__ import annotations
 import gzip
 import hashlib
 import json
+import sys
 import time
 import urllib.error
 import urllib.request
@@ -47,15 +48,18 @@ class Nass(HTMLParser):
 
 
 def get(url: str, tries: int = 5) -> tuple[int, bytes]:
+    last = "no try"
     for i in range(tries):
         try:
             return 200, urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=40).read()
         except urllib.error.HTTPError as e:
             if e.code == 404:
                 return 404, b""
-        except Exception:
-            pass
+            last = f"HTTP {e.code}"
+        except Exception as e:  # retried; reported below if every try fails
+            last = f"{type(e).__name__}: {e}"
         time.sleep(2 ** i)
+    print(f"FETCH FAILED after {tries} tries: {url} ({last}); recorded as http_0", file=sys.stderr)
     return 0, b""
 
 

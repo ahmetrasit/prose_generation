@@ -1,85 +1,225 @@
-# Enrichment v2 runbook (for the operator; agents never read this)
+# Enrichment v2 runbook (for the orchestrator)
 
-All commands from the workspace root `/Volumes/aro/projects/prose_generation`.
+For an agent or operator starting cold. It covers running the enrichment of a surah: the **surah page** (now) and
+the **ayah pages** (later, once v16 augment8 has run). The page-writing agents never read this file; their brief
+is `prompts/common.md` + `prompts/zengin.md`.
 
-## 0. Once per corpus change
+Why things are as they are: `DESIGN.md`. The v16 base itself: `_commentary/v16/RUNBOOK.md` (another session's
+work; do not run v16 from here).
+
+Run every command from the workspace root `/Volumes/aro/projects/prose_generation`.
+
+## Rules from the user (never break them)
+
+1. **Each run needs its own go.**
+   - Before anything that costs money, tell the user which pages, how many calls, and the expected cost (`enrich.py
+     build` prints it).
+   - Then wait for an explicit go. A go for one surah or one step does not cover the next.
+2. **No agents and no background runs without an explicit go.** That includes subagents, Workflow and
+   `run_in_background`. A go for a run covers running it in the background.
+3. **Never rerun a call.** A call directory with `started.json` or `run.log.json` is blocked; the script refuses it.
+   A deliberate new try is `--attempt 2` (its own directory), and only after the user agrees.
+4. **Never overwrite an accepted page.** `enrich.py` writes `out/sNNN/` exclusively. Replacing an accepted page
+   is the user's decision; never delete or rename anything in `out/` on your own.
+5. **No silent failures.**
+   - Report every `WARNING:` line the scripts print, every result line whose `status` is not `ok`, and every
+     dropped record and validator warning in `check.json`.
+   - Do not summarize them away.
+6. **The base is frozen.** Never edit v16 outputs or the pack. Errors in the base go to `errata.jsonl`.
+7. **Instruction files** (`prompts/*.md`, `schema.json`, `SCHEMA_CARD.md`): tell the user what you would change
+   and wait for an answer before changing them.
+8. **Commit only when the user asks.** `.gitignore` already decides what is versioned.
+
+## What a page is
+
+- **One agent call per page.** No retries, no multi-stage pipeline, no repair calls. Model: Opus 5.5 high (the
+  user's choice after the S107/S100 trials; the script default).
+- **The call writes** `annotations.jsonl` in its call directory `work/sNNN/zengin.<page>.opus.high/`.
+- **The script then:**
+  - checks every record (a failing record is dropped, never sent back);
+  - renders the rest into the frozen base, each block right after the paragraph it names;
+  - checks the page against the base byte for byte;
+  - copies the page to `out/sNNN/` with a `.json` record;
+  - appends `duzeltme` records to `errata.jsonl`.
+- **Bases.**
+  - Surah page: the v16 surah image prose, `_commentary/v16/out/sNNN/images.r13.*/images.md`. It is final and
+    never augmented.
+  - Ayah page: the v16 reading after augment8, `_commentary/v16/out/N_A/DM.r13.*/augment.augment8.opus/N_A.reading.tr.md`.
+    Its v16 additions (blocks opening with `<!-- v16:augment … para=n … -->`) are part of the base: they are
+    unnumbered, belong to ¶n, and enrichment blocks go after them. An ayah without augment8 has no base, so no ayah
+    page.
+
+## Where things stand (2026-10-04)
+
+| Surah | v16 surah base | v16 augment8 | Pack | Surah page | Ayah pages |
+|---|---|---|---|---|---|
+| S1 | ✓ | 0/7 | – | – | wait for augment8 |
+| S87 | ✓ | 1/19 | – | – | wait for augment8 |
+| S100 | ✓ | 0/11 | ✓ (built before augment8; ayah bases are augment3) | **accepted** (Opus high, 63 blocks) | rebuild the pack first |
+| S103 | **missing** (v16 map and image prose never ran) | – | – | blocked | blocked |
+| S107 | ✓ | 0/7 | ✓ (no turkish.md) | accepted (Astra max, old brief) | rebuild the pack first |
+
+`enrich.py status --surah N` is the live view; this table is a snapshot.
+
+## Surah page, step by step
+
+For surah N. Steps 1–3 make no model calls.
+
+**1. Check the inputs.**
+```bash
+python3 -B enrichment/v2/enrich.py status --surah N
 ```
-python3 enrichment/v2/tools/corpus.py import-local          # sources already on this machine
-python3 enrichment/v2/fetch/<fetcher> …                      # new sources (meal, OpenITI, Elmalılı, references)
-python3 enrichment/v2/tools/corpus.py build                 # one index: enrichment/corpus/corpus.sqlite
-python3 enrichment/v2/tools/corpus.py sources               # what is local, what is a memory pointer
-python3 enrichment/v2/tools/schema_doc.py                   # after any schema.json change
+- "no pack" is expected for a new surah.
+- No v16 surah base: stop and tell the user. pack.py says "expected one r13 surah images.md". The base comes from
+  the v16 chain, which this runbook does not run.
+
+**2. Build the pack.**
+```bash
+python3 -B enrichment/v2/pack.py --surah N
 ```
-A pack records the index mtime; rebuild packs (`pack.py --surah N --force`) only for surahs with no call
-started, or start a new attempt.
+- It prints a summary line, plus WARNING lines for anything wrong. Report them.
+- It refuses when `../dictionary` is ahead of the quran-data transfer. Tell the user; syncing quran-data is not
+  done from here.
+- Read `work/sNNN/pack/pack.json`:
+  - `missing_ayah_bases`: ayat without augment8. This is normal before augment8 has run; it only matters for
+    ayah pages.
+  - `errata_candidates`: problems v16's own tag checker found in the base (details in `errata_candidates.json`).
+    The page call reads them too.
+  - `turkish.fetch_candidates`: see step 3.
 
-## 1. Before a surah starts
-1. The v16 base is final: one `out/sNNN/images.r13.*/images.md` and, per ayah, `augment.augment3/S_A.reading.tr.md`.
-   pack.py refuses an ambiguous surah base (pass `--surah-base`).
-2. Turkish word history: build the pack, read `pack.json` turkish.fetch_candidates (key words of the panel meals
-   with no Nişanyan/TDK/Kubbealtı entry yet), fetch the ones that matter
-   (`python3 enrichment/v2/fetch/ref_loanword.py <word> …`), rebuild the index (`tools/corpus.py build`) and the pack
-   (`pack.py --surah N --force`, only while no call of the surah has started).
-3. `../dictionary` HEAD equals the transfer commit in `quran-data/data/dictionary/tr/MANIFEST.json` (pack.py
-   checks; if not, sync quran-data first).
-4. Tell the user the expected cost before the surah starts. Codex subscription runs report no USD: give the call
-   count (one per page: the surah page plus one per ayah page) and prompt sizes from `enrich.py build`.
-   Measured cost per call: `run.log.json` holds `session.tokens` (input, cached, output, reasoning), the weekly-limit
-   reading before the call (`weekly_before`, from the latest saved session) and during it (`session.weekly_used_*`);
-   `status` shows a running call's tokens and context live. Calibrate the next estimate from these.
+**3. Fetch Turkish word history.**
+- `turkish.fetch_candidates` lists stems from the panel meals that have no Nişanyan/TDK/Kubbealtı entry yet. Most
+  are noise: pronouns, function words, verb stems (*bizi, sana, ancak, ederiz*).
+- Pick only the content words that carry the meaning of an ayah and that a meal might render poorly: theological
+  terms, Arabic loanwords, key nouns and adjectives (for S1, for example: nimet, gazap, rahman, rahim, kulluk,
+  hidayet).
+- Fetch them in their dictionary form, not as the truncated stem:
+  ```bash
+  python3 -B enrichment/v2/fetch/ref_loanword.py nimet gazap rahman rahim kulluk hidayet
+  ```
+- Then rebuild the index and the pack. Do this only while no enrichment call of any surah is running:
+  ```bash
+  python3 -B enrichment/v2/tools/corpus.py build
+  python3 -B enrichment/v2/pack.py --surah N --force
+  ```
+- Tell the user which words you fetched and which the dictionaries did not have.
 
-## 2. Run
+**4. Estimate.**
+```bash
+python3 -B enrichment/v2/enrich.py build --surah N --target surah
 ```
-python3 enrichment/v2/enrich.py build  --surah 107                      # builds the pack if needed; sizes the prompts
-python3 enrichment/v2/enrich.py run    --surah 107                      # every page of the surah not yet started
-python3 enrichment/v2/enrich.py run    --surah 107 --target 107:3       # one page
-python3 enrichment/v2/enrich.py run    --surahs 87-114 --parallel 3
-python3 enrichment/v2/enrich.py status --surah 107
+- It prints the prompt size, a cost estimate from the ledger scaled by the base's word count, and the call
+  directory.
+- Give the user the estimate and wait for the go (rule 1).
+
+**5. Run (after the go).**
+```bash
+mkdir -p enrichment/v2/work/logs
+python3 -B enrichment/v2/enrich.py run --surah N --target surah > enrichment/v2/work/logs/sN.surah.log 2>&1
 ```
-Model: Opus 5.5 high is the default (user, 2026-10-04, after the S107 and S100 trials); a finished trial page is
-accepted with `enrich.py accept --surah N --target T --model opus:high`. Corrections that a trial model found and the
-accepted page lacks are added to errata.jsonl by hand, with found_by and the operator's confirmation.
+- Run it in the background; the go covers that. A surah page takes about 25–30 minutes.
+- Several surahs in one go: `--surahs 1,87 --target surah --parallel 2`.
+- **`--target` is required**: `surah`, `S:A`, `ayat` (every ayah page that has a base) or `all`. Never use `all`
+  or `ayat` when the user asked for surah pages.
 
-Model comparison on one page (each model and effort in its own call directory, nothing copied to out/):
+**6. Wait and watch.**
+- `enrich.py status --surah N` shows a running Claude call's assistant events, tool calls and seconds since its last
+  activity.
+- When the model is done, `response.md` appears and status says "finishing". The script is then still checking and
+  rendering, which takes minutes on this disk. The page is done only when `run.log.json` exists and the run command
+  has printed its result line.
+- Idle for more than 20 minutes without `response.md`: report it; do not kill the call on your own.
+
+**7. Check and report.**
+- The result line has `status`, `check`, `kept`, `dropped`, `warnings`, `errata` and `cost_usd`. Report it with the
+  actual cost against the estimate.
+- Read `check.json` in the call directory:
+  - `dropped`: each id with its errors. List them.
+  - `warnings`: show the counts and anything unusual.
+  - `page_errors`: should be empty, since a page error fails the call.
+- Read the page `out/sNNN/surah.md` and judge it as the user does: is each block **appropriate, to the point,
+  useful, and does it flow naturally** after its paragraph? Do not audit whether the base is faithful to its
+  sources.
+- Report to the user:
+  - blocks per type;
+  - paragraphs that make a claim but got no block;
+  - Arabic quotations present or missing;
+  - the meal verdict;
+  - errata added;
+  - anything weak or repeated.
+
+## Ayah pages (later)
+
+- **Prerequisite:** augment8 has run on the ayah (v16 status: `python3 -B _commentary/v16/status.py N`).
+- **Rebuild the pack** after augment8 has run: `pack.py --surah N --force`. It refuses while a call of the surah
+  is running.
+  - Pages already accepted are unaffected: each call records the sha256 of its page's base, and a page whose base
+    changed since its call is never accepted.
+  - The surah base does not change, so the surah page stays valid.
+- **Run:** `enrich.py build --surah N --target ayat` gives the estimate. There is no ayah-page calibration yet:
+  estimate from the surah pages' cost per 1k base words, run one ayah page first, then calibrate.
+- **Then** `enrich.py run --surah N --target ayat --parallel 2`, or `--target N:A` for one page.
+
+## Failures
+
+| What you see | What it means | What to do |
+|---|---|---|
+| `call did not complete (timed out …)` | killed after 8 hours | report; new attempt only with the user's go |
+| `call did not complete (result error_…)` | the CLI ended the call with an error, e.g. the $40 cap per call | report it with the subtype; never raise the cap on your own |
+| `call did not complete (exit code …)` | CLI error (session limit, crash) | read `stderr.log`; report; `--attempt 2` with the go |
+| `status: started (running or interrupted)` and no process | the orchestrator died | report; never rerun that directory; `--attempt 2` with the go |
+| `page errors: n` | rendering or byte check failed | read `check.json` `page_errors`; report; nothing was accepted |
+| `base changed since the call` | the pack was rebuilt between call and acceptance | new attempt on the new base, with the go |
+| `exists (never overwrite)` | the page was accepted before | nothing; replacing it is the user's decision |
+| many dropped records | the agent broke placement or schema rules | list them; the user decides between accepting as is and a new attempt |
+| `gaps.json` in the call directory | the agent needed a source the corpus lacks | report; fetch, rebuild the index, new attempt only with the go |
+| `permission_denials` > 0 | the agent tried something the sandbox refused | report the count; harmless if the page is good |
+| `stream_unparsable` > 0 | broken lines in the call's stream | report; the tokens and cost may be undercounted |
+
+## Trials and accepting a trial page
+
+- **Several models on one page** (comparisons only): `enrich.py run … --model opus:high,sol61:high --trial
+  --parallel 2`. A trial renders in its call directory only: nothing goes to `out/`, and no errata are logged.
+- **Accepting a finished trial page:**
+  ```bash
+  enrich.py accept --surah N --target surah --model opus:high
+  ```
+- **A correction a trial found and the accepted page lacks** goes into `errata.jsonl` by hand: one JSON line with
+  `surah`, `target`, `base`, `id` (S<sss>-DZT-<n>), `taban`, `hata`, `metin`, `kaynak`, `found_by` (the trial
+  directories) and `confirmed_by` (who checked it, and against what). See the S100 muğîrât line.
+
+## Cost reference (Opus 5.5 high, actual)
+
+| Page | Base words | Cost | Time |
+|---|---|---|---|
+| S100 surah | 10,099 | $6.74 | 26 min |
+| S107 surah (trial, before the cost changes) | 7,585 | $7.46 | 25 min |
+
+- **Rate:** about $0.67–0.98 per 1k base words.
+- **Surahs with heavy literature cost more.** S1 has about 3 MB of tafsir text, 7× S100. Expect the top of the
+  range or above.
+- **Cap:** $40 per call (`--max-budget-usd`).
+- **The ledger** (`work/ledger.jsonl`) has one row per call: model, effort, tokens, `cost_usd`, `base_words`,
+  `base_sha256`, `seconds`, status. `enrich.py build` reads it for its estimate.
+
+## Corpus maintenance
+
+```bash
+python3 -B enrichment/v2/tools/corpus.py import-local          # sources already on this machine
+python3 -B enrichment/v2/fetch/<fetcher> …                      # new sources (meals, OpenITI, Elmalılı, references)
+python3 -B enrichment/v2/tools/corpus.py build                 # one index: enrichment/corpus/corpus.sqlite
+python3 -B enrichment/v2/tools/corpus.py sources               # what is local, what is a memory pointer
+python3 -B enrichment/v2/tools/schema_doc.py                   # after any schema.json change
 ```
-python3 enrichment/v2/enrich.py build --surah 107 --target surah --model sol:max,sol61:max,opus:high,sonnet:high
-python3 enrichment/v2/enrich.py run   --surah 107 --target surah --model sol:max,sol61:max,opus:high,sonnet:high \
-        --trial --parallel 4
-```
-Models: astra (default), sol, sol61 (codex exec); opus, sonnet (claude -p inside Claude Code's own sandbox: every
-shell command sandboxed, writes only in the call directory, no network; out/, other call directories and the
-session stores hidden, so trials are blind; --max-budget-usd 40; run.log.json records cost_usd and
-permission_denials). Every call is killed after 8 hours. Several models on the same pages only with --trial.
-Codex runs can still read other call directories (their sandbox has no read limits): run trials before a page is
-accepted, or check their command logs for reads of out/ and zengin.* directories.
+- Rebuild the index only while no enrichment call is running.
+- Fetchers print `FETCH FAILED` / `WARNING` lines for whatever they could not get. Report them.
 
-One call per page, like v16's augment step: the call (prompts/common.md + prompts/zengin.md) does the research,
-the meal review and the composition, and writes the page's records to `work/sNNN/zengin.<page>/annotations.jsonl`.
-Nothing retries automatically.
+## Later: the Bible pass (tevrat, incil)
 
-## 3. After each call (script)
-- Every record is checked (`validate.py`). A failing record is dropped and listed with its errors in
-  `check.json`; it is not sent back for repair. Read the dropped list before publishing.
-- The kept records are rendered into the frozen base (`page/`); the page is checked: base paragraphs byte-exact and
-  in order, blocks round-trip, nothing after the registry. A page error fails the call (status `error`).
-- Accepted: the page is copied to `enrichment/v2/out/sNNN/` (never overwritten) with a `.json` record (hashes, base,
-  dictionary commit, kept and dropped ids); duzeltme records go to `enrichment/v2/errata.jsonl` (input for a later
-  v16 revision; v16 itself is not touched).
-
-## 4. Failures
-- `status` shows `started (running or interrupted)`: the call died (session limit, crash). Never rerun that
-  directory. Read its `run.stream.jsonl`/`stderr.log`, then `enrich.py run --surah N --target T --attempt 2`
-  (directory `zengin.<page>.a2`).
-- Many dropped records or a page error: read `check.json`; decide between a new attempt and accepting the page as
-  it is.
-- A missing source the call needed: `gaps.json`; fetch it, rebuild the index, and run a new attempt of the page.
-
-## 5. Ledger
-`enrichment/v2/work/ledger.jsonl`: one line per call (prompt hash, model, effort, tokens, seconds, status).
-
-## 6. Later: the Bible pass (tevrat, incil)
-Bible and other Jewish and Christian sources are a separate pass with their own corpus and index (kind `intertext`,
-each source.json declaring its `gelenek`), their own brief, one call per page as here, writing blocks with gelenek
-tevrat or incil (schema 3.1). It never reads the Islamic records and vice versa. Its pages anchor to the same base
-paragraphs, so a script merges the layers: after each paragraph, islami, then tevrat, then incil blocks. Corpus,
-brief and merge script not built yet.
+- **A separate pass** with its own corpus (kind `intertext`, each source.json declaring its `gelenek`), its own
+  brief, and one call per page as here.
+- **It writes blocks** with gelenek `tevrat` or `incil` (schema 3.1). It never reads the Islamic records, and vice
+  versa.
+- **Merging:** its pages anchor to the same base paragraphs. A script merges the layers: after each paragraph,
+  islami, then tevrat, then incil blocks.
+- **Not built yet:** the corpus, the brief and the merge script.

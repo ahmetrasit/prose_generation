@@ -27,9 +27,10 @@ Every block is one line in the rendered page and one JSON object in annotations.
   {S['block']['word_limits']['arastirma']} (arastirma).
 - Placement (records only, not rendered), both required: `paragraf` = the number of a prose paragraph of the base of
   the page the record belongs to (numbered from 1 as in v16's augment; headings and "Kaynaklar:" lines unnumbered;
-  the pack's numbered/ files show the numbers), and `capa` = at least three exact words of that paragraph, which
-  confirm the number. The block is rendered right after that paragraph; there are no end-of-page blocks, and a
-  record whose number and words do not match is dropped. Both passes number the same base, so they merge by
+  the pack's numbered/ files show the numbers; v16 augment8 additions in an ayah base, `<!-- v16:augment … para=n -->`,
+  are unnumbered and belong to ¶n), and `capa` = at least three exact words of that paragraph or of its additions, which
+  confirm the number. The block is rendered right after that paragraph (after its additions); there are no
+  end-of-page blocks, and a record whose number and words do not match is dropped. Both passes number the same base, so they merge by
   paragraph.
 """
 
@@ -81,7 +82,8 @@ def card() -> None:
            f"- id S<sss>-<KOD>-<NNN>; ayet \"107:3\" or \"107:1-3\" (several with |); kaynak = corpus locators, "
            f"pipe-separated, or hafiza; metin one paragraph, at most {S['block']['word_limits']['temel']} words "
            f"(temel, ek) or {S['block']['word_limits']['arastirma']} (arastirma).",
-           "- paragraf = the [¶n] number of the page's prose paragraph; capa = at least three exact words of it.", "",
+           "- paragraf = the [¶n] number of the page's prose paragraph; capa = at least three exact words of it (or of "
+           "its v16 additions, the unnumbered `<!-- v16:augment … para=n -->` blocks under it in an ayah base).", "",
            "## tur (KOD; traditions; extra required fields)"]
     bible_only = {"gelenek", "bag", "tarihleme", "nusha"}
     for k, v in S["enums"]["tur"].items():

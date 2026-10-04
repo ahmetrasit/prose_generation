@@ -7,7 +7,8 @@
 A target is the surah page (`surah`, base work/sNNN/pack/base/surah.md) or one ayah page (`S:A`, base S_A.md). Writes
 DIR/surah.md or DIR/S_A.md: base paragraphs untouched, each block on its own line after the prose paragraph its
 `paragraf` number names (numbered as in v16's augment: prose paragraphs from 1, headings and "Kaynaklar:" lines
-unnumbered; `capa`, a few exact words of that paragraph, confirms the number). Validated records always place; the
+unnumbered; v16 augment8 additions in an ayah reading are unnumbered and belong to the paragraph before them, so
+blocks go after those additions; `capa`, a few exact words of that paragraph or its additions, confirms the number). Validated records always place; the
 end section only catches unchecked input. Then the source registry, generated from the corpus metadata of every cited source (agents never write it). Blocks after one
 paragraph are ordered by gelenek (islami, tevrat, incil), then by the order of `tur` in schema.json, then by id.
 """
@@ -47,9 +48,26 @@ def find_para(paras: list[str], anchor: str) -> int | None:
     return hits[0] if hits else None
 
 
+AUGMENT = "<!-- v16:augment "  # v16 augment8's marked additions in an ayah reading (part of the frozen base)
+AYAH_AUGMENT = "augment.augment8.opus"  # the v16 production augment dir an ayah base must come from (v16 RUNBOOK)
+
+
+def is_augment(p: str) -> bool:
+    return p.lstrip().startswith(AUGMENT)
+
+
 def is_prose(p: str) -> bool:
+    """A numbered paragraph: not a heading, not a "Kaynaklar:" line, not a v16 augment addition (an addition belongs
+    to the paragraph before it and carries that number as para=n, so the numbering is v16's own)."""
     body = p.strip()
-    return not body.startswith("#") and not body.startswith("Kaynaklar:")
+    return not body.startswith("#") and not body.startswith("Kaynaklar:") and not is_augment(body)
+
+
+def group_end(paras: list[str], i: int) -> int:
+    """The last index of paragraph i's group: i plus the v16 augment additions right after it."""
+    while i + 1 < len(paras) and is_augment(paras[i + 1]):
+        i += 1
+    return i
 
 
 def prose_index(paras: list[str]) -> dict[int, int]:
@@ -85,8 +103,9 @@ def locate(paras: list[str], r: dict) -> tuple[int | None, str]:
     capa = squash(r.get("capa") or "")
     if len(capa.split()) < 3:
         return None, "capa must quote at least three words of the paragraph"
-    if capa not in squash(paras[nums[n]]):
-        other = [m for m, i in nums.items() if capa in squash(paras[i])]
+    group = lambda i: squash(" ".join(paras[i:group_end(paras, i) + 1]))  # the paragraph and its v16 additions
+    if capa not in group(nums[n]):
+        other = [m for m, i in nums.items() if capa in group(i)]
         return None, f"capa is not in ¶{n}" + (f" (found in ¶{other[0]})" if other else " (not found in the base)")
     return nums[n], ""
 
@@ -140,10 +159,13 @@ def render_page(base: str, recs: list[dict], header: str, tail_heading: str | No
                 metas: dict) -> tuple[str, list[str]]:
     paras = paragraphs(base)
     at, tail, errors = place(paras, recs)
+    slot: dict[int, list[dict]] = {}  # blocks go after the paragraph's v16 augment additions, not between them
+    for i, rs in at.items():
+        slot.setdefault(group_end(paras, i), []).extend(rs)
     out = [header]
     for i, p in enumerate(paras):
         out.append(p)
-        for r in sort_blocks(at.get(i, [])):
+        for r in sort_blocks(slot.get(i, [])):
             out.append(B.tag_line(r))
     if tail:
         if tail_heading:
@@ -174,7 +196,10 @@ def target_page(s: int, target: str) -> tuple[str, str, dict]:
     else:
         info = base["ayat"].get(target)
         if not info:
-            raise SystemExit(f"no ayah base for {target}")
+            raise SystemExit(f"no ayah base for {target} (v16 augment8 has not run on it)")
+        if f"/{AYAH_AUGMENT}/" not in info["path"]:
+            raise SystemExit(f"{target}: the pack's ayah base {info['path']} is not a v16 augment8 reading (the pack "
+                             f"predates the switch to augment8): rebuild it with pack.py --surah {s} --force")
         name = target.replace(":", "_") + ".md"
     return name, (pk / "base" / name).read_text(encoding="utf-8"), info
 

@@ -56,6 +56,7 @@ def now():
 
 def gh_api(path: str):
     """GitHub REST GET; uses the gh CLI when logged in (5000 req/h), else anonymous urllib (60 req/h)."""
+    last = "no try"
     for i in range(4):
         try:
             if shutil.which("gh"):
@@ -64,6 +65,7 @@ def gh_api(path: str):
                     return json.loads(r.stdout)
                 if "Not Found" in r.stderr or "404" in r.stderr:
                     return None
+                last = f"gh api: {r.stderr.strip()[-300:]}"
             else:
                 req = urllib.request.Request("https://api.github.com/" + path, headers=UA)
                 tok = os.environ.get("GITHUB_TOKEN")
@@ -73,10 +75,11 @@ def gh_api(path: str):
         except urllib.error.HTTPError as e:
             if e.code == 404:
                 return None
-        except Exception:
-            pass
+            last = f"HTTP {e.code}"
+        except Exception as e:  # retried; the last error goes into the final failure
+            last = f"{type(e).__name__}: {e}"
         time.sleep(2 ** i)
-    raise RuntimeError(f"GitHub API failed: {path}")
+    raise RuntimeError(f"GitHub API failed: {path} (last error: {last})")
 
 
 def repo_of(uri: str) -> str:

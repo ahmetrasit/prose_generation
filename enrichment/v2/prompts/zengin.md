@@ -11,7 +11,8 @@ directory if useful); only annotations.jsonl and gaps.json are read.
   lexicon and sense inventory, grammar and rhetoric, occasion reports tied to it, the word-by-word meal review, and
   antecedents and counter-evidence for the claims of the ayah commentary. Every record's `ayet` includes the target
   ayah (a range such as 107:4-7 is right when the point concerns the group). Anchor to the paragraphs of
-  PACK/numbered/S_A.md.
+  PACK/numbered/S_A.md; a block about a v16 addition (`<!-- v16:augment … para=n … -->`) anchors to its ¶n, and its
+  capa may quote the addition.
 - Surah page (target surah): what belongs to the surah as a whole — names and merit, chronology and Makkī/Madanī,
   occasion reports for the whole surah, structure and naẓm, the surah's place among its neighbours, antecedents and
   counter-evidence for the claims of the surah commentary, and the meal verdict with the losses shared across the

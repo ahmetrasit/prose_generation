@@ -239,8 +239,8 @@ def rebuild_intertexts(src: Source):
     for p in (src.raw / "intertexts" / "verse").glob("*.json"):
         try:
             ids |= {it["id"] for it in json.loads(p.read_bytes())["data"]}
-        except Exception:
-            pass
+        except Exception as e:  # a broken raw page: its intertexts are missing until it is fetched again
+            print(f"WARNING: unreadable intertext page {p}: {type(e).__name__}: {e}", file=sys.stderr)
     segs = []
     for i in sorted(ids):
         p = src.raw / "intertexts" / "record" / f"{i}.json"
