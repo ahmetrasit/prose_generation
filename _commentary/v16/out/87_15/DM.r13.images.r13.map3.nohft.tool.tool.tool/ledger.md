@@ -1,0 +1,15 @@
+- memory: ṣallaytu/ṣallā al-ʿaṣā (form II) is used for turning a staff over fire to straighten it
+- memory: zakā al-zarʿ, meaning "the crop grew"
+- memory: tazakkā and zakāt share the root z-k-w
+- memory: "namaz" came into Turkish from Persian; Turkish "salavat" keeps the sense of blessing
+- memory: fa- marks a step that follows with no delay, plus consequence
+- not written: dhikr as male and as hard steel or a sharp sword (B001, B002) - no part in remembering a name
+- not written: dhikr al-ḥaqq as a written deed (B008) - no theme in this ayah
+- not written: s-m-w sky, rain, roof (B004) - pulls toward the surah's height scene, adds nothing here
+- not written: s-m-w hunting, stallion, rivalry, good repute (B003, B006-B008) - no work in this ayah
+- not written: brand mark linked to rabb as owner - rests on the alternative root plus outside custom
+- not written: w-s-m first rain, festival season, beauty, dye plant - not identity; no theme
+- not written: rabb multitude, stepchild, syrup, staying, covenant, captain, etc. (B004-B007, B009-B017) - no support for a theme
+- not written: ṣ-l-w trap, pounding stone, ṣilliyān camel fodder (B004, B008, B009) - fodder-to-pasture link too thin
+- not written: 29:45, 62:9-10, 107:4-5 - repeat connections already made
+- not written: 24:37 said to follow the 14-15 order - the order differs, so the claim was dropped

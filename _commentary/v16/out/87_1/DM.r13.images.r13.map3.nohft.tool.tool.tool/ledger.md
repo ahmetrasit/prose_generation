@@ -1,0 +1,11 @@
+- memory: alif-maqsura adjectives (الأعلى) show no case ending, so attachment to اسم or رب is ambiguous
+- memory: ذو/ذي case vowels mark attachment in 55:27 vs 55:78
+- memory: أفعل elative used without مِن gives an absolute superlative
+- memory: يَسْبَحُ (form I) vs يُسَبِّحُ (form II, doubled middle) as distinct verb patterns
+- memory: Turkish "âlâ" and "tespih" current meanings (Turkish usage)
+- not written: echo root ر ب و (rabwa, swelling, growth) - echo only, cannot establish identity with رب
+- not written: ر ب ب B015 particle rubba, B016 knot/need, B017 ship captain, B009 fresh ewe - no work in this ayah's theme
+- not written: س ب ح B007 children's leather shirt, B008 valley name - no bearing on the command
+- not written: س م و B003 stallion among she-camels, B006 hunters, B008 good fame - did not ground or join a theme
+- not written: ع ل و B010 tall build, B011 recovery after childbirth, B012 preposition على - no work here
+- not written: و س م B004 mawsim gathering, B005 beauty, B006 dye plant - alternative derivation; only the mark/brand line served the name theme

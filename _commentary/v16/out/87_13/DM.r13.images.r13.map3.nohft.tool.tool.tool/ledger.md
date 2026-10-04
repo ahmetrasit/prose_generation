@@ -1,0 +1,16 @@
+- memory: thumma marks distance in rank as well as in time
+- memory: imperfect yamūtu/yaḥyā here denotes an ongoing state
+- memory: hāmida (22:5) means still, lifeless earth, from root ه م د
+- memory: ihtazza means to stir or quiver
+- memory: Turkish "hayvan" narrowed to non-human animal, also an insult
+- memory: aḥyā al-nār (to kindle a fire) given only as a Turkish sense
+- not written: ح ي ي B009 ḥayya ʿalā l-ṣalāh beside 87:15 - only a sound echo, would be wordplay
+- not written: ح ي ي B005 shame (Turkish hayâ) - did nothing for any theme
+- not written: ح ي ي B004, B010, B011, B012 snake, tribe, womb, face - no work here
+- not written: ح ي ي B006/B013 sparing a life, saving from ruin - overlaps the benefit sense
+- not written: ح ي ي B007/B008 taḥiyya greeting/sovereignty - no link to the negation
+- not written: م و ت B005, B007, B010, B011, B013, B014 - off theme
+- not written: 67:2 death and life created as a test - crowded the first section
+- not written: 74:28 fire neither spares nor leaves - overlaps 4:56, root link weak
+- not written: 25:13-14 crying out for ruin - repeats 43:77
+- not written: 43:77 mākithūn tied to the flood scene of 13:17 - belongs to the surah commentary's scene

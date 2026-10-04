@@ -1,0 +1,11 @@
+- memory: herbage noun vocalized ri'y (kasra), distinct from verbal noun ra'y
+- memory: the Quran never calls God rā'ī (shepherd)
+- memory: ahushshu in 20:18 means beating down leaves for sheep
+- memory: khirrīj vocalization of the "trained student" word
+- not written: خ ر ج B004 abscess emerging from body - no hold in this ayah's theme
+- not written: خ ر ج B006 self-made noble / excelling horse / rebels - no tie to pasture or surah
+- not written: خ ر ج B007 colour akhraj (more black than white) - belongs to 87:5's colour, would only duplicate
+- not written: خ ر ج B008, B009, B010, B012, B013 - camel shape, saddlebag, game, partners' settlement, horse neck; no thematic work
+- not written: خ ر ج B011 rhyme alif called khurūj - surah's rhyme is not of that kind; would mislead
+- not written: ر ع ي B004 lending ear, rā'inā (2:104) - no anchor in this ayah; better at 87:9-10
+- not written: ر ع ي B005 irʿawā, desisting - marked as a separate origin; would blur root identity

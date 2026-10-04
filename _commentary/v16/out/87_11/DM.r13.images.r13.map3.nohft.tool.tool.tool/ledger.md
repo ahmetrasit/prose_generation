@@ -1,0 +1,16 @@
+- memory: يذّكّر is assimilated يتذكّر (Form V), same pattern as يتجنب and تزكّى
+- memory: Form V (tafa''ul) conveys a self-directed, effortful act
+- memory: Quranic ijtināb objects are almost always harmful things (idols, ṭāghūt, sins, false speech)
+- memory: Turkish şaki/eşkıya/şekavet derive from Arabic شقي / {أشقياء} plural
+- memory: Turkish cenup, ecnebi, cenabet, içtinap, Cenab-ı Hak derive from ج ن ب
+- not written: elative أشقى may mean intensity without comparison - left unargued; the surah's string of superlatives carried the point
+- not written: ج ن ب B007 side pain/pleurisy - no supported tie to avoidance
+- not written: ج ن ب B008 milk scarcity - no tie to the ayah's themes
+- not written: ج ن ب B009 abundant good/evil (fixed expression) - no thematic work
+- not written: ج ن ب B010 summer plants - pasture link would be forced
+- not written: ج ن ب B011 shield carried at the side - reminder-as-shield unsupported
+- not written: ج ن ب B012 horse's legs set apart - no tie
+- not written: valley's two sides (B001) - added nothing beyond "side"
+- not written: 74:17-26 the man who measured and was sent to burn - too far from this ayah's words
+- not written: 6:26 "they keep away from it" - repeats the 17:83 point
+- not written: echo root ش ق ي - not identity; senses duplicate ش ق و

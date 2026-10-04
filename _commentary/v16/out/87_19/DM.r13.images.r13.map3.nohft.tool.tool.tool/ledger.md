@@ -1,0 +1,6 @@
+- memory: 87:19 grammatically an apposition (badal) to al-suhuf al-ula, from case agreement
+- memory: tashif arises because Arabic letters share shapes; the mechanism is described from general knowledge
+- not written: sihaf of gold in 43:71 (B004) - a same-root echo with no theme to carry it
+- not written: Musa's tablets (alwah) - the Quran does not equate them with these suhuf
+- not written: names Ibrahim and Musa - no root given; no etymology attempted
+- not written: 80:13-14 honoured, raised pages - images.md already covers them; no new theme here

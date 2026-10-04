@@ -72,6 +72,13 @@ class Resolver:
         self.letters = C.root_letters()
         self.bb = C.branch_by_ref()
         self.root_ids = {v: k for k, v in C.root_letters().items() if v}
+        # letters -> every root id that owns branches: a root split into two dictionary entries (ق ر ء: root_001210,
+        # root_001211) has two, and a declared "ق ر ء,B004" may mean either
+        self.ids_by_letters: dict[str, list[str]] = {}
+        for bref, b in self.bb.items():
+            rid = bref.split("/")[0]
+            if b["root"] and rid not in self.ids_by_letters.setdefault(b["root"], []):
+                self.ids_by_letters[b["root"]].append(rid)
         self.memo: dict[str, dict] = {}
 
     # --- per source (gapped=True: only the elision-tolerant fallback)
@@ -292,21 +299,30 @@ def verify_source(R: "Resolver", quote: str | None, src: str) -> dict:
     if re.fullmatch(r"\s*[Bb]\d+\s*", src.split(",")[-1]) and "," in src:
         root, br = src.rsplit(",", 1)
         root, br = C.nroot(root.strip()), br.strip().upper()
-        rid = R.root_ids.get(root)
-        if not rid:
+        rids = R.ids_by_letters.get(root) or ([R.root_ids[root]] if root in R.root_ids else [])
+        if not rids:
             return {"kind": "branch", "status": "root not found", "root": root, "branch": br}
-        bref = f"{rid}/{br}"
-        if bref not in R.bb:
-            return {"kind": "branch", "status": "branch not found", "root": root, "branch": br}
-        if not quote:
-            return {"kind": "branch", "status": "ok (no quote)", "branch_ref": bref}
+        cands = [f"{rid}/{br}" for rid in rids if f"{rid}/{br}" in R.bb]
+        split = {"root_ids": rids} if len(rids) > 1 else {}  # the letters name more than one dictionary entry
+        if not cands:
+            return {"kind": "branch", "status": "branch not found", "root": root, "branch": br, **split}
+        if not quote:  # with two entries holding the branch, the citation cannot say which is meant
+            if len(cands) > 1:
+                return {"kind": "branch", "status": "ok (no quote; ambiguous root)", "branch_ref": cands[0],
+                        "candidates": cands, **split}
+            return {"kind": "branch", "status": "ok (no quote)", "branch_ref": cands[0], **split}
         pieces = [quote] + [x.strip() for x in re.split("[؛۝]", quote) if C.fold(x)] if re.search("[؛۝]", quote) else [quote]
         for g in (False, True):
+            hit = []
             for x in pieces:
-                if any(h["branch_ref"] == bref for h in R.dictionary(x, g)):
-                    return {"kind": "branch", "status": "ok", "branch_ref": bref, "gapped": g}
+                found = {h["branch_ref"] for h in R.dictionary(x, g)}
+                hit += [c for c in cands if c in found and c not in hit]
+            if hit:  # the quote decides the entry; a quote in the cited branch of both is recorded, not chosen
+                return {"kind": "branch", "status": "ok", "branch_ref": hit[0], "gapped": g, **split,
+                        **({"also_in": hit[1:]} if len(hit) > 1 else {})}
         r = R.resolve(quote)
-        return {"kind": "branch", "status": "quote not in this branch", "branch_ref": bref, "found": r["source"],
+        return {"kind": "branch", "status": "quote not in this branch", "branch_ref": cands[0], **split,
+                **({"candidates": cands} if len(cands) > 1 else {}), "found": r["source"],
                 "found_detail": r["detail"].get("refs") or [h["branch_ref"] for h in r["detail"].get("branches", [])]}
     refs = []
     for m in QREF.finditer(src):

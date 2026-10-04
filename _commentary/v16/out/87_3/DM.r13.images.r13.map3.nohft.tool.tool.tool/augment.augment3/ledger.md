@@ -1,0 +1,5 @@
+- added: 91:8 fe-elhemehâ, düzenlenen nefsin ardından yön bildirme
+- added: 55:9 tartıyı adaletle kurma, yalnız kaynakla anıldı
+- added: 93:6, 93:8 Duhâ'da barındırma ve zengin etme, yalnız kaynakla anıldı
+- added: 23:19 yağmurla yetişen bahçeler, yalnız kaynakla anıldı
+- ignored: 42:27 rızkın ölçüyle indirilişi - 65:7 aynı noktayı sözü kesin biçimde veriyor, ayrıca sözünden tam emin olunmadı

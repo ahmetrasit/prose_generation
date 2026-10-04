@@ -1,0 +1,7 @@
+- added: 20:67 Musa's fear, used as the situation for 20:69
+- added: 3:76 God loves the one who keeps covenant and guards, set against 3:77
+- added: 53:36-38 contents of the sahifes of Musa and Ibrahim, joined to 53:39 and 87:18-19
+- added: 92:19, 92:21 no repayable favour, and "he will be pleased", framing 92:20
+- ignored: 79:38 the verb âŝera for preferring the near life - overlaps 87:16, and 59:9 already carries the verb's other direction
+- ignored: 23:102-103 scales and müflih against hasirû - the commentary's ¶26 Şems pair already shows the müflih/hâbe contrast
+- ignored: 2:151, 3:164 the elçi who purifies - 62:2 already shows it, and the added shift is nothing new

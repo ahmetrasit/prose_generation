@@ -1,0 +1,2 @@
+- ignored: 88:22 the messenger is no controller over them - ¶2 already says his work ends at passing the word on
+- ignored: 18:24 remember your Lord when you forget - adds nothing to ¶4's opposition of remembering and forgetting

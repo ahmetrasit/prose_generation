@@ -1,0 +1,11 @@
+- memory: khayr functions as elative without af'al form
+- memory: dunyā, kubrā, yusrā, ūlā are fuʿlā elative/rank forms
+- memory: vowelling bi-akhiratin / bi-naẓiratin in deferred-sale phrase
+- memory: lightning watched at night to locate rain and coming pasture
+- memory: ṣirām = cutting/harvesting of dates
+- memory: Turkish "muhtar" from Arabic mukhtār, root خ ي ر
+- not written: hyena-burrow istikhāra (خ ي ر B006) - kalıp image did no work in any theme
+- not written: khayr as gift/generosity (B005) - only a loose link to 93:5, would be forced
+- not written: الآخر الغائب (ayn) - vowel and sense uncertain, not used
+- not written: dictionary gloss of al-bāqiyāt al-ṣāliḥāt as five prayers - exegetical view, excluded
+- not written: 20:130 and 93:5 shared "tarḍā" - echo beyond this ayah's themes

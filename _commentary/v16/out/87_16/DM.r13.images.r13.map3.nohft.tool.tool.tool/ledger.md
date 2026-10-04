@@ -1,0 +1,14 @@
+- memory: Turkish "tercih" derives from Arabic tarjīḥ (رجح, tipping the scale)
+- memory: الدنيا is feminine elative of أدنى, adjective qualifying الحياة
+- memory: بل here marks iḍrāb (turning from preceding to the real state)
+- memory: nominal sentence in 87:17 conveys a standing, non-temporal judgment
+- not written: Abu ʿAmr's reading بل يؤثرون (third person) - qira'a report outside supplied texts; avoided
+- not written: sword's firind / مأثور sword (ء ث ر B007) - no work in the ayah's themes
+- not written: residual fat / essence of ghee (ء ث ر B009) - no grounding link to preference or near life
+- not written: skill sense (ء ث ر B011) and udder bag (B012) - no thematic work
+- not written: echo root ث و ر - sound-family only, not identity; nothing it would ground
+- not written: ḥayāʾ shame, snake, tribe, womb, face senses of ح ي ي - do not join a theme here
+- not written: 20:84 Moses "on my track" hastening to his Lord - ambiguous (20:85 people misled); would complicate without support
+- not written: 82:5 "what it sent forward and held back" - redundant with 36:12 and 89:24
+- not written: waw spelling الحيوة noted by al-Khalil - orthographic, adds nothing to the reading
+- not written: د ن و B005 (hunched man) - no thematic work

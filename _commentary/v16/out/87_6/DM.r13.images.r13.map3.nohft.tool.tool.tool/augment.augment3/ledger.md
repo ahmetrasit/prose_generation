@@ -1,0 +1,7 @@
+- added: 17:87 the exception to removal of revelation is a mercy from the Lord - names the sole exception after 17:86
+- added: 17:85 question about the ruh and little knowledge given - situation of 17:86
+- added: 29:48 Prophet had not read a book nor written it before - situation of 29:49
+- added: 15:6 address to "you to whom the dhikr was sent down" - situation of 15:9
+- added: 92:5 giving, guarding, affirming the best - the one who is promised ease in 92:7
+- added: 10:15 demand to bring or change the Qur'an - situation of 10:16
+- added: 96:4 teaching by the pen - follows 96:3

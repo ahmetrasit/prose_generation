@@ -1,0 +1,8 @@
+- memory: Turkish seviye/tesviye/müsavi derive from the root س و ي
+- memory: fa marks sequence with no gap, thumma marks sequence with an interval
+- not written: خ ل ق B010 perfume khalūq - has no bearing on shaping or the surah
+- not written: خ ل ق B012 closed womb - this would distort the body theme with no support
+- not written: س و ي B007 siwā "other", B008 aiming at someone's aim - no link to the ayah's act
+- not written: س و ي B009 open level land, B013 wealth equal to one's head - nothing for a theme to rest on
+- not written: س و ي B006 makānan suwan (Musa–Pharaoh meeting place) - it added Musa again without new weight
+- not written: images.md Musa-fire and sorcerers scenes - this ayah's words do not take part in them

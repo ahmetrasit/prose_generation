@@ -1,0 +1,11 @@
+- memory: "fa" marks next step without the delay of "thumma"
+- memory: mudhāmm means dark from intense greenness
+- memory: Turkish ihtiva, muhteva, hâvi derive from ح و ي
+- memory: lamā is a praised dark hue of lips
+- memory: af'al pattern used for colors and defects
+- not written: ja'ala pot-cloth (B007) meets ghutha' pot-scum - hearth coincidence, no thematic work
+- not written: ja'l wage, ja'ala "began", ju'al black beetle, short palms - no bearing on turning/withering
+- not written: ḥawiyy "sick person" (B009) - too thin to join the theme
+- not written: qara'a as "gather" echo for ayah six - unverifiable, juxtaposition sufficed
+- not written: 10:24 and 56:65 ja'ala-to-stubble parallels - 39:21, 18:7-8, 105:5 already carry the point
+- not written: surah cloud/rain chain from ayah one - belongs to surah commentary, beyond a recall

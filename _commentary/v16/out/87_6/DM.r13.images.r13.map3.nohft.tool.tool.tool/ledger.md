@@ -1,0 +1,11 @@
+- memory: لا + indicative retaining final alif marks statement; prohibition would be تَنسَ
+- memory: سَـ prefix marks near future
+- memory: سَلًى as fetal membrane expelled after birth
+- not written: ق ر ء B003 qur' as menstrual/purity period and its time sense - fit only through womb image, delicate and adds nothing beyond B004
+- not written: ق ر ء B005 time, wind's season, need drawing near - no grounding in the ayah beyond the bare "sa-" future
+- not written: ق ر ء B012 witnesses who gather knowledge - unhamzated form, speculative analogy, uncertain identity
+- not written: ق ر ء B008, B009, B010, B013 (plague, mating season, detaining slave girl, livestock) - no bearing on reading or memory
+- not written: ن س ي B004 sciatic vein - stray sense, no thematic work
+- not written: ن س ي B005-B007 deferral, staff, watered milk - hamzated نسأ, a different root in practice
+- not written: نسي as menstrual rag (B003) - adds no meaning beyond discarded thing
+- not written: 18:63 servant forgetting the fish - overlaps with 6:68 in showing Satan-caused forgetting

@@ -1,0 +1,11 @@
+- memory: mazāda is a large leather water bag for travel
+- memory: ذكّر is the causative form II; يذّكّر is assimilated form V يتذكّر
+- memory: ذكّر can take a person and a thing as objects; both omitted here
+- memory: 43:44 dhikr read as honor (B007 phrase supports it)
+- not written: ذ ك ر B001 male, offspring - unrelated to reminding, no theme
+- not written: ذ ك ر B002 hard iron, sharp sword, heavy rain - ornament only, no Quranic support here
+- not written: ذ ك ر B008 written deed of a right - fixed phrase, no textual tie to the pages
+- not written: ذ ك ر B009 "كثرة الذكر" frequent remembrance - added nothing beyond 88:21
+- not written: ن ف ع B003 trading in staves - no work in any theme
+- not written: ذكرى/يسرى rhyme pattern - sound only, no meaning to build on
+- not written: 6:70 "remind with it lest a soul be given up" - repeats 51:55's point

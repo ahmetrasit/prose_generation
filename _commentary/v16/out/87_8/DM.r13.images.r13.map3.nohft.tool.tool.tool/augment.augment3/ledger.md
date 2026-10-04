@@ -1,0 +1,14 @@
+- added: 20:25-28 Musa'nın duası, göğüs ve dil hazırlığı; ¶2'deki "kolaylaşan iş" cümlesine kişinin hazırlanışını ekler (20:36 yalnız adıyla)
+- added: 74:17 inatçı için çetin yokuş; ¶7'deki yokuş resminin öbür yüzü (74:16 yalnız adıyla)
+- added: 75:16-17 Peygamber'in dili ve acelesi; ¶9'daki "dil söze hazır olur" cümlesine sözü hazırlama işinin Allah'a ait olduğunu ekler
+- added: 50:45 zorlayıcı değilsin, korkana öğüt ver; ¶11'deki öğüt yükünün sınırını çizer (50:44 yalnız adıyla)
+- added: 92:4 çabanın ayrı ayrılığı; ¶14'te kolaylaştırmanın çabadan sonra geldiğini gösterir (92:5, 92:9 yalnız adıyla)
+- added: 51:4 paylaştıranlar; ¶18'de kolaylık sözünün ardından paylaştırmanın emre bağlandığını gösterir
+- ignored: 54:17 öğüt için kolaylaştırılan Kur'an - ¶9 aynı nakaratı 54:17'de zaten anıyor
+- ignored: 25:32 kalbi pekiştirmek için parça parça indirme - ¶9'a bir şey eklemiyor, 75:16-17 aynı yeri daha doğrudan açıyor
+- ignored: 20:114 acele etme, vahiy tamamlanmadan - 75:16-17 aynı noktayı söylüyor, yinelenirdi
+- ignored: 17:28 meysûr söz - ¶2'deki yumuşak davranma anlamına belirgin bir şey eklemiyor
+- ignored: 2:196 ma'stuysira mine'l-hedy - "hazır olan" anlamı ¶2'de sözlükle zaten verilmiş, eklenecek yer uygun değil
+- ignored: 65:4, 65:7 darlıktan sonra kolaylık, takvaya kolaylık - ledger'daki gerekçe (94 ve 92 ile karşılanmış) geçerli, ek bir şey göstermiyor
+- ignored: 90:10, 91:8 iki yolun gösterilmesi - ¶14'ün söylediğini yineler
+- ignored: 94:1 göğsün açılması - ¶7 göğsün açılmasını zaten anıyor

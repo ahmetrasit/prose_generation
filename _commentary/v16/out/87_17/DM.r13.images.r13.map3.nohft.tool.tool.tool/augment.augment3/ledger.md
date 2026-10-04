@@ -1,0 +1,6 @@
+- added: 29:20 sonraki yaratılışı kuran Allah - ¶2'deki "ikinci yaratılış" açıklamasını aynı "âhira" sıfatıyla destekliyor
+- added: 77:16 önceki toplulukların helâki - ¶5'te "âhirîn"in sıra anlamının zamanda da işlediğini gösteriyor
+- added: 37:76 Nuh ve ailesinin kurtarılışı - 37:77'nin durumunu veriyor
+- added: 2:94 ahiret yurdunun yalnız kendilerine ait olduğunu söyleyenlere ölümü dileme çağrısı - 2:96'nın durumunu veriyor
+- ignored: 2:201 dünyada da ahirette de güzellik isteyen dua - 28:77 payı zaten gösteriyor, ¶3'e yeni bir şey katmıyor
+- ignored: 11:85 ölçü ve tartıyı tam yapma emri - 11:86'nın durumu olarak anıldı, ayrıca alıntılanacak bir şey katmıyor

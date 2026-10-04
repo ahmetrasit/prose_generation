@@ -1,0 +1,7 @@
+- added: 19:69 her topluluktan Rahman'a en çok baş kaldıranın ayrılması - "en bedbaht"ın Allah'ın bilgisindeki bir derece olduğunu gösterdi (19:70 ile)
+- added: 36:78 çürümüş kemiği kim diriltir sorusu - 36:80'in durumunu vermek için
+- added: 88:21-23 öğüt ver, zorba değilsin, yüz çeviren hariç - 88:24'ün öğüt, yüz çevirme, en büyük sırasını göstermek için
+- added: 20:72 sihirbazların "seni tercih etmeyeceğiz" ve "bu yakın hayatı hükmedersin" sözü - 87:16'daki tu'ŝirûne'nin tersini gösterdi
+- added: 20:22 Musa'ya asa ve elin işareti - 20:23'ün durumunu vermek için
+- ignored: 20:10 Musa'nın uzaktan ateş görmesi - ¶10 bunu zaten anlatıyor
+- ignored: 19:71-72 hepsinin ona uğrayıp sakınanların kurtarılması - 92:17'deki "uzak tutulur"u başka bir yöne çekecek, ¶22'nin hareketine katılmıyor

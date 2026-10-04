@@ -1,0 +1,12 @@
+- added: 73:8 anma ve yönelme yan yana, "sana ağır söz" (73:5) okutulma vaadiyle aynı hat
+- added: 74:3 Rab'bin doğrudan nesne olduğu emir, adın nesne oluşuyla karşılaştırma
+- added: 79:19 Musa'nın Firavun'a "senin Rabbine ileteyim" demesi, 79:18 arınma sorusu
+- added: 7:122 sihirbazların Rab sözü ve secdesi (7:121 kaynak adıyla), Firavun'un iddiasının karşısı
+- added: 36:40 yörüngedeki yüzüşün Yâsîn'de 36:36'daki tesbihle aynı akışta durması (36:36 içinde kullanıldı)
+- added: 68:17-20 bahçe sahiplerinin anlatısı, 68:29 içinde kullanıldı
+- added: 110:2 fetih ve insanların akın akın girişi, 110:3 içinde kullanıldı
+- ignored: 20:70 sihirbazların "Harun ile Musa'nın Rabbine inandık" sözü - 7:122 aynı iş için yetiyor
+- ignored: 12:23 "o benim rabbimdir" (Yusuf'un Aziz için sözü) - 12:42 aynı noktayı daha açık gösteriyor
+- ignored: 94:4 "zikrini yükselttik" - 24:36 ad ve yükseltmeyi zaten bir araya getiriyor, ikisi paragrafı ağırlaştırır
+- ignored: 19:50 "lisâne sıdkin aliyyâ" - 24:36 ile aynı hareketi tekrarlar
+- ignored: 36:37-39 gece, güneş ve ay ayetleri - 36:36 ile 36:40 arasındaki bağı kurmak için ayrıca anılmaya gerek yok

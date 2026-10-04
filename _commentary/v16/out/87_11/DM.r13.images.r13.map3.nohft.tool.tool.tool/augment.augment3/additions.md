@@ -1,0 +1,72 @@
+## ¶1 · 20:44 · applied
+
+… Öğüt tektir ve aynı ağızdan herkese sunulur.
+
+**+** Bu sunuşun kimseyi ayırmadığı Musa ile Harun'un görevinde de görülür. Allah onları, azgınlaşmış olan Firavun'a {source:20:43} giderken şöyle uyarır: {ar:فَقُولَا لَهُۥ قَوْلًۭا لَّيِّنًۭا لَّعَلَّهُۥ يَتَذَكَّرُ أَوْ يَخْشَىٰ, tr:fe-kûlâ lehû kavlen leyyinen la'allehû yetezekkeru ev yahşâ, gloss:ona yumuşak bir söz söyleyin; belki öğüt alır ya da içi titrer, source:20:44}. Onuncu ayetin iki fiili burada henüz gerçekleşmemiş bir ihtimal olarak, "belki" ile durur. Aynı yerde, kendilerine bildirilen azabın yalanlayıp yüz çevirene olduğu da söylenir {source:20:48}. Öğüdün kapısı en azgına bile açık tutulur; ayrılık kapıda değil, içeri girip girmemektedir.
+
+## ¶2 · 35:18 · applied
+
+… Değişen, insanın onunla kendine yaptığı şeydir.
+
+**+** Aynı kalıbın bu kişiselliği açıkça söylenir: {ar:وَمَن تَزَكَّىٰ فَإِنَّمَا يَتَزَكَّىٰ لِنَفْسِهِۦ, tr:ve men tezekkâ fe-innemâ yetezekkâ li-nefsih, gloss:kim arınırsa ancak kendisi için arınmış olur, source:35:18}. Aynı ayetin başında hiçbir yük taşıyanın bir başkasının yükünü taşımayacağı, ağır yüklü bir can yardıma çağırsa, çağrılan yakını bile olsa, ondan hiçbir şey yüklenilmeyeceği bildirilir. Uyarının da ancak Rabbinden görmeden içi titreyenlere ve namazı kılanlara fayda vereceği söylenir. Öğüde verilen karşılık böylece kimseye devredilemez; ne alınışı ne de kenara konuşu başkasının hesabına yazılır.
+
+## ¶3 · 91:12 · applied
+
+… Uçta duran, uçta olanla karşılaşır.
+
+**+** "En bedbaht" Kur'an'da yalnız bir konum olarak da kalmaz, bir kişide somutlaşır. Semûd'un anlatıldığı surede {ar:إِذِ ٱنۢبَعَثَ أَشْقَىٰهَا, tr:iẕi'nbea'ŝe eşkâhâ, gloss:içlerinin en bedbahtı ayağa kalktığında, source:91:12} denir. Elçi onlara Allah'ın devesini ve onun su payını hatırlatmıştı {source:91:13}; onlar yalanlayıp deveyi kesmişlerdi {source:91:14}. Aynı surede "arınan kurtuluşa erdi" hükmü de bu kıssadan önce gelir {source:91:9}. Yani "en bedbaht" ile arınma orada da karşı karşıyadır ve en bedbaht, kendisine okunana ayağa kalkarak karşı çıkan olur.
+
+## ¶5 · 17:46 · applied
+
+… Orada bir panik, bir kaçış vardır.
+
+**+** Kur'an sırt çevirmeyi de ayrıca anlatır. Kur'an okunduğunda ahirete inanmayanlarla Peygamber arasına bir perde çekildiği, gönüllerine anlamalarını engelleyen örtüler, kulaklarına da ağırlık konduğu söylenir {source:17:45}. Ardından: {ar:وَإِذَا ذَكَرْتَ رَبَّكَ فِى ٱلْقُرْءَانِ وَحْدَهُۥ وَلَّوْا۟ عَلَىٰٓ أَدْبَٰرِهِمْ نُفُورًۭا, tr:ve iẕâ ẕekerte rabbeke fi'l-kur'âni vahdehû vellev alâ edbârihim nufûrâ, gloss:Kur'an'da Rabbini yalnız başına andığında nefretle arkalarını dönüp giderler, source:17:46}. Burada öğüdün karşısına sırt konur ve söze nefret eşlik eder. Böğür ise sırttan farklı olarak öğüdün hâlâ yanında, hizasında durduğu yerdir.
+
+## ¶5 · 10:12 · applied
+
+… onu böğrünün hizasında, kenarda tutarak yürür.
+
+**+** Allah insanın bir başka tavrını da aynı kelimeyle anlatır: {ar:وَإِذَا مَسَّ ٱلْإِنسَٰنَ ٱلضُّرُّ دَعَانَا لِجَنۢبِهِۦٓ أَوْ قَاعِدًا أَوْ قَآئِمًۭا, tr:ve iẕâ messe'l-insâne'd-durru deânâ li-cenbihî ev kâ'iden ev kâ'imâ, gloss:insana bir zarar dokununca yan yatarak, oturarak ya da ayakta bize yalvarır, source:10:12}. Zarar kalkınca da {ar:مَرَّ كَأَن لَّمْ يَدْعُنَآ إِلَىٰ ضُرٍّۢ مَّسَّهُۥ, tr:marra ke-en lem ed'unâ ilâ durrin messehû, gloss:sanki kendisine dokunan bir zarar için bize hiç yalvarmamış gibi geçip gider, source:10:12}. Çağrı da çağrılan da yanında kalmış, ama o yürüyüp geçmiştir. Ayetteki "yanından geçer" bu sakin yürüyüşe benzer: ne bir çarpışma ne bir kaçış, yalnızca hiç duyulmamış gibi geçip gitmek.
+
+## ¶6 · 5:90 · applied
+
+… Kur'an'da bu fiilin nesnesi, insanın kendini koruması gereken şeylerdir.
+
+**+** Fiilin bu yönü, müminlere doğrudan seslenilen bir ayette sonucuyla birlikte görünür: {ar:يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّمَا ٱلْخَمْرُ وَٱلْمَيْسِرُ وَٱلْأَنصَابُ وَٱلْأَزْلَٰمُ رِجْسٌۭ مِّنْ عَمَلِ ٱلشَّيْطَٰنِ فَٱجْتَنِبُوهُ لَعَلَّكُمْ تُفْلِحُونَ, tr:yâ eyyuhe'lleẕîne âmenû innemâ'l-hamru ve'l-meysiru ve'l-ensâbu ve'l-ezlâmu ricsun min ameli'ş-şeytâni fectenibûhu la'allekum tuflihûn, gloss:ey iman edenler, içki, kumar, dikili taşlar ve fal okları şeytanın işinden birer pisliktir; bunlardan uzak durun ki kurtuluşa eresiniz, source:5:90}. Doğru uzak durmanın ucunda kurtuluş vardır; bu, on dördüncü ayetteki {ar:قَدْ أَفْلَحَ مَن تَزَكَّىٰ, tr:kad efleha men tezekkâ, gloss:arınan kurtuluşa erdi, source:87:14} ile aynı sözdür. En bedbahtın uzak durması ise bu yolun içine, ters yöne yazılmıştır.
+
+## ¶10 · 3:191 · applied
+
+… Yan, hem yoldaşın hem yabancının durduğu yerdir.
+
+**+** Yan, kulun Rabbini andığı yer de olur. Allah akıl sahiplerini şöyle anlatır: {ar:ٱلَّذِينَ يَذْكُرُونَ ٱللَّهَ قِيَٰمًۭا وَقُعُودًۭا وَعَلَىٰ جُنُوبِهِمْ, tr:elleẕîne yeẕkurûnallâhe kıyâmen ve kuûden ve alâ cunûbihim, gloss:ayakta, otururken ve yanları üzerinde Allah'ı anan, source:3:191}. Ardından onlar gökleri ve yerin yaratılışı üzerinde düşünür, "Rabbimiz, bunu boşuna yaratmadın" derler. "Anmak" öğüt anlamındaki ẕikrâ ile aynı köktendir. Yatakları bırakıp Rabbine korku ve umutla yalvaranların yanları da bu kökle söylenir {source:32:16}. Aynı beden yanı kimi zaman anmanın durağı olur; en bedbahtta ise öğüdün konup bırakıldığı kenardır.
+
+## ¶11 · 32:22 · applied
+
+… Öğüt ondan uzakta söylenmemiştir.
+
+**+** Kur'an bu sırayı kendisi de verir. Allah şöyle sorar: {ar:وَمَنْ أَظْلَمُ مِمَّن ذُكِّرَ بِـَٔايَٰتِ رَبِّهِۦ ثُمَّ أَعْرَضَ عَنْهَآ, tr:ve men ezlemu mimmen ẕukkire bi-âyâti rabbihî ŝumme a'rada anhâ, gloss:Rabbinin ayetleriyle öğüt verildikten sonra onlardan yüz çeviren kimseden daha zalim kim vardır, source:32:22}. "Sonra" (ثُمَّ) önce öğüdün geldiğini, dönüşün ardından olduğunu bildirir. Ayetin sonunda suçlulardan intikam alınacağı söylenir. Aynı soru bir başka yerde şöyle sürer: kişi elleriyle önden gönderdiğini unutur {source:18:57}.
+
+## ¶11 · 43:36 · applied
+
+… Ayetin acısı da buradadır: uzak durduğu şey hep yanındadır.
+
+**+** Yan boş da kalmaz. Allah şöyle der: {ar:وَمَن يَعْشُ عَن ذِكْرِ ٱلرَّحْمَٰنِ نُقَيِّضْ لَهُۥ شَيْطَٰنًۭا فَهُوَ لَهُۥ قَرِينٌۭ, tr:ve men ya'şu an ẕikri'r-rahmâni nukayyid lehû şeytânen fe-huve lehû karîn, gloss:kim Rahman'ın öğüdünden körleşirse ona bir şeytan veririz, o da ona yakın arkadaş olur, source:43:36}. Öğütten yanını çeken kişi, yoldaşsız kalmaz: öğüdün yerine oturan bir arkadaş alır.
+
+## ¶13 · 25:29 · applied
+
+… Ama kelime aynı köktendir ve kenara itilen şeyin kimin yanından geldiğini duyurur.
+
+**+** Aynı pişmanlık başka bir yerde de duyulur. Zalim, o gün ellerini ısırır ve yoldaş seçişine hayıflanır {source:25:27} {source:25:28}. Sonra şöyle der: {ar:لَّقَدْ أَضَلَّنِى عَنِ ٱلذِّكْرِ بَعْدَ إِذْ جَآءَنِى, tr:lekad edallenî ani'ẕ-ẕikri ba'de iẕ câenî, gloss:öğüt bana geldikten sonra beni ondan saptırdı, source:25:29}. "Bana geldikten sonra" sözü, kaybedilenin hiç ulaşmamış bir şey olmadığını, yanına gelmiş olduğunu söyler.
+
+## ¶20 · 54:17 · applied
+
+… Bedbahtlık öğüdün içinde değil, ondan uzak durmaktadır.
+
+**+** Öğüdün kendisinin zahmet olmadığını Allah şöyle bildirir: {ar:وَلَقَدْ يَسَّرْنَا ٱلْقُرْءَانَ لِلذِّكْرِ فَهَلْ مِن مُّدَّكِرٍۢ, tr:ve le-kad yessernâ'l-kur'âne li'ẕ-ẕikri fe-hel min muddekir, gloss:Kur'an'ı öğüt almak için kolaylaştırdık; öğüt alan var mı, source:54:17}. Bu söz, geçmiş kavimlerin anlatıldığı bölümlerin ardından tekrar edilir {source:54:22} {source:54:32} {source:54:40}. "Kolaylaştırdık" sekizinci ayetteki "kolay" ile aynı köktendir. Öğüt kolaylaştırılmıştır; zahmet onu kenara koyanın payına düşer.
+
+## ¶22 · 20:74 · applied
+
+… Bu ne ölümle biten ne de hayatla soluk alan bir katlanıştır.
+
+**+** Aynı söz Tâhâ suresinde, Firavun'un sihirbazlarının iman edip tehdit karşısında "bize gelen apaçık delillere seni tercih etmeyiz" demelerinin anlatıldığı yerin hemen ardında geçer: {ar:إِنَّهُۥ مَن يَأْتِ رَبَّهُۥ مُجْرِمًۭا فَإِنَّ لَهُۥ جَهَنَّمَ لَا يَمُوتُ فِيهَا وَلَا يَحْيَىٰ, tr:innehû men ye'ti rabbehû mucrimen fe-inne lehû cehenneme lâ yemûtu fîhâ ve lâ yahyâ, gloss:kim Rabbine suçlu olarak gelirse ona cehennem vardır; orada ne ölür ne yaşar, source:20:74}. Bu uzun katlanış orada Rabbine suçlu olarak gelenin payıdır; bir sonraki ayet Rabbine mümin olarak gelenin hâlini karşısına koyar {source:20:75}. Böylece onuncu ve on birinci ayetin iki kişisi orada da iki kapıya ayrılır.
+

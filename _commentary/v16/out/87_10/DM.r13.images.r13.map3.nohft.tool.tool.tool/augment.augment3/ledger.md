@@ -1,0 +1,8 @@
+- added: 20:123 Âdem ile eşine hidayete uyanın ne sapacağı ne sıkıntıya düşeceği; 20:124'ün öncesi, "sıkıntı" kökünü bağlar
+- added: 51:54 Peygamber'e yüz çevirmesi söylenir, kınanmayacağı bildirilir; 51:55'in hemen öncesi
+- added: 22:34 alçakgönüllülere müjde emri; 22:35'in bağlamı
+- added: 40:41 iman eden adamın kavmini kurtuluşa çağırması; 40:44'ün bağlamı
+- ignored: 7:205 anma korku ve yalvarışla, içinden - 39:23 ve 22:35 aynı bağı daha açık kuruyor
+- ignored: 8:2 anıldığında kalplerin ürpermesi - 22:35 aynı yönü gösteriyor
+- ignored: 88:22 "sen onların üzerinde zorlayıcı değilsin" - 50:45 aynı çizgiyi korkan kişiyle birlikte veriyor
+- ignored: 74:53 hatırlatmadan kaçanlar ahiretten korkmaz - korkunun karşıtının cesaret olmadığını söyleyen paragrafla çakışma riski taşıyor

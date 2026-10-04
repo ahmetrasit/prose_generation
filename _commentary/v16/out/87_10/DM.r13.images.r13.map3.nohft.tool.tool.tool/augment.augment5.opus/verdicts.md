@@ -1,0 +1,185 @@
+- 6:51: ref ¶10 - names the object of fear: being gathered to their Lord
+- 7:63: not relevant - Noah's people wondering at a messenger; shared root only
+- 20:3: ref ¶1 - reminder sent for "li-man yakhsha", the same receiver (already cited in ¶13)
+- 20:14: ref ¶17 - prayer established for God's remembrance
+- 20:34: ref ¶17 - remembering paired with tasbih (20:33)
+- 20:44: not relevant - beyond ¶12, where it is cited, no further link
+- 20:113: ref ¶12 - the Quran's threats aim at taqwa "or" at producing dhikr
+- 20:124: prose ¶13, ref ¶6 - same surah as 20:2, root sh-q-y returns (20:123); turning from dhikr brings narrowness; contrast blind/seeing
+- 26:5: ref ¶13 - turning from every new reminder
+- 29:45: ref ¶17 - prayer and dhikr together
+- 32:15: prose ¶17, ref ¶11 - passive of Form II, reminder answered by prostration and tasbih; not arrogant vs self-sufficient
+- 35:18: prose ¶18, ref ¶13 - khashya bil-ghayb, prayer and "man tazakka" in one ayah; no one bears another's burden
+- 35:28: not relevant - beyond ¶9, where it is cited, no further link
+- 36:11: ref ¶16 - fear "bil-ghayb" before seeing
+- 39:23: prose ¶12 - order khashya then softening to dhikr
+- 50:37: ref ¶2 - the reminder's taking depends on heart and hearing
+- 50:45: prose ¶1, ref ¶2, ¶10 - same construction: dhakkir + "man" + fear; object: God's threat; messenger not a compeller
+- 54:40: ref ¶2 - same refrain: Quran eased for dhikr, is there one who remembers
+- 79:19: ref ¶8, ¶18 - guidance to the Lord leading to khashya; paired with tazakka in 79:18
+- 79:26: ref ¶1 - lesson "li-man yakhsha"
+- 79:45: prose ¶10, ref ¶16 - same verb form with an object: the Hour
+- 80:3: not relevant - beyond ¶18, where it is cited, no further link
+- 80:4: not relevant - cited in ¶11 and paraphrased in ¶18; no further link
+- 80:9: not relevant - beyond ¶11, where it is cited, no further link
+- 80:10: not relevant - the distraction is already narrated in ¶11
+- 80:11: prose ¶11, ref ¶13 - the scene's closing verdict; Quran named tadhkira
+- 2:150: not relevant - qibla context; whom to fear among enemies
+- 2:269: ref ¶9 - same form yadhdhakkaru, rememberers are those of understanding
+- 7:171: ref ¶12 - remembering what was given leads to taqwa
+- 7:205: ref ¶17 - remembering the Lord inwardly and in a voice below loud
+- 9:13: not relevant - fearing enemies in battle
+- 9:18: not relevant - maintenance of mosques
+- 13:19: ref ¶9 - knowing vs blind; only those of understanding remember
+- 13:21: ref ¶10 - khashya of the Lord, khawf of the reckoning
+- 13:28: not relevant - rest of hearts, not fear or recall
+- 16:17: ref ¶9 - creation as call to remember
+- 18:24: ref ¶4 - remembering as the answer to forgetting
+- 18:28: ref ¶11 - parallel instruction: stay with those who call their Lord, not with worldly adornment
+- 18:57: prose ¶14, ref ¶5 - same verb qaddama; what is forgotten when reminded vs the wish in 89:24
+- 19:58: ref ¶17 - recitation answered with prostration
+- 20:77: not relevant - Moses crossing the sea; khashya of being overtaken
+- 20:99: not relevant - Quran named dhikr; shared root only
+- 21:28: not relevant - angels' khashya, not the human hearer
+- 21:48: ref ¶1 - dhikr given to the godfearing
+- 21:49: ref ¶10 - fearing the Lord unseen and the Hour
+- 21:50: not relevant - Quran named dhikr
+- 22:34: not relevant - name of God over sacrificial animals; shared construction only
+- 22:35: ref ¶12 - mention of God makes hearts tremble (remembering → fear)
+- 22:40: not relevant - places where God's name is mentioned
+- 23:57: ref ¶8 - khashya with trembling apprehension
+- 24:1: not relevant - general purpose of the surah
+- 24:52: not relevant - obedience and success; no link to remembering
+- 25:18: ref ¶11 - ease of life making them forget the reminder
+- 25:73: ref ¶6 - reminded without falling deaf and blind
+- 29:51: not relevant - book as mercy and reminder in general
+- 33:39: not relevant - messengers' own fear
+- 36:69: not relevant - Quran is not poetry
+- 36:70: ref ¶1 - warning directed to the living
+- 37:13: ref ¶2 - reminded, yet they do not remember
+- 38:1: not relevant - Quran's epithet
+- 38:87: ref ¶1 - reminder for the worlds
+- 39:21: prose ¶9 - creation scene ending in chaff called dhikra for those of understanding
+- 39:22: ref ¶11 - hearts hardened against God's remembrance
+- 43:13: ref ¶17 - remembering the favor then speaking tasbih
+- 50:33: prose ¶16 - "man khashiya" + bil-ghayb; paradise brought near vs hell brought (89:23)
+- 51:37: ref ¶1 - sign left for those who fear
+- 51:55: prose ¶1 - same command with "fa-inna" instead of "in", beneficiaries named
+- 52:25: not relevant - dwellers of paradise questioning each other
+- 54:17: ref ¶2 - Quran eased for dhikr, the hearer is asked
+- 54:22: ref ¶2 - same refrain
+- 54:32: ref ¶2 - same refrain
+- 56:73: ref ¶9 - a created thing made tadhkira
+- 57:16: ref ¶16 - whether the time has come for hearts to humble to dhikr
+- 58:19: ref ¶6 - Satan makes them forget God's dhikr
+- 59:19: ref ¶4 - forgetting God, made to forget themselves
+- 59:21: ref ¶8 - mountain split from khashya
+- 62:9: not relevant - Friday prayer call
+- 63:9: not relevant - distraction by wealth; too general for ¶11
+- 65:10: not relevant - Quran named dhikr
+- 67:12: ref ¶16 - reward for fearing unseen
+- 69:42: not relevant - little do you remember, no link beyond root
+- 69:48: ref ¶13 - tadhkira for the godfearing
+- 72:17: ref ¶13 - turning from the Lord's dhikr brings punishment
+- 73:19: ref ¶2 - tadhkira; whoever wills takes a way
+- 74:31: not relevant - number of guardians of hell
+- 74:49: ref ¶13 - turning away from the tadhkira
+- 74:54: prose ¶2 - named in the Muddaththir sequence before 74:56
+- 74:55: prose ¶2 - "whoever wills remembers it", named by source
+- 74:56: prose ¶2, ref ¶10 - listener's will within God's will; God worthy to be feared
+- 79:43: prose ¶10 - context of 79:45: mentioning the Hour's time
+- 80:12: prose ¶11 - whoever wills remembers it, closing the scene
+- 81:27: ref ¶1 - reminder for the worlds
+- 88:21: ref ¶2 - the messenger only a reminder
+- 98:8: ref ¶16 - reward for the one who feared his Lord
+- 8:21: ref ¶2 - hearing without taking
+- 13:7: ref ¶2 - messenger only a warner
+- 17:41: ref ¶2 - same form li-yadhdhakkaru; aim vs aversion
+- 17:82: ref ¶13 - one Quran, healing for some, loss for others
+- 27:81: ref ¶2 - only the believer is made to hear
+- 37:3: not relevant - reciters of dhikr, no link to the hearer
+- 38:32: not relevant - distraction from remembrance in another story
+- 40:44: prose ¶3, ref ¶14 - sa- + remembering as warning, followed by punishment
+- 71:6: ref ¶11 - the call increasing only flight
+- 80:6: not relevant - already narrated in ¶11
+- 80:7: ref ¶13 - not upon the messenger if he does not purify
+- 92:14: not relevant - fire warned of; link carried by 92:15
+- 2:40: ref ¶12 - remembering favor then fearing God alone
+- 2:63: ref ¶12 - remember what is in it, that you may be godfearing
+- 2:122: not relevant - remembering favor and preference
+- 3:173: not relevant - fear of enemies increasing faith
+- 7:201: not relevant - beyond ¶6, where it is cited, no further link
+- 12:104: ref ¶1 - reminder for the worlds
+- 16:50: not relevant - angels' fear
+- 17:9: not relevant - Quran guides to the most upright
+- 17:31: not relevant - fear of poverty
+- 18:80: not relevant - fear in the boy's story
+- 20:42: not relevant - messengers not slackening in remembrance; no bearing on the hearer
+- 20:100: ref ¶13 - turning from the reminder bears a burden
+- 23:85: ref ¶9 - knowing creation's owner yet asked to remember
+- 23:110: not relevant - mockery causing forgetfulness; no paragraph fit
+- 26:209: not relevant - warners to destroyed towns
+- 37:155: not relevant - generic rebuke
+- 38:46: ref ¶16 - purified by remembering the abode
+- 43:5: not relevant - not withholding the reminder
+- 50:8: ref ¶9 - creation as insight and reminder for the turning servant
+- 68:52: ref ¶1 - reminder for the worlds
+- 74:1: not relevant - address to the cloaked one
+- 82:14: not relevant - wicked in hellfire, no link
+- 92:7: ref ¶3 - sa- future of God's facilitating
+- 92:10: ref ¶3 - same, toward hardship
+- 2:47: not relevant - remembering favor and preference
+- 2:74: ref ¶8 - stones falling from khashya
+- 2:152: not relevant - mutual remembrance, no link
+- 2:282: ref ¶4 - reminding one who errs
+- 4:9: not relevant - fear for orphans
+- 4:77: not relevant - fearing people as God
+- 5:52: not relevant - hypocrites' fear of misfortune
+- 7:3: not relevant - generic "little you remember"
+- 7:130: ref ¶15 - hardships given that they may remember
+- 17:100: not relevant - fear of spending
+- 20:94: not relevant - Aaron's fear
+- 33:21: not relevant - example of the Messenger
+- 33:41: not relevant - command to remember much
+- 38:48: not relevant - "remember Ishmael", narrative imperative
+- 46:21: not relevant - Hud's warning
+- 94:4: not relevant - raising the Prophet's renown
+- 2:201: not relevant - supplication
+- 2:221: not relevant - marriage rulings
+- 2:239: not relevant - prayer in fear
+- 3:58: not relevant - Quran called wise dhikr
+- 20:86: not relevant - Moses' anger at his people
+- 21:2: ref ¶2 - listening to the reminder while playing
+- 21:6: not relevant - destroyed towns' disbelief
+- 21:105: not relevant - Zabur after the dhikr
+- 23:97: not relevant - seeking refuge, too indirect for ¶6
+- 25:62: ref ¶15 - night and day for whoever wishes to remember
+- 28:47: not relevant - excuse of no messenger
+- 33:9: not relevant - remembering favor in battle
+- 37:108: not relevant - legacy among later peoples
+- 38:29: ref ¶9 - book sent so those of understanding remember
+- 41:2: not relevant - revelation from the Merciful
+- 51:49: ref ¶9 - creation in pairs, that you may remember
+- 54:51: ref ¶2 - same question after destruction
+- 92:5: not relevant - giving and taqwa, no link to recall
+- 114:4: not relevant - whisperer; link to ¶6 not in the passage
+- 20:123 own: prose ¶13 - same surah's sh-q-y root with following guidance
+- 20:126 own: ref ¶5 - forgetting the signs, forgotten that day
+- 7:202 own: ref ¶6 - contrast to 7:201
+- 40:13 own: ref ¶4 - only the one who turns back remembers
+- 39:9 own: ref ¶9 - knowledge and remembering
+- 96:7 own: ref ¶11 - istighna as the stance opposed to the fearer
+- 92:8 own: ref ¶11 - istighna opposed to taqwa
+- 92:15 own: ref ¶13 - al-ashqa entering the fire
+- 92:18 own: ref ¶18 - yatazakka by giving wealth
+- 88:22 own: ref ¶2 - messenger not a controller
+- 81:29 own: ref ¶2 - human will within God's will
+- 79:18 own: ref ¶18 - call to tazakka beside khashya
+- 51:54 own: prose ¶1 - context of 51:55
+- 79:42 own: prose ¶10 - question about the Hour, context of 79:45
+- 79:44 own: prose ¶10 - the Hour's end belongs to the Lord
+- 40:38 own: prose ¶3 - speaker of 40:44 as the ayah describes him
+- 40:45 own: prose ¶3 - punishment following the warning
+- 50:31 own: prose ¶16 - paradise brought near
+- 50:32 own: prose ¶16 - context of 50:33
+- 6:68 own: not relevant - forgetting and sitting with mockers; would bear on ¶5 only by contradiction

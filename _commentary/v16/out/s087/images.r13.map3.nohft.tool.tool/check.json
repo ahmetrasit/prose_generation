@@ -4,7 +4,7 @@
  "file_sha256": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
  "ref": "87:1",
  "tool_sha256": {
-  "check.py": "186ba08a3c2f4ddb5fd580d69aed6e8ed29fa276a5b97b2f6c12058c7ac10fe2",
+  "check.py": "cd23d66564a04b309582ae691120354b7db635fd55eadbe99c34c72a73c6cae0",
   "common.py": "57bea63ae0fa0fee7ec9cd9d07adc38af2926821690fbf9082796f5474d1a7c6"
  },
  "index_signature": {
@@ -96,8 +96,8 @@
   },
   "sources_status": {
    "declared": 2,
-   "ok": 430,
-   "quote not in this branch": 6
+   "ok": 435,
+   "quote not in this branch": 1
   }
  },
  "quotations": [
@@ -19098,75 +19098,20 @@
    "found_anyway": "dictionary"
   },
   {
-   "line": 61,
-   "quote": "لم تضم رحمها على ولد",
-   "declared": "ق ر ء,B004",
-   "kind": "branch",
-   "status": "quote not in this branch",
-   "branch_ref": "root_001211/B004",
-   "found": "dictionary",
-   "found_detail": [
-    "root_001210--root_001211/B004"
-   ]
-  },
-  {
-   "line": 61,
-   "quote": "ما قرأت الناقة سلى قط",
-   "declared": "ق ر ء,B004",
-   "kind": "branch",
-   "status": "quote not in this branch",
-   "branch_ref": "root_001211/B004",
-   "found": "dictionary",
-   "found_detail": [
-    "root_001210--root_001211/B003",
-    "root_001210--root_001211/B004",
-    "root_001210--root_001211/B003"
-   ]
-  },
-  {
-   "line": 137,
-   "quote": "قرأت الشيء قرآنا جمعته وضممت بعضه إلى بعض",
-   "declared": "ق ر ء,B001",
-   "kind": "branch",
-   "status": "quote not in this branch",
-   "branch_ref": "root_001211/B001",
-   "found": "dictionary",
-   "found_detail": [
-    "root_001210--root_001211/B001"
-   ]
-  },
-  {
    "line": 137,
    "quote": "القراءة ضم الحروف والكلمات بعضها إلى بعض في الترتيل",
    "declared": "ق ر ء,B001",
    "kind": "branch",
    "status": "quote not in this branch",
-   "branch_ref": "root_001211/B001",
-   "found": "dictionary",
-   "found_detail": [
-    "root_001210--root_001211/B002"
-   ]
-  },
-  {
-   "line": 137,
-   "quote": "أقرأت غيري أقرئه إقراء",
-   "declared": "ق ر ء,B002",
-   "kind": "branch",
-   "status": "quote not in this branch",
-   "branch_ref": "root_001211/B002",
-   "found": "dictionary",
-   "found_detail": [
-    "root_001210--root_001211/B001",
-    "root_001210--root_001211/B002"
-   ]
-  },
-  {
-   "line": 151,
-   "quote": "قرأت القرآن عن ظهر قلب أو نظرت فيه",
-   "declared": "ق ر ء,B002",
-   "kind": "branch",
-   "status": "quote not in this branch",
-   "branch_ref": "root_001211/B002",
+   "branch_ref": "root_001210/B001",
+   "root_ids": [
+    "root_001210",
+    "root_001211"
+   ],
+   "candidates": [
+    "root_001210/B001",
+    "root_001211/B001"
+   ],
    "found": "dictionary",
    "found_detail": [
     "root_001210--root_001211/B002"
@@ -20149,11 +20094,12 @@
    "quote": "لم تضم رحمها على ولد",
    "declared": "ق ر ء,B004",
    "kind": "branch",
-   "status": "quote not in this branch",
-   "branch_ref": "root_001211/B004",
-   "found": "dictionary",
-   "found_detail": [
-    "root_001210--root_001211/B004"
+   "status": "ok",
+   "branch_ref": "root_001210/B004",
+   "gapped": false,
+   "root_ids": [
+    "root_001210",
+    "root_001211"
    ]
   },
   {
@@ -20161,13 +20107,12 @@
    "quote": "ما قرأت الناقة سلى قط",
    "declared": "ق ر ء,B004",
    "kind": "branch",
-   "status": "quote not in this branch",
-   "branch_ref": "root_001211/B004",
-   "found": "dictionary",
-   "found_detail": [
-    "root_001210--root_001211/B003",
-    "root_001210--root_001211/B004",
-    "root_001210--root_001211/B003"
+   "status": "ok",
+   "branch_ref": "root_001210/B004",
+   "gapped": false,
+   "root_ids": [
+    "root_001210",
+    "root_001211"
    ]
   },
   {
@@ -21644,11 +21589,12 @@
    "quote": "قرأت الشيء قرآنا جمعته وضممت بعضه إلى بعض",
    "declared": "ق ر ء,B001",
    "kind": "branch",
-   "status": "quote not in this branch",
-   "branch_ref": "root_001211/B001",
-   "found": "dictionary",
-   "found_detail": [
-    "root_001210--root_001211/B001"
+   "status": "ok",
+   "branch_ref": "root_001210/B001",
+   "gapped": false,
+   "root_ids": [
+    "root_001210",
+    "root_001211"
    ]
   },
   {
@@ -21657,7 +21603,15 @@
    "declared": "ق ر ء,B001",
    "kind": "branch",
    "status": "quote not in this branch",
-   "branch_ref": "root_001211/B001",
+   "branch_ref": "root_001210/B001",
+   "root_ids": [
+    "root_001210",
+    "root_001211"
+   ],
+   "candidates": [
+    "root_001210/B001",
+    "root_001211/B001"
+   ],
    "found": "dictionary",
    "found_detail": [
     "root_001210--root_001211/B002"
@@ -21668,12 +21622,12 @@
    "quote": "أقرأت غيري أقرئه إقراء",
    "declared": "ق ر ء,B002",
    "kind": "branch",
-   "status": "quote not in this branch",
-   "branch_ref": "root_001211/B002",
-   "found": "dictionary",
-   "found_detail": [
-    "root_001210--root_001211/B001",
-    "root_001210--root_001211/B002"
+   "status": "ok",
+   "branch_ref": "root_001210/B002",
+   "gapped": false,
+   "root_ids": [
+    "root_001210",
+    "root_001211"
    ]
   },
   {
@@ -22083,11 +22037,12 @@
    "quote": "قرأت القرآن عن ظهر قلب أو نظرت فيه",
    "declared": "ق ر ء,B002",
    "kind": "branch",
-   "status": "quote not in this branch",
-   "branch_ref": "root_001211/B002",
-   "found": "dictionary",
-   "found_detail": [
-    "root_001210--root_001211/B002"
+   "status": "ok",
+   "branch_ref": "root_001210/B002",
+   "gapped": false,
+   "root_ids": [
+    "root_001210",
+    "root_001211"
    ]
   },
   {

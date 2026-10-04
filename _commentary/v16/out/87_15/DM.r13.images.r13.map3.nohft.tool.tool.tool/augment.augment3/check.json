@@ -1,0 +1,4453 @@
+{
+ "record": "E0 check.py verification record (for the user and the scorecard; never a model input)",
+ "file": "/Volumes/aro/projects/prose_generation/_commentary/v16/out/87_15/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment3/87_15.reading.tr.md",
+ "file_sha256": "55293e02049a8d8c5551fa7965baeb9b84076b14ad2cc205468ab697af5a154e",
+ "ref": "87:15",
+ "tool_sha256": {
+  "check.py": "cd23d66564a04b309582ae691120354b7db635fd55eadbe99c34c72a73c6cae0",
+  "common.py": "57bea63ae0fa0fee7ec9cd9d07adc38af2926821690fbf9082796f5474d1a7c6"
+ },
+ "index_signature": {
+  "version": 5,
+  "quran": [
+   1396724,
+   1790991422.4
+  ],
+  "tr_entries": [
+   1704,
+   198596704,
+   1790991411.5
+  ],
+  "root_packets": [
+   1679,
+   707294008,
+   1790995197.3
+  ],
+  "majaz": [
+   9216000,
+   1790992389.4
+  ],
+  "majaz_index": [
+   1169381,
+   1790986397.2
+  ],
+  "qiraat": [
+   833825,
+   1790998112.2
+  ],
+  "activation_map": [
+   2789461,
+   1790994866.9
+  ],
+  "furuq": [
+   19782184,
+   1790991539.2
+  ]
+ },
+ "summary": {
+  "words": 4293,
+  "tags": 93,
+  "tags_checkable": 93,
+  "tags_sourced": 93,
+  "share_sourced": 1.0,
+  "by_source": {
+   "quran": 61,
+   "dictionary": 32
+  },
+  "levels": {
+   "clitic": 1,
+   "exact": 92
+  },
+  "dictionary_early_phrase": 32,
+  "dictionary_definition_only": 0,
+  "arabic_outside_tags": 2,
+  "arabic_outside_tags_quotations": 0,
+  "arabic_outside_tags_quotations_sourced": 0,
+  "arabic_outside_tags_root_names": 2,
+  "arabic_outside_tags_by_context": {
+   "bare": 2
+  },
+  "bellek_marks": 0,
+  "bellek_status": {},
+  "unsourced_unmarked": 0,
+  "cited_branches": 26,
+  "cited_bound_branches": 2,
+  "bound_citations_with_echo_marker": 1,
+  "bound_citations_without_echo_marker": 1,
+  "bound_citations_extended_marker_only": 0,
+  "negation": {
+   "neg_e2_count": 11,
+   "neg_e2_per_1000": 2.56,
+   "breakdown": {
+    "değil": 10,
+    "değil,": 3,
+    "söylemez": 1
+   },
+   "not_only_frames": 1
+  },
+  "process_words": 3,
+  "sources_declared": 108,
+  "sources_by_kind": {
+   "branch": 31,
+   "memory": 1,
+   "quran": 76
+  },
+  "sources_status": {
+   "declared": 1,
+   "ok": 92,
+   "ok (no quote)": 15
+  }
+ },
+ "quotations": [
+  {
+   "n": 1,
+   "line": 3,
+   "quote": "قَدْ أَفْلَحَ مَن تَزَكَّىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "87:14"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {
+    "early_entry": [
+     "ز ك و mufradat",
+     "ف ل ح mufradat"
+    ]
+   },
+   "sentence_index": 2,
+   "bellek_marked": false
+  },
+  {
+   "n": 2,
+   "line": 3,
+   "quote": "وَذَكَرَ ٱسْمَ رَبِّهِۦ فَصَلَّىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "87:15"
+    ],
+    "n_ayat": 1,
+    "where": "focus"
+   },
+   "also": {},
+   "sentence_index": 2,
+   "bellek_marked": false
+  },
+  {
+   "n": 3,
+   "line": 3,
+   "quote": "وَيَصُدَّكُمْ عَن ذِكْرِ ٱللَّهِ وَعَنِ ٱلصَّلَوٰةِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "5:91"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 11,
+   "bellek_marked": false
+  },
+  {
+   "n": 4,
+   "line": 5,
+   "quote": "سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "87:1"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {
+    "dictionary": [
+     "ع ل و B002 (root_001042/B002) lexical_source_phrase [mufradat]"
+    ],
+    "early_entry": [
+     "س م و mufradat",
+     "س و ي mufradat",
+     "ع ل و mufradat"
+    ],
+    "majaz": [
+     "raw:6168"
+    ]
+   },
+   "sentence_index": 17,
+   "bellek_marked": false
+  },
+  {
+   "n": 5,
+   "line": 5,
+   "quote": "إِنَّمَا يُؤْمِنُ بِـَٔايَٰتِنَا ٱلَّذِينَ إِذَا ذُكِّرُوا۟ بِهَا خَرُّوا۟ سُجَّدًۭا وَسَبَّحُوا۟ بِحَمْدِ رَبِّهِمْ وَهُمْ لَا يَسْتَكْبِرُونَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "32:15"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 28,
+   "bellek_marked": false
+  },
+  {
+   "n": 6,
+   "line": 7,
+   "quote": "ٱلَّذِى يَصْلَى ٱلنَّارَ ٱلْكُبْرَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "87:12"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {},
+   "sentence_index": 33,
+   "bellek_marked": false
+  },
+  {
+   "n": 7,
+   "line": 7,
+   "quote": "بَلْ تُؤْثِرُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "87:16"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {
+    "early_entry": [
+     "ء ث ر mufradat"
+    ]
+   },
+   "sentence_index": 34,
+   "bellek_marked": false
+  },
+  {
+   "n": 8,
+   "line": 7,
+   "quote": "فَأَعْرِضْ عَن مَّن تَوَلَّىٰ عَن ذِكْرِنَا وَلَمْ يُرِدْ إِلَّا ٱلْحَيَوٰةَ ٱلدُّنْيَا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "53:29"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 36,
+   "bellek_marked": false
+  },
+  {
+   "n": 9,
+   "line": 11,
+   "quote": "ذكرت الشيء خلاف نسيته",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000516/B003",
+      "root": "ذ ك ر",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis",
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000516/B003",
+      "root": "ذ ك ر",
+      "branch": "B003",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ذ ك ر maqayis"
+    ]
+   },
+   "sentence_index": 43,
+   "bellek_marked": false
+  },
+  {
+   "n": 10,
+   "line": 11,
+   "quote": "الذكر الحفظ للشيء",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000516/B003",
+      "root": "ذ ك ر",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn",
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {
+    "early_entry": [
+     "ذ ك ر ayn",
+     "ذ ك ر tahdhib"
+    ]
+   },
+   "sentence_index": 44,
+   "bellek_marked": false
+  },
+  {
+   "n": 11,
+   "line": 13,
+   "quote": "سَنُقْرِئُكَ فَلَا تَنسَىٰٓ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "87:6"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {
+    "early_entry": [
+     "ء م م mufradat",
+     "ق ر ء mufradat",
+     "ن س و mufradat",
+     "ن س ي mufradat",
+     "ن س ي tahdhib"
+    ]
+   },
+   "sentence_index": 47,
+   "bellek_marked": false
+  },
+  {
+   "n": 12,
+   "line": 13,
+   "quote": "فَذَكِّرْ إِن نَّفَعَتِ ٱلذِّكْرَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "87:9"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {},
+   "sentence_index": 48,
+   "bellek_marked": false
+  },
+  {
+   "n": 13,
+   "line": 13,
+   "quote": "الذكرى اسم للتذكير",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000516/B009",
+      "root": "ذ ك ر",
+      "branch": "B009",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000516/B009",
+      "root": "ذ ك ر",
+      "branch": "B009",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ذ ك ر ayn"
+    ]
+   },
+   "sentence_index": 50,
+   "bellek_marked": false
+  },
+  {
+   "n": 14,
+   "line": 13,
+   "quote": "سَيَذَّكَّرُ مَن يَخْشَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "87:10"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {},
+   "sentence_index": 51,
+   "bellek_marked": false
+  },
+  {
+   "n": 15,
+   "line": 13,
+   "quote": "التذكر طلب ما فات",
+   "source": "dictionary",
+   "level": "clitic",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000516/B003",
+      "root": "ذ ك ر",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn",
+       "tahdhib",
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "clitic"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 52,
+   "bellek_marked": false
+  },
+  {
+   "n": 16,
+   "line": 13,
+   "quote": "وَٱذْكُر رَّبَّكَ إِذَا نَسِيتَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "18:24"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ن س و mufradat",
+     "ن س ي mufradat",
+     "ن س ي tahdhib"
+    ]
+   },
+   "sentence_index": 56,
+   "bellek_marked": false
+  },
+  {
+   "n": 17,
+   "line": 15,
+   "quote": "الذكر جري الشيء على لسانك",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000516/B004",
+      "root": "ذ ك ر",
+      "branch": "B004",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn",
+       "tahdhib"
+      ],
+      "branch_kind": "collocation",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000516/B004",
+      "root": "ذ ك ر",
+      "branch": "B004",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn",
+       "tahdhib"
+      ],
+      "branch_kind": "collocation",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ذ ك ر ayn",
+     "ذ ك ر tahdhib"
+    ]
+   },
+   "sentence_index": 60,
+   "bellek_marked": false
+  },
+  {
+   "n": 18,
+   "line": 15,
+   "quote": "ذكرته بلساني وبقلبي",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000516/B004",
+      "root": "ذ ك ر",
+      "branch": "B004",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "collocation",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000516/B003",
+      "root": "ذ ك ر",
+      "branch": "B003",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "clitic"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ذ ك ر sihah"
+    ]
+   },
+   "sentence_index": 61,
+   "bellek_marked": false
+  },
+  {
+   "n": 19,
+   "line": 15,
+   "quote": "إِنَّهُۥ يَعْلَمُ ٱلْجَهْرَ وَمَا يَخْفَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "87:7"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {},
+   "sentence_index": 62,
+   "bellek_marked": false
+  },
+  {
+   "n": 20,
+   "line": 15,
+   "quote": "وَٱذْكُر رَّبَّكَ فِى نَفْسِكَ تَضَرُّعًۭا وَخِيفَةًۭ وَدُونَ ٱلْجَهْرِ مِنَ ٱلْقَوْلِ بِٱلْغُدُوِّ وَٱلْءَاصَالِ وَلَا تَكُن مِّنَ ٱلْغَٰفِلِينَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "7:205"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 63,
+   "bellek_marked": false
+  },
+  {
+   "n": 21,
+   "line": 15,
+   "quote": "الذكر الصلاة والدعاء والثناء",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000516/B005",
+      "root": "ذ ك ر",
+      "branch": "B005",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn",
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000516/B005",
+      "root": "ذ ك ر",
+      "branch": "B005",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn",
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ذ ك ر ayn"
+    ]
+   },
+   "sentence_index": 66,
+   "bellek_marked": false
+  },
+  {
+   "n": 22,
+   "line": 15,
+   "quote": "ذَٰلِكَ ذِكْرَىٰ لِلذَّٰكِرِينَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "11:114"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 70,
+   "bellek_marked": false
+  },
+  {
+   "n": 23,
+   "line": 17,
+   "quote": "وَٱذْكُرِ ٱسْمَ رَبِّكَ وَتَبَتَّلْ إِلَيْهِ تَبْتِيلًۭا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "73:8"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 74,
+   "bellek_marked": false
+  },
+  {
+   "n": 24,
+   "line": 17,
+   "quote": "وَٱذْكُرِ ٱسْمَ رَبِّكَ بُكْرَةًۭ وَأَصِيلًۭا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "76:25"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 76,
+   "bellek_marked": false
+  },
+  {
+   "n": 25,
+   "line": 17,
+   "quote": "وَمِنَ ٱلَّيْلِ فَٱسْجُدْ لَهُۥ وَسَبِّحْهُ لَيْلًۭا طَوِيلًا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "76:26"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 76,
+   "bellek_marked": false
+  },
+  {
+   "n": 26,
+   "line": 19,
+   "quote": "الذكر الكتاب الذي فيه تفصيل الدين وكل كتاب من كتب الأنبياء ذكر",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000516/B006",
+      "root": "ذ ك ر",
+      "branch": "B006",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn",
+       "tahdhib"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 79,
+   "bellek_marked": false
+  },
+  {
+   "n": 27,
+   "line": 19,
+   "quote": "يَٰٓأَيُّهَا ٱلَّذِى نُزِّلَ عَلَيْهِ ٱلذِّكْرُ إِنَّكَ لَمَجْنُونٌۭ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "15:6"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 81,
+   "bellek_marked": false
+  },
+  {
+   "n": 28,
+   "line": 19,
+   "quote": "إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ وَإِنَّا لَهُۥ لَحَٰفِظُونَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "15:9"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 82,
+   "bellek_marked": false
+  },
+  {
+   "n": 29,
+   "line": 19,
+   "quote": "صُحُفِ إِبْرَٰهِيمَ وَمُوسَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "87:19"
+    ],
+    "n_ayat": 1,
+    "where": "window"
+   },
+   "also": {},
+   "sentence_index": 84,
+   "bellek_marked": false
+  },
+  {
+   "n": 30,
+   "line": 19,
+   "quote": "فَٱعْبُدْنِى وَأَقِمِ ٱلصَّلَوٰةَ لِذِكْرِىٓ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "20:14"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 85,
+   "bellek_marked": false
+  },
+  {
+   "n": 31,
+   "line": 19,
+   "quote": "كَىْ نُسَبِّحَكَ كَثِيرًۭا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "20:33"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 88,
+   "bellek_marked": false
+  },
+  {
+   "n": 32,
+   "line": 19,
+   "quote": "وَنَذْكُرَكَ كَثِيرًا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "20:34"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 88,
+   "bellek_marked": false
+  },
+  {
+   "n": 33,
+   "line": 23,
+   "quote": "أصل اسم سمو وهو من العلو لأنه تنويه ودلالة على المعنى",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000745/B005",
+      "root": "س م و",
+      "branch": "B005",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000745/B005",
+      "root": "س م و",
+      "branch": "B005",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "س م و maqayis"
+    ]
+   },
+   "sentence_index": 93,
+   "bellek_marked": false
+  },
+  {
+   "n": 34,
+   "line": 23,
+   "quote": "سما لي شخص ارتفع حتى استثبته",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000745/B002",
+      "root": "س م و",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000745/B002",
+      "root": "س م و",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "clitic"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "س م و maqayis"
+    ]
+   },
+   "sentence_index": 97,
+   "bellek_marked": false
+  },
+  {
+   "n": 35,
+   "line": 23,
+   "quote": "به رفع ذكر المسمى",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000745/B001",
+      "root": "س م و",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000745/B005",
+      "root": "س م و",
+      "branch": "B005",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "س م و mufradat"
+    ]
+   },
+   "sentence_index": 100,
+   "bellek_marked": false
+  },
+  {
+   "n": 36,
+   "line": 25,
+   "quote": "الذكر الشرف والصوت",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000516/B007",
+      "root": "ذ ك ر",
+      "branch": "B007",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn",
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000516/B007",
+      "root": "ذ ك ر",
+      "branch": "B007",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn",
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ذ ك ر ayn",
+     "ذ ك ر tahdhib"
+    ]
+   },
+   "sentence_index": 105,
+   "bellek_marked": false
+  },
+  {
+   "n": 37,
+   "line": 25,
+   "quote": "وَرَفَعْنَا لَكَ ذِكْرَكَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "94:4"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "dictionary": [
+     "ر ف ع B002 (root_000582/B002) lexical_source_phrase [mufradat]"
+    ],
+    "early_entry": [
+     "ب ت ر mufradat",
+     "ر ف ع mufradat"
+    ]
+   },
+   "sentence_index": 107,
+   "bellek_marked": false
+  },
+  {
+   "n": 38,
+   "line": 25,
+   "quote": "فِى بُيُوتٍ أَذِنَ ٱللَّهُ أَن تُرْفَعَ وَيُذْكَرَ فِيهَا ٱسْمُهُۥ يُسَبِّحُ لَهُۥ فِيهَا بِٱلْغُدُوِّ وَٱلْءَاصَالِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "24:36"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 109,
+   "bellek_marked": false
+  },
+  {
+   "n": 39,
+   "line": 25,
+   "quote": "رِجَالٌۭ لَّا تُلْهِيهِمْ تِجَٰرَةٌۭ وَلَا بَيْعٌ عَن ذِكْرِ ٱللَّهِ وَإِقَامِ ٱلصَّلَوٰةِ وَإِيتَآءِ ٱلزَّكَوٰةِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "24:37"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 110,
+   "bellek_marked": false
+  },
+  {
+   "n": 40,
+   "line": 27,
+   "quote": "سميا أي نظيرا له يستحق اسمه",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000745/B005",
+      "root": "س م و",
+      "branch": "B005",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000745/B005",
+      "root": "س م و",
+      "branch": "B005",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {},
+   "sentence_index": 113,
+   "bellek_marked": false
+  },
+  {
+   "n": 41,
+   "line": 27,
+   "quote": "وَمَا كَانَ رَبُّكَ نَسِيًّۭا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "19:64"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ن س ي ayn"
+    ]
+   },
+   "sentence_index": 115,
+   "bellek_marked": false
+  },
+  {
+   "n": 42,
+   "line": 27,
+   "quote": "رَّبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا فَٱعْبُدْهُ وَٱصْطَبِرْ لِعِبَٰدَتِهِۦ ۚ هَلْ تَعْلَمُ لَهُۥ سَمِيًّۭا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "19:65"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 116,
+   "bellek_marked": false
+  },
+  {
+   "n": 43,
+   "line": 27,
+   "quote": "وَلِلَّهِ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ فَٱدْعُوهُ بِهَا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "7:180"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "س ب ح tahdhib"
+    ]
+   },
+   "sentence_index": 120,
+   "bellek_marked": false
+  },
+  {
+   "n": 44,
+   "line": 27,
+   "quote": "وَذَرُوا۟ ٱلَّذِينَ يُلْحِدُونَ فِىٓ أَسْمَٰٓئِهِۦ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "7:180"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ل ح د mufradat"
+    ],
+    "majaz": [
+     778
+    ]
+   },
+   "sentence_index": 121,
+   "bellek_marked": false
+  },
+  {
+   "n": 45,
+   "line": 29,
+   "quote": "بعير موسوم وسم بسمة يعرف بها",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_001650/B001",
+      "root": "و س م",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "other",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_001650/B001",
+      "root": "و س م",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "other",
+      "level": "clitic"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "و س م ayn"
+    ]
+   },
+   "sentence_index": 125,
+   "bellek_marked": false
+  },
+  {
+   "n": 46,
+   "line": 29,
+   "quote": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "1:1",
+     "27:30"
+    ],
+    "n_ayat": 2,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ء ي ي maqayis",
+     "ر ذ ل maqayis",
+     "س م و mufradat",
+     "ش ك ر tahdhib",
+     "ص ي ص mufradat",
+     "ك ر م tahdhib",
+     "م س خ tahdhib",
+     "م ع ع tahdhib"
+    ],
+    "majaz": [
+     1,
+     6,
+     226,
+     367
+    ]
+   },
+   "sentence_index": 130,
+   "bellek_marked": false
+  },
+  {
+   "n": 47,
+   "line": 29,
+   "quote": "رَبِّ ٱلْعَٰلَمِينَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "1:2",
+     "5:28",
+     "6:45",
+     "6:162",
+     "7:54",
+     "7:61"
+    ],
+    "n_ayat": 42,
+    "where": "other"
+   },
+   "also": {
+    "dictionary": [
+     "ع ل م B003 (root_001040/B003) lexical_source_phrase [tahdhib]",
+     "ق و م B013 (root_001273/B013) source_phrase_ar [mufradat]"
+    ],
+    "early_entry": [
+     "ء ل ه tahdhib",
+     "ء م م sihah",
+     "ب ر ك mufradat",
+     "ج ب ي sihah",
+     "ج ن ن tahdhib",
+     "ح م د tahdhib",
+     "ح ي ي jamhara",
+     "ر ب ب mufradat"
+    ],
+    "majaz": [
+     2,
+     888,
+     901,
+     "raw:4808"
+    ]
+   },
+   "sentence_index": 130,
+   "bellek_marked": false
+  },
+  {
+   "n": 48,
+   "line": 29,
+   "quote": "ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "96:1"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 132,
+   "bellek_marked": false
+  },
+  {
+   "n": 49,
+   "line": 29,
+   "quote": "عَبْدًا إِذَا صَلَّىٰٓ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "96:10"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ء ر م ayn",
+     "ء م ر ayn",
+     "ر ء ي ayn",
+     "م ر ء ayn",
+     "ن ه ي mufradat",
+     "و ر ي ayn"
+    ]
+   },
+   "sentence_index": 134,
+   "bellek_marked": false
+  },
+  {
+   "n": 50,
+   "line": 29,
+   "quote": "كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "96:19"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 135,
+   "bellek_marked": false
+  },
+  {
+   "n": 51,
+   "line": 33,
+   "quote": "رب كل شئ: مالكه",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000532/B001",
+      "root": "ر ب ب",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000532/B001",
+      "root": "ر ب ب",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "jamhara",
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000532/B001",
+      "root": "ر ب ب",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "jamhara"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "clitic"
+     }
+    ],
+    "n_matches": 3
+   },
+   "also": {
+    "early_entry": [
+     "ر ب ب jamhara",
+     "ر ب ب sihah"
+    ]
+   },
+   "sentence_index": 139,
+   "bellek_marked": false
+  },
+  {
+   "n": 52,
+   "line": 33,
+   "quote": "رب الدار ورب الفرس",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000532/B001",
+      "root": "ر ب ب",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000532/B001",
+      "root": "ر ب ب",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ر ب ب mufradat"
+    ]
+   },
+   "sentence_index": 140,
+   "bellek_marked": false
+  },
+  {
+   "n": 53,
+   "line": 33,
+   "quote": "التربية، وهو إنشاء الشيء حالا فحالا إلى حد التمام",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000532/B002",
+      "root": "ر ب ب",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis-rbt"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000532/B002",
+      "root": "ر ب ب",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ر ب ب mufradat"
+    ]
+   },
+   "sentence_index": 142,
+   "bellek_marked": false
+  },
+  {
+   "n": 54,
+   "line": 33,
+   "quote": "رب فلان الصنيعة إذا أتمها وأصلحها",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000532/B002",
+      "root": "ر ب ب",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis-rbt"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {},
+   "sentence_index": 143,
+   "bellek_marked": false
+  },
+  {
+   "n": 55,
+   "line": 35,
+   "quote": "ٱلَّذِى خَلَقَ فَسَوَّىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "87:2"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {
+    "early_entry": [
+     "س و ي mufradat"
+    ]
+   },
+   "sentence_index": 145,
+   "bellek_marked": false
+  },
+  {
+   "n": 56,
+   "line": 35,
+   "quote": "وَٱلَّذِى قَدَّرَ فَهَدَىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "87:3"
+    ],
+    "n_ayat": 1,
+    "where": "surah"
+   },
+   "also": {
+    "early_entry": [
+     "ق د ر mufradat"
+    ]
+   },
+   "sentence_index": 145,
+   "bellek_marked": false
+  },
+  {
+   "n": 57,
+   "line": 35,
+   "quote": "الرباب: السحاب، سمي بذلك لأنه يرب النبات",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000532/B008",
+      "root": "ر ب ب",
+      "branch": "B008",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000532/B008",
+      "root": "ر ب ب",
+      "branch": "B008",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ر ب ب mufradat"
+    ]
+   },
+   "sentence_index": 147,
+   "bellek_marked": false
+  },
+  {
+   "n": 58,
+   "line": 37,
+   "quote": "زكا الزرع",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000637/B001",
+      "root": "ز ك و",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000637/B001",
+      "root": "ز ك و",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000637/B001",
+      "root": "ز ك و",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000637/B001",
+      "root": "ز ك و",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000637/B001",
+      "root": "ز ك و",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000637/B001",
+      "root": "ز ك و",
+      "branch": "B001",
+      "field": "lexical_expression_ar",
+      "source_tags": [],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 6
+   },
+   "also": {
+    "early_entry": [
+     "ز ك و ayn",
+     "ز ك و mufradat",
+     "ز ك و sihah"
+    ]
+   },
+   "sentence_index": 151,
+   "bellek_marked": false
+  },
+  {
+   "n": 59,
+   "line": 37,
+   "quote": "وَمَن تَزَكَّىٰ فَإِنَّمَا يَتَزَكَّىٰ لِنَفْسِهِۦ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "35:18"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 153,
+   "bellek_marked": false
+  },
+  {
+   "n": 60,
+   "line": 37,
+   "quote": "إِنَّمَا تُنذِرُ ٱلَّذِينَ يَخْشَوْنَ رَبَّهُم بِٱلْغَيْبِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "35:18"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 154,
+   "bellek_marked": false
+  },
+  {
+   "n": 61,
+   "line": 37,
+   "quote": "وَنَفْسٍۢ وَمَا سَوَّىٰهَا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "91:7"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "س و ي mufradat"
+    ]
+   },
+   "sentence_index": 157,
+   "bellek_marked": false
+  },
+  {
+   "n": 62,
+   "line": 37,
+   "quote": "قَدْ أَفْلَحَ مَن زَكَّىٰهَا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "91:9"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "د س س tahdhib",
+     "د س و tahdhib",
+     "ز ك و mufradat",
+     "ف ل ح mufradat"
+    ]
+   },
+   "sentence_index": 159,
+   "bellek_marked": false
+  },
+  {
+   "n": 63,
+   "line": 41,
+   "quote": "الصلاة وهي الدعاء",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000879/B002",
+      "root": "ص ل و",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000879/B002",
+      "root": "ص ل و",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis",
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000880/B002",
+      "root": "ص ل ي",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000880/B002",
+      "root": "ص ل ي",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 4
+   },
+   "also": {
+    "early_entry": [
+     "ص ل و maqayis",
+     "ص ل ي maqayis"
+    ]
+   },
+   "sentence_index": 167,
+   "bellek_marked": false
+  },
+  {
+   "n": 64,
+   "line": 41,
+   "quote": "الصلاة التي هي العبادة المخصوصة أصلها الدعاء",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000879/B003",
+      "root": "ص ل و",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000879/B003",
+      "root": "ص ل و",
+      "branch": "B003",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ص ل و mufradat",
+     "ص ل ي mufradat"
+    ]
+   },
+   "sentence_index": 168,
+   "bellek_marked": false
+  },
+  {
+   "n": 65,
+   "line": 41,
+   "quote": "الصلاة من المخلوقين القيام والركوع والسجود والدعاء والتسبيح",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000879/B003",
+      "root": "ص ل و",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000879/B003",
+      "root": "ص ل و",
+      "branch": "B003",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000880/B001",
+      "root": "ص ل ي",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "bare",
+      "where": "window",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000880/B001",
+      "root": "ص ل ي",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "bare",
+      "where": "window",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 4
+   },
+   "also": {},
+   "sentence_index": 169,
+   "bellek_marked": false
+  },
+  {
+   "n": 66,
+   "line": 41,
+   "quote": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَكُن مِّنَ ٱلسَّٰجِدِينَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "15:98"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 172,
+   "bellek_marked": false
+  },
+  {
+   "n": 67,
+   "line": 43,
+   "quote": "الصلا وسط الظهر لكل ذي أربع وللناس",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000879/B005",
+      "root": "ص ل و",
+      "branch": "B005",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000879/B005",
+      "root": "ص ل و",
+      "branch": "B005",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000880/B006",
+      "root": "ص ل ي",
+      "branch": "B006",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000880/B006",
+      "root": "ص ل ي",
+      "branch": "B006",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 4
+   },
+   "also": {
+    "early_entry": [
+     "ص ل و ayn",
+     "ص ل ي ayn"
+    ]
+   },
+   "sentence_index": 175,
+   "bellek_marked": false
+  },
+  {
+   "n": 68,
+   "line": 45,
+   "quote": "قد صلى وجاء مصليا لأن رأسه يتلو الصلا الذي بين يديه",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000879/B006",
+      "root": "ص ل و",
+      "branch": "B006",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 1
+   },
+   "also": {
+    "early_entry": [
+     "ص ل و ayn",
+     "ص ل ي ayn"
+    ]
+   },
+   "sentence_index": 180,
+   "bellek_marked": false
+  },
+  {
+   "n": 69,
+   "line": 45,
+   "quote": "المصلى تالي السابق",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000879/B006",
+      "root": "ص ل و",
+      "branch": "B006",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000879/B006",
+      "root": "ص ل و",
+      "branch": "B006",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000880/B007",
+      "root": "ص ل ي",
+      "branch": "B007",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000880/B007",
+      "root": "ص ل ي",
+      "branch": "B007",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "sihah"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 4
+   },
+   "also": {
+    "early_entry": [
+     "ص ل و sihah",
+     "ص ل ي sihah"
+    ]
+   },
+   "sentence_index": 181,
+   "bellek_marked": false
+  },
+  {
+   "n": 70,
+   "line": 47,
+   "quote": "صلاة الله للمسلمين تزكيته إياهم",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000879/B002",
+      "root": "ص ل و",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000879/B002",
+      "root": "ص ل و",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {},
+   "sentence_index": 190,
+   "bellek_marked": false
+  },
+  {
+   "n": 71,
+   "line": 47,
+   "quote": "صلاة الملائكة الاستغفار",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000879/B002",
+      "root": "ص ل و",
+      "branch": "B002",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000879/B002",
+      "root": "ص ل و",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000880/B002",
+      "root": "ص ل ي",
+      "branch": "B002",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 3
+   },
+   "also": {
+    "early_entry": [
+     "ص ل و ayn",
+     "ص ل ي ayn"
+    ]
+   },
+   "sentence_index": 191,
+   "bellek_marked": false
+  },
+  {
+   "n": 72,
+   "line": 47,
+   "quote": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱذْكُرُوا۟ ٱللَّهَ ذِكْرًۭا كَثِيرًۭا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "33:41"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 193,
+   "bellek_marked": false
+  },
+  {
+   "n": 73,
+   "line": 47,
+   "quote": "وَسَبِّحُوهُ بُكْرَةًۭ وَأَصِيلًا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "33:42"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 193,
+   "bellek_marked": false
+  },
+  {
+   "n": 74,
+   "line": 47,
+   "quote": "هُوَ ٱلَّذِى يُصَلِّى عَلَيْكُمْ وَمَلَٰٓئِكَتُهُۥ لِيُخْرِجَكُم مِّنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "33:43"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 193,
+   "bellek_marked": false
+  },
+  {
+   "n": 75,
+   "line": 47,
+   "quote": "فَٱذْكُرُونِىٓ أَذْكُرْكُمْ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "2:152"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ذ ك ر mufradat"
+    ]
+   },
+   "sentence_index": 198,
+   "bellek_marked": false
+  },
+  {
+   "n": 76,
+   "line": 49,
+   "quote": "خُذْ مِنْ أَمْوَٰلِهِمْ صَدَقَةًۭ تُطَهِّرُهُمْ وَتُزَكِّيهِم بِهَا وَصَلِّ عَلَيْهِمْ ۖ إِنَّ صَلَوٰتَكَ سَكَنٌۭ لَّهُمْ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "9:103"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 203,
+   "bellek_marked": false
+  },
+  {
+   "n": 77,
+   "line": 49,
+   "quote": "قَدْ أَفْلَحَ ٱلْمُؤْمِنُونَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "23:1"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ص ل و mufradat",
+     "ص ل ي mufradat",
+     "ف ل ح mufradat"
+    ]
+   },
+   "sentence_index": 204,
+   "bellek_marked": false
+  },
+  {
+   "n": 78,
+   "line": 49,
+   "quote": "ٱلَّذِينَ هُمْ فِى صَلَاتِهِمْ خَٰشِعُونَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "23:2"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "dictionary": [
+     "خ ش ع B001 (root_000412/B001) lexical_source_phrase [mufradat]"
+    ],
+    "early_entry": [
+     "خ ش ع mufradat",
+     "ص ل و mufradat",
+     "ص ل ي mufradat"
+    ]
+   },
+   "sentence_index": 205,
+   "bellek_marked": false
+  },
+  {
+   "n": 79,
+   "line": 49,
+   "quote": "وَٱلَّذِينَ هُمْ لِلزَّكَوٰةِ فَٰعِلُونَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "23:4"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ز ك و mufradat"
+    ]
+   },
+   "sentence_index": 206,
+   "bellek_marked": false
+  },
+  {
+   "n": 80,
+   "line": 51,
+   "quote": "يسمى موضع العبادة الصلاة ولذلك سميت الكنائس صلوات",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000879/B007",
+      "root": "ص ل و",
+      "branch": "B007",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000880/B008",
+      "root": "ص ل ي",
+      "branch": "B008",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "mufradat"
+      ],
+      "branch_kind": "bare",
+      "where": "window",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ص ل و mufradat",
+     "ص ل ي mufradat"
+    ]
+   },
+   "sentence_index": 209,
+   "bellek_marked": false
+  },
+  {
+   "n": 81,
+   "line": 51,
+   "quote": "رَبُّنَا ٱللَّهُ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "22:40",
+     "41:30",
+     "46:13"
+    ],
+    "n_ayat": 3,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ق و م mufradat",
+     "ق و م tahdhib"
+    ],
+    "majaz": [
+     "raw:4526"
+    ]
+   },
+   "sentence_index": 211,
+   "bellek_marked": false
+  },
+  {
+   "n": 82,
+   "line": 51,
+   "quote": "لَّهُدِّمَتْ صَوَٰمِعُ وَبِيَعٌۭ وَصَلَوَٰتٌۭ وَمَسَٰجِدُ يُذْكَرُ فِيهَا ٱسْمُ ٱللَّهِ كَثِيرًۭا",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "22:40"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 212,
+   "bellek_marked": false
+  },
+  {
+   "n": 83,
+   "line": 53,
+   "quote": "رَبَّنَا لِيُقِيمُوا۟ ٱلصَّلَوٰةَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "14:37"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 217,
+   "bellek_marked": false
+  },
+  {
+   "n": 84,
+   "line": 53,
+   "quote": "رَبِّ ٱجْعَلْنِى مُقِيمَ ٱلصَّلَوٰةِ وَمِن ذُرِّيَّتِى ۚ رَبَّنَا وَتَقَبَّلْ دُعَآءِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "14:40"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 218,
+   "bellek_marked": false
+  },
+  {
+   "n": 85,
+   "line": 53,
+   "quote": "وَأَوْحَيْنَآ إِلَيْهِمْ فِعْلَ ٱلْخَيْرَٰتِ وَإِقَامَ ٱلصَّلَوٰةَ وَإِيتَآءَ ٱلزَّكَوٰةِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "21:73"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 222,
+   "bellek_marked": false
+  },
+  {
+   "n": 86,
+   "line": 57,
+   "quote": "صلى الكافر نارا فهو يصلاها أي قاسى حرها وشدتها",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000879/B001",
+      "root": "ص ل و",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000880/B003",
+      "root": "ص ل ي",
+      "branch": "B003",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "collocation",
+      "where": "window",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000880/B003",
+      "root": "ص ل ي",
+      "branch": "B003",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "collocation",
+      "where": "window",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 3
+   },
+   "also": {
+    "early_entry": [
+     "ص ل و ayn",
+     "ص ل ي ayn"
+    ]
+   },
+   "sentence_index": 231,
+   "bellek_marked": false
+  },
+  {
+   "n": 87,
+   "line": 57,
+   "quote": "رَبَّنَا مَا خَلَقْتَ هَٰذَا بَٰطِلًۭا سُبْحَٰنَكَ فَقِنَا عَذَابَ ٱلنَّارِ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "3:191"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 236,
+   "bellek_marked": false
+  },
+  {
+   "n": 88,
+   "line": 59,
+   "quote": "صلى عصاه إذا أدارها على النار يثقفها",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000880/B004",
+      "root": "ص ل ي",
+      "branch": "B004",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "ayn",
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000880/B004",
+      "root": "ص ل ي",
+      "branch": "B004",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "ayn"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "window",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ص ل و ayn",
+     "ص ل ي ayn"
+    ]
+   },
+   "sentence_index": 240,
+   "bellek_marked": false
+  },
+  {
+   "n": 89,
+   "line": 59,
+   "quote": "صليت العود بالنار",
+   "source": "dictionary",
+   "level": "exact",
+   "detail": {
+    "branches": [
+     {
+      "branch_ref": "root_000879/B001",
+      "root": "ص ل و",
+      "branch": "B001",
+      "field": "source_phrase_ar",
+      "source_tags": [
+       "sihah",
+       "tahdhib"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     },
+     {
+      "branch_ref": "root_000879/B001",
+      "root": "ص ل و",
+      "branch": "B001",
+      "field": "lexical_source_phrase",
+      "source_tags": [
+       "maqayis"
+      ],
+      "branch_kind": "mixed_non_bare",
+      "where": "focus",
+      "level": "exact"
+     }
+    ],
+    "n_matches": 2
+   },
+   "also": {
+    "early_entry": [
+     "ص ل و maqayis",
+     "ص ل ي maqayis"
+    ]
+   },
+   "sentence_index": 241,
+   "bellek_marked": false
+  },
+  {
+   "n": 90,
+   "line": 61,
+   "quote": "فَلَا صَدَّقَ وَلَا صَلَّىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "75:31"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ء ل م ayn",
+     "ب ل و ayn",
+     "ب ل ي ayn",
+     "ص د ق mufradat",
+     "ص ل و mufradat",
+     "ص ل ي mufradat",
+     "ل ء ل ء ayn",
+     "ل و م ayn"
+    ],
+    "majaz": [
+     "raw:7075"
+    ]
+   },
+   "sentence_index": 254,
+   "bellek_marked": false
+  },
+  {
+   "n": 91,
+   "line": 61,
+   "quote": "وَلَٰكِن كَذَّبَ وَتَوَلَّىٰ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "75:32"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {},
+   "sentence_index": 254,
+   "bellek_marked": false
+  },
+  {
+   "n": 92,
+   "line": 61,
+   "quote": "ثُمَّ ذَهَبَ إِلَىٰٓ أَهْلِهِۦ يَتَمَطَّىٰٓ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "75:33"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "د ل و sihah",
+     "م ط و mufradat"
+    ]
+   },
+   "sentence_index": 254,
+   "bellek_marked": false
+  },
+  {
+   "n": 93,
+   "line": 61,
+   "quote": "لَمْ نَكُ مِنَ ٱلْمُصَلِّينَ",
+   "source": "quran",
+   "level": "exact",
+   "detail": {
+    "refs": [
+     "74:43"
+    ],
+    "n_ayat": 1,
+    "where": "other"
+   },
+   "also": {
+    "early_entry": [
+     "ص ل و mufradat",
+     "ص ل ي mufradat"
+    ]
+   },
+   "sentence_index": 258,
+   "bellek_marked": false
+  }
+ ],
+ "arabic_outside_tags": [
+  {
+   "line": 57,
+   "text": "ص ل ي",
+   "context": "bare",
+   "source": "root_name",
+   "level": null,
+   "detail": {
+    "root": "ص ل ي",
+    "root_id": "root_000880",
+    "in_dictionary": true
+   },
+   "also": {},
+   "sentence_index": 229,
+   "bellek_marked": false
+  },
+  {
+   "line": 57,
+   "text": "ص ل و",
+   "context": "bare",
+   "source": "root_name",
+   "level": null,
+   "detail": {
+    "root": "ص ل و",
+    "root_id": "root_000879",
+    "in_dictionary": true
+   },
+   "also": {},
+   "sentence_index": 229,
+   "bellek_marked": false
+  }
+ ],
+ "bellek": [],
+ "unsourced_unmarked": [],
+ "cited_branches": [
+  {
+   "branch_ref": "root_000516/B003",
+   "root": "ذ ك ر",
+   "branch": "B003",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Zihinsel çekirdek korunur; akılda olma, yeniden hatırlama, ezber çalışması ve iyi bellek nitelemeleri kendi yapılarına bağlı yüzlerdir.",
+   "image_ar": "استحضار الشيء بعد النسيان أو مع الحفظ",
+   "quote": "ذكرت الشيء خلاف نسيته",
+   "line": 11,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Arapçada ẕikr çok daha geniş bir alanı kaplar ve en sade hâliyle unutmanın karşıtıdır: {ar:ذكرت الشيء خلاف نسيته, tr:ẕekertu'ş-şey'e hılâfu nesîtuh, gloss:bir şeyi andım, yani unutmadım, source:\"ذ ك ر,B003\"}."
+  },
+  {
+   "branch_ref": "root_000516/B009",
+   "root": "ذ ك ر",
+   "branch": "B009",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Hatırlatma eylemi, hatırlatıcı araç ve sık anma ayrı yüzler olarak tutulur; bu yapıların hiçbiri yalın zihinsel hatırlamayla özdeşleştirilmez.",
+   "image_ar": "الذكرى والتذكرة ما يذكّر",
+   "quote": "الذكرى اسم للتذكير",
+   "line": 13,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Ẕikrâ da {ar:الذكرى اسم للتذكير, tr:eẕ-ẕikrâ ismun li't-teẕkîr, gloss:zikrâ hatırlatmanın adıdır, source:\"ذ ك ر,B009\"}."
+  },
+  {
+   "branch_ref": "root_000516/B003",
+   "root": "ذ ك ر",
+   "branch": "B003",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Zihinsel çekirdek korunur; akılda olma, yeniden hatırlama, ezber çalışması ve iyi bellek nitelemeleri kendi yapılarına bağlı yüzlerdir.",
+   "image_ar": "استحضار الشيء بعد النسيان أو مع الحفظ",
+   "quote": "التذكر طلب ما فات",
+   "line": 13,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Buradaki biçim bir çaba bildirir, kişinin hatırlayışı kendi içinde araması gibi: {ar:التذكر طلب ما فات, tr:et-teẕekkur talebu mâ fât, gloss:tezekkür elden kaçanı aramaktır, source:\"ذ ك ر,B003\"}."
+  },
+  {
+   "branch_ref": "root_000516/B004",
+   "root": "ذ ك ر",
+   "branch": "B004",
+   "branch_kind": "collocation",
+   "bound": true,
+   "root_in": "focus",
+   "scope_note": "Tanım açıkça sözle anma yapısına bağlı tutulur; çekiştirme anlamı yalnız insanlardan kusurlarıyla söz etme bağlamında verilir.",
+   "image_ar": "جريان الذكر على اللسان",
+   "quote": "الذكر جري الشيء على لسانك",
+   "line": 15,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Anmayı {ar:الذكر جري الشيء على لسانك, tr:eẕ-ẕikru cerayu'ş-şey'i alâ lisânik, gloss:zikir bir şeyin dilinde akıp gitmesidir, source:\"ذ ك ر,B004\"} diye tarif ederlerdi."
+  },
+  {
+   "branch_ref": "root_000516/B003",
+   "root": "ذ ك ر",
+   "branch": "B003",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Zihinsel çekirdek korunur; akılda olma, yeniden hatırlama, ezber çalışması ve iyi bellek nitelemeleri kendi yapılarına bağlı yüzlerdir.",
+   "image_ar": "استحضار الشيء بعد النسيان أو مع الحفظ",
+   "quote": "ذكرته بلساني وبقلبي",
+   "line": 15,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Ama aynı fiil kalbe de uzanır: {ar:ذكرته بلساني وبقلبي, tr:ẕekertuhû bi-lisânî ve bi-kalbî, gloss:onu dilimle de kalbimle de andım, source:\"ذ ك ر,B004\"}."
+  },
+  {
+   "branch_ref": "root_000516/B005",
+   "root": "ذ ك ر",
+   "branch": "B005",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Genel kulluk anlamı ile Tanrı'yı anma söz öbeği ayrılır; dinî metin okuma ancak bu kulluk yönelimi içinde değerlendirilir.",
+   "image_ar": "ذكر الله عبادة وثناء ودعاء",
+   "quote": "الذكر الصلاة والدعاء والثناء",
+   "line": 15,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Anma ibadetin kendisi de sayılır: {ar:الذكر الصلاة والدعاء والثناء, tr:eẕ-ẕikru's-salâtu ve'd-duâu ve's-senâ, gloss:zikir namaz, dua ve övgüdür, source:\"ذ ك ر,B005\"}."
+  },
+  {
+   "branch_ref": "root_000516/B006",
+   "root": "ذ ك ر",
+   "branch": "B006",
+   "branch_kind": "bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım yalın dalın kutsal kitap anlamını verir; okuma veya ibadetle ilgili söz öbeklerinden yeni bir genel anlam aktarılmaz.",
+   "image_ar": "الذكر كتاب منزل أو كتاب دين",
+   "quote": "الذكر الكتاب الذي فيه تفصيل الدين وكل كتاب من كتب الأنبياء ذكر",
+   "line": 19,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Ẕikr, peygamberlere indirilen kitabın da adıdır: {ar:الذكر الكتاب الذي فيه تفصيل الدين وكل كتاب من كتب الأنبياء ذكر, tr:eẕ-ẕikru'l-kitâbu'lleẕî fîhi tafsîlu'd-dîni ve kullu kitâbin min kutubi'l-enbiyâi ẕikr, gloss:zikir dinin ayrıntısını taşıyan kitaptır ve peygamberlerin her kitabı bir zikirdir, source:\"ذ ك ر,B006\"}."
+  },
+  {
+   "branch_ref": "root_000745/B005",
+   "root": "س م و",
+   "branch": "B005",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Ad çekirdeği; ad verme, ad edinme, adaşlık ve ad ya da nitelik bakımından denklik bildiren özel biçimlerden ayrılarak tanımlanır.",
+   "image_ar": "الاسم تنويه ودلالة",
+   "quote": "أصل اسم سمو وهو من العلو لأنه تنويه ودلالة على المعنى",
+   "line": 23,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Arapçada ism kelimesi yükseklik bildiren bir kökten gelir: {ar:أصل اسم سمو وهو من العلو لأنه تنويه ودلالة على المعنى, tr:aslu ismin sumuvvun ve huve mine'l-uluvvi li-ennehû tenvîhun ve delâletun ale'l-ma'nâ, gloss:ismin aslı sümüvdür, yücelikten gelir, çünkü bir şeyi anıp yükseltir ve anlamı gösterir, source:\"س م و,B005\"}."
+  },
+  {
+   "branch_ref": "root_000745/B002",
+   "root": "س م و",
+   "branch": "B002",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Uzaktan belirme çekirdeği, belirli görünme kalıpları ve ayın ufuk üstündeki görünüşüyle birlikte fakat ayrı kapsamlarla verilir.",
+   "image_ar": "الشخص المرتفع الظاهر",
+   "quote": "سما لي شخص ارتفع حتى استثبته",
+   "line": 23,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Çölde uzaktan seçilen bir karaltı için {ar:سما لي شخص ارتفع حتى استثبته, tr:semâ lî şahsun irtefea hatte'steŝbettuh, gloss:bir karaltı gözüme yükseldi, ben de onu iyice seçtim, source:\"س م و,B002\"} derlerdi."
+  },
+  {
+   "branch_ref": "root_000745/B001",
+   "root": "س م و",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Genel yükselme çekirdeği ile bakış, toplumsal konum ve gururlu duruşa bağlı özel kullanımlar ayrı tutulur.",
+   "image_ar": "العلو والارتفاع",
+   "quote": "به رفع ذكر المسمى",
+   "line": 23,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Aynı köke ilişkin bir başka tarif bu ayetin iki kelimesini tek cümlede buluşturur: {ar:به رفع ذكر المسمى, tr:bihî rufia ẕikru'l-musemmâ, gloss:adlandırılanın anılışı onunla yükselir, source:\"س م و,B005\"}."
+  },
+  {
+   "branch_ref": "root_000516/B007",
+   "root": "ذ ك ر",
+   "branch": "B007",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yalın iyi ün ve onur anlamı korunur; kişi niteleyen söz öbeği bellek gücü ile iyi anılmayı kendi bağlamında birleştirir.",
+   "image_ar": "ذكر المرء شرف وصيت",
+   "quote": "الذكر الشرف والصوت",
+   "line": 25,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Bu kelime ün ve şeref anlamında da kullanılır: {ar:الذكر الشرف والصوت, tr:eẕ-ẕikru'ş-şerefu ve's-savt, gloss:zikir şeref ve yayılan ündür, source:\"ذ ك ر,B007\"}."
+  },
+  {
+   "branch_ref": "root_000745/B005",
+   "root": "س م و",
+   "branch": "B005",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Ad çekirdeği; ad verme, ad edinme, adaşlık ve ad ya da nitelik bakımından denklik bildiren özel biçimlerden ayrılarak tanımlanır.",
+   "image_ar": "الاسم تنويه ودلالة",
+   "quote": "سميا أي نظيرا له يستحق اسمه",
+   "line": 27,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Ad kelimesinin ailesinde bir de \"adaş\" vardır: {ar:سميا أي نظيرا له يستحق اسمه, tr:semiyyen ey nazîran lehû yestehıkku'smeh, gloss:semiy, onun adını hak eden bir dengi demektir, source:\"س م و,B005\"}."
+  },
+  {
+   "branch_ref": "root_000532/B001",
+   "root": "ر ب ب",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yalın biçim ile ev, hayvan veya başka bir şey üzerinden kurulan tamlamalar aynı kapsamda değildir; tanım bu kullanım koşulunu korur.",
+   "image_ar": "ربوبية وملك وسيادة",
+   "quote": "رب كل شئ: مالكه",
+   "line": 33,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Arapçada rabb önce sahip demektir: {ar:رب كل شئ: مالكه, tr:rabbu kulli şey'in mâlikuh, gloss:her şeyin rabbi onun sahibidir, source:\"ر ب ب,B001\"}."
+  },
+  {
+   "branch_ref": "root_000532/B002",
+   "root": "ر ب ب",
+   "branch": "B002",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Eylemin yalın gelişim çekirdeği ile çocuk, mülk ve yapılan iyilik gibi nesnelere bağlı kullanımları ayrıştırılarak korunur.",
+   "image_ar": "إصلاح وتربية وإتمام",
+   "quote": "التربية، وهو إنشاء الشيء حالا فحالا إلى حد التمام",
+   "line": 33,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Bir şeyi adım adım yetiştirip tamama erdirmek de bu köktendir: {ar:التربية، وهو إنشاء الشيء حالا فحالا إلى حد التمام, tr:et-terbiye ve huve inşâu'ş-şey'i hâlen fe-hâlen ilâ haddi't-temâm, gloss:terbiye bir şeyi hâlden hâle geçirerek tamamlanma sınırına kadar oluşturmaktır, source:\"ر ب ب,B002\"}."
+  },
+  {
+   "branch_ref": "root_000532/B008",
+   "root": "ر ب ب",
+   "branch": "B008",
+   "branch_kind": "bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım doğrudan bulut kümesi anlamıyla sınırlıdır; yağmurun kendisi veya yalnız yağış zamanı bu yalın anlama taşınmaz.",
+   "image_ar": "رباب السحاب",
+   "quote": "الرباب: السحاب، سمي بذلك لأنه يرب النبات",
+   "line": 35,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Yağmur yüklü bir bulut türüne verilen ad da bu emeği gökyüzüne taşır: {ar:الرباب: السحاب، سمي بذلك لأنه يرب النبات, tr:er-rabâb es-sehâb, summiye bi-ẕâlike li-ennehû yerubbu'n-nebât, gloss:rabâb buluttur, bitkiyi besleyip büyüttüğü için bu adı almıştır, source:\"ر ب ب,B008\"}."
+  },
+  {
+   "branch_ref": "root_000637/B001",
+   "root": "ز ك و",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "window",
+   "scope_note": "Yalın biçimlerdeki büyüme çekirdeği ile ekin, kişi ve ettirgenlik bildiren sınırlı kullanımlar ayrı tutulur; bu kullanımlar bütün dalı tek bir bağlama daraltmaz.",
+   "image_ar": "النماء والزيادة",
+   "quote": "زكا الزرع",
+   "line": 37,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "On dördüncü ayetteki arınma da bir büyümedir, çünkü Araplar ekinin gelişmesini {ar:زكا الزرع, tr:zekâ'z-zer', gloss:ekin gelişti, source:\"memory\"} diye anlatırdı."
+  },
+  {
+   "branch_ref": "root_000879/B002",
+   "root": "ص ل و",
+   "branch": "B002",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yalın iyilik dileme anlamı korunur; Tanrı ve meleklerle kurulan özel özne yapılarının anlamları bütün dala yayılmaz.",
+   "image_ar": "الدعاء والثناء والرحمة",
+   "quote": "الصلاة وهي الدعاء",
+   "line": 41,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Fiilin ilk anlamı budur: {ar:الصلاة وهي الدعاء, tr:es-salâtu ve hiye'd-duâ, gloss:salât duadır, source:\"ص ل و,B002\"}."
+  },
+  {
+   "branch_ref": "root_000880/B002",
+   "root": "ص ل ي",
+   "branch": "B002",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "window",
+   "scope_note": "Yalın anlam ile kime yöneltildiği ve kime yüklendiği belirli yapılara bağlı anlamlar ayrı katmanlar halinde tanımlanır.",
+   "image_ar": "الدعاء والبركة والرحمة",
+   "quote": "الصلاة وهي الدعاء",
+   "line": 41,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Fiilin ilk anlamı budur: {ar:الصلاة وهي الدعاء, tr:es-salâtu ve hiye'd-duâ, gloss:salât duadır, source:\"ص ل و,B002\"}."
+  },
+  {
+   "branch_ref": "root_000879/B003",
+   "root": "ص ل و",
+   "branch": "B003",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yalın biçimin kurallı tapınma anlamı korunur; bütün hak ve koşulları yerine getirme vurgusu yalnız bunu bildiren özel kuruluşta tutulur.",
+   "image_ar": "العبادة المخصوصة",
+   "quote": "الصلاة التي هي العبادة المخصوصة أصلها الدعاء",
+   "line": 41,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Kuralları belli olan ibadet de bu anlamdan çıkmış sayılırdı: {ar:الصلاة التي هي العبادة المخصوصة أصلها الدعاء, tr:es-salâtu'lletî hiye'l-ibâdetu'l-mahsûsa asluhe'd-duâ, gloss:o özel ibadet olan namazın aslı duadır, source:\"ص ل و,B003\"}."
+  },
+  {
+   "branch_ref": "root_000880/B001",
+   "root": "ص ل ي",
+   "branch": "B001",
+   "branch_kind": "bare",
+   "bound": false,
+   "root_in": "window",
+   "scope_note": "Tanım yalın biçimin özel tapınma anlamıyla sınırlıdır ve başka yapılara bağlı anlamları içeri almaz.",
+   "image_ar": "الصلاة عبادة لازمة",
+   "quote": "الصلاة من المخلوقين القيام والركوع والسجود والدعاء والتسبيح",
+   "line": 41,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "O ibadetin parçaları da tek tek sayılır: {ar:الصلاة من المخلوقين القيام والركوع والسجود والدعاء والتسبيح, tr:es-salâtu mine'l-mahlûkîn el-kıyâmu ve'r-rukûu ve's-sucûdu ve'd-duâu ve't-tesbîh, gloss:yaratılmışların namazı ayakta durmak, eğilmek, secdeye kapanmak, dua ve tesbihtir, source:\"ص ل و,B003\"}."
+  },
+  {
+   "branch_ref": "root_000879/B005",
+   "root": "ص ل و",
+   "branch": "B005",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yalın anatomik adlar temel alınır; doğum sırasında bölgenin açılması ve devenin doğuma yaklaşması yalnız ilgili kuruluşlarda korunur.",
+   "image_ar": "الصَّلا من الظهر والجنب",
+   "quote": "الصلا وسط الظهر لكل ذي أربع وللناس",
+   "line": 43,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Namaz bedenle kılınır ve bu kelimenin ailesi de bedenin bir yerini adlandırır: {ar:الصلا وسط الظهر لكل ذي أربع وللناس, tr:es-salâ vasatu'z-zahri li-kulli ẕî erbain ve li'n-nâs, gloss:salâ dört ayaklıların ve insanların sırtının ortasıdır, source:\"ص ل و,B005\"}."
+  },
+  {
+   "branch_ref": "root_000880/B006",
+   "root": "ص ل ي",
+   "branch": "B006",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "window",
+   "scope_note": "Yalın beden bölümü ile doğuma bağlı yapılardaki durumlar birbirine karıştırılmadan ayrı facetlerde tanımlanır.",
+   "image_ar": "الصَّلا موضع الظهر والذنب",
+   "quote": "الصلا وسط الظهر لكل ذي أربع وللناس",
+   "line": 43,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Namaz bedenle kılınır ve bu kelimenin ailesi de bedenin bir yerini adlandırır: {ar:الصلا وسط الظهر لكل ذي أربع وللناس, tr:es-salâ vasatu'z-zahri li-kulli ẕî erbain ve li'n-nâs, gloss:salâ dört ayaklıların ve insanların sırtının ortasıdır, source:\"ص ل و,B005\"}."
+  },
+  {
+   "branch_ref": "root_000879/B006",
+   "root": "ص ل و",
+   "branch": "B006",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yalın yarışçı adı ikinci sırayı belirtir; atın bu konumda gelmesini anlatan eylem yalnız ilgili kuruluşta tutulur.",
+   "image_ar": "تلو السابق في السباق",
+   "quote": "قد صلى وجاء مصليا لأن رأسه يتلو الصلا الذي بين يديه",
+   "line": 45,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Öndeki atın hemen ardından gelen at için {ar:قد صلى وجاء مصليا لأن رأسه يتلو الصلا الذي بين يديه, tr:kad sallâ ve câe musalliyen li-enne ra'sehû yetlu's-salâ'lleẕî beyne yedeyh, gloss:sallâ etti, musallî olarak geldi, çünkü başı önündekinin sağrısını izler, source:\"ص ل و,B006\"} denirdi."
+  },
+  {
+   "branch_ref": "root_000880/B007",
+   "root": "ص ل ي",
+   "branch": "B007",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "window",
+   "scope_note": "Yarışçının adı ile atın önderin ardına gelmesini anlatan yapı ayrı tutulur ve genel koşma anlamına genişletilmez.",
+   "image_ar": "المصلي يتلو السابق",
+   "quote": "المصلى تالي السابق",
+   "line": 45,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Kısaca {ar:المصلى تالي السابق, tr:el-musallî tâli's-sâbık, gloss:musallî öne geçenin ardından gelendir, source:\"ص ل و,B006\"}."
+  },
+  {
+   "branch_ref": "root_000879/B002",
+   "root": "ص ل و",
+   "branch": "B002",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Yalın iyilik dileme anlamı korunur; Tanrı ve meleklerle kurulan özel özne yapılarının anlamları bütün dala yayılmaz.",
+   "image_ar": "الدعاء والثناء والرحمة",
+   "quote": "صلاة الله للمسلمين تزكيته إياهم",
+   "line": 47,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Allah'tan insana doğru ise başka bir anlam taşır: {ar:صلاة الله للمسلمين تزكيته إياهم, tr:salâtullâhi li'l-muslimîne tezkiyetuhû iyyâhum, gloss:Allah'ın Müslümanlara salâtı onları arındırmasıdır, source:\"ص ل و,B002\"}."
+  },
+  {
+   "branch_ref": "root_000880/B002",
+   "root": "ص ل ي",
+   "branch": "B002",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "window",
+   "scope_note": "Yalın anlam ile kime yöneltildiği ve kime yüklendiği belirli yapılara bağlı anlamlar ayrı katmanlar halinde tanımlanır.",
+   "image_ar": "الدعاء والبركة والرحمة",
+   "quote": "صلاة الملائكة الاستغفار",
+   "line": 47,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Meleklerden gelen salât ise {ar:صلاة الملائكة الاستغفار, tr:salâtu'l-melâiketi'l-istiğfâr, gloss:meleklerin salâtı bağışlanma dilemektir, source:\"ص ل و,B002\"}."
+  },
+  {
+   "branch_ref": "root_000879/B007",
+   "root": "ص ل و",
+   "branch": "B007",
+   "branch_kind": "bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Dal yalnız yalın yer adlarını içerir ve başka dallardaki tapınma eylemi ya da dilek anlamlarını tanıma katmaz.",
+   "image_ar": "مواضع الصلاة ودور العبادة",
+   "quote": "يسمى موضع العبادة الصلاة ولذلك سميت الكنائس صلوات",
+   "line": 51,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Kelimenin ailesi bir mekânı da adlandırır: {ar:يسمى موضع العبادة الصلاة ولذلك سميت الكنائس صلوات, tr:yusemmâ mevdiu'l-ibâdeti's-salâh, ve li-ẕâlike summiyeti'l-kenâisu salavât, gloss:ibadet yerine salât denir, bu yüzden mabetlere salavât adı verilmiştir, source:\"ص ل و,B007\"}."
+  },
+  {
+   "branch_ref": "root_000880/B008",
+   "root": "ص ل ي",
+   "branch": "B008",
+   "branch_kind": "bare",
+   "bound": false,
+   "root_in": "window",
+   "scope_note": "Tanım yalnızca yalın biçimin yer bildiren anlamına dayanır ve tapınma eylemini ya da başka yapı anlamlarını içeri almaz.",
+   "image_ar": "الصلوات مواضع عبادة",
+   "quote": "يسمى موضع العبادة الصلاة ولذلك سميت الكنائس صلوات",
+   "line": 51,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Kelimenin ailesi bir mekânı da adlandırır: {ar:يسمى موضع العبادة الصلاة ولذلك سميت الكنائس صلوات, tr:yusemmâ mevdiu'l-ibâdeti's-salâh, ve li-ẕâlike summiyeti'l-kenâisu salavât, gloss:ibadet yerine salât denir, bu yüzden mabetlere salavât adı verilmiştir, source:\"ص ل و,B007\"}."
+  },
+  {
+   "branch_ref": "root_000879/B001",
+   "root": "ص ل و",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım, yalın biçimlerin ateş ve yakacak anlamlarını korurken yalnız belirli kuruluşlarda görülen ısınma, düzeltme ve zorluğa katlanma anlamlarını genelleştirmez.",
+   "image_ar": "ملاقاة النار وحرها",
+   "quote": "صلى الكافر نارا فهو يصلاها أي قاسى حرها وشدتها",
+   "line": 57,
+   "framing": "echo marker in a neighbouring sentence",
+   "echo_markers": [
+    "yankı"
+   ],
+   "extended_markers_in_sentence": [],
+   "sentence": "Ateş için kullanılan fiil yakıcılığa katlanmayı anlatır: {ar:صلى الكافر نارا فهو يصلاها أي قاسى حرها وشدتها, tr:saliye'l-kâfiru nâran fe-huve yaslâhâ ey kâsâ harrahâ ve şiddetehâ, gloss:kâfir ateşe girdi, yani onun sıcaklığına ve şiddetine katlandı, source:\"ص ل ي,B003\"}."
+  },
+  {
+   "branch_ref": "root_000880/B003",
+   "root": "ص ل ي",
+   "branch": "B003",
+   "branch_kind": "collocation",
+   "bound": true,
+   "root_in": "window",
+   "scope_note": "Tanım yalnızca ateş, ısı veya benzetilen ağır durumla kurulan yapılara bağlanır ve yalın köke genellenmez.",
+   "image_ar": "ملاقاة النار وحرها",
+   "quote": "صلى الكافر نارا فهو يصلاها أي قاسى حرها وشدتها",
+   "line": 57,
+   "framing": "echo marker in a neighbouring sentence",
+   "echo_markers": [
+    "yankı"
+   ],
+   "extended_markers_in_sentence": [],
+   "sentence": "Ateş için kullanılan fiil yakıcılığa katlanmayı anlatır: {ar:صلى الكافر نارا فهو يصلاها أي قاسى حرها وشدتها, tr:saliye'l-kâfiru nâran fe-huve yaslâhâ ey kâsâ harrahâ ve şiddetehâ, gloss:kâfir ateşe girdi, yani onun sıcaklığına ve şiddetine katlandı, source:\"ص ل ي,B003\"}."
+  },
+  {
+   "branch_ref": "root_000880/B004",
+   "root": "ص ل ي",
+   "branch": "B004",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "window",
+   "scope_note": "Tanım yalın yakıt ve pişmiş yiyecek anlamlarını, belirli nesnelerle kurulan pişirme ve düzeltme eylemlerinden ayırır.",
+   "image_ar": "إيقاد الصلاء وتسوية الشيء بالنار",
+   "quote": "صلى عصاه إذا أدارها على النار يثقفها",
+   "line": 59,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Eğri bir değneği düzeltmek için onu ateşin üstünde çeviren kişi için {ar:صلى عصاه إذا أدارها على النار يثقفها, tr:sallâ asâhu iẕâ edârahâ ale'n-nâri yuŝakkıfuhâ, gloss:değneğini ateş üstünde çevirdi, onu düzeltip doğrultmak için, source:\"ص ل ي,B004\"} derlerdi."
+  },
+  {
+   "branch_ref": "root_000879/B001",
+   "root": "ص ل و",
+   "branch": "B001",
+   "branch_kind": "mixed_non_bare",
+   "bound": false,
+   "root_in": "focus",
+   "scope_note": "Tanım, yalın biçimlerin ateş ve yakacak anlamlarını korurken yalnız belirli kuruluşlarda görülen ısınma, düzeltme ve zorluğa katlanma anlamlarını genelleştirmez.",
+   "image_ar": "ملاقاة النار وحرها",
+   "quote": "صليت العود بالنار",
+   "line": 59,
+   "framing": "no echo marker",
+   "echo_markers": [],
+   "extended_markers_in_sentence": [],
+   "sentence": "Ayetin fiilinin kendi ailesinde de bu kullanım vardır: {ar:صليت العود بالنار, tr:salleytu'l-ûde bi'n-nâr, gloss:değneği ateşle yumuşatıp düzelttim, source:\"ص ل و,B001\"}."
+  }
+ ],
+ "sources": [
+  {
+   "line": 37,
+   "quote": "زكا الزرع",
+   "declared": "memory",
+   "kind": "memory",
+   "status": "declared",
+   "found_anyway": "dictionary"
+  }
+ ],
+ "process_lines": [
+  {
+   "line": 13,
+   "word": "zincir"
+  },
+  {
+   "line": 13,
+   "word": "Zincir"
+  },
+  {
+   "line": 13,
+   "word": "zincir"
+  }
+ ],
+ "sources_all": [
+  {
+   "line": 3,
+   "quote": "قَدْ أَفْلَحَ مَن تَزَكَّىٰ",
+   "declared": "87:14",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "87:14"
+   ]
+  },
+  {
+   "line": 3,
+   "quote": "وَذَكَرَ ٱسْمَ رَبِّهِۦ فَصَلَّىٰ",
+   "declared": "87:15",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "87:15"
+   ]
+  },
+  {
+   "line": 3,
+   "quote": "وَيَصُدَّكُمْ عَن ذِكْرِ ٱللَّهِ وَعَنِ ٱلصَّلَوٰةِ",
+   "declared": "5:91",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "5:91"
+   ]
+  },
+  {
+   "line": 5,
+   "quote": "سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى",
+   "declared": "87:1",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "87:1"
+   ]
+  },
+  {
+   "line": 5,
+   "quote": "إِنَّمَا يُؤْمِنُ بِـَٔايَٰتِنَا ٱلَّذِينَ إِذَا ذُكِّرُوا۟ بِهَا خَرُّوا۟ سُجَّدًۭا وَسَبَّحُوا۟ بِحَمْدِ رَبِّهِمْ وَهُمْ لَا يَسْتَكْبِرُونَ",
+   "declared": "32:15",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "32:15"
+   ]
+  },
+  {
+   "line": 7,
+   "quote": "ٱلَّذِى يَصْلَى ٱلنَّارَ ٱلْكُبْرَىٰ",
+   "declared": "87:12",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "87:12"
+   ]
+  },
+  {
+   "line": 7,
+   "quote": "بَلْ تُؤْثِرُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا",
+   "declared": "87:16",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "87:16"
+   ]
+  },
+  {
+   "line": 7,
+   "quote": "فَأَعْرِضْ عَن مَّن تَوَلَّىٰ عَن ذِكْرِنَا وَلَمْ يُرِدْ إِلَّا ٱلْحَيَوٰةَ ٱلدُّنْيَا",
+   "declared": "53:29",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "53:29"
+   ]
+  },
+  {
+   "line": 11,
+   "quote": "ذكرت الشيء خلاف نسيته",
+   "declared": "ذ ك ر,B003",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000516/B003",
+   "gapped": false
+  },
+  {
+   "line": 11,
+   "quote": "الذكر الحفظ للشيء",
+   "declared": "ذ ك ر,B003",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000516/B003",
+   "gapped": false
+  },
+  {
+   "line": 13,
+   "quote": "سَنُقْرِئُكَ فَلَا تَنسَىٰٓ",
+   "declared": "87:6",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "87:6"
+   ]
+  },
+  {
+   "line": 13,
+   "quote": "فَذَكِّرْ إِن نَّفَعَتِ ٱلذِّكْرَىٰ",
+   "declared": "87:9",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "87:9"
+   ]
+  },
+  {
+   "line": 13,
+   "quote": "الذكرى اسم للتذكير",
+   "declared": "ذ ك ر,B009",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000516/B009",
+   "gapped": false
+  },
+  {
+   "line": 13,
+   "quote": "سَيَذَّكَّرُ مَن يَخْشَىٰ",
+   "declared": "87:10",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "87:10"
+   ]
+  },
+  {
+   "line": 13,
+   "quote": "التذكر طلب ما فات",
+   "declared": "ذ ك ر,B003",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000516/B003",
+   "gapped": false
+  },
+  {
+   "line": 13,
+   "quote": "وَٱذْكُر رَّبَّكَ إِذَا نَسِيتَ",
+   "declared": "18:24",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "18:24"
+   ]
+  },
+  {
+   "line": 15,
+   "quote": "الذكر جري الشيء على لسانك",
+   "declared": "ذ ك ر,B004",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000516/B004",
+   "gapped": false
+  },
+  {
+   "line": 15,
+   "quote": "ذكرته بلساني وبقلبي",
+   "declared": "ذ ك ر,B004",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000516/B004",
+   "gapped": false
+  },
+  {
+   "line": 15,
+   "quote": "إِنَّهُۥ يَعْلَمُ ٱلْجَهْرَ وَمَا يَخْفَىٰ",
+   "declared": "87:7",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "87:7"
+   ]
+  },
+  {
+   "line": 15,
+   "quote": "وَٱذْكُر رَّبَّكَ فِى نَفْسِكَ تَضَرُّعًۭا وَخِيفَةًۭ وَدُونَ ٱلْجَهْرِ مِنَ ٱلْقَوْلِ بِٱلْغُدُوِّ وَٱلْءَاصَالِ وَلَا تَكُن مِّنَ ٱلْغَٰفِلِينَ",
+   "declared": "7:205",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "7:205"
+   ]
+  },
+  {
+   "line": 15,
+   "quote": "الذكر الصلاة والدعاء والثناء",
+   "declared": "ذ ك ر,B005",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000516/B005",
+   "gapped": false
+  },
+  {
+   "line": 15,
+   "quote": "ذَٰلِكَ ذِكْرَىٰ لِلذَّٰكِرِينَ",
+   "declared": "11:114",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "11:114"
+   ]
+  },
+  {
+   "line": 17,
+   "quote": "وَٱذْكُرِ ٱسْمَ رَبِّكَ وَتَبَتَّلْ إِلَيْهِ تَبْتِيلًۭا",
+   "declared": "73:8",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "73:8"
+   ]
+  },
+  {
+   "line": 17,
+   "quote": "وَٱذْكُرِ ٱسْمَ رَبِّكَ بُكْرَةًۭ وَأَصِيلًۭا",
+   "declared": "76:25",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "76:25"
+   ]
+  },
+  {
+   "line": 17,
+   "quote": "وَمِنَ ٱلَّيْلِ فَٱسْجُدْ لَهُۥ وَسَبِّحْهُ لَيْلًۭا طَوِيلًا",
+   "declared": "76:26",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "76:26"
+   ]
+  },
+  {
+   "line": 19,
+   "quote": "الذكر الكتاب الذي فيه تفصيل الدين وكل كتاب من كتب الأنبياء ذكر",
+   "declared": "ذ ك ر,B006",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000516/B006",
+   "gapped": false
+  },
+  {
+   "line": 19,
+   "quote": "يَٰٓأَيُّهَا ٱلَّذِى نُزِّلَ عَلَيْهِ ٱلذِّكْرُ إِنَّكَ لَمَجْنُونٌۭ",
+   "declared": "15:6",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "15:6"
+   ]
+  },
+  {
+   "line": 19,
+   "quote": "إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ وَإِنَّا لَهُۥ لَحَٰفِظُونَ",
+   "declared": "15:9",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "15:9"
+   ]
+  },
+  {
+   "line": 19,
+   "quote": "صُحُفِ إِبْرَٰهِيمَ وَمُوسَىٰ",
+   "declared": "87:19",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "87:19"
+   ]
+  },
+  {
+   "line": 19,
+   "quote": "فَٱعْبُدْنِى وَأَقِمِ ٱلصَّلَوٰةَ لِذِكْرِىٓ",
+   "declared": "20:14",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "20:14"
+   ]
+  },
+  {
+   "line": 19,
+   "quote": "كَىْ نُسَبِّحَكَ كَثِيرًۭا",
+   "declared": "20:33",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "20:33"
+   ]
+  },
+  {
+   "line": 19,
+   "quote": "وَنَذْكُرَكَ كَثِيرًا",
+   "declared": "20:34",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "20:34"
+   ]
+  },
+  {
+   "line": 23,
+   "quote": "أصل اسم سمو وهو من العلو لأنه تنويه ودلالة على المعنى",
+   "declared": "س م و,B005",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000745/B005",
+   "gapped": false
+  },
+  {
+   "line": 23,
+   "quote": "سما لي شخص ارتفع حتى استثبته",
+   "declared": "س م و,B002",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000745/B002",
+   "gapped": false
+  },
+  {
+   "line": 23,
+   "quote": "به رفع ذكر المسمى",
+   "declared": "س م و,B005",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000745/B005",
+   "gapped": false
+  },
+  {
+   "line": 25,
+   "quote": "الذكر الشرف والصوت",
+   "declared": "ذ ك ر,B007",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000516/B007",
+   "gapped": false
+  },
+  {
+   "line": 25,
+   "quote": "وَرَفَعْنَا لَكَ ذِكْرَكَ",
+   "declared": "94:4",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "94:4"
+   ]
+  },
+  {
+   "line": 25,
+   "quote": "فِى بُيُوتٍ أَذِنَ ٱللَّهُ أَن تُرْفَعَ وَيُذْكَرَ فِيهَا ٱسْمُهُۥ يُسَبِّحُ لَهُۥ فِيهَا بِٱلْغُدُوِّ وَٱلْءَاصَالِ",
+   "declared": "24:36",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "24:36"
+   ]
+  },
+  {
+   "line": 25,
+   "quote": "رِجَالٌۭ لَّا تُلْهِيهِمْ تِجَٰرَةٌۭ وَلَا بَيْعٌ عَن ذِكْرِ ٱللَّهِ وَإِقَامِ ٱلصَّلَوٰةِ وَإِيتَآءِ ٱلزَّكَوٰةِ",
+   "declared": "24:37",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "24:37"
+   ]
+  },
+  {
+   "line": 27,
+   "quote": "سميا أي نظيرا له يستحق اسمه",
+   "declared": "س م و,B005",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000745/B005",
+   "gapped": false
+  },
+  {
+   "line": 27,
+   "quote": "وَمَا كَانَ رَبُّكَ نَسِيًّۭا",
+   "declared": "19:64",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "19:64"
+   ]
+  },
+  {
+   "line": 27,
+   "quote": "رَّبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا فَٱعْبُدْهُ وَٱصْطَبِرْ لِعِبَٰدَتِهِۦ ۚ هَلْ تَعْلَمُ لَهُۥ سَمِيًّۭا",
+   "declared": "19:65",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "19:65"
+   ]
+  },
+  {
+   "line": 27,
+   "quote": "وَلِلَّهِ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ فَٱدْعُوهُ بِهَا",
+   "declared": "7:180",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "7:180"
+   ]
+  },
+  {
+   "line": 27,
+   "quote": "وَذَرُوا۟ ٱلَّذِينَ يُلْحِدُونَ فِىٓ أَسْمَٰٓئِهِۦ",
+   "declared": "7:180",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "7:180"
+   ]
+  },
+  {
+   "line": 29,
+   "quote": "بعير موسوم وسم بسمة يعرف بها",
+   "declared": "و س م,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_001650/B001",
+   "gapped": false
+  },
+  {
+   "line": 29,
+   "quote": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+   "declared": "1:1",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "1:1"
+   ]
+  },
+  {
+   "line": 29,
+   "quote": "رَبِّ ٱلْعَٰلَمِينَ",
+   "declared": "1:2",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "1:2"
+   ]
+  },
+  {
+   "line": 29,
+   "quote": "ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
+   "declared": "96:1",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "96:1"
+   ]
+  },
+  {
+   "line": 29,
+   "quote": "عَبْدًا إِذَا صَلَّىٰٓ",
+   "declared": "96:10",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "96:10"
+   ]
+  },
+  {
+   "line": 29,
+   "quote": "كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩",
+   "declared": "96:19",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "96:19"
+   ]
+  },
+  {
+   "line": 33,
+   "quote": "رب كل شئ: مالكه",
+   "declared": "ر ب ب,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000532/B001",
+   "gapped": false
+  },
+  {
+   "line": 33,
+   "quote": "رب الدار ورب الفرس",
+   "declared": "ر ب ب,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000532/B001",
+   "gapped": false
+  },
+  {
+   "line": 33,
+   "quote": "التربية، وهو إنشاء الشيء حالا فحالا إلى حد التمام",
+   "declared": "ر ب ب,B002",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000532/B002",
+   "gapped": false
+  },
+  {
+   "line": 33,
+   "quote": "رب فلان الصنيعة إذا أتمها وأصلحها",
+   "declared": "ر ب ب,B002",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000532/B002",
+   "gapped": false
+  },
+  {
+   "line": 35,
+   "quote": "ٱلَّذِى خَلَقَ فَسَوَّىٰ",
+   "declared": "87:2",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "87:2"
+   ]
+  },
+  {
+   "line": 35,
+   "quote": "وَٱلَّذِى قَدَّرَ فَهَدَىٰ",
+   "declared": "87:3",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "87:3"
+   ]
+  },
+  {
+   "line": 35,
+   "quote": "الرباب: السحاب، سمي بذلك لأنه يرب النبات",
+   "declared": "ر ب ب,B008",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000532/B008",
+   "gapped": false
+  },
+  {
+   "line": 37,
+   "quote": "زكا الزرع",
+   "declared": "memory",
+   "kind": "memory",
+   "status": "declared",
+   "found_anyway": "dictionary"
+  },
+  {
+   "line": 37,
+   "quote": "وَمَن تَزَكَّىٰ فَإِنَّمَا يَتَزَكَّىٰ لِنَفْسِهِۦ",
+   "declared": "35:18",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "35:18"
+   ]
+  },
+  {
+   "line": 37,
+   "quote": "إِنَّمَا تُنذِرُ ٱلَّذِينَ يَخْشَوْنَ رَبَّهُم بِٱلْغَيْبِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ",
+   "declared": "35:18",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "35:18"
+   ]
+  },
+  {
+   "line": 37,
+   "quote": "وَنَفْسٍۢ وَمَا سَوَّىٰهَا",
+   "declared": "91:7",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "91:7"
+   ]
+  },
+  {
+   "line": 37,
+   "quote": "قَدْ أَفْلَحَ مَن زَكَّىٰهَا",
+   "declared": "91:9",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "91:9"
+   ]
+  },
+  {
+   "line": 41,
+   "quote": "الصلاة وهي الدعاء",
+   "declared": "ص ل و,B002",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000879/B002",
+   "gapped": false
+  },
+  {
+   "line": 41,
+   "quote": "الصلاة التي هي العبادة المخصوصة أصلها الدعاء",
+   "declared": "ص ل و,B003",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000879/B003",
+   "gapped": false
+  },
+  {
+   "line": 41,
+   "quote": "الصلاة من المخلوقين القيام والركوع والسجود والدعاء والتسبيح",
+   "declared": "ص ل و,B003",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000879/B003",
+   "gapped": false
+  },
+  {
+   "line": 41,
+   "quote": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَكُن مِّنَ ٱلسَّٰجِدِينَ",
+   "declared": "15:98",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "15:98"
+   ]
+  },
+  {
+   "line": 43,
+   "quote": "الصلا وسط الظهر لكل ذي أربع وللناس",
+   "declared": "ص ل و,B005",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000879/B005",
+   "gapped": false
+  },
+  {
+   "line": 45,
+   "quote": "قد صلى وجاء مصليا لأن رأسه يتلو الصلا الذي بين يديه",
+   "declared": "ص ل و,B006",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000879/B006",
+   "gapped": false
+  },
+  {
+   "line": 45,
+   "quote": "المصلى تالي السابق",
+   "declared": "ص ل و,B006",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000879/B006",
+   "gapped": false
+  },
+  {
+   "line": 47,
+   "quote": "صلاة الله للمسلمين تزكيته إياهم",
+   "declared": "ص ل و,B002",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000879/B002",
+   "gapped": false
+  },
+  {
+   "line": 47,
+   "quote": "صلاة الملائكة الاستغفار",
+   "declared": "ص ل و,B002",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000879/B002",
+   "gapped": false
+  },
+  {
+   "line": 47,
+   "quote": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱذْكُرُوا۟ ٱللَّهَ ذِكْرًۭا كَثِيرًۭا",
+   "declared": "33:41",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "33:41"
+   ]
+  },
+  {
+   "line": 47,
+   "quote": "وَسَبِّحُوهُ بُكْرَةًۭ وَأَصِيلًا",
+   "declared": "33:42",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "33:42"
+   ]
+  },
+  {
+   "line": 47,
+   "quote": "هُوَ ٱلَّذِى يُصَلِّى عَلَيْكُمْ وَمَلَٰٓئِكَتُهُۥ لِيُخْرِجَكُم مِّنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ",
+   "declared": "33:43",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "33:43"
+   ]
+  },
+  {
+   "line": 47,
+   "quote": "فَٱذْكُرُونِىٓ أَذْكُرْكُمْ",
+   "declared": "2:152",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "2:152"
+   ]
+  },
+  {
+   "line": 49,
+   "quote": "خُذْ مِنْ أَمْوَٰلِهِمْ صَدَقَةًۭ تُطَهِّرُهُمْ وَتُزَكِّيهِم بِهَا وَصَلِّ عَلَيْهِمْ ۖ إِنَّ صَلَوٰتَكَ سَكَنٌۭ لَّهُمْ",
+   "declared": "9:103",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "9:103"
+   ]
+  },
+  {
+   "line": 49,
+   "quote": "قَدْ أَفْلَحَ ٱلْمُؤْمِنُونَ",
+   "declared": "23:1",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "23:1"
+   ]
+  },
+  {
+   "line": 49,
+   "quote": "ٱلَّذِينَ هُمْ فِى صَلَاتِهِمْ خَٰشِعُونَ",
+   "declared": "23:2",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "23:2"
+   ]
+  },
+  {
+   "line": 49,
+   "quote": "وَٱلَّذِينَ هُمْ لِلزَّكَوٰةِ فَٰعِلُونَ",
+   "declared": "23:4",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "23:4"
+   ]
+  },
+  {
+   "line": 51,
+   "quote": "يسمى موضع العبادة الصلاة ولذلك سميت الكنائس صلوات",
+   "declared": "ص ل و,B007",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000879/B007",
+   "gapped": false
+  },
+  {
+   "line": 51,
+   "quote": "رَبُّنَا ٱللَّهُ",
+   "declared": "22:40",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "22:40"
+   ]
+  },
+  {
+   "line": 51,
+   "quote": "لَّهُدِّمَتْ صَوَٰمِعُ وَبِيَعٌۭ وَصَلَوَٰتٌۭ وَمَسَٰجِدُ يُذْكَرُ فِيهَا ٱسْمُ ٱللَّهِ كَثِيرًۭا",
+   "declared": "22:40",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "22:40"
+   ]
+  },
+  {
+   "line": 53,
+   "quote": "رَبَّنَا لِيُقِيمُوا۟ ٱلصَّلَوٰةَ",
+   "declared": "14:37",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "14:37"
+   ]
+  },
+  {
+   "line": 53,
+   "quote": "رَبِّ ٱجْعَلْنِى مُقِيمَ ٱلصَّلَوٰةِ وَمِن ذُرِّيَّتِى ۚ رَبَّنَا وَتَقَبَّلْ دُعَآءِ",
+   "declared": "14:40",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "14:40"
+   ]
+  },
+  {
+   "line": 53,
+   "quote": "وَأَوْحَيْنَآ إِلَيْهِمْ فِعْلَ ٱلْخَيْرَٰتِ وَإِقَامَ ٱلصَّلَوٰةَ وَإِيتَآءَ ٱلزَّكَوٰةِ",
+   "declared": "21:73",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "21:73"
+   ]
+  },
+  {
+   "line": 57,
+   "quote": "صلى الكافر نارا فهو يصلاها أي قاسى حرها وشدتها",
+   "declared": "ص ل ي,B003",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000880/B003",
+   "gapped": false
+  },
+  {
+   "line": 57,
+   "quote": "رَبَّنَا مَا خَلَقْتَ هَٰذَا بَٰطِلًۭا سُبْحَٰنَكَ فَقِنَا عَذَابَ ٱلنَّارِ",
+   "declared": "3:191",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "3:191"
+   ]
+  },
+  {
+   "line": 59,
+   "quote": "صلى عصاه إذا أدارها على النار يثقفها",
+   "declared": "ص ل ي,B004",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000880/B004",
+   "gapped": false
+  },
+  {
+   "line": 59,
+   "quote": "صليت العود بالنار",
+   "declared": "ص ل و,B001",
+   "kind": "branch",
+   "status": "ok",
+   "branch_ref": "root_000879/B001",
+   "gapped": false
+  },
+  {
+   "line": 61,
+   "quote": "فَلَا صَدَّقَ وَلَا صَلَّىٰ",
+   "declared": "75:31",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "75:31"
+   ]
+  },
+  {
+   "line": 61,
+   "quote": "وَلَٰكِن كَذَّبَ وَتَوَلَّىٰ",
+   "declared": "75:32",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "75:32"
+   ]
+  },
+  {
+   "line": 61,
+   "quote": "ثُمَّ ذَهَبَ إِلَىٰٓ أَهْلِهِۦ يَتَمَطَّىٰٓ",
+   "declared": "75:33",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "75:33"
+   ]
+  },
+  {
+   "line": 61,
+   "quote": "لَمْ نَكُ مِنَ ٱلْمُصَلِّينَ",
+   "declared": "74:43",
+   "kind": "quran",
+   "status": "ok",
+   "refs": [
+    "74:43"
+   ]
+  },
+  {
+   "line": 5,
+   "quote": null,
+   "declared": "32:14",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "32:14"
+   ]
+  },
+  {
+   "line": 13,
+   "quote": null,
+   "declared": "18:23",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "18:23"
+   ]
+  },
+  {
+   "line": 15,
+   "quote": null,
+   "declared": "7:206",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "7:206"
+   ]
+  },
+  {
+   "line": 15,
+   "quote": null,
+   "declared": "11:114",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "11:114"
+   ]
+  },
+  {
+   "line": 17,
+   "quote": null,
+   "declared": "73:2",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "73:2"
+   ]
+  },
+  {
+   "line": 17,
+   "quote": null,
+   "declared": "76:23",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "76:23"
+   ]
+  },
+  {
+   "line": 19,
+   "quote": null,
+   "declared": "20:32",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "20:32"
+   ]
+  },
+  {
+   "line": 19,
+   "quote": null,
+   "declared": "20:42",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "20:42"
+   ]
+  },
+  {
+   "line": 37,
+   "quote": null,
+   "declared": "91:8",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "91:8"
+   ]
+  },
+  {
+   "line": 41,
+   "quote": null,
+   "declared": "15:97",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "15:97"
+   ]
+  },
+  {
+   "line": 47,
+   "quote": null,
+   "declared": "2:151",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "2:151"
+   ]
+  },
+  {
+   "line": 49,
+   "quote": null,
+   "declared": "9:102",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "9:102"
+   ]
+  },
+  {
+   "line": 53,
+   "quote": null,
+   "declared": "21:72",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "21:72"
+   ]
+  },
+  {
+   "line": 61,
+   "quote": null,
+   "declared": "75:26",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "75:26"
+   ]
+  },
+  {
+   "line": 61,
+   "quote": null,
+   "declared": "75:30",
+   "kind": "quran",
+   "status": "ok (no quote)",
+   "refs": [
+    "75:30"
+   ]
+  }
+ ]
+}

@@ -4,7 +4,7 @@
  "file_sha256": "914654ef4de845ac251e2e1951285e6983b7a17d920a7f55904ea1509d6f13d2",
  "ref": "89:1",
  "tool_sha256": {
-  "check.py": "186ba08a3c2f4ddb5fd580d69aed6e8ed29fa276a5b97b2f6c12058c7ac10fe2",
+  "check.py": "cd23d66564a04b309582ae691120354b7db635fd55eadbe99c34c72a73c6cae0",
   "common.py": "57bea63ae0fa0fee7ec9cd9d07adc38af2926821690fbf9082796f5474d1a7c6"
  },
  "index_signature": {
@@ -91,11 +91,10 @@
    "quran": 224
   },
   "sources_status": {
-   "branch not found": 1,
    "declared": 1,
-   "ok": 359,
+   "ok": 361,
    "ok (no quote)": 30,
-   "quote not in this branch": 2
+   "quote not in this branch": 1
   }
  },
  "quotations": [
@@ -12293,28 +12292,6 @@
    "found_detail": [
     "root_000759/B002"
    ]
-  },
-  {
-   "line": 143,
-   "quote": "المجيء كالإتيان لكن المجيء أعم",
-   "declared": "ج ي ء,B001",
-   "kind": "branch",
-   "status": "quote not in this branch",
-   "branch_ref": "root_000282/B001",
-   "found": "dictionary",
-   "found_detail": [
-    "root_000281/B001",
-    "root_000281--root_000282/B001"
-   ]
-  },
-  {
-   "line": 147,
-   "quote": "وجاء بكذا: استحضره",
-   "declared": "ج ي ء,B004",
-   "kind": "branch",
-   "status": "branch not found",
-   "root": "ج ي ء",
-   "branch": "B004"
   }
  ],
  "process_lines": [
@@ -15318,12 +15295,12 @@
    "quote": "المجيء كالإتيان لكن المجيء أعم",
    "declared": "ج ي ء,B001",
    "kind": "branch",
-   "status": "quote not in this branch",
-   "branch_ref": "root_000282/B001",
-   "found": "dictionary",
-   "found_detail": [
-    "root_000281/B001",
-    "root_000281--root_000282/B001"
+   "status": "ok",
+   "branch_ref": "root_000281/B001",
+   "gapped": false,
+   "root_ids": [
+    "root_000281",
+    "root_000282"
    ]
   },
   {
@@ -15424,9 +15401,13 @@
    "quote": "وجاء بكذا: استحضره",
    "declared": "ج ي ء,B004",
    "kind": "branch",
-   "status": "branch not found",
-   "root": "ج ي ء",
-   "branch": "B004"
+   "status": "ok",
+   "branch_ref": "root_000281/B004",
+   "gapped": false,
+   "root_ids": [
+    "root_000281",
+    "root_000282"
+   ]
   },
   {
    "line": 147,

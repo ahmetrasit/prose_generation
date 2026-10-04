@@ -1,0 +1,18 @@
+- memory: 20:50 wording "a'ṭā kulla shay'in khalqahu thumma hadā" (lookup unavailable)
+- memory: 20:52 "lā yaḍillu rabbī wa lā yansā"
+- memory: 6:96 "dhālika taqdīru l-'azīzi l-'alīm"; 6:97 "li-tahtadū bihā"
+- memory: 43:10 "la'allakum tahtadūn"; 43:11 "mā'an bi-qadar"
+- memory: 36:39 "qaddarnāhu manāzila … ka-l-'urjūni l-qadīm"
+- memory: 89:16 "fa-qadara 'alayhi rizqahu"; 89:17 opens with "kallā"
+- memory: 34:10–11 iron softened for Dawud, "wa qaddir fi s-sard"
+- memory: 74:11–26 sequence, "fa-qutila kayfa qaddara"; 74:54 "innahu tadhkira"
+- memory: 16:68–69 bee wording, no h-d-y word
+- memory: 20:17–18 staff wording
+- memory: vowels hidya, qibla, dibra, wijha in the h-d-y B002 phrase
+- not written: qidr cooking pot (q-d-r B007) - nothing attested ties it to measuring
+- not written: qudra, power (q-d-r B003) - did not shape a theme beyond measure
+- not written: q-d-r B006 middle saddle, short-necked man, horse - no work in themes
+- not written: h-d-y B007 protected refugee/captive, B009 dull man, B011 poetry exchange - no theme
+- not written: echo root h-d-d (hoopoe, threat, rocking a child) - echo, not identity
+- not written: fire as waymark (n-w-r B005) - belongs to twelfth ayah's fire, recalled only
+- not written: running file, womb/body and lot-arrow scenes - carried by other ayat's words

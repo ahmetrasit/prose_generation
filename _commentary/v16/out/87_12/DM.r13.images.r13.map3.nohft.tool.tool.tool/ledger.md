@@ -1,0 +1,16 @@
+- memory: imperfect yaṣlā spans present and future
+- memory: kubrā is the feminine of akbar (fuʿlā pattern)
+- memory: adnā (32:21) and dunyā share root د ن و
+- memory: kuber (74:35) is the plural of kubrā
+- memory: Turkish "minare" derives from manāra
+- memory: Turkish "kibir" keeps only the arrogance sense
+- memory: qaswara glossed as lion; muqwīn as people in empty land
+- memory: the prayer word belongs to ص ل و, as distinct from the fire verb
+- memory: the -t- reflexive form iṣṭalā means warming oneself at a fire
+- not written: snare sense (maṣālī) - nothing in the ayah's scene calls for a trap
+- not written: tree blossom (nawr) beside the pasture of 87:4-5 - too thin to build a theme on
+- not written: enmity (nāʾira), tattoo soot, depilatory nūra - no work in this ayah
+- not written: ك ب ر drum, forenoon, eldest/last child, rivalry, main share of a matter - none touches the ayah
+- not written: ص ل ي rump, second horse in a race (muṣallī), pounding stone, fodder plant, synagogues - no ground here
+- not written: grave sin (kabīra) - folded into the "weighing heavily" sense, not developed separately
+- not written: 84:12 and 88:4 (yaṣlā/taṣlā with a fire) - add nothing that 92:15 and 74:26 do not already give

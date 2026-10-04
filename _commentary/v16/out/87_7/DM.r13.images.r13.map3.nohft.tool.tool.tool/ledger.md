@@ -1,0 +1,10 @@
+- memory: final long vowel in tansā marks a statement, not a prohibition
+- memory: the grammarians' counterpart to majhūr letters lets the breath flow with the letter
+- not written: ش ي ء B003 driving someone to a matter - no bearing on will or forgetting here
+- not written: ش ي ء B006 "listened attentively" - tempting link to recitation but too thin to carry a theme
+- not written: ش ي ء B004/B005/B007/B008/B009 ugliness, longing, far-sighted horse, palm shoots, interjection - none joins a theme
+- not written: و ل ه alternative for Allah - only a documented alternative; bewilderment adds nothing grounded here
+- not written: ع ل م B004 split lip, B006 falcon, B007 hyena - no work in the ayah's themes
+- not written: ج ه ر B007 broad hill, B009 crossing unknown land - no theme support
+- not written: 17:110 tukhāfit - different root (خ ف ت), would blur root identity
+- not written: 14:35 wa-jnubnī echoes 87:11 - belongs to another ayah's word

@@ -1,0 +1,12 @@
+- memory: inna plus lam on predicate as double emphasis answering doubt
+- memory: hādhā as near demonstrative pointing to what was just said
+- memory: ūlā is feminine of awwal, agreeing with broken plural ṣuḥuf
+- memory: tazakkā as reflexive form, purifying oneself
+- memory: Turkish sayfa derives from ṣaḥīfa and narrowed to a book side
+- not written: ص ح ف B005 taṣḥīf misreading - pages are never said to be misread here; would import a claim
+- not written: ص ح ف B004 broad bowl, ṣiḥāf of paradise - spread-surface theme already carried by B001; bowl adds no work to the ayah
+- not written: ء و ل B003 āl as family (āl Ibrāhīm) - different word, belongs to 87:19 rather than ūlā
+- not written: ء و ل B004–B011 (governing, thickening, silhouette, tool, ibex, vessel, plant) - no tie to "first pages"
+- not written: echo و ل ي - withheld, not identity
+- not written: 81:10 pages spread on the last day - record pages, a different referent
+- not written: 80:13–16 honoured, raised pages - surah commentary's scene, not needed

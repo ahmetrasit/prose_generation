@@ -1,0 +1,8 @@
+- added: 18:24 elçiye "unuttuğunda Rabbini an", 87:7'deki dilemeye bağlı unutmamanın yanına
+- added: 44:58 Kur'an elçinin dilinde kolaylaştırıldı, gaye hatırlama; 87:8 ile anlam bağı
+- added: 56:62 ilk yaratılış bilinmişti, hatırlanmıyor; hatırlatılan bilinen ama kaçan şey
+- added: 7:201 takva sahibi dokunuşta hatırlar, görür hâle gelir; dönüşlü kalıp
+- added: 20:14 namaz anmak için; 87:15'teki sıranın tersi
+- added: 50:37 hatırlatma kalbi olana ya da kulak verene; faydanın gizli yeri
+- added: 20:44 Firavun'a yumuşak söz, "belki hatırlar ya da içi titrer"
+- ignored: 2:269 "ancak akıl sahipleri öğüt alır" - onuncu ayetin yarattığı ayrımı yeni bir şey katmadan tekrarlar

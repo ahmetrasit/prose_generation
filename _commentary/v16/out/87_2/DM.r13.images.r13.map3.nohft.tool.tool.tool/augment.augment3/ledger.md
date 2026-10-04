@@ -1,0 +1,9 @@
+- added: 20:49 Firavun'un "Rabbiniz kim" sorusu, cevap bir işle verilir
+- added: 80:17-18, 80:20 Abese'de insanın damladan yaratılışı ve ardından yolun kolaylaştırılması
+- added: 74:18, 74:25 ölçüp biçen kişi ve ölçüsünün sonucu "insan sözü"
+- added: 67:4 bakışın bitkin dönmesi, kaynakla anıldı
+- added: 23:27 Nuh'a gemiyi yapmasının vahyedilmesi, kaynakla anıldı
+- added: 19:8-9 Zekeriya'nın şaşkınlığı ve "daha önce seni yarattım" hatırlatması
+- added: 56:57-58 Vakıa'da "sizi biz yarattık" ve meni sorusu
+- ignored: 36:39 ayın konakları - 10:5 aynı noktayı zaten taşıyor
+- ignored: 95:5 aşağıların aşağısına çevrilme - 95:4 eklemesinin hareketine katkısı yok, ifadesinden de tam emin olunmadı

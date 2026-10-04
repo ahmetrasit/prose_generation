@@ -1,0 +1,5 @@
+- added: 43:11 "kezâlike tuhracûn", Kur'an'ın kendisi otun çıkarılışını insanın çıkarılışına delil yapar
+- added: 56:64 "e-entum tezra'ûnehû", ekenin değil çıkaranın işi olduğu, 56:65 ile birlikte
+- added: 79:33 "metâan lekum ve li-en'âmikum", otlağın yenmek için çıkarıldığı
+- added: 21:14 vay bize çağrısı (yalnız kaynak), 21:15 ile kasaba halkının bağlamı
+- ignored: 54:31 sayha ile heşîm - 23:41 zaten aynı işi görüyor, yeni bir şey katmıyor

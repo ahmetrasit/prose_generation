@@ -1,0 +1,8 @@
+- added: 26:78 Ibrahim's "O ki" chain begins with creating and guiding, the pair of 87:2-3
+- added: 26:70 Ibrahim asks his father and people what they worship
+- added: 26:77 Ibrahim names the Lord of the worlds as the exception to his enemies
+- added: 56:65 "if We willed We would make it chaff" follows the question of who grows the crop
+- added: 27:24 Sheba's people prostrate to the sun, the setting of Hudhud's speech
+- ignored: 16:5 animals as warmth and food - repeats what the paragraph on livestock already says
+- ignored: 36:72 animals made tame for riding and eating - adds nothing to the point about pasture
+- ignored: 2:21 call to serve the Lord before 2:22 - not needed once 2:22 is left out

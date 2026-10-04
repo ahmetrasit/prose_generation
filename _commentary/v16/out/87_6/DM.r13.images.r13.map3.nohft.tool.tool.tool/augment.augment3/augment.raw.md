@@ -1,0 +1,80 @@
+=== INSERT ===
+paragraph: 1
+after: yürüyen sen olacaksın ama yolu kolaylaştıran biziz.
+ref: 92:7
+text: Aynı fiil aynı kalıpla bir başka surede de geçer, ama orada muhatap Peygamber değil, verip sakınan ve en güzeli doğrulayan kişidir {source:92:5}: {ar:فَسَنُيَسِّرُهُۥ لِلْيُسْرَىٰ, tr:fe-senüyessiruhû li'l-yusrâ, gloss:biz de onu en kolay olana yatkın kılacağız, source:92:7}. Kolaylaştırma vaadi böylece yalnız Peygamber'e özgü bir ayrıcalık olarak kalmaz. Aynı "biz", yola giren kişiye de aynı işi üstlenir.
+
+=== INSERT ===
+paragraph: 2
+after: sözü bu dört ayetin kısaltılmış bir vaadi gibidir.
+ref: 10:16
+text: Okutmanın Allah'a ait olduğu Peygamber'in kendi ağzından da söylenir. Ayetlerimiz apaçık okunduğunda Rabbe kavuşmayı ummayanlar "bundan başka bir Kur'an getir ya da onu değiştir" der {source:10:15}. Peygamber'e verilen cevap, onu kendiliğinden değiştiremeyeceği ve yalnızca kendisine vahyedilene uyduğudur. Ardından da şu söylenir: {ar:قُل لَّوْ شَآءَ ٱللَّهُ مَا تَلَوْتُهُۥ عَلَيْكُمْ, tr:kul lev şâ'allâhu mâ televtuhû aleykum, gloss:de ki: Allah dileseydi onu size okumazdım, source:10:16}. Okuyan dil Peygamber'in dilidir, ama okumayı dileyen Allah'tır. Altıncı ayetteki "okutacağız" aynı gerçeği bu kez Rabbin kendi ağzından söyler.
+
+=== INSERT ===
+paragraph: 3
+after: fiil de sözü kaynağından alıp muhatabın diline yerleştirir.
+ref: 27:6
+text: Alan tarafın durumu Kur'an'da başka bir fiille de söylenir. Surenin girişinde Kur'an'ın müminlere yol gösterici ve müjde olduğu anlatıldıktan sonra Allah Peygamber'e şöyle der: {ar:وَإِنَّكَ لَتُلَقَّى ٱلْقُرْءَانَ مِن لَّدُنْ حَكِيمٍ عَلِيمٍ, tr:ve inneke le-tulakkâ'l-kur'âne min ledün hakîmin alîm, gloss:sen Kur'an'ı hikmet ve ilim sahibinin katından karşılıyorsun, source:27:6}. Bu ayet de kaynağı "katından" diye belirtir, alanı ise "sen" diye anar. Böylece söz bir yandan kaynağında hikmet ve ilim sahibine, öbür yandan muhatabın kendisine bağlanır.
+
+=== INSERT ===
+paragraph: 4
+after: getirmeyi mümkün kılan da bu vaattir.
+ref: 96:3
+text: Aynı surede emir, emri veren Rabbin nitelenmesiyle tekrarlanır: {ar:ٱقْرَأْ وَرَبُّكَ ٱلْأَكْرَمُ, tr:ikra' ve rabbuke'l-ekrem, gloss:oku; Rabbin en cömert olandır, source:96:3}. Ardından Rabbin kalemle öğrettiği anılır {source:96:4}. Böylece "oku" emri bir yük bindirme olarak değil, vereni cömert olan birinin çağrısı olarak durur. Altıncı ayetteki söz, bu cömertliğin okuyan için aldığı biçimi gösterir.
+
+=== INSERT ===
+paragraph: 5
+after: sağlam durması da parçaların birbirine eklenmesiyle olur.
+ref: 73:5
+text: Tertil emrinin geçtiği surede, gece namazını ve Kur'an'ı dizerek okumayı bildiren ayetlerin hemen ardından Allah, altıncı ayetle aynı kalıpta bir vaat verir: {ar:إِنَّا سَنُلْقِى عَلَيْكَ قَوْلًۭا ثَقِيلًا, tr:innâ se-nulkî aleyke kavlen sakîlâ, gloss:biz sana ağır bir söz ileteceğiz, source:73:5}. Burada da özne "biz", fiil se- ile yakın gelecekte, muhatap "sen"dir. Yeni olan, gelecek sözün "ağır" diye anılmasıdır. Tutmak bir taşımadır ve taşınan şeyin ağırlığı vardır. "Unutmayacaksın" sözü bu ağırlığın yanına konunca, tutmanın kolay bir iş olmadığını ve yine de okutanın üzerine aldığı bir iş olduğunu duyurur.
+
+=== INSERT ===
+paragraph: 7
+after: rahmin yavrunun üzerine kapanması gibi kapanıp tutulacaktır.
+ref: 29:49
+text: Kur'an sözün tutulduğu yeri bir başka yerde de gösterir. Peygamber'in bundan önce hiçbir kitap okumadığı ve onu sağ eliyle yazmadığı hatırlatıldıktan sonra {source:29:48} Allah şöyle der: {ar:بَلْ هُوَ ءَايَٰتٌۢ بَيِّنَٰتٌۭ فِى صُدُورِ ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ, tr:bel huve âyâtun beyyinâtun fî sudûri'llezîne ûtu'l-ilm, gloss:hayır, o ilim verilenlerin göğüslerinde apaçık ayetlerdir, source:29:49}. Söz kâğıtta olduğu kadar göğüste de durur. Okutulan sözün içeride tutulması yalnızca Peygamber'e verilmiş bir durum olarak kalmaz, ilim verilenlerin göğsünde de bulunur.
+
+=== INSERT ===
+paragraph: 9
+after: koruyan kişinin dikkati değil, okutanın okutmasıdır.
+ref: 15:9
+text: Aynı güvence başka bir surede de söz sahibinin kendi ağzından verilir. Peygamber'e "ey kendisine zikir indirilen, sen delisin" diyenlerin sözünden sonra {source:15:6} Allah şöyle der: {ar:إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ وَإِنَّا لَهُۥ لَحَٰفِظُونَ, tr:innâ nahnü nezzelnâ'z-zikra ve innâ lehû le-hâfizûn, gloss:zikri biz indirdik, onu koruyacak olan da biziz, source:15:9}. Orada da "biz" iki kez söylenir: indiren biziz, koruyan biziz. Altıncı ayette okutanın unutturmaması, burada koruyuculuk olarak söylenir. Sözün kaynağı da bekçisi de aynı özne olur.
+
+=== INSERT ===
+paragraph: 10
+after: yalnızca akılda kalmakla kalmayacak, bırakılıp bir kenara da atılmayacaktır.
+ref: 9:67
+text: Yukarıda geçen "Allah'ı bıraktılar, O da onları bıraktı" sözü, Kur'an'da münafık erkekler ve kadınlar için söylenir. Aynı ayet onların kötülüğü emredip iyiliği yasakladığını ve ellerini kapadığını da anlatır {source:9:67}. Unutmak burada hafıza kaybından çok bir tutum olarak karşımıza çıkar. Karşılığı da aynı fiille verilir: bırakan, bırakılır. Bu yüzden "unutmayacaksın" vaadinde hem hafızanın korunması hem de bırakılmamak duyulur.
+
+=== INSERT ===
+paragraph: 13
+after: verilen hafıza muhatabın bağımsız bir mülkü haline gelmez.
+ref: 17:86
+text: Kur'an bunu doğrudan da söyler. Peygamber'e ruh hakkında soru sorulduğu ve ona ilimden ancak az verildiği söylenen yerin hemen ardından {source:17:85} Allah ona şöyle hitap eder: {ar:وَلَئِن شِئْنَا لَنَذْهَبَنَّ بِٱلَّذِىٓ أَوْحَيْنَآ إِلَيْكَ, tr:ve le-in şi'nâ le-nezhebenne bi'llezî evhaynâ ileyk, gloss:dilersek sana vahyettiğimizi elbette götürürüz, source:17:86}. Ayetin devamında, bu durumda Peygamber'in kendisi için Allah'a karşı bir vekil bulamayacağı da söylenir. Ardından gelen ayet bunun tek istisnasını Rabbinden bir rahmete bağlar {source:17:87}. Böylece "Allah'ın dilediği hariç" kaydı bir tehdit gibi değil, durumun doğru tarifi olarak okunur: tutan elin sahibi bellidir ve kalan söz Rabbin rahmeti olarak kalır.
+
+=== INSERT ===
+paragraph: 15
+after: unutmamak vaat edilir, içi titreyen kişiye de hatırlamak.
+ref: 20:3
+text: Aynı eşleşme yirminci surenin girişinde de görülür. Allah, Kur'an'ı Peygamber'e zahmet çeksin diye indirmediğini söyler: {ar:مَآ أَنزَلْنَا عَلَيْكَ ٱلْقُرْءَانَ لِتَشْقَىٰٓ, tr:mâ enzelnâ aleykel-kur'âne li-teşkâ, gloss:Kur'an'ı sana güçlük çekesin diye indirmedik, source:20:2}. Hemen ardından amacı verir: {ar:إِلَّا تَذْكِرَةً لِّمَن يَخْشَىٰ, tr:illâ tezkireten li-men yahşâ, gloss:ancak içi titreyen için bir hatırlatma olarak, source:20:3}. "Men yahşâ" burada da hatırlatmanın muhatabıdır. İndirilen söz, Peygamber'e zahmet olsun diye değil, bu kişiler için hatırlatma olsun diye verilir.
+
+=== INSERT ===
+paragraph: 16
+after: sekizinci ayette olduğu gibi orada da aynı yöne akar.
+ref: 2:185
+text: Kolaylık Kur'an'ın indirildiği ay anlatılırken genel bir ilke olarak da söylenir: {ar:يُرِيدُ ٱللَّهُ بِكُمُ ٱلْيُسْرَ وَلَا يُرِيدُ بِكُمُ ٱلْعُسْرَ, tr:yürîdu'llâhu bikumu'l-yusra ve lâ yürîdu bikumu'l-usr, gloss:Allah size kolaylık diler, güçlük dilemez, source:2:185}. Ayet Kur'an'ın bu ayda indirildiğini söyleyerek başlar, tekbir ve şükürle biter. Sekizinci ayetteki "yusrâ"nın kökü burada Allah'ın insanlar için dileği olarak durur. Peygamber'e verilen kolaylık vaadi bu dileğin onun hakkındaki hâli gibi duyulur.
+
+=== INSERT ===
+paragraph: 17
+after: Okumak, onunla yaşanan bir kulluk ve bir kavrayıştır.
+ref: 2:44
+text: Bunun karşısındaki tutum Kur'an'da, Allah'ın İsrailoğullarına hitabında anlatılır: {ar:أَتَأْمُرُونَ ٱلنَّاسَ بِٱلْبِرِّ وَتَنسَوْنَ أَنفُسَكُمْ وَأَنتُمْ تَتْلُونَ ٱلْكِتَٰبَ, tr:e-te'murûne'n-nâse bi'l-birri ve tensevne enfusekum ve entum tetlûne'l-kitâb, gloss:siz kitabı okuyup dururken insanlara iyiliği emreder, kendinizi unutur musunuz, source:2:44}. Ayet "aklınızı kullanmaz mısınız" sorusuyla biter. Kitabı dilde okuyup kendini bırakmak, unutmanın "terk etmek" yüzünün okumayla yan yana geldiği yerdir. Okumanın kulluk ve kavrayış olduğu söylenen kullanım, bu ayetin kınadığı durumun karşısında durur.
+
+=== LEDGER ===
+- added: 17:87 the exception to removal of revelation is a mercy from the Lord - names the sole exception after 17:86
+- added: 17:85 question about the ruh and little knowledge given - situation of 17:86
+- added: 29:48 Prophet had not read a book nor written it before - situation of 29:49
+- added: 15:6 address to "you to whom the dhikr was sent down" - situation of 15:9
+- added: 92:5 giving, guarding, affirming the best - the one who is promised ease in 92:7
+- added: 10:15 demand to bring or change the Qur'an - situation of 10:16
+- added: 96:4 teaching by the pen - follows 96:3

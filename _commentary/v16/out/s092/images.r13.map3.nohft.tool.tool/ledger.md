@@ -1,0 +1,8 @@
+- memory: تَجَلَّىٰ (form V) is reflexive, "showed itself"
+- memory: تَلَظَّىٰ stands for تتلظّى with one ta dropped, present "blazes"
+- memory: الأشقى / الأتقى are elatives, "most wretched / most God-fearing"
+- memory: تصطلون (27:7) is from the root ص ل ي of يصلاها
+- memory: يربو / يربي (30:39, 2:276) root ر ب و, distinct from رب ر ب ب
+- memory: المدثّر idea not used; فاجتنبوه (5:90) is form VIII of ج ن ب
+- memory: عنود (lot-arrow), المصلّي (racehorse), بغي (horse's prance), خليقة (rock hollow), غانية, the ewe ربّى, foal وجيه, ميتاء junction and ناقة مصلية were dropped as members that do not hold or add nothing
+- memory: the report about who 92:17–21 concerns was dropped as an outside report

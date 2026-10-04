@@ -1,0 +1,20 @@
+- added: 20:44 Musa ile Harun, Firavun'a yumuşak söz; aynı iki fiil "belki" ile
+- added: 35:18 tezekkâ kişinin kendi hesabına; yük devredilmez
+- added: 91:12 Semûd'un en bedbahtı kalkıyor; zekkâ ile karşılıklı
+- added: 17:46 sırt dönmek ve nefret; böğür hizasıyla karşıtlık
+- added: 10:12 zorda cenb üstünde yalvarıp sonra "marra"
+- added: 5:90 fectenibûhu ile tuflihûn; 87:14'teki felâhla bağ
+- added: 3:191 yan, anmanın durağı (ẕ-k-r); 32:16 yalnız kaynak olarak
+- added: 32:22 "ẕukkire ŝumme a'rada" öğüdün önce geldiği sıra; 18:57 kaynakla
+- added: 43:36 öğütten körleşene şeytan yoldaş (karîn)
+- added: 25:29 pişman zalim: öğüt geldikten sonra saptırıldım
+- added: 54:17 Kur'an öğüt için kolaylaştırıldı (y-s-r bağı)
+- added: 20:74 "ne ölür ne yaşar" suçlu için; sihirbazlar bağlamı, konuşan adlandırılmadı
+- ignored: 41:51 17:83'ün tekrarı - yeni bir şey katmıyor
+- ignored: 79:18 Firavun'a tezekkâ teklifi - 20:44 aynı noktayı taşıyor
+- ignored: 53:29 yüz çevirenden dönme emri - hiçbir paragrafın hareketine bağlanmıyor
+- ignored: 80:4, 51:55 öğüdün faydası - 87:9'un söylediğini tekrar eder
+- ignored: 7:201 tezekkerû ve mübsırûn - ¶2'nin kalıp tespitine ek getirmiyor
+- ignored: 4:31, 49:12 diğer ictenibû örnekleri - 5:90 ve ¶6'daki örneklerle aynı iş
+- ignored: 19:4 "bi-duâi rabbî şakiyyâ" - ¶17 aynı kalıbı 19:48 ile zaten gösteriyor
+- ignored: 20:100 öğütten dönenin yükü - bir paragrafın hareketine eklenmiyor

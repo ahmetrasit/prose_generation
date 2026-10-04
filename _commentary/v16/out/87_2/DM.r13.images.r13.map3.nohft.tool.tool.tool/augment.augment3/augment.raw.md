@@ -1,0 +1,106 @@
+=== INSERT ===
+paragraph: 1
+after: göğün ötesine taşınmaz. Yaptığı işin içinde tanınır.
+ref: 20:50
+text: Musa'nın Firavun'a verdiği cevap aynı kuruluşu gösterir. Firavun {ar:فَمَن رَّبُّكُمَا يَٰمُوسَىٰ, tr:fe-men rabbukumâ yâ mûsâ, gloss:öyleyse ikinizin Rabbi kim, ey Musa, source:20:49} diye sorar. Musa bir sıfat saymaz, bir iş söyler: {ar:رَبُّنَا ٱلَّذِىٓ أَعْطَىٰ كُلَّ شَىْءٍۢ خَلْقَهُۥ ثُمَّ هَدَىٰ, tr:rabbunellezî a'tâ kulle şey'in halkahû ŝumme hedâ, gloss:bizim Rabbimiz, her şeye yapısını verip sonra yol gösterendir, source:20:50}. Kimlik sorusuna ilgi cümlesiyle karşılık verilir ve iş, her şeye yapısını vermekten yol göstermeye uzanır.
+
+=== INSERT ===
+paragraph: 2
+after: Bu yüzden fiil bunların hepsini birden kapsar.
+ref: 96:1
+text: Aynı kuruluş Alak suresinin başında da vardır: {ar:ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ, tr:ikra' bismi rabbikelleẕî halak, gloss:yaratan Rabbinin adıyla oku, source:96:1}. Emir Rabbin adına bağlanır, onu tanıtan ilgi cümlesinde de nesnesiz bir halaka gelir. Orada nesne hemen ardından açılır: {ar:خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ, tr:halaka'l-insâne min alak, gloss:insanı alaktan yarattı, source:96:2}. Nesnesiz söylenen fiilin ilk durağı orada insanın kendi bedenidir. Bizim ayette bu durak söylenmez, dinleyen onu kendi bedeninde bulur.
+
+=== INSERT ===
+paragraph: 3
+after: yaratmadan sonra gelen ikinci bir yapım değildir. Aynı işin tamamlanışıdır.
+ref: 23:14
+text: Bu ayrım Kur'an'ın kendi cümlesinde de görülür. Müminun suresinde çamurdan bir özle başlayan ve damlayı sağlam bir karargâha koyan anlatı şöyle sürer: {ar:ثُمَّ خَلَقْنَا ٱلنُّطْفَةَ عَلَقَةًۭ فَخَلَقْنَا ٱلْعَلَقَةَ مُضْغَةًۭ فَخَلَقْنَا ٱلْمُضْغَةَ عِظَٰمًۭا فَكَسَوْنَا ٱلْعِظَٰمَ لَحْمًۭا, tr:ŝumme halaknâ'n-nutfete alakaten fe-halaknâ'l-alakate mudğaten fe-halaknâ'l-mudğate ızâmen fe-kesevnâ'l-ızâme lahmâ, gloss:sonra damlayı alaka yaptık, alakayı bir çiğnem et, eti kemikler yaptık, kemikleri etle giydirdik, source:23:14}. Basamaklar "fe" ile birbirine bağlanır, her biri ötekinden ara vermeden doğar. Araya mesafe koyan "ŝumme" ancak son halkada gelir: {ar:ثُمَّ أَنشَأْنَٰهُ خَلْقًا ءَاخَرَ, tr:ŝumme enşe'nâhu halkan âhar, gloss:sonra onu başka bir yaratış olarak ortaya çıkardık, source:23:14}. Ayetimizdeki "fe", düzene koymayı bu bitişik basamakların arasına yerleştirir.
+
+=== INSERT ===
+paragraph: 5
+after: gloss:biz her şeyi bir ölçüyle yarattık, source:54:49}.
+ref: 80:19
+text: İnsan söz konusu olduğunda aynı ikili tek ayete sığar: {ar:مِن نُّطْفَةٍ خَلَقَهُۥ فَقَدَّرَهُۥ, tr:min nutfetin halakahû fe-kaddarah, gloss:bir damladan yarattı, hemen ardından ona ölçü koydu, source:80:19}. Abese suresinde bu söz, "Kahrolası insan, ne nankördür" diyen ayetin {source:80:17} ve "Neyden yarattı onu?" sorusunun {source:80:18} cevabıdır. Yaratma ile ölçü arasında yine ara yoktur. Ölçüden sonra da yol anılır: {ar:ثُمَّ ٱلسَّبِيلَ يَسَّرَهُۥ, tr:ŝumme's-sebîle yesserah, gloss:sonra yolu ona kolaylaştırdı, source:80:20}. Yaratma, ölçü ve yol, ikinci ve üçüncü ayetin dizilişiyle aynı sırada durur.
+
+=== INSERT ===
+paragraph: 6
+after: Fiil ustanın titizliğini alır, kalıba muhtaçlığını almaz.
+ref: 82:8
+text: Düzene koymanın hemen ardından gelen cümle de bunu söyler. "Seni cömert Rabbine karşı ne aldattı?" diye insana seslenen surede {source:82:7} sözünün devamı şudur: {ar:فِىٓ أَىِّ صُورَةٍۢ مَّا شَآءَ رَكَّبَكَ, tr:fî eyyi sûratin mâ şâe rakkebek, gloss:seni dilediği biçimde kurdu, source:82:8}. Biçimi seçen bir örnek değil, dilektir.
+
+=== INSERT ===
+paragraph: 8
+after: Yani yaratılmış olmak, bir şeye yatkın olarak yapılmış olmaktır.
+ref: 17:84
+text: Kur'an bu yatkınlığı insanın işine bağlar. Peygamberden söylemesi istenen söz şudur: {ar:قُلْ كُلٌّۭ يَعْمَلُ عَلَىٰ شَاكِلَتِهِۦ, tr:kul kullun ya'melu alâ şâkiletih, gloss:de ki: herkes kendi yatkınlığına göre iş yapar, source:17:84}. Ayet sözü orada bırakmaz: {ar:فَرَبُّكُمْ أَعْلَمُ بِمَنْ هُوَ أَهْدَىٰ سَبِيلًۭا, tr:fe-rabbukum a'lemu bi-men huve ehdâ sebîlâ, gloss:Rabbiniz, yolca kimin daha doğru olduğunu en iyi bilendir, source:17:84}. Yatkınlık kişinin nasıl iş göreceğini gösterir, yolun doğruluğunu bilen ise yapıyı koyan Rabdir.
+
+=== INSERT ===
+paragraph: 9
+after: gloss:ve seni dengeledi, source:82:7} sözü bu denkliği ayrıca adlandırır.
+ref: 67:3
+text: Eksiksiz ve fazlasız olmanın göklerdeki sınanışı da Kur'an'da bellidir: {ar:ٱلَّذِى خَلَقَ سَبْعَ سَمَٰوَٰتٍۢ طِبَاقًۭا ۖ مَّا تَرَىٰ فِى خَلْقِ ٱلرَّحْمَٰنِ مِن تَفَٰوُتٍۢ ۖ فَٱرْجِعِ ٱلْبَصَرَ هَلْ تَرَىٰ مِن فُطُورٍۢ, tr:ellezî halaka seb'a semâvâtin tıbâkâ, mâ terâ fî halkı'r-rahmâni min tefâvut, fe'rci'i'l-basara hel terâ min futûr, gloss:yedi göğü kat kat yaratan O'dur; Rahman'ın yaratışında bir uyumsuzluk görmezsin, bakışı çevir de bak, bir çatlak görüyor musun, source:67:3}. Bakış iki kez daha çevrilse bile bitkin döner {source:67:4}. Fazlalık ve eksiklik bu yüzden gözle de sınanabilir.
+
+=== INSERT ===
+paragraph: 11
+after: Ay bu dengeye bir gecede varmaz, ince bir hilalden gece gece varır.
+ref: 10:5
+text: Kur'an bu gece gece varışı ölçü diliyle anlatır. Güneşi bir ışık, ayı bir nur kılan Allah için şöyle denir: {ar:وَقَدَّرَهُۥ مَنَازِلَ لِتَعْلَمُوا۟ عَدَدَ ٱلسِّنِينَ وَٱلْحِسَابَ, tr:ve kaddarahû menâzile li-ta'lemû adede's-sinîne ve'l-hisâb, gloss:ona konaklar ölçtü ki yılların sayısını ve hesabı bilesiniz, source:10:5}. Ayın her gecesi bir konaktır ve dengeye varış, insanın hesabına yarayan bu ölçülü yürüyüşün sonudur.
+
+=== INSERT ===
+paragraph: 15
+after: kusursuz bir insan, source:19:17} biçiminde görünür.
+ref: 19:10
+text: Aynı sıfat Zekeriya'nın alametinde de geçer. Yaşlandığını ve eşinin kısır olduğunu söyleyerek çocuk müjdesine şaşıran Zekeriya'ya, kendisinin daha önce hiçbir şey değilken yaratıldığı hatırlatılır: {ar:وَقَدْ خَلَقْتُكَ مِن قَبْلُ وَلَمْ تَكُ شَيْـًۭٔا, tr:ve kad halaktuke min kablu ve lem teku şey'â, gloss:daha önce, sen hiçbir şey değilken seni yarattım, source:19:9}. Alamet istediğinde de şu cevabı alır: {ar:ءَايَتُكَ أَلَّا تُكَلِّمَ ٱلنَّاسَ ثَلَٰثَ لَيَالٍۢ سَوِيًّۭا, tr:âyetüke ellâ tükellime'n-nâse ŝelâŝe leyâlin seviyyâ, gloss:alametin, sağlam bir halde üç gece insanlarla konuşmamandır, source:19:10}. Burada "seviyy" bedenin sağlam olduğunu söyler, susuş bir kusurdan gelmez. Sıfat yine bedende eksik bırakılmamış olan için kullanılır.
+
+=== INSERT ===
+paragraph: 15
+after: Tamamlanmış kalıp, içine konacak olana hazırlanmıştır.
+ref: 32:9
+text: Secde suresinde sıra aynı kalır, ruhun ardından alıcı organlar gelir. Her şeyin yaratılışını güzel kılan Allah'ın insanı çamurdan başlatıp soyunu hakir bir sudan kıldığı söylendikten sonra şöyle denir: {ar:ثُمَّ سَوَّىٰهُ وَنَفَخَ فِيهِ مِن رُّوحِهِۦ ۖ وَجَعَلَ لَكُمُ ٱلسَّمْعَ وَٱلْأَبْصَٰرَ وَٱلْأَفْـِٔدَةَ ۚ قَلِيلًۭا مَّا تَشْكُرُونَ, tr:ŝumme sevvâhu ve nefaha fîhi min rûhihî ve ce'ale lekumu's-sem'a ve'l-ebsâra ve'l-ef'ideh, kalîlen mâ teşkurûn, gloss:sonra onu düzene koydu, içine ruhundan üfledi; size kulağı, gözleri ve gönülleri kıldı; ne az şükrediyorsunuz, source:32:9}. Düzene konan beden, alacağı şeyin kapılarıyla birlikte kurulmuş olur. Ayetin kapanışı da bu kapıların nasıl kullanıldığına bakar.
+
+=== INSERT ===
+paragraph: 16
+after: bir delikanlının olgunluğunda tamamlanır ve ilim almaya hazır hale getirir.
+ref: 30:54
+text: Ömrün anlatısı olgunlukta bitmez. Rum suresi akışı iki yönlü verir: Allah insanı bir zayıflıktan yaratır, zayıflıktan sonra güç kılar ve ardından {ar:ثُمَّ جَعَلَ مِنۢ بَعْدِ قُوَّةٍۢ ضَعْفًۭا وَشَيْبَةًۭ, tr:ŝumme ce'ale min ba'di kuvvetin da'fen ve şeybeh, gloss:sonra güçten sonra bir zayıflık ve ağarmış saç kıldı, source:30:54}. Cümle şöyle kapanır: {ar:يَخْلُقُ مَا يَشَآءُ ۖ وَهُوَ ٱلْعَلِيمُ ٱلْقَدِيرُ, tr:yahluku mâ yeşâ', ve huve'l-alîmu'l-kadîr, gloss:dilediğini yaratır; O bilendir, güç sahibidir, source:30:54}. Olgunluk bu dalganın doruğudur. Doruk da iniş de aynı yaratıcının işi olarak anlatılır.
+
+=== INSERT ===
+paragraph: 18
+after: Fatiha'nın yoluna ait kelimeye başvurur.
+ref: 95:4
+text: Kur'an insanın yapısını anlatırken de doğrultu bildiren bir kelimeye başvurur. İncir, zeytin, Sina dağı ve güvenli belde üzerine yemin ettikten sonra şöyle der: {ar:لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍۢ, tr:le-kad halaknâ'l-insâne fî ahseni takvîm, gloss:andolsun insanı en güzel bir düzgünlükte yarattık, source:95:4}. "Takvîm", Fatiha'daki "mustekîm" ile aynı kökten gelir. İnsanın yaratılışı burada da doğruluk diliyle söylenir.
+
+=== INSERT ===
+paragraph: 23
+after: binicinin yerleştiği anda söylenecek söz olarak verilir.
+ref: 36:36
+text: Aynı ilgi cümlesi Yasin suresinde tesbihin kendisine bağlanır. Ölü yerin dirilmesi, ondan tane çıkarılması ve bahçelerin kurulması ayet olarak anıldıktan sonra şöyle denir: {ar:سُبْحَٰنَ ٱلَّذِى خَلَقَ ٱلْأَزْوَٰجَ كُلَّهَا مِمَّا تُنۢبِتُ ٱلْأَرْضُ وَمِنْ أَنفُسِهِمْ وَمِمَّا لَا يَعْلَمُونَ, tr:subhâne'llezî halaka'l-ezvâce kullehâ mimmâ tunbitu'l-ardu ve min enfusihim ve mimmâ lâ ya'lemûn, gloss:yerin bitirdiğinden, kendi nefislerinden ve bilmediklerinden bütün çiftleri yaratan arınmıştır, source:36:36}. Tesbih burada da "alleẕî" ile açılır ve ilgi cümlesinin fiili halaka'dır. Nesnesiz kalan fiilin kapsamı üç yere açılır: yerin bitirdiğine, insanın kendisine ve insanın henüz bilmediğine.
+
+=== INSERT ===
+paragraph: 23
+after: düzene konmuş bir sırtta dengesini bulur ve bunu kimin sağladığını anar.
+ref: 23:28
+text: Nuh'a gemiyi yapması vahyedilmiştir {source:23:27} ve ona şu söz öğretilir: {ar:فَإِذَا ٱسْتَوَيْتَ أَنتَ وَمَن مَّعَكَ عَلَى ٱلْفُلْكِ فَقُلِ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى نَجَّىٰنَا مِنَ ٱلْقَوْمِ ٱلظَّٰلِمِينَ, tr:fe-iẕe'steveyte ente ve men me'ake alâ'l-fulki fe-kuli'l-hamdu lillâhi'llezî necceynâ mine'l-kavmi'z-zâlimîn, gloss:sen ve seninle olanlar gemiye yerleştiğinizde "bizi zalimler topluluğundan kurtaran Allah'a hamdolsun" de, source:23:28}. Orada yerleşme anının sözü hamddir, burada tesbih. İkisi de aynı anı, bineğe oturmayı, onu sağlayan Rabbin anılması için kullanır.
+
+=== INSERT ===
+paragraph: 28
+after: ve dışarıda karşılığı olmayan bir şey kurar. Bu, ayetteki fiilin taklididir.
+ref: 74:19
+text: Müddessir suresi bu ölçmeyi bir kişi üzerinde gösterir. Allah o kişiyi {ar:ذَرْنِى وَمَنْ خَلَقْتُ وَحِيدًۭا, tr:ẕernî ve men halaktu vahîdâ, gloss:beni ve yalnız yarattığımı bırak, source:74:11} diye anar. Ardından onun için {ar:إِنَّهُۥ فَكَّرَ وَقَدَّرَ, tr:innehû fekkere ve kaddar, gloss:o düşündü ve ölçüp biçti, source:74:18} der ve {ar:فَقُتِلَ كَيْفَ قَدَّرَ, tr:fe-kutile keyfe kaddar, gloss:kahrolsun, nasıl ölçüp biçti, source:74:19}. Ölçüp biçtiğinin sonucu da şu sözdür: {ar:إِنْ هَٰذَآ إِلَّا قَوْلُ ٱلْبَشَرِ, tr:in hâẕâ illâ kavlu'l-beşer, gloss:bu, insan sözünden başka bir şey değil, source:74:25}. Üçüncü ayetteki "kaddera" fiili burada da geçer, ama bu kez yaratılmış birinin zihninde, yaratanın sözüne karşı işler.
+
+=== INSERT ===
+paragraph: 30
+after: Gerçekten yaratana çağıran söz "uydurma" diye suçlanır.
+ref: 56:59
+text: Yaratma sorusu inkâr edenin kendi elindeki şeye de çevrilir. Vakıa suresinde "Sizi biz yarattık, öyleyse neden doğrulamıyorsunuz?" {source:56:57} dendikten sonra {ar:أَفَرَءَيْتُم مَّا تُمْنُونَ, tr:e-fe-raeytüm mâ tumnûn, gloss:dökeceğiniz meniyi gördünüz mü, source:56:58} diye sorulur ve hemen ardından {ar:ءَأَنتُمْ تَخْلُقُونَهُۥٓ أَمْ نَحْنُ ٱلْخَٰلِقُونَ, tr:e-entum tahlukûnehû em nahnu'l-hâlikûn, gloss:onu siz mi yaratıyorsunuz, yoksa yaratan biz miyiz, source:56:59} denir. Ölçüt burada tanrı edinilenlerde değil, kendilerinden dökülen damlada konuşulur.
+
+=== LEDGER ===
+- added: 20:49 Firavun'un "Rabbiniz kim" sorusu, cevap bir işle verilir
+- added: 80:17-18, 80:20 Abese'de insanın damladan yaratılışı ve ardından yolun kolaylaştırılması
+- added: 74:18, 74:25 ölçüp biçen kişi ve ölçüsünün sonucu "insan sözü"
+- added: 67:4 bakışın bitkin dönmesi, kaynakla anıldı
+- added: 23:27 Nuh'a gemiyi yapmasının vahyedilmesi, kaynakla anıldı
+- added: 19:8-9 Zekeriya'nın şaşkınlığı ve "daha önce seni yarattım" hatırlatması
+- added: 56:57-58 Vakıa'da "sizi biz yarattık" ve meni sorusu
+- ignored: 36:39 ayın konakları - 10:5 aynı noktayı zaten taşıyor
+- ignored: 95:5 aşağıların aşağısına çevrilme - 95:4 eklemesinin hareketine katkısı yok, ifadesinden de tam emin olunmadı

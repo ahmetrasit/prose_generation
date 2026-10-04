@@ -1,0 +1,7 @@
+- added: 76:25-26 Rabbin adını anma ve geceleyin secde, 76:27'nin hemen öncesi - 87:15'in iki işiyle aynı yanyana duruş
+- added: 93:3, 93:5 Duhâ'da bırakılmama ve hoşnut edilme vaadi - 93:4'ün durumunu gösteriyor
+- added: 2:94 ölümü temenni çağrısı - 2:96'nın bağlamı
+- added: 69:19 kitabı sağından verilen - 69:23'ün bağlamı
+- ignored: 53:30 "bilgilerinin vardığı yer budur" - 30:7 aynı işi görüyor, yinelemek olur
+- ignored: 30:6 çoğunun bilmediği - ¶2'nin bilgisizlik değil sıralama vurgusuyla çatışırdı
+- ignored: 28:79-80 Kārûn'un şatafatı ve ilim sahiplerinin cevabı - hiçbir paragrafın hareketine yeni bir şey katmıyor

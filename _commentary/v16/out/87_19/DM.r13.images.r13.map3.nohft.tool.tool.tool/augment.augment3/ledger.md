@@ -1,0 +1,5 @@
+- added: 14:5 Musa'ya "kavmini nura çıkar ve hatırlat" emri - aynı "hatırlat" kökü, Peygamber'in görevine denk düşer; ayetin sözleri kesin hatırlanmadığı için yalnız kaynağıyla anıldı
+- added: 19:41, 19:51 İbrahim ve Musa'nın "Kitap'ta an" çağrısıyla tanıtılması - son ayetteki iki adın kimlere ait olduğunu açar
+- ignored: 26:192-195 Kur'an'ın Peygamber'in kalbine inişi - 26:196'nın bağlamı olarak düzyazıda anıldı, ayrı bir ekleme gerekmedi
+- ignored: 21:48 Musa ve Harun'a verilen "zikr" - 14:5 ile aynı noktayı söyler, ayetin tam sözleri kesin değil
+- ignored: 20:25-28 Musa'nın dilinin çözülmesi duası - paragrafların hareketine bir şey katmaz

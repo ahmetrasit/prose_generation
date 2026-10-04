@@ -1,0 +1,5 @@
+- added: 17:97 ateş de yatışmaya bırakılmaz, yatışınca artırılır - ¶8'in "dinmek/yenilenmek" düşüncesini ateşin tarafından tamamlıyor
+- ignored: 69:27 sol elinden kitap verilenin "keşke bitirici ölüm olsaydı" demesi - ¶7'de 43:77 ve 35:36 ile aynı şeyi gösteriyor, yeni bir şey katmıyor
+- ignored: 104:7 ateşin kalpler üzerine çıkması - ¶9'u kalabalıklaştırır, yorum kelimenin tek bir karşılığına dayanır
+- ignored: 19:72 sonra kurtarılanlar, zalimler orada bırakılır - ¶3'te "sonra" dizileri zaten kalabalık
+- ignored: 84:11-12 yok olmayı isteyip yanmak - ¶7'deki 43:77 ve ledger'da dışarıda bırakılan 25:13-14 ile aynı

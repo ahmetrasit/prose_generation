@@ -1,0 +1,3 @@
+- added: 25:5 inkârcıların "yazdırılıyor" itirazı, ¶9'daki işitme/okuma ayrımını karşı yönden tamamlar
+- ignored: 7:157 Peygamber'in Tevrat ve İncil'de yazılı bulunması - söz değil kişiyi anlatır, ¶4'ün hareketini değiştirmez
+- ignored: 26:137 Âd kavminin "öncekilerin huyu" demesi - 8:31 ile aynı işi görür, tekrar olurdu

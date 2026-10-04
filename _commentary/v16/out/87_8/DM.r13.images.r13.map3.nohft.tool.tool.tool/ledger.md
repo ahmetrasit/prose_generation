@@ -1,0 +1,10 @@
+- memory: yusrā is the feminine elative (fuʿlā) of aysar
+- memory: Turkish "müyesser" is the passive participle of yassara and in Turkish is said of things, not persons
+- not written: B004 left hand/left side - Quran uses shimāl for the left; no theme here
+- not written: B002 yasīr "little, easy" (e.g. "easy for God") - would scatter the focus
+- not written: B006 sheep abundant in milk - fixed idiom, no link to the ayah's act
+- not written: B008 palm creases / thigh brand - no bearing
+- not written: B009 twisting downward, thrust at face level - no bearing
+- not written: B010 place and person names, B011 young man - no bearing
+- not written: 65:7 and 65:4 (ease after hardship, ease for the pious) - covered by 94:5-6 and 92
+- not written: 18:88 Dhul-Qarnayn "yusrā" from our command - adds nothing to the theme

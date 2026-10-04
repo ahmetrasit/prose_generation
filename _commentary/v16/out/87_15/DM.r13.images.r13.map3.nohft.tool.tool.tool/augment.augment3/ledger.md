@@ -1,0 +1,9 @@
+- added: 2:151 Allah's sending of the messenger who purifies the believers, named by source before 2:152
+- added: 32:14 deniers told to taste the punishment for forgetting the meeting, named by source as context for 32:15
+- added: 18:23 do not say "tomorrow I will do this" without "if Allah wills", named by source as context for 18:24
+- added: 59:18 each soul to look at what it has prepared for tomorrow, named by source as context for 59:19
+- added: 7:204 listening and being silent when the Quran is recited, mentioned in plain words before 7:205
+- added: 15:97 the messenger's chest is narrowed by what they say, context for 15:98
+- added: 20:32 Musa asks that his brother share his task, context for 20:33-34
+- added: 21:72 Ibrahim given Ishaq and Yaqub, context for 21:73
+- ignored: 70:19-21 restless human, exception of those who pray - the portrait is already placed between the two warnings and the passage would not change it

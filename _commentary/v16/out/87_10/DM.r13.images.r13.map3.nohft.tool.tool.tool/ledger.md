@@ -1,0 +1,12 @@
+- memory: Form V tafa''ala as reflexive/receptive counterpart of Form II ḏakkara
+- memory: yaḏḏakkaru = yatadhakkaru with ta' assimilated into ḏāl
+- memory: sa- prefix marks near, certain future
+- memory: Turkish "zikir" narrowed to ritual repetition; "tezekkür" now means deliberation/discussion
+- not written: ذ ك ر B001 male, male offspring - no bearing on remembering here
+- not written: ذ ك ر B002 hard steel, sharp sword, strong man - would replace, not accompany, the sense
+- not written: ذ ك ر B006 scripture named dhikr - belongs to 87:18-19 pages chain, surah commentary
+- not written: ذ ك ر B007 honour, renown - no grounding in this ayah's situation
+- not written: ذ ك ر B008 deed of right (dhikr haqq) - no link to theme
+- not written: خ ش ي B003 khashya as dislike, said of God - concerns another passage, irrelevant to the human fearer
+- not written: خ ش ي B004 shrivelled dates, dry meat - marked as outside the root's core; tying it to 87:5's chaff would be speculative
+- not written: 87:11 avoidance and janb imagery, 79:19 Pharaoh scene - belong to the surah commentary's shared scene; only recalled

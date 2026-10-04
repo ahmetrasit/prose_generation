@@ -1,0 +1,13 @@
+- memory: qad + perfect verb marks a realized, certain fact
+- memory: tafa''ul form tazakkâ is the reflexive/effortful counterpart of zakkâ
+- memory: yazzakkâ and yadhdhakkaru are assimilated forms of yatazakkâ and yatadhakkaru
+- memory: dassâhâ means buried/concealed it
+- memory: Turkish usage of "fellah", "iflah olmaz", "zekât", "tezkiye"
+- not written: ف ل ح B002 split lip - no work in any theme
+- not written: ف ل ح B004 hired carrier likened to farmer - no theme
+- not written: ف ل ح B007 dressing up a sale, deceit - a link to the near life in ayah sixteen has no ground
+- not written: ز ك و B004 "does not befit" - fixed expression, no theme
+- not written: ز ك و B005 even/pair, odd-even game - too weak against the surah's twofold division
+- not written: field scene with خرج, ربب, بقي - belongs to the surah commentary, only recalled
+- not written: 48:29, 56:63-65, 42:20, 6:141 - support the shared field scene, not this ayah's own words
+- not written: who speaks in 20:74-76 - left open, the Quran text does not say outright

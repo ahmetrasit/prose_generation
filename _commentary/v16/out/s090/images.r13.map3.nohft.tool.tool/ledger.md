@@ -1,0 +1,10 @@
+- not developed: Right and left, Yemen/Sham members - places not named in the Quran
+- not developed: Right and left, Quraysh trade-journey note - report from outside the Quran
+- not developed: Made body, lung (رئة) member - too remote to carry the image
+- not developed: Mouth, فككت الصبي member - not needed
+- not developed: Measuring, istiqsam bi'l-azlam member - not needed
+- memory: هاوية (101:9) shares root ه و ي with هوى in the iqtiham definition
+- memory: تردّى (92:11) read as falling down
+- memory: صعود (74:17) read as steep slope
+- memory: أوعى (70:18) read as storing in a container
+- memory: لِبَدًا (72:19) read as crowding on someone in packed layers

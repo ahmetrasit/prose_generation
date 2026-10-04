@@ -1576,3 +1576,122 @@ candidates but no reader review. Only the map reads the channel review, so only 
   `check: ok|failed`. 107:1 rechecked through it gives the saved summary.
 - The 107:1 writer packet rebuilt with these changes differs from the saved one only in the machine path of
   missing.py.
+
+## S87 readings and augment3 (user, 2026-10-03)
+
+19 readings $21.65 (est $25.36; 0.68–1.13 × estimate) + 19 augments $8.30 = $29.95, $1.58 per ayah. Map and images
+were $8.46, so S87 end to end cost $38.41, $2.02 per ayah. All calls ok, every ledger row `check: ok`, 4 refused compound commands (none ran).
+Augments: 6–21 insertions per ayah, all applied. Augmented texts: 1,516 tags, 1,514 sourced.
+- 87:6 and 87:7: 14 dictionary flags (ق ر ء, ش ي ء) were the checker's (see the next section); one remains: «القراءة
+  ضم الحروف والكلمات بعضها إلى بعض في الترتيل» cited to B001, which holds the phrase without «في الترتيل» (the S87
+  images carry the same quote). 87:6 also labels a quote of 19:23 as 19:22: the writer looked up both and tagged the
+  second with the first's ref. 87:2: a lone «فَ» the checker cannot match.
+- 87:3 augment: a 36:38 quote with a Latin letter in place of ر («تَقْدِيrُ»), flagged as not in the ayah. The augment
+  prompt lists 36:38 correctly (missing.py), so this is a copying slip, plus one unsourced tag.
+- Bare Arabic outside tags (the focus ayah's own words, all sourced) in 13 of 19 readings, 2–13 each. S100 and S107 had
+  none. "denir" 3–30 per reading.
+
+## Checker: a root split into two dictionary entries (user, 2026-10-03)
+
+Eleven letter strings name two root ids in the dictionary (ق ر ء: root_001210 with 13 branches, root_001211 with 6;
+ش ي ء, ب د ء, ب ر ء, ب ك ي, ب و ء, ج ي ء, د ر ء, ض و ء, ط ف ء, م ر ء …). The packet shows the writer both entries,
+and a source like "ق ر ء,B004" cannot say which one. `check.py` mapped letters to an id with a dict, so the last
+id won silently and every quote from the first entry failed ("quote not in this branch", "branch not found").
+
+Fix (`review/e0/checks/check.py`, `verify_source`): every root id with the cited letters is tried. The quote decides:
+ok if it is in the cited branch of any of them (the record gives `root_ids`, and `also_in` when it is in both).
+A citation without a quote whose branch exists in both is `ok (no quote; ambiguous root)`, never resolved
+silently. selftest: 37/37 pass. Not refrozen: `FROZEN.sha256` was already stale (check.py and common.py had changed
+since the freeze); `python3 scorecard.py --freeze` is the user's call.
+
+Rechecked (old records in the session scratchpad): S87 readings and augments, S87–S95 images. Gone: 87:6 11 flags,
+87:7 3, S87 images 5 of 6, S89 images 2 of 3 (one "branch not found"). Unchanged: S90 (ك ف ر), S93 (و ج د; 17:24
+tagged 24:17), S94 (9:120, ع س ر/ي س ر crossed, «فَ»), S89 (س و ط): these are the writers' own mismatches.
+
+**Hand corrections (user, 2026-10-03).** These were applied to the final augmented texts only. `augment.raw.md` and the
+readings stay as the model wrote them. Each fix is logged in `corrections.json` beside the file, and both texts were rechecked:
+- 87:6: «يَٰلَيْتَنِى مِتُّ …» tagged 19:22 → 19:23. Recheck: one flag left, the «في الترتيل» quote, kept by choice.
+- 87:3: «تَقْدِيrُ» → «تَقْدِيرُ» (36:38). Recheck: every source ok, 0 unsourced; this was the earlier unsourced tag.
+
+## augment4 (user, 2026-10-03)
+
+The S87 augment3 review found these faults:
+- 103 of 230 insertions sat mid-paragraph, and 25 of those broke a reference or the line of an argument ("Aynı ayette" now
+  pointing to 4:77; "Bu sahnede" to 25:62; a "Bazen… Bazen…" pair split).
+- Paragraph and reading endings were taken over by additions.
+- The texts grew +28%, with a one-template phrasing and summary closers.
+- Speakers were named where disputed (12:53, 20:123); 19 passages were repeated across pages; process words appeared.
+- One anchor drop was silent.
+
+**Brief changes (`prompts/augment4/augment.md`):**
+- Each addition is its own paragraph directly after ¶n (user's choice (a)); the commentary's paragraphs are untouched.
+- At most one addition per paragraph, none after the last, and well under a tenth of the reading's length in all.
+- Each addition is 2–4 sentences, about 60 words, with no formula opener and no summary closer.
+- Where the speaker or referent is disputed, name nobody. Name other surahs explicitly.
+- Process words are banned by name, and listed Arabic is copied letter for letter.
+
+**Script changes (`augment.py`):**
+- `--model opus|sonnet`, with Sonnet as the default; an Opus run writes to `augment.<brief>.opus`.
+- `OWN_PARAGRAPH` briefs are placed by paragraph number (`apply_own`), with no anchor.
+- Every refused addition and every checker issue inside an addition is printed as a WARNING. The ledger row records
+  `not_applied` and `insert_issues`.
+- Re-applying the 19 saved augment3 outputs reproduces them byte for byte.
+
+**87:10 with Opus 5.5 high: $0.40** (est $0.69). That is 5.9k output tokens (4.6k thinking) and 62 s, against Sonnet
+augment3's $0.39, 25.2k output (19.7k thinking) and 191 s.
+- 4 additions, all applied: 39:21, 79:45, 39:23, 20:14. All four were also in Sonnet's 13.
+- +236 words (+11.2%, slightly over the soft tenth); 20:14 runs 75 words.
+- No checker issue in the additions: every source ok, no untagged Arabic, no process word.
+- The ledger weighed two passages from its own knowledge and ignored both.
+- No reference in the reading broke. Three of the four following paragraphs open with a back-reference ("Ayet…",
+  "Aynı kelimeler…", "Bu yolun…") that now jumps over the added paragraph; all three still read correctly.
+- With no Sonnet augment4 control, the gain cannot be split between the brief and the model.
+
+## augment5: complete QeQ, every passage judged (user, 2026-10-03)
+
+Augment exists to supply the Quran-explains-Quran links (QeQ) a reading is missing (user). Every listed passage is
+judged against every paragraph, and there are no caps. A relevant passage is added to each paragraph it serves that
+does not already cite it, even when it is cited elsewhere on the page, in the surah images or in another reading:
+- as prose (speaker, situation, the mechanism of the link, what it adds), once, where it changes understanding most;
+- otherwise as a reference with its link in a few words, in the paragraph's one "Ayrıca:" line.
+
+The agent also adds relevant ayat from its own knowledge. It writes a verdict line for every listed passage, and for
+every passage of its own that it weighed.
+
+**Brief:** `prompts/augment5/augment.md`.
+
+**Script (`augment.py`, `VERDICT` briefs):**
+- `passages()` keeps the passages the reading cites and marks each with the paragraphs that cite it ("[cited in ¶13]").
+- `apply_marked` places each prose addition, then the reference line, as blocks of their own after the paragraph.
+  It refuses, with a WARNING: a passage the paragraph already cites, a second reference line for one paragraph, no
+  such paragraph, empty text.
+- `verdict_report` lists passages with no verdict, verdicts with no matching addition, and additions with no
+  verdict. It writes `verdict_report.json` and adds counts to the ledger row.
+- The estimate assumes 35k output tokens. 87:10's dry build: 165 passages, ~36.7k tokens in, est $0.99 (Opus 5.5 high).
+
+**Tag (user: show/hide the augment step).** Each added block starts with a marker line:
+`<!-- v16:augment brief=augment5 model=opus para=9 kind=prose ref=39:21 -->` (kind=refs for the reference line).
+- It conflicts with neither v16's reader tags ({ar:…, source:…}) nor enrichment v2's block lines ({id:…}) and page
+  header (<!-- schema:zenginlestirme …). It is invisible in Markdown views.
+- v16's and enrichment's paragraph splitters both count a marked block as one prose paragraph (21 = 21 on a test).
+- `strip_augment()` removes the marked blocks and gives back the reading byte for byte (asserted on every apply).
+- check.py runs unchanged on marked text.
+
+Tests: the augment3 (19/19) and augment4 outputs re-apply byte for byte. A synthetic augment5 result exercises every
+refusal and every verdict-report case.
+
+**87:10 with augment5, Opus 5.5 high: $1.49** (est $0.99). 60.0k output tokens (46.7k thinking), 36.1k cache write, 557 s.
+- Verdicts: 165 listed passages plus 20 from the model's own knowledge = 185 verdict lines, none missing; 110
+  relevant, 75 not relevant.
+- Added: 13 prose additions (44–107 words, 960 words) and 17 "Ayrıca" lines naming 96 passages (582 words). The
+  reading grew from 2,101 to 3,643 words (+73%); it is hideable through the markers.
+- check: all 156 sources ok, no untagged Arabic, no process word, nothing unsourced in the additions.
+- 20:123 is given without naming anyone ("İkiniz birlikte oradan inin").
+- The prose states its mechanisms: 51:55 "çünkü" in place of 87:9's "eğer"; 39:23 fear, then "summa" softening to
+  ḏikr; 79:45 the same verb with its object, the Hour; 32:15 the passive of 87:9's verb answered by prostration and
+  tesbih; 18:57 «kaddeme» linking to 89:24.
+- Weak spots, in the Ayrıca lines: opaque links ("aynı ifade" ×3, "aynı emir", "aynı soru" ×4 for the 54:17
+  refrain); a word-only link (2:282, a witness reminding another), against the brief; a heavy ¶2 line with 17 refs.
+- First run of the verdict report: 12 false mismatches, for context ayat quoted inside another prose addition
+  (79:42–44 in 79:45). Fixed: a passage cited in any prose addition of the paragraph counts. Rerun on the saved
+  output: 0 missing, 0 mismatch, 0 unjudged; the merged text re-applies byte for byte.
