@@ -1,0 +1,104 @@
+- 19:97: not relevant - ¶9'da zaten anılıyor, başka paragrafa bir şey katmıyor
+- 44:58: ref ¶8 - dile kolaylaştırılan söz öğüt alsınlar diye verilir
+- 54:40: ref ¶9 - öğüt için kolaylaştırılan Kur'an nakaratı
+- 65:7: ref ¶16 - darlıktaki kişinin harcaması ve darlıktan sonra kolaylık; 94. surede olmayan harcama ve imkân bağlamını ¶16'ya katıyor
+- 73:20: not relevant - ¶10'da zaten anılıyor, başka paragrafa bir şey katmıyor
+- 80:19: ref ¶18 - aynı Rab yaratıp ölçer, ardından kolaylaştırır
+- 80:20: not relevant - ¶2'de zaten anılıyor
+- 92:5: ref ¶14, ¶16 - veren ve sakınan kişi en kolaya hazırlanır
+- 92:6: ref ¶14 - en güzeli doğrulamak
+- 92:7: not relevant - ¶14'te zaten anılıyor
+- 92:8: ref ¶14 - en zora hazırlananın cimriliği ve kendini ihtiyaçsız sayması
+- 92:9: ref ¶14 - en güzeli yalanlamak
+- 92:10: not relevant - ¶14'te zaten anılıyor
+- 92:11: not relevant - ¶16'da zaten anılıyor
+- 94:5: ref ¶7 - zorlukla birlikte kolaylık sözünün ilk söylenişi
+- 94:7: not relevant - ¶12'de zaten anılıyor
+- 2:185: ref ¶4 - yüsr ile usr karşıt olarak yan yana anılır
+- 2:280: not relevant - ¶16'da zaten anılıyor
+- 2:286: ref ¶11 - gücün ötesinde yük yüklenmez, yük taşınabilir kılınır
+- 4:28: ref ¶10 - Allah zayıf insanın yükünü hafifletmek ister
+- 5:6: ref ¶10 - hastaya ve yolcuya ruhsat, Allah güçlük istemez
+- 5:90: not relevant - ¶17'de zaten anılıyor; ¶18 ondan söz ediyor
+- 7:157: ref ¶7 - ağır yükün ve bukağıların kaldırılması
+- 17:28: ref ¶2 - meysûr söz: yumuşaklık anlamı
+- 18:88: ref ¶14 - iman edene en güzel karşılık ve kolay buyruk; ¶14'teki ayrımın en güzel ile kolay ikilisini yineliyor
+- 20:25: ref ¶2 - Musa işin kolaylaşmasından önce kendi göğsünün açılmasını ister
+- 20:26: not relevant - ¶2'de zaten anılıyor
+- 20:27: prose ¶9 - dilin söze açılması, aynı dua ve aynı sahne
+- 20:28: context ¶9 (in 20:27) - sözün dinleyende anlaşılması
+- 20:34: not relevant - burada Allah'ı anmak söz konusu, öğüt vermek değil
+- 22:78: ref ¶10 - dinde güçlük kılınmaz
+- 36:4: not relevant - yolun niteliğiyle ilgili; ayetin konusu yolcunun hazırlanması
+- 50:44: not relevant - "Allah'a kolay" anlamında yesîr, başka bir anlam
+- 50:45: ref ¶11 - Kur'an'la, korkana öğüt verme emri
+- 51:3: not relevant - ¶7'de zaten anılıyor
+- 51:4: ref ¶18 - buyruğu paylaştıranlar: buyrukla yapılan paylaştırma
+- 54:17: not relevant - ¶9'da zaten anılıyor
+- 57:22: not relevant - "Allah'a kolay" anlamında yesîr; konusu musibet, paylaştırma değil
+- 65:4: ref ¶14 - sakınana işinde kolaylık; takvanın kolaylığa götürdüğünü 92. sure dışında da açıkça söylüyor
+- 74:10: ref ¶4 - zor gün "kolay olmayan" diye tanımlanır
+- 79:19: not relevant - orada içi titreme yol göstermenin sonucu, öğüdün şartı değil
+- 84:8: ref ¶4 - kolay hesap: kolaylık bir son olarak anılır
+- 90:10: ref ¶14 - insana iki yol gösterilir
+- 91:8: ref ¶14 - nefse iki yön ilham edilir
+- 92:4: ref ¶14 - çabalar ayrı yönlere dağılır
+- 92:12: not relevant - ¶15'te zaten anılıyor
+- 94:2: not relevant - ¶7'de zaten anılıyor
+- 94:3: not relevant - ¶7'de zaten anılıyor
+- 94:6: not relevant - ¶7'de zaten anılıyor
+- 94:8: not relevant - ¶12'de zaten anılıyor
+- 54:22: ref ¶9 - öğüt için kolaylaştırılan Kur'an nakaratı
+- 12:65: not relevant - "az ölçü" anlamında yesîr
+- 41:41: not relevant - yüklemi söylenmemiş bir cümle; ¶13'ü 74:49 ve 41:44 karşılıyor
+- 54:32: ref ¶9 - öğüt için kolaylaştırılan Kur'an nakaratı
+- 81:26: not relevant - yalnız soru, kolaylıkla bağı yok
+- 97:1: not relevant - indirilme gecesi, kolaylıkla bağı yok
+- 2:196: ref ¶10 - kolay bulunan ölçü olur
+- 2:219: not relevant - ¶17'de zaten anılıyor
+- 4:30: not relevant - "Allah'a kolay" anlamında yesîr
+- 5:91: prose ¶18 - meysirin alıkoyduğu anmak ve namaz, 87:15'te kurtuluşa erenin işleri
+- 6:128: not relevant - bağ yok
+- 13:33: not relevant - bağ yok
+- 15:39: not relevant - süsleyip saptıran İblis, hazırlayan Rab değil
+- 22:70: not relevant - "Allah'a kolay" anlamında yesîr
+- 25:46: not relevant - "yavaş yavaş" anlamında yesîr
+- 26:90: not relevant - bağ yok
+- 29:19: not relevant - "Allah'a kolay" anlamında yesîr
+- 31:3: not relevant - bağ yok
+- 41:44: ref ¶13 - aynı söz birine şifa, ötekine kulakta ağırlık
+- 47:5: not relevant - bağ yok
+- 72:6: not relevant - bağ yok
+- 74:7: not relevant - yapı 94:8'e benziyor ama kolaylıkla bağı yok
+- 74:17: ref ¶7 - inat edene yüklenen sarp yokuş, kolay çıkılan yokuşun karşıtı
+- 84:19: not relevant - bağ yok
+- 89:4: not relevant - kökü farklı (s-r-y)
+- 93:5: not relevant - yalnız gelecek kipinde bir vaat, ¶1'i tamamlamıyor
+- 94:1: ref ¶7 - yük indirilmeden önce göğsün açılması
+- 94:4: not relevant - bağ yok
+- 26:219: not relevant - bağ yok
+- 75:17 own: prose ¶1 - toplamak ve okutmak "biz" diyenin üzerinde
+- 75:16 own: context ¶1 (in 75:17) - dili acele ettirmeme
+- 80:4 own: prose ¶8 - öğüdün fayda vermesi aynı kelimelerle
+- 80:1 own: context ¶8 (in 80:4) - sahnenin açılışı
+- 80:2 own: context ¶8 (in 80:4) - âmânın gelişi
+- 80:5 own: context ¶8 (in 80:4) - kendini ihtiyaçsız sayan
+- 80:6 own: context ¶8 (in 80:4) - ona yönelinmesi
+- 80:9 own: context ¶8 (in 80:4) - içi titreyerek gelen
+- 20:124 own: prose ¶13 - zikirden yüz çevirme ve dar geçim, bedbahtlığın karşılığı
+- 20:123 own: context ¶13 (in 20:124) - yol göstermeye uyan bedbaht olmaz
+- 87:15 own: context ¶18 (in 5:91) - anmak ve namaz
+- 88:21 own: ref ¶8 - öğüt verme emri, Peygamber öğüt verendir
+- 88:22 own: ref ¶8 - öğüt veren zorba değildir
+- 90:11 own: ref ¶6 - sarp yokuş
+- 74:2 own: ref ¶12 - "kalk ve uyar"
+- 20:44 own: ref ¶11 - öğüt alma ve içi titreme için yumuşak söz
+- 74:49 own: ref ¶13 - öğütten yüz çevirme
+- 96:7 own: ref ¶16 - kendini ihtiyaçsız gören insan
+- 96:6 own: not relevant - bağ 96:7'de
+- 89:15 own: ref ¶16 - bollukla sınanma
+- 89:16 own: ref ¶16 - darlıkla sınanma
+- 5:3 own: ref ¶17 - payı fal oklarıyla arama yasağı
+- 43:32 own: ref ¶18 - geçimi "biz" diyen paylaştırır
+- 74:9 own: not relevant - 74:10 yeterli
+- 92:16 own: not relevant - ¶15'e bir şey katmıyor

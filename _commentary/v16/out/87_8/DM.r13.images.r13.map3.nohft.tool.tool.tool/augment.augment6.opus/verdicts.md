@@ -1,0 +1,103 @@
+- 19:97: not relevant - ¶9'da zaten anılıyor; başka paragrafa yeni bir bağ katmıyor
+- 44:58: not relevant - ¶9'da zaten anılıyor; başka paragrafa yeni bir bağ katmıyor
+- 54:40: ref ¶9 - öğüt için kolaylaştırma nakaratı, 54:17'nin diğer yerleri
+- 65:7: prose ¶16, ref ¶11 - varlıklının ve darlıktakinin harcaması, zorluktan sonra kolaylık; gücü aşan yük yüklenmemesi
+- 73:20: not relevant - ¶10'da zaten anılıyor; başka paragrafla bağı zayıf
+- 80:19: prose ¶18 - ölçme ile kolaylaştırmanın aynı sırayla yan yana gelmesi
+- 80:20: prose ¶18 - 80:19 ile birlikte, ölçünün ardından yolun kolaylaştırılması
+- 92:5: ref ¶14, ¶16 - en kolaya hazırlananın vasfı; malını veren
+- 92:6: ref ¶4, ¶14 - ismi düşürülmüş "en güzel"; kolaya hazırlananın vasfı
+- 92:7: ref ¶4 - aynı "en kolay"ın karşıtıyla birlikte anılışı
+- 92:8: ref ¶14 - en zora hazırlananın vasfı
+- 92:9: ref ¶4, ¶14 - ismi düşürülmüş "en güzel"; zora hazırlananın vasfı
+- 92:10: ref ¶4 - yusrânın karşısına konan usrâ
+- 92:11: not relevant - ¶16'da zaten anılıyor; başka paragrafa bağ katmıyor
+- 94:5: ref ¶4, ¶7 - yüsr ile usrün yan yana konması; aynı sözün ilk söylenişi
+- 94:7: not relevant - ¶12'de zaten anılıyor
+- 2:185: ref ¶4 - kolaylık ile zorluğun karşıtlığı
+- 2:280: not relevant - ¶16'da zaten anılıyor; başka paragrafla bağı yok
+- 2:286: ref ¶11 - kimseye gücünün üstünde yük yüklenmemesi
+- 4:28: ref ¶10 - Allah'ın hafifletmek istemesi
+- 5:6: ref ¶10 - hasta ve yolcuya teyemmüm kolaylığı, güçlük istenmemesi
+- 5:90: not relevant - ¶17'de anılıyor, ¶18 onu zaten anlatıyor
+- 7:157: prose ¶7 - aynı fiille yükün indirilmesi; yükü indirilenin başkalarının yükünü indirmesi
+- 17:28: ref ¶2 - kökün "yumuşak davranmak" anlamında kolay söz
+- 18:88: ref ¶14 - inanana en güzel karşılık ve kolay söz, iki yönlü hüküm
+- 20:25: prose ¶9 - Musa'nın göğüs açılması duası, Peygamber'e verilen göğüs açılması
+- 20:26: not relevant - ¶2'de zaten anılıyor; ¶9'daki eklemede duanın bağlamı olarak geçiyor
+- 20:27: prose ¶9 - dilin düğümünün çözülmesi; dilin söze hazır olması
+- 20:28: prose ¶9 - sözün anlaşılması için dilin çözülmesi
+- 20:34: not relevant - Allah'ı anmak, öğüt vermek anlamında değil; yalnız kök ortak
+- 22:78: ref ¶12 - hakkıyla cihad ile dinde güçlük olmamasının aynı ayette durması
+- 36:4: ref ¶6 - Peygamber'in üzerinde bulunduğu dosdoğru yol
+- 50:44: not relevant - Allah için kolay olan haşir; yalnız kök ortak
+- 50:45: ref ¶11 - Kur'an'la tehdidinden korkana öğüt verme
+- 51:3: not relevant - ¶7'de zaten anılıyor
+- 51:4: ref ¶18 - işi emirle bölüştürenler; payın okla değil emirle verilmesi
+- 54:17: not relevant - ¶9'da zaten anılıyor; nakaratın diğer yerleri ¶9'a eklendi
+- 57:22: not relevant - Allah için kolay olan yazgı; yalnız kök ortak
+- 65:4: ref ¶14 - sakınana işinde kolaylık
+- 74:10: ref ¶4 - inkârcılar için o günün kolay olmaması, sondaki kolaylığın karşıtı
+- 79:19: ref ¶11 - yol göstermenin içi titremeye bağlanması
+- 84:8: ref ¶4 - sonda kolay hesap
+- 90:10: ref ¶14 - insana iki yolun gösterilmesi
+- 91:8: ref ¶14 - nefse iki yönün bildirilmesi
+- 92:4: ref ¶14 - çabaların farklı oluşu, terazinin öncülü
+- 92:12: ref ¶6 - yol göstermenin "biz"e düşmesi
+- 94:2: not relevant - ¶7'de zaten anılıyor
+- 94:3: not relevant - ¶7'de zaten anılıyor
+- 94:6: ref ¶4 - yüsr ile usrün yan yana konması
+- 94:8: not relevant - ¶12'de zaten anılıyor
+- 54:22: ref ¶9 - öğüt için kolaylaştırma nakaratı
+- 12:65: not relevant - kolay bir ölçek; yalnız kök ortak
+- 41:41: ref ¶13 - öğüt geldiğinde onu inkâr edenler
+- 54:32: ref ¶9 - öğüt için kolaylaştırma nakaratı
+- 81:26: not relevant - tek başına ayetin konusuyla bağı yok
+- 97:1: not relevant - Kur'an'ın inişi 2:185 ile zaten anılıyor; kolaylıkla bağı yok
+- 2:196: ref ¶2 - istaysara'nın "hazır hâle gelmek" anlamı
+- 2:219: not relevant - ¶17'de zaten anılıyor
+- 4:30: not relevant - Allah için kolay olan ceza; yalnız kök ortak
+- 5:91: prose ¶18 - meysirin alıkoyduğu zikir ve namaz, surede kurtuluşa erenin işleri
+- 6:128: not relevant - "Allah'ın dilediği" istisnası yalnız lafız ortaklığı
+- 13:33: not relevant - kolaylaştırma ya da öğütle doğrudan bağı yok
+- 15:39: not relevant - şeytanın süslemesi, ayetin konusuna değmiyor
+- 22:70: not relevant - Allah için kolay olan bilgi; yalnız kök ortak
+- 25:46: not relevant - gölgenin yavaşça çekilmesi; yalnız kök ortak
+- 26:90: not relevant - cennetin yaklaştırılması, kolaylıkla bağ kurmuyor
+- 29:19: not relevant - Allah için kolay olan yaratma; yalnız kök ortak
+- 31:3: not relevant - genel hidayet ifadesi, paragraflarla özel bağı yok
+- 41:44: not relevant - Kur'an'ın dili tartışması, kolaylaştırmayı anmıyor
+- 47:5: not relevant - yol gösterme vaadi genel, paragraflara özgü bağı yok
+- 72:6: not relevant - konuyla bağı yok
+- 74:7: ref ¶12 - Rab için sabırla tamamlanan uyarma emri
+- 74:17: ref ¶14 - inkâr edene sarp yokuşun yüklenmesi
+- 84:19: not relevant - hâlden hâle geçiş, binek resmiyle bağı zorlama olur
+- 89:4: not relevant - farklı kök (s-r-y)
+- 93:5: ref ¶18 - Rabbin Peygamber'e vereceği vaat
+- 94:1: prose ¶9 - Musa'nın istediği göğüs açılmasının Peygamber'e verilmesi
+- 94:4: not relevant - zikrin yüceltilmesi, öğüt vermek anlamında değil
+- 26:219: ref ¶10 - secde edenler arasında Peygamber'i gören Rab
+- 75:16 own: prose ¶1, ref ¶9 - okutmanın "biz"e düşmesi; dilin acele etmemesi
+- 75:17 own: prose ¶1 - toplamak ve okutmanın "biz"e düşmesi
+- 20:7 own: ref ¶1 - açığı ve gizliyi bilen Rab
+- 20:114 own: ref ¶1 - vahiy tamamlanmadan acele etmeme
+- 20:50 own: ref ¶6 - yaratıp sonra yol gösteren Rab
+- 90:11 own: ref ¶6 - aşılması istenen sarp yokuş
+- 51:55 own: ref ¶8 - öğüdün müminlere fayda vermesi
+- 80:3 own: ref ¶8 - öğüdün fayda vereceği kişi
+- 80:4 own: ref ¶8 - öğüdün fayda vermesi
+- 88:21 own: ref ¶8 - Peygamber'in işinin hatırlatmak olması
+- 88:22 own: ref ¶8 - zorla hükmetmemesi
+- 26:218 own: ref ¶10 - kalkışını gören Rab
+- 36:11 own: ref ¶11 - uyarının korkana yönelmesi
+- 79:45 own: ref ¶11 - korkanı uyaran Peygamber
+- 74:2 own: ref ¶12 - kalkıp uyarma emri
+- 20:123 own: prose ¶13 - yol göstermeye uyanın bedbaht olmaması
+- 20:124 own: prose ¶13 - zikirden yüz çevirene dar geçim
+- 91:9 own: ref ¶15 - nefsini arındıranın kurtuluşu
+- 92:18 own: ref ¶16 - malını verip arınan
+- 96:6 own: ref ¶16 - insanın azması
+- 96:7 own: ref ¶16 - kendini ihtiyaçsız görmesi
+- 80:5 own: ref ¶16 - kendini ihtiyaçsız sayan
+- 89:15 own: ref ¶16 - bollukla sınama
+- 89:16 own: ref ¶16 - darlıkla sınama

@@ -16,10 +16,13 @@ not applied and is reported. Nothing is written into the run dir itself: everyth
 check.json). One call, never rerun, gate $5, logged as arm "augment".
 """
 import argparse
+import hashlib
 import json
+import os
 import re
 import subprocess
 import sys
+import tempfile
 import time
 from pathlib import Path
 
@@ -36,9 +39,14 @@ OWN_PARAGRAPH = {"augment4"}
 # that a renderer can hide or show them. The marker is a namespaced HTML comment: it collides neither with v16's
 # reader tags ({ar:…, source:…}) nor with enrichment v2's block lines ({id:…}) and its page header
 # (<!-- schema:zenginlestirme …). Both v16's and enrichment's paragraph splitters count a marked block as one paragraph.
-VERDICT = {"augment5", "augment6", "augment7"}  # augment6: reference links name their mechanism; a refrain is one
+VERDICT = {"augment5", "augment6", "augment7", "augment8"}  # augment6: reference links name their mechanism; a refrain is one
 # reference. augment7: conflict and context verdicts, the ledger answered, and the missing.py text lookup
-LOOKUP = {"augment7"}  # briefs whose call may read verse text (packets.ALLOW text …), as the r13 writer does
+LOOKUP = {"augment7", "augment8"}
+# augment8 (user, 2026-10-03, from an Opus review of augment6/7): "already cited" is never a reason; a cited
+# passage gets a "cited ¶n; …" verdict; a per-paragraph own-knowledge minimum; consecutive ayat as one reference;
+# the ±2 neighbours of every passage the reading cites join the list as a tier of their own
+NEIGHBOURS = {"augment8"}
+CODEX = {"sol61": "gpt-6.1-sol"}  # --model sol61: GPT-6.1 Sol through `codex exec` (subscription, no USD)  # briefs whose call may read verse text (packets.ALLOW text …), as the r13 writer does
 MARKED_BLOCK = re.compile(r"\n\n<!-- v16:augment [^\n]*-->\n[^\n]*")
 OUT_TOKENS = {"images": 40_000, "ayah": 20_000}  # assumed, thinking included
 PARA_SPLIT = re.compile(r"(\n[ \t]*\n)")
@@ -87,7 +95,8 @@ def cited_by_paragraph(text: str) -> dict[int, set[str]]:
     return {num: M.expand([text[st:en]]) for st, en, num in paragraphs(text) if num}
 
 
-def passages(prose: str, ayat: list[str], cites: dict[int, set[str]] | None = None) -> tuple[str, int, list[str]]:
+def passages(prose: str, ayat: list[str], cites: dict[int, set[str]] | None = None,
+             neighbours: bool = False) -> tuple[str, int, list[str]]:
     """The listed passages, best tier first, each with the ayat whose lists hold it. Without `cites`, those the prose
     cites anywhere are left out; with it (VERDICT briefs) every passage is kept and marked with the paragraphs that
     already cite it."""
@@ -113,7 +122,23 @@ def passages(prose: str, ayat: list[str], cites: dict[int, set[str]] | None = No
             blocks.append(f"## {t[4]} ({len(rs)})\n\n" + "\n".join(
                 f"- ({r}) [listed for {', '.join(where[r])}]{cited_in(r, cites)} {q.get(r, '')}" for r in rs))
     order = [r for t in M.TIERS for r in sorted((r for r, b in best.items() if b == t[4]), key=key)]
-    return "\n\n".join(blocks) + "\n", len(best), order
+    if neighbours:  # within two ayat of every passage outside the focus surah that the commentary cites
+        fs = {a.split(":")[0] for a in ayat}
+        near: dict[str, str] = {}
+        for c in sorted(M.expand([prose]), key=key):
+            cs, ca = c.split(":")
+            if cs in fs:
+                continue
+            for k in (-2, -1, 1, 2):
+                r = f"{cs}:{int(ca) + k}"
+                if r in q and r not in best and r not in near and r not in M.expand([prose]):
+                    near[r] = c
+        if near:
+            rs = sorted(near, key=key)
+            blocks.append(f"## neighbours: within two ayat of a passage the commentary cites ({len(rs)})\n\n"
+                          + "\n".join(f"- ({r}) [next to {near[r]}]{cited_in(r, cites)} {q.get(r, '')}" for r in rs))
+            order += rs
+    return "\n\n".join(blocks) + "\n", len(order), order
 
 
 def cited_in(ref: str, cites: dict[int, set[str]] | None) -> str:
@@ -128,7 +153,7 @@ def build(d: Path, brief: str) -> tuple[str, dict]:
     numbered = []
     for st, en, num in paragraphs(text):
         numbered.append((f"[¶{num}] " if num else "") + text[st:en].strip())
-    pas, n, order = passages(text, ayat, cited_by_paragraph(text) if brief in VERDICT else None)
+    pas, n, order = passages(text, ayat, cited_by_paragraph(text) if brief in VERDICT else None, brief in NEIGHBOURS)
     bf = V.HERE / "prompts" / brief / "augment.md"
     head = (f"Follow the brief below (augment.md) exactly. The commentary is "
             + ("a surah commentary on the images of the whole surah" if kind == "images" else
@@ -342,7 +367,12 @@ def strip_augment(text: str) -> str:
     return MARKED_BLOCK.sub("", text)
 
 
-def verdict_report(listed: list[str], verdicts: dict[str, list[dict]], items: list[dict]) -> dict:
+ALREADY = re.compile(r"zaten|already|cited|anılıyor|anılmış|geçiyor|geçmiş", re.I)
+
+
+def verdict_report(listed: list[str], verdicts: dict[str, list[dict]], items: list[dict],
+                   cited_any: set[str] | None = None, looked: set[str] | None = None,
+                   focus_surah: str = "") -> dict:
     """Completeness and consistency of the verdicts (never silent): listed passages without a verdict, prose or
     reference verdicts with no matching applied addition, applied additions with no verdict."""
     applied = [r for r in items if r["status"] == "applied"]
@@ -372,28 +402,114 @@ def verdict_report(listed: list[str], verdicts: dict[str, list[dict]], items: li
     unjudged = sorted(({r for r, _ in prose} | {x for s in refs.values() for x in s}) - set(verdicts))
     def kind(v: str) -> str:
         v = v.strip()
+        if v.startswith("cited") and "nowhere else" in v.split(" - ")[0]:
+            return "cited_only"
         return "not" if v.startswith("not relevant") else "conflict" if v.startswith("conflict") else "relevant"
+    # "already cited" given as the reason a passage the commentary cites is not relevant (never a reason)
+    already = sorted(r for r, vs in verdicts.items() if cited_any and r in cited_any
+                     and all(kind(v["verdict"]) == "not" for v in vs)
+                     and any(ALREADY.search(v["verdict"].split(" - ", 1)[-1]) for v in vs))
+    looked_no = sorted(r for r in (looked or set()) - set(verdicts) - (cited_any or set())
+                       if r.split(":")[0] != focus_surah)
+    split = []  # consecutive ayat given as separate items of one reference line
+    for r in items:
+        if r["status"] == "applied" and r["kind"] == "refs":
+            parts = [sorted(M.expand(re.findall(r"source:\s*(\d+:\d+)", x))) for x in r["text"].split(";")]
+            for i, a in enumerate(parts):
+                for b in parts[i + 1:]:
+                    for x in a:
+                        for y in b:
+                            xs, xa = x.split(":"); ys, ya = y.split(":")
+                            if xs == ys and abs(int(xa) - int(ya)) == 1:
+                                split.append(f"¶{r['paragraph']}: {x} and {y}")
     return {"missing": missing, "mismatch": mismatch, "unjudged": unjudged, "conflicts": conflicts,
+            "already_cited_rejects": already, "looked_up_no_verdict": looked_no, "consecutive_split": split,
+            "cited_only": sum(1 for vs in verdicts.values() if any(kind(v["verdict"]) == "cited_only" for v in vs)),
             "relevant": sum(1 for vs in verdicts.values() if any(kind(v["verdict"]) == "relevant" for v in vs)),
             "not_relevant": sum(1 for vs in verdicts.values() if all(kind(v["verdict"]) == "not" for v in vs))}
+
+
+CODEX_NOTE = ("Work only from this message and the lookup command it describes: read no file and run no other "
+              "command.\n\n")
+WRAPPED = re.compile(r"""^\S*(?:ba|z)?sh -l?c (['"])(.*)\1$""", re.S)
+
+
+def call_codex(text: str, d: Path, model: str, effort: str) -> dict:
+    """One GPT call through `codex exec` (subscription: tokens, no USD), in an empty temporary directory, read-only
+    sandbox, no web search, no user config, ephemeral (no session file). The stream is kept; commands go to
+    tool_calls.json in call_opus's form ({input: {command}}, unwrapped from the shell) so packets.audit reads them."""
+    (d / "started.json").write_text(json.dumps({"started": time.strftime("%Y-%m-%dT%H:%M:%S"),
+                                                 "prompt_sha256": hashlib.sha256(text.encode()).hexdigest(),
+                                                 "model": model, "effort": effort, "runner": "codex"}) + "\n",
+                                    encoding="utf-8")
+    cmd = ["codex", "exec", "--ignore-user-config", "-m", model, "-c", f'model_reasoning_effort="{effort}"',
+           "-c", 'web_search="disabled"', "--disable", "skill_search", "--skip-git-repo-check", "--ephemeral",
+           "-s", "read-only", "--json"]
+    env = {**os.environ, "PYTHONDONTWRITEBYTECODE": "1"}
+    with tempfile.TemporaryDirectory(prefix="v16_augment_codex_") as cwd:
+        last = Path(cwd) / "last.txt"
+        try:
+            p = subprocess.run(cmd + ["-o", str(last), "-C", cwd, "-"], input=text, capture_output=True, text=True,
+                               env=env, timeout=5400)
+        except subprocess.TimeoutExpired as x:
+            p = subprocess.CompletedProcess(cmd, -9, x.stdout or "", x.stderr or "")
+        result = last.read_text(encoding="utf-8") if last.exists() else ""
+    stdout = p.stdout if isinstance(p.stdout, str) else (p.stdout or b"").decode("utf-8", "replace")
+    (d / "run.stream.jsonl").write_text(stdout, encoding="utf-8")
+    usage, completed, calls = {}, False, []
+    for line in stdout.splitlines():
+        try:
+            ev = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        it = ev.get("item") or {}
+        if ev.get("type") == "turn.completed":
+            completed, usage = True, ev.get("usage") or {}
+        if ev.get("type") == "item.completed" and it.get("type") == "command_execution":
+            c = it.get("command", "")
+            m = WRAPPED.match(c)
+            calls.append({"id": it.get("id"), "input": {"command": m.group(2) if m else c, "raw": c},
+                          "result": (it.get("aggregated_output") or "")[:20000],
+                          "is_error": (it.get("exit_code") or 0) != 0})
+    if calls:
+        (d / "tool_calls.json").write_text(json.dumps(calls, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    obj = {"result": result, "returncode": p.returncode, "turn_completed": completed, "usage": usage,
+           "tool_calls": len(calls), "stderr": (p.stderr or "")[-3000:] if isinstance(p.stderr, str) else "",
+           "prompt_chars": len(text), "prompt_sha256": hashlib.sha256(text.encode()).hexdigest(), "cli": "codex"}
+    (d / "run.log.json").write_text(json.dumps(obj, ensure_ascii=False) + "\n", encoding="utf-8")
+    return obj
+
+
+def looked_up(out: Path) -> set[str]:
+    """Refs the call read with `missing.py text`."""
+    f = out / "tool_calls.json"
+    refs = set()
+    for c in (json.loads(f.read_text(encoding="utf-8")) if f.exists() else []):
+        cmd = str((c.get("input") or {}).get("command", ""))
+        if " text " in cmd:
+            refs |= M.expand([cmd.split(" text ", 1)[1]])
+    return refs
 
 
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("run", type=Path)
     ap.add_argument("--brief", default="augment1")
-    ap.add_argument("--model", choices=("sonnet", "opus"), default=MODEL)
+    ap.add_argument("--model", choices=("sonnet", "opus", *CODEX), default=MODEL)
     ap.add_argument("--go", action="store_true")
     a = ap.parse_args()
     model = a.model
     d = a.run if a.run.is_absolute() else V.HERE / a.run
     text, meta = build(d, a.brief)
-    _, w, o = V.MODELS[model]
+    if model in CODEX:
+        text = CODEX_NOTE + text
+    model_id, w, o = (CODEX[model], 0.0, 0.0) if model in CODEX else V.MODELS[model]
     n_in = V.est_tokens(text)
     est = n_in * w + (VERDICT_OUT if a.brief in VERDICT else OUT_TOKENS[meta["kind"]]) * o
     out = d / (f"augment.{a.brief}" + ("" if model == MODEL else f".{model}"))
-    print(f"{out.relative_to(V.HERE)}: {meta['passages']} passages, ~{n_in:,} tokens in; est ${est:.2f} "
-          f"({V.MODELS[model][0]}, effort {EFFORT})")
+    print(f"{out.relative_to(V.HERE)}: {meta['passages']} passages, ~{n_in:,} tokens in; "
+          + (f"subscription, no USD ({model_id}" if model in CODEX else f"est ${est:.2f} ({model_id}")
+          + f", effort {EFFORT})")
     if n_in > MAX_IN:
         raise SystemExit(f"prompt ~{n_in:,} tokens is over {MAX_IN:,}: split the passages before augmenting")
     if not a.go:
@@ -407,16 +523,26 @@ def main() -> None:
         raise SystemExit(f"gated at ${est:.2f}")
     out.mkdir(parents=True, exist_ok=True)
     (out / "prompt.md").write_text(text, encoding="utf-8")
-    (out / "packet.json").write_text(json.dumps({**{k: v for k, v in meta.items() if k != "listed"}, "brief": a.brief, "model": V.MODELS[model][0]},
+    (out / "packet.json").write_text(json.dumps({**{k: v for k, v in meta.items() if k != "listed"}, "brief": a.brief, "model": model_id},
                                                 ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     t0 = time.time()
-    if a.brief in LOOKUP:
-        import packets as P
-        obj = V.call_opus(text, out, model, allow=P.ALLOW, effort=EFFORT)
+    if model in CODEX:
+        obj = call_codex(text, out, model_id, EFFORT)
+        u = obj.get("usage") or {}
+        res = {**row, "model": model_id, "effort": EFFORT, "runner": "codex", "seconds": round(time.time() - t0),
+               "status": "ok" if obj["returncode"] == 0 and obj["turn_completed"] and obj["result"].strip() else "error",
+               "cost_usd": 0.0, "input_tokens": u.get("input_tokens"), "cached_input_tokens": u.get("cached_input_tokens"),
+               "output_tokens": u.get("output_tokens"), "reasoning_tokens": u.get("reasoning_output_tokens"),
+               "tool_calls": obj["tool_calls"], "words": len(obj["result"].split()), "prompt_chars": len(text),
+               "prompt_sha256": obj["prompt_sha256"], "cli": "codex"}
     else:
-        obj = V.call_opus(text, out, model, allow=None, effort=EFFORT)
-    res = {**row, "model": V.MODELS[model][0], "effort": EFFORT, "seconds": round(time.time() - t0),
-           "estimate_usd": round(est, 2), **V.usage_row(obj, text)}
+        if a.brief in LOOKUP:
+            import packets as P
+            obj = V.call_opus(text, out, model, allow=P.ALLOW, effort=EFFORT)
+        else:
+            obj = V.call_opus(text, out, model, allow=None, effort=EFFORT)
+        res = {**row, "model": model_id, "effort": EFFORT, "seconds": round(time.time() - t0),
+               "estimate_usd": round(est, 2), **V.usage_row(obj, text)}
     result = (obj.get("result") or "").strip()
     if a.brief in LOOKUP:  # every command must be a text lookup; anything else is reported, never silent
         import packets as P
@@ -435,7 +561,8 @@ def main() -> None:
         if a.brief in VERDICT:
             ins, verdicts, led = parse_verdict(result)
             merged, ins = apply_marked(original, ins, a.brief, model)
-            vr = verdict_report(meta["listed"], verdicts, ins)
+            vr = verdict_report(meta["listed"], verdicts, ins, M.expand([original]), looked_up(out),
+                                meta["ayat"][0].split(":")[0])
         else:
             ins, led = parse(result)
             merged, ins = (apply_own if a.brief in OWN_PARAGRAPH else apply)(original, ins)
@@ -474,6 +601,12 @@ def main() -> None:
                 print(f"WARNING: conflict with the commentary: {x}")
             if vr["unjudged"]:
                 print(f"WARNING: added without a verdict line: {', '.join(vr['unjudged'])}")
+            if vr["already_cited_rejects"]:
+                print(f"WARNING: 'not relevant' because already cited: {', '.join(vr['already_cited_rejects'])}")
+            if vr["looked_up_no_verdict"]:
+                print(f"WARNING: looked up, no verdict: {', '.join(vr['looked_up_no_verdict'])}")
+            for x in vr["consecutive_split"]:
+                print(f"WARNING: consecutive ayat as separate references: {x}")
             (out / "verdict_report.json").write_text(json.dumps(vr, ensure_ascii=False, indent=1) + "\n",
                                                      encoding="utf-8")
             app = [r for r in ins if r["status"] == "applied"]
@@ -482,11 +615,17 @@ def main() -> None:
                      "refs_named": sum(len(re.findall(r"source:", r["text"])) for r in app if r["kind"] == "refs"),
                      "listed": len(meta["listed"]), "verdicts_missing": len(vr["missing"]),
                      "verdict_mismatch": len(vr["mismatch"]), "conflicts": len(vr["conflicts"]),
+                     "already_cited_rejects": len(vr["already_cited_rejects"]),
+                     "looked_up_no_verdict": len(vr["looked_up_no_verdict"]),
+                     "consecutive_split": len(vr["consecutive_split"]), "cited_only": vr["cited_only"],
                      "relevant": vr["relevant"],
                      "not_relevant": vr["not_relevant"]}
         V.log({"ref": res["ref"], "arm": "augment-applied", "brief": res["brief"], "insertions": res["insertions"],
                "applied": res["applied"], "not_applied": res["insertions"] - res["applied"],
                "insert_issues": len(issues), "ledger_lines": res["ledger_lines"], **extra, "check": res["check"]})
+    if model in CODEX:
+        print(f"tokens: in {res.get('input_tokens')} (cached {res.get('cached_input_tokens')}), out "
+              f"{res.get('output_tokens')} (reasoning {res.get('reasoning_tokens')}), commands {res.get('tool_calls')}")
     print(f"{out.relative_to(V.HERE)}: {res['status']} ${res.get('cost_usd')} "
           f"{res.get('applied')}/{res.get('insertions')} applied {res['seconds']}s")
     if res["status"] != "ok":

@@ -1718,3 +1718,70 @@ shared-word test applies to references too; a refrain is one reference with all 
 
 Regressions: the augment3, augment4 and augment5 outputs re-apply byte for byte; the 87:10 augment5 verdict report
 is unchanged (0 missing, 0 mismatch). 87:8 dry build: 79 passages, ~25.3k tokens in, est $0.90.
+
+**87:8, augment6 vs augment7 (Opus 5.5 high, the same ayah).**
+
+| | augment6 | augment7 |
+|---|---:|---:|
+| Cost | $1.03 | $0.98 |
+| Output tokens (thinking) | 42.0k (33.3k) | 30.5k (22.8k) |
+| Time | 388 s | 348 s |
+| Prose additions / reference lines / passages named | 7 / 15 / 61 | 5 / 14 / 44 |
+| Words added | +941 (+45%) | +767 (+37%) |
+| Verdicts: relevant / not relevant | 68 / 35 | 57 / 47 |
+
+Both: no missing verdicts, no mismatch, every check ok, no opaque reference link.
+- augment7 made one lookup call (`missing.py text`, audit ok, nothing refused). It gave 9 "context" verdicts
+  (80:1–9 around 80:4; 75:16 around 75:17) and 0 conflicts.
+- It answers the writer's ledger: the ledger left out 65:7 and 65:4 as "covered by 94:5-6 and 92".
+  augment7 adds them as references, saying what they add beyond those (spending and means; takwa leading to ease
+  outside S92). augment6 had made 65:7 prose without answering.
+- 5:91 (prose ¶18) is not a stretch: ¶18 is itself about maysir (it cites 5:90), and 5:91's "keeps you from
+  remembering God and from prayer" completes it toward 87:15.
+- augment7 dropped 22 of augment6's passages, some loose (26:218–219, 93:5, 20:7, 36:4) and some sound (36:11,
+  79:45, 51:55, 91:9). One run cannot tell whether that is the brief or run-to-run variation.
+
+## Opus review of augment6/7, augment8, GPT-6.1 Sol (user, 2026-10-03)
+
+An Opus agent (read-only) compared the briefs on 87:8 (augment6 vs augment7) and 87:10 (augment3/4/5) against the
+user's purpose: QeQ that helps the reader understand the prose, expands that understanding, or gives
+comprehensive explanatory references.
+
+**Verdict:** build on augment7. augment6 covered more (¶4 92:7/10 and 94:5–6; 20:7; 51:55; 36:11; 79:45). augment7
+was more precise (80:4 prose, 20:44, 5:3, 43:32, the ledger answered).
+
+**What augment7 lost:**
+- (1) the "not relevant – already cited in ¶N" shortcut, in both runs (14/18), against the per-paragraph rule;
+- (2) a thinner own-knowledge pass (~14 own additions vs 24; 4 ayat looked up with no verdict).
+
+The narrowed "contrasts" wording was not the cause.
+
+**Missed by both:** 73:5 (the Word as the heavy load), 75:18–19, 92:16, 92:20, 35:18, 76:3, 73:2–4.
+
+**augment8** = augment7 plus:
+- "already cited" is never a reason, and every paragraph is judged as if the passage were new;
+- a paragraph that points to a passage without citing it takes it as a reference;
+- a qualifying passage is a reference saying what it adds;
+- a per-paragraph own-knowledge minimum: other places of the quoted key words and constructions, ayat saying the
+  same in other words, and neighbours of cited passages;
+- every looked-up ayah gets a verdict;
+- consecutive ayat are one reference;
+- "contrasts" is restored;
+- a verdict form "cited ¶n; ref ¶m | nowhere else".
+
+**Script:**
+- the ±2 neighbours of every passage the reading cites (outside the focus surah) join the list as a tier of their
+  own (87:8: 79 → 123 passages);
+- `verdict_report` warns on "already cited" rejections, looked-up ayat with no verdict, and consecutive ayat given
+  as separate references. On the saved augment7 run these checks flag 18 already-cited rejections, the 4
+  unanswered lookups (80:3/7/8/10) and 5 split pairs, matching the review.
+
+**`--model sol61`:** GPT-6.1 Sol through `codex exec`.
+- Subscription: tokens, no USD. `--ignore-user-config`, read-only sandbox, no web search, ephemeral, an empty temp
+  working directory.
+- Commands are unwrapped from the shell into tool_calls.json and audited by packets.audit.
+- The prompt gets one leading line: work only from this message and the lookup.
+- Codex cannot block reading other files, so the audit is what catches it.
+- `missing.py text` writes nothing.
+
+Regressions: augment3 19/19, and augment5/6/7 re-apply byte for byte.
