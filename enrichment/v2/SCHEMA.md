@@ -1,25 +1,35 @@
-# Annotation schema 3.0 (generated from schema.json — do not edit)
+# Annotation schema 3.1 (generated from schema.json — do not edit)
 
 Every block is one line in the rendered page and one JSON object in annotations.jsonl:
 
 ```
-{id:"S107-HDS-001", tur:hadis, ayet:"107:6", islev:destek, iliski:tematik, durum:acik, kat:ek, derece:sahih, derece_veren:"Müslim", metin:"…", kaynak:"MUSLIM:2985"}
+{id:"S107-HDS-001", gelenek:islami, tur:hadis, ayet:"107:6", islev:destek, iliski:tematik, durum:acik, kat:ek, derece:sahih, derece_veren:"Müslim", metin:"…", kaynak:"MUSLIM:2985"}
+{id:"S107-MTF-001", gelenek:incil, tur:motif, ayet:"107:6", islev:karsit, iliski:tematik, durum:acik, kat:ek, nusha:yunanca_ahit, tarihleme:kuran_oncesi, bag:benzerlik, metin:"…", kaynak:"SBLGNT:Matt.6.5"}
 ```
 
+- Two passes write blocks to the same frozen base and never read each other's records: the Islamic-literature pass
+  (gelenek islami, stamped by the script) and the Bible pass (gelenek tevrat or incil, per block). A merged page
+  shows, after each base paragraph, its islami blocks, then its tevrat blocks, then its incil blocks.
+
 - Keys and values are ASCII-folded Turkish. The reader shows labels in Turkish, English or German from schema.json.
-- Required in every block: id, tur, ayet, islev, iliski, durum, kat, metin, kaynak. Further fields are required by type (see below).
+- Required in every block: id, gelenek, tur, ayet, islev, iliski, durum, kat, metin, kaynak. Further fields are required by type (see below).
 - `id` = S<surah, 3 digits>-<kod of the type>-<NNN>. `ayet` = this page's ayah or range ("107:1-3"; several with |).
 - `kaynak` = corpus locators, pipe-separated, exactly as `tools/corpus.py` prints them, or `hafiza` (model memory).
 - `metin` = one paragraph in the page language; at most 80 words (temel, ek) or
   120 (arastirma).
-- Placement (records only, not rendered): `capa` = an exact sentence of the base of the page the record belongs to
-  (the surah page or one ayah page; one call writes one page's records); without it the block goes to the end.
+- Placement (records only, not rendered), both required: `paragraf` = the number of a prose paragraph of the base of
+  the page the record belongs to (numbered from 1 as in v16's augment; headings and "Kaynaklar:" lines unnumbered;
+  the pack's numbered/ files show the numbers), and `capa` = at least three exact words of that paragraph, which
+  confirm the number. The block is rendered right after that paragraph; there are no end-of-page blocks, and a
+  record whose number and words do not match is dropped. Both passes number the same base, so they merge by
+  paragraph.
 
 ## Fields
 
 | field | tr | en | required for | definition |
 |---|---|---|---|---|
 | `id` | Kimlik | ID | all | unique within the page |
+| `gelenek` | Gelenek | Tradition | all | which literature the block belongs to; one per block. The Islamic pass stamps islami (the script adds it); in the Bible pass each block is tevrat or incil Values: `gelenek` table. |
 | `tur` | Tür | Type | all | what kind of information the block carries Values: `tur` table. |
 | `ayet` | Âyet | Verse | all | the ayah or range of this page the block is about: "107:3", "107:1-3"; several with \|. Other passages the block cites go in metin and kaynak, not here |
 | `islev` | İşlev | Function | all | why the block stands at this point of the page Values: `islev` table. |
@@ -27,7 +37,7 @@ Every block is one line in the rendered page and one JSON object in annotations.
 | `durum` | Durum | Status | all | epistemic status of the block's claim relative to its source Values: `durum` table. |
 | `kat` | Katman | Layer | all | display layer Values: `kat` table. |
 | `metin` | Metin | Text | all | the block's prose, in the page language, within the word limit of its layer |
-| `kaynak` | Kaynak | Source | all | source locators, pipe-separated: <ID>:<locator> exactly as in the corpus (TAB:107:3, MUSLIM:2985, ELMALILI:107:2, LISAN:دعع), or "hafiza" for model memory |
+| `kaynak` | Kaynak | Source | all | source locators, pipe-separated: <ID>:<locator> exactly as in the corpus (TAB:107:3, MUSLIM:2985, ELMALILI:107:2, LISAN:دعع), or "hafiza" for model memory; Bible locators use OSIS book abbreviations (WLC:Gen.22.2, SBLGNT:Matt.6.5) |
 | `guc` | Güç | Strength | tur: yenilik\|elenen\|ayet_ayet\|vucuh, islev: oncul | strength of a connection to the project's reading Values: `guc` table. |
 | `klasik_tanik` | Klasik tanıklık | Classical attestation | tur: yenilik | how far a project finding is attested in the checked sources Values: `klasik_tanik` table. |
 | `taranan` | Taranan kaynaklar | Sources checked | tur: yenilik | corpus IDs actually searched, pipe-separated |
@@ -50,35 +60,51 @@ Every block is one line in the rendered page and one JSON object in annotations.
 | `tekrar` | Tekrarlayanlar | Repeated in |  | later works repeating the same report unchanged, pipe-separated IDs |
 | `gerekce` | Gerekçe | Reason |  | reason for a rejection or a grade |
 | `not` | Not | Note |  | short technical note |
+| `bag` | Bağ | Connection claim | gelenek: tevrat\|incil | what the block claims about the link between the Qur'an and the other text; a parallel is not a dependence, so the weakest fitting value is used Values: `bag` table. |
+| `tarihleme` | Tarihleme | Dating | gelenek: tevrat\|incil | date of the cited text relative to the Qur'an (as the scholarship dates it) Values: `tarihleme` table. |
+| `nusha` | Nüsha | Text witness | gelenek: tevrat\|incil | the witness or text family quoted; readings differ, and the Qur'an's closest match may be the Syriac or Greek, not the Hebrew. Pipe-separated when several are compared Values: `nusha` table. |
+
+## `gelenek`
+
+| value | tr | en | definition |
+|---|---|---|---|
+| `islami` | İslâmî literatür | Islamic literature | the Islamic-literature pass: tafsir, hadith, lexica, meals and the rest of the main corpus |
+| `tevrat` | Tevrat ve Yahudi geleneği | Hebrew Bible and Jewish tradition | the Hebrew Bible in any witness (Masoretic, Septuagint, Peshitta, Targum), the Psalms (Zebur) included; Jewish pseudepigrapha; Mishnah, Talmud, midrash |
+| `incil` | İncil ve Hristiyan geleneği | New Testament and Christian tradition | the New Testament in any witness (Greek, Peshitta, Diatessaron); Christian apocrypha (Protevangelium of James, Infancy Gospels); Church Fathers; Syriac homilies. A Hebrew Bible text read through Christian exegesis is two blocks: the text (tevrat), its Christian reading (incil) |
 
 ## `tur`
 
-| value | kod | tr | en | definition |
-|---|---|---|---|---|
-| `tefsir_rivayet` | TRV | Rivâyet tefsiri | Transmitted exegesis | explanations of Companions/Successors as transmitted (Mujāhid, Muqātil, Ṭabarī's aqwāl, al-Durr al-manthūr) |
-| `tefsir_dirayet` | TDR | Dirâyet tefsiri | Analytical exegesis | an exegete's own analysis: language, reasoning, theology (Zamakhsharī, Rāzī, Ibn ʿĀshūr, Elmalılı, Kur'an Yolu) |
-| `isari` | ISR | İşârî tefsir | Allusive (Sufi) reading | ishārī readings (Qushayrī, Sulamī, Tustarī, Bursevî); labelled as such, never as dirayet |
-| `nazm` | NZM | Nazım | Coherence | sequence, adjacency, surah unity, surah-to-surah relation; structural form (ring, symmetry, rhyme groups) with islev:yapi |
-| `nuzul` | NZL | Nüzul | Revelation history | Makkī/Madanī, revelation order and chronology lists (Itqān, Ibn ʿĀshūr; Nöldeke, Neuwirth reported beside them) |
-| `esbab` | ESB | Esbâb-ı nüzul | Occasion of revelation | isnād-bearing occasion reports of any grade, each with derece and tarihsellik shown |
-| `hadis` | HDS | Hadis | Hadith | Prophetic hadith; sahih only (Bukhārī, Muslim, or sunan reports every named grader calls sahih) |
-| `kiraat` | KRT | Kıraat | Reading | canonical and non-canonical readings and their linguistic justification (ḥujja) |
-| `lugat` | LGT | Lugat | Lexicon | synchronic lexical evidence: senses, branches, the lexica's own wording and shawāhid |
-| `vucuh` | VCH | Vücuh ve nezâir | Sense inventory | the senses a word takes across the Qur'an, from the wujūh wa-naẓāʾir books (Muqātil, Dāmghānī, Ibn al-Jawzī) and the usage table |
-| `nahiv` | NHV | Nahiv | Grammar | syntax, iʿrāb, morphology that bears on meaning |
-| `belagat` | BLG | Belâgat | Rhetoric | rhetoric, majāz, imagery, iʿjāz theory (Zamakhsharī, Jurjānī, Asās) |
-| `ayet_ayet` | AYT | Âyetle tefsir | Qur'an by Qur'an | a Qur'anic passage that explains, extends or contrasts this one |
-| `anlam_tarihi` | ANT | Anlam tarihi | Semantic history | diachronic change only: pre-Qur'anic → Qur'anic → later Arabic → Turkish loanword drift |
-| `tarihi_baglam` | TBG | Tarihî bağlam | Historical setting | sourced setting: sīra, Mecca, material culture, institutions |
-| `fikih` | FKH | Fıkıh | Law | legal readings; optional |
-| `kelam` | KLM | Kelâm | Theology | theological debate; optional |
-| `meal` | MEL | Meal incelemesi | Translation review | how Turkish (and relay) translations render a term: what they keep, lose or add |
-| `modern` | MDR | Modern çalışma | Modern scholarship | modern Islamic and Western scholarship, kept apart from classical attestation |
-| `yenilik` | YNL | Yenilik denetimi | Novelty audit | how far a finding of the base is attested in the checked sources |
-| `elenen` | ELN | Elenen aday | Rejected candidate | a connection considered and rejected, kept for audit |
-| `kaynak_notu` | KNT | Kaynak notu | Source note | source criticism: provenance, attribution, edition, isnād caveats |
-| `yontem` | YNT | Yöntem notu | Method note | a methodological limit or distinction the reader needs here |
-| `duzeltme` | DZT | Düzeltme | Erratum | an error in the frozen base: wrong label, quotation, ayah number, fact or rendering; also logged to errata.jsonl |
+| value | kod | gelenek | tr | en | definition |
+|---|---|---|---|---|---|
+| `tefsir_rivayet` | TRV | islami | Rivâyet tefsiri | Transmitted exegesis | explanations of Companions/Successors as transmitted (Mujāhid, Muqātil, Ṭabarī's aqwāl, al-Durr al-manthūr) |
+| `tefsir_dirayet` | TDR | islami | Dirâyet tefsiri | Analytical exegesis | an exegete's own analysis: language, reasoning, theology (Zamakhsharī, Rāzī, Ibn ʿĀshūr, Elmalılı, Kur'an Yolu) |
+| `isari` | ISR | islami | İşârî tefsir | Allusive (Sufi) reading | ishārī readings (Qushayrī, Sulamī, Tustarī, Bursevî); labelled as such, never as dirayet |
+| `nazm` | NZM | islami | Nazım | Coherence | sequence, adjacency, surah unity, surah-to-surah relation; structural form (ring, symmetry, rhyme groups) with islev:yapi |
+| `nuzul` | NZL | islami | Nüzul | Revelation history | Makkī/Madanī, revelation order and chronology lists (Itqān, Ibn ʿĀshūr; Nöldeke, Neuwirth reported beside them) |
+| `esbab` | ESB | islami | Esbâb-ı nüzul | Occasion of revelation | isnād-bearing occasion reports of any grade, each with derece and tarihsellik shown |
+| `hadis` | HDS | islami | Hadis | Hadith | Prophetic hadith; sahih only (Bukhārī, Muslim, or sunan reports every named grader calls sahih) |
+| `kiraat` | KRT | islami | Kıraat | Reading | canonical and non-canonical readings and their linguistic justification (ḥujja) |
+| `lugat` | LGT | islami | Lugat | Lexicon | synchronic lexical evidence: senses, branches, the lexica's own wording and shawāhid |
+| `vucuh` | VCH | islami | Vücuh ve nezâir | Sense inventory | the senses a word takes across the Qur'an, from the wujūh wa-naẓāʾir books (Muqātil, Dāmghānī, Ibn al-Jawzī) and the usage table |
+| `nahiv` | NHV | islami | Nahiv | Grammar | syntax, iʿrāb, morphology that bears on meaning |
+| `belagat` | BLG | islami | Belâgat | Rhetoric | rhetoric, majāz, imagery, iʿjāz theory (Zamakhsharī, Jurjānī, Asās) |
+| `ayet_ayet` | AYT | islami | Âyetle tefsir | Qur'an by Qur'an | a Qur'anic passage that explains, extends or contrasts this one |
+| `anlam_tarihi` | ANT | islami | Anlam tarihi | Semantic history | diachronic change only: pre-Qur'anic → Qur'anic → later Arabic → Turkish loanword drift |
+| `tarihi_baglam` | TBG | islami | Tarihî bağlam | Historical setting | sourced setting: sīra, Mecca, material culture, institutions |
+| `fikih` | FKH | islami | Fıkıh | Law | legal readings; optional |
+| `kelam` | KLM | islami | Kelâm | Theology | theological debate; optional |
+| `meal` | MEL | islami | Meal incelemesi | Translation review | how Turkish (and relay) translations render a term: what they keep, lose or add |
+| `modern` | MDR | islami, tevrat, incil | Modern çalışma | Modern scholarship | modern Islamic and Western scholarship, kept apart from classical attestation |
+| `yenilik` | YNL | islami | Yenilik denetimi | Novelty audit | how far a finding of the base is attested in the checked sources |
+| `paralel` | PRL | tevrat, incil | Paralel anlatı | Parallel narrative | the same figure, scene or story told in the other scripture (Abraham's sacrifice, Joseph, the sleepers) |
+| `motif` | MTF | tevrat, incil | Ortak motif | Shared motif | a shared image, formula or ethical motif without a shared story (praying to be seen: Mt 6:5 and 107:6) |
+| `karsi_anlati` | KRA | tevrat, incil | Karşı anlatı | Counter-version | the Qur'an tells it differently, corrects or answers it (Mary, the crucifixion, the calf); the difference is the point |
+| `soydas` | SYD | tevrat, incil | Soydaş kelime | Cognate | a Hebrew, Aramaic or Syriac cognate of the Qur'anic word and how the other scripture uses it; loan claims only with named scholarship |
+| `yorum_gelenegi` | YGL | tevrat, incil | Yorum geleneği | Exegetical tradition | Jewish or Christian interpretation of the parallel text (Targum, midrash, Talmud; Church Fathers, Syriac homilies such as Ephrem and Jacob of Serugh) |
+| `elenen` | ELN | islami, tevrat, incil | Elenen aday | Rejected candidate | a connection considered and rejected, kept for audit |
+| `kaynak_notu` | KNT | islami, tevrat, incil | Kaynak notu | Source note | source criticism: provenance, attribution, edition, isnād caveats |
+| `yontem` | YNT | islami, tevrat, incil | Yöntem notu | Method note | a methodological limit or distinction the reader needs here |
+| `duzeltme` | DZT | islami, tevrat, incil | Düzeltme | Erratum | an error in the frozen base: wrong label, quotation, ayah number, fact or rendering; also logged to errata.jsonl |
 
 ## `islev`
 
@@ -105,7 +131,7 @@ Every block is one line in the rendered page and one JSON object in annotations.
 
 | value | tr | en | definition |
 |---|---|---|---|
-| `dogrudan` | Doğrudan | Direct | the source explicitly treats this ayah or phrase |
+| `dogrudan` | Doğrudan | Direct | the source explicitly treats this ayah or phrase (Bible pass: a text the scholarship reads as directly addressed by this ayah) |
 | `tematik` | Tematik | Thematic | same theme, not an explanation of this ayah |
 | `lafzi` | Lafzî | Lexical | linked through the same word, root or expression |
 | `yapisal` | Yapısal | Structural | linked through position, sequence or form |
@@ -221,6 +247,39 @@ Every block is one line in the rendered page and one JSON object in annotations.
 | `olgu` | Olgu | Fact | a factual error |
 | `ceviri` | Çeviri | Rendering | a wrong rendering of the Arabic |
 
+## `bag`
+
+| value | tr | en | definition |
+|---|---|---|---|
+| `benzerlik` | Benzerlik | Similarity | the texts resemble each other; nothing is claimed about a relation (the default) |
+| `ortak_havza` | Ortak havza | Shared milieu | both draw on a tradition current in Late Antiquity; no direction claimed |
+| `muhatap` | Muhatap | Addressed | named scholarship argues the Qur'an addresses, answers or corrects this tradition; requires alim |
+| `etki_iddiasi` | Etki iddiası | Dependence claim | named scholarship argues dependence; reported as that scholar's claim, never as fact; requires alim; impossible for a text dated after the Qur'an |
+
+## `tarihleme`
+
+| value | tr | en | definition |
+|---|---|---|---|
+| `kuran_oncesi` | Kur'an öncesi | Pre-Qur'anic | written down before the early 7th century |
+| `cagdas` | Çağdaş | Contemporary | roughly contemporary with the Qur'an |
+| `kuran_sonrasi` | Kur'an sonrası | Post-Qur'anic | redacted after the Qur'an (e.g. Pirqe de-Rabbi Eliezer); may preserve older material, which the block must argue |
+| `belirsiz` | Belirsiz | Uncertain | dating disputed or unknown |
+
+## `nusha`
+
+| value | tr | en | definition |
+|---|---|---|---|
+| `masoretik` | Masoretik metin | Masoretic text | the Hebrew Bible (Westminster Leningrad Codex) |
+| `septuaginta` | Septuaginta | Septuagint | the Greek Old Testament |
+| `pesitta` | Peşitta | Peshitta | the Syriac Bible, Old and New Testament |
+| `targum` | Targum | Targum | Aramaic renderings of the Hebrew Bible |
+| `yunanca_ahit` | Yunanca Ahd-i Cedîd | Greek New Testament | the Greek New Testament |
+| `diatessaron` | Diatessaron | Diatessaron | Tatian's gospel harmony, through its witnesses |
+| `apokrif` | Apokrif | Apocrypha | Jewish pseudepigrapha or Christian apocrypha |
+| `rabbani` | Rabbânî literatür | Rabbinic literature | Mishnah, Talmud, midrash |
+| `patristik` | Kilise babaları | Church Fathers | Greek and Latin patristic writing |
+| `suryani` | Süryânî literatür | Syriac literature | Syriac homilies and hymns (Ephrem, Jacob of Serugh, Narsai) |
+
 ## Rules
 
 - **hadis_sahih**: tur:hadis requires derece:sahih and derece_veren naming Buhârî, Müslim or the graders recorded in the corpus
@@ -228,4 +287,6 @@ Every block is one line in the rendered page and one JSON object in annotations.
 - **itiraz_vs_tercih**: a source preferring another reading is islev:tercih; islev:itiraz needs an argument that the base's reading cannot hold here
 - **yenilik_scope**: klasik_tanik:bulunamadi with tarama:dilim must say in metin that only the per-ayah slice was searched
 - **modern_dictionaries**: modern Arabic dictionaries (VASIT, MUHIT, HANSWEHR) may be cited only in anlam_tarihi, as evidence of later drift
-- **intertext_excluded**: Bible and other non-Islamic scripture belong to the separate intertext pass; no block in this pass cites them
+- **paragraf_zorunlu**: every block names its prose paragraph (paragraf) and quotes at least three words of it (capa); it is rendered right after that paragraph; a block whose number and words do not match is dropped
+- **gelenek_ayrimi**: each block belongs to one gelenek and its tur must allow it. islami blocks cite no Bible, Jewish or Christian source (kind intertext); tevrat and incil blocks cite only sources of their own gelenek, plus the Qur'an text and modern scholarship. The passes run separately and never read each other's records
+- **paralel_bagimlilik_degil**: a parallel is not a dependence: bag defaults to benzerlik; muhatap and etki_iddiasi require alim and a source that argues it; etki_iddiasi is impossible with tarihleme:kuran_sonrasi

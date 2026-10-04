@@ -5,10 +5,11 @@
   python3 enrichment/v2/render.py --surah 107 --target 107:3 --annotations PATH --out DIR
 
 A target is the surah page (`surah`, base work/sNNN/pack/base/surah.md) or one ayah page (`S:A`, base S_A.md). Writes
-DIR/surah.md or DIR/S_A.md: base paragraphs untouched, each block on its own line after the paragraph that contains
-its `capa` sentence; blocks without a capa at the end (on an ayah page under "## Kaynak katmanları"); then the source
-registry, generated from the corpus metadata of every cited source (agents never write it). Blocks at one point are
-ordered by the order of `tur` in schema.json, then by id.
+DIR/surah.md or DIR/S_A.md: base paragraphs untouched, each block on its own line after the prose paragraph its
+`paragraf` number names (numbered as in v16's augment: prose paragraphs from 1, headings and "Kaynaklar:" lines
+unnumbered; `capa`, a few exact words of that paragraph, confirms the number). Validated records always place; the
+end section only catches unchecked input. Then the source registry, generated from the corpus metadata of every cited source (agents never write it). Blocks after one
+paragraph are ordered by gelenek (islami, tevrat, incil), then by the order of `tur` in schema.json, then by id.
 """
 from __future__ import annotations
 
@@ -25,6 +26,7 @@ import blocks as B  # noqa: E402
 import corpus as C  # noqa: E402
 
 TUR_ORDER = {k: i for i, k in enumerate(B.ENUMS["tur"])}
+GELENEK_ORDER = {k: i for i, k in enumerate(B.ENUMS["gelenek"])}  # islami, tevrat, incil
 AYAH_SECTION = "## Kaynak katmanları"
 
 
@@ -45,16 +47,56 @@ def find_para(paras: list[str], anchor: str) -> int | None:
     return hits[0] if hits else None
 
 
-def place(paras: list[str], recs: list[dict], key: str) -> tuple[dict[int, list[dict]], list[dict], list[str]]:
+def is_prose(p: str) -> bool:
+    body = p.strip()
+    return not body.startswith("#") and not body.startswith("Kaynaklar:")
+
+
+def prose_index(paras: list[str]) -> dict[int, int]:
+    """Prose paragraph number (from 1, as in v16 augment) -> index into paras."""
+    nums, n = {}, 0
+    for i, p in enumerate(paras):
+        if is_prose(p):
+            n += 1
+            nums[n] = i
+    return nums
+
+
+def numbered(base: str) -> str:
+    """The base with "[¶n] " before each prose paragraph (what the agent reads; the page itself is never numbered)."""
+    paras, n, out = paragraphs(base), 0, []
+    for p in paras:
+        if is_prose(p):
+            n += 1
+            p = f"[¶{n}] {p}"
+        out.append(p)
+    return "\n\n".join(out) + "\n"
+
+
+def locate(paras: list[str], r: dict) -> tuple[int | None, str]:
+    """(index into paras, error) for a record's paragraf + capa."""
+    nums = prose_index(paras)
+    try:
+        n = int(str(r.get("paragraf", "")).lstrip("¶"))
+    except ValueError:
+        return None, f"paragraf {r.get('paragraf')!r} is not a paragraph number"
+    if n not in nums:
+        return None, f"paragraf {n} outside 1-{len(nums)}"
+    capa = squash(r.get("capa") or "")
+    if len(capa.split()) < 3:
+        return None, "capa must quote at least three words of the paragraph"
+    if capa not in squash(paras[nums[n]]):
+        other = [m for m, i in nums.items() if capa in squash(paras[i])]
+        return None, f"capa is not in ¶{n}" + (f" (found in ¶{other[0]})" if other else " (not found in the base)")
+    return nums[n], ""
+
+
+def place(paras: list[str], recs: list[dict]) -> tuple[dict[int, list[dict]], list[dict], list[str]]:
     at, tail, errors = {}, [], []
     for r in recs:
-        anchor = r.get(key)
-        if not anchor:
-            tail.append(r)
-            continue
-        i = find_para(paras, anchor)
+        i, err = locate(paras, r)
         if i is None:
-            errors.append(f"{r['id']}: {key} not found in base: {anchor[:80]!r}")
+            errors.append(f"{r.get('id')}: {err}")
             tail.append(r)
         else:
             at.setdefault(i, []).append(r)
@@ -62,7 +104,7 @@ def place(paras: list[str], recs: list[dict], key: str) -> tuple[dict[int, list[
 
 
 def sort_blocks(rs: list[dict]) -> list[dict]:
-    return sorted(rs, key=lambda r: (TUR_ORDER.get(r.get("tur"), 99), r["id"]))
+    return sorted(rs, key=lambda r: (GELENEK_ORDER.get(r.get("gelenek"), 9), TUR_ORDER.get(r.get("tur"), 99), r["id"]))
 
 
 def registry(recs: list[dict], metas: dict) -> list[str]:
@@ -94,10 +136,10 @@ def registry(recs: list[dict], metas: dict) -> list[str]:
     return lines + [""]
 
 
-def render_page(base: str, recs: list[dict], key: str, header: str, tail_heading: str | None,
+def render_page(base: str, recs: list[dict], header: str, tail_heading: str | None,
                 metas: dict) -> tuple[str, list[str]]:
     paras = paragraphs(base)
-    at, tail, errors = place(paras, recs, key)
+    at, tail, errors = place(paras, recs)
     out = [header]
     for i, p in enumerate(paras):
         out.append(p)
@@ -142,7 +184,7 @@ def render(s: int, target: str, recs: list[dict], out: Path) -> tuple[Path, list
     metas = {m["id"]: m for m in C.sources()}
     head = (f"<!-- schema:zenginlestirme {B.SCHEMA['version']}; target:{'S' + str(s) if target == 'surah' else target}; "
             f"base:{info['path']} sha256:{info['sha256']}; rendered:{date.today().isoformat()} -->")
-    text, errors = render_page(base, recs, "capa", head, None if target == "surah" else AYAH_SECTION, metas)
+    text, errors = render_page(base, recs, head, None if target == "surah" else AYAH_SECTION, metas)
     out.mkdir(parents=True, exist_ok=True)
     (out / name).write_text(text, encoding="utf-8")
     return out / name, errors

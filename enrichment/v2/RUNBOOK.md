@@ -53,6 +53,9 @@ Nothing retries automatically.
 ## 5. Ledger
 `enrichment/v2/work/ledger.jsonl`: one line per call (prompt hash, model, effort, tokens, seconds, status).
 
-## 6. Later: the intertext pass
-Bible and other non-Islamic scripture are a separate pass with its own sources (kind `intertext`), its own brief
-(one call per page, as here) and its own page or layer, so it never mixes into the Islamic-literature page. Not built yet.
+## 6. Later: the Bible pass (tevrat, incil)
+Bible and other Jewish and Christian sources are a separate pass with their own corpus and index (kind `intertext`,
+each source.json declaring its `gelenek`), their own brief, one call per page as here, writing blocks with gelenek
+tevrat or incil (schema 3.1). It never reads the Islamic records and vice versa. Its pages anchor to the same base
+paragraphs, so a script merges the layers: after each paragraph, islami, then tevrat, then incil blocks. Corpus,
+brief and merge script not built yet.

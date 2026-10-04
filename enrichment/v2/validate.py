@@ -7,7 +7,10 @@ Records: required and conditional fields, enum values, id pattern and code, ayah
 cover its ayah), word limits, every source locator resolves in the corpus index, hadis only sahih (and the cited
 report sahih under the project rule), memory only with durum:degerlendirilmedi and never for hadis/nuzul/grades,
 modern Arabic dictionaries only in anlam_tarihi, no intertext sources, duzeltme quotes the base verbatim, itiraz
-carries its argument, unique ids, capa found in the page's base. The report lists the errors per record: the
+carries its argument, unique ids, gelenek allowed for the tur and matching the cited sources, a parallel not
+presented as dependence, and the placement: `paragraf` (required) names a prose paragraph of the page's base and
+`capa` (required, at least three words) occurs in that paragraph. The Islamic pass stamps gelenek:islami on
+records that lack it. The report lists the errors per record: the
 orchestrator drops a failing record (it is not repaired) and renders the rest.
 Page (if DIR holds the rendered page): every base paragraph present, byte-exact and in order; every block line
 parses back to its record; nothing after the registry but the registry. Exit 1 on any error.
@@ -57,8 +60,9 @@ def check_page(page: Path, base: str, recs: list[dict]) -> list[str]:
     return e
 
 
-def check_records(s: int, target: str, recs: list[dict]) -> tuple[list[dict], list[dict], list[str]]:
-    """(kept records, dropped [{id, errors}], warnings) for one page."""
+def check_records(s: int, target: str, recs: list[dict], gelenek: str = "islami") -> tuple[list[dict], list[dict], list[str]]:
+    """(kept records, dropped [{id, errors}], warnings) for one page. gelenek: the pass ("islami") or "ehlikitap"
+    for the Bible pass, whose records carry tevrat or incil themselves."""
     pk = V2 / "work" / f"s{s:03d}" / "pack"
     n_ayat = json.loads((pk / "pack.json").read_text(encoding="utf-8"))["ayat"]
     name, base, _ = R.target_page(s, target)
@@ -67,7 +71,13 @@ def check_records(s: int, target: str, recs: list[dict]) -> tuple[list[dict], li
     kept, dropped, warnings, seen = [], [], [], set()
     for r in recs:
         rid = r.get("id", "?")
+        if gelenek == "islami":
+            r.setdefault("gelenek", "islami")
         e = B.check_record(r, s, n_ayat, corpus, base)
+        if gelenek == "islami" and r.get("gelenek") != "islami":
+            e.append(f"{rid}: the Islamic pass writes only gelenek:islami")
+        if gelenek == "ehlikitap" and r.get("gelenek") not in ("tevrat", "incil"):
+            e.append(f"{rid}: the Bible pass writes gelenek tevrat or incil")
         if target != "surah":
             a = int(target.split(":")[1])
             try:
@@ -75,8 +85,12 @@ def check_records(s: int, target: str, recs: list[dict]) -> tuple[list[dict], li
                     e.append(f"{rid}: ayet {r.get('ayet')} does not cover the page's ayah {target}")
             except ValueError:
                 pass  # reported by check_record
-        if r.get("capa") and R.find_para(paras, r["capa"]) is None:
-            e.append(f"{rid}: capa not found in {name}: {r['capa'][:80]!r}")
+        if not str(r.get("paragraf", "")).strip() or not r.get("capa"):
+            e.append(f"{rid}: paragraf and capa are required (every block goes after a paragraph of the base)")
+        else:
+            i, err = R.locate(paras, r)
+            if i is None:
+                e.append(f"{rid}: {name}: {err}")
         if rid in seen:
             e.append(f"{rid}: duplicate id")
         seen.add(rid)
@@ -87,8 +101,6 @@ def check_records(s: int, target: str, recs: list[dict]) -> tuple[list[dict], li
         if r.get("tur") == "yenilik" and r.get("tarama") == "dilim" and r.get("klasik_tanik") == "bulunamadi" \
                 and not any(w in r.get("metin", "").lower() for w in ("dilim", "yalnız", "sadece", "only")):
             warnings.append(f"{rid}: bulunamadi on the slice should say only the slice was searched")
-        if not r.get("capa"):
-            warnings.append(f"{rid}: no capa; it goes to the end of the page")
     return kept, dropped, warnings
 
 

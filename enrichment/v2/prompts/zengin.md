@@ -8,23 +8,23 @@ directory if useful); only annotations.jsonl and gaps.json are read.
 
 ## Scope by target
 - Ayah page (target S:A): everything an advanced reader needs about that ayah. Every record's `ayet` includes the
-  target ayah (a range such as 107:4-7 is right when the point concerns the group). `capa` is an exact sentence of
-  PACK/base/S_A.md.
+  target ayah (a range such as 107:4-7 is right when the point concerns the group). Anchor to the paragraphs of
+  PACK/numbered/S_A.md.
 - Surah page (target surah): the surah as a whole and the points its commentary makes — names, occasions and
   chronology, Makkī/Madanī, structure and naẓm, merit reports, the surah's place among its neighbours, the claims of
   the surah commentary, and the surah's meal verdict (shared losses; best literal and best explanatory meal).
   Each ayah has its own page, written in its own call: on the surah page give per-ayah detail only where a paragraph
-  of the surah commentary speaks to it. `capa` is an exact sentence of PACK/base/surah.md.
+  of the surah commentary speaks to it. Anchor to the paragraphs of PACK/numbered/surah.md.
+- Every block sits right after the base paragraph it speaks to; there is no section at the end of the page.
 
 ## Step 1. Read
-Read the target's base page completely (for the surah page: PACK/base/surah.md, then every PACK/base/S_A.md for
-orientation). Then, for each ayah in scope, PACK/ayah/S_A/*.md and the roots/ files of its bound roots. Do not
+Read the target's numbered base page completely (for the surah page: PACK/numbered/surah.md, then every
+PACK/numbered/S_A.md for orientation). Then, for each ayah in scope, PACK/ayah/S_A/*.md and the roots/ files of its bound roots. Do not
 skim: a claim missed here is missing from the page.
 
 ## Step 2. Claims of the base
 List for yourself every claim of the target page that a reader could check or that the literature could confirm,
-extend or contradict, each with the exact sentence that carries it (that sentence becomes the `capa` of the blocks
-about it) and its kind: baglam (contextual meaning) | nahiv | belagat | lugat (sense, branch) | imge (latent lexical
+extend or contradict, each with its paragraph number [¶n] (the `paragraf` of the blocks about it) and its kind: baglam (contextual meaning) | nahiv | belagat | lugat (sense, branch) | imge (latent lexical
 image, resonance, family image) | ayet_ayet | nazm | tarih | kelam_fikih | sentez (the base's own synthesis joining
 several of the above).
 
@@ -123,9 +123,11 @@ Coverage without repetition: one block per point; a report repeated unchanged by
 grade, a sense, an antecedent, a counter-argument, a correction, a consequence.
 
 Record format (annotations.jsonl, one JSON object per line): all schema fields as keys (see schema.json; enum
-values exactly as listed), plus `capa`: an exact sentence of the target's base page; the block goes after the
-paragraph containing it. Choose the paragraph the block speaks to. Without a capa the block goes to the end of the
-page: use that only for blocks that belong nowhere else.
+values exactly as listed; `gelenek` is added by the script, leave it out), plus the placement, both required:
+`paragraf`, the number n of the prose paragraph [¶n] the block speaks to (the block goes right after it), and
+`capa`, at least three consecutive words copied exactly from that paragraph, which confirm the number. Surah-wide
+points (names, chronology, merit, the meal verdict) anchor to the paragraph that introduces the topic or the ayah.
+A block whose number is missing or out of range, or whose capa is not in that paragraph, is dropped.
 ids: S<sss>-<KOD>-<NNN> with the KOD of the block's tur (schema.json), numbered in page order per KOD.
 Layers: kat:temel for what an advanced reader should see first at that point; ek for supporting detail;
 arastirma for the audit trail (novelty detail, rejected candidates, technical source criticism).

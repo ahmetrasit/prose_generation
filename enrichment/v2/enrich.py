@@ -98,9 +98,9 @@ def header(s: int, target: str, d: Path) -> str:
     n = json.loads((pack / "pack.json").read_text(encoding="utf-8"))["ayat"]
     name = page_name(s, target)
     if target == "surah":
-        what = f"the surah page of S{s} (base PACK/base/surah.md; all ayat 1–{n})"
+        what = f"the surah page of S{s} (base PACK/numbered/surah.md; all ayat 1–{n})"
     else:
-        what = (f"the ayah page of {target} (base PACK/base/{name}; ayah files PACK/ayah/{tag(target)}/); "
+        what = (f"the ayah page of {target} (base PACK/numbered/{name}; ayah files PACK/ayah/{tag(target)}/); "
                 f"every record's ayet must include {target}")
     return "\n".join([
         "# Job", "",

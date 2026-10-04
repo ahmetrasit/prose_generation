@@ -16,6 +16,8 @@ the knowledge around it and integrates the base's findings with the literature.
 ## Paths (relative to the workspace root /Volumes/aro/projects/prose_generation)
 - PACK = enrichment/v2/work/sNNN/pack/ (built by script; read-only for you)
   - base/surah.md, base/S_A.md: the frozen base pages; base.json: their sha256
+  - numbered/surah.md, numbered/S_A.md: the same pages with each prose paragraph numbered [¶n] (headings and
+    "Kaynaklar:" lines are not numbered); read these, and anchor blocks by these numbers
   - ayah/S_A/{words.md, dictionary.md, usage.md, meals.md, sources.md}; roots/<root_id>.md; binding.json
   - errata_candidates.json (problems the base's own tag checker reported); pack.json (manifest, gaps)
 - Schema: enrichment/v2/schema.json and enrichment/v2/SCHEMA.md (types, fields, values, rules)
@@ -40,7 +42,9 @@ the knowledge around it and integrates the base's findings with the literature.
    `derece`, `derece_veren` (as the source or the corpus records it, else derece:degerlendirilmedi) and
    `tarihsellik`. Never upgrade a grade because a tafsir quotes the report.
 5. Dataset hadith numbers are not sunnah.com numbers: cite the corpus locator and quote the opening words.
-6. Bible and other non-Islamic scripture are handled in a separate pass. Do not cite them here.
+6. Bible and other non-Islamic scripture are handled in a separate pass (gelenek tevrat and incil). Do not cite
+   them here; a Bible passage that an Islamic source itself quotes (al-Biqāʿī, for instance) is reported as that
+   source's content.
 7. If a source you need is missing, say so (in gaps.json); never fill the gap from memory
    without marking it.
 

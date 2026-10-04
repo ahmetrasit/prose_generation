@@ -6,6 +6,8 @@
 Writes enrichment/v2/work/sNNN/pack/:
   base/surah.md, base/S_A.md      the frozen v16 outputs (surah images; ayah readings after augment3), copied
   base.json                       their paths and sha256
+  numbered/surah.md, S_A.md       the same with prose paragraphs numbered [¶n] (v16 augment's numbering): what the
+                                  agent reads; records anchor by paragraph number plus a confirming phrase
   binding.json                    every word of every ayah -> QAC lemma/root keys -> dictionary root ids
                                   (identity, documented alternatives, echo) via v9's gateway: the only word->root
                                   binding the workflow uses
@@ -42,6 +44,8 @@ sys.path.insert(0, str(V16))
 sys.path.insert(0, str(V2 / "tools"))
 import dictionary as D  # noqa: E402  (v16 dictionary; imports v9/prepare as D.P)
 import corpus as C  # noqa: E402
+sys.path.insert(0, str(V2))
+import render as R  # noqa: E402
 
 DICT_REPO = PROJECTS / "dictionary"
 TR_MANIFEST = PROJECTS / "quran-data" / "data" / "dictionary" / "tr" / "MANIFEST.json"
@@ -316,6 +320,13 @@ def dictionary_state() -> dict:
             "entries": m.get("entryCount"), "branches": m.get("branchCount")}
 
 
+def write_numbered(pk: Path) -> None:
+    """numbered/<page>.md: the base with its prose paragraphs numbered [¶n], as the agent reads it for anchoring."""
+    (pk / "numbered").mkdir(exist_ok=True)
+    for f in sorted((pk / "base").glob("*.md")):
+        (pk / "numbered" / f.name).write_text(R.numbered(f.read_text(encoding="utf-8")), encoding="utf-8")
+
+
 def build(s: int, force: bool, surah_base_path: Path | None) -> Path:
     wd = work_dir(s)
     pk = wd / "pack"
@@ -346,6 +357,7 @@ def build(s: int, force: bool, surah_base_path: Path | None) -> Path:
         else:
             base["ayat"][ref] = None
     (pk / "base.json").write_text(json.dumps(base, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    write_numbered(pk)
 
     binding, roots = {}, []
     for ref in refs:

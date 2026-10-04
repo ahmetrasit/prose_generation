@@ -2,9 +2,10 @@
 
 Agents write records to annotations.jsonl (one JSON object per line); nothing else writes blocks. One call writes
 the records of one page (the surah page or one ayah page). A record is the block's fields plus placement:
-  {"id": "S107-HDS-001", "tur": "hadis", "ayet": "107:6", "islev": "destek", "iliski": "tematik", "durum": "acik",
+  {"id": "S107-HDS-001", "gelenek": "islami", "tur": "hadis", "ayet": "107:6", "islev": "destek", "iliski": "tematik", "durum": "acik",
    "kat": "ek", "derece": "sahih", "derece_veren": "Müslim", "metin": "…", "kaynak": "MUSLIM:2985",
-   "capa": "exact sentence of that page's base after whose paragraph the block goes (default: end of the page)"}
+   "paragraf": 4, "capa": "at least three exact words of prose paragraph 4 of that page's base (confirms the number)"}
+The block goes right after that paragraph. Prose paragraphs are numbered as in v16's augment (render.numbered).
 """
 from __future__ import annotations
 
@@ -20,11 +21,13 @@ FIELDS = SCHEMA["fields"]
 REQUIRED = SCHEMA["block"]["required"]
 LIMITS = SCHEMA["block"]["word_limits"]
 KOD = {k: v["kod"] for k, v in ENUMS["tur"].items()}
-PLACEMENT = ("capa",)
-ORDER = ["id", "tur", "ayet", "islev", "iliski", "durum", "kat", "guc", "klasik_tanik", "tarama", "taranan", "derece",
-         "derece_veren", "tarihsellik", "kiraat_turu", "sozluk", "mutercim", "terim", "kayip", "yon", "kiyas", "taban",
+PLACEMENT = ("paragraf", "capa")
+ORDER = ["id", "gelenek", "tur", "ayet", "islev", "iliski", "durum", "kat", "guc", "klasik_tanik", "tarama", "taranan", "derece",
+         "derece_veren", "tarihsellik", "kiraat_turu", "nusha", "tarihleme", "bag", "sozluk", "mutercim", "terim", "kayip", "yon", "kiyas", "taban",
          "hata", "alim", "ravi", "koken", "tekrar", "gerekce", "not", "metin", "kaynak"]
 MODERN_DICT = {"VASIT", "MUHIT", "HANSWEHR"}
+SHARED_KINDS = {"quran", "modern", "reference"}  # citable from every gelenek
+MULTI = {"kayip", "nusha"}  # enum fields that take several pipe-separated values
 AYET = re.compile(r"(\d+):(\d+)(?:-(\d+))?")
 LOC = re.compile(r"^([A-Z][A-Z0-9-]*)(?::(.+))?$")
 
@@ -49,7 +52,7 @@ class Corpus:
         meta = self.meta.get(sid)
         if not meta:
             return False, f"unknown source {sid!r}", {}
-        info = {"kind": meta.get("kind"), "access": meta.get("access"), "id": sid}
+        info = {"kind": meta.get("kind"), "access": meta.get("access"), "id": sid, "gelenek": meta.get("gelenek")}
         if meta.get("access") == "hafiza":
             return True, "pointer (memory)", info
         if rest is None:
@@ -90,14 +93,16 @@ def check_record(r: dict, surah: int, n_ayat: int, corpus: Corpus | None, base_t
             continue
         enum = FIELDS[k].get("enum")
         if enum:
-            vals = str(v).split("|") if k == "kayip" else [str(v)]
+            vals = str(v).split("|") if k in MULTI else [str(v)]
             for x in vals:
                 if x not in ENUMS[enum]:
                     e.append(f"{rid}: {k}={x!r} not in {sorted(ENUMS[enum])}")
-    tur = r.get("tur")
+    tur, gel = r.get("tur"), r.get("gelenek")
+    if tur in ENUMS["tur"] and gel in ENUMS["gelenek"] and gel not in ENUMS["tur"][tur]["gelenek"]:
+        e.append(f"{rid}: tur {tur} is not used in gelenek {gel}")
     for k, f in FIELDS.items():
         req = f.get("required_for") or {}
-        if tur in req.get("tur", []) or r.get("islev") in req.get("islev", []):
+        if tur in req.get("tur", []) or r.get("islev") in req.get("islev", []) or gel in req.get("gelenek", []):
             if not str(r.get(k, "")).strip():
                 e.append(f"{rid}: {k} is required for {tur}/{r.get('islev')}")
     m = re.fullmatch(r"S(\d{3})-([A-Z]{3})-(\d{3})", rid)
@@ -133,8 +138,11 @@ def check_record(r: dict, surah: int, n_ayat: int, corpus: Corpus | None, base_t
             else:
                 infos.append(info)
                 memory |= info.get("access") == "hafiza"
-                if info.get("kind") == "intertext":
-                    e.append(f"{rid}: {loc} belongs to the separate intertext pass")
+                if gel == "islami" and info.get("kind") == "intertext":
+                    e.append(f"{rid}: {loc} is a Bible/Jewish/Christian source; it belongs to the separate pass")
+                if gel in ("tevrat", "incil") and info.get("kind") not in SHARED_KINDS \
+                        and gel not in (info.get("gelenek") or []):
+                    e.append(f"{rid}: {loc} is not a source of gelenek {gel}")
                 if info["id"] in MODERN_DICT and tur != "anlam_tarihi":
                     e.append(f"{rid}: modern dictionary {info['id']} only inside anlam_tarihi")
     if memory:
@@ -154,6 +162,10 @@ def check_record(r: dict, surah: int, n_ayat: int, corpus: Corpus | None, base_t
         e.append(f"{rid}: derece_veren required when a grade is given")
     if tur == "duzeltme" and base_text and r.get("taban") and r["taban"] not in base_text:
         e.append(f"{rid}: taban not found verbatim in the base")
+    if r.get("bag") in ("muhatap", "etki_iddiasi") and not r.get("alim"):
+        e.append(f"{rid}: bag {r['bag']} must name the scholar who argues it (alim)")
+    if r.get("bag") == "etki_iddiasi" and r.get("tarihleme") == "kuran_sonrasi":
+        e.append(f"{rid}: a text dated after the Qur'an cannot carry etki_iddiasi")
     if r.get("islev") == "itiraz" and not r.get("gerekce"):
         e.append(f"{rid}: itiraz needs gerekce (the argument why the reading cannot hold); a preference is tercih")
     return e

@@ -54,11 +54,28 @@ when they add value (al-Biqāʿī, al-Khūlī/Bint al-Shāṭiʾ, ishārī, Muʿ
     first version ran a research map ‖ meal review → compose → independent audit → up to two repair rounds per
     surah (4–8 calls). Its briefs (`prompts/harita.md`, `meal.md`, `yaz.md`, `denetim.md`, `onarim.md`) are kept
     as the record and are not used; `prompts/zengin.md` merges harita, meal and yaz, plus the audit's source check
-    as the call's own final step. Placement is one field, `capa`, a sentence of the page's own base
-    (`capa_ayet` removed).
+    as the call's own final step. Placement refers to the page's own base (`capa_ayet` removed; see
+    decision 12 for paragraph numbers).
 11. **Bible and other non-Islamic scripture**: a separate, parallel enrichment pass after this one is in place, so
     that nothing from it contaminates the Islamic-literature page. Corpus Coranicum's intertexts are stored apart
     (`CORPUSCORANICUM-INTERTEXT`, kind `intertext`) and excluded from this pass's index.
+12. **Schema 3.1 (user, 2026-10-03): one schema, three traditions, paragraph-anchored.** Every block carries
+    `gelenek`: `islami` (stamped by the script in the Islamic pass), `tevrat` (Hebrew Bible in any witness, the
+    Psalms included, Jewish pseudepigrapha, Mishnah, Talmud, midrash) or `incil` (New Testament in any witness,
+    Christian apocrypha, Church Fathers, Syriac homilies). The user asked for Tevrat and İncil apart rather than one
+    "ehl-i kitap" layer; a Hebrew Bible text read through Christian exegesis is two blocks. The field is `gelenek`,
+    not `katman`, because `kat` is already labelled "Katman". Each `tur` lists the traditions it is valid in; Bible
+    types: paralel, motif, karsi_anlati, soydas, yorum_gelenegi; shared: modern, elenen, kaynak_notu, yontem,
+    duzeltme. Bible blocks require `bag` (benzerlik | ortak_havza | muhatap | etki_iddiasi: a parallel is not a
+    dependence; the last two need a named scholar; no dependence claim for a text dated after the Qur'an),
+    `tarihleme` and `nusha`. A block cites only sources of its own tradition (plus the Qur'an text and modern
+    scholarship). Placement is required (user: outputs go "just after relevant paragraphs, instead of a dump at the
+    end"), and by paragraph number (user: "why not to number frozen prose paragraphs and use it for anchoring"):
+    `paragraf` = the prose paragraph's number, numbered as in v16's augment (from 1; headings and "Kaynaklar:"
+    lines unnumbered; the pack's `numbered/` files show [¶n]), plus `capa`, at least three exact words of that
+    paragraph, so a wrong number is caught instead of silently misplacing the block. A record whose number and
+    words do not match is dropped. Both passes number the same frozen base, so they merge by paragraph number. A merged page shows, after each base paragraph, its islami,
+    then tevrat, then incil blocks; the passes never read each other's records.
 
 ## Schema 3.0 against 2.0
 Removed: `tradition` (folded into `tur`), ten roles that repeated a type, five relations that repeated a type,
