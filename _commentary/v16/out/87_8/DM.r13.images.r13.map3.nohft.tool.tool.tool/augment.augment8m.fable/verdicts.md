@@ -1,0 +1,83 @@
+- 2:106: ref ¶1 - unutturmanın Allah'ın fiili olması
+- 2:184: not relevant - hasta ve yolcu hükmü 2:185'te zaten anlatıldığı gibi
+- 2:196: ref ¶2, ¶10 - isteysera "hazır olan, kolay gelen" ölçüsü
+- 2:286: ref ¶10 - gücün üstünde yük yüklenmemesi
+- 4:28: ref ¶10 - hafifletme isteği ve zayıf insan
+- 5:3: ref ¶17 - oklarla pay bölüşmenin fısk sayılması
+- 5:6: ref ¶10 - darlık konulmaması, hasta ve yolcu
+- 5:91: ref ¶17 - meysirin Allah'ı anmaktan alıkoyması
+- 6:125: prose ¶14 - göğsün açılması ya da daralması, iki yönlü hazırlık
+- 11:105: not relevant - bölünmeyi 11:106 taşır
+- 11:106: ref ¶13 - zahmete düşenlerin ateşte olması
+- 14:4: ref ¶9 - elçinin kavminin diliyle gönderilmesi
+- 15:97: ref ¶7 - daralan göğüs
+- 15:98: ref ¶12 - darlığın ardından tesbih ve secde
+- 15:99: ref ¶12 - kesin bilgi gelene dek kulluk
+- 16:9: ref ¶15 - yolun doğrusunun Allah'a ait olması
+- 17:86: ref ¶1 - vahyin Allah dilerse kalması
+- 18:87: not relevant - zalimin azabı; iki yönlü bölünmeyi 18:88 tamamlar
+- 18:88: ref ¶14 - iyi iş yapana güzel karşılık ve kolay söz, iki yönlü bölünme
+- 20:2: cited ¶11; ref ¶13 - eşkâ kökünün Peygamber için olumsuzlanması
+- 20:7: ref ¶1 - gizliyi ve daha gizlisini bilen
+- 20:25: ref ¶2, ¶7 - Musa'nın göğsünün açılmasını dilemesi
+- 20:27: prose ¶9 - dilden düğümün çözülmesi dileği
+- 20:28: context ¶9 (in 20:27) - sözün anlaşılması gerekçesi
+- 20:36: ref ¶2 - Musa'nın dileğinin verilmesi
+- 20:44: ref ¶11 - öğüt alma ve içi titreme çifti
+- 20:50: ref ¶18 - yaratıp yol gösteren Rab
+- 20:76: ref ¶15 - arınanın karşılığı
+- 20:123: ref ¶15 - yola uyanın bedbaht olmaması
+- 22:78: ref ¶10 - dinde darlık konulmaması
+- 23:106: ref ¶13 - bedbahtlığın galip gelmesi
+- 26:13: ref ¶9 - daralan göğüs, açılmayan dil
+- 35:18: ref ¶11, ¶15 - uyarının korkana ulaşması; arınanın kendisi için arınması
+- 36:11: ref ¶11 - uyarının korkana ulaşması
+- 43:32: prose ¶18 - geçimi bölüştürenin Rab olması
+- 50:45: ref ¶8, ¶11 - Kur'an ile korkana öğüt
+- 51:4: ref ¶7, ¶18 - buyrukla paylaştıranlar
+- 51:55: prose ¶8 - öğüdün inananlara fayda vermesi
+- 52:29: ref ¶8 - öğüt ver emri ve elçinin ne olmadığı
+- 54:22: cited ¶9 (pointed to) - nakarat
+- 54:32: cited ¶9 (pointed to) - nakarat
+- 54:40: cited ¶9 (pointed to) - nakarat
+- 54:49: ref ¶18 - her şeyin ölçüyle yaratılması
+- 65:4: ref ¶14 - sakınana işinden kolaylık
+- 65:7: ref ¶7 - zorluktan sonra kolaylık, öbür söyleyiş
+- 73:5: prose ¶11 - ağır söz
+- 74:1: ref ¶12 - bürünene kalk emri
+- 74:2: ref ¶12 - kalkıp uyarma
+- 75:16: ref ¶9 - dilin aceleyle kıpırdatılmaması
+- 75:17: ref ¶1 - toplamayı ve okumayı üstüne alan biz
+- 75:18: ref ¶1 - okunduğunda ardından gitmek
+- 75:19: not relevant - açıklamanın üstlenilmesi; okutma bağını 75:17-18 taşır
+- 76:3: ref ¶2 - yolun gösterilmesi
+- 79:45: ref ¶11 - korkana uyarıcı
+- 80:3: ref ¶8 - arınma umudu
+- 80:4: ref ¶8 - öğüdün fayda vermesi
+- 80:5: ref ¶16 - kendini ihtiyaçsız sayan
+- 80:6: ref ¶16 - ona yönelme
+- 80:8: ref ¶11 - koşarak gelen
+- 80:9: ref ¶11 - içi titreyerek gelen
+- 87:6: cited ¶1; nowhere else - okutma sözü
+- 87:7: cited ¶1; nowhere else - Allah'ın dilediği dışında
+- 87:9: cited ¶8; nowhere else - öğüt ver emri
+- 87:10: cited ¶11; nowhere else - içi titreyen öğüt alacak
+- 87:11: cited ¶13; nowhere else - en bedbahtın uzak durması
+- 87:14: cited ¶18 (pointed to); nowhere else - arınanın kurtuluşu
+- 87:16: cited ¶6 (pointed to); nowhere else - öne koymak
+- 87:17: cited ¶13; nowhere else - daha hayırlı ve kalıcı
+- 88:21: ref ¶8 - yalnız hatırlatıcı
+- 88:22: ref ¶8 - zorlayıcı değil
+- 90:10: ref ¶14 - iki yolun gösterilmesi
+- 91:9: ref ¶15 - arındıranın kurtuluşu
+- 91:10: ref ¶15 - gömenin yıkımı
+- 92:13: ref ¶15 - ahiret ve ilk
+- 92:16: ref ¶13 - yalanlayan ve yüz çeviren
+- 92:20: ref ¶13, ¶15 - en yüce Rab
+- 93:7: ref ¶6 - Peygamber'in yol gösterileni olması
+- 94:1: cited ¶7 (pointed to); nowhere else - göğsün açılması
+- 94:4: not relevant - anılmanın yükseltilmesi; kolaylık ya da öğütle bağı yok
+- 94:5: cited ¶7 (pointed to); nowhere else - ilk "zorlukla birlikte kolaylık"
+- 96:6: ref ¶16 - insanın azgınlaşması
+- 96:7: ref ¶16 - kendini ihtiyaçsız görmek
+- 111:2: ref ¶16 - malın fayda vermemesi

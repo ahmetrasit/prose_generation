@@ -1,0 +1,104 @@
+- 2:184: ref ¶10 - hasta ve yolcuya başka günler, güç yetirene fidye
+- 2:185: cited ¶10; nowhere else - commentary explains it there
+- 2:196: ref ¶3 - "isteysera": kolaylaşan bir şeydir, hac bağlamında
+- 2:219: cited ¶17; nowhere else - meysirin günahı, orada açıklanmış
+- 2:280: cited ¶16; nowhere else - meysere, orada açıklanmış
+- 2:286: ref ¶10 - güç ölçüsünde yükümlülük
+- 4:28: ref ¶10 - Allah'ın hafifletmek istemesi
+- 5:3: ref ¶17 - fal oklarıyla pay aramak
+- 5:6: ref ¶10 - hasta ve yolcuya teyemmüm, zorluk istenmemesi
+- 5:90: cited ¶17; nowhere else - ¶18 already draws on it
+- 5:91: prose ¶18 - meysir Allah'ı anmaktan ve namazdan alıkoyar, karşısında 87:15'in iki fiili
+- 6:125: prose ¶14, ref ¶6 - göğsün iki yöne hazırlanması, tırmanış resmi
+- 7:157: ref ¶7 - Peygamber'in de başkalarının yükünü indirmesi
+- 8:66: ref ¶10 - zayıflığı bilip hafifletmek
+- 11:105: ref ¶13 - bedbaht ve mutlu diye ayrılmak
+- 11:106: ref ¶13 - bedbahtlar ateşte
+- 15:99: ref ¶12 - yakîn gelene dek kulluk
+- 16:69: ref ¶6 - Rabbin yollarında "zülül" yürüyen arı
+- 18:6: ref ¶11 - öğüdün zahmeti, kendini tüketecek hâl
+- 18:87: not relevant - zalimin cezası, yalnız 18:88'in komşusu
+- 18:88: ref ¶4 - answers ledger: kelime yüsrâ değil "yüsr"dür, ama "el-husnâ" isimsiz kalan aynı dişil üstünlük kalıbıdır
+- 19:97: cited ¶9; nowhere else - orada açıklanmış
+- 20:2: cited ¶11; ref ¶13 - şekâ kökü Peygamber'den olumsuzlanır
+- 20:3: cited ¶11; nowhere else - orada açıklanmış
+- 20:7: ref ¶1 - sırrı ve daha gizliyi bilen, Tâhâ'nın açılışında
+- 20:25: prose ¶2 - Musa'nın duasında işten önce göğsün açılması
+- 20:26: cited ¶2; nowhere else - orada açıklanmış
+- 20:27: context ¶2 (in 20:25); ref ¶9 - dilden düğümün çözülmesi
+- 20:28: context ¶2 (in 20:25); ref ¶9 - sözün anlaşılması
+- 20:36: context ¶2 (in 20:25) - duanın kabulü
+- 20:50: ref ¶6 - yaratılışını verip sonra yol göstermek
+- 20:114: ref ¶9 - Kur'an'la acele etmemek
+- 20:123: prose ¶13 - yol göstermeye uyan bedbaht olmaz (şekâ)
+- 20:124: context ¶13 (in 20:123) - zikirden yüz çeviren için dar geçim
+- 22:78: ref ¶10 - dinde zorluk yok
+- 25:2: ref ¶18 - her şeyi yaratıp ölçüsünü koyan
+- 26:13: ref ¶9 - dili açılmayan elçi
+- 26:193: ref ¶9 - sözün indirilişi
+- 26:194: ref ¶9 - kalbe, uyarıcı olsun diye
+- 26:195: ref ¶9 - apaçık Arap diliyle
+- 36:11: ref ¶11 - uyarı zikre uyana ve korkana fayda verir
+- 36:72: ref ¶5 - hayvanların boyun eğdirilip binek yapılması
+- 43:13: ref ¶5 - bineği insana boyun eğdiren
+- 43:32: ref ¶18 - "biz" paylaştırdık
+- 44:58: cited ¶9; nowhere else - orada açıklanmış
+- 50:45: ref ¶11 - zorba olmadan, korkana öğüt
+- 51:2: cited ¶7; nowhere else - orada açıklanmış
+- 51:3: cited ¶7; nowhere else - orada açıklanmış
+- 51:55: ref ¶8 - öğüt ver, öğüt fayda verir
+- 54:17: cited ¶9; ref ¶2 - fiilin alışılmış nesnesi söz
+- 54:22: ref ¶9, ¶2 - refrain with 54:17
+- 54:32: ref ¶9, ¶2 - refrain with 54:17
+- 54:40: ref ¶9, ¶2 - refrain with 54:17
+- 65:4: ref ¶2 - answers ledger: kolaylaşan kişinin işidir, alışılmış yapı
+- 65:7: ref ¶7, ¶16 - answers ledger: "zorluktan sonra" kolaylık, varlığa göre harcama bağlamında
+- 67:15: ref ¶6 - yerin yatkın kılınması, yolun kolaylaşması
+- 73:2: context ¶10 (in 73:5) - gece kalkışı emri, anılmış
+- 73:3: context ¶10 (in 73:5) - yarısı ya da biraz eksiği, anılmış
+- 73:4: context ¶10 (in 73:5) - tane tane okuma
+- 73:5: prose ¶10, ref ¶11 - ağır söz ile kolay gelen okuma aynı surede
+- 73:6: not relevant - gece kalkışının ağırlığı, kolaylıkla bağı yok
+- 73:20: cited ¶10; nowhere else - orada açıklanmış
+- 75:16: prose ¶9 - dile acele etmemesinin söylenmesi
+- 75:17: context ¶9 (in 75:16); ref ¶1 - okutmayı üstlenen "biz"
+- 75:18: context ¶9 (in 75:16) - okunanı izlemek
+- 75:19: context ¶9 (in 75:16) - açıklamayı da "biz" üstlenir
+- 79:45: ref ¶11 - uyarı korkana
+- 80:4: ref ¶8 - öğüdün fayda vermesi
+- 80:5: context ¶11 (in 80:9); ref ¶16 - kendini ihtiyaçsız gören
+- 80:6: not relevant - yönelme ayrıntısı, bağ kurmaz
+- 80:7: context ¶11 (in 80:9) - arınmamaktan sorumlu olmamak
+- 80:8: context ¶11 (in 80:9) - koşarak gelen, anılmış
+- 80:9: prose ¶11 - "yahşâ" bir insanın hâli olarak, öğüt sahnesinde
+- 80:10: not relevant - sahnenin devamı, yeni bir şey eklemez
+- 80:17: ref ¶2 - nankör insan, açıkça anılmadan işaret edilmiş
+- 80:18: ref ¶2 - neden yaratıldığı
+- 80:19: ref ¶2 - damladan yaratılıp ölçülmesi
+- 80:20: cited ¶2; nowhere else - orada açıklanmış
+- 87:14: cited ¶18; nowhere else - bu surenin ayeti
+- 87:15: context ¶18 (in 5:91) - Rabbinin adını anıp namaz kılan
+- 88:21: ref ¶8, ¶11 - öyleyse öğüt ver, öğüt verici olmak
+- 88:22: ref ¶8, ¶11 - zorlayıcı olmamak
+- 92:1: ref ¶14 - gece üzerine yemin, işaret edilmiş
+- 92:2: ref ¶14 - gündüz üzerine yemin
+- 92:3: ref ¶14 - erkek ile dişi, iki yön
+- 92:4: ref ¶14 - çabaların farklı oluşu
+- 92:5: ref ¶14 - veren ve sakınan, adı anılmadan aktarılmış
+- 92:6: ref ¶14 - en güzeli doğrulayan
+- 92:7: cited ¶14; ref ¶4 - ¶4 bu ayete işaret eder
+- 92:8: cited ¶16; ref ¶14 - cimri ve kendini ihtiyaçsız sayan
+- 92:9: ref ¶14 - en güzeli yalanlayan
+- 92:10: cited ¶14; ref ¶4 - yüsrâ'nın zıddı usrâ
+- 92:13: ref ¶15 - ahiret ve dünya
+- 92:14: ref ¶15 - alevlenen ateşle uyarı, aktarılmış
+- 92:16: ref ¶15 - yalanlayıp yüz çeviren
+- 92:19: context ¶15 (in 92:20) - karşılık beklenmeyen veriş
+- 92:20: prose ¶15, ref ¶13 - "rabbihi'l-a'lâ", 87:1'in adı
+- 92:21: context ¶15 (in 92:20) - hoşnut olacak
+- 93:5: ref ¶1 - Peygamber'e gelecek zamanla verilen vaat
+- 94:1: context ¶2 (in 20:25); ref ¶7 - göğsün açılması
+- 94:5: ref ¶7, ¶4 - zorlukla birlikte kolaylık, ilk söyleyiş
+- 94:6: cited ¶7; ref ¶4 - yüsr ile usr yan yana
+- 96:6: ref ¶16 - azan insan
+- 96:7: ref ¶16 - kendini ihtiyaçsız görmek

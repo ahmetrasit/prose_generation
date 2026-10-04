@@ -42,13 +42,17 @@ OWN_PARAGRAPH = {"augment4"}
 # that a renderer can hide or show them. The marker is a namespaced HTML comment: it collides neither with v16's
 # reader tags ({ar:…, source:…}) nor with enrichment v2's block lines ({id:…}) and its page header
 # (<!-- schema:zenginlestirme …). Both v16's and enrichment's paragraph splitters count a marked block as one paragraph.
-VERDICT = {"augment5", "augment6", "augment7", "augment8"}  # augment6: reference links name their mechanism; a refrain is one
+VERDICT = {"augment5", "augment6", "augment7", "augment8", "augment8m"}  # augment6: reference links name their mechanism; a refrain is one
 # reference. augment7: conflict and context verdicts, the ledger answered, and the missing.py text lookup
-LOOKUP = {"augment7", "augment8"}
+LOOKUP = {"augment7", "augment8", "augment8m"}
 # augment8 (user, 2026-10-03, from an Opus review of augment6/7): "already cited" is never a reason; a cited
 # passage gets a "cited ¶n; …" verdict; a per-paragraph own-knowledge minimum; consecutive ayat as one reference;
 # the ±2 neighbours of every passage the reading cites join the list as a tier of their own
 NEIGHBOURS = {"augment8"}
+# augment8m (user, 2026-10-04, the list-vs-memory test on 87:8): augment8 with NO passage list; the model's own
+# exhaustive pass from memory, with the text lookup. A trial brief, not production. NOLIST_OWN: assumed verdicts.
+NOLIST = {"augment8m"}
+NOLIST_OWN = 80
 CODEX = {"sol61": "gpt-6.1-sol"}  # --model sol61: GPT-6.1 Sol through `codex exec` (subscription, no USD)  # briefs whose call may read verse text (packets.ALLOW text …), as the r13 writer does
 MARKED_BLOCK = re.compile(r"\n\n<!-- v16:augment [^\n]*-->\n[^\n]*")
 OUT_TOKENS = {"images": 40_000, "ayah": 20_000}  # assumed, thinking included
@@ -161,20 +165,26 @@ def build(d: Path, brief: str) -> tuple[str, dict]:
     numbered = []
     for st, en, num in paragraphs(text):
         numbered.append((f"[¶{num}] " if num else "") + text[st:en].strip())
-    pas, n, order, nolist = passages(text, ayat, cited_by_paragraph(text) if brief in VERDICT else None,
-                                     brief in NEIGHBOURS)
+    if brief in NOLIST:  # memory-only trial: no list is built or shown
+        pas, n, order, nolist = "", 0, [], []
+    else:
+        pas, n, order, nolist = passages(text, ayat, cited_by_paragraph(text) if brief in VERDICT else None,
+                                         brief in NEIGHBOURS)
     bf = V.HERE / "prompts" / brief / "augment.md"
     head = (f"Follow the brief below (augment.md) exactly. The commentary is "
             + ("a surah commentary on the images of the whole surah" if kind == "images" else
                f"a reading of the ayah {ayat[0]}")
-            + "; its ledger and the listed passages follow it. Return only the output augment.md specifies.\n\n")
+            + ("; its ledger follows it. No list of passages is supplied." if brief in NOLIST
+               else "; its ledger and the listed passages follow it.")
+            + " Return only the output augment.md specifies.\n\n")
     if brief in LOOKUP:
         import packets as P
         head += P.tool_line(ayat[0], "lookup")
     secs = [(V.rel(bf), bf.read_text(encoding="utf-8")),
             (f"{V.rel(f)} (prose paragraphs numbered)", "\n\n".join(numbered)),
-            (V.rel(led), led.read_text(encoding="utf-8") if led.exists() else "(no ledger)\n"),
-            (f"passages not cited ({n})", pas)]
+            (V.rel(led), led.read_text(encoding="utf-8") if led.exists() else "(no ledger)\n")]
+    if brief not in NOLIST:
+        secs.append((f"passages not cited ({n})", pas))
     full = head + "".join(f"===== {p} =====\n{b.rstrip()}\n\n" for p, b in secs)
     if not led.exists():
         print(f"WARNING: {V.rel(led)} not found: the model gets '(no ledger)'")
@@ -538,7 +548,7 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("run", type=Path)
     ap.add_argument("--brief", default="augment8")  # production (user, 2026-10-04): augment8, Opus 5.5 high, ayah readings only
-    ap.add_argument("--model", choices=("sonnet", "opus", *CODEX), default="opus")
+    ap.add_argument("--model", choices=("sonnet", "opus", "fable", *CODEX), default="opus")
     ap.add_argument("--surah-commentary", action="store_true", help="allow a surah commentary (not production)")
     ap.add_argument("--go", action="store_true")
     a = ap.parse_args()
@@ -549,7 +559,8 @@ def main() -> None:
         text = CODEX_NOTE + text
     model_id, w, o = (CODEX[model], 0.0, 0.0) if model in CODEX else V.MODELS[model]
     n_in = V.est_tokens(text)
-    n_out = VERDICT_OUT[0] + VERDICT_OUT[1] * meta["passages"] if a.brief in VERDICT else OUT_TOKENS[meta["kind"]]
+    n_judged = NOLIST_OWN if a.brief in NOLIST else meta["passages"]
+    n_out = VERDICT_OUT[0] + VERDICT_OUT[1] * n_judged if a.brief in VERDICT else OUT_TOKENS[meta["kind"]]
     est = n_in * w * (LOOKUP_INPUT if a.brief in LOOKUP else 1) + n_out * o
     out = d / (f"augment.{a.brief}" + ("" if model == MODEL else f".{model}"))
     print(f"{out.relative_to(V.HERE)}: {meta['passages']} passages, ~{n_in:,} tokens in; "

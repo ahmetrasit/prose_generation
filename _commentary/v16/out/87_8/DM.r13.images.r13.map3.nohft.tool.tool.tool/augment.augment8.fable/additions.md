@@ -1,0 +1,80 @@
+## ¶3 · prose · 17:28 · applied
+
+**+** İsrâ suresinde, yakına, yoksula ve yolcuya hakkını vermeyi emreden ayetlerin ardından, Rabbinden umduğu bir rahmeti beklerken onlardan yüz çevirmek zorunda kalana {ar:فَقُل لَّهُمْ قَوْلًۭا مَّيْسُورًۭا, tr:fe-kul lehum kavlen meysûrâ, gloss:onlara yumuşak bir söz söyle, source:17:28} denir. Meysûr, Türkçedeki müyesserin kendisidir ve orada da bir sözü niteler: verilecek bir şey yokken kolaylaştırılmış olan, sözdür. Kelime Kur'an'ın kendi kullanımında da bir şeye sıfattır; sekizinci ayetin fiili bu niteliği kişinin üstüne alır.
+
+## ¶7 · prose · 65:7 · applied
+
+**+** Talâk suresinde, genişlik sahibine genişliğinden, rızkı daraltılmış olana da Allah'ın verdiğinden harcamasını söyleyen ayet {ar:سَيَجْعَلُ ٱللَّهُ بَعْدَ عُسْرٍۢ يُسْرًۭا, tr:se-yec'alullâhu ba'de usrin yusrâ, gloss:Allah zorluktan sonra bir kolaylık verecektir, source:65:7} diye biter. Orada kolaylık zorluğun ardına konur; "birlikte" değil "sonra" denir. İki sözün muhatabı ayrıdır: eli dar olana darlığın geçeceği, sırtı yükle bükülen Peygamber'e ise yükün altındayken kolaylığın onunla olduğu söylenir.
+
+## ¶9 · prose · 20:27 · applied
+
+**+** Musa'nın Tâhâ suresindeki duası işin kolaylaştırılmasıyla bitmez; ardından {ar:وَٱحْلُلْ عُقْدَةًۭ مِّن لِّسَانِى, tr:vahlul ukdeten min lisânî, gloss:dilimden düğümü çöz, source:20:27} ve {ar:يَفْقَهُوا۟ قَوْلِى, tr:yefkahû kavlî, gloss:sözümü anlasınlar, source:20:28} gelir. Şuarâ suresinde aynı göreve çağrılırken {ar:وَيَضِيقُ صَدْرِى وَلَا يَنطَلِقُ لِسَانِى, tr:ve yedîku sadrî ve lâ yentaliku lisânî, gloss:göğsüm daralır, dilim açılmaz, source:26:13} der. Musa'nın iki ayrı şey olarak istediği, Peygamber'e verilmiş olarak anılır: söz onun diliyle kolaylaştırılır, kendisi de en kolaya hazırlanır.
+
+## ¶11 · prose · 50:45 · applied
+
+**+** Kâf suresinin son ayeti bu yükün sınırını çizer. Allah onların söylediklerini en iyi bilenin kendisi olduğunu söyler, Peygamber'e {ar:وَمَآ أَنتَ عَلَيْهِم بِجَبَّارٍۢ, tr:ve mâ ente aleyhim bi-cebbâr, gloss:sen onların üzerinde bir zorlayıcı değilsin, source:50:45} der ve {ar:فَذَكِّرْ بِٱلْقُرْءَانِ مَن يَخَافُ وَعِيدِ, tr:fe-ẕekkir bi'l-kur'âni men yehâfu vaîd, gloss:tehdidimden korkanı Kur'an'la uyar, source:50:45} diye bitirir. Dokuzuncu ve onuncu ayetlerin "öğüt ver" ve "içi titreyen" kelimeleri orada da yan yanadır; aralarına giren cümle yükün neden taşınabilir olduğunu söyler: öğüt vermek Peygamber'in işidir, kabul ettirmek değil.
+
+## ¶14 · prose · 6:125 · applied
+
+**+** En'âm suresi bu iki yönlü işi göğüs üzerinden anlatır: {ar:فَمَن يُرِدِ ٱللَّهُ أَن يَهْدِيَهُۥ يَشْرَحْ صَدْرَهُۥ لِلْإِسْلَٰمِ, tr:fe-men yuridillâhu en yehdiyehû yeşrah sadrahû li'l-islâm, gloss:Allah kimi doğru yola iletmek isterse göğsünü İslam'a açar, source:6:125}; saptırmak istediğinin göğsünü ise {ar:ضَيِّقًا حَرَجًۭا كَأَنَّمَا يَصَّعَّدُ فِى ٱلسَّمَآءِ, tr:dayyikan haracen keennemâ yessa'adu fi's-semâ, gloss:daralmış, sıkışmış, sanki göğe tırmanıyormuş gibi, source:6:125} kılar. Gece suresindeki "en kolaya" ve "en zora" hazırlamanın karşılığı burada açılan göğüs ile tırmanır gibi daralan göğüstür. Zora hazırlanan kişinin yokuşu dışarıda değil, göğsündedir.
+
+## ¶1 · refs · - · applied
+
+**+** Ayrıca: {source:73:20} Rabbin sayamayacaklarını bilip kolay geleni okumalarını istemesi: bilmenin kolaylaştırmaya dayanak oluşu; {source:75:16} {source:75:17} okutmanın ve toplamanın "bize düşer" diye üstlenilmesi; {source:17:86} vahyedileni geri almanın Allah'ın dilemesine bağlı tutulması, yedinci ayetteki istisnanın açılımı.
+
+## ¶2 · refs · - · applied
+
+**+** Ayrıca: {source:17:28} kökün "yumuşak söz" için kullanılışı; {source:2:196} isteysera fiilinin Kur'an'daki yeri: el altında bulunan kurban; {source:65:4} sakınana "işinden" verilen kolaylık, nesnenin yine iş oluşu.
+
+## ¶5 · refs · - · applied
+
+**+** Ayrıca: {source:36:72} {source:43:13} binilen hayvanı yumuşak başlı kılanın ve boyun eğdirenin Allah oluşu.
+
+## ¶7 · refs · - · applied
+
+**+** Ayrıca: {source:7:157} yükü indirilen Peygamber'in, uyanların yükünü ve zincirlerini indirmesi; {source:20:25} Musa'nın istediği göğüs açıklığının Peygamber'e verilmiş olarak anılması; {source:6:125} açılan göğsün karşısında göğe tırmanır gibi daralan göğüs.
+
+## ¶8 · refs · - · applied
+
+**+** Ayrıca: {source:44:58} {source:19:97} kolaylaştırmanın amacı olarak öğüt ve uyarının söylenmesi; {source:51:55} öğüdün müminlere fayda vermesi; {source:80:3} {source:80:4} arınma ve öğüt alma ihtimali, öğüdün fayda vermesi; {source:50:45} korkanı Kur'an'la uyarma emri.
+
+## ¶9 · refs · - · applied
+
+**+** Ayrıca: {source:75:16} {source:75:17} dili kımıldatmadan okutmanın üstlenilmesi; {source:73:5} dile kolaylaştırılan sözün "ağır söz" diye anılması.
+
+## ¶10 · refs · - · applied
+
+**+** Ayrıca: {source:20:33} {source:20:34} Musa'nın istediği kolaylığın amacı: çok tesbih ve çok anma; {source:65:7} {source:2:286} Allah'ın kimseye verdiğinden ve gücünden fazlasını yüklememesi; {source:4:28} hafifletme isteğinin gerekçesi olarak insanın zayıf yaratılışı; {source:5:6} {source:22:78} dinde güçlük konulmaması; {source:2:220} dileseydi zora koşabilecek olanın zora koşmaması; {source:2:187} Allah'ın bildiği zaafa göre hükmü hafifletmesi.
+
+## ¶11 · refs · - · applied
+
+**+** Ayrıca: {source:7:2} {source:11:12} indirilen kitaptan göğüste darlık olmaması, Peygamber'in yalnız uyarıcı oluşu; {source:18:6} {source:26:3} inanmayanların ardından kendini tüketme: zahmetin adı; {source:88:21} {source:88:22} {source:5:92} öğüt vermenin ve tebliğin Peygamber'in işi olması, zorlamanın olmaması; {source:73:19} öğüdün dileyene bırakılması; {source:79:19} yol göstermenin içi titremeye varması; {source:2:286} gücün yetmediğini yüklememe duası.
+
+## ¶12 · refs · - · applied
+
+**+** Ayrıca: {source:73:7} {source:73:8} gündüzün uzun uğraşı ve Rabbin adını anıp O'na yönelme: işin ardından yönelişin aynı sırası.
+
+## ¶13 · refs · - · applied
+
+**+** Ayrıca: {source:92:16} en bedbahtın tanımı: yalanlayıp yüz çeviren; {source:74:10} inkârcı için kolay olmayan gün.
+
+## ¶14 · refs · - · applied
+
+**+** Ayrıca: {source:92:4} iki yönlü hazırlamanın öncülü: çabaların ayrı oluşu; {source:91:8} nefse iki yönün ilham edilmesi; {source:90:10} {source:90:11} {source:90:12} {source:90:13} iki yolun gösterilmesi ve sarp yokuşun vermekle aşılması; {source:18:88} iman edene en güzel karşılık ve kolay söz, zulmedene azap; {source:65:4} sakınana işinden kolaylık; {source:74:17} inkâr edene yüklenen sarp tırmanış.
+
+## ¶15 · refs · - · applied
+
+**+** Ayrıca: {source:92:13} ahiretin ve dünyanın Allah'a ait oluşu: surenin on altıncı ve on yedinci ayetlerinin karşılığı; {source:92:20} "en yüce Rabbin yüzü": surenin ilk ayetindeki ad.
+
+## ¶16 · refs · - · applied
+
+**+** Ayrıca: {source:96:6} {source:96:7} kendini ihtiyaçsız görmenin azgınlığa götürmesi.
+
+## ¶17 · refs · - · applied
+
+**+** Ayrıca: {source:5:3} fal oklarıyla pay bölüştürmenin fısk sayılması.
+
+## ¶18 · refs · - · applied
+
+**+** Ayrıca: {source:80:19} {source:80:20} yaratıp ölçüsünü koyan ve ardından yolu kolaylaştıran Rab: ikinci, üçüncü ve sekizinci ayetlerin sırası; {source:5:91} meysirin Allah'ı anmaktan alıkoyması, kolaylaştırılan kişinin işinin ise hatırlatmak oluşu.
+
