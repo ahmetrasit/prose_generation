@@ -11,7 +11,9 @@ Per target:
                    the base; copied to out/sNNN/ (never overwritten); duzeltme records appended to errata.jsonl
 
 Agent calls run `codex exec` (GPT-6 Astra by default) with the call directory as the only writable place and no
-network. Rules as in v16: a call directory with started.json is never run again (--attempt N for a deliberate new
+network. Codex keeps each call's session log (~/.codex/sessions/…/rollout-…-<thread id>.jsonl): run.log.json records
+its token totals and the subscription's weekly-limit reading before and after the call; `status` shows a running
+call's tokens live. Rules as in v16: a call directory with started.json is never run again (--attempt N for a deliberate new
 attempt, which gets its own directory); every call is logged in work/ledger.jsonl with its prompt hash.
 
   python3 enrichment/v2/enrich.py status --surah 107
@@ -41,6 +43,7 @@ LEDGER = WORK / "ledger.jsonl"
 ERRATA = V2 / "errata.jsonl"
 MODEL, EFFORT = "gpt-6-astra", "high"
 BRIEF = "zengin"
+SESSIONS = Path.home() / ".codex" / "sessions"
 
 sys.path.insert(0, str(V2))
 import render as R  # noqa: E402
@@ -108,7 +111,7 @@ def header(s: int, target: str, d: Path) -> str:
         f"- Target: {target} — {what}",
         f"- Workspace root: {PG}", f"- PACK: {pack}",
         f"- Your call directory (write only here): {d}",
-        f"- Schema: {V2 / 'schema.json'} and {V2 / 'SCHEMA.md'}",
+        f"- Schema: {V2 / 'SCHEMA.md'} (read it once; schema.json is the same content as data for the scripts)",
         f"- Corpus tool: python3 {V2 / 'tools' / 'corpus.py'}",
         f"- Validator: python3 {V2 / 'validate.py'} --surah {s} --target {target} --annotations "
         f"{d / 'annotations.jsonl'}",
@@ -127,7 +130,7 @@ def build_prompt(s: int, target: str, d: Path) -> str:
 def call_codex(prompt: str, d: Path, model: str, effort: str) -> dict:
     last = d / "response.md"
     cmd = ["codex", "exec", "--ignore-user-config", "-m", model, "-c", f'model_reasoning_effort="{effort}"',
-           "-c", 'web_search="disabled"', "--disable", "skill_search", "--skip-git-repo-check", "--ephemeral",
+           "-c", 'web_search="disabled"', "--disable", "skill_search", "--skip-git-repo-check",
            "-s", "workspace-write", "--json", "-o", str(last), "-C", str(d), "-"]
     (d / "command.json").write_text(json.dumps({"argv": cmd, "stdin": "prompt.md"}, indent=1) + "\n", encoding="utf-8")
     env = {**os.environ, "PYTHONDONTWRITEBYTECODE": "1"}
@@ -144,6 +147,48 @@ def call_codex(prompt: str, d: Path, model: str, effort: str) -> dict:
         if ev.get("type") == "item.completed" and (ev.get("item") or {}).get("type") == "command_execution":
             tools += 1
     return {"returncode": p.returncode, "turn_completed": completed, "usage": usage, "commands": tools}
+
+
+def session_file(d: Path) -> Path | None:
+    """The Codex session log of the call in d, found by the thread id the stream starts with."""
+    try:
+        with (d / "run.stream.jsonl").open(encoding="utf-8") as f:
+            tid = json.loads(f.readline()).get("thread_id")
+    except (FileNotFoundError, json.JSONDecodeError):
+        return None
+    hits = sorted(SESSIONS.glob(f"*/*/*/rollout-*-{tid}.jsonl")) if tid else []
+    return hits[-1] if hits else None
+
+
+def read_session(f: Path) -> dict:
+    """Token totals, the last turn's context, and the weekly-limit readings (first, last) of one session log."""
+    out = {"session": str(f)}
+    for line in f.read_text(encoding="utf-8").splitlines():
+        try:
+            p = json.loads(line).get("payload") or {}
+        except json.JSONDecodeError:
+            continue
+        if p.get("type") != "token_count":
+            continue
+        info = p.get("info") or {}
+        if info.get("total_token_usage"):
+            out["tokens"] = info["total_token_usage"]
+            out["context_tokens_last_turn"] = (info.get("last_token_usage") or {}).get("input_tokens")
+        week = ((p.get("rate_limits") or {}).get("primary") or {}).get("used_percent")
+        if week is not None:
+            out.setdefault("weekly_used_first", week)
+            out["weekly_used_last"] = week
+    return out
+
+
+def weekly_now() -> dict:
+    """The latest weekly-limit reading in any saved session (a baseline before a call; may be hours old)."""
+    for f in sorted(SESSIONS.glob("*/*/*/rollout-*.jsonl"), key=lambda p: p.stat().st_mtime, reverse=True)[:5]:
+        r = read_session(f)
+        if "weekly_used_last" in r:
+            return {"weekly_used": r["weekly_used_last"], "read_from": f.name,
+                    "as_of": time.strftime("%Y-%m-%dT%H:%M:%S%z", time.localtime(f.stat().st_mtime))}
+    return {}
 
 
 def finish(s: int, target: str, d: Path) -> dict:
@@ -201,9 +246,13 @@ def run_target(s: int, target: str, model: str, effort: str, attempt: int = 1) -
     with (d / "started.json").open("x", encoding="utf-8") as f:
         json.dump(row, f, ensure_ascii=False, indent=1)
     (d / "prompt.md").write_text(prompt, encoding="utf-8")
+    row["weekly_before"] = weekly_now()
     t0 = time.monotonic()
     try:
         row.update(call_codex(prompt, d, model, effort))
+        sf = session_file(d)
+        if sf:
+            row["session"] = read_session(sf)
         res = finish(s, target, d) if row["returncode"] == 0 and row["turn_completed"] else \
             {"check": "call did not complete", "ok": False}
         row["status"] = "ok" if res.pop("ok") else "error"
@@ -246,6 +295,13 @@ def status(s: int) -> None:
                          f"{r.get('dropped', '-')} {r.get('seconds', '')}s in {(r.get('usage') or {}).get('input_tokens', '')}")
             elif (d / "started.json").exists():
                 line += f" | {d.name}: started (running or interrupted)"
+                sf = session_file(d)
+                if sf:
+                    u = read_session(sf)
+                    tok = u.get("tokens") or {}
+                    line += (f"; so far: in {tok.get('input_tokens', 0):,} (cached {tok.get('cached_input_tokens', 0):,}) "
+                             f"out {tok.get('output_tokens', 0):,}; context {u.get('context_tokens_last_turn') or 0:,}; "
+                             f"weekly {u.get('weekly_used_first')}→{u.get('weekly_used_last')}%")
         print(f"  {t:8} {line}")
 
 

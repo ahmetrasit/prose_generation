@@ -20,6 +20,9 @@ started, or start a new attempt.
    checks; if not, sync quran-data first).
 3. Tell the user the expected cost before the surah starts. Codex subscription runs report no USD: give the call
    count (one per page: the surah page plus one per ayah page) and prompt sizes from `enrich.py build`.
+   Measured cost per call: `run.log.json` holds `session.tokens` (input, cached, output, reasoning), the weekly-limit
+   reading before the call (`weekly_before`, from the latest saved session) and during it (`session.weekly_used_*`);
+   `status` shows a running call's tokens and context live. Calibrate the next estimate from these.
 
 ## 2. Run
 ```

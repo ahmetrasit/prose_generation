@@ -20,7 +20,8 @@ the knowledge around it and integrates the base's findings with the literature.
     "Kaynaklar:" lines are not numbered); read these, and anchor blocks by these numbers
   - ayah/S_A/{words.md, dictionary.md, usage.md, meals.md, sources.md}; roots/<root_id>.md; binding.json
   - errata_candidates.json (problems the base's own tag checker reported); pack.json (manifest, gaps)
-- Schema: enrichment/v2/schema.json and enrichment/v2/SCHEMA.md (types, fields, values, rules)
+- Schema: enrichment/v2/SCHEMA.md (types, fields, values, rules). Read it once, completely. schema.json holds the
+  same content as data for the scripts; do not read it.
 - Corpus tool: `python3 enrichment/v2/tools/corpus.py` with `sources [--kind K]`, `get LOC [LOC …]`,
   `ayah S:A [--kind tafsir,meal]`, `search 'words' [--src ID,ID] [--kind K] [--surah N] [--n 20] [--sahih]`.
   Search matches word prefixes; Arabic is normalised (no tashkīl, unified alef/yāʾ/tāʾ marbūṭa). Try variants.

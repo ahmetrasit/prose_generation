@@ -122,13 +122,13 @@ Coverage without repetition: one block per point; a report repeated unchanged by
 `tekrar`. Do not restate the base. Each block must add a distinct unit of value: a witness, a disagreement, a
 grade, a sense, an antecedent, a counter-argument, a correction, a consequence.
 
-Record format (annotations.jsonl, one JSON object per line): all schema fields as keys (see schema.json; enum
+Record format (annotations.jsonl, one JSON object per line): all schema fields as keys (see SCHEMA.md; enum
 values exactly as listed; `gelenek` is added by the script, leave it out), plus the placement, both required:
 `paragraf`, the number n of the prose paragraph [¶n] the block speaks to (the block goes right after it), and
 `capa`, at least three consecutive words copied exactly from that paragraph, which confirm the number. Surah-wide
 points (names, chronology, merit, the meal verdict) anchor to the paragraph that introduces the topic or the ayah.
 A block whose number is missing or out of range, or whose capa is not in that paragraph, is dropped.
-ids: S<sss>-<KOD>-<NNN> with the KOD of the block's tur (schema.json), numbered in page order per KOD.
+ids: S<sss>-<KOD>-<NNN> with the KOD of the block's tur (SCHEMA.md), numbered in page order per KOD.
 Layers: kat:temel for what an advanced reader should see first at that point; ek for supporting detail;
 arastirma for the audit trail (novelty detail, rejected candidates, technical source criticism).
 
