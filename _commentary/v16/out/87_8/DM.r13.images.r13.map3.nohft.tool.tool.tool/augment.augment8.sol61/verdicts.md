@@ -1,0 +1,323 @@
+- 19:97: cited ¶9; ref ¶2, ¶8, ¶11, ¶13 - dilde kolaylaştırılan sözün müjde ve uyarıya yönelmesi
+- 44:58: cited ¶9; ref ¶2, ¶8, ¶11 - sözün dilde kolaylaştırılmasının hatırlamaya yönelmesi
+- 54:40: ref ¶8, ¶9, ¶11 - öğüt için kolaylaştırılan Kur’an’ın tekrarlanan çağrısı
+- 65:7: prose ¶7, ref ¶10, ¶16 - birlikte kolaylığın yanında sonradan kolaylık; verilen imkâna göre yük
+- 73:20: cited ¶10; ref ¶9, ¶12 - kolay geleni okuma ve ibadet görevlerinin sürmesi
+- 80:19: ref ¶2, ¶18 - yol kolaylığından önce insanın yaratılıp ölçülmesi
+- 80:20: cited ¶2; ref ¶6, ¶18 - ölçülen insanın yolunun kolaylaştırılması
+- 92:5: ref ¶14, ¶16 - kolay sona hazırlanmadan önce verme ve sakınma
+- 92:6: ref ¶14, ¶16 - verişin yanında en güzeli doğrulama
+- 92:7: cited ¶14; ref ¶2, ¶3, ¶4, ¶6, ¶13, ¶15, ¶16, ¶18 - kişinin doğrudan nesne olarak kolay sona hazırlanması
+- 92:8: cited ¶16; ref ¶14 - zor sona hazırlanmadan önce cimrilik ve ihtiyaçsızlık iddiası
+- 92:9: ref ¶14, ¶16 - zor sona hazırlanmadan önce en güzeli yalanlama
+- 92:10: cited ¶14; ref ¶2, ¶3, ¶4, ¶6, ¶13, ¶15, ¶16, ¶18 - aynı hazırlama fiilinin zor sona yönelmesi
+- 92:11: cited ¶16; ref ¶14 - zor sona gidişte malın faydasız kalması
+- 94:5: ref ¶4, ¶7, ¶11, ¶12 - zorlukla birlikte kolaylık sözünün ilk söylenişi
+- 94:7: cited ¶12; ref ¶7, ¶8, ¶11 - yükün indirilmesinden sonra çalışmaya devam
+- 2:185: cited ¶10; ref ¶4, ¶11, ¶12 - istenen kolaylık, istenmeyen zorluk ve süren yükümlülük
+- 2:280: cited ¶16; ref ¶10 - darlıktaki kişiye genişliğe kadar süre verme
+- 2:286: ref ¶7, ¶10, ¶11, ¶12 - yükümlülüğün güce bağlanması ve aşırı yükten korunma duası
+- 4:28: ref ¶7, ¶10, ¶11 - insanın zayıflığı karşısında hafifletme
+- 5:6: ref ¶10, ¶12 - güçlük amaçlanmadan arınma görevinin başka imkânla sürmesi
+- 5:90: cited ¶17; ref ¶15, ¶18 - pislikten uzak durmanın kurtuluşa bağlanması
+- 7:157: ref ¶7, ¶10, ¶11, ¶12 - ağır yükleri kaldıran elçinin iyiliği emretmesi
+- 17:28: prose ¶9, ref ¶2, ¶16 - imkânsızlık halinde dinleyene yumuşak söz
+- 18:88: prose ¶4, ref ¶2, ¶14 - iyi iş yapana güzel karşılık ve kolay buyruk; kolaylığın somut bir kullanımı
+- 20:25: prose ¶2, ref ¶6, ¶7, ¶9, ¶11 - iş için hazırlanan kişinin göğsünün açılması
+- 20:26: cited ¶2; ref ¶7, ¶9, ¶11, ¶12 - görev içinde işte kolaylık isteme
+- 20:27: context ¶2 (in 20:25), ref ¶9 - sözün anlaşılması için dildeki düğümün çözülmesi
+- 20:28: context ¶2 (in 20:25), ref ¶9 - dilde kolaylığın dinleyenin anlamasına yönelmesi
+- 20:34: ref ¶2, ¶10 - istenen yardımın Allah’ı çokça anmaya yönelmesi
+- 22:78: prose ¶12, ref ¶7, ¶10, ¶11 - güçlük kaldırılırken çaba ve ibadetin sürmesi
+- 36:4: ref ¶6 - gönderilen kişinin dosdoğru yol üzerinde oluşu
+- 50:44: not relevant - toplanmanın Allah’a kolaylığı, insanın göreve hazırlanmasını açıklamaz
+- 50:45: prose ¶11, ref ¶8, ¶9, ¶12, ¶13 - korkana Kur’an’la hatırlatma; zorlayıcılığın görev dışında kalması
+- 51:3: cited ¶7; ref ¶6 - ağır yükü izleyen kolay akış
+- 51:4: not relevant - bölüştürenlerin yemini oyundaki paylaştırmayı yahut kişiyi hazırlamayı açıklamaz
+- 54:17: cited ¶9; ref ¶8, ¶11 - öğüt için kolaylaştırılan Kur’an’ın öğüt alana çağrısı
+- 57:22: ref ¶18 - karşılaşılanların yaratılıştan önce kitapta bulunması
+- 65:4: prose ¶14, ref ¶2, ¶10, ¶16 - sakınan kişinin işinde kolaylık; kişiyi hazırlamaya eklenen karşılık
+- 74:10: context ¶4 (in 84:8), ref ¶13, ¶14 - inkârcı için kolay olmayan son
+- 79:19: context ¶13 (in 79:24), ref ¶6, ¶11, ¶15 - Rabb’e yönelten kılavuzluğun korkmaya bağlanması
+- 84:8: prose ¶4, ref ¶13, ¶14 - kolaylığın hesap ve son karşılıkta görünmesi
+- 90:10: ref ¶6, ¶14, ¶16 - iki yüksek yolun gösterilmesi ve ardından verişle geçit aşma
+- 91:8: ref ¶6, ¶14, ¶18 - düzenlenen kişiye kötülük ve sakınma yönlerinin bildirilmesi
+- 92:4: ref ¶14 - karşıt hazırlamalardan önce çabaların ayrılması
+- 92:12: cited ¶15; ref ¶6, ¶14, ¶18 - yol göstermenin Allah tarafından üstlenilmesi
+- 94:2: cited ¶7; ref ¶11, ¶12 - görev sürecekken yükün indirilmesi
+- 94:3: cited ¶7; ref ¶11, ¶12 - indirilen yükün beli büken ağırlığı
+- 94:6: cited ¶7; ref ¶4, ¶11, ¶12 - zorlukla birlikte kolaylık
+- 94:8: cited ¶12; ref ¶7, ¶8, ¶11 - kolaylık sonrasında yalnız Rabb’e yönelme
+- 54:22: ref ¶8, ¶9, ¶11 - öğüt için kolaylaştırma çağrısının tekrarı
+- 12:65: not relevant - kolay yahut az ölçü, öğüt görevi veya kişiyi hazırlama değildir
+- 41:41: context ¶9 (in 41:44), ref ¶13 - gelen hatırlatmayı inkâr etme
+- 54:32: ref ¶8, ¶9, ¶11 - öğüt için kolaylaştırma çağrısının tekrarı
+- 81:26: context ¶14 (in 81:28), ref ¶13 - hatırlatma karşısında gidilen yönün sorulması
+- 97:1: ref ¶10 - Kur’an’ın indirildiği gecenin adı
+- 2:196: prose ¶10, ref ¶2 - elde kolay bulunanın ibadetin ölçüsü olması
+- 2:219: cited ¶17; ref ¶16 - meysir sorusunu izleyen harcama ölçüsü
+- 4:30: not relevant - cezalandırmanın Allah’a kolaylığı, cezalandırılanın kolaylaştırılması değildir
+- 5:91: prose ¶18, ref ¶9, ¶17 - meysirin anmayı ve namazı kesmesi
+- 6:128: not relevant - ateşte kalmaya ilişkin dileme istisnası, unutma ve hazırlanmayı açıklamaz
+- 13:33: ref ¶14 - düzenin süslenmesi, yoldan alıkonma ve kılavuzsuz kalma
+- 15:39: ref ¶14 - süsleyerek saptırma, kötü yöne yatkınlığın bir mekanizması
+- 22:70: ref ¶1, ¶18 - göklerde ve yerde olanın Allah’ın bilgisi ve kitap içinde bulunması
+- 25:46: not relevant - gölgenin çekilmesi, yük taşıyanın yahut muhatabın hazırlanması değildir
+- 26:90: ref ¶13, ¶15 - ateşin karşısında sakınanlara yaklaştırılan cennet
+- 29:19: ref ¶18 - yaratılışı başlatıp yineleyen failin Allah oluşu
+- 31:3: ref ¶9, ¶11 - kitabın iyilik edenler için yol gösterme ve rahmet olması
+- 41:44: prose ¶9, ref ¶11, ¶13 - anlaşılır sözün iman edene şifa, etmeyene ağırlık olması
+- 47:5: prose ¶6, ref ¶4 - yol gösterme ile kişinin hâlinin düzeltilmesinin birlikte vaat edilmesi
+- 72:6: not relevant - cinlere sığınmanın yükü artırması, bu göreve hazırlanmayı açıklamaz
+- 74:7: context ¶12 (in 74:2), ref ¶7, ¶11 - görev içinde Rabbin hatırına sabretme
+- 74:17: prose ¶14, ref ¶13 - kolayca yönelinen zor sonun sarp çıkış olarak yüklenmesi
+- 84:19: not relevant - hâlden hâle geçiş, kolay adım veya göreve yatkınlık değildir
+- 89:4: not relevant - gecenin geçişindeki kök kolaylaştırma kökü değildir
+- 93:5: ref ¶1, ¶14 - aynı muhataba Rabbin vereceğiyle razı olacağı gelecek vaadi
+- 94:1: ref ¶2, ¶6, ¶7, ¶11 - görev ve yük için muhatabın göğsünün açılması
+- 94:4: ref ¶7 - yükün indirilmesine eklenen anılışın yükseltilmesi
+- 26:219: ref ¶10 - secde edenler arasındaki hareketin Rab tarafından görülmesi
+- 2:183: ref ¶10, ¶12 - kolaylık içinde süren ve sakınmaya yönelen oruç görevi
+- 2:184: ref ¶10 - hasta ve yolcuya başka günler tanınması
+- 2:186: ref ¶2 - kolaylık isteyen duanın yöneldiği Rabbin çağrıya cevap vermesi
+- 2:187: ref ¶10, ¶12 - zorlanma bilinerek izin verilmesi ve orucun yine tamamlanması
+- 2:217: not relevant - haram ayda savaş ve dinden dönme, kolaylaştırmanın konusunu açıklamaz
+- 2:218: not relevant - rahmet ümidi, sözün veya kişinin kolaylaştırılmasına özel bir bağ kurmaz
+- 2:220: ref ¶10, ¶16 - mali ilişkide ıslah, kardeşlik ve güçlüğe sokmama
+- 2:221: ref ¶14 - ateşe çağıranlarla Allah’ın cennet ve bağışlanma çağrısının karşılaşması
+- 2:278: context ¶16 (in 2:279) - borçluya süre buyruğundan önce ribanın bırakılması
+- 2:279: prose ¶16 - anapara hakkıyla iki tarafı haksızlıktan koruma
+- 2:281: ref ¶16, ¶18 - mali hükümleri izleyen eksiksiz karşılık ve adalet
+- 2:282: ref ¶16 - borcun yazı ve adil şahitlikle korunması
+- 5:88: ref ¶18 - Allah’ın verdiği rızkın helal ve temiz olanına yönelme
+- 5:89: ref ¶10 - kefaretin eldeki imkâna göre başka ibadete dönüşmesi
+- 5:92: ref ¶8, ¶11, ¶17 - itaat çağrısı ve elçinin açık bildirimle sınırlı görevi
+- 19:95: not relevant - tek başına gelme, kolaylığın veya öğüt görevinin niteliğini açıklamaz
+- 19:96: not relevant - imanlılara sevgi verilmesi, sözün kolaylaşması veya göreve hazırlanma değildir
+- 19:98: ref ¶9 - kolaylaştırılmış uyarıyı izleyen yok olmuş kuşaklar
+- 20:0: not relevant - besmele bu kolaylaştırmanın özel bağını açıklamaz
+- 20:1: not relevant - harfler hakkında ayetin verdiği bir kolaylaştırma açıklaması yok
+- 20:4: ref ¶1 - indirilen sözün yaratan tarafından verilmesi
+- 20:5: not relevant - arşa ilişkin bildirim görev kolaylığını açıklamaz
+- 20:24: context ¶2 (in 20:25), ref ¶12 - kolaylık duasının yapıldığı gitme görevi
+- 44:56: ref ¶15 - cennetliklerin ateş azabından korunması
+- 44:57: ref ¶15 - ateşten korunmanın Rabbin lütfu ve büyük kurtuluş olması
+- 44:59: not relevant - bekleyiş buyruğu sözün kolaylaştırılması ve aktarılışını açıklamaz
+- 51:0: not relevant - besmele yük ve kolay akış bağını açıklamaz
+- 51:1: ref ¶7 - ağır taşıma ve kolay akıştan önceki savurma
+- 51:5: not relevant - vaadin doğruluğu, yük ile akışın aynı taşıyıcıya ait olduğunu bildirmez
+- 54:15: ref ¶8, ¶9 - bırakılan işaretten öğüt alana çağrı
+- 54:16: ref ¶9 - öğüt çağrısının azap ve uyarı sorusuyla birleşmesi
+- 54:18: ref ¶9 - yalanlama ve helak anlatısının Âd ile sürmesi
+- 54:19: ref ¶9 - yalanlama anlatısındaki helakin rüzgârla gerçekleşmesi
+- 73:18: not relevant - göğün yarılması kolay okumanın ölçüsünü veya görevi açıklamaz
+- 73:19: ref ¶8, ¶9, ¶10, ¶11, ¶12 - hatırlatmadan Rabb’e yol edinmeye geçiş
+- 80:18: ref ¶2, ¶18 - yolu kolaylaştırılan insanın yaratılışının kaynağını sorma
+- 80:21: context ¶2 (in 80:23) - kolaylaştırılan yolun ardından ölüm ve kabre konma
+- 80:22: context ¶2 (in 80:23) - ölümden sonra Allah’ın dilemesiyle kaldırılma
+- 92:13: ref ¶14, ¶16 - iki yönün ve malın karşısında iki hayatın Allah’a aidiyeti
+- 92:14: ref ¶13, ¶15 - bedbahtın gireceği alevlenen ateşle uyarı
+- 92:16: prose ¶13, ref ¶14, ¶15 - bedbahtın yalanlayıp yüz çeviren olarak adlandırılması
+- 92:19: context ¶15 (in 92:20), ref ¶16 - verişin yapılmış bir iyiliğe karşılık ödeme olmaması
+- 92:20: prose ¶15, ref ¶13, ¶16 - arındıran verişin en yüce Rabbin yüzüne yönelmesi
+- 94:0: not relevant - besmele kolaylığın ardından çalışma bağını açıklamaz
+- 87:1 own: ref ¶10, ¶15 - anma ve yönelmenin en yüce Rabbe bağlanması
+- 87:2 own: ref ¶1, ¶18 - vaat veren failin yaratıp düzenlemesi
+- 87:3 own: ref ¶1, ¶18 - vaat veren failin ölçüp yol göstermesi
+- 87:4 own: not relevant - otlağın çıkarılması göreve veya öğüde hazırlanmayı açıklamaz
+- 87:5 own: not relevant - otlağın koyu çer çöpe dönüşmesi kolaylığın mekanizması değildir
+- 87:6 own: ref ¶8, ¶9 - hatırlatma öncesindeki okutma vaadi
+- 87:7 own: ref ¶8 - unutmama vaadinin Allah’ın dilemesine bağlı oluşu
+- 87:8 own: ref ¶3 - kolaylaştırmanın doğrudan muhatabı nesne alması
+- 87:9 own: ref ¶1, ¶2, ¶3, ¶6, ¶9, ¶12 - kolaylaştırılan kişinin hatırlatma görevi
+- 87:10 own: ref ¶8, ¶9, ¶13 - korkanın öğüdü alması
+- 87:11 own: ref ¶8, ¶9, ¶15, ¶18 - bedbahtın hatırlatmadan uzak durması
+- 87:12 own: ref ¶15 - öğütten uzak duranın büyük ateşe girmesi
+- 87:13 own: ref ¶13 - büyük ateşte ne ölüm ne hayat bulunması
+- 87:14 own: ref ¶15, ¶16, ¶18 - arınmanın kurtuluşa bağlanması
+- 87:15 own: context ¶18 (in 5:91), ref ¶10, ¶15 - arınmanın Rabbin adını anma ve namazla tamamlanması
+- 87:16 own: ref ¶6, ¶16 - dünyanın öne alınması
+- 87:17 own: ref ¶6, ¶16 - ahiretin daha hayırlı ve kalıcı oluşu
+- 87:18 own: ref ¶2 - önceki sayfalara bağlanan bildirim
+- 87:19 own: ref ¶2 - Musa’nın sayfalarının adlandırılması
+- 20:2 own: ref ¶8, ¶9, ¶12, ¶13 - Kur’an’ın zahmet çektirmek için indirilmemesi
+- 20:3 own: ref ¶8, ¶9, ¶13 - korkana indirilen hatırlatma
+- 20:6 own: not relevant - evrenin sahipliği sözün veya kişinin kolaylaştırılmasını açıklamaz
+- 20:7 own: ref ¶1 - açık sözle sırdan daha gizlisinin bilinmesi
+- 20:8 own: not relevant - güzel isimler bildirimi bu kolaylaştırmanın niteliğini açıklamaz
+- 20:29 own: ref ¶2 - görev için aileden yardımcı istenmesi
+- 20:30 own: ref ¶2 - istenen yardımcının kardeş Hârûn olması
+- 20:31 own: ref ¶2 - görev için kişinin yardımcıyla güçlendirilmesi
+- 20:32 own: ref ¶2 - işin yardımcıyla paylaşılması
+- 20:33 own: ref ¶2, ¶10 - istenen yardımın çokça yüceltmeye yönelmesi
+- 20:35 own: context ¶2 (in 20:25) - dua edenlerin Allah tarafından görülmesi
+- 20:36 own: context ¶2 (in 20:25) - Musa’nın isteğinin verildiğinin bildirilmesi
+- 20:37 own: context ¶6 (in 20:41) - Musa’ya önceki lütfun hatırlatılması
+- 51:2 own: ref ¶6 - kolay akışın öncesindeki ağır yük
+- 92:15 own: ref ¶13 - ateşe girecek kişinin bedbaht diye adlandırılması
+- 92:17 own: ref ¶13 - en çok sakınanın ateşten uzak tutulması
+- 92:18 own: ref ¶14, ¶16, ¶18 - mal verişinin arınmaya yönelmesi
+- 75:16 own: context ¶1 (in 75:17), ref ¶9 - okumada dili aceleyle hareket ettirmeme
+- 75:17 own: prose ¶1, ref ¶8, ¶9 - toplama ve okumanın konuşan tarafından üstlenilmesi
+- 75:18 own: context ¶1 (in 75:17), ref ¶8, ¶9 - üstlenilen okunuşu takip etme
+- 75:19 own: context ¶1 (in 75:17), ref ¶8, ¶9 - açıklamanın da üstlenilmesi
+- 6:125 own: prose ¶6, ref ¶2, ¶7, ¶14 - yol gösterilecek kişinin içinin açılması; karşı yönde daralma
+- 20:39 own: context ¶6 (in 20:41) - Musa’nın korunması ve gözetim altında yetişmesi
+- 20:40 own: context ¶6 (in 20:41) - Musa’nın korunma, sınanma ve görev vaktine gelişi
+- 20:41 own: prose ¶6, ref ¶2, ¶3 - görev için hazırlananın kişinin kendisi olması
+- 20:42 own: context ¶6 (in 20:41), ref ¶8, ¶12 - hazırlanmanın ardından ayetlerle gitme ve anmada gevşememe
+- 20:43 own: context ¶6 (in 20:41), context ¶9 (in 20:44) - gönderilen iki kişinin Firavun’a gitmesi
+- 20:44 own: prose ¶9, ref ¶2, ¶8, ¶11 - yumuşak sözle hatırlama ve korkma ümidi
+- 25:32 own: ref ¶1, ¶6, ¶9 - vahyin kişinin kalbini sağlamlaştıracak biçimde verilmesi
+- 17:106 own: ref ¶8, ¶9 - halka ağır ağır okunmak üzere ayrılan Kur’an
+- 20:114 own: ref ¶1, ¶9 - vahiy tamamlanmadan okumada acele etmeme
+- 88:20 own: not relevant - yerin yayılması yolcunun göreve hazırlanması değildir
+- 88:21 own: ref ¶8, ¶11, ¶12 - görevin hatırlatıcılık olarak adlandırılması
+- 88:22 own: ref ¶8, ¶11, ¶12 - hatırlatıcının baskıyla yönetmekle yükümlü olmaması
+- 88:23 own: ref ¶13 - hatırlatmanın yanında yüz çevirip inkâr edenin anılması
+- 51:55 own: prose ¶8, ref ¶9, ¶11 - hatırlatmanın fayda bulacağı muhatabın müminler diye adlandırılması
+- 51:54 own: context ¶8 (in 51:55) - yüz çevirmenin kınanmayacağının hatırlatma öncesinde bildirilmesi
+- 16:125 own: ref ¶8, ¶9, ¶11, ¶12 - Rabbin yoluna hikmet ve güzel öğütle çağırma
+- 29:69 own: ref ¶6, ¶12, ¶14 - çaba gösterene yolların gösterilmesi
+- 90:11 own: prose ¶16, ref ¶6, ¶12, ¶14 - iyilik yolunun aşılacak sarp geçit oluşu
+- 90:12 own: context ¶16 (in 90:11), ref ¶6, ¶12, ¶14 - sarp geçidin açıklanmasına geçiş
+- 90:13 own: context ¶16 (in 90:11), ref ¶6, ¶12, ¶14 - geçidin özgürleştirme eylemiyle açıklanması
+- 90:14 own: context ¶16 (in 90:11), ref ¶6, ¶12, ¶14 - açlık gününde doyurmanın geçit oluşu
+- 90:15 own: context ¶16 (in 90:11), ref ¶6, ¶12, ¶14 - verişin yakındaki yetime yönelmesi
+- 90:16 own: context ¶16 (in 90:11), ref ¶6, ¶12, ¶14 - verişin toprağa düşmüş yoksula yönelmesi
+- 90:17 own: context ¶16 (in 90:11), ref ¶6, ¶12, ¶14 - iyiliğin iman, sabır ve merhametle birleşmesi
+- 90:18 own: context ¶16 (in 90:11) - geçide girenlerin sağ tarafın insanları diye anılması
+- 91:7 own: ref ¶6, ¶18 - kişinin düzenlenmesinin ahlaki yönlerinden önce gelmesi
+- 91:9 own: ref ¶15, ¶18 - kişiyi arındırmanın kurtuluşa bağlanması
+- 91:10 own: ref ¶15, ¶18 - kişiyi örtüp gömmenin kayıpla sonuçlanması
+- 73:1 own: context ¶7 (in 73:5) - ağır söz için gece hazırlanacak muhataba sesleniş
+- 73:2 own: context ¶7 (in 73:5), ref ¶10, ¶12 - gece kıyamı görevi
+- 73:3 own: context ¶7 (in 73:5), ref ¶10, ¶12 - gece kıyamının ölçülmesi
+- 73:4 own: context ¶7 (in 73:5), ref ¶10, ¶12 - gece kıyamıyla tane tane okumanın birleştirilmesi
+- 73:5 own: prose ¶7, ref ¶6, ¶9, ¶10, ¶11, ¶12 - kolaylaştırılan görevin ağır söz taşıması
+- 73:6 own: context ¶7 (in 73:5), ref ¶10 - gece kalkışının sözü sağlam tutması
+- 73:7 own: context ¶7 (in 73:5), ref ¶10, ¶12 - gündüzde uzun uğraş bulunması
+- 73:8 own: ref ¶10, ¶12 - Rabbin adını anarak yalnız O’na yönelme
+- 73:9 own: ref ¶12 - tek Rabbe güvenmenin görevle birlikte istenmesi
+- 73:10 own: ref ¶7, ¶11, ¶12 - söylenenlere sabır ve güzel ayrılma
+- 74:1 own: context ¶12 (in 74:2) - kalkıp uyaracak örtülü muhatap
+- 74:2 own: prose ¶12 - bulunduğu hâlden kalkıp uyarma görevi
+- 74:3 own: context ¶12 (in 74:2), ref ¶10 - uyarıcının Rabbini yüceltmesi
+- 74:4 own: context ¶12 (in 74:2) - görevle birlikte elbiselerin temizlenmesi
+- 74:5 own: context ¶12 (in 74:2), ref ¶17, ¶18 - pislikten uzaklaşma buyruğu
+- 74:6 own: ref ¶15, ¶16 - verişin daha çoğunu elde etme beklentisinden ayrılması
+- 74:8 own: context ¶4 (in 84:8), ref ¶13, ¶14 - kolay olmayan sonun boruya üflenmesiyle başlaması
+- 74:9 own: context ¶4 (in 84:8), ref ¶13, ¶14 - hesap gününün zor oluşu
+- 74:16 own: context ¶14 (in 74:17) - sarp çıkış yüklenecek kişinin ayetlere inadı
+- 74:18 own: not relevant - insanın düşünüp hesaplaması ilahî ölçme ve hazırlamayla aynı iş değildir
+- 74:19 own: not relevant - hesaplayışın kınanması kolaylaştırmanın yönünü açıklamaz
+- 74:20 own: not relevant - hesaplayışa yönelik kınama tekrarı hazırlama vaadini açıklamaz
+- 84:7 own: context ¶4 (in 84:8), ref ¶13, ¶14 - kolay hesabın kitabı sağından verilene ait oluşu
+- 84:9 own: context ¶4 (in 84:8), ref ¶13, ¶14 - kolay hesabın sevinçli dönüşle tamamlanması
+- 18:83 own: context ¶4 (in 18:88) - kolay buyruğu söyleyen kişinin Zülkarneyn diye adlandırılması
+- 18:84 own: ref ¶6 - yol alacak kişiye güç ve imkân verilmesi
+- 18:85 own: ref ¶6 - verilen imkânla yol izlenmesi
+- 18:86 own: context ¶4 (in 18:88) - Zülkarneyn’in topluluk hakkında davranış seçimine çağrılması
+- 18:87 own: context ¶4 (in 18:88) - kolay buyruğun karşısındaki zulüm ve ceza
+- 17:26 own: context ¶9 (in 17:28), ref ¶16 - yumuşak söz istenenlerin mali hakları
+- 17:27 own: ref ¶16 - savurganlığın şeytanla ilişkilendirilmesi
+- 17:29 own: ref ¶16 - cimrilik ve savurganlık arasında mal kullanımının ölçülmesi
+- 17:30 own: ref ¶16, ¶18 - rızkı genişletip daraltanın kullarını bilen Rab oluşu
+- 5:3 own: prose ¶18, ref ¶17 - oklardan kısmet aramanın doğrudan yasaklanması
+- 57:23 own: ref ¶16, ¶18 - yazılı ölçü karşısında verilene böbürlenerek bağlanmama
+- 64:11 own: prose ¶7, ref ¶6 - musibet kaldırılmadan kişinin kalbine yol gösterilmesi
+- 76:2 own: ref ¶2, ¶6, ¶14, ¶18 - yaratılış ve yetilerin sınanmaya hazırlaması
+- 76:3 own: ref ¶2, ¶6, ¶14, ¶18 - gösterilen yola şükür yahut nankörlükle cevap verme
+- 80:17 own: context ¶2 (in 80:23) - yolu kolaylaştırılan insanın nankörlüğü
+- 80:23 own: prose ¶2, ref ¶12, ¶14 - yol kolaylığının emre uymayı kendiliğinden tamamlamaması
+- 80:11 own: ref ¶8, ¶9, ¶11 - sözün hatırlatma olarak adlandırılması
+- 80:12 own: ref ¶8, ¶9, ¶11 - hatırlatmayı dileyenin alması
+- 80:13 own: not relevant - sayfaların şerefi dilde kolaylaştırmanın mekanizmasını açıklamaz
+- 80:14 own: not relevant - sayfaların yüksek ve temiz oluşu göreve yatkınlık değildir
+- 80:15 own: not relevant - sayfaların taşıyıcıları sözün kolaylaştırılmasını açıklamaz
+- 80:16 own: not relevant - taşıyıcıların iyi ve değerli oluşu muhatabın hazırlanması değildir
+- 20:123 own: prose ¶13, ref ¶6, ¶11, ¶14 - yol göstermeye uymanın sapma ve zahmetten korunmaya bağlanması
+- 20:124 own: context ¶13 (in 20:123), ref ¶11, ¶14 - hatırlatmadan yüz çevirmenin dar yaşayışla sonuçlanması
+- 11:105 own: ref ¶13, ¶15 - hüküm gününde bedbaht ve mutlu kişilerin ayrılması
+- 11:106 own: ref ¶13, ¶15 - bedbahtın ateş ve acıyla karşılaşması
+- 11:107 own: ref ¶13, ¶15 - ateşte kalışın Rabbin dilemesine bağlı anlatılması
+- 11:108 own: ref ¶13, ¶15 - mutlu kişinin cennet ve kesilmeyen verişle karşılaşması
+- 21:101 own: ref ¶13, ¶15 - güzel karşılık verilenlerin ateşten uzak tutulması
+- 21:102 own: ref ¶13, ¶15 - ateşten uzaklığın sesini bile duymamaya uzanması
+- 21:103 own: ref ¶13, ¶15 - güzel karşılık verilenlerin büyük korkudan korunması
+- 18:6 own: prose ¶11 - inanmayışa duyulan kederin muhatabı tüketme ihtimali
+- 26:3 own: context ¶11 (in 18:6) - inanmayış karşısında kendini tüketme ihtimalinin tekrarı
+- 42:52 own: prose ¶8, ref ¶1, ¶6, ¶9 - vahiy alanın aldığı nurla başkalarına kılavuzluk etmesi
+- 42:53 own: context ¶8 (in 42:52), ref ¶6 - kılavuzluk edilen yolun Allah’ın yolu diye adlandırılması
+- 38:29 own: ref ¶8, ¶9 - kitabın ayetleri düşünmek ve hatırlamak için indirilmesi
+- 12:2 own: ref ¶9 - Arapça indirilişin anlamaya yönelmesi
+- 43:3 own: ref ¶9 - Kur’an’ın anlaşılması için Arapça kılınması
+- 25:2 own: ref ¶18 - yaratılan her şeyin ölçüsünün konması
+- 54:49 own: ref ¶18 - her şeyin ölçüyle yaratılması
+- 54:50 own: not relevant - buyruğun göz açıp kapama hızında oluşu kişiyi hazırlamayı açıklamaz
+- 54:51 own: ref ¶9 - helak anlatısının öğüt alana çağrıyla birleşmesi
+- 61:5 own: prose ¶14 - insanın eğrilmesini izleyen kalbin o yöne çevrilmesi
+- 4:115 own: ref ¶13, ¶14 - açıklanan hidayetten sonra seçilen yöne bırakılma ve ateş
+- 16:93 own: ref ¶14, ¶18 - Allah’ın yöneltmesiyle insanın yaptığından sorulmasının birlikte bulunması
+- 19:4 own: ref ¶13 - bedensel zayıflığın duada bedbahtlık anlamına gelmemesi
+- 19:32 own: ref ¶13 - anneye iyiliğin zorbalık ve bedbahtlığın karşısına konması
+- 26:218 own: ref ¶10 - kıyam eden muhatabın görülmesi
+- 26:220 own: ref ¶10 - kıyamı ve secde içindeki hareketi görenin işiten ve bilen oluşu
+- 36:3 own: ref ¶6 - dosdoğru yolda olan kişinin gönderilmiş oluşu
+- 41:42 own: context ¶9 (in 41:44) - alıcılara göre etkisi değişen kitaba yanlışın ulaşmaması
+- 81:27 own: context ¶14 (in 81:28), ref ¶8, ¶9 - sözün bütün âlemlere hatırlatma olması
+- 81:28 own: prose ¶14, ref ¶8, ¶13, ¶18 - dinleyenin doğru gitme isteğinin adlandırılması
+- 81:29 own: context ¶14 (in 81:28), ref ¶18 - insanın dilemesinin Allah’ın dilemesine bağlı oluşu
+- 97:2 own: not relevant - gecenin değerini soran soru kolaylaştırmayı açıklamaz
+- 97:3 own: not relevant - gecenin bin aydan hayırlılığı kişiyi göreve hazırlama değildir
+- 97:4 own: not relevant - meleklerin inişi okutma ve kolaylaştırma arasındaki bağı açıklamaz
+- 97:5 own: not relevant - gecenin esenliği görev yükünün ölçüsünü açıklamaz
+- 92:21 own: ref ¶14, ¶15, ¶16 - arınarak veren kişinin sonunda razı olması
+- 93:4 own: ref ¶6, ¶14 - muhatap için sonraki hayatın daha hayırlı oluşu
+- 53:39 own: ref ¶18 - insanın karşılığının kendi çabasına bağlanması
+- 53:40 own: ref ¶18 - çabanın görülmesi
+- 53:41 own: ref ¶18 - görülen çabanın eksiksiz karşılıklandırılması
+- 53:42 own: ref ¶18 - son varışın Rabbe bağlanması
+- 87:0 own: not relevant - besmele kolaylaştırmanın nesnesi ve amacı için özel açıklama vermez
+- 80:1 own: context ¶8 (in 80:3) - arınma ihtimali anılmadan önceki yüz çevirme
+- 80:2 own: context ¶8 (in 80:3) - gelen kişinin görmeyen biri oluşu
+- 80:3 own: prose ¶8, ref ¶9, ¶15 - öğüdün dinleyenin arınmasına açılması
+- 80:4 own: context ¶8 (in 80:3), ref ¶9, ¶11 - hatırlamanın öğütten fayda bulmaya bağlanması
+- 80:5 own: context ¶8 (in 80:3), ref ¶16 - ihtiyaçsızlık iddiasının öğüt karşısında da bulunması
+- 80:6 own: context ¶8 (in 80:3) - ihtiyaçsız sayana yönelme
+- 80:7 own: context ¶8 (in 80:3), ref ¶11 - başkasının arınmayışını üstlenmekle yükümlü olmama
+- 80:8 own: context ¶8 (in 80:3), ref ¶9, ¶11 - öğüde çabalayarak gelen kişi
+- 80:9 own: context ¶8 (in 80:3), ref ¶9, ¶11 - gelen kişinin korkması
+- 80:10 own: context ¶8 (in 80:3) - korkarak gelenden ilginin çevrilmesi
+- 20:115 own: ref ¶1 - Âdem’in ahdi unutması karşısında özel unutmama vaadi
+- 20:116 own: not relevant - secde buyruğu ve reddi okutma ile kolaylaştırma bağını açıklamaz
+- 20:117 own: prose ¶13 - cennetten çıkışın zahmete düşmeyle adlandırılması
+- 20:118 own: context ¶13 (in 20:117) - korunulan açlık ve çıplaklık
+- 20:119 own: context ¶13 (in 20:117) - korunulan susuzluk ve güneş altında kalma
+- 20:120 own: not relevant - yasak ağaçla sunulan kalıcılık vaadi kolaylaştırmanın mekanizmasını açıklamaz
+- 20:121 own: ref ¶6, ¶14 - ardından seçilme ve hidayet gelecek başkaldırma ve sapma
+- 20:122 own: ref ¶6, ¶14 - sapmadan sonra seçilme, tövbenin kabulü ve yol gösterme
+- 31:2 own: ref ¶9, ¶11 - yol gösterme ve rahmetin hikmetli kitaba ait oluşu
+- 47:4 own: context ¶6 (in 47:5) - hâlleri düzeltilecek kişilerin Allah yolunda öldürülenler oluşu
+- 47:6 own: context ¶6 (in 47:5), ref ¶4 - yol gösterme vaadinin cennete girişle tamamlanması
+- 79:17 own: context ¶13 (in 79:24) - Musa’nın Firavun’a gönderilmesi
+- 79:18 own: context ¶13 (in 79:24), ref ¶15 - Firavun’a arınma çağrısı
+- 79:20 own: context ¶13 (in 79:24) - Firavun’a büyük işaretin gösterilmesi
+- 79:21 own: context ¶13 (in 79:24), ref ¶15 - işaretin yalanlanıp karşı gelinmesi
+- 79:22 own: context ¶13 (in 79:24) - uyarıdan sonra geri dönüp çabalama
+- 79:23 own: context ¶13 (in 79:24) - rablik iddiası için toplama ve seslenme
+- 79:24 own: prose ¶13, ref ¶15 - en yüce Rabbe yönelmek yerine en yüce rabliği kendine yakıştırma
+- 79:25 own: context ¶13 (in 79:24) - rablik iddiasının ardından cezalandırılma
+- 79:26 own: context ¶13 (in 79:24), ref ¶8, ¶9, ¶11 - anlatılan sonun korkan için ibret olması
+- 90:8 own: not relevant - gözlerin yaratılması ahlaki yola hazırlanmayı tek başına açıklamaz
+- 90:9 own: not relevant - dil ve dudak verilmesi sözün kolaylaştırılması değildir
+- 5:93 own: not relevant - yenilene ilişkin takva şartları meysirin pay ve hatırlatma mekanizmasını açıklamaz
+- 6:152 own: ref ¶10, ¶11, ¶12, ¶16 - mali adalet emirleriyle yükümlülüğün güce göre ölçülmesi
+- 7:42 own: ref ¶10, ¶11, ¶12 - iyi işler istenirken kişinin gücünden fazlasıyla yükümlü tutulmaması
+- 23:62 own: ref ¶10, ¶11, ¶12 - gücü aşmayan yükümlülük ve haksızlığa uğratmama
+- 65:2 own: ref ¶14, ¶16 - sakınana çıkış verilmesi
+- 65:3 own: ref ¶14, ¶16, ¶18 - umulmadık rızık, Allah’a güvenme ve her şeye ölçü konması
+- 65:5 own: ref ¶14 - sakınmanın kötülüklerin örtülmesi ve büyük karşılıkla sonuçlanması
+- 65:6 own: context ¶7 (in 65:7), ref ¶10 - imkâna göre barınma ve emzirmede güçlük halinde başka düzenleme
+- 79:15 own: context ¶13 (in 79:24) - arınmaya çağıran kişinin Musa diye adlandırılması
+- 79:16 own: context ¶13 (in 79:24) - Musa’ya görev veren sesin Rabbi oluşu

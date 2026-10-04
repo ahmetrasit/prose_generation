@@ -36,6 +36,10 @@ python3 enrichment/v2/enrich.py run    --surah 107 --target 107:3       # one pa
 python3 enrichment/v2/enrich.py run    --surahs 87-114 --parallel 3
 python3 enrichment/v2/enrich.py status --surah 107
 ```
+Model: Opus 5.5 high is the default (user, 2026-10-04, after the S107 and S100 trials); a finished trial page is
+accepted with `enrich.py accept --surah N --target T --model opus:high`. Corrections that a trial model found and the
+accepted page lacks are added to errata.jsonl by hand, with found_by and the operator's confirmation.
+
 Model comparison on one page (each model and effort in its own call directory, nothing copied to out/):
 ```
 python3 enrichment/v2/enrich.py build --surah 107 --target surah --model sol:max,sol61:max,opus:high,sonnet:high

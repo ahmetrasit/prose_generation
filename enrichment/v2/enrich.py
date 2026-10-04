@@ -26,6 +26,8 @@ attempt, which gets its own directory); every call is logged in work/ledger.json
   python3 enrichment/v2/enrich.py build  --surah 107 [--target 107:3]       (writes nothing; sizes the prompts)
   python3 enrichment/v2/enrich.py run    --surah 107 [--target surah] [--effort high|max] [--attempt 2]
   python3 enrichment/v2/enrich.py run    --surahs 87-114 --parallel 3
+  python3 enrichment/v2/enrich.py accept --surah 100 --target surah --model opus:high   (accept a finished trial page)
+Without --model, runs use opus:high (the user's choice after the S107/S100 trials).
 """
 from __future__ import annotations
 
@@ -50,7 +52,8 @@ ERRATA = V2 / "errata.jsonl"
 EFFORT = "high"
 MODELS = {"astra": ("codex", "gpt-6-astra"), "sol": ("codex", "gpt-6-sol"), "sol61": ("codex", "gpt-6.1-sol"),
           "opus": ("claude", "claude-opus-5-5"), "sonnet": ("claude", "claude-sonnet-5-5")}
-DEFAULT_MODEL = "astra"
+DEFAULT_MODEL = "astra"   # names the bare call directory (astra at the default effort; S107's first surah call)
+RUN_MODEL = "opus:high"   # the model used when --model is not given (user, 2026-10-04, after the S107/S100 trials)
 MAX_USD = 40          # per Claude call (--max-budget-usd); Codex runs are on the subscription
 TIMEOUT = 8 * 3600    # seconds per call; a call past it is killed and logged as an error
 CLAUDE_TOOLS = "Bash,Read,Write,Edit,Glob,Grep"
@@ -409,11 +412,11 @@ def model_specs(arg: str, default_effort: str) -> list[tuple[str, str]]:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("cmd", choices=("status", "build", "run"))
+    ap.add_argument("cmd", choices=("status", "build", "run", "accept"))
     ap.add_argument("--surah", type=int)
     ap.add_argument("--surahs")
     ap.add_argument("--target", help="surah or S:A (default: every page of the surah)")
-    ap.add_argument("--model", default=DEFAULT_MODEL, help=f"key[:effort],... of {', '.join(MODELS)}")
+    ap.add_argument("--model", default=RUN_MODEL, help=f"key[:effort],... of {', '.join(MODELS)}")
     ap.add_argument("--effort", default=EFFORT, choices=("low", "medium", "high", "max"))
     ap.add_argument("--attempt", type=int, default=1)
     ap.add_argument("--trial", action="store_true", help="render in the call directory only; no out/, no errata")
@@ -427,6 +430,22 @@ def main() -> None:
             status(s)
         return
     specs = model_specs(a.model, a.effort)
+    if a.cmd == "accept":  # a finished trial page becomes the accepted page (no model call)
+        if len(specs) != 1 or not a.target:
+            ap.error("accept takes one --model and one --target")
+        (m, e), = specs
+        for s in ss:
+            d = call_dir(s, a.target, a.attempt, m, e)
+            log_path = d / "run.log.json"
+            row = json.loads(log_path.read_text(encoding="utf-8")) if log_path.exists() else {}
+            if row.get("status") != "ok":
+                raise SystemExit(f"{rel(d)}: no successful run to accept")
+            res = finish(s, a.target, d, trial=False)
+            row["accepted"] = {"at": time.strftime("%Y-%m-%dT%H:%M:%S%z"), **res}
+            log_path.write_text(json.dumps(row, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+            log({"surah": s, "target": a.target, "stage": "accept", "model": m, "effort": e, "dir": rel(d), **res})
+            print(json.dumps({"surah": s, "target": a.target, "dir": rel(d), **res}, ensure_ascii=False))
+        return
     if a.cmd == "run" and len(specs) > 1 and not a.trial:
         ap.error("several models on the same pages only with --trial (otherwise they race for the accepted page)")
     jobs = []

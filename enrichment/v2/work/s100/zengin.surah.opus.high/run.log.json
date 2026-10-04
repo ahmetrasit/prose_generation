@@ -1,0 +1,68 @@
+{
+ "surah": 100,
+ "target": "surah",
+ "attempt": 1,
+ "brief": "zengin",
+ "model": "opus",
+ "model_id": "claude-opus-5-5",
+ "runner": "claude",
+ "effort": "high",
+ "trial": true,
+ "prompt_sha256": "4e6f181f583541d9aedb0fa23f36830098ad19fbd4f3da4dd74af53e1d3b2190",
+ "prompt_chars": 25102,
+ "started": "2026-10-03T22:58:27-0400",
+ "returncode": 0,
+ "turn_completed": true,
+ "usage": {
+  "input_tokens": 112,
+  "cache_creation_input_tokens": 344852,
+  "cache_read_input_tokens": 11134702,
+  "output_tokens": 139197,
+  "output_tokens_details": {
+   "thinking_tokens": 93125
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 344852
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1691,
+    "cache_read_input_tokens": 349342,
+    "cache_creation_input_tokens": 1494,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 1494,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 6.7355884,
+ "num_turns": 74,
+ "commands": 73,
+ "permission_denials": 2,
+ "session_id": "31a6f487-5e58-4609-b615-f483ca14beb2",
+ "status": "ok",
+ "check": "ok (trial: page in the call directory only)",
+ "kept": 63,
+ "dropped": 0,
+ "seconds": 1585,
+ "accepted": {
+  "at": "2026-10-04T01:47:49-0400",
+  "check": "ok",
+  "ok": true,
+  "kept": 63,
+  "dropped": 0,
+  "errata": 0
+ }
+}

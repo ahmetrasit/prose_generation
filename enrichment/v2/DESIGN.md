@@ -130,3 +130,13 @@ the pack writes ayah/S_A/turkish.md (Nişanyan/TDK/Kubbealtı entries for the pa
 words still to fetch; one ishārī reading when the corpus has one; the surah page keeps surah-level material and
 the meal verdict, the ayah pages the per-ayah material (word-by-word meal review, readings, single-ayah hadith,
 lexicon); Claude calls use the 5-minute cache (FORCE_PROMPT_CACHING_5M; writes 1.25x input instead of 2x).
+
+## Model decision (user, 2026-10-04)
+Opus 5.5 high is the enrichment model. S107 surah page: Opus high 58 records, $7.46, 25 min; Sonnet high 72, $6.32
+(one factual error); Sol 6.1 high 94 and Sol 6.1 max 103 (broadest, no or few Arabic quotes, Sol 6.1 high one false
+correction, 61/106 min); Sol 6 max 62, Sol 6 high 36 (thin). S100 surah page (updated brief): Opus high 63 records,
+$6.74, 26 min, best tafsir depth and meal analysis; Sol 6.1 high 79 (all 55 paragraphs, strongest counter-evidence,
+no Arabic quotes); Astra max 79 (two corrections). Opus was chosen for page quality (verifiable quotes, depth,
+sharper meal judgement, no false positives); its misses (untouched paragraphs, a base error both GPT runs found) are
+the known gap. The S100 Opus page was accepted; the muğîrât root-label error found by Sol 6.1 and Astra was confirmed
+against binding.json and logged by hand.

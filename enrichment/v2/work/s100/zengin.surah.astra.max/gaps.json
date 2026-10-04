@@ -1,0 +1,34 @@
+{
+  "missing_sources": [
+    "ABDUH-AMMA",
+    "BINTSHATI",
+    "MUQATIL-WUJUH"
+  ],
+  "not_found": [
+    {
+      "query": "العاديات --kind hadith --sahih",
+      "result": "Sûreye özgü sahih fazilet rivayeti bulunamadı. Sahih olmayan Übey rivayeti kaynak_notu olarak, Süyûtî'nin rivayet dizisine verdiği mevzû hükmüyle aktarıldı."
+    },
+    {
+      "queries": ["الكنود الخبير", "خبراء كنود", "الكنود القدر", "الصبوح نقع", "حببت صدرت", "حصل أضغان", "العاديات ألست"],
+      "scope": "research/search_audit.json içindeki altı aşamada belirtilen yerel eserler; tam metin anahtar sözcük taraması",
+      "result": "Bu birleşik sorgularda sonuç bulunamadı. Daha geniş imge ve sentez denetimlerinin kapsamı yenilik kayıtlarının taranan alanlarındadır."
+    },
+    {
+      "query": "حصل مبالغة --surah 100 --src SAMIN-DURR,WAHIDI-BASIT,MAWARDI-FULL,IBNASHUR,ALUSI-FULL,KASHSHAF-FULL",
+      "result": "Şeddeli kalıbın zorunlu olarak zaman alan, adım adım emek bildirdiğine dair destek bulunamadı. حصل تدريج biçimindeki daha geniş arama başka bağlamlara ait sonuçlar verdi."
+    },
+    {
+      "sources": ["YAHYA-SALLAM", "IBNMUJAHID", "IBNKHALAWAYH-HUJJA", "FARISI-HUJJA"],
+      "scope": "100. sûre",
+      "result": "Kaynaklar yerel katalogda vardır, fakat belirtilen kapsamlarında bu sûreye bağlı bölüm bulunmaz. Kıraat bilgisi Cüşemî ve ilgili tefsirlerden karşılandı."
+    }
+  ],
+  "unresolved": [
+    "ABDUH-AMMA, BINTSHATI ve MUQATIL-WUJUH yalnız hafıza erişimli katalog girdileridir; metinlerinin yerine hafızadan içerik eklenmedi.",
+    "Mekkî–Medenî ihtilafı ile Kinâne, Tihâme, Bedir ve Zâtüsselâsil haberleri kesin bir tarihe indirgenmedi. Derecesi belirtilmeyen yollar değerlendirilmedi olarak korundu. İbn Âşûr'un Hafs b. Cemî‘ hakkındaki zayıflık hükmü, rivayetin bütünü için açık bir derece yerine geçirilmedi.",
+    "100:3 için bağlayıcı kök kaydı root_001119 / ğ-y-r'dir. İlgili proje sözlük dosyasında baskın anlamı bulunmaz; bu anlam İbn Âşûr'dan tanıklandı. Şerhin ğ-w-r kaynak etiketi için düzeltme kaydı eklendi.",
+    "Kenûd hakkındaki yalnız yeme/köleye vurma/yardımı esirgeme sözünün merfû yolu İbn Kesîr tarafından zayıf sayılır. Mevkuf yolun sahihliğine ilişkin açık bir hüküm elde edilmedi; sahih hadis olarak sunulmadı.",
+    "Yenilik kayıtları incelenen dil malzemesi ve anahtar sözcüklerle taranan yerel metinlerle sınırlıdır; külliyatın tamamında yokluk iddiası taşımaz."
+  ]
+}

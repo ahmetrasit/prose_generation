@@ -1785,3 +1785,16 @@ The narrowed "contrasts" wording was not the cause.
 - `missing.py text` writes nothing.
 
 Regressions: augment3 19/19, and augment5/6/7 re-apply byte for byte.
+
+**87:8 augment8, GPT-6.1 Sol high (codex).** 2,452 s. Tokens: 320k in (254k cached), 59k out (34k reasoning).
+- 6 lookup commands, audit ok: nothing outside `missing.py text`, so no contamination.
+- 123 listed passages (79 + 44 neighbours): 279 relevant verdicts, 44 not relevant, 0 already-cited rejections,
+  0 unanswered lookups.
+- 35 prose additions (32–79 words) and 17 reference lines naming 475 passages (up to 46 per line). The reading grew
+  +204% (2,086 words → +1,782 prose, +2,474 references). check: all ok.
+- Found most of what both Opus runs missed (73:5, 75:18–19, 92:16, 92:20, 76:3, 73:2), and also 51:55, 20:7,
+  92:7/10, 94:6, 80:4, 20:44, 5:3. Missed 35:18, 36:11, 79:45, 43:32.
+- 33 consecutive-ayat splits and 9 verdict/reference mismatches.
+- Relevance is inflated: links such as 12:2 "Arapça indirilişin anlamaya yönelmesi" for ¶9, and prose such as 47:5
+  in ¶6 rest on a shared word (hidayet). Several prose additions close on a lesson line, against the brief.
+- Brief and model both changed against augment7 (Opus), so the effects cannot be separated.
