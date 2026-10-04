@@ -92,12 +92,17 @@ def audit(d: Path, targets: list[str] | None = None) -> tuple[list[str], list[st
     return bad, denied
 
 
+# user, 2026-10-04: every refused lookup in every saved run was `cd … && python3 missing.py …` (87:3's writer got no
+# lookup at all); the line now says to run the command alone. Prompts built from here on differ in this clause.
+EXACT = ' Run each command exactly as written, as the whole command: no cd, no && and no ; (such a command is refused and never runs).'
+
+
 def tool_line(target: str, kind: str = "ayah") -> str:
     # The instruction set lives here, in the prompt, as well as in the script's output: the permission test showed
     # the model treats instructions inside a tool result as untrusted text (out/permtest/run.log.json).
     if kind == "lookup":  # r13: the writer reads verse text; the list is left to augment
         return (f"To read a Quran passage's Arabic before you use it, run `{ALLOW} text <refs>` (up to 40 refs "
-                f"per call) as often as you need. No other command or tool is available.\n\n")
+                f"per call) as often as you need.{EXACT} No other command or tool is available.\n\n")
     if kind == "images":
         ayat = surah_ayat(int(target.lstrip("S")))
         run = (f"run this command once for each ayah of the surah ({ayat[0]} to {ayat[-1]}), each time with every "
@@ -111,7 +116,7 @@ def tool_line(target: str, kind: str = "ayah") -> str:
             f"refs do not include. That list is not authoritative and may be incomplete: judge each passage "
             f"yourself, add it only where it supports or sharpens what you are writing, and leave the rest. To read "
             f"a passage's Arabic before judging it, run `{ALLOW} text <refs>` (up to 40 refs per call) as often as "
-            f"you need. Also add any other passage you now recall that belongs, whether listed or not. Then write "
+            f"you need.{EXACT} Also add any other passage you now recall that belongs, whether listed or not. Then write "
             f"your final output. No other command or tool is available.\n\n")
 
 

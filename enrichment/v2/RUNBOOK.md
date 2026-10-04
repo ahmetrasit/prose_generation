@@ -16,7 +16,8 @@ Run every command from the workspace root `/Volumes/aro/projects/prose_generatio
      build` prints it).
    - Then wait for an explicit go. A go for one surah or one step does not cover the next.
 2. **No agents and no background runs without an explicit go.** That includes subagents, Workflow and
-   `run_in_background`. A go for a run covers running it in the background.
+   `run_in_background`. Say in the request whether a run will be in the foreground or the background; a go for
+   a run covers the background only when the request said so.
 3. **Never rerun a call.** A call directory with `started.json` or `run.log.json` is blocked; the script refuses it.
    A deliberate new try is `--attempt 2` (its own directory), and only after the user agrees.
 4. **Never overwrite an accepted page.** `enrich.py` writes `out/sNNN/` exclusively. Replacing an accepted page
@@ -28,7 +29,8 @@ Run every command from the workspace root `/Volumes/aro/projects/prose_generatio
 6. **The base is frozen.** Never edit v16 outputs or the pack. Errors in the base go to `errata.jsonl`.
 7. **Instruction files** (`prompts/*.md`, `schema.json`, `SCHEMA_CARD.md`): tell the user what you would change
    and wait for an answer before changing them.
-8. **Commit only when the user asks.** `.gitignore` already decides what is versioned.
+8. **Commit and push after every completed step** (user, 2026-10-04). `.gitignore` already decides what is versioned;
+   `work/` is never committed.
 
 ## What a page is
 

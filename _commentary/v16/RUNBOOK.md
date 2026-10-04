@@ -12,7 +12,7 @@ The history and the reasons behind each choice are in `DESIGN.md`. This file hol
 1. **Each step needs its own go.**
    - Before a step starts, tell the user what it will run, how many calls, and the expected cost (the scripts print an estimate).
    - Then wait for an explicit go. A go for one step or one surah does not cover the next.
-2. **No agents, and no background runs, without an explicit go.** That includes subagents, Workflow and `run_in_background`.
+2. **No agents, and no background runs, without an explicit go.** That includes subagents, Workflow and `run_in_background`. Say in the request whether a run will be in the foreground or the background; a go for a run covers the background only when the request said so.
 3. **Never rerun a call.**
    - A run dir with `started.json` or `run.log.json` is blocked, and the scripts refuse it.
    - If a call failed (for example it hit the session limit at $0), ask the user first. Then rename the dir to `<dir>.<reason>-<cost>usd`, as in `augment.augment3.session-limit-0usd`, and run it again.
@@ -144,6 +144,7 @@ python3 -B _commentary/v16/augment.py out/N_A/DM.r13.images.r13.map3.nohft.tool.
   - `check.json`.
 - **Additions** are marked blocks after their paragraph: `<!-- v16:augment brief=augment9 model=opus para=n kind=prose|refs … -->`. `augment.strip_augment()` removes them and gives back the reading byte for byte (asserted).
 - **Run it only after the ayah's reading has finished.** At most 5 calls at a time.
+- **Hand corrections to a reading** go in `corrections.json` beside the reading (`file`, `old`, `new`, `why`; `old` must occur exactly once). The reading file stays as written; augment.py applies the corrections before it reads and merges, prints a NOTE for each, and records the count in `packet.json`. 87:6 has one (19:22 → 19:23).
 - **The estimate** scales with the list: about 15k + 330 output tokens per listed passage, and twice the prompt for input because of the lookups. 87:8 (123 passages) estimates $1.63 against $1.64 actual; 256 passages comes to about $2.8.
 - **Every warning goes to the user.** The ones to expect:
   - listed passages without a verdict;
@@ -174,14 +175,14 @@ grep -HE "WARNING|NOTE|BLOCKED|never rerun|Traceback|Error|error|truncated|suspe
 grep -L ': ok [$]' _commentary/v16/work/logs/*.augment9.log    # logs without a final ok line: read each in full
 ```
 
-Running this in the background is itself a background run, so it needs the user's go (rule 2).
+Say that this runs in the background when asking for the go (rule 2).
 
 ## After each step
 
 1. Check the ledger rows: `status`, `check` (`ok`, `findings` or `failed`), and any `post_error`.
 2. Run `status.py` again.
 3. Report the actual cost against the estimate, and every warning, to the user.
-4. Commit the new `out/` dirs (never `work/`) with a short message, then push.
+4. Commit the new `out/` dirs (never `work/`) with a short message, then push. The user wants a commit after every completed step (2026-10-04).
 5. After a surah's augments, ask the user whether to run the enrichment for it (Step 5).
 
 ## Cost reference (Opus 5.5 high, actual)
@@ -226,3 +227,5 @@ After a surah's ayat are read and augmented, there is an optional enrichment ste
 - The enrichment code is another session's work; do not edit it from here.
 
 The order for each surah is: map → image prose → readings → augment9 → (ask) enrichment.
+
+Planned, not built yet (`REVIEW_production.md` §3–4, §7): an augment on the surah commentary, one call per image section, run before the readings; the enrichment ayah pages before its surah page. Until it exists, the order above stands.

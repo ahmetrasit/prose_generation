@@ -161,9 +161,40 @@ def cited_in(ref: str, cites: dict[int, set[str]] | None) -> str:
     return f" [cited in {', '.join(f'¶{n}' for n in ps)}]" if ps else ""
 
 
+def corrected(f: Path, quiet: bool = False) -> tuple[str, int]:
+    """The reading as the model wrote it, with the hand corrections in <dir>/corrections.json applied (user,
+    2026-10-04: the 87:6 fix lived only in a superseded augment3 output). Each entry names its `file` (required),
+    `old` and `new`; `old` must occur exactly once or the run stops. Every applied entry is printed and counted,
+    every entry for another file is printed as skipped, and a corrections.json none of whose entries applies stops
+    the run (Sonnet review, 2026-10-04: a misspelt `file` must not pass silently). The file on disk stays as
+    written; the corrected text is what the augment reads, builds on and merges into. `quiet` for the second read
+    (the merge), so each NOTE prints once."""
+    text = f.read_text(encoding="utf-8")
+    cj = f.parent / "corrections.json"
+    n_applied = 0
+    if cj.exists():
+        for c in json.loads(cj.read_text(encoding="utf-8")):
+            if not all(k in c for k in ("file", "old", "new")):
+                raise SystemExit(f"{cj}: every correction needs `file`, `old` and `new`: {c}")
+            if c["file"] != f.name:
+                if not quiet:
+                    print(f"NOTE: correction for {c['file']!r} skipped (this file is {f.name})")
+                continue
+            n = text.count(c["old"])
+            if n != 1:
+                raise SystemExit(f"{cj}: the correction {c['old'][:60]!r} occurs {n} times in {f.name}, not once")
+            text = text.replace(c["old"], c["new"])
+            n_applied += 1
+            if not quiet:
+                print(f"NOTE: correction applied to {f.name}: …{c['old'][-45:]!r} -> …{c['new'][-45:]!r}")
+        if n_applied == 0:
+            raise SystemExit(f"{cj} exists but none of its entries applies to {f.name}: fix its `file` fields")
+    return text, n_applied
+
+
 def build(d: Path, brief: str) -> tuple[str, dict]:
     kind, f, ayat, _ = target(d)
-    text = f.read_text(encoding="utf-8")
+    text, n_corr = corrected(f)
     led = d / "ledger.md"
     numbered = []
     for st, en, num in paragraphs(text):
@@ -192,7 +223,7 @@ def build(d: Path, brief: str) -> tuple[str, dict]:
     if not led.exists():
         print(f"WARNING: {V.rel(led)} not found: the model gets '(no ledger)'")
     return full, {"kind": kind, "file": V.rel(f), "ayat": ayat, "passages": n, "listed": order,
-                  "no_list": nolist, "no_ledger": not led.exists()}
+                  "no_list": nolist, "no_ledger": not led.exists(), "corrections": n_corr}
 
 
 def parse(result: str) -> tuple[list[dict], str]:
@@ -630,7 +661,7 @@ def main() -> None:
         if result and res["status"] == "ok":
             (out / "augment.raw.md").write_text(result + "\n", encoding="utf-8")
             src = V.HERE / meta["file"].replace("_commentary/v16/", "", 1)
-            original = src.read_text(encoding="utf-8")
+            original, _ = corrected(src, quiet=True)
             if a.brief in VERDICT:
                 ins, verdicts, led, diag = parse_verdict(result)
                 if not diag["verdicts_marker"]:
@@ -715,7 +746,10 @@ def main() -> None:
                          "verdict_lines_unparsed": len(diag["unparsed_verdict_lines"]),
                          "blocks_after_verdicts": diag["blocks_after_verdicts"],
                          "verdicts_marker": diag["verdicts_marker"], "not_a_verse": len(diag["not_a_verse"])}
-            extra.update({k: meta[k] for k in ("no_list", "no_ledger") if meta.get(k)})
+            extra.update({k: meta[k] for k in ("no_list", "no_ledger", "corrections") if meta.get(k)})
+            if a.brief in NOLIST:  # its "0 missing verdicts" is vacuous: there was no list (Sonnet review, 2026-10-04)
+                extra["no_list_brief"] = True
+                print("NOTE: no-list brief: 'listed 0, missing 0' audits nothing; only the lookups are checked")
             if res["check"] == "findings":
                 extra["check_findings"] = V.check_counts(out / "check.json")
             V.log({"ref": res["ref"], "arm": "augment-applied", "brief": res["brief"], "insertions": res["insertions"],
@@ -723,6 +757,9 @@ def main() -> None:
                    "insert_issues": len(issues), "ledger_lines": res["ledger_lines"], **extra, "check": res["check"]})
     except BaseException as x:  # never silent: the failure gets a ledger row of its own
         print(f"WARNING: post-processing failed after the paid call: {x!r}; nothing is applied")
+        for p in out.glob("*.reading.tr.md"):  # a merged text written before the check is not final (review, 2026-10-04)
+            p.rename(p.with_suffix(".partial.md"))
+            print(f"WARNING: {p.name} renamed to {p.with_suffix('.partial.md').name}: never a finished output")
         V.log({"ref": res["ref"], "arm": "augment-applied", "brief": res["brief"], "post_error": repr(x)[:500]})
         raise
     if model in CODEX:

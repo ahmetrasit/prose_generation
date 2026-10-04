@@ -4,9 +4,16 @@ This repository authors the reader-facing content for the Quran reader: the
 translation spine, ayah commentary, and surah commentary. Upstream repositories
 produce evidence; this one adjudicates it and writes prose.
 
-## Canonical commentary workflow
+## Production (2026-10-04)
 
-As of 2026-09-10, [`_commentary/v5/`](_commentary/v5/) is the canonical workflow
+The production pipeline is **v16 r13** (surah map, surah commentary, ayah commentaries), with the optional
+**augment9** layer and the optional **enrichment v2** pages. Start at [`PRODUCTION.md`](PRODUCTION.md): it names
+the runbooks, the order, what is optional and the rules. The section below describes the earlier v5 workflow and
+is kept as history.
+
+## Earlier canonical commentary workflow (v5, superseded)
+
+As of 2026-09-10, [`_commentary/v5/`](_commentary/v5/) was the canonical workflow
 for new ayah-commentary generation. Start with
 [`_commentary/v5/ORCHESTRATION.md`](_commentary/v5/ORCHESTRATION.md) and use
 [`_commentary/v5/workflow.py`](_commentary/v5/workflow.py) for preparation. The

@@ -177,13 +177,14 @@ benchmark (Opus 15, Sol 18) and the warning counts. `augment.py` needs `fable` i
 (`v16.MODELS` already defines it). If it beats Opus on coverage without new slips, augment8 moves to Fable;
 the Fable rates are already in `v16.MODELS` for the estimate.
 
-## 6. Work list (agreed 2026-10-04; nothing done yet)
+## 6. Work list (agreed 2026-10-04; status as of the evening: 1–4 done, 5–11 open)
 
-1. `packets.tool_line`: "run it exactly as written, alone: no cd, no &&, no ;" (changes future prompts only).
-2. Reading-level `corrections.json`: applied by `augment.py` after apply, respected by `pack.py`; apply the
-   87:6 19:22→19:23 fix; log it.
-3. Both runbooks: commit and push after every completed step; one wording for background runs.
-4. `augment.py`: `fable` in `--model`; run augment8 on 87:8 with Fable (own dir); compare; decide.
+1. DONE. `packets.EXACT`: "Run each command exactly as written, as the whole command: no cd, no && and no ;" (changes future prompts only).
+2. DONE in augment.py (`corrected()`: applied before the prompt and the merge; the file on disk stays as written;
+   NOTE per entry, count in packet.json and the ledger row). pack.py needs nothing: its ayah base is the augment9 output.
+   87:6 has its corrections.json.
+3. DONE: both runbooks say commit and push after every completed step; a go covers the background only when the request said so.
+4. DONE: the four-arm test (§9); augment9 is production; enrichment switched to augment9.
 5. Surah-commentary augment: `augment.py` accepts the images file; one call when the list fits, else one call
    per image section (+ Buluşmalar); section→page paragraph mapping; additions marked as for ayat;
    `pack.py` takes the augmented images as the surah base.
