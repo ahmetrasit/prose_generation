@@ -226,6 +226,7 @@ After a surah's ayat are read and augmented, there is an optional enrichment ste
   - Its pack must be rebuilt after augment9 has run (`enrichment/v2/RUNBOOK.md`, "Ayah pages").
 - The enrichment code is another session's work; do not edit it from here.
 
-The order for each surah is: map → image prose → readings → augment9 → (ask) enrichment.
+**The order for each surah is: map → image prose → readings → augment9 on the ayat → (ask) enrichment.**
 
-Planned, not built yet (`REVIEW_production.md` §3–4, §7): an augment on the surah commentary, one call per image section, run before the readings; the enrichment ayah pages before its surah page. Until it exists, the order above stands.
+- The ayah augment (augment9) runs as part of a surah's v16 run; enrichment is the optional step.
+- A **surah-commentary augment** is a dedicated step still to be designed (user, 2026-10-04 evening): image-based discovery from the commentary's own prose, since the per-ayah lists encode ayah-level links and inflate five-fold when given per image section (`REVIEW_production.md` §10). When it exists it goes between the image prose and the readings; readings written before it predate it, which the DESIGN records. Until then the order above stands and readings are not held back.

@@ -25,13 +25,13 @@ enrichment page.
 Step 5 is for the NGT (next-generation tafsir) project. It is run surah by surah when that project needs the
 surah, never as part of a reading run.
 
-Planned, not built (see `_commentary/v16/REVIEW_production.md`, §3–4 and §7): an augment on the surah commentary,
-one call per image section, run between steps 2 and 3; and the enrichment ayah pages before the surah page.
-Until it exists, the order above stands.
+**Planned, not built:** a surah-commentary augment as a dedicated, image-based discovery step, to go between
+steps 2 and 3 once designed (`_commentary/v16/REVIEW_production.md` §10); and the enrichment ayah pages before
+the surah page (§4). Until then the order above stands and readings are not held back.
 
 ## Which surahs get what
 
-- **Own-reading surahs:** steps 1–3, and step 4 when the budget allows. Step 4 can be added later per ayah.
+- **Own-reading surahs:** steps 1–3, then step 4 as intended; step 4 can also be added later per ayah.
 - **NGT surahs:** steps 1–5. Step 4 on every ayah first, then one enrichment pack build, then the enrichment pages.
 - `python3 -B _commentary/v16/status.py N …` shows the v16 state of a surah; `python3 -B enrichment/v2/enrich.py
   status --surah N` the enrichment state. Both make no model calls.

@@ -287,3 +287,54 @@ Benchmark: the 21 key passages of the augment6/7 review. "Recall" = the baseline
 added passage, the ledger's left-out passages, the per-paragraph minimum kept). Expected ~$2 per ayah. Fable is
 not adopted for augment. The brief revision is shown to the user before it runs. The `cd &&` refusals recurred
 in two arms: work-list item 1 first.
+
+## 10. The surah-commentary augment: per section would inflate five-fold; per ayah-slice is the minimal design (2026-10-04)
+
+The runbook and PRODUCTION.md now record the order map → images → **surah augment** → readings → augment9 →
+enrichment, with the surah augment kept on any budget (user). Measured before building it (`augment.passages`
+on each `## ` section with the member ayat of its `Kaynaklar:` line, all tiers, neighbours):
+
+| Surah | sections | member ayat per section | list per section | sum of section lists | surah union | output tokens per section |
+|---|---|---|---|---|---|---|
+| S87 | 18 | 3–8 | 390–1,107 | 11,960 | 2,251 | 144k–380k |
+| S100 | 11 | 3–7 | 403–944 | 6,562 | 1,395 | 148k–318k |
+| S107 | 10 | 2–4 | 197–426 | 3,088 | 751 | 80k–156k |
+
+A section's list is the union of its member ayat's lists, and sections share ayat, so every passage would be
+judged in four to five sections and nearly every section is over the 128k output cap. The per-section design in
+§3.3 is withdrawn: it would cost ~$115 for S87 and still not fit.
+
+**Design A (proposed): one call per ayah-slice, exactly like the ayah augment.** For each ayah N:A, the prose is
+the sections in which that ayah's words take part (the same slice the r13 writer gets, `packets.slices`,
+`SLICE_ALIAS` included), with the commentary's page-wide paragraph numbers; the list is that ayah's own list,
+all tiers, with the neighbours of what the slice cites, as `passages()` builds it for a reading. Each passage is
+judged in the calls of the ayat that list it (S87: 2,709 list entries over 19 calls for 2,251 distinct passages,
+~20% repeats, as between ayah augments). Calls, lists and costs are those of the ayah augment: ~$1.6–2.8 per
+call, S87 ≈ $40, S100 ≈ $22. Every augment9 guarantee and warning holds unchanged.
+- The brief is augment9 unchanged; the script header says what the slice is and that paragraph numbers are the
+  commentary's.
+- Each call gets its own directory under `images.r13…/augment.augment9.opus/<N_A>/` (never rerun, its own ledger
+  rows). A free `merge` step rebuilds `augment.augment9.opus/images.md` from the frozen images and every finished
+  call's additions: a prose addition for a (paragraph, ref) another call already added is refused with a WARNING;
+  reference lines for one paragraph are merged into one line, dropping refs already present. Markers carry
+  `for=N:A`. `strip_augment` gives the frozen images back byte for byte.
+- `## Buluşmalar` cites no ayah, so it is in no slice: one last call on that section with a derived list (the
+  passages the slice calls judged prose or ref, deduplicated, with their Arabic) plus the own-knowledge pass.
+- A passage is judged only against the sections where its ayah takes part, not against the whole commentary;
+  the per-paragraph own-knowledge pass covers the rest. This is the one scope limit of design A.
+- `packets.writer_packet --images` takes the augmented images.md: prose additions kept in the slices, reference
+  lines stripped, recorded in packet.json. `pack.py` takes the augmented images as the surah base when it exists.
+- status.py shows the surah augment as calls n/N plus merged or not.
+
+Rejected alternatives: design C, one call per ~120-passage chunk of the union against the whole commentary
+(each passage judged against ~70 paragraphs, the whole 40k-token commentary written to cache per call; ≈ $65 for
+S87, 1.6× A, for a scope gain the own-knowledge pass mostly covers); tier restriction (user: all tiers).
+
+**Decision (user, 2026-10-04 evening):** the surah-commentary augment is deferred and will be a dedicated step,
+designed around image-based discovery (the image prose is a novel synthesis; the per-ayah lists encode ayah-level
+links). Production order until then: map → images → readings → augment9 → (ask) enrichment; readings are not
+held back. Design A above is kept as the fallback. The inter-ayah list rows carry a free-text `source_note`
+("Exact parallel of yassara li-l-yusra; …") and no structured root, so filtering a section's list by its member
+roots would be text matching, i.e. a model's job; a cheap Luna/Codex pass over the lists with those notes is one
+option, memory-only discovery from the image prose another. A test on one or two S87 sections, after S87's
+augment9 verdicts exist as the recall reference, is the next step for this.
