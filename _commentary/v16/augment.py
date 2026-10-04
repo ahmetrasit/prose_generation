@@ -36,7 +36,9 @@ OWN_PARAGRAPH = {"augment4"}
 # that a renderer can hide or show them. The marker is a namespaced HTML comment: it collides neither with v16's
 # reader tags ({ar:…, source:…}) nor with enrichment v2's block lines ({id:…}) and its page header
 # (<!-- schema:zenginlestirme …). Both v16's and enrichment's paragraph splitters count a marked block as one paragraph.
-VERDICT = {"augment5", "augment6"}  # augment6: reference links name their mechanism; a refrain is one reference
+VERDICT = {"augment5", "augment6", "augment7"}  # augment6: reference links name their mechanism; a refrain is one
+# reference. augment7: conflict and context verdicts, the ledger answered, and the missing.py text lookup
+LOOKUP = {"augment7"}  # briefs whose call may read verse text (packets.ALLOW text …), as the r13 writer does
 MARKED_BLOCK = re.compile(r"\n\n<!-- v16:augment [^\n]*-->\n[^\n]*")
 OUT_TOKENS = {"images": 40_000, "ayah": 20_000}  # assumed, thinking included
 PARA_SPLIT = re.compile(r"(\n[ \t]*\n)")
@@ -132,6 +134,9 @@ def build(d: Path, brief: str) -> tuple[str, dict]:
             + ("a surah commentary on the images of the whole surah" if kind == "images" else
                f"a reading of the ayah {ayat[0]}")
             + "; its ledger and the listed passages follow it. Return only the output augment.md specifies.\n\n")
+    if brief in LOOKUP:
+        import packets as P
+        head += P.tool_line(ayat[0], "lookup")
     secs = [(V.rel(bf), bf.read_text(encoding="utf-8")),
             (f"{V.rel(f)} (prose paragraphs numbered)", "\n\n".join(numbered)),
             (V.rel(led), led.read_text(encoding="utf-8") if led.exists() else "(no ledger)\n"),
@@ -351,18 +356,26 @@ def verdict_report(listed: list[str], verdicts: dict[str, list[dict]], items: li
         if r["kind"] == "refs":
             refs[int(re.search(r"\d+", r["paragraph"]).group(0))] = M.expand([r["text"]])
     missing = [r for r in listed if r not in verdicts]
-    mismatch = []
+    mismatch, conflicts = [], []
     for ref, vs in verdicts.items():
         for v in vs:
             s = v["verdict"].split(" - ")[0]
-            for kind, nums in re.findall(r"(prose|ref)\s*((?:¶\s*\d+[,\s]*)+)", s):
+            if s.strip().startswith("conflict"):
+                conflicts.append(f"{ref}: {v['verdict']}")
+                continue
+            s = re.sub(r"\(in [^)]*\)", "", s)  # "context ¶10 (in 79:45)": the paragraph is what is checked
+            for kind, nums in re.findall(r"(prose|ref|context)\s*((?:¶\s*\d+[,\s]*)+)", s):
                 for n in map(int, re.findall(r"\d+", nums)):
-                    if (kind == "prose" and (ref, n) not in prose) or (kind == "ref" and ref not in refs.get(n, set())):
+                    if ((kind in ("prose", "context") and (ref, n) not in prose)
+                            or (kind == "ref" and ref not in refs.get(n, set()))):
                         mismatch.append(f"{ref}: {kind} ¶{n} in the verdict, no such addition applied")
     unjudged = sorted(({r for r, _ in prose} | {x for s in refs.values() for x in s}) - set(verdicts))
-    return {"missing": missing, "mismatch": mismatch, "unjudged": unjudged,
-            "relevant": sum(1 for vs in verdicts.values() if any("not relevant" not in v["verdict"] for v in vs)),
-            "not_relevant": sum(1 for vs in verdicts.values() if all("not relevant" in v["verdict"] for v in vs))}
+    def kind(v: str) -> str:
+        v = v.strip()
+        return "not" if v.startswith("not relevant") else "conflict" if v.startswith("conflict") else "relevant"
+    return {"missing": missing, "mismatch": mismatch, "unjudged": unjudged, "conflicts": conflicts,
+            "relevant": sum(1 for vs in verdicts.values() if any(kind(v["verdict"]) == "relevant" for v in vs)),
+            "not_relevant": sum(1 for vs in verdicts.values() if all(kind(v["verdict"]) == "not" for v in vs))}
 
 
 def main() -> None:
@@ -397,10 +410,23 @@ def main() -> None:
     (out / "packet.json").write_text(json.dumps({**{k: v for k, v in meta.items() if k != "listed"}, "brief": a.brief, "model": V.MODELS[model][0]},
                                                 ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     t0 = time.time()
-    obj = V.call_opus(text, out, model, allow=None, effort=EFFORT)
+    if a.brief in LOOKUP:
+        import packets as P
+        obj = V.call_opus(text, out, model, allow=P.ALLOW, effort=EFFORT)
+    else:
+        obj = V.call_opus(text, out, model, allow=None, effort=EFFORT)
     res = {**row, "model": V.MODELS[model][0], "effort": EFFORT, "seconds": round(time.time() - t0),
            "estimate_usd": round(est, 2), **V.usage_row(obj, text)}
     result = (obj.get("result") or "").strip()
+    if a.brief in LOOKUP:  # every command must be a text lookup; anything else is reported, never silent
+        import packets as P
+        bad, denied = P.audit(out, [])
+        res["audit"] = "ok" if not bad else f"{len(bad)} outside the rule"
+        res["denied"] = len(denied)
+        for c in bad:
+            print(f"WARNING: ran outside the rule: {c[:200]}")
+        for c in denied:
+            print(f"NOTE: refused (never ran): {c[:200]}")
     V.log(res)  # the paid call is recorded before any post-processing can fail
     if result and res["status"] == "ok":
         (out / "augment.raw.md").write_text(result + "\n", encoding="utf-8")
@@ -444,6 +470,8 @@ def main() -> None:
                       f"{', '.join(vr['missing'][:20])}{' …' if len(vr['missing']) > 20 else ''}")
             for x in vr["mismatch"]:
                 print(f"WARNING: {x}")
+            for x in vr["conflicts"]:
+                print(f"WARNING: conflict with the commentary: {x}")
             if vr["unjudged"]:
                 print(f"WARNING: added without a verdict line: {', '.join(vr['unjudged'])}")
             (out / "verdict_report.json").write_text(json.dumps(vr, ensure_ascii=False, indent=1) + "\n",
@@ -453,7 +481,8 @@ def main() -> None:
                      "ref_lines": sum(r["kind"] == "refs" for r in app),
                      "refs_named": sum(len(re.findall(r"source:", r["text"])) for r in app if r["kind"] == "refs"),
                      "listed": len(meta["listed"]), "verdicts_missing": len(vr["missing"]),
-                     "verdict_mismatch": len(vr["mismatch"]), "relevant": vr["relevant"],
+                     "verdict_mismatch": len(vr["mismatch"]), "conflicts": len(vr["conflicts"]),
+                     "relevant": vr["relevant"],
                      "not_relevant": vr["not_relevant"]}
         V.log({"ref": res["ref"], "arm": "augment-applied", "brief": res["brief"], "insertions": res["insertions"],
                "applied": res["applied"], "not_applied": res["insertions"] - res["applied"],

@@ -1695,3 +1695,26 @@ refusal and every verdict-report case.
 - First run of the verdict report: 12 false mismatches, for context ayat quoted inside another prose addition
   (79:42–44 in 79:45). Fixed: a passage cited in any prose addition of the paragraph counts. Rerun on the saved
   output: 0 missing, 0 mismatch, 0 unjudged; the merged text re-applies byte for byte.
+
+## augment6 and augment7 (user, 2026-10-03)
+
+**augment6** = augment5, plus: every reference link names its mechanism ("aynı ifade/emir/soru" ruled out); the
+shared-word test applies to references too; a refrain is one reference with all its places. Test on 87:8 is running
+(est $0.90).
+
+**augment7** fixes the conflicts and gaps found by reading the brief against itself (user asked):
+- "Contrasts" vs "never contradict": relevance now includes setting a thing against its opposite as the Quran does.
+  A passage that shows the commentary wrong is not added; it gets the verdict "conflict ¶n", which the script
+  prints as a WARNING and counts in the ledger.
+- "Never restate" vs re-citing in another paragraph: citing again is allowed; repeating the commentary's own
+  explanation of a passage is not.
+- Several prose additions per paragraph: each opens from the paragraph it serves and stands alone (the additions
+  are shown or hidden together).
+- The writer's ledger: a passage the writer left out may be added when relevant, and its verdict answers the reason.
+- "Prose once": a passage the commentary already explains in one paragraph is a reference in any other.
+- Context ayat: a verdict form "context ¶n (in <ref>)"; the script checks it against that paragraph's prose additions.
+- Exact Arabic: the call gets the r13 writer's `missing.py text` lookup (`LOOKUP` briefs, packets.ALLOW and
+  packets.tool_line). Every command is audited with packets.audit (only `text` allowed); anything else is printed.
+
+Regressions: the augment3, augment4 and augment5 outputs re-apply byte for byte; the 87:10 augment5 verdict report
+is unchanged (0 missing, 0 mismatch). 87:8 dry build: 79 passages, ~25.3k tokens in, est $0.90.
