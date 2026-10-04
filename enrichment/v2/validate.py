@@ -31,6 +31,10 @@ import blocks as B  # noqa: E402
 import corpus as C  # noqa: E402
 import render as R  # noqa: E402
 
+# the commentary called "taban" (taban, tabanın, tabandaki, tabana, tabanda …), not "ayak tabanı"/"dağın tabanında"
+TABAN = re.compile(r"\btaban(?:ın|ı|a|da|daki|dan)?\b", re.IGNORECASE)
+TABAN_OK = re.compile(r"\b(?:ayak|dağın|dağ|kabın|vadinin)\s+taban", re.IGNORECASE)
+
 
 def check_page(page: Path, base: str, recs: list[dict]) -> list[str]:
     e = []
@@ -96,7 +100,10 @@ def check_records(s: int, target: str, recs: list[dict], gelenek: str = "islami"
                 e.append(f"{rid}: {name}: {err}")
         if rid in seen:
             e.append(f"{rid}: duplicate id")
-        para = str(r.get("paragraf", "")).lstrip("¶")
+        try:  # the same number placement uses (render.locate): "¶3", " 3" and "03" are one paragraph
+            para = str(int(str(r.get("paragraf", "")).strip().lstrip("¶").strip()))
+        except ValueError:
+            para = str(r.get("paragraf"))
         if r.get("tur") == "yenilik" and not e:
             if para in novelty_at:
                 e.append(f"{rid}: a second yenilik block after ¶{para} ({novelty_at[para]} is there); one per paragraph")
@@ -108,7 +115,7 @@ def check_records(s: int, target: str, recs: list[dict], gelenek: str = "islami"
             continue
         kept.append(r)
         per_para[para] = per_para.get(para, 0) + 1
-        if re.search(r"\b[Tt]aban(?!ı?nda\b)", r.get("metin", "")):
+        if TABAN.search(r.get("metin", "")) and not TABAN_OK.search(r.get("metin", "")):
             warnings.append(f"{rid}: metin calls the commentary 'taban'; say 'şerh' or state the point")
         if r.get("tur") == "yenilik" and r.get("tarama") == "dilim" and r.get("klasik_tanik") == "bulunamadi" \
                 and not any(w in r.get("metin", "").lower() for w in ("dilim", "yalnız", "sadece", "only")):

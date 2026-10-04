@@ -12,8 +12,9 @@ Per target:
 
 Models (--model, comma-separated, each key[:effort]): astra (default), sol, sol61 run through `codex exec`; opus,
 sonnet through `claude -p`. Every agent can write only in its call directory and has no network: Codex by its own
-sandbox; Claude by tools limited to Read/Grep/Glob, Write/Edit inside the call directory, and Python only through
-tools/sandboxed_python (Codex's sandbox). Non-default models get their own call directory (zengin.<page>.<model>.<effort>).
+sandbox; Claude by Claude Code's own sandbox (every Bash command sandboxed and auto-allowed, writes only in the
+call directory, no network, no unsandboxed fallback) plus Write/Edit allowed only inside the call directory. Both
+runners get the identical prompt. Non-default models get their own call directory (zengin.<page>.<model>.<effort>).
 --trial renders and checks the page in the call directory only: nothing is copied to out/ and no errata are logged
 (for model comparisons).
 Codex Codex keeps each call's session log (~/.codex/sessions/…/rollout-…-<thread id>.jsonl): run.log.json records
@@ -50,7 +51,8 @@ EFFORT = "high"
 MODELS = {"astra": ("codex", "gpt-6-astra"), "sol": ("codex", "gpt-6-sol"), "sol61": ("codex", "gpt-6.1-sol"),
           "opus": ("claude", "claude-opus-5-5"), "sonnet": ("claude", "claude-sonnet-5-5")}
 DEFAULT_MODEL = "astra"
-WRAP = V2 / "tools" / "sandboxed_python"
+MAX_USD = 40          # per Claude call (--max-budget-usd); Codex runs are on the subscription
+TIMEOUT = 8 * 3600    # seconds per call; a call past it is killed and logged as an error
 CLAUDE_TOOLS = "Bash,Read,Write,Edit,Glob,Grep"
 BRIEF = "zengin"
 SESSIONS = Path.home() / ".codex" / "sessions"
@@ -83,7 +85,8 @@ def tag(target: str) -> str:
 
 
 def call_dir(s: int, target: str, attempt: int = 1, model: str = DEFAULT_MODEL, effort: str = EFFORT) -> Path:
-    name = f"{BRIEF}.{tag(target)}" + ("" if model == DEFAULT_MODEL else f".{model}.{effort}")
+    # the bare directory belongs to astra at the default effort (S107's first surah call, astra max, also sits there)
+    name = f"{BRIEF}.{tag(target)}" + ("" if (model, effort) == (DEFAULT_MODEL, EFFORT) else f".{model}.{effort}")
     return wd(s) / (name if attempt == 1 else f"{name}.a{attempt}")
 
 
@@ -111,7 +114,7 @@ def header(s: int, target: str, d: Path, runner: str = "codex") -> str:
     pack = wd(s) / "pack"
     n = json.loads((pack / "pack.json").read_text(encoding="utf-8"))["ayat"]
     name = page_name(s, target)
-    py = "python3" if runner == "codex" else str(WRAP)
+    py = "python3"
     if target == "surah":
         what = f"the surah page of S{s} (base PACK/numbered/surah.md; all ayat 1–{n})"
     else:
@@ -129,10 +132,7 @@ def header(s: int, target: str, d: Path, runner: str = "codex") -> str:
         f"{d / 'annotations.jsonl'}",
         f"- Renderer (preview): {py} {V2 / 'render.py'} --surah {s} --target {target} --annotations "
         f"{d / 'annotations.jsonl'} --out {d / 'preview'}",
-    ] + ([f"- Tools: run every python3 command of these instructions (the corpus tool, the validator, the renderer, "
-          f"scripts you write in your call directory) as `{WRAP} <script.py> [args]`; it runs Python in a sandbox "
-          f"that writes only in your call directory. No other shell command is available: read files with Read, "
-          f"Grep and Glob; write files only in your call directory."] if runner == "claude" else [])) + "\n"
+    ]) + "\n"
 
 
 def build_prompt(s: int, target: str, d: Path, runner: str = "codex") -> str:
@@ -150,7 +150,10 @@ def call_codex(prompt: str, d: Path, model: str, effort: str) -> dict:
     (d / "command.json").write_text(json.dumps({"argv": cmd, "stdin": "prompt.md"}, indent=1) + "\n", encoding="utf-8")
     env = {**os.environ, "PYTHONDONTWRITEBYTECODE": "1"}
     with (d / "run.stream.jsonl").open("w", encoding="utf-8") as out, (d / "stderr.log").open("w") as err:
-        p = subprocess.run(cmd, input=prompt, text=True, stdout=out, stderr=err, env=env)
+        try:
+            p = subprocess.run(cmd, input=prompt, text=True, stdout=out, stderr=err, env=env, timeout=TIMEOUT)
+        except subprocess.TimeoutExpired:
+            p = subprocess.CompletedProcess(cmd, -9)
     usage, completed, tools = {}, False, 0
     for line in (d / "run.stream.jsonl").read_text(encoding="utf-8").splitlines():
         try:
@@ -164,19 +167,35 @@ def call_codex(prompt: str, d: Path, model: str, effort: str) -> dict:
     return {"returncode": p.returncode, "turn_completed": completed, "usage": usage, "commands": tools}
 
 
+def others(d: Path) -> list[Path]:
+    """What a trial must not see: accepted pages and every other call directory (other models' records and notes)
+    and the Codex/Claude session stores (transcripts of other calls)."""
+    return ([OUT] + [x for x in sorted(WORK.glob(f"s*/{BRIEF}.*")) if x.is_dir() and x != d]
+            + [Path.home() / ".codex" / "sessions", Path.home() / ".claude" / "projects"])
+
+
 def call_claude(prompt: str, d: Path, model: str, effort: str) -> dict:
     """One `claude -p` call in the call directory, customizations off (--safe-mode), unlisted actions refused
     (--permission-mode dontAsk). The stream is kept; the result event carries tokens and the cost in USD."""
     sid = str(__import__("uuid").uuid4())
-    allowed = [f"Bash({WRAP} *)", f"Read(/{PG}/**)", f"Write(/{d}/**)", f"Edit(/{d}/**)"]
+    allowed = [f"Read(/{PG}/**)", f"Write(/{d}/**)", f"Edit(/{d}/**)"]
+    hidden = others(d)
+    denied = [f"{tool}(/{h}/**)" for h in hidden for tool in ("Read", "Edit", "Write")]
+    settings = {"sandbox": {"enabled": True, "failIfUnavailable": True, "autoAllowBashIfSandboxed": True,
+                            "allowUnsandboxedCommands": False, "network": {"allowedDomains": []},
+                            "filesystem": {"allowWrite": [str(d)], "denyRead": [str(h) for h in hidden]}}}
     cmd = ["claude", "-p", "--model", model, "--effort", effort, "--tools", CLAUDE_TOOLS, "--allowedTools", *allowed,
-           "--add-dir", str(PG), "--output-format", "stream-json", "--verbose", "--session-id", sid, "--safe-mode",
+           "--disallowedTools", *denied, "--settings", json.dumps(settings), "--max-budget-usd", str(MAX_USD),
+           "--output-format", "stream-json", "--verbose", "--session-id", sid, "--safe-mode",
            "--permission-mode", "dontAsk"]
     (d / "command.json").write_text(json.dumps({"argv": cmd, "stdin": "prompt.md"}, indent=1) + "\n", encoding="utf-8")
     env = {**os.environ, "PYTHONDONTWRITEBYTECODE": "1", "ENRICH_CALL_DIR": str(d),
            "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "128000"}
     with (d / "run.stream.jsonl").open("w", encoding="utf-8") as out, (d / "stderr.log").open("w") as err:
-        p = subprocess.run(cmd, input=prompt, text=True, stdout=out, stderr=err, env=env, cwd=d)
+        try:
+            p = subprocess.run(cmd, input=prompt, text=True, stdout=out, stderr=err, env=env, cwd=d, timeout=TIMEOUT)
+        except subprocess.TimeoutExpired:
+            p = subprocess.CompletedProcess(cmd, -9)
     final, tools, denied = {}, 0, 0
     for line in (d / "run.stream.jsonl").read_text(encoding="utf-8").splitlines():
         try:
@@ -266,20 +285,21 @@ def finish(s: int, target: str, d: Path, trial: bool = False) -> dict:
     dst = OUT / f"s{s:03d}" / name
     if dst.exists():
         return {"check": f"{rel(dst)} exists (never overwrite)", "ok": False}
-    dst.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copyfile(page, dst)
     pack = json.loads((wd(s) / "pack" / "pack.json").read_text(encoding="utf-8"))
+    errata = [r for r in kept if r.get("tur") == "duzeltme"]
+    with ERRATA.open("a", encoding="utf-8") as f:  # before the page: an accepted page never lacks its errata
+        for r in errata:
+            f.write(json.dumps({"surah": s, "target": target, "base": info["path"], "id": r["id"], "taban": r.get("taban"),
+                                "hata": r.get("hata"), "metin": r.get("metin"), "kaynak": r.get("kaynak")},
+                               ensure_ascii=False) + "\n")
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    with open(page, "rb") as src, open(dst, "xb") as out:  # exclusive: never overwrite, even in a race
+        out.write(src.read())
     rec = {"surah": s, "target": target, "accepted_at": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
            "page_sha256": hashlib.sha256(dst.read_bytes()).hexdigest(), "base": info,
            "dictionary": pack.get("dictionary"), "annotations": rel(ann),
            "kept": len(kept), "dropped": [x["id"] for x in dropped]}
     dst.with_suffix(".json").write_text(json.dumps(rec, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    errata = [r for r in kept if r.get("tur") == "duzeltme"]
-    with ERRATA.open("a", encoding="utf-8") as f:
-        for r in errata:
-            f.write(json.dumps({"surah": s, "target": target, "base": info["path"], "id": r["id"], "taban": r.get("taban"),
-                                "hata": r.get("hata"), "metin": r.get("metin"), "kaynak": r.get("kaynak")},
-                               ensure_ascii=False) + "\n")
     return {"check": "ok", "ok": True, "kept": len(kept), "dropped": len(dropped), "errata": len(errata)}
 
 
@@ -291,8 +311,11 @@ def run_target(s: int, target: str, model: str, effort: str, attempt: int = 1, t
                 "reason": "started or finished before (never rerun)"}
     if accepted(s, target) and not trial:
         return {"surah": s, "target": target, "model": model, "status": "skipped", "reason": "page already accepted"}
+    try:
+        prompt = build_prompt(s, target, d, runner)
+    except Exception as e:  # a missing pack or brief stops this job, not the whole batch
+        return {"surah": s, "target": target, "model": model, "status": "error", "reason": f"prompt: {e}"}
     d.mkdir(parents=True, exist_ok=True)
-    prompt = build_prompt(s, target, d, runner)
     row = {"surah": s, "target": target, "attempt": attempt, "brief": BRIEF, "model": model, "model_id": model_id,
            "runner": runner, "effort": effort, "trial": trial, "prompt_sha256": sha(prompt), "prompt_chars": len(prompt),
            "started": time.strftime("%Y-%m-%dT%H:%M:%S%z")}
@@ -402,6 +425,8 @@ def main() -> None:
             status(s)
         return
     specs = model_specs(a.model, a.effort)
+    if a.cmd == "run" and len(specs) > 1 and not a.trial:
+        ap.error("several models on the same pages only with --trial (otherwise they race for the accepted page)")
     jobs = []
     for s in ss:
         if not ensure_pack(s):

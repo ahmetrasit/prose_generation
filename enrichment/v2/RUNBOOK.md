@@ -38,9 +38,12 @@ python3 enrichment/v2/enrich.py build --surah 107 --target surah --model sol:max
 python3 enrichment/v2/enrich.py run   --surah 107 --target surah --model sol:max,sol61:max,opus:high,sonnet:high \
         --trial --parallel 4
 ```
-Models: astra (default), sol, sol61 (codex exec); opus, sonnet (claude -p; Python only through
-tools/sandboxed_python, files written only in the call directory; run.log.json records cost_usd and any
-permission_denials).
+Models: astra (default), sol, sol61 (codex exec); opus, sonnet (claude -p inside Claude Code's own sandbox: every
+shell command sandboxed, writes only in the call directory, no network; out/, other call directories and the
+session stores hidden, so trials are blind; --max-budget-usd 40; run.log.json records cost_usd and
+permission_denials). Every call is killed after 8 hours. Several models on the same pages only with --trial.
+Codex runs can still read other call directories (their sandbox has no read limits): run trials before a page is
+accepted, or check their command logs for reads of out/ and zengin.* directories.
 
 One call per page, like v16's augment step: the call (prompts/common.md + prompts/zengin.md) does the research,
 the meal review and the composition, and writes the page's records to `work/sNNN/zengin.<page>/annotations.jsonl`.

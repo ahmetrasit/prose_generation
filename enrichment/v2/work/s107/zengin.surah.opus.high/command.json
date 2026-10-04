@@ -1,0 +1,28 @@
+{
+ "argv": [
+  "claude",
+  "-p",
+  "--model",
+  "claude-opus-5-5",
+  "--effort",
+  "high",
+  "--tools",
+  "Bash,Read,Write,Edit,Glob,Grep",
+  "--allowedTools",
+  "Bash(/Volumes/aro/projects/prose_generation/enrichment/v2/tools/sandboxed_python *)",
+  "Read(//Volumes/aro/projects/prose_generation/**)",
+  "Write(//Volumes/aro/projects/prose_generation/enrichment/v2/work/s107/zengin.surah.opus.high/**)",
+  "Edit(//Volumes/aro/projects/prose_generation/enrichment/v2/work/s107/zengin.surah.opus.high/**)",
+  "--add-dir",
+  "/Volumes/aro/projects/prose_generation",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--session-id",
+  "442fe7a5-3513-4291-843f-0fae6b7b42cc",
+  "--safe-mode",
+  "--permission-mode",
+  "dontAsk"
+ ],
+ "stdin": "prompt.md"
+}

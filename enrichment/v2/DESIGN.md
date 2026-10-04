@@ -112,5 +112,10 @@ one per paragraph); no "taban" in metin (şerh); no closing disclaimers; each po
 one names/merit block; at most five blocks per paragraph; merit reports only as sahih hadis; weak Prophetic
 attributions of sound Companion statements reported as the Companion's; kat arastirma hidden by default. On the
 Astra records the new rules drop 26 (25 attested yenilik, the merit report) and warn on 30 "taban" blocks.
-Model trials (--model, --trial): Sol 6, Sol 6.1 (Codex); Opus 5.5, Sonnet 5.5 (claude -p, Python through Codex's
-sandbox via tools/sandboxed_python).
+Model trials (--model, --trial): Sol 6, Sol 6.1 (Codex); Opus 5.5, Sonnet 5.5 (claude -p). The first Claude
+attempts were stopped after their Python calls were refused (an allow rule for a wrapper script that the agents
+called by relative path); Claude calls now run in Claude Code's own sandbox (checked with Haiku: corpus tool runs,
+writes inside only, no network). A Sonnet code review (2026-10-03) led to: blind trials (Claude cannot read out/,
+other call directories or session stores), --max-budget-usd 40 and an 8-hour timeout per call, no non-trial
+multi-model runs, errata written before the page, exclusive page write, paragraph numbers normalized in the
+per-paragraph rules, a tighter "taban" warning.

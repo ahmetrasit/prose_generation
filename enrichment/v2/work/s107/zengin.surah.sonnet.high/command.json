@@ -1,0 +1,28 @@
+{
+ "argv": [
+  "claude",
+  "-p",
+  "--model",
+  "claude-sonnet-5-5",
+  "--effort",
+  "high",
+  "--tools",
+  "Bash,Read,Write,Edit,Glob,Grep",
+  "--allowedTools",
+  "Bash(/Volumes/aro/projects/prose_generation/enrichment/v2/tools/sandboxed_python *)",
+  "Read(//Volumes/aro/projects/prose_generation/**)",
+  "Write(//Volumes/aro/projects/prose_generation/enrichment/v2/work/s107/zengin.surah.sonnet.high/**)",
+  "Edit(//Volumes/aro/projects/prose_generation/enrichment/v2/work/s107/zengin.surah.sonnet.high/**)",
+  "--add-dir",
+  "/Volumes/aro/projects/prose_generation",
+  "--output-format",
+  "stream-json",
+  "--verbose",
+  "--session-id",
+  "16aea664-643d-4107-9035-b684fc0e8048",
+  "--safe-mode",
+  "--permission-mode",
+  "dontAsk"
+ ],
+ "stdin": "prompt.md"
+}
