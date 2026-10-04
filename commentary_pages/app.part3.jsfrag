@@ -1,0 +1,88 @@
+  function renderTags(raw) {
+    return raw.replace(/\{([^{}]+)\}/g, (full, inner) => {
+      const f = parseTagFields(inner);
+      if (!f) return full;
+      if (annotationTextKey(f)) return annotationHtml(f);
+      if (LEXICAL_KEYS.some(k => k in f)) return lexicalHtml(f);
+      return full;
+    });
+  }
+  function renderInto(raw, el) { el.innerHTML = marked.parse(renderTags(raw)); }
+
+  function passagesForSurah(surah) {
+    const entries = manifest.entries.filter(e => e.surah === surah);
+    const ayat = [...new Set(entries.filter(e=>e.ayah != null).map(e=>e.ayah))].sort((a,b)=>a-b);
+    const hasSurah = entries.some(e=>e.scope === 'surah');
+    return [...(hasSurah ? [{value:'surah', label:'Sûre yorumu'}] : []), ...ayat.map(a=>({value:String(a),label:`${surah}:${a}`}))];
+  }
+  function matchingEntries() {
+    const s = Number(els.surah.value), p = els.passage.value;
+    return manifest.entries.filter(e => e.surah === s && (p === 'surah' ? e.scope === 'surah' : e.ayah === Number(p)));
+  }
+  function entryLabel(e) { return `${e.version} · ${e.variant} · ${e.status}${e.tagged ? ' · tagged' : ''}`; }
+  function populateSurahs() {
+    const surahs = [...new Set(manifest.entries.map(e=>e.surah))].sort((a,b)=>a-b);
+    els.surah.innerHTML = surahs.map(s=>`<option value="${s}">${s}</option>`).join('');
+  }
+  function populatePassages(keep) {
+    const opts = passagesForSurah(Number(els.surah.value));
+    els.passage.innerHTML = opts.map(o=>`<option value="${o.value}">${o.label}</option>`).join('');
+    if (keep && opts.some(o=>o.value===keep)) els.passage.value = keep;
+  }
+  function populateVersions(keepId) {
+    const entries = matchingEntries();
+    els.version.innerHTML = entries.map(e=>`<option value="${e.id}">${esc(entryLabel(e))}</option>`).join('');
+    if (keepId && entries.some(e=>e.id===keepId)) els.version.value = keepId;
+    els.compare.innerHTML = entries.map(e=>`<option value="${e.id}">${esc(entryLabel(e))}</option>`).join('');
+    if (els.compare.options.length > 1) els.compare.selectedIndex = Math.min(1, els.compare.options.length-1);
+  }
+  function getEntry(id) { return manifest.entries.find(e=>e.id===id); }
+  async function fetchEntry(entry) {
+    if (!entry) return '';
+    const r = await fetch(entry.content_path);
+    if (!r.ok) throw new Error(`Unable to load ${entry.content_path}: ${r.status}`);
+    return r.text();
+  }
+  function metaText(e) { return e ? entryLabel(e) : ''; }
+
+  async function loadReaders() {
+    const primaryEntry = getEntry(els.version.value);
+    if (state.compare && els.compare.value === els.version.value) {
+      const alt = matchingEntries().find(e => e.id !== els.version.value);
+      if (alt) els.compare.value = alt.id;
+    }
+    const compareEntry = state.compare ? getEntry(els.compare.value) : null;
+    try {
+      [primaryRaw, secondaryRaw] = await Promise.all([fetchEntry(primaryEntry), compareEntry ? fetchEntry(compareEntry) : Promise.resolve('')]);
+      scanObserved(primaryRaw, secondaryRaw);
+      buildDisplayControls();
+      renderInto(primaryRaw, els.primary); els.primaryMeta.textContent = metaText(primaryEntry);
+      if (state.compare) { renderInto(secondaryRaw, els.secondary); els.compareMeta.textContent = metaText(compareEntry); }
+    } catch (err) {
+      els.primary.innerHTML = `<div class="error">${esc(err.message)}</div>`;
+    }
+  }
+
+  function allFilterFields() {
+    const set = new Set();
+    for (const k of Object.keys(schema.fields || {})) if (enumValuesForField(k).length) set.add(k);
+    for (const k of LEGACY_ENUM_HINTS) if (observed.values[k]?.size) set.add(k);
+    for (const k of Object.keys(observed.values)) if (observed.values[k]?.size && enumValuesForField(k).length) set.add(k);
+    return [...set];
+  }
+  function valuesForFilter(key) {
+    const fromSchema = enumValuesForField(key);
+    const fromDoc = [...(observed.values[key] || [])];
+    return [...new Set([...fromSchema, ...fromDoc])];
+  }
+  function ensureFilterDefaults(key, values) {
+    const known = new Set(state.filterKnown[key] || []);
+    if (!Array.isArray(state.filters[key])) state.filters[key] = [...values];
+    else {
+      const selected = new Set(state.filters[key].filter(v=>values.includes(v)));
+      // Schema evolution rule: a value the reader has never seen before starts visible.
+      for (const v of values) if (!known.has(v)) selected.add(v);
+      state.filters[key] = [...selected];
+    }
+    state.filterKnown[key] = [...values];
+  }

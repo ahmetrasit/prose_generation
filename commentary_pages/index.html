@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kur'an Commentary Reader</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Kur'an Commentary</div>
+    <div class="selectors">
+      <label>Sûre <select id="surah-select"></select></label>
+      <label>Metin <select id="passage-select"></select></label>
+      <label>Sürüm <select id="version-select"></select></label>
+      <button id="compare-toggle" class="btn">Karşılaştır</button>
+      <button id="display-toggle" class="btn">Görünüm</button>
+    </div>
+  </header>
+
+  <aside id="display-panel" class="panel hidden" aria-hidden="true">
+    <div class="panel-head"><strong>Görünüm</strong><button id="display-close" class="icon-btn">×</button></div>
+    <section>
+      <h3>Hızlı görünüm</h3>
+      <div class="button-row">
+        <button class="preset btn" data-layer-preset="reader">Reader</button>
+        <button class="preset btn" data-layer-preset="deep">Deep Dive</button>
+        <button class="preset btn" data-layer-preset="research">Research Audit</button>
+      </div>
+    </section>
+    <section>
+      <h3>Kelime etiketleri</h3>
+      <div id="lexical-controls" class="grid-controls"></div>
+    </section>
+    <section>
+      <h3>Filtreler</h3>
+      <div id="filter-controls"></div>
+    </section>
+    <details>
+      <summary>Kategori renkleri</summary>
+      <div id="category-colors" class="category-colors"></div>
+    </details>
+    <details open>
+      <summary>Alan yerleşimi, sıra, ağırlık ve renk</summary>
+      <div class="table-wrap"><table><thead><tr><th>Alan</th><th>Yer</th><th>Sıra</th><th>Ağırlık</th><th>Renk</th></tr></thead><tbody id="field-controls"></tbody></table></div>
+    </details>
+    <section class="grid-controls">
+      <label>Ayırıcı<select id="separator"><option value=" · ">·</option><option value=" / ">/</option><option value=" — ">—</option><option value=" | ">|</option><option value=" ">boşluk</option></select></label>
+      <label>Renk modu<select id="color-mode"><option value="type">Türe göre</option><option value="tradition">Geleneğe göre</option><option value="function">İşleve göre</option><option value="field">Alan rengi</option></select></label>
+    </section>
+    <div class="button-row end"><button id="reset-display" class="btn">Varsayılanlara dön</button></div>
+  </aside>
+
+  <main id="reader-grid" class="reader-grid">
+    <article class="reader-pane">
+      <div class="pane-meta" id="primary-meta"></div>
+      <div class="md" id="primary-output"></div>
+    </article>
+    <article id="compare-pane" class="reader-pane hidden">
+      <div class="compare-toolbar"><label>Karşılaştır <select id="compare-select"></select></label></div>
+      <div class="pane-meta" id="compare-meta"></div>
+      <div class="md" id="compare-output"></div>
+    </article>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

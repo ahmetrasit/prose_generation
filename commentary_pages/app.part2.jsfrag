@@ -1,0 +1,117 @@
+      const km = inner.slice(pos).match(/^([A-Za-z_][A-Za-z0-9_-]*)\s*:/);
+      if (!km) return Object.keys(fields).length ? fields : null;
+      const key = km[1].toLowerCase();
+      pos += km[0].length;
+      const start = pos;
+      let quote = null, escaped = false, end = inner.length;
+      for (; pos < inner.length; pos++) {
+        const ch = inner[pos];
+        if (escaped) { escaped = false; continue; }
+        if (ch === '\\') { escaped = true; continue; }
+        if (quote) { if (ch === quote) quote = null; continue; }
+        if (ch === '"' || ch === "'") { quote = ch; continue; }
+        if (ch === ',') {
+          const look = inner.slice(pos+1).match(/^\s*([A-Za-z_][A-Za-z0-9_-]*)\s*:/);
+          if (look) { end = pos; break; }
+        }
+      }
+      fields[key] = stripOuterQuotes(inner.slice(start,end).trim());
+      if (pos < inner.length && inner[pos] === ',') pos++;
+    }
+    return fields;
+  }
+
+  function scanObserved(...raws) {
+    const values = {}, fields = new Set();
+    for (const raw of raws) {
+      if (!raw) continue;
+      raw.replace(/\{([^{}]+)\}/g, (_full, inner) => {
+        const f = parseTagFields(inner);
+        if (!f || !annotationTextKey(f)) return _full;
+        for (const [k,v] of Object.entries(f)) {
+          fields.add(k);
+          if (!values[k]) values[k] = new Set();
+          String(v).split('|').map(x=>x.trim()).filter(Boolean).forEach(x => values[k].add(x));
+        }
+        return _full;
+      });
+    }
+    observed = { values, fields };
+    for (const k of fields) if (!state.fields[k]) state.fields[k] = defaultFieldConfig(k, Object.keys(state.fields).length);
+  }
+
+  function lexicalHtml(fields) {
+    const main = [], paren = [];
+    for (const key of LEXICAL_KEYS) {
+      if (!(key in fields)) continue;
+      const place = state.lexical[key];
+      if (place === 'hide') continue;
+      const cls = `tag-${key}${place === 'main' ? ' tag-main-item' : ''}`;
+      const extra = key === 'ar' ? ' lang="ar" dir="rtl"' : '';
+      const html = `<span class="${cls}"${extra}>${esc(fields[key])}</span>`;
+      (place === 'main' ? main : paren).push(html);
+    }
+    const mainHtml = main.length ? `<span>${main.join('<span class="tag-sep"> / </span>')}</span>` : '';
+    const parenHtml = paren.length ? `<span>(${paren.join(', ')})</span>` : '';
+    return `<span class="tag-inline">${(state.lexical.order === 'main-first' ? [mainHtml,parenHtml] : [parenHtml,mainHtml]).filter(Boolean).join(' ')}</span>`;
+  }
+
+  function filterPasses(fields) {
+    for (const [key, selected] of Object.entries(state.filters || {})) {
+      if (!(key in fields) || !Array.isArray(selected)) continue;
+      const vals = String(fields[key]).split('|').map(x=>x.trim()).filter(Boolean);
+      if (vals.length && !vals.some(v => selected.includes(v))) return false;
+    }
+    return true;
+  }
+  function defaultCategoryColor(field, value) {
+    let h = 0; const text = `${field}:${value}`;
+    for (let i=0;i<text.length;i++) h = ((h << 5) - h + text.charCodeAt(i)) | 0;
+    return COLOR_PALETTE[Math.abs(h) % COLOR_PALETTE.length];
+  }
+  function colorFieldForMode(fields) {
+    if (state.colorMode === 'tradition') return traditionField(fields);
+    if (state.colorMode === 'function') return functionField(fields);
+    if (state.colorMode === 'type') return annotationTypeField(fields);
+    return null;
+  }
+  function categoryColor(field, value) {
+    if (!field || value == null) return '#7a1f2b';
+    state.categoryColors[field] ||= {};
+    if (!state.categoryColors[field][value]) state.categoryColors[field][value] = defaultCategoryColor(field, value);
+    return state.categoryColors[field][value];
+  }
+  function annotationColor(fields) {
+    const key = colorFieldForMode(fields);
+    return key ? categoryColor(key, fields[key]) : '#7a1f2b';
+  }
+  function effectiveFieldColor(key, fields) {
+    const cfg = state.fields[key] || {color:'#66605a', place:'hide'};
+    const colorField = colorFieldForMode(fields);
+    if (!colorField) return cfg.color;
+    if (key === colorField || TEXT_KEYS.has(key) || cfg.place === 'label') return categoryColor(colorField, fields[colorField]);
+    return cfg.color;
+  }
+  function annotationHtml(fields) {
+    if (!filterPasses(fields)) return '';
+    const available = Object.keys(fields)
+      .filter(k => state.fields[k] && state.fields[k].place !== 'hide')
+      .sort((a,b) => state.fields[a].order - state.fields[b].order);
+    const labels = [], inline = [], paren = [];
+    for (const key of available) {
+      const cfg = state.fields[key];
+      const val = fields[key];
+      const label = schemaFieldLabel(key);
+      const shown = (cfg.place === 'label' && !TEXT_KEYS.has(key)) ? enumLabel(key,val) : val;
+      const title = cfg.place === 'label' ? ` title="${esc(label)}"` : '';
+      const html = `<span class="ann-${cfg.weight}${cfg.place === 'label' ? ' ann-label' : cfg.place === 'paren' ? ' ann-meta' : ''}" style="color:${esc(effectiveFieldColor(key,fields))}"${title}>${esc(shown)}</span>`;
+      if (cfg.place === 'label') labels.push(html); else if (cfg.place === 'paren') paren.push(html); else inline.push(html);
+    }
+    const sep = `<span class="ann-sep">${esc(state.separator)}</span>`;
+    const pieces = [];
+    if (labels.length) pieces.push(labels.join(''));
+    if (inline.length) pieces.push(inline.join(sep));
+    if (paren.length) pieces.push(`<span class="ann-paren">(${paren.join(', ')})</span>`);
+    return `<div class="annotation-tag" style="--annotation-color:${annotationColor(fields)}">${pieces.join(' ')}</div>`;
+  }
+

@@ -1,0 +1,97 @@
+  function buildDisplayControls() {
+    els.lexical.innerHTML = LEXICAL_KEYS.map(key => `<label>${key}<select data-lex="${key}"><option value="main">Ana</option><option value="paren">Parantez</option><option value="hide">Gizle</option></select></label>`).join('') + `<label>Sıra<select data-lex="order"><option value="paren-first">Parantez önce</option><option value="main-first">Ana önce</option></select></label>`;
+    els.lexical.querySelectorAll('[data-lex]').forEach(sel => sel.value = state.lexical[sel.dataset.lex]);
+
+    els.filters.innerHTML = '';
+    for (const key of allFilterFields()) {
+      const values = valuesForFilter(key); if (!values.length) continue;
+      ensureFilterDefaults(key, values);
+      const selected = new Set(state.filters[key]);
+      const block = document.createElement('div'); block.className='filter-block'; block.dataset.filter = key;
+      block.innerHTML = `<div class="filter-title"><span>${esc(schemaFieldLabel(key))}</span><span><button class="btn filter-all" type="button">tümü</button> <button class="btn filter-none" type="button">hiçbiri</button></span></div><div class="filter-items">${values.map(v=>`<label><input type="checkbox" value="${esc(v)}" ${selected.has(v)?'checked':''}><span>${esc(enumLabel(key,v))}</span></label>`).join('')}</div>`;
+      els.filters.appendChild(block);
+    }
+
+    els.categoryColors.innerHTML = '';
+    const colorFields = [...new Set([
+      ...['tur','type','gelenek','tradition','islev','role'].filter(k => observed.values[k]?.size || enumValuesForField(k).length)
+    ])];
+    for (const key of colorFields) {
+      const values = valuesForFilter(key); if (!values.length) continue;
+      const group = document.createElement('div'); group.className='category-color-group';
+      group.innerHTML = `<h4>${esc(schemaFieldLabel(key))}</h4><div class="category-color-grid">${values.map(v=>`<label><span>${esc(enumLabel(key,v))}</span><input type="color" data-category-field="${esc(key)}" data-category-value="${esc(v)}" value="${categoryColor(key,v)}"></label>`).join('')}</div>`;
+      els.categoryColors.appendChild(group);
+    }
+
+    const fieldKeys = [...new Set([...Object.keys(schema.fields || {}), ...observed.fields, ...Object.keys(state.fields)])];
+    els.fields.innerHTML = fieldKeys.map((key,i) => {
+      const cfg = state.fields[key] || (state.fields[key]=defaultFieldConfig(key,i));
+      return `<tr data-field="${esc(key)}"><td>${esc(schemaFieldLabel(key))}</td><td><select class="field-place"><option value="inline">Inline</option><option value="paren">Parantez</option><option value="label">Etiket</option><option value="hide">Gizle</option></select></td><td><input class="field-order" type="number" min="1" max="99"></td><td><select class="field-weight"><option value="normal">Normal</option><option value="medium">Orta</option><option value="bold">Kalın</option></select></td><td><input class="field-color" type="color"></td></tr>`;
+    }).join('');
+    els.fields.querySelectorAll('tr[data-field]').forEach(row => {
+      const cfg = state.fields[row.dataset.field];
+      row.querySelector('.field-place').value=cfg.place; row.querySelector('.field-order').value=cfg.order; row.querySelector('.field-weight').value=cfg.weight; row.querySelector('.field-color').value=cfg.color;
+    });
+    els.separator.value = state.separator; els.colorMode.value = state.colorMode;
+  }
+
+  function readDisplayControls() {
+    els.lexical.querySelectorAll('[data-lex]').forEach(sel => sel.value = state.lexical[sel.dataset.lex]);
+    els.filters.querySelectorAll('[data-filter]').forEach(block => {
+      state.filters[block.dataset.filter] = [...block.querySelectorAll('input:checked')].map(x=>x.value);
+    });
+    els.fields.querySelectorAll('tr[data-field]').forEach(row => {
+      state.fields[row.dataset.field] = { place:row.querySelector('.field-place').value, order:Number(row.querySelector('.field-order').value)||1, weight:row.querySelector('.field-weight').value, color:row.querySelector('.field-color').value };
+    });
+    els.categoryColors.querySelectorAll('[data-category-field]').forEach(input => {
+      const field=input.dataset.categoryField, value=input.dataset.categoryValue;
+      state.categoryColors[field] ||= {}; state.categoryColors[field][value]=input.value;
+    });
+    state.separator=els.separator.value; state.colorMode=els.colorMode.value; saveState();
+  }
+  function rerender() { if (primaryRaw) renderInto(primaryRaw, els.primary); if (state.compare && secondaryRaw) renderInto(secondaryRaw, els.secondary); }
+  function applyLayerPreset(name) {
+    const key = observed.values.kat ? 'kat' : observed.values.priority ? 'priority' : null;
+    if (!key) return;
+    const values = valuesForFilter(key);
+    const wanted = key === 'kat' ? (name==='reader'?['temel']:name==='deep'?['temel','ek']:['temel','ek','arastirma']) : (name==='reader'?['core']:name==='deep'?['core','extended']:values);
+    state.filters[key] = wanted.filter(v=>values.includes(v));
+    saveState(); buildDisplayControls(); rerender();
+  }
+
+  function setCompare(on, reload=true) {
+    state.compare = on; saveState();
+    els.grid.classList.toggle('compare', on); els.comparePane.classList.toggle('hidden', !on); els.compareToggle.classList.toggle('active', on);
+    if (reload) loadReaders();
+  }
+
+  async function init() {
+    try {
+      const [m,s] = await Promise.all([fetch('data/manifest.json'), fetch('data/schema.json')]);
+      if (!m.ok) throw new Error(`manifest ${m.status}`);
+      manifest = await m.json(); schema = s.ok ? await s.json() : {fields:{},enums:{}};
+      state = loadState(); populateSurahs(); populatePassages(); populateVersions();
+      setCompare(state.compare, false); buildDisplayControls(); await loadReaders();
+    } catch (err) {
+      els.primary.innerHTML = `<div class="error">Site data could not be loaded: ${esc(err.message)}</div>`;
+    }
+  }
+
+  els.surah.addEventListener('change',()=>{populatePassages();populateVersions();loadReaders();});
+  els.passage.addEventListener('change',()=>{populateVersions();loadReaders();});
+  els.version.addEventListener('change',loadReaders); els.compare.addEventListener('change',loadReaders);
+  els.compareToggle.addEventListener('click',()=>setCompare(!state.compare));
+  els.displayToggle.addEventListener('click',()=>{els.panel.classList.toggle('hidden');els.panel.setAttribute('aria-hidden', String(els.panel.classList.contains('hidden')));});
+  els.close.addEventListener('click',()=>els.panel.classList.add('hidden'));
+  els.panel.addEventListener('change',()=>{readDisplayControls();rerender();});
+  els.panel.addEventListener('click',(e)=>{
+    const preset=e.target.closest('[data-layer-preset]'); if(preset){applyLayerPreset(preset.dataset.layerPreset);return;}
+    const block=e.target.closest('[data-filter]'); if(!block)return;
+    if(e.target.closest('.filter-all')||e.target.closest('.filter-none')){
+      const on=Boolean(e.target.closest('.filter-all')); block.querySelectorAll('input').forEach(x=>x.checked=on); readDisplayControls(); rerender();
+    }
+  });
+  els.reset.addEventListener('click',()=>{state=initialState();saveState();buildDisplayControls();rerender();});
+
+  init();
+})();

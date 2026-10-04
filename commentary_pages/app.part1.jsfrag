@@ -1,0 +1,110 @@
+(() => {
+  'use strict';
+  marked.setOptions({ breaks: true, gfm: true });
+
+  const $ = (id) => document.getElementById(id);
+  const els = {
+    surah: $('surah-select'), passage: $('passage-select'), version: $('version-select'), compare: $('compare-select'),
+    primary: $('primary-output'), secondary: $('compare-output'), primaryMeta: $('primary-meta'), compareMeta: $('compare-meta'),
+    grid: $('reader-grid'), comparePane: $('compare-pane'), compareToggle: $('compare-toggle'), displayToggle: $('display-toggle'),
+    panel: $('display-panel'), close: $('display-close'), lexical: $('lexical-controls'), filters: $('filter-controls'), fields: $('field-controls'),
+    separator: $('separator'), colorMode: $('color-mode'), reset: $('reset-display'), categoryColors: $('category-colors')
+  };
+
+  const LEGACY_ENUM_HINTS = ['type','tradition','role','status','priority','audience'];
+  const TEXT_KEYS = new Set(['metin','prose']);
+  const LEXICAL_KEYS = ['ar','tr','gloss','source'];
+  const STORAGE_KEY = 'commentaryReaderDisplayV3';
+  const COLOR_PALETTE = ['#8b2635','#0d6f73','#6b4e9b','#8a5a1f','#2e6a4f','#735c46','#8a3d76','#4e6575','#a04a5c','#4a6687','#765a2e','#66605a'];
+  const DEFAULT_LEXICAL = { ar:'paren', tr:'main', gloss:'main', source:'paren', order:'paren-first' };
+
+  let manifest = { entries: [] }, schema = { fields:{}, enums:{} }, state = null;
+  let primaryRaw = '', secondaryRaw = '', observed = { values:{}, fields:new Set() };
+
+  const esc = (v) => String(v ?? '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
+  const clone = (o) => JSON.parse(JSON.stringify(o));
+
+  function schemaFieldLabel(key) {
+    const f = schema.fields?.[key];
+    return f?.label?.tr || f?.label?.en || key.replaceAll('_',' ');
+  }
+  function enumValuesForField(key) {
+    const eName = schema.fields?.[key]?.enum;
+    const obj = eName ? schema.enums?.[eName] : null;
+    return obj && typeof obj === 'object' ? Object.keys(obj) : [];
+  }
+  function enumLabel(field, value) {
+    const eName = schema.fields?.[field]?.enum;
+    const item = eName ? schema.enums?.[eName]?.[value] : null;
+    return item?.label?.tr || item?.label?.en || value;
+  }
+  function annotationTextKey(fields) {
+    if ('metin' in fields) return 'metin';
+    if ('prose' in fields) return 'prose';
+    return null;
+  }
+  function annotationTypeField(fields) {
+    if ('tur' in fields) return 'tur';
+    if ('type' in fields) return 'type';
+    return null;
+  }
+  function traditionField(fields) {
+    if ('gelenek' in fields) return 'gelenek';
+    if ('tradition' in fields) return 'tradition';
+    return null;
+  }
+  function functionField(fields) {
+    if ('islev' in fields) return 'islev';
+    if ('role' in fields) return 'role';
+    return null;
+  }
+  function layerField(fields) {
+    if ('kat' in fields) return 'kat';
+    if ('priority' in fields) return 'priority';
+    return null;
+  }
+
+  function defaultFieldConfig(key, index) {
+    const text = key === 'metin' || key === 'prose';
+    if (text) return { place:'inline', order:4, weight:'medium', color:'#33302e' };
+    if (['tur','type'].includes(key)) return { place:'label', order:1, weight:'medium', color:'#7a1f2b' };
+    if (['gelenek','tradition'].includes(key)) return { place:'label', order:2, weight:'medium', color:'#0d6f73' };
+    if (['islev','role'].includes(key)) return { place:'label', order:3, weight:'medium', color:'#66605a' };
+    if (['alim','scholar','ayet','ayah','kaynak','source'].includes(key)) return { place:'paren', order:7+index, weight:'normal', color:'#66605a' };
+    return { place:'hide', order:30+index, weight:'normal', color:'#66605a' };
+  }
+
+  function initialState() {
+    const fieldKeys = [...new Set([...Object.keys(schema.fields || {}), 'type','tradition','role','status','priority','audience','prose','source'])];
+    const fields = Object.fromEntries(fieldKeys.map((k,i) => [k, defaultFieldConfig(k,i)]));
+    return { lexical: clone(DEFAULT_LEXICAL), fields, filters:{}, filterKnown:{}, categoryColors:{}, separator:' · ', colorMode:'type', compare:false };
+  }
+  function loadState() {
+    const base = initialState();
+    try {
+      const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+      base.lexical = {...base.lexical, ...(saved.lexical || {})};
+      for (const [k,v] of Object.entries(saved.fields || {})) base.fields[k] = {...(base.fields[k] || defaultFieldConfig(k,99)), ...v};
+      base.filters = saved.filters || {};
+      base.filterKnown = saved.filterKnown || {};
+      base.categoryColors = saved.categoryColors || {};
+      if (saved.separator) base.separator = saved.separator;
+      if (saved.colorMode) base.colorMode = saved.colorMode;
+      base.compare = Boolean(saved.compare);
+    } catch (_) {}
+    return base;
+  }
+  function saveState() { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }
+
+  function stripOuterQuotes(value) {
+    const v = String(value).trim();
+    if ((v.startsWith('"') && v.endsWith('"')) || (v.startsWith("'") && v.endsWith("'"))) {
+      return v.slice(1,-1).replace(/\\"/g,'"').replace(/\\'/g,"'").replace(/\\n/g,'\n');
+    }
+    return v;
+  }
+  function parseTagFields(inner) {
+    const fields = {};
+    let pos = 0;
+    while (pos < inner.length) {
+      while (pos < inner.length && /\s/.test(inner[pos])) pos++;
