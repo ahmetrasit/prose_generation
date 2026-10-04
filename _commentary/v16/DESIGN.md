@@ -1798,3 +1798,18 @@ Regressions: augment3 19/19, and augment5/6/7 re-apply byte for byte.
 - Relevance is inflated: links such as 12:2 "Arapça indirilişin anlamaya yönelmesi" for ¶9, and prose such as 47:5
   in ¶6 rest on a shared word (hidayet). Several prose additions close on a lesson line, against the brief.
 - Brief and model both changed against augment7 (Opus), so the effects cannot be separated.
+
+**87:8 augment8, Opus 5.5 high: $1.64** (est $0.96). 55.2k output tokens (42.0k thinking), 64.3k cache write, 517 s.
+- Lookups: 2 ran, plus 1 compound command refused (never ran). Audit ok.
+- Verdicts: 82 relevant, 57 not relevant, 13 "cited only"; 0 already-cited rejections.
+- 11 prose additions and 16 reference lines naming 74 passages (at most 9 per line); +74% words. check ok.
+- Minor warnings: 2 ayat looked up with no verdict (75:18, 79:20), 1 addition with no verdict (20:2), 2 consecutive
+  splits, 1 context mismatch.
+
+Coverage of 21 key passages (the review's misses and the earlier runs' best finds): augment6 12, augment7 4,
+Sol augment8 18, Opus augment8 15.
+- Opus augment8 found 73:5, 75:19, 92:16, 92:20, 51:55, 20:7, 92:7/10, 94:6, 80:4, 5:3, 20:114 and 91:9.
+- It missed 73:2, 75:18, 76:3, 36:11, 79:45, 20:44, 43:32 and 35:18 (35:18 was in none of the runs).
+
+**Conclusion:** the inflation is the model's, not the brief's. The same augment8 brief on Opus stays precise
+(readable reference lines) while recovering augment6's coverage and most of the review's misses.

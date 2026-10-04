@@ -1,0 +1,152 @@
+- 19:97: cited ¶9; nowhere else - lisan ve kolaylaştırılan söz ¶9'da işlenmiş
+- 44:58: cited ¶9; nowhere else - ¶9'da işlenmiş
+- 54:40: ref ¶9 - öğüt için kolaylaştırılan Kur'an nakaratı
+- 65:7: prose ¶7, ref ¶4, ¶16 - kolaylık zorluğun "ardından"; 94:5-6 yalnız "birlikte" der, bu ayet zamanı ve dar elden harcamayı ekler, bu yüzden 94'le kapsanmış sayılmaz
+- 73:20: cited ¶10; nowhere else - ¶10'da işlenmiş
+- 80:19: ref ¶2, ¶18 - bir damladan yaratıp ölçüsünü koymak; yaratma, ölçme ve kolaylaştırma aynı failde
+- 80:20: cited ¶2; ref ¶6 - kolaylaştırılan yol, düzlenen yol
+- 92:5: ref ¶14, ¶16 - en kolaya hazırlanan veren kişi; ¶14 ve ¶16 adını anmadan gösteriyor
+- 92:6: ref ¶14 - en güzeli doğrulamak
+- 92:7: cited ¶14; ref ¶4 - yusrâ/usrâ karşıtlığı
+- 92:8: cited ¶16; ref ¶14 - ¶14 adını anmadan gösteriyor
+- 92:9: ref ¶14 - en güzeli yalanlamak
+- 92:10: cited ¶14; ref ¶4 - en zor
+- 92:11: cited ¶16; nowhere else - ¶16'da işlenmiş
+- 94:5: ref ¶4, ¶7 - ¶7 "iki kez" diyerek gösteriyor; yüsr/usr karşıtlığı
+- 94:7: cited ¶12; nowhere else - ¶12'de işlenmiş
+- 2:185: cited ¶10; ref ¶4 - kolaylığı isteyip zorluğu istememek
+- 2:280: cited ¶16; nowhere else - ¶16'da işlenmiş
+- 2:286: ref ¶11 - güç ölçüsünde yük
+- 4:28: ref ¶10 - Allah'ın yükü hafifletmek istemesi
+- 5:6: ref ¶10 - hastaya ve yolcuya güçlük koymamak
+- 5:90: cited ¶17; ref ¶18 - ¶18 adını anmadan gösteriyor
+- 7:157: ref ¶7 - Peygamber'in başkalarından yükü indirmesi, aynı fiil
+- 17:28: ref ¶2 - meysûr söz, kökün yumuşaklık anlamı
+- 18:88: ref ¶14 - en güzel karşılık ve kolaylık; 92'deki terazinin bir benzeri, bu yüzden temaya bir şey katar
+- 20:25: prose ¶2 - Musa'nın kendisi için göğüs genişliği istemesi; 94:1 ile tamamlanır
+- 20:26: cited ¶2; nowhere else - ¶2'de işlenmiş
+- 20:27: prose ¶9 - dildeki düğüm ve kolaylaştırılan sözün aktığı dil
+- 20:28: context ¶9 (in 20:27) - sözün anlaşılması
+- 20:34: ref ¶10 - 20:33 ile birlikte, kolaylığın tesbih ve anmak için istenmesi
+- 22:78: ref ¶10 - dinde güçlük kılınmaması
+- 36:4: not relevant - dosdoğru yol paragrafların bir iddiasına değmiyor
+- 50:44: not relevant - yesîr, dirilişin Allah'a kolay olması
+- 50:45: prose ¶8, ref ¶11 - Kur'an'la korkana öğüt, zorlayıcı olmamak
+- 51:3: cited ¶7; nowhere else - ¶7'de işlenmiş
+- 51:4: ref ¶18 - kolay akışın ardından buyrukla paylaştırma
+- 54:17: cited ¶9; nowhere else - ¶9'da işlenmiş
+- 57:22: not relevant - yesîr, Allah'a kolay olan
+- 65:4: ref ¶2, ¶14 - sakınana işinde kolaylık; 92'nin sakınma bağını işe bağlayarak ekler
+- 74:10: ref ¶4 - 74:9 ile, zor günün "kolay olmayan" diye anılması
+- 79:19: prose ¶11 - yol gösterme ve içi titreme bir davetin sırasında
+- 84:8: ref ¶4 - kolay hesap, kolaylığın bir son için söylenmesi
+- 90:10: ref ¶14 - iki yol
+- 91:8: ref ¶14 - iki yöne açık nefis
+- 92:4: ref ¶14 - çabaların ayrılığı
+- 92:12: cited ¶15; ref ¶6 - yol gösterme Allah'a düşer
+- 94:2: cited ¶7; nowhere else - ¶7'de işlenmiş
+- 94:3: cited ¶7; nowhere else - ¶7'de işlenmiş
+- 94:6: cited ¶7; ref ¶4 - yüsr/usr karşıtlığı
+- 94:8: cited ¶12; nowhere else - ¶12'de işlenmiş
+- 54:22: ref ¶9 - nakarat
+- 12:65: not relevant - yesîr ölçek, yalnızca ortak kök
+- 41:41: not relevant - öğüdü inkâr; paragrafların iddiasına bir şey katmıyor
+- 54:32: ref ¶9 - nakarat
+- 81:26: not relevant - bağ yok
+- 97:1: not relevant - indiriliş gecesi, paragraflara değmiyor
+- 2:196: ref ¶2, ¶10 - isteysera "hazır bulunan" anlamında; ölçünün kolay gelen olması
+- 2:219: cited ¶17; nowhere else - ¶17'de işlenmiş
+- 4:30: not relevant - yesîr, Allah'a kolay olan
+- 5:91: prose ¶18, ref ¶17 - meysir Allah'ı anmaktan ve namazdan alıkoyar
+- 6:128: not relevant - bağ yok
+- 13:33: not relevant - bağ yok
+- 15:39: not relevant - süslemek, kolaylaştırmakla bağı yok
+- 22:70: not relevant - yesîr, Allah'a kolay olan
+- 25:46: not relevant - yesîr, azar azar çekmek
+- 26:90: not relevant - bağ yok
+- 29:19: not relevant - yesîr, Allah'a kolay olan
+- 31:3: not relevant - bağ yok
+- 41:44: ref ¶13 - aynı sözün iki ayrı topluluktaki iki etkisi
+- 47:5: not relevant - bağ yok
+- 72:6: not relevant - bağ yok
+- 74:7: ref ¶12 - Rabbi öne alan emir yapısı
+- 74:17: not relevant - sarp yokuş, ¶7'nin imgesiyle yalnızca resimde buluşuyor
+- 84:19: not relevant - binmek imgesi, ortak sözden ibaret
+- 89:4: not relevant - farklı kök (s-r-y)
+- 93:5: ref ¶1 - Peygamber'e gelecek zamanla verilen vaat
+- 94:1: context ¶2 (in 20:25), ref ¶7 - göğsün açılması; ¶7 adını anmadan gösteriyor
+- 94:4: not relevant - anılışın yükseltilmesi, ¶7'nin iddiasına değmiyor
+- 26:219: not relevant - bağ yok
+- 2:183: not relevant - oruç farzı
+- 2:184: not relevant - 2:185'teki ruhsatın ilk anılışı, kolaylık gerekçesi yok
+- 2:186: not relevant - bağ yok
+- 2:187: not relevant - bağ yok
+- 2:217: not relevant - bağ yok
+- 2:218: not relevant - bağ yok
+- 2:220: ref ¶10 - Allah dileseydi zora sokardı, kolaylığın Allah'ın dilemesiyle olması
+- 2:221: not relevant - bağ yok
+- 2:278: not relevant - faiz
+- 2:279: not relevant - faiz
+- 2:281: not relevant - bağ yok
+- 2:282: not relevant - borç yazımı
+- 5:88: not relevant - bağ yok
+- 5:89: not relevant - yemin kefareti
+- 5:92: ref ¶11 - Peygamber'e düşen yalnızca tebliğ
+- 19:95: not relevant - bağ yok
+- 19:96: not relevant - bağ yok
+- 19:98: ref ¶9 - uyarının yanında helak edilen nesiller
+- 20:0: not relevant - besmele
+- 20:1: not relevant - harfler
+- 20:4: not relevant - indirenin yaratıcılığı, zahmet-kolaylık konusuna değmiyor
+- 20:5: not relevant - bağ yok
+- 20:24: context ¶2 (in 20:25) - Firavun'a gönderilme
+- 44:56: not relevant - bağ yok
+- 44:57: not relevant - bağ yok
+- 44:59: not relevant - beklemek, paragraflara değmiyor
+- 51:0: not relevant - besmele
+- 51:1: ref ¶7 - savuranlar; ¶7 adını anmadan gösteriyor
+- 51:5: not relevant - bağ yok
+- 54:15: not relevant - yalnızca "öğüt alan" sözü ortak, kolaylaştırma yok
+- 54:16: not relevant - azap nakaratı
+- 54:18: not relevant - Âd kıssası
+- 54:19: not relevant - Âd kıssası
+- 73:18: not relevant - bağ yok
+- 73:19: ref ¶11 - öğüt olan söz ve Rabbe tutulan yol
+- 80:18: ref ¶2 - yolu kolaylaştırılan insanın yaratılışı
+- 80:21: not relevant - ölüm
+- 80:22: not relevant - diriliş
+- 92:13: ref ¶15 - ahiret ve ilk hayat
+- 92:14: ref ¶15 - ¶15 adını anmadan gösteriyor
+- 92:16: ref ¶13, ¶15 - en bedbahtın yalanlayıp yüz çevirmesi
+- 92:19: context ¶15 (in 92:20) - karşılık beklemeden vermek
+- 92:20: prose ¶15, ref ¶13 - "Rabbihi'l-a'lâ", 87:1'deki ad
+- 94:0: not relevant - besmele
+- 75:16 own: prose ¶1 - okutmayı Allah'ın üstlenmesi, dilin telaştan kurtulması
+- 75:17 own: context ¶1 (in 75:16) - toplamak ve okutmak bize düşer
+- 75:19 own: context ¶1 (in 75:16) - açıklamak bize düşer
+- 20:114 own: ref ¶1 - Kur'an'la acele etmemek
+- 20:7 own: prose ¶11, ref ¶1 - açık ve gizliyi bilmek, 87:7'nin çifti
+- 87:7 own: context ¶11 (in 20:7) - karşılaştırılan ayet
+- 73:5 own: prose ¶9 - ağır söz, kolaylaştırılan sözün ağırlığı
+- 73:4 own: context ¶9 (in 73:5) - tane tane okuma
+- 20:123 own: prose ¶13 - yol göstermeye uyan bedbaht olmaz
+- 20:124 own: context ¶13 (in 20:123) - öğütten yüz çevirene dar geçim
+- 79:17 own: context ¶11 (in 79:19) - Firavun'a gönderilme
+- 79:18 own: context ¶11 (in 79:19) - arınmaya çağrı
+- 79:21 own: context ¶11 (in 79:19) - yalanlama
+- 87:15 own: context ¶18 (in 5:91) - anmak ve namaz
+- 88:21 own: ref ¶8, ¶11 - 88:22 ile, yalnızca öğüt veren
+- 88:22 own: ref ¶8, ¶11 - zorlayıcı olmamak
+- 80:3 own: ref ¶8 - 80:4 ile, öğüdün faydası ve arınma
+- 80:4 own: ref ¶8 - öğüdün faydası
+- 51:55 own: ref ¶8 - öğüt müminlere fayda verir
+- 80:17 own: ref ¶2 - nankör insan; ¶2 adını anmadan gösteriyor
+- 74:1 own: ref ¶12 - 74:2 ile, kalk ve uyar
+- 74:2 own: ref ¶12 - uyarma işine koşulmak
+- 74:9 own: ref ¶4 - zor gün, usr ile yüsrün karşıtlığı
+- 91:9 own: ref ¶18 - arındıranın kurtuluşu
+- 91:12 own: ref ¶13 - Semud'un en bedbahtı
+- 5:3 own: ref ¶18 - oklarla kısmet aramanın yasaklanması
+- 20:33 own: ref ¶10 - çokça tesbih
+- 92:21 own: not relevant - razı olmak, paragrafların sözcük karşılıklarına girmiyor
+- 90:11 own: not relevant - sarp yokuş yalnızca imgede buluşuyor
