@@ -1911,3 +1911,26 @@ successful saved streams, and `parse_verdict` gives identical items and verdicts
     log; it is now `': ok [$]'`.
 - **Open.** The CLI's exit code when the permission mode refuses a command has never been recorded. If it is not 0, a
   clean run would be marked truncated and written as partial (fails safe). The first --go is to be checked for it.
+
+## Production review, the four-arm test on 87:8, and augment9 (user, 2026-10-04)
+
+`REVIEW_production.md` (Fable 5.1, read-only review of both runbooks, the briefs and the saved runs) holds the
+findings, the agreed decisions and the work list. The user's decisions of the day: commit and push after every
+completed step; the surah commentary gets an augment too (one call when its list fits the output cap, else one
+call per `## ` image section, Buluşmalar on a derived list), run before the readings so the writers' slices carry
+its prose additions (reference lines stripped); enrichment ayah pages first, the surah page last reading the
+accepted ayah records; one pack build per surah after every v16 step; v16 in full for the surahs the user reads,
+enrichment only for the NGT (next-generation tafsir) surahs; the ayah augment may be skipped on own-reading
+surahs and run later (resumable). Billing is the Claude Max subscription: ledger dollars are nominal.
+
+**Four-arm test on 87:8** (`augment.augment8.fable`, `augment.augment8m.opus`, `augment.augment8m.fable`; the
+trial brief `prompts/augment8m/` is augment8 without the list). Against the saved Opus augment8 (69 relevant,
+13/21 benchmark, $1.64): Fable with the list $2.62, recall 53%, 6/21; Opus from memory $1.09, recall 60%,
+16/21, 33 new refs; Fable from memory $2.43, recall 47%, 15/21 (20:44, 35:18, 76:3 found by no other run). List
+and memory are complementary; Fable with the list is worse and dearer. Fable is not adopted.
+
+**augment9** = augment8 plus augment8m's own-knowledge pass: exhaustive; passages that stage the same act,
+scene, speaker or stance without a shared word; neighbours (within two) of every cited and every added passage;
+the ledger's left-out passages. Production from 2026-10-04: `augment.py` defaults to augment9, Opus 5.5 high;
+`status.py`, both runbooks and the enrichment scripts (`render.AYAH_AUGMENT`) take `augment.augment9.opus` as
+the ayah base. The 87:8 augment8 run is superseded; 87:8 is to be run again with augment9.

@@ -40,7 +40,9 @@ class Corpus:
     """Read-only view of enrichment/corpus/corpus.sqlite for source resolution."""
 
     def __init__(self, index: Path):
-        self.con = sqlite3.connect(index)
+        if not Path(index).exists():
+            raise SystemExit(f"corpus index {index} missing: run tools/corpus.py build")
+        self.con = sqlite3.connect(f"file:{index}?mode=ro", uri=True)  # read-only: never creates an empty index
         self.meta = {r[0]: json.loads(r[1]) for r in self.con.execute("SELECT id, meta FROM src")}
 
     def resolve(self, loc: str) -> tuple[bool, str, dict]:
@@ -156,8 +158,9 @@ def check_record(r: dict, surah: int, n_ayat: int, corpus: Corpus | None, base_t
         if r.get("derece") != "sahih":
             e.append(f"{rid}: hadis accepts only derece:sahih")
         for info in infos:
-            if info.get("kind") == "hadith" and info.get("sahih") is False:
-                e.append(f"{rid}: {info['id']} report is not sahih under the project rule")
+            if info.get("kind") == "hadith" and info.get("sahih") is not True:  # ungraded (Ibn Hibban, Musnad) fails too
+                e.append(f"{rid}: {info['id']} report is not sahih under the project rule"
+                         + (" (the collection carries no grade)" if "sahih" not in info else ""))
     if tur == "esbab" and r.get("derece") not in (None, "", "degerlendirilmedi") and not r.get("derece_veren"):
         e.append(f"{rid}: derece_veren required when a grade is given")
     if tur == "duzeltme" and base_text and r.get("taban") and r["taban"] not in base_text:

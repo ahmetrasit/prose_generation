@@ -5,10 +5,10 @@
 
 Writes enrichment/v2/work/sNNN/pack/:
   base/surah.md, base/S_A.md      the frozen v16 outputs (surah images, never augmented; ayah readings after
-                                  augment8 (Opus), copied; an ayah without augment8 has no base and no ayah page
+                                  augment9 (Opus), copied; an ayah without augment9 has no base and no ayah page
                                   until it has run and the pack is rebuilt)
   base.json                       their paths and sha256
-  numbered/surah.md, S_A.md       the same with prose paragraphs numbered [¶n] (v16 augment's numbering; augment8
+  numbered/surah.md, S_A.md       the same with prose paragraphs numbered [¶n] (v16 augment's numbering; augment9
                                   additions unnumbered, under their paragraph): what the agent reads; records
                                   anchor by paragraph number plus a confirming phrase
 A rebuild (--force) is refused while a call of the surah is running. Finished calls are unaffected: each records
@@ -84,20 +84,20 @@ AYAH_AUGMENT = R.AYAH_AUGMENT  # v16 production augment (v16 RUNBOOK, 2026-10-04
 
 
 def ayah_base(s: int, a: int) -> Path | None:
-    """The final v16 ayah reading: the r13 reading after augment8 (Opus). None while augment8 has not run: an ayah
+    """The final v16 ayah reading: the r13 reading after augment9 (Opus). None while augment9 has not run: an ayah
     page is never built on a bare or superseded reading (the page would then miss or contradict v16's own additions)."""
     name = f"{s}_{a}"
     hits = [p for p in (V16 / "out" / name).glob(f"DM.r13.images.r13.*/{AYAH_AUGMENT}/{name}.reading.tr.md")
             if "session-limit" not in str(p)]
     if len(hits) > 1:
-        raise SystemExit(f"{s}:{a}: several augment8 readings {[str(h.relative_to(PG)) for h in hits]}")
+        raise SystemExit(f"{s}:{a}: several augment9 readings {[str(h.relative_to(PG)) for h in hits]}")
     return hits[0] if hits else None
 
 
 def running_calls(s: int) -> list[str]:
     """Call directories of the surah that started and have no run.log.json yet (running or interrupted)."""
     return [d.name for d in sorted(work_dir(s).glob("zengin.*"))
-            if (d / "started.json").exists() and not (d / "run.log.json").exists()]
+            if (d / "started.json").exists() and not (d / "run.log.json").exists() and not (d / "dead.json").exists()]
 
 
 # ---------------------------------------------------------------- morphology -> expected elements
@@ -395,8 +395,11 @@ def problems(check: dict, label: str) -> list[dict]:
             out.append({"file": label, **{k: r.get(k) for k in ("line", "quote", "declared", "kind", "status", "found_in")}})
     for r in check.get("arabic_outside_tags", []) or []:
         out.append({"file": label, "status": "arabic outside tags", **(r if isinstance(r, dict) else {"quote": r})})
+    seen = {(r.get("line"), r.get("quote")) for r in out}
     for r in check.get("unsourced_unmarked", []) or []:  # Arabic the checker found in no source and no bellek mark
-        out.append({"file": label, "status": "unsourced, unmarked", **(r if isinstance(r, dict) else {"quote": r})})
+        r = r if isinstance(r, dict) else {"quote": r}
+        if (r.get("line"), r.get("quote")) not in seen:  # check.py also lists outside-tag items here
+            out.append({"file": label, "status": "unsourced, unmarked", **r})
     return out
 
 
@@ -417,35 +420,58 @@ def write_numbered(pk: Path) -> None:
 
 
 def build(s: int, force: bool, surah_base_path: Path | None) -> Path:
-    wd = work_dir(s)
-    pk = wd / "pack"
+    """Every guard runs before anything is touched; an existing pack is kept aside and restored if the build fails."""
+    pk = work_dir(s) / "pack"
+    prev = pk.with_name("pack.prev")
     if pk.exists() and not force:
         raise SystemExit(f"{pk.relative_to(PG)} exists; --force rebuilds it (never while a stage is running)")
-    if pk.exists() and running_calls(s):
+    if running_calls(s):
         raise SystemExit(f"S{s}: calls started without a run.log.json {running_calls(s)}: a rebuild would change "
-                         f"their pack under them; wait for them (or confirm they died) first")
+                         f"their pack under them; wait for them, or, if the process is gone, "
+                         f"`enrich.py confirm-dead --surah {s} --dir <dir>` first")
+    if prev.exists():
+        raise SystemExit(f"{prev.relative_to(PG)} exists (an earlier rebuild was interrupted): compare it with "
+                         f"{pk.name}/ and remove the one that is not wanted first")
     dstate = dictionary_state()
     if not dstate["match"]:
         raise SystemExit(f"dictionary transfer {dstate['transfer_commit']} != ../dictionary HEAD {dstate['dictionary_head']}: "
                          f"sync quran-data (scripts/dictionary/sync_turkish_entries.py) first")
-    if pk.exists():
-        shutil.rmtree(pk)
-    (pk / "base").mkdir(parents=True)
     con = corpus_con()
     if con is None:  # every meals/sources/turkish file would say "index missing": refuse instead
         raise SystemExit(f"corpus index {C.INDEX} missing: run tools/corpus.py build first")
+    sb = surah_base_path or surah_base(s)
+    if pk.exists():
+        pk.rename(prev)
+    try:
+        out = _build(s, pk, sb, dstate, con)
+    except BaseException:
+        if pk.exists():
+            shutil.rmtree(pk)
+        if prev.exists():
+            prev.rename(pk)
+            print(f"WARNING: S{s}: rebuild failed; the previous pack is restored", file=sys.stderr, flush=True)
+        raise
+    if prev.exists():
+        shutil.rmtree(prev)
+    return out
+
+
+def _build(s: int, pk: Path, sb: Path, dstate: dict, con) -> Path:
+    (pk / "base").mkdir(parents=True)
     src = D.P.Sources()
     metas = source_meta(con)
     n_ayat = sum(1 for k in src.quran if k.startswith(f"{s}:") and not k.endswith(":0"))
     refs = [f"{s}:{a}" for a in range(1, n_ayat + 1)]
 
-    sb = surah_base_path or surah_base(s)
     shutil.copyfile(sb, pk / "base" / "surah.md")
     base = {"surah": {"path": str(sb.relative_to(PG)), "sha256": sha(sb)}, "ayat": {}}
     for ref in refs:
         a = int(ref.split(":")[1])
         p = ayah_base(s, a)
         if p:
+            bad = R.marker_mismatches(p.read_text(encoding="utf-8"))
+            if bad:  # an addition under the wrong paragraph would put enrichment blocks after the wrong text
+                raise SystemExit(f"{p.relative_to(PG)}: v16 augment markers do not match their paragraphs: {bad}")
             shutil.copyfile(p, pk / "base" / f"{s}_{a}.md")
             base["ayat"][ref] = {"path": str(p.relative_to(PG)), "sha256": sha(p)}
         else:

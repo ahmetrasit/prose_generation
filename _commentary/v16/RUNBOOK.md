@@ -1,4 +1,4 @@
-# v16 production runbook (r13 + augment8)
+# v16 production runbook (r13 + augment9)
 
 For an agent starting cold. It covers one surah end to end:
 
@@ -68,7 +68,7 @@ python3 -B _commentary/v16/status.py 87 100 103
 
 It shows:
 - whether the map and the image prose are `done`, `incomplete`, `partial`, `BLOCKED` or `-` (not started);
-- readings n/N and augment8 n/N, counting only finished, complete files;
+- readings n/N and augment9 n/N, counting only finished, complete files;
 - what is still to run;
 - every partial or blocked run, for the user to decide;
 - check findings per reading, per augment and for the image prose;
@@ -129,20 +129,20 @@ python3 -B _commentary/v16/packets.py writer --ayah N:A --brief r13 --tool \
 
 ## Step 4: ayah augment (one call per ayah)
 
-Production since 2026-10-04: brief `augment8` with Opus 5.5 high. These are the script defaults.
+Production since 2026-10-04: brief `augment9` with Opus 5.5 high. These are the script defaults. augment9 is augment8 plus an exhaustive own-knowledge pass (the four-arm test on 87:8, `REVIEW_production.md` §9); the 87:8 augment8 run and the test arms (`augment.augment8.*`, `augment.augment8m.*`) are superseded and stay on disk.
 
 ```bash
 python3 -B _commentary/v16/augment.py out/N_A/DM.r13.images.r13.map3.nohft.tool.tool.tool   # estimate; --go to run
 ```
 
-- **Output** goes to `…/augment.augment8.opus/`:
+- **Output** goes to `…/augment.augment9.opus/`:
   - `N_A.reading.tr.md`: the reading with the additions;
   - `additions.md`;
   - `verdicts.md`;
   - `verdict_report.json`;
   - `insertions.json`;
   - `check.json`.
-- **Additions** are marked blocks after their paragraph: `<!-- v16:augment brief=augment8 model=opus para=n kind=prose|refs … -->`. `augment.strip_augment()` removes them and gives back the reading byte for byte (asserted).
+- **Additions** are marked blocks after their paragraph: `<!-- v16:augment brief=augment9 model=opus para=n kind=prose|refs … -->`. `augment.strip_augment()` removes them and gives back the reading byte for byte (asserted).
 - **Run it only after the ayah's reading has finished.** At most 5 calls at a time.
 - **The estimate** scales with the list: about 15k + 330 output tokens per listed passage, and twice the prompt for input because of the lookups. 87:8 (123 passages) estimates $1.63 against $1.64 actual; 256 passages comes to about $2.8.
 - **Every warning goes to the user.** The ones to expect:
@@ -168,10 +168,10 @@ Build first, then report the estimates and wait for the go. Only then launch, at
 mkdir -p _commentary/v16/work/logs
 printf '%s\n' 87:1 87:2 87:3 | xargs -P 5 -I{} sh -c \
   'python3 -B _commentary/v16/augment.py out/$(echo {} | tr : _)/DM.r13.images.r13.map3.nohft.tool.tool.tool --go \
-   > _commentary/v16/work/logs/$(echo {} | tr : _).augment8.log 2>&1'
+   > _commentary/v16/work/logs/$(echo {} | tr : _).augment9.log 2>&1'
 grep -HE "WARNING|NOTE|BLOCKED|never rerun|Traceback|Error|error|truncated|suspect|partial|safety" \
-  _commentary/v16/work/logs/*.augment8.log
-grep -L ': ok [$]' _commentary/v16/work/logs/*.augment8.log    # logs without a final ok line: read each in full
+  _commentary/v16/work/logs/*.augment9.log
+grep -L ': ok [$]' _commentary/v16/work/logs/*.augment9.log    # logs without a final ok line: read each in full
 ```
 
 Running this in the background is itself a background run, so it needs the user's go (rule 2).
@@ -198,14 +198,14 @@ Running this in the background is itself a background run, so it needs the user'
 | Surah | Map | Image prose | Readings | Augment8 |
 |---|---|---|---|---|
 | S1 | ✓ | ✓ | 7/7 | 0/7 |
-| S87 | ✓ | ✓ | 19/19 | 1/19 (87:8) |
+| S87 | ✓ | ✓ | 19/19 | 0/19 |
 | S100 | ✓ | ✓ | 11/11 | 0/11 |
 | S103 | – | – | 0/3 | – |
 | S107 | ✓ | ✓ | 7/7 | 0/7 |
 | S88–S95 | ✓ | ✓ | 0 | – |
 | S96–S114, apart from S100, S103, S107 | – | – | – | – |
 
-- Older augments (augment2 and augment3) on S1, S87, S100 and S107 are superseded. They stay on disk under their own dir names.
+- Older augments (augment2, augment3, and augment8 on 87:8) are superseded. They stay on disk under their own dir names.
 - Existing readings with check findings (most often Arabic outside tags, and process words) are listed by `status.py`. They were never printed when they ran, before 2026-10-04. Fixing them is the user's call.
 - `status.py` is the live view; this table is a snapshot.
 
@@ -217,12 +217,12 @@ After a surah's ayat are read and augmented, there is an optional enrichment ste
 - **Runbook:** `enrichment/v2/RUNBOOK.md`. Follow it for everything about enrichment: its rules, its pack step, the surah page, the ayah pages, costs and failures. Do not run it from this runbook.
 - **What it reads from v16:**
   - the surah image prose (`images.r13…/images.md`), never augmented;
-  - each ayah's reading after augment8 (`…/augment.augment8.opus/N_A.reading.tr.md`). An ayah without augment8 gets no ayah page.
+  - each ayah's reading after augment9 (`…/augment.augment9.opus/N_A.reading.tr.md`). An ayah without augment9 gets no ayah page.
   - The v16 outputs are frozen for it: enrichment never edits them, and reports errors in the base to its own `errata.jsonl`.
 - **Order:**
   - The surah page can run once the image prose exists.
-  - The ayah pages need augment8 on their ayat.
-  - Its pack must be rebuilt after augment8 has run (`enrichment/v2/RUNBOOK.md`, "Ayah pages").
+  - The ayah pages need augment9 on their ayat.
+  - Its pack must be rebuilt after augment9 has run (`enrichment/v2/RUNBOOK.md`, "Ayah pages").
 - The enrichment code is another session's work; do not edit it from here.
 
-The order for each surah is: map → image prose → readings → augment8 → (ask) enrichment.
+The order for each surah is: map → image prose → readings → augment9 → (ask) enrichment.

@@ -389,7 +389,17 @@ def flat(v) -> str:
     return "" if v is None else str(v)
 
 
-def build() -> None:
+def running_calls() -> list[str]:
+    """Enrichment calls started without a run.log.json (and not confirmed dead): they read this index."""
+    work = PG / "enrichment" / "v2" / "work"
+    return [str(d.relative_to(work)) for d in sorted(work.glob("s*/zengin.*"))
+            if (d / "started.json").exists() and not (d / "run.log.json").exists() and not (d / "dead.json").exists()]
+
+
+def build(force: bool = False) -> None:
+    if running_calls() and not force:
+        raise SystemExit(f"enrichment calls are running {running_calls()}: rebuilding the index would change what "
+                         f"their validator sees; wait for them (--force only if the user agrees)")
     tmp = INDEX.with_suffix(".sqlite.tmp")
     tmp.unlink(missing_ok=True)
     con = sqlite3.connect(tmp)
@@ -409,6 +419,8 @@ def build() -> None:
                                                          json.dumps(meta, ensure_ascii=False)))
         path = CORPUS / meta["id"] / "segments.jsonl"
         if not path.exists():
+            if meta.get("access") != "hafiza":  # memory pointers have no text by design
+                print(f"WARNING: {meta['id']}: no segments.jsonl; not indexed", file=sys.stderr)
             continue
         n = 0
         with path.open(encoding="utf-8") as f:
@@ -528,7 +540,8 @@ def main() -> None:
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("import-local")
     p.add_argument("--only", default="")
-    sub.add_parser("build")
+    p = sub.add_parser("build")
+    p.add_argument("--force", action="store_true", help="build even while enrichment calls are running")
     p = sub.add_parser("sources")
     p.add_argument("--kind")
     p = sub.add_parser("get")
@@ -554,7 +567,7 @@ def main() -> None:
         for f in IMPORTERS:
             f(only)
     elif a.cmd == "build":
-        build()
+        build(a.force)
     elif a.cmd == "sources":
         cmd_sources(a.kind)
     elif a.cmd == "get":

@@ -156,9 +156,9 @@ grade, a sense, an antecedent, a counter-argument, a correction, a consequence.
 Record format (annotations.jsonl, one JSON object per line): all schema fields as keys (see SCHEMA_CARD.md; enum
 values exactly as listed; `gelenek` is added by the script, leave it out), plus the placement, both required:
 `paragraf`, the number n of the prose paragraph [¶n] the block speaks to (the block goes right after it), and
-`capa`, at least three consecutive words copied exactly from that paragraph, which confirm the number. Surah-wide
+`capa`, at least three consecutive words copied exactly from that paragraph (or from its v16 additions), which confirm the number. Surah-wide
 points (names, chronology, merit, the meal verdict) anchor to the paragraph that introduces the topic or the ayah.
-A block whose number is missing or out of range, or whose capa is not in that paragraph, is dropped.
+A block whose number is missing or out of range, or whose capa is not in that paragraph or its additions, is dropped.
 ids: S<sss>-<KOD>-<NNN> with the KOD of the block's tur (SCHEMA_CARD.md), numbered in page order per KOD.
 Layers: kat:temel for what an advanced reader should see first at that point; ek for supporting detail;
 arastirma for the audit trail (novelty detail, rejected candidates, technical source criticism).

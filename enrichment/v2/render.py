@@ -7,7 +7,7 @@
 A target is the surah page (`surah`, base work/sNNN/pack/base/surah.md) or one ayah page (`S:A`, base S_A.md). Writes
 DIR/surah.md or DIR/S_A.md: base paragraphs untouched, each block on its own line after the prose paragraph its
 `paragraf` number names (numbered as in v16's augment: prose paragraphs from 1, headings and "Kaynaklar:" lines
-unnumbered; v16 augment8 additions in an ayah reading are unnumbered and belong to the paragraph before them, so
+unnumbered; v16 augment9 additions in an ayah reading are unnumbered and belong to the paragraph before them, so
 blocks go after those additions; `capa`, a few exact words of that paragraph or its additions, confirms the number). Validated records always place; the
 end section only catches unchecked input. Then the source registry, generated from the corpus metadata of every cited source (agents never write it). Blocks after one
 paragraph are ordered by gelenek (islami, tevrat, incil), then by the order of `tur` in schema.json, then by id.
@@ -48,8 +48,8 @@ def find_para(paras: list[str], anchor: str) -> int | None:
     return hits[0] if hits else None
 
 
-AUGMENT = "<!-- v16:augment "  # v16 augment8's marked additions in an ayah reading (part of the frozen base)
-AYAH_AUGMENT = "augment.augment8.opus"  # the v16 production augment dir an ayah base must come from (v16 RUNBOOK)
+AUGMENT = "<!-- v16:augment "  # v16 augment9's marked additions in an ayah reading (part of the frozen base)
+AYAH_AUGMENT = "augment.augment9.opus"  # the v16 production augment dir an ayah base must come from (v16 RUNBOOK)
 
 
 def is_augment(p: str) -> bool:
@@ -61,6 +61,25 @@ def is_prose(p: str) -> bool:
     to the paragraph before it and carries that number as para=n, so the numbering is v16's own)."""
     body = p.strip()
     return not body.startswith("#") and not body.startswith("Kaynaklar:") and not is_augment(body)
+
+
+def addition_text(p: str) -> str:
+    """An augment addition without its marker comment line (the comment is metadata, never anchor text)."""
+    return p.lstrip().split("\n", 1)[1] if "\n" in p.lstrip() else ""
+
+
+def marker_mismatches(text: str) -> list[str]:
+    """v16 augment markers whose para=n differs from the prose paragraph they follow (empty when all match)."""
+    paras, n, bad = paragraphs(text), 0, []
+    for p in paras:
+        if is_prose(p):
+            n += 1
+        elif is_augment(p):
+            head = p.lstrip().split("\n", 1)[0]  # a paragraph may start with a stray newline (triple blank line)
+            m = re.search(r"\bpara=(\d+)", head)
+            if not m or int(m.group(1)) != n:
+                bad.append(f"{head[:90]} after ¶{n}")
+    return bad
 
 
 def group_end(paras: list[str], i: int) -> int:
@@ -103,7 +122,7 @@ def locate(paras: list[str], r: dict) -> tuple[int | None, str]:
     capa = squash(r.get("capa") or "")
     if len(capa.split()) < 3:
         return None, "capa must quote at least three words of the paragraph"
-    group = lambda i: squash(" ".join(paras[i:group_end(paras, i) + 1]))  # the paragraph and its v16 additions
+    group = lambda i: squash(" ".join([paras[i]] + [addition_text(p) for p in paras[i + 1:group_end(paras, i) + 1]]))
     if capa not in group(nums[n]):
         other = [m for m, i in nums.items() if capa in group(i)]
         return None, f"capa is not in ¶{n}" + (f" (found in ¶{other[0]})" if other else " (not found in the base)")
@@ -196,10 +215,10 @@ def target_page(s: int, target: str) -> tuple[str, str, dict]:
     else:
         info = base["ayat"].get(target)
         if not info:
-            raise SystemExit(f"no ayah base for {target} (v16 augment8 has not run on it)")
+            raise SystemExit(f"no ayah base for {target} (v16 augment9 has not run on it)")
         if f"/{AYAH_AUGMENT}/" not in info["path"]:
-            raise SystemExit(f"{target}: the pack's ayah base {info['path']} is not a v16 augment8 reading (the pack "
-                             f"predates the switch to augment8): rebuild it with pack.py --surah {s} --force")
+            raise SystemExit(f"{target}: the pack's ayah base {info['path']} is not a v16 augment9 reading (the pack "
+                             f"predates the switch to augment9): rebuild it with pack.py --surah {s} --force")
         name = target.replace(":", "_") + ".md"
     return name, (pk / "base" / name).read_text(encoding="utf-8"), info
 

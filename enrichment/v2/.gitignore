@@ -4,6 +4,9 @@
 __pycache__/
 fetch/openiti_cache/
 work/*/pack/
+work/*/pack.prev/
+# console logs of runs: their content is in run.log.json and the ledger
+work/logs/
 work/*/*/run.stream.jsonl
 work/*/*/preview/
 # call directories: version the run record only, not the agent's scratch notes (copies of corpus text)
@@ -17,5 +20,6 @@ work/*/zengin.*/*
 !work/*/zengin.*/annotations.jsonl
 !work/*/zengin.*/gaps.json
 !work/*/zengin.*/check.json
+!work/*/zengin.*/dead.json
 work/*/_sandboxtest/
 work/*/_smoketest*/

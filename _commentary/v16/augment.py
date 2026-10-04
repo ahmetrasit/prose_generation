@@ -2,7 +2,7 @@
 """Augment step (user, 2026-10-01): a Sonnet 5.5 call adds missed Quran passages to a finished commentary, without
 changing a word of it.
 
-Production (user, 2026-10-04): augment8 with Opus 5.5 high (the defaults), on ayah readings only; a surah commentary
+Production (user, 2026-10-04): augment9 with Opus 5.5 high (the defaults), on ayah readings only; a surah commentary
 is refused unless --surah-commentary is given. See RUNBOOK.md.
 
   python3 -B _commentary/v16/augment.py out/s001/images.r12.map3.nohft.tool.tool [--go]   # a surah commentary
@@ -42,13 +42,16 @@ OWN_PARAGRAPH = {"augment4"}
 # that a renderer can hide or show them. The marker is a namespaced HTML comment: it collides neither with v16's
 # reader tags ({ar:…, source:…}) nor with enrichment v2's block lines ({id:…}) and its page header
 # (<!-- schema:zenginlestirme …). Both v16's and enrichment's paragraph splitters count a marked block as one paragraph.
-VERDICT = {"augment5", "augment6", "augment7", "augment8", "augment8m"}  # augment6: reference links name their mechanism; a refrain is one
+VERDICT = {"augment5", "augment6", "augment7", "augment8", "augment8m", "augment9"}  # augment6: reference links name their mechanism; a refrain is one
 # reference. augment7: conflict and context verdicts, the ledger answered, and the missing.py text lookup
-LOOKUP = {"augment7", "augment8", "augment8m"}
+LOOKUP = {"augment7", "augment8", "augment8m", "augment9"}
 # augment8 (user, 2026-10-03, from an Opus review of augment6/7): "already cited" is never a reason; a cited
 # passage gets a "cited ¶n; …" verdict; a per-paragraph own-knowledge minimum; consecutive ayat as one reference;
 # the ±2 neighbours of every passage the reading cites join the list as a tier of their own
-NEIGHBOURS = {"augment8"}
+NEIGHBOURS = {"augment8", "augment9"}
+# augment9 (user, 2026-10-04, after the four-arm test on 87:8, REVIEW_production.md §9): augment8 plus augment8m's
+# own-knowledge pass (exhaustive; the same scene without a shared word; neighbours of added passages; the
+# ledger's left-out passages). Production: augment9, Opus 5.5 high.
 # augment8m (user, 2026-10-04, the list-vs-memory test on 87:8): augment8 with NO passage list; the model's own
 # exhaustive pass from memory, with the text lookup. A trial brief, not production. NOLIST_OWN: assumed verdicts.
 NOLIST = {"augment8m"}
@@ -547,7 +550,7 @@ def looked_up(out: Path) -> set[str]:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("run", type=Path)
-    ap.add_argument("--brief", default="augment8")  # production (user, 2026-10-04): augment8, Opus 5.5 high, ayah readings only
+    ap.add_argument("--brief", default="augment9")  # production (user, 2026-10-04): augment9, Opus 5.5 high, ayah readings only
     ap.add_argument("--model", choices=("sonnet", "opus", "fable", *CODEX), default="opus")
     ap.add_argument("--surah-commentary", action="store_true", help="allow a surah commentary (not production)")
     ap.add_argument("--go", action="store_true")

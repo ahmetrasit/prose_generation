@@ -19,7 +19,7 @@ import packets as P  # noqa: E402
 
 OUT = V.HERE / "out"
 MAPS = ("surah.map3.nohft.tool", "surah.map3.nochannels.hftbundle.tool")
-AUG = "augment.augment8.opus"
+AUG = "augment.augment9.opus"
 
 
 def ayat(s: int) -> list[int]:
@@ -28,15 +28,15 @@ def ayat(s: int) -> list[int]:
 
 
 MAP_BRIEFS = ("map3.nohft.tool", "map3.nochannels.hftbundle.tool")  # exact: map3.nohft.tool.check2 was a trial
-PRODUCTION = ("images.r13.", "r13.images.r13.", "augment8.opus.")  # prefixes
+PRODUCTION = ("images.r13.", "r13.images.r13.", "augment9.opus.")  # prefixes
 
 
 def ledger() -> tuple[dict[str, float], dict[str, list[str]], dict[str, int]]:
-    """Cost by ref (every row with a cost, whatever its status), and the production calls (r13, augment8) whose
+    """Cost by ref (every row with a cost, whatever its status), and the production calls (r13, augment9) whose
     latest row is not ok, by ref. A post-processing error or a check that failed or found something is listed too."""
     cost: dict[str, float] = {}
     last: dict[tuple, dict] = {}
-    aug_issues: dict[str, int] = {}  # augment8: check findings inside the additions (the augment's own)
+    aug_issues: dict[str, int] = {}  # augment9: check findings inside the additions (the augment's own)
     for line in (OUT / "ledger.jsonl").read_text(encoding="utf-8").splitlines():
         d = json.loads(line)
         ref = str(d.get("ref"))
@@ -44,7 +44,7 @@ def ledger() -> tuple[dict[str, float], dict[str, list[str]], dict[str, int]]:
         b = str(d.get("brief", ""))
         if (b in MAP_BRIEFS or b.startswith(PRODUCTION)) and d.get("status") is not None:
             last[(ref, d.get("arm"), d.get("brief"))] = d
-        if d.get("arm") == "augment-applied" and b.startswith("augment8.opus."):
+        if d.get("arm") == "augment-applied" and b.startswith("augment9.opus."):
             aug_issues[ref] = d.get("insert_issues", 0)
         if d.get("post_error"):
             last[(ref, d.get("arm"), d.get("brief"), "post")] = d
@@ -101,8 +101,8 @@ def main() -> None:
         usd = cost.get(f"S{s}", 0.0) + sum(cost.get(f"{s}:{a}", 0.0) for a in n)
         print(f"S{s} ({len(n)} ayat): map {m_state} ({mp.name}) | images {i_state} | "
               f"readings {sum(r == 'done' for r, _ in rows.values())}/{len(n)} | "
-              f"augment8 {sum(g == 'done' for _, g in rows.values())}/{len(n)} | spent ${usd:.2f}")
-        for label, pick in (("readings", 0), ("augment8", 1)):
+              f"augment9 {sum(g == 'done' for _, g in rows.values())}/{len(n)} | spent ${usd:.2f}")
+        for label, pick in (("readings", 0), ("augment9", 1)):
             for st in ("incomplete", "partial", "BLOCKED"):
                 xs = [f"{s}:{a}" for a, v in rows.items() if v[pick] == st]
                 if xs:
@@ -113,14 +113,14 @@ def main() -> None:
                 print(f"  readings to run: {', '.join(todo)}")
         todo = [f"{s}:{a}" for a, (r, g) in rows.items() if r == "done" and g == "-"]
         if todo:
-            print(f"  augment8 to run: {', '.join(todo)}")
+            print(f"  augment9 to run: {', '.join(todo)}")
         for a, (r, g) in rows.items():
             d = OUT / f"{s}_{a}" / rd
             f = findings(d / "check.json") if r == "done" else ""
             if f:
                 print(f"  check findings, {s}:{a} reading: {f}")
             if g == "done" and aug_issues.get(f"{s}:{a}"):
-                print(f"  check findings, {s}:{a} augment8 additions: {aug_issues[f'{s}:{a}']} (augment.augment8.opus/check.json)")
+                print(f"  check findings, {s}:{a} augment9 additions: {aug_issues[f'{s}:{a}']} (augment.augment9.opus/check.json)")
         if i_state == "done" and (im / "check.json").exists() and findings(im / "check.json"):
             print(f"  check findings, images: {findings(im / 'check.json')}")
         for ref in [f"S{s}"] + [f"{s}:{a}" for a in n]:
