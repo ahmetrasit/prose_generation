@@ -23,9 +23,11 @@ directory if useful); only annotations.jsonl and gaps.json are read.
 
 ## Step 1. Read
 Read the target's numbered base page completely, once, and keep your own notes (paragraph numbers and claims) in
-your call directory; do not read it again. For the surah page read PACK/numbered/surah.md; the ayah pages
-(PACK/numbered/S_A.md) only where you need to orient yourself. Then, for each ayah in scope, PACK/ayah/S_A/*.md and the roots/ files of its bound roots. Do not
-skim: a claim missed here is missing from the page.
+your call directory; do not read it again. Do not skim: a claim missed here is missing from the page.
+- Ayah page: then PACK/ayah/S_A/*.md and the roots/ files of the ayah's bound roots.
+- Surah page: then the meal files of all ayat (PACK/ayah/*/meals.md, for the verdict and the shared losses), and
+  the other per-ayah files and roots/ only for the paragraphs of the surah commentary that discuss them; the ayah
+  pages (PACK/numbered/S_A.md) only where you need to orient yourself.
 
 ## Step 2. Claims of the base
 List for yourself every claim of the target page that a reader could check or that the literature could confirm,
@@ -38,9 +40,9 @@ Search and read. Use `corpus.py ayah S:A` for everything tied to an ayah, and `c
 for antecedents elsewhere in the Qur'an. Cover, as the ayah or surah warrants:
 1. Transmitted tafsir: TAB (aqwāl with transmitters), DURR, IBNKATHIR, BAGHAWI, early layer (MUQATIL, MUJAHID,
    ABDURRAZZAQ, IBNABIHATIM, YAHYA-SALLAM where present). Who said what; who repeats whom. Make sure the
-   well-known direct explanations of each key word are on the page, Prophetic or Companion, each with its grade
-   handled by rule 4 of the shared core (a weak Prophetic attribution of a sound Companion statement is reported
-   as the Companion's).
+   well-known direct explanations of each key word are on the page that carries that ayah's material (its ayah
+   page; the surah page only when a paragraph of the surah commentary is about it), Prophetic or Companion, each
+   with its grade handled by rule 4 of the shared core.
 2. Analytical tafsir: KASHSHAF, RAZI, BAYDAWI, NASAFI, QURTUBI, IBNATIYYA, ABUHAYYAN, ALUSI, MAWARDI (numbered
    senses without choosing), IBNASHUR, TABRISI, BIQAI (naẓm), and the Turkish ELMALILI and KURANYOLU-TEFSIR;
    allusive QUSHAYRI, SULAMI, TUSTARI, BURSEVI (when the corpus has an ishārī reading for the page, include the
@@ -48,10 +50,12 @@ for antecedents elsewhere in the Qur'an. Cover, as the ayah or surah warrants:
 3. Occasions and chronology: WAHIDI-ASBAB, SUYUTI-LUBAB, the tafsirs' reports, ITQAN/BURHAN lists, TDVIA surah
    article, CORPUSCORANICUM chronology. Keep Makkī/Madanī apart from occasion reports; record every competing
    attribution with its transmitter and grade information.
-4. Hadith: a direct prophetic explanation of the ayah's words, when one exists; then at most two thematic or
-   counter-scene hadith on the page, the ones that add most (a well-known hadith the reader expects adds little);
-   merit (fazilet) reports. Sahih only for hadis (search with --sahih); non-sahih reports only as esbab, with their
-   grade.
+4. Hadith: on an ayah page, a direct prophetic explanation of the ayah's words, when one exists, then at most two
+   thematic or counter-scene hadith, the ones that add most (a well-known hadith the reader expects adds little);
+   on the surah page, merit (fazilet) reports and hadith a paragraph of the surah commentary is about. Sahih only
+   for hadis (search with --sahih). A non-sahih report follows rule 4 of the shared core: esbab if it is an occasion
+   report, the Companion's or Successor's own statement if a sound version exists, otherwise only as a warning in a
+   kaynak_notu block with its grade and grader; never as hadis, never with islev:fazilet.
 5. Readings: QIRAAT-ER, IBNMUJAHID, IBNKHALAWAYH-HUJJA, FARISI-HUJJA, IBNJINNI-MUHTASAB, ABUHAYYAN; what each
    reading does to meaning; canonical vs non-canonical vs Companion reading.
 6. Lexicon and sense inventory: PACK dictionary.md and roots/ (PROJE + six lexica), LISAN, ASAS (literal vs
@@ -85,6 +89,8 @@ carry: prepositions, attached pronouns, number, definiteness, voice, emphasis, c
 PACK dictionary.md, usage.md, roots/; `corpus.py get MEAL-X:S:A` for any meal at any ayah of the Qur'an.
 Panel lineage: MEAL-DIB, MEAL-TDV and MEAL-KURANYOLU share one lineage (diyanet): their agreement counts as one
 witness. MEAL-ESED is translated from Asad's English (relay ASAD-EN), not from the Arabic.
+Ayah page: steps 1–4 below, word by word. Surah page: no word-by-word alignment (the ayah pages carry it); from the
+meal files of all ayat, find the losses shared across the surah (step 3) and give the surah verdict (step 4).
 1. Expected elements: for each content word, what must be carried — the concept (from the dictionary and the
    tafsir range) and each grammatical element. Mark what Turkish cannot carry naturally (e.g. the Arabic definite
    article) as imposed by Turkish: no translator is blamed for it.
@@ -101,7 +107,7 @@ witness. MEAL-ESED is translated from Asad's English (relay ASAD-EN), not from t
    - aralik: several live senses narrowed to one (from the tafsir range and the dictionary branches);
    - ekleme: the translator's own words presented as text (unmarked); marked additions are not a loss;
    - kayma: a loanword whose Turkish sense has shifted (namaz, din, ibadet, âlem) — the Turkish-history evidence
-     (NISANYAN, KUBBEALTI, TARAMA, TDK, TDVIA term articles) goes to anlam_tarihi; here only its effect on the meal;
+     (NISANYAN, KUBBEALTI, TDK, TDVIA term articles; PACK/ayah/S_A/turkish.md) goes to anlam_tarihi; here only its effect on the meal;
    - isaretleme: brackets, italics or notes changed so an addition no longer looks like one;
    - aktarma: relay drift — for MEAL-ESED compare with ASAD-EN (kiyas:ara_metin) as well as with the Arabic
      (kiyas:arapca); a relay step can lose against one pole and gain against the other (yon:kayip / yon:kazanc);
@@ -118,36 +124,41 @@ witness. MEAL-ESED is translated from Asad's English (relay ASAD-EN), not from t
 
 ## Step 6. Compose the records
 What a good page has:
-- For every ayah in scope: its anchor meaning (dayanak) from the received tafsir; the real disagreements (ihtilaf,
-  with who holds what); the sense range (anlam_alani) where the tradition is plural; occasions and chronology with
-  grades and historicity; sahih hadith that explain or illuminate; readings that change meaning; the lexical and
-  wujūh evidence behind the base's words; grammar and rhetoric where they decide something.
+- Ayah page: the ayah's anchor meaning (dayanak) from the received tafsir; the real disagreements (ihtilaf, with
+  who holds what); the sense range (anlam_alani) where the tradition is plural; occasion reports tied to it, with
+  grades and historicity; sahih hadith within the limit of step 3; readings that change meaning; the lexical and
+  wujūh evidence behind the commentary's words; grammar and rhetoric where they decide something.
+- Surah page: the surah-level material of the scope, and for each paragraph of the surah commentary the evidence
+  it calls for; per-ayah detail only as the scope allows.
 - For every claim of the base of kind imge or sentez: when an antecedent exists, one oncul block that carries the
   attestation itself (klasik_tanik, taranan, tarama, guc on the oncul block); a separate yenilik block only when no
   antecedent was found (klasik_tanik bulunamadi or yapitaslari), at most one per paragraph, always kat:arastirma.
   itiraz blocks for argued counter-evidence; tercih blocks where a source merely prefers another reading.
-- Surah-level facts in few blocks: one nuzul block for Makkī/Madanī and chronology (competing reports and the
-  modern dating together), one block for the names and merit. Leave out what does not change meaning (a reading
-  that differs only in pronunciation, a method note that restates the rules).
+- Surah page, surah-level facts in few blocks: one nuzul block for Makkī/Madanī and chronology (competing reports
+  and the modern dating together); one kaynak_notu block for the names (and, as a warning with its grade, a
+  non-sahih merit report); a sahih merit report as its own hadis block with islev:fazilet. On an ayah page, a
+  chronology point only when it concerns that ayah (e.g. a split-revelation view). Leave out what does not change
+  meaning (a reading that differs only in pronunciation, a method note that restates the rules).
 - Place each block where its topic is discussed (a hadith on showing off goes after the paragraph on showing off),
   and spread them: at most five blocks after any one paragraph.
 - duzeltme blocks for errors in the target's base (wrong source label, misquotation, wrong ayah, factual error,
   wrong rendering), each with `taban` (exact base words) and `hata`; check PACK/errata_candidates.json.
 - elenen blocks for connections you weighed and rejected that a researcher would ask about (kat:arastirma).
 - Meal blocks (tur:meal; required mutercim, terim, kayip; yon and kiyas where relevant; kaynak lists the meal
-  locators and the Arabic-side evidence): one per shared loss (mutercim:"ortak"), one per significant
-  translator-specific finding, and one verdict block (islev:sonuc). Short quotations of meals only.
+  locators and the Arabic-side evidence): one per shared loss (mutercim:"ortak") and one verdict block
+  (islev:sonuc); on an ayah page also one per significant translator-specific finding. Short quotations of meals
+  only.
 Coverage without repetition: one block per point; a report repeated unchanged by later works is one block with
 `tekrar`. Do not restate the base. Each block must add a distinct unit of value: a witness, a disagreement, a
 grade, a sense, an antecedent, a counter-argument, a correction, a consequence.
 
-Record format (annotations.jsonl, one JSON object per line): all schema fields as keys (see SCHEMA.md; enum
+Record format (annotations.jsonl, one JSON object per line): all schema fields as keys (see SCHEMA_CARD.md; enum
 values exactly as listed; `gelenek` is added by the script, leave it out), plus the placement, both required:
 `paragraf`, the number n of the prose paragraph [¶n] the block speaks to (the block goes right after it), and
 `capa`, at least three consecutive words copied exactly from that paragraph, which confirm the number. Surah-wide
 points (names, chronology, merit, the meal verdict) anchor to the paragraph that introduces the topic or the ayah.
 A block whose number is missing or out of range, or whose capa is not in that paragraph, is dropped.
-ids: S<sss>-<KOD>-<NNN> with the KOD of the block's tur (SCHEMA.md), numbered in page order per KOD.
+ids: S<sss>-<KOD>-<NNN> with the KOD of the block's tur (SCHEMA_CARD.md), numbered in page order per KOD.
 Layers: kat:temel for what an advanced reader should see first at that point; ek for supporting detail;
 arastirma for the audit trail (novelty detail, rejected candidates, technical source criticism).
 

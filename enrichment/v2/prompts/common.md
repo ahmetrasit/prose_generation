@@ -49,6 +49,8 @@ the knowledge around it and integrates the base's findings with the literature.
    sahih only, as tur:hadis; never file them under esbab. A report attributed to the Prophet but graded below
    sahih is never a hadis block; when the same words are soundly attributed to a Companion or Successor, report
    them as tefsir_rivayet and say in one clause that the Prophetic attribution is weak, naming who judged it.
+   Otherwise a non-sahih report appears only as esbab (if it is an occasion report) or, when the reader needs the
+   warning, in a kaynak_notu block with its grade and grader.
 5. Dataset hadith numbers are not sunnah.com numbers: cite the corpus locator and quote the opening words.
 6. Bible and other non-Islamic scripture are handled in a separate pass (gelenek tevrat and incil). Do not cite
    them here; a Bible passage that an Islamic source itself quotes (al-Biqāʿī, for instance) is reported as that
@@ -65,7 +67,9 @@ the knowledge around it and integrates the base's findings with the literature.
   searched only the per-ayah slice (`dilim`) or whole texts (`tam`). Never write "this is absent from classical
   tafsir"; write "not found in the checked sources: …".
 - Keep three levels apart in every block: what the ayah says in context; what a source attests; what the base
-  synthesises. A root-family image can be real without being what the ayah means.
+  synthesises. A root-family image can be real without being what the ayah means. Do this with the tags (durum,
+  iliski, islev) and with exact attribution inside the sentence ("Râgıb … der"), not with a closing disclaimer;
+  only a yenilik block states the scope of the search.
 - Do not adjudicate the base's readings. Report evidence for and against them; the base's readings coexist.
 
 ## Block text (`metin`)

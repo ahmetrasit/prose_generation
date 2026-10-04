@@ -94,7 +94,7 @@ def card() -> None:
     for name, e in S["enums"].items():
         if name == "tur" or name in bible_only:
             continue
-        out.append(f"- {name}: " + "; ".join(f"{k} = {v['def']}" if len(v["def"]) < 70 else k for k, v in e.items()))
+        out.append(f"- {name}: " + "; ".join(f"{k} = {v['def']}" for k, v in e.items()))
     extra_islev = {k: v for k, v in req_by.items() if k.startswith("islev:")}
     if extra_islev:
         out += ["", "## Also required"] + [f"- {k}: {', '.join(sorted(set(v)))}" for k, v in extra_islev.items()]
