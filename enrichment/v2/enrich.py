@@ -126,7 +126,7 @@ def header(s: int, target: str, d: Path, runner: str = "codex") -> str:
         f"- Target: {target} — {what}",
         f"- Workspace root: {PG}", f"- PACK: {pack}",
         f"- Your call directory (write only here): {d}",
-        f"- Schema: {V2 / 'SCHEMA.md'} (read it once; schema.json is the same content as data for the scripts)",
+        f"- Schema card: {V2 / 'SCHEMA_CARD.md'} (read it once; the full reference is {V2 / 'SCHEMA.md'})",
         f"- Corpus tool: {py} {V2 / 'tools' / 'corpus.py'}",
         f"- Validator: {py} {V2 / 'validate.py'} --surah {s} --target {target} --annotations "
         f"{d / 'annotations.jsonl'}",
@@ -190,7 +190,9 @@ def call_claude(prompt: str, d: Path, model: str, effort: str) -> dict:
            "--permission-mode", "dontAsk"]
     (d / "command.json").write_text(json.dumps({"argv": cmd, "stdin": "prompt.md"}, indent=1) + "\n", encoding="utf-8")
     env = {**os.environ, "PYTHONDONTWRITEBYTECODE": "1", "ENRICH_CALL_DIR": str(d),
-           "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "128000"}
+           "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "128000",
+           # 5-minute cache: writes cost 1.25x input instead of 2x; turns come every few seconds, so it stays warm
+           "FORCE_PROMPT_CACHING_5M": "1"}
     with (d / "run.stream.jsonl").open("w", encoding="utf-8") as out, (d / "stderr.log").open("w") as err:
         try:
             p = subprocess.run(cmd, input=prompt, text=True, stdout=out, stderr=err, env=env, cwd=d, timeout=TIMEOUT)

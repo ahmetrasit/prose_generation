@@ -1,0 +1,20 @@
+{
+ "missing_sources": [
+  "IBNJAWZI-ZAD: the locator IBNJAWZI-ZAD:107:1 / 107:2 returned NOT FOUND although the source lists surahs 103-114; its Surah 107 text was not read",
+  "MUQATIL-WUJUH, ABDUH-AMMA, BINTSHATI: access hafiza / not local; not used",
+  "NEUWIRTH-KORAN1, NOLDEKE-GDQ, STUDYQURAN, SINAI-KEYTERMS, CUYPERS-COMPOSITION: memory pointers only; modern scholarship taken from the local CORPUSCORANICUM segments instead",
+  "MEAL-ATAY, MEAL-MOZTURK, MEAL-HAMIDULLAH: not held locally, so absent from the meal review"
+ ],
+ "not_found": [
+  "A sahih merit (fazilet) hadith for Surah 107: none in BUKHARI, MUSLIM or the sunan collections searched ('surah arayta'); only Razi's Ubayy-attributed sentence, ungraded in the corpus",
+  "A sahih Prophetic hadith explaining ma'un: only ungraded or weak attributions (DURR:107:7, MUQATIL:107:1-7, IBNMAJAH:2472); the Companion statements (Ibn Mas'ud, Ali, Ibn Abbas) are reported as tefsir_rivayet",
+  "A tafsir (whole-book search) that uses the mirror image for yura'un, the kadhdhaba fabric, the star Suha with sahw, or the house/shelf sequence yatim-miskin-sahw-ma'un; only the lexical ingredients are attested",
+  "A classical source tying 67:30 (ara'aytum ... ma'in) to Surah 107 or Surah 70 (helu', menu', musallin) to Surah 107 item by item"
+ ],
+ "unresolved": [
+  "errata_candidates.json: the single-letter quote 'fa' (paragraph 10, ayah 107:2) is a checker false positive (the particle is part of fa-dhalika); not logged as an error. The base's veyl gloss carries source:\"memory\"; logged as a duzeltme",
+  "ABUDAWUD:1657 (Ibn Mas'ud: 'we counted the ma'un as lending the bucket and pot') has no grader in the corpus (sahih=False, by '-'); used only as a Companion report",
+  "The Imami (Kafi) report is read only as Tabatabai relays it; the Kafi text itself is not in the corpus",
+  "Ibn Kathir (107:5) cites the 'tilka salat al-munafiq' hadith as Muslim no. 622; the corpus locator MUSLIM:1412 is the dataset's own numbering, not the sunnah.com number"
+ ]
+}

@@ -63,6 +63,47 @@ def main() -> None:
     out += ["", "## Rules", ""] + [f"- **{r['id']}**: {r['def']}" for r in S["rules"]]
     (V2 / "SCHEMA.md").write_text("\n".join(out) + "\n", encoding="utf-8")
     print("wrote", V2 / "SCHEMA.md")
+    card()
+
+
+def card() -> None:
+    """SCHEMA_CARD.md: the compact form agents read (values and requirements, no labels in other languages)."""
+    req_by: dict[str, list[str]] = {}
+    for k, f in S["fields"].items():
+        for axis, vals in (f.get("required_for") or {}).items():
+            for v in vals:
+                req_by.setdefault(f"{axis}:{v}", []).append(k)
+    out = [f"# Schema {S['version']} card for the Islamic-literature pass (generated from schema.json; the full "
+           "reference, with the Bible pass, is SCHEMA.md)", "",
+           "Record = one JSON object per line in annotations.jsonl. Required in every record: "
+           + ", ".join(k for k in S["block"]["required"] if k != "gelenek") + ", paragraf, capa "
+           "(gelenek is added by the script).",
+           f"- id S<sss>-<KOD>-<NNN>; ayet \"107:3\" or \"107:1-3\" (several with |); kaynak = corpus locators, "
+           f"pipe-separated, or hafiza; metin one paragraph, at most {S['block']['word_limits']['temel']} words "
+           f"(temel, ek) or {S['block']['word_limits']['arastirma']} (arastirma).",
+           "- paragraf = the [¶n] number of the page's prose paragraph; capa = at least three exact words of it.", "",
+           "## tur (KOD; traditions; extra required fields)"]
+    bible_only = {"gelenek", "bag", "tarihleme", "nusha"}
+    for k, v in S["enums"]["tur"].items():
+        if "islami" not in v.get("gelenek", []):
+            continue
+        extra = sorted(set(req_by.get(f"tur:{k}", [])))
+        out.append(f"- {k} ({v['kod']}; {','.join(v.get('gelenek', []))})" + (f" + {', '.join(extra)}" if extra else "")
+                   + f": {v['def']}")
+    out += ["", "## Values"]
+    for name, e in S["enums"].items():
+        if name == "tur" or name in bible_only:
+            continue
+        out.append(f"- {name}: " + "; ".join(f"{k} = {v['def']}" if len(v["def"]) < 70 else k for k, v in e.items()))
+    extra_islev = {k: v for k, v in req_by.items() if k.startswith("islev:")}
+    if extra_islev:
+        out += ["", "## Also required"] + [f"- {k}: {', '.join(sorted(set(v)))}" for k, v in extra_islev.items()]
+    out += ["", "## Optional fields"] + [f"- {k}: {f['def']}" for k, f in S["fields"].items()
+                                          if k not in S["block"]["required"] and not f.get("required_for")
+                                          and k not in bible_only]
+    out += ["", "## Rules"] + [f"- {r['id']}: {r['def']}" for r in S["rules"] if r["id"] != "paralel_bagimlilik_degil"]
+    (V2 / "SCHEMA_CARD.md").write_text("\n".join(out) + "\n", encoding="utf-8")
+    print("wrote", V2 / "SCHEMA_CARD.md")
 
 
 if __name__ == "__main__":

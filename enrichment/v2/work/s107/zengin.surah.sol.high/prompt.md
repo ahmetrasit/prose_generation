@@ -1,3 +1,96 @@
+# Job
+
+- Surah: 107 (ayat 1–7); ids use S107
+- Target: surah — the surah page of S107 (base PACK/numbered/surah.md; all ayat 1–7)
+- Workspace root: /Volumes/aro/projects/prose_generation
+- PACK: /Volumes/aro/projects/prose_generation/enrichment/v2/work/s107/pack
+- Your call directory (write only here): /Volumes/aro/projects/prose_generation/enrichment/v2/work/s107/zengin.surah.sol.high
+- Schema: /Volumes/aro/projects/prose_generation/enrichment/v2/SCHEMA.md (read it once; schema.json is the same content as data for the scripts)
+- Corpus tool: python3 /Volumes/aro/projects/prose_generation/enrichment/v2/tools/corpus.py
+- Validator: python3 /Volumes/aro/projects/prose_generation/enrichment/v2/validate.py --surah 107 --target surah --annotations /Volumes/aro/projects/prose_generation/enrichment/v2/work/s107/zengin.surah.sol.high/annotations.jsonl
+- Renderer (preview): python3 /Volumes/aro/projects/prose_generation/enrichment/v2/render.py --surah 107 --target surah --annotations /Volumes/aro/projects/prose_generation/enrichment/v2/work/s107/zengin.surah.sol.high/annotations.jsonl --out /Volumes/aro/projects/prose_generation/enrichment/v2/work/s107/zengin.surah.sol.high/preview
+
+
+# Enrichment: shared core (read completely; the brief that follows builds on it)
+
+## What this work is
+A frozen Turkish commentary on one surah (and one commentary per ayah) already exists: the BASE, written by this
+project from a dictionary of every attested branch of every root. The base develops latent and secondary lexical
+images of the Qur'an's words without choosing one reading over another. It is final; you never change it.
+
+Enrichment builds, around the base, one page where an ADVANCED reader sees every major information source at
+once: transmitted and analytical tafsir (including allusive/Sufi, Muʿtazilī, Imāmī, naẓm and bayānī voices),
+occasions of revelation, sahih hadith, readings, lexicon and the sense inventory of words across the Qur'an, grammar,
+rhetoric, Qur'an-by-Qur'an, semantic history, historical setting, Turkish translations and what they lose, modern
+scholarship, and an audit of what in the base is already attested in the literature, partly attested, or not found.
+Each block is concise and says why it matters at that point. The base is the skeleton and flesh; enrichment builds
+the knowledge around it and integrates the base's findings with the literature.
+
+## Paths (relative to the workspace root /Volumes/aro/projects/prose_generation)
+- PACK = enrichment/v2/work/sNNN/pack/ (built by script; read-only for you)
+  - base/surah.md, base/S_A.md: the frozen base pages; base.json: their sha256
+  - numbered/surah.md, numbered/S_A.md: the same pages with each prose paragraph numbered [¶n] (headings and
+    "Kaynaklar:" lines are not numbered); read these, and anchor blocks by these numbers
+  - ayah/S_A/{words.md, dictionary.md, usage.md, meals.md, sources.md}; roots/<root_id>.md; binding.json
+  - errata_candidates.json (problems the base's own tag checker reported); pack.json (manifest, gaps)
+- Schema: enrichment/v2/SCHEMA.md (types, fields, values, rules). Read it once, completely. schema.json holds the
+  same content as data for the scripts; do not read it.
+- Corpus tool: `python3 enrichment/v2/tools/corpus.py` with `sources [--kind K]`, `get LOC [LOC …]`,
+  `ayah S:A [--kind tafsir,meal]`, `search 'words' [--src ID,ID] [--kind K] [--surah N] [--n 20] [--sahih]`.
+  Search matches word prefixes; Arabic is normalised (no tashkīl, unified alef/yāʾ/tāʾ marbūṭa). Try variants.
+- Your call directory (the only place you write) is given in the job header.
+
+## Sources: what is authoritative, what is allowed
+1. Word → root identity comes ONLY from PACK/binding.json (QAC + the project's root gateway). Never resolve a root
+   by spelling, folding or memory. The project dictionary (corpus ID PROJE; PACK dictionary.md and roots/) is
+   authoritative for senses; the six classical lexica it is built from (AYN, JAMHARA, TAHDHIB, SIHAH, MAQAYIS,
+   MUFRADAT) are in the corpus in full; LISAN, LANE, ASAS, QAMUS, TAJ are further lexica. VASIT, MUHIT, HANSWEHR
+   are modern Arabic: use them only inside anlam_tarihi, as evidence of later drift, never as attestation.
+2. Cite only what you opened. Every block's `kaynak` holds corpus locators exactly as the corpus prints them
+   (TAB:107:3, MUSLIM:2985, MAQAYIS:سهو, ELMALILI:107:2). A locator must resolve; the validator checks it.
+3. Model memory is allowed only when marked: `kaynak:"hafiza"` (or a corpus pointer whose access is hafiza, e.g. a
+   licensed Western book) together with `durum:degerlendirilmedi`. Memory is never allowed for hadith, for a grade,
+   for revelation order/Makkī-Madanī, or for the history of a Turkish loanword.
+4. Hadith blocks (`tur:hadis`) are sahih only: Bukhārī, Muslim, or a sunan report every named grader calls sahih
+   (search with `--sahih`; the corpus marks each report). Occasion reports (`tur:esbab`) may be of any grade; give
+   `derece`, `derece_veren` (as the source or the corpus records it, else derece:degerlendirilmedi) and
+   `tarihsellik`. Never upgrade a grade because a tafsir quotes the report. Merit (fazilet) reports are hadith:
+   sahih only, as tur:hadis; never file them under esbab. A report attributed to the Prophet but graded below
+   sahih is never a hadis block; when the same words are soundly attributed to a Companion or Successor, report
+   them as tefsir_rivayet and say in one clause that the Prophetic attribution is weak, naming who judged it.
+5. Dataset hadith numbers are not sunnah.com numbers: cite the corpus locator and quote the opening words.
+6. Bible and other non-Islamic scripture are handled in a separate pass (gelenek tevrat and incil). Do not cite
+   them here; a Bible passage that an Islamic source itself quotes (al-Biqāʿī, for instance) is reported as that
+   source's content.
+7. If a source you need is missing, say so (in gaps.json); never fill the gap from memory
+   without marking it.
+
+## Epistemic rules
+- Never present a report as history because a classical book transmits it; competing reports stay competing.
+- A thematic hadith is not direct tafsir (`iliski:tematik`, not `dogrudan`).
+- A source's stated preference ("the correct view is X") is `islev:tercih`. `islev:itiraz` is an argued exclusion:
+  why the base's reading cannot hold here (grammar, near-synonymy, root identity, a reading), with `gerekce`.
+- Novelty is always relative to what you searched: `taranan` lists the corpus IDs, `tarama` says whether you
+  searched only the per-ayah slice (`dilim`) or whole texts (`tam`). Never write "this is absent from classical
+  tafsir"; write "not found in the checked sources: …".
+- Keep three levels apart in every block: what the ayah says in context; what a source attests; what the base
+  synthesises. A root-family image can be real without being what the ayah means.
+- Do not adjudicate the base's readings. Report evidence for and against them; the base's readings coexist.
+
+## Block text (`metin`)
+Turkish, in the register of the base: plain, warm, exact; explain Arabic terms briefly; name the scholar, not
+"the scholars"; no first person, no talk about your process or tools. One paragraph; at most 80 words (layers
+temel/ek) or 120 (arastirma). Short quotations only; Arabic quotations go in the base's reader-tag form
+{ar:…, tr:…, gloss:…, source:…} with the corpus locator as source.
+- The block is read right after a paragraph of the commentary, by a reader who has just read that paragraph. Call
+  the commentary "şerh" when you must refer to it (never "taban", "base" or "the project"); usually just state the
+  point.
+- Say what the source adds and stop. Do not end with a disclaimer about what the source does not prove or what the
+  block is not: the tags already say whether a link is direct, thematic or reported. State a limit only when it
+  changes the reading, as its own itiraz or sinir block.
+- Say each thing once on the page: a point made in one block is not repeated in another.
+
+
 # zengin: one page's records (research, meal review and composition in one call)
 
 You produce every enrichment block for ONE page, the target in the job header: the surah page or one ayah page. You
@@ -7,24 +100,19 @@ registry. Work through the steps in order. Notes you make along the way are your
 directory if useful); only annotations.jsonl and gaps.json are read.
 
 ## Scope by target
-- Ayah page (target S:A): everything an advanced reader needs about that ayah: its tafsir, readings, hadith,
-  lexicon and sense inventory, grammar and rhetoric, occasion reports tied to it, the word-by-word meal review, and
-  antecedents and counter-evidence for the claims of the ayah commentary. Every record's `ayet` includes the target
-  ayah (a range such as 107:4-7 is right when the point concerns the group). Anchor to the paragraphs of
+- Ayah page (target S:A): everything an advanced reader needs about that ayah. Every record's `ayet` includes the
+  target ayah (a range such as 107:4-7 is right when the point concerns the group). Anchor to the paragraphs of
   PACK/numbered/S_A.md.
-- Surah page (target surah): what belongs to the surah as a whole — names and merit, chronology and Makkī/Madanī,
-  occasion reports for the whole surah, structure and naẓm, the surah's place among its neighbours, antecedents and
-  counter-evidence for the claims of the surah commentary, and the meal verdict with the losses shared across the
-  surah. Each ayah has its own page, written in its own call, which carries the per-ayah material (readings, the
-  word-by-word meal review, hadith on a single ayah, the lexicon of single words): on the surah page give such
-  detail only where a paragraph of the surah commentary is about it, and then only its most important point.
-  Anchor to the paragraphs of PACK/numbered/surah.md.
+- Surah page (target surah): the surah as a whole and the points its commentary makes — names, occasions and
+  chronology, Makkī/Madanī, structure and naẓm, merit reports, the surah's place among its neighbours, the claims of
+  the surah commentary, and the surah's meal verdict (shared losses; best literal and best explanatory meal).
+  Each ayah has its own page, written in its own call: on the surah page give per-ayah detail only where a paragraph
+  of the surah commentary speaks to it. Anchor to the paragraphs of PACK/numbered/surah.md.
 - Every block sits right after the base paragraph it speaks to; there is no section at the end of the page.
 
 ## Step 1. Read
-Read the target's numbered base page completely, once, and keep your own notes (paragraph numbers and claims) in
-your call directory; do not read it again. For the surah page read PACK/numbered/surah.md; the ayah pages
-(PACK/numbered/S_A.md) only where you need to orient yourself. Then, for each ayah in scope, PACK/ayah/S_A/*.md and the roots/ files of its bound roots. Do not
+Read the target's numbered base page completely (for the surah page: PACK/numbered/surah.md, then every
+PACK/numbered/S_A.md for orientation). Then, for each ayah in scope, PACK/ayah/S_A/*.md and the roots/ files of its bound roots. Do not
 skim: a claim missed here is missing from the page.
 
 ## Step 2. Claims of the base
@@ -43,15 +131,13 @@ for antecedents elsewhere in the Qur'an. Cover, as the ayah or surah warrants:
    as the Companion's).
 2. Analytical tafsir: KASHSHAF, RAZI, BAYDAWI, NASAFI, QURTUBI, IBNATIYYA, ABUHAYYAN, ALUSI, MAWARDI (numbered
    senses without choosing), IBNASHUR, TABRISI, BIQAI (naẓm), and the Turkish ELMALILI and KURANYOLU-TEFSIR;
-   allusive QUSHAYRI, SULAMI, TUSTARI, BURSEVI (when the corpus has an ishārī reading for the page, include the
-  one that adds most); ABDUH-AMMA; others the corpus lists for the ayah.
+   allusive QUSHAYRI, SULAMI, TUSTARI, BURSEVI; ABDUH-AMMA; others the corpus lists for the ayah.
 3. Occasions and chronology: WAHIDI-ASBAB, SUYUTI-LUBAB, the tafsirs' reports, ITQAN/BURHAN lists, TDVIA surah
    article, CORPUSCORANICUM chronology. Keep Makkī/Madanī apart from occasion reports; record every competing
    attribution with its transmitter and grade information.
-4. Hadith: a direct prophetic explanation of the ayah's words, when one exists; then at most two thematic or
-   counter-scene hadith on the page, the ones that add most (a well-known hadith the reader expects adds little);
-   merit (fazilet) reports. Sahih only for hadis (search with --sahih); non-sahih reports only as esbab, with their
-   grade.
+4. Hadith: direct prophetic explanation; hadith using the same key expression; strong thematic or counter-scene
+   hadith; merit (fazilet) reports. Sahih only for hadis (search with --sahih); non-sahih reports only as esbab,
+   with their grade.
 5. Readings: QIRAAT-ER, IBNMUJAHID, IBNKHALAWAYH-HUJJA, FARISI-HUJJA, IBNJINNI-MUHTASAB, ABUHAYYAN; what each
    reading does to meaning; canonical vs non-canonical vs Companion reading.
 6. Lexicon and sense inventory: PACK dictionary.md and roots/ (PROJE + six lexica), LISAN, ASAS (literal vs
@@ -61,9 +147,7 @@ for antecedents elsewhere in the Qur'an. Cover, as the ayah or surah warrants:
 7. Grammar and rhetoric that bear on meaning (ABUHAYYAN, SAMIN-DURR, KASHSHAF, IBNASHUR, JURJANI-*).
 8. Qur'an by Qur'an: passages that explain, extend or contrast (TABATABAI is strong here; PACK usage.md).
 9. Semantic history (pre-Qur'anic → Qur'anic → later Arabic → Turkish) and historical setting (IBNHISHAM, AZRAQI,
-   KALBI-ASNAM, poetry: MUALLAQAT, MUFADDALIYYAT, ASMAIYYAT, HAMASA). PACK/ayah/S_A/turkish.md holds the Turkish
-   dictionary entries (NISANYAN, TDK, KUBBEALTI) of the meals' key words: where a word's Turkish sense has drifted
-   from the Arabic (din, riya, namaz, miskin …), write an anlam_tarihi block; the reader of this page is Turkish.
+   KALBI-ASNAM, poetry: MUALLAQAT, MUFADDALIYYAT, ASMAIYYAT, HAMASA).
 10. Modern scholarship: local where available; licensed Western works only as memory pointers (access hafiza).
 Deduplicate as you go: a report repeated unchanged in later works is one point with `tekrar`; a later work that
 changes, grades or narrows it is its own point.
@@ -113,8 +197,7 @@ witness. MEAL-ESED is translated from Asad's English (relay ASAD-EN), not from t
 4. Verdict: never one best meal overall. Name the best literal and the best explanatory meal and, where they
    differ, the best per criterion (primary sense, range kept, additions marked, Turkish drift), each with its
    reason. Ayah page: the verdict for that ayah. Surah page: the verdict for the surah and the losses shared across
-   its ayat, from the meal files of all ayat; do not repeat the word-by-word alignment there (the ayah pages carry
-   it).
+   its ayat.
 
 ## Step 6. Compose the records
 What a good page has:

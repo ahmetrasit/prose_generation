@@ -119,3 +119,14 @@ writes inside only, no network). A Sonnet code review (2026-10-03) led to: blind
 other call directories or session stores), --max-budget-usd 40 and an 8-hour timeout per call, no non-trial
 multi-model runs, errata written before the page, exclusive page write, paragraph numbers normalized in the
 per-paragraph rules, a tighter "taban" warning.
+
+## Cost changes after the six-model S107 trial (user agreed, 2026-10-03)
+Reading by component (Opus/Sonnet S107 surah calls): base, schema and own preview 27–29% (overhead), tafsir 15–17%,
+lexica 9–13%, meals 10–16%, hadith 7%, Turkish history 5–6%, naẓm 4–5%, Corpus Coranicum 2–7%, occasions/readings/
+Sufi 0–2% each. No component was dropped; changes: agents read SCHEMA_CARD.md (9k chars, Islamic pass only) instead
+of SCHEMA.md (24k); the numbered base once, with notes; corpus `get` batched; commands with absolute paths, no
+loops, variables or cd (Claude refusals); hadith limited to a direct explanation plus at most two thematic ones;
+the pack writes ayah/S_A/turkish.md (Nişanyan/TDK/Kubbealtı entries for the panel meals' key words) and lists
+words still to fetch; one ishārī reading when the corpus has one; the surah page keeps surah-level material and
+the meal verdict, the ayah pages the per-ayah material (word-by-word meal review, readings, single-ayah hadith,
+lexicon); Claude calls use the 5-minute cache (FORCE_PROMPT_CACHING_5M; writes 1.25x input instead of 2x).

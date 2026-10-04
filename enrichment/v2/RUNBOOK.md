@@ -16,9 +16,13 @@ started, or start a new attempt.
 ## 1. Before a surah starts
 1. The v16 base is final: one `out/sNNN/images.r13.*/images.md` and, per ayah, `augment.augment3/S_A.reading.tr.md`.
    pack.py refuses an ambiguous surah base (pass `--surah-base`).
-2. `../dictionary` HEAD equals the transfer commit in `quran-data/data/dictionary/tr/MANIFEST.json` (pack.py
+2. Turkish word history: build the pack, read `pack.json` turkish.fetch_candidates (key words of the panel meals
+   with no Nişanyan/TDK/Kubbealtı entry yet), fetch the ones that matter
+   (`python3 enrichment/v2/fetch/ref_loanword.py <word> …`), rebuild the index (`tools/corpus.py build`) and the pack
+   (`pack.py --surah N --force`, only while no call of the surah has started).
+3. `../dictionary` HEAD equals the transfer commit in `quran-data/data/dictionary/tr/MANIFEST.json` (pack.py
    checks; if not, sync quran-data first).
-3. Tell the user the expected cost before the surah starts. Codex subscription runs report no USD: give the call
+4. Tell the user the expected cost before the surah starts. Codex subscription runs report no USD: give the call
    count (one per page: the surah page plus one per ayah page) and prompt sizes from `enrich.py build`.
    Measured cost per call: `run.log.json` holds `session.tokens` (input, cached, output, reasoning), the weekly-limit
    reading before the call (`weekly_before`, from the latest saved session) and during it (`session.weekly_used_*`);

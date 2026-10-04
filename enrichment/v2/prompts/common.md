@@ -18,13 +18,17 @@ the knowledge around it and integrates the base's findings with the literature.
   - base/surah.md, base/S_A.md: the frozen base pages; base.json: their sha256
   - numbered/surah.md, numbered/S_A.md: the same pages with each prose paragraph numbered [¶n] (headings and
     "Kaynaklar:" lines are not numbered); read these, and anchor blocks by these numbers
-  - ayah/S_A/{words.md, dictionary.md, usage.md, meals.md, sources.md}; roots/<root_id>.md; binding.json
+  - ayah/S_A/{words.md, dictionary.md, usage.md, meals.md, sources.md, turkish.md}; roots/<root_id>.md; binding.json
   - errata_candidates.json (problems the base's own tag checker reported); pack.json (manifest, gaps)
-- Schema: enrichment/v2/SCHEMA.md (types, fields, values, rules). Read it once, completely. schema.json holds the
-  same content as data for the scripts; do not read it.
+- Schema: enrichment/v2/SCHEMA_CARD.md (types, fields, values, rules for this pass). Read it once, completely.
+  SCHEMA.md is the full reference (labels in three languages, the Bible pass); open it only if the card leaves
+  something unclear. schema.json is the same content as data for the scripts; do not read it.
 - Corpus tool: `python3 enrichment/v2/tools/corpus.py` with `sources [--kind K]`, `get LOC [LOC …]`,
   `ayah S:A [--kind tafsir,meal]`, `search 'words' [--src ID,ID] [--kind K] [--surah N] [--n 20] [--sahih]`.
   Search matches word prefixes; Arabic is normalised (no tashkīl, unified alef/yāʾ/tāʾ marbūṭa). Try variants.
+  `get` takes many locators at once: open what you need in few calls.
+- Commands: absolute paths; no shell loops, no shell variables, no `cd` into other directories (such commands may
+  be refused). Several commands may be joined with `;` in one call. Read each file once and keep notes.
 - Your call directory (the only place you write) is given in the job header.
 
 ## Sources: what is authoritative, what is allowed

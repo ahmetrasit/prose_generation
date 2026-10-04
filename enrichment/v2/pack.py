@@ -16,6 +16,9 @@ Writes enrichment/v2/work/sNNN/pack/:
   ayah/S_A/usage.md               every Qur'anic occurrence of each content lemma (refs), surah occurrences
   ayah/S_A/meals.md               the panel meals, the relay pair (Asad EN / Esed TR), Arberry, then the reference set
   ayah/S_A/sources.md             every corpus locator tied to this ayah, by source (texts via tools/corpus.py get)
+  ayah/S_A/turkish.md             Turkish word history for the key words of the panel meals at this ayah (Nişanyan,
+                                  TDK, Kubbealtı entries already in the corpus); words still to fetch are listed in
+                                  pack.json turkish.fetch_candidates (fetch/ref_loanword.py, then rebuild)
   roots/<root_id>.md              per bound root: project branches + the six classical lexica's entries in full,
                                   locators for Lisān, Lane, Asās, Qāmūs, Tāj
   check/                          v16 check.py records for the base files (tag verification); problems listed in
@@ -240,6 +243,77 @@ def meals_md(con, metas: dict, ref: str) -> str:
     return "\n".join(lines)
 
 
+TR_DICTS = ("NISANYAN", "TDK", "KUBBEALTI")
+TR_SUFFIXES = sorted("larından lerinden larını lerini larına lerine ların lerin ları leri ından inden undan ünden "
+                     "dan den tan ten nın nin nun nün ını ini unu ünü ına ine una üne lar ler yla yle ın in un ün "
+                     "da de ta te ı i u ü a e".split(), key=len, reverse=True)
+TR_STOP = set(("ve ki bu şu o bir için gibi olan onlar onları onlara kim ne mi mı da de ile değil olsun işte artık "
+               "öyle hem ise eden edenler olanlar kimse kimseler kimsedir odur onu ona onun yani hiç hep çok daha en "
+               "sonra önce kadar vardır yoktur olur olduğu ettiği eder ederler yapan yapanlar şunlar şunlara "
+               "kendi kendileri kişi kişiler kimdir").split())
+
+
+def tr_lower(s: str) -> str:
+    """Lower-case the Turkish way and fold circumflexes (miskîni ~ miskin, zekât ~ zekat)."""
+    return s.replace("I", "ı").replace("İ", "i").lower().translate(str.maketrans("âîû", "aiu"))
+
+
+def tr_stem(tok: str) -> str:
+    changed = True
+    while changed and len(tok) > 4:
+        changed = False
+        for suf in TR_SUFFIXES:
+            if tok.endswith(suf) and len(tok) - len(suf) >= 3:
+                tok, changed = tok[: -len(suf)], True
+                break
+    return tok
+
+
+def turkish_md(con, metas: dict, ref: str) -> tuple[str, list[str], list[str]]:
+    """(turkish.md, matched headwords, fetch candidates) for one ayah, from the panel meals' words."""
+    s, a = (int(x) for x in ref.split(":"))
+    panel = [i for i, m in metas.items() if m.get("panel")]
+    texts = [r[0] for r in con.execute(
+        f"SELECT text FROM seg WHERE s=? AND a<=? AND coalesce(a_end,a)>=? AND src IN ({','.join('?' * len(panel))})",
+        (s, a, a, *panel))] if con and panel else []
+    entries = {}  # headword -> {dict: seg}
+    for src_id in TR_DICTS:
+        for seg, head in (con.execute("SELECT seg, head FROM seg WHERE src=?", (src_id,)) if con else []):
+            h = re.sub(r"\d+$", "", tr_lower(seg.split(":", 1)[1].split("#")[0])).strip("-")
+            entries.setdefault(h, {}).setdefault(src_id, seg)
+    hits, stems = {}, {}
+    for text in texts:
+        toks = set(re.findall(r"[a-zçğıöşüâîû]+", tr_lower(text)))
+        seen = set()
+        for tok in toks:
+            for h in entries:
+                if len(h) >= 3 and tok.startswith(h) and len(tok) - len(h) <= 7 and h not in seen:
+                    hits[h] = hits.get(h, 0) + 1
+                    seen.add(h)
+            st = tr_stem(tok)
+            if len(st) >= 4 and st not in TR_STOP and tok not in TR_STOP:
+                stems[st] = stems.get(st, 0) + 1
+    matched = sorted((h for h, n in hits.items() if n >= 2), key=lambda h: -hits[h])
+    covered = lambda st: any(st.startswith(h) or h.startswith(st) for h in entries)
+    candidates = sorted((st for st, n in stems.items() if n >= max(2, len(texts) // 2) and not covered(st)),
+                        key=lambda st: -stems[st])[:10]
+    lines = [f"# {ref} — Turkish word history", "",
+             "Key words of the panel meals at this ayah that have entries in the Turkish dictionaries of the corpus "
+             "(how many panel meals use the word in brackets). Use them for anlam_tarihi (Turkish drift) and for meal "
+             "kayma findings; cite NISANYAN:/TDK:/KUBBEALTI: locators.", ""]
+    for h in matched:
+        lines += [f"## {h} [{hits[h]} meals]", ""]
+        for src_id, seg in entries[h].items():
+            row = con.execute("SELECT text FROM seg WHERE seg=?", (seg,)).fetchone()
+            body = (row[0] if row else "").strip()
+            lines += [f"**{seg}**", body[:900] + (" …" if len(body) > 900 else ""), ""]
+    if not matched:
+        lines.append("(no key word of the panel meals has an entry yet)")
+    if candidates:
+        lines += ["", "Not yet in the corpus (fetch before the run if they matter): " + ", ".join(candidates)]
+    return "\n".join(lines) + "\n", matched, candidates
+
+
 def sources_md(con, metas: dict, ref: str) -> str:
     s, a = (int(x) for x in ref.split(":"))
     lines = [f"# {ref} — corpus locators for this ayah", "",
@@ -359,7 +433,7 @@ def build(s: int, force: bool, surah_base_path: Path | None) -> Path:
     (pk / "base.json").write_text(json.dumps(base, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     write_numbered(pk)
 
-    binding, roots = {}, []
+    binding, roots, turkish = {}, [], {}
     for ref in refs:
         rows = []
         for w in src.words(ref):
@@ -378,6 +452,9 @@ def build(s: int, force: bool, surah_base_path: Path | None) -> Path:
         (d / "usage.md").write_text(usage_md(src, ref), encoding="utf-8")
         (d / "meals.md").write_text(meals_md(con, metas, ref), encoding="utf-8")
         (d / "sources.md").write_text(sources_md(con, metas, ref), encoding="utf-8")
+        tmd, matched, cands = turkish_md(con, metas, ref)
+        (d / "turkish.md").write_text(tmd, encoding="utf-8")
+        turkish[ref] = {"matched": matched, "fetch_candidates": cands}
     (pk / "binding.json").write_text(json.dumps(binding, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     (pk / "roots").mkdir()
     for rid in dict.fromkeys(roots):
@@ -404,6 +481,8 @@ def build(s: int, force: bool, surah_base_path: Path | None) -> Path:
                    "pointers_hafiza": sorted(i for i, m in metas.items() if m.get("access") == "hafiza")},
         "binding": {"words": sum(len(v) for v in binding.values()), "roots": len(set(roots)), "unbound": unbound},
         "errata_candidates": len(errata),
+        "turkish": {"per_ayah": turkish,
+                    "fetch_candidates": sorted({c for v in turkish.values() for c in v["fetch_candidates"]})},
         "missing_ayah_bases": [r for r, v in base["ayat"].items() if not v],
         "files": {str(p.relative_to(pk)): sha(p) for p in sorted(pk.rglob("*")) if p.is_file() and p.name != "pack.json"},
     }

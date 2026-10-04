@@ -1,0 +1,6 @@
+[S107 sûre zenginleştirmesi](/Volumes/aro/projects/prose_generation/enrichment/v2/work/s107/zengin.surah.sol.max/annotations.jsonl) tamamlandı. **62 kaydın tamamı** uyarısız doğrulandı; [önizlemede](/Volumes/aro/projects/prose_generation/enrichment/v2/work/s107/zengin.surah.sol.max/preview/surah.md) yerleşim hatası yok. [Kaynak boşlukları](/Volumes/aro/projects/prose_generation/enrichment/v2/work/s107/zengin.surah.sol.max/gaps.json) ayrıca kaydedildi.
+
+- **Türler:** yenilik 14; dirâyet 7; lugat ve meâl 6’şar; rivayet ve hadis 4’er; modern 3; esbâb, nahiv, kıraat, anlam tarihi, vücûh ve âyetle tefsir 2’şer; nüzul, kaynak notu, fıkıh, işârî tefsir, elenen ve nazım 1’er.
+- **Katmanlar:** temel 9, ek 31, araştırma 22. **Klasik tanıklık:** açık 5, kısmî 3, yalnız yapıtaşları 14, bulunamadı 0. **Öncül 8, itiraz 5, düzeltme 0.**
+
+**Meâl hükmü:** Lafza en yakın Hayrat; açıklama kapsamı en geniş Yaşar Nuri Öztürk. Taranan sahih hadislerde sûreye özgü fazilet rivayeti bulunmadı; iniş yeri ve parçalı iniş rivayetleri tartışmalı kaldı.
