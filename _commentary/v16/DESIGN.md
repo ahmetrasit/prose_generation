@@ -1,5 +1,8 @@
 # Commentary v16
 
+**Production (2026-10-04): see `RUNBOOK.md`** (map3 → images r13 → r13 readings → augment8 Opus on ayah readings).
+The brief notes just below are historical.
+
 Current ayah brief: **r4** (runner default), discovery before themes and full coherent development. r5 adds
 grounding for contributing passages; r6 (built, not run) replaces the cinematic register with a commentator's.
 Both are described at the end.
@@ -1813,3 +1816,22 @@ Sol augment8 18, Opus augment8 15.
 
 **Conclusion:** the inflation is the model's, not the brief's. The same augment8 brief on Opus stays precise
 (readable reference lines) while recovering augment6's coverage and most of the review's misses.
+
+## Production: augment8 on ayah readings, and the runbook (user, 2026-10-04)
+
+- **Production augment** is augment8 with Opus 5.5 high. It runs on ayah readings only, never on the surah
+  commentary (the image prose).
+  - `augment.py` defaults are now `--brief augment8 --model opus`.
+  - A surah commentary is refused at `--go` unless `--surah-commentary` is given.
+  - `VERDICT_OUT` was raised to 60k: 87:8 used 55.2k, and the old 35k estimated $0.96 for a $1.64 call.
+- **Why not the surah commentary.** A surah's list is the union of its ayat's lists plus the neighbours tier: S1 1,372
+  passages, S87 2,251, S100 1,395. That is far beyond what one call can judge with a verdict for each, and the
+  ayah augments judge those same lists against their readings.
+- **`RUNBOOK.md`** gives a cold agent the four steps with their commands, the user's rules, the launch pattern and a
+  cost reference. The map, images and 87:1 writer commands in it were checked by rebuilding S87's packets: each
+  prompt is byte-identical to the saved run (sha256 of `prompt.md` equals `started.json`).
+- **`status.py <surahs>`** shows each surah's map, images, readings n/N, augment8 n/N and the ayat still to run,
+  from the disk and the ledger. It makes no calls.
+- **To run.** Augment8 on 36 readings: S1 7, S87 18 (87:8 is done), S100 11. At about $1.5–1.6 each by the new
+  estimate, that is roughly $55–90. S103 has no map yet.
+

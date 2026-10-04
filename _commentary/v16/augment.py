@@ -2,6 +2,9 @@
 """Augment step (user, 2026-10-01): a Sonnet 5.5 call adds missed Quran passages to a finished commentary, without
 changing a word of it.
 
+Production (user, 2026-10-04): augment8 with Opus 5.5 high (the defaults), on ayah readings only; a surah commentary
+is refused unless --surah-commentary is given. See RUNBOOK.md.
+
   python3 -B _commentary/v16/augment.py out/s001/images.r12.map3.nohft.tool.tool [--go]   # a surah commentary
   python3 -B _commentary/v16/augment.py out/1_6/<run dir> [--go]                            # an ayah reading
 
@@ -51,7 +54,7 @@ MARKED_BLOCK = re.compile(r"\n\n<!-- v16:augment [^\n]*-->\n[^\n]*")
 OUT_TOKENS = {"images": 40_000, "ayah": 20_000}  # assumed, thinking included
 PARA_SPLIT = re.compile(r"(\n[ \t]*\n)")
 SENTENCE_END = re.compile(r"[.!?…][\"”’»)]*$")
-VERDICT_OUT = 35_000  # assumed: a verdict line for every listed passage plus uncapped additions
+VERDICT_OUT = 60_000  # a verdict line for every listed passage plus uncapped additions (87:8 Opus augment8: 55.2k)
 MAX_IN = 400_000  # tokens; a larger prompt (a long surah's union of lists) needs splitting first
 
 
@@ -494,8 +497,9 @@ def looked_up(out: Path) -> set[str]:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("run", type=Path)
-    ap.add_argument("--brief", default="augment1")
-    ap.add_argument("--model", choices=("sonnet", "opus", *CODEX), default=MODEL)
+    ap.add_argument("--brief", default="augment8")  # production (user, 2026-10-04): augment8, Opus 5.5 high, ayah readings only
+    ap.add_argument("--model", choices=("sonnet", "opus", *CODEX), default="opus")
+    ap.add_argument("--surah-commentary", action="store_true", help="allow a surah commentary (not production)")
     ap.add_argument("--go", action="store_true")
     a = ap.parse_args()
     model = a.model
@@ -514,6 +518,9 @@ def main() -> None:
         raise SystemExit(f"prompt ~{n_in:,} tokens is over {MAX_IN:,}: split the passages before augmenting")
     if not a.go:
         return
+    if meta["kind"] == "images" and not a.surah_commentary:  # user, 2026-10-04: augment runs on ayah readings only
+        raise SystemExit(f"{d}: a surah commentary; production augment runs on ayah readings only "
+                         "(--surah-commentary to override, with the user's go)")
     ref = "S" + str(int(d.parent.name[1:])) if meta["kind"] == "images" else meta["ayat"][0]
     row = {"ref": ref, "arm": "augment", "brief": f"{out.name.removeprefix('augment.')}.{d.name}"}
     if V.blocked(out):
