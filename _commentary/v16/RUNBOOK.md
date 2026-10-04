@@ -2,7 +2,8 @@
 
 For an agent starting cold. It covers one surah end to end:
 
-**surah map → surah image prose (the surah commentary) → ayah readings → ayah augment.**
+**surah map → surah image prose (the surah commentary) → ayah readings → ayah augment**, then, only if the user
+says so, **enrichment** (Step 5, its own runbook).
 
 The history and the reasons behind each choice are in `DESIGN.md`. This file holds only what is needed to run.
 
@@ -16,9 +17,9 @@ The history and the reasons behind each choice are in `DESIGN.md`. This file hol
    - A run dir with `started.json` or `run.log.json` is blocked, and the scripts refuse it.
    - If a call failed (for example it hit the session limit at $0), ask the user first. Then rename the dir to `<dir>.<reason>-<cost>usd`, as in `augment.augment3.session-limit-0usd`, and run it again.
 4. **No silent failures.**
-   - Report every `WARNING:` and `NOTE:` line the scripts print.
-   - Report every ledger row whose `status` is not `ok` or whose `check` is not `ok`.
-   - Do not summarize them away.
+   - Report every `WARNING:`, `NOTE:` and `BLOCKED:` line the scripts print, and every traceback.
+   - Report every ledger row whose `status` is not `ok`, whose `check` is not `ok`, or that has a `post_error`.
+   - Do not summarize them away. When a step's output is not clean, stop that surah and let the user decide.
 5. **Augment runs on ayah readings only, never on the surah commentary.** `augment.py` refuses a surah commentary.
 
 ## Setup
@@ -33,14 +34,47 @@ The history and the reasons behind each choice are in `DESIGN.md`. This file hol
   - `quran-data/`;
   - `quran-slm/`.
 - **Claude CLI.** Opus 5.5 at high effort through the `claude` CLI (`v16.call_opus`).
-- **Ledger.** Every paid call appends a row to `_commentary/v16/out/ledger.jsonl`, with its cost and `check`.
+- **Ledger.** Every paid call appends a row to `_commentary/v16/out/ledger.jsonl`, with its cost, `status` and
+  `check`. The row is written even if anything after the call fails; the failure is then in `post_error`.
+- **Call status** (`status` in the row):
+
+  | Status | Meaning |
+  |---|---|
+  | `ok` | a clean output |
+  | `truncated` | the CLI exited non-zero, or the model stopped for a reason other than the end of its turn |
+  | `suspect` | the text before the last tool call is longer than the text after it, so the output may be the earlier text (see `run.stream.jsonl`) |
+  | `partial` | the stream ended without a result |
+  | `safety-stop` | the model's safeguards stopped it |
+  | `error` | no result, or an API error such as the session limit |
+
+  - A map, image prose or reading that is not clean is written as `*.partial.md`, never under the finished name, so nothing downstream uses it. The same goes for an output with no `=== LEDGER ===` line, and for an incomplete map or image prose.
+  - An augment that is not ok applies nothing; its text is in `augment.raw.partial.md`.
+  - Not yet seen in a real run: the CLI's exit code when a command was refused. If a run whose output looks complete comes back `truncated` only because "the CLI exited with 1", stop and tell the user before anything else runs.
+- **Check** (`check` in the row):
+
+  | Value | Meaning |
+  |---|---|
+  | `ok` | check.py ran and found nothing |
+  | `findings` | the counts are in `check_findings` and were printed: unverified sources, Arabic outside tags, unsourced quotes, process words |
+  | `failed` | check.py itself failed |
+
+  - Findings do not stop the pipeline; report them.
+  - For an augment, `check` covers only the additions (`WARNING: in an addition, …`). The reading's own findings, already reported with the reading, are kept in `check_baseline`.
 - **Status at any time** (no calls):
 
 ```bash
 python3 -B _commentary/v16/status.py 87 100 103
 ```
 
-It shows the map, the image prose, readings n/N, augment8 n/N, and the ayat still to run. "Spent" is the ledger total for that surah, including every earlier trial.
+It shows:
+- whether the map and the image prose are `done`, `incomplete`, `partial`, `BLOCKED` or `-` (not started);
+- readings n/N and augment8 n/N, counting only finished, complete files;
+- what is still to run;
+- every partial or blocked run, for the user to decide;
+- check findings per reading, per augment and for the image prose;
+- production ledger rows whose latest status is not ok.
+
+"Spent" is every ledger cost for the surah, including errors and earlier trials.
 
 ## Step 1: surah map (1 call)
 
@@ -48,7 +82,8 @@ It shows the map, the image prose, readings n/N, augment8 n/N, and the ayat stil
 python3 -B _commentary/v16/packets.py map --surah N --no-hft --tool          # prints the estimate; add --go to run
 ```
 
-- Output: `out/sNNN/surah.map3.nohft.tool/map.md`.
+- Output: `out/sNNN/surah.map3.nohft.tool/map.md`. `--surah` is required.
+- The map3 brief forbids tools, and the `--tool` header asks for the check. From 2026-10-04 the packet adapts that one line (`packets.TOOL_BRIEF`). Maps built before (S1, S87–S95, S100, S107) had both lines, and their models ran the check.
 - Surahs without a channel review (S108, S110, S113, S114) use HFT from the ayah bundles instead (user decision, 2026-10-03):
 
 ```bash
@@ -64,8 +99,10 @@ python3 -B _commentary/v16/packets.py images --surah N --brief r13 --tool \
     --map out/sNNN/surah.map3.nohft.tool/map.md                              # add --go to run
 ```
 
-- Output: `out/sNNN/images.r13.map3.nohft.tool.tool/images.md`, plus `check.json`.
+- Output: `out/sNNN/images.r13.map3.nohft.tool.tool/images.md`, plus `ledger.md` and `check.json`.
 - This is the surah commentary. It is final as written: no augment.
+- Complete means at least one `## ` image section, `## Buluşmalar` and a ledger. Anything else is written as `images.partial.md`, the call exits non-zero, and no reading can be built on it. Report it; the user decides.
+- An image section without a `Kaynaklar:` line is printed as a WARNING by `slices` and by the writer build.
 
 ## Step 3: ayah readings (one call per ayah)
 
@@ -88,7 +125,7 @@ python3 -B _commentary/v16/packets.py writer --ayah N:A --brief r13 --tool \
 
 - Output: `out/N_A/DM.r13.images.r13.map3.nohft.tool.tool.tool/N_A.reading.tr.md`, plus `check.json` and `ledger.md`.
 - At most 5 calls at a time, as for S87.
-- Run the builds without `--go` first. Sum the estimates and give the total to the user.
+- Run the builds without `--go` first. Sum the estimates and give the total to the user. Leave out any build that prints `BLOCKED:`; that call has already run and is never repeated.
 
 ## Step 4: ayah augment (one call per ayah)
 
@@ -107,12 +144,19 @@ python3 -B _commentary/v16/augment.py out/N_A/DM.r13.images.r13.map3.nohft.tool.
   - `check.json`.
 - **Additions** are marked blocks after their paragraph: `<!-- v16:augment brief=augment8 model=opus para=n kind=prose|refs … -->`. `augment.strip_augment()` removes them and gives back the reading byte for byte (asserted).
 - **Run it only after the ayah's reading has finished.** At most 5 calls at a time.
+- **The estimate** scales with the list: about 15k + 330 output tokens per listed passage, and twice the prompt for input because of the lookups. 87:8 (123 passages) estimates $1.63 against $1.64 actual; 256 passages comes to about $2.8.
 - **Every warning goes to the user.** The ones to expect:
   - listed passages without a verdict;
+  - verdict lines the parser could not read (each printed);
+  - a missing `=== VERDICTS ===` line;
+  - blocks after the verdicts;
+  - a ref that is not a verse;
   - verdict mismatches;
   - additions with no verdict;
   - lookups with no verdict;
   - consecutive ayat split into separate references;
+  - a missing list file or ledger;
+  - check findings inside the additions;
   - refused commands, which never ran.
 - The ledger has two rows per call: `augment` (the cost) and `augment-applied` (the counts).
 
@@ -125,26 +169,29 @@ mkdir -p _commentary/v16/work/logs
 printf '%s\n' 87:1 87:2 87:3 | xargs -P 5 -I{} sh -c \
   'python3 -B _commentary/v16/augment.py out/$(echo {} | tr : _)/DM.r13.images.r13.map3.nohft.tool.tool.tool --go \
    > _commentary/v16/work/logs/$(echo {} | tr : _).augment8.log 2>&1'
-grep -h "WARNING\|NOTE\|error" _commentary/v16/work/logs/*.augment8.log
+grep -HE "WARNING|NOTE|BLOCKED|never rerun|Traceback|Error|error|truncated|suspect|partial|safety" \
+  _commentary/v16/work/logs/*.augment8.log
+grep -L ': ok [$]' _commentary/v16/work/logs/*.augment8.log    # logs without a final ok line: read each in full
 ```
 
 Running this in the background is itself a background run, so it needs the user's go (rule 2).
 
 ## After each step
 
-1. Check that the ledger rows are `status: ok` and `check: ok`.
+1. Check the ledger rows: `status`, `check` (`ok`, `findings` or `failed`), and any `post_error`.
 2. Run `status.py` again.
 3. Report the actual cost against the estimate, and every warning, to the user.
 4. Commit the new `out/` dirs (never `work/`) with a short message, then push.
+5. After a surah's augments, ask the user whether to run the enrichment for it (Step 5).
 
 ## Cost reference (Opus 5.5 high, actual)
 
 | Step | S87 (19 ayat) | S100 (11 ayat) | Per call |
 |---|---|---|---|
-| Map | $4.19 | $1.64 | $1.6–4.3 |
+| Map | $4.19 | $1.64 | $1.6–4.3; a large surah is estimated up to $6.3 (S96) |
 | Image prose | $4.27 | $2.73 | $2.0–4.3 |
 | Readings | $21.65 | $12.06 | ~$1.1 (0.7–1.4 × estimate) |
-| Augment8 | – | – | ~$1.6–2.5 (87:8: $1.64) |
+| Augment8 | – | – | ~$1.6–2.8 by list size (87:8: $1.64) |
 
 ## Where things stand (2026-10-04)
 
@@ -159,8 +206,23 @@ Running this in the background is itself a background run, so it needs the user'
 | S96–S114, apart from S100, S103, S107 | – | – | – | – |
 
 - Older augments (augment2 and augment3) on S1, S87, S100 and S107 are superseded. They stay on disk under their own dir names.
+- Existing readings with check findings (most often Arabic outside tags, and process words) are listed by `status.py`. They were never printed when they ran, before 2026-10-04. Fixing them is the user's call.
 - `status.py` is the live view; this table is a snapshot.
 
-## Downstream
+## Step 5 (optional): enrichment
 
-Enrichment v2 (`enrichment/v2/pack.py`, another session's code) reads `augment.augment3` for ayah readings. Before it consumes production output, it must switch to `augment.augment8.opus`. Tell the user; do not edit that code from here.
+After a surah's ayat are read and augmented, there is an optional enrichment step: a page of extra notes for the advanced reader, on the surah commentary and on each ayah reading. It is a separate pipeline with its own rules and costs.
+
+- **Ask the user.** When a surah's ayah readings and augments have finished and been reported, ask whether the user also wants the enrichment run for that surah. Never start it without that go; the go for v16 does not cover it.
+- **Runbook:** `enrichment/v2/RUNBOOK.md`. Follow it for everything about enrichment: its rules, its pack step, the surah page, the ayah pages, costs and failures. Do not run it from this runbook.
+- **What it reads from v16:**
+  - the surah image prose (`images.r13…/images.md`), never augmented;
+  - each ayah's reading after augment8 (`…/augment.augment8.opus/N_A.reading.tr.md`). An ayah without augment8 gets no ayah page.
+  - The v16 outputs are frozen for it: enrichment never edits them, and reports errors in the base to its own `errata.jsonl`.
+- **Order:**
+  - The surah page can run once the image prose exists.
+  - The ayah pages need augment8 on their ayat.
+  - Its pack must be rebuilt after augment8 has run (`enrichment/v2/RUNBOOK.md`, "Ayah pages").
+- The enrichment code is another session's work; do not edit it from here.
+
+The order for each surah is: map → image prose → readings → augment8 → (ask) enrichment.

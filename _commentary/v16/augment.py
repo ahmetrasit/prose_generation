@@ -16,7 +16,7 @@ which the addition goes, ref, text); this script applies them and verifies that 
 back the original byte for byte. An insertion whose anchor is not found once in its paragraph, at a sentence end, is
 not applied and is reported. Nothing is written into the run dir itself: everything goes to <run dir>/augment.<brief>/
 (the merged commentary under the original file name, insertions.json, additions.md for reading, ledger.md,
-check.json). One call, never rerun, gate $5, logged as arm "augment".
+check.json). One call, never rerun, no cost gate (user, 2026-10-02), logged as arm "augment".
 """
 import argparse
 import hashlib
@@ -54,7 +54,8 @@ MARKED_BLOCK = re.compile(r"\n\n<!-- v16:augment [^\n]*-->\n[^\n]*")
 OUT_TOKENS = {"images": 40_000, "ayah": 20_000}  # assumed, thinking included
 PARA_SPLIT = re.compile(r"(\n[ \t]*\n)")
 SENTENCE_END = re.compile(r"[.!?…][\"”’»)]*$")
-VERDICT_OUT = 60_000  # a verdict line for every listed passage plus uncapped additions (87:8 Opus augment8: 55.2k)
+VERDICT_OUT = (15_000, 330)  # output tokens: base + per listed passage (87:8 Opus augment8: 123 listed, 55.2k out)
+LOOKUP_INPUT = 2.0  # input cost / prompt estimate with lookups (87:8 Opus augment8: 64.3k written for ~32.7k estimated)
 MAX_IN = 400_000  # tokens; a larger prompt (a long surah's union of lists) needs splitting first
 
 
@@ -99,16 +100,20 @@ def cited_by_paragraph(text: str) -> dict[int, set[str]]:
 
 
 def passages(prose: str, ayat: list[str], cites: dict[int, set[str]] | None = None,
-             neighbours: bool = False) -> tuple[str, int, list[str]]:
+             neighbours: bool = False) -> tuple[str, int, list[str], list[str]]:
     """The listed passages, best tier first, each with the ayat whose lists hold it. Without `cites`, those the prose
     cites anywhere are left out; with it (VERDICT briefs) every passage is kept and marked with the paragraphs that
-    already cite it."""
+    already cite it. Also returns the ayat whose list file was not found (printed: never silent)."""
     used = M.expand([prose]) if cites is None else set()
+    nolist = []
     rank = {t[4]: i for i, t in enumerate(M.TIERS)}
     best: dict[str, str] = {}
     where: dict[str, list[str]] = {}
     for a in ayat:
-        groups, _ = M.listed([a], tuple(t[0] for t in M.TIERS))
+        groups, found = M.listed([a], tuple(t[0] for t in M.TIERS))
+        if not found:
+            nolist.append(a)
+            print(f"WARNING: no inter-ayah list file for {a}: its passages are missing from the augment")
         for label, rs in groups:
             for r in rs:
                 if r in used:
@@ -141,7 +146,7 @@ def passages(prose: str, ayat: list[str], cites: dict[int, set[str]] | None = No
             blocks.append(f"## neighbours: within two ayat of a passage the commentary cites ({len(rs)})\n\n"
                           + "\n".join(f"- ({r}) [next to {near[r]}]{cited_in(r, cites)} {q.get(r, '')}" for r in rs))
             order += rs
-    return "\n\n".join(blocks) + "\n", len(order), order
+    return "\n\n".join(blocks) + "\n", len(order), order, nolist
 
 
 def cited_in(ref: str, cites: dict[int, set[str]] | None) -> str:
@@ -156,7 +161,8 @@ def build(d: Path, brief: str) -> tuple[str, dict]:
     numbered = []
     for st, en, num in paragraphs(text):
         numbered.append((f"[¶{num}] " if num else "") + text[st:en].strip())
-    pas, n, order = passages(text, ayat, cited_by_paragraph(text) if brief in VERDICT else None, brief in NEIGHBOURS)
+    pas, n, order, nolist = passages(text, ayat, cited_by_paragraph(text) if brief in VERDICT else None,
+                                     brief in NEIGHBOURS)
     bf = V.HERE / "prompts" / brief / "augment.md"
     head = (f"Follow the brief below (augment.md) exactly. The commentary is "
             + ("a surah commentary on the images of the whole surah" if kind == "images" else
@@ -170,7 +176,10 @@ def build(d: Path, brief: str) -> tuple[str, dict]:
             (V.rel(led), led.read_text(encoding="utf-8") if led.exists() else "(no ledger)\n"),
             (f"passages not cited ({n})", pas)]
     full = head + "".join(f"===== {p} =====\n{b.rstrip()}\n\n" for p, b in secs)
-    return full, {"kind": kind, "file": V.rel(f), "ayat": ayat, "passages": n, "listed": order}
+    if not led.exists():
+        print(f"WARNING: {V.rel(led)} not found: the model gets '(no ledger)'")
+    return full, {"kind": kind, "file": V.rel(f), "ayat": ayat, "passages": n, "listed": order,
+                  "no_list": nolist, "no_ledger": not led.exists()}
 
 
 def parse(result: str) -> tuple[list[dict], str]:
@@ -281,12 +290,16 @@ def apply_own(text: str, ins: list[dict]) -> tuple[str, list[dict]]:
 def insert_issues(merged: str, ins: list[dict], check: Path) -> list[str]:
     """What check.py found inside the applied additions: unverified sources, untagged Arabic, unsourced quotes,
     process words (user, 2026-10-03: never silent)."""
-    lines = {merged.count("\n", 0, merged.index(r["text"])) + 1 for r in ins if r["status"] == "applied"}
+    # an addition's own line when apply_marked recorded it; else its first occurrence (the older briefs)
+    lines = {r.get("line") or merged.count("\n", 0, merged.index(r["text"])) + 1
+             for r in ins if r["status"] == "applied"}
     if not check.exists():
         return []
     c = json.loads(check.read_text(encoding="utf-8"))
     out = [f"line {x['line']}: source {x.get('declared')} {x['status']}" for x in c.get("sources", [])
            if x.get("line") in lines and not str(x.get("status", "")).startswith("ok")]
+    out += [f"line {x['line']}: source {x.get('declared')} not verified: {x['status']}" for x in c.get("sources_all", [])
+            if isinstance(x, dict) and x.get("line") in lines and "ambiguous" in str(x.get("status", ""))]
     out += [f"line {x['line']}: Arabic outside a tag «{x['text']}»" for x in c.get("arabic_outside_tags", [])
             if x.get("line") in lines]
     out += [f"line {x['line']}: unsourced quote «{x['quote'][:40]}»" for x in c.get("unsourced_unmarked", [])
@@ -295,27 +308,50 @@ def insert_issues(merged: str, ins: list[dict], check: Path) -> list[str]:
     return out
 
 
-def parse_verdict(result: str) -> tuple[list[dict], dict[str, list[dict]], str]:
-    """VERDICT briefs: (=== ADD === and === REFS === blocks in order, verdict lines by ref, the verdicts text)."""
+MARKER = re.compile(r"(?m)^[ \t]*=== (ADD|REFS|VERDICTS) ===[ \t]*$")
+VERDICT_LINE = re.compile(  # "- 5:5: …", "* 5:6: …", "- **5:7**: …", "- 5:8 – …", "- 5:9-10: …", "- (5:11): …", "5:5 own: …"
+    r"^\s*(?:[-*•]|\d+[.)])?\s*\**\s*\(?\s*(\d+):(\d+)(?:[-–—](\d+))?\s*\)?\s*\**(\s+own)?\s*\**\s*(?::|\s[-–—]\s)\s*(.*)$")
+BULLET = re.compile(r"^\s*(?:[-*•]|\d+[.)])\s+\S|^\s*\(?\d+:\d+")
+
+
+def parse_verdict(result: str) -> tuple[list[dict], dict[str, list[dict]], str, dict]:
+    """VERDICT briefs: (=== ADD === and === REFS === blocks in order, verdict lines by ref, the verdicts text, and
+    what could not be read: verdict-section lines that look like verdicts but do not parse, blocks written after
+    the verdicts, a missing verdicts marker). Never silent (user, 2026-10-04): main prints and records all of it.
+    A verdict for a range (5:9-10) counts for each of its ayat."""
+    result = result.replace("\r\n", "\n").replace("\r", "\n")
     result = re.sub(r"(?m)^[ \t]*```[^\n]*$", "", result)
-    body, _, ver = result.partition("=== VERDICTS ===")
-    parts = re.split(r"(?m)^=== (ADD|REFS) ===[ \t]*$", body)
-    items = []
+    parts = MARKER.split(result)
+    items, ver_parts, seen_verdicts, after = [], [], False, 0
     for kind, blk in zip(parts[1::2], parts[2::2]):
+        if kind == "VERDICTS":
+            seen_verdicts = True
+            ver_parts.append(blk)
+            continue
+        after += seen_verdicts
         rec = {"kind": "prose" if kind == "ADD" else "refs"}
-        m = re.search(r"(?ms)^text:[ \t]*(.*)\Z", blk)
+        m = re.search(r"(?ms)^[ \t]*text:[ \t]*(.*)\Z", blk)
         rec["text"] = re.sub(r"\s*\n\s*", " ", m.group(1)).strip() if m else ""
         head = blk[:m.start()] if m else blk
         for k in ("paragraph", "ref"):
-            mm = re.search(rf"(?m)^{k}:[ \t]*(.*)$", head)
+            mm = re.search(rf"(?m)^[ \t]*{k}:[ \t]*(.*)$", head)
             rec[k] = mm.group(1).strip() if mm else ""
         items.append(rec)
+    ver = "\n".join(ver_parts)
     verdicts: dict[str, list[dict]] = {}
+    unparsed = []
     for line in ver.splitlines():
-        m = re.match(r"\s*-\s*(\d+:\d+)(\s+own)?\s*:\s*(.*)$", line)
+        m = VERDICT_LINE.match(line)
         if m:
-            verdicts.setdefault(m.group(1), []).append({"own": bool(m.group(2)), "verdict": m.group(3).strip()})
-    return items, verdicts, ver.strip()
+            s, a, b = int(m.group(1)), int(m.group(2)), m.group(3)
+            last = int(b) if b and a < int(b) <= a + M.MAX_RANGE else a
+            for x in range(a, last + 1):
+                verdicts.setdefault(f"{s}:{x}", []).append({"own": bool(m.group(4)), "verdict": m.group(5).strip()})
+        elif BULLET.match(line):
+            unparsed.append(line.strip())
+    diag = {"unparsed_verdict_lines": unparsed, "blocks_after_verdicts": after,
+            "verdicts_marker": seen_verdicts, "preamble": parts[0].strip()[:500]}
+    return items, verdicts, ver.strip(), diag
 
 
 def apply_marked(text: str, items: list[dict], brief: str, model: str) -> tuple[str, list[dict]]:
@@ -354,10 +390,11 @@ def apply_marked(text: str, items: list[dict], brief: str, model: str) -> tuple[
                     + (f" ref={r['ref']}" if r["kind"] == "prose" else "") + " -->")
             points.append((pinfo[n], 0 if r["kind"] == "prose" else 1, i, f"\n\n{mark}\n{r['text']}"))
     points.sort()
-    out, prev = [], 0
-    for off, _, _, s in points:
-        out.append(text[prev:off])
-        out.append(s)
+    out, prev, nl = [], 0, 0
+    for off, _, i, s in points:
+        out += [text[prev:off], s]
+        nl += text.count("\n", prev, off) + s.count("\n")
+        items[i]["line"] = nl + 1  # the line of the addition's text in the merged file, for insert_issues
         prev = off
     out.append(text[prev:])
     merged = "".join(out)
@@ -484,11 +521,14 @@ def call_codex(text: str, d: Path, model: str, effort: str) -> dict:
 
 
 def looked_up(out: Path) -> set[str]:
-    """Refs the call read with `missing.py text`."""
+    """Refs the call read with `missing.py text`; a command that was refused or failed read nothing."""
+    import packets as P
     f = out / "tool_calls.json"
     refs = set()
     for c in (json.loads(f.read_text(encoding="utf-8")) if f.exists() else []):
         cmd = str((c.get("input") or {}).get("command", ""))
+        if c.get("is_error") or P.DENIED in str(c.get("result", "")):
+            continue
         if " text " in cmd:
             refs |= M.expand([cmd.split(" text ", 1)[1]])
     return refs
@@ -509,11 +549,13 @@ def main() -> None:
         text = CODEX_NOTE + text
     model_id, w, o = (CODEX[model], 0.0, 0.0) if model in CODEX else V.MODELS[model]
     n_in = V.est_tokens(text)
-    est = n_in * w + (VERDICT_OUT if a.brief in VERDICT else OUT_TOKENS[meta["kind"]]) * o
+    n_out = VERDICT_OUT[0] + VERDICT_OUT[1] * meta["passages"] if a.brief in VERDICT else OUT_TOKENS[meta["kind"]]
+    est = n_in * w * (LOOKUP_INPUT if a.brief in LOOKUP else 1) + n_out * o
     out = d / (f"augment.{a.brief}" + ("" if model == MODEL else f".{model}"))
     print(f"{out.relative_to(V.HERE)}: {meta['passages']} passages, ~{n_in:,} tokens in; "
           + (f"subscription, no USD ({model_id}" if model in CODEX else f"est ${est:.2f} ({model_id}")
           + f", effort {EFFORT})")
+    V.blocked_note(out)
     if n_in > MAX_IN:
         raise SystemExit(f"prompt ~{n_in:,} tokens is over {MAX_IN:,}: split the passages before augmenting")
     if not a.go:
@@ -551,85 +593,124 @@ def main() -> None:
         res = {**row, "model": model_id, "effort": EFFORT, "seconds": round(time.time() - t0),
                "estimate_usd": round(est, 2), **V.usage_row(obj, text)}
     result = (obj.get("result") or "").strip()
-    if a.brief in LOOKUP:  # every command must be a text lookup; anything else is reported, never silent
-        import packets as P
-        bad, denied = P.audit(out, [])
-        res["audit"] = "ok" if not bad else f"{len(bad)} outside the rule"
-        res["denied"] = len(denied)
-        for c in bad:
-            print(f"WARNING: ran outside the rule: {c[:200]}")
-        for c in denied:
-            print(f"NOTE: refused (never ran): {c[:200]}")
-    V.log(res)  # the paid call is recorded before any post-processing can fail
-    if result and res["status"] == "ok":
-        (out / "augment.raw.md").write_text(result + "\n", encoding="utf-8")
-        src = V.HERE / meta["file"].replace("_commentary/v16/", "", 1)
-        original = src.read_text(encoding="utf-8")
-        if a.brief in VERDICT:
-            ins, verdicts, led = parse_verdict(result)
-            merged, ins = apply_marked(original, ins, a.brief, model)
-            vr = verdict_report(meta["listed"], verdicts, ins, M.expand([original]), looked_up(out),
-                                meta["ayat"][0].split(":")[0])
-        else:
-            ins, led = parse(result)
-            merged, ins = (apply_own if a.brief in OWN_PARAGRAPH else apply)(original, ins)
-            vr = None
-        (out / src.name).write_text(merged, encoding="utf-8")
-        (out / "insertions.json").write_text(json.dumps(ins, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-        (out / "additions.md").write_text("".join(
-            f"## ¶{r['paragraph']} · {r.get('kind', 'insert')} · {r.get('ref') or '-'} · {r['status']}\n\n"
-            + (f"… {r['after']}\n\n" if r.get("after") else "")
-            + f"**+** {r['text']}\n\n"
-            for r in ins), encoding="utf-8")
-        (out / ("verdicts.md" if vr else "ledger.md")).write_text((led or "(no ledger lines)") + "\n", encoding="utf-8")
-        _, _, _, cref = target(d)
-        res["check"] = V.run_check(out / src.name, cref, out / "check.json")
-        res["insertions"] = len(ins)
-        res["applied"] = sum(1 for r in ins if r["status"] == "applied")
-        res["ledger_lines"] = sum(1 for ln in led.splitlines() if ln.strip().startswith("-"))
-        for r in ins:  # never silent: every refused addition is printed
-            if r["status"] != "applied":
-                print(f"WARNING: not applied (¶{r['paragraph']}, {r['ref']}): {r['status']}")
-        issues = insert_issues(merged, ins, out / "check.json")
-        for x in issues:
-            print(f"WARNING: in an addition, {x}")
-        extra = {}
-        if vr:
-            for r in ins:
-                if r.get("already_cited"):
-                    print(f"WARNING: reference line of ¶{r['paragraph']} names what the paragraph already cites: "
-                          f"{', '.join(r['already_cited'])}")
-            if vr["missing"]:
-                print(f"WARNING: {len(vr['missing'])} of {len(meta['listed'])} listed passages have no verdict: "
-                      f"{', '.join(vr['missing'][:20])}{' …' if len(vr['missing']) > 20 else ''}")
-            for x in vr["mismatch"]:
-                print(f"WARNING: {x}")
-            for x in vr["conflicts"]:
-                print(f"WARNING: conflict with the commentary: {x}")
-            if vr["unjudged"]:
-                print(f"WARNING: added without a verdict line: {', '.join(vr['unjudged'])}")
-            if vr["already_cited_rejects"]:
-                print(f"WARNING: 'not relevant' because already cited: {', '.join(vr['already_cited_rejects'])}")
-            if vr["looked_up_no_verdict"]:
-                print(f"WARNING: looked up, no verdict: {', '.join(vr['looked_up_no_verdict'])}")
-            for x in vr["consecutive_split"]:
-                print(f"WARNING: consecutive ayat as separate references: {x}")
-            (out / "verdict_report.json").write_text(json.dumps(vr, ensure_ascii=False, indent=1) + "\n",
-                                                     encoding="utf-8")
-            app = [r for r in ins if r["status"] == "applied"]
-            extra = {"prose_added": sum(r["kind"] == "prose" for r in app),
-                     "ref_lines": sum(r["kind"] == "refs" for r in app),
-                     "refs_named": sum(len(re.findall(r"source:", r["text"])) for r in app if r["kind"] == "refs"),
-                     "listed": len(meta["listed"]), "verdicts_missing": len(vr["missing"]),
-                     "verdict_mismatch": len(vr["mismatch"]), "conflicts": len(vr["conflicts"]),
-                     "already_cited_rejects": len(vr["already_cited_rejects"]),
-                     "looked_up_no_verdict": len(vr["looked_up_no_verdict"]),
-                     "consecutive_split": len(vr["consecutive_split"]), "cited_only": vr["cited_only"],
-                     "relevant": vr["relevant"],
-                     "not_relevant": vr["not_relevant"]}
-        V.log({"ref": res["ref"], "arm": "augment-applied", "brief": res["brief"], "insertions": res["insertions"],
-               "applied": res["applied"], "not_applied": res["insertions"] - res["applied"],
-               "insert_issues": len(issues), "ledger_lines": res["ledger_lines"], **extra, "check": res["check"]})
+    try:  # the paid call is recorded before any post-processing can fail (finally)
+        if a.brief in LOOKUP:  # every command must be a text lookup; anything else is reported, never silent
+            import packets as P
+            bad, denied = P.audit(out, [])
+            res["audit"] = "ok" if not bad else f"{len(bad)} outside the rule"
+            res["denied"] = len(denied)
+            for c in bad:
+                print(f"WARNING: ran outside the rule: {c[:200]}")
+            for c in denied:
+                print(f"NOTE: refused (never ran): {c[:200]}")
+    except BaseException as x:
+        res["post_error"] = repr(x)[:500]
+        print(f"WARNING: the command audit failed after the paid call: {x!r}")
+        raise
+    finally:
+        V.log(res)
+    if result and res["status"] != "ok":  # never silent: the text is kept beside run.log.json, never applied
+        (out / "augment.raw.partial.md").write_text(result + "\n", encoding="utf-8")
+        print(f"WARNING: status {res['status']}: nothing applied; the output is in augment.raw.partial.md")
+    try:
+        if result and res["status"] == "ok":
+            (out / "augment.raw.md").write_text(result + "\n", encoding="utf-8")
+            src = V.HERE / meta["file"].replace("_commentary/v16/", "", 1)
+            original = src.read_text(encoding="utf-8")
+            if a.brief in VERDICT:
+                ins, verdicts, led, diag = parse_verdict(result)
+                if not diag["verdicts_marker"]:
+                    print("WARNING: no === VERDICTS === line in the output: no verdict could be read")
+                for x in diag["unparsed_verdict_lines"]:
+                    print(f"WARNING: verdict line not understood: {x[:200]}")
+                if diag["blocks_after_verdicts"]:
+                    print(f"WARNING: {diag['blocks_after_verdicts']} ADD/REFS block(s) after the verdicts (applied)")
+                if diag["preamble"]:
+                    level = "WARNING" if "===" in diag["preamble"] else "NOTE"  # e.g. **=== ADD ===**: all lost
+                    print(f"{level}: text before the first block (not applied): {diag['preamble'][:200]}")
+                q = M.verses()
+                diag["not_a_verse"] = sorted({r for r in verdicts if r not in q}
+                                             | {r["ref"] for r in ins if r["kind"] == "prose" and r.get("ref")
+                                                and r["ref"] not in q})
+                if diag["not_a_verse"]:
+                    print(f"WARNING: verdict or addition for a ref that is not a verse: {', '.join(diag['not_a_verse'])}")
+                merged, ins = apply_marked(original, ins, a.brief, model)
+                vr = verdict_report(meta["listed"], verdicts, ins, M.expand([original]), looked_up(out),
+                                    meta["ayat"][0].split(":")[0])
+            else:
+                ins, led = parse(result)
+                merged, ins = (apply_own if a.brief in OWN_PARAGRAPH else apply)(original, ins)
+                vr = None
+            (out / src.name).write_text(merged, encoding="utf-8")
+            (out / "insertions.json").write_text(json.dumps(ins, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+            (out / "additions.md").write_text("".join(
+                f"## ¶{r['paragraph']} · {r.get('kind', 'insert')} · {r.get('ref') or '-'} · {r['status']}\n\n"
+                + (f"… {r['after']}\n\n" if r.get("after") else "")
+                + f"**+** {r['text']}\n\n"
+                for r in ins), encoding="utf-8")
+            (out / ("verdicts.md" if vr else "ledger.md")).write_text((led or "(no ledger lines)") + "\n", encoding="utf-8")
+            _, _, _, cref = target(d)
+            whole = V.run_check(out / src.name, cref, out / "check.json", report=False)
+            res["insertions"] = len(ins)
+            res["applied"] = sum(1 for r in ins if r["status"] == "applied")
+            res["ledger_lines"] = sum(1 for ln in led.splitlines() if ln.strip().startswith("-"))
+            for r in ins:  # never silent: every refused addition is printed
+                if r["status"] != "applied":
+                    print(f"WARNING: not applied (¶{r['paragraph']}, {r['ref']}): {r['status']}")
+            issues = insert_issues(merged, ins, out / "check.json")
+            for x in issues:
+                print(f"WARNING: in an addition, {x}")
+            # the augment's own check is what lies inside its additions; the reading's findings were reported with
+            # the reading and are kept here as the baseline (review, 2026-10-04)
+            res["check"] = "failed" if whole == "failed" else "findings" if issues else "ok"
+            if whole == "findings":
+                res["check_baseline"] = V.check_counts(out / "check.json")
+            extra = {}
+            if vr:
+                for r in ins:
+                    if r.get("already_cited"):
+                        print(f"WARNING: reference line of ¶{r['paragraph']} names what the paragraph already cites: "
+                              f"{', '.join(r['already_cited'])}")
+                if vr["missing"]:
+                    print(f"WARNING: {len(vr['missing'])} of {len(meta['listed'])} listed passages have no verdict: "
+                          f"{', '.join(vr['missing'][:20])}{' …' if len(vr['missing']) > 20 else ''}")
+                for x in vr["mismatch"]:
+                    print(f"WARNING: {x}")
+                for x in vr["conflicts"]:
+                    print(f"WARNING: conflict with the commentary: {x}")
+                if vr["unjudged"]:
+                    print(f"WARNING: added without a verdict line: {', '.join(vr['unjudged'])}")
+                if vr["already_cited_rejects"]:
+                    print(f"WARNING: 'not relevant' because already cited: {', '.join(vr['already_cited_rejects'])}")
+                if vr["looked_up_no_verdict"]:
+                    print(f"WARNING: looked up, no verdict: {', '.join(vr['looked_up_no_verdict'])}")
+                for x in vr["consecutive_split"]:
+                    print(f"WARNING: consecutive ayat as separate references: {x}")
+                (out / "verdict_report.json").write_text(json.dumps({**vr, "parse": diag}, ensure_ascii=False, indent=1) + "\n",
+                                                         encoding="utf-8")
+                app = [r for r in ins if r["status"] == "applied"]
+                extra = {"prose_added": sum(r["kind"] == "prose" for r in app),
+                         "ref_lines": sum(r["kind"] == "refs" for r in app),
+                         "refs_named": sum(len(re.findall(r"source:", r["text"])) for r in app if r["kind"] == "refs"),
+                         "listed": len(meta["listed"]), "verdicts_missing": len(vr["missing"]),
+                         "verdict_mismatch": len(vr["mismatch"]), "conflicts": len(vr["conflicts"]),
+                         "already_cited_rejects": len(vr["already_cited_rejects"]),
+                         "looked_up_no_verdict": len(vr["looked_up_no_verdict"]),
+                         "consecutive_split": len(vr["consecutive_split"]), "cited_only": vr["cited_only"],
+                         "relevant": vr["relevant"], "not_relevant": vr["not_relevant"],
+                         "verdict_lines_unparsed": len(diag["unparsed_verdict_lines"]),
+                         "blocks_after_verdicts": diag["blocks_after_verdicts"],
+                         "verdicts_marker": diag["verdicts_marker"], "not_a_verse": len(diag["not_a_verse"])}
+            extra.update({k: meta[k] for k in ("no_list", "no_ledger") if meta.get(k)})
+            if res["check"] == "findings":
+                extra["check_findings"] = V.check_counts(out / "check.json")
+            V.log({"ref": res["ref"], "arm": "augment-applied", "brief": res["brief"], "insertions": res["insertions"],
+                   "applied": res["applied"], "not_applied": res["insertions"] - res["applied"],
+                   "insert_issues": len(issues), "ledger_lines": res["ledger_lines"], **extra, "check": res["check"]})
+    except BaseException as x:  # never silent: the failure gets a ledger row of its own
+        print(f"WARNING: post-processing failed after the paid call: {x!r}; nothing is applied")
+        V.log({"ref": res["ref"], "arm": "augment-applied", "brief": res["brief"], "post_error": repr(x)[:500]})
+        raise
     if model in CODEX:
         print(f"tokens: in {res.get('input_tokens')} (cached {res.get('cached_input_tokens')}), out "
               f"{res.get('output_tokens')} (reasoning {res.get('reasoning_tokens')}), commands {res.get('tool_calls')}")

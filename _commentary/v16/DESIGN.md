@@ -1835,3 +1835,79 @@ Sol augment8 18, Opus augment8 15.
 - **To run.** Augment8 on 36 readings: S1 7, S87 18 (87:8 is done), S100 11. At about $1.5–1.6 each by the new
   estimate, that is roughly $55–90. S103 has no map yet.
 
+
+## No silent failures: fixes from the Sonnet review (user, 2026-10-04)
+
+A read-only Sonnet 5.5 review of the production code (`v16.py`, `packets.py`, `augment.py`, `status.py`, `missing.py`,
+the briefs) found these silent paths. All are fixed; no prompt of a finished run changes (S87 map/images/87:1 and
+S100 images/100:2 rebuild identical, S100 apart from the machine path), except the map brief's tools line below.
+
+- **Check findings were never printed**, and the ledger said `check: ok` whenever check.py ran: 23 of the 44 r13
+  readings, and the S87, S100 and S107 images, have findings. `run_check` now returns `ok | findings | failed`,
+  prints the counts by kind, and the row gets `check_findings` (`v16.check_counts`). A source checked only against
+  an ambiguous root is a NOTE (`sources_unchecked`); a source named without a quote is fine.
+- **Call status.** `v16.output_status` adds `truncated` (CLI exit code not 0, or `stop_reason` other than
+  `end_turn`) and `suspect` (more text before the last tool call than after it), with the reasons printed and kept
+  in `status_why`. `call_opus` records `returncode`, the stderr tail, unreadable stream lines, and the text sizes
+  before and after the last tool call. A CLI that cannot start is recorded as an error instead of a traceback.
+- **Unclean outputs are never written under the finished name.** A map, image prose or reading whose status is not
+  ok, that has no `=== LEDGER ===` split, or whose map or image prose is incomplete, is written as `*.partial.md`,
+  and its ledger as `ledger.partial.md`. A missing ledger split now also stops the run. An augment that is not ok
+  applies nothing and keeps its text in `augment.raw.partial.md`.
+- **Ledger first.** `packets.call` and `augment.main` log the paid row in a `finally`, so a crash in
+  post-processing (file writes, check, audit) is recorded in `post_error`. An augment post-processing crash gets an
+  `augment-applied` row with `post_error`.
+- **Augment parser.**
+  - `parse_verdict` normalizes CRLF and accepts `*`, bold, parentheses, a dash separator and ranges (5:9-10
+    counts for each ayah).
+  - It prints every verdict-section line it cannot read, a missing `=== VERDICTS ===` and blocks after the
+    verdicts (still applied).
+  - A verdict or addition for a ref that is not a verse is a WARNING.
+  - All of these are counted in the `augment-applied` row.
+  - On the four saved augment5–8 outputs it reads exactly what the old parser read.
+- **Augment, smaller fixes.**
+  - Check findings are matched to each addition's own line, which `apply_marked` records, not to the first
+    occurrence of its text.
+  - Refused lookups no longer count as "looked up".
+  - A missing list file or ledger is a WARNING and recorded (`no_list`, `no_ledger`).
+  - The estimate scales with the list: 15k + 330 output tokens per passage, input × 2 for lookups. 87:8 estimates
+    $1.63 against $1.64 actual.
+- **Dry runs print `BLOCKED:`** for a dir that already ran (`v16.blocked_note`). `packets.py map/images` require
+  `--surah`, `images` defaults to `r13`, and `writer` requires `--ayah`, `--brief` and `--map`.
+- **Packets.**
+  - An image section without a `Kaynaklar:` line is a WARNING.
+  - Image prose is complete with one image section plus Buluşmalar, so a short surah can have a single image;
+    truncation is caught by the status and the ledger split.
+  - Missing HFT records are one NOTE.
+- **Map brief.** map3 says "Do not use tools…" while a `--tool` header asks for the check. A `--tool` map packet now
+  adapts that line (`packets.TOOL_BRIEF`). This changes the prompt of every map built from now on (S96 onward);
+  S1, S87–S95, S100 and S107 were built with both lines. The brief's "A later writer will read one ayah at a time"
+  is kept, for consistency with the existing maps: under r13 the images step reads the map.
+- **`missing.expand`.** "2:255 – 3" or "5:2-900", without a surah on the second number, no longer adds the second
+  number as a ref (it made 2:3 "cited"). No existing reading's or images' cited set changes.
+- **`status.py`.**
+  - It counts only finished, complete files.
+  - It shows partial and BLOCKED runs, check findings per reading, augment and image prose, and production rows
+    whose latest status is not ok.
+  - "Spent" includes errored calls.
+- **RUNBOOK.md.**
+  - It documents the statuses, the check values, partial files and BLOCKED.
+  - The warning grep is wider, and the logs without a final ok line are listed.
+  - The cost reference now includes large maps and augment by list size.
+
+Second review of the patch (same Sonnet agent; no regression in the ok path: `output_status` gives ok on all 163
+successful saved streams, and `parse_verdict` gives identical items and verdicts on every saved raw). Fixed after it:
+- **Augment check.** An augment row's `check` now covers only its additions (`insert_issues`). The reading's own
+  findings, reported with the reading, are kept as `check_baseline`; before this, nearly every augment would have read
+  "findings". `run_check(report=False)` leaves the reporting to the caller. `status.py` shows the augment's own
+  count from the ledger.
+- **The parse diagnostics** (unparsed lines, refs that are not verses, the preamble) are stored in
+  verdict_report.json under `parse`. Text before the first block that contains `===` (e.g. `**=== ADD ===**`) is a
+  WARNING, not a NOTE.
+- **Smaller fixes.**
+  - An empty ledger after `=== LEDGER ===` is a WARNING and recorded (`ledger_empty`).
+  - `status.py` gates the image-prose findings on the image prose, not the map.
+  - The RUNBOOK's "no final ok line" grep used `\$` inside double quotes (an end-of-line anchor) and listed every
+    log; it is now `': ok [$]'`.
+- **Open.** The CLI's exit code when the permission mode refuses a command has never been recorded. If it is not 0, a
+  clean run would be marked truncated and written as partial (fails safe). The first --go is to be checked for it.

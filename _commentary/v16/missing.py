@@ -109,10 +109,10 @@ def expand(tokens: list[str]) -> set[str]:
         s, a, s2, b = int(m.group(1)), int(m.group(2)), m.group(3), m.group(4)
         if b and (s2 is None or int(s2) == s) and a <= int(b) <= a + MAX_RANGE:
             used.update(f"{s}:{v}" for v in range(a, int(b) + 1))
-        else:  # a single ref, a cross-surah range or a reversed range: keep both endpoints
-            used.add(f"{s}:{a}")
-            if b:
-                used.add(f"{int(s2) if s2 else s}:{int(b)}")
+        else:  # a single ref or a cross-surah range (both endpoints kept); "2:255 – 3" or "5:2-900" without a surah
+            used.add(f"{s}:{a}")  # on the second number is not read as a ref (review, 2026-10-04)
+            if b and s2:
+                used.add(f"{int(s2)}:{int(b)}")
     return used
 
 

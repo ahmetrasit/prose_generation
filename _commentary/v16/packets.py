@@ -14,7 +14,8 @@ once before writing (the images step: once per ayah of the surah), and the call 
 nothing else; `missing.py text <refs>` (the Arabic of verses) may be run as often as needed.
 r12 (user, 2026-10-01): a brief with "slice_images" gives the writer only the image sections whose Kaynaklar members
 cite its ayah, plus ## Buluşmalar; the images call takes --tool and its output gets check.py too.
-Without --go it only builds and prints the estimate. Calls follow v16's rules: one call, never rerun, gate $5.
+Without --go it only builds and prints the estimate (and BLOCKED for a dir that already ran). Calls follow v16's
+rules: one call, never rerun; no cost gate (user, 2026-10-02). Production commands: RUNBOOK.md.
 """
 import argparse
 import hashlib
@@ -190,6 +191,12 @@ def surah_source(s: int, channels: bool | None = True, hft_bundle: bool = False)
     return text, str((wd / "prompt.md").relative_to(V.HERE))
 
 
+# From 2026-10-04 (review): a --tool map's brief no longer forbids the one command its header asks for. Maps built
+# before (S1, S87–S95, S100, S107) had both lines; their models ran the check as the header asked.
+TOOL_BRIEF = ("Do not use tools, delegate, browse or inspect files.",
+              "Do not delegate, browse or inspect files; run only the command the header describes.")
+
+
 def map_packet(brief: str = "map3", hft: bool = True, tool: bool = False, tag: str = "",
                s: int = 1, channels: bool = True, hft_bundle: bool = False) -> tuple[str, Path]:
     if not channels and not hft:
@@ -215,8 +222,12 @@ def map_packet(brief: str = "map3", hft: bool = True, tool: bool = False, tag: s
             raise SystemExit("header line not found")
         head = head.replace(*NO_HFT_HEAD)
         secs = [s for s in secs if not s[0].endswith("hft.md")]
-    swap(secs, "surah_map.md", f"_commentary/v16/prompts/{brief}/surah_map.md" + ("" if hft and channels else " (adapted)"),
-         body)
+    if tool:  # the brief forbids tools; the header asks for the check (review, 2026-10-04): the packet says both agree
+        if body.count(TOOL_BRIEF[0]) != 1:
+            raise SystemExit(f"brief line not found once: {TOOL_BRIEF[0]}")
+        body = body.replace(*TOOL_BRIEF)
+    swap(secs, "surah_map.md", f"_commentary/v16/prompts/{brief}/surah_map.md"
+         + ("" if hft and channels and not tool else " (adapted)"), body)
     if tool:
         head = head.rstrip("\n") + "\n\n" + tool_line(f"S{s}")
     text = join(head, secs)
@@ -293,15 +304,23 @@ def slice_images(text: str, ref: str, preamble: bool = True) -> tuple[str, list[
     kept = []
     for sec in secs:
         head = sec.split("\n", 1)[0][3:].strip()
+        if not head.startswith("Buluşmalar") and not any(ln.startswith("Kaynaklar:") for ln in sec.splitlines()):
+            print(f"WARNING: image section «{head}» has no line starting with 'Kaynaklar:'; no ayah can be sliced to it")
         members = " ".join(re.split(r"Kur'?an:", ln, maxsplit=1)[0] for ln in sec.splitlines() if ln.startswith("Kaynaklar:"))
         if head.startswith("Buluşmalar") or cite.search(members):
             kept.append(sec)
     return (pre if preamble else "") + "".join(kept), [s.split("\n", 1)[0][3:].strip() for s in kept]
 
 
+def images_complete_text(text: str) -> bool:
+    """At least one image section and ## Buluşmalar (a short surah may have a single image; truncation is caught by
+    the call's status and the ledger split)."""
+    t = "\n" + text
+    return t.count("\n## ") >= 2 and "\n## Buluşmalar" in t
+
+
 def images_complete(f: Path) -> bool:
-    t = "\n" + (f.read_text(encoding="utf-8") if f.exists() else "")
-    return t.count("\n## ") >= 3 and "\n## Buluşmalar" in t
+    return f.exists() and images_complete_text(f.read_text(encoding="utf-8"))
 
 
 def images_packet(map_path: Path, brief: str = "images1", tool: bool = False, s: int = 1) -> tuple[str, Path]:
@@ -352,7 +371,7 @@ def writer_packet(ref: str, brief: str, map_path: Path, labels: bool, tool: bool
         head, secs = split((V.WORK / name / f"DM.{brief}" / "prompt.md").read_text(encoding="utf-8"))
     if images:  # the images replace the map section; the header describes them instead of the map
         if not images_complete(images) or not (images.parent / "ledger.md").exists():
-            raise SystemExit(f"{images}: incomplete images (fewer than 3 sections, no ## Buluşmalar or no ledger)")
+            raise SystemExit(f"{images}: incomplete images (no image section, no ## Buluşmalar or no ledger)")
         src = images.parent / "packet.json"  # out/ has no packet.json; the build record is in work/
         if not src.exists() and images.parent.is_relative_to(V.OUT):
             src = V.WORK / images.parent.relative_to(V.OUT) / "packet.json"
@@ -416,6 +435,59 @@ def estimate(text: str, kind: str, target: str | None, model: str = "opus", chec
     return est
 
 
+def post_process(obj: dict, d: Path, kind: str, row: dict, out: dict, tool: bool, targets: list[str] | None) -> None:
+    """Write the output. Only a clean output gets the final file name (map.md, images.md, N_A.reading.tr.md); anything
+    else (a status other than ok, no ledger split, an incomplete map or images) is written as *.partial.md with a
+    WARNING, so nothing downstream or in status.py takes it for a finished output (user, 2026-10-04)."""
+    result = (obj.get("result") or "").strip()
+    clean = out["status"] == "ok"
+    if not result:
+        print(f"WARNING: {d.relative_to(V.HERE)}: no output text")
+    elif kind == "surah":
+        complete = V.map_complete_text(result)
+        out["map_complete"] = complete
+        if not complete:
+            print("WARNING: the map has no ## Chains or no ## Ayat section")
+        f = d / ("map.md" if clean and complete else "map.partial.md")
+        f.write_text(result + "\n", encoding="utf-8")
+    else:
+        prose, sep, led = result.partition(V.LEDGER_MARK)
+        out["ledger"] = bool(sep)
+        if not sep:
+            print(f"WARNING: no {V.LEDGER_MARK.strip()} line: the ledger could not be split from the prose")
+        elif not led.strip():
+            print(f"WARNING: the {V.LEDGER_MARK.strip()} line is followed by nothing: an empty ledger")
+            out["ledger_empty"] = True
+        if kind == "images":
+            complete = images_complete_text(prose) and bool(sep)
+            out["map_complete"] = complete
+            if not images_complete_text(prose):
+                print("WARNING: the images have fewer than two ## sections or no ## Buluşmalar")
+            ok = clean and complete
+            f = d / ("images.md" if ok else "images.partial.md")
+            ref = f"{row['ref'].lstrip('S')}:1"  # the focus only sets check.py's "where" labels
+        else:
+            ok = clean and bool(sep)
+            f = d / f"{d.parent.name}.reading{'' if ok else '.partial'}.tr.md"
+            ref = row["ref"]
+        if sep:
+            (d / ("ledger.md" if ok else "ledger.partial.md")).write_text(led.strip() + "\n", encoding="utf-8")
+        f.write_text(prose.strip() + "\n", encoding="utf-8")
+        out["check"] = V.run_check(f, ref, d / "check.json")
+        if out["check"] == "findings":
+            out["check_findings"] = V.check_counts(d / "check.json")
+        if not ok:
+            print(f"WARNING: written as {f.name}, not as a finished output")
+    if tool:
+        bad, denied = audit(d, targets)
+        out["tool_audit"] = "ok" if not bad else {"unexpected_commands": bad}
+        if denied:
+            out["tool_denied_not_run"] = denied
+            print(f"NOTE: {len(denied)} command(s) refused by the permission mode (not run): {denied}")
+        if bad:
+            print(f"WARNING: unexpected commands run by the agent, treat this run as contaminated: {bad}")
+
+
 def call(text: str, d: Path, kind: str, row: dict, ledger: bool, tool: bool = False, model: str = "opus",
          effort: str = "high", check: str | None = None) -> None:
     est = estimate(text, kind, (row["ref"] if tool else None), model, check)
@@ -432,40 +504,21 @@ def call(text: str, d: Path, kind: str, row: dict, ledger: bool, tool: bool = Fa
     out = {**row, "model": V.MODELS[model][0], "effort": effort, "seconds": round(time.time() - t0),
            "estimate_usd": round(est, 2),
            **V.usage_row(obj, text)}
-    result = (obj.get("result") or "").strip()
-    if result and kind == "surah":
-        (d / "map.md").write_text(result + "\n", encoding="utf-8")
-        out["map_complete"] = V.map_complete(d / "map.md")
-    elif result and kind == "images":
-        prose, sep, led = result.partition(V.LEDGER_MARK)
-        out["ledger"] = bool(sep)
-        if sep:
-            (d / "ledger.md").write_text(led.strip() + "\n", encoding="utf-8")
-        (d / "images.md").write_text(prose.strip() + "\n", encoding="utf-8")
-        out["map_complete"] = images_complete(d / "images.md") and bool(sep)
-        # the same verification record as a reading (sources, unsourced Arabic); the focus only sets "where" labels
-        out["check"] = V.run_check(d / "images.md", f"{row['ref'].lstrip('S')}:1", d / "check.json")
-    elif result:
-        prose, sep, led = result.partition(V.LEDGER_MARK)
-        out["ledger"] = bool(sep)
-        if sep:
-            (d / "ledger.md").write_text(led.strip() + "\n", encoding="utf-8")
-        reading = d / f"{d.parent.name}.reading.tr.md"
-        reading.write_text(prose.strip() + "\n", encoding="utf-8")
-        out["check"] = V.run_check(reading, row["ref"], d / "check.json")
-    if tool:
-        bad, denied = audit(d, targets)
-        out["tool_audit"] = "ok" if not bad else {"unexpected_commands": bad}
-        if denied:
-            out["tool_denied_not_run"] = denied
-            print(f"note: {len(denied)} command(s) refused by the permission mode (not run)")
-        if bad:
-            print(f"WARNING: unexpected commands run by the agent, treat this run as contaminated: {bad}")
-    V.log(out)
+    try:  # the paid row is logged even if anything below fails (finally)
+        post_process(obj, d, kind, row, out, tool, targets)
+    except BaseException as x:
+        out["post_error"] = repr(x)[:500]
+        print(f"WARNING: post-processing failed after the paid call: {x!r}; the ledger row records it")
+        raise
+    finally:
+        V.log(out)
     print(f"{d.relative_to(V.HERE)}: {out['status']} ${out.get('cost_usd')} {out.get('words')}w {out['seconds']}s")
-    if out["status"] != "ok" or out.get("map_complete") is False:
+    if out["status"] != "ok" or out.get("map_complete") is False or out.get("ledger") is False:
         raise SystemExit(f"{d.relative_to(V.HERE)}: not a clean output ({out['status']}, map_complete="
-                         f"{out.get('map_complete')}); stopping so a chained call does not use it")
+                         f"{out.get('map_complete')}, ledger={out.get('ledger')}); stopping so a chained call does "
+                         "not use it")
+    if out.get("check") in ("findings", "failed"):
+        print(f"WARNING: {d.relative_to(V.HERE)}: check {out['check']} (see the WARNING above and check.json)")
 
 
 def main() -> None:
@@ -483,18 +536,22 @@ def main() -> None:
     ap.add_argument("--model", choices=("opus", "sonnet"), default="opus", help="writer only")
     ap.add_argument("--effort", choices=("low", "medium", "high", "xhigh", "max"), default="high", help="writer only")
     ap.add_argument("--images", type=Path, help="writer: an images.md (from `images`) in place of the map")
-    ap.add_argument("--surah", type=int, default=1, help="map and images: the surah (default 1)")
+    ap.add_argument("--surah", type=int, help="map and images: the surah (required)")
     ap.add_argument("--go", action="store_true")
     a = ap.parse_args()
     if a.cmd == "slices":  # before a surah's readings: every ayah's slice, and the ayat a writer build would refuse
-        if not a.images:
+        if not a.images or a.surah is None:
             ap.error("slices needs --images and --surah")
         lacking = slice_report((V.HERE / a.images) if not a.images.is_absolute() else a.images, a.surah)
         if lacking:
             raise SystemExit(f"{len(lacking)} ayah(s) without image sections: {', '.join(lacking)}")
         return
-    if a.cmd == "writer" and a.surah != 1:
+    if a.cmd == "writer" and a.surah is not None:
         ap.error("--surah is for map and images; a writer's surah comes from --ayah")
+    if a.cmd == "writer" and not (a.ayah and a.brief and a.map):
+        ap.error("writer needs --ayah, --brief and --map")
+    if a.cmd in ("map", "images") and a.surah is None:
+        ap.error(f"{a.cmd} needs --surah")
     if a.cmd == "images":
         if not a.map or a.ayah:
             ap.error("images needs --map and takes no --ayah")
@@ -502,9 +559,10 @@ def main() -> None:
                 or a.effort != "high"):
             ap.error("images takes only --map, --brief, --tool and --go")
         mp = (V.HERE / a.map) if not a.map.is_absolute() else a.map
-        text, d = images_packet(mp, a.brief or "images1", a.tool, a.surah)
+        text, d = images_packet(mp, a.brief or "r13", a.tool, a.surah)
         print(f"{d.relative_to(V.HERE)}: {len(text):,} chars; "
               f"est ${estimate(text, 'images', f'S{a.surah}' if a.tool else None):.2f} (80k out)")
+        V.blocked_note(d)
         if a.go:
             call(text, d, "images", {"ref": f"S{a.surah}", "arm": "images", "brief": d.name}, True, a.tool)
         return
@@ -522,6 +580,7 @@ def main() -> None:
         extra = estimate(text, "surah", f"S{a.surah}") - V.estimate(text, "surah") if a.tool else 0.0
         print(f"{d.relative_to(V.HERE)}: {len(text):,} chars ~{n_in:,} tokens; est ${V.estimate(text, 'surah') + extra:.2f} "
               f"(80k out), ${realistic + extra:.2f} at {n_out // 1000}k out")
+        V.blocked_note(d)
         if a.go:
             call(text, d, "surah", {"ref": f"S{a.surah}", "arm": "surah", "brief": d.name.replace("surah.", "")}, False,
                  a.tool)
@@ -538,6 +597,7 @@ def main() -> None:
     ck = "lookup" if V.BRIEFS[a.brief].get("lookup_only") else None
     est = estimate(text, 'ayah', a.ayah if a.tool else None, a.model, ck)
     print(f"{d.relative_to(V.HERE)}: {len(text):,} chars; est ${est:.2f} ({V.MODELS[a.model][0]}, effort {a.effort})")
+    V.blocked_note(d)
     if a.go:
         call(text, d, "ayah", {"ref": a.ayah, "arm": "DM", "brief": f"{a.brief}.{tag}"}, True, a.tool, a.model,
              a.effort, ck)

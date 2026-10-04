@@ -323,9 +323,19 @@ def clean_context(ref: str, path: Path) -> Path:
     return path
 
 
-def map_complete(m: Path) -> bool:
-    t = "\n" + (m.read_text(encoding="utf-8") if m.exists() else "")
+def map_complete_text(text: str) -> bool:
+    t = "\n" + text
     return "\n## Chains" in t and "\n## Ayat" in t
+
+
+def map_complete(m: Path) -> bool:
+    return m.exists() and map_complete_text(m.read_text(encoding="utf-8"))
+
+
+def blocked_note(d: Path) -> None:
+    """Dry runs: say when a run dir is already started or finished, so its estimate is not counted."""
+    if blocked(d):
+        print(f"BLOCKED: {d} was started or finished before (never rerun); this estimate will not be spent")
 
 
 def build(ref: str, arm: str, brief: str) -> tuple[str, dict]:
@@ -429,6 +439,7 @@ def surah_build(s: int, brief: str, channels: bool = True, hft_bundle: bool = Fa
     parts = [f"# HFT: earlier activation hypotheses, per focus ayah of surah {s}"]
     if brief != "r1":
         parts.append("\n" + HFT_NOTE)
+    gaps = []
     for r in refs:  # an ayah without v9 HFT gets a stated gap (a nohft map drops this file anyway)
         f = V9 / "input" / "v2" / f"s{s:03d}" / r.replace(":", "_") / "02_hft.md"
         if hft_bundle:
@@ -439,7 +450,11 @@ def surah_build(s: int, brief: str, channels: bool = True, hft_bundle: bool = Fa
             body = body if body.strip() else "(no HFT records for this ayah)\n"
         else:
             body = trim_hft(f.read_text(encoding="utf-8")) if f.exists() else "(no HFT records for this ayah)\n"
+        if body.startswith("(no HFT records"):
+            gaps.append(r)
         parts.append(f"\n# Focus {r}\n\n" + body)
+    if gaps:
+        print(f"NOTE: no HFT records for {', '.join(gaps)} (stated in hft.md; a --no-hft map drops hft.md)")
     hft.write_text("\n".join(parts), encoding="utf-8")
     ch_src = CHANNELS / f"s{s:03d}" / "reader_a_pilot.md"
     ch = wd / "channels.md"
@@ -472,18 +487,46 @@ def surah_build(s: int, brief: str, channels: bool = True, hft_bundle: bool = Fa
 # ---- calls
 
 
-def run_check(target: Path, ref: str, out: Path) -> str:
-    """check.py's record for an output; never silent (user, 2026-10-03): a failure or a missing record is printed
-    with check.py's own error and returned as "failed", for the caller's ledger row."""
+CHECK_FINDINGS = ("sources", "arabic_outside_tags", "unsourced_unmarked", "process_lines")
+
+
+def check_counts(record: Path) -> dict[str, int]:
+    """What check.py found, by kind: sources whose status is neither ok nor a declared memory, Arabic outside reader
+    tags, unsourced quotes, process words. {} when every count is zero. A source check.py could not verify against
+    the cited letters' roots ("ok (no quote; ambiguous root)") is counted as sources_unchecked, not as a finding; a
+    passage named without a quote ("ok (no quote)") is fine."""
+    c = json.loads(Path(record).read_text(encoding="utf-8"))
+    out = {"sources": sum(1 for x in c.get("sources", []) if not str(x.get("status", "")).startswith("ok")
+                          and x.get("status") != "declared"),
+           "sources_unchecked": sum(1 for x in c.get("sources_all", [])
+                                    if isinstance(x, dict) and "ambiguous" in str(x.get("status", ""))),
+           **{k: len(c.get(k) or []) for k in CHECK_FINDINGS[1:]}}
+    return {k: v for k, v in out.items() if v}
+
+
+def run_check(target: Path, ref: str, out: Path, report: bool = True) -> str:
+    """check.py's record for an output; never silent (user, 2026-10-03/04): a failure or a missing record is printed
+    with check.py's own error and returned as "failed"; a record with findings is printed by kind and returned as
+    "findings" (the counts are in check_counts(out)); "ok" means check.py ran and found nothing. report=False leaves
+    the findings to the caller (augment reports only those inside its additions); a failure is always printed."""
     target, out = Path(target).resolve(), Path(out).resolve()  # check.py runs in its own directory
     out.unlink(missing_ok=True)
     p = subprocess.run([sys.executable, str(CHECK), str(target), "--ref", ref, "--out", str(out), "--quiet"],
                        cwd=CHECK.parent, capture_output=True, text=True)
-    if p.returncode == 0 and out.exists():
-        return "ok"
-    print(f"WARNING: check.py failed for {target} (exit {p.returncode}); no check.json\n"
-          + "\n".join((p.stderr or p.stdout).strip().splitlines()[-5:]))
-    return "failed"
+    if p.returncode != 0 or not out.exists():
+        print(f"WARNING: check.py failed for {target} (exit {p.returncode}); no check.json\n"
+              + "\n".join((p.stderr or p.stdout).strip().splitlines()[-5:]))
+        return "failed"
+    n = check_counts(out)
+    if not report:
+        return "findings" if any(k != "sources_unchecked" for k in n) else "ok"
+    if any(k != "sources_unchecked" for k in n):
+        print(f"WARNING: check findings in {target.name}: " + ", ".join(f"{k} {v}" for k, v in n.items())
+              + f" (details: {out})")
+        return "findings"
+    if n:
+        print(f"NOTE: {target.name}: {n['sources_unchecked']} source(s) check.py could not verify against a quote")
+    return "ok"
 
 
 def est_tokens(text: str) -> int:  # the cost critic's calibrated formula, as in E1
@@ -562,13 +605,18 @@ def call_opus(text: str, d: Path, model: str = "opus", allow: str | None = None,
            "--output-format", "stream-json", "--verbose", "--session-id", sid, "--safe-mode",
            "--permission-mode", "dontAsk", "--system-prompt", SYSTEM]
     env = {**os.environ, "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "128000"}
-    p = subprocess.run(cmd, input=text, capture_output=True, text=True, cwd=cwd, env=env)
+    try:
+        p = subprocess.run(cmd, input=text, capture_output=True, text=True, cwd=cwd, env=env)
+    except OSError as x:  # the CLI could not start: recorded, never silent (the dir is blocked by started.json)
+        p = subprocess.CompletedProcess(cmd, -1, "", f"could not start the claude CLI: {x!r}")
     (d / "run.stream.jsonl").write_text(p.stdout or "", encoding="utf-8")
     texts, ids, final, tool_calls, pre_tool, pre_ids, safety = [], [], {}, [], [], [], []
+    bad_lines = 0
     for line in (p.stdout or "").splitlines():
         try:
             ev = json.loads(line)
         except json.JSONDecodeError:
+            bad_lines += line.strip() != ""
             continue
         # The model's safeguards can stop a response; the CLI then continues once and the model may write a note in
         # place of the rest (S1 map3.nohft.tool.check2, 2026-09-30). The run is then not a clean output.
@@ -614,6 +662,14 @@ def call_opus(text: str, d: Path, model: str = "opus", allow: str | None = None,
     final["text_message_ids"] = ids
     final["session_id"], final["session_cwd"] = sid, str(cwd)
     final["tool_calls"] = len(tool_calls)
+    final["returncode"] = p.returncode
+    if p.stderr and "stderr_tail" not in final and "error" not in final:
+        final["stderr_tail"] = p.stderr[-3000:]
+    if bad_lines:
+        final["stream_unreadable_lines"] = bad_lines
+    # the output is the text after the last tool call; a longer text before it may be the real output (user,
+    # 2026-10-04: never silent)
+    final["pre_tool_chars"], final["final_chars"] = len("".join(pre_tool)), len("".join(texts))
     if safety:
         final["safety_stop"] = safety
     (d / "run.log.json").write_text(json.dumps(final, ensure_ascii=False) + "\n",
@@ -621,11 +677,41 @@ def call_opus(text: str, d: Path, model: str = "opus", allow: str | None = None,
     return final
 
 
+def output_status(obj: dict) -> tuple[str, list[str]]:
+    """The call's status and, for anything but a clean output, why (printed by usage_row). ok needs a result, no
+    error, an exit code of 0 (when recorded), a stop at the end of the turn (when recorded), and no longer text before
+    the last tool call than after it."""
+    result = (obj.get("result") or "").strip()
+    why = []
+    if obj.get("safety_stop"):
+        return "safety-stop", ["the model's safeguards stopped the response"]
+    if obj.get("partial"):
+        return "partial", ["the stream ended without a result event"]
+    if not result or obj.get("is_error"):
+        return "error", [f"no result or is_error ({str(obj.get('error') or obj.get('api_error_status') or '')[:200]})"]
+    if obj.get("returncode") not in (None, 0):
+        why.append(f"the CLI exited with {obj['returncode']}")
+    if obj.get("stop_reason") not in (None, "end_turn"):
+        why.append(f"stop_reason {obj['stop_reason']}")
+    if why:
+        return "truncated", why
+    if obj.get("pre_tool_chars", 0) > max(2000, obj.get("final_chars", 0)):
+        return "suspect", [f"{obj['pre_tool_chars']} chars before the last tool call, {obj.get('final_chars', 0)} after:"
+                           " the output may be the earlier text (see run.stream.jsonl)"]
+    return "ok", []
+
+
 def usage_row(obj: dict, text: str) -> dict:
     usage = obj.get("usage", {}) or {}
     result = (obj.get("result") or "").strip()
-    return {"status": "safety-stop" if obj.get("safety_stop") else "partial" if obj.get("partial")
-            else ("ok" if result and not obj.get("is_error") else "error"),
+    status, why = output_status(obj)
+    for w in why:
+        print(f"WARNING: call status {status}: {w}")
+    if obj.get("stream_unreadable_lines"):
+        print(f"WARNING: {obj['stream_unreadable_lines']} unreadable line(s) in run.stream.jsonl")
+    return {"status": status, **({"status_why": why} if why else {}),
+            "stop_reason": obj.get("stop_reason"), "returncode": obj.get("returncode"),
+            **({"stream_unreadable_lines": obj["stream_unreadable_lines"]} if obj.get("stream_unreadable_lines") else {}),
             "cost_usd": obj.get("total_cost_usd"), "output_tokens": usage.get("output_tokens"),
             "thinking_tokens": (usage.get("output_tokens_details") or {}).get("thinking_tokens"),
             "cache_write": usage.get("cache_creation_input_tokens"), "num_turns": obj.get("num_turns"),
@@ -655,8 +741,7 @@ def run_one(ref: str, arm: str, brief: str, text: str, est: float, model: str = 
     if result:
         reading = d / f"{name}.reading.tr.md"
         reading.write_text(result + "\n", encoding="utf-8")
-        subprocess.run([sys.executable, str(CHECK), str(reading), "--ref", ref, "--out", str(d / "check.json"),
-                        "--quiet"], cwd=CHECK.parent)
+        row["check"] = run_check(reading, ref, d / "check.json")
     log(row)
     return f"{tag}: {row['status']} ${row['cost_usd']} {row['words']}w {row['seconds']}s"
 
