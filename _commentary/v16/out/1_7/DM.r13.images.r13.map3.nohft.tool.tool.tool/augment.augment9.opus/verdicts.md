@@ -1,0 +1,429 @@
+- 2:16: ref ¶23 - dalâletin hidayete karşılık satın alınması: iki zıt
+- 3:51: ref ¶6 - kulluğun "dosdoğru yol" diye adlandırılması
+- 3:69: ref ¶8 - saptıranlar yalnızca kendilerini saptırır
+- 3:100: ref ¶25 - başkalarına uyarak imandan sonra geri çevrilmek, 6:71'deki "nüraddü"
+- 4:60: ref ¶25 - şeytanın uzak bir sapıklıkla saptırmak istemesi
+- 4:68: cited ¶3; nowhere else - iki adımlı okuma ¶3'te bu ayete dayanır
+- 4:69: cited ¶3; context ¶6 (in 27:19) - ¶32 de sözlerini anar; salihler topluluğunu anmak için kaynak olarak geçer
+- 4:116: ref ¶8 - "fe-kad dalle": sapma, kişinin kendi fiilinin adı
+- 4:136: ref ¶8 - aynı "fe-kad dalle" sözü
+- 4:167: ref ¶8 - aynı söz, yoldan alıkoyanlar için
+- 4:175: ref ¶3 - Allah'a tutunmak, lütuf ve dosdoğru yol
+- 5:16: ref ¶19 - O'nun rızasına uyanın yola iletilmesi
+- 6:71: cited ¶25; nowhere else - ¶25 onu tam olarak açıklar
+- 6:77: cited ¶27; context ¶21 (in 7:149) - aynı "le-in lem" kuruluşu
+- 6:126: ref ¶1 - yolun Rabbe izafetle anılması
+- 6:153: cited ¶32; nowhere else - ¶32'de açıklanır
+- 6:161: ref ¶1 - dosdoğru yolun İbrahim'in diniyle açıklanması
+- 7:16: ref ¶25 - yazar bunu 1:6'ya ait saymıştı; oysa ¶25'teki, şeytanların aklını çeldiği yolcu sahnesi tam olarak bu yolda pusu kurmaktır
+- 7:86: ref ¶2 - "her yol": sırat sıradan bir yoldur
+- 8:53: cited ¶16; nowhere else - ¶16'da açıklanır
+- 10:25: ref ¶29 - yolun varış yeri, esenlik yurdu
+- 10:32: ref ¶23 - haktan sonra ancak sapıklık var
+- 11:56: not relevant - Rabbin dosdoğru yol üzere olması bu paragrafların hiçbirine bir şey katmaz
+- 12:6: cited ¶11; nowhere else - ¶11'de açıklanır
+- 14:1: ref ¶1 - yolun ikinci kez bir adla anılması
+- 14:3: ref ¶23 - yolu eğri istemek, doğru hattın karşıtı
+- 14:28: ref ¶16 - nimeti nankörlükle değiştirmek
+- 15:41: ref ¶23 - "alâ" ile kurulan yol, 16:9'daki gibi
+- 15:42: ref ¶8 - şeytanın gücü ancak ona uyanlara yeter
+- 16:9: cited ¶23; context ¶30 (in 16:7) - hayvanlardan yola geçiş sırası
+- 16:76: ref ¶29 - nereye gönderilse hayır getirmeyen, dosdoğru yol üzerinde olanın karşısında
+- 17:9: not relevant - Kur'an'ın en doğruya iletmesi; yalnızca kök ortak
+- 19:36: ref ¶6 - kulluk = dosdoğru yol nakaratı
+- 19:43: ref ¶4 - oğulun babasını yola iletmesi
+- 20:81: cited ¶17; nowhere else - ¶17'de açıklanır
+- 20:123: ref ¶23 - hidayete uyan sapmaz
+- 22:54: not relevant - genel bir hidayet sözü, bir şey katmaz
+- 23:73: ref ¶23 - dosdoğru yola çağrı (23:74 ile birlikte)
+- 23:74: ref ¶23 - yoldan yana sapanlar
+- 24:46: not relevant - genel bir hidayet nakaratı
+- 26:20: cited ¶27; nowhere else - ¶27'de açıklanır
+- 28:17: prose ¶27, ref ¶6 - aynı olay: saptırıcının işinden bağışlanmaya, oradan "en'amte aleyye"ye
+- 30:29: ref ¶27 - Allah'ın saptırdığını kimse yola iletemez
+- 36:61: ref ¶6 - kulluk = dosdoğru yol
+- 37:23: cited ¶2; ref ¶29 - sapanların da bir varış yeri vardır
+- 37:118: ref ¶3 - peygamberlerin aynı belirli yola iletilmesi
+- 38:26: ref ¶24 - saptıran heva ve unutma
+- 42:53: prose ¶1 - aynı bedel kuruluşu; yol, sahibiyle adlandırılır
+- 43:43: ref ¶1 - Peygamber dosdoğru yol üzerindedir
+- 43:64: ref ¶6 - kulluk = dosdoğru yol nakaratı
+- 56:92: ref ¶8 - dâllîn'in yalanlayanlarla birlikte anılması
+- 58:14: ref ¶7 - aynı uyarıda gazabın failinin anılması
+- 93:7: cited ¶27; nowhere else - ¶27'de açıklanır
+- 93:11: ref ¶27 - aynı surede yola iletilmenin ardından gelen nimet
+- 102:8: ref ¶12 - naîmden hesaba çekilmek
+- 105:2: ref ¶26 - "tadlîl": boşa çıkıp yitmek
+- 2:61: cited ¶17; nowhere else - ¶17'de açıklanır
+- 2:90: prose ¶14, ref ¶17 - bi'se gazapla birleşir; gazap üstüne gazap
+- 2:108: ref ¶22 - "dalle sevâe's-sebîl" nakaratı
+- 2:122: ref ¶17 - "en'amtü aleyküm" nakaratı
+- 2:152: not relevant - nimetten söz etmeyen bir şükür emri
+- 2:213: ref ¶32 - tek ümmetin bölünmesi ve dosdoğru yol
+- 4:88: ref ¶29 - saptırılanın yolu yoktur
+- 4:93: ref ¶7, ¶19 - gazabın faili anılır; gazabın karşılığı sayılır
+- 4:119: ref ¶15 - saptırmayla birlikte gelen değiştirme
+- 5:6: ref ¶11 - nimeti tamamlama nakaratı
+- 5:11: ref ¶10 - geri çevrilen eller nimet olarak anılır
+- 5:60: cited ¶22; nowhere else - ¶22'de açıklanır
+- 5:77: ref ¶22 - "dallû an sevâi's-sebîl"
+- 5:105: ref ¶8 - sapanın sapması kendi işidir
+- 6:140: ref ¶8 - sapma, yaptıklarının adıdır
+- 7:30: ref ¶25 - şeytanları dost edinenler
+- 7:140: ref ¶17 - üstün kılınan halkın başka bir ilah istemesi
+- 7:152: cited ¶21; nowhere else - ¶21'de açıklanır
+- 7:162: context ¶15 (in 2:59), ref ¶17 - "gayr" ile değiştirme; nimetten azaba geçiş
+- 7:178: ref ¶27 - "kimi Allah yola iletirse" nakaratı
+- 7:186: ref ¶27 - Allah'ın saptırdığını yola iletecek kimse yoktur
+- 9:93: ref ¶20 - kalplerin üzerine basılan mühür
+- 9:115: ref ¶16 - hidayet de sebepsiz değişmez
+- 10:15: ref ¶15 - "başka" ve "değiştirmek" yan yana
+- 10:108: context ¶8 (in 17:15) - "yadıllü aleyhâ" nakaratı
+- 14:4: ref ¶27 - dilediğini saptırır, dilediğini yola iletir
+- 14:7: ref ¶10, ¶16 - nimetle artış; şükür ve küfür
+- 14:27: ref ¶8 - Allah'ın saptırması zalimlere yönelir
+- 14:36: ref ¶4 - aidiyet uymakla kurulur
+- 15:39: ref ¶25 - İblis'in azdırma yemini
+- 16:18: not relevant - nimetlerin sayılamaması bir şey katmaz
+- 16:53: ref ¶6 - her nimet O'ndandır
+- 16:72: not relevant - nimete nankörlüğü 14:28 ve 16:112 karşılıyor; yeni bir şey katmıyor
+- 16:81: prose ¶13, ref ¶11 - gölgelik ve dağ barınağı nimetin tamamlanması olarak
+- 16:106: ref ¶7, ¶16 - "aleyhim gadabün mina'llâh"; imandan sonra değişmek
+- 16:121: cited ¶11; nowhere else - ¶11'de açıklanır
+- 17:15: prose ¶8 - sapma için kullanılan "alâ" sapanın kendisine döner
+- 17:67: ref ¶26 - yalvarılanların kaybolması
+- 17:73: not relevant - yalnızca "gayr" kelimesi ortak
+- 17:83: cited ¶16; nowhere else - ¶16'da açıklanır
+- 17:97: ref ¶27 - "Allah kimi yola iletirse" nakaratı
+- 18:17: ref ¶27 - aynı nakarat
+- 18:104: ref ¶26 - çabanın yitip gitmesi
+- 20:86: cited ¶17; ref ¶21 - öfkeli ve kederli dönüş
+- 21:54: ref ¶4 - babalarla birlikte sapıklık
+- 21:112: not relevant - "müste'ân" 1:5 ile yalnızca kökte ortak
+- 22:3: ref ¶2 - 22:4 ile birlikte: şeytanın uyanı iletmesi
+- 22:4: ref ¶2 - hidayet fiilinin ateşe doğru kullanılması
+- 22:9: not relevant - genel olarak saptıran, bir şey katmaz
+- 24:9: not relevant - lanetleşme yemininin kalıbı, bir topluluk değil
+- 24:21: ref ¶1 - şeytanın adımları nakaratı
+- 25:42: ref ¶31 - aynı "edallü sebîlâ"
+- 26:86: ref ¶4, ¶27 - peygamberin babası dâllîn'den
+- 27:19: prose ¶6, ref ¶3, ¶11 - duada ikinci şahıs "en'amte"; salihlere katılmak; nimet ana babadan uzanır
+- 27:92: not relevant - "aleyhâ" yok, bir şey katmaz
+- 28:15: context ¶27 (in 28:17) - aynı olaydaki "mudıllün mübîn"
+- 28:50: ref ¶31 - hevasına uyandan daha sapkın kimse yoktur
+- 30:55: not relevant - yalnızca "gayr" ortak
+- 31:6: not relevant - genel olarak saptıran
+- 31:20: ref ¶11 - nimetlerin bol ve tam verilmesi
+- 32:10: cited ¶26; nowhere else - ¶26'da açıklanır
+- 33:36: ref ¶8 - "fe-kad dalle" nakaratı
+- 33:67: ref ¶25 - uyulan büyüklerin saptırması
+- 34:13: not relevant - nimet anılmadan yalnızca şükür
+- 34:50: ref ¶27 - Peygamber kendi aleyhine sapmaktan söz eder
+- 35:3: ref ¶6 - nimeti verenin O olduğunu bilmek
+- 35:8: ref ¶27 - dilediğini saptırır, dilediğini yola iletir
+- 36:4: ref ¶1 - Peygamber dosdoğru yol üzerindedir
+- 36:62: ref ¶25 - şeytanın birçok nesli saptırması
+- 37:43: not relevant - naîm cennetleri; yalnızca kelime ortak
+- 39:8: ref ¶16 - nimet unutmaya ve saptırmaya dönüşür
+- 39:36: ref ¶27 - Allah'ın saptırdığını yola iletecek kimse yoktur
+- 39:41: context ¶8 (in 17:15) - "yadıllü aleyhâ" nakaratı
+- 39:49: ref ¶16 - nimet bir sınavdır
+- 39:64: not relevant - yalnızca "gayr" ortak
+- 40:34: ref ¶8 - saptırma, haddi aşana ve kuşkucuya yönelir
+- 41:17: ref ¶8 - yol gösterilen kişi körlüğü seçer
+- 42:37: ref ¶21 - öfkelenince bağışlamak
+- 42:46: ref ¶29 - saptırılanın yolu yoktur
+- 43:32: not relevant - bir ilgisi yok
+- 43:36: ref ¶25 - şeytan yoldaş (43:37-38 ile birlikte)
+- 43:37: ref ¶25 - yoldan alıkoyan yoldaşlar
+- 45:23: ref ¶31 - hevasını ilah edinen
+- 46:28: ref ¶26 - ilah edindikleri kaybolur
+- 47:1: ref ¶26 - amellerin yitirilmesi
+- 47:8: ref ¶26 - aynı söz
+- 48:6: ref ¶7, ¶19 - gazabın faili anılır; gazabın karşılığı sayılır
+- 53:23: not relevant - zanna uymak; bir şey katmaz
+- 53:29: not relevant - bir ilgisi yok
+- 53:30: ref ¶23 - sapanla yolu bulanın karşı karşıya gelmesi
+- 56:51: ref ¶8 - dâllîn yalanlayanlarla birlikte
+- 60:13: cited ¶7; nowhere else - ¶7'de açıklanır
+- 61:5: ref ¶16 - değişim onlardan başlar
+- 67:9: not relevant - uyarıcılara yöneltilen suçlama
+- 67:10: ref ¶31 - işitmediklerini ve akıl etmediklerini itiraf ederler
+- 68:7: ref ¶23 - sapanla yolu bulanın karşı karşıya gelmesi
+- 68:26: prose ¶24 - yerini bulamamak anlamında "dâllûn"
+- 68:49: ref ¶11 - yetişen nimet, seçilmek ve salihler
+- 74:31: ref ¶27 - dilediğini saptırır, dilediğini yola iletir
+- 82:13: ref ¶12 - iyiler naîm içindedir
+- 83:22: ref ¶12 - aynı nakarat
+- 83:32: not relevant - müminlere yöneltilen bir suçlama, paragrafa bir şey katmaz
+- 88:8: cited ¶12; nowhere else - ¶12'de açıklanır
+- 89:15: ref ¶12 - "na''amahû": rahat içinde tutmak bir sınavdır
+- 92:19: ref ¶10 - karşılığı ödenecek bir iyilik olarak nimet
+- 109:1: not relevant - kulluğun reddi, ayetin topluluklarıyla bir bağı yok
+- 109:2: not relevant - aynı
+- 109:3: not relevant - tekrarlanan "lâ" yalnızca biçimde ortak
+- 109:4: not relevant - aynı
+- 109:5: not relevant - aynı
+- 109:6: not relevant - aynı
+- 11:112: ref ¶17 - azgınlık etmeme yasağı, dosdoğru durma emriyle birlikte
+- 15:87: not relevant - Kur'an onu bu ayete bağlamaz
+- 19:58: cited ¶4; ref ¶3 - nimet verilenlerin adlarının sayılması
+- 36:66: ref ¶2 - sırat, gözle bulunan bir yoldur
+- 38:22: ref ¶22 - yolun ortasının istenmesi
+- 81:26: ref ¶29 - "nereye gidiyorsunuz?"
+- 4:115: ref ¶1 - müminlerin yolu ve onun "gayr"ı
+- 5:20: ref ¶17 - Musa nimeti hatırlatır
+- 5:65: not relevant - naîm cennetleri, yalnızca kelime ortak
+- 7:202: ref ¶25 - kardeşleri azgınlığa çeken şeytanlar
+- 11:19: ref ¶23 - eğrilik nakaratı
+- 14:6: ref ¶17 - Musa nimeti hatırlatır
+- 14:48: ref ¶15 - "başka bir yer"le değiştirmek
+- 20:135: ref ¶1 - yolun sahipleri
+- 23:23: not relevant - "O'ndan başka ilah"; yalnızca kelime ortak
+- 26:22: ref ¶27 - Firavun'un başa kaktığı "nimet"
+- 30:31: ref ¶32 - 30:32 ile birlikte: parçalanıp gruplara ayrılmak
+- 35:20: ref ¶9 - her terimde yenilenen "lâ"
+- 37:57: ref ¶25 - neredeyse helake sürükleyen arkadaş ve kurtaran nimet
+- 43:40: ref ¶31 - sağır, kör ve sapıklıkta olan
+- 43:59: ref ¶6 - nimet verilen kişi bir kuldur
+- 43:61: ref ¶1 - "bana uyun, bu dosdoğru yoldur"
+- 48:2: cited ¶11; nowhere else - ¶11'de açıklanır
+- 50:31: not relevant - yalnızca "gayr" ortak
+- 53:2: ref ¶27 - Peygamberin sapmadığı
+- 77:23: not relevant - tek başına bir "ni'me" kullanımı, yalnızca kelime ortak
+- 100:3: not relevant - farklı kök (gh-w-r)
+- 2:40: cited ¶17; nowhere else - ¶17'de açıklanır
+- 2:47: ref ¶17 - "en'amtü aleyküm" nakaratı
+- 2:119: not relevant - bir ilgisi yok
+- 2:198: ref ¶27 - müminler daha önce dâllîn'dendi
+- 2:282: cited ¶24; nowhere else - ¶24'te açıklanır
+- 3:112: ref ¶17 - "bâû bi-gadab" nakaratı
+- 3:154: not relevant - yalnızca "gayr" ortak
+- 4:56: ref ¶15 - "başka deriler"le değiştirmek
+- 6:93: not relevant - yalnızca "gayr" ortak
+- 10:23: not relevant - kurtulduktan sonraki taşkınlık; 39:8 ve 17:83 bunu karşılıyor
+- 10:62: not relevant - korkunun olmadığı bir "aleyhim"; bir şey katmaz
+- 12:8: not relevant - bir peygambere yöneltilen suçlama, paragrafa bir şey katmaz
+- 16:5: context ¶30 (in 16:7) - hayvanlardaki fayda
+- 23:6: not relevant - yalnızca "gayr" ortak
+- 33:37: ref ¶10 - Allah'ın ve Peygamberin aynı kişiye nimet vermesi
+- 36:27: not relevant - bir ilgisi yok
+- 39:61: not relevant - bir ilgisi yok
+- 42:18: not relevant - genel bir "uzak sapıklık"
+- 42:52: context ¶1 (in 42:53) - bedelin ilk terimi
+- 47:12: ref ¶31 - hayvanların yediği gibi yemek
+- 52:17: not relevant - yalnızca naîm kelimesi ortak
+- 68:9: not relevant - bir ilgisi yok
+- 73:11: ref ¶12 - rahat ve bolluk (na'me) sahibi yalanlayıcılar
+- 83:6: not relevant - bir ilgisi yok
+- 83:11: not relevant - bir ilgisi yok
+- 89:13: not relevant - gazap kelimesi geçmeyen bir azap
+- 106:3: not relevant - bir ilgisi yok
+- 2:142: not relevant - kıble bağlamında genel bir hidayet nakaratı
+- 3:88: not relevant - bir ilgisi yok
+- 7:61: ref ¶27 - Nuh'ta sapıklık olmadığı
+- 7:150: cited ¶21; context ¶19 (in 43:55) - "esif" kökü
+- 12:57: not relevant - bir ilgisi yok
+- 12:95: not relevant - bir peygambere yöneltilen suçlama
+- 21:87: ref ¶21 - yazar öfke onun kendisine ait olduğu için dışarıda bırakmıştı; ¶21 tam da bir insanın kendi öfkesini ve geri dönüşünü anlatıyor
+- 23:32: not relevant - "O'ndan başka ilah"
+- 26:99: ref ¶25 - suçluların saptırması
+- 26:101: ref ¶25 - candan bir dostun olmaması
+- 26:133: ref ¶30 - yardım olarak verilen hayvanlar
+- 26:173: not relevant - bir ilgisi yok
+- 31:31: not relevant - nimetle akan gemi; paragrafa bağlanmıyor
+- 35:37: not relevant - yalnızca "gayr" ortak
+- 37:69: prose ¶4 - yolunu yitirmiş babaların izinde koşmak
+- 42:42: not relevant - yalnızca "gayr" ortak
+- 47:38: ref ¶4 - yerlerine başka bir topluluğun getirilmesi
+- 51:36: not relevant - yalnızca "gayr" ortak
+- 70:30: not relevant - yalnızca "gayr" ortak
+- 71:24: not relevant - putların saptırması, paragrafa bir şey katmaz
+- 74:10: not relevant - yalnızca "gayr" ortak
+- 76:14: not relevant - cennetin gölgesi; yalnızca görüntü ortak
+- 79:33: not relevant - hayvanlar alıcı olarak geçer, nimet olarak değil
+- 84:25: not relevant - yalnızca "gayr" ortak
+- 95:6: not relevant - yalnızca "gayr" ortak
+- 2:38: not relevant - sapmadan söz edilmez; 20:123 bunu karşılıyor
+- 2:39: not relevant - bir ilgisi yok
+- 2:41: not relevant - bir ilgisi yok
+- 2:42: not relevant - bir ilgisi yok
+- 2:59: prose ¶15, ref ¶17 - "gayr" ile değiştirmek; nimetten azaba geçiş
+- 2:60: ref ¶17 - "yiyin, için, bozgunculuk etmeyin" uyarısı
+- 2:62: ref ¶17 - ödülü topluluğa mensup olmak değil, hâl belirler
+- 2:63: not relevant - bir şey katmaz
+- 2:280: not relevant - bir ilgisi yok
+- 2:281: not relevant - bir ilgisi yok
+- 2:283: not relevant - bir ilgisi yok
+- 2:284: not relevant - bir ilgisi yok
+- 4:64: not relevant - bir şey katmaz
+- 4:65: not relevant - bir şey katmaz
+- 4:67: not relevant - ¶3 bu ödülü zaten anlatıyor
+- 4:70: ref ¶3 - bu beraberlik bir lütuftur
+- 4:71: not relevant - bir ilgisi yok
+- 5:58: not relevant - bir ilgisi yok
+- 5:59: not relevant - ¶22 bunu zaten anlatıyor
+- 5:61: not relevant - bir ilgisi yok
+- 5:62: not relevant - bir ilgisi yok
+- 6:69: not relevant - bir ilgisi yok
+- 6:70: not relevant - bir ilgisi yok
+- 6:72: not relevant - bir ilgisi yok
+- 6:73: not relevant - bir ilgisi yok
+- 6:75: ref ¶27 - arayış, Allah'ın göstermesiyle olur
+- 6:76: not relevant - 6:77'deki adımın bir benzeri, bir şey katmaz
+- 6:78: ref ¶27 - arayışın sonu (6:79 ile birlikte)
+- 6:79: ref ¶27 - yüzünü yaratana çevirmek
+- 6:151: not relevant - ¶32 bu öğütleri zaten anıyor
+- 6:152: not relevant - aynı
+- 6:154: ref ¶11 - Musa'ya bir tamamlama olarak verilen kitap
+- 6:155: not relevant - bir şey katmaz
+- 7:148: context ¶21 (in 7:149) - yol göstermeyen buzağı
+- 7:149: prose ¶21 - yolunu yitirdiğini görmek ve rahmet istemek
+- 7:151: not relevant - ¶21 bunu zaten anlatıyor
+- 7:155: ref ¶21 - bağışlanma duası (7:156 ile birlikte)
+- 7:156: ref ¶21 - her şeyi kuşatan rahmet
+- 7:177: not relevant - bir şey katmaz
+- 7:180: not relevant - bir ilgisi yok
+- 7:181: ref ¶31 - hakla yola ileten topluluk, bir karşıtlık olarak
+- 8:50: not relevant - bir şey katmaz
+- 8:51: ref ¶16 - başa gelenin kendi ellerinin yaptığı yüzünden olması
+- 8:54: ref ¶16 - nimetin değiştiği örnek
+- 8:55: ref ¶31 - canlıların en kötüsü
+- 12:4: not relevant - ¶11 bunu zaten anlatıyor
+- 12:5: not relevant - bir şey katmaz
+- 12:7: not relevant - bir ilgisi yok
+- 13:9: not relevant - bir ilgisi yok
+- 13:10: not relevant - bir ilgisi yok
+- 13:12: not relevant - bir ilgisi yok
+- 13:13: not relevant - bir ilgisi yok
+- 16:7: prose ¶30 - yük taşıyan hayvanlardan yola geçiş
+- 16:8: not relevant - bir şey katmaz
+- 16:10: not relevant - bir ilgisi yok
+- 16:11: not relevant - bir ilgisi yok
+- 16:119: ref ¶21 - "min ba'dihâ le-gafûrun rahîm" nakaratı
+- 16:120: not relevant - bir şey katmaz
+- 16:122: ref ¶11 - İbrahim salihlerdendir
+- 16:123: ref ¶11 - İbrahim'in dinine uymak
+- 17:81: not relevant - bir ilgisi yok
+- 17:82: not relevant - bir ilgisi yok
+- 17:84: not relevant - bir şey katmaz
+- 17:85: not relevant - bir ilgisi yok
+- 19:56: ref ¶3 - sıddık bir peygamber
+- 19:57: not relevant - bir şey katmaz
+- 19:60: ref ¶4 - o kuşak için açık kapı
+- 19:61: not relevant - bir şey katmaz
+- 20:78: not relevant - bir şey katmaz
+- 20:79: ref ¶17 - daha önceki saptırıcı
+- 20:83: not relevant - ¶17 bunu zaten anlatıyor
+- 20:87: ref ¶17 - yoldan çıkarılışın biçimi (20:88 ile birlikte)
+- 20:88: ref ¶17 - Sâmirî'nin çıkardığı buzağı
+- 25:43: ref ¶31 - hevasını ilah edinen
+- 25:45: not relevant - bir ilgisi yok
+- 25:46: not relevant - bir ilgisi yok
+- 26:16: not relevant - bir şey katmaz
+- 26:17: not relevant - bir şey katmaz
+- 26:19: ref ¶27 - "nankörlerden" suçlamasına "dâllîn" cevabı
+- 26:23: not relevant - bir şey katmaz
+- 32:8: not relevant - bir şey katmaz
+- 32:9: not relevant - bir şey katmaz
+- 32:11: ref ¶26, ¶29 - kaybolma sorusunun cevabı; kaybolanın da bir dönüşü vardır
+- 32:12: not relevant - bir şey katmaz
+- 37:21: not relevant - bir şey katmaz
+- 37:22: not relevant - ¶2 bunu zaten anlatıyor
+- 37:24: not relevant - bir şey katmaz
+- 37:25: not relevant - bir ilgisi yok
+- 48:0: not relevant - besmele
+- 48:3: not relevant - bir şey katmaz
+- 48:4: not relevant - bir şey katmaz
+- 60:11: not relevant - bir ilgisi yok
+- 60:12: not relevant - bir ilgisi yok
+- 88:6: not relevant - yiyecekle ilgili bir ayrıntı, bir şey katmaz
+- 88:7: not relevant - aynı
+- 88:9: ref ¶12 - hoşnut yüz
+- 88:10: not relevant - bir şey katmaz
+- 93:4: not relevant - bir şey katmaz
+- 93:5: not relevant - bir şey katmaz
+- 93:8: not relevant - bir şey katmaz
+- 93:9: not relevant - bir şey katmaz
+- 6:87 own: context ¶1 (in 6:90) - seçilip yola iletilen peygamberler
+- 6:90 own: prose ¶1 - "ülâike'llezîne hedallâh": onları ardından izlemek
+- 31:15 own: ref ¶1 - "Bana yönelenin yolu"
+- 2:168 own: ref ¶1 - şeytanın adımları nakaratı
+- 2:208 own: ref ¶1 - aynı nakarat
+- 6:142 own: ref ¶1 - aynı nakarat
+- 4:168 own: ref ¶2 - cehennem yolu (4:169 ile birlikte)
+- 4:169 own: ref ¶2 - cehennem yolu
+- 67:22 own: prose ¶2, ref ¶5 - dosdoğru yol üzerinde yürümek; "ehdâ"
+- 25:63 own: ref ¶5 - Rahman'ın kullarının yürüyüşü
+- 19:41 own: ref ¶3 - sıddık bir peygamber
+- 57:19 own: ref ¶3 - sıddıklar ve şehitler
+- 12:101 own: ref ¶3 - "beni salihlere kat"
+- 26:83 own: ref ¶3 - aynı dua
+- 18:31 own: ref ¶3, ¶14 - "ve hasünet mürtefekâ" kuruluşu; ni'me ile bi'se
+- 18:29 own: ref ¶14 - bi'se, ni'me'nin karşısında
+- 37:114 own: ref ¶3 - Musa ile Harun'a lütuf
+- 3:101 own: ref ¶3 - Allah'a tutunmak ve dosdoğru yola iletilmek
+- 2:124 own: prose ¶4 - ahit, soydan zalimlere erişmez
+- 37:70 own: context ¶4 (in 37:69) - babaların izinde koşmak
+- 37:113 own: ref ¶4 - soyda iyilik eden de kendine zulmeden de var
+- 57:26 own: ref ¶4 - soyda yolu bulan da yoldan çıkan da var
+- 11:46 own: ref ¶4 - aileye ait olmak işe bağlıdır
+- 3:68 own: ref ¶4 - İbrahim'e en yakın olanlar ona uyanlardır
+- 43:22 own: ref ¶4 - atalarının izinde yolu bulduklarını iddia edenler
+- 46:15 own: ref ¶6, ¶11 - aynı ikinci şahıs "en'amte aleyye ve alâ vâlideyye"
+- 72:10 own: prose ¶7 - kötülük faili anılmadan edilgen, iyilik Rabbe bağlı
+- 72:1 own: context ¶7 (in 72:10) - konuşanlar Kur'an'ı dinleyen cinlerdir
+- 26:78 own: ref ¶7 - yaratmak ve yol göstermek Rabbe bağlanır
+- 26:79 own: ref ¶7 - doyurmak ve su vermek Rabbe bağlanır
+- 26:80 own: ref ¶7 - hastalanmak kişinin kendisine, şifa Rabbe bağlanır
+- 18:79 own: ref ¶7 - kusurlu kılmak konuşanın kendisine bağlanır
+- 18:82 own: ref ¶7 - iyilik Rabbe bağlanır
+- 2:150 own: ref ¶11 - nimeti tamamlamak ve "yolu bulasınız diye"
+- 5:3 own: ref ¶11 - nimeti tamamlama nakaratı
+- 68:50 own: ref ¶11 - seçilip salihlerden kılınmak
+- 83:24 own: ref ¶12 - yüzlerdeki naîm tazeliği
+- 88:2 own: ref ¶12 - karşıdaki zelil yüz
+- 88:3 own: ref ¶12 - çalışıp yorgun düşen yüz
+- 44:27 own: ref ¶12 - yalanlayıcıların rahat ve bolluğu (na'me)
+- 16:80 own: ref ¶13 - göçte ve konaklamada kullanılan barınak
+- 2:211 own: ref ¶16 - Allah'ın nimetini değiştirmek
+- 16:112 own: ref ¶16 - nimetlere nankörlük eden kasaba
+- 2:178 own: prose ¶18 - kısasın yerine konan ödeme bir hafifletmedir
+- 42:28 own: ref ¶18 - umutsuzluktan sonra gelen yağmur
+- 12:65 own: ref ¶18 - aileye erzak (mîre) getirmek
+- 43:55 own: prose ¶19 - öfkelendirilmek intikam ile karşılanır
+- 43:54 own: context ¶19 (in 43:55) - Firavun'un kavmini hafife alması
+- 3:162 own: ref ¶19 - rızanın karşısındaki öfke (sahat)
+- 47:28 own: ref ¶19 - Allah'ı öfkelendiren şeye uyup O'nun rızasından hoşlanmamak
+- 39:23 own: prose ¶20 - yumuşayan deri ve kalp hidayetle birlikte anılır
+- 39:22 own: context ¶20 (in 39:23) - katılaşan kalp sapıklıkla birlikte anılır
+- 2:74 own: ref ¶20 - yazar kökü farklı olduğu ve yalnızca bir benzetme olduğu için dışarıda bırakmıştı; oysa ayet, paragrafın anlattığı katılaşmayı kalpler için doğrudan söyler
+- 2:7 own: ref ¶20 - mühürlenen kalpler, içine bir şey geçmeyen yüzey
+- 83:14 own: ref ¶20 - kalplerin üstünü kaplayan kir
+- 20:94 own: ref ¶21, ¶32 - öfkenin bedendeki hâli; bölünmekten korkmak
+- 5:12 own: ref ¶22 - "dalle sevâe's-sebîl" nakaratı
+- 60:1 own: ref ¶22 - aynı nakarat
+- 2:175 own: ref ¶23 - dalâletin hidayete karşılık satın alınması
+- 6:117 own: ref ¶23 - sapanla yolu bulanın karşı karşıya gelmesi
+- 16:125 own: ref ¶23 - aynı nakarat
+- 20:52 own: ref ¶24 - "dalle" ile unutmak yan yana
+- 68:17 own: context ¶24 (in 68:26) - bahçe sahiplerinin yemini
+- 68:27 own: context ¶24 (in 68:26) - "biz yoksun bırakılmışız"
+- 25:27 own: prose ¶25 - elçiyle birlikte tutulacak yol, saptıran dost
+- 25:28 own: context ¶25 (in 25:27) - dost edinilen falanca
+- 25:29 own: context ¶25 (in 25:27) - "beni saptırdı"
+- 43:38 own: ref ¶25 - "ne kötü yoldaş"
+- 7:37 own: prose ¶26 - tapılanların gözden kaybolması: "dallû annâ"
+- 6:24 own: ref ¶26 - uydurdukları onlardan kaybolur
+- 41:48 own: ref ¶26 - yalvardıkları onlardan kaybolur
+- 28:16 own: context ¶27 (in 28:17) - bağışlanma dileği ve bağışlanma
+- 28:33 own: context ¶27 (in 28:17) - "onlardan birini öldürdüm"
+- 3:164 own: ref ¶27 - elçi gelmeden önceki apaçık sapıklık
+- 62:2 own: ref ¶27 - aynı nakarat
+- 16:93 own: ref ¶27 - dilediğini saptırır, dilediğini yola iletir
+- 8:22 own: ref ¶31 - canlıların en kötüsü
+- 3:103 own: prose ¶32 - bir arada olmak nimet olarak anılır
+- 3:105 own: ref ¶32 - dağılıp ayrılığa düşenler
+- 6:159 own: ref ¶32 - dinlerini parçalayanlar
+- 30:32 own: ref ¶32 - dinlerini parçalayıp gruplara ayrılanlar
+- 42:13 own: ref ¶32 - dinde ayrılığa düşmemek

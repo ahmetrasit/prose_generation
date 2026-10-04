@@ -1,0 +1,345 @@
+- 2:163: cited ¶17; nowhere else - its one link is the unity of the deity joined to the two names, made in ¶17
+- 7:156: cited ¶22; ref ¶27 - rahmet encompassing everything, the house that takes in
+- 12:40: cited ¶11; ref ¶15 - "allâ ta'büdû illâ iyyâh", worship turned to the name's owner alone
+- 20:90: prose ¶20 - Harun names the Rabb left for the calf "ar-Rahmân" in the very scene of "gadbân"
+- 21:112: cited ¶23; nowhere else - its link is the müste'ân, made in ¶23
+- 27:30: cited ¶13; ref ¶1 - the ayah set unchanged at the head of a letter
+- 43:45: ref ¶17 - worship and the Rahman name: no gods besides the Rahman
+- 6:12: cited ¶22; nowhere else - only the breadth of rahmet, made in ¶22
+- 6:54: ref ¶22 - rahmet written on Himself, directed to the repentant
+- 6:118: cited ¶4; nowhere else - the eating rule, made in ¶4
+- 7:56: ref ¶16, ¶25 - calling in fear and hope; rahmet near the doers of good, right before the rain ayah
+- 7:180: cited ¶10; ref ¶11 - those who deviate in His names, against the empty names
+- 11:41: cited ¶3; nowhere else - its scene is fully used in ¶3
+- 17:110: cited ¶10; ref ¶16, ¶21 - calling by the name "Allah"; Rahman as an equal name of call
+- 19:18: ref ¶16 - seeking refuge in the Rahman: the name as shelter
+- 19:44: ref ¶22 - same speech: Satan rebellious to the Rahman
+- 19:45: cited ¶22; nowhere else - punishment under the Rahman name, made in ¶22
+- 19:65: cited ¶9; nowhere else - semiyy, made in ¶9 (named in the 19:7 prose)
+- 20:5: cited ¶21; nowhere else - throne and Rahman, made in ¶21
+- 20:8: cited ¶17; ref ¶10 - the most beautiful names belong to Him (refrain with 59:24)
+- 24:22: ref ¶26 - giving to kin and forgiving, closed by the Rahîm name
+- 25:63: ref ¶21 - the Rahman's servants described right after "what is the Rahman?"
+- 36:11: ref ¶22 - fearing the Rahman unseen (refrain with 50:33)
+- 36:23: ref ¶22 - harm willed by the Rahman, no other god removes it
+- 37:118: not relevant - guidance to the straight path belongs to 1:6, not to this ayah
+- 37:182: not relevant - the hamd formula belongs to 1:2
+- 39:11: ref ¶15 - command to worship Allah: the name as the worshipped one
+- 39:64: ref ¶15 - refusing to worship other than Allah
+- 41:2: ref ¶21 - revelation sent from the Rahman and the Rahîm
+- 43:36: ref ¶21 - turning from the Rahman's remembrance
+- 59:22: cited ¶17; nowhere else - the three names in order, made in ¶17
+- 67:29: ref ¶23 - relying on the Rahman, beside the seeking of help
+- 73:8: ref ¶7 - the Lord's name itself as the object of remembrance (with 76:25)
+- 109:6: not relevant - religions set apart, nothing about the name or mercy
+- 15:87: not relevant - the Quran itself does not say which "seven" are meant; linking it to the surah needs an outside report
+- 26:9: ref ¶22 - the Şuarâ refrain closing each destruction narrative with Azîz and Rahîm
+- 55:1: cited ¶21; nowhere else - the standalone name, made in ¶21
+- 95:8: not relevant - God as the best of judges belongs to the judgement of 1:4
+- 2:37: ref ¶21 - "et-tevvâbu'r-rahîm" refrain: Rahîm turning toward the one who repents
+- 2:54: ref ¶20, ¶21 - repentance of the calf-worshippers; tevvâb-rahîm refrain
+- 2:64: not relevant - generic grace and mercy, no link in what it says
+- 2:105: ref ¶21 - mercy singled out for whom He wills (with 3:74)
+- 2:128: ref ¶21 - tevvâb-rahîm refrain
+- 2:143: ref ¶21 - "bi'n-nâsi le-raûfun rahîm", same pair and direction as 9:128 (with 22:65)
+- 2:160: ref ¶21 - tevvâb-rahîm refrain
+- 2:173: prose ¶4 - another name raised over the meat makes it forbidden
+- 2:182: not relevant - forgiving formula at the end of a will ruling
+- 2:192: not relevant - forgiving formula only
+- 2:199: not relevant - forgiving formula only
+- 2:207: ref ¶21 - compassion directed "bi'l-ibâd"
+- 3:129: ref ¶22 - forgiving and punishing whom He wills, closed with Gafûr and Rahîm (with 48:14)
+- 5:54: not relevant - a people He loves; no link to name or mercy
+- 9:104: ref ¶21 - tevvâb-rahîm refrain
+- 9:118: ref ¶21 - tevvâb-rahîm refrain
+- 10:107: not relevant - generic good and harm with closing names; adds nothing to ¶21-22
+- 12:98: not relevant - Yakup's promise to seek forgiveness, formula only
+- 15:49: ref ¶22 - Gafûr Rahîm announced together with painful punishment (with 15:50)
+- 19:7: prose ¶9 - the other place of semiyy, used in the plain sense of a namesake
+- 19:58: ref ¶21 - prostrating at the Rahman's ayat, against "what is the Rahman?"
+- 19:85: ref ¶21 - the God-fearing gathered to the Rahman
+- 19:88: context ¶27 (in 19:92) - the claim "the Rahman took a child"
+- 19:93: cited ¶21; nowhere else - named inside the ¶27 prose on 19:92 as its continuation
+- 21:42: ref ¶22 - who guards you from the Rahman night and day
+- 22:65: ref ¶3, ¶21 - ship running by His command; raûf-rahîm refrain
+- 23:75: not relevant - mercy withheld from the obstinate, no link to these paragraphs
+- 24:7: not relevant - shares only a word (curse) in the li'ân oath
+- 24:9: not relevant - shares only the word gadab; the li'ân oath has nothing to do with the fa'lân pattern
+- 25:6: not relevant - forgiving formula at the end of a revelation ayah
+- 25:48: ref ¶25 - winds sent ahead of His rahmet, pure water from the sky
+- 25:59: ref ¶21 - the throne's occupant named Rahman just before the objection
+- 25:60: cited ¶21; nowhere else - the objection, made in ¶21
+- 26:5: ref ¶21 - turning from every new reminder from the Rahman
+- 26:104: ref ¶22 - Şuarâ refrain
+- 26:217: ref ¶23 - relying on the Azîz and the Rahîm
+- 29:21: ref ¶22 - punishment and mercy under the same willing
+- 30:5: not relevant - help to whom He wills; no link to isti'âne in ¶23 beyond the word
+- 32:6: ref ¶17 - knowledge of the unseen and the seen joined to the Rahîm name
+- 34:2: not relevant - knowledge of what descends and ascends; formula only
+- 36:5: ref ¶21 - revelation from the Azîz and the Rahîm
+- 36:58: ref ¶21 - peace as a word from a Rahîm Lord, mercy reaching particular people
+- 39:38: ref ¶11 - those called besides Allah cannot hold back His mercy
+- 39:53: ref ¶22 - do not despair of Allah's mercy
+- 42:5: not relevant - angels seeking forgiveness; formula only
+- 43:20: ref ¶11 - worship of others justified by the Rahman's will without knowledge
+- 43:81: ref ¶27 - denial of a child for the Rahman
+- 44:42: ref ¶3, ¶27 - "illâ men rahim" exception again, on the day of decision
+- 46:8: not relevant - forgiving formula in a dispute over revelation
+- 48:14: ref ¶22 - refrain with 3:129
+- 49:8: not relevant - favour and blessing; no link
+- 50:33: ref ¶22 - refrain with 36:11
+- 55:78: cited ¶7; nowhere else - the name blessed, made in ¶7
+- 61:14: not relevant - helpers of Allah; no link
+- 67:3: not relevant - the Rahman's creation without flaw; no link in what the paragraphs say
+- 67:20: ref ¶23 - no army helps you besides the Rahman
+- 67:28: not relevant - hypothetical destruction or mercy; adds nothing to ¶22
+- 70:3: not relevant - "possessor of ascents", no link to the name's height
+- 73:9: not relevant - Lord of east and west; no link to rising shapes or the name
+- 78:37: ref ¶9; context ¶22 (in 78:38) - the "Lord of heavens, earth and what is between" with the Rahman name; no one has address with Him
+- 78:38: prose ¶22 - speech on the day only by the Rahman's leave
+- 93:11: not relevant - speaking of the Lord's blessing belongs to 1:7
+- 112:2: not relevant - eş-Samed; no link to these paragraphs
+- 3:74: ref ¶21 - refrain with 2:105
+- 2:29: not relevant - creation of the heavens; no link to the name
+- 2:30: not relevant - the angels' objection; the naming begins in 2:31
+- 2:32: ref ¶10 - angels' knowledge only what is taught; names as knowledge (with 2:33)
+- 2:33: ref ¶10 - Âdem informs them of the names
+- 2:161: not relevant - curse on disbelievers
+- 2:162: not relevant - lasting punishment
+- 2:164: ref ¶25 - water from the sky reviving dead earth, right after the Rahman-Rahîm ayah
+- 2:165: ref ¶9 - rivals set up as equals of Allah
+- 3:4: not relevant - revelation and punishment
+- 3:5: not relevant - nothing hidden from Him
+- 3:7: not relevant - clear and ambiguous ayat
+- 3:8: not relevant - prayer for mercy after guidance; no link to womb or the house image
+- 4:0: not relevant - this same ayah as a surah heading; adds nothing to what it says
+- 4:2: not relevant - orphans' property
+- 4:3: not relevant - marriage and justice
+- 5:2: not relevant - sanctity of rites and offerings; no naming
+- 5:3: context ¶4 (in 2:173) - same prohibition of what is consecrated to other than Allah
+- 5:5: not relevant - lawful food of the People of the Book; no naming
+- 5:6: not relevant - ablution
+- 6:10: not relevant - mockery of messengers
+- 6:11: not relevant - travel and see the end of the deniers
+- 6:13: not relevant - all that rests by night and day
+- 6:14: not relevant - taking a protector
+- 6:75: not relevant - the kingdom shown to İbrahim; the rising-setting link is in 6:76-78
+- 6:76: ref ¶8, ¶11 - the rising star taken as Rabb and setting
+- 6:78: ref ¶8, ¶18 - the sun called "my Rabb" then disowned: a name given and withdrawn
+- 6:79: not relevant - turning the face to the Creator; no link to rising shapes or names
+- 6:116: not relevant - following conjecture; only distant to ¶11
+- 6:117: not relevant - He knows who strays
+- 6:119: ref ¶4 - why not eat what Allah's name was mentioned over
+- 6:120: not relevant - outward and inward sin
+- 6:122: not relevant - light and darkness
+- 6:123: not relevant - plotters in every town
+- 7:55: ref ¶16 - calling the Rabb humbly and secretly
+- 7:58: ref ¶14, ¶25 - good land bringing forth its plant after the rain
+- 7:59: not relevant - Nuh's call to worship
+- 7:148: not relevant - making the calf, taken for granted in ¶20
+- 7:149: ref ¶20 - "if our Lord does not have mercy on us" in the calf scene
+- 7:152: ref ¶20 - anger reaching the calf-takers, the maghdûb side
+- 7:153: ref ¶20 - Gafûr Rahîm for those who repent after the calf
+- 7:154: ref ¶20 - anger silenced, the tablets carrying mercy
+- 7:155: ref ¶22 - Musa's "forgive us and have mercy on us", leading to 7:156
+- 7:157: not relevant - description of the followers of the messenger
+- 7:158: not relevant - universal messengership
+- 7:178: not relevant - guidance and straying
+- 7:179: not relevant - heedless hearts
+- 7:181: not relevant - a community guiding by truth
+- 7:182: not relevant - gradual seizing of deniers
+- 9:126: not relevant - trial every year
+- 9:127: not relevant - hearts turned away
+- 9:129: not relevant - reliance formula; adds nothing to ¶21 or ¶23
+- 11:38: not relevant - mocking the ship-building
+- 11:39: not relevant - punishment awaited
+- 11:42: ref ¶3 - the ship running amid mountain waves
+- 11:44: ref ¶3 - the ship coming to rest on Cûdî
+- 11:45: ref ¶3 - Nuh's plea for his son as family (with 11:46)
+- 12:38: not relevant - Yusuf's ancestral way
+- 12:39: ref ¶11 - scattered lords against the One Allah
+- 12:41: not relevant - dream interpretation
+- 12:42: not relevant - the forgotten mention before the king
+- 13:28: ref ¶16 - hearts at rest in Allah's remembrance
+- 13:29: not relevant - reward of the righteous
+- 13:31: not relevant - a Quran moving mountains
+- 13:32: not relevant - mocking of messengers
+- 15:72: not relevant - the people of Lut in their stupor
+- 15:73: not relevant - the cry that seized them
+- 15:76: ref ¶14 - the ruin standing on a road still in use (with 15:77)
+- 15:77: ref ¶14 - a sign for believers in the same trace
+- 17:108: not relevant - glorifying the Lord's promise
+- 17:109: not relevant - weeping prostration
+- 17:111: ref ¶9 - no partner in the kingdom
+- 19:43: not relevant - the even path belongs to 1:6
+- 19:46: not relevant - the father's threat
+- 19:47: not relevant - İbrahim's farewell
+- 19:62: not relevant - Paradise provision
+- 19:63: not relevant - inheritors of Paradise
+- 19:66: not relevant - doubt about resurrection
+- 19:67: not relevant - created from nothing
+- 19:91: context ¶27 (in 19:92) - ascribing a child to the Rahman
+- 19:92: prose ¶27 - the womb image limited: the Rahman takes no child
+- 19:94: ref ¶22 - counted one by one (with 19:95)
+- 19:95: ref ¶22 - each comes to Him alone
+- 20:3: not relevant - a reminder for the one who fears
+- 20:4: ref ¶8 - the heavens called "ulâ", high
+- 20:6: not relevant - all within heavens and earth His
+- 20:7: not relevant - He knows the secret
+- 20:9: not relevant - opening of Musa's story
+- 20:10: not relevant - the fire and guidance belong to 1:6
+- 21:110: not relevant - He knows the spoken and the hidden
+- 21:111: not relevant - perhaps a trial
+- 22:32: not relevant - honouring the rites, without the name or the animals
+- 22:33: ref ¶4 - the offering's destination at the Ancient House
+- 22:35: not relevant - hearts trembling at Allah's mention; no link to the meat or the call
+- 22:37: prose ¶4 - neither flesh nor blood reaches Allah, takva does
+- 22:38: not relevant - defence of believers
+- 25:58: not relevant - reliance and praise; no link
+- 25:61: not relevant - towers in the sky
+- 25:62: not relevant - night and day in succession
+- 27:26: ref ¶18 - the One God named against the sun-worshippers
+- 27:27: not relevant - Süleyman testing the hoopoe
+- 27:32: not relevant - the queen consulting
+- 27:33: not relevant - the chiefs' reply
+- 30:48: ref ¶25 - winds spreading clouds, rain (with 30:49)
+- 30:49: ref ¶25 - despair before the rain
+- 30:51: not relevant - yellowed wind and ingratitude
+- 30:52: not relevant - the dead do not hear
+- 33:41: not relevant - remember Allah much
+- 33:42: not relevant - glorify Him morning and evening
+- 33:44: not relevant - greeting of peace; adds nothing beyond 36:58
+- 33:45: not relevant - the Prophet as witness
+- 47:20: not relevant - the sick hearts and fighting
+- 47:21: not relevant - obedience
+- 47:23: ref ¶26 - those who cut kin ties are cursed
+- 47:24: not relevant - reflecting on the Quran
+- 53:17: not relevant - the gaze not swerving
+- 53:18: not relevant - signs seen
+- 53:20: ref ¶11 - Menât named
+- 53:21: not relevant - the unjust division of sons and daughters
+- 53:22: not relevant - same
+- 53:24: not relevant - man's wishes
+- 53:25: not relevant - the last and the first His
+- 55:0: not relevant - this same ayah as a surah heading
+- 55:3: ref ¶21 - creating man after teaching (with 55:4)
+- 55:4: ref ¶21 - teaching him clear speech
+- 55:76: not relevant - Paradise couches
+- 55:77: not relevant - refrain of the favours
+- 56:72: ref ¶2 - the fire's tree questioned before the tesbih command (with 56:73)
+- 56:73: ref ¶2 - the fire made a reminder
+- 56:75: not relevant - oath by the stars' settings; not an oath by the name
+- 56:76: not relevant - the oath's greatness
+- 59:20: not relevant - people of fire and of Paradise
+- 59:21: not relevant - the Quran on a mountain
+- 59:23: ref ¶17 - the names continuing with the same opening
+- 59:24: ref ¶10 - the most beautiful names His (refrain with 20:8)
+- 68:14: not relevant - wealth and sons
+- 68:15: ref ¶14 - the one to be branded calling the ayat old tales
+- 68:17: ref ¶1 - garden owners swearing to harvest in the morning (with 68:18)
+- 68:18: ref ¶1 - making no exception
+- 87:0: not relevant - this same ayah as a surah heading
+- 87:2: not relevant - creating and proportioning; no link to the name exalted
+- 87:3: not relevant - measuring and guiding belongs to 1:6
+- 96:0: not relevant - this same ayah as a surah heading
+- 96:2: not relevant - "alak" does not name the womb; adds nothing to ¶2 or ¶24
+- 96:3: not relevant - the second "ikra'" carries no "bi-ism"
+- 18:23 own: prose ¶1 - every future act said with Allah's will attached
+- 18:24 own: context ¶1 (in 18:23) - "illâ en yeşâallâh"
+- 20:86 own: context ¶20 (in 20:90) - "gadbâne esifâ" in Tâhâ, same scene
+- 20:94 own: ref ¶26 - "son of my mother" (refrain with 7:150)
+- 7:150 own: ref ¶26 - cited ¶20 for gadbân; its "ibne umme" appeal to the shared womb is new to ¶26
+- 20:14 own: prose ¶15 - name, sole deity and worship in one sentence
+- 21:25 own: ref ¶15 - no god but Me, so worship Me
+- 21:26 own: ref ¶27 - honoured servants, not a child
+- 21:32 own: ref ¶8 - the sky a guarded roof
+- 52:5 own: ref ¶8 - the raised roof
+- 2:22 own: ref ¶8 - the sky a canopy
+- 94:4 own: prose ¶6 - "we raised your mention"
+- 94:1 own: not relevant - opening of the chest; the link is in 94:4
+- 94:2 own: not relevant - burden removed
+- 94:3 own: not relevant - same
+- 19:50 own: ref ¶6 - a lofty tongue of truth
+- 26:84 own: ref ¶6 - İbrahim asks for an honoured mention
+- 37:78 own: ref ¶6 - left with good mention among later generations (refrain 37:108, 37:119, 37:129)
+- 37:108 own: ref ¶6 - refrain
+- 37:119 own: ref ¶6 - refrain
+- 37:129 own: ref ¶6 - refrain
+- 37:79 own: not relevant - the greeting itself adds nothing beyond the refrain
+- 30:27 own: ref ¶9 - the highest description is His
+- 112:4 own: ref ¶9 - none equal to Him
+- 42:11 own: ref ¶9 - nothing like Him
+- 7:71 own: ref ¶11 - Hûd's "names you and your fathers named", third place of the wording
+- 53:27 own: ref ¶11 - naming angels with female names (with 53:28)
+- 53:28 own: ref ¶11 - following conjecture without knowledge
+- 48:29 own: prose ¶14, ref ¶21 - mark on faces from the trace of prostration; "ruhamâ" for believers
+- 55:41 own: ref ¶14 - criminals known by their marks
+- 7:46 own: ref ¶14 - knowing all by their marks
+- 2:273 own: ref ¶14 - the poor known by their marks
+- 47:30 own: ref ¶14 - known by their marks and tone of speech
+- 51:37 own: ref ¶14 - a sign left in Lut's town
+- 29:35 own: ref ¶14 - a clear sign left from it
+- 27:24 own: ref ¶18 - the sun-worshippers ¶18 points to without citing
+- 41:37 own: ref ¶18 - do not prostrate to the sun
+- 27:44 own: ref ¶13 - the queen's submission as the letter's outcome
+- 28:7 own: context ¶19 (in 28:13) - the promise to return the child; answers the ledger: the link is separation and return, the image ¶19 itself keeps, not the derivation or the nurturing scene
+- 28:10 own: context ¶19 (in 28:13) - the mother's emptied heart
+- 28:13 own: prose ¶19 - the child returned to his mother; ledger reason answered as for 28:7
+- 20:40 own: ref ¶19 - the same return recalled to Musa
+- 26:8 own: not relevant - the refrain's preceding line; the link is in 26:9
+- 26:68 own: ref ¶22 - Şuarâ refrain
+- 26:122 own: ref ¶22 - Şuarâ refrain
+- 26:140 own: ref ¶22 - Şuarâ refrain
+- 26:159 own: ref ¶22 - Şuarâ refrain
+- 26:175 own: ref ¶22 - Şuarâ refrain
+- 26:191 own: ref ¶22 - Şuarâ refrain
+- 15:50 own: ref ¶22 - painful punishment beside Gafûr Rahîm
+- 20:108 own: ref ¶22 - voices hushed before the Rahman (with 20:109)
+- 20:109 own: ref ¶22 - intercession only by the Rahman's leave
+- 25:26 own: ref ¶22 - true kingship that day belongs to the Rahman
+- 19:87 own: ref ¶22 - intercession tied to a covenant with the Rahman
+- 40:7 own: ref ¶22 - "You encompass all things in mercy and knowledge"
+- 78:17 own: context ¶22 (in 78:38) - the day of decision
+- 12:18 own: ref ¶23 - "el-müste'ânu alâ mâ tesifûn" with the name Allah
+- 46:15 own: prose ¶24 - the mother carried and delivered him in hardship
+- 31:14 own: ref ¶24 - weakness upon weakness
+- 23:13 own: ref ¶24 - a secure lodging (with 77:21)
+- 77:21 own: ref ¶24 - same
+- 77:22 own: not relevant - the term adds nothing beyond 22:5
+- 22:5 own: ref ¶24 - kept in wombs for a named term
+- 39:6 own: ref ¶24 - creation in three darknesses in the mothers' wombs
+- 19:23 own: ref ¶24 - Meryem's labour pains
+- 42:28 own: ref ¶25 - rain sent down and His rahmet spread
+- 30:46 own: ref ¶3, ¶25 - winds bringing good news, rahmet tasted, ships running
+- 8:75 own: ref ¶26 - kin of the womb closer to one another (refrain with 33:6)
+- 33:6 own: ref ¶26 - same
+- 60:3 own: ref ¶26 - qualifies: wombs avail nothing on the Day
+- 21:75 own: ref ¶27 - admitted into "our mercy" (refrain with 21:86)
+- 21:86 own: ref ¶27 - same
+- 45:30 own: ref ¶27 - admitted into their Lord's mercy
+- 76:31 own: ref ¶27 - He admits whom He wills into His mercy
+- 11:46 own: ref ¶3 - "he is not of your family"
+- 23:28 own: ref ¶3 - praise on settling in the ship (with 23:29)
+- 23:29 own: ref ¶3 - a blessed landing
+- 43:12 own: ref ¶3 - ships and cattle to ride (with 43:13)
+- 43:13 own: ref ¶3 - glorifying when mounted
+- 17:66 own: ref ¶3 - the Lord who drives the ship is Rahîm to you
+- 22:28 own: ref ¶4 - Allah's name over the provided cattle
+- 6:138 own: ref ¶4 - cattle over which they do not mention Allah's name
+- 6:145 own: context ¶4 (in 2:173) - same prohibition
+- 16:115 own: context ¶4 (in 2:173) - same prohibition
+- 76:25 own: ref ¶7 - "mention the name of your Lord" refrain with 73:8
+- 87:15 own: ref ¶7 - mentioning the Lord's name and praying
+- 56:96 own: ref ¶2 - "glorify by the name of your Lord" refrain (with 69:52)
+- 69:52 own: ref ¶2 - same
+- 2:186 own: ref ¶16 - the near Lord answering the caller
+- 5:106 own: ref ¶16 - witnesses swearing by Allah
+- 12:73 own: ref ¶16 - swearing "tallâhi" to deny a deed
+- 21:36 own: ref ¶21 - disbelieving in the Rahman's remembrance
+- 68:28 own: not relevant - the call to glorify adds nothing to ¶1 beyond 68:17-18
+- 2:189 own: ref ¶5, ¶14 - crescents as markers of time and of the hajj
+- 36:39 own: ref ¶5 - the moon thinning like an old palm stalk
+- 6:80 own: not relevant - İbrahim's dispute; no link to rising shapes or names
+- 22:36 own: ref ¶13 - cited ¶4; the camels made Allah's şe'âir with the name over them meet ¶13's mark of ownership
+- 30:50 own: ref ¶14 - cited ¶25; "âsâr" of mercy meets ¶14's reading of traces
+- 4:1 own: ref ¶16 - cited ¶26; ¶16 points to it without citing

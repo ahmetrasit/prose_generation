@@ -1,0 +1,356 @@
+- 1:6: cited ¶26; nowhere else - the commentary already reads its two objects there
+- 2:38: ref ¶26 - safety for whoever follows the guidance, alongside 20:123
+- 5:16: ref ¶26 - guiding those who seek His pleasure to the straight path
+- 6:91: prose ¶29 - q-d-r used for a human judgement about Allah, plus Musa's book as guidance
+- 6:125: ref ¶25 - the chest of whoever Allah wills to guide opened to Islam
+- 13:8: ref ¶6 - everything is with Him by a measure
+- 15:21: ref ¶7 - sent down only in a known measure (rain)
+- 17:9: ref ¶24 - the Quran guides to what is most upright
+- 20:50: cited ¶21; ref ¶2, ¶19 - names "every thing" as the object of guidance
+- 20:123: cited ¶26; nowhere else - already explained there with its root link to 87:11
+- 23:18: ref ¶7 - water sent down by measure
+- 24:45: ref ¶19 - each creature made with its own way of walking
+- 25:2: prose ¶2, ref ¶6 - same khalaqa fa-qaddara with object "every thing"
+- 26:78: cited ¶23; nowhere else - explained there
+- 28:56: ref ¶24 - the Prophet cannot guide whom he loves; Allah guides
+- 36:39: cited ¶7; nowhere else - explained there
+- 41:10: ref ¶4 - provisions of the earth measured for those who need
+- 41:17: prose ¶25 - shown the way, preferred blindness
+- 42:52: ref ¶24 - the Prophet, guided by revelation, now guides
+- 49:17: ref ¶25 - being guided to faith is Allah's favour
+- 54:49: cited ¶6; ref ¶2 - "every thing" as the object of measuring
+- 65:3: ref ¶6 - Allah set a measure for everything
+- 76:3: cited ¶25; ref ¶3 - the path shown right after creation from a drop
+- 77:22: prose ¶6 - qadar as a time limit within the body's first resting place
+- 79:19: prose ¶21 - Musa sent to guide Pharaoh to his Lord so he fears
+- 90:10: cited ¶25; ref ¶3 - the two ways shown right after the senses are given
+- 92:12: cited ¶25; nowhere else - already used there
+- 93:7: prose ¶23 - same objectless "fa-hadā", said to the Prophet
+- 2:213: ref ¶26 - refrain: Allah guides whom He wills to a straight path
+- 2:272: ref ¶24 - their guidance is not upon the Prophet
+- 3:86: ref ¶25 - no guidance for those who reject what was shown
+- 6:82: not relevant - only names the guided, with no link to showing or taking
+- 6:161: ref ¶23 - the Prophet: my Lord guided me, the way of Ibrahim
+- 7:158: ref ¶10 - follow the messenger so you may be guided
+- 7:178: ref ¶24 - whom Allah guides is the one who takes the way
+- 10:25: ref ¶26 - refrain: guides to a straight path
+- 13:7: ref ¶9 - a hādī for every people
+- 13:26: ref ¶8 - refrain: He extends and narrows provision
+- 13:27: ref ¶10 - guides to Himself whoever turns to Him
+- 14:4: not relevant - generic misguide/guide refrain, no tie to a paragraph's claim
+- 16:9: ref ¶25 - showing the right way is upon Allah; He could have guided all
+- 16:36: ref ¶24 - after each messenger people split into two
+- 16:104: ref ¶25 - no guidance for those who reject the signs
+- 16:125: ref ¶14, ¶24 - inviting with wisdom and good counsel; He knows who strays and who is guided
+- 17:30: ref ¶8 - narrowing refrain
+- 17:94: ref ¶28 - guidance refused because the messenger is a human
+- 17:97: ref ¶24 - refrain of 7:178
+- 18:17: ref ¶24 - refrain of 7:178
+- 19:43: ref ¶10, ¶23 - "follow me, I will guide you"
+- 19:76: ref ¶24 - more guidance for those who are guided
+- 20:40: prose ¶5 - "ji'ta 'alā qadar", the same "came according to its measure" pattern
+- 20:82: not relevant - only the verb ihtadā after repentance
+- 21:87: not relevant - sense of "lan naqdira 'alayhi" is disputed (narrowing vs power)
+- 22:54: ref ¶26 - guides believers to a straight path
+- 24:35: not relevant - light imagery without a link to the paragraphs' claims
+- 24:46: ref ¶26 - straight path refrain
+- 24:54: ref ¶24 - the messenger only delivers; obeying brings guidance
+- 25:31: ref ¶9 - the Lord suffices as hādī
+- 27:2: not relevant - generic description of the Book
+- 27:57: ref ¶6 - Lot's wife's end decreed
+- 27:63: ref ¶17 - who guides in the darkness of land and sea
+- 28:22: prose ¶22 - Musa the traveller asking his Lord for the way
+- 29:62: ref ¶8 - narrowing refrain
+- 29:69: ref ¶13 - guiding the strivers on paths, Allah with them
+- 30:37: ref ¶8 - narrowing refrain
+- 34:6: not relevant - generic statement about the revealed truth
+- 34:32: not relevant - an argument about who blocked guidance
+- 34:36: ref ¶8 - narrowing refrain
+- 34:39: ref ¶8 - narrowing refrain
+- 36:21: ref ¶10 - follow those who are themselves guided
+- 36:38: ref ¶7, ¶17 - the sun running to its resting place; "taqdīr" refrain
+- 39:18: ref ¶24 - those who listen and follow the best are the guided
+- 39:23: prose ¶24 - those who fear their Lord soften to dhikr: named as Allah's guidance
+- 39:36: not relevant - about Allah sufficing His servant
+- 39:37: not relevant - same theme as 39:36
+- 39:52: ref ¶8 - narrowing refrain
+- 40:38: ref ¶10 - "follow me, I will guide you"
+- 42:13: ref ¶10 - guides to Himself whoever turns
+- 43:11: cited ¶18; ref ¶7 - water sent down by measure
+- 47:5: prose ¶10 - guidance ending in a garden He made known to them
+- 47:17: ref ¶24 - more guidance for the guided
+- 54:12: ref ¶6 - waters meeting for a measured matter
+- 56:60: ref ¶6 - death decreed among you
+- 63:6: ref ¶25 - no guidance for the defiantly disobedient
+- 64:6: ref ¶28 - "shall humans guide us?" and turning away
+- 64:11: not relevant - guidance of the heart in affliction
+- 65:7: prose ¶8 - "man qudira 'alayhi rizquhu", followed by ease (yusr)
+- 72:2: ref ¶24 - the jinn heard, were guided and believed
+- 74:18: cited ¶28; ref ¶27 - the two words ¶27 points to
+- 74:19: cited ¶28; nowhere else - already explained there
+- 74:20: ref ¶28 - the second "qutila kayfa qaddar"
+- 75:4: not relevant - qudra (power) sense, left out in the ledger
+- 77:23: not relevant - sense of "fa-qadarnā" disputed (measuring vs power)
+- 80:19: cited ¶2; ref ¶29 - Allah's measuring of man set against man's own measuring
+- 97:1: not relevant - the Quran does not say what qadr means in the name
+- 2:29: not relevant - only a shared root (sawwā)
+- 3:6: not relevant - shaping in the womb, no link to measure or way
+- 6:1: not relevant - general creation praise
+- 6:117: ref ¶24 - He knows who strays and who is guided
+- 14:19: not relevant - creation in truth, no link
+- 15:60: ref ¶6 - Lot's wife's end decreed
+- 17:84: not relevant - sense of "shākila" uncertain
+- 31:25: ref ¶18 - refrain with 43:9
+- 33:38: ref ¶6 - Allah's command a decree determined
+- 55:7: context ¶29 (in 55:8) - the balance set in place
+- 57:22: not relevant - calamities in a book, no q-d-r, no link to the verb's sense
+- 59:24: not relevant - divine names only
+- 68:7: ref ¶24 - He knows who strays and who is guided
+- 70:39: not relevant - creation from what they know
+- 74:11: cited ¶28; nowhere else - already explained there
+- 88:17: not relevant - camel's creation, no path
+- 2:5: ref ¶26 - those on guidance are the ones who prosper
+- 2:21: not relevant - general command to worship
+- 6:98: ref ¶17 - continuation of the same "huwa lladhī" series
+- 6:149: ref ¶25 - "had He willed He would have guided you all"
+- 7:185: not relevant - ajal mentioned only in passing
+- 10:31: ref ¶18 - asked who manages affairs, they say "Allah"
+- 10:35: prose ¶10 - the guide deserves to be followed, set against one who cannot find its own way
+- 15:28: not relevant - creation of a human from clay
+- 16:16: ref ¶17 - guided by the star
+- 16:37: ref ¶24 - the Prophet's eagerness cannot guide whom Allah leaves astray
+- 16:121: ref ¶23 - Ibrahim chosen and guided
+- 20:41: ref ¶22 - Musa made for Himself, alongside "I chose you"
+- 30:54: ref ¶7 - weakness, strength, weakness: the two ends of a measure
+- 32:24: ref ¶9 - leaders guiding by command
+- 34:11: cited ¶5; nowhere else - ¶29 already recalls it
+- 34:24: not relevant - debate formula
+- 42:12: ref ¶8 - narrowing refrain
+- 43:12: cited ¶18; nowhere else - already used there
+- 43:27: prose ¶23 - Ibrahim: the one who originated me will guide me
+- 45:4: not relevant - signs in creation, generic
+- 51:1: not relevant - oath, no link
+- 51:4: not relevant - oath, no link
+- 51:49: ref ¶18 - pairs of everything, alongside 43:12
+- 55:8: prose ¶29 - the human's weighing bound to a balance He set
+- 56:62: not relevant - the first creation, generic
+- 68:25: not relevant - sense of "qādirīn" uncertain
+- 70:40: not relevant - power sense
+- 71:14: not relevant - stages, no link to the claims
+- 76:16: ref ¶5 - vessels measured exactly
+- 80:18: ref ¶2 - the question about man's creation that ¶2 points to
+- 81:26: ref ¶24 - "where are you going?" to those who leave the way shown
+- 82:7: ref ¶1 - same "alladhī khalaqa fa-sawwā" series
+- 84:19: not relevant - meaning disputed
+- 86:6: not relevant - creation from fluid
+- 90:5: not relevant - power sense
+- 91:7: context ¶25 (in 91:8) - the sawwā preceding the inspiration
+- 92:3: not relevant - an oath
+- 95:4: not relevant - best stature, no link to way
+- 96:11: not relevant - a rhetorical question about one on guidance
+- 97:2: not relevant - see 97:1
+- 2:150: prose ¶11 - turning the face to a direction "so that you may be guided"
+- 2:196: ref ¶15 - the very phrase ¶15 quotes
+- 2:236: ref ¶4 - qadar as each one's quantity of means
+- 2:264: ref ¶25 - refrain: no guidance for those who disbelieve
+- 5:105: ref ¶25 - the guided are not harmed by those astray
+- 6:17: not relevant - harm and good, no link
+- 7:58: not relevant - land and plants, no link to measure or way
+- 13:1: not relevant - shares only "alladhī"
+- 20:72: ref ¶24 - the magicians choose Him who created them over Pharaoh
+- 26:79: cited ¶23; nowhere else - already used there
+- 26:81: ref ¶23 - Ibrahim's series continues: death and life
+- 26:82: ref ¶23 - Ibrahim's series continues: hope of forgiveness
+- 27:35: not relevant - a diplomatic gift; shares only the word hadiyya
+- 35:31: not relevant - shares only "alladhī"
+- 39:33: not relevant - shares only "alladhī"
+- 57:26: ref ¶24 - among the descendants of Nuh and Ibrahim, some guided, many defiant
+- 64:1: not relevant - general tesbih, no tie to ¶1's structure
+- 6:35: ref ¶25 - had Allah willed He would have gathered them on guidance
+- 7:11: not relevant - creation and form, Adam scene
+- 22:5: ref ¶7 - returned to the feeblest age
+- 22:6: not relevant - power to revive, generic
+- 28:82: ref ¶8 - narrowing refrain, said after Qarun's end
+- 43:42: not relevant - power sense
+- 74:47: not relevant - certainty of death
+- 77:2: not relevant - oath
+- 79:4: not relevant - oath
+- 91:1: not relevant - oath
+- 103:1: not relevant - oath
+- 1:4: not relevant - Day of Judgement, no link
+- 1:5: not relevant - worship and help, no link to the request's object
+- 1:7: ref ¶26 - names whose path is asked for
+- 6:93: not relevant - wrongdoers at death
+- 6:94: not relevant - returning alone at judgement
+- 6:99: ref ¶17 - the series continues with water and green growth
+- 16:66: not relevant - milk from cattle, no path
+- 16:67: not relevant - dates and grapes
+- 16:70: ref ¶7 - returned to the feeblest age
+- 16:71: not relevant - provision preferred, no link
+- 20:8: not relevant - beautiful names, shares only "ism"
+- 20:9: not relevant - an opener only
+- 20:11: ref ¶22 - the call at the fire
+- 20:12: ref ¶22 - "I am your Lord" at the fire
+- 20:14: ref ¶26 - prayer for His remembrance, as in 87:15
+- 20:15: not relevant - the Hour
+- 20:16: not relevant - warning against being turned away from the Hour
+- 20:19: not relevant - throwing the staff; no tie to the guiding image
+- 20:20: not relevant - staff becomes a snake
+- 20:47: ref ¶26 - peace on whoever follows guidance
+- 20:48: ref ¶24 - punishment for whoever denies and turns away
+- 20:51: ref ¶21 - Pharaoh's question that ¶21 points to
+- 20:55: ref ¶21 - same speech goes on to the return to the earth
+- 20:56: ref ¶24 - Pharaoh shown all the signs, denied
+- 20:121: ref ¶26 - Adam's straying before being guided
+- 20:122: ref ¶26 - chosen and guided ("wa hadā")
+- 20:124: ref ¶24 - turning from His remembrance
+- 20:125: ref ¶24 - raised blind
+- 26:75: ref ¶23 - Ibrahim's question that ¶23 points to
+- 26:76: ref ¶23 - the ancestors in that question
+- 26:80: ref ¶23 - the healing that ¶23 mentions
+- 34:8: not relevant - accusation against the Prophet
+- 34:9: not relevant - threat of the earth swallowing
+- 34:12: not relevant - Sulayman's wind and copper
+- 34:13: not relevant - cooking pots (qidr), as the ledger left out
+- 36:37: not relevant - night and day as a sign
+- 36:40: ref ¶8 - each in its orbit, cannot overtake: a measure as a limit
+- 36:41: not relevant - the ship
+- 43:7: not relevant - mocking the prophets
+- 43:8: not relevant - destruction of earlier peoples
+- 43:13: ref ¶18 - the series ends in tesbih
+- 43:14: ref ¶18 - return to the Lord
+- 54:47: not relevant - criminals in error
+- 54:48: not relevant - shares only "Saqar"
+- 54:50: ref ¶3 - His command one, like a blink
+- 54:51: not relevant - destroyed peoples
+- 74:9: not relevant - a hard day
+- 74:10: not relevant - not easy for disbelievers
+- 74:12: ref ¶28 - wealth that ¶28 mentions
+- 74:13: ref ¶28 - sons that ¶28 mentions
+- 74:16: ref ¶28 - his stubbornness to the signs
+- 74:17: not relevant - threat of a steep climb
+- 74:21: ref ¶28 - he looked
+- 74:22: ref ¶28 - he frowned
+- 74:23: ref ¶28 - he turned his back and grew arrogant
+- 74:25: ref ¶28 - "only the word of a human"
+- 74:27: ref ¶28 - what Saqar is
+- 74:28: ref ¶28 - it neither spares nor leaves
+- 74:52: not relevant - wanting scrolls, no tie
+- 74:53: ref ¶29 - they do not fear the hereafter
+- 74:55: ref ¶28 - whoever wills remembers
+- 74:56: ref ¶29 - remembering depends on Allah's will
+- 76:1: not relevant - man not yet a thing mentioned
+- 76:2: ref ¶3 - created, given hearing and sight, then the path
+- 76:4: ref ¶25 - fate of the ungrateful
+- 76:5: ref ¶25 - fate of the righteous
+- 80:17: ref ¶2, ¶29 - the ungrateful man; the same curse formula as 74:19
+- 80:21: ref ¶6 - death and grave after the measure
+- 80:22: ref ¶6 - raising again
+- 89:14: not relevant - the Lord watching
+- 89:15: ref ¶8 - the half of the test that ¶8 describes
+- 89:18: ref ¶8 - what follows "kallā"
+- 89:19: ref ¶8 - what follows "kallā"
+- 90:8: ref ¶3 - eyes given before the path
+- 90:9: ref ¶3 - tongue and lips given before the path
+- 90:11: ref ¶25 - he did not attempt the steep road
+- 90:12: ref ¶25 - the steep road
+- 92:10: prose ¶24 - easing toward hardship, set against 87:8
+- 92:11: not relevant - wealth does not avail
+- 92:13: not relevant - the last and the first belong to Him
+- 92:14: ref ¶24 - the blazing fire
+- 25:1 own: not relevant - the Furqan sent down; only the opener of 25:2
+- 77:20 own: context ¶6 (in 77:22) - created from a fluid
+- 77:21 own: context ¶6 (in 77:22) - a firm resting place
+- 20:38 own: not relevant - inspiration to Musa's mother
+- 20:39 own: not relevant - the chest in the river
+- 2:142 own: ref ¶26 - straight path refrain in the qibla passage
+- 2:143 own: not relevant - the qibla as a test
+- 2:144 own: context ¶11 (in 2:150) - the word qibla
+- 2:148 own: context ¶11 (in 2:150) - "wijha", direction
+- 2:149 own: not relevant - repeats the command of 2:150
+- 26:60 own: context ¶13 (in 26:62) - the pursuit at sunrise
+- 26:61 own: context ¶13 (in 26:62) - "we are overtaken"
+- 26:62 own: prose ¶13 - "my Lord is with me, He will guide me"
+- 26:63 own: context ¶13 (in 26:62) - the staff and the sea split
+- 20:42 own: not relevant - go with My signs
+- 20:43 own: context ¶14 (in 20:44) - sent to Pharaoh who transgressed
+- 20:44 own: prose ¶14 - gentle speech so he may take heed or fear
+- 6:75 own: not relevant - the kingdom shown to Ibrahim
+- 6:76 own: context ¶17 (in 6:77) - the star sets
+- 6:77 own: prose ¶17 - the moon sets: "if my Lord does not guide me"
+- 6:78 own: context ¶17 (in 6:77) - the sun sets
+- 6:79 own: context ¶17 (in 6:77) - turning his face to the Creator
+- 34:18 own: prose ¶18 - "qaddarnā fīhā s-sayr", the journey measured
+- 79:15 own: not relevant - opener only
+- 79:16 own: context ¶21 (in 79:19) - the call at Tuwa
+- 79:17 own: context ¶21 (in 79:19) - sent to Pharaoh
+- 79:18 own: context ¶21 (in 79:19) - "would you purify yourself"
+- 79:20 own: context ¶21 (in 79:19) - the greatest sign
+- 79:21 own: context ¶21 (in 79:19) - he denied and disobeyed
+- 47:4 own: context ¶10 (in 47:5) - those killed in Allah's way
+- 47:6 own: context ¶10 (in 47:5) - the garden made known
+- 28:79 own: not relevant - Qarun's display
+- 28:81 own: not relevant - Qarun swallowed
+- 28:20 own: context ¶22 (in 28:22) - warning to Musa
+- 28:21 own: context ¶22 (in 28:22) - Musa leaves in fear
+- 43:26 own: context ¶23 (in 43:27) - Ibrahim disowns their worship
+- 43:28 own: context ¶23 (in 43:27) - a lasting word among his descendants
+- 93:6 own: context ¶23 (in 93:7) - orphan sheltered
+- 93:8 own: context ¶23 (in 93:7) - poor enriched
+- 92:5 own: context ¶24 (in 92:10) - who gives and is mindful
+- 92:6 own: context ¶24 (in 92:10) - affirms the best
+- 92:7 own: context ¶24 (in 92:10) - eased to the easiest, as 87:8
+- 92:8 own: context ¶24 (in 92:10) - stingy and self-sufficient
+- 92:9 own: context ¶24 (in 92:10) - denies the best
+- 92:15 own: ref ¶24 - only the most wretched burns in it, as 87:11-12
+- 92:16 own: ref ¶24 - who denied and turned away
+- 41:18 own: context ¶25 (in 41:17) - the believers saved
+- 91:9 own: context ¶25 (in 91:8) - who purifies it prospers
+- 91:10 own: context ¶25 (in 91:8) - who buries it fails
+- 55:9 own: context ¶29 (in 55:8) - keep the weight with justice
+- 53:36 own: conflict ¶20 - Najm goes on (53:38-42) to list what is in the pages of Musa, against "the Quran does not give their text"
+- 53:37 own: conflict ¶20 - part of the same listing of the pages' contents
+- 53:38 own: conflict ¶20 - first item said to be in those pages
+- 53:39 own: conflict ¶20 - second item said to be in those pages
+- 53:42 own: ref ¶16 - the final end is to your Lord
+- 74:14 own: ref ¶28 - means laid out for him
+- 74:15 own: ref ¶28 - he wants more, as ¶28 says
+- 74:49 own: ref ¶29 - turning from the reminder
+- 74:50 own: ref ¶29 - like frightened donkeys
+- 74:51 own: ref ¶29 - fleeing a lion
+- 20:126 own: ref ¶24 - the signs came and were forgotten
+- 37:99 own: ref ¶23 - Ibrahim going to his Lord: "He will guide me"
+- 27:7 own: ref ¶22 - the fire scene in Naml
+- 28:29 own: ref ¶22 - the fire scene in Qasas
+- 5:95 own: ref ¶15 - "hadyan bāligha l-ka'ba", the phrase ¶15 quotes
+- 48:25 own: ref ¶15 - the hady prevented from reaching its place
+- 22:33 own: ref ¶16 - its place of arrival the Ancient House
+- 22:74 own: ref ¶29 - they did not measure Allah rightly
+- 39:67 own: ref ¶29 - same
+- 76:30 own: ref ¶25 - you do not will unless Allah wills
+- 81:27 own: ref ¶25 - a reminder for the worlds
+- 81:28 own: ref ¶25 - for whoever wills to be upright
+- 81:29 own: ref ¶25 - refrain with 76:30
+- 88:21 own: ref ¶25 - you are only a reminder
+- 88:22 own: ref ¶25 - not a controller over them
+- 50:45 own: ref ¶24 - not a tyrant; remind whoever fears
+- 2:256 own: ref ¶25 - no compulsion once the right way is clear
+- 53:30 own: ref ¶24 - He knows who strays and who is guided
+- 15:22 own: ref ¶7 - winds and rain following 15:21
+- 96:1 own: ref ¶1 - "your Lord who created" after a command
+- 96:2 own: not relevant - creation from a clinging clot
+- 82:8 own: not relevant - form assembled, no tie to the paragraphs' claims
+- 21:73 own: ref ¶9 - leaders guiding by command
+- 20:46 own: ref ¶13 - "I am with you, I hear and see"
+- 29:61 own: ref ¶18 - refrain with 43:9
+- 39:38 own: ref ¶18 - refrain with 43:9
+- 16:15 own: ref ¶18 - paths so you may be guided
+- 21:31 own: ref ¶18 - paths so they may be guided
+- 67:15 own: ref ¶19 - the earth made subservient, walk and eat, as with the bee
+- 24:41 own: ref ¶19 - each knows its prayer and tesbih
+- 25:63 own: ref ¶13 - walking calmly on the earth
+- 31:19 own: ref ¶13 - be moderate in your walk
+- 26:23 own: ref ¶21 - "what is the Lord of the worlds?"
+- 26:24 own: ref ¶21 - Musa's answer
+- 10:5 own: ref ¶17 - moon measured in stations for reckoning
+- 41:12 own: ref ¶17, ¶19 - "taqdīr" refrain; each heaven given its command

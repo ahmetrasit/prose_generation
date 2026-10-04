@@ -1,0 +1,261 @@
+- 9:67: ref ¶10 - ¶10'da sözlükten aktarılan "nesullâhe fe-nesiyehum" ifadesinin Kur'an'daki yeri
+- 15:9: prose ¶9 - korumanın "biz"e bağlanması, aynı "biz" kuruluşu
+- 17:86: prose ¶13 - "dileseydik götürürdük", istisnanın arkasındaki güç
+- 20:114: cited ¶12; ref ¶2 - acele etmeme emri, 75:16'nın benzeri
+- 20:126: cited ¶10; nowhere else - başka paragrafa katkısı yok
+- 25:32: cited ¶5; ref ¶7 - kalbin sağlamlaştırılması, sözün içeride tutulması
+- 29:49: ref ¶7 - ayetlerin göğüslerde durması
+- 56:78: ref ¶12 - saklı kitap, korunmuş kaynak
+- 75:16: cited ¶2; ref ¶12 - acele yasağı, 20:114'ün benzeri
+- 75:17: cited ¶2, ¶5 (anılıyor); ref ¶7, ¶9 - toplama yükünün "biz"de olması
+- 85:22: ref ¶12 - korunmuş levha
+- 2:286: cited ¶14; nowhere else - başka paragrafla bağı yok
+- 5:13: ref ¶15 - hatırlatılandan bir payı unutmak
+- 6:44: ref ¶15 - hatırlatılanı unutanlar, nakarat 7:165 ile
+- 6:68: cited ¶15; ref ¶14 - unuttuktan sonra hatırlamak
+- 7:165: ref ¶15 - hatırlatılanı unutanlar, nakarat 6:44 ile
+- 10:37: not relevant - uydurma olmadığı konusu; hiçbir paragrafın söylediğine dokunmuyor
+- 10:61: ref ¶12, ¶13 - Rabden hiçbir şeyin uzak kalmaması ve okunana tanıklık
+- 10:94: ref ¶17 - kitabı önceden okuyanlar
+- 12:42: ref ¶15 - şeytanın anmayı unutturması
+- 17:14: not relevant - kıyamette amel defterini okuma; yalnızca kelime ortak
+- 18:24: cited ¶14; nowhere else - istisna bağı ¶14'te zaten kurulmuş
+- 19:64: cited ¶12; nowhere else - başka bağ yok
+- 20:52: cited ¶12; nowhere else - başka bağ yok
+- 20:115: cited ¶12; nowhere else - başka bağ yok
+- 23:110: ref ¶15 - alayın zikri unutturması
+- 26:199: not relevant - yabancı dille okuma varsayımı; yalnızca kök ortak
+- 32:14: ref ¶10 - unutana unutulma karşılığı
+- 36:78: not relevant - kendi yaratılışını unutmak; paragrafların konusuna değmiyor
+- 38:1: ref ¶16 - Kur'an ile zikrin birlikte anılması
+- 39:23: ref ¶15 - içi titreyenlerin zikre yumuşaması
+- 41:41: ref ¶9 - zikrin korunmuşluğu
+- 41:42: ref ¶9 - batılın zikre yaklaşamaması
+- 44:58: cited ¶16; nowhere else - başka bağ yok
+- 45:34: ref ¶10 - bugün unutulmak
+- 54:22: ref ¶16 - nakaratın diğer yeri
+- 55:2: prose ¶4 - öğretme ile yaratmanın aynı dizide anılması
+- 58:6: ref ¶12 - Allah'ın saydığını insanların unutması
+- 58:19: ref ¶15 - şeytanın zikri unutturması
+- 59:19: ref ¶10 - Allah'ı unutanlara kendilerinin unutturulması
+- 69:19: not relevant - kıyamette kitabı okutmak; yalnızca kelime ortak
+- 73:4: cited ¶5; nowhere else - başka bağ yok
+- 75:18: cited ¶2 (¶3'te anılıyor); nowhere else - başka bağ yok
+- 75:19: cited ¶2; nowhere else - başka bağ yok
+- 76:23: ref ¶1 - "biz"in "sana" indirmesi
+- 80:13: ref ¶17 - şerefli sayfalar
+- 84:21: ref ¶17 - okunduğunda secde etmemek, okuyup kulluk edenin karşıtı
+- 85:21: ref ¶12 - şanlı Kur'an'ın korunmuş levhada olması
+- 96:3: ref ¶4 - "oku" emrinin yinelenmesi
+- 98:2: ref ¶17 - tertemiz sayfalar okuyan elçi
+- 3:58: ref ¶2 - Allah'ın ayetleri Peygamber'e okuması
+- 10:16: ref ¶13 - okumanın Allah'ın dilemesine bağlı olması
+- 18:65: not relevant - Hızır kıssasında verilen ilim; yalnızca "öğretmek" fiili ortak
+- 20:2: context ¶15 (in 20:3) - açılıştaki olumsuz amaç
+- 22:52: ref ¶13 - Allah'ın ayetlerini sağlamlaştırması
+- 27:6: ref ¶3 - Kur'an'ın kaynağından alınması
+- 27:92: ref ¶15 - okumanın ve uyarmanın görev olması
+- 28:51: ref ¶5 - sözün peş peşe eklenmesi
+- 37:3: not relevant - okuyanlar adı verilmemiş topluluk; bağ yalnızca kelimede
+- 54:17: cited ¶16; nowhere else - başka bağ yok
+- 62:2: ref ¶7 - elçinin ayetleri okuması
+- 72:27: prose ¶3 - ulaştırma yolunun korunması
+- 72:28: context ¶3 (in 72:27) - mesajların ulaştırılması
+- 73:5: prose ¶1 - "biz" + se- + "sen" kuruluşu
+- 96:1: cited ¶4; nowhere else - başka bağ yok
+- 2:44: ref ¶17 - kitabı okurken kendilerini unutmak
+- 2:106: cited ¶13; nowhere else - başka bağ yok
+- 2:151: ref ¶7 - elçinin ayetleri okuması
+- 2:185: ref ¶16 - Kur'an ayında kolaylık dilenmesi
+- 2:252: ref ¶2 - "natlûhâ aleyke" nakaratı
+- 3:79: ref ¶17 - öğretip ders çalışarak Rabbe adanmış olmak
+- 3:108: ref ¶2 - "natlûhâ aleyke" nakaratı
+- 3:164: ref ¶7 - elçinin ayetleri okuması
+- 5:67: ref ¶3 - indirileni ulaştırma emri
+- 6:50: ref ¶3 - yalnızca vahyi izlemek
+- 6:91: not relevant - Musa'nın kitabının saklanması; ¶17'nin sayfalar vurgusunu 53:36-37 karşılıyor
+- 6:93: not relevant - uydurma vahiy iddiası
+- 7:203: ref ¶3 - vahyi izlemek
+- 7:204: ref ¶2 - okunanı dinleyip susmak
+- 10:15: ref ¶3 - vahyi izlemek, kendiliğinden değiştirmemek
+- 12:3: ref ¶4 - vahiyden önce habersiz olmak
+- 13:30: ref ¶7 - vahyedileni ümmete okumak
+- 13:39: ref ¶13 - dilediğini silmek, dilediğini yerinde tutmak
+- 15:87: not relevant - verilen yedi ikili; hiçbir paragrafa bağlanmıyor
+- 15:91: ref ¶5 - parçalara bölmek, toplamanın karşıtı
+- 16:43: not relevant - zikir ehline sorma; 10:94 ¶17'yi zaten karşılıyor
+- 16:44: ref ¶15 - zikri insanlara açıklamak
+- 16:98: not relevant - okurken sığınmak; unutmayla bağı yok
+- 16:101: ref ¶13 - ayetin yerine ayet koymak
+- 16:103: not relevant - beşerin öğrettiği iddiası
+- 17:88: not relevant - benzerinin getirilememesi
+- 17:106: cited ¶7; ref ¶5 - bölüm bölüm indirilme
+- 18:1: not relevant - kitabın eğriliksiz olması
+- 18:27: ref ¶12 - Rabbin sözlerini değiştirecek kimsenin olmaması
+- 20:4: ref ¶4 - yüce gökleri yaratandan indirilme
+- 20:13: ref ¶2 - vahyi dinleme emri
+- 26:194: prose ¶7 - kalbe indirilip uyarı olarak dışarı verilmesi
+- 28:45: not relevant - Medyen'de bulunmamak
+- 33:2: ref ¶3 - vahye uyma emri
+- 37:155: not relevant - genel bir sitem
+- 41:3: not relevant - ayetleri açıklanmış Arapça Kur'an; 12:2 ve 43:3 ¶16'yı karşılıyor
+- 42:51: not relevant - vahyin yolları; ulaştırma bağını 72:27-28 kuruyor
+- 43:3: ref ¶16 - Arapça kılınan Kur'an
+- 44:3: not relevant - indiriliş gecesi
+- 45:6: ref ¶2 - "natlûhâ aleyke" nakaratı
+- 53:4: ref ¶2 - vahiy, ardından gelen öğretenle birlikte
+- 53:10: not relevant - vahyedileni vahyetmek; paragraflara katkısı yok
+- 55:4: context ¶4 (in 55:2) - açıkça anlatmayı öğretmek
+- 56:77: ref ¶12 - değerli Kur'an'ın saklı kitapta olması
+- 68:52: not relevant - âlemlere zikir; genel bir nitelik
+- 69:38: not relevant - yemin
+- 69:41: ref ¶3 - şair sözü olmamak, şiir imgesine sınır çizmek
+- 69:43: ref ¶3 - Rabden indirilmek
+- 75:31: ref ¶17 - namaz kılmayan, 87:15'in karşıtı
+- 81:24: ref ¶3 - gaybı ulaştırmakta cimri olmamak
+- 92:7: prose ¶1 - 87:8'in kalıbı
+- 96:4: ref ¶4 - kalemle öğretmek
+- 96:5: cited ¶4; nowhere else - başka bağ yok
+- 97:1: not relevant - Kadir gecesi
+- 2:121: ref ¶17 - hakkını vererek okumak
+- 2:203: not relevant - hac günlerinde anmak
+- 2:228: ref ¶6 - kökün rahimle yan yana geçmesi; yazarın gerekçesine cevap: kökün rahim anlamının Kur'an'ın kendisinde geçtiğini gösterir
+- 2:237: not relevant - boşanmada lütfu unutmamak
+- 5:14: ref ¶15 - hatırlatılandan payı unutmak, 5:13 ile
+- 6:41: not relevant - ortakları unutmak; paragraflara bağlanmıyor
+- 7:2: ref ¶15 - müminlere hatırlatma olan kitap
+- 7:51: ref ¶10 - bugün unutulmak
+- 18:73: ref ¶14 - unuttuğu için sorumlu tutulmamayı istemek
+- 20:88: not relevant - buzağı sahnesinde "unuttu" demeleri
+- 25:18: ref ¶10 - zikri unutup helake gitmek
+- 25:52: not relevant - onunla cihat
+- 30:58: not relevant - her türlü örnek
+- 34:31: not relevant - Kur'an'a inanmamak
+- 36:2: not relevant - yemin
+- 38:26: not relevant - hesap gününü unutmak; ¶10'daki bağı 32:14 grubu zaten taşıyor
+- 39:8: not relevant - duayı unutmak
+- 50:1: not relevant - yemin
+- 72:1: not relevant - cinlerin dinlemesi
+- 82:10: not relevant - koruyucu yazıcılar; Kur'an'ın korunmasıyla ilgisi yok
+- 93:10: not relevant - soranı azarlamamak
+- 4:82: not relevant - tedebbür
+- 6:155: not relevant - mübarek kitap
+- 12:2: ref ¶16 - Arapça indirilen Kur'an
+- 17:45: not relevant - okurken araya giren perde
+- 20:16: not relevant - saptırılmamak
+- 53:60: not relevant - gülmek, ağlamak
+- 76:12: not relevant - cennet karşılığı
+- 93:9: not relevant - yetim
+- 2:104: not relevant - "râinâ" yasağı
+- 2:105: cited ¶13 (anlatılıyor); nowhere else - bağlam olarak zaten var
+- 2:107: ref ¶13 - mülkün Allah'a ait olması, unutturmanın dayanağı
+- 2:108: not relevant - elçiye soru sormak
+- 2:284: ref ¶13 - açığa vurulanı ve gizleneni bilmek
+- 2:285: not relevant - elçinin imanı
+- 6:66: not relevant - vekil olmamak
+- 6:67: not relevant - her haberin bir zamanı
+- 6:69: ref ¶15 - yine de bir hatırlatma
+- 6:70: ref ¶15 - "onunla hatırlat"
+- 17:104: not relevant - İsrailoğulları
+- 17:105: not relevant - hakla indirilme
+- 17:107: ref ¶17 - okununca secdeye kapanmak
+- 17:108: ref ¶17 - Rabbi tesbih etmek
+- 18:21: not relevant - mağara ehli
+- 18:22: not relevant - sayıları
+- 18:25: not relevant - kalış süresi
+- 18:26: not relevant - kalışı Allah'ın bilmesi
+- 19:20: not relevant - Meryem'in sorusu
+- 19:21: not relevant - bunun Allah'a kolay olması; ¶8'in taşıma-unutma bağına katkısı yok
+- 19:25: ref ¶8 - seslenişin rızıkla sürmesi
+- 19:26: ref ¶8 - yiyip içip gözünün aydın olması
+- 19:62: not relevant - cennette selam
+- 19:63: cited ¶12 (anlatılıyor); nowhere else - bağlam
+- 19:65: not relevant - ibadette sabır
+- 19:66: not relevant - diriliş sorusu
+- 20:50: ref ¶1 - yaratıp yol gösteren Rab
+- 20:51: cited ¶12 (anlatılıyor); nowhere else - bağlam
+- 20:53: ref ¶1 - bitki çıkaran Rab
+- 20:54: ref ¶1 - otlak
+- 20:112: not relevant - salih amel
+- 20:113: cited ¶12 (anlatılıyor); ref ¶15 - onlarda bir hatırlama doğurmak
+- 20:116: not relevant - İblis'in secde etmeyişi
+- 20:117: ref ¶12 - Âdem'e yapılan uyarı
+- 20:123: ref ¶10 - hidayete uyanın sapmaması
+- 20:124: cited ¶10 (anlatılıyor); nowhere else - bağlam
+- 20:127: not relevant - aşırı gidenin cezası
+- 20:128: not relevant - helak edilen nesiller
+- 25:30: ref ¶10 - Kur'an'ı terk edilmiş saymak
+- 25:31: not relevant - her peygambere düşman
+- 25:33: not relevant - en güzel açıklama; ¶2'nin beyân bağı 75:19'la zaten kurulmuş
+- 25:34: not relevant - yüzüstü sürüklenmek
+- 44:56: not relevant - cennette ölüm yok
+- 44:57: not relevant - büyük kurtuluş
+- 44:59: not relevant - gözetle
+- 54:15: ref ¶16 - Nuh kıssasının sonunda gelen öğüt çağrısı
+- 54:16: not relevant - azap ve uyarı
+- 54:18: not relevant - Âd
+- 54:19: not relevant - rüzgâr
+- 73:2: cited ¶5 (anlatılıyor); nowhere else - gece namazı bağlamı
+- 73:3: cited ¶5 (anlatılıyor); nowhere else - gece namazı bağlamı
+- 73:6: not relevant - gece kalkışı; paragraflara katkısı yok
+- 73:18: not relevant - göğün yarılması
+- 73:19: ref ¶15 - hatırlatma ve dileyenin yolu
+- 75:14: not relevant - insanın kendine tanık olması
+- 75:15: not relevant - mazeretler
+- 75:20: not relevant - peşin olanı sevmek
+- 75:21: not relevant - ahireti bırakmak
+- 96:0: not relevant - besmele
+- 96:2: ref ¶7 - "oku"nun ardından alakadan yaratılış
+- 96:6: not relevant - azgınlık
+- 96:7: not relevant - kendini yeterli görmek
+- 15:6 own: context ¶9 (in 15:9) - inkârcıların seslenişi
+- 17:87 own: context ¶13 (in 17:86) - Rabden bir rahmet
+- 29:48 own: ref ¶4 - daha önce kitap okumamış olmak
+- 26:192 own: context ¶7 (in 26:194) - âlemlerin Rabbinden indirilme
+- 26:193 own: context ¶7 (in 26:194), ref ¶3 - güvenilir ruhun indirmesi
+- 26:195 own: context ¶7 (in 26:194) - apaçık Arapça
+- 72:26 own: context ¶3 (in 72:27) - gaybı kimseye açmamak
+- 72:25 own: not relevant - vaadin zamanını bilmemek
+- 55:1 own: context ¶4 (in 55:2) - Rahmân
+- 55:3 own: context ¶4 (in 55:2) - insanı yaratmak
+- 53:5 own: ref ¶2 - güçleri çetin olanın öğretmesi
+- 4:113 own: ref ¶4 - bilmediğini öğretmek
+- 42:52 own: ref ¶4 - kitabın ne olduğunu bilmemek
+- 22:5 own: prose ¶6 - rahimde tutup süresi gelince çıkarmak
+- 23:13 own: ref ¶6 - sağlam bir yerde tutulmak
+- 77:21 own: ref ¶6 - sağlam bir yerde tutulmak
+- 77:22 own: ref ¶6 - bilinen bir süreye kadar
+- 18:45 own: ref ¶11 - rüzgârın savurduğu kuru çöp
+- 23:41 own: ref ¶11 - helak edilenlerin gusâya çevrilmesi
+- 20:3 own: prose ¶15 - içi titreyene hatırlatma
+- 20:7 own: ref ¶13 - gizliyi ve daha gizlisini bilmek
+- 21:110 own: ref ¶13 - sözün açığını ve saklananını bilmek
+- 18:63 own: ref ¶15 - şeytanın anmayı unutturması; yazarın gerekçesine cevap: 6:68'den farklı olarak "unutturmak" ile "anmak" fiillerini aynı cümlede birleştirir
+- 51:55 own: ref ¶15 - hatırlatmanın fayda vermesi
+- 88:21 own: ref ¶15 - yalnızca bir hatırlatıcı olmak
+- 50:45 own: ref ¶15 - tehdidinden korkana Kur'an'la hatırlatmak
+- 76:29 own: ref ¶15 - hatırlatma ve yol, 73:19 ile
+- 74:54 own: ref ¶15 - bu bir hatırlatmadır
+- 74:55 own: ref ¶15 - dileyen anar
+- 80:11 own: ref ¶15 - bu bir hatırlatmadır
+- 80:12 own: ref ¶15 - dileyen anar
+- 19:97 own: ref ¶16 - Peygamber'in dilinde kolaylaştırılmak
+- 53:36 own: ref ¶17 - Musa'nın sayfaları
+- 53:37 own: ref ¶17 - İbrahim
+- 35:29 own: ref ¶17 - kitabı okuyup namaz kılanlar
+- 29:45 own: ref ¶17 - okuma ve namaz emri bir arada
+- 81:19 own: ref ¶3 - değerli bir elçinin sözü
+- 69:40 own: ref ¶3 - değerli bir elçinin sözü
+- 69:42 own: ref ¶3 - kâhin sözü olmamak
+- 2:129 own: ref ¶7 - elçinin ayetleri okuması
+- 92:5 own: context ¶1 (in 92:7) - veren ve sakınan
+- 92:6 own: context ¶1 (in 92:7) - en güzeli doğrulayan
+- 92:8 own: context ¶1 (in 92:7) - cimrilik eden
+- 92:10 own: context ¶1 (in 92:7) - en zor olana yatkın kılmak
+- 54:32 own: ref ¶16 - nakaratın diğer yeri
+- 54:40 own: ref ¶16 - nakaratın diğer yeri
+- 87:3 own: cited ¶1 (anlatılıyor); nowhere else - surenin kendi ayeti
+- 87:4 own: cited ¶1, ¶11 (anlatılıyor); nowhere else - surenin kendi ayeti
+- 87:5 own: cited ¶1, ¶11 (anlatılıyor); nowhere else - surenin kendi ayeti
+- 73:1 own: not relevant - hitap
+- 17:85 own: not relevant - ruh sorusu

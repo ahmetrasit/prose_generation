@@ -124,7 +124,7 @@ python3 -B _commentary/v16/packets.py writer --ayah N:A --brief r13 --tool \
 ```
 
 - Output: `out/N_A/DM.r13.images.r13.map3.nohft.tool.tool.tool/N_A.reading.tr.md`, plus `check.json` and `ledger.md`.
-- At most 5 calls at a time, as for S87.
+- Seven calls at a time (`batch.py --parallel 7`; user, 2026-10-04).
 - Run the builds without `--go` first. Sum the estimates and give the total to the user. Leave out any build that prints `BLOCKED:`; that call has already run and is never repeated.
 
 ## Step 4: ayah augment (one call per ayah)
@@ -143,7 +143,7 @@ python3 -B _commentary/v16/augment.py out/N_A/DM.r13.images.r13.map3.nohft.tool.
   - `insertions.json`;
   - `check.json`.
 - **Additions** are marked blocks after their paragraph: `<!-- v16:augment brief=augment9 model=opus para=n kind=prose|refs … -->`. `augment.strip_augment()` removes them and gives back the reading byte for byte (asserted).
-- **Run it only after the ayah's reading has finished.** At most 5 calls at a time.
+- **Run it only after the ayah's reading has finished.** Seven calls at a time, through `batch.py`.
 - **Hand corrections to a reading** go in `corrections.json` beside the reading (`file`, `old`, `new`, `why`; `old` must occur exactly once). The reading file stays as written; augment.py applies the corrections before it reads and merges, prints a NOTE for each, and records the count in `packet.json`. 87:6 has one (19:22 → 19:23).
 - **The estimate** scales with the list: about 15k + 330 output tokens per listed passage, and twice the prompt for input because of the lookups. 87:8 (123 passages) estimates $1.63 against $1.64 actual; 256 passages comes to about $2.8.
 - **Every warning goes to the user.** The ones to expect:
@@ -163,25 +163,32 @@ python3 -B _commentary/v16/augment.py out/N_A/DM.r13.images.r13.map3.nohft.tool.
 
 ## Running several calls
 
-Build first, then report the estimates and wait for the go. Only then launch, at most 5 at a time, keeping every line of output:
+Build first, then report the estimates and wait for the go. Then launch with `batch.py`: **seven calls at a time**
+(user, 2026-10-04), one log per call, the queue stopped on a session limit or an API error, every WARNING, NOTE and
+BLOCKED line printed again at the end, and **every call's actual cost against its estimate** (user: always record
+actual costs), with a summary file in `work/logs/batch.<brief>.<model>.<time>.json`:
 
 ```bash
-mkdir -p _commentary/v16/work/logs
-printf '%s\n' 87:1 87:2 87:3 | xargs -P 5 -I{} sh -c \
-  'python3 -B _commentary/v16/augment.py out/$(echo {} | tr : _)/DM.r13.images.r13.map3.nohft.tool.tool.tool --go \
-   > _commentary/v16/work/logs/$(echo {} | tr : _).augment9.log 2>&1'
-grep -HE "WARNING|NOTE|BLOCKED|never rerun|Traceback|Error|error|truncated|suspect|partial|safety" \
-  _commentary/v16/work/logs/*.augment9.log
-grep -L ': ok [$]' _commentary/v16/work/logs/*.augment9.log    # logs without a final ok line: read each in full
+python3 -B _commentary/v16/batch.py --surah 87 --parallel 7            # dry: estimates, skips, BLOCKED; no call
+python3 -B _commentary/v16/batch.py --surah 87 --parallel 7 --go \
+    > _commentary/v16/work/logs/batch.s87.augment9.log 2>&1            # the go covers this background run
+python3 -B _commentary/v16/batch.py 1:1 1:2 1:3 --parallel 7 --go     # or named ayat; several --surah may be given
 ```
 
-Say that this runs in the background when asking for the go (rule 2).
+- `--surah N` queues every ayah whose reading is finished and whose `augment.augment9.opus` does not exist, and
+  prints a NOTE for each one it skips.
+- A call that fails stops nothing else that is already running; a session limit or an API error stops the queue
+  (the not-started ayat are listed; the failed dir is blocked and needs a rename before a new try).
+- Read the batch log in full at the end; the ledger (`out/ledger.jsonl`) holds each call's rows.
+- **Commit and push after each batch** (user, 2026-10-04): the new `augment.*` dirs and the ledger, never `work/`.
+- Do not use `xargs -I{}` with a long command: it refuses it ("command line cannot be assembled, too long") and
+  nothing runs (2026-10-04).
 
 ## After each step
 
 1. Check the ledger rows: `status`, `check` (`ok`, `findings` or `failed`), and any `post_error`.
 2. Run `status.py` again.
-3. Report the actual cost against the estimate, and every warning, to the user.
+3. Report the actual cost against the estimate, per call and in total, and every warning, to the user. Actual costs are always recorded: the ledger has every call, `batch.py` writes a summary per batch, and the cost reference below is updated from them.
 4. Commit the new `out/` dirs (never `work/`) with a short message, then push. The user wants a commit after every completed step (2026-10-04).
 5. After a surah's augments, ask the user whether to run the enrichment for it (Step 5).
 
@@ -192,14 +199,14 @@ Say that this runs in the background when asking for the go (rule 2).
 | Map | $4.19 | $1.64 | $1.6–4.3; a large surah is estimated up to $6.3 (S96) |
 | Image prose | $4.27 | $2.73 | $2.0–4.3 |
 | Readings | $21.65 | $12.06 | ~$1.1 (0.7–1.4 × estimate) |
-| Augment8 | – | – | ~$1.6–2.8 by list size (87:8: $1.64) |
+| Augment9 (2026-10-04 batch) | $15.15 for 6 ok | S1: $17.65 for 6 ok | $1.8–4.4 by list size, mean $2.5 for 13 ok calls, 0.73–1.28 × estimate (123–347 passages); 1:4 at 319 passages hit a safeguard stop after $4.31; five 429s cost $3.96 for nothing |
 
 ## Where things stand (2026-10-04)
 
-| Surah | Map | Image prose | Readings | Augment8 |
+| Surah | Map | Image prose | Readings | Augment9 |
 |---|---|---|---|---|
-| S1 | ✓ | ✓ | 7/7 | 0/7 |
-| S87 | ✓ | ✓ | 19/19 | 0/19 |
+| S1 | ✓ | ✓ | 7/7 | 6/7 (1:4 safety-stop, the user decides) |
+| S87 | ✓ | ✓ | 19/19 | 6/19 (87:7–87:11 429 session limit, 87:12–87:19 not started) |
 | S100 | ✓ | ✓ | 11/11 | 0/11 |
 | S103 | – | – | 0/3 | – |
 | S107 | ✓ | ✓ | 7/7 | 0/7 |

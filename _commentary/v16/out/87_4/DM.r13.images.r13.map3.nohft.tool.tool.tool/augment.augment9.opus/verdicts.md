@@ -1,0 +1,272 @@
+- 2:22: ref ¶1 - Rabbi tanıtan cümlede gökten inen suyla rızık olarak ürün çıkarılması
+- 2:164: ref ¶8, ¶19 - buyruğa verilmiş bulut; yerin ölümünden sonra diriltilmesi
+- 6:95: ref ¶5, ¶17 - taneyi yarmak, diriyi ölüden çıkarmak
+- 6:99: cited ¶6; nowhere else - basamakları ¶6'da açıklanmış
+- 7:57: cited ¶17; ref ¶8 - ağır bulutun ölü beldeye sürülmesi
+- 7:58: prose ¶9 - aynı fiil, bitkinin topraktan toprağa farklı çıkışı, Rabbin izni
+- 9:64: ref ¶15 - saklananın açığa çıkarılması
+- 10:24: ref ¶11, ¶19 - insanın ve hayvanın yediği bitki; çıkanın gelip geçişi
+- 16:10: ref ¶11, ¶12 - insanın hayvanını otlattığı bitki
+- 16:11: ref ¶11 - suyla biten insan ekini
+- 16:65: ref ¶19 - yerin ölümünden sonra diriltilmesi
+- 18:45: context ¶16 (in 18:46), ref ¶2 - rüzgârın savurduğu kuru çöp
+- 22:5: prose ¶21, ref ¶17 - doğumda aynı fiil, bilgisizliğe dönüş, yerin yeşermesi
+- 22:63: ref ¶2 - suyla yeşile bürünen yer
+- 23:8: cited ¶16; ref ¶13 - fiilin korumak anlamı
+- 25:48: ref ¶8 - rahmetin önünde rüzgâr ve gökten su
+- 26:7: ref ¶12 - her güzel türden bitki çiftleri
+- 27:60: ref ¶3, ¶12 - işi yapanın kim olduğu sorusu; birinci çoğul şahsa geçiş
+- 29:63: ref ¶4, ¶19 - sorulunca "Allah" denmesi; yerin diriltilmesi
+- 30:19: ref ¶17 - "siz de böyle çıkarılacaksınız"
+- 30:24: ref ¶19 - yerin ölümünden sonra diriltilmesi
+- 32:27: cited ¶11; ref ¶9 - suyun kurak toprağa sürülmesi
+- 35:9: ref ¶8, ¶17 - ölü beldeye sürülen bulut; "diriliş de böyledir"
+- 36:33: ref ¶19 - ölü yerden tane çıkarılmasının bir ayet olması
+- 39:21: prose ¶2, ref ¶19 - "çıkarır... sonra onu çevirir" kuruluşu, hatırlatma
+- 41:39: ref ¶17 - yeri dirilten ölüleri de diriltir
+- 47:29: ref ¶15 - kalplerdeki kinin açığa çıkarılması
+- 50:9: ref ¶17 - ¶17'nin adını anmadan gösterdiği bereketli su
+- 50:10: ref ¶17 - ¶17'nin adını anmadan gösterdiği hurmalar
+- 50:11: cited ¶17; nowhere else - ¶17'de açıklanmış
+- 57:20: prose ¶18, ref ¶19 - bitkinin kırıntıya dönüşü ve ahiretteki iki son
+- 71:18: cited ¶17; nowhere else - ¶17-18'de açıklanmış
+- 78:14: ref ¶3, ¶8 - yağmur yüklü bulutlardan inen su
+- 78:15: ref ¶3, ¶10 - tane ve bitkinin çıkarılması; "nebât" kelimesi
+- 78:16: ref ¶3 - aynı zincirin bahçeleri
+- 79:31: cited ¶3; nowhere else - ¶11 ve ¶19'da da işlenmiş
+- 80:24: context ¶6 (in 80:26) - yiyeceğe bakma çağrısı
+- 80:25: context ¶6 (in 80:26) - suyun dökülmesi
+- 80:26: prose ¶6 - otun görünmeyen geçmişinin basamakları, toprağı yaran "biz"
+- 80:27: context ¶6 (in 80:26) - tanenin bitirilmesi
+- 80:31: ref ¶11 - meyvenin yanında hayvan otu
+- 80:32: ref ¶11 - "sizin ve hayvanlarınız için"
+- 2:265: not relevant - infak örneği, otlakla bağı yok
+- 2:267: ref ¶23 - yerden çıkarılandan infak, Allah'ın hiçbir şeye muhtaç olmaması: paragrafı sınırlar ama yanlışlamaz
+- 6:141: ref ¶23 - hasat gününde ürünün hakkı: paragrafı sınırlar
+- 7:27: ref ¶7 - bahçeden çıkarmak: uzaklaştırma anlamı
+- 7:32: not relevant - süsün helal oluşu, paragraflarla bağı yok
+- 8:5: not relevant - Peygamber'in evinden çıkarılması
+- 10:31: ref ¶4 - sorulunca "Allah" denmesi
+- 11:52: not relevant - istiğfara bağlanan yağmur; hiçbir paragraf bunu işlemiyor
+- 12:47: not relevant - Yusuf'un yorumu, karşılıksız ürünle bağı yok
+- 13:4: ref ¶9 - bitişik toprakların farklı ürünü
+- 14:1: cited ¶21; nowhere else - ¶21'de açıklanmış
+- 14:5: prose ¶21 - karanlıktan çıkarma emri "hatırlat" emriyle birlikte
+- 14:32: ref ¶1 - 2:22 ile aynı söz
+- 15:19: context ¶23 (in 15:21) - tartılı bitirme
+- 16:78: cited ¶21; ref ¶20 - bilgisiz çıkış
+- 19:66: context ¶19 (in 19:67), ref ¶17 - çıkarılmaya itiraz
+- 20:53: cited ¶12; ref ¶4 - aynı "O ki" cümlesi
+- 20:54: cited ¶12; ref ¶11, ¶13 - yemek ve otlatmak; otlatma insana verilir
+- 20:57: prose ¶7 - Firavun'un ağzında fiilin sürgün anlamı
+- 20:117: ref ¶7 - bahçeden çıkarılma uyarısı
+- 21:30: ref ¶3 - her diri şeyin sudan olması
+- 23:18: ref ¶23 - ölçüyle inen su
+- 23:19: not relevant - bahçe ve meyve sayımı, hiçbir paragrafa bir şey katmıyor
+- 24:40: not relevant - el çıkarmak, karanlık benzetmesi
+- 26:57: not relevant - bahçelerden sürülmek, bağ yok
+- 27:67: ref ¶17 - çıkarılmaya itiraz
+- 31:10: ref ¶12 - her güzel türden bitki çiftleri
+- 34:15: not relevant - Sebe'nin bahçeleri, paragraflarla bağı yok
+- 42:28: ref ¶9 - umutsuzluktan sonra yağmur, lütuf
+- 43:11: cited ¶4; ref ¶17 - "siz de böyle çıkarılacaksınız"
+- 45:5: ref ¶19 - yerin ölümünden sonra diriltilmesi
+- 46:17: ref ¶17 - çıkarılma vaadine karşı çıkan
+- 48:29: prose ¶20, ref ¶6 - filizini çıkaran ekin, bir topluluğun yetişmesi
+- 49:5: not relevant - Peygamber'in yanlarına çıkması
+- 51:35: not relevant - müminlerin çıkarılması
+- 55:10: ref ¶10 - yerin canlılar için konması
+- 55:12: ref ¶10 - saplı tane ve güzel kokulu bitki
+- 56:63: ref ¶3 - ekeni yetiştirenin kim olduğu
+- 56:64: ref ¶3 - "biz mi bitiren"
+- 57:27: ref ¶16 - gözetmenin insana yüklenen bir iş olması
+- 60:1: not relevant - yurttan çıkarılmak
+- 60:9: not relevant - yurttan çıkarılmak
+- 65:1: not relevant - boşanmada evden çıkarmamak
+- 65:11: ref ¶21 - karanlıklardan aydınlığa çıkarma
+- 70:32: ref ¶16 - 23:8 ile aynı gözetme vasfı
+- 71:10: not relevant - istiğfar çağrısı
+- 71:11: not relevant - istiğfara bağlanan yağmur
+- 71:12: not relevant - mal, oğul ve bahçe vaadi
+- 99:2: ref ¶17 - yerin ağırlıklarını çıkarması
+- 16:13: ref ¶19 - yerde türlü renklerde yaratılanın hatırlayanlar için ayet olması
+- 2:266: not relevant - infakın boşa gitmesine dair örnek
+- 7:10: ref ¶11 - geçim yolları
+- 13:17: prose ¶22 - selle gelen köpük gider, insanlara yarayan kalır
+- 15:20: ref ¶11 - geçim yolları
+- 16:6: ref ¶11 - sürünün eve dönüşü ve otlağa çıkışı
+- 16:69: ref ¶11 - bitkiden arıya, arıdan insana rızık
+- 27:25: prose ¶5, ref ¶15 - saklı olanı çıkaran, gizliyi bilen
+- 30:50: ref ¶17 - yeri dirilten ölüleri de diriltir
+- 35:27: not relevant - renk çeşitliliği; çıkıp çıkmama alacalığı değil
+- 36:71: ref ¶11 - insan için yaratılan hayvanlar
+- 41:10: ref ¶1, ¶23 - azıkların ölçüyle belirlenmesi
+- 45:13: not relevant - genel olarak buyruğa verilen şeyler
+- 50:7: ref ¶19 - bitirilen çiftlerin hatırlatma olması
+- 67:15: ref ¶4 - rızık ve dirilişin tek bir tanımda birleşmesi
+- 71:17: cited ¶17; ref ¶21 - insanın yerden bitki gibi bitirilmesi
+- 74:34: not relevant - sabah üzerine yemin
+- 78:6: ref ¶4 - yerin döşek kılınması
+- 79:29: ref ¶3, ¶21 - aynı fiille kuşluğun karanlıktan çıkarılması
+- 80:28: not relevant - ürün sayımı, bir şey katmıyor
+- 91:6: not relevant - yerin yayılması üzerine yemin
+- 105:5: ref ¶2 - "çevirdi" kuruluşuyla yenmiş ekin yaprağı
+- 2:84: not relevant - yurttan çıkarmak
+- 2:104: ref ¶15 - ledger burada dayanak olmadığını söylüyor; oysa ¶15 kökün bakmak ve gözetmek anlamına dayanıyor ve ayet "râinâ"yı "unzurnâ" ile yan yana koyuyor
+- 2:240: not relevant - dul kadının evden çıkarılmaması
+- 2:259: ref ¶17 - ölümden sonra diriltmenin gösterilmesi
+- 2:261: not relevant - infak örneği, ¶6 ile bağı yalnız bir görüntü
+- 3:110: not relevant - insanlar için çıkarılmış ümmet
+- 7:18: not relevant - İblis'in kovulması
+- 7:82: not relevant - Lut ailesini sürgün etme
+- 7:123: not relevant - sihirbazlara yöneltilen başka bir suçlama
+- 8:30: not relevant - Peygamber'i yurdundan çıkarma tuzağı
+- 12:48: not relevant - kıtlık yılları
+- 14:13: not relevant - elçileri yurttan sürme tehdidi
+- 18:94: context ¶24 (in 18:95) - önerilen "harc"
+- 20:63: ref ¶7 - yurttan çıkarma suçlaması
+- 20:88: not relevant - buzağının çıkarılması
+- 23:20: not relevant - Tur'dan çıkan ağaç, paragraflarla bağı yok
+- 24:43: prose ¶8 - yağmur buluttan "çıkar"
+- 26:35: ref ¶7 - yurttan çıkarma suçlaması
+- 26:79: context ¶1 (in 26:78) - yediren ve içiren
+- 26:167: not relevant - Lut'a sürgün tehdidi
+- 27:56: not relevant - Lut ailesini sürgün etme
+- 36:80: not relevant - yeşil ağaçtan ateş, otlakla bağı yok
+- 47:13: not relevant - Peygamber'i çıkaran şehir
+- 50:42: ref ¶17 - çıkış günü
+- 59:2: not relevant - yurtlarından çıkarılanlar
+- 63:8: not relevant - Medine'den çıkarma sözü
+- 2:172: not relevant - yiyin ve şükredin emri, bağ yok
+- 26:81: context ¶1 (in 26:78), ref ¶18 - öldürüp dirilten Rab
+- 36:34: not relevant - bahçeler ve pınarlar, bir şey katmıyor
+- 47:37: ref ¶24 - mal istenmemesi, kinin ortaya çıkması
+- 54:7: ref ¶17 - kabirlerden çıkış
+- 55:22: not relevant - denizden inci çıkması
+- 81:15: not relevant - yıldızlar üzerine yemin
+- 84:16: not relevant - şafak üzerine yemin
+- 86:7: ref ¶17 - ilk yaratılışın suyu ve geri döndürmek
+- 90:14: not relevant - açlık gününde doyurmak
+- 6:97: ref ¶15 - yol bulmak için konan yıldızlar
+- 6:98: not relevant - karar kılınacak ve emanet bırakılacak yer, paylaşılan yalnız kök
+- 6:100: not relevant - şirk eleştirisi
+- 6:101: not relevant - çocuk edinme iddiasının reddi
+- 7:55: not relevant - dua emri
+- 7:56: not relevant - bozgunculuk yasağı
+- 7:59: not relevant - Nuh kıssasının başı
+- 14:0: not relevant - besmele
+- 14:2: not relevant - mülkün Allah'a ait olması
+- 14:3: ref ¶18 - dünyayı ahirete tercih edenler
+- 16:76: not relevant - iki adam örneği
+- 16:77: not relevant - kıyametin anı
+- 16:79: not relevant - kuşlar
+- 16:80: ref ¶11 - deriden çadır, yünden eşya
+- 20:16: not relevant - Musa'ya uyarı
+- 20:17: ref ¶14 - ¶14'ün adını anmadan sözünü ettiği soru
+- 20:19: ref ¶14 - değneğin atılması
+- 20:20: ref ¶14 - değneğin yılana dönmesi
+- 20:47: not relevant - elçilik sözü
+- 20:48: not relevant - azap uyarısı
+- 20:51: ref ¶12 - konuşmanın arası
+- 20:52: ref ¶12, ¶22 - unutmayan Rab
+- 20:56: context ¶7 (in 20:57) - Firavun'un yalanlaması
+- 23:0: not relevant - besmele
+- 23:2: not relevant - namazda huşu
+- 23:3: not relevant - boş sözden yüz çevirmek
+- 23:6: not relevant - eşler
+- 23:7: not relevant - sınırı aşanlar
+- 23:9: ref ¶16 - namazı korumak
+- 23:10: ref ¶16 - vâris olmak
+- 23:69: ref ¶24 - Peygamber'i tanımamak
+- 23:70: ref ¶24 - haktan hoşlanmamak
+- 23:74: ref ¶24 - yoldan sapmak
+- 23:75: not relevant - azgınlıkta direnmek
+- 28:20: not relevant - kaçma uyarısı
+- 28:21: not relevant - şehirden korkarak çıkış
+- 28:24: ref ¶14 - Rabbinin hayrına muhtaçlık
+- 28:25: ref ¶14 - sulamanın karşılığı
+- 28:26: ref ¶14 - güçlü ve güvenilir çoban
+- 28:28: ref ¶14 - süre anlaşması
+- 28:29: ref ¶14 - süre dolunca görülen ateş
+- 32:25: not relevant - kıyamette hüküm
+- 32:26: not relevant - helak edilen nesiller
+- 32:28: not relevant - fethin zamanını sormak
+- 32:29: not relevant - fetih günü
+- 43:7: not relevant - peygamberlerle alay
+- 43:8: not relevant - eskilerin helaki
+- 43:12: context ¶4 (in 43:13) - çiftler ve binekler
+- 43:13: prose ¶4 - zincirin tesbihle ve hatırlamayla kapanması
+- 50:1: not relevant - yemin
+- 50:2: not relevant - uyarıcıya şaşmak
+- 50:4: ref ¶17 - toprağın eksilttiğini bilen
+- 50:5: not relevant - karışık bir iş içinde olmak
+- 50:12: not relevant - yalanlayan kavimler
+- 50:13: not relevant - yalanlayan kavimler
+- 71:15: not relevant - kat kat gökler
+- 71:16: not relevant - ay ve güneş
+- 71:19: ref ¶4 - yaygı olarak serilen yer
+- 71:20: ref ¶4 - geniş yollar
+- 79:25: not relevant - Firavun'un cezası
+- 79:26: not relevant - Firavun'un cezasından ibret
+- 79:30: ref ¶3 - otlaktan önce yerin yayılması
+- 79:32: not relevant - dağların sabitlenmesi
+- 79:35: context ¶19 (in 79:38) - insanın hatırlaması
+- 79:36: context ¶19 (in 79:38) - cehennemin gösterilmesi
+- 26:77 own: context ¶1 (in 26:78) - âlemlerin Rabbi dışındakilerin düşman olması
+- 26:78 own: prose ¶1 - yaratma, yol gösterme, yedirme sırasıyla "O ki" zinciri
+- 26:80 own: context ¶1 (in 26:78) - iyileştiren
+- 20:50 own: ref ¶1 - ¶12'de anılıyor; yaratma ile yol göstermenin karşılığı
+- 25:2 own: ref ¶1 - yaratma ile ölçme bir arada
+- 23:41 own: ref ¶2 - topluluğun sel döküntüsüne çevrilmesi
+- 56:65 own: ref ¶2 - ekinin kırıntıya çevrilebilmesi
+- 27:24 own: context ¶5 (in 27:25) - Sebe'nin güneşe secdesi
+- 20:55 own: context ¶7 (in 20:57) - ¶17'de anılıyor; yerden çıkarılma sözü
+- 30:48 own: context ¶8 (in 24:43) - yağmurun bulut arasından çıkması
+- 15:22 own: ref ¶8 - rüzgârın ardından inen su
+- 11:6 own: ref ¶10 - her canlının rızkı
+- 55:11 own: ref ¶10 - 55:10-12'nin ortası
+- 25:49 own: ref ¶11 - hayvanların insanlardan önce anılması
+- 16:5 own: ref ¶11 - hayvanlardaki ısınma ve yiyecek
+- 16:7 own: ref ¶11 - yük taşıma
+- 16:66 own: ref ¶11 - süt
+- 36:72 own: ref ¶11 - binek ve yiyecek
+- 36:73 own: ref ¶11 - yarar ve içecek
+- 53:36 own: ref ¶14 - Musa'nın sayfaları
+- 6:59 own: prose ¶15 - yerin karanlığındaki tane ve düşen yaprak
+- 20:7 own: ref ¶15 - gizliyi bilen
+- 16:16 own: ref ¶15 - yıldızla yol bulmak
+- 18:46 own: prose ¶16 - kalıcı iyi işler daha hayırlıdır
+- 23:11 own: ref ¶16 - Firdevs'te ebedî kalmak
+- 20:74 own: ref ¶18 - ne ölmek ne yaşamak
+- 19:67 own: prose ¶19 - çıkarılmaya itiraza hatırlama çağrısıyla verilen cevap
+- 79:37 own: context ¶19 (in 79:38) - azan
+- 79:38 own: prose ¶19 - surenin on altıncı ayetindeki "üstün tutma" fiili, otlaktan sonra
+- 79:39 own: context ¶19 (in 79:38) - barınak olarak cehennem
+- 79:40 own: context ¶19 (in 79:38) - Rabbinden korkan
+- 79:41 own: context ¶19 (in 79:38) - barınak olarak cennet
+- 4:83 own: ref ¶20 - istinbât
+- 96:4 own: context ¶22 (in 96:1), ref ¶20 - kalemle öğretmek
+- 96:5 own: context ¶22 (in 96:1), ref ¶20 - bilinmeyeni öğretmek
+- 57:9 own: ref ¶21 - karanlıklardan aydınlığa çıkarma
+- 2:257 own: ref ¶21 - karanlıklardan aydınlığa çıkarma
+- 5:16 own: ref ¶21 - karanlıklardan aydınlığa çıkarma
+- 33:43 own: ref ¶21 - karanlıklardan aydınlığa çıkarma
+- 96:1 own: prose ¶22 - Rabbin adı, yaratma ve okuma tek cümlede
+- 75:17 own: ref ¶22 - toplamak ve okumak Allah'a ait
+- 75:18 own: ref ¶22 - okunana uymak
+- 15:9 own: ref ¶22 - öğüdün korunması
+- 15:21 own: prose ¶23 - "bilinen ölçü" ve hazineler
+- 18:95 own: prose ¶24 - önerilen "harc"ın geri çevrilmesi, Rabbin verdiği daha hayırlı
+- 6:90 own: ref ¶24 - ücretsiz hatırlatma
+- 12:104 own: ref ¶24 - ücretsiz hatırlatma
+- 26:109 own: ref ¶24 - karşılık âlemlerin Rabbine ait
+- 26:127 own: ref ¶24 - aynı söz
+- 26:145 own: ref ¶24 - aynı söz
+- 26:164 own: ref ¶24 - aynı söz
+- 26:180 own: ref ¶24 - aynı söz
+- 52:40 own: ref ¶24 - ücret isteyip borç altına sokmak
+- 68:46 own: ref ¶24 - aynı söz
+- 36:21 own: ref ¶24 - ücret istemeyen ve doğru yolda olan
+- 47:36 own: ref ¶24 - Rabbin mal istememesi
+- 7:110 own: ref ¶7 - yurttan çıkarma suçlaması
+- 86:8 own: ref ¶17 - geri döndürmeye gücü yetmek

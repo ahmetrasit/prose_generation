@@ -1,0 +1,192 @@
+## ¶1 · prose · 20:33 · applied
+
+**+** Tâhâ suresinde Musa'ya Firavun'a gitmesi emredilir. Musa Rabbinden göğsünü açmasını {source:20:25} ve {ar:وَيَسِّرْ لِىٓ أَمْرِى, tr:ve yessir lî emrî, gloss:işimi bana kolaylaştır, source:20:26} diyerek işini kolaylaştırmasını ister. Kardeşinin de işine ortak edilmesini diler {source:20:32}. Bütün bu isteklerin gerekçesini şöyle söyler: {ar:كَىْ نُسَبِّحَكَ كَثِيرًۭا, tr:key nusebbihake keŝîrâ, gloss:seni çokça tesbih edelim diye, source:20:33}, bir de seni çokça analım diye {source:20:34}. Kolaylaştırma fiili, bu surenin sekizinci ayetindeki fiille aynı köktendir. Orada da kolaylık başkalarına gönderilen bir kişi için istenir ve bu isteğin amacı olarak tesbih söylenir.
+
+## ¶2 · prose · 17:110 · applied
+
+**+** İsra suresinde Peygamber'e şunu söylemesi emredilir: {ar:قُلِ ٱدْعُوا۟ ٱللَّهَ أَوِ ٱدْعُوا۟ ٱلرَّحْمَٰنَ ۖ أَيًّۭا مَّا تَدْعُوا۟ فَلَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ, tr:kuli'd'u'llâhe evi'd'u'r-rahmân eyyen mâ ted'û fe-lehu'l-esmâu'l-husnâ, gloss:de ki: ister Allah diye çağırın ister Rahman diye; hangisiyle çağırırsanız çağırın, en güzel adlar onundur, source:17:110}. Korunması istenen ad tek bir kelimeyle sınırlı değildir. Rab hangi adla çağrılırsa çağrılsın, adların hepsi aynı sahibe aittir.
+
+## ¶4 · prose · 17:43 · applied
+
+**+** İsra suresinde önce, söyledikleri gibi Allah'la birlikte ilahlar olsaydı bunların Arş'ın sahibine bir yol arayacakları bildirilir {source:17:42}. Ardından şu ayet gelir: {ar:سُبْحَٰنَهُۥ وَتَعَٰلَىٰ عَمَّا يَقُولُونَ عُلُوًّۭا كَبِيرًۭا, tr:subhânehû ve teâlâ ammâ yekûlûne uluvven kebîrâ, gloss:o, onların söylediklerinden arınmıştır ve çok büyük bir yücelikle yücedir, source:17:43}. Tesbihin uzak tuttuğu şey burada açıkça söylenir: insanların onun hakkında söyledikleri. Aynı cümlede tesbihin yanında, yükseklik kökünden gelen iki kelime (تعالى ve علوا) yer alır.
+
+## ¶5 · prose · 79:3 · applied
+
+**+** Nâziât suresi yeminlerle açılır. Yemin edilenler arasında {ar:وَٱلسَّٰبِحَٰتِ سَبْحًۭا, tr:ve's-sâbihâti sebhâ, gloss:yüzüp yüzüp gidenlere andolsun, source:79:3} vardır ve hemen ardından {ar:فَٱلسَّٰبِقَٰتِ سَبْقًۭا, tr:fe's-sâbikâti sebkâ, gloss:derken yarışıp öne geçenlere, source:79:4} gelir. Ayet yüzenlerin kim ya da ne olduğunu söylemez. Ama yalın fiilden gelen bu yüzüş bir sonraki ayette öne geçmeye varır. Böylece bu harflerin koşu ve çaba anlamı Kur'an'ın kendi dizisinde de bir yarışın ilk adımı olarak duyulur.
+
+## ¶5 · prose · 43:13 · applied
+
+**+** Zuhruf suresinde Allah'ın insanlar için binecekleri gemiler ve hayvanlar yarattığı söylenir {source:43:12}. Onların sırtına yerleşenlere Rablerinin nimetini anmaları ve şunu söylemeleri öğretilir: {ar:سُبْحَٰنَ ٱلَّذِى سَخَّرَ لَنَا هَٰذَا وَمَا كُنَّا لَهُۥ مُقْرِنِينَ, tr:subhâne'lleẕî sehhara lenâ hâẕâ ve mâ kunnâ lehû mukrinîn, gloss:bunu bize boyun eğdiren her eksikten arıdır; biz buna güç yetiremezdik, source:43:13}. Suyun üstünde ve hayvan sırtında taşınmak ile tesbih orada aynı ana düşer. Taşınan kişi, kendisini taşıyan şeyi kendi gücüne değil, ona boyun eğdirene bağlar.
+
+## ¶6 · prose · 24:41 · applied
+
+**+** Nûr suresinde şöyle denir: {ar:أَلَمْ تَرَ أَنَّ ٱللَّهَ يُسَبِّحُ لَهُۥ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَٱلطَّيْرُ صَٰٓفَّٰتٍۢ ۖ كُلٌّۭ قَدْ عَلِمَ صَلَاتَهُۥ وَتَسْبِيحَهُۥ, tr:e lem tera ennallâhe yusebbihu lehû men fi's-semâvâti ve'l-ardi ve't-tayru sâffât kullun kad alime salâtehû ve tesbîhah, gloss:görmedin mi, göklerde ve yerde olanlar ve kanat açıp dizilen kuşlar Allah'ı tesbih eder; her biri kendi namazını ve tesbihini bilmiştir, source:24:41}. Tesbihin nasıl yapıldığı orada da anlatılmaz. Ama bu tesbihin bilinmediği de söylenmez: insanın kavramadığı tesbihi, her biri kendisi bilir. Havada kanat açmış kuşlar da bu tesbihin içinde anılır.
+
+## ¶7 · prose · 73:8 · applied
+
+**+** Gündüzün uzun koşuşturmasını bildiren ayetin hemen ardından şu emir gelir: {ar:وَٱذْكُرِ ٱسْمَ رَبِّكَ وَتَبَتَّلْ إِلَيْهِ تَبْتِيلًۭا, tr:veẕkuri'sme rabbike ve tebettel ileyhi tebtîlâ, gloss:Rabbinin adını an ve bütün varlığınla ona yönel, source:73:8}. Bu emir bir vakitle sınırlanmaz. Gündüzün koşuşturması anıldıktan sonra gelen anmanın nesnesi, bu ayetteki emirde olduğu gibi Rabbin adıdır.
+
+## ¶7 · prose · 24:36 · applied
+
+**+** Nûr suresinde, Allah'ın yükseltilmelerine ve içlerinde adının anılmasına izin verdiği evlerden söz edilir: {ar:يُسَبِّحُ لَهُۥ فِيهَا بِٱلْغُدُوِّ وَٱلْءَاصَالِ, tr:yusebbihu lehû fîhâ bi'l-ğuduvvi ve'l-âsâl, gloss:oralarda sabah akşam onu tesbih ederler, source:24:36}. Tesbih edenler şöyle tanıtılır: {ar:رِجَالٌۭ لَّا تُلْهِيهِمْ تِجَٰرَةٌۭ وَلَا بَيْعٌ عَن ذِكْرِ ٱللَّهِ, tr:ricâlun lâ tulhîhim ticâratun ve lâ bey'un an ẕikrillâh, gloss:ne ticaretin ne alışverişin Allah'ı anmaktan alıkoyduğu adamlar, source:24:37}. Geçim telaşı burada da vardır. Ama alışveriş, bu kişilere anmayı unutturmaz.
+
+## ¶8 · prose · 68:48 · applied
+
+**+** Kalem suresinde Peygamber'e şöyle denir: {ar:فَٱصْبِرْ لِحُكْمِ رَبِّكَ وَلَا تَكُن كَصَاحِبِ ٱلْحُوتِ إِذْ نَادَىٰ وَهُوَ مَكْظُومٌۭ, tr:fasbir li-hukmi rabbike ve lâ tekun ke-sâhibi'l-hût iẕ nâdâ ve huve mekzûm, gloss:Rabbinin hükmüne sabret ve balık sahibi gibi olma; o, içi kederle dolu olarak seslenmişti, source:68:48}. Ardından {ar:لَّوْلَآ أَن تَدَٰرَكَهُۥ نِعْمَةٌۭ مِّن رَّبِّهِۦ لَنُبِذَ بِٱلْعَرَآءِ وَهُوَ مَذْمُومٌۭ, tr:lev lâ en tedârekehû ni'metun min rabbihî le-nubiẕe bi'l-arâi ve huve meẕmûm, gloss:Rabbinden bir nimet ona yetişmeseydi kınanmış olarak çıplak bir yere atılırdı, source:68:49} gelir. Sonra da Rabbinin onu seçip iyilerden kıldığı söylenir {source:68:50}. Sâffât suresindeki "eğer ... olmasaydı" kuruluşu burada da kurulur. Orada onu kurtaran tesbihtir, burada Rabbinden ona yetişen nimet. Bu anlatım, Rabbinin hükmüne sabretmesi istenen kişiye "onun gibi olma" uyarısıyla yöneltilir.
+
+## ¶9 · prose · 32:15 · applied
+
+**+** Secde suresinde şöyle denir: {ar:إِنَّمَا يُؤْمِنُ بِـَٔايَٰتِنَا ٱلَّذِينَ إِذَا ذُكِّرُوا۟ بِهَا خَرُّوا۟ سُجَّدًۭا وَسَبَّحُوا۟ بِحَمْدِ رَبِّهِمْ وَهُمْ لَا يَسْتَكْبِرُونَ, tr:innemâ yu'minu bi-âyâtine'lleẕîne iẕâ ẕukkirû bihâ harrû succeden ve sebbehû bi-hamdi rabbihim ve hum lâ yestekbirûn, gloss:ayetlerimize ancak, onlarla öğüt verildiğinde secdeye kapanan, Rablerini överek tesbih eden ve büyüklenmeyenler inanır, source:32:15}. Öğüt verilince beden yere iner ve dil tesbih eder. Alnın değdiği yer ile tesbih orada tek bir hareketin içinde buluşur. Ayetteki "öğüt verildiğinde" fiili, bu surenin dokuzuncu ayetindeki "öğüt ver" emriyle aynı köktendir.
+
+## ¶10 · prose · 94:4 · applied
+
+**+** İnşirah suresinde Allah, tekil bir "sen"e göğsünü açtığını ve sırtını büken yükü üzerinden kaldırdığını söyler {source:94:1} {source:94:2} {source:94:3}. Sonra {ar:وَرَفَعْنَا لَكَ ذِكْرَكَ, tr:ve refa'nâ leke ẕikrek, gloss:senin anılışını yükselttik, source:94:4} der. Adın açıklamasında geçen "adlandırılanın anılışının yükselmesi" burada Allah'ın bir kuluna yaptığı bir iş olarak geçer. Anılışı yükselten, adlandırılan kişinin kendisi değil, Allah'tır.
+
+## ¶11 · prose · 81:23 · applied
+
+**+** Tekvir suresinde, Arş'ın sahibi katında güçlü ve itibarlı, orada sözü dinlenen, güvenilir ve değerli bir elçinin sözünden söz edilir {source:81:19} {source:81:20} {source:81:21}. Ardından "arkadaşınız deli değildir" denir {source:81:22} ve şu ayet gelir: {ar:وَلَقَدْ رَءَاهُ بِٱلْأُفُقِ ٱلْمُبِينِ, tr:ve lekad raâhu bi'l-ufuki'l-mubîn, gloss:andolsun, onu apaçık ufukta gördü, source:81:23}. Ufuk burada "en yüce" diye değil, "apaçık" diye nitelenir. Ufukta duran biçimin seçilebilir oluşu, ufkun kendi sıfatı olarak söylenir.
+
+## ¶12 · prose · 2:22 · applied
+
+**+** Bakara suresinde Allah şöyle anılır: {ar:ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ فِرَٰشًۭا وَٱلسَّمَآءَ بِنَآءًۭ وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءًۭ فَأَخْرَجَ بِهِۦ مِنَ ٱلثَّمَرَٰتِ رِزْقًۭا لَّكُمْ, tr:elleẕî ceale lekumu'l-arda firâşen ve's-semâe binâen ve enzele mine's-semâi mâen fe-ahrece bihî mine's-semerâti rizkan lekum, gloss:yeri size döşek, göğü bina yapan; gökten su indirip onunla size rızık olarak ürünler çıkaran, source:2:22}. Gök burada hem insanın üstünde kurulmuş bir yapıdır hem de suyun indiği yerdir. Ondan inen su topraktan ürün çıkarır. Üstteki örtüden yağmura, yağmurdan bitkiye uzanan dizi tek bir ayetin içinde kurulur.
+
+## ¶13 · prose · 68:16 · applied
+
+**+** Kalem suresinde, ayetler kendisine okunduğunda "öncekilerin masalları" diyen biri anlatılır {source:68:15}. Onun hakkında {ar:سَنَسِمُهُۥ عَلَى ٱلْخُرْطُومِ, tr:se-nesimuhû ale'l-hurtûm, gloss:onu burnunun üstünden damgalayacağız, source:68:16} denir. Damgalama fiili burada bir insan için kullanılır. Damga yüzün en önüne basılır ve o kişiyi ötekilerden ayıran bir iz olur.
+
+## ¶14 · prose · 12:50 · applied
+
+**+** Yusuf suresinde bu kelime, bir tamlamanın içinde insan bir efendi için kullanılır. Yusuf zindan arkadaşlarından biri için {ar:فَيَسْقِى رَبَّهُۥ خَمْرًۭا, tr:fe-yeskî rabbehû hamrâ, gloss:efendisine şarap sunacak, source:12:41} der. Kral onu çağırttığında gelen elçiye de {ar:ٱرْجِعْ إِلَىٰ رَبِّكَ فَسْـَٔلْهُ, tr:irci' ilâ rabbike fes'elhu, gloss:efendine dön ve ona sor, source:12:50} der. Kelime iki yerde de bir kişiye bağlanır ve hizmet edilen bir efendiyi gösterir. İkinci yerde bu efendi, ayetin kendisinin "kral" dediği kişidir.
+
+## ¶15 · prose · 20:50 · applied
+
+**+** Tâhâ suresinde Firavun şöyle sorar: {ar:قَالَ فَمَن رَّبُّكُمَا يَٰمُوسَىٰ, tr:kâle fe-men rabbukumâ yâ mûsâ, gloss:dedi ki: ey Musa, ikinizin Rabbi kim, source:20:49}. Musa Rab'bi yaptığı işle tanıtır: {ar:قَالَ رَبُّنَا ٱلَّذِىٓ أَعْطَىٰ كُلَّ شَىْءٍ خَلْقَهُۥ ثُمَّ هَدَىٰ, tr:kâle rabbune'lleẕî a'tâ kulle şey'in halkahû ŝumme hedâ, gloss:dedi ki: Rabbimiz her şeye yaratılışını veren, sonra yol gösterendir, source:20:50}. Bu surenin ikinci ve üçüncü ayetinde sıralanan yaratma ve yol gösterme, orada "Rab kimdir" sorusunun cevabı olarak gelir.
+
+## ¶17 · prose · 35:41 · applied
+
+**+** Fâtır suresinde şöyle denir: {ar:إِنَّ ٱللَّهَ يُمْسِكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ أَن تَزُولَا ۚ وَلَئِن زَالَتَآ إِنْ أَمْسَكَهُمَا مِنْ أَحَدٍۢ مِّنۢ بَعْدِهِۦٓ, tr:innallâhe yumsiku's-semâvâti ve'l-arda en tezûlâ ve le-in zâletâ in emsekehumâ min ehadin min ba'dih, gloss:Allah gökleri ve yeri, yerlerinden kaymasınlar diye tutar; eğer kayarlarsa, ondan sonra onları kimse tutamaz, source:35:41}. Gidebilecek olanı yerinde tutmak orada bir görüntü olarak geçmez. Göklerle yer hakkında açıkça söylenmiş bir söz olarak geçer ve ayete göre onları tutan yalnızca odur.
+
+## ¶18 · prose · 20:4 · applied
+
+**+** Tâhâ suresinde Kur'an'ın {ar:تَنزِيلًۭا مِّمَّنْ خَلَقَ ٱلْأَرْضَ وَٱلسَّمَٰوَٰتِ ٱلْعُلَى, tr:tenzîlen mimmen halaka'l-arda ve's-semâvâti'l-ulâ, gloss:yeri ve yüce gökleri yaratandan indirilmiştir, source:20:4} olduğu söylenir. العلى, الأعلى kelimesinin dişili olan العليا'nın çoğuludur ve ism ile aynı kökten gelen "gökler" kelimesini niteler. İki ayrı yükseklik kökü orada da yan yana durur, bu kez göklerin adında ve sıfatında. Dört ayet sonra da {ar:لَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ, tr:lehu'l-esmâu'l-husnâ, gloss:en güzel adlar onundur, source:20:8} denir.
+
+## ¶19 · prose · 27:30 · applied
+
+**+** Neml suresinde gerçek bir mektup anlatılır. Sebe' halkına hükmeden kadın, ileri gelenlere kendisine değerli bir mektup bırakıldığını söyler {source:27:29} ve mektubu şöyle tanıtır: {ar:إِنَّهُۥ مِن سُلَيْمَٰنَ وَإِنَّهُۥ بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ, tr:innehû min suleymâne ve innehû bismillâhi'r-rahmâni'r-rahîm, gloss:o Süleyman'dandır ve Rahman ve Rahim olan Allah'ın adıyladır, source:27:30}. Mektubun başında hem kimden geldiği hem de Allah'ın adı yer alır. Mektubun ilk buyruğu da yükseklik kökünden bir fiille gelir: {ar:أَلَّا تَعْلُوا۟ عَلَىَّ وَأْتُونِى مُسْلِمِينَ, tr:ellâ ta'lû aleyye ve'tûnî muslimîn, gloss:bana karşı büyüklenmeyin ve teslim olarak bana gelin, source:27:31}.
+
+## ¶20 · prose · 9:40 · applied
+
+**+** Tevbe suresinde, inkâr edenlerin onu çıkardığı ve iki kişiden ikincisi olarak mağarada bulunduğu an anılır. O, arkadaşına {ar:لَا تَحْزَنْ إِنَّ ٱللَّهَ مَعَنَا, tr:lâ tahzen innallâhe meanâ, gloss:üzülme, Allah bizimle, source:9:40} der. Ayet, Allah'ın ona iç huzuru indirdiğini ve onu görülmeyen ordularla desteklediğini söyler ve şöyle biter: {ar:وَجَعَلَ كَلِمَةَ ٱلَّذِينَ كَفَرُوا۟ ٱلسُّفْلَىٰ ۗ وَكَلِمَةُ ٱللَّهِ هِىَ ٱلْعُلْيَا, tr:ve ceale kelimete'lleẕîne keferu's-suflâ ve kelimetullâhi hiye'l-ulyâ, gloss:inkâr edenlerin sözünü en alçak kıldı; en yüce olan ise Allah'ın sözüdür, source:9:40}. Musa'ya söylenen "korkma" gibi burada da "üzülme" söylenir. Yükseklik ise الأعلى kelimesinin dişili olan العليا ile doğrudan Allah'ın sözüne verilir.
+
+## ¶20 · prose · 28:4 · applied
+
+**+** Kasas suresinde kınanan yükseliş, Firavun için aynı fiille söylenir: {ar:إِنَّ فِرْعَوْنَ عَلَا فِى ٱلْأَرْضِ وَجَعَلَ أَهْلَهَا شِيَعًۭا يَسْتَضْعِفُ طَآئِفَةًۭ مِّنْهُمْ, tr:inne fir'avne alâ fi'l-ardi ve ceale ehlehâ şiyean yestad'ifu tâifeten minhum, gloss:Firavun yeryüzünde yükseldi, halkını bölüklere ayırdı ve onlardan bir kesimi güçsüz düşürdü, source:28:4}. "Yeryüzünde yükseldi" sözünün içeriğini aynı ayet verir: bir hükümdarın halkını bölmesi ve bir kesimini ezmesi. Kasas suresinin sonlarına doğru ise ahiret yurdunun {ar:لِلَّذِينَ لَا يُرِيدُونَ عُلُوًّۭا فِى ٱلْأَرْضِ وَلَا فَسَادًۭا, tr:li'lleẕîne lâ yurîdûne uluvven fi'l-ardi ve lâ fesâdâ, gloss:yeryüzünde yükseklik ve bozgunculuk istemeyenler için, source:28:83} olduğu söylenir.
+
+## ¶21 · prose · 9:31 · applied
+
+**+** Tevbe suresinde, bir önceki ayette sözleri aktarılanlar için şöyle denir: {ar:ٱتَّخَذُوٓا۟ أَحْبَارَهُمْ وَرُهْبَٰنَهُمْ أَرْبَابًۭا مِّن دُونِ ٱللَّهِ وَٱلْمَسِيحَ ٱبْنَ مَرْيَمَ وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوٓا۟ إِلَٰهًۭا وَٰحِدًۭا, tr:ittehaẕû ahbârahum ve ruhbânehum erbâben min dûnillâhi ve'l-mesîhabne meryeme ve mâ umirû illâ li-ya'budû ilâhen vâhidâ, gloss:Allah'ı bırakıp bilginlerini, rahiplerini ve Meryem oğlu Mesih'i rabler edindiler; oysa onlara yalnızca tek bir ilaha kulluk etmeleri emredilmişti, source:9:31}. Ortak söze çağrıda kaçınılması istenen "Allah'ı bırakıp rabler edinmek", burada aynı kelimelerle yapılmış bir iş olarak anlatılır. Ayet {ar:سُبْحَٰنَهُۥ عَمَّا يُشْرِكُونَ, tr:subhânehû ammâ yuşrikûn, gloss:o, ortak koştuklarından arınmıştır, source:9:31} diye tesbihle kapanır.
+
+## ¶23 · prose · 23:91 · applied
+
+**+** Mü'minûn suresinde şöyle denir: {ar:مَا ٱتَّخَذَ ٱللَّهُ مِن وَلَدٍۢ وَمَا كَانَ مَعَهُۥ مِنْ إِلَٰهٍ ۚ إِذًۭا لَّذَهَبَ كُلُّ إِلَٰهٍۭ بِمَا خَلَقَ وَلَعَلَا بَعْضُهُمْ عَلَىٰ بَعْضٍۢ, tr:mettehaẕallâhu min veledin ve mâ kâne meahû min ilâh iẕen le-ẕehebe kullu ilâhin bimâ halaka ve le-alâ ba'duhum alâ ba'd, gloss:Allah çocuk edinmedi, onunla birlikte hiçbir ilah da yoktur; öyle olsaydı her ilah kendi yarattığını alıp giderdi ve bir kısmı ötekilerin üstüne çıkardı, source:23:91}. Ayet {ar:سُبْحَٰنَ ٱللَّهِ عَمَّا يَصِفُونَ, tr:subhânallâhi ammâ yesifûn, gloss:Allah onların yakıştırdıklarından arınmıştır, source:23:91} sözüyle biter. Denk ilahlar olsaydı aralarında bir boy ölçüşme başlardı: her biri yarattığını alıp giderdi, biri öbürünün üstüne çıkardı. Ayet bu ihtimali tesbihle kapatır.
+
+## ¶24 · prose · 12:40 · applied
+
+**+** Yusuf suresinde Yusuf zindan arkadaşlarına şunu sorar: {ar:يَٰصَىٰحِبَىِ ٱلسِّجْنِ ءَأَرْبَابٌۭ مُّتَفَرِّقُونَ خَيْرٌ أَمِ ٱللَّهُ ٱلْوَٰحِدُ ٱلْقَهَّارُ, tr:yâ sâhibeyi's-sicni e erbâbun muteferrikûne hayrun emillâhu'l-vâhidu'l-kahhâr, gloss:ey zindan arkadaşlarım, birbirinden ayrı birçok rab mi daha iyidir, yoksa tek ve her şeye galip olan Allah mı, source:12:39}. Sonra sözünü şöyle sürdürür: {ar:مَا تَعْبُدُونَ مِن دُونِهِۦٓ إِلَّآ أَسْمَآءًۭ سَمَّيْتُمُوهَآ أَنتُمْ وَءَابَآؤُكُم مَّآ أَنزَلَ ٱللَّهُ بِهَا مِن سُلْطَٰنٍ, tr:mâ ta'budûne min dûnihî illâ esmâen semmeytumûhâ entum ve âbâukum mâ enzelallâhu bihâ min sultân, gloss:onu bırakıp taptıklarınız, sizin ve atalarınızın taktığı adlardan başka bir şey değildir; Allah onlar için hiçbir delil indirmemiştir, source:12:40}. Necm suresindeki cümle burada neredeyse aynen geçer. Ama bu kez "birbirinden ayrı rabler" sorusunun cevabı olarak gelir: rablik birçok ele dağıtıldığında elde kalan, arkasında hiçbir şey olmayan adlardır.
+
+## ¶26 · prose · 79:19 · applied
+
+**+** Nâziât suresinde Musa'ya Firavun'a ne söyleyeceği de bildirilir: {ar:فَقُلْ هَل لَّكَ إِلَىٰٓ أَن تَزَكَّىٰ, tr:fe-kul hel leke ilâ en tezekkâ, gloss:de ki: arınmaya ne dersin, source:79:18} ve {ar:وَأَهْدِيَكَ إِلَىٰ رَبِّكَ فَتَخْشَىٰ, tr:ve ehdiyeke ilâ rabbike fe-tahşâ, gloss:seni Rabbine yönelteyim de ondan korkasın, source:79:19}. Firavun'a da tekil bir "sen"e bağlanan bir "Rabbin" sunulur. Firavun ise birkaç ayet sonra bu tamlamayı kendine çevirir ve kendisini halkının Rabbi ilan eder.
+
+## ¶26 · prose · 5:116 · applied
+
+**+** Mâide suresinde Allah, Meryem oğlu İsa'ya şunu sorar: {ar:ءَأَنتَ قُلْتَ لِلنَّاسِ ٱتَّخِذُونِى وَأُمِّىَ إِلَٰهَيْنِ مِن دُونِ ٱللَّهِ, tr:e ente kulte li'n-nâsi'ttehıẕûnî ve ummiye ilâheyni min dûnillâh, gloss:insanlara "Allah'ı bırakıp beni ve annemi iki ilah edinin" diye sen mi söyledin, source:5:116}. Cevap tesbihle başlar: {ar:قَالَ سُبْحَٰنَكَ مَا يَكُونُ لِىٓ أَنْ أَقُولَ مَا لَيْسَ لِى بِحَقٍّ, tr:kâle subhâneke mâ yekûnu lî en ekûle mâ leyse lî bi-hakk, gloss:dedi ki: sen her eksikten arısın; hakkım olmayan bir şeyi söylemek bana yakışmaz, source:5:116}. Firavun'un kendine aldığı yer, İsa'nın sözünde "hakkım olmayan" diye geri verilir ve bu geri veriş tesbihle yapılır.
+
+## ¶1 · refs · - · applied
+
+**+** Ayrıca: {source:74:1} {source:74:2} {source:74:3} bürünmüş olana önce kalkıp uyarması, ardından Rabbini büyütmesi emredilir; {source:73:5} "sana ağır bir söz bırakacağız" vaadi, "sana okutacağız" gibi tek bir kişiye yöneltilir
+
+## ¶2 · refs · - · applied
+
+**+** Ayrıca: {source:56:72} {source:56:73} edatlı tesbih emrinden önce ateşi yakan ağacı kimin var ettiğini soran ayetler; {source:56:96} {source:69:52} Rabbin adıyla tesbih emri, iki surenin sonunda edatla tekrarlanır; {source:73:8} {source:76:25} anma emrinde Rabbin adı, edatsız, doğrudan nesnedir; {source:55:78} bereket ve yücelik doğrudan Rabbin adına verilir; {source:15:98} {source:20:130} {source:40:55} {source:50:39} {source:52:48} {source:110:3} {source:25:58} tesbih emri "Rabbinin hamdıyla" diye edatla kurulur; {source:27:30} bir mektup Allah'ın adıyla açılır
+
+## ¶3 · refs · - · applied
+
+**+** Ayrıca: {source:55:26} Rabbin yüzünün kalışından önce yeryüzündeki herkesin yok olacağı söylenir; {source:16:60} {source:30:27} "en yüce" sıfatı Allah'a ait olan "misal"i niteler; sıfat Rab'be ait bir şeye bağlanır
+
+## ¶4 · refs · - · applied
+
+**+** Ayrıca: {source:6:100} {source:21:22} {source:23:91} {source:37:159} {source:37:180} {source:43:82} tesbih, Allah'ı onların yakıştırdığı niteliklerden ayırır; {source:9:31} {source:10:18} {source:16:1} {source:28:68} {source:30:40} {source:39:67} {source:52:43} tesbih, Allah'ı ortak koşulan her şeyden ayırır; {source:2:116} {source:10:68} "Allah çocuk edindi" diyenlere karşı söylenen tesbih; {source:4:171} tesbih, Allah'ı çocuk sahibi olmaktan uzak tutar; {source:16:57} Allah'a kız çocukları yakıştırılmasına karşı söylenen tesbih; {source:39:4} Allah'ın çocuk seçmesi ihtimaline karşı söylenen tesbih; {source:3:191} ayakta, oturarak ve yan yatarak Allah'ı anan ve yaratılışı düşünenlerin dilinden tesbih; {source:12:108} tesbih, ortak koşanlardan olmamakla birlikte söylenir; {source:10:10} cennettekilerin duası tesbihle açılır
+
+## ¶5 · refs · - · applied
+
+**+** Ayrıca: {source:21:33} {source:36:40} güneş ve ay yörüngelerinde yalın fiille "yüzer"
+
+## ¶6 · refs · - · applied
+
+**+** Ayrıca: {source:21:30} göklerle yerin bitişikken ayrılması ve her canlının sudan yaratılması; {source:36:40} güneşin aya yetişemediği, gecenin gündüzü geçemediği düzende aynı yalın fiille yüzüş; {source:57:1} {source:59:1} {source:61:1} {source:62:1} {source:64:1} göklerde ve yerde olanların tesbihi, şeddeli fiille hem geçmiş hem şimdiki zamanda söylenir; {source:13:13} gök gürültüsü Allah'ı överek tesbih eder; {source:21:79} dağlar ve kuşlar Davud'la birlikte tesbih eder; {source:79:3} yalın fiilden gelen "yüzenler"
+
+## ¶7 · refs · - · applied
+
+**+** Ayrıca: {source:73:1} emrin yöneltildiği, örtüsüne bürünmüş kişi; {source:73:3} {source:73:4} gecenin yarısı kadar ayakta durup Kur'an'ı tane tane okuma; {source:73:6} gece kalkışının daha sağlam ve sözü daha doğru oluşu; {source:76:23} {source:76:24} Kur'an'ın indirilişi ve Rabbin hükmüne sabır, gece tesbihinden önce gelir; {source:20:130} {source:50:39} tesbih, güneş doğmadan ve batmadan önceye, Tâhâ'da gündüzün uçlarına da yerleştirilir; {source:50:40} gecenin bir kısmında ve secdelerin ardından tesbih; {source:52:48} {source:52:49} kalkarken, gecenin bir kısmında ve yıldızlar çekilirken tesbih; {source:40:55} akşam ve sabah tesbih; {source:30:17} {source:30:18} akşam, sabah, gece ve öğle vakitlerine yayılan tesbih ve hamd; {source:33:41} {source:33:42} Allah'ı çokça anmak ve onu sabah akşam tesbih etmek; {source:3:41} {source:19:11} sabah akşam tesbih Zekeriya'ya emredilir, o da bunu kavmine işaretle iletir; {source:21:19} {source:21:20} Allah'ın katındakiler usanmadan gece gündüz tesbih eder; {source:41:38} Rabbin katındakiler gece gündüz bıkmadan tesbih eder
+
+## ¶8 · refs · - · applied
+
+**+** Ayrıca: {source:37:139} Yunus'un gönderilen elçilerden oluşu; {source:37:145} {source:37:146} balıktan sonra hasta olarak çıplak bir yere atılışı ve üstünde bir bitkinin bitirilmesi; {source:21:88} karanlıktaki çağrısının kabul edilmesi ve kederden kurtarılışı; {source:21:87} {source:68:28} {source:68:29} bahçe sahipleri, "tesbih etmeli değil miydiniz" uyarısının ardından "Rabbimiz arıdır, biz zalimdik" der; {source:7:143} Musa kendinden geçtikten sonra tesbihle tövbe eder; {source:40:55} tesbih, günahı için bağışlanma dilemekle birlikte emredilir; {source:110:3} tesbih ile bağışlanma dileği aynı emirde birleşir; {source:2:32} melekler tesbihle bilgilerinin sınırını kabul eder
+
+## ¶9 · refs · - · applied
+
+**+** Ayrıca: {source:7:206} Rabbin katındakiler onu tesbih eder ve ona secde eder; {source:15:98} tesbih, secde edenlerden olmakla birlikte emredilir; {source:17:107} {source:17:108} {source:17:109} Kur'an okunduğunda çeneleri üstüne secdeye kapananlar "Rabbimiz arıdır" der; {source:50:40} secdelerin ardından tesbih; {source:76:26} gece secde ve tesbih birlikte emredilir; {source:20:14} namazın Allah'ı anmak için kılınması; {source:24:36} {source:24:37} adın anıldığı evlerde tesbih ve namazın kılınması; {source:22:40} Allah'ın adının çokça anıldığı mescitler; {source:72:18} secde yerlerinin Allah'a ait oluşu ve oralarda onunla birlikte kimseye dua edilmemesi
+
+## ¶11 · refs · - · applied
+
+**+** Ayrıca: {source:53:6} ufukta doğrulup durması; {source:53:8} {source:53:9} ufuktan yaklaşıp sarkması; {source:37:8} {source:38:69} "en yüce" sıfatı, kulak verilemeyen ve vahiy olmadan bilinemeyen yüce topluluğu niteler
+
+## ¶12 · refs · - · applied
+
+**+** Ayrıca: {source:21:32} göğün korunmuş bir tavan yapılması; {source:52:5} göğün "yükseltilmiş tavan" diye anılması; {source:50:9} gökten inen bereketli suyla bahçelerin ve biçilen tanelerin bitmesi
+
+## ¶13 · refs · - · applied
+
+**+** Ayrıca: {source:15:75} izlerden okuyanlar (mutevessimîn) için ibretler; {source:22:36} Allah'ın nişanlarından sayılan kurbanlık develerin üzerine Allah'ın adının anılması; {source:22:28} {source:22:34} verilen hayvanların üzerine Allah'ın adının anılması
+
+## ¶14 · refs · - · applied
+
+**+** Ayrıca: {source:106:3} "bu evin Rabbi" tamlaması; {source:1:4} Fatiha'da Rab'den hemen sonra "Malik" diye anılması; {source:7:54} yaratmanın da buyruğun da ona ait olması; {source:10:3} işi evirip çeviren ve kulluk edilecek olan Rab; {source:36:83} her şeyin hükümranlığı elinde olanın tesbih edilmesi
+
+## ¶15 · refs · - · applied
+
+**+** Ayrıca: {source:25:2} her şeyi yaratıp ölçüsünü tam olarak koyması; {source:54:49} her şeyin bir ölçüyle yaratılması; {source:23:14} nutfeden "başka bir yaratılışa" uzanan aşamalar; {source:71:14} insanın evre evre yaratılması; {source:96:1} {source:96:2} okuma emrinde Rab'bin yaratmasıyla tanıtılması; {source:96:3} {source:96:4} {source:96:5} kalemle ve insana bilmediğini öğreten Rab; {source:36:36} tesbihin, yaratanı anlatan bir cümleyle sürmesi
+
+## ¶17 · refs · - · applied
+
+**+** Ayrıca: {source:2:255} uyuklamanın onu tutmaması ve gökleri ve yeri korumanın ona ağır gelmemesi
+
+## ¶18 · refs · - · applied
+
+**+** Ayrıca: {source:9:40} الأعلى kelimesinin dişili العليا, السفلى (en alçak) karşısında; {source:96:3} Rab'be bağlanan ve karşılaştırma içermeyen üstünlük kalıbı "en cömert"; {source:17:43} tesbihin yanında aynı kökten fiil ve mastar; {source:6:100} {source:10:18} {source:16:1} {source:28:68} {source:30:40} {source:39:67} tesbih ve aynı kökten "teâlâ" fiili yan yana gelir; {source:16:3} {source:7:190} {source:23:92} yücelik, ortak koşulanların üstünde olmak olarak söylenir; {source:22:62} {source:31:30} aynı kökten "Aliyy" adı, ondan başka çağrılanın bâtıl oluşu karşısında; {source:2:255} {source:42:4} aynı kökten "Aliyy" adı "Azîm" ile birlikte; {source:72:3} yükseklik fiili Rabbin şanına yüklenir
+
+## ¶20 · refs · - · applied
+
+**+** Ayrıca: {source:20:66} {source:20:67} iplerin ve değneklerin koşuyormuş gibi görünmesi ve Musa'nın içinde korku duyması; {source:92:18} {source:92:19} malını arınmak için veren ve kimseye karşılık borcu olmayan kişi; {source:92:21} en yüce Rabbin yüzünü isteyenin hoşnut kalacağı; {source:3:139} {source:47:35} "en üstün olanlar sizsiniz" sözü, imana ve Allah'ın beraberliğine bağlanır; {source:38:75} büyüklenmeyle yan yana anılan "yüksekler"; {source:19:57} yüksek bir mevkinin Allah tarafından verilmesi
+
+## ¶21 · refs · - · applied
+
+**+** Ayrıca: {source:6:151} "gelin" çağrısı, Rabbin haram kıldıklarını okumaya ve ona hiçbir şeyi ortak koşmamaya yöneltilir; {source:3:80} melekleri ve peygamberleri rabler edinmenin emredilmediği; {source:12:39} birbirinden ayrı rabler, tek ve her şeye galip olan Allah'la karşılaştırılır
+
+## ¶23 · refs · - · applied
+
+**+** Ayrıca: {source:19:5} {source:19:6} Zekeriya'nın kendisine bir veli bağışlanması için yaptığı dua; {source:21:89} Zekeriya'nın "beni tek başıma bırakma" diye Rabbine seslenişi; {source:112:4} onun hiçbir dengi olmaması; {source:42:11} onun benzeri gibi hiçbir şeyin olmaması; {source:2:22} Allah'a denkler koşulmaması; {source:17:42} onunla birlikte ilahlar olsaydı Arş'ın sahibine yol arayacakları; {source:21:22} gökte ve yerde başka ilahlar olsaydı ikisinin de bozulacağı; {source:17:111} {source:25:2} mülkte ortağı olmaması
+
+## ¶24 · refs · - · applied
+
+**+** Ayrıca: {source:53:19} {source:53:20} Lât'ın, Uzzâ'nın ve Menât'ın sayılması; {source:53:27} meleklere dişi adları verilmesi; {source:7:71} sizin ve atalarınızın taktığı, hakkında delil indirilmemiş adlar üzerine tartışma; {source:17:110} {source:20:8} {source:59:24} en güzel adların ona ait olması; {source:17:46} Rab Kur'an'da tek başına anılınca arkalarını dönüp kaçanlar; {source:39:45} Allah tek başına anılınca kalpleri daralan, ondan başkaları anılınca sevinenler; {source:34:41} tapılanların "sen arısın, bizim velimiz sensin" diyerek kendilerine verilen yeri reddetmesi; {source:25:18} Allah'ı bırakıp tapılanların "sen arısın, senden başka veliler edinmek bize yakışmazdı" demesi; {source:5:116} hakkı olmayan ilahlık sözünün tesbihle reddedilmesi
+
+## ¶25 · refs · - · applied
+
+**+** Ayrıca: {source:2:33} Adem'in meleklere adları bildirmesi ve Allah'ın gaybı bildiğini söylemesi; {source:37:166} "biz tesbih edenleriz" diyenlerin kendilerini tanıtması; {source:59:22} {source:59:23} adların sayıldığı ve tesbihle kapanan dizinin önceki halkaları; {source:21:87} Yunus'un karanlıktaki sözünde tesbih ve kusurun kendine alınması
+
+## ¶26 · refs · - · applied
+
+**+** Ayrıca: {source:79:16} Rabbin kutsal vadide Musa'ya seslenmesi, Firavun'un seslenişinin karşısında; {source:79:20} {source:79:21} {source:79:22} büyük mucize, yalanlama, karşı gelme ve yüz çevirip koşuşturma; {source:79:25} {source:79:26} Firavun'un ahiretin ve dünyanın cezasıyla yakalanması ve bunun korkan için bir ibret oluşu; {source:20:68} üstün olanın, Firavun'un sihirbazları karşısında Musa oluşu; {source:20:49} Firavun'un "Rabbiniz kim" sorusu; {source:7:121} {source:7:122} {source:26:47} {source:26:48} {source:20:70} sihirbazların rabliği âlemlerin Rabbine, Musa'nın ve Harun'un Rabbine vermesi; {source:20:71} kendisi izin vermeden iman edenleri tehdit eden Firavun; {source:28:4} Firavun'un yeryüzünde yükselmesi; {source:10:83} {source:44:31} Firavun'un yeryüzünde yüksek ve haddi aşanlardan oluşu; {source:23:46} Firavun ve ileri gelenlerinin büyüklenen, kendini yüksek gören bir topluluk oluşu; {source:28:38} kendinden başka ilah bilmediğini söyleyip Musa'nın ilahına çıkmak için kule isteyen Firavun; {source:40:28} "Rabbim Allah'tır" diyen adamın öldürülmek istenmesi; {source:44:19} Allah'a karşı büyüklenmeme çağrısı; {source:23:116} yüceliğin gerçek hükümdar olan Allah'a ait oluşu; {source:27:8} Musa'ya yapılan seslenişin tesbihle sona ermesi
+

@@ -1,0 +1,393 @@
+- 2:131: ref ¶29 - İbrahim'in âlemlerin Rabbine teslim oluşu
+- 6:45: cited ¶6; ref ¶30 - ¶30 ona işaret ediyor ("yukarıda görüldüğü gibi")
+- 17:111: ref ¶1, ¶4 - "de ki" ile gelen hamd; mülkte ortağı olmayana ait övgü
+- 28:30: ref ¶10 - Musa'ya kendini âlemlerin Rabbi olarak tanıtan ses
+- 32:2: not relevant - Rabbin kitabı indirmesi; hiçbir paragraf vahyi ele almıyor
+- 37:182: cited ¶30; nowhere else - ¶30 kapanıştaki kullanımını zaten açıklıyor
+- 45:36: cited ¶25; ref ¶30 - surenin bir hüküm sahnesinin ardından hamd ile kapanması
+- 83:6: ref ¶9 - Rab ile din gününün birlikte anılması
+- 93:3: prose ¶11 - Rabbin bırakmaması; halden hale geçişler
+- 93:11: ref ¶13 - nimete cevap olarak onu anlatmak
+- 100:6: ref ¶13 - nimete karşı nankörlük
+- 106:3: prose ¶8 - Kur'an'da "evin rabbi" kalıbı
+- 106:4: context ¶8 (in 106:3), ref ¶29 - doyuran ve koruyan Rab
+- 3:188: cited ¶5; nowhere else - ¶5, ¶4'ün düşüncesini bu ayetle sürdürüyor
+- 5:28: not relevant - Allah'tan korkmak; bağlantı yok
+- 6:1: prose ¶4, ref ¶32 - hamd ile yapılan işin adının birlikte söylenmesi; hamd ile açılan sure
+- 6:71: ref ¶29 - fayda vermeyenleri bırakıp âlemlerin Rabbine teslim olmak
+- 6:162: ref ¶4 - aynı "li" ile her şeyin âlemlerin Rabbine bağlanması
+- 7:43: prose ¶32, ref ¶30 - yolun sonunda hidayet için edilen hamd
+- 7:61: ref ¶10 - âlemlerin Rabbinin elçisi
+- 7:67: ref ¶10 - âlemlerin Rabbinin elçisi
+- 7:104: ref ¶10 - Musa'nın Firavun'a aynı sözü
+- 10:10: cited ¶30; nowhere else - zaten açıklanmış
+- 14:39: context ¶4 (in 6:1) - hamd yapılan işe bağlanıyor
+- 15:98: ref ¶1 - hamd ile tesbih emri (nakarat)
+- 16:75: context ¶3 (in 39:29), ref ¶9 - bir karşılaştırmadan sonra hüküm olarak hamd; efendi ve kul. Ledger bunu surenin sahnesine ait sayıyor, ama ayeti bu paragraflara bağlayan bağımsız bir bağ var
+- 18:1: context ¶4 (in 6:1), ref ¶32 - kitabın indirilmesine hamd; açılış hamdı
+- 18:27: not relevant - kitabı okumak
+- 19:65: ref ¶7, ¶10 - kulluk ve O'nun adını taşıyanın olmaması; göklerin ve yerin Rabbi
+- 20:49: cited ¶12; ref ¶10 - Firavun'un sorusunun Tâhâ'daki biçimi
+- 23:28: context ¶4 (in 6:1), ref ¶1, ¶6 - "de ki" ile hamd; zalim kavimden kurtuluşa hamd
+- 23:72: not relevant - Rabbin verdiği ücret
+- 23:117: not relevant - hesap
+- 26:16: cited ¶10; nowhere else - açıklanmış
+- 26:23: cited ¶10; nowhere else - açıklanmış
+- 26:47: ref ¶10 - sihirbazların âlemlerin Rabbine iman etmesi
+- 26:77: cited ¶29; nowhere else - açıklanmış
+- 26:98: ref ¶29 - putların âlemlerin Rabbine denk tutulması
+- 26:192: not relevant - vahyin indirilmesi
+- 27:8: ref ¶10 - ateşin yanında âlemlerin Rabbinin adıyla tesbih
+- 27:15: ref ¶13 - verilen bilgiye hamd ile karşılık
+- 27:44: context ¶27 (in 41:37) - güneşe tapanın âlemlerin Rabbine teslim olması
+- 27:59: ref ¶1 - "de ki" ile hamd
+- 27:93: cited ¶25; ref ¶1 - "de ki" ile hamd
+- 29:63: ref ¶1, ¶18 - "de ki" ile hamd; yeri dirilten yağmur ve hamd
+- 31:25: ref ¶1 - "de ki" ile hamd
+- 32:15: ref ¶25 - işaretlerle hatırlatılınca hamd ile tesbih
+- 34:1: ref ¶31, ¶32 - ahirette hamd; açılış hamdı
+- 35:1: ref ¶32 - açılış hamdı
+- 35:34: ref ¶30 - cennettekilerin hamdı
+- 37:4: not relevant - ilahın bir oluşu; 37:5 ayrıca ele alındı
+- 37:5: ref ¶10, ¶28 - göklerin ve yerin, doğuşların Rabbi
+- 39:29: prose ¶3, ref ¶9 - karşılaştırmanın hükmü olarak hamd; tek efendi ve çok efendi
+- 39:74: cited ¶30; nowhere else - açıklanmış
+- 39:75: cited ¶30; nowhere else - öznesizlik bağı ¶30'da zaten kurulmuş
+- 40:65: ref ¶7 - kendisinden başka ilah olmayana bağlanan hamd
+- 41:9: ref ¶10, ¶11 - yaratılış günleriyle açılan âlemlerin Rabbi
+- 43:46: ref ¶10 - Musa: âlemlerin Rabbinin elçisi
+- 44:20: not relevant - Rabbe sığınma
+- 56:74: not relevant - adın tesbihi
+- 56:80: not relevant - vahyin indirilmesi
+- 64:1: ref ¶4 - mülk ve hamd aynı "lehû" ile
+- 68:2: not relevant - delilik suçlamasının reddi
+- 69:43: not relevant - vahyin indirilmesi
+- 69:52: not relevant - adın tesbihi
+- 73:9: ref ¶10, ¶28 - doğunun ve batının Rabbi
+- 78:36: not relevant - karşılık
+- 79:44: ref ¶31 - son noktanın Rabbe varması
+- 81:29: not relevant - dileyiş
+- 92:20: ref ¶4, ¶10 - karşılık beklemeden yalnız Rabbin rızası; "en yüce"
+- 93:5: context ¶11 (in 93:3) - verme ve razı olma vaadi
+- 94:8: not relevant - Rabbe yönelmek
+- 100:11: not relevant - Rabbin haberdar oluşu
+- 28:70: cited ¶31; nowhere else - açıklanmış
+- 36:25: not relevant - iman ilanı
+- 53:49: ref ¶28 - yıldızın Rabbi
+- 79:19: ref ¶10 - Firavun'a Rabbine iletilme teklifi
+- 87:1: ref ¶10 - "en yüce" sıfatı Rabbe veriliyor
+- 110:3: ref ¶1 - hamd ile tesbih emri (nakarat)
+- 114:1: ref ¶9 - insanlara bağlanan Rab, melik ve ilah
+- 2:139: not relevant - Allah hakkında tartışma
+- 3:51: not relevant - "Rabbim ve Rabbiniz"; bağlantı yok
+- 3:79: cited ¶15; nowhere else - ¶9 ile bağı 3:80 kuruyor
+- 4:131: ref ¶1 - ganî ve hamîd (nakarat)
+- 7:122: ref ¶10 - Musa'nın ve Harun'un Rabbi
+- 7:125: not relevant - Rabbe dönüş
+- 9:31: ref ¶9 - insanların rab edinilmesi
+- 14:8: ref ¶1 - herkes inkâr etse de hamîd (nakarat)
+- 15:87: not relevant - Kur'an yedi mesânînin ne olduğunu söylemiyor
+- 23:98: not relevant - sığınma
+- 26:48: ref ¶10 - Musa'nın ve Harun'un Rabbi
+- 30:18: ref ¶1 - göklerde ve yerde hamd
+- 31:26: ref ¶1 - ganî ve hamîd (nakarat)
+- 37:87: ref ¶29 - İbrahim'in âlemlerin Rabbini sorması
+- 38:66: ref ¶10 - göklerin, yerin ve aralarındakinin Rabbi
+- 39:31: not relevant - Rabbin katında çekişme
+- 43:14: not relevant - binekte söylenen söz
+- 52:48: ref ¶1 - hamd ile tesbih emri (nakarat)
+- 53:42: ref ¶31 - son varış
+- 55:17: ref ¶10, ¶28 - iki doğunun ve iki batının Rabbi
+- 55:27: prose ¶29 - Rabbin kalması
+- 55:32: ref ¶13 - nimetler nakaratı
+- 55:34: ref ¶13 - nimetler nakaratı
+- 55:78: not relevant - adın yüceliği
+- 74:3: not relevant - tekbir
+- 74:7: not relevant - sabır
+- 74:31: ref ¶26 - Rabbin ordularını yalnız O'nun bilmesi
+- 78:37: ref ¶10 - göklerin, yerin ve aralarındakinin Rabbi
+- 78:39: not relevant - Rabbe dönüş yolu
+- 79:24: cited ¶10; nowhere else - açıklanmış
+- 83:15: not relevant - perdelenme
+- 85:12: not relevant - yakalayışın şiddeti
+- 85:15: not relevant - Arş
+- 89:22: not relevant - Rabbin gelişi
+- 95:8: not relevant - hükmedenlerin en hakimi
+- 96:1: context ¶15 (in 96:4) - okumanın Rabbin adına bağlanması
+- 96:3: context ¶15 (in 96:4) - en cömert Rab
+- 96:4: prose ¶15 - öğreten Rab
+- 99:5: not relevant - yere vahiy
+- 109:3: not relevant - farklı kulluk
+- 2:5: not relevant - Rablerinden gelen hidayet; bağlantı yok
+- 8:53: ref ¶13 - nimetin değiştirilmemesi
+- 14:7: ref ¶13 - şükür ve artırma
+- 18:50: not relevant - İblis'in isyanı
+- 26:109: ref ¶4 - karşılığı âlemlerin Rabbine bırakmak (nakarat)
+- 26:127: ref ¶4 - aynı nakarat
+- 26:145: ref ¶4 - aynı nakarat
+- 26:164: ref ¶4 - aynı nakarat
+- 26:180: ref ¶4 - aynı nakarat
+- 27:42: not relevant - taht
+- 34:6: ref ¶32 - Hamîd'in yolu
+- 37:41: not relevant - ortak olan yalnız kök
+- 37:164: not relevant - ortak olan yalnız kök
+- 53:5: not relevant - ortak olan yalnız kök
+- 68:52: ref ¶23 - âlemlere hatırlatma
+- 71:28: ref ¶16 - ana baba için Rabbe dua
+- 78:4: not relevant - ortak olan yalnız kök
+- 92:19: ref ¶4 - kimseden karşılık beklemeden vermek
+- 109:2: not relevant - kulluğun ayrılması
+- 109:6: not relevant - din
+- 9:112: not relevant - müminlerin nitelikleri
+- 17:79: not relevant - övülmüş makam; ilgili bir tema yok
+- 18:38: not relevant - Rabbe ortak koşmamak
+- 18:40: not relevant - bahçe hakkında bir dilek
+- 18:82: ref ¶11 - iki yetimin olgunluğa erişmesi
+- 18:109: not relevant - Rabbin sözleri
+- 19:36: not relevant - "Rabbim ve Rabbiniz"
+- 21:56: ref ¶28 - gökleri ve yeri yaratan Rab
+- 25:77: not relevant - dua
+- 26:117: not relevant - Nuh'un şikâyeti
+- 26:165: ref ¶23 - âlemîn kelimesinin insanlar için kullanılması
+- 26:188: not relevant - Rabbin bilmesi
+- 27:26: not relevant - Arşın Rabbi; ¶27'deki sahneye 27:24 yetiyor
+- 37:149: not relevant - kızlar iddiası
+- 38:79: not relevant - İblis'in mühlet istemesi
+- 39:69: ref ¶30 - hüküm sahnesinin başı
+- 50:4: ref ¶26 - bilgi ve koruyan kitap
+- 51:34: not relevant - işaretlenmiş taşlar
+- 51:44: not relevant - helak
+- 52:37: not relevant - hazineler
+- 55:46: not relevant - Rabbin makamı
+- 70:3: not relevant - yükseliş yolları
+- 75:30: ref ¶31 - Rabbe sürülüş
+- 83:11: not relevant - din gününü yalanlamak
+- 85:8: not relevant - ortak olan yalnız "hamîd"
+- 88:8: not relevant - parlayan yüzler
+- 89:14: not relevant - gözetleme
+- 89:28: ref ¶3 - karşılıklı rıza
+- 97:4: not relevant - meleklerin inişi
+- 108:2: not relevant - namaz ve kurban
+- 109:4: not relevant - farklı kulluk
+- 109:5: not relevant - farklı kulluk
+- 112:2: not relevant - Samed
+- 3:62: not relevant - kıssanın doğruluğu
+- 3:63: not relevant - bozguncular
+- 3:65: not relevant - İbrahim hakkında tartışma
+- 3:66: not relevant - bilgisizce tartışma
+- 3:77: ref ¶5 - ahdi az bir bedele satmak
+- 3:78: not relevant - kitabı eğip bükmek
+- 3:80: ref ¶9, ¶15 - peygamberleri rab edinmemek
+- 3:81: ref ¶22 - misak ve şahitlik
+- 3:144: not relevant - topukları üzerine geri dönmek
+- 3:145: not relevant - ecel
+- 3:147: ref ¶21 - ribbiyyûnun "Rabbimiz" duası
+- 3:148: not relevant - sevap
+- 3:185: not relevant - ölüm
+- 3:186: not relevant - eziyet
+- 3:189: not relevant - mülk; ¶5'in noktasına bir şey eklemiyor
+- 3:190: ref ¶25 - yaratılıştaki işaretler
+- 4:21: ref ¶20 - eşleri bağlayan söz
+- 4:22: not relevant - evlilik yasağı
+- 4:24: not relevant - evlilik hükümleri
+- 4:25: not relevant - evlilik hükümleri
+- 6:40: not relevant - sıkıntıda dua
+- 6:41: not relevant - sıkıntıda dua
+- 6:46: not relevant - işitmenin ve görmenin alınması
+- 6:47: ref ¶6 - zalim kavmin ansızın helak edilmesi
+- 6:74: context ¶28 (in 6:75) - sahnenin başı
+- 6:75: prose ¶28, ref ¶25 - hükümranlığın gösterilmesi
+- 6:80: ref ¶26 - Rabbin her şeyi ilmiyle kuşatması
+- 6:81: not relevant - güven
+- 7:170: not relevant - kitaba sarılanlar
+- 7:171: not relevant - dağın kaldırılması
+- 7:174: not relevant - ayetlerin açıklanması
+- 7:175: not relevant - ayetlerden sıyrılan
+- 10:8: not relevant - ateş
+- 10:9: ref ¶32 - son sözleri hamd olanların yola iletilmesi
+- 10:11: not relevant - acele
+- 10:12: ref ¶13 - kurtulunca dua etmeyi unutmak
+- 12:39: prose ¶9 - ayrı ayrı rabler ile tek Allah
+- 12:40: ref ¶7 - yalnızca konmuş adlardan ibaret tanrılar
+- 12:42: context ¶9 (in 12:39) - insan efendi olarak "rab"
+- 12:43: not relevant - hükümdarın rüyası
+- 16:14: ref ¶25 - denizdeki gemiler
+- 16:15: ref ¶24 - yön veren dağlar ve yollar
+- 16:17: not relevant - yaratan ile yaratmayan; ¶29'a bir şey eklemiyor
+- 16:18: ref ¶13 - sayılamayan nimet
+- 17:22: ref ¶2 - "yerilmiş": hamdın karşıtı
+- 17:23: ref ¶16 - ana babaya iyilik emri
+- 17:25: not relevant - içlerdekini bilmek
+- 17:26: not relevant - akrabanın hakkı
+- 20:47: ref ¶10 - "Rabbinin elçileriyiz"
+- 20:48: not relevant - azap
+- 20:55: ref ¶26 - topraktan yaratılış ve ona dönüş
+- 20:56: ref ¶25 - işaretlerin yalanlanması
+- 24:41: ref ¶1 - her şeyin tesbihi
+- 24:42: not relevant - mülk
+- 24:44: not relevant - gece ve gündüz
+- 24:45: ref ¶21 - yaratılmışların türleri
+- 26:14: not relevant - Musa'nın korkusu
+- 26:15: not relevant - "sizinle beraberiz"
+- 26:17: not relevant - İsrailoğullarını gönder
+- 26:18: context ¶4 (in 26:22), ref ¶16 - Firavun'un büyütmeyi başa kakması
+- 26:21: context ¶4 (in 26:22) - Rabbin verdiği hüküm
+- 26:22: prose ¶4 - başa kakılan iyilik (menn)
+- 26:29: ref ¶10 - Firavun'un ilah iddiası
+- 26:30: not relevant - açık delil
+- 26:68: not relevant - nakarat
+- 26:69: not relevant - kıssaya giriş
+- 26:71: not relevant - putlara bağlılık; zaten anlatılmış
+- 26:72: ref ¶29 - işitmeyen putlar
+- 26:74: ref ¶22 - atalara dayanan bahane
+- 26:75: not relevant - ¶29'da 26:76 ile zaten anlatılmış
+- 26:81: ref ¶29 - öldüren ve dirilten
+- 26:82: ref ¶29 - bağışlayan
+- 27:90: not relevant - kötülüğün cezası
+- 27:91: ref ¶9 - şehrin Rabbi, her şeyin sahibi
+- 28:68: not relevant - seçme
+- 28:69: not relevant - içlerdekini bilmek
+- 28:71: not relevant - sürekli gece
+- 28:72: not relevant - sürekli gündüz
+- 37:178: not relevant - yüz çevirmek
+- 37:179: not relevant - bakmak
+- 37:181: ref ¶30 - kapanış hamdından önce selam
+- 39:72: not relevant - cehennem
+- 39:73: ref ¶30 - ¶30 bu ayetin içeriğine işaret ediyor
+- 42:30: not relevant - musibet
+- 42:31: not relevant - aciz bırakamamak
+- 42:34: not relevant - batırılma
+- 42:35: not relevant - tartışanlar
+- 45:34: not relevant - unutulma
+- 45:35: not relevant - alay
+- 45:37: not relevant - büyüklük
+- 79:22: ref ¶10 - Firavun'un sırt çevirmesi
+- 79:23: ref ¶10 - halkı toplayıp seslenmesi
+- 79:25: ref ¶10 - cezayla yakalanması
+- 79:26: not relevant - ibret
+- 17:44 own: prose ¶1 - her şeyin hamd ile tesbihi
+- 2:267 own: ref ¶1 - ganî ve hamîd nakaratı
+- 22:64 own: ref ¶1 - ganî ve hamîd nakaratı
+- 31:12 own: ref ¶1 - ganî ve hamîd nakaratı
+- 35:15 own: ref ¶1 - ganî ve hamîd nakaratı
+- 57:24 own: ref ¶1 - ganî ve hamîd nakaratı
+- 60:6 own: ref ¶1 - ganî ve hamîd nakaratı
+- 64:6 own: ref ¶1 - ganî ve hamîd nakaratı
+- 20:130 own: ref ¶1 - hamd ile tesbih emri nakaratı
+- 40:55 own: ref ¶1 - hamd ile tesbih emri nakaratı
+- 50:39 own: ref ¶1 - hamd ile tesbih emri nakaratı
+- 98:8 own: ref ¶3 - karşılıklı rıza
+- 2:264 own: ref ¶4 - başa kakma (menn)
+- 76:9 own: ref ¶4 - karşılık ve teşekkür beklememek
+- 53:32 own: ref ¶4 - kendini temize çıkarmamak
+- 92:18 own: ref ¶4 - arınmak için vermek
+- 2:174 own: ref ¶5 - kitabı gizleyip satmak
+- 28:78 own: prose ¶6 - "bana verildi" diyerek nimeti kendine bağlamak
+- 28:76 own: context ¶6 (in 28:78) - "şımarıp sevinme"
+- 28:81 own: context ¶6 (in 28:78) - sonu
+- 39:49 own: ref ¶6 - aynı "bilgi sayesinde verildi" sözü
+- 7:94 own: ref ¶6 - darlık, sonra ansızın yakalanma
+- 7:95 own: ref ¶6 - aynı sıra
+- 18:42 own: ref ¶6 - bahçenin ürününün kuşatılması
+- 20:14 own: ref ¶7 - ad ve kulluk
+- 12:50 own: context ¶9 (in 12:39) - hükümdar için "rabbin"
+- 2:258 own: prose ¶10, ref ¶28 - Rabbi hakkında hükümdarla tartışma; güneş
+- 44:7 own: ref ¶10 - göklerin, yerin ve aralarındakinin Rabbi
+- 93:4 own: context ¶11 (in 93:3) - sonrakinin daha hayırlı oluşu
+- 93:6 own: context ¶11 (in 93:3), ref ¶14 - barındırılan yetim
+- 93:7 own: context ¶11 (in 93:3) - yol gösterilmesi
+- 93:8 own: context ¶11 (in 93:3) - zengin edilmesi
+- 41:10 own: ref ¶11 - günler içinde takdir
+- 71:14 own: ref ¶11 - evre evre yaratılış
+- 84:19 own: ref ¶11 - halden hale
+- 23:12 own: ref ¶11 - yaratılış aşamaları
+- 23:13 own: ref ¶11 - yaratılış aşamaları
+- 23:14 own: ref ¶11 - yaratılış aşamaları
+- 87:2 own: ref ¶12 - yaratıp düzene koymak
+- 87:3 own: ref ¶12 - takdir edip yol göstermek
+- 12:6 own: prose ¶13 - Rabbin nimetini tamamlaması
+- 2:150 own: ref ¶13 - nimetin tamamlanması
+- 5:3 own: ref ¶13 - nimetin tamamlanması
+- 5:6 own: ref ¶13 - nimetin tamamlanması
+- 16:81 own: ref ¶13 - nimetin tamamlanması
+- 48:2 own: ref ¶13 - nimetin tamamlanması
+- 55:13 own: ref ¶13 - nimetler nakaratı
+- 55:16 own: ref ¶13 - nimetler nakaratı
+- 55:18 own: ref ¶13 - nimetler nakaratı
+- 55:21 own: ref ¶13 - nimetler nakaratı
+- 55:23 own: ref ¶13 - nimetler nakaratı
+- 55:25 own: ref ¶13 - nimetler nakaratı
+- 55:28 own: ref ¶13 - nimetler nakaratı
+- 55:30 own: ref ¶13 - nimetler nakaratı
+- 55:36 own: ref ¶13 - nimetler nakaratı
+- 55:38 own: ref ¶13 - nimetler nakaratı
+- 55:40 own: ref ¶13 - nimetler nakaratı
+- 55:42 own: ref ¶13 - nimetler nakaratı
+- 55:45 own: ref ¶13 - nimetler nakaratı
+- 55:47 own: ref ¶13 - nimetler nakaratı
+- 55:49 own: ref ¶13 - nimetler nakaratı
+- 55:51 own: ref ¶13 - nimetler nakaratı
+- 55:53 own: ref ¶13 - nimetler nakaratı
+- 55:55 own: ref ¶13 - nimetler nakaratı
+- 55:57 own: ref ¶13 - nimetler nakaratı
+- 55:59 own: ref ¶13 - nimetler nakaratı
+- 55:61 own: ref ¶13 - nimetler nakaratı
+- 55:63 own: ref ¶13 - nimetler nakaratı
+- 55:65 own: ref ¶13 - nimetler nakaratı
+- 55:67 own: ref ¶13 - nimetler nakaratı
+- 55:69 own: ref ¶13 - nimetler nakaratı
+- 55:71 own: ref ¶13 - nimetler nakaratı
+- 55:73 own: ref ¶13 - nimetler nakaratı
+- 55:75 own: ref ¶13 - nimetler nakaratı
+- 55:77 own: ref ¶13 - nimetler nakaratı
+- 3:37 own: prose ¶14 - Rabbin yetiştirmesi ve bakımın Zekeriyya'ya verilmesi
+- 3:35 own: context ¶14 (in 3:37) - adak
+- 3:36 own: context ¶14 (in 3:37) - kızın doğumu
+- 20:39 own: ref ¶14 - Rabbin gözü önünde yetiştirilmek
+- 20:40 own: ref ¶14 - bakımı üstlenecek kişi
+- 28:12 own: ref ¶14 - bakımı üstlenecek ev halkı
+- 96:5 own: context ¶15 (in 96:4) - bilinmeyeni öğretmek
+- 55:1 own: ref ¶15 - öğreten Rahmân
+- 55:2 own: ref ¶15 - öğreten Rahmân
+- 55:3 own: ref ¶15 - öğreten Rahmân
+- 55:4 own: ref ¶15 - öğreten Rahmân
+- 5:44 own: ref ¶15 - kitabı koruyan rabbâniler
+- 5:63 own: ref ¶15 - rabbânilerin günahtan alıkoyması
+- 46:15 own: prose ¶16 - ömür boyu süren büyüme ve ana baba için dua
+- 27:19 own: ref ¶16 - aynı dua
+- 14:41 own: ref ¶16 - ana baba için bağışlanma dilemek
+- 2:164 own: ref ¶17, ¶25 - boyun eğdirilmiş bulut; işaretler
+- 7:57 own: ref ¶17 - bitkileri büyüten ağır bulut
+- 7:58 own: ref ¶18 - Rabbinin izniyle çıkan bitki
+- 23:50 own: ref ¶18 - kalınacak yer ve su; ledger kökü dışarıda bırakıyor, ama sahne kendi başına bağı kuruyor
+- 13:12 own: ref ¶18 - ağır bulutlar
+- 13:13 own: ref ¶18 - gök gürültüsünün hamdı
+- 30:48 own: ref ¶19 - parça parça bulut ve yağmur
+- 35:41 own: prose ¶21 - gökleri ve yeri yerinde tutmak
+- 22:65 own: context ¶21 (in 35:41) - göğü tutmak
+- 8:63 own: ref ¶21 - kalpleri birbirine bağlamak
+- 36:60 own: ref ¶22 - Âdemoğullarına verilen ahit
+- 5:7 own: ref ¶22 - misak
+- 57:8 own: ref ¶22 - alınan misak
+- 6:38 own: prose ¶23, ref ¶26 - topluluklar olarak türler; eksiksiz kitap
+- 2:47 own: ref ¶23 - âlemlere üstün kılınmak (nakarat)
+- 2:122 own: ref ¶23 - aynı nakarat
+- 3:42 own: ref ¶23 - âlemlerin kadınları
+- 25:1 own: ref ¶23 - âlemlere uyarıcı
+- 55:24 own: ref ¶25 - dağlar gibi gemiler
+- 41:53 own: ref ¶25 - gösterilen işaretler
+- 6:59 own: ref ¶26 - kitapta tutulan bilgi
+- 19:64 own: ref ¶26 - Rabbin unutmaması
+- 41:37 own: prose ¶27 - güneşe secdenin yasaklanması, güneşin bir işaret oluşu
+- 27:24 own: context ¶27 (in 41:37) - güneşe secde eden bir kavim
+- 37:88 own: ref ¶28 - yıldızlara bakış
+- 55:26 own: context ¶29 (in 55:27) - yok olan
+- 28:88 own: context ¶29 (in 55:27) - O'nun yüzünden başka her şey helak olur
+- 25:58 own: ref ¶29 - ölmeyen Diri
+- 26:73 own: ref ¶29 - fayda ve zarar vermeyen putlar
+- 37:85 own: ref ¶29 - "neye tapıyorsunuz"
+- 37:86 own: ref ¶29 - Allah'tan başka tanrılar
+- 14:1 own: ref ¶32 - Hamîd'in yolu
+- 22:24 own: ref ¶32 - Hamîd'in yolu
+- 6:161 own: not relevant - hanif din; ¶28'in batma ölçütüne bir şey eklemiyor
+- 3:38 own: not relevant - Zekeriyya'nın duası

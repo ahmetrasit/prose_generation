@@ -1,0 +1,363 @@
+- 2:186: ref ¶1 - Allah's nearness and answer to the one who calls Him directly
+- 2:286: ref ¶15, ¶16, ¶20 - help asked against a named foe; burden beyond strength; "we" addressing "you"
+- 3:51: ref ¶13 - worship named the straight path (refrain with 19:36, 43:64)
+- 3:64: cited ¶7; nowhere else - ¶21 already points to it
+- 3:150: ref ¶19 - Allah as the best helper, the one source of help
+- 4:36: not relevant - general command, adds nothing to any paragraph's specific point
+- 4:45: ref ¶19 - Allah suffices as helper
+- 4:172: ref ¶8 - Messiah and angels do not disdain being servants
+- 5:23: not relevant - shares an'ama/tawakkul words only
+- 6:102: ref ¶9, ¶16 - creator therefore worship; worship then wakîl
+- 6:162: prose ¶5 - salat and rites together with life and death, all for the Lord of the worlds
+- 7:128: cited ¶17; ref ¶15 - help sought against a named threat
+- 8:40: ref ¶19 - best mawlâ and helper
+- 9:51: not relevant - general reliance, no specific link
+- 10:106: ref ¶19 - calling what neither benefits nor harms
+- 11:123: cited ¶16; nowhere else - its point is used fully there
+- 12:40: cited ¶3; ref ¶7 - the many lords are only names
+- 14:35: ref ¶16 - asking help for worship itself
+- 17:2: ref ¶16 - no wakîl besides Him
+- 18:16: ref ¶2 - withdrawal from what others worship
+- 19:36: ref ¶13 - worship = straight path refrain
+- 19:65: cited ¶16; nowhere else - fully used
+- 20:14: ref ¶3 - Allah's own "worship me"
+- 21:25: ref ¶3 - Allah's own "worship me" revealed to every messenger
+- 21:112: cited ¶15; nowhere else - fully used
+- 22:77: not relevant - general command, no specific link
+- 26:71: ref ¶1 - same na'budu, unfronted, toward idols
+- 29:17: prose ¶19 - seeking provision and worship both turned to Allah because the others own nothing
+- 33:3: ref ¶16 - Allah suffices as wakîl
+- 36:22: ref ¶9 - worship grounded in being created, said in one's own voice
+- 36:23: ref ¶19 - partners' intercession avails nothing
+- 36:61: cited ¶13; nowhere else - fully used
+- 37:118: not relevant - guidance of Musa and Harun; shares "sırat" only
+- 39:2: ref ¶2 - the reported command type
+- 39:11: cited ¶2; nowhere else - fully used
+- 39:64: prose ¶2 - same fronting construction used in the opponents' demand
+- 39:66: context ¶2 (in 39:64) - the fronted answer "bali'llâha fa'bud"
+- 40:14: ref ¶4 - calling also made with din purified for Him
+- 40:60: prose ¶16 - asking named as worship in one ayah
+- 41:6: not relevant - istiqâma to Him; no specific tie
+- 42:10: ref ¶4 - two acts each with fronted pronoun
+- 43:64: ref ¶13 - worship = straight path refrain
+- 44:18: ref ¶6 - people under Firavun named "Allah's servants" (who is addressed disputed, so reference only)
+- 46:28: ref ¶19 - gods taken for nearness fail to help
+- 53:62: not relevant - general command
+- 72:18: ref ¶4 - calling no one with Allah
+- 72:20: ref ¶4 - "I call only my Lord"
+- 72:21: ref ¶19 - the Prophet owns no harm or guidance for others
+- 73:9: ref ¶16 - no god but He, so take Him as wakîl
+- 96:10: not relevant - servant praying is prevented; no tie to paragraph points
+- 109:2: ref ¶2 - declaration of separation in worship
+- 2:21: ref ¶9 - worship the Lord who created
+- 2:45: cited ¶17; ref ¶16 - salat heavy except for the humble: weight of worship
+- 2:83: ref ¶3 - "illâ" limit in covenant
+- 2:112: not relevant - surrender of face; no specific link
+- 2:133: prose ¶20 - same na'budu in a "we" spanning the generations
+- 2:153: cited ¶17; nowhere else - named only as context in the 2:156 addition
+- 2:172: ref ¶3 - fronted iyyâhu in the conditional
+- 3:20: not relevant - general submission
+- 3:79: ref ¶7 - no human may say "be servants to me"
+- 4:75: ref ¶15 - help asked in a named oppression
+- 4:118: ref ¶22 - Satan's claim on the servants
+- 4:132: not relevant - ownership and wakîl, general
+- 5:2: cited ¶18; nowhere else - ¶21 already points to it
+- 5:76: ref ¶19 - worship of what owns no harm or benefit
+- 5:117: ref ¶8 - Isa's refusal and call to worship Allah
+- 6:17: ref ¶19 - none removes harm but He
+- 6:56: ref ¶2 - forbidden to worship those called besides Allah
+- 6:71: prose ¶13 - calling others = being turned back, lost in the land, versus Allah's guidance
+- 6:88: not relevant - general guidance and shirk
+- 6:163: context ¶5 (in 6:162) - no partner sealing the dedication
+- 7:59: ref ¶3 - messengers' "no god but Him" refrain
+- 7:65: ref ¶3 - same refrain
+- 7:73: ref ¶3 - same refrain
+- 7:85: ref ¶3 - same refrain
+- 7:197: ref ¶19 - those called cannot help you or themselves
+- 9:31: ref ¶3, ¶7 - commanded only to worship one god; rabbis taken as lords
+- 9:129: ref ¶15 - final word of reliance facing those who turn away
+- 10:18: ref ¶19 - worship of what neither harms nor benefits
+- 10:29: ref ¶3 - partners' disowning, with Allah as witness
+- 11:2: ref ¶3 - "illâ" limit
+- 11:26: ref ¶3 - "illâ" limit
+- 11:50: ref ¶3 - refrain
+- 11:62: ref ¶20 - the opposite "we" of ancestral worship
+- 11:84: ref ¶3 - refrain
+- 12:18: cited ¶15; ref ¶17 - patience and the one whose help is sought named separately
+- 12:67: ref ¶17 - means taken, reliance only on Allah
+- 13:14: ref ¶19 - those called do not answer
+- 13:16: ref ¶7 - the One, al-Qahhâr, against powerless patrons
+- 15:49: not relevant - forgiveness announced; no link
+- 16:36: ref ¶7 - worship joined with avoiding tâghût
+- 16:51: ref ¶3 - fronted "iyyâya" in Allah's own mouth
+- 16:73: ref ¶19 - they own no provision
+- 17:56: ref ¶19 - cannot remove harm
+- 17:65: ref ¶22 - no power over My servants; Lord suffices as wakîl
+- 18:14: ref ¶20 - the youths' collective "we"
+- 18:26: ref ¶19 - no patron besides Him
+- 18:65: not relevant - Khidr as a servant; no tie
+- 18:102: ref ¶8 - taking Allah's servants as patrons
+- 19:2: not relevant - Zakariyya named servant; no tie
+- 22:62: not relevant - general statement of falsehood
+- 23:23: ref ¶3 - refrain
+- 23:32: ref ¶3 - refrain
+- 25:43: ref ¶7 - desire taken as god, another master
+- 25:55: ref ¶18, ¶19 - zahîr against one's Lord (answers ledger: shows backing turned against the Lord, beyond 28:17); worship of what neither benefits nor harms
+- 26:22: cited ¶6; nowhere else - fully used
+- 26:70: ref ¶1 - question to which na'budu answers
+- 27:91: ref ¶2 - reported command
+- 29:16: context ¶19 (in 29:17) - Ibrahim's call before it
+- 29:36: not relevant - lacks the exclusive limit; general
+- 29:56: cited ¶3; nowhere else - fully used
+- 29:59: ref ¶16 - the addressees described as patient and relying on their Lord
+- 30:30: ref ¶9 - fitra on which people were created
+- 30:33: ref ¶4 - asking only in distress, not continuing
+- 31:13: not relevant - general warning on shirk
+- 32:16: not relevant - no specific link
+- 34:22: cited ¶19; nowhere else - fully used
+- 34:41: cited ¶3; ref ¶8 - ¶8 points to the scene
+- 35:3: not relevant - general on creator and provider
+- 36:30: not relevant - mockery of messengers
+- 36:74: ref ¶19 - gods taken for help cannot help
+- 37:40: ref ¶22 - "except Allah's sincere servants" refrain
+- 37:161: ref ¶22 - with what they worship they tempt no one against Him
+- 38:30: not relevant - praise of Sulayman as servant
+- 39:3: ref ¶7 - intermediary masters
+- 39:8: ref ¶4 - asking only in distress
+- 39:14: cited ¶2; nowhere else - fully used
+- 39:17: ref ¶7 - avoiding worship of tâghût
+- 39:38: ref ¶19 - those called cannot remove harm; hasbiya'llâh
+- 43:15: not relevant - no tie
+- 46:4: ref ¶9 - what have they created
+- 51:50: not relevant - flee to Allah; no specific link
+- 51:56: ref ¶9 - created for worship
+- 76:6: not relevant - shares 'ibâd only
+- 92:12: not relevant - guidance upon Us; no link to a paragraph's claim
+- 94:8: ref ¶2 - fronted "to your Lord" restricting
+- 106:3: ref ¶9 - worship of the Lord who fed and secured
+- 109:3: ref ¶2 - Kâfirûn separation
+- 109:4: ref ¶2 - same
+- 109:6: ref ¶2 - "your religion for you"
+- 2:138: ref ¶20 - "we are His worshippers"
+- 28:70: not relevant - hamd shared word only
+- 71:3: not relevant - worship with obedience to Nuh; no added link
+- 72:2: ref ¶21 - jinn's "we" joining
+- 98:5: ref ¶3 - commanded only to worship Allah
+- 15:87: not relevant - its tie to Fâtiha needs a report from outside the Quran
+- 15:98: not relevant - general command
+- 16:53: ref ¶4 - turning to Him only in harm
+- 17:42: not relevant - no tie
+- 109:5: ref ¶2 - Kâfirûn separation
+- 2:23: not relevant - challenge; no tie
+- 2:207: not relevant - shares 'ibâd only
+- 3:15: not relevant - shares 'ibâd only
+- 3:30: not relevant - shares 'ibâd only
+- 6:18: not relevant - general dominance over servants
+- 8:53: not relevant - favour changed; no tie
+- 16:114: ref ¶3 - fronted iyyâhu conditional
+- 17:31: not relevant - shares iyyâkum only
+- 18:95: cited ¶18; nowhere else - fully used
+- 19:91: not relevant - no tie
+- 20:33: prose ¶18 - human helper asked from Allah for the sake of "we" glorifying "you"
+- 20:34: context ¶18 (in 20:33) - continuation
+- 22:10: not relevant - no tie
+- 25:1: not relevant - shares 'abd only
+- 29:60: not relevant - general provision
+- 29:62: not relevant - general provision
+- 33:56: not relevant - no tie
+- 37:81: not relevant - praise formula
+- 37:111: not relevant - praise formula
+- 37:122: not relevant - praise formula
+- 37:132: not relevant - praise formula
+- 47:19: not relevant - no tie
+- 50:29: not relevant - no tie
+- 75:17: not relevant - no tie
+- 106:4: ref ¶9 - fed from hunger, secured from fear
+- 109:1: ref ¶2 - opening of Kâfirûn separation
+- 25:4: not relevant - accusation that others helped; shares root only
+- 2:43: ref ¶20 - bowing with those who bow
+- 2:44: not relevant - no tie
+- 2:46: ref ¶17 - who the humble are
+- 2:47: not relevant - no tie
+- 2:151: not relevant - no tie
+- 2:152: not relevant - no tie
+- 2:154: not relevant - no tie
+- 2:155: ref ¶15 - the trials for which help is sought; also context ¶9 (in 2:156)
+- 3:62: not relevant - general
+- 3:63: not relevant - no tie
+- 3:65: not relevant - no tie
+- 3:66: not relevant - no tie
+- 5:0: not relevant - basmala
+- 5:1: not relevant - no tie
+- 5:3: not relevant - no tie
+- 5:4: not relevant - no tie
+- 6:151: not relevant - commandments; no specific link
+- 6:152: not relevant - no tie
+- 6:154: not relevant - no tie
+- 6:155: not relevant - no tie
+- 7:125: not relevant - covered by the 7:126 addition
+- 7:126: prose ¶17 - patience itself asked from the Lord, qualifying "sabır onların işidir"
+- 7:129: not relevant - no added link
+- 7:130: not relevant - no tie
+- 11:121: ref ¶2 - separation formula
+- 11:122: ref ¶2 - same
+- 12:15: not relevant - no tie
+- 12:16: not relevant - no tie
+- 12:19: not relevant - no tie
+- 12:20: not relevant - no tie
+- 12:37: ref ¶7 - Yusuf's own choice
+- 12:38: ref ¶7 - same
+- 12:41: ref ¶7 - "rabb" for a human master in the same scene
+- 12:42: not relevant - whose "rabb" is meant is ambiguous
+- 15:38: not relevant - no tie
+- 15:39: ref ¶22 - Iblis's oath, which the paragraph points to
+- 15:41: ref ¶13 - straight path after the exception
+- 15:43: not relevant - no tie
+- 15:44: not relevant - no tie
+- 16:66: not relevant - milk from bellies; no subduing link
+- 16:67: not relevant - no tie
+- 16:70: not relevant - no tie
+- 16:71: not relevant - no tie
+- 17:109: ref ¶5 - utmost humility
+- 17:110: not relevant - no tie
+- 18:92: not relevant - no tie
+- 18:93: not relevant - no tie
+- 18:96: ref ¶18 - help given as strength
+- 18:97: ref ¶18 - same sequence
+- 19:62: not relevant - no tie
+- 19:63: not relevant - no tie
+- 19:66: not relevant - no tie
+- 19:67: not relevant - resurrection argument
+- 19:92: not relevant - no tie
+- 19:94: ref ¶9 - all counted
+- 19:95: ref ¶9 - each comes alone
+- 21:107: not relevant - no tie
+- 21:108: not relevant - no added link
+- 21:110: not relevant - no tie
+- 21:111: not relevant - no tie
+- 23:44: not relevant - no tie
+- 23:45: ref ¶6 - the sending the paragraph points to
+- 23:48: ref ¶6 - end of those who said "they serve us"
+- 23:49: not relevant - no tie
+- 26:16: ref ¶6 - demand to release Israelites
+- 26:17: ref ¶6 - same
+- 26:19: not relevant - no tie to the zahîr point
+- 26:20: not relevant - no tie
+- 26:21: not relevant - no tie
+- 26:23: not relevant - no tie
+- 26:24: not relevant - no tie
+- 28:13: not relevant - no tie
+- 28:14: not relevant - no tie
+- 28:18: ref ¶18 - the vow tested
+- 28:19: ref ¶18 - same
+- 29:54: not relevant - no tie
+- 29:55: not relevant - no tie
+- 29:57: not relevant - no tie
+- 29:58: not relevant - no tie
+- 34:20: ref ¶22 - Iblis's assumption borne out except for believers
+- 34:21: ref ¶22 - his power only as a test
+- 34:23: ref ¶19 - intercession only by permission
+- 34:24: not relevant - shares iyyâkum only
+- 34:38: not relevant - no tie
+- 34:39: not relevant - no tie
+- 34:42: ref ¶19 - none can benefit another that day
+- 34:43: not relevant - no added link
+- 36:58: not relevant - no tie
+- 36:59: ref ¶13 - separation of the criminals the paragraph points to
+- 36:62: ref ¶13 - multitudes led astray
+- 36:63: not relevant - no tie
+- 39:9: not relevant - no specific link
+- 39:10: ref ¶3 - wide earth, twin of 29:56
+- 39:12: not relevant - no added link
+- 39:13: not relevant - no tie
+- 39:16: not relevant - no tie
+- 67:13: not relevant - no tie
+- 67:14: not relevant - no tie
+- 67:16: not relevant - no tie
+- 67:17: not relevant - no tie
+- 89:20: not relevant - no tie
+- 89:21: ref ¶20 - the scene the paragraph points to
+- 89:23: not relevant - no tie
+- 89:24: not relevant - no tie
+- 89:25: not relevant - no tie
+- 89:26: not relevant - no tie
+- 60:4 own: prose ¶4 - each act bound to its own fronted "you", in "we", after turning from people to the Lord
+- 39:29 own: prose ¶7 - one owned by quarrelling partners vs one wholly owned by one
+- 2:156 own: prose ¶9 - "we belong to Allah" in the servant's voice amid loss
+- 36:72 own: prose ¶12 - dhallalnâhâ: subduing of livestock as Allah's act
+- 36:71 own: context ¶12 (in 36:72) - created and owned livestock
+- 20:24 own: context ¶18 (in 20:33) - mission to Firavun
+- 20:29 own: context ¶18 (in 20:33) - helper requested
+- 20:30 own: context ¶18 (in 20:33) - Harun named
+- 20:31 own: context ¶18 (in 20:33) - strength by him
+- 20:32 own: context ¶18 (in 20:33) - share in the task
+- 20:36 own: context ¶18 (in 20:33) - request granted
+- 16:99 own: prose ¶22 - no power over those who believe and rely on their Lord
+- 16:100 own: context ¶22 (in 16:99) - his power over those who take him as patron
+- 16:98 own: context ¶22 (in 16:99) - seeking refuge when reciting
+- 7:124 own: context ¶17 (in 7:126) - Firavun's threat
+- 2:40 own: ref ¶3 - fronted iyyâya
+- 2:41 own: ref ¶3 - fronted iyyâya
+- 41:37 own: ref ¶3 - fronted iyyâhu conditional
+- 17:23 own: ref ¶3 - "illâ iyyâhu"
+- 41:14 own: ref ¶3 - "illâ" limit
+- 46:21 own: ref ¶3 - "illâ" limit
+- 11:61 own: ref ¶3 - refrain
+- 10:28 own: ref ¶3, ¶8 - fronted iyyânâ disowning (answers ledger: a distinct scene and the same fronted pronoun, which 34:40-41 does not show)
+- 28:63 own: ref ¶3, ¶8 - fronted iyyânâ disowning
+- 25:17 own: ref ¶3 - the worshipped questioned
+- 25:18 own: ref ¶3 - "subhânaka", no patrons besides You
+- 5:116 own: ref ¶8 - Isa's "subhânaka"
+- 17:57 own: ref ¶8 - those called seek their Lord themselves
+- 46:5 own: ref ¶8 - those called are unaware
+- 46:6 own: ref ¶8 - they deny the worship given them
+- 34:40 own: ref ¶8 - the scene ¶8 points to
+- 3:83 own: ref ¶9 - submission willingly or unwillingly
+- 13:15 own: ref ¶9 - prostration willingly or unwillingly
+- 36:75 own: ref ¶19 - cannot help them
+- 43:12 own: ref ¶12 - ships and livestock made to ride
+- 43:13 own: ref ¶12 - "who subjected this to us"
+- 2:71 own: ref ¶11 - dhalûl working animal
+- 76:14 own: ref ¶12 - fruit made easy (dhullilat)
+- 54:13 own: not relevant - planks of the ark; nothing on sealing or subduing
+- 14:50 own: not relevant - qatirân garments; shared word only
+- 19:44 own: ref ¶5 - worship of Satan as obedience
+- 36:60 own: ref ¶5 - same (explained in ¶13)
+- 12:86 own: ref ¶15 - grief complained only to Allah
+- 16:127 own: ref ¶17 - patience only by Allah
+- 2:250 own: ref ¶17 - patience asked from the Lord
+- 18:98 own: ref ¶18 - the barrier as mercy from the Lord
+- 28:34 own: ref ¶18 - Harun asked as helper
+- 28:35 own: ref ¶18 - arm strengthened by the brother
+- 66:4 own: ref ¶14 - zahîr used of backing
+- 4:69 own: ref ¶20 - company of those favoured
+- 27:19 own: ref ¶20 - "admit me among Your righteous servants"
+- 72:1 own: ref ¶21 - jinn who listened
+- 72:19 own: ref ¶4 - Allah's servant stands calling Him
+- 38:82 own: ref ¶22 - Iblis's oath
+- 38:83 own: ref ¶22 - same exception as 15:40
+- 37:74 own: ref ¶22 - refrain
+- 37:128 own: ref ¶22 - refrain
+- 37:160 own: ref ¶22 - refrain
+- 37:162 own: ref ¶22 - no one tempted against Him
+- 37:163 own: ref ¶22 - except one bound for the Fire
+- 11:88 own: ref ¶4 - "alayhi tawakkaltu wa ilayhi unîb"
+- 13:30 own: ref ¶4 - "alayhi tawakkaltu wa ilayhi matâb"
+- 3:80 own: ref ¶7 - no command to take angels and prophets as lords
+- 16:54 own: ref ¶4 - shirk after harm is removed
+- 6:161 own: ref ¶13 - straight path as upright religion
+- 23:47 own: ref ¶22 - the saying ¶22 points to (explained in ¶6)
+- 2:157 own: not relevant - outside the point of the 2:156 addition
+- 6:70 own: not relevant - no specific link
+- 39:28 own: not relevant - no tie
+- 39:30 own: not relevant - no tie
+- 60:3 own: not relevant - no tie
+- 60:5 own: not relevant - no added link
+- 40:61 own: not relevant - no tie
+- 7:120 own: not relevant - covered by the 7:126 addition
+- 7:121 own: not relevant - covered by the 7:126 addition
+- 2:132 own: not relevant - covered by the 2:133 addition
+- 2:134 own: not relevant - no tie
+- 16:101 own: not relevant - no tie
+- 6:163 own: context ¶5 (in 6:162) - see above
+- 12:39 own: cited ¶7; nowhere else - fully used

@@ -1,0 +1,294 @@
+- 2:38: ref ¶5 - gelecek hidayete uymak: hidayetin ardından yürünür
+- 2:213: ref ¶1, ¶11 - dilediğini dosdoğru yola iletir; ihtilafta hakka iletme
+- 3:101: ref ¶3 - Allah'a sarılan dosdoğru yola iletilmiştir
+- 4:68: context ¶7 (in 4:69); ref ¶2 - yol edatsız nesne; nimet verilenlerden hemen önce
+- 4:175: cited ¶21; nowhere else - başka paragrafa bir şey eklemiyor
+- 5:16: prose ¶11 - çoğul esenlik yolları tek sırata çıkar
+- 6:87: cited ¶7; nowhere else - ¶7 açıklıyor
+- 6:126: ref ¶11 - işaretle gösterilen tek yol, Rabbin yolu
+- 6:153: cited ¶11; nowhere else - ¶11 açıklıyor
+- 6:161: cited ¶2, ¶20; nowhere else - iki paragrafta işlenmiş
+- 7:16: cited ¶17; nowhere else - ¶17 açıklıyor
+- 10:25: prose ¶21, ref ¶1 - varılacak yurdun adı: esenlik yurdu
+- 10:35: prose ¶5, ref ¶8 - uyulmaya layık olan, yola ileten kılavuzdur
+- 11:56: ref ¶5 - alnından tutan Rab dosdoğru yol üzerinde
+- 12:108: ref ¶5 - önden çağıran ve ardından gelenler
+- 13:7: ref ¶5 - "hâdî": kılavuzun adı
+- 14:1: ref ¶12 - yolun sahibinin adıyla anılması
+- 14:5: not relevant - yol değil karanlıktan aydınlığa çıkarma; paragraflara bağı yok
+- 15:41: prose ¶17 - pusuya verilen cevap: yol ve kullar üzerinde güç yok
+- 16:9: ref ¶11 - yolun doğrusu Allah'a ait, yolların kimi sapar
+- 16:121: ref ¶7, ¶22 - nimete şükreden seçilip yola iletilir
+- 17:9: cited ¶20; ref ¶2 - fiilin "li" ile üçüncü kuruluşu
+- 19:36: context ¶16 (in 43:64); ref ¶3 - kulluk dosdoğru yoldur
+- 19:43: ref ¶2, ¶5, ¶17 - edatsız nesne; "bana uy"; seviyy yol
+- 20:123: ref ¶5, ¶10 - hidayete uyan sapmaz
+- 21:73: ref ¶5 - emirle yol gösteren önderler
+- 22:16: not relevant - genel ifade, paragraflardan birine bir şey katmıyor
+- 22:24: prose ¶12 - aynı fiilin edilgeni, Hamîd'in yolu cehennem yolunun karşısında
+- 23:73: ref ¶13 - dosdoğru yola çağrı, yana sapma ile birlikte
+- 24:46: ref ¶1 - dilediğini dosdoğru yola iletir
+- 27:63: ref ¶4 - karanlıkta yol gösterme
+- 28:22: prose ¶4, ref ¶2 - gerçek yolculukta yolun doğrusunu istemek; edatsız nesne
+- 28:56: ref ¶1 - ileten yalnız Allah
+- 32:24: ref ¶5 - yol gösteren önderler
+- 34:6: ref ¶12 - Azîz ve Hamîd'in yolu
+- 36:61: context ¶16 (in 43:64) - bana kulluk edin, yol budur
+- 37:118: cited ¶3; ref ¶2 - Fâtiha'nın edatsız yapısı aynen
+- 40:38: ref ¶5 - "bana uyun, sizi ileteyim"
+- 42:52: ref ¶3 - vahiyle iletilen kişi kendisi de dosdoğru yola iletir
+- 43:43: cited ¶3; nowhere else - ¶3 açıklıyor
+- 43:64: prose ¶16, ref ¶3 - kulluk sonra dosdoğru yol nakaratı
+- 46:30: ref ¶9 - sırat yerine "tarîk müstakîm"
+- 48:2: cited ¶3; nowhere else - ¶22 zaten anıyor
+- 67:22: cited ¶17; nowhere else - ¶17 açıklıyor
+- 92:12: ref ¶1 - hidayet Allah'ın üstlendiği iştir
+- 93:7: ref ¶3, ¶10 - yolunu bulamamışken iletilmek
+- 2:120: ref ¶11 - tek hidayet Allah'ınki
+- 2:142: cited ¶6; ref ¶1 - dilediğini ileten nakaratı
+- 2:177: ref ¶6 - yüzü çevirmek iyiliğin tamamı değildir, sınırlıyor
+- 3:2: not relevant - kayyûm yalnız kökte ortak; geride bırakılanlar listesinin gerekçesi geçerli
+- 3:51: context ¶16 (in 43:64); ref ¶3 - kulluk dosdoğru yoldur
+- 3:73: ref ¶11 - hidayet Allah'ın hidayetidir
+- 4:5: ref ¶15 - mallar ayakta tutan dayanak, "kıyâm"
+- 4:34: not relevant - koruyup gözetme anlamı, yol konusuna bağı yok
+- 5:8: ref ¶19 - adaletle ayakta durmak, kin teraziyi eğmesin
+- 5:77: ref ¶19 - aşırılık ve yolun ortasından sapma
+- 6:39: ref ¶4 - yolun üzerine konmak
+- 6:71: ref ¶3, ¶11 - hidayetten sonra geri dönme; tek hidayet
+- 6:88: ref ¶7 - peygamberlerin hidayeti Allah'ın hidayetidir
+- 6:90: cited ¶7; nowhere else - ¶7 açıklıyor
+- 7:146: ref ¶11 - doğruluk yolu ile azgınlık yolu
+- 7:178: ref ¶1 - Allah'ın ilettiği yolu bulmuştur
+- 8:3: not relevant - namazı ikame etmek; yalnız kökte ortak
+- 10:9: ref ¶21 - iletilip cennete varılması
+- 14:12: ref ¶11 - Allah'ın ilettiği yollar
+- 14:40: not relevant - namazı ikame; yalnız kökte ortak
+- 16:36: not relevant - genel bölünme, paragrafa bir şey katmıyor
+- 17:35: cited ¶19; nowhere else - ¶19 açıklıyor
+- 17:97: ref ¶1, ¶17 - Allah'ın ilettiği; yüzüstü haşredilmek
+- 18:17: ref ¶1 - Allah'ın ilettiği yolu bulmuştur
+- 18:24: ref ¶3 - daha yakın bir doğruluğa iletilmeyi ummak
+- 19:76: cited ¶3; nowhere else - ¶3 açıklıyor
+- 20:50: cited ¶6; nowhere else - ¶6 açıklıyor
+- 20:82: ref ¶4 - imandan sonra gelen hidayet
+- 20:135: ref ¶17 - seviyy yolun sahipleri
+- 21:112: ref ¶1 - yardım dilenen Rahman
+- 22:54: ref ¶5 - Allah iman edenlerin hâdîsi
+- 23:74: ref ¶13 - yoldan yana sapmak
+- 24:35: not relevant - nur benzetmesi, yolla bağı yok
+- 25:57: ref ¶21 - Rabbine varan yol
+- 26:182: cited ¶19; nowhere else - ¶19 anıyor
+- 27:3: not relevant - namazı ikame; yalnız kökte ortak
+- 27:35: not relevant - sınamak için gönderilen hediye, armağan olarak verilen yolla bağı yok
+- 29:69: ref ¶11 - "sübülenâ": Allah'ın yolları
+- 30:43: ref ¶20 - yüzü dimdik duran dine çevirmek
+- 31:3: not relevant - kitabın sıfatı; yalnız kelime ortak
+- 35:8: not relevant - genel dileme ifadesi
+- 36:4: ref ¶3 - elçi dosdoğru yol üzerindedir
+- 36:66: not relevant - tehdit sahnesi, paragraflara bir şey katmıyor
+- 37:23: cited ¶12; nowhere else - ¶12 açıklıyor
+- 38:22: prose ¶2, ref ¶19 - Kur'an'daki öbür "ihdinâ" edatla; yolun ortası ve ölçüyü aşmama
+- 39:18: not relevant - sözün en güzeline uymak; yol görüntüsü yok
+- 39:23: not relevant - kitabın sıfatı
+- 39:36: ref ¶1 - saptırdığına ileten yok
+- 39:37: ref ¶1 - ilettiğine saptıran yok
+- 41:6: ref ¶16, ¶21 - O'na doğru dosdoğru olmak
+- 41:17: ref ¶4 - yol gösterilip körlüğü seçmek
+- 47:17: ref ¶3 - yolu bulanın hidayetinin artırılması
+- 48:20: ref ¶2, ¶3 - edatsız nesne; müminlere aynı vaat
+- 49:17: prose ¶22 - hidayet bir iyiliktir, ücret değildir
+- 53:30: ref ¶10 - O'nun yolundan sapmak
+- 64:6: not relevant - beşer elçiyi reddetmek, paragraflara bağı yok
+- 65:2: not relevant - şahitliği ikame; yalnız kökte ortak
+- 72:16: cited ¶15; nowhere else - ¶15 açıklıyor
+- 87:3: ref ¶6 - ölçü koyup yönlendirmek
+- 90:10: ref ¶2, ¶4 - iki yolun gösterilmesi, edatsız nesne
+- 98:3: ref ¶20 - kütübün kayyime
+- 6:127: context ¶21 (in 10:25) - Rableri katındaki esenlik yurdu
+- 11:112: cited ¶16; nowhere else - ¶16 açıklıyor
+- 14:27: ref ¶16 - sağlam söz üzerinde sebat
+- 16:76: ref ¶17 - iki yürüyenin karşılaştırılması
+- 31:19: ref ¶8 - yürüyüşte ölçülü olmak
+- 43:10: ref ¶4 - yeryüzünde yol bulmak
+- 68:7: ref ¶10 - O'nun yolundan sapmak
+- 81:26: ref ¶20 - nereye gidiyorsunuz?
+- 81:28: ref ¶20 - dosdoğru olmak isteyene hatırlatma
+- 2:186: ref ¶1 - doğrudan yöneltilen duaya cevap
+- 2:286: ref ¶1 - "biz" ağzından emir kipinde yalvarış
+- 7:43: prose ¶21 - varışta "bizi iletti" ve hamd
+- 11:19: ref ¶13 - yolu eğri istemek
+- 15:87: not relevant - Kur'an onun neyi kastettiğini burada söylemiyor; ayetin isteğine bağı yok
+- 43:57: not relevant - bağı yok
+- 73:6: not relevant - "akvem" yalnız biçimde ortak
+- 73:20: not relevant - bağı yok
+- 78:39: ref ¶21 - Rabbine dönüş yeri
+- 93:11: ref ¶22 - yola iletmenin de sayıldığı nimet
+- 98:5: ref ¶20 - dînü'l-kayyime
+- 2:196: cited ¶21; nowhere else - ¶21 açıklıyor
+- 5:68: not relevant - kitabı ikame; yalnız kökte ortak
+- 6:154: not relevant - kitabın sıfatı
+- 14:28: not relevant - bağı yok
+- 27:2: not relevant - kitabın sıfatı
+- 53:23: not relevant - bağı yok
+- 57:10: not relevant - bağı yok
+- 62:5: not relevant - bağı yok
+- 2:255: not relevant - kayyûm yalnız kökte ortak
+- 4:36: not relevant - bağı yok
+- 15:24: not relevant - bağı yok
+- 44:26: not relevant - "makâm" yalnız kökte ortak
+- 46:13: ref ¶16 - "Rabbimiz Allah" deyip dosdoğru duranlar
+- 50:1: not relevant - bağı yok
+- 55:9: context ¶19 (in 55:8) - tartıyı ikame etmek
+- 62:11: not relevant - "kâim" yalnız kökte ortak
+- 70:33: not relevant - yalnız kökte ortak
+- 74:5: not relevant - bağı yok
+- 78:36: not relevant - bağı yok
+- 86:3: not relevant - bağı yok
+- 89:27: not relevant - bağı yok
+- 109:2: not relevant - kulluk ayrılığı, yol isteğine bağı yok
+- 109:4: not relevant - aynı
+- 109:5: not relevant - aynı
+- 2:140: not relevant - bağı yok
+- 2:141: not relevant - bağı yok
+- 2:144: ref ¶6 - yüzün Mescid-i Haram'a çevrilmesi
+- 2:145: not relevant - kıble tartışmasının ayrıntısı
+- 2:194: not relevant - bağı yok
+- 2:195: not relevant - bağı yok
+- 2:197: not relevant - bağı yok
+- 2:198: ref ¶10 - daha önce dâllîn olanların iletilmesi
+- 4:173: not relevant - bağı yok
+- 4:174: not relevant - bağı yok
+- 4:176: not relevant - bağı yok
+- 5:93: not relevant - bağı yok
+- 5:94: not relevant - bağı yok
+- 5:96: not relevant - bağı yok
+- 5:97: ref ¶15, ¶21 - Kâbe insanlar için "kıyâm"; hedy
+- 6:85: not relevant - ¶7 zinciri özetliyor
+- 6:86: not relevant - ¶7 zinciri özetliyor
+- 6:89: not relevant - bir şey katmıyor
+- 6:91: not relevant - bağı yok
+- 6:92: not relevant - bağı yok
+- 6:151: not relevant - ¶11 öğütleri özetliyor
+- 6:152: ref ¶19 - dosdoğru yoldan hemen önce adaletle tutulan terazi
+- 6:155: not relevant - bir şey katmıyor
+- 6:159: ref ¶11 - dini parçalayan fırkalar
+- 6:160: not relevant - bağı yok
+- 6:162: ref ¶20 - dimdik dinin içeriği
+- 6:163: ref ¶20 - aynı
+- 7:14: not relevant - ¶17 mühlet isteğini anlatıyor
+- 7:15: not relevant - aynı
+- 7:17: ref ¶17 - pusunun her yönü
+- 7:18: not relevant - bir şey katmıyor
+- 11:110: not relevant - bağı yok
+- 11:111: not relevant - bağı yok
+- 11:113: ref ¶16 - zulmedenlere meyletmemek
+- 11:114: not relevant - namazı ikame
+- 17:7: not relevant - bağı yok
+- 17:8: not relevant - bağı yok
+- 17:10: not relevant - bağı yok
+- 17:11: not relevant - bağı yok
+- 17:33: not relevant - bağı yok
+- 17:34: not relevant - bağı yok
+- 17:36: not relevant - bağı yok
+- 17:37: ref ¶8 - böbürlenerek yürümemek
+- 19:74: not relevant - bağı yok
+- 19:75: not relevant - bir şey katmıyor
+- 19:77: not relevant - bağı yok
+- 19:78: not relevant - bağı yok
+- 20:48: not relevant - bağı yok
+- 20:49: not relevant - ¶6 soruyu anlatıyor
+- 20:51: not relevant - bağı yok
+- 20:52: not relevant - bir şey katmıyor
+- 26:180: not relevant - bağı yok
+- 26:181: not relevant - ¶19'a bir şey katmıyor
+- 26:183: not relevant - ¶19'a bir şey katmıyor
+- 26:184: not relevant - bağı yok
+- 37:20: not relevant - bağı yok
+- 37:21: not relevant - bağı yok
+- 37:24: not relevant - bir şey katmıyor
+- 37:25: not relevant - bağı yok
+- 37:116: not relevant - bağı yok
+- 37:117: not relevant - ¶3 anlatıyor
+- 37:119: not relevant - bağı yok
+- 37:120: not relevant - bağı yok
+- 41:28: not relevant - bağı yok
+- 41:29: not relevant - bağı yok
+- 41:31: not relevant - ¶16 meleklerin sözünü anlatıyor
+- 41:32: not relevant - bağı yok
+- 43:41: not relevant - bağı yok
+- 43:42: not relevant - bağı yok
+- 43:44: not relevant - bağı yok
+- 43:45: not relevant - bağı yok
+- 48:0: not relevant - bağı yok
+- 48:1: not relevant - ¶3 anlatıyor
+- 48:3: ref ¶1 - yola iletmenin ardından yardım
+- 48:4: ref ¶3 - imana iman katılması
+- 67:20: not relevant - bağı yok
+- 67:21: not relevant - bağı yok
+- 67:23: not relevant - bağı yok
+- 67:24: not relevant - bağı yok
+- 72:14: not relevant - bir şey katmıyor
+- 72:15: not relevant - yalnız kökte karşıtlık
+- 72:17: ref ¶15 - bol su bir sınamadır
+- 72:18: not relevant - bağı yok
+- 3:7 own: context ¶3 (in 3:8) - eğrilik ve ilimde derinleşmiş olanlar
+- 3:8 own: prose ¶3, ref ¶22 - yola iletilenlerin eğrilmemek için duası; armağan olarak istenen rahmet
+- 3:103 own: ref ¶11 - Allah'ın ipine sarılıp dağılmamak
+- 4:66 own: context ¶7 (in 4:69) - verilen öğüdü yerine getirmek
+- 4:67 own: not relevant - mükâfat, yolla bağı yok
+- 4:69 own: prose ¶7, ref ¶22 - nimet verilenlerin adları
+- 4:135 own: ref ¶19 - adaletle ayakta durmak
+- 4:168 own: ref ¶12 - aynı fiil, cehennem yolu
+- 4:169 own: ref ¶12 - aynı
+- 5:15 own: context ¶11 (in 5:16) - nur ve apaçık kitap
+- 6:125 own: not relevant - göğüs açma, yol görüntüsü yok
+- 7:42 own: not relevant - bir şey katmıyor
+- 7:44 own: not relevant - bir şey katmıyor
+- 7:86 own: ref ¶17 - yolların üstüne oturmak
+- 9:36 own: ref ¶20 - dimdik duran din budur
+- 10:24 own: context ¶21 (in 10:25) - dünya hayatı benzetmesi
+- 10:26 own: not relevant - bir şey katmıyor
+- 10:89 own: ref ¶16 - duanın kabulünden sonra istikamet emri
+- 12:40 own: ref ¶20 - dimdik duran din budur
+- 15:39 own: context ¶17 (in 15:41) - süsleyip azdırma yemini
+- 15:40 own: context ¶17 (in 15:41) - ihlasa erdirilmiş kullar
+- 15:42 own: context ¶17 (in 15:41) - kullar üzerinde güç yok
+- 16:15 own: ref ¶4 - yollar ve yol bulmak
+- 16:16 own: ref ¶4 - yıldızlarla yol bulmak
+- 16:120 own: ref ¶7, ¶22 - İbrahim, şükreden ve yola iletilen
+- 16:122 own: not relevant - bir şey katmıyor
+- 18:1 own: ref ¶20 - eğriliği olmayan kitap
+- 18:2 own: ref ¶20 - dimdik duran kitap
+- 18:13 own: ref ¶3 - hidayetin artırılması
+- 19:58 own: ref ¶7, ¶22 - nimet verilenler, iletilenler
+- 20:122 own: ref ¶4 - tövbeden sonra gelen hidayet
+- 22:4 own: ref ¶12 - alevli azaba iletmek
+- 22:23 own: context ¶12 (in 22:24) - cennete konulanlar
+- 25:30 own: context ¶8 (in 25:31) - Peygamber'in yakınması
+- 25:31 own: prose ¶8 - hâdî ve nasîr olarak Rab
+- 25:34 own: ref ¶17 - yüzüstü haşredilmek
+- 25:63 own: ref ¶8 - sakin yürüyüş
+- 25:67 own: prose ¶18 - "kavâm": iki uç arasında denge
+- 30:30 own: prose ¶20, ref ¶6 - yüzü dimdik duran dine dik tutmak
+- 36:60 own: context ¶16 (in 43:64) - şeytana kulluk etmeme ahdi
+- 36:62 own: ref ¶17 - çok kimsenin saptırılması
+- 38:21 own: context ¶2 (in 38:22) - mihraba tırmanan davacılar
+- 42:15 own: ref ¶16 - emrolunduğun gibi dosdoğru ol
+- 42:53 own: ref ¶12 - Allah'ın yolu
+- 43:61 own: ref ¶17 - bana uyun, dosdoğru yol budur
+- 43:62 own: ref ¶17 - şeytan sizi yoldan alıkoymasın
+- 43:63 own: context ¶16 (in 43:64) - İsa'nın delillerle gelişi
+- 47:5 own: ref ¶21 - yola iletme
+- 47:6 own: ref ¶21 - tanıtılmış cennete koyma
+- 49:14 own: not relevant - durumu 49:17'deki ifade yeterince veriyor
+- 49:16 own: not relevant - bir şey katmıyor
+- 55:7 own: context ¶19 (in 55:8) - konulan terazi
+- 55:8 own: prose ¶19 - terazide taşkınlık; tartıyı ikame etmek
+- 57:25 own: ref ¶19 - insanlar adaleti ayakta tutsun diye indirilen terazi
+- 73:19 own: ref ¶21 - Rabbine varan yol
+- 76:3 own: ref ¶2, ¶4 - yolun gösterilmesi, edatsız nesne
+- 76:29 own: ref ¶21 - Rabbine varan yol
+- 81:27 own: ref ¶20 - âlemler için hatırlatma
+- 87:2 own: ref ¶6 - yaratıp düzenlemek
+- 2:143 own: cited ¶6; ref ¶19 - "vasat" iki yanın ortasıdır; ortaklık kelimede değil anlamdadır, bu yüzden denge konusunu dağıtmaz

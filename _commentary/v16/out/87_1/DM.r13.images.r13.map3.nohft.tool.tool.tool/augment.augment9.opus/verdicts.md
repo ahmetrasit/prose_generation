@@ -1,0 +1,322 @@
+- 1:2: cited ¶1; nowhere else - Fatiha'nın Rab'bi, yalnızca ¶1'deki karşıtlıkta işler
+- 3:191: ref ¶4 - tesbih söz, beden ve düşünce olarak
+- 7:180: cited ¶24; nowhere else - adlar konusunu ¶24 zaten işliyor
+- 10:10: ref ¶4 - tesbih, söylenen bir dua olarak
+- 15:98: ref ¶2, ¶9 - hamd edatıyla tesbih; secdeyle birlikte tesbih
+- 17:43: prose ¶4, ref ¶18 - tesbihin "neyden" uzak tuttuğu ve yükseklik kökü
+- 17:110: prose ¶2, ref ¶24 - hangi adla çağrılırsa çağrılsın adlar onundur
+- 17:111: ref ¶23 - mülkte ortağı olmaması, denk yokluğu
+- 19:65: cited ¶23; nowhere else - adaş sorusu ¶23'te açıklanıyor
+- 20:8: context ¶18 (in 20:4), ref ¶24 - en güzel adlar
+- 20:50: prose ¶15 - Rab, yaratma ve yol göstermeyle tanımlanır
+- 20:130: ref ¶2, ¶7 - hamd edatı; tesbihin günün vakitlerine yerleşmesi
+- 21:87: cited ¶8; ref ¶25 - ¶25 Yunus'un sözüne işaret ediyor
+- 23:91: prose ¶23, ref ¶4 - rakip ilahların birbirinin üstüne çıkması; nitelemelerden tesbih
+- 25:2: ref ¶15, ¶23 - yaratıp ölçüsünü koyması; mülkte ortağı olmaması
+- 25:58: ref ¶2 - hamd edatıyla tesbih emri
+- 30:17: ref ¶7 - tesbih vakitleri
+- 32:15: prose ¶9 - öğüde secde ve tesbihle karşılık
+- 33:41: ref ¶7 - çokça anma, sabah akşam tesbihle birlikte
+- 36:36: ref ¶15 - tesbih, yaratanı anlatan cümleyle sürer
+- 37:143: cited ¶8; nowhere else - ¶8'de açıklanıyor
+- 37:180: ref ¶4 - nitelemelerden tesbih
+- 40:55: ref ¶2, ¶7, ¶8 - hamd edatı; akşam sabah; bağışlanma dileğiyle birlikte
+- 43:82: ref ¶4 - nitelemelerden tesbih
+- 50:39: ref ¶2, ¶7 - Tâhâ 130'la aynı söz; vakitler
+- 52:48: ref ¶2, ¶7 - hamd edatı; kalkarken tesbih
+- 54:49: ref ¶15 - her şeyin bir ölçüyle yaratılması
+- 55:78: cited ¶3; ref ¶2 - bereket adın kendisine verilir
+- 56:74: cited ¶2; nowhere else - edatlı emir ¶2'de açıklanıyor
+- 59:23: ref ¶25 - adların dizisi tesbihle kapanır
+- 59:24: cited ¶25; ref ¶24 - en güzel adlar sözünün tekrarı
+- 68:29: ref ¶8 - tesbih ve zulmün kendine alınması
+- 68:48: prose ¶8 - balık sahibi, sabretmesi istenen kişiye uyarı olarak
+- 69:52: ref ¶2 - edatlı emrin tekrarı
+- 76:25: cited ¶7; ref ¶2 - Rabbin adı doğrudan nesne
+- 79:24: cited ¶26; nowhere else - ¶26'da açıklanıyor
+- 92:20: cited ¶20; nowhere else - ¶20'de açıklanıyor
+- 96:1: cited ¶2; ref ¶15 - Rab yaratmasıyla tanıtılır
+- 110:3: ref ¶2, ¶8 - hamd edatı; tesbih ile bağışlanma dileği
+- 5:4: not relevant - avda helal yiyecek; ad bahsiyle bağı yok
+- 6:100: ref ¶4, ¶18 - nitelemelerden tesbih; tesbih ve teâlâ yan yana
+- 6:118: not relevant - yiyecek hükmü
+- 6:121: not relevant - yiyecek hükmü
+- 6:138: not relevant - hayvanlarla ilgili uydurmalar, bir paragrafla bağı yok
+- 7:54: ref ¶14 - yaratma ve buyruğun sahibi
+- 9:40: prose ¶20, ref ¶18 - Allah'ın sözü en yüce, inkâr edenlerin sözü en alçak
+- 10:3: ref ¶14 - işi düzenleyen ve kulluk edilen Rab
+- 10:68: ref ¶4 - çocuk isnadına karşı tesbih
+- 10:83: ref ¶26 - Firavun yeryüzünde yüksek
+- 12:108: ref ¶4 - tesbih ve şirkten uzaklık
+- 14:40: not relevant - namaz duası; bağ yalnızca kelimede
+- 16:3: ref ¶18 - yüceliğin ortak koşulanların üstünde oluşu
+- 16:57: ref ¶4 - kız çocukları isnadına karşı tesbih
+- 16:60: ref ¶3 - en yüce, Allah'ın misalini niteler
+- 17:44: cited ¶6; nowhere else - ¶6'da açıklanıyor
+- 18:27: not relevant - kelimeleri değiştirilemez; paragraflara değmiyor
+- 20:4: prose ¶18 - yüce gökler: iki yükseklik kökü yan yana
+- 20:14: ref ¶9 - namaz anma için kılınır
+- 20:68: cited ¶20; ref ¶26 - Firavun karşısında üstünlük
+- 21:22: ref ¶4, ¶23 - nitelemelerden tesbih; başka ilahlar olsa bozulma
+- 22:1: not relevant - takva emri
+- 22:34: ref ¶13 - hayvanın üzerine anılan ad
+- 22:62: ref ¶18 - Aliyy adı
+- 23:14: ref ¶15 - halden hale yaratılış
+- 23:116: ref ¶26 - gerçek hükümdarın yüceliği
+- 24:36: prose ¶7, ref ¶9 - tesbih, geçim telaşının içinde; adın anıldığı evlerde namaz
+- 27:31: context ¶19 (in 27:30) - mektubun ilk buyruğu, yükseklik kökünden
+- 28:68: ref ¶4, ¶18 - şirkten tesbih; tesbih ve teâlâ
+- 30:27: ref ¶3 - en yüce misal
+- 37:5: not relevant - doğuların Rabbi; tamlama dışında bağı yok
+- 37:159: ref ¶4 - nitelemelerden tesbih
+- 37:166: ref ¶25 - "biz tesbih edenleriz" diyenler
+- 38:75: ref ¶20 - kınanan yükseklik ve büyüklenme
+- 39:67: ref ¶4, ¶18 - şirkten tesbih; tesbih ve teâlâ
+- 42:4: ref ¶18 - Aliyy ve Azîm
+- 43:13: prose ¶5 - taşınan kişinin tesbihi
+- 44:6: not relevant - "Rabbinden" kelimesi ortak, başka bir bağ yok
+- 44:12: not relevant - azabın kaldırılması duası
+- 45:36: not relevant - Fatiha'daki ifadenin tekrarı, bir şey eklemiyor
+- 53:7: cited ¶11; nowhere else - ufuk ¶11'de açıklanıyor
+- 53:49: not relevant - Şi'râ'nın Rabbi; tamlama dışında bağı yok
+- 56:96: ref ¶2 - edatlı emrin tekrarı
+- 57:1: ref ¶6 - şeddeli fiille göklerin tesbihi
+- 59:1: ref ¶6 - aynı tekrar
+- 61:1: ref ¶6 - aynı tekrar
+- 62:1: ref ¶6 - aynı tekrar
+- 64:1: ref ¶6 - aynı tekrar
+- 68:7: not relevant - "min" ile karşılaştırmalı üstünlük, mutlak değil
+- 72:3: ref ¶18 - teâlâ fiili Rabbin şanına bağlanır
+- 73:8: prose ¶7, ref ¶2 - gündüz koşuşturmasının ardından Rabbin adını anmak
+- 73:9: not relevant - doğu ve batının Rabbi, vekil edinmek; paragrafla bağı yok
+- 76:26: cited ¶7; ref ¶9 - secde ve tesbih birlikte
+- 88:10: not relevant - yüce bahçe; yalnızca kök ortak
+- 89:14: not relevant - gözetleyen Rab; bağ zorlama olur
+- 100:6: not relevant - nankör insan
+- 100:11: not relevant - Rabbin haberdar oluşu
+- 105:1: not relevant - fil ashabı
+- 106:3: ref ¶14 - "evin Rabbi" tamlaması
+- 7:185: not relevant - hükümranlığa bakmaya çağrı
+- 74:3: ref ¶1 - uyarmakla görevlendirilen kişiye Rabbini büyütme emri
+- 79:3: prose ¶5, ref ¶6 - yalın fiilden yüzüş, öne geçmeye varır
+- 85:1: not relevant - burçlu gök üzerine yemin
+- 2:32: cited ¶25; ref ¶8 - tesbihle sınırın kabulü
+- 3:41: ref ¶7 - Zekeriya'ya akşam ve sabah tesbih
+- 7:206: ref ¶9 - tesbih ve secde
+- 16:1: ref ¶4, ¶18 - şirkten tesbih; tesbih ve teâlâ
+- 17:108: ref ¶9 - secdeye kapananların tesbihi
+- 19:11: ref ¶7 - kavmine sabah akşam tesbih
+- 20:33: prose ¶1 - kolaylık dileğinin amacı tesbih
+- 21:20: ref ¶7 - gece gündüz usanmadan tesbih
+- 21:33: cited ¶6; ref ¶5 - yörüngede yüzen güneş ve ay
+- 27:8: ref ¶26 - Musa'ya seslenişte tesbih
+- 31:30: ref ¶18 - Aliyy ve Kebîr
+- 33:42: ref ¶7 - sabah akşam tesbih
+- 36:83: ref ¶14 - hükümranlık onun elinde
+- 41:38: ref ¶7 - gece gündüz tesbih
+- 45:4: not relevant - yaratılıştaki ayetler
+- 45:13: not relevant - boyun eğdirme; bağı yok
+- 52:43: ref ¶4 - şirkten tesbih
+- 52:49: ref ¶7 - gece ve yıldızların çekilişinde tesbih
+- 55:17: not relevant - iki doğunun Rabbi
+- 55:51: not relevant - Rahman suresindeki nakarat
+- 68:2: not relevant - yalnızca "Rabbinin nimeti" kelimesi ortak
+- 68:28: ref ¶8 - "tesbih etmeli değil miydiniz" uyarısı
+- 74:34: not relevant - sabah üzerine yemin
+- 79:16: ref ¶26 - Rabbin seslenişi, Firavun'un seslenişinin karşısında
+- 83:19: not relevant - Illiyyûn; yalnızca kök ortak
+- 96:3: ref ¶15, ¶18 - öğreten Rab; karşılaştırmasız üstünlük kalıbı
+- 2:30: cited ¶25; nowhere else - ¶25'te açıklanıyor
+- 6:119: not relevant - yiyecek hükmü
+- 7:122: ref ¶26 - Musa ile Harun'un Rabbi
+- 10:85: not relevant - müminlerin duası
+- 20:49: context ¶15 (in 20:50); ref ¶26 - Firavun'un "Rab kim" sorusu
+- 22:28: ref ¶13 - hayvanın üzerine anılan ad
+- 22:36: ref ¶13 - kurbanlık develer ve ad
+- 22:40: ref ¶9 - adın anıldığı mescitler
+- 26:48: ref ¶26 - Musa ile Harun'un Rabbi
+- 36:27: not relevant - bağışlanma
+- 37:8: ref ¶11 - en yüce topluluk
+- 38:69: ref ¶11 - en yüce topluluk
+- 46:13: not relevant - "Rabbimiz Allah" deyip doğru yolda durmak; paragrafla bağı yok
+- 49:11: not relevant - lakap takma yasağı; Rabbin adıyla ilgili değil
+- 55:69: not relevant - nakarat
+- 82:1: not relevant - göğün yarılması
+- 110:1: not relevant - zafer
+- 2:33: ref ¶25 - adların bildirilmesi
+- 2:116: ref ¶4 - çocuk isnadına karşı tesbih
+- 2:255: ref ¶17, ¶18 - korumanın onu yormaması; Aliyy ve Azîm
+- 4:171: ref ¶4 - çocuk sahibi olmaktan tesbih
+- 7:190: ref ¶18 - ortak koşulanların üstünde yücelik
+- 9:31: prose ¶21, ref ¶4 - Allah'ı bırakıp rabler edinmek
+- 10:18: ref ¶4, ¶18 - şirkten tesbih; tesbih ve teâlâ
+- 19:57: ref ¶20 - yüce bir mevkiye yükseltilme
+- 23:46: ref ¶26 - Firavun'un yüksek ve büyüklenen topluluğu
+- 23:58: not relevant - ayetlere iman
+- 23:72: not relevant - Rabbin verdiği karşılık
+- 23:92: ref ¶18 - ortak koşulanların üstünde yücelik
+- 24:16: not relevant - iftiraya karşı ünlem; tesbih bahsini değiştirmiyor
+- 30:18: ref ¶7 - hamdın vakitleri
+- 30:40: ref ¶4, ¶18 - şirkten tesbih; tesbih ve teâlâ
+- 34:41: ref ¶24 - tapılanların tesbihle reddi
+- 37:1: not relevant - saf bağlayanlar üzerine yemin
+- 39:4: ref ¶4 - çocuk ihtimaline karşı tesbih
+- 44:19: ref ¶26 - Allah'a karşı büyüklenmeme
+- 44:31: ref ¶26 - Firavun'un yükselişi
+- 50:40: ref ¶7, ¶9 - gece ve secdelerin ardından tesbih
+- 69:22: not relevant - yüce bahçe; yalnızca kök ortak
+- 71:5: not relevant - Nuh'un davetinin gece ve gündüz oluşu; tesbihle ilgili değil
+- 73:7: cited ¶7; nowhere else - ¶7'de açıklanıyor
+- 76:21: not relevant - "üstlerinde"; yalnızca kök ortak
+- 83:18: not relevant - Illiyyîn; yalnızca kök ortak
+- 85:15: not relevant - Arş'ın sahibi; paragraflara değmiyor
+- 91:5: not relevant - göğü bina eden üzerine yemin
+- 99:5: not relevant - Rabbinin yere vahyetmesi
+- 1:3: not relevant - besmeledeki adların tekrarı
+- 1:4: ref ¶14 - Malik, sahiplik
+- 2:28: not relevant - dirilip ölmek
+- 2:29: not relevant - göklerin düzene konması; ¶15'e bir şey eklemiyor
+- 2:34: not relevant - Adem'e secde
+- 3:62: not relevant - çağrıyı değiştirmiyor
+- 3:63: not relevant - yüz çevirenler
+- 3:65: not relevant - İbrahim üzerine tartışma
+- 3:66: not relevant - bilgisiz tartışma
+- 7:178: not relevant - hidayet
+- 7:179: not relevant - kavramayan kalpler; yalnızca kelime ortak
+- 7:181: not relevant - hakla yol gösteren topluluk
+- 7:182: not relevant - adım adım yaklaştırma
+- 17:42: context ¶4 (in 17:43); ref ¶23 - ilahlar olsaydı Arş'ın sahibine yol ararlardı
+- 17:45: not relevant - görünmez perde
+- 17:46: ref ¶24 - Rab tek başına anılınca kaçanlar
+- 19:5: ref ¶23 - Zekeriya'nın duası
+- 19:6: ref ¶23 - Zekeriya'nın duası
+- 19:8: not relevant - oğul müjdesine şaşkınlık
+- 19:9: not relevant - yaratmanın kolaylığı
+- 19:62: not relevant - cennet rızkı
+- 19:63: not relevant - cennetin mirası
+- 19:66: not relevant - dirilişin inkârı
+- 19:67: not relevant - yokken yaratılmak
+- 20:66: ref ¶20 - iplerin ve değneklerin görünüşü
+- 20:67: ref ¶20 - Musa'nın içindeki korku
+- 20:70: ref ¶26 - sihirbazların Musa'nın ve Harun'un Rabbine iman etmesi
+- 20:71: ref ¶26 - Firavun'un izin yetkisi iddiası
+- 21:30: ref ¶6 - göklerle yerin ayrılması
+- 21:31: not relevant - dağlar ve yollar
+- 21:34: not relevant - ölümsüzlüğün verilmemesi
+- 21:35: not relevant - ölümü tatmak
+- 21:85: not relevant - sabredenler
+- 21:86: not relevant - rahmete girme
+- 21:88: ref ¶8 - çağrının kabulü
+- 21:89: ref ¶23 - Zekeriya'nın seslenişi
+- 37:138: not relevant - gece ve akıl
+- 37:139: ref ¶8 - Yunus elçilerdendir
+- 37:145: ref ¶8 - çıplak yere atılış
+- 37:146: ref ¶8 - üstünde bitirilen bitki
+- 53:3: not relevant - hevadan konuşmamak
+- 53:4: not relevant - vahiy
+- 53:6: ref ¶11 - ufukta doğrulmak
+- 53:8: ref ¶11 - yaklaşıp sarkmak
+- 53:9: ref ¶11 - iki yay boyu yakınlık
+- 53:21: not relevant - erkek ve dişi paylaşımı
+- 53:22: not relevant - adaletsiz paylaşım
+- 53:24: not relevant - insanın istekleri
+- 53:25: not relevant - ahiret ve dünya
+- 55:25: not relevant - nakarat
+- 55:26: ref ¶3 - herkesin yok oluşu
+- 55:28: not relevant - nakarat
+- 55:29: not relevant - her gün bir iş
+- 55:76: not relevant - cennet döşekleri
+- 55:77: not relevant - nakarat
+- 56:72: ref ¶2 - ateşin ağacını kimin var ettiği sorusu
+- 56:73: ref ¶2 - ateşin hatırlatma ve fayda oluşu
+- 56:75: not relevant - yıldızların düştüğü yerler üzerine yemin
+- 56:76: not relevant - büyük yemin
+- 59:22: ref ¶25 - adlar dizisinin başı
+- 73:0: not relevant - besmele; ¶2'de anılan formülün tekrarı
+- 73:1: ref ¶7 - bürünmüş olana sesleniş
+- 73:3: ref ¶7 - gecenin yarısı
+- 73:4: ref ¶7 - Kur'an'ı tane tane okumak
+- 73:5: ref ¶1 - ağır söz vaadi
+- 73:6: ref ¶7 - gece kalkışı
+- 76:23: ref ¶7 - Kur'an'ın indirilişi
+- 76:24: ref ¶7 - Rabbin hükmüne sabır
+- 76:27: not relevant - çabuk geçeni sevmek
+- 76:28: not relevant - yaratılışın güçlendirilmesi
+- 79:15: not relevant - kıssanın girişi
+- 79:18: context ¶26 (in 79:19) - arınmaya davet
+- 79:19: prose ¶26 - Firavun'a "Rabbin" sunulur
+- 79:21: ref ¶26 - yalanlama ve karşı gelme
+- 79:22: ref ¶26 - yüz çevirip koşuşturma
+- 79:25: ref ¶26 - Firavun'un cezası
+- 79:26: ref ¶26 - korkan için ibret
+- 92:18: ref ¶20 - arınmak için veren
+- 92:19: ref ¶20 - karşılık borcu yok
+- 92:21: ref ¶20 - hoşnut kalacak
+- 96:0: not relevant - besmele; ¶2'de anılan formülün tekrarı
+- 96:2: ref ¶15 - insanın alakdan yaratılması
+- 20:25 own: context ¶1 (in 20:33) - göğsün açılması duası
+- 20:26 own: context ¶1 (in 20:33) - "işimi kolaylaştır"
+- 20:32 own: context ¶1 (in 20:33) - kardeşin işe ortak edilmesi
+- 20:34 own: context ¶1 (in 20:33) - çokça anma
+- 43:12 own: context ¶5 (in 43:13) - binilecek gemiler ve hayvanlar
+- 79:4 own: context ¶5 (in 79:3) - öne geçenler
+- 24:37 own: context ¶7 (in 24:36); ref ¶9 - ticaret anmayı unutturmaz; namaz
+- 24:41 own: prose ¶6 - her biri tesbihini bilir
+- 68:49 own: context ¶8 (in 68:48) - Rabbinden yetişen nimet
+- 68:50 own: context ¶8 (in 68:48) - seçilip iyilerden kılınması
+- 94:1 own: context ¶10 (in 94:4) - göğsün açılması
+- 94:2 own: context ¶10 (in 94:4) - yükün kaldırılması
+- 94:3 own: context ¶10 (in 94:4) - sırtı büken yük
+- 94:4 own: prose ¶10 - anılışın yükseltilmesi
+- 81:19 own: context ¶11 (in 81:23) - değerli elçinin sözü
+- 81:20 own: context ¶11 (in 81:23) - Arş'ın sahibi katında güçlü
+- 81:21 own: context ¶11 (in 81:23) - sözü dinlenen ve güvenilir
+- 81:22 own: context ¶11 (in 81:23) - arkadaşınız deli değil
+- 81:23 own: prose ¶11 - apaçık ufuk
+- 2:22 own: prose ¶12, ref ¶23 - gökten yağmura ve ürüne uzanan dizi; Allah'a denk koşmamak
+- 68:15 own: context ¶13 (in 68:16) - "öncekilerin masalları" diyen
+- 68:16 own: prose ¶13 - burnun üstüne vurulacak damga
+- 15:75 own: ref ¶13 - izlerden okuyanlar
+- 27:29 own: context ¶19 (in 27:30) - mektubun gelişi
+- 27:30 own: prose ¶19, ref ¶2 - mektubun başında yazan ad
+- 12:39 own: context ¶24 (in 12:40); ref ¶21 - birbirinden ayrı rabler
+- 12:40 own: prose ¶24 - taktığınız adlar, rabler sorusunun cevabı olarak
+- 12:41 own: context ¶14 (in 12:50) - efendisine şarap sunacak
+- 12:50 own: prose ¶14 - insan efendi için "rab"
+- 7:71 own: ref ¶24 - taktığınız adlar
+- 5:116 own: prose ¶26, ref ¶24 - hakkı olmayan ilahlığın tesbihle reddi
+- 35:41 own: prose ¶17 - gökleri ve yeri yerinde tutmak
+- 28:4 own: prose ¶20, ref ¶26 - Firavun yeryüzünde yükseldi
+- 28:38 own: ref ¶26 - kuleyle yükselmek isteyen Firavun
+- 3:139 own: ref ¶20 - "en üstün olanlar sizsiniz", iman şartıyla
+- 47:35 own: ref ¶20 - aynı söz, Allah'ın beraberliğiyle
+- 28:83 own: context ¶20 (in 28:4) - yükseklik istemeyenler
+- 6:151 own: ref ¶21 - "gelin" çağrısı ve şirkten sakınma
+- 3:80 own: ref ¶21 - rabler edinmenin emredilmemesi
+- 7:143 own: ref ¶8 - tesbihle tövbe
+- 36:40 own: ref ¶5, ¶6 - yörüngede yalın fiille yüzüş
+- 13:13 own: ref ¶6 - gök gürültüsünün tesbihi
+- 21:79 own: ref ¶6 - dağların ve kuşların tesbihi
+- 42:11 own: ref ¶23 - benzeri yok
+- 112:4 own: ref ¶23 - dengi yok
+- 53:19 own: ref ¶24 - Lât ve Uzzâ
+- 53:20 own: ref ¶24 - Menât
+- 53:27 own: ref ¶24 - meleklere verilen dişi adları
+- 39:45 own: ref ¶24 - Allah tek başına anılınca daralan kalpler
+- 40:28 own: ref ¶26 - "Rabbim Allah'tır" diyen adam
+- 52:5 own: ref ¶12 - yükseltilmiş tavan
+- 50:9 own: ref ¶12 - gökten inen bereketli su
+- 71:14 own: ref ¶15 - evre evre yaratılış
+- 96:4 own: ref ¶15 - kalemle öğretme
+- 96:5 own: ref ¶15 - bilinmeyeni öğretme
+- 74:1 own: ref ¶1 - bürünmüş olana sesleniş
+- 74:2 own: ref ¶1 - kalk ve uyar
+- 79:20 own: ref ¶26 - büyük mucize
+- 26:47 own: ref ¶26 - sihirbazların âlemlerin Rabbine imanı
+- 7:121 own: ref ¶26 - aynı söz
+- 17:107 own: ref ¶9 - çenelerinin üstüne secdeye kapanmak
+- 17:109 own: ref ¶9 - ağlayarak secdeye kapanmak
+- 72:18 own: ref ¶9 - secde yerleri Allah'ındır
+- 21:19 own: ref ¶7 - Allah'ın katındakilerin kulluktan yorulmaması
+- 25:18 own: ref ¶24 - tapılanların tesbihle reddi
+- 9:30 own: not relevant - yalnızca 9:31'in kimden söz ettiğini belirtir; prose ona dayanmadan yazıldı

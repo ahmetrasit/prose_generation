@@ -1,0 +1,205 @@
+- 10:24: prose ¶4, ref ¶5, ¶10, ¶22 - the same fa-ja'ala turning in one night or day, "as if it had not been there yesterday"; this answers the ledger: 39:21, 18:7-8 and 105:5 do not carry the collapse of time or the leaving of no trace
+- 18:45: cited ¶8; ref ¶4, ¶22 - plant becomes hashīm with "fa" and no "thumma"; ¶22 points to it without citing
+- 21:15: ref ¶5, ¶21 - people given luxury turned by ja'ala into a harvested, extinguished crop
+- 23:41: cited ¶20, ¶21; ref ¶5, ¶10 - the same fa-ja'ala construction with people; ghutha' used for people
+- 39:21: cited ¶4; ref ¶13 - the yellowing stage between green and debris
+- 56:65: ref ¶2 - the one who makes the crop grow can turn it to debris; this answers the ledger: the same hand appears in one passage
+- 57:20: ref ¶4, ¶22 - stages joined by "thumma"; plant simile for worldly life set against the hereafter
+- 68:20: ref ¶4 - a garden ruined overnight while its owners sleep
+- 79:31: prose ¶22, ref ¶1 - akhraja + mar'ā as provision, then the preference (āthara) for worldly life condemned
+- 105:5: cited ¶5; ref ¶21 - people turned into eaten leaf
+- 2:259: not relevant - revival of a town and a man; no turning to debris, no denial scene
+- 2:260: not relevant - birds and revival; ja'ala only as a word
+- 6:99: ref ¶13 - the green brought out of the plant
+- 6:146: cited ¶16; nowhere else - lexical use of ḥawāyā only
+- 7:57: ref ¶20 - "thus We bring out the dead" with kh-r-j after rain
+- 7:58: not relevant - good and bad land's yield, not withering or turning
+- 8:37: ref ¶8, ¶10 - the bad heaped one on another and sorted out
+- 15:19: not relevant - measured growth, no link to the paragraphs' claims
+- 16:11: not relevant - list of crops only
+- 16:65: not relevant - revival of earth without the link to human bringing-out
+- 18:98: not relevant - barrier levelled by a human speaker's report; nothing on plant or denial
+- 20:53: context ¶20 (in 20:55) - plants brought out, before the grazing and the human bringing-out
+- 21:58: not relevant - Abraham breaks idols; the subject is not God, and no withering
+- 22:5: ref ¶20 - earth's revival shown to those who doubt the raising
+- 22:63: ref ¶13 - earth becomes green with rain
+- 23:19: not relevant - gardens for eating; no turning
+- 25:49: not relevant - watering of land and cattle only
+- 30:50: ref ¶20 - reviver of earth is reviver of the dead
+- 32:27: prose ¶5 - the barren juruz of 18:8 becomes the ground of a new bringing-out
+- 35:9: ref ¶20 - "thus is the raising"
+- 36:33: not relevant - revival of dead land as a sign; the ayah itself makes no human link
+- 41:39: ref ¶20 - the one who revives the earth revives the dead
+- 43:11: ref ¶20 - "thus you will be brought out"
+- 50:9: not relevant - blessed rain and harvest grain only
+- 53:54: not relevant - different root (gh-sh-y)
+- 54:31: ref ¶8, ¶21 - hashīm used for a people struck by a single cry
+- 56:6: not relevant - mountains as scattered dust; only an image shared with ¶9
+- 78:15: not relevant - generic bringing-out of plants
+- 80:25: not relevant - generic rain
+- 80:27: not relevant - generic growing
+- 80:31: not relevant - its bearing on grazing rests on 80:32, which is cited
+- 100:4: not relevant - dust raised by horses
+- 55:12: ref ¶5 - 'aṣf of 105:5 as part of the grain counted among blessings
+- 2:164: not relevant - list of signs
+- 2:266: not relevant - garden burned by a fiery whirlwind; a different point
+- 12:47: not relevant - storing harvest in ears
+- 13:4: not relevant - one water, different yields
+- 13:17: cited ¶18; ref ¶9 - foam on what is smelted in fire, the pot's scum
+- 16:6: not relevant - beauty of cattle
+- 16:10: ref ¶8 - plants in which cattle are pastured
+- 16:13: not relevant - varied colours in general, not the colour of withering
+- 26:79: not relevant - feeding and drinking
+- 55:10: not relevant - earth set down for creatures
+- 56:63: ref ¶2 - part of the grower/debris passage 56:63-65
+- 80:28: not relevant - list of crops
+- 91:6: not relevant - spreading of earth
+- 2:19: not relevant - rainstorm parable of hypocrites
+- 2:22: not relevant - generic provision
+- 2:30: not relevant - ja'ala as a word only
+- 2:66: not relevant - ja'ala as a word only
+- 2:124: ref ¶3 - ja'ala raising Abraham to imam
+- 2:125: not relevant - ja'ala as a word only
+- 2:126: not relevant - ja'ala as a word only
+- 2:128: not relevant - ja'ala as a word only
+- 2:143: not relevant - ja'ala as a word only
+- 3:41: not relevant - ja'ala as a word only
+- 3:55: not relevant - ja'ala as a word only
+- 3:126: not relevant - ja'ala as a word only
+- 3:156: not relevant - ja'ala as a word only
+- 3:176: not relevant - ja'ala as a word only
+- 4:5: not relevant - ja'ala as a word only
+- 4:15: not relevant - ja'ala as a word only
+- 4:19: not relevant - ja'ala as a word only
+- 5:6: not relevant - ja'ala as a word only
+- 6:1: not relevant - khalaqa/ja'ala with one object; does not bear on the two-object sense
+- 6:122: not relevant - light given to the revived; a different image
+- 6:141: not relevant - harvest due
+- 14:32: not relevant - generic provision
+- 17:2: not relevant - ja'ala as a word only
+- 23:18: ref ¶18 - water lodged in earth and able to be taken away
+- 23:99: not relevant - plea at death; not part of the story discussed
+- 25:45: not relevant - shadow; ja'ala as a word only
+- 25:48: not relevant - pure water sent down
+- 25:54: ref ¶3 - created being put by fa-ja'alahu into a new state
+- 27:34: not relevant - kings humbling a town; human agents
+- 27:60: not relevant - generic growing
+- 29:63: ref ¶20 - they admit God revives the earth yet do not reason
+- 30:48: not relevant - clouds and rain
+- 37:63: not relevant - ja'ala as a word only
+- 37:77: not relevant - survivors; no bearing
+- 38:57: not relevant - different root (gh-s-q)
+- 43:56: not relevant - people made a precedent and example; not the paragraphs' point
+- 44:47: not relevant - hell scene
+- 50:11: ref ¶20 - "thus is the coming out"
+- 53:10: not relevant - revelation phrasing only
+- 56:36: not relevant - ja'ala as a word only
+- 56:82: not relevant - ja'ala as a word only
+- 68:50: prose ¶3 - the exact form fa-ja'alahu with Rabb as subject, working upward
+- 70:18: ref ¶15 - gathering and hoarding: the root's sense said with other words
+- 74:12: not relevant - ja'ala as a word only
+- 74:26: not relevant - hell threat
+- 75:18: context ¶19 (in 75:17) - the reciting that follows the gathering
+- 75:38: ref ¶2 - khalaqa fa-sawwā continued by fa-ja'ala
+- 75:39: ref ¶2 - same as 75:38
+- 77:21: not relevant - ja'ala as a word only
+- 78:10: not relevant - ja'ala as a word only
+- 78:11: not relevant - ja'ala as a word only
+- 79:28: ref ¶2 - raised then "fa" levelled
+- 80:21: ref ¶2 - death and burial counted among His successive acts
+- 80:24: not relevant - call to look at food; the link is carried by 80:32
+- 90:8: not relevant - ja'ala as a word only
+- 96:7: not relevant - different sense (istaghnā)
+- 100:2: not relevant - horses striking sparks
+- 105:2: ref ¶5 - ja'ala in the same surah, turning their plot
+- 15:20: not relevant - livelihoods
+- 78:6: not relevant - earth as cradle
+- 78:13: not relevant - lamp
+- 78:16: not relevant - gardens
+- 80:19: ref ¶2 - created then "fa" measured, in a chain that runs to death
+- 80:26: not relevant - splitting of earth
+- 6:144: not relevant - cattle pairs
+- 6:145: not relevant - prohibitions
+- 6:147: not relevant - warning to those who deny
+- 6:148: not relevant - excuse of the associators
+- 13:15: not relevant - prostration of all
+- 13:16: not relevant - creator of all, no link to the paragraphs
+- 13:18: not relevant - reward of responders; adds nothing to ¶18
+- 13:19: ref ¶19 - what is sent down is the truth, right after the parable of what stays
+- 18:5: not relevant - false claim of a son
+- 18:6: not relevant - the Prophet's grief
+- 18:9: not relevant - companions of the cave
+- 18:10: not relevant - companions of the cave
+- 18:43: not relevant - no helper for the garden owner
+- 18:44: ref ¶22 - God best in reward and outcome, just before the simile
+- 18:47: ref ¶21 - none left out on the day of gathering
+- 18:48: ref ¶21 - denial of the appointed meeting
+- 23:29: not relevant - Noah's prayer
+- 23:30: not relevant - signs and testing
+- 23:32: ref ¶20 - the messenger from among them; ¶20 points to it without citing
+- 23:34: not relevant - "a man like you"
+- 23:36: prose ¶21 - "far, far" said of the promise, then "far be they"
+- 23:38: not relevant - accusation of lying
+- 23:39: ref ¶20 - messenger's plea; ¶20 points to it
+- 23:40: ref ¶20 - "soon they will regret"; ¶20 points to it
+- 23:42: ref ¶21 - generations after them
+- 23:43: ref ¶21 - each at its term
+- 39:19: not relevant - those due for punishment
+- 39:20: not relevant - lofty rooms
+- 39:22: not relevant - opened breast; no link
+- 39:23: ref ¶19 - best word sent down after the crop-to-debris ayah
+- 55:60: not relevant - refrain context
+- 55:61: not relevant - refrain
+- 55:63: not relevant - refrain
+- 55:65: not relevant - refrain
+- 55:66: not relevant - springs in the gardens
+- 105:3: ref ¶5 - birds sent; ¶5 points to it
+- 105:4: ref ¶5 - stones; ¶5 points to it
+- 45:24 own: prose ¶2, ref ¶20 - deniers put destruction down to time, against the Lord's turning
+- 68:48 own: context ¶3 (in 68:50) - addressee told not to be like the man of the fish
+- 68:49 own: context ¶3 (in 68:50) - the possibility of being cast on bare land
+- 34:15 own: context ¶8 (in 34:16) - the two gardens and the command to eat and give thanks
+- 34:16 own: prose ¶8 - a flood that takes away the taste of a garden's fruit
+- 25:21 own: context ¶10 (in 25:23) - those who do not hope to meet Him
+- 25:23 own: prose ¶10 - deeds made with fa-ja'alnāhu into scattered dust
+- 75:16 own: context ¶19 (in 75:17) - do not hasten with the tongue
+- 75:17 own: prose ¶19 - gathering paired with reciting; this answers the ledger's qara'a "gather" concern from within the Quran
+- 20:50 own: ref ¶2 - creation then guidance as a pair
+- 20:54 own: context ¶20 (in 20:55), ref ¶8 - pasture command from the root of mar'ā
+- 20:55 own: prose ¶20 - humans brought out of the earth again, right after the plants
+- 79:33 own: context ¶22 (in 79:31), ref ¶8 - provision for you and your cattle
+- 79:37 own: context ¶22 (in 79:31), ref ¶21 - the one who transgressed
+- 79:38 own: context ¶22 (in 79:31), ref ¶21 - preferring worldly life, the verb of 87:16
+- 20:72 own: prose ¶22 - refusal to prefer, said with the verb of 87:16
+- 20:73 own: context ¶22 (in 20:72) - "khayrun wa abqā"
+- 19:30 own: ref ¶3 - "ja'alanī nabiyyā", ja'ala raising to prophethood
+- 82:7 own: ref ¶2 - khalaqa fa-sawwā fa-'adala
+- 80:20 own: ref ¶2 - path eased, within the chain
+- 80:22 own: ref ¶2 - raising when He wills, within the chain
+- 30:54 own: ref ¶5 - ja'ala working both ways in one ayah
+- 80:32 own: ref ¶8 - provision for you and your cattle
+- 8:36 own: ref ¶10 - opening of the sorting passage
+- 18:105 own: ref ¶10 - no weight set up for them
+- 14:18 own: ref ¶10 - deeds as ash blown by the wind
+- 15:22 own: ref ¶17 - you are not the keepers of water
+- 67:30 own: ref ¶18 - water may sink away
+- 15:9 own: ref ¶19 - the reminder guarded
+- 2:106 own: not relevant - forgetting of ayat bears on 87:7's exception, not on ¶19
+- 30:19 own: ref ¶20 - "thus you will be brought out"
+- 6:29 own: ref ¶20 - same denial words
+- 23:82 own: ref ¶20 - refrain of the denial question
+- 37:16 own: ref ¶20 - refrain of the denial question
+- 56:47 own: ref ¶20 - refrain of the denial question
+- 17:49 own: ref ¶20 - bones and crumbs, denial of the raising
+- 36:78 own: ref ¶20 - who revives decayed bones
+- 36:79 own: ref ¶20 - the first maker revives them
+- 21:13 own: ref ¶21 - return to what you were given luxury in
+- 21:14 own: ref ¶21 - their admission of wrongdoing
+- 23:44 own: ref ¶21 - made into tales, "fa-bu'dan"
+- 18:35 own: ref ¶21 - thinks his garden will never perish
+- 18:36 own: ref ¶21 - thinks the Hour will not come
+- 18:42 own: ref ¶21 - the garden's fruit destroyed
+- 68:19 own: ref ¶4 - a visitation while they slept
+- 20:131 own: ref ¶22 - flower of worldly life against more lasting provision
+- 28:60 own: ref ¶22 - worldly enjoyment against what is more lasting
+- 42:36 own: ref ¶22 - worldly enjoyment against what is more lasting
