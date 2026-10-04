@@ -41,7 +41,10 @@ the knowledge around it and integrates the base's findings with the literature.
 4. Hadith blocks (`tur:hadis`) are sahih only: Bukhārī, Muslim, or a sunan report every named grader calls sahih
    (search with `--sahih`; the corpus marks each report). Occasion reports (`tur:esbab`) may be of any grade; give
    `derece`, `derece_veren` (as the source or the corpus records it, else derece:degerlendirilmedi) and
-   `tarihsellik`. Never upgrade a grade because a tafsir quotes the report.
+   `tarihsellik`. Never upgrade a grade because a tafsir quotes the report. Merit (fazilet) reports are hadith:
+   sahih only, as tur:hadis; never file them under esbab. A report attributed to the Prophet but graded below
+   sahih is never a hadis block; when the same words are soundly attributed to a Companion or Successor, report
+   them as tefsir_rivayet and say in one clause that the Prophetic attribution is weak, naming who judged it.
 5. Dataset hadith numbers are not sunnah.com numbers: cite the corpus locator and quote the opening words.
 6. Bible and other non-Islamic scripture are handled in a separate pass (gelenek tevrat and incil). Do not cite
    them here; a Bible passage that an Islamic source itself quotes (al-Biqāʿī, for instance) is reported as that
@@ -66,3 +69,10 @@ Turkish, in the register of the base: plain, warm, exact; explain Arabic terms b
 "the scholars"; no first person, no talk about your process or tools. One paragraph; at most 80 words (layers
 temel/ek) or 120 (arastirma). Short quotations only; Arabic quotations go in the base's reader-tag form
 {ar:…, tr:…, gloss:…, source:…} with the corpus locator as source.
+- The block is read right after a paragraph of the commentary, by a reader who has just read that paragraph. Call
+  the commentary "şerh" when you must refer to it (never "taban", "base" or "the project"); usually just state the
+  point.
+- Say what the source adds and stop. Do not end with a disclaimer about what the source does not prove or what the
+  block is not: the tags already say whether a link is direct, thematic or reported. State a limit only when it
+  changes the reading, as its own itiraz or sinir block.
+- Say each thing once on the page: a point made in one block is not repeated in another.

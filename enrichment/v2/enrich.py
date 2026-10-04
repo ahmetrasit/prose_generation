@@ -10,8 +10,13 @@ Per target:
                    sent back; the rest rendered into the frozen base (render.py); the page checked byte-exact against
                    the base; copied to out/sNNN/ (never overwritten); duzeltme records appended to errata.jsonl
 
-Agent calls run `codex exec` (GPT-6 Astra by default) with the call directory as the only writable place and no
-network. Codex keeps each call's session log (~/.codex/sessions/…/rollout-…-<thread id>.jsonl): run.log.json records
+Models (--model, comma-separated, each key[:effort]): astra (default), sol, sol61 run through `codex exec`; opus,
+sonnet through `claude -p`. Every agent can write only in its call directory and has no network: Codex by its own
+sandbox; Claude by tools limited to Read/Grep/Glob, Write/Edit inside the call directory, and Python only through
+tools/sandboxed_python (Codex's sandbox). Non-default models get their own call directory (zengin.<page>.<model>.<effort>).
+--trial renders and checks the page in the call directory only: nothing is copied to out/ and no errata are logged
+(for model comparisons).
+Codex Codex keeps each call's session log (~/.codex/sessions/…/rollout-…-<thread id>.jsonl): run.log.json records
 its token totals and the subscription's weekly-limit reading before and after the call; `status` shows a running
 call's tokens live. Rules as in v16: a call directory with started.json is never run again (--attempt N for a deliberate new
 attempt, which gets its own directory); every call is logged in work/ledger.jsonl with its prompt hash.
@@ -41,7 +46,12 @@ OUT = V2 / "out"
 PROMPTS = V2 / "prompts"
 LEDGER = WORK / "ledger.jsonl"
 ERRATA = V2 / "errata.jsonl"
-MODEL, EFFORT = "gpt-6-astra", "high"
+EFFORT = "high"
+MODELS = {"astra": ("codex", "gpt-6-astra"), "sol": ("codex", "gpt-6-sol"), "sol61": ("codex", "gpt-6.1-sol"),
+          "opus": ("claude", "claude-opus-5-5"), "sonnet": ("claude", "claude-sonnet-5-5")}
+DEFAULT_MODEL = "astra"
+WRAP = V2 / "tools" / "sandboxed_python"
+CLAUDE_TOOLS = "Bash,Read,Write,Edit,Glob,Grep"
 BRIEF = "zengin"
 SESSIONS = Path.home() / ".codex" / "sessions"
 
@@ -72,8 +82,9 @@ def tag(target: str) -> str:
     return target.replace(":", "_")
 
 
-def call_dir(s: int, target: str, attempt: int = 1) -> Path:
-    return wd(s) / f"{BRIEF}.{tag(target)}" if attempt == 1 else wd(s) / f"{BRIEF}.{tag(target)}.a{attempt}"
+def call_dir(s: int, target: str, attempt: int = 1, model: str = DEFAULT_MODEL, effort: str = EFFORT) -> Path:
+    name = f"{BRIEF}.{tag(target)}" + ("" if model == DEFAULT_MODEL else f".{model}.{effort}")
+    return wd(s) / (name if attempt == 1 else f"{name}.a{attempt}")
 
 
 def page_name(s: int, target: str) -> str:
@@ -96,10 +107,11 @@ def targets(s: int) -> list[str]:
 
 # ---------------------------------------------------------------- prompt
 
-def header(s: int, target: str, d: Path) -> str:
+def header(s: int, target: str, d: Path, runner: str = "codex") -> str:
     pack = wd(s) / "pack"
     n = json.loads((pack / "pack.json").read_text(encoding="utf-8"))["ayat"]
     name = page_name(s, target)
+    py = "python3" if runner == "codex" else str(WRAP)
     if target == "surah":
         what = f"the surah page of S{s} (base PACK/numbered/surah.md; all ayat 1–{n})"
     else:
@@ -112,16 +124,19 @@ def header(s: int, target: str, d: Path) -> str:
         f"- Workspace root: {PG}", f"- PACK: {pack}",
         f"- Your call directory (write only here): {d}",
         f"- Schema: {V2 / 'SCHEMA.md'} (read it once; schema.json is the same content as data for the scripts)",
-        f"- Corpus tool: python3 {V2 / 'tools' / 'corpus.py'}",
-        f"- Validator: python3 {V2 / 'validate.py'} --surah {s} --target {target} --annotations "
+        f"- Corpus tool: {py} {V2 / 'tools' / 'corpus.py'}",
+        f"- Validator: {py} {V2 / 'validate.py'} --surah {s} --target {target} --annotations "
         f"{d / 'annotations.jsonl'}",
-        f"- Renderer (preview): python3 {V2 / 'render.py'} --surah {s} --target {target} --annotations "
+        f"- Renderer (preview): {py} {V2 / 'render.py'} --surah {s} --target {target} --annotations "
         f"{d / 'annotations.jsonl'} --out {d / 'preview'}",
-    ]) + "\n"
+    ] + ([f"- Tools: run every python3 command of these instructions (the corpus tool, the validator, the renderer, "
+          f"scripts you write in your call directory) as `{WRAP} <script.py> [args]`; it runs Python in a sandbox "
+          f"that writes only in your call directory. No other shell command is available: read files with Read, "
+          f"Grep and Glob; write files only in your call directory."] if runner == "claude" else [])) + "\n"
 
 
-def build_prompt(s: int, target: str, d: Path) -> str:
-    return "\n\n".join([header(s, target, d), (PROMPTS / "common.md").read_text(encoding="utf-8"),
+def build_prompt(s: int, target: str, d: Path, runner: str = "codex") -> str:
+    return "\n\n".join([header(s, target, d, runner), (PROMPTS / "common.md").read_text(encoding="utf-8"),
                         (PROMPTS / f"{BRIEF}.md").read_text(encoding="utf-8")])
 
 
@@ -147,6 +162,37 @@ def call_codex(prompt: str, d: Path, model: str, effort: str) -> dict:
         if ev.get("type") == "item.completed" and (ev.get("item") or {}).get("type") == "command_execution":
             tools += 1
     return {"returncode": p.returncode, "turn_completed": completed, "usage": usage, "commands": tools}
+
+
+def call_claude(prompt: str, d: Path, model: str, effort: str) -> dict:
+    """One `claude -p` call in the call directory, customizations off (--safe-mode), unlisted actions refused
+    (--permission-mode dontAsk). The stream is kept; the result event carries tokens and the cost in USD."""
+    sid = str(__import__("uuid").uuid4())
+    allowed = [f"Bash({WRAP} *)", f"Read(/{PG}/**)", f"Write(/{d}/**)", f"Edit(/{d}/**)"]
+    cmd = ["claude", "-p", "--model", model, "--effort", effort, "--tools", CLAUDE_TOOLS, "--allowedTools", *allowed,
+           "--add-dir", str(PG), "--output-format", "stream-json", "--verbose", "--session-id", sid, "--safe-mode",
+           "--permission-mode", "dontAsk"]
+    (d / "command.json").write_text(json.dumps({"argv": cmd, "stdin": "prompt.md"}, indent=1) + "\n", encoding="utf-8")
+    env = {**os.environ, "PYTHONDONTWRITEBYTECODE": "1", "ENRICH_CALL_DIR": str(d),
+           "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "128000"}
+    with (d / "run.stream.jsonl").open("w", encoding="utf-8") as out, (d / "stderr.log").open("w") as err:
+        p = subprocess.run(cmd, input=prompt, text=True, stdout=out, stderr=err, env=env, cwd=d)
+    final, tools, denied = {}, 0, 0
+    for line in (d / "run.stream.jsonl").read_text(encoding="utf-8").splitlines():
+        try:
+            ev = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if ev.get("type") == "assistant":
+            tools += sum(1 for c in (ev.get("message") or {}).get("content", []) if c.get("type") == "tool_use")
+        if ev.get("type") == "result":
+            final = ev
+            denied = len(ev.get("permission_denials") or [])
+    if final.get("result"):
+        (d / "response.md").write_text(final["result"] + "\n", encoding="utf-8")
+    return {"returncode": p.returncode, "turn_completed": bool(final) and not final.get("is_error"),
+            "usage": final.get("usage") or {}, "cost_usd": final.get("total_cost_usd"),
+            "num_turns": final.get("num_turns"), "commands": tools, "permission_denials": denied, "session_id": sid}
 
 
 def session_file(d: Path) -> Path | None:
@@ -191,8 +237,9 @@ def weekly_now() -> dict:
     return {}
 
 
-def finish(s: int, target: str, d: Path) -> dict:
-    """Check the records, drop the failing ones, render, check the page, accept. Nothing goes back to the agent."""
+def finish(s: int, target: str, d: Path, trial: bool = False) -> dict:
+    """Check the records, drop the failing ones, render, check the page, accept (unless trial). Nothing goes back to
+    the agent."""
     ann = d / "annotations.jsonl"
     if not ann.exists():
         return {"check": "no annotations.jsonl", "ok": False}
@@ -213,6 +260,9 @@ def finish(s: int, target: str, d: Path) -> dict:
     if page_errors:
         return {"check": f"page errors: {len(page_errors)} (see check.json)", "ok": False,
                 "kept": len(kept), "dropped": len(dropped)}
+    if trial:
+        return {"check": "ok (trial: page in the call directory only)", "ok": True, "kept": len(kept),
+                "dropped": len(dropped)}
     dst = OUT / f"s{s:03d}" / name
     if dst.exists():
         return {"check": f"{rel(dst)} exists (never overwrite)", "ok": False}
@@ -233,27 +283,34 @@ def finish(s: int, target: str, d: Path) -> dict:
     return {"check": "ok", "ok": True, "kept": len(kept), "dropped": len(dropped), "errata": len(errata)}
 
 
-def run_target(s: int, target: str, model: str, effort: str, attempt: int = 1) -> dict:
-    d = call_dir(s, target, attempt)
+def run_target(s: int, target: str, model: str, effort: str, attempt: int = 1, trial: bool = False) -> dict:
+    runner, model_id = MODELS[model]
+    d = call_dir(s, target, attempt, model, effort)
     if blocked(d):
-        return {"surah": s, "target": target, "status": "skipped", "reason": "started or finished before (never rerun)"}
-    if accepted(s, target):
-        return {"surah": s, "target": target, "status": "skipped", "reason": "page already accepted"}
+        return {"surah": s, "target": target, "model": model, "status": "skipped",
+                "reason": "started or finished before (never rerun)"}
+    if accepted(s, target) and not trial:
+        return {"surah": s, "target": target, "model": model, "status": "skipped", "reason": "page already accepted"}
     d.mkdir(parents=True, exist_ok=True)
-    prompt = build_prompt(s, target, d)
-    row = {"surah": s, "target": target, "attempt": attempt, "brief": BRIEF, "model": model, "effort": effort,
-           "prompt_sha256": sha(prompt), "prompt_chars": len(prompt), "started": time.strftime("%Y-%m-%dT%H:%M:%S%z")}
+    prompt = build_prompt(s, target, d, runner)
+    row = {"surah": s, "target": target, "attempt": attempt, "brief": BRIEF, "model": model, "model_id": model_id,
+           "runner": runner, "effort": effort, "trial": trial, "prompt_sha256": sha(prompt), "prompt_chars": len(prompt),
+           "started": time.strftime("%Y-%m-%dT%H:%M:%S%z")}
     with (d / "started.json").open("x", encoding="utf-8") as f:
         json.dump(row, f, ensure_ascii=False, indent=1)
     (d / "prompt.md").write_text(prompt, encoding="utf-8")
-    row["weekly_before"] = weekly_now()
+    if runner == "codex":
+        row["weekly_before"] = weekly_now()
     t0 = time.monotonic()
     try:
-        row.update(call_codex(prompt, d, model, effort))
-        sf = session_file(d)
-        if sf:
-            row["session"] = read_session(sf)
-        res = finish(s, target, d) if row["returncode"] == 0 and row["turn_completed"] else \
+        if runner == "codex":
+            row.update(call_codex(prompt, d, model_id, effort))
+            sf = session_file(d)
+            if sf:
+                row["session"] = read_session(sf)
+        else:
+            row.update(call_claude(prompt, d, model_id, effort))
+        res = finish(s, target, d, trial) if row["returncode"] == 0 and row["turn_completed"] else \
             {"check": "call did not complete", "ok": False}
         row["status"] = "ok" if res.pop("ok") else "error"
         row.update(res)
@@ -287,14 +344,15 @@ def status(s: int) -> None:
     for t in targets(s):
         line = "accepted" if accepted(s, t) else "due"
         for d in sorted(wd(s).glob(f"{BRIEF}.{tag(t)}*")):
-            if d.name != f"{BRIEF}.{tag(t)}" and not d.name.startswith(f"{BRIEF}.{tag(t)}.a"):
+            if d.name != f"{BRIEF}.{tag(t)}" and not d.name.startswith(f"{BRIEF}.{tag(t)}."):
                 continue
             if (d / "run.log.json").exists():
                 r = json.loads((d / "run.log.json").read_text(encoding="utf-8"))
-                line += (f" | {d.name}: {r.get('status')} {r.get('check', '')} kept {r.get('kept', '-')} dropped "
-                         f"{r.get('dropped', '-')} {r.get('seconds', '')}s in {(r.get('usage') or {}).get('input_tokens', '')}")
+                line += (f"\n      {d.name}: {r.get('status')} {r.get('check', '')} kept {r.get('kept', '-')} dropped "
+                         f"{r.get('dropped', '-')} {r.get('seconds', '')}s in {(r.get('usage') or {}).get('input_tokens', '')}"
+                         + (f" ${r['cost_usd']:.2f}" if r.get("cost_usd") else ""))
             elif (d / "started.json").exists():
-                line += f" | {d.name}: started (running or interrupted)"
+                line += f"\n      {d.name}: started (running or interrupted)"
                 sf = session_file(d)
                 if sf:
                     u = read_session(sf)
@@ -313,15 +371,27 @@ def surahs(arg: str) -> list[int]:
     return out
 
 
+def model_specs(arg: str, default_effort: str) -> list[tuple[str, str]]:
+    """"sol:max,opus:high" -> [("sol", "max"), ("opus", "high")]; a key without :effort takes --effort."""
+    out = []
+    for part in arg.split(","):
+        key, _, effort = part.strip().partition(":")
+        if key not in MODELS:
+            raise SystemExit(f"unknown model {key!r}; known: {', '.join(MODELS)}")
+        out.append((key, effort or default_effort))
+    return out
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("cmd", choices=("status", "build", "run"))
     ap.add_argument("--surah", type=int)
     ap.add_argument("--surahs")
     ap.add_argument("--target", help="surah or S:A (default: every page of the surah)")
-    ap.add_argument("--model", default=MODEL)
+    ap.add_argument("--model", default=DEFAULT_MODEL, help=f"key[:effort],... of {', '.join(MODELS)}")
     ap.add_argument("--effort", default=EFFORT, choices=("low", "medium", "high", "max"))
     ap.add_argument("--attempt", type=int, default=1)
+    ap.add_argument("--trial", action="store_true", help="render in the call directory only; no out/, no errata")
     ap.add_argument("--parallel", type=int, default=2)
     a = ap.parse_args()
     ss = surahs(a.surahs) if a.surahs else [a.surah]
@@ -331,22 +401,24 @@ def main() -> None:
         for s in ss:
             status(s)
         return
+    specs = model_specs(a.model, a.effort)
     jobs = []
     for s in ss:
         if not ensure_pack(s):
             continue
-        jobs += [(s, t) for t in ([a.target] if a.target else targets(s))]
+        jobs += [(s, t, m, e) for t in ([a.target] if a.target else targets(s)) for m, e in specs]
     if a.cmd == "build":
-        for s, t in jobs:
-            p = build_prompt(s, t, call_dir(s, t, a.attempt))
-            print(f"S{s} {t}: prompt {len(p):,} chars (the agent reads the pack and corpus itself); "
-                  f"model {a.model} effort {a.effort}; subscription run, USD not reported")
+        for s, t, m, e in jobs:
+            d = call_dir(s, t, a.attempt, m, e)
+            p = build_prompt(s, t, d, MODELS[m][0])
+            print(f"S{s} {t} {m} ({MODELS[m][1]}, {e}): prompt {len(p):,} chars -> {rel(d)}"
+                  + (" [exists: will be skipped]" if blocked(d) else ""))
         print(f"{len(jobs)} calls")
         return
     with cf.ThreadPoolExecutor(a.parallel) as ex:
-        for r in ex.map(lambda j: run_target(j[0], j[1], a.model, a.effort, a.attempt), jobs):
-            print(json.dumps({k: r.get(k) for k in ("surah", "target", "status", "check", "kept", "dropped",
-                                                     "seconds", "reason")}, ensure_ascii=False), flush=True)
+        for r in ex.map(lambda j: run_target(j[0], j[1], j[2], j[3], a.attempt, a.trial), jobs):
+            print(json.dumps({k: r.get(k) for k in ("surah", "target", "model", "status", "check", "kept", "dropped",
+                                                     "seconds", "cost_usd", "reason")}, ensure_ascii=False), flush=True)
 
 
 if __name__ == "__main__":

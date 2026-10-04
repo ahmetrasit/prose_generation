@@ -99,3 +99,18 @@ relay marking; Arberry control. Rejected: making 8 of the 16 tafsirs on-demand (
   names it), not his Asbāb or al-Basīṭ (both fetched separately from OpenITI).
 - al-Rāghib's tafsir does not reach the late surahs; his Mufradāt is the relevant work. Nursi's İşârâtü'l-İ'câz
   covers only S1–S2:33.
+
+## S107 surah page, first call (Astra max, 2026-10-03) and schema 3.2
+130 records, none dropped, 74 min, 14.6M input tokens (95% cached), 75.7k output. Read as a page (user: judge
+whether blocks are "appropriate, to the point, useful, and flows naturally", not source fidelity): the blocks are
+concise and concrete, the meal and counter-evidence blocks strongest; the page did not flow: 43 novelty blocks (a
+third), 16 of them repeating the antecedent block above; "taban" in 40 blocks; 27 blocks closing on a disclaimer;
+nine blocks after ¶1; a few low-value or misplaced blocks; an ungraded merit report filed as esbab; Saʿd b. Abī
+Waqqāṣ's report on 107:5 (Prophetic attribution weak, Companion's sound) missing. Changes (schema 3.2, brief):
+attested findings carry klasik_tanik on their oncul block, a yenilik block only when nothing was found (arastirma,
+one per paragraph); no "taban" in metin (şerh); no closing disclaimers; each point once; one chronology block and
+one names/merit block; at most five blocks per paragraph; merit reports only as sahih hadis; weak Prophetic
+attributions of sound Companion statements reported as the Companion's; kat arastirma hidden by default. On the
+Astra records the new rules drop 26 (25 attested yenilik, the merit report) and warn on 30 "taban" blocks.
+Model trials (--model, --trial): Sol 6, Sol 6.1 (Codex); Opus 5.5, Sonnet 5.5 (claude -p, Python through Codex's
+sandbox via tools/sandboxed_python).

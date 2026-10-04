@@ -1,0 +1,8 @@
+#!/bin/bash
+# Run python3 for a Claude agent call inside Codex's macOS sandbox (profile :workspace): it can read the workspace,
+# write only in the call directory, and has no network, the same isolation as the Codex calls.
+#   sandboxed_python <script.py> [args...]      (ENRICH_CALL_DIR is set by enrich.py)
+set -euo pipefail
+d="${ENRICH_CALL_DIR:?ENRICH_CALL_DIR is not set}"
+cd "$d"
+PYTHONDONTWRITEBYTECODE=1 exec codex sandbox -P :workspace -C "$d" -- python3 "$@"

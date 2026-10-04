@@ -166,6 +166,13 @@ def check_record(r: dict, surah: int, n_ayat: int, corpus: Corpus | None, base_t
         e.append(f"{rid}: bag {r['bag']} must name the scholar who argues it (alim)")
     if r.get("bag") == "etki_iddiasi" and r.get("tarihleme") == "kuran_sonrasi":
         e.append(f"{rid}: a text dated after the Qur'an cannot carry etki_iddiasi")
+    if r.get("islev") == "fazilet" and tur != "hadis":
+        e.append(f"{rid}: merit reports are hadith: tur:hadis, sahih only (not {tur})")
+    if tur == "yenilik":
+        if r.get("kat") != "arastirma":
+            e.append(f"{rid}: yenilik blocks are kat:arastirma")
+        if r.get("klasik_tanik") in ("acik", "kismi"):
+            e.append(f"{rid}: an attested finding goes on its oncul block (klasik_tanik there), not a yenilik block")
     if r.get("islev") == "itiraz" and not r.get("gerekce"):
         e.append(f"{rid}: itiraz needs gerekce (the argument why the reading cannot hold); a preference is tercih")
     return e

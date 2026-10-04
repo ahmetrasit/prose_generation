@@ -1,4 +1,4 @@
-# Annotation schema 3.1 (generated from schema.json — do not edit)
+# Annotation schema 3.2 (generated from schema.json — do not edit)
 
 Every block is one line in the rendered page and one JSON object in annotations.jsonl:
 
@@ -39,7 +39,7 @@ Every block is one line in the rendered page and one JSON object in annotations.
 | `metin` | Metin | Text | all | the block's prose, in the page language, within the word limit of its layer |
 | `kaynak` | Kaynak | Source | all | source locators, pipe-separated: <ID>:<locator> exactly as in the corpus (TAB:107:3, MUSLIM:2985, ELMALILI:107:2, LISAN:دعع), or "hafiza" for model memory; Bible locators use OSIS book abbreviations (WLC:Gen.22.2, SBLGNT:Matt.6.5) |
 | `guc` | Güç | Strength | tur: yenilik\|elenen\|ayet_ayet\|vucuh, islev: oncul | strength of a connection to the project's reading Values: `guc` table. |
-| `klasik_tanik` | Klasik tanıklık | Classical attestation | tur: yenilik | how far a project finding is attested in the checked sources Values: `klasik_tanik` table. |
+| `klasik_tanik` | Klasik tanıklık | Classical attestation | tur: yenilik | how far a project finding is attested in the checked sources; on a yenilik block, or on the oncul block of an attested finding Values: `klasik_tanik` table. |
 | `taranan` | Taranan kaynaklar | Sources checked | tur: yenilik | corpus IDs actually searched, pipe-separated |
 | `tarama` | Tarama kapsamı | Search scope | tur: yenilik | whether the check ran over the per-ayah slice only or over whole-book texts Values: `tarama` table. |
 | `derece` | Derece | Grade | tur: hadis\|esbab | hadith/report grade; hadis blocks accept only sahih Values: `derece` table. |
@@ -95,7 +95,7 @@ Every block is one line in the rendered page and one JSON object in annotations.
 | `kelam` | KLM | islami | Kelâm | Theology | theological debate; optional |
 | `meal` | MEL | islami | Meal incelemesi | Translation review | how Turkish (and relay) translations render a term: what they keep, lose or add |
 | `modern` | MDR | islami, tevrat, incil | Modern çalışma | Modern scholarship | modern Islamic and Western scholarship, kept apart from classical attestation |
-| `yenilik` | YNL | islami | Yenilik denetimi | Novelty audit | how far a finding of the base is attested in the checked sources |
+| `yenilik` | YNL | islami | Yenilik denetimi | Novelty audit | how far a finding of the base is attested, written only when no antecedent was found (klasik_tanik bulunamadi or yapitaslari); an attested finding carries klasik_tanik on its oncul block. At most one per paragraph; always kat:arastirma |
 | `paralel` | PRL | tevrat, incil | Paralel anlatı | Parallel narrative | the same figure, scene or story told in the other scripture (Abraham's sacrifice, Joseph, the sleepers) |
 | `motif` | MTF | tevrat, incil | Ortak motif | Shared motif | a shared image, formula or ethical motif without a shared story (praying to be seen: Mt 6:5 and 107:6) |
 | `karsi_anlati` | KRA | tevrat, incil | Karşı anlatı | Counter-version | the Qur'an tells it differently, corrects or answers it (Mary, the crucifixion, the calf); the difference is the point |
@@ -152,9 +152,9 @@ Every block is one line in the rendered page and one JSON object in annotations.
 
 | value | tr | en | definition |
 |---|---|---|---|
-| `temel` | Temel | Core | shown whenever its type is shown |
-| `ek` | Ek | Extended | supporting detail |
-| `arastirma` | Araştırma | Research | audit trail: novelty, rejected candidates, technical source criticism |
+| `temel` | Temel | Core | shown by default: what an advanced reader should see first at that point |
+| `ek` | Ek | Extended | shown by default: supporting detail |
+| `arastirma` | Araştırma | Research | hidden by default (the reader opens it): audit trail, novelty detail, rejected candidates, technical source criticism |
 
 ## `guc`
 
@@ -282,7 +282,7 @@ Every block is one line in the rendered page and one JSON object in annotations.
 
 ## Rules
 
-- **hadis_sahih**: tur:hadis requires derece:sahih and derece_veren naming Buhârî, Müslim or the graders recorded in the corpus
+- **hadis_sahih**: tur:hadis requires derece:sahih and derece_veren naming Buhârî, Müslim or the graders recorded in the corpus; merit (fazilet) reports are hadith and follow the same rule; a weak Prophetic attribution of a sound Companion statement is reported as the Companion's (tefsir_rivayet)
 - **hafiza**: kaynak:hafiza (or a corpus source with access hafiza) requires durum:degerlendirilmedi; forbidden for tur hadis and nuzul, for derece, and for Turkish loanword history in anlam_tarihi
 - **itiraz_vs_tercih**: a source preferring another reading is islev:tercih; islev:itiraz needs an argument that the base's reading cannot hold here
 - **yenilik_scope**: klasik_tanik:bulunamadi with tarama:dilim must say in metin that only the per-ayah slice was searched
@@ -290,3 +290,5 @@ Every block is one line in the rendered page and one JSON object in annotations.
 - **paragraf_zorunlu**: every block names its prose paragraph (paragraf) and quotes at least three words of it (capa); it is rendered right after that paragraph; a block whose number and words do not match is dropped
 - **gelenek_ayrimi**: each block belongs to one gelenek and its tur must allow it. islami blocks cite no Bible, Jewish or Christian source (kind intertext); tevrat and incil blocks cite only sources of their own gelenek, plus the Qur'an text and modern scholarship. The passes run separately and never read each other's records
 - **paralel_bagimlilik_degil**: a parallel is not a dependence: bag defaults to benzerlik; muhatap and etki_iddiasi require alim and a source that argues it; etki_iddiasi is impossible with tarihleme:kuran_sonrasi
+- **yenilik_tek**: a separate yenilik block only when no antecedent was found, kat:arastirma, at most one per paragraph; an attested finding carries klasik_tanik/taranan/tarama on its oncul block
+- **okuma_akisi**: blocks are read right after their paragraph: no 'taban' in metin (say şerh or state the point), no closing disclaimers, each point once on the page, at most five blocks after one paragraph

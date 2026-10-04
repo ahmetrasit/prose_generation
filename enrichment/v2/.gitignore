@@ -6,3 +6,15 @@ fetch/openiti_cache/
 work/*/pack/
 work/*/*/run.stream.jsonl
 work/*/*/preview/
+# call directories: version the run record only, not the agent's scratch notes (copies of corpus text)
+work/*/zengin.*/*
+!work/*/zengin.*/prompt.md
+!work/*/zengin.*/command.json
+!work/*/zengin.*/started.json
+!work/*/zengin.*/run.log.json
+!work/*/zengin.*/stderr.log
+!work/*/zengin.*/response.md
+!work/*/zengin.*/annotations.jsonl
+!work/*/zengin.*/gaps.json
+!work/*/zengin.*/check.json
+work/*/_sandboxtest/

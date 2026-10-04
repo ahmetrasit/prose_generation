@@ -1,6 +1,6 @@
 {
   "schema": "zenginlestirme",
-  "version": "3.1",
+  "version": "3.2",
   "updated": "2026-10-03",
   "note": "Machine keys and values are ASCII-folded Turkish. `label` gives display text per language (tr with diacritics, en, de); `def` is the definition agents follow. The validator, the renderer and the reader app read this file; SCHEMA.md explains the rules around it.",
   "languages": [
@@ -143,7 +143,7 @@
         "en": "Classical attestation",
         "de": "Klassische Bezeugung"
       },
-      "def": "how far a project finding is attested in the checked sources",
+      "def": "how far a project finding is attested in the checked sources; on a yenilik block, or on the oncul block of an attested finding",
       "enum": "klasik_tanik",
       "required_for": {
         "tur": [
@@ -689,7 +689,7 @@
           "en": "Novelty audit",
           "de": "Neuheitsprüfung"
         },
-        "def": "how far a finding of the base is attested in the checked sources",
+        "def": "how far a finding of the base is attested, written only when no antecedent was found (klasik_tanik bulunamadi or yapitaslari); an attested finding carries klasik_tanik on its oncul block. At most one per paragraph; always kat:arastirma",
         "gelenek": [
           "islami"
         ]
@@ -1045,7 +1045,7 @@
           "en": "Core",
           "de": "Kern"
         },
-        "def": "shown whenever its type is shown"
+        "def": "shown by default: what an advanced reader should see first at that point"
       },
       "ek": {
         "label": {
@@ -1053,7 +1053,7 @@
           "en": "Extended",
           "de": "Erweitert"
         },
-        "def": "supporting detail"
+        "def": "shown by default: supporting detail"
       },
       "arastirma": {
         "label": {
@@ -1061,7 +1061,7 @@
           "en": "Research",
           "de": "Forschung"
         },
-        "def": "audit trail: novelty, rejected candidates, technical source criticism"
+        "def": "hidden by default (the reader opens it): audit trail, novelty detail, rejected candidates, technical source criticism"
       }
     },
     "guc": {
@@ -1566,7 +1566,7 @@
   "rules": [
     {
       "id": "hadis_sahih",
-      "def": "tur:hadis requires derece:sahih and derece_veren naming Buhârî, Müslim or the graders recorded in the corpus"
+      "def": "tur:hadis requires derece:sahih and derece_veren naming Buhârî, Müslim or the graders recorded in the corpus; merit (fazilet) reports are hadith and follow the same rule; a weak Prophetic attribution of a sound Companion statement is reported as the Companion's (tefsir_rivayet)"
     },
     {
       "id": "hafiza",
@@ -1595,6 +1595,14 @@
     {
       "id": "paralel_bagimlilik_degil",
       "def": "a parallel is not a dependence: bag defaults to benzerlik; muhatap and etki_iddiasi require alim and a source that argues it; etki_iddiasi is impossible with tarihleme:kuran_sonrasi"
+    },
+    {
+      "id": "yenilik_tek",
+      "def": "a separate yenilik block only when no antecedent was found, kat:arastirma, at most one per paragraph; an attested finding carries klasik_tanik/taranan/tarama on its oncul block"
+    },
+    {
+      "id": "okuma_akisi",
+      "def": "blocks are read right after their paragraph: no 'taban' in metin (say şerh or state the point), no closing disclaimers, each point once on the page, at most five blocks after one paragraph"
     }
   ]
 }

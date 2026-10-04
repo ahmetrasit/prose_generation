@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from collections import Counter
 from pathlib import Path
@@ -69,6 +70,8 @@ def check_records(s: int, target: str, recs: list[dict], gelenek: str = "islami"
     paras = R.paragraphs(base)
     corpus = B.Corpus(C.INDEX)
     kept, dropped, warnings, seen = [], [], [], set()
+    novelty_at: dict[str, str] = {}
+    per_para: dict[str, int] = {}
     for r in recs:
         rid = r.get("id", "?")
         if gelenek == "islami":
@@ -93,14 +96,24 @@ def check_records(s: int, target: str, recs: list[dict], gelenek: str = "islami"
                 e.append(f"{rid}: {name}: {err}")
         if rid in seen:
             e.append(f"{rid}: duplicate id")
+        para = str(r.get("paragraf", "")).lstrip("¶")
+        if r.get("tur") == "yenilik" and not e:
+            if para in novelty_at:
+                e.append(f"{rid}: a second yenilik block after ¶{para} ({novelty_at[para]} is there); one per paragraph")
+            else:
+                novelty_at[para] = rid
         seen.add(rid)
         if e:
             dropped.append({"id": rid, "errors": e})
             continue
         kept.append(r)
+        per_para[para] = per_para.get(para, 0) + 1
+        if re.search(r"\b[Tt]aban(?!ı?nda\b)", r.get("metin", "")):
+            warnings.append(f"{rid}: metin calls the commentary 'taban'; say 'şerh' or state the point")
         if r.get("tur") == "yenilik" and r.get("tarama") == "dilim" and r.get("klasik_tanik") == "bulunamadi" \
                 and not any(w in r.get("metin", "").lower() for w in ("dilim", "yalnız", "sadece", "only")):
             warnings.append(f"{rid}: bulunamadi on the slice should say only the slice was searched")
+    warnings += [f"¶{p}: {n} blocks after one paragraph (at most five)" for p, n in per_para.items() if n > 5]
     return kept, dropped, warnings
 
 

@@ -32,6 +32,16 @@ python3 enrichment/v2/enrich.py run    --surah 107 --target 107:3       # one pa
 python3 enrichment/v2/enrich.py run    --surahs 87-114 --parallel 3
 python3 enrichment/v2/enrich.py status --surah 107
 ```
+Model comparison on one page (each model and effort in its own call directory, nothing copied to out/):
+```
+python3 enrichment/v2/enrich.py build --surah 107 --target surah --model sol:max,sol61:max,opus:high,sonnet:high
+python3 enrichment/v2/enrich.py run   --surah 107 --target surah --model sol:max,sol61:max,opus:high,sonnet:high \
+        --trial --parallel 4
+```
+Models: astra (default), sol, sol61 (codex exec); opus, sonnet (claude -p; Python only through
+tools/sandboxed_python, files written only in the call directory; run.log.json records cost_usd and any
+permission_denials).
+
 One call per page, like v16's augment step: the call (prompts/common.md + prompts/zengin.md) does the research,
 the meal review and the composition, and writes the page's records to `work/sNNN/zengin.<page>/annotations.jsonl`.
 Nothing retries automatically.

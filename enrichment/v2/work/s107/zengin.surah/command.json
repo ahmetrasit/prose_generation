@@ -1,0 +1,26 @@
+{
+ "argv": [
+  "codex",
+  "exec",
+  "--ignore-user-config",
+  "-m",
+  "gpt-6-astra",
+  "-c",
+  "model_reasoning_effort=\"max\"",
+  "-c",
+  "web_search=\"disabled\"",
+  "--disable",
+  "skill_search",
+  "--skip-git-repo-check",
+  "--ephemeral",
+  "-s",
+  "workspace-write",
+  "--json",
+  "-o",
+  "/Volumes/aro/projects/prose_generation/enrichment/v2/work/s107/zengin.surah/response.md",
+  "-C",
+  "/Volumes/aro/projects/prose_generation/enrichment/v2/work/s107/zengin.surah",
+  "-"
+ ],
+ "stdin": "prompt.md"
+}
