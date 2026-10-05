@@ -32,6 +32,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 import missing as M  # noqa: E402
 import v16 as V  # noqa: E402
+import agentrun as AR  # noqa: E402
 
 MODEL, EFFORT = "sonnet", "high"  # default model; --model opus for a comparison (user, 2026-10-03)
 # briefs whose additions become paragraphs of their own after ¶n, with no anchor (user, 2026-10-03: augment3's
@@ -716,6 +717,40 @@ def accept(out: Path, d: Path, meta: dict, brief: str, model: str, model_id: str
     return res
 
 
+def complete_call(out: Path, d: Path, meta: dict, brief: str, model: str, obj: dict, res: dict, text: str) -> None:
+    """After the model's work, by CLI call or by a spawned agent: the command audit, the ledger row, the partial
+    handling, the post-processing, the final line and the exit code."""
+    result = (obj.get("result") or "").strip()
+    try:  # the paid call is recorded before any post-processing can fail (finally)
+        if brief in LOOKUP:  # every command must be a text lookup; anything else is reported, never silent
+            import packets as P
+            bad, denied = P.audit(out, [])
+            res["audit"] = "ok" if not bad else f"{len(bad)} outside the rule"
+            res["denied"] = len(denied)
+            for c in bad:
+                print(f"WARNING: ran outside the rule: {c[:200]}")
+            for c in denied:
+                print(f"NOTE: refused (never ran): {c[:200]}")
+    except BaseException as x:
+        res["post_error"] = repr(x)[:500]
+        print(f"WARNING: the command audit failed after the paid call: {x!r}")
+        raise
+    finally:
+        V.log(res)
+    if result and res["status"] != "ok":  # never silent: the text is kept beside run.log.json, never applied
+        (out / "augment.raw.partial.md").write_text(result + "\n", encoding="utf-8")
+        print(f"WARNING: status {res['status']}: nothing applied; the output is in augment.raw.partial.md")
+    if result and res["status"] == "ok":
+        postprocess(out, d, meta, brief, model, result, res)
+    if model in CODEX:
+        print(f"tokens: in {res.get('input_tokens')} (cached {res.get('cached_input_tokens')}), out "
+              f"{res.get('output_tokens')} (reasoning {res.get('reasoning_tokens')}), commands {res.get('tool_calls')}")
+    print(f"{out.relative_to(V.HERE)}: {res['status']} ${res.get('cost_usd')} "
+          f"{res.get('applied')}/{res.get('insertions')} applied {res['seconds']}s")
+    if res["status"] != "ok":
+        raise SystemExit(1)
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("run", type=Path)
@@ -723,6 +758,9 @@ def main() -> None:
     ap.add_argument("--model", choices=("sonnet", "opus", "fable", *CODEX), default="opus")
     ap.add_argument("--surah-commentary", action="store_true", help="allow a surah commentary (not production)")
     ap.add_argument("--go", action="store_true")
+    ap.add_argument("--spawn", action="store_true",
+                    help="prepare the run for an agent the orchestrator spawns (prompt.md, started.json, spawn.md); no call")
+    ap.add_argument("--finish", action="store_true", help="finish an agent-spawned run from its response.md and transcript")
     ap.add_argument("--accept", metavar="REASON",
                     help="no call: apply the dir's augment.raw.partial.md after the user judged it complete; the reason is recorded")
     a = ap.parse_args()
@@ -745,12 +783,25 @@ def main() -> None:
         raise SystemExit(f"prompt ~{n_in:,} tokens is over {MAX_IN:,}: split the passages before augmenting")
     ref = "S" + str(int(d.parent.name[1:])) if meta["kind"] == "images" else meta["ayat"][0]
     row = {"ref": ref, "arm": "augment", "brief": f"{out.name.removeprefix('augment.')}.{d.name}"}
+    if a.finish:
+        st = json.loads((out / "started.json").read_text(encoding="utf-8")) if (out / "started.json").exists() else {}
+        if st.get("runner") != "agent":
+            raise SystemExit(f"{out}: not an agent-spawned run (no started.json with runner=agent)")
+        if (out / "run.log.json").exists():
+            raise SystemExit(f"{out}: already finished (run.log.json exists); never twice")
+        obj = AR.finish(out, st.get("output", "response.md"))
+        t0 = time.mktime(time.strptime(st["started"], "%Y-%m-%dT%H:%M:%S"))
+        res = {**row, "model": obj.get("model") or model_id, "effort": EFFORT, "seconds": round(time.time() - t0),
+               "estimate_usd": st.get("estimate_usd", round(est, 2)), "runner": "agent",
+               "cost_basis": obj.get("cost_basis"), **V.usage_row(obj, text)}
+        complete_call(out, d, meta, a.brief, model, obj, res, text)
+        return
     if a.accept:
         res = accept(out, d, meta, a.brief, model, model_id, row, a.accept)
         print(f"{out.relative_to(V.HERE)}: accepted {res.get('applied')}/{res.get('insertions')} applied; "
               f"the call's ${res.get('call_cost_usd')} was recorded when it ran")
         return
-    if not a.go:
+    if not (a.go or a.spawn):
         return
     if meta["kind"] == "images" and not a.surah_commentary:  # user, 2026-10-04: augment runs on ayah readings only
         raise SystemExit(f"{d}: a surah commentary; production augment runs on ayah readings only "
@@ -764,6 +815,12 @@ def main() -> None:
     (out / "prompt.md").write_text(text, encoding="utf-8")
     (out / "packet.json").write_text(json.dumps({**{k: v for k, v in meta.items() if k != "listed"}, "brief": a.brief, "model": model_id},
                                                 ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    if a.spawn:
+        if model in CODEX:
+            raise SystemExit("--spawn is for Claude agents; Codex models run through --go")
+        AR.prepare(out, text, {**row, "model": model_id, "effort": EFFORT, "estimate_usd": round(est, 2)}, "augment",
+                   "response.md", lookup=a.brief in LOOKUP)
+        return
     t0 = time.time()
     if model in CODEX:
         obj = call_codex(text, out, model_id, EFFORT)
@@ -782,35 +839,7 @@ def main() -> None:
             obj = V.call_opus(text, out, model, allow=None, effort=EFFORT)
         res = {**row, "model": model_id, "effort": EFFORT, "seconds": round(time.time() - t0),
                "estimate_usd": round(est, 2), **V.usage_row(obj, text)}
-    result = (obj.get("result") or "").strip()
-    try:  # the paid call is recorded before any post-processing can fail (finally)
-        if a.brief in LOOKUP:  # every command must be a text lookup; anything else is reported, never silent
-            import packets as P
-            bad, denied = P.audit(out, [])
-            res["audit"] = "ok" if not bad else f"{len(bad)} outside the rule"
-            res["denied"] = len(denied)
-            for c in bad:
-                print(f"WARNING: ran outside the rule: {c[:200]}")
-            for c in denied:
-                print(f"NOTE: refused (never ran): {c[:200]}")
-    except BaseException as x:
-        res["post_error"] = repr(x)[:500]
-        print(f"WARNING: the command audit failed after the paid call: {x!r}")
-        raise
-    finally:
-        V.log(res)
-    if result and res["status"] != "ok":  # never silent: the text is kept beside run.log.json, never applied
-        (out / "augment.raw.partial.md").write_text(result + "\n", encoding="utf-8")
-        print(f"WARNING: status {res['status']}: nothing applied; the output is in augment.raw.partial.md")
-    if result and res["status"] == "ok":
-        postprocess(out, d, meta, a.brief, model, result, res)
-    if model in CODEX:
-        print(f"tokens: in {res.get('input_tokens')} (cached {res.get('cached_input_tokens')}), out "
-              f"{res.get('output_tokens')} (reasoning {res.get('reasoning_tokens')}), commands {res.get('tool_calls')}")
-    print(f"{out.relative_to(V.HERE)}: {res['status']} ${res.get('cost_usd')} "
-          f"{res.get('applied')}/{res.get('insertions')} applied {res['seconds']}s")
-    if res["status"] != "ok":
-        raise SystemExit(1)
+    complete_call(out, d, meta, a.brief, model, obj, res, text)
 
 
 if __name__ == "__main__":

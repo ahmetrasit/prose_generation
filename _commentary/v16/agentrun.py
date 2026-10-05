@@ -1,0 +1,182 @@
+#!/usr/bin/env python3
+"""Agent-spawned runs (user, 2026-10-04 evening): no run is handled through scripts. The orchestrating Claude session
+spawns each model call as a subagent (Agent tool) from a prompt the scripts built, and the scripts finish what the
+agent wrote. This module is the shared piece: the spawn prompt, the transcript lookup, the cost from the transcript's
+token counts, and the run record in the shape v16.call_opus produced, so usage_row/post_process/the ledger see no
+difference.
+
+  prepare(d, text, started, kind, output, lookup)   writes prompt.md, started.json (the never-rerun guard), spawn.md
+  finish(d, output)                                 reads <d>/<output>, finds the subagent transcript, writes
+                                                    run.log.json and tool_calls.json, returns the run object
+
+The spawn prompt's first line is `v16-agent-run: <dir>`. The hook guard (hooks/guard.py) reads it from the
+subagent's transcript to enforce the run's rules (lookup only, write only the output file), and finish() finds
+the transcript by it under ~/.claude/projects/*/*/subagents/. The Agent tool itself reports no tokens or cost;
+the transcript carries per-message usage, and the cost is computed from it at the CLI's rates (RATES).
+"""
+from __future__ import annotations
+
+import hashlib
+import json
+import time
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parents[1]
+PROJECTS = Path.home() / ".claude" / "projects"
+MARK = "v16-agent-run:"
+MISSING = HERE / "missing.py"
+# $/MTok. Opus: input and output at list; the 1h cache write and the cache read fitted from 122 CLI runs
+# (residual under $0.71 per run); the 5m write assumed at 1.25x input. Fable: exact on the two 87:8 runs.
+# Sonnet: assumed at the Opus ratios. The figure is the CLI's nominal dollar, as in the ledger, never cash.
+RATES = {"claude-opus-5-5": {"input": 8.0, "cache_5m": 10.0, "cache_1h": 8.15, "cache_read": 0.17, "output": 20.0},
+         "claude-fable-5-1": {"input": 10.0, "cache_5m": 12.5, "cache_1h": 20.0, "cache_read": 0.25, "output": 50.0},
+         "claude-sonnet-5-5": {"input": 4.0, "cache_5m": 5.0, "cache_1h": 4.1, "cache_read": 0.085, "output": 10.0}}
+AGENT_TYPE = {"writer": "v16-call", "augment": "v16-call", "enrich": "enrich-page"}
+
+
+def spawn_prompt(d: Path, kind: str, output: str, lookup: bool) -> str:
+    """The text the orchestrator gives the Agent tool, verbatim."""
+    lines = [f"{MARK} {d}", ""]
+    if kind == "enrich":
+        lines += [f"Read {d / 'prompt.md'} with the Read tool: it is your whole job. Follow it exactly. Your call "
+                  f"directory is {d}; write only there, and write the page's records to {d / output} as the job says.",
+                  "When the file is complete, reply with one line: written. Do not put the records in your reply."]
+    else:
+        lines += [f"Read {d / 'prompt.md'} with the Read tool: it is your whole brief and your material. Follow it "
+                  "exactly, and produce only the output the brief asks for."]
+        if lookup:
+            lines += [f"The only command you may run is the lookup the brief describes (`python3 {MISSING} …`), "
+                      "exactly as written, as the whole command: no cd, no && and no ;. Every other command is "
+                      "refused and the run is then treated as contaminated."]
+        else:
+            lines += ["Run no commands; the brief needs none, and any command is refused."]
+        lines += [f"Write your complete answer, and nothing else, to {d / output} with the Write tool, in one write "
+                  "when the answer is finished. Do not put the answer in your reply: when the file is saved, reply "
+                  "with one line: written.",
+                  "Read, write and run nothing else."]
+    return "\n".join(lines) + "\n"
+
+
+def prepare(d: Path, text: str, started: dict, kind: str, output: str = "response.md", lookup: bool = True) -> Path:
+    d.mkdir(parents=True, exist_ok=True)
+    (d / "prompt.md").write_text(text, encoding="utf-8")
+    (d / "started.json").write_text(json.dumps({**started, "started": time.strftime("%Y-%m-%dT%H:%M:%S"),
+                                                "prompt_sha256": hashlib.sha256(text.encode()).hexdigest(),
+                                                "runner": "agent", "output": output}, ensure_ascii=False) + "\n",
+                                    encoding="utf-8")
+    sp = d / "spawn.md"
+    sp.write_text(spawn_prompt(d, kind, output, lookup), encoding="utf-8")
+    print(f"prepared {d.relative_to(ROOT)}: spawn one agent of type {AGENT_TYPE[kind]} (Opus 5.5, effort high) with "
+          f"the text of {sp.relative_to(ROOT)}; when it replies, run the finish step for this dir")
+    return sp
+
+
+def transcripts(d: Path) -> list[Path]:
+    """Every subagent transcript whose first message is this run's spawn prompt, oldest first."""
+    key = f"{MARK} {d}"
+    hits = []
+    for f in PROJECTS.glob("*/*/subagents/agent-*.jsonl"):
+        try:
+            with f.open(encoding="utf-8") as fh:
+                head = fh.read(20_000)
+        except OSError:
+            continue
+        if key in head:
+            hits.append(f)
+    return sorted(hits, key=lambda p: p.stat().st_mtime)
+
+
+def parse(f: Path) -> dict:
+    """Usage summed over the distinct assistant messages (the transcript repeats a message's usage on every one of its
+    content lines), the tool calls with their results, the last stop reason, the model, the text blocks."""
+    seen, usage = set(), {"input": 0, "cache_5m": 0, "cache_1h": 0, "cache_read": 0, "output": 0}
+    calls, ids, texts, safety, stop, model, agent_id, bad = [], [], [], [], None, None, None, 0
+    for line in f.read_text(encoding="utf-8").splitlines():
+        try:
+            ev = json.loads(line)
+        except json.JSONDecodeError:
+            bad += line.strip() != ""
+            continue
+        agent_id = agent_id or ev.get("agentId")
+        if "safeguards stopped" in line:
+            safety.append(line[:300])
+        msg = ev.get("message") if isinstance(ev.get("message"), dict) else None
+        if ev.get("type") == "assistant" and msg:
+            mid = msg.get("id")
+            if mid and mid not in seen:
+                seen.add(mid)
+                ids.append(mid)
+                u = msg.get("usage") or {}
+                cc = u.get("cache_creation") or {}
+                usage["input"] += u.get("input_tokens", 0) or 0
+                usage["cache_5m"] += cc.get("ephemeral_5m_input_tokens", 0) or 0
+                usage["cache_1h"] += cc.get("ephemeral_1h_input_tokens", 0) or 0
+                usage["cache_read"] += u.get("cache_read_input_tokens", 0) or 0
+                usage["output"] += u.get("output_tokens", 0) or 0
+                model = msg.get("model") or model
+            stop = msg.get("stop_reason") or stop
+            for c in msg.get("content", []) or []:
+                if not isinstance(c, dict):
+                    continue
+                if c.get("type") == "tool_use":
+                    calls.append({"id": c.get("id"), "name": c.get("name"), "input": c.get("input")})
+                elif c.get("type") == "text" and c.get("text"):
+                    texts.append(c["text"])
+        elif ev.get("type") == "user" and msg:
+            content = msg.get("content")
+            for c in content if isinstance(content, list) else []:
+                if isinstance(c, dict) and c.get("type") == "tool_result" and calls:
+                    res = c.get("content")
+                    if isinstance(res, list):
+                        res = "".join(b.get("text", "") for b in res if isinstance(b, dict))
+                    call = next((x for x in calls if x.get("id") == c.get("tool_use_id")), calls[-1])
+                    call["result"], call["is_error"] = res, bool(c.get("is_error", False))
+    rates = RATES.get(model or "")
+    cost = round(sum(usage[k] * rates[k] for k in usage) / 1e6, 6) if rates else None
+    return {"transcript": str(f), "agent_id": agent_id, "model": model, "usage_tokens": usage, "cost_usd": cost,
+            "stop_reason": stop, "num_messages": len(ids), "message_ids": ids, "tool_calls": calls, "texts": texts,
+            "safety": safety, "unreadable_lines": bad}
+
+
+def finish(d: Path, output: str = "response.md") -> dict:
+    """The run object for an agent-written output, in v16.call_opus's shape, written to run.log.json."""
+    out_file = d / output
+    result = out_file.read_text(encoding="utf-8") if out_file.exists() else ""
+    obj: dict = {"result": result, "returncode": 0, "runner": "agent", "output_file": output, "tool_calls": 0,
+                 "text_message_ids": []}
+    ts = transcripts(d)
+    if not ts:
+        obj["transcript"] = None
+        print(f"WARNING: no subagent transcript names {d.relative_to(ROOT)}: cost, commands and stop reason not "
+              "recovered (the ledger row says cost None); the output itself is unaffected")
+    else:
+        if len(ts) > 1:
+            print(f"WARNING: {len(ts)} subagent transcripts name this run ({', '.join(p.name for p in ts)}): the "
+                  "newest is used; a run spawned twice is never clean, tell the user")
+            obj["transcripts_all"] = [str(p) for p in ts]
+        p = parse(ts[-1])
+        u = p["usage_tokens"]
+        obj.update({"transcript": p["transcript"], "agent_id": p["agent_id"], "model": p["model"],
+                    "usage": {"input_tokens": u["input"], "cache_creation_input_tokens": u["cache_5m"] + u["cache_1h"],
+                              "cache_creation": {"ephemeral_5m_input_tokens": u["cache_5m"],
+                                                 "ephemeral_1h_input_tokens": u["cache_1h"]},
+                              "cache_read_input_tokens": u["cache_read"], "output_tokens": u["output"]},
+                    "total_cost_usd": p["cost_usd"], "cost_basis": "transcript tokens x agentrun.RATES",
+                    "stop_reason": p["stop_reason"], "num_turns": p["num_messages"],
+                    "text_message_ids": p["message_ids"], "tool_calls": len(p["tool_calls"]),
+                    "reply": "".join(p["texts"])[-500:]})
+        if p["cost_usd"] is None:
+            print(f"WARNING: no rate for model {p['model']!r} in agentrun.RATES: cost None")
+        if p["safety"]:
+            obj["safety_stop"] = p["safety"]
+        if p["unreadable_lines"]:
+            obj["stream_unreadable_lines"] = p["unreadable_lines"]
+        if p["tool_calls"]:
+            (d / "tool_calls.json").write_text(json.dumps(p["tool_calls"], ensure_ascii=False, indent=1) + "\n",
+                                               encoding="utf-8")
+    if not result.strip():
+        obj["is_error"] = True
+        obj["error"] = f"the agent wrote no {output}"
+    (d / "run.log.json").write_text(json.dumps(obj, ensure_ascii=False) + "\n", encoding="utf-8")
+    return obj

@@ -28,6 +28,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 import v16 as V  # noqa: E402
+import agentrun as AR  # noqa: E402
 
 HEAD = re.compile(r"(?m)^===== (.+?) =====\n")
 MISSING = V.HERE / "missing.py"
@@ -494,7 +495,9 @@ def post_process(obj: dict, d: Path, kind: str, row: dict, out: dict, tool: bool
 
 
 def call(text: str, d: Path, kind: str, row: dict, ledger: bool, tool: bool = False, model: str = "opus",
-         effort: str = "high", check: str | None = None) -> None:
+         effort: str = "high", check: str | None = None, spawn: bool = False) -> None:
+    """--go: the call through the CLI (the old way). --spawn: prepare the run for an agent the orchestrator spawns
+    (user, 2026-10-04 evening); `packets.py finish --run <dir>` completes it the same way afterwards."""
     est = estimate(text, kind, (row["ref"] if tool else None), model, check)
     targets = check_targets(row["ref"], check or kind) if tool else None
     if V.blocked(d):
@@ -502,6 +505,11 @@ def call(text: str, d: Path, kind: str, row: dict, ledger: bool, tool: bool = Fa
     if est >= V.GATE_USD:
         V.log({**row, "status": "gated", "estimate_usd": round(est, 2)})
         raise SystemExit(f"gated at ${est:.2f}")
+    if spawn:
+        AR.prepare(d, text, {**row, "model": V.MODELS[model][0], "effort": effort, "estimate_usd": round(est, 2),
+                             "kind": kind, "tool": tool, "check_kind": check or kind}, "writer", "response.md",
+                   lookup=tool)
+        return
     d.mkdir(parents=True, exist_ok=True)
     (d / "prompt.md").write_text(text, encoding="utf-8")
     t0 = time.time()
@@ -509,6 +517,30 @@ def call(text: str, d: Path, kind: str, row: dict, ledger: bool, tool: bool = Fa
     out = {**row, "model": V.MODELS[model][0], "effort": effort, "seconds": round(time.time() - t0),
            "estimate_usd": round(est, 2),
            **V.usage_row(obj, text)}
+    complete(obj, d, kind, row, out, tool, targets)
+
+
+def finish_agent(d: Path) -> None:
+    """Finish an agent-spawned run: started.json (from --spawn) holds the row, the kind and the estimate; the agent's
+    response.md and its transcript give the output, the cost and the commands; then everything as after a call."""
+    st = json.loads((d / "started.json").read_text(encoding="utf-8"))
+    if st.get("runner") != "agent":
+        raise SystemExit(f"{d}: not an agent-spawned run (started.json has no runner=agent)")
+    if (d / "run.log.json").exists():
+        raise SystemExit(f"{d}: already finished (run.log.json exists); never twice")
+    kind, tool = st["kind"], st["tool"]
+    row = {k: st[k] for k in ("ref", "arm", "brief")}
+    text = (d / "prompt.md").read_text(encoding="utf-8")
+    targets = check_targets(row["ref"], st.get("check_kind") or kind) if tool else None
+    obj = AR.finish(d, st.get("output", "response.md"))
+    t0 = time.mktime(time.strptime(st["started"], "%Y-%m-%dT%H:%M:%S"))
+    out = {**row, "model": obj.get("model") or st["model"], "effort": st["effort"], "seconds": round(time.time() - t0),
+           "estimate_usd": st.get("estimate_usd"), "runner": "agent", "cost_basis": obj.get("cost_basis"),
+           **V.usage_row(obj, text)}
+    complete(obj, d, kind, row, out, tool, targets)
+
+
+def complete(obj: dict, d: Path, kind: str, row: dict, out: dict, tool: bool, targets: list[str] | None) -> None:
     try:  # the paid row is logged even if anything below fails (finally)
         post_process(obj, d, kind, row, out, tool, targets)
     except BaseException as x:
@@ -528,7 +560,7 @@ def call(text: str, d: Path, kind: str, row: dict, ledger: bool, tool: bool = Fa
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=("map", "writer", "images", "slices"))
+    ap.add_argument("cmd", choices=("map", "writer", "images", "slices", "finish"))
     ap.add_argument("--brief")
     ap.add_argument("--ayah")
     ap.add_argument("--map", type=Path)
@@ -542,8 +574,16 @@ def main() -> None:
     ap.add_argument("--effort", choices=("low", "medium", "high", "xhigh", "max"), default="high", help="writer only")
     ap.add_argument("--images", type=Path, help="writer: an images.md (from `images`) in place of the map")
     ap.add_argument("--surah", type=int, help="map and images: the surah (required)")
-    ap.add_argument("--go", action="store_true")
+    ap.add_argument("--go", action="store_true", help="run the call through the CLI (the old way)")
+    ap.add_argument("--spawn", action="store_true",
+                    help="prepare the run for an agent the orchestrator spawns (prompt.md, started.json, spawn.md)")
+    ap.add_argument("--run", type=Path, help="finish: the run dir of an agent-spawned call (out/…)")
     a = ap.parse_args()
+    if a.cmd == "finish":
+        if not a.run:
+            ap.error("finish needs --run <dir>")
+        finish_agent((V.HERE / a.run) if not a.run.is_absolute() else a.run)
+        return
     if a.cmd == "slices":  # before a surah's readings: every ayah's slice, and the ayat a writer build would refuse
         if not a.images or a.surah is None:
             ap.error("slices needs --images and --surah")
@@ -568,8 +608,9 @@ def main() -> None:
         print(f"{d.relative_to(V.HERE)}: {len(text):,} chars; "
               f"est ${estimate(text, 'images', f'S{a.surah}' if a.tool else None):.2f} (80k out)")
         V.blocked_note(d)
-        if a.go:
-            call(text, d, "images", {"ref": f"S{a.surah}", "arm": "images", "brief": d.name}, True, a.tool)
+        if a.go or a.spawn:
+            call(text, d, "images", {"ref": f"S{a.surah}", "arm": "images", "brief": d.name}, True, a.tool,
+                 spawn=a.spawn)
         return
     if a.cmd == "map" and (a.model != "opus" or a.effort != "high"):
         ap.error("--model and --effort are for writer only")
@@ -586,9 +627,9 @@ def main() -> None:
         print(f"{d.relative_to(V.HERE)}: {len(text):,} chars ~{n_in:,} tokens; est ${V.estimate(text, 'surah') + extra:.2f} "
               f"(80k out), ${realistic + extra:.2f} at {n_out // 1000}k out")
         V.blocked_note(d)
-        if a.go:
+        if a.go or a.spawn:
             call(text, d, "surah", {"ref": f"S{a.surah}", "arm": "surah", "brief": d.name.replace("surah.", "")}, False,
-                 a.tool)
+                 a.tool, spawn=a.spawn)
         return
     if a.no_channels or a.hft_bundle:
         ap.error("--no-channels and --hft-bundle are for map only")
@@ -603,9 +644,9 @@ def main() -> None:
     est = estimate(text, 'ayah', a.ayah if a.tool else None, a.model, ck)
     print(f"{d.relative_to(V.HERE)}: {len(text):,} chars; est ${est:.2f} ({V.MODELS[a.model][0]}, effort {a.effort})")
     V.blocked_note(d)
-    if a.go:
+    if a.go or a.spawn:
         call(text, d, "ayah", {"ref": a.ayah, "arm": "DM", "brief": f"{a.brief}.{tag}"}, True, a.tool, a.model,
-             a.effort, ck)
+             a.effort, ck, spawn=a.spawn)
 
 
 if __name__ == "__main__":

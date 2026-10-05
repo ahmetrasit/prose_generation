@@ -69,6 +69,8 @@ BRIEF = "zengin"
 SESSIONS = Path.home() / ".codex" / "sessions"
 
 sys.path.insert(0, str(V2))
+sys.path.insert(0, str(PG / "_commentary" / "v16"))
+import agentrun as AR  # noqa: E402  (agent-spawned runs, user 2026-10-04 evening)
 import render as R  # noqa: E402
 import validate as VAL  # noqa: E402
 
@@ -469,6 +471,65 @@ def run_target(s: int, target: str, model: str, effort: str, attempt: int = 1, t
     return row
 
 
+def spawn_target(s: int, target: str, model: str, effort: str, attempt: int = 1, trial: bool = False) -> dict:
+    """Prepare one page call for an agent the orchestrator spawns (user, 2026-10-04 evening): prompt.md, started.json
+    (the never-rerun guard, with the base and pack hashes), spawn.md with the Agent tool's text. No model call."""
+    runner, model_id = MODELS[model]
+    if runner != "claude":
+        return {"surah": s, "target": target, "model": model, "status": "error",
+                "reason": "spawn is for Claude agents; Codex models run through `run`"}
+    d = call_dir(s, target, attempt, model, effort)
+    if blocked(d):
+        return {"surah": s, "target": target, "model": model, "status": "skipped",
+                "reason": "started or finished before (never rerun)"}
+    if accepted(s, target) and not trial:
+        return {"surah": s, "target": target, "model": model, "status": "skipped", "reason": "page already accepted"}
+    try:
+        prompt = build_prompt(s, target, d, runner)
+        _, base_text, info = R.target_page(s, target)
+        pack_bytes = (wd(s) / "pack" / "pack.json").read_bytes()
+    except (Exception, SystemExit) as e:
+        return {"surah": s, "target": target, "model": model, "status": "error", "reason": f"prompt: {e}"}
+    row = {"surah": s, "target": target, "attempt": attempt, "brief": BRIEF, "model": model, "model_id": model_id,
+           "runner": "agent", "effort": effort, "trial": trial, "prompt_sha256": sha(prompt), "prompt_chars": len(prompt),
+           "base_sha256": info["sha256"], "base_words": len(base_text.split()),
+           "pack_sha256": hashlib.sha256(pack_bytes).hexdigest(), "dictionary": json.loads(pack_bytes).get("dictionary")}
+    AR.prepare(d, prompt, row, "enrich", "annotations.jsonl", lookup=False)
+    return {"surah": s, "target": target, "model": model, "status": "prepared", "dir": rel(d),
+            "spawn": rel(d / "spawn.md"), "agent": AR.AGENT_TYPE["enrich"]}
+
+
+def finish_target(s: int, target: str, d: Path, trial: bool = False) -> dict:
+    """Finish an agent-spawned page call: the agent's annotations.jsonl and its transcript (cost, commands, stop
+    reason), then finish() exactly as after a CLI call; run.log.json and the ledger row as before."""
+    st_path = d / "started.json"
+    if not st_path.exists() or json.loads(st_path.read_text(encoding="utf-8")).get("runner") != "agent":
+        return {"surah": s, "target": target, "status": "error", "reason": f"{rel(d)}: not an agent-spawned call"}
+    if (d / "run.log.json").exists():
+        return {"surah": s, "target": target, "status": "error", "reason": f"{rel(d)}: already finished; never twice"}
+    row = json.loads(st_path.read_text(encoding="utf-8"))
+    t0 = time.mktime(time.strptime(row["started"], "%Y-%m-%dT%H:%M:%S"))
+    obj = AR.finish(d, "annotations.jsonl")
+    row.update({"returncode": 0, "turn_completed": not obj.get("is_error") and obj.get("stop_reason") in (None, "end_turn"),
+                "usage": obj.get("usage") or {}, "cost_usd": obj.get("total_cost_usd"), "cost_basis": obj.get("cost_basis"),
+                "num_turns": obj.get("num_turns"), "commands": obj.get("tool_calls", 0), "transcript": obj.get("transcript"),
+                "agent_id": obj.get("agent_id"), "stop_reason": obj.get("stop_reason"), "safety_stop": obj.get("safety_stop")})
+    try:
+        if row["turn_completed"]:
+            res = finish(s, target, d, trial, row)
+        else:
+            res = {"check": f"call did not complete ({obj.get('error') or 'stop_reason ' + str(obj.get('stop_reason'))})",
+                   "ok": False}
+        row["status"] = "ok" if res.pop("ok") else "error"
+        row.update(res)
+    except (Exception, SystemExit) as e:
+        row.update(status="error", error=f"{type(e).__name__}: {e}")
+    row["seconds"] = round(time.time() - t0)
+    (d / "run.log.json").write_text(json.dumps(row, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    log(row)
+    return row
+
+
 def ensure_pack(s: int) -> bool:
     if (wd(s) / "pack" / "pack.json").exists():
         return True
@@ -580,7 +641,7 @@ def model_specs(arg: str, default_effort: str) -> list[tuple[str, str]]:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("cmd", choices=("status", "build", "run", "accept", "confirm-dead"))
+    ap.add_argument("cmd", choices=("status", "build", "spawn", "finish", "run", "accept", "confirm-dead"))
     ap.add_argument("--surah", type=int)
     ap.add_argument("--surahs")
     ap.add_argument("--target", help="surah | S:A | ayat | all (required for build, run and accept)")
@@ -659,6 +720,23 @@ def main() -> None:
             sys.exit(1)
         return
     failed = pack_failed
+    if a.cmd in ("spawn", "finish"):  # agent-spawned runs: no model call here (user, 2026-10-04 evening)
+        for s, t, m, e in jobs:
+            r = (spawn_target(s, t, m, e, a.attempt, a.trial) if a.cmd == "spawn" else
+                 finish_target(s, t, call_dir(s, t, a.attempt, m, e), a.trial))
+            print(json.dumps({k: r.get(k) for k in ("surah", "target", "model", "status", "dir", "spawn", "agent", "check",
+                                                     "kept", "dropped", "warnings", "errata", "seconds", "cost_usd",
+                                                     "reason", "error", "commands", "stop_reason")
+                              if r.get(k) not in (None, 0, False) or k in ("status",)}, ensure_ascii=False), flush=True)
+            if r.get("status") not in ("ok", "prepared", "skipped"):
+                failed += 1
+                print(f"WARNING: S{s} {t} {m}: {r.get('status')} — {r.get('check') or r.get('reason') or r.get('error')}",
+                      flush=True)
+            elif r.get("status") == "skipped":
+                print(f"NOTE: S{s} {t} {m}: skipped — {r.get('reason')}", flush=True)
+        if failed:
+            sys.exit(1)
+        return
     with cf.ThreadPoolExecutor(a.parallel) as ex:
         for r in ex.map(lambda j: run_target(j[0], j[1], j[2], j[3], a.attempt, a.trial), jobs):
             print(json.dumps({k: r.get(k) for k in ("surah", "target", "model", "status", "check", "kept", "dropped",
