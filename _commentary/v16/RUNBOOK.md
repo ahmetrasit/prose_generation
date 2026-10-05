@@ -32,6 +32,7 @@ that led here is `REVIEW_production.md`. This file holds only what is needed to 
    own step (2b below), not started without the user's confirmation.
 6. **Seven agents at a time** (user, 2026-10-04): spawn at most seven runs in one message, finish them, report,
    commit, then the next seven.
+   - S1 revision4 exception (user, 2026-10-05): all remaining discovery agents may run concurrently; the seven-agent batch limit is waived. Reporting groups remain for checkpoints, not launch barriers.
 7. **Actual costs are always recorded.** The finish step computes each run's cost from the agent's transcript
    (tokens × the CLI's rates, `agentrun.RATES`) and the ledger keeps it beside the estimate; report both.
 8. **Commit and push after every completed step and every batch of seven:** `out/` yes, `work/` never.

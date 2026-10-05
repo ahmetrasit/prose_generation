@@ -1,5 +1,9 @@
 # Enrichment cost: findings and fix plan (2026-10-04 night)
 
+The [source efficiency audit (2026-10-05)](REVIEW_source_efficiency_2026-10-05.md) adds the corpus-format review,
+rankings for all ayat and surahs, retrieval reproductions, and a prioritized plan covering both workflow and data
+fixes. Its measurements describe available source text; the run costs below describe actual historical calls.
+
 Targets (user): under $10 per ayah page on average for the Fātiḥa now; **under $5 per ayah page on average** for the
 production-grade workflow. Opus 5.5 high writes the pages (chosen for quality after the S107/S100 trials). Never
 Haiku. Dollars are the CLI's nominal figure at published rates (the account is a Max subscription; nominal $ tracks

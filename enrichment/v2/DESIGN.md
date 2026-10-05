@@ -87,6 +87,13 @@ counter-evidence, with `gerekce`), `tercih` (a source's preference), `tasnif` (e
 `taban`/`hata`, `sozluk`. Source IDs are corpus locators resolved by the validator; the registry is generated.
 
 ## Resource review
+
+The [source efficiency audit (2026-10-05)](REVIEW_source_efficiency_2026-10-05.md) inventories the current corpus,
+measures source inflation across all ayat, and proposes both retrieval/workflow changes and source-mapping,
+segmentation and extraction fixes. Its evidence snapshot and reproduction script are versioned with the report.
+The proposed architecture retains full sources and uses compact indexes to retrieve exact evidence; summary-only
+enrichment is not treated as adequate for near-zero information loss. These are recommendations awaiting implementation.
+
 `REVIEW_resources_fable.md` (Fable 5.1, 2026-10-03): the plan was deep in redundant later tafsir and thin where the
 project's method has its roots. Adopted: maʿānī/gharīb works, wujūh wa-naẓāʾir books and al-Furūq as the first
 place to look for antecedents; Itqān/Burhān for chronology; ḥujja and shādhdh qirāʾāt works; Bint al-Shāṭiʾ

@@ -1,0 +1,109 @@
+{
+  "cap_example": {
+    "locator": "ELMALILI:1:1",
+    "configured_total_cap": 100,
+    "configured_per_field_chars": 100,
+    "text_and_extra_counted_by_tool": 200,
+    "rendered_chars": 353,
+    "arabic_reliable_flag_in_output": false,
+    "output": "== ELMALILI:1:1  [Fâtiha 1 — Besmele]  page=v1p133  [characters 1–100 of 6,294]\nBESMELE\nMesâhif-i şerîfede iki türlü besmele vardır: Birisi sûre başlarında yazılan müstakil besmele … [cut: `corpus.py get ELMALILI:1:1 --from 100` for the rest]\n  notes: [^1] “…Süleyman’dan ve o Rahmân-Rahim Allah’ın ismiyle.” [^2] F -“re’sen”. [^3] B: “Kur’an’dan”. [^4\n"
+  },
+  "get_family_example": {
+    "locator": "ELMALILI:105:1-5",
+    "exact_body_chars": 4571,
+    "all_family_body_chars": 85959,
+    "segments": 16
+  },
+  "prefix_snippets": {
+    "query": "رحمان",
+    "results": [
+      {
+        "seg": "MUHIT:جرابيات",
+        "chars": 178,
+        "hit_in_first_300": true,
+        "normalized_match_offset": 75
+      },
+      {
+        "seg": "RAZI-FULL:v1p191",
+        "chars": 874,
+        "hit_in_first_300": false,
+        "normalized_match_offset": 504
+      },
+      {
+        "seg": "BURSEVI:v4p259",
+        "chars": 615,
+        "hit_in_first_300": true,
+        "normalized_match_offset": 210
+      },
+      {
+        "seg": "WAHIDI-WAJIZ:17:109-110",
+        "chars": 630,
+        "hit_in_first_300": true,
+        "normalized_match_offset": 161
+      },
+      {
+        "seg": "IBNASHUR-FULL:v1p173",
+        "chars": 1102,
+        "hit_in_first_300": true,
+        "normalized_match_offset": 121
+      },
+      {
+        "seg": "TABATABAI:3:35-41#3",
+        "chars": 1364,
+        "hit_in_first_300": false,
+        "normalized_match_offset": 490
+      },
+      {
+        "seg": "KUBBEALTI:rahman",
+        "chars": 451,
+        "hit_in_first_300": true,
+        "normalized_match_offset": 8
+      },
+      {
+        "seg": "KASHSHAF-FULL:v1p50",
+        "chars": 860,
+        "hit_in_first_300": true,
+        "normalized_match_offset": 24
+      },
+      {
+        "seg": "RAZI-FULL:v28p153#2",
+        "chars": 2635,
+        "hit_in_first_300": false,
+        "normalized_match_offset": 348
+      },
+      {
+        "seg": "BAYDAWI-FULL:7:180",
+        "chars": 618,
+        "hit_in_first_300": false,
+        "normalized_match_offset": 338
+      }
+    ]
+  },
+  "sql_checks": [
+    {
+      "ref": "1:1",
+      "segments": 434,
+      "text_chars": 1094387
+    },
+    {
+      "ref": "1:7",
+      "segments": 357,
+      "text_chars": 671564
+    },
+    {
+      "ref": "2:196",
+      "segments": 437,
+      "text_chars": 649052
+    },
+    {
+      "ref": "112:1",
+      "segments": 235,
+      "text_chars": 423050
+    },
+    {
+      "ref": "105:1",
+      "segments": 198,
+      "text_chars": 338146
+    }
+  ]
+}

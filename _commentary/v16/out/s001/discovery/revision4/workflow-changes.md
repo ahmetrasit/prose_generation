@@ -9,3 +9,7 @@ Snapshot now rejects invalid or duplicate initial rows. Finish rejects malformed
 Runbook now distinguishes structural/provenance failure from reported accuracy findings, recognizes existing rerun authorization, and documents fresh-attempt selection and deterministic proposal consolidation.
 
 Seven regression checks pass, including duplicate follow-up proposals, preservation of original rows/grades/raw proposals, missing/malformed output and empty follow-ups. Accuracy and relevance still require review; repeated-reference handling does not validate meaning. No Opus run is authorized.
+
+User update: all remaining S1 discovery agents may run in parallel. The runbook records this explicit exception; batch numbers now identify reporting groups only. All 22 revision4 agents have been launched.
+
+A simulated native two-turn finish also passed: a repeated proposal was preserved in audit evidence while one new reference was appended, plaintext follow-up delivery matched, one ledger row was written, and a second finish was refused.
