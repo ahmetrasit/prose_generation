@@ -1,6 +1,7 @@
 # S87 Bible preparation — 2026-10-05
 
-Prepared, with no model sessions launched.
+Prepared; the user subsequently authorized launch on the original-image basis.
+No model sessions had launched at the decision checkpoint.
 
 - 18 surah image sections, including Buluşmalar.
 - All 19 ayah commentaries include completed v16 augment9 additions.
@@ -8,7 +9,12 @@ Prepared, with no model sessions launched.
 - All packages and prompts belong to `enrichment/bible/work/s087/`.
 - `prepared.json` records the exact source choices and hashes of every prepared file.
 
-The pack uses completed v16 r13 `images.md`. A separate upstream augment9s run is still in progress and has no assembled page; it was neither modified nor treated as completed input. If its assembled page becomes the chosen source, refresh this unstarted Bible preparation before discovery.
+The pack uses completed v16 r13 `images.md`. A separate upstream augment9s run is
+still in progress; it was neither modified nor treated as completed input.
+The user confirmed that original images are the intended Bible research target,
+so this pack does not need to wait for or incorporate image augment9s. See
+[the recorded decision](../../DECISIONS.md). The ayah inputs already include
+their completed augment9 additions.
 
 To inspect the prepared jobs:
 

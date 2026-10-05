@@ -12,9 +12,12 @@ when explicitly assembling a combined page. Combined pages are written here.
 The Bible author never reads the Islamic enrichment pages or call directories.
 
 Discovery adopts v16 Step 2b's operational protocol, adapted here for Bible
-references and witnesses. It remains **after augment9**, with two discovery
-readers and one verifier/author per whole page. An ayah is not split among writers.
-Surah discovery remains per image; its evidence feeds one surah-page author.
+references and witnesses. **Ayah** research uses completed augment9 commentary;
+an ayah is not split among writers. **Surah** research uses the original completed
+r13 images and does not require the Qur'an-to-Qur'an image augment9s. This is the
+user's confirmed scope in [DECISIONS.md](DECISIONS.md). Connections belonging only
+to later augment prose are outside this pass and may receive a separate pass.
+Discovery remains per image; the default route feeds one surah-page author.
 
 **Session override, 2026-10-05:** the user authorized Sol max for surah writing,
 one agent per image, all images in parallel. The opt-in `image_enrich.py` route

@@ -1,0 +1,310 @@
+{
+  "recorded_at": "2026-10-05T17:17:06.086761+00:00",
+  "stage": "in-progress-not-accepted",
+  "decision": "Continue original r13 image commentary; image augment9s is not a prerequisite.",
+  "model": "gpt-6-sol",
+  "effort": "max",
+  "images": 14,
+  "connections": 3817,
+  "paragraphs": 73,
+  "source_mode": "available-local-witnesses",
+  "source_snapshot": {
+    "local_refs": 1916,
+    "missing_refs": 313,
+    "network_attempted": false
+  },
+  "interruptions": {
+    "sections": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "reason": "Operator interrupted after incorrectly assuming augmented images were required.",
+    "user_resolution": "User agreed original images are valid and explicitly requested resumption."
+  },
+  "capacity_errors": [
+    7,
+    14
+  ],
+  "sections": [
+    {
+      "target": "sec1",
+      "completed_turns": 0,
+      "calls": 48,
+      "requested": 188,
+      "opened": 188,
+      "annotations": 0,
+      "verdicts": 0,
+      "expected": 262,
+      "errors": [],
+      "draft": null,
+      "finished": null,
+      "accepted": false,
+      "operator_state": "interrupted; user authorized same-session resume",
+      "available_output_hashes": {}
+    },
+    {
+      "target": "sec2",
+      "completed_turns": 0,
+      "calls": 58,
+      "requested": 175,
+      "opened": 175,
+      "annotations": 0,
+      "verdicts": 0,
+      "expected": 221,
+      "errors": [],
+      "draft": null,
+      "finished": null,
+      "accepted": false,
+      "operator_state": "interrupted; user authorized same-session resume",
+      "available_output_hashes": {}
+    },
+    {
+      "target": "sec3",
+      "completed_turns": 0,
+      "calls": 53,
+      "requested": 154,
+      "opened": 154,
+      "annotations": 0,
+      "verdicts": 0,
+      "expected": 223,
+      "errors": [],
+      "draft": null,
+      "finished": null,
+      "accepted": false,
+      "operator_state": "interrupted; user authorized same-session resume",
+      "available_output_hashes": {}
+    },
+    {
+      "target": "sec4",
+      "completed_turns": 0,
+      "calls": 48,
+      "requested": 174,
+      "opened": 174,
+      "annotations": 0,
+      "verdicts": 0,
+      "expected": 247,
+      "errors": [],
+      "draft": null,
+      "finished": null,
+      "accepted": false,
+      "operator_state": "interrupted; user authorized same-session resume",
+      "available_output_hashes": {}
+    },
+    {
+      "target": "sec5",
+      "completed_turns": 0,
+      "calls": 54,
+      "requested": 266,
+      "opened": 266,
+      "annotations": 0,
+      "verdicts": 0,
+      "expected": 354,
+      "errors": [],
+      "draft": null,
+      "finished": null,
+      "accepted": false,
+      "operator_state": "interrupted; user authorized same-session resume",
+      "available_output_hashes": {
+        "gaps.json": "2fece83d37f765c082306201d7bd4f65c2d08a886940a56d59b30877fb4849df"
+      }
+    },
+    {
+      "target": "sec6",
+      "completed_turns": 0,
+      "calls": 70,
+      "requested": 268,
+      "opened": 268,
+      "annotations": 0,
+      "verdicts": 0,
+      "expected": 433,
+      "errors": [],
+      "draft": null,
+      "finished": null,
+      "accepted": false,
+      "operator_state": "interrupted; user authorized same-session resume",
+      "available_output_hashes": {}
+    },
+    {
+      "target": "sec7",
+      "completed_turns": 1,
+      "calls": 60,
+      "requested": 178,
+      "opened": 178,
+      "annotations": 23,
+      "verdicts": 84,
+      "expected": 259,
+      "errors": [
+        {
+          "call": "call_4VWiW3sE7M8LJHTnBcXQHxip",
+          "error": "unsupported orchestration wrapper; use the exact prompt forms",
+          "code": "const r = await tools.clock__curr_time({}); text(r.current_time);\n"
+        }
+      ],
+      "draft": null,
+      "finished": null,
+      "accepted": false,
+      "operator_state": "capacity error; retry same model authorized",
+      "available_output_hashes": {
+        "annotations.jsonl": "9ba09118b0c98f085f5d0ca591ce3e7fdcf9d564f3d6db91d11523ab0fae7c99",
+        "verdicts.jsonl": "eba140e705e5cc681be3dab4233dc00ebe5fe55980524f1eea2ca397fd871322",
+        "gaps.json": "9be8ed8c3775c0dacc2457876743ab6ecffd8a64d3a95a5714cffa4897819a52"
+      }
+    },
+    {
+      "target": "sec8",
+      "completed_turns": 1,
+      "calls": 67,
+      "requested": 131,
+      "opened": 131,
+      "annotations": 15,
+      "verdicts": 206,
+      "expected": 165,
+      "errors": [
+        {
+          "call": "call_JiZnwKdMuXVaTBO5fUSeq7Rq",
+          "command": "sed -n '1,40p' /Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/ehlikitap-images.sol.max.session-20261005/sec8/preview/surah.md"
+        },
+        {
+          "call": "call_eWLt9ig7zJigiaIgJkFsjpEq",
+          "command": "sed -n '100,150p' /Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/ehlikitap-images.sol.max.session-20261005/sec8/preview/surah.md"
+        }
+      ],
+      "draft": true,
+      "finished": null,
+      "accepted": false,
+      "operator_state": "active or completed; final native audit pending",
+      "available_output_hashes": {
+        "annotations.jsonl": "59f71a5b7b669c2a3d4eb0600aebd05ac036be393822fa45997051e61c00c98b",
+        "verdicts.jsonl": "6d48a49285416dde699429e45f8624b18ec830389a26af3659260a4824167537",
+        "gaps.json": "ecdca9384954a0336ba24f23d05dd0660cac9ae694c076d3ea5443d83d5a0d44"
+      }
+    },
+    {
+      "target": "sec9",
+      "completed_turns": 0,
+      "calls": 66,
+      "requested": 221,
+      "opened": 221,
+      "annotations": 30,
+      "verdicts": 306,
+      "expected": 291,
+      "errors": [],
+      "draft": null,
+      "finished": null,
+      "accepted": false,
+      "operator_state": "active or completed; final native audit pending",
+      "available_output_hashes": {
+        "annotations.jsonl": "4e29addbed357c29430da777a95702eac2535aa62650d0186bd7e3a8552d9628",
+        "verdicts.jsonl": "516cf84f085fe5c50d58206680147decc70b2f2e33cbb05c05d2c054e7a31c40",
+        "gaps.json": "0b5ac46c0f7bb2076cd2e15504b3dcda1352e00e2c67602c34d5c5c356582bd5"
+      }
+    },
+    {
+      "target": "sec10",
+      "completed_turns": 1,
+      "calls": 78,
+      "requested": 140,
+      "opened": 140,
+      "annotations": 18,
+      "verdicts": 183,
+      "expected": 175,
+      "errors": [],
+      "draft": true,
+      "finished": null,
+      "accepted": false,
+      "operator_state": "active or completed; final native audit pending",
+      "available_output_hashes": {
+        "annotations.jsonl": "136dde1795fcbf215a29d292061117ffa6c79808d884962ee03551022b7d2a45",
+        "verdicts.jsonl": "c96be397d9572193df8d63551165a3b5793a6e710b8ecdb4e469fb6f56b80657",
+        "gaps.json": "2f503b0f587b93327ac11eb422df413897c5eb16f8814872c42356322d344803"
+      }
+    },
+    {
+      "target": "sec11",
+      "completed_turns": 0,
+      "calls": 66,
+      "requested": 179,
+      "opened": 179,
+      "annotations": 20,
+      "verdicts": 239,
+      "expected": 232,
+      "errors": [],
+      "draft": true,
+      "finished": null,
+      "accepted": false,
+      "operator_state": "active or completed; final native audit pending",
+      "available_output_hashes": {
+        "annotations.jsonl": "c010df4d0c2c32644bb18cad87f109ae8d92c45b96a40633c626907a30f52b81",
+        "verdicts.jsonl": "9a15a65dafc414282379705dd59f8b2c03933a0c8a2e84af9e39bb46d4ea1d50",
+        "gaps.json": "9be73e0a4d362884ee2ddbffe419b0a5a28bf6f0991fec68138e037642897e9e"
+      }
+    },
+    {
+      "target": "sec12",
+      "completed_turns": 1,
+      "calls": 67,
+      "requested": 162,
+      "opened": 162,
+      "annotations": 15,
+      "verdicts": 220,
+      "expected": 204,
+      "errors": [],
+      "draft": true,
+      "finished": null,
+      "accepted": false,
+      "operator_state": "active or completed; final native audit pending",
+      "available_output_hashes": {
+        "annotations.jsonl": "d276940d3c1dfa9614aebae2fd6ea8a7eaba0abc1f6bd11b99f4a5d5312253aa",
+        "verdicts.jsonl": "480d8a75be6be038ccc71bbab1c990237cbbecd13c83b34925bf0c1cb2549298",
+        "gaps.json": "f297bf9b5cd4624d20eda45701be163cc0602c532fa7b05c2e4cb0d3bb4d6bc9"
+      }
+    },
+    {
+      "target": "sec13",
+      "completed_turns": 0,
+      "calls": 80,
+      "requested": 237,
+      "opened": 237,
+      "annotations": 20,
+      "verdicts": 175,
+      "expected": 296,
+      "errors": [],
+      "draft": null,
+      "finished": null,
+      "accepted": false,
+      "operator_state": "active or completed; final native audit pending",
+      "available_output_hashes": {
+        "annotations.jsonl": "1e68747be6a6e7cad456029363135a5c1da3d61df2c3ac0e9eaf124ba3e1b7cf",
+        "verdicts.jsonl": "1e1bbfe5b0254e02d170c8b3066c5a3db977657747e76f635d8f7e660fdfac55"
+      }
+    },
+    {
+      "target": "sec14",
+      "completed_turns": 1,
+      "calls": 74,
+      "requested": 357,
+      "opened": 357,
+      "annotations": 0,
+      "verdicts": 0,
+      "expected": 455,
+      "errors": [],
+      "draft": null,
+      "finished": null,
+      "accepted": false,
+      "operator_state": "capacity error; retry same model authorized",
+      "available_output_hashes": {}
+    }
+  ],
+  "s87": {
+    "authorized_to_start": true,
+    "started_sessions": 0,
+    "prepared_sessions": 74,
+    "images": 18,
+    "ayat": 19,
+    "awaiting": "Commit/push of this checkpoint before launching; not waiting for image augment9s."
+  }
+}
