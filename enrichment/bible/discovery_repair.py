@@ -19,7 +19,7 @@ def eligible(log):
         if log.get(key) is not True: raise ValueError(f'unverified provenance: {key}')
 
 
-def repaired_bytes(raw, changes):
+def repaired_bytes(raw, changes, *, allow_schema_swap=False, allow_witness_tradition=False):
     """Only a reference correction or reference/basis swap; never change a judgement."""
     lines = raw.decode().splitlines(keepends=True)
     if not changes: raise ValueError('repair requires exact before/after changes')
@@ -31,8 +31,17 @@ def repaired_bytes(raw, changes):
         seen.add(n)
         if lines[n-1].rstrip('\r\n').split('\t') != before:
             raise ValueError('repair does not match the preserved raw row')
-        if (len(before)!=6 or len(after)!=6 or any(not isinstance(x,str) or any(c in x for c in '\t\n\r') for x in after)
-                or before[:3]!=after[:3] or before[5]!=after[5]):
+        if (len(before)!=6 or len(after)!=6 or any(not isinstance(x,str) or any(c in x for c in '\t\n\r') for x in after)):
+            raise ValueError('repair requires six literal fields')
+        schema_swap = (allow_schema_swap and before[1:3]==after[1:3][::-1]
+                       and after[1] in D.TRAD and after[2] in D.KIND
+                       and before[0]==after[0] and before[3:]==after[3:])
+        expected_tradition = ('tevrat' if before[3].startswith('WLC:') else
+                              'incil' if before[3].startswith('SBLGNT:') else None)
+        witness_label = (allow_witness_tradition and expected_tradition is not None
+                         and after[1]==expected_tradition and before[1]!=after[1]
+                         and before[0]==after[0] and before[2:]==after[2:])
+        if not (schema_swap or witness_label) and (before[:3]!=after[:3] or before[5]!=after[5]):
             raise ValueError('repair must preserve strength, tradition, kind and explanation')
         if before[4]!=after[4] and before[3:5]!=after[3:5][::-1]:
             raise ValueError('only reference corrections or reference/basis swaps are allowed')
@@ -55,16 +64,19 @@ def check_failed(d):
     return log
 
 
-def propose(d, changes):
+def propose(d, changes, *, allow_witness_tradition=False, allow_schema_swap=False):
     check_failed(d)
     if (d/'repair.proposed.json').exists() or (d/'followup.repair.proposed.tsv').exists():
         raise ValueError('proposal exists; inspect it without overwriting')
-    payload = repaired_bytes((d/'followup.tsv').read_bytes(),changes)
+    payload = repaired_bytes((d/'followup.tsv').read_bytes(),changes,
+                             allow_witness_tradition=allow_witness_tradition,allow_schema_swap=allow_schema_swap)
     path = d/'followup.repair.proposed.tsv'
     path.write_bytes(payload)
     _, bad = D.parse_rows(path)
     proposal = dict(raw_sha256=D.digest(d/'followup.tsv'),changes=changes,
                     proposed_sha256=D.digest(path),schema_errors=bad,model_calls=0)
+    if allow_witness_tradition: proposal['allow_witness_tradition']=True
+    if allow_schema_swap: proposal['allow_schema_swap']=True
     D.save(d/'repair.proposed.json',proposal)
     if bad: raise ValueError(f'proposed repair remains invalid: {bad}')
     return proposal
@@ -77,7 +89,9 @@ def accept(d, approval):
     proposal = json.loads((d/'repair.proposed.json').read_text())
     if D.digest(d/'followup.tsv') != proposal['raw_sha256']:
         raise ValueError('raw proposals changed')
-    payload = repaired_bytes((d/'followup.tsv').read_bytes(),proposal['changes'])
+    payload = repaired_bytes((d/'followup.tsv').read_bytes(),proposal['changes'],
+                             allow_witness_tradition=proposal.get('allow_witness_tradition',False),
+                             allow_schema_swap=proposal.get('allow_schema_swap',False))
     proposed = d/'followup.repair.proposed.tsv'
     if payload != proposed.read_bytes() or D.digest(proposed) != proposal['proposed_sha256']:
         raise ValueError('proposed file has unrecorded changes')
@@ -94,6 +108,8 @@ def accept(d, approval):
                   accepted_sha256=D.digest(d/'followup.accepted.tsv'),
                   proposal_sha256=D.digest(d/'repair.proposed.json'),failed_log_sha256=D.digest(d/'run.failed.log.json'),
                   model_calls=0,policy='Raw proposals, failed validation and failed log preserved; no regrading.')
+    if proposal.get('allow_witness_tradition'): record['allow_witness_tradition']=True
+    if proposal.get('allow_schema_swap'): record['allow_schema_swap']=True
     D.save(d/'repair.accepted.json',record)
     log = {**old,'status':'accepted','check':'findings','consolidation':cons,'consolidation_error':None,
            'repair':record,'list_sha256':D.digest(d/'list.tsv'),
@@ -119,12 +135,16 @@ def verify_repair(d, log):
             or record['proposal_sha256'] != D.digest(d/'repair.proposed.json')
             or record['raw_sha256'] != D.digest(d/'followup.tsv')
             or record['accepted_sha256'] != D.digest(d/'followup.accepted.tsv')
-            or record['changes'] != proposal['changes']):
+            or record['changes'] != proposal['changes']
+            or record.get('allow_witness_tradition',False)!=proposal.get('allow_witness_tradition',False)
+            or record.get('allow_schema_swap',False)!=proposal.get('allow_schema_swap',False)):
         raise ValueError('repair provenance changed')
     for name, expected in old['artifacts'].items():
         original = {'list.tsv':'turn1.list.tsv','validation.json':'validation.failed.json'}.get(name,name)
         if D.digest(d/original) != expected: raise ValueError(f'failed-run evidence changed: {name}')
-    payload = repaired_bytes((d/'followup.tsv').read_bytes(),record['changes'])
+    payload = repaired_bytes((d/'followup.tsv').read_bytes(),record['changes'],
+                             allow_witness_tradition=record.get('allow_witness_tradition',False),
+                             allow_schema_swap=record.get('allow_schema_swap',False))
     if payload != (d/'followup.accepted.tsv').read_bytes() or payload != (d/'followup.repair.proposed.tsv').read_bytes():
         raise ValueError('accepted correction differs from the recorded changes')
 
@@ -138,11 +158,14 @@ def main():
     ap.add_argument('--model',choices=D.MODELS,required=True)
     ap.add_argument('--changes',type=Path,help='JSON array of line/before/after/reason objects')
     ap.add_argument('--approval',help='record of explicit approval for the exact proposal')
+    ap.add_argument('--allow-witness-tradition',action='store_true',help='propose only an edition-derived tradition-label correction; still requires exact approval')
+    ap.add_argument('--allow-schema-swap',action='store_true',help='propose only a transposition of tradition/kind columns; still requires exact approval')
     a=ap.parse_args()
     d=D.tdir(a.surah,a.target,a.run_tag)/a.model
     if a.phase=='propose':
         if not a.changes: ap.error('propose requires --changes')
-        result=propose(d,json.loads(a.changes.read_text()))
+        result=propose(d,json.loads(a.changes.read_text()),allow_witness_tradition=a.allow_witness_tradition,
+                       allow_schema_swap=a.allow_schema_swap)
     else:
         if not a.approval: ap.error('accept requires --approval')
         result=accept(d,a.approval)

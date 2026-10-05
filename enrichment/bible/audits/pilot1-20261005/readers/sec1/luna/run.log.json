@@ -1,0 +1,1903 @@
+{
+  "target": "sec1",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md",
+  "base_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/quran.json": "e41e9f866cc96a3aabb7e7261eaa67ce3ed05240642cc8f9fc58f7d1ed40bb40",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/pack.json": "e73af12590027cc99bcacb8f265c254315f6220f3b9b4297fdea1625243c0599"
+  },
+  "started": "2026-10-05T11:02:53.042791-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_pilot1_20261005_sec1_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "pilot1-20261005",
+  "prompt_sha256": "ea6c1c2ff83046503ee1224aadf1cdddb8133b0edbd0ac75c833cf283f55280b",
+  "package_sha256": "243c38aeef00befce7ca0c7f62dad81cb40864ae3524b748c2ea83cefc791f19",
+  "input_sha256": "1cb98fe434356f3c21b5e2d10c69ccf76667f75898145bc982d199fced0ab5bb",
+  "spawn_sha256": "d059f7ab849cd38c059c0e830540556d285775dae3108138e36f979b62fa5663",
+  "followup_text_sha256": "bfcf05beecb5279d4f1e58728407072d3c345bb2c2157130fe527997ad72138e",
+  "agent_id": "01a10c96-fb7d-7a43-9d05-1ea52a7dd369",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T11-03-03-01a10c96-fb7d-7a43-9d05-1ea52a7dd369.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 76,
+  "turn1_sha256": "fe5c4e645802181cccf37434dc91c9a325f9bcdc7916d6552905e58e5a31bfa1",
+  "turn2": {
+    "completed": true,
+    "rows_total": 138,
+    "rows_added": 62
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [
+    {
+      "call_id": "call_d9z70RmsWCqFrlssweJ0oqVy",
+      "message": "Script failed"
+    },
+    {
+      "call_id": "call_d9z70RmsWCqFrlssweJ0oqVy",
+      "message": "Script error:"
+    },
+    {
+      "call_id": "call_d9z70RmsWCqFrlssweJ0oqVy",
+      "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec1/luna/list.tsv:"
+    }
+  ],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 76,
+    "raw_proposal_rows": 62,
+    "unique_additions": 62,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.24.27",
+          "basis": "guided road to a household",
+          "note": "Abraham’s servant says YHWH led him by the right road to his master’s kin; this gives the commentary’s pairing of showing a road and its destination a literal travel scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.13.21",
+          "basis": "cloud and fire go before Israel",
+          "note": "YHWH leads the people through the wilderness with a column before them; the route is a community following its guide."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.1.33",
+          "basis": "God goes ahead to find a camp",
+          "note": "The verse says God went before Israel on the way and sought a place to camp, joining precedence with the destination of rest."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.10.33",
+          "basis": "ark precedes the travelers",
+          "note": "The ark goes ahead for three days to seek a resting place for Israel, closely matching a guide who leads a group toward where the road ends."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Josh.3.4",
+          "basis": "ark leads on an unfamiliar way",
+          "note": "Israel is told to follow the ark so it can know which way to go, since it has not passed that way before; guidance makes an unknown route traversable."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.23.20",
+          "basis": "messenger sent ahead on the way",
+          "note": "God sends a messenger before Israel to guard them on the road and bring them to a prepared place, combining the guide’s precedence with a known destination."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.107.4",
+          "basis": "wanderers cannot find a dwelling city",
+          "note": "The travelers lose their way in the wilderness and find no city to live in; this makes the commentary’s image of failing to find both road and home concrete."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.107.7",
+          "basis": "God leads to a city by a straight way",
+          "note": "After wandering, the travelers are led on a straight route to an inhabited city; road, guidance, straightness, and home converge in one verse."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.6.16",
+          "basis": "ancient road and a walkable good way",
+          "note": "At a crossroads the people are told to ask for old paths, find the good way, and walk in it; the inherited road has already been trodden and must be continued."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.31.21",
+          "basis": "road markers and guideposts",
+          "note": "The returning people are told to set up waymarks and guideposts on the highway home; this is a direct counterpart to signs that help a traveler recover direction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.42.16",
+          "basis": "blind travelers led on unknown paths",
+          "note": "God promises to lead the blind by paths they do not know, turn darkness to light, and smooth rough places; the text reverses being lost and unable to proceed."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.35.8",
+          "basis": "highway where travelers do not stray",
+          "note": "The holy highway leads the redeemed toward Zion, and even a fool will not lose the way; the route supplies the destination and protects against the commentary’s lost traveler."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.30.21",
+          "basis": "voice identifies the way and forbids turns",
+          "note": "A voice tells the traveler, “This is the way; walk in it,” when turning right or left; it makes guidance an ongoing correction against leaving the route."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.3",
+          "basis": "shepherd leads on righteous paths",
+          "note": "The shepherd leads the speaker along paths of righteousness, joining a guide who goes ahead with the communal and ethical road in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.25.4",
+          "basis": "showing and teaching the paths",
+          "note": "The speaker asks God to make the divine ways known and teach the paths; this is a direct prayer for the commentary’s first movement, having the route shown."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.25.5",
+          "basis": "being led along the way",
+          "note": "The speaker asks God to lead him in truth; it adds active guidance to the commentary’s request to be taken along a known route."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.43.3",
+          "basis": "light leads to the divine dwelling",
+          "note": "The speaker asks for light and truth to lead him to the holy mountain and dwelling; a guiding marker and the road’s destination meet in one prayer."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.105",
+          "basis": "lamp at the feet and light on the path",
+          "note": "The divine word illuminates the traveler’s feet and path, a concrete scriptural image for signs that allow a person to keep direction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.3.6",
+          "basis": "God makes paths straight",
+          "note": "The promise that God will make the paths straight connects acknowledgment of God with a route made traversable and direct."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.4.27",
+          "basis": "do not turn right or left",
+          "note": "The instruction is to keep one’s foot from evil and not swerve to either side; it gives the commentary’s straight line and refusal to deviate an ethical form."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.2.13",
+          "basis": "leaving upright paths for darkness",
+          "note": "These people abandon upright paths and walk in dark ways; the contrast supplies a specific scriptural picture of turning away from the straight route."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.14.12",
+          "basis": "apparently right way ends in death",
+          "note": "A way that seems right leads to death; the destination tests the apparent route, complementing the commentary’s insistence that knowing a way includes knowing where it leads."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.176",
+          "basis": "lost sheep and a search for return",
+          "note": "The speaker calls himself a straying sheep and asks God to seek him; this is a close image of a lost traveler needing the guide to bring him back."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.53.6",
+          "basis": "each sheep turns to its own way",
+          "note": "All the people have gone astray, each turning to a separate way; the verse links losing the route with communal dispersal."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.50.6",
+          "basis": "lost sheep, misleading shepherds, forgotten fold",
+          "note": "Israel is pictured as lost sheep whose shepherds turned them aside until they forgot their fold; wrong guidance ends in losing both route and home."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.34.6",
+          "basis": "scattered sheep on mountains without a shepherd",
+          "note": "The flock wanders over mountains and hills and is scattered because no one searches for it; this supplies a concrete communal counterpart to dispersion and lost direction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.6",
+          "basis": "two paths and their different ends",
+          "note": "The Lord knows the way of the righteous while the way of the wicked perishes; the verse makes a community’s road a moral course with distinct outcomes."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.10.12",
+          "basis": "Hebrew עבד and Arabic ع ب د",
+          "note": "The Arabic root label ع ب د belongs to the commentary, while the Hebrew verb עבד here means serving God; the cognate appears in a verse that also commands walking in God’s ways."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.10.12",
+          "basis": "serving God joined to walking in his ways",
+          "note": "The verse places wholehearted service beside walking in all God’s ways, giving the commentary’s worship-as-a-walked path a direct ethical counterpart."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Dan.7.10",
+          "basis": "Aramaic דִּינָא in the judgment scene",
+          "note": "The commentary labels Arabic د ي ن; Daniel’s Aramaic cognate appears as the court sits for judgment and the books open, grounding the judgment sense associated with the Day of Reckoning."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.2.3",
+          "basis": "nations taught divine paths and walking together",
+          "note": "Many peoples come to learn God’s ways and walk in them; the route is explicitly a shared path of a gathered community."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.15.13",
+          "basis": "leading the people to a holy abode",
+          "note": "The song says God led the redeemed people toward the dwelling-place of holiness, joining guidance to arrival at a home."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Tobit 5:5-6",
+          "basis": "Raphael knows the road and guides Tobias",
+          "note": "Tobias seeks a companion who knows the route, and Raphael offers to go because he knows the roads; this is a literal guide-and-traveler scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Genesis Rabbah 56:1",
+          "basis": "cloud seen over the mountain as a sign",
+          "note": "The midrash reads Abraham’s distant sight of Moriah as a cloud attached to the mountain; it makes the destination visible as a waymark during the journey."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.2.9",
+          "basis": "star goes ahead and stops at the destination",
+          "note": "The star leads the travelers in front of them and stops over the place of the child; it joins a celestial sign, a guide’s precedence, and arrival."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.10.4",
+          "basis": "shepherd walks ahead of the sheep",
+          "note": "The shepherd goes before the flock and the sheep follow his voice, matching the commentary’s guide defined by leading from the front."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.14.2",
+          "basis": "the Father’s house as the destination",
+          "note": "Jesus speaks of many dwelling places in his Father’s house and says he goes to prepare a place; this makes the destination part of knowing the way."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.14.5",
+          "basis": "Thomas does not know the way to the destination",
+          "note": "Thomas says they do not know where Jesus is going and therefore cannot know the way; the exchange dramatizes the commentary’s link between route knowledge and knowing the house."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.14.6",
+          "basis": "Jesus identifies himself as the way to the Father",
+          "note": "The destination is the Father, while Jesus calls himself the way to it; this is a Christian formulation in which the guide and route are one."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.79",
+          "basis": "guiding feet into the way of peace",
+          "note": "The hymn says the dawn will guide feet into the way of peace, directly joining a guide, bodily walking, and a named route."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.13",
+          "basis": "a broad road leads to destruction",
+          "note": "The broad entrance and road lead to destruction; it gives the commentary’s contrast between a single right path and ways that end elsewhere a specific image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.14",
+          "basis": "a narrow way leads to life",
+          "note": "The narrow way leads to life and few find it, pairing a difficult route with its destination and the people who find it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.8.12",
+          "basis": "following the light prevents walking in darkness",
+          "note": "Jesus says the follower will not walk in darkness but have the light of life; this ties following a guide to avoiding the lost traveler’s darkness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.15.4",
+          "basis": "shepherd searches for a sheep that strayed",
+          "note": "The shepherd goes after the one lost sheep until he finds it; this is a direct recovery scene for the commentary’s person who has lost the way."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.2.25",
+          "basis": "straying sheep return to their shepherd",
+          "note": "The readers were straying like sheep and have now returned to the shepherd and guardian; the route from loss to restored guidance is explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Pet.2.15",
+          "basis": "forsaking the straight way for error",
+          "note": "The false teachers leave the straight way and go astray after Balaam; it directly depicts abandoning the route and its ethical course."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.19",
+          "basis": "a wanderer is turned back from error",
+          "note": "A person who wanders from the truth is brought back by another; the passage gives the commentary’s companions calling the lost traveler a communal form.",
+          "raw_ref": "SBLGNT:James.5.19",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.9.2",
+          "basis": "the followers are called people of the Way",
+          "note": "Saul seeks those who belong to the Way; the path is the name of a community, not merely an individual direction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.8.31",
+          "basis": "a traveler asks for someone to guide him",
+          "note": "On the road, the Ethiopian says he cannot understand without a guide, and Philip joins him to interpret the text; this makes guidance both travel and instruction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.6.20",
+          "basis": "Jesus enters ahead as a forerunner",
+          "note": "Jesus goes into the sanctuary as a forerunner on behalf of others; the text directly connects precedence with leading people toward a destination."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.32",
+          "basis": "shepherd separates people at judgment",
+          "note": "At the Son of Man’s judgment, people are separated as a shepherd divides sheep from goats; this adds the day’s sorting of communities to the commentary’s divided paths."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.5.10",
+          "basis": "judgment accounts for deeds done in life",
+          "note": "All appear before the judgment seat to receive for what they did in the body, connecting the commentary’s Day of Reckoning with a person’s lived course."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Heb.11.8",
+          "basis": "Abraham obeys without knowing the destination",
+          "note": "Hebrews says Abraham set out without knowing where he was going; this counterpoint qualifies the commentary’s image of guidance that includes knowing the road’s destination, since faithful following can precede that knowledge."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.1.3",
+          "basis": "prepare a straight road in the wilderness",
+          "note": "Mark applies the call to prepare the Lord’s way and make paths straight; the route is cleared for the Lord’s arrival, adding a preparatory road to the commentary’s walkable path."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Didache 1.1",
+          "basis": "two ways of life and death",
+          "note": "The teaching opens by distinguishing a way of life from a way of death; it places the commentary’s contrast between the guided path and its opposite in early Christian moral instruction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Epistle of Barnabas 18.1",
+          "basis": "two ways of light and darkness",
+          "note": "Barnabas describes two ways, light and darkness, under different authorities; this makes the competing routes a community’s ethical and spiritual allegiance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "1QS 3:13-4:26",
+          "basis": "two spirits and opposing courses",
+          "note": "The Community Rule assigns people to opposing spirits and ways of righteousness or perversity; it gives the commentary’s favored community versus those led astray a sectarian map of competing routes."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "4 Ezra 7:3-14",
+          "basis": "one perilous passage to the inherited city",
+          "note": "Ezra’s angel explains that reaching the city requires passing through a narrow way between dangers; the destination is accessible only by the difficult route."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.13.17",
+          "basis": "God chooses a longer route to avoid return",
+          "note": "God does not lead Israel by the nearest road because danger might make them turn back to Egypt; the chosen path is a concrete route shaped to keep travelers on course."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.8.6",
+          "basis": "walking God’s way as sustained practice",
+          "note": "Israel is told to keep God’s commandments and walk in his ways; this gives the commentary’s secondary image of a route maintained through repeated conduct a covenant setting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.30.16",
+          "basis": "walking in God’s ways leads to life",
+          "note": "The command to love God and walk in his ways is joined to living and flourishing; it makes the moral route a practiced choice with consequences."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.1",
+          "basis": "walking, standing, and sitting as a settled pattern",
+          "note": "The verse traces a person’s association with wicked counsel from walking to standing to sitting; it gives the commentary’s secondary sense of a route as a gradually settled pattern."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.16.11",
+          "basis": "path of life and its destination",
+          "note": "God makes known the path of life, whose endpoint is joy in God’s presence; this is a specific path-and-destination image without a guide walking ahead."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.8.20",
+          "basis": "walking in the midst of paths of justice",
+          "note": "Wisdom says she walks in the way of righteousness, in the midst of paths of justice; the wording offers a concrete counterpart to the commentary’s road-center image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.23.11",
+          "basis": "keeping to the way without turning aside",
+          "note": "Job says his foot has held to God’s steps and he has kept the way without turning aside; it links following a track with continued fidelity."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.86.11",
+          "basis": "teach me your way so I can walk in truth",
+          "note": "The prayer asks God to teach the way and unite the speaker’s heart to serve God; it joins route instruction to worshipful commitment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.12",
+          "basis": "God alone guides the people",
+          "note": "The song says the Lord alone led Israel, with no foreign god beside him; it gives the favored community a single guide for its journey."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.18.19",
+          "basis": "the household must keep the way of the Lord",
+          "note": "Abraham is chosen to direct his descendants to keep the Lord’s way by doing justice and righteousness; the road is transmitted through a community and its practice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.3",
+          "basis": "straight highway prepared through the wilderness",
+          "note": "A voice calls for a way to be prepared and a highway made straight in the desert; the relation is the route-clearing image, though this verse emphasizes preparation for God’s coming."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.1.3",
+          "basis": "Isaiah’s straight-way call applied to the Lord’s arrival",
+          "note": "Mark uses the wilderness highway text to frame John’s preparation of the Lord’s way; it makes the route a communal expectation of arrival."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.9.36",
+          "basis": "sheep distressed and scattered without a shepherd",
+          "note": "Jesus sees the crowds as sheep without a shepherd; the image links a scattered people with the need for a guide, though it does not itself describe their road."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.3.10",
+          "basis": "hearts that continually go astray",
+          "note": "The wilderness generation is described as always going astray in heart and not knowing God’s ways; the passage links lost direction with failure to know the divine route."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Augustine, Tractates on John 69 (on John 14:4-6)",
+          "basis": "Christ as the way to the Father",
+          "note": "Augustine reads Jesus’s “I am the way” as Christ himself mediating access to the Father; this interprets the route-and-destination relation as a person rather than a road."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Testament of Asher 1:3-5",
+          "basis": "two moral ways and inclinations",
+          "note": "The testament contrasts good and evil ways and the dispositions that choose them; it is a specific Jewish two-route parallel, though its verse divisions vary between editions."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.1.14",
+          "basis": "he heavenly lights serve as signs",
+          "note": "Genesis assigns the lights signs for seasons and days, not route guidance; this is a limited counterpart to the commentary’s stars as travelers’ markers and keeps the two uses distinct."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.4",
+          "basis": "staff carried through a dangerous valley",
+          "note": "The speaker’s rod and staff comfort him while walking through the valley, a concrete staff-on-the-road image; the verse does not say the staff goes ahead as the commentary’s gloss does."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.3.24",
+          "basis": "guarded way to the tree of life",
+          "note": "After expulsion from Eden, cherubim guard the way to the tree of life; this turns loss of the home into a blocked route that cannot simply be found again."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.19.3",
+          "basis": "prepared roads to cities of refuge",
+          "note": "The Torah orders roads prepared so a manslayer can flee to a refuge city; a safe destination depends on a deliberately marked, usable route."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Makkot 10b",
+          "basis": "rabbinic signs at road junctions",
+          "note": "The Talmud expands the command to prepare refuge roads with clear routes and signs at junctions directing fugitives to refuge; it makes the road markers a practical answer to someone who could otherwise lose the way."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.33.13",
+          "basis": "Moses asks God to show the way",
+          "note": "Moses asks to know God by being shown God’s ways; this is a direct communal prayer for the route to be disclosed."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.33.14",
+          "basis": "God’s presence goes with the people and gives rest",
+          "note": "The answer promises that God’s presence will go with Moses and give rest; guidance is a presence that accompanies the travelers to a resting place."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.10",
+          "basis": "God finds Israel in wilderness and leads them",
+          "note": "The song says God found Israel in a wilderness waste and led and guarded them; it joins a lost, exposed community with the guide who brings it through."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.31.9",
+          "basis": "Israel returns by a straight way without stumbling",
+          "note": "God leads the returning people by streams on a straight road where they will not stumble; this combines communal return, guidance, straightness, and a safe destination."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.27.12",
+          "basis": "teaching and leading on a level path",
+          "note": "The speaker asks God to teach the way and lead him on a level path; the prayer unites instruction with continued movement on course."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.32.9",
+          "basis": "instruction in the way with a guiding eye",
+          "note": "God promises to instruct and teach the way and guide the learner with an eye; this makes guidance personal and ongoing rather than a bare direction."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.84.6",
+          "basis": "highways held in the heart toward Zion",
+          "note": "The pilgrims have highways in their hearts as they go toward God in Zion; the road is the inwardly held route of a worshiping community."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.84.7",
+          "basis": "pilgrims cross the Baca valley",
+          "note": "The travelers pass through a dry valley that becomes springs; it supplies a concrete terrain on the community’s road to worship."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.84.8",
+          "basis": "the pilgrims arrive before God in Zion",
+          "note": "The group goes from strength to strength until each appears before God in Zion; this completes the journey’s destination rather than leaving the path abstract."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.122.2",
+          "basis": "feet arrive at the gates of the Lord’s house",
+          "note": "The speaker says their feet are standing inside Jerusalem’s gates after the call to go to the Lord’s house; it gives the route-to-home image a communal pilgrimage and worship setting."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.8.2",
+          "basis": "Wisdom calls from heights beside a crossroads",
+          "note": "Wisdom stations herself at high places beside the road and where paths meet; this joins a visible landmark, a guide, and the place where a traveler chooses a way."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.4.18",
+          "basis": "the righteous path grows brighter",
+          "note": "The righteous person’s path shines like dawn until full day; the image connects a straight moral course with light that makes direction visible."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.4.19",
+          "basis": "the wicked path is dark and causes stumbling",
+          "note": "The wicked way is darkness, and its travelers do not know what makes them stumble; this gives the commentary’s lost traveler a specific dark-road counterpart."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.4.26",
+          "basis": "make a level path for the feet",
+          "note": "The instruction is to make the footpath level and keep the feet steady; it adds the practical shaping of a walkable route to the commentary’s straight road."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.119.133",
+          "basis": "steps made firm by the divine word",
+          "note": "The speaker asks that his steps be established by God’s word so sin will not rule him; the path is held steady through instruction."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.143.9",
+          "basis": "the prayer asks to know which way to go",
+          "note": "The speaker asks God to make him know the way he should go; this is nearly the same act of petition as the commentary’s opening request for guidance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.143.11",
+          "basis": "God teaches and leads on level ground",
+          "note": "The prayer asks God to teach the divine will and lead the speaker on level ground; it joins teaching, guidance, and a straight route."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.37.23",
+          "basis": "the Lord establishes a person’s steps",
+          "note": "The Lord establishes the steps of the one whose way pleases him; the path is shaped and sustained by divine guidance."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.37.24",
+          "basis": "the Lord holds the traveler when he stumbles",
+          "note": "Even if the righteous person stumbles, the Lord holds his hand and keeps him from falling; this adds support on the path when the walk falters."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.58.11",
+          "basis": "God continually guides through dry country",
+          "note": "God promises to guide continually and satisfy the person in scorched places; it is a specific image of guidance when the terrain offers no easy direction."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.11.3",
+          "basis": "God teaches Ephraim to walk and holds him",
+          "note": "God says he taught Ephraim to walk and took the child in his arms; the guide is a caregiver enabling the community to move."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.14.10",
+          "basis": "straight ways and stumbling transgressors",
+          "note": "The Lord’s ways are straight, the righteous walk in them, and transgressors stumble; this closely joins the straight communal route with its opposite."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.28.29",
+          "basis": "blind groping and failure in one’s ways",
+          "note": "The afflicted person gropes at noon as a blind person in darkness and does not prosper in his ways; this concretizes loss of direction on land."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.59.8",
+          "basis": "the way of peace is unknown",
+          "note": "The people do not know the way of peace; it gives a specific scriptural statement of failing to know the right route."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.12.24",
+          "basis": "leaders wander in a trackless waste",
+          "note": "God makes the leaders of the earth wander in a wasteland where there is no way; this is a concrete landscape of disorientation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.1.5",
+          "basis": "Hebrew קום at the judgment",
+          "note": "The commentary labels Arabic ٱلْمُسْتَقِيمَ with the source root ق و م; Hebrew קום here means to stand, not to be straight. Its use when the wicked cannot stand in judgment makes the cognate’s judgment setting a secondary echo, not an equivalent meaning."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.5",
+          "basis": "standing in the righteous congregation at judgment",
+          "note": "The wicked cannot stand in judgment or remain in the congregation of the righteous; this adds the separation of communities at judgment to the contrast of their ways in the neighboring verse."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Zech.11.7",
+          "basis": "Hebrew נעם in the name of a shepherd’s staff",
+          "note": "The commentary labels Arabic أَنْعَمْتَ with source root ن ع م; Hebrew נֹעַם names a staff and belongs to the related Semitic n-ʿ-m family, though its sense here is pleasantness rather than the verb of bestowing favor."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.11.7",
+          "basis": "staff named Favor in a shepherding scene",
+          "note": "The shepherd tends the flock with two staffs, one named Noam and one named Bonds; this brings a favor-named staff, guidance, and a gathered flock into one concrete scene."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.21.14",
+          "basis": "Hagar wanders in the wilderness",
+          "note": "Hagar leaves into the wilderness with her child and wanders there; this is a specific human scene of displacement and lost direction."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.21.19",
+          "basis": "opened eyes reveal water in the wilderness",
+          "note": "God opens Hagar’s eyes and she sees a well; the lost traveler is helped by a new sightline that reveals the needed destination."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "1QS 8:12-16",
+          "basis": "Qumran reads the wilderness road as Torah study",
+          "note": "The Community Rule applies the call to prepare the Lord’s way in the wilderness to its separation in the desert and study of Torah; this turns the road into the community’s disciplined religious practice."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 5:6",
+          "basis": "the speaker says they strayed from truth’s way",
+          "note": "The speakers confess that they left the way of truth and lacked the light of righteousness; the passage connects wrong direction with moral failure and lost illumination."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 5:7",
+          "basis": "lawless travel through trackless deserts",
+          "note": "The speakers say they traveled through trackless deserts without knowing the Lord’s way; this brings astray, pathlessness, and ignorance of the right route together."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Baruch 3:13",
+          "basis": "walking God’s way and living in peace",
+          "note": "Baruch says Israel would live in peace if it had walked in God’s way; the community’s route is a sustained choice with a collective outcome."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Baruch 4:1",
+          "basis": "holding to the law means life, forsaking it means death",
+          "note": "Baruch identifies the enduring law as the way that gives life and says those who forsake it die; this makes the chosen route an ongoing communal practice with an endpoint."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 4:16",
+          "basis": "this world as a vestibule before the banquet hall",
+          "note": "The Mishnah calls this world a vestibule and urges preparation to enter the world to come; life is framed as a passage whose destination lies beyond it."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.1",
+          "basis": "run the course set before the community",
+          "note": "The hearers are told to run with endurance the race set before them; the path becomes a shared course that must be followed to its finish."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.2",
+          "basis": "Jesus as pioneer and perfecter of the course",
+          "note": "Jesus is named the pioneer and perfecter of faith; this gives the community a forerunner who goes ahead and completes the way."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.13",
+          "basis": "make straight paths so the lame can be healed",
+          "note": "The hearers must make straight paths for their feet so the lame will not be put out of joint but healed; straightening the route protects struggling travelers."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Luke.24.15",
+          "basis": "the guide joins travelers from beside them",
+          "note": "On the road to Emmaus, Jesus draws near and walks with the disciples rather than going ahead; this offers a specific counter-image to the commentary’s guide defined by precedence."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.24.32",
+          "basis": "scriptural explanation changes how the travelers see the road",
+          "note": "The disciples recall how their hearts burned while Jesus explained the Scriptures on the road; guidance includes interpreting the text during travel."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.24.33",
+          "basis": "the travelers turn back toward the community",
+          "note": "After recognizing Jesus, the disciples immediately return to Jerusalem; the road that had led away from the group is reversed toward reunion."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.13.10",
+          "basis": "Elymas perverts the straight ways of the Lord",
+          "note": "Paul accuses Elymas of trying to make the Lord’s straight ways crooked; this is a direct Christian image of an adversary obstructing the right route."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.24.14",
+          "basis": "worship according to the Way",
+          "note": "Paul says he worships God according to the Way; this uniquely joins the commentary’s worship and path images in one statement."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.12.35",
+          "basis": "walking in darkness means not knowing where one goes",
+          "note": "Jesus warns that the person who walks in darkness does not know where he is going; it directly links lost orientation with darkness."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.15.14",
+          "basis": "blind guides lead others into a pit",
+          "note": "Jesus calls the teachers blind guides whose followers fall with them; it adds the danger of a guide who cannot see the right way."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.3.17",
+          "basis": "the way of peace is unknown",
+          "note": "Paul cites the claim that people have not known the way of peace; this carries the Hebrew Bible’s lost-route image into his account of human wrongdoing.",
+          "raw_ref": "SBLGNT:Romans.3.17",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.11.3",
+          "basis": "the serpent leads minds away from devotion",
+          "note": "Paul fears that, as the serpent deceived Eve, the community’s minds may be led astray from devotion to Christ; this gives the commentary’s ambushing adversary a specific Christian counterpart."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.18.25",
+          "basis": "Apollos is instructed in the Lord’s way but incompletely",
+          "note": "Apollos knows and teaches the way of the Lord but knows only John’s baptism; his case makes clear that a guide can have real direction while still lacking part of the route."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.18.26",
+          "basis": "Priscilla and Aquila explain the way more accurately",
+          "note": "The couple takes Apollos aside and explains the way of God more accurately; a community helps its guide correct and complete his direction."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.16.9",
+          "basis": "a vision calls the travelers toward Macedonia",
+          "note": "Paul sees a Macedonian asking him to come and help; the call gives a specific divine direction for a traveling group."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.16.10",
+          "basis": "the group infers its destination from the call",
+          "note": "The travelers conclude that God has called them to preach in Macedonia and set out; guidance becomes a shared decision about where to go."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.2.10",
+          "basis": "people walk in works prepared by God",
+          "note": "The community is created for good works God prepared beforehand for them to walk in; the path is a sustained practice laid out by God."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.9.23",
+          "basis": "following Jesus is taken up daily",
+          "note": "Jesus says a follower must take up the cross daily and follow him; the route is maintained through repeated, embodied commitment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.11.16",
+          "basis": "the travelers seek a homeland and a prepared city",
+          "note": "The faithful desire a better country and a city God has prepared; this develops the commentary’s claim that a route is oriented toward a home."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.7.17",
+          "basis": "the Lamb shepherds the people to springs of water",
+          "note": "The Lamb shepherds the gathered people and guides them to springs of living water; guidance ends in rest and relief for the community."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.4",
+          "basis": "the firstfruits follow the Lamb wherever he goes",
+          "note": "The faithful are defined as those who follow the Lamb wherever he goes; the path is the shared movement of a favored group after its guide."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.46",
+          "basis": "judgment assigns different final destinations",
+          "note": "The judgment scene ends with one group entering eternal life and the other punishment; this adds the destination split to the commentary’s distinction between the guided and rejected."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "a8fa10603f26c5bbf6b5cd5e3fbeced6f79459600a4b3c858df2a9aaa3131ade",
+    "followup_sha256": "a8fa10603f26c5bbf6b5cd5e3fbeced6f79459600a4b3c858df2a9aaa3131ade"
+  },
+  "consolidation_error": null,
+  "list_sha256": "4ccfa201ddc25d21dcf7bc1cc8ee9b3886efe2e0a19c4bfe723e63c6ed7d705a",
+  "followup_delivery": [
+    {
+      "call_id": "call_XGMBJDgjmabWpZ9afpd3QUZi",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 603890,
+    "cached_input_tokens": 522752,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 68805,
+    "reasoning_output_tokens": 58537,
+    "total_tokens": 672695
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T15:30:13.231Z",
+  "artifacts": {
+    "started.json": "83d633c89db7434a29189101c9dc7b7ae1b4032006bcbd4574661f14236e2998",
+    "input.json": "1cb98fe434356f3c21b5e2d10c69ccf76667f75898145bc982d199fced0ab5bb",
+    "prompt.md": "ea6c1c2ff83046503ee1224aadf1cdddb8133b0edbd0ac75c833cf283f55280b",
+    "package.md": "243c38aeef00befce7ca0c7f62dad81cb40864ae3524b748c2ea83cefc791f19",
+    "spawn.md": "d059f7ab849cd38c059c0e830540556d285775dae3108138e36f979b62fa5663",
+    "followup.txt": "bfcf05beecb5279d4f1e58728407072d3c345bb2c2157130fe527997ad72138e",
+    "turn1.json": "6a12598bdc263d05b5943be03cb662c9e825d7cd2e7e541f3317812e6f69e6ed",
+    "turn1.list.tsv": "fe5c4e645802181cccf37434dc91c9a325f9bcdc7916d6552905e58e5a31bfa1",
+    "followup.tsv": "a8fa10603f26c5bbf6b5cd5e3fbeced6f79459600a4b3c858df2a9aaa3131ade",
+    "list.tsv": "4ccfa201ddc25d21dcf7bc1cc8ee9b3886efe2e0a19c4bfe723e63c6ed7d705a",
+    "consolidation.json": "49dd4f505ae95e79039d6d096b908c96e54efd368cff6b9c94c71fdfd3716f2c",
+    "validation.json": "8b5371dafb1d7bce513ff056d7b4c7deee0e8504f1509ea0172a2cd47d07a247",
+    "proposal_validation.json": "802f2fccc8da5b13e04c8f04f789cbea57c6de8be3d6367b610f843a54a2a239",
+    "tool_calls.json": "11275aa224923d493400b9867faa8997c7a0a62a6c7c68f8d6d5af6505caa6c4",
+    "session.json": "e5fee2c0060418c392b6a3bab1bef0e6451e83afa1bb24a6247fd9069de79104",
+    "session.events.jsonl": "2821716827fa41f9f85e215f8db7115d388f33362245368a61041da062723892"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "target": "sec6",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md",
+  "base_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/quran.json": "e41e9f866cc96a3aabb7e7261eaa67ce3ed05240642cc8f9fc58f7d1ed40bb40",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/pack.json": "e73af12590027cc99bcacb8f265c254315f6220f3b9b4297fdea1625243c0599"
+  },
+  "started": "2026-10-05T11:06:53.572997-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_pilot1_20261005_sec6_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "pilot1-20261005",
+  "prompt_sha256": "c8c9285d7846bc14f016e686d22ca0f4ccc8f9cb0b6ef84b7d0f776b2de5e1ed",
+  "package_sha256": "3a743032f108cef2b42f261a7922f367f9128dd7ac6e57ced85c0b1729c5685f",
+  "input_sha256": "11d1affe33ee433bc9fc83a3de52cb6ca029837d10b0b4eb1543107cf28f94fe",
+  "spawn_sha256": "98ed59af56b59c0e7901c98d9ce76b5489bd2bfb3b9255021f9694a40b5ec9fd",
+  "followup_text_sha256": "2379451f9fa796d6732277b9402456029238c35f10caba4f95de7163ec9f0645",
+  "agent_id": "01a10c9b-e1fd-70d0-bb37-0b918d8b31ee",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T11-08-25-01a10c9b-e1fd-70d0-bb37-0b918d8b31ee.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "partial",
+  "check": "findings",
+  "turn1_rows": 116,
+  "turn1_sha256": "81e118ef9ffed0840ae8068c7f3931b517c41680733a994540d89fd051d4ee98",
+  "turn2": {
+    "completed": true,
+    "rows_total": 116,
+    "rows_added": 0
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [
+    {
+      "call_id": "call_oJGLVtMn3m7spd4y9yQNHGUr",
+      "message": "Script failed"
+    },
+    {
+      "call_id": "call_oJGLVtMn3m7spd4y9yQNHGUr",
+      "message": "Script error:"
+    },
+    {
+      "call_id": "call_oJGLVtMn3m7spd4y9yQNHGUr",
+      "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec6/luna/followup.tsv:"
+    },
+    {
+      "call_id": "call_QqEz5oVhTw7VmABucE51sDKp",
+      "message": "Script failed"
+    },
+    {
+      "call_id": "call_QqEz5oVhTw7VmABucE51sDKp",
+      "message": "Script error:"
+    },
+    {
+      "call_id": "call_QqEz5oVhTw7VmABucE51sDKp",
+      "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec6/luna/followup.tsv:"
+    },
+    {
+      "call_id": "call_3fh630QfG2zPIzRWmN7aAkzM",
+      "message": "Script failed"
+    },
+    {
+      "call_id": "call_3fh630QfG2zPIzRWmN7aAkzM",
+      "message": "Script error:"
+    },
+    {
+      "call_id": "call_3fh630QfG2zPIzRWmN7aAkzM",
+      "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec6/luna/followup.tsv:"
+    },
+    {
+      "call_id": "call_4nrCoxR39s9YpWqtUnlribFl",
+      "message": "Script failed"
+    },
+    {
+      "call_id": "call_4nrCoxR39s9YpWqtUnlribFl",
+      "message": "Script error:"
+    },
+    {
+      "call_id": "call_4nrCoxR39s9YpWqtUnlribFl",
+      "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec6/luna/followup.tsv:"
+    },
+    {
+      "call_id": "call_85bXKfpnYn638NTLA1dA5V17",
+      "message": "Script failed"
+    },
+    {
+      "call_id": "call_85bXKfpnYn638NTLA1dA5V17",
+      "message": "Script error:"
+    },
+    {
+      "call_id": "call_85bXKfpnYn638NTLA1dA5V17",
+      "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec6/luna/followup.tsv:"
+    }
+  ],
+  "protocol_findings": [],
+  "consolidation": null,
+  "consolidation_error": "invalid TSV: ['line 116: WLC:Ps.147.11: wrong tradition']",
+  "list_sha256": "81e118ef9ffed0840ae8068c7f3931b517c41680733a994540d89fd051d4ee98",
+  "followup_delivery": [
+    {
+      "call_id": "call_bdc1a4a097654dd5a36cd01f9e956fa2",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 1277437,
+    "cached_input_tokens": 1164544,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 96353,
+    "reasoning_output_tokens": 73359,
+    "total_tokens": 1373790
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T15:41:15.835Z",
+  "artifacts": {
+    "started.json": "376599fd9d5080f1f1ff40b6cd19e00bfac47e808015e47e5f801ff42c7ea00d",
+    "input.json": "11d1affe33ee433bc9fc83a3de52cb6ca029837d10b0b4eb1543107cf28f94fe",
+    "prompt.md": "c8c9285d7846bc14f016e686d22ca0f4ccc8f9cb0b6ef84b7d0f776b2de5e1ed",
+    "package.md": "3a743032f108cef2b42f261a7922f367f9128dd7ac6e57ced85c0b1729c5685f",
+    "spawn.md": "98ed59af56b59c0e7901c98d9ce76b5489bd2bfb3b9255021f9694a40b5ec9fd",
+    "followup.txt": "2379451f9fa796d6732277b9402456029238c35f10caba4f95de7163ec9f0645",
+    "turn1.json": "e3708c0c5d809b5dee7fd3b20330e3542270527c8537be70e4a10c63a44b88fb",
+    "turn1.list.tsv": "81e118ef9ffed0840ae8068c7f3931b517c41680733a994540d89fd051d4ee98",
+    "followup.tsv": "a595eab0e023d8a9907c27b4064a034651890095908f4d38bb63776b8fa0906d",
+    "list.tsv": "81e118ef9ffed0840ae8068c7f3931b517c41680733a994540d89fd051d4ee98",
+    "validation.json": "26e1ee044ecd9d86b7a526674eb4f6a24c7daa433df4c7f0d36430ded0df5f10",
+    "proposal_validation.json": "3dfc1dbae2a320fee364b3827aa0e66374847aa53e8524a457390df8aa9a529d",
+    "tool_calls.json": "01c76ce62b11cc43e19ee12b17dfe59bbe6b6569fcdec00b37df4a3dd16a84df",
+    "session.json": "b0f9f2ebea609dae9b9fd6b4ef6ab2b95717c9f74033cbfbb11fed72f844d173",
+    "session.events.jsonl": "0df99cb63a8a1bc23d317ffb2d34ad0ad9c0bf70fee085668ccf40b087aaa7b4"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "policy": "bible-first-turn-repair-v1",
+  "approval": "2026-10-05 user reply: Apply the 13 recorded corrections; extend first-pass repair handling. Exact bundle: enrichment/bible/audits/pilot1-20261005/first-turn-repairs.proposed.json",
+  "tool_audit_reviewed": true,
+  "accepted_at": "2026-10-05T15:52:00.215985+00:00",
+  "changes": [
+    {
+      "line": 61,
+      "before": [
+        "weak",
+        "tevrat",
+        "soydas",
+        "WLC:Ps.90.18",
+        "Hebrew noam and Arabic n-ʿ-m",
+        "The commentary itself labels Arabic anʿamta, favor, and anʿām, herds, under n-ʿ-m; Hebrew noam here means YHWH's gracious pleasantness, a possible cognate for the favor sense but not for livestock."
+      ],
+      "after": [
+        "weak",
+        "tevrat",
+        "soydas",
+        "WLC:Ps.90.17",
+        "Hebrew noam and Arabic n-ʿ-m",
+        "The commentary itself labels Arabic anʿamta, favor, and anʿām, herds, under n-ʿ-m; Hebrew noam here means YHWH's gracious pleasantness, a possible cognate for the favor sense but not for livestock."
+      ],
+      "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+    }
+  ],
+  "model_calls": 0,
+  "artifacts": {
+    "turn1.original.tsv": "f453a1882fc954cb6821aa0294b63d4c36d3fa50d62ea8a73a31af1ed6972be6",
+    "turn1.validation.failed.json": "8afc571db3781684ad91ec92f55f435754accdad662ba6e2b972efb1297bb631",
+    "turn1.tool_calls.json": "d8879f68cc0ac2d5ebba36e85f1b347058d8810b46a484fe603cc2d463a6824f",
+    "turn1.repair.proposed.json": "3ded46fe58ee4084e8f575914697feaecdf463d721ef53867004d25c45b5baa6",
+    "turn1.repair.proposed.tsv": "534c9e3b8ac2ad83b4faf14002577870b9da7121da122d8b8eef9b6bd7c8cb9e",
+    "turn1.accepted.tsv": "534c9e3b8ac2ad83b4faf14002577870b9da7121da122d8b8eef9b6bd7c8cb9e"
+  }
+}

@@ -1,0 +1,2033 @@
+[
+  {
+    "target": "1:1",
+    "model": "gpt-6-luna",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_1_1_luna",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:29:28.423Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "dba75df13a28fbba124435f535d586e2f4d560762dfb0526f250b52a65b6e83c",
+      "input.json": "510f958b8d23bf70d4e5fff15b27d04de52423f2fd1915b97c5050db001040ef",
+      "prompt.md": "fbed1d4b3910a308cedca5873a396aad6f4fb7789eefb00d7cf3a3e71d8446e3",
+      "package.md": "12745d783e115be921a051815e5403610a4d5fb18ab7a2552c16b0b61534bae1",
+      "spawn.md": "e520ef6ec522350f2056ee7d1d95ad9a9d6f9bed94366d8ee939b1dd33a0f8b5",
+      "followup.txt": "d3b954090386f4592058229bbb8136d88fa6211151c7e87f87fdff4f00a32644",
+      "turn1.json": "89c4d13e0ead5078ee44f0725bb6a74cc1cf5a95a3973c7c4b3770ac504d6d8f",
+      "turn1.list.tsv": "5aef5c41c6cd2d2173bb52b031abf0ad22aa75ce1e31d1078dd6370bb44ba464",
+      "followup.tsv": "769f17a01d1b269590a11a9af79ee79cbc5d0780e7dd660b1b49436ae78c5b5d",
+      "list.tsv": "5ae228ebaac215c09192085e2f3c40e18c4bef80f86ffda8571e303cf6ae6c22",
+      "consolidation.json": "683ef92a08d60a4cc211d3c2989efff2fab5f70f112950fc6003c4e7ee383ed6",
+      "validation.json": "b7caf9b36dfe6f7bcc566c93941ddd6654d475bb7b80e3588e35f639aab22160",
+      "proposal_validation.json": "0db93036541c7d2f070bf6d639035ad266498fd47e9ac4d1cd74675892812079",
+      "tool_calls.json": "87355b6368dd54b0c3d7eee24b4d7d3c2ad3811bf1f93e7342d9e6f5ce5cddcb",
+      "session.json": "c5f976ae594fd2eb16f1956b1a51157ac12725b28d16708ebfb19b11b85a4dfb",
+      "session.events.jsonl": "932d49840bc3ba92cb95403775c0e6c653aca034bca0fbbbe22a87603c7bfff9"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_GifJfra3KFzCyy0p0Ut0Egd3",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "1:1",
+    "model": "gpt-5.6-terra",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_1_1_terra",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:25:38.543Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [
+      {
+        "call_id": "call_dnq3fwfKnMTPO2lr5WUqIXur",
+        "message": "Script failed"
+      },
+      {
+        "call_id": "call_dnq3fwfKnMTPO2lr5WUqIXur",
+        "message": "Script error:"
+      },
+      {
+        "call_id": "call_dnq3fwfKnMTPO2lr5WUqIXur",
+        "message": "apply_patch verification failed: invalid patch: The last line of the patch must be '*** End Patch'"
+      }
+    ],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "fd9b3b0ef5beec710cdff6911b8ad945535e29d18ef4ead2c46f327543bbf746",
+      "input.json": "510f958b8d23bf70d4e5fff15b27d04de52423f2fd1915b97c5050db001040ef",
+      "prompt.md": "3efb4ae3a27ba0c8a3e9f6584935fa448a3637b93395b0b7ffcfd18c63549807",
+      "package.md": "12745d783e115be921a051815e5403610a4d5fb18ab7a2552c16b0b61534bae1",
+      "spawn.md": "7d699ba50cc3ce1f130fc5e321af6d14df564e8d58e61b0c88dfe7b7955e2a29",
+      "followup.txt": "6c9230a48ac108f962c9dd1c079bebc28abfffc1e205bf6d860f6e8b9be58f2a",
+      "turn1.json": "a4216144b796cd8c000604b31a0e8ca9270d82ba778fc8e1b88c3c9bdfa64a23",
+      "turn1.list.tsv": "af62b3982dca4cc1a4ed127a09e6fa24f8b1922c1f40dcafe7f2537c8a185991",
+      "followup.tsv": "5d9036139679f78871d43cf33e30a129ff0cef0f1a79a9c20e150be8300dc6d4",
+      "list.tsv": "80c0d8f14b6ba0b75e56f18f55399be088e608833c3dd376867d799f93fcd514",
+      "consolidation.json": "6ebe8b6a6a4ad990de1b244bae046a4638b7ddb951ae6d78ad93689b36191582",
+      "validation.json": "7729c70e5ee9125127a1c787cb1cfc8ca1b173ae72112fc7b6be7abe1a1de9a5",
+      "proposal_validation.json": "66fb52f3ff177cadf86b03062f483ca8360a2a56d27172a23336d83d3ff0730a",
+      "tool_calls.json": "26b1afe430e4dd10e767b717c9362b227a354e5f11b37d914dbecaa25f33169e",
+      "session.json": "c60c3c9477aca29f5fa6773108e2e577e7ea5bdf31ddba68effb00dbfbf33299",
+      "session.events.jsonl": "104ebb7f82066827c3a327cc2f1ed7809b260a62034cec69f7b194e2f60bbbc2"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_IPZqnKM4fBWzObALNlmgMAMI",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "sec1",
+    "model": "gpt-6-luna",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_sec1_luna",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:30:13.231Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [
+      {
+        "call_id": "call_d9z70RmsWCqFrlssweJ0oqVy",
+        "message": "Script failed"
+      },
+      {
+        "call_id": "call_d9z70RmsWCqFrlssweJ0oqVy",
+        "message": "Script error:"
+      },
+      {
+        "call_id": "call_d9z70RmsWCqFrlssweJ0oqVy",
+        "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec1/luna/list.tsv:"
+      }
+    ],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "83d633c89db7434a29189101c9dc7b7ae1b4032006bcbd4574661f14236e2998",
+      "input.json": "1cb98fe434356f3c21b5e2d10c69ccf76667f75898145bc982d199fced0ab5bb",
+      "prompt.md": "ea6c1c2ff83046503ee1224aadf1cdddb8133b0edbd0ac75c833cf283f55280b",
+      "package.md": "243c38aeef00befce7ca0c7f62dad81cb40864ae3524b748c2ea83cefc791f19",
+      "spawn.md": "d059f7ab849cd38c059c0e830540556d285775dae3108138e36f979b62fa5663",
+      "followup.txt": "bfcf05beecb5279d4f1e58728407072d3c345bb2c2157130fe527997ad72138e",
+      "turn1.json": "6a12598bdc263d05b5943be03cb662c9e825d7cd2e7e541f3317812e6f69e6ed",
+      "turn1.list.tsv": "fe5c4e645802181cccf37434dc91c9a325f9bcdc7916d6552905e58e5a31bfa1",
+      "followup.tsv": "a8fa10603f26c5bbf6b5cd5e3fbeced6f79459600a4b3c858df2a9aaa3131ade",
+      "list.tsv": "4ccfa201ddc25d21dcf7bc1cc8ee9b3886efe2e0a19c4bfe723e63c6ed7d705a",
+      "consolidation.json": "49dd4f505ae95e79039d6d096b908c96e54efd368cff6b9c94c71fdfd3716f2c",
+      "validation.json": "8b5371dafb1d7bce513ff056d7b4c7deee0e8504f1509ea0172a2cd47d07a247",
+      "proposal_validation.json": "802f2fccc8da5b13e04c8f04f789cbea57c6de8be3d6367b610f843a54a2a239",
+      "tool_calls.json": "11275aa224923d493400b9867faa8997c7a0a62a6c7c68f8d6d5af6505caa6c4",
+      "session.json": "e5fee2c0060418c392b6a3bab1bef0e6451e83afa1bb24a6247fd9069de79104",
+      "session.events.jsonl": "2821716827fa41f9f85e215f8db7115d388f33362245368a61041da062723892"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_XGMBJDgjmabWpZ9afpd3QUZi",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "sec1",
+    "model": "gpt-5.6-terra",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_sec1_terra",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:33:32.716Z",
+    "status": "accepted",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": true,
+    "artifacts": {
+      "started.json": "cc2949fa6b8520b7cc882d7561f132d0bb30e0150bfe55c19952f2c116cb62d3",
+      "input.json": "1cb98fe434356f3c21b5e2d10c69ccf76667f75898145bc982d199fced0ab5bb",
+      "prompt.md": "51aaad68b8460ccffbea89d2ceb5acb8299c4f54ce4cfc5181287a6bbd4f1e87",
+      "package.md": "243c38aeef00befce7ca0c7f62dad81cb40864ae3524b748c2ea83cefc791f19",
+      "spawn.md": "4e1434903b2f4df73765623dd3e1913a88ce5b1a6d1be728def911dc22bc07c1",
+      "followup.txt": "e3a27223d1fcae8c94ff06e937a038c0701776ac56f827c220572f35d94a58e9",
+      "turn1.json": "a3e53dec279b631aff42fd4386669fc15ed0c45a1cb75f3c49275b5c5fc58167",
+      "turn1.list.tsv": "3ae5839594cc70abe0f8e78337c743b5b1cf1cae9060da5ab3199edf1d0bf362",
+      "followup.tsv": "0a6cf393567c06e62566470aaae6141f2b4445f9a5286d1aaaf50d8ecda325b7",
+      "list.tsv": "da7bbcb8044bb62e55bb0cf6f9ffd5a31fad87ec75415b5fcf0c6dc275f23a0a",
+      "consolidation.json": "83c9c558568e70e35231c6c8239f497f4ea12bf0fb090a0dddabc491480cf8fa",
+      "validation.json": "c2dd49305f74e0e230329a6d779c574bd5f0309e74f32b4d7a5809e628905273",
+      "proposal_validation.json": "9b580cc99afc082743471c15857c58593a4e0990018cce7c30a3e14fa9571e1b",
+      "tool_calls.json": "0517dea3729f7361fe3ffeef1c0f3578197bfbe43a2aa21f088b6b6b5a5c6ef6",
+      "session.json": "cc21f30b691d2f44577a14449b13cebb475281bc65b36b37ed15971c723bbb54",
+      "session.events.jsonl": "fc1224328b58f8f745fab93a95f98f5be6814f466d01fe3f5e7403a30d09290a",
+      "run.failed.log.json": "30a9eaf65eee85da92058f8d494c9aa23841b34ab7674e301009de293279cb05",
+      "validation.failed.json": "ab545d20a26275f69cc410f3671dd3faa22f27cad18243ff1bfff3add30b34c6",
+      "repair.proposed.json": "2331565fde40c5cb6fef21efb5d4676d9a5517a9f0372ee9c3ff59fd0ee166ec",
+      "followup.repair.proposed.tsv": "3ec4589b1e745921afa15594fef6b91f7a7f7c49bdbe03ee4313013ab2d54b25",
+      "followup.accepted.tsv": "3ec4589b1e745921afa15594fef6b91f7a7f7c49bdbe03ee4313013ab2d54b25",
+      "repair.accepted.json": "579b5a25b48c732310beb13d4c0a6c0d803ec40bb4255c65d869f4370a2303fc"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_Mpc41bB7YfVDTt4Hq18JaQYz",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "sec2",
+    "model": "gpt-6-luna",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_sec2_luna",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:25:52.137Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "d47152f83a2e71092e67cd2039520deafddcd74ccab7b7da76058eed280ff5f5",
+      "input.json": "90d0c3e8ee5804ee6da9cd88ff05f891c9997a5e2edd8938e8b64b13fc6cb3a1",
+      "prompt.md": "222340bcfe9d6ebabd2f41a21f29c2a52cb5ff913953d986caa99f0a746de1cc",
+      "package.md": "f3de1e740031b9eb9321d16535b4cb05773460759a1d225ef93acb0d4bbd720e",
+      "spawn.md": "0040f2dd65a9f55be2cc1396f48473f0e1209cdf6d81011696373e50990d801e",
+      "followup.txt": "7c8725053016fca9f3c2e7a6df42f3d1761b3db4f745e2a352d3714b143d643b",
+      "turn1.json": "124395e90634b36d0e0bcf6e0d042f5fabae0a83dbe18c21550ee41b1c36d498",
+      "turn1.list.tsv": "d5dffb93361597da9857c2b1aeef0d6bfc81ce4c4653a3fcfeff5de81cdd8242",
+      "followup.tsv": "9ed2bd1f886922f8770bddd39e3d6b712368e9df6e2f244fa70677ca380638bf",
+      "list.tsv": "801dd44334c4e5187f08bbf9e4d63b0b809dde6bf59465bcdbd300b41fd677e2",
+      "consolidation.json": "5d124dd67b7c87a3931de3682cfae9dbdfa44abb3672bbb01aba12f28e2fd8cc",
+      "validation.json": "6f80dfc4f9a55333721bcace1c6b14d7d653b5d31d866b4c201bf5dc36059586",
+      "proposal_validation.json": "753553806c83ec869ad6204568da0b3226cfe36958f697dd23b612ca4b412430",
+      "tool_calls.json": "1671e12204bd50c92f5515afff60c47681c49989f231dc84d0ab049c7f68667b",
+      "session.json": "88e626fd84f4479ba9902f625ca90b3bc5fd5153eb5bad1c4a0de0b4ae8457c4",
+      "session.events.jsonl": "47c51e5252eb6c020c2b97f824ecc1f125f80b323bde1e3541454975d3bb00f5"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_P4F0VnEVoAqu1Bvmi3iEcwsS",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "sec2",
+    "model": "gpt-5.6-terra",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_sec2_terra",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:45:26.323Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "1b73954664c52ab8df3f1f821acae81469ea2db8e4628a7dba03497c99dc3214",
+      "input.json": "90d0c3e8ee5804ee6da9cd88ff05f891c9997a5e2edd8938e8b64b13fc6cb3a1",
+      "prompt.md": "5979134dc110b455a8d466dca9b254467c355f97a987727adce6b573cef1e5cd",
+      "package.md": "f3de1e740031b9eb9321d16535b4cb05773460759a1d225ef93acb0d4bbd720e",
+      "spawn.md": "b51e8a1b8cc13dbb27d1b27a8a68ea6469db1083f10de1de3894b7564fea23a3",
+      "followup.txt": "09bc1e837dae096482a24907b2dc7f54b1008b2d6e62db330a9e3801701a43e5",
+      "turn1.json": "678a1860609ff7142b66803efb0f3bfb5f63164656c1308c2fad4f2beeb95e84",
+      "turn1.list.tsv": "768c8f7c930a9d227a394322259cb98c94ab28d884b2f19e0eed1e59438d663e",
+      "followup.tsv": "72ad8f0e0ce2c6696b29c6054cb52017a8da65463012ae4dc1512a20f2b40fc1",
+      "list.tsv": "77ed378daf6ab69e8e3e7e1e311cd6fe011bf726cfbcd2fa592c991135ec153c",
+      "consolidation.json": "5999df95fc3e798a567f763bdbe147f5cbc3d40131e6b616af17668a5312d6c0",
+      "validation.json": "89158ac5f3ce529bfe2857844cfeaa71198e5abf422bcda5c02b7b907075f0d3",
+      "proposal_validation.json": "4c47b2b7ca09a4408d0144f6255107320997a67fbab2feb72f92b778bfd2793a",
+      "tool_calls.json": "ae4db314d2bb9f385131688e31b074e159f73c0de08b025e9c356cb975fb3a38",
+      "session.json": "6e6c4d122dc6819460e6dc260e14e15d318c94a80dfc78e3c7087f6aad119cd6",
+      "session.events.jsonl": "0807fcb1263d4b68baafc5223c0d0080b7dcbf53c28e97e939cc6aa67c98990f"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_zsfWoQMqU9gFbaf3rrmSor0i",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "sec3",
+    "model": "gpt-6-luna",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_sec3_luna",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:27:59.552Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "7880e16f25e00de2f8f8eee6fbbb692b645e05468b07260d1ada8df2a000ceaf",
+      "input.json": "b56e57735f6ddef93a407c131c083aafe25a5245f491cdfa693b914657bb8487",
+      "prompt.md": "23ad7c6139b8f72c9312f51ebc7cc3ed00a52938a675c1469dbe78af5b1a7375",
+      "package.md": "9e66c7eb21a77fecacb51375c32666806ed39857f7d459039349433fb500f8ec",
+      "spawn.md": "764da0d066e2e8a5acee1252c5fccda9c22745358fe97124b39a86167c2ebd8f",
+      "followup.txt": "a3dcfaf84661b277be0c3b951d29755bb22654451c740f950482760fd2647f42",
+      "turn1.json": "0524edf51b37f9ebf34ddabf8768b80c2624f8ba6350431717e656905df89e6e",
+      "turn1.list.tsv": "c8b283b8964b0285e729e39323c66ebb2f479371b3f7d3526611a061297c98b0",
+      "followup.tsv": "e0feb7ea72e3943ee8fa6e0ad3b8f4606453283fd459eb7d0ffb77c9d61db34a",
+      "list.tsv": "489f806055735be54fdcc36a1454cce963a355a60a520b79cfe67adb4cda4f68",
+      "consolidation.json": "e4092a865bc69f563948f30293b352fecdedd5e01c8d56d7ea3c4a8374fc8cac",
+      "validation.json": "b00d853fe735e64263f83d60d156c4aa61be1b7c4fa6cd97f866fdda870bcee4",
+      "proposal_validation.json": "251c878d343323001e1a7103c292ff402cf97f31ff8c92339bf43c3aa7217698",
+      "tool_calls.json": "100b8fb77a46618c89bfe3ba74ea48669677891902df19bdc5b14d81bb546c70",
+      "session.json": "10eb73af29e38eb57119005fed7521bd1b559c9bd95a016060688fb4a31dc600",
+      "session.events.jsonl": "709495451fcfc48de74048f668d471bb24a48bfa893190e1eba397a3d960ffa1"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_byjA1hPkh8r6daMGmgT1Yxgo",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "sec3",
+    "model": "gpt-5.6-terra",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_sec3_terra",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:24:47.722Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "9b77a2dffad35515ccaf7b4708b6814541d5a77274ca87963f931d037fdafd23",
+      "input.json": "b56e57735f6ddef93a407c131c083aafe25a5245f491cdfa693b914657bb8487",
+      "prompt.md": "d7fcc924f0b4fc62d12bb312087254db8766c7812d3c727df77cea00daf4af45",
+      "package.md": "9e66c7eb21a77fecacb51375c32666806ed39857f7d459039349433fb500f8ec",
+      "spawn.md": "28660861eb45fff79589c2282003a612419c966e3e769f49c24d936627154632",
+      "followup.txt": "7451702171804f04bd94451a74d5cffd2d5f4b24a441584f4687f37c64249baf",
+      "turn1.json": "1315911aabde40adb937ffd70426c940d2e8db829997cb896a32a2741d41a6ab",
+      "turn1.list.tsv": "d43550c4fda6d9bbe9a463c7e823f3b49e5cb65560d8e0f9e3beee81d911837c",
+      "followup.tsv": "7064c8d1cd8609cc306abab833e23fb83bf63b91fe14ec02c046d2753b6151fa",
+      "list.tsv": "67e03cf319354f46f533263c25f1001df5ad5b12f4ceac42792f48d3179551b8",
+      "consolidation.json": "c9b6a1b5449f712f6fd03679250509e51c591e75cde15e4d3e356ed1ed5b72ad",
+      "validation.json": "0560b7060b1c24143b5174810a7b45a940030417e508851d89a25023daeef5ec",
+      "proposal_validation.json": "b15d746a1d874b07a9ddfdb66e3cda217975c771b7fbe02e3464094c5a11c6da",
+      "tool_calls.json": "0a3a05661254d46d2a3eb7f1c20c6ff0f7a242170b0063ec2834aa102fd44887",
+      "session.json": "2cbb46c647fae3257d8e4fdfa8a72e8be30573792679c7978efe188b9e447c1f",
+      "session.events.jsonl": "db463456b87efaeed45e9276f7b602c9016d54f4e410e8f2e455a4b05a3ae8fc"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_OcDjFfO8iA5b1vv2Aa8cW5nF",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "sec4",
+    "model": "gpt-6-luna",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_sec4_luna",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:26:26.734Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "e04ea0ebf41b452be0c93f340df0f2721a1ddf3c16d3ef37b5d84be43fa24c72",
+      "input.json": "7818aaf9b008ac7071d36d11ab7d0643deaeac86b0704b7293d10b1001ab1471",
+      "prompt.md": "a675732af31c5c989e80c3c9db063759d73496f8da032854735de715307379d1",
+      "package.md": "f1e6c59ec53f61f6f9df82875a13c7a5904523d5e80be2c0bf7caafdec5ce3a1",
+      "spawn.md": "8b18adc65905c6d53d062f52492a289d3dadd7efd320bdc2cf5916a8a1c6c4fa",
+      "followup.txt": "5dfc050576a06313d1ace23e7fda68f4c52b8ad7a436e14db77d29e00038dc8c",
+      "turn1.json": "325141abdf22ab09643aa95858767bcd5f7ec95a76174971b846dd21cc1e02bb",
+      "turn1.list.tsv": "668a4953a3b98199ce5a418315b2dd6c4742f1a1e44067a6aa1ff260fb0434e1",
+      "followup.tsv": "bc053b56ba8e8adb1186ebc0107a9db20935bf6142ac79f80a824180df2a04c4",
+      "list.tsv": "db0718877dd1768355bcab2cd26dffbfcf6013fd9b697403bf417d4e59b6f186",
+      "consolidation.json": "dfe28ef049dc1d602d23a022e51b8c18f42fc81fbbe7d06f3848bb43421e9880",
+      "validation.json": "a6f764c7820884127bf21852a6272739fd8aae781ea7249c60be6878e6d15f11",
+      "proposal_validation.json": "ba59d6421b457cac0e05d74e0934361546e315df888d3256968de18c3c271c7c",
+      "tool_calls.json": "8e2d1d0dff9e8af0bd512ec9e46e561297dbd6c01b3a3e215aa83a128ad938b2",
+      "session.json": "35f91581bba9e2a1750a506b5cd0b0d0c7bdeff7664159105f5c4c31f038c9fe",
+      "session.events.jsonl": "d8532e0e70d715268d88435fb843e11c5fc44812c1917f69d5fd51c66e249ca0"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_9otvOcv0jmb35eJKyxUhIlrs",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "sec4",
+    "model": "gpt-5.6-terra",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_sec4_terra",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:28:22.208Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "0fb5bc15a28a71f20a58769e43319dde1989634a1329a88c3b15ac70c7c09702",
+      "input.json": "7818aaf9b008ac7071d36d11ab7d0643deaeac86b0704b7293d10b1001ab1471",
+      "prompt.md": "d8d7240884ac75dd8732af3b899e9f24396884af76c807d8b6576dc2fd5e8b80",
+      "package.md": "f1e6c59ec53f61f6f9df82875a13c7a5904523d5e80be2c0bf7caafdec5ce3a1",
+      "spawn.md": "607a1eec19724a1663f83ef2eee2de3d03e32904f8f7232acc857d0e48703001",
+      "followup.txt": "5c5787258a7d1607a7dc8b69a10b3aa6b7256f28c954214dea425c1af3ba0988",
+      "turn1.json": "89ff45e6a1375300548ed3bc891d829cc48e320bcd8412da35ee9fdafa5fc660",
+      "turn1.list.tsv": "c04db5e432f0a9668d1e61bff923f8fd720a2b4ddfdebee7963c0aee93739477",
+      "followup.tsv": "7782f0eb532ce05414239c0608707181aa9c3b3e3706ee78e342a7b4148bdfc1",
+      "list.tsv": "856561a90bdeda24bef7ded14cefcc90c73bcce9619115085fbd8bd702bed350",
+      "consolidation.json": "435d422a7fa807e6e2c981f438187b058dfb57df95d30bc95caa397fa23e868f",
+      "validation.json": "81951f992e654367b2e48815b41d1080c9f4f3192cedcf33bfc7d6cf42137be9",
+      "proposal_validation.json": "a010a06c36fb04fda361c26e6ba408d61628fc29203aefde7f2a7222242b0b08",
+      "tool_calls.json": "b5eeac6024f172507d3751a479e6cab318cf7fa63ce8db4395ce38bd5f02ca8d",
+      "session.json": "76670273b6ed34ab599ae1294efd9d2858cd11d255d8726d60730ba493787759",
+      "session.events.jsonl": "2c191c403e54c9aab452ee74503005dff1536f42e0038204eb3a0072e85b24a4"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_d2fae491671745ec8aaa9c2c322e2cd4",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "sec5",
+    "model": "gpt-6-luna",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_sec5_luna",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:28:50.344Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "bfdd91789dceb24b6bf1124420b992d973481b013c963eb362cb04fd1e003c1f",
+      "input.json": "6adf421441d0fbf70a367642fad22bbfe6e23b63ac28396555673b048813eb2a",
+      "prompt.md": "2f56f4cb33da3c9309f8e508230bdc0e7840e82efff25b18a961d039fb1c6734",
+      "package.md": "fc358ec73c7031af4fe7eb447ce88069d5d5caeb6a987cba1f849dabfc9bc986",
+      "spawn.md": "f5fb73b19fc340dba7ece43e0daf472b668f213b7f350c9b272ccf9f993f6bcf",
+      "followup.txt": "b0f6cabe1709554cf64db56d50d7ffff7fe147caf345a8d53065cafbfac04b89",
+      "turn1.json": "9c5916be46e17de8cff53cb9201e6e89a7955c76191db797e84aeaf5bcf698df",
+      "turn1.list.tsv": "71c51026a019a1cbec790d3aeb638d1ae62538424858b18d4c9f5dbc49d77857",
+      "followup.tsv": "ec95990d434de811e8c85d9620d560c176e4cd39d2995a5d4278e287875d701b",
+      "list.tsv": "83d6f579c6e7e159a4cfd5a3a0b048d61c40af8743e2419581644f386df9aef1",
+      "consolidation.json": "8733d89d2765cb94db5d5d45cf27bc7e1f1cc04e79eda763a635d55504895dc6",
+      "validation.json": "1fdf5a97bd9947d7d04a0f99e1665b7d48896351a0599d0828afe157597f8e03",
+      "proposal_validation.json": "32d23ee2860b69c039c122480b4f750320a6700520f41c7567dcaea3072e30ca",
+      "tool_calls.json": "58bf092946385ac9516e1c82066bf7c257e2d7ba1bab2b2946dcb7f7612b623e",
+      "session.json": "847e58d5c402fd14872cf18b89cae95a9f916edf868f82f5482ca2ac46a0f801",
+      "session.events.jsonl": "d0208af2bb866de34bf35a4a3dc76eba08de5ccb69dc9cd5b368615b45dd112b"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_6fFudV3cFa2XYHzRveDkfAwr",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "sec5",
+    "model": "gpt-5.6-terra",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_sec5_terra",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:57:46.767Z",
+    "status": "accepted",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": true,
+    "followup_repair": true,
+    "artifacts": {
+      "started.json": "dc77b6d444a4753216819deb9631abd657b2d40b4ba548a95359dac7c4de22bb",
+      "input.json": "6adf421441d0fbf70a367642fad22bbfe6e23b63ac28396555673b048813eb2a",
+      "prompt.md": "f11ce0d415ffae91976e1e8a83cc6a6f7c3d9771d9f273c88775c7b5172bcee6",
+      "package.md": "fc358ec73c7031af4fe7eb447ce88069d5d5caeb6a987cba1f849dabfc9bc986",
+      "spawn.md": "1157318e0b0016d254a14231f8acc6ca1772dd847e952bb564079e95a15615d1",
+      "followup.txt": "7bc6e65db853ec9a35c0f6bb9f866b5c560398d6991962584d48b990ee5c11da",
+      "turn1.json": "f44b89116e1e39648112e8016d61df67153f5f8a4207447b16aac16a9a4c4c99",
+      "turn1.list.tsv": "b58cd8798cdf980c849caa7c28c7a5d85cfd335d1fd591f75d4dfdefb3c42a80",
+      "followup.tsv": "85dd9bc0c8ece3b783f3be0597751cfe9ec304af4c2c9d3749ccbe8f2190dbc1",
+      "list.tsv": "b8e52b6a860db3ce011b6fcd8f39c0781263f330a3a36caa9b16618c71c83f1e",
+      "consolidation.json": "9039e50bba7ef9dbc0439ab6d55c2152199a07f488ffc5706911e32a7cc0171a",
+      "validation.json": "c8a8b2e6687aaff26e32492404b77cd62b1248c427fc3006d9e02460d83b0ffe",
+      "proposal_validation.json": "2ea13cebbcac96476c8f37e470ecc858b5e2f0728cd5869c70501d599498fbd0",
+      "tool_calls.json": "d8519028ee52571af0a0b1425e924f10bd3762297432556a44cd8d1499eb20a5",
+      "session.json": "7f746eddb0b841d96de2e2f6a1b33c62cd8a741d20563d2998ed7bca25ca746d",
+      "session.events.jsonl": "851b53762b3291bbc0a1b16fcf481595de9b218039baf64e58e0d87ba20ed3d9",
+      "run.failed.log.json": "2b5aed26b867d6dfe956c246b39910242d257c5b931512ca1cda434fb440cdd3",
+      "validation.failed.json": "150e590375c5b5c098961344013e7e035ffaaf581951714f4b0f454fe35c57b5",
+      "repair.proposed.json": "00fa5a4e61f21a5efc0a2850414ed50c1a4aa5a7397be33a0aa13d8d9000850b",
+      "followup.repair.proposed.tsv": "83097d2e88ecdcf95c8eb6c9058936bf7ebe99ce02757f9c6c24740e701209a0",
+      "followup.accepted.tsv": "83097d2e88ecdcf95c8eb6c9058936bf7ebe99ce02757f9c6c24740e701209a0",
+      "repair.accepted.json": "ad52e138c5287ec746ee68cf9dda7a96bffed7af5856be279bdc1c53efb37a8c",
+      "turn1.original.tsv": "b58cd8798cdf980c849caa7c28c7a5d85cfd335d1fd591f75d4dfdefb3c42a80",
+      "turn1.validation.failed.json": "150e590375c5b5c098961344013e7e035ffaaf581951714f4b0f454fe35c57b5",
+      "turn1.tool_calls.json": "a2313124d2b6543a3c23975c0098d66e01e37751fd546c07ab0631a33033a68c",
+      "turn1.repair.proposed.json": "3b0e56f3f58809de644bb438f89244b48612f76898cde7f669b5306d515fffce",
+      "turn1.repair.proposed.tsv": "8b3a38ec3c7f9a2ec92bb7361301826da3a6f55be9b5b24d47d958e0518dd4c4",
+      "turn1.accepted.tsv": "8b3a38ec3c7f9a2ec92bb7361301826da3a6f55be9b5b24d47d958e0518dd4c4",
+      "turn1.repair.accepted.json": "6d2809296948fa9c85a1a9af4ef5301da0a4ae1315d87af9ef6399746ee31563"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_hqvVmekGXii0IPZW19Cudz0P",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "sec6",
+    "model": "gpt-6-luna",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_sec6_luna",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:41:15.835Z",
+    "status": "accepted",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [
+      {
+        "call_id": "call_oJGLVtMn3m7spd4y9yQNHGUr",
+        "message": "Script failed"
+      },
+      {
+        "call_id": "call_oJGLVtMn3m7spd4y9yQNHGUr",
+        "message": "Script error:"
+      },
+      {
+        "call_id": "call_oJGLVtMn3m7spd4y9yQNHGUr",
+        "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec6/luna/followup.tsv:"
+      },
+      {
+        "call_id": "call_QqEz5oVhTw7VmABucE51sDKp",
+        "message": "Script failed"
+      },
+      {
+        "call_id": "call_QqEz5oVhTw7VmABucE51sDKp",
+        "message": "Script error:"
+      },
+      {
+        "call_id": "call_QqEz5oVhTw7VmABucE51sDKp",
+        "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec6/luna/followup.tsv:"
+      },
+      {
+        "call_id": "call_3fh630QfG2zPIzRWmN7aAkzM",
+        "message": "Script failed"
+      },
+      {
+        "call_id": "call_3fh630QfG2zPIzRWmN7aAkzM",
+        "message": "Script error:"
+      },
+      {
+        "call_id": "call_3fh630QfG2zPIzRWmN7aAkzM",
+        "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec6/luna/followup.tsv:"
+      },
+      {
+        "call_id": "call_4nrCoxR39s9YpWqtUnlribFl",
+        "message": "Script failed"
+      },
+      {
+        "call_id": "call_4nrCoxR39s9YpWqtUnlribFl",
+        "message": "Script error:"
+      },
+      {
+        "call_id": "call_4nrCoxR39s9YpWqtUnlribFl",
+        "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec6/luna/followup.tsv:"
+      },
+      {
+        "call_id": "call_85bXKfpnYn638NTLA1dA5V17",
+        "message": "Script failed"
+      },
+      {
+        "call_id": "call_85bXKfpnYn638NTLA1dA5V17",
+        "message": "Script error:"
+      },
+      {
+        "call_id": "call_85bXKfpnYn638NTLA1dA5V17",
+        "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec6/luna/followup.tsv:"
+      }
+    ],
+    "first_turn_repair": false,
+    "followup_repair": true,
+    "artifacts": {
+      "started.json": "376599fd9d5080f1f1ff40b6cd19e00bfac47e808015e47e5f801ff42c7ea00d",
+      "input.json": "11d1affe33ee433bc9fc83a3de52cb6ca029837d10b0b4eb1543107cf28f94fe",
+      "prompt.md": "c8c9285d7846bc14f016e686d22ca0f4ccc8f9cb0b6ef84b7d0f776b2de5e1ed",
+      "package.md": "3a743032f108cef2b42f261a7922f367f9128dd7ac6e57ced85c0b1729c5685f",
+      "spawn.md": "98ed59af56b59c0e7901c98d9ce76b5489bd2bfb3b9255021f9694a40b5ec9fd",
+      "followup.txt": "2379451f9fa796d6732277b9402456029238c35f10caba4f95de7163ec9f0645",
+      "turn1.json": "e3708c0c5d809b5dee7fd3b20330e3542270527c8537be70e4a10c63a44b88fb",
+      "turn1.list.tsv": "81e118ef9ffed0840ae8068c7f3931b517c41680733a994540d89fd051d4ee98",
+      "followup.tsv": "a595eab0e023d8a9907c27b4064a034651890095908f4d38bb63776b8fa0906d",
+      "list.tsv": "0fa0643bbe3c04ca1b2aa20297f67bc4d22264715ce7f1f91e63303d6cc05547",
+      "consolidation.json": "ef5bf8b2f37fa28e0580693d16bdec19821bc72556b7cc464e5063f281c7b536",
+      "validation.json": "966bd0106c084f2c1222afb83587ab1a9d637f0ac4e271d95828a9ecaa256887",
+      "proposal_validation.json": "3dfc1dbae2a320fee364b3827aa0e66374847aa53e8524a457390df8aa9a529d",
+      "tool_calls.json": "01c76ce62b11cc43e19ee12b17dfe59bbe6b6569fcdec00b37df4a3dd16a84df",
+      "session.json": "b0f9f2ebea609dae9b9fd6b4ef6ab2b95717c9f74033cbfbb11fed72f844d173",
+      "session.events.jsonl": "0df99cb63a8a1bc23d317ffb2d34ad0ad9c0bf70fee085668ccf40b087aaa7b4",
+      "run.failed.log.json": "59e15f94cc8c3fe71c77f523f1f93687ab02db58447f928101853fd97b5b3970",
+      "validation.failed.json": "26e1ee044ecd9d86b7a526674eb4f6a24c7daa433df4c7f0d36430ded0df5f10",
+      "repair.proposed.json": "ad806eb9964e5e92ebcd0d81bf8d79c46128d016d340310ae9e5406bdfa207c9",
+      "followup.repair.proposed.tsv": "2f1819dede3d832620afc8209322017fe6c4391fbfd910933e22f0d7eaf404db",
+      "followup.accepted.tsv": "2f1819dede3d832620afc8209322017fe6c4391fbfd910933e22f0d7eaf404db",
+      "repair.accepted.json": "4e7c9d863f8b86be8ab7fccb1b9defe60cb4c8eca67d20adfa91491792ccf035"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_bdc1a4a097654dd5a36cd01f9e956fa2",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "sec6",
+    "model": "gpt-5.6-terra",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_sec6_terra",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:56:41.289Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": true,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "781db07519b99a109ef7a8f4fd55c49f160f5f3f28a7fd9efe5e5e85072a3f1f",
+      "input.json": "11d1affe33ee433bc9fc83a3de52cb6ca029837d10b0b4eb1543107cf28f94fe",
+      "prompt.md": "eaf788c90aebc2cb46a13b83dccd9bd10103208b969d1ca3ce803e95aedccf1c",
+      "package.md": "3a743032f108cef2b42f261a7922f367f9128dd7ac6e57ced85c0b1729c5685f",
+      "spawn.md": "305741d001f38e2e6d18f04efbb6991d74cced5679541d6aeb4a3323292c1d6e",
+      "followup.txt": "5e1045290f15c45024f65ddebf50f1181dbf5730000ed796e819dc44d2154e04",
+      "turn1.json": "46057379c8c3c16edffec4d3c82f352ff805ef86b1140f4d9b7ab13994f5a1e8",
+      "turn1.list.tsv": "69adea1924dbef7fd84b80b4acf7a5b88ad3c53be0600f25eabe96676fc6c601",
+      "followup.tsv": "143cd87d7c8517303c08a976adfb4a6c7e5b3b3627417769fe7ba8e7ca2dafbe",
+      "list.tsv": "17f2da4616a3efb7e6d1435471fac92fb9885415a4961437f3e696e6916d748d",
+      "consolidation.json": "4dfe8c83e5b1afdc793bbdb16ceee9557c97460d96592f965eb8dcc160cca4a7",
+      "validation.json": "c254682b64475acb7e1763b0353529eae01e0e9be1f5ab219a36c21f678a13a4",
+      "proposal_validation.json": "58493bfa3560d2526361dcc6d60547ef65a4c7f22ca9715d9cc7d139b50a8449",
+      "tool_calls.json": "3f9f84f1971c3e6ef9339e851fc85139c0fd9927c2f957ab49b9e0ccbc11c63a",
+      "session.json": "02c7f29a6f8be5aea4fa35d7653c62fef83e777ecb548a33ab2b7b7f7c238235",
+      "session.events.jsonl": "0bd05a3b1a666555229dd913a1c84a9424cb09a5ff125cddd3081e93626d9e64",
+      "turn1.original.tsv": "69adea1924dbef7fd84b80b4acf7a5b88ad3c53be0600f25eabe96676fc6c601",
+      "turn1.validation.failed.json": "ecbd34117dd29a76d4ccfdb72285da13ecd0bff4cabb3996f23fedec346c1dbf",
+      "turn1.tool_calls.json": "b44ab6dfc5668b6878ad863306bb243ce2edb9ad523f2d238ecdab2f1f5ef071",
+      "turn1.repair.proposed.json": "d79b3cce5557fa55f3f6d169f8acf3cb9637a14009b7cfee951d45c4252ef742",
+      "turn1.repair.proposed.tsv": "2b6460964f88b919ada197891e2e54c6299e6f5f76016a678111d2629cd28c6d",
+      "turn1.accepted.tsv": "2b6460964f88b919ada197891e2e54c6299e6f5f76016a678111d2629cd28c6d",
+      "turn1.repair.accepted.json": "4299ba3338839fa9e93699db42e33ca2c768957f0f70137a159f10d23a0e0711"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_kq2alwR7QwkKMREtuMkQR1B4",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "sec7",
+    "model": "gpt-6-luna",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_sec7_luna",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:44:38.384Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "39a2cfa9dca3c26abc891d5c0a48c35a4ee33effdc00c14ee6a2a74324e05443",
+      "input.json": "7b101f96de1ef6920187969ce7fd4251e6c217b3daf3a0f5488a4042ad027e26",
+      "prompt.md": "68ece6710f31dca6b9a23055393fe48fbcf64272f0a5b985de5c272c15050395",
+      "package.md": "7619b7e3765c3841ea4c02d7b3a6ad7d662084987607a0224674388346fba469",
+      "spawn.md": "08730421930b60998706252335393964e8f184d80963a681a1a4860ba6f7ea39",
+      "followup.txt": "8e3f50bb661462f0832518e3e30346c4a2db7b73cf9388db999b0b25bc38eff6",
+      "turn1.json": "fef50142c8cd66d947c8f9688b2d8bb17322b8c49ab14ffc9e944437c0d59d99",
+      "turn1.list.tsv": "29830a135d9f9a4b24defea53d6e7c112a55e3c32fbc307aaedd383550d83aa2",
+      "followup.tsv": "279fff654770a6b86bf330da1e051eeb2291c4883822c7f4275540c84a4ee9a6",
+      "list.tsv": "e70fed6c433e496c33d0a1d51c0bba34ac6638c2d9d7d5beb4c5255c222a12ba",
+      "consolidation.json": "490b0e360a194c6f830fbb933a9529c0264a2e90741ca44baa397a188528e602",
+      "validation.json": "0951d18df1f6c821a6df3ab0524578fd28421a4c454596103bb2571cdb451b45",
+      "proposal_validation.json": "7f680eb77a3c71f8da661287280264cc920acf0ea70ba5a237ff21020d539983",
+      "tool_calls.json": "e2d6cc989b488065db1457d4a3351e872a75ed4a2e67a7cab34790e2346425d7",
+      "session.json": "551c99c011d0fdadd3a64abbd2acb48e9345ae844680b56a6eed6c6157f65cd8",
+      "session.events.jsonl": "4477fbb0148636f26492f2fa747feca6f6a413d563a883e15e3f84aa9ac65110"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_YJsanbtA64jGBoSEFoBSNnb6",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "sec7",
+    "model": "gpt-5.6-terra",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_sec7_terra",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:40:27.812Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [
+      {
+        "call_id": "call_bttsFf3ma92BPYAT0Y0lG0U6",
+        "message": "Script failed"
+      },
+      {
+        "call_id": "call_bttsFf3ma92BPYAT0Y0lG0U6",
+        "message": "Script error:"
+      },
+      {
+        "call_id": "call_bttsFf3ma92BPYAT0Y0lG0U6",
+        "message": "apply_patch verification failed: invalid hunk at line 35, 'göklerin Tanrı yüceliğini anlatması\tGökler Tanrı'nın yüceliğini anlatır ve gökkubbe el işini bildirir; yaratılmış âlemin kendisiyle yaratanın bilindiği görüşünü şiirsel olarak kurar.' is not a valid hunk header. Valid hunk headers: '*** Add File: {path}', '*** Delete File: {path}', '*** Update File: {path}'"
+      }
+    ],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "9a7bdc291924275ab04331dc3f9a68023ba01d7f95c65866d38848b9c9fed70b",
+      "input.json": "7b101f96de1ef6920187969ce7fd4251e6c217b3daf3a0f5488a4042ad027e26",
+      "prompt.md": "97fd841cd22c468e6113825795a1c0255ca76ab3b05c79922e0b7806b8e2296c",
+      "package.md": "7619b7e3765c3841ea4c02d7b3a6ad7d662084987607a0224674388346fba469",
+      "spawn.md": "c45de5b954bff32f268f934700cd9410bfb9562522db049fa5ebb2d0321b425b",
+      "followup.txt": "3509042971a752f6efef8a906482d19a7cf96788095da9f554e616dcbd49b815",
+      "turn1.json": "038c1582cda610b82a5090aacc63e3a2dc0efd9b33fa7f525d6f504c934bdb00",
+      "turn1.list.tsv": "fd45b3c3c692e536fddd9ecc4a79994b43ec9fd795dc11825c71163e4283738a",
+      "followup.tsv": "55a2ca0c0f2fa783bd147f84350b29e5c90110de8ff883e234b2196563cc1b4f",
+      "list.tsv": "e8f6a1e82cad40bdd13cdee68a141e31995053685fedab0546a16a7436fc3889",
+      "consolidation.json": "3ef74ae826083c370b031a67477377e612c0d6c97642d658718928dd44824926",
+      "validation.json": "a865c493e2ea0f54f1f153e57e939d56e271561d613b13d68d1681961b9eda9f",
+      "proposal_validation.json": "be18e2ec034344fcf2394c284e7987fe1d78c67594ec01b6e377625fddce159f",
+      "tool_calls.json": "1ab92486420c69425795c72998c52f34d871f2ae53d87619dae73b5e8d8d15d9",
+      "session.json": "129a21b7db32d82d456c91922925e7b4608016d500403c574ae0631c748b3086",
+      "session.events.jsonl": "1f27b5c6ad1c19b2b4f90393502d7055b66ee76aadf28978a1dbbfb9055f8f93"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_SZsGrMhOzsTI2t11GXS5Id98",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "sec8",
+    "model": "gpt-6-luna",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_sec8_luna",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:29:42.172Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "f7058f375614f41fd54e2b4ac7cf6cf547e344a9e31a03788eeee82707da5e80",
+      "input.json": "db990536e5295af003e81b9f985aceaf065ace3cff28570e925a6006b65a90e4",
+      "prompt.md": "8abb173db15dd30f146e9152d4e20916ba9cf8c235e0da50339fa79134b5300e",
+      "package.md": "2407419109e6dc0d76f36a15ede1d5b73eba1dc1ea4b0b730ebface203878f17",
+      "spawn.md": "5485a1611c9b493867b4fa616b3e6cb2116d0980bb239270299fe387a2ef46ad",
+      "followup.txt": "66d24955e61539369d1927b03b9543678f2b97ffd89b52e50052b397a0d70f11",
+      "turn1.json": "5ff492375797a6553a58404a9b89f46b8b75d3f68991a2d6b67a06b954662810",
+      "turn1.list.tsv": "48537bd8bc51def49a7ed0f2f3b555fa20c3bde1db769afaeafc700a58ca42d0",
+      "followup.tsv": "db42b858f4ce0342e928fbdc755ab99d0e1fc9df0c00b35847b4fc444043cb25",
+      "list.tsv": "7eab2f7d159c2320da6f79467829c7cbc627c039b4efa4aee1e7b0ce8f6cc167",
+      "consolidation.json": "344802e39324e030a01b5a7eb5adc2345065e33c97d1715cde538373536d50f0",
+      "validation.json": "13ed2009ddc0c830c264b9909077b342980a7c4cf724ea2b8d94eff86ee8c69f",
+      "proposal_validation.json": "5deff8cfa6f0bd3c0bd4279b239ec29b66002996f3a8b21be082147b39e9f4fd",
+      "tool_calls.json": "94e888cd56762293cfbebbfbefe9965c1c7ac83d3f9327e3af237c5f33d471ed",
+      "session.json": "c81592d624e8645422a80fb6c78652f6f743651f73fab196d5e74fb7960aad55",
+      "session.events.jsonl": "2d3f2d737fb6bda852d4ba482dda666be88388e4e11e9f1eee6ef9949f577342"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_XrxiZnjm3zYe3DMkRAeLZGx0",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "sec8",
+    "model": "gpt-5.6-terra",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_sec8_terra",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:44:03.226Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "e6a00e1e4ff7239b40e39a7fd0ee6cad2f9c190d54df9a57032393ced45ad9c2",
+      "input.json": "db990536e5295af003e81b9f985aceaf065ace3cff28570e925a6006b65a90e4",
+      "prompt.md": "8dfb086d316475ca22ecf7dbf05988685eb1aca936bc001c891de18737fc474d",
+      "package.md": "2407419109e6dc0d76f36a15ede1d5b73eba1dc1ea4b0b730ebface203878f17",
+      "spawn.md": "078e23a5372d1637aceb57a2aad51790b09faaf4e57785dc9655a33a9c0bc094",
+      "followup.txt": "bccc74a6dcc06d36724ed5bd7de198db17512c94e02ce25686cd66ba8f7e0f2f",
+      "turn1.json": "477cc6010de2b47146950bf29596520ecaa4cd71784104230d2cc148e2d97a56",
+      "turn1.list.tsv": "947fe678973781c0da221137f2ad19831f9f9591491b73f640dd904fbef213b0",
+      "followup.tsv": "89acc953107f111ceefa42340cf428895723195107eb0c6b85ee458699effc1f",
+      "list.tsv": "eb12753ad7b803f2c31455e411de6777d887991d625cc715879e2138308e96c8",
+      "consolidation.json": "9a5bd28d5e4ec9e25b1c6d5ce8c6cbf61421d103bc74e96fe25ff3764d6e3c72",
+      "validation.json": "4bb5294a4dd0ef8a040896526f9bd5a24cbbca127e93f56cb38bb6cf78a99a51",
+      "proposal_validation.json": "8bce18d1cac48beede51c6b238396f4ed546b2cb4a387f098e3744181ca003f7",
+      "tool_calls.json": "ef2617f3e84db5744b9e237ae5a58a790e0d84b5c2efb126f325093e924d18e2",
+      "session.json": "a04efecf9c454d1e154444e10d600a70fc32266867cc36dfce0a2f545ea54db0",
+      "session.events.jsonl": "135097ae87716b54b1bdb79fcda4b906f6c1dd74013c973ee6bced21aee55a8a"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_cad78e0bf21c4549a98f8f3e2e547b0e",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "sec9",
+    "model": "gpt-6-luna",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_sec9_luna",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:41:14.456Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "a036eb25356f53ede25942c15751926886e5dbffe566cbe6b2dd2ba32f723ecf",
+      "input.json": "9648bb71fa11c1a7072eac02644406798676234f88cfff02a7b8701541606612",
+      "prompt.md": "8a6c6be4118055bba1ac3ecd631aeffaf417352eba4db1c987b5cfac2e3f7258",
+      "package.md": "9c3c5cfc4a212c9ae6f82c03a524c31383c10f55b6f963076503750c7c67a418",
+      "spawn.md": "c2b33cf495373e075784bfe910919ee09a6309e693d03c9f65943b6390e3ec73",
+      "followup.txt": "722687421d97adb7e469577a31df5e78d3062a020f960ea665e6f55b783f18a0",
+      "turn1.json": "5349383ff1d5e254f0f98bc99377db8feb97e1fc4ac1a089fa3159ca9bac79ec",
+      "turn1.list.tsv": "cac24bb6617a4940f29396df91f4b44703029716afa0135ade3a90e052bf78de",
+      "followup.tsv": "32cea07dc8042d5ee8e576f72e2632b5d6c30cfc8b7e952016de9932ef7c0e93",
+      "list.tsv": "dbf07727974aed5a3e22b7a05a4be3335107a646de45fa73eab371bdbcf8beb9",
+      "consolidation.json": "185b72698e2b34c3f5539af5058af1e47d03280369f29b827505d2a0962401ef",
+      "validation.json": "aede1e95b009c6396719b07a4b2b19a121b04d1f013e9b2a51653a9d10572853",
+      "proposal_validation.json": "f6d9788200bcf8f5d26e8bd366189540e431ca0cb4d4ee4d1f8c2c2ddc1779da",
+      "tool_calls.json": "c413603f36aaaf338e726cb550222362bd328be5175925d4071edd2b8b0c9c2e",
+      "session.json": "f3bdb949eb3436d08948574300561eedac26ef01cd1349ce569106d166d1d385",
+      "session.events.jsonl": "9f90ff9361a71968b2f84a8028ad1df90cb5a2eda519ce2f18d17ae34863f3d1"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_PrQqzVR7otQr3ekDpgS7xNO8",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "sec9",
+    "model": "gpt-5.6-terra",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_sec9_terra",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:57:01.457Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": true,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "d2200ae38d98591fb33e1b60073e12e7d3513be0fc0b12ffb7ea4fce14486e8e",
+      "input.json": "9648bb71fa11c1a7072eac02644406798676234f88cfff02a7b8701541606612",
+      "prompt.md": "c229a120dbe185c1c14abd4a9ac438660e7f19041d397cd831448986aa485425",
+      "package.md": "9c3c5cfc4a212c9ae6f82c03a524c31383c10f55b6f963076503750c7c67a418",
+      "spawn.md": "8e5df4b896d352129ae3df8ca7b7a53fa5a71ce0c01bef95e15ab806d11d43e0",
+      "followup.txt": "a406a3e9fe7ab0ccbc43f93a5a8bb6fbac237989d7ac23f6b0fc7078ea0a9af7",
+      "turn1.json": "cca27441ab71725e1b6b04cbc729afc4da5d628b09484688e212bd2940cd60bb",
+      "turn1.list.tsv": "2586a9cf2cc4678da26754abf5b14d369909f07766a2feb19ce7acccd5ba074f",
+      "followup.tsv": "51c4b98a8097b5cd6396c88e1dedc556d2dcbe91f0b25937e9894fc8acab96d8",
+      "list.tsv": "cb2dd96dd3a33696f37b7a8b515de07ab2839ca3218a0fb1e6b8df82fac58ee4",
+      "consolidation.json": "d4fd74daceb768622d6e6f6f519b9d8b73e0c563c460748cdf1bea874259ea31",
+      "validation.json": "dc1a26b006b836c4166a86e46ec78999259bdc70603bad144dce138edd452cac",
+      "proposal_validation.json": "379b87c53eeb33188a952db717f1f098b6a37b8a2efe89fe822e03677f7fff0a",
+      "tool_calls.json": "07a487d46f63994135b7c3d4f83f89bcc98e5925de47dd3ad3f47385af6b0408",
+      "session.json": "be166aa951db1387f7613de6fd483b67cf65b702503861b7da78c11573b3195c",
+      "session.events.jsonl": "8aa6c1b8bb7338b7e76a5da32f1c2b415b07b6ac36f63268e5c3c3c125d0d8ee",
+      "turn1.original.tsv": "2586a9cf2cc4678da26754abf5b14d369909f07766a2feb19ce7acccd5ba074f",
+      "turn1.validation.failed.json": "1518e6e01f87e2994b04c9a05b73a4777ea0e7805f1131c38ba98f9c687beb88",
+      "turn1.tool_calls.json": "1c08b8a8b8579f8e6405fb1413094c908ffa44ff2968b5700bc535b452f79bb7",
+      "turn1.repair.proposed.json": "a86cfa62662f1b127e63011bd11404eb0fac4ac01214c94dc6d38c5ad6408ba7",
+      "turn1.repair.proposed.tsv": "7426cf2700c049b3c8eb9cbc55d816a58922489193ca4b12491fd6f5f99408fd",
+      "turn1.accepted.tsv": "7426cf2700c049b3c8eb9cbc55d816a58922489193ca4b12491fd6f5f99408fd",
+      "turn1.repair.accepted.json": "00075e6f2b7f6fa0dc5903ad4ad9eb31348b33a0ed072e127bcda3d236120776"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_32rZ4ZmqKTe9EyUYDbwaprSs",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "sec10",
+    "model": "gpt-6-luna",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_sec10_luna",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:27:55.521Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "7b6854cf1138faf808fbc03fac3d7affc1de3352b60a41346e3486c161c18b40",
+      "input.json": "052e4c77d67c9cf4c720a00ae7a9a41a9dafb4d07fb1765dc477fcb34e140e63",
+      "prompt.md": "41e5b2ff863b16f8ae5b6013177ef2b53d87dd41c0122f1a4a561247a018c17e",
+      "package.md": "817579fbfbe5594fc098b7a50f378637e287e65cd54d6db01bd86f251ffc2ad8",
+      "spawn.md": "4a6278c8abf384f28c354d44b15dca316eb4ee27be93387b5be95c4ba236a7e0",
+      "followup.txt": "812c53621ac87c89ac37f3f788fb391c48f6ba7f8acd16b9e7e37f56cc2e7b0c",
+      "turn1.json": "ee5c6d5ebb893e57a12b1122d8a65137cfce0d864c8002251c74bc5923755750",
+      "turn1.list.tsv": "35d8add28bf634261d129dec65ab359348a39160b5a94bd7b7c51c1773f38167",
+      "followup.tsv": "a0af31c68e0fd9201747be668697df66ab39698fbefd884a7707320fc36ad545",
+      "list.tsv": "4257b3c4dbcc52e60f53b36c2f61368b8d7df2437b96f8cd49ed0816454a0623",
+      "consolidation.json": "2698fc0e733400d0c9bcf13d9dd2def368b81250eeac40c181adc6a2a6caf465",
+      "validation.json": "56aa3a530d62744f192b599607db61088d56c563fc7c7b9d6ae86dbd0855e3ee",
+      "proposal_validation.json": "56126ba3b7a9151c59ca3c1aa1ef72ac3f1a398f5bfe89293c2b20d0165816b6",
+      "tool_calls.json": "2fa04f0e0ffb2be86bc94cc8ebd836ef0e9c856b204aa31ab2f85be9ce32ebaa",
+      "session.json": "921bffbbf58b59081b75ad5b1fedcf9dcc525872c3d619adf5b1ae8d0a2433cf",
+      "session.events.jsonl": "fe798a4d9487bad5b7c58ade79bc7eb14acf03631a7dfc24b71396daa709c960"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_gmDflkFdZ5lQk6U8crwq89zS",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "sec10",
+    "model": "gpt-5.6-terra",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_sec10_terra",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:32:43.816Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "75d2cd28adfc1d31a654f54604a0cecc837141d3e1703840f30d87bd47d7a81d",
+      "input.json": "052e4c77d67c9cf4c720a00ae7a9a41a9dafb4d07fb1765dc477fcb34e140e63",
+      "prompt.md": "0d4713c9f4cd1e50b613f4d88ce8fe768346d67efc39bc1f13e549f23606d4e6",
+      "package.md": "817579fbfbe5594fc098b7a50f378637e287e65cd54d6db01bd86f251ffc2ad8",
+      "spawn.md": "5023e4c4900e4cc5ff979443d3e232e1a451fbaabbaa412a7544b2e7799ee1f8",
+      "followup.txt": "23f7157cfaee4dc9d76a6f8cf4ccb096b6135b3a57b9d7821fedd81cac2f90e0",
+      "turn1.json": "6ecda363410180867bf0dbbb937ea03052e7ac591d697e53e21d4d0557e446f0",
+      "turn1.list.tsv": "c5a46b771c76eae9e1dbe5c8c8881aa9c982b0f1b0b988bb313d5658db887db7",
+      "followup.tsv": "1b5239246ed25bc99018fe0b6e8c892893ab0592528c99dc69e7447ab511add7",
+      "list.tsv": "e65ad30f1a39d8ec4939a13f187be3060f4be3500c9ff77840be8df739136318",
+      "consolidation.json": "d01664f96766da2a0b765dbe83794858bd2f4a3fc67f87ac5c2523f9d82c0dbf",
+      "validation.json": "fbcef8c5b4fd7df8ef65415795a3c4f3df87a618ad25a28fc4aeb49a4ec839eb",
+      "proposal_validation.json": "373ec9073569ac4348ecee8a3bb63eda2fc11843db706a68f742d41695f1a85d",
+      "tool_calls.json": "dbeb8c94f53cd482bf7b3de86550de6b95b5da9ec4bac3d29604c578f535069c",
+      "session.json": "ba775d6717620c1558eea14636d2fb38f993a2202414e2d5fb82a49c2df3869f",
+      "session.events.jsonl": "b59673068f53b2e56a7a79ca6fc16a2270b76b0ca1765acf8b4758195f7f60c1"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_dM2eWjF4ezSJy6vjse9v10A6",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "sec11",
+    "model": "gpt-6-luna",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_sec11_luna",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:31:21.697Z",
+    "status": "accepted",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": true,
+    "artifacts": {
+      "started.json": "1353ad57eb98612913eafaccb3d8c74155c3e2f7070a774b22ca7d108f148b40",
+      "input.json": "5e8bb13606f3c195054c1bc24f1970ecdaed4faa5a8fac61359741acee804462",
+      "prompt.md": "5b1190236b0128ced40f940647419e1fc1a9399d08b7498f5d51aba2bf30eec3",
+      "package.md": "74f96a34ce00dce2d638578dff2621cf59875b550e4b6601e8c096d317cb872c",
+      "spawn.md": "d3614522553e95fffa568a5a9c695ca541928b7c56169d7e2d881a59a493f8df",
+      "followup.txt": "759769f123f4e059e2e8c4e35e287c08e52bb749f9a30d57972c40cede7b5830",
+      "turn1.json": "976b060b576b67f41022bcc4c70c202f737abfd155df05dbb022cee9c16fd948",
+      "turn1.list.tsv": "8e95ce1a0b48e2ec147ec7b976a59f2f603afc6979fa5bc56ecb4c2fab21f42e",
+      "followup.tsv": "e9416e4ad2e351495137ebabd154a121f5be42df94554b156262bcf716d5690c",
+      "list.tsv": "d966b9d89e87465ef25ea4f8abf1d98c1781a342c47aee54e6bf7731da8f007e",
+      "consolidation.json": "7c87267b62c3489690c0cd0a79585e39a3178982f2bb8a49131369b835d8f2af",
+      "validation.json": "331834f05903d3e6d5436f99ebf1e13311757412672815e228020983df76a9e7",
+      "proposal_validation.json": "5546d828ecbc9643d84e68ee10fc66aed63db5691216a8d8b293fb30340625b6",
+      "tool_calls.json": "3c601ef666cb9e302cfc535f4cbf602d9870acffd8ceda30f9c1c626629d8c84",
+      "session.json": "acd26912d0e719c9ccfe5e10bbe2ecb82542e25d8eb55b2b8e38b6f70a1003d7",
+      "session.events.jsonl": "5daeb3d1bdf2b09de7d8d7dc4a69cc05daafbc686e5b83bfb478a1fb95fa8061",
+      "run.failed.log.json": "40970dd4ea1a54884ffbfbe92fb8dbed6533cbff0098171a132ee82dfc062122",
+      "validation.failed.json": "93c70223521b648af09a213daea40f52159427c4718d49a17f497072d6713dfc",
+      "repair.proposed.json": "f9c687be74209b022c65041ba6a68a511f2bc01f7b4982c1288b68964590418d",
+      "followup.repair.proposed.tsv": "c3d1cec18e7e88128a8861579808f462f407d901048f1b40c0ffb32d769ce6e0",
+      "followup.accepted.tsv": "c3d1cec18e7e88128a8861579808f462f407d901048f1b40c0ffb32d769ce6e0",
+      "repair.accepted.json": "ac473f74f9b13358279e5d22c83edfe0d5cbf77de20406536f28764cb32abd6d"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_Za70U1rSPhrVSiVcdbFUrBmO",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "sec11",
+    "model": "gpt-5.6-terra",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_sec11_terra",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:43:28.462Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "ef9e5f1bb55ba37498e7c83b9a7080de84f3540ad5eb390e832b007c24c31e34",
+      "input.json": "5e8bb13606f3c195054c1bc24f1970ecdaed4faa5a8fac61359741acee804462",
+      "prompt.md": "236876d008e28dba4ddea4b60288bcc5be3abf005868bbf763d5ccc10bed90a9",
+      "package.md": "74f96a34ce00dce2d638578dff2621cf59875b550e4b6601e8c096d317cb872c",
+      "spawn.md": "162db1e38b6c9c8866ba4b227a6a065ef88b4a2cf4adac36e8da3286c19625dc",
+      "followup.txt": "b78eb6b616f5e21b4dcf0de6e582c6637ead407d170b50f56a09a9eab3773665",
+      "turn1.json": "fba91dfd9cb5be1727ec9a2bb86c6b3f0da2e7dc70b61321cd1524b4f7c48aed",
+      "turn1.list.tsv": "401713d03bf7683d8efb7eba5033dac4f5e01793304da6638f049498d43ad7d6",
+      "followup.tsv": "a8e134ec0a225f5d0475a7065ba9ab31c60dd527fb24fe45a809d38936950864",
+      "list.tsv": "c1b2f79d832e6a5419475b1a90e76d1978c88082caf679167ece05b19219fdc1",
+      "consolidation.json": "fd3c90f2710c879fd20f0bc262c6932c84ac5e282276cda26c26248e7d909149",
+      "validation.json": "4de2c6b17c58c23b4c6524a832d1681860fc4700a45bb46a8231513419e6e7b6",
+      "proposal_validation.json": "5d3622f6577c5dc8f491e461e4ae8b32ddc3fea803019d399d0b9645fc737f67",
+      "tool_calls.json": "12e75ce40f66ccb5e80913e2d5ab73815c048c424154588c1c6373b511e82fc5",
+      "session.json": "6b5056e863fe6a91273fe3b6c94d54b6183fdff16edff77061af9989cf150522",
+      "session.events.jsonl": "d22ee176266f660866559e7b66e41264762e2a2e9e974dd37f730dc05d21daf6"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_2CvMgbMI4M8RFwL5sfZEPokV",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "sec12",
+    "model": "gpt-6-luna",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_sec12_luna",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:55:41.523Z",
+    "status": "accepted",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": true,
+    "followup_repair": true,
+    "artifacts": {
+      "started.json": "e9e43a789ab55fb498165f76d67c04ded590a1e9b06bdb41021690779042c1bf",
+      "input.json": "53220aede31ba69d32f845b62b8e028da5016f50d7ea7491cad30488abcc5245",
+      "prompt.md": "9098eaecbed0e8c2ac207032776ec62db6aa8a9693b27ec21e1954838d3a707d",
+      "package.md": "16bc389f84fe22a83327764e099f5ef2786c6604b559216cfb07a501133d8456",
+      "spawn.md": "df9e026c4e06980c2e9a586fe52216435653586cc49972004ae4ab1f9669baf3",
+      "followup.txt": "f85d598f31a643df58aa1ad9835a2a16246e9fb086b033b8ea5b8ab21c2ff576",
+      "turn1.json": "4ca73f47033703d9d6e2aa4ccf03f9cd7084c3316a2fa02b5047f3c3bc4d2470",
+      "turn1.list.tsv": "621ed21755e844d91c180ebbb5d3e464b722dae3949ebae993528394eb95b948",
+      "followup.tsv": "999e1a18934d55729e31b84112a39edd604344f79d5da5e9cef57f80c0dbd19d",
+      "list.tsv": "c3860df4f50f7ac7ce7ce33d067d98aaa4ce5ecbcb0bfbd970413096fb783c62",
+      "consolidation.json": "2edd5e8df8327be4074f72c87a16c3ebe6d3b9866803aff80308d1825ec0423f",
+      "validation.json": "39e50e0ede499616bfecf9791d4ed159107ec92f372df783d7ab307405834dae",
+      "proposal_validation.json": "48cbb3a7fb2d00142b4e95a352a675659bfabf0b54805caaec5ae222efc4ac87",
+      "tool_calls.json": "0c1854a7d4eb5740f0b62e335854432a34e6d3504214a556dc4fee95a5b41635",
+      "session.json": "5525839573dd9fe774248ac44748b0f334fe49e10cdeff59c858e751fb48c776",
+      "session.events.jsonl": "df9f923f5d94ebc96a5ed6d65bae9da750beeced7e6c90a2195c9d0380a3dbfd",
+      "run.failed.log.json": "c0b85c57da5f95c63d866de1fb5dda68c8ec7821e8207f15ec3a5799fdffd3a7",
+      "validation.failed.json": "be115a2d8e8d26be8b13237b3a391ba276fc42f33de5ffcc594501c414991c89",
+      "repair.proposed.json": "15bacc3efb6c4ee61f7fbefa2b683784f74882602994cf46413e38ab328f98c6",
+      "followup.repair.proposed.tsv": "3e3df6ca9d4dbf9c88ce843507538c6baa7d3c90ca883ff49c582cb4d13292d4",
+      "followup.accepted.tsv": "3e3df6ca9d4dbf9c88ce843507538c6baa7d3c90ca883ff49c582cb4d13292d4",
+      "repair.accepted.json": "64098469e8b94d6a3b838f8ea1e73dff458d699355d6ec1ea51ca0c614437b24",
+      "turn1.original.tsv": "621ed21755e844d91c180ebbb5d3e464b722dae3949ebae993528394eb95b948",
+      "turn1.validation.failed.json": "be115a2d8e8d26be8b13237b3a391ba276fc42f33de5ffcc594501c414991c89",
+      "turn1.tool_calls.json": "24c526f31f19f596eed4894531d5c9a816e8a5aaa696a0977a85356401f2b135",
+      "turn1.repair.proposed.json": "70aee9e802259bbdbb5ba2f70dd5526b76912ecaf60355b7461359dbb2bb744f",
+      "turn1.repair.proposed.tsv": "a5dee8e5109bb5b4e1715bd4b04c17b8c911c9d8fc3e223e0e9b7d490a271f8d",
+      "turn1.accepted.tsv": "a5dee8e5109bb5b4e1715bd4b04c17b8c911c9d8fc3e223e0e9b7d490a271f8d",
+      "turn1.repair.accepted.json": "bec9fb965ff4fdca321c9a8b8815e35b2e1d2715133c17490df8affcc6c75d48"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_KzGBAFcEWeTfSIJqLdkLjWSg",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "sec12",
+    "model": "gpt-5.6-terra",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_sec12_terra",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:32:45.391Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "7f396e52a6e31c3b98d0187e7259432d5dfccca90093f20de4228344259b6553",
+      "input.json": "53220aede31ba69d32f845b62b8e028da5016f50d7ea7491cad30488abcc5245",
+      "prompt.md": "9a0ade263e43b96991384e4daaabe9030ed00b26cbe2c6c4572c3a9e94608883",
+      "package.md": "16bc389f84fe22a83327764e099f5ef2786c6604b559216cfb07a501133d8456",
+      "spawn.md": "d594a2a146f1a7b3af8468ff88c5913bc5439d8b00656be8174ea8a3205d2e93",
+      "followup.txt": "92902d78cae33ba88acc0bc3df1c12f5701d01057493311b6c11e5fca2da4dd5",
+      "turn1.json": "5cd6e6570c6afe11e50e178e1ee56c341fca9449c7b1f112f4aa1425ec3ce93e",
+      "turn1.list.tsv": "9afbd60fa08969a75a946511df454cdfc477ea11d173e0634189e9c493955e39",
+      "followup.tsv": "f2c805ff82123d9ebbde92b0fba7bf6b64af3a34c4fd5e57c3bd847af57c9c8a",
+      "list.tsv": "2c7cb06249c3e9d3e8b048fc63b9d0b11f33a012723eae2994c54e3f3902377b",
+      "consolidation.json": "6713954e1e0526d0c63f6431aebf209db021d74c894e4db5a027e37b04db39af",
+      "validation.json": "8e566da0865eea35c5ce15f186bf5b34e176c9fdcd41e7f30e2a613bb07565bc",
+      "proposal_validation.json": "9820cc54d6126a6677382bc721758eaca733cd222cfb918a9ec1f467c5de0fc6",
+      "tool_calls.json": "c7d4bb38dad76d1aa37b929b31a9baaa73b28623bab07761da6fcd37e0d894dd",
+      "session.json": "e12d65b27cac95dbdda7d39184b4d4392e0840a62c1b2d9c6b733f16b69d8734",
+      "session.events.jsonl": "1594bdf1f62a15063c571c9ff58bf5ce1ac84770a0d396484187586c2a787580"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_6c0464013d0e400092dcf0e7153c08af",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "sec13",
+    "model": "gpt-6-luna",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_sec13_luna",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:59:40.118Z",
+    "status": "accepted",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [
+      {
+        "call_id": "call_8pSCVrDknZMMLrZemR0G9oqi",
+        "message": "bad field count at row 62 : 0"
+      },
+      {
+        "call_id": "call_0uwNrzSaUWx115jtP4iahQlv",
+        "message": "Script failed"
+      },
+      {
+        "call_id": "call_0uwNrzSaUWx115jtP4iahQlv",
+        "message": "Script error:"
+      },
+      {
+        "call_id": "call_0uwNrzSaUWx115jtP4iahQlv",
+        "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec13/luna/list.tsv:"
+      }
+    ],
+    "first_turn_repair": true,
+    "followup_repair": true,
+    "artifacts": {
+      "started.json": "402ecc50bcd35bb9fc8b9eef086396e24ea5108c2109e4f037430203ece387c8",
+      "input.json": "05579816ccb321a6a8e598a2d4dcf634ae3d06523649a49c7a5f893b919342f2",
+      "prompt.md": "637beecce6f8dd1d36d1b99b1fc60421df519783b78b39c5659eb92a25c55598",
+      "package.md": "e7c681725f8725d31797f5250a6285ea5f22415b59c60a9e291c7d7e33fb5edd",
+      "spawn.md": "5127041108ab5279e03123d90dfc69583216a097c05edfed641816009c86708a",
+      "followup.txt": "1412ded30b8c9d834da8629bef9fcacc3c3592292d880a6e5b2e925a9131d9b9",
+      "turn1.json": "c2fc21ced1fe1d575a12cadce37b26922c165f58797bd93c0b0fafd66cc3140f",
+      "turn1.list.tsv": "f453a1882fc954cb6821aa0294b63d4c36d3fa50d62ea8a73a31af1ed6972be6",
+      "followup.tsv": "41905e15681726a09af5cf42e0e5b47c4ec5942601d6625fccbc1b906f003cf1",
+      "list.tsv": "b679e9522faa80bdd756e041d125a0d7fdd083a0b521cc8a69b8c550a9a6406b",
+      "consolidation.json": "5e90d4834c2df8a33e1c231f566560741f133a457e786fe9d2c13e1c9381df28",
+      "validation.json": "ef0f21f6f1f48018bdbf55e665397a8b89c39776239c4daedc30fc245e7e3071",
+      "proposal_validation.json": "3321d2b181253ef0429bd9a41653e2a4be97ad25179898f098809f170f61c2b9",
+      "tool_calls.json": "160c59eb8476ceb311f9ff78622ab54f3b31e958a12fb7120d633edbbdba9dfc",
+      "session.json": "573d5f295352aa3a5f836396c25823cebe99920c0d387333d9040a5725d9b89f",
+      "session.events.jsonl": "9706615599281d8cb41936ba2649fdd78f560cc93c5014fb6d6395cac01bb1db",
+      "run.failed.log.json": "6456e2ab1e1129fe8bd89d5114558d77c8341001710176c5bf500e8a9a1156fa",
+      "validation.failed.json": "8afc571db3781684ad91ec92f55f435754accdad662ba6e2b972efb1297bb631",
+      "repair.proposed.json": "2788fa5189fdb943fd7f615143e60184bbb8f5d39245bb9ed989093f8c8fc467",
+      "followup.repair.proposed.tsv": "ab07885101ca29087919a1bc935cb39627120a24aaaaa5b28a86e4887072e0fd",
+      "followup.accepted.tsv": "ab07885101ca29087919a1bc935cb39627120a24aaaaa5b28a86e4887072e0fd",
+      "repair.accepted.json": "0f56f86948322deb786941707381ec7a369a0397a4d537b99eb1a39490fa1e63",
+      "turn1.original.tsv": "f453a1882fc954cb6821aa0294b63d4c36d3fa50d62ea8a73a31af1ed6972be6",
+      "turn1.validation.failed.json": "8afc571db3781684ad91ec92f55f435754accdad662ba6e2b972efb1297bb631",
+      "turn1.tool_calls.json": "d8879f68cc0ac2d5ebba36e85f1b347058d8810b46a484fe603cc2d463a6824f",
+      "turn1.repair.proposed.json": "3ded46fe58ee4084e8f575914697feaecdf463d721ef53867004d25c45b5baa6",
+      "turn1.repair.proposed.tsv": "534c9e3b8ac2ad83b4faf14002577870b9da7121da122d8b8eef9b6bd7c8cb9e",
+      "turn1.accepted.tsv": "534c9e3b8ac2ad83b4faf14002577870b9da7121da122d8b8eef9b6bd7c8cb9e",
+      "turn1.repair.accepted.json": "9996a0503c57bf7c0d9ce371d44ab1139872793ad12d67ab0a3c2c061aea9aef"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_A0VKoVCirgOEqKlZib52yP75",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "sec13",
+    "model": "gpt-5.6-terra",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_sec13_terra",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:44:02.379Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "a643d325c8745e50e0e17900719487d0b30e7a7a9ec542e0039d8c802e4dc406",
+      "input.json": "05579816ccb321a6a8e598a2d4dcf634ae3d06523649a49c7a5f893b919342f2",
+      "prompt.md": "c1a028904a464fc79c1993e08be8db161094c91688ebacafe730985e0c5f39f3",
+      "package.md": "e7c681725f8725d31797f5250a6285ea5f22415b59c60a9e291c7d7e33fb5edd",
+      "spawn.md": "5cf9a455ec8a9df943fac053a6e3f187147b9205144375fc7937bca575a754ab",
+      "followup.txt": "e8a5b18eae4f6d72ce816545bf9e5c51142af6e232f028a3a8f1afe85f6a4492",
+      "turn1.json": "8f1170afd473892f588bdd8a5eeee981fd52bc7e88a3e1fcc8156461227cb403",
+      "turn1.list.tsv": "e5775e8bbc46cb250119e097b81951a1978db632858b5383b2e594ee9f98757f",
+      "followup.tsv": "d5d4e661e5399baa6135806a1d1c67b0e8ef8e458b433feb5f8622f7db70c82b",
+      "list.tsv": "8f52e35e880ba558f23d812f39504098001858334255936f129d6cd2710b5c2d",
+      "consolidation.json": "d27dfa8849cc39f3af9908a7a224c34eb314bd2e9eb5ed9a89d3c15a6b1659e0",
+      "validation.json": "c5549117fba782ea8f93d6512fa88fa94bcc20137e0cff37bb62c66bba9b166e",
+      "proposal_validation.json": "67be4677a43c2881b931eec37540176bf731d47592f56f0611291d91a6248897",
+      "tool_calls.json": "1554080e2f606056f21f8b252f53012d13373ebdac8d99e12567fca152075449",
+      "session.json": "92570b98a8287bd425569aaba4abe80abcc1a114ecf2936d0a5050acbce8ca8e",
+      "session.events.jsonl": "b1a9b050b9d5b8d785bfc8bb575dc8621fd766b3ee4c7226d8fd04357a996ab1"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_09535ab141474565a7636f1fec4923ad",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "sec14",
+    "model": "gpt-6-luna",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_sec14_luna",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:55:17.793Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": true,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "9b21c4d606594fa3a50d3ebf4aeec90fd6a4af548329aaaeeff5384004dadb2d",
+      "input.json": "f0b91568688f2cc4fc012395f2fa49161fc114e2dd08298d785c725acb52c60e",
+      "prompt.md": "8917f2cd77276976b0936b84a866ec7d309e73a26335d7aa8ae9a4f9d5e12865",
+      "package.md": "92a715cdde97bce18287c42097a5a4c82fe346ed8648e771382ac2dde58d1b8a",
+      "spawn.md": "15d97c7143efc2ac9dd60d7d0b404c4a9f74849a2f84aaef994e337a09b0adf5",
+      "followup.txt": "ceea82e2c57141867e69f852487f71e20d092aa61f4137627abe58281ff7c47a",
+      "turn1.json": "ebf5e98c37c09c290e83e3a3492f31c87131933cdf482618f2097c78b11dd8f4",
+      "turn1.list.tsv": "4b7a4eb098b04bf6919331584ba1c99dbbfaf472d86d3d13c569307f9c47bfe3",
+      "followup.tsv": "b879e5490e5774dc797acd0aab9958b2cb50c2243a30f56e642565149a692e18",
+      "list.tsv": "e761c168fb8b0a0801876b18752b3a8b0e858ae68411105280ad1fa9302c8919",
+      "consolidation.json": "2846fcd60758d999623437fb8c10808a8983e0365021b73fd8529d9fc1170732",
+      "validation.json": "8b4d1afd274ebff341027e21193b88d99b78d0bbba5fdd32cbcea71c0b3ab1d5",
+      "proposal_validation.json": "d050360cb227bc3680ef5ca6692e15a11c737ffdf3a3959a155361975c9046ed",
+      "tool_calls.json": "e7b6c03a57510af29fdbb5c2c4ed9c4778f2425632343a37eb4559bf0bf1e3de",
+      "session.json": "6e2844b4a2434a71b3fea99f068cea9ba7f10105946bcf87aa27f661c393aa6b",
+      "session.events.jsonl": "bc4624122b393ea494f54675fa890d56a0bf7036bdd3e2741ffa8844fe6bed4e",
+      "turn1.original.tsv": "4b7a4eb098b04bf6919331584ba1c99dbbfaf472d86d3d13c569307f9c47bfe3",
+      "turn1.validation.failed.json": "1623a5791371047812034e5f54db38f09f344bc6bbce0a7ec8288e14756dfbe2",
+      "turn1.tool_calls.json": "458ba6876e8c272464384f822372f137eb98db9375c2a9503539cbe7174d938d",
+      "turn1.repair.proposed.json": "c0baf4b19f1e0d86bdf93750bc8d8fb0d15e8dab6a6e79d311476f0755ab2c51",
+      "turn1.repair.proposed.tsv": "1d2f4451acac2f11a4d39debbecc7746e79aa0f915b4834b365a0261177664aa",
+      "turn1.accepted.tsv": "1d2f4451acac2f11a4d39debbecc7746e79aa0f915b4834b365a0261177664aa",
+      "turn1.repair.accepted.json": "bd6c64be684f7d4cfceea2e86f1867d7dafb53d181b7912c310e15e01777fbe2"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_WXIUc7I3q3PRWz1AC7HtYfBi",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "sec14",
+    "model": "gpt-5.6-terra",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_sec14_terra",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:42:57.647Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "e26e28891f825e2bb4dd450f809882792ac2719d5c9601855e1288dd53813505",
+      "input.json": "f0b91568688f2cc4fc012395f2fa49161fc114e2dd08298d785c725acb52c60e",
+      "prompt.md": "98eb0820c8926019d938dedaa0293de7403190260de7860b44216c69aaf6cbab",
+      "package.md": "92a715cdde97bce18287c42097a5a4c82fe346ed8648e771382ac2dde58d1b8a",
+      "spawn.md": "a60147ba77d62bbef78d4c6584b99a328ba5126c04a44a6f4e98d53acd95a8ef",
+      "followup.txt": "96bcec2307daf3ed4625403c07abd32569376d31a4d43f15297dcc2179dd04bc",
+      "turn1.json": "70e0b18c92544d8453f437ba553603b423b94c43bbdcf2782cbff540b1da25bb",
+      "turn1.list.tsv": "1a0d33588ea9bbdda5aa1ec9301f80b96e0b67b4389910229220440fa8c4d819",
+      "followup.tsv": "9fa1971ffb77ad673bf4073f0b666d15ad9503129ed5af18909fa26760a27920",
+      "list.tsv": "9deaf203b35baac47218df73df93635cbdc365f92e361e285c1557a6cafb35a9",
+      "consolidation.json": "be806f17bb4c4ed78f4d1c0cc8ad1d8fd8d4233d0e77d5ecfca11d43d25b8f4b",
+      "validation.json": "36a4aeb962ea63c3167c5bcf6403a645126938e5e11242b6877b0ead05606256",
+      "proposal_validation.json": "036432f56f5e981aee787464f71755433f65bff6b72c0addb07d0cbaa0204d2a",
+      "tool_calls.json": "ed285e9af27fc5c0b153173b39b49fbbd152937f723a86060c1e8216aae9cd26",
+      "session.json": "cb38de9e909eebd91982f9fa0a54c582334b2324998957063f6345b48cca2f86",
+      "session.events.jsonl": "9f0cc0622c109f6f9ddf7063e87652ef0d73f4ae789f4c83855b0bba555741e9"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_5f6a09c8d7da40d2a25e06ce9b808852",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "1:2",
+    "model": "gpt-6-luna",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_1_2_luna",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:58:17.841Z",
+    "status": "accepted",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": true,
+    "followup_repair": true,
+    "artifacts": {
+      "started.json": "856c852a1f81ba538f4b82a58d4e06fc9ad16d38f9f5abf0749495acc4db208b",
+      "input.json": "8d9aa635ccbafc20b68bd6ea4bff4903c41dee231d38f60760b6e0d7f86852e9",
+      "prompt.md": "b6766a9f9c5ac242a68168e6dcc6337279dd0d58a455a97d1ce520987aa92023",
+      "package.md": "7740185ad33644d8b7e06f7e1e33cedf81bb8c24c87396ef279404a0c5351c07",
+      "spawn.md": "826627d52dca04ae2127f75bc3a9599b69e975a8df9fa4666e4c5efac7b38852",
+      "followup.txt": "69ca69c35df43058b084ae999d4db3545c64724fcc0a8a00364cad5afa20826a",
+      "turn1.json": "bba13f9a700e75c6992a1725a4d3aa618025fc4240ddad296eb22dd910b776b7",
+      "turn1.list.tsv": "35fddec10fb7f2927c61ad88ab80093846e9ad63153e3d03bc6e83b8b0ff1eb6",
+      "followup.tsv": "ababe5114395b18f24fa86d42642d929bdc394308b4710351286ea904d7edd23",
+      "list.tsv": "68a5e213c482082819b37c075d126d0b3de19ba186deb79c961d9674de4e9420",
+      "consolidation.json": "2a795c57a6fad23b5cd471916710b61416eee9edbe9955486f25ec5247d05718",
+      "validation.json": "f5e9109f8bc4359014fee372b77e8e7caf31298daae4ff1ba8db59e00ffd4591",
+      "proposal_validation.json": "f3499e8e3eb42ae0202bb6c8b781da3498da32770972e0c4f54d563cfcb4bf2d",
+      "tool_calls.json": "1e1eb33f7efdf9a3e174ed29dcf882e0b6c5e31a66459de8e2491dc336be6ce2",
+      "session.json": "bc152211dd503fb6276d286e150bc3d1c2713f407ae8c760fdae538c975ae0e5",
+      "session.events.jsonl": "4b68fa0c9c104fc69e05bf190a4204a6f9b833c3cbaef3898d8899f1a1b0aac6",
+      "run.failed.log.json": "5a4b254631adb969e968b6d7769ba29880ea799ae9d171958736b7e948675fae",
+      "validation.failed.json": "ff0269cf8bec1e8933f921e6b09f945c7f43d0bf3b0d88e8c5565837c179e9c7",
+      "repair.proposed.json": "223ab8d9ca05623b38e4addfbca168340b5430ce450b05e9b74dcb4d8bd5feb5",
+      "followup.repair.proposed.tsv": "beff3dfacc78430479d75618ec9ea0065c44b13fc864b837b1c9091944ee8a40",
+      "followup.accepted.tsv": "beff3dfacc78430479d75618ec9ea0065c44b13fc864b837b1c9091944ee8a40",
+      "repair.accepted.json": "970c0a465fe2f9299a3f3c1df1de640f01f0c35ab7d133633e592a1e8d54c7e4",
+      "turn1.original.tsv": "35fddec10fb7f2927c61ad88ab80093846e9ad63153e3d03bc6e83b8b0ff1eb6",
+      "turn1.validation.failed.json": "ff0269cf8bec1e8933f921e6b09f945c7f43d0bf3b0d88e8c5565837c179e9c7",
+      "turn1.tool_calls.json": "f66d4eb96865af5d150ce5747980e7e720a5f592c6a2e2f6cabaf3d9cb0f9202",
+      "turn1.repair.proposed.json": "623e8004a05fd7aea38916dfecc65712345da284a5732ffe8979252b7c54cab7",
+      "turn1.repair.proposed.tsv": "a0a043cf3ee5ef4ed85e95a1e7ba7429afe5d2e57f848c18e1c1c7484a7d96ee",
+      "turn1.accepted.tsv": "a0a043cf3ee5ef4ed85e95a1e7ba7429afe5d2e57f848c18e1c1c7484a7d96ee",
+      "turn1.repair.accepted.json": "b1ffa82d8013a03b3815d908d0aecc003ea554553eebbb896d6e46b3f37a2bc0"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_NqMCf7fcmBl9AIxqgHh7WxEv",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "1:2",
+    "model": "gpt-5.6-terra",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_1_2_terra",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:40:46.521Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "af7528893e18593b42f864770625d1d04b086e56510956ca1f547f3d653abb59",
+      "input.json": "8d9aa635ccbafc20b68bd6ea4bff4903c41dee231d38f60760b6e0d7f86852e9",
+      "prompt.md": "a6400654f1c070f2f8940d8437adfdfc7d1d0f41b560fb5fde7618986a81faaf",
+      "package.md": "7740185ad33644d8b7e06f7e1e33cedf81bb8c24c87396ef279404a0c5351c07",
+      "spawn.md": "e5cb4796ed23477c83c6999b0aa4ff22dc80c0c3b1cbc7ea48ec83eb555ef79b",
+      "followup.txt": "e8f117537be099205f287ec0c524bf99947feb861dd62aee1dbe6fcbe477c728",
+      "turn1.json": "b1b7870aea601c9eea63bd4afe19a8ab0df3d0415b0f171ce22405b655014b1c",
+      "turn1.list.tsv": "15c5c7b2ebd80b5e52229f17a3f97c5021520f0871766972b6801ad70d73ccb6",
+      "followup.tsv": "7243d8a54b7ed4c0c1c6572f18a1e48c93f8412cecf783191fadb68618edddc6",
+      "list.tsv": "5616cb0c8722c1fa434b7c7eb3e6918df5e0679b79fdedf2b92a19bbc30db562",
+      "consolidation.json": "647ab5c5d0ba5706e121478b64228cac9826c212b7514cbf74e0cabe83b160eb",
+      "validation.json": "8fbd0c8f0cafbf0107d4904f3158837fcbaafff0e321a98df51c970e81bc04ad",
+      "proposal_validation.json": "16ef9dba7409229174d86e24d671efedecf584a58d1192ba4152fbf362c9e575",
+      "tool_calls.json": "c7ba724fb724f945c287d046949f171a9c78a984d5e7a4ae7f8e70c30533d8ed",
+      "session.json": "6d5321a518f798c2ffbbfeb6bf0d650e3356737e91506c7e6310ecf0e7aab6cd",
+      "session.events.jsonl": "ad696be6e59eb21014aa7cff036ea59678bac4fceb4b9f4963a12497fd6238be"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_aNFM5zvJEHnid7sTkaMmW97l",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "1:3",
+    "model": "gpt-6-luna",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_1_3_luna",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:48:53.953Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [
+      {
+        "call_id": "call_gbnGMHuzB4Wshgn6XDp4BZ9F",
+        "message": "SyntaxError: unterminated string literal (detected at line 1)"
+      }
+    ],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "8c76ed8f898f8a13195d5c0da471f69ceafcffbcc62c1dc1959e67d551b573a2",
+      "input.json": "964cfb5a70615af27fd88d79d36eaf698c35aaea07905db801107ce36c63ea7c",
+      "prompt.md": "e80401d30b63511e7067ece8d808809a7078b8c0a2cb773875d8a5029fcf0a0f",
+      "package.md": "4425e98aeb0ac441eacdaad4112dcb1744eebe8cbf5779970364e42bfc0b0579",
+      "spawn.md": "73dcf7d6ee19d99eb0efdd19f51dc59d5b93349ef18689acfd4d7d7b6b0342fd",
+      "followup.txt": "b917f5b1a81867f463a7b8b95484cfa605789821dfdc81d511c3d3404e66252f",
+      "turn1.json": "36660c70653d1827db9b4d60bdfdf994bd5408a4155963e761bdefeea2c1180f",
+      "turn1.list.tsv": "8433e77a8c24173f5b64bc514eda836eff7233d1a89c84034790148f7ec40453",
+      "followup.tsv": "60adebd147526e833c67a685beefa13498b805a331b38a3f328edf4730e1ffda",
+      "list.tsv": "de4832c4cd3dbc154db96cecdf5671464c0cdb408dad03936e329917a37fefa6",
+      "consolidation.json": "f342c0c6a2f3f9114702165e3d074c70d7fbcb04efc799e3208542c578b6ad21",
+      "validation.json": "0c1b6cf88116d1da61f04deb787aaee211fcbfd9f6de99073a7edb3626488eb5",
+      "proposal_validation.json": "38e7b4e1d416a99b3626a64d593eb9b755572cefb17b825f2910f6a84fc39f16",
+      "tool_calls.json": "bd5c342fd9943838357a96d27ff4f4e3a69aa4d57bfcc9508b306508920bd80d",
+      "session.json": "432adcc1580de0d781de835fd87d263490786caf5a756701ca2a01d2e9380c6c",
+      "session.events.jsonl": "300b36c74b7a890165344681466647a101e3ce560d6e1e78c8be9b4beea428fb"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_vdZSloYJahf8aepcOG64BWBH",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "1:3",
+    "model": "gpt-5.6-terra",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_1_3_terra",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:47:32.160Z",
+    "status": "accepted",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": true,
+    "artifacts": {
+      "started.json": "28fb409593e7c40c4f367fa845d91fc9f242da4e5357996de7547145ce52c8bf",
+      "input.json": "964cfb5a70615af27fd88d79d36eaf698c35aaea07905db801107ce36c63ea7c",
+      "prompt.md": "f23d439a99fc38481e8e5e513950ca4ce4548318ea5fcd7f49b6fe7f5c7932a4",
+      "package.md": "4425e98aeb0ac441eacdaad4112dcb1744eebe8cbf5779970364e42bfc0b0579",
+      "spawn.md": "b44c70ebae9daaefa9ed9304ae8c7e977c86ad84d9288d760dcdde933ee8f460",
+      "followup.txt": "38745043059c470089ca1394d9a249f5ea1e5708a55621c00f942836658692f0",
+      "turn1.json": "90c2a4c2d2b002afb2483033d5cff07af9aeddff22fe22cf1b28999b7064a1bb",
+      "turn1.list.tsv": "c29027a7d2563ff3fe8d20f4ece94ce07eee6277a0fe4070d6e4ed912ff8946c",
+      "followup.tsv": "617d6c45428ca60a455d7faedda2a26e085172db23316406783188aabd0a6538",
+      "list.tsv": "9c65b09273d58d2ff2c1fd93afdabc8b608bc44206bf5c96ad375936069ee4c8",
+      "consolidation.json": "abbbf15c0cfbca1120ef6364806a24be49689f00cf5da0224e9c28f3e7b2cc0b",
+      "validation.json": "ee699b052608167dd501d591b1c39a0396c72ed938b43b6977be0c1123390629",
+      "proposal_validation.json": "3ccf6b7f32c532fab4f5eb5080c4e6972e76d90e77f7b197f993927ac397f9eb",
+      "tool_calls.json": "17c911cf65978699918bf8428f06234fba76624bc8f8108f4761e230c73f332e",
+      "session.json": "f510446e589573fdd02db4a4d388668d9d6bcdffd31bc86651f89d22d21e1b0f",
+      "session.events.jsonl": "dc815feb35b5fe81ef2d7cb9370db6ef21a84bf125449e58194bf4ea10688bfb",
+      "run.failed.log.json": "bcda7fde48217ccf8e96819e1d732295d9421e8f3e5dc4ac69f89aaf2ffb1ac8",
+      "validation.failed.json": "70b6882a452e0122f17ad13d8c4854aa3d4b8a6a84554134dfd62456b5d3d2d3",
+      "repair.proposed.json": "5a0998c70e0a8fa6b55db4b72d43a78aa48ff1cfaacccfcb025e8407a869591a",
+      "followup.repair.proposed.tsv": "6b5d3bd6a427541ed844c5d46a186bee78ef87de56163f7faaae7a4f73627cd7",
+      "followup.accepted.tsv": "6b5d3bd6a427541ed844c5d46a186bee78ef87de56163f7faaae7a4f73627cd7",
+      "repair.accepted.json": "23a9231fdb191e9998544d32a521e390ff12c74f2530a9b2d305778ab9652392"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_PVOxxYjgvQPeEn6WRiq4o8Oc",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "1:4",
+    "model": "gpt-6-luna",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_1_4_luna",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:38:29.365Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "304463b72c26011a79ee06f513e7cd01db31fa7ca0e0cf85aa77b6dd38be3da6",
+      "input.json": "cd8d052244ae39bbc7713b22f5040caf892ec4f0991e03115e5dfc01b5b9799e",
+      "prompt.md": "6c3b3234f1bc6a6a75d3c1384527a12a8d1ca383fec9a05d249d5c82a7efbed8",
+      "package.md": "c13e47b522019d673dfd2834f7889f228244ddf515f32368d1bf2781e3c5b56d",
+      "spawn.md": "2990be36d555eb6fc9ef70da532a244e593463f4e36e22b33e545551fff27c35",
+      "followup.txt": "5df892b5f5332addbcd1f00bca0419a4efe70d75a14cf5f3ccce33d157d28e91",
+      "turn1.json": "edd87373f940f48a8289fa335d562ec41c53bce146703a98a3ce237139767af1",
+      "turn1.list.tsv": "812ec1189dfe9bf760a83fdf1084235c27088fb8818fad5f1829924234d18121",
+      "followup.tsv": "00e0c7e075f1fa35b3f2168e7e1c6b9b0ba4ce1c745bb93a57f44f5e5a819000",
+      "list.tsv": "7f742de6060372ee83b98210027e80295118fc2364fbd405a00d38c0d18b13a5",
+      "consolidation.json": "47b382a1b12c34e88fb45076ba6e74e7ae648b1ad1bdcb3c928fd4fa118fb0b4",
+      "validation.json": "3213bc2f14cdcf3703fe5f1d68fa54529d394362fbc46fe34cf5d2c07abe0d18",
+      "proposal_validation.json": "8505281c3775e03d85b669c3897a80fdaecb64bd52ca4e31505c2e2ae53337d5",
+      "tool_calls.json": "e4f1d38e128d2208ed2fa4f19cfb186252d1f5ab940ab62ea814b8039c2e468d",
+      "session.json": "2deffa15fba2fa04b7086fec8a12744c118811940b48ecff83620be3e6cca2af",
+      "session.events.jsonl": "fc4fbd2b60219714d6249474543a9cac55c1e67ec14753e803cef2769cfe4324"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_AzZzRmaY6w139lxtWFuY3GLU",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "1:4",
+    "model": "gpt-5.6-terra",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_1_4_terra",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:40:10.354Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "b6ef3aba40374b7429335030a0f06f2642a11b75c6e13214e57804fd932331c7",
+      "input.json": "cd8d052244ae39bbc7713b22f5040caf892ec4f0991e03115e5dfc01b5b9799e",
+      "prompt.md": "befe6822a044d9524d05c490a9bfc67ef92c609e6a99187b54267b5de9e8a12f",
+      "package.md": "c13e47b522019d673dfd2834f7889f228244ddf515f32368d1bf2781e3c5b56d",
+      "spawn.md": "cf895e6b0b01337f9ad3e41aa183ace58b163564e9bc3b9dd5015f137c3fa2b1",
+      "followup.txt": "a3cb1514fc4301f9cf9afd2cf0fa0df4115b294d09db15406e7719a73f6efe06",
+      "turn1.json": "b8149e019f7bf0d19eb04e530889920125a1d7552030f435fd839009c5566fb8",
+      "turn1.list.tsv": "342ed55f5bcbcf472b0e9bf7a4ee37eb033014a0da5547fd8d75378721b6673b",
+      "followup.tsv": "558945226f95ac71d9c133b5b7d2d542662ba9ff291938d368a34d123f0d78af",
+      "list.tsv": "5ab8d7d16d087d4e7183e1f3d696b093198ca583a148efa8c07f49b01ac6cc04",
+      "consolidation.json": "099b4a0ba778d058b6e2ec966ffe56f01497a16119d592e9198d079e2db763bc",
+      "validation.json": "bf48d7c03a7f7d45c1207b84661f7ef33af9da52c7d37f2c5d9d8feeb9de163b",
+      "proposal_validation.json": "bb5af8f45f3642a96532e7fad35c87dad3f6161febee14fcb0275e134735fb3f",
+      "tool_calls.json": "ea443d1d0a8de672585e8a0bf6d0836e2d09794aac7811e17d5aaf56e6cde177",
+      "session.json": "05a7e10d58cda416ef373e160b1aa5b94436607f13f0b2f81ef2dd209f8eae61",
+      "session.events.jsonl": "9c54b78a939361400ea0be95c9e1a64632444a86aef52c7524c3c2879b6825ae"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_GJiAm6lwobw1SauAWfFxkVbB",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "1:5",
+    "model": "gpt-6-luna",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_1_5_luna",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:39:12.278Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "1da7059213870f01b33b574bd82377bfcdf81af761411640fc5dfa7da8bb3a33",
+      "input.json": "14452745dd92e315b63fde59ac3bc6581745ad2c957a2810c67aa182bc348b51",
+      "prompt.md": "2b0853c500bbc565bb8255dd244a1d9863491359c408c37dc70c4708f1c22bf8",
+      "package.md": "6199a4f3a3b7644ed6023748d79fa77aebda3776fde873d6f733bfd33986c8f6",
+      "spawn.md": "7ef8602e7ffc69bcec119559f576ad5202e2fb49cc9eb45b2141fde9fba221dc",
+      "followup.txt": "d4c47feb1c5acc0444a2da193a9190de59496f010eaa94509a7c114b6369ad8d",
+      "turn1.json": "af5690d41bc20ae9505705765aae2b777aeb7e3c10570785f3a23b242ce43570",
+      "turn1.list.tsv": "a99a1ad6ff5f6e5fdd64dcb4cebd677b6d298f0c314823653abae5f1a7924440",
+      "followup.tsv": "ffd304108183b1f828a4d56c63e88f034da26bad93d966ced99002b8dc661952",
+      "list.tsv": "2e59eb3b3a72a0c049c568490a78f3e6597a7d7b28955f31c00aafc900ceb5d9",
+      "consolidation.json": "db72e4661184e2aef114284bc381c8e17790f7de3554d9044860bf0eb5fa2fa5",
+      "validation.json": "6da21bc4eda1fad48003d3eb8add14d69d565f26d8d06c1fc52e1236f07cf4f8",
+      "proposal_validation.json": "b569737cf616cf0a843dd3681f418f577d2e8699af61213b7c78d4f099178ae4",
+      "tool_calls.json": "08be3da93f13ccaef63cdfac0db9999849475a53d6dcbaa109b7a0a9b1a8abca",
+      "session.json": "988982371c252ff9aae7926efb4294124057ece5a84580cb78d1a25c7821deb5",
+      "session.events.jsonl": "67f19737f0985c43072ad121c2bcfff1e1ece9d8c2924e5611c16719d84c790a"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_9052f8f59eee46ae96e4dbf14170f8aa",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "1:5",
+    "model": "gpt-5.6-terra",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_1_5_terra",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:42:07.723Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "5528c8f87b7c829dbd62f6ecae9fcb674bfbf8b1e9f4c55799796baca795067a",
+      "input.json": "14452745dd92e315b63fde59ac3bc6581745ad2c957a2810c67aa182bc348b51",
+      "prompt.md": "3f0f9e92befec3f3532d509246b75cbd5d35f1c08371c37933fe1f2b70f3a7a4",
+      "package.md": "6199a4f3a3b7644ed6023748d79fa77aebda3776fde873d6f733bfd33986c8f6",
+      "spawn.md": "8f9a7ef3dcc0eb378cde1877298485984e61cbfb37ac8de9e3ac7b87bbb9052c",
+      "followup.txt": "5bcfe3fbd8df76a2ebd56a06d507833fe6dca21b9a02a00be0be6f7eca420af3",
+      "turn1.json": "1bfffc59bcab0ae06acda314997a345b4a4010aaf02371f61aa3a6df1543aa4b",
+      "turn1.list.tsv": "701a83c242562001cdc46abcbcfdef16e6d09adf399ed5b83d48c6fd3e7b9e93",
+      "followup.tsv": "81689bd389e263ff508f6907007ce92cbad02742b3a7fccace051c675050c5aa",
+      "list.tsv": "ccc5a8416de0904bebfd66129023d0c7d3b0404b1db01f7c55a8b14f6a6da1c0",
+      "consolidation.json": "88bbbf0a98a88b247464ee42baa11ad96819e5acebec4324551aa1e52eee8c97",
+      "validation.json": "9beb3cef1df91e6d32355f15ee0a7e085da54b28ffb43827a39737f0386fa8b7",
+      "proposal_validation.json": "a696e85147743938f8e610d142128daa6adc3aff9aa933babf2da19e346aa1bc",
+      "tool_calls.json": "d1a48cb5f7f70fe9599eacba931cebba3d18e7dea0f81a8b13488fe7ca8ba8bd",
+      "session.json": "a85f6587161a5eba5b950179e8c73672ab9ea9dee180f83b881c1c3b79e989b7",
+      "session.events.jsonl": "27123bdd4cfb3e5eff8e9a876ae1c307de8b6c6e2479cfe4982e1ab02517a1db"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_gyfzTzNsF9vNydJw2891qOFf",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "1:6",
+    "model": "gpt-6-luna",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_1_6_luna",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:39:58.246Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "bd7d468c5699fed58eec2739a31767dddd0a059b315832e1c79c62ccefdf4e42",
+      "input.json": "563479c691cc6384dc77a8130c31285fe6cb26056ff5bab4f5e69925bd950417",
+      "prompt.md": "87575d32b887a836d69da4a342bed84b7870ca882c2aebb561e6aac0383fa74a",
+      "package.md": "aa779769a1b4bdfe2260b62b8b147f6b71e2008662c982ecf6b673c58a545491",
+      "spawn.md": "0bf63f3655f791396f32b5a3bb1a905277e7f9f32c33119b3ef74fe91b726959",
+      "followup.txt": "4c981339fc5a83166315705c50594d6284064756d1b1a3e4395fb27fff8e2ecf",
+      "turn1.json": "969b175033d090aae16646d8e6bdd852a75644007e703dad8b848204a32a2d4c",
+      "turn1.list.tsv": "d3e0f3ad757149bb5843d7bea0ad0fb0ffd03afc3f0bd526c0f26f2aabb2b5c0",
+      "followup.tsv": "9f69a82a4895cc9db8f93aa8cb8b0050d9af6f4ffae94602d0ec86759a9630cb",
+      "list.tsv": "40790ff0f759e231634a98bb0f7fcf75c2dc8da51355596ce5ab5b053f571e40",
+      "consolidation.json": "3df930114010f471429916ab0081a4ca5611fed0e7a4d661b1a1b5572b574ac6",
+      "validation.json": "bf15571ee5bc2af141aa2c4552e6fed27c71acf87628fd5aec26b2971fae081c",
+      "proposal_validation.json": "0ef094c1634f957b814b32e08b3ea136a9ac09ec2688045be2ad0abda9356a0f",
+      "tool_calls.json": "9ebc9a2faab5a3938f51693348265fc7a2c96e3856d7e0016fba6752bffc93ca",
+      "session.json": "6edf93bafbaaf63b6246533bf22d5b6778bb4b4dd4be3ad8f21d0acece27e9f3",
+      "session.events.jsonl": "6d346b679bc0813267686574ae9242a8f41032eceec1cd2d8efcda17e2b6eb1f"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_genf5rjtmVrD56UWftJN590M",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "1:6",
+    "model": "gpt-5.6-terra",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_1_6_terra",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:41:00.287Z",
+    "status": "accepted",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": true,
+    "artifacts": {
+      "started.json": "fdeddedfa30bb62edc4372b8acec15b99a2fcbf05f5f8e13a37b13c6774db3c0",
+      "input.json": "563479c691cc6384dc77a8130c31285fe6cb26056ff5bab4f5e69925bd950417",
+      "prompt.md": "4425df86acab83631e534506b0da8870e7bc8a55a5ac2aa4d8514eb89bc107fd",
+      "package.md": "aa779769a1b4bdfe2260b62b8b147f6b71e2008662c982ecf6b673c58a545491",
+      "spawn.md": "89d4610690713b9eaad5e1911a3180f08b613ab8f4d429845fb918a9a16e765d",
+      "followup.txt": "62ae8294611c528af3ebd51e8fcd8b01d3dbf189e6bea9205b7d33d38af90244",
+      "turn1.json": "f431209ebeeb0f103b490630464009b4b58ac538bed160bea5935874e45a4858",
+      "turn1.list.tsv": "91960d722c1650f5903cdbb04b365fe3d7295bea715fce10e5cb5b0b597555c6",
+      "followup.tsv": "4103b1a475c8c5c155a34bf1d1944afbc9fb8ec075524cfee341ea2ad9a6db76",
+      "list.tsv": "569296c321cbe8203f569b94d1b44faa521fa29be7143cf0a88d2f1a7111d970",
+      "consolidation.json": "a34ae25c3f643a33c8106fa54d9c057a9d3d9a2312f584372894354d1de7e3c7",
+      "validation.json": "98452c7c672da3dbf3d664298915034c80b8c790a81a9c449163ce95d8937727",
+      "proposal_validation.json": "e9cb141147ed94bd5da13af2a25ccca6205d42d3db0d427da3fe07d86c7264e3",
+      "tool_calls.json": "cff1b5208e90fdcb06d0e76693b47b0fcfc447763c9d648651c513b6b73aed4c",
+      "session.json": "9294f7d799f67c0240a87872e322ad5ea56b27a26498a88ef38bb5fab0cc6393",
+      "session.events.jsonl": "220c159d7d36b46aafa58788386c8e6537e53765b6fbe44afff1801d5b71367e",
+      "run.failed.log.json": "9f8f1b475e4697f3c38786a2b1778833f2c157b97d9171e7e8f77932cb1758bc",
+      "validation.failed.json": "56a77ab76a9c1603903b4ab45fa293cc33b090ca0bc46102957502a963929ee0",
+      "repair.proposed.json": "93f835eba2dd1e6a09e12464496bab7afa54e12aa44e315b09267f79a3b0c3d6",
+      "followup.repair.proposed.tsv": "f5125f4587fa162fa627b82216e72cfe2ab1525c78f5aba97f04adcf5c8dbe3d",
+      "followup.accepted.tsv": "f5125f4587fa162fa627b82216e72cfe2ab1525c78f5aba97f04adcf5c8dbe3d",
+      "repair.accepted.json": "8860dacbff38cbe9763e6775ae93b54c204c15519c534831dbf44e03cafaad10"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_XGkSIMWV5TPhvqRTAaiSGXzz",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "1:7",
+    "model": "gpt-6-luna",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_1_7_luna",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:40:59.486Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "c30fb485667a8afc16c44062a9a09ae9be98387f224c9ee912e603dcde6e6ceb",
+      "input.json": "1db669b0dd2fabfa18ba01378c61c55249a8b17f37a44537027b65db788aefac",
+      "prompt.md": "97d0ebf66e9e9e588dd3b5cb9b5c095128c0ed7ca7b1fae06f1a7daf37bdd5f4",
+      "package.md": "cea1cb05c5d9c8d877ca2634f066805032df8120071dd12ed28016797fbe7282",
+      "spawn.md": "5d0f2440fb5c8afa1a88142bf47d53a7b5a30e5510ce378da5bcb2c3d9d7b104",
+      "followup.txt": "070f3ea18a171dbc5f81b77929388dfec6d3777ba27673493d7d7ace4cb16562",
+      "turn1.json": "ec0755d6beac501315a353844a569b6f72c14202e75677c849ec3cc4df2206f8",
+      "turn1.list.tsv": "901238896de4c6e9523bd985f3997d1a91d27aa4c44df023fcbcb6769b9b9318",
+      "followup.tsv": "07c676f93c234afa8dfd52424717301372a337019ab73564022395d2f61f5224",
+      "list.tsv": "74d57ea66c221b415eb645c0200301641b830759c591d2f88f5773560a5264ab",
+      "consolidation.json": "99e329c5212158343a78fad7307c47aa9b8f70203d46a5cd432c7bd06287357e",
+      "validation.json": "28fcd62a60e77b88e0d4855ed71df20f2dd1c332ece7ae4ab04fb42bad8b535b",
+      "proposal_validation.json": "5419057ad08af6fe3f774c7f3798841552fe7189e023810db815a1791aeffc9c",
+      "tool_calls.json": "d1399c4ffbd6a7e3e5cbc03dfd87b9175d3abd32f2a28b51c762fc7ec7b4e297",
+      "session.json": "87307e6545e3775fc26fb0de8a01458ae4abb4ad1627293fcb662f96b2776841",
+      "session.events.jsonl": "b52cfe33fb2a6fd495d75b967edd0bf65191596ec465da56641e6a1a9835242a"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_34e4d289641d4668a7a8c4942e56868d",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  },
+  {
+    "target": "1:7",
+    "model": "gpt-5.6-terra",
+    "effort": "max",
+    "agent_path": "/root/bible_pilot1_20261005_1_7_terra",
+    "completed_turns": 2,
+    "completed_at": "2026-10-05T15:42:35.218Z",
+    "status": "ok",
+    "check": "findings",
+    "model_effort_verified": true,
+    "inputs_unchanged": true,
+    "raw_first_turn_preserved": true,
+    "tool_audit_reviewed": true,
+    "protocol_findings": [],
+    "tool_diagnostics": [],
+    "first_turn_repair": false,
+    "followup_repair": false,
+    "artifacts": {
+      "started.json": "fd5ff58190a613744d3227a71b1f8b20274dcda91a9f1797b1498606725a2c09",
+      "input.json": "1db669b0dd2fabfa18ba01378c61c55249a8b17f37a44537027b65db788aefac",
+      "prompt.md": "b008f2f0ce014f892cf8bc46c91eb0c961bbe4902dd939e2f96f78a03b5adb08",
+      "package.md": "cea1cb05c5d9c8d877ca2634f066805032df8120071dd12ed28016797fbe7282",
+      "spawn.md": "fa1fae94f0317e74ba010b16bfaa776b446f6cc6d7f1a92171d9e26432fadd31",
+      "followup.txt": "5d5ce248df2564a66f87bba9c99110e2d2e0cc6005cefc07ceb9ad47279b350f",
+      "turn1.json": "7409cbef5e16a917dc31904959ddf651b48b274b48b350faab0a42fdb1d54207",
+      "turn1.list.tsv": "de593173e1b40c3715015284825d35cf792bab684a3093769f69a8a4b9813556",
+      "followup.tsv": "485ab41cfa939123582014053201f83599c3c21acb5c61406847271c9beea79f",
+      "list.tsv": "4b619b4317fec02cea7cf38c93fd4bae11ed093ddba1571032059c28b3a27d90",
+      "consolidation.json": "752ef8011ec84c70178f3ad6e68fbfcfcf9bb878dccf72b6414160922d30a3fc",
+      "validation.json": "68f667fd3b9f6181e596c50ba7e2a8d32144e84882eba4846157cc769ae56978",
+      "proposal_validation.json": "95b4cf2f0f960d734d6c04b3dc47786457487c5089a3176d2d9ffad390fa6be9",
+      "tool_calls.json": "ea7f8a3c5109e8db9a70bb70db710204d956277571e9c760405ba1e331442060",
+      "session.json": "3c1dc55cc608df9f05b38d75ac2493d47ab0412f97a4f42ddc9488ea7a9cd223",
+      "session.events.jsonl": "a58beb28dc1768c2b9f857ee05a0795ab3266696d33ff983983581a91567079b"
+    },
+    "native_followup_proof": [
+      {
+        "call_id": "call_I6OtxdQQCeiQyayS2T99XnjL",
+        "encrypted": true,
+        "matches": false
+      }
+    ]
+  }
+]

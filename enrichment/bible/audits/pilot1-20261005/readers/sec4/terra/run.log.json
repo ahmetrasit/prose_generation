@@ -1,0 +1,1652 @@
+{
+  "target": "sec4",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md",
+  "base_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/quran.json": "e41e9f866cc96a3aabb7e7261eaa67ce3ed05240642cc8f9fc58f7d1ed40bb40",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/pack.json": "e73af12590027cc99bcacb8f265c254315f6220f3b9b4297fdea1625243c0599"
+  },
+  "started": "2026-10-05T11:06:52.945604-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_pilot1_20261005_sec4_terra",
+  "model": "gpt-5.6-terra",
+  "effort": "max",
+  "run_tag": "pilot1-20261005",
+  "prompt_sha256": "d8d7240884ac75dd8732af3b899e9f24396884af76c807d8b6576dc2fd5e8b80",
+  "package_sha256": "f1e6c59ec53f61f6f9df82875a13c7a5904523d5e80be2c0bf7caafdec5ce3a1",
+  "input_sha256": "7818aaf9b008ac7071d36d11ab7d0643deaeac86b0704b7293d10b1001ab1471",
+  "spawn_sha256": "607a1eec19724a1663f83ef2eee2de3d03e32904f8f7232acc857d0e48703001",
+  "followup_text_sha256": "5c5787258a7d1607a7dc8b69a10b3aa6b7256f28c954214dea425c1af3ba0988",
+  "agent_id": "01a10c9b-4761-71c0-93b5-61d077a1c78a",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T11-07-45-01a10c9b-4761-71c0-93b5-61d077a1c78a.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 74,
+  "turn1_sha256": "c04db5e432f0a9668d1e61bff923f8fd720a2b4ddfdebee7963c0aee93739477",
+  "turn2": {
+    "completed": true,
+    "rows_total": 120,
+    "rows_added": 46
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 74,
+    "raw_proposal_rows": 46,
+    "unique_additions": 46,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.2.3",
+          "basis": "Musa's mother, nursing child, water separation",
+          "note": "When Moses' mother can no longer conceal him, she puts him in a waterproof basket among the Nile reeds. It is the concrete biblical water-separation scene beside the commentary's mother who nurses Musa and sends him into the yamm; Exodus supplies concealment as the immediate motive."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.2.4",
+          "basis": "Musa's sister watches from afar",
+          "note": "Moses' sister stations herself to learn what will happen to him. This is the narrative counterpart to the sister who identifies a household able to foster Musa in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.2.6",
+          "basis": "mercy for the crying, exposed child",
+          "note": "Pharaoh's daughter opens the basket, sees the crying child, and has compassion. Her response makes the commentary's claim that mercy turns toward the weak into the act that begins Moses' rescue."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.2.7",
+          "basis": "sister proposes a nursing household",
+          "note": "The sister offers to call a Hebrew woman to nurse the child. The same child-sister-household nexus underlies Qur'an 28:12's offer of an ahl bayt who will care for him, though Exodus specifies a wet nurse."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.2.9",
+          "basis": "mother is returned as paid nurse",
+          "note": "Pharaoh's daughter entrusts the child to his own mother to nurse and pays her. It is the close biblical counterpart to Musa's return to his mother, joining maternal breast, a nonmaternal household, and providential restoration."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Exod.2.10",
+          "basis": "Pharaoh's daughter adopts Moses",
+          "note": "After he grows, Moses becomes Pharaoh's daughter's son. This makes Qur'an 26:18's collective claim that Pharaoh's household raised Musa a pointedly different household claim: the biblical named foster parent is the daughter, not Pharaoh as speaker."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Acts.7.20",
+          "basis": "Moses nurtured in his father's house",
+          "note": "Stephen says Moses was brought up for three months in his father's house. The retelling explicitly foregrounds the protected natal home before exposure, which the commentary contrasts with later palace claims."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Acts.7.21",
+          "basis": "Pharaoh's daughter raises Moses as son",
+          "note": "Acts says that Pharaoh's daughter took up the exposed Moses and raised him as her own son. It preserves the foster-child transition central to the commentary's distinction between birth, nursing, and a later household's nurture."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Sotah 12b",
+          "basis": "Moses refuses Egyptian wet nurses",
+          "note": "The Bavli expands Exodus 2 by making Moses refuse Egyptian nurses until his own mother feeds him, because his mouth is destined for divine speech. That interpretation intensifies the commentary's claim that his true nurture occurs at his mother's breast under God's care."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.49.15",
+          "basis": "source ر ح م: Hebrew רחם/רחמים, nursing mother",
+          "note": "The Hebrew r-ḥ-m root supplies the verb for a mother's compassion while the verse speaks of her nursing child and the son of her belly. It is a close Semitic witness to the commentary's womb-to-mercy movement, then extends it to God's unfailing remembrance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.139.13",
+          "basis": "God forms within the mother's womb",
+          "note": "The psalm credits God with forming the inward parts and weaving the speaker in the mother's womb. It directly accompanies the commentary's Qur'an 3:6 image of God shaping a person in the rahim as a place of formation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.10.10",
+          "basis": "gestation figured as milk being poured and curdled",
+          "note": "Job describes his bodily beginning through liquid and milk-curdling imagery before the later clothing of flesh. Its deliberately domestic, embodied account of gestation belongs beside the commentary's womb as vessel and its lactating-animal image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.1.5",
+          "basis": "God forms and knows the prophet before birth",
+          "note": "God says that he formed Jeremiah in the womb and knew him before he came out of it. This gives a biblical instance of prenatal divine formation that develops the commentary's claim that the womb is God's workshop."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.22.10",
+          "basis": "God brings the speaker from womb to mother's breasts",
+          "note": "The speaker credits God with drawing him from the womb and making him trust at his mother's breasts. It holds together God's hidden guardianship and maternal nourishment, the two agents the commentary distinguishes in Musa's infancy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.46.3",
+          "basis": "God carries people from belly and womb",
+          "note": "God addresses those borne from the belly and carried from the womb. The parent-like divine carrying extends the commentary's home-to-maturity image beyond gestation into sustained care."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.3.16",
+          "basis": "pain in conception and childbirth",
+          "note": "The verse makes painful childbearing part of Eve's condition. It is the direct biblical analogue for the commentary's insistence that the womb-house has a bodily cost after birth, even though its narrative frame is different."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.31.15",
+          "basis": "one Maker fashions persons in the womb",
+          "note": "Job grounds his refusal to oppress servants in the fact that the same Maker formed both parties in the womb. It turns shared prenatal origin into an ethical relation, illuminating the commentary's move from one womb to kinship and mercy for the vulnerable."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:1Kgs.3.26",
+          "basis": "source ر ح م: maternal רחמים acts to save a son",
+          "note": "The true mother's compassion, Hebrew rahamim, is stirred for her son and she yields him rather than see him killed. This is not merely emotion: it performs the commentary's definition of rahma as tenderness that entails beneficent action toward the weak."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.103.13",
+          "basis": "source ر ح م: fatherly compassion for children",
+          "note": "The psalm compares YHWH's compassion for those who fear him to a father's compassion for children, using the r-ḥ-m root. It gives a paternal rendering of the commentary's Rahman/Rahim frame around nurturing lordship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Jer.31.20",
+          "basis": "source ر ح م: divine compassion for a remembered son",
+          "note": "Ephraim is called God's dear child; divine inward yearning culminates in the emphatic r-ḥ-m promise of mercy. The verse joins father-son relation and womb-derived compassion, sharpening the commentary's family account of rahma."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Hos.1.6",
+          "basis": "Lo-Ruhamah, the child named Not-Compassionated",
+          "note": "Hosea's daughter is named Lo-Ruhamah because God announces a withdrawal of r-ḥ-m compassion. Its negative naming makes the repeated Qur'anic merciful names more consequential: mercy can be represented as a relation to a child that is withheld as well as bestowed."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Hos.2.25",
+          "basis": "Ruhamah restored by divine mercy",
+          "note": "The restoration oracle says that God will show r-ḥ-m compassion to Lo-Ruhamah and restore a belonging relation. Read after Hos. 1:6, it gives a narrative reversal of estrangement into parental mercy relevant to the commentary's merciful enclosing frame."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.11",
+          "basis": "shepherd gathers lambs and gently leads mothers",
+          "note": "The shepherd gathers lambs in his arms, carries them at his breast, and gently leads ewes with young. This joins weak young, maternal animals, and a caregiver's measured pace, supplying a pastoral analogue to the commentary's child and lactating-sheep images."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.11.12",
+          "basis": "nurse carries a suckling child",
+          "note": "Moses protests that he did not conceive or bear Israel and so cannot carry them as a nurse carries a suckling child. The verse is a precise nonbiological-caregiver analogy for the commentary's rabb/rabba and nurse who undertake a child's nurture."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.49.23",
+          "basis": "foster fathers and nursing mothers",
+          "note": "Kings are promised as foster fathers and queens as nursing mothers. This explicit pairing of adoptive authority and lactation provides a biblical counterpart to the commentary's nonbirth parent and child-minder senses of the r-b-b family."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Esth.2.7",
+          "basis": "Mordecai brings up an orphan as his daughter",
+          "note": "Mordecai raises Hadassah after the death of her parents and takes her as his own daughter. It is a concrete household instance of the commentary's claim that raising a child can belong to someone other than the one who gave birth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ruth.4.16",
+          "basis": "Naomi holds the child and becomes his nurse",
+          "note": "Naomi takes the newborn to her bosom and becomes his nurse. The scene makes kinship, bodily closeness, and an elder woman's nonmaternal nurture converge in the way the commentary's womb-derived family language invites."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.1.31",
+          "basis": "God carries Israel as a parent carries a child",
+          "note": "Moses recalls YHWH carrying Israel in the wilderness as a man carries his son. It makes the divine Lord a sustaining parent across a journey, not simply a begetter, matching the commentary's transition from womb to ongoing rabbi-like cultivation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.8.5",
+          "basis": "divine discipline as a father disciplines a son",
+          "note": "Israel is to recognize that YHWH disciplines it as a man disciplines his son. This gives a biblical parent-child account of formative correction, a necessary complication and parallel to terbiye as gradual movement toward completion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.54.13",
+          "basis": "children taught by YHWH",
+          "note": "All of Zion's children are described as taught by YHWH. The verse directly accompanies the commentary's Rahman who teaches and its extension of rabb into the teacher who feeds learners with small portions of knowledge."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.32.8",
+          "basis": "God instructs with an eye upon the learner",
+          "note": "God promises to instruct and teach the way to go, counsel the speaker, and keep an eye upon him. It closely matches the commentary's conjunction of teaching and Musa being raised under God's eye."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.18.19",
+          "basis": "Abraham directs children and household in God's way",
+          "note": "God's election of Abraham is tied to his commanding his children and household after him to keep YHWH's way. It puts religious formation inside the house, as the commentary puts nurture and teaching inside a family setting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.6.7",
+          "basis": "teach the words diligently to children at home",
+          "note": "Israel is commanded to teach the words to children while sitting at home, walking, lying down, and rising. This supplies a concrete domestic rhythm for the commentary's claim that upbringing extends into instruction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.2.26",
+          "basis": "Samuel grows in stature and favor",
+          "note": "The child Samuel continues to grow in stature and in favor with YHWH and people. It is a concise biblical sequence from protected childhood toward mature, socially and divinely recognized formation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.22.21",
+          "basis": "a household official becomes a father to inhabitants",
+          "note": "Eliakim receives office and is called a father to Jerusalem's inhabitants and Judah's house. It translates the commentary's qawwam image of one who upholds a household into public stewardship with explicitly parental language."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.31.15",
+          "basis": "food apportioned to the household",
+          "note": "The capable woman rises at night to give food to her household and portions to her servants. It realizes the commentary's secondary image of provisions brought into a home as an act that keeps its members alive."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Niddah 30b",
+          "basis": "fetus taught Torah in the womb",
+          "note": "The Bavli imagines an angel teaching the fetus the whole Torah in the womb before birth. This is an interpretive, not narrative, parallel that fuses the commentary's womb-house with its later claim that nurture reaches teaching."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Niddah 31a",
+          "basis": "father, mother, and God as partners in a child's formation",
+          "note": "The Bavli divides a child's making among father, mother, and the Holy One. Its three-agent account offers a Jewish interpretive framework for the commentary's distinction between maternal body, human caregivers, and the divine shaper."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 7:1–6",
+          "basis": "common formation in a mother's womb",
+          "note": "The speaker says that he was molded in flesh in a mother's womb and had the same entrance into life as all others. This Jewish reflection turns prenatal formation into common human kinship, echoing the commentary's one-womb logic."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "2 Maccabees 7:22–23",
+          "basis": "mother credits the Creator with her children's life",
+          "note": "The martyred brothers' mother says she does not know how they came to be in her womb and attributes life, breath, and bodily formation to the Creator. It directly combines maternal gestation with divine formative agency."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Tobit 4:4",
+          "basis": "remember the dangers endured in the womb",
+          "note": "Tobit tells his son to remember the many dangers his mother underwent for him in her womb. It is a close Jewish counterpart to the commentary's refusal to sentimentalize the womb-house or detach filial duty from maternal cost."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 3:12",
+          "basis": "honor and help a father in old age",
+          "note": "Ben Sira tells a child to help rather than grieve a father in old age. This places the grown child's mercy and practical care toward parents beside the commentary's Qur'an 17:23–24 reversal of the earlier raising relationship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Avot 5:21",
+          "basis": "ordered ages for Scripture, Mishnah, commandments, and maturity",
+          "note": "Avot's age sequence makes learning and responsibility unfold in stages. It supplies a rabbinic analogue to the commentary's definition of terbiye as bringing a thing state by state to completion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "soydas",
+          "ref": "SBLGNT:John.1.38",
+          "basis": "source ر ب ب: ῥαββί glossed as Teacher",
+          "note": "John preserves the Semitic address ῥαββί and immediately glosses it as Teacher. As an actual r-b-b cognate, it substantiates the commentary's carefully developed extension from Rabb to a teacher rather than relying on the root label alone."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.6.45",
+          "basis": "all will be taught by God",
+          "note": "Jesus cites the promise that all will be taught by God. The direct divine-teacher formulation is a New Testament companion to the commentary's Rahman who teaches the Qur'an and teaches human expression."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.2.40",
+          "basis": "Jesus grows, becomes strong, and is filled with wisdom",
+          "note": "The infancy narrative describes Jesus' growth, strengthening, wisdom, and divine favor. It gives a canonical Christian rendering of child development in stages rather than a single moment of birth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.2.52",
+          "basis": "Jesus advances in wisdom, stature, and favor",
+          "note": "Jesus continues to advance in wisdom, stature, and favor with God and people. Its triadic maturation closely fits the commentary's movement from a child's home through cultivation toward completion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.6.36",
+          "basis": "merciful as the Father is merciful",
+          "note": "Jesus grounds merciful action in the Father's mercy. This provides a father-child divine frame for the commentary's claim that rahma is tenderness that becomes beneficence toward others."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.11",
+          "basis": "father gives good things to children",
+          "note": "Human parents' giving of good gifts becomes the measure for the heavenly Father's generosity. It joins parental provision and divine goodness, illuminating the commentary's en'amte image of children being reared in ease."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.23.37",
+          "basis": "mother bird gathers young under her wings",
+          "note": "Jesus compares his desired protection of Jerusalem's children to a hen gathering her brood under her wings. The maternal protective figure supplies a New Testament meeting with the commentary's mercy, weak young, and guarded household."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.4.2",
+          "basis": "child placed under guardians and household managers",
+          "note": "The heir, while a child, is under guardians and managers until the father's appointed time. This is a particularly exact legal and domestic analogue for the commentary's nonbirth caregiver and the person who maintains a household's affairs."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.4.19",
+          "basis": "maternal labor until Christ is formed in learners",
+          "note": "Paul likens his pastoral work to being in labor until Christ is formed in his children. It turns the commentary's womb, labor, and gradual formation into an explicitly pedagogical Christian metaphor."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.16.21",
+          "basis": "birth pain gives way to joy at the child's arrival",
+          "note": "Jesus uses a woman in labor whose anguish turns to joy when a human being is born. It directly meets the commentary's emphasis on the bodily cost of birth, while assigning that image an eschatological meaning."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.3.2",
+          "basis": "teacher gives milk before solid food",
+          "note": "Paul says he gave the Corinthians milk rather than solid food because they were not ready. It is the clearest New Testament analogue to the commentary's teacher who nourishes people first with small portions of knowledge."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.2.7",
+          "basis": "nursing mother cherishes her own children",
+          "note": "Paul depicts his gentle pastoral care as a nursing mother cherishing her children. The image links bodily nurture and nonbiological teaching care in precisely the double register developed by the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.2.11",
+          "basis": "father exhorts, encourages, and comforts children",
+          "note": "Paul also compares his work to a father dealing with each child through exhortation, encouragement, and consolation. Together with maternal nursing in the preceding image, it makes cultivation a patient parental practice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.4.13",
+          "basis": "growth toward mature fullness",
+          "note": "The community is to reach mature adulthood and the measure of Christ's full stature. This provides an explicit Christian endpoint for the commentary's halden hale movement to the limit of completion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.6.4",
+          "basis": "bring children up in instruction of the Lord",
+          "note": "Fathers are told to bring children up in the discipline and instruction of the Lord rather than embitter them. It directly connects household upbringing, moral formation, and teaching."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.2.2",
+          "basis": "newborns crave milk in order to grow",
+          "note": "Newborn infants are urged to desire pure spiritual milk so that they may grow toward salvation. The verse makes milk, infancy, teaching, and purposeful maturation one integrated image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.5.14",
+          "basis": "solid food belongs to the mature",
+          "note": "Maturity is marked by solid food and trained powers of discernment. It completes the milk-to-maturity progression that the commentary's small portions of knowledge and final completion invite readers to trace."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.11",
+          "basis": "discipline yields trained righteousness",
+          "note": "Discipline is painful in the present but later yields peaceful fruit of righteousness to those trained by it. Its temporal account of costly formation is a close conceptual partner to terbiye as gradual maturation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.42",
+          "basis": "faithful manager supplies food at the proper time",
+          "note": "Jesus' faithful household manager gives the servants their food allowance at the proper time. This joins the commentary's qawwam-like keeper of household affairs with its secondary image of food provision and measured nurture."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.3.5",
+          "basis": "managing one's household and caring for God's assembly",
+          "note": "The argument reasons from managing one's own household to caring for God's church. It is a direct Christian development of the commentary's claim that standing up a household's affairs is a genuine form of care."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.3.17",
+          "basis": "compassion proved by material help",
+          "note": "One who sees a sibling in need and closes the inward organs of compassion is challenged to show God's love. The verse makes compassion concrete through goods and need, matching the commentary's insistence that mercy entails beneficent action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Gen.43.30",
+          "basis": "source ر ح م: brotherly compassion, רחמים",
+          "note": "Joseph's compassion for his brother is stirred so strongly that he must withdraw and weep. The Hebrew r-ḥ-m vocabulary lets the commentary's womb-derived kinship become a specific fraternal affect, without claiming that the two narratives are the same."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:2Sam.7.12",
+          "basis": "source ق و م: Hebrew הקים, raising and establishing a descendant",
+          "note": "God promises David that he will raise up his offspring after him and establish his kingdom. Hebrew q-w-m is a real cognate field for the commentary's qawwam, but this verse shifts from daily household support to securing a child and dynasty."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Prov.3.17",
+          "basis": "source ن ع م: Hebrew נעם, pleasant paths",
+          "note": "Wisdom's ways are called ways of pleasantness and her paths peace. Hebrew n-ʿ-m is cognate with the source en'amte family, but the biblical verse applies pleasantness to wisdom's path rather than importing the commentary's child-rearing sense."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Num.5.14",
+          "basis": "jealousy within a suspected marriage",
+          "note": "A husband's spirit of jealousy arises in the ordeal for a wife suspected of infidelity. It is a concrete biblical household setting for the commentary's secondary gayrah image of guarding family, but its suspicion and legal ordeal complicate any simple protective reading."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:John.3.4",
+          "basis": "returning to the mother's womb questioned",
+          "note": "Nicodemus asks whether an adult can enter a mother's womb a second time and be born. The question makes physical womb-life explicit, while the ensuing Johannine discourse redirects birth to a different, Spirit-centered register rather than the commentary's original womb-house."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.19.27",
+          "basis": "a chosen disciple takes Jesus' mother into his home",
+          "note": "Jesus establishes a new mother-son relation, and the disciple takes her into his own household. This is a concrete Christian scene of nonbiological family care that belongs beside the commentary's step-parent and child-minder images."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Augustine, Confessions 1.6.7",
+          "basis": "God supplies an infant through the mother's breasts",
+          "note": "Augustine thanks God for providing infant food through the mother's breasts rather than treating maternal nursing as self-sufficient. This Christian reading closely parallels the commentary's distinction between the visible mother and the true divine guardian of a child's nurture."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Protevangelium of James 8",
+          "basis": "Joseph assigned as Mary's guardian",
+          "note": "In the usual chapter division, the priests assign the older Joseph to keep Mary when she can no longer remain in the temple. This infancy tradition extends the commentary's nonbirth-caregiver question into a Christian guardianship narrative; details and chapter subdivision vary by translation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Ephrem, Hymns on the Nativity 11",
+          "basis": "virgin's womb holds the Provider as an infant",
+          "note": "Ephrem's Nativity hymn dwells on the paradox that the Provider enters the Virgin's womb and accepts infant need. It is a Syriac Christian theological rereading of womb as dwelling and nurture; stanza numbering varies across editions."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "weak",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "Odes of Solomon 19",
+          "basis": "painless virginal delivery in a Christian hymn",
+          "note": "The ode's birth image is commonly read as portraying the Virgin's delivery without pain. Against the commentary's laboring maternal body, it offers a specifically Christian theological reversal rather than a shared account; the ode's transmission and verse division warrant caution."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Exod.1.22",
+          "basis": "Pharaoh orders sons cast into the Nile",
+          "note": "Pharaoh commands that every Hebrew son be thrown into the Nile. This supplies the lethal political setting that makes Moses' mother's water placement in the commentary a protective counter-use of the same water."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.2.2",
+          "basis": "mother bears, sees, and hides Moses",
+          "note": "Moses' mother gives birth, sees that he is good, and hides him for three months. This verse supplies the maternal fear and prior home-care that precede the basket scene and the commentary's nursing mother."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.33.13",
+          "basis": "tender children and nursing flocks require a slow pace",
+          "note": "Jacob refuses to drive on too hard because the children are tender and the flocks and herds are nursing. The verse unusually joins vulnerable children, lactating animals, and measured care, meeting the commentary's child and milk-sheep imagery."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.49.25",
+          "basis": "blessings of breasts and womb",
+          "note": "Jacob's blessing names the breasts and womb among God's life-giving blessings. It is a concentrated biblical counterpart to the commentary's paired attention to womb, birth, and milk-giving nurture."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.50.21",
+          "basis": "Joseph provides for kin and their little ones",
+          "note": "Joseph promises to provide for his brothers and their little ones, then comforts them. It makes familial mercy material through food and reassurance, closely fitting the commentary's provisions-in-the-house and mercy-as-beneficence claims."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.4.22",
+          "basis": "Israel as God's firstborn son",
+          "note": "God calls Israel his firstborn son in the message to Pharaoh. This makes divine lordship a parental relation and gives political force to the commentary's account of the Rabb who nurtures children."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.10.18",
+          "basis": "God feeds and clothes the vulnerable outsider",
+          "note": "God executes justice for orphan and widow and loves the resident alien by giving food and clothing. It offers a concrete biblical form of the commentary's mercy that bends toward the weak and becomes provision."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.10",
+          "basis": "God guards Israel as the apple of his eye",
+          "note": "The wilderness song says that God found, encircled, cared for, and guarded Israel as the apple of his eye. This is a close biblical companion to Musa being brought up under God's eye rather than merely under Pharaoh's claim."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.11",
+          "basis": "a parent bird trains and carries its young",
+          "note": "The eagle stirs its nest, hovers over its young, spreads wings, takes them, and bears them. Its patient sequence of urging, sheltering, and carrying gives a vivid animal analogue to terbiye as growth through successive states."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Sam.7.14",
+          "basis": "God as father who disciplines a son",
+          "note": "God promises of David's heir, \"I will be his father and he will be my son,\" and speaks of correction when he errs. This is a direct biblical parent-child account of lordly formation that includes discipline as well as care."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Sam.12.3",
+          "basis": "lamb grows inside the household as a daughter",
+          "note": "Nathan's poor man's lamb grows up with him and his children, shares food and drink, lies in his bosom, and is like a daughter. It makes the commentary's domestic sheep image into a striking household scene of nurtured dependence."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:2Kgs.11.2",
+          "basis": "child and nurse hidden from royal violence",
+          "note": "Jehosheba takes the infant Joash with his nurse and hides them in a bedroom from those killing royal children. This is a separate biblical child-preservation scene joining danger, a nurse, concealment, and a substitute household."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.27.10",
+          "basis": "God receives the one abandoned by parents",
+          "note": "Even if father and mother forsake the speaker, YHWH receives him. It provides a compact divine-foster-parent image beside the commentary's insistence that the one who truly raises a child may be other than the visible household."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.131.2",
+          "basis": "quieted soul like a weaned child with its mother",
+          "note": "The psalm compares its quieted soul to a weaned child with its mother. It adds the post-nursing stage of peaceful attachment to the commentary's womb, breast, and gradual completion sequence."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.22.6",
+          "basis": "train a child in the way to go",
+          "note": "The proverb explicitly speaks of training a child for his way so that age will not make him depart from it. It is a concise Hebrew Bible formulation of the commentary's terbiye as directed, enduring formation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.11.5",
+          "basis": "God's work hidden in a pregnant womb",
+          "note": "Qoheleth compares the unknowable work of God with not knowing how bones develop in a pregnant woman's womb. The comparison makes prenatal formation an arena of divine hiddenness, complementing the commentary's more affirmative image of God shaping there."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.66.9",
+          "basis": "God brings to birth and does not shut the womb",
+          "note": "God asks whether the one who brings to birth would fail to cause delivery or shut the womb. It gives a prophetic divine-birth image that directly accompanies the commentary's womb as a place governed by God."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.16.4",
+          "basis": "an abandoned newborn lacks ordinary care",
+          "note": "Jerusalem is figured as a newborn whose cord is not cut and who is not washed, salted, or swaddled. This negative picture makes bodily care of a weak infant the test case for the mercy and household nurture developed in the commentary."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.16.6",
+          "basis": "God sees the exposed infant and commands life",
+          "note": "God passes the infant abandoned in blood and says, \"Live.\" The rescue turns compassion toward a helpless child into decisive action, directly illuminating the commentary's definition of mercy as beneficence toward the weak."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.16.7",
+          "basis": "rescued infant grows to mature bodily fullness",
+          "note": "In the continuing infant allegory, God causes the child to grow and arrive at maturity. The verse supplies a disturbing but precise prophetic instance of growth from exposure toward fullness, making the commentary's state-by-state completion image less sentimental."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Gen.25.23",
+          "basis": "two opposed peoples issue from one womb",
+          "note": "God tells Rebekah that two nations and divided peoples are in her womb. It qualifies the commentary's association of one womb with kinship by showing a biblical womb that contains rivalry and eventual separation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Lam.4.10",
+          "basis": "compassionate mothers reversed by famine",
+          "note": "In siege, women called compassionate cook their own children for food. This horrific reversal makes maternal compassion and household nourishment collapse into their opposites, a counter-image to the commentary's merciful womb-home."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Ta'anit 2a",
+          "basis": "God retains the key of childbirth",
+          "note": "The Bavli lists childbirth among the keys that God does not entrust to an intermediary, grounding it in Rachel's opened womb. This is a direct Jewish interpretive assertion of the divine agency behind the commentary's womb and birth images."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Kiddushin 29a",
+          "basis": "parental duties of bodily, Torah, and vocational formation",
+          "note": "The Bavli enumerates a father's obligations toward a son, including circumcision, redemption, Torah instruction, marriage, and a trade. It gives a concrete rabbinic map of upbringing that moves beyond birth toward a child's completed social and religious formation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Bava Batra 21a",
+          "basis": "communal teachers for children",
+          "note": "The account of Joshua ben Gamla's school reform makes accessible teachers for children a communal duty. It develops the commentary's teacher-nurturer image into an institutional form of care for learners who cannot yet sustain themselves."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.41",
+          "basis": "an infant responds within the mother's womb",
+          "note": "At Mary's greeting, the infant leaps in Elizabeth's womb and she is filled with the Holy Spirit. The scene gives the womb a responsive sacred interior, alongside the commentary's womb as a divinely active place of formation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.7.13",
+          "basis": "compassion for a bereaved mother and her only son",
+          "note": "Jesus sees the bereaved widow and is moved with compassion before addressing her loss. The scene places mercy beside a mother's emptied household and anticipates restoration of her child, close to the commentary's maternal grief and return motif."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.11.27",
+          "basis": "womb and breasts praised for bearing and nursing Jesus",
+          "note": "A woman blesses the womb that bore Jesus and the breasts he nursed. This is an unusually explicit New Testament meeting with the commentary's womb-as-home and maternal-nourishment language."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Luke.11.28",
+          "basis": "blessedness redirected to hearing and keeping God's word",
+          "note": "Jesus answers the blessing of womb and breasts by pronouncing blessed those who hear and keep God's word. The response does not erase the preceding maternal image, but redirects its privileged meaning toward received teaching, a contrast central to the commentary's womb-to-learning movement."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.18.14",
+          "basis": "the Father's will that no little one perish",
+          "note": "Jesus states that the heavenly Father does not will the loss of even one little one. It is a precise divine-parental articulation of mercy toward the weak child."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:John.1.13",
+          "basis": "birth from God rather than blood or human will",
+          "note": "The prologue describes those born not from blood, fleshly will, or a man's will, but from God. It offers a Johannine redescription of descent that stands in productive tension with the commentary's bodily womb and kinship account."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.7.22",
+          "basis": "Moses instructed in Egyptian wisdom",
+          "note": "Stephen says Moses was instructed in all the wisdom of the Egyptians and became powerful in words and deeds. It supplies the educational continuation of the foster-household narrative, relevant to the commentary's move from being raised to being taught."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.8.15",
+          "basis": "adoption and the cry Abba, Father",
+          "note": "The Spirit of adoption enables believers to cry, \"Abba, Father.\" This makes nonbiological incorporation into a parental divine household an explicit Christian counterpart to the commentary's birth-parent and foster-parent distinctions."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.4.15",
+          "basis": "spiritual fatherhood exceeds guardianship",
+          "note": "Paul contrasts many guardians in Christ with his singular fatherhood through the gospel. It gives a particularly close Christian distinction between a supervising caregiver and a formative parent, matching the commentary's careful nonbirth-parent vocabulary."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.13.11",
+          "basis": "leaving childhood ways for adulthood",
+          "note": "Paul uses the passage from child to adult as the figure for a completed mode of knowing. It is a brief but exact New Testament staging of maturation that belongs beside terbiye's movement toward completion."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.12.14",
+          "basis": "parents store up for children",
+          "note": "Paul invokes the household norm that parents should save for children, not children for parents. It directly connects parenthood with provision, complementing the commentary's domestic food and child-rearing images."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.4.4",
+          "basis": "God's son born of a woman",
+          "note": "God sends his Son, born of a woman and under the law. The verse keeps incarnation within a concrete maternal birth while the surrounding argument moves toward adoption, furnishing both sides of the commentary's womb and foster-family frame."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.5.29",
+          "basis": "nourishing and cherishing as embodied care",
+          "note": "A person nourishes and cherishes his own body, as Christ does the church. The verb for nourishing extends the commentary's rearing imagery into a Christian account of sustained, intimate care."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.5.4",
+          "basis": "children repay parents through care for their household",
+          "note": "Children and grandchildren must first practice piety toward their own household and make return to their parents. This is a direct New Testament counterpart to the commentary's Qur'an 17:23–24 reversal from parental raising to a child's merciful responsibility."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.3.15",
+          "basis": "Sacred writings known from infancy",
+          "note": "Timothy has known the sacred writings from infancy, which can make him wise for salvation. It is a direct image of instruction beginning in childhood and reaching mature discernment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.5.12",
+          "basis": "milk and elementary instruction before mature teaching",
+          "note": "The readers, who should be teachers, need the elementary words again and have become people needing milk. It adds the pedagogical problem behind the commentary's image of feeding learners small pieces of knowledge."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.5",
+          "basis": "fatherly discipline addressed to a son",
+          "note": "The exhortation cites the address, \"My son,\" and tells the child not to reject the Lord's discipline. This supplies the explicit father-son language whose later training result appears in Heb. 12:11."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.13",
+          "basis": "straight paths heal what is weak",
+          "note": "After the discipline argument, hearers are told to make straight paths for their feet so that what is lame may be healed. It links the commentary's straight path to formative care for the weak rather than to direction alone."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.2.16",
+          "basis": "compassion fails without food and clothing",
+          "note": "James rejects telling an inadequately clothed and hungry sibling to depart in peace without giving what the body needs. It makes the commentary's mercy-to-beneficence claim a sharply practical test involving household necessities."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Protevangelium of James 7:2",
+          "basis": "Mary's childhood nourishment in the temple",
+          "note": "In the common chapter division, three-year-old Mary is placed at the temple and receives food from an angel. This infancy tradition adds a distinctly Christian scene of a child reared outside her parents' home; chapter and verse divisions vary by translation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Irenaeus, Against Heresies 4.38.1",
+          "basis": "God creates humans to grow toward perfection",
+          "note": "Irenaeus argues that created humanity must grow gradually toward perfection rather than receive its final capacity all at once. This patristic account gives a theological analogue to the commentary's definition of terbiye as movement through states to completion."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "7782f0eb532ce05414239c0608707181aa9c3b3e3706ee78e342a7b4148bdfc1",
+    "followup_sha256": "7782f0eb532ce05414239c0608707181aa9c3b3e3706ee78e342a7b4148bdfc1"
+  },
+  "consolidation_error": null,
+  "list_sha256": "856561a90bdeda24bef7ded14cefcc90c73bcce9619115085fbd8bd702bed350",
+  "followup_delivery": [
+    {
+      "call_id": "call_d2fae491671745ec8aaa9c2c322e2cd4",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 338254,
+    "cached_input_tokens": 283904,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 44071,
+    "reasoning_output_tokens": 34245,
+    "total_tokens": 382325
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T15:28:22.208Z",
+  "artifacts": {
+    "started.json": "0fb5bc15a28a71f20a58769e43319dde1989634a1329a88c3b15ac70c7c09702",
+    "input.json": "7818aaf9b008ac7071d36d11ab7d0643deaeac86b0704b7293d10b1001ab1471",
+    "prompt.md": "d8d7240884ac75dd8732af3b899e9f24396884af76c807d8b6576dc2fd5e8b80",
+    "package.md": "f1e6c59ec53f61f6f9df82875a13c7a5904523d5e80be2c0bf7caafdec5ce3a1",
+    "spawn.md": "607a1eec19724a1663f83ef2eee2de3d03e32904f8f7232acc857d0e48703001",
+    "followup.txt": "5c5787258a7d1607a7dc8b69a10b3aa6b7256f28c954214dea425c1af3ba0988",
+    "turn1.json": "89ff45e6a1375300548ed3bc891d829cc48e320bcd8412da35ee9fdafa5fc660",
+    "turn1.list.tsv": "c04db5e432f0a9668d1e61bff923f8fd720a2b4ddfdebee7963c0aee93739477",
+    "followup.tsv": "7782f0eb532ce05414239c0608707181aa9c3b3e3706ee78e342a7b4148bdfc1",
+    "list.tsv": "856561a90bdeda24bef7ded14cefcc90c73bcce9619115085fbd8bd702bed350",
+    "consolidation.json": "435d422a7fa807e6e2c981f438187b058dfb57df95d30bc95caa397fa23e868f",
+    "validation.json": "81951f992e654367b2e48815b41d1080c9f4f3192cedcf33bfc7d6cf42137be9",
+    "proposal_validation.json": "a010a06c36fb04fda361c26e6ba408d61628fc29203aefde7f2a7222242b0b08",
+    "tool_calls.json": "b5eeac6024f172507d3751a479e6cab318cf7fa63ce8db4395ce38bd5f02ca8d",
+    "session.json": "76670273b6ed34ab599ae1294efd9d2858cd11d255d8726d60730ba493787759",
+    "session.events.jsonl": "2c191c403e54c9aab452ee74503005dff1536f42e0038204eb3a0072e85b24a4"
+  }
+}

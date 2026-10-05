@@ -1,0 +1,423 @@
+{
+  "format": "bible-discovery-v2",
+  "status": "ok",
+  "target": "sec13",
+  "base_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "tsv_sha256": "0683ff3588b5d6978524ec1dbe52afb8054a114050a3ce47261112e108fc134e",
+  "provenance": [
+    {
+      "target": "sec13",
+      "model": "luna",
+      "run_tag": "pilot1-20261005",
+      "path": "pilot1-20261005/sec13/luna",
+      "sha256": "014115702cfdabf3ab460bbf047557f12589c53cd796e814c4a9ebe63f61c27c"
+    },
+    {
+      "target": "sec13",
+      "model": "terra",
+      "run_tag": "pilot1-20261005",
+      "path": "pilot1-20261005/sec13/terra",
+      "sha256": "810aae55399af1b53a56213ddd67760b70a22a32eb2b39826a1a48610a9d3c4d"
+    }
+  ],
+  "rows": 242,
+  "findings": [
+    {
+      "target": "sec13",
+      "model": "luna",
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec13/luna/list.tsv",
+        "rows": 100,
+        "unique_references": 99,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 65,
+          "medium": 34,
+          "weak": 1
+        },
+        "findings": [
+          {
+            "line": 17,
+            "ref": "Tobit 7:13",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 18,
+            "ref": "Mishnah Qiddushin 1:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 89,
+            "ref": "b. Rosh Hashanah 16a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "raw_proposal_validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec13/luna/followup.tsv",
+        "rows": 38,
+        "unique_references": 37,
+        "schema_errors": [
+          "line 10: unknown verse in specified edition: WLC:Ps.50.24"
+        ],
+        "duplicates": [],
+        "strengths": {
+          "strong": 24,
+          "medium": 14
+        },
+        "findings": [
+          {
+            "line": 28,
+            "ref": "b. Rosh Hashanah 16a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "repeats": [],
+      "diagnostics": [
+        {
+          "call_id": "call_8pSCVrDknZMMLrZemR0G9oqi",
+          "message": "bad field count at row 62 : 0"
+        },
+        {
+          "call_id": "call_0uwNrzSaUWx115jtP4iahQlv",
+          "message": "Script failed"
+        },
+        {
+          "call_id": "call_0uwNrzSaUWx115jtP4iahQlv",
+          "message": "Script error:"
+        },
+        {
+          "call_id": "call_0uwNrzSaUWx115jtP4iahQlv",
+          "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec13/luna/list.tsv:"
+        }
+      ],
+      "repair": {
+        "approval": "2026-10-05 user reply: Apply all 15 recorded follow-up corrections. Exact bundle: enrichment/bible/audits/pilot1-20261005/followup-repairs.proposed.json",
+        "accepted_at": "2026-10-05T16:04:05.467666+00:00",
+        "changes": [
+          {
+            "line": 10,
+            "before": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Ps.50.24",
+              "thanksgiving sacrifice and a rightly ordered way",
+              "The commentary joins worship, offering, and the request for guidance; this psalm says a thanksgiving sacrifice honors God and that the one who orders his way rightly will see God's salvation."
+            ],
+            "after": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Ps.50.23",
+              "thanksgiving sacrifice and a rightly ordered way",
+              "The commentary joins worship, offering, and the request for guidance; this psalm says a thanksgiving sacrifice honors God and that the one who orders his way rightly will see God's salvation."
+            ],
+            "reason": "WLC Psalm 50 ends at verse 23; that text contains the preserved thanksgiving-offering and ordered-way connection."
+          }
+        ],
+        "raw_sha256": "41905e15681726a09af5cf42e0e5b47c4ec5942601d6625fccbc1b906f003cf1",
+        "accepted_sha256": "ab07885101ca29087919a1bc935cb39627120a24aaaaa5b28a86e4887072e0fd",
+        "proposal_sha256": "2788fa5189fdb943fd7f615143e60184bbb8f5d39245bb9ed989093f8c8fc467",
+        "failed_log_sha256": "6456e2ab1e1129fe8bd89d5114558d77c8341001710176c5bf500e8a9a1156fa",
+        "model_calls": 0,
+        "policy": "Raw proposals, failed validation and failed log preserved; no regrading."
+      },
+      "first_turn_repair": {
+        "policy": "bible-first-turn-repair-v1",
+        "approval": "2026-10-05 user reply: Apply the 13 recorded corrections; extend first-pass repair handling. Exact bundle: enrichment/bible/audits/pilot1-20261005/first-turn-repairs.proposed.json",
+        "tool_audit_reviewed": true,
+        "accepted_at": "2026-10-05T15:52:00.215985+00:00",
+        "changes": [
+          {
+            "line": 61,
+            "before": [
+              "weak",
+              "tevrat",
+              "soydas",
+              "WLC:Ps.90.18",
+              "Hebrew noam and Arabic n-ʿ-m",
+              "The commentary itself labels Arabic anʿamta, favor, and anʿām, herds, under n-ʿ-m; Hebrew noam here means YHWH's gracious pleasantness, a possible cognate for the favor sense but not for livestock."
+            ],
+            "after": [
+              "weak",
+              "tevrat",
+              "soydas",
+              "WLC:Ps.90.17",
+              "Hebrew noam and Arabic n-ʿ-m",
+              "The commentary itself labels Arabic anʿamta, favor, and anʿām, herds, under n-ʿ-m; Hebrew noam here means YHWH's gracious pleasantness, a possible cognate for the favor sense but not for livestock."
+            ],
+            "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+          }
+        ],
+        "model_calls": 0,
+        "artifacts": {
+          "turn1.original.tsv": "f453a1882fc954cb6821aa0294b63d4c36d3fa50d62ea8a73a31af1ed6972be6",
+          "turn1.validation.failed.json": "8afc571db3781684ad91ec92f55f435754accdad662ba6e2b972efb1297bb631",
+          "turn1.tool_calls.json": "d8879f68cc0ac2d5ebba36e85f1b347058d8810b46a484fe603cc2d463a6824f",
+          "turn1.repair.proposed.json": "3ded46fe58ee4084e8f575914697feaecdf463d721ef53867004d25c45b5baa6",
+          "turn1.repair.proposed.tsv": "534c9e3b8ac2ad83b4faf14002577870b9da7121da122d8b8eef9b6bd7c8cb9e",
+          "turn1.accepted.tsv": "534c9e3b8ac2ad83b4faf14002577870b9da7121da122d8b8eef9b6bd7c8cb9e"
+        }
+      }
+    },
+    {
+      "target": "sec13",
+      "model": "terra",
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec13/terra/list.tsv",
+        "rows": 196,
+        "unique_references": 193,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 162,
+          "medium": 34
+        },
+        "findings": [
+          {
+            "line": 51,
+            "ref": "Genesis Rabbah 56:10",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 52,
+            "ref": "Babylonian Talmud Pesahim 88a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 53,
+            "ref": "Mishnah Hagigah 1:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 54,
+            "ref": "Mishnah Bikkurim 3:3",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 55,
+            "ref": "Mishnah Bikkurim 3:4",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 56,
+            "ref": "Mishnah Zevahim 14:8",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 57,
+            "ref": "Genesis Rabbah 18:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 58,
+            "ref": "Mishnah Qiddushin 1:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 59,
+            "ref": "Mishnah Makkot 2:6",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 60,
+            "ref": "Mishnah Makkot 2:5",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 87,
+            "ref": "Didache 14:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 88,
+            "ref": "Justin Martyr, Dialogue with Trypho 117",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 89,
+            "ref": "WLC:Exod.3.12",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "עבד",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 89,
+            "ref": "WLC:Exod.3.12",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "עבד",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 90,
+            "ref": "WLC:Josh.24.15",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "עבד",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 90,
+            "ref": "WLC:Josh.24.15",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "עבד",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 93,
+            "ref": "WLC:Esth.2.16",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "מלך",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 99,
+            "ref": "Targum Ruth 2:12",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 115,
+            "ref": "Augustine, Tractates on the Gospel of John 67.2",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 166,
+            "ref": "WLC:Deut.6.13",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "עבד",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 167,
+            "ref": "Tobit 13:11",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 190,
+            "ref": "Mekhilta de-Rabbi Ishmael, Shirata 9",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 191,
+            "ref": "Philo, Special Laws 1.69-70",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 192,
+            "ref": "Baruch 5:9",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "raw_proposal_validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec13/terra/followup.tsv",
+        "rows": 81,
+        "unique_references": 81,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 74,
+          "medium": 7
+        },
+        "findings": [
+          {
+            "line": 51,
+            "ref": "WLC:Deut.6.13",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "עבד",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 52,
+            "ref": "Tobit 13:11",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 75,
+            "ref": "Mekhilta de-Rabbi Ishmael, Shirata 9",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 76,
+            "ref": "Philo, Special Laws 1.69-70",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 77,
+            "ref": "Baruch 5:9",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "repeats": [],
+      "diagnostics": [],
+      "repair": null,
+      "first_turn_repair": null
+    }
+  ],
+  "confidence": "Unverified reader labels; agreement and follow-up origin do not verify a connection."
+}

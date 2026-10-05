@@ -1,0 +1,1404 @@
+{
+  "target": "sec11",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md",
+  "base_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/quran.json": "e41e9f866cc96a3aabb7e7261eaa67ce3ed05240642cc8f9fc58f7d1ed40bb40",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/pack.json": "e73af12590027cc99bcacb8f265c254315f6220f3b9b4297fdea1625243c0599"
+  },
+  "started": "2026-10-05T11:06:55.455415-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_pilot1_20261005_sec11_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "pilot1-20261005",
+  "prompt_sha256": "5b1190236b0128ced40f940647419e1fc1a9399d08b7498f5d51aba2bf30eec3",
+  "package_sha256": "74f96a34ce00dce2d638578dff2621cf59875b550e4b6601e8c096d317cb872c",
+  "input_sha256": "5e8bb13606f3c195054c1bc24f1970ecdaed4faa5a8fac61359741acee804462",
+  "spawn_sha256": "d3614522553e95fffa568a5a9c695ca541928b7c56169d7e2d881a59a493f8df",
+  "followup_text_sha256": "759769f123f4e059e2e8c4e35e287c08e52bb749f9a30d57972c40cede7b5830",
+  "agent_id": "01a10c9d-dfd2-7963-b5a4-7c47ebdd1adb",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T11-10-35-01a10c9d-dfd2-7963-b5a4-7c47ebdd1adb.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "accepted",
+  "check": "findings",
+  "turn1_rows": 60,
+  "turn1_sha256": "8e95ce1a0b48e2ec147ec7b976a59f2f603afc6979fa5bc56ecb4c2fab21f42e",
+  "turn2": {
+    "completed": true,
+    "rows_total": 98,
+    "rows_added": 38
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 60,
+    "raw_proposal_rows": 38,
+    "unique_additions": 38,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.17.12",
+          "basis": "Two-sided support",
+          "note": "When Moses' hands grow heavy, Aaron and Hur seat him and hold them up, one on each side, until sunset; the commentary's exhausted walker is likewise sustained between companions, making dependence a shared act."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.19.7",
+          "basis": "A journey too great",
+          "note": "An angel returns, touches Elijah, and tells him to rise and eat because the journey is too much for him; this verse recognizes dependence before onward travel, matching the commentary's need for aid."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.19.8",
+          "basis": "Strength to continue",
+          "note": "After eating, Elijah rises and travels forty days in the strength of that food; this gives a concrete result for the aid sought by the commentary's weakened traveler: renewed ability to walk onward."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.1.31",
+          "basis": "Carried on the journey",
+          "note": "Moses recalls that YHWH carried Israel through the wilderness as a man carries his son; the traveling people depend on support through the whole route, extending the commentary's individual image to a community."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Job.4.4",
+          "basis": "ק־ו־ם, raising the one who stumbles",
+          "note": "The source commentary labels Arabic ق و م (q-w-m) for stopping and standing upright; Job's Hebrew יְקִימוּן (yəqîmûn, from קום) says Job's words used to raise a stumbling person and strengthen weak knees, a cognate use that restores rather than halts movement."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.4.10",
+          "basis": "A companion lifts the fallen",
+          "note": "The verse says that if one falls, the other can raise his companion; it makes explicit the human help implicit in the commentary's walker leaning on two people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.40.3",
+          "basis": "Feet made secure",
+          "note": "The speaker is drawn from a pit and mire, set on rock, and given firm steps; the rescue turns being stuck into supported movement, like the commentary's stopped mount and restored walker."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.37.25",
+          "basis": "Held by the hand",
+          "note": "Even when the righteous person falls, he is not cast down because YHWH holds his hand; this directly pictures the support that keeps a weak walker from collapsing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.94.18",
+          "basis": "A slipping foot supported",
+          "note": "The speaker says that when his foot was slipping, YHWH's steadfast love supported him; the same bodily danger and sustaining aid appear in the commentary's stumbling traveler."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.145.15",
+          "basis": "The falling and the bent",
+          "note": "YHWH supports all who fall and straightens all who are bowed down; the verse joins the commentary's two bodily states, loss of footing and needing to be brought upright."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.107.6",
+          "basis": "Travelers cry for help",
+          "note": "Wilderness wanderers cry to YHWH in distress and he rescues them; the surrounding scene is people lost, hungry, and thirsty, so this is a specific travel crisis answered by the aid the commentary says a traveler needs."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.107.7",
+          "basis": "Led on a straight road",
+          "note": "YHWH leads the rescued group by a straight way to an inhabited city; it unites the commentary's request for help with its request to be guided along a straight path."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.4",
+          "basis": "Guidance along a path",
+          "note": "The shepherd leads the speaker in paths of righteousness; this is a prayerful image of being guided along a good way, adding the relation of trust between guide and dependent traveler."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.5",
+          "basis": "A staff that comforts",
+          "note": "As the speaker walks through a dark valley, the shepherd's rod and staff comfort him; a tangible support accompanies the walk, complementing the commentary's image of a body steadied by others."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.121.3",
+          "basis": "The source of help",
+          "note": "The pilgrim answers that his help comes from YHWH, maker of heaven and earth; this gives a concrete divine answer to the commentary's question of what a dependent traveler can rely on."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.31.9",
+          "basis": "A straight road without stumbling",
+          "note": "YHWH leads returning Israelites to streams of water by a straight road on which they will not stumble; the promised route closely joins guidance, sustenance, and secure walking as in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.35.3",
+          "basis": "Weak hands and knees strengthened",
+          "note": "The prophet tells the community to strengthen slack hands and make firm weak knees; this names the bodily weakness that the commentary gives to its traveler before he can walk uprightly."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.35.4",
+          "basis": "Words that steady the fearful",
+          "note": "The community is told to speak courage to fearful hearts because God comes to save; alongside the commentary's physical supports, this shows encouragement as aid to the weak."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.35.6",
+          "basis": "The lame walk again",
+          "note": "The lame leap like a deer when the wilderness blossoms; this turns the commentary's halted, exhausted movement into restored mobility."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.42.16",
+          "basis": "God leads on an unknown road",
+          "note": "YHWH promises to lead the blind by roads they have not known, make rough places level, and not forsake them; the passage joins guidance with hands-on provision for a dependent traveler."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.4.11",
+          "basis": "Taught the way of wisdom",
+          "note": "The speaker says he has taught the way of wisdom and led his pupil in upright tracks; this gives a concrete teacher-and-traveler counterpart to asking for guidance on a straight way."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.4.12",
+          "basis": "Walking without stumbling",
+          "note": "The pupil's stride will not be hampered and he will not stumble when running; this describes the bodily result of the guidance and steadiness developed in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.11.3",
+          "basis": "Arms that teach a child to walk",
+          "note": "YHWH says he taught Ephraim to walk and took them in his arms, though they did not recognize that he healed them; the image presents guidance and support as care a dependent person may not even perceive."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.17.8",
+          "basis": "A tree rooted by water",
+          "note": "The person who trusts YHWH is like a tree planted by water whose roots reach the stream and whose leaf stays green in drought; this gives a living image for the commentary's tree standing on its roots, with hidden nourishment preserving stability."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.3.12",
+          "basis": "ע־ב־ד, service to God",
+          "note": "The source commentary labels Arabic ع ب د for نَعْبُدُ; Hebrew תַּעַבְדוּן (ta'avdun, root עבד) is its cognate in God's promise that liberated Israel will serve him at the mountain, adding the setting of worship as service after deliverance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.33.22",
+          "basis": "מֶלֶךְ, king and rescuer",
+          "note": "The source commentary labels Arabic م ل ك for مَٰلِكِ; Hebrew מֶלֶךְ (melekh, root מלך) appears as YHWH is named Israel's judge, lawgiver, and king who saves, joining royal authority with the rescue sought by the dependent."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.96.10",
+          "basis": "Reigning and judging",
+          "note": "The nations are told that YHWH reigns, establishes the world, and judges peoples equitably; this directly connects the selected ayah's sovereign over the Day of Judgment with the commentary's root image of firm, sustaining authority."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.96.13",
+          "basis": "The judge comes to earth",
+          "note": "YHWH comes to judge the earth in righteousness and faithfulness; this supplies a specific Hebrew Bible scene of the judgment day named in the selected ayah."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.14.9",
+          "basis": "King on that day",
+          "note": "In the passage's eschatological day, YHWH becomes king over all the earth; it closely joins the selected ayah's kingship and judgment-day language."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.7.10",
+          "basis": "The heavenly court sits",
+          "note": "The Ancient of Days takes his seat, the court sits, and books are opened; this is an apocalyptic judgment scene to place beside the selected ayah's day of reckoning."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.79",
+          "basis": "Feet guided into peace",
+          "note": "In Zechariah's blessing, God will guide the feet of those in darkness into the way of peace; its prayer-like language explicitly joins guidance, feet, and a path as the commentary does."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.10.34",
+          "basis": "A wounded traveler receives support",
+          "note": "The Samaritan binds the wounded man's injuries, puts him on his own animal, and brings him to an inn; the story reverses the commentary's exhausted mount but shares its precise scene of a vulnerable traveler kept moving by another's practical care."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.10.35",
+          "basis": "Care continues after rescue",
+          "note": "The Samaritan pays the innkeeper and promises further expenses for the wounded traveler; this extends the commentary's image of leaning on support into sustained care beyond the first act of getting someone upright."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.5.7",
+          "basis": "No one to help him reach the water",
+          "note": "The disabled man says he has no one to put him in the pool and another enters first; his particular inability to move without assistance embodies the commentary's dependent traveler asking for support."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.5.8",
+          "basis": "Rise and walk",
+          "note": "Jesus tells the man to rise, take his mat, and walk; the command's result is a body restored to upright movement, the outcome pictured in the commentary's supported traveler."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.3.7",
+          "basis": "A hand raises the lame man",
+          "note": "Peter takes the lame man by the right hand and raises him; his feet and ankles become strong and he walks, making the commentary's transition from aid to upright walking an enacted healing scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.13.13",
+          "basis": "The bent woman stands upright",
+          "note": "Jesus lays hands on a woman bent for eighteen years and she immediately stands straight and glorifies God; the scene joins bodily restoration to praise, as the commentary joins uprightness with worship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.12",
+          "basis": "Drooping hands and weak knees",
+          "note": "The author urges readers to lift drooping hands and strengthen weakened knees; this directly names the bodily frailty behind the commentary's request for help."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.12.13",
+          "basis": "Straight paths for weak feet",
+          "note": "The author tells the community to make straight paths for their feet so the lame may be healed; it closely joins the commentary's weak walker, straight way, and restored gait."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.4.16",
+          "basis": "Help at the throne",
+          "note": "Readers are invited to approach the throne of grace for mercy and timely help; the passage gives a prayerful counterpart to worship joined with asking for aid, and recasts approach to divine authority as confidence in receiving support."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.17.31",
+          "basis": "An appointed day of judgment",
+          "note": "Paul says God fixed a day to judge the world in righteousness through an appointed man; this directly elaborates the judgment-day claim in the selected ayah."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.31",
+          "basis": "The judge sits in glory",
+          "note": "The Son of Man comes in glory with angels and sits on his throne; the scene gives the selected ayah's sovereign on Judgment Day a concrete Christian apocalyptic counterpart."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.20.12",
+          "basis": "The dead before the throne",
+          "note": "The dead stand before the great throne as books are opened and they are judged by what is written; this supplies a distinct vision of the day of reckoning named in the selected ayah."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Berakhot 29b",
+          "basis": "The traveler's prayer for guidance",
+          "note": "The Babylonian Talmud's Tefillat ha-Derekh asks God to lead the traveler in peace, direct his steps, and support him; it is a Jewish liturgical form joining the commentary's requests for help and a straight path."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Rosh Hashanah 29a",
+          "basis": "Raised hands interpreted as prayer",
+          "note": "The Talmud asks whether Moses' raised hands themselves won the battle, then explains Israel's victory through looking upward and directing their hearts to God; it turns bodily support into a lesson about the prayerful dependence beside the commentary's image."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Berakhot 5b",
+          "basis": "A hand lifts the suffering person",
+          "note": "Rabbi Yohanan visits the ill Rabbi Hiyya bar Abba, takes his hand, and raises him; the passage says a captive cannot free himself, making dependence on another's help explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Berakhot 60b",
+          "basis": "Blessing for straightening the bent",
+          "note": "Among the morning blessings is praise of God as the one who straightens the bent; this Jewish liturgical wording joins bodily uprightness to praise, matching a secondary image in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.13",
+          "basis": "Prayer for protection and rescue",
+          "note": "The Lord's Prayer asks not to be brought into trial and asks for deliverance from evil; this is a specific communal petition for divine help alongside the commentary's prayer that worshippers cannot proceed alone."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.14",
+          "basis": "Support the weak",
+          "note": "Paul tells the community to help the weak and be patient with everyone; this makes the commentary's two-sided human support an ethical duty within a worshipping community."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.37.24",
+          "basis": "Steps established by YHWH",
+          "note": "The psalm says a person's steps are established by YHWH and that he delights in the person's way; it adds divine ordering of the walk to the commentary's request for guidance, though this verse does not itself describe a stumble."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.6.16",
+          "basis": "Ask for the good way",
+          "note": "At the crossroads, the people are told to ask for the ancient paths, find the good way, and walk in it for rest; this makes seeking guidance an explicit act, though Jeremiah's audience refuses the invitation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.31",
+          "basis": "Strength for walking and running",
+          "note": "Those who wait for YHWH renew strength and walk without fainting; the verse supplies endurance for the commentary's weakened traveler, while its running image differs from the commentary's calm, non-fugitive gait."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.7.14",
+          "basis": "Everlasting dominion after judgment",
+          "note": "After the court scene, one like a son of man receives everlasting dominion and all peoples serve him; this places universal service beside the commentary's sovereign and worship, while Daniel distinguishes the enthroned judge from the figure given dominion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.14",
+          "basis": "A difficult way leading to life",
+          "note": "Jesus describes the narrow gate and hard way that lead to life, with few finding them; this makes the requested path a morally consequential course, while the surah's surrounding verse specifies its own blessed and rejected ways."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.15.1",
+          "basis": "The strong bear the weak",
+          "note": "Paul says the strong ought to bear the weaknesses of those without strength rather than please themselves; this turns the commentary's supported walk into a concrete communal obligation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.2",
+          "basis": "Bearing one another's burdens",
+          "note": "Paul commands believers to carry one another's burdens; this gives the commentary's image of leaning on another person an ethical, shared form."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Community Rule (1QS) 3:13–4:26",
+          "basis": "Two opposed ways of life",
+          "note": "The Community Rule describes two spirits and the opposed ways they lead people to walk; this Jewish interpretive framework makes a request for the straight path a choice of moral allegiance, rather than only a route."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Didache 1:1",
+          "basis": "Two ways",
+          "note": "The Didache opens by naming a way of life and a way of death; it gives the commentary's requested way a concrete ethical alternative in early Christian teaching."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Augustine, Confessions 10.29.40",
+          "basis": "Obedience depends on grace",
+          "note": "While reflecting on chastity, Augustine asks God to grant what God commands; this makes the commentary's pairing of worship and help a claim about moral action itself needing divine support."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Augustine, Quaestiones Evangeliorum 2.19",
+          "basis": "The Samaritan as Christ",
+          "note": "Augustine reads the wounded traveler as fallen humanity and the Samaritan as Christ; this Christian interpretation shifts Luke's practical aid scene toward divine rescue, a useful contrast with the commentary's human shoulders and support."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.15.13",
+          "basis": "Guiding the redeemed by strength",
+          "note": "In the Song at the Sea, YHWH leads the people he redeemed and guides them by his strength to his holy dwelling; it joins rescue, help, and a destination on the journey the commentary asks God to guide."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.8.15",
+          "basis": "A perilous wilderness journey",
+          "note": "Moses recalls YHWH leading Israel through a great, dangerous wilderness and bringing water from flint; the community's physical dependence on guidance and sustenance closely expands the commentary's tired traveler."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.31.8",
+          "basis": "The guide goes before and does not abandon",
+          "note": "Moses tells Joshua that YHWH goes before him and will not fail or forsake him; it makes the sought guidance personal and reassuring for someone unable to proceed alone."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Neh.9.21",
+          "basis": "Feet sustained through forty years",
+          "note": "In a communal confession, the people say God sustained them in the wilderness for forty years, their clothes did not wear out and their feet did not swell; it makes divine aid concrete in the body of travelers."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.18.34",
+          "basis": "Feet made like a deer's",
+          "note": "YHWH makes the speaker's feet like a deer's and sets him on secure heights; it pictures strength and stable footing after the commentary's image of a halted, unsteady traveler."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.18.37",
+          "basis": "A broad place for each step",
+          "note": "The speaker says God enlarged the place beneath his steps so his feet did not slip; this gives a direct image of supported walking and secure footing."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.26.12",
+          "basis": "A level place for worship",
+          "note": "The speaker says his foot stands on level ground and blesses YHWH in the assembly; it joins stable posture with worship, two elements the commentary brings together in the needy traveler's prayer."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.66.9",
+          "basis": "Kept from slipping",
+          "note": "The psalm says God keeps the community alive and does not let its feet slip; this is a specific image of ongoing support for people who could otherwise fall."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.77.21",
+          "basis": "A flock led by two human guides",
+          "note": "The psalm says God led his people like a flock by the hand of Moses and Aaron; divine guidance is mediated through two human leaders, adding a communal counterpart to the commentary's walker leaning between two people."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.116.8",
+          "basis": "Feet saved from stumbling",
+          "note": "The speaker says YHWH rescued his soul from death, his eyes from tears, and his feet from stumbling; the last detail explicitly links divine rescue to continued walking."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.26.7",
+          "basis": "A level path for the righteous",
+          "note": "The prophet says the path of the righteous is level and God makes it smooth; this sharpens the commentary's image of guidance into a road made passable for the walker."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.30.21",
+          "basis": "Direction when turning right or left",
+          "note": "The people hear a voice behind them saying, “This is the way; walk in it,” when they turn right or left; it uniquely connects guidance with the commentary's side-to-side swaying walker."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.35.8",
+          "basis": "A safe highway for the redeemed",
+          "note": "Isaiah continues the restoration scene with a highway called the holy way, on which even the travelers will not stray; it supplies the safe, morally directed road that follows the weak hands and knees in the same chapter."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.11",
+          "basis": "The shepherd carries and gently leads",
+          "note": "YHWH gathers lambs in his arm, carries them close, and gently leads those with young; the verse gives a concrete image of help adjusted to a traveler's weakness."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.41.10",
+          "basis": "Upheld by God's hand",
+          "note": "YHWH tells fearful Israel not to fear, promises help, and says he will uphold them with his righteous hand; the bodily act of holding someone up closely matches the commentary's dependent walker."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.50.4",
+          "basis": "A word that sustains the weary",
+          "note": "The servant says God gives him a trained tongue to sustain the weary with a word; this adds speech as support alongside the commentary's shoulders, upright body, and calm gait."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.3.6",
+          "basis": "God makes the path straight",
+          "note": "The proverb says to acknowledge YHWH in all one's ways and he will make the paths straight; this is a direct formulation of asking God to guide one along a straight way."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.3.23",
+          "basis": "Walking securely without stumbling",
+          "note": "The pupil will walk securely and his foot will not stumble; this states the bodily result of the steady path and support developed in the commentary."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.3.26",
+          "basis": "Confidence that keeps the foot",
+          "note": "YHWH is the pupil's confidence and keeps his foot from being caught; the verse makes divine reliance a protection for the body's movement."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.4.26",
+          "basis": "Make the path level for your feet",
+          "note": "The wisdom teacher tells the pupil to make a level path for his feet and make all his ways sure; this continues the same chapter's taught walk with an explicit act of stabilizing the road."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.4.27",
+          "basis": "Do not turn aside",
+          "note": "The pupil is told not to swerve right or left but to turn his foot away from evil; this adds a moral direction to the commentary's image of swaying from side to side."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.11.4",
+          "basis": "A lifted yoke and food for the dependent",
+          "note": "YHWH describes leading Ephraim with human kindness, lifting the yoke from its jaws, and bending down to feed it; it adds gentle, practical care for a dependent being to the commentary's exhausted mount and traveler."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.47.31",
+          "basis": "Worship with a textual variant about support",
+          "note": "WLC's ketiv vocalizes the final noun as “bed,” while its qere reads “staff”; only the qere makes Jacob's worship explicitly lean on a support, so this verse should preserve the distinction rather than silently treating the staff as WLC's written reading."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Heb.11.21",
+          "basis": "Jacob worships leaning on his staff",
+          "note": "Hebrews recounts Jacob blessing Joseph's sons and worshiping while leaning on his staff, following the Greek reading of Genesis 47:31; it makes worship and physical support occur together, exactly the pairing developed in the commentary."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.14.30",
+          "basis": "A sinking walker cries for help",
+          "note": "Peter begins to sink while walking on the water and cries, “Lord, save me”; this is a precise scene of someone whose movement fails and who asks another for immediate aid."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.14.31",
+          "basis": "A hand catches the failing walker",
+          "note": "Jesus immediately reaches out and catches Peter; the physical rescue answers the cry for help and supplies the hand support missing from the commentary's faltering traveler."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.18.38",
+          "basis": "A roadside traveler asks for mercy",
+          "note": "Near Jericho, the blind man Bartimaeus cries to Jesus for mercy as Jesus passes; his vulnerable position on the road and direct plea for help make the need for assistance concrete."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.18.43",
+          "basis": "Restored sight and a guided way",
+          "note": "The healed man follows Jesus on the way, glorifying God; it joins recovery of a dependent person, continued movement, and worship as the commentary does."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Mark.2.3",
+          "basis": "Friends carry a man who cannot walk",
+          "note": "Four people bring a paralyzed man to Jesus on a mat; their coordinated carrying makes the commentary's reliance on other bodies literal and communal."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.8.26",
+          "basis": "The Spirit helps weakness in prayer",
+          "note": "Paul says the Spirit helps believers in their weakness because they do not know how to pray as they ought; this closely links the commentary's inability to proceed alone with its joining worship and a request for help."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jude.1.24",
+          "basis": "Kept from stumbling and presented standing",
+          "note": "The doxology praises God as able to keep believers from stumbling and present them blameless before his glory; it turns the commentary's bodily image of being steadied into a promise about standing securely before God."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.25.32",
+          "basis": "The nations gathered and separated",
+          "note": "Jesus continues the throne scene by gathering all nations and separating them; this supplies the judgment action following the royal appearance in the preceding verse of the same passage."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.3.5",
+          "basis": "Do not rely on your own understanding",
+          "note": "The proverb tells the pupil not to lean on his own understanding but to trust YHWH; this makes dependence explicit beside the commentary's image of a traveler who cannot support himself, though the proverb speaks metaphorically."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.8.31",
+          "basis": "A reader asks for someone to guide him",
+          "note": "The Ethiopian official says he cannot understand Isaiah unless someone guides him; this shifts the commentary's dependent traveler's need for guidance to interpretation, showing why a guide may be needed even by a capable traveler."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.24.15",
+          "basis": "A companion joins travelers on the road",
+          "note": "As two disciples walk sadly toward Emmaus, Jesus draws near and walks with them; this echoes the commentary's image of a vulnerable walk made in company, though the aid is companionship rather than physical support."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.24.27",
+          "basis": "A guide interprets the road's meaning",
+          "note": "Jesus interprets Moses and the prophets to the two travelers; this adds scriptural instruction to the commentary's image of a guide who helps a dependent person find the way."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.13.6",
+          "basis": "The Lord is the helper",
+          "note": "The author quotes the confession that the Lord is one's helper and therefore one need not fear; it gives a direct first-person expression of reliance, though it does not develop the travel image."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Didache 1:5",
+          "basis": "Aid for whoever asks",
+          "note": "The Didache instructs its hearer to give to everyone who asks; within its teaching on the way of life, it makes the commentary's image of receiving support into a concrete obligation to support others."
+        }
+      }
+    ],
+    "proposal_file": "followup.accepted.tsv",
+    "proposal_sha256": "c3d1cec18e7e88128a8861579808f462f407d901048f1b40c0ffb32d769ce6e0",
+    "followup_sha256": "e9416e4ad2e351495137ebabd154a121f5be42df94554b156262bcf716d5690c"
+  },
+  "consolidation_error": null,
+  "list_sha256": "d966b9d89e87465ef25ea4f8abf1d98c1781a342c47aee54e6bf7731da8f007e",
+  "followup_delivery": [
+    {
+      "call_id": "call_Za70U1rSPhrVSiVcdbFUrBmO",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 474668,
+    "cached_input_tokens": 413440,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 49583,
+    "reasoning_output_tokens": 41574,
+    "total_tokens": 524251
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T15:31:21.697Z",
+  "artifacts": {
+    "started.json": "1353ad57eb98612913eafaccb3d8c74155c3e2f7070a774b22ca7d108f148b40",
+    "input.json": "5e8bb13606f3c195054c1bc24f1970ecdaed4faa5a8fac61359741acee804462",
+    "prompt.md": "5b1190236b0128ced40f940647419e1fc1a9399d08b7498f5d51aba2bf30eec3",
+    "package.md": "74f96a34ce00dce2d638578dff2621cf59875b550e4b6601e8c096d317cb872c",
+    "spawn.md": "d3614522553e95fffa568a5a9c695ca541928b7c56169d7e2d881a59a493f8df",
+    "followup.txt": "759769f123f4e059e2e8c4e35e287c08e52bb749f9a30d57972c40cede7b5830",
+    "turn1.json": "976b060b576b67f41022bcc4c70c202f737abfd155df05dbb022cee9c16fd948",
+    "turn1.list.tsv": "8e95ce1a0b48e2ec147ec7b976a59f2f603afc6979fa5bc56ecb4c2fab21f42e",
+    "followup.tsv": "e9416e4ad2e351495137ebabd154a121f5be42df94554b156262bcf716d5690c",
+    "list.tsv": "d966b9d89e87465ef25ea4f8abf1d98c1781a342c47aee54e6bf7731da8f007e",
+    "consolidation.json": "7c87267b62c3489690c0cd0a79585e39a3178982f2bb8a49131369b835d8f2af",
+    "validation.json": "331834f05903d3e6d5436f99ebf1e13311757412672815e228020983df76a9e7",
+    "proposal_validation.json": "5546d828ecbc9643d84e68ee10fc66aed63db5691216a8d8b293fb30340625b6",
+    "tool_calls.json": "3c601ef666cb9e302cfc535f4cbf602d9870acffd8ceda30f9c1c626629d8c84",
+    "session.json": "acd26912d0e719c9ccfe5e10bbe2ecb82542e25d8eb55b2b8e38b6f70a1003d7",
+    "session.events.jsonl": "5daeb3d1bdf2b09de7d8d7dc4a69cc05daafbc686e5b83bfb478a1fb95fa8061",
+    "run.failed.log.json": "40970dd4ea1a54884ffbfbe92fb8dbed6533cbff0098171a132ee82dfc062122",
+    "validation.failed.json": "93c70223521b648af09a213daea40f52159427c4718d49a17f497072d6713dfc",
+    "repair.proposed.json": "f9c687be74209b022c65041ba6a68a511f2bc01f7b4982c1288b68964590418d",
+    "followup.repair.proposed.tsv": "c3d1cec18e7e88128a8861579808f462f407d901048f1b40c0ffb32d769ce6e0",
+    "followup.accepted.tsv": "c3d1cec18e7e88128a8861579808f462f407d901048f1b40c0ffb32d769ce6e0",
+    "repair.accepted.json": "ac473f74f9b13358279e5d22c83edfe0d5cbf77de20406536f28764cb32abd6d"
+  },
+  "repair": {
+    "approval": "2026-10-05 user reply: Apply all 15 recorded follow-up corrections. Exact bundle: enrichment/bible/audits/pilot1-20261005/followup-repairs.proposed.json",
+    "accepted_at": "2026-10-05T16:04:04.830918+00:00",
+    "changes": [
+      {
+        "line": 7,
+        "before": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Ps.26.13",
+          "A level place for worship",
+          "The speaker says his foot stands on level ground and blesses YHWH in the assembly; it joins stable posture with worship, two elements the commentary brings together in the needy traveler's prayer."
+        ],
+        "after": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Ps.26.12",
+          "A level place for worship",
+          "The speaker says his foot stands on level ground and blesses YHWH in the assembly; it joins stable posture with worship, two elements the commentary brings together in the needy traveler's prayer."
+        ],
+        "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+      }
+    ],
+    "raw_sha256": "e9416e4ad2e351495137ebabd154a121f5be42df94554b156262bcf716d5690c",
+    "accepted_sha256": "c3d1cec18e7e88128a8861579808f462f407d901048f1b40c0ffb32d769ce6e0",
+    "proposal_sha256": "f9c687be74209b022c65041ba6a68a511f2bc01f7b4982c1288b68964590418d",
+    "failed_log_sha256": "40970dd4ea1a54884ffbfbe92fb8dbed6533cbff0098171a132ee82dfc062122",
+    "model_calls": 0,
+    "policy": "Raw proposals, failed validation and failed log preserved; no regrading."
+  }
+}

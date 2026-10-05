@@ -17,6 +17,7 @@ from xml.etree import ElementTree as ET
 from enrichment.bible import agentrun as AR, blocks as B, corpus as C
 from enrichment.bible import discovery as D, discovery_native as N, enrich as E
 from enrichment.bible import check_discovery as DC, discovery_repair as DR, discovery_report as REPORT, verdicts as VR
+from enrichment.bible import discovery_first_repair as FR
 from enrichment.bible import intertext as I, pack as P, render as R, validate as V
 from enrichment.bible.fetch import bible_text as BT, bible_sefaria as SF, ref_common as RC
 
@@ -670,6 +671,158 @@ class BibleWorkflowTest(unittest.TestCase):
             run('finish','--reviewed')
         self.assertEqual(D.checked_run(d,t)[0]['ref'],'WLC:Gen.1.1')
         with self.assertRaisesRegex(SystemExit,'already finished'): run('finish','--reviewed')
+
+    def test_unambiguous_book_names_resolve_without_changing_raw_rows(self):
+        path=self.root/'aliases.tsv'
+        raw=ROW.replace('WLC:Gen.1.1','WLC:Genesis.1.1')
+        path.write_text(raw)
+        rows,bad=D.parse_rows(path)
+        self.assertEqual(bad,[])
+        self.assertEqual(rows[0]['ref'],'WLC:Gen.1.1')
+        self.assertEqual(rows[0]['raw_ref'],'WLC:Genesis.1.1')
+        self.assertEqual(path.read_text(),raw)
+        report=DC.check(path)
+        self.assertEqual(report['findings'][0]['kind'],'reference_alias')
+        self.assertEqual(report['findings'][0]['raw_ref'],'WLC:Genesis.1.1')
+        self.assertEqual(D.BOOK_CODES['james'],'Jas')
+        self.assertEqual(D.BOOK_CODES['hosea'],'Hos')
+        self.assertEqual({k:D.BOOK_CODES[k] for k in ('is','jon','philem')},
+                         {'is':'Isa','jon':'Jonah','philem':'Phlm'})
+
+    def test_book_name_resolution_never_changes_edition_or_verse_numbering(self):
+        path=self.root/'aliases.tsv'
+        for ref in ('WLC:Genesis.1.999','WLC:Unknown.1.1','SBLGNT:Genesis.1.1'):
+            path.write_text(ROW.replace('WLC:Gen.1.1',ref))
+            self.assertTrue(D.parse_rows(path)[1],ref)
+
+    def test_alias_repeat_keeps_first_bytes_and_records_raw_spellings(self):
+        t=D.targets_of(1)[0]
+        raw=ROW.replace('WLC:Gen.1.1','WLC:Genesis.1.1')
+        d=self.completed_discovery(t,rows=raw,followup=ROW)
+        rows=D.checked_run(d,t)
+        self.assertEqual(len(rows),1)
+        self.assertEqual((d/'list.tsv').read_text(),raw)
+        cons=json.loads((d/'consolidation.json').read_text())
+        self.assertEqual(cons['repeated_proposals'][0]['retained']['row']['raw_ref'],'WLC:Genesis.1.1')
+
+    def first_repair_fixture(self):
+        t=D.targets_of(1)[0];d=D.tdir(1,'1:1','first-repair')/'luna';d.mkdir(parents=True)
+        (d/'prompt.md').write_text('Independent discovery brief')
+        (d/'package.md').write_text(D.package(1,t,{'1:1':'بسم الله'}))
+        save(d/'input.json',{k:t[k] for k in ('target','base_path','base_sha256','inputs')})
+        def run(phase,*extra):
+            argv=['discovery_native.py',phase,'--surah','1','--target','1:1',
+                  '--run-tag','first-repair','--model','luna',*extra]
+            with patch('sys.argv',argv),redirect_stdout(io.StringIO()): N.main()
+        run('start','--task','bible_first_repair')
+        raw=ROW.replace('Gen.1.1','Gen.1.999');(d/'list.tsv').write_text(raw)
+        session=dict(agent_path='/root/bible_first_repair',agent_id='repair-luna',transcript='fixture')
+        save(d/'session.json',session)
+        event_data=(session,[],[dict(timestamp='1')],[dict(model=D.MODELS['luna'],effort='max')],{})
+        self.stack.enter_context(patch.object(N.N,'events_for',return_value=event_data))
+        self.proof=self.stack.enter_context(patch.object(N,'followup_proof',return_value=[]))
+        changes=[dict(line=1,before=raw.strip().split('\t'),after=ROW.strip().split('\t'),reason='Exact approved locator correction')]
+        return t,d,run,raw,changes,event_data
+
+    def finish_first_repaired(self,d,run,event_data,followup=ROW):
+        run('snapshot');(d/'followup.tsv').write_text(followup)
+        session,events,done,contexts,usage=event_data
+        with patch.object(N.N,'events_for',return_value=(session,events,done+[dict(timestamp='2')],contexts*2,usage)), \
+             patch.object(N,'followup_proof',return_value=[dict(matches=True,encrypted=False)]):
+            run('audit')
+            if followup==ROW: run('finish','--reviewed')
+            else:
+                with self.assertRaises(SystemExit): run('finish','--reviewed')
+
+    def test_first_turn_repair_preserves_raw_and_replays_through_merge(self):
+        t,d,run,raw,changes,event_data=self.first_repair_fixture()
+        FR.propose(d,changes);FR.accept(d,'User approved this exact first-turn repair',True)
+        self.assertEqual((d/'list.tsv').read_text(),raw)
+        self.finish_first_repaired(d,run,event_data)
+        self.assertEqual((d/'turn1.list.tsv').read_text(),raw)
+        self.assertEqual((d/'turn1.original.tsv').read_text(),raw)
+        self.assertEqual((d/'list.tsv').read_text(),ROW)
+        self.assertEqual(len(D.checked_run(d,t)),1)
+        log=json.loads((d/'run.log.json').read_text())
+        self.assertEqual(log['consolidation']['initial_file'],'turn1.accepted.tsv')
+        self.assertEqual(len(log['consolidation']['repeated_proposals']),1)
+        self.completed_discovery(t,'terra',run_tag='first-repair')
+        with redirect_stdout(io.StringIO()): path=D.merge(1,[t],'first-repair')[0]
+        self.assertEqual(json.loads(path.with_suffix('.json').read_text())['findings'][0]['first_turn_repair']['changes'],changes)
+        self.assertTrue(REPORT.report(1,'first-repair',[t])['ready_for_merge'])
+        for name in FR.ARTIFACTS:
+            original=(d/name).read_bytes();(d/name).write_bytes(original+b'\n')
+            with self.assertRaisesRegex(ValueError,'changed'): D.checked_run(d,t)
+            (d/name).write_bytes(original)
+
+    def test_first_turn_repair_requires_exact_approval_and_tool_review(self):
+        _,d,_,raw,changes,_=self.first_repair_fixture();FR.propose(d,changes)
+        with self.assertRaisesRegex(ValueError,'approval'): FR.accept(d,'',True)
+        with self.assertRaisesRegex(ValueError,'audit'): FR.accept(d,'User approved',False)
+        self.assertEqual((d/'list.tsv').read_text(),raw)
+        self.assertFalse((d/'turn1.accepted.tsv').exists())
+
+    def test_first_turn_repair_rejects_late_delivery_and_wrong_model(self):
+        _,d,_,_,changes,data=self.first_repair_fixture()
+        session,events,done,contexts,usage=data
+        with patch.object(N.N,'events_for',return_value=(session,events,done*2,contexts,usage)):
+            with self.assertRaisesRegex(ValueError,'one completed'): FR.propose(d,changes)
+        with patch.object(N.N,'events_for',return_value=(session,events,done,[dict(model='wrong',effort='max')],usage)):
+            with self.assertRaisesRegex(ValueError,'model'): FR.propose(d,changes)
+        self.proof.return_value=[dict(matches=True)]
+        with self.assertRaisesRegex(ValueError,'already delivered'): FR.propose(d,changes)
+
+    def test_first_turn_schema_swap_cannot_change_meaning_or_grade(self):
+        raw=ROW.replace('\ttevrat\tparalel\t','\tparalel\ttevrat\t')
+        changes=[dict(line=1,before=raw.strip().split('\t'),after=ROW.strip().split('\t'),reason='Columns transposed')]
+        self.assertEqual(DR.repaired_bytes(raw.encode(),changes,allow_schema_swap=True),ROW.encode())
+        with self.assertRaisesRegex(ValueError,'preserve'): DR.repaired_bytes(raw.encode(),changes)
+        for column,value in ((0,'weak'),(2,'motif'),(4,'different basis'),(5,'different explanation')):
+            bad=json.loads(json.dumps(changes));bad[0]['after'][column]=value
+            with self.assertRaisesRegex(ValueError,'preserve'):
+                DR.repaired_bytes(raw.encode(),bad,allow_schema_swap=True)
+
+    def test_first_turn_repair_refuses_unrecorded_proposal_change(self):
+        _,d,_,_,changes,_=self.first_repair_fixture();FR.propose(d,changes)
+        (d/'turn1.repair.proposed.tsv').write_text(ROW.replace('strong','weak'))
+        with self.assertRaisesRegex(ValueError,'unrecorded'): FR.accept(d,'Approval of original proposal',True)
+
+    def test_first_turn_repair_keeps_followup_repair_provenance(self):
+        t,d,run,raw,changes,data=self.first_repair_fixture()
+        FR.propose(d,changes);FR.accept(d,'First correction approved',True)
+        self.finish_first_repaired(d,run,data,followup=raw)
+        DR.propose(d,changes);DR.accept(d,'Follow-up correction approved separately')
+        self.assertEqual(len(D.checked_run(d,t)),1)
+        self.assertEqual((d/'turn1.list.tsv').read_text(),raw)
+        self.assertEqual((d/'followup.tsv').read_text(),raw)
+
+    def test_recorded_witness_label_repair_is_explicit_and_edition_bound(self):
+        t=D.targets_of(1)[0];raw=ROW.replace('\ttevrat\t','\tincil\t')
+        d=self.completed_discovery(t,followup=raw)
+        changes=[dict(line=1,before=raw.strip().split('\t'),after=ROW.strip().split('\t'),reason='WLC requires tevrat')]
+        with self.assertRaisesRegex(ValueError,'preserve'): DR.repaired_bytes(raw.encode(),changes)
+        DR.propose(d,changes,allow_witness_tradition=True)
+        DR.accept(d,'User approved the displayed edition-derived label correction')
+        self.assertEqual(len(D.checked_run(d,t)),1)
+        self.assertEqual((d/'followup.tsv').read_text(),raw)
+        for field,value in ((0,'weak'),(2,'motif'),(3,'SBLGNT:Matt.1.1'),(5,'Different explanation')):
+            altered=json.loads(json.dumps(changes));altered[0]['after'][field]=value
+            with self.assertRaisesRegex(ValueError,'preserve'):
+                DR.repaired_bytes(raw.encode(),altered,allow_witness_tradition=True)
+        reversed_change=[dict(line=1,before=changes[0]['after'],after=changes[0]['before'],reason='Wrong tradition')]
+        with self.assertRaisesRegex(ValueError,'preserve'):
+            DR.repaired_bytes(ROW.encode(),reversed_change,allow_witness_tradition=True)
+
+    def test_followup_column_swap_is_recorded_and_replayed(self):
+        t=D.targets_of(1)[0];raw=ROW.replace('\ttevrat\tparalel\t','\tparalel\ttevrat\t')
+        d=self.completed_discovery(t,followup=raw)
+        changes=[dict(line=1,before=raw.strip().split('\t'),after=ROW.strip().split('\t'),reason='Exact transposed columns')]
+        DR.propose(d,changes,allow_schema_swap=True)
+        DR.accept(d,'User approved this displayed follow-up column swap')
+        self.assertEqual(len(D.checked_run(d,t)),1)
+        record=json.loads((d/'repair.accepted.json').read_text())
+        self.assertTrue(record['allow_schema_swap'])
+        self.assertEqual((d/'followup.tsv').read_text(),raw)
 
 
 if __name__=='__main__':

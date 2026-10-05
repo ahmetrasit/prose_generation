@@ -1,0 +1,37 @@
+{
+  "policy": "bible-first-turn-repair-v1",
+  "approval": "2026-10-05 user reply: Apply the 13 recorded corrections; extend first-pass repair handling. Exact bundle: enrichment/bible/audits/pilot1-20261005/first-turn-repairs.proposed.json",
+  "tool_audit_reviewed": true,
+  "accepted_at": "2026-10-05T15:51:00.244986+00:00",
+  "changes": [
+    {
+      "line": 70,
+      "before": [
+        "medium",
+        "tevrat",
+        "soydas",
+        "WLC:Ps.16.12",
+        "Arabic n-ʿ-m and Hebrew neʿimot",
+        "The commentary explicitly ties أَنْعَمْتَ and n-ʿ-m to freshness and beneficent support. Hebrew neʿimot, a cognate form here, accompanies the path of life and enduring delight; it gives a linguistic and contextual companion to the commentary's path plus life-giving blessing."
+      ],
+      "after": [
+        "medium",
+        "tevrat",
+        "soydas",
+        "WLC:Ps.16.11",
+        "Arabic n-ʿ-m and Hebrew neʿimot",
+        "The commentary explicitly ties أَنْعَمْتَ and n-ʿ-m to freshness and beneficent support. Hebrew neʿimot, a cognate form here, accompanies the path of life and enduring delight; it gives a linguistic and contextual companion to the commentary's path plus life-giving blessing."
+      ],
+      "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+    }
+  ],
+  "model_calls": 0,
+  "artifacts": {
+    "turn1.original.tsv": "2586a9cf2cc4678da26754abf5b14d369909f07766a2feb19ce7acccd5ba074f",
+    "turn1.validation.failed.json": "1518e6e01f87e2994b04c9a05b73a4777ea0e7805f1131c38ba98f9c687beb88",
+    "turn1.tool_calls.json": "1c08b8a8b8579f8e6405fb1413094c908ffa44ff2968b5700bc535b452f79bb7",
+    "turn1.repair.proposed.json": "a86cfa62662f1b127e63011bd11404eb0fac4ac01214c94dc6d38c5ad6408ba7",
+    "turn1.repair.proposed.tsv": "7426cf2700c049b3c8eb9cbc55d816a58922489193ca4b12491fd6f5f99408fd",
+    "turn1.accepted.tsv": "7426cf2700c049b3c8eb9cbc55d816a58922489193ca4b12491fd6f5f99408fd"
+  }
+}

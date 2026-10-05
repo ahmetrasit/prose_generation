@@ -1,0 +1,738 @@
+{
+  "format": "bible-discovery-v2",
+  "status": "ok",
+  "target": "sec6",
+  "base_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "tsv_sha256": "4abe141bee4e967485da92d192b943d42d5dba3108d4c0185c199464e2364071",
+  "provenance": [
+    {
+      "target": "sec6",
+      "model": "luna",
+      "run_tag": "pilot1-20261005",
+      "path": "pilot1-20261005/sec6/luna",
+      "sha256": "de572db2d1a9c08962322ba1eb8a9c9c36b5d67fecdfcfb0bf6d6bd1805e4225"
+    },
+    {
+      "target": "sec6",
+      "model": "terra",
+      "run_tag": "pilot1-20261005",
+      "path": "pilot1-20261005/sec6/terra",
+      "sha256": "e73d5bbe9f2c01af4bc054a0ebb42a774a7974b9f2b4a344ed9ceee151869ffa"
+    }
+  ],
+  "rows": 352,
+  "findings": [
+    {
+      "target": "sec6",
+      "model": "luna",
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec6/luna/list.tsv",
+        "rows": 232,
+        "unique_references": 230,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 201,
+          "medium": 31
+        },
+        "findings": [
+          {
+            "line": 25,
+            "ref": "Targum Onkelos on Genesis 4:7",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 40,
+            "ref": "WLC:Ps.133.1",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "נעם",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 40,
+            "ref": "WLC:Ps.133.1",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "נעם",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 59,
+            "ref": "Sirach 28:2",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 60,
+            "ref": "Sirach 28:5",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 61,
+            "ref": "b. Rosh Hashanah 17b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 62,
+            "ref": "b. Berakhot 7a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 63,
+            "ref": "1QS 3:18-4:26",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 64,
+            "ref": "1QS 4:15-18",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 102,
+            "ref": "WLC:Ps.16.6",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "נעם",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 102,
+            "ref": "WLC:Ps.16.6",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "נעם",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 111,
+            "ref": "Didache 1:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 112,
+            "ref": "Barnabas 18:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 113,
+            "ref": "Barnabas 20:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 166,
+            "ref": "WLC:Ps.27.5",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "נעם",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 166,
+            "ref": "WLC:Ps.27.5",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "נעם",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 167,
+            "ref": "Wisdom of Solomon 16:20",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 168,
+            "ref": "Wisdom of Solomon 16:21",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 169,
+            "ref": "Wisdom of Solomon 16:26",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 170,
+            "ref": "WLC:Gen.3.6",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "חמד",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 171,
+            "ref": "WLC:Deut.5.21",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "חמד",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 221,
+            "ref": "Mishnah Avot 4:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 222,
+            "ref": "Mishnah Avot 5:11",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 223,
+            "ref": "b. Shabbat 105b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 224,
+            "ref": "b. Yoma 85b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 225,
+            "ref": "b. Shabbat 88a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "raw_proposal_validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec6/luna/followup.tsv",
+        "rows": 117,
+        "unique_references": 115,
+        "schema_errors": [
+          "line 116: WLC:Ps.147.11: wrong tradition"
+        ],
+        "duplicates": [
+          {
+            "key": [
+              "tevrat",
+              "soydas",
+              "WLC:Gen.3.6",
+              "Hebrew חמד as desirable",
+              "The source commentary labels Arabic ح م د and glosses hamd as praise or approval; Genesis uses the related Hebrew form for the tree as desirable to the eyes, showing a desire or attractiveness sense rather than the same act of praising."
+            ],
+            "count": 2
+          },
+          {
+            "key": [
+              "tevrat",
+              "soydas",
+              "WLC:Deut.5.21",
+              "Hebrew חמד as coveting",
+              "The source commentary labels Arabic ح م د and glosses hamd as approval; Deuteronomy uses the related Hebrew form for prohibited desire of a neighbor's property, a contrary ethical use that cautions against collapsing the senses."
+            ],
+            "count": 2
+          }
+        ],
+        "strengths": {
+          "strong": 104,
+          "medium": 11,
+          "weak": 2
+        },
+        "findings": [
+          {
+            "line": 50,
+            "ref": "WLC:Ps.27.5",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "נעם",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 50,
+            "ref": "WLC:Ps.27.5",
+            "field": "note",
+            "language": "Hebrew",
+            "wording": "נעם",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 51,
+            "ref": "Wisdom of Solomon 16:20",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 52,
+            "ref": "Wisdom of Solomon 16:21",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 53,
+            "ref": "Wisdom of Solomon 16:26",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 54,
+            "ref": "WLC:Gen.3.6",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "חמד",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 55,
+            "ref": "WLC:Deut.5.21",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "חמד",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 105,
+            "ref": "Mishnah Avot 4:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 106,
+            "ref": "Mishnah Avot 5:11",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 107,
+            "ref": "b. Shabbat 105b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 108,
+            "ref": "b. Yoma 85b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 109,
+            "ref": "b. Shabbat 88a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 117,
+            "ref": "WLC:Gen.3.6",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "חמד",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          },
+          {
+            "line": 118,
+            "ref": "WLC:Deut.5.21",
+            "field": "basis",
+            "language": "Hebrew",
+            "wording": "חמד",
+            "kind": "wording_review",
+            "variant_matches": [],
+            "matching_neighbours": [],
+            "message": "Wording absent from cited main text; review quotation, root/form, witness and verse boundary."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "repeats": [
+        {
+          "proposal": {
+            "line": 117,
+            "strength": "weak",
+            "tradition": "tevrat",
+            "kind": "soydas",
+            "ref": "WLC:Gen.3.6",
+            "basis": "Hebrew חמד as desirable",
+            "note": "The source commentary labels Arabic ح م د and glosses hamd as praise or approval; Genesis uses the related Hebrew form for the tree as desirable to the eyes, showing a desire or attractiveness sense rather than the same act of praising."
+          },
+          "retained": {
+            "phase": 2,
+            "line": 54,
+            "row": {
+              "line": 54,
+              "strength": "strong",
+              "tradition": "tevrat",
+              "kind": "soydas",
+              "ref": "WLC:Gen.3.6",
+              "basis": "Hebrew חמד as desirable",
+              "note": "The source commentary labels Arabic ح م د and glosses hamd as praise or approval; Genesis uses the related Hebrew form for the tree as desirable to the eyes, showing a desire or attractiveness sense rather than the same act of praising."
+            }
+          }
+        },
+        {
+          "proposal": {
+            "line": 118,
+            "strength": "weak",
+            "tradition": "tevrat",
+            "kind": "soydas",
+            "ref": "WLC:Deut.5.21",
+            "basis": "Hebrew חמד as coveting",
+            "note": "The source commentary labels Arabic ح م د and glosses hamd as approval; Deuteronomy uses the related Hebrew form for prohibited desire of a neighbor's property, a contrary ethical use that cautions against collapsing the senses."
+          },
+          "retained": {
+            "phase": 2,
+            "line": 55,
+            "row": {
+              "line": 55,
+              "strength": "strong",
+              "tradition": "tevrat",
+              "kind": "soydas",
+              "ref": "WLC:Deut.5.21",
+              "basis": "Hebrew חמד as coveting",
+              "note": "The source commentary labels Arabic ح م د and glosses hamd as approval; Deuteronomy uses the related Hebrew form for prohibited desire of a neighbor's property, a contrary ethical use that cautions against collapsing the senses."
+            }
+          }
+        }
+      ],
+      "diagnostics": [
+        {
+          "call_id": "call_oJGLVtMn3m7spd4y9yQNHGUr",
+          "message": "Script failed"
+        },
+        {
+          "call_id": "call_oJGLVtMn3m7spd4y9yQNHGUr",
+          "message": "Script error:"
+        },
+        {
+          "call_id": "call_oJGLVtMn3m7spd4y9yQNHGUr",
+          "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec6/luna/followup.tsv:"
+        },
+        {
+          "call_id": "call_QqEz5oVhTw7VmABucE51sDKp",
+          "message": "Script failed"
+        },
+        {
+          "call_id": "call_QqEz5oVhTw7VmABucE51sDKp",
+          "message": "Script error:"
+        },
+        {
+          "call_id": "call_QqEz5oVhTw7VmABucE51sDKp",
+          "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec6/luna/followup.tsv:"
+        },
+        {
+          "call_id": "call_3fh630QfG2zPIzRWmN7aAkzM",
+          "message": "Script failed"
+        },
+        {
+          "call_id": "call_3fh630QfG2zPIzRWmN7aAkzM",
+          "message": "Script error:"
+        },
+        {
+          "call_id": "call_3fh630QfG2zPIzRWmN7aAkzM",
+          "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec6/luna/followup.tsv:"
+        },
+        {
+          "call_id": "call_4nrCoxR39s9YpWqtUnlribFl",
+          "message": "Script failed"
+        },
+        {
+          "call_id": "call_4nrCoxR39s9YpWqtUnlribFl",
+          "message": "Script error:"
+        },
+        {
+          "call_id": "call_4nrCoxR39s9YpWqtUnlribFl",
+          "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec6/luna/followup.tsv:"
+        },
+        {
+          "call_id": "call_85bXKfpnYn638NTLA1dA5V17",
+          "message": "Script failed"
+        },
+        {
+          "call_id": "call_85bXKfpnYn638NTLA1dA5V17",
+          "message": "Script error:"
+        },
+        {
+          "call_id": "call_85bXKfpnYn638NTLA1dA5V17",
+          "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec6/luna/followup.tsv:"
+        }
+      ],
+      "repair": {
+        "approval": "2026-10-05 user reply: Apply all 15 recorded follow-up corrections. Exact bundle: enrichment/bible/audits/pilot1-20261005/followup-repairs.proposed.json",
+        "accepted_at": "2026-10-05T16:04:05.332298+00:00",
+        "changes": [
+          {
+            "line": 116,
+            "before": [
+              "medium",
+              "incil",
+              "motif",
+              "WLC:Ps.147.11",
+              "divine pleasure toward those who hope in love",
+              "The commentary frames wrath opposite divine pleasure; the psalm says the Lord takes pleasure in those who fear him and hope in his steadfast love."
+            ],
+            "after": [
+              "medium",
+              "tevrat",
+              "motif",
+              "WLC:Ps.147.11",
+              "divine pleasure toward those who hope in love",
+              "The commentary frames wrath opposite divine pleasure; the psalm says the Lord takes pleasure in those who fear him and hope in his steadfast love."
+            ],
+            "reason": "The unchanged WLC Psalms witness belongs to the Hebrew Bible. Correct only the mistaken incil tradition label to tevrat; preserve kind, grade, reference, basis and explanation."
+          }
+        ],
+        "raw_sha256": "a595eab0e023d8a9907c27b4064a034651890095908f4d38bb63776b8fa0906d",
+        "accepted_sha256": "2f1819dede3d832620afc8209322017fe6c4391fbfd910933e22f0d7eaf404db",
+        "proposal_sha256": "ad806eb9964e5e92ebcd0d81bf8d79c46128d016d340310ae9e5406bdfa207c9",
+        "failed_log_sha256": "59e15f94cc8c3fe71c77f523f1f93687ab02db58447f928101853fd97b5b3970",
+        "model_calls": 0,
+        "policy": "Raw proposals, failed validation and failed log preserved; no regrading.",
+        "allow_witness_tradition": true
+      },
+      "first_turn_repair": null
+    },
+    {
+      "target": "sec6",
+      "model": "terra",
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec6/terra/list.tsv",
+        "rows": 201,
+        "unique_references": 200,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 118,
+          "medium": 81,
+          "weak": 2
+        },
+        "findings": [
+          {
+            "line": 8,
+            "ref": "Wisdom of Solomon 16:20",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 20,
+            "ref": "Rosh Hashanah 17b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 51,
+            "ref": "Mishnah Avot 2:9",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 88,
+            "ref": "Yoma 75a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 89,
+            "ref": "Berakhot 7a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 164,
+            "ref": "Wisdom of Solomon 3:9",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 165,
+            "ref": "1QS 3:13-4:26",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 166,
+            "ref": "Didache 1:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 167,
+            "ref": "Epistle of Barnabas 18:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 187,
+            "ref": "Mishnah Berakhot 9:5",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 188,
+            "ref": "Mishnah Avot 5:11",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "raw_proposal_validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec6/terra/followup.tsv",
+        "rows": 57,
+        "unique_references": 57,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 31,
+          "medium": 26
+        },
+        "findings": [
+          {
+            "line": 20,
+            "ref": "Wisdom of Solomon 3:9",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 21,
+            "ref": "1QS 3:13-4:26",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 22,
+            "ref": "Didache 1:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 23,
+            "ref": "Epistle of Barnabas 18:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 43,
+            "ref": "Mishnah Berakhot 9:5",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 44,
+            "ref": "Mishnah Avot 5:11",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "repeats": [],
+      "diagnostics": [],
+      "repair": null,
+      "first_turn_repair": {
+        "policy": "bible-first-turn-repair-v1",
+        "approval": "2026-10-05 user reply: Apply the 13 recorded corrections; extend first-pass repair handling. Exact bundle: enrichment/bible/audits/pilot1-20261005/first-turn-repairs.proposed.json",
+        "tool_audit_reviewed": true,
+        "accepted_at": "2026-10-05T15:51:00.072159+00:00",
+        "changes": [
+          {
+            "line": 27,
+            "before": [
+              "strong",
+              "incil",
+              "karsi_anlati",
+              "SBLGNT:Jude.5",
+              "Jesus as exodus deliverer and judge",
+              "The commentary recalls God delivering Israel and then judging rebellion; Jude's text names Jesus as the one who saved a people from Egypt and later destroyed unbelievers, a Christological retelling of the scene."
+            ],
+            "after": [
+              "strong",
+              "incil",
+              "karsi_anlati",
+              "SBLGNT:Jude.1.5",
+              "Jesus as exodus deliverer and judge",
+              "The commentary recalls God delivering Israel and then judging rebellion; Jude's text names Jesus as the one who saved a people from Egypt and later destroyed unbelievers, a Christological retelling of the scene."
+            ],
+            "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+          },
+          {
+            "line": 31,
+            "before": [
+              "strong",
+              "tevrat",
+              "soydas",
+              "WLC:Ps.90.18",
+              "no'am of God upon us",
+              "The commentary's n-' -m family joins bestowed favor to softness; Hebrew no'am, a cognate form, asks that God's pleasantness or favor be upon us, closely matching the favor-upon-a-group construction."
+            ],
+            "after": [
+              "strong",
+              "tevrat",
+              "soydas",
+              "WLC:Ps.90.17",
+              "no'am of God upon us",
+              "The commentary's n-' -m family joins bestowed favor to softness; Hebrew no'am, a cognate form, asks that God's pleasantness or favor be upon us, closely matching the favor-upon-a-group construction."
+            ],
+            "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+          }
+        ],
+        "model_calls": 0,
+        "artifacts": {
+          "turn1.original.tsv": "69adea1924dbef7fd84b80b4acf7a5b88ad3c53be0600f25eabe96676fc6c601",
+          "turn1.validation.failed.json": "ecbd34117dd29a76d4ccfdb72285da13ecd0bff4cabb3996f23fedec346c1dbf",
+          "turn1.tool_calls.json": "b44ab6dfc5668b6878ad863306bb243ce2edb9ad523f2d238ecdab2f1f5ef071",
+          "turn1.repair.proposed.json": "d79b3cce5557fa55f3f6d169f8acf3cb9637a14009b7cfee951d45c4252ef742",
+          "turn1.repair.proposed.tsv": "2b6460964f88b919ada197891e2e54c6299e6f5f76016a678111d2629cd28c6d",
+          "turn1.accepted.tsv": "2b6460964f88b919ada197891e2e54c6299e6f5f76016a678111d2629cd28c6d"
+        }
+      }
+    }
+  ],
+  "confidence": "Unverified reader labels; agreement and follow-up origin do not verify a connection."
+}

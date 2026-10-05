@@ -1,0 +1,141 @@
+{
+  "target": "sec13",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md",
+  "base_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/quran.json": "e41e9f866cc96a3aabb7e7261eaa67ce3ed05240642cc8f9fc58f7d1ed40bb40",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/pack.json": "e73af12590027cc99bcacb8f265c254315f6220f3b9b4297fdea1625243c0599"
+  },
+  "started": "2026-10-05T11:06:56.201988-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_pilot1_20261005_sec13_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "pilot1-20261005",
+  "prompt_sha256": "637beecce6f8dd1d36d1b99b1fc60421df519783b78b39c5659eb92a25c55598",
+  "package_sha256": "e7c681725f8725d31797f5250a6285ea5f22415b59c60a9e291c7d7e33fb5edd",
+  "input_sha256": "05579816ccb321a6a8e598a2d4dcf634ae3d06523649a49c7a5f893b919342f2",
+  "spawn_sha256": "5127041108ab5279e03123d90dfc69583216a097c05edfed641816009c86708a",
+  "followup_text_sha256": "1412ded30b8c9d834da8629bef9fcacc3c3592292d880a6e5b2e925a9131d9b9",
+  "agent_id": "01a10c9f-34b9-7ff3-af47-a925c57bfff0",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T11-12-02-01a10c9f-34b9-7ff3-af47-a925c57bfff0.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "partial",
+  "check": "findings",
+  "turn1_rows": 61,
+  "turn1_sha256": "f453a1882fc954cb6821aa0294b63d4c36d3fa50d62ea8a73a31af1ed6972be6",
+  "turn2": {
+    "completed": true,
+    "rows_total": 60,
+    "rows_added": 0
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [
+    {
+      "call_id": "call_8pSCVrDknZMMLrZemR0G9oqi",
+      "message": "bad field count at row 62 : 0"
+    },
+    {
+      "call_id": "call_0uwNrzSaUWx115jtP4iahQlv",
+      "message": "Script failed"
+    },
+    {
+      "call_id": "call_0uwNrzSaUWx115jtP4iahQlv",
+      "message": "Script error:"
+    },
+    {
+      "call_id": "call_0uwNrzSaUWx115jtP4iahQlv",
+      "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec13/luna/list.tsv:"
+    }
+  ],
+  "protocol_findings": [],
+  "consolidation": null,
+  "consolidation_error": "invalid TSV: ['line 10: unknown verse in specified edition: WLC:Ps.50.24']",
+  "list_sha256": "f453a1882fc954cb6821aa0294b63d4c36d3fa50d62ea8a73a31af1ed6972be6",
+  "followup_delivery": [
+    {
+      "call_id": "call_A0VKoVCirgOEqKlZib52yP75",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 687444,
+    "cached_input_tokens": 602624,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 73368,
+    "reasoning_output_tokens": 66190,
+    "total_tokens": 760812
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T15:59:40.118Z",
+  "artifacts": {
+    "started.json": "402ecc50bcd35bb9fc8b9eef086396e24ea5108c2109e4f037430203ece387c8",
+    "input.json": "05579816ccb321a6a8e598a2d4dcf634ae3d06523649a49c7a5f893b919342f2",
+    "prompt.md": "637beecce6f8dd1d36d1b99b1fc60421df519783b78b39c5659eb92a25c55598",
+    "package.md": "e7c681725f8725d31797f5250a6285ea5f22415b59c60a9e291c7d7e33fb5edd",
+    "spawn.md": "5127041108ab5279e03123d90dfc69583216a097c05edfed641816009c86708a",
+    "followup.txt": "1412ded30b8c9d834da8629bef9fcacc3c3592292d880a6e5b2e925a9131d9b9",
+    "turn1.json": "c2fc21ced1fe1d575a12cadce37b26922c165f58797bd93c0b0fafd66cc3140f",
+    "turn1.list.tsv": "f453a1882fc954cb6821aa0294b63d4c36d3fa50d62ea8a73a31af1ed6972be6",
+    "followup.tsv": "41905e15681726a09af5cf42e0e5b47c4ec5942601d6625fccbc1b906f003cf1",
+    "list.tsv": "f453a1882fc954cb6821aa0294b63d4c36d3fa50d62ea8a73a31af1ed6972be6",
+    "validation.json": "8afc571db3781684ad91ec92f55f435754accdad662ba6e2b972efb1297bb631",
+    "proposal_validation.json": "3321d2b181253ef0429bd9a41653e2a4be97ad25179898f098809f170f61c2b9",
+    "tool_calls.json": "160c59eb8476ceb311f9ff78622ab54f3b31e958a12fb7120d633edbbdba9dfc",
+    "session.json": "573d5f295352aa3a5f836396c25823cebe99920c0d387333d9040a5725d9b89f",
+    "session.events.jsonl": "9706615599281d8cb41936ba2649fdd78f560cc93c5014fb6d6395cac01bb1db",
+    "turn1.original.tsv": "f453a1882fc954cb6821aa0294b63d4c36d3fa50d62ea8a73a31af1ed6972be6",
+    "turn1.validation.failed.json": "8afc571db3781684ad91ec92f55f435754accdad662ba6e2b972efb1297bb631",
+    "turn1.tool_calls.json": "d8879f68cc0ac2d5ebba36e85f1b347058d8810b46a484fe603cc2d463a6824f",
+    "turn1.repair.proposed.json": "3ded46fe58ee4084e8f575914697feaecdf463d721ef53867004d25c45b5baa6",
+    "turn1.repair.proposed.tsv": "534c9e3b8ac2ad83b4faf14002577870b9da7121da122d8b8eef9b6bd7c8cb9e",
+    "turn1.accepted.tsv": "534c9e3b8ac2ad83b4faf14002577870b9da7121da122d8b8eef9b6bd7c8cb9e",
+    "turn1.repair.accepted.json": "9996a0503c57bf7c0d9ce371d44ab1139872793ad12d67ab0a3c2c061aea9aef"
+  },
+  "first_turn_repair": {
+    "policy": "bible-first-turn-repair-v1",
+    "approval": "2026-10-05 user reply: Apply the 13 recorded corrections; extend first-pass repair handling. Exact bundle: enrichment/bible/audits/pilot1-20261005/first-turn-repairs.proposed.json",
+    "tool_audit_reviewed": true,
+    "accepted_at": "2026-10-05T15:52:00.215985+00:00",
+    "changes": [
+      {
+        "line": 61,
+        "before": [
+          "weak",
+          "tevrat",
+          "soydas",
+          "WLC:Ps.90.18",
+          "Hebrew noam and Arabic n-ʿ-m",
+          "The commentary itself labels Arabic anʿamta, favor, and anʿām, herds, under n-ʿ-m; Hebrew noam here means YHWH's gracious pleasantness, a possible cognate for the favor sense but not for livestock."
+        ],
+        "after": [
+          "weak",
+          "tevrat",
+          "soydas",
+          "WLC:Ps.90.17",
+          "Hebrew noam and Arabic n-ʿ-m",
+          "The commentary itself labels Arabic anʿamta, favor, and anʿām, herds, under n-ʿ-m; Hebrew noam here means YHWH's gracious pleasantness, a possible cognate for the favor sense but not for livestock."
+        ],
+        "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+      }
+    ],
+    "model_calls": 0,
+    "artifacts": {
+      "turn1.original.tsv": "f453a1882fc954cb6821aa0294b63d4c36d3fa50d62ea8a73a31af1ed6972be6",
+      "turn1.validation.failed.json": "8afc571db3781684ad91ec92f55f435754accdad662ba6e2b972efb1297bb631",
+      "turn1.tool_calls.json": "d8879f68cc0ac2d5ebba36e85f1b347058d8810b46a484fe603cc2d463a6824f",
+      "turn1.repair.proposed.json": "3ded46fe58ee4084e8f575914697feaecdf463d721ef53867004d25c45b5baa6",
+      "turn1.repair.proposed.tsv": "534c9e3b8ac2ad83b4faf14002577870b9da7121da122d8b8eef9b6bd7c8cb9e",
+      "turn1.accepted.tsv": "534c9e3b8ac2ad83b4faf14002577870b9da7121da122d8b8eef9b6bd7c8cb9e"
+    }
+  }
+}

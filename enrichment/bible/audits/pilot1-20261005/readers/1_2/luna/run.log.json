@@ -1,0 +1,1797 @@
+{
+  "target": "1:2",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/1_2.md",
+  "base_sha256": "35b6b3804e386f32141d8ecf3d33bbb9d6bd80c42e088da80ba6261852e081eb",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/quran.json": "e41e9f866cc96a3aabb7e7261eaa67ce3ed05240642cc8f9fc58f7d1ed40bb40",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/pack.json": "e73af12590027cc99bcacb8f265c254315f6220f3b9b4297fdea1625243c0599"
+  },
+  "started": "2026-10-05T11:13:11.891841-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_pilot1_20261005_1_2_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "pilot1-20261005",
+  "prompt_sha256": "b6766a9f9c5ac242a68168e6dcc6337279dd0d58a455a97d1ce520987aa92023",
+  "package_sha256": "7740185ad33644d8b7e06f7e1e33cedf81bb8c24c87396ef279404a0c5351c07",
+  "input_sha256": "8d9aa635ccbafc20b68bd6ea4bff4903c41dee231d38f60760b6e0d7f86852e9",
+  "spawn_sha256": "826627d52dca04ae2127f75bc3a9599b69e975a8df9fa4666e4c5efac7b38852",
+  "followup_text_sha256": "69ca69c35df43058b084ae999d4db3545c64724fcc0a8a00364cad5afa20826a",
+  "agent_id": "01a10ca2-251f-7ad0-98c6-7eec8aee7c70",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T11-15-15-01a10ca2-251f-7ad0-98c6-7eec8aee7c70.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "accepted",
+  "check": "findings",
+  "turn1_rows": 81,
+  "turn1_sha256": "35fddec10fb7f2927c61ad88ab80093846e9ad63153e3d03bc6e83b8b0ff1eb6",
+  "turn2": {
+    "completed": true,
+    "rows_total": 120,
+    "rows_added": 39
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 81,
+    "raw_proposal_rows": 39,
+    "unique_additions": 39,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.65.2",
+          "basis": "silence as praise",
+          "note": "The commentary calls 1:2 a verb-less verdict whose praise is already located before a human says it; this psalm says silence itself is praise before God in Zion, making unspoken praise intelligible."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.148.3",
+          "basis": "sun, moon, stars",
+          "note": "The commentary treats sun, moon, and stars as created signs rather than the Lord; this summons those same heavenly bodies to praise their Maker, giving the celestial lights a liturgical role without deifying them."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.148.7",
+          "basis": "sea and earth",
+          "note": "The commentary says every created kind bears witness to its Lord; here the sea and its creatures, including the depths, are directly summoned into praise."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.148.10",
+          "basis": "animals",
+          "note": "The commentary extends the Lord's care to herds and every kind of creature; this verse includes wild and domestic animals among the voices summoned to praise."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.148.11",
+          "basis": "kings and peoples",
+          "note": "The commentary says the plural worlds include all created kinds; this verse brings rulers, nations, and peoples into the same cosmic summons to praise."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.19.2",
+          "basis": "heavens declare glory",
+          "note": "The commentary reads each kind as a sign by which its Lord is known; the heavens here declare God's glory without a human speaker, making creation itself a witness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.19.4",
+          "basis": "unvoiced testimony",
+          "note": "The commentary says all things praise in a language humans do not understand; this verse says the heavens' testimony has no ordinary speech or words, closely matching praise beyond human hearing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.19.5",
+          "basis": "voice throughout the earth",
+          "note": "The commentary makes the created signs universal; the heavens' line and words reach the end of the world, so their testimony is not confined to one worshiping community."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.38.7",
+          "basis": "stars sing at creation",
+          "note": "The commentary says nonhuman creation praises God before a human voice is heard; Job pictures the morning stars singing together as earth's foundations are laid."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Neh.9.6",
+          "basis": "creation kept alive",
+          "note": "The commentary names the Lord of all worlds; Nehemiah addresses the one who made heaven, earth, sea, and all in them, keeps them alive, and receives worship from heaven's host."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.43.20",
+          "basis": "wild creatures honor God",
+          "note": "The commentary includes every kind in the Lord's domain; Isaiah says wilderness animals honor God because he supplies water in the desert."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.43.21",
+          "basis": "people formed to praise",
+          "note": "The commentary says praise belongs to God independently of a human speaker; Isaiah says the people God formed are meant to recount his praise."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.5.13",
+          "basis": "every creature blesses God",
+          "note": "The commentary says every thing praises God in its own way; Revelation gives a cosmic liturgy in which every creature in heaven, earth, under earth, and sea voices blessing and honor to the One on the throne and the Lamb."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.4.11",
+          "basis": "Creator worthy of glory",
+          "note": "The commentary assigns praise to God as Lord of all worlds; the elders here give glory and honor to the one worthy because he created all things and they exist by his will."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.7",
+          "basis": "worship the maker",
+          "note": "The commentary distinguishes the sun and moon as signs from the Lord they indicate; the angel calls people to worship the maker of heaven, earth, sea, and springs of water."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.17.24",
+          "basis": "Lord of heaven and earth",
+          "note": "The commentary expands the ordinary title Rabb into Lord of all worlds; Paul calls the maker of the world and everything in it Lord of heaven and earth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.17.25",
+          "basis": "giver, not needy recipient",
+          "note": "The commentary says praise does not originate in human speech; Paul says God is not served as though he needed anything, since he himself gives life and breath to all."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.14.15",
+          "basis": "maker of all domains",
+          "note": "The commentary identifies God as Lord of all worlds; Paul tells the crowd to turn from vain things to the living God who made heaven, earth, sea, and all that is in them."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.14.17",
+          "basis": "rain and food for all",
+          "note": "The commentary develops the Rab image through cloud, water, pasture, and herd; Paul names rain, fruitful seasons, food, and gladness as gifts from the Creator."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.1.14",
+          "basis": "luminaries as signs",
+          "note": "The commentary reads heavenly bodies as signs within the created world, not as its Lord; Genesis assigns the lights the task of marking seasons, days, and years."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.1.16",
+          "basis": "lights made by God",
+          "note": "The commentary's Abraham scene rejects stars, moon, and sun as rulers over their Maker; Genesis places the two great lights among the things God made and appointed to govern day and night."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 13:1",
+          "basis": "failure to know the maker",
+          "note": "The commentary calls each created kind a sign by which the Lord is known; Wisdom says people who infer no knowledge of God from visible good things fail to recognize their maker through his works."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 13:3",
+          "basis": "beauty points beyond itself",
+          "note": "The commentary says the worlds are signs that show their Lord; Wisdom argues that the beauty of created things should lead their observer to perceive the maker."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 13:5",
+          "basis": "greatness of creatures",
+          "note": "The commentary treats the whole creation as a field of divine signs; Wisdom says the greatness and beauty of creatures give a proportionate way to perceive their creator."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.1.20",
+          "basis": "invisible maker known through works",
+          "note": "The commentary says creatures are signs by which their Lord is recognized; Paul says God's unseen power and divinity are perceived through what has been made."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Rom.1.21",
+          "basis": "failure to glorify the maker",
+          "note": "The commentary presents praise as the proper verdict on God; Paul describes people who knew God yet failed to glorify or thank him, showing the opposite response to creation's testimony."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Rom.1.25",
+          "basis": "creation mistaken for God",
+          "note": "The commentary's Abraham rejects a created light as Lord because it sets; Paul condemns exchanging the Creator's glory for worship of created things, including heavenly and earthly forms."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Job.31.26",
+          "basis": "sun and moon not worshiped",
+          "note": "The commentary's Abraham refuses the setting sun and moon as possible lords; Job's speaker swears that seeing the bright sun or splendid moon did not turn him toward their worship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Job.31.27",
+          "basis": "heart not enticed by lights",
+          "note": "The commentary makes the refusal of celestial worship the test of who remains Lord; Job names the hidden temptation of the heart and the hand's kiss to the moon as forbidden worship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Job.31.28",
+          "basis": "loyalty to God above",
+          "note": "The commentary says the bodies that set are signs, not the enduring Lord; Job says such worship would deny God above and be a culpable offense."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.4.19",
+          "basis": "do not worship the host of heaven",
+          "note": "The commentary identifies the sun, moon, and stars as created signs that cannot be Rabb; Moses warns Israel not to be drawn into worshiping those lights, which the Lord allotted to peoples under heaven."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Gen.15.5",
+          "basis": "stars as promise, not deity",
+          "note": "The Qur'anic Abraham tests the star and rejects it when it sets; Genesis instead has God show Abram the stars as a measure of promised descendants, making the same sky a sign of God's word rather than an object of worship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Gen.15.6",
+          "basis": "trust in the speaker",
+          "note": "The commentary's Abraham turns from transient lights to their creator; in Genesis Abram responds to God's promise through the stars by trusting the speaker, not treating the stars as his lord."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.14.19",
+          "basis": "blessing God Most High",
+          "note": "The commentary says hamd is the verdict that belongs to the doer of the praised work; Melchizedek blesses God Most High as maker of heaven and earth and as the one who delivered Abram's enemies."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.14.23",
+          "basis": "refusing human credit",
+          "note": "The commentary rejects drawing praise to oneself for a good whose source lies elsewhere; Abram refuses the king of Sodom's goods so he cannot claim to have made Abram rich."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.8.10",
+          "basis": "bless after being satisfied",
+          "note": "The commentary says hamd exceeds thanks for relief but still includes response to received good; Moses commands Israel to bless the Lord after eating and being satisfied."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Deut.8.17",
+          "basis": "wealth claimed as one's own",
+          "note": "The commentary exposes the person who locates the source of a gift in himself; Moses warns against saying one's own power and strength acquired the wealth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.8.18",
+          "basis": "God gives capacity",
+          "note": "The commentary returns praise to the source of every good work; Moses says the Lord gives the power to produce wealth and thereby keeps the covenant."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Chr.29.11",
+          "basis": "heaven and earth belong to God",
+          "note": "The commentary names Allah as the one to whom all praise belongs and Rabb of all worlds; David's prayer says greatness, power, glory, victory, and majesty are God's because all in heaven and earth is his."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Chr.29.13",
+          "basis": "thanksgiving to God's name",
+          "note": "The commentary attaches praise to the one who did the work; David and the gathered people thank and praise God's glorious name after naming his universal kingdom."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Chr.29.14",
+          "basis": "nothing comes from ourselves",
+          "note": "The commentary opposes human appropriation of credit for what was given; David asks what the people can give when everything comes from God and what they offer is already his."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.24.2",
+          "basis": "earth and fullness are God's",
+          "note": "The commentary calls God the Rabb of all worlds; this psalm grounds the claim in God's ownership of the earth, its fullness, and its inhabitants."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.100.4",
+          "basis": "maker and pasture flock",
+          "note": "The commentary's Rab imagery includes owner, herd, pasture, and the one who tends; the psalm says God made the people and calls them his flock, then brings them to worship with thanksgiving and praise."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.19",
+          "basis": "kingdom over all",
+          "note": "The commentary stretches the limited human use of Rabb to the Lord of all worlds; this verse says God's throne is established in heaven and his kingdom rules over all."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.22",
+          "basis": "all works bless God",
+          "note": "The commentary says the praise of creation is not produced by the human reader; the psalm summons all God's works, everywhere in his dominion, to bless him."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.145.10",
+          "basis": "all works give thanks",
+          "note": "The commentary says every created kind knows its Lord through signs; this verse says all God's works give thanks while his faithful ones bless him."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.145.11",
+          "basis": "kingdom's glory proclaimed",
+          "note": "The commentary identifies the Rabb of all worlds; the next line has worshipers speak of the glory and power of God's kingdom to make it known."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.145.16",
+          "basis": "God feeds every living thing",
+          "note": "The commentary's Rab field includes nurture, water, pasture, and herds; the psalm says God opens his hand and satisfies the desire of every living thing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.27",
+          "basis": "creatures depend on God's provision",
+          "note": "The commentary links Rabb with the cloud that grows plants and sustains herds; this psalm says all creatures wait for God to give them food in its season."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.147.8",
+          "basis": "clouds bring rain and grass",
+          "note": "The commentary develops the layered cloud that waters plants and pasture; this verse says God covers the sky with clouds, prepares rain for earth, and makes grass grow on the mountains."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.147.9",
+          "basis": "food for cattle and birds",
+          "note": "The commentary moves from cloud and water to the herd that remains where it is fed; this verse says God gives animals their food and feeds the young ravens."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.65.10",
+          "basis": "rain makes the land fruitful",
+          "note": "The commentary joins the cloud that grows plants with hamd as a judgment that a place is good to inhabit; the psalm describes God watering furrows and softening the soil for grain."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.65.14",
+          "basis": "flocks and fields sing",
+          "note": "The commentary brings Rab, abundant water, pasture, and a herd that stays together into one scene; this verse clothes the pastures with flocks and has valleys shout and sing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.2",
+          "basis": "shepherd leads to water",
+          "note": "The commentary's Rab branches include an owner and a herd, while its prose describes nurture as bringing a being toward completion; the psalm pictures the Lord as shepherd who gives pasture and still water."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.34.16",
+          "basis": "seeking the lost and injured",
+          "note": "The commentary joins the owner of the herd with the lost animal and the nurturing Rabb; Ezekiel says God himself seeks the lost, brings back the strayed, binds the injured, and strengthens the weak."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.11.25",
+          "basis": "Lord of heaven and earth",
+          "note": "The commentary couples praise with Rabb of all worlds; Jesus blesses the Father as Lord of heaven and earth, and the context says revelation is given to little ones rather than self-assured wise people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.11.36",
+          "basis": "all things from and to God",
+          "note": "The commentary returns every praiseworthy deed to its source and calls God Rabb of all worlds; Paul says all things are from, through, and toward God, to whom glory belongs forever."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.1.17",
+          "basis": "all things hold together",
+          "note": "The commentary develops the image of the Rabb as the one who keeps a diverse plurality from scattering; Colossians says all things cohere in Christ, offering a Christian formulation of that sustaining relation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:1Cor.4.7",
+          "basis": "received gifts exclude boasting",
+          "note": "The commentary contrasts praise returned to its source with a person claiming a gift as his own; Paul asks what anyone has that was not received, and therefore why boast as if it were not received."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.9.23",
+          "basis": "boast in knowing the Lord",
+          "note": "The commentary warns against pulling praise toward oneself; Jeremiah forbids boasting in wisdom, strength, or wealth and directs boasting toward understanding and knowing the Lord."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.27.2",
+          "basis": "another should praise you",
+          "note": "The commentary criticizes the person who draws praise to himself for his own acts; Proverbs says praise should come from another's mouth, not one's own."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.1",
+          "basis": "piety done for human praise",
+          "note": "The commentary opposes claiming credit and praise for oneself; Jesus warns against practicing righteousness in order to be seen by people, shifting recognition to the Father who sees in secret."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.18.11",
+          "basis": "Pharisee's self-praising prayer",
+          "note": "The commentary's false claimant wants praise for himself; in Jesus' parable the Pharisee's prayer thanks God but immediately boasts of his own virtue, while the following tax collector asks for mercy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.18.14",
+          "basis": "tax collector rather than self-exalting Pharisee",
+          "note": "The commentary separates genuine praise from self-congratulation; Jesus says the humbled tax collector goes home justified, while the one exalting himself is brought low."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.19.1",
+          "basis": "praise after judgment",
+          "note": "The commentary notes hamd after the unjust people's destruction as a verdict, not gratitude for a gift; Revelation's multitude gives glory and power to God after the judgment of Babylon."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.19.2",
+          "basis": "God's judgments are true and just",
+          "note": "The commentary says hamd can approve the right outcome after a judgment; Revelation explicitly praises God because his judgments are true and just and he has judged the corrupting power."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.15.1",
+          "basis": "praise after an oppressor falls",
+          "note": "The commentary's exact hamd formula follows the cutting off of a wicked people; Moses' song begins after Egypt's army is defeated and praises the Lord for triumph over the oppressor."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.98.7",
+          "basis": "sea roars before the judge",
+          "note": "The commentary joins creation's praise with the final judgment that sets things right; this psalm has the sea roar before the Lord who comes to judge the world."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.98.8",
+          "basis": "rivers clap and hills sing",
+          "note": "The commentary says nonhuman creation praises in ways people do not grasp; the rivers clap and hills sing before the Lord in the same scene that announces his righteous judgment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.98.9",
+          "basis": "the Lord judges all the earth",
+          "note": "The commentary's hamd after judgment is a verdict on what is right; this verse says the Lord comes to judge the earth with righteousness and the peoples with equity."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Chr.16.33",
+          "basis": "trees sing before the judge",
+          "note": "The commentary says creation's praise is not a human performance; David's public worship song has the trees sing before the Lord because he comes to judge the earth."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah, Berakhot 9:5",
+          "basis": "blessing in adversity",
+          "note": "The commentary says hamd is a judgment broader than thanking someone for an advantage; the Mishnah requires a person to bless God for misfortune as for good fortune, making praise independent of immediate relief."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Babylonian Talmud, Berakhot 35a–b",
+          "basis": "blessing acknowledges the owner",
+          "note": "The commentary says praise belongs to the source of every good rather than to the person who receives it; the Talmud treats enjoyment of the world without a blessing as misappropriating what belongs to God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Pirkei Avot 6:11",
+          "basis": "creation made for divine glory",
+          "note": "The commentary says each created kind is a sign of its Lord and that praise is not dependent on a human speaker; this rabbinic saying gives the purpose of all creation as the Creator's glory."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Adon Olam, opening and closing stanzas",
+          "basis": "Lord before and after creation",
+          "note": "The commentary calls God Lord of all worlds and says the Lord remains when transient things pass; the hymn praises the Lord who precedes creation and reigns alone after all things cease."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Augustine, Confessions 10.6.9–10",
+          "basis": "creation answers about its maker",
+          "note": "The commentary says the worlds are signs through which the Lord is known; Augustine questions earth, sea, sky, sun, moon, and stars, and each directs him beyond itself to its maker."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Song of the Three Youths, Greek Daniel 3:57–88",
+          "basis": "all works summoned to bless God",
+          "note": "The commentary says every thing praises God in its own manner; this hymn lists works of creation and summons them to bless and exalt the Lord. Numbering differs across editions."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "Mishnah, Avot 1:6",
+          "basis": "Hebrew rab as teacher or master",
+          "note": "The commentary's Arabic dictionary glosses Rabb as owner, obeyed master, and one who sets things right; the Mishnah's Hebrew cognate rab is a human teacher one appoints, preserving the master-teacher sense without claiming it means Lord of all worlds."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Dan.2.48",
+          "basis": "Aramaic rab as chief",
+          "note": "The commentary glosses Rabb as owner and obeyed master; Daniel's Aramaic uses rab for a human chief set over other officials, a concrete cognate in a limited social relation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "soydas",
+          "ref": "SBLGNT:John.1.38",
+          "basis": "Rabbi glossed as teacher",
+          "note": "The commentary includes master and nurturing teacher among the senses heard alongside Arabic Rabb; John's disciples address Jesus with the Semitic title Rabbi and the narrator explains it as Teacher."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 81,
+        "row": {
+          "line": 81,
+          "strength": "weak",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.19.11",
+          "basis": "Hebrew cognate hmd means desirable",
+          "note": "The commentary labels Arabic hamd from h-m-d as praise and a verdict of worth; the Hebrew cognate in this verse describes the Lord's instruction as desirable, a related evaluative sense rather than a word for praise."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.150.6",
+          "basis": "all breath praises",
+          "note": "The commentary says praise precedes the human reciter and belongs to the Lord; the Psalter closes by summoning everything with breath to praise the Lord, placing the ayah's opening verdict beside a book's final doxology."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.148.13",
+          "basis": "all creation praises the exalted name",
+          "note": "The commentary says every created kind is a sign of its Lord; the psalm's conclusion gathers heaven and earth under praise because the Lord's name alone is exalted."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.12.7",
+          "basis": "animals teach about their maker",
+          "note": "The commentary makes created kinds signs by which their Lord is known; Job tells the hearer to ask beasts and birds, which can teach this truth."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.12.8",
+          "basis": "earth and sea as witnesses",
+          "note": "The commentary extends signs beyond human speech; Job says to speak to the earth and sea creatures, which can teach the inquirer."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.12.9",
+          "basis": "the Lord's hand made this",
+          "note": "The commentary says the worlds point beyond themselves to their Lord; Job asks who does not know from these creatures that the Lord's hand made them."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.12.10",
+          "basis": "life and breath in God's hand",
+          "note": "The commentary calls God Rabb of all worlds; Job says the life of every living thing and the breath of all humanity are in God's hand."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.31",
+          "basis": "God rejoices in his works",
+          "note": "The commentary presents the worlds as signs of their Lord and names praise as the right judgment; this psalm asks that the Lord's glory endure and says he rejoices in his works."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.35",
+          "basis": "praise after the wicked perish",
+          "note": "The commentary reads hamd after a wicked people's destruction as a verdict on the right outcome; Psalm 104 ends by asking that sinners vanish and then turns to blessing the Lord."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.113.3",
+          "basis": "name praised from sunrise to sunset",
+          "note": "The commentary discusses the sun as a created light that can be mistaken for a deity; this psalm uses sunrise and sunset to frame praise of the Lord's name everywhere."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.50.11",
+          "basis": "all animals belong to God",
+          "note": "The commentary calls God owner of every world and develops the herd as an image; this psalm says every forest animal and cattle on the hills already belong to God."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.50.13",
+          "basis": "God does not need offerings",
+          "note": "The commentary says praise is God's due even when human speech or gratitude supplies nothing; the psalm says God would not need to tell humans if hungry, because the world and its fullness are his."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.3.19",
+          "basis": "heavens established by wisdom",
+          "note": "The commentary pairs the Lord of worlds with the knowledge by which created signs are recognized; Proverbs says the Lord founded earth by wisdom and established the heavens by understanding."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.3.20",
+          "basis": "knowledge, depths, and dew",
+          "note": "The commentary's prose brings the knowing sign-world together with the rain cloud that grows plants; Proverbs links God's knowledge to the bursting deeps and the clouds that drip dew."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Jer.10.11",
+          "basis": "gods that did not create will perish",
+          "note": "The commentary's Abraham rejects setting luminaries as lords and turns to the Creator; Jeremiah's Aramaic sentence says gods that did not make heaven and earth will perish from earth and under heaven."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.10.12",
+          "basis": "God establishes the world",
+          "note": "The commentary calls God Rabb of all worlds and contrasts the abiding Lord with transient lights; Jeremiah says God made earth by power, established the world, and stretched out the heavens by understanding."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.1.31",
+          "basis": "God carries Israel as a son",
+          "note": "The commentary hears in Rabb the raising of a child through successive stages; Moses recalls God carrying Israel through the wilderness as a man carries his son."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.11.3",
+          "basis": "God teaches a child to walk",
+          "note": "The commentary's nurturing sense of Rabb is a gradual bringing to maturity; Hosea pictures God teaching Ephraim to walk and taking him by the arms."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.11.4",
+          "basis": "feeding and loving care",
+          "note": "The commentary links Rabb to nurture and the provision that brings life to completion; Hosea describes God drawing Israel with bonds of love and bending down to feed them."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.46.3",
+          "basis": "carried from the womb",
+          "note": "The commentary develops Rabb as the one who sustains a being from its earliest state; Isaiah says God has carried the house of Jacob from birth and from the womb."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.46.4",
+          "basis": "care through old age",
+          "note": "The commentary says the Rabb brings a creature through its stages to completion; Isaiah promises to carry and rescue the people even into old age and gray hairs."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 11:24",
+          "basis": "God loves all that exists",
+          "note": "The commentary says the Lord's care extends to all created kinds; Wisdom says God loves everything that exists and would not have made anything he hated."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 11:26",
+          "basis": "all things are God's",
+          "note": "The commentary calls God Rabb of all worlds; Wisdom says God spares all things because they are his and names him lover of life."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah, Berakhot 9:2",
+          "basis": "bless the maker at natural signs",
+          "note": "The commentary develops sun, moon, stars, mountains, water, and marks as created signs; this Mishnah prescribes blessings on seeing mountains, seas, the sun, moon, and stars, directing recognition to the Maker of creation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 43:9",
+          "basis": "stars as God's handiwork",
+          "note": "The commentary distinguishes the heavenly lights from the Lord they indicate; Sirach describes the stars as the beauty of heaven and an ordered display in God's heights."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 43:27",
+          "basis": "praise cannot exhaust God",
+          "note": "The commentary says hamd can be the final word after a work reaches its limit, yet Fatiha places it at the beginning; Sirach says many words still fall short and makes God the final word."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 43:28",
+          "basis": "God greater than his works",
+          "note": "The commentary says every world is a sign but cannot be the Lord; Sirach asks where strength can be found to praise God, who is greater than all his works."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 43:30",
+          "basis": "God surpasses every praise",
+          "note": "The commentary says hamd names the full, final praise due to God; Sirach commands praise as much as possible and immediately says God surpasses it."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Perek Shirah 1",
+          "basis": "creation's own verses of praise",
+          "note": "The commentary says each thing praises in its own language even when humans do not understand; this Jewish hymn assigns scriptural praise lines to heaven, earth, and sea as their own utterances."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.5.45",
+          "basis": "sun and rain for all",
+          "note": "The commentary distinguishes sun and rain as gifts within God's world and describes Rabb as nurturer; Jesus says the Father makes the sun rise and sends rain on both evil and good, showing provision beyond human merit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.26",
+          "basis": "birds fed by the Father",
+          "note": "The commentary's Rabb imagery includes the owner and sustainer of a herd; Jesus points to birds that neither sow nor gather yet are fed by the heavenly Father."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.19.40",
+          "basis": "stones cry if people are silent",
+          "note": "The commentary says praise is already located before a human reciter and does not depend on the reader's voice; Jesus says that if his disciples were silent, the stones would cry out."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.1.17",
+          "basis": "giver without change",
+          "note": "The commentary contrasts the Lord who remains with celestial bodies that set and says every good belongs at its source; James calls every good gift from the Father of lights, with whom there is no variation or shadow from turning."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.1.10",
+          "basis": "Lord who founded earth and heavens",
+          "note": "The commentary calls the abiding one Rabb of all worlds; Hebrews addresses the Son as Lord and says he founded the earth and heavens, a Christian application of creator-Lord language."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.1.11",
+          "basis": "creation perishes, Lord remains",
+          "note": "The commentary's Abraham rejects lights that set and its later passage says all on earth perishes while the Lord remains; Hebrews says the created heavens and earth wear out while the addressed Lord remains."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.1.12",
+          "basis": "unchanging through the end",
+          "note": "The commentary's contrast is between passing worlds and the abiding Lord; Hebrews says creation will be changed like a garment while the Lord stays the same and his years do not fail."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.10.26",
+          "basis": "earth and fullness belong to the Lord",
+          "note": "The commentary says all praise and every good belong to the creator rather than a human possessor; Paul quotes the psalmic claim that the earth and its fullness belong to the Lord while discussing food from the market."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Rev.5.13",
+          "basis": "the Lamb shares cosmic praise",
+          "note": "The ayah assigns all hamd to Allah; Revelation's universal doxology addresses blessing, honor, glory, and might to both the one on the throne and the Lamb, preserving a distinct Christian account of who receives cosmic praise."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.6.15",
+          "basis": "only Sovereign and King of kings",
+          "note": "The commentary says Rabb without qualification belongs to the enduring Lord of all worlds; Paul calls God the blessed and only Sovereign, King of kings and Lord of lords."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Tim.6.16",
+          "basis": "immortality and honor",
+          "note": "The commentary contrasts the setting lights with the Lord who remains; Paul says God alone has immortality and ascribes eternal honor and power to him."
+        }
+      }
+    ],
+    "proposal_file": "followup.accepted.tsv",
+    "proposal_sha256": "beff3dfacc78430479d75618ec9ea0065c44b13fc864b837b1c9091944ee8a40",
+    "followup_sha256": "ababe5114395b18f24fa86d42642d929bdc394308b4710351286ea904d7edd23",
+    "initial_file": "turn1.accepted.tsv",
+    "initial_sha256": "a0a043cf3ee5ef4ed85e95a1e7ba7429afe5d2e57f848c18e1c1c7484a7d96ee",
+    "raw_initial_sha256": "35fddec10fb7f2927c61ad88ab80093846e9ad63153e3d03bc6e83b8b0ff1eb6"
+  },
+  "consolidation_error": null,
+  "list_sha256": "68a5e213c482082819b37c075d126d0b3de19ba186deb79c961d9674de4e9420",
+  "followup_delivery": [
+    {
+      "call_id": "call_NqMCf7fcmBl9AIxqgHh7WxEv",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 751166,
+    "cached_input_tokens": 617728,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 52917,
+    "reasoning_output_tokens": 42523,
+    "total_tokens": 804083
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T15:58:17.841Z",
+  "artifacts": {
+    "started.json": "856c852a1f81ba538f4b82a58d4e06fc9ad16d38f9f5abf0749495acc4db208b",
+    "input.json": "8d9aa635ccbafc20b68bd6ea4bff4903c41dee231d38f60760b6e0d7f86852e9",
+    "prompt.md": "b6766a9f9c5ac242a68168e6dcc6337279dd0d58a455a97d1ce520987aa92023",
+    "package.md": "7740185ad33644d8b7e06f7e1e33cedf81bb8c24c87396ef279404a0c5351c07",
+    "spawn.md": "826627d52dca04ae2127f75bc3a9599b69e975a8df9fa4666e4c5efac7b38852",
+    "followup.txt": "69ca69c35df43058b084ae999d4db3545c64724fcc0a8a00364cad5afa20826a",
+    "turn1.json": "bba13f9a700e75c6992a1725a4d3aa618025fc4240ddad296eb22dd910b776b7",
+    "turn1.list.tsv": "35fddec10fb7f2927c61ad88ab80093846e9ad63153e3d03bc6e83b8b0ff1eb6",
+    "followup.tsv": "ababe5114395b18f24fa86d42642d929bdc394308b4710351286ea904d7edd23",
+    "list.tsv": "68a5e213c482082819b37c075d126d0b3de19ba186deb79c961d9674de4e9420",
+    "consolidation.json": "2a795c57a6fad23b5cd471916710b61416eee9edbe9955486f25ec5247d05718",
+    "validation.json": "f5e9109f8bc4359014fee372b77e8e7caf31298daae4ff1ba8db59e00ffd4591",
+    "proposal_validation.json": "f3499e8e3eb42ae0202bb6c8b781da3498da32770972e0c4f54d563cfcb4bf2d",
+    "tool_calls.json": "1e1eb33f7efdf9a3e174ed29dcf882e0b6c5e31a66459de8e2491dc336be6ce2",
+    "session.json": "bc152211dd503fb6276d286e150bc3d1c2713f407ae8c760fdae538c975ae0e5",
+    "session.events.jsonl": "4b68fa0c9c104fc69e05bf190a4204a6f9b833c3cbaef3898d8899f1a1b0aac6",
+    "run.failed.log.json": "5a4b254631adb969e968b6d7769ba29880ea799ae9d171958736b7e948675fae",
+    "validation.failed.json": "ff0269cf8bec1e8933f921e6b09f945c7f43d0bf3b0d88e8c5565837c179e9c7",
+    "repair.proposed.json": "223ab8d9ca05623b38e4addfbca168340b5430ce450b05e9b74dcb4d8bd5feb5",
+    "followup.repair.proposed.tsv": "beff3dfacc78430479d75618ec9ea0065c44b13fc864b837b1c9091944ee8a40",
+    "followup.accepted.tsv": "beff3dfacc78430479d75618ec9ea0065c44b13fc864b837b1c9091944ee8a40",
+    "repair.accepted.json": "970c0a465fe2f9299a3f3c1df1de640f01f0c35ab7d133633e592a1e8d54c7e4",
+    "turn1.original.tsv": "35fddec10fb7f2927c61ad88ab80093846e9ad63153e3d03bc6e83b8b0ff1eb6",
+    "turn1.validation.failed.json": "ff0269cf8bec1e8933f921e6b09f945c7f43d0bf3b0d88e8c5565837c179e9c7",
+    "turn1.tool_calls.json": "f66d4eb96865af5d150ce5747980e7e720a5f592c6a2e2f6cabaf3d9cb0f9202",
+    "turn1.repair.proposed.json": "623e8004a05fd7aea38916dfecc65712345da284a5732ffe8979252b7c54cab7",
+    "turn1.repair.proposed.tsv": "a0a043cf3ee5ef4ed85e95a1e7ba7429afe5d2e57f848c18e1c1c7484a7d96ee",
+    "turn1.accepted.tsv": "a0a043cf3ee5ef4ed85e95a1e7ba7429afe5d2e57f848c18e1c1c7484a7d96ee",
+    "turn1.repair.accepted.json": "b1ffa82d8013a03b3815d908d0aecc003ea554553eebbb896d6e46b3f37a2bc0"
+  },
+  "first_turn_repair": {
+    "policy": "bible-first-turn-repair-v1",
+    "approval": "2026-10-05 user reply: Apply the 13 recorded corrections; extend first-pass repair handling. Exact bundle: enrichment/bible/audits/pilot1-20261005/first-turn-repairs.proposed.json",
+    "tool_audit_reviewed": true,
+    "accepted_at": "2026-10-05T15:52:01.266685+00:00",
+    "changes": [
+      {
+        "line": 22,
+        "before": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Wis.13.1",
+          "failure to know the maker",
+          "The commentary calls each created kind a sign by which the Lord is known; Wisdom says people who infer no knowledge of God from visible good things fail to recognize their maker through his works."
+        ],
+        "after": [
+          "strong",
+          "tevrat",
+          "motif",
+          "Wisdom of Solomon 13:1",
+          "failure to know the maker",
+          "The commentary calls each created kind a sign by which the Lord is known; Wisdom says people who infer no knowledge of God from visible good things fail to recognize their maker through his works."
+        ],
+        "reason": "Wisdom is not contained in WLC. Retain a named-work candidate; original Greek witness remains unavailable. KJV is only a finding aid, not evidence for acceptance."
+      },
+      {
+        "line": 23,
+        "before": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Wis.13.3",
+          "beauty points beyond itself",
+          "The commentary says the worlds are signs that show their Lord; Wisdom argues that the beauty of created things should lead their observer to perceive the maker."
+        ],
+        "after": [
+          "strong",
+          "tevrat",
+          "motif",
+          "Wisdom of Solomon 13:3",
+          "beauty points beyond itself",
+          "The commentary says the worlds are signs that show their Lord; Wisdom argues that the beauty of created things should lead their observer to perceive the maker."
+        ],
+        "reason": "Wisdom is not contained in WLC. Retain a named-work candidate; original Greek witness remains unavailable. KJV is only a finding aid, not evidence for acceptance."
+      },
+      {
+        "line": 24,
+        "before": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Wis.13.5",
+          "greatness of creatures",
+          "The commentary treats the whole creation as a field of divine signs; Wisdom says the greatness and beauty of creatures give a proportionate way to perceive their creator."
+        ],
+        "after": [
+          "strong",
+          "tevrat",
+          "motif",
+          "Wisdom of Solomon 13:5",
+          "greatness of creatures",
+          "The commentary treats the whole creation as a field of divine signs; Wisdom says the greatness and beauty of creatures give a proportionate way to perceive their creator."
+        ],
+        "reason": "Wisdom is not contained in WLC. Retain a named-work candidate; original Greek witness remains unavailable. KJV is only a finding aid, not evidence for acceptance."
+      }
+    ],
+    "model_calls": 0,
+    "artifacts": {
+      "turn1.original.tsv": "35fddec10fb7f2927c61ad88ab80093846e9ad63153e3d03bc6e83b8b0ff1eb6",
+      "turn1.validation.failed.json": "ff0269cf8bec1e8933f921e6b09f945c7f43d0bf3b0d88e8c5565837c179e9c7",
+      "turn1.tool_calls.json": "f66d4eb96865af5d150ce5747980e7e720a5f592c6a2e2f6cabaf3d9cb0f9202",
+      "turn1.repair.proposed.json": "623e8004a05fd7aea38916dfecc65712345da284a5732ffe8979252b7c54cab7",
+      "turn1.repair.proposed.tsv": "a0a043cf3ee5ef4ed85e95a1e7ba7429afe5d2e57f848c18e1c1c7484a7d96ee",
+      "turn1.accepted.tsv": "a0a043cf3ee5ef4ed85e95a1e7ba7429afe5d2e57f848c18e1c1c7484a7d96ee"
+    }
+  },
+  "repair": {
+    "approval": "2026-10-05 user reply: Apply all 15 recorded follow-up corrections. Exact bundle: enrichment/bible/audits/pilot1-20261005/followup-repairs.proposed.json",
+    "accepted_at": "2026-10-05T16:04:04.176678+00:00",
+    "changes": [
+      {
+        "line": 21,
+        "before": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Wis.11.24",
+          "God loves all that exists",
+          "The commentary says the Lord's care extends to all created kinds; Wisdom says God loves everything that exists and would not have made anything he hated."
+        ],
+        "after": [
+          "strong",
+          "tevrat",
+          "motif",
+          "Wisdom of Solomon 11:24",
+          "God loves all that exists",
+          "The commentary says the Lord's care extends to all created kinds; Wisdom says God loves everything that exists and would not have made anything he hated."
+        ],
+        "reason": "Wisdom is not contained in WLC. Retain a named-work candidate with the original Greek witness unavailable. KJV only helps identify the remembered passage; it cannot verify the connection."
+      },
+      {
+        "line": 22,
+        "before": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Wis.11.26",
+          "all things are God's",
+          "The commentary calls God Rabb of all worlds; Wisdom says God spares all things because they are his and names him lover of life."
+        ],
+        "after": [
+          "strong",
+          "tevrat",
+          "motif",
+          "Wisdom of Solomon 11:26",
+          "all things are God's",
+          "The commentary calls God Rabb of all worlds; Wisdom says God spares all things because they are his and names him lover of life."
+        ],
+        "reason": "Wisdom is not contained in WLC. Retain a named-work candidate with the original Greek witness unavailable. KJV only helps identify the remembered passage; it cannot verify the connection."
+      }
+    ],
+    "raw_sha256": "ababe5114395b18f24fa86d42642d929bdc394308b4710351286ea904d7edd23",
+    "accepted_sha256": "beff3dfacc78430479d75618ec9ea0065c44b13fc864b837b1c9091944ee8a40",
+    "proposal_sha256": "223ab8d9ca05623b38e4addfbca168340b5430ce450b05e9b74dcb4d8bd5feb5",
+    "failed_log_sha256": "5a4b254631adb969e968b6d7769ba29880ea799ae9d171958736b7e948675fae",
+    "model_calls": 0,
+    "policy": "Raw proposals, failed validation and failed log preserved; no regrading."
+  }
+}

@@ -1,0 +1,3097 @@
+{
+  "target": "sec14",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md",
+  "base_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/quran.json": "e41e9f866cc96a3aabb7e7261eaa67ce3ed05240642cc8f9fc58f7d1ed40bb40",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/pack.json": "e73af12590027cc99bcacb8f265c254315f6220f3b9b4297fdea1625243c0599"
+  },
+  "started": "2026-10-05T11:06:56.565675-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_pilot1_20261005_sec14_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "pilot1-20261005",
+  "prompt_sha256": "8917f2cd77276976b0936b84a866ec7d309e73a26335d7aa8ae9a4f9d5e12865",
+  "package_sha256": "92a715cdde97bce18287c42097a5a4c82fe346ed8648e771382ac2dde58d1b8a",
+  "input_sha256": "f0b91568688f2cc4fc012395f2fa49161fc114e2dd08298d785c725acb52c60e",
+  "spawn_sha256": "15d97c7143efc2ac9dd60d7d0b404c4a9f74849a2f84aaef994e337a09b0adf5",
+  "followup_text_sha256": "ceea82e2c57141867e69f852487f71e20d092aa61f4137627abe58281ff7c47a",
+  "agent_id": "01a10c9f-92ac-7fd3-83c3-a4ad3b714d1b",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T11-12-26-01a10c9f-92ac-7fd3-83c3-a4ad3b714d1b.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 167,
+  "turn1_sha256": "4b7a4eb098b04bf6919331584ba1c99dbbfaf472d86d3d13c569307f9c47bfe3",
+  "turn2": {
+    "completed": true,
+    "rows_total": 226,
+    "rows_added": 59
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 167,
+    "raw_proposal_rows": 59,
+    "unique_additions": 59,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.10.12",
+          "basis": "Arabic naʿbudu; Hebrew ʿābad",
+          "note": "The source commentary joins worship with walking a road; Hebrew ʿābad, cognate with the source's Arabic ʿ-b-d form, is placed beside walking in YHWH's ways."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.10.12",
+          "basis": "Serving and walking in God's ways",
+          "note": "Moses' appeal puts serving YHWH beside loving him and walking in his ways, matching the commentary's fusion of the Fatiha's worshipper with the straight path."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.4.10",
+          "basis": "Worship and serve God alone",
+          "note": "Jesus refuses Satan's offer by saying worship belongs to God and service to God alone; this gives the commentary's freely chosen service a precise scriptural formulation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.9",
+          "basis": "Prayer opens with God's name",
+          "note": "The Lord's Prayer addresses the heavenly Father and asks that his name be hallowed, a close liturgical meeting with the Fatiha's opening invocation of God's name."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.10",
+          "basis": "Kingdom and divine will",
+          "note": "The prayer asks that God's kingdom come and his will be done, placing divine rule before the ensuing human petitions as the Fatiha places praise and lordship before its request for guidance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.11",
+          "basis": "Daily provision",
+          "note": "The petition for daily bread gives a concrete counterpart to the commentary's picture of the needy traveler asking the Lord for help and provision."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.12",
+          "basis": "Debt and forgiveness",
+          "note": "The prayer asks God to forgive debts as worshippers forgive debtors, bringing the commentary's day of repayment and its debt imagery into a prayer of dependence on mercy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.13",
+          "basis": "Guidance away from trial and evil",
+          "note": "The prayer asks not to be led into trial and to be rescued from evil, a specific negative counterpart to the Fatiha's request to be led on the straight path and kept from its failed routes."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.25.4",
+          "basis": "Show me your paths",
+          "note": "The psalmist asks God to make his ways known, matching the Fatiha's direct request for guidance and the commentary's road imagery."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.25.5",
+          "basis": "Lead me in your truth",
+          "note": "The speaker asks God to lead him and teach him, grounding the commentary's image of a traveler who needs a guide in a first-person prayer."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.25.6",
+          "basis": "Remember your compassion",
+          "note": "The psalm asks God to remember his mercy, linking the commentary's joining of mercy with the request for a way under divine care."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.25.7",
+          "basis": "Mercy despite former sin",
+          "note": "The speaker asks that God's mercy, rather than remembered youthful sins, govern his answer; this joins guidance with mercy as in the commentary's favored and lost paths."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.25.8",
+          "basis": "The good God teaches sinners",
+          "note": "God's goodness and uprightness lead him to teach sinners the way, a specific meeting of mercy, moral direction, and the path requested in the Fatiha."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.25.9",
+          "basis": "The humble are taught the way",
+          "note": "God guides the humble in justice and teaches them his way, matching the commentary's dependent traveler and a road learned from a guide."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.25.10",
+          "basis": "Paths marked by mercy and truth",
+          "note": "The psalm calls all YHWH's paths steadfast love and faithfulness for covenant keepers, joining a path to divine favor rather than treating it as mere geography."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.86.11",
+          "basis": "Teach me your way; unite my heart",
+          "note": "The speaker asks to walk in God's truth and fear his name with an undivided heart, combining the commentary's path, God's name, and exclusive worship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.121.1",
+          "basis": "A traveler's question about help",
+          "note": "The pilgrim looks to the hills and asks where help will come from, closely echoing the Fatiha's tired traveler's request for help."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.121.2",
+          "basis": "Help from the creator",
+          "note": "The answer locates help in YHWH, maker of heaven and earth, joining the commentary's help petition to its praise of the Lord of all realms."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.100.3",
+          "basis": "Creator, owner, and flock",
+          "note": "The psalm says YHWH made the people and that they are his people and flock; this closely meets the commentary's move from Lordship to owned worshippers and a guided herd."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.100.4",
+          "basis": "Thanksgiving at the gates",
+          "note": "The worshippers enter God's gates with thanksgiving and praise, a liturgical path toward the divine house that complements the commentary's praise and destination-house imagery."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.34.6",
+          "basis": "Merciful and gracious divine name",
+          "note": "YHWH proclaims himself compassionate, gracious, and abundant in steadfast love; the paired mercy language is a close scriptural counterpart to the Fatiha's repeated merciful names."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.34.7",
+          "basis": "Mercy that forgives wrongdoing",
+          "note": "The continuation specifies forgiveness alongside accountability for wrongdoing, joining the commentary's mercy with its account of judgment and repayment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.1",
+          "basis": "Praise blesses God's name",
+          "note": "The psalmist commands his soul to bless YHWH's holy name, matching the commentary's opening movement from the named Lord to praise."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.2",
+          "basis": "Praise before benefits are recounted",
+          "note": "The speaker says not to forget God's benefits immediately after praising him, echoing the commentary's observation that praise comes before the gifts are named."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.3",
+          "basis": "Forgiveness and healing",
+          "note": "The benefits named are forgiveness and healing, giving content to the commentary's claim that divine mercy completes the good received from the Lord."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.4",
+          "basis": "Love crowns the recipient",
+          "note": "God crowns the worshipper with steadfast love and compassion, connecting the commentary's blessing-completed-by-mercy image to a concrete praise text."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.5",
+          "basis": "Renewed strength and provision",
+          "note": "The psalm says God satisfies the worshipper with good and renews life, a specific image of divine nurture after praise."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.8",
+          "basis": "Compassionate and gracious Lord",
+          "note": "This reprise of YHWH's merciful attributes closely matches the Fatiha's mercy names and the commentary's emphasis on God's completed care."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.19",
+          "basis": "The Lord's throne over all",
+          "note": "YHWH establishes his throne in heaven and rules over all, directly complementing the commentary's Lord of all worlds and master of the judgment day."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.20",
+          "basis": "Heavenly servants bless the Lord",
+          "note": "The psalm calls powerful heavenly servants to obey God's word and bless him, extending praise beyond the human petitioner to the created order."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.103.22",
+          "basis": "All creation praises its ruler",
+          "note": "The closing call to all God's works to bless him matches the commentary's universal Lordship and praise before any specific benefit is named."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.49.15",
+          "basis": "Arabic raḥīm; Hebrew reḥem and raḥam",
+          "note": "The source commentary links raḥīm with the womb; Hebrew uses the cognate r-ḥ-m family in this verse for both a mother's womb and compassion for its child, making the image of mercy bodily and relational."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Num.6.27",
+          "basis": "Arabic ism; Hebrew šēm",
+          "note": "The commentary reads the surah's opening name as an identifying sign; this verse says God's name is placed upon Israel in blessing, a concrete use of the cognate name-word as belonging and blessing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.96.10",
+          "basis": "Arabic mālik; Hebrew m-l-k",
+          "note": "The source calls God master of the judgment day; the Hebrew m-l-k root here says YHWH reigns and judges peoples with equity, joining kingship to judgment in its own setting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Dan.7.10",
+          "basis": "Arabic dīn; Aramaic dīnā",
+          "note": "The source commentary connects yawm al-dīn with settlement and judgment; Daniel's Aramaic cognate dīnā names the court session in which books are opened."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Ps.1.5",
+          "basis": "Arabic qāma; Hebrew q-w-m",
+          "note": "The commentary joins a standing balance to people standing on judgment day; the Hebrew cognate q-w-m says the wicked will not stand in the judgment assembly."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Dan.7.14",
+          "basis": "Arabic malik; Aramaic malkā",
+          "note": "The source's malik names rule over the day; Daniel uses the Aramaic cognate malkā for the dominion given to the humanlike figure, whose rule includes peoples and nations."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "soydas",
+          "ref": "SBLGNT:John.3.16",
+          "basis": "Arabic ʿālamīn; Syriac ʿālmā",
+          "note": "The source's “worlds” and the Syriac cognate ʿālmā meet in the Peshitta's statement that God loved the world, linking divine lordship to the world as the object of God's care."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "Sirach 42:3",
+          "basis": "Keeping accounts with a partner",
+          "note": "Sirach treats keeping accounts with a partner as a matter of honest conduct, directly meeting the commentary's debt record and witness imagery."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "Sirach 42:4",
+          "basis": "Accuracy in scales and weights",
+          "note": "Sirach names exact scales and weights, a concrete counterpart to the commentary's balance, upright measure, and final judgment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "Sirach 42:7",
+          "basis": "Numbered giving and receiving",
+          "note": "Sirach instructs that stored goods and transactions be counted, joining the commentary's written debt, due date, and fear of an error in the record."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Jer.32.10",
+          "basis": "A witnessed transaction is written",
+          "note": "Jeremiah writes and seals the deed of purchase and obtains witnesses, matching the commentary's concern with a debt or transaction made stable through proper writing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Jer.32.11",
+          "basis": "Open and sealed copies",
+          "note": "The purchase deed exists in both sealed and open forms, a specific legal record parallel to the commentary's account of writing and witnesses."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Jer.32.12",
+          "basis": "Witnesses see the deed",
+          "note": "The deed is handed to Baruch in the presence of witnesses, echoing the commentary's emphasis on a witness in a recorded obligation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Jer.32.14",
+          "basis": "Preserve the record for later proof",
+          "note": "The deeds are stored so they may last many days, giving a concrete scriptural purpose for accurate records beyond the immediate transaction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.5",
+          "basis": "Debtors called to account",
+          "note": "The steward summons debtors and asks the amount owed, a direct scene of accounts being settled that clarifies the commentary's debt imagery."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Luke.16.6",
+          "basis": "A debt is reduced in writing",
+          "note": "The manager tells a debtor to alter the written amount, turning the commentary's upright, witnessed debt record into a deliberate manipulation within Jesus' parable."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Luke.16.7",
+          "basis": "Another debt is rewritten",
+          "note": "A second written obligation is reduced as well; the parable's manager uses debt documents for advantage, a concrete counter-scene to the commentary's just record and balance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.11.1",
+          "basis": "Honest weights please YHWH",
+          "note": "The proverb says false scales are detestable to YHWH but accurate weights please him, directly joining the commentary's balance image to divine judgment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Amos.8.4",
+          "basis": "The poor are crushed by merchants",
+          "note": "Amos condemns sellers who trample the needy, giving the commentary's fraudulent-weigher scene its concrete victims."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Amos.8.5",
+          "basis": "False measures and dishonest scales",
+          "note": "The merchants make the measure small and the shekel large, a direct account of the crooked balance image developed by the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Amos.8.6",
+          "basis": "The poor are bought for debt",
+          "note": "Amos says the poor are bought for silver and the needy for the price of sandals, tying dishonest trade to debt and coerced servitude."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Amos.8.7",
+          "basis": "YHWH remembers the injustice",
+          "note": "YHWH swears not to forget the merchants' deeds, making the cheating in measures answerable to divine judgment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.7.10",
+          "basis": "Court sits and books open",
+          "note": "Daniel depicts a heavenly court with books opened, a close image for the commentary's day of repayment, scales, and people called to account."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.12.2",
+          "basis": "Resurrection to life or contempt",
+          "note": "Daniel says the dead awaken to everlasting life or shame, a specific judgment-day division that adds consequence to the Fatiha's contrasting destinations."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.12.3",
+          "basis": "The wise shine like the sky",
+          "note": "The wise shine like the brightness of the firmament after the resurrection, matching the commentary's radiant face on one side of the judgment scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Joel.3.4",
+          "basis": "The dreadful day of YHWH",
+          "note": "The sun and moon darken before the great day of YHWH, a concrete “day of God” judgment image for the commentary's days of punishment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Joel.3.5",
+          "basis": "Rescue for those who call on YHWH",
+          "note": "The same oracle promises deliverance to those who call on YHWH, giving the day both judgment and rescue as in the commentary's paired punishment and forgiveness."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "Mishnah Rosh Hashanah 1:2",
+          "basis": "People pass before God like a flock",
+          "note": "The Mishnah says all humanity passes before God on the New Year like sheep, uniting the commentary's judgment day and herd imagery in a single Jewish liturgical account."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.25.31",
+          "basis": "The Son of Man comes to judge",
+          "note": "The Son of Man sits on his glorious throne, making this a direct scene of the judgment day named in the Fatiha."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.25.32",
+          "basis": "The nations are separated like a flock",
+          "note": "The judge separates people as a shepherd separates sheep from goats, matching the commentary's meeting of judgment, herd, and divided outcomes."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.25.33",
+          "basis": "Sheep on the right, goats on the left",
+          "note": "The placement of two groups on opposite sides gives a concrete parallel to the commentary's blessed, wrathful, and lost groups."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.25.34",
+          "basis": "The king blesses and invites inheritance",
+          "note": "The king calls the blessed to inherit what was prepared for them, joining divine kingship, favor, and final recompense."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.25.40",
+          "basis": "Mercy toward the needy is service to the king",
+          "note": "The king identifies care for the least with care for himself, giving a specific ethical meaning to the commentary's freely offered service."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.25.41",
+          "basis": "The other group departs under a curse",
+          "note": "The condemned are sent away from the king, a counter-destination to the blessed path and welcome described in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.25.46",
+          "basis": "Two final destinations",
+          "note": "The passage ends with punishment for one group and life for the other, a direct counterpart to the commentary's divided outcomes on the judgment day."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.28.3",
+          "basis": "Blessing accompanies the community's way",
+          "note": "The covenant blessing reaches the people in their city and field, giving a concrete communal form to the Fatiha's request for the path of those favored."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.28.15",
+          "basis": "Refusing to heed brings a curse",
+          "note": "The counterpart covenant warning makes disobedience lead to a curse, a specific relation between a community's conduct and the commentary's images of favor and wrath."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.4.18",
+          "basis": "The righteous path grows brighter",
+          "note": "The just person's path is dawn light growing brighter, closely matching the commentary's upright walking on a straight path."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.4.19",
+          "basis": "The wicked stumble in darkness",
+          "note": "The wicked walk in darkness and do not know what makes them stumble, a precise parallel to the commentary's lost traveler and fallen person under wrath."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.13",
+          "basis": "The broad way ends in destruction",
+          "note": "Jesus contrasts a broad road and gate leading to destruction with the narrow entrance, giving a concrete two-way choice for the commentary's path and its failures."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.14",
+          "basis": "The narrow way leads to life",
+          "note": "The difficult road leads to life and is found by few, joining path, guidance, and destination in Jesus' own teaching."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.30.21",
+          "basis": "A voice identifies the road to walk",
+          "note": "The hearer is told “this is the way, walk in it” when turning aside, directly matching the commentary's traveler who asks for a guide and straight route."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.13.21",
+          "basis": "God goes before the travelers",
+          "note": "YHWH leads Israel by cloud and fire on the way, a specific counterpart to the guide walking ahead of a traveler and the leader of a herd."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.23.1",
+          "basis": "YHWH is shepherd and provider",
+          "note": "The psalm calls YHWH the shepherd of the speaker and says he lacks nothing, matching the commentary's move from Lordship to the cared-for flock."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.23.2",
+          "basis": "The shepherd gives rest by water",
+          "note": "The flock is made to lie down in green pastures and led beside waters, combining the commentary's herd, water, and traveler's rest."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.23.3",
+          "basis": "The shepherd leads on right paths",
+          "note": "God restores the soul and leads it on right paths, directly joining the commentary's guide, herd leader, and straight way."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.4",
+          "basis": "The path crosses a threatening valley",
+          "note": "The speaker walks through a dark valley without fear because God is with him, a concrete image of the dependent traveler who needs help along the road."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.5",
+          "basis": "A table prepared before enemies",
+          "note": "God provides a table in the presence of enemies, a specific image of nurture and favor amid threat."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.6",
+          "basis": "The road ends in the Lord's house",
+          "note": "The speaker expects to dwell in YHWH's house, joining the commentary's path to a destination home under the owner's care."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 81,
+        "row": {
+          "line": 81,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.78.52",
+          "basis": "God leads Israel like sheep",
+          "note": "God brings his people out like a flock and leads them through the wilderness, directly matching the commentary's guide at the head of the herd."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 82,
+        "row": {
+          "line": 82,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.78.53",
+          "basis": "The flock is led safely",
+          "note": "The people are led securely while their enemies are overwhelmed, adding safety on the road to the commentary's request for guidance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 83,
+        "row": {
+          "line": 83,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.11",
+          "basis": "The Lord gathers and leads his flock",
+          "note": "The shepherd gathers lambs, carries them, and gently leads nursing ewes, a precise image of divine guidance shaped as care for a herd."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 84,
+        "row": {
+          "line": 84,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.34.11",
+          "basis": "YHWH himself seeks his sheep",
+          "note": "God says he will search for and seek his sheep, directly answering the commentary's final image of an animal separated from its owner."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 85,
+        "row": {
+          "line": 85,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.34.12",
+          "basis": "The scattered sheep are rescued",
+          "note": "YHWH rescues his flock from the places where it was scattered, giving a specific counterpart to the lost animal whose trace has vanished."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 86,
+        "row": {
+          "line": 86,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.34.15",
+          "basis": "The shepherd makes the flock lie down",
+          "note": "YHWH says he will feed his sheep and make them lie down, bringing herd, nourishment, and rest together."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 87,
+        "row": {
+          "line": 87,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.34.16",
+          "basis": "The lost and strayed are brought back",
+          "note": "God seeks the lost and brings back the strayed, a direct reversal of the commentary's animal that does not know its owner or route home."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 88,
+        "row": {
+          "line": 88,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.10.3",
+          "basis": "The shepherd calls sheep by name",
+          "note": "The shepherd calls his own sheep by name and leads them out, linking the commentary's name, ownership, and guide images."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 89,
+        "row": {
+          "line": 89,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.10.4",
+          "basis": "The flock follows the known shepherd",
+          "note": "The shepherd goes ahead and the sheep follow because they know his voice, closely matching the commentary's leader at the front of a guided herd."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 90,
+        "row": {
+          "line": 90,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.10.14",
+          "basis": "The shepherd knows his own",
+          "note": "Jesus says he knows his own sheep and they know him, reversing the commentary's final picture of an animal whose owner is unknown."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 91,
+        "row": {
+          "line": 91,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.15.4",
+          "basis": "The owner searches for one lost sheep",
+          "note": "The shepherd leaves the ninety-nine to seek the lost one, making the lost animal's relation to its owner the center of Jesus' parable."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 92,
+        "row": {
+          "line": 92,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.15.5",
+          "basis": "The lost sheep is carried home",
+          "note": "The shepherd puts the found sheep on his shoulders, a concrete rescue and return that reverses the commentary's animal wandering without a known owner."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 93,
+        "row": {
+          "line": 93,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.15.6",
+          "basis": "The recovery becomes shared joy",
+          "note": "The shepherd calls friends to rejoice over the found sheep, giving the lost animal a known owner and restored community."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 94,
+        "row": {
+          "line": 94,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.15.7",
+          "basis": "Joy over repentance",
+          "note": "Jesus interprets the sheep as a sinner who repents, making the recovery a moral return to God rather than a mere animal story."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 95,
+        "row": {
+          "line": 95,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.18.12",
+          "basis": "A shepherd seeks the strayed one",
+          "note": "Jesus asks whether a shepherd would not seek a sheep that strayed, echoing the commentary's last image of an animal lost from its owner."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 96,
+        "row": {
+          "line": 96,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.18.13",
+          "basis": "Joy when the strayed sheep is found",
+          "note": "The shepherd rejoices over the recovered sheep, emphasizing the owner's active care that contrasts with the commentary's unrecognized master."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 97,
+        "row": {
+          "line": 97,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.7.17",
+          "basis": "The Lamb shepherds to living water",
+          "note": "The Lamb leads the multitude to springs of living water and God wipes away tears, uniting the commentary's herd, guide, water, and final relief in an eschatological scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 98,
+        "row": {
+          "line": 98,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.84.5",
+          "basis": "Pilgrims set their hearts on highways to Zion",
+          "note": "The blessed traveler has highways in the heart and goes toward God, a close image for the commentary's community traveling toward a house."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 99,
+        "row": {
+          "line": 99,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.84.6",
+          "basis": "The valley becomes a place of springs",
+          "note": "Pilgrims pass through a dry valley that becomes a spring, joining road and water as in the commentary's well scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 100,
+        "row": {
+          "line": 100,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.84.7",
+          "basis": "The pilgrims arrive before God",
+          "note": "The travelers go from strength to strength until each appears before God in Zion, giving the commentary's path a worshipful destination."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 101,
+        "row": {
+          "line": 101,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.2.10",
+          "basis": "Moses is raised in Pharaoh's house",
+          "note": "Pharaoh's daughter takes Moses as her son after rescuing him, the narrative behind the later claim of royal rearing that the commentary sets against the true Lord's gift."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 102,
+        "row": {
+          "line": 102,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Exod.2.10",
+          "basis": "The princess, not Pharaoh, raises Moses",
+          "note": "The Torah names Pharaoh's daughter as the one who adopts and raises Moses; the Qur'anic exchange instead gives Pharaoh the claim “we raised you,” then answers it with the real Lord's gifts, making attribution of nurture the difference."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 103,
+        "row": {
+          "line": 103,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.2.15",
+          "basis": "Moses flees Pharaoh to Midian",
+          "note": "The threatened Moses escapes Pharaoh and reaches Midian, matching the commentary's transition from royal upbringing and forced power to the Midian journey."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 104,
+        "row": {
+          "line": 104,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.2.16",
+          "basis": "A well and shepherding daughters",
+          "note": "Jethro's daughters come to draw water for their father's flock, placing the well, water, and herd at the center of Moses' Midian scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 105,
+        "row": {
+          "line": 105,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.2.17",
+          "basis": "Moses helps the women water the flock",
+          "note": "Moses stands up for the women and waters their flock, closely matching the commentary's Moses helping others at the well before resting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 106,
+        "row": {
+          "line": 106,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.2.18",
+          "basis": "The women return to their father",
+          "note": "The daughters report their encounter to Reuel, carrying the well scene into a household that receives Moses."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 107,
+        "row": {
+          "line": 107,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.2.19",
+          "basis": "Moses is remembered as a rescuer and water-drawer",
+          "note": "The women describe an Egyptian who rescued them and drew water, matching the commentary's specific action of helping at the well."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 108,
+        "row": {
+          "line": 108,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.2.20",
+          "basis": "Hospitality follows the well encounter",
+          "note": "Reuel asks why the daughters left the man behind and invites him to eat, linking the journey and water scene to welcome at a house."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 109,
+        "row": {
+          "line": 109,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.2.21",
+          "basis": "Moses stays in Midian",
+          "note": "Moses consents to dwell with Reuel, an arrival and household destination after the road and well."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 110,
+        "row": {
+          "line": 110,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.3.10",
+          "basis": "God sends Moses back to Pharaoh",
+          "note": "The God who sees Israel's oppression sends Moses to bring the people out, matching the commentary's contrast between Pharaoh's coercive claim and the true Lord's commission."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 111,
+        "row": {
+          "line": 111,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.3.12",
+          "basis": "Freedom's purpose is service to God",
+          "note": "God promises that after the exodus the people will serve him at this mountain, a direct answer to the commentary's contrast between forced slavery and freely chosen worship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 112,
+        "row": {
+          "line": 112,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.4.23",
+          "basis": "The enslaved son is released to serve YHWH",
+          "note": "Moses must tell Pharaoh to let God's son go so that he may serve God, joining coerced enslavement, divine parenthood, and worship in one claim."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 113,
+        "row": {
+          "line": 113,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Acts.7.21",
+          "basis": "Moses is adopted as Pharaoh's daughter’s son",
+          "note": "Stephen retells the adoption by Pharaoh's daughter, confirming the Torah's detail while the Qur'anic retelling shifts Pharaoh himself into the speaker who claims to have raised Moses."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 114,
+        "row": {
+          "line": 114,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Acts.7.22",
+          "basis": "Moses learns Egyptian wisdom",
+          "note": "Stephen says Moses was educated in Egyptian wisdom and became powerful in words and deeds, a concrete counterpart to the commentary's claim that the true Lord gives Moses judgment and messenger authority."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 115,
+        "row": {
+          "line": 115,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Acts.7.23",
+          "basis": "Moses turns toward his oppressed kin",
+          "note": "At forty Moses visits his Israelite brothers, matching the commentary's movement from palace upbringing to the enslaved people he identifies with."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 116,
+        "row": {
+          "line": 116,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Acts.7.24",
+          "basis": "Moses sees an Israelite being wronged",
+          "note": "Moses defends the oppressed man, giving the royal-raised Moses' first decisive action for his enslaved people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 117,
+        "row": {
+          "line": 117,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Acts.7.29",
+          "basis": "Moses escapes to Midian",
+          "note": "Stephen says Moses fled and became a resident alien in Midian, matching the commentary's move from Pharaoh's palace to the well journey."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 118,
+        "row": {
+          "line": 118,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Acts.7.34",
+          "basis": "God sees the people's oppression and sends Moses",
+          "note": "The Lord says he has seen Israel's suffering and sends Moses to deliver them, matching the commentary's contrast between Pharaoh's boast and the real Lord's action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 119,
+        "row": {
+          "line": 119,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Acts.7.35",
+          "basis": "The rejected Moses becomes ruler and deliverer",
+          "note": "Stephen says God sent as ruler and deliverer the very Moses whom Israel rejected, a precise reversal of Pharaoh's claimed benefaction and a strong instance of the commentary's true-Rab contrast."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 120,
+        "row": {
+          "line": 120,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.11.24",
+          "basis": "Moses refuses the royal identity",
+          "note": "Moses refuses to be called Pharaoh's daughter's son, directly meeting the commentary's contrast between palace upbringing and voluntary belonging to God's people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 121,
+        "row": {
+          "line": 121,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.11.25",
+          "basis": "He chooses hardship with God's people",
+          "note": "Moses chooses mistreatment with the people of God over temporary pleasure, a specific counterpart to the commentary's enslaved people and willing servant."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 122,
+        "row": {
+          "line": 122,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.11.26",
+          "basis": "He values reproach above Egypt's wealth",
+          "note": "Moses regards disgrace for God's anointed one as greater wealth than Egypt's treasure, clarifying why royal nurture does not define his allegiance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 123,
+        "row": {
+          "line": 123,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Exodus Rabbah 2:2",
+          "basis": "Moses is tested as a shepherd",
+          "note": "The midrash says Moses' care for a lamb at the well proves his fitness to shepherd Israel; it turns the Midian watering episode into the qualification of the future guide of a people."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 124,
+        "row": {
+          "line": 124,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.24.12",
+          "basis": "A traveler asks God to guide his journey",
+          "note": "Abraham's servant asks the Lord to grant success and steadfast love during his search, closely matching the commentary's dependent traveler asking for a guided road."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 125,
+        "row": {
+          "line": 125,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.24.14",
+          "basis": "A sign at the well identifies the right encounter",
+          "note": "The servant asks for a sign involving water for himself and the camels, meeting the commentary's connection of guidance, a sign, and a herd at a well."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 126,
+        "row": {
+          "line": 126,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.24.17",
+          "basis": "The traveler asks for water",
+          "note": "The servant asks Rebekah for a drink at the well, continuing the journey's concrete need for water."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 127,
+        "row": {
+          "line": 127,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.24.19",
+          "basis": "Rebekah offers water to the camels",
+          "note": "She draws water until the camels have finished drinking, joining the well to care for the traveler's herd."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 128,
+        "row": {
+          "line": 128,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.24.27",
+          "basis": "The Lord has led the servant to the household",
+          "note": "The servant blesses YHWH for leading him on the way to his master's kin, explicitly joining guidance, route, and arrival at a household."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 129,
+        "row": {
+          "line": 129,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.24.48",
+          "basis": "The servant blesses God for the right way",
+          "note": "He says YHWH led him on the right way to find the daughter for Isaac, a close narrative counterpart to asking for the straight path."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 130,
+        "row": {
+          "line": 130,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.29.2",
+          "basis": "Jacob arrives at a well with flocks",
+          "note": "Jacob sees a well with three flocks beside it, joining a traveler, water source, and herd as in the commentary's Midian scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 131,
+        "row": {
+          "line": 131,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.29.6",
+          "basis": "Rachel approaches with her father's flock",
+          "note": "The traveler learns that Rachel is coming with the sheep, a specific meeting of person, herd, and well."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 132,
+        "row": {
+          "line": 132,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.29.9",
+          "basis": "Rachel brings the flock to the well",
+          "note": "Rachel is a shepherdess arriving as Jacob speaks, making the well scene a meeting place for a journey and a herd."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 133,
+        "row": {
+          "line": 133,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.29.10",
+          "basis": "Jacob waters Rachel's flock",
+          "note": "Jacob rolls away the stone and waters the flock, closely matching Moses' action of watering women’s animals at Midian."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 134,
+        "row": {
+          "line": 134,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.28.15",
+          "basis": "God promises to guard Jacob on the journey",
+          "note": "God promises to be with Jacob, guard him wherever he goes, and bring him back, a specific promise to a traveler asking for a safe route and return."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 135,
+        "row": {
+          "line": 135,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.28.17",
+          "basis": "The destination is called God's house",
+          "note": "Jacob calls the place the house of God and heaven's gate, giving the commentary's path-to-house image a concrete patriarchal setting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 136,
+        "row": {
+          "line": 136,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.28.20",
+          "basis": "A traveler asks for food, clothing, and safe return",
+          "note": "Jacob's vow asks for divine presence and provision until he returns to his father's house, joining guidance, sustenance, and destination."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 137,
+        "row": {
+          "line": 137,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.28.22",
+          "basis": "The house becomes a place of worship",
+          "note": "Jacob vows that the stone will be God's house and that he will give a tenth, turning arrival into service and worship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 138,
+        "row": {
+          "line": 138,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.14.19",
+          "basis": "God Most High is creator of heaven and earth",
+          "note": "Melchizedek blesses Abram by God Most High, maker of heaven and earth, giving concrete language for the commentary's Lord of all worlds."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 139,
+        "row": {
+          "line": 139,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.14.20",
+          "basis": "Abram blesses the Most High",
+          "note": "Abram blesses God Most High after rescue, meeting the Fatiha's praise of the Lord in a scene where God's help is named."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 140,
+        "row": {
+          "line": 140,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.14.22",
+          "basis": "Abram identifies YHWH as creator of heaven and earth",
+          "note": "Abram calls YHWH God Most High and maker of heaven and earth, a direct creator-and-owner claim in his own speech."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 141,
+        "row": {
+          "line": 141,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Gen.15.5",
+          "basis": "Stars mark a promise, not a deity",
+          "note": "God brings Abram outside to count the stars as a sign of his descendants; unlike the commentary's astral worshippers, the stars here point beyond themselves to the promise-giver."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 142,
+        "row": {
+          "line": 142,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.4.19",
+          "basis": "Luminaries are not to be worshipped",
+          "note": "Deuteronomy names sun, moon, and stars as created lights allotted to peoples and forbids worshipping them, matching the commentary's distinction between a sign and what it signifies."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 143,
+        "row": {
+          "line": 143,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "Wisdom of Solomon 13:1",
+          "basis": "People fail to recognize the creator",
+          "note": "Wisdom says people who observe the world did not recognize its maker, the same error the commentary assigns to worshippers who take a rising sign for the Lord."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 144,
+        "row": {
+          "line": 144,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "Wisdom of Solomon 13:2",
+          "basis": "They treat created lights as gods",
+          "note": "The text names fire, wind, stars, and lights of heaven as things mistakenly taken for gods, closely matching the commentary's star, moon, and sun scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 145,
+        "row": {
+          "line": 145,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "Wisdom of Solomon 13:5",
+          "basis": "Creation's greatness points to its maker",
+          "note": "Wisdom argues that the beauty and power of created things should lead observers to their maker, exactly the sign-versus-signified distinction in the commentary."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 146,
+        "row": {
+          "line": 146,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "Wisdom of Solomon 13:7",
+          "basis": "Searching creation should lead to its Lord",
+          "note": "The people investigate created things but are captivated by their appearance; this explains the commentary's claim that the worshippers stop at the sign."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 147,
+        "row": {
+          "line": 147,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "Wisdom of Solomon 13:8",
+          "basis": "Ignorance is not excused",
+          "note": "Wisdom says such people remain blameworthy, giving moral force to the commentary's contrast between a sign and worship of the created object."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 148,
+        "row": {
+          "line": 148,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "Wisdom of Solomon 13:9",
+          "basis": "They should have found the Lord sooner",
+          "note": "Those who can investigate the world should have been able to find its Lord, closely matching the commentary's lostness when a sign is mistaken for its owner."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 149,
+        "row": {
+          "line": 149,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rom.1.21",
+          "basis": "Knowing God but failing to honor him",
+          "note": "Paul says people knew God yet did not glorify or thank him, matching the commentary's astral worshippers who encounter signs but fail to direct praise to their source."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 150,
+        "row": {
+          "line": 150,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rom.1.22",
+          "basis": "Claimed wisdom becomes foolishness",
+          "note": "Paul says those who claim wisdom became fools, a pointed counterpart to the commentary's people who misread the heavens and lose the way."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 151,
+        "row": {
+          "line": 151,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rom.1.23",
+          "basis": "The creator's glory is exchanged for images",
+          "note": "Paul describes exchanging God's glory for images of created beings, directly matching the commentary's distinction between a sign and the divine reality it points toward."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 152,
+        "row": {
+          "line": 152,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rom.1.25",
+          "basis": "The creature is worshipped instead of the creator",
+          "note": "Paul's explicit contrast between creator and creature matches the commentary's claim that sun-worshippers confuse the sign with the one signified."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 153,
+        "row": {
+          "line": 153,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Genesis Rabbah 39:1",
+          "basis": "The world is a palace with an owner",
+          "note": "The midrash pictures Abraham seeing a palace on fire and asking whether it can lack an owner; God reveals himself as the master. It interprets creation as a sign that directs the seeker to its owner, close to the commentary's night-sky lesson."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 154,
+        "row": {
+          "line": 154,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.6.27",
+          "basis": "God's name rests on the people as blessing",
+          "note": "The priests place YHWH's name upon Israel and bless them, giving the commentary's opening name-as-identifying-sign a liturgical and communal form."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 155,
+        "row": {
+          "line": 155,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.12.5",
+          "basis": "Offerings go to the chosen dwelling",
+          "note": "Israel must seek the place YHWH chooses for his name and bring offerings there, joining the commentary's named sacrificial herd to the destination house."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 156,
+        "row": {
+          "line": 156,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.12.6",
+          "basis": "The offering is brought to God's place",
+          "note": "Burnt offerings, sacrifices, tithes, and vowed gifts are brought to the chosen place, a concrete connection between herd, worship, and house."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 157,
+        "row": {
+          "line": 157,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.12.7",
+          "basis": "The household eats and rejoices before God",
+          "note": "The worshippers eat before YHWH and rejoice in their work, connecting offering, household, and divine provision."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 158,
+        "row": {
+          "line": 158,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.116.17",
+          "basis": "Thanksgiving offering and invocation of the name",
+          "note": "The speaker offers a sacrifice of thanksgiving and calls on YHWH's name, matching the commentary's named offering and worship."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 159,
+        "row": {
+          "line": 159,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.116.18",
+          "basis": "The vow is paid before the people",
+          "note": "The speaker fulfills vows in the presence of God's people, giving a public setting to the act of offering and praise."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 160,
+        "row": {
+          "line": 160,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.116.19",
+          "basis": "The offering reaches the Lord's house",
+          "note": "The vow is fulfilled in Jerusalem, in the courts of YHWH's house, directly joining sacrifice, name, worship, and the destination house."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 161,
+        "row": {
+          "line": 161,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.22.13",
+          "basis": "A ram is offered in place of the son",
+          "note": "Abraham offers the ram caught in the thicket instead of Isaac, a specific sacrificial animal separated from the flock and presented at the place of testing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 162,
+        "row": {
+          "line": 162,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.22.14",
+          "basis": "The place is named for YHWH's provision",
+          "note": "Abraham names the site for YHWH's provision, joining an offering with the naming of God at its destination."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 163,
+        "row": {
+          "line": 163,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.9.17",
+          "basis": "The cloud's movement sets the community on the road",
+          "note": "Israel travels when the cloud lifts and camps when it settles, giving the community a guide who determines the path and its timing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 164,
+        "row": {
+          "line": 164,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.9.18",
+          "basis": "Israel travels at YHWH's command",
+          "note": "The people move and remain according to YHWH's word, a specific expression of collective dependence on guidance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 165,
+        "row": {
+          "line": 165,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.17.25",
+          "basis": "God gives life and breath to all",
+          "note": "Paul says God gives everyone life, breath, and everything, matching the commentary's Lord of all worlds who gives nourishment and help."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 166,
+        "row": {
+          "line": 166,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.17.26",
+          "basis": "God appoints times and boundaries",
+          "note": "Paul says God made all nations and set their times and boundaries, linking universal lordship to the ordered movement of peoples."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 167,
+        "row": {
+          "line": 167,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.17.27",
+          "basis": "People seek God and may find him",
+          "note": "The nations are placed so they might seek God, a direct meeting with the commentary's lost seeker, guidance, and discovery of the true owner."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.11.2",
+          "basis": "Prayer begins with Father and holy name",
+          "note": "Jesus' prayer addresses the Father and asks that his name be hallowed, adding Luke's distinct liturgical form to the Fatiha's named invocation and direct address."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.11.3",
+          "basis": "Daily bread as dependence",
+          "note": "The prayer asks for daily bread, giving a concrete petition for provision within the same short prayer that asks for God's reign."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.11.4",
+          "basis": "Forgiveness and protection from misdirection",
+          "note": "The prayer asks forgiveness and not to be brought into trial, a distinct compact counterpart to the Fatiha's dependence, guidance, and avoidance of failed paths."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.107.4",
+          "basis": "Wanderers cannot find a way to an inhabited city",
+          "note": "The psalm describes hungry and thirsty travelers lost in a wilderness with no city in reach, closely meeting the commentary's lost traveler and destination-home imagery."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.107.6",
+          "basis": "The lost cry to YHWH for help",
+          "note": "The wanderers cry to God in distress and he rescues them, matching the commentary's needy traveler who asks the Lord for aid."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.107.7",
+          "basis": "God leads them by a straight way to a city",
+          "note": "YHWH guides the travelers on a straight road to an inhabited city, joining the commentary's requested guidance, straight path, and arrival place in one scene."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.107.8",
+          "basis": "Thanks for steadfast love after rescue",
+          "note": "The rescued are urged to thank YHWH for his steadfast love, linking praise to the help received along the road."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.107.9",
+          "basis": "God satisfies the thirsty and hungry",
+          "note": "God fills the hungry and satisfies the thirsty, adding provision to the lost traveler's rescue and the commentary's water imagery."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.35.8",
+          "basis": "A highway called the holy way",
+          "note": "Isaiah describes a raised road for the redeemed, called the Way of Holiness, giving a communal and sacred version of the straight path requested in the Fatiha."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.35.9",
+          "basis": "No danger on the redeemed road",
+          "note": "No lion or dangerous beast is found on this highway, a concrete promise of safe travel for the people whom God guides."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.35.10",
+          "basis": "The redeemed return to Zion with joy",
+          "note": "The travelers arrive in Zion singing, with lasting joy, giving the commentary's road a communal destination in God's house."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.31.9",
+          "basis": "God leads exiles by streams of water on a straight path",
+          "note": "Jeremiah pictures God guiding returning Israel beside streams and on a straight road, while calling Israel God's firstborn; this joins the commentary's water, way, and belonging-to-the-Lord images."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.3",
+          "basis": "Prepare a road for YHWH in the wilderness",
+          "note": "The voice calls for a road to be made straight in the wilderness, matching the commentary's image of a path prepared by others for the guided traveler."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.4",
+          "basis": "The road is leveled for the coming Lord",
+          "note": "Valleys rise and rough ground is leveled, making straightness physical and communal as in the commentary's trodden, smoothed road."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:Mark.1.3",
+          "basis": "Mark applies Isaiah's road to John's preparation",
+          "note": "Mark identifies Isaiah's wilderness voice with John the Baptist preparing the Lord's way; this Christian reading makes the straight road a call to prepare for God's arrival."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.143.8",
+          "basis": "Show me the way I should walk",
+          "note": "The speaker asks God to let him hear steadfast love and show the way to go, closely joining the Fatiha's request for guidance with its reliance on mercy."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.143.10",
+          "basis": "God's good spirit leads on level ground",
+          "note": "The psalm asks God's spirit to lead the speaker on level ground, a direct image of the upright path and guide developed in the commentary."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.145.8",
+          "basis": "The Lord is gracious, compassionate, and slow to anger",
+          "note": "This praise formula names the same divine qualities as the Fatiha's mercy names and places them within a hymn of praise."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.145.9",
+          "basis": "The Lord's compassion extends to all he made",
+          "note": "God's compassion reaches all his works, concretely joining mercy to the commentary's Lord of all worlds."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.145.13",
+          "basis": "God's kingdom is everlasting and faithful",
+          "note": "The psalm's account of God's enduring kingdom joins praise of divine sovereignty to the commentary's master of the judgment day."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.145.15",
+          "basis": "All creatures look to God for food",
+          "note": "Every living thing looks to God for sustenance, matching the commentary's picture of the needy traveler and its Lord who provides."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.145.16",
+          "basis": "God opens his hand and satisfies living things",
+          "note": "The open hand that satisfies all living things gives a specific image for completed divine favor and care."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.2",
+          "basis": "The blessed person meditates on Torah day and night",
+          "note": "The psalm defines the blessed person's way through delight in God's instruction, adding a Torah-centered Jewish account of how the favored path is walked."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.1.3",
+          "basis": "The righteous are planted beside water",
+          "note": "The person on the good way is like a tree planted beside streams, bearing fruit in season; this links the blessed path to the commentary's water and nourishment imagery."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "Sifre Deuteronomy 49",
+          "basis": "Walking God's way is imitation of God's traits",
+          "note": "The midrash reads “walk in all his ways” as imitating God's compassion and other attributes; it turns the commentary's literal path joined to worship into an ethical practice of mercy."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.14.2",
+          "basis": "The Father's house has many dwellings",
+          "note": "Jesus speaks of dwelling places in his Father's house, giving a specific Christian destination-house image for the commentary's road toward a home."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.14.3",
+          "basis": "The guide brings his followers to the house",
+          "note": "Jesus promises to return and take his followers to himself, connecting a trusted guide with arrival at the Father's house."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.14.4",
+          "basis": "The disciples are shown the way to the destination",
+          "note": "Jesus says the disciples know the way to where he is going, a direct meeting of guide, road, and destination."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.14.6",
+          "basis": "Jesus identifies himself as the way to the Father",
+          "note": "Jesus calls himself the way and says access to the Father is through him, a Christian interpretation that makes the requested path personal and relational."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.78",
+          "basis": "God's mercy brings dawn to those in darkness",
+          "note": "Zechariah's song says God's tender mercy brings light to those sitting in darkness, joining mercy with the commentary's lostness and its contrast between radiant and dark outcomes."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.1.79",
+          "basis": "God guides feet into the way of peace",
+          "note": "The song says the dawn will guide people's feet into the way of peace, closely matching the Fatiha's request for a straight path and the commentary's walking image."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.20.8",
+          "basis": "The fallen opponents contrast with those who rise and stand",
+          "note": "The psalm says others collapse and fall while the worshippers rise and stand, closely matching the commentary's contrast between falling under wrath and upright walking."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zeph.1.15",
+          "basis": "The day is wrath, distress, and devastation",
+          "note": "Zephaniah calls YHWH's day a day of wrath and distress, giving the commentary's judgment day a sharply adverse side."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zeph.1.16",
+          "basis": "The day brings alarm against fortified cities",
+          "note": "The trumpet and alarm on that day give a specific public scene of judgment rather than a generic reference to divine anger."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zeph.1.18",
+          "basis": "The day consumes the earth in divine anger",
+          "note": "The oracle says neither silver nor gold can rescue people from YHWH's wrath, adding a concrete reckoning to the commentary's account of judgment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.24.10",
+          "basis": "A creditor must respect the debtor's household",
+          "note": "The creditor may not enter the borrower's house to seize a pledge, a concrete legal limit on the debt relation behind the commentary's debt and witness imagery."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.24.11",
+          "basis": "The borrower brings the pledge out",
+          "note": "The lender must remain outside while the debtor brings the pledge, preserving the debtor's agency within the written obligation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.24.12",
+          "basis": "A poor debtor's cloak cannot be kept overnight",
+          "note": "The creditor must not retain a poor person's pledge, directly connecting debt law with care for a vulnerable person."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.24.13",
+          "basis": "Returning the cloak is righteousness before God",
+          "note": "The pledge must be returned before sunset so the debtor can sleep in it; God hears the debtor's cry, joining debt, timely repayment, and divine judgment of conduct."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.18.23",
+          "basis": "A king settles accounts with his servants",
+          "note": "Jesus begins a parable with a king who calls servants to settle their debts, bringing the commentary's king, day of repayment, and debt together in one scene."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.18.24",
+          "basis": "A servant owes an unpayable sum",
+          "note": "The first servant's vast debt makes the account concrete and sets up the king's decision about repayment and mercy."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.18.26",
+          "basis": "The debtor asks for patience",
+          "note": "The servant falls down and asks the king for patience, matching the commentary's dependent petitioner before a sovereign."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.18.27",
+          "basis": "The king releases the debt out of compassion",
+          "note": "The king has compassion and cancels the debt, combining sovereignty, repayment, and mercy in a direct parallel to the commentary's divine attributes."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.18.28",
+          "basis": "The forgiven servant demands payment from another",
+          "note": "The servant then seizes a fellow servant over a smaller debt, turning received mercy into a test of how the forgiven person treats others."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.18.32",
+          "basis": "The king recalls the canceled debt",
+          "note": "The king confronts the servant with the debt he had canceled, making remembered mercy and account-keeping central to judgment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.18.33",
+          "basis": "The servant should have shown compassion",
+          "note": "The king asks whether the servant should have shown the same mercy he received, connecting compassion to the ethical use of favor."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.18.34",
+          "basis": "The king hands the unmerciful debtor over",
+          "note": "The angry king delivers the servant to punishment until the debt is paid, directly joining unpaid debt, wrath, and reckoning."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.18.35",
+          "basis": "The parable applies the account to forgiveness",
+          "note": "Jesus says the heavenly Father will treat those who refuse forgiveness similarly, making mercy the decisive conduct at the final account."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 28:2",
+          "basis": "Forgive a neighbor and one's own sins are forgiven",
+          "note": "Sirach directly joins forgiving another's wrong with forgiveness when one prays, adding a Jewish ethical interpretation to the commentary's pairing of mercy and judgment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.2.14",
+          "basis": "The written debt record is erased",
+          "note": "Paul says the record of debt against people is canceled and removed, a Christian theological reading that turns the commentary's written account into an image of forgiven guilt."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.11.28",
+          "basis": "The weary are invited to come for rest",
+          "note": "Jesus invites the weary and burdened to come to him for rest, matching the commentary's tired traveler who asks for help."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.11.29",
+          "basis": "A gentle teacher gives a yoke",
+          "note": "Jesus calls disciples to take his yoke and learn from him because he is gentle and humble; as a discipleship metaphor, it connects the commentary's voluntarily tamed servant with rest under a trusted guide."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.11.30",
+          "basis": "The teacher's yoke is easy",
+          "note": "Jesus says his yoke is easy and burden light, giving a concrete contrast to coercive enslavement in the commentary's Moses scene."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.42.16",
+          "basis": "God leads the blind by an unknown road",
+          "note": "YHWH promises to lead the blind on an unfamiliar path and turn darkness to light, directly joining lostness, guidance, and divine care."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.42.16",
+          "basis": "The guide does not abandon those he leads",
+          "note": "The same promise says God will not forsake them, contrasting the commentary's unrecognized owner with a Lord who remains responsible for the lost."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.24.26",
+          "basis": "The traveler bows after God guides him",
+          "note": "Abraham's servant bows and worships YHWH at the well after seeing the sign, adding an explicit worship response to the commentary's meeting of guidance, water, and travel."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.18.10",
+          "basis": "Two people go to the temple to pray",
+          "note": "Jesus frames the contrast as a temple encounter, giving a concrete communal setting to the commentary's worshipper speaking directly to God."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.18.13",
+          "basis": "The tax collector asks God for mercy without lifting his eyes",
+          "note": "The petitioner stands at a distance and asks for mercy, a specific posture of dependence that echoes the commentary's needy servant asking the Lord for help."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.18.14",
+          "basis": "The humble petitioner goes home justified",
+          "note": "Jesus says the humble petitioner, rather than the self-exalting one, is justified; this joins prayer, moral standing, and the final verdict."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "b879e5490e5774dc797acd0aab9958b2cb50c2243a30f56e642565149a692e18",
+    "followup_sha256": "b879e5490e5774dc797acd0aab9958b2cb50c2243a30f56e642565149a692e18",
+    "initial_file": "turn1.accepted.tsv",
+    "initial_sha256": "1d2f4451acac2f11a4d39debbecc7746e79aa0f915b4834b365a0261177664aa",
+    "raw_initial_sha256": "4b7a4eb098b04bf6919331584ba1c99dbbfaf472d86d3d13c569307f9c47bfe3"
+  },
+  "consolidation_error": null,
+  "list_sha256": "e761c168fb8b0a0801876b18752b3a8b0e858ae68411105280ad1fa9302c8919",
+  "followup_delivery": [
+    {
+      "call_id": "call_WXIUc7I3q3PRWz1AC7HtYfBi",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 296355,
+    "cached_input_tokens": 207360,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 44914,
+    "reasoning_output_tokens": 31484,
+    "total_tokens": 341269
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T15:55:17.793Z",
+  "artifacts": {
+    "started.json": "9b21c4d606594fa3a50d3ebf4aeec90fd6a4af548329aaaeeff5384004dadb2d",
+    "input.json": "f0b91568688f2cc4fc012395f2fa49161fc114e2dd08298d785c725acb52c60e",
+    "prompt.md": "8917f2cd77276976b0936b84a866ec7d309e73a26335d7aa8ae9a4f9d5e12865",
+    "package.md": "92a715cdde97bce18287c42097a5a4c82fe346ed8648e771382ac2dde58d1b8a",
+    "spawn.md": "15d97c7143efc2ac9dd60d7d0b404c4a9f74849a2f84aaef994e337a09b0adf5",
+    "followup.txt": "ceea82e2c57141867e69f852487f71e20d092aa61f4137627abe58281ff7c47a",
+    "turn1.json": "ebf5e98c37c09c290e83e3a3492f31c87131933cdf482618f2097c78b11dd8f4",
+    "turn1.list.tsv": "4b7a4eb098b04bf6919331584ba1c99dbbfaf472d86d3d13c569307f9c47bfe3",
+    "followup.tsv": "b879e5490e5774dc797acd0aab9958b2cb50c2243a30f56e642565149a692e18",
+    "list.tsv": "e761c168fb8b0a0801876b18752b3a8b0e858ae68411105280ad1fa9302c8919",
+    "consolidation.json": "2846fcd60758d999623437fb8c10808a8983e0365021b73fd8529d9fc1170732",
+    "validation.json": "8b4d1afd274ebff341027e21193b88d99b78d0bbba5fdd32cbcea71c0b3ab1d5",
+    "proposal_validation.json": "d050360cb227bc3680ef5ca6692e15a11c737ffdf3a3959a155361975c9046ed",
+    "tool_calls.json": "e7b6c03a57510af29fdbb5c2c4ed9c4778f2425632343a37eb4559bf0bf1e3de",
+    "session.json": "6e2844b4a2434a71b3fea99f068cea9ba7f10105946bcf87aa27f661c393aa6b",
+    "session.events.jsonl": "bc4624122b393ea494f54675fa890d56a0bf7036bdd3e2741ffa8844fe6bed4e",
+    "turn1.original.tsv": "4b7a4eb098b04bf6919331584ba1c99dbbfaf472d86d3d13c569307f9c47bfe3",
+    "turn1.validation.failed.json": "1623a5791371047812034e5f54db38f09f344bc6bbce0a7ec8288e14756dfbe2",
+    "turn1.tool_calls.json": "458ba6876e8c272464384f822372f137eb98db9375c2a9503539cbe7174d938d",
+    "turn1.repair.proposed.json": "c0baf4b19f1e0d86bdf93750bc8d8fb0d15e8dab6a6e79d311476f0755ab2c51",
+    "turn1.repair.proposed.tsv": "1d2f4451acac2f11a4d39debbecc7746e79aa0f915b4834b365a0261177664aa",
+    "turn1.accepted.tsv": "1d2f4451acac2f11a4d39debbecc7746e79aa0f915b4834b365a0261177664aa",
+    "turn1.repair.accepted.json": "bd6c64be684f7d4cfceea2e86f1867d7dafb53d181b7912c310e15e01777fbe2"
+  },
+  "first_turn_repair": {
+    "policy": "bible-first-turn-repair-v1",
+    "approval": "2026-10-05 user reply: Apply the 13 recorded corrections; extend first-pass repair handling. Exact bundle: enrichment/bible/audits/pilot1-20261005/first-turn-repairs.proposed.json",
+    "tool_audit_reviewed": true,
+    "accepted_at": "2026-10-05T15:52:00.740904+00:00",
+    "changes": [
+      {
+        "line": 57,
+        "before": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Joel.2.31",
+          "The dreadful day of YHWH",
+          "The sun and moon darken before the great day of YHWH, a concrete “day of God” judgment image for the commentary's days of punishment."
+        ],
+        "after": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Joel.3.4",
+          "The dreadful day of YHWH",
+          "The sun and moon darken before the great day of YHWH, a concrete “day of God” judgment image for the commentary's days of punishment."
+        ],
+        "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+      },
+      {
+        "line": 58,
+        "before": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Joel.2.32",
+          "Rescue for those who call on YHWH",
+          "The same oracle promises deliverance to those who call on YHWH, giving the day both judgment and rescue as in the commentary's paired punishment and forgiveness."
+        ],
+        "after": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Joel.3.5",
+          "Rescue for those who call on YHWH",
+          "The same oracle promises deliverance to those who call on YHWH, giving the day both judgment and rescue as in the commentary's paired punishment and forgiveness."
+        ],
+        "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+      }
+    ],
+    "model_calls": 0,
+    "artifacts": {
+      "turn1.original.tsv": "4b7a4eb098b04bf6919331584ba1c99dbbfaf472d86d3d13c569307f9c47bfe3",
+      "turn1.validation.failed.json": "1623a5791371047812034e5f54db38f09f344bc6bbce0a7ec8288e14756dfbe2",
+      "turn1.tool_calls.json": "458ba6876e8c272464384f822372f137eb98db9375c2a9503539cbe7174d938d",
+      "turn1.repair.proposed.json": "c0baf4b19f1e0d86bdf93750bc8d8fb0d15e8dab6a6e79d311476f0755ab2c51",
+      "turn1.repair.proposed.tsv": "1d2f4451acac2f11a4d39debbecc7746e79aa0f915b4834b365a0261177664aa",
+      "turn1.accepted.tsv": "1d2f4451acac2f11a4d39debbecc7746e79aa0f915b4834b365a0261177664aa"
+    }
+  }
+}

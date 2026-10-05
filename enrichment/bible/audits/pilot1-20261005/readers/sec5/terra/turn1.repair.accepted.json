@@ -1,0 +1,77 @@
+{
+  "policy": "bible-first-turn-repair-v1",
+  "approval": "2026-10-05 user reply: Apply the 13 recorded corrections; extend first-pass repair handling. Exact bundle: enrichment/bible/audits/pilot1-20261005/first-turn-repairs.proposed.json",
+  "tool_audit_reviewed": true,
+  "accepted_at": "2026-10-05T15:50:59.893043+00:00",
+  "changes": [
+    {
+      "line": 17,
+      "before": [
+        "strong",
+        "tevrat",
+        "motif",
+        "WLC:Ps.138.9",
+        "YHWH benim için tamamlayacak",
+        "YHWH'nin “benim için tamamlayacağı” sözü, nimeti bitiren ve düzene koyan Rab fikrini dua biçiminde taşır."
+      ],
+      "after": [
+        "strong",
+        "tevrat",
+        "motif",
+        "WLC:Ps.138.8",
+        "YHWH benim için tamamlayacak",
+        "YHWH'nin “benim için tamamlayacağı” sözü, nimeti bitiren ve düzene koyan Rab fikrini dua biçiminde taşır."
+      ],
+      "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+    },
+    {
+      "line": 28,
+      "before": [
+        "strong",
+        "tevrat",
+        "motif",
+        "WLC:Ps.103.23",
+        "sonda tekrar Rabbe hamd",
+        "Bütün eserleriyle Rabb'i kutsama çağrısı mezmuru aynı hamdle kapatır; Fâtiha'daki baştaki ve yol sonundaki hamd yankısına biçimsel paraleldir."
+      ],
+      "after": [
+        "strong",
+        "tevrat",
+        "motif",
+        "WLC:Ps.103.22",
+        "sonda tekrar Rabbe hamd",
+        "Bütün eserleriyle Rabb'i kutsama çağrısı mezmuru aynı hamdle kapatır; Fâtiha'daki baştaki ve yol sonundaki hamd yankısına biçimsel paraleldir."
+      ],
+      "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+    },
+    {
+      "line": 74,
+      "before": [
+        "medium",
+        "tevrat",
+        "soydas",
+        "WLC:Ps.90.18",
+        "נֹעַם / nʿm ve işi sağlamlaştırmak",
+        "İbr. נֹעַם, hoşluk veya lütuf için N-ʿ-M ailesinin bir kullanımıdır; dua onu işimizin eserini sağlamlaştırmasıyla birleştirir ve yorumdaki iyi hâl ile nimetin tamamlanmasına ihtiyatlı dilsel köprü kurar."
+      ],
+      "after": [
+        "medium",
+        "tevrat",
+        "soydas",
+        "WLC:Ps.90.17",
+        "נֹעַם / nʿm ve işi sağlamlaştırmak",
+        "İbr. נֹעַם, hoşluk veya lütuf için N-ʿ-M ailesinin bir kullanımıdır; dua onu işimizin eserini sağlamlaştırmasıyla birleştirir ve yorumdaki iyi hâl ile nimetin tamamlanmasına ihtiyatlı dilsel köprü kurar."
+      ],
+      "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+    }
+  ],
+  "model_calls": 0,
+  "artifacts": {
+    "turn1.original.tsv": "b58cd8798cdf980c849caa7c28c7a5d85cfd335d1fd591f75d4dfdefb3c42a80",
+    "turn1.validation.failed.json": "150e590375c5b5c098961344013e7e035ffaaf581951714f4b0f454fe35c57b5",
+    "turn1.tool_calls.json": "a2313124d2b6543a3c23975c0098d66e01e37751fd546c07ab0631a33033a68c",
+    "turn1.repair.proposed.json": "3b0e56f3f58809de644bb438f89244b48612f76898cde7f669b5306d515fffce",
+    "turn1.repair.proposed.tsv": "8b3a38ec3c7f9a2ec92bb7361301826da3a6f55be9b5b24d47d958e0518dd4c4",
+    "turn1.accepted.tsv": "8b3a38ec3c7f9a2ec92bb7361301826da3a6f55be9b5b24d47d958e0518dd4c4"
+  }
+}

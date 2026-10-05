@@ -1,0 +1,29 @@
+{
+  "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec13/luna/list.tsv",
+  "rows": 60,
+  "unique_references": 60,
+  "schema_errors": [
+    "line 61: unknown verse in specified edition: WLC:Ps.90.18"
+  ],
+  "duplicates": [],
+  "strengths": {
+    "strong": 40,
+    "medium": 20
+  },
+  "findings": [
+    {
+      "line": 17,
+      "ref": "Tobit 7:13",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 18,
+      "ref": "Mishnah Qiddushin 1:1",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    }
+  ],
+  "reference_resolver": "edition-book-names-v2",
+  "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+}

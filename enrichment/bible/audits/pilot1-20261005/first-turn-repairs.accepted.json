@@ -1,0 +1,413 @@
+{
+  "user_approval": "Apply the 13 recorded corrections; extend first-pass repair handling",
+  "proposal_sha256": "624779297ef667c43621fa3b24b18e7231da367e345a01c549ecdae94dd1bf2f",
+  "sessions": [
+    {
+      "target": "sec9",
+      "model": "terra",
+      "record": {
+        "policy": "bible-first-turn-repair-v1",
+        "approval": "2026-10-05 user reply: Apply the 13 recorded corrections; extend first-pass repair handling. Exact bundle: enrichment/bible/audits/pilot1-20261005/first-turn-repairs.proposed.json",
+        "tool_audit_reviewed": true,
+        "accepted_at": "2026-10-05T15:51:00.244986+00:00",
+        "changes": [
+          {
+            "line": 70,
+            "before": [
+              "medium",
+              "tevrat",
+              "soydas",
+              "WLC:Ps.16.12",
+              "Arabic n-ʿ-m and Hebrew neʿimot",
+              "The commentary explicitly ties أَنْعَمْتَ and n-ʿ-m to freshness and beneficent support. Hebrew neʿimot, a cognate form here, accompanies the path of life and enduring delight; it gives a linguistic and contextual companion to the commentary's path plus life-giving blessing."
+            ],
+            "after": [
+              "medium",
+              "tevrat",
+              "soydas",
+              "WLC:Ps.16.11",
+              "Arabic n-ʿ-m and Hebrew neʿimot",
+              "The commentary explicitly ties أَنْعَمْتَ and n-ʿ-m to freshness and beneficent support. Hebrew neʿimot, a cognate form here, accompanies the path of life and enduring delight; it gives a linguistic and contextual companion to the commentary's path plus life-giving blessing."
+            ],
+            "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+          }
+        ],
+        "model_calls": 0,
+        "artifacts": {
+          "turn1.original.tsv": "2586a9cf2cc4678da26754abf5b14d369909f07766a2feb19ce7acccd5ba074f",
+          "turn1.validation.failed.json": "1518e6e01f87e2994b04c9a05b73a4777ea0e7805f1131c38ba98f9c687beb88",
+          "turn1.tool_calls.json": "1c08b8a8b8579f8e6405fb1413094c908ffa44ff2968b5700bc535b452f79bb7",
+          "turn1.repair.proposed.json": "a86cfa62662f1b127e63011bd11404eb0fac4ac01214c94dc6d38c5ad6408ba7",
+          "turn1.repair.proposed.tsv": "7426cf2700c049b3c8eb9cbc55d816a58922489193ca4b12491fd6f5f99408fd",
+          "turn1.accepted.tsv": "7426cf2700c049b3c8eb9cbc55d816a58922489193ca4b12491fd6f5f99408fd"
+        }
+      }
+    },
+    {
+      "target": "sec6",
+      "model": "terra",
+      "record": {
+        "policy": "bible-first-turn-repair-v1",
+        "approval": "2026-10-05 user reply: Apply the 13 recorded corrections; extend first-pass repair handling. Exact bundle: enrichment/bible/audits/pilot1-20261005/first-turn-repairs.proposed.json",
+        "tool_audit_reviewed": true,
+        "accepted_at": "2026-10-05T15:51:00.072159+00:00",
+        "changes": [
+          {
+            "line": 27,
+            "before": [
+              "strong",
+              "incil",
+              "karsi_anlati",
+              "SBLGNT:Jude.5",
+              "Jesus as exodus deliverer and judge",
+              "The commentary recalls God delivering Israel and then judging rebellion; Jude's text names Jesus as the one who saved a people from Egypt and later destroyed unbelievers, a Christological retelling of the scene."
+            ],
+            "after": [
+              "strong",
+              "incil",
+              "karsi_anlati",
+              "SBLGNT:Jude.1.5",
+              "Jesus as exodus deliverer and judge",
+              "The commentary recalls God delivering Israel and then judging rebellion; Jude's text names Jesus as the one who saved a people from Egypt and later destroyed unbelievers, a Christological retelling of the scene."
+            ],
+            "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+          },
+          {
+            "line": 31,
+            "before": [
+              "strong",
+              "tevrat",
+              "soydas",
+              "WLC:Ps.90.18",
+              "no'am of God upon us",
+              "The commentary's n-' -m family joins bestowed favor to softness; Hebrew no'am, a cognate form, asks that God's pleasantness or favor be upon us, closely matching the favor-upon-a-group construction."
+            ],
+            "after": [
+              "strong",
+              "tevrat",
+              "soydas",
+              "WLC:Ps.90.17",
+              "no'am of God upon us",
+              "The commentary's n-' -m family joins bestowed favor to softness; Hebrew no'am, a cognate form, asks that God's pleasantness or favor be upon us, closely matching the favor-upon-a-group construction."
+            ],
+            "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+          }
+        ],
+        "model_calls": 0,
+        "artifacts": {
+          "turn1.original.tsv": "69adea1924dbef7fd84b80b4acf7a5b88ad3c53be0600f25eabe96676fc6c601",
+          "turn1.validation.failed.json": "ecbd34117dd29a76d4ccfdb72285da13ecd0bff4cabb3996f23fedec346c1dbf",
+          "turn1.tool_calls.json": "b44ab6dfc5668b6878ad863306bb243ce2edb9ad523f2d238ecdab2f1f5ef071",
+          "turn1.repair.proposed.json": "d79b3cce5557fa55f3f6d169f8acf3cb9637a14009b7cfee951d45c4252ef742",
+          "turn1.repair.proposed.tsv": "2b6460964f88b919ada197891e2e54c6299e6f5f76016a678111d2629cd28c6d",
+          "turn1.accepted.tsv": "2b6460964f88b919ada197891e2e54c6299e6f5f76016a678111d2629cd28c6d"
+        }
+      }
+    },
+    {
+      "target": "sec5",
+      "model": "terra",
+      "record": {
+        "policy": "bible-first-turn-repair-v1",
+        "approval": "2026-10-05 user reply: Apply the 13 recorded corrections; extend first-pass repair handling. Exact bundle: enrichment/bible/audits/pilot1-20261005/first-turn-repairs.proposed.json",
+        "tool_audit_reviewed": true,
+        "accepted_at": "2026-10-05T15:50:59.893043+00:00",
+        "changes": [
+          {
+            "line": 17,
+            "before": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Ps.138.9",
+              "YHWH benim için tamamlayacak",
+              "YHWH'nin “benim için tamamlayacağı” sözü, nimeti bitiren ve düzene koyan Rab fikrini dua biçiminde taşır."
+            ],
+            "after": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Ps.138.8",
+              "YHWH benim için tamamlayacak",
+              "YHWH'nin “benim için tamamlayacağı” sözü, nimeti bitiren ve düzene koyan Rab fikrini dua biçiminde taşır."
+            ],
+            "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+          },
+          {
+            "line": 28,
+            "before": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Ps.103.23",
+              "sonda tekrar Rabbe hamd",
+              "Bütün eserleriyle Rabb'i kutsama çağrısı mezmuru aynı hamdle kapatır; Fâtiha'daki baştaki ve yol sonundaki hamd yankısına biçimsel paraleldir."
+            ],
+            "after": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Ps.103.22",
+              "sonda tekrar Rabbe hamd",
+              "Bütün eserleriyle Rabb'i kutsama çağrısı mezmuru aynı hamdle kapatır; Fâtiha'daki baştaki ve yol sonundaki hamd yankısına biçimsel paraleldir."
+            ],
+            "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+          },
+          {
+            "line": 74,
+            "before": [
+              "medium",
+              "tevrat",
+              "soydas",
+              "WLC:Ps.90.18",
+              "נֹעַם / nʿm ve işi sağlamlaştırmak",
+              "İbr. נֹעַם, hoşluk veya lütuf için N-ʿ-M ailesinin bir kullanımıdır; dua onu işimizin eserini sağlamlaştırmasıyla birleştirir ve yorumdaki iyi hâl ile nimetin tamamlanmasına ihtiyatlı dilsel köprü kurar."
+            ],
+            "after": [
+              "medium",
+              "tevrat",
+              "soydas",
+              "WLC:Ps.90.17",
+              "נֹעַם / nʿm ve işi sağlamlaştırmak",
+              "İbr. נֹעַם, hoşluk veya lütuf için N-ʿ-M ailesinin bir kullanımıdır; dua onu işimizin eserini sağlamlaştırmasıyla birleştirir ve yorumdaki iyi hâl ile nimetin tamamlanmasına ihtiyatlı dilsel köprü kurar."
+            ],
+            "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+          }
+        ],
+        "model_calls": 0,
+        "artifacts": {
+          "turn1.original.tsv": "b58cd8798cdf980c849caa7c28c7a5d85cfd335d1fd591f75d4dfdefb3c42a80",
+          "turn1.validation.failed.json": "150e590375c5b5c098961344013e7e035ffaaf581951714f4b0f454fe35c57b5",
+          "turn1.tool_calls.json": "a2313124d2b6543a3c23975c0098d66e01e37751fd546c07ab0631a33033a68c",
+          "turn1.repair.proposed.json": "3b0e56f3f58809de644bb438f89244b48612f76898cde7f669b5306d515fffce",
+          "turn1.repair.proposed.tsv": "8b3a38ec3c7f9a2ec92bb7361301826da3a6f55be9b5b24d47d958e0518dd4c4",
+          "turn1.accepted.tsv": "8b3a38ec3c7f9a2ec92bb7361301826da3a6f55be9b5b24d47d958e0518dd4c4"
+        }
+      }
+    },
+    {
+      "target": "1:2",
+      "model": "luna",
+      "record": {
+        "policy": "bible-first-turn-repair-v1",
+        "approval": "2026-10-05 user reply: Apply the 13 recorded corrections; extend first-pass repair handling. Exact bundle: enrichment/bible/audits/pilot1-20261005/first-turn-repairs.proposed.json",
+        "tool_audit_reviewed": true,
+        "accepted_at": "2026-10-05T15:52:01.266685+00:00",
+        "changes": [
+          {
+            "line": 22,
+            "before": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Wis.13.1",
+              "failure to know the maker",
+              "The commentary calls each created kind a sign by which the Lord is known; Wisdom says people who infer no knowledge of God from visible good things fail to recognize their maker through his works."
+            ],
+            "after": [
+              "strong",
+              "tevrat",
+              "motif",
+              "Wisdom of Solomon 13:1",
+              "failure to know the maker",
+              "The commentary calls each created kind a sign by which the Lord is known; Wisdom says people who infer no knowledge of God from visible good things fail to recognize their maker through his works."
+            ],
+            "reason": "Wisdom is not contained in WLC. Retain a named-work candidate; original Greek witness remains unavailable. KJV is only a finding aid, not evidence for acceptance."
+          },
+          {
+            "line": 23,
+            "before": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Wis.13.3",
+              "beauty points beyond itself",
+              "The commentary says the worlds are signs that show their Lord; Wisdom argues that the beauty of created things should lead their observer to perceive the maker."
+            ],
+            "after": [
+              "strong",
+              "tevrat",
+              "motif",
+              "Wisdom of Solomon 13:3",
+              "beauty points beyond itself",
+              "The commentary says the worlds are signs that show their Lord; Wisdom argues that the beauty of created things should lead their observer to perceive the maker."
+            ],
+            "reason": "Wisdom is not contained in WLC. Retain a named-work candidate; original Greek witness remains unavailable. KJV is only a finding aid, not evidence for acceptance."
+          },
+          {
+            "line": 24,
+            "before": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Wis.13.5",
+              "greatness of creatures",
+              "The commentary treats the whole creation as a field of divine signs; Wisdom says the greatness and beauty of creatures give a proportionate way to perceive their creator."
+            ],
+            "after": [
+              "strong",
+              "tevrat",
+              "motif",
+              "Wisdom of Solomon 13:5",
+              "greatness of creatures",
+              "The commentary treats the whole creation as a field of divine signs; Wisdom says the greatness and beauty of creatures give a proportionate way to perceive their creator."
+            ],
+            "reason": "Wisdom is not contained in WLC. Retain a named-work candidate; original Greek witness remains unavailable. KJV is only a finding aid, not evidence for acceptance."
+          }
+        ],
+        "model_calls": 0,
+        "artifacts": {
+          "turn1.original.tsv": "35fddec10fb7f2927c61ad88ab80093846e9ad63153e3d03bc6e83b8b0ff1eb6",
+          "turn1.validation.failed.json": "ff0269cf8bec1e8933f921e6b09f945c7f43d0bf3b0d88e8c5565837c179e9c7",
+          "turn1.tool_calls.json": "f66d4eb96865af5d150ce5747980e7e720a5f592c6a2e2f6cabaf3d9cb0f9202",
+          "turn1.repair.proposed.json": "623e8004a05fd7aea38916dfecc65712345da284a5732ffe8979252b7c54cab7",
+          "turn1.repair.proposed.tsv": "a0a043cf3ee5ef4ed85e95a1e7ba7429afe5d2e57f848c18e1c1c7484a7d96ee",
+          "turn1.accepted.tsv": "a0a043cf3ee5ef4ed85e95a1e7ba7429afe5d2e57f848c18e1c1c7484a7d96ee"
+        }
+      }
+    },
+    {
+      "target": "sec14",
+      "model": "luna",
+      "record": {
+        "policy": "bible-first-turn-repair-v1",
+        "approval": "2026-10-05 user reply: Apply the 13 recorded corrections; extend first-pass repair handling. Exact bundle: enrichment/bible/audits/pilot1-20261005/first-turn-repairs.proposed.json",
+        "tool_audit_reviewed": true,
+        "accepted_at": "2026-10-05T15:52:00.740904+00:00",
+        "changes": [
+          {
+            "line": 57,
+            "before": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Joel.2.31",
+              "The dreadful day of YHWH",
+              "The sun and moon darken before the great day of YHWH, a concrete “day of God” judgment image for the commentary's days of punishment."
+            ],
+            "after": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Joel.3.4",
+              "The dreadful day of YHWH",
+              "The sun and moon darken before the great day of YHWH, a concrete “day of God” judgment image for the commentary's days of punishment."
+            ],
+            "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+          },
+          {
+            "line": 58,
+            "before": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Joel.2.32",
+              "Rescue for those who call on YHWH",
+              "The same oracle promises deliverance to those who call on YHWH, giving the day both judgment and rescue as in the commentary's paired punishment and forgiveness."
+            ],
+            "after": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Joel.3.5",
+              "Rescue for those who call on YHWH",
+              "The same oracle promises deliverance to those who call on YHWH, giving the day both judgment and rescue as in the commentary's paired punishment and forgiveness."
+            ],
+            "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+          }
+        ],
+        "model_calls": 0,
+        "artifacts": {
+          "turn1.original.tsv": "4b7a4eb098b04bf6919331584ba1c99dbbfaf472d86d3d13c569307f9c47bfe3",
+          "turn1.validation.failed.json": "1623a5791371047812034e5f54db38f09f344bc6bbce0a7ec8288e14756dfbe2",
+          "turn1.tool_calls.json": "458ba6876e8c272464384f822372f137eb98db9375c2a9503539cbe7174d938d",
+          "turn1.repair.proposed.json": "c0baf4b19f1e0d86bdf93750bc8d8fb0d15e8dab6a6e79d311476f0755ab2c51",
+          "turn1.repair.proposed.tsv": "1d2f4451acac2f11a4d39debbecc7746e79aa0f915b4834b365a0261177664aa",
+          "turn1.accepted.tsv": "1d2f4451acac2f11a4d39debbecc7746e79aa0f915b4834b365a0261177664aa"
+        }
+      }
+    },
+    {
+      "target": "sec13",
+      "model": "luna",
+      "record": {
+        "policy": "bible-first-turn-repair-v1",
+        "approval": "2026-10-05 user reply: Apply the 13 recorded corrections; extend first-pass repair handling. Exact bundle: enrichment/bible/audits/pilot1-20261005/first-turn-repairs.proposed.json",
+        "tool_audit_reviewed": true,
+        "accepted_at": "2026-10-05T15:52:00.215985+00:00",
+        "changes": [
+          {
+            "line": 61,
+            "before": [
+              "weak",
+              "tevrat",
+              "soydas",
+              "WLC:Ps.90.18",
+              "Hebrew noam and Arabic n-ʿ-m",
+              "The commentary itself labels Arabic anʿamta, favor, and anʿām, herds, under n-ʿ-m; Hebrew noam here means YHWH's gracious pleasantness, a possible cognate for the favor sense but not for livestock."
+            ],
+            "after": [
+              "weak",
+              "tevrat",
+              "soydas",
+              "WLC:Ps.90.17",
+              "Hebrew noam and Arabic n-ʿ-m",
+              "The commentary itself labels Arabic anʿamta, favor, and anʿām, herds, under n-ʿ-m; Hebrew noam here means YHWH's gracious pleasantness, a possible cognate for the favor sense but not for livestock."
+            ],
+            "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+          }
+        ],
+        "model_calls": 0,
+        "artifacts": {
+          "turn1.original.tsv": "f453a1882fc954cb6821aa0294b63d4c36d3fa50d62ea8a73a31af1ed6972be6",
+          "turn1.validation.failed.json": "8afc571db3781684ad91ec92f55f435754accdad662ba6e2b972efb1297bb631",
+          "turn1.tool_calls.json": "d8879f68cc0ac2d5ebba36e85f1b347058d8810b46a484fe603cc2d463a6824f",
+          "turn1.repair.proposed.json": "3ded46fe58ee4084e8f575914697feaecdf463d721ef53867004d25c45b5baa6",
+          "turn1.repair.proposed.tsv": "534c9e3b8ac2ad83b4faf14002577870b9da7121da122d8b8eef9b6bd7c8cb9e",
+          "turn1.accepted.tsv": "534c9e3b8ac2ad83b4faf14002577870b9da7121da122d8b8eef9b6bd7c8cb9e"
+        }
+      }
+    },
+    {
+      "target": "sec12",
+      "model": "luna",
+      "record": {
+        "policy": "bible-first-turn-repair-v1",
+        "approval": "2026-10-05 user reply: Apply the 13 recorded corrections; extend first-pass repair handling. Exact bundle: enrichment/bible/audits/pilot1-20261005/first-turn-repairs.proposed.json",
+        "tool_audit_reviewed": true,
+        "accepted_at": "2026-10-05T15:51:00.412147+00:00",
+        "changes": [
+          {
+            "line": 22,
+            "before": [
+              "strong",
+              "karsi_anlati",
+              "tevrat",
+              "WLC:Isa.42.16",
+              "blind led on an unknown way",
+              "The commentary's blind people strive toward the path yet cannot see it; Isaiah promises that God will lead blind people on an unfamiliar way, turn darkness to light, and not abandon them."
+            ],
+            "after": [
+              "strong",
+              "tevrat",
+              "karsi_anlati",
+              "WLC:Isa.42.16",
+              "blind led on an unknown way",
+              "The commentary's blind people strive toward the path yet cannot see it; Isaiah promises that God will lead blind people on an unfamiliar way, turn darkness to light, and not abandon them."
+            ],
+            "reason": "Transpose tradition and kind into their declared columns; neither value changes."
+          }
+        ],
+        "model_calls": 0,
+        "artifacts": {
+          "turn1.original.tsv": "621ed21755e844d91c180ebbb5d3e464b722dae3949ebae993528394eb95b948",
+          "turn1.validation.failed.json": "be115a2d8e8d26be8b13237b3a391ba276fc42f33de5ffcc594501c414991c89",
+          "turn1.tool_calls.json": "24c526f31f19f596eed4894531d5c9a816e8a5aaa696a0977a85356401f2b135",
+          "turn1.repair.proposed.json": "70aee9e802259bbdbb5ba2f70dd5526b76912ecaf60355b7461359dbb2bb744f",
+          "turn1.repair.proposed.tsv": "a5dee8e5109bb5b4e1715bd4b04c17b8c911c9d8fc3e223e0e9b7d490a271f8d",
+          "turn1.accepted.tsv": "a5dee8e5109bb5b4e1715bd4b04c17b8c911c9d8fc3e223e0e9b7d490a271f8d"
+        }
+      }
+    }
+  ]
+}

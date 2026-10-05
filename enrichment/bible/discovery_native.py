@@ -17,12 +17,21 @@ REPAIR_ARTIFACTS = ('run.failed.log.json','validation.failed.json','repair.propo
                     'followup.repair.proposed.tsv','followup.accepted.tsv','repair.accepted.json')
 
 
+def initial_file(d):
+    if (d/'turn1.repair.accepted.json').exists() or (d/'turn1.accepted.tsv').exists():
+        from enrichment.bible import discovery_first_repair as repair
+        repair.verify(d)
+        return d/'turn1.accepted.tsv'
+    return d/'turn1.list.tsv'
+
+
 def consolidation_plan(d, proposals_file='followup.tsv'):
     """Replayable, lossless consolidation; reference grouping happens only at handoff."""
     if proposals_file not in ('followup.tsv','followup.accepted.tsv'):
         raise ValueError('unsupported proposal file')
-    first = (d/'turn1.list.tsv').read_bytes()
-    initial, bad = D.parse_rows(d/'turn1.list.tsv')
+    initial_path = initial_file(d)
+    first = initial_path.read_bytes()
+    initial, bad = D.parse_rows(initial_path)
     proposals, extra_bad = D.parse_rows(d/proposals_file)
     if bad or extra_bad: raise ValueError(f'invalid TSV: {bad + extra_bad}')
     seen = {D.row_key(r):dict(phase=1,line=r['line'],row=r) for r in initial}
@@ -40,6 +49,9 @@ def consolidation_plan(d, proposals_file='followup.tsv'):
                   unique_additions=len(additions),repeated_proposals=repeats,retained=list(seen.values()),
                   proposal_file=proposals_file,proposal_sha256=D.digest(d/proposals_file),
                   followup_sha256=D.digest(d/'followup.tsv'))
+    if initial_path.name!='turn1.list.tsv':
+        report.update(initial_file=initial_path.name,initial_sha256=D.digest(initial_path),
+                      raw_initial_sha256=D.digest(d/'turn1.list.tsv'))
     return first+''.join(additions).encode(), report
 
 
@@ -61,7 +73,8 @@ def inputs_unchanged(d,start):
 
 
 def artifact_hashes(d):
-    return {name:D.digest(d/name) for name in (*ARTIFACTS,*REPAIR_ARTIFACTS) if (d/name).is_file()}
+    from enrichment.bible.discovery_first_repair import ARTIFACTS as FIRST_REPAIR_ARTIFACTS
+    return {name:D.digest(d/name) for name in (*ARTIFACTS,*REPAIR_ARTIFACTS,*FIRST_REPAIR_ARTIFACTS) if (d/name).is_file()}
 
 
 def verify_artifacts(d, log):
@@ -88,6 +101,14 @@ def verify_run(d, log):
     first = json.loads((d/'turn1.json').read_text())
     if first['sha256'] != D.digest(d/'turn1.list.tsv'):
         raise ValueError('first-turn snapshot changed')
+    if (d/'turn1.repair.accepted.json').exists():
+        from enrichment.bible import discovery_first_repair as first_repair
+        if not set(first_repair.ARTIFACTS).issubset(log['artifacts']):
+            raise ValueError('incomplete first-turn repair artifact chain')
+        if log.get('first_turn_repair')!=first_repair.verify(d):
+            raise ValueError('first-turn repair record differs from finished log')
+    elif log.get('first_turn_repair'):
+        raise ValueError('missing first-turn repair evidence')
     proposal_file = 'followup.tsv'
     if log['status'] == 'accepted':
         from enrichment.bible import discovery_repair as repair
@@ -126,8 +147,9 @@ def finish_run(d, start, session, events, done, contexts, usage, proof, diagnost
     rows,_ = D.parse_rows(d/'list.tsv')
     # Preserve the inspected native evidence, even when consolidation fails.
     (d/'session.events.jsonl').write_text(''.join(json.dumps(e,ensure_ascii=False)+'\n' for e in events))
-    row = {**start,**session,'arm':'discover-bible','status':'partial' if problems or error else 'ok',
-           'check':'findings' if problems or error or diagnostics or validation['findings'] or proposal_validation['findings'] or (cons and cons['repeated_proposals']) else 'ok',
+    row = {**start,**session,'arm':'discover-bible','reference_resolver':D.REFERENCE_RESOLVER,
+           'status':'partial' if problems or error else 'ok',
+           'check':'findings' if problems or error or diagnostics or validation['findings'] or proposal_validation['findings'] or (cons and cons['repeated_proposals']) or (d/'turn1.repair.accepted.json').exists() else 'ok',
            'turn1_rows':first['rows'],'turn1_sha256':first['sha256'],
            'turn2':dict(completed=len(done)==2,rows_total=len(rows),rows_added=cons['unique_additions'] if cons else 0),
            'append_only':append_only,'model_effort_verified':model_ok,'inputs_unchanged':unchanged,
@@ -136,6 +158,9 @@ def finish_run(d, start, session, events, done, contexts, usage, proof, diagnost
            'followup_delivery':proof,'usage_tokens':usage,'estimate_usd':0.0,'cost_usd':0.0,
            'cost_basis':'Codex subscription','completed_at':done[-1]['timestamp'] if done else None,
            'artifacts':artifact_hashes(d)}
+    if (d/'turn1.repair.accepted.json').exists():
+        from enrichment.bible import discovery_first_repair as repair
+        row['first_turn_repair']=repair.verify(d)
     D.save(d/'run.log.json',row)
     ledger = D.HERE/'work/discovery-ledger.jsonl'
     ledger.parent.mkdir(parents=True,exist_ok=True)
@@ -200,7 +225,10 @@ def main():
     session,events,done,contexts,usage = N.events_for(d)
     if a.phase == 'snapshot':
         if (d/'turn1.json').exists(): raise SystemExit('BLOCKED: already snapshotted')
-        rows,bad = D.parse_rows(d/'list.tsv')
+        repaired = (d/'turn1.repair.accepted.json').exists()
+        rows,bad = D.parse_rows(initial_file(d) if repaired else d/'list.tsv')
+        if repaired and (d/'list.tsv').read_bytes()!=(d/'turn1.original.tsv').read_bytes():
+            raise ValueError('native first-turn list changed since repair approval')
         if len(done) != 1 or bad or len({D.row_key(r) for r in rows}) != len(rows): raise ValueError(f'incomplete/invalid first turn: {bad}')
         data = (d/'list.tsv').read_bytes()
         if data and not data.endswith(b'\n'): raise ValueError('TSV must end in a newline')

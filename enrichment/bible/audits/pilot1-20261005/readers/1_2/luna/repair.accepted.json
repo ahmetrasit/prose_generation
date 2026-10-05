@@ -1,0 +1,52 @@
+{
+  "approval": "2026-10-05 user reply: Apply all 15 recorded follow-up corrections. Exact bundle: enrichment/bible/audits/pilot1-20261005/followup-repairs.proposed.json",
+  "accepted_at": "2026-10-05T16:04:04.176678+00:00",
+  "changes": [
+    {
+      "line": 21,
+      "before": [
+        "strong",
+        "tevrat",
+        "motif",
+        "WLC:Wis.11.24",
+        "God loves all that exists",
+        "The commentary says the Lord's care extends to all created kinds; Wisdom says God loves everything that exists and would not have made anything he hated."
+      ],
+      "after": [
+        "strong",
+        "tevrat",
+        "motif",
+        "Wisdom of Solomon 11:24",
+        "God loves all that exists",
+        "The commentary says the Lord's care extends to all created kinds; Wisdom says God loves everything that exists and would not have made anything he hated."
+      ],
+      "reason": "Wisdom is not contained in WLC. Retain a named-work candidate with the original Greek witness unavailable. KJV only helps identify the remembered passage; it cannot verify the connection."
+    },
+    {
+      "line": 22,
+      "before": [
+        "strong",
+        "tevrat",
+        "motif",
+        "WLC:Wis.11.26",
+        "all things are God's",
+        "The commentary calls God Rabb of all worlds; Wisdom says God spares all things because they are his and names him lover of life."
+      ],
+      "after": [
+        "strong",
+        "tevrat",
+        "motif",
+        "Wisdom of Solomon 11:26",
+        "all things are God's",
+        "The commentary calls God Rabb of all worlds; Wisdom says God spares all things because they are his and names him lover of life."
+      ],
+      "reason": "Wisdom is not contained in WLC. Retain a named-work candidate with the original Greek witness unavailable. KJV only helps identify the remembered passage; it cannot verify the connection."
+    }
+  ],
+  "raw_sha256": "ababe5114395b18f24fa86d42642d929bdc394308b4710351286ea904d7edd23",
+  "accepted_sha256": "beff3dfacc78430479d75618ec9ea0065c44b13fc864b837b1c9091944ee8a40",
+  "proposal_sha256": "223ab8d9ca05623b38e4addfbca168340b5430ce450b05e9b74dcb4d8bd5feb5",
+  "failed_log_sha256": "5a4b254631adb969e968b6d7769ba29880ea799ae9d171958736b7e948675fae",
+  "model_calls": 0,
+  "policy": "Raw proposals, failed validation and failed log preserved; no regrading."
+}

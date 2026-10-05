@@ -44,6 +44,10 @@ def check(path):
     with closing(sqlite3.connect(f'file:{D.INDEX}?mode=ro',uri=True)) as con:
         for row in rows:
             ref = row['ref']
+            if row.get('raw_ref'):
+                findings.append(dict(line=row['line'],ref=ref,raw_ref=row['raw_ref'],kind='reference_alias',
+                    resolver=row['reference_resolution'],
+                    message='Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged.'))
             canonical = con.execute('SELECT text,extra FROM seg WHERE seg=?',(ref,)).fetchone()
             if not canonical:
                 findings.append(dict(line=row['line'],ref=ref,kind='unresolved_text',
@@ -69,7 +73,7 @@ def check(path):
                         message='Wording absent from cited main text; review quotation, root/form, witness and verse boundary.'))
     return dict(file=str(path),rows=len(rows),unique_references=len({(r['tradition'],r['ref']) for r in rows}),
                 schema_errors=bad,duplicates=duplicates,strengths=dict(Counter(r['strength'] for r in rows)),
-                findings=findings,limits=LIMITS)
+                findings=findings,reference_resolver=D.REFERENCE_RESOLVER,limits=LIMITS)
 
 
 def main():

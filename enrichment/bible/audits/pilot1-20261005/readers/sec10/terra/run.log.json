@@ -1,0 +1,1132 @@
+{
+  "target": "sec10",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md",
+  "base_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/quran.json": "e41e9f866cc96a3aabb7e7261eaa67ce3ed05240642cc8f9fc58f7d1ed40bb40",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/pack.json": "e73af12590027cc99bcacb8f265c254315f6220f3b9b4297fdea1625243c0599"
+  },
+  "started": "2026-10-05T11:06:55.276966-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_pilot1_20261005_sec10_terra",
+  "model": "gpt-5.6-terra",
+  "effort": "max",
+  "run_tag": "pilot1-20261005",
+  "prompt_sha256": "0d4713c9f4cd1e50b613f4d88ce8fe768346d67efc39bc1f13e549f23606d4e6",
+  "package_sha256": "817579fbfbe5594fc098b7a50f378637e287e65cd54d6db01bd86f251ffc2ad8",
+  "input_sha256": "052e4c77d67c9cf4c720a00ae7a9a41a9dafb4d07fb1765dc477fcb34e140e63",
+  "spawn_sha256": "5023e4c4900e4cc5ff979443d3e232e1a451fbaabbaa412a7544b2e7799ee1f8",
+  "followup_text_sha256": "23f7157cfaee4dc9d76a6f8cf4ccb096b6135b3a57b9d7821fedd81cac2f90e0",
+  "agent_id": "01a10c9d-b23e-7353-bdf5-ed56aaea81c1",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T11-10-23-01a10c9d-b23e-7353-bdf5-ed56aaea81c1.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 52,
+  "turn1_sha256": "c5a46b771c76eae9e1dbe5c8c8881aa9c982b0f1b0b988bb313d5658db887db7",
+  "turn2": {
+    "completed": true,
+    "rows_total": 80,
+    "rows_added": 28
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 52,
+    "raw_proposal_rows": 28,
+    "unique_additions": 28,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.22.2",
+          "basis": "unknown owner; restore the animal",
+          "note": "The verse anticipates finding a straying animal when its owner is not near or is not known, keeping it until the owner seeks it, and restoring it; this is a close legal counterpart to the dālla camel whose rab/mālik is unknown."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Deut.22.1",
+          "basis": "straying ox or sheep",
+          "note": "The command to return a brother’s ox or sheep that has gone astray gives the commentary’s escaped animal a concrete action and owner relation rather than treating “straying” as an abstraction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.23.4",
+          "basis": "enemy’s wandering ox or donkey",
+          "note": "Even an enemy’s wandering ox or donkey must be returned; the scene joins a loose pack animal to the obligation created by its known owner."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Bava Metzia 2:9",
+          "basis": "when a roadside animal counts as lost",
+          "note": "The mishnah distinguishes an animal merely grazing on a road from one whose state shows genuine loss, then requires return; it gives a legal test for the commentary’s concrete dālla rather than equating every free animal with a lost one."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Babylonian Talmud, Bava Metzia 27a",
+          "basis": "identifying signs for restitution",
+          "note": "The discussion of simanim in the law of lost property makes an identifying sign the means by which an item can be restored; it is a direct legal analogue to the camel’s wasm/sīmah by which it is recognized."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.30.32",
+          "basis": "speckled and spotted flock as wages",
+          "note": "Jacob sets visibly marked sheep and goats apart as his wages, so an animal’s visible feature allocates it within a flock to a particular claimant."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.30.33",
+          "basis": "visible color proving ownership or theft",
+          "note": "Jacob says the flock’s visible coloring will demonstrate his innocence and expose a stolen animal; this makes an animal mark an evidentiary sign of whose it is."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.1.3",
+          "basis": "ox knows owner; donkey master’s manger",
+          "note": "Isaiah says an ox knows its owner and a donkey its master’s manger while Israel does not know; it directly parallels the commentary’s claim that livestock recognize owner and place while humans can be more lost."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Jer.50.6",
+          "basis": "lost sheep; misleading shepherds; resting place",
+          "note": "Jeremiah calls the people lost sheep, says their shepherds led them astray, and says they forgot their resting place; it combines the commentary’s stray animal, failed leader, path, and merabb-like place of remaining."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.119.176",
+          "basis": "lost sheep asks to be sought",
+          "note": "The speaker says that he has gone astray like a lost sheep and asks the Lord to seek his servant, turning the lost-animal image into a prayer for recovery by the rightful master."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ezek.34.16",
+          "basis": "seek the lost and bring back the strayed",
+          "note": "God’s shepherding promise explicitly seeks the lost and returns the strayed, supplying the caring owner-side of the commentary’s camel left in an unowned place."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Exodus Rabbah 2:2",
+          "basis": "Moses follows a runaway lamb to water",
+          "note": "The midrash has Moses pursue a lamb that has run from Jethro’s flock, find it drinking, and carry it back; God makes that care the reason he can shepherd Israel, joining the stray animal, water/pasture, and qualified leader."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.15.4",
+          "basis": "one lost sheep sought by its owner",
+          "note": "The man who loses one of a hundred sheep goes after the lost one, a direct recovery scene for the commentary’s animal separated from its owner and herd."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "Gospel of Thomas 107",
+          "basis": "one strayed sheep valued above the ninety-nine",
+          "note": "This lost-sheep version has the shepherd seek the one that strayed and value it above the ninety-nine, a distinct Christian apocryphal intensification of the individual animal’s recovery."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:1Pet.2.25",
+          "basis": "straying sheep return to Shepherd and Overseer",
+          "note": "The addressees were sheep going astray but have returned to a Shepherd and Overseer; it connects wandering from the way with restoration to a guiding, responsible figure."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:John.10.3",
+          "basis": "own sheep called by name and led out",
+          "note": "The shepherd calls his own sheep by name and leads them out, joining recognized belonging with a leader who initiates the flock’s movement."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:John.10.4",
+          "basis": "shepherd goes ahead and sheep follow",
+          "note": "The shepherd goes in front and the sheep follow his voice, the closest New Testament rendering of the commentary’s front animal/hādī followed by the rest of the herd."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:John.10.14",
+          "basis": "owner and flock know one another",
+          "note": "The reciprocal knowledge of shepherd and sheep gives a direct positive counterpart to the dālla whose rab and mālik cannot be identified."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.9.36",
+          "basis": "sheep without a shepherd",
+          "note": "Jesus sees the crowds as sheep without a shepherd; the image makes the lack of a leading, responsible figure the cause of a dispersed and distressed flock."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.27.17",
+          "basis": "leader goes out before the people",
+          "note": "Moses asks for a leader who will go out before and bring the people in, so that they will not be sheep without a shepherd; it applies the commentary’s front-leading herd image to communal guidance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.13.21",
+          "basis": "God goes before to lead by the way",
+          "note": "The Lord goes before Israel in the pillar to lead them on the way, giving the request for guidance a concrete leading-before movement like the commentary’s hādī."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.10.33",
+          "basis": "what goes ahead seeks a resting place",
+          "note": "The ark goes before the people to seek out a resting place for them; it binds the front guide to finding the place where the moving community may remain."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.78.53",
+          "basis": "people led like sheep through wilderness",
+          "note": "God leads the people out like sheep and guides them like a flock in the wilderness, directly joining flock, guidance, and a journey through exposed country."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.2",
+          "basis": "YHWH as shepherd",
+          "note": "The declaration that the Lord is the speaker’s shepherd gives the commentary’s rab/mālik relation its classic pastoral form: a flock has a guiding provider."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.3",
+          "basis": "green pastures and resting waters",
+          "note": "The shepherd makes the sheep lie in green pastures and leads them to resting waters, closely matching the herd’s fixed place and the pasture it finds pleasing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.23.4",
+          "basis": "leading in right tracks",
+          "note": "The shepherd restores life and leads in right tracks, providing a pastoral analogue to ihdinā and the straight path rather than guidance as a disembodied instruction."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.40.11",
+          "basis": "shepherd feeds, gathers, and gently leads",
+          "note": "The divine shepherd feeds the flock, gathers lambs, and gently leads nursing ewes; it develops both pasture-care and differentiated leadership within a herd."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.34.14",
+          "basis": "good pasture and secure lying down",
+          "note": "God promises good pasture where the flock will lie down, a precise counterpart to the merabb where camels stay and the land whose grazing is approved."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 10:10",
+          "basis": "Wisdom guides on straight paths",
+          "note": "Wisdom guides the righteous person on straight paths in its account of divine guidance; it supplies a Jewish Second Temple formulation for the commentary’s moving sense of the straight path."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.42.16",
+          "basis": "unknown paths made straight",
+          "note": "God leads the blind on an unknown way and makes crooked ground straight, directly pairing guidance with the contrast between a right path and a deviating one."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.13.10",
+          "basis": "perverting the straight paths of the Lord",
+          "note": "The rebuke names the straight paths of the Lord and accuses its target of making them crooked, a concrete New Testament counterpart to the commentary’s path that turns aside from the qasd."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Pet.2.15",
+          "basis": "forsaking the straight way and going astray",
+          "note": "The text says its opponents abandoned the straight way and went astray, retaining both sides of the commentary’s road vocabulary rather than merely a general moral failure."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.7.17",
+          "basis": "Lamb shepherds and guides to springs",
+          "note": "The Lamb becomes the flock’s shepherd and guides them to springs of water; this striking reversal makes an animal the leader while retaining the commentary’s guide-and-pasture movement."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.4",
+          "basis": "followers go wherever the Lamb goes",
+          "note": "The redeemed follow the Lamb wherever he goes, an explicit following relation that gives the commentary’s herd behind its leading animal a Christian eschatological form."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.50.11",
+          "basis": "all cattle belong to God",
+          "note": "God declares every forest beast and the cattle on a thousand hills to be his, a direct biblical counterpart to the commentary’s claim that every creature has its rab/mālik."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Job.42.12",
+          "basis": "divine blessing includes six thousand camels",
+          "note": "The verse calls Job’s latter state blessed and immediately counts his camels among its abundance, closely matching the commentary’s association of camels with niʿma, benefit, and blessing."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.60.6",
+          "basis": "camels bear precious cargo over distance",
+          "note": "A multitude of camels carries gold and frankincense and brings proclamation of the Lord’s praises; it closely matches the commentary’s load-bearing animals and its hamd/benefit frame."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.14",
+          "basis": "grass grown for cattle",
+          "note": "God causes grass to grow for cattle, giving the good pasture in the commentary a providential source rather than treating it as only a herd preference."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.23.5",
+          "basis": "donkey lying under its burden",
+          "note": "The command to help an enemy’s donkey collapsed under its load gives an ethical counterpart to the commentary’s carrying mount: its legs bear burdens, so the human associated with it must assist."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.1.28",
+          "basis": "human rule over living creatures",
+          "note": "Humanity is told to rule the moving creatures, a creation-account counterpart to the commentary’s Qur’anic picture of livestock made subject to human possession; the biblical verse frames that relation as a commission."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.12.10",
+          "basis": "the righteous know an animal’s needs",
+          "note": "The righteous person knows the life or needs of his animal, adding responsibility and attention to the commentary’s owner-and-herd relation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jonah.4.11",
+          "basis": "divine pity includes much cattle",
+          "note": "God’s stated pity for Nineveh explicitly includes its many cattle, a concrete biblical companion to the commentary’s move from useful animals to the Lord’s compassion."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.39.5",
+          "basis": "wild ass sent free and unbound",
+          "note": "Job asks who released the wild ass and loosed its bonds; it gives the commentary’s wild-ass herd a theological counterweight to the tame, owner-marked animal."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.39.6",
+          "basis": "wild ass given wilderness as home",
+          "note": "God gives the wild ass the steppe and salt land as its dwelling, making the wilderness place in the commentary’s lost-animal definition a positive habitat for a creature not domesticated by humans."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.32.10",
+          "basis": "horse and mule need bit and bridle",
+          "note": "The psalm contrasts a human who should understand with horse and mule controlled by bridle; its training image usefully complicates the commentary’s tame camel and animal-led guidance without making the two moral claims identical."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.1",
+          "basis": "name written on the forehead",
+          "note": "The Lamb’s followers visibly bear his and his Father’s name on their foreheads, a personal and covenantal analogue to the commentary’s visible brand that makes an animal’s belonging recognizable."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "Basil of Caesarea, Hexaemeron 8:4",
+          "basis": "bees ordered under a king",
+          "note": "Basil’s bee discussion presents the hive as an ordered community under a king; it supplies a Christian natural-theological analogue to the commentary’s malik of the bees, though section divisions vary by edition."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:1Cor.9.9",
+          "basis": "unmuzzled ox re-read for human workers",
+          "note": "Paul invokes the rule against muzzling a grain-treading ox in an argument about the support of human workers; this Christian reading turns a working animal’s claim into a claim about labor, relevant to the commentary’s tamed, load-bearing animal."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:1Sam.8.20",
+          "basis": "Hebrew melek goes before the people",
+          "note": "Hebrew melek is cognate with the commentary’s m-l-k label, and this verse asks for a king who will go before Israel; its own context thus pairs the cognate title with the front-leading function the commentary gives to milk."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Josh.24.15",
+          "basis": "Hebrew ʿbd, serving YHWH",
+          "note": "Hebrew ʿbd is cognate with the commentary’s Arabic ʿ-b-d label; Joshua’s choice to serve the Lord supplies the worship-side use of that family, without transferring the camel-treatment sense into the verse."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Prov.3.17",
+          "basis": "Hebrew noʿam and paths",
+          "note": "Hebrew noʿam is cognate with the commentary’s n-ʿ-m label, and Wisdom’s ways are called ways of pleasantness; the verse joins the source’s blessing/pleasant-pasture association to a path."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "weak",
+          "tradition": "incil",
+          "kind": "soydas",
+          "ref": "SBLGNT:John.1.38",
+          "basis": "Aramaic Rabbi as an authority title",
+          "note": "The source labels rabb as an owner-title; John retains the Semitic title Rabbi and glosses it as Teacher. The likely cognate relation supplies only a title comparison here, not evidence that John’s teacher image is a flock-owner image."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 18:13",
+          "basis": "Lord’s mercy trains and turns back like a shepherd",
+          "note": "Sirach describes the Lord’s compassion as rebuking, training, teaching, and turning creatures back as a shepherd turns his flock; it gathers the commentary’s merciful rab, tamed animal, straying, and restoration into one Jewish formulation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Num.22.23",
+          "basis": "donkey turns aside because it sees the angel",
+          "note": "Balaam’s donkey leaves the road after seeing the divine messenger while its human rider cannot see and beats it. The scene reverses the surface value of an animal’s turning aside: the animal is the one properly guided, sharpening the commentary’s animal-and-human contrast."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.10.11",
+          "basis": "trained heifer; fair neck; harness",
+          "note": "Hosea calls Ephraim a trained heifer and describes placing a yoke on its fair neck for work; this is a close prophetic animal image for the commentary’s muʿabbad camel and its guiding neck."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.11.4",
+          "basis": "cords of love; yoke lifted; feeding",
+          "note": "God leads Israel with cords of kindness and love, lifts the yoke from its jaws, and bends down to feed it. The verse combines animal training, gentle leading, pasture-like provision, and divine compassion."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.39.9",
+          "basis": "wild ox will not serve or stay at the manger",
+          "note": "The divine questions ask whether the wild ox will consent to serve a human or spend the night at the manger, directly contrasting a human-owned, tamed herd with a wild bovine beyond ordinary possession."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.39.10",
+          "basis": "wild ox bound to furrow and harrow",
+          "note": "The next question tests whether the wild ox can be bound with a cord to plow and harrow; it supplies the laboring, guided-animal side of the commentary’s mount carried and directed by its body."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.30.6",
+          "basis": "camel humps carrying treasure through hard country",
+          "note": "The oracle pictures wealth carried on camels’ humps through a land of distress, a specific Hebrew Bible counterpart to the commentary’s animals carrying burdens to distant places."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Song.1.7",
+          "basis": "where the shepherd pastures and lets flock rest",
+          "note": "The beloved asks where the shepherd pastures his flock and makes it lie down at noon, directly matching the commentary’s owner, grazing place, and place of remaining."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Song.1.8",
+          "basis": "follow flock tracks and pasture kids near shepherd tents",
+          "note": "The reply directs the seeker to go out by the tracks of the flock and pasture her kids beside shepherds’ tents; it gives an unusually exact literary image of following a herd’s route toward a shepherded grazing place."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.31.9",
+          "basis": "led by water on a straight path without stumbling",
+          "note": "God promises to lead the returning people by streams of water on a straight way where they will not stumble, binding the commentary’s guidance request, straight path, and animal-water/pasture scene."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.49.10",
+          "basis": "compassionate guide leads to water springs",
+          "note": "The compassionate one leads the hungry and thirsty and guides them by springs of water, a direct guide-and-pasture counterpart to the hādī leading a herd."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.10.2",
+          "basis": "flock wanders for lack of shepherd",
+          "note": "The people wander like sheep and suffer because there is no shepherd, making the absence of the commentary’s front-leading, responsible figure the stated cause of dispersion."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.27.23",
+          "basis": "know the condition of flocks and attend to herds",
+          "note": "The proverb requires careful knowledge of the state of one’s flock and attention to herds, adding the sustained ownerly care absent from the unknown-owner definition of the dālla."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.12.11",
+          "basis": "a sheep fallen into a pit is lifted out",
+          "note": "Jesus assumes that an owner will take hold of and lift out a sheep fallen into a pit even on the Sabbath, a concrete recovery scene for the commentary’s animal left in an exposed place."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.15.5",
+          "basis": "found sheep carried on shoulders",
+          "note": "After finding the lost sheep, the shepherd lays it on his shoulders with joy; this supplies the bodily return of the escaped animal that the preceding search scene alone does not state."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.13.15",
+          "basis": "owner unties ox or donkey and leads it to water",
+          "note": "Jesus describes each person untying an ox or donkey from the stall and leading it to water, joining a known owner, a restrained domestic animal, purposeful leading, and animal provision."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.20.28",
+          "basis": "overseers shepherd God’s acquired flock",
+          "note": "The elders must shepherd God’s flock, which God acquired, while serving as overseers. It distinguishes the true owner from delegated guides in a way that closely illuminates the commentary’s rab/mālik and leading-animal relation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.5.2",
+          "basis": "shepherd the flock of God under oversight",
+          "note": "The elders are told to shepherd the flock of God and exercise oversight, a specific Christian instruction about the responsibility attached to leading another’s flock."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.31.18",
+          "basis": "untrained calf asks to be turned back",
+          "note": "Ephraim compares itself to an untrained calf and asks God to turn it back. The image gives the commentary’s tamed animal and its loss of direction a penitential human counterpart."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.33.13",
+          "basis": "shepherd moderates pace for tender flock",
+          "note": "Jacob says tender children and nursing flocks cannot be driven hard without losing the herd. It adds a concrete criterion for a leader’s guidance: the front-moving party must accommodate the flock it leads."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.12.7",
+          "basis": "animals teach the human questioner",
+          "note": "Job invites the sufferer to ask the animals, which will teach him. This develops the commentary’s secondary reversal in which animal life may disclose what a human who has lost the way fails to know."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.104.11",
+          "basis": "wild asses drink from God’s waters",
+          "note": "God’s waters give drink to beasts of the field and quench the thirst of wild asses, giving the commentary’s ownerless wild-ass image a providential water-and-habitat setting."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hos.8.9",
+          "basis": "wild donkey wandering alone",
+          "note": "Hosea compares political wandering to a wild donkey going alone; it supplies a biblical use of the wild-ass figure for self-directed separation rather than the secure movement of a herd."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.43.1",
+          "basis": "called by name and declared God’s own",
+          "note": "The creator calls Israel by name and says “you are mine,” a human counterpart to the commentary’s brand that makes an animal’s belonging and owner recognizable."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.25.4",
+          "basis": "working ox must not be muzzled",
+          "note": "The law preserves the feeding claim of an ox while it works, adding an ethical limit to treating the commentary’s tamed, useful animal solely as a bearer of human benefit."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:1Cor.9.7",
+          "basis": "flock-tender receives milk from the flock",
+          "note": "Paul’s labor argument asks who tends a flock without drinking its milk. Alongside his ox citation, this turns the material benefit of a tended flock into an analogy for the guide’s rightful support."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.2.19",
+          "basis": "seal says the Lord knows those who are his",
+          "note": "God’s firm foundation bears a seal declaring that the Lord knows those who are his, a textual counterpart to the commentary’s visible mark and the lost camel whose owner cannot be known."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.11.29",
+          "basis": "take my yoke and learn from me",
+          "note": "Jesus’ invitation to take his yoke and learn makes animal harness a figure for guided discipleship, offering a Christian transformation of the commentary’s subdued, neck-directed animal."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "1b5239246ed25bc99018fe0b6e8c892893ab0592528c99dc69e7447ab511add7",
+    "followup_sha256": "1b5239246ed25bc99018fe0b6e8c892893ab0592528c99dc69e7447ab511add7"
+  },
+  "consolidation_error": null,
+  "list_sha256": "e65ad30f1a39d8ec4939a13f187be3060f4be3500c9ff77840be8df739136318",
+  "followup_delivery": [
+    {
+      "call_id": "call_dM2eWjF4ezSJy6vjse9v10A6",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 285418,
+    "cached_input_tokens": 230912,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 45747,
+    "reasoning_output_tokens": 39824,
+    "total_tokens": 331165
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T15:32:43.816Z",
+  "artifacts": {
+    "started.json": "75d2cd28adfc1d31a654f54604a0cecc837141d3e1703840f30d87bd47d7a81d",
+    "input.json": "052e4c77d67c9cf4c720a00ae7a9a41a9dafb4d07fb1765dc477fcb34e140e63",
+    "prompt.md": "0d4713c9f4cd1e50b613f4d88ce8fe768346d67efc39bc1f13e549f23606d4e6",
+    "package.md": "817579fbfbe5594fc098b7a50f378637e287e65cd54d6db01bd86f251ffc2ad8",
+    "spawn.md": "5023e4c4900e4cc5ff979443d3e232e1a451fbaabbaa412a7544b2e7799ee1f8",
+    "followup.txt": "23f7157cfaee4dc9d76a6f8cf4ccb096b6135b3a57b9d7821fedd81cac2f90e0",
+    "turn1.json": "6ecda363410180867bf0dbbb937ea03052e7ac591d697e53e21d4d0557e446f0",
+    "turn1.list.tsv": "c5a46b771c76eae9e1dbe5c8c8881aa9c982b0f1b0b988bb313d5658db887db7",
+    "followup.tsv": "1b5239246ed25bc99018fe0b6e8c892893ab0592528c99dc69e7447ab511add7",
+    "list.tsv": "e65ad30f1a39d8ec4939a13f187be3060f4be3500c9ff77840be8df739136318",
+    "consolidation.json": "d01664f96766da2a0b765dbe83794858bd2f4a3fc67f87ac5c2523f9d82c0dbf",
+    "validation.json": "fbcef8c5b4fd7df8ef65415795a3c4f3df87a618ad25a28fc4aeb49a4ec839eb",
+    "proposal_validation.json": "373ec9073569ac4348ecee8a3bb63eda2fc11843db706a68f742d41695f1a85d",
+    "tool_calls.json": "dbeb8c94f53cd482bf7b3de86550de6b95b5da9ec4bac3d29604c578f535069c",
+    "session.json": "ba775d6717620c1558eea14636d2fb38f993a2202414e2d5fb82a49c2df3869f",
+    "session.events.jsonl": "b59673068f53b2e56a7a79ca6fc16a2270b76b0ca1765acf8b4758195f7f60c1"
+  }
+}

@@ -1,0 +1,1834 @@
+{
+  "target": "sec7",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md",
+  "base_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/quran.json": "e41e9f866cc96a3aabb7e7261eaa67ce3ed05240642cc8f9fc58f7d1ed40bb40",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/pack.json": "e73af12590027cc99bcacb8f265c254315f6220f3b9b4297fdea1625243c0599"
+  },
+  "started": "2026-10-05T11:06:54.158633-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_pilot1_20261005_sec7_terra",
+  "model": "gpt-5.6-terra",
+  "effort": "max",
+  "run_tag": "pilot1-20261005",
+  "prompt_sha256": "97fd841cd22c468e6113825795a1c0255ca76ab3b05c79922e0b7806b8e2296c",
+  "package_sha256": "7619b7e3765c3841ea4c02d7b3a6ad7d662084987607a0224674388346fba469",
+  "input_sha256": "7b101f96de1ef6920187969ce7fd4251e6c217b3daf3a0f5488a4042ad027e26",
+  "spawn_sha256": "c45de5b954bff32f268f934700cd9410bfb9562522db049fa5ebb2d0321b425b",
+  "followup_text_sha256": "3509042971a752f6efef8a906482d19a7cf96788095da9f554e616dcbd49b815",
+  "agent_id": "01a10c9c-8b7d-7cd1-a9ac-33d4bd242d94",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T11-09-08-01a10c9c-8b7d-7cd1-a9ac-33d4bd242d94.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 92,
+  "turn1_sha256": "fd45b3c3c692e536fddd9ecc4a79994b43ec9fd795dc11825c71163e4283738a",
+  "turn2": {
+    "completed": true,
+    "rows_total": 133,
+    "rows_added": 41
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [
+    {
+      "call_id": "call_bttsFf3ma92BPYAT0Y0lG0U6",
+      "message": "Script failed"
+    },
+    {
+      "call_id": "call_bttsFf3ma92BPYAT0Y0lG0U6",
+      "message": "Script error:"
+    },
+    {
+      "call_id": "call_bttsFf3ma92BPYAT0Y0lG0U6",
+      "message": "apply_patch verification failed: invalid hunk at line 35, 'göklerin Tanrı yüceliğini anlatması\tGökler Tanrı'nın yüceliğini anlatır ve gökkubbe el işini bildirir; yaratılmış âlemin kendisiyle yaratanın bilindiği görüşünü şiirsel olarak kurar.' is not a valid hunk header. Valid hunk headers: '*** Add File: {path}', '*** Delete File: {path}', '*** Update File: {path}'"
+    }
+  ],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 92,
+    "raw_proposal_rows": 41,
+    "unique_additions": 41,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.34.6",
+          "basis": "YHWH adı ve merhamet sıfatları",
+          "note": "Musa'nın önünde YHWH adını ilan ederken Tanrı kendisini bağışlayıcı ve merhametli diye niteler; açılıştaki Rahman-Rahim ile adın birlikte söylenmesine doğrudan bir karşılık verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "b. Rosh Hashanah 17b",
+          "basis": "Çıkış 34'ün ad-ilanı",
+          "note": "Bu sugyada Tanrı'nın Musa'ya merhamet sıfatlarının düzenini bir dua önderi gibi öğrettiği okunur; adın ilanını çağrı ve bağışlanma pratiği haline getirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Exod.3.15",
+          "basis": "kalıcı ilâhî ad",
+          "note": "YHWH bu adı nesiller boyunca anılacak adı olarak verir; yorumdaki en büyük adın çağrıda söylenmesi ve tanınmayı taşımasıyla buluşur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.8.2",
+          "basis": "ad, yücelik ve gökler",
+          "note": "Mezmur, YHWH'nin adını bütün yeryüzünde görkemli ve ihtişamını göklerin üstüne konmuş diye över; ad-yükseklik birleşimini açıkça kurar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.20.6",
+          "basis": "Tanrı adı altında sancak",
+          "note": "Zafer sevincini Tanrı'nın adıyla sancak dikmekle birleştirir; yorumdaki adın ve savaş nişanının aynı tanıtıcı iş oluşuna en yakın birleşik örnektir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.6.27",
+          "basis": "adın halkın üzerine konması",
+          "note": "Kâhinlerin İsrail'in üzerine YHWH adını koyması, adın kişilerin üstüne yerleştirilen ve onları belirleyen bir işaret oluşunu somutlaştırır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.28.10",
+          "basis": "adla tanınan halk",
+          "note": "Diğer halklar İsrail'in YHWH adıyla çağrıldığını görür; adın bir topluluğu dışarıdan tanınır kılan nişan olmasıyla birleşir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.3",
+          "basis": "adı ilan etmek, büyüklük vermek",
+          "note": "Musa YHWH adını ilan edeceğini ve Tanrı'ya büyüklük atfedilmesini ister; yorumdaki adın yükseltilmesi ile çağrının birleştiği litürjik biçimdir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.20.7",
+          "basis": "adı boşluğa kaldırmamak",
+          "note": "Buyruk, Tanrı adının boş ya da yalancı amaçla taşınmasını veya kaldırılmasını yasaklar; yorumdaki yükseltilmiş ad ile altında gerçek bulunmayan ad ayrımına etik bir sınır çizer."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.57.15",
+          "basis": "yüce olanın kutsal adı",
+          "note": "Yüksek ve yüce Olan kendisini adı Kutsal olan diye tanımlar; yükseklik ile ilâhî adın yan yana gelişi yorumun ilk imgesine yakındır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.1.11",
+          "basis": "uluslar arasında büyük ad",
+          "note": "YHWH'nin adı uluslar arasında büyük, her yerde sunuyla onurlandırılan bir addır; iyi adın insanlar arasında yayılması imgesini ilâhî ölçekte işler."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.18.10",
+          "basis": "adın sığınak oluşu",
+          "note": "YHWH'nin adı güçlü kule diye nitelenir ve doğru kişi ona koşar; ad burada yalnız bir etiket değil, kendisiyle eyleme girilen tanınmış kudrettir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.4.26",
+          "basis": "adı çağırmak",
+          "note": "Enoş günlerinde YHWH adını çağırmaya başlanır; yorumdaki Ya Allah diye seslenme ve adla başlangıç için eski bir çağrı örneğidir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.17.45",
+          "basis": "Tanrı adıyla savaşa çıkmak",
+          "note": "Davud silaha karşı YHWH'nin adıyla geldiğini söyler; adın savaşçının taşıdığı nişanla aynı sahada yetki ve aidiyet göstermesine karşılık gelir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zech.14.9",
+          "basis": "tek Tanrı, tek ad",
+          "note": "Eschatolojik tabloda YHWH bir ve adı bir olacaktır; yorumdaki O'nun adını taşıyacak dengin bulunmamasıyla somut bir tek-ad iddiasında buluşur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.23.13",
+          "basis": "başka ilâhların adını anmamak",
+          "note": "İsrail başka tanrıların adını ağza almamakla yükümlüdür; Yusuf'un gerçekliği olmayan adları eleştirmesine, adın söyleyişinin de kullukla ilgili olduğunu gösteren bir eşliktir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.12.3",
+          "basis": "putların adlarını yok etmek",
+          "note": "Kenan ibadet yerlerinde put adlarının silinmesi emredilir; sahipsiz ya da rakip adların kaldırılması, yorumdaki adın altında tanıtacak bir şey bulunmaması eleştirisini somutlaştırır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.42.8",
+          "basis": "adı ve başkasına verilmeyen yücelik",
+          "note": "YHWH kendi adını söyler ve yüceliğini başkasına vermeyeceğini bildirir; en büyük ad ile eşsiz kulluk arasındaki ilişkiyi işler."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.18.24",
+          "basis": "adıyla çağrılan Tanrı'nın cevap vermesi",
+          "note": "Karmel'de hangi tanrının ateşle cevap vereceği, onun Tanrı olduğunu gösterecektir; çağrılan adın gerçek sahibi tanıtıp tanıtmadığını sahneleştirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:1Kgs.18.26",
+          "basis": "Baal adının cevapsız çağrılması",
+          "note": "Baal'ın adı uzun süre çağrılır ama ses ve cevap gelmez; Yusuf'un ataların taktığı boş adlar sözüne anlatı biçiminde bir karşılık verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Gen.2.19",
+          "basis": "Âdem'e hayvan adları",
+          "note": "Yorumdaki Âdem'e bütün adların öğretilmesiyle aynı sahnede Tanrı hayvanları Âdem'e getirip onları ne adlandıracağını görür; burada ad veren insan, öğreten Tanrı değildir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Gen.2.20",
+          "basis": "Âdem'in bütün hayvanları adlandırması",
+          "note": "Âdem evcil hayvanlara, kuşlara ve kır hayvanlarına ad verir; Kur'an yorumunun ilâhî ad öğretisi vurgusuna karşı insanın ayırt edip ad verme görevini öne çıkarır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Genesis Rabbah 17:4",
+          "basis": "Âdem'in ad verme bilgeliği",
+          "note": "Midraş, meleklerin söyleyemediği hayvan adlarını Âdem'in söylemesini Tanrı'nın sınaması olarak anlatır; isim verme olayını tanıma ve ayırt etme bilgeliği diye açar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.2.2",
+          "basis": "oymak sancakları",
+          "note": "İsrail oymakları kendi sancakları ve ata evlerinin işaretleri yanında konaklar; yorumdaki savaşta süvarinin nişanı ve bayrağın ayırt edici işleviyle örtüşür."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.11.10",
+          "basis": "halklar için dikilen işaret",
+          "note": "Yesse'nin kökü halklar için bir işaret olarak durur ve uluslar onu arar; yükseltilen görünür işaretin tanınma ve toplanma sağlamasıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.11.12",
+          "basis": "uluslar için kaldırılan sancak",
+          "note": "YHWH uluslara bir sancak kaldırır ve dağılmışları toplar; yorumdaki alem ve sancak imgesinin işaret etme işini doğrudan paylaşır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.21.8",
+          "basis": "direğe konan yılan",
+          "note": "Yılanın direğe konması ve ısırılanın ona bakarak yaşaması, yukarı konmuş görünür bir nesnenin tanınma ve hayatla ilişkisini kurar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "m. Rosh Hashanah 3:8",
+          "basis": "yükseltilmiş yılana bakmak",
+          "note": "Mişna, yılanın kendi başına öldürüp diriltmediğini; İsrail gözünü yukarı kaldırıp yüreğini Tanrı'ya bağladığında iyileştiğini açıklar. Yükseltilmiş işaretin bilgiyi Tanrı'ya yöneltmesi yorumuna yorum geleneği ekler."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Josh.4.6",
+          "basis": "sorulan taş işareti",
+          "note": "Şeria'dan alınan taşlar çocukların anlamını soracağı bir işaret olur; işaretin bir olayı kendisiyle bilinir ve anlatılır kılması yorumdaki tanıma işlevini somutlaştırır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.20.12",
+          "basis": "bilmek için verilen Şabat işareti",
+          "note": "Şabatlar, YHWH'nin onları kutsadığını bilmeleri için İsrail ile Tanrı arasındaki işaret olarak verilir; nişanın varlık sebebinin bilmek olduğu cümleye çok yakındır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.1.14",
+          "basis": "gök cisimlerinin işaret oluşu",
+          "note": "Gök ışıkları zamanlar ve mevsimler için işaret olarak yaratılır; yorumun bütün yaratılışı Rabbin tanıtıcı işaretleri olarak okumasının kozmik bir örneğidir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.19.2",
+          "basis": "göklerin Tanrı yüceliğini anlatması",
+          "note": "Gökler Tanrı'nın yüceliğini anlatır ve gökkubbe el işini bildirir; yaratılmış âlemin kendisiyle yaratanın bilindiği görüşünü şiirsel olarak kurar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.12.7",
+          "basis": "hayvanlardan öğrenmek",
+          "note": "Eyüp, hayvanlara ve kuşlara sorulursa öğreteceklerini söyler; her canlı türünün kendi başına öğretici işaret olması fikrine belirli bir hayvanlar sahnesi verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.12.9",
+          "basis": "yaratılmışlarda YHWH'nin elini bilmek",
+          "note": "Bu canlılar arasında YHWH'nin elinin bunu yaptığını bilmeyen kimdir diye sorar; izden yaratanı tanıma sonucunu açıkça söyler."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 13:5",
+          "basis": "yaratılmışların büyüklüğü ve güzelliği",
+          "note": "Yaratılmışların büyüklüğü ve güzelliğinden yapıcının kıyasla kavrandığını söyler; âlemlerin birer tanıtıcı nişan olması için yakın Yahudi hikmet paralelidir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.1.20",
+          "basis": "yaratılmışlardan görünmeyeni kavramak",
+          "note": "Tanrı'nın görünmeyen niteliklerinin yaratılmış şeyler aracılığıyla görülüp anlaşıldığını söyler; yaratılışı bilgiyi taşıyan işaret olarak okur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Gen.4.15",
+          "basis": "Kayin'in korunma işareti",
+          "note": "Tanrı Kayin'i bulanların onu öldürmemesi için üzerine işaret koyar; Kur'an'daki buruna vurulacak cezalandırıcı damgaya karşı, tanınabilir işaret burada koruyucudur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Gen.17.11",
+          "basis": "bedendeki antlaşma işareti",
+          "note": "Sünnet, bedende İbrahim antlaşmasının işareti olarak verilir; yorumdaki dağlanmış tanıma izine karşı bedensel işaretin aidiyet ve antlaşma işlevini gösterir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Exod.12.13",
+          "basis": "kapılardaki kan işareti",
+          "note": "Kan, evleri tanıtan ve felaketten esirgeyen işarettir; Kur'an'daki cezaya ait damga ile aynı ayırt etme biçiminin ters sonucunu verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.13.9",
+          "basis": "elde ve gözler arasında işaret",
+          "note": "Çıkış anması elde işaret ve gözler arasında anı olarak konur, böylece YHWH'nin öğretisi ağızda kalır; beden izi, bellek ve tanımanın birlikte işlemesidir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Ezek.9.4",
+          "basis": "alındaki tav işareti",
+          "note": "Yeruşalim'in günahına yas tutanların alınlarına işaret konur; burada görünür damga seçilmişleri korurken Kur'an'daki burun damgası mahkûmiyet bildirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "b. Shabbat 55a",
+          "basis": "Ezekiel'deki tavın mürekkep ve kanla okunması",
+          "note": "Talmud, Ezekiel'in alnındaki işareti doğrular için mürekkep, kötüler için kan diye ayrıntılandırır; işaretin hayır ve şerri okuyup ayırması yorumdaki tevesseme temasını keskinleştirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.44.5",
+          "basis": "elde yazı ve YHWH'ye ait ad",
+          "note": "Kişi eline YHWH'ye ait olduğunu yazar ve kendini İsrail adıyla adlandırır; ad ile bedensel işaretin aynı aidiyet bildiriminde birleşmesidir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.5.5",
+          "basis": "duvarda beliren yazı izi",
+          "note": "Şölen sırasında insan eli duvarın sıvasına yazı yazar; görülen ama ilk anda okunmayan işaret, yorumdaki iz okuma imgesine yargı sahnesi ekler."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Dan.5.25",
+          "basis": "yazılı işaretin çözümlenmesi",
+          "note": "Daniel duvardaki Mene, Tekel ve Parsin yazısını bildirir; bir izin okunması doğrudan krallığın ahlâkî hükmünü tanımaya dönüşür."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.19.24",
+          "basis": "Sodom'un altüst oluşu",
+          "note": "YHWH Sodom ve Gomora üzerine kükürt ve ateş yağdırır; Lut kentinin altüst edilmesinden sonra işaretler okunmasıyla ilgili Kur'an sahnesinin doğrudan anlatı eşidir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Pet.2.6",
+          "basis": "Sodom'un gelecekler için örnek yapılması",
+          "note": "Sodom ve Gomora'nın kül edilmesi tanrısızlara gelecek şeylerin örneği olarak sunulur; yok edilmiş şehrin okunabilir bir uyarı işareti haline gelmesini açıklar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Esth.3.12",
+          "basis": "kral adıyla yazılmış ve mühürlenmiş mektup",
+          "note": "Kraliyet mektupları Ahaşveroş'un adıyla yazılıp yüzüğüyle mühürlenir; Süleyman'ın mektubundaki başlığın kimden ve hangi yetkiyle geldiğini bildirmesiyle birleşir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Thess.3.17",
+          "basis": "mektupta doğrulayıcı el işareti",
+          "note": "Pavlus kendi eliyle selamının her mektuptaki işaret olduğunu söyler; yazının başındaki ya da sonundaki iz aracılığıyla göndericinin tanınmasını sağlar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:1Kgs.10.1",
+          "basis": "Süleyman ile Seba kraliçesi",
+          "note": "Seba kraliçesi Süleyman'ın ününü duyup onu sınamaya gelir; Kur'an'ın aynı hükümdarlar arasında kraliçeye gönderilmiş mektup anlatması, ortak kişileri farklı diplomatik sahnelerde kurar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.7.1",
+          "basis": "Nuh'a gemiye girme buyruğu",
+          "note": "YHWH Nuh'a bütün eviyle gemiye girmesini buyurur; yorumdaki Nuh'un gemiye binme çağrısının aynı tufan eşiğini, fakat ilâhî ad formülü olmadan, verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.8.16",
+          "basis": "Nuh'a gemiden çıkma buyruğu",
+          "note": "Sular çekilince Tanrı Nuh'a gemiden çıkmasını söyler; Kur'an'daki geminin yürüyüşü ve duruşunun adla anılması yanında varış ve duruş anını tamamlar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.22.1",
+          "basis": "mal yerine seçilen iyi ad",
+          "note": "İyi adın büyük servetten daha çok seçilmeye değer olduğu söylenir; yorumdaki iyilikle insanlar arasında yayılan ad için özlü bir ahlâkî paraleldir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.7.1",
+          "basis": "güzel yağdan iyi ad",
+          "note": "İyi adın güzel yağdan iyi olması, adın kişinin görünür şöhret ve ayırt edici izi olarak değerlendirilmesini sağlar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 41:12",
+          "basis": "servetten kalıcı iyi ad",
+          "note": "Bilgelik metni iyi adın büyük hazinelerden daha uzun kaldığını söyler; yorumun insanlar arasında dolaşan hayırlı adını zaman içindeki kalıcılığa taşır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "m. Avot 4:13",
+          "basis": "iyi adın taçlardan üstünlüğü",
+          "note": "Mişna üç tacı sayıp iyi adın tacını onların üstünde tutar; iyi adın yükselmesi imgesini yorum geleneğinde açık bir değer hükmüne çevirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.9",
+          "basis": "adı kutsama duası",
+          "note": "İsa'nın dua öğretisi Baba'nın adının kutsanmasıyla başlar; ibadet başlangıcında adın yüceltilmesi, bismillahın açılış işleviyle karşılaşır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.17.6",
+          "basis": "adı insanlara bildirmek",
+          "note": "İsa Baba'nın adını kendisine verilen insanlara açığa çıkardığını söyler; adın adlandırılanı bilinir kılan işaret olması düşüncesini doğrudan teolojik biçimde kullanır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.1.21",
+          "basis": "adın görevini bildirmesi",
+          "note": "Çocuğa İsa adı verilmesi, halkını günahlarından kurtaracağı gerekçesiyle açıklanır; adın yalnız ses değil, taşıdığı kişiyi ve işini tanıtan işaret oluşudur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.4.7",
+          "basis": "bir eylemin hangi adla yapıldığını sormak",
+          "note": "Yetkililer iyileştirmenin hangi güç veya hangi adla yapıldığını sorar; yorumdaki işe bir adla başlama ve adın yetkiyi göstermesiyle doğrudan buluşur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.4.10",
+          "basis": "iyileşmenin İsa adıyla tanıtılması",
+          "note": "Petrus, topalın Nasıralı İsa Mesih'in adıyla iyileştiğini bildirir; eylemin kaynağını ilan eden ad, mektup başlığındaki yetki işareti gibi çalışır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Acts.4.12",
+          "basis": "kurtaran tek ad",
+          "note": "Kurtuluşun gök altında insanlara verilmiş başka hiçbir adda bulunmadığı İsa adına bağlanır; yorumun eşsiz ilâhî adını Allah'a ayırmasıyla belirgin bir Hristiyan karşı-anlatısıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.10.13",
+          "basis": "Rabbin adını çağırmak",
+          "note": "Rabbin adını çağıran herkesin kurtulacağı söylenir; yorumdaki bağışlanma için ilâhî ada seslenme ile aynı çağrı eylemini taşır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.1.2",
+          "basis": "İsa Mesih'in adını çağıran topluluk",
+          "note": "Korint'teki kutsallar, her yerde Rab İsa Mesih'in adını çağıranlar diye tanımlanır; ortak ibadeti adı taşıyan ve çağıran topluluğun nişanı yapar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.3.17",
+          "basis": "her işi Rab İsa adıyla yapmak",
+          "note": "Sözde ve işte her şeyin Rab İsa'nın adıyla yapılması öğretilir; yorumdaki bir işe tanınmış adın altına koyarak başlama düşüncesine çok yakındır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.19.17",
+          "basis": "adın Efes'te büyütülmesi",
+          "note": "Efes'teki olaylardan sonra Rab İsa'nın adı büyütülür; yorumun iyilikle insanlar arasında yayılan ve yükselen ad imgesine kamusal bir anlatı verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Cor.8.5",
+          "basis": "adı konmuş çok sayıda tanrı ve rab",
+          "note": "Metin, gökte ve yerde tanrı ve rab diye adlandırılan çok şey bulunduğunu kabul eder; Yusuf'un insanların koyduğu adlar ile gerçek ilâhlık arasındaki ayrım için yakın bir tartışma bağlamıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:1Cor.8.6",
+          "basis": "Baba ve Rab İsa'nın birlikte anıldığı itiraf",
+          "note": "Tek Tanrı Baba ile tek Rab İsa Mesih'i birlikte itiraf eder; yorumdaki Allah'a hiçbir adaş veya dengi bulunmadığı açıklaması yanında Hristiyan iki-terimli itirafın farkını görünür kılar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Phil.2.9",
+          "basis": "her adın üstündeki İsa adı",
+          "note": "Tanrı'nın İsa'yı yükseltip ona her adın üstünde adı verdiği söylenir; ad-yükseklik dilini İsa'ya yönelten güçlü Hristiyan karşı-anlatısıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.28.19",
+          "basis": "tek ada vaftizle bağlanmak",
+          "note": "Öğrenciler Baba, Oğul ve Kutsal Ruh adına vaftiz etmeye gönderilir; ad, yeni aidiyetin ritüelle kişiye konan tanıtıcı çerçevesi olur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.22.16",
+          "basis": "vaftizde adı çağırmak",
+          "note": "Pavlus'a vaftiz olup İsa'nın adını çağırarak günahlarını yıkaması söylenir; çağrı, bedensel ritüel ve yeni aidiyet aynı eylemde birleşir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.3.2",
+          "basis": "insanlarca bilinen ve okunan mektup",
+          "note": "Korintliler herkesin bildiği ve okuduğu mektup diye nitelenir; yorumdaki okunabilen iz ile mektubun sahibini tanıtan işaret arasında belirli bir yazı metaforu kurar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Cor.3.3",
+          "basis": "Mesih'in yazılmış mektubu",
+          "note": "Topluluğun mürekkeple değil Ruh'la yazılmış Mesih mektubu olduğu söylenir; görünür ya da yazılı nişanın kimin adına konuştuğunu bildirmesi düşüncesini dönüştürür."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "SBLGNT:John.3.14",
+          "basis": "Musa'nın yılanının İsa'nın yükseltilmesine yorumu",
+          "note": "İsa, Musa'nın çölde yılanı yükseltmesini kendi yükseltilmesi için yorumlar; Sayılar'daki dikili işareti Hristiyan yorumunda tanınma ve hayat veren bir figüre çevirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Rev.7.3",
+          "basis": "Tanrı kullarının alın mührü",
+          "note": "Yıkım melekleri, Tanrı kulları alınlarından mühürleninceye dek bekler; Kur'an'daki cezalandırıcı yüz damgasına karşı burada işaret koruyucu aidiyet taşır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Rev.13.16",
+          "basis": "sağ el ve alına zorunlu işaret",
+          "note": "Canavar herkese sağ eline ya da alnına işaret aldırır; beden üzerindeki tanıtıcı damgayı ibadet ve zorlayıcı bağlılık anlatısına çevirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Rev.13.17",
+          "basis": "canavarın adı veya sayısı olan işaret",
+          "note": "Alım satım, canavarın adı ya da adının sayısı olan işarete bağlanır; ad ile damganın sahipsiz işaret değil rakip iktidarın talebi oluşunu gösterir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.14.1",
+          "basis": "alında Kuzu ve Babanın adı",
+          "note": "Kuzu ile duranların alınlarında onun ve Babasının adı yazılıdır; ilâhî adın insan üzerinde okunabilir aidiyet nişanı olmasıdır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.22.4",
+          "basis": "alınlarda Tanrı adı",
+          "note": "Son görümde Tanrı'nın kullarının alınlarında onun adı bulunur; adın kalıcı, görünür ve kişiyi tanıtan iz olarak tamamlanmış biçimini verir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Exod.3.15",
+          "basis": "bismi'deki ism ve İbranice şēm",
+          "note": "Yorumdaki bismi'deki ism ile ayetteki İbranice şēm, aynı Sami ad sözünün biçimleridir; ayet bu sözü kalıcı biçimde anılan Tanrı adı için kullanır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 81,
+        "row": {
+          "line": 81,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Targum Jonathan on Isaiah 11:10",
+          "basis": "Yesse soyundan Mesih ve sancak",
+          "note": "Targum, Yesse soyundan gelen kişiyi halklar için sancak olarak okur; Yeşaya'nın kaldırılmış işaretini mesihî tanınma ve toplanma yönünde belirginleştirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 82,
+        "row": {
+          "line": 82,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Sifre Numbers 43",
+          "basis": "kâhinlerin ad koyması ve Tanrı'nın bereketi",
+          "note": "Sifre, kâhinlerin adı koyduğu berekette nihai bereketin Tanrı'dan geldiğini vurgular; Sayılar 6'daki adın bir sihir sözü değil ilâhî yetki işareti oluşunu açıklar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 83,
+        "row": {
+          "line": 83,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.14.17",
+          "basis": "yaratılışın Tanrı lehine tanıklığı",
+          "note": "Yağmur, verimli mevsimler ve rızık Tanrı'nın kendisini tanıksız bırakmadığının kanıtları diye anlatılır; yaratılışı Rabbe işaret eden izler olarak okur."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 84,
+        "row": {
+          "line": 84,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.2.11",
+          "basis": "bir işaretin yüceliği açığa çıkarması",
+          "note": "Kana'daki ilk işaret İsa'nın yüceliğini gösterip öğrencilerde iman doğurur; işaretin kendisinden öte bir kişiyi tanıttığı anlatı biçimidir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 85,
+        "row": {
+          "line": 85,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.20.31",
+          "basis": "yazılmış işaretler yoluyla inanmak",
+          "note": "Seçilmiş işaretlerin okuyucunun İsa'yı Mesih ve Tanrı'nın Oğlu bilip inanması için yazıldığı söylenir; okunmuş nişan ile tanıma arasındaki bağı kurar."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 86,
+        "row": {
+          "line": 86,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:John.5.43",
+          "basis": "Baba adıyla gelmek",
+          "note": "İsa Baba'nın adıyla geldiğini, başkasının kendi adıyla gelebileceğini karşılaştırır; mektubun başındaki ad gibi, gönderenin kimliğinin temsilcinin yetkisini belirlemesiyle birleşir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 87,
+        "row": {
+          "line": 87,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.5.14",
+          "basis": "yüksekteki görünür kent",
+          "note": "Dağ üzerine kurulmuş kentin gizlenemeyeceğini söyler; yorumdaki ufukta yükseldikçe seçilen şekil benzetmesi için belirli bir görünürlük paralelidir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 88,
+        "row": {
+          "line": 88,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.3.12",
+          "basis": "fatihin üstüne yazılan adlar",
+          "note": "Fatihin üstüne Tanrı'nın, yeni Yeruşalim'in ve İsa'nın yeni adının yazılması vaat edilir; adların kişiyi tanıtan çoklu aidiyet işaretleri olarak işlenmesidir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 89,
+        "row": {
+          "line": 89,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Gal.6.17",
+          "basis": "İsa'nın beden üzerindeki izleri",
+          "note": "Pavlus bedeninde İsa'nın stigmata'sını taşıdığını söyler; yorumdaki dağlama iziyle aynı bedensel işaret sözlüğünü, acı çekmiş bağlılık anlamında kullanır."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 90,
+        "row": {
+          "line": 90,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Shepherd of Hermas, Similitude 9.16",
+          "basis": "Oğul adı ve vaftiz mührü",
+          "note": "Bu benzetme, Tanrı Oğlunun adını taşımayı su mührüyle ilişkilendirir; adın kişiye konmuş, krallığa girişte tanınan bir işaret olması yorumunu geliştirir."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 91,
+        "row": {
+          "line": 91,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Tertullian, On the Resurrection of the Flesh 8",
+          "basis": "bedenin imzalanması",
+          "note": "Tertullian bedenin ruh güçlensin diye imzalandığını ya da mühürlendiğini söyler; Hristiyan ritüel yorumunda beden işaretinin koruma ve aidiyet anlamı kazanmasına tanıklık eder."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 92,
+        "row": {
+          "line": 92,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "soydas",
+          "ref": "Peshitta on Matthew 6:9",
+          "basis": "Süryanice şmā ve Arapça ism",
+          "note": "Peshitta'da kutsansın diye dua edilen şmā, yorumdaki bismi'deki ism ile aynı Sami ad sözüdür; Süryanice dua da adın yüceltilmesiyle açılır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.3.14",
+          "basis": "Musa'nın sorusuna verilen ilâhî ad",
+          "note": "Musa Tanrı'nın adını sorunca Ehyeh cevabını alır; adın adlandırılanı tanınır kılan işaret olması düşüncesini ilâhî özdeşlik sorusunun içinde kurar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.6.3",
+          "basis": "El-Şadday ve YHWH adları",
+          "note": "Metin, atalara El-Şadday olarak görünmesi ile YHWH adının tanınmasını ayırır; Allah ve Rahman gibi farklı ilâhî adların çağrıda yan yana durduğu yorum için belirli bir ad-açıklama paralelidir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.9.13",
+          "basis": "buluttaki antlaşma yayı",
+          "note": "Tanrı yayını buluta koyup onu kendisi ile yeryüzü arasındaki antlaşmanın işareti kılar; bütün göğe asılmış tanınabilir iz, yorumdaki yükseltilmiş alamet imgesini kozmik ölçekte işler."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Gen.31.48",
+          "basis": "adı konmuş tanık yığını",
+          "note": "Lavan taş yığınının iki taraf arasında tanık olduğunu söyleyip ona Galed adını verir; yükseltilmiş nesne, ad ve ilişkinin tanınmasını aynı anda taşır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.28.36",
+          "basis": "mühür gibi kazınmış kutsal yazı",
+          "note": "Baş kâhinin altın levhasına mühür kazısı gibi YHWH'ye Kutsal yazılır; yorumdaki yakılmış ya da yükseltilmiş iz yerine, adı görünür kılan kutsal bir yazı işareti sunar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.28.38",
+          "basis": "alındaki levha ve günahı taşıma",
+          "note": "Kutsal levha Harun'un alnında durur ve kutsal sunuların suçunu taşır; alın üzerindeki adla bağlı işaretin aidiyet ve hüküm işlevini birleştirir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.15.38",
+          "basis": "giysinin püskül işareti",
+          "note": "İsrailliler giysilerinin uçlarına püskül ve mavi ip koyar; taşınan görünür işaretin kişiyi ayırt etmesi ile yorumdaki nişan fikri buluşur."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.15.39",
+          "basis": "görüp hatırlatan püskül",
+          "note": "Püskül görülür, YHWH'nin buyrukları hatırlanır ve uygulanır; iz okununca bilgi ve davranış doğması, tevesseme ile anlatılan işleyişe yakındır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.18.22",
+          "basis": "YHWH adıyla söylenen sözün sınanması",
+          "note": "Bir peygamber YHWH adıyla konuştuğunda söz gerçekleşmezse onun Tanrı'dan olmadığının bilineceği söylenir; adın altında gerçek bir yetkinin bulunup bulunmadığını sonuçtan tanımayı öğretir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Josh.2.18",
+          "basis": "penceredeki kırmızı ip işareti",
+          "note": "Rahav'ın evini tanınır kılan kırmızı ip, ailesini yıkımdan koruyacaktır; Kur'an'daki cezaya ait damganın tersine, görünür işaret burada kurtarır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Judg.6.17",
+          "basis": "konuşanın kim olduğunu gösteren işaret",
+          "note": "Gidyon, kendisiyle konuşanın gerçekten Tanrı olduğunu bilebilmek için işaret ister; işaretin asıl işinin bir faili tanınır kılmak olduğunu açıkça söyler."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Kgs.8.29",
+          "basis": "adı konmuş ev",
+          "note": "Süleyman, Tanrı'nın adı burada olacak dediği eve gözlerinin açık kalmasını diler; ad, bir yazının ya da yapının hangi ilâhî yetkiyle ilişkili olduğunu belirler."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.7.14",
+          "basis": "İmmanuel adıyla verilen işaret",
+          "note": "Çocuğun doğumu bir işaret olarak verilir ve adı İmmanuel olur; ad, kişiyi tanıtan ses ile tarihsel/teolojik işaretin aynı olayda birleşmesidir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.8.1",
+          "basis": "büyük levhaya yazılan ad",
+          "note": "Yeşaya büyük bir levhaya halkın okuyacağı yazıyla Maher-Şalal-Haş-Baz adını yazar; adın kamuya açık yazı izi olarak yaklaşan olayı tanıtmasıdır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.8.18",
+          "basis": "peygamber ve çocukları işaretler olarak",
+          "note": "Yeşaya kendisi ve YHWH'nin verdiği çocukları İsrail'de işaretler ve alametler diye niteler; kişi adlarının bütün bir peygamberlik nişanı haline gelmesidir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.56.5",
+          "basis": "kesilmeyen ebedî ad",
+          "note": "Ev ve surlar içinde oğul ve kızlardan iyi, kesilmeyecek ebedî bir ad verilir; yorumdaki tanınmayı taşıyan adın kalıcılık ve şeref boyutunu açar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.65.15",
+          "basis": "lanet için bırakılan ad ve yeni ad",
+          "note": "Yargılananların adı seçilmişler için lanet sözü olarak kalır, Tanrı ise kullarını başka bir adla çağırır; iyi ve kötü adın kamu önünde okunur iz oluşunu ters yüzleriyle işler."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.36.23",
+          "basis": "uluslar önünde kutsanan büyük ad",
+          "note": "Tanrı uluslar arasında kirletilmiş büyük adını kutsayacak ve uluslar onu tanıyacaktır; adın kamusal tanınma, yücelik ve ahlâkî itibar taşımasıyla doğrudan buluşur."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.17.1",
+          "basis": "kalbe ve sunak boynuzlarına kazınmış günah",
+          "note": "Yahuda'nın günahı demir kalemle kalbine ve sunakların boynuzlarına kazınmış diye tasvir edilir; hayır ya da şerri bedendeki ve nesnedeki izden okumak temasına sert bir karşılıktır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Hab.2.2",
+          "basis": "okunsun diye levhaya yazılan görüm",
+          "note": "Görüm levhalara açıkça yazılır ki okuyan onu okuyabilsin; okunabilir iz ile bir hakikatin tanınması arasındaki ilişkiyi doğrudan kurar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Hos.1.6",
+          "basis": "Lo-Ruhama adı",
+          "note": "Hoşea'nın kızına Merhamet Edilmeyen adı verilir ve Tanrı artık merhamet etmeyeceğini açıklar; açılıştaki Rahman-Rahim adlarının ters yönünde, adın hüküm bildiren işaret oluşunu sahneler."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zeph.3.9",
+          "basis": "arınmış dudaklarla adı çağırmak",
+          "note": "Halkların hepsinin YHWH adını çağırması ve omuz omuza hizmet etmesi için dillerinin arıtılacağı söylenir; ad, çağrı ve kulluğun tek formülde birleşmesidir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Matt.7.22",
+          "basis": "İsa adıyla yapılmış ama reddedilen eylemler",
+          "note": "Bazıları İsa'nın adıyla peygamberlik ve kudretli işler yaptıklarını söyler, fakat İsa onları tanımaz; yalnızca adı kullanmanın altında gerçek bir bağlılık bulunmayabileceğini gösterir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.2.12",
+          "basis": "bebeği tanıtan işaret",
+          "note": "Melek, beze sarılı ve yemlikte yatan bebeğin çobanlar için işaret olacağını söyler; işaretin tanınacak kişiyi belirlemesi yorumun temel tanımına yakındır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.3.16",
+          "basis": "İsa adının iyileştirici gücü",
+          "note": "Topal adamın İsa'nın adıyla güç kazandığı ve bunun ada imanla olduğu söylenir; okunur bir iyileşme, adın failini tanıtıcı kudret olarak işleyişidir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.24",
+          "basis": "davranış yüzünden kötülenen Tanrı adı",
+          "note": "Tanrı adının uluslar arasında İsrail'in davranışı yüzünden kötülenmesi, yorumdaki iyi adın insanlar arasında yayılması düşüncesinin olumsuz toplumsal yüzüdür."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Phil.2.10",
+          "basis": "İsa adı önünde diz çökme",
+          "note": "İsa'nın adıyla gökte, yerde ve yer altında her dizin çökeceği söylenir; yükseltilmiş adın kulluk doğurması imgesini İsa'ya bağlayan önceki ayetin gerekli Hristiyan devamıdır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.13.15",
+          "basis": "adı ikrar eden dudakların kurbanı",
+          "note": "İnanlılar Tanrı'ya İsa aracılığıyla sürekli övgü kurbanı, yani adı ikrar eden dudakların ürünü sunar; adın çağrı ve ibadette sesli işaret oluşudur."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.14",
+          "basis": "Rab adıyla yağ sürmek",
+          "note": "Topluluk ihtiyarları hastaya Rabbin adıyla yağ sürüp dua eder; somut bir eylemin ad altında yapılması, bismillahın fiile verdiği çerçeveyle birleşir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.5.13",
+          "basis": "adı bilerek ebedî hayatı bilmek",
+          "note": "Tanrı Oğlunun adına iman edenlerin ebedî hayata sahip olduklarını bilmeleri için yazıldığını söyler; ad, bilme ve yaşama ulaştıran belirleyici tanım olur."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Rev.17.5",
+          "basis": "alında yazılı Babil adı",
+          "note": "Büyük Babil'in alnında gizemli bir ad yazılıdır; ad ve alın damgası burada putperest şehir kimliğini açığa çıkarır ve ilâhî ada ait işaretleri tersine çevirir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.19.16",
+          "basis": "savaşçı üzerinde yazılı kral adı",
+          "note": "Atlı savaşçının kaftanı ve uyluğu üzerinde Kralların Kralı ve Rablerin Rabbi adı yazılıdır; savaş sahnesinde ad, taşınan nişan ve egemenlik bildirisi olur."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "b. Berakhot 40b",
+          "basis": "berekette ad ve krallık",
+          "note": "Talmud, Tanrı adı ve krallığı anılmayan bereketin bereket olmadığını öğretir; ilâhî adın dua formülünde gerekli tanıtıcı unsur oluşunu açıklar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "b. Menahot 43b",
+          "basis": "mavi püskülün bakıştan hatırlamaya zinciri",
+          "note": "Talmud mavi püsküle bakışı deniz, gök ve ilâhî taht üzerinden hatırlamaya bağlar; giysideki izden anlam okuyuşunu ayrıntılandırır."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "m. Yoma 3:8",
+          "basis": "baş kâhinin açıkça söylediği ad",
+          "note": "Baş kâhin kefaret itirafında ilâhî adı söylediğinde dinleyenlerin yere kapanması anlatılır; en büyük adın sesli çağrıda kulluk doğurması için litürjik bir örnektir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Acts.9.15",
+          "basis": "adı uluslara ve krallara taşıyan kişi",
+          "note": "Pavlus, İsa'nın adını uluslar, krallar ve İsrailliler önünde taşımak için seçilmiş araç diye tanımlanır; adın insanlar arasında dolaşan kamusal tanıtım oluşuna anlatısal karşılık verir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Eph.1.13",
+          "basis": "Ruhla mühürlenmiş aidiyet",
+          "note": "İman edenler vaat edilen Kutsal Ruh'la mühürlenir; bedensel damga yerine görünmez ama tanıyıcı bir aidiyet mührünün Hristiyan yorumudur."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Tim.2.19",
+          "basis": "Rabbin adını anmak ve kötülükten ayrılmak",
+          "note": "Rabbin adını anan herkesin haksızlıktan uzaklaşması emredilir; yorumdaki ad, bilgi ve kulluk bağını ahlâkî davranışa bağlar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1John.2.12",
+          "basis": "adı uğruna bağışlanan günahlar",
+          "note": "Çocukların günahlarının İsa'nın adı uğruna bağışlandığı söylenir; açılıştaki merhamet adının çağrıyla bağışlanma ilişkisine Hristiyan bir karşılık verir."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Rev.2.17",
+          "basis": "yalnız alanın bildiği yeni ad",
+          "note": "Fatih kişiye yalnız kendisinin bildiği yeni ad yazılı beyaz taş verilir; adın herkese açık tanıtıcı iz oluşuna karşı gizli ve kişisel bir tanınma biçimi kurar."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "Cyril of Jerusalem, Catechetical Lecture 13.36",
+          "basis": "alına yapılan haç işareti",
+          "note": "Kyrillos haç işaretinin alna ve gündelik eylemlere cesaretle konmasını öğütler; Hristiyan uygulamasında görünür işaretin beden, ibadet ve aidiyeti birleştirmesidir."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "55a2ca0c0f2fa783bd147f84350b29e5c90110de8ff883e234b2196563cc1b4f",
+    "followup_sha256": "55a2ca0c0f2fa783bd147f84350b29e5c90110de8ff883e234b2196563cc1b4f"
+  },
+  "consolidation_error": null,
+  "list_sha256": "e8f6a1e82cad40bdd13cdee68a141e31995053685fedab0546a16a7436fc3889",
+  "followup_delivery": [
+    {
+      "call_id": "call_SZsGrMhOzsTI2t11GXS5Id98",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 398346,
+    "cached_input_tokens": 331008,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 58184,
+    "reasoning_output_tokens": 39650,
+    "total_tokens": 456530
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T15:40:27.812Z",
+  "artifacts": {
+    "started.json": "9a7bdc291924275ab04331dc3f9a68023ba01d7f95c65866d38848b9c9fed70b",
+    "input.json": "7b101f96de1ef6920187969ce7fd4251e6c217b3daf3a0f5488a4042ad027e26",
+    "prompt.md": "97fd841cd22c468e6113825795a1c0255ca76ab3b05c79922e0b7806b8e2296c",
+    "package.md": "7619b7e3765c3841ea4c02d7b3a6ad7d662084987607a0224674388346fba469",
+    "spawn.md": "c45de5b954bff32f268f934700cd9410bfb9562522db049fa5ebb2d0321b425b",
+    "followup.txt": "3509042971a752f6efef8a906482d19a7cf96788095da9f554e616dcbd49b815",
+    "turn1.json": "038c1582cda610b82a5090aacc63e3a2dc0efd9b33fa7f525d6f504c934bdb00",
+    "turn1.list.tsv": "fd45b3c3c692e536fddd9ecc4a79994b43ec9fd795dc11825c71163e4283738a",
+    "followup.tsv": "55a2ca0c0f2fa783bd147f84350b29e5c90110de8ff883e234b2196563cc1b4f",
+    "list.tsv": "e8f6a1e82cad40bdd13cdee68a141e31995053685fedab0546a16a7436fc3889",
+    "consolidation.json": "3ef74ae826083c370b031a67477377e612c0d6c97642d658718928dd44824926",
+    "validation.json": "a865c493e2ea0f54f1f153e57e939d56e271561d613b13d68d1681961b9eda9f",
+    "proposal_validation.json": "be18e2ec034344fcf2394c284e7987fe1d78c67594ec01b6e377625fddce159f",
+    "tool_calls.json": "1ab92486420c69425795c72998c52f34d871f2ae53d87619dae73b5e8d8d15d9",
+    "session.json": "129a21b7db32d82d456c91922925e7b4608016d500403c574ae0631c748b3086",
+    "session.events.jsonl": "1f27b5c6ad1c19b2b4f90393502d7055b66ee76aadf28978a1dbbfb9055f8f93"
+  }
+}

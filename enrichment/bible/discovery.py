@@ -19,10 +19,17 @@ HERE = Path(__file__).resolve().parent
 ROOT_PG = HERE.parents[1]
 sys.path.insert(0,str(ROOT_PG))
 from enrichment.bible import corpus as C, render as R, sections
+from enrichment.bible.fetch.bible_text import NAMES as BOOK_NAMES
 MODELS = {'luna':'gpt-6-luna','terra':'gpt-5.6-terra'}
 EFFORT = 'max'
 PROTOCOL = 'bible-separate-proposals-v2'
 HANDOFF = 'bible-discovery-v2'
+REFERENCE_RESOLVER = 'edition-book-names-v2'
+BOOK_CODES = {re.sub(r'\s+','',name).casefold():code for code,name in BOOK_NAMES.items()}
+BOOK_CODES.update({code.casefold():code for code in BOOK_NAMES})
+# Explicit, unambiguous conventional abbreviations. No fuzzy matching or
+# chapter/verse correction is allowed in name resolution.
+BOOK_CODES.update({'is':'Isa','jon':'Jonah','philem':'Phlm'})
 STRENGTH = {'strong', 'medium', 'weak'}
 TRAD = {'tevrat', 'incil'}
 KIND = {'paralel', 'motif', 'karsi_anlati', 'soydas', 'yorum_gelenegi'}
@@ -123,11 +130,19 @@ def parse_rows(path: Path) -> tuple[list[dict], list[str]]:
             if len(fields) != 6:
                 bad.append(f'line {i}: expected six fields'); continue
             strength, trad, kind, ref, basis, note = fields
+            raw_ref = ref
             error = None
             if strength not in STRENGTH or trad not in TRAD or kind not in KIND or not all((ref,basis,note)):
                 error = 'invalid/empty field'
             elif ref.startswith(('WLC:', 'SBLGNT:')):
                 sid, osis = ref.split(':',1)
+                # A full book name and its OSIS code name the same book. Resolve
+                # only that token: never alter the edition, chapter or verse.
+                parts = osis.rsplit('.',2)
+                if len(parts)==3:
+                    book = BOOK_CODES.get(re.sub(r'\s+','',parts[0]).casefold(),parts[0])
+                    osis = '.'.join([book,*parts[1:]])
+                    ref = sid+':'+osis
                 if not OSIS.fullmatch(osis) or not con.execute('SELECT 1 FROM seg WHERE seg=?',(ref,)).fetchone():
                     error = f'unknown verse in specified edition: {ref}'
                 elif trad != ('tevrat' if sid == 'WLC' else 'incil'):
@@ -136,7 +151,10 @@ def parse_rows(path: Path) -> tuple[list[dict], list[str]]:
                 error = 'use WLC:<OSIS> or SBLGNT:<OSIS> in its own numbering'
             if error:
                 bad.append(f'line {i}: {error}'); continue
-            rows.append(dict(line=i,strength=strength,tradition=trad,kind=kind,ref=ref,basis=basis,note=note))
+            row = dict(line=i,strength=strength,tradition=trad,kind=kind,ref=ref,basis=basis,note=note)
+            if raw_ref != ref:
+                row.update(raw_ref=raw_ref,reference_resolution=REFERENCE_RESOLVER)
+            rows.append(row)
     finally:
         con.close()
     return rows, bad
@@ -168,7 +186,7 @@ def checked_run(d: Path, t: dict) -> list[dict]:
             raise ValueError(f'{d}: {filename} changed since finish')
     if digest(Path(t['base_path'])) != log.get('base_sha256') or log['base_sha256'] != t['base_sha256']:
         raise ValueError(f'{d}: discovery used a different frozen base')
-    if not (d/'list.tsv').read_bytes().startswith((d/'turn1.list.tsv').read_bytes()):
+    if not (d/'list.tsv').read_bytes().startswith(N.initial_file(d).read_bytes()):
         raise ValueError(f'{d}: first-turn rows changed')
     rows, bad = parse_rows(d/'list.tsv')
     if bad or len({row_key(r) for r in rows}) != len(rows):
@@ -225,7 +243,8 @@ def merge(s, targets, run_tag, models=None, attempts=None):
             findings.append(dict(target=t['target'],model=m,validation=json.loads((d/'validation.json').read_text()),
                                  raw_proposal_validation=json.loads((d/'proposal_validation.json').read_text()),
                                  repeats=log['consolidation']['repeated_proposals'],
-                                 diagnostics=log['tool_diagnostics'],repair=log.get('repair')))
+                                 diagnostics=log['tool_diagnostics'],repair=log.get('repair'),
+                                 first_turn_repair=log.get('first_turn_repair')))
         prepared.append((t,rows,provenance,findings))
     root.mkdir(parents=True,exist_ok=True)
     out, selection = [], {}

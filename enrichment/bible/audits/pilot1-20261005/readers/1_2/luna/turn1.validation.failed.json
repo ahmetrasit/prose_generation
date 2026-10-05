@@ -1,0 +1,62 @@
+{
+  "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/1_2/luna/list.tsv",
+  "rows": 78,
+  "unique_references": 78,
+  "schema_errors": [
+    "line 22: unknown verse in specified edition: WLC:Wis.13.1",
+    "line 23: unknown verse in specified edition: WLC:Wis.13.3",
+    "line 24: unknown verse in specified edition: WLC:Wis.13.5"
+  ],
+  "duplicates": [],
+  "strengths": {
+    "strong": 50,
+    "medium": 27,
+    "weak": 1
+  },
+  "findings": [
+    {
+      "line": 72,
+      "ref": "Mishnah, Berakhot 9:5",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 73,
+      "ref": "Babylonian Talmud, Berakhot 35a–b",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 74,
+      "ref": "Pirkei Avot 6:11",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 75,
+      "ref": "Adon Olam, opening and closing stanzas",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 76,
+      "ref": "Augustine, Confessions 10.6.9–10",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 77,
+      "ref": "Song of the Three Youths, Greek Daniel 3:57–88",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    },
+    {
+      "line": 78,
+      "ref": "Mishnah, Avot 1:6",
+      "kind": "unresolved_text",
+      "message": "Named work requires prefetch or an explicit unavailable verdict."
+    }
+  ],
+  "reference_resolver": "edition-book-names-v2",
+  "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+}

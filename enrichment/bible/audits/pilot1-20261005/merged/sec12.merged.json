@@ -1,0 +1,392 @@
+{
+  "format": "bible-discovery-v2",
+  "status": "ok",
+  "target": "sec12",
+  "base_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "tsv_sha256": "43a440d89f26881d53095b7cad7ff32ee42deb652dd075bb18aab3a09848cd2d",
+  "provenance": [
+    {
+      "target": "sec12",
+      "model": "luna",
+      "run_tag": "pilot1-20261005",
+      "path": "pilot1-20261005/sec12/luna",
+      "sha256": "d9d5c2d78b770656ce3990b9709f41773b8a289ceec0ca6a35ea96fe15597f2a"
+    },
+    {
+      "target": "sec12",
+      "model": "terra",
+      "run_tag": "pilot1-20261005",
+      "path": "pilot1-20261005/sec12/terra",
+      "sha256": "c1952c2fc19eb9fadfeaf2f35d0e04080353f82541b7ebb5b586abc9bfed9264"
+    }
+  ],
+  "rows": 165,
+  "findings": [
+    {
+      "target": "sec12",
+      "model": "luna",
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec12/luna/list.tsv",
+        "rows": 126,
+        "unique_references": 126,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 99,
+          "medium": 27
+        },
+        "findings": [
+          {
+            "line": 4,
+            "ref": "1QS III,13–IV,26",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 5,
+            "ref": "Didache 1.1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 6,
+            "ref": "Didache 5.1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 36,
+            "ref": "Genesis Rabbah 84:16",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 43,
+            "ref": "2 Maccabees 7:9",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 49,
+            "ref": "4 Ezra 7:32",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 50,
+            "ref": "2 Baruch 50:2",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 51,
+            "ref": "Bavli Sanhedrin 90b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 59,
+            "ref": "Wisdom of Solomon 14:11",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 76,
+            "ref": "Mishnah Avot 2:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 77,
+            "ref": "Bavli Rosh Hashanah 16b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 79,
+            "ref": "Bavli Berakhot 29b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 80,
+            "ref": "Wisdom of Solomon 5:6",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 81,
+            "ref": "Wisdom of Solomon 5:7",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "raw_proposal_validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec12/luna/followup.tsv",
+        "rows": 43,
+        "unique_references": 43,
+        "schema_errors": [
+          "line 19: unknown verse in specified edition: WLC:Ps.16.12",
+          "line 21: invalid/empty field",
+          "line 22: unknown verse in specified edition: WLC:Ps.121.9",
+          "line 34: invalid/empty field"
+        ],
+        "duplicates": [],
+        "strengths": {
+          "strong": 29,
+          "medium": 14
+        },
+        "findings": [
+          {
+            "line": 1,
+            "ref": "Wisdom of Solomon 5:6",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 2,
+            "ref": "Wisdom of Solomon 5:7",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "repeats": [],
+      "diagnostics": [],
+      "repair": {
+        "approval": "2026-10-05 user reply: Apply all 15 recorded follow-up corrections. Exact bundle: enrichment/bible/audits/pilot1-20261005/followup-repairs.proposed.json",
+        "accepted_at": "2026-10-05T16:04:04.986619+00:00",
+        "changes": [
+          {
+            "line": 19,
+            "before": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Ps.16.12",
+              "path of life in God's presence",
+              "The commentary says the sirat goes somewhere; the psalmist says God makes known the path of life, whose destination is joy in God's presence."
+            ],
+            "after": [
+              "strong",
+              "tevrat",
+              "motif",
+              "WLC:Ps.16.11",
+              "path of life in God's presence",
+              "The commentary says the sirat goes somewhere; the psalmist says God makes known the path of life, whose destination is joy in God's presence."
+            ],
+            "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+          },
+          {
+            "line": 21,
+            "before": [
+              "strong",
+              "karsi_anlati",
+              "tevrat",
+              "WLC:Hos.14.10",
+              "righteous walk, transgressors stumble",
+              "The commentary contrasts the guided path with dalal; Hosea's closing line says the Lord's ways are straight, the righteous walk in them, and transgressors stumble."
+            ],
+            "after": [
+              "strong",
+              "tevrat",
+              "karsi_anlati",
+              "WLC:Hos.14.10",
+              "righteous walk, transgressors stumble",
+              "The commentary contrasts the guided path with dalal; Hosea's closing line says the Lord's ways are straight, the righteous walk in them, and transgressors stumble."
+            ],
+            "reason": "Transpose tradition and kind into their declared columns; neither value changes."
+          },
+          {
+            "line": 22,
+            "before": [
+              "medium",
+              "tevrat",
+              "motif",
+              "WLC:Ps.121.9",
+              "guarding the going out and coming in",
+              "The commentary pictures a traveler who leaves sight but has a destination; the psalm's close asks God to guard the worshipper's going out and coming in continually."
+            ],
+            "after": [
+              "medium",
+              "tevrat",
+              "motif",
+              "WLC:Ps.121.8",
+              "guarding the going out and coming in",
+              "The commentary pictures a traveler who leaves sight but has a destination; the psalm's close asks God to guard the worshipper's going out and coming in continually."
+            ],
+            "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+          },
+          {
+            "line": 34,
+            "before": [
+              "strong",
+              "karsi_anlati",
+              "tevrat",
+              "WLC:Jer.31.34",
+              "God chooses not to remember forgiven sin",
+              "The commentary says the Lord neither loses nor forgets; Jeremiah's new-covenant promise says God will forgive and remember sin no more, distinguishing deliberate pardon from loss of knowledge."
+            ],
+            "after": [
+              "strong",
+              "tevrat",
+              "karsi_anlati",
+              "WLC:Jer.31.34",
+              "God chooses not to remember forgiven sin",
+              "The commentary says the Lord neither loses nor forgets; Jeremiah's new-covenant promise says God will forgive and remember sin no more, distinguishing deliberate pardon from loss of knowledge."
+            ],
+            "reason": "Transpose tradition and kind into their declared columns; neither value changes."
+          }
+        ],
+        "raw_sha256": "999e1a18934d55729e31b84112a39edd604344f79d5da5e9cef57f80c0dbd19d",
+        "accepted_sha256": "3e3df6ca9d4dbf9c88ce843507538c6baa7d3c90ca883ff49c582cb4d13292d4",
+        "proposal_sha256": "15bacc3efb6c4ee61f7fbefa2b683784f74882602994cf46413e38ab328f98c6",
+        "failed_log_sha256": "c0b85c57da5f95c63d866de1fb5dda68c8ec7821e8207f15ec3a5799fdffd3a7",
+        "model_calls": 0,
+        "policy": "Raw proposals, failed validation and failed log preserved; no regrading.",
+        "allow_schema_swap": true
+      },
+      "first_turn_repair": {
+        "policy": "bible-first-turn-repair-v1",
+        "approval": "2026-10-05 user reply: Apply the 13 recorded corrections; extend first-pass repair handling. Exact bundle: enrichment/bible/audits/pilot1-20261005/first-turn-repairs.proposed.json",
+        "tool_audit_reviewed": true,
+        "accepted_at": "2026-10-05T15:51:00.412147+00:00",
+        "changes": [
+          {
+            "line": 22,
+            "before": [
+              "strong",
+              "karsi_anlati",
+              "tevrat",
+              "WLC:Isa.42.16",
+              "blind led on an unknown way",
+              "The commentary's blind people strive toward the path yet cannot see it; Isaiah promises that God will lead blind people on an unfamiliar way, turn darkness to light, and not abandon them."
+            ],
+            "after": [
+              "strong",
+              "tevrat",
+              "karsi_anlati",
+              "WLC:Isa.42.16",
+              "blind led on an unknown way",
+              "The commentary's blind people strive toward the path yet cannot see it; Isaiah promises that God will lead blind people on an unfamiliar way, turn darkness to light, and not abandon them."
+            ],
+            "reason": "Transpose tradition and kind into their declared columns; neither value changes."
+          }
+        ],
+        "model_calls": 0,
+        "artifacts": {
+          "turn1.original.tsv": "621ed21755e844d91c180ebbb5d3e464b722dae3949ebae993528394eb95b948",
+          "turn1.validation.failed.json": "be115a2d8e8d26be8b13237b3a391ba276fc42f33de5ffcc594501c414991c89",
+          "turn1.tool_calls.json": "24c526f31f19f596eed4894531d5c9a816e8a5aaa696a0977a85356401f2b135",
+          "turn1.repair.proposed.json": "70aee9e802259bbdbb5ba2f70dd5526b76912ecaf60355b7461359dbb2bb744f",
+          "turn1.repair.proposed.tsv": "a5dee8e5109bb5b4e1715bd4b04c17b8c911c9d8fc3e223e0e9b7d490a271f8d",
+          "turn1.accepted.tsv": "a5dee8e5109bb5b4e1715bd4b04c17b8c911c9d8fc3e223e0e9b7d490a271f8d"
+        }
+      }
+    },
+    {
+      "target": "sec12",
+      "model": "terra",
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec12/terra/list.tsv",
+        "rows": 78,
+        "unique_references": 78,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 69,
+          "medium": 9
+        },
+        "findings": [
+          {
+            "line": 33,
+            "ref": "1 Enoch 51:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 34,
+            "ref": "4 Ezra 7:32",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 35,
+            "ref": "2 Baruch 50:2",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 42,
+            "ref": "Mishnah Avot 2:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 51,
+            "ref": "Mishnah Avot 3:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 52,
+            "ref": "Berakhot 60b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 53,
+            "ref": "Didache 1:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 54,
+            "ref": "Shabbat 22a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 71,
+            "ref": "2 Maccabees 7:9",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "raw_proposal_validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/sec12/terra/followup.tsv",
+        "rows": 22,
+        "unique_references": 22,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 20,
+          "medium": 2
+        },
+        "findings": [
+          {
+            "line": 15,
+            "ref": "2 Maccabees 7:9",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "repeats": [],
+      "diagnostics": [],
+      "repair": null,
+      "first_turn_repair": null
+    }
+  ],
+  "confidence": "Unverified reader labels; agreement and follow-up origin do not verify a connection."
+}

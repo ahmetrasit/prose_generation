@@ -1,0 +1,1641 @@
+{
+  "target": "sec3",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md",
+  "base_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/quran.json": "e41e9f866cc96a3aabb7e7261eaa67ce3ed05240642cc8f9fc58f7d1ed40bb40",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/pack.json": "e73af12590027cc99bcacb8f265c254315f6220f3b9b4297fdea1625243c0599"
+  },
+  "started": "2026-10-05T11:06:52.586276-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_pilot1_20261005_sec3_terra",
+  "model": "gpt-5.6-terra",
+  "effort": "max",
+  "run_tag": "pilot1-20261005",
+  "prompt_sha256": "d7fcc924f0b4fc62d12bb312087254db8766c7812d3c727df77cea00daf4af45",
+  "package_sha256": "9e66c7eb21a77fecacb51375c32666806ed39857f7d459039349433fb500f8ec",
+  "input_sha256": "b56e57735f6ddef93a407c131c083aafe25a5245f491cdfa693b914657bb8487",
+  "spawn_sha256": "28660861eb45fff79589c2282003a612419c966e3e769f49c24d936627154632",
+  "followup_text_sha256": "7451702171804f04bd94451a74d5cffd2d5f4b24a441584f4687f37c64249baf",
+  "agent_id": "01a10c9a-eb35-7f43-a9a9-ee9cbdf55c53",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T11-07-21-01a10c9a-eb35-7f43-a9a9-ee9cbdf55c53.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "ok",
+  "check": "findings",
+  "turn1_rows": 80,
+  "turn1_sha256": "d43550c4fda6d9bbe9a463c7e823f3b49e5cb65560d8e0f9e3beee81d911837c",
+  "turn2": {
+    "completed": true,
+    "rows_total": 119,
+    "rows_added": 39
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": {
+    "protocol": "bible-separate-proposals-v2",
+    "initial_rows": 80,
+    "raw_proposal_rows": 39,
+    "unique_additions": 39,
+    "repeated_proposals": [],
+    "retained": [
+      {
+        "phase": 1,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Dan.7.10",
+          "basis": "Aramaic dînâ, court, opened books",
+          "note": "The commentary's dīn as judgment and account meets Daniel's Aramaic dînâ: the court sits and books are opened, giving the cognate root a concrete eschatological reckoning scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "Mishnah Avot 3:1",
+          "basis": "din ve-heshbon before the King of kings",
+          "note": "The commentary calls the day a judgment and account under its Mālik; Avot says each person will give din ve-heshbon, “judgment and account,” before the King of kings, using the Hebrew cognate in the same paired sense."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Avot 3:16",
+          "basis": "shop, credit, open ledger, collectors",
+          "note": "Avot turns deferred credit into a moral accounting image: the shop gives credit, the ledger records it, and collectors exact payment. This closely supplies the commentary's debt, due date, record, and final recompense picture."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.18.23",
+          "basis": "king settling accounts with servants",
+          "note": "Jesus likens the kingdom to a king who begins to settle accounts with his servants; the king, reckoning, and unpaid obligation form a direct narrative counterpart to the commentary's ruler of the day of account."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.18.34",
+          "basis": "debt exacted under punishment",
+          "note": "In the same parable the master hands the debtor over until the whole debt is paid. It makes the commentary's due debt and punitive recompense a single judicial action."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.32.10",
+          "basis": "sealed deed, witnesses, weighed silver",
+          "note": "Jeremiah's land purchase is written and sealed, witnessed, and paid by weighing silver on scales. Its own legal transaction joins the commentary's written obligation, witnesses, price, and even balance imagery."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.24.12",
+          "basis": "God weighs hearts and repays deeds",
+          "note": "The proverb says the one who weighs hearts knows and repays each person according to work. It makes the commentary's unleaning balance explicitly a divine assessment followed by measured payment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Dan.5.27",
+          "basis": "a king weighed in balances",
+          "note": "Daniel tells Belshazzar that he has been weighed in the balances and found deficient. The judgment of a ruler through a balance directly realizes the commentary's kingly day and exact scale."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.16.11",
+          "basis": "just balance and weights belong to YHWH",
+          "note": "The commentary places a true balance within God's final reckoning; this proverb says the just balance, scales, and bag-weights are YHWH's work, grounding the image in divine rather than merely commercial justice."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.25.15",
+          "basis": "whole and just weight",
+          "note": "The command for a whole and just weight and measure gives a legal analogue to the commentary's full-weight coin that does not tip the scale."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Lev.19.36",
+          "basis": "just scales, weights, ephah, and hin",
+          "note": "Leviticus requires just scales and measures in Israel's market. It supplies the ordinary ethical practice behind the commentary's image of an upright balance in the final account."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mic.6.11",
+          "basis": "acquittal and fraudulent scales",
+          "note": "Micah asks whether God can acquit someone with wicked scales and false weights. It explicitly fuses courtroom acquittal with commercial fraud, as the commentary fuses judgment day and a tilted balance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.31.6",
+          "basis": "weighed in a just balance before God",
+          "note": "Job asks to be weighed in a just balance so that God may know his integrity. The balance is already a personal divine verdict, not only a rule for merchants."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:1Sam.2.3",
+          "basis": "deeds weighed by YHWH",
+          "note": "Hannah calls YHWH a God of knowledge by whom deeds are weighed. This condenses the commentary's claim that conduct is assessed by a precise, nonpartial standard."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Amos.8.5",
+          "basis": "false balances in grain trade",
+          "note": "Amos exposes merchants who shrink the measure, enlarge the shekel, and falsify balances. It gives the commentary's cheated measure a prophetic social setting in which such trade is itself judged."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.49.8",
+          "basis": "no human ransom can be given to God",
+          "note": "The commentary says no substitute payment is accepted on the final day; this psalm denies that a person can give God a ransom for a brother, making the limit of monetary exchange explicit."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Num.35.31",
+          "basis": "no ransom for a murderer",
+          "note": "The commentary notes retaliation may be turned to blood-money when the victim's kin forgive; Numbers forbids taking a ransom for a murderer liable to death. The contrast marks a concrete legal difference about substitution for bloodshed."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Exod.21.30",
+          "basis": "ransom imposed for a life",
+          "note": "Where an owner is liable after his ox kills, Exodus allows a ransom imposed for his life. Read beside Numbers 35 and the commentary, it shows that biblical law distinguishes cases in which a life-payment can and cannot replace liability."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.16.26",
+          "basis": "exchange for one's life",
+          "note": "Jesus asks what a person could give in exchange for his life. It is a direct New Testament formulation of the commentary's final limit on offering an equivalent or ransom."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "karsi_anlati",
+          "ref": "SBLGNT:Mark.10.45",
+          "basis": "the Son of Man's life as ransom",
+          "note": "The commentary invokes a day when no offered substitute can be accepted; Mark calls the Son of Man's life a ransom for many. The shared payment image leads to a specifically Christian resolution rather than a general commercial analogy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Phlm.1.18",
+          "basis": "another person's debt charged to Paul",
+          "note": "Paul tells Philemon to charge any wrong or debt owed by Onesimus to Paul. This concrete assumption of another's obligation illuminates the commentary's language of putting one thing in another's place."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Num.35.33",
+          "basis": "unatoned blood and the land",
+          "note": "Numbers says bloodshed pollutes the land and is not expiated except by the shedder's blood. It gives a legal-theological form to the commentary's fear that spilled blood must not simply disappear without answer."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.9.13",
+          "basis": "God remembers blood and the afflicted cry",
+          "note": "The commentary speaks of blood lost if it is not avenged; the psalm says the seeker of blood remembers and does not forget the afflicted. Divine remembrance answers the image of vanished blood."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rev.6.10",
+          "basis": "martyrs ask when their blood will be avenged",
+          "note": "The slain cry to the sovereign Judge for judgment and vengeance of their blood on earth. Revelation preserves the commentary's unresolved-blood image inside an explicitly eschatological court appeal."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.32.35",
+          "basis": "vengeance, recompense, and a coming day",
+          "note": "“To me belong vengeance and recompense” is followed by the nearness of calamity. It closely joins the commentary's divine punitive anger, payment in return, and inevitable day."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.12.19",
+          "basis": "vengeance belongs to God who repays",
+          "note": "Paul prohibits private vengeance because God says, “I will repay.” This gives the commentary's account of divine wrath as punitive recompense a disciplined ethical implication."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Zeph.1.15",
+          "basis": "day of wrath, distress, ruin, darkness",
+          "note": "Zephaniah layers several “days” within the day of YHWH: wrath, distress, devastation, darkness. It is a close biblical realization of the commentary's severe day that bears many events within it."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Mal.3.2",
+          "basis": "who can stand on the day of his coming",
+          "note": "Malachi asks who can endure and stand when the Lord appears. The verse binds the commentary's day, standing before the living Judge, and purgative punishment in one scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ps.1.5",
+          "basis": "wicked do not stand in judgment",
+          "note": "The psalm says the wicked will not stand in the judgment, supplying a precise biblical reverse of the commentary's picture of creatures standing before the Sustainer on the resurrection day."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rev.6.17",
+          "basis": "great day of wrath and ability to stand",
+          "note": "Revelation announces the great day of divine wrath and asks who can stand. It directly joins the commentary's two images of punitive anger and rising before the final authority."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.26.19",
+          "basis": "dead live and corpses rise",
+          "note": "Isaiah summons the dead to live and the corpses to rise. This is a direct resurrection counterpart to the commentary's qiyāmah, when creatures stand before God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Isa.26.19",
+          "basis": "Hebrew yequmun, “they shall rise”",
+          "note": "The commentary develops q-w-m from upright standing to resurrection; Isaiah's yequmun, “they shall rise,” uses the Hebrew cognate qûm in an actual resurrection proclamation, not merely a lexical resemblance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Dan.12.2",
+          "basis": "awakening from dust to life or disgrace",
+          "note": "Daniel's sleepers in the dust awake, some to everlasting life and some to abhorrence. It gives the commentary's standing resurrection a divided recompense."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rom.14.10",
+          "basis": "all stand before God's judgment seat",
+          "note": "Paul says all people will stand before the judgment seat of God. This provides the exact bodily-postural form of the commentary's creatures standing before the living, sustaining Judge."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:2Cor.5.10",
+          "basis": "all appear to receive what is due",
+          "note": "All must appear before Christ's judgment seat to receive what is due for deeds done in the body. It combines the commentary's public standing, account, and equivalent return."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Acts.17.31",
+          "basis": "God fixed a day to judge the world",
+          "note": "Paul announces a day fixed for judging the world in righteousness, guaranteed by resurrection. It is a direct day-of-judgment and resurrection formulation alongside Mālik yawm al-dīn."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rev.20.12",
+          "basis": "dead stand before throne; books and deeds judged",
+          "note": "The dead, great and small, stand before the throne; books are opened and they are judged by their deeds. This closely matches the commentary's standing, accounting, and exact recompense scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rev.11.18",
+          "basis": "time for wrath, judgment, and reward",
+          "note": "The verse announces God's wrath, the time to judge the dead, reward servants, and destroy destroyers. It gives a compact New Testament counterpart to punishment and payment on the decisive day."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.5",
+          "basis": "day of wrath and righteous judgment",
+          "note": "Paul speaks of storing up wrath for the day when God's righteous judgment is revealed. It directly supports the commentary's reading of divine wrath as judicial punishment rather than emotion alone."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 40,
+        "row": {
+          "line": 40,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.2.6",
+          "basis": "God repays each according to works",
+          "note": "The next verse defines that righteous judgment as repayment according to works. It supplies the commentary's payment-and-balance logic without needing a literal marketplace."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 41,
+        "row": {
+          "line": 41,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.12.36",
+          "basis": "account on the day of judgment",
+          "note": "Jesus says people will render account for every careless word on the day of judgment. The explicit account sharpens the commentary's dīn as reckoning, including what might otherwise be forgotten."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 42,
+        "row": {
+          "line": 42,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Eccl.12.14",
+          "basis": "God brings every hidden deed into judgment",
+          "note": "Ecclesiastes says God brings every deed, including hidden good or evil, into judgment. It supplies the commentary's claim that no person can be absent from or concealed in the account."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 43,
+        "row": {
+          "line": 43,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.4.13",
+          "basis": "no creature hidden; all exposed before God",
+          "note": "Hebrews says no creature is hidden and all are laid bare before the one to whom account is due. It is a close counterpart to the commentary's insistence that no one can evade the day."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 44,
+        "row": {
+          "line": 44,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.33.22",
+          "basis": "YHWH as judge, lawgiver, and king",
+          "note": "Isaiah names YHWH judge, lawgiver, and king in one confession. It makes concrete the commentary's definition of the sovereign as one who rules by command and prohibition."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 45,
+        "row": {
+          "line": 45,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Dan.7.9",
+          "basis": "Ancient of Days seated on a throne",
+          "note": "Daniel's Ancient of Days takes his flaming throne before the court convenes. It supplies a royal judicial scene for the commentary's owner of the decisive day."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 46,
+        "row": {
+          "line": 46,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Dan.7.14",
+          "basis": "Aramaic malku, everlasting kingdom",
+          "note": "The commentary's m-l-k identifies the day’s sovereign; Daniel's Aramaic malku, “kingdom,” shares that Semitic root and names an everlasting dominion granted in the court vision."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 47,
+        "row": {
+          "line": 47,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "1 Enoch 47:3",
+          "basis": "Head of Days, throne, books, standing court",
+          "note": "1 Enoch depicts the Head of Days seated on the throne of glory, books opened, and the heavenly court standing. It is an unusually close Second Temple expansion of the commentary's ruler, standing, and account scene."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 48,
+        "row": {
+          "line": 48,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "1 Enoch 51:1",
+          "basis": "the earth and Sheol return their deposits",
+          "note": "At the resurrection the earth and Sheol give back what was entrusted to them. The return of what is owed gives the commentary's due-payment image a resurrection form."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 49,
+        "row": {
+          "line": 49,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "4 Ezra 7:32",
+          "basis": "earth and dust give up the dead",
+          "note": "4 Ezra says earth and dust surrender those asleep in them, and the storehouses surrender souls. It supplies a detailed Jewish apocalyptic counterpart to the commentary's resurrection day."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 50,
+        "row": {
+          "line": 50,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "4 Ezra 7:33",
+          "basis": "the Most High appears on the judgment seat",
+          "note": "Immediately after the dead are returned, 4 Ezra places the Most High on the judgment seat. The sequence aligns resurrection with the sovereign's final adjudication."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 51,
+        "row": {
+          "line": 51,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "b. Rosh Hashanah 16b",
+          "basis": "all pass before God; three books opened",
+          "note": "The rabbinic account of Rosh Hashanah has all creatures pass before God and speaks of heavenly books for verdicts. It interprets judgment and record imagery as an annually enacted reckoning."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 52,
+        "row": {
+          "line": 52,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "b. Shabbat 31a",
+          "basis": "“Did you conduct business faithfully?”",
+          "note": "At heavenly judgment, faithful business dealing is named among the first questions asked. It directly carries the commentary's market-scale ethics into personal eschatological accountability."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 53,
+        "row": {
+          "line": 53,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Sirach 29:2",
+          "basis": "lend in need and repay on time",
+          "note": "Sirach instructs one to lend to a neighbor in need and repay the neighbor at the appointed time. It closely parallels the commentary's concrete debt with a fixed term before that debt becomes an image of judgment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 54,
+        "row": {
+          "line": 54,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Wisdom of Solomon 6:5",
+          "basis": "severe judgment for rulers",
+          "note": "Wisdom warns that a severe judgment comes upon those in high places. It turns the commentary's kingly hierarchy back upon human rulers, who too face the sovereign Judge."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 55,
+        "row": {
+          "line": 55,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.11.4",
+          "basis": "forgiven sins and forgiven debtors",
+          "note": "Luke's prayer asks forgiveness of sins because the pray-ers forgive everyone indebted to them. It makes the commentary's proximity of debt and recompense into an explicit moral and devotional analogy."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 56,
+        "row": {
+          "line": 56,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.6.12",
+          "basis": "forgive debts as debtors are forgiven",
+          "note": "Matthew's prayer names moral forgiveness as the mutual release of debts. It gives a New Testament path by which commercial obligation is transposed into accountability before God."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 57,
+        "row": {
+          "line": 57,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.12.59",
+          "basis": "no release until the last lepton is paid",
+          "note": "Jesus' legal warning ends with payment of the last small coin before release. It provides the commentary's exact-price and due-debt image in a judicial setting."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 58,
+        "row": {
+          "line": 58,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Luke.19.15",
+          "basis": "king returns and calls servants to account",
+          "note": "After receiving kingship, the returning ruler summons servants to learn what their trading has gained. Kingship, commercial calculation, and reckoning meet in one parable."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 59,
+        "row": {
+          "line": 59,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "soydas",
+          "ref": "WLC:Deut.19.15",
+          "basis": "Hebrew yaqum; witnesses establish a matter",
+          "note": "The commentary joins q-w-m, standing, and a witness who may forget. Deuteronomy's yaqum, from Hebrew qûm, says one witness cannot “rise” alone and requires corroborating testimony to establish a matter."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 60,
+        "row": {
+          "line": 60,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.22.12",
+          "basis": "reward and repayment according to work",
+          "note": "The returning Lord brings recompense to repay each according to work. It is a concise final-payment counterpart to the commentary's balance and day of return."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 61,
+        "row": {
+          "line": 61,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.16.27",
+          "basis": "coming judge repays each according to practice",
+          "note": "The verse following the question about an exchange for life says the Son of Man will come and repay each according to practice. It keeps ransom's limit and deed-for-deed recompense together."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 62,
+        "row": {
+          "line": 62,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:John.5.29",
+          "basis": "resurrection of life and resurrection of judgment",
+          "note": "Those in the tombs come out either to resurrection of life or resurrection of judgment. It gives the commentary's standing resurrection its two-sided outcome."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 63,
+        "row": {
+          "line": 63,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.25.31",
+          "basis": "royal throne of final judgment",
+          "note": "The Son of Man comes in glory and sits on his glorious throne. This supplies a visibly royal form for the commentary's owner and ruler of the judgment day."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 64,
+        "row": {
+          "line": 64,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.25.46",
+          "basis": "eternal punishment and eternal life",
+          "note": "The final separation ends in eternal punishment for one group and eternal life for the other. It states the opposed outcomes implied by the commentary's recompense and divine wrath."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 65,
+        "row": {
+          "line": 65,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Job.34.11",
+          "basis": "God repays each according to work",
+          "note": "Job's speaker says God repays humans according to their work and lets each find what accords with their way. It gives the commentary's equivalent payment a direct wisdom formulation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 66,
+        "row": {
+          "line": 66,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Thess.1.6",
+          "basis": "God repays affliction to afflicters",
+          "note": "God is said to be just in repaying affliction to those who afflict believers. This is a specific final-judgment use of the commentary's reciprocal payment and punitive wrath."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 67,
+        "row": {
+          "line": 67,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.34.8",
+          "basis": "day of vengeance and year of recompense",
+          "note": "Isaiah names a day of YHWH's vengeance and a year of recompense. It explicitly pairs a decisive time with retaliation and payment."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 68,
+        "row": {
+          "line": 68,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rom.14.12",
+          "basis": "each person gives an account to God",
+          "note": "After saying all stand before God's judgment seat, Paul says each will give an account of self to God. This supplies the verbal accounting element distinct from the physical standing of verse 10."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 69,
+        "row": {
+          "line": 69,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "4 Ezra 7:35",
+          "basis": "deeds follow and reward is displayed",
+          "note": "4 Ezra says the work follows the person and the reward is displayed. It fills out the prior judgment-seat scene with the commentary's exact return for what was done."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 70,
+        "row": {
+          "line": 70,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Jer.32.14",
+          "basis": "deeds preserved for many days",
+          "note": "Jeremiah orders the sealed and open deeds stored so they may last many days. It adds durable documentary memory to the commentary's concern that a witness can forget an obligation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 71,
+        "row": {
+          "line": 71,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Deut.15.2",
+          "basis": "sabbatical release of a loan",
+          "note": "The sabbatical law requires a creditor to release what was lent to a neighbor. It offers a Torah counterpoint to the commentary's debt coming due: a fixed time can cancel rather than exact an obligation."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 72,
+        "row": {
+          "line": 72,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.13.9",
+          "basis": "day of YHWH, wrath, sinners destroyed",
+          "note": "Isaiah calls the coming day cruel, full of wrath and fierce anger, to destroy sinners. It supplies another prophetic rendering of the commentary's day as a devastating event rather than a neutral unit of time."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 73,
+        "row": {
+          "line": 73,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Joel.2.11",
+          "basis": "great and very terrible day",
+          "note": "Joel calls the day of YHWH great and exceedingly terrible and asks who can endure it. Its question of endurance complements the commentary's scene of people standing before the Judge."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 74,
+        "row": {
+          "line": 74,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.6.5",
+          "basis": "black horse carrying a balance",
+          "note": "Revelation's apocalyptic balance belongs to famine rationing and prices, not an impartial courtroom scale. That different use helps delimit the commentary's moralized, upright-balance image while retaining its economic force."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 75,
+        "row": {
+          "line": 75,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.2",
+          "basis": "measure used becomes measure received",
+          "note": "Jesus says the measure one uses will be measured back. It turns the commentary's exact measure into a reciprocal ethical rule, though it does not portray a literal final balance."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 76,
+        "row": {
+          "line": 76,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.2",
+          "basis": "steward commanded to render an account",
+          "note": "The steward must give an account of management before losing his position; the following scene concerns debtors and their bills. It supplies an administrative form of the commentary's account-and-debt imagery."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 77,
+        "row": {
+          "line": 77,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Gittin 4:3",
+          "basis": "Hillel's prosbul and sabbatical debts",
+          "note": "Hillel's prosbul responds to lenders withholding loans as the release year approaches, reworking Deuteronomy's debt law through a court procedure. It shows a rabbinic legal reading of how written obligation and mercy coexist."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 78,
+        "row": {
+          "line": 78,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Mishnah Sanhedrin 5:1",
+          "basis": "seven chronological questions for witnesses",
+          "note": "The Mishnah tests witnesses by sabbatical cycle, year, month, day, hour, and place. It offers a later Jewish legal answer to the commentary's concern that a witness may lose the event from memory."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 79,
+        "row": {
+          "line": 79,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "yorum_gelenegi",
+          "ref": "John Chrysostom, Homilies on Matthew 61",
+          "basis": "Matthean debt as sins before the heavenly King",
+          "note": "In his homily on Matthew 18:23–35, Chrysostom reads the enormous debt as sins forgiven by the heavenly King and the fellow servant's debt as an interpersonal claim. This interpretation makes the parable's monetary reckoning a moral account."
+        }
+      },
+      {
+        "phase": 1,
+        "line": 80,
+        "row": {
+          "line": 80,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Isa.43.3",
+          "basis": "Egypt given as Israel's ransom and exchange",
+          "note": "Isaiah pictures God giving Egypt, Cush, and Seba as Israel's ransom or exchange. Its historical divine substitution contrasts with the commentary's final-day claim that an offered equivalent cannot be accepted."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 1,
+        "row": {
+          "line": 1,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Zech.14.9",
+          "basis": "YHWH king over all earth “on that day”",
+          "note": "The commentary's day transfers undivided rule to its Mālik; Zechariah says YHWH will be king over all the earth and, on that day, one with one name. It makes royal exclusivity explicitly eschatological."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 2,
+        "row": {
+          "line": 2,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Dan.7.26",
+          "basis": "court sits and a ruler's dominion is removed",
+          "note": "Daniel's court sits and strips the hostile ruler of dominion for destruction. It supplies a concrete court-scene counterpart to the commentary's claim that human possession and command fail on the day of judgment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 3,
+        "row": {
+          "line": 3,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rev.11.15",
+          "basis": "the world's kingdom becomes the Lord's kingdom",
+          "note": "At the seventh trumpet the kingdom of the world becomes the kingdom of God and his Christ, who reigns forever. This gives the commentary's exclusive final sovereignty an apocalyptic Christian formulation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 4,
+        "row": {
+          "line": 4,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Gen.4.10",
+          "basis": "Abel's blood cries from the ground",
+          "note": "The commentary fears blood going lost when it is not avenged; Abel's blood cries from the ground to God, making shed blood an enduring claimant rather than a forgotten event."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 5,
+        "row": {
+          "line": 5,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.26.21",
+          "basis": "the earth reveals blood and no longer covers its slain",
+          "note": "In Isaiah's judgment setting, the earth discloses its bloodshed and stops concealing those killed. It joins the commentary's resurrection setting to its image of blood that cannot vanish without answer."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 6,
+        "row": {
+          "line": 6,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.16.6",
+          "basis": "blood given to blood-shedders as their due",
+          "note": "Because the persecutors poured out the blood of saints and prophets, the bowl judgment gives them blood to drink, “for they deserve it.” This makes bloodshed itself the measure of eschatological recompense."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 7,
+        "row": {
+          "line": 7,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.11.1",
+          "basis": "false balance versus a full weight",
+          "note": "A false balance is an abomination while a full weight delights YHWH. The proverb directly supplies the commentary's contrast between a tipped scale and its exact, acceptable counterweight."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 8,
+        "row": {
+          "line": 8,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ezek.45.10",
+          "basis": "just balances, ephah, and bath",
+          "note": "Ezekiel's restored commonwealth is ordered to use just balances and standard measures. It gives the commentary's upright scale a public, ruler-governed economic setting."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 9,
+        "row": {
+          "line": 9,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.6.38",
+          "basis": "full, pressed, shaken, overflowing measure returned",
+          "note": "Jesus promises a good measure, pressed down and shaken together, returned into the giver's lap, and adds that the measure used returns to its user. This turns the commentary's full measure into a precise reciprocity formula."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 10,
+        "row": {
+          "line": 10,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "Mishnah Sotah 1:7",
+          "basis": "by the measure one measures, so one is measured",
+          "note": "The Mishnah states its measure-for-measure principle while interpreting the sotah ordeal. It gives later Jewish formulation to the commentary's balance as equivalent retribution rather than mere market accuracy."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 11,
+        "row": {
+          "line": 11,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Dan.12.13",
+          "basis": "stand in allotted place at the end of days",
+          "note": "Daniel is told to rest and then stand in his allotted place at the end of days. This is an unusually direct pairing of resurrection-like standing and the final temporal horizon developed in the commentary."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 12,
+        "row": {
+          "line": 12,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:John.5.28",
+          "basis": "all in tombs hear the judge's voice",
+          "note": "Jesus says that all who are in tombs will hear his voice. It supplies the universal summons that precedes the two resurrection outcomes in the following verse and the commentary's standing scene."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 13,
+        "row": {
+          "line": 13,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Rev.20.13",
+          "basis": "sea, Death, and Hades return their dead",
+          "note": "The sea, Death, and Hades give up their dead, after which each is judged by deeds. It provides the return-from-every-custodian detail missing from the commentary's compressed resurrection image."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 14,
+        "row": {
+          "line": 14,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "paralel",
+          "ref": "SBLGNT:Matt.25.32",
+          "basis": "all nations gathered and separated before the throne",
+          "note": "All nations are gathered before the enthroned Son of Man and separated as sheep from goats. It supplies the assembled-humanity action between the royal throne and the divergent final rewards."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 15,
+        "row": {
+          "line": 15,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.96.13",
+          "basis": "YHWH comes to judge earth in righteousness",
+          "note": "The psalm announces YHWH's coming to judge the world in righteousness and peoples in faithfulness. Its universal, equitable judgment fills out the commentary's claim that the day is a true accounting."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 16,
+        "row": {
+          "line": 16,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Amos.5.18",
+          "basis": "day of YHWH as darkness, not light",
+          "note": "Those who desire YHWH's day are warned that it is darkness rather than light. This gives the commentary's severe event-day a prophetic reversal of complacent expectation."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 17,
+        "row": {
+          "line": 17,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.2",
+          "basis": "day of the Lord arrives like a thief",
+          "note": "Paul says the day of the Lord comes like a thief in the night. It makes the commentary's day an arriving event that overtakes people rather than an abstract date."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 18,
+        "row": {
+          "line": 18,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Thess.5.3",
+          "basis": "sudden destruction with no escape",
+          "note": "The claim of peace and safety is followed by sudden destruction that cannot be escaped. This gives the prior day-of-the-Lord image its inescapable consequence."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 19,
+        "row": {
+          "line": 19,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:2Pet.3.10",
+          "basis": "day comes; created order passes and works are exposed",
+          "note": "The day of the Lord arrives like a thief, the heavens and elements pass away, and the earth's works are exposed. It enlarges the commentary's day-as-event into a cosmic disclosure of deeds."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 20,
+        "row": {
+          "line": 20,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.66.16",
+          "basis": "YHWH enters judgment with all flesh",
+          "note": "Isaiah says YHWH enters into judgment with all flesh by fire and sword. It directly combines the commentary's universal judgment, wrath, and punitive outcome."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 21,
+        "row": {
+          "line": 21,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Heb.2.2",
+          "basis": "every transgression receives just retribution",
+          "note": "Hebrews says every transgression and disobedience received a just retribution. It states the commentary's dīn as measured return in juridical rather than commercial language."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 22,
+        "row": {
+          "line": 22,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:1Pet.4.5",
+          "basis": "account to the judge of living and dead",
+          "note": "Those opposed to believers will give an account to the one ready to judge the living and the dead. It provides the commentary's account, universal judge, and resurrection horizon in one formula."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 23,
+        "row": {
+          "line": 23,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "1 Enoch 62:3",
+          "basis": "kings see the enthroned judge and righteous judgment",
+          "note": "The kings, mighty, and landowners see the glorious enthroned figure and recognize that righteous judgment proceeds before him. It gives the commentary's ruler-and-day scene a Second Temple reversal of earthly power."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 24,
+        "row": {
+          "line": 24,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Zeph.1.18",
+          "basis": "silver and gold cannot deliver on the day of wrath",
+          "note": "Zephaniah says neither silver nor gold can deliver on YHWH's day of wrath. It is a direct biblical counterpart to the commentary's claim that a final substitute payment is not accepted."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 25,
+        "row": {
+          "line": 25,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Ezek.7.19",
+          "basis": "silver and gold cannot satisfy or deliver in wrath",
+          "note": "Ezekiel has people cast away silver and gold because it cannot deliver them on the day of YHWH's wrath. The image explicitly turns valuable payment into useless weight at judgment."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 26,
+        "row": {
+          "line": 26,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Prov.11.4",
+          "basis": "riches do not profit on the day of wrath",
+          "note": "The proverb denies that riches profit on the day of wrath, while righteousness delivers from death. It sharply qualifies the commentary's debt-and-value imagery at the final account."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 27,
+        "row": {
+          "line": 27,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.18.6",
+          "basis": "repay, double, and measure back in the cup",
+          "note": "The heavenly command says to repay Babylon as she repaid, double her works, and mix double in her own cup. It gives the commentary's equivalent return and unbending measure an apocalyptic form."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 28,
+        "row": {
+          "line": 28,
+          "strength": "strong",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Col.3.25",
+          "basis": "wrongdoer repaid without partiality",
+          "note": "The wrongdoer will be paid back for the wrong done, with no partiality. This supplies a concise Christian statement of impartial retribution that matches the commentary's exact-scale logic."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 29,
+        "row": {
+          "line": 29,
+          "strength": "strong",
+          "tradition": "tevrat",
+          "kind": "paralel",
+          "ref": "WLC:Isa.35.8",
+          "basis": "a holy way where the unclean do not pass or go astray",
+          "note": "Isaiah's eschatological highway is called the holy way; the unclean do not pass on it and even fools do not go astray. It is a close path-and-non-straying counterpart to the commentary's straight path and its contrary ending."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 30,
+        "row": {
+          "line": 30,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "karsi_anlati",
+          "ref": "WLC:Job.33.24",
+          "basis": "“a ransom has been found” for one going to the pit",
+          "note": "Job's heavenly mediator says a ransom has been found and the sufferer should be spared descent to the pit. Its rescue-payment image contrasts with the commentary's final-day refusal of ransom and marks the contextual limit of that refusal."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 31,
+        "row": {
+          "line": 31,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Ps.37.21",
+          "basis": "wicked borrows and does not repay",
+          "note": "The psalm contrasts the wicked borrower who does not repay with the righteous giver. It supplies the commentary's ordinary debt-and-payment image in a moral distinction, though not a final court scene."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 32,
+        "row": {
+          "line": 32,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Prov.22.7",
+          "basis": "borrower servant to lender",
+          "note": "The proverb says the borrower becomes servant to the lender. It gives the commentary's loan relation a concrete hierarchy of power that complicates its image of sovereign ownership."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 33,
+        "row": {
+          "line": 33,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Jas.5.4",
+          "basis": "withheld wages cry out to the Lord of hosts",
+          "note": "The unpaid wages of laborers cry out and their cries reach the Lord of hosts. It transfers the commentary's honest trade and unresolved claim into a social injustice heard by divine authority.",
+          "raw_ref": "SBLGNT:James.5.4",
+          "reference_resolution": "edition-book-names-v2"
+        }
+      },
+      {
+        "phase": 2,
+        "line": 34,
+        "row": {
+          "line": 34,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Luke.16.5",
+          "basis": "debtor's bill and amount owed to the master",
+          "note": "A steward asks a debtor how much is owed to his master and works from the written bill. This gives the debtors and documents that make the preceding command to render an account concrete."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 35,
+        "row": {
+          "line": 35,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Rev.6.6",
+          "basis": "denarius pricing of grain under the balance",
+          "note": "The apocalyptic voice fixes grain at a denarius price while preserving oil and wine. It supplies the price-and-coin detail that explains the economic force of the balance in the preceding verse."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 36,
+        "row": {
+          "line": 36,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "motif",
+          "ref": "WLC:Isa.26.7",
+          "basis": "level path of the righteous made level by the Upright One",
+          "note": "Isaiah calls the righteous person's path level and addresses God as the Upright One who makes it level. It complements the commentary's straight-path image, though it does not itself use a scale."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 37,
+        "row": {
+          "line": 37,
+          "strength": "medium",
+          "tradition": "incil",
+          "kind": "motif",
+          "ref": "SBLGNT:Matt.7.14",
+          "basis": "constricted way leading to life",
+          "note": "Jesus contrasts the constricted way leading to life with the broad way to destruction. It gives the commentary's straight path and loss a specific New Testament path-outcome contrast."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 38,
+        "row": {
+          "line": 38,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Testament of Abraham, Recension A, 12–13",
+          "basis": "postmortem tribunal, records, and Dokiel's balance",
+          "note": "In Recension A, souls pass a postmortem tribunal in which deeds are recorded and the archangel Dokiel weighs them. The vision gathers the commentary's standing, accounting, and scale images; chapter divisions vary by edition."
+        }
+      },
+      {
+        "phase": 2,
+        "line": 39,
+        "row": {
+          "line": 39,
+          "strength": "medium",
+          "tradition": "tevrat",
+          "kind": "yorum_gelenegi",
+          "ref": "Targum Pseudo-Jonathan on Gen.4.10",
+          "basis": "Abel's blood expanded to future righteous descendants",
+          "note": "This Palestinian Targum expands Abel's crying blood to include the blood of righteous descendants yet to arise. It intensifies the commentary's claim that blood does not disappear, though wording varies among Targum witnesses."
+        }
+      }
+    ],
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "7064c8d1cd8609cc306abab833e23fb83bf63b91fe14ec02c046d2753b6151fa",
+    "followup_sha256": "7064c8d1cd8609cc306abab833e23fb83bf63b91fe14ec02c046d2753b6151fa"
+  },
+  "consolidation_error": null,
+  "list_sha256": "67e03cf319354f46f533263c25f1001df5ad5b12f4ceac42792f48d3179551b8",
+  "followup_delivery": [
+    {
+      "call_id": "call_OcDjFfO8iA5b1vv2Aa8cW5nF",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 320445,
+    "cached_input_tokens": 256512,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 52741,
+    "reasoning_output_tokens": 44036,
+    "total_tokens": 373186
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T15:24:47.722Z",
+  "artifacts": {
+    "started.json": "9b77a2dffad35515ccaf7b4708b6814541d5a77274ca87963f931d037fdafd23",
+    "input.json": "b56e57735f6ddef93a407c131c083aafe25a5245f491cdfa693b914657bb8487",
+    "prompt.md": "d7fcc924f0b4fc62d12bb312087254db8766c7812d3c727df77cea00daf4af45",
+    "package.md": "9e66c7eb21a77fecacb51375c32666806ed39857f7d459039349433fb500f8ec",
+    "spawn.md": "28660861eb45fff79589c2282003a612419c966e3e769f49c24d936627154632",
+    "followup.txt": "7451702171804f04bd94451a74d5cffd2d5f4b24a441584f4687f37c64249baf",
+    "turn1.json": "1315911aabde40adb937ffd70426c940d2e8db829997cb896a32a2741d41a6ab",
+    "turn1.list.tsv": "d43550c4fda6d9bbe9a463c7e823f3b49e5cb65560d8e0f9e3beee81d911837c",
+    "followup.tsv": "7064c8d1cd8609cc306abab833e23fb83bf63b91fe14ec02c046d2753b6151fa",
+    "list.tsv": "67e03cf319354f46f533263c25f1001df5ad5b12f4ceac42792f48d3179551b8",
+    "consolidation.json": "c9b6a1b5449f712f6fd03679250509e51c591e75cde15e4d3e356ed1ed5b72ad",
+    "validation.json": "0560b7060b1c24143b5174810a7b45a940030417e508851d89a25023daeef5ec",
+    "proposal_validation.json": "b15d746a1d874b07a9ddfdb66e3cda217975c771b7fbe02e3464094c5a11c6da",
+    "tool_calls.json": "0a3a05661254d46d2a3eb7f1c20c6ff0f7a242170b0063ec2834aa102fd44887",
+    "session.json": "2cbb46c647fae3257d8e4fdfa8a72e8be30573792679c7978efe188b9e447c1f",
+    "session.events.jsonl": "db463456b87efaeed45e9276f7b602c9016d54f4e410e8f2e455a4b05a3ae8fc"
+  }
+}

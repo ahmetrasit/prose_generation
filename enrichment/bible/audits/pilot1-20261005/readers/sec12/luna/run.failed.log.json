@@ -1,0 +1,124 @@
+{
+  "target": "sec12",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md",
+  "base_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/quran.json": "e41e9f866cc96a3aabb7e7261eaa67ce3ed05240642cc8f9fc58f7d1ed40bb40",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/pack.json": "e73af12590027cc99bcacb8f265c254315f6220f3b9b4297fdea1625243c0599"
+  },
+  "started": "2026-10-05T11:06:55.828947-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_pilot1_20261005_sec12_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "pilot1-20261005",
+  "prompt_sha256": "9098eaecbed0e8c2ac207032776ec62db6aa8a9693b27ec21e1954838d3a707d",
+  "package_sha256": "16bc389f84fe22a83327764e099f5ef2786c6604b559216cfb07a501133d8456",
+  "input_sha256": "53220aede31ba69d32f845b62b8e028da5016f50d7ea7491cad30488abcc5245",
+  "spawn_sha256": "df9e026c4e06980c2e9a586fe52216435653586cc49972004ae4ab1f9669baf3",
+  "followup_text_sha256": "f85d598f31a643df58aa1ad9835a2a16246e9fb086b033b8ea5b8ab21c2ff576",
+  "agent_id": "01a10c9e-3988-7b80-a670-2877dbc014e8",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T11-10-58-01a10c9e-3988-7b80-a670-2877dbc014e8.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "partial",
+  "check": "findings",
+  "turn1_rows": 79,
+  "turn1_sha256": "621ed21755e844d91c180ebbb5d3e464b722dae3949ebae993528394eb95b948",
+  "turn2": {
+    "completed": true,
+    "rows_total": 78,
+    "rows_added": 0
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": null,
+  "consolidation_error": "invalid TSV: ['line 19: unknown verse in specified edition: WLC:Ps.16.12', 'line 21: invalid/empty field', 'line 22: unknown verse in specified edition: WLC:Ps.121.9', 'line 34: invalid/empty field']",
+  "list_sha256": "621ed21755e844d91c180ebbb5d3e464b722dae3949ebae993528394eb95b948",
+  "followup_delivery": [
+    {
+      "call_id": "call_KzGBAFcEWeTfSIJqLdkLjWSg",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 355691,
+    "cached_input_tokens": 279552,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 39941,
+    "reasoning_output_tokens": 32125,
+    "total_tokens": 395632
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T15:55:41.523Z",
+  "artifacts": {
+    "started.json": "e9e43a789ab55fb498165f76d67c04ded590a1e9b06bdb41021690779042c1bf",
+    "input.json": "53220aede31ba69d32f845b62b8e028da5016f50d7ea7491cad30488abcc5245",
+    "prompt.md": "9098eaecbed0e8c2ac207032776ec62db6aa8a9693b27ec21e1954838d3a707d",
+    "package.md": "16bc389f84fe22a83327764e099f5ef2786c6604b559216cfb07a501133d8456",
+    "spawn.md": "df9e026c4e06980c2e9a586fe52216435653586cc49972004ae4ab1f9669baf3",
+    "followup.txt": "f85d598f31a643df58aa1ad9835a2a16246e9fb086b033b8ea5b8ab21c2ff576",
+    "turn1.json": "4ca73f47033703d9d6e2aa4ccf03f9cd7084c3316a2fa02b5047f3c3bc4d2470",
+    "turn1.list.tsv": "621ed21755e844d91c180ebbb5d3e464b722dae3949ebae993528394eb95b948",
+    "followup.tsv": "999e1a18934d55729e31b84112a39edd604344f79d5da5e9cef57f80c0dbd19d",
+    "list.tsv": "621ed21755e844d91c180ebbb5d3e464b722dae3949ebae993528394eb95b948",
+    "validation.json": "be115a2d8e8d26be8b13237b3a391ba276fc42f33de5ffcc594501c414991c89",
+    "proposal_validation.json": "48cbb3a7fb2d00142b4e95a352a675659bfabf0b54805caaec5ae222efc4ac87",
+    "tool_calls.json": "0c1854a7d4eb5740f0b62e335854432a34e6d3504214a556dc4fee95a5b41635",
+    "session.json": "5525839573dd9fe774248ac44748b0f334fe49e10cdeff59c858e751fb48c776",
+    "session.events.jsonl": "df9f923f5d94ebc96a5ed6d65bae9da750beeced7e6c90a2195c9d0380a3dbfd",
+    "turn1.original.tsv": "621ed21755e844d91c180ebbb5d3e464b722dae3949ebae993528394eb95b948",
+    "turn1.validation.failed.json": "be115a2d8e8d26be8b13237b3a391ba276fc42f33de5ffcc594501c414991c89",
+    "turn1.tool_calls.json": "24c526f31f19f596eed4894531d5c9a816e8a5aaa696a0977a85356401f2b135",
+    "turn1.repair.proposed.json": "70aee9e802259bbdbb5ba2f70dd5526b76912ecaf60355b7461359dbb2bb744f",
+    "turn1.repair.proposed.tsv": "a5dee8e5109bb5b4e1715bd4b04c17b8c911c9d8fc3e223e0e9b7d490a271f8d",
+    "turn1.accepted.tsv": "a5dee8e5109bb5b4e1715bd4b04c17b8c911c9d8fc3e223e0e9b7d490a271f8d",
+    "turn1.repair.accepted.json": "bec9fb965ff4fdca321c9a8b8815e35b2e1d2715133c17490df8affcc6c75d48"
+  },
+  "first_turn_repair": {
+    "policy": "bible-first-turn-repair-v1",
+    "approval": "2026-10-05 user reply: Apply the 13 recorded corrections; extend first-pass repair handling. Exact bundle: enrichment/bible/audits/pilot1-20261005/first-turn-repairs.proposed.json",
+    "tool_audit_reviewed": true,
+    "accepted_at": "2026-10-05T15:51:00.412147+00:00",
+    "changes": [
+      {
+        "line": 22,
+        "before": [
+          "strong",
+          "karsi_anlati",
+          "tevrat",
+          "WLC:Isa.42.16",
+          "blind led on an unknown way",
+          "The commentary's blind people strive toward the path yet cannot see it; Isaiah promises that God will lead blind people on an unfamiliar way, turn darkness to light, and not abandon them."
+        ],
+        "after": [
+          "strong",
+          "tevrat",
+          "karsi_anlati",
+          "WLC:Isa.42.16",
+          "blind led on an unknown way",
+          "The commentary's blind people strive toward the path yet cannot see it; Isaiah promises that God will lead blind people on an unfamiliar way, turn darkness to light, and not abandon them."
+        ],
+        "reason": "Transpose tradition and kind into their declared columns; neither value changes."
+      }
+    ],
+    "model_calls": 0,
+    "artifacts": {
+      "turn1.original.tsv": "621ed21755e844d91c180ebbb5d3e464b722dae3949ebae993528394eb95b948",
+      "turn1.validation.failed.json": "be115a2d8e8d26be8b13237b3a391ba276fc42f33de5ffcc594501c414991c89",
+      "turn1.tool_calls.json": "24c526f31f19f596eed4894531d5c9a816e8a5aaa696a0977a85356401f2b135",
+      "turn1.repair.proposed.json": "70aee9e802259bbdbb5ba2f70dd5526b76912ecaf60355b7461359dbb2bb744f",
+      "turn1.repair.proposed.tsv": "a5dee8e5109bb5b4e1715bd4b04c17b8c911c9d8fc3e223e0e9b7d490a271f8d",
+      "turn1.accepted.tsv": "a5dee8e5109bb5b4e1715bd4b04c17b8c911c9d8fc3e223e0e9b7d490a271f8d"
+    }
+  }
+}

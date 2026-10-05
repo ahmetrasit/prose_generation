@@ -1,0 +1,374 @@
+{
+  "format": "bible-discovery-v2",
+  "status": "ok",
+  "target": "1:1",
+  "base_sha256": "62bb496ee1b76077b173fd84202c2e137025cbb627c6fd1c1fd6d4d39685a3f3",
+  "tsv_sha256": "2e3efec5b387a52e65b3e5a6e69540ba2b7069fbfe335197a329fa00f5a27f05",
+  "provenance": [
+    {
+      "target": "1:1",
+      "model": "luna",
+      "run_tag": "pilot1-20261005",
+      "path": "pilot1-20261005/1_1/luna",
+      "sha256": "c3287f6a333ed043a5b6d4960fdadf44168de1bfa1564526d98cdd3a3e241f75"
+    },
+    {
+      "target": "1:1",
+      "model": "terra",
+      "run_tag": "pilot1-20261005",
+      "path": "pilot1-20261005/1_1/terra",
+      "sha256": "7e3b90f90f0061d848eb065bdfa4a88525da11827f7bafebae827f55d34c141c"
+    }
+  ],
+  "rows": 187,
+  "findings": [
+    {
+      "target": "1:1",
+      "model": "luna",
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/1_1/luna/list.tsv",
+        "rows": 125,
+        "unique_references": 124,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 95,
+          "medium": 30
+        },
+        "findings": [
+          {
+            "line": 28,
+            "ref": "Rosh Hashanah 17b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 29,
+            "ref": "Berakhot 32a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 31,
+            "ref": "WLC:Hos.6.6",
+            "raw_ref": "WLC:Hosea.6.6",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          },
+          {
+            "line": 44,
+            "ref": "SBLGNT:Jas.4.15",
+            "raw_ref": "SBLGNT:James.4.15",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          },
+          {
+            "line": 68,
+            "ref": "SBLGNT:Jas.4.13",
+            "raw_ref": "SBLGNT:James.4.13",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          },
+          {
+            "line": 69,
+            "ref": "SBLGNT:Jas.4.14",
+            "raw_ref": "SBLGNT:James.4.14",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          },
+          {
+            "line": 89,
+            "ref": "Mishnah Berakhot 6:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 90,
+            "ref": "Berakhot 35a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 91,
+            "ref": "Sirach 2:11",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 92,
+            "ref": "Sirach 18:13",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 93,
+            "ref": "Wisdom of Solomon 11:23",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 94,
+            "ref": "Wisdom of Solomon 11:26",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 103,
+            "ref": "Didache 9:5",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 104,
+            "ref": "Didache 10:2",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 111,
+            "ref": "SBLGNT:Jas.2.13",
+            "raw_ref": "SBLGNT:James.2.13",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          },
+          {
+            "line": 112,
+            "ref": "Rashi on Exodus 32:5",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 119,
+            "ref": "Didache 9:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "raw_proposal_validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/1_1/luna/followup.tsv",
+        "rows": 51,
+        "unique_references": 51,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 37,
+          "medium": 14
+        },
+        "findings": [
+          {
+            "line": 15,
+            "ref": "Mishnah Berakhot 6:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 16,
+            "ref": "Berakhot 35a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 17,
+            "ref": "Sirach 2:11",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 18,
+            "ref": "Sirach 18:13",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 19,
+            "ref": "Wisdom of Solomon 11:23",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 20,
+            "ref": "Wisdom of Solomon 11:26",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 29,
+            "ref": "Didache 9:5",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 30,
+            "ref": "Didache 10:2",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 37,
+            "ref": "SBLGNT:Jas.2.13",
+            "raw_ref": "SBLGNT:James.2.13",
+            "kind": "reference_alias",
+            "resolver": "edition-book-names-v2",
+            "message": "Unambiguous book name resolved to its corpus code; raw row, edition and verse numbering unchanged."
+          },
+          {
+            "line": 38,
+            "ref": "Rashi on Exodus 32:5",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 45,
+            "ref": "Didache 9:1",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "repeats": [],
+      "diagnostics": [],
+      "repair": null,
+      "first_turn_repair": null
+    },
+    {
+      "target": "1:1",
+      "model": "terra",
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/1_1/terra/list.tsv",
+        "rows": 101,
+        "unique_references": 100,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 85,
+          "medium": 16
+        },
+        "findings": [
+          {
+            "line": 18,
+            "ref": "Wisdom of Solomon 10:4",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 64,
+            "ref": "2 Maccabees 7:22",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 70,
+            "ref": "Berakhot 35a",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 71,
+            "ref": "Mishnah Avot 2:12",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 72,
+            "ref": "Babylonian Talmud Niddah 30b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 73,
+            "ref": "Didache 10:2",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 74,
+            "ref": "Cyprian, On the Unity of the Church 6",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 99,
+            "ref": "Babylonian Talmud Rosh Hashanah 17b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 100,
+            "ref": "Babylonian Talmud Shabbat 151b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 101,
+            "ref": "Mishnah Rosh Hashanah 2:8",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "raw_proposal_validation": {
+        "file": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/discovery/pilot1-20261005/1_1/terra/followup.tsv",
+        "rows": 27,
+        "unique_references": 27,
+        "schema_errors": [],
+        "duplicates": [],
+        "strengths": {
+          "strong": 21,
+          "medium": 6
+        },
+        "findings": [
+          {
+            "line": 25,
+            "ref": "Babylonian Talmud Rosh Hashanah 17b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 26,
+            "ref": "Babylonian Talmud Shabbat 151b",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          },
+          {
+            "line": 27,
+            "ref": "Mishnah Rosh Hashanah 2:8",
+            "kind": "unresolved_text",
+            "message": "Named work requires prefetch or an explicit unavailable verdict."
+          }
+        ],
+        "reference_resolver": "edition-book-names-v2",
+        "limits": "Wording and reference checks only; no semantic, relevance, historical or cognacy validation. Pointing/accents are normalized; roots, inflections, orthography, segmentation and named witnesses require review. Qere is separate from the WLC ketiv text. Unmatched spans are findings, not automatic rejection; a match does not verify a connection."
+      },
+      "repeats": [],
+      "diagnostics": [
+        {
+          "call_id": "call_dnq3fwfKnMTPO2lr5WUqIXur",
+          "message": "Script failed"
+        },
+        {
+          "call_id": "call_dnq3fwfKnMTPO2lr5WUqIXur",
+          "message": "Script error:"
+        },
+        {
+          "call_id": "call_dnq3fwfKnMTPO2lr5WUqIXur",
+          "message": "apply_patch verification failed: invalid patch: The last line of the patch must be '*** End Patch'"
+        }
+      ],
+      "repair": null,
+      "first_turn_repair": null
+    }
+  ],
+  "confidence": "Unverified reader labels; agreement and follow-up origin do not verify a connection."
+}

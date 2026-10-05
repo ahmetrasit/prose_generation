@@ -33,7 +33,7 @@ def report(s, tag, targets=None, attempts=None):
                     repeats=cons.get('repeated_proposals',[]),usage_tokens=log.get('usage_tokens'),
                     cost_usd=log.get('cost_usd'),diagnostics=log.get('tool_diagnostics',[]),
                     protocol_findings=log.get('protocol_findings',[]),consolidation_error=log.get('consolidation_error'),
-                    repair=log.get('repair'))
+                    repair=log.get('repair'),first_turn_repair=log.get('first_turn_repair'))
                 data['cost_usd'] += log.get('cost_usd') or 0
                 if (d/'validation.json').exists(): item['validation']=json.loads((d/'validation.json').read_text())
                 if (d/'proposal_validation.json').exists():
@@ -67,7 +67,7 @@ def markdown(data):
     for j in data['jobs']:
         lines += ['',f"## {j['target']} / {j['model']} / {j['run_tag']}",'']
         details={k:j[k] for k in ('errors','protocol_findings','consolidation_error','diagnostics','repeats',
-                                 'validation','raw_proposal_validation','missing_existing_citations','repair','usage_tokens') if j.get(k)}
+                                 'validation','raw_proposal_validation','missing_existing_citations','repair','first_turn_repair','usage_tokens') if j.get(k)}
         lines += ['```json',json.dumps(details,ensure_ascii=False,indent=2),'```']
     lines += ['', '## Dry handoff', '', '```json',json.dumps(data['targets'],ensure_ascii=False,indent=2),'```','',
               f"Ready to merge: {data['ready_for_merge']}. Recorded charge: ${data['cost_usd']:.2f}. No model calls.",

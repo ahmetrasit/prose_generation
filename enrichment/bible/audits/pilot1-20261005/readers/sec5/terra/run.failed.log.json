@@ -1,0 +1,164 @@
+{
+  "target": "sec5",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md",
+  "base_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/quran.json": "e41e9f866cc96a3aabb7e7261eaa67ce3ed05240642cc8f9fc58f7d1ed40bb40",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/pack.json": "e73af12590027cc99bcacb8f265c254315f6220f3b9b4297fdea1625243c0599"
+  },
+  "started": "2026-10-05T11:06:53.388054-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_pilot1_20261005_sec5_terra",
+  "model": "gpt-5.6-terra",
+  "effort": "max",
+  "run_tag": "pilot1-20261005",
+  "prompt_sha256": "f11ce0d415ffae91976e1e8a83cc6a6f7c3d9771d9f273c88775c7b5172bcee6",
+  "package_sha256": "fc358ec73c7031af4fe7eb447ce88069d5d5caeb6a987cba1f849dabfc9bc986",
+  "input_sha256": "6adf421441d0fbf70a367642fad22bbfe6e23b63ac28396555673b048813eb2a",
+  "spawn_sha256": "1157318e0b0016d254a14231f8acc6ca1772dd847e952bb564079e95a15615d1",
+  "followup_text_sha256": "7bc6e65db853ec9a35c0f6bb9f866b5c560398d6991962584d48b990ee5c11da",
+  "agent_id": "01a10c9b-af44-7c10-88af-310d5fef0d84",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T11-08-12-01a10c9b-af44-7c10-88af-310d5fef0d84.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "partial",
+  "check": "findings",
+  "turn1_rows": 87,
+  "turn1_sha256": "b58cd8798cdf980c849caa7c28c7a5d85cfd335d1fd591f75d4dfdefb3c42a80",
+  "turn2": {
+    "completed": true,
+    "rows_total": 84,
+    "rows_added": 0
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": null,
+  "consolidation_error": "invalid TSV: ['line 19: unknown verse in specified edition: WLC:Ps.23.7']",
+  "list_sha256": "b58cd8798cdf980c849caa7c28c7a5d85cfd335d1fd591f75d4dfdefb3c42a80",
+  "followup_delivery": [
+    {
+      "call_id": "call_hqvVmekGXii0IPZW19Cudz0P",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 324128,
+    "cached_input_tokens": 219648,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 56454,
+    "reasoning_output_tokens": 46118,
+    "total_tokens": 380582
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T15:57:46.767Z",
+  "artifacts": {
+    "started.json": "dc77b6d444a4753216819deb9631abd657b2d40b4ba548a95359dac7c4de22bb",
+    "input.json": "6adf421441d0fbf70a367642fad22bbfe6e23b63ac28396555673b048813eb2a",
+    "prompt.md": "f11ce0d415ffae91976e1e8a83cc6a6f7c3d9771d9f273c88775c7b5172bcee6",
+    "package.md": "fc358ec73c7031af4fe7eb447ce88069d5d5caeb6a987cba1f849dabfc9bc986",
+    "spawn.md": "1157318e0b0016d254a14231f8acc6ca1772dd847e952bb564079e95a15615d1",
+    "followup.txt": "7bc6e65db853ec9a35c0f6bb9f866b5c560398d6991962584d48b990ee5c11da",
+    "turn1.json": "f44b89116e1e39648112e8016d61df67153f5f8a4207447b16aac16a9a4c4c99",
+    "turn1.list.tsv": "b58cd8798cdf980c849caa7c28c7a5d85cfd335d1fd591f75d4dfdefb3c42a80",
+    "followup.tsv": "85dd9bc0c8ece3b783f3be0597751cfe9ec304af4c2c9d3749ccbe8f2190dbc1",
+    "list.tsv": "b58cd8798cdf980c849caa7c28c7a5d85cfd335d1fd591f75d4dfdefb3c42a80",
+    "validation.json": "150e590375c5b5c098961344013e7e035ffaaf581951714f4b0f454fe35c57b5",
+    "proposal_validation.json": "2ea13cebbcac96476c8f37e470ecc858b5e2f0728cd5869c70501d599498fbd0",
+    "tool_calls.json": "d8519028ee52571af0a0b1425e924f10bd3762297432556a44cd8d1499eb20a5",
+    "session.json": "7f746eddb0b841d96de2e2f6a1b33c62cd8a741d20563d2998ed7bca25ca746d",
+    "session.events.jsonl": "851b53762b3291bbc0a1b16fcf481595de9b218039baf64e58e0d87ba20ed3d9",
+    "turn1.original.tsv": "b58cd8798cdf980c849caa7c28c7a5d85cfd335d1fd591f75d4dfdefb3c42a80",
+    "turn1.validation.failed.json": "150e590375c5b5c098961344013e7e035ffaaf581951714f4b0f454fe35c57b5",
+    "turn1.tool_calls.json": "a2313124d2b6543a3c23975c0098d66e01e37751fd546c07ab0631a33033a68c",
+    "turn1.repair.proposed.json": "3b0e56f3f58809de644bb438f89244b48612f76898cde7f669b5306d515fffce",
+    "turn1.repair.proposed.tsv": "8b3a38ec3c7f9a2ec92bb7361301826da3a6f55be9b5b24d47d958e0518dd4c4",
+    "turn1.accepted.tsv": "8b3a38ec3c7f9a2ec92bb7361301826da3a6f55be9b5b24d47d958e0518dd4c4",
+    "turn1.repair.accepted.json": "6d2809296948fa9c85a1a9af4ef5301da0a4ae1315d87af9ef6399746ee31563"
+  },
+  "first_turn_repair": {
+    "policy": "bible-first-turn-repair-v1",
+    "approval": "2026-10-05 user reply: Apply the 13 recorded corrections; extend first-pass repair handling. Exact bundle: enrichment/bible/audits/pilot1-20261005/first-turn-repairs.proposed.json",
+    "tool_audit_reviewed": true,
+    "accepted_at": "2026-10-05T15:50:59.893043+00:00",
+    "changes": [
+      {
+        "line": 17,
+        "before": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Ps.138.9",
+          "YHWH benim için tamamlayacak",
+          "YHWH'nin “benim için tamamlayacağı” sözü, nimeti bitiren ve düzene koyan Rab fikrini dua biçiminde taşır."
+        ],
+        "after": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Ps.138.8",
+          "YHWH benim için tamamlayacak",
+          "YHWH'nin “benim için tamamlayacağı” sözü, nimeti bitiren ve düzene koyan Rab fikrini dua biçiminde taşır."
+        ],
+        "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+      },
+      {
+        "line": 28,
+        "before": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Ps.103.23",
+          "sonda tekrar Rabbe hamd",
+          "Bütün eserleriyle Rabb'i kutsama çağrısı mezmuru aynı hamdle kapatır; Fâtiha'daki baştaki ve yol sonundaki hamd yankısına biçimsel paraleldir."
+        ],
+        "after": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Ps.103.22",
+          "sonda tekrar Rabbe hamd",
+          "Bütün eserleriyle Rabb'i kutsama çağrısı mezmuru aynı hamdle kapatır; Fâtiha'daki baştaki ve yol sonundaki hamd yankısına biçimsel paraleldir."
+        ],
+        "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+      },
+      {
+        "line": 74,
+        "before": [
+          "medium",
+          "tevrat",
+          "soydas",
+          "WLC:Ps.90.18",
+          "נֹעַם / nʿm ve işi sağlamlaştırmak",
+          "İbr. נֹעַם, hoşluk veya lütuf için N-ʿ-M ailesinin bir kullanımıdır; dua onu işimizin eserini sağlamlaştırmasıyla birleştirir ve yorumdaki iyi hâl ile nimetin tamamlanmasına ihtiyatlı dilsel köprü kurar."
+        ],
+        "after": [
+          "medium",
+          "tevrat",
+          "soydas",
+          "WLC:Ps.90.17",
+          "נֹעַם / nʿm ve işi sağlamlaştırmak",
+          "İbr. נֹעַם, hoşluk veya lütuf için N-ʿ-M ailesinin bir kullanımıdır; dua onu işimizin eserini sağlamlaştırmasıyla birleştirir ve yorumdaki iyi hâl ile nimetin tamamlanmasına ihtiyatlı dilsel köprü kurar."
+        ],
+        "reason": "Local edition text at the corrected locator matches the existing row explanation; preserve the proposed connection and grade."
+      }
+    ],
+    "model_calls": 0,
+    "artifacts": {
+      "turn1.original.tsv": "b58cd8798cdf980c849caa7c28c7a5d85cfd335d1fd591f75d4dfdefb3c42a80",
+      "turn1.validation.failed.json": "150e590375c5b5c098961344013e7e035ffaaf581951714f4b0f454fe35c57b5",
+      "turn1.tool_calls.json": "a2313124d2b6543a3c23975c0098d66e01e37751fd546c07ab0631a33033a68c",
+      "turn1.repair.proposed.json": "3b0e56f3f58809de644bb438f89244b48612f76898cde7f669b5306d515fffce",
+      "turn1.repair.proposed.tsv": "8b3a38ec3c7f9a2ec92bb7361301826da3a6f55be9b5b24d47d958e0518dd4c4",
+      "turn1.accepted.tsv": "8b3a38ec3c7f9a2ec92bb7361301826da3a6f55be9b5b24d47d958e0518dd4c4"
+    }
+  }
+}

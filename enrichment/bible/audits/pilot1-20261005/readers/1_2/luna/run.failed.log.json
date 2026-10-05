@@ -1,0 +1,164 @@
+{
+  "target": "1:2",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/1_2.md",
+  "base_sha256": "35b6b3804e386f32141d8ecf3d33bbb9d6bd80c42e088da80ba6261852e081eb",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/base/surah.md": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/quran.json": "e41e9f866cc96a3aabb7e7261eaa67ce3ed05240642cc8f9fc58f7d1ed40bb40",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s001/pack/pack.json": "e73af12590027cc99bcacb8f265c254315f6220f3b9b4297fdea1625243c0599"
+  },
+  "started": "2026-10-05T11:13:11.891841-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_pilot1_20261005_1_2_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "pilot1-20261005",
+  "prompt_sha256": "b6766a9f9c5ac242a68168e6dcc6337279dd0d58a455a97d1ce520987aa92023",
+  "package_sha256": "7740185ad33644d8b7e06f7e1e33cedf81bb8c24c87396ef279404a0c5351c07",
+  "input_sha256": "8d9aa635ccbafc20b68bd6ea4bff4903c41dee231d38f60760b6e0d7f86852e9",
+  "spawn_sha256": "826627d52dca04ae2127f75bc3a9599b69e975a8df9fa4666e4c5efac7b38852",
+  "followup_text_sha256": "69ca69c35df43058b084ae999d4db3545c64724fcc0a8a00364cad5afa20826a",
+  "agent_id": "01a10ca2-251f-7ad0-98c6-7eec8aee7c70",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T11-15-15-01a10ca2-251f-7ad0-98c6-7eec8aee7c70.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "partial",
+  "check": "findings",
+  "turn1_rows": 81,
+  "turn1_sha256": "35fddec10fb7f2927c61ad88ab80093846e9ad63153e3d03bc6e83b8b0ff1eb6",
+  "turn2": {
+    "completed": true,
+    "rows_total": 78,
+    "rows_added": 0
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": null,
+  "consolidation_error": "invalid TSV: ['line 21: unknown verse in specified edition: WLC:Wis.11.24', 'line 22: unknown verse in specified edition: WLC:Wis.11.26']",
+  "list_sha256": "35fddec10fb7f2927c61ad88ab80093846e9ad63153e3d03bc6e83b8b0ff1eb6",
+  "followup_delivery": [
+    {
+      "call_id": "call_NqMCf7fcmBl9AIxqgHh7WxEv",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 751166,
+    "cached_input_tokens": 617728,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 52917,
+    "reasoning_output_tokens": 42523,
+    "total_tokens": 804083
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T15:58:17.841Z",
+  "artifacts": {
+    "started.json": "856c852a1f81ba538f4b82a58d4e06fc9ad16d38f9f5abf0749495acc4db208b",
+    "input.json": "8d9aa635ccbafc20b68bd6ea4bff4903c41dee231d38f60760b6e0d7f86852e9",
+    "prompt.md": "b6766a9f9c5ac242a68168e6dcc6337279dd0d58a455a97d1ce520987aa92023",
+    "package.md": "7740185ad33644d8b7e06f7e1e33cedf81bb8c24c87396ef279404a0c5351c07",
+    "spawn.md": "826627d52dca04ae2127f75bc3a9599b69e975a8df9fa4666e4c5efac7b38852",
+    "followup.txt": "69ca69c35df43058b084ae999d4db3545c64724fcc0a8a00364cad5afa20826a",
+    "turn1.json": "bba13f9a700e75c6992a1725a4d3aa618025fc4240ddad296eb22dd910b776b7",
+    "turn1.list.tsv": "35fddec10fb7f2927c61ad88ab80093846e9ad63153e3d03bc6e83b8b0ff1eb6",
+    "followup.tsv": "ababe5114395b18f24fa86d42642d929bdc394308b4710351286ea904d7edd23",
+    "list.tsv": "35fddec10fb7f2927c61ad88ab80093846e9ad63153e3d03bc6e83b8b0ff1eb6",
+    "validation.json": "ff0269cf8bec1e8933f921e6b09f945c7f43d0bf3b0d88e8c5565837c179e9c7",
+    "proposal_validation.json": "f3499e8e3eb42ae0202bb6c8b781da3498da32770972e0c4f54d563cfcb4bf2d",
+    "tool_calls.json": "1e1eb33f7efdf9a3e174ed29dcf882e0b6c5e31a66459de8e2491dc336be6ce2",
+    "session.json": "bc152211dd503fb6276d286e150bc3d1c2713f407ae8c760fdae538c975ae0e5",
+    "session.events.jsonl": "4b68fa0c9c104fc69e05bf190a4204a6f9b833c3cbaef3898d8899f1a1b0aac6",
+    "turn1.original.tsv": "35fddec10fb7f2927c61ad88ab80093846e9ad63153e3d03bc6e83b8b0ff1eb6",
+    "turn1.validation.failed.json": "ff0269cf8bec1e8933f921e6b09f945c7f43d0bf3b0d88e8c5565837c179e9c7",
+    "turn1.tool_calls.json": "f66d4eb96865af5d150ce5747980e7e720a5f592c6a2e2f6cabaf3d9cb0f9202",
+    "turn1.repair.proposed.json": "623e8004a05fd7aea38916dfecc65712345da284a5732ffe8979252b7c54cab7",
+    "turn1.repair.proposed.tsv": "a0a043cf3ee5ef4ed85e95a1e7ba7429afe5d2e57f848c18e1c1c7484a7d96ee",
+    "turn1.accepted.tsv": "a0a043cf3ee5ef4ed85e95a1e7ba7429afe5d2e57f848c18e1c1c7484a7d96ee",
+    "turn1.repair.accepted.json": "b1ffa82d8013a03b3815d908d0aecc003ea554553eebbb896d6e46b3f37a2bc0"
+  },
+  "first_turn_repair": {
+    "policy": "bible-first-turn-repair-v1",
+    "approval": "2026-10-05 user reply: Apply the 13 recorded corrections; extend first-pass repair handling. Exact bundle: enrichment/bible/audits/pilot1-20261005/first-turn-repairs.proposed.json",
+    "tool_audit_reviewed": true,
+    "accepted_at": "2026-10-05T15:52:01.266685+00:00",
+    "changes": [
+      {
+        "line": 22,
+        "before": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Wis.13.1",
+          "failure to know the maker",
+          "The commentary calls each created kind a sign by which the Lord is known; Wisdom says people who infer no knowledge of God from visible good things fail to recognize their maker through his works."
+        ],
+        "after": [
+          "strong",
+          "tevrat",
+          "motif",
+          "Wisdom of Solomon 13:1",
+          "failure to know the maker",
+          "The commentary calls each created kind a sign by which the Lord is known; Wisdom says people who infer no knowledge of God from visible good things fail to recognize their maker through his works."
+        ],
+        "reason": "Wisdom is not contained in WLC. Retain a named-work candidate; original Greek witness remains unavailable. KJV is only a finding aid, not evidence for acceptance."
+      },
+      {
+        "line": 23,
+        "before": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Wis.13.3",
+          "beauty points beyond itself",
+          "The commentary says the worlds are signs that show their Lord; Wisdom argues that the beauty of created things should lead their observer to perceive the maker."
+        ],
+        "after": [
+          "strong",
+          "tevrat",
+          "motif",
+          "Wisdom of Solomon 13:3",
+          "beauty points beyond itself",
+          "The commentary says the worlds are signs that show their Lord; Wisdom argues that the beauty of created things should lead their observer to perceive the maker."
+        ],
+        "reason": "Wisdom is not contained in WLC. Retain a named-work candidate; original Greek witness remains unavailable. KJV is only a finding aid, not evidence for acceptance."
+      },
+      {
+        "line": 24,
+        "before": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Wis.13.5",
+          "greatness of creatures",
+          "The commentary treats the whole creation as a field of divine signs; Wisdom says the greatness and beauty of creatures give a proportionate way to perceive their creator."
+        ],
+        "after": [
+          "strong",
+          "tevrat",
+          "motif",
+          "Wisdom of Solomon 13:5",
+          "greatness of creatures",
+          "The commentary treats the whole creation as a field of divine signs; Wisdom says the greatness and beauty of creatures give a proportionate way to perceive their creator."
+        ],
+        "reason": "Wisdom is not contained in WLC. Retain a named-work candidate; original Greek witness remains unavailable. KJV is only a finding aid, not evidence for acceptance."
+      }
+    ],
+    "model_calls": 0,
+    "artifacts": {
+      "turn1.original.tsv": "35fddec10fb7f2927c61ad88ab80093846e9ad63153e3d03bc6e83b8b0ff1eb6",
+      "turn1.validation.failed.json": "ff0269cf8bec1e8933f921e6b09f945c7f43d0bf3b0d88e8c5565837c179e9c7",
+      "turn1.tool_calls.json": "f66d4eb96865af5d150ce5747980e7e720a5f592c6a2e2f6cabaf3d9cb0f9202",
+      "turn1.repair.proposed.json": "623e8004a05fd7aea38916dfecc65712345da284a5732ffe8979252b7c54cab7",
+      "turn1.repair.proposed.tsv": "a0a043cf3ee5ef4ed85e95a1e7ba7429afe5d2e57f848c18e1c1c7484a7d96ee",
+      "turn1.accepted.tsv": "a0a043cf3ee5ef4ed85e95a1e7ba7429afe5d2e57f848c18e1c1c7484a7d96ee"
+    }
+  }
+}

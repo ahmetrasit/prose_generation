@@ -141,6 +141,13 @@ Raw discovery uses exactly six tab-separated fields: strength, tradition, kind,
 reference, basis, explanation. Bible references must name their edition, e.g.
 `WLC:Gen.22.2` or `SBLGNT:Matt.6.5`, and resolve in the local index. Named secondary
 works may be proposed for prefetch. These are candidates, not verified evidence.
+The live pilot added conservative book-name resolution: full names such as
+`Hosea` and `James` resolve to the existing corpus codes `Hos` and `Jas`. The
+explicit abbreviations `Is`, `Jon` and `Philem` resolve to `Isa`, `Jonah` and `Phlm`.
+The edition, chapter and verse are never changed. Raw TSV bytes remain intact;
+`raw_ref`, the resolver version and a `reference_alias` finding record each
+resolution. Unknown books, nonexistent verses, wrong editions and ambiguous
+references still fail. This is name resolution, not a passage correction.
 
 Report a completed batch/target set before merging or continuing:
 
@@ -169,12 +176,40 @@ python3 -B enrichment/bible/discovery_repair.py propose --surah 1 --target 1:1 -
 
 Inspect `repair.proposed.json` and `followup.repair.proposed.tsv`. After explicit
 approval of that exact correction, record the approval with the `accept` phase
-and `--approval "approval record"` using the same target/tag/model. Only reference
-corrections or reference/basis swaps are supported; strength, tradition, kind and
-explanation cannot change. Raw follow-up, failed log and failed validation remain
+and `--approval "approval record"` using the same target/tag/model. By default only
+reference corrections or reference/basis swaps are supported; strength, tradition,
+kind and explanation cannot change. Raw follow-up, failed log and failed validation remain
 intact. The accepted correction has its own file and hash chain. No model is
-rerun. Protocol failures, changes to judgements, missing files and first-turn
-failures require a fresh attempt, not this repair mechanism.
+rerun. Protocol failures, changes to judgements and missing files require a fresh
+attempt, not this repair mechanism.
+
+Two narrowly defined schema corrections can also be proposed, still requiring
+explicit approval of the exact displayed rows. `--allow-schema-swap` permits an
+exact transposition of the tradition/kind columns. `--allow-witness-tradition`
+permits only the tradition label implied by an unchanged canonical witness
+(`WLC` → `tevrat`, `SBLGNT` → `incil`). It cannot change the witness, kind, basis,
+grade or explanation. These options are recorded in both proposal and acceptance
+and checked again when merging; they never authorize a general rewrite.
+
+The S1 pilot's explicitly approved first-turn exception is supported by the
+Bible-owned `discovery_first_repair.py`. Before snapshot or follow-up, use its
+`propose` phase with the same target/tag/model/changes arguments, inspect the
+generated `turn1.tool_calls.json`, and accept only the exact approved proposal
+with `--approval "approval record" --reviewed`. The user approved the thirteen
+corrections recorded in `audits/pilot1-20261005/first-turn-repairs.proposed.json`.
+Other first-turn failures still need either an explicit approved correction or
+a fresh attempt. No judgement may be rewritten: only reference corrections,
+reference/basis swaps, or an exact transposition of tradition/kind columns.
+
+This preserves `list.tsv` unchanged until the ordinary two-turn consolidation,
+and keeps the original bytes in both `turn1.original.tsv` and `turn1.list.tsv`.
+The corrected first pass is separate (`turn1.accepted.tsv`). Snapshot validates
+that accepted copy; consolidation and merge replay it with the raw bytes,
+original failed validation, exact changes, approval and tool audit in the hash
+chain. The correction record reaches both reports and verifier handoffs. A
+corrected locator remains an unverified candidate, including named-work entries
+whose original witness is unavailable. Never show a repaired first pass as an
+unchanged native success.
 
 ## 3. Merge discovery, prefetch, rebuild the index
 
