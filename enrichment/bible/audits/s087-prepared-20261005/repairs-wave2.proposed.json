@@ -1,0 +1,84 @@
+{
+  "status": "proposed-not-applied",
+  "scope": "Only these three exact follow-up rows; separate from the nine approved wave1 corrections.",
+  "items": [
+    {
+      "target": "87:9",
+      "model": "luna",
+      "phase": "followup",
+      "proposal": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/87_9/luna/repair.proposed.json",
+      "sha256": "3810775e538a64ab4699b3ea603e81fcd77dc17ca05d194aadcca9d54aa06274",
+      "changes": [
+        {
+          "line": 35,
+          "before": [
+            "strong",
+            "tevrat",
+            "motif",
+            "WLC:2Chron.36.15",
+            "God repeatedly sends messengers out of compassion",
+            "The commentary's Sabbath admonishers warn as a duty even when benefit is uncertain; Chronicles says God sends messengers repeatedly because he has compassion for his people, grounding warning in mercy."
+          ],
+          "after": [
+            "strong",
+            "tevrat",
+            "motif",
+            "WLC:2Chr.36.15",
+            "God repeatedly sends messengers out of compassion",
+            "The commentary's Sabbath admonishers warn as a duty even when benefit is uncertain; Chronicles says God sends messengers repeatedly because he has compassion for his people, grounding warning in mercy."
+          ],
+          "reason": "Correct the unsupported book code 2Chron to the WLC OSIS code 2Chr; chapter and verse are unchanged."
+        },
+        {
+          "line": 36,
+          "before": [
+            "strong",
+            "tevrat",
+            "motif",
+            "WLC:2Chron.36.16",
+            "mocked messengers, no remedy remains",
+            "The commentary distinguishes the people who receive a reminder from those who reject it; Chronicles says the people mocked God's messengers until wrath rose and there was no remedy, a severe account of refusal's end."
+          ],
+          "after": [
+            "strong",
+            "tevrat",
+            "motif",
+            "WLC:2Chr.36.16",
+            "mocked messengers, no remedy remains",
+            "The commentary distinguishes the people who receive a reminder from those who reject it; Chronicles says the people mocked God's messengers until wrath rose and there was no remedy, a severe account of refusal's end."
+          ],
+          "reason": "Correct the unsupported book code 2Chron to the WLC OSIS code 2Chr; chapter and verse are unchanged."
+        }
+      ]
+    },
+    {
+      "target": "sec18",
+      "model": "luna",
+      "phase": "followup",
+      "proposal": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/sec18/luna/repair.proposed.json",
+      "sha256": "3d50437f2f8650b43ee5c80f11eea674673cda3add03e7f452141d4a50b5cd2e",
+      "changes": [
+        {
+          "line": 16,
+          "before": [
+            "strong",
+            "tevrat",
+            "motif",
+            "WLC:Wis.3.4",
+            "hope of immortality",
+            "The commentary calls the hereafter better and more abiding than worldly life; Wisdom says the righteous dead are at peace and have hope full of immortality, giving that endurance a Jewish wisdom formulation."
+          ],
+          "after": [
+            "strong",
+            "tevrat",
+            "motif",
+            "Wisdom of Solomon 3:4",
+            "hope of immortality",
+            "The commentary calls the hereafter better and more abiding than worldly life; Wisdom says the righteous dead are at peace and have hope full of immortality, giving that endurance a Jewish wisdom formulation."
+          ],
+          "reason": "Wisdom is not a WLC book; preserve the same named-work passage as an unverified secondary candidate."
+        }
+      ]
+    }
+  ]
+}
