@@ -230,3 +230,22 @@ manifest, nothing ingested or indexed yet.
   (Dalāʾil, Asrār) and the rest of the al-Khūlī school (Khalafallah, Shukrī ʿAyyād, Abū Zayd: ask whom).
 - Next after the decisions: import the usable sources (source.json with provenance and OCR quality notes,
   segments.jsonl with ayah ties where the text allows, access yerel), rebuild the index, add them to groups.json.
+
+### §5 update (2026-10-05, later): ingested and indexed (index 1,012,263 segments)
+The user's download batch completed (20 sources; Iṣlāḥī in scope, all 9 Urdu + 10 English files; TARAMA 8 vols
+complete). The user does the OCR (enrichment/v2/OCR_NEEDED.md: ~7,510 pages, Bint al-Shāṭiʾ + al-Khūlī first; one
+text file per PDF page in raw/ocr/<pdf stem>/pNNNN.txt). Imported from text layers / archive OCR (scripts in
+enrichment/v2/fetch/, every repair, drop and miss counted in source.json `ingestion`; access now yerel):
+- ASAD-NOTES 8,374 (import_asad_notes.py: intros, verse groups, 5,303 notes, 5,143 tied by marker)
+- STUDYQURAN 5,967 (import_studyquran.py: intros, 4,665 commentary entries, translations flagged duplicate)
+- EQ 3,954 pages EQ:v<vol>p<page> (import_eq.py; refs from text + the Index of Qurʾān citations, 26,892 links)
+- NOLDEKE-GDQ 884, JEFFERY-FOREIGN 325, SINAI-KEYTERMS 1,015, CUYPERS-COMPOSITION 216, ZAMMIT-COMPARATIVE 671,
+  ISLAHI-TADABBUR 3,688 (English, surahs 6–8, 10–114, tied to section verses) (import_pages.py)
+- MEAL-HAMIDULLAH 6,392 (6,233/6,236 ayat), MEAL-AKDEMIR 3,461 (6,207/6,236; OCR letter-spacing caveat),
+  MEAL-ATAY 4,784 (6,236 aligned by DP against DIB1961/TDV/KURANYOLU; 96 weak flagged)
+corpus.py: grouped dirs (ACADEMIC/<ID>) are indexed; new `ref` table of cited ayat: `corpus.py cites S:A`, and
+`ayah` reports "CITED ELSEWHERE: n segments". kuranmeali.com (57 translators, checked live) has none of Hamidullah,
+Atay 2013, Akdemir, M. Öztürk: the PDFs are their only text.
+Open: the ingested sources' source.json files also carry the download session's staged acquisition records:
+committing them needs the user's word (they are not committed yet). Next: groups.json membership of the new
+sources (C1), then OCR imports when the user's OCR arrives; Task A items remain.
