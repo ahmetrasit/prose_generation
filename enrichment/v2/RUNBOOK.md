@@ -55,8 +55,8 @@ Run every command from the workspace root `/Volumes/aro/projects/prose_generatio
 
 | Surah | v16 surah base | v16 augment9 | Pack | Surah page | Ayah pages |
 |---|---|---|---|---|---|
-| S1 | ✓ | 0/7 | – | – | wait for augment9 |
-| S87 | ✓ | 0/19 | – | – | wait for augment9 |
+| S1 | ✓ | 7/7 (2026-10-04) | – | – | ready: build the pack, calibrate on one ayah page first |
+| S87 | ✓ | 6/19, the rest running (2026-10-04) | – | – | wait for augment9 |
 | S100 | ✓ | 0/11 | ✓ (built before augment9; ayah bases are augment3) | **accepted** (Opus high, 63 blocks) | rebuild the pack first |
 | S103 | **missing** (v16 map and image prose never ran) | – | – | blocked | blocked |
 | S107 | ✓ | 0/7 | ✓ (no turkish.md) | accepted (Astra max, old brief) | rebuild the pack first |

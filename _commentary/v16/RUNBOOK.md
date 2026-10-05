@@ -7,6 +7,14 @@ says so, **enrichment** (Step 5, its own runbook).
 
 The history and the reasons behind each choice are in `DESIGN.md`. This file holds only what is needed to run.
 
+> **Direction from 2026-10-04 evening (user):** no run is to be handled through scripts. Every model here is Claude,
+> so the orchestrating session spawns the per-ayah agents itself (one agent per ayah from the built `prompt.md`,
+> seven at a time) and the scripts only build the packets and finish the outputs (status, check, ledger, apply).
+> The `--go` runners (`v16.call_opus`, `batch.py --go`) are the old way; the S87 augment9 batch of that evening
+> was the last run through them. The finish step for an agent-written output, the cost record without the CLI's
+> dollar figure, and the lookup-only rule for a spawned agent are still to be designed; until they are, nothing
+> below changes, and the user decides how the next run goes.
+
 ## Rules from the user (never break them)
 
 1. **Each step needs its own go.**
@@ -130,8 +138,15 @@ python3 -B _commentary/v16/packets.py writer --ayah N:A --brief r13 --tool \
 ```
 
 - Output: `out/N_A/DM.r13.images.r13.map3.nohft.tool.tool.tool/N_A.reading.tr.md`, plus `check.json` and `ledger.md`.
-- Seven calls at a time (`batch.py --parallel 7`; user, 2026-10-04).
-- Run the builds without `--go` first. Sum the estimates and give the total to the user. Leave out any build that prints `BLOCKED:`; that call has already run and is never repeated.
+- Seven calls at a time through `batch.py --step writer` (user, 2026-10-04), which finds the surah's map and image prose itself:
+
+```bash
+python3 -B _commentary/v16/batch.py --surah N --step writer --parallel 7         # dry: one build per ayah without a reading, estimates, BLOCKED
+python3 -B _commentary/v16/batch.py --surah N --step writer --parallel 7 --go \
+    > _commentary/v16/work/logs/batch.sN.writer.log 2>&1                      # after the go; the go covers this background run
+```
+
+- The dry run is the estimate: sum it and give the total to the user. A build that prints `BLOCKED:` has already run and is never repeated; `batch.py` skips it with a NOTE.
 
 ## Step 4: ayah augment (one call per ayah)
 
@@ -212,7 +227,7 @@ python3 -B _commentary/v16/batch.py 1:1 1:2 1:3 --parallel 7 --go     # or named
 | Surah | Map | Image prose | Readings | Augment9 |
 |---|---|---|---|---|
 | S1 | ✓ | ✓ | 7/7 | 7/7 (1:4 accepted after a safeguard stop) |
-| S87 | ✓ | ✓ | 19/19 | 6/19 (87:7–87:11 429 session limit, 87:12–87:19 not started) |
+| S87 | ✓ | ✓ | 19/19 | 6/19 done, 13 running in the second batch (87:7–87:11 reran after the session limit) |
 | S100 | ✓ | ✓ | 11/11 | 0/11 |
 | S103 | – | – | 0/3 | – |
 | S107 | ✓ | ✓ | 7/7 | 0/7 |

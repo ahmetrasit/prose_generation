@@ -25,6 +25,10 @@ enrichment page.
 Step 5 is for the NGT (next-generation tafsir) project. It is run surah by surah when that project needs the
 surah, never as part of a reading run.
 
+**Direction (user, 2026-10-04 evening):** future runs are not handled through scripts. The orchestrating Claude
+session spawns the per-ayah agents itself from the built prompts; scripts build packets and finish outputs. The
+finish step and the cost record for agent-written outputs are still to be designed (`_commentary/v16/RUNBOOK.md`, top).
+
 **Planned, not built:** a surah-commentary augment as a dedicated, image-based discovery step, to go between
 steps 2 and 3 once designed (`_commentary/v16/REVIEW_production.md` §10); and the enrichment ayah pages before
 the surah page (§4). Until then the order above stands and readings are not held back.
@@ -52,7 +56,7 @@ the surah page (§4). Until then the order above stands and readings are not hel
 
 The `claude` CLI runs on a Claude Max subscription. Every dollar in the ledgers is the CLI's nominal
 API-equivalent cost, not cash; what binds is the plan's session and weekly allowance. Nominal, Opus 5.5 high, per
-ayah: steps 1–3 about $1.65; step 4 about $1.9; step 5 about $0.6 for the surah page plus an unmeasured $3–6 per
+ayah: steps 1–3 about $1.65; step 4 about $2.5 (measured on 20 ayat, $1.8–4.4 by list size); step 5 about $0.6 for the surah page plus an unmeasured $3–6 per
 ayah page. The runbooks carry the measured numbers.
 
 ## Where things are
