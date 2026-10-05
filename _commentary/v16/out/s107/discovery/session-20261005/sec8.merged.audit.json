@@ -1,0 +1,160 @@
+{
+  "surah": 107,
+  "section": 8,
+  "run_tag": "session-20261005",
+  "source_sha256": "ffa9ec2329ee4a3578ae3272bba40f3d0114191d91553e15cf18809721e4be14",
+  "list_sha256": "3a7be02fce9a0a7d8d52ce30bb65e9f12d32d0a9a9b002df9783083816f6055e",
+  "models": {
+    "luna": {
+      "run_log": "/Volumes/aro/projects/prose_generation/_commentary/v16/out/s107/discovery/session-20261005/sec8/luna/run.log.json",
+      "consolidation": {
+        "mode": "separate-proposals-v1",
+        "raw_proposal_rows": 30,
+        "unique_additions": 30,
+        "repeated_proposals": [],
+        "turn1_sha256": "2e1615bdf2508b915ddffd9f3983f710503474f6746e9fdeb0f5843025183863",
+        "followup_sha256": "a3980e7bac57366c13ae1730251d7722f9d2c06f09c012f34e696f0d3ddf4dd4",
+        "proposal_file": "followup.tsv",
+        "proposal_sha256": "a3980e7bac57366c13ae1730251d7722f9d2c06f09c012f34e696f0d3ddf4dd4",
+        "list_sha256": "eab02dc81adb9ff1411d728a8140f0a2d1cd483f5eb19ce96ee1e45cb60e901b",
+        "policy": "First occurrence retained; no existing row or grade changed. Raw followup.tsv preserved."
+      },
+      "validation_review": {
+        "status": "unverified discovery notes; adjudicator must check canonical text",
+        "agent_completion_notes": [],
+        "policy": "Raw discoveries retained; quotation flags are review aids, not semantic verdicts.",
+        "protocol_exception": {
+          "type": "followup_format_correction",
+          "status": "accepted with explicit process exception",
+          "description": "After the literal follow-up write, Luna used sed -i to replace invalid first-field labels root with strong for 4:11 and 4:12. This read/modify command departed from the instruction allowing only literal writes during the memory-only follow-up. The public audit shows only these two field repairs; no external source retrieval or further discovery pass occurred. The original literal write and exact correction command remain in tool_calls.json. Candidate wording and references were unchanged by this correction."
+        }
+      },
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/_commentary/v16/out/s107/discovery/session-20261005/sec8/luna/list.tsv",
+        "rows": 143,
+        "schema_errors": [],
+        "duplicates": {},
+        "arabic_findings": [
+          {
+            "line": 6,
+            "ref": "2:282",
+            "arabic": "داينت",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 9,
+            "ref": "70:25",
+            "arabic": "السَّائِلِ وَالْمَحْرُومِ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 11,
+            "ref": "51:19",
+            "arabic": "السَّائِلِ وَالْمَحْرُومِ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 13,
+            "ref": "41:7",
+            "arabic": "لَا يُؤْتُونَ الزَّكَاةَ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 33,
+            "ref": "3:97",
+            "arabic": "كذب عليكم الحج",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 48,
+            "ref": "2:264",
+            "arabic": "يُرَاءُونَ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 110,
+            "ref": "2:196",
+            "arabic": "كذب عليكم الحج",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          }
+        ],
+        "limits": "Orthographic normalization only; roots, paraphrases and word segmentation require review. No semantic or relevance validation."
+      }
+    },
+    "terra": {
+      "run_log": "/Volumes/aro/projects/prose_generation/_commentary/v16/out/s107/discovery/session-20261005/sec8/terra/run.log.json",
+      "consolidation": {
+        "mode": "separate-proposals-v1",
+        "raw_proposal_rows": 62,
+        "unique_additions": 62,
+        "repeated_proposals": [],
+        "turn1_sha256": "08a92b84f2d65e1db6982a1091611ae2003259991c5aa54271c45394c6b4e1d5",
+        "followup_sha256": "150aef1b7ba6b002451a9cde93179d9aa681c0547db59656df298218efed13d7",
+        "proposal_file": "followup.tsv",
+        "proposal_sha256": "150aef1b7ba6b002451a9cde93179d9aa681c0547db59656df298218efed13d7",
+        "list_sha256": "dbed641bc45e6780fbb5433cefa45c4b42636708d6afe020f048c1da31f659b2",
+        "policy": "First occurrence retained; no existing row or grade changed. Raw followup.tsv preserved."
+      },
+      "validation_review": {
+        "status": "unverified discovery notes; adjudicator must check canonical text",
+        "agent_completion_notes": [],
+        "policy": "Raw discoveries retained; quotation flags are review aids, not semantic verdicts."
+      },
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/_commentary/v16/out/s107/discovery/session-20261005/sec8/terra/list.tsv",
+        "rows": 281,
+        "schema_errors": [],
+        "duplicates": {},
+        "arabic_findings": [
+          {
+            "line": 9,
+            "ref": "70:21",
+            "arabic": "يَمْنَعُونَ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 36,
+            "ref": "2:282",
+            "arabic": "دَيْن",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 87,
+            "ref": "3:97",
+            "arabic": "كذب عليكم الحج",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 113,
+            "ref": "68:12",
+            "arabic": "يَمْنَعُونَ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          }
+        ],
+        "limits": "Orthographic normalization only; roots, paraphrases and word segmentation require review. No semantic or relevance validation."
+      }
+    }
+  }
+}

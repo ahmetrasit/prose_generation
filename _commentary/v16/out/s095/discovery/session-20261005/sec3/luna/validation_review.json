@@ -1,0 +1,9 @@
+{
+  "status": "unverified discovery notes; adjudicator must check canonical text",
+  "agent_completion_notes": [],
+  "policy": "Raw discoveries retained; quotation flags are review aids, not semantic verdicts.",
+  "protocol_exception": {
+    "description": "After a literal write of followup.tsv, the same shell call ran awk END to count its rows. This violates the strict no-reads/no-scripts follow-up instruction; it returned only a count and did not consult prior lists, source text, or external evidence. Parent retained the linguistic output with this explicit exception.",
+    "command_tail": "awk 'END { print NR \" rows saved\" }' followup.tsv"
+  }
+}

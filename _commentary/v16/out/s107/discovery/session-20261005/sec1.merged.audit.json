@@ -1,0 +1,98 @@
+{
+  "surah": 107,
+  "section": 1,
+  "run_tag": "session-20261005",
+  "source_sha256": "ffa9ec2329ee4a3578ae3272bba40f3d0114191d91553e15cf18809721e4be14",
+  "list_sha256": "ab27085bf239230d9e7d6a8fd095af6ac70ac2a4bc7b8306b8deae9a96adba07",
+  "models": {
+    "luna": {
+      "run_log": "/Volumes/aro/projects/prose_generation/_commentary/v16/out/s107/discovery/session-20261005/sec1/luna/run.log.json",
+      "consolidation": {
+        "mode": "separate-proposals-v1",
+        "raw_proposal_rows": 28,
+        "unique_additions": 28,
+        "repeated_proposals": [],
+        "turn1_sha256": "1756c04d0386b7bf43ae780c0afc0a1c170e4c59d76eaef982b42367c872153a",
+        "followup_sha256": "bda815a14efac42c5eae1b33a5e7beaba38ee4880739b4125903aed5138ce371",
+        "proposal_file": "followup.tsv",
+        "proposal_sha256": "bda815a14efac42c5eae1b33a5e7beaba38ee4880739b4125903aed5138ce371",
+        "list_sha256": "2501ea488bcc0968093b78ece4e0b710193793287a309e40dbcd38af8e8f7cae",
+        "policy": "First occurrence retained; no existing row or grade changed. Raw followup.tsv preserved."
+      },
+      "validation_review": {
+        "status": "unverified discovery notes; adjudicator must check canonical text",
+        "agent_completion_notes": [],
+        "policy": "Raw discoveries retained; quotation flags are review aids, not semantic verdicts."
+      },
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/_commentary/v16/out/s107/discovery/session-20261005/sec1/luna/list.tsv",
+        "rows": 112,
+        "schema_errors": [],
+        "duplicates": {},
+        "arabic_findings": [
+          {
+            "line": 5,
+            "ref": "96:9",
+            "arabic": "أَرَأَيْتَ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 7,
+            "ref": "96:13",
+            "arabic": "أَرَأَيْتَ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 78,
+            "ref": "25:43",
+            "arabic": "أَرَأَيْتَ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 79,
+            "ref": "45:23",
+            "arabic": "أَفَرَأَيْتَ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          }
+        ],
+        "limits": "Orthographic normalization only; roots, paraphrases and word segmentation require review. No semantic or relevance validation."
+      }
+    },
+    "terra": {
+      "run_log": "/Volumes/aro/projects/prose_generation/_commentary/v16/out/s107/discovery/session-20261005/sec1/terra/run.log.json",
+      "consolidation": {
+        "mode": "separate-proposals-v1",
+        "raw_proposal_rows": 89,
+        "unique_additions": 89,
+        "repeated_proposals": [],
+        "turn1_sha256": "d0ccfea1a056aa3f4faf68bbd3e6d17e593720a6897328a30dd2ee1b1e748d22",
+        "followup_sha256": "355041a867d8ecd905be228c7789341a57d84487b9e989a217966cf62e79e30c",
+        "proposal_file": "followup.tsv",
+        "proposal_sha256": "355041a867d8ecd905be228c7789341a57d84487b9e989a217966cf62e79e30c",
+        "list_sha256": "e04d9493e4ad77dd76f416140136d8b89971a7f8db24da2e75cf004bf042455b",
+        "policy": "First occurrence retained; no existing row or grade changed. Raw followup.tsv preserved."
+      },
+      "validation_review": {
+        "status": "unverified discovery notes; adjudicator must check canonical text",
+        "agent_completion_notes": [],
+        "policy": "Raw discoveries retained; quotation flags are review aids, not semantic verdicts."
+      },
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/_commentary/v16/out/s107/discovery/session-20261005/sec1/terra/list.tsv",
+        "rows": 226,
+        "schema_errors": [],
+        "duplicates": {},
+        "arabic_findings": [],
+        "limits": "Orthographic normalization only; roots, paraphrases and word segmentation require review. No semantic or relevance validation."
+      }
+    }
+  }
+}

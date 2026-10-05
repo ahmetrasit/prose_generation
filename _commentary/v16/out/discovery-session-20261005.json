@@ -34,9 +34,70 @@
   "spawn_method": "Direct collaboration tools only, including same-session followups",
   "production_defaults": "Unchanged; Opus remains default",
   "token_accounting": "Ignored for this session",
-  "progress": "S87/S100 augmentation and S88–S91 discovery complete and pushed. S92 all16 images merged and reported (4046 candidate image–ayah pairs). S93 images1,2,4,6,8 merged, all18 pairs started. S94 images1–8 started. S94 images9–16, S95 and S107 queued. Combined unfinished discovery jobs39. No new augmentation.",
+  "progress": "All 125 images across S88–S95 and S107 are merged and reported; 250 selected native Luna/Terra runs completed with their fixed follow-ups. S1/S87/S100 Sol augmentation remains complete. No further discovery or augmentation is running for this task.",
   "attempt_selection": {
     "S89:12": "session-20261005-retry1",
     "S91:5": "session-20261005-retry1"
-  }
+  },
+  "status": "complete",
+  "completed_images": 125,
+  "completed_selected_model_runs": 250,
+  "candidate_image_ayah_pairs": 30557,
+  "reports": [
+    {
+      "surah": 88,
+      "images": 15,
+      "candidate_image_ayah_pairs": 3696,
+      "report": "_commentary/v16/out/s088/discovery/session-20261005/REPORT.md"
+    },
+    {
+      "surah": 89,
+      "images": 13,
+      "candidate_image_ayah_pairs": 3502,
+      "report": "_commentary/v16/out/s089/discovery/session-20261005/REPORT.md"
+    },
+    {
+      "surah": 90,
+      "images": 14,
+      "candidate_image_ayah_pairs": 3542,
+      "report": "_commentary/v16/out/s090/discovery/session-20261005/REPORT.md"
+    },
+    {
+      "surah": 91,
+      "images": 11,
+      "candidate_image_ayah_pairs": 2478,
+      "report": "_commentary/v16/out/s091/discovery/session-20261005/REPORT.md"
+    },
+    {
+      "surah": 92,
+      "images": 16,
+      "candidate_image_ayah_pairs": 4046,
+      "report": "_commentary/v16/out/s092/discovery/session-20261005/REPORT.md"
+    },
+    {
+      "surah": 93,
+      "images": 18,
+      "candidate_image_ayah_pairs": 4249,
+      "report": "_commentary/v16/out/s093/discovery/session-20261005/REPORT.md"
+    },
+    {
+      "surah": 94,
+      "images": 16,
+      "candidate_image_ayah_pairs": 3215,
+      "report": "_commentary/v16/out/s094/discovery/session-20261005/REPORT.md"
+    },
+    {
+      "surah": 95,
+      "images": 12,
+      "candidate_image_ayah_pairs": 3486,
+      "report": "_commentary/v16/out/s095/discovery/session-20261005/REPORT.md"
+    },
+    {
+      "surah": 107,
+      "images": 10,
+      "candidate_image_ayah_pairs": 2343,
+      "report": "_commentary/v16/out/s107/discovery/session-20261005/REPORT.md"
+    }
+  ],
+  "quality_status": "Discovery candidates await paragraph-level augment adjudication; grades are unverified. Per-surah reports preserve process exceptions and accuracy notes."
 }

@@ -1,0 +1,98 @@
+{
+  "surah": 93,
+  "section": 16,
+  "run_tag": "session-20261005",
+  "source_sha256": "52128884016cf1c26a0721b883b889a9835604290f955af3a4ff28d1307ae90d",
+  "list_sha256": "ebedcd5deb10686cd065a766095f349867f1e9ad28c008dbf509f0583b94bac3",
+  "models": {
+    "luna": {
+      "run_log": "/Volumes/aro/projects/prose_generation/_commentary/v16/out/s093/discovery/session-20261005/sec16/luna/run.log.json",
+      "consolidation": {
+        "mode": "separate-proposals-v1",
+        "raw_proposal_rows": 15,
+        "unique_additions": 15,
+        "repeated_proposals": [],
+        "turn1_sha256": "c9d34cdec1b3a12c94f467054dab923be5f3e572ad997a0fa4ff17cddd36c807",
+        "followup_sha256": "0284970ef4d00b6cfa031956fcbabe37f9d1e9575c5abd0e4e222671e1fcd706",
+        "proposal_file": "followup.tsv",
+        "proposal_sha256": "0284970ef4d00b6cfa031956fcbabe37f9d1e9575c5abd0e4e222671e1fcd706",
+        "list_sha256": "179456ab5dd4bf5176fee73ce12b7dc9cc2101a25ff3e5fb434115f710c7aa1d",
+        "policy": "First occurrence retained; no existing row or grade changed. Raw followup.tsv preserved."
+      },
+      "validation_review": {
+        "status": "unverified discovery notes; adjudicator must check canonical text",
+        "agent_completion_notes": [],
+        "policy": "Raw discoveries retained; quotation flags are review aids, not semantic verdicts."
+      },
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/_commentary/v16/out/s093/discovery/session-20261005/sec16/luna/list.tsv",
+        "rows": 118,
+        "schema_errors": [],
+        "duplicates": {},
+        "arabic_findings": [],
+        "limits": "Orthographic normalization only; roots, paraphrases and word segmentation require review. No semantic or relevance validation."
+      }
+    },
+    "terra": {
+      "run_log": "/Volumes/aro/projects/prose_generation/_commentary/v16/out/s093/discovery/session-20261005/sec16/terra/run.log.json",
+      "consolidation": {
+        "mode": "separate-proposals-v1",
+        "raw_proposal_rows": 35,
+        "unique_additions": 35,
+        "repeated_proposals": [],
+        "turn1_sha256": "662e9f81c6ce7b5047c517fb53daf341e6798821d7d0822eacb643f8f1ef5a3a",
+        "followup_sha256": "aebc239f5b4a8c5c1067a14c0fe6dd78929fbb89050da37d70a6e36c22fdcb0e",
+        "proposal_file": "followup.tsv",
+        "proposal_sha256": "aebc239f5b4a8c5c1067a14c0fe6dd78929fbb89050da37d70a6e36c22fdcb0e",
+        "list_sha256": "54b6e62a92abc98dba306a7e65fbf4c4b5a56fc636c4d480cd06daa2f169839c",
+        "policy": "First occurrence retained; no existing row or grade changed. Raw followup.tsv preserved."
+      },
+      "validation_review": {
+        "status": "unverified discovery notes; adjudicator must check canonical text",
+        "agent_completion_notes": [],
+        "policy": "Raw discoveries retained; quotation flags are review aids, not semantic verdicts."
+      },
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/_commentary/v16/out/s093/discovery/session-20261005/sec16/terra/list.tsv",
+        "rows": 173,
+        "schema_errors": [],
+        "duplicates": {},
+        "arabic_findings": [
+          {
+            "line": 38,
+            "ref": "30:46",
+            "arabic": "نعمة",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 83,
+            "ref": "91:1",
+            "arabic": "ضُحَاهَا",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 84,
+            "ref": "79:29",
+            "arabic": "ضُحَاهَا",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 131,
+            "ref": "14:34",
+            "arabic": "نعمة",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          }
+        ],
+        "limits": "Orthographic normalization only; roots, paraphrases and word segmentation require review. No semantic or relevance validation."
+      }
+    }
+  }
+}

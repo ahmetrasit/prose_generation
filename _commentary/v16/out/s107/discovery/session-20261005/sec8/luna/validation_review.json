@@ -1,0 +1,10 @@
+{
+  "status": "unverified discovery notes; adjudicator must check canonical text",
+  "agent_completion_notes": [],
+  "policy": "Raw discoveries retained; quotation flags are review aids, not semantic verdicts.",
+  "protocol_exception": {
+    "type": "followup_format_correction",
+    "status": "accepted with explicit process exception",
+    "description": "After the literal follow-up write, Luna used sed -i to replace invalid first-field labels root with strong for 4:11 and 4:12. This read/modify command departed from the instruction allowing only literal writes during the memory-only follow-up. The public audit shows only these two field repairs; no external source retrieval or further discovery pass occurred. The original literal write and exact correction command remain in tool_calls.json. Candidate wording and references were unchanged by this correction."
+  }
+}

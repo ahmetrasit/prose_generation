@@ -1,0 +1,139 @@
+{
+  "ref": "S94",
+  "arm": "discover",
+  "brief": "session-20261005.luna.sec11",
+  "run_tag": "session-20261005",
+  "section_number": 11,
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "runner": "agent",
+  "agent_path": "/root/s94_disc_11_luna",
+  "agent_id": "01a10da3-54b4-7b53-a563-5da999528ecb",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T15-56-10-01a10da3-54b4-7b53-a563-5da999528ecb.jsonl",
+  "estimate_usd": 0,
+  "cost_usd": 0,
+  "cost_basis": "Codex subscription",
+  "status": "ok",
+  "check": "findings",
+  "followup_mode": "separate-proposals-v1",
+  "consolidation": {
+    "mode": "separate-proposals-v1",
+    "raw_proposal_rows": 28,
+    "unique_additions": 25,
+    "repeated_proposals": [
+      {
+        "line": 26,
+        "strength": "medium",
+        "ref": "6:105",
+        "basis": [
+          "theme"
+        ],
+        "note": "The signs are explained in varied ways so that the message may be made clear to people who know. This parallels the source section’s movement from what is closed to what is explained, though the ayah does not use the root ش ر ح.",
+        "kept": {
+          "phase": 2,
+          "line": 18
+        }
+      },
+      {
+        "line": 27,
+        "strength": "contrast",
+        "ref": "2:75",
+        "basis": [
+          "contrast",
+          "scene"
+        ],
+        "note": "A group hear God’s words and then deliberately distort them after understanding. This is a specific reversal of the source section’s preserved and clarified word: hearing and carrying revelation can also be followed by deliberate alteration.",
+        "kept": {
+          "phase": 2,
+          "line": 23
+        }
+      },
+      {
+        "line": 28,
+        "strength": "contrast",
+        "ref": "3:78",
+        "basis": [
+          "contrast",
+          "scene"
+        ],
+        "note": "Some twist their tongues with the Book so listeners think their speech belongs to Scripture, though it does not. This is a concrete misuse of the source section’s tongue-carried Book image, a false publicing rather than faithful transmission.",
+        "kept": {
+          "phase": 2,
+          "line": 24
+        }
+      }
+    ],
+    "turn1_sha256": "7b399f9e88073133c219ee1c81d92d165b8c37d3cd13b1011ed04ac0f592e966",
+    "followup_sha256": "d2933ace031e29e14d9e6efa6658662b6eb82edfa287683a4009fa811a516536",
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "d2933ace031e29e14d9e6efa6658662b6eb82edfa287683a4009fa811a516536",
+    "list_sha256": "21108d3ebc9e7582d33252d7a39605899a40b81089549bbf258cbcef39dbc762",
+    "policy": "First occurrence retained; no existing row or grade changed. Raw followup.tsv preserved."
+  },
+  "consolidation_error": null,
+  "usage_tokens": null,
+  "turn1_rows": 89,
+  "turn1_lines": 89,
+  "turn1": {
+    "agent_path": "/root/s94_disc_11_luna",
+    "agent_id": "01a10da3-54b4-7b53-a563-5da999528ecb",
+    "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T15-56-10-01a10da3-54b4-7b53-a563-5da999528ecb.jsonl",
+    "rows": 89,
+    "lines": 89,
+    "bad_rows": [],
+    "usage": null,
+    "completed_at": "2026-10-05T20:06:15.588Z"
+  },
+  "turn2": {
+    "completed": true,
+    "rows_total": 114,
+    "rows_added": 25,
+    "usage": null
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "bad_rows": [],
+  "duplicates": {},
+  "source_sha256": "8162e3f88bfcea649c01df9d0668e2032dbab65c48f5cd3ca55d301f904226ff",
+  "inputs_unchanged": true,
+  "followup_delivery": [
+    {
+      "call_id": "call_fOSOkJhtIly4dpGbzfsol3Wb",
+      "timestamp": "2026-10-05T20:06:39.478Z",
+      "target": "/root/s94_disc_11_luna",
+      "parent_transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/04/rollout-2026-10-04T21-37-28-01a109b5-7256-7930-b51e-78b0a209e630.jsonl",
+      "message_encrypted": true,
+      "plaintext_matches": false
+    }
+  ],
+  "protocol_findings": [],
+  "daemon_recovery_delivery": [],
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [
+    {
+      "call_id": "call_WIzBm4e4wVzGnTUWRFYLi10G",
+      "message": "Script failed"
+    },
+    {
+      "call_id": "call_WIzBm4e4wVzGnTUWRFYLi10G",
+      "message": "Script error:"
+    },
+    {
+      "call_id": "call_WIzBm4e4wVzGnTUWRFYLi10G",
+      "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/_commentary/v16/out/s094/discovery/session-20261005/sec11/luna/list.tsv:"
+    }
+  ],
+  "arabic_findings": 20,
+  "followup": "Review your remembered coverage for qualifying omissions under the same inclusion and grading rules, checking the section's distinct scenes and secondary details, repeated formulations, specific indirect parallels, reversals, and necessary passage continuations. Write only the new candidate proposals to /Volumes/aro/projects/prose_generation/_commentary/v16/out/s094/discovery/session-20261005/sec11/luna/followup.tsv using the same four-field TSV schema, with no header. Do not modify list.tsv. Check from memory that each proposal belongs to its cited ayah; distinguish that ayah's contribution from neighbouring verses. Prefer English over uncertain Arabic quotations. Do not repeat references intentionally. The workflow will preserve your proposals and append each new reference once; it will retain repeated proposals in an audit sidecar without changing existing rows or grades. Zero additions is valid: create an empty followup.tsv. Do not read any files, retrieve sources, consult other agents, or run scripts. A file-write tool or literal shell write solely to save followup.tsv is permitted. Return only a brief completion notice, including any self-detected accuracy concerns; do not send separate messages.",
+  "strength_counts": {
+    "strong": 88,
+    "medium": 18,
+    "weak": 3,
+    "contrast": 5
+  },
+  "list_sha256": "21108d3ebc9e7582d33252d7a39605899a40b81089549bbf258cbcef39dbc762",
+  "prompt_sha256": "bfa083c4d90fcfacb6097a99b573a749c3457ffb0e1edef1a52589a358d17b84",
+  "package_sha256": "906a7d91350a279b7c4bace8a01cf1583802f69a7b752dbcd8294f0e21992de8",
+  "completed_at": "2026-10-05T20:12:12.281Z",
+  "seconds": 997
+}

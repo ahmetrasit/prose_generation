@@ -1,0 +1,537 @@
+{
+  "surah": 95,
+  "section": 3,
+  "run_tag": "session-20261005",
+  "source_sha256": "bae7c7247d21f6ac3b70c963731b206ef32d75805eda16ed551eb05a62863d70",
+  "list_sha256": "bcb3ae6f818dc5379d33f7b0b6ab1e125094e591bae1c398f2bf067d2b594918",
+  "models": {
+    "luna": {
+      "run_log": "/Volumes/aro/projects/prose_generation/_commentary/v16/out/s095/discovery/session-20261005/sec3/luna/run.log.json",
+      "consolidation": {
+        "mode": "separate-proposals-v1",
+        "raw_proposal_rows": 55,
+        "unique_additions": 55,
+        "repeated_proposals": [],
+        "turn1_sha256": "cae8680b90ef9aacfe356d85cf34b82ab11aad629f8279246e451594f95f1a99",
+        "followup_sha256": "5be0d6e46c3479fddef1e045a29c75b74820228e10824fa441e9c984b4bb409e",
+        "proposal_file": "followup.tsv",
+        "proposal_sha256": "5be0d6e46c3479fddef1e045a29c75b74820228e10824fa441e9c984b4bb409e",
+        "list_sha256": "07661ab0100e84efac4d1b26c46cee66f83a322c2b8a069370fafa0c1fa59cc1",
+        "policy": "First occurrence retained; no existing row or grade changed. Raw followup.tsv preserved."
+      },
+      "validation_review": {
+        "status": "unverified discovery notes; adjudicator must check canonical text",
+        "agent_completion_notes": [],
+        "policy": "Raw discoveries retained; quotation flags are review aids, not semantic verdicts.",
+        "protocol_exception": {
+          "description": "After a literal write of followup.tsv, the same shell call ran awk END to count its rows. This violates the strict no-reads/no-scripts follow-up instruction; it returned only a count and did not consult prior lists, source text, or external evidence. Parent retained the linguistic output with this explicit exception.",
+          "command_tail": "awk 'END { print NR \" rows saved\" }' followup.tsv"
+        }
+      },
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/_commentary/v16/out/s095/discovery/session-20261005/sec3/luna/list.tsv",
+        "rows": 142,
+        "schema_errors": [],
+        "duplicates": {},
+        "arabic_findings": [
+          {
+            "line": 1,
+            "ref": "82:7",
+            "arabic": "خَلَقْنَا",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 1,
+            "ref": "82:7",
+            "arabic": "تَقْوِيم",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 1,
+            "ref": "82:7",
+            "arabic": "خلق، فسوى، فعدل",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 3,
+            "ref": "32:7",
+            "arabic": "خ ل ق",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 4,
+            "ref": "32:9",
+            "arabic": "سَوَّاهُ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 12,
+            "ref": "23:14",
+            "arabic": "أَنشَأْنَاهُ خَلْقًا آخَرَ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 22,
+            "ref": "54:49",
+            "arabic": "خَلْق",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 25,
+            "ref": "16:70",
+            "arabic": "رَدّ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 29,
+            "ref": "7:85",
+            "arabic": "فساد",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 29,
+            "ref": "7:85",
+            "arabic": "خَلْق",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 29,
+            "ref": "7:85",
+            "arabic": "صَلَح",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 33,
+            "ref": "26:183",
+            "arabic": "فساد",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 35,
+            "ref": "55:7",
+            "arabic": "مِيزَان",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 39,
+            "ref": "11:1",
+            "arabic": "كِتَابٌ أُحْكِمَتْ آيَاتُهُ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 39,
+            "ref": "11:1",
+            "arabic": "ح ك م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 40,
+            "ref": "22:52",
+            "arabic": "يُحْكِمُ اللَّهُ آيَاتِهِ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 40,
+            "ref": "22:52",
+            "arabic": "ح ك م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 41,
+            "ref": "3:7",
+            "arabic": "آيَاتٌ مُّحْكَمَاتٌ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 43,
+            "ref": "18:2",
+            "arabic": "ق و م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 44,
+            "ref": "91:7",
+            "arabic": "مَا سَوَّاهَا",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 46,
+            "ref": "91:9",
+            "arabic": "قَدْ أَفْلَحَ مَن زَكَّاهَا",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 46,
+            "ref": "91:9",
+            "arabic": "صَلَح",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 46,
+            "ref": "91:9",
+            "arabic": "فساد",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 47,
+            "ref": "91:10",
+            "arabic": "وَقَدْ خَابَ مَن دَسَّاهَا",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 48,
+            "ref": "7:56",
+            "arabic": "فساد",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 48,
+            "ref": "7:56",
+            "arabic": "صَلَح",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 49,
+            "ref": "10:81",
+            "arabic": "إصلاح",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 49,
+            "ref": "10:81",
+            "arabic": "فساد",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 51,
+            "ref": "2:11",
+            "arabic": "فساد",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 51,
+            "ref": "2:11",
+            "arabic": "صَلَح",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 53,
+            "ref": "36:78",
+            "arabic": "أَجْر",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 62,
+            "ref": "41:8",
+            "arabic": "صالحات",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 63,
+            "ref": "84:25",
+            "arabic": "صالحات",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 67,
+            "ref": "17:9",
+            "arabic": "ق و م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 69,
+            "ref": "81:28",
+            "arabic": "سَبِيلًا مُّسْتَقِيمًا",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 75,
+            "ref": "68:3",
+            "arabic": "صالحات",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 78,
+            "ref": "5:3",
+            "arabic": "الْأَزْلَامِ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 80,
+            "ref": "67:4",
+            "arabic": "ر د د",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 80,
+            "ref": "67:4",
+            "arabic": "يَرُدُّ الطَّرْفَ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 84,
+            "ref": "83:7",
+            "arabic": "أَسْفَلَ سَافِلِينَ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [
+              "95:5"
+            ],
+            "matching_ref_count": 1
+          },
+          {
+            "line": 94,
+            "ref": "18:77",
+            "arabic": "ق و م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 96,
+            "ref": "27:88",
+            "arabic": "أَحْسَنَ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 99,
+            "ref": "28:77",
+            "arabic": "فساد",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 99,
+            "ref": "28:77",
+            "arabic": "صالحات",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 104,
+            "ref": "77:20",
+            "arabic": "خ ل ق",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 107,
+            "ref": "77:23",
+            "arabic": "خ ل ق",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 118,
+            "ref": "47:2",
+            "arabic": "ص ل ح",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 120,
+            "ref": "33:71",
+            "arabic": "إصلاح",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 121,
+            "ref": "6:115",
+            "arabic": "ح ك م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 121,
+            "ref": "6:115",
+            "arabic": "فساد",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 124,
+            "ref": "41:42",
+            "arabic": "فساد",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 130,
+            "ref": "82:12",
+            "arabic": "عَمِلُوا صالحات",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          }
+        ],
+        "limits": "Orthographic normalization only; roots, paraphrases and word segmentation require review. No semantic or relevance validation."
+      }
+    },
+    "terra": {
+      "run_log": "/Volumes/aro/projects/prose_generation/_commentary/v16/out/s095/discovery/session-20261005/sec3/terra/run.log.json",
+      "consolidation": {
+        "mode": "separate-proposals-v1",
+        "raw_proposal_rows": 87,
+        "unique_additions": 87,
+        "repeated_proposals": [],
+        "turn1_sha256": "6f8c5f72e6cc6151ff87c4cb93f4a4e6e528184b9c7e7d9844acca285fa982e4",
+        "followup_sha256": "258118ebdc0769e22c1e15d69d800c89be0c14b0a2f7ce646a5ab0152471ac83",
+        "proposal_file": "followup.tsv",
+        "proposal_sha256": "258118ebdc0769e22c1e15d69d800c89be0c14b0a2f7ce646a5ab0152471ac83",
+        "list_sha256": "2070697c8373c446a43991ac95879cd8e14791547e9e5a081825c0f7a72f1bc8",
+        "policy": "First occurrence retained; no existing row or grade changed. Raw followup.tsv preserved."
+      },
+      "validation_review": {
+        "status": "unverified discovery notes; adjudicator must check canonical text",
+        "agent_completion_notes": [],
+        "policy": "Raw discoveries retained; quotation flags are review aids, not semantic verdicts."
+      },
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/_commentary/v16/out/s095/discovery/session-20261005/sec3/terra/list.tsv",
+        "rows": 284,
+        "schema_errors": [],
+        "duplicates": {},
+        "arabic_findings": [
+          {
+            "line": 43,
+            "ref": "17:35",
+            "arabic": "ٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 45,
+            "ref": "26:182",
+            "arabic": "ٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 61,
+            "ref": "68:3",
+            "arabic": "أَجْرًا غَيْرَ مَمْنُونٍ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 157,
+            "ref": "22:52",
+            "arabic": "يُحْكِمُ ءَايَـٰتِهِۦ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 162,
+            "ref": "11:85",
+            "arabic": "فساد",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 185,
+            "ref": "35:10",
+            "arabic": "صالح",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          }
+        ],
+        "limits": "Orthographic normalization only; roots, paraphrases and word segmentation require review. No semantic or relevance validation."
+      }
+    }
+  }
+}
