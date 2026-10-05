@@ -268,3 +268,10 @@ sources (C1), then OCR imports when the user's OCR arrives; Task A items remain.
   archive.org 20260313_20260313_0237), Bint al-Qurʾān wa-qaḍāyā al-insān and Maqāl fī al-insān (scans + OCR only).
   Candidate to ask the user about: Fāḍil al-Sāmarrāʾī, ʿAlā ṭarīq al-tafsīr al-bayānī (bayānī lineage, includes
   al-Fātiḥa; archive.org 00173_201807, 13 MB zip, format unchecked).
+- Sāmarrāʾī (user: counts among the bayānī voices; "install it"): Homebrew mdbtools not installed (no Intel bottles:
+  12 source builds + upgrades of python/sqlite/openssl); .bok exports read with access-parser in a venv
+  (fetch/import_shamela_bok.py: cp1256 re-decoded, characters in = out, surah-heading ties, refs from braces,
+  parentheses (4+ words) and «[الجاثية: 12]»). SAMARRAI-LAMASAT 283 (print pages, Dār ʿAmmār 2003, al-Fātiḥa
+  pp. 11–70), SAMARRAI-LAMASAT-HALAQAT 1,108 (episode transcripts), SAMARRAI-ASRAR 67 and -ASRAR-MUH 133 (Shamela's
+  own page numbers, labelled shamela_page). ʿAlā ṭarīq al-tafsīr al-bayānī: archive copy is 701 image pages,
+  not on Shamela: deferred. All in the beyani-huli group.

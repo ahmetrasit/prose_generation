@@ -91,18 +91,29 @@ def quoted(text: str, q: dict, prefer: int) -> list[tuple[int, int]]:
     """The ayat the page quotes: Qurʾānic spans in braces («{…}», the opening sometimes typed as «"»), cut at their
     verse markers «(167)», each piece of 3+ words found inside an ayah (the chapter's surah tried first)."""
     out: list[tuple[int, int]] = []
-    for m in re.finditer(r"[{\"«]([^{}\"«»]{6,900})}", text):
-        for piece in re.split(r"\(\s*[\d٠-٩]{1,3}\s*\)", m.group(1)):
+    spans = [(m.group(1), False) for m in re.finditer(r"[{\"«]([^{}\"«»]{6,900})}", text)]
+    # lecture transcripts quote in parentheses «(فسنيسره لليسرى)»: taken at 4+ words (3+ in the chapter's surah),
+    # so that an ordinary aside cannot pass for a verse
+    spans += [(m.group(1), True) for m in re.finditer(r"\(([^(){}]{8,900}?)(?:\(\s*[\d٠-٩]{1,3}\s*\)[^(){}]{0,40})?\)", text)]
+    for span, paren in spans:
+        for piece in re.split(r"\(\s*[\d٠-٩]{1,3}\s*\)", span):
             pn = skel(piece)
-            if not pn:
+            if not pn or (paren and len(pn.split()) < 3):
                 continue
             hit = None
             # a short piece only as a whole verse of the chapter's surah («والضحى»); 3+ words anywhere
             if len(pn.split()) < 3:
+                # a short piece: a whole verse of the chapter's surah («والضحى»), or a part of exactly one of its
+                # verses («الحمد لله» in al-Fātiḥa)
                 if prefer in q:
                     hit = next(((prefer, a) for a, ay in q[prefer].items() if ay.strip() == pn), None)
+                    if hit is None:
+                        inside = [a for a, ay in q[prefer].items() if " " + pn + " " in ay]
+                        hit = (prefer, inside[0]) if len(inside) == 1 else None
             else:
-                for s in ([prefer] if prefer in q else []) + [k for k in q if k != prefer]:
+                order = ([prefer] if prefer in q else []) + ([] if paren and len(pn.split()) < 4 else
+                                                              [k for k in q if k != prefer])
+                for s in order:
                     for a, ay in q[s].items():
                         if " " + pn + " " in ay or (len(pn.split()) >= 4 and pn in ay):
                             hit = (s, a)
@@ -115,9 +126,10 @@ def quoted(text: str, q: dict, prefer: int) -> list[tuple[int, int]]:
 
 
 def named_refs(text: str, names: dict[str, int]) -> list[tuple[int, int]]:
-    """«(البقرة 264)», «(النساء 38، 142)», «(آل عمران: 7)»: a surah named and its verse numbers."""
+    """«(البقرة 264)», «(النساء 38، 142)», «(آل عمران: 7)», «[الجاثية: 12]»: a surah named and its verse numbers."""
     out: list[tuple[int, int]] = []
-    for m in re.finditer(r"\(([^()\d٠-٩]{2,20}?)\s*:?\s*([\d٠-٩]{1,3}(?:\s*[،,-]\s*[\d٠-٩]{1,3})*)\)", text):
+    # «(البقرة 264)» (Bint al-Shāṭiʾ's print) and «[الجاثية: 12]» (Shamela's own references)
+    for m in re.finditer(r"[(\[]([^()\[\]\d٠-٩]{2,20}?)\s*:?\s*([\d٠-٩]{1,3}(?:\s*[،,-]\s*[\d٠-٩]{1,3})*)[)\]]", text):
         name = re.sub("[أإآ]", "ا", m.group(1).strip())
         name = re.sub(r"^سورة\s+", "", name)
         s = names.get(name) or names.get("ال" + name)
