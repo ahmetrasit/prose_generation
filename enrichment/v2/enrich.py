@@ -569,7 +569,8 @@ def spawn_target(s: int, target: str, model: str, effort: str, attempt: int = 1,
            "base_sha256": info["sha256"], "base_words": len(base_text.split()),
            "pack_sha256": hashlib.sha256(pack_bytes).hexdigest(), "dictionary": json.loads(pack_bytes).get("dictionary")}
     row["mode"] = MODE
-    AR.prepare(d, prompt, row, "enrich-dosya" if MODE == "dosya" else "enrich", "annotations.jsonl", lookup=False)
+    AR.prepare(d, prompt, row, "enrich-dosya" if MODE == "dosya" else "enrich-parts" if MODE in ("tur", "dosya2")
+               else "enrich", "annotations.jsonl", lookup=False)
     return {"surah": s, "target": target, "model": model, "status": "prepared", "dir": rel(d),
             "spawn": rel(d / "spawn.md"), "agent": row["agent_type"]}
 

@@ -36,7 +36,7 @@ RATES = {"claude-opus-5-5": {"input": 4.0, "cache_5m": 5.0, "cache_1h": 8.0, "ca
          "claude-fable-5-1": {"input": 10.0, "cache_5m": 12.5, "cache_1h": 20.0, "cache_read": 0.25, "output": 50.0},
          "claude-sonnet-5-5": {"input": 2.0, "cache_5m": 2.5, "cache_1h": 4.0, "cache_read": 0.20, "output": 10.0}}
 AGENT_TYPE = {"writer": "v16-call", "augment": "v16-call", "enrich": "enrich-page", "enrich-dosya": "enrich-page",
-              "okuma-plan": "general-purpose", "okuma": "general-purpose"}
+              "okuma-plan": "general-purpose", "okuma": "general-purpose", "enrich-parts": "enrich-page-<effort>"}
 AGENT_MODEL = {"okuma-plan": "Sonnet 5.5", "okuma": "Sonnet 5.5"}  # every other kind: Opus 5.5
 
 
@@ -56,6 +56,13 @@ def spawn_prompt(d: Path, kind: str, output: str, lookup: bool) -> str:
                   f"Use no other tool and run no command: everything you need is in that file. Then write the records to "
                   f"{d / output} with the Write tool, in one write, and gaps.json beside it; nothing else.",
                   "When the files are written, reply with one line: written. Do not put the records in your reply."]
+        return "\n".join(lines) + "\n"
+    if kind == "enrich-parts":  # the cost-trial modes (enrichment v2 tur, dosya2): records in parts, joined by finish
+        lines += [f"Read {d / 'prompt.md'} with the Read tool: it is your whole job. Follow it exactly. Your call "
+                  f"directory is {d}; write only there. Write the page's records in parts, annotations.1.jsonl, "
+                  f"annotations.2.jsonl … in that directory, as the job says (never annotations.jsonl itself), and "
+                  f"gaps.json.",
+                  "When the files are complete, reply with one line: written. Do not put the records in your reply."]
         return "\n".join(lines) + "\n"
     if kind == "enrich":
         lines += [f"Read {d / 'prompt.md'} with the Read tool: it is your whole job. Follow it exactly. Your call "
