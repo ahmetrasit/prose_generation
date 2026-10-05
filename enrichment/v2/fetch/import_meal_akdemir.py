@@ -59,7 +59,9 @@ def num(s: str) -> int | None:
 
 
 def garbage(x: str) -> bool:
-    s = re.sub(r"\s", "", x)
+    """An OCR line of the Arabic column: fewer than half of its characters (digits and the punctuation of references
+    such as «87/2-5: 50/15» not counted) are Turkish letters."""
+    s = re.sub(r"[\s\d/:;,.\-–()]", "", x)
     return bool(s) and len(TR.findall(s)) / len(s) < 0.5
 
 
