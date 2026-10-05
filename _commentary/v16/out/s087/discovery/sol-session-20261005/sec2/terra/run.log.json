@@ -1,0 +1,82 @@
+{
+  "ref": "S87",
+  "arm": "discover",
+  "brief": "sol-session-20261005.terra.sec2",
+  "run_tag": "sol-session-20261005",
+  "section_number": 2,
+  "model": "gpt-5.6-sol",
+  "effort": "max",
+  "runner": "agent",
+  "agent_path": "/root/s87_disc_02_terra",
+  "agent_id": "01a10cbb-f455-7a81-b735-56b1094c17b6",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T11-43-26-01a10cbb-f455-7a81-b735-56b1094c17b6.jsonl",
+  "estimate_usd": 0,
+  "cost_usd": 0,
+  "cost_basis": "Codex subscription",
+  "status": "ok",
+  "check": "findings",
+  "followup_mode": "separate-proposals-v1",
+  "consolidation": {
+    "mode": "separate-proposals-v1",
+    "raw_proposal_rows": 46,
+    "unique_additions": 46,
+    "repeated_proposals": [],
+    "turn1_sha256": "7ec8db576d50c4269436f3970ecf0e01a8412726196396da59d6d4608a3089bd",
+    "followup_sha256": "5791cf6a127018bea5481615cb5bfe1d5782acbde59d8d92eca5413cc3691e57",
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "5791cf6a127018bea5481615cb5bfe1d5782acbde59d8d92eca5413cc3691e57",
+    "list_sha256": "0bb7869522240eb8346ead02f96d8780e1e4240ecde947fd68f3b7ecbb5e9717",
+    "policy": "First occurrence retained; no existing row or grade changed. Raw followup.tsv preserved."
+  },
+  "consolidation_error": null,
+  "usage_tokens": null,
+  "turn1_rows": 105,
+  "turn1_lines": 105,
+  "turn1": {
+    "agent_path": "/root/s87_disc_02_terra",
+    "agent_id": "01a10cbb-f455-7a81-b735-56b1094c17b6",
+    "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T11-43-26-01a10cbb-f455-7a81-b735-56b1094c17b6.jsonl",
+    "rows": 105,
+    "lines": 105,
+    "bad_rows": [],
+    "usage": null,
+    "completed_at": "2026-10-05T16:02:59.960Z"
+  },
+  "turn2": {
+    "completed": true,
+    "rows_total": 151,
+    "rows_added": 46,
+    "usage": null
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "bad_rows": [],
+  "duplicates": {},
+  "source_sha256": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+  "inputs_unchanged": true,
+  "followup_delivery": [
+    {
+      "call_id": "call_ARsLgW3ZHfWjj47kmrvhW6or",
+      "timestamp": "2026-10-05T16:05:54.800Z",
+      "target": "s87_disc_02_terra",
+      "parent_transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/04/rollout-2026-10-04T21-37-28-01a109b5-7256-7930-b51e-78b0a209e630.jsonl",
+      "message_encrypted": true,
+      "plaintext_matches": false
+    }
+  ],
+  "protocol_findings": [],
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "arabic_findings": 6,
+  "followup": "Review your remembered coverage for qualifying omissions under the same inclusion and grading rules, checking the section's distinct scenes and secondary details, repeated formulations, specific indirect parallels, reversals, and necessary passage continuations. Write only the new candidate proposals to /Volumes/aro/projects/prose_generation/_commentary/v16/out/s087/discovery/sol-session-20261005/sec2/terra/followup.tsv using the same four-field TSV schema, with no header. Do not modify list.tsv. Check from memory that each proposal belongs to its cited ayah; distinguish that ayah's contribution from neighbouring verses. Prefer English over uncertain Arabic quotations. Do not repeat references intentionally. The workflow will preserve your proposals and append each new reference once; it will retain repeated proposals in an audit sidecar without changing existing rows or grades. Zero additions is valid: create an empty followup.tsv. Do not read any files, retrieve sources, consult other agents, or run scripts. A file-write tool or literal shell write solely to save followup.tsv is permitted. Return only a brief completion notice, including any self-detected accuracy concerns; do not send separate messages.",
+  "strength_counts": {
+    "strong": 63,
+    "contrast": 21,
+    "medium": 67
+  },
+  "list_sha256": "0bb7869522240eb8346ead02f96d8780e1e4240ecde947fd68f3b7ecbb5e9717",
+  "prompt_sha256": "3588fd774fde2ba09c47e14093e51b6dadf132e9a2664ddad6622940bf36273f",
+  "package_sha256": "6a74ebb25256502a381941d607cc65bfe671178e1847e03d8f54d2d2c73a99bb",
+  "completed_at": "2026-10-05T16:12:41.642Z",
+  "seconds": 1779
+}

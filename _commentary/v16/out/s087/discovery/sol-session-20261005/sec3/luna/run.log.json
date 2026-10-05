@@ -1,0 +1,94 @@
+{
+  "ref": "S87",
+  "arm": "discover",
+  "brief": "sol-session-20261005.luna.sec3",
+  "run_tag": "sol-session-20261005",
+  "section_number": 3,
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "runner": "agent",
+  "agent_path": "/root/s87_disc_03_luna",
+  "agent_id": "01a10cbc-0b29-7a40-8465-8f208e14dab4",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T11-43-32-01a10cbc-0b29-7a40-8465-8f208e14dab4.jsonl",
+  "estimate_usd": 0,
+  "cost_usd": 0,
+  "cost_basis": "Codex subscription",
+  "status": "ok",
+  "check": "findings",
+  "followup_mode": "separate-proposals-v1",
+  "consolidation": {
+    "mode": "separate-proposals-v1",
+    "raw_proposal_rows": 64,
+    "unique_additions": 64,
+    "repeated_proposals": [],
+    "turn1_sha256": "c0f03b0ba6e5b8931982d3fa370d2e2efee1294a8d0dd29c31992a854e65956d",
+    "followup_sha256": "1e0709e6167fb8a95c95fd0240d9a3478bebd5372c1b0eab1a33808b8f2995d1",
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "1e0709e6167fb8a95c95fd0240d9a3478bebd5372c1b0eab1a33808b8f2995d1",
+    "list_sha256": "4c42b9bc6b43eb3e01208beed790bd527407397d4c3229a472e96206444d772d",
+    "policy": "First occurrence retained; no existing row or grade changed. Raw followup.tsv preserved."
+  },
+  "consolidation_error": null,
+  "usage_tokens": null,
+  "turn1_rows": 46,
+  "turn1_lines": 46,
+  "turn1": {
+    "agent_path": "/root/s87_disc_03_luna",
+    "agent_id": "01a10cbc-0b29-7a40-8465-8f208e14dab4",
+    "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T11-43-32-01a10cbc-0b29-7a40-8465-8f208e14dab4.jsonl",
+    "rows": 46,
+    "lines": 46,
+    "bad_rows": [],
+    "usage": {
+      "input_tokens": 318290,
+      "cached_input_tokens": 278272,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 24017,
+      "reasoning_output_tokens": 20518,
+      "total_tokens": 342307
+    },
+    "completed_at": "2026-10-05T15:51:00.445Z"
+  },
+  "turn2": {
+    "completed": true,
+    "rows_total": 110,
+    "rows_added": 64,
+    "usage": null
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "bad_rows": [],
+  "duplicates": {},
+  "source_sha256": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+  "inputs_unchanged": true,
+  "followup_delivery": [
+    {
+      "call_id": "call_88bd789f9d69452f8829fe297c0869a8",
+      "timestamp": "2026-10-05T15:51:39.094Z",
+      "target": "s87_disc_03_luna",
+      "parent_transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/04/rollout-2026-10-04T21-37-28-01a109b5-7256-7930-b51e-78b0a209e630.jsonl",
+      "message_encrypted": true,
+      "plaintext_matches": false
+    }
+  ],
+  "protocol_findings": [],
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [
+    {
+      "call_id": "call_nN9z7CkzXCpK3f9rNJfnJ0aR",
+      "message": "duplicate_ref 20:55 2"
+    }
+  ],
+  "arabic_findings": 1,
+  "followup": "Review your remembered coverage for qualifying omissions under the same inclusion and grading rules, checking the section's distinct scenes and secondary details, repeated formulations, specific indirect parallels, reversals, and necessary passage continuations. Write only the new candidate proposals to /Volumes/aro/projects/prose_generation/_commentary/v16/out/s087/discovery/sol-session-20261005/sec3/luna/followup.tsv using the same four-field TSV schema, with no header. Do not modify list.tsv. Check from memory that each proposal belongs to its cited ayah; distinguish that ayah's contribution from neighbouring verses. Prefer English over uncertain Arabic quotations. Do not repeat references intentionally. The workflow will preserve your proposals and append each new reference once; it will retain repeated proposals in an audit sidecar without changing existing rows or grades. Zero additions is valid: create an empty followup.tsv. Do not read any files, retrieve sources, consult other agents, or run scripts. A file-write tool or literal shell write solely to save followup.tsv is permitted. Return only a brief completion notice, including any self-detected accuracy concerns; do not send separate messages.",
+  "strength_counts": {
+    "strong": 38,
+    "medium": 50,
+    "contrast": 22
+  },
+  "list_sha256": "4c42b9bc6b43eb3e01208beed790bd527407397d4c3229a472e96206444d772d",
+  "prompt_sha256": "2c8ce29cbec43f72720e17bf036f4c78ee4295cecb114744603569598cdfba64",
+  "package_sha256": "3d0142f2e979fabf5c9b1b9b193cce881ef43aaf401dd2b7d71868f57221dae9",
+  "completed_at": "2026-10-05T15:58:50.840Z",
+  "seconds": 948
+}

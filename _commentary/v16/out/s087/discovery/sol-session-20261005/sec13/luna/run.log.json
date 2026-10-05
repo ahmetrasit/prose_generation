@@ -1,0 +1,107 @@
+{
+  "ref": "S87",
+  "arm": "discover",
+  "brief": "sol-session-20261005.luna.sec13",
+  "run_tag": "sol-session-20261005",
+  "section_number": 13,
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "runner": "agent",
+  "agent_path": "/root/s87_disc_13_luna",
+  "agent_id": "01a10cbe-49ee-7003-a0c8-4d313d6e48cc",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T11-45-59-01a10cbe-49ee-7003-a0c8-4d313d6e48cc.jsonl",
+  "estimate_usd": 0,
+  "cost_usd": 0,
+  "cost_basis": "Codex subscription",
+  "status": "ok",
+  "check": "findings",
+  "followup_mode": "separate-proposals-v1",
+  "consolidation": {
+    "mode": "separate-proposals-v1",
+    "raw_proposal_rows": 36,
+    "unique_additions": 36,
+    "repeated_proposals": [],
+    "turn1_sha256": "ce15fe890dc935b895ed7db659e921e7c8c9d3dbc31ce8aea6b03967f762f136",
+    "followup_sha256": "c0c07371b90fb813e63a6ed08cc78964b6d21641a7a5eab1d3c3c38af667e03c",
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "c0c07371b90fb813e63a6ed08cc78964b6d21641a7a5eab1d3c3c38af667e03c",
+    "list_sha256": "526a6f62914ca94cfa2f453eda2f4972a93c2152ef149dc57f1a6844668110df",
+    "policy": "First occurrence retained; no existing row or grade changed. Raw followup.tsv preserved."
+  },
+  "consolidation_error": null,
+  "usage_tokens": null,
+  "turn1_rows": 110,
+  "turn1_lines": 110,
+  "turn1": {
+    "agent_path": "/root/s87_disc_13_luna",
+    "agent_id": "01a10cbe-49ee-7003-a0c8-4d313d6e48cc",
+    "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T11-45-59-01a10cbe-49ee-7003-a0c8-4d313d6e48cc.jsonl",
+    "rows": 110,
+    "lines": 110,
+    "bad_rows": [],
+    "usage": null,
+    "completed_at": "2026-10-05T16:16:58.800Z"
+  },
+  "turn2": {
+    "completed": true,
+    "rows_total": 146,
+    "rows_added": 36,
+    "usage": null
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "bad_rows": [],
+  "duplicates": {},
+  "source_sha256": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+  "inputs_unchanged": true,
+  "followup_delivery": [
+    {
+      "call_id": "call_JUyqxrnhIgazDj1Gbqz8SvB9",
+      "timestamp": "2026-10-05T16:17:43.387Z",
+      "target": "s87_disc_13_luna",
+      "parent_transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/04/rollout-2026-10-04T21-37-28-01a109b5-7256-7930-b51e-78b0a209e630.jsonl",
+      "message_encrypted": true,
+      "plaintext_matches": false
+    }
+  ],
+  "protocol_findings": [],
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [
+    {
+      "call_id": "call_ov667dDdK0GK3b5g57Nlc5m6",
+      "message": "Script failed"
+    },
+    {
+      "call_id": "call_ov667dDdK0GK3b5g57Nlc5m6",
+      "message": "Script error:"
+    },
+    {
+      "call_id": "call_ov667dDdK0GK3b5g57Nlc5m6",
+      "message": "apply_patch verification failed: invalid hunk at line 3, 'strong\t20:7\tscene+root+theme\tThe source section defines جهر as raising the voice against secrecy; this verse says even if speech is raised, God knows the secret and what is more hidden, completing the same audible-to-hidden span.' is not a valid hunk header. Valid hunk headers: '*** Add File: {path}', '*** Delete File: {path}', '*** Update File: {path}'"
+    },
+    {
+      "call_id": "call_nhyhw3rxTNsB5McELzF0VttW",
+      "message": "Script failed"
+    },
+    {
+      "call_id": "call_nhyhw3rxTNsB5McELzF0VttW",
+      "message": "Script error:"
+    },
+    {
+      "call_id": "call_nhyhw3rxTNsB5McELzF0VttW",
+      "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/_commentary/v16/out/s087/discovery/sol-session-20261005/sec13/luna/list.tsv:"
+    }
+  ],
+  "arabic_findings": 15,
+  "followup": "Review your remembered coverage for qualifying omissions under the same inclusion and grading rules, checking the section's distinct scenes and secondary details, repeated formulations, specific indirect parallels, reversals, and necessary passage continuations. Write only the new candidate proposals to /Volumes/aro/projects/prose_generation/_commentary/v16/out/s087/discovery/sol-session-20261005/sec13/luna/followup.tsv using the same four-field TSV schema, with no header. Do not modify list.tsv. Check from memory that each proposal belongs to its cited ayah; distinguish that ayah's contribution from neighbouring verses. Prefer English over uncertain Arabic quotations. Do not repeat references intentionally. The workflow will preserve your proposals and append each new reference once; it will retain repeated proposals in an audit sidecar without changing existing rows or grades. Zero additions is valid: create an empty followup.tsv. Do not read any files, retrieve sources, consult other agents, or run scripts. A file-write tool or literal shell write solely to save followup.tsv is permitted. Return only a brief completion notice, including any self-detected accuracy concerns; do not send separate messages.",
+  "strength_counts": {
+    "strong": 62,
+    "medium": 73,
+    "contrast": 11
+  },
+  "list_sha256": "526a6f62914ca94cfa2f453eda2f4972a93c2152ef149dc57f1a6844668110df",
+  "prompt_sha256": "de41ea9f47c3398ddb2ea3a2cd9b8fe841b53f19c17c753f29ba8d7c0abf541b",
+  "package_sha256": "daa2259961d8708c82e2c85ff5adbdaabbf27d885d1a7bbf32c97eba75017d6a",
+  "completed_at": "2026-10-05T16:23:05.230Z",
+  "seconds": 2402
+}
