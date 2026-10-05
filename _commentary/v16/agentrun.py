@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 import time
 from pathlib import Path
 
@@ -92,6 +93,7 @@ def parse(f: Path) -> dict:
     content lines), the tool calls with their results, the last stop reason, the model, the text blocks."""
     seen, usage = set(), {"input": 0, "cache_5m": 0, "cache_1h": 0, "cache_read": 0, "output": 0}
     calls, ids, texts, safety, stop, model, agent_id, bad = [], [], [], [], None, None, None, 0
+    handback = False  # a subagent ends its turn with the SubagentHandback tool call: that is its end_turn
     for line in f.read_text(encoding="utf-8").splitlines():
         try:
             ev = json.loads(line)
@@ -120,6 +122,9 @@ def parse(f: Path) -> dict:
                 if not isinstance(c, dict):
                     continue
                 if c.get("type") == "tool_use":
+                    if c.get("name") == "SubagentHandback":
+                        handback = True
+                        continue
                     calls.append({"id": c.get("id"), "name": c.get("name"), "input": c.get("input")})
                 elif c.get("type") == "text" and c.get("text"):
                     texts.append(c["text"])
@@ -135,7 +140,8 @@ def parse(f: Path) -> dict:
     rates = RATES.get(model or "")
     cost = round(sum(usage[k] * rates[k] for k in usage) / 1e6, 6) if rates else None
     return {"transcript": str(f), "agent_id": agent_id, "model": model, "usage_tokens": usage, "cost_usd": cost,
-            "stop_reason": stop, "num_messages": len(ids), "message_ids": ids, "tool_calls": calls, "texts": texts,
+            "stop_reason": stop, "handback": handback, "completed": handback or stop == "end_turn",
+            "num_messages": len(ids), "message_ids": ids, "tool_calls": calls, "texts": texts,
             "safety": safety, "unreadable_lines": bad}
 
 
@@ -152,8 +158,12 @@ def tool_use_outside_rule(d: Path, output: str, calls: list[dict]) -> list[str]:
             if name in ("Write", "Edit", "MultiEdit", "NotebookEdit") and not path.startswith(str(d)):
                 out.append(f"{name} {path}")
             elif name in ("Read", "Glob", "Grep") and ("enrichment/v2/out" in path or (
-                    "/zengin." in path and not path.startswith(str(d)))):
-                out.append(f"{name} {path}")
+                    ("/zengin." in path or "/ehlikitap." in path) and not path.startswith(str(d)))):
+                out.append(f"{name} {path}")  # another page's call directory, in any surah
+            elif name == "Bash":
+                cmd = str(inp.get("command", ""))
+                if "enrichment/v2/out" in cmd or re.search(r"/(zengin|ehlikitap)\.[^/\s]+", cmd.replace(str(d), "")):
+                    out.append(f"Bash {cmd[:160]}")
             elif name not in ("Read", "Glob", "Grep", "Write", "Edit", "MultiEdit", "NotebookEdit", "Bash"):
                 out.append(f"{name} {json.dumps(inp, ensure_ascii=False)[:120]}")
         else:
@@ -190,7 +200,9 @@ def finish(d: Path, output: str = "response.md") -> dict:
                                                  "ephemeral_1h_input_tokens": u["cache_1h"]},
                               "cache_read_input_tokens": u["cache_read"], "output_tokens": u["output"]},
                     "total_cost_usd": p["cost_usd"], "cost_basis": "transcript tokens x agentrun.RATES",
-                    "stop_reason": p["stop_reason"], "num_turns": p["num_messages"],
+                    # the hand-back is the subagent's end of turn; usage_row reads stop_reason as the CLI's
+                    "stop_reason": "end_turn" if p["handback"] else p["stop_reason"], "stop_reason_raw": p["stop_reason"],
+                    "completed": p["completed"], "num_turns": p["num_messages"],
                     "text_message_ids": p["message_ids"], "tool_calls": len(p["tool_calls"]),
                     "reply": "".join(p["texts"])[-500:]})
         if p["cost_usd"] is None:

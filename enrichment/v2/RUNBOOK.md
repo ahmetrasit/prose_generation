@@ -64,7 +64,7 @@ Run every command from the workspace root `/Volumes/aro/projects/prose_generatio
 
 | Surah | v16 surah base | v16 augment9 | Pack | Surah page | Ayah pages |
 |---|---|---|---|---|---|
-| S1 | ✓ | 7/7 (2026-10-04) | – | – | next (user's go given 2026-10-04 evening): pack, one page first, then six |
+| S1 | ✓ | 7/7 (2026-10-04) | ✓ | – | 1:1 accepted (53 blocks, $13.97); 1:2–1:7 wait for the user's word |
 | S87 | ✓ | 19/19 (2026-10-04) | – | – | ready when the user says so |
 | S100 | ✓ | 0/11 | ✓ (built before augment9; ayah bases are augment3) | **accepted** (Opus high, 63 blocks) | rebuild the pack first |
 | S103 | **missing** (v16 map and image prose never ran) | – | – | blocked | blocked |
@@ -232,6 +232,7 @@ python3 -B enrichment/v2/enrich.py finish --surah N --target surah
 |---|---|---|---|
 | S100 surah | 10,099 | $6.74 | 26 min |
 | S107 surah (trial, before the cost changes) | 7,585 | $7.46 | 25 min |
+| S1 ayah 1:1 (first ayah page; agent-spawned, cost from the transcript) | 6,255 | $13.97 | 45 min, 89 commands, 53 blocks |
 
 - **Rate:** about $0.67–0.98 per 1k base words.
 - **Surahs with heavy literature cost more.** S1 has about 3 MB of tafsir text, 7× S100. Expect the top of the
@@ -240,8 +241,8 @@ python3 -B enrichment/v2/enrich.py finish --surah N --target surah
 - **The ledger** (`work/ledger.jsonl`) has one row per call: model, effort, tokens, `cost_usd`, `base_words`,
   `base_sha256`, `pack_sha256`, `seconds`, status. `enrich.py build` reads it for its estimate, and adds what failed
   calls of the same kind cost.
-- **Ayah pages have no calibration yet.** `build` says so; estimate from the surah rate per 1k base words, run one
-  ayah page first, and calibrate from it.
+- **Ayah pages:** the first one (1:1) cost $2.23 per 1k base words, about 2.5x the surah rate: an ayah page carries
+  the whole literature of one ayah. `build` now estimates ayah pages from it.
 
 ## Corpus maintenance
 

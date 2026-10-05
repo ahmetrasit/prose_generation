@@ -79,7 +79,8 @@ def main() -> None:
         else:
             refuse(f"a v16 run uses only Read (prompt.md), Bash (the lookup) and Write ({output}); not {tool}")
     elif d.is_relative_to(ENRICH_WORK):
-        others = [x for x in d.parent.glob("zengin.*") if x.is_dir() and x != d]
+        others = [x for x in d.parent.parent.glob("s*/zengin.*") if x.is_dir() and x != d] \
+            + [x for x in d.parent.parent.glob("s*/ehlikitap.*") if x.is_dir() and x != d]  # any surah's call dirs
         if tool in ("Read", "Glob", "Grep"):
             if p and (p.is_relative_to(ENRICH_OUT) or any(p.is_relative_to(o) for o in others)):
                 refuse("an enrichment run reads neither enrichment/v2/out/ nor another call directory")

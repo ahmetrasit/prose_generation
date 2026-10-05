@@ -522,7 +522,7 @@ def finish_target(s: int, target: str, d: Path, trial: bool = False) -> dict:
     row = json.loads(st_path.read_text(encoding="utf-8"))
     t0 = time.mktime(time.strptime(row["started"], "%Y-%m-%dT%H:%M:%S"))
     obj = AR.finish(d, "annotations.jsonl")
-    row.update({"returncode": 0, "turn_completed": not obj.get("is_error") and obj.get("stop_reason") in (None, "end_turn"),
+    row.update({"returncode": 0, "turn_completed": not obj.get("is_error") and obj.get("completed", obj.get("stop_reason") in (None, "end_turn")),
                 "usage": obj.get("usage") or {}, "cost_usd": obj.get("total_cost_usd"), "cost_basis": obj.get("cost_basis"),
                 "num_turns": obj.get("num_turns"), "commands": obj.get("tool_calls", 0), "transcript": obj.get("transcript"),
                 "agent_id": obj.get("agent_id"), "stop_reason": obj.get("stop_reason"), "safety_stop": obj.get("safety_stop")})
