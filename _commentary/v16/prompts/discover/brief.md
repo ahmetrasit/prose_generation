@@ -25,17 +25,48 @@ Weigh at least:
 - neighbour: the ayat next to a passage you name, when the scene continues
   there.
 
-Be exhaustive: every ayah that stages the scene, anywhere in the Quran, and
-every ayah that carries the theme in other words. Preserve parallel, secondary
-and contrary readings; do not pick one preferred meaning. The explanation
-names, in English, what the ayah adds to this image, with the Arabic word
-that carries the link where a word is the link.
+Search exhaustively for connections specific to this image. Scene, root,
+theme, speaker, contrast, and neighbour are ways to discover candidates;
+each candidate still needs a concrete connection.
+
+For every included ayah, identify the particular detail or claim in this
+section, the corresponding detail in the ayah's own context, and what their
+relationship adds to the reader's understanding. Put this connection in
+short_explanation, in English, with the Arabic word where a word carries
+the link. Quote only wording belonging to the cited ayah; distinguish a
+root or dictionary form from an ayah quotation.
+
+Shared vocabulary, a broad religious theme, or the same speaker alone is
+insufficient. Do not introduce imagery into your explanation that neither
+passage supports. Preserve indirect, parallel, secondary, and contrary
+readings when you can state their specific connection; do not pick one
+preferred meaning. A shared word is not required. The whole surah supplies
+context; the selected image defines the scope.
+
+Include every candidate meeting this standard. There is no target list
+length. For a neighbour, name the linked ayah and explain what the neighbour
+completes; proximity alone does not qualify it or make it strong.
+
+Examples of the inclusion boundary for an image about a guide, the middle
+of the way, and losing the way (these are examples, not automatic candidates
+for other images):
+- Include 2:108: ضَلَّ سَوَاءَ السَّبِيلِ directly connects losing the way
+  to the section's middle-of-the-way detail.
+- Do not include 103:1 on the explanation that time measures "the repeated
+  ground on which the path is walked": that explanation invents a path
+  connection around the oath by time.
 
 Write one TSV row per ayah with exactly four tab-separated fields:
 
 strength	ayah_ref	basis	short_explanation
 
-Use only these strength labels: strong, medium, weak, contrast. Use only these
+Use only these strength labels:
+- strong: a direct, specific correspondence central to the image;
+- medium: a specific correspondence requiring an explicit interpretive bridge;
+- weak: a plausible, specific correspondence with an identified uncertainty;
+- contrast: a specific reversal or boundary that illuminates the image.
+
+Even a weak candidate must meet the inclusion standard. Use only these
 bases, joined by + when several hold: scene, root, theme, speaker, contrast,
 neighbour. Write the ayah reference as canonical surah:ayah, one ayah per row,
 no ranges: consecutive ayat get their own rows. Strongest first.

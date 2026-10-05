@@ -40,8 +40,9 @@ MODELS = {"luna": "gpt-6-luna", "terra": "gpt-5.6-terra"}
 EFFORT = "max"
 STRENGTH = {"strong", "medium", "weak", "contrast"}
 BASES = {"scene", "root", "theme", "speaker", "contrast", "neighbour"}
-FOLLOWUP = ("tell me if there are any missing ayah that should be in this list - do not read any files or run any "
-            "scripts. be comprehensive & exhaustive. append your findings to the TSV file following the same schema")
+FOLLOWUP = ("Review your remembered coverage for missing ayat under the same inclusion and grading rules. "
+            "Append only qualifying omissions, using the same TSV schema. Zero additions is a valid result. "
+            "Do not read files or run scripts; file writes needed to append the rows are permitted.")
 SECTION = re.compile(r"(?m)^## (.+)$")
 KAYNAK = re.compile(r"(?m)^Kaynaklar:\s*(.*)$")
 TIMEOUT = 3 * 3600
@@ -70,6 +71,13 @@ def sections(text: str) -> list[dict]:
 
 def surah_dir(s: int) -> Path:
     return HERE / "out" / f"s{s:03d}"
+
+
+def discovery_dir(s: int, run_tag: str = "") -> Path:
+    if run_tag and not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_-]*", run_tag):
+        raise ValueError("run tag must contain only letters, digits, underscores or hyphens")
+    base = surah_dir(s) / "discovery"
+    return base / run_tag if run_tag else base
 
 
 def package(s: int, sec: dict, q: dict[str, str]) -> str:
@@ -146,8 +154,8 @@ def stream_info(stdout: str) -> dict:
     return {"thread_id": tid, "usage": usage, "completed": completed, "commands": commands}
 
 
-def run(s: int, sec: dict, model: str, q: dict[str, str]) -> dict:
-    d = surah_dir(s) / "discovery" / f"sec{sec['k']}" / model
+def run(s: int, sec: dict, model: str, q: dict[str, str], run_tag: str = "") -> dict:
+    d = discovery_dir(s, run_tag) / f"sec{sec['k']}" / model
     if V.blocked(d):
         return {"sec": sec["k"], "model": model, "status": "skipped", "why": "started or finished before (never rerun)"}
     d.mkdir(parents=True, exist_ok=True)
@@ -191,7 +199,7 @@ def run(s: int, sec: dict, model: str, q: dict[str, str]) -> dict:
         row["turn1_rows"] = len(rows1)
     for b in bad1 if status == "error" else []:
         print(f"WARNING: S{s} sec{sec['k']} {model}: row outside the schema: {b}")
-    row.update({"status": status, "seconds": round(time.time() - t0)})
+    row.update({"status": status, "run_tag": run_tag, "seconds": round(time.time() - t0)})
     (d / "run.log.json").write_text(json.dumps(row, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     V.log(row)
     print(f"S{s} sec{sec['k']} {model}: {status} rows {row.get('turn2', {}).get('rows_total', len(rows1))} "
@@ -199,10 +207,10 @@ def run(s: int, sec: dict, model: str, q: dict[str, str]) -> dict:
     return row
 
 
-def merge(s: int, secs: list[dict], q: dict[str, str]) -> None:
+def merge(s: int, secs: list[dict], q: dict[str, str], run_tag: str = "") -> None:
     order = {"strong": 0, "medium": 1, "weak": 2, "contrast": 3}
     for sec in secs:
-        base = surah_dir(s) / "discovery" / f"sec{sec['k']}"
+        base = discovery_dir(s, run_tag) / f"sec{sec['k']}"
         per = {}
         for model in MODELS:
             f = base / model / "list.tsv"
@@ -239,11 +247,13 @@ def main() -> None:
     ap.add_argument("--surah", type=int, required=True)
     ap.add_argument("--sections", help="e.g. 1,3; default every section")
     ap.add_argument("--models", default=",".join(MODELS))
+    ap.add_argument("--run-tag", default="", help="isolated attempt directory; never overwrites an earlier run")
     ap.add_argument("--parallel", type=int, default=2)
     ap.add_argument("--go", action="store_true")
     ap.add_argument("--merge", action="store_true")
     ap.add_argument("--status", action="store_true")
     a = ap.parse_args()
+    root = discovery_dir(a.surah, a.run_tag)
     _, images, _ = B.surah_inputs(a.surah)
     text = images.read_text(encoding="utf-8")
     secs = sections(text)
@@ -257,7 +267,7 @@ def main() -> None:
             raise SystemExit(f"unknown model {m}; known: {', '.join(MODELS)}")
     if a.status or a.merge:
         for sec in secs:
-            base = surah_dir(a.surah) / "discovery" / f"sec{sec['k']}"
+            base = root / f"sec{sec['k']}"
             st = []
             for m in MODELS:
                 d = base / m
@@ -265,12 +275,12 @@ def main() -> None:
             print(f"S{a.surah} sec{sec['k']} '{sec['title']}' ({len(sec['ayat'])} ayat, {len(sec['roots'])} roots): "
                   + "; ".join(st) + ("; merged" if base.with_name(f"sec{sec['k']}.merged.tsv").exists() else ""))
         if a.merge:
-            merge(a.surah, secs, q)
+            merge(a.surah, secs, q, a.run_tag)
         return
     jobs = []
     for sec in secs:
         for m in models:
-            d = surah_dir(a.surah) / "discovery" / f"sec{sec['k']}" / m
+            d = root / f"sec{sec['k']}" / m
             if V.blocked(d):
                 print(f"NOTE: S{a.surah} sec{sec['k']} {m}: started or finished before, skipped (never rerun)")
                 continue
@@ -285,7 +295,7 @@ def main() -> None:
     if not a.go or not jobs:
         return
     with ThreadPoolExecutor(a.parallel) as ex:
-        results = list(ex.map(lambda j: run(a.surah, j[0], j[1], q), jobs))
+        results = list(ex.map(lambda j: run(a.surah, j[0], j[1], q, a.run_tag), jobs))
     bad = [r for r in results if r.get("status") not in ("ok",)]
     print(f"{len(results)} run(s): {len(results) - len(bad)} ok" + (f", {len(bad)} not ok: " + ", ".join(
         f"sec{r['sec'] if 'sec' in r else r['brief']} {r.get('model', '')} {r['status']}" for r in bad) if bad else ""))
