@@ -15,23 +15,30 @@
   ],
   "licence": "© Kubbealtı Vakfı, 'Her hakkı mahfuzdur'; freely searchable online; local research copy only.",
   "notes": "Headword match: exact (with diacritics) first, else accent-folded. Text = senses with literary examples and attributed authors (useful for Ottoman-era senses).",
-  "coverage": "26 entries",
-  "fetched_at": "2026-10-03T14:34:31-04:00",
+  "coverage": "36 entries",
+  "fetched_at": "2026-10-04T20:38:38-04:00",
   "files": {
     "raw/s/alem__p1.json": "2182cd6a6fb40b7104441aec9013c36c5ddd7b14392db008dd9829ea6dca815f",
     "raw/s/din__p1.json": "eb6ad505efbb672e21211bf4cde2b1f07b34407cc7f2ba9c63919bfcaf9b4b64",
+    "raw/s/dogru__p1.json": "b58b163bac9e17ee45ee7b5f2846ae0038b9a7ddf5618617d938193ae533c191",
     "raw/s/gaflet__p1.json": "f4104a8c576e54675a27b513fc75119d754951b272695df10cfe5e538001b551",
+    "raw/s/gazap__p1.json": "fbc6959858482a62791fd457696ba1cea14825c84ef9223b77a15eae5756e306",
     "raw/s/gogus__p1.json": "51465dbc184b99fe3e80d0a0a75c4b07434a12d2f60bec37da674d7b80125db2",
     "raw/s/gonul__p1.json": "ddbab633652403ec6dee08d056969ba6f671159efb7c07b69a5a11629d06aa75",
     "raw/s/hamd__p1.json": "ea04e39e9c617ca5a7ee40d08edef0e28d44c306145568f60b385a2ef7a26cf2",
+    "raw/s/hidayet__p1.json": "5ea6db821297de2fb3d533badb2cdaff08d5367813d037e2bf1bc0caa2591f1e",
     "raw/s/ibadet__p1.json": "8e49c8dc536b0cab58b8ff5e1704c25190ab54292f695ece261086a8523e0768",
     "raw/s/iman__p1.json": "8b9839f1c80830597e26e4a83d05f9cbc3e2a2af0c7ca0475380e894593b2614",
     "raw/s/kalp__p1.json": "43bf81e29efd79ca171da2ca25be899e9ea6a0db4862764af8937a05cc363013",
     "raw/s/kufur__p1.json": "b276e729e2ea95438095b4f422b0ee0c01779c1c0dcb42f5916e4394fa66f377",
+    "raw/s/kulluk__p1.json": "5cbdb40d37e7214849928ad3c6d1a6141726506f070091f9e81228fde709094a",
+    "raw/s/mahsus__p1.json": "1eb83ba67eab9997fe91c2dd93ac3dc194db151232057e7c02fd635f738d9116",
     "raw/s/maun__p1.json": "02ec028ca8d77908a376336dbcec68e7b7aab738a8a0a4be640b3e212a51ce71",
     "raw/s/miskin__p1.json": "2a4e04a68d8f0c93755913cc7ec3ef3b06884c0599cc911f02e5d59979f84ccb",
     "raw/s/namaz__p1.json": "124cafae889e6b7885aef35e4499050b2425e78b07e4cec5092503cd59a1e55b",
     "raw/s/rab__p1.json": "96ecfcb0eda5080d83c631b3d3f7fd72afb30eb29687452d1f1852d02b00682e",
+    "raw/s/rahim__p1.json": "7271567ed0b3e1a3fb59c76bf0ae7720323490b3a669bd7e1abfe79b16fcc677",
+    "raw/s/rahman__p1.json": "18d4e87968bb43a3169a1e618967973cb2fb8f5ea50855c6e9c1abf33209167c",
     "raw/s/rahmet__p1.json": "2d07b53abcf9d0687dfc9bd11206fa09f98f4fcfbfbf12e983ff8e1419385dd2",
     "raw/s/riya__p1.json": "caebadaf79a674ad8a7be186952ee1b7c373f6562d302ac052ef40e1995f2f64",
     "raw/s/riya__p2.json": "fdcdd5e6008240f00585451835ecec0512440648f37f0e43517d20b6a728deb5",
@@ -41,7 +48,9 @@
     "raw/s/sehv__p1.json": "a4f93154857f5545a60b0c486efd028e74cb14616b193e00f1180a6fb6e5a673",
     "raw/s/sirk__p1.json": "e73b9ce5aba649a5152f71194d9422ec67482dcb046a5bd366d7c711d991b824",
     "raw/s/takva__p1.json": "4a6e7b406a3aa5055e1b9ad0d91bfb2e54bc4dafee3116c54124a5fad3f7c32e",
+    "raw/s/yardim__p1.json": "920c0e677b9f7d1a19067f219daa43f7fac19c149b1aa9689d3331f2b9ecc50b",
     "raw/s/yetim__p1.json": "2a868603d734b888db7ce37f8f9b1c2c52e43ec28c56ef956350436dc8ad9bfc",
+    "raw/s/yol__p1.json": "68662dcae0cac5ae946ed949503880a36c7913c6c17c4ffc76e65e9596fa025f",
     "raw/s/zekat__p1.json": "66f5dbf4b0f725ea765c03dbfc1a153f2035317950be742982892ce3b04ccb24"
   },
   "fetch_log": "raw/_fetchlog.jsonl (url, status, sha256, date per raw file)",
@@ -131,6 +140,35 @@
     ],
     "alem": [
       "KUBBEALTI:alem"
+    ],
+    "nimet": "MISSING: ERROR RuntimeError: GET https://eski.lugatim.com/rest/s/nimet failed after 4 tries: HTTPSConnectionPool(host='eski.lugatim.com', port=443): Max retries exceeded with url: /rest/s/nimet (Caused by ConnectTimeoutError(<HTTPSConnection(host='eski.lugatim.com', port=443) at 0x1044b5f90>, 'Connection to eski.lugatim.com timed out. (connect timeout=60)'))",
+    "gazap": [
+      "KUBBEALTI:gazap"
+    ],
+    "rahman": [
+      "KUBBEALTI:rahman"
+    ],
+    "rahim": [
+      "KUBBEALTI:rahim"
+    ],
+    "kulluk": [
+      "KUBBEALTI:kulluk"
+    ],
+    "hidayet": [
+      "KUBBEALTI:hidâyet"
+    ],
+    "yardım": [
+      "KUBBEALTI:yardım"
+    ],
+    "mahsus": [
+      "KUBBEALTI:mahsus#1",
+      "KUBBEALTI:mahsus#2"
+    ],
+    "doğru": [
+      "KUBBEALTI:doğru"
+    ],
+    "yol": [
+      "KUBBEALTI:yol"
     ]
   }
 }
