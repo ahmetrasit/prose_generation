@@ -1,0 +1,116 @@
+{
+  "surah": 1,
+  "run_tag": "revision4",
+  "batch": 4,
+  "jobs": [
+    {
+      "section": 14,
+      "model": "terra",
+      "initial": 144,
+      "proposals": 80,
+      "added": 80,
+      "repeats": 0,
+      "final": 224,
+      "check": "findings",
+      "arabic_flags": 4,
+      "missing_existing_citations": [],
+      "usage_tokens": {
+        "input_tokens": 325073,
+        "cached_input_tokens": 274688,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 23059,
+        "reasoning_output_tokens": 12117,
+        "total_tokens": 348132
+      },
+      "cost_usd": 0,
+      "diagnostics": [],
+      "strengths": {
+        "strong": 195,
+        "contrast": 18,
+        "medium": 11
+      },
+      "validation_review.json": {
+        "scope": "Both turns; original initial review retained and follow-up sampled.",
+        "reviewed_findings": [
+          {
+            "line": 32,
+            "ref": "26:20",
+            "arabic": "ضَالِّينَ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Note uses source wording, root/lemma, attached-word excerpt, or ordinary spelling. This flag alone does not establish a quotation error; lexical derivation is not independently verified."
+          },
+          {
+            "line": 43,
+            "ref": "12:6",
+            "arabic": "نعمة",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Note uses source wording, root/lemma, attached-word excerpt, or ordinary spelling. This flag alone does not establish a quotation error; lexical derivation is not independently verified."
+          },
+          {
+            "line": 103,
+            "ref": "6:77",
+            "arabic": "ضَالِّينَ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Note uses source wording, root/lemma, attached-word excerpt, or ordinary spelling. This flag alone does not establish a quotation error; lexical derivation is not independently verified."
+          },
+          {
+            "line": 136,
+            "ref": "16:121",
+            "arabic": "نعمة",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Note uses source wording, root/lemma, attached-word excerpt, or ordinary spelling. This flag alone does not establish a quotation error; lexical derivation is not independently verified."
+          }
+        ],
+        "confirmed_wording_issues": 0,
+        "semantic_findings": [
+          {
+            "ref": "11:85",
+            "assessment": "Note attributes encompassing Day punishment to this ayah; that warning occurs in 11:84. 11:85 gives full measure/weight and no defrauding/corruption. Boundary conflation must not enter final prose."
+          }
+        ],
+        "sampled_refs": [
+          "36:61",
+          "83:4",
+          "87:5"
+        ],
+        "sample_assessment": "First, middle and last row compared with canonical Arabic; findings listed above. Scene relevance and grade strength remain judgments.",
+        "limits": "Initial review retained; three follow-up rows sampled against canonical Arabic, plus wording noticed during tool audit. Not exhaustive semantic, etymological or relevance validation. Raw output unchanged.",
+        "followup_sampled_refs": [
+          "22:26",
+          "26:181",
+          "30:28"
+        ],
+        "agent_accuracy_concern": "Passage continuations graded medium."
+      }
+    }
+  ],
+  "sections": [
+    {
+      "section": 14,
+      "union": 315,
+      "overlap": 109,
+      "tiers": {
+        "strong": 245,
+        "medium": 61,
+        "contrast": 8,
+        "weak": 1
+      },
+      "dry_handoff": {
+        "passages": 340,
+        "discovery_candidates": 315,
+        "context_neighbours": 25,
+        "input_tokens_estimate": 102792,
+        "estimate_usd": 4.19
+      }
+    }
+  ],
+  "opus_started": false
+}

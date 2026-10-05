@@ -1,8 +1,8 @@
 {
   "surah": 1,
   "run_tag": "revision4",
-  "time": "2026-10-05T12:50:41.046293+00:00",
-  "state": "discovery_in_progress",
+  "time": "2026-10-05T14:05:08.073613+00:00",
+  "state": "discovery_complete",
   "jobs": [
     {
       "section": 4,
@@ -63,10 +63,10 @@
     {
       "section": 7,
       "model": "terra",
-      "completed_turns": 1,
-      "state": "followup_running",
+      "completed_turns": 2,
+      "state": "ok",
       "snapshot": true,
-      "check": null
+      "check": "findings"
     },
     {
       "section": 8,
@@ -79,10 +79,10 @@
     {
       "section": 8,
       "model": "terra",
-      "completed_turns": 1,
-      "state": "followup_running",
+      "completed_turns": 2,
+      "state": "ok",
       "snapshot": true,
-      "check": null
+      "check": "findings"
     },
     {
       "section": 9,
@@ -95,42 +95,42 @@
     {
       "section": 9,
       "model": "terra",
-      "completed_turns": 1,
-      "state": "followup_running",
+      "completed_turns": 2,
+      "state": "ok",
       "snapshot": true,
-      "check": null
+      "check": "findings"
     },
     {
       "section": 10,
       "model": "luna",
-      "completed_turns": 1,
-      "state": "followup_running",
+      "completed_turns": 2,
+      "state": "ok",
       "snapshot": true,
-      "check": null
+      "check": "findings"
     },
     {
       "section": 10,
       "model": "terra",
-      "completed_turns": 1,
-      "state": "followup_running",
+      "completed_turns": 2,
+      "state": "ok",
       "snapshot": true,
-      "check": null
+      "check": "findings"
     },
     {
       "section": 11,
       "model": "luna",
-      "completed_turns": 1,
-      "state": "followup_running",
+      "completed_turns": 2,
+      "state": "ok",
       "snapshot": true,
-      "check": null
+      "check": "findings"
     },
     {
       "section": 11,
       "model": "terra",
-      "completed_turns": 1,
-      "state": "followup_running",
+      "completed_turns": 2,
+      "state": "ok",
       "snapshot": true,
-      "check": null
+      "check": "findings"
     },
     {
       "section": 12,
@@ -143,26 +143,26 @@
     {
       "section": 12,
       "model": "terra",
-      "completed_turns": 1,
-      "state": "followup_running",
+      "completed_turns": 2,
+      "state": "ok",
       "snapshot": true,
-      "check": null
+      "check": "findings"
     },
     {
       "section": 13,
       "model": "luna",
-      "completed_turns": 1,
-      "state": "followup_running",
+      "completed_turns": 2,
+      "state": "ok",
       "snapshot": true,
-      "check": null
+      "check": "findings"
     },
     {
       "section": 13,
       "model": "terra",
-      "completed_turns": 1,
-      "state": "followup_running",
+      "completed_turns": 2,
+      "state": "ok",
       "snapshot": true,
-      "check": null
+      "check": "findings"
     },
     {
       "section": 14,
@@ -175,14 +175,14 @@
     {
       "section": 14,
       "model": "terra",
-      "completed_turns": 1,
-      "state": "followup_running",
+      "completed_turns": 2,
+      "state": "ok",
       "snapshot": true,
-      "check": null
+      "check": "findings"
     }
   ],
   "blocked_jobs": [],
   "opus_started": false,
-  "policy": "Two exact repairs approved by user and applied with raw files/failure logs retained. Eleven same-session follow-ups sent; no Opus.",
+  "policy": "All selected discovery jobs finished and reviewed. Two explicitly approved repairs preserved with audit trails. Opus excluded.",
   "latest_checks": "checks2.json"
 }

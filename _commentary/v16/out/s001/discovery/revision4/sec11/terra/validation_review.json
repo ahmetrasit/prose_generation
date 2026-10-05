@@ -1,0 +1,43 @@
+{
+  "scope": "Both turns; original initial review retained and follow-up sampled.",
+  "reviewed_findings": [
+    {
+      "line": 1,
+      "ref": "2:45",
+      "arabic": "نَسْتَعِينُ",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "assessment": "Note uses source wording, root/lemma, attached-word excerpt, or ordinary spelling. This flag alone does not establish a quotation error; lexical derivation is not independently verified."
+    },
+    {
+      "line": 17,
+      "ref": "5:2",
+      "arabic": "عون",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "assessment": "Note uses source wording, root/lemma, attached-word excerpt, or ordinary spelling. This flag alone does not establish a quotation error; lexical derivation is not independently verified."
+    }
+  ],
+  "confirmed_wording_issues": 0,
+  "semantic_findings": [
+    {
+      "ref": "2:38",
+      "assessment": "Note incorrectly says neither go astray nor grieve. Ayah says no fear and no grief; going astray belongs to 20:123. Candidate relevance remains, note needs correction in judgment."
+    }
+  ],
+  "sampled_refs": [
+    "2:45",
+    "20:25",
+    "94:6"
+  ],
+  "sample_assessment": "First, middle and last row compared with canonical Arabic; findings listed above. Scene relevance and grade strength remain judgments.",
+  "limits": "Initial review retained; three follow-up rows sampled against canonical Arabic, plus wording noticed during tool audit. Not exhaustive semantic, etymological or relevance validation. Raw output unchanged.",
+  "followup_sampled_refs": [
+    "2:38",
+    "14:22",
+    "95:5"
+  ],
+  "agent_accuracy_concern": "2:259 deliberately weak; completion message said 46 new proposals but file contains 47."
+}
