@@ -30,7 +30,7 @@ def prepare(d, text, started, kind='enrich', output='annotations.jsonl', lookup=
     (d/'prompt.md').write_text(text)
     prompt = (f'{MARK} {d}\n\nRead {d/"prompt.md"} completely and follow it. '
               'Use only the Bible-owned inputs and tools named there. Write only in your call directory. '
-              f'Write records to {d/output} and gaps.json beside it. '
+              f'Write records to {d/output}, verdicts.jsonl and gaps.json beside it. '
               'If no evidence qualifies, create an empty annotations.jsonl and explain why in gaps.json. '
               'Do not spawn agents or call models. Reply briefly after saving the files.\n')
     (d/'spawn.md').write_text(prompt)
@@ -60,7 +60,7 @@ def allowed_command(command, d):
     if script.name=='corpus.py':
         if tail[0]=='--intertext': tail=tail[1:]
         return bool(tail) and tail[0] in ('sources','get','ayah','search')
-    if script.name not in ('validate.py','render.py'): return False
+    if script.name not in ('validate.py','render.py','verdicts.py'): return False
     paths={}
     for key in ('--annotations','--out','--report'):
         if key in tail:
@@ -77,7 +77,10 @@ def tool_use_outside_rule(d, output, calls):
     started=json.loads((d/'started.json').read_text())
     pack=HERE/'work'/f's{started["surah"]:03d}'/'pack'
     exact={HERE/'SCHEMA_BIBLE_CARD.md',HERE/'SCHEMA.md',d/'prompt.md'}
-    exact.update(ROOT/p for p in started['bible_inputs'])
+    # Frozen provenance also contains native reader transcripts; those are for
+    # operator auditing, not extra context for the independent page author.
+    exact.update(ROOT/p for p in started['bible_inputs']
+                 if Path(p).name=='prefetch.json' or Path(p).name.endswith(('.merged.tsv','.merged.json')))
     exact={p.resolve() for p in exact}
     out=[]
     for call in calls:

@@ -27,6 +27,10 @@ def session_for(d):
 def events_for(d):
     session = session_for(d)
     events = [json.loads(line) for line in Path(session["transcript"]).read_text().splitlines()]
+    start = json.loads((d/'started.json').read_text())
+    meta = next((e.get('payload',{}) for e in events if e.get('type') == 'session_meta'),{})
+    if (meta.get('id'),meta.get('agent_path')) != (session['agent_id'],start['agent_path']):
+        raise ValueError('cached transcript is not the selected native session')
     done = [e for e in events if e.get("type") == "event_msg" and
             e.get("payload", {}).get("type") in ("task_complete", "task_completed")]
     contexts = [e["payload"] for e in events if e.get("type") == "turn_context"]

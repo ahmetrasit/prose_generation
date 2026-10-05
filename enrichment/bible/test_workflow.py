@@ -8,6 +8,7 @@ import csv
 import io
 import json
 from pathlib import Path
+import sqlite3
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -15,6 +16,7 @@ from xml.etree import ElementTree as ET
 
 from enrichment.bible import agentrun as AR, blocks as B, corpus as C
 from enrichment.bible import discovery as D, discovery_native as N, enrich as E
+from enrichment.bible import check_discovery as DC, discovery_repair as DR, discovery_report as REPORT, verdicts as VR
 from enrichment.bible import intertext as I, pack as P, render as R, validate as V
 from enrichment.bible.fetch import bible_text as BT, bible_sefaria as SF, ref_common as RC
 
@@ -89,12 +91,12 @@ class BibleWorkflowTest(unittest.TestCase):
                          bag='benzerlik', tarihleme='kuran_oncesi', nusha='masoretik'), **changes)
 
     def handoff(self, target='1:1'):
-        root=D.discovery_dir(1,'test')
-        root.mkdir(parents=True,exist_ok=True)
-        path=root/(target.replace(':','_')+'.merged.tsv')
-        base=R.target_page(1,target)[2]
-        D.write_handoff(path,[],base['sha256'],{})
-        save(root.parent/'selected.json',{target:str(path.relative_to(root.parent))})
+        targets=[t for t in D.targets_of(1) if t['target']==target or (target=='surah' and t['target'].startswith('sec'))]
+        for t in targets:
+            for model in D.MODELS: self.completed_discovery(t,model,rows='')
+        with redirect_stdout(io.StringIO()): paths=D.merge(1,targets,'test')
+        path=next(p for p in paths if p.name==target.replace(':','_')+'.merged.tsv')
+        root=path.parent
         save(root/'prefetch.json',dict(complete=True,lists={path.name:C.sha256(path)},candidates=[],source_hashes={}))
         return path
 
@@ -103,22 +105,43 @@ class BibleWorkflowTest(unittest.TestCase):
         d=E.call_dir(1,'1:1')
         d.mkdir(parents=True)
         (d/'annotations.jsonl').write_text(''.join(json.dumps(r,ensure_ascii=False)+'\n' for r in records))
+        save(d/'gaps.json',dict(missing_sources=[],not_found=[],unresolved=[]))
+        grouped={}
+        for r in records: grouped.setdefault(r['kaynak'],[]).append(r)
+        verdicts=[dict(connection_id=None,origin='research',ref=loc,status='accepted',reason='Verified connection.',
+                       paragraphs=[r['paragraf'] for r in rs],evidence=loc.split('|'),annotations=[r['id'] for r in rs])
+                  for loc,rs in grouped.items()]
+        (d/'verdicts.jsonl').write_text(''.join(json.dumps(r)+'\n' for r in verdicts))
+        self.tool_gets(d,{loc for r in records for loc in r['kaynak'].split('|')})
         inputs=E.bible_inputs(1,'1:1')
         started=dict(bible_inputs=inputs,base_sha256=E.sha(AYAH),
                      pack_sha256=C.sha256(E.wd(1)/'pack/pack.json'))
         return d,started
 
-    def completed_discovery(self,t,model='luna',rows=ROW):
-        d=D.tdir(1,t['target'],'test')/model
+    def tool_gets(self,d,refs):
+        save(d/'tool_calls.json',[dict(name='Bash',input=dict(command=f'python3 {self.home}/corpus.py get {ref}'),
+                                      result=f'== {ref}\nOriginal source text\n',is_error=False) for ref in refs])
+
+    def completed_discovery(self,t,model='luna',rows=ROW,followup='',run_tag='test'):
+        d=D.tdir(1,t['target'],run_tag)/model
         d.mkdir(parents=True,exist_ok=True)
-        for name,text in [('list.tsv',rows),('turn1.list.tsv',rows),('prompt.md','brief'),('package.md',t['prose'])]:
+        for name,text in [('list.tsv',rows),('turn1.list.tsv',rows),('prompt.md','brief'),('package.md',t['prose']),
+                          ('followup.tsv',followup),('spawn.md','Independent inputs only'),('followup.txt','Exact followup')]:
             (d/name).write_text(text)
-        log=dict(status='ok',append_only=True,tool_audit_reviewed=True,turn2=dict(completed=True),
-                 base_sha256=t['base_sha256'],target=t['target'],runner='agent',model=D.MODELS[model],effort=D.EFFORT)
-        for filename,field in [('list.tsv','list_sha256'),('turn1.list.tsv','turn1_sha256'),
+        inp={k:t[k] for k in ('target','base_path','base_sha256','inputs')}
+        save(d/'input.json',inp)
+        start=dict(**inp,runner='agent',model=D.MODELS[model],effort=D.EFFORT,protocol=D.PROTOCOL,
+                   run_tag=run_tag,agent_path=f'/root/test_{model}')
+        for filename,field in [('input.json','input_sha256'),('spawn.md','spawn_sha256'),('followup.txt','followup_text_sha256'),
                                ('prompt.md','prompt_sha256'),('package.md','package_sha256')]:
-            log[field]=C.sha256(d/filename)
-        save(d/'run.log.json',log)
+            start[field]=C.sha256(d/filename)
+        save(d/'started.json',start)
+        save(d/'turn1.json',dict(rows=len(rows.splitlines()),completed_at='1',sha256=C.sha256(d/'turn1.list.tsv')))
+        session=dict(agent_path=start['agent_path'],agent_id=f'test_{model}',transcript='fixture')
+        save(d/'session.json',session);save(d/'tool_calls.json',[])
+        done=[dict(timestamp='1'),dict(timestamp='2')]
+        contexts=[dict(model=D.MODELS[model],effort=D.EFFORT)]*2
+        N.finish_run(d,start,session,[],done,contexts,{},[dict(matches=True,encrypted=False)],[])
         return d
 
     def test_hebrew_and_greek_search_use_original_text(self):
@@ -194,11 +217,12 @@ class BibleWorkflowTest(unittest.TestCase):
 
     def test_failed_or_modified_discovery_cannot_merge(self):
         t=D.targets_of(1)[0]; d=self.completed_discovery(t)
+        self.completed_discovery(t,'terra')
         log=json.loads((d/'run.log.json').read_text());log['status']='error';save(d/'run.log.json',log)
-        with self.assertRaisesRegex(ValueError,'completed'): D.merge(1,[t],'test',['luna'])
+        with self.assertRaisesRegex(ValueError,'completed'): D.merge(1,[t],'test')
         self.completed_discovery(t)
         (d/'list.tsv').write_text('')
-        with self.assertRaisesRegex(ValueError,'changed'): D.merge(1,[t],'test',['luna'])
+        with self.assertRaisesRegex(ValueError,'changed'): D.merge(1,[t],'test')
         self.assertFalse((d.parent.parent/'1_1.merged.tsv').exists())
 
     def test_sections_aggregate_to_surah_handoff(self):
@@ -215,7 +239,8 @@ class BibleWorkflowTest(unittest.TestCase):
     def test_discovery_merge_keeps_multiple_link_kinds(self):
         t=D.targets_of(1)[0]
         self.completed_discovery(t,rows=ROW+ROW.replace('paralel','motif').replace('creation','formula'))
-        with redirect_stdout(io.StringIO()): paths=D.merge(1,[t],'test',['luna'])
+        self.completed_discovery(t,'terra',rows='')
+        with redirect_stdout(io.StringIO()): paths=D.merge(1,[t],'test')
         row=next(csv.DictReader(io.StringIO(paths[0].read_text()),delimiter='\t'))
         self.assertEqual(row['kinds'],'motif|paralel')
         self.assertEqual(len(json.loads(row['evidence'])),2)
@@ -250,8 +275,11 @@ class BibleWorkflowTest(unittest.TestCase):
         result=E.finish(1,'1:1',d,started=start)
         self.assertFalse(result['ok']);self.assertEqual(result['dropped'],1)
         (d/'annotations.jsonl').write_text('')
+        (d/'verdicts.jsonl').write_text('')
+        save(d/'tool_calls.json',[])
         self.assertFalse(E.finish(1,'1:1',d,started=start)['ok'])
-        save(d/'gaps.json',dict(no_findings_reason='No verified parallel in the checked texts.'))
+        save(d/'gaps.json',dict(missing_sources=[],not_found=[],unresolved=[],
+                                no_findings_reason='No verified parallel in the checked texts.'))
         self.assertTrue(E.finish(1,'1:1',d,started=start)['ok'])
 
     def test_accepted_snapshot_survives_raw_edits_but_rejects_tampering(self):
@@ -352,6 +380,296 @@ class BibleWorkflowTest(unittest.TestCase):
             self.assertEqual(src.fetch('url','retry.json',quiet=True)[0],200)
             self.assertEqual(src.fetch('url','retry.json',quiet=True)[0],200)
         self.assertEqual(fetch.call_count,2)
+
+    def test_discovery_package_preserves_lexical_members_and_scope(self):
+        ayah,sec1,sec2=D.targets_of(1)
+        package=D.package(1,ayah,{'1:1':'بسم الله'})
+        self.assertIn('ح م د\tB1\tBirinci imge',package)
+        self.assertIn('ح م د\tB2\tİkinci imge',package)
+        self.assertIn('Önceden eklenmiş',package)
+        self.assertEqual([m['branch'] for m in sec1['members']],['B1'])
+        self.assertEqual([m['branch'] for m in sec2['members']],['B2'])
+
+    def test_single_reader_merge_is_refused(self):
+        t=D.targets_of(1)[0];self.completed_discovery(t)
+        with self.assertRaisesRegex(ValueError,'both Luna and Terra'): D.merge(1,[t],'test',['luna'])
+        with self.assertRaises(FileNotFoundError): D.merge(1,[t],'test')
+
+    def test_distinct_reasons_survive_repeats_and_receive_separate_ids(self):
+        t=D.targets_of(1)[0]
+        second=ROW.replace('paralel','motif').replace('A distinct narrative reason','A formula connection')
+        d=self.completed_discovery(t,followup=ROW.replace('strong','weak')+second+second)
+        self.completed_discovery(t,'terra',rows=second)
+        cons=json.loads((d/'consolidation.json').read_text())
+        self.assertEqual(cons['raw_proposal_rows'],3)
+        self.assertEqual(cons['unique_additions'],1)
+        self.assertEqual([r['retained']['phase'] for r in cons['repeated_proposals']],[1,2])
+        self.assertEqual((d/'list.tsv').read_text(),ROW+second)
+        with redirect_stdout(io.StringIO()): path=D.merge(1,[t],'test')[0]
+        expected=VR.candidates(path)
+        self.assertEqual(len(expected),2)
+        meta=json.loads(path.with_suffix('.json').read_text())
+        self.assertEqual(len(meta['findings'][0]['repeats']),2)
+
+    def test_raw_followup_and_review_hashes_are_rechecked_at_merge(self):
+        t=D.targets_of(1)[0]
+        d=self.completed_discovery(t);self.completed_discovery(t,'terra')
+        for filename in ('followup.tsv','validation.json','followup.txt','session.events.jsonl'):
+            with self.subTest(filename=filename):
+                original=(d/filename).read_bytes()
+                (d/filename).write_bytes(original+b'\n')
+                with self.assertRaisesRegex(ValueError,'changed'): D.merge(1,[t],'test')
+                (d/filename).write_bytes(original)
+
+    def test_changed_lexical_source_blocks_discovery(self):
+        t=D.targets_of(1)[0];d=self.completed_discovery(t)
+        path=E.wd(1)/'pack/base/surah.md';path.write_text(SURAH+'\n')
+        with self.assertRaisesRegex(ValueError,'inputs changed'): D.checked_run(d,t)
+
+    def test_legacy_run_is_not_silently_upgraded(self):
+        t=D.targets_of(1)[0];d=self.completed_discovery(t)
+        log=json.loads((d/'run.log.json').read_text());log.pop('protocol');save(d/'run.log.json',log)
+        with self.assertRaisesRegex(ValueError,'legacy'): D.checked_run(d,t)
+
+    def test_missing_followup_is_not_an_empty_success(self):
+        t=D.targets_of(1)[0];d=self.completed_discovery(t)
+        (d/'followup.tsv').unlink()
+        with self.assertRaisesRegex(ValueError,'missing deliverable'): N.consolidation_plan(d)
+
+    def test_wording_review_checks_hebrew_greek_and_qere_separately(self):
+        with closing(sqlite3.connect(C.INDEX)) as con:
+            con.execute('UPDATE seg SET extra=? WHERE seg=?',
+                        (json.dumps(dict(variant_notes=[dict(after_word=1,readings=[dict(text='וידי',type='qere')])])),
+                         'WLC:Gen.1.1'))
+            con.commit()
+        path=self.root/'wording.tsv'
+        path.write_text(ROW.replace('A distinct narrative reason','בראשית ברא; qere וידי')+
+                        'medium\tincil\tmotif\tSBLGNT:Matt.1.1\tformula\tβιβλος γενεσεως; uncertain πατηρ\n')
+        report=DC.check(path)
+        self.assertEqual(report['schema_errors'],[])
+        self.assertEqual(len(report['findings']),2)
+        self.assertEqual(report['findings'][0]['variant_matches'][0]['reading']['type'],'qere')
+        self.assertEqual(report['findings'][1]['language'],'Greek')
+        self.assertIn('no semantic',report['limits'])
+
+    def test_explicit_mixed_attempt_selection_preserves_provenance(self):
+        targets=[t for t in D.targets_of(1) if t['target'].startswith('sec')]
+        attempts={'sec1':'first','sec2':'second'}
+        for t in targets:
+            for model in D.MODELS: self.completed_discovery(t,model,run_tag=attempts[t['target']])
+        with redirect_stdout(io.StringIO()): paths=D.merge(1,targets,'combined',attempts=attempts)
+        path=next(p for p in paths if p.name=='surah.merged.tsv')
+        self.assertTrue(D.verify_handoff(path,1,'surah'))
+        meta=json.loads(path.with_suffix('.json').read_text())
+        self.assertEqual({r['run_tag'] for r in meta['provenance']},{'first','second'})
+
+    def test_report_surfaces_partial_runs_and_does_not_launch_or_merge(self):
+        t=D.targets_of(1)[0]
+        self.completed_discovery(t,followup=ROW)
+        bad=self.completed_discovery(t,'terra',followup=ROW.replace('Gen.1.1','Gen.1.999'))
+        report=REPORT.report(1,'test',[t])
+        self.assertFalse(report['ready_for_merge'])
+        self.assertEqual(report['jobs'][0]['initial'],1)
+        self.assertEqual(len(report['jobs'][0]['repeats']),1)
+        self.assertEqual(report['jobs'][1]['status'],'partial')
+        self.assertIn('unknown verse',report['jobs'][1]['consolidation_error'])
+        self.assertFalse(report['opus_started']);self.assertEqual(report['model_calls'],0)
+        self.assertFalse((bad.parent.parent/'1_1.merged.tsv').exists())
+
+    def repair_fixture(self):
+        t=D.targets_of(1)[0]
+        raw=ROW.replace('Gen.1.1','Gen.1.999')
+        d=self.completed_discovery(t,followup=raw)
+        changes=[dict(line=1,before=raw.strip().split('\t'),after=ROW.strip().split('\t'),
+                      reason='Reference typo; the preserved explanation names the available verse.')]
+        return t,d,raw,changes
+
+    def test_recorded_repair_preserves_failed_run_raw_grades_and_first_turn(self):
+        t,d,raw,changes=self.repair_fixture()
+        failed=(d/'run.log.json').read_bytes()
+        DR.propose(d,changes)
+        with self.assertRaisesRegex(ValueError,'approval'): DR.accept(d,'')
+        DR.accept(d,'User approved the displayed one-line reference correction.')
+        self.assertEqual((d/'followup.tsv').read_text(),raw)
+        self.assertEqual((d/'turn1.list.tsv').read_text(),ROW)
+        self.assertEqual((d/'run.failed.log.json').read_bytes(),failed)
+        self.assertEqual(len(D.checked_run(d,t)),1)
+        log=json.loads((d/'run.log.json').read_text())
+        self.assertEqual(log['status'],'accepted')
+        self.assertEqual(log['consolidation']['repeated_proposals'][0]['retained']['phase'],1)
+        self.assertEqual(log['repair']['model_calls'],0)
+        (d/'run.failed.log.json').write_bytes(failed+b'\n')
+        with self.assertRaisesRegex(ValueError,'changed'): D.checked_run(d,t)
+
+    def test_repair_cannot_regrade_rewrite_or_hide_protocol_failures(self):
+        t,d,raw,changes=self.repair_fixture()
+        for field,value in ((0,'weak'),(5,'A newly invented explanation')):
+            candidate=json.loads(json.dumps(changes));candidate[0]['after'][field]=value
+            with self.assertRaisesRegex(ValueError,'preserve'): DR.repaired_bytes(raw.encode(),candidate)
+        log=json.loads((d/'run.log.json').read_text());log['protocol_findings']=['retrieval during follow-up']
+        save(d/'run.log.json',log)
+        with self.assertRaisesRegex(ValueError,'protocol'): DR.propose(d,changes)
+
+    def test_unrecorded_proposed_repair_change_is_refused(self):
+        _,d,_,changes=self.repair_fixture()
+        DR.propose(d,changes)
+        (d/'followup.repair.proposed.tsv').write_text(ROW.replace('strong','weak'))
+        with self.assertRaisesRegex(ValueError,'unrecorded'): DR.accept(d,'Approval of original proposal')
+        self.assertFalse((d/'run.failed.log.json').exists())
+
+    def test_changed_followup_message_blocks_finish_provenance(self):
+        t=D.targets_of(1)[0];d=self.completed_discovery(t)
+        (d/'followup.txt').write_text('Unapproved extra instructions')
+        start=json.loads((d/'started.json').read_text())
+        self.assertFalse(N.inputs_unchanged(d,start))
+
+    def discovered_page(self):
+        d,start=self.call([self.record()])
+        t=D.targets_of(1)[0]
+        for model in D.MODELS: self.completed_discovery(t,model,rows=ROW)
+        with redirect_stdout(io.StringIO()): path=D.merge(1,[t],'test')[0]
+        save(path.parent/'prefetch.json',dict(complete=True,lists={path.name:C.sha256(path)},candidates=[],source_hashes={}))
+        start['bible_inputs']=E.bible_inputs(1,'1:1')
+        cid=next(iter(VR.candidates(path)))
+        verdict=dict(connection_id=cid,ref='WLC:Gen.1.1',status='accepted',reason='Specific original-text connection.',
+                     paragraphs=[1],evidence=['WLC:Gen.1.1'],annotations=[self.record()['id']])
+        (d/'verdicts.jsonl').write_text(json.dumps(verdict)+'\n')
+        return d,start,path,verdict
+
+    def test_candidate_verdict_and_evidence_are_required_for_acceptance(self):
+        d,start,path,verdict=self.discovered_page()
+        (d/'verdicts.jsonl').write_text('')
+        result=E.finish(1,'1:1',d,started=start)
+        self.assertFalse(result['ok']);self.assertIn('1 discovery connections have no verdict',result['verdict_errors'])
+        (d/'verdicts.jsonl').write_text(json.dumps(verdict)+'\n')
+        self.assertTrue(E.finish(1,'1:1',d,started=start)['ok'])
+
+    def test_unopened_or_translation_only_evidence_cannot_verify_candidate(self):
+        d,start,path,verdict=self.discovered_page()
+        save(d/'tool_calls.json',[])
+        report=VR.check(d,path,AYAH,[self.record()])
+        self.assertTrue(any('not opened' in e for e in report['errors']))
+        self.assertTrue(VR.check(d,path,AYAH,[self.record()],require_opened=False)['ok'])
+        verdict['evidence']=['KJV:Gen.1.1']
+        self.tool_gets(d,verdict['evidence'])
+        (d/'verdicts.jsonl').write_text(json.dumps(verdict)+'\n')
+        report=VR.check(d,path,AYAH,[self.record()])
+        self.assertTrue(any('original-language' in e for e in report['errors']))
+
+    def test_lookup_commands_without_shown_text_do_not_count_as_evidence(self):
+        refs,opened=VR.lookup_audit([dict(name='Bash',input=dict(command='python3 enrichment/bible/corpus.py get WLC:Gen.1.1'),
+                                       result='NOTE: 1 segment not shown: WLC:Gen.1.1(80)')])
+        self.assertEqual(refs,{'WLC:Gen.1.1'});self.assertEqual(opened,set())
+        _,opened=VR.lookup_audit([dict(name='Bash',input=dict(command='python3 enrichment/bible/corpus.py get WLC:Gen.1.1'),
+                                     result='== WLC:Gen.1.1: NOT FOUND\n')])
+        self.assertEqual(opened,set())
+
+    def test_every_extra_lookup_needs_a_verdict(self):
+        d,_,path,_=self.discovered_page()
+        self.tool_gets(d,['WLC:Gen.1.1','SBLGNT:Matt.1.1'])
+        report=VR.check(d,path,AYAH,[self.record()])
+        self.assertEqual(report['lookups_without_verdicts'],['SBLGNT:Matt.1.1'])
+        extra=dict(connection_id=None,origin='research',ref='SBLGNT:Matt.1.1',status='rejected',
+                   reason='Context only, no independent connection.',paragraphs=[],evidence=['SBLGNT:Matt.1.1'],annotations=[])
+        with (d/'verdicts.jsonl').open('a') as stream: stream.write(json.dumps(extra)+'\n')
+        self.assertTrue(VR.check(d,path,AYAH,[self.record()])['ok'])
+
+    def test_unresolved_verdict_requires_a_specific_gap(self):
+        d,start,path,verdict=self.discovered_page()
+        verdict.update(status='unresolved',annotations=[],evidence=[],paragraphs=[],reason='Witness question remains unresolved.')
+        (d/'annotations.jsonl').write_text('')
+        (d/'verdicts.jsonl').write_text(json.dumps(verdict)+'\n')
+        self.assertFalse(VR.check(d,path,AYAH,[])['ok'])
+        save(d/'gaps.json',dict(missing_sources=[],not_found=[],unresolved=['WLC:Gen.1.1: witness question'],
+                                no_findings_reason='The candidate remains unresolved.'))
+        self.assertTrue(E.finish(1,'1:1',d,started=start)['ok'])
+
+    def test_verdict_cannot_point_to_a_dropped_annotation(self):
+        d,_,path,_=self.discovered_page()
+        report=VR.check(d,path,AYAH,[])
+        self.assertTrue(any('absent or dropped' in e for e in report['errors']))
+
+    def test_empty_page_must_still_judge_all_candidates(self):
+        d,start,path,verdict=self.discovered_page()
+        (d/'annotations.jsonl').write_text('')
+        (d/'verdicts.jsonl').write_text('')
+        save(d/'gaps.json',dict(missing_sources=[],not_found=[],unresolved=[],no_findings_reason='No independent addition.'))
+        self.assertFalse(E.finish(1,'1:1',d,started=start)['ok'])
+        verdict.update(status='rejected',annotations=[],paragraphs=[],reason='The proposed connection is too broad after checking the verse.')
+        (d/'verdicts.jsonl').write_text(json.dumps(verdict)+'\n')
+        self.assertTrue(E.finish(1,'1:1',d,started=start)['ok'])
+
+    def test_verdict_snapshots_are_immutable_and_checked_on_merge(self):
+        d,start,_,_=self.discovered_page()
+        self.assertTrue(E.finish(1,'1:1',d,started=start)['ok'])
+        page=E.OUT/'s001/1_1.ehlikitap.md'
+        manifest=json.loads(page.with_suffix('.json').read_text())
+        self.assertEqual(set(manifest['verdict_artifacts']),{'verdicts.jsonl','gaps.json','verdict_report.json'})
+        (d/'verdicts.jsonl').write_text('raw call changed later')
+        with redirect_stdout(io.StringIO()): self.assertTrue(E.merge_page(1,'1:1'))
+        snapshot=self.root/manifest['verdict_artifacts']['verdicts.jsonl']['path']
+        snapshot.write_text(snapshot.read_text()+'\n')
+        with redirect_stdout(io.StringIO()): self.assertFalse(E.merge_page(1,'1:1'))
+
+    def test_selection_drift_during_page_call_blocks_acceptance(self):
+        d,start,_,_=self.discovered_page()
+        save(E.wd(1)/'discovery/selected.json',{})
+        result=E.finish(1,'1:1',d,started=start)
+        self.assertFalse(result['ok']);self.assertIn('input changed',result['check'])
+
+    def test_page_author_reads_handoff_but_not_reader_transcripts(self):
+        d,start,path,_=self.discovered_page()
+        start.update(surah=1,target='1:1')
+        save(d/'started.json',start)
+        transcript=D.tdir(1,'1:1','test')/'luna/session.events.jsonl'
+        calls=[dict(name='Read',input=dict(file_path=str(path))),
+               dict(name='Read',input=dict(file_path=str(path.with_suffix('.json')))),
+               dict(name='Read',input=dict(file_path=str(transcript)))]
+        outside=AR.tool_use_outside_rule(d,'annotations.jsonl',calls)
+        self.assertEqual(len(outside),1);self.assertIn('session.events.jsonl',outside[0])
+
+    def test_native_model_and_delivery_failures_are_recorded_and_block_repair(self):
+        t=D.targets_of(1)[0];d=self.completed_discovery(t)
+        start=json.loads((d/'started.json').read_text())
+        session=json.loads((d/'session.json').read_text())
+        row=N.finish_run(d,start,session,[],[dict(timestamp='1'),dict(timestamp='2')],
+                         [dict(model='wrong',effort='low')],{},[],[])
+        self.assertEqual(row['status'],'partial')
+        self.assertIn('unexpected model/effort',row['protocol_findings'])
+        self.assertIn('missing/incorrect same-session follow-up delivery',row['protocol_findings'])
+        with self.assertRaisesRegex(ValueError,'completed'): D.checked_run(d,t)
+
+    def test_prefetch_gaps_cannot_disappear_from_a_page(self):
+        d,_,path,_=self.discovered_page()
+        prefetch=json.loads((path.parent/'prefetch.json').read_text())
+        prefetch['missing']=['Ephrem, Hymns on Paradise 5:6'];save(path.parent/'prefetch.json',prefetch)
+        report=VR.check(d,path,AYAH,[self.record()])
+        self.assertTrue(any('prefetch gap' in e for e in report['errors']))
+
+    def test_native_cli_lifecycle_with_two_recorded_turns(self):
+        t=D.targets_of(1)[0]
+        d=D.tdir(1,'1:1','cli')/'luna';d.mkdir(parents=True)
+        (d/'prompt.md').write_text('Independent discovery brief')
+        (d/'package.md').write_text(D.package(1,t,{'1:1':'بسم الله'}))
+        save(d/'input.json',{k:t[k] for k in ('target','base_path','base_sha256','inputs')})
+        def run(phase,*extra):
+            argv=['discovery_native.py',phase,'--surah','1','--target','1:1','--run-tag','cli','--model','luna',*extra]
+            with patch('sys.argv',argv),redirect_stdout(io.StringIO()): N.main()
+        run('start','--task','bible_cli_luna')
+        (d/'list.tsv').write_text(ROW)
+        session=dict(agent_path='/root/bible_cli_luna',agent_id='cli-luna',transcript='fixture')
+        save(d/'session.json',session)
+        contexts=[dict(model=D.MODELS['luna'],effort='max')]
+        first=[dict(timestamp='1')]
+        with patch.object(N.N,'events_for',return_value=(session,[],first,contexts,{})):
+            run('snapshot')
+        (d/'followup.tsv').write_text('')
+        with patch.object(N.N,'events_for',return_value=(session,[],first+[dict(timestamp='2')],contexts*2,{})), \
+             patch.object(N,'followup_proof',return_value=[dict(matches=True,encrypted=False)]):
+            run('audit')
+            run('finish','--reviewed')
+        self.assertEqual(D.checked_run(d,t)[0]['ref'],'WLC:Gen.1.1')
+        with self.assertRaisesRegex(SystemExit,'already finished'): run('finish','--reviewed')
 
 
 if __name__=='__main__':

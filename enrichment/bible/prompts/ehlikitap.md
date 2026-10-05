@@ -46,6 +46,9 @@ Read the target's numbered base page completely, once, and keep your own notes (
 your call directory; do not read it again. Then the discovery list named in the job header, when there is one: the
 candidate passages two readers proposed for this page, with the tradition, the kind of link and the reason. It is
 a seed, not a verdict: every candidate is checked against the text itself, and what it misses is yours to find.
+Read the adjacent .merged.json review sidecar too: inspect all wording findings, repeat provenance and accepted
+repairs. A normalized Hebrew/Greek match establishes neither relevance nor historical influence. A mismatch
+may be a root, inflection, orthographic difference, ketiv/qere distinction, different witness or verse boundary.
 
 ## Step 2. Claims of the base
 List for yourself every claim or image of the target page that the other scriptures speak to: a figure, a scene,
@@ -55,7 +58,10 @@ a formula, a word, an ethical motif, a liturgical act; each with its paragraph n
 1. Corpus Coranicum: `corpus.py --intertext ayah S:A` for every ayah of the page; read the entries' notes and
    dating; they are the editors' judgement, not yours.
 2. The discovery candidates, one by one: open the text (`get WLC:… SBLGNT:… SEFARIA:…`), read it in its own
-   context (the neighbouring verses with `get`), and decide the kind of link and the `bag`.
+   context (the neighbouring verses with `get`), and decide the kind of link and the `bag`. Judge EACH distinct
+   `connection_id` in the TSV evidence against every paragraph of this page. Two models may share a connection
+   ID: judge it once. Different reasons or kinds for the same reference remain separate decisions. Being
+   already cited does not rule out a different, concrete contribution to another paragraph.
 3. Your own search: the scene, figure or formula elsewhere in the Hebrew Bible and the New Testament (`search`
    with Hebrew or Greek words, the KJV as a finder in English); the cognates of the ayah's key words (Hebrew root
    consonants, Syriac via the Peshitta only from memory, marked); the Jewish reading of each parallel (SEFARIA
@@ -64,6 +70,31 @@ a formula, a word, an ethical motif, a liturgical act; each with its paragraph n
 4. Modern scholarship on the parallel (Neuwirth, Sinai, Reynolds, Witztum, Zellentin and others): memory pointers
    (access hafiza) with `durum:degerlendirilmedi`; a dependence or address claim is theirs, named in `alim`.
 Deduplicate as you go: one block per point.
+Review every paragraph for additional connections, including secondary details and contrary readings. Every
+passage opened with `get`, including context-only neighbours and unsuccessful lookups, needs a verdict. Search
+result snippets alone do not verify evidence. Open every evidence locator with `get`; request omitted portions
+when the tool reports a cut. Explicitly mark unavailable witnesses and uncertainty instead of reconstructing them.
+
+## Research verdict ledger (verdicts.jsonl)
+Write one JSON object per distinct discovery connection, including rejected and unavailable connections:
+
+{"connection_id":"BC-<copy the exact ID from evidence>","ref":"WLC:Gen.22.2","status":"accepted","reason":"The precise connection and what the Hebrew/context establishes.","paragraphs":[2],"evidence":["WLC:Gen.22.2"],"annotations":["S001-TEV-PRL-001"]}
+
+Use `accepted`, `rejected`, `unresolved`, or `unavailable`. Every row needs a specific reason, the exact ref,
+and arrays for paragraphs, evidence and annotations (empty arrays are allowed for nonaccepted rows). An accepted
+connection needs at least one valid paragraph, actual opened corpus evidence and a kept annotation ID. Cite the
+exact WLC/SBLGNT verse in evidence before accepting OR rejecting its connection. Distinguish rejection on textual
+grounds from unavailable evidence. Do not mark a remembered or unverified connection accepted.
+
+For a passage from your own research or a context-only lookup, use `"connection_id":null,"origin":"research"`
+with the same other fields. Give one research verdict per ref; a context-only passage may be rejected with the
+reason that it supplies context but no independent addition. Each opened ref needs its own verdict even when
+it also supplies evidence for another connection. Unresolved refs belong in gaps.json.unresolved; unavailable
+refs belong in gaps.json.missing_sources or not_found. Include the exact ref in those entries. Every kept
+annotation must be linked by a verdict; a memory-only source note can be linked to an unresolved verdict.
+Evidence must include every local source cited by the linked annotation. More than one connection may use the
+same annotation if it expresses their shared point. An annotation dropped by validation cannot implement an
+accepted verdict. This complete internal ledger is separate from the selected research notes shown to readers.
 
 ## Step 4. Compose the records
 What a good Bible page has:
@@ -97,10 +128,14 @@ support modern, kaynak_notu or yontem, but do not turn them into Jewish or Chris
 
 ## Step 5. Check and finish
 1. Re-open every locator you cite (`corpus.py --intertext get`) and confirm the text says what the block says.
-2. Run the validator from the job header and fix every error and warning; a record that still fails is dropped.
-3. Render the preview (job header) and read the page once as the reader would.
-4. Write gaps.json: {"missing_sources":[what the intertext corpus lacks: Peshitta, patristic texts, …],
+2. Write gaps.json: {"missing_sources":[what the intertext corpus lacks: Peshitta, patristic texts, …],
    "not_found":[…], "unresolved":[…]}.
    If no block qualifies, also write a nonempty `no_findings_reason`; an empty result without an explanation,
    or a result whose records all fail validation, cannot be accepted.
+   Preserve the prefetch report's missing refs in these arrays. Write all three files even when they are empty;
+   empty annotation output does not waive verdicts for the discovered or researched passages.
+3. Run the validator from the job header and fix every error and warning; a record that still fails is dropped.
+4. Run the verdict draft check in the header. The final check also audits actual get results and completeness
+   against the native transcript. No candidate may disappear from this ledger.
+5. Render the preview (job header) and read the page once as the reader would.
 Final message: blocks by gelenek and tur, the candidates accepted and rejected, and anything you could not do.

@@ -8,8 +8,9 @@ one paragraph and an exact anchor within it. The script inserts annotations and 
 - All working inputs belong to `enrichment/bible/`. PACK in the job header contains `base/`, `numbered/`,
   `base.json`, `quran.json` and `pack.json`. There are no dictionary or word-binding files in this pack.
 - Read `enrichment/bible/SCHEMA_BIBLE_CARD.md` completely. Consult its full `SCHEMA.md` only if necessary.
-- Read the selected discovery list and its adjacent `prefetch.json`. Candidates are suggestions to verify;
-  prefetch gaps are gaps in available evidence.
+- Read the selected discovery list, its `.merged.json` review sidecar, and adjacent `prefetch.json`. Reader
+  grades, reasons and wording flags are unverified. Prefetch gaps are gaps in available evidence. Distinct
+  connections under one reference need distinct verdicts; a high grade or reader agreement is not proof.
 - Use `python3 enrichment/bible/corpus.py sources`, `get LOC [LOC …]`, `ayah S:A`, or
   `search 'words' --src WLC` / `--src SBLGNT`. Search matches word prefixes after removing Hebrew pointing and
   Greek accents; it is not a morphological or root index. Try inflected forms and inspect the results.
@@ -17,6 +18,8 @@ one paragraph and an exact anchor within it. The script inserts annotations and 
   redirection, pipelines, command substitution or command separators. Use the file tools to write your records.
 - Read each input once and retain notes in your call directory. Start searches with `--n 10 --chars 300` and
   lookups with `--chars 1500`; request more context when needed. Every cited passage must actually be opened.
+- Save `annotations.jsonl`, `verdicts.jsonl` and `gaps.json` in your call directory. The verdict draft command
+  checks structure during work; final acceptance also checks the native transcript's actual corpus get results.
 - Write only in your call directory. Do not read accepted enrichment pages, other calls, or the Islamic
   enrichment workspace. Do not fetch sources, rebuild packs or indexes, or call models. Report missing texts.
 

@@ -11,6 +11,11 @@ pack selected by the operator, the initial corpus seed, and accepted Islamic pag
 when explicitly assembling a combined page. Combined pages are written here.
 The Bible author never reads the Islamic enrichment pages or call directories.
 
+Discovery adopts v16 Step 2b's operational protocol, adapted here for Bible
+references and witnesses. It remains **after augment9**, with two discovery
+readers and one verifier/author per whole page. An ayah is not split among writers.
+Surah discovery remains per image; its evidence feeds one surah-page author.
+
 ## Texts and evidence
 
 - WLC is the primary Hebrew Bible witness (including Torah). Its main text is the
@@ -74,6 +79,17 @@ augment9 ayah text; `surah` selects every image section of the frozen surah text
 The configured discovery readers remain Luna max and Terra max. Their exact model
 identifiers are in `discovery.py`; the runner must provide them. Do not silently
 substitute another model. Use a unique native task name for every session.
+Packages also include the word/root/branch labels from the frozen surah commentary
+(the target ayah's members for an ayah, the selected image's members for a section).
+These labels are context, not dictionary definitions or proof of cross-language
+cognacy. The brief requires coverage of every developed detail and secondary
+sense, with a concrete connection and no target list length.
+
+Use at most seven native agents at once unless the user explicitly changes the
+limit for this Bible run. Complete their fixed follow-ups, audits and reporting
+before the next already-authorized batch. v16 S1 revision4's concurrency exception
+does not apply here. A discovery go does not start the page author. Scripts never
+launch either model stage. This implementation update does not run a live pilot.
 
 For each prepared target and model:
 
@@ -98,15 +114,67 @@ python3 -B enrichment/bible/discovery_native.py finish --surah 1 --run-tag pilot
 
 Before passing `--reviewed`, inspect `tool_calls.json` for adherence to the supplied
 inputs and the no-retrieval/no-other-agents rules. The flag is an operator audit
-attestation. Finish verifies the session model and effort, two completed turns,
+attestation. Record any violation with `--protocol-finding "specific violation"`;
+it blocks the run. Recoverable tool diagnostics remain visible in the report.
+Finish verifies the session model and effort, two completed turns,
 follow-up delivery, frozen inputs and first-turn bytes. It consolidates unique
 proposals, preserving distinct reasons and link kinds. An empty delivered TSV is
 valid; a missing TSV, overwritten first turn or failed session is not.
+
+New sessions use `bible-separate-proposals-v2`. Deliver `followup.txt` verbatim
+once, to the same fresh-context native session. During that turn, only a write
+of `followup.tsv` is allowed: no reads, retrieval, research scripts or other
+agents. Consolidation never changes first-turn bytes or an existing connection's
+grade. Exact repeated connections retain the first occurrence; each repeat and
+the retained phase/line are recorded in `consolidation.json`. Distinct reasons for
+one reference remain separate connections and reach the verifier. Legacy run
+histories cannot be upgraded in place; prepare a fresh tag.
+
+Finish retains native event evidence, raw and consolidated wording reviews,
+diagnostics and hashes. `check_discovery.py` checks edition-qualified references
+and Hebrew/Greek wording against the local text; it identifies matching WLC
+variant readings separately and may flag adjacent verse wording. Flags require
+review of roots, forms, orthography, witnesses and boundaries. They neither prove
+nor disprove the semantic connection. No model calls occur during checking.
 
 Raw discovery uses exactly six tab-separated fields: strength, tradition, kind,
 reference, basis, explanation. Bible references must name their edition, e.g.
 `WLC:Gen.22.2` or `SBLGNT:Matt.6.5`, and resolve in the local index. Named secondary
 works may be proposed for prefetch. These are candidates, not verified evidence.
+
+Report a completed batch/target set before merging or continuing:
+
+```sh
+python3 -B enrichment/bible/discovery_report.py --surah 1 --run-tag pilot1 --targets 1:1 --write
+```
+
+The JSON and Markdown reports include initial/proposed/new/repeated/final counts,
+grades, quotation findings, missing existing citations, failures, repairs,
+diagnostics and usage, plus a dry handoff count when both readers pass. Missing
+or partial runs produce a failing exit status. Report all findings, not just
+structural failures. Reports live under the Bible attempt; reporting does not
+select inputs, merge them, prefetch or launch a page author. Runtime `work/` and
+`out/` remain ignored by Git; commit only intentionally versioned Bible files.
+
+### Recorded repairs and new attempts
+
+A malformed follow-up reference may be repaired only when both original turns
+completed, the first turn is intact and all other protocol checks passed. First
+prepare an exact reviewable proposal. Its JSON input is an array of objects with
+`line`, six-field `before` and `after` arrays, and `reason`:
+
+```sh
+python3 -B enrichment/bible/discovery_repair.py propose --surah 1 --target 1:1 --run-tag pilot1 --model luna --changes enrichment/bible/work/repair-changes.json
+```
+
+Inspect `repair.proposed.json` and `followup.repair.proposed.tsv`. After explicit
+approval of that exact correction, record the approval with the `accept` phase
+and `--approval "approval record"` using the same target/tag/model. Only reference
+corrections or reference/basis swaps are supported; strength, tradition, kind and
+explanation cannot change. Raw follow-up, failed log and failed validation remain
+intact. The accepted correction has its own file and hash chain. No model is
+rerun. Protocol failures, changes to judgements, missing files and first-turn
+failures require a fresh attempt, not this repair mechanism.
 
 ## 3. Merge discovery, prefetch, rebuild the index
 
@@ -117,9 +185,20 @@ python3 -B enrichment/bible/discovery.py --surah 1 --run-tag pilot1 --targets 1:
 python3 -B enrichment/bible/corpus.py build
 ```
 
-The merge accepts only successful audited runs. It emits individual handoffs and
+The merge requires **both** completed, audited readers for every target; passing
+only one model to `--merge` is an error. It replays consolidation and verifies
+raw proposals, reviews, native evidence and any repair chain. It emits individual handoffs and
 a real `surah.merged.tsv` after all surah sections complete. `selected.json`
 explicitly selects each page's handoff; there is no implicit legacy fallback.
+The TSV groups references while retaining all distinct connections, each with a
+stable `connection_id` in its evidence. The adjacent `.merged.json` carries raw
+review findings and provenance. The best reported grade is not verified confidence.
+
+To combine completed attempts explicitly, pass `--selection PATH` to merge, where
+PATH contains a JSON mapping such as `{"sec1":"first","sec2":"second"}`. Both
+readers for a selected target must come from its specified attempt. The output
+uses `--run-tag`; its handoff records the actual source attempts. A surah merge
+still requires every section in one invocation. Use the same mapping when reporting.
 
 Prefetch records candidate resolution, fetched locators, missing texts, retrieval
 errors, list hashes and source hashes in `prefetch.json`. Errors block page start.
@@ -148,7 +227,7 @@ transcripts, mixed models and tool use outside the Bible call rules reject the
 result. Accounting uses the Bible-local nominal rate snapshot; it is not a billing
 quote. No legacy model CLI fallback is provided.
 
-The agent writes `annotations.jsonl` and `gaps.json`, validates records, and renders
+The agent writes `annotations.jsonl`, `verdicts.jsonl` and `gaps.json`, validates records, and renders
 a preview inside its call directory. IDs are `S001-TEV-PRL-001` or
 `S001-INC-MTF-001`, using the schema's actual type codes. After completion:
 
@@ -161,6 +240,24 @@ failure. An intentionally empty page requires `gaps.json.no_findings_reason`.
 Acceptance writes the page, an immutable copy of kept annotations and provenance
 to `enrichment/bible/out/s001/`; accepted pages are never overwritten. Native
 transcripts and local checks are retained in the Bible call directory.
+
+Every distinct discovery `connection_id` needs an accepted, rejected, unresolved
+or unavailable verdict, with a specific reason. Accepted connections name valid
+paragraphs, opened evidence and kept annotation IDs. Both acceptance and rejection
+of a WLC/SBLGNT discovery claim require the cited original verse as evidence.
+Every additional `get` lookup, including context and missing passages, also needs
+a research verdict. Search snippets alone are not opened evidence. The verifier
+still does its own paragraph-by-paragraph research; discovery is a seed.
+
+`verdicts.py --draft` checks structure while the author works. Final acceptance
+checks actual corpus `get` results in the native transcript, missing connections,
+unjudged lookups, dropped/missing annotation IDs and paragraph correspondence.
+Unresolved/unavailable refs and prefetch gaps must appear in `gaps.json`. Empty
+annotation output does not waive candidate coverage. `verdict_report.json` records
+the checks; immutable verdict, gap and report copies accompany the accepted page
+and are verified again when assembling a combined page. These checks establish
+coverage and provenance, not semantic correctness; the live pilot still needs
+editorial review of quotations, links and Turkish explanations.
 
 Use `--trial` on finish to keep the result only in its call directory. A trial is
 not an accepted page; the CLI currently has no trial-promotion command. Do not

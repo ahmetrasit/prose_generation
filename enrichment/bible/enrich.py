@@ -13,6 +13,7 @@ V2 = Path(__file__).resolve().parent
 PG = V2.parents[1]
 sys.path.insert(0, str(PG))
 from enrichment.bible import agentrun as AR, render as R, validate as VAL
+from enrichment.bible import discovery as DISC, verdicts as VERDICTS
 WORK = V2 / 'work'
 OUT = V2 / 'out'
 ISLAMIC_OUT = PG / 'enrichment/v2/out'  # read-only accepted layer
@@ -110,7 +111,8 @@ def bible_inputs(s: int, target: str) -> dict:
     indexed = json.loads(index_manifest.read_text())
     if indexed.get('index_sha256') != file_hash(index):
         raise ValueError('intertext index differs from its build manifest')
-    files = [discovery, manifest, prefetch, index, index_manifest]
+    files = [discovery, manifest, prefetch, wd(s)/'discovery/selected.json', index, index_manifest,
+             *DISC.verify_handoff(discovery,s,target)]
     if not {'WLC', 'SBLGNT', 'QURAN'}.issubset(indexed.get('source_hashes', {})):
         raise ValueError('the Bible index requires WLC, SBLGNT and QURAN')
     if not indexed.get('metadata_hashes'):
@@ -254,9 +256,13 @@ def header(s: int, target: str, d: Path, runner: str = "codex") -> str:
         f"{d / 'annotations.jsonl'}" + (" --pass ehlikitap" if BRIEF == "ehlikitap" else ""),
         f"- Renderer (preview): {py} {V2 / 'render.py'} --surah {s} --target {target} --annotations "
         f"{d / 'annotations.jsonl'} --out {d / 'preview'}",
+        f"- Verdict draft check: {py} {V2 / 'verdicts.py'} --surah {s} --target {target} --annotations "
+        f"{d / 'annotations.jsonl'} --draft --report {d / 'verdicts.draft.json'}",
+        "- Deliverables: annotations.jsonl, verdicts.jsonl and gaps.json in your call directory.",
     ] + ([f"- Pass: ehlikitap (the Tevrat and İncil layers; brief ehlikitap.md); corpus tool: {py} "
           f"{V2 / 'corpus.py'} --intertext (the flag before the subcommand)",
           "- Prefetch: read prefetch.json beside the selected discovery list; record its gaps in your gaps.json.",
+          "- Review: read the .merged.json beside the discovery TSV. It preserves wording findings, repeats, repairs and provenance.",
           "- Discovery list: " + (str(discovery_list(s, target)) if discovery_list(s, target) else
                                   "none (build only; discovery and prefetch are required before spawn)")]
          if BRIEF == "ehlikitap" else [])) + "\n"
@@ -309,6 +315,14 @@ def finish(s: int, target: str, d: Path, trial: bool = False, started: dict | No
         reason = json.loads(gaps.read_text()).get('no_findings_reason') if gaps.exists() else None
         if not isinstance(reason, str) or not reason.strip():
             return {'check': 'empty Bible page requires gaps.json no_findings_reason', 'ok': False, **counts}
+    try:
+        verdict_report=VERDICTS.check(d,discovery_list(s,target),base,kept)
+    except (OSError,ValueError,KeyError,TypeError) as exc:
+        verdict_report=dict(ok=False,errors=[str(exc)])
+    DISC.save(d/'verdict_report.json',verdict_report)
+    if not verdict_report['ok']:
+        return {'check':'incomplete/invalid Bible verdicts (see verdict_report.json)', 'ok':False,
+                'verdict_errors':verdict_report['errors'],**counts}
     if page_errors:
         return {"check": f"page errors: {len(page_errors)} (see check.json)", "ok": False, **counts}
     if trial:
@@ -340,12 +354,22 @@ def finish(s: int, target: str, d: Path, trial: bool = False, started: dict | No
     if not snapshot.exists():
         with snapshot.open('x', encoding='utf-8') as f:
             f.write(payload)
+    evidence_snapshots={}
+    for filename in ('verdicts.jsonl','gaps.json','verdict_report.json'):
+        frozen=dst.with_suffix('.'+filename)
+        content=(d/filename).read_bytes()
+        if frozen.exists() and frozen.read_bytes()!=content:
+            return {'check':f'{rel(frozen)} differs from this result; never overwrite','ok':False,**counts}
+        if not frozen.exists():
+            with frozen.open('xb') as f: f.write(content)
+        evidence_snapshots[filename]=dict(path=rel(frozen),sha256=file_hash(frozen))
     with open(page, "rb") as src, open(dst, "xb") as out:  # exclusive: never overwrite, even in a race
         out.write(src.read())
     rec = {"surah": s, "target": target, "accepted_at": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
            "page_sha256": hashlib.sha256(dst.read_bytes()).hexdigest(), "base": info,
            "dictionary": dictionary, "annotations": rel(ann),
            "accepted_annotations": rel(snapshot), "annotations_sha256": file_hash(snapshot),
+           "verdict_artifacts": evidence_snapshots,
            "bible_inputs": started.get('bible_inputs'),
            "kept": len(kept), "dropped": [x["id"] for x in dropped]}
     dst.with_suffix(".json").write_text(json.dumps(rec, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
@@ -435,6 +459,10 @@ def merge_page(s: int, target: str) -> bool:
             rec = json.loads(rec_path.read_text())
             if file_hash(page) != rec['page_sha256']:
                 raise ValueError(f'{filename}: accepted page has changed')
+            if brief=='ehlikitap':
+                for artifact in rec.get('verdict_artifacts',{}).values():
+                    if file_hash(PG/artifact['path']) != artifact['sha256']:
+                        raise ValueError(f'{filename}: accepted verdict/gap evidence changed')
             if rec['base']['sha256'] != info['sha256']:
                 raise ValueError(f'{filename}: accepted base differs from the current frozen base')
             original = page.read_text()

@@ -21,6 +21,8 @@ sys.path.insert(0,str(ROOT_PG))
 from enrichment.bible import corpus as C, render as R, sections
 MODELS = {'luna':'gpt-6-luna','terra':'gpt-5.6-terra'}
 EFFORT = 'max'
+PROTOCOL = 'bible-separate-proposals-v2'
+HANDOFF = 'bible-discovery-v2'
 STRENGTH = {'strong', 'medium', 'weak'}
 TRAD = {'tevrat', 'incil'}
 KIND = {'paralel', 'motif', 'karsi_anlati', 'soydas', 'yorum_gelenegi'}
@@ -66,23 +68,34 @@ def targets_of(s: int) -> list[dict]:
     """Use the exact frozen pack, including augment9 for ayah discovery."""
     pk = R.V2 / 'work' / f's{s:03d}' / 'pack'
     bases = json.loads((pk / 'base.json').read_text())
+    surah_name, surah_text, surah_info = R.target_page(s, 'surah')
+    image_sections = sections.sections(surah_text)
+    inputs = {str(pk/'base'/surah_name):surah_info['sha256'],
+              str(pk/'quran.json'):digest(pk/'quran.json'), str(pk/'pack.json'):digest(pk/'pack.json')}
     out = []
     for ref, info in bases['ayat'].items():
         if info:
             name, text, _ = R.target_page(s, ref)
             out.append({'target':ref, 'ayat':[ref], 'prose':text, 'what':f'ayah {ref} with its augment9 commentary',
-                        'base_path':str(pk/'base'/name), 'base_sha256':info['sha256']})
-    name, text, info = R.target_page(s, 'surah')
-    for sec in sections.sections(text):
+                        'base_path':str(pk/'base'/name), 'base_sha256':info['sha256'], 'inputs':inputs,
+                        'members':[dict(m, image=sec['title']) for sec in image_sections
+                                   for m in sec['members'] if m['ayah'] == ref]})
+    for sec in image_sections:
         out.append({'target':f"sec{sec['k']}", 'ayat':sec['ayat'] or list(bases['ayat']), 'prose':sec['prose'],
                     'what':f"image section {sec['k']} ({sec['title']}) of the frozen surah commentary",
-                    'base_path':str(pk/'base'/name), 'base_sha256':info['sha256']})
+                    'base_path':str(pk/'base'/surah_name), 'base_sha256':surah_info['sha256'],
+                    'inputs':inputs, 'members':sec['members']})
     return out
 
 
 def package(s: int, t: dict, q: dict) -> str:
     lines = [f"# S{s}: {t['what']}", '', '## Ayat (Arabic)', '']
     lines += [f'{r}\t{q[r]}' for r in t['ayat']]
+    lines += ['', '## Words, roots and branches named by the frozen surah commentary', '',
+              'These are source labels, not dictionary definitions or verified cross-language cognates.', '',
+              'ayah\tword\troot\tbranch\timage']
+    lines += ['\t'.join(m.get(k,'') for k in ('ayah','word','root','branch','image')) for m in t.get('members',[])]
+    if not t.get('members'): lines += ['(No lexical members recorded for this target.)']
     lines += ['', '## Frozen commentary (Turkish)', '', t['prose'].strip(), '', '## Whole surah (Arabic)', '']
     lines += [f'{r}\t{text}' for r, text in q.items() if r.startswith(f'{s}:')]
     return '\n'.join(lines) + '\n'
@@ -133,13 +146,22 @@ def row_key(r: dict) -> tuple:
     return tuple(r[k] for k in ('tradition','kind','ref','basis','note'))
 
 
+def connection_id(target: str, row: dict) -> str:
+    data = json.dumps([target, *row_key(row)], ensure_ascii=False, separators=(',',':'))
+    return 'BC-' + hashlib.sha256(data.encode()).hexdigest()[:20]
+
+
 def checked_run(d: Path, t: dict) -> list[dict]:
+    from enrichment.bible import discovery_native as N
     log = json.loads((d/'run.log.json').read_text())
     if (log.get('target'), log.get('runner'), log.get('model'), log.get('effort')) != (
             t['target'], 'agent', MODELS[d.name], EFFORT):
         raise ValueError(f'{d}: wrong target, model, effort or runner')
-    if log.get('status') != 'ok' or not log.get('append_only') or not log.get('tool_audit_reviewed') or not log.get('turn2',{}).get('completed'):
+    if log.get('run_tag') != d.parent.parent.name:
+        raise ValueError('run log belongs to a different attempt')
+    if log.get('status') not in ('ok','accepted') or not log.get('append_only') or not log.get('tool_audit_reviewed') or not log.get('turn2',{}).get('completed'):
         raise ValueError(f'{d}: not a completed, audited two-turn run')
+    N.verify_run(d, log)
     for filename, field in [('list.tsv','list_sha256'),('turn1.list.tsv','turn1_sha256'),
                             ('prompt.md','prompt_sha256'),('package.md','package_sha256')]:
         if digest(d/filename) != log.get(field):
@@ -155,30 +177,38 @@ def checked_run(d: Path, t: dict) -> list[dict]:
     return [{**r,'turn':1 if r['line'] <= n else 2} for r in rows]
 
 
-def write_handoff(path, rows, base_hash, provenance):
+def write_handoff(path, rows, base_hash, provenance, findings=None):
     fields = ['ref','tier','tradition','kinds','basis','explanations','target','evidence']
     stream = io.StringIO()
     writer = csv.DictWriter(stream,fields,delimiter='\t',lineterminator='\n')
     writer.writeheader(); writer.writerows(rows)
     path.write_text(stream.getvalue())
     target = path.name.removesuffix('.merged.tsv').replace('_', ':')
-    save(path.with_suffix('.json'),dict(status='ok',target=target,base_sha256=base_hash,
-         tsv_sha256=digest(path),provenance=provenance,rows=len(rows)))
+    save(path.with_suffix('.json'),dict(format=HANDOFF,status='ok',target=target,base_sha256=base_hash,
+         tsv_sha256=digest(path),provenance=provenance,rows=len(rows),findings=findings or [],
+         confidence='Unverified reader labels; agreement and follow-up origin do not verify a connection.'))
 
 
-def merge(s, targets, run_tag, models=None):
+def merge(s, targets, run_tag, models=None, attempts=None):
     if C.running_calls():
         raise ValueError('Bible page calls are active; do not change their discovery inputs')
     models = models or list(MODELS)
+    if len(models) != len(MODELS) or set(models) != set(MODELS):
+        raise ValueError('both Luna and Terra are required for every merged target')
     root = discovery_dir(s,run_tag)
+    attempts = attempts or {}
+    if set(attempts) - {t['target'] for t in targets}:
+        raise ValueError('attempt selection names an unselected target')
     order = {'strong':0,'medium':1,'weak':2}
     prepared = []
     for t in targets:  # validate all runs before writing handoffs
-        per = {m:checked_run(tdir(s,t['target'],run_tag)/m,t) for m in models}
+        selected_tag = attempts.get(t['target'],run_tag)
+        per = {m:checked_run(tdir(s,t['target'],selected_tag)/m,t) for m in models}
         groups = {}
         for m, records in per.items():
             for r in records:
-                groups.setdefault((r['tradition'],r['ref']),[]).append({**r,'model':m})
+                groups.setdefault((r['tradition'],r['ref']),[]).append({**r,'model':m,
+                    'connection_id':connection_id(t['target'],r)})
         rows = []
         for (trad,ref), evidence in sorted(groups.items()):
             rows.append(dict(ref=ref,tier=min((r['strength'] for r in evidence),key=order.get),tradition=trad,
@@ -186,24 +216,63 @@ def merge(s, targets, run_tag, models=None):
                 basis=' | '.join(dict.fromkeys(r['basis'] for r in evidence)),
                 explanations=' | '.join(dict.fromkeys(r['note'] for r in evidence)),target=t['target'],
                 evidence=json.dumps(evidence,ensure_ascii=False)))
-        provenance = {m:digest(tdir(s,t['target'],run_tag)/m/'run.log.json') for m in models}
-        prepared.append((t,rows,provenance))
+        provenance, findings = [], []
+        for m in models:
+            d = tdir(s,t['target'],selected_tag)/m
+            log = json.loads((d/'run.log.json').read_text())
+            provenance.append(dict(target=t['target'],model=m,run_tag=selected_tag,
+                                   path=str(d.relative_to(root.parent)),sha256=digest(d/'run.log.json')))
+            findings.append(dict(target=t['target'],model=m,validation=json.loads((d/'validation.json').read_text()),
+                                 raw_proposal_validation=json.loads((d/'proposal_validation.json').read_text()),
+                                 repeats=log['consolidation']['repeated_proposals'],
+                                 diagnostics=log['tool_diagnostics'],repair=log.get('repair')))
+        prepared.append((t,rows,provenance,findings))
+    root.mkdir(parents=True,exist_ok=True)
     out, selection = [], {}
     selected = root.parent/'selected.json'
     if selected.exists(): selection = json.loads(selected.read_text())
-    for t, rows, provenance in prepared:
+    for t, rows, provenance, findings in prepared:
         path = root/(t['target'].replace(':','_')+'.merged.tsv')
-        write_handoff(path,rows,t['base_sha256'],provenance)
+        write_handoff(path,rows,t['base_sha256'],provenance,findings)
         selection[t['target']] = str(path.relative_to(root.parent)); out.append(path)
     sections = [x for x in prepared if x[0]['target'].startswith('sec')]
     expected = {t['target'] for t in targets_of(s) if t['target'].startswith('sec')}
-    if sections and {t['target'] for t,_,_ in sections} == expected:
+    if sections and {t['target'] for t,_,_,_ in sections} == expected:
         path = root/'surah.merged.tsv'
-        write_handoff(path,[r for _,rs,_ in sections for r in rs],sections[0][0]['base_sha256'],{t['target']:p for t,_,p in sections})
+        write_handoff(path,[r for _,rs,_,_ in sections for r in rs],sections[0][0]['base_sha256'],
+                      [p for _,_,ps,_ in sections for p in ps], [f for _,_,_,fs in sections for f in fs])
         selection['surah'] = str(path.relative_to(root.parent)); out.append(path)
     save(selected,selection)
     print(f'S{s}: merged {len(prepared)} targets; {len(out)} handoffs; models {", ".join(models)}')
     return out
+
+
+def verify_handoff(path, s, target):
+    """Require both readers and recheck their complete artifact chains at page build."""
+    meta = json.loads(path.with_suffix('.json').read_text())
+    if meta.get('format') != HANDOFF or meta.get('tsv_sha256') != digest(path):
+        raise ValueError('Bible handoff needs the current audited discovery protocol')
+    current = {t['target']:t for t in targets_of(s)}
+    required = {k for k in current if k.startswith('sec')} if target == 'surah' else {target}
+    expected = {(k,m) for k in required for m in MODELS}
+    seen, files = set(), []
+    root = HERE/'work'/f's{s:03d}'/'discovery'
+    for p in meta.get('provenance',[]):
+        key = (p['target'],p['model'])
+        if key not in expected or key in seen:
+            raise ValueError('unexpected/duplicate discovery provenance')
+        seen.add(key)
+        d = (root/p['path']).resolve()
+        if d != tdir(s,p['target'],p['run_tag']).joinpath(p['model']).resolve():
+            raise ValueError('discovery provenance path differs from selected attempt')
+        if digest(d/'run.log.json') != p['sha256']:
+            raise ValueError('discovery log changed after merge')
+        checked_run(d,current[p['target']])
+        log = json.loads((d/'run.log.json').read_text())
+        files += [d/'run.log.json', *[d/name for name in log['artifacts']]]
+    if seen != expected:
+        raise ValueError('both readers must complete every selected discovery target')
+    return files
 
 
 def prefetch(merged, per_type):
@@ -254,6 +323,7 @@ def main():
     ap.add_argument('--run-tag',required=True)
     ap.add_argument('--targets',help='N:A,secK,surah (surah selects every image section)')
     ap.add_argument('--models',default=','.join(MODELS))
+    ap.add_argument('--selection',type=Path,help='JSON mapping target to explicit completed run tag for merge')
     ap.add_argument('--merge',action='store_true')
     ap.add_argument('--prefetch',action='store_true')
     ap.add_argument('--per-type',type=int,default=6)
@@ -269,8 +339,10 @@ def main():
         if unknown: ap.error(f'unknown/unavailable targets: {sorted(unknown)}')
         targets = [t for t in targets if t['target'] in want or ('surah' in want and t['target'].startswith('sec'))]
     if a.prefetch and not a.merge: ap.error('--prefetch requires --merge')
+    if a.selection and not a.merge: ap.error('--selection requires --merge')
     if a.merge:
-        merged = merge(a.surah,targets,a.run_tag,models)
+        attempts = json.loads(a.selection.read_text()) if a.selection else None
+        merged = merge(a.surah,targets,a.run_tag,models,attempts)
         if a.prefetch and not prefetch(merged,a.per_type)['complete']: raise SystemExit(1)
         return
     q = json.loads((HERE/'work'/f's{a.surah:03d}'/'pack/quran.json').read_text())
@@ -286,7 +358,7 @@ def main():
             d.mkdir(parents=True,exist_ok=True)
             (d/'package.md').write_text(package(a.surah,t,q))
             (d/'prompt.md').write_text(prompt_text(a.surah,t,d))
-            save(d/'input.json',{k:t[k] for k in ('target','base_path','base_sha256')})
+            save(d/'input.json',{k:t[k] for k in ('target','base_path','base_sha256','inputs')})
     if not a.status: print(f'{len(targets)*len(models)} native sessions prepared; no model calls made. Use enrichment/bible/discovery_native.py.')
 
 if __name__ == '__main__':

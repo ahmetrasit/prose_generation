@@ -6,6 +6,12 @@ reports `ready: false` because no native Bible discovery sessions have completed
 No production Bible annotations have been accepted and no model calls were made
 as part of this repair.
 
+The agreed v16 Step 2b alignment is now implemented within this directory: fuller
+discovery coverage, both-reader enforcement, raw proposal/review provenance,
+recorded reference repairs, reporting and complete per-connection verdicts. The
+Hebrew/Greek corpus rules, frozen augment9 base and single author per page remain
+the research design. See [the alignment record](STEP2B_ALIGNMENT_2026-10-05.md).
+
 ## Isolation
 
 The implementation is in `enrichment/bible/`, with its own corpus, index, schema,
@@ -45,8 +51,11 @@ read upstream files but write only Bible-owned files.
 
 Verification completed:
 
-- **27 Bible regression tests passed**, using temporary fixtures and mocked HTTP.
-- **7 existing Quran-discovery tests passed**, with their implementation unchanged.
+- **54 Bible regression tests passed**, using temporary fixtures, mocked native
+  session evidence and mocked HTTP. The original repair suite contained 27 tests;
+  the expanded suite covers the Step 2b protocol and verdict requirements too.
+- The initial repair also passed **7 existing Quran-discovery tests**, with their
+  implementation unchanged; this alignment modifies only Bible files.
 - All Bible Python modules parse and have no imports of shared workflow helpers.
 - Actual Hebrew `בראשית` searches resolve WLC verses; Greek `πατερ` searches resolve
   SBLGNT verses. Displayed passages preserve Hebrew pointing and Greek accents.
@@ -56,6 +65,12 @@ Verification completed:
 - S1's independent pack contains the surah base and all seven augment9 ayah bases.
   Discovery packages for ayah 1:1 and all 14 surah sections are prepared under
   `work/s001/discovery/readiness-20261005/`: 30 potential sessions, none started.
+  Those are historical preparations. Fresh updated packages for the two ayah 1:1
+  readers are in `work/s001/discovery/step2b-readiness-20261005/`, including 13
+  lexical members from the frozen commentary. Neither session has started.
+- The new report correctly marks those two sessions `prepared` and
+  `ready_for_merge: false`; page preflight still refuses an absent completed
+  discovery. Dry preparation and reporting made no model calls or source fetches.
 
 ## Available local material
 
