@@ -36,7 +36,7 @@ import v16 as V  # noqa: E402
 import missing as M  # noqa: E402
 import batch as B  # noqa: E402
 
-MODELS = {"luna": "gpt-6-luna", "terra": "gpt-6-terra"}  # terra's id is by analogy with gpt-6-luna; unverified
+MODELS = {"luna": "gpt-6-luna", "terra": "gpt-5.6-terra"}
 EFFORT = "max"
 STRENGTH = {"strong", "medium", "weak", "contrast"}
 BASES = {"scene", "root", "theme", "speaker", "contrast", "neighbour"}
