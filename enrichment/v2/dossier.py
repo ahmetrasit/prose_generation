@@ -151,6 +151,77 @@ def build(s: int, target: str, seg_chars: int, src_chars: int) -> Path:
     return f
 
 
+# ---------------------------------------------------------------- the bounded extract (mode dosya2, user 2026-10-05)
+# The order of zengin.md Step 3: transmitted tafsir, then analytical, Turkish, allusive; then the other kinds; a
+# source's -FULL edition after every short one. Within the budget a segment is shown whole up to WHOLE characters,
+# a longer one by its opening (the rest by `corpus.py get LOC --from N`); past the budget every remaining segment is
+# listed by locator and size. Every cut is printed and recorded in the extract's own header.
+ORDER = ["TAB", "IBNKATHIR", "DURR", "BAGHAWI", "MUQATIL", "MUJAHID", "ABDURRAZZAQ", "IBNABIHATIM", "YAHYA-SALLAM",
+         "KASHSHAF", "RAZI", "BAYDAWI", "NASAFI", "QURTUBI", "IBNATIYYA", "ABUHAYYAN", "ALUSI", "MAWARDI", "IBNASHUR",
+         "TABRISI", "BIQAI", "ELMALILI", "KURANYOLU-TEFSIR", "QUSHAYRI", "SULAMI", "TUSTARI", "BURSEVI", "ABDUH-AMMA",
+         "TABATABAI", "WAHIDI-BASIT", "SAMIN-DURR", "MAJAZ", "FARRA", "ZAJJAJ", "AKHFASH", "IBNQUTAYBA-GHARIB", "NAHHAS"]
+KIND_RANK = ["tafsir", "tafsir_tr", "maani", "qiraat", "wujuh", "isari", "nazm", "ulum", "hadith", "sira", "poetry",
+             "modern", "reference", "lexicon"]
+SKIP_KINDS = {"meal": "the panel is in PACK meals.md; other meals by corpus.py get",
+              "translation": "ASAD-EN and ARBERRY are in PACK meals.md", "quran": "the ayah text is in PACK words.md"}
+
+
+def bounded(s: int, target: str, budget: int = 150_000, per_source: int = 5_000) -> tuple[str, dict]:
+    """(extract text, record): every segment tied to the ayah, sources in rank order, each source shown up to
+    per_source characters (its segments in order; the one crossing the share is cut, with the command for the rest),
+    until the budget; every segment not shown is listed by locator and size."""
+    con = C.connect()
+    a = int(target.split(":")[1])
+    rows = con.execute("SELECT seg.seg, seg.src, src.kind, seg.head, seg.text, seg.extra FROM seg JOIN src ON "
+                       "src.id=seg.src WHERE seg.s=? AND seg.a<=? AND coalesce(seg.a_end, seg.a)>=? ORDER BY seg.id",
+                       (s, a, a)).fetchall()
+
+    def rank(src, kind):
+        full = src.endswith("-FULL")
+        base = src[:-5] if full else src
+        return (full, ORDER.index(base) if base in ORDER else len(ORDER),
+                KIND_RANK.index(kind) if kind in KIND_RANK else len(KIND_RANK), src)
+    skipped = {k: [r[0] for r in rows if r[2] == k] for k in SKIP_KINDS}
+    by_src: dict[str, list] = {}
+    for r in rows:
+        if r[2] not in SKIP_KINDS:
+            by_src.setdefault(r[1], []).append(r)
+    used, whole, cut_segs, listed = 0, 0, [], []
+    blocks, index = [], []
+    for src in sorted(by_src, key=lambda x: rank(x, by_src[x][0][2])):
+        share = 0
+        for seg, _, kind, head, text, extra in by_src[src]:
+            text = text or ""
+            room = min(per_source - share, budget - used)
+            if room <= 0:
+                index.append(f"- {seg} ({kind}, {len(text):,} chars)")
+                listed.append(seg)
+                continue
+            body = text[:room]
+            note = "" if len(body) == len(text) else (f"[shown {len(body):,} of {len(text):,} characters; the rest: "
+                                                      f"corpus.py get {seg} --from {len(body)}]")
+            blocks.append(seg_block(seg, head, body, extra, len(body) + 1) + (f"\n{note}" if note else ""))
+            (cut_segs.append(seg) if note else None)
+            whole += not note
+            share += len(body)
+            used += len(body)
+    for k, segs in skipped.items():
+        if segs:
+            print(f"NOTE: {len(segs)} {k} segments not in the extract: {SKIP_KINDS[k]}")
+    rec = {"target": target, "budget": budget, "per_source": per_source, "chars_shown": used, "segments_whole": whole,
+           "segments_cut": cut_segs, "segments_listed_only": listed, "sources": len(by_src),
+           "skipped_kinds": {k: len(v) for k, v in skipped.items()}}
+    head = (f"# Corpus extract for {target}: every segment tied to the ayah, sources ranked (zengin.md Step 3 order; "
+            f"short editions before -FULL), each source up to {per_source:,} characters, {budget:,} in all\n\n"
+            f"{whole} segments whole, {len(cut_segs)} cut (each says how to get the rest), {len(listed)} not shown "
+            f"(listed at the end by locator and size). Meals, translations and the Qur'an text are in the pack files.\n")
+    text = head + "\n\n".join(blocks) + ("\n\n## Not shown (locator, kind, size): fetch with corpus.py get\n"
+                                          + "\n".join(index) if index else "")
+    print(f"extract {target}: {used:,} characters shown from {len(by_src)} sources ({whole} segments whole, "
+          f"{len(cut_segs)} cut), {len(listed)} segments listed only")
+    return wrap(text), rec
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--surah", type=int, required=True)

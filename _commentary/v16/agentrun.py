@@ -114,6 +114,9 @@ def parse(f: Path) -> dict:
     calls, ids, texts, safety, stop, model, agent_id, bad = [], [], [], [], None, None, None, 0
     handback = False  # a subagent ends its turn with the SubagentHandback tool call: that is its end_turn
     out_by_msg: dict[str, int] = {}  # the transcript records usage as the message starts streaming: output is a floor
+    ctx_by_msg: dict[str, int] = {}  # the context each message was sent with (input + cache read + cache write)
+    res_by_msg: dict[str, list[str]] = {}  # the tool results that came back after each message
+    last_mid = None
     for line in f.read_text(encoding="utf-8").splitlines():
         try:
             ev = json.loads(line)
@@ -124,6 +127,8 @@ def parse(f: Path) -> dict:
         if "safeguards stopped" in line:
             safety.append(line[:300])
         msg = ev.get("message") if isinstance(ev.get("message"), dict) else None
+        if ev.get("type") == "attachment" and last_mid:  # a reminder the harness adds: context, not the agent's output
+            res_by_msg.setdefault(last_mid, []).append(json.dumps(ev.get("attachment"), ensure_ascii=False))
         if ev.get("type") == "assistant" and msg:
             mid = msg.get("id")
             u = msg.get("usage") or {}
@@ -136,9 +141,12 @@ def parse(f: Path) -> dict:
                 usage["cache_1h"] += cc.get("ephemeral_1h_input_tokens", 0) or 0
                 usage["cache_read"] += u.get("cache_read_input_tokens", 0) or 0
                 out_by_msg[mid] = u.get("output_tokens", 0) or 0
+                ctx_by_msg[mid] = ((u.get("input_tokens", 0) or 0) + (u.get("cache_read_input_tokens", 0) or 0)
+                                   + (u.get("cache_creation_input_tokens", 0) or 0))
                 model = msg.get("model") or model
             elif mid in out_by_msg:  # the transcript repeats a message's usage per content line; take the largest output count
                 out_by_msg[mid] = max(out_by_msg[mid], u.get("output_tokens", 0) or 0)
+            last_mid = mid or last_mid
             stop = msg.get("stop_reason") or stop
             for c in msg.get("content", []) or []:
                 if not isinstance(c, dict):
@@ -159,10 +167,27 @@ def parse(f: Path) -> dict:
                         res = "".join(b.get("text", "") for b in res if isinstance(b, dict))
                     call = next((x for x in calls if x.get("id") == c.get("tool_use_id")), calls[-1])
                     call["result"], call["is_error"] = res, bool(c.get("is_error", False))
+                    if last_mid:
+                        res_by_msg.setdefault(last_mid, []).append(res if isinstance(res, str) else json.dumps(res, ensure_ascii=False))
     usage["output"] = sum(out_by_msg.values())
+    # The real output, thinking included, from the context's growth: a message's output stays in the context, so the
+    # next message's context minus this one's, minus the tool results that came back in between, is what it wrote.
+    # Result tokens are estimated from characters (Arabic ~1.45 characters per token, other text ~2.4): an estimate.
+    est = 0
+    for k, mid in enumerate(ids):
+        nxt = ids[k + 1] if k + 1 < len(ids) else None
+        if nxt is None:
+            est += out_by_msg.get(mid, 0)
+            continue
+        res = "".join(res_by_msg.get(mid, []))
+        ar = sum(1 for ch in res if "\u0600" <= ch <= "\u06ff")
+        res_tok = ar / 1.45 + (len(res) - ar) / 2.4
+        est += max(out_by_msg.get(mid, 0), int(ctx_by_msg.get(nxt, 0) - ctx_by_msg.get(mid, 0) - res_tok))
     rates = RATES.get(model or "")
     cost = round(sum(usage[k] * rates[k] for k in usage) / 1e6, 6) if rates else None
+    cost_est = round((sum(usage[k] * rates[k] for k in usage if k != "output") + est * rates["output"]) / 1e6, 6) if rates else None
     return {"transcript": str(f), "agent_id": agent_id, "model": model, "usage_tokens": usage, "cost_usd": cost,
+            "output_tokens_est": est, "cost_usd_est": cost_est,
             "stop_reason": stop, "handback": handback, "completed": handback or stop == "end_turn",
             "num_messages": len(ids), "message_ids": ids, "tool_calls": calls, "texts": texts,
             "safety": safety, "unreadable_lines": bad}
@@ -230,7 +255,8 @@ def finish(d: Path, output: str = "response.md") -> dict:
                               "cache_creation": {"ephemeral_5m_input_tokens": u["cache_5m"],
                                                  "ephemeral_1h_input_tokens": u["cache_1h"]},
                               "cache_read_input_tokens": u["cache_read"], "output_tokens": u["output"]},
-                    "total_cost_usd": p["cost_usd"],
+                    "total_cost_usd": p["cost_usd"], "output_tokens_est": p["output_tokens_est"],
+                    "cost_usd_est": p["cost_usd_est"],
                     "cost_basis": "transcript tokens x agentrun.RATES; output tokens are a floor (the transcript "
                                   "records usage as a message starts streaming), so the figure is a lower bound",
                     # the hand-back is the subagent's end of turn; usage_row reads stop_reason as the CLI's

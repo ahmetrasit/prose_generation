@@ -9,9 +9,9 @@ qirāʾāt table). `build` indexes every segments.jsonl into enrichment/corpus/c
   corpus.py import-local [--only ID,...]
   corpus.py build
   corpus.py sources [--kind tafsir]                 list sources with coverage and access
-  corpus.py get TAB:107:3 [MUS:2985 ...]            print segments by locator
+  corpus.py get TAB:107:3 [MUS:2985 ...] [--from N]  print segments by locator (--from: page a long one)
   corpus.py ayah 107:3 [--kind tafsir,meal]         every segment tied to an ayah (ranges included)
-  corpus.py search 'الماعون' [--src TAB-FULL,FARRA] [--kind tafsir] [--surah 107] [--n 20] [--chars 400]
+  corpus.py search 'الماعون' [--src TAB-FULL,FARRA] [--kind tafsir] [--surah 107] [--n 10] [--chars 300]
                                                    [--sahih] [--exact]
 
 Search matches word prefixes by default (Arabic normalised: no tashkīl, unified alef/yā/tāʾ marbūṭa/hamza
@@ -461,7 +461,16 @@ def connect() -> sqlite3.Connection:
     return sqlite3.connect(index)
 
 
-def show(row, chars: int) -> None:
+# Every get/ayah/search call prints at most CALL_LIMIT characters of text (user, 2026-10-05: a page agent re-reads all
+# its tool output on every later turn, and an output over the harness's limit spills to a file the agent then reads
+# whole). Past the limit a segment prints its header line only; a cut is always said, with the command for the rest.
+CALL_LIMIT = 20_000
+_used = 0
+_unshown: list[str] = []
+
+
+def show(row, chars: int, start: int = 0) -> None:
+    global _used
     seg, src, s, a, a_end, head, text, extra = row
     extra = json.loads(extra or "{}")
     flags = []
@@ -469,16 +478,45 @@ def show(row, chars: int) -> None:
         flags.append(f"sahih={extra['sahih']} by={'|'.join(extra.get('graded_by') or []) or '-'}")
     if extra.get("page"):
         flags.append(f"page={extra['page']}")
-    print(f"== {seg}" + (f"  [{head}]" if head else "") + ("  " + " ".join(flags) if flags else ""))
-    body = text if not chars else text[:chars] + ("…" if len(text) > chars else "")
-    print(body)
+    head_line = f"== {seg}" + (f"  [{head}]" if head else "") + ("  " + " ".join(flags) if flags else "")
+    room = CALL_LIMIT - _used if CALL_LIMIT else None
+    if room is not None and room <= 0:  # listed once, compactly, by close_call()
+        _unshown.append(f"{seg}({len(text):,})")
+        return
+    body = text[start:]
+    n = len(body) if not chars else min(chars, len(body))
+    if room is not None:
+        n = min(n, room)
+    shown = body[:n]
+    span = f"  [characters {start + 1:,}–{start + n:,} of {len(text):,}]" if (start or n < len(body)) else ""
+    print(head_line + span)
+    print(shown + (f" … [cut: `corpus.py get {seg} --from {start + n}` for the rest]" if n < len(body) else ""))
+    _used += n
     for k in ("en", "tr", "notes"):
         if extra.get(k):
-            v = extra[k]
-            print(f"  {k}: {v if not chars else v[:chars]}")
+            v = flat(extra[k])
+            v = v if not chars else v[:chars]
+            print(f"  {k}: {v}")
+            _used += len(v)
 
 
-def cmd_get(locs: list[str], chars: int) -> None:
+def close_call() -> None:
+    """The segments past the call's limit, listed once: each locator when few, else per source (count, characters)."""
+    if not _unshown:
+        return
+    if len(_unshown) <= 12:
+        listing = " ".join(_unshown)
+    else:
+        by: dict[str, list[int]] = {}
+        for x in _unshown:
+            loc, n = x.rsplit("(", 1)
+            by.setdefault(loc.split(":")[0], []).append(int(n.rstrip(")").replace(",", "")))
+        listing = "; ".join(f"{src} {len(v)} segments {sum(v):,} chars" for src, v in by.items())
+    print(f"NOTE: {len(_unshown)} segments not shown (the {CALL_LIMIT:,}-character limit of one call): {listing}. "
+          f"Get them in another call; an ayah page's locators and sizes are listed in PACK/ayah/S_A/sources.md")
+
+
+def cmd_get(locs: list[str], chars: int, start: int = 0) -> None:
     con = connect()
     for loc in locs:
         # the segment and its sub-segments (loc#2 …) by two index lookups; `OR … LIKE` would scan the whole table
@@ -488,7 +526,7 @@ def cmd_get(locs: list[str], chars: int) -> None:
         if not rows:
             print(f"== {loc}: NOT FOUND")
         for r in rows:
-            show(r, chars)
+            show(r, chars, start)
 
 
 def kinds_filter(kinds: str | None) -> tuple[str, list]:
@@ -561,7 +599,8 @@ def main() -> None:
     p.add_argument("--kind")
     p = sub.add_parser("get")
     p.add_argument("loc", nargs="+")
-    p.add_argument("--chars", type=int, default=0)
+    p.add_argument("--chars", type=int, default=0, help="per segment (0: whole, within the call's limit)")
+    p.add_argument("--from", dest="start", type=int, default=0, help="start at this character (page a long segment)")
     p = sub.add_parser("ayah")
     p.add_argument("ref")
     p.add_argument("--kind")
@@ -572,13 +611,17 @@ def main() -> None:
     p.add_argument("--src")
     p.add_argument("--kind")
     p.add_argument("--surah", type=int)
-    p.add_argument("--n", type=int, default=20)
-    p.add_argument("--chars", type=int, default=400)
+    p.add_argument("--n", type=int, default=10)
+    p.add_argument("--chars", type=int, default=300)
     p.add_argument("--sahih", action="store_true")
     p.add_argument("--exact", action="store_true")
+    for p in (sub.choices["get"], sub.choices["ayah"], sub.choices["search"]):
+        p.add_argument("--limit", type=int, default=20_000,
+                       help="characters of text this call prints (default 20,000; 0: no limit, for scripts)")
     a = ap.parse_args()
-    global INTERTEXT
+    global INTERTEXT, CALL_LIMIT
     INTERTEXT = a.intertext
+    CALL_LIMIT = getattr(a, "limit", 20_000)
     if a.cmd == "import-local":
         only = set(x for x in a.only.split(",") if x)
         for f in IMPORTERS:
@@ -588,11 +631,13 @@ def main() -> None:
     elif a.cmd == "sources":
         cmd_sources(a.kind or ("intertext" if INTERTEXT else None))
     elif a.cmd == "get":
-        cmd_get(a.loc, a.chars)
+        cmd_get(a.loc, a.chars, a.start)
     elif a.cmd == "ayah":
         cmd_ayah(a.ref, a.kind, a.src, a.chars)
     elif a.cmd == "search":
         cmd_search(a.q, a)
+    if a.cmd in ("get", "ayah", "search"):
+        close_call()
 
 
 if __name__ == "__main__":

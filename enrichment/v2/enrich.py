@@ -101,7 +101,7 @@ def tag(target: str) -> str:
 
 def call_dir(s: int, target: str, attempt: int = 1, model: str = DEFAULT_MODEL, effort: str = EFFORT) -> Path:
     # the bare directory belongs to astra at the default effort (S107's first surah call, astra max, also sits there)
-    name = f"{BRIEF}{'-dosya' if MODE == 'dosya' else ''}.{tag(target)}" + ("" if (model, effort) == (DEFAULT_MODEL, EFFORT) else f".{model}.{effort}")
+    name = f"{BRIEF}{'' if MODE == 'agent' else '-' + MODE}.{tag(target)}" + ("" if (model, effort) == (DEFAULT_MODEL, EFFORT) else f".{model}.{effort}")
     return wd(s) / (name if attempt == 1 else f"{name}.a{attempt}")
 
 
@@ -161,7 +161,7 @@ def estimate(s: int, target: str, model: str, effort: str) -> str:
     the base's word count (the surah pages ran $0.67–0.98 per 1k base words with Opus high)."""
     if MODELS[model][0] != "claude":
         return "subscription (no USD)"
-    kind = ("surah" if target == "surah" else "ayah") + ("-dosya" if MODE == "dosya" else "")
+    kind = ("surah" if target == "surah" else "ayah") + ("" if MODE == "agent" else "-" + MODE)
     rates, failed, bad = [], [], 0
     for line in (LEDGER.read_text(encoding="utf-8").splitlines() if LEDGER.exists() else []):
         try:
@@ -170,7 +170,7 @@ def estimate(s: int, target: str, model: str, effort: str) -> str:
             bad += 1
             continue
         if not (r.get("cost_usd") and (r.get("model"), r.get("effort")) == (model, effort)
-                and ("surah" if r.get("target") == "surah" else "ayah") + ("-dosya" if r.get("mode") == "dosya" else "") == kind):
+                and ("surah" if r.get("target") == "surah" else "ayah") + ("" if r.get("mode", "agent") == "agent" else "-" + r["mode"]) == kind):
             continue
         if r.get("status") != "ok":
             failed.append(r["cost_usd"])
@@ -229,8 +229,57 @@ def build_prompt(s: int, target: str, d: Path, runner: str = "codex") -> str:
                            f"- Your call directory (write only here): {d}", "- Mode: dosya (no tools; everything is in this message)"]) + "\n"
         return "\n\n".join([head, (PROMPTS / "common.md").read_text(encoding="utf-8"),
                             (PROMPTS / "zengin_dosya.md").read_text(encoding="utf-8"), df.read_text(encoding="utf-8")])
+    if MODE in ("tur", "dosya2"):  # the cost trials of 2026-10-05 (COST_PLAN.md): an addendum after the two briefs
+        if target == "surah" or BRIEF != "zengin":
+            raise SystemExit(f"mode {MODE} is built for Islamic-pass ayah pages")
+        tail = [f"- Check (run it; never write your own validator): python3 {V2 / 'tools' / 'check.py'} --surah {s} "
+                f"--target {target} --annotations {d / 'annotations.jsonl'}"]
+        if MODE == "dosya2":
+            names = EXTRACT_FILES.get(str(d), [])
+            tail.append("- Corpus extract (read in your first turn, with the files below): "
+                        + ", ".join(str(d / n) for n in names))
+        job = header(s, target, d, runner).rstrip("\n") + "\n" + "\n".join(tail) + "\n"
+        return "\n\n".join([job, (PROMPTS / "common.md").read_text(encoding="utf-8"),
+                            (PROMPTS / "zengin.md").read_text(encoding="utf-8"),
+                            (PROMPTS / f"zengin_{MODE}.md").read_text(encoding="utf-8")])
     return "\n\n".join([header(s, target, d, runner), (PROMPTS / "common.md").read_text(encoding="utf-8"),
                         (PROMPTS / f"{BRIEF}.md").read_text(encoding="utf-8")])
+
+
+EXTRACT_FILES: dict[str, list[str]] = {}  # mode dosya2: the extract's part files per call directory
+
+
+def extract_parts(s: int, target: str, d: Path, write: bool) -> list[str]:
+    """Mode dosya2: the bounded corpus extract (dossier.bounded) split into files of at most 28,000 characters (one
+    Read each), written into the call directory when write is set. Returns the file names."""
+    import dossier as DO
+    text, rec = DO.bounded(s, target)
+    parts, cur = [], ""
+    for line in text.splitlines(keepends=True):
+        if len(cur) + len(line) > 28_000 and cur:
+            parts.append(cur)
+            cur = ""
+        cur += line
+    if cur:
+        parts.append(cur)
+    names = [f"extract.{i}.md" for i in range(1, len(parts) + 1)]
+    if write:
+        d.mkdir(parents=True, exist_ok=True)
+        for n, body in zip(names, parts):
+            (d / n).write_text(body, encoding="utf-8")
+        (d / "extract.json").write_text(json.dumps(rec, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    EXTRACT_FILES[str(d)] = names
+    return names
+
+
+def agent_type(effort: str) -> str:
+    """The agent definition that fixes the effort (.claude/agents/enrich-page-<effort>.md); general-purpose, whose
+    effort is not set by us, only when it is missing (printed)."""
+    f = PG / ".claude" / "agents" / f"enrich-page-{effort}.md"
+    if f.exists():
+        return f"enrich-page-{effort}"
+    print(f"WARNING: {rel(f)} missing: spawn general-purpose with model opus, whose effort this script cannot set")
+    return "general-purpose"
 
 
 # ---------------------------------------------------------------- call
@@ -507,19 +556,48 @@ def spawn_target(s: int, target: str, model: str, effort: str, attempt: int = 1,
     if accepted(s, target) and not trial:
         return {"surah": s, "target": target, "model": model, "status": "skipped", "reason": "page already accepted"}
     try:
+        if MODE == "dosya2":
+            extract_parts(s, target, d, write=True)
         prompt = build_prompt(s, target, d, runner)
         _, base_text, info = R.target_page(s, target)
         pack_bytes = (wd(s) / "pack" / "pack.json").read_bytes()
     except (Exception, SystemExit) as e:
         return {"surah": s, "target": target, "model": model, "status": "error", "reason": f"prompt: {e}"}
     row = {"surah": s, "target": target, "attempt": attempt, "brief": BRIEF, "model": model, "model_id": model_id,
+           "agent_type": agent_type(effort) if MODE in ("tur", "dosya2") else AR.AGENT_TYPE["enrich"],
            "runner": "agent", "effort": effort, "trial": trial, "prompt_sha256": sha(prompt), "prompt_chars": len(prompt),
            "base_sha256": info["sha256"], "base_words": len(base_text.split()),
            "pack_sha256": hashlib.sha256(pack_bytes).hexdigest(), "dictionary": json.loads(pack_bytes).get("dictionary")}
     row["mode"] = MODE
     AR.prepare(d, prompt, row, "enrich-dosya" if MODE == "dosya" else "enrich", "annotations.jsonl", lookup=False)
     return {"surah": s, "target": target, "model": model, "status": "prepared", "dir": rel(d),
-            "spawn": rel(d / "spawn.md"), "agent": AR.AGENT_TYPE["enrich"]}
+            "spawn": rel(d / "spawn.md"), "agent": row["agent_type"]}
+
+
+def unread_sources(s: int, target: str, d: Path) -> list[str]:
+    """Sources with segments tied to the ayah that the agent never named in a tool call (Read path, command) and
+    that its corpus extract (mode dosya2) did not show: the page's silent skips, now recorded (meal, translation
+    and Qur'an-text sources excepted: they reach the agent through the pack)."""
+    if target == "surah":
+        return []
+    import sqlite3
+    sys.path.insert(0, str(V2 / "tools"))
+    import corpus as C
+    con = sqlite3.connect(f"file:{C.INDEX}?mode=ro", uri=True)
+    a = int(target.split(":")[1])
+    srcs = {r[0] for r in con.execute("SELECT DISTINCT seg.src FROM seg JOIN src ON src.id=seg.src WHERE seg.s=? AND "
+                                       "seg.a<=? AND coalesce(seg.a_end, seg.a)>=? AND src.kind NOT IN "
+                                       "('meal','translation','quran')", (s, a, a))}
+    seen = ""
+    tc = d / "tool_calls.json"
+    if tc.exists():
+        seen += " ".join(json.dumps(c.get("input"), ensure_ascii=False) for c in json.loads(tc.read_text(encoding="utf-8")))
+    ex = d / "extract.json"
+    if ex.exists():
+        rec = json.loads(ex.read_text(encoding="utf-8"))
+        listed = {x.split(":")[0] for x in rec.get("segments_listed_only", [])}
+        seen += " " + " ".join(f"{x}:" for x in srcs - listed)  # every source with something shown in the extract
+    return sorted(x for x in srcs if f"{x}:" not in seen and f"{x}," not in seen and f"{x} " not in seen)
 
 
 def finish_target(s: int, target: str, d: Path, trial: bool = False) -> dict:
@@ -532,7 +610,22 @@ def finish_target(s: int, target: str, d: Path, trial: bool = False) -> dict:
         return {"surah": s, "target": target, "status": "error", "reason": f"{rel(d)}: already finished; never twice"}
     row = json.loads(st_path.read_text(encoding="utf-8"))
     t0 = time.mktime(time.strptime(row["started"], "%Y-%m-%dT%H:%M:%S"))
+    parts = sorted(d.glob("annotations.[0-9]*.jsonl"), key=lambda p: int(p.suffixes[-2].lstrip(".")))
+    if parts and not (d / "annotations.jsonl").exists():  # records written in parts (modes tur, dosya2)
+        (d / "annotations.jsonl").write_text("".join(p.read_text(encoding="utf-8").rstrip("\n") + "\n" for p in parts),
+                                            encoding="utf-8")
+        print(f"NOTE: {rel(d)}: annotations.jsonl joined from {', '.join(p.name for p in parts)}")
+        row["parts"] = [p.name for p in parts]
+    elif parts:
+        print(f"WARNING: {rel(d)}: annotations.jsonl and parts ({', '.join(p.name for p in parts)}) both exist: "
+              f"only annotations.jsonl is used")
     obj = AR.finish(d, "annotations.jsonl")
+    row.update({"output_tokens_est": obj.get("output_tokens_est"), "cost_usd_est": obj.get("cost_usd_est")})
+    unread = unread_sources(s, target, d)
+    if unread:
+        row["unread_sources"] = unread
+        print(f"WARNING: {rel(d)}: {len(unread)} sources tied to {target} were never opened (nor in the extract): "
+              f"{', '.join(unread)}")
     row.update({"returncode": 0, "turn_completed": not obj.get("is_error") and obj.get("completed", obj.get("stop_reason") in (None, "end_turn")),
                 "usage": obj.get("usage") or {}, "cost_usd": obj.get("total_cost_usd"), "cost_basis": obj.get("cost_basis"),
                 "num_turns": obj.get("num_turns"), "commands": obj.get("tool_calls", 0), "transcript": obj.get("transcript"),
@@ -713,7 +806,7 @@ def main() -> None:
     ap.add_argument("--trial", action="store_true", help="render in the call directory only; no out/, no errata")
     ap.add_argument("--parallel", type=int, default=2)
     ap.add_argument("--dir", help="confirm-dead: the call directory name (e.g. zengin.surah.opus.high)")
-    ap.add_argument("--mode", choices=("agent", "dosya"), default="agent",
+    ap.add_argument("--mode", choices=("agent", "dosya", "tur", "dosya2"), default="agent",
                     help="dosya: one tool-free call on a script-built dossier (ayah pages; call dir zengin-dosya.<page>…)")
     ap.add_argument("--pass", dest="pass_", choices=("zengin", "ehlikitap"), default="zengin",
                     help="ehlikitap: the Bible pass (its own call dirs, pages <page>.ehlikitap.md, the intertext index)")
