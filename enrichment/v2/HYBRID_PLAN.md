@@ -208,3 +208,25 @@ E2. Duplicate points across groups are allowed (independent units) but the merge
   tools/corpus.py, tools/check.py, tools/compare_pages.py, tools/audit_sources.py (the source audit's script),
   fetch/biqai_intros.py, _commentary/v16/agentrun.py (RATES, parse, finish, spawn kinds).
 - Trials: work/s001/zengin-{tur,dosya2}.1_1.opus.{high,medium}/ (finished, run.log.json, coverage audit).
+
+## 5. Source inventory after the user's downloads (checked 2026-10-05, before a context compaction)
+All in enrichment/corpus/<ID>/raw/acquired-2026-10-05/; every source.json still `access: hafiza`, no acquisition
+manifest, nothing ingested or indexed yet.
+- Usable text now (import next): ACADEMIC/NOLDEKE-GDQ (3 vols, OCR good, de), ACADEMIC/JEFFERY-FOREIGN (OCR good),
+  ACADEMIC/EQ (6 vols, OCR good), ACADEMIC/STUDYQURAN (OCR good), ASAD-NOTES (1,326 pp, PDF text layer good),
+  MEAL-HAMIDULLAH (531 pp, text layer good), MEAL-ATAY 2013 and MEAL-AKDEMIR (OCR good, hyphenation `¬` to
+  repair), ACADEMIC/SINAI-KEYTERMS and ACADEMIC/CUYPERS-COMPOSITION (text layer good), ACADEMIC/ZAMMIT-COMPARATIVE
+  (text layer, tabular: needs table-aware parsing).
+- Arabic scans needing OCR (~1,330 pp): BINTSHATI 2 vols 222 pp (bundled OCR readable but noisy, e.g. «بلا شاك»
+  for «بلا شك»: not quotable as is), KHULI Manāhij tajdīd 1961 368 pp (bundled OCR noisier), ABDUH-AMMA 189 pp (no
+  text layer), MUQATIL-WUJUH (ed. Ḍāmin) 308 pp (garbled layer), IBNKHALAWAYH-MUKHTASAR 246 pp (no layer),
+  ACADEMIC/FARAHI-NIZAM (bundled OCR unusable), ACADEMIC/BADAWI-HALEEM 1,095 pp (text layer is glyph codes).
+- No OCR engine installed (no tesseract/pdftotext; pypdf only). Options put to the user: Tesseract (free, likely
+  no better than the bundled OCR), Claude reading page images (~$0.035/page with Opus: ~$45 all, ~$20 for Bint
+  al-Shāṭiʾ + al-Khūlī), or both with disagreement flags. Proposed: Claude for Bint al-Shāṭiʾ and al-Khūlī first,
+  checked against the bundled OCR. AWAITING the user's decision.
+- Incomplete/open: TARAMA download unfinished (partial ranges and .part files, last write 09:48: ask the user);
+  ACADEMIC/ISLAHI-TADABBUR (19 PDFs, 1.3 GB, Urdu: in scope? ask); MEAL-MOZTURK no files; still missing al-Jurjānī
+  (Dalāʾil, Asrār) and the rest of the al-Khūlī school (Khalafallah, Shukrī ʿAyyād, Abū Zayd: ask whom).
+- Next after the decisions: import the usable sources (source.json with provenance and OCR quality notes,
+  segments.jsonl with ayah ties where the text allows, access yerel), rebuild the index, add them to groups.json.
