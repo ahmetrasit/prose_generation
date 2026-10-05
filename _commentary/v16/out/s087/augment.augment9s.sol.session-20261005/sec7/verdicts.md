@@ -1,0 +1,226 @@
+- 2:7: ref ¶30 - inkârın ardından kalp ve işitmeye vurulan ilahî mühür.
+- 2:31: ref ¶28 - adların varlıkları birbirinden ayırması; burada sahiplik söylenmez.
+- 2:138: ref ¶28 - Allah'ın boyasıyla O'na kulluğun birlikte anılması.
+- 2:248: ref ¶29 - aileden kalan nesnenin hükümdarlık alameti oluşu.
+- 2:273: ref ¶29 - istemeyen yoksulların alametlerinden tanınması.
+- 3:14: ref ¶29, ¶30 - nişanlı at dünya süsleri arasındadır.
+- 4:119: prose ¶28 - kulak kesme işaretinin şeytan buyruğundaki karşı yüzü.
+- 5:4: ref ¶28 - avın üzerinde Allah adının anılması.
+- 6:59: not relevant - Allah'ın her yaprağı ve taneyi bilmesi, bir izin okunmasını anlatmaz.
+- 6:118: ref ¶28 - Allah adı anılanın yenmesi.
+- 6:119: ref ¶28 - anılan adın helal yiyecek sınırındaki yeri.
+- 6:121: ref ¶28 - Allah adı anılmayanı yememe sınırı.
+- 6:136: ref ¶28 - ekin ve hayvan üstüne uydurulmuş sahiplik payları.
+- 6:138: ref ¶28 - hayvanlara uydurulmuş yasak ve Allah adının anılmayışı.
+- 6:162: ref ¶28 - namaz, kurban ve hayatın âlemlerin Rabbine adanması.
+- 6:164: ref ¶28 - Allah'ın her şeyin Rabbi oluşu.
+- 7:46: ref ¶29 - A‘râf'takilerin iki topluluğu alametlerinden bilmesi.
+- 7:48: ref ¶29 - alametten tanınan kimselere seslenilmesi.
+- 7:71: ref ¶28 - insanların koyduğu ilah adlarının yetkisizliği.
+- 7:180: prose ¶28 - güzel adlar ve onlarda eğriliğe sapma yasağı.
+- 9:24: ref ¶30 - yakınları ve malları Allah'tan daha sevgili tutma sınaması.
+- 9:35: prose ¶30, ref ¶31 - saklanan madenin beden dağlayan hükme dönüşmesi.
+- 10:7: ref ¶30 - dünya hayatından hoşnutluğun ayetlerden gafletle birleşmesi.
+- 10:8: ref ¶30 - bu bağlılığın ateş yurdu sonucuyla tamamlanması.
+- 10:24: ref ¶30 - dünya hayatının biçilen ekine benzetilmesi.
+- 10:92: prose ¶31, ref ¶29 - Firavun'un bedeninin sonraya ayet bırakılması.
+- 11:15: ref ¶30 - dünya süsünü amaçlayanın karşılığını burada alması.
+- 11:16: ref ¶30 - bu seçimin ahiretteki ateş sonucu.
+- 11:82: context ¶31 (in 11:83) - işaretli taşların yağdığı yıkım.
+- 11:83: prose ¶31, ref ¶28 - Rab katında işaretlenmiş hüküm taşları.
+- 11:86: ref ¶29 - Allah'ın bıraktığı payın daha hayırlı diye nitelenmesi.
+- 12:18: prose ¶29 - kanlı gömlek izinin sahte olabilmesi.
+- 12:27: ref ¶29 - yırtığın yönüyle iddianın sınanması.
+- 12:28: ref ¶29 - görülen yırtıktan hükme varılması.
+- 12:40: prose ¶28 - insanın koyduğu adın ilahî yetki vermemesi.
+- 15:73: ref ¶31 - Lût kavmini sabah yakalayan çığlık.
+- 15:74: ref ¶31 - ters çevrilen şehrin maddi izi.
+- 15:75: cited ¶31; ref ¶29 - yıkımdan işaret okuma, eseri ayırt etme bağını da taşır.
+- 15:76: prose ¶31 - yıkım yerinin geçilen kalıcı yol üzerinde oluşu.
+- 15:77: ref ¶31 - aynı yıkımın inananlara ayet oluşu.
+- 16:16: ref ¶29 - yolda yön bildiren alametlerin kullanımı.
+- 16:108: prose ¶30 - dünya tercihini izleyen kalp ve duyu mühürleri.
+- 17:110: ref ¶28 - Allah ve Rahmân adlarının aynı güzel adların sahibine yönelmesi.
+- 18:28: ref ¶30 - Rablerini ananlardan dünya ziynetine göz çevirmeme emri.
+- 18:45: ref ¶30 - dünya hayatının kuruyan bitki örneği.
+- 18:64: ref ¶29 - yürünmüş ayak izinden geri yol bulma.
+- 18:82: not relevant - yetimler için korunan hazine, babalarının görülebilen ayırt edici izi diye sunulmaz.
+- 19:65: ref ¶28 - göklerin ve yerin Rabbine bir adaş sorusu.
+- 20:72: prose ¶30 - Firavun'u delillerin ve yaratıcılarının önüne koymayı reddeden tercih.
+- 20:73: context ¶30 (in 20:72) - Allah'ın daha hayırlı ve kalıcı oluşu.
+- 20:74: ref ¶30 - suçlunun ateşte ne ölmesi ne yaşaması.
+- 20:96: ref ¶29 - elçinin izinden bir avuç alınması, eserin alınabilir kalıntı oluşu.
+- 22:34: prose ¶28 - Allah adının O'nun verdiği hayvanlar üzerinde anılması.
+- 22:36: context ¶28 (in 22:37) - kurbanlık develerin üzerinde Allah adının anılması.
+- 22:37: prose ¶28 - dıştaki kurbanın takva ile tamamlanması.
+- 22:72: prose ¶31, ref ¶29 - ayetler okunurken inkârın yüzlerde tanınması.
+- 24:24: not relevant - uzuvların konuşarak şahitliği, bedende kalan ayırt edici bir işaret değildir.
+- 24:36: ref ¶28 - ibadet evlerinde Allah adının anılması ve tesbih.
+- 24:37: ref ¶30 - ticaretin Allah'ı anmaktan alıkoymadığı tercih.
+- 27:52: ref ¶31 - zalimlerden kalan boş evlerin bilgi sahiplerine ayet oluşu.
+- 28:88: ref ¶30 - yaratılanlar geçerken hükmün Allah'a ait kalması.
+- 29:34: ref ¶31 - Lût yerinin cezasının sebebi ve sahnesi.
+- 29:35: ref ¶31 - oradan açık bir ayetin bırakılması.
+- 30:7: not relevant - dünya hayatının dışını bilme eleştirisi, ayırt eden bir iz okumaz.
+- 30:50: ref ¶29 - dirilen yerde rahmetin eserlerinin görülmesi.
+- 32:15: ref ¶31 - hatırlatılan ayetler karşısında secde ve tesbih.
+- 33:66: ref ¶31 - ateşte çevrilen yüz ve itaat pişmanlığı.
+- 35:13: ref ¶28 - Rabbe ait mülk, diğerlerine ait olmayış.
+- 36:12: ref ¶30 - önden gönderilen fiillerle geride kalan eserlerin yazılması.
+- 36:65: ref ¶30 - mühürlenen ağız yerine el ve ayağın kazanımları bildirmesi.
+- 37:137: ref ¶31 - yok olanların yerinden sabah geçilmesi.
+- 37:138: ref ¶31 - gece de geçilip ibret sorulması.
+- 39:6: ref ¶28 - Rabbin mülkün sahibi diye anılması.
+- 39:21: ref ¶30 - çıkan ekinin sararıp kırıntıya dönüşmesi.
+- 40:21: ref ¶31 - önceki halkların toprakta kalan eserlerinin sonlarıyla karşılaştırılması.
+- 40:39: ref ¶30 - dünya geçimliği, ahiret kalıcı yurt.
+- 40:82: ref ¶31 - güçlü halkların toprak eserlerinin onları kurtarmaması.
+- 41:20: ref ¶30 - duyular ve derinin yapılanları açığa vurması.
+- 41:21: ref ¶30 - derinin Allah'ın konuşturmasıyla şahitliği.
+- 45:23: ref ¶30 - hevesi ilah edinenin kalp ve işitmesinin mühürlenmesi.
+- 46:4: ref ¶29 - yetkisiz ilahlık iddiası için bilgiden kalma iz istemi.
+- 47:30: ref ¶29 - tanınabilir alamet olasılığı ve sözün tonundan tanınma.
+- 48:29: cited ¶31; ref ¶29, ¶30 - secdenin yüzlerde bıraktığı olumlu eser ve bağlılık izi.
+- 51:33: ref ¶31 - suçlulara gönderilecek balçık taşlarının söylenmesi.
+- 51:34: ref ¶31 - bu taşların Rab katında işaretlenmiş olması.
+- 53:23: ref ¶28 - yetkisizce uydurulan ilah adları.
+- 55:41: ref ¶31 - suçluların alametlerinden tanınıp yakalanması.
+- 56:74: ref ¶28; context ¶30 (in 56:73) - ateşin hatırlatılmasını izleyen Rabbin adıyla tesbih.
+- 56:96: ref ¶28 - Rabbin adıyla tesbih emrinin tekrarı.
+- 57:20: ref ¶30 - dünya süsünün sararan ekin gibi geçmesi.
+- 59:24: ref ¶28 - Allah'ın güzel adları ile yaratılışın tesbihinin birleşmesi.
+- 63:9: ref ¶30 - mal ve evladın anmayı unutturmasının kayıp oluşu.
+- 68:10: ref ¶31 - damgalanacak kişinin başındaki uymama emri.
+- 68:11: ref ¶31 - söz taşıma davranışının bildirilmesi.
+- 68:12: ref ¶31 - iyiliği engelleyen, saldırgan, günahkâr kişilik.
+- 68:13: ref ¶31 - aynı kişinin sertlik ve kötülükle nitelenmesi.
+- 68:14: ref ¶31 - mal ve çocukların ayetleri reddeden kişiyle anılması.
+- 68:15: cited ¶31; nowhere else - masal deme sözü burada zaten okunuyor.
+- 68:16: cited ¶31; ref ¶28 - burundaki damga, adın işaretle birlikte duyulduğu sahneye bakar.
+- 69:8: ref ¶29 - helak edilenlerden bir kalıntı görülüp görülmediği sorusu.
+- 69:52: ref ¶28 - Rabbin adıyla tesbih emrinin tekrarı.
+- 73:8: ref ¶28 - Rabbin adını anmanın O'na yönelmeyle bağlanması.
+- 74:24: not relevant - 'aktarılmış sihir' sözünde kök aktarımı anlatır, iz veya tercih ilişkisi kurulmaz.
+- 74:26: ref ¶30 - inkârcının Saqar'a atılması.
+- 74:29: ref ¶30, ¶31 - Saqar'ın insan derisini kavurması.
+- 75:22: ref ¶29 - ahirette yüzün aydınlığı.
+- 75:23: ref ¶29 - aydınlık yüzün Rabbine yönelmesi.
+- 75:24: ref ¶29 - karşı yüzdeki kararma.
+- 75:25: ref ¶29 - kararmış yüzün beklediği felaket.
+- 79:38: ref ¶30 - dünya hayatını önceleme fiilinin doğrudan tekrarı.
+- 79:39: ref ¶30 - bu öncelemenin ateş yurdu.
+- 83:14: prose ¶30, ref ¶31 - yapılanların kalpte pas bırakması; masal diyen kişiyle bağlantı.
+- 83:24: ref ¶29 - nimetin yüzlerde tanınması.
+- 93:4: ref ¶30 - Peygamber'e sonraki hayatın daha hayırlı bildirilmesi.
+- 96:1: ref ¶28 - yaratıcı Rabbin adıyla okumak.
+- 99:4: not relevant - yerin haber vermesi, üzerinde tanınabilir bir iz tarif etmez.
+- 99:5: not relevant - yerin konuşmasına vahiy verilmesi, damga bağı kurmaz.
+- 2:86: ref ¶30 - dünya hayatını ahirete değişmenin karşılığındaki azap.
+- 2:93: ref ¶30 - buzağıya bağlılığın kalbe işlemesi.
+- 3:106: ref ¶29 - yüzlerin iki ayrı akıbete göre renk değiştirmesi.
+- 3:107: ref ¶29 - aydınlık yüzün rahmet yurduyla bağlanması.
+- 3:125: ref ¶29 - yardım eden meleklerin işaretle ayırt edilmesi.
+- 3:152: ref ¶30 - aynı sınavda dünyayı ve ahireti isteyenlerin ayrılması.
+- 4:56: ref ¶30 - deride yinelenen ateş azabı.
+- 4:74: ref ¶30 - dünya hayatını ahirete verme tercihi.
+- 5:2: ref ¶28 - Allah'ın ibadet alameti sayılan gerdanlıklı kurbanlıklar.
+- 5:46: ref ¶29 - önceki elçilerin izinden gelen Îsâ.
+- 5:103: ref ¶28 - Allah'ın koymadığı hayvan sınıflarını O'na yakıştırma.
+- 6:32: ref ¶30 - geçici oyuna karşı takva sahiplerinin daha iyi ahiret yurdu.
+- 6:100: ref ¶28 - Allah'ın O'na yüklenen kusurlu nitelemelerden arılığı.
+- 6:139: ref ¶28 - hayvanlara dair uydurma paylaşma kuralı.
+- 9:38: ref ¶30 - dünya hayatını ahirete yeğlemenin az kazancı.
+- 10:26: ref ¶29 - iyilerin yüzlerine karanlık ve zillet değmemesi.
+- 10:27: ref ¶29 - kötülük kazananların yüzlerinde karanlık görünmesi.
+- 12:26: ref ¶29 - gömlekteki yırtığın yönünün delil sayılması.
+- 12:91: not relevant - Allah'ın Yûsuf'u kardeşlerine üstün tutması, seçilen şeyin kişide bıraktığı izi anlatmaz.
+- 14:3: ref ¶30 - dünyayı ahirete üstün tutmanın engelleme davranışına çıkması.
+- 16:58: ref ¶29 - kız haberiyle içtekinin yüzde belirmesi.
+- 16:96: ref ¶29 - insan elindekinin tükenip Allah katındakinin kalması.
+- 16:107: context ¶30 (in 16:108) - mühürden önce açıklanan dünya tercihi.
+- 17:13: not relevant - boyna bağlanan yazgı ve kitap, tercih edilen şeyin okunur izi olarak tarif edilmez.
+- 17:18: ref ¶30 - çabuk geçeni istemenin cehennem sonucu.
+- 17:19: ref ¶30 - ahireti isteyen müminin emeğinin karşılığı.
+- 18:6: ref ¶29 - ayrılıp gidenlerin izi üzerinde kalmanın ilişkisel eser oluşu.
+- 18:46: ref ¶30 - dünya süsü karşısında kalıcı iyi ameller.
+- 19:76: ref ¶30 - kalıcı iyi amellerin Rab katındaki karşılığı.
+- 20:8: ref ¶28 - güzel adların tek Allah'a aitliği.
+- 20:84: ref ¶29 - Mûsâ'nın halkını kendi izi üstünde göstermesi.
+- 20:131: ref ¶30 - dünya çiçeğine karşı Rabbin kalıcı rızkı.
+- 22:32: ref ¶28 - ibadet alametlerini yüceltmenin kalpten gelmesi.
+- 22:40: ref ¶28 - Allah adının anıldığı ibadet yerleri.
+- 22:45: ref ¶31 - yok edilmiş kasabalardan kalan yapıların ibret sahnesi.
+- 23:104: ref ¶31 - yüzü yalayan ateşin görünür hükmü.
+- 28:60: ref ¶30 - dünya ziynetine karşı Allah katındaki kalıcı iyilik.
+- 29:64: ref ¶30 - dünya oyunu karşısında ahiretin gerçek hayat oluşu.
+- 30:9: not relevant - burada toprak 'işlenir'; önceki halkların ayırt edici eserleri denmez.
+- 30:41: not relevant - karada ve denizdeki bozulma insan fiilinin sonucu, kişiyi tanıtan bir iz diye sunulmaz.
+- 33:5: not relevant - evlatları babalarının adıyla çağırma soy hakkındadır, Rabbin mülkiyet damgası değildir.
+- 37:69: ref ¶29 - ataların yolundan gitmenin önceki yanlış bağlılığı göstermesi.
+- 37:70: ref ¶29 - ataların izinde sürüklenmenin ilişkisel eser oluşu.
+- 37:180: ref ¶28 - Rabbin uydurulan sıfatlardan tenzih edilmesi.
+- 39:60: ref ¶31 - Allah hakkında yalanın yüzdeki karanlık hükmü.
+- 42:20: ref ¶30 - dünya ve ahiret ekinini isteyenlerin ayrı payları.
+- 42:36: ref ¶30 - Allah katındakinin inananlar için kalıcı oluşu.
+- 43:17: ref ¶29 - kız haberinin yüzde beliren karanlığı.
+- 43:22: ref ¶29 - ataların izini rehber sayan topluluk.
+- 43:23: ref ¶29 - ataların izinde gitmenin tekrar eden cevabı.
+- 43:35: ref ¶30 - dünya süsünün geçimlik, ahiretin takva sahiplerine ait oluşu.
+- 46:25: ref ¶31 - yok edilenlerden kalan görülebilir konutlar.
+- 53:29: ref ¶30 - anmadan dönüp yalnız dünya hayatını isteyen kişi.
+- 55:26: ref ¶29 - yeryüzündekilerin faniliği.
+- 55:27: ref ¶29 - Rabbin vechinin kalıcılığı.
+- 55:78: ref ¶28 - Rabbin adının bereketli anılması.
+- 56:71: context ¶30 (in 56:73) - yaratılışı sorulan yakılmış ateş.
+- 56:73: prose ¶30 - yakılan ateşin hatırlatma kılınması.
+- 56:94: ref ¶30 - tesbih emrinden önceki cehennem ateşi.
+- 57:27: ref ¶29 - elçilerin önceki elçilerin izinden gelmesi.
+- 58:22: prose ¶30 - kalbe yazılan iman ve Allah'ın topluluğu.
+- 59:23: ref ¶28 - Allah'ın sıfatları ve ortak koşmadan tenzihi.
+- 74:28: not relevant - Saqar'ın hiçbir şeyi esirgememesi, iz veya kalan nesne hakkında bir tanım değildir.
+- 75:20: ref ¶30 - çabuk geçeni sevme.
+- 75:21: ref ¶30 - bu tercihle ahireti bırakma.
+- 76:25: ref ¶28 - Rabbin adını düzenli anma.
+- 76:27: ref ¶30 - çabuk geçeni sevip ağır günü ihmal.
+- 79:37: ref ¶30 - dünya tercihi öncesinde anılan taşkınlık.
+- 79:40: ref ¶30 - arzusunu tutan ve Rabbinden korkan öteki kişi.
+- 79:41: ref ¶30 - onun bahçe yurdu.
+- 80:38: ref ¶29 - aydınlık ahiret yüzü.
+- 80:40: ref ¶29 - toz bürünmüş karşı yüz.
+- 80:42: ref ¶29 - bu yüzün sahiplerinin kim olduğunun söylenmesi.
+- 88:2: ref ¶31 - ateşe girecek alçalmış yüz.
+- 88:4: ref ¶31 - o yüzlerin sıcak ateşe girmesi.
+- 88:8: ref ¶31 - öteki yüzlerin sevinci.
+- 96:15: ref ¶31 - inkârcının alnından yakalanma tehdidi.
+- 96:16: ref ¶31 - alnın yalancı ve günahkâr diye nitelenmesi.
+- 104:2: ref ¶30 - mal toplama ve sayma bağlılığı.
+- 104:6: ref ¶30 - bu kişiyi bekleyen Allah ateşi.
+- 104:7: ref ¶30 - ateşin kalplere erişmesi.
+- 42:32: not relevant - denizdeki gemiler dağlara benzetilir; ayırt edici damga yoktur.
+- 55:24: not relevant - gemilerin dağlara benzemesi tanınan bir işaret anlatmaz.
+- 83:25: not relevant - mühürlü içki, kişideki kimlik veya fiil izini göstermez.
+- 83:26: not relevant - miskli mühür yahut son tat, damganın işlevini taşımaz.
+- 3:15: ref ¶30 - dünya süslerine karşı daha iyi bahçeler.
+- 20:75: ref ¶30 - müminin salih amelle Rabbi huzuruna gelişi.
+- 20:76: ref ¶30 - bu kişinin kalıcı bahçe karşılığı.
+- 59:9: ref ¶30 - ihtiyacına rağmen başkasını kendine tercih etmenin iyi yönü.
+- 48:27: not relevant - gerçekleşecek mescid rüyası yüzlerdeki secde işaretini açıklamaz.
+- 48:28: not relevant - elçinin gönderilişi ve Allah'ın tanıklığı, bu paragraftaki beden izini açmaz.
+- 68:17: not relevant - bağ sahiplerinin sınanmasıyla yeni kıssa başlar; burun damgasının kişisini nitelemez.
+- 68:18: not relevant - bağ sahiplerinin istisna etmemesi aynı yeni kıssaya aittir.
+- 9:34 own: context ¶30 (in 9:35) - dağlama aracının biriktirilen altın ve gümüş oluşu.
+- 83:13 own: context ¶30 (in 83:14); ref ¶31 - ayetlere öncekilerin masalları deme sözü iki yerde buluşur.
+- 83:15 own: ref ¶31 - aynı reddediş çizgisinin Rabden perdelenme sonucu.
+- 87:1 own: ref ¶30 - Rab adını tesbih buyruğu, olumlu iz çizgisini açar.
+- 87:2 own: ref ¶28 - adı tesbih edilen Rabbin yaratan ve düzenleyen oluşu.
+- 87:3 own: ref ¶28 - adı tesbih edilen Rabbin takdir edip yol göstermesi.
+- 87:14 own: ref ¶30 - ilk yolun arınmayla başlaması.
+- 87:15 own: ref ¶30 - Rabbin adını anma ve namazın olumlu yol oluşu.
+- 87:16 own: cited ¶28, ¶29, ¶30; nowhere else - tercih fiilinin kökü ve dünya hayatını öne alma bu üç paragrafta zaten okunur; ¶31'deki damgalanan kişiye aynı tercihi yüklemez.
+- 87:17 own: cited ¶29; ref ¶30 - ahiretin daha hayırlı ve kalıcı oluşu, ¶30'daki dünya tercihinin değerini açıkça karşılar.
+- 87:18 own: cited ¶31; nowhere else - ilk sayfalar sözü burada masal diyenin 'öncekiler' sözüyle karşılaştırılır; diğer paragrafların iz veya ad sahnesini ayrıca açmaz.
+- 16:106 own: context ¶30 (in 16:108) - baskı altında söylenen inkârla isteyerek yönelmenin ayrımı.
+- 16:109 own: ref ¶30 - mühürlenenlerin ahirette kaybı.
+- 7:47 own: ref ¶29 - alametle ayrılan topluluklardan ateş tarafına bakış ve sığınma.
+- 7:49 own: not relevant - rahmet vaadi, alametle tanıma mekanizmasını ilerletmez.
+- 56:72 own: context ¶30 (in 56:73) - yakılan ateşin ağacını yaratanın sorulması.

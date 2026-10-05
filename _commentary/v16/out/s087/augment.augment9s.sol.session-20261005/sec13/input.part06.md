@@ -1,0 +1,114 @@
+- (23:19) [luna: medium; terra: medium; basis: neighbour+scene+theme] فَأَنشَأْنَا لَكُم بِهِۦ جَنَّٰتٍۢ مِّن نَّخِيلٍۢ وَأَعْنَٰبٍۢ لَّكُمْ فِيهَا فَوَٰكِهُ كَثِيرَةٌۭ وَمِنْهَا تَأْكُلُونَ
+  Unverified discovery rationale: luna: The next verse brings forth gardens, dates, and grapes from that water; its own contribution is the visible yield that follows 23:18. | terra: Gardens of palms and grapes are produced by the stored water of 23:18, making underground provision visible and edible.
+- (23:92) [terra: medium; basis: theme] عَٰلِمِ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ فَتَعَٰلَىٰ عَمَّا يُشْرِكُونَ
+  Unverified discovery rationale: terra: The Knower of unseen and witnessed is exalted above false partners, grounding comprehensive knowledge in divine uniqueness.
+- (26:193) [terra: medium; basis: neighbour+scene] نَزَلَ بِهِ ٱلرُّوحُ ٱلْأَمِينُ
+  Unverified discovery rationale: terra: The trustworthy Spirit brings the revelation down, beginning the movement completed by 26:194-195 from source to heart to Arabic speech.
+- (26:194) [terra: medium; basis: neighbour+scene+theme] عَلَىٰ قَلْبِكَ لِتَكُونَ مِنَ ٱلْمُنذِرِينَ
+  Unverified discovery rationale: terra: Revelation descends upon the Prophet's heart, the interior location from which warning will be voiced.
+- (26:195) [terra: medium; basis: neighbour+scene] بِلِسَانٍ عَرَبِىٍّۢ مُّبِينٍۢ
+  Unverified discovery rationale: terra: The revelation is in a clear Arabic tongue, completing 26:194's passage from heart to articulate language.
+- (27:60) [terra: medium; basis: scene+theme] أَمَّنْ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَأَنزَلَ لَكُم مِّنَ ٱلسَّمَآءِ مَآءًۭ فَأَنۢبَتْنَا بِهِۦ حَدَآئِقَ ذَاتَ بَهْجَةٍۢ مَّا كَانَ لَكُمْ أَن تُنۢبِتُوا۟ شَجَرَهَآ ۗ أَءِلَٰهٌۭ مَّعَ ٱللَّهِ ۚ بَلْ هُمْ قَوْمٌۭ يَعْدِلُونَ
+  Unverified discovery rationale: terra: Rain produces flourishing gardens whose trees people could not grow unaided, another emergence of visible life by divine action.
+- (27:65) [terra: medium; basis: theme] قُل لَّا يَعْلَمُ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ٱلْغَيْبَ إِلَّا ٱللَّهُ ۚ وَمَا يَشْعُرُونَ أَيَّانَ يُبْعَثُونَ
+  Unverified discovery rationale: terra: No one in the heavens and earth knows the unseen except God, stating the epistemic boundary behind the hoopoe's claim.
+- (27:75) [terra: medium; basis: scene+theme] وَمَا مِنْ غَآئِبَةٍۢ فِى ٱلسَّمَآءِ وَٱلْأَرْضِ إِلَّا فِى كِتَٰبٍۢ مُّبِينٍ
+  Unverified discovery rationale: terra: No hidden thing in heaven or earth lies outside a clear record, extending 27:25's ٱلْخَبْءَ beyond what the bird has observed.
+- (29:45) [luna: medium (missing-ayat turn); basis: scene+theme] ٱتْلُ مَآ أُوحِىَ إِلَيْكَ مِنَ ٱلْكِتَٰبِ وَأَقِمِ ٱلصَّلَوٰةَ ۖ إِنَّ ٱلصَّلَوٰةَ تَنْهَىٰ عَنِ ٱلْفَحْشَآءِ وَٱلْمُنكَرِ ۗ وَلَذِكْرُ ٱللَّهِ أَكْبَرُ ۗ وَٱللَّهُ يَعْلَمُ مَا تَصْنَعُونَ
+  Unverified discovery rationale: luna: This verse places recitation beside prayer and remembrance of God, bringing together the section's reading in 87:6 and remembrance followed by prayer in 87:15.
+- (29:63) [luna: medium; basis: scene+theme] وَلَئِن سَأَلْتَهُم مَّن نَّزَّلَ مِنَ ٱلسَّمَآءِ مَآءًۭ فَأَحْيَا بِهِ ٱلْأَرْضَ مِنۢ بَعْدِ مَوْتِهَا لَيَقُولُنَّ ٱللَّهُ ۚ قُلِ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْقِلُونَ
+  Unverified discovery rationale: luna: Asked who sends water and gives life to dead earth, the people answer God; it states the rain-to-emergence relation underlying the section's pasture image.
+- (30:24) [luna: medium; terra: medium; basis: scene+theme] وَمِنْ ءَايَٰتِهِۦ يُرِيكُمُ ٱلْبَرْقَ خَوْفًۭا وَطَمَعًۭا وَيُنَزِّلُ مِنَ ٱلسَّمَآءِ مَآءًۭ فَيُحْىِۦ بِهِ ٱلْأَرْضَ بَعْدَ مَوْتِهَآ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍۢ لِّقَوْمٍۢ يَعْقِلُونَ
+  Unverified discovery rationale: luna: Rain revives the earth after its death; the verse makes the section's emergence-from-earth image a sign of God's power. | terra: Rain from the sky revives earth after death, presenting emergence as a sign perceptible after hidden fear and hope.
+- (30:48) [luna: medium; basis: scene+theme] ٱللَّهُ ٱلَّذِى يُرْسِلُ ٱلرِّيَٰحَ فَتُثِيرُ سَحَابًۭا فَيَبْسُطُهُۥ فِى ٱلسَّمَآءِ كَيْفَ يَشَآءُ وَيَجْعَلُهُۥ كِسَفًۭا فَتَرَى ٱلْوَدْقَ يَخْرُجُ مِنْ خِلَٰلِهِۦ ۖ فَإِذَآ أَصَابَ بِهِۦ مَن يَشَآءُ مِنْ عِبَادِهِۦٓ إِذَا هُمْ يَسْتَبْشِرُونَ
+  Unverified discovery rationale: luna: God sends winds that raise clouds and spread them; this supplies the cloud stage before the rain and growth paired with the section's pasture.
+- (30:49) [luna: medium; basis: neighbour+scene+theme] وَإِن كَانُوا۟ مِن قَبْلِ أَن يُنَزَّلَ عَلَيْهِم مِّن قَبْلِهِۦ لَمُبْلِسِينَ
+  Unverified discovery rationale: luna: The rain cloud brings glad tidings before water descends; following 30:48, this row contributes the arrival of rain that enables emergence.
+- (30:50) [luna: medium; basis: neighbour+scene+theme] فَٱنظُرْ إِلَىٰٓ ءَاثَٰرِ رَحْمَتِ ٱللَّهِ كَيْفَ يُحْىِ ٱلْأَرْضَ بَعْدَ مَوْتِهَآ ۚ إِنَّ ذَٰلِكَ لَمُحْىِ ٱلْمَوْتَىٰ ۖ وَهُوَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ
+  Unverified discovery rationale: luna: The verse directs attention to God's mercy in giving life to earth after death; it completes the rain sequence of 30:48-49 with the visible result.
+- (31:19) [luna: contrast; terra: medium; basis: contrast+scene+speaker] وَٱقْصِدْ فِى مَشْيِكَ وَٱغْضُضْ مِن صَوْتِكَ ۚ إِنَّ أَنكَرَ ٱلْأَصْوَٰتِ لَصَوْتُ ٱلْحَمِيرِ
+  Unverified discovery rationale: luna: The command وَاغْضُضْ مِن صَوْتِكَ (lower your voice) makes measured vocal volume a practical boundary, complementing the section's loud/inward axis. | terra: Luqman commands moderation in walking and lowering the voice, another explicit measure placed on audible speech.
+- (32:6) [terra: medium; basis: theme] ذَٰلِكَ عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ ٱلْعَزِيزُ ٱلرَّحِيمُ
+  Unverified discovery rationale: terra: The Creator described in the surrounding passage is Knower of unseen and witnessed, joining hidden knowledge to ordering creation.
+- (33:32) [terra: medium (missing-ayat turn); basis: scene+speaker] يَٰنِسَآءَ ٱلنَّبِىِّ لَسْتُنَّ كَأَحَدٍۢ مِّنَ ٱلنِّسَآءِ ۚ إِنِ ٱتَّقَيْتُنَّ فَلَا تَخْضَعْنَ بِٱلْقَوْلِ فَيَطْمَعَ ٱلَّذِى فِى قَلْبِهِۦ مَرَضٌۭ وَقُلْنَ قَوْلًۭا مَّعْرُوفًۭا
+  Unverified discovery rationale: terra: The Prophet's wives are told not to soften speech provocatively and to speak appropriately, regulating vocal quality rather than mere loudness.
+- (33:43) [luna: medium (missing-ayat turn); basis: contrast+root+theme] هُوَ ٱلَّذِى يُصَلِّى عَلَيْكُمْ وَمَلَٰٓئِكَتُهُۥ لِيُخْرِجَكُم مِّنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ ۚ وَكَانَ بِٱلْمُؤْمِنِينَ رَحِيمًۭا
+  Unverified discovery rationale: luna: God brings believers out of darkness into light; this is another direct Qur'anic use of emergence as a change of state.
+- (33:63) [terra: medium; basis: theme] يَسْـَٔلُكَ ٱلنَّاسُ عَنِ ٱلسَّاعَةِ ۖ قُلْ إِنَّمَا عِلْمُهَا عِندَ ٱللَّهِ ۚ وَمَا يُدْرِيكَ لَعَلَّ ٱلسَّاعَةَ تَكُونُ قَرِيبًا
+  Unverified discovery rationale: terra: Questioners about the Hour are told its knowledge is only with God, reinforcing the concealed time of 20:15.
+- (34:14) [terra: medium; basis: scene+theme] فَلَمَّا قَضَيْنَا عَلَيْهِ ٱلْمَوْتَ مَا دَلَّهُمْ عَلَىٰ مَوْتِهِۦٓ إِلَّا دَآبَّةُ ٱلْأَرْضِ تَأْكُلُ مِنسَأَتَهُۥ ۖ فَلَمَّا خَرَّ تَبَيَّنَتِ ٱلْجِنُّ أَن لَّوْ كَانُوا۟ يَعْلَمُونَ ٱلْغَيْبَ مَا لَبِثُوا۟ فِى ٱلْعَذَابِ ٱلْمُهِينِ
+  Unverified discovery rationale: terra: Solomon's death remains hidden from the jinn until a ground creature weakens his staff and his fall discloses it, exposing their lack of unseen knowledge.
+- (35:9) [luna: medium; basis: scene+theme] وَٱللَّهُ ٱلَّذِىٓ أَرْسَلَ ٱلرِّيَٰحَ فَتُثِيرُ سَحَابًۭا فَسُقْنَٰهُ إِلَىٰ بَلَدٍۢ مَّيِّتٍۢ فَأَحْيَيْنَا بِهِ ٱلْأَرْضَ بَعْدَ مَوْتِهَا ۚ كَذَٰلِكَ ٱلنُّشُورُ
+  Unverified discovery rationale: luna: Winds drive clouds to dead land and God gives life to earth after death; this is a concrete cloud-to-emergence scene.
+- (35:12) [terra: medium (missing-ayat turn); basis: root+scene] وَمَا يَسْتَوِى ٱلْبَحْرَانِ هَٰذَا عَذْبٌۭ فُرَاتٌۭ سَآئِغٌۭ شَرَابُهُۥ وَهَٰذَا مِلْحٌ أُجَاجٌۭ ۖ وَمِن كُلٍّۢ تَأْكُلُونَ لَحْمًۭا طَرِيًّۭا وَتَسْتَخْرِجُونَ حِلْيَةًۭ تَلْبَسُونَهَا ۖ وَتَرَى ٱلْفُلْكَ فِيهِ مَوَاخِرَ لِتَبْتَغُوا۟ مِن فَضْلِهِۦ وَلَعَلَّكُمْ تَشْكُرُونَ
+  Unverified discovery rationale: terra: From the two bodies of water people eat and extract ornaments, repeating the retrieval of something concealed below the surface.
+- (35:27) [terra: medium; basis: root+scene] أَلَمْ تَرَ أَنَّ ٱللَّهَ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءًۭ فَأَخْرَجْنَا بِهِۦ ثَمَرَٰتٍۢ مُّخْتَلِفًا أَلْوَٰنُهَا ۚ وَمِنَ ٱلْجِبَالِ جُدَدٌۢ بِيضٌۭ وَحُمْرٌۭ مُّخْتَلِفٌ أَلْوَٰنُهَا وَغَرَابِيبُ سُودٌۭ
+  Unverified discovery rationale: terra: Rain is followed by fruits brought out in varied colors, a direct agricultural use of أخرج.
+- (35:29) [terra: medium; basis: theme] إِنَّ ٱلَّذِينَ يَتْلُونَ كِتَٰبَ ٱللَّهِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَأَنفَقُوا۟ مِمَّا رَزَقْنَٰهُمْ سِرًّۭا وَعَلَانِيَةًۭ يَرْجُونَ تِجَٰرَةًۭ لَّن تَبُورَ
+  Unverified discovery rationale: terra: Those who recite God's Book, pray, and spend secretly and publicly bring recitation and the two modes of action into one ayah.
+- (36:35) [luna: medium; basis: neighbour+scene+theme] لِيَأْكُلُوا۟ مِن ثَمَرِهِۦ وَمَا عَمِلَتْهُ أَيْدِيهِمْ ۖ أَفَلَا يَشْكُرُونَ
+  Unverified discovery rationale: luna: The next verse names the fruit people eat; it completes 36:33-34 by showing the yield of the emerging gardens.
+- (39:46) [luna: medium; terra: medium; basis: contrast+theme] قُلِ ٱللَّهُمَّ فَاطِرَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ عَٰلِمَ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ أَنتَ تَحْكُمُ بَيْنَ عِبَادِكَ فِى مَا كَانُوا۟ فِيهِ يَخْتَلِفُونَ
+  Unverified discovery rationale: luna: God is invoked as knower of the unseen and the witnessed; this gives the section's hidden/manifest pair a concise epistemic formulation. | terra: The prayer invokes the Knower of unseen and witnessed to judge disclosed disagreement.
+- (39:47) [terra: medium; basis: scene+theme] وَلَوْ أَنَّ لِلَّذِينَ ظَلَمُوا۟ مَا فِى ٱلْأَرْضِ جَمِيعًۭا وَمِثْلَهُۥ مَعَهُۥ لَٱفْتَدَوْا۟ بِهِۦ مِن سُوٓءِ ٱلْعَذَابِ يَوْمَ ٱلْقِيَٰمَةِ ۚ وَبَدَا لَهُم مِّنَ ٱللَّهِ مَا لَمْ يَكُونُوا۟ يَحْتَسِبُونَ
+  Unverified discovery rationale: terra: At judgment there appears to wrongdoers from God what they had never reckoned with, a broader form of concealed reality becoming manifest.
+- (41:22) [luna: medium; basis: contrast+theme] وَمَا كُنتُمْ تَسْتَتِرُونَ أَن يَشْهَدَ عَلَيْكُمْ سَمْعُكُمْ وَلَآ أَبْصَٰرُكُمْ وَلَا جُلُودُكُمْ وَلَٰكِن ظَنَنتُمْ أَنَّ ٱللَّهَ لَا يَعْلَمُ كَثِيرًۭا مِّمَّا تَعْمَلُونَ
+  Unverified discovery rationale: luna: The people thought they could conceal their acts, but their hearing, eyes, and skins testify; this is a boundary on what concealment can protect.
+- (41:39) [luna: medium; terra: medium; basis: scene+theme] وَمِنْ ءَايَٰتِهِۦٓ أَنَّكَ تَرَى ٱلْأَرْضَ خَٰشِعَةًۭ فَإِذَآ أَنزَلْنَا عَلَيْهَا ٱلْمَآءَ ٱهْتَزَّتْ وَرَبَتْ ۚ إِنَّ ٱلَّذِىٓ أَحْيَاهَا لَمُحْىِ ٱلْمَوْتَىٰٓ ۚ إِنَّهُۥ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌ
+  Unverified discovery rationale: luna: Barren earth stirs when water descends and grows; this is a close, observable version of the section's covered ground yielding vegetation. | terra: Humbled earth stirs and swells when rain falls; the One who revives it will revive the dead.
+- (42:45) [terra: medium; basis: root+scene] وَتَرَىٰهُمْ يُعْرَضُونَ عَلَيْهَا خَٰشِعِينَ مِنَ ٱلذُّلِّ يَنظُرُونَ مِن طَرْفٍ خَفِىٍّۢ ۗ وَقَالَ ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّ ٱلْخَٰسِرِينَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ وَأَهْلِيهِمْ يَوْمَ ٱلْقِيَٰمَةِ ۗ أَلَآ إِنَّ ٱلظَّٰلِمِينَ فِى عَذَابٍۢ مُّقِيمٍۢ
+  Unverified discovery rationale: terra: The condemned look with a stealthy, concealed glance; خَفِيٍّ shifts hiddenness from speech to the eye's manner.
+- (45:5) [terra: medium; basis: scene+theme] وَٱخْتِلَٰفِ ٱلَّيْلِ وَٱلنَّهَارِ وَمَآ أَنزَلَ ٱللَّهُ مِنَ ٱلسَّمَآءِ مِن رِّزْقٍۢ فَأَحْيَا بِهِ ٱلْأَرْضَ بَعْدَ مَوْتِهَا وَتَصْرِيفِ ٱلرِّيَٰحِ ءَايَٰتٌۭ لِّقَوْمٍۢ يَعْقِلُونَ
+  Unverified discovery rationale: terra: Provision descends from heaven and revives earth after death, another concise rain-to-manifest-life relation.
+- (45:33) [terra: medium; basis: scene+theme] وَبَدَا لَهُمْ سَيِّـَٔاتُ مَا عَمِلُوا۟ وَحَاقَ بِهِم مَّا كَانُوا۟ بِهِۦ يَسْتَهْزِءُونَ
+  Unverified discovery rationale: terra: The evil consequences of deeds become manifest and surround those who mocked them, turning formerly unseen outcome into public reality.
+- (48:11) [luna: medium (missing-ayat turn); basis: contrast+scene+theme] سَيَقُولُ لَكَ ٱلْمُخَلَّفُونَ مِنَ ٱلْأَعْرَابِ شَغَلَتْنَآ أَمْوَٰلُنَا وَأَهْلُونَا فَٱسْتَغْفِرْ لَنَا ۚ يَقُولُونَ بِأَلْسِنَتِهِم مَّا لَيْسَ فِى قُلُوبِهِمْ ۚ قُلْ فَمَن يَمْلِكُ لَكُم مِّنَ ٱللَّهِ شَيْـًٔا إِنْ أَرَادَ بِكُمْ ضَرًّا أَوْ أَرَادَ بِكُمْ نَفْعًۢا ۚ بَلْ كَانَ ٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرًۢا
+  Unverified discovery rationale: luna: The Bedouins' tongues say what their hearts do not contain; this is another specific case where voiced speech and hidden inward state diverge.
+- (48:29) [luna: medium; basis: scene+theme] مُّحَمَّدٌۭ رَّسُولُ ٱللَّهِ ۚ وَٱلَّذِينَ مَعَهُۥٓ أَشِدَّآءُ عَلَى ٱلْكُفَّارِ رُحَمَآءُ بَيْنَهُمْ ۖ تَرَىٰهُمْ رُكَّعًۭا سُجَّدًۭا يَبْتَغُونَ فَضْلًۭا مِّنَ ٱللَّهِ وَرِضْوَٰنًۭا ۖ سِيمَاهُمْ فِى وُجُوهِهِم مِّنْ أَثَرِ ٱلسُّجُودِ ۚ ذَٰلِكَ مَثَلُهُمْ فِى ٱلتَّوْرَىٰةِ ۚ وَمَثَلُهُمْ فِى ٱلْإِنجِيلِ كَزَرْعٍ أَخْرَجَ شَطْـَٔهُۥ فَـَٔازَرَهُۥ فَٱسْتَغْلَظَ فَٱسْتَوَىٰ عَلَىٰ سُوقِهِۦ يُعْجِبُ ٱلزُّرَّاعَ لِيَغِيظَ بِهِمُ ٱلْكُفَّارَ ۗ وَعَدَ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ مِنْهُم مَّغْفِرَةًۭ وَأَجْرًا عَظِيمًۢا
+  Unverified discovery rationale: luna: The verse describes a plant sending out its shoot and strengthening into a firm stem; it extends the section's emergence image from first appearance to growth.
+- (49:4) [luna: medium (missing-ayat turn); terra: medium (missing-ayat turn); basis: contrast+neighbour+scene] إِنَّ ٱلَّذِينَ يُنَادُونَكَ مِن وَرَآءِ ٱلْحُجُرَٰتِ أَكْثَرُهُمْ لَا يَعْقِلُونَ
+  Unverified discovery rationale: luna: People call to the Prophet from outside his private chambers; it gives the section's loud-speech side a concrete public-call scene. | terra: People call the Prophet from behind private chambers, combining a spatial covering with the poorly measured address corrected by 49:2-3.
+- (49:5) [luna: medium (missing-ayat turn); basis: contrast+neighbour+scene] وَلَوْ أَنَّهُمْ صَبَرُوا۟ حَتَّىٰ تَخْرُجَ إِلَيْهِمْ لَكَانَ خَيْرًۭا لَّهُمْ ۚ وَٱللَّهُ غَفُورٌۭ رَّحِيمٌۭ
+  Unverified discovery rationale: luna: The verse says it would be better for them to wait until the Prophet comes out; following 49:4's calls from outside, it supplies the contrasting restraint.
+- (50:7) [terra: medium (missing-ayat turn); basis: scene+theme] وَٱلْأَرْضَ مَدَدْنَٰهَا وَأَلْقَيْنَا فِيهَا رَوَٰسِىَ وَأَنۢبَتْنَا فِيهَا مِن كُلِّ زَوْجٍۭ بَهِيجٍۢ
+  Unverified discovery rationale: terra: Earth is extended and every beautiful pair is caused to grow in it, another direct contemplation of life appearing from soil.
+- (50:9) [luna: medium; terra: medium; basis: neighbour+scene+theme] وَنَزَّلْنَا مِنَ ٱلسَّمَآءِ مَآءًۭ مُّبَٰرَكًۭا فَأَنۢبَتْنَا بِهِۦ جَنَّٰتٍۢ وَحَبَّ ٱلْحَصِيدِ
+  Unverified discovery rationale: luna: Blessed rain grows gardens, grain, and harvest; it is a direct agricultural parallel to the pasture brought out in 87:4. | terra: Blessed water descends and begins the garden-and-grain sequence continued in 50:10-11.
+- (50:10) [luna: medium; terra: medium; basis: neighbour+scene+theme] وَٱلنَّخْلَ بَاسِقَٰتٍۢ لَّهَا طَلْعٌۭ نَّضِيدٌۭ
+  Unverified discovery rationale: luna: The next verse names tall date palms with clustered fruit; its own contribution is a specific visible yield from the growth introduced in 50:9. | terra: Tall palms with layered clusters show ordered growth rising from the rain-fed earth.
+- (50:11) [luna: medium; terra: medium; basis: neighbour+scene+theme] رِّزْقًۭا لِّلْعِبَادِ ۖ وَأَحْيَيْنَا بِهِۦ بَلْدَةًۭ مَّيْتًۭا ۚ كَذَٰلِكَ ٱلْخُرُوجُ
+  Unverified discovery rationale: luna: This verse calls the crops provision and says dead land is revived; it completes 50:9-10 with the purpose and result of growth. | terra: The growth feeds servants and revives a dead land, after which human خروج is explicitly compared to it.
+- (55:4) [luna: medium (missing-ayat turn); basis: scene+theme] عَلَّمَهُ ٱلْبَيَانَ
+  Unverified discovery rationale: luna: The verse says God taught the human being البيان, articulated expression; it connects to the source section's account of speech and the physical shaping of voiced letters.
+- (55:22) [luna: medium (missing-ayat turn); terra: medium (missing-ayat turn); basis: root+scene+theme] يَخْرُجُ مِنْهُمَا ٱللُّؤْلُؤُ وَٱلْمَرْجَانُ
+  Unverified discovery rationale: luna: Pearls and coral emerge from the seas; this is a specific example of something coming out from a place, matching the source section's extraction sense. | terra: Pearls and coral come forth from the waters, a compact physical instance of hidden objects emerging.
+- (57:9) [luna: medium (missing-ayat turn); basis: contrast+root+theme] هُوَ ٱلَّذِى يُنَزِّلُ عَلَىٰ عَبْدِهِۦٓ ءَايَٰتٍۭ بَيِّنَٰتٍۢ لِّيُخْرِجَكُم مِّنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ ۚ وَإِنَّ ٱللَّهَ بِكُمْ لَرَءُوفٌۭ رَّحِيمٌۭ
+  Unverified discovery rationale: luna: God sends clear signs to bring believers out of darkness into light, joining revelation and the source section's emergence image.
+- (57:20) [luna: medium; terra: medium; basis: contrast+scene+theme] ٱعْلَمُوٓا۟ أَنَّمَا ٱلْحَيَوٰةُ ٱلدُّنْيَا لَعِبٌۭ وَلَهْوٌۭ وَزِينَةٌۭ وَتَفَاخُرٌۢ بَيْنَكُمْ وَتَكَاثُرٌۭ فِى ٱلْأَمْوَٰلِ وَٱلْأَوْلَٰدِ ۖ كَمَثَلِ غَيْثٍ أَعْجَبَ ٱلْكُفَّارَ نَبَاتُهُۥ ثُمَّ يَهِيجُ فَتَرَىٰهُ مُصْفَرًّۭا ثُمَّ يَكُونُ حُطَٰمًۭا ۖ وَفِى ٱلْءَاخِرَةِ عَذَابٌۭ شَدِيدٌۭ وَمَغْفِرَةٌۭ مِّنَ ٱللَّهِ وَرِضْوَٰنٌۭ ۚ وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا مَتَٰعُ ٱلْغُرُورِ
+  Unverified discovery rationale: luna: Rain-fed growth delights people, then dries and becomes debris; it parallels the section's pasture and its passing into withered remains. | terra: Rain-produced growth impresses its cultivators before yellowing and breaking down, preserving the visible phase of what earth brought forth.
+- (58:8) [luna: medium (missing-ayat turn); basis: scene+theme] أَلَمْ تَرَ إِلَى ٱلَّذِينَ نُهُوا۟ عَنِ ٱلنَّجْوَىٰ ثُمَّ يَعُودُونَ لِمَا نُهُوا۟ عَنْهُ وَيَتَنَٰجَوْنَ بِٱلْإِثْمِ وَٱلْعُدْوَٰنِ وَمَعْصِيَتِ ٱلرَّسُولِ وَإِذَا جَآءُوكَ حَيَّوْكَ بِمَا لَمْ يُحَيِّكَ بِهِ ٱللَّهُ وَيَقُولُونَ فِىٓ أَنفُسِهِمْ لَوْلَا يُعَذِّبُنَا ٱللَّهُ بِمَا نَقُولُ ۚ حَسْبُهُمْ جَهَنَّمُ يَصْلَوْنَهَا ۖ فَبِئْسَ ٱلْمَصِيرُ
+  Unverified discovery rationale: luna: People continue private conversations about sin, hostility, and disobedience; this extends 58:7's scene of speech that cannot be hidden from God.
+- (58:10) [luna: medium (missing-ayat turn); basis: neighbour+scene+theme] إِنَّمَا ٱلنَّجْوَىٰ مِنَ ٱلشَّيْطَٰنِ لِيَحْزُنَ ٱلَّذِينَ ءَامَنُوا۟ وَلَيْسَ بِضَآرِّهِمْ شَيْـًٔا إِلَّا بِإِذْنِ ٱللَّهِ ۚ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ
+  Unverified discovery rationale: luna: The next verse says private conversation can be used by Satan to grieve believers; its own contribution is the harm a hidden exchange can carry.
+- (59:22) [terra: medium; basis: theme] هُوَ ٱللَّهُ ٱلَّذِى لَآ إِلَٰهَ إِلَّا هُوَ ۖ عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ ۖ هُوَ ٱلرَّحْمَٰنُ ٱلرَّحِيمُ
+  Unverified discovery rationale: terra: God alone is named Knower of unseen and witnessed, the abstract pair corresponding to the section's concrete open and hidden states.
+- (62:8) [terra: medium; basis: theme] قُلْ إِنَّ ٱلْمَوْتَ ٱلَّذِى تَفِرُّونَ مِنْهُ فَإِنَّهُۥ مُلَٰقِيكُمْ ۖ ثُمَّ تُرَدُّونَ إِلَىٰ عَٰلِمِ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ فَيُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ
+  Unverified discovery rationale: terra: After death overtakes those fleeing it, they return to the Knower of unseen and witnessed who discloses their deeds.
+- (64:18) [terra: medium; basis: theme] عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ ٱلْعَزِيزُ ٱلْحَكِيمُ
+  Unverified discovery rationale: terra: Knower of unseen and witnessed follows the explicit secret/public knowledge of 64:4 and summarizes its range.
+- (72:25) [terra: medium (missing-ayat turn); basis: neighbour+theme] قُلْ إِنْ أَدْرِىٓ أَقَرِيبٌۭ مَّا تُوعَدُونَ أَمْ يَجْعَلُ لَهُۥ رَبِّىٓ أَمَدًا
+  Unverified discovery rationale: terra: The Prophet says he does not know whether the promised event is near or assigned a long term, preparing the unseen-knowledge boundary of 72:26-27.
+- (73:8) [terra: medium; basis: scene+speaker] وَٱذْكُرِ ٱسْمَ رَبِّكَ وَتَبَتَّلْ إِلَيْهِ تَبْتِيلًۭا
+  Unverified discovery rationale: terra: The command to remember the Lord's name and devote oneself to Him echoes 87:15, while the section supplies its inward and voiced modes.
+- (75:7) [luna: contrast; terra: medium; basis: contrast+scene] فَإِذَا بَرِقَ ٱلْبَصَرُ
+  Unverified discovery rationale: luna: The source's dictionary note says a جَهْرَاء eye may fail in sunlight; here the eye is dazzled, showing that excessive brightness can itself defeat seeing. | terra: The eye is dazzled at the onset of the last day, giving the section's visually overwhelmed eye an eschatological form.
+- (77:21) [terra: medium; basis: scene] فَجَعَلْنَٰهُ فِى قَرَارٍۢ مَّكِينٍ
+  Unverified discovery rationale: terra: The human drop is placed in a secure enclosure, another concrete covered interior.
+- (77:22) [terra: medium; basis: neighbour+scene] إِلَىٰ قَدَرٍۢ مَّعْلُومٍۢ
+  Unverified discovery rationale: terra: It remains there until a known measure, making the hidden interval both bounded and divinely measured.
+- (78:14) [luna: medium; terra: medium; basis: neighbour+scene+theme] وَأَنزَلْنَا مِنَ ٱلْمُعْصِرَٰتِ مَآءًۭ ثَجَّاجًۭا
+  Unverified discovery rationale: luna: Abundant rain is sent down from clouds; 78:15 names the grain and vegetation it brings forth, so this row supplies the water stage. | terra: Pouring water descends from rain clouds, opening the emergence sequence of 78:15-16.
+- (78:15) [luna: medium; terra: medium; basis: neighbour+scene+theme] لِّنُخْرِجَ بِهِۦ حَبًّۭا وَنَبَاتًۭا
+  Unverified discovery rationale: luna: The verse says rain brings out grain and vegetation; its own contribution is the crop emerging from the water in 78:14. | terra: Grain and vegetation are brought out by that water, the direct counterpart to rain-released pasture.
+- (78:16) [luna: medium; terra: medium; basis: neighbour+scene+theme] وَجَنَّٰتٍ أَلْفَافًا
+  Unverified discovery rationale: luna: This verse's gardens complete 78:14-15's rain-to-crop sequence with a cultivated visible yield. | terra: Dense gardens complete the visible abundance produced in 78:14-15.

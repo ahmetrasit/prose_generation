@@ -1,0 +1,421 @@
+- 2:6: ref ¶65 - inanmayan için uyarının sonuç vermemesi.
+- 2:102: not relevant - büyü öğrenmenin zararı öğüdü alma veya ondan kaçınma sahnesi değildir.
+- 2:206: ref ¶66 - sakınma çağrısına kibir ve günahla karşılık verilmesi.
+- 2:275: ref ¶65 - gelen öğüdü alıp ribâdan vazgeçmenin davranıştaki faydası.
+- 3:138: ref ¶65 - öğüt sakınanlar için yol gösterir.
+- 4:43: ref ¶66 - cünüplükte namaza yaklaşmanın geçici sınırı kök yankısını somutlar.
+- 4:63: ref ¶67 - öğüt muhataba etkili sözle yöneltilir.
+- 5:6: ref ¶66 - cünüplükte namaza yönelmeden arınma istenir.
+- 5:83: ref ¶65 - hakikati tanımak dinleyende iman karşılığı doğurur.
+- 6:51: ref ¶65 - hesap korkusu taşıyanlar uyarılır.
+- 6:52: ref ¶67 - Rabbini çağıranları uzaklaştırmama buyruğu görmeyen ziyaretçi sahnesini tamamlar.
+- 6:53: ref ¶67 - sakınanların toplumsal değeri hakkında sorgu seçilen muhatap meselesini açar.
+- 6:68: ref ¶67 - alay edenlerden dönme emri, elçinin kendi yönelişinin sınırıdır.
+- 6:69: ref ¶67 - sakınmaları umularak onlara hatırlatma kalır.
+- 6:70: ref ¶67 - dinini oyun yapanları bırakırken Kur'an ile uyarmayı sürdürme emri.
+- 6:104: ref ¶67 - basiret kişinin kendisine yarar, elçi onların bekçisi değildir.
+- 7:164: ref ¶65 - öğüdün sonucu kesin bilinmezken sakınma ihtimaliyle verilmesi.
+- 7:165: ref ¶66 - unutulan hatırlatmanın ardından uyarıcılarla zulmedenlerin ayrılması.
+- 7:188: ref ¶67 - elçinin fayda ve zarara hükmedememesi görev sınırını belirtir.
+- 7:204: ref ¶65 - Kur'an okununca kulak vererek karşılama buyruğu.
+- 7:205: not relevant - kişinin içinden Rabbini anması, başkasına yönelen hatırlatmayla aynı fiil sahnesi değildir.
+- 8:2: ref ¶65 - anılan Allah karşısında kalbin ürperip ayetlerle imanın artması.
+- 8:20: ref ¶66 - işittiği hâlde elçiden dönmeme uyarısı.
+- 8:21: ref ¶66 - işittiğini söyleyip gerçekte dinlememek.
+- 8:22: ref ¶66 - akletmeyen sağır ve dilsiz benzetmesi, duyup almamayı açıklar.
+- 8:23: ref ¶66 - işittirilse de yine yüz çevirecek olanların duruşu.
+- 8:24: not relevant - hayat veren çağrı, dinleyenin kaçınma hareketine özgü yeni mekanizma sunmaz.
+- 9:122: ref ¶65 - öğrenip halkını uyaranın sakınmayı umması.
+- 9:124: prose ¶66 - aynı indirilen sure imanlıda artış doğurur.
+- 9:125: context ¶66 (in 9:124) - aynı surenin hasta kalpte kiri artırdığını bildirir.
+- 9:126: ref ¶66 - yinelenen sınavlara rağmen tövbe ve hatırlamanın gelmemesi.
+- 10:12: not relevant - yan üstü yatış uzaklaşma kökünün fiziksel anlamıdır; zarardan kurtulunca geçip gitmek öğütten kaçınmak değildir.
+- 10:49: ref ¶67 - elçinin kendi fayda ve zararına bile hükmedememesi.
+- 10:57: ref ¶65 - öğüdün müminler için şifa ve rahmet olması faydayı belirginleştirir.
+- 10:101: ref ¶65 - inanmayanlara işaret ve uyarının fayda vermemesi.
+- 11:34: ref ¶65 - Nuh'un öğüdü verme isteği faydasını garanti etmez.
+- 11:105: ref ¶66 - bedbaht ve mutlu ayrımı aynı kökün karşıtını söyler.
+- 11:106: ref ¶66 - bedbaht olanların ateşteki yeri.
+- 11:107: not relevant - ateşte kalış süresinin istisnası bu dinleyici ayrımını açıklamaz.
+- 11:108: ref ¶66 - mutluların bahçesi bedbahtların karşı kutbudur.
+- 13:19: ref ¶65 - vahyin hak olduğunu bilenin hatırlaması.
+- 14:17: not relevant - içecekle ölümün gelmesi ateş azabının başka sahnesidir; ¶65-67 bunu anlatmaz.
+- 14:35: ref ¶66 - İbrahim putlardan uzak tutulmayı ister; kaçınmanın nesnesi ahlaki yönünü belirler.
+- 14:52: ref ¶65 - uyarı bilgiye ve anlayış sahibinin hatırlamasına yönelir.
+- 16:36: ref ¶66 - tâğuttan kaçınma buyruğu, öğütten kaçınmanın ters nesnesini gösterir.
+- 16:82: ref ¶67 - yüz çevirmeye rağmen elçinin görevi açık bildirimdir.
+- 16:90: not relevant - adalet ve iyilik buyruğundan sonra gelen genel öğüt ifadesi burada yeni bir alıcı ayrımı kurmaz.
+- 17:18: not relevant - yakın hayatı isteyenin cezası, ¶65-67'deki öğüt alış fiilini açıklamaz.
+- 17:19: not relevant - ahiret için çalışma yakın hayat karşıtlığıdır; bu bölüm onu işlemiyor.
+- 17:41: ref ¶66 - hatırlansın diye çeşitlenen Kur'an bazılarının kaçışını artırır.
+- 17:45: ref ¶66 - okunan Kur'an ile ahirete inanmayan arasında perde.
+- 17:46: ref ¶66 - Allah tek anıldığında arkalarını dönerek kaçınma.
+- 17:82: ref ¶65 - vahyin mümin için şifa, zalim için kayıp doğurması.
+- 17:83: not relevant - nimet karşısında yanını çevirme deyimi öğütten kaçınma nesnesini taşımaz.
+- 17:107: ref ¶65 - bilgi sahiplerinin okunan Kur'an karşısında secdesi.
+- 17:108: not relevant - bilgi sahiplerinin tesbihi ayrı bir sözlü karşılıktır.
+- 17:109: ref ¶65 - aynı dinleyicilerin ağlayıp huşularının artması.
+- 18:28: ref ¶67 - Allah'ı çağıranların yanında kalıp gözünü onlardan ayırmama buyruğu.
+- 18:57: ref ¶66 - ayetlerle hatırlatıldıktan sonra yüz çevirme.
+- 19:58: ref ¶65 - hidayete erenlerin okunan ayetlere secde ve ağlamayla karşılığı.
+- 19:59: ref ¶66 - namazı yitirip arzulara uyan sonraki nesil, namaz yankısının başka ahlaki sahnesidir.
+- 19:60: not relevant - tövbe edenlerin bahçeye girişi burada verilen öğüt tepkisini doğrudan açmaz.
+- 19:97: ref ¶65 - dilde kolaylaştırılan Kur'an'ın sakınana müjde ve çekişene uyarı olması.
+- 20:2: ref ¶67 - Kur'an'ın Peygamber'i zahmete sokmak için indirilmediği zaten ima edilen komşu ayettir.
+- 20:3: cited ¶67; ref ¶65 - korkan için indirilen hatırlatma alıcıyı belirtir.
+- 20:14: ref ¶66 - namaz Allah'ı anmak için emredilir.
+- 20:44: cited ¶67; nowhere else - Firavun'a yumuşak söz ve muhtemel hatırlama bu sahnede açıklanır.
+- 20:47: ref ¶67 - Firavun'a hidayeti izleyene selam denmesi davetin içeriğini belirtir.
+- 20:48: ref ¶67 - yalanlayıp dönene azap bildirimi reddedişin sonucunu açıklar.
+- 20:74: not relevant - ateşte ne ölüm ne hayat ifadesi bu bölümün değil, sonraki ayetlerin azap sahnesidir.
+- 20:75: not relevant - müminin yüksek dereceleri, öğüt sunma karşıtlığına özgü değildir.
+- 20:76: not relevant - arınana bahçe karşılığı, ¶67'deki olası arınma ile aynı işleyişi anlatmaz.
+- 20:99: not relevant - geçmiş haberler ve verilen zikir, reddedenin tutumunu kendi içinde belirtmez.
+- 20:100: ref ¶66 - zikirden dönene kıyamette yük düşmesi.
+- 20:113: prose ¶66 - uyarı korku veya hatırlamayı da doğurabilir.
+- 20:123: ref ¶66 - hidayeti izleyenin bedbaht olmayacağı karşıtlığı.
+- 20:124: cited ¶67; ref ¶66 - zikirden dönmenin dar geçimi, uzak durmanın sonucudur.
+- 20:126: ref ¶66 - kendisine gelen ayetleri unutanın o gün unutulması.
+- 20:127: not relevant - ahiret azabının kalıcılığı bu bölümdeki öğüt alışını açmaz.
+- 21:2: ref ¶66 - yenilenen zikri oyunla dinlemek gerçek alışı engeller.
+- 21:10: ref ¶65 - indirilen kitaptaki zikre akılla karşılık verme çağrısı.
+- 21:24: ref ¶65, ¶66 - hakikati bilmemekle yüz çevirmek birlikte söylenir.
+- 21:42: ref ¶66 - koruyucusu olmayanların Rabbin zikrinden dönmesi.
+- 21:50: ref ¶66 - indirilen bereketli zikir karşısında inkâr sorusu.
+- 22:12: not relevant - putun fayda ve zararı, öğüdün insana faydasıyla farklı nesne ve ilişkilerdir.
+- 22:13: not relevant - putun zararı, öğüt karşısındaki zararla ilişkilendirilemez.
+- 22:30: ref ¶66 - put ve yalandan kaçınma doğru nesneyi gösterir.
+- 22:35: ref ¶66 - anılan Allah karşısında ürperen kalp namazla birlikte anılır.
+- 22:54: ref ¶65 - bilginin hakkı tanımaya ve kalbin yatışmasına açılması.
+- 23:57: ref ¶65 - Rablerinden korkanların alıcı tavrı.
+- 23:58: ref ¶65 - bu korkanların Rablerinin ayetlerine inanması.
+- 23:59: not relevant - ortak koşmama, bu üç ayetteki iki tepkinin mekanizması değildir.
+- 23:60: not relevant - dönüş korkusuyla verme, öğüde verilen cevap sahnesi değildir.
+- 23:61: not relevant - hayra koşma, doğrudan öğüt alışı değil sonraki genel ameldir.
+- 23:71: ref ¶66 - kendi zikri kendilerine geldiği hâlde ondan dönmeleri.
+- 23:106: ref ¶66 - mahkûmların bedbahtlık ve sapma itirafı.
+- 24:37: ref ¶66 - ticaretin zikir, namaz ve ahiret korkusundan ayırmaması.
+- 24:52: ref ¶65 - Allah'tan korku ve itaat başarıya bağlanır.
+- 24:54: ref ¶67 - dinleyenin yüz çevirmesi elçinin açık bildirim yükünü değiştirmez.
+- 25:29: ref ¶66 - gelen zikirden arkadaş eliyle uzaklaştırılma.
+- 25:30: ref ¶66 - elçinin Kur'an'ı terk edilmiş bırakan halktan yakınması.
+- 25:60: ref ¶66 - secde buyruğuna kaçışla karşılık verilmesi.
+- 25:73: ref ¶66 - ayetlerle hatırlatılanların sağır ve kör gibi kalmaması.
+- 26:5: ref ¶66 - her gelen yeni öğütten dönme.
+- 26:136: ref ¶66 - öğüdün varlığı ile yokluğunu eşitleyen söz.
+- 27:92: ref ¶67 - Kur'an'ı okuma görevi ve hidayetin kişiye dönmesi.
+- 29:45: ref ¶66 - okunan kitapla namaz ve Allah'ı anma birlikte verilir.
+- 29:49: ref ¶65 - bilgi verilenlerin göğsünde ayetlerin yer bulması.
+- 31:7: ref ¶66 - okunan ayetlerden kibirle ve duymamış gibi dönme.
+- 32:15: ref ¶65 - ayetlerle hatırlatılanın secdeye varması.
+- 32:16: not relevant - yataklardan uzaklaşan yanlar fiziksel duruştur; 87:11'de öğütten uzaklaşma ile aynı nesne değildir.
+- 32:22: ref ¶66 - hatırlatılan ayetlerden sonra yüz çevirme.
+- 35:18: cited ¶67; ref ¶65 - görünmeyende korkan ve namaz kılanın uyarılması.
+- 35:28: cited ¶67; ref ¶65 - bilen kulların Allah'tan korkması.
+- 35:36: not relevant - ölümle bitmeyen ateş hâli 87:13 ile ilgilidir; ¶65 öğüdün alınması ve ondan kaçınmayı açıklar.
+- 35:37: ref ¶66 - ateştekilerin uyarı ve hatırlama için zaman bulunduğunu kabul etmesi.
+- 36:10: ref ¶65 - inanmayan için uyarı ile yokluğu eşit.
+- 36:11: ref ¶65 - zikri izleyip Rahmân'dan görünmeyende korkana uyarı yarar.
+- 36:69: ref ¶65 - Kur'an şiir değil, açıklayan zikirdir.
+- 36:70: ref ¶65 - bu zikrin diri olanı uyarma işlevi.
+- 37:13: ref ¶66 - hatırlatılınca hatırlamama.
+- 39:9: ref ¶65 - ahiretten sakınan namaz kılanın bilgi ve hatırlamayla birleştirilmesi.
+- 39:17: ref ¶66 - tâğuttan uzaklaşıp Allah'a dönme.
+- 39:18: ref ¶66 - sözü dinleyip en güzeline uyanların hidayeti.
+- 39:22: ref ¶66 - zikir karşısında katılaşmış kalp.
+- 39:23: ref ¶65 - korkanların kitap karşısında ürperip zikre yumuşaması.
+- 39:24: not relevant - yüzle azaptan korunma resmi, öğütten kaçınmanın işleyişini anlatmaz.
+- 39:25: not relevant - geçmiş yalanlayıcıların cezası, alıcının korku bağlantısını açıklamaz.
+- 39:26: not relevant - dünya ve ahiret azabı ayrımı bu bölümdeki öğüt sunulmasına ek yapmaz.
+- 39:27: ref ¶65 - Kur'an'daki örnekler hatırlama için sunulur.
+- 39:28: ref ¶65 - açık sözün sakınma doğurması amaçlanır.
+- 39:41: ref ¶67 - hidayet kişinin kendisine döner, elçi vekil değildir.
+- 39:45: ref ¶66 - Allah tek başına anılınca ahirete inanmayan kalbin sıkılması.
+- 39:54: not relevant - azaptan önce dönme buyruğu, öğüde verilen mevcut iki tepkiyi belirtmez.
+- 39:55: ref ¶65 - indirilenin en güzeline uyma öğütten yararlanma davranışıdır.
+- 39:56: not relevant - Allah konusunda eksik bırakma pişmanlığı, uzaklaşma köküne rağmen kaçınma fiili değildir.
+- 39:57: not relevant - yargı günündeki hidayet özrü, ¶65-67'deki öğüt sunumu anını açıklamaz.
+- 39:58: not relevant - azap sonrası geri dönme dileği, bu üç ayetin alıcı ayrımından sonradır.
+- 41:4: ref ¶66 - müjde ve uyarıdan çoğunun dönüp duymaması.
+- 41:5: ref ¶66 - kalpte, kulakta ve arada kurulan engel.
+- 41:13: ref ¶67 - yüz çevirene de uyarıyı açıkça bildirme emri.
+- 41:26: ref ¶66 - Kur'an'ı dinlemeyip sesle bastırma çağrısı.
+- 41:51: not relevant - nimet verildiğinde yanını çevirme, öğütten kaçınmanın nesnesini taşımıyor.
+- 43:5: ref ¶65 - taşkınlık yüzünden zikrin kesilip kesilmeyeceği sorulur.
+- 43:36: ref ¶66 - Rahmân'ın zikrinden dönene şeytan eşlik etmesi.
+- 43:37: ref ¶66 - o eşliğin doğru yoldan alıkoyması.
+- 43:44: ref ¶65 - zikir hem Peygamber'e hem halkına hitaptır ve sorgulanırlar.
+- 44:13: ref ¶66 - açıklayan elçi geldikten sonra geciken öğüdün faydasızlığı.
+- 44:14: ref ¶66 - elçiden dönüp onu suçlama, geç hatırlamadan önceki reddediş.
+- 44:58: ref ¶65 - Kur'an Peygamber'in dilinde hatırlansın diye kolaylaştırılır.
+- 45:8: ref ¶66 - ayetleri duyup da duymamış gibi kibirle sürdürme.
+- 45:9: ref ¶66 - öğrendiği ayetleri alaya alma, bilginin korkuya dönüşmemesi.
+- 45:10: not relevant - cezanın büyüklüğü, bu paragrafın kaçınma fiiline ayrıca bağ kurmaz.
+- 45:23: ref ¶65 - bilgi heves karşısında tek başına hidayet doğurmaz.
+- 45:24: ref ¶66 - yalnız dünya hayatı iddiası kalıcı ahireti dışlar.
+- 47:16: ref ¶66 - dinleyip ayrılınca sözün içeriğini soran mühürlü kalpler.
+- 47:17: ref ¶66 - hidayete uyanın yol gösteriminin artması.
+- 47:23: ref ¶66 - cezalananların sağır ve kör kılınması.
+- 47:24: ref ¶66 - Kur'an'a karşı kalbin kilitli olması sorusu.
+- 50:45: cited ¶67; ref ¶65 - Kur'an'la tehdidinden korkana öğüt verme.
+- 51:55: cited ¶67; ref ¶65 - öğüdün inanana faydası öğüt buyruğunu destekler.
+- 53:29: ref ¶66, ¶67 - zikirden dönenin dünyayı istemesi ve elçiye ondan dönme buyruğu.
+- 53:30: ref ¶66 - dünyayla sınırlı bilginin bu uzaklaşmaya eşlik etmesi.
+- 53:32: ref ¶66 - büyük günahlardan kaçınma yanlış nesneden kaçınmaya karşıttır.
+- 54:4: ref ¶66 - caydırıcı haber geldiği hâlde reddediş sürer.
+- 54:5: ref ¶66 - ulaşan hikmete rağmen uyarının faydasız kalması.
+- 54:6: ref ¶67 - uyarının yararsızlığından sonra elçiye dönme emri.
+- 54:17: ref ¶65 - kolaylaştırılan Kur'an karşısında hatırlayan aranır.
+- 54:22: ref ¶65 - aynı nakarat bir başka anlatının ardından hatırlayanı arar.
+- 54:32: ref ¶65 - aynı nakarat yine hatırlayanı arar.
+- 54:40: ref ¶65 - aynı nakarat yine hatırlayanı arar.
+- 57:16: ref ¶65 - kalbin zikir ve indirilen hak karşısında yumuşaması.
+- 59:18: not relevant - geleceğe ne hazırlanacağını düşünme buyruğu, öğüdü alma fiiline bağlanmaz.
+- 59:19: ref ¶66 - Allah'ı unutanın kendisini de unutması.
+- 59:21: ref ¶66 - dağın Kur'an karşısında korkuyla eğilmesi, insanın kapanışını görünür kılar.
+- 62:9: ref ¶66 - namaz çağrısında zikre yönelip ticareti bırakma.
+- 62:10: ref ¶66 - namaz sonrasında da Allah'ı çok anma.
+- 62:11: ref ¶66 - ticaret için Peygamber'i bırakıp dağılma.
+- 63:9: ref ¶66 - mal ve çocukların Allah'ı anmaktan alıkoyabilmesi.
+- 65:2: ref ¶65 - ahirete inanana verilen öğüt sakınma sonucu ister.
+- 65:10: ref ¶65 - anlayış sahipleri korkuya çağrılırken zikir indirilir.
+- 65:11: ref ¶65 - bu zikrin ayetleri okuyan elçiyle sunulması.
+- 67:9: ref ¶66 - ateştekiler kendilerine gelen uyarıcıyı yalanladığını söyler.
+- 67:10: ref ¶66 - dinleyip akıl etselerdi ateşte olmayacaklarını kabul ederler.
+- 67:11: not relevant - suçu itiraf sonrası uzaklık dileği, kaçınma mekanizmasını açmaz.
+- 67:12: ref ¶65 - görmeden korkana bağışlanma ve büyük ödül.
+- 68:51: ref ¶66 - zikri işitenlerin düşmanca tepki vermesi.
+- 68:52: ref ¶66 - bu tepkiye rağmen hitabın âlemlere zikir olması.
+- 69:12: ref ¶65 - hatırlatmanın tutan kulağa yerleşmesi.
+- 69:48: ref ¶65 - Kur'an'ın sakınanlara öğüt olması.
+- 71:5: ref ¶66 - Nuh'un gece gündüz çağırmasına rağmen kaçınmanın sürmesi.
+- 71:6: ref ¶66 - çağrının kaçışı artırması.
+- 71:7: ref ¶66 - çağrıyı duymamak için kulakları kapatmaları.
+- 72:17: ref ¶66 - Rabbin zikrinden dönenin azaba sürülmesi.
+- 72:21: ref ¶67 - elçinin muhatap için zarar veya doğru yol üzerinde yetkisiz oluşu.
+- 73:19: ref ¶65 - hatırlatmadan Rabbe yol alma imkânı.
+- 74:42: not relevant - Saqar'a giriş sorusu, tek başına namaz ve öğütten kaçınma ilişkisini söylemez.
+- 74:43: ref ¶66 - Saqar'dakilerin namaz kılanlardan olmadığını söylemesi, yalnızca namaz yankısına paraleldir.
+- 74:46: ref ¶66 - ahiret gününü yalanlama, korkusuz kaçışın içeriğidir.
+- 74:47: not relevant - kesinlik gelene dek süren inkâr, bu bölümdeki korku ve hatırlama anından sonradır.
+- 74:48: not relevant - şefaatin fayda vermemesi, öğüdün faydasından farklı nesnedir.
+- 74:49: ref ¶66 - öğütten yüz çevirme sorusu.
+- 74:50: ref ¶66 - öğütten kaçışın ürkmüş hayvana benzetilmesi.
+- 74:51: ref ¶66 - benzetmedeki kaçışın tamamlanması.
+- 74:53: prose ¶66 - öğütten dönmenin ardına ahiretten korkmamayı koyar.
+- 74:54: ref ¶66 - kaçılan şeyin öğüt oluşu yeniden vurgulanır.
+- 74:55: ref ¶66 - öğüdün hatırlanması dinleyenin istemesine bağlanır.
+- 74:56: ref ¶66 - bu isteğin Allah'ın dilemesi altında olması.
+- 75:31: ref ¶66 - doğrulamama ile namaz kılmama birleşir.
+- 75:32: ref ¶66 - yalanlama ve dönme karşılığın öteki yüzüdür.
+- 76:29: ref ¶65 - öğütten Rabbe yol tutma seçeneği.
+- 79:18: cited ¶67; nowhere else - Firavun'a arınma çağrısı o sahnede anlatılır.
+- 79:19: cited ¶67; nowhere else - hidayetten korkuya geçiş o sahnede anlatılır.
+- 79:20: ref ¶67 - gösterilen işaret Firavun'un cevabından önce gelir.
+- 79:21: ref ¶66, ¶67 - Firavun işareti yalanlayıp itaatsizlik eder.
+- 79:22: ref ¶66, ¶67 - Firavun arkasını dönerek uzaklaşır.
+- 79:23: not relevant - halkı toplayıp seslenişi, sunulan öğüdü alma ya da reddetmenin ötesindedir.
+- 79:24: ref ¶67 - Firavun'un Rablik iddiası Musa'nın Rabbe çağrısını tersine çevirir.
+- 79:25: context ¶67 (in 79:26) - Firavun'un akıbeti korkana ibret oluşun öncesidir.
+- 79:26: prose ¶67 - reddedenin hikâyesi korkana ibret olur.
+- 79:37: ref ¶66 - taşkınlığın olumsuz yolun başı olması.
+- 79:38: ref ¶66 - yakın hayatı yeğleme.
+- 79:39: ref ¶66 - bu seçimin ateşe varması.
+- 79:40: ref ¶66 - Rab huzurundan korkup arzuyu dizginleme.
+- 79:41: ref ¶66 - korkanın bahçeye varması.
+- 79:45: ref ¶65 - Saat korkusu uyarının alıcısını belirler.
+- 80:1: ref ¶67 - yüz ekşitip dönülen olayın başlangıcı.
+- 80:2: ref ¶67 - gelen kişinin bedensel körlüğü.
+- 80:3: cited ¶67; ref ¶65 - gelenin arınma olasılığı öğüdün faydasını açık bırakır.
+- 80:4: cited ¶67; ref ¶65 - hatırlatmanın ona fayda verme ihtimali.
+- 80:8: ref ¶67 - korkan dinleyenin çaba göstererek gelişi.
+- 80:9: cited ¶67; ref ¶65 - ziyaretçinin korkan oluşu.
+- 80:10: cited ¶67; nowhere else - Peygamber'in o ziyaretçiye ilgisizliği kendi sahnesinde açıklanır.
+- 80:11: ref ¶66, ¶67 - o düzeltmenin ardından hitap öğüt diye adlandırılır.
+- 80:12: ref ¶66, ¶67 - hatırlatmayı dileyenin alabilmesi.
+- 83:13: ref ¶66 - okunan ayetleri eskilerin masalı sayma.
+- 83:14: ref ¶66 - kazançların kalbi paslandırması o cevabı açıklar.
+- 84:21: ref ¶66 - Kur'an okununca secde etmeme.
+- 84:22: ref ¶66 - bu cevabın yalanlama olduğu bildirilir.
+- 88:21: cited ¶67; ref ¶65 - öğüt görevi korkan alıcıya yönelir.
+- 88:23: cited ¶67; nowhere else - yüz çevirip inkâr eden örnek kendi paragrafında verilir.
+- 88:24: ref ¶67 - dönüp inkâr edenin büyük azabı.
+- 89:23: ref ¶66 - cehennem karşısında geç gelen hatırlama.
+- 91:9: ref ¶67 - arınanın başarısı ziyaretçi için açık ihtimali tamamlar.
+- 91:10: ref ¶67 - nefsini örtenin kaybı karşı ihtimaldir.
+- 91:12: ref ¶66 - Semûd'un en bedbahtı uyarı karşısında davranır.
+- 91:13: ref ¶66 - elçinin devenin hakkını bildiren sözü onun karşısına konur.
+- 91:14: ref ¶66 - topluluk haberi yalanlayıp hayvana zarar verir.
+- 92:5: ref ¶66 - veren ve sakınan kişi olumlu karşı yolu açar.
+- 92:6: ref ¶66 - en güzeli doğrulamak bu korkuya eşlik eder.
+- 92:7: ref ¶66 - o kişinin kolay yola hazırlanması.
+- 92:8: ref ¶66 - karşı kişi kendini yeterli görür.
+- 92:9: ref ¶66 - en güzel vaadi yalanlar.
+- 92:10: ref ¶66 - zorlu yola hazırlanır.
+- 92:11: ref ¶66 - bedbahtın servetinin düşerken yarar vermemesi.
+- 92:12: not relevant - hidayetin Allah'a ait oluşu, 87:3'teki kökün yalnız yankısıdır.
+- 92:13: not relevant - ilk ve son hayatın Allah'a ait oluşu, bu bölümün seçili öğüt anını açmaz.
+- 92:14: ref ¶66 - en bedbaht anılmadan önce ateşle uyarı verilmesi.
+- 92:15: context ¶66 (in 92:17) - en bedbahtın ateşe girişi ters uzaklaşmanın bağlamıdır.
+- 92:16: conflict ¶66 - Leyl suresi “en bedbaht”ı yalanlayan ve yüz çeviren diye tanımlar; “öğüde karşı çıkmaz” genellemesini taşımaz.
+- 92:17: prose ¶66 - sakınan ateşten uzak tutulur; uzaklaşma fiilinin nesnesi tersine döner.
+- 92:18: ref ¶66 - sakınanın mal vererek arınması.
+- 92:19: not relevant - verilen malın karşılıksızlığı, öğüt sunma ve kaçınma sahnesini açıklamaz.
+- 92:20: not relevant - Rabbin rızasını isteme, bu bölümün alıcı farkına özgü değildir.
+- 92:21: not relevant - sakınanın razı olması, bedbahtlık köküyle genel karşıtlıktır.
+- 96:9: ref ¶66 - namaz kılanı engelleyen tutum başlar.
+- 96:10: ref ¶66 - engellenen eylem namazdır.
+- 96:13: ref ¶66 - engelleyenin yalanlayıp dönmesi.
+- 3:191: not relevant - yan üstünde Allah'ı anma bedensel duruştur; öğüdü kendinden uzak tutma fiilinin nesnesi değildir.
+- 3:193: ref ¶65 - iman çağrısını duyup inanmak öğüdün içe alınışını gösterir.
+- 4:36: not relevant - uzak komşu ve yanındaki arkadaş toplumsal yer bildirir; uzaklaşma kökü tek başına bağ değildir.
+- 6:54: not relevant - inanan ziyaretçiye esenlik denmesi Abese'deki kör ziyaretçinin öğüt alma ihtimalini açıklamaz.
+- 6:90: not relevant - peygamberleri izleme ve ücret almama, alıcıların korku ayrımından farklı bir konudur.
+- 7:2: ref ¶65 - indirilen kitap uyarı aracı ve müminlere öğüttür.
+- 7:3: not relevant - indirilen emre uyma çağrısı, iki dinleyicinin ayrı tepki biçimlerini anlatmaz.
+- 7:51: not relevant - dünya hayatına aldanıp hesap gününü unutma, 87:16-17'ye yakın fakat ¶65-67'deki öğüt anı değildir.
+- 7:63: ref ¶65 - Nuh'un halkına gelen zikir uyarı ve sakınma için sunulur.
+- 7:64: ref ¶66 - halkın bu uyarıcıyı yalanlaması ve kurtuluş-ceza ayrımı.
+- 7:69: ref ¶65 - Hûd'un halkına gelen zikrin uyarı görevi.
+- 7:70: ref ¶66 - Hûd'un çağrısına ataların tapınmasını savunarak karşı çıkma.
+- 7:71: not relevant - ilah adları hakkındaki tartışma, öğütten uzak durmanın ayrı bir davranışı değildir.
+- 7:72: ref ¶66 - yalanlayanların kesilip inananların kurtarılması Hûd uyarısının sonucudur.
+- 7:201: ref ¶65 - sakınan kişi kötü çağrışımda hatırlayıp görüş kazanır.
+- 11:120: ref ¶65 - elçi haberleri müminlere öğüt ve hatırlatma olur.
+- 12:104: not relevant - ücret istemeden âlemlere hatırlatma duyurma, iki tepkinin mekanizmasını açmaz.
+- 13:21: ref ¶65 - anlayış sahipleri Rablerinden ve hesaptan korkar.
+- 13:22: ref ¶66 - bu korku namaz ve sabırla eyleme geçer.
+- 13:40: ref ¶67 - bildirim elçiye, hesap Allah'a aittir.
+- 16:125: ref ¶67 - hikmet ve güzel öğütle çağırma, kimin saptığını bilmenin Allah'a ait oluşu.
+- 17:9: ref ¶65 - Kur'an doğru yola götürür, iman edene müjde taşır.
+- 17:10: not relevant - ahirete inanmayanın azabı, ¶65'teki öğüt alışına özgü değildir.
+- 20:43: ref ¶67 - taşkın Firavun'a yine de elçi gönderilmesi.
+- 20:125: not relevant - zikri terk edenin kör diriliş sorusu, görmeyen ziyaretçinin fiziksel körlüğüyle karıştırılamaz.
+- 21:45: ref ¶65, ¶67 - vahiy ile uyarı sunulur; sağır benzetmesindeki kişi bunu işitmez.
+- 21:49: ref ¶65 - görünmeyen Rabden ve Saat'ten korkan uyarının alıcısıdır.
+- 21:66: not relevant - İbrahim'in putların fayda ve zarar vermemesini söylemesi, öğüdün faydasıyla başka bir nesne taşır.
+- 23:109: not relevant - inanan kulların bağışlanma duası, reddedene sunulan öğüt değildir.
+- 23:110: ref ¶66 - alay edilen inananların, alay edenlere Allah'ın zikrini unutturması.
+- 23:111: not relevant - alaya alınanların sabır ödülü, öğütten kaçınma fiilini açıklamaz.
+- 24:34: ref ¶65 - açık ayet ve örneklerin öğüt oluşu sakınanlara yönelir.
+- 25:27: not relevant - zalimin elçiyle yol tutmamış olmaya pişmanlığı, 25:29'un zikri terk edişini genişletmez.
+- 25:28: not relevant - arkadaş seçimine pişmanlık, 25:29'da söylenen zikrin uzaklaştırılmasına bağlamdır ama bu paragraf için ayrı bağ değildir.
+- 26:3: ref ¶67 - inanmayanlar yüzünden Peygamber'in kendini tüketircesine üzülmesi sınırı tamamlar.
+- 33:39: not relevant - elçilerin Allah'tan korkması öğüdün muhatabındaki korkudan farklı özneye aittir.
+- 34:42: not relevant - hesap gününde kimsenin başkasına fayda ve zarar verememesi, öğüdün faydasından farklı fiildir.
+- 38:29: ref ¶65 - indirilen kitabı düşünen anlayış sahibi hatırlar.
+- 38:87: not relevant - âlemlere zikir oluşu burada kimin alıp kaçındığını belirtmez.
+- 40:13: ref ¶65 - yalnız Rabbine yönelenin gösterilen işaretlerden hatırlaması.
+- 40:54: ref ¶65 - hidayet ve zikir anlayış sahiplerine yönelir.
+- 41:44: ref ¶65, ¶66 - aynı Kur'an inanana şifa, inanmayan için sağırlık ve körlük olur.
+- 42:48: ref ¶67 - yüz çevirenler karşısında elçinin görevi bildirimdir.
+- 46:29: ref ¶65 - cinler Kur'an'ı dinleyip sonra uyarıcı olarak döner.
+- 46:30: ref ¶65 - dinlediklerini hidayet veren kitap olarak tanırlar.
+- 46:31: ref ¶65 - halklarına çağrıya cevap verip inanmalarını söylerler.
+- 46:32: ref ¶66 - çağrıya cevap vermeyenin Allah'tan kaçamayışı.
+- 49:12: not relevant - zandan kaçınma, öğütten kaçınmayla yalnız kök paylaşır; nesne ve sahne ayrıdır.
+- 50:33: ref ¶65 - Rahmân'dan görünmeyende korkup dönen kalple gelmek.
+- 52:29: ref ¶67 - suçlamalara rağmen Peygamber'e öğüt vermeyi sürdürme emri.
+- 64:12: ref ¶67 - dinleyen yüz çevirse de elçinin görevi açık iletimdir.
+- 74:52: not relevant - kişisel sayfalar istemek reddedişin bir bahanesidir ama ¶65-67'nin kaçınma fiilini ayette belirtmez.
+- 76:30: ref ¶65 - hatırlatmadan yol isteme Allah'ın dilemesi içindedir.
+- 79:17: ref ¶67 - taşkın Firavun'a gitme emri davetten önce gelir.
+- 81:27: ref ¶65 - zikir bütün âlemlere sunulur.
+- 81:28: ref ¶65 - doğru yola yönelmeyi dileyen alır.
+- 81:29: ref ¶65 - bu yöneliş Allah'ın dilemesine bağlıdır.
+- 88:22: ref ¶67 - Peygamber muhatap üzerinde zorlayıcı değildir.
+- 103:3: ref ¶65 - hak ve sabrı karşılıklı öğütlemek hatırlatmanın kişiler arasındaki yönünü gösterir.
+- 20:117: not relevant - Âdem'in bahçeden çıkarılınca zahmete düşmesi, 87:11'de öğütten kaçınan bedbahtın anlamı değildir.
+- 28:11: not relevant - Musa'nın kız kardeşi uzaktan bakar; fiziksel mesafe öğütten kaçınma değildir.
+- 2:74: ref ¶65 - korkuyla inen taş ile işaretten sonra katılaşan kalp karşıtlığı.
+- 2:171: ref ¶66 - duyduğu sesi anlamayan inkârcı benzetmesi, yalnız maruz kalmanın almayışını açıklar.
+- 4:31: ref ¶66 - büyük günahlardan kaçınma, yanlış nesneden kaçınmanın tersini gösterir.
+- 5:90: ref ¶66 - kötülüklerden kaçınma ile kurtuluş arasındaki yönü belirler.
+- 22:46: prose ¶67 - gözün körlüğü ile kalbin körlüğünü ayırır.
+- 22:72: not relevant - ayetleri okuyanlara saldırı, öğüdü kenarında tutmaktan ileri farklı eylemdir.
+- 35:19: ref ¶67 - kör ve gören benzetmesi bedensel kör ziyareti aşan alıcılık ayrımını düşündürür.
+- 35:22: ref ¶67 - Allah dilediğine işittirir, elçi kendisi işittiremez.
+- 35:23: ref ¶67 - Peygamber'in uyarıcı görevi.
+- 40:58: ref ¶67 - kör ve gören benzetmesi iman ve eylem ayrımıyla kuruludur.
+- 42:37: ref ¶66 - büyük günahlardan kaçınma, kaçınmanın doğru nesnesine örnektir.
+- 80:5: context ¶67 (in 80:7) - kendini yeterli gören kişiye yönelmenin bağlamı.
+- 80:6: context ¶67 (in 80:7) - Peygamber'in o kişiye ilgisi.
+- 80:7: prose ¶67 - kişinin arınmamasından Peygamber sorumlu değildir.
+- 91:11: not relevant - Semûd'un toplu yalanlaması 91:12'deki en bedbahtın sahnesine bağlamdır, ayrı bir bağlantı değil.
+- 96:11: ref ¶66 - namazı engellenen kulun hidayette olması ihtimali.
+- 96:12: ref ¶66 - o kulun sakınmayı emretmesi ihtimali.
+- 20:1: not relevant - mukattaa harfleri alıcı ayrımını açıklamaz.
+- 20:4: not relevant - indirenin yaratıcılığı, korkana öğüt bağlantısının başka bir yönüdür.
+- 20:5: not relevant - Rahmân'ın arşa istivası bu bölümün dinleyici sahnesi değildir.
+- 20:42: not relevant - Musa ve Harun'un Allah'ı anma buyruğu onların görevine yöneliktir, Firavun'un öğüdü alma tepkisine değil.
+- 20:45: not relevant - elçilerin Firavun'dan korkması, 87:10'daki alıcının haşyetinden farklı nesne ve durumdur.
+- 20:46: not relevant - elçilere korkmamalarının söylenmesi, korkan dinleyiciye hitap değildir.
+- 20:122: not relevant - Âdem'in seçilip tövbesinin kabulü, zikirden dönene ilişkin komşu ayetin öznesi değildir.
+- 35:16: not relevant - insanları değiştirme kudreti öğüt ilişkisinin konusu değildir.
+- 35:17: not relevant - yaratmanın Allah'a kolay oluşu uyarı ve alıcı farkı değildir.
+- 35:20: not relevant - karanlık ile aydınlık karşıtlığı, 35:18'deki korku ve namaz işleyişini açmaz.
+- 35:26: not relevant - inkârcıların cezalandırılması, bilenin korkmasına ilişkin özel bağ değil.
+- 35:27: not relevant - tabiatta renk çeşitliliği, 35:28'deki bilginin örneğidir ama öğüt alma sahnesi değildir.
+- 35:29: ref ¶67 - kitabı okuyanların namaz kılması bilgi ve haşyetin amele açılışını tamamlar.
+- 35:30: not relevant - ücretlerin ödenmesi, haşyetle uyarı alışının dışındaki karşılıktır.
+- 50:43: not relevant - diriltme ve ölüm kudreti, korkana Kur'an ile öğüt buyruğunun mekanizması değil.
+- 50:44: not relevant - mahşerde yerin yarılması, öğüt buyruğunun komşu sahnesi olsa da alıcıyı açıklamaz.
+- 51:53: not relevant - eski inkârcıların ortak suçlaması, öğüdün faydasını ayrı bir biçimde göstermez.
+- 51:54: ref ¶67 - yüz çevirme emrinde elçinin suçlanmaması görev sınırıdır.
+- 51:56: not relevant - yaratılışın ibadet amacı, hitabı alma veya kaçınma biçimini anlatmaz.
+- 51:57: not relevant - Allah'ın rızık istememesi öğüt ilişkisinin konusu değildir.
+- 79:16: not relevant - mukaddes vadideki sesleniş, Firavun'un öğüde cevabına henüz gelmez.
+- 88:19: not relevant - dağların yerleştirilmesi, öğütçünün sınırına bağlanmaz.
+- 88:20: not relevant - yerin yayılması, öğütçünün sınırına bağlanmaz.
+- 88:25: ref ¶67 - dönenlerin dönüş yeri Allah'tır, elçinin göreviyle hesap ayrılır.
+- 87:5 own: not relevant - otun kuruması bu bölümün öğüt ve korku görüntüsü değildir.
+- 87:6 own: not relevant - Peygamber'e okutma vaadi, dinleyenin öğüt alıp kaçınmasını belirlemez.
+- 87:7 own: ref ¶67 - gizli ve açık olanı bilen Allah, görmeyen kişinin arınma ihtimalini elçiden farklı bilir.
+- 87:8 own: ref ¶65 - öğüt emrinden önce Peygamber'e kolay yol vaat edilir.
+- 87:12 own: ref ¶65 - öğütten kaçınan en bedbahtın ateşe girişi.
+- 87:13 own: ref ¶65 - ateşte ne ölüm ne hayat akıbeti.
+- 87:14 own: ref ¶65, ¶66, ¶67 - arınma korkanın aldığı öğüdün ilerideki olumlu karşılığıdır.
+- 87:15 own: ref ¶65, ¶66, ¶67 - Rabbi anıp namaz kılma, arınmanın ardından gelir.
+- 87:16 own: ref ¶66 - yakın hayatı yeğlemek hatırlatmadan uzaklaşmanın yönüyle birleşir.
+- 87:17 own: ref ¶66 - ahiretin daha iyi ve kalıcı oluşu bu yakın tercihine karşıdır.
+- 87:18 own: not relevant - eski sahifelerde bulunma, iki dinleyici tepkisini açıklamaz.
+- 87:19 own: not relevant - İbrahim ve Musa sahifelerinin adı bu görüntüye ayrı bağ kurmaz.
+- 2:1 own: not relevant - mukattaa harfleri öğüt alışını belirtmez.
+- 2:2 own: ref ¶65 - kitap sakınanlar için yol gösterir.
+- 2:3 own: ref ¶65 - sakınanların görünmeyene iman ve namazla tanıtılması.
+- 2:4 own: ref ¶65 - sakınanlar indirilen vahye ve ahirete kesin inanır.
+- 2:5 own: ref ¶65 - o alıcıların hidayet ve kurtuluşa bağlanması.
+- 2:24 own: not relevant - inkârcılar için hazırlanmış ateş, ¶65'in hemen ardından gelen akıbete yalnız genel paraleldir.
+- 2:25 own: not relevant - inananların bahçesi, öğüdü alma fiilini bu ayette belirtmez.
+- 2:26 own: ref ¶65 - aynı örneğe inananın ve inkârcının farklı cevap vermesi.
+- 2:27 own: not relevant - ahdi bozma ve fesat, 2:26'daki aynı örneğe iki cevap konusunu genişletmez.
+- 2:28 own: not relevant - dirilme ve dönüş delili, öğütçünün sunduğu sözün alınma anı değildir.
+- 2:121 own: ref ¶65 - kitabı gereğince okuyanların ona inanması.
+- 4:82 own: not relevant - Kur'an'daki tutarlılığı düşünme çağrısı, korkan dinleyici karşıtlığını belirtmez.
+- 6:155 own: ref ¶65 - indirilen bereketli kitaba uyup sakınma çağrısı.
+- 7:179 own: ref ¶66 - kalp, göz ve kulak varken anlamayıp işitmemek öğütten mesafeyi açıklar.
+- 8:29 own: not relevant - takvanın ayırt etme yetisi vermesi, ¶65'in bilginin korku doğurmasıyla ters yönlü ayrı bir ilişkidir.
+- 10:100 own: not relevant - imanın Allah'ın iznine bağlı olması öğüdü alana ve kaçınana ait somut sahneyi anlatmaz.
+- 16:83 own: ref ¶65 - nimeti tanıyıp sonra inkâr etmek bilginin tek başına haşyet olmadığını gösterir.
+- 18:29 own: not relevant - iman veya inkâr tercihinin ateşle sonuçlanması, bu bölümdeki belirli öğüt emrine bağlanmıyor.
+- 20:114 own: not relevant - vahiy tamamlanmadan acele etmeme ve ilim isteme Peygamber'in öğrenmesiyle ilgilidir.
+- 23:68 own: not relevant - söz üzerinde düşünmeme sorusu, korkanla kaçınanın ayetteki hareketini açıklamaz.
+- 24:44 own: not relevant - gece ve gündüzden ibret almak, sunulan sözlü öğütten başka bir sahnedir.
+- 28:43 own: ref ¶65 - Musa'ya verilen kitabın insanlar için hidayet ve hatırlatma olması.
+- 29:51 own: ref ¶65 - okunan kitabın müminlere rahmet ve öğüt olması.
+- 29:50 own: not relevant - ayet talebine karşı elçinin uyarıcı görevi, 29:51'deki öğüdün alıcısını genişletmez.
+- 29:52 own: not relevant - Allah'ın şahitliğine başvuru, korkuyla öğüt alma karşıtlığı değildir.
+- 29:53 own: not relevant - azabı acele isteme, öğütten kaçınmaya özgü bir fiil değil.
+- 39:21 own: not relevant - bitkilerin soluşundaki ibret, bu bölümde sunulan hitabın iki alıcısını açıklamaz.
+- 41:53 own: not relevant - ufukta ve nefislerde gösterilecek ayetler, 87:9'daki öğüt sunma anı değildir.
+- 50:35 own: not relevant - bahçedeki ek nimet, korkanın sözü alma mekanizması değildir.
+- 50:36 own: not relevant - önceki güçlü kuşakların helaki, 50:37'deki hazır kulak şartını belirtmez.
+- 50:37 own: prose ¶65 - hazır kulak ve kalp, öğüdün alıcısını tarif eder.
+- 50:38 own: not relevant - yaratılış süresi, öğüdün kime yarayacağı konusundan ayrıdır.
+- 50:39 own: not relevant - Peygamber'e sabır ve tesbih emri dinleyici tepkisini anlatmaz.
+- 51:52 own: not relevant - önceki elçilerin büyücü veya deli diye anılması, bu kesitteki öğüt alışı için ayrı bir sahne değildir.
+- 73:20 own: not relevant - gece kıyamının hafifletilmesi ve Kur'an okuma emri, bu bölümün seçilen üç ayetindeki iki karşılıktan biri değil.
+- 79:27 own: not relevant - göğün yaratılışı sorusu Firavun kıssasındaki korkana ibret hükmünü doğrudan açmaz.
+- 80:13 own: not relevant - değerli sahifeler 80:11-12'deki öğüdün kime yarayacağını açıklamaz.
+- 80:14 own: not relevant - sahifelerin yüceliği ve temizliği dinleyici tepkisi değildir.
+- 88:26 own: ref ¶67 - hesabın Allah'a ait oluşu elçinin zorlayıcı olmayışını tamamlar.

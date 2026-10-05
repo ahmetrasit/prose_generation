@@ -1,0 +1,465 @@
+=== ADD ===
+paragraph: 51
+ref: 13:10
+text: Ra'd suresi Allah'ı gaybı ve görünürü bilen diye andıktan sonra {source:13:9}, sözü gizleyenle açık söyleyeni, gece saklananla gündüz açıkça yol alanı yan yana koyar {source:13:10}. Bilinen şey yalnız sesin yüksekliği değil, insanın gözden saklanıp saklanmamasıdır.
+=== ADD ===
+paragraph: 51
+ref: 75:17
+text: Kıyâme suresinde vahiy için dili aceleyle hareket ettirmeme buyruğunu {source:75:16}, onun toplanması ve okunmasının Allah'a ait olduğu sözü izler {source:75:17}; okunduğunda bu okuyuşun izlenmesi istenir {source:75:18}. Dilin işi, kendisine verilen okuyuşu takip eder.
+=== ADD ===
+paragraph: 52
+ref: 2:72
+text: Bakara suresinde bir öldürme üzerine çekişenlere Allah, sakladıkları şeyi ortaya çıkaracağını bildirir {source:2:72}. Ot için kullanılan çıkarma kökü burada insanlarca saklanan bir olaya yönelir.
+=== ADD ===
+paragraph: 52
+ref: 9:64
+text: Tevbe suresinde münafıklar kalplerindekini bildirecek bir surenin inmesinden çekinir; Allah onların çekindiği şeyi açığa çıkaracağını söyler {source:9:64}. Burada kalpte saklananın çıkış yolu, inen surenin onu haber vermesidir.
+=== ADD ===
+paragraph: 52
+ref: 24:43
+text: Nûr suresinde Allah bulutları biriktirir, aralarından yağmur çıkar; aynı ayette şimşeğin parıltısı neredeyse gözleri giderir {source:24:43}. Bulutun içinden çıkan su ile görünürlüğü bastıracak kadar güçlü ışık bir gök sahnesinde buluşur.
+=== ADD ===
+paragraph: 52
+ref: 41:47
+text: Fussilet suresinde meyvenin kılıfından çıkışı ve her dişinin taşıdığı ile doğurduğu, Allah'ın bilgisiyle birlikte anılır {source:41:47}. Örtülü olanın bilinmesi, dışarı çıkmasından önce de sürer.
+=== ADD ===
+paragraph: 52
+ref: 79:31
+text: Nâziât suresinde yerin yayılmasının ardından {source:79:30} {ar:أَخْرَجَ مِنْهَا مَآءَهَا وَمَرْعَىٰهَا, tr:ahrece minhâ mâehâ ve mer'âhâ, gloss:yerden suyunu ve otlağını çıkardı, source:79:31} denir. Su ve otlak aynı çıkarma fiiliyle yere bağlanır.
+=== ADD ===
+paragraph: 53
+ref: 71:9
+text: Nûh, kavminin çağrısına kulaklarını tıkayıp giysilerine büründüğünü anlatır {source:71:7}. Onları önce açıktan çağırır {source:71:8}, ardından hem ilan ederek hem gizlice seslenir {source:71:9}. Açık ve gizli söyleyiş, onu işitmekten kaçanlara yöneltilen çağrının iki yoludur.
+=== REFS ===
+paragraph: 51
+text: Ayrıca: {source:87:6} okutmanın zemini; {source:87:15} ad anma ve namaz; {source:2:76} açık iman sözü ile aradaki gizli görüşme; {source:2:284} içte açılan veya saklananın hesaba katılması; {source:3:154} içte saklanıp gösterilmeyenin bilinmesi; {source:4:42} Allah'tan hiçbir söz saklamamaları; {source:4:81} ilan edilen itaat ile gece kurulan başka sözün kaydı; {source:5:61} söylenen inanç ile saklanan inkârın ayrılması; {source:12:77} içte tutulan cevabın açılmaması; {source:17:25} iç benliğin bilinmesi; {source:17:106} vahyin insanlara duraklayarak okunması; {source:20:114} vahiy tamamlanmadan okuyuşta acele edilmemesi; {source:21:3} {source:21:4} gizli görüşmenin ardından her sözün işitilmesi; {source:25:6} vahyi indirenin gök ve yerdeki sırrı bilmesi; {source:26:193} {source:26:194} {source:26:195} vahyin kalbe inip Arapça dille bildirilmesi; {source:27:74} göğüste saklananla ilan edilenin bilinmesi; {source:28:69} göğüste saklananla ilan edilenin bilinmesi; {source:29:45} okuma ile anmanın yan yana buyurulması; {source:33:54} açılan veya saklanan her şeyin bilinmesi; {source:35:38} göklerin gaybı ve göğsün içinin bilinmesi; {source:40:19} gizli bakışla göğüste tutulanın bilinmesi; {source:41:22} Allah'ın birçok işi bilmediği sanısının çürütülmesi; {source:47:26} gizli sözün bilinmesi; {source:58:8} gizli görüşme ile içte söylenenin birlikte anılması; {source:60:1} örtülü iletişimin ve ilan edilenin bilinmesi; {source:65:11} açık ayetlerin elçi tarafından okunması; {source:68:23} bahçe sahiplerinin kısık konuşması; {source:73:4} ölçülü Kur'an okuması; {source:2:33} Allah'ın açığa vurulanla gizleneni bilmesi; {source:2:77} saklananla ilan edilenin Allah'a açık olması; {source:3:29} göğüste saklanan veya açılanın bilinmesi; {source:3:118} ağızdan çıkan düşmanlıkla göğüste tutulanın ayrılması; {source:3:167} ağızda söylenenin kalpte bulunmaması; {source:4:108} gece gizlenen sözün Allah'tan saklanamaması; {source:5:99} tebliğ edilen sözün yanında gizlinin de bilinmesi; {source:6:3} insanın sırrı ve açık hâlinin bilinmesi; {source:7:55} gizli yakarış; {source:7:205} içten ve yüksek olmayan sesle anma; {source:8:2} okunan ayetlerin kalpte karşılık bulması; {source:9:64} inen surenin kalpte saklananı bildirmesi; {source:9:78} gizli konuşmanın Allah'ça bilinmesi; {source:10:61} Kur'an okunurken Allah'ın tanıklığı; {source:11:5} giysiyle örtünürken de gizli ve açık sözün bilinmesi; {source:13:28} Allah'ı anmanın kalpteki karşılığı; {source:14:38} gizlenenle açıklananın Allah'a açık olması; {source:16:19} {source:16:23} saklananla ilan edilenin bilinmesi; {source:17:110} namaz sesinin iki uç arasında tutulması; {source:20:7} yüksek sözün ardından sırrın ve daha gizlinin bilinmesi; {source:21:110} sözün açığıyla saklananın bilinmesi; {source:25:32} ölçülü okunan vahyin kalbi sağlamlaştırması; {source:29:49} açık ayetlerin göğüslerde bulunması; {source:39:23} indirilen sözün deride ve kalpte karşılık bulması; {source:43:80} sır ve özel konuşmanın işitilmesi; {source:48:11} dillerdeki sözle kalptekinin ayrılması; {source:50:16} {source:50:17} {source:50:18} iç fısıltının bilinmesi ve söylenen sözün gözetilmesi; {source:58:1} kişisel konuşmanın Allah tarafından işitilmesi; {source:58:7} özel konuşmanın Allah'ın bilgisinde olması; {source:64:4} saklanan, açıklanan ve göğüstekinin bilinmesi; {source:66:3} gizli sözün Allah tarafından bildirilmesi; {source:67:13} {source:67:14} gizli veya açık sözün, göğüstekini bilen Yaratıcıya açık olması; {source:71:8} Nûh'un açıktan çağırması; {source:71:9} ilan ve gizli çağrının yan yana gelişi.
+=== REFS ===
+paragraph: 52
+text: Ayrıca: {source:87:4} otlağın çıkarılması; {source:87:7} açık ve saklı olanın bilinmesi; {source:2:60} {source:7:160} taştan su kaynaklarının açılması; {source:2:164} yağmurun ölü yeri diriltmesi; {source:3:27} {source:10:31} canlıyı ölüden çıkarma; {source:3:179} {source:72:26} {source:72:27} gaybın seçilen elçi dışında insanlara açılmaması; {source:6:73} {source:13:9} {source:23:92} {source:32:6} {source:39:46} {source:59:22} {source:64:18} gayb ile görünenin Allah'ın bilgisinde olması; {source:7:20} {source:7:22} {source:20:121} örtülü bedenin açılması ve yeniden yaprakla kapanması; {source:16:14} {source:35:12} sudan süsün çıkarılması; {source:16:65} yağmurun ölü yeri diriltmesi; {source:16:66} hayvanın içinden sütün verilmesi; {source:16:69} arının içinden içeceğin çıkması; {source:16:78} {source:40:67} ana karnından çocuğun çıkarılması; {source:18:41} suyun yere çekilip erişilmez olması; {source:18:45} yağmur bitkisinin kuruyup savrulması; {source:18:82} duvar altında saklanan hazinenin vaktinde çıkarılması; {source:20:6} toprağın altındakinin de Allah'a ait olması; {source:22:63} yağmurun toprağı yeşertmesi; {source:24:40} kat kat karanlığın eli saklaması; {source:26:7} yerde türlü bitkinin yetişmesi; {source:27:60} yağmurla bahçelerin yetişmesi; {source:27:65} gaybın yalnız Allah tarafından bilinmesi; {source:29:63} {source:30:24} yağmurla ölü yerin dirilmesi; {source:30:19} ölü yerin dirilmesiyle insanların çıkarılışının eşlenmesi; {source:30:48} {source:30:49} {source:30:50} buluttan yağmura ve dirilen yere geçiş; {source:31:10} yağmurla yerde bitkinin yetişmesi; {source:31:34} Saat, yağmur ve rahimdekinin bilgisi; {source:33:37} içte saklananın Allah tarafından açılması; {source:34:14} saklı ölümün düşünce öğrenilmesi; {source:35:9} buluttan gelen suyun ölü yeri diriltmesi; {source:35:11} gebelik ile doğumun bilinmesi; {source:41:39} suyun yeri canlandırması; {source:43:11} suyla ölü yerin canlanıp insanların çıkarılması; {source:45:5} yağmurla yerin canlanması; {source:50:7} yerde türlü bitkinin yetiştirilmesi; {source:50:9} {source:50:10} {source:50:11} yağmurla tane ve hurmanın yetişmesi, ölü yerin canlanması; {source:53:32} rahimdeki ceninin önceden bilinmesi; {source:54:12} yerin yarılıp kaynak olması; {source:55:22} sudan inci ve mercanın çıkması; {source:56:63} {source:56:64} {source:56:65} ekini yetiştiren ve dağıtan irade; {source:57:20} yağmur bitkisinin kuruyup parçalanması; {source:66:3} gizli sözün Allah tarafından açılması; {source:67:30} kaybolan suyun geri getirilmesi sorusu; {source:71:17} {source:71:18} insanın yerden yetişip yeniden çıkarılması; {source:84:4} yerin içindekileri atması; {source:86:12} yerin yarılması; {source:2:20} şimşeğin ışığının görmeyi neredeyse alması; {source:2:22} yağmurun meyveyi çıkarması; {source:2:74} yarılan taştan suyun çıkması; {source:3:5} yerde ve gökte hiçbir şeyin Allah'tan gizlenmemesi; {source:6:28} önce saklanan şeyin görünür hâle gelmesi; {source:6:59} toprağın karanlığındaki tanenin bilinmesi; {source:6:95} tanenin yarılmasıyla canlıyı çıkarma; {source:6:99} yağmurla bitki, yeşillik ve tanenin çıkarılması; {source:7:57} {source:7:58} yağmur alan toprağın meyve ve bitki çıkarması; {source:10:24} yağmurla karışan yeryüzü bitkisinin görünür büyümesi; {source:11:5} giysinin örtüsündeki sırların bilinmesi; {source:13:10} gece gizlenenle gündüz açık yürüyenin yan yana konması; {source:14:38} yer ve gökte hiçbir şeyin Allah'tan gizlenmemesi; {source:16:10} {source:16:11} gökten inen suyun otlak ve ekin yetiştirmesi; {source:20:53} {source:20:54} suyla çıkan bitkinin hayvanlara otlak olması; {source:22:5} yağmurla yerin canlanıp bitki yetiştirmesi; {source:23:18} {source:23:19} yere yerleştirilen suyun ardından bahçelerin yetişmesi; {source:27:25} saklıyı çıkaranın gizlenenle açıklananı bilmesi; {source:27:75} gök ve yerde gizli olanın açık kayıtta bulunması; {source:31:16} kaya yahut yerdeki küçücük tanenin Allah tarafından getirilmesi; {source:32:27} kurak yere sürülen suyla ekinin çıkarılması; {source:34:2} yere girenle yerden çıkanın bilinmesi; {source:35:27} yağmurla renk renk meyvelerin çıkarılması; {source:36:33} {source:36:34} {source:36:35} ölü yerden tane çıkarılması, bahçe ve pınarların oluşması; {source:39:21} yere işleyen suyun ekini çıkarması; {source:40:16} ortaya çıkarılan insanlardan hiçbir şeyin Allah'a gizli kalmaması; {source:47:29} kalpteki kinin Allah tarafından çıkarılması; {source:57:4} yere girenle ondan çıkanın bilinmesi; {source:69:18} sunuluş gününde saklı hiçbir şeyin gizli kalmaması; {source:78:14} {source:78:15} {source:78:16} inen suyla tane, bitki ve bahçenin çıkarılması; {source:79:33} çıkarılan su ve otlağın insanlara ve hayvanlara geçim olması; {source:80:24} {source:80:25} {source:80:26} {source:80:27} {source:80:28} {source:80:29} {source:80:30} {source:80:31} {source:80:32} yiyeceğe bakıştan yağmur, yarılan yer ve ota uzanan sıra; {source:86:9} gizli iç hâllerin sınanması; {source:99:2} yerin içindekileri dışarı atması; {source:100:9} {source:100:10} kabirlerdekiler dağıtılırken göğüstekinin ortaya çıkarılması.
+=== REFS ===
+paragraph: 53
+text: Ayrıca: {source:3:41} Zekeriya'nın konuşamazken anma ve tesbih buyruğu alması; {source:7:56} duanın korku ve ümitle yapılması; {source:7:187} Saat'in vaktini yalnız Allah'ın bildirmesi; {source:16:77} Saat'in gaybı ve ansızın gelişi; {source:20:13} ateş başındaki vahyi dinleme buyruğu; {source:21:109} elçinin vaat edilenin ne zaman geleceğini bilmemesi; {source:27:7} {source:27:8} {source:27:9} Musa'nın gördüğü ateşten gelen ilahi çağrı; {source:27:23} hüdhüdün gördüğü kavmin yöneticisi; {source:27:26} secdeye çağıranın büyük arşın Rabbi oluşu; {source:28:29} {source:28:30} Musa'nın ateşi görüp ağaç yanından çağrılması; {source:33:63} Saat bilgisinin Allah'a ait olması; {source:34:3} Saat'in geleceğinin gayb bilgisiyle bildirilmesi; {source:49:4} {source:49:5} odaların gerisinden çağırmak yerine çıkmasını bekleme; {source:79:44} Saat bilgisinin Rabbe dayanması; {source:4:148} kötülüğü açıkça söylemenin sevilmemesi ve haksızlığa uğrayanın istisnası; {source:6:63} tehlikede gizlice yalvaranların duası; {source:7:204} okunan Kur'an karşısında dinleme ve susma; {source:19:3} Zekeriya'nın gizli çağrısı; {source:19:10} {source:19:11} konuşamadığında işaretle tesbihi duyurması; {source:20:10} {source:20:11} Musa'nın ateşi görmesi ve ardından çağrılması; {source:20:14} ateş başındaki hitapta namazın anma için emredilmesi; {source:27:22} hüdhüdün haber getirmesi; {source:27:24} hüdhüdün güneşe secdeyi ve şeytanın alıkoymasını anlatması; {source:31:19} sesin kısılması buyruğu; {source:49:2} {source:49:3} Peygamber'in yanında sesin ölçülmesi.
+=== VERDICTS ===
+- 2:17: not relevant - ışığın geri alınması benzetmesi, buradaki bilinen gizli söz veya örtüden çıkış sahnesi değil.
+- 2:19: not relevant - yağmur benzetmesinde kulaklar korkuyla kapanır; gizli sözün bilinmesi anlatılmaz.
+- 2:22: ref ¶52 - yağmurla meyvelerin çıkarılması.
+- 2:33: ref ¶51 - açığa vurulanla saklananı Allah bilir.
+- 2:60: ref ¶52 - taştan su kaynaklarının çıkması.
+- 2:72: prose ¶52 - gizlenen olayın Allah tarafından çıkarılması.
+- 2:74: ref ¶52 - yarılan taştan suyun çıkması.
+- 2:77: ref ¶51 - gizli ve ilan edilenin bilinmesi.
+- 2:235: not relevant - evlilik teklifinin iç niyeti ve mahrem görüşmesi, okunan sözün ses ve kalp hâliyle bağ kurmaz.
+- 2:257: not relevant - karanlıktan aydınlığa manevi çıkarılma, örtülü nesnenin görünmesi sahnesi değildir.
+- 2:271: not relevant - sadakanın gizli veya açık verilmesi, bu bölümün söz/çıkarma bağına değmez.
+- 2:284: ref ¶51 - insanın içindekini açıklasa da gizlese de Allah'ın hesaba katması.
+- 3:5: ref ¶52 - yer ve gökte hiçbir şeyin Allah'tan gizlenmemesi.
+- 3:6: not relevant - rahimde biçim verme anlatılır; gizlinin bilinmesi yahut çıkarılması söylenmez.
+- 3:29: ref ¶51 - göğüste saklanan veya açılanın Allah tarafından bilinmesi.
+- 3:41: ref ¶53 - insanlara söz söyleyemeyen Zekeriya'ya anma ve tesbih buyurulması.
+- 3:118: ref ¶51 - ağızdan görünenle göğüste gizlenen düşmanlığın ayrılması.
+- 3:154: ref ¶51 - içte saklanıp gösterilmeyen düşüncenin Allah tarafından bilinmesi.
+- 4:42: ref ¶51 - hesap gününde Allah'tan hiçbir söz saklamamaları.
+- 4:81: ref ¶51 - söylenen itaatle gece kurulan başka sözün ayrılması ve kaydı.
+- 4:108: ref ¶51 - insanlardan gizlenen gece sözünün Allah'tan saklanamaması.
+- 4:148: ref ¶53 - kötülüğü açıkça söylemenin sevilmemesi, haksızlığa uğrayanın istisna tutulması.
+- 4:149: not relevant - iyiliğin gösterilmesi veya gizlenmesi ahlaki seçimdir; ses ve örtüden çıkış yoktur.
+- 5:15: ref ¶52 - kitaptan saklanan şeyin elçi tarafından açıklanması.
+- 5:31: not relevant - kuzgunun cesedi örtmeyi öğretmesi, paragraftaki gizlinin dışarı çıkışı yönünün tersidir.
+- 5:61: ref ¶51 - dışta inanç sözüyle saklanan inkârın ayrılması.
+- 5:99: ref ¶51 - elçinin tebliğine karşılık insanların açığa vurup gizlediklerinin bilinmesi.
+- 6:3: cited ¶53; ref ¶51 - sır ve açık hâlin bilinmesi ses/iç ayrımını da karşılar.
+- 6:25: not relevant - dinleyenin kalp ve kulağındaki engel, Allah'ın açık ve gizli sözü bilmesiyle ilgili değil.
+- 6:28: ref ¶52 - önceden gizlenenin görünür hâle gelmesi.
+- 6:59: ref ¶52 - toprağın karanlığındaki tanenin bilinmesi.
+- 6:63: ref ¶53 - tehlikede gizlice yalvarma.
+- 6:95: ref ¶52 - tanenin yarılması ve canlının çıkarılması.
+- 6:99: ref ¶52 - yağmurla bitkinin ve tanenin çıkarılması.
+- 7:20: ref ¶52 - örtülmüş bedenin açılması amacıyla fısıldanan söz.
+- 7:22: ref ¶52 - gizli bedenin görünmesi ve yaprakla yeniden örtülmesi.
+- 7:55: cited ¶53; ref ¶51 - içten anma yanında gizli duanın sesi.
+- 7:57: ref ¶52 - yağmurla ölü topraktan meyvelerin çıkarılması.
+- 7:58: ref ¶52 - toprağın bitki çıkarmasının Rabbin iznine bağlanması.
+- 7:160: ref ¶52 - taştan su kaynaklarının çıkması.
+- 7:205: cited ¶53; ref ¶51 - içten, yüksek olmayan sesle anma.
+- 8:2: ref ¶51 - okunan ayetlerin kalpte karşılık bulması.
+- 9:64: prose ¶52, ref ¶51 - inen surenin kalpte saklananı bildirmesi.
+- 9:78: ref ¶51 - sır ve özel konuşmanın Allah tarafından bilinmesi.
+- 10:24: ref ¶52 - yağmurla büyüyen yeryüzü bitkisi.
+- 10:61: ref ¶51 - Kur'an okunuşunda ilahi tanıklık.
+- 11:5: ref ¶51, ¶52 - giysiyle örtünürken bile saklananla ilan edilenin bilinmesi.
+- 11:49: not relevant - görülmemiş geçmiş olayın vahyedilmesi, bu bölümdeki sözün ses ve iç hâline bağlanmıyor.
+- 12:10: not relevant - Yusuf'un kuyuya atılma tasarısı, kuyu temizliğiyle kurulan sözlük örneğinin hareketini açıklamaz.
+- 12:15: not relevant - Yusuf'un kuyuya konması, bu bölümdeki ilahi bilgi ve çıkarma çiftini taşımaz.
+- 12:19: not relevant - kuyudan çıkarma ayette söylenmez; kova ve kişinin gizli ticareti ayrı eylemlerdir.
+- 12:77: ref ¶51 - Yusuf'un cevabı içinde tutup kardeşlerine açmaması.
+- 12:102: not relevant - geçmiş olayın gayb haberi oluşu, yüksek/gizli söz yahut örtüden çıkışla bağlanmaz.
+- 13:8: ref ¶52 - rahimde taşınanın Allah tarafından bilinmesi.
+- 13:10: prose ¶51, ref ¶52 - gizli/açık sözle gece saklanan/gündüz görünenin eşlenmesi.
+- 13:28: ref ¶51 - anmanın kalpteki karşılığı.
+- 14:38: ref ¶51, ¶52 - saklananla açıklananın ve yerde/göktekinin Allah'a açık olması.
+- 15:14: not relevant - açılan gök kapısı karşısındaki insan inkârının girişidir, gözün ışıkla örtülmesi anlatılmaz.
+- 16:10: ref ¶52 - inen suyla hayvan otlağı olan bitki.
+- 16:11: ref ¶52 - inen suyla ekin ve ağaçların yetişmesi.
+- 16:19: ref ¶51 - saklananla ilan edilenin bilinmesi.
+- 16:23: ref ¶51 - saklananla ilan edilenin bilinmesinin yinelenmesi.
+- 16:69: ref ¶52 - arının örtülü içinden içeceğin çıkması.
+- 16:75: not relevant - gizli/açık harcama benzetmesi, söz ve örtülü nesnenin çıkışıyla birleşmez.
+- 16:78: ref ¶52 - ana karnından çıkarılan insanın başlangıçta bilmemesi.
+- 17:25: ref ¶51 - içte olanın Rab tarafından bilinmesi.
+- 17:45: not relevant - okuma karşısında inanmayanlarla arasına perde konması, okunanın Allah tarafından bilinmesini açmaz.
+- 17:46: not relevant - dinleyicilerin kalp ve kulağındaki engel, buradaki ilahi bilgiyle ayrı bir meseledir.
+- 17:110: cited ¶53; ref ¶51 - namazın sesinin iki uç arasında tutulması.
+- 18:24: not relevant - unuttuğunda Rabbi an buyruğu, okunan sözün açık ve iç hâllerini açıklamaz.
+- 18:26: not relevant - mağarada kalış süresinin gayb bilgisi, bölümün somut ses/çıkarma bağını kurmaz.
+- 18:45: ref ¶52 - yağmurla çıkan yer bitkisinin kuruyup dağılması.
+- 18:57: not relevant - hatırlatmaya kapanan kalp ve kulak, Allah'ın gizli olanı bilmesi değil insanın anlamamasıdır.
+- 18:82: ref ¶52 - duvar altındaki saklı hazinenin vaktinde çıkarılması.
+- 19:3: ref ¶53 - Zekeriya'nın gizli çağrısı.
+- 19:10: ref ¶53 - insanlarla konuşamama işareti.
+- 19:11: ref ¶53 - işaretle sabah akşam tesbihi duyurması.
+- 20:7: cited ¶53; ref ¶51 - yüksek sözden gizliye uzanan ilahi bilgi.
+- 20:10: ref ¶53 - Musa'nın ateşi görmesi.
+- 20:11: ref ¶53 - ateşe varınca çağrılması.
+- 20:13: ref ¶53 - ateş başındaki vahye kulak verme buyruğu.
+- 20:14: ref ¶53 - namazın Allah'ı anmak için emredilmesi.
+- 20:15: cited ¶53; nowhere else - Saat'in gizlenmesi anlatılır, diğer paragrafların okuma veya maddi çıkış sahnesini genişletmez.
+- 20:27: not relevant - dil düğümünün çözülmesi isteği, yüksek/gizli söz ayrımı değildir.
+- 20:28: not relevant - Musa'nın sözünün anlaşılma amacı, sesin gizliliğiyle ilgili değil.
+- 20:53: ref ¶52 - gökten su inmesiyle türlü bitkinin çıkarılması.
+- 20:54: ref ¶52 - çıkan bitkinin hayvan otlağı olması.
+- 20:62: not relevant - gizli danışma söylenir, Allah'ın bunu bilmesi veya açığa çıkarması ayette verilmez.
+- 20:108: not relevant - hesap günündeki fısıltı, burada anma ve dua sesinin ölçüsüyle bağlanmaz.
+- 20:121: ref ¶52 - örtülü bedenin görünmesi ve yaprakla yeniden kapanması.
+- 21:3: ref ¶51 - gizli danışmanın kalp kayıtsızlığıyla birlikte anılması.
+- 21:4: ref ¶51 - her sözün Allah tarafından işitilip bilinmesi.
+- 21:110: cited ¶53; ref ¶51 - sözün açığı ve saklananın birlikte bilinmesi.
+- 22:5: ref ¶52 - yağmurun ölü toprağı harekete geçirip bitki yetiştirmesi.
+- 22:63: ref ¶52 - yağmurun toprağı yeşertmesi.
+- 23:18: ref ¶52 - indirilen suyun toprağa yerleştirilmesi.
+- 23:20: not relevant - Sina'dan çıkan ağaç, gizli bir örtünün açılması olarak anlatılmaz.
+- 24:29: not relevant - evlere giriş kuralında açıklanan/gizlenen bilgisi, bu bölümün ses ve çıkışına bağlanmaz.
+- 24:31: not relevant - süsü belli eden ayak sesi farklı bir saklama kuralıdır; burada okunan sözün açık/gizli hâli yok.
+- 25:6: ref ¶51 - vahyi indirenin gök ve yerdeki sırrı bilmesi.
+- 25:32: ref ¶51 - ölçülü okunan vahyin kalbi sağlamlaştırması.
+- 26:7: ref ¶52 - yerde yetiştirilen türlü bitkiye bakılması.
+- 27:7: ref ¶53 - Musa'nın ateşe yönelmesi.
+- 27:8: ref ¶53 - ateşe varınca çağrı işitmesi.
+- 27:9: ref ¶53 - çağrıda konuşanın Allah olduğunun bildirilmesi.
+- 27:20: not relevant - hüdhüdün yokluğuna dair soru, onun gizliyi çıkaran Allah sözünü açıklamaz.
+- 27:22: ref ¶53 - hüdhüdün Süleyman'a kesin haber getirmesi.
+- 27:24: ref ¶53 - güneşe secdeyi ve şeytanın engelini hüdhüdün anlatması.
+- 27:25: cited ¶53; ref ¶52 - saklıyı çıkarma ve gizli/açık bilginin aynı ayette olması.
+- 27:74: ref ¶51 - göğüste tutulanla ilan edilenin bilinmesi.
+- 28:29: ref ¶53 - Musa'nın ateşi görmesi.
+- 28:30: ref ¶53 - ağaç yanından gelen çağrıdaki konuşanın Allah olması.
+- 28:69: ref ¶51 - göğüste tutulanla ilan edilenin bilinmesi.
+- 29:48: not relevant - önceki bir kitabı okumamış olmak, şimdi okutulan sözün açık veya içten okunmasını belirlemez.
+- 29:49: ref ¶51 - açık ayetlerin bilgi verilenlerin göğsünde bulunması.
+- 30:19: ref ¶52 - ölü toprağın diriltilmesiyle insanın çıkarılışının eşlenmesi.
+- 31:10: ref ¶52 - yağmurla yerde bitkilerin yetiştirilmesi.
+- 31:16: ref ¶52 - kayada yahut yerdeki küçücük tanenin Allah tarafından getirilmesi.
+- 31:34: ref ¶52 - Saat, yağmur ve rahimdekinin Allah'ın bilgisine bağlanması.
+- 32:17: not relevant - ödül olarak saklanan sevinç henüz çıkarılmıyor; paragraftaki çıkış hareketi yok.
+- 32:27: ref ¶52 - kurak yere su sürülüp ekinin çıkarılması.
+- 33:37: ref ¶52 - içte gizlenenin Allah tarafından açığa çıkarılması.
+- 33:54: ref ¶51 - gösterilen veya gizlenen her şeyin bilinmesi.
+- 34:2: ref ¶52 - yere giren ve oradan çıkanın bilinmesi.
+- 34:3: ref ¶53 - gelecek Saat'in gayb bilgisi ve hiçbir zerrenin gizli kalmaması.
+- 35:11: ref ¶52 - gebelik ve doğumun Allah'ın bilgisinde olması.
+- 35:38: ref ¶51 - göklerin gaybı ve göğüslerin içinin bilinmesi.
+- 36:9: not relevant - görmeyi engelleyen set, fazla ışığın örtü olması iddiasıyla aynı mekanizma değildir.
+- 36:33: ref ¶52 - ölü yerden tanenin çıkarılması.
+- 36:34: ref ¶52 - bahçe ve pınarın yerde belirmesi.
+- 36:51: not relevant - kabirden koşma, bitki veya saklanan gerçeğin açılması yönünde bir açıklama katmaz.
+- 36:76: ref ¶51 - söylenenin yanında saklanan ve ilan edilenin bilinmesi.
+- 39:6: not relevant - rahimde karanlıkta oluşma, o örtüden çıkış veya ilahi bilgiyle ayette eşlenmez.
+- 39:21: ref ¶52 - yere işleyen suyun bitkiyi çıkarması.
+- 39:23: ref ¶51 - indirilen sözün deride ve kalpte karşılık bulması.
+- 40:16: ref ¶52 - ortaya çıkarılan insandan hiçbir şeyin gizli kalmaması.
+- 40:19: ref ¶51 - gizli bakışla göğüste tutulanın bilinmesi.
+- 40:67: ref ¶52 - örtülü gelişimden sonra çocuğun çıkarılması.
+- 41:5: not relevant - dinleyenin kalp ve kulak engeli, söyleyenin sesini Allah'ın bilmesi meselesi değil.
+- 41:40: not relevant - ayetleri çarpıtanların Allah'tan saklanamaması, buradaki örtüden çıkarma sahnesini kurmaz.
+- 41:47: prose ¶52 - kılıftan çıkan meyve ile taşıma/doğumun bilgisi.
+- 43:11: ref ¶52 - suyla ölü yerin diriltilip insanların da çıkarılacağının söylenmesi.
+- 43:80: ref ¶51 - sır ve özel konuşmanın Allah tarafından işitilmesi.
+- 47:26: ref ¶51 - gizli vaadin Allah tarafından bilinmesi.
+- 47:29: ref ¶52 - kalpteki kinin Allah tarafından çıkarılması.
+- 49:2: ref ¶53 - Peygamber yanında yüksek sesle konuşmaya sınır.
+- 49:3: ref ¶53 - onun yanında ses kısmanın övülmesi.
+- 50:16: ref ¶51 - iç benliğin fısıltısının bilinmesi.
+- 50:18: ref ¶51 - dışarı söylenen sözün gözetilmesi.
+- 50:44: not relevant - kabirden çıkış, burada gizli nesne ile ilahi bilginin birleşimini anlatmaz.
+- 53:32: ref ¶52 - Allah'ın rahimde saklı cenini önceden bilmesi.
+- 54:7: not relevant - kabirden topluca çıkış, gizli bitki veya saklanan sözü açıklamaz.
+- 54:12: ref ¶52 - yerin yarılıp kaynakların açılması.
+- 56:63: ref ¶52 - ekilen bitkinin insanın dikkatine sunulması.
+- 56:64: ref ¶52 - bitkiyi büyütenin Allah oluşu.
+- 56:65: ref ¶52 - yetişen ekinin parçalanmasının ilahi iradeye bağlanması.
+- 57:4: ref ¶52 - yere giren ve ondan çıkanın Allah tarafından bilinmesi.
+- 58:1: ref ¶51 - kişisel konuşmanın Allah tarafından işitilmesi.
+- 58:7: ref ¶51 - özel konuşmanın Allah'ın bilgisinde olması.
+- 60:1: ref ¶51 - gizli sevgi iletiminin ve ilan edilenin bilinmesi.
+- 64:4: ref ¶51 - gizli, açık ve göğüstekinin bilinmesi.
+- 65:11: ref ¶51 - elçinin açık ayetleri okumasıyla muhataplara ulaşan vahiy.
+- 66:3: ref ¶51, ¶52 - gizli konuşmanın Allah tarafından açığa çıkarılması.
+- 67:13: ref ¶51 - sözü gizli veya açık söylemenin kalptekinin bilinmesini değiştirmemesi.
+- 67:30: ref ¶52 - yer altına çekilen suyun yeniden getirilmesi sorusu.
+- 68:23: ref ¶51 - bahçe sahiplerinin aralarında alçak sesle konuşması.
+- 69:18: ref ¶52 - sunuluşta gizli hiçbir şeyin saklı kalmaması.
+- 70:43: not relevant - kabirlerden süratle çıkış, bu bölümdeki gizli-açık bilgi hareketini açıklamaz.
+- 71:7: context ¶53 (in 71:9) - kulak ve giysi örtüsü açık/gizli çağrının öncesidir.
+- 71:8: context ¶53 (in 71:9); ref ¶51 - Nûh'un açıktan çağırması.
+- 71:9: prose ¶53, ref ¶51 - ilan ve gizli çağrıyı aynı konuşanın yapması.
+- 71:17: ref ¶52 - insanın yerden bitki gibi yetiştirilmesi.
+- 71:18: ref ¶52 - yere döndürülen insanın yeniden çıkarılması.
+- 72:26: ref ¶52 - Allah'ın gaybını herkese açmaması, açığa çıkarma iradesinin sınırını belirtir.
+- 72:27: ref ¶52 - seçilen elçinin gaybı bildirmede istisna olması.
+- 73:4: ref ¶51 - Kur'an'ın ölçülü okunmasının emredilmesi.
+- 75:16: context ¶51 (in 75:17) - dilin aceleyle hareket ettirilmemesi.
+- 75:17: prose ¶51 - toplama ve okuyuşun Allah'a ait olması.
+- 75:18: context ¶51 (in 75:17) - okunanın okuyuşunu izleme buyruğu.
+- 79:31: prose ¶52 - yerden hem suyun hem otlağın çıkarılması.
+- 80:25: ref ¶52 - toprağı açacak suyun dökülmesi.
+- 80:26: ref ¶52 - toprağın yarılması.
+- 80:27: ref ¶52 - tanenin yetiştirilmesi.
+- 80:28: ref ¶52 - üzüm ve yeşil otun yetişmesi.
+- 80:29: ref ¶52 - zeytin ve hurmanın yetişmesi.
+- 80:30: ref ¶52 - gür bahçelerin yetişmesi.
+- 80:31: ref ¶52 - meyve ile otlağın yetişmesi.
+- 84:4: ref ¶52 - yerin içindekileri dışarı atması.
+- 86:9: ref ¶52 - iç sırların sınanması.
+- 86:11: not relevant - göğün dönüşü tek başına yağmur diye adlandırılmıyor; çıkarılan nesne yok.
+- 86:12: ref ¶52 - yarılan toprağın açılması.
+- 99:2: ref ¶52 - yerin ağırlıklarını dışarı çıkarması.
+- 100:9: ref ¶52 - kabirlerin içinin dağıtılıp açılması.
+- 100:10: ref ¶52 - göğüslerdeki saklının ortaya çıkarılması.
+- 2:164: ref ¶52 - inen suyun ölü toprağı diriltmesi.
+- 2:274: not relevant - gizli/açık harcama, ses veya örtüden çıkarma sahnesi kurmaz.
+- 3:27: ref ¶52 - canlıyı ölüden çıkarma ve hâlin değişmesi.
+- 3:167: ref ¶51 - ağızla söylenenin kalpte bulunmaması.
+- 3:191: not relevant - her durumda anma söylenir; ses ve iç söyleyiş ayrılmaz.
+- 4:43: not relevant - namazda kişinin söylediğini bilmesi istenir; paragrafta bilen Allah'tır.
+- 5:16: not relevant - hidayetle karanlıktan aydınlığa çıkarılma, burada örtülü şeyin ortaya çıkışıyla aynı sahne değil.
+- 6:47: not relevant - azabın ansızın yahut açıktan gelişi, okuyuş sesinin veya gizli nesnenin durumu değildir.
+- 6:73: ref ¶52 - gayb ve görünürün Allah tarafından bilinmesi.
+- 6:122: not relevant - hidayet ışığı karşısında karanlıkta kalma benzetmesi, gizli nesnenin çıkarılması değildir.
+- 7:187: ref ¶53 - Saat'in vaktini yalnız Allah'ın açığa çıkarması.
+- 9:65: not relevant - münafıkların sonraki mazeret sözü, 9:64'teki kalpte saklananı çıkarma yolunu açıklamaz.
+- 9:94: not relevant - hesapta amellerin haber verilmesi, burada saklı sözün veya örtülü nesnenin açılmasıyla özgül bağ kurmaz.
+- 9:105: not relevant - amellerin görülmesi ve sonradan bildirilmesi, bu bölümdeki ses ve çıkarma sahnesine özgü değil.
+- 10:31: ref ¶52 - canlıyı ölüden çıkarma eyleminin Allah'a bağlanması.
+- 13:9: context ¶51 (in 13:10); ref ¶52 - gayb ve görünür bilgisi gece/gündüz ile söz çiftini çerçeveler.
+- 13:22: not relevant - gizli/açık infak, açık/gizli okuma veya örtüden çıkarma değil.
+- 14:1: not relevant - kitabın insanları hidayet karanlığından ışığa çıkarması, maddedeki gizli/açık hareket değildir.
+- 14:5: not relevant - Musa'nın kavmini karanlıktan ışığa çıkarma görevi, ateşteki ses sahnesini açıklamaz.
+- 14:31: not relevant - gizli/açık infakla namazın yan yana olması, namazın sesini söylemez.
+- 14:32: ref ¶52 - yağmurla meyvelerin rızık olarak çıkarılması.
+- 15:15: not relevant - gök kapısı açılsa bile gözleri büyülenmiş sayacaklarını söylemeleri, gerçek ışık körlüğü değildir.
+- 16:14: ref ¶52 - denizin içinden süs eşyasının çıkarılması.
+- 16:65: ref ¶52 - yağmurla ölü yerin diriltilmesi.
+- 16:66: ref ¶52 - hayvanın örtülü içinden sütün verilmesi.
+- 16:77: ref ¶53 - gök ve yerin gaybına ait Saat'in ansızın gelebilmesi.
+- 17:14: not relevant - kişinin kendi kayıt kitabını okuması, indirilen sözün ses ve iç hâliyle başka bir okuyuştur.
+- 17:78: not relevant - tanık olunan sabah okuyuşu, yüksek ses veya gizli kalp okuyuşu olarak ayrılmaz.
+- 17:106: ref ¶51 - Kur'an'ın insanlara duraklayarak okunması.
+- 20:114: ref ¶51 - vahiy tamamlanmadan Kur'an'da acele etmeme buyruğu.
+- 23:13: not relevant - bir damlanın sağlam yere konması tek başına çıkış veya Allah'ın gizliyi bilmesi değil.
+- 23:14: not relevant - rahimdeki yaratılış sırası, bu paragrafın görünür çıkışını söylemez.
+- 23:19: ref ¶52 - yerleştirilen suyun ardından bahçelerin yetişmesi.
+- 23:92: ref ¶52 - gayb ve görünürün Allah tarafından bilinmesi.
+- 26:193: ref ¶51 - vahyin inişinin kalbe yönelmesi.
+- 26:194: ref ¶51 - indirilenin kalpte yer bulması.
+- 26:195: ref ¶51 - indirilenin açık Arapça dil ile oluşu.
+- 27:60: ref ¶52 - yağmurla bahçelerin yetiştirilmesi.
+- 27:65: ref ¶52 - gök ve yerdeki gaybı yalnız Allah'ın bilmesi.
+- 27:75: ref ¶52 - gök ve yerdeki saklı şeyin açık kayıtta bulunması.
+- 29:45: ref ¶51 - vahyi okuma ile Allah'ı anmanın yan yana buyurulması.
+- 29:63: ref ¶52 - yağmurla ölü toprağın diriltilmesi.
+- 30:24: ref ¶52 - gökten inen suyun ölü yeri diriltmesi.
+- 30:48: ref ¶52 - buluttan çıkan yağmurun diriltme sahnesini açması.
+- 30:49: ref ¶52 - yağmurdan önceki ümitsizliği belirleyerek dönüşü görünür kılması.
+- 30:50: ref ¶52 - yağmurun ardından yerin dirilişine bakma buyruğu.
+- 31:19: ref ¶53 - sesi kısma buyruğu.
+- 32:6: ref ¶52 - gayb ve görünürün Allah tarafından bilinmesi.
+- 33:32: not relevant - konuşmanın ahlaki üslubu, cehr ile kısık sesin ölçüsü değildir.
+- 33:43: not relevant - karanlıktan ışığa çıkarılma hidayet mecazıdır, örtülü nesnenin görünmesi değil.
+- 33:63: ref ¶53 - Saat'in vaktinin Allah'ın bilgisinde bulunması.
+- 34:14: ref ¶52 - Süleyman'ın saklı ölümünün asa düşünce bilinmesi.
+- 35:9: ref ¶52 - bulutla gelen suyun ölü yeri diriltmesi.
+- 35:12: ref ¶52 - suyun içinden süs eşyasının çıkarılması.
+- 35:27: ref ¶52 - yağmurla renkli meyvelerin çıkarılması.
+- 35:29: not relevant - kitap okumak ve namaz ile gizli/açık harcama birlikte geçer; gizlilik okumanın değil harcamanındır.
+- 36:35: ref ¶52 - çıkan ürünün yenilecek meyve oluşu.
+- 39:46: ref ¶52 - gayb ve görünürün Allah tarafından bilinmesi.
+- 39:47: not relevant - beklenmedik azabın belirmesi, önceden örtülü tutulan nesnenin çıkarılması değil.
+- 41:22: ref ¶51 - gizli sanılan işlerde Allah'ın bilgisinin inkârı.
+- 41:39: ref ¶52 - su gelince yerin kabarıp canlanması.
+- 42:45: not relevant - alçak ve gizli bakış, bölümün söylenen söz yahut örtülü şeyin çıkışı değil.
+- 45:5: ref ¶52 - gökten inen suyun ölü toprağı canlandırması.
+- 45:33: not relevant - amelin kötü sonucu belirir; örtülmüş bir nesne veya gizli sözü anlatmaz.
+- 48:11: ref ¶51 - dillerde söylenenin kalpte bulunmaması.
+- 48:29: not relevant - yüzdeki belirti ayrı köktendir; bitkinin filizlenmesi de saklı olanın yerden çıkışını vermez.
+- 49:4: ref ¶53 - odaların ardından yüksek sesle çağırmanın kınanması.
+- 49:5: ref ¶53 - çağrıda sabırla çıkmasını beklemenin yeğlenmesi.
+- 50:7: ref ¶52 - yerde türlü bitkinin yetiştirilmesi.
+- 50:9: ref ¶52 - inen suyla bahçe ve ekin yetiştirilmesi.
+- 50:10: ref ¶52 - suyla yükselen hurma kümeleri.
+- 50:11: ref ¶52 - yağmurla ölü yerin canlanmasının insanın çıkışına benzetilmesi.
+- 55:4: not relevant - beyanın insana öğretilmesi, bu paragraftaki ses yükseltme veya gizleme çiftini belirlemez.
+- 55:22: ref ¶52 - suların içinden inci ve mercanın çıkması.
+- 57:9: not relevant - ayetlerle karanlıktan aydınlığa hidayet, burada örtünün açılması sahnesi değildir.
+- 57:20: ref ¶52 - yağmur bitkisinin büyüyüp parçalanması.
+- 58:8: ref ¶51 - özel konuşma ve içte söylenenin birlikte görünmesi.
+- 58:10: not relevant - özel konuşmanın üzücü etkisi, bölümün ses/iç bilgi bağını açıklamaz.
+- 59:22: ref ¶52 - gayb ve görünürün Allah tarafından bilinmesi.
+- 62:8: not relevant - amellerin hesapta bildirilmesi, burada saklı sözün sesinden veya örtülü şeyin çıkışından özgül olarak söz etmez.
+- 64:18: ref ¶52 - gayb ve görünürün Allah tarafından bilinmesi.
+- 72:25: not relevant - vaat edilenin ne zaman geleceğinin bilinmemesi, ayette açık/gizli ses yahut çıkışla birleşmez.
+- 73:8: not relevant - Rabbin adını anma buyruğu, bu bölümün dil ve iç ayrımını açmaz.
+- 75:7: not relevant - kıyamette şaşkın gözün kamaşması, aşırı ışık yüzünden kör olma diye belirtilmez.
+- 77:21: not relevant - sağlam yerde tutulan damla, dışarı çıkış veya gizlinin bilgisiyle ayette birleşmez.
+- 77:22: not relevant - belli süre, örtüden çıkışın kendisini veya bilinmesini söylemez.
+- 78:14: ref ¶52 - suyun indirilmesi.
+- 78:15: ref ¶52 - suyla tane ve bitkinin çıkarılması.
+- 78:16: ref ¶52 - aynı suyla gür bahçelerin oluşması.
+- 79:30: context ¶52 (in 79:31) - çıkarılan su ve otlağın yeri önce yayılır.
+- 79:44: ref ¶53 - Saat'in bilgisinin Rabbe varması.
+- 80:32: ref ¶52 - meyve ve otun insan ve hayvan geçimi olması.
+- 91:3: not relevant - gündüzün güneşi açığa çıkarması, yerden çıkarma yahut gözün fazla ışıktan örtülmesi değil.
+- 96:1: not relevant - okuma buyruğu, buradaki açık/gizli okuma yahut Allah'ın bilmesi ayrımını kurmaz.
+- 96:4: not relevant - kalemle öğretme, ezberden okumanın bu paragraftaki durumuyla aynı eylem değil.
+- 67:19: not relevant - uçan kuşların kanatları anlatılır; altta saklı tüylerden söz edilmez.
+- 2:18: not relevant - sağır, dilsiz ve kör kalanların benzetmesi, gizli söyleyiş yahut örtülü şeyin açılması değil.
+- 2:20: ref ¶52 - şimşeğin ışığının neredeyse görmeyi alması.
+- 2:55: not relevant - Allah'ı apaçık görme talebi, fazla ışığın gözdeki etkisini anlatmaz.
+- 2:204: not relevant - etkileyici söz ve ardından gelen düşmanlık, okunan vahyin ses/iç hâline özgü değil.
+- 2:205: not relevant - ekin ve nesli yok eden bozgunculuk, gizlinin ortaya çıkarılması hareketi değil.
+- 3:179: ref ¶52 - gaybın herkese açılmayıp seçilen elçilere bildirilmesi.
+- 4:153: not relevant - Allah'ı açıktan görme talebi ve yıldırım, gözün güçlü ışıkla örtülmesini söylemez.
+- 6:103: not relevant - gözün Allah'ı kuşatamaması, aşırı ışığın görmeye engel olması değildir.
+- 6:120: not relevant - günahın görünen ve iç hâlleri, buradaki okuma veya saklı nesnenin çıkışı değil.
+- 7:33: not relevant - açık ve gizli çirkinliklerin yasaklanması, sözün sesini veya örtüden çıkarılmayı açıklamaz.
+- 7:143: not relevant - dağa tecelli ve Musa'nın bayılması, ışığın gözde örtü oluşturması diye anlatılmaz.
+- 18:17: not relevant - mağaranın yanından dönen güneş, bu bölümdeki aşırı ışığın gözdeki etkisini bildirmez.
+- 18:41: ref ¶52 - suyun yere çekilip erişilemez olması, kuyudaki açık suyun karşı sahnesi.
+- 18:90: not relevant - güneşe karşı siper verilmemesi, ışık yüzünden görmeyi yitirmez.
+- 24:35: not relevant - kandil benzetmesindeki ışık hidayete yönelir; aşırı ışığın örtü oluşu anlatılmaz.
+- 24:40: ref ¶52 - kat kat karanlıkta elin bile zor görünmesi.
+- 24:43: prose ¶52 - buluttan çıkan yağmur ile gözü neredeyse gideren şimşeğin birleşmesi.
+- 57:3: not relevant - Allah'ın Zâhir ve Bâtın adları, gizli bir nesnenin ondan çıkışını bildirmez.
+- 58:9: not relevant - özel konuşmanın içeriğine konan ahlaki sınır, burada dua sesinin ölçüsü değil.
+- 75:8: not relevant - ayın kararması, gözün fazla ışıkla örtülmesi açıklaması değil.
+- 91:4: not relevant - gecenin güneşi örtmesi, örtülü şeyin Allah'ça çıkarılmasıyla aynı hareket değil.
+- 6:1: not relevant - karanlık ve ışığın yaratılışı, açık/gizli sözün bilgisine bağlanmaz.
+- 6:2: not relevant - balçıktan yaratılış ve ecel, ses veya gizli nesne hareketi değil.
+- 6:4: not relevant - ayetlere yüz çevirme, onların açık/gizli okunması değil.
+- 6:5: not relevant - gelen hakkı yalanlamanın sonucu, açık/gizli bilginin yönünü açıklamaz.
+- 7:53: not relevant - vaat gerçekleşince söylenen pişmanlık, gizli dua veya örtüden çıkarma değil.
+- 7:54: not relevant - gecenin gündüzü örtmesi, 7:55'teki gizli dua sesini açıklamaz.
+- 7:56: ref ¶53 - duanın korku ve ümitle yapılması.
+- 7:203: not relevant - vahye uyan elçinin cevabı, açık/gizli okuyuş biçimini vermez.
+- 7:204: ref ¶53 - okunan Kur'an karşısında dinleme ve susma.
+- 7:206: not relevant - meleklerin tesbihi ve secdesi, duanın sesini veya gizliliğini bildirmez.
+- 17:108: not relevant - Rabbini tenzih eden söz, namazın ses ölçüsünü söylemez.
+- 17:109: not relevant - ağlayış ve huşu, sesin açık/gizli düzeyi olarak anlatılmaz.
+- 17:111: not relevant - hamd ve tekbir buyruğu, 17:110'daki ses ölçüsünün uygulamasını ayırmaz.
+- 20:5: not relevant - Rahmân'ın arşa istivası, sözün açık/gizli hâliyle bağı değil.
+- 20:6: ref ¶52 - toprağın altındakinin de Allah'a ait olması.
+- 20:8: not relevant - güzel adların Allah'a ait oluşu, gizli sesin bilinmesi meselesi değil.
+- 20:9: not relevant - Musa kıssasına giriş sorusu, ateş başındaki gizleme veya söz söyleme eylemi değil.
+- 20:16: not relevant - Saat'e inanmayanın Musa'yı ondan çevirmemesi, Saat'in gizlenme tarzını açıklamaz.
+- 20:17: not relevant - Musa'nın elindeki asanın sorulması, gizli/açık bilgi çifti değil.
+- 21:108: not relevant - tek ilah bildirimi, sesin açık/gizli durumu değil.
+- 21:109: ref ¶53 - elçinin vaat edilenin yakınlığını bilmediğini söylemesi.
+- 21:111: not relevant - vaat edilenin bir süre deneme oluşu ihtimali, gizli söz veya örtüden çıkarma değil.
+- 21:112: not relevant - Rabbinden hüküm isteyen dua, yüksek/gizli söylenişi bildirmez.
+- 27:23: ref ¶53 - hüdhüdün gördüğü kavmin yöneticisinin anılması.
+- 27:26: ref ¶53 - hüdhüdün secde çağrısındaki Allah'ın büyük arşın Rabbi oluşu.
+- 27:27: not relevant - Süleyman'ın haberi sınama sözü, 27:25'teki saklıyı çıkarma fiilinin anlamını değiştirmez.
+- 87:4 own: ref ¶52 - otlağın çıkarılması bu paragrafın hareketidir.
+- 87:5 own: not relevant - otun koyulaşıp çerçöp oluşundaki renk, bu bölümün gizli/açık fiil çiftini açıklamaz.
+- 87:6 own: ref ¶51 - okutma altıncı ayetin doğrudan zeminidir.
+- 87:7 own: ref ¶52 - ¶51'de alıntılanan gizli ve açık çifti ikinci sahneye taşınır.
+- 87:8 own: not relevant - kolaylaştırma, iki okuyuşun sesini veya örtüyü açmaz.
+- 87:9 own: not relevant - hatırlatmanın yararı, bu bölümdeki ses ve saklama ayrımı değil.
+- 87:14 own: not relevant - arınma hükmü, ses veya gizlinin ortaya çıkışıyla burada eşlenmez.
+- 87:15 own: ref ¶51 - Rabbin adını anma ve namaz paragrafta işaret edilir.
+- 13:11 own: not relevant - insanın önünde ve arkasındaki takipçiler ile toplumun değişimi, gizli/açık söyleyişi ilerletmez.
+- 67:12 own: not relevant - görmeden Rablerinden korkanların ödülü, gizli sözün bilinmesi olarak anlatılmaz.
+- 67:14 own: ref ¶51 - göğüsteki sözü bilenin onu yaratan oluşu.
+- 75:15 own: not relevant - mazeret ileri sürme, vahiy okuyuşunun sırasına ait değil.
+- 75:19 own: not relevant - vahyin açıklanmasının Allah'a ait oluşu, sesin açık/iç durumunu yeni bir yöne taşımaz.
+- 2:71 own: not relevant - ineğin vasıfları, saklanan cinayetin çıkarılması değildir.
+- 2:73 own: not relevant - ölünün diriltilmesi gösterilir; gizlenen suçlunun kim olduğu bu ayette söylenmez.
+- 3:28 own: not relevant - yakınlık kurma yasağı, göğüste saklananı bilme cümlesinin bu bölümdeki bağı değil.
+- 3:30 own: not relevant - amellerin hesapta hazır bulunması, burada içte tutulan sözün sesini açıklamaz.
+- 6:58 own: not relevant - istenen azabın vaktine ilişkin cevap, yerdeki gizli tanenin bilgisini açmaz.
+- 6:60 own: not relevant - gece uyku ve gündüz amel bilgisi, okunan sözün iki söylenişine özgü değil.
+- 6:61 own: not relevant - koruyucular ve ölüm elçileri, gizli tanenin bilinmesini tamamlamaz.
+- 10:60 own: not relevant - Allah adına yalan uyduranların hesap sanısı, Kur'an okunuşunda tanıklığı açıklamaz.
+- 10:62 own: not relevant - Allah dostlarının korkusuzluğu, okunan sözün iç ve dış hâli değil.
+- 19:2 own: not relevant - Zekeriya'ya rahmet anlatısının başlığı, gizli sesin biçimini vermez.
+- 19:4 own: not relevant - Zekeriya'nın yaşlılık ve dua sözü, gizli çağrının sesine yeni bir özellik eklemez.
+- 41:46 own: not relevant - iyi ve kötü işin karşılığı, meyvenin kılıftan çıkışını açıklamaz.
+- 41:48 own: not relevant - yalancı ilahların kaybolması, kılıftan meyve çıkışının hareketi değil.
+- 34:1 own: not relevant - gök ve yerin mülkü ile hamd, yerden çıkanın bilgisini özgül olarak vermez.
+- 2:23 own: not relevant - benzer sure getirme meydan okuması, yağmur ve meyvenin çıkışına bağlı değil.
+- 50:17 own: ref ¶51 - iç fısıltı ile dış söz arasında kaydı alan iki görevli bağlamı.
+- 79:29 own: not relevant - gündüz aydınlığının çıkarılması, topraktan su ve otlak çıkarılmasının nesnesi değil.
+- 79:32 own: not relevant - dağların yerleştirilmesi, su ile otlağın çıkarılmasını açıklamaz.
+- 79:33 own: ref ¶52 - çıkan su ve otlağın insan ile hayvana geçim olması.
+- 24:41 own: not relevant - kuşların tesbihi ve ibadeti, alttaki gizli kanat tüyleri veya ışık körlüğü değil.
+- 24:42 own: not relevant - gök ve yerin mülkü, buluttan yağmurun çıkışını açıklamaz.
+- 24:44 own: not relevant - gece ve gündüzün çevrilmesi, şimşek parıltısının gözü etkilemesi değil.
+- 24:45 own: not relevant - suyun canlıların yaratılışındaki yeri, buluttan yağmurun çıkışı sahnesi değil.
+- 71:6 own: not relevant - Nûh'un çağrısından kaçış, açık/gizli çağrı yollarını söylemez.
+- 71:10 own: not relevant - bağışlanma isteme çağrısı, ilanın ve gizli söyleyişin biçimini açmaz.
+- 71:11 own: not relevant - bol yağmur vaadi, açık/gizli çağrının sesini açıklamaz ve bitki çıkışını söylemez.
+- 80:23 own: not relevant - insanın emri henüz yapmaması, yağmurla yarılan toprağı açmaz.
+- 80:24 own: ref ¶52 - insana yiyeceğine bakmasını söyleyerek yağmur-ot dizisini açar.
+- 80:33 own: not relevant - büyük sesli kıyamet olayına geçiş, yerden çıkan yiyecek sahnesini sürdürmez.
+- 78:13 own: not relevant - parlak kandil, yağmurla bitki çıkarma zincirinin eylemi değildir.
+- 78:17 own: not relevant - ayırma gününün vakti, su ve bitkinin çıkarılışını açıklamaz.
+- 2:76 own: ref ¶51 - açık inanç sözüyle aradaki gizli konuşmanın ayrılması.
+- 2:78 own: not relevant - kitabı bilmeyenlerin zannı, sır ve ilan bilgisini açmaz.
+- 3:4 own: not relevant - Furkân'ın indirilmesi ve inkârın karşılığı, gizli/açık bilgiyi söylemez.
+- 9:63 own: not relevant - karşı gelenlerin ateş karşılığı, kalpteki saklının bildirilme yolunu açmaz.
+- 67:11 own: not relevant - günahı kabul etme, saklanan sözün Allah'ça bilinmesini açıklamaz.
+- 67:15 own: not relevant - yerde yürüme ve rızıktan yeme, gizli/açık sözün bilgi çiftini açmaz.
+- 67:16 own: not relevant - yerin batırılması tehdidi, açık veya gizli sesle ilgili değil.
+- 13:12 own: not relevant - şimşek ve ağır bulut görülür; görmenin aşırı ışıkla engellenmesi söylenmez.
+- 41:45 own: not relevant - Musa'nın kitabı hakkındaki ayrılık, kılıftan meyve çıkışı değil.
+- 41:49 own: not relevant - insanın iyilik duası ve umutsuzluğu, meyve örtüsü ile ilahi bilginin bağı değil.
+- 2:70 own: not relevant - ineği tanıma sorusu, saklanan öldürme olayının çıkarılışını açıklamaz.
+- 9:62 own: not relevant - Allah adına edilen yemin, surenin kalpte olanı haber vermesiyle aynı eylem değil.
+- 9:66 own: not relevant - açık mazeretin reddi, önce kalpte saklananı çıkarma sözüne yeni bir bağ katmaz.
+- 80:22 own: not relevant - Allah'ın insanı diriltmesi, yiyecek için açılan toprağın hareketini açıklamaz.
+- 80:34 own: not relevant - insanın kardeşinden kaçışı, yağmurdan bitki çıkışından sonraki başka sahnedir.
+- 78:12 own: not relevant - üstteki göklerin kurulması, aşağı inen suyun bitkiyi çıkarması değildir.
+- 78:18 own: not relevant - sûra üfleme ve toplu geliş, yağmurla bitki çıkışının kendisi değil.
+- 79:34 own: not relevant - büyük felaketin gelişi, yerden su ve ot çıkarılışını açıklamaz.
+- 79:35 own: not relevant - insanın yaptığını hatırlaması, yerin su ve ot vermesine ait değil.
+- 50:14 own: not relevant - geçmiş kavimlerin yalanlaması, iç fısıltı ve dış söz ayrımını açmaz.
+- 50:15 own: not relevant - yeniden yaratmadan kuşku, iç fısıltının bilinmesine özgü değil.
+- 50:19 own: not relevant - ölüm sarhoşluğu, söylenen sözün gözetilmesini açıklamaz.
+- 50:20 own: not relevant - sûra üfleme, iç/dış sözün bilgisini taşımaz.
+- 7:52 own: not relevant - kitabın bilgi üzere ayrıntılanması, gizli dua sesinin ölçüsü değil.
+- 7:59 own: not relevant - Nûh'un kavmine ilk hitabı, 7:57'deki yağmurla meyve çıkışını açıklamaz.
+- 6:57 own: not relevant - istenen azabın Allah'a ait oluşu, gizli tanenin bilgisiyle özel bağ kurmaz.
+- 6:62 own: not relevant - kulların Allah'a döndürülmesi ve hesabı, sözün iç/dış hâli değil.
+- 10:59 own: not relevant - rızık için uydurulan helal-haram, Kur'an okunurken ilahi tanıklığı açmaz.
+- 10:63 own: not relevant - iman ve sakınma, 10:61'deki okuma/tanıklık çiftini açıklamaz.
+- 19:1 own: not relevant - kesik harfler, gizli çağrının biçimini belirtmez.
+- 19:5 own: not relevant - Zekeriya'nın çocuk isteği, gizli çağrının sesine yeni bir bağ katmaz.
+- 34:4 own: not relevant - müminlerin karşılığı, yere giren ve yerden çıkanın bilgisini açıklamaz.
+- 35:26 own: not relevant - inkârcıların yakalanması, yağmurun meyveyi çıkarması değildir.
+- 35:28 own: not relevant - canlı renkleri ve bilginlerin korkusu, yağmurun meyve çıkarmasının hareketi değil.
+- 36:31 own: not relevant - önceki nesillerin helaki, ölü yerden tane çıkarılışı değil.
+- 36:32 own: not relevant - hepsinin toplanması, toprağın bitki çıkarışıyla bu ayette bağlanmaz.
+- 36:36 own: not relevant - bilinmeyen tür çiftlerinin yaratılması, tanenin topraktan çıkarılması olarak söylenmez.
+- 36:37 own: not relevant - gündüzün geceden soyulması, gizli bir nesnenin dışarı çıkarılması değil.
+- 39:19 own: not relevant - azaba mahkûm olan, yerden su ve ekin çıkarılışına bağlanmaz.
+- 39:20 own: not relevant - sakınanların odaları ve ırmakları, yağmurun yere girip ekin çıkarması değil.
+- 39:22 own: not relevant - göğsün İslam'a açılması, toprağın suya açılması sahnesiyle ayette eşlenmez.
+- 14:37 own: not relevant - ekinsiz vadide meyve rızkı duası, yağmurun örtüden bitki çıkarmasını anlatmaz.

@@ -1,0 +1,317 @@
+- 3:14: ref ¶16 - hayvan ve ekin dünya hayatının metâı diye birlikte sayılır.
+- 4:77: ref ¶16 - dünya metâının azlığı ahiretle karşılaştırılır.
+- 6:97: ref ¶14 - yıldızlar karanlıkta yol buldurur; gözetlenen yıldız yön gösterir.
+- 6:102: ref ¶14 - her şeyi yaratan Rab her şeyin vekilidir.
+- 6:141: ref ¶15 - bahçe ve ekinleri yaratanın Allah oluşu üreticiyi belirtir.
+- 6:142: ref ¶16 - ekinin ardından hayvanlar ve onların rızkı aynı geçim alanında anılır.
+- 6:164: ref ¶14 - Allah her şeyin Rabbi diye adlandırılır.
+- 7:58: ref ¶15 - toprağın bitkisi Rabbin izniyle çıkar.
+- 7:73: prose ¶15, ref ¶14 - Allah'a ait deve, O'nun yerinde otlatılır ve korunur.
+- 10:24: prose ¶15, ref ¶16 - insan ve hayvanın yediği bitki dünya hayatına benzetilir; güç yetirme sanısı yıkılır.
+- 11:6: ref ¶14, ¶15 - her canlının rızkı ve barınağı Allah'ın bilgisi içindedir.
+- 11:56: ref ¶14, ¶15 - her canlının denetimi «Rabbim» denen Allah'a aittir.
+- 11:57: ref ¶14, ¶15 - Rabbim her şeyi koruyandır sözü çobanlığın muhafazasını karşılar.
+- 11:64: ref ¶15 - Allah'ın devesi Allah'ın toprağında yemeye bırakılır, zarar yasaklanır.
+- 12:43: not relevant - rüyadaki sığırlarla başaklar sürünün otlağa götürülmesi değildir.
+- 12:47: ref ¶14 - Yusuf ürünün ilerideki kıtlık için korunmasını söyler; gözetimin geleceğe bakışı.
+- 12:48: ref ¶14 - zor yılların biriktirilen ekini tüketeceği önceden hesaplanır.
+- 12:55: ref ¶14 - Yusuf kendini hazine üzerinde bilgili koruyucu diye tanıtır.
+- 13:17: not relevant - köpüğün gitmesi hak ile bâtıl misalidir; otlak, sürü ya da onun geçimi değil.
+- 15:20: ref ¶15 - insanların rızık veremediği canlılar da Allah'ın geçimlik düzenindedir.
+- 15:21: ref ¶15 - şeylerin hazineleri Allah katında, inişleri ölçülüdür.
+- 16:5: ref ¶16 - yaratılan hayvanların yiyecek ve başka yararları ortak geçime girer.
+- 16:6: ref ¶14 - sürünün salınması ve geri gelişi gözetilen hareketidir.
+- 16:7: ref ¶14 - yük hayvanları obanın iş hayvanı işlevini somutlar.
+- 16:10: ref ¶14, ¶15, ¶16 - indirilen sudan hayvanların otlatıldığı bitki yetişir.
+- 16:16: ref ¶14 - yıldızla yol bulma, yıldız gözetimi ile hidayeti buluşturur.
+- 16:69: ref ¶14, ¶15 - arının meyveden yiyip Rabbi kolaylaştırdığı yollarda gitmesi hayvan yönelişidir.
+- 16:80: ref ¶16 - hayvandan çadır ve eşya göçte kullanılır, yararı «bir süreye kadar»dır.
+- 16:96: ref ¶16 - insanın elindeki tükenir, Allah katındaki kalır.
+- 18:7: ref ¶15 - yeryüzünün süsü Allah'ın kıldığı ve sınama için verdiği şeydir.
+- 18:8: ref ¶15 - süslü yerin çorak düzleme çevrilmesi bitiş sahnesidir.
+- 18:32: ref ¶15 - iki bahçe ve aralarındaki ekin, sonradan yıkılan ürünün başlangıcıdır.
+- 18:33: ref ¶15 - bahçelerin bol ürün ve su vermesi, yok olacak bolluğu kurar.
+- 18:35: ref ¶15 - bahçe sahibi onun yok olmayacağını sanır.
+- 18:39: ref ¶15 - bahçenin Allah'ın dilemesiyle durduğunu tanıma çağrısı insan sahipliğini sınırlar.
+- 18:40: ref ¶15 - bahçenin çıplak toprağa dönmesi mümkün sonudur.
+- 18:41: ref ¶15 - suyun çekilebilmesi, sahibin yetiştirme kaynağını geri getiremeyeceğini gösterir.
+- 18:42: ref ¶15 - ürünün yıkılması, «yok olmaz» sanısının sonucunu gösterir.
+- 18:44: ref ¶15 - bahçenin çöküşünde gerçek koruyuculuk Allah'ındır.
+- 18:45: ref ¶15, ¶16 - yağmur bitkisi kırıntıya dönüşür ve dünya hayatı için misal olur.
+- 20:18: ref ¶14 - Musa koyunları için yaprak silkeler; çoban yem sağlar.
+- 20:49: context ¶14 (in 20:50) - Firavun'un «Rabbiniz kim?» sorusu cevaplanan konudur.
+- 20:50: prose ¶14, ref ¶15, ¶16 - Rab her şeye yaratılışını verir ve sonra yol gösterir.
+- 20:53: ref ¶14, ¶16 - yerin yolları, yağmur ve bitkiler otlatma buyruğundan önce gelir.
+- 20:54: cited ¶16; ref ¶14, ¶15 - otlatma emri hem kelime ailesini hem beslenen sürü sahnesini somutlar.
+- 20:131: ref ¶16 - dünya hayatının çiçeği Rabbin daha kalıcı rızkıyla karşılaştırılır.
+- 21:73: ref ¶14 - önderler Allah'ın emriyle yol gösterir.
+- 21:78: ref ¶14 - koyunların ekin yerindeki hareketi yönetici hükmüne konu olur.
+- 21:79: ref ¶14 - koyun-ekin hükmünü kavramak Allah'ın verdiği anlayıştır.
+- 25:2: ref ¶15 - her şeyin yaratılıp ölçülmesi sahibin işi olarak belirtilir.
+- 25:48: ref ¶15 - canlı toprağa ve hayvanlara ulaşan yağmurun başlangıcıdır.
+- 25:49: ref ¶15 - yağmur ölü yeri diriltir ve hayvanları sular.
+- 26:78: ref ¶14, ¶15 - İbrahim yaratılışla yol göstermeyi aynı failde toplar.
+- 26:79: ref ¶14, ¶15 - aynı fail İbrahim'e yiyecek ve içecek verir.
+- 27:60: ref ¶15 - bahçe ağaçlarını insanların yetiştirememesi gerçek yetiştiriciyi ayırır.
+- 28:23: prose ¶14 - çobanlar, sürü ve su aynı sahnede adlandırılır.
+- 28:24: ref ¶14 - Musa kadınların hayvanlarını sular; koruyucu bakım gerçekleşir.
+- 28:60: ref ¶16 - verilen dünya yararı, Allah katındaki kalıcı şeyle karşılaştırılır.
+- 28:88: ref ¶15 - yaratılan her şeyin geçip hükmün Allah'a kalması sahibin sürekliliğidir.
+- 29:60: ref ¶15 - canlıların rızkını insan değil Allah sağlar.
+- 32:24: ref ¶14 - Allah'ın emriyle yol gösteren önderler anılır.
+- 32:27: ref ¶15, ¶16 - kıraç yere su sürülüp insanla hayvana ekin çıkarılır.
+- 36:33: ref ¶15, ¶16 - ölü yerden insanın yediği tane çıkarılır.
+- 36:71: prose ¶15, ref ¶14 - Allah hayvanları yaratırken insanlara da sahiplik verir.
+- 36:72: ref ¶15 - hayvanların insana uysallaştırılması, bu sahipliğin imkânıdır.
+- 36:73: ref ¶15 - hayvanın yararları ve içecekleri insanın yararlanmasını tamamlar.
+- 39:21: prose ¶15, ref ¶16 - suyla çıkan ekin sararır, Allah onu kırıntıya çevirir.
+- 39:62: ref ¶14 - her şeyin yaratıcısı her şeyin vekilidir.
+- 40:64: ref ¶14, ¶15 - şekil verme ve rızık, «Rabbiniz» adıyla bağlanır.
+- 42:20: prose ¶16 - ekin, dünya ile ahiret için istenen iki ayrı getiriye dönüştürülür.
+- 42:36: ref ¶16 - dünya metâı ile Allah katındaki kalıcı değer karşılaştırılır.
+- 43:32: ref ¶15 - geçimlik payını Rab dağıtır, insanlar arasındaki işbölümünü kurar.
+- 55:26: ref ¶15 - yerdeki her canlının geçmesi, ürünün sonunu genişletir.
+- 55:27: ref ¶15 - Rabbin kalması, geçici şeyin arkasındaki sahibin devamıdır.
+- 56:63: context ¶15 (in 56:65) - insanın ekme eylemi sorunun başlangıcıdır.
+- 56:64: context ¶15 (in 56:65) - yetiştirenin kim olduğu sorusu insanla Allah'ı ayırır.
+- 56:65: prose ¶15 - Allah isterse yetişen ekini kırıntıya dönüştürür.
+- 56:74: ref ¶15 - ürün ve su işaretlerinin sonunda Rabbin adını tesbih emri gelir.
+- 57:20: prose ¶16, ref ¶15 - dünya hayatı sararıp kırıntı olan yağmur bitkisine benzetilir.
+- 68:17: ref ¶15 - bahçe sahiplerinin ürün toplama niyeti insan tasarrufunu gösterir.
+- 68:19: ref ¶15 - Rabden gelen olay bahçeye sahipler uyurken ulaşır.
+- 68:20: ref ¶15 - bahçenin biçilmiş gibi olması üretim sonunun ani gelişidir.
+- 68:28: ref ¶15 - yıkımdan sonra tesbih etmeye çağrı, sahibin tanınmasını ister.
+- 68:29: ref ¶15 - bahçe sahipleri «Rabbimiz» deyip O'nu tesbih eder.
+- 75:20: ref ¶16 - çabuk geçen hayatın sevilmesi tercih yönünü belirtir.
+- 75:21: ref ¶16 - ahiretin bırakılması bu tercihin ikinci yarısıdır.
+- 79:31: ref ¶14, ¶15; context ¶16 (in 79:38) - su ile otlak çıkarılır; dünya tercihi öncesindeki geçim sahnesidir.
+- 79:32: ref ¶16 - dağların yerleştirilmesi yararlanma için sayılan işlerdendir.
+- 79:33: cited ¶16; ref ¶15 - otlak ve yeryüzü insanla hayvanın yararına bağlanır.
+- 79:38: prose ¶16 - aynı dünya hayatını tercih fiili, otlak metâının ardından gelir.
+- 79:39: context ¶16 (in 79:38) - tercih edenin ateş sonucudur.
+- 79:40: ref ¶16 - öteki tutum Rabbin huzurundan korkup arzusunu dizginler.
+- 79:41: ref ¶16 - bu tutumun sonu bahçedir.
+- 80:24: ref ¶16 - insanı yiyeceğine bakmaya çağıran söz alıntılanan sahneyi açar.
+- 80:25: ref ¶16 - dökülen su, meyveyle otun öncesidir.
+- 80:26: ref ¶16 - yarılan yer, ürünün çıktığı zemindir.
+- 80:27: ref ¶16 - bitirilen tane, aynı yiyecek zincirinin ürünüdür.
+- 80:28: ref ¶16 - üzüm ve taze ot, yiyecekle hayvan yemini yaklaştırır.
+- 80:29: ref ¶16 - zeytin ve hurma, ortak ürün sahnesini genişletir.
+- 80:30: ref ¶16 - sık bahçeler meyve ve ot öncesi yetişen çevredir.
+- 80:31: cited ¶16; nowhere else - meyve ve hayvan otu zaten bu paragrafta açıklanır.
+- 80:32: ref ¶15, ¶16 - listeyi insan ve hayvan için geçimlik diye kapatır.
+- 89:15: ref ¶15 - «Rabbim» diyen insan bol rızkı kendi lehine yanlış yorumlar.
+- 89:16: ref ¶15 - daraltılmış rızık da Rabbin kimliğiyle insanın refahını ayırır.
+- 91:13: ref ¶15 - Allah'ın devesinin su hakkı korunur.
+- 106:3: ref ¶14 - belirli bir yerin Rabbi sahiplik adıyla anılır.
+- 106:4: ref ¶14 - bu Rab besleme ve güven verme işini üstlenir.
+- 2:104: not relevant - kaçınılması istenen hitap, sürüyü koruma veya yönlendirme işini anlatmaz.
+- 2:126: ref ¶14, ¶16 - İbrahim Rabden kent için güven ve meyve ister; inkârcıya verilen yarar «az»dır.
+- 2:247: not relevant - kralın seçilmesi bu paragrafın sürü, otlak veya gözetleme işini açmaz.
+- 3:64: not relevant - insanları ilah edinmeme çağrısı sürü sahnesindeki sahiplik işini işlemez.
+- 3:137: not relevant - yalanlayanların akıbetine bakmak otlağın seyrine bakma işi değildir.
+- 3:185: ref ¶16 - dünya hayatı aldatıcı metâ diye ölüm sonrası karşılıkla ölçülür.
+- 4:58: not relevant - adil hüküm ve emanet emri burada sürüye ya da otlağın kaderine bağlanmaz.
+- 6:38: not relevant - hayvanların topluluk oluşu ve toplanması otlatma veya koruma işini açıklamaz.
+- 6:99: ref ¶15 - Allah'ın yağmurla yetiştirdiği meyvenin gelişip olgunlaşması gözetilir.
+- 7:57: ref ¶15 - Allah yağmur bulutunu sürüp ölü yerden meyve çıkarır.
+- 9:31: ref ¶14 - insan otoritelerinin Allah dışında «rabler» edinilmesi, yönetici sözünün sınırını belirtir.
+- 9:38: ref ¶16 - dünya yararının ahirete göre azlığı açıkça söylenir.
+- 10:35: ref ¶14 - hakka yol gösteren ile yol gösterilmeye muhtaç olanın izlenmesi karşılaştırılır.
+- 10:39: not relevant - yalanlayanların akıbeti, otlağın büyüyüp bitmesiyle kurulmuş bir sahne değildir.
+- 11:123: not relevant - Rabbin insan işlerinden habersiz olmayışı burada otlak ya da sürü gözetimi değildir.
+- 12:11: not relevant - Yusuf için güven istemek henüz otlatma yahut koruma eylemini kurmaz.
+- 12:12: ref ¶14 - Yusuf'un kırda gezmesi ve korunması vaadi, çobanlık gözetimini insan bakımına taşır.
+- 12:17: ref ¶14 - kardeşlerin kurt hikâyesi, gözetme vaadinin boşa çıktığını söyler.
+- 12:23: not relevant - «rabbî»nin kime döndüğü tartışmalı ve sahne otlakla ilgili değil.
+- 12:39: not relevant - çoklu rabler sorusu ibadet tartışmasıdır; sürüye bakım anlatmaz.
+- 12:41: ref ¶14 - Yusuf'un yorumunda «rab», içki sunulan insan efendidir.
+- 12:42: ref ¶14 - Yusuf'un «rabbin yanında beni an» sözü aynı insan efendiyi belirtir.
+- 12:46: not relevant - sığır ve başak rüyası kendi başına sürüyü otlatma veya koruma değildir.
+- 12:49: ref ¶14 - yağmurun yeniden geleceğini söylemek, ürün yönetiminin ileriyi görmesidir.
+- 12:50: ref ¶14 - Yusuf elçiyi onun «rabbi»ne, kralına, geri gönderir.
+- 12:64: ref ¶14 - Yakub Allah'ı en iyi koruyucu diye adlandırır.
+- 13:4: ref ¶15 - aynı suyla sulanan bitkilerin farklı ürün vermesi yetiştiricinin tasarrufunu açar.
+- 13:7: ref ¶14 - her topluluğa bir yol göstericinin bulunduğu söylenir.
+- 13:26: ref ¶16 - rızkın dağıtımıyla dünya metâının ahirete göre küçüklüğü bağlanır.
+- 14:37: ref ¶15 - İbrahim ekinsiz vadide Rabbinden meyve rızkı ister.
+- 15:19: ref ¶16 - sabit dağlar ve ölçüyle bitirilen otlar birlikte kurulur.
+- 16:8: not relevant - binek için at ve katır yaratılması buradaki deve sürüsünün korunmasını açmaz.
+- 16:11: ref ¶16 - otlatılan bitkiye yağmurla yetişen ekin ve meyve eklenir.
+- 16:12: not relevant - yıldızların emre bağlı oluşu, onların yol göstermesini veya çobanın gözlemini söylemez.
+- 16:65: ref ¶15 - yağmurun ölü yeri diriltmesi otlağın yetişme koşuludur.
+- 16:66: ref ¶16 - hayvandan çıkan süt sürünün insan için geçimliğini somutlar.
+- 16:68: not relevant - arının yuva kurması, otlak veya sürü koruma eylemi değildir.
+- 18:34: ref ¶15 - bahçe sahibinin malıyla övünmesi, bahçenin sonunu göremeyen sahiplik iddiasıdır.
+- 18:36: ref ¶16 - bahçenin kalıcılığı sanısı ahiretle ilgili güvene de uzar.
+- 18:37: not relevant - bahçe sahibinin insan olarak yaratılması, bitkinin yetişip bitmesini açıklamaz.
+- 18:38: ref ¶15 - bahçe tartışmasında «Allah benim Rabbim» cevabı kişisel Rabbi tanır.
+- 18:43: ref ¶15 - yıkılmış bahçenin sahibini hiçbir topluluğun kurtaramaması koruyuculuğun sınırıdır.
+- 18:46: ref ¶16 - dünya süsü ile Rab katında kalıcı iyi işler karşılaştırılır.
+- 19:85: not relevant - takva sahiplerinin konuk gibi toplanması sürü ve otlak sahnesi değildir.
+- 19:86: not relevant - suçluların susuz cehenneme sürülmesi gerçek sürü bakımı veya yol açma işi değildir.
+- 20:55: ref ¶16 - otlatma buyruğundan sonra insanın yere dönüp yeniden çıkarılması geçim sahnesine son ufku verir.
+- 22:5: ref ¶15 - suyla canlanan yer, insanın başlangıcı ve sonuyla yan yana anılır.
+- 22:36: ref ¶16 - develer insanın yemesi ve başkasını doyurması için verilen hayvanlardır.
+- 22:41: not relevant - yöneticinin adil işleri, sürüye ve ürünün seyrine bağlanmaz.
+- 23:8: ref ¶14 - emanet ve sözleri gözetme aynı r-ʿ-y kökünün koruma anlamıdır.
+- 23:18: ref ¶15 - ölçüyle verilen suyu Allah'ın geri çekebilmesi otlağın kaynağını sınırlar.
+- 23:19: ref ¶15 - bu suyla bahçeler ve yenecek meyveler yetişir.
+- 23:21: ref ¶16 - hayvanların süt, yiyecek ve başka yarar vermesi ortak rızkı açar.
+- 23:41: not relevant - yıkılan kavme «ğusâ» denmesi otun gerçekten döküntüye dönüşmesi değildir.
+- 24:45: not relevant - canlıların yürüme çeşitleri sürü yönü veya otlak bakımını açıklamaz.
+- 25:74: not relevant - önder olma duası yol gösterme işini bu ayette söylemez.
+- 26:155: ref ¶15 - devenin belirlenmiş su payı sürüye ayrılan rızkı sınırlar.
+- 26:156: ref ¶15 - hayvana zarar yasağı bu payın korunmasıdır.
+- 26:205: not relevant - genel yıllarca yararlandırma sorusu otlak veya sürü işini belirlemez.
+- 26:207: not relevant - eski yararın kurtaramaması genel hesap uyarısıdır; bitki ya da hayvan sahnesi yoktur.
+- 27:19: not relevant - Süleyman'ın şükür duası sürüyü gözetmek veya otlağı yönetmek değildir.
+- 27:20: ref ¶14 - Süleyman kuşları yoklayıp eksik olanı fark eder; yönetici gözetimi somutlaşır.
+- 28:25: ref ¶14 - kadının Musa'nın hayvan sulamasına karşılık çağırması bakım işini doğrular.
+- 28:26: ref ¶14 - hayvan sulayan Musa'nın güvenilir diye işe önerilmesi bakıcının niteliğini belirtir.
+- 28:61: ref ¶16 - güzel vaatle dünya metâını alıp hesap için getirilen kişi karşılaştırılır.
+- 28:77: ref ¶16 - Allah'ın verdiği şeyle ahireti arama, dünyadaki payın nasıl kullanılacağını belirtir.
+- 30:50: ref ¶15 - Allah'ın ölü yeri diriltmesi otlağın yetişmesindeki faili gösterir.
+- 31:10: ref ¶16 - dağlar, hayvanlar ve yağmurla biten bitkiler aynı kurulan yerde toplanır.
+- 31:22: not relevant - işlerin Allah'a dönmesi otlak ve sürüyle kurulan bir bağ değildir.
+- 31:24: ref ¶16 - yararlanmanın «az» süreli oluşu açıkça belirtilir.
+- 34:15: ref ¶15, ¶16 - iki bahçenin rızkı «Rabbinizin rızkı» diye yenmeye sunulur.
+- 34:17: not relevant - nankörlüğe karşılık oluşu, bahçenin neye dönüştüğünü bu ayette söylemez.
+- 35:9: ref ¶15 - bulutun kuru yere sürülüp toprağın diriltilmesi büyümenin failini gösterir.
+- 36:34: ref ¶16 - diriltilen yerde bahçeler ve kaynaklar oluşturulur.
+- 36:35: ref ¶16 - insan o bahçenin meyvesini yer ve şükre çağrılır; «elleri yapmadı» okuması zorunlu değildir.
+- 38:23: ref ¶14 - koyunların kime ait olduğu yönetici önündeki davadır.
+- 38:24: ref ¶14 - Davud sürü sahipliği konusunda haksızlığa hükmeder.
+- 38:26: ref ¶14 - Davud'a doğru hükmetme emri sürü davasındaki yönetici işini açıklar.
+- 39:71: not relevant - inkârcıların gruplarla ateşe sürülmesi otlatılan sürü sahnesi değildir.
+- 39:73: not relevant - takva sahiplerinin bahçeye götürülmesi sürü bakımı değil mahşer sonucudur.
+- 40:39: ref ¶16 - dünya metâ, ahiret yerleşilen yurt diye ayrılır.
+- 40:79: ref ¶16 - hayvanların binme ve yemek için verilişi yararlarını gösterir.
+- 40:80: ref ¶14 - hayvanın insanı ve yükü taşıması iş hayvanını somutlar.
+- 41:10: ref ¶16 - dağların sabitlenmesiyle yerdeki rızıkların ölçülmesi birleşir.
+- 41:39: ref ¶15 - kuru yerin suyla kabarıp canlanması bitkiyi yetiştiren gücü gösterir.
+- 42:11: not relevant - insan ve hayvanların eşler halinde çoğaltılması otlak sahnesini açıklamaz.
+- 43:11: ref ¶15 - ölçülü suyun ölü yeri diriltmesi otlağın çıkma koşuludur.
+- 43:12: ref ¶14 - yaratılan binek hayvanı insanın işine verilir.
+- 43:13: ref ¶15 - hayvana binerken Rabbin nimetini anmak insan tasarrufunu verene bağlar.
+- 50:9: ref ¶16 - suyla biten bahçe ve tane ortak yiyecek sahnesidir.
+- 50:10: ref ¶16 - meyveli hurma bu yetişen yiyeceğe eklenir.
+- 50:11: ref ¶16 - yetişenler kullar için rızık diye adlandırılır.
+- 50:21: not relevant - her nefse eşlik eden sevkçi ve tanık otlak koruyucusu değildir.
+- 54:27: ref ¶15 - Allah'ın gönderdiği deve imtihan konusu olarak gözetilir.
+- 54:28: ref ¶15 - su payının bölünmesi hayvanın rızkına sınır koyar.
+- 54:49: ref ¶14 - her şeyin ölçüyle yaratılması, Rabb'in varlıklara ölçü verişine karşılık gelir.
+- 56:66: not relevant - ürünün yokluğundaki yakınma, onu yetiştiren ve bitiren fail hakkında yeni bir şey söylemez.
+- 56:67: not relevant - mahrum kaldık yakınması, aynı ürün yitiminin tekrarından ibarettir.
+- 59:18: not relevant - kişinin ahiret için hazırladığına bakması, otlağın gidişini gözetme eylemi değildir.
+- 70:32: ref ¶14 - emanet ve sözleri gözetenler aynı koruma kökünü kullanır.
+- 73:8: ref ¶15 - Rabbin adını anma, kişinin kendi Rabbini anmasına karşılık gelir.
+- 77:46: ref ¶16 - yemekle yararlanma «az» diye sınırlandırılır.
+- 78:14: ref ¶16 - dökülen yağmur yetişen bitki zincirinin başlangıcıdır.
+- 78:15: ref ¶16 - yağmurla tane ve bitki çıkarılır.
+- 78:16: ref ¶16 - sık bahçeler aynı beslenme sahnesini tamamlar.
+- 79:30: ref ¶16 - yerin yayılması otlak ve dağlardan önceki zemin işidir.
+- 88:17: not relevant - devenin yaratılışına bakma, onun bağlandığı yer veya çobanlık işini söylemez.
+- 96:1: not relevant - Rabbin adıyla okuma buyruğu otlak veya hayvan bakımını açıklamaz.
+- 74:50: not relevant - ürken yabani eşekler otlatılan veya öncüsüyle yön bulan sürü değildir.
+- 74:51: not relevant - aslandan kaçış, çobanın sürüyü koruyup beslemesiyle kurulan sahne değildir.
+- 4:46: not relevant - eğilip bükülen hitap, sürünün gerçek bakımını anlatmaz.
+- 6:136: ref ¶15 - ekin ve hayvanlara ortaklar adına pay biçmek gerçek sahibin hakkını bozar.
+- 6:138: ref ¶15 - ekinle hayvanlar üzerinde uydurulan yasaklar sahiplik iddiasını gösterir.
+- 7:77: ref ¶15 - Allah'ın yerinde otlatılması emredilen deve öldürülür.
+- 7:179: not relevant - algısını kullanmayan insanın hayvana benzetilmesi gerçek sürü rehberliği değildir.
+- 11:65: ref ¶15, ¶16 - deve öldürüldükten sonra üç günlük yararlanma sınırı konur.
+- 11:97: context ¶14 (in 11:98) - Firavun buyruğunun doğru yola götürmediği söylenir.
+- 11:98: prose ¶14 - Firavun kavminin önüne geçip onları ateşe götürür.
+- 12:13: ref ¶14 - Yakub kurdun Yusuf'u kapmasından ve kardeşlerin gafletinden korkar.
+- 12:14: ref ¶14 - kardeşler çokluklarına dayanarak koruma gücü iddia eder.
+- 12:15: ref ¶14 - korumayı vaat eden kardeşler Yusuf'u kuyuya atar.
+- 14:3: ref ¶16 - dünya hayatını ahirete üstün tutanların tercihi adlandırılır.
+- 16:107: ref ¶16 - dünya hayatını ahirete tercih etme doğrudan söylenir.
+- 25:44: not relevant - insanın hayvandan daha şaşkın sayılması otlatma veya koruma işi değildir.
+- 26:157: ref ¶15 - su hakkı ayrılan devenin öldürülmesi koruyucu sınırı bozar.
+- 28:41: ref ¶14 - ateşe çağıran önderler yol açmanın ters sonucunu gösterir.
+- 29:64: ref ¶16 - dünya oyalanma, ahiret gerçek hayat diye ayrılır.
+- 33:67: ref ¶14 - büyüklerin izinden gidip yoldan sapma, kötü öncülüğün sonucudur.
+- 34:16: ref ¶15 - bereketli bahçelerin acı ürünlü bahçelere çevrilmesi yetişenin sonucudur.
+- 37:22: not relevant - hesap için toplanma, otlatılan sürünün yönetimi değildir.
+- 37:23: not relevant - cehenneme «yol gösterme» hüküm buyruğudur; öncü ve sürü ilişkisi yoktur.
+- 47:12: ref ¶16 - hayvan gibi yiyerek yararlanma ateş sonucuyla karşı karşıya konur.
+- 54:29: ref ¶15 - su payı gözetilen deve öldürülür.
+- 56:55: not relevant - susamış deve benzetmesi otlak veya sürüye bakım sahnesi kurmaz.
+- 57:27: ref ¶14 - bir uygulamanın gereği gibi gözetilmemesi r-ʿ-y kökünün koruma anlamıdır.
+- 79:37: context ¶16 (in 79:38) - dünyayı tercih eden kişinin haddi aşması önce anılır.
+- 81:4: ref ¶14 - kıyamette kıymetli gebe develerin başıboş bırakılması korunan sürüyü tersine çevirir.
+- 91:14: ref ¶15 - korunan deve öldürülünce Rableri kavme karşılık verir.
+- 20:52: not relevant - geçmiş toplumların bilgisiyle ilgili cevap otlağın sonunu anlatmaz.
+- 20:56: not relevant - Firavun'un işaretleri inkârı otlatma sahnesini genişletmez.
+- 79:34: ref ¶16 - büyük felaket yararlanma sahnesini bitiren hesap zamanını açar.
+- 79:35: ref ¶16 - insanın yaptığını hatırlaması geçimlikten tercihin hesabına geçiştir.
+- 80:33: ref ¶16 - yiyecek sahnesinin ardındaki çığlık geçimin süre sınırını açar.
+- 87:1 own: cited ¶14; ref ¶15 - ilk ayetin Rab adı sonraki otlak işinin sahibidir.
+- 87:2 own: cited ¶14; ref ¶15 - yaratıp düzene koyan, sürü sahnesinin kurucusudur.
+- 87:3 own: cited ¶14; ref ¶15 - ölçüp yol gösterme otlağa sevkin eylemidir.
+- 87:4 own: cited ¶14; ref ¶15 - otlağın çıkarılması aynı sahibin yetiştirme işidir.
+- 87:5 own: cited ¶15; nowhere else - otlağın döküntüye dönüşmesi burada zaten açıklanır.
+- 87:15 own: cited ¶15; nowhere else - Rabbin adını anma burada kişinin kendi Rabbi olarak okunur.
+- 87:16 own: cited ¶16; nowhere else - dünya hayatına geçiş zaten anılır.
+- 87:17 own: ref ¶16 - ahiretin daha iyi ve kalıcı oluşu dünya hayatının yararını ölçer.
+- 2:22 own: ref ¶15, ¶16 - yağmurla çıkarılan meyve insana rızık verilir.
+- 2:21 own: ref ¶14 - insanları yaratanın «Rabbiniz» diye anılması sahiplikle yaratmayı bağlar.
+- 2:23 own: not relevant - indirilen sure hakkında meydan okuma otlak ve sürü sahnesi değildir.
+- 6:95 own: ref ¶15 - tohumu yaranın canlı ile ölü arasındaki değişimi yönetmesi bitkinin seyrini açar.
+- 6:96 own: not relevant - sabahın, gece ve gök cisimlerinin düzeni sürüyü otlağa sevk etmez.
+- 6:94 own: not relevant - insanların sahip olduklarını geride bırakması bitki ve sürü yararıyla kurulmaz.
+- 10:29 own: not relevant - ortak koşulanların tanıklığı bahçe ürününü veya yönlendirmeyi anlatmaz.
+- 10:30 own: not relevant - mahşerde gerçek Mevlâ'ya dönüş, otlağın yetişip bitmesiyle bağlanmaz.
+- 10:31 own: prose ¶15 - rızık, canlı-ölü değişimi ve işin idaresi tek Allah'a sorularla bağlanır.
+- 10:32 own: ref ¶15 - bu idareyi yapanın gerçek Rab diye adlandırılması sahipliği açar.
+- 10:33 own: not relevant - inanmayanlar hakkındaki hüküm otlak düzenini anlatmaz.
+- 26:7 own: ref ¶16 - yerden bitirilen bitkilere bakma çağrısı beslenme sahnesinin işaret oluşudur.
+- 26:6 own: not relevant - alay edilen haberlerin gelmesi bitki veya sürüyle ilgili değildir.
+- 26:8 own: not relevant - genel «işaret» kapanışı, bitkinin işlevine yeni bağ eklemez.
+- 43:10 own: ref ¶14 - yerde yolların yapılması insanların yön bulmasını sağlar.
+- 43:9 own: not relevant - göklerle yeri kimin yarattığı sorusu pastoral hareketi açmaz.
+- 43:8 own: not relevant - önceki güçlülerin yok edilmesi otlağın sonu değildir.
+- 43:14 own: ref ¶16 - binek nimetinin anılışından sonra Rabbe dönüş geçimden öte sonu açar.
+- 67:15 own: prose ¶16, ref ¶15 - yerde yürüme, Allah'ın rızkından yeme ve O'na dönüş aynı ayettedir.
+- 67:13 own: not relevant - gizli-açık sözün bilinmesi otlağın sonucunu açıklamaz.
+- 67:14 own: ref ¶15 - yaratanın bilmesi yetiştirenin gözetimini destekler.
+- 67:16 own: not relevant - yerin çökme tehdidi otlağın yetişme veya döküntüye dönüşme işi değildir.
+- 67:17 own: not relevant - üzerlerine taş savuran rüzgâr tehdidi sürü bakımını açmaz.
+- 67:30 own: ref ¶15 - su çekilirse onu kimin getireceği sorusu büyümenin kaynağını insandan ayırır.
+- 67:28 own: not relevant - elçinin ölümü veya esirgenmesi sorusu otlak ve hayvanı anlatmaz.
+- 67:29 own: not relevant - Rahmân'a güven beyanı burada pastoral geçimi açıklamaz.
+- 10:22 own: not relevant - deniz fırtınasında yardım isteme, otlağın ürününü yönetme sahnesi değildir.
+- 10:23 own: ref ¶16 - dünya hayatının metâı ve Allah'a dönüş, bitki benzetmesinin hemen öncesinde anılır.
+- 10:25 own: ref ¶16 - geçici dünya misalinden sonra Allah esenlik yurduna çağırır.
+- 10:26 own: ref ¶16 - iyiler için bahçenin kalıcılığı bu çağrının hedefidir.
+- 39:19 own: not relevant - ateşten kurtarma sorusu ekinin seyrini açıklamaz.
+- 39:20 own: ref ¶16 - Rablerinden sakınanlara vaat edilen bahçeler, hemen ardından gelen kuruyan ekinle karşıt süredir.
+- 39:22 own: not relevant - kalbin açılması ve katılığı bitkinin fiziksel seyrini anlatmaz.
+- 39:23 own: not relevant - kitabın hidayeti, sürünün otlağa yol bulması değildir.
+- 57:18 own: not relevant - sadaka verene ödül, bitkiyle kurulan dünya benzetmesini açıklamaz.
+- 57:19 own: not relevant - inananların ışığı ve ödülü, otlak yahut dünyalık yararı bağlamaz.
+- 57:21 own: ref ¶16 - kuruyan ekin misalinin ardından Rabbin bağışına ve bahçeye koşma çağrısı gelir.
+- 57:22 own: not relevant - musibetin önceden yazılmış oluşu, otun yetişip dökülmesi değildir.
+- 32:25 own: not relevant - kıyamette ihtilafları ayırma otlak sahnesini açmaz.
+- 32:26 own: not relevant - eski kavimlerin yıkımı yetişen bitkinin sonu değildir.
+- 32:28 own: not relevant - son hükmün zamanını sorma hayvan rızkıyla ilgili değildir.
+- 32:29 own: not relevant - hüküm günü imanın yararsızlığı sürü ve otlakla ilgili değildir.
+- 36:69 own: not relevant - şiir ve Kur'an ayrımı hayvan sahipliği meselesi değildir.
+- 36:70 own: not relevant - yaşayanları uyarma, sürünün yetiştirilmesini anlatmaz.
+- 36:74 own: not relevant - Allah'tan başka ilah edinme, hayvanın yaratılmış sahipliğini açıklamaz.
+- 36:75 own: not relevant - o ilahların yardım edemeyişi hayvan yararıyla bağlanmaz.
+- 7:71 own: not relevant - önceki kavmin put adları tartışması deve otlatma hükmü değildir.
+- 7:72 own: not relevant - Âd'ın kurtuluş ve yıkımı Sâlih'in devesi sahnesi değildir.
+- 7:74 own: not relevant - Semûd'un evleri ve yerleşimi deveye ayrılan otlağı anlatmaz.
+- 7:75 own: not relevant - Sâlih'in elçiliğine ilişkin sözleşme hayvanın korunmasını açmaz.
+- 42:18 own: not relevant - kıyameti acele isteyenler ekin benzetmesini kurmaz.
+- 42:19 own: ref ¶16 - kullara rızkı verenin Allah oluşu iki ekin tercihi öncesinde durur.
+- 42:21 own: not relevant - uydurulan din hükümleri dünyalık ekin tercihine yeni bağ eklemez.
+- 42:22 own: ref ¶16 - ahiretin ekinini isteyenler için anılan cennet bahçeleri, varış yerini somutlar.
+- 28:21 own: not relevant - Mısır'dan korkuyla çıkış su başındaki hayvan bakımını henüz anlatmaz.
+- 28:22 own: ref ¶14 - Musa Midyen yolunda Rabbinden doğru yolu göstermesini ister, ardından çobanlarla karşılaşır.
+- 20:48 own: not relevant - yalanlayana azap uyarısı Rab ve otlak ilişkisinin parçası değildir.
+- 20:51 own: not relevant - önceki kuşakların hali sorusu otlatma veya bitkinin sonu değildir.
+- 79:36 own: ref ¶16 - otlak yararının ardından ateşin görünmesi tercih ve hesap sahnesini hazırlar.

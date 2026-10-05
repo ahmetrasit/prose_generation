@@ -1,0 +1,411 @@
+- 2:29: ref ¶17 - yaratılanın ardından göğün düzene konması.
+- 2:60: ref ¶20 - değnekle açılan pınarlarda her topluluk kendi içme yerini bilir.
+- 2:86: ref ¶21 - dünya hayatını ahiretle takas edenlerin sonu ağır azaptır.
+- 2:102: ref ¶21 - büyüyü satın alanın ahirette payı kalmaz.
+- 2:185: not relevant - oruç ruhsatındaki kolaylık ile hidayet, yaratılanı ölçüp yönlendirme veya meysir payı bağlamında kullanılmaz.
+- 2:200: cited ¶21; ref ¶20 - yalnız dünya talebinin ahirette paysız bırakması, kura payı karşıtlığını açar.
+- 2:201: prose ¶21, ref ¶20 - iki dünya için dua dünya payını dışlamayan bir seçimdir.
+- 2:202: context ¶21 (in 2:201) - bu duayı edenlerin kazançlarından payı bildirilir.
+- 2:219: cited ¶21; ref ¶20 - meysirin faydası günahından küçük kalır.
+- 2:280: not relevant - borçluya tanınan kolaylık, meysir veya yaratılıştaki ölçüyle aynı işlevde değildir.
+- 3:6: ref ¶17 - rahimde isteğe göre biçim verme, yaratılışın şekillendirilmiş oluşunu açar.
+- 3:44: prose ¶20, ref ¶21 - bakım görevi için kura meysirden ayrılır.
+- 3:77: ref ¶21 - ucuz karşılık için ahdi satmanın sonucu ahiret payından yoksunluktur.
+- 3:145: ref ¶20, ¶21 - dünya ve ahiret karşılığını isteme iki ayrı yön ve karşılık açar.
+- 4:7: ref ¶20 - miras payı belirlenmiş haktır.
+- 4:10: not relevant - yetim malını haksız yemeye bağlanan ateş, meysir okunun payını veya ateşle doğrultma fiilini açıklamaz.
+- 4:11: ref ¶20 - miras kesirleri payı insan kurasına bırakmaz.
+- 4:12: ref ¶20 - eş ve kardeşlerin miras payı da belirlenmiş ölçüdedir.
+- 4:13: not relevant - miras sınırlarına itaatin cennet sonucu, burada anılan kura ve ölçme sahnesinin mekanizmasını açıklamaz.
+- 4:14: not relevant - miras sınırını aşanın ateşi, ateşte değnek doğrultma benzetmesine bağlanmaz.
+- 4:32: ref ¶20 - kazanılan payın kadın ve erkek için ayrı ayrı tanınması kura kazancından ayrılır.
+- 4:134: ref ¶21 - dünya ödülünü isteyenin önüne iki dünyanın da Allah katında olduğu konur.
+- 5:3: cited ¶21; ref ¶20 - okla kısmet arama yasağı kura oku sahnesinin sınırını gösterir.
+- 5:90: cited ¶21; ref ¶20 - meysir ve oklar birlikte sayılıp uzak durma istenir.
+- 5:91: prose ¶21, ref ¶20 - meysirin anma ve namazdan alıkoyan etkisi.
+- 5:95: not relevant - ihramda avlanmanın kefareti ve kurban hediyesi, fal oku veya meysir eti paylaştırması değildir.
+- 5:96: not relevant - ihramda deniz ve kara avının hükmü burada işlenen pay ölçüsünü açıklamaz.
+- 6:96: ref ¶17 - güneş ve ayın hesabı Allah'ın ölçüsü olarak adlandırılır.
+- 6:136: ref ¶20 - insanlar hayvan ve ürün paylarını Allah ile ortak saydıkları arasında kendilerince bölüştürür.
+- 6:138: ref ¶20 - insanlar hangi hayvan ve ürünü kimin yiyebileceğini kendi iddialarıyla sınırlar.
+- 6:139: ref ¶20 - hayvanın karnındakini erkeklere ayırıp kadınlardan esirgeyen keyfî paylaştırma anlatılır.
+- 6:152: not relevant - ticarette doğru tartı emri, bu metinde açıklanan yaratılış ölçüsü ile meysirin şansa bağlı bölüşümünün konusu değildir.
+- 6:160: ref ¶21 - iyi ve kötü işe verilecek karşılığın oranı belirtilir.
+- 6:161: ref ¶17 - Rabbin doğru yola kılavuzluğu ve İbrahim'in dini, yaratma sonrası yön verme fikrini somutlaştırır.
+- 7:8: ref ¶21 - kıyamet tartısında ağır gelenler kurtuluşa erer.
+- 7:9: ref ¶21 - hafif gelenlerin kendi kayıpları bildirilir.
+- 7:85: not relevant - Şuayb'ın alışveriş tartısına ilişkin buyruğu, kura payı yahut yaratılışın ölçüsü değildir.
+- 7:160: ref ¶20 - on iki pınarda her topluluğun içme yeri belirlenir.
+- 8:41: ref ¶20 - kazanılan malın belirli kısmı adı sayılan hak sahiplerine ayrılır.
+- 9:34: ref ¶21 - biriktirilip harcanmayan dünya malına azap uyarısı yapılır.
+- 9:35: ref ¶21 - biriktirilen metal ateşte ısıtılıp sahibine azap olur.
+- 9:69: cited ¶21; ref ¶20 - dünya payını tüketen önceki kavimlerin işleri boşa gider.
+- 10:5: ref ¶17 - ayın durakları ölçülür ve yaratılan düzene hesap görevi verilir.
+- 11:15: ref ¶21 - yalnız dünya için çalışanlar karşılığını orada alır.
+- 11:16: ref ¶21 - bu tercihin ahiretteki karşılığı ateştir.
+- 11:84: not relevant - eksik ölçekten sakındırma, rastlantıyla pay belirleme sahnesini değil ticaret hilesini konu eder.
+- 11:85: not relevant - adil ölçü ve başkasının malını eksiltmeme emri aynı ticaret bağlamındadır.
+- 13:8: ref ¶17 - rahimdeki artma ve eksilme Allah katında ölçülüdür.
+- 13:17: not relevant - vadilerin su taşıma kapasitesi ve yararlı olanın kalması, deri tulumun hazırlanması veya kura payı değildir.
+- 13:26: ref ¶21 - Rabbin rızkı genişletip daraltması dünya sevincinin geçiciliğiyle birlikte söylenir.
+- 14:3: ref ¶20, ¶21 - dünyayı ahirete üstün tutanlar Allah'ın yolunu eğriltir.
+- 14:35: not relevant - İbrahim'in putlardan uzak tutulma duası, meysirden uzak durma emriyle yalnız kök paylaşır.
+- 15:19: ref ¶17 - yerin bitirdikleri tartılmış ölçüde anılır.
+- 15:21: ref ¶17 - indirilen her şey bilinen ölçüyle gelir.
+- 15:29: ref ¶17 - insanın düzene konması ruh üflenmesinden önce gelir.
+- 16:36: not relevant - sahte ilahlardan sakınma ve ümmetlerin hidayeti, bu paragraftaki yaratma adımlarına özel bir sıra vermez.
+- 16:68: ref ¶18 - arıya yuvasını yapma yönü bildirilir.
+- 16:69: ref ¶18 - arı Rabbinin yollarında yürütülerek yararlı içeceğe ulaşır.
+- 16:71: not relevant - insanlar arasındaki farklı rızık, meysirin seçilen ok payının hükmünü açıklamaz.
+- 16:80: ref ¶19 - hayvan derisi taşınabilir yararlı bir yapıya dönüştürülür; deri su tulumu denmez.
+- 16:96: ref ¶21 - eldeki tükenirken Allah katındaki kalır.
+- 16:107: ref ¶21 - dünyayı ahirete üstün tutma ile hidayetten mahrumluk bağlanır.
+- 16:121: ref ¶21 - İbrahim'in yaratanın kendisini yönlendirdiği sözü, ona hidayet verildiği hükmüyle karşılanır.
+- 17:18: ref ¶20, ¶21 - yakın hayatı isteyenin aldığı ve sonrasında ateşe girişi belirtilir.
+- 17:19: ref ¶20, ¶21 - ahiret için imanla çabalayanın emeği kabul görür.
+- 17:20: ref ¶20, ¶21 - iki tarafta da bağışın gerçek sahibi Rabdir.
+- 17:21: ref ¶21 - ahiret dereceleri dünya derecelerinden büyüktür.
+- 17:35: not relevant - düzgün teraziyle ölçme ticaret ahlakına ilişkindir; meysir payının kura düzeni değildir.
+- 18:46: ref ¶21 - dünya süsü olan mal ve evlada karşı kalıcı iyi işler üstün tutulur.
+- 19:97: ref ¶21 - vahyin dilde kolaylaştırılması müjde ve uyarma işine yöneliktir.
+- 20:7: not relevant - yüksek ses ve sırın bilinmesi, tulumun çalkalanmasıyla sadece uzak bir kök bağı taşır.
+- 20:10: not relevant - Musa'nın ateş yanında rehberlik araması, ateşle değnek doğrultma işlemini anlatmaz.
+- 20:40: not relevant - Musa'nın belirlenmiş zamanda gelmesi, yaratılışın ölçülmesi veya kura payı hakkında değildir.
+- 20:50: prose ¶17, ref ¶18 - yaratılışın verilmesini yol gösterme izler.
+- 20:74: not relevant - cehennemde ölmeme ve yaşamama, paragraftaki ateşle doğrultma mecazının mekanizmasını açıklamaz.
+- 20:131: ref ¶21 - geçici dünya ziynetine karşı Rabbin rızkı daha iyi ve kalıcıdır.
+- 22:5: ref ¶17 - insanın yaratılışı ardışık beden ve ömür evreleriyle anlatılır.
+- 22:36: prose ¶20, ref ¶21 - kurban eti yeme ve yedirme buyruğuyla paylaşılır.
+- 22:37: context ¶20 (in 22:36) - ete değil takvaya değer verilmesi bu paylaşımın sınırıdır.
+- 23:12: ref ¶17 - insan yaratılışının ilk maddesi gösterilir.
+- 23:13: ref ¶17 - damla sağlam bir yere konarak sonraki aşamaya geçer.
+- 23:14: ref ¶17 - art arda yaratma fiilleri biçimlenme aşamalarını verir.
+- 23:18: not relevant - ölçüyle indirilen suyun toprağa yerleştirilmesi, deri kaptan farklı bir oluşum ve depodur.
+- 23:102: ref ¶21 - ağır gelen terazi kurtuluşla sonuçlanır.
+- 23:103: ref ¶21 - hafif gelen terazi kayıp ve cehennemle sonuçlanır.
+- 25:2: cited ¶21; ref ¶17 - yaratma ile ölçü koyma doğrudan birleşir.
+- 26:78: cited ¶21; ref ¶17 - yaratan ile yol gösteren aynı Rabdir.
+- 26:155: ref ¶20 - devenin ve insanların su payları günle belirlenir.
+- 26:181: not relevant - Şuayb'ın doğru ölçek buyruğu, kurada et payını seçme veya yaratılış ölçüsünü işlemez.
+- 26:182: not relevant - düzgün teraziyle tartmak ticari dürüstlük içindir; yontulmuş okun doğruluğu değildir.
+- 26:183: not relevant - insanların eşyasını eksiltme yasağı, meysir kurasının niteliğine değil haksız ticarete yönelir.
+- 27:88: ref ¶17 - Allah'ın yaptığı işin sağlamlığı yaratılışın ustalık yönünü açıkça adlandırır.
+- 28:60: ref ¶21 - dünya metaı karşısında Allah katındaki daha iyi ve kalıcıdır.
+- 28:68: not relevant - bağlamında Rabbin elçi seçme yetkisi, insanın dünya veya ahiret tercihini yahut kura okunu ortadan kaldırmaz.
+- 28:77: prose ¶21, ref ¶20 - dünya payı ahiret yurdunu aramanın aracı olabilir.
+- 28:88: not relevant - her şeyin yok olup hükmün Allah'a dönmesi, paya veya ölçüp yöneltme dizisine özgü değildir.
+- 32:7: ref ¶17 - yaratılanın iyi biçimli kılınması insanın topraktan başlangıcıyla gelir.
+- 34:11: prose ¶17 - Dâvûd'un zırh örüşünde ölçme gerçek bir zanaat işlemidir.
+- 35:11: ref ¶17 - yaratılıştan ömür sınırına kadar bedenin aşamaları Allah'ın bilgisi içindedir.
+- 36:38: ref ¶18 - güneşin ölçülmüş seyri belirlenmiş bir varışa yönelir.
+- 36:39: ref ¶18 - ayın menzilleri onun seyir ölçüsüdür.
+- 36:80: not relevant - yeşil ağaçtan ateş çıkarılması, ateşin bir değneği doğrultmak için kullanılışını anlatmaz.
+- 37:118: not relevant - Musa ve Harun'a doğru yol verilmesi, yaratıp biçimlenen nesnenin yönlendirilmesi sırasına bağlanmaz.
+- 37:141: ref ¶20, ¶21 - Yunus'un kurası kazanılacak etin bölüşümü değildir.
+- 38:72: ref ¶17 - insanın düzene konması ruh üflenmesinden önce gelir.
+- 39:6: ref ¶17 - rahimde bir yaratılışı öteki izler.
+- 39:17: not relevant - sahte ilahlardan sakınma, meysir oklarından kaçınmanın aynı nesnesi veya sonucu değildir.
+- 40:39: ref ¶21 - geçici dünya karşısında ahiret kalıcı yurt diye anılır.
+- 40:67: ref ¶17 - yaratılışın evreleri belirlenmiş süreye kadar uzanır.
+- 41:10: ref ¶17 - yeryüzündeki rızkın ölçüyle hazırlanması yaratma dizisini somutlaştırır.
+- 41:12: ref ¶17 - göklerin düzenlenip her birine görev verilmesi ölçü diye anılır.
+- 42:20: ref ¶20, ¶21 - dünya ürününü arayanın ahirette payı kalmaz.
+- 42:27: ref ¶20 - rızkın ölçüyle verilmesi sınırsız bolluğun taşkınlığa dönüşmesini önler.
+- 42:36: ref ¶21 - elde edilen dünya metaına karşı Allah katındaki kalıcıdır.
+- 43:11: not relevant - ölçülü yağmurla toprağın dirilmesi, paragrafın paylaştırma veya yapım sahnesi değildir.
+- 43:32: prose ¶20, ref ¶21 - dünya geçimini Rab paylaştırır ve rahmeti üstündür.
+- 43:35: ref ¶21 - biriktirilen ziynet dünya metaı, ahiret ise takva sahiplerine ait yurt diye ayrılır.
+- 44:58: ref ¶21 - Kur'an'ın kolaylaştırılması hatırlamanın gerçekleşmesi içindir.
+- 46:20: ref ¶21 - dünyada tüketilen iyi şeylerin ardından ateş karşılığı gelir.
+- 51:55: prose ¶19 - hatırlatmanın yararı dokuzuncu ayetteki yarar fiilinin dinleyiciye dönük anlamını belirginleştirir.
+- 53:21: not relevant - ilahlara kızlar, insanlara oğullar yakıştırma itirazı kura payı değildir.
+- 53:22: not relevant - haksız diye nitelenen inanç bölüşümü okla kısmet arama sahnesini açıklamaz.
+- 53:29: ref ¶21 - yalnız dünya isteyen, hatırlatmadan yüz çeviren kişi olarak gösterilir.
+- 53:30: ref ¶21 - dünya arzusu onların bilgi sınırı olur, Rab kimin doğru yolu bulduğunu bilir.
+- 53:39: ref ¶20, ¶21 - insanın ahiret karşılığı kendi çabasına bağlanır.
+- 53:40: ref ¶20, ¶21 - çabanın görüleceği bildirilir.
+- 53:41: ref ¶20, ¶21 - görülen çaba eksiksiz karşılık bulur.
+- 54:17: ref ¶21 - Kur'an'ın anma için kolaylaştırılması sekizinci ayetin kolaylığının vahye dönük yönünü aydınlatır.
+- 54:22: ref ¶21 - Kur'an'ın anma için kolaylaştırıldığı nakaratın tekrar yeridir.
+- 54:28: ref ¶20 - su içme sırası belirlenmiş paydır.
+- 54:32: ref ¶21 - anma için kolaylaştırma aynı uyarı dizisinde yinelenir.
+- 54:40: ref ¶21 - aynı kolaylaştırma ve anma çağrısı yeniden gelir.
+- 54:49: cited ¶21; ref ¶17, ¶20 - yaratılmış her şeyin ölçüsü ve payın sınırı.
+- 55:7: not relevant - göğe konan terazi ölçü fikrini paylaşır ama ok, kap veya kura olayını işlemez.
+- 55:8: not relevant - teraziyi aşmama buyruğu adil tartım içindir, meysirin rastlantılı çekilişi değildir.
+- 55:9: not relevant - eksiksiz tartma buyruğu insanların alışveriş terazisiyle ilgilidir.
+- 55:26: not relevant - herkesin fâniliği, bu paragraftaki belirli pay ayrımı için özel bir açıklama değildir.
+- 55:27: not relevant - Rabbin kalıcılığı dünya ve ahiret karşıtlığına genel bir arka plandır.
+- 56:60: ref ¶17 - ölümün de belirlenmiş bir sınırı bulunur.
+- 56:71: not relevant - yakılan ateşin kaynağı değneği ateş üstünde düzeltme işlemi değildir.
+- 56:72: not relevant - ateş ağacının yaratılması, yanma fiilinin zanaat kullanımıyla bağ kurmaz.
+- 56:73: not relevant - ateşin hatırlatma ve yolculuk yararı, ok veya değnek doğrultma anlamını açıklamaz.
+- 56:74: not relevant - tesbih buyruğu surenin ilk ayetine yakın olsa da bu bölümün ateş zanaatı bağlantısını açıklamaz.
+- 56:96: not relevant - Rabbin adını yüceltme emri bu bölümdeki ölçme ve paylaştırmaya özel değildir.
+- 57:22: ref ¶17 - olayın var edilmeden önce yazılmış olması hazırlığın önceliğini gösterir.
+- 59:7: ref ¶20 - malın yalnız zenginler arasında dönmemesi için pay sahipleri belirlenir.
+- 59:24: ref ¶17 - Yaratan ve Biçim Veren adları bir araya gelerek yapımın kaynağını bildirir.
+- 65:3: ref ¶17, ¶20 - Allah her şeye bir ölçü koyar, rızkı da beklenmeyen yönden verir.
+- 65:4: not relevant - boşanma süresi ve takva sahibinin işi için kolaylık, yaratılışın ölçülüp yöneltilmesiyle farklı konudur.
+- 67:3: ref ¶17 - yedi kat göğün yaratılışında uyumsuzluk bulunmaması biçim verme sonucunu gösterir.
+- 69:52: not relevant - surenin açılışına benzer tesbih buyruğu bu bölümün özel imgesini açıklamaz.
+- 71:14: ref ¶17 - insan aşamalar içinde yaratılır.
+- 73:20: not relevant - gecenin ölçülmesi ve kolay gelen kadar okuma emri farklı bir ibadet bağlamındadır.
+- 75:4: ref ¶17 - parmak uçlarının yeniden düzenlenmesi beden biçiminin inceliğini gösterir.
+- 75:20: ref ¶20, ¶21 - yakın hayatın sevilmesi ahireti bırakmakla eşleşir.
+- 75:21: ref ¶20, ¶21 - ahireti bırakmak yakın hayat seçiminin öteki yüzüdür.
+- 75:38: ref ¶17 - insanın oluşumunda yaratıp düzene koyma sözleri yan yana gelir.
+- 76:3: ref ¶17 - insana yol gösterilmesi iki farklı cevaba açık bir yönlendirmedir.
+- 76:16: ref ¶19 - cennet kapları ölçüyle ayarlanır; deri kabı olduğu söylenmez.
+- 76:27: ref ¶20 - yakın hayatı sevme ağır günü geriye atmakla birlikte anılır.
+- 77:20: ref ¶17, ¶21 - insanın ilk maddesinden yaratılması ölçme dizisini açar.
+- 77:21: ref ¶17, ¶21 - yaratılan madde sağlam yere konur.
+- 77:22: ref ¶17, ¶21 - bu oluşumun bilinen sınırı vardır.
+- 77:23: ref ¶17, ¶21 - diziyi Allah'ın ölçmesi tamamlar.
+- 79:19: not relevant - Musa'nın Firavun'u Rabbine çağırması, yaratılışın zanaat dizisini değil peygamber davetini anlatır.
+- 79:28: ref ¶17 - göğün yapısı yükseltilip düzene konur.
+- 79:38: ref ¶20, ¶21 - dünyayı üstün tutanın sonu sonraki ayette açıklanır.
+- 79:39: ref ¶20, ¶21 - dünya tercihini cehennem sonucu izler.
+- 79:40: ref ¶20, ¶21 - Rab karşısındaki korku ve arzuyu tutma öteki yönü belirler.
+- 79:41: ref ¶20, ¶21 - bu yönün varacağı yer cennet diye bildirilir.
+- 80:19: cited ¶21; ref ¶17 - yaratma ve ölçme insanın ilk oluşumunda ardışık gelir.
+- 80:20: cited ¶21; nowhere else - yolun kolaylaştırılması başka paragraftaki nesne yapımını anlatmaz.
+- 82:7: ref ¶17 - yaratılış, düzene koyma ve dengeleme fiilleri sıralanır.
+- 83:1: not relevant - eksik tartanlara hitap, kurayla kısmet aramaktan farklı bir hiledir.
+- 83:2: not relevant - kendine tam ölçü isteyen satıcı meysir oyuncusunun payını açıklamaz.
+- 83:3: not relevant - başkasına eksik veren tartıcı, okların rastlantılı payını değil ticari haksızlığı işler.
+- 89:15: context ¶21 (in 89:16) - geniş rızkı onur sayma yanılgısı dar rızık yanılgısına eşlik eder.
+- 89:16: prose ¶21 - dar ölçülmüş rızık aşağılanma kanıtı değildir.
+- 91:7: ref ¶17 - nefsin düzenlenmesinden söz edilir.
+- 91:8: ref ¶17 - düzene konmuş nefse iki davranış yönü bildirilir.
+- 91:9: ref ¶21 - arınma ile kurtuluş aynı yapıda birleştirilir.
+- 91:10: ref ¶21 - nefsi örtmenin karşılığı başarısızlıktır.
+- 92:7: ref ¶20, ¶21 - olumlu tercih kolaylığa yöneltilir.
+- 92:10: prose ¶21, ref ¶20 - kolaylaştırma güçlüğe de yöneltebilir.
+- 92:12: ref ¶17, ¶21 - yol göstermenin sahibi Allah'tır.
+- 92:13: ref ¶20 - önceki hayat ve ahiret Allah'ındır, iki payın da sahibi odur.
+- 92:14: ref ¶18 - bedbahtın gireceği ateşin alevlenmesi sahnelenir.
+- 92:15: ref ¶18 - bedbahtın ateşe girmesi aynı fiille bildirilir.
+- 92:16: ref ¶18 - ateşe girenin yalanlayıp yüz çevirdiği belirtilir.
+- 92:17: ref ¶21 - takva sahibi ateşten uzak tutulur.
+- 92:18: context ¶20 (in 92:20) - en yüce Rabbi arayan kişi malını arınmak için verir.
+- 92:20: prose ¶20, ref ¶21 - en yüce Rab kazanılmış en büyük paydan ayrı yöndür.
+- 92:21: ref ¶20 - veren kişinin sonunda hoşnut olacağı bildirilir.
+- 95:4: ref ¶17 - insanın en iyi biçimde yaratılışı düzgün ürün imgesini bedenle buluşturur.
+- 99:7: ref ¶21 - zerre ağırlığındaki iyilik bile görülecek karşılığa girer.
+- 99:8: ref ¶21 - zerre ağırlığındaki kötülük de görülecektir.
+- 101:6: ref ¶21 - ağır terazi iyi hayatın ölçüsü olur.
+- 101:7: ref ¶21 - ağır terazi hoş bir hayata açılır.
+- 101:8: ref ¶21 - hafif terazi karşı yöndeki ölçüdür.
+- 101:9: ref ¶21 - hafif terazi düşüşle sonuçlanır.
+- 1:6: not relevant - doğru yola yönelme duası, okun temreniyle yalnız yön bildirme sözünü paylaşır.
+- 2:236: not relevant - boşanma armağanını imkâna göre verme, yaratılışı ölçme ve kura payı bağlamından ayrıdır.
+- 4:77: ref ¶21 - dünya metaının azlığı ahiretin üstünlüğüyle karşılaştırılır.
+- 6:2: ref ¶17 - balçıktan yaratılışı belirlenmiş ömür sınırı izler.
+- 9:38: ref ¶21 - dünya ile ahiret arasında razı olunan pay soruya çevrilir.
+- 13:2: ref ¶18 - güneş ve ayın belirlenmiş süreye yönelen seyri yaratılanın hedefini gösterir.
+- 14:17: not relevant - azapta ölememe, ateşin değneği düzeltme kullanımını açıklamaz.
+- 16:9: ref ¶18 - doğruca giden yol ile sapan yollar bir yön ayrımı kurar.
+- 17:9: ref ¶18 - Kur'an'ın en düzgün olana yöneltmesi doğrultma ve hidayeti buluşturur.
+- 17:30: not relevant - rızkın genişletilip daraltılması, kura sahnesinin rastlantılı payını açıklamaz.
+- 17:83: prose ¶19 - yan sözcüğü nimetten yüz çevirme hareketine bağlanır.
+- 18:37: ref ¶17 - topraktan ve damladan yaratmayı insan biçiminin tamamlanması izler.
+- 18:96: ref ¶18 - demiri ateşte ısıtma bir yapım safhasıdır.
+- 20:18: not relevant - Musa değneğinin destek ve gütme işini sayar, onun önden rehber diye adlandırıldığını söylemez.
+- 28:22: ref ¶18 - Musa, Rabbinden yolu düz olarak gösterecek yönlendirmeyi ister.
+- 28:82: ref ¶21 - Kârûn'un malına özenenler rızkın ölçüsünü ve inkârcının başarısızlığını görür.
+- 29:62: not relevant - rızkın genişleme ve daralma nakaratı bu kura okunun payını açıklamaz.
+- 30:37: not relevant - aynı rızık nakaratı ölçülmüş nesne yapımından farklıdır.
+- 30:54: ref ¶17 - güçten zayıflığa uzanan insan ömrü aşamalar içinde anlatılır.
+- 32:9: ref ¶17 - biçimlemeden sonra bedenin duyuları ve gönlü verilir.
+- 33:38: not relevant - peygambere yüklenen buyruğun takdiri bu nesne yapımı veya pay çekilişi değildir.
+- 34:36: not relevant - rızkın genişlemesi ve daralması tek başına kura payını açıklamaz.
+- 34:39: not relevant - harcamanın telafisi ve rızkın ölçüsü, meysir etini bölüşmeyle ilgili değildir.
+- 35:36: not relevant - cehennemdekilerin öldürülmemesi, ateşle değnek doğrultma anlamını açıklamaz.
+- 36:73: not relevant - hayvanlardan içecek ve yarar sağlanması, deriden tulum yapıldığını söylemez.
+- 39:52: not relevant - rızkın genişleyip daralması, bu bölümün özel ölçü ve kura dizisine bağlanmaz.
+- 40:64: ref ¶17 - insanın iyi biçimi, rızık ve Rablik birlikte anılır.
+- 41:51: ref ¶19 - nimet verilince yanını çevirip uzaklaşma aynı beden hareketini tekrarlar.
+- 42:12: not relevant - rızkın genişleme ve daralması bu kuranın yöntemine dair değildir.
+- 50:45: not relevant - uyarıdan korkana Kur'an'la hatırlatma, bu bölümdeki ölçme yahut kura sahnesine bağlanmaz.
+- 53:45: not relevant - erkek ve dişi çiftin yaratılışı burada işlenen yaratma-ölçme sırasına ek bilgi vermez.
+- 53:46: not relevant - damla kaynaklı yaratılış zaten 80:19 ile doğrudan kurulmuştur; bu ayette ölçme veya biçim verme bulunmaz.
+- 55:5: not relevant - güneş ve ayın hesabı, okun hedefe çevrilmesine yeterli somut bağ kurmaz.
+- 57:20: ref ¶21 - yeşeren bitkinin kuruyup kırılması dünya payının tükenişini gösterir.
+- 64:3: ref ¶17 - insanların iyi biçimlenmesi ve Allah'a dönüş bir arada bildirilir.
+- 75:3: ref ¶17 - kemiklerin yeniden toplanması sorusu parmak uçlarının düzenlenmesiyle cevaplanır.
+- 78:29: not relevant - her şeyin kaydı, fiziksel ölçüp hazırlama işinden farklıdır.
+- 82:8: ref ¶17 - Allah insanı dilediği biçimde birleştirir.
+- 83:4: not relevant - eksik tartanların dirilişini hatırlatma, kura oku paylaştırmasına dönüşmez.
+- 83:5: not relevant - kıyamet gününün büyüklüğü teraziyi hileyle kullananlar bağlamındadır.
+- 83:6: not relevant - Rab önünde duruş, bu bölümdeki pay sözünü özel olarak işlemez.
+- 92:5: ref ¶21 - veren ve sakınanın olumlu kolaylaştırmadan önceki cevabı.
+- 92:6: ref ¶21 - en güzeli doğrulama olumlu kolaylaştırmanın koşuludur.
+- 92:8: context ¶21 (in 92:10) - güçlüğe yönelen kişinin eli sıkı ve kendini yeterli gören tutumu.
+- 92:9: context ¶21 (in 92:10) - güçlüğe yönelen kişinin en güzeli yalanlaması.
+- 92:11: not relevant - malın düşüş anında işe yaramaması, meysir payı veya yaratma ölçüsüyle özel bağ kurmaz.
+- 21:87: not relevant - Yunus'un Allah'ın kendisini sıkıştırmayacağını sanması, yaratılış ölçüsü veya kura payı değildir.
+- 6:91: not relevant - Allah'ı gereğince takdir edemeyenlerin vahyi inkârı, nesnenin ölçüsünü koyma anlamından ayrıdır.
+- 21:47: prose ¶21 - kıyametteki adil tartı en küçük ağırlığı bile hesaba getirir.
+- 22:74: not relevant - insanların Allah'ı gereği gibi takdir etmemesi, yaratmanın teknik ölçüsü değil değerini tanımamaktır.
+- 39:67: not relevant - Allah'ın büyüklüğünü gereğince kavrayamama, ok veya deri nesnenin ölçülmesiyle aynı fiil değildir.
+- 74:18: ref ¶17 - inkârcının düşünüp hesaplaması ölçme kökünün zihinsel hazırlık anlamını ters amaçta kullanır.
+- 74:19: ref ¶17 - hazırladığı hesap yergiyle karşılanır.
+- 74:20: ref ¶17 - aynı yergi tekrar edilerek ölçüp biçmenin yönünün iyi olmasının zorunlu olmadığı görülür.
+- 79:24: not relevant - Firavun'un kendine en yüce Rab demesi, kura okunun yüksek payını veya gerçek Rabbin yaratmasını açıklamaz.
+- 2:198: ref ¶21 - hac sırasında Rabbin lütfunu aramak serbest bırakılırken anma da emredilir.
+- 2:199: not relevant - hac topluluğunun ayrılış yönü ve istiğfar, pay karşıtlığının konusu değildir.
+- 2:217: not relevant - haram ayda savaş ve dinden dönme hükmü, meysir içeren komşu sorudan farklıdır.
+- 2:218: not relevant - hicret edenlerin rahmet umudu, bu bölümün ölçü ve kura sözünü işlemez.
+- 2:220: not relevant - yetimlere iyi davranma sorusu, meysir faydasına dair önceki sorunun devamı değildir.
+- 2:221: not relevant - evlilikte iman tercihi ve ateş sonucu, kura payıyla aynı seçme sahnesi değildir.
+- 5:1: not relevant - akitlere bağlılık ve hayvanların helalliği, fal oklarıyla pay arama yasağını açıklamaz.
+- 5:2: not relevant - hac işaretleri ve av sınırı, 5:3'teki fal oku yasağından ayrı hükümdür.
+- 5:4: not relevant - avcı hayvanların tuttuğu helal yiyecek, oklarla kısmet arama pratiği değildir.
+- 5:5: not relevant - helal yiyecek ve evlilik hükmü kura payı bağlantısını genişletmez.
+- 5:88: ref ¶21 - meysir yasağının yakınında Allah'ın helal ve iyi verdiğini yeme izni bulunur.
+- 5:89: not relevant - yemin kefaretindeki sayılı seçenekler, meysir payının yasağına veya yaratılış ölçüsüne ilişkin değildir.
+- 5:92: not relevant - elçinin görevinin bildirme oluşu, bu bölümdeki ok ve pay bağlantısını tamamlamaz.
+- 9:67: not relevant - münafıkların davranışları, onların dünya payından yararlanması ifadesinin burada işlenen yönü değildir.
+- 9:68: ref ¶21 - dünya payıyla yetinenlerin ateş sonucu komşu ayette bildirilir.
+- 9:70: not relevant - eski kavimlerin haberleri, pay sözcüğünün 9:69'daki kullanımına ek ölçü getirmez.
+- 9:71: not relevant - müminlerin birbirine desteği karşı örnektir ama buradaki kura/pay dilini taşımaz.
+- 25:0: not relevant - besmele yaratıp ölçme bağlantısını açıklamaz.
+- 25:1: not relevant - Furkan'ın uyarı için indirilmesi, 25:2'deki yaratıp ölçme eyleminden ayrı bir fiildir.
+- 25:3: ref ¶17 - Allah dışındaki ilahların hiçbir şey yaratamaması, yaratıp ölçenin kim olduğunu belirginleştirir.
+- 25:4: not relevant - vahye iftira suçlaması, ölçülü yaratma veya pay bağlantısını açıklamaz.
+- 26:76: not relevant - ataların putlarının anılması, İbrahim'in yaratan ve hidayet eden Rab sözünün bu bölümdeki mekanizmasına ek getirmez.
+- 26:77: not relevant - putları düşman görme, yaratma ve hidayet fiillerinin sırasına dair değildir.
+- 26:79: ref ¶17 - yaratan ve yol gösteren Rab, İbrahim'in devam eden sözünde onu doyurup içirendir.
+- 26:80: ref ¶17 - aynı Rab hastalığında İbrahim'e şifa verir.
+- 54:47: not relevant - suçluların sapkınlık ve ateşte oluşu, her şeyin ölçüyle yaratılması ifadesinin kapsamını açıklamaz.
+- 54:48: not relevant - suçluların ateşte sürüklenmesi, ateşte doğrultulan değneğin yapım sahnesine bağlanmaz.
+- 54:50: not relevant - Allah'ın buyruğunun göz açıp kapama kadar kısa oluşu, yaratılıştaki ölçünün niteliğini anlatmaz.
+- 54:51: not relevant - önceki toplulukların yok edilmesi ve anma çağrısı, ölçüp biçme imgesine özel değildir.
+- 80:17: not relevant - inkârcı insanın kınanması 80:19'un bağlamıdır; bu bölümde yeni bir yapım bağı kurmaz.
+- 80:18: not relevant - insanın hangi şeyden yaratıldığı sorusu 80:19'un girişidir; ölçüyü ayrıca açıklamaz.
+- 80:21: ref ¶17 - yaratılıp ölçülen insana ölüm ve gömülme sınırı konur.
+- 80:22: ref ¶17 - insanın diriltilmesi ilk yaratma ve ölçmenin sonrasına konur.
+- 20:48 own: not relevant - Firavun'a yapılan uyarı Rabbin yaratıp yöneltme tanımından önceki ayrı iletidir.
+- 20:49 own: context ¶17 (in 20:50) - Firavun'un Rab sorusu Musa'nın yaratma ve hidayet cevabını açar.
+- 20:51 own: not relevant - Firavun'un eski kavimleri sorması yaratma ve yöneltme sırasını ilerletmez.
+- 20:52 own: not relevant - eski kavimlerin bilgisinin Rab katında oluşu bölümün yapım imgesini işlemez.
+- 34:10 own: context ¶17 (in 34:11) - Dâvûd'a demirin yumuşatılması zırh örme buyruğunun maddesini hazırlar.
+- 34:12 own: not relevant - Süleyman'ın rüzgârı ve bakır kaynağı Dâvûd'un ölçülü zırh örmesine ait değildir.
+- 82:6 own: not relevant - cömert Rabbe karşı insanın aldanışı, biçimlenme sırasına ek sahne vermez.
+- 82:9 own: not relevant - hesabı yalanlama uyarısı, insana verilen biçimin özel fiillerini açıklamaz.
+- 75:36 own: ref ¶17 - insanın amaçsız bırakılmayacağı sorusu yaratılışın yönüyle birleşir.
+- 75:37 own: ref ¶17 - düzene konan insanın damladan başladığı bildirilir.
+- 75:39 own: ref ¶17 - biçimlenmenin sonucu erkek ve dişi olarak belirir.
+- 75:40 own: ref ¶17 - ilk biçimlendirme ölüyü diriltmeye kudret sorusuna bağlanır.
+- 37:140 own: ref ¶20 - Yunus'un dolu gemiye binişi kuranın gerçekleştiği ortamı gösterir.
+- 37:142 own: ref ¶20 - kurada kaybedeni balığın yutması sonucun ağırlığını gösterir.
+- 92:19 own: not relevant - karşılık beklemeksizin vermek, kuradaki payın tekniğine bağlanmaz.
+- 26:75 own: not relevant - İbrahim'in putlar hakkındaki giriş sorusu yaratma ve hidayet eşleşmesine ek içerik vermez.
+- 28:76 own: context ¶21 (in 28:77) - Kârûn'a verilen hazineler ona yapılan öğüdün ortamıdır.
+- 28:78 own: ref ¶21 - Kârûn'un malı kendi bilgisine bağlaması, verilen payın kaynağını yanlış okur.
+- 28:79 own: ref ¶21 - dünya hayatını isteyenlerin Kârûn'un büyük payına özenmesi seçimin yönünü gösterir.
+- 43:31 own: not relevant - vahyin hangi şehir büyüğüne inmesi gerektiği itirazı, geçimin Allah tarafından bölünmesi cevabının ayrı konusudur.
+- 43:33 own: ref ¶21 - inanmayanlara bile gümüş çatılı evler verilebileceği dünya payının değerini sınırlar.
+- 53:38 own: not relevant - kimsenin başkasının yükünü taşımaması çabanın karşılığını anlatan komşu ayetlerden ayrı hükümdür.
+- 53:42 own: not relevant - son dönüşün Rabbe oluşu, pay veya ölçme mekanizmasını tek başına açıklamaz.
+- 15:20 own: not relevant - yeryüzünde geçimlikler hazırlanması bilinen ölçüyle indirme fiilini ayrıca söylemez.
+- 15:22 own: not relevant - yağmur ve insanların suyun haznedarı olmaması, deriden kap yapımını anlatmaz.
+- 22:35 own: ref ¶20 - kurbanın öncesinde Allah anılınca ürperen ve rızıktan veren kişiler anılır.
+- 22:38 own: not relevant - inananların savunulması, kurban etinin paylaşımını açıklamaz.
+- 65:2 own: not relevant - takva sahibine çıkış yolu açılması, her şeye ölçü koyma cümlesinden ayrı hukukî bağlamdadır.
+- 65:5 own: not relevant - takvayla bağışlanma ve ödül, buradaki ölçü veya kura pratiğinin açıklaması değildir.
+- 91:6 own: not relevant - yere edilen yemin, nefsin düzenlenme ve yön bildirme dizisine ek yapmaz.
+- 91:11 own: not relevant - Semud'un yalanlaması, nefsin biçimlenmesinin genel anlatımından farklı sahnedir.
+- 23:15 own: ref ¶17 - insanın aşamalı yaratılışının sonunda ölüm de bildirilir.
+- 23:16 own: ref ¶17 - ölümü kıyamette diriliş izler.
+- 23:17 own: not relevant - yedi gök yolunun yaratılışı rahimdeki evrelerden ayrı bir konuya geçer.
+- 23:19 own: not relevant - sulanan bahçeler bedenin aşamalı biçimlenmesinden ayrılır.
+- 79:37 own: ref ¶20 - dünyayı üstün tutan kişinin taşkınlığı önceki ayette belirtilir.
+- 79:42 own: not relevant - kıyametin vaktini sorma dünya ve ahiret payı seçiminin devamı değildir.
+- 77:19 own: not relevant - inkârcılara yönelik nakarat ölçülü rahim oluşumunu ilerletmez.
+- 77:24 own: not relevant - aynı nakaratın tekrarı yaratılış ölçüsüne yeni bağ kurmaz.
+- 2:203 own: not relevant - hacdaki sayılı günlerde anma emri dünya ve ahiret dua paylarını açıklamaz.
+- 37:94 own: not relevant - İbrahim'e gelen topluluk onun yontulmuş nesne itirazına ek yapmaz.
+- 37:95 own: context ¶17 (in 37:96) - İbrahim'in yontulana tapma sorusu yaratma hükmünün nesnesini belirler.
+- 37:96 own: prose ¶17 - yontulan nesne yanında yontan insan da Allah'ın yaratması içindedir.
+- 37:97 own: not relevant - İbrahim'e ateşli yapı kurma emri, değneği ateşte düzeltme işleminden farklıdır.
+- 37:98 own: not relevant - topluluğun hilesinin bozulması yapım ve ölçü bağını açıklamaz.
+- 21:79 own: not relevant - Süleyman'a verilen hüküm ve Dâvûd'un tesbih eden dağları, zırh yapımına dair değildir.
+- 21:80 own: ref ¶17 - Dâvûd'a koruyucu giysi yapımının öğretilmesi zanaatı Rabbin öğretmesine bağlar.
+- 21:81 own: not relevant - Süleyman'ın rüzgârı zırh yapımıyla başka bir sahnedir.
+- 32:8 own: ref ¶17 - insandaki toprak başlangıcının ardından soyunun sudan oluştuğu söylenir.
+- 41:9 own: ref ¶17 - yeryüzünün yaratılışı sonraki rızık ölçüsünün ilk aşamasıdır.
+- 41:11 own: ref ¶17 - göğe ve yere yönelme buyruğu oluşturulmuş varlığa bir yol verir.
+- 76:15 own: ref ¶19 - ölçülmüş gümüş kapların cennet sofrasında dolaştırılması sahnelenir.
+- 76:17 own: not relevant - cennette sunulan içeceğin karışımı kabın ölçülüşünü açıklamaz.
+- 16:79 own: not relevant - gökte tutulan kuşlar hayvan derisinin işlenmesine bağlanmaz.
+- 16:81 own: not relevant - gölgelik ve koruyucu giysiler, 16:80'deki hayvan derisi yapısının özel malzemesini tekrarlamaz.
+- 34:9 own: not relevant - gök ve yerin yerleştirilmesi Dâvûd'un zırh ölçüsünden önceki ayrı konuya aittir.
+- 34:13 own: not relevant - Süleyman için yapılan çanak ve kazanlar deriden su tulumunun yapımını anlatmaz.
+- 42:26 own: not relevant - müminlere ek lütuf verilmesi rızkın neden ölçülü verildiğini söyleyen komşu ayetten ayrı sonuçtur.
+- 42:28 own: not relevant - yağmurla rahmet yayılması rızkın sınırlandırılması cümlesinin ölçü mekanizmasını açmaz.
+- 89:14 own: not relevant - Rabbin gözetlemesi rızkın onur veya aşağılama diye yanlış yorumuna özel değildir.
+- 89:17 own: ref ¶21 - rızık büyüklüğüyle övünen tutuma karşı yetimi onurlandırmama kınanır.
+- 28:75 own: not relevant - ümmetlerin tanığıyla yüzleşmesi Kârûn'a yapılan dünya payı öğüdünden önceki ayrı sahnedir.
+- 28:80 own: ref ¶21 - bilgi sahipleri Kârûn'un zenginliğine özenenlere Allah'ın ödülünün daha iyi olduğunu söyler.
+- 20:53 own: ref ¶17 - Musa'nın Rab tarifini yeryüzündeki yolların hazırlanması sürdürür.
+- 20:54 own: not relevant - bitkiden yeme ve hayvan otlatma buyruğu yaratıp ölçme fiillerine ek işlem vermez.
+- 26:157 own: not relevant - devenin öldürülmesi içme payının belirlenmesiyle ayrı karşı gelme sahnesidir.
+- 26:154 own: not relevant - mucize talebi su sırası payının ölçüsünü açıklamaz.
+- 54:27 own: ref ¶20 - su payı verilen devenin topluluk için imtihan olduğu belirtilir.
+- 54:29 own: not relevant - deveyi kesme eylemi içme sırasının nasıl ölçüldüğünü anlatmaz.
+- 92:4 own: not relevant - çabaların çeşitliliği verilen ve esirgenen payı özel olarak işlemez.
+- 3:43 own: not relevant - Meryem'e ibadet buyruğu onun bakımını belirleyen kuranın konusu değildir.
+- 3:45 own: not relevant - Meryem'e müjde bakım görevini paylaştıran kurayı açıklamaz.
+- 3:42 own: not relevant - Meryem'in Allah tarafından seçilmesi onun bakımını üstlenecek kişinin kurayla belirlenmesinden ayrı bir seçimdir.
+- 3:46 own: not relevant - İsa'nın beşikte ve yetişkin iken konuşması bakım için atılan kalemlerin sonucunu açıklamaz.
+- 22:34 own: ref ¶20 - hayvanların verilmesiyle Allah'ın adını anma kurban etinin paylaştırılmasını hazırlar.
+- 43:30 own: not relevant - hakka büyü diyerek inanmama, insanların geçimini Allah'ın paylaştırması cümlesinden ayrı itirazdır.
+- 43:34 own: ref ¶21 - inkârcıya verilebilecek ev ziynetinin bir parçası dünya nimetinin geçiciliğini somutlaştırır.
+- 5:93 own: not relevant - geçmiş yeme eyleminin sorumluluğu için takva koşulu, meysir oklarıyla pay aramanın mekanizması değildir.
+- 89:18 own: ref ¶21 - dar ve geniş rızkı yanlış okuyanların yoksulu doyurmaya özendirmemesi kınanır.
+- 17:81 own: not relevant - hakkın gelip bâtılın gitmesi nimete yüz çevirme beden hareketini anlatmaz.
+- 17:82 own: ref ¶19 - Kur'an müminler için şifa ve rahmet olarak dinleyiciye yarar verir.
+- 17:84 own: not relevant - herkesin kendi yönelişiyle davranması ve en doğru yolun Rabbe malum olması, yanını uzaklaştırma fiilinin özel anlamını açıklamaz.
+- 17:85 own: not relevant - ruh hakkında bilginin azlığı nimet karşısındaki yana dönme davranışından ayrı konudur.
+- 51:53 own: not relevant - önceki kavimlerin taşkınlığı hatırlatmanın kime yaradığı cümlesini açıklamaz.
+- 51:54 own: not relevant - elçiye onlardan yüz çevirme buyruğunun öznesi ve nesnesi, bedbahtın hatırlatmadan kaçışından farklıdır.
+- 51:56 own: ref ¶17 - insan ve cinlerin yaratılışı kulluk amacına bağlanır.
+- 51:57 own: not relevant - Allah'ın insanlardan rızık beklememesi yaratılanın ölçüsü veya yönü hakkında değildir.
+- 21:45 own: ref ¶19 - vahiy uyarısı sağır gibi duymayana erişmeyen bir çağrı olarak anlatılır.
+- 21:46 own: not relevant - azaptan gelen bir esintiyle suç itirafı adil tartının ayrıntısı değildir.
+- 21:48 own: ref ¶19 - Musa ve Harun'a verilen vahiy takva sahipleri için hatırlatmadır.
+- 21:49 own: ref ¶19 - o takva sahipleri görünmeyen Rablerinden korkarlar.
+- 20:47 own: not relevant - Firavun'a gönderilen elçilerin ilk buyruğu Rabbin her şeye yaratılışını verip yol göstermesi tanımını henüz söylemez.
+- 54:15 own: not relevant - bırakılan işaretin hatırlanması sorusu Kur'an'ın kolaylaştırılması hükmüne ait değildir.
+- 54:16 own: not relevant - azabın nasıl olduğuna dair soru kolaylaştırma ve hatırlatma nakaratının başka öğesidir.
+- 54:18 own: not relevant - Âd'ın yalanlaması hatırlatma için kolaylaştırma cümlesine ek anlam vermez.
+- 54:19 own: not relevant - uğursuz gündeki rüzgârın azabı yaratma veya meysir ölçüsüne bağlanmaz.
+- 54:20 own: not relevant - rüzgârın insanları sökmesi ölçüp biçme imgesi değildir.
+- 54:21 own: not relevant - azap ve uyarıya dair nakarat kolaylaştırmanın fiilini açıklamaz.
+- 54:23 own: not relevant - Semud'un uyarıları yalanlaması aynı anlatının konusu olsa da kolaylaştırma cümlesine özgü değildir.
+- 54:24 own: not relevant - elçiye uymayı reddetmeleri ölçü veya paylaştırma temasına özel değildir.
+- 54:30 own: not relevant - Semud'a gelen azap hakkındaki nakarat hatırlatma için kolaylaştırma sözünü genişletmez.
+- 54:31 own: not relevant - Semud'un tek sesle helaki ayrı cezalandırma sahnesidir.
+- 54:33 own: not relevant - Lut kavminin uyarıyı yalanlaması kolaylaştırma fiilini açıklamaz.
+- 54:34 own: not relevant - Lut ailesinin kurtarılması farklı kıssanın sonucudur.
+- 54:38 own: not relevant - sabah azabının gelişi ölçü ve pay seçimiyle bağlantısızdır.
+- 54:39 own: not relevant - azabı tadın buyruğu vahyin anma için kolaylaştırılmasının mekanizması değildir.
+- 54:41 own: not relevant - Firavun ailesine uyarıcıların gelişi yaratıp yöneltme tanımından ayrı sahnedir.
+- 54:42 own: not relevant - işaretleri yalanlayana gelen yakalama meysir payı veya yaratma ölçüsü değildir.
+- 3:41 own: not relevant - Zekeriya'ya verilen konuşmama işareti Meryem'in bakımı için kuraya bağlı değildir.
+- 3:47 own: ref ¶17 - Meryem'e bildirilen yaratma Allah'ın buyruğuyla gerçekleşir, zanaat benzetmesinin sınırını gösterir.
+- 22:33 own: ref ¶20 - kurbanlık hayvanın yararı belirlenmiş süreye kadar sürer.
+- 22:39 own: not relevant - zulme uğrayanlara savaş izni kurban eti paylaştırmasından ayrı bir hükme geçer.
+- 43:29 own: not relevant - gerçeğe kadar bir topluluğa tanınan nimet, geçim paylarının Allah tarafından bölünmesi sorusunu açıklamaz.
+- 43:36 own: not relevant - Rahman'ın zikrinden uzaklaşmanın sonucu, mal payının büyüklüğünü doğrudan belirlemez.
+- 51:52 own: not relevant - geçmiş elçilere büyücü denmesi yararlı hatırlatmanın dokuzuncu ayetteki kökünü işlemez.
+- 51:58 own: not relevant - Allah'ın rızık veren oluşu tek başına tulumun faydası veya kura payı bağlantısını kurmaz.
+- 21:44 own: not relevant - uzun süre yararlandırılan kavmin toprağının daralması adil kıyamet terazisinin mekanizması değildir.
+- 21:50 own: not relevant - indirilen mübarek hatırlatmaya itiraz adil tartıdan sonraki ayrı bildiridir.
+- 17:80 own: not relevant - doğru giriş ve çıkış duası nimete yanını çevirme hareketi değildir.
+- 17:86 own: not relevant - vahyin geri alınabileceği uyarısı nimete karşı yana dönme sahnesini açıklamaz.
+- 89:13 own: not relevant - eski topluluklara inen azap rızkın sınanma olarak verilmesine dair değildir.
+- 89:19 own: ref ¶21 - mirası topluca yiyip tüketme dünya payına yanlış yönelişin davranışını gösterir.
+- 37:83 own: context ¶17 (in 37:96) - yontulana tapma itirazının anlatısında konuşan İbrahim olarak adlandırılır.

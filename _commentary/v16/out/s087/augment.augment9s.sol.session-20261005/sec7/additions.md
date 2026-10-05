@@ -1,0 +1,80 @@
+## ¶28 · prose · 22:34 · applied
+
+Hac suresinde her ümmete, Allah'ın kendilerine rızık verdiği hayvanların üzerinde O'nun adını anacakları bir ibadet yolu verilir {source:22:34}. Hayvanın üzerinde söylenen ad, rızkı veren tek ilaha teslimiyetle birleşir.
+
+## ¶28 · prose · 4:119 · applied
+
+Hayvanın kulağını keserek ayırt etme örneğinin başka bir yüzü de vardır: Şeytan, insanları saptıracağını, onlara davarların kulaklarını kestirmeyi ve Allah'ın yaratışını değiştirmeyi buyuracağını söyler {source:4:119}. Bir hayvana basılan işaretin değeri, biçiminden önce kimin buyruğuyla yapıldığına bağlıdır.
+
+## ¶28 · prose · 12:40 · applied
+
+Yûsuf'un hapishanedekilere söylediği sözde, Allah'tan başka tapılanlar insanların ve atalarının koyduğu, Allah'ın haklarında hiçbir yetki indirmediği adlardır {source:12:40}. Ad koymak tek başına bir şeyi gerçek ilahın mülkü yahut ibadetin hak sahibi yapmaz; hüküm ve kulluk yalnız Allah'a aittir.
+
+## ¶28 · prose · 7:180 · applied
+
+Güzel adların Allah'a ait olduğu bildirildikten sonra O'na bu adlarla yakarmak ve adlarında eğriliğe sapanları bırakmak emredilir {source:7:180}. Rabbin adını arı tutmak, O'na yakarırken adın taşıdığı hakikati bozmamayı da içerir.
+
+## ¶28 · prose · 22:37 · applied
+
+Kurbanlık hayvanların üzerinde Allah'ın adı anıldıktan sonra {source:22:36}, Hac suresi etlerinin ve kanlarının Allah'a ulaşmadığını, O'na ulaşanın insanların takvası olduğunu söyler {source:22:37}. Dile gelen bağlılık, ibadeti yapanın içindeki sakınmayla gerçek olur.
+
+## ¶29 · prose · 12:18 · applied
+
+Yûsuf'un kardeşleri onun gömleğini yalancı bir kanla getirir; babaları ise anlattıklarını kabul etmez {source:12:18}. Gözle görülen iz, onu bırakan fiili her zaman doğru anlatmaz: bir işaret başkasını yanıltmak için de hazırlanabilir.
+
+## ¶30 · prose · 9:35 · applied
+
+Altın ve gümüşü biriktirip Allah yolunda harcamayanların sakladıkları madenler ateşte kızdırılır {source:9:34}; bununla alınları, yanları ve sırtları dağlanır {source:9:35}. Elde tutulmak için seçilen şey, kişinin bedenine basılan hükmün aracına dönüşür.
+
+## ¶30 · prose · 16:108 · applied
+
+Baskı altında inkâr sözü söyleyip kalbi imanla dolu kalan kişi ayrılır {source:16:106}; ardından dünya hayatını ahiretten daha çok sevenler anlatılır {source:16:107}. Allah'ın onların kalplerini, işitmelerini ve gözlerini mühürlediği söylenir {source:16:108}. Tercihin izi burada deride değil, gerçeği alacak yetilerde belirir.
+
+## ¶30 · prose · 20:72 · applied
+
+Firavun'un karşısındaki sihirbazlar, kendilerine gelen açık delillere ve kendilerini yaratana karşı onu öne geçirmeyeceklerini söyler {source:20:72}. Ardından Allah'ın daha hayırlı ve daha kalıcı olduğunu dile getirirler {source:20:73}. Aynı tercih fiili, dünya gücüne boyun eğmeyi reddeden bir bağlılığı da gösterebilir.
+
+## ¶30 · prose · 83:14 · applied
+
+Kazanılanların kalplerini örttüğü söylenen kimseler {source:83:14}, ayetler okunduğunda onları öncekilerin masalları diye karşılayanlardır {source:83:13}. Yapılanların bıraktığı iz, kişinin yeniden duyacağı söze açılmasını da etkiler.
+
+## ¶30 · prose · 58:22 · applied
+
+Allah'a ve ahiret gününe inanan, O'na karşı çıkanlarla yakınlık kurmayan kimselerin kalplerine Allah imanı yazmıştır; ayet onları Allah'ın topluluğu diye de adlandırır {source:58:22}. Bağlılığın ayırt edici izi, burada kalbe yazılan iman olarak görünür.
+
+## ¶30 · prose · 56:73 · applied
+
+Vâkıa suresinde insanların tutuşturduğu ateşin ağacını kimin yarattığı sorulur {source:56:71} {source:56:72}; bu ateşin bir hatırlatma kılındığı söylenir {source:56:73}. Hemen ardından Rabbin adını tesbih emri gelir {source:56:74}. Ateş, bu geçişte yaratıcısını hatırlatan bir işaret de olur.
+
+## ¶31 · prose · 11:83 · applied
+
+Lût kavminin şehirleri ters çevrilip üzerlerine balçıktan taşlar yağdırılır {source:11:82}; taşların Rabbin katında işaretlenmiş olduğu söylenir {source:11:83}. Yıkılmış yerde okunan ibretin yanında, hükmü taşıyan taş da ayırt edilmiş bir nesnedir.
+
+## ¶31 · prose · 15:76 · applied
+
+İşaretleri okuyanlar için ibret olduğu söylenen yıkık yerin {source:15:75} kalıcı bir yol üzerinde bulunduğu da belirtilir {source:15:76}. İz, yanından geçenlerin karşılaşabileceği bir yerde durur.
+
+## ¶31 · prose · 10:92 · applied
+
+Firavun'a, bedeninin kendisinden sonrakilere bir ayet olsun diye o gün kurtarılacağı söylenir {source:10:92}. Burada kişinin bedeni, hükümden sonra kalan ve başkalarının okuyacağı işarettir.
+
+## ¶31 · prose · 22:72 · applied
+
+Allah'ın açık ayetleri okunduğunda inkâr edenlerin yüzlerinde hoşnutsuzluk tanınır; onları okuyanlara saldırmaya yaklaşırlar {source:22:72}. Ayetlere verilen cevap, ceza gelmeden önce de yüzde okunabilen bir iz bırakır.
+
+## ¶28 · refs · - · applied
+
+Ayrıca: {source:2:31} Âdem'e öğretilen adların varlıkları ayırt etmesi; {source:2:138} Allah'ın boyasının O'na kullukla birlikte anılması; {source:5:2} Allah'ın ibadet alametleri arasında gerdanlıklı kurbanlıkların korunması; {source:5:4} av hayvanlarının yakaladıkları üzerinde Allah adının anılması; {source:5:103} Allah'ın koymadığı hayvan sınıflarının O'na mal edilmesi; {source:6:100} Allah'ın O'na yakıştırılan çocuklardan tenzih edilmesi; {source:6:118} {source:6:119} üzerinde Allah adı anılmış yiyeceğin yenmesine izin verilmesi; {source:6:121} adı anılmayanın yenmesinin yasaklanması; {source:6:136} ekin ve hayvanlar üstünde Allah ve ortaklar adına uydurulan paylar; {source:6:138} hayvanlara uydurulan yasaklar ve üzerlerinde Allah adının anılmaması; {source:6:139} hayvanların içindekilere dair uydurma paylaştırma; {source:6:162} namazın, kurbanın ve hayatın âlemlerin Rabbine ait kılınması; {source:6:164} her şeyin Rabbinin Allah olduğunun söylenmesi; {source:11:83} Rab katında işaretlenmiş hüküm taşları; {source:7:71} yetkisizce konan ilah adlarına itiraz; {source:17:110} Allah ve Rahmân diye çağrılanın güzel adlarının aynı sahibine ait oluşu; {source:19:65} göklerin ve yerin Rabbine bir adaş bulunup bulunamayacağı sorusu; {source:20:8} tek ilahın güzel adlara sahip oluşu; {source:22:32} Allah'ın ibadet alametlerini yüceltmenin kalp takvasından gelmesi; {source:22:40} Allah adının çok anıldığı ibadet yerleri; {source:24:36} yükseltilen evlerde Allah adının anılması ve tesbih; {source:35:13} {source:39:6} Rabbin mülkün sahibi oluşu; {source:37:180} Rabbin insanların nitelemelerinden tenzih edilmesi; {source:53:23} insanların yetkisizce koyduğu ilah adları; {source:55:78} Rabbin adının bereketli diye anılması; {source:56:74} {source:56:96} {source:69:52} Rabbin adıyla tesbih emri; {source:59:23} {source:59:24} Allah'ın ortak koşmadan tenzih edilmesi, güzel adlarının ve yaratılışın tesbihinin birlikte anılması; {source:68:16} ayetleri masal sayanın burnundaki damga; {source:73:8} Rabbin adını anıp O'na yönelme; {source:76:25} Rabbin adını sabah akşam anma; {source:96:1} yaratan Rabbin adıyla okuma; {source:87:2} {source:87:3} adı tesbih edilen Rabbin yaratıp düzenlemesi, ölçüp yol göstermesi.
+
+## ¶29 · refs · - · applied
+
+Ayrıca: {source:2:248} sandıktaki aile kalıntısının hükümdarlık alameti oluşu; {source:2:273} istemeyen yoksulların alametlerinden tanınması; {source:3:14} dünya süsleri arasında nişanlı atların anılması; {source:3:106} {source:3:107} akıbetlerin ak ve kara yüzlerden ayrılması; {source:3:125} yardıma gelen meleklerin işaretle ilişkilendirilmesi; {source:5:46} önceki elçilerin izinden gelen Îsâ; {source:7:46} {source:7:47} {source:7:48} A‘râf'takilerin iki tarafı alametlerinden tanıyıp seslenmesi; {source:10:26} {source:10:27} iyilik ve kötülük karşılığının yüzlerde görünmesi; {source:10:92} Firavun bedeninin sonraya ayet bırakılması; {source:11:86} Allah'ın bıraktığının daha hayırlı oluşu; {source:12:26} {source:12:27} {source:12:28} gömlekteki yırtığın yönünden doğru ve yalanın ayrılması; {source:15:75} yıkıntıdan işaret okuyanlar; {source:16:16} yol gösteren alametler ve yıldız; {source:16:58} kız haberi karşısında yüzün kararması; {source:16:96} insandakinin tükenip Allah katındakinin kalması; {source:18:6} ayrılıp gidenlerin izi üzerinde kalma; {source:18:64} iki yolcunun kendi izlerini izleyerek geri dönmesi; {source:20:84} Mûsâ'nın halkını kendi izi üzerinde diye anlatması; {source:20:96} elçinin izinden bir avuç alınması; {source:22:72} ayetlere karşı çıkışın yüzlerden tanınması; {source:30:50} dirilen yerde Allah'ın rahmetinin eserlerini görme çağrısı; {source:37:69} {source:37:70} atalarının izine sürüklenenlerin yolu; {source:43:17} kız haberi karşısında yüzün kararması; {source:43:22} {source:43:23} ataların izini rehber edinenlerin tekrarlanan sözü; {source:46:4} ilah iddiasına karşı bilgiden kalma bir izin istenmesi; {source:47:30} Allah dilerse alametlerden, ayrıca sözün tonundan tanınma; {source:48:29} secdenin yüzlerde bıraktığı eser; {source:55:26} {source:55:27} yeryüzündekilerin geçip Rabbin vechinin kalması; {source:57:27} sonraki elçilerin öncekilerin izinden gelmesi; {source:69:8} helak edilenlerden bir kalıntı görülüp görülmediği sorusu; {source:75:22} {source:75:23} {source:75:24} {source:75:25} yüzlerde iki ayrı beklentinin görünmesi; {source:80:38} aydınlık yüzler; {source:80:40} {source:80:42} tozlu yüzlerin inkârcılarla ilişkilendirilmesi; {source:83:24} nimet sevincinin yüzlerden tanınması.
+
+## ¶30 · refs · - · applied
+
+Ayrıca: {source:2:7} inkârcıların kalp ve işitmelerinin mühürlenmesi; {source:2:86} dünya hayatını ahirete değişmenin azap sonucu; {source:2:93} buzağının inkârla kalplere sindirilmesi; {source:3:14} {source:3:15} dünya süsleri ile Rab katındaki daha hayırlı karşılığın ayrılması; {source:3:152} dünya ve ahireti isteyenlerin aynı sınavda ayrılması; {source:4:56} ayetleri inkâr edenlerin derilerinde ateş azabının sürmesi; {source:4:74} dünya hayatını ahiret karşılığında vermek; {source:6:32} dünyanın oyunu karşısında takva sahipleri için daha hayırlı ahiret yurdu; {source:9:24} aile, mal ve evleri Allah'tan daha sevgili tutmanın uyarılması; {source:9:38} ahirete göre az olan dünya hayatına razı oluşun sorgulanması; {source:10:7} {source:10:8} dünyadan hoşnut olup ayetlerden gafil olanların ateş yurdu; {source:10:24} dünya hayatının biçilen ekin gibi sona ermesi; {source:11:15} {source:11:16} dünya süsünü isteyenin karşılığının orada kalıp ahirette ateşle yüzleşmesi; {source:14:3} dünyayı ahiretten çok sevenin Allah'ın yolunu eğriltmesi; {source:16:109} mühürlenenlerin ahirette kayba uğraması; {source:17:18} {source:17:19} çabuk geçeni ve ahireti isteyenlerin ayrılan sonuçları; {source:18:28} Rablerini ananlarla kalıp dünya süsüne göz çevirmeme uyarısı; {source:18:45} {source:18:46} kuruyan dünya bitkisine karşı kalıcı iyi işlerin üstünlüğü; {source:19:76} kalıcı iyi işlerin Rab katında daha hayırlı karşılığı; {source:20:74} {source:20:75} {source:20:76} suçlu ve salih müminin Rabbe varışındaki iki karşılık; {source:20:131} dünya çiçeğine karşı Rabbin daha hayırlı ve kalıcı rızkı; {source:24:37} ticaretin Allah'ı anmaktan alıkoymadığı insanlar; {source:28:60} dünya ziynetine karşı Allah katındakinin daha hayırlı ve kalıcı oluşu; {source:28:88} her şey geçerken hükmün Allah'a ait kalışı; {source:29:64} oyuna benzeyen dünya hayatına karşı gerçek ahiret hayatı; {source:36:12} yapılanların ve arkada bırakılan izlerin yazılması; {source:36:65} el ve ayakların kazanımları bildirmesi; {source:39:21} ekinin sararıp kırıntıya dönüşmesi; {source:40:39} dünya geçimliği karşısında ahiretin kalıcı yurt oluşu; {source:41:20} {source:41:21} işitme, görme ve derinin yapılanları açığa vurması; {source:42:20} dünya ve ahiret ekinini isteyenlerin ayrı payları; {source:42:36} Allah katındaki kalıcı karşılığın inananlara ait oluşu; {source:43:35} dünya süsünün geçimlik, ahiretin takva sahiplerine ait oluşu; {source:45:23} hevesi ilah edinenin kalp ve işitmesinin mühürlenmesi; {source:48:29} secdenin yüzlerde bıraktığı olumlu iz; {source:53:29} anmayı bırakıp yalnız dünya hayatını isteyen kişi; {source:56:94} cehennem ateşinin tesbih emrinden hemen önce anılması; {source:57:20} büyüyüp ufalanan ekinle dünya süsünün geçiciliği; {source:59:9} ihtiyaç içindeyken başkasını kendine tercih edenlerin kazancı; {source:63:9} mal ve çocukların Allah'ı anmaktan alıkoymasının kayıp oluşu; {source:74:26} {source:74:29} inkâr edeni bekleyen Saqar'ın deriyi kavurması; {source:75:20} {source:75:21} çabuk geçeni sevip ahireti bırakma; {source:76:27} çabuk geçeni sevip ağır günü arkada bırakma; {source:79:37} {source:79:38} {source:79:39} taşkınlık, dünya hayatını seçme ve ateş yurdu sırası; {source:79:40} {source:79:41} Rabbinden korkup arzuyu dizginleyenin bahçe yurdu; {source:87:1} Rab adını tesbih buyruğu; {source:87:14} {source:87:15} arınma, Rabbin adını anma ve namazın ilk tercih çizgisi; {source:87:17} dünya tercihinin karşısında ahiretin daha hayırlı ve kalıcı oluşu; {source:93:4} Peygamber'e sonraki hayatın öncekinden daha hayırlı oluşu; {source:104:2} {source:104:6} {source:104:7} malı sayıp biriktirenin karşılaştığı, kalplere ulaşan ateş.
+
+## ¶31 · refs · - · applied
+
+Ayrıca: {source:9:35} saklanan malın bedene basılan ateşli hükme dönüşmesi; {source:15:73} {source:15:74} sabah gelen çığlık ve ters çevrilen şehir; {source:15:77} yıkımın inananlar için de ayet oluşu; {source:22:45} yıkılmış kasabalardan kalan yapıların ibret sahnesi; {source:23:104} ateşin yüzleri kavurması; {source:27:52} zalimlerin boş evlerinin bilenler için ayet oluşu; {source:29:34} {source:29:35} yıkılan Lût yerinden açık bir ayet bırakılması; {source:32:15} ayetler hatırlatıldığında secde edip tesbih edenler; {source:33:66} ateşte çevrilen yüzlerin itaat pişmanlığı; {source:37:137} {source:37:138} yıkıntıların yanından sabah ve gece geçilmesi; {source:39:60} Allah'a yalan söyleyenlerin kararmış yüzleri; {source:40:21} {source:40:82} önceki güçlü halkların yerde kalan eserlerinden sonlarının okunması; {source:46:25} yok edilen topluluktan yalnız konutların görünmesi; {source:51:33} {source:51:34} suçlulara gönderilen işaretli balçık taşları; {source:55:41} suçluların alametlerinden tanınıp yakalanması; {source:68:10} {source:68:11} uymama emri verilen kişinin yemin ve söz taşıma huyu; {source:68:12} {source:68:13} damgalanacak kişinin başka davranışları; {source:68:14} mal ve oğullarının bu kişinin konumuna eşlik etmesi; {source:74:29} Saqar'ın insan derisini kavurması; {source:83:13} ayetlere yine öncekilerin masalları denmesi; {source:83:14} bu cevabın yanındaki kalp pası; {source:83:15} reddedenlerin Rablerinden perdelenmesi; {source:88:2} {source:88:4} ateşe giren alçalmış yüzler; {source:88:8} öteki karşılığın sevinçli yüzleri; {source:96:15} {source:96:16} yalancı, günahkâr perçemden yakalama tehdidi.
+

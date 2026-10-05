@@ -1,0 +1,315 @@
+- 2:44: ref ¶49 - kitabı okurken kendini unutma.
+- 2:63: ref ¶46 - verilen kitabı tutmak ve içindekini anmak.
+- 2:97: prose ¶48, ref ¶46 - kalbe indirilen vahiy öncekini doğrular.
+- 2:101: ref ¶48 - verilen kitabı doğrulayan elçiye karşın kitabı arkaya atma.
+- 2:106: prose ¶46, ref ¶48, ¶49 - ayetin unutturulması Allah’ın tasarrufunda.
+- 2:121: ref ¶48 - verilen kitabın hakkıyla okunması.
+- 2:129: ref ¶48 - elçinin ayetleri okuması ve kitabı öğretmesi.
+- 2:151: ref ¶48 - elçinin ayetleri okuması ve kitabı öğretmesi.
+- 2:282: ref ¶47 - unutulan ayrıntıyı şahidin ötekine hatırlatması.
+- 2:283: not relevant - maddi emanetin geri verilmesi vahyin hatırda tutulmasını açıklamaz.
+- 2:286: ref ¶46 - insanın unutma ve yanılma için bağışlanma istemesi.
+- 3:164: ref ¶48 - okunan ayetlerin kitap olarak öğretilmesi.
+- 3:187: ref ¶48 - açıklanması emredilen kitabı arkaya atma.
+- 5:13: ref ¶48, ¶49 - hatırlatılan vahiyden bir payın unutulması.
+- 5:14: ref ¶48, ¶49 - hatırlatılan vahiyden bir payın unutulması.
+- 5:44: prose ¶48 - kitabın korunması kendilerine emanet edilenlerin görevi.
+- 5:48: prose ¶48, ref ¶50 - yeni kitap öncekini doğrular ve gözetir.
+- 6:44: ref ¶49 - öğüt unutulunca gelen ansızın yakalanma.
+- 6:59: not relevant - açık kitaptaki genel ilâhî bilgi burada vahyin hatırda tutulması değildir.
+- 6:91: prose ¶50, ref ¶47 - Musa’nın kitabını kâğıtlara ayırıp bir kısmını gizleme.
+- 6:94: not relevant - geride bırakılan dünya malları unutulan vahiy değildir.
+- 6:164: ref ¶50 - ilk sayfalardaki kişisel yük kuralı ve Rabbe dönüş.
+- 7:51: ref ¶49 - buluşma gününü unutmanın karşılığı olarak terk edilme.
+- 7:145: prose ¶50, ref ¶47 - Musa’nın levhalarında yazılı öğüt ve onları tutma emri.
+- 7:154: ref ¶50 - Musa'nın levhalarındaki yol gösterme ve rahmet.
+- 7:169: ref ¶48 - kitabı devralıp dünyalık alanlar.
+- 7:171: ref ¶46 - verilen kitabı tutup içindekini anma buyruğu.
+- 7:204: ref ¶49 - okunan Kur'an'ı dinleyip susma buyruğu.
+- 9:38: ref ¶47 - dünyayı ahirete tercih etme sorusu.
+- 9:67: cited ¶49; ref ¶46 - Allah'ı unutmaya verilen terk cevabı.
+- 10:24: not relevant - kuruyan bitki dünya geçiciliğini anlatır, unutulan söz veya sayfa sahnesi değildir.
+- 12:45: ref ¶47 - uzun zaman sonra unutulmuş haberin hatırlanması.
+- 14:3: ref ¶47 - dünya hayatını ahiretten üstün tutma.
+- 14:24: not relevant - iyi sözün ağaç benzetmesi vahyin okutulup sayfada tutulmasıyla özdeşleştirilemez.
+- 14:25: not relevant - ağacın meyvesi 14:24'teki benzetmenin devamıdır, hafıza sürecini adlandırmaz.
+- 14:26: not relevant - köksüz kötü söz vahyin unutulması hakkında bir açıklama değildir.
+- 14:27: not relevant - sağlam sözle müminlerin pekiştirilmesi bu ayette okutulan vahyin korunması olarak belirtilmez.
+- 15:9: prose ¶48, ref ¶49 - indirilen zikri Allah'ın koruması.
+- 16:107: ref ¶47 - inkâr edenlerin dünyayı ahirete üstün tutması.
+- 17:13: ref ¶50 - kişisel kitabın hesapta açılması.
+- 17:14: ref ¶50 - kişinin kendi kitabını okuması.
+- 17:15: prose ¶50 - kişisel yük ve elçi gelmeden ceza verilmemesi.
+- 17:45: ref ¶49 - Kur’an okunduğunda ahirete inanmayanlarla konan örtü.
+- 17:106: ref ¶46, ¶48, ¶49 - parça parça indirilen Kur’an’ın ağır ağır halka okunması.
+- 18:24: cited ¶49; ref ¶46 - Allah'ın dilemesi ve unutunca anma.
+- 18:28: ref ¶49 - dünya süsü isteği ile zikirden gafil kalp.
+- 18:45: not relevant - rüzgârın savurduğu bitki unutulan sözle aynı nesne veya olay değildir.
+- 18:46: ref ¶47 - dünya ziynetine karşı kalıcı iyi işlerin üstünlüğü.
+- 18:49: ref ¶50 - amelleri eksiksiz sayan hesap kitabı.
+- 18:57: ref ¶49 - ayetlerle hatırlatılanın dönüp yaptığını unutması.
+- 18:61: ref ¶46 - yolculuk sırasında unutulan ve giden balık.
+- 18:63: ref ¶46 - balığın ve onu bildirme işinin unutulması.
+- 18:64: ref ¶47 - kaybolan balığın izine geri dönüş.
+- 19:64: ref ¶49 - Rabbin unutkan olmadığının bildirilmesi.
+- 20:44: ref ¶47 - sözün Firavun'da hatırlama veya korku doğurması.
+- 20:51: cited ¶49; nowhere else - ilk nesiller sorusu orada Musa'nın cevabına bağlanır.
+- 20:52: cited ¶49; ref ¶46 - ilk nesillerin bilgisi kitaptadır ve Rab unutmaz.
+- 20:114: cited ¶49; ref ¶46 - vahiy bitmeden okumayı aceleye getirmeme.
+- 20:115: cited ¶49; ref ¶46 - verilen sözü Âdem'in unutması.
+- 20:124: ref ¶49 - zikirden yüz çevirmenin dar geçim ve kör haşir sonucu.
+- 20:126: cited ¶49; ref ¶46 - unutulan ayetlere karşı unutulma cevabı.
+- 20:133: cited ¶50; ref ¶48 - ilk sayfalardaki delilin muhataba ulaşması.
+- 21:50: ref ¶47 - indirilen vahyin bereketli zikir oluşu.
+- 25:18: ref ¶49 - uzun nimetlenme sonucunda zikri unutma.
+- 25:29: ref ¶49 - kendisine gelen zikirden uzaklaştırılma.
+- 25:30: ref ¶48, ¶49 - elçinin Kur'an'ın terk edilmesinden yakınması.
+- 25:32: prose ¶49, ref ¶46 - aşamalı inişin kalbi pekiştirmesi ve tertil.
+- 26:192: ref ¶48 - sözün âlemlerin Rabbinden inişi.
+- 26:193: ref ¶48 - güvenilir ruhun onu indirişi.
+- 26:194: ref ¶48 - Peygamber'in kalbine iniş ve uyarıcılık.
+- 26:195: ref ¶48 - vahyin açık Arapça dille gelmesi.
+- 26:196: cited ¶50; ref ¶48 - Kur'an'ın öncekilerin yazılarındaki karşılığı.
+- 28:43: ref ¶48, ¶50 - Musa'nın kitabının önceki nesillerden sonra öğüt için verilmesi.
+- 28:60: ref ¶47 - dünya süsüne karşı Allah katındakinin daha iyi ve kalıcı oluşu.
+- 29:45: ref ¶47 - vahyedilen kitabı okumak ve Allah'ı anmak.
+- 33:34: ref ¶48 - evlerde okunan ayetleri hatırda tutma buyruğu.
+- 35:18: prose ¶50 - yakın kişinin bile başkasının yükünden pay taşımaması.
+- 36:11: ref ¶47 - zikre uyup Rahmân'dan korkanın uyarıyı alması.
+- 36:12: not relevant - yazılan insan amelleri ve onların izleridir; aktarılan peygamber sözü değildir.
+- 36:69: ref ¶47 - vahyin zikir ve açık Kur'an oluşu.
+- 39:7: ref ¶50 - kimsenin başkasının yükünü taşımaması ve Rabbe dönüş.
+- 39:21: not relevant - kuruyan ekin öğüt olabilir fakat unutulan vahiy ya da önceki sayfalar değildir.
+- 39:23: ref ¶47 - indirilen kitabın kalbi Allah'ın zikrine yumuşatması.
+- 40:53: ref ¶47, ¶48 - Musa'nın kitabının topluluğa miras bırakılması.
+- 40:54: ref ¶47, ¶48 - miras kalan kitabın öğüt diye nitelenmesi.
+- 41:41: ref ¶47 - gelen zikrin kitap diye adlandırılması.
+- 41:42: ref ¶48 - vahiy kitabına batılın yaklaşamaması.
+- 42:36: ref ¶47 - Allah katındakinin daha iyi ve kalıcı oluşu.
+- 44:58: ref ¶47, ¶49 - dilde kolay kılınan vahyin hatırlatma amacı.
+- 46:4: prose ¶47 - önceki kitap yanında bilgiden kalan iz istenmesi.
+- 50:4: not relevant - yerin ölülerden eksilttiği şeyin kaydı vahyin hafızada kalması değildir.
+- 50:37: ref ¶47 - öğüt için hazır kalp ve dinleyen kulak.
+- 50:45: ref ¶47 - Kur'an'la korkan kişiye hatırlatma.
+- 51:55: ref ¶47 - öğüdün mümine yararı.
+- 52:2: ref ¶47 - yazılmış kitap.
+- 52:3: ref ¶47 - yazının açılmış parşömende oluşu.
+- 53:36: cited ¶50; ref ¶48 - Musa sayfalarının adlandırılması.
+- 53:37: cited ¶50; ref ¶48 - İbrahim'in sayfalarının adlandırılması.
+- 53:38: cited ¶50; nowhere else - kişisel yük öğretisi orada açıklanır.
+- 53:39: cited ¶50; nowhere else - insanın kendi çabası orada açıklanır.
+- 53:40: prose ¶50 - çabanın görüleceği bildirilir.
+- 53:41: context ¶50 (in 53:40) - çabanın tam karşılığı prose içinde anılır.
+- 53:42: cited ¶50; nowhere else - Rabbe varış sözü orada açıklanır.
+- 54:17: ref ¶47, ¶49 - Kur'an'ın anma için kolay kılınması.
+- 54:22: ref ¶47, ¶49 - aynı hatırlama çağrısının tekrarı.
+- 54:32: ref ¶47, ¶49 - aynı hatırlama çağrısının tekrarı.
+- 54:40: ref ¶47, ¶49 - aynı hatırlama çağrısının tekrarı.
+- 55:2: ref ¶46 - Kur'an'ı öğretme Allah'a nispet edilir.
+- 56:78: ref ¶48 - değerli Kur'an'ın saklı kitapta bulunması.
+- 57:16: ref ¶47 - inen zikir karşısında yumuşayan kalple eski kitap sahiplerinin katılığı.
+- 57:20: not relevant - dünya bitkisi benzetmesi sözün tutulması veya ilk sayfalar hakkında değildir.
+- 58:6: ref ¶49 - insanların unuttuğu amelleri Allah’ın sayması.
+- 58:19: ref ¶49 - şeytanın Allah'ın zikrini unutturması.
+- 59:19: cited ¶49; ref ¶46 - Allah'ı unutunca kendini unutma.
+- 62:2: ref ¶48 - elçinin ayetleri okuyup kitabı öğretmesi.
+- 69:12: prose ¶47, ref ¶46 - öğüdü içine alan kulak.
+- 73:4: ref ¶46 - Kur'an'ı tertil ile okuma buyruğu.
+- 73:20: ref ¶49 - kolay gelen miktarda Kur'an okuma buyruğu.
+- 74:49: ref ¶47; context ¶50 (in 74:52) - öğütten yüz çevirenlerin sayfa talebiyle bağı.
+- 74:52: prose ¶50, ref ¶47 - açılmış sayfa isteyen öğüt muhatapları.
+- 74:53: context ¶50 (in 74:52) - sayfa talebinin ardından ahiretten korkmama belirtilir.
+- 74:54: ref ¶47 - vahyin öğüt diye adlandırılması.
+- 74:55: ref ¶47; context ¶49 (in 74:56) - dileyenin öğüdü anması.
+- 74:56: prose ¶49, ref ¶47 - anmanın da Allah’ın dilemesine bağlı oluşu.
+- 75:16: cited ¶49; ref ¶46 - acele etmek için dili oynatmama.
+- 75:17: cited ¶49; ref ¶46, ¶48 - toplama ve okumanın Allah’a ait oluşu.
+- 75:18: cited ¶49; ref ¶46, ¶48 - verilen okumayı Peygamber’in izlemesi.
+- 75:19: ref ¶49 - okunan sözün açıklamasının da Allah'a ait oluşu.
+- 75:20: ref ¶47, ¶49 - ilâhî toplamanın ardından yakın hayatı sevme.
+- 75:21: ref ¶47, ¶49 - yakın hayatı severken ahireti bırakma.
+- 76:27: ref ¶47 - yakın hayatı sevip ağır günü geride bırakma.
+- 79:37: ref ¶47 - dünyayı tercih edenin taşkınlığı.
+- 79:38: ref ¶47 - aynı fiille dünya hayatının tercih edilmesi.
+- 79:39: ref ¶47 - bu tercihin ateş sonucuna bağlanması.
+- 79:40: ref ¶47 - dünya tercihi karşısında Rabden korkma.
+- 79:41: ref ¶47 - korkanın cennet sonucuna bağlanması.
+- 80:11: cited ¶50; ref ¶47 - anma aracı olan öğüt.
+- 80:12: cited ¶50; ref ¶47 - dileyenin öğüdü anması.
+- 80:13: cited ¶50; ref ¶47 - öğüdün değerli sayfalardaki yeri.
+- 80:14: cited ¶50; ref ¶47 - sayfaların yüksek ve temiz niteliği.
+- 85:21: context ¶48 (in 85:22) - korunmuş levhadaki Kur'an'ın adı.
+- 85:22: prose ¶48 - Kur'an'ın korunmuş levhada oluşu.
+- 88:21: ref ¶47 - Peygamber'e hatırlatma görevi.
+- 96:1: ref ¶46 - Rabbin adıyla okuma buyruğu.
+- 96:3: ref ¶46 - okuma buyruğunun tekrarı.
+- 96:4: not relevant - kalemle öğretme yazının araçlarını anlatır fakat bu sayfaların nasıl yazıldığını söylemez.
+- 96:5: not relevant - insanın öğrenmesi genel ifadedir, okutulan vahiy ve sayfa bağı belirtilmez.
+- 98:2: prose ¶48, ref ¶47, ¶50 - elçi arınmış sayfaları okur.
+- 98:3: context ¶48 (in 98:2) - okunan sayfaların dosdoğru yazılar içerdiği anılır.
+- 2:93: ref ¶46 - tutup dinleme çağrısına itaatsiz cevap.
+- 2:152: ref ¶49 - Allah'ı anmaya karşılık anılma.
+- 4:58: not relevant - emaneti sahibine vermek bu ayette maddi ve hukuki sorumluluktur.
+- 5:15: ref ¶50 - kitapta gizlenenin elçi tarafından açıklanması.
+- 5:46: ref ¶48 - önceki Tevrat'ı doğrulayan İncil.
+- 6:7: ref ¶50 - elde tutulacak yazılı kitabın bile inkârcıya kabul ettirmemesi.
+- 6:92: ref ¶48 - indirilen kitabın öncekini doğrulaması.
+- 7:157: ref ¶48 - elçinin önceki iki kitapta yazılı bulunması.
+- 7:165: ref ¶49 - hatırlatılanı unutanların yakalanması.
+- 7:170: ref ¶48 - dünya kazancı alan kitap mirasçılarına karşı kitaba tutunanlar.
+- 7:201: ref ¶47 - sakınanların şeytan dokununca hatırlaması.
+- 10:61: not relevant - okuma ile her amelin ilâhî kaydı yan yana olsa da iki ayrı konu anlatılır.
+- 10:94: ref ¶50 - şüphe koşulunda önceki kitabı okuyanlara sorma buyruğu.
+- 12:42: ref ¶49 - Yûsuf'un anılma isteğini izleyen unutma; fail ayetin sınırında kesinleştirilmez.
+- 12:55: not relevant - tahılı koruyacak hazine görevi vahyi hatırda tutma değildir.
+- 13:39: not relevant - silme ve sabitleme kaydı burada vahyin hafızadan silinmesi diye belirtilmez.
+- 16:43: ref ¶47 - önceki vahyin ehline, zikir ehline başvurma.
+- 16:44: ref ¶47, ¶48 - önceki yazılarla indirilmiş zikrin birlikte anılması.
+- 16:96: ref ¶47 - insanın elindekinin tükenmesi karşısında Allah katındakinin kalması.
+- 17:18: ref ¶47 - yakın hayatı isteyenin sonucu.
+- 17:19: ref ¶47 - ahireti isteyenin buna uygun çabası.
+- 17:46: ref ¶49 - Kur’an’da yalnız Allah anılınca uzaklaşan dinleyici.
+- 17:93: ref ¶50 - muhatapların okunacak kitap indirilmesi isteği.
+- 18:27: ref ¶46 - vahyedilen kitabı okuma ve değişmez sözler.
+- 18:73: not relevant - yolculukta Musa'nın unuttuğu şart vahiy sözünün tutulması değildir.
+- 19:23: prose ¶46 - unutulmuş eşya sözü insanın silinme dileğine dönüşür.
+- 19:97: ref ¶46 - Peygamber'in dilinde kolay kılınan vahiy.
+- 20:96: not relevant - avuçlanan fiziksel iz, ¶47'deki nakledilen söz anlamını taşımıyor.
+- 20:99: ref ¶47 - eski haberlerin anlatılmasıyla Allah katından zikir verilmesi.
+- 20:125: ref ¶49 - kör haşri soran kişiye unutulan ayetlerin cevap oluşu.
+- 21:7: ref ¶47 - önceki vahyin ehline, zikir ehline başvurma.
+- 21:10: ref ¶47 - içinde muhatapların zikri bulunan indirilmiş kitap.
+- 21:24: ref ¶48 - şimdikilerin ve öncekilerin zikrinin beraber anılması.
+- 21:48: ref ¶47 - Musa ve Harun'a verilenin sakınanlar için zikir oluşu.
+- 21:104: not relevant - göğün dürülmesindeki rulo benzetmesi peygamber sayfalarının toplanması değildir.
+- 21:105: not relevant - Zebur'da yazılan miras hükmü, zikrin hangi kitap olduğu açık olmadan ¶47'deki sözün tutulmasını değiştirmez.
+- 23:110: ref ¶49 - müminlerle alayın Allah'ın zikrini unutturması.
+- 26:197: ref ¶48 - önceki kitaplarla bağı İsrailoğulları bilginlerinin bilmesi.
+- 27:75: not relevant - gizli şeylerin kozmik kaydı önceki vahiy sayfaları değildir.
+- 29:48: prose ¶48 - Peygamber'in önceki kitapları okumaması ve eliyle yazmaması.
+- 29:49: context ¶48 (in 29:48) - ayetlerin bilgili kişilerin göğsünde oluşu.
+- 32:14: ref ¶49 - buluşma gününü unutana unutulma karşılığı.
+- 38:1: ref ¶47 - Kur'an'ın zikir sahibi diye nitelenmesi.
+- 40:39: ref ¶47 - dünyaya karşı ahiretin kalıcı yurt oluşu.
+- 41:26: ref ¶49 - Kur'an dinlenmesin diyenlerin alımı engellemesi.
+- 43:3: ref ¶48 - Arapça Kur'an'ın anlaşılmak üzere kılınması.
+- 43:4: ref ¶48 - Kur'an'ın Allah katındaki ana kitapta oluşu.
+- 43:22: not relevant - ataların izinden gitme, nakledilen peygamber sözünün izi değildir.
+- 43:44: ref ¶47 - vahyin Peygamber ve toplumu için zikir ve sorumluluk oluşu.
+- 45:28: not relevant - toplumun amel defteri ilk vahiy sayfaları değildir.
+- 45:29: not relevant - amellerin kayda geçirilmesi burada peygamber kitaplarının aktarımı değildir.
+- 45:34: ref ¶49 - buluşma gününü unutanlara verilen terk cevabı.
+- 48:29: ref ¶48 - topluluğun temsillerinin Tevrat ve İncil'de bulunması.
+- 50:18: not relevant - insanın sözünü gözetleyen bekçi, Peygamber'e verilen vahyin korunması değildir.
+- 53:25: not relevant - Allah'ın ilk ve son hayatın sahibi oluşu ilk sayfaların anlamını açmaz.
+- 54:52: not relevant - insanların amellerinin kayıtları önceki peygamber kitapları değildir.
+- 54:53: not relevant - küçük büyük amellerin kaydı 54:52'deki hesap bağlamındadır.
+- 55:4: not relevant - insana ifade öğretimi tek başına vahyin nasıl okutulduğunu bildirmez.
+- 55:26: not relevant - yeryüzündekilerin fâniliği bu bölümdeki hafıza/sayfa bağı değildir.
+- 55:27: not relevant - Rabbin kalıcılığı önceki ayetteki genel fânilik karşısındadır.
+- 56:62: not relevant - ilk yaratılışı hatırlama çağrısı ilk vahiy sayfalarıyla aynı konu değildir.
+- 56:77: ref ¶48 - saklı kitaptaki değerli Kur'an'ın adı.
+- 56:79: not relevant - saklı kitaba kimin dokunduğu tartışmalı; arınmış sayfaların sıfatıyla özne aynı değildir.
+- 56:80: not relevant - indirenin âlemlerin Rabbi olması 56:77-78'deki yazılı yer bağına yeni bir sınır katmaz.
+- 57:27: ref ¶48 - peygamberlerin ardından İsa'ya İncil'in verilmesi.
+- 63:9: ref ¶49 - mal ve çocukların Allah'ın zikrinden alıkoyması.
+- 68:1: not relevant - kalem ve yazı üzerine yemin, sözün bu sayfalara nasıl geçtiğini söylemez.
+- 69:19: not relevant - kişinin hesap defterini okutması, Peygamber'e vahiy okutulması değildir.
+- 73:19: ref ¶47 - öğüdün Rabbe yol için alınması.
+- 76:29: ref ¶47 - öğüdün Rabbe yol için alınması.
+- 76:30: ref ¶49 - öğüde yönelen dileğin Allah'ın dilemesine bağlı oluşu.
+- 78:29: not relevant - bütün şeylerin sayılı kaydı vahiy sayfalarını anlatmaz.
+- 80:15: prose ¶50 - değerli sayfaların ellerinde olduğu taşıyıcılar.
+- 80:16: context ¶50 (in 80:15) - taşıyıcıların değerli ve iyi oluşu.
+- 81:10: not relevant - hesap gününde açılan amel sayfaları ilk vahiy sayfaları değildir.
+- 81:27: ref ¶49 - herkese gelen öğüdün adı.
+- 81:28: ref ¶49 - öğüdü duyanın doğruyu dilemesi.
+- 81:29: ref ¶49 - bu dilemenin Allah'ın dilemesine bağlı oluşu.
+- 82:10: not relevant - insanın amellerini gözeten koruyucular vahiy sözünü koruyanlar diye belirtilmez.
+- 82:11: not relevant - amel bekçilerinin yazarlığı peygamber sayfalarının yazımı değildir.
+- 82:12: not relevant - insanların yaptıklarını bilmeleri hesap kaydını sürdürür.
+- 84:21: ref ¶47 - Kur'an okunduğunda secdeden kaçınma, anma ve namazın ters cevabı.
+- 88:22: ref ¶47 - hatırlatma görevinin zorlama yetkisi vermemesi.
+- 92:13: not relevant - ilk ve son hayatın Allah'a ait oluşu önceki sayfaları açıklamaz.
+- 99:7: ref ¶50 - zerre iyiliğin görünmesi, çabanın görülmesini somutlaştırır.
+- 99:8: ref ¶50 - zerre kötülüğün görünmesi, çabanın görülmesini somutlaştırır.
+- 36:78: not relevant - kendi yaratılışını unutma, vahyin unutulması veya sayfaları değildir.
+- 2:79: ref ¶48 - insan eliyle yazılıp Allah'a isnat edilen sahte kitap.
+- 3:78: ref ¶49 - kitap sözü sanılsın diye dilin bükülmesi.
+- 6:68: prose ¶46, ref ¶49 - davranış buyruğunu unutma ihtimali, sonra hatırlama.
+- 17:86: prose ¶46, ref ¶48, ¶49 - vahyin Allah dilerse götürülebilmesi.
+- 18:109: not relevant - Allah'ın tükenmeyen sözleri bütün olarak yazılamaz; burada belirli vahiy sözünün korunması anlatılır.
+- 20:72: ref ¶47 - açık deliller karşısında Firavun'u tercih etmeme.
+- 25:5: prose ¶48, ref ¶49 - öncekilerin yazdırılmış masalları iddiası, ilâhî okutuşa karşı söylenir.
+- 25:6: context ¶48 (in 25:5) - bu iddiaya indirenin Allah olduğu cevabı.
+- 28:77: ref ¶47 - ahireti ararken dünya payını unutmama buyruğu.
+- 31:27: not relevant - tükenmez ilâhî sözün yazılamayışı, belirli vahyin sayfalarda bulunmasıyla aynı iddia değildir.
+- 47:16: ref ¶49 - dinleyip ayrılınca söyleneni hatırda tutamayanlar.
+- 59:9: ref ¶47 - kendine karşı başkasını tercih etmede aynı fiilin başka nesnesi.
+- 93:4: not relevant - Peygamber'e sonraki hâlin önceki hâlden iyi olacağı vaadi ilk vahiy sayfalarını söylemez.
+- 9:65: not relevant - alay edenlerin bahanesi unutma ve vahiy saklama konusu değildir.
+- 9:66: not relevant - alay edenlere verilen inkâr hükmü ¶49'daki unutma eylemini açmaz.
+- 9:68: prose ¶49, ref ¶46 - Allah’ın terk cevabının cehennemle açıklanması.
+- 9:69: not relevant - önceki toplulukların dünya payıyla eğlenmesi 9:67'nin unutma ifadesini doğrudan açmaz.
+- 18:22: not relevant - mağara halkının sayısındaki anlaşmazlık gelecek işe Allah'ın dilemesini ekleme buyruğu değildir.
+- 18:23: prose ¶49 - yarın yapılacak iş hakkındaki söz 18:24'ün çerçevesidir.
+- 18:25: not relevant - mağarada kalış süresi unutunca Rabbi anma buyruğunu açıklamaz.
+- 18:26: not relevant - kalış süresinin Allah tarafından bilinmesi unutulan vahyin korunmasını değil o olayın bilgisini konu eder.
+- 20:49: not relevant - Firavun'un Rab sorusu önceki nesillerin kitapta bilindiği cevabını açmaz.
+- 20:50: not relevant - yaratıp yol gösteren Rab tanımı ¶49'daki yazılı bilgi ve unutmama sözü değildir.
+- 20:53: not relevant - yeryüzü ve bitkiler önceki nesillerin kitapta saklanan bilgisi değildir.
+- 20:54: not relevant - bitkilerdeki işaretler bu bölümün okuma/unutma bağı değildir.
+- 20:112: not relevant - iyi amel işleyenin haksızlıktan korkmaması, 20:114'teki vahyi acele almama emriyle aynı olay değildir.
+- 20:113: ref ¶47, ¶49 - Arapça Kur'an'ın uyarılarla takva veya anma doğurması.
+- 20:116: not relevant - meleklerin secde sahnesi Âdem'in neyi unuttuğunu tek başına belirtmez.
+- 20:117: ref ¶49 - Âdem'e unutmasından önce şeytana dair verilen uyarı.
+- 20:127: ref ¶49 - ayetleri reddetmenin ardından daha kalıcı ahiret azabı.
+- 20:128: not relevant - eski nesillerin evleri hakkında işaret, onların bilgisinin kitapta oluşu değildir.
+- 20:131: ref ¶47 - dünya çiçeği karşısında daha iyi ve kalıcı Rab rızkı.
+- 20:132: ref ¶47 - namazı sürdürme buyruğu, 87:15'teki anma ve namaz sahnesi.
+- 20:134: not relevant - helâkten önce elçi gönderilmesi varsayımı ilk sayfalardaki delilin içeriği değildir.
+- 20:135: not relevant - sonucun beklenmesi sayfa ve hatırlama bağını açıklamaz.
+- 26:198: not relevant - başka dil konuşan birine indirme varsayımı önceki kitaplardaki bulunma iddiasını açıklamaz.
+- 53:34: ref ¶50 - az verip kesen kişinin sayfalardaki öğretiyle yüzleştirilmesi.
+- 53:35: ref ¶50 - gayb bilgisini varsayan kişiye sayfalardakinin sorulması.
+- 53:43: conflict ¶50 - 53:42'den sonra aynı dizi “O güldürür ve ağlatır” diye sürer; dizi orada bitmez.
+- 53:44: conflict ¶50 - “O öldürür ve diriltir” sözü 53:42'yi izleyerek diziyi devam ettirir.
+- 59:17: not relevant - önceki örneğin ateş sonucu Allah'ı unutma buyruğunun çerçevesi değildir.
+- 59:18: ref ¶49 - kişinin yarın için ne gönderdiğine bakması, kendini unutma uyarısının önündedir.
+- 59:20: not relevant - ateş ve cennet ehlinin eşit olmayışı unutmanın anlamını açmaz.
+- 59:21: not relevant - dağın Kur'an karşısında parçalanması, insanın unutup anması hakkında söylenmez.
+- 75:14: not relevant - kişinin kendi aleyhine tanıklığı acele dil buyruğunun muhatap ilişkisini açıklamaz.
+- 75:15: not relevant - kişinin mazeretleri ilâhî toplama/okutma eylemine bağlanmaz.
+- 80:9: ref ¶50 - öğüt gelmeden önce korkarak gelen kişi.
+- 80:10: ref ¶50 - korkarak gelenden yüz çevirme, ardından öğüdün duyurulması.
+- 87:7 own: cited ¶46; ref ¶48, ¶49 - istisnadan sonra Allah'ın açık ve gizli olanı bilmesi.
+- 87:8 own: not relevant - kolay olana hazırlanma, ayetin kendi lafzında okumanın hafızaya alınması değildir.
+- 87:9 own: ref ¶47 - fayda veren öğüdü hatırlatma emri.
+- 87:10 own: ref ¶47 - korkanın hatırlayacağı sözü.
+- 87:15 own: ref ¶47 - Allah'ın adını anıp namaz kılma.
+- 87:16 own: ref ¶47 - dünya hayatının tercih edilmesi.
+- 87:17 own: ref ¶47 - ahiretin daha iyi ve kalıcı oluşu.
+- 87:19 own: ref ¶48, ¶50 - ilk sayfaların sahiplerinin adlandırılması.
+- 72:26 own: context ¶48 (in 72:27) - elçiye açılan gaybın ilk cümlesi.
+- 72:27 own: prose ¶48 - elçi çevresindeki gözcüler.
+- 72:28 own: context ¶48 (in 72:27) - mesajların ulaştırılmasına ilâhî gözetim.
+- 29:50 own: context ¶50 (in 29:51) - yeni ayet isteğine verilen cevap.
+- 29:51 own: prose ¶50, ref ¶48 - okunan kitabın rahmet ve öğüt olarak yeterliliği.
+- 98:1 own: not relevant - açık delilin gelişi, arınmış sayfaları okuma ayrıntısını eklemez.
+- 98:4 own: not relevant - açık delilden sonraki ayrılık, sayfanın içerik veya korunma biçimini açmaz.
+- 80:17 own: not relevant - insanın nankörlüğü, önceki ayetlerdeki sayfa taşıyıcılarına ek bilgi değildir.
+- 80:18 own: not relevant - insanın yaratılış sorusu önceki sayfaların konusu değildir.
+- 96:2 own: not relevant - insanın alaktan yaratılışı okuma emrinin hafıza/sayfa yönünü açmaz.
+- 96:6 own: not relevant - insanın azması bu bölümdeki vahyin yazılı korunma mekanizması değildir.
+- 55:1 own: not relevant - Rahmân adı tek başına Kur'an öğretiminin yöntemini belirtmez.
+- 55:3 own: not relevant - insanın yaratılması Kur'an öğretiminin hafıza veya sayfa sahnesi değildir.
+- 75:22 own: not relevant - ahirette yüzlerin aydınlığı 75:17'deki toplama ve okuma değildir.
+- 75:23 own: not relevant - Rabbe bakan yüzler vahyin hafızada tutulmasını açıklamaz.
+- 35:19 own: not relevant - kör ile görenin eşit olmayışı kişisel yük kuralını genişletmez.
+- 35:20 own: not relevant - karanlık ve ışık karşılaştırması ilk sayfalardaki kişisel yük ilkesine bağlanmaz.
+- 53:33 own: ref ¶50 - eski sayfalardan haber verilenin yüz çevirmesi.
+- 53:45 own: conflict ¶50 - 53:42 sonrası aynı “ve O” dizisi yaratma sözüyle devam eder.
+- 26:191 own: not relevant - Rabbin izzet ve rahmeti, önceki yazılar hakkındaki 26:196 cümlesinin konusu değildir.
+- 75:13 own: ref ¶50 - kişinin yaptıklarının kendisine bildirilmesi.
+- 54:16 own: not relevant - azap ve uyarı sorusu Kur'an'ı zikir için kolaylaştırma tekrarının kendisi değildir.
+- 54:18 own: not relevant - Âd'ın yalanlaması kolaylaştırılmış Kur'an'la hatırlama çağrısını açıklamaz.

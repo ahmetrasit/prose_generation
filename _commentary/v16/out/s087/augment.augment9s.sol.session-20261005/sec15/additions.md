@@ -1,0 +1,100 @@
+## ¶58 · prose · 36:40 · applied
+
+Yâsîn suresinde güneşin aya erişemeyeceği, gecenin de gündüzün önüne geçemeyeceği söylenirken {ar:وَكُلٌّۭ فِى فَلَكٍۢ يَسْبَحُونَ, tr:ve kullun fî felekin yesbehûn, gloss:her biri bir yörüngede yüzer, source:36:40} denir. Yüzme fiiliyle öne geçmenin olumsuzlanması aynı hareket düzeninde buluşur; burada sıra, yarışçının isteğiyle değil yaratılmış yörüngeyle belirlenir.
+
+## ¶58 · prose · 20:84 · applied
+
+Tâhâ suresinde Musa'ya kavminden niçin aceleyle ayrıldığı sorulur {source:20:83}; cevabı {ar:هُمْ أُو۟لَآءِ عَلَىٰٓ أَثَرِى, tr:hum ulâi alâ eserî, gloss:onlar hemen arkamda, izimdedir, source:20:84} olur. Ardından Rabbinin hoşnutluğu için öne geçtiğini söyler: iz, önde gidenle arkasından gelenlerin gerçek mesafesini bildirir.
+
+## ¶58 · prose · 9:100 · applied
+
+Tevbe suresindeki {ar:وَٱلسَّٰبِقُونَ ٱلْأَوَّلُونَ, tr:ve's-sâbikûne'l-evvelûn, gloss:öne geçen ilkler, source:9:100} ifadesini, onların ardından güzellikle gelenler izler. İlklerle izleyenler birlikte anılır; önde bulunmanın değerini ise ayetin söylediği iman ve güzel izleme verir.
+
+## ¶58 · prose · 24:41 · applied
+
+Nûr suresinde kanatlarını açmış kuşların da bulunduğu varlıklar Allah'ı tesbih eder; {ar:كُلٌّۭ قَدْ عَلِمَ صَلَاتَهُۥ وَتَسْبِيحَهُۥ, tr:kullun kad alime salâtehû ve tesbîhah, gloss:her biri kendi duasını ve tesbihini bilir, source:24:41} denir. Böylece hareket çağrışımı taşıyan iki kök, ayetin kendi sözünde ibadet anlamlarıyla yan yana durur.
+
+## ¶58 · prose · 100:1 · applied
+
+Âdiyât suresinin {ar:وَٱلْعَٰدِيَٰتِ ضَبْحًۭا, tr:ve'l-âdiyâti dabhan, gloss:soluk soluğa koşanlara andolsun, source:100:1} yemini, ardından kıvılcım çıkarma, sabah baskını, toz kaldırma ve topluluğun ortasına varma hareketleriyle sürer {source:100:2} {source:100:3} {source:100:4} {source:100:5}. Koşunun bedeni ve toplu ilerleyişi açıktır; koşanların kendi aralarındaki birinci-ikinci sırası söylenmez.
+
+## ¶58 · prose · 92:10 · applied
+
+Leyl suresinde veren, sakınan ve en güzeli doğrulayan kimse için {ar:فَسَنُيَسِّرُهُۥ لِلْيُسْرَىٰ, tr:fe senüyessiruhû li'l-yusrâ, gloss:onu kolay olana kolaylaştıracağız, source:92:7} denir {source:92:5} {source:92:6}. Cimrilik edip kendini yeterli gören ve en güzeli yalanlayan içinse {ar:فَسَنُيَسِّرُهُۥ لِلْعُسْرَىٰ, tr:fe senüyessiruhû li'l-usrâ, gloss:onu zora kolaylaştıracağız, source:92:10} denir {source:92:8} {source:92:9}. Kolaylaştırma fiili iki yönde de kullanılır; yönü insanın tutumu ayırır.
+
+## ¶59 · prose · 3:14 · applied
+
+Âl-i İmrân suresi, sevilen dünya süsleri arasında {ar:وَٱلْخَيْلِ ٱلْمُسَوَّمَةِ, tr:ve'l-hayli'l-musevveme, gloss:nişanlı, gösterişli atları, source:3:14} da sayar; bunlara dünya hayatının geçimliği der ve güzel dönüşün Allah katında olduğunu bildirir. Sonraki ayet, bundan daha iyisini sorup bahçeleri ve Allah'ın hoşnutluğunu gösterir {source:3:15}. At, bu karşılaştırmada koşunun simgesi kadar yakın hayatın çekici malı da olabilir.
+
+## ¶59 · prose · 2:201 · applied
+
+Bakara suresinde yalnız dünyada verilmesini isteyenin ahirette payı olmadığı söylenir {source:2:200}; hemen ardından gelen dua {ar:رَبَّنَآ ءَاتِنَا فِى ٱلدُّنْيَا حَسَنَةًۭ وَفِى ٱلْءَاخِرَةِ حَسَنَةًۭ, tr:rabbenâ âtinâ fi'd-dunyâ haseneten ve fi'l-âhireti haseneten, gloss:Rabbimiz, bize dünyada da ahirette de iyilik ver, source:2:201} diye iki hayatı birlikte anar. Yanlış tercih, dünyada iyilik istemek değil ahireti dışarıda bırakmaktır.
+
+## ¶59 · prose · 17:19 · applied
+
+İsrâ suresinde acele geleni isteyenin burada ancak Allah'ın dilediği kadarını aldığı anlatılır {source:17:18}. Buna karşılık {ar:وَمَنْ أَرَادَ ٱلْءَاخِرَةَ وَسَعَىٰ لَهَا سَعْيَهَا وَهُوَ مُؤْمِنٌۭ, tr:ve men erâde'l-âhirate ve seâ lehâ sa'yehâ ve huve mu'min, gloss:kim ahireti ister, onun için gerektiği gibi çabalar ve inanırsa, source:17:19} çabası karşılık bulur. Sonraki menzil yalnız beklenen bir sıra değil, imanla yönelinen bir amaçtır.
+
+## ¶59 · prose · 20:73 · applied
+
+Tâhâ suresinde Firavun, kendi cezasının daha kalıcı olacağını ileri sürer {source:20:71}. Secdeye kapanıp inanan büyücüler {source:20:70} onu apaçık delillere ve kendilerini yaratana tercih etmeyeceklerini, hükmünün ancak bu dünya hayatına eriştiğini söyler {source:20:72}; sonra {ar:وَٱللَّهُ خَيْرٌۭ وَأَبْقَىٰٓ, tr:vallâhu hayrun ve ebkâ, gloss:Allah daha hayırlı ve daha kalıcıdır, source:20:73} derler. Buradaki «daha kalıcı» doğrudan Allah'ı niteler; tehdidin dünya hayatıyla sınırlı olması seçimin ağırlığını gösterir.
+
+## ¶59 · prose · 18:46 · applied
+
+Kehf suresi malı ve çocukları dünya hayatının süsü diye adlandırdıktan sonra {ar:وَٱلْبَٰقِيَٰتُ ٱلصَّٰلِحَٰتُ خَيْرٌ عِندَ رَبِّكَ ثَوَابًۭا وَخَيْرٌ أَمَلًۭا, tr:ve'l-bâkiyâtu's-sâlihâtu hayrun inde rabbike sevâben ve hayrun emelâ, gloss:kalıcı iyi işler Rabbinin katında ödül ve umut bakımından daha hayırlıdır, source:18:46} der. Önde görünen süs karşısında kalıcı olanın yalnız zamanı değil, işlerin değeri de belirlenir.
+
+## ¶59 · prose · 3:185 · applied
+
+Âl-i İmrân suresi karşılığın kıyamet gününde tam verileceğini söyleyip {ar:فَمَن زُحْزِحَ عَنِ ٱلنَّارِ وَأُدْخِلَ ٱلْجَنَّةَ فَقَدْ فَازَ, tr:fe men zuhziha ani'n-nâri ve udhile'l-cennete fekad fâz, gloss:kim ateşten uzaklaştırılıp cennete sokulursa işte o kazanmıştır, source:3:185} der. «Kazanmak» böylece ilk görünen paya değil son hükme bağlanır.
+
+## ¶59 · prose · 62:9 · applied
+
+Cuma suresinde namaza çağrı geldiğinde {ar:فَٱسْعَوْا۟ إِلَىٰ ذِكْرِ ٱللَّهِ وَذَرُوا۟ ٱلْبَيْعَ, tr:fe's'av ilâ ẕikri'llâhi ve ẕeru'l-bey', gloss:Allah'ın anılmasına yönelin ve alışverişi bırakın, source:62:9} denir. Namaz bitince yeryüzüne dağılmak, Allah'ın lütfunu aramak ve O'nu çok anmak söylenir {source:62:10}. Hatırlama ve namazın önceliği, dünya geçimini bütünüyle bırakmak değil, onun zamanını yerli yerine koymaktır.
+
+## ¶59 · prose · 57:21 · applied
+
+Hadîd suresi dünya hayatını yağmurla gelişip sonra sararan ve kırıntıya dönen ekine benzetir {source:57:20}; ardından {ar:سَابِقُوٓا۟ إِلَىٰ مَغْفِرَةٍۢ مِّن رَّبِّكُمْ وَجَنَّةٍ, tr:sâbikû ilâ mağfiretin min rabbikum ve cenne, gloss:Rabbinizden bağışlanmaya ve cennete doğru yarışın, source:57:21} der. Yarışın hızı kadar hangi sona yöneldiği de belirtilir.
+
+## ¶59 · prose · 11:16 · applied
+
+Hûd suresinde dünya hayatını ve süsünü isteyenlere işlerinin karşılığı orada eksiksiz verilir {source:11:15}; sonraki ayet, onların ahirette ateşten başka payı kalmadığını söyler {source:11:16}. İlk bölümde karşılık almak, son bölümde kazançlı çıkmak anlamına gelmez.
+
+## ¶59 · prose · 40:39 · applied
+
+Mü'min suresinde inanan adam halkına «Bana uyun, sizi doğru yola götüreyim» der {source:40:38}; ardından {ar:إِنَّمَا هَٰذِهِ ٱلْحَيَوٰةُ ٱلدُّنْيَا مَتَٰعٌۭ وَإِنَّ ٱلْءَاخِرَةَ هِىَ دَارُ ٱلْقَرَارِ, tr:innemâ hâẕihi'l-hayâtu'd-dunyâ metâun ve inne'l-âhirate hiye dâru'l-karâr, gloss:bu dünya hayatı geçici yararlanmadır, ahiret ise yerleşip kalınacak yurttur, source:40:39} der. Birinin ardından gitmenin değeri, öncünün gösterdiği yurtla ölçülür.
+
+## ¶59 · prose · 100:8 · applied
+
+Âdiyât suresinin soluk soluğa koşanlar sahnesinden sonra insanın mala sevgisinin güçlü olduğu bildirilir {source:100:8}; sonra kabirdekilerin çıkarılması ve göğüslerdekinin ortaya dökülmesi sorulur {source:100:9} {source:100:10}. Koşu görüntüsünün hemen ardında yakın mal sevgisi ve sonraki hesap durur.
+
+## ¶59 · prose · 11:87 · applied
+
+Hûd suresinde Şuayb halkına ölçü ve tartıyı eksiltmemelerini söyler, kuşatıcı bir günün azabından korktuğunu bildirir {source:11:84} {source:11:85}. Halkı, onun namazını hem atalarının ibadetini bırakma hem de mallarında dilediklerini yapma konusu içine alan bir itiraz sorusuna sokar {source:11:87}. Namaz ve yakın kazanç arasındaki gerilim, burada karşı çıkanların kendi sözüyle duyulur.
+
+## ¶60 · prose · 79:39 · applied
+
+Nâziât suresinde dünya hayatını tercih edenin öncesinde taşkınlığı anılır {source:79:37} {source:79:38}; ardından ateşin ona barınak olacağı söylenir {source:79:39}. Rabbinin huzurunda durmaktan korkup nefsini arzusundan alıkoyanın barınağı ise cennettir {source:79:40} {source:79:41}. Aynı koşu sözcüklerinin açtığı sure, iki tercihin sonunu da ayrı ayrı gösterir.
+
+## ¶60 · prose · 76:27 · applied
+
+İnsan suresi {ar:إِنَّ هَٰٓؤُلَآءِ يُحِبُّونَ ٱلْعَاجِلَةَ وَيَذَرُونَ وَرَآءَهُمْ يَوْمًۭا ثَقِيلًۭا, tr:inne hâulâi yuhibbûne'l-âcilete ve yeẕerûne verâehum yevmen sekîlâ, gloss:bunlar acele geleni sever, arkalarında ağır bir günü bırakırlar, source:76:27} der. Kıyâme suresindeki «acele geleni sevip ahireti bırakma» cümlesinde söylenmeyen arka taraf, burada «arkalarında» kelimesiyle görünür.
+
+## ¶60 · prose · 56:11 · applied
+
+Vâkıa suresinde öne geçenler anıldıktan sonra {ar:أُو۟لَٰٓئِكَ ٱلْمُقَرَّبُونَ, tr:ulâike'l-mukarrabûn, gloss:onlar yaklaştırılanlardır, source:56:11} denir; yerleri nimet bahçeleridir {source:56:12}. Öncülük burada yalnız sıradaki yer değil, yaklaştırılma ve varılacak yurtla birlikte anılır.
+
+## ¶60 · prose · 79:22 · applied
+
+Nâziât suresinde Musa'nın gönderildiği Firavun {source:79:17} yalanlayıp başkaldırdıktan sonra {source:79:21} {ar:ثُمَّ أَدْبَرَ يَسْعَىٰ, tr:sümme edbera yes'â, gloss:sonra arkasını dönüp çabalamaya koyuldu, source:79:22}; ardından toplar ve seslenir {source:79:23}, «Ben sizin en yüce rabbinizim» der {source:79:24}. Çabası bu üstünlük iddiasına varır.
+
+## ¶58 · refs · - · applied
+
+Ayrıca: {source:8:42} yakın ve uzak yamaçların iki topluluğa yer bildirmesi; {source:21:33} gök cisimlerinin yörüngede yüzmesi; {source:91:2} ayın güneşi izlemesi; {source:4:102} namaz kılan iki bölüğün ardışık konumları; {source:2:143} elçiye uyanla ökçesi üzerinde dönenin yön ayrımı; {source:5:46} {source:57:27} peygamberlerin öncekilerin izinden gönderilmesi; {source:18:64} iki yolcunun kendi izlerinden geri dönmesi; {source:18:6} gidenlerin izleri üzerinde kalan kişinin üzüntüsü; {source:37:70} atalarının izinde aceleyle gidenler; {source:43:22} {source:43:23} ataların izini rehber sayan takipçiler; {source:59:9} başkasını kendine tercih edenlerin aynı tercih fiilini başka nesneye yöneltmesi; {source:7:38} {source:7:39} ateşe giren önceki ve sonraki toplulukların birbirine dönmesi; {source:15:24} öne geçenlerle geride kalanların birlikte anılması; {source:51:3} kolay akışla ilerleyenlerin yeminde anılması; {source:20:14} namazın Allah'ı anma için kılınması; {source:79:3} yemin edilen yüzücü/koşucuların hareketi; {source:79:4} yüzücülerden hemen sonra öne geçenlerin anılması; {source:56:10} ahiretin öncü topluluğunun adlandırılması; {source:20:77} {source:20:78} Musa'nın önde giden halkını ordunun arkadan izlemesi; {source:26:60} {source:26:61} {source:26:62} {source:26:63} peş peşe gelen toplulukların denizdeki geçide varışı; {source:20:85} önden acele eden Musa'nın geride kalan halkının sınanması; {source:13:2} {source:31:29} {source:35:13} {source:39:5} güneş ve ayın belirlenmiş süreye dek akması; {source:36:38} {source:36:39} güneşin durağı ve ayın menzillerinin yörüngeyi ölçmesi.
+
+## ¶59 · refs · - · applied
+
+Ayrıca: {source:2:86} dünya hayatını ahiret karşılığında alma; {source:2:110} iyiliğin önden gönderilip Allah katında bulunması; {source:2:148} {source:5:48} iyiliklerde öne geçme çağrısı; {source:2:212} dünya süsünün ardından kıyamette üstünlüğün değişmesi; {source:3:114} {source:21:90} hayırlarda acele edenlerin hali; {source:3:133} bağışlanma ve cennete doğru acele etme; {source:3:152} bir topluluğun dünya ve ahiret isteğiyle ayrılması; {source:3:145} dünya yahut ahiret karşılığını istemenin ayrı sonuçları; {source:4:77} dünya geçimliğinin az, ahiretin sakınanlar için daha iyi olması; {source:4:134} her iki hayatın karşılığının Allah katında bulunması; {source:6:32} dünya oyunu karşısında ahiret yurdunun daha iyi olması; {source:7:169} en yakının geçimliğini alma karşısında ahiret yurdunun iyiliği; {source:9:38} sefere çıkarken yere ağırlık verenlere dünya-ahiret tercihi sorusu; {source:10:7} Allah'a kavuşmayı beklemeyip dünyayla tatmin olma; {source:13:26} dünya sevincinin ahiret karşısında geçimlik kalması; {source:14:3} {source:16:107} dünya hayatını ahiretten çok sevme; {source:16:96} insan elindekinin tükenip Allah katındakinin kalması; {source:17:20} iki arayışa da dünyada bağış verilmesi; {source:17:21} ahiretteki derecelerin daha büyük olması; {source:19:76} kalıcı iyi işlerin daha iyi karşılık ve dönüş olması; {source:23:61} hayırlarda öne geçmenin aceleyle birlikte anılması; {source:28:60} {source:42:36} dünya geçimliğine karşı Allah katındakinin daha iyi ve kalıcı olması; {source:28:77} ahiret yurdunu ararken dünya payını unutmama; {source:28:83} ahiret yurdunun yeryüzünde yükselme ve bozgunculuk istemeyenlere verilmesi; {source:29:64} dünya eğlencesi karşısında ahiret yurdunun gerçek hayat olması; {source:33:28} {source:33:29} Peygamberin eşlerine dünya süsüyle Allah ve ahiret yurdu arasında sunulan seçim; {source:35:32} hayırlarda öne geçenlerin seçilmiş kullar arasında sayılması; {source:36:12} yapılanların ve geride bırakılan izlerin kaydedilmesi; {source:42:20} ahiret ve dünya ekinini isteyenlerin farklı hasadı; {source:43:35} dünya süsünün geçimlik, ahiretin sakınanlara ait olması; {source:53:29} anmayı bırakıp yalnız dünya hayatını isteme; {source:57:10} önce yapılan fedakârlığın daha yüksek dereceyle değerlendirilmesi; {source:59:18} yarın için önden gönderilene bakma buyruğu; {source:62:11} ticarete dağılanlara Allah katındakinin daha iyi olduğunun söylenmesi; {source:63:9} mal ve çocukların Allah'ı anmadan alıkoyması; {source:69:24} geçmiş günlerde önden gönderilenin sonraki sofra olması; {source:73:20} önden gönderilen iyiliğin Allah katında daha iyi bulunması; {source:74:37} uyarı karşısında öne geçme yahut geri kalma seçimi; {source:75:13} {source:82:5} kişinin önce ve sonra yaptıklarının önüne çıkarılması; {source:75:20} {source:75:21} acele geleni sevip ahireti bırakma; {source:79:38} dünya hayatını öne koyan kişinin seçimi; {source:79:46} kıyamet görülünce önceki kalışın çok kısa görünmesi; {source:83:26} nimet içeceği için yarışma çağrısı; {source:89:24} gerçek hayat için önceden bir şey göndermemiş olmanın pişmanlığı; {source:93:4} Peygambere sonrakinin öncekinden daha iyi olacağı sözü; {source:102:1} {source:102:2} çoğaltma yarışının kabirlere kadar oyalaması; {source:16:30} {source:16:41} dünyada iyilik verilirken ahiret yurdunun ve karşılığının daha iyi olması; {source:2:202} iki hayatın iyiliğini isteyenlerin kazançtan payı; {source:7:51} dünyaya aldanıp son günle buluşmayı unutma; {source:11:86} dürüst ticarette Allah'ın bıraktığının daha hayırlı olması; {source:18:28} dünya süsü yerine Rabbi ananlarla kalma; {source:18:45} dünya hayatı bitip savrulan bitkiye benzetilir; {source:20:131} dünya çiçeğine karşı Rabbin rızkının daha iyi ve kalıcı oluşu; {source:28:61} güzel vaade kavuşan ile dünya geçimliği alanın sonu; {source:28:70} ilk ve son hayatta hamdın Allah'a ait olması; {source:53:25} {source:92:13} ilk ve son hayatın Allah'a ait olması; {source:28:79} {source:28:80} Karun'un süsüne özenenlerle Allah'ın ödülünü üstün tutanların cevabı; {source:30:7} dünyanın görünenini bilip ahiretten gafil olma; {source:56:10} öne geçenlerin ahiret topluluğu olması; {source:70:43} kabirden bir hedefe koşar gibi çıkış; {source:92:4} insan çabalarının farklı yönleri; {source:20:65} {source:20:69} ilk atışı isteyen büyücülerin işinin sonra yutulması; {source:45:24} yalnız dünya hayatı olduğu iddiasının bilgisiz söz oluşu; {source:46:11} sosyal önceliğin hakikat ölçüsü sanılması; {source:20:74} {source:20:75} {source:20:76} suçlu ve imanlı gelenlerin farklı kalıcı sonları; {source:23:60} hayırlarda öne geçenin Rabbine dönmekten ürpermesi; {source:62:8} kaçılan ölümün yetişip Allah'a dönüşe götürmesi; {source:100:6} koşu yemininden sonra insanın nankörlüğü; {source:37:68} {source:37:69} ataların izinde koşunun sapmış örneğe ve ateşe varması; {source:59:19} Allah'ı unutmanın kendi benliğini unutturma sonucu; {source:56:3} kıyamette alçalma ve yükselmenin değişmesi; {source:12:25} aynı kapıya farklı amaçlarla koşan iki kişinin yarışı; {source:37:70} ataların izinden acele etmenin yanlış sona varabilmesi; {source:20:68} ilk atıştan önce Musa'ya üstün geleceğinin bildirilmesi.
+
+## ¶60 · refs · - · applied
+
+Ayrıca: {source:79:4} yüzücülerin ardından öne geçenlerin yeminde anılması; {source:79:38} Firavun kıssasının ardından dünya hayatını tercih edenin adlandırılması; {source:30:3} «yakın» kelimesinin yere ilişkin kullanımı; {source:8:41} iki topluluğun karşılaştığı günün ayırıcı gün diye adlandırılması; {source:79:24} Firavun'un «en yüce rabbinizim» sözü; {source:56:7} {source:56:8} {source:56:9} öncülerin dahil olduğu üç ahiret topluluğu; {source:75:22} {source:75:23} aceleci tercih sözünün ardından aydınlık yüzlerin Rabbe bakışı; {source:76:25} {source:76:26} acele gelen sevgisinden önce anma ve gece tesbihi; {source:76:29} aceleci tercih sonrasında Rabbe yol edinme çağrısı.
+

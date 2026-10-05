@@ -1,0 +1,280 @@
+- 2:228: prose ¶22 - kurû’ süresi ve rahimde yaratılan aynı ayette, fakat okutma fiiline gebelik anlamı taşınmaz.
+- 2:233: ref ¶22 - emzirmenin ölçülü iki yılı çocuk yetişmesini tamamlar.
+- 2:259: ref ¶23 - kemiklerin etle örtülmesi yeniden diriltmenin bedensel yönüdür.
+- 2:266: ref ¶23 - ihtiyarlık, zayıf çocuklar ve yanan bahçe aynı kırılganlık sahnesindedir.
+- 3:6: ref ¶22, ¶23 - rahimde dilediği biçimi veren Allah'tır.
+- 3:35: ref ¶22 - çocuk daha rahimdeyken anılır.
+- 3:36: ref ¶22 - rahimdeki çocuk doğar ve adı konur.
+- 3:37: ref ¶22 - Meryem'in yetişmesi bitki büyümesiyle söylenir.
+- 3:40: ref ¶22 - yaşlı baba ve kısır anne çocuk vaadiyle karşılaşır.
+- 7:11: ref ¶22 - insan yaratılışının ardından biçim verilmesi anılır.
+- 7:189: ref ¶22 - hafif başlayan gebelik ağırlaşır.
+- 10:24: ref ¶23 - dünya hayatı büyüyüp biçilmiş bitkiyle anlatılır.
+- 11:72: ref ¶22 - yaşlı kadın ve kocası doğum haberine şaşırır.
+- 12:22: ref ¶22 - insanın gücünün doruğuna varışı gösterilir.
+- 13:8: prose ¶22, ref ¶23 - rahimlerin artıp eksilmesi her şeyin Allah katındaki ölçüsüne bağlanır.
+- 14:3: not relevant - dünya hayatını seçme uyarısı doğum ve beden evrelerini açıklamaz.
+- 14:39: ref ¶22 - çocukların ihtiyarlıkta verilmesi ömür uçlarını buluşturur.
+- 15:28: ref ¶23 - insanın çamurdan yaratılacağının bildirimi biçim verme sahnesini açar.
+- 15:29: ref ¶22, ¶23 - insan düzene konduktan sonra ona ruh üflenir.
+- 15:54: ref ¶22 - çocuk müjdesi yaşlılığın engeliyle karşılaşır.
+- 16:4: ref ¶23 - damladan yaratılan insan açık bir karşı koyucu olur.
+- 16:70: ref ¶22 - yaratılanların bir bölümü yaşlılığın en düşkün evresine döner.
+- 16:78: ref ¶22 - anne karnından çıkan insana işitme ve görme verilir.
+- 16:107: not relevant - dünya hayatını ahirete tercih etme doğrudan bedenin oluşumunu işlemez.
+- 17:23: ref ¶22 - yaşlanan anne babanın bakımı ömür evresini somutlaştırır.
+- 17:24: ref ¶22 - anne babanın çocuğu küçükken yetiştirmesi r-b-b ailesiyle söylenir.
+- 17:49: ref ¶23 - çürümüş kemiklerden dirilme itirazı bedenin sonunu sorgular.
+- 17:51: ref ¶23 - ilk yaratanın yeniden döndüreceği cevabı verilir.
+- 17:99: ref ¶23 - ilk yaratıcı benzerlerini yeniden yaratmaya kadirdir.
+- 18:37: cited ¶23; ref ¶22 - toprak ve damladan insan olarak düzene konma bedensel anlamı taşır.
+- 18:42: ref ¶23 - bahçenin yıkılması beden ile otlak uyarısının somut olayına aittir.
+- 18:45: ref ¶23 - dünya hayatının sulanan ve kuruyan ota benzetilmesi.
+- 18:46: ref ¶23 - bitki örneğinin ardından çocuklar geçici hayatın süsü diye anılır.
+- 19:4: ref ¶22 - kemik zayıflığı ve saçın ağarması yaşlı bedeni anlatır.
+- 19:8: ref ¶22 - kısırlık ve ileri yaş çocuk isteğinin karşısındadır.
+- 19:9: ref ¶22 - ilk yaratılış, yaşlılıkta çocuk vaadinin mümkün oluşuna cevap olur.
+- 19:22: ref ¶22 - gebelik ve doğuma doğru uzaklaşma sahnesi.
+- 19:23: ref ¶22 - doğum sancısı bedenin yeni evreye geçişini gösterir.
+- 19:66: ref ¶23 - ölümden sonra canlı çıkarılma itirazı.
+- 19:67: ref ¶23 - hiç değilken ilk yaratılış dirilişe cevap olur.
+- 20:39: ref ¶22 - bebek Mûsâ korunup yetiştirilecek olarak anılır.
+- 20:50: prose ¶22 - yaratılışın verilmesiyle yol gösterme aynı Rab cevabında sıralanır.
+- 20:55: ref ¶23 - topraktan yaratma, toprağa dönüş ve yeniden çıkarılma.
+- 20:74: prose ¶23 - cehennemde ne ölme ne yaşama sözünün olumsuz bağlamını açar.
+- 21:104: ref ¶23 - ilk yaratılışın tekrarlanacağı söylenir.
+- 22:5: cited ¶23; ref ¶22 - rahim, çocukluk, olgunluk ve düşkün yaş bir ayette sıralanır.
+- 23:12: ref ¶23 - insanın topraktan yaratılması gebelik dizisini başlatır.
+- 23:13: ref ¶22; context ¶23 (in 23:14) - damla sağlam yere konur.
+- 23:14: prose ¶23, ref ¶22 - et parçasından kemik ve etle örtülmeye, başka yaratılışa geçilir.
+- 23:15: ref ¶23 - oluşumdan sonra insanın öleceği söylenir.
+- 23:16: ref ¶23 - ölümden sonra kıyamette diriliş bildirilir.
+- 23:18: ref ¶23 - bedensel oluşum dizisinden sonra ölçülü yağmur yere yerleştirilir.
+- 23:115: ref ¶23 - amaçsız yaratılıp dönmeme sanısı sorgulanır.
+- 24:59: ref ¶22 - çocukluktan ergenlik çağına geçiş.
+- 25:2: ref ¶22 - yaratılan her şeyin ölçülmesi, beden ölçüsünü genel ilkeye bağlar.
+- 25:54: ref ¶22 - sudan yaratılan insandan soy bağları kurulur.
+- 26:18: ref ¶22 - çocuğun yetiştirilmesi r-b-b fiiliyle anılır; konuşan Firavun'dur.
+- 28:14: prose ¶22 - Mûsâ olgun güce erişince istawâ kullanılır.
+- 29:19: ref ¶23 - yaratılışı başlatanın onu tekrar etmesi.
+- 29:20: ref ¶23 - ilk yaratılışı görme çağrısından son yaratılışa geçiş.
+- 30:50: ref ¶23 - ölü toprağın dirilişi ölülerin dirilişine delildir.
+- 30:54: ref ¶22, ¶23 - zayıflık, güç, yeniden zayıflık ve ağarmış saç sıralanır.
+- 31:14: ref ¶22 - gebelikte annenin güçlüğü ve iki yıllık sütten kesilme.
+- 31:34: ref ¶22 - rahimdekine dair bilgi Allah'a aittir.
+- 32:7: ref ¶23 - insan yaratılışının çamurdan başlangıcı.
+- 32:8: ref ¶23 - insan neslinin akışkandan gelişi.
+- 32:9: cited ¶23; ref ¶22 - düzene koyulmuş bedene ruh üflenip duyular verilir.
+- 32:10: ref ¶23 - toprağa karışmış bedenin yeni yaratılışı sorgulanır.
+- 35:11: ref ¶22 - gebelik, doğum ve ömür Allah'ın bilgisi içinde anılır.
+- 36:68: ref ¶22 - uzun yaşayanın yaratılışta tersine çevrilmesi olgunluktan düşüşü gösterir.
+- 36:77: ref ¶23 - damladan yaratılan insan açıkça tartışır.
+- 36:78: ref ¶23 - kendi yaratılışını unutan kişi çürük kemikleri sorar.
+- 36:79: ref ¶23 - ilk kez oluşturanın kemikleri dirilteceği cevabı verilir.
+- 36:81: ref ¶23 - gökleri ve yeri yaratanın insan benzerini yaratmaya gücü yeter.
+- 38:71: ref ¶23 - çamurdan insan yaratma bildirimi düzene koyma sözünü hazırlar.
+- 38:72: ref ¶22, ¶23 - düzene koymanın ardından ruh üflenmesi beden oluşumuna bağlanır.
+- 39:6: prose ¶22, ref ¶23 - annelerin karınlarında yaratılıştan sonra yaratılış bildirilir.
+- 39:21: ref ¶23 - yağmurla çıkan ekinin sararıp kırıntıya dönüşü.
+- 40:64: ref ¶22 - insanın sureti güzelleştirilir ve Rabbi onu rızıklandırır.
+- 40:67: ref ¶22, ¶23 - damladan çocukluğa, olgunluktan ihtiyarlığa ömür sırası.
+- 40:68: ref ¶22 - bu ömür dizisinin ardından hayat ve ölümün öznesi Allah'tır.
+- 41:39: ref ¶23 - yağmurla canlanan toprağı dirilten ölüleri de diriltir.
+- 41:47: ref ¶23 - meyvenin çıkışıyla gebelik ve doğum aynı ilahi bilgi içinde anılır.
+- 42:49: ref ¶23 - yaratılan erkek ve kız çocukların Allah'ın dilemesine bağlanması.
+- 42:50: ref ¶23 - erkek-kız çocuklara karşı kısırlık olasılığı da Allah'ın dilemesindedir.
+- 43:11: ref ¶23 - ölçülü suyla dirilen yer insanın çıkarılışına örnektir.
+- 46:15: ref ¶22 - taşıma ve sütten kesilmeden olgunluk ve kırk yaşa varış.
+- 46:33: ref ¶23 - yaratmaya gücü yetenin ölüleri diriltmeye de gücü yeter.
+- 50:15: ref ¶23 - ilk yaratılışla yeni yaratılış arasındaki kuşku sorgulanır.
+- 51:29: ref ¶22 - kadın yaşlılığını ve kısırlığını çocuk müjdesi karşısında söyler.
+- 52:35: ref ¶23 - insanın kendi yaratıcısı olup olmadığı sorusu yaratma fiilinin öznesini belirler.
+- 53:32: ref ¶22 - insanlar annelerinin karınlarında ceninken Allah onları bilir.
+- 53:44: ref ¶23 - ölüm ve yaşam, damladan yaratılan çiftin önünde anılır.
+- 53:45: ref ¶23 - erkek ve dişi çiftin yaratılışı bedenin ayrışmasını belirtir.
+- 53:46: ref ¶23 - çiftin dökülen damladan gelmesi belirtilir.
+- 53:47: ref ¶23 - ardından sonraki yaratılışın Allah'a ait olduğu bildirilir.
+- 54:49: ref ¶22 - her şeyin ölçüyle yaratılması beden ölçüsünü kuşatan ilkedir.
+- 56:57: ref ¶23 - «sizi biz yarattık» sorusu dökülen suya bakmaya açılır.
+- 56:58: context ¶23 (in 56:59) - insanın döktüğü su sorulur.
+- 56:59: prose ¶23 - suyu döken insanla onu yaratan Allah ayrılır.
+- 56:60: context ¶23 (in 56:59) - insanlar arasında ölümün de ölçüldüğü anılır.
+- 56:61: ref ¶23 - Allah'ın insan benzerlerini değiştirme ve bilmedikleri biçimde yaratma gücü.
+- 56:62: ref ¶23 - bilinen ilk yaratılış sonraki yaratılışı hatırlatır.
+- 57:20: ref ¶23 - geçici hayatın yağmur bitkisi gibi sararıp parçalanması.
+- 64:3: ref ¶22, ¶23 - insan biçimi güzelleştirilir ve Allah'a dönüş bildirilir.
+- 65:4: ref ¶22 - gebelik süresinin doğumla sonlanması.
+- 71:14: ref ¶22, ¶23 - insanın evreler halinde yaratılması.
+- 71:17: prose ¶23, ref ¶22 - insanın bitki gibi yerden bitirilmesi.
+- 71:18: context ¶23 (in 71:17) - toprağa dönüş ve ondan çıkarılma.
+- 75:20: ref ¶23 - ceninle diriliş delilinden önce peşin hayatı sevme tutumu.
+- 75:21: ref ¶23 - peşin hayat sevgisinin ahireti bırakmayla tamamlanması.
+- 75:36: ref ¶23 - başıboş bırakılma sorusu damla başlangıcının önünde durur.
+- 75:37: cited ¶23; ref ¶22 - damla başlangıcı beden evresidir.
+- 75:38: cited ¶23; ref ¶22 - alakanın ardından yaratma ve düzene koyma gelir.
+- 75:39: ref ¶23 - oluşan insandan erkek ve dişi çiftin çıkarılması.
+- 75:40: cited ¶23; ref ¶22 - q-d-r ailesi ölüleri diriltme kudretini anlatır.
+- 76:2: ref ¶22, ¶23 - karışık damladan işiten, gören ve sınanan insan oluşur.
+- 77:20: context ¶22 (in 77:23) - başlangıç suyu ayetin sorusudur.
+- 77:21: context ¶22 (in 77:23) - su sağlam yere konur.
+- 77:22: context ¶22 (in 77:23) - bunun bilinen süresi belirtilir.
+- 77:23: prose ¶22, ref ¶23 - ölçme fiili suyun tutulması ve süresinin ardından gelir.
+- 79:38: not relevant - dünya hayatını seçmek bedensel oluşumu anlatmaz.
+- 80:18: context ¶23 (in 80:19) - insanın neyden yaratıldığı sorulur.
+- 80:19: prose ¶23; ref ¶22 - damladan yaratılma ile ölçme aynı insana uygulanır.
+- 80:20: ref ¶22 - ölçülen insan için yolun kolaylaştırılması yaratma-yöneltme sırasını sürdürür; doğum yolu diye kesinleştirilmez.
+- 80:21: context ¶23 (in 80:19) - ölüm ve gömülme gelir.
+- 80:22: context ¶23 (in 80:19) - Allah dilediğinde insanı yeniden çıkarır.
+- 82:7: cited ¶23; ref ¶22 - yaratma, düzene koyma ve dengeleme bedenle söylenir.
+- 82:8: ref ¶22, ¶23 - Allah insanı dilediği surette kurar.
+- 86:5: ref ¶23 - insan kendi yaratıldığı şeye bakmaya çağrılır.
+- 86:6: ref ¶23 - yaratılışın fışkıran sudan olduğu belirtilir.
+- 86:7: ref ¶23 - önceki suyun bedenden çıkışı anlatılır; rahim diye okunmaz.
+- 86:8: ref ¶23 - suyla başlangıcın ardından Allah'ın döndürmeye gücü bildirilir.
+- 95:4: ref ¶22 - insan güzel bir kıvamda yaratılmıştır; salt sağlık vaadi değildir.
+- 96:1: not relevant - okuma emrinin k-r-ʾ kökü rahimde tutma anlamına geçmez.
+- 96:2: ref ¶22, ¶23 - insanın alakadan yaratılması cenin başlangıcını destekler.
+- 3:14: ref ¶23 - oğullar ile ekin tarlası dünya hayatının geçici zevkleri içinde birlikte anılır.
+- 4:1: not relevant - tek nefisten çoğalma ve akrabalık rahmi bedensel evreyi işlemez.
+- 4:6: ref ¶22 - çocukların evlilik çağına varması olgunlaşmanın eşiğini gösterir.
+- 4:28: not relevant - insanın zayıflığı evreli bedensel büyümeye bağlanmaz.
+- 6:2: ref ¶22 - topraktan yaratılan insan için belirli süre tayin edilir.
+- 10:4: ref ¶23 - ilk yaratılışın tekrarının dönüş ve karşılıkla bağı.
+- 11:61: not relevant - yeryüzünde yerleşme, bedensel oluşum ile otun geçiciliğini kurmaz.
+- 15:21: ref ¶22 - bilinen ölçüyle indirme, her şeyi kendi miktarına koyma anlamını destekler.
+- 18:36: ref ¶23 - bahçe sahibi saatin geleceğinden kuşku duyar.
+- 19:5: ref ¶22 - yaşlılık anlatımının ardından kısır eşle çocuk isteği belirtilir.
+- 22:6: ref ¶23 - cenin ve dirilen yerden sonra ölüleri diriltme ilan edilir.
+- 22:7: ref ¶23 - bu diriltmenin kıyamette mezarlardan kalkış olduğu açıklanır.
+- 23:78: ref ¶23 - oluşturulan insana işitme, görme ve yürek verilmesi.
+- 27:64: ref ¶23 - yaratmayı başlatıp yineleyen Rab sorulur.
+- 28:7: ref ¶22 - yeni doğan Mûsâ'nın emzirilmesi ve korunması.
+- 30:8: not relevant - göklerin ve yerin belirli vadesi bedensel büyümenin ölçüsü olarak verilmez.
+- 30:11: ref ¶23 - yaratmanın başlangıcı, tekrarı ve Allah'a dönüş sıralanır.
+- 30:27: ref ¶23 - ilk yaratılışla tekrar arasındaki bağ ilan edilir.
+- 48:29: not relevant - bitki büyümesi mümin topluluğunun güçlenmesine benzetilir, rahimde beden evresi değildir.
+- 65:3: ref ¶22 - Allah'ın her şey için koyduğu ölçü beden ölçüsünü de kuşatır.
+- 67:23: ref ¶23 - insanın var edilmesi ve duyularla donatılması.
+- 76:1: ref ¶23 - insanın henüz anılır bir şey olmadığı vakit damla başlangıcının önündedir.
+- 82:6: ref ¶23 - yaratılış fiilleri insana Rabbine dair soru olarak yöneltilir.
+- 85:13: not relevant - neyin başlayıp döndürüldüğü belirtilmeyen kısa söz beden sahnesi kurmaz.
+- 90:8: ref ¶22 - yaratılan beden iki gözle donatılır.
+- 90:9: ref ¶22 - dil ve dudaklar bedenin somut verilişini sürdürür.
+- 91:7: not relevant - düzene koymanın nesnesi nefstir; bedensel ömür evreleri anlatılmaz.
+- 6:98: not relevant - karar ve emanet yerleri ayette rahim diye adlandırılmaz.
+- 3:47: ref ¶23 - Meryem'e erkek teması olmadan çocuk yaratılması olağan damla sırasını sınırlar.
+- 3:59: ref ¶23 - İsa'nın Âdem'e benzetilmesi yaratılışın tek maddi sıraya indirgenemeyeceğini gösterir.
+- 19:20: ref ¶23 - Meryem çocuk için erkek temasının bulunmadığını açıklar.
+- 19:21: ref ¶23 - bu çocuğun yaratılışı belirlenmiş bir işaret olarak sunulur.
+- 21:91: ref ¶23 - iffetini koruyan kadına ruh üflenmesi ve oğluyla işaret olması.
+- 22:2: ref ¶23 - saatin dehşetinde gebeliğin ve emzirmenin olağan seyri kesilir.
+- 24:60: not relevant - yaşlı kadınlara ait giyim hükmü bedensel yaratılış veya bitki uyarısı değildir.
+- 29:64: ref ¶23 - geçici dünya hayatına karşı ahiret yurdunun hayat oluşu.
+- 42:36: ref ¶23 - dünya nimetlerinin geçiciliği Allah katındakinin kalıcılığına karşı konur.
+- 66:12: ref ¶23 - Meryem'in bedeniyle ilgili olağandışı yaratılış sınırı.
+- 79:39: not relevant - cehennem sonucu burada bedenin yaratılış evresini açıklamaz.
+- 79:40: not relevant - arzuyu dizginleyen kişi bu bölümdeki rahim-otlak bağını sürdürmez.
+- 79:41: not relevant - cennet sonucu bedenin oluşumuna dair sahneye bağlı değildir.
+- 95:5: not relevant - «aşağıların aşağısı» sonraki iman istisnasıyla sırf biyolojik yaşlılık diye belirlenemez.
+- 18:35: ref ¶23 - bahçe sahibi bahçenin hiç yok olmayacağını sanır.
+- 18:38: not relevant - arkadaşın tevhid sözü bedenin oluşumuna veya kuruyan bahçeye yeni bir bağ kurmaz.
+- 18:39: ref ¶23 - bahçenin Allah'ın dilemesine bağlı olduğu güvenen sahibine hatırlatılır.
+- 22:3: not relevant - bilgisiz tartışma cenin ile canlanan yer arasındaki bağı vermez.
+- 22:4: not relevant - şeytanın peşine düşenin azabı bedensel evreye bağlanmaz.
+- 32:11: ref ¶23 - yeni yaratılışı sorgulayanlara ölüm ve Rabbe dönüş bildirilir.
+- 75:35: not relevant - uyarı tekrarı cenin ve diriliş ilişkisinin somut bir yönünü eklemez.
+- 82:5: ref ¶23 - yaratılış sözünden önce insanın yaptığını bilmesi gelir.
+- 82:9: ref ¶23 - yaratılış sözünün ardından karşılığı yalanlama belirtilir.
+- 2:226 own: not relevant - dört aylık boşanma öncesi bekleme cenin gelişimi değildir.
+- 2:227 own: not relevant - boşanmaya karar bu beden imgesini sürdürmez.
+- 2:229 own: not relevant - boşanma hükümlerinde rahimde oluşum veya ölçülü ömür yoktur.
+- 2:230 own: not relevant - sonraki evlilik hükmü cenin sahnesini açıklamaz.
+- 3:4 own: not relevant - vahiy ve inkâr uyarısı rahimde biçimlenme bağlantısı kurmaz.
+- 3:5 own: not relevant - genel ilahi bilgi rahimde biçim verilişine özgü değildir.
+- 3:7 own: not relevant - kitabın ayetlerinin niteliği bedensel evreyi anlatmaz.
+- 3:8 own: not relevant - kalplerin hidayette tutulması isteği bedenin oluşumu değildir.
+- 3:33 own: not relevant - seçilmiş aileler adı rahimde gelişim sahnesi kurmaz.
+- 3:34 own: not relevant - soyların birbirinden oluşu bedensel evreyi belirlemez.
+- 3:38 own: ref ¶22 - Meryem'in yetişmesinden sonra Zekeriya iyi soy ister.
+- 3:39 own: ref ¶22 - bu isteğin ardından çocuğun müjdesi gelir.
+- 3:45 own: not relevant - Meryem'e çocuk müjdesinin adı beden evrelerini işlemez.
+- 3:46 own: ref ¶22 - beşikteki çocukla yetişkinlik çağının iki ucu birlikte söylenir.
+- 3:48 own: not relevant - kitap ve hikmet öğretimi bedensel biçimlenme değildir.
+- 3:49 own: not relevant - çamurdan kuş biçimi ve ölüleri diriltme İsa'nın Allah'ın izniyle verdiği işaretlerdir; insanın cenin evresi değildir.
+- 7:55 own: not relevant - dua adabı rahimde yaratılış sahnesine bağlı değildir.
+- 7:56 own: not relevant - yeryüzünde bozgunculuk yasağı beden-otlak bağını kurmaz.
+- 7:57 own: ref ¶23 - ölü yerden ürün çıkarılması ölülerin çıkarılışına benzetilir.
+- 7:58 own: not relevant - iyi ve kötü toprağın bitkisi insan bedeninin evresine ya da kurumasına bağlanmaz.
+- 7:59 own: not relevant - Nûh'un kavmine ibadet çağrısı bu iki bedensel imgeyi açıklamaz.
+- 13:6 own: not relevant - ceza isteme ve bağışlama rahim ölçüsüne değinmez.
+- 13:7 own: not relevant - her topluluğun uyarıcısı ve yol göstericisi bedensel ölçü değildir.
+- 13:9 own: not relevant - görünmeyeni bilme sözü rahimdeki artışa yeni somut bağ eklemez.
+- 13:10 own: not relevant - gizli ve açık konuşma karşılaştırması rahim sahnesine değinmez.
+- 17:22 own: not relevant - şirk yasağı anne babanın büyütmesiyle aynı sahne değildir.
+- 17:25 own: not relevant - içtekini bilme ve bağışlama anne babanın yaşlanma evresini açıklamaz.
+- 17:26 own: not relevant - yakınlara hak verme buyruğu bedensel olgunlaşma değildir.
+- 18:40 own: ref ¶23 - bahçenin dümdüz yere dönebileceği söylenir.
+- 18:41 own: ref ¶23 - bahçenin suyunun çekilmesi büyümenin kesilmesidir.
+- 18:43 own: not relevant - yıkımdan sonra yardımcı bulunmaması insanın beden evresini işlemez.
+- 18:44 own: not relevant - gerçek koruyuculuğun Allah'a ait oluşu bahçe imgesini geliştirmez.
+- 18:47 own: ref ¶23 - kuruyan dünya örneğinin ardından tüm insanların toplanması gelir.
+- 18:48 own: ref ¶23 - toplananlara ilk yaratıldıkları gibi geldikleri söylenir.
+- 20:48 own: not relevant - inkârcıya azap uyarısı bedenin düzenlenmesini açıklamaz.
+- 20:49 own: context ¶22 (in 20:50) - Mûsâ'ya Rabbin kim olduğu sorulur.
+- 20:51 own: not relevant - önceki kuşaklara dair soru bedenin biçimini anlatmaz.
+- 20:52 own: not relevant - geçmiş kuşakların bilgisinin kitapta oluşu rahim ölçüsü değildir.
+- 23:11 own: not relevant - Firdevs'i miras alma cenin ve otlak sahnesinin parçası değildir.
+- 23:17 own: not relevant - yedi yolun yaratılması insan bedeninden yeryüzü bitkisine geçiş değildir.
+- 23:19 own: ref ¶23 - ölçülü suyla hurma ve üzüm bahçeleri yetişir.
+- 23:20 own: ref ¶23 - aynı suyla biten ağacın besleyici ürünü anılır.
+- 28:12 own: ref ¶22 - Mûsâ'nın emzirilecek aileye verilmesi bebek bakımını gösterir.
+- 28:13 own: ref ¶22 - çocuk annesine geri verilir.
+- 28:15 own: not relevant - yetişkin Mûsâ'nın kavga sahnesi olgunlaşma fiilini açıklamaz.
+- 28:16 own: not relevant - bağışlanma duası bedensel olgunlaşmaya bağlı değildir.
+- 30:17 own: not relevant - günün vakitlerinde tesbih, insanın beden evreleri değildir.
+- 30:18 own: not relevant - vakitlerde hamd bedensel yaratılışı açıklamaz.
+- 30:19 own: ref ¶23 - canlı ve ölü çıkarılışı, ölü toprağın dirilişi ve insanın çıkarılışı birleşir.
+- 30:20 own: ref ¶23 - toprağın canlanması sözünden sonra insanın topraktan yaratılışı anılır.
+- 30:21 own: not relevant - eşler arası huzur ve sevgi bedensel oluşum evresi değildir.
+- 35:7 own: not relevant - iman ve inkârın karşılıkları bedenin oluşumuyla bağlanmaz.
+- 35:8 own: not relevant - kötü işin güzel görünmesi yağmur ve diriliş benzetmesinin unsuru değildir.
+- 35:9 own: ref ¶23 - yağmurla ölü toprağın canlanması yeniden dirilişe benzetilir.
+- 35:10 own: not relevant - söz ve amelin yükselişi bedensel büyümenin veya toprağın dirilişinin parçası değildir.
+- 39:4 own: not relevant - Allah'a çocuk isnadının reddi insanın rahimde yaratılmasını işlemez.
+- 39:5 own: not relevant - göklerin ve zamanlı gök cisimlerinin yaratılması gebeliğin süresi değildir.
+- 39:7 own: not relevant - şükür ve sorumluluk hükmü rahimdeki evreleri açıklamaz.
+- 39:8 own: not relevant - sıkıntıdaki insanın duası bedensel biçimlenme sahnesi değildir.
+- 40:65 own: not relevant - ilahi hayat ve ibadet çağrısı insanın yaşam evreleri değildir.
+- 40:66 own: not relevant - elçinin ibadet buyruğu ömür sırasını geliştirmez.
+- 40:69 own: not relevant - Allah'ın ayetleri üzerine çekişme doğum-yaşlılık dizisi değildir.
+- 50:9 own: ref ¶23 - yağmurla bahçelerin büyümesi diriliş benzetmesinin öncülüdür.
+- 50:10 own: ref ¶23 - yetişen hurmalar ölü yerin canlanmasının somut ürünüdür.
+- 50:11 own: ref ¶23 - bu suyla ölü yerin dirilişi insanın çıkarılışına bağlanır.
+- 50:12 own: not relevant - yalanlayan topluluklar yağmur ve beden benzetmesini geliştirmez.
+- 50:13 own: not relevant - topluluk adları insanın yaratılış evresine değinmez.
+- 71:13 own: not relevant - Allah'a saygı çağrısı bedenin evrelerini adlandırmaz.
+- 71:15 own: not relevant - kat kat göklerin yaratılması insanın bedensel evresi değildir.
+- 71:16 own: not relevant - ay ve güneşin ışığı insanın bitki gibi büyümesine bağlanmaz.
+- 71:19 own: not relevant - yerin döşek kılınması topraktan bedenin çıkışı değildir.
+- 71:20 own: not relevant - yerde yürünecek yollar açılması beden-otlak benzetmesi değildir.
+- 77:24 own: not relevant - yalanlayanlara uyarı bilinen gebelik süresinin yönünü değiştirmez.
+- 77:25 own: ref ¶23 - yeryüzü sağlam yere konan sudan sonra toplayıcı yer diye anılır.
+- 77:26 own: ref ¶23 - yeryüzünün yaşayanları ve ölüleri topladığı açıklanır.
+- 77:27 own: not relevant - dağ ve tatlı su nimeti bedensel ölçü sahnesini geliştirmez.
+- 80:17 own: not relevant - nankör insana serzeniş ölçülen damla hakkında ek bilgi vermez.
+- 80:23 own: not relevant - emri yerine getirmeme bedensel yaratılış sırasını açıklamaz.
+- 82:10 own: not relevant - koruyucu melekler insan bedeninin kurulmasını açıklamaz.
+- 82:11 own: not relevant - yazıcıların niteliği yaratma ve dengeleme fiillerine bağlanmaz.
+- 86:9 own: ref ¶23 - döndürülme, gizliliklerin sınandığı günle belirlenir.
+- 86:10 own: not relevant - o gün yardımcı bulunmaması akışkan başlangıca ek bedensel unsur katmaz.
+- 87:1 own: ref ¶22 - beden evrelerinin işitildiği ilahi fiillerin öznesi en yüce Rabdir.
+- 87:2 own: ref ¶22, ¶23 - yaratma ve düzene koyma bedensel oluşumla birlikte düşünülür.
+- 87:3 own: ref ¶22, ¶23 - ölçme ve yol gösterme yaratılış dizisini sürdürür.
+- 87:4 own: ref ¶23 - otlağın çıkarılması bedenle karşılaştırılan bitki sahnesidir.
+- 87:5 own: ref ¶23 - otlağın koyu kuru artığa dönüşmesi karşılaştırmanın sonudur.
+- 87:6 own: ref ¶22 - okutma fiili ayette vahyin okunmasıdır.
+- 87:12 own: ref ¶22 - «büyük» sıfatı ayette ateşin derecesine aittir, yaşa değil.
+- 87:13 own: context ¶23 (in 20:74) - cehennemde ne ölme ne yaşama sözüdür.
+- 87:16 own: ref ¶22 - «dünya» ayette seçilen yakın hayattır, doğum yaklaşması değildir.
+- 87:17 own: ref ¶23 - dünya hayatının karşısına daha iyi ve kalıcı ahiret konur.
+- 95:6 own: not relevant - iman ve amel istisnası 95:5'i sırf fiziksel yaşlılık diye okumayı engeller.

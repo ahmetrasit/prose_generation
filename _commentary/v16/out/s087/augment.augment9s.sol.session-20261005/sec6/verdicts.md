@@ -1,0 +1,269 @@
+- 2:177: ref ¶24 - mal verme ve zekât iyilik vasıflarıdır
+- 2:200: context ¶27 (in 2:201) - yalnız dünya isteğinin ahiret payı bırakmaması anılır
+- 2:201: prose ¶27 - hem dünya hem ahiret iyiliği istenebilir
+- 2:202: ref ¶27 - iki iyilik isteyenlerin kazancından payı vardır
+- 2:205: ref ¶26 - bozgun çıkaran ekini de yok eder
+- 2:261: prose ¶26, ref ¶24, ¶27 - verilen malın taneye benzetilerek çoğalması
+- 2:264: ref ¶26 - incitme sadakayı ince toprağın sıyrılması gibi boşa çıkarır
+- 2:265: prose ¶26, ref ¶24 - Allah için harcama iki kat ürün veren bahçedir
+- 2:267: prose ¶25, ref ¶24, ¶26 - yerden çıkarılanın iyisinden harcama emri
+- 2:271: ref ¶24, ¶26 - yoksula sadaka verilmesi kötülükleri örter
+- 2:276: ref ¶24, ¶26 - Allah sadakayı büyütür, faizi siler
+- 2:277: ref ¶24 - zekât ve iyi iş Rab katındaki ödülle birleşir
+- 3:14: ref ¶27 - çekici dünya nimetleri arasında ekin de sayılır
+- 3:15: ref ¶27 - dünya ekinine karşı kalıcı bahçeler daha iyi gösterilir
+- 3:92: ref ¶24 - iyiliğe erişmek sevilen maldan vermeye bağlanır
+- 3:117: ref ¶26 - yanlış harcama don vuran ekin gibi yok olur
+- 6:95: ref ¶25, ¶27 - Allah taneyi yarıp canlıyı çıkarır
+- 6:99: ref ¶25, ¶27 - suyla bitki, tane ve meyve çıkarılır
+- 6:136: ref ¶26 - ekinden uydurulan ortak payı gerçek hasat hakkına karşı durur
+- 6:141: cited ¶27; ref ¶24, ¶26 - ürünün hakkı hasat günü verilir
+- 7:57: ref ¶26, ¶27 - yağmur ölü yerden meyve çıkarır
+- 7:58: prose ¶26, ref ¶27 - iyi ve kötü yer farklı ürün verir
+- 9:60: ref ¶24, ¶26 - sadakanın alıcıları belirtilir
+- 9:71: ref ¶24 - zekât müminlerin işi olarak sayılır
+- 9:72: ref ¶24 - o müminlere kalıcı bahçeler vaat edilir
+- 9:103: prose ¶24, ref ¶26 - sadakayla Peygamberin verenleri arındırması
+- 9:104: ref ¶24, ¶26 - sadakayı alanın Allah olduğu bildirilir
+- 10:24: ref ¶26, ¶27 - dünya bitkisinin bolluğu aniden biçilmişe döner
+- 11:15: ref ¶27 - dünya için yapılan işin karşılığı dünyada verilir
+- 11:16: ref ¶27 - yalnız dünya isteyenin ahiret işi boşa çıkar
+- 11:85: context ¶25 (in 11:86) - adil ölçü kalan hakkında söylenen sözün koşuludur
+- 11:86: prose ¶25, ref ¶26 - adil alışverişten kalan Allah katında hayırlıdır
+- 12:47: ref ¶25 - hasadın çoğu başağında saklanır
+- 12:48: ref ¶25 - saklanan tahıl kıtlıkta tüketilir
+- 13:4: ref ¶25, ¶27 - aynı suyla sulanan komşu ekinler ayrı verim verir
+- 14:24: ref ¶26, ¶27 - iyi söz sağlam köklü ağaca benzetilir
+- 14:25: ref ¶26, ¶27 - o ağaç Rabbinin izniyle sürekli ürün verir
+- 15:19: ref ¶27 - Allah yeryüzünde ölçülü bitkiler büyütür
+- 15:21: not relevant - ilahî hazinedeki ölçü, hasılat payının ölçüsü değildir
+- 16:10: ref ¶27 - tek yağmur içecek suyu ve otlağı sağlar
+- 16:11: ref ¶27 - o su ekin ve meyveleri büyütür
+- 16:96: ref ¶24, ¶25 - insanınki tükenir, Allah katındaki kalır
+- 17:26: ref ¶24, ¶26 - hak sahiplerine hakları verilir
+- 17:35: not relevant - alışveriş ölçüsü ürünün verilmesi sahnesini açıklamaz
+- 18:32: ref ¶26 - bahçe, hurma ve ekinden kurulu mülk sahnelenir
+- 18:33: ref ¶26 - bahçe tam ürün verir
+- 18:35: ref ¶26 - bahçe sahibi ürününün yok olmayacağını sanır
+- 18:39: ref ¶26 - arkadaşı bahçedeki gücü Allah'a bağlamasını ister
+- 18:40: ref ¶26 - o bahçe ilahî darbeyle verimsizleşebilir
+- 18:41: ref ¶26 - suyun çekilmesi bahçenin verimini kaldırabilir
+- 18:42: ref ¶26 - bahçenin ürünü ve sahibinin harcaması boşa gider
+- 18:45: ref ¶26, ¶27 - yağmur bitkisi kuruyup rüzgârda savrulur
+- 18:46: ref ¶24, ¶25, ¶26 - kalıcı iyi işler dünya malından daha hayırlıdır
+- 19:76: ref ¶24, ¶25 - kalıcı iyi işler Rab katında daha hayırlıdır
+- 20:53: ref ¶25, ¶27 - Allah suyu indirip çeşitli bitki çıkarır
+- 20:54: ref ¶25, ¶27 - bu bitki insan ve hayvana yiyecek olur
+- 20:73: prose ¶27 - sihirbazlar Allah'ı daha hayırlı ve kalıcı anar
+- 20:76: cited ¶27; ref ¶24, ¶26 - arınanın karşılığı kalıcı bahçelerdir
+- 23:1: cited ¶27; ref ¶24, ¶26 - kurtuluş ilanı zekâtı yapanları da kapsar
+- 23:4: cited ¶27; ref ¶24, ¶26 - zekât kurtuluşa erenlerin işi olarak sayılır
+- 23:18: ref ¶25, ¶27 - ölçüyle indirilen su yerde tutulup bahçeyi besler
+- 23:72: not relevant - peygamberin istemediği ücretle Rabbin karşılığını karşılaştırır, hasat geliri değildir
+- 24:21: prose ¶24 - arınma Allah'ın lütfu ve rahmetine bağlıdır
+- 25:67: ref ¶26 - harcama israf ve kısmadan uzak tutulur
+- 27:60: ref ¶26 - bahçenin ağaçlarını büyüten Allah'tır
+- 28:60: ref ¶24 - Allah katındaki dünya malından iyi ve kalıcıdır
+- 28:77: ref ¶26 - verilen nimetle ahiret yurdu aranır
+- 30:38: ref ¶24, ¶26 - hak sahibine verme kurtuluşla birleşir
+- 30:39: prose ¶26, ref ¶24 - ribâ Allah katında artmaz; zekât verenler çoğalanlardır
+- 31:4: ref ¶24 - zekâtla ahiret kesinliği birlikte sayılır
+- 31:5: ref ¶24 - bu vasıfların sahipleri kurtuluşa erer
+- 32:27: ref ¶26, ¶27 - kuru yere suyla ekin çıkarılıp insan ve hayvana yedirilir
+- 35:18: ref ¶24 - arınmanın yararı arınana döner
+- 36:33: ref ¶25, ¶27 - ölü yerden yenilecek tane çıkarılır
+- 36:34: ref ¶27 - dirilen yerde bahçe ve kaynaklar oluşur
+- 36:35: ref ¶27 - o bahçenin meyvesi yenir
+- 39:21: ref ¶26, ¶27 - ekin büyüyüp sararır ve ufalanır
+- 40:39: ref ¶27 - dünyaya karşı ahiret kalıcı yurt sayılır
+- 42:20: cited ¶27; ref ¶26 - dünya ve ahiret ekimlerinin payı ayrıdır
+- 42:36: ref ¶24 - Allah katındaki dünya rızkından iyi ve kalıcıdır
+- 43:11: ref ¶27 - ölçülü suyla ölü yer diriltilir
+- 48:29: cited ¶27; ref ¶26 - filizini çıkarıp güçlenen ekin müminlere örnektir
+- 50:9: ref ¶25, ¶27 - yağmurdan hasatlık tane ve bahçe çıkarılır
+- 50:10: ref ¶27 - meyveli hurma ağacı aynı yetişme sahnesindedir
+- 51:19: ref ¶24, ¶26 - malda isteyenin ve mahrumun hakkı bulunur
+- 55:10: ref ¶27 - yeryüzü canlılara verilir
+- 55:11: ref ¶27 - orada meyve ve hurma yetişir
+- 55:12: ref ¶27 - kabuklu tane ve güzel kokulu bitki aynı ürün sahnesindedir
+- 55:26: ref ¶26 - yer üzerindeki her şey geçer
+- 55:27: ref ¶26 - Rabbin yüzü kalır
+- 56:63: cited ¶27; ref ¶26 - insanın sürme işi ürünün kaderini belirlemez
+- 56:64: prose ¶27, ref ¶25 - ekini bitirmeyi Allah üstlenir
+- 56:65: cited ¶27; ref ¶26 - sürülen ürün çer çöpe çevrilebilir
+- 56:67: ref ¶27 - mahsul kaybından sonra mahrumiyet sözü gelir
+- 57:18: ref ¶24 - sadaka sahiplerine katlanan ödül bildirilir
+- 57:20: ref ¶26, ¶27 - dünya büyüyüp sararan ekin gibi geçer
+- 59:9: ref ¶24, ¶26 - ihtiyaç içindeyken başkasını yeğleme cimrilikten korunup kurtuluşa bağlanır
+- 64:16: ref ¶24, ¶26 - harcamak ve cimrilikten korunmak kurtuluşa bağlanır
+- 64:17: ref ¶26 - Allah'a verilen güzel borç katlanır ve bağışlanır
+- 68:17: ref ¶26 - bahçe sahiplerinin sınandığı hasat sahnesi açılır
+- 68:19: context ¶26 (in 68:24) - bahçeye gece gelen olay anılır
+- 68:20: context ¶26 (in 68:24) - bahçenin sabahki hâli anılır
+- 68:22: ref ¶26 - sahipleri ürünlerini kesmek için gider
+- 68:24: prose ¶26 - yoksulu üründen uzak tutma kararı
+- 68:25: ref ¶26 - bahçe sahipleri hasada dışlayıcı bir kararlılıkla gider
+- 68:27: context ¶26 (in 68:24) - sahiplerin mahrumiyet itirafı anılır
+- 68:28: ref ¶26 - içlerinden biri Rabbin yüceltilmesini hatırlatır
+- 68:29: ref ¶26 - bahçe sahipleri zulmünü kabul eder
+- 68:31: ref ¶26 - taşkınlıklarını kabul ederler
+- 68:32: ref ¶26 - Rablerinden daha iyi bir bahçe umarlar
+- 68:33: ref ¶26 - bahçenin kaybı ahiret azabıyla karşılaştırılır
+- 70:24: ref ¶24, ¶26 - malda belirli bir hak vardır
+- 70:25: ref ¶24, ¶26 - bu hak isteyene ve mahruma aittir
+- 71:17: ref ¶24 - insanın topraktan bitki gibi büyütülmesi Allah'a bağlanır
+- 76:8: ref ¶26 - yiyecek yoksula, yetime ve tutsağa verilir
+- 78:14: ref ¶27 - bol su ekin sahnesini açar
+- 78:15: ref ¶27 - sudan tane ve bitki çıkarılır
+- 78:16: ref ¶27 - aynı sahne bahçeye kadar uzanır
+- 79:18: prose ¶24 - Firavun'a arınma daveti mal vermeden söz etmez
+- 79:19: context ¶24 (in 79:18) - davetin Rabbe yönelişi anılır
+- 79:31: ref ¶25 - yerden su ve otlak çıkarılır
+- 79:33: ref ¶27 - otlak insan ve hayvana yarar
+- 80:3: ref ¶24 - arınmanın hatırlatmaya açıklığı sezilir
+- 80:4: ref ¶24 - hatırlatmanın kişiye yararı anlatılır
+- 80:24: ref ¶27 - insan yiyeceğinin yetişmesine bakmaya çağrılır
+- 80:25: cited ¶27; ref ¶26 - suyun dökülmesi toprak açılmasının öncesidir
+- 80:26: cited ¶27; ref ¶26 - toprağı yaran Allah'tır
+- 80:27: ref ¶27 - yarılan yerde tane bitirilir
+- 80:28: ref ¶27 - aynı yerde üzüm ve ot yetişir
+- 80:29: ref ¶27 - zeytin ve hurma yetişir
+- 80:30: ref ¶27 - gür bahçeler yetişir
+- 80:31: ref ¶27 - meyve ve otlak yetişir; gür bahçe bir önceki ayettedir
+- 80:32: ref ¶27 - bütün bu yetişme insan ve hayvana yarar
+- 86:11: ref ¶27 - dönüşlü gök, yarılan yerin yemin eşidir
+- 86:12: ref ¶27 - yarılan yer dönüşlü gökle birlikte anılır
+- 91:9: cited ¶27; ref ¶24, ¶26 - nefsi arındıran kurtuluşa erer
+- 92:5: ref ¶27 - veren ile sakınan aynı kişide birleşir
+- 92:18: cited ¶27; ref ¶24, ¶26 - mal vermek arınma amacıyla yapılır
+- 92:20: prose ¶27, ref ¶24 - verenin amacı Rabbin yüzüdür
+- 2:22: ref ¶27 - yağmur meyveyi rızık olarak çıkarır
+- 2:245: ref ¶24 - verilen güzel borç katlanır
+- 2:262: ref ¶24, ¶26 - harcamayı incitmenin izlememesi ödülü korur
+- 2:263: ref ¶26 - incitici sadakaya karşı güzel söz üstün sayılır
+- 2:272: ref ¶24 - Allah'ın yüzü için verme kişiye geri döner
+- 3:37: ref ¶24 - Rab Meryem'i güzel bir bitki gibi büyütür
+- 3:180: ref ¶26 - Allah'ın verdiği nimeti tutan bunu hayır sanır
+- 4:77: ref ¶27 - dünya nimeti az, ahiret takvalı için hayırlıdır
+- 5:12: ref ¶24 - zekât ve iyi borç günahların örtülmesiyle birleşir
+- 6:32: ref ¶27 - ahiret yurdu sakınanlar için daha hayırlıdır
+- 7:156: ref ¶24 - zekât rahmet vaadinin vasıfları arasındadır
+- 7:157: ref ¶24 - elçiye uyanlara kurtuluş bildirilir
+- 9:34: ref ¶26 - harcamadan mal yığmak ağır azapla uyarılır
+- 9:35: ref ¶26 - saklanan mal azap aracı olur
+- 9:38: ref ¶27 - dünyayı ahirete yeğlemek sorgulanır
+- 9:88: ref ¶24 - mal ve canla Allah yolunda çabalayanlara kurtuluş bildirilir
+- 12:49: ref ¶25 - kıtlıktan sonra yağmur ve ürün işleme yılı gelir
+- 12:109: ref ¶27 - ahiret yurdu sakınanlara daha hayırlıdır
+- 13:17: ref ¶26 - sel köpüğü gider, yararlı şey kalır
+- 13:26: ref ¶27 - dünya ahirete karşı geçici nimettir
+- 14:32: ref ¶27 - su meyveyi rızık olarak çıkarır
+- 15:20: ref ¶27 - yerde geçimlikler var edilir
+- 15:22: ref ¶27 - yağmurun suyu insana verilir, insan onun hazinedarı değildir
+- 16:30: ref ¶27 - ahiret yurdu takvalılar için daha hayırlıdır
+- 17:18: ref ¶27 - acil dünya isteğinin sınırlı payı verilir
+- 17:19: ref ¶27 - ahireti amaçlayan çaba karşılık bulur
+- 17:27: ref ¶26 - hakkı verme buyruğunu israf yasağı izler
+- 18:34: ref ¶26 - bahçe sahibi servetiyle övünür
+- 18:36: ref ¶26 - bahçe sahibi ahiret için de yanlış güven besler
+- 18:44: ref ¶26 - yitirilen bahçeden sonra Allah'ın karşılığı daha iyi sayılır
+- 18:94: not relevant - set için önerilen ücret, hasadın çıkardığı pay değildir
+- 21:78: not relevant - koyunların bozduğu ekin üzerine hüküm, verilmesi gereken ürün hakkından ayrıdır
+- 22:5: ref ¶27 - ölü yer suyla kabarıp bitki çıkarır
+- 22:63: ref ¶27 - yağmur toprağı yeşertir
+- 23:11: ref ¶27 - kurtulan müminler Firdevs'te kalır
+- 23:19: ref ¶27 - o suyla hurma ve üzüm bahçeleri oluşur
+- 23:20: ref ¶27 - ağaç yağ ve yenilecek ürün verir
+- 25:48: ref ¶27 - su gökten indirilir
+- 25:49: ref ¶27 - su ölü yeri canlandırıp canlılara içecek olur
+- 26:7: ref ¶27 - Allah toprakta çok türlü bitki büyütür
+- 26:181: not relevant - ölçüde adalet başka ticaret bağlamındadır
+- 26:182: not relevant - tartı emri üründen ayrılan payı ölçmez
+- 26:183: not relevant - insanların malını eksiltmeme hasat hakkı değildir
+- 29:64: ref ¶27 - ahiret gerçek hayat sayılır
+- 30:50: ref ¶27 - Allah ölü yeri diriltir
+- 31:10: ref ¶27 - yağmurla çeşitli bitkiler büyütülür
+- 34:15: ref ¶26 - Rabbin rızkı olan iki bahçeyle şükür birlikte anılır
+- 34:17: ref ¶26 - bahçelerin dönüşümü nankörlüğe karşılıktır
+- 34:39: ref ¶24 - harcananın yerine Rab rızık koyar
+- 35:27: ref ¶27 - yağmur türlü renkte meyve çıkarır
+- 41:39: ref ¶27 - suskun yer suyla dirilip kabarır
+- 45:5: ref ¶27 - gökten gelen rızık yeri diriltir
+- 50:11: ref ¶27 - yağmurun büyüttüğü ürün kullara rızıktır
+- 56:66: ref ¶27 - mahvolan ekinin ardından zarar sözü gelir
+- 57:7: ref ¶24 - emanet edilen maldan harcama istenir
+- 57:11: ref ¶24 - iyi borca katlanan ödül vaat edilir
+- 63:10: ref ¶26 - ölümden önce rızıktan verme emredilir
+- 68:18: not relevant - bahçe sahiplerinin istisnasız yemini yoksulu dışlama sözünü tek başına taşımaz
+- 73:20: ref ¶24 - zekâtla önden yollanan iyi iş daha hayırlı bulunur
+- 75:20: ref ¶27 - yakın dünyayı sevme bildirimi
+- 75:21: ref ¶27 - ahireti bırakma bildirimi
+- 76:9: ref ¶26 - bu yiyeceği verenler yalnız Allah'ın yüzünü ister
+- 76:27: ref ¶27 - yakın dünyayı seven ağır günü geriye iter
+- 79:38: ref ¶27 - dünyayı seçme yanlış sonun tutumudur
+- 79:40: ref ¶24 - Rabbin makamından korkan nefsin arzusunu tutar
+- 79:41: ref ¶24 - o kişinin sığınağı bahçedir
+- 92:6: ref ¶27 - veren kişi güzel sonu doğrular
+- 92:7: ref ¶27 - o kişiye kolay yol açılır
+- 92:17: ref ¶27 - malını vererek arınanın ateşten uzak tutulması
+- 92:19: context ¶27 (in 92:20) - verişin bir insana borç karşılığı olmadığı anılır
+- 92:21: ref ¶27 - malını vererek arınana hoşnutluk vaadi
+- 2:219: not relevant - harcanacak 'afv' sorusu hasat hakkının miktarını tayin etmez
+- 2:266: ref ¶26 - meyveli bahçe sonradan yanıp kül olabilir
+- 3:130: ref ¶24 - katlanan faizden kaçınıp Allah'tan sakınma kurtuluşa bağlanır
+- 4:49: ref ¶24 - kişinin kendini arındırdığını ilan etmesi düzeltilir
+- 14:26: ref ¶26 - kötü söz köksüz ağaç gibi tutunamaz
+- 34:16: ref ¶26 - yüz çevirenlerin iyi bahçeleri kötü ürünlü bahçelere döner
+- 47:38: ref ¶26 - harcamaktan kaçınan kendi aleyhine cimrilik eder
+- 53:32: ref ¶24 - arınmışlık iddiasına karşı Allah'ın takvayı bilmesi
+- 83:1: not relevant - ölçüde hile hasadın yoksula verilen hakkını işlemez
+- 83:2: not relevant - alırken tam ölçü istemek ayrı ticaret sahnesidir
+- 83:3: not relevant - satarken ölçü eksiltmek başka kişinin mülkünü eksiltmektir
+- 91:10: cited ¶27; ref ¶26 - nefsi örtüp bastırma arındırmanın tersidir
+- 92:8: ref ¶26 - cimrilik verenin karşı tutumudur
+- 92:9: ref ¶26 - iyi sonu yalanlamak verişin ufkunu kapatır
+- 92:10: ref ¶26 - bu tutuma güçlük yolu açılır
+- 104:2: ref ¶24 - biriktirip saymak verilmesi gereken payın karşı tutumudur
+- 104:3: ref ¶24 - malın kalıcılık sağlayacağı sanılır
+- 6:139: not relevant - hayvanların içindekine ilişkin uydurma pay hasat hakkı değildir
+- 6:140: not relevant - Allah'ın rızkını uydurma yasaklarla reddetmek dağıtım hakkını açıklamaz
+- 6:142: not relevant - hayvanların yenmesi ve şeytanın yolundan sakınma başka buyruktur
+- 6:143: not relevant - hayvan çiftlerine getirilen uydurma yasak sorgulanır
+- 20:74: ref ¶27 - suçlunun cehennem sonu bahçe ödülüne karşı durur
+- 20:75: ref ¶27 - iman ve iyi işler kalıcı bahçelerin ön koşuludur
+- 20:77: not relevant - Mûsâ'nın denizde yol açması tarla yahut arınma değil
+- 20:78: not relevant - Firavun'un suda boğulması hasat görüntüsüne bağlanmaz
+- 23:0: not relevant - besmele burada ayrı bir ayet bağlantısı kurmaz
+- 23:2: ref ¶24 - kurtulan müminlerin namazdaki huşuu arınanın namazını açar
+- 23:3: not relevant - boş sözden yüz çevirmek tarla veya verilen hak bağını açmaz
+- 23:5: not relevant - iffeti korumak bu bölümün işlediği görüntüye bağlanmaz
+- 23:6: not relevant - eşlerle ilgili istisna tarla veya zekâtla ilgili değildir
+- 42:18: not relevant - kıyameti acele istemek ahiret ekimini açıklamaz
+- 42:19: ref ¶27 - ahiret ekimi sözünden önce rızkın Allah'a ait olduğu bildirilir
+- 42:21: not relevant - izinsiz din kuralı koyan ortaklar ekin seçimine bağlanmaz
+- 42:22: ref ¶27 - kötü kazanç korkusuna karşı iyi iş sahiplerine bahçeler sunulur
+- 48:27: not relevant - Mescid-i Harâm'a giriş vaadi ekin benzetmesinden ayrıdır
+- 48:28: not relevant - elçinin hak dinle gönderilişi ekinin büyüme aşamalarını açıklamaz
+- 56:61: not relevant - insanların değiştirilip yeniden yaratılması tarla emeği değildir
+- 56:62: not relevant - ilk yaratılışı hatırlatma ekinin yetişme sorusunu açıklamaz
+- 80:23: not relevant - emredilenin yerine getirilmemesi yiyeceğe bakma sahnesi değildir
+- 91:7: ref ¶27 - nefsin düzenlenmesi arınma karşıtlığından önce gelir
+- 91:8: ref ¶27 - nefse iki yönün ilhamı sonraki iki sonu açar
+- 91:11: not relevant - Semûd'un yalanlaması sonraki özel örneği başlatır
+- 91:12: not relevant - Semûd'un azgınının çıkışı tohum sahnesi değildir
+- 92:16: ref ¶27 - yalanlayıp dönen kişi arınmak için verene karşı durur
+- 20:50 own: ref ¶25 - Rab yaratılışı verip yol gösterir
+- 87:2 own: ref ¶25 - Rab yaratıp düzenler
+- 87:3 own: ref ¶24 - ölçü koyup yol gösteren Rabdir
+- 87:4 own: ref ¶26 - otlağı çıkarma kuruma karşıtlığının ilk aşamasıdır
+- 87:5 own: ref ¶27 - otlağın kararmış çer çöpe dönüşmesi ekin kaybının karşılığıdır
+- 87:14 own: ref ¶25 - arınma ve kurtuluş tarla sahnesinin çıkışıdır
+- 87:15 own: ref ¶24 - arınmanın ardından Rabbin anılması ve namaz gelir
+- 87:16 own: ref ¶26 - dünya hayatının yeğlenmesi yanlış ekim yönüdür
+- 87:17 own: ref ¶26 - daha hayırlı ve kalıcı son tarlanın değer ölçüsüdür
+- 2:268 own: ref ¶24 - verme karşısına yoksulluk korkusu çıkarılır
+- 89:17 own: ref ¶26 - yetimi gözetmeme verilen hakkın ters tutumudur
+- 89:18 own: ref ¶26 - yoksulun doyurulmasını özendirmeme paylaşmayı eksiltir
+- 107:3 own: ref ¶26 - yoksulun doyurulmasını özendirmeme paylaşmanın karşı tutumudur
+- 68:23 own: ref ¶26 - bahçe sahipleri dışlayıcı niyetle gizli gider
+- 68:26 own: not relevant - bahçeyi ilk gördüklerinde şaşırmaları ürün hakkı bağına ek değildir

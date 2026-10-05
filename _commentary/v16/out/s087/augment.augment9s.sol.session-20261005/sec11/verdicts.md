@@ -1,0 +1,319 @@
+- 2:3: ref ¶45 - namazı kılanların 2:5'te kurtuluşa ermesi.
+- 2:5: ref ¶45 - 2:3'teki namazlı topluluğun kurtuluşu.
+- 2:43: ref ¶44 - namaz emrinin rükû ile bedenlenmesi.
+- 2:44: ref ¶44 - kitabı okuyup kendini unutmanın uyarısı.
+- 2:45: not relevant - sabır ve namazla yardım isteme, bu bölümün tesbih ve zikir bağına yeni bir karşılık kurmuyor.
+- 2:125: ref ¶44 - arındırılan evde rükû ve secde.
+- 2:151: ref ¶43 - elçinin ayetleri okuyup insanları arındırması.
+- 2:152: ref ¶43 - Allah'ı anmanın ilahî karşılığı.
+- 2:200: ref ¶43 - tamamlanan ibadetten sonra Allah'ı anma.
+- 2:238: ref ¶44 - namazı korumak ve ayakta durmak.
+- 2:239: ref ¶44 - korkuda yürüyerek veya binek üstünde ibadet.
+- 3:39: ref ¶43, ¶44 - duanın ardından ayakta kılınan namaz.
+- 3:41: ref ¶45 - Zekeriyyâ'ya çok anma ve tesbih emri.
+- 3:113: ref ¶44 - ayet okuyuşuyla secdenin birleşmesi.
+- 3:164: ref ¶43 - ayet okuyuşunun arındırmaya eşlik etmesi.
+- 3:191: ref ¶44 - farklı beden duruşlarında zikir ve dua.
+- 4:101: ref ¶44 - tehlikeli yolculukta namazın kısaltılması.
+- 4:102: prose ¶44 - tehlike namazında ayakta durma ve secde sırası.
+- 4:103: prose ¶43 - namaz biter, farklı duruşlarda zikir sürer.
+- 5:91: prose ¶45 - şeytanın zikir ve namazı birlikte engellemesi.
+- 6:3: ref ¶44 - açık ve gizli olanı Allah'ın bilmesi.
+- 6:52: ref ¶43 - sabah akşam Rabbe dua edenlerin yönelişi.
+- 7:55: ref ¶43 - alçak sesle ve yalvararak dua.
+- 7:56: ref ¶43 - korku ve umutla dua.
+- 7:170: ref ¶43 - kitaba sarılma ile namazı kılma.
+- 7:204: ref ¶43 - Kur'an okuyuşuna dinleyerek karşılık verme.
+- 7:205: ref ¶44 - içten ve yüksek sesin altında anma.
+- 7:206: ref ¶44 - tesbih ile secdenin birleşmesi.
+- 8:45: ref ¶45 - Allah'ı çok anmanın kurtuluş umuduna bağlanması.
+- 9:18: ref ¶44 - mescitleri yaşatanların namazı kılması.
+- 9:103: prose ¶43 - sadakayla arınma ve başkaları için salât.
+- 9:108: ref ¶44 - mescitte duruş ve temizlenme isteği.
+- 9:112: ref ¶44 - övgü, rükû ve secdeyi birleştiren kullar.
+- 10:10: ref ¶43 - yakarışın tesbih ve hamdle söylenmesi.
+- 11:114: ref ¶45 - namaz, iyiliklerin kötülükleri gidermesi ve öğüt.
+- 14:40: ref ¶43 - namazı kılmayı istemenin dua oluşu.
+- 15:9: ref ¶43 - indirilen vahyin zikir diye adlandırılması.
+- 15:98: ref ¶44 - tesbih emri ile secde edenlerden olma.
+- 17:78: ref ¶43 - namaz emrinde sabah Kur'an okuyuşu.
+- 17:79: ref ¶44 - gece vahiy ile yapılan ek ibadet.
+- 17:106: ref ¶43 - Kur'an'ın insanlara zaman içinde okunması.
+- 17:107: prose ¶44 - okunan vahyin secde doğurması.
+- 17:108: context ¶44 (in 17:107) - secde edenlerin tesbih sözü.
+- 17:109: context ¶44 (in 17:107) - ağlayarak secde ve artan huşû.
+- 17:110: prose ¶44 - salâtın sesine açık ile kısık arasında ölçü.
+- 18:24: not relevant - unutulunca Rabbi anma, gelecek iş için Allah'ın dilemesini söyleme bağlamındadır; 87:6'daki okutulan vahyi unutmama vaadi değildir.
+- 19:3: ref ¶43 - gizli bir sesle Rabbe dua.
+- 19:11: ref ¶45 - Zekeriyyâ'nın topluluğa sabah akşam tesbihi bildirmesi.
+- 19:58: ref ¶44 - okunan ayetlere secde ve ağlayışla karşılık.
+- 20:3: ref ¶44 - korkan kişiye indirilen öğüt.
+- 20:7: ref ¶44 - açık sözün karşısında gizlinin bilinmesi.
+- 20:14: cited ¶45; ref ¶43 - namaz Allah'ı anmak için emredilir.
+- 20:33: cited ¶45; ref ¶43 - Musa'nın çok tesbih isteği.
+- 20:34: cited ¶45; ref ¶43 - tesbihe eşlik eden çok anma isteği.
+- 20:76: not relevant - arınanın ahiret ödülü, bu bölümdeki anma ve namaz uygulamasını açmıyor.
+- 20:113: ref ¶43 - Kur'an'daki uyarıların zikir uyandırması.
+- 20:124: ref ¶45 - zikre sırt çevirmenin sonucu.
+- 20:130: cited ¶45; ref ¶44 - tesbihin günün vakitlerine yayılması.
+- 21:48: ref ¶43 - Musa ile Harun'a verilen vahyin korkanlar için öğüt oluşu.
+- 21:49: ref ¶43 - öğüdün muhataplarının görünmeyen Rabden korkması.
+- 21:50: ref ¶43 - indirilen kitabın bereketli zikir diye anılması.
+- 22:26: ref ¶44 - arındırılan evde ayakta durma, rükû, secde.
+- 22:34: ref ¶43 - ibadette Allah'ın adının anılması.
+- 22:35: ref ¶43 - Allah anılınca titreyenlerin namazı kılması.
+- 22:40: ref ¶45 - Allah'ın adının anıldığı ibadet yerlerinin korunması.
+- 22:77: ref ¶44, ¶45 - rükû ve secde ile kurtuluş umudu.
+- 23:1: context ¶45 (in 23:2) - namazdaki huşûdan önce kurtuluş hükmü.
+- 23:2: prose ¶45 - kurtulanların namazdaki huşûsu.
+- 23:9: ref ¶45 - namazı koruyan kurtulmuş müminler.
+- 24:36: ref ¶43, ¶45 - evlerde adın anılması ve tesbih.
+- 24:37: conflict ¶45; ref ¶43 - ayette sıra zikir, namaz, zekâttır; 87:14-15'te arınma, zikir, namazdır, dolayısıyla 'aynı sırayla' sözü yanlıştır; yine de zikir ve namazın bir aradalığını destekler.
+- 24:41: prose ¶43 - bütün yaratılmışların salât ve tesbihi.
+- 26:218: ref ¶44 - kalkışın Allah'ça görülmesi.
+- 26:219: ref ¶44 - secde edenler arasındaki hareket.
+- 29:45: cited ¶45; ref ¶43 - kitabı okuma, namaz ve zikir birleşir.
+- 30:17: ref ¶45 - sabah akşam tesbih.
+- 30:18: ref ¶45 - hamdin diğer vakitlere uzanması.
+- 31:4: ref ¶45 - namaz ve zekâtı yerine getirme.
+- 31:5: ref ¶45 - bu kişilerin kurtuluşu.
+- 32:15: prose ¶44 - hatırlatılmanın secde ve tesbihe dönüşmesi.
+- 33:41: context ¶43 (in 33:43); ref ¶45 - çok anma emri, ilahî salâttan önce gelir.
+- 33:42: context ¶43 (in 33:43); ref ¶45 - sabah akşam tesbih, anmayla birleşir.
+- 33:43: prose ¶43 - anan ve tesbih eden müminlere Allah'ın salâtı.
+- 33:56: ref ¶43 - Allah'ın ve insanların Peygamber'e salât yöneltmesi.
+- 35:18: ref ¶43, ¶45 - korku, namaz ve arınmanın birleşmesi.
+- 35:29: ref ¶43 - kitabı okumakla namazı kılmanın yan yana gelişi.
+- 36:69: ref ¶43 - bildirilen vahyin zikir ve Kur'an oluşu.
+- 38:1: ref ¶43 - Kur'an'ın zikir taşıması.
+- 40:55: ref ¶45 - sabah akşam tesbih.
+- 43:36: ref ¶45 - zikre yüz çevirenin şeytanla birlikteliği.
+- 43:44: ref ¶43 - vahyin Peygamber ve kavmi için zikir oluşu.
+- 44:58: ref ¶43 - dilde kolaylaştırılan vahyin anma doğurması.
+- 46:29: not relevant - cinlerin Kur'an'ı dinleyip kavimlerini uyarması, burada anma ile namazın veya tesbihin birleşmesine değinmiyor.
+- 50:39: ref ¶44 - güneş doğmadan ve batmadan tesbih.
+- 50:40: ref ¶44 - gecede ve secde sonrasında tesbih.
+- 50:45: ref ¶44 - Kur'an'la korkan kişiye öğüt.
+- 51:55: ref ¶44 - öğüdün inananlara yararı.
+- 52:48: ref ¶44 - ayağa kalkarken tesbih.
+- 52:49: ref ¶44 - gece ve yıldızlar batarken tesbih.
+- 53:29: ref ¶45 - zikre sırt çevirip yalnız dünyayı isteme.
+- 54:17: ref ¶43 - Kur'an'ın anma için kolaylaştırıldığı nakarat.
+- 54:22: ref ¶43 - aynı Kur'an ve anma nakaratı.
+- 54:32: ref ¶43 - aynı Kur'an ve anma nakaratı.
+- 54:40: ref ¶43 - aynı Kur'an ve anma nakaratı.
+- 56:74: ref ¶43 - Rabbin adını tesbih emri.
+- 56:96: ref ¶43 - Rabbin adını tesbih emrinin dönüşü.
+- 58:19: ref ¶45 - şeytanın Allah'ı anmayı unutturması.
+- 62:2: ref ¶43 - elçinin ayet okuması ve insanları arındırması.
+- 62:9: cited ¶45; ref ¶43 - namaza çağrılınca Allah'ı anmaya koşma.
+- 62:10: cited ¶45; ref ¶43 - namaz bitince anmanın sürmesi.
+- 62:11: prose ¶45 - ticaretin cemaati Peygamber'den ayırması.
+- 63:9: ref ¶45 - servetin ve çocukların anmadan alıkoyması.
+- 69:52: ref ¶43 - Rabbin adını tesbih emri.
+- 73:2: ref ¶44 - gece ayakta durma emri.
+- 73:4: ref ¶44 - bu gece duruşunda ölçülü Kur'an okuyuşu.
+- 73:8: ref ¶43 - Rabbin adını anıp O'na yönelme.
+- 73:20: prose ¶44; ref ¶43 - gece kıyamı, Kur'an okuyuşu ve namaz emri.
+- 74:54: ref ¶43, ¶44 - vahyin öğüt diye adlandırılması.
+- 74:55: ref ¶43, ¶44 - öğüdü dileyenin anması.
+- 74:56: ref ¶44 - anmanın Allah'ın dilemesine bağlılığı.
+- 75:16: context ¶43 (in 75:17) - vahiy alırken dilde aceleden sakınma.
+- 75:17: prose ¶43 - toplama ve okutmayı Allah üstlenir.
+- 75:18: context ¶43 (in 75:17) - ilahî okuyuşa uyma emri.
+- 75:19: not relevant - ilahî açıklama vaadi, anma ile namazın veya bedenin bağlantısını geliştirmiyor.
+- 76:25: context ¶44 (in 76:26); ref ¶43 - Rabbin adını sabah akşam anma.
+- 76:26: prose ¶44 - gece secdesi ve uzun tesbih.
+- 79:18: not relevant - Firavun'a arınma çağrısı, bu bölümdeki zikir ve namaz bağını işlemiyor.
+- 79:19: not relevant - Firavun'a rehberlik ve Rabden korku teklifi, burada ele alınan uygulamayı sahnelemiyor.
+- 80:11: ref ¶44 - vahyin öğüt oluşu.
+- 80:12: ref ¶44 - dileyenin öğüdü anması.
+- 88:21: ref ¶44 - Peygamber'e hatırlatma görevi.
+- 91:9: ref ¶43 - arınmanın kurtuluşla söylenmesi.
+- 92:17: not relevant - ateşten uzak tutulacak kişinin takvası, bu bölümün anma ve namaz ilişkisine özgü değil.
+- 92:18: not relevant - mal vererek arınma, namaz ve tesbih bağını açmıyor.
+- 96:1: context ¶44 (in 96:19); ref ¶43 - Rabbin adıyla okuma emri.
+- 96:10: context ¶44 (in 96:19) - engellenen kul namaz kılmaktadır.
+- 96:14: not relevant - Allah'ın engelleyeni gördüğü uyarısı, sesli ve gizli ibadet yahut namazın hareketlerini açıklamıyor.
+- 96:19: prose ¶44 - okuyuşu açan surenin secde ve yakınlaşmayla kapanması.
+- 2:157: ref ¶43 - Rabbinden kullara yönelen salât ve rahmet.
+- 3:38: ref ¶43 - Zekeriyyâ'nın duasını ayakta namaz izler.
+- 3:43: ref ¶44 - Meryem'e secde ve rükû emri.
+- 3:58: ref ¶43 - okunan ayetlerin zikir oluşu.
+- 4:49: ref ¶43 - kendini arınmış saymanın karşısında Allah'ın arındırması.
+- 4:148: not relevant - kötü sözün açıktan söylenmesine ilişkin hüküm, ibadetin sesine ilişkin değildir.
+- 5:6: ref ¶44 - namaza kalkarken bedeni temizleme ve ilahî arındırma isteği.
+- 6:63: not relevant - tehlikedeki gizli dua, namaz yahut bu bölümdeki sesli ibadetle bağ kurmuyor.
+- 6:90: ref ¶43 - peygamberlik bildirisinin dünyalar için öğüt oluşu.
+- 7:29: ref ¶44 - secde yerinde yönelme ve içten dua.
+- 8:2: ref ¶43 - anılan Allah ve okunan ayetlerin kalpte karşılık bulması.
+- 9:99: ref ¶43 - elçinin insanlar için yaptığı salât.
+- 12:104: ref ¶43 - karşılıksız bildirilen vahyin dünyalara zikir oluşu.
+- 13:10: ref ¶44 - gizlenen ve açık söylenen sözün karşıtlığı.
+- 13:28: ref ¶43 - Allah'ı anmanın kalbi yatıştırması.
+- 16:44: ref ¶43 - indirilen vahyin zikir diye adlandırılması.
+- 17:44: ref ¶43 - yaratılmışların insanlarca anlaşılmayan tesbihi.
+- 18:28: ref ¶45 - sabah akşam dua edenlerle kalıp dünyaya kapılmama.
+- 19:97: ref ¶43 - vahyin Peygamber'in dilinde kolaylaştırılması.
+- 20:27: not relevant - Musa'nın dilindeki düğümün çözülmesi isteği, tesbih ve namaz işini söylemiyor.
+- 20:28: not relevant - konuşmasının anlaşılmasını istemesi, zikir veya salâtı kendi başına sahnelemiyor.
+- 20:114: ref ¶43 - Kur'an tamamlanmadan onu aceleyle okumama emri.
+- 21:20: ref ¶45 - gece gündüz yorulmadan tesbih edenler.
+- 21:87: ref ¶43 - Yunus'un duasında tesbih sözü.
+- 22:37: not relevant - kurban etinin değil takvanın Allah'a ulaşması, burada anlatılan namaz ve tesbihin içeriğini belirtmiyor.
+- 24:21: ref ¶43 - Allah'ın dilediği kişiyi arındırması.
+- 25:64: ref ¶44 - gece secde ve ayakta duruş.
+- 33:35: not relevant - çokça ananların ödülü, bu üç ibadetin belirli bağına yeni bir unsur eklemiyor.
+- 37:143: ref ¶43 - Yunus'un tesbih edenlerden oluşu.
+- 38:87: ref ¶43 - bildirinin dünyalara zikir oluşu.
+- 39:9: ref ¶44 - gece secde ve kıyamla ahiretten sakınma.
+- 39:23: ref ¶43 - indirilen kitabın beden ve kalbi Allah'ı anmaya yöneltmesi.
+- 40:60: ref ¶43 - dua etme çağrısının ibadet adıyla sürmesi.
+- 41:37: ref ¶44 - secdenin güneşe değil onu yaratana yönelmesi.
+- 41:38: ref ¶44 - insanların büyüklük taslaması karşısında kesintisiz tesbih.
+- 48:9: ref ¶45 - sabah akşam tesbih emri.
+- 48:29: ref ¶44 - rükû ve secdenin bedenlerde görünmesi.
+- 53:62: ref ¶44 - secde ederek Allah'a ibadet emri.
+- 59:24: ref ¶43 - güzel adların ardından yaratılmışların tesbihi.
+- 62:1: ref ¶43 - gök ve yer varlıklarının adı sayılan Allah'ı tesbihi.
+- 67:13: ref ¶44 - açık ve gizli sözün ötesinde kalplerin bilinmesi.
+- 68:51: ref ¶43 - zikrin sesle işitilen vahiy oluşu.
+- 68:52: ref ¶43 - işitilen vahyin dünyalara zikir oluşu.
+- 70:22: ref ¶45 - namaz kılanların diğerlerinden ayrılması.
+- 70:23: ref ¶45 - onların namazda sürekliliği.
+- 70:34: ref ¶45 - namazı korumanın ayrıca belirtilmesi.
+- 72:18: ref ¶44 - secde yerinde yalnız Allah'a dua.
+- 73:3: not relevant - gece duruşunun yarım geceye ayarlanması, bu bölümün fiiller arası bağını geliştirmiyor.
+- 74:3: ref ¶43 - Rabbin büyüklüğünü söyleme emri.
+- 81:27: ref ¶43 - vahyin dünyalara zikir diye sunulması.
+- 96:9: context ¶44 (in 96:19) - namaz kılanı engelleyen kişinin tanıtılması.
+- 96:11: not relevant - engellenen kulun hidayet üzere oluşu sorusu, buradaki okuyuş ve namaz ilişkisini açmıyor.
+- 96:12: not relevant - takva emri sorusu, tesbih ve salâtın gerçekleşme biçimine değinmiyor.
+- 107:4: cited ¶45; ref ¶43 - namaz adı tek başına arınmayı güvencelemiyor.
+- 110:3: ref ¶43 - tesbihle bağışlanma isteme birlikte emredilir.
+- 2:114: ref ¶45 - Allah'ın adını mescitlerde anmayı engelleme.
+- 4:142: prose ¶45 - bedensel namaz ile az anmanın ayrılması.
+- 5:58: ref ¶45 - açıktan namaz çağrısını alaya alma.
+- 5:90: context ¶45 (in 5:91) - engelleyen içki ve kumardan uzak durma emri.
+- 9:54: ref ¶45 - namaza üşenerek gelme.
+- 10:12: ref ¶45 - sıkıntı duasını rahatlayınca unutma.
+- 19:59: ref ¶45 - namazı zayi edip arzulara uyma.
+- 25:60: ref ¶44 - Rahmân'a secde çağrısını reddetme.
+- 39:8: ref ¶45 - darlıkta yapılan duanın bollukta unutulması.
+- 53:32: ref ¶43 - kişinin kendini arınmış ilan etmemesi.
+- 59:19: ref ¶45 - Allah'ı unutmanın kişinin kendisini de unutturması.
+- 68:42: ref ¶44 - sonradan secde edemeyenlerin çağrılması.
+- 68:43: ref ¶44 - sağlıklıyken secde çağrısını karşılamamaları.
+- 74:42: ref ¶45 - ateştekilere yöneltilen sebep sorusu.
+- 74:43: ref ¶45 - namaz kılmadıklarını kendi sözleriyle bildirmeleri.
+- 75:31: ref ¶45 - inanmayıp namaz kılmama.
+- 75:32: ref ¶45 - bunu inkâr ve yüz çevirmenin izlemesi.
+- 77:48: ref ¶44 - rükû emrine uymama.
+- 79:24: ref ¶43 - Firavun'un 'en yüce Rab' iddiasının ilk ayetteki Rabbin karşısında durması.
+- 84:21: ref ¶44 - Kur'an okununca secde etmeme.
+- 88:22: not relevant - öğütçünün insanlar üzerinde zorlayıcı olmaması, bu bölümün ibadet fiillerini açıklamıyor.
+- 88:23: ref ¶45 - öğütten yüz çeviren kişi.
+- 88:24: ref ¶45 - onun en büyük azaba uğraması.
+- 91:10: ref ¶45 - arınmanın karşısındaki hüsran.
+- 96:13: not relevant - namazı engelleyenin inkârı sorusu, bedensel ibadetin seyrini geliştirmiyor.
+- 107:5: cited ¶45; ref ¶43 - namazdan gaflet, namaz adının yeterli olmadığını gösterir.
+- 107:6: prose ¶45 - gösterişin namaz gafletine eklenmesi.
+- 107:7: context ¶45 (in 107:6) - küçük yardımı engelleme.
+- 20:12: not relevant - ayakkabıların çıkarılması ve kutsal vadi, anma ve namaz bağını açıklamıyor.
+- 20:13: ref ¶45 - Musa'nın namaz ve zikir emrinden önce vahyi dinlemeye çağrılması.
+- 20:15: not relevant - hesap için gelecek saat, burada anlatılan ibadet fiillerine ilişkin değil.
+- 20:16: not relevant - yüz çevrilmemesi istenen şey saat ve ona imandır; ayeti namazdan saptırma diye okumak yanlış olur.
+- 20:31: not relevant - Musa'nın kardeşiyle güçlenme isteği, tesbih ve anmanın yapılışını açmıyor.
+- 20:32: not relevant - kardeşini işe katma isteği bölümde zaten anlatılmıştır; bu ayet kendi başına yeni bir ibadet bağı getirmiyor.
+- 20:35: not relevant - Allah'ın ikisini görmesi, açık sesle anma yahut namaza özgü değil.
+- 20:36: not relevant - Musa'nın isteğinin kabulü, anma ile namazın ilişkisini geliştirmiyor.
+- 20:128: not relevant - geçmiş toplumların yıkılmış yerleriyle verilen uyarı, bu bölümün ibadet sahnesinden ayrı.
+- 20:129: not relevant - belirlenmiş vade ve önceden verilmiş söz, vakitli tesbih emrini açıklamıyor.
+- 20:131: context ¶45 (in 20:132) - dünyevî süse göz dikmeme uyarısı.
+- 20:132: prose ¶45 - aileye namaz emri ve rızık kaygısının sınırı.
+- 24:35: not relevant - ışık benzetmesi, anma ve namazın bu bölümde anlatılan eylemlerini sahnelemiyor.
+- 24:38: ref ¶45 - anma ve namazdan alıkonmayanların ödülü.
+- 24:39: not relevant - inkârcıların işleri için serap benzetmesi, bu bölümün ibadet birleşimini açmıyor.
+- 29:43: not relevant - benzetmeleri anlayanlar, okuyuş ve namaz emrini açıklamıyor.
+- 29:44: not relevant - göklerle yerin yaratılışı, bu bölümün tesbih ve salât eylemlerine bağlanmıyor.
+- 29:46: not relevant - kitap ehliyle konuşma adabı, namazın ahlakî etkisiyle aynı önerme değil.
+- 29:47: not relevant - kitabın indirilmesi ve ona iman edenler, bu bölümün okuyuş, zikir ve namaz bağını işlemiyor.
+- 62:7: not relevant - ölümü istememe sözü, cuma namazına çağrının işleyişine ilişkin değil.
+- 62:8: not relevant - kaçılan ölüm ve gaybı bilen Allah'a dönüş, cuma namazıyla anma bağlantısını açıklamıyor.
+- 107:2: ref ¶45 - gafil namaz eleştirisinden önce yetime kötü davranış.
+- 107:3: ref ¶45 - gafil namaz eleştirisinden önce yoksulu doyurmaya çağırmama.
+- 6:92 own: ref ¶43 - indirilen kitaba iman edenlerin namazı koruması.
+- 8:3 own: ref ¶43 - anma ve ayet okuyuşuyla nitelenenlerin namaz kılması.
+- 17:111 own: not relevant - Rabbin büyüklüğünü söyleme emri, bu bölümün tesbih, zikir ve namaz sıralamasına özgü bir ilişki kurmuyor.
+- 19:30 own: not relevant - Meryem oğlunun kendisini kul ve peygamber diye tanıtması, ibadet eylemini henüz belirtmiyor.
+- 19:31 own: ref ¶43 - namaz ve zekâtın yaşam boyu emredilmesi.
+- 19:55 own: ref ¶45 - aileye namaz ve zekâtı emretme.
+- 25:58 own: not relevant - Rabbe güven ve hamd ile tesbih emri, bu bölümdeki diğer iki fiille özel bir ilişki kurmuyor.
+- 32:16 own: ref ¶44 - yataktan kalkıp korku ve umutla dua etme.
+- 33:21 own: not relevant - çok ananların Peygamber'i örnek alması, buradaki tesbih ve namaz eylemini belirlemiyor.
+- 39:45 own: not relevant - Allah tek başına anılınca inkârcıların hoşnutsuzluğu, namazın bedensel yahut sesli icrasını açıklamıyor.
+- 50:37 own: ref ¶43 - öğüde kulak vererek karşılık verme.
+- 57:9 own: not relevant - indirilen ayetlerin karanlıktan aydınlığa çıkarması, 33:43'teki ilahî salâtın öznesi veya biçimi hakkında yeni bir şey söylemiyor.
+- 73:6 own: ref ¶44 - gece kalkışında sözün daha sağlam olması.
+- 73:9 own: not relevant - doğu ve batının Rabbini vekil edinme emri, bölümün okuyuş ve namaz bağını açmıyor.
+- 74:44 own: ref ¶45 - namaz yokluğuna yoksulu doyurmamanın eşlik etmesi.
+- 74:45 own: not relevant - boş tartışmaya dalma itirafı, namaz ve anma bağlantısını açıklamıyor.
+- 76:24 own: not relevant - hükme sabretme ve günahkâra uymama emri, sonraki anma ve secde fiillerine özgü değil.
+- 79:26 own: not relevant - Firavun hikâyesinin korkan için ibret olması, buradaki tesbih ve namaz birleşimini açıklamıyor.
+- 96:6 own: not relevant - insanın azgınlaşması, namaz kılanın engellenmesi sahnesinin kendisini anlatmıyor.
+- 96:7 own: not relevant - kendini yeterli görme, bu bölümdeki bedensel ibadetin yapılışına değinmiyor.
+- 96:8 own: not relevant - Rabbe dönüş, okuyuş ve secde arasındaki bağı açmıyor.
+- 107:1 own: ref ¶45 - namaz gafleti eleştirisinin dini yalanlama çerçevesi.
+- 4:100 own: not relevant - hicret edenin ödülü, tehlike namazının hareketlerini açıklamıyor.
+- 4:104 own: not relevant - tehlike namazından sonra düşmanı izleme emri, namaz ve zikir fiillerini açmıyor.
+- 9:101 own: not relevant - münafıkların tanınmaması, sadaka ve salât emrinin ilişkisinde kullanılmıyor.
+- 9:102 own: not relevant - günahını itiraf edenlerin tövbe umudu, sadaka ile salâtın nasıl birleştirildiğini açıklamıyor.
+- 9:104 own: not relevant - Allah'ın tövbeyi ve sadakayı kabulü, 9:103'teki salâtın iki yönünü ayrıca anlatmıyor.
+- 9:105 own: not relevant - işlerin görülmesi ve hesap, sadakayla duanın bağını açmıyor.
+- 24:40 own: not relevant - karanlık deniz benzetmesi, yaratılmışların salât ve tesbihinden ayrı.
+- 24:42 own: not relevant - mülk ve dönüşün Allah'a ait olması, varlıkların salâtını açıklamıyor.
+- 24:43 own: not relevant - bulut ve yağış sahnesi, tesbih veya namaz eylemi değil.
+- 33:44 own: not relevant - müminlere verilen selam ve ödül, ilahî salâtın burada adı geçen eylemini geliştirmiyor.
+- 33:45 own: not relevant - Peygamber'in tanık ve uyarıcı gönderilmesi, 33:43'teki karşılıklı ibadet yönlerini açmıyor.
+- 75:15 own: not relevant - kişinin özür ileri sürmesi, vahyin dilde okutuluşundan ayrı.
+- 17:105 own: not relevant - vahyin hak olarak inişi ve müjdeleme, okuyuşun secdeye dönüşmesini belirtmiyor.
+- 32:13 own: not relevant - hidayet ve azap hükmü, secde ile tesbih eylemini anlatmıyor.
+- 32:14 own: not relevant - hesap gününü unutanlara azap sözü, ayetlerle öğüt alınca secde etmeyle aynı sahne değil.
+- 32:17 own: not relevant - gece ibadet edenlerin ödülü, hareket ile tesbih ilişkisini ayrıca belirtmiyor.
+- 73:18 own: not relevant - göğün yarılması, gece okuyuşu ve namaz düzenine ilişkin değil.
+- 73:19 own: ref ¶44 - gece okuyuşuna dönen bölümde bildirinin öğüt olarak adlandırılması.
+- 76:27 own: ref ¶45 - anma ve secde emrinden sonra dünya hayatını tercih etme karşılığı.
+- 76:28 own: not relevant - insanın yaratılışı ve değiştirilebilirliği, secde ve tesbihi sahnelemiyor.
+- 96:17 own: not relevant - engelleyenin çevresini yardıma çağırması, secdenin ibadet anlamını geliştirmiyor.
+- 96:18 own: not relevant - zebanilerin çağrılması tehdidi, Rabbin adıyla okuyuşla secde bağını kurmuyor.
+- 5:89 own: not relevant - yemin kefareti, şeytanın anma ve namazı engellemesiyle ilgili değil.
+- 5:92 own: not relevant - genel itaat emri, zikir ve namazın engellenme mekanizmasını açmıyor.
+- 5:93 own: not relevant - önce yenilenlere ilişkin hüküm, anma ve namazdan alıkonmayı açıklamıyor.
+- 4:140 own: not relevant - alay edilen ayetleri dinlerken ortamdan ayrılma, münafıkların namazdaki gösterişini açıklamıyor.
+- 4:141 own: not relevant - münafıkların iki tarafa göre çıkar gütmesi, namaz ile az anma ilişkisini ayrıca işlemiyor.
+- 4:143 own: not relevant - münafıkların kararsız durumu, 4:142'deki namaz ve gösteriş eylemini geliştirmiyor.
+- 4:144 own: not relevant - dost edinmeye ilişkin uyarı, burada namazın içeriğine değinmiyor.
+- 23:3 own: not relevant - boş sözden yüz çevirme, huşûlu namazın ardından ayrı bir nitelik olarak sayılıyor.
+- 23:4 own: ref ¶45 - huşûlu namazdan sonra zekât eyleminin anılması.
+- 20:133 own: not relevant - işaret isteme ve eski sayfaların delili, aileye namaz emrini açmıyor.
+- 20:134 own: not relevant - uyarıcı gelmeden ceza verilseydi denecek söz, namaz ve rızık ilişkisinden ayrı.
+- 8:1 own: not relevant - ganimet hükmü ve arayı düzeltme, zikirden namaza geçişi anlatmıyor.
+- 8:4 own: not relevant - inananların dereceleri ve ödülü, zikrin namazla birleşmesine yeni ayrıntı eklemiyor.
+- 8:5 own: not relevant - evden çıkış ve isteksiz topluluk, dua ve namaz konusundan ayrı.
+- 19:29 own: not relevant - Meryem'in bebeğe işaret etmesi, onun sonraki namaz ve zekât sözünü açıklamıyor.
+- 19:32 own: not relevant - anneye iyilik ve zorba olmama sözü, namazın eylemlerini belirtmiyor.
+- 19:33 own: not relevant - doğum, ölüm ve diriliş günü selamı, namaz ve zekât emrinden ayrı.
+- 19:53 own: not relevant - Hârûn'un Musa'ya kardeş olarak verilmesi, bu bölümdeki Musa'nın tesbih ve zikir dileğini yeniden açıklamıyor.
+- 19:54 own: ref ¶45 - ailesine namaz ve zekât emreden kişinin İsmail olarak tanıtılması.
+- 19:56 own: not relevant - İdris'in anılması ve nübüvveti, ibadet fiiline değinmiyor.
+- 19:57 own: not relevant - İdris'in yükseltilmesi, bu bölümün namaz ve tesbih konusundan ayrı.
+- 32:18 own: not relevant - mümin ve fâsıkın eşit olmaması, secde ve dua sahnesini açıklamıyor.
+- 50:35 own: not relevant - cennet ödülü, öğüde kulak vermenin işleyişini anlatmıyor.
+- 50:36 own: not relevant - geçmiş güçlü toplumların yıkımı, tesbih ile namazın bağına değinmiyor.
+- 50:38 own: not relevant - yaratılışta yorgunluk bulunmaması, okuyuş ve tesbih emrini açıklamıyor.
+- 73:5 own: ref ¶44 - gece ölçülü okunacak sözün ağırlığı.
+- 73:7 own: not relevant - gündüzdeki uzun uğraş anlamındaki sabh, Rabbin tesbihi değildir.
+- 74:46 own: ref ¶45 - namaz kılmadığını söyleyenlerin hesap gününü yalanlaması.
+- 6:91 own: not relevant - Musa'nın kitabının inkârı, indirilen kitaba inanıp namazı koruma sahnesinden ayrı.
+- 6:93 own: not relevant - vahiy uydurma ve cezası, kitapla namazın birlikte oluşuna değinmiyor.
+- 6:94 own: not relevant - hesapta yalnız kalma ve sahte ortaklar, burada ele alınan salât ve zikir eylemlerini açmıyor.

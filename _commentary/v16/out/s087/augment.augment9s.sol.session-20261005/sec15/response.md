@@ -1,0 +1,380 @@
+=== ADD ===
+paragraph: 58
+ref: 36:40
+text: Yâsîn suresinde güneşin aya erişemeyeceği, gecenin de gündüzün önüne geçemeyeceği söylenirken {ar:وَكُلٌّۭ فِى فَلَكٍۢ يَسْبَحُونَ, tr:ve kullun fî felekin yesbehûn, gloss:her biri bir yörüngede yüzer, source:36:40} denir. Yüzme fiiliyle öne geçmenin olumsuzlanması aynı hareket düzeninde buluşur; burada sıra, yarışçının isteğiyle değil yaratılmış yörüngeyle belirlenir.
+=== ADD ===
+paragraph: 58
+ref: 20:84
+text: Tâhâ suresinde Musa'ya kavminden niçin aceleyle ayrıldığı sorulur {source:20:83}; cevabı {ar:هُمْ أُو۟لَآءِ عَلَىٰٓ أَثَرِى, tr:hum ulâi alâ eserî, gloss:onlar hemen arkamda, izimdedir, source:20:84} olur. Ardından Rabbinin hoşnutluğu için öne geçtiğini söyler: iz, önde gidenle arkasından gelenlerin gerçek mesafesini bildirir.
+=== ADD ===
+paragraph: 58
+ref: 9:100
+text: Tevbe suresindeki {ar:وَٱلسَّٰبِقُونَ ٱلْأَوَّلُونَ, tr:ve's-sâbikûne'l-evvelûn, gloss:öne geçen ilkler, source:9:100} ifadesini, onların ardından güzellikle gelenler izler. İlklerle izleyenler birlikte anılır; önde bulunmanın değerini ise ayetin söylediği iman ve güzel izleme verir.
+=== ADD ===
+paragraph: 58
+ref: 24:41
+text: Nûr suresinde kanatlarını açmış kuşların da bulunduğu varlıklar Allah'ı tesbih eder; {ar:كُلٌّۭ قَدْ عَلِمَ صَلَاتَهُۥ وَتَسْبِيحَهُۥ, tr:kullun kad alime salâtehû ve tesbîhah, gloss:her biri kendi duasını ve tesbihini bilir, source:24:41} denir. Böylece hareket çağrışımı taşıyan iki kök, ayetin kendi sözünde ibadet anlamlarıyla yan yana durur.
+=== ADD ===
+paragraph: 58
+ref: 100:1
+text: Âdiyât suresinin {ar:وَٱلْعَٰدِيَٰتِ ضَبْحًۭا, tr:ve'l-âdiyâti dabhan, gloss:soluk soluğa koşanlara andolsun, source:100:1} yemini, ardından kıvılcım çıkarma, sabah baskını, toz kaldırma ve topluluğun ortasına varma hareketleriyle sürer {source:100:2} {source:100:3} {source:100:4} {source:100:5}. Koşunun bedeni ve toplu ilerleyişi açıktır; koşanların kendi aralarındaki birinci-ikinci sırası söylenmez.
+=== ADD ===
+paragraph: 58
+ref: 92:10
+text: Leyl suresinde veren, sakınan ve en güzeli doğrulayan kimse için {ar:فَسَنُيَسِّرُهُۥ لِلْيُسْرَىٰ, tr:fe senüyessiruhû li'l-yusrâ, gloss:onu kolay olana kolaylaştıracağız, source:92:7} denir {source:92:5} {source:92:6}. Cimrilik edip kendini yeterli gören ve en güzeli yalanlayan içinse {ar:فَسَنُيَسِّرُهُۥ لِلْعُسْرَىٰ, tr:fe senüyessiruhû li'l-usrâ, gloss:onu zora kolaylaştıracağız, source:92:10} denir {source:92:8} {source:92:9}. Kolaylaştırma fiili iki yönde de kullanılır; yönü insanın tutumu ayırır.
+=== ADD ===
+paragraph: 59
+ref: 3:14
+text: Âl-i İmrân suresi, sevilen dünya süsleri arasında {ar:وَٱلْخَيْلِ ٱلْمُسَوَّمَةِ, tr:ve'l-hayli'l-musevveme, gloss:nişanlı, gösterişli atları, source:3:14} da sayar; bunlara dünya hayatının geçimliği der ve güzel dönüşün Allah katında olduğunu bildirir. Sonraki ayet, bundan daha iyisini sorup bahçeleri ve Allah'ın hoşnutluğunu gösterir {source:3:15}. At, bu karşılaştırmada koşunun simgesi kadar yakın hayatın çekici malı da olabilir.
+=== ADD ===
+paragraph: 59
+ref: 2:201
+text: Bakara suresinde yalnız dünyada verilmesini isteyenin ahirette payı olmadığı söylenir {source:2:200}; hemen ardından gelen dua {ar:رَبَّنَآ ءَاتِنَا فِى ٱلدُّنْيَا حَسَنَةًۭ وَفِى ٱلْءَاخِرَةِ حَسَنَةًۭ, tr:rabbenâ âtinâ fi'd-dunyâ haseneten ve fi'l-âhireti haseneten, gloss:Rabbimiz, bize dünyada da ahirette de iyilik ver, source:2:201} diye iki hayatı birlikte anar. Yanlış tercih, dünyada iyilik istemek değil ahireti dışarıda bırakmaktır.
+=== ADD ===
+paragraph: 59
+ref: 17:19
+text: İsrâ suresinde acele geleni isteyenin burada ancak Allah'ın dilediği kadarını aldığı anlatılır {source:17:18}. Buna karşılık {ar:وَمَنْ أَرَادَ ٱلْءَاخِرَةَ وَسَعَىٰ لَهَا سَعْيَهَا وَهُوَ مُؤْمِنٌۭ, tr:ve men erâde'l-âhirate ve seâ lehâ sa'yehâ ve huve mu'min, gloss:kim ahireti ister, onun için gerektiği gibi çabalar ve inanırsa, source:17:19} çabası karşılık bulur. Sonraki menzil yalnız beklenen bir sıra değil, imanla yönelinen bir amaçtır.
+=== ADD ===
+paragraph: 59
+ref: 20:73
+text: Tâhâ suresinde Firavun, kendi cezasının daha kalıcı olacağını ileri sürer {source:20:71}. Secdeye kapanıp inanan büyücüler {source:20:70} onu apaçık delillere ve kendilerini yaratana tercih etmeyeceklerini, hükmünün ancak bu dünya hayatına eriştiğini söyler {source:20:72}; sonra {ar:وَٱللَّهُ خَيْرٌۭ وَأَبْقَىٰٓ, tr:vallâhu hayrun ve ebkâ, gloss:Allah daha hayırlı ve daha kalıcıdır, source:20:73} derler. Buradaki «daha kalıcı» doğrudan Allah'ı niteler; tehdidin dünya hayatıyla sınırlı olması seçimin ağırlığını gösterir.
+=== ADD ===
+paragraph: 59
+ref: 18:46
+text: Kehf suresi malı ve çocukları dünya hayatının süsü diye adlandırdıktan sonra {ar:وَٱلْبَٰقِيَٰتُ ٱلصَّٰلِحَٰتُ خَيْرٌ عِندَ رَبِّكَ ثَوَابًۭا وَخَيْرٌ أَمَلًۭا, tr:ve'l-bâkiyâtu's-sâlihâtu hayrun inde rabbike sevâben ve hayrun emelâ, gloss:kalıcı iyi işler Rabbinin katında ödül ve umut bakımından daha hayırlıdır, source:18:46} der. Önde görünen süs karşısında kalıcı olanın yalnız zamanı değil, işlerin değeri de belirlenir.
+=== ADD ===
+paragraph: 59
+ref: 3:185
+text: Âl-i İmrân suresi karşılığın kıyamet gününde tam verileceğini söyleyip {ar:فَمَن زُحْزِحَ عَنِ ٱلنَّارِ وَأُدْخِلَ ٱلْجَنَّةَ فَقَدْ فَازَ, tr:fe men zuhziha ani'n-nâri ve udhile'l-cennete fekad fâz, gloss:kim ateşten uzaklaştırılıp cennete sokulursa işte o kazanmıştır, source:3:185} der. «Kazanmak» böylece ilk görünen paya değil son hükme bağlanır.
+=== ADD ===
+paragraph: 59
+ref: 62:9
+text: Cuma suresinde namaza çağrı geldiğinde {ar:فَٱسْعَوْا۟ إِلَىٰ ذِكْرِ ٱللَّهِ وَذَرُوا۟ ٱلْبَيْعَ, tr:fe's'av ilâ ẕikri'llâhi ve ẕeru'l-bey', gloss:Allah'ın anılmasına yönelin ve alışverişi bırakın, source:62:9} denir. Namaz bitince yeryüzüne dağılmak, Allah'ın lütfunu aramak ve O'nu çok anmak söylenir {source:62:10}. Hatırlama ve namazın önceliği, dünya geçimini bütünüyle bırakmak değil, onun zamanını yerli yerine koymaktır.
+=== ADD ===
+paragraph: 59
+ref: 57:21
+text: Hadîd suresi dünya hayatını yağmurla gelişip sonra sararan ve kırıntıya dönen ekine benzetir {source:57:20}; ardından {ar:سَابِقُوٓا۟ إِلَىٰ مَغْفِرَةٍۢ مِّن رَّبِّكُمْ وَجَنَّةٍ, tr:sâbikû ilâ mağfiretin min rabbikum ve cenne, gloss:Rabbinizden bağışlanmaya ve cennete doğru yarışın, source:57:21} der. Yarışın hızı kadar hangi sona yöneldiği de belirtilir.
+=== ADD ===
+paragraph: 59
+ref: 11:16
+text: Hûd suresinde dünya hayatını ve süsünü isteyenlere işlerinin karşılığı orada eksiksiz verilir {source:11:15}; sonraki ayet, onların ahirette ateşten başka payı kalmadığını söyler {source:11:16}. İlk bölümde karşılık almak, son bölümde kazançlı çıkmak anlamına gelmez.
+=== ADD ===
+paragraph: 59
+ref: 40:39
+text: Mü'min suresinde inanan adam halkına «Bana uyun, sizi doğru yola götüreyim» der {source:40:38}; ardından {ar:إِنَّمَا هَٰذِهِ ٱلْحَيَوٰةُ ٱلدُّنْيَا مَتَٰعٌۭ وَإِنَّ ٱلْءَاخِرَةَ هِىَ دَارُ ٱلْقَرَارِ, tr:innemâ hâẕihi'l-hayâtu'd-dunyâ metâun ve inne'l-âhirate hiye dâru'l-karâr, gloss:bu dünya hayatı geçici yararlanmadır, ahiret ise yerleşip kalınacak yurttur, source:40:39} der. Birinin ardından gitmenin değeri, öncünün gösterdiği yurtla ölçülür.
+=== ADD ===
+paragraph: 59
+ref: 100:8
+text: Âdiyât suresinin soluk soluğa koşanlar sahnesinden sonra insanın mala sevgisinin güçlü olduğu bildirilir {source:100:8}; sonra kabirdekilerin çıkarılması ve göğüslerdekinin ortaya dökülmesi sorulur {source:100:9} {source:100:10}. Koşu görüntüsünün hemen ardında yakın mal sevgisi ve sonraki hesap durur.
+=== ADD ===
+paragraph: 59
+ref: 11:87
+text: Hûd suresinde Şuayb halkına ölçü ve tartıyı eksiltmemelerini söyler, kuşatıcı bir günün azabından korktuğunu bildirir {source:11:84} {source:11:85}. Halkı, onun namazını hem atalarının ibadetini bırakma hem de mallarında dilediklerini yapma konusu içine alan bir itiraz sorusuna sokar {source:11:87}. Namaz ve yakın kazanç arasındaki gerilim, burada karşı çıkanların kendi sözüyle duyulur.
+=== ADD ===
+paragraph: 60
+ref: 79:39
+text: Nâziât suresinde dünya hayatını tercih edenin öncesinde taşkınlığı anılır {source:79:37} {source:79:38}; ardından ateşin ona barınak olacağı söylenir {source:79:39}. Rabbinin huzurunda durmaktan korkup nefsini arzusundan alıkoyanın barınağı ise cennettir {source:79:40} {source:79:41}. Aynı koşu sözcüklerinin açtığı sure, iki tercihin sonunu da ayrı ayrı gösterir.
+=== ADD ===
+paragraph: 60
+ref: 76:27
+text: İnsan suresi {ar:إِنَّ هَٰٓؤُلَآءِ يُحِبُّونَ ٱلْعَاجِلَةَ وَيَذَرُونَ وَرَآءَهُمْ يَوْمًۭا ثَقِيلًۭا, tr:inne hâulâi yuhibbûne'l-âcilete ve yeẕerûne verâehum yevmen sekîlâ, gloss:bunlar acele geleni sever, arkalarında ağır bir günü bırakırlar, source:76:27} der. Kıyâme suresindeki «acele geleni sevip ahireti bırakma» cümlesinde söylenmeyen arka taraf, burada «arkalarında» kelimesiyle görünür.
+=== ADD ===
+paragraph: 60
+ref: 56:11
+text: Vâkıa suresinde öne geçenler anıldıktan sonra {ar:أُو۟لَٰٓئِكَ ٱلْمُقَرَّبُونَ, tr:ulâike'l-mukarrabûn, gloss:onlar yaklaştırılanlardır, source:56:11} denir; yerleri nimet bahçeleridir {source:56:12}. Öncülük burada yalnız sıradaki yer değil, yaklaştırılma ve varılacak yurtla birlikte anılır.
+=== ADD ===
+paragraph: 60
+ref: 79:22
+text: Nâziât suresinde Musa'nın gönderildiği Firavun {source:79:17} yalanlayıp başkaldırdıktan sonra {source:79:21} {ar:ثُمَّ أَدْبَرَ يَسْعَىٰ, tr:sümme edbera yes'â, gloss:sonra arkasını dönüp çabalamaya koyuldu, source:79:22}; ardından toplar ve seslenir {source:79:23}, «Ben sizin en yüce rabbinizim» der {source:79:24}. Çabası bu üstünlük iddiasına varır.
+=== REFS ===
+paragraph: 58
+text: Ayrıca: {source:8:42} yakın ve uzak yamaçların iki topluluğa yer bildirmesi; {source:21:33} gök cisimlerinin yörüngede yüzmesi; {source:91:2} ayın güneşi izlemesi; {source:4:102} namaz kılan iki bölüğün ardışık konumları; {source:2:143} elçiye uyanla ökçesi üzerinde dönenin yön ayrımı; {source:5:46} {source:57:27} peygamberlerin öncekilerin izinden gönderilmesi; {source:18:64} iki yolcunun kendi izlerinden geri dönmesi; {source:18:6} gidenlerin izleri üzerinde kalan kişinin üzüntüsü; {source:37:70} atalarının izinde aceleyle gidenler; {source:43:22} {source:43:23} ataların izini rehber sayan takipçiler; {source:59:9} başkasını kendine tercih edenlerin aynı tercih fiilini başka nesneye yöneltmesi; {source:7:38} {source:7:39} ateşe giren önceki ve sonraki toplulukların birbirine dönmesi; {source:15:24} öne geçenlerle geride kalanların birlikte anılması; {source:51:3} kolay akışla ilerleyenlerin yeminde anılması; {source:20:14} namazın Allah'ı anma için kılınması; {source:79:3} yemin edilen yüzücü/koşucuların hareketi; {source:79:4} yüzücülerden hemen sonra öne geçenlerin anılması; {source:56:10} ahiretin öncü topluluğunun adlandırılması; {source:20:77} {source:20:78} Musa'nın önde giden halkını ordunun arkadan izlemesi; {source:26:60} {source:26:61} {source:26:62} {source:26:63} peş peşe gelen toplulukların denizdeki geçide varışı; {source:20:85} önden acele eden Musa'nın geride kalan halkının sınanması; {source:13:2} {source:31:29} {source:35:13} {source:39:5} güneş ve ayın belirlenmiş süreye dek akması; {source:36:38} {source:36:39} güneşin durağı ve ayın menzillerinin yörüngeyi ölçmesi.
+=== REFS ===
+paragraph: 59
+text: Ayrıca: {source:2:86} dünya hayatını ahiret karşılığında alma; {source:2:110} iyiliğin önden gönderilip Allah katında bulunması; {source:2:148} {source:5:48} iyiliklerde öne geçme çağrısı; {source:2:212} dünya süsünün ardından kıyamette üstünlüğün değişmesi; {source:3:114} {source:21:90} hayırlarda acele edenlerin hali; {source:3:133} bağışlanma ve cennete doğru acele etme; {source:3:152} bir topluluğun dünya ve ahiret isteğiyle ayrılması; {source:3:145} dünya yahut ahiret karşılığını istemenin ayrı sonuçları; {source:4:77} dünya geçimliğinin az, ahiretin sakınanlar için daha iyi olması; {source:4:134} her iki hayatın karşılığının Allah katında bulunması; {source:6:32} dünya oyunu karşısında ahiret yurdunun daha iyi olması; {source:7:169} en yakının geçimliğini alma karşısında ahiret yurdunun iyiliği; {source:9:38} sefere çıkarken yere ağırlık verenlere dünya-ahiret tercihi sorusu; {source:10:7} Allah'a kavuşmayı beklemeyip dünyayla tatmin olma; {source:13:26} dünya sevincinin ahiret karşısında geçimlik kalması; {source:14:3} {source:16:107} dünya hayatını ahiretten çok sevme; {source:16:96} insan elindekinin tükenip Allah katındakinin kalması; {source:17:20} iki arayışa da dünyada bağış verilmesi; {source:17:21} ahiretteki derecelerin daha büyük olması; {source:19:76} kalıcı iyi işlerin daha iyi karşılık ve dönüş olması; {source:23:61} hayırlarda öne geçmenin aceleyle birlikte anılması; {source:28:60} {source:42:36} dünya geçimliğine karşı Allah katındakinin daha iyi ve kalıcı olması; {source:28:77} ahiret yurdunu ararken dünya payını unutmama; {source:28:83} ahiret yurdunun yeryüzünde yükselme ve bozgunculuk istemeyenlere verilmesi; {source:29:64} dünya eğlencesi karşısında ahiret yurdunun gerçek hayat olması; {source:33:28} {source:33:29} Peygamberin eşlerine dünya süsüyle Allah ve ahiret yurdu arasında sunulan seçim; {source:35:32} hayırlarda öne geçenlerin seçilmiş kullar arasında sayılması; {source:36:12} yapılanların ve geride bırakılan izlerin kaydedilmesi; {source:42:20} ahiret ve dünya ekinini isteyenlerin farklı hasadı; {source:43:35} dünya süsünün geçimlik, ahiretin sakınanlara ait olması; {source:53:29} anmayı bırakıp yalnız dünya hayatını isteme; {source:57:10} önce yapılan fedakârlığın daha yüksek dereceyle değerlendirilmesi; {source:59:18} yarın için önden gönderilene bakma buyruğu; {source:62:11} ticarete dağılanlara Allah katındakinin daha iyi olduğunun söylenmesi; {source:63:9} mal ve çocukların Allah'ı anmadan alıkoyması; {source:69:24} geçmiş günlerde önden gönderilenin sonraki sofra olması; {source:73:20} önden gönderilen iyiliğin Allah katında daha iyi bulunması; {source:74:37} uyarı karşısında öne geçme yahut geri kalma seçimi; {source:75:13} {source:82:5} kişinin önce ve sonra yaptıklarının önüne çıkarılması; {source:75:20} {source:75:21} acele geleni sevip ahireti bırakma; {source:79:38} dünya hayatını öne koyan kişinin seçimi; {source:79:46} kıyamet görülünce önceki kalışın çok kısa görünmesi; {source:83:26} nimet içeceği için yarışma çağrısı; {source:89:24} gerçek hayat için önceden bir şey göndermemiş olmanın pişmanlığı; {source:93:4} Peygambere sonrakinin öncekinden daha iyi olacağı sözü; {source:102:1} {source:102:2} çoğaltma yarışının kabirlere kadar oyalaması; {source:16:30} {source:16:41} dünyada iyilik verilirken ahiret yurdunun ve karşılığının daha iyi olması; {source:2:202} iki hayatın iyiliğini isteyenlerin kazançtan payı; {source:7:51} dünyaya aldanıp son günle buluşmayı unutma; {source:11:86} dürüst ticarette Allah'ın bıraktığının daha hayırlı olması; {source:18:28} dünya süsü yerine Rabbi ananlarla kalma; {source:18:45} dünya hayatı bitip savrulan bitkiye benzetilir; {source:20:131} dünya çiçeğine karşı Rabbin rızkının daha iyi ve kalıcı oluşu; {source:28:61} güzel vaade kavuşan ile dünya geçimliği alanın sonu; {source:28:70} ilk ve son hayatta hamdın Allah'a ait olması; {source:53:25} {source:92:13} ilk ve son hayatın Allah'a ait olması; {source:28:79} {source:28:80} Karun'un süsüne özenenlerle Allah'ın ödülünü üstün tutanların cevabı; {source:30:7} dünyanın görünenini bilip ahiretten gafil olma; {source:56:10} öne geçenlerin ahiret topluluğu olması; {source:70:43} kabirden bir hedefe koşar gibi çıkış; {source:92:4} insan çabalarının farklı yönleri; {source:20:65} {source:20:69} ilk atışı isteyen büyücülerin işinin sonra yutulması; {source:45:24} yalnız dünya hayatı olduğu iddiasının bilgisiz söz oluşu; {source:46:11} sosyal önceliğin hakikat ölçüsü sanılması; {source:20:74} {source:20:75} {source:20:76} suçlu ve imanlı gelenlerin farklı kalıcı sonları; {source:23:60} hayırlarda öne geçenin Rabbine dönmekten ürpermesi; {source:62:8} kaçılan ölümün yetişip Allah'a dönüşe götürmesi; {source:100:6} koşu yemininden sonra insanın nankörlüğü; {source:37:68} {source:37:69} ataların izinde koşunun sapmış örneğe ve ateşe varması; {source:59:19} Allah'ı unutmanın kendi benliğini unutturma sonucu; {source:56:3} kıyamette alçalma ve yükselmenin değişmesi; {source:12:25} aynı kapıya farklı amaçlarla koşan iki kişinin yarışı; {source:37:70} ataların izinden acele etmenin yanlış sona varabilmesi; {source:20:68} ilk atıştan önce Musa'ya üstün geleceğinin bildirilmesi.
+=== REFS ===
+paragraph: 60
+text: Ayrıca: {source:79:4} yüzücülerin ardından öne geçenlerin yeminde anılması; {source:79:38} Firavun kıssasının ardından dünya hayatını tercih edenin adlandırılması; {source:30:3} «yakın» kelimesinin yere ilişkin kullanımı; {source:8:41} iki topluluğun karşılaştığı günün ayırıcı gün diye adlandırılması; {source:79:24} Firavun'un «en yüce rabbinizim» sözü; {source:56:7} {source:56:8} {source:56:9} öncülerin dahil olduğu üç ahiret topluluğu; {source:75:22} {source:75:23} aceleci tercih sözünün ardından aydınlık yüzlerin Rabbe bakışı; {source:76:25} {source:76:26} acele gelen sevgisinden önce anma ve gece tesbihi; {source:76:29} aceleci tercih sonrasında Rabbe yol edinme çağrısı.
+=== VERDICTS ===
+- 2:86: ref ¶59 - dünya hayatını ahiret karşılığında alma, tercihin bedeli.
+- 2:110: ref ¶59 - önden gönderilen iyilik sonra Allah katında bulunur.
+- 2:143: ref ¶58 - elçiye uyma ile ökçe üzerinde geri dönmenin yön karşıtlığı.
+- 2:148: ref ¶59 - iyiliklerde öne geçme buyruğu yarışın hedefini belirler.
+- 2:185: not relevant - oruç hükmündeki kolaylık koşucunun adımı yahut kolay yola yönelme sahnesi değildir.
+- 2:200: context ¶59 (in 2:201) - yalnız dünya isteyen dua karşı duanın zeminidir.
+- 2:201: prose ¶59 - iki hayatın iyiliği birlikte istenir.
+- 2:212: ref ¶59 - dünyadaki alay ve süs kıyametteki dereceyle tersine döner.
+- 2:238: not relevant - orta namazın vakit dizisindeki konumu atların takip sırası değildir.
+- 3:14: prose ¶59 - atlar dünya süsleri arasında, güzel dönüş Allah katındadır.
+- 3:114: ref ¶59 - hayırlarda acele edenlerin hedefi dünya önderliği değildir.
+- 3:133: ref ¶59 - acele edilecek hedef bağışlanma ve cennettir.
+- 3:152: ref ¶59 - bir savaş topluluğunda dünya ve ahiret isteyenler ayrılır.
+- 4:77: ref ¶59 - dünya geçimliği az, ahiret sakınana daha iyidir.
+- 4:102: ref ¶58 - namaz iki bölüğün ön/arka değişimiyle kılınır.
+- 4:134: ref ¶59 - iki hayatın karşılığı da Allah katındadır.
+- 5:48: ref ¶59 - iyiliklerde yarışın ardından Allah'a dönüş gelir.
+- 6:32: ref ¶59 - oyun ve eğlence olan dünyaya karşı ahiret yurdu daha iyidir.
+- 6:90: not relevant - peygamberlerin hidayetine uyma buyruğu fiziksel öncü-izleyen dizisi kurmaz.
+- 7:169: ref ¶59 - yakın dünya kazancı ile ahiret yurdunun iyiliği karşı karşıya konur.
+- 8:42: cited ¶60; ref ¶58 - dünya kelimesi yamaçların fiziksel yakınlığını bildirir.
+- 9:38: ref ¶59 - yerinde ağırlaşana dünya hayatını ahirete karşı seçme sorusu yöneltilir.
+- 9:100: prose ¶58 - ilk öncüler ve onları güzellikle izleyenler aynı ayettedir.
+- 10:7: ref ¶59 - dünyayla yetinenler Allah'a kavuşmayı beklemez.
+- 11:15: context ¶59 (in 11:16) - dünyayı isteyene buradaki emeğinin karşılığı verilir.
+- 11:16: prose ¶59 - ilk hayatta karşılık alanın ahiretteki payı ateş olur.
+- 11:86: ref ¶59 - dürüst ölçüye dönene Allah katında kalan daha hayırlıdır.
+- 12:17: not relevant - kardeşlerin yarışa çıktıklarını söylemesi dünya-ahiret tercihini yahut öncü-izleyici sırasını işlemez.
+- 12:25: ref ¶59 - iki kişi aynı kapıya karşıt amaçlarla koşar; hız tek başına amacı söylemez.
+- 12:91: not relevant - Allah'ın Yusuf'u kardeşlerinden üstün tutması insanın dünya-ahiret tercihi değildir.
+- 13:26: ref ¶59 - dünya sevinci ahiret karşısında yalnız geçimliktir.
+- 14:3: ref ¶59 - dünya hayatını ahiretten daha çok sevmenin aynı seçim olması.
+- 15:24: ref ¶58 - öne geçen ve geride kalanlar birlikte anılır; kimlikleri ayette belirtilmez.
+- 16:96: ref ¶59 - insan elindeki tükenirken Allah katındaki kalır.
+- 16:107: ref ¶59 - dünya hayatını ahiretten daha çok sevme açıkça söylenir.
+- 17:18: context ¶59 (in 17:19) - acele geleni isteyenin sınırlı ilk payı karşı hattır.
+- 17:19: prose ¶59 - iman ederek ahiret için çaba gösteren karşılık bulur.
+- 17:20: ref ¶59 - iki isteğin sahipleri de dünyada Rabbin bağışından alır.
+- 17:21: ref ¶59 - ahiretin dereceleri ilk hayattakinden büyüktür.
+- 18:46: prose ¶59 - dünya süsüne karşı kalıcı iyi işler daha iyi karşılıktır.
+- 18:64: ref ¶58 - iki yolcu kendi izlerinden geriye gider.
+- 19:76: ref ¶59 - kalıcı iyi işler ödül ve dönüşte daha hayırlıdır.
+- 20:14: ref ¶58 - namazın Allah'ı anmak için kılınması ibadet anlamını sabit tutar.
+- 20:72: context ¶59 (in 20:73) - büyücüler Firavun'u delillere tercih etmez, onun yetkisini dünya ile sınırlar.
+- 20:73: prose ¶59 - «daha hayırlı ve kalıcı» Allah'a yüklenir.
+- 20:77: ref ¶58 - Musa halkını deniz yoluna çıkarır, arkadan yetişilmesinden söz edilir.
+- 20:78: ref ¶58 - Firavun ordusuyla onların ardına düşer.
+- 20:84: prose ¶58 - öne acele eden Musa halkını izinde tarif eder.
+- 20:130: not relevant - günün vakitlerinde tesbih buyruğu öncü-izleyen veya hayatların tercihini işlemez.
+- 20:131: ref ¶59 - dünyanın çiçek gibi süsüne karşı Rabbin rızkı daha iyi ve kalıcıdır.
+- 21:33: ref ¶58 - gök cisimleri yörüngelerinde yüzer.
+- 23:61: ref ¶59 - hayırlara acele etmek ile orada öne geçmek birleşir.
+- 24:41: prose ¶58 - kuşların da içinde olduğu varlıkların namaz ve tesbihi birlikte anılır.
+- 26:60: ref ¶58 - bir topluluğun başka birinin ardına düşmesi.
+- 26:61: ref ¶58 - arkadan yetişenle öndeki topluluk yüz yüze gelir.
+- 26:62: ref ¶58 - takip edilen topluluğun başındaki Musa Rabbinin yol göstereceğini söyler.
+- 26:63: ref ¶58 - denizde açılan yol takip sahnesinin geçididir.
+- 28:20: not relevant - uzaktan koşarak gelen kişinin uyarısı öne geçen/izleyen dizisi yahut iki hayatın tercihi değildir.
+- 28:60: ref ¶59 - dünyadaki süs geçimlik, Allah katındaki daha iyi ve kalıcıdır.
+- 28:88: not relevant - Allah dışındaki her şeyin yok olacağı cümlesi ahiret ve dünya arasındaki tercih sahnesini kurmaz.
+- 29:64: ref ¶59 - dünya oyunu karşısında ahiret gerçek hayat diye adlandırılır.
+- 33:28: ref ¶59 - dünya hayatı ve süsü açık bir seçim seçeneğidir.
+- 33:29: ref ¶59 - dünya süsü yerine Allah ve ahiret yurdunu isteyenin karşılığı bildirilir.
+- 35:32: ref ¶59 - hayırlarda öne geçen seçilmiş kullar arasında yer alır.
+- 36:12: ref ¶59 - önden gönderilen işler ve geride bırakılan izler kayda geçer.
+- 36:20: not relevant - uzaktan koşan adamın çağrısı iki hayatın kıyasını veya önde-arkada koşu sırasını kurmaz.
+- 36:21: not relevant - doğru yoldaki elçilere uyma emri fiziksel izleme dizisi değildir.
+- 36:40: prose ¶58 - yüzme ile öne geçememe aynı gök düzeninde buluşur.
+- 36:51: not relevant - kabirlerden Rabbe çıkış hızlıdır, fakat tercih yahut öndekini izleme ilişkisi kurulmaz.
+- 37:1: not relevant - saf halinde duranların yemini bir koşu veya önde-ardında sırası anlatmaz.
+- 37:70: ref ¶58, ¶59 - atalarının izlerinden aceleyle gitme yanlış izleme ve yanlış sona varma örneğidir.
+- 37:164: not relevant - bilinen makamlar ilerleyiş veya iki hayatın sırası değildir.
+- 37:165: not relevant - saf halinde bulunmak hareket eden bir dizide öne geçmek değildir.
+- 37:166: not relevant - tesbih fiili burada ibadet bildirir; koşu anlamı ayette yoktur.
+- 38:31: not relevant - Süleyman'a gösterilen atlar kendi aralarında koşu sırasına konmaz.
+- 38:32: not relevant - atların sevgisiyle Rabbin anılması arasındaki söz, dünya-ahiret tercihini açıkça bildirmez.
+- 38:33: not relevant - atların boyunlarına dokunulması boyunların sürüye kılavuzluk ettiği anlamını vermez.
+- 40:38: context ¶59 (in 40:39) - inanan adamın peşinden gelme ve yol gösterme çağrısıdır.
+- 40:39: prose ¶59 - rehberin gösterdiği son yurt ahiretin karar yurdudur.
+- 42:20: ref ¶59 - ahiret ekini artar, yalnız dünya ekini isteyenin ahirette payı olmaz.
+- 42:36: ref ¶59 - geçici dünya payına karşı Allah katındaki daha iyi ve kalıcıdır.
+- 43:22: ref ¶58 - ataların izini hidayet diye görme iddiası.
+- 43:23: ref ¶58 - bolluk sahiplerinin atalarının izinden gitme iddiası.
+- 43:35: ref ¶59 - dünya süsü geçimliktir, ahiret sakınanlara verilir.
+- 48:2: not relevant - günahın önceki ve sonraki kısmı zaman kapsamıdır, yarış sıralaması veya hayat seçimi değildir.
+- 50:44: not relevant - dirilişteki hızlı çıkışta öne geçenle izleyen yahut iki hayatı seçme bulunmaz.
+- 51:3: ref ¶58 - akıp gidenlerin kolay hareketi koşu-kolaylık çağrışımı kurar; ayet nesneyi adlandırmaz.
+- 53:9: not relevant - iki yay boyu yakınlık, dünya hayatının yakınlığıyla aynı sahnede kullanılmaz.
+- 54:8: not relevant - çağırana doğru hızla gidiş kıyamet olayıdır, bu kesitteki tercih yarışı değildir.
+- 54:17: not relevant - Kur'an'ın anma için kolaylaştırılması koşucunun adımı veya iki hayatın seçimi değildir.
+- 54:22: not relevant - yinelenen kolaylaştırma sözü aynı ayrı konuyu anlatır.
+- 54:32: not relevant - yinelenen kolaylaştırma sözü aynı ayrı konuyu anlatır.
+- 54:40: not relevant - yinelenen kolaylaştırma sözü aynı ayrı konuyu anlatır.
+- 55:26: not relevant - yeryüzündekilerin fâniliği, dünyayla ahiret arasındaki seçim veya koşu dizisi değildir.
+- 55:27: not relevant - Rabbin yüzünün kalması, ahiretin insan için daha hayırlı olduğu cümlesine özdeş değildir.
+- 56:10: cited ¶60; ref ¶58, ¶59 - öne geçen insan topluluğu ilk olmanın ahiret bağlamını verir.
+- 57:20: context ¶59 (in 57:21) - dünya hayatının büyüyüp sonra kuruyan ekin benzetmesi yarış çağrısının önündedir.
+- 57:21: prose ¶59 - yarışın yönü bağışlanma ve cennet diye açıkça verilir.
+- 59:18: ref ¶59 - kişinin yarın için önden gönderdiğine bakması istenir.
+- 62:9: prose ¶59 - namaz çağrısında Allah'ı anmaya yönelip alışveriş bırakılır.
+- 62:10: context ¶59 (in 62:9) - namazdan sonra geçim arayışının yeniden açılması sınırı koyar.
+- 63:9: ref ¶59 - mal ve çocuk Allah'ı anmayı geriye bıraktırmamalıdır.
+- 65:7: not relevant - sıkıntıdan sonra gelen kolaylık, yürüyüş kolaylığı veya dünya-ahiret karşılaştırması değildir.
+- 69:24: ref ¶59 - geçmiş günlerde önden gönderilen sonraki nimete dönüşür.
+- 74:37: ref ¶59 - uyarı karşısında ahlaki öne geçme ve geri kalma seçenekleri.
+- 75:13: ref ¶59 - kişi önceye ve sonraya koyduklarıyla yüzleşir.
+- 75:20: cited ¶60; ref ¶59 - acele geleni sevme yakın hayatı öne koyar.
+- 75:21: cited ¶60; ref ¶59 - ahireti bırakma tercih cümlesinin ikinci yarısıdır.
+- 76:27: prose ¶60 - ağır günün «arkada» bırakılması uzamsal bağı açar.
+- 79:3: cited ¶60; ref ¶58 - yüzme/koşma kökü yemindeki hareketi bildirir; özne ayette adlandırılmaz.
+- 79:4: ref ¶58, ¶60 - yemindeki yüzücüleri hemen öne geçenler izler.
+- 79:25: not relevant - Firavun'a verilen ilk/son ibretlik ceza doğrudan dünya-ahiret tercihi açıklamaz.
+- 79:38: ref ¶59, ¶60 - dünya hayatını tercih etme aynı fiille söylenir; ¶60 bunu işaret eder.
+- 82:5: ref ¶59 - kişi öne ve geriye bıraktığı işlerini öğrenir.
+- 83:26: ref ¶59 - yarışılan nesne cennet nimetidir.
+- 89:24: ref ¶59 - gerçek hayat için önceden bir şey göndermemiş olma pişmanlığı.
+- 91:2: ref ¶58 - ayın güneşi izlemesi öncü-izleyici hareketini göğe taşır.
+- 92:7: context ¶58 (in 92:10) - kolay olana kolaylaştırma olumlu hattır.
+- 93:4: ref ¶59 - Peygambere sonrakinin öncekinden daha hayırlı olacağı bildirilir.
+- 94:5: not relevant - zorlukla birlikte kolaylık, koşucu dizisindeki ön/arka yahut ahiret tercihi değildir.
+- 94:6: not relevant - tekrarlanan zorluk-kolaylık sözü aynı ayrı konuyu anlatır.
+- 100:1: prose ¶58 - soluk soluğa koşanların yemini gerçek hareket sahnesidir.
+- 100:2: context ¶58 (in 100:1) - koşanların kıvılcım çıkaran hareketi.
+- 100:3: context ¶58 (in 100:1) - koşunun sabah baskınına dönüşmesi.
+- 100:4: context ¶58 (in 100:1) - toz kaldırma; buradaki fiil tercih kökü diye okunmaz.
+- 100:5: context ¶58 (in 100:1) - koşanların topluluğun ortasına varması.
+- 2:38: not relevant - ilahi hidayete uyma, at dizisindeki ön-arka izlemeyi veya iki hayat tercihini betimlemez.
+- 2:202: ref ¶59 - hem dünya hem ahiret iyiliğini dileyenlerin kazançlarından payı olur.
+- 3:15: context ¶59 (in 3:14) - dünya süslerinden daha iyi olan bahçeler ve hoşnutluk adlandırılır.
+- 5:46: ref ¶58 - İsa'nın önceki peygamberlerin izleri üzerine gönderilmesi.
+- 7:34: not relevant - toplumların belirlenmiş eceli değişmez; bir koşudaki öne geçme veya ahiret seçimi söz konusu değildir.
+- 7:38: ref ¶58 - önceki ve sonraki toplulukların ateşe girişte karşılaşması.
+- 7:39: ref ¶58 - önceki topluluğun sonrakine cevap vermesi.
+- 7:51: ref ¶59 - dünyanın aldattığı kimseler son günle buluşmayı unutmuştur.
+- 10:49: not relevant - eceli öne/arkaya oynatamamak tercih edilen iki hayatın sıralanışı değildir.
+- 11:114: not relevant - gün ve gece vakitlerinde namaz kılınması atın öndekini izlemesiyle açıklanmaz.
+- 12:47: not relevant - ekini kıtlık yıllarına saklama gerçek tarım tedbiridir, ahiretin kalıcılığına bir ayet bağı kurmaz.
+- 12:48: not relevant - saklanan ekini sonraki kıtlığın tüketmesi öndeki/sondaki hayat seçimi değildir.
+- 13:2: ref ¶58 - güneş ve ayın belirlenmiş süreye dek akması gökteki hareketin ölçüsüdür.
+- 15:5: not relevant - toplumların ecellerini öne geçirememesi ahlaki yarış yahut önder-izleyici düzeni değildir.
+- 16:61: not relevant - ecelin ertelenmesi ve sonra değişmemesi iki hayatı tercih etme fiilini anlatmaz.
+- 17:78: not relevant - namazın gün içindeki vakitleri bu kesitteki musallî-at benzetmesinin karşılığı değildir.
+- 18:6: ref ¶58 - ayrılıp gidenlerin izleri üzerinde kalan kişinin durumu.
+- 18:28: ref ¶59 - dünya süsüne göz dikme yerine Rabbi ananlarla kalma buyruğu.
+- 18:45: ref ¶59 - dünya hayatı bitip savrulan bitkiyle tasvir edilir.
+- 18:48: not relevant - yargıda saf halinde sunulma, yarış içindeki birinci-ikinci konumu vermez.
+- 20:123: not relevant - hidayete uyma bir koşucunun önündekinin izinden gitmesi olarak kurulmaz.
+- 21:73: not relevant - önderlerin Allah'ın emriyle hidayet göstermesi söz konusu; fiziksel dizi yoktur.
+- 21:90: ref ¶59 - hayırlarda acele edenler dua ve huşu ile tanıtılır.
+- 23:43: not relevant - bir ümmetin ecelinden önce veya sonra olamaması bu hayatları karşılaştırmaz.
+- 25:63: not relevant - yumuşak yürüyüş ahlakı, koşu yahut y-s-r köküyle kurulan hareket değildir.
+- 28:61: ref ¶59 - güzel vaade kavuşan ile dünya geçimliği verilenin sonu kıyaslanır.
+- 28:70: ref ¶59 - ilk ve sonraki hayatta hamdın Allah'a ait olması.
+- 28:79: ref ¶59 - Karun'un görünür süsüne dünyayı isteyenlerin özenmesi.
+- 28:80: ref ¶59 - bilenlerin Allah'ın karşılığını daha hayırlı sayması.
+- 29:69: not relevant - Allah yolunda çabalayana yolların gösterilmesi iki hayatın önceliği veya yarışı değil.
+- 30:3: ref ¶60 - yakın kelimesi yer için kullanılır.
+- 30:7: ref ¶59 - dünya hayatının görünenini bilip ahiretten habersiz kalma.
+- 31:19: not relevant - ölçülü yürüyüş atın kolay koşusu yahut hayatların sırası değildir.
+- 31:29: ref ¶58 - güneş ve ayın belirli ecele kadar hareketi.
+- 32:24: not relevant - sabırla hidayet eden önderler fiziksel öncü koşucular değildir.
+- 34:30: not relevant - söz verilen günün vaktinin oynatılamaması yakın hayatı tercih etmeyi anlatmaz.
+- 35:13: ref ¶58 - güneş ve ayın belirlenmiş süreye dek koşması.
+- 36:66: not relevant - gözleri silinenlerin yola koşup görememesi iki hayatı karşılaştırmaz.
+- 39:5: ref ¶58 - gök cisimlerinin belirli süreye kadar hareket etmesi.
+- 43:28: not relevant - İbrahim'in soyunda kalan söz ahiret yurdunun kalıcılığına özdeş değildir.
+- 50:39: not relevant - güneşin doğuşu ve batışından önce tesbih vakitleri öncü-izleyici hareketi değildir.
+- 50:40: not relevant - gece ve secdeden sonra tesbih vakitleri bir koşunun safhaları değildir.
+- 52:49: not relevant - yıldızların kayboluşunda tesbih buyruğu yıldızların yüzmesini söylemez.
+- 53:8: not relevant - birinin yaklaşması, dünyanın ahirete göre yakınlığını açıklayan karşılaştırma değildir.
+- 53:25: ref ¶59 - ilk ve sonrakinin ikisi de Allah'a aittir.
+- 53:29: ref ¶59 - anmayı terk edip yalnız dünya hayatını isteme.
+- 56:11: prose ¶60 - öncülerin Allah'a yaklaştırılması açıklanır.
+- 56:12: context ¶60 (in 56:11) - öncülerin nimet bahçelerindeki yeri.
+- 56:13: not relevant - ilk nesillerden kalabalık topluluğun sayısı önde koşan atın yeri değildir.
+- 56:14: not relevant - sonraki nesillerden az sayı, dünya hayatından sonra gelen ahiret demek değildir.
+- 56:96: not relevant - tesbih buyruğu ile öncülerin aynı surede bulunması tek başına koşu bağını kurmaz.
+- 57:27: ref ¶58 - elçilerin öncekilerin izleri üzerine ardışık gönderilmesi.
+- 61:4: not relevant - savaşta sıkı saf halinde durmak önden geriye koşan bir dizi değildir.
+- 70:22: not relevant - namaz kılanların istisnası, namaz kökünün ikinci at kullanımıyla ilişkili değildir.
+- 70:23: not relevant - namazı sürdürme sürekliliği, atın gücünü sonraya saklaması anlamı değildir.
+- 70:43: ref ¶59 - kabirden çıkış bir hedefe koşar gibi tasvir edilir; zorunlu diriliş hareketidir.
+- 73:20: ref ¶59 - önden gönderilen iyilik Allah katında daha iyi bulunur.
+- 76:25: ref ¶60 - aceleci dünya sevgisinden önce Rabbin sabah-akşam anılması buyurulur.
+- 76:26: ref ¶60 - ardından gece secdesi ve uzun tesbih buyurulur.
+- 79:24: ref ¶60 - Firavun'un «en yüce rabbinizim» sözü açıkça işaret edilen ayettir.
+- 79:37: context ¶60 (in 79:39) - dünya tercihi öncesindeki taşkınlık adlandırılır.
+- 79:39: prose ¶60 - dünya tercihi edenin barınağı ateştir.
+- 79:40: context ¶60 (in 79:39) - karşı tarafta Rabbin huzurundan korku ve nefsin tutulması vardır.
+- 79:41: context ¶60 (in 79:39) - karşı tarafın barınağı cennettir.
+- 92:4: ref ¶59 - insanların çabaları farklı yönler alır.
+- 92:13: ref ¶59 - ilk ve sonrakinin ikisi de Allah'a aittir.
+- 102:1: ref ¶59 - çoğaltma yarışı insanı oyalar.
+- 102:2: ref ¶59 - bu oyalanmanın kabirlere kadar sürmesi ilk hayatın sınırıdır.
+- 3:49: not relevant - evlerdeki yiyeceği biriktirme bilgisi atın koşu gücünü saklaması yahut ahiret tercihi değildir.
+- 21:20: not relevant - gece gündüz yorulmadan tesbih ibadeti bir yarıştaki saklı koşu gücü değildir.
+- 73:7: not relevant - gündüzün uzun meşguliyeti, atın koşuda yüzmesi veya öncü sırası diye adlandırılmaz.
+- 84:19: not relevant - halden hale geçişte iki hayatın hangi biri daha hayırlı olduğu söylenmez.
+- 3:145: ref ¶59 - dünya yahut ahiret ödülünü isteyen ayrı pay alır.
+- 3:185: prose ¶59 - son zafer ateşten uzaklaşıp cennete girmektir.
+- 20:65: ref ¶59 - büyücülerin ilk atışı istemesi ilk hamlenin sonucu belirlemediği sahneyi açar.
+- 20:69: ref ¶59 - büyücülerin önceki işi Musa'nın attığıyla yutulur.
+- 20:71: context ¶59 (in 20:73) - Firavun cezasının daha kalıcı olduğunu iddia eder.
+- 20:79: not relevant - Firavun'un kavmini saptırması kılavuzluk sözünün tersidir, fakat bu kesitteki at dizisini veya hayat seçimini açıklamaz.
+- 28:77: ref ¶59 - ahireti ararken dünya payını unutmama sınırı.
+- 28:83: ref ¶59 - ahiret yurdu dünyada yükselme istemeyene verilir.
+- 45:24: ref ¶59 - yalnız dünya hayatı olduğu iddiası bilgisiz bir söze bağlanır.
+- 46:11: ref ¶59 - inanmayanlar öne geçme üstünlüğünü hakikat ölçüsü sanır.
+- 57:3: not relevant - Allah'ın İlk ve Son olması yaratılmış koşucuların ön-arka dizisi değildir.
+- 57:10: ref ¶59 - fedakârlıktaki erken adımın farklı bağlamda daha yüksek derece alması.
+- 59:9: ref ¶58 - tercih fiili başkasını kendine öne koymak için kullanılır.
+- 69:8: not relevant - yok edilmiş toplumdan kimsenin kalmaması ahiret hayatının kalıcılığını açıklamaz.
+- 76:8: not relevant - sevilen yiyeceği başkalarına vermek doğrudan iki hayatın sırasını veya yarışı anlatmaz.
+- 79:46: ref ¶59 - kıyamette önceki kalış çok kısa görünür.
+- 92:10: prose ¶58 - aynı kolaylaştırma fiili zora yönelme için de kullanılır.
+- 8:40: not relevant - Allah'ın yardımcı olması yakın/uzak yamaç veya koşu konumunu açıklamaz.
+- 8:41: ref ¶60 - yakın/uzak yamaçların günü iki topluluğun karşılaşmasıdır.
+- 8:43: not relevant - karşı tarafın rüyada az gösterilmesi yamaçların yakınlık anlamını değiştirmez.
+- 8:44: not relevant - savaşta tarafların az görünmesi yamaçların konumuyla ilgili değildir.
+- 56:8: ref ¶60 - sağ topluluk öncülerin yanındaki ahiret gruplarından biridir.
+- 56:9: ref ¶60 - sol topluluk öncülerin yanındaki ahiret gruplarından biridir.
+- 75:18: not relevant - vahyin okunmasını izleme emri hayatın acele gelen kısmını tercih etme değildir.
+- 75:19: not relevant - vahyi açıklama vaadi dünya-ahiret sırasını kurmaz.
+- 75:22: ref ¶60 - acele geleni sevenlerin ardından kıyamet günü aydınlık yüzler anılır.
+- 75:23: ref ¶60 - aydınlık yüzlerin Rablerine bakması sonraki günün sahnesidir.
+- 79:1: not relevant - yeminin ilk söküp alanları yüzücülerin kimliği diye belirlemez.
+- 79:2: not relevant - düğüm çözer gibi çıkaranların yemini koşucuların türünü adlandırmaz.
+- 79:5: not relevant - işleri düzenleyenlerin yemini öncülerin yarış hedefini söylemez.
+- 79:36 own: not relevant - ateşin gösterilmesi dünya-ahiret tercihini tek başına açıklamaz.
+- 56:7 own: ref ¶60 - ahirette üç topluluğa ayrılma öncülerin yerini belirler.
+- 92:5 own: context ¶58 (in 92:10) - olumlu kolaylaştırma öncesindeki verme ve sakınma.
+- 92:6 own: context ¶58 (in 92:10) - olumlu kolaylaştırma öncesindeki doğrulama.
+- 92:8 own: context ¶58 (in 92:10) - ters yöndeki kolaylaştırma öncesindeki cimrilik.
+- 92:9 own: context ¶58 (in 92:10) - ters yöndeki kolaylaştırma öncesindeki yalanlama.
+- 100:6 own: ref ¶59 - koşucular yemininden sonra insanın Rabbine nankörlüğü anılır.
+- 100:7 own: not relevant - insanın kendi nankörlüğüne şahitliği yarış yahut iki hayatın karşılaştırması değildir.
+- 100:8 own: prose ¶59 - koşu yemininden sonra insanın mala güçlü sevgisi söylenir.
+- 100:9 own: context ¶59 (in 100:8) - kabirdekilerin çıkarılması yakın mal sevgisinin sonraki sahnesidir.
+- 100:10 own: context ¶59 (in 100:8) - göğüslerdekinin açığa çıkarılması sonraki hesabın parçasıdır.
+- 20:74 own: ref ¶59 - suçlu gelenin cehennemdeki sonu bildirilir.
+- 20:75 own: ref ¶59 - iman ve iyi işlerle gelenin yüksek dereceleri bildirilir.
+- 20:76 own: ref ¶59 - o derecelerin kalıcı bahçeler ve arınma karşılığı olduğu açıklanır.
+- 20:83 own: context ¶58 (in 20:84) - Musa'ya halkından niçin öne acele ettiği sorulur.
+- 20:85 own: ref ¶58 - Musa öndeyken geride kalan halkın sınanması fiziksel izlemeyi sınırlar.
+- 23:59 own: not relevant - şirk koşmama, sonraki hayır yarışının genel niteliği olup burada koşu ilişkisi kurmaz.
+- 23:60 own: ref ¶59 - hayırlarda öne geçenler Rablerine dönüşten ürpererek verir.
+- 23:62 own: not relevant - yükümlülüğün güç ölçüsü ve doğru kayıt yarışın hedefini değiştirmez.
+- 23:63 own: not relevant - gaflet içindeki yürekler hakkında karşı söz, öncülük veya dünya-ahiret seçimini açıklamaz.
+- 62:8 own: ref ¶59 - kaçılan ölüm insana yetişir ve Allah'a dönüş gelir.
+- 62:11 own: ref ¶59 - ticarete dağılanlara Allah katındakinin daha iyi olduğu söylenir.
+- 36:38 own: ref ¶58 - güneşin belirlenmiş durağına akması yüzme yörüngesinin öncesidir.
+- 36:39 own: ref ¶58 - aya ölçülen menziller verilmesi yüzme yörüngesini sınırlar.
+- 36:41 own: not relevant - dolu gemide taşınan nesil, gök cisimlerinin yüzdüğü yörüngeye özdeş değildir.
+- 36:42 own: not relevant - binilen benzer taşıtlar öne geçen ve izleyenlerin yarış sırasını vermez.
+- 37:68 own: ref ¶59 - atalarının izinde koşanların dönüşü cehennemdir.
+- 37:69 own: ref ¶59 - izinden koşulan ataların sapmış olduğu belirtilir.
+- 37:71 own: not relevant - ilk topluluklardan çoğunun sapmış olması yarıştaki ilk yerin hükmünü kurmaz.
+- 37:72 own: not relevant - onlara uyarıcı gönderilmesi önde-ardında koşu ilişkisini açıklamaz.
+- 76:28 own: not relevant - yaratılış ve başkalarıyla değiştirilme, acele geleni sevme seçiminin konusunu genişletmez.
+- 76:29 own: ref ¶60 - aceleci tercihten sonra Rabbe yol tutma çağrısı gelir.
+- 59:17 own: not relevant - önceki örneğin ateşteki sonucu, «yarın için gönderme» buyruğundaki fail değildir.
+- 59:19 own: ref ¶59 - Allah'ı unutmanın kendini unutturma karşılığı anma-öncelik çizgisidir.
+- 3:184 own: not relevant - önceki elçilerin yalanlanması nihai kazanma ölçüsüyle ilgili değildir.
+- 3:186 own: not relevant - mal ve canla sınanıp sabretme buyruğu son zafer tanımına doğrudan ek yapmaz.
+- 16:30 own: ref ¶59 - dünyada iyilikle birlikte ahiret yurdunun daha iyi oluşu söylenir.
+- 16:41 own: ref ¶59 - dünyadaki iyi yerleşime karşı ahiret karşılığının daha büyük oluşu.
+- 56:3 own: ref ¶59 - kıyamet kimin alçalacağını ve yükseleceğini değiştiren sondur.
+- 2:149 own: not relevant - kıbleye dönme buyruğu iyiliklerde yarışın nesnesini açıklamaz.
+- 2:150 own: not relevant - aynı kıble buyruğunun topluluğa tekrarı öncülük yarışı değildir.
+- 11:84 own: context ¶59 (in 11:87) - Şuayb ölçü eksiltmemeyi ve kuşatıcı günün azabını söyler.
+- 11:85 own: context ¶59 (in 11:87) - ölçüde adalet buyruğu halkın mal itirazına zemindir.
+- 11:87 own: prose ¶59 - Şuayb'ın halkı namazı malda dilediğini yapma itirazına bağlar.
+- 20:70 own: context ¶59 (in 20:73) - Firavun'a cevap verenlerin secdeye kapanan büyücüler olduğu belirlenir.
+- 20:68 own: ref ¶59 - ilk atıştan önce Musa'ya üstün olacağının bildirilmesi.
+- 20:67 own: not relevant - Musa'nın içindeki korku öncelik veya iki hayat seçimi değildir.
+- 79:22 own: prose ¶60 - Firavun'un dönüp çabalaması yanlış yöne giden harekettir.
+- 79:23 own: context ¶60 (in 79:22) - Firavun'un toplama ve seslenmesi iddiadan hemen öncedir.
+- 79:17 own: context ¶60 (in 79:22) - Musa'nın gönderildiği kişinin Firavun olduğu söylenir.
+- 79:18 own: not relevant - arınma daveti bu kesitteki ön-arka hareketini tek başına açıklamaz.
+- 79:19 own: not relevant - Rabbe yönelten hidayet teklifi koşu sırasının tasviri değildir.
+- 79:20 own: not relevant - büyük işaretin gösterilmesi tercih edilen iki hayatı anlatmaz.
+- 79:21 own: context ¶60 (in 79:22) - Firavun'un yüz çevirmesinden önce yalanlama ve başkaldırı gelir.

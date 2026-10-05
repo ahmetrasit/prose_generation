@@ -1,0 +1,286 @@
+- 2:28: ref ¶36 - ölüm, hayat ve yeniden dirilişin gerçek sırası.
+- 2:49: ref ¶36 - oğullar öldürülürken kadınların sağ bırakılması.
+- 2:86: ref ¶37 - dünya hayatıyla ahireti değiştirenin hafiflemeyen azabı.
+- 2:96: ref ¶37 - çok uzun ömrün azaptan uzaklaştırmaması.
+- 2:154: ref ¶36, ¶37 - öldürülenlerin ölü değil diri sayılması.
+- 2:164: ref ¶36 - suyla ölü toprağın dirilmesi.
+- 2:167: ref ¶37 - ateşten çıkamayanların geri dönme isteği.
+- 2:179: ref ¶36 - kısasla hayatın korunması.
+- 2:255: ref ¶37 - Diri olan Allah’ı uyuklama ve uyku tutmaması.
+- 3:88: ref ¶37 - azabın hafifletilmemesi ve ertelenmemesi.
+- 3:145: ref ¶37 - dünya ve ahiret karşılığını istemenin ayrılması.
+- 3:152: ref ¶37 - aynı olayda dünyanın veya ahiretin istenmesi.
+- 3:169: ref ¶36, ¶37 - öldürülenlerin Rableri katında diri ve rızıklı olması.
+- 3:185: ref ¶37 - herkesin ölümü tatması, dünyanın aldatıcı yararı, ateşten uzaklaşma.
+- 4:56: prose ¶37; ref ¶38 - derilerin değiştirilmesiyle azabın yeniden tattırılması.
+- 4:74: ref ¶37 - dünya hayatını ahiret karşılığında verme.
+- 4:77: ref ¶37 - az dünya yararına karşı sakınan için daha iyi ahiret.
+- 5:32: ref ¶36 - bir canı yaşatmanın öldürmeye karşı konması.
+- 5:37: ref ¶37 - ateşten çıkışın olmaması ve kalıcı azap.
+- 6:122: prose ¶36; ref ¶37 - ölü iken diriltilene insanlar arasında yürütecek nur verilmesi.
+- 7:25: ref ¶36 - yerde yaşama, ölme ve oradan çıkarılma sırası.
+- 7:57: ref ¶36 - suyla ölü toprağı diriltmenin ölülerin çıkarılmasına benzetilmesi.
+- 7:127: ref ¶36 - oğulları öldürüp kadınları sağ bırakma tehdidi.
+- 7:141: ref ¶36 - oğullar öldürülürken kadınların sağ bırakıldığının hatırlatılması.
+- 7:143: ref ¶36 - Mûsâ’nın baygın düşüp sonra ayılması.
+- 8:24: ref ¶36 - Allah ve elçinin hayat veren çağrısı.
+- 8:67: ref ¶37 - dünya malının istenmesine karşı Allah’ın ahireti istemesi.
+- 9:38: ref ¶37 - ahiret yerine dünya hayatına razı olmanın sorgulanması.
+- 10:7: ref ¶37 - dünya hayatına razı olma ve Allah’a kavuşmayı beklememe.
+- 10:8: ref ¶37 - önceki tercihin ateşle sonuçlanması.
+- 10:24: ref ¶37 - dünya hayatının kısa ömürlü bitkiyle anlatılması.
+- 10:52: ref ¶37 - zalimlere kalıcı azabı tatmalarının söylenmesi.
+- 11:15: ref ¶37 - dünya hayatı ve süsünü isteyenlerin payını orada alması.
+- 11:16: ref ¶37 - bu isteğin ardından ahirette ateşten başka pay kalmaması.
+- 11:86: not relevant - Şuayb’ın alışverişte kalan helal paya dair sözü, burada yaşamın kalıcılığına bağlanmıyor.
+- 11:106: ref ¶37 - ateşteki bedbahtların soluklu azap sahnesi.
+- 11:107: ref ¶37 - ateşte kalışın Rabbin dilemesine bağlanması.
+- 11:108: ref ¶37 - bahçede kalışa kesilmeyen bağışın eşlik etmesi.
+- 11:116: not relevant - bozgunculuğu önleyecek kişiler için kullanılan kalıntı sözü, iki hayatın karşılığına bağlanmıyor.
+- 13:17: ref ¶36, ¶37, ¶38 - köpüğün gitmesi, yararlı olanın kalması ve ateştekilerin kalışıyla fiil bağı.
+- 14:3: ref ¶37 - dünya hayatının ahirete üstün tutulması.
+- 14:6: ref ¶36 - öldürülen oğullara karşı sağ bırakılan kadınlar.
+- 14:17: cited ¶38; ref ¶36, ¶37 - ölümün her yandan gelmesi fakat kişinin ölmemesi.
+- 15:23: ref ¶36 - diriltme, öldürme ve geriye kalanın Allah oluşu.
+- 16:21: not relevant - cansız putların “ölü, diri değil” oluşu ateşteki kişinin iki uçtan yoksun halini açıklamaz.
+- 16:30: ref ¶37 - ahiret yurdunun iyi davranan sakınanlar için daha iyi oluşu.
+- 16:65: ref ¶36 - suyun ölü toprağa hayat vermesi.
+- 16:70: ref ¶36 - ömür içindeki kuvvet ve bilgi kaybının ölümden ayrılması.
+- 16:85: ref ¶37 - azabın hafifletilmemesi.
+- 16:96: ref ¶37 - insandakinin tükenip Allah katındakinin kalması.
+- 16:97: ref ¶36, ¶37 - iman ve iyi işle vaat edilen güzel hayat.
+- 16:107: ref ¶37 - dünya hayatının ahiretten çok sevilmesi.
+- 17:18: ref ¶37 - hemen olanı isteyene verilen geçici payın ardından cehennem.
+- 17:19: ref ¶37 - ahireti iman ve çabayla isteyenin karşılığı.
+- 18:45: ref ¶37 - dünya hayatının dağılan kuru bitkiyle örneklenmesi.
+- 18:46: ref ¶37 - dünya süsüne karşı kalıcı iyi işlerin daha değerli oluşu.
+- 19:76: ref ¶37 - kalıcı iyi işlerin Rab katında daha iyi sonuç vermesi.
+- 20:71: cited ¶38; ref ¶36, ¶37 - Firavun’un kendi azabına “daha kalıcı” demesi.
+- 20:72: prose ¶38; ref ¶37 - sihirbazların Firavun’u tercih etmeyip hükmünü dünya hayatıyla sınırlaması.
+- 20:73: prose ¶38; ref ¶37 - sihirbazların “Allah daha hayırlı ve daha kalıcı” cevabı.
+- 20:74: cited ¶38; ref ¶36, ¶37 - suçlunun cehennemde ne ölmesi ne yaşaması.
+- 20:75: ref ¶37, ¶38 - iman ve iyi işle gelenin yüksek derecelere ermesi.
+- 20:76: cited ¶38; ref ¶37 - arınanın sürekli bahçelerle karşılanması.
+- 20:103: ref ¶37 - diriliş gününde geçmiş kalışın on gün sanılması.
+- 20:104: ref ¶37 - geçmiş kalışın bir gün sanılması.
+- 20:120: cited ¶38; ref ¶37 - şeytanın ölümsüzlük ağacıyla sahte kalış önermesi.
+- 20:131: ref ¶37 - dünya hayatının çiçeğine karşı Rabbin rızkının iyi ve kalıcı olması.
+- 21:30: ref ¶36 - canlıların sudan yaratılması.
+- 21:34: ref ¶37, ¶38 - insana dünyada ölümsüzlük verilmemesi.
+- 21:35: ref ¶37, ¶38 - her canın ölümü tadıp Allah’a dönecek olması.
+- 22:5: ref ¶36 - ölü gibi duran yerin suyla canlanmasının diriliş sorusuna bağlanması.
+- 22:22: ref ¶37 - ateşten çıkmak isteyenin geri çevrilmesi.
+- 23:15: ref ¶36 - yaratılış evrelerinden sonra insanların ölmesi.
+- 23:16: ref ¶36 - ölümün ardından kıyamette kaldırılmaları.
+- 23:99: ref ¶38 - ölüm gelince dünyaya dönüp iyi iş isteme.
+- 23:100: ref ¶38 - dönüşün reddedilmesi ve dirilişe kadar engel bulunması.
+- 23:112: ref ¶37 - dünyada kaç yıl kalındığının sorulması.
+- 23:113: ref ¶37 - geçen sürenin bir gün veya daha az sanılması.
+- 23:114: ref ¶37 - kalışın az olduğunun bildirilmesi.
+- 25:13: prose ¶37; ref ¶38 - ateşte yok oluş çağrısı.
+- 25:14: context ¶37 (in 25:13); ref ¶38 - tek değil birçok yok oluş çağırmalarının söylenmesi.
+- 25:49: ref ¶36 - suyla ölü beldenin diriltilmesi.
+- 25:58: prose ¶37; ref ¶36 - Allah’ın ölmeyen Diri oluşu.
+- 26:81: cited ¶38; ref ¶36 - İbrahim’in ölüm ve dirilişini Rabbine bağlaması.
+- 28:4: ref ¶36 - oğulları öldürüp kadınları sağ bırakma.
+- 28:60: ref ¶37 - dünya yararına karşı Allah katındakinin daha iyi ve kalıcı oluşu.
+- 28:61: ref ¶37 - iyi vaade erişenle dünya yararı verilenin ayrılması.
+- 28:79: ref ¶37 - dünya hayatını isteyenlerin Kârûn’un süsüne özenmesi.
+- 28:80: ref ¶37 - Allah’ın ödülünün daha iyi olduğunun söylenmesi.
+- 28:88: ref ¶37 - her şeyin geçip hükmün Allah’a kalması.
+- 29:57: ref ¶37 - her canın ölümü tadıp Allah’a dönmesi.
+- 29:63: ref ¶36 - Allah’ın suyla ölü yeri diriltmesi.
+- 29:64: cited ¶38; ref ¶36, ¶37 - dünya oyununun karşısında ahiretin gerçek hayat oluşu.
+- 30:7: ref ¶37 - dünya hayatının yalnız görünen yüzünü bilip ahiretten gaflet etme.
+- 30:24: ref ¶36 - suyla ölü toprağın dirilmesi.
+- 30:50: ref ¶36 - ölü toprağı diriltenin ölüleri de diriltmesi.
+- 32:20: ref ¶37 - ateşten çıkmak isteyenlerin geri çevrilmesi.
+- 35:9: ref ¶36 - bulut suyunun ölü toprağı diriltip dirilişe örnek olması.
+- 35:36: cited ¶38; ref ¶36, ¶37 - ateştekilere ölüm verilmemesi ve azabın hafiflememesi.
+- 36:33: ref ¶36 - dirilen ölü toprağın yenilebilir ürün vermesi.
+- 37:77: ref ¶36 - Nûh’un soyunun sağ kalanlar kılınması.
+- 39:42: prose ¶36; ref ¶37 - uykuda alınan canın geri gönderilmesi, ölümüne hükmedilenin tutulması.
+- 40:11: ref ¶37 - iki ölüm ve iki hayatı itiraf edenlerin çıkış araması.
+- 40:25: ref ¶36 - oğulları öldürme ve kadınları sağ bırakma buyruğu.
+- 40:39: ref ¶37 - dünyanın geçici yarar, ahiretin kalış yurdu oluşu.
+- 40:46: ref ¶38 - Firavun ailesinin ateşe sunulup daha ağır azaba sokulması.
+- 41:28: ref ¶37 - ateşin kalış yurdu diye adlandırılması.
+- 41:39: ref ¶36 - suyla canlanan toprağın ölülerin dirilmesine bağlanması.
+- 42:36: ref ¶37 - dünya yararına karşı iman edenler için Allah katındakinin iyi ve kalıcı oluşu.
+- 43:11: ref ¶36 - suyla ölü yerin diriltilmesinin insanların çıkarılmasına benzetilmesi.
+- 43:28: not relevant - İbrahim’in soyunda kalan söz, ateşteki yaşayışa veya dünya-ahiret seçimine bağlanmıyor.
+- 43:35: ref ¶37 - dünya süsüne karşı sakınanların ahireti.
+- 43:77: cited ¶38; ref ¶37 - bitirilmeyi isteyen ateştekilere kalacaklarının söylenmesi.
+- 44:56: prose ¶37; ref ¶38 - bahçede ilk ölümden sonra ölümün olmaması ve ateşten korunma.
+- 45:5: ref ¶36 - gökten gelen rızıkla ölü toprağın dirilmesi.
+- 45:24: ref ¶37 - yalnız dünya hayatı vardır iddiası.
+- 45:26: ref ¶37 - ölümden sonra kıyamete toplanmayla bu iddianın cevaplanması.
+- 47:36: ref ¶37 - dünya hayatının oyun ve eğlenceye indirgenmesi.
+- 50:11: ref ¶36 - ölü yerin canlandırılmasının dirilişe örnek olması.
+- 53:29: ref ¶37 - hatırlatmadan dönüp yalnız dünya hayatını isteme.
+- 53:51: ref ¶36 - Semûd’un sağ bırakılmaması.
+- 55:26: ref ¶37 - yeryüzündekilerin geçip gitmesi.
+- 55:27: ref ¶37 - Rabbin yüzünün kalması.
+- 56:60: ref ¶36 - ölümün Allah tarafından takdir edilmesi.
+- 56:61: not relevant - insanların yerini başkalarının alması ve bilinmeyen biçimde yaratılmaları bu ateş halini belirlemiyor.
+- 57:17: ref ¶36 - Allah’ın ölü toprağı diriltmesi.
+- 57:20: ref ¶37 - dünya bitkisinin sararıp dağılması ve ahiret karşılığı.
+- 67:2: ref ¶36 - ölüm ve hayatın sınama için yaratılması.
+- 69:8: ref ¶36 - yok edilenlerden geriye bir kalıntı görülmemesi.
+- 69:27: ref ¶37, ¶38 - hükümdeki kişinin bitirici bir son dilemesi.
+- 75:20: ref ¶37 - hemen olan hayatın sevilmesi.
+- 75:21: ref ¶37 - ahiretin bırakılması.
+- 76:27: ref ¶37 - hemen olanın sevilip ağır günün geriye atılması.
+- 79:38: ref ¶37 - dünya hayatının tercih edilmesi.
+- 79:39: ref ¶37 - bu tercihi yapanın ateşe varması.
+- 79:40: ref ¶37 - Rabbinin huzurundan korkup arzuyu tutanın karşı kutbu oluşturması.
+- 79:41: ref ¶37 - bunun karşılığının bahçe olması.
+- 84:11: ref ¶37, ¶38 - kötü hesapla karşılaşanın yok oluş çağırması.
+- 84:12: ref ¶37, ¶38 - yok oluş çağrısının ardından ateşe girmesi.
+- 89:24: cited ¶38; ref ¶36, ¶37 - gerçek hayat için önceden bir şey göndermemiş olma pişmanlığı.
+- 92:17: ref ¶37, ¶38 - sakınanın ateşten uzak tutulması.
+- 92:18: ref ¶37, ¶38 - malını arınmak için vermesi.
+- 92:19: ref ¶38 - arınma için verenin bir insan borcunu ödememesi.
+- 92:20: ref ¶38 - arınma niyetinin yalnız Rabbin yüzünü araması.
+- 92:21: ref ¶38 - bu arınma yönelişinin hoşnutlukla sonuçlanması.
+- 2:56: ref ¶36 - ölümden sonra yeniden kaldırılma.
+- 2:243: ref ¶36 - ölümden kaçanların öldürülüp sonra diriltilmesi.
+- 2:259: ref ¶36 - yüz yıllık ölümün ardından kaldırılma.
+- 3:14: ref ¶37 - dünya süsünün geçici yarar, Rab katının iyi dönüş oluşu.
+- 3:15: ref ¶37 - dünyevi çekiciliklerden daha iyi sürekli bahçelerin sunulması.
+- 3:154: ref ¶37 - sıkıntıdan sonra emniyet olan uyuklama.
+- 4:134: ref ¶37 - yalnız dünya ödülünü isteyene Allah katında iki hayatın da karşılığının bulunması.
+- 6:32: ref ¶37 - dünyanın oyunu ve eğlencesine karşı daha iyi ahiret yurdu.
+- 6:60: ref ¶36 - gece canların alınması, gündüz yeniden kaldırılması.
+- 7:169: ref ¶37 - yakın dünya kazancını alıp daha iyi ahireti geri plana atma.
+- 8:11: ref ¶37 - uyuklamanın müminler için emniyet kılınması.
+- 8:42: ref ¶36 - “dünya”nın vadinin yakın kıyısını nitelemesi.
+- 10:56: ref ¶36 - hayat ve ölümün Allah’a ait olup dönüşün O’na olması.
+- 13:26: ref ¶37 - dünya hayatına sevinmenin ahiret yanında geçici yarar olması.
+- 18:18: ref ¶36 - uyanık sanılan gençlerin gerçekte uykuda bulunması.
+- 18:19: ref ¶36 - uykudan kaldırılıp ne kadar kaldıklarını sormaları.
+- 20:70: ref ¶38 - sihirbazların secde ve imanıyla tehdit sahnesinin başlaması.
+- 20:124: ref ¶37 - hatırlatmadan dönenin dar bir yaşayışa düşmesi.
+- 23:37: ref ¶37 - yalnız dünya hayatı vardır ve diriltilmeyiz iddiası.
+- 23:80: ref ¶36 - diriltme ve öldürmenin Allah’a ait olması.
+- 24:45: ref ¶36 - her hareketli canlının sudan yaratılması.
+- 25:47: ref ¶36 - uykunun dinlenme ve gündüzün kalkış kılınması.
+- 25:48: not relevant - rüzgâr ve suyun gelişi, diriltme fiiliyle ancak sonraki ayette tamamlanıyor.
+- 26:120: not relevant - Nûh anlatısında geride kalanların boğulması, burada sağ bırakılma veya iyi kalış fikrini taşımıyor.
+- 26:129: ref ¶37, ¶38 - yapıların ebedî kalma beklentisiyle kurulmasının sahte dünya kalıcılığı olması.
+- 27:80: ref ¶36 - ölüye çağrının duyurulamamasıyla diriliğin alıcılığı.
+- 28:77: ref ¶37 - ahireti ararken dünyadaki payı unutmama buyruğu.
+- 30:52: ref ¶36 - ölüye çağrının duyurulamaması.
+- 30:54: not relevant - yaş içindeki güç değişimi ölüm ile hayat arasındaki ayet hükmünü açmıyor.
+- 30:55: ref ¶37 - dirilişte geçen sürenin bir saat sanılması.
+- 30:56: ref ¶37 - bu kalışın diriliş gününe kadar olduğunun düzeltilmesi.
+- 32:27: not relevant - suyla çıkan yenebilir ekin, ölümden dirilmeyi veya iki hayat seçimini söylemiyor.
+- 35:37: prose ¶38; ref ¶37 - ateşten çıkıp iyi iş istemenin verilmiş ömür ve uyarıcıyla cevaplanması.
+- 36:52: ref ¶36 - yeniden kaldırılanların kabri yatak diye anması.
+- 36:68: ref ¶36 - uzun ömrün yaratılışta tersine dönüşe yol açması.
+- 36:78: ref ¶36 - çürümüş kemiğin kim tarafından diriltileceğinin sorulması.
+- 36:79: ref ¶36 - ilk yaratanın onu yeniden dirilteceği cevabı.
+- 37:76: ref ¶36 - Nûh ve ailesinin kurtarılmasıyla soyunun kalması.
+- 39:21: not relevant - sararıp dağılan ekin burada açıkça dünya hayatının karşılığına bağlanmıyor.
+- 39:68: ref ¶36 - düşüşün ardından ikinci üfürmeyle ayağa kaldırılma.
+- 40:49: ref ¶37, ¶38 - ateştekilerin bir günlük azap hafifliği istemesi.
+- 40:58: not relevant - ayette diri ve ölü karşılaştırması yok; kör, gören ve davranışlar karşılaştırılıyor.
+- 40:68: ref ¶36 - diriltme ve öldürmenin Allah’ın buyruğuyla olması.
+- 42:20: ref ¶37 - dünya ekinini isteyenin ahirette pay bulamaması.
+- 43:74: ref ¶37, ¶38 - suçluların cehennem azabında kalması.
+- 43:75: ref ¶37, ¶38 - bu azabın gevşetilmemesi.
+- 44:8: ref ¶36 - tek Rabbin diriltip öldürmesi.
+- 47:15: ref ¶37 - bahçenin değişmeyen akarsularıyla ateşin yakıcı suyunun karşıtlığı.
+- 50:9: not relevant - yağmurun ekin çıkarması tek başına ölü yerin dirilmesini söylemiyor.
+- 50:10: not relevant - hurma ve ürün resmi, yaşam-ölüm veya kalış karşıtlığını taşımıyor.
+- 50:43: ref ¶36 - hayat, ölüm ve dönüşün Allah’a ait oluşu.
+- 53:44: ref ¶36 - öldüren ve diriltenin Allah olması.
+- 57:2: ref ¶36 - mülkün sahibi Allah’ın diriltip öldürmesi.
+- 62:8: ref ¶37 - dünyada kaçılan ölümün sonunda kişiye kavuşması.
+- 74:28: not relevant - Sekar’ın hiçbir şeyi esirgememesi, kişinin ölmeden kalışını açıklamıyor.
+- 78:9: ref ¶36 - uykunun dinlenme kılınması.
+- 104:3: ref ¶38 - malın kişiyi ebedîleştirdiği zannı.
+- 9:42: not relevant - yakın kazanç ve kolay yolculuk, dünya hayatı ile ahiret arasındaki seçimi anlatmıyor.
+- 53:8: not relevant - yaklaşma fiili tek başına dünya hayatının yakınlığını açıklamıyor.
+- 18:107: ref ¶37 - iman ve iyi işle bahçenin konak oluşu.
+- 18:108: ref ¶37 - orada kalanların ayrılmak istememesi.
+- 21:8: ref ¶38 - elçilerin de yemeğe muhtaç ve ölümlü insanlar oluşu.
+- 25:76: ref ¶37 - bahçede kalışın iyi bir yerleşme oluşu.
+- 35:22: ref ¶36 - yaşayanla ölünün eşit olmaması ve duyma ayrımı.
+- 36:70: ref ¶36 - uyarının diri olana yönelmesi.
+- 37:58: ref ¶37 - bahçedekinin artık ölmeyeceklerini sorması.
+- 37:59: ref ¶37 - ilk ölüm dışında ölüm ve azap olmaması.
+- 55:54: not relevant - bahçe meyvesinin yakınlığı, dünya hayatının niçin yakın dendiğiyle ilgili değil.
+- 59:9: not relevant - başkasını kendine tercih etmek, dünya hayatını ahirete tercih etme sahnesi değil.
+- 69:21: ref ¶37 - iyi sonucun hoşnut eden hayat oluşu.
+- 69:23: not relevant - bahçe meyvesinin yakınlığı, ölüm ve kalış ayrımını açmıyor.
+- 76:14: not relevant - bahçe gölgesinin yakınlığı, dünya ile ahiret arasındaki tercihi açıklamıyor.
+- 101:7: ref ¶37 - ağır tartının hoşnut eden hayata varması.
+- 14:15: ref ¶38 - 14:17’deki azabı çeken inatçı zorbanın adlandırılması.
+- 14:16: ref ¶38 - onun cehennemde irinli içecekle karşılaşması.
+- 14:18: ref ¶37 - inkârcıların işlerinin kül gibi dağılması, kazandıklarından yarar alamamaları.
+- 14:19: not relevant - eski yaratılışın yerine yenisini getirme gücü ateşteki iki olumsuzluğu açmıyor.
+- 20:69: ref ¶38 - Mûsâ’nın elindekinin sihirbazların yaptığını yutmasından sonra secde etmeleri.
+- 20:77: ref ¶38 - Mûsâ’ya kavmiyle Firavun’dan uzaklaşma yolunun açılması.
+- 20:78: ref ¶38 - Firavun ve askerlerinin denizde örtülmesiyle dünya gücünün sınır bulması.
+- 20:118: ref ¶38 - Âdem’e bildirilen bahçe hayatında açlık ve çıplaklık olmaması.
+- 20:119: ref ¶38 - bu hayatın susuzluk ve yakıcı güneşten koruması.
+- 20:121: ref ¶38 - ölümsüzlük vaadini izleyen yeme ve yanılma.
+- 20:122: ref ¶38 - yanılmadan sonra Rabbinin Âdem’e dönüp yol göstermesi.
+- 26:79: ref ¶38 - İbrahim’in ölüm ve dirilişten önce yiyecek ve içeceği Rabbine bağlaması.
+- 26:80: ref ¶38 - aynı sözde hastalıktan şifayı da Rabbine bağlaması.
+- 26:82: ref ¶38 - İbrahim’in ölüm-diriliş sözünü hesap gününde bağışlanma umuduyla sürdürmesi.
+- 26:83: not relevant - salihlere katılma duası ölüm ve diriliş cümlesinin doğrudan açıklaması değil.
+- 29:62: not relevant - rızkın genişletilip daraltılması, 29:64’teki iki hayatın niteliğini söylemiyor.
+- 29:65: ref ¶37 - tehlikede Allah’a yönelenlerin kurtulunca yeniden ortak koşması.
+- 29:66: ref ¶37 - bu dönüşe geçici yararlanma ve sonra bilme uyarısının eklenmesi.
+- 35:34: ref ¶38 - bahçe halkından hüznün giderilmesiyle ateş halkının karşıt hali.
+- 35:35: ref ¶38 - bahçedeki kalışta yorgunluğun bulunmaması.
+- 35:38: not relevant - Allah’ın gizliyi bilmesi, 35:36’daki ölememe haline bir unsur eklemiyor.
+- 43:76: not relevant - ateştekilerin kendilerine zulmettiği genel hükmü kalma cevabının niteliğini açmıyor.
+- 43:78: ref ¶38 - kalış cevabının ardından getirilen gerçeğin çoğunca istenmemesi.
+- 43:79: not relevant - tasarlanan işin karşılık bulması, ölüm-hayat ve kalış anlatısını sürdürmüyor.
+- 89:22: not relevant - hüküm sahnesinde Rabbin ve meleklerin gelişi, hayat için geç kalmış pişmanlığın özel bağı değil.
+- 89:23: ref ¶38 - cehennem getirilince insanın artık yararsız kalan hatırlaması.
+- 89:25: not relevant - eşsiz azabın derecesi, “hayatım için hazırlasaydım” sözünün zaman bağına ek yapmıyor.
+- 89:26: not relevant - eşsiz bağlama, bu hayat ve ölüm karşıtlığını açıklamıyor.
+- 87:9 own: ref ¶36 - yarar verdiğinde hatırlatma buyruğunun ardından yüz çevirenin gösterilmesi.
+- 87:10 own: ref ¶36 - korkanın hatırlatmadan yararlanmasının bedbahtın kaçışıyla karşıtlığı.
+- 87:11 own: prose ¶36; ref ¶37 - hatırlatmadan kaçınan en bedbahtın ateş halinin öznesi olması.
+- 87:12 own: context ¶36 (in 87:11) - onun girdiği yerin büyük ateş diye adlandırılması.
+- 87:13 own: ref ¶37 - ateşte ölümle hayatın birlikte olumsuzlanması.
+- 87:14 own: ref ¶37, ¶38 - arınanın kurtuluşunun ateştekine karşı konması.
+- 87:15 own: ref ¶38 - Rabbin anılması ve ibadetin sihirbazların Rabbe secdesiyle buluşması.
+- 87:16 own: ref ¶38 - sihirbazların dünya hükmünü sınırlamasıyla dünya hayatını tercih etme sözü.
+- 87:17 own: ref ¶38 - sihirbazların Allah için söylediği hayırlı ve kalıcı sözünün surenin hükmüyle buluşması.
+- 25:11 own: context ¶37 (in 25:13) - dar ateşe atılanların kıyamet saatini yalanlayanlar olması.
+- 25:12 own: not relevant - ateşin öfke sesi, ölümün gelmemesi veya iki hayat seçimini açmıyor.
+- 25:15 own: ref ¶37 - ateş sahnesinin karşısına sakınanlara vaat edilen sonsuzluk bahçesinin konması.
+- 25:16 own: ref ¶37 - o bahçede istenen nimetlerle sürekli kalınması.
+- 25:17 own: not relevant - putlarla hesaplaşma, bu bölümün ölüm ve hayat ayrımına bağlanmıyor.
+- 39:40 own: ref ¶37 - küçük düşüren ve yerleşip kalan azap.
+- 39:41 own: not relevant - Kitap karşısında doğru yolu seçmenin kişiye yararı, uykunun ölümden ayrılmasını açmıyor.
+- 39:43 own: not relevant - şefaatçilerin güçsüzlüğü ölüm, uyku ve kalış bağlantısını kurmuyor.
+- 39:44 own: not relevant - şefaatin Allah’a ait oluşu ve dönüş, uykuyla ölüm arasındaki ayet ayrımını genişletmiyor.
+- 6:120 own: not relevant - günahı bırakma buyruğu 6:122’deki ölüden diriye dönüş sahnesini özel olarak açıklamıyor.
+- 6:121 own: not relevant - üzerine Allah’ın adı anılmayan yiyecek hükmü bu hayat anlamına bağlanmıyor.
+- 6:123 own: not relevant - kent suçlularının düzenleri 6:122’deki dirilme ve nur karşıtlığını açmıyor.
+- 6:124 own: not relevant - ayet gösterilmesini şart koşanların tavrı diriltilenin nuru hakkında ek söylemiyor.
+- 4:54 own: not relevant - verilen kitaba ve mülke duyulan kıskançlık, ateşin süreklilik sahnesini doğrudan açıklamıyor.
+- 4:55 own: ref ¶37 - kimilerinin inanıp kimilerinin yüz çevirmesi ve cehennem ateşine varması.
+- 4:57 own: ref ¶37 - yanan derilerin karşısında iman edenlerin sürekli bahçe ve gölgede kalması.
+- 4:58 own: not relevant - emanet ve adalet buyruğu ateşteki ölüm-hayat olumsuzluğuyla ilgili değil.
+- 44:54 own: not relevant - bahçede eş verilmesi, ölümün artık tadılmaması bağını ayrıca açmıyor.
+- 44:55 own: ref ¶37 - ölümün bulunmadığı bahçede güvenle meyve isteme.
+- 44:57 own: not relevant - bağışın büyük kurtuluş diye nitelenmesi, ölüm-hayat ayrımına özel bir unsur katmıyor.
+- 44:58 own: not relevant - vahyin anlaşılır kılınması bu bahçedeki ölüm yokluğunu açmıyor.
+- 25:56 own: not relevant - elçinin müjdeleyici ve uyarıcı gönderilmesi Allah’ın ölmeyen Diri oluşunu açıklamıyor.
+- 25:57 own: not relevant - elçinin karşılık istememesi burada ölümden uzak hayatı özel olarak açmıyor.
+- 25:59 own: not relevant - yaratılış ve arşa istiva anlatımı, ölüm-hayat karşıtlığının bu yönüne ek yapmıyor.
+- 25:60 own: not relevant - Rahmân’a secde çağrısının reddi, ölmeyen Diri ile ateştekinin ayrımına bağlanmıyor.
+- 35:39 own: not relevant - küfrün kaybı artırması, ateş halkının geri dönüş isteğinin zaman sınırını açmıyor.
+- 78:21 own: ref ¶37 - cehennemin bekleyen bir varış yeri oluşu.
+- 78:22 own: ref ¶37 - bu yerin azgınlar için dönüş yeri oluşu.
+- 78:23 own: ref ¶37 - orada çağlarca kalış.
+- 78:30 own: ref ¶37 - ateşte azaptan başka artış verilmemesi.
+- 89:21 own: not relevant - yeryüzünün sarsılması, sonradan hayat için hazırlanmadığına pişman olma sözünü açıklamıyor.
