@@ -1,0 +1,101 @@
+{
+  "ref": "S1",
+  "arm": "discover",
+  "brief": "revision4.luna.sec12",
+  "run_tag": "revision4",
+  "section_number": 12,
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "runner": "agent",
+  "agent_path": "/root/s1_r4_12_luna",
+  "agent_id": "01a10bf8-aa77-7543-9a07-26092cf08648",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T08-10-08-01a10bf8-aa77-7543-9a07-26092cf08648.jsonl",
+  "estimate_usd": 0,
+  "cost_usd": 0,
+  "cost_basis": "Codex subscription",
+  "status": "ok",
+  "check": "findings",
+  "followup_mode": "separate-proposals-v1",
+  "consolidation": {
+    "mode": "separate-proposals-v1",
+    "raw_proposal_rows": 48,
+    "unique_additions": 48,
+    "repeated_proposals": [],
+    "turn1_sha256": "7ccd5d182ac6da7130dec0db94c5ba24457719b648dc8835254000bd93e2edaa",
+    "followup_sha256": "3be9c5f12fc7fbd7a08963e9fc9c32bfccb8324516be327705ad2512b99b61ca",
+    "list_sha256": "953e77cbc9e43af235f9efa0f12c530c49817c4b2c62fb219c38e9dde0d42507",
+    "policy": "First occurrence retained; no existing row or grade changed. Raw followup.tsv preserved."
+  },
+  "consolidation_error": null,
+  "usage_tokens": {
+    "input_tokens": 309172,
+    "cached_input_tokens": 243200,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 55228,
+    "reasoning_output_tokens": 46521,
+    "total_tokens": 364400
+  },
+  "turn1_rows": 90,
+  "turn1_lines": 90,
+  "turn1": {
+    "agent_path": "/root/s1_r4_12_luna",
+    "agent_id": "01a10bf8-aa77-7543-9a07-26092cf08648",
+    "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T08-10-08-01a10bf8-aa77-7543-9a07-26092cf08648.jsonl",
+    "rows": 90,
+    "lines": 90,
+    "bad_rows": [],
+    "usage": {
+      "input_tokens": 165412,
+      "cached_input_tokens": 116736,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 39709,
+      "reasoning_output_tokens": 33370,
+      "total_tokens": 205121
+    },
+    "completed_at": "2026-10-05T12:22:10.513Z"
+  },
+  "turn2": {
+    "completed": true,
+    "rows_total": 138,
+    "rows_added": 48,
+    "usage": {
+      "input_tokens": 143760,
+      "cached_input_tokens": 126464,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 15519,
+      "reasoning_output_tokens": 13151,
+      "total_tokens": 159279
+    }
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "bad_rows": [],
+  "duplicates": {},
+  "source_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "inputs_unchanged": true,
+  "followup_delivery": [
+    {
+      "call_id": "call_6kjlo9qZF3VuGNS9fSAy6B8o",
+      "timestamp": "2026-10-05T12:22:35.312Z",
+      "target": "s1_r4_12_luna",
+      "parent_transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/04/rollout-2026-10-04T21-37-28-01a109b5-7256-7930-b51e-78b0a209e630.jsonl",
+      "message_encrypted": true,
+      "plaintext_matches": false
+    }
+  ],
+  "protocol_findings": [],
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "arabic_findings": 22,
+  "followup": "Review your remembered coverage for qualifying omissions under the same inclusion and grading rules, checking the section's distinct scenes and secondary details, repeated formulations, specific indirect parallels, reversals, and necessary passage continuations. Write only the new candidate proposals to /Volumes/aro/projects/prose_generation/_commentary/v16/out/s001/discovery/revision4/sec12/luna/followup.tsv using the same four-field TSV schema, with no header. Do not modify list.tsv. Check from memory that each proposal belongs to its cited ayah; distinguish that ayah's contribution from neighbouring verses. Prefer English over uncertain Arabic quotations. Do not repeat references intentionally. The workflow will preserve your proposals and append each new reference once; it will retain repeated proposals in an audit sidecar without changing existing rows or grades. Zero additions is valid: create an empty followup.tsv. Do not read any files, retrieve sources, consult other agents, or run scripts. A file-write tool or literal shell write solely to save followup.tsv is permitted. Return only a brief completion notice, including any self-detected accuracy concerns; do not send separate messages.",
+  "strength_counts": {
+    "strong": 133,
+    "contrast": 1,
+    "medium": 4
+  },
+  "list_sha256": "953e77cbc9e43af235f9efa0f12c530c49817c4b2c62fb219c38e9dde0d42507",
+  "prompt_sha256": "61fbeeb01cbfd074a043e98c9403fe43da4da9403e7887bd6df34d10ca5ffcc9",
+  "package_sha256": "ef83ba32b8e8336d4aec72dcc4e1a8f5ef51368df1944031fffa195cf9edf17e",
+  "completed_at": "2026-10-05T12:27:17.119Z",
+  "seconds": 1124
+}

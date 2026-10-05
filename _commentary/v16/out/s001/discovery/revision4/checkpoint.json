@@ -1,0 +1,198 @@
+{
+  "surah": 1,
+  "run_tag": "revision4",
+  "time": "2026-10-05T12:29:11.127621+00:00",
+  "state": "awaiting_user_repair_decision",
+  "jobs": [
+    {
+      "section": 4,
+      "model": "luna",
+      "completed_turns": 2,
+      "state": "ok",
+      "snapshot": true,
+      "check": "findings"
+    },
+    {
+      "section": 4,
+      "model": "terra",
+      "completed_turns": 2,
+      "state": "ok",
+      "snapshot": true,
+      "check": "findings"
+    },
+    {
+      "section": 5,
+      "model": "luna",
+      "completed_turns": 2,
+      "state": "ok",
+      "snapshot": true,
+      "check": "findings"
+    },
+    {
+      "section": 5,
+      "model": "terra",
+      "completed_turns": 2,
+      "state": "ok",
+      "snapshot": true,
+      "check": "ok"
+    },
+    {
+      "section": 6,
+      "model": "luna",
+      "completed_turns": 2,
+      "state": "ok",
+      "snapshot": true,
+      "check": "findings"
+    },
+    {
+      "section": 6,
+      "model": "terra",
+      "completed_turns": 2,
+      "state": "partial",
+      "snapshot": true,
+      "check": "findings"
+    },
+    {
+      "section": 7,
+      "model": "luna",
+      "completed_turns": 2,
+      "state": "partial",
+      "snapshot": true,
+      "check": "findings"
+    },
+    {
+      "section": 7,
+      "model": "terra",
+      "completed_turns": 1,
+      "state": "awaiting_followup",
+      "snapshot": true,
+      "check": null
+    },
+    {
+      "section": 8,
+      "model": "luna",
+      "completed_turns": 2,
+      "state": "ok",
+      "snapshot": true,
+      "check": "findings"
+    },
+    {
+      "section": 8,
+      "model": "terra",
+      "completed_turns": 1,
+      "state": "awaiting_followup",
+      "snapshot": true,
+      "check": null
+    },
+    {
+      "section": 9,
+      "model": "luna",
+      "completed_turns": 2,
+      "state": "ok",
+      "snapshot": true,
+      "check": "findings"
+    },
+    {
+      "section": 9,
+      "model": "terra",
+      "completed_turns": 0,
+      "state": "initial_turn_running",
+      "snapshot": false,
+      "check": null
+    },
+    {
+      "section": 10,
+      "model": "luna",
+      "completed_turns": 1,
+      "state": "awaiting_followup",
+      "snapshot": true,
+      "check": null
+    },
+    {
+      "section": 10,
+      "model": "terra",
+      "completed_turns": 0,
+      "state": "initial_turn_running",
+      "snapshot": false,
+      "check": null
+    },
+    {
+      "section": 11,
+      "model": "luna",
+      "completed_turns": 1,
+      "state": "awaiting_followup",
+      "snapshot": true,
+      "check": null
+    },
+    {
+      "section": 11,
+      "model": "terra",
+      "completed_turns": 0,
+      "state": "initial_turn_running",
+      "snapshot": false,
+      "check": null
+    },
+    {
+      "section": 12,
+      "model": "luna",
+      "completed_turns": 2,
+      "state": "ok",
+      "snapshot": true,
+      "check": "findings"
+    },
+    {
+      "section": 12,
+      "model": "terra",
+      "completed_turns": 0,
+      "state": "initial_turn_running",
+      "snapshot": false,
+      "check": null
+    },
+    {
+      "section": 13,
+      "model": "luna",
+      "completed_turns": 1,
+      "state": "awaiting_followup",
+      "snapshot": true,
+      "check": null
+    },
+    {
+      "section": 13,
+      "model": "terra",
+      "completed_turns": 0,
+      "state": "initial_turn_running",
+      "snapshot": false,
+      "check": null
+    },
+    {
+      "section": 14,
+      "model": "luna",
+      "completed_turns": 2,
+      "state": "ok",
+      "snapshot": true,
+      "check": "findings"
+    },
+    {
+      "section": 14,
+      "model": "terra",
+      "completed_turns": 0,
+      "state": "initial_turn_running",
+      "snapshot": false,
+      "check": null
+    }
+  ],
+  "blocked_jobs": [
+    {
+      "section": 6,
+      "model": "terra",
+      "reason": "Nonexistent90:40\u201342; proposed80:40\u201342 from matching explanations."
+    },
+    {
+      "section": 7,
+      "model": "luna",
+      "reason": "Reference/basis columns swapped on follow-up lines44\u201345."
+    }
+  ],
+  "opus_started": false,
+  "policy": "Raw outputs and failed logs preserved. No new follow-ups or merges until user decision; already-running calls left undisturbed."
+}
