@@ -10,6 +10,7 @@ import argparse
 from collections import Counter
 from contextlib import closing
 import copy
+import hashlib
 import json
 from pathlib import Path
 import re
@@ -268,6 +269,17 @@ def allowed_patch(patch, d):
 
 
 def allowed_command(cmd, d):
+    # Single-quoted, print-only ranges on this author's preview are safe even
+    # with a literal end-of-file '$'; no other shell-expansion syntax is allowed.
+    preview = re.fullmatch(r"sed -n '(/[\w .,:^#¶\[\]\\-]+/,(?:/[\w .,:^#¶\[\]\\-]+/|\$)p)' ([A-Za-z0-9_./-]+)", cmd)
+    if preview:
+        path = Path(preview[2]) if Path(preview[2]).is_absolute() else E.PG/preview[2]
+        return path.resolve() == d/'preview/surah.md'
+    query = re.fullmatch(r"rg -n '([\w .,:^|#¶\[\]\\-]+)' ([A-Za-z0-9_./-]+)", cmd)
+    if query and not query[1].startswith('-'):
+        path = Path(query[2]) if Path(query[2]).is_absolute() else E.PG/query[2]
+        path = path.resolve()
+        return path.parent == d or path == d/'preview/surah.md'
     if re.search(r'[;&|<>`$\n\r]', cmd):
         return False
     try: args = shlex.split(cmd)
@@ -279,6 +291,8 @@ def allowed_command(cmd, d):
     if args[0] == 'cat':
         paths = args[1:]
     elif args[:2] == ['sed', '-n'] and len(args) == 4 and re.fullmatch(r'(?:\d+,\d+p|/BC-[0-9a-f]{20}/p)', args[2]):
+        paths = args[3:]
+    elif args[:2] == ['tail', '-n'] and len(args) == 4 and re.fullmatch(r'[1-9][0-9]*', args[2]):
         paths = args[3:]
     else:
         paths = None
@@ -327,16 +341,57 @@ def audit_turns(d, session, events, done):
     return errors,dict(successful_completions=len(successful),unfinished_attempts=failed,resume_delivery=proof)
 
 
+def operator_message(d, call):
+    """Allow only an individually reviewed status acknowledgment to the parent.
+
+    Native message bodies may be encrypted. Bind the operator's plaintext review
+    to the exact native arguments; never treat this exchange as corpus evidence.
+    The author cannot create the review through its permitted patch grammar.
+    """
+    if call['name'].split('.')[-1] != 'send_message':
+        return None
+    inp = json.loads(call['arguments'])
+    parent = read_json(d/'started.json')['agent_path'].rsplit('/', 1)[0]
+    if set(inp) != {'target', 'message'} or inp['target'] != parent:
+        raise ValueError('status acknowledgment must target only the parent operator')
+    try:
+        rows = read_json(d/'operator-messages.json')
+    except OSError as exc:
+        raise ValueError('parent status message needs an exact operator review') from exc
+    if not isinstance(rows, list) or any(not isinstance(row, dict) for row in rows):
+        raise ValueError('invalid operator status-message review list')
+    matches = [row for row in rows if row.get('call_id') == call['call_id']]
+    if len(matches) != 1:
+        raise ValueError('parent status message needs one exact operator review')
+    row = matches[0]
+    if (row.get('arguments_sha256') != hashlib.sha256(call['arguments'].encode()).hexdigest()
+            or row.get('kind') != 'status_acknowledgment'
+            or row.get('reviewed_by') != parent
+            or row.get('research_evidence') is not False
+            or not all(row.get(k) for k in ('message', 'parent_request', 'review'))):
+        raise ValueError('incomplete or changed parent status-message review')
+    encrypted = inp['message'].startswith('gAAAAA')
+    if not encrypted and inp['message'] != row['message']:
+        raise ValueError('reviewed plaintext differs from the native status message')
+    return dict(**row, encrypted_native_body=encrypted)
+
+
 def native_audit(d):
     job = frozen_ok(d)
     session, events, done, contexts, usage = N.events_for(d)
     errors, turn_history = audit_turns(d,session,events,done)
-    normalized = []
+    normalized, operator_messages = [], []
     if not contexts or any(c.get('model') != MODEL or c.get('effort') != EFFORT for c in contexts):
         errors.append('unexpected native model or effort')
     calls, diagnostics = N.tool_audit(events, done[0]['timestamp'] if done else '9999')
     for ordinal, call in enumerate(calls):
         try:
+            reviewed = operator_message(d, call)
+            if reviewed is not None:
+                if ordinal == 0:
+                    raise ValueError('initial bootstrap may only read this image prompt')
+                operator_messages.append(reviewed)
+                continue
             kind, inp = unwrap_call(call['name'], call['arguments'], bootstrap=ordinal==0)
             if kind == 'exec_command':
                 if inp.get('workdir', str(E.PG)) != str(E.PG) or not allowed_command(inp.get('cmd',''), d):
@@ -357,7 +412,7 @@ def native_audit(d):
     D.save(d/'tool_calls.json', normalized)
     (d/'session.events.jsonl').write_text(''.join(json.dumps(e,ensure_ascii=False)+'\n' for e in events))
     return dict(ok=not errors, errors=errors, session=session, completed_turns=len(done),
-                turn_history=turn_history,
+                turn_history=turn_history, operator_messages=operator_messages,
                 contexts=[dict(model=c.get('model'),effort=c.get('effort')) for c in contexts],
                 usage_tokens=usage, diagnostics=diagnostics, calls=len(calls),
                 cost_basis='Codex subscription; no per-call dollar charge recorded'), normalized

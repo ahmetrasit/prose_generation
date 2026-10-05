@@ -1,6 +1,7 @@
 """Offline tests for independent image authors and evidence-preserving assembly."""
 from contextlib import redirect_stdout
 import io
+import hashlib
 import json
 from pathlib import Path
 import unittest
@@ -92,6 +93,24 @@ class BibleImageTest(W.BibleWorkflowTest):
     def test_image_own_preview_and_clock_do_not_authorize_external_tools(self):
         d=(self.home/'work/own').resolve()
         self.assertTrue(I.allowed_command(f"sed -n '1,40p' {d}/preview/surah.md",d))
+        for span in (r'/\[¶22\]/,/\[¶24\]/p', '/## Rahimde toplanan/,/## /p',
+                     '/Düz bir okuma/,/Kur.an damgayı bir tehdit/p', '/^Kur.an damgayı/,$p',
+                     '/## Koşan dizi: önde, ardında, sonda/,$p'):
+            self.assertTrue(I.allowed_command(f"sed -n '{span}' {d}/preview/surah.md",d))
+            self.assertFalse(I.allowed_command(f"sed -n '{span}' {d.parent}/other/preview/surah.md",d))
+            self.assertFalse(I.allowed_command(f"sed -n '{span}' {d}/base.md",d))
+        self.assertFalse(I.allowed_command(f"sed -n '/## Heading/,/## /e' {d}/preview/surah.md",d))
+        self.assertFalse(I.allowed_command(f"sed -n '/## .*/,/## /p' {d}/preview/surah.md",d))
+        self.assertFalse(I.allowed_command(f'sed -n "/^Heading/,$p" {d}/preview/surah.md',d))
+        self.assertFalse(I.allowed_command(f"sed -n '/^Heading/,$w output' {d}/preview/surah.md",d))
+        self.assertFalse(I.allowed_command(f"sed -n '/^Heading/,$p; e whoami' {d}/preview/surah.md",d))
+        self.assertFalse(I.allowed_command(f"sed -n '/^Heading/,$p' {d}/preview/x;whoami/../surah.md",d))
+        query = "rg -n 'Malaki 3:16|gelecek nesillerin|Mesih uğruna'"
+        self.assertTrue(I.allowed_command(f'{query} {d}/annotations.jsonl',d))
+        self.assertFalse(I.allowed_command(f'{query} {d.parent}/other/annotations.jsonl',d))
+        self.assertFalse(I.allowed_command(f'{query} {d}/annotations.jsonl;whoami',d))
+        self.assertFalse(I.allowed_command(f"rg -n '--pre' {d}/annotations.jsonl",d))
+        self.assertFalse(I.allowed_command(f'rg -n "words" {d}/annotations.jsonl',d))
         lookup = "sed -n '/BC-070cebfd3237a3852597/p'"
         self.assertTrue(I.allowed_command(f'{lookup} {d}/candidates.jsonl',d))
         self.assertFalse(I.allowed_command(f'{lookup} {d.parent}/other/candidates.jsonl',d))
@@ -105,6 +124,17 @@ class BibleImageTest(W.BibleWorkflowTest):
         self.assertEqual(I.unwrap_call('exec','const r = await tools.clock__curr_time({}); text(r.current_time);'),('clock',{}))
         with self.assertRaises(ValueError):
             I.unwrap_call('exec','const r = await tools.clock__curr_time({}); text(r.current_time); await tools.web__run({});')
+
+    def test_image_tail_reads_only_own_files_with_fixed_options(self):
+        d=(self.home/'work/own').resolve()
+        self.assertTrue(I.allowed_command(f'tail -n 23 {d}/verdicts.jsonl',d))
+        self.assertTrue(I.allowed_command(f'tail -n 10 {d}/preview/surah.md',d))
+        for suffix in (f'{d.parent}/other/verdicts.jsonl', f'{d}/../other/verdicts.jsonl',
+                       f'{d}/verdicts.jsonl;whoami', f'{d}/verdicts.jsonl -f',
+                       f'{d}/verdicts.jsonl {d}/annotations.jsonl'):
+            self.assertFalse(I.allowed_command(f'tail -n 23 {suffix}',d))
+        for options in ('-f', '-c 23', '-n +23', '-n 0', '-n -23', '-n 23 -f'):
+            self.assertFalse(I.allowed_command(f'tail {options} {d}/verdicts.jsonl',d))
 
     def test_image_resumption_requires_exact_failed_history_and_delivery(self):
         root=self.prepare_images();d=root/'sec1'
@@ -124,6 +154,35 @@ class BibleImageTest(W.BibleWorkflowTest):
             self.assertTrue(I.audit_turns(d,{},events,done+[done[-1]])[0])
         with patch('enrichment.bible.discovery_native.followup_proof',return_value=[]):
             self.assertTrue(I.audit_turns(d,{},events,done)[0])
+
+    def test_image_parent_status_message_requires_exact_operator_review(self):
+        root=self.prepare_images(); d=root/'sec1'
+        call=dict(name='collaboration.send_message',call_id='ack',
+                  arguments=json.dumps(dict(target='/root',message='Corrected the quoted spelling.')))
+        with self.assertRaisesRegex(ValueError,'exact operator review'):
+            I.operator_message(d,call)
+        row=dict(call_id='ack',arguments_sha256=hashlib.sha256(call['arguments'].encode()).hexdigest(),
+                 kind='status_acknowledgment',reviewed_by='/root',research_evidence=False,
+                 message='Corrected the quoted spelling.',parent_request='Reopen and check the witness.',
+                 review='A status reply, without another author or additional source evidence.')
+        save(d/'operator-messages.json',[row])
+        self.assertFalse(I.operator_message(d,call)['encrypted_native_body'])
+        self.assertIsNone(I.operator_message(d,dict(name='exec')))
+        self.assertFalse(I.allowed_patch(f'*** Update File: {d}/operator-messages.json',d))
+        for key,value in [('target','/root/another_author'),('message','A different message')]:
+            inp=json.loads(call['arguments']);inp[key]=value
+            with self.assertRaises(ValueError):
+                I.operator_message(d,dict(call,arguments=json.dumps(inp)))
+        save(d/'operator-messages.json',[dict(row,message='Invented plaintext')])
+        with self.assertRaisesRegex(ValueError,'plaintext differs'):
+            I.operator_message(d,call)
+        save(d/'operator-messages.json',[dict(row,research_evidence=True)])
+        with self.assertRaises(ValueError): I.operator_message(d,call)
+        save(d/'operator-messages.json',[row,row])
+        with self.assertRaises(ValueError): I.operator_message(d,call)
+        encrypted=dict(call,arguments=json.dumps(dict(target='/root',message='gAAAAAencrypted-native-body')))
+        save(d/'operator-messages.json',[dict(row,arguments_sha256=hashlib.sha256(encrypted['arguments'].encode()).hexdigest())])
+        self.assertTrue(I.operator_message(d,encrypted)['encrypted_native_body'])
 
     def test_image_assembly_remaps_ids_and_preserves_per_section_evidence(self):
         root=self.prepare_images()

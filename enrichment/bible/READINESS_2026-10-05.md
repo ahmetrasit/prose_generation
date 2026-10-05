@@ -1,6 +1,16 @@
 # Bible pathway readiness — 2026-10-05
 
-The S1 surah pilot is now accepted: **14 Sol max image authors, 340 annotations
+The S87 surah pilot is now accepted: **18 Sol max image authors, 346 annotations
+and 3,703 judgments** across all 73 original r13 commentary paragraphs. The
+[accepted page and evidence](audits/image-s087-session-20261005/README.md) retain
+all 3,523 image discovery connections and 180 additional research/context
+decisions. The local snapshot supplied 1,605 distinct candidate references;
+282 remained unavailable. Every image passed native execution, frozen-input,
+source-evidence, coverage and placement checks. All final annotation prose and
+278 tagged original-language quotations were reviewed; the original commentary
+is preserved.
+
+The S1 surah pilot is also accepted: **14 Sol max image authors, 340 annotations
 and 4,030 judgments**, with the original r13 commentary preserved. See the
 [accepted page and evidence](audits/image-s001-session-20261005/README.md).
 Its 3,817 discovery connections came from the completed S1 two-reader discovery
@@ -12,18 +22,19 @@ The [saved decision](DECISIONS.md) makes original completed r13 image commentary
 the surah Bible target; image augment9s is optional and later additions can receive
 a separate pass. Ayah enrichment still uses completed augment9 ayah commentary.
 This session uses one Sol max author per image. The default page-author model is
-unchanged for other runs. Both Bible test modules pass: 77 distinct tests.
+unchanged for other runs. The current Bible suite passes 79 distinct tests
+(65 shared Bible workflow tests and 14 image-author tests).
 
 S87 discovery has completed all 148 turns across 18 images and 19 ayat
 (74 Luna/Terra max sessions). All 74 now pass discovery validation, after the
 user-approved nine wave1 and three wave2 locator corrections. The original raw
 evidence and failed validations remain intact. The
 [S87 audit](audits/s087-prepared-20261005/README.md) preserves the full batch and
-repair history. Its 7,664 candidate connections cover all 37 targets, and the final
-report is ready for merging. No S87 page authors have started; prepare verified
-source handoffs before writing S87 pages.
-S1 ayah page authors and broader source coverage also remain separate work.
-Nothing has been published.
+repair history. Its 7,664 candidate connections cover all 37 targets. All 38
+handoffs are now merged and selected: 18 images, 19 ayat and the combined surah.
+The image-author archive preserves those handoffs and their discovery provenance.
+S1 and S87 ayah page authors, broader source coverage and reader publication remain
+separate work. Neither pilot has been published to the reader.
 
 ## Earlier implementation-readiness assessment (before the live pilot)
 
@@ -124,7 +135,9 @@ witnesses and passages must remain explicit gaps; memory claims stay marked as
 unverified. These gaps limit the comprehensiveness of enrichment, not the ability
 to search the original-language texts already indexed.
 
-## What remains before production use
+## Earlier production checklist (historical)
+
+This checklist records the pre-pilot state; the completed work is reported above.
 
 1. Complete a two-reader, two-turn native discovery pilot for ayah 1:1. The
    configured Luna/Terra model identifiers must be available in the chosen native

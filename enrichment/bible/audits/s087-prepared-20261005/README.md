@@ -1,10 +1,13 @@
 # S87 Bible discovery — completed native turns
 
 All 74 sessions now pass discovery validation. The [final batch report](report.md)
-marks all 37 targets ready for merging: 7,664 candidate connections, comprising
+records 7,664 candidate connections across all 37 targets, comprising
 3,523 image connections and 4,141 ayah connections. The 4,977 first-pass rows gained
-2,687 distinct follow-up proposals. These are discovery candidates; source
-verification and page authorship remain later stages.
+2,687 distinct follow-up proposals. All 38 handoffs have now been merged and
+selected: 18 images, 19 ayat and the combined surah. Source verification and
+authorship for the 18 original images are complete in the
+[accepted S87 surah pilot](../image-s087-session-20261005/README.md), whose archive
+preserves the selected handoffs and metadata. Ayah page authorship remains separate.
 
 The user approved the [three wave2 corrections](repairs-wave2.accepted.json):
 `2Chron` becomes `2Chr` in two locators, and Wisdom of Solomon loses its incorrect
@@ -12,7 +15,7 @@ WLC edition prefix. Raw files, grades and explanations are preserved. The
 [wave2 manifest](repairs-wave2.manifest.json) records the replacement/additional
 files under `repairs-wave2/`. Both final artifact chains were reconstructed from
 the immutable native-turn archive plus these files and verified against their
-accepted hashes. No new model calls were needed. No S87 page authors have started.
+accepted hashes. The locator corrections required no new model calls.
 
 ## Native-turn checkpoint before wave2 acceptance
 
@@ -44,5 +47,7 @@ accepted job's artifact chain was verified before compression, and every archive
 member was reread and hashed afterward. This is the immutable checkpoint before
 wave2; later corrections must preserve it and add their own acceptance records.
 
-The [original-image decision](../../DECISIONS.md) governs the surah scope. Corpus
-fetching, source verification, gap handling and authorship remain later stages.
+The [original-image decision](../../DECISIONS.md) governs the surah scope. At this
+historical checkpoint, source verification, gap handling and authorship remained
+later stages; the accepted image pilot linked above records their completion
+against the available local witnesses, without network source expansion.

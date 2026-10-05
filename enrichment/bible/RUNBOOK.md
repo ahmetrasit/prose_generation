@@ -285,7 +285,23 @@ counted as successful completions. Reading the agent's own generated preview and
 checking the clock are operational activities, not additional research sources.
 The same applies to a nonrecursive listing of the agent's own call directory.
 An exact candidate-ID lookup with `sed -n '/BC-<20 lowercase hex digits>/p'`
-is an allowed read of the agent's own files; other sed scripts remain prohibited.
+is an allowed read of the agent's own files.
+The agent's own preview also permits single-quoted, print-only ranges between
+escaped numbered paragraph markers or text prefixes, optionally to end of file.
+These ranges cannot execute commands, write files or read another directory.
+Other sed scripts remain prohibited.
+A single-quoted text search with only the fixed flags in "rg -n" may inspect one
+file in the author's own directory or its own preview; extra options, shell
+expressions and reads outside that scope remain prohibited.
+The fixed form `tail -n <positive integer> <own file>` may read the end of one
+file in the same scope; follow mode, byte counts and additional options are not
+permitted.
+An author's status acknowledgment to the parent operator can be retained only
+with an individual `operator-messages.json` review binding its native call ID and
+argument hash to the received plaintext, parent request and reason. This exception
+does not permit consulting another author, and messages never count as source
+evidence. Encrypted native bodies remain marked as such; the plaintext is the
+operator's recorded observation. The author cannot write this review file.
 
 Each image must pass schema, paragraph-scope, candidate/gap-coverage and actual
 opened-evidence checks. Canonical rejection requires the original verse too.
