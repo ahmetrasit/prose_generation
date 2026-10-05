@@ -1,22 +1,10 @@
 #!/usr/bin/env python3
-"""Image-based inter-ayah discovery for the surah commentary (user, 2026-10-04 evening): before the surah-commentary
-augment, GPT agents find, per image section of images.md, the ayat the image activates (scene, root, theme, speaker,
-contrast, neighbour), as the focus-ayah-100-card-review-v2 protocol did for every ayah (quran-slm/inter-ayah: Terra
-reviewed a package, then the fixed follow-up asked for the missing ayat). Here there is no retrieval package: the
-package is the section's prose, its ayat, its roots and the whole surah in Arabic, and the agents work from their
-own knowledge of the Quran. Two models per section (Luna max, Terra max through the Codex subscription), two turns
-each (the brief, then the fixed follow-up in the same session), merged into one tiered list per section.
+"""Prepare and merge image-based inter-ayah discovery packages.
 
-  python3 -B _commentary/v16/discover.py --surah 87                      # packages and prompts only; no call
-  python3 -B _commentary/v16/discover.py --surah 87 --go                 # every section x every model (not run before)
-  python3 -B _commentary/v16/discover.py --surah 87 --sections 1,2 --models luna --go
-  python3 -B _commentary/v16/discover.py --surah 87 --merge              # sec<k>.merged.tsv from the finished lists
-  python3 -B _commentary/v16/discover.py --surah 87 --status
-
-Output: out/sNNN/discovery/sec<k>/<model>/ (package.md, prompt.md, list.tsv as the agent wrote it, run.stream.jsonl,
-run.log.json; blocked by started.json, never rerun) and out/sNNN/discovery/sec<k>.merged.tsv. Rows the agent wrote
-that break the schema are kept in list.tsv, listed in run.log.json and left out of the merge (never silent).
-Codex runs are on the subscription: the ledger row carries tokens and cost 0.
+Native Luna/Terra agents perform two turns in each same session; no model calls
+are launched by this script. Use discovery_native.py for start/snapshot/audit/
+finish bookkeeping. Every user-authorized rerun requires a fresh --run-tag.
+Legacy CLI runner code remains below for historical inspection, but is blocked.
 """
 from __future__ import annotations
 
@@ -40,11 +28,15 @@ MODELS = {"luna": "gpt-6-luna", "terra": "gpt-5.6-terra"}
 EFFORT = "max"
 STRENGTH = {"strong", "medium", "weak", "contrast"}
 BASES = {"scene", "root", "theme", "speaker", "contrast", "neighbour"}
-FOLLOWUP = ("Review your remembered coverage for missing ayat under the same inclusion and grading rules. "
-            "Append only qualifying omissions, using the same TSV schema. Zero additions is a valid result. "
-            "Do not read files or run scripts; file writes needed to append the rows are permitted.")
+FOLLOWUP = ("Review your remembered coverage for qualifying omissions under the same inclusion and grading rules, "
+            "checking the section's distinct scenes and secondary details, repeated formulations, specific indirect "
+            "parallels, reversals, and necessary passage continuations. Append only previously unlisted ayah references "
+            "using the same TSV schema. Keep existing bytes unchanged. Zero additions is valid. Do not read any files, "
+            "retrieve sources, or run scripts; a file-write tool or a literal append-only shell write solely to save "
+            "the rows is permitted. Do not regrade, sort, or rewrite the existing list. Return only a brief completion notice.")
 SECTION = re.compile(r"(?m)^## (.+)$")
 KAYNAK = re.compile(r"(?m)^Kaynaklar:\s*(.*)$")
+MEMBER = re.compile(r"\s*(\d+:\d+)\s+(.+?)\s+([ء-ي](?:\s+[ء-ي]){2,3})\s+(B\d+(?:\s*,\s*B\d+)*)\s*")
 TIMEOUT = 3 * 3600
 
 
@@ -59,9 +51,13 @@ def sections(text: str) -> list[dict]:
         members = []
         if km:
             for item in km.group(1).split(";"):
-                m = re.match(r"\s*(\d+:\d+)\s+(\S+)\s+((?:\S\s)+\S)\s+(B\d+)", item)
-                if m:
-                    members.append({"ayah": m.group(1), "word": m.group(2), "root": m.group(3), "branch": m.group(4)})
+                m = MEMBER.fullmatch(item)
+                if not m:
+                    raise ValueError(f"section {i + 1}: unparsed Kaynaklar item: {item!r}")
+                members.append({"ayah": m.group(1), "word": m.group(2), "root": " ".join(m.group(3).split()),
+                                "branch": ", ".join(re.findall(r"B\d+", m.group(4)))})
+        elif not h.group(1).strip().lower().startswith("buluşma"):
+            raise ValueError(f"section {i + 1}: missing Kaynaklar line")
         prose = KAYNAK.sub("", body).strip()
         out.append({"k": i + 1, "title": h.group(1).strip(), "start": h.start(), "end": end, "prose": prose,
                     "members": members, "ayat": sorted({x["ayah"] for x in members}, key=lambda r: tuple(map(int, r.split(":")))),
@@ -107,7 +103,7 @@ def parse_rows(path: Path, s: int, q: dict[str, str]) -> tuple[list[dict], list[
     """Valid rows and the lines that break the schema (reported, never dropped silently)."""
     rows, bad = [], []
     if not path.exists():
-        return rows, bad
+        return rows, [f"missing deliverable: {path}"]
     for i, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
         if not line.strip():
             continue
@@ -117,7 +113,7 @@ def parse_rows(path: Path, s: int, q: dict[str, str]) -> tuple[list[dict], list[
             continue
         strength, ref, basis, note = (x.strip() for x in f)
         bases = {b.strip() for b in basis.split("+")}
-        if strength not in STRENGTH or not re.fullmatch(r"\d+:\d+", ref) or ref not in q or not bases <= BASES:
+        if not note or strength not in STRENGTH or not re.fullmatch(r"\d+:\d+", ref) or ref not in q or not bases <= BASES:
             bad.append(f"line {i}: strength/ref/basis not in the schema: {line[:120]}")
             continue
         if ref.split(":")[0] == str(s):
@@ -155,6 +151,7 @@ def stream_info(stdout: str) -> dict:
 
 
 def run(s: int, sec: dict, model: str, q: dict[str, str], run_tag: str = "") -> dict:
+    raise RuntimeError("Legacy script-run discovery is disabled; spawn native agents")
     d = discovery_dir(s, run_tag) / f"sec{sec['k']}" / model
     if V.blocked(d):
         return {"sec": sec["k"], "model": model, "status": "skipped", "why": "started or finished before (never rerun)"}
@@ -215,12 +212,24 @@ def merge(s: int, secs: list[dict], q: dict[str, str], run_tag: str = "") -> Non
         for model in MODELS:
             f = base / model / "list.tsv"
             if not (base / model / "run.log.json").exists():
-                print(f"NOTE: S{s} sec{sec['k']}: no finished {model} run; merged without it")
-                continue
+                raise ValueError(f"S{s} sec{sec['k']}: missing finished {model} run; no partial merge")
             rows, bad = parse_rows(f, s, q)
             log = json.loads((base / model / "run.log.json").read_text(encoding="utf-8"))
-            n1 = log.get("turn1_rows", len(rows))
-            per[model] = {r["ref"]: {**r, "turn": 1 if r["line"] <= n1 or n1 == 0 else 2} for r in rows}
+            first_path = base / model / "turn1.list.tsv"
+            if (log.get("status") != "ok" or not log.get("turn2", {}).get("completed")
+                    or bad or len({r["ref"] for r in rows}) != len(rows) or not first_path.exists()):
+                raise ValueError(f"S{s} sec{sec['k']} {model}: incomplete or invalid discovery run")
+            original = first_path.read_bytes()
+            if not f.read_bytes().startswith(original) or not log.get("append_only"):
+                raise ValueError(f"S{s} sec{sec['k']} {model}: first-turn prefix changed")
+            if log.get("protocol_findings") or (log.get("tool_audit_reviewed") is not True and
+                    not (base / model / "protocol_review.json").exists()):
+                raise ValueError(f"S{s} sec{sec['k']} {model}: unresolved protocol findings")
+            first_rows, first_bad = parse_rows(first_path, s, q)
+            if first_bad:
+                raise ValueError(f"S{s} sec{sec['k']} {model}: invalid first-turn snapshot")
+            first_refs = {r["ref"] for r in first_rows}
+            per[model] = {r["ref"]: {**r, "turn": 1 if r["ref"] in first_refs else 2} for r in rows}
         if not per:
             print(f"WARNING: S{s} sec{sec['k']}: no discovery list at all; nothing merged")
             continue
@@ -237,6 +246,21 @@ def merge(s: int, secs: list[dict], q: dict[str, str], run_tag: str = "") -> Non
                 cells += [per[m][r]["strength"] if r in per[m] else "", str(per[m][r]["turn"]) if r in per[m] else ""]
             lines.append("\t".join([r, tier, *cells, "+".join(bases), notes]))
         (base.with_name(f"sec{sec['k']}.merged.tsv")).write_text("\n".join(lines) + "\n", encoding="utf-8")
+        import hashlib
+        merged_file = base.with_name(f"sec{sec['k']}.merged.tsv")
+        source_hashes = {json.loads((base / m / "run.log.json").read_text()).get("source_sha256") for m in per}
+        if len(source_hashes) != 1:
+            raise ValueError("Model runs used different source commentary versions")
+        audit = {"surah": s, "section": sec["k"], "run_tag": run_tag,
+                 "source_sha256": next(iter(source_hashes)),
+                 "list_sha256": hashlib.sha256(merged_file.read_bytes()).hexdigest(),
+                 "models": {m: {"run_log": str(base / m / "run.log.json"),
+                                 "validation_review": json.loads((base / m / "validation_review.json").read_text())
+                                 if (base / m / "validation_review.json").exists() else None,
+                                 "validation": json.loads((base / m / "validation.json").read_text())
+                                 if (base / m / "validation.json").exists() else None}
+                            for m in per}}
+        merged_file.with_suffix(".audit.json").write_text(json.dumps(audit, ensure_ascii=False, indent=2) + "\n")
         both = sum(1 for r in refs if all(r in per[m] for m in per)) if len(per) > 1 else None
         print(f"S{s} sec{sec['k']} '{sec['title']}': merged {len(refs)} passages from {', '.join(per)}"
               + (f", {both} named by both" if both is not None else ""))
@@ -253,6 +277,8 @@ def main() -> None:
     ap.add_argument("--merge", action="store_true")
     ap.add_argument("--status", action="store_true")
     a = ap.parse_args()
+    if a.go:
+        raise SystemExit("BLOCKED: discovery model calls must use native agents; use discovery_native.py for bookkeeping")
     root = discovery_dir(a.surah, a.run_tag)
     _, images, _ = B.surah_inputs(a.surah)
     text = images.read_text(encoding="utf-8")
@@ -271,7 +297,12 @@ def main() -> None:
             st = []
             for m in MODELS:
                 d = base / m
-                st.append(f"{m}: " + ("done" if (d / "run.log.json").exists() else "BLOCKED (started)" if V.blocked(d) else "-"))
+                if (d / "run.log.json").exists():
+                    log = json.loads((d / "run.log.json").read_text())
+                    state = f"{log.get('status', 'unknown')} (check: {log.get('check', 'unknown')})"
+                else:
+                    state = "BLOCKED (started)" if V.blocked(d) else "-"
+                st.append(f"{m}: {state}")
             print(f"S{a.surah} sec{sec['k']} '{sec['title']}' ({len(sec['ayat'])} ayat, {len(sec['roots'])} roots): "
                   + "; ".join(st) + ("; merged" if base.with_name(f"sec{sec['k']}.merged.tsv").exists() else ""))
         if a.merge:

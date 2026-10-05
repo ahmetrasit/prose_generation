@@ -44,17 +44,36 @@ def out_root(s: int) -> Path:
 
 
 def section_list(s: int, k: int, override: Path | None = None) -> list[dict]:
-    f = override or DS.surah_dir(s) / "discovery" / f"sec{k}.merged.tsv"
+    if override is None:
+        raise ValueError("Select the discovery attempt explicitly with --run-tag or --list")
+    f = override
     if not f.exists():
-        raise SystemExit(f"{f}: no merged discovery list for section {k}; run discover.py --merge first")
+        raise ValueError(f"{f}: missing merged discovery list")
     lines = f.read_text(encoding="utf-8").splitlines()
+    if not lines:
+        raise ValueError(f"{f}: missing header")
     head = lines[0].split("\t")
-    rows = []
-    for line in lines[1:]:
+    required = {"ref", "tier", "bases", "explanations", "luna_label", "luna_turn", "terra_label", "terra_turn"}
+    if len(head) != len(set(head)) or not required <= set(head):
+        raise ValueError(f"{f}: invalid merged header")
+    q, rows, seen = M.verses(), [], set()
+    for number, line in enumerate(lines[1:], 2):
         if not line.strip():
             continue
-        c = dict(zip(head, line.split("\t")))
-        rows.append(c)
+        fields = line.split("\t")
+        if len(fields) != len(head):
+            raise ValueError(f"{f}:{number}: wrong field count")
+        row = dict(zip(head, fields))
+        if (row["ref"] not in q or row["ref"].startswith(f"{s}:") or row["ref"] in seen
+                or row["tier"] not in TIERS or not row["explanations"].strip()
+                or not set(row["bases"].split("+")) <= DS.BASES):
+            raise ValueError(f"{f}:{number}: invalid or duplicate candidate")
+        for model in DS.MODELS:
+            label, turn = row[f"{model}_label"], row[f"{model}_turn"]
+            if (label and (label not in DS.STRENGTH or turn not in ("1", "2"))) or (not label and turn):
+                raise ValueError(f"{f}:{number}: invalid model provenance")
+        seen.add(row["ref"])
+        rows.append(row)
     return rows
 
 
@@ -86,7 +105,8 @@ def build(s: int, k: int, override: Path | None = None) -> tuple[str, dict]:
         for r in rs:
             who = "; ".join(f"{h[:-6]}: {r[h]}" + (" (missing-ayat turn)" if r.get(h[:-6] + "_turn") == "2" else "")
                             for h in labels if r.get(h))
-            lines.append(f"- ({r['ref']}) [{who}; basis: {r['bases']}]{A.cited_in(r['ref'], sec_cites)} {q.get(r['ref'], '')}")
+            lines.append(f"- ({r['ref']}) [{who}; basis: {r['bases']}]{A.cited_in(r['ref'], sec_cites)} {q[r['ref']]}"
+                         f"\n  Unverified discovery rationale: {r['explanations']}")
             order.append(r["ref"])
         blocks.append(f"## {t} ({len(rs)})\n\n" + "\n".join(lines))
     listed = set(order)
@@ -114,10 +134,22 @@ def build(s: int, k: int, override: Path | None = None) -> tuple[str, dict]:
                 (f"{V.rel(images)} section {k} (prose paragraphs numbered)", "\n\n".join(numbered)),
                 (V.rel(led), led.read_text(encoding="utf-8") if led.exists() else "(no ledger)\n"),
                 (f"passages from the discovery list ({len(order)})", "\n\n".join(blocks) + "\n")]
+    import hashlib
+    audit_path = override.with_suffix(".audit.json") if override else None
+    if audit_path and audit_path.exists():
+        audit = json.loads(audit_path.read_text())
+        if audit.get("list_sha256") != hashlib.sha256(override.read_bytes()).hexdigest():
+            raise ValueError("Discovery list differs from its audit sidecar")
+        if audit.get("source_sha256") and audit["source_sha256"] != hashlib.sha256(images.read_bytes()).hexdigest():
+            raise ValueError("Commentary changed since the selected discovery attempt")
+        secs_txt.append(("Discovery accuracy findings (unverified; inspect canonical text)", json.dumps(audit, ensure_ascii=False)))
+    head += "Discovery rationales and accuracy flags are unverified. Judge each against canonical Arabic, including speaker, negation and ayah boundaries.\n\n"
     full = head + "".join(f"===== {p} =====\n{b.rstrip()}\n\n" for p, b in secs_txt)
     return full, {"kind": "images-section", "file": V.rel(images), "surah": s, "section": k, "title": sec["title"],
                   "paragraphs": nums, "passages": len(order), "listed": order, "sections": len(secs),
-                  "list_file": str(override or DS.surah_dir(s) / "discovery" / f"sec{k}.merged.tsv")}
+                  "list_file": str(override), "list_sha256": hashlib.sha256(override.read_bytes()).hexdigest(),
+                  "source_sha256": hashlib.sha256(images.read_bytes()).hexdigest(),
+                  "discovery_candidates": len(rows), "context_neighbours": len(near)}
 
 
 def estimate(text: str, n: int) -> float:
@@ -247,11 +279,16 @@ def main() -> None:
     ap.add_argument("--surah", type=int, required=True)
     ap.add_argument("--section", type=int)
     ap.add_argument("--list", type=Path, help="a merged list file in place of the discovery's (tests)")
+    ap.add_argument("--run-tag", help="explicit discovery attempt to use")
     ap.add_argument("--spawn", action="store_true")
     ap.add_argument("--finish", action="store_true")
     ap.add_argument("--merge", action="store_true")
     ap.add_argument("--status", action="store_true")
     a = ap.parse_args()
+    if a.run_tag and a.list:
+        ap.error("choose --run-tag or --list, not both")
+    if a.run_tag and a.section is not None:
+        a.list = DS.discovery_dir(a.surah, a.run_tag) / f"sec{a.section}.merged.tsv"
     if a.merge:
         merge(a.surah); return
     if a.status or a.section is None:

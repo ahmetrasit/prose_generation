@@ -187,21 +187,34 @@ confirmation to start**. Two parts:
 the focus-ayah-100-card-review-v2 protocol did for every ayah in 2026-07 (quran-slm `inter-ayah/`: Terra reviewed a
 package, then the fixed follow-up asked for the missing ayat). The package is the section's prose, its ayat, its
 roots and the whole surah in Arabic; the brief is `prompts/discover/brief.md` (scene, root, theme, speaker,
-contrast, neighbour; four-field TSV). Two models per section, Luna max and Terra max, two turns each in one Codex
-session. These are the only script-run calls left: GPT is not Claude, so `codex exec` runs them.
+contrast, neighbour; four-field TSV). Two native agents per section: **Luna (`gpt-6-luna`) and Terra
+(`gpt-5.6-terra`), both max**, with exactly one follow-up in each same session. The orchestrator spawns agents and
+sends follow-ups itself. Scripts only prepare, snapshot, validate, and merge; legacy `--go` is blocked.
 
 ```bash
-python3 -B _commentary/v16/discover.py --surah N                    # packages and prompts, no call (S87: 18 sections)
-python3 -B _commentary/v16/discover.py --surah N --go               # every section x luna, terra; --parallel 2
-python3 -B _commentary/v16/discover.py --surah N --merge            # sec<k>.merged.tsv: one tiered list per section
-python3 -B _commentary/v16/discover.py --surah N --status
+python3 -B _commentary/v16/discover.py --surah N --run-tag revision3  # fresh packages; no model call
+python3 -B _commentary/v16/discovery_native.py start --surah N --section K --model luna --run-tag revision3 --task TASK
+# Spawn the native agent with the saved spawn.md, requested model/max and no inherited turn history.
+python3 -B _commentary/v16/discovery_native.py snapshot --surah N --section K --model luna --run-tag revision3
+# Send this run's followup.txt verbatim to that SAME native agent.
+python3 -B _commentary/v16/discovery_native.py audit --surah N --section K --model luna --run-tag revision3
+# Review tool_calls.json, then finish; use the same sequence for Terra.
+python3 -B _commentary/v16/discovery_native.py finish --surah N --section K --model luna --run-tag revision3 --reviewed
+python3 -B _commentary/v16/discover.py --surah N --sections K --run-tag revision3 --merge
 ```
 
-- Output: `out/sNNN/discovery/sec<k>/<model>/` (`package.md`, `prompt.md`, `list.tsv` as the agent wrote it,
-  streams, `run.log.json`; blocked by `started.json`) and `out/sNNN/discovery/sec<k>.merged.tsv` (tier = the best
-  label either model gave; the follow-up turn's rows marked). Rows outside the schema are kept in `list.tsv`,
-  printed, and left out of the merge. Codex runs are on the subscription: the ledger row carries tokens, cost 0.
-- `gpt-6-terra` is the assumed id for Terra (by analogy with `gpt-6-luna`); the first run shows whether it exists.
+- Output: `out/sNNN/discovery/<run-tag>/sec<k>/<model>/` and `sec<k>.merged.tsv`, plus an audit sidecar.
+  Never reuse a started directory; a user-authorized rerun gets a fresh tag. Historical outputs remain intact.
+- Save the first-turn list before the follow-up. The follow-up permits only append writes, no reads, retrieval,
+  scripts, regrading or sorting. Zero additions is valid. Derive merged turn provenance from the snapshot.
+- Require both completed model runs, unchanged first-turn prefixes, valid schema, and no duplicate refs before
+  merging. Missing deliverables and blank explanations are errors. An intentionally written empty list is distinct.
+- Labels retain both model judgments; the union uses the best reported label, not validated confidence.
+  Quotation checks are review aids. Preserve raw rows and carry findings in sidecars; do not silently repair them.
+- Native run logs record model/effort, prompt/package hashes, session identity, snapshots, follow-up text, tool
+  audit and usage. Codex subscription runs carry estimate and actual charge $0. Report all findings.
+- At most seven agents per batch; complete their follow-ups and audits, report, commit and push, then continue
+  the already-authorized next batch. A full discovery go never authorizes Opus.
 
 **Augment** (`augment_surah.py`): augment9's verdict pass over one section at a time, seeded by the section's merged
 list (brief `prompts/augment9s/augment.md`: same output, paragraph numbers as in the whole commentary, only the
@@ -209,12 +222,13 @@ section's paragraphs may be served), agent-spawned like every Claude call; then 
 
 ```bash
 python3 -B _commentary/v16/augment_surah.py --surah N --status
-python3 -B _commentary/v16/augment_surah.py --surah N --section k            # build: the estimate
-python3 -B _commentary/v16/augment_surah.py --surah N --section k --spawn    # then spawn v16-call with spawn.md
-python3 -B _commentary/v16/augment_surah.py --surah N --section k --finish
+python3 -B _commentary/v16/augment_surah.py --surah N --section k --run-tag revision3  # build: the estimate
+python3 -B _commentary/v16/augment_surah.py --surah N --section k --run-tag revision3 --spawn    # then spawn v16-call with spawn.md
+python3 -B _commentary/v16/augment_surah.py --surah N --section k --run-tag revision3 --finish
 python3 -B _commentary/v16/augment_surah.py --surah N --merge                # images.md with every finished section
 ```
 
+- Select a discovery attempt explicitly with `--run-tag` or `--list`; there is no silent fallback to the original list. The dry build makes no Opus call. Discovery rationales and review flags remain unverified inputs beside canonical Arabic.
 - Output: `out/sNNN/augment.augment9s.opus/sec<k>/` and `out/sNNN/augment.augment9s.opus/images.md` (marked
   blocks as in the ayah augment; `strip_augment` gives the original back). Ledger arms `augment-surah` and
   `augment-surah-applied`, ref `S<N>`.

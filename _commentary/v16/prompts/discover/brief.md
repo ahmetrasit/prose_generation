@@ -25,6 +25,15 @@ Weigh at least:
 - neighbour: the ayat next to a passage you name, when the scene continues
   there.
 
+Before grading candidates, work through every distinct scene, object, action,
+relation, and secondary dictionary sense actually developed in the section.
+For each, recall direct formulations, repeated occurrences elsewhere,
+nonlexical parallels, and relevant reversals. Do not let the title, the first
+scene, or the ayat already quoted stand in for the whole section. The same
+ayah may qualify for more than one image, for different stated reasons. For
+a Buluşmalar section, also consider the particular meetings between images
+that its prose develops. Do this review internally; output only the TSV rows.
+
 Search exhaustively for connections specific to this image. Scene, root,
 theme, speaker, contrast, and neighbour are ways to discover candidates;
 each candidate still needs a concrete connection.
@@ -33,8 +42,14 @@ For every included ayah, identify the particular detail or claim in this
 section, the corresponding detail in the ayah's own context, and what their
 relationship adds to the reader's understanding. Put this connection in
 short_explanation, in English, with the Arabic word where a word carries
-the link. Quote only wording belonging to the cited ayah; distinguish a
-root or dictionary form from an ayah quotation.
+the link. Keep Arabic quotations short and quote only words you remember as
+belonging to the cited ayah. If exact wording is uncertain, explain the
+connection in English instead of reconstructing a quotation. Explicitly label
+a root, dictionary form, or wording from the source section as such. Never
+combine words from different ayat into one quotation; mark omitted words.
+Check the speaker, action, negation, and ayah boundary in your remembered
+context. If a neighbour is needed to complete the claim, name that ayah and
+describe the cited row's own contribution separately.
 
 Shared vocabulary, a broad religious theme, or the same speaker alone is
 insufficient. Do not introduce imagery into your explanation that neither
@@ -61,10 +76,19 @@ Write one TSV row per ayah with exactly four tab-separated fields:
 strength	ayah_ref	basis	short_explanation
 
 Use only these strength labels:
-- strong: a direct, specific correspondence central to the image;
-- medium: a specific correspondence requiring an explicit interpretive bridge;
-- weak: a plausible, specific correspondence with an identified uncertainty;
+- strong: a direct, specific correspondence to an identifiable feature of this
+  image, including a secondary feature actually developed in the prose;
+- medium: a specific correspondence whose interpretive bridge you can state
+  explicitly;
+- weak: a plausible, specific correspondence whose uncertainty you identify
+  explicitly; uncertainty does not excuse a generic connection;
 - contrast: a specific reversal or boundary that illuminates the image.
+
+Contrast describes the kind of relationship, not a lower confidence level.
+Use it when the principal link is a reversal or boundary; explain any
+uncertainty in the note. Whenever an otherwise graded row also makes a
+contrast, include contrast among its bases. Neither model agreement nor a
+follow-up origin makes a candidate stronger.
 
 Even a weak candidate must meet the inclusion standard. Use only these
 bases, joined by + when several hold: scene, root, theme, speaker, contrast,
