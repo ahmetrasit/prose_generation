@@ -24,6 +24,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /commentary_pages/**
+            /_commentary/v*/out*/**
+            /_commentary/v*/result*/**
+            /_commentary/v*/work/**
+            /_commentary/v*/experiments/**
+            /enrichment/v*/out/**
+            /enrichment/v*/schema.json
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
