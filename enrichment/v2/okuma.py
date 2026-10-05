@@ -215,8 +215,7 @@ def windows(text: str, words: list[str]) -> list[tuple[int, int]]:
     return [(lo, hi) for lo, hi in spans] or [(0, min(len(text), 2 * WINDOW))]
 
 
-def search(con, q: dict) -> list[tuple]:
-    words = C.norm(str(q["q"])).split()
+def _search(con, q: dict, words: list[str], n: int) -> list[tuple]:
     fq = " ".join(f'"{w}"' + ("" if q.get("exact") else "*") for w in words)
     sql = ("SELECT seg.seg, seg.src, src.kind, seg.head, seg.text, seg.extra FROM f JOIN seg ON seg.id=f.rowid "
            "JOIN src ON src.id=seg.src WHERE f MATCH ?")
@@ -231,8 +230,41 @@ def search(con, q: dict) -> list[tuple]:
         args += ks
     if q.get("sahih"):
         sql += " AND json_extract(seg.extra,'$.sahih')=1"
-    n = max(1, min(int(q.get("n") or MAX_N), MAX_N))
     return con.execute(sql + " ORDER BY rank LIMIT ?", args + [n]).fetchall()
+
+
+def _count(con, q: dict, word: str) -> int:
+    return len(_search(con, q, [word], 100_000))
+
+
+def search(con, q: dict) -> tuple[list[tuple], str]:
+    """All the query's words first. When that finds nothing (a planner's phrase rarely matches a source's wording
+    exactly), smaller sets of its words, the most specific first (the summed inverse frequency of the words within
+    the query's own sources, whatever the set's size; a word they never hold is left out), down to two words (one
+    word when every named source is a dictionary, whose entries are single words). The first set that matches is
+    kept; the note says which words matched."""
+    words = C.norm(str(q["q"])).split()
+    n = max(1, min(int(q.get("n") or MAX_N), MAX_N))
+    rows = _search(con, q, words, n)
+    if rows or len(words) < 2:
+        return rows, "all words"
+    srcs = [x.strip() for x in str(q.get("src") or "").split(",") if x.strip()]
+    kinds = {k for (k,) in con.execute(f"SELECT kind FROM src WHERE id IN ({','.join('?' * len(srcs))})", srcs)} if srcs else set()
+    floor = 1 if (kinds == {"lexicon"} or (not srcs and q.get("kind") == "lexicon")) else 2
+    import math
+    from itertools import combinations
+    df = {w: _count(con, q, w) for w in dict.fromkeys(words)}
+    live = [w for w in df if df[w]]  # a word the sources never hold cannot help
+    total = max(df.values()) * 4 + 1  # a stand-in for the size of the searched sources: only the order matters
+    subsets = [c for m in range(floor, min(len(live), len(words) - 1) + 1) for c in combinations(live, m)]
+    subsets.sort(key=lambda c: -sum(math.log(total / df[w]) for w in c))  # most specific first, whatever the size
+    for sub in subsets[:64]:
+        rows = _search(con, q, list(sub), n)
+        if rows:
+            absent = [w for w in df if not df[w]]
+            return rows, (f"fallback: {len(sub)} of {len(words)} words ({' '.join(sub)})"
+                          + (f"; never in these sources: {' '.join(absent)}" if absent else ""))
+    return [], f"nothing, down to {floor} of {len(words)} words"
 
 
 def seg_header(seg: str, head: str | None, extra: str | None, note: str = "") -> str:
@@ -293,11 +325,13 @@ def reading_set(s: int, target: str, plan: dict, notes: list) -> tuple[list[dict
     queries = []
     for i, q in enumerate((plan.get("sorgular") or [])[:MAX_QUERIES], 1):
         try:
-            rows = search(con, q)
+            rows, how = search(con, q)
         except Exception as e:  # a malformed FTS query: recorded, the rest goes on
             warn(f"query {i} ({q.get('q')!r}) failed: {e}", notes)
             queries.append({**q, "i": i, "error": str(e), "hits": []})
             continue
+        if how != "all words":
+            print(f"NOTE: query {i} ({q.get('q')!r}): {how}")
         words = C.norm(str(q["q"])).split()
         hits = []
         for seg, src, kind, head, text, extra in rows:
@@ -307,9 +341,7 @@ def reading_set(s: int, target: str, plan: dict, notes: list) -> tuple[list[dict
                 continue
             shown = None if len(text) <= HIT_WHOLE else windows(text, words)
             add(seg, src, kind, head, text, extra, f"sorgu:{i}", shown)
-        if not rows:
-            print(f"NOTE: query {i} ({q.get('q')!r}, src={q.get('src') or '-'}, kind={q.get('kind') or '-'}) found nothing")
-        queries.append({**q, "i": i, "hits": hits})
+        queries.append({**q, "i": i, "hits": hits, "matched": how})
     return list(items.values()), {"skipped": skipped, "queries": queries, "roots": roots}
 
 
