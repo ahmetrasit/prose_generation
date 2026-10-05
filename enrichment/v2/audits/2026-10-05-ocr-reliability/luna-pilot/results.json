@@ -1,0 +1,2303 @@
+{
+  "created_at": "2026-10-05T14:52:29.942235+00:00",
+  "brief_sha256": "41c6589aafd416c09e3625510d79ed93a00c5185e2df5ec1a5e39b42d7b92de4",
+  "manifest_sha256": "1e7841d09e671e05e2e78a3afd1cda36d0dc5ac9d717455aa69dde584e5fca51",
+  "runs": [
+    {
+      "agent_path": "/root/ocr_pilot_b01_low",
+      "session_id": "01a10c7b-2605-7b71-9c73-0c8a3fbbd0e0",
+      "batch": 1,
+      "effort": "low",
+      "contexts": [
+        {
+          "model": "gpt-6-luna",
+          "effort": "low"
+        }
+      ],
+      "model_effort_verified": true,
+      "completed_at": "2026-10-05T14:34:02.506Z",
+      "usage": {
+        "input_tokens": 145001,
+        "cached_input_tokens": 96128,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2697,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 147698
+      },
+      "tool_calls": [
+        {
+          "timestamp": "2026-10-05T14:32:55.012Z",
+          "name": "exec",
+          "argument_sha256": "66e832e4fb533ec6df9e93529ce62bf080d20aa97e00620df8fc8d16f02684f9",
+          "argument_characters": 286,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r=await tools.exec_command({cmd:\"cat enrichment/v2/audits/2026-10-05-ocr-reliability/luna-pilot/BRIEF.md && cat enrichment/v2/audits/2026-10-05-ocr-reliability/luna-pilot/batch-01-low.json\",work"
+        },
+        {
+          "timestamp": "2026-10-05T14:33:03.998Z",
+          "name": "exec",
+          "argument_sha256": "a661ae987adf5076dece26ceb6739007fc8fc8b674b9de3a5826ed2cb5b2d089",
+          "argument_characters": 570,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const paths=[\"enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-1/images/p0050.png\",\"enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol"
+        },
+        {
+          "timestamp": "2026-10-05T14:33:56.951Z",
+          "name": "exec",
+          "argument_sha256": "d0538ddc88c6a62958d4befed06eddd85386809a930669dad42733109448bef5",
+          "argument_characters": 6650,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r=await tools.exec_command({cmd:\"cat > enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-1/low/p0050.txt <<'EOF'\\nوفرق القرآن بين الغنى والمال، فقد يكون الغني مع"
+        }
+      ],
+      "assignment_sha256": "f01e4d59e1576547e716956703ac886753f338e6a9723a0bc3b9627243897a55"
+    },
+    {
+      "agent_path": "/root/ocr_pilot_b01_medium",
+      "session_id": "01a10c7b-669e-7483-b19c-e8a152bb82d7",
+      "batch": 1,
+      "effort": "medium",
+      "contexts": [
+        {
+          "model": "gpt-6-luna",
+          "effort": "medium"
+        }
+      ],
+      "model_effort_verified": true,
+      "completed_at": "2026-10-05T14:34:39.783Z",
+      "usage": {
+        "input_tokens": 199630,
+        "cached_input_tokens": 148608,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3934,
+        "reasoning_output_tokens": 598,
+        "total_tokens": 203564
+      },
+      "tool_calls": [
+        {
+          "timestamp": "2026-10-05T14:33:04.157Z",
+          "name": "exec",
+          "argument_sha256": "93cf09e594324276fe08ad4865511ce5295cca7fed81f98a3f6b15dfd78acadd",
+          "argument_characters": 284,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"cat enrichment/v2/audits/2026-10-05-ocr-reliability/luna-pilot/BRIEF.md enrichment/v2/audits/2026-10-05-ocr-reliability/luna-pilot/batch-01-medium.json\",workdi"
+        },
+        {
+          "timestamp": "2026-10-05T14:33:21.364Z",
+          "name": "exec",
+          "argument_sha256": "7ee449098bf3998c9e449f495cd7af623188c6a24de3843afc65c1ef0aaa581a",
+          "argument_characters": 732,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const ps = [\n\"/Volumes/aro/projects/prose_generation/enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-1/images/p0050.png\",\n\"/Volumes/aro/projects/prose_generation/enr"
+        },
+        {
+          "timestamp": "2026-10-05T14:34:25.734Z",
+          "name": "exec",
+          "argument_sha256": "2934f18aa6cc9d86bd5f38c76d0953447fb7e38e795643a21a0db82c6feb8885",
+          "argument_characters": 7302,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"python3 - <<'PY'\\nfrom pathlib import Path\\nbase=Path('enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05')\\nfiles={\\n'bintshati-vol-1/medium"
+        },
+        {
+          "timestamp": "2026-10-05T14:34:36.500Z",
+          "name": "exec",
+          "argument_sha256": "512ddbe3e0d0700a688ddc05fb397666b5849479c1519d4bd1365f6a13020cd3",
+          "argument_characters": 432,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"python3 - <<'PY'\\nfrom pathlib import Path\\np=Path('enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-2/medium/p0049.txt')\\ns="
+        }
+      ],
+      "assignment_sha256": "ede4fd8353681ecd5bd7035aa20697f0052dd63bdbec32f817d0c8b8fcdd3237"
+    },
+    {
+      "agent_path": "/root/ocr_pilot_b02_low",
+      "session_id": "01a10c7b-ba31-7af2-a1b5-66f11507dd83",
+      "batch": 2,
+      "effort": "low",
+      "contexts": [
+        {
+          "model": "gpt-6-luna",
+          "effort": "low"
+        }
+      ],
+      "model_effort_verified": true,
+      "completed_at": "2026-10-05T14:34:33.926Z",
+      "usage": {
+        "input_tokens": 136859,
+        "cached_input_tokens": 91392,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3273,
+        "reasoning_output_tokens": 125,
+        "total_tokens": 140132
+      },
+      "tool_calls": [
+        {
+          "timestamp": "2026-10-05T14:33:23.543Z",
+          "name": "exec",
+          "argument_sha256": "d28d4c941f24c5a79a4d607cce33d2be95fb2598876b7ad46fa74b7d20fc2c70",
+          "argument_characters": 241,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"cat enrichment/v2/audits/2026-10-05-ocr-reliability/luna-pilot/BRIEF.md && cat enrichment/v2/audits/2026-10-05-ocr-reliability/luna-pilot/batch-02-low.json\",ma"
+        },
+        {
+          "timestamp": "2026-10-05T14:33:30.036Z",
+          "name": "exec",
+          "argument_sha256": "10bfdfa92c4d06bc131473941304d41a68de237f9b9cb4465718bc8800f5f762",
+          "argument_characters": 576,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const paths=[\"enrichment/corpus/KHULI/raw/ocr-candidates/luna-pilot-2026-10-05/khuli-manahij-tajdid-1961/images/p0092.png\",\"enrichment/corpus/KHULI/raw/ocr-candidates/luna-pilot-2026-10-05/khuli-manah"
+        },
+        {
+          "timestamp": "2026-10-05T14:34:29.660Z",
+          "name": "exec",
+          "argument_sha256": "f3f777c432e560af36d2ee68bde050bb8c6805e9b7bdb2e2beb7880eb69ce176",
+          "argument_characters": 8790,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"cat > enrichment/corpus/KHULI/raw/ocr-candidates/luna-pilot-2026-10-05/khuli-manahij-tajdid-1961/low/p0092.txt <<'EOF'\\n١٠٢\\nالكتاب في عصور الأجيال، ورموزه نقو"
+        }
+      ],
+      "assignment_sha256": "377f7dfaa6d598f190f39e34bfb921be4f48ae1eb752f864ff5997c6ed494bec"
+    },
+    {
+      "agent_path": "/root/ocr_pilot_b02_medium",
+      "session_id": "01a10c7b-fe9e-7b30-8df9-1388b6af27ce",
+      "batch": 2,
+      "effort": "medium",
+      "contexts": [
+        {
+          "model": "gpt-6-luna",
+          "effort": "medium"
+        }
+      ],
+      "model_effort_verified": true,
+      "completed_at": "2026-10-05T14:35:26.977Z",
+      "usage": {
+        "input_tokens": 237561,
+        "cached_input_tokens": 205312,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4810,
+        "reasoning_output_tokens": 655,
+        "total_tokens": 242371
+      },
+      "tool_calls": [
+        {
+          "timestamp": "2026-10-05T14:33:43.356Z",
+          "name": "exec",
+          "argument_sha256": "23a28889f146360c57edba27f38547ddca6f74547ecd8f78fe8fbb7eced6895b",
+          "argument_characters": 285,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"cat enrichment/v2/audits/2026-10-05-ocr-reliability/luna-pilot/BRIEF.md enrichment/v2/audits/2026-10-05-ocr-reliability/luna-pilot/batch-02-medium.json\",workdi"
+        },
+        {
+          "timestamp": "2026-10-05T14:33:49.597Z",
+          "name": "exec",
+          "argument_sha256": "a554752dd261ef3f1868e701a594ccd625119c8d3a60641318d3b3c678356449",
+          "argument_characters": 610,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const paths = [\n\"enrichment/corpus/KHULI/raw/ocr-candidates/luna-pilot-2026-10-05/khuli-manahij-tajdid-1961/images/p0092.png\",\n\"enrichment/corpus/KHULI/raw/ocr-candidates/luna-pilot-2026-10-05/khuli-m"
+        },
+        {
+          "timestamp": "2026-10-05T14:34:53.706Z",
+          "name": "exec",
+          "argument_sha256": "19e87332a34a7c75c62583b1bf46df5f7545e8a21e0dc6db98da6b220cc78abd",
+          "argument_characters": 8945,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"python3 - <<'PY'\\nfrom pathlib import Path\\nbase = Path('enrichment')\\nitems = {\\n'enrichment/corpus/KHULI/raw/ocr-candidates/luna-pilot-2026-10-05/khuli-manah"
+        },
+        {
+          "timestamp": "2026-10-05T14:35:16.120Z",
+          "name": "exec",
+          "argument_sha256": "cee373bcaa26379276f0a844e6624c064f547f2e528166facb762344eda28a9b",
+          "argument_characters": 2164,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"python3 - <<'PY'\\nfrom pathlib import Path\\np=Path('enrichment/corpus/ABDUH-AMMA/raw/ocr-candidates/luna-pilot-2026-10-05/abduh-tafsir-juz-amma/medium/p0047.tx"
+        },
+        {
+          "timestamp": "2026-10-05T14:35:22.708Z",
+          "name": "send_message",
+          "argument_sha256": "c3cb45ed821b82e44cbe681ec7edc706aab3ba96b81403bf27b501ca636a57bc",
+          "argument_characters": 471,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "parent progress notification; content omitted"
+        }
+      ],
+      "assignment_sha256": "cc6d79fafcc5cbdd9c66adbba590ffe975ca10bbbf96139dba74b6b5ff50ca58"
+    },
+    {
+      "agent_path": "/root/ocr_pilot_b03_low",
+      "session_id": "01a10c7c-3da5-72e3-a2f2-a1864ee732c8",
+      "batch": 3,
+      "effort": "low",
+      "contexts": [
+        {
+          "model": "gpt-6-luna",
+          "effort": "low"
+        }
+      ],
+      "model_effort_verified": true,
+      "completed_at": "2026-10-05T14:35:14.412Z",
+      "usage": {
+        "input_tokens": 190845,
+        "cached_input_tokens": 157568,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3714,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 194559
+      },
+      "tool_calls": [
+        {
+          "timestamp": "2026-10-05T14:33:57.101Z",
+          "name": "exec",
+          "argument_sha256": "879efe9336eafcea3c0ba39cd9d55b61274af2d5d95714e71c1c63539ec09eaf",
+          "argument_characters": 260,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"cat enrichment/v2/audits/2026-10-05-ocr-reliability/luna-pilot/BRIEF.md && cat enrichment/v2/audits/2026-10-05-ocr-reliability/luna-pilot/batch-03-low.json\",yi"
+        },
+        {
+          "timestamp": "2026-10-05T14:34:04.936Z",
+          "name": "exec",
+          "argument_sha256": "020466b3e3fff1b6352663e1a8755af3be8afe6be4a24d2531586ea7a99b80ed",
+          "argument_characters": 670,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const paths = [\n\"enrichment/corpus/MUQATIL-WUJUH/raw/ocr-candidates/luna-pilot-2026-10-05/muqatil-wujuh-damin/images/p0077.png\",\n\"enrichment/corpus/MUQATIL-WUJUH/raw/ocr-candidates/luna-pilot-2026-10-"
+        },
+        {
+          "timestamp": "2026-10-05T14:35:07.222Z",
+          "name": "exec",
+          "argument_sha256": "3a688cbc15291a53a1a23ca40a05521bd376cf07492aac97cce8b1d284484ed9",
+          "argument_characters": 8232,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"cat > enrichment/corpus/MUQATIL-WUJUH/raw/ocr-candidates/luna-pilot-2026-10-05/muqatil-wujuh-damin/low/p0077.txt <<'EOF'\\nفي القرآن العظيم\\n٧٧\\n\\nالوجه العاشر:"
+        },
+        {
+          "timestamp": "2026-10-05T14:35:11.433Z",
+          "name": "send_message",
+          "argument_sha256": "f54a27aa434d98ddbd55ec4ef00a7ef5a79d68e7d1ddde027e47f85a84904f2f",
+          "argument_characters": 451,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "parent progress notification; content omitted"
+        }
+      ],
+      "assignment_sha256": "e66168f56bd57d7a3e5d3b452efd893b72c628b7aa6e73c3cc9f10cf58e28642"
+    },
+    {
+      "agent_path": "/root/ocr_pilot_b03_medium",
+      "session_id": "01a10c7c-8845-7f60-8148-01f3206e28de",
+      "batch": 3,
+      "effort": "medium",
+      "contexts": [
+        {
+          "model": "gpt-6-luna",
+          "effort": "medium"
+        }
+      ],
+      "model_effort_verified": true,
+      "completed_at": "2026-10-05T14:35:58.106Z",
+      "usage": {
+        "input_tokens": 244046,
+        "cached_input_tokens": 195200,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4832,
+        "reasoning_output_tokens": 828,
+        "total_tokens": 248878
+      },
+      "tool_calls": [
+        {
+          "timestamp": "2026-10-05T14:34:17.090Z",
+          "name": "exec",
+          "argument_sha256": "b3fd78b04afd6e83bb0afd3800da557980aeb392b8fdc0f09e76b1ad193ddd75",
+          "argument_characters": 292,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"cat enrichment/v2/audits/2026-10-05-ocr-reliability/luna-pilot/BRIEF.md && cat enrichment/v2/audits/2026-10-05-ocr-reliability/luna-pilot/batch-03-medium.json\""
+        },
+        {
+          "timestamp": "2026-10-05T14:34:24.296Z",
+          "name": "exec",
+          "argument_sha256": "5da156c873ba4de9b7ab0e5e9e2efba18560de66f173bcbab00a5058d6ba3905",
+          "argument_characters": 718,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const paths = [\n\"enrichment/corpus/MUQATIL-WUJUH/raw/ocr-candidates/luna-pilot-2026-10-05/muqatil-wujuh-damin/images/p0077.png\",\n\"enrichment/corpus/MUQATIL-WUJUH/raw/ocr-candidates/luna-pilot-2026-10-"
+        },
+        {
+          "timestamp": "2026-10-05T14:35:35.239Z",
+          "name": "exec",
+          "argument_sha256": "f53491c661a9c4fc5e66f50a49fd04ee05c472f46fb1058e561dbf4ae8d4b3e2",
+          "argument_characters": 8493,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"python3 - <<'PY'\\nfrom pathlib import Path\\nimport json\\nroot=Path('/Volumes/aro/projects/prose_generation')\\ndata={\\n'enrichment/corpus/MUQATIL-WUJUH/raw/ocr-"
+        },
+        {
+          "timestamp": "2026-10-05T14:35:48.564Z",
+          "name": "exec",
+          "argument_sha256": "4d4edfd97b8c8c049cc7b8ce85431221a8f8856d2f46b6a899a422a7de121a5c",
+          "argument_characters": 516,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"python3 - <<'PY'\\nfrom pathlib import Path\\np=Path('enrichment/corpus/IBNKHALAWAYH-MUKHTASAR/raw/ocr-candidates/luna-pilot-2026-10-05/ibnkhalawayh-mukhtasar/me"
+        },
+        {
+          "timestamp": "2026-10-05T14:35:54.181Z",
+          "name": "send_message",
+          "argument_sha256": "a7c76ef4eee70b8405ba7b6dd0eb1ebaa02b5db9499d00d7f18cf64b6706f97d",
+          "argument_characters": 599,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "parent progress notification; content omitted"
+        }
+      ],
+      "assignment_sha256": "b11862917703ec84e5afc3266a02b974b46d142920a5fd1eade2b6a1dfc5b5a7"
+    },
+    {
+      "agent_path": "/root/ocr_pilot_b04_low",
+      "session_id": "01a10c7c-c7c7-7342-962a-b6a00c5082b7",
+      "batch": 4,
+      "effort": "low",
+      "contexts": [
+        {
+          "model": "gpt-6-luna",
+          "effort": "low"
+        }
+      ],
+      "model_effort_verified": true,
+      "completed_at": "2026-10-05T14:35:55.600Z",
+      "usage": {
+        "input_tokens": 155590,
+        "cached_input_tokens": 122624,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4004,
+        "reasoning_output_tokens": 202,
+        "total_tokens": 159594
+      },
+      "tool_calls": [
+        {
+          "timestamp": "2026-10-05T14:34:33.105Z",
+          "name": "exec",
+          "argument_sha256": "83ec4fa9b2723899a1b607c4216c507300b5dc8d9d55e72344a764e5e99eefbb",
+          "argument_characters": 205,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"cat enrichment/v2/audits/2026-10-05-ocr-reliability/luna-pilot/BRIEF.md\",workdir:\"/Volumes/aro/projects/prose_generation\",max_output_tokens:4000});\ntext(r.outp"
+        },
+        {
+          "timestamp": "2026-10-05T14:34:36.942Z",
+          "name": "exec",
+          "argument_sha256": "b2d0bb52de215ac0a8fce744507037d087a3078de8629fc4fd28947ca7e60f84",
+          "argument_characters": 214,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"cat enrichment/v2/audits/2026-10-05-ocr-reliability/luna-pilot/batch-04-low.json\",workdir:\"/Volumes/aro/projects/prose_generation\",max_output_tokens:3000});\nte"
+        },
+        {
+          "timestamp": "2026-10-05T14:34:43.709Z",
+          "name": "exec",
+          "argument_sha256": "e7a839f82ffbab802cbf3ffe1a765a9e45aca01290aa379285f4afd6966abbe4",
+          "argument_characters": 756,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const ps=[\"/Volumes/aro/projects/prose_generation/enrichment/corpus/ACADEMIC/FARAHI-NIZAM/raw/ocr-candidates/luna-pilot-2026-10-05/farahi-nizam-book/images/p0158.png\",\"/Volumes/aro/projects/prose_gene"
+        },
+        {
+          "timestamp": "2026-10-05T14:35:51.775Z",
+          "name": "exec",
+          "argument_sha256": "fe848028bebe575cce16e4ea31bef0c235b1daa72630496ab22ed158cd5ca149",
+          "argument_characters": 10462,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"mkdir -p enrichment/corpus/ACADEMIC/FARAHI-NIZAM/raw/ocr-candidates/luna-pilot-2026-10-05/farahi-nizam-book/low enrichment/corpus/ACADEMIC/BADAWI-HALEEM/raw/oc"
+        }
+      ],
+      "assignment_sha256": "68966069f3c7a32bd0efcc1b862fdd343a4c97d5ddc0b5e90cbf72928d0191f9"
+    },
+    {
+      "agent_path": "/root/ocr_pilot_b04_medium",
+      "session_id": "01a10c7d-2304-7352-bdc1-231a6d452e49",
+      "batch": 4,
+      "effort": "medium",
+      "contexts": [
+        {
+          "model": "gpt-6-luna",
+          "effort": "medium"
+        }
+      ],
+      "model_effort_verified": true,
+      "completed_at": "2026-10-05T14:36:40.672Z",
+      "usage": {
+        "input_tokens": 279931,
+        "cached_input_tokens": 244480,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4929,
+        "reasoning_output_tokens": 557,
+        "total_tokens": 284860
+      },
+      "tool_calls": [
+        {
+          "timestamp": "2026-10-05T14:34:56.908Z",
+          "name": "exec",
+          "argument_sha256": "0b27dc5138d7ebdf1602d348b239f5145210697f422aa8fc79da3221dfc3ef24",
+          "argument_characters": 292,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"cat enrichment/v2/audits/2026-10-05-ocr-reliability/luna-pilot/BRIEF.md && cat enrichment/v2/audits/2026-10-05-ocr-reliability/luna-pilot/batch-04-medium.json\""
+        },
+        {
+          "timestamp": "2026-10-05T14:35:04.309Z",
+          "name": "exec",
+          "argument_sha256": "4cc38a7f3d64ff3cc765150f6d9cb9ba4ff86df63a2ddb5261c5f2b40c45c456",
+          "argument_characters": 664,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const paths = [\n\"enrichment/corpus/ACADEMIC/FARAHI-NIZAM/raw/ocr-candidates/luna-pilot-2026-10-05/farahi-nizam-book/images/p0158.png\",\n\"enrichment/corpus/ACADEMIC/FARAHI-NIZAM/raw/ocr-candidates/luna-"
+        },
+        {
+          "timestamp": "2026-10-05T14:36:12.116Z",
+          "name": "exec",
+          "argument_sha256": "2fb6f6d9ae765f68c4e8fe481d442938bd28e052030a9714494e0992fa98e5ee",
+          "argument_characters": 10005,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const patch = \"*** Begin Patch\\n*** Add File: /Volumes/aro/projects/prose_generation/enrichment/corpus/ACADEMIC/FARAHI-NIZAM/raw/ocr-candidates/luna-pilot-2026-10-05/farahi-nizam-book/medium/p0158.txt"
+        },
+        {
+          "timestamp": "2026-10-05T14:36:22.220Z",
+          "name": "exec",
+          "argument_sha256": "854a930a3de7eff529486edc1b3d7355ac26c668e93ada72386d7a902ac6af6a",
+          "argument_characters": 349,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "text(await tools.exec_command({cmd:\"git status --short -- enrichment/corpus/ACADEMIC/FARAHI-NIZAM/raw/ocr-candidates/luna-pilot-2026-10-05/farahi-nizam-book/medium enrichment/corpus/ACADEMIC/BADAWI-HA"
+        },
+        {
+          "timestamp": "2026-10-05T14:36:32.989Z",
+          "name": "exec",
+          "argument_sha256": "b3e03ab1d022c6c7714d6598ebb248cb1db59e8d21badcab17f83e7ca5d7ae28",
+          "argument_characters": 1105,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r=await tools.exec_command({cmd:\"ls -l enrichment/corpus/ACADEMIC/FARAHI-NIZAM/raw/ocr-candidates/luna-pilot-2026-10-05/farahi-nizam-book/medium/p0158.txt enrichment/corpus/ACADEMIC/FARAHI-NIZAM"
+        },
+        {
+          "timestamp": "2026-10-05T14:36:37.362Z",
+          "name": "send_message",
+          "argument_sha256": "f6fc6cd6351c15db17ca8b90fdbd70b3ad1f6f7f25919c7f93c50a9e341c8307",
+          "argument_characters": 619,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "parent progress notification; content omitted"
+        }
+      ],
+      "assignment_sha256": "39a4e70b79a3b43e538d15796f17276ade4999192ef60b60588063b2b97db6d5"
+    },
+    {
+      "agent_path": "/root/ocr_pilot_b05_low",
+      "session_id": "01a10c7d-6b4f-7ad2-a7e2-9fd813bfd958",
+      "batch": 5,
+      "effort": "low",
+      "contexts": [
+        {
+          "model": "gpt-6-luna",
+          "effort": "low"
+        }
+      ],
+      "model_effort_verified": true,
+      "completed_at": "2026-10-05T14:36:45.656Z",
+      "usage": {
+        "input_tokens": 263684,
+        "cached_input_tokens": 223488,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4069,
+        "reasoning_output_tokens": 165,
+        "total_tokens": 267753
+      },
+      "tool_calls": [
+        {
+          "timestamp": "2026-10-05T14:35:14.061Z",
+          "name": "exec",
+          "argument_sha256": "6d2726cada918785f9cb30302931c728c631ec5bac666eeb80d79c4ff7f3dd5f",
+          "argument_characters": 262,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r=await tools.exec_command({cmd:\"cat enrichment/v2/audits/2026-10-05-ocr-reliability/luna-pilot/BRIEF.md && cat enrichment/v2/audits/2026-10-05-ocr-reliability/luna-pilot/batch-05-low.json\",work"
+        },
+        {
+          "timestamp": "2026-10-05T14:35:20.847Z",
+          "name": "exec",
+          "argument_sha256": "6ad083a2bec26eef0c92573de94d83fe8c792f91975d51b4e2fdc662299ef76b",
+          "argument_characters": 689,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const paths=[\"enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-3-surah-tawbah-09/images/p0055.png\",\"enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/r"
+        },
+        {
+          "timestamp": "2026-10-05T14:36:25.001Z",
+          "name": "exec",
+          "argument_sha256": "0cc41de07241cc1273e38951182521d831b2613317b0e4f0990ed0c720314735",
+          "argument_characters": 9284,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r=await tools.exec_command({cmd:\"cat > /tmp/writebatch.py <<'PY'\\nfrom pathlib import Path\\nroot=Path('/Volumes/aro/projects/prose_generation')\\nitems={\\n'enrichment/corpus/ACADEMIC/ISLAHI-TADAB"
+        },
+        {
+          "timestamp": "2026-10-05T14:36:38.437Z",
+          "name": "exec",
+          "argument_sha256": "e2acd89c9830e5a08730ec105ecb3bb6758c73c7223cd0b2d20a55726d4c6b33",
+          "argument_characters": 1766,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r=await tools.exec_command({cmd:\"python3 - <<'PY'\\nfrom pathlib import Path\\nimport json\\nroot=Path('/Volumes/aro/projects/prose_generation/enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-can"
+        },
+        {
+          "timestamp": "2026-10-05T14:36:42.386Z",
+          "name": "send_message",
+          "argument_sha256": "4670d53471c641781f9079de34fae5dfbcc2c605def9bc6b787329394309fcc2",
+          "argument_characters": 471,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "parent progress notification; content omitted"
+        }
+      ],
+      "assignment_sha256": "06f5b95d879704988c84378ad056d1ad1dc9c30281988fea686ee0d90315d98a"
+    },
+    {
+      "agent_path": "/root/ocr_pilot_b05_medium",
+      "session_id": "01a10c7d-c792-71b1-97c3-a66e74348858",
+      "batch": 5,
+      "effort": "medium",
+      "contexts": [
+        {
+          "model": "gpt-6-luna",
+          "effort": "medium"
+        }
+      ],
+      "model_effort_verified": true,
+      "completed_at": "2026-10-05T14:37:18.668Z",
+      "usage": {
+        "input_tokens": 287602,
+        "cached_input_tokens": 231424,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4486,
+        "reasoning_output_tokens": 322,
+        "total_tokens": 292088
+      },
+      "tool_calls": [
+        {
+          "timestamp": "2026-10-05T14:35:38.774Z",
+          "name": "exec",
+          "argument_sha256": "2645682e27ca6aa9b22a96d837b27808db626dc10d1eaadadf3d2b4a2aef46d1",
+          "argument_characters": 292,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"cat enrichment/v2/audits/2026-10-05-ocr-reliability/luna-pilot/BRIEF.md && cat enrichment/v2/audits/2026-10-05-ocr-reliability/luna-pilot/batch-05-medium.json\""
+        },
+        {
+          "timestamp": "2026-10-05T14:35:45.781Z",
+          "name": "exec",
+          "argument_sha256": "bd1bcbc3a3a0e5ff58dca7ac38f224f91dbd4713411dcc83feca47f19d376c99",
+          "argument_characters": 763,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const paths = [\n\"enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-3-surah-tawbah-09/images/p0055.png\",\n\"enrichment/corpus/ACADEMIC/ISLAHI-TADABB"
+        },
+        {
+          "timestamp": "2026-10-05T14:35:54.017Z",
+          "name": "exec",
+          "argument_sha256": "822e38e942e2715b01957e557185d3ac8868b22ee900d9c710622e276cd5ea27",
+          "argument_characters": 711,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const paths = [\n\"enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-3-surah-tawbah-09/images/p0055.png\",\n\"enrichment/corpus/ACADEMIC/ISLAHI-TADABB"
+        },
+        {
+          "timestamp": "2026-10-05T14:36:48.118Z",
+          "name": "exec",
+          "argument_sha256": "fd30d4e78f0476d0be3000d2d6c3d4137533b43f794904211f29dfe4bb17caaf",
+          "argument_characters": 8134,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r=await tools.exec_command({cmd:\"cat > /private/tmp/b05_write.py <<'PY'\\nfrom pathlib import Path\\nimport json\\nroot=Path('/Volumes/aro/projects/prose_generation')\\nitems={\\n'enrichment/corpus/A"
+        },
+        {
+          "timestamp": "2026-10-05T14:37:09.024Z",
+          "name": "exec",
+          "argument_sha256": "2b023dff6e77b1e1882698d5aaf6ca6a1baa79de6e4083fed2a1b8cbdce887c8",
+          "argument_characters": 2508,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r=await tools.exec_command({cmd:\"python3 - <<'PY'\\nfrom pathlib import Path\\nimport json\\nbase=Path('/Volumes/aro/projects/prose_generation/enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-can"
+        },
+        {
+          "timestamp": "2026-10-05T14:37:14.987Z",
+          "name": "send_message",
+          "argument_sha256": "4f1574f461b339afa879a26be6a8e8e6ff7d6666443592f3857c296cbed44e30",
+          "argument_characters": 619,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "parent progress notification; content omitted"
+        }
+      ],
+      "assignment_sha256": "1037b316e56ae86ed661423b404c2d57f19fec80bd2e3c3e5d31b47072ec4ca9"
+    },
+    {
+      "agent_path": "/root/ocr_pilot_b06_low",
+      "session_id": "01a10c7e-144b-7560-87c8-a6c71a510162",
+      "batch": 6,
+      "effort": "low",
+      "contexts": [
+        {
+          "model": "gpt-6-luna",
+          "effort": "low"
+        }
+      ],
+      "model_effort_verified": true,
+      "completed_at": "2026-10-05T14:40:10.643Z",
+      "usage": {
+        "input_tokens": 514499,
+        "cached_input_tokens": 452096,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 10696,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 525195
+      },
+      "tool_calls": [
+        {
+          "timestamp": "2026-10-05T14:35:58.365Z",
+          "name": "exec",
+          "argument_sha256": "c5b635d05394afb8b650d54881e9cc71faf7132a8e2f74c84cf12c5f8764300f",
+          "argument_characters": 282,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"cat enrichment/v2/audits/2026-10-05-ocr-reliability/luna-pilot/BRIEF.md enrichment/v2/audits/2026-10-05-ocr-reliability/luna-pilot/batch-06-low.json\",workdir:\""
+        },
+        {
+          "timestamp": "2026-10-05T14:36:04.761Z",
+          "name": "exec",
+          "argument_sha256": "44e1430ee28343bb5e8a879c78cd3a28d0c930753f20db4cc4705f6cf40827e2",
+          "argument_characters": 705,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const paths=[\"/Volumes/aro/projects/prose_generation/enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-9/images/p0154.png\",\"/Volumes/aro/projects"
+        },
+        {
+          "timestamp": "2026-10-05T14:36:31.094Z",
+          "name": "exec",
+          "argument_sha256": "d539626830ba9847b58057e4d83003cab98dcef913c7802744dac3b3d876d754",
+          "argument_characters": 135,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"pwd\",workdir:\"/Volumes/aro/projects/prose_generation\",max_output_tokens:50}); text(r.output);\n"
+        },
+        {
+          "timestamp": "2026-10-05T14:38:06.814Z",
+          "name": "exec",
+          "argument_sha256": "8266efd499cdcc1b2cd0276d8c68f3d21ec74ffdf958366fc56f97850fcf9371",
+          "argument_characters": 13450,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const patch=\"*** Begin Patch\\n*** Add File: /Volumes/aro/projects/prose_generation/enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-9/low/p0154."
+        },
+        {
+          "timestamp": "2026-10-05T14:38:15.952Z",
+          "name": "exec",
+          "argument_sha256": "fcbefa8695e75168ce63faf097674a0928107a3302bc53ebd9920a2f7b7c9cad",
+          "argument_characters": 670,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const p=\"/Volumes/aro/projects/prose_generation/enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-9/low/p0154.txt\";\nconst r=await tools.exec_comm"
+        },
+        {
+          "timestamp": "2026-10-05T14:38:36.874Z",
+          "name": "exec",
+          "argument_sha256": "4c5bac108737ba3392fdb0e1bbdc607e7a9d46c147a62c6a07570ead1fc6206e",
+          "argument_characters": 2268,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r=await tools.exec_command({cmd:\"python3 -c 'from pathlib import Path; p=Path(\\\"enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-9/low/p01"
+        },
+        {
+          "timestamp": "2026-10-05T14:39:07.373Z",
+          "name": "exec",
+          "argument_sha256": "1f6e2456859df19c14678a4a333a80f6e5b4b486a6bf28ed4bfda186936ddef6",
+          "argument_characters": 3497,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const patch=\"*** Begin Patch\\n*** Add File: /Volumes/aro/projects/prose_generation/enrichment/corpus/TARAMA/raw/ocr-candidates/luna-pilot-2026-10-05/tarama-vol-1/low/p0100.txt\\n+§ Bir kasba 400, bir a"
+        },
+        {
+          "timestamp": "2026-10-05T14:40:03.518Z",
+          "name": "exec",
+          "argument_sha256": "f4b625489a6d2f716b2b13436ecbb18ee206105c865e3967305367f0897c228a",
+          "argument_characters": 7432,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const patch=\"*** Begin Patch\\n*** Add File: /Volumes/aro/projects/prose_generation/enrichment/corpus/TARAMA/raw/ocr-candidates/luna-pilot-2026-10-05/tarama-vol-4/low/p0194.txt\\n+§ Kendi kırnağı قرناعی"
+        }
+      ],
+      "assignment_sha256": "c0edc8f373b7f48464c3c8238cdb6b5ca09ee21546b9efa7f3b1f8f3342aeae0"
+    },
+    {
+      "agent_path": "/root/ocr_pilot_b06_medium",
+      "session_id": "01a10c7e-5a4b-77e1-838e-db2b9e8d9d1d",
+      "batch": 6,
+      "effort": "medium",
+      "contexts": [
+        {
+          "model": "gpt-6-luna",
+          "effort": "medium"
+        }
+      ],
+      "model_effort_verified": true,
+      "completed_at": "2026-10-05T14:40:33.428Z",
+      "usage": {
+        "input_tokens": 464523,
+        "cached_input_tokens": 404352,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 11296,
+        "reasoning_output_tokens": 1053,
+        "total_tokens": 475819
+      },
+      "tool_calls": [
+        {
+          "timestamp": "2026-10-05T14:36:17.057Z",
+          "name": "exec",
+          "argument_sha256": "af378eeee3fd206c31f74980ef87a517825902469cea720eeffd8f6c37e07265",
+          "argument_characters": 285,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"cat enrichment/v2/audits/2026-10-05-ocr-reliability/luna-pilot/BRIEF.md enrichment/v2/audits/2026-10-05-ocr-reliability/luna-pilot/batch-06-medium.json\",workdi"
+        },
+        {
+          "timestamp": "2026-10-05T14:36:24.293Z",
+          "name": "exec",
+          "argument_sha256": "d2df03170104617e86e2b64dc0d3a9458e8d1855ee46e2af8eb6a0e019d970a6",
+          "argument_characters": 743,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const paths = [\n\"/Volumes/aro/projects/prose_generation/enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-9/images/p0154.png\",\n\"/Volumes/aro/proj"
+        },
+        {
+          "timestamp": "2026-10-05T14:38:20.309Z",
+          "name": "exec",
+          "argument_sha256": "d02b392124fd94955151837e6df3427a398cf163a370e77e73dd8b4c61cb13b2",
+          "argument_characters": 12575,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"python3 -c 'from pathlib import Path; import json\\nroot=Path(\\\"/Volumes/aro/projects/prose_generation\\\")\\ndata={\\n\\\"enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/"
+        },
+        {
+          "timestamp": "2026-10-05T14:39:50.659Z",
+          "name": "exec",
+          "argument_sha256": "6830001b6d5e7466f947cd91cf925b897057699e039427500132604272714f41",
+          "argument_characters": 12461,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"python3 - <<'PY'\\nfrom pathlib import Path\\nimport json\\nroot=Path('/Volumes/aro/projects/prose_generation')\\ndata={\\n'enrichment/corpus/ACADEMIC/ISLAHI-TADABB"
+        },
+        {
+          "timestamp": "2026-10-05T14:40:06.965Z",
+          "name": "exec",
+          "argument_sha256": "51a8034e774e4ac8f8b5f7d7e5c0de201a9669acda9ba960db449b8df125ee0f",
+          "argument_characters": 584,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"python3 - <<'PY'\\nfrom pathlib import Path\\np=Path('/Volumes/aro/projects/prose_generation/enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-p"
+        },
+        {
+          "timestamp": "2026-10-05T14:40:18.876Z",
+          "name": "exec",
+          "argument_sha256": "fab0164a01df48676e6e3ecb26dac3e3494d8e329f14a2f03850258e41bcca38",
+          "argument_characters": 720,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"python3 - <<'PY'\\nfrom pathlib import Path\\nimport json\\np=Path('/Volumes/aro/projects/prose_generation/enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-cand"
+        },
+        {
+          "timestamp": "2026-10-05T14:40:26.227Z",
+          "name": "send_message",
+          "argument_sha256": "b33b45dfe74e5c3dfbf6cd88e6212b19c016eac10d2e6ed4e03affdbe71963eb",
+          "argument_characters": 707,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "parent progress notification; content omitted"
+        }
+      ],
+      "assignment_sha256": "e9784d714e192fcfbd48c4d022fad5e607e29db2b3ad8c0823058aada597b0ab"
+    }
+  ],
+  "totals": {
+    "low": {
+      "input_tokens": 1406478,
+      "cached_input_tokens": 1143296,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 28453,
+      "reasoning_output_tokens": 492,
+      "total_tokens": 1434931,
+      "non_reasoning_output_tokens": 27961
+    },
+    "medium": {
+      "input_tokens": 1713293,
+      "cached_input_tokens": 1429376,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 34287,
+      "reasoning_output_tokens": 4013,
+      "total_tokens": 1747580,
+      "non_reasoning_output_tokens": 30274
+    }
+  },
+  "priority_projections": {
+    "low": {
+      "BINTSHATI": {
+        "input_tokens": 15152604,
+        "cached_input_tokens": 10045376,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 281836,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 15434441,
+        "non_reasoning_output_tokens": 281836,
+        "pages": 418,
+        "basis": "Four-page Bint al-Shati batch; includes one unusually short page"
+      },
+      "KHULI": {
+        "input_tokens": 12591028,
+        "cached_input_tokens": 8408064,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 301116,
+        "reasoning_output_tokens": 11500,
+        "total_tokens": 12892144,
+        "non_reasoning_output_tokens": 289616,
+        "pages": 368,
+        "basis": "Mixed batch: two Khuli + two Abduh pages. Per-page allocation is a proxy, not source-isolated telemetry."
+      },
+      "TOTAL": {
+        "input_tokens": 27743632,
+        "cached_input_tokens": 18453440,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 582952,
+        "reasoning_output_tokens": 11500,
+        "total_tokens": 28326585,
+        "non_reasoning_output_tokens": 571452,
+        "pages": 786
+      }
+    },
+    "medium": {
+      "BINTSHATI": {
+        "input_tokens": 20861335,
+        "cached_input_tokens": 15529536,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 411103,
+        "reasoning_output_tokens": 62491,
+        "total_tokens": 21272438,
+        "non_reasoning_output_tokens": 348612,
+        "pages": 418,
+        "basis": "Four-page Bint al-Shati batch; includes one unusually short page"
+      },
+      "KHULI": {
+        "input_tokens": 21855612,
+        "cached_input_tokens": 18888704,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 442520,
+        "reasoning_output_tokens": 60260,
+        "total_tokens": 22298132,
+        "non_reasoning_output_tokens": 382260,
+        "pages": 368,
+        "basis": "Mixed batch: two Khuli + two Abduh pages. Per-page allocation is a proxy, not source-isolated telemetry."
+      },
+      "TOTAL": {
+        "input_tokens": 42716947,
+        "cached_input_tokens": 34418240,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 853623,
+        "reasoning_output_tokens": 122751,
+        "total_tokens": 43570570,
+        "non_reasoning_output_tokens": 730872,
+        "pages": 786
+      }
+    }
+  },
+  "priority_quality": {
+    "BINTSHATI": {
+      "low": {
+        "word": {
+          "edit_distance": 25,
+          "reference_units": 234,
+          "error_rate": 0.10683760683760683
+        },
+        "character": {
+          "edit_distance": 69,
+          "reference_units": 1207,
+          "error_rate": 0.05716652858326429
+        }
+      },
+      "medium": {
+        "word": {
+          "edit_distance": 22,
+          "reference_units": 234,
+          "error_rate": 0.09401709401709402
+        },
+        "character": {
+          "edit_distance": 48,
+          "reference_units": 1207,
+          "error_rate": 0.03976801988400994
+        }
+      }
+    },
+    "KHULI": {
+      "low": {
+        "word": {
+          "edit_distance": 59,
+          "reference_units": 206,
+          "error_rate": 0.28640776699029125
+        },
+        "character": {
+          "edit_distance": 157,
+          "reference_units": 1104,
+          "error_rate": 0.14221014492753623
+        }
+      },
+      "medium": {
+        "word": {
+          "edit_distance": 86,
+          "reference_units": 206,
+          "error_rate": 0.4174757281553398
+        },
+        "character": {
+          "edit_distance": 264,
+          "reference_units": 1104,
+          "error_rate": 0.2391304347826087
+        }
+      }
+    }
+  },
+  "quality_limit": "Diagnostic excerpt edit rates with permissive normalization and best-substring alignment; supervisor image readings, not independent gold, not whole-page/corpus accuracy. Harakat and punctuation excluded. Missing whole excerpts can align to unrelated text: inspect matched spans.",
+  "diagnostic_alignments": [
+    {
+      "id": "b1-p50-prose",
+      "page_id": "page-01",
+      "source": "BINTSHATI",
+      "efforts": {
+        "low": {
+          "word": {
+            "distance": 4,
+            "reference_length": 65,
+            "start": 86,
+            "end": 149,
+            "counts": {
+              "equal": 61,
+              "deletions": 2,
+              "substitutions": 2
+            }
+          },
+          "character": {
+            "distance": 10,
+            "reference_length": 321,
+            "start": 0,
+            "end": 313,
+            "counts": {
+              "equal": 311,
+              "deletions": 8,
+              "substitutions": 2
+            }
+          },
+          "matched_normalized_text": "والغني من أسماء الله الحسني والله الغني وأنتم الفقراء وقد ورد في القرآن سبع عشرة مرة وليس من أسمائه تعالي الغني وإن يكن القرآن استعمل الغني للمال في مثل آيات النساء 6 135 وآل عمران 181 والتوبة 93 والحشر 7 فلسنا نعرف أن الرسول صلي الله عليه وسلم قد أثري بعد البعث أو اقتني مالا بل نعرف أن مستوي حياته قد تغير ماديا"
+        },
+        "medium": {
+          "word": {
+            "distance": 5,
+            "reference_length": 65,
+            "start": 87,
+            "end": 151,
+            "counts": {
+              "equal": 60,
+              "substitutions": 4,
+              "deletions": 1
+            }
+          },
+          "character": {
+            "distance": 9,
+            "reference_length": 321,
+            "start": 0,
+            "end": 317,
+            "counts": {
+              "equal": 313,
+              "deletions": 5,
+              "substitutions": 3,
+              "insertions": 1
+            }
+          },
+          "matched_normalized_text": "والغني من أسماء الله الحسني والله الغني وأنتم الفقراء وقد ورد في القرآن سبع عشرة مرة وليس من أسمائه تعالي الغني وإن يكن القرآن استعمال الغني للمال في مثل آيات النساء 6 130 وآل عمران 181 والتوبة 93 والحجر 7 فلسنا نعرف أن الرسول صلي الله عليه وسلم قد أثري بعد البعث أو اقتني مالا بل لا نعرف أن مستوي حياته قد تغير ماديا"
+        }
+      }
+    },
+    {
+      "id": "b1-p100-full",
+      "page_id": "page-02",
+      "source": "BINTSHATI",
+      "efforts": {
+        "low": {
+          "word": {
+            "distance": 9,
+            "reference_length": 60,
+            "start": 0,
+            "end": 64,
+            "counts": {
+              "equal": 55,
+              "insertions": 4,
+              "substitutions": 5
+            }
+          },
+          "character": {
+            "distance": 24,
+            "reference_length": 307,
+            "start": 0,
+            "end": 323,
+            "counts": {
+              "equal": 300,
+              "insertions": 17,
+              "substitutions": 6,
+              "deletions": 1
+            }
+          },
+          "matched_normalized_text": "ذرة خير أو شر ولو مثقال ذرة ولم يقل تعالي يجز به أو يحاسب عليه وفي الآية قبلهما لا يؤمنون بصدور الناس أشتاتا ليروا أعمالهم شاهد علي أن الموقف متعلق برؤية الإنسان عمله محضرا في دقة لا يغادر صغيرة ولا كبيرة إلا أحصاها ثم يكون الحساب والجزاء بعد ذلك بعدل الله وفضله ورحمته سبحانه لا يغفر لمن يشاء ويعذب من يشاء والله غفور رحيم"
+        },
+        "medium": {
+          "word": {
+            "distance": 4,
+            "reference_length": 60,
+            "start": 0,
+            "end": 58,
+            "counts": {
+              "equal": 56,
+              "substitutions": 2,
+              "deletions": 2
+            }
+          },
+          "character": {
+            "distance": 9,
+            "reference_length": 307,
+            "start": 0,
+            "end": 300,
+            "counts": {
+              "equal": 299,
+              "deletions": 8,
+              "insertions": 1
+            }
+          },
+          "matched_normalized_text": "ذرة خيرا يره ولم يقل تعالي يجزأ به أو يحاسب عليه في الآية قبلهما يومئذ يصدر الناس أشتاتا ليروا أعمالهم شاهد علي أن الموقف متعلق برؤية الإنسان عمله محضرا في دقة لا يغادر صغيرة ولا كبيرة إلا أحصاها ثم يكون الحساب والجزاء بعد ذلك بعدل الله وفضله ورحمته سبحانه يغفر لمن يشاء ويعذب من يشاء والله غفور رحيم"
+        }
+      }
+    },
+    {
+      "id": "b2-p49-interpretation",
+      "page_id": "page-03",
+      "source": "BINTSHATI",
+      "efforts": {
+        "low": {
+          "word": {
+            "distance": 4,
+            "reference_length": 25,
+            "start": 49,
+            "end": 73,
+            "counts": {
+              "equal": 21,
+              "substitutions": 3,
+              "deletions": 1
+            }
+          },
+          "character": {
+            "distance": 13,
+            "reference_length": 129,
+            "start": 0,
+            "end": 124,
+            "counts": {
+              "equal": 118,
+              "deletions": 7,
+              "substitutions": 4,
+              "insertions": 2
+            }
+          },
+          "matched_normalized_text": "أما حين يأتي المن في القرآن مسندا إلي المخلوقين فالسياق علي وجه التبكيت أو المن كالذي في آيات ولا تمنن تستكثر واصبر المدثر 6"
+        },
+        "medium": {
+          "word": {
+            "distance": 3,
+            "reference_length": 25,
+            "start": 49,
+            "end": 74,
+            "counts": {
+              "equal": 22,
+              "substitutions": 3
+            }
+          },
+          "character": {
+            "distance": 8,
+            "reference_length": 129,
+            "start": 0,
+            "end": 131,
+            "counts": {
+              "equal": 124,
+              "substitutions": 4,
+              "insertions": 3,
+              "deletions": 1
+            }
+          },
+          "matched_normalized_text": "أما حين يأتي المن في القرآن مسندا إلي المخلوقين فالسياق علي وجهين المن أو النعمة كالذي في آيات ولا تمنن تستكثر ولربك فاصبر المدثر 6"
+        }
+      }
+    },
+    {
+      "id": "b2-p49-attribution",
+      "page_id": "page-03",
+      "source": "BINTSHATI",
+      "efforts": {
+        "low": {
+          "word": {
+            "distance": 4,
+            "reference_length": 28,
+            "start": 177,
+            "end": 205,
+            "counts": {
+              "deletions": 1,
+              "equal": 25,
+              "substitutions": 2,
+              "insertions": 1
+            }
+          },
+          "character": {
+            "distance": 17,
+            "reference_length": 141,
+            "start": 0,
+            "end": 136,
+            "counts": {
+              "deletions": 10,
+              "equal": 129,
+              "substitutions": 2,
+              "insertions": 5
+            }
+          },
+          "matched_normalized_text": "وفي تفسير غير ممنون علي رواية القلم قال الراغب إنه غير مقطوع ولا منقوص ومثله ابن القيم في التبيان غير مقطوع بل هو دائم مستمر ومما فسر به"
+        },
+        "medium": {
+          "word": {
+            "distance": 6,
+            "reference_length": 28,
+            "start": 179,
+            "end": 207,
+            "counts": {
+              "deletions": 1,
+              "equal": 23,
+              "substitutions": 4,
+              "insertions": 1
+            }
+          },
+          "character": {
+            "distance": 16,
+            "reference_length": 141,
+            "start": 0,
+            "end": 133,
+            "counts": {
+              "deletions": 11,
+              "equal": 128,
+              "substitutions": 2,
+              "insertions": 3
+            }
+          },
+          "matched_normalized_text": "وفي تفسير غير منون في آية القلم قال الراغب إنه غير مقطوع ولا منقوص ومثله ابن القيم في التبيان غير مقطوع بل هو دائم مستمر ومعنا فسر به"
+        }
+      }
+    },
+    {
+      "id": "b2-p98-definition",
+      "page_id": "page-04",
+      "source": "BINTSHATI",
+      "efforts": {
+        "low": {
+          "word": {
+            "distance": 4,
+            "reference_length": 56,
+            "start": 7,
+            "end": 63,
+            "counts": {
+              "equal": 52,
+              "substitutions": 4
+            }
+          },
+          "character": {
+            "distance": 5,
+            "reference_length": 309,
+            "start": 0,
+            "end": 306,
+            "counts": {
+              "equal": 304,
+              "deletions": 3,
+              "substitutions": 2
+            }
+          },
+          "matched_normalized_text": "الغشية في اللغة الغطاء والغاشية الغشاء الذي يغلف القلب واستغشي ثوبه وثوبه تغطي به لكي لا يري ولا يسمع ومن غشية النعاس المغطية للحس والإدراك جاءت غشية الإغماء قيل أغشي عليه إذا فقد وعيه وحسه كأنما عليها غطاء وكذلك يقال للغافل علي بصره أو علي سمعه غشاوة أي غطاء يحجب الرؤية ويعمي البصيرة ويعطل السمع والإدراك"
+        },
+        "medium": {
+          "word": {
+            "distance": 4,
+            "reference_length": 56,
+            "start": 7,
+            "end": 63,
+            "counts": {
+              "equal": 52,
+              "substitutions": 4
+            }
+          },
+          "character": {
+            "distance": 6,
+            "reference_length": 309,
+            "start": 0,
+            "end": 308,
+            "counts": {
+              "equal": 303,
+              "deletions": 1,
+              "substitutions": 5
+            }
+          },
+          "matched_normalized_text": "الغشية في اللغة الغطاء والغاشية الغشاء الذي يغلف القلب واستغشي ثوبه وثيابه تغطي به لكي لا يري ولا يسمع ومن غشية النعاس المغطلة للحس والإدراك جاءت غشية الإغماء فقبل أغشي عليه إذا فقد وعيه وحسه كأنما عليها غطاء وكذلك يقال للغافل علي بصره أو علي سمعه غشاوة أي غطاء يحجب الرؤية ويعمي البصيرة ويعطل السمع والإدراك"
+        }
+      }
+    },
+    {
+      "id": "khuli-p92-opening",
+      "page_id": "page-05",
+      "source": "KHULI",
+      "efforts": {
+        "low": {
+          "word": {
+            "distance": 34,
+            "reference_length": 134,
+            "start": 1,
+            "end": 132,
+            "counts": {
+              "equal": 100,
+              "substitutions": 31,
+              "deletions": 3
+            }
+          },
+          "character": {
+            "distance": 88,
+            "reference_length": 722,
+            "start": 0,
+            "end": 700,
+            "counts": {
+              "equal": 640,
+              "substitutions": 54,
+              "deletions": 28,
+              "insertions": 6
+            }
+          },
+          "matched_normalized_text": "الكتاب في عصور الأجيال ورموزه نقول الرجال مفتاح يضع أعلامه ودليل علي اتجاه نهضته ومدخل في تقدير قيمته ودرجة الفقه به والأبعاد عليه خذ لذلك مثلا بديع ابن حزم فإنه زاد وجهت دراسته البلاغة توجيها لا تبين منزلة إلا بعد معرفة العناصر التي تألف منها هذا الكتاب ومن صفته وتفهم هذه العناصر في ميادين الحياة العامة أو الخاصة لعرف أولا المحيط في عقول من درسوا هذه المادة ثم تناول الناس بديع ابن المتفرغين بعده وعنايتهم به أو إهماله وطريقة فهمهم له أو أخذهم عنه كل أولئك لا بد منه لمن يريد أن يعرف حقا صورة حقائق هذا الكتاب في عقول دارسيه المقبلين عليه أو انعكاسها علي أذهان تاركيه المهملين له والإقبال أو الإدبار أثره في توجيه الدرس البلاغي كأن فهم الكتاب عمل في استكمال الحقائق التي انطلق إلي أبحاث هذه المادة"
+        },
+        "medium": {
+          "word": {
+            "distance": 36,
+            "reference_length": 134,
+            "start": 1,
+            "end": 134,
+            "counts": {
+              "equal": 101,
+              "substitutions": 29,
+              "deletions": 4,
+              "insertions": 3
+            }
+          },
+          "character": {
+            "distance": 78,
+            "reference_length": 722,
+            "start": 0,
+            "end": 709,
+            "counts": {
+              "equal": 651,
+              "substitutions": 51,
+              "insertions": 7,
+              "deletions": 20
+            }
+          },
+          "matched_normalized_text": "الكتاب في عهود الأجيال ورموزه بقول الرجال مفتاح يضع أعلاقه ويدل علي اتجاه نهضته ويدخل في تقدير قيمته ودرجة الفقه به والأبعاد عليه خذ لذلك مثلا بديع ابن الحزم فإنه نواة وجهت درامة البلاغة توجيها لا تبين منزلة إلا بعد معرفة العناصر التي تألف منها هذا الكتاب وما صنفه من لغة وتقسيم هذه العناصر في ميادين الحياة العلمية أو الفلسفية يعرف أولا ما الصحيح في عقول من درسوا هذه المادة ثم تناول الناس بديع ابن المقفع بعده وعنايتهم به أو إهماله وطريقة فهمهم له أو أخذهم عنه كل أولئك لابد منه ليرد أن يعرف حقا صورة حقائق هذا الكتاب في عقول دارسيه القائلين عليه أو انعكاسها علي أذهان تاركيه المهملين له ولا يقال أو الأجيال أثره في توجيه الدرس البلاغي كان لهم الكتاب عليه في استكمال الحقائق التي أقاموا إلي أصحاب هذه المادة"
+        }
+      }
+    },
+    {
+      "id": "khuli-p100-opening",
+      "page_id": "page-06",
+      "source": "KHULI",
+      "efforts": {
+        "low": {
+          "word": {
+            "distance": 12,
+            "reference_length": 28,
+            "start": 1,
+            "end": 27,
+            "counts": {
+              "equal": 16,
+              "substitutions": 10,
+              "deletions": 2
+            }
+          },
+          "character": {
+            "distance": 34,
+            "reference_length": 150,
+            "start": 0,
+            "end": 145,
+            "counts": {
+              "equal": 119,
+              "substitutions": 23,
+              "insertions": 3,
+              "deletions": 8
+            }
+          },
+          "matched_normalized_text": "في الجاهلية وإن ظفر في الجاهلية قبل الإسلام وتأثر وتحمس وأبطال شخص شخص فاليوم لا تنافر الدعوة الجديدة قابل ولا صالح بل تنافر الآلام وتعاجز الدنيا"
+        },
+        "medium": {
+          "word": {
+            "distance": 10,
+            "reference_length": 28,
+            "start": 1,
+            "end": 29,
+            "counts": {
+              "equal": 18,
+              "substitutions": 10
+            }
+          },
+          "character": {
+            "distance": 24,
+            "reference_length": 150,
+            "start": 0,
+            "end": 151,
+            "counts": {
+              "equal": 130,
+              "substitutions": 17,
+              "insertions": 4,
+              "deletions": 3
+            }
+          },
+          "matched_normalized_text": "في الجاهلية وإن ظاهر في الجاهلية قبل قليل وتأثر وهبط زمامها أو باطل شخص شخصا فاليوم لا تنافر الدعوة الجديدة قائل ولا سائل بل تنافر الآلام وتعاجز الدنيا"
+        }
+      }
+    },
+    {
+      "id": "khuli-p100-lower",
+      "page_id": "page-06",
+      "source": "KHULI",
+      "efforts": {
+        "low": {
+          "word": {
+            "distance": 13,
+            "reference_length": 44,
+            "start": 208,
+            "end": 251,
+            "counts": {
+              "equal": 31,
+              "substitutions": 12,
+              "deletions": 1
+            }
+          },
+          "character": {
+            "distance": 35,
+            "reference_length": 232,
+            "start": 0,
+            "end": 225,
+            "counts": {
+              "equal": 201,
+              "substitutions": 20,
+              "deletions": 11,
+              "insertions": 4
+            }
+          },
+          "matched_normalized_text": "عن عمر رضي الله عنه أنه كان أقدم أهل زمانه للشعر وأبصرهم ولعل بن أبي طالب أحكام علي الشعراء المتقدمين ومع هذه الآراء القيمة أحيانا أوجه النقد وأسباب التفضيل قوي الذي أسلفنا في المرجح النقدي لهذا العصر الذي لم يكن في أكثر شأنه"
+        },
+        "medium": {
+          "word": {
+            "distance": 40,
+            "reference_length": 44,
+            "start": 106,
+            "end": 139,
+            "counts": {
+              "deletions": 11,
+              "equal": 4,
+              "substitutions": 29
+            }
+          },
+          "character": {
+            "distance": 162,
+            "reference_length": 232,
+            "start": 0,
+            "end": 176,
+            "counts": {
+              "substitutions": 98,
+              "deletions": 60,
+              "equal": 74,
+              "insertions": 4
+            }
+          },
+          "matched_normalized_text": "أدبي صحيح بلاغي لاختلاف طرائقه عما كان قبل اليوم في البادية من وحشي الذوق وصفة النظر وصاحب الدعوة عليه السلام بغير هذه النوعية الفتية في النقد الكلامي إذ يقال ثم الجمال فقول في"
+        }
+      }
+    }
+  ],
+  "artifacts": [
+    {
+      "page_id": "page-01",
+      "outputs": {
+        "low": {
+          "present": true,
+          "sha256": "e40f5b9a1703496e25c6e03d6031e321143cbae1742da9bb9c558157965ba0e1",
+          "review_sha256": "6e87ddff5410b0738162675ad9798028ea90cec6a0dd00518c1d82caa2766b5f",
+          "bytes": 2418,
+          "characters": 1352,
+          "lines": 10,
+          "combining_marks": 0,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        },
+        "medium": {
+          "present": true,
+          "sha256": "3af54723cce1ca019b2eef100815ec116ccdf82c6145a7e8dd3027a28391d594",
+          "review_sha256": "87278110d08ec7d034207d7869a44145dc7680b4d1cd15474eaefad1f25b598a",
+          "bytes": 2459,
+          "characters": 1374,
+          "lines": 11,
+          "combining_marks": 4,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        }
+      }
+    },
+    {
+      "page_id": "page-02",
+      "outputs": {
+        "low": {
+          "present": true,
+          "sha256": "383c511a8cf9646096ab8943f21ff3067402d143255b6c1065fc544d06bb1c7c",
+          "review_sha256": "7c3bacbd44c8563be4525003960100b8367e0c8e641fed760747a9f6d65f68c1",
+          "bytes": 610,
+          "characters": 341,
+          "lines": 2,
+          "combining_marks": 0,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        },
+        "medium": {
+          "present": true,
+          "sha256": "c1df51c97f84a67d6e0eead1c71ddafee064957a328a1b056e071073d643e616",
+          "review_sha256": "733cdda563c742395e6f05157b556107f5bd25291cdfd21ca616d8d6f1e1d228",
+          "bytes": 584,
+          "characters": 324,
+          "lines": 3,
+          "combining_marks": 3,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        }
+      }
+    },
+    {
+      "page_id": "page-03",
+      "outputs": {
+        "low": {
+          "present": true,
+          "sha256": "812a32ee0bf6e96645f78fa37141ca218b1e2fa7f75d7aa07974a0842e518542",
+          "review_sha256": "3fcd630ee13933e11496db76996bd43d5804b32e35b478f349c6c09e671b0fb2",
+          "bytes": 2109,
+          "characters": 1186,
+          "lines": 14,
+          "combining_marks": 0,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        },
+        "medium": {
+          "present": true,
+          "sha256": "0759370ffa02fe4c130a314881bf2b0600172383e6b8c7216069262b8665b64b",
+          "review_sha256": "1261a742805e4f4a609388deec9a75c56a11670985e2e29ab6038338e8b95f90",
+          "bytes": 2146,
+          "characters": 1206,
+          "lines": 13,
+          "combining_marks": 4,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        }
+      }
+    },
+    {
+      "page_id": "page-04",
+      "outputs": {
+        "low": {
+          "present": true,
+          "sha256": "c143e82880a3499d16b33b59c22adfa47bd08b28c4c50ab96ab881c2595c3fe7",
+          "review_sha256": "7becf9f2ee8ca2242ac9bd57d752f27b28b91208e74c1b98d8c9166b8f9f77bc",
+          "bytes": 2075,
+          "characters": 1152,
+          "lines": 15,
+          "combining_marks": 0,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        },
+        "medium": {
+          "present": true,
+          "sha256": "64c4a51b40b14df1993cc0a4bb4f2367b823d59a185d3685f2fc3228e91b2802",
+          "review_sha256": "2dd0c4fdd5b3862f7669aace73b005c69b23a1c4259a4c8b6d88ce9974265b94",
+          "bytes": 2088,
+          "characters": 1158,
+          "lines": 15,
+          "combining_marks": 4,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        }
+      }
+    },
+    {
+      "page_id": "page-05",
+      "outputs": {
+        "low": {
+          "present": true,
+          "sha256": "894f8b384ab6deb88305eafde681b19675d711ffd1d33109d18a3625075bf9d4",
+          "review_sha256": "7a4fdb0c34d42b325453f9afa9f4c8a9a4103cc62b3478f3e93668178fe1d288",
+          "bytes": 2681,
+          "characters": 1490,
+          "lines": 8,
+          "combining_marks": 0,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        },
+        "medium": {
+          "present": true,
+          "sha256": "5a5ead7e1ef5af585a22bd3faa7d8198462ea9face226a92b1ee9f2abbbdffb7",
+          "review_sha256": "19effbf0edb57fa10610fbec1f3d252ccbb51ed8de8c46918b741977bf4e921d",
+          "bytes": 2719,
+          "characters": 1513,
+          "lines": 9,
+          "combining_marks": 0,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        }
+      }
+    },
+    {
+      "page_id": "page-06",
+      "outputs": {
+        "low": {
+          "present": true,
+          "sha256": "8840f585b4466460c8cb7fde7697b38aa4dbbfcce94540729d43588d191c73bc",
+          "review_sha256": "f348893a0d6fe1f725288b6f987851eb4010ec7da7a66b374afd6e0ef0fecd7e",
+          "bytes": 2572,
+          "characters": 1436,
+          "lines": 9,
+          "combining_marks": 0,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        },
+        "medium": {
+          "present": true,
+          "sha256": "47da70254ce9064b5bb32ef0776ae6d8df57a64f3cb3712ee028fcfb51f0ee44",
+          "review_sha256": "e38e8def44ff1522f43a145fe23f86ce859348a9c309ad8bf9fb70eafe818adb",
+          "bytes": 2068,
+          "characters": 1156,
+          "lines": 9,
+          "combining_marks": 0,
+          "uncertainty_markers": 1,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        }
+      }
+    },
+    {
+      "page_id": "page-07",
+      "outputs": {
+        "low": {
+          "present": true,
+          "sha256": "dc77599e80808742fa2c08d4724a26817c0f22057b69f42fe4c56550d9124bbd",
+          "review_sha256": "c2dcce0031168507a75a2e7924427ad557fcd4b21b3e9c99f8b71517714dd359",
+          "bytes": 3143,
+          "characters": 1748,
+          "lines": 8,
+          "combining_marks": 0,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        },
+        "medium": {
+          "present": true,
+          "sha256": "85190af2f098b66a1480a174f9d5ddbc744c579e710a8f42afe61e5f9224c0ff",
+          "review_sha256": "30ef71c362f8bc8c4f4d33d3c3af2f659ec5deb3cecc87186b0f0575dbb088f9",
+          "bytes": 3308,
+          "characters": 1820,
+          "lines": 6,
+          "combining_marks": 85,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        }
+      }
+    },
+    {
+      "page_id": "page-08",
+      "outputs": {
+        "low": {
+          "present": true,
+          "sha256": "27229a8823f7a0ebce1503ff73ad9eda332dee0878f3c87184dfa33a6a97779b",
+          "review_sha256": "a257e0c9c18e4c0e114de852d569c8fb0403085c09a2e8f8f6af1fd12e83dab2",
+          "bytes": 2905,
+          "characters": 1631,
+          "lines": 5,
+          "combining_marks": 1,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        },
+        "medium": {
+          "present": true,
+          "sha256": "98f958889c39622ce3f3d0c2622d90e2d51a84a6f9ec22abaa07c1a956c5b31d",
+          "review_sha256": "81e5ac4c2c384cbe02b16e92db14a5f40b3009ead1d1013c70c8f6d24ea28af6",
+          "bytes": 2909,
+          "characters": 1614,
+          "lines": 5,
+          "combining_marks": 22,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        }
+      }
+    },
+    {
+      "page_id": "page-09",
+      "outputs": {
+        "low": {
+          "present": true,
+          "sha256": "2a294024ebacd0425d838e674a58c5aed6c9992880fca226745d730c542b3373",
+          "review_sha256": "502efd38b17b54cd065551262b2262d080842c74413164ce137789fce84a4ca1",
+          "bytes": 1817,
+          "characters": 1027,
+          "lines": 32,
+          "combining_marks": 2,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        },
+        "medium": {
+          "present": true,
+          "sha256": "f333f0e140361e13f1fe8fbf4c2485ea0ce9672c71b9cc29516f202ba591bb60",
+          "review_sha256": "19ae6eac7a074aa7b2ccf7ad80850c8b3294baf93c87da34ef72715420a9f2ee",
+          "bytes": 1807,
+          "characters": 1017,
+          "lines": 19,
+          "combining_marks": 0,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        }
+      }
+    },
+    {
+      "page_id": "page-10",
+      "outputs": {
+        "low": {
+          "present": true,
+          "sha256": "35d820e2d5f34d45966bdb0ffe031fd1afe1ee7c2e081b5854a54af39368233d",
+          "review_sha256": "7c0d36f498bdc5c8aecf2e01c2e0be65a27b44200b6ab2a47c0dd488fa56a689",
+          "bytes": 1852,
+          "characters": 1050,
+          "lines": 30,
+          "combining_marks": 2,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        },
+        "medium": {
+          "present": true,
+          "sha256": "430038f32c5832c5a672dd6701900ca976806c98c4dec77cda625ccdcac3448c",
+          "review_sha256": "847cf798a07c1e61f538cd907bdc64f2d7a6dba0df3d4a2f38374778b99a9da1",
+          "bytes": 1824,
+          "characters": 1028,
+          "lines": 17,
+          "combining_marks": 0,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        }
+      }
+    },
+    {
+      "page_id": "page-11",
+      "outputs": {
+        "low": {
+          "present": true,
+          "sha256": "791d0e1bc40ddf2f59262149ff355fc08bcbc827be6e705a46c0f423df2c6f5b",
+          "review_sha256": "5d4bc5238b4f0b19b7303e0a095ea977c5551d3207d184d0df73928d69bcfa4e",
+          "bytes": 2775,
+          "characters": 1588,
+          "lines": 26,
+          "combining_marks": 2,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        },
+        "medium": {
+          "present": true,
+          "sha256": "5abbf5ddc658281bf9a948112d23678bf52e46017397abe5198c611269848d4e",
+          "review_sha256": "090d35d6cd8b5c257a8af7914b090cc8d41ab9f602c69058941b72ffb79e73cb",
+          "bytes": 2736,
+          "characters": 1568,
+          "lines": 7,
+          "combining_marks": 0,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        }
+      }
+    },
+    {
+      "page_id": "page-12",
+      "outputs": {
+        "low": {
+          "present": true,
+          "sha256": "734e552bd47c773b8b4d211b4506d522b6cf220f71407de18cc1f821b8038d22",
+          "review_sha256": "8ebb445a92ff0f758bab9a61d12685422d4ea754d08f099ec3548d4998068033",
+          "bytes": 2641,
+          "characters": 1518,
+          "lines": 16,
+          "combining_marks": 1,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        },
+        "medium": {
+          "present": true,
+          "sha256": "875d3611d8219e6cf26cea2f904839b1e654838c508208d34ea48208c6510c5f",
+          "review_sha256": "7d1f7b857db1630e351513aee45c155bae0897683d4aa73b7dc39873632ef83e",
+          "bytes": 2643,
+          "characters": 1520,
+          "lines": 11,
+          "combining_marks": 6,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        }
+      }
+    },
+    {
+      "page_id": "page-13",
+      "outputs": {
+        "low": {
+          "present": true,
+          "sha256": "9af0adfd7e15d83c02a7d5e7845820c525ba2fcc874cf38e4e439ce60d2a1f25",
+          "review_sha256": "b93d23a5afa632ce6ecc2cc8fd841cf0eeedf01a54606d52bc741434fe73b54e",
+          "bytes": 2062,
+          "characters": 1141,
+          "lines": 12,
+          "combining_marks": 0,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        },
+        "medium": {
+          "present": true,
+          "sha256": "8600586f49e6133ca2039a414579beba93ef0328261ce329686e11f0296c253b",
+          "review_sha256": "deca8fe890d99a033dd6a674dadb603753dcd8393d7064fec57ee9d30e00221f",
+          "bytes": 2081,
+          "characters": 1153,
+          "lines": 14,
+          "combining_marks": 0,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        }
+      }
+    },
+    {
+      "page_id": "page-14",
+      "outputs": {
+        "low": {
+          "present": true,
+          "sha256": "d49173e828b1430c8885b50195b17f60ec2a61dfc06b5c68d3fec6d5dd7bf84d",
+          "review_sha256": "e2e4bc8c549dcf6852d32a83687f1baf970a83543c90123efcc84245b17cbff8",
+          "bytes": 2022,
+          "characters": 1118,
+          "lines": 11,
+          "combining_marks": 0,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        },
+        "medium": {
+          "present": true,
+          "sha256": "03fb850281b34cb7407a5face21c41e070e8dba66bad31cb8969c59f62513b5d",
+          "review_sha256": "db5f22e93d87f7ac1c0e6b316ac0bbe11adfd9e28226da6f4db70aced34c4f7d",
+          "bytes": 2020,
+          "characters": 1120,
+          "lines": 13,
+          "combining_marks": 0,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        }
+      }
+    },
+    {
+      "page_id": "page-15",
+      "outputs": {
+        "low": {
+          "present": true,
+          "sha256": "5c6dfef8e65e398eb544e243ddca3bd593c035cd6a18cf42421f8663eb3107e6",
+          "review_sha256": "0b0711ec87f0028b694d00d149288dbc359c5ead86bc4dc55e08c814103d09a8",
+          "bytes": 2901,
+          "characters": 2375,
+          "lines": 13,
+          "combining_marks": 21,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        },
+        "medium": {
+          "present": true,
+          "sha256": "8dbcade314fd65c23e37edfddd6bc05b0a21424b98cecd2b3bebf2f04ead2027",
+          "review_sha256": "b3e5807c775d5c68b3d421c7ef1166f6c31870bc1011ad6d071119e8147d7dcc",
+          "bytes": 2870,
+          "characters": 2341,
+          "lines": 13,
+          "combining_marks": 28,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        }
+      }
+    },
+    {
+      "page_id": "page-16",
+      "outputs": {
+        "low": {
+          "present": true,
+          "sha256": "0aded86a8bb577ba13733a1cc1aa96cf769ace0e5952fce1e4514a042576e6e6",
+          "review_sha256": "12cbd652d1f502032ce65f032d53664e2a19ad02c0a1be8cc504cfab7c0d0310",
+          "bytes": 2248,
+          "characters": 1898,
+          "lines": 19,
+          "combining_marks": 33,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        },
+        "medium": {
+          "present": true,
+          "sha256": "df185a49a13c1a17cc976700205359f96bde7e3d0f964c6574d1b405fe0041b3",
+          "review_sha256": "4a79c2626cea43099c9475349e72c1b4b525d97af141eb3fb768d40c6e4912cf",
+          "bytes": 2263,
+          "characters": 1906,
+          "lines": 19,
+          "combining_marks": 39,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        }
+      }
+    },
+    {
+      "page_id": "page-17",
+      "outputs": {
+        "low": {
+          "present": true,
+          "sha256": "356614d0358c5effa4d2e64bb4eb21fc88738979ef5d3aff80774f077d61a854",
+          "review_sha256": "0e8be95d7b7fe86afc25ee1d760ef9ab84a6a59763817639a4895a4f75967167",
+          "bytes": 3842,
+          "characters": 3472,
+          "lines": 13,
+          "combining_marks": 154,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        },
+        "medium": {
+          "present": true,
+          "sha256": "42711762228c1f8a34b04244cddf865ca1d677a7640f92eac8e61af8dec03443",
+          "review_sha256": "6c7b4d17e561bc516042ad07823cd88d7bef2324330008460d8a3fbd85750ed6",
+          "bytes": 3885,
+          "characters": 3511,
+          "lines": 13,
+          "combining_marks": 155,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        }
+      }
+    },
+    {
+      "page_id": "page-18",
+      "outputs": {
+        "low": {
+          "present": true,
+          "sha256": "86ca2a3fe4c0a833036126e516ed1105209626e920ee38b21b61b7cf67da1d18",
+          "review_sha256": "f88ca02ff77bd218aaafe294916298ce97437d85b2e7415be4a0620183123d6b",
+          "bytes": 3212,
+          "characters": 1823,
+          "lines": 11,
+          "combining_marks": 5,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        },
+        "medium": {
+          "present": true,
+          "sha256": "0b4a6af63555b24678beb7a768c6082e173661d01f843c826102cce490507689",
+          "review_sha256": "b6e1b6f0dc8ba76968fa2f2ee92b8852fc4585625fa123d0668b262a7b42733f",
+          "bytes": 2036,
+          "characters": 1177,
+          "lines": 13,
+          "combining_marks": 4,
+          "uncertainty_markers": 0,
+          "agent_complete": false,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        }
+      }
+    },
+    {
+      "page_id": "page-19",
+      "outputs": {
+        "low": {
+          "present": true,
+          "sha256": "b16fb951caae07896a0059fafa47e31468f60163ea42abcd2aa0599cf7981802",
+          "review_sha256": "d341aa256ba1c286a5ef654977b5b36eb4024d801f684bba2926c8be33bc2f35",
+          "bytes": 2133,
+          "characters": 1177,
+          "lines": 11,
+          "combining_marks": 204,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        },
+        "medium": {
+          "present": true,
+          "sha256": "cba48ac0601320e41e03ba6481656fd800b88a0d4dbb0307fcd05ccf2f9404db",
+          "review_sha256": "e870100569dce32e3f120e16d87ae02930c062daa468d3a59d26cef0233c5acf",
+          "bytes": 1401,
+          "characters": 787,
+          "lines": 10,
+          "combining_marks": 195,
+          "uncertainty_markers": 0,
+          "agent_complete": false,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        }
+      }
+    },
+    {
+      "page_id": "page-20",
+      "outputs": {
+        "low": {
+          "present": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "review_sha256": "9eb292742f5487257891747df8b8d534e06573d34fc9b240150fe092ba1afc61",
+          "bytes": 0,
+          "characters": 0,
+          "lines": 0,
+          "combining_marks": 0,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": true,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        },
+        "medium": {
+          "present": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "review_sha256": "16b9979710ce58216cbd805a758a2aa55b4ef384d1292b50776a91cbad3a2207",
+          "bytes": 0,
+          "characters": 0,
+          "lines": 0,
+          "combining_marks": 0,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": true,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        }
+      }
+    },
+    {
+      "page_id": "page-21",
+      "outputs": {
+        "low": {
+          "present": true,
+          "sha256": "cb20660c4d904ea28addaf1bc1b4dd73826b27df2225e0eb0aa759e44bfe1334",
+          "review_sha256": "138208f03a1b16ab44e6ef73d36be6e89ad7f81b74a8f798f1a7b87ac310c12f",
+          "bytes": 1648,
+          "characters": 960,
+          "lines": 33,
+          "combining_marks": 27,
+          "uncertainty_markers": 2,
+          "agent_complete": null,
+          "verified_blank": null,
+          "blank_contract_valid": true,
+          "review_page_id_valid": false,
+          "review_json_error": "Expecting property name enclosed in double quotes: line 2 column 3 (char 4)"
+        },
+        "medium": {
+          "present": true,
+          "sha256": "935aefebe23efcf19b49729527252df54185d65d58262bf01a9a720eaf1061a0",
+          "review_sha256": "8e812df3f63efcf44cd53503218c1d621700733d68fef5829d87aa13a10d82ca",
+          "bytes": 237,
+          "characters": 149,
+          "lines": 23,
+          "combining_marks": 17,
+          "uncertainty_markers": 8,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        }
+      }
+    },
+    {
+      "page_id": "page-22",
+      "outputs": {
+        "low": {
+          "present": true,
+          "sha256": "00d7f899f11f78d9a57586cedc2e9c42cedf0e8ab9c583d69223ee19b3dbc0d5",
+          "review_sha256": "5cda922556708995098ed1feb3921533babab583f90bda977d3eb3f6d51a9dac",
+          "bytes": 2986,
+          "characters": 2614,
+          "lines": 47,
+          "combining_marks": 1,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        },
+        "medium": {
+          "present": true,
+          "sha256": "e7771ab589c4d3c551ededf013e5243ae55134543cefcece94708e482b13332e",
+          "review_sha256": "740a82f3997da4adf28f4b16f02a9db7851b0a8fbea481d740c0e9bb766d2f4c",
+          "bytes": 3017,
+          "characters": 2667,
+          "lines": 80,
+          "combining_marks": 0,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        }
+      }
+    },
+    {
+      "page_id": "page-23",
+      "outputs": {
+        "low": {
+          "present": true,
+          "sha256": "c5eb9733ff3f0c8f2480d27f1740bc1cd9663d2b69ed6cde4301f0130781c83d",
+          "review_sha256": "cdc1a1da77109e83aa2d5421d41f45ea3466ed6a676b20fc497e808d743b09b8",
+          "bytes": 3368,
+          "characters": 2966,
+          "lines": 41,
+          "combining_marks": 0,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        },
+        "medium": {
+          "present": true,
+          "sha256": "c2082a9c237c366771baafbe553b72b3c0b1dcce408cedd4cd04c970a9e449be",
+          "review_sha256": "ca3378892ebf1f3d9681f7424a07a9c42bd64b6280b3b1f811f1cbc7f0891b17",
+          "bytes": 3348,
+          "characters": 2965,
+          "lines": 61,
+          "combining_marks": 1,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        }
+      }
+    },
+    {
+      "page_id": "page-24",
+      "outputs": {
+        "low": {
+          "present": true,
+          "sha256": "f74c91afad937904ac6c9ea687a4271c258476596d96d87605d6ee4077b28dc1",
+          "review_sha256": "b2c5b97ebbceb9ceb26d8d6ab269a59c965b606e840b6a674fbf6b716332456c",
+          "bytes": 2842,
+          "characters": 2545,
+          "lines": 64,
+          "combining_marks": 0,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        },
+        "medium": {
+          "present": true,
+          "sha256": "db2164a886829dddde49cdbd8311a824c9225f71d21145e26e778513496ee606",
+          "review_sha256": "57784ebef7ded1410d3f726610d4566bb2b6e17cc9ba22d9135a76ecd2aa72fe",
+          "bytes": 2832,
+          "characters": 2540,
+          "lines": 66,
+          "combining_marks": 0,
+          "uncertainty_markers": 0,
+          "agent_complete": true,
+          "verified_blank": false,
+          "blank_contract_valid": true,
+          "review_page_id_valid": true,
+          "review_json_error": null
+        }
+      }
+    }
+  ]
+}

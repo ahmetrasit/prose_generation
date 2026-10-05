@@ -1,0 +1,818 @@
+{
+  "created_at": "2026-10-05T15:21:06.881622+00:00",
+  "manifest_sha256": "c7fb6f90e6d31e9b3d16f3e4d12187bc504f7114fb1e794d6dc9d7bb64d415cc",
+  "artifacts": [
+    {
+      "page_id": "page-01",
+      "source": "BINTSHATI",
+      "present": true,
+      "sha256": "221a79d7632c6d40c30ed8c3cabe4784ede83b12b7f9eccb253919ec9d35cf1b",
+      "review_sha256": "8501cdbf1b5a8afd98d0d22476e73888796f895a599fa64cd8c09f3d425c005d",
+      "bytes": 2555,
+      "characters": 1428,
+      "lines": 36,
+      "combining_marks": 50,
+      "uncertainty_markers": 0,
+      "agent_complete": true,
+      "verified_blank": false,
+      "blank_contract_valid": true,
+      "review_page_id_valid": true
+    },
+    {
+      "page_id": "page-02",
+      "source": "BINTSHATI",
+      "present": true,
+      "sha256": "d85000989d39a80cf45daeeaebdd60645a0f637b2ea4d34e053a590df59ddba5",
+      "review_sha256": "14412f3fac153ca4e57925e05f46ab6770845a4da26da446c90a7a7ada7b6de2",
+      "bytes": 609,
+      "characters": 343,
+      "lines": 9,
+      "combining_marks": 4,
+      "uncertainty_markers": 0,
+      "agent_complete": true,
+      "verified_blank": false,
+      "blank_contract_valid": true,
+      "review_page_id_valid": true
+    },
+    {
+      "page_id": "page-03",
+      "source": "BINTSHATI",
+      "present": true,
+      "sha256": "bdeed39c99db771026205d3d2d79808c9c80707453a89e790ce985f78da2002b",
+      "review_sha256": "d12f96c9d09362b5830f2381775174ffb24c685da17df00f720243d36a9be44d",
+      "bytes": 2303,
+      "characters": 1325,
+      "lines": 40,
+      "combining_marks": 46,
+      "uncertainty_markers": 0,
+      "agent_complete": true,
+      "verified_blank": false,
+      "blank_contract_valid": true,
+      "review_page_id_valid": true
+    },
+    {
+      "page_id": "page-04",
+      "source": "BINTSHATI",
+      "present": true,
+      "sha256": "8acc9c8209ee35b6d06dd2fd5c0efd12d7f8f0719fb266871d1413d729d41f32",
+      "review_sha256": "219dcf19f31d3b0b51058cd259e9f6631ea56d19647a2b188ce6ac9a1f92d18c",
+      "bytes": 2148,
+      "characters": 1202,
+      "lines": 37,
+      "combining_marks": 25,
+      "uncertainty_markers": 0,
+      "agent_complete": true,
+      "verified_blank": false,
+      "blank_contract_valid": true,
+      "review_page_id_valid": true
+    },
+    {
+      "page_id": "page-05",
+      "source": "KHULI",
+      "present": true,
+      "sha256": "955293b079ac18d5bb23184cd09128836a529a19c6d34f756f18b7d44584dfc2",
+      "review_sha256": "1cfd3e847d028b55180a5eae19d29e41b15e9b4491dea251725819fb2bd0f4bc",
+      "bytes": 2763,
+      "characters": 1537,
+      "lines": 11,
+      "combining_marks": 0,
+      "uncertainty_markers": 0,
+      "agent_complete": true,
+      "verified_blank": false,
+      "blank_contract_valid": true,
+      "review_page_id_valid": true
+    },
+    {
+      "page_id": "page-06",
+      "source": "KHULI",
+      "present": true,
+      "sha256": "16e72dcdde4c2141d6f161c63f92681df1fa2005417139245ed204a04ae682eb",
+      "review_sha256": "47d7263a3bd7b43152efe1c2ae149421b8f1d720e859816a1089ddd7ede05dc6",
+      "bytes": 2689,
+      "characters": 1502,
+      "lines": 29,
+      "combining_marks": 5,
+      "uncertainty_markers": 2,
+      "agent_complete": true,
+      "verified_blank": false,
+      "blank_contract_valid": true,
+      "review_page_id_valid": true
+    }
+  ],
+  "runs": [
+    {
+      "agent_path": "/root/sol_ocr_page_01",
+      "page_id": "page-01",
+      "session_id": "01a10c9e-5f35-7e73-9458-e15f797cdc8b",
+      "contexts": [
+        {
+          "model": "gpt-6-sol",
+          "effort": "medium"
+        }
+      ],
+      "model_verified": true,
+      "completed_at": "2026-10-05T15:13:36.306Z",
+      "usage": {
+        "input_tokens": 176838,
+        "cached_input_tokens": 151680,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2677,
+        "reasoning_output_tokens": 1303,
+        "total_tokens": 179515
+      },
+      "errors": [],
+      "tool_calls": [
+        {
+          "timestamp": "2026-10-05T15:11:21.129Z",
+          "name": "exec",
+          "argument_sha256": "6e44f4da92be7fe4afd70d1920f2b373d49550c79423d6b4cd6e4c523bb02c12",
+          "argument_characters": 252,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"cat enrichment/v2/audits/2026-10-05-ocr-reliability/sol-pilot/BRIEF.md enrichment/v2/audits/2026-10-05-ocr-reliability/sol-pilot/page-01.json\",workdir:\"/Volume"
+        },
+        {
+          "timestamp": "2026-10-05T15:11:35.669Z",
+          "name": "exec",
+          "argument_sha256": "e6b35b219ec0ef649c1791ba82e4a7c95e568d277d9d5f1726d29e2e7a9d3677",
+          "argument_characters": 234,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const r = await tools.view_image({path:\"/Volumes/aro/projects/prose_generation/enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-1/images/p0050.png\",detail:\"original\"}"
+        },
+        {
+          "timestamp": "2026-10-05T15:12:09.463Z",
+          "name": "exec",
+          "argument_sha256": "e6b35b219ec0ef649c1791ba82e4a7c95e568d277d9d5f1726d29e2e7a9d3677",
+          "argument_characters": 234,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const r = await tools.view_image({path:\"/Volumes/aro/projects/prose_generation/enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-1/images/p0050.png\",detail:\"original\"}"
+        },
+        {
+          "timestamp": "2026-10-05T15:13:11.188Z",
+          "name": "exec",
+          "argument_sha256": "f5b7bfff6a865bf2ba445e2310807fb7fd8f6aa140d528e8051ae1cb2890c6d4",
+          "argument_characters": 2420,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const patch = \"*** Begin Patch\\n*** Add File: /Volumes/aro/projects/prose_generation/enrichment/corpus/BINTSHATI/raw/ocr-candidates/sol-pilot-2026-10-05/bintshati-vol-1/p0050.txt\\n+٥٠\\n+\\n+وفرق القرآن"
+        },
+        {
+          "timestamp": "2026-10-05T15:13:24.275Z",
+          "name": "exec",
+          "argument_sha256": "4c511c5f427ce5a91d806240ae779172ad6ba872cdd69c3d4b87d0f0b4417e09",
+          "argument_characters": 310,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r=await tools.exec_command({cmd:\"ls -l enrichment/corpus/BINTSHATI/raw/ocr-candidates/sol-pilot-2026-10-05/bintshati-vol-1/p0050.txt enrichment/corpus/BINTSHATI/raw/ocr-candidates/sol-pilot-2026"
+        }
+      ]
+    },
+    {
+      "agent_path": "/root/sol_ocr_page_02",
+      "page_id": "page-02",
+      "session_id": "01a10c9e-7afe-75a2-b719-b7a181d2852e",
+      "contexts": [
+        {
+          "model": "gpt-6-sol",
+          "effort": "medium"
+        }
+      ],
+      "model_verified": true,
+      "completed_at": "2026-10-05T15:13:19.965Z",
+      "usage": {
+        "input_tokens": 208705,
+        "cached_input_tokens": 191744,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1723,
+        "reasoning_output_tokens": 789,
+        "total_tokens": 210428
+      },
+      "errors": [],
+      "tool_calls": [
+        {
+          "timestamp": "2026-10-05T15:11:36.620Z",
+          "name": "exec",
+          "argument_sha256": "3b039d155c26fc7e90a8c59ef031f32c401c3087e6a850558153e42f1d9f31d6",
+          "argument_characters": 374,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await Promise.allSettled([\n  tools.exec_command({cmd:\"cat enrichment/v2/audits/2026-10-05-ocr-reliability/sol-pilot/BRIEF.md\",workdir:\"/Volumes/aro/projects/prose_generation\"}),\n  tools.exec"
+        },
+        {
+          "timestamp": "2026-10-05T15:11:46.435Z",
+          "name": "exec",
+          "argument_sha256": "93324c4d4032ed1739cf71dedc9142c501763c24256e49feabe39aaffc31b120",
+          "argument_characters": 234,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const r = await tools.view_image({path:\"/Volumes/aro/projects/prose_generation/enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-1/images/p0100.png\",detail:\"original\"}"
+        },
+        {
+          "timestamp": "2026-10-05T15:12:08.520Z",
+          "name": "exec",
+          "argument_sha256": "93324c4d4032ed1739cf71dedc9142c501763c24256e49feabe39aaffc31b120",
+          "argument_characters": 234,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const r = await tools.view_image({path:\"/Volumes/aro/projects/prose_generation/enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-1/images/p0100.png\",detail:\"original\"}"
+        },
+        {
+          "timestamp": "2026-10-05T15:12:27.006Z",
+          "name": "exec",
+          "argument_sha256": "2ce03360eee384a9a3563c32c3690e00b075b2c437a60473f8851575ce422cad",
+          "argument_characters": 196,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"mkdir -p enrichment/corpus/BINTSHATI/raw/ocr-candidates/sol-pilot-2026-10-05/bintshati-vol-1\",workdir:\"/Volumes/aro/projects/prose_generation\"}); text(r);\n"
+        },
+        {
+          "timestamp": "2026-10-05T15:12:55.717Z",
+          "name": "exec",
+          "argument_sha256": "344bdf0d28b8ea58ce5b7bc61554ea5e13f307ba09e829cde8965af1cf2106e9",
+          "argument_characters": 1094,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const patch = \"*** Begin Patch\\n*** Add File: /Volumes/aro/projects/prose_generation/enrichment/corpus/BINTSHATI/raw/ocr-candidates/sol-pilot-2026-10-05/bintshati-vol-1/p0100.txt\\n+١٠٠\\n+\\n+ذرة خيراً "
+        },
+        {
+          "timestamp": "2026-10-05T15:13:11.006Z",
+          "name": "exec",
+          "argument_sha256": "eb9f3ce7498b6f838b02e4d645dee47c1204c92be1da73ece867b946cf70915a",
+          "argument_characters": 319,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r=await tools.exec_command({cmd:\"stat -f '%N %z bytes' enrichment/corpus/BINTSHATI/raw/ocr-candidates/sol-pilot-2026-10-05/bintshati-vol-1/p0100.txt enrichment/corpus/BINTSHATI/raw/ocr-candidate"
+        }
+      ]
+    },
+    {
+      "agent_path": "/root/sol_ocr_page_03",
+      "page_id": "page-03",
+      "session_id": "01a10c9e-a1d3-7573-bc0b-983681cb7539",
+      "contexts": [
+        {
+          "model": "gpt-6-sol",
+          "effort": "medium"
+        }
+      ],
+      "model_verified": true,
+      "completed_at": "2026-10-05T15:13:29.523Z",
+      "usage": {
+        "input_tokens": 142596,
+        "cached_input_tokens": 125440,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2474,
+        "reasoning_output_tokens": 1170,
+        "total_tokens": 145070
+      },
+      "errors": [],
+      "tool_calls": [
+        {
+          "timestamp": "2026-10-05T15:11:40.745Z",
+          "name": "exec",
+          "argument_sha256": "e7604d9e17bfed595d4fbb0cc9a942e64580eae073aff2ae6182cfb064510a57",
+          "argument_characters": 400,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await Promise.allSettled([\n  tools.exec_command({cmd:\"cat enrichment/v2/audits/2026-10-05-ocr-reliability/sol-pilot/BRIEF.md\",workdir:\"/Volumes/aro/projects/prose_generation\"}),\n  tools.exec"
+        },
+        {
+          "timestamp": "2026-10-05T15:11:49.205Z",
+          "name": "exec",
+          "argument_sha256": "06aea736c2d23cb7397eed8f10a5c0c68bb15f659d69f696aecc17b655fc9282",
+          "argument_characters": 231,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const r=await tools.view_image({path:\"/Volumes/aro/projects/prose_generation/enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-2/images/p0049.png\",detail:\"original\"});"
+        },
+        {
+          "timestamp": "2026-10-05T15:12:22.039Z",
+          "name": "exec",
+          "argument_sha256": "06aea736c2d23cb7397eed8f10a5c0c68bb15f659d69f696aecc17b655fc9282",
+          "argument_characters": 231,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const r=await tools.view_image({path:\"/Volumes/aro/projects/prose_generation/enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-2/images/p0049.png\",detail:\"original\"});"
+        },
+        {
+          "timestamp": "2026-10-05T15:13:13.459Z",
+          "name": "exec",
+          "argument_sha256": "dfddb47a5ba42eaa0b9da37e81732f4149de133c9748a766c0b99a207a28fbfa",
+          "argument_characters": 2489,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r=await tools.exec_command({cmd:\"python3 - <<'PY'\\nfrom pathlib import Path\\nimport json\\nbase = Path('/Volumes/aro/projects/prose_generation/enrichment/corpus/BINTSHATI/raw/ocr-candidates/sol-p"
+        }
+      ]
+    },
+    {
+      "agent_path": "/root/sol_ocr_page_04",
+      "page_id": "page-04",
+      "session_id": "01a10c9e-c787-75d0-92c4-fecc7b8f58e2",
+      "contexts": [
+        {
+          "model": "gpt-6-sol",
+          "effort": "medium"
+        }
+      ],
+      "model_verified": true,
+      "completed_at": "2026-10-05T15:13:42.935Z",
+      "usage": {
+        "input_tokens": 176869,
+        "cached_input_tokens": 159488,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2293,
+        "reasoning_output_tokens": 978,
+        "total_tokens": 179162
+      },
+      "errors": [],
+      "tool_calls": [
+        {
+          "timestamp": "2026-10-05T15:11:50.181Z",
+          "name": "exec",
+          "argument_sha256": "ca3632482147440c0e84a6886ffec9d14c92abd4691b87a7fcf74e6f0f53045e",
+          "argument_characters": 414,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await Promise.allSettled([\n  tools.exec_command({cmd:\"cat enrichment/v2/audits/2026-10-05-ocr-reliability/sol-pilot/BRIEF.md\",workdir:\"/Volumes/aro/projects/prose_generation\"}),\n  tools.exec"
+        },
+        {
+          "timestamp": "2026-10-05T15:11:57.785Z",
+          "name": "exec",
+          "argument_sha256": "e52efe17f3d9d993518379f401fabf7e08295fd364da362fafaf55b36a98bdee",
+          "argument_characters": 232,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const r=await tools.view_image({path:\"/Volumes/aro/projects/prose_generation/enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-2/images/p0098.png\",detail:\"original\"});"
+        },
+        {
+          "timestamp": "2026-10-05T15:12:29.580Z",
+          "name": "exec",
+          "argument_sha256": "e52efe17f3d9d993518379f401fabf7e08295fd364da362fafaf55b36a98bdee",
+          "argument_characters": 232,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const r=await tools.view_image({path:\"/Volumes/aro/projects/prose_generation/enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-2/images/p0098.png\",detail:\"original\"});"
+        },
+        {
+          "timestamp": "2026-10-05T15:13:20.672Z",
+          "name": "exec",
+          "argument_sha256": "755fbd13e4fcf432877a6f029587d06c4118453ff4d1a0477ae1dde5f98d8271",
+          "argument_characters": 2111,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const patch = \"*** Begin Patch\\n*** Add File: /Volumes/aro/projects/prose_generation/enrichment/corpus/BINTSHATI/raw/ocr-candidates/sol-pilot-2026-10-05/bintshati-vol-2/p0098.txt\\n+٩٨\\n+\\n+« وَاللَّيْ"
+        },
+        {
+          "timestamp": "2026-10-05T15:13:33.109Z",
+          "name": "exec",
+          "argument_sha256": "89083e7cd85a0ceb4db48772518d7a4a2c566ece69f35635170c9db5bd0ece7e",
+          "argument_characters": 319,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r=await tools.exec_command({cmd:\"stat -f '%N %z bytes' enrichment/corpus/BINTSHATI/raw/ocr-candidates/sol-pilot-2026-10-05/bintshati-vol-2/p0098.txt enrichment/corpus/BINTSHATI/raw/ocr-candidate"
+        }
+      ]
+    },
+    {
+      "agent_path": "/root/sol_ocr_page_05",
+      "page_id": "page-05",
+      "session_id": "01a10c9e-e82b-7dd1-b644-6ac1d97ab753",
+      "contexts": [
+        {
+          "model": "gpt-6-sol",
+          "effort": "medium"
+        },
+        {
+          "model": "gpt-6-sol",
+          "effort": "medium"
+        },
+        {
+          "model": "gpt-6-sol",
+          "effort": "medium"
+        }
+      ],
+      "model_verified": true,
+      "completed_at": "2026-10-05T15:17:09.086Z",
+      "usage": {
+        "input_tokens": 247493,
+        "cached_input_tokens": 220160,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3792,
+        "reasoning_output_tokens": 1795,
+        "total_tokens": 251285
+      },
+      "errors": [],
+      "tool_calls": [
+        {
+          "timestamp": "2026-10-05T15:11:55.028Z",
+          "name": "exec",
+          "argument_sha256": "6c7abab7ec77f2d3bef3b664400fe85c163c8450c3cc3d7dfb67ef0a097aeb22",
+          "argument_characters": 374,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await Promise.allSettled([\n  tools.exec_command({cmd:\"cat enrichment/v2/audits/2026-10-05-ocr-reliability/sol-pilot/BRIEF.md\",workdir:\"/Volumes/aro/projects/prose_generation\"}),\n  tools.exec"
+        },
+        {
+          "timestamp": "2026-10-05T15:12:55.283Z",
+          "name": "exec",
+          "argument_sha256": "5c1bb5d6d0415e38afbc7a1d887477fc9cd5048a0aaed08095ed445c5e3be4da",
+          "argument_characters": 240,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const r = await tools.view_image({path:\"/Volumes/aro/projects/prose_generation/enrichment/corpus/KHULI/raw/ocr-candidates/luna-pilot-2026-10-05/khuli-manahij-tajdid-1961/images/p0092.png\",detail:\"orig"
+        },
+        {
+          "timestamp": "2026-10-05T15:14:51.432Z",
+          "name": "exec",
+          "argument_sha256": "5c1bb5d6d0415e38afbc7a1d887477fc9cd5048a0aaed08095ed445c5e3be4da",
+          "argument_characters": 240,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const r = await tools.view_image({path:\"/Volumes/aro/projects/prose_generation/enrichment/corpus/KHULI/raw/ocr-candidates/luna-pilot-2026-10-05/khuli-manahij-tajdid-1961/images/p0092.png\",detail:\"orig"
+        },
+        {
+          "timestamp": "2026-10-05T15:15:58.913Z",
+          "name": "exec",
+          "argument_sha256": "66f5737798e7eccdbfb9ee40c989bc5772cf54ad158170b73db3d10b0a016c43",
+          "argument_characters": 2649,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const patch = \"*** Begin Patch\\n*** Add File: /Volumes/aro/projects/prose_generation/enrichment/corpus/KHULI/raw/ocr-candidates/sol-pilot-2026-10-05/khuli-manahij-tajdid-1961/p0092.txt\\n+ـ ٩٠ ـ\\n+\\n+ا"
+        },
+        {
+          "timestamp": "2026-10-05T15:16:21.188Z",
+          "name": "exec",
+          "argument_sha256": "76e3db66a3edd9926241bb06829a652a1a0f5063827f79ca56969b79835b0208",
+          "argument_characters": 411,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"stat -f '%N %z bytes' /Volumes/aro/projects/prose_generation/enrichment/corpus/KHULI/raw/ocr-candidates/sol-pilot-2026-10-05/khuli-manahij-tajdid-1961/p0092.tx"
+        },
+        {
+          "timestamp": "2026-10-05T15:16:59.721Z",
+          "name": "exec",
+          "argument_sha256": "e92ecec5e08b41e0e01f66304defa005ed9490b7058d916833cc04e0a674091e",
+          "argument_characters": 1726,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "text(await tools.apply_patch(\"*** Begin Patch\\n*** Update File: /Volumes/aro/projects/prose_generation/enrichment/corpus/KHULI/raw/ocr-candidates/sol-pilot-2026-10-05/khuli-manahij-tajdid-1961/p0092.t"
+        }
+      ]
+    },
+    {
+      "agent_path": "/root/sol_ocr_page_06",
+      "page_id": "page-06",
+      "session_id": "01a10c9f-13c2-7ea1-b280-10522eec0d4b",
+      "contexts": [
+        {
+          "model": "gpt-6-sol",
+          "effort": "medium"
+        }
+      ],
+      "model_verified": true,
+      "completed_at": "2026-10-05T15:14:59.932Z",
+      "usage": {
+        "input_tokens": 209382,
+        "cached_input_tokens": 191488,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3847,
+        "reasoning_output_tokens": 2132,
+        "total_tokens": 213229
+      },
+      "errors": [],
+      "tool_calls": [
+        {
+          "timestamp": "2026-10-05T15:12:10.519Z",
+          "name": "exec",
+          "argument_sha256": "88b5b242d79acac560e4408f0dcdd60742a8b794142130320f4e7fc02632618b",
+          "argument_characters": 374,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await Promise.allSettled([\n  tools.exec_command({cmd:\"cat enrichment/v2/audits/2026-10-05-ocr-reliability/sol-pilot/BRIEF.md\",workdir:\"/Volumes/aro/projects/prose_generation\"}),\n  tools.exec"
+        },
+        {
+          "timestamp": "2026-10-05T15:12:19.242Z",
+          "name": "exec",
+          "argument_sha256": "d2eb79c87781d9e3330cbb939a6bf76450babf8f1572f0afc37d4d6aa722cbfb",
+          "argument_characters": 240,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const r = await tools.view_image({path:\"/Volumes/aro/projects/prose_generation/enrichment/corpus/KHULI/raw/ocr-candidates/luna-pilot-2026-10-05/khuli-manahij-tajdid-1961/images/p0100.png\",detail:\"orig"
+        },
+        {
+          "timestamp": "2026-10-05T15:12:36.306Z",
+          "name": "exec",
+          "argument_sha256": "d2eb79c87781d9e3330cbb939a6bf76450babf8f1572f0afc37d4d6aa722cbfb",
+          "argument_characters": 240,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const r = await tools.view_image({path:\"/Volumes/aro/projects/prose_generation/enrichment/corpus/KHULI/raw/ocr-candidates/luna-pilot-2026-10-05/khuli-manahij-tajdid-1961/images/p0100.png\",detail:\"orig"
+        },
+        {
+          "timestamp": "2026-10-05T15:14:06.169Z",
+          "name": "exec",
+          "argument_sha256": "e81816af3ab01ca0bd68676512bba98ed09f2ecc12bedd260e1f392353b09f08",
+          "argument_characters": 2682,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const patch = \"*** Begin Patch\\n*** Add File: /Volumes/aro/projects/prose_generation/enrichment/corpus/KHULI/raw/ocr-candidates/sol-pilot-2026-10-05/khuli-manahij-tajdid-1961/p0100.txt\\n+— ٩٨ —\\n+\\n+ف"
+        },
+        {
+          "timestamp": "2026-10-05T15:14:24.413Z",
+          "name": "exec",
+          "argument_sha256": "884e864b51a7ceba1e08b2fd2ca029e8e920340b744d8578bdb1963c8346bb06",
+          "argument_characters": 330,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await tools.exec_command({cmd:\"test -f enrichment/corpus/KHULI/raw/ocr-candidates/sol-pilot-2026-10-05/khuli-manahij-tajdid-1961/p0100.txt && test -f enrichment/corpus/KHULI/raw/ocr-candidat"
+        },
+        {
+          "timestamp": "2026-10-05T15:14:50.347Z",
+          "name": "exec",
+          "argument_sha256": "b8b0442f1e254d769cbab4c4b00e525160c836bf1967ffb6ef98bcf9de4c5c97",
+          "argument_characters": 654,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const patch = \"*** Begin Patch\\n*** Update File: /Volumes/aro/projects/prose_generation/enrichment/corpus/KHULI/raw/ocr-candidates/sol-pilot-2026-10-05/khuli-manahij-tajdid-1961/p0100.txt\\n@@\\n-أوضح م"
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "input_tokens": 1161883,
+    "cached_input_tokens": 1040000,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 16806,
+    "reasoning_output_tokens": 8167,
+    "total_tokens": 1178689,
+    "non_reasoning_output_tokens": 8639
+  },
+  "quality": {
+    "BINTSHATI": {
+      "word": {
+        "edit_distance": 8,
+        "reference_units": 234,
+        "error_rate": 0.03418803418803419
+      },
+      "character": {
+        "edit_distance": 15,
+        "reference_units": 1207,
+        "error_rate": 0.012427506213753107
+      }
+    },
+    "KHULI": {
+      "word": {
+        "edit_distance": 19,
+        "reference_units": 206,
+        "error_rate": 0.09223300970873786
+      },
+      "character": {
+        "edit_distance": 35,
+        "reference_units": 1104,
+        "error_rate": 0.03170289855072464
+      }
+    }
+  },
+  "diagnostic_alignments": [
+    {
+      "id": "b1-p50-prose",
+      "page_id": "page-01",
+      "source": "BINTSHATI",
+      "word": {
+        "distance": 3,
+        "reference_length": 65,
+        "start": 87,
+        "end": 151,
+        "counts": {
+          "equal": 62,
+          "substitutions": 2,
+          "deletions": 1
+        }
+      },
+      "character": {
+        "distance": 6,
+        "reference_length": 321,
+        "start": 0,
+        "end": 317,
+        "counts": {
+          "equal": 316,
+          "deletions": 5,
+          "insertions": 1
+        }
+      },
+      "matched_normalized_text": "والغني من أسماء الله الحسني والله الغني وأنتم الفقراء وقد ورد في القرآن سبع عشرة مرة وليس من أسمائه تعالي المثري وإن يكن القرآن استعمل الغني للمال في مثل آيات النساء 6 130 وآل عمران 181 والتوبة 93 والحشر 7 فلسنا نعرف أن الرسول صلي الله عليه وسلم قد أثري بعد البعث أو اقتني مالا بل لا نعرف أن مستوي حياته قد تغير ماديا"
+    },
+    {
+      "id": "b1-p100-full",
+      "page_id": "page-02",
+      "source": "BINTSHATI",
+      "word": {
+        "distance": 2,
+        "reference_length": 60,
+        "start": 0,
+        "end": 60,
+        "counts": {
+          "equal": 58,
+          "substitutions": 2
+        }
+      },
+      "character": {
+        "distance": 2,
+        "reference_length": 307,
+        "start": 0,
+        "end": 306,
+        "counts": {
+          "equal": 305,
+          "substitutions": 1,
+          "deletions": 1
+        }
+      },
+      "matched_normalized_text": "ذرة خيرا أو شرا يره ولم يقل تعالي يجز به أو يحاسب عليه وفي الآية قبلها يومئذ يصدر الناس أشتاتا ليروا أعمالهم شاهد علي أن الموقف متعلق برؤية الإنسان عمله محضرا في دقة لا تغادر صغيرة ولا كبيرة إلا أحصاها ثم يكون الحساب والجزاء بعد ذلك بعدل الله وفضله ورحمته سبحانه يغفر لمن يشاء ويعذب من يشاء والله غفور رحيم"
+    },
+    {
+      "id": "b2-p49-interpretation",
+      "page_id": "page-03",
+      "source": "BINTSHATI",
+      "word": {
+        "distance": 0,
+        "reference_length": 25,
+        "start": 49,
+        "end": 74,
+        "counts": {
+          "equal": 25
+        }
+      },
+      "character": {
+        "distance": 0,
+        "reference_length": 129,
+        "start": 0,
+        "end": 129,
+        "counts": {
+          "equal": 129
+        }
+      },
+      "matched_normalized_text": "أما حين يأتي المن في القرآن مسندا إلي المخلوقين فالسياق علي وجه النهي أو النفي كالذي في آيات ولا تمنن تستكثر ولربك فاصبر المدثر 6"
+    },
+    {
+      "id": "b2-p49-attribution",
+      "page_id": "page-03",
+      "source": "BINTSHATI",
+      "word": {
+        "distance": 0,
+        "reference_length": 28,
+        "start": 179,
+        "end": 207,
+        "counts": {
+          "equal": 28
+        }
+      },
+      "character": {
+        "distance": 0,
+        "reference_length": 141,
+        "start": 0,
+        "end": 141,
+        "counts": {
+          "equal": 141
+        }
+      },
+      "matched_normalized_text": "وفي تفسير غير ممنون بآية القلم قال الراغب إنه غير مقطوع ولا منقوص ومثله ابن القيم في التبيان غير مقطوع بل هو دائم مستمر ومما فسره به الزمخشري"
+    },
+    {
+      "id": "b2-p98-definition",
+      "page_id": "page-04",
+      "source": "BINTSHATI",
+      "word": {
+        "distance": 3,
+        "reference_length": 56,
+        "start": 7,
+        "end": 62,
+        "counts": {
+          "equal": 53,
+          "substitutions": 2,
+          "deletions": 1
+        }
+      },
+      "character": {
+        "distance": 7,
+        "reference_length": 309,
+        "start": 0,
+        "end": 302,
+        "counts": {
+          "equal": 302,
+          "deletions": 7
+        }
+      },
+      "matched_normalized_text": "الغشية في اللغة الغطاء والغاشية الغشاء الذي يغلف القلب واستغشي ثوبه وتغطي به لكي لا يري ولا يسمع ومن غشية النعاس المعطلة للحس والإدراك جاءت غشية الإغماء فقيل أغشي عليه إذا فقد وعيه وحسه كأنما عليها غطاء وكذلك يقال للغافل علي بصره أو علي سمعه غشاوة أي غطاء يحجب الرؤية ويعمي البصيرة ويعطل السمع والإدراك"
+    },
+    {
+      "id": "khuli-p92-opening",
+      "page_id": "page-05",
+      "source": "KHULI",
+      "word": {
+        "distance": 14,
+        "reference_length": 134,
+        "start": 1,
+        "end": 135,
+        "counts": {
+          "equal": 121,
+          "substitutions": 12,
+          "deletions": 1,
+          "insertions": 1
+        }
+      },
+      "character": {
+        "distance": 29,
+        "reference_length": 722,
+        "start": 0,
+        "end": 720,
+        "counts": {
+          "equal": 696,
+          "substitutions": 21,
+          "deletions": 5,
+          "insertions": 3
+        }
+      },
+      "matched_normalized_text": "الكتاب في عصره والأجيال ومروره بعقول الرجال مفتاح بعض أغلاقه ودليل علي اتجاه فهمه ويدخل في تقدير قيمته ودرجة الثقة به أو الاعتماد عليه خذ لذلك مثلا بديع ابن المعتز فإنه إذا وجهت دراسة البلاغة توجيها لا تتبين منزلته إلا بعد معرفة العناصر التي تألف منها هذا الكتاب يوم صنفه من أنه فتتبع هذه العناصر في ميادين الحياة العلمية أو الفلسفية ليعرف أثرها الصحيح في عقول من درسوا هذه المادة ثم تناول الناس لبديع ابن المعتز بعده وعنايتهم به أو إهماله وطريقة فهمهم له أو أخذهم عنه كل أولئك لا بد منه لمن يريد أن يعرف حقا صورة حقائق هذا الكتاب في عقول دارسيه القائمين عليه أو انعكاسها علي أذهان تاركيه المهملين له والإقبال أو الإدبار أثره في توجيه الدرس البلاغي كأن لهم الكتاب عملا في استكناه الحقائق التي ألقاها إلي أصحاب هذه المادة"
+    },
+    {
+      "id": "khuli-p100-opening",
+      "page_id": "page-06",
+      "source": "KHULI",
+      "word": {
+        "distance": 1,
+        "reference_length": 28,
+        "start": 1,
+        "end": 29,
+        "counts": {
+          "equal": 27,
+          "substitutions": 1
+        }
+      },
+      "character": {
+        "distance": 1,
+        "reference_length": 150,
+        "start": 0,
+        "end": 150,
+        "counts": {
+          "equal": 149,
+          "substitutions": 1
+        }
+      },
+      "matched_normalized_text": "في الجاهلية وإن فاخر في الجاهلية قبيل قبيلا ونافر رهط رهطا أو باهل شخص شخصا فاليوم لا تنافر الدعوة الجديدة قبائل ولا شعبا بل تنافر الأمم وتناجز الدنيا"
+    },
+    {
+      "id": "khuli-p100-lower",
+      "page_id": "page-06",
+      "source": "KHULI",
+      "word": {
+        "distance": 4,
+        "reference_length": 44,
+        "start": 214,
+        "end": 258,
+        "counts": {
+          "equal": 40,
+          "substitutions": 4
+        }
+      },
+      "character": {
+        "distance": 5,
+        "reference_length": 232,
+        "start": 0,
+        "end": 233,
+        "counts": {
+          "equal": 229,
+          "insertions": 2,
+          "deletions": 1,
+          "substitutions": 2
+        }
+      },
+      "matched_normalized_text": "وقد روي عن عمر رضي أنه كان أنقد أهل زمانه للشعر وأبصرهم به ولعلي بن أبي طالب أحكام علي الشعراء المتقدمين ومع هذه الآراء النقدية أحيانا أوجه للتقدير وأسباب للتفضيل تزيد الذي أسلفناه في النزوع النقدي لهذا العصر الذي لم يكن في أكثر شأنه"
+    }
+  ],
+  "priority_projections": {
+    "BINTSHATI": {
+      "input_tokens": 73673336,
+      "cached_input_tokens": 65662784,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 957952,
+      "reasoning_output_tokens": 443080,
+      "total_tokens": 74631288,
+      "pages": 418,
+      "sample_pages": 4
+    },
+    "KHULI": {
+      "input_tokens": 84065000,
+      "cached_input_tokens": 75743232,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1405576,
+      "reasoning_output_tokens": 722568,
+      "total_tokens": 85470576,
+      "pages": 368,
+      "sample_pages": 2
+    }
+  },
+  "limits": "Purposive 440-word supervisor references, not independent gold or whole-page/corpus accuracy; harakat/punctuation excluded by normalized metric. Configuration changes include model, effort and page batching. Native usage includes harness/tool replay and retries, excludes supervisor review; cached input is a subset of input and reasoning a subset of output. Projection is a one-pass scenario, not a cost/quality guarantee."
+}

@@ -1,0 +1,780 @@
+{
+  "created_at": "2026-10-05T15:43:20.074957+00:00",
+  "manifest_sha256": "c2b747f085490c17a90757ddbc7b50b8ecf674487512aca0f7e3da2d9c6efc0e",
+  "baseline_results_sha256": "7710730f1c508214809f0c692fde1f89d6c405dd00d8073cacfe21f1916c45c8",
+  "reference_sha256": "6ef7d5fb81a96c5b5d9e28c16bc24bca8ab5698ea68a9284b724eda74c83f23f",
+  "quality": {
+    "BINTSHATI": {
+      "word": {
+        "edit_distance": 12,
+        "reference_units": 234,
+        "error_rate": 0.05128205128205128
+      },
+      "character": {
+        "edit_distance": 25,
+        "reference_units": 1207,
+        "error_rate": 0.020712510356255178
+      },
+      "prior_full_page_sol_word_errors": 8
+    },
+    "KHULI": {
+      "word": {
+        "edit_distance": 39,
+        "reference_units": 206,
+        "error_rate": 0.18932038834951456
+      },
+      "character": {
+        "edit_distance": 86,
+        "reference_units": 1104,
+        "error_rate": 0.07789855072463768
+      },
+      "prior_full_page_sol_word_errors": 19
+    }
+  },
+  "diagnostics": [
+    {
+      "reference_id": "b1-p50-prose",
+      "crop_id": "page-01-middle",
+      "source": "BINTSHATI",
+      "word": {
+        "distance": 3,
+        "reference_length": 65,
+        "start": 15,
+        "end": 79,
+        "counts": {
+          "equal": 62,
+          "substitutions": 2,
+          "deletions": 1
+        }
+      },
+      "character": {
+        "distance": 6,
+        "reference_length": 321,
+        "start": 0,
+        "end": 316,
+        "counts": {
+          "equal": 315,
+          "substitutions": 1,
+          "deletions": 5
+        }
+      },
+      "matched_normalized_text": "والغني من أسماء الله الحسني والله الغني وأنتم الفقراء وقد ورد في القرآن سبع عشرة مرة وليس من أسمائه تعالي الثري وإن يكن القرآن استعمل الغني للمال في مثل آيات النساء 6 135 وآل عمران 181 والتوبة 93 والحشر 7 فلسنا نعرف أن الرسول صلي الله عليه وسلم قد أثري بعد البعث أو اغتني مالا بل لا نعرف أن مستوي حياته قد تغير ماديا",
+      "prior_full_page_sol_word_errors": 3,
+      "prior_full_page_sol_matched_text": "والغني من أسماء الله الحسني والله الغني وأنتم الفقراء وقد ورد في القرآن سبع عشرة مرة وليس من أسمائه تعالي المثري وإن يكن القرآن استعمل الغني للمال في مثل آيات النساء 6 130 وآل عمران 181 والتوبة 93 والحشر 7 فلسنا نعرف أن الرسول صلي الله عليه وسلم قد أثري بعد البعث أو اقتني مالا بل لا نعرف أن مستوي حياته قد تغير ماديا"
+    },
+    {
+      "reference_id": "b1-p100-full",
+      "crop_id": "page-02-body",
+      "source": "BINTSHATI",
+      "word": {
+        "distance": 6,
+        "reference_length": 60,
+        "start": 0,
+        "end": 59,
+        "counts": {
+          "equal": 54,
+          "deletions": 1,
+          "substitutions": 5
+        }
+      },
+      "character": {
+        "distance": 16,
+        "reference_length": 307,
+        "start": 0,
+        "end": 301,
+        "counts": {
+          "equal": 292,
+          "deletions": 7,
+          "substitutions": 8,
+          "insertions": 1
+        }
+      },
+      "matched_normalized_text": "ذرة خيرا أو شرا يره وفي مثل تعالي يجز به أو يحاسب عليه وفي الآية قبلها يومئذ يصدر الناس أشتاتا ليروا أعمالهم شاهد علي أن الموقف متعلق برؤية الإنسان عمله مختصرا في دقة لا يغادر صغيرة ولا كبيرة إلا أحصاها ثم يكون الحساب والجزاء بعد ذلك بفضل الله ورحمته سبحانه يغفر لمن يشاء ويعذب من يشاء والله غفور رحيم",
+      "prior_full_page_sol_word_errors": 2,
+      "prior_full_page_sol_matched_text": "ذرة خيرا أو شرا يره ولم يقل تعالي يجز به أو يحاسب عليه وفي الآية قبلها يومئذ يصدر الناس أشتاتا ليروا أعمالهم شاهد علي أن الموقف متعلق برؤية الإنسان عمله محضرا في دقة لا تغادر صغيرة ولا كبيرة إلا أحصاها ثم يكون الحساب والجزاء بعد ذلك بعدل الله وفضله ورحمته سبحانه يغفر لمن يشاء ويعذب من يشاء والله غفور رحيم"
+    },
+    {
+      "reference_id": "b2-p49-interpretation",
+      "crop_id": "page-03-middle",
+      "source": "BINTSHATI",
+      "word": {
+        "distance": 0,
+        "reference_length": 25,
+        "start": 0,
+        "end": 25,
+        "counts": {
+          "equal": 25
+        }
+      },
+      "character": {
+        "distance": 0,
+        "reference_length": 129,
+        "start": 0,
+        "end": 129,
+        "counts": {
+          "equal": 129
+        }
+      },
+      "matched_normalized_text": "أما حين يأتي المن في القرآن مسندا إلي المخلوقين فالسياق علي وجه النهي أو النفي كالذي في آيات ولا تمنن تستكثر ولربك فاصبر المدثر 6",
+      "prior_full_page_sol_word_errors": 0,
+      "prior_full_page_sol_matched_text": "أما حين يأتي المن في القرآن مسندا إلي المخلوقين فالسياق علي وجه النهي أو النفي كالذي في آيات ولا تمنن تستكثر ولربك فاصبر المدثر 6"
+    },
+    {
+      "reference_id": "b2-p49-attribution",
+      "crop_id": "page-03-lower",
+      "source": "BINTSHATI",
+      "word": {
+        "distance": 1,
+        "reference_length": 28,
+        "start": 0,
+        "end": 28,
+        "counts": {
+          "equal": 27,
+          "substitutions": 1
+        }
+      },
+      "character": {
+        "distance": 1,
+        "reference_length": 141,
+        "start": 0,
+        "end": 140,
+        "counts": {
+          "equal": 140,
+          "deletions": 1
+        }
+      },
+      "matched_normalized_text": "وفي تفسير غير ممنون بآية القلم قال الراغب إنه غير مقطوع ولا منقوص ومثله ابن القيم في التبيان غير مقطوع بل هو دائم مستمر وما فسره به الزمخشري",
+      "prior_full_page_sol_word_errors": 0,
+      "prior_full_page_sol_matched_text": "وفي تفسير غير ممنون بآية القلم قال الراغب إنه غير مقطوع ولا منقوص ومثله ابن القيم في التبيان غير مقطوع بل هو دائم مستمر ومما فسره به الزمخشري"
+    },
+    {
+      "reference_id": "b2-p98-definition",
+      "crop_id": "page-04-upper",
+      "source": "BINTSHATI",
+      "word": {
+        "distance": 2,
+        "reference_length": 56,
+        "start": 6,
+        "end": 62,
+        "counts": {
+          "equal": 54,
+          "substitutions": 2
+        }
+      },
+      "character": {
+        "distance": 2,
+        "reference_length": 309,
+        "start": 0,
+        "end": 307,
+        "counts": {
+          "equal": 307,
+          "deletions": 2
+        }
+      },
+      "matched_normalized_text": "الغشية في اللغة الغطاء والغاشية الغشاء الذي يغلف القلب واستغشي ثوبه وثوبه تغطي به لكي لا يري ولا يسمع ومن غشية النعاس المعطلة للحس والإدراك جاءت غشية الإغماء فقيل أغشي عليه إذا فقد وعيه وحسه كأنما عليها غطاء وكذلك يقال للغافل علي بصره أو علي سمعه غشاوة أي غطاء يحجب الرؤية ويعمي البصيرة ويعطل السمع والإدراك",
+      "prior_full_page_sol_word_errors": 3,
+      "prior_full_page_sol_matched_text": "الغشية في اللغة الغطاء والغاشية الغشاء الذي يغلف القلب واستغشي ثوبه وتغطي به لكي لا يري ولا يسمع ومن غشية النعاس المعطلة للحس والإدراك جاءت غشية الإغماء فقيل أغشي عليه إذا فقد وعيه وحسه كأنما عليها غطاء وكذلك يقال للغافل علي بصره أو علي سمعه غشاوة أي غطاء يحجب الرؤية ويعمي البصيرة ويعطل السمع والإدراك"
+    },
+    {
+      "reference_id": "khuli-p92-opening",
+      "crop_id": "page-05-upper",
+      "source": "KHULI",
+      "word": {
+        "distance": 17,
+        "reference_length": 134,
+        "start": 0,
+        "end": 134,
+        "counts": {
+          "equal": 118,
+          "substitutions": 15,
+          "deletions": 1,
+          "insertions": 1
+        }
+      },
+      "character": {
+        "distance": 33,
+        "reference_length": 722,
+        "start": 0,
+        "end": 722,
+        "counts": {
+          "equal": 694,
+          "substitutions": 23,
+          "insertions": 5,
+          "deletions": 5
+        }
+      },
+      "matched_normalized_text": "الكتاب في عبوره الأجيال ومروره بعقول الرجال مفتاح فهم أغلاقه ودليل علي اتجاه فهمه ويدخل في تقدير قيمته ودرجة الثقة به أو الاعتماد عليه خذ لذلك مثلا بديع ابن المعتز فإنه نراه وجه دراسة البلاغة توجيها لا تتعين منزلته إلا بعد معرفة العناصر التي تألف منها هذا الكتاب يوم صنفه من قبله فتتبع هذه العناصر في ميادين الحياة العلمية أو الفلسفية ليعرف أثرها الصحيح في عقول من درسوا هذه المادة ثم تناول الناس لبديع ابن المعتز بعده وعنايتهم به أو إهماله وطريقة فهمهم له أو أخذهم عنه كل أولئك لا بد منه لمن يريد أن يعرف حقا صورة حقائق هذا الكتاب في عقول دارسيه القائمين عليه أو انعكاسها علي أذهان قارئيه المهملين له والإقبال أو الإدبار أثره في توجيه الدرس البلاغي كان لفهم الكتاب عليه في استكناه الحقائق التي ألقاها إلي أضواء هذه المادة",
+      "prior_full_page_sol_word_errors": 14,
+      "prior_full_page_sol_matched_text": "الكتاب في عصره والأجيال ومروره بعقول الرجال مفتاح بعض أغلاقه ودليل علي اتجاه فهمه ويدخل في تقدير قيمته ودرجة الثقة به أو الاعتماد عليه خذ لذلك مثلا بديع ابن المعتز فإنه إذا وجهت دراسة البلاغة توجيها لا تتبين منزلته إلا بعد معرفة العناصر التي تألف منها هذا الكتاب يوم صنفه من أنه فتتبع هذه العناصر في ميادين الحياة العلمية أو الفلسفية ليعرف أثرها الصحيح في عقول من درسوا هذه المادة ثم تناول الناس لبديع ابن المعتز بعده وعنايتهم به أو إهماله وطريقة فهمهم له أو أخذهم عنه كل أولئك لا بد منه لمن يريد أن يعرف حقا صورة حقائق هذا الكتاب في عقول دارسيه القائمين عليه أو انعكاسها علي أذهان تاركيه المهملين له والإقبال أو الإدبار أثره في توجيه الدرس البلاغي كأن لهم الكتاب عملا في استكناه الحقائق التي ألقاها إلي أصحاب هذه المادة"
+    },
+    {
+      "reference_id": "khuli-p100-opening",
+      "crop_id": "page-06-upper",
+      "source": "KHULI",
+      "word": {
+        "distance": 11,
+        "reference_length": 28,
+        "start": 0,
+        "end": 24,
+        "counts": {
+          "equal": 17,
+          "substitutions": 7,
+          "deletions": 4
+        }
+      },
+      "character": {
+        "distance": 32,
+        "reference_length": 150,
+        "start": 0,
+        "end": 129,
+        "counts": {
+          "equal": 118,
+          "substitutions": 11,
+          "deletions": 21
+        }
+      },
+      "matched_normalized_text": "في الجاهلية وإن تأخر في الجاهلية قبل قليلا وتأخر أو باهل فاليوم لا تثار الدعوة الجديدة قبائل ولا شعبا بل تثار الأمم وتمازج الدنيا",
+      "prior_full_page_sol_word_errors": 1,
+      "prior_full_page_sol_matched_text": "في الجاهلية وإن فاخر في الجاهلية قبيل قبيلا ونافر رهط رهطا أو باهل شخص شخصا فاليوم لا تنافر الدعوة الجديدة قبائل ولا شعبا بل تنافر الأمم وتناجز الدنيا"
+    },
+    {
+      "reference_id": "khuli-p100-lower",
+      "crop_id": "page-06-lower",
+      "source": "KHULI",
+      "word": {
+        "distance": 11,
+        "reference_length": 44,
+        "start": 0,
+        "end": 46,
+        "counts": {
+          "equal": 35,
+          "substitutions": 9,
+          "insertions": 2
+        }
+      },
+      "character": {
+        "distance": 21,
+        "reference_length": 232,
+        "start": 0,
+        "end": 235,
+        "counts": {
+          "equal": 216,
+          "substitutions": 14,
+          "insertions": 5,
+          "deletions": 2
+        }
+      },
+      "matched_normalized_text": "وقد روي عن عمر رضه أنه كان أنقد أهل زمانه للشعر وأبصرهم به ولعل من أن طالب أحكام عمر علي الشعر أو المتقدمين ومع هذه الآراء الغزيرة أحيانا أوجه التقدير وأسباب التفضيل تزيد الذي أسلفنا في المزاج النقدي لهذا العصر الذي لم يكن في أكثر شأنه",
+      "prior_full_page_sol_word_errors": 4,
+      "prior_full_page_sol_matched_text": "وقد روي عن عمر رضي أنه كان أنقد أهل زمانه للشعر وأبصرهم به ولعلي بن أبي طالب أحكام علي الشعراء المتقدمين ومع هذه الآراء النقدية أحيانا أوجه للتقدير وأسباب للتفضيل تزيد الذي أسلفناه في النزوع النقدي لهذا العصر الذي لم يكن في أكثر شأنه"
+    }
+  ],
+  "artifacts": [
+    {
+      "crop_id": "page-01-middle",
+      "source": "BINTSHATI",
+      "output_sha256": "cd9545355dd24f281b019aca2ad3e2bf2a1caa0d4a5a1add26e78ac4e7762e7b",
+      "review_sha256": "c83f8d7f8b2ebb8289be30ea0be6dacf7e071349ffecb7161b1068007b020b79",
+      "characters": 576,
+      "agent_complete": true,
+      "uncertainty_markers": 1,
+      "combining_marks": 2
+    },
+    {
+      "crop_id": "page-02-body",
+      "source": "BINTSHATI",
+      "output_sha256": "665a1c9a155827dfd01f9c80e50389a03d32b0c6e35beef81464ec034b30d217",
+      "review_sha256": "ba70ad64e0a805c8f3f05ced26896f320684b8738cb3c0b41bd7b2aa24873355",
+      "characters": 347,
+      "agent_complete": true,
+      "uncertainty_markers": 0,
+      "combining_marks": 8
+    },
+    {
+      "crop_id": "page-03-middle",
+      "source": "BINTSHATI",
+      "output_sha256": "a4971e15edabb96f9c5e5904789ca46ab436aa45a71e8c4c4cb175aafb4fc733",
+      "review_sha256": "c1fc5a2eaa5ce78db3cd55cc5882c7e2e83079d8c3b12a8d4dd835600ffffaca",
+      "characters": 283,
+      "agent_complete": true,
+      "uncertainty_markers": 0,
+      "combining_marks": 30
+    },
+    {
+      "crop_id": "page-03-lower",
+      "source": "BINTSHATI",
+      "output_sha256": "013c69a28d77e6afdb3d32590803f7b38ba5ed9f363d6d12188ea15143afd134",
+      "review_sha256": "75a9b870b544e19a545b1e73b28e6587f3352f143389aef9e42d54d7d9b333a6",
+      "characters": 238,
+      "agent_complete": true,
+      "uncertainty_markers": 0,
+      "combining_marks": 1
+    },
+    {
+      "crop_id": "page-04-upper",
+      "source": "BINTSHATI",
+      "output_sha256": "b756a9de9e91c427db939b7638bb60bb50b8ebf0516f01a2fef2b234a3bbcb2c",
+      "review_sha256": "6a77d5076f928e89f3e5a308fb13815a6b1f0b77bbc0d5fdf9a00ac776c57796",
+      "characters": 498,
+      "agent_complete": true,
+      "uncertainty_markers": 0,
+      "combining_marks": 23
+    },
+    {
+      "crop_id": "page-05-upper",
+      "source": "KHULI",
+      "output_sha256": "1bb708dcedace346609a382b33c5cfd5f5645456dd681d48c1e100785f56b230",
+      "review_sha256": "c2785ccab2801b42fb18889ade95fc1339caaa68359afbc419403eed2564fb59",
+      "characters": 939,
+      "agent_complete": true,
+      "uncertainty_markers": 0,
+      "combining_marks": 1
+    },
+    {
+      "crop_id": "page-06-upper",
+      "source": "KHULI",
+      "output_sha256": "c6164972c5204cd9321d29c68326f3263f6c4c69331e540680aa127beee64409",
+      "review_sha256": "9c8130da7fbf87cc11b4d74755bae6978a65e04ee3fa8c5b02fdc00c30b2b97a",
+      "characters": 281,
+      "agent_complete": true,
+      "uncertainty_markers": 2,
+      "combining_marks": 0
+    },
+    {
+      "crop_id": "page-06-lower",
+      "source": "KHULI",
+      "output_sha256": "567d0efbc028e11ba305a8a67f6f4c250089643b9d51e611e8b0b1b4076f1379",
+      "review_sha256": "aafd356839613cc2a838523d1fdb559f7d48dec4eed02b1adea6b7562b24b24d",
+      "characters": 278,
+      "agent_complete": true,
+      "uncertainty_markers": 1,
+      "combining_marks": 0
+    }
+  ],
+  "runs": [
+    {
+      "agent_path": "/root/ocr_crop_page_01",
+      "page_id": "page-01",
+      "session_id": "01a10cb7-7536-7693-b92e-06105ce9147e",
+      "contexts": [
+        {
+          "model": "gpt-6-sol",
+          "effort": "medium"
+        }
+      ],
+      "model_verified": true,
+      "completed_at": "2026-10-05T15:40:27.403Z",
+      "usage": {
+        "input_tokens": 143005,
+        "cached_input_tokens": 135168,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2151,
+        "reasoning_output_tokens": 1155,
+        "total_tokens": 145156
+      },
+      "errors": [],
+      "tool_calls": [
+        {
+          "timestamp": "2026-10-05T15:38:45.552Z",
+          "name": "exec",
+          "argument_sha256": "b33e9cafaa5e53eac8cfa522d5dadc131dada7b889b85e5295e7b1ef235d420f",
+          "argument_characters": 420,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await Promise.allSettled([\n  tools.exec_command({cmd:\"cat enrichment/v2/audits/2026-10-05-ocr-reliability/khuli-followup/CROP_BRIEF.md\",workdir:\"/Volumes/aro/projects/prose_generation\"}),\n  "
+        },
+        {
+          "timestamp": "2026-10-05T15:38:53.359Z",
+          "name": "exec",
+          "argument_sha256": "1319c603a7296b5f41df2cda4aebfe05c62266a74c6e00586db685deefb91355",
+          "argument_characters": 234,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const r = await tools.view_image({path:\"/Volumes/aro/projects/prose_generation/enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-1/p0050-middle.png\",detail:\"original\"}"
+        },
+        {
+          "timestamp": "2026-10-05T15:39:05.328Z",
+          "name": "exec",
+          "argument_sha256": "1319c603a7296b5f41df2cda4aebfe05c62266a74c6e00586db685deefb91355",
+          "argument_characters": 234,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const r = await tools.view_image({path:\"/Volumes/aro/projects/prose_generation/enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-1/p0050-middle.png\",detail:\"original\"}"
+        },
+        {
+          "timestamp": "2026-10-05T15:39:22.641Z",
+          "name": "exec",
+          "argument_sha256": "1319c603a7296b5f41df2cda4aebfe05c62266a74c6e00586db685deefb91355",
+          "argument_characters": 234,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const r = await tools.view_image({path:\"/Volumes/aro/projects/prose_generation/enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-1/p0050-middle.png\",detail:\"original\"}"
+        },
+        {
+          "timestamp": "2026-10-05T15:40:15.792Z",
+          "name": "exec",
+          "argument_sha256": "f1736c67413efbf7df9fca5439f1bf18607eea4330e209580394ec125c1c9fc1",
+          "argument_characters": 1471,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const patch = \"*** Begin Patch\\n*** Add File: /Volumes/aro/projects/prose_generation/enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-1/p0050-middle.txt\\n+ومعها . آية"
+        }
+      ]
+    },
+    {
+      "agent_path": "/root/ocr_crop_page_02",
+      "page_id": "page-02",
+      "session_id": "01a10cb7-a3fa-7540-8c76-83faa609dd24",
+      "contexts": [
+        {
+          "model": "gpt-6-sol",
+          "effort": "medium"
+        }
+      ],
+      "model_verified": true,
+      "completed_at": "2026-10-05T15:40:15.357Z",
+      "usage": {
+        "input_tokens": 115756,
+        "cached_input_tokens": 108928,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1704,
+        "reasoning_output_tokens": 883,
+        "total_tokens": 117460
+      },
+      "errors": [],
+      "tool_calls": [
+        {
+          "timestamp": "2026-10-05T15:38:56.845Z",
+          "name": "exec",
+          "argument_sha256": "41dad58b274d1eb1d48ec2421e5932bf2ac986b6a9c9788736dbb382d2480cb6",
+          "argument_characters": 420,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await Promise.allSettled([\n  tools.exec_command({cmd:\"cat enrichment/v2/audits/2026-10-05-ocr-reliability/khuli-followup/CROP_BRIEF.md\",workdir:\"/Volumes/aro/projects/prose_generation\"}),\n  "
+        },
+        {
+          "timestamp": "2026-10-05T15:39:04.959Z",
+          "name": "exec",
+          "argument_sha256": "e93de79d44a2a9d97fc84c70c833ddd42c9ca0b92d680526785c2436e5226b25",
+          "argument_characters": 230,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const r=await tools.view_image({path:\"/Volumes/aro/projects/prose_generation/enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-1/p0100-body.png\",detail:\"original\"}); i"
+        },
+        {
+          "timestamp": "2026-10-05T15:39:17.784Z",
+          "name": "exec",
+          "argument_sha256": "e93de79d44a2a9d97fc84c70c833ddd42c9ca0b92d680526785c2436e5226b25",
+          "argument_characters": 230,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const r=await tools.view_image({path:\"/Volumes/aro/projects/prose_generation/enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-1/p0100-body.png\",detail:\"original\"}); i"
+        },
+        {
+          "timestamp": "2026-10-05T15:40:05.867Z",
+          "name": "exec",
+          "argument_sha256": "87c5a0a3749c315ba5b9584906bea869b33d464b69e80c4990f4f59923e01b37",
+          "argument_characters": 1241,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const patch=\"*** Begin Patch\\n*** Add File: /Volumes/aro/projects/prose_generation/enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-1/p0100-body.txt\\n+ذرة خيراً أو شر"
+        }
+      ]
+    },
+    {
+      "agent_path": "/root/ocr_crop_page_03",
+      "page_id": "page-03",
+      "session_id": "01a10cb7-c645-7e50-8e75-75d8c1ad0060",
+      "contexts": [
+        {
+          "model": "gpt-6-sol",
+          "effort": "medium"
+        }
+      ],
+      "model_verified": true,
+      "completed_at": "2026-10-05T15:40:56.398Z",
+      "usage": {
+        "input_tokens": 120513,
+        "cached_input_tokens": 112000,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2479,
+        "reasoning_output_tokens": 1259,
+        "total_tokens": 122992
+      },
+      "errors": [],
+      "tool_calls": [
+        {
+          "timestamp": "2026-10-05T15:39:07.629Z",
+          "name": "exec",
+          "argument_sha256": "2527dcfa32a7a5c8c95ef584c073cd6cc96786927e288211d63083fffff0e130",
+          "argument_characters": 468,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await Promise.allSettled([\n  tools.exec_command({cmd:\"cat enrichment/v2/audits/2026-10-05-ocr-reliability/khuli-followup/CROP_BRIEF.md\",workdir:\"/Volumes/aro/projects/prose_generation\",max_o"
+        },
+        {
+          "timestamp": "2026-10-05T15:39:17.745Z",
+          "name": "exec",
+          "argument_sha256": "4b8618b88d65228eb31670652048a6a8a4d15bea5629e9a6cb44dc3f77cda8c6",
+          "argument_characters": 424,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const paths=[\"/Volumes/aro/projects/prose_generation/enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-2/p0049-middle.png\",\"/Volumes/aro/projects/prose_generation/enri"
+        },
+        {
+          "timestamp": "2026-10-05T15:39:37.095Z",
+          "name": "exec",
+          "argument_sha256": "91bd5aa4c2fd0e61ce28b3544e799c9001b2061e4650d19baafc92bcada288b6",
+          "argument_characters": 231,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const r=await tools.view_image({path:\"/Volumes/aro/projects/prose_generation/enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-2/p0049-lower.png\",detail:\"original\"}); "
+        },
+        {
+          "timestamp": "2026-10-05T15:40:43.082Z",
+          "name": "exec",
+          "argument_sha256": "186055dca4514f99d3e110ea7e04a5f8357114f2c232d96c3804e9abe33a3114",
+          "argument_characters": 2177,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const patch = \"*** Begin Patch\\n*** Add File: /Volumes/aro/projects/prose_generation/enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-2/p0049-middle.txt\\n+أما حين يأت"
+        }
+      ]
+    },
+    {
+      "agent_path": "/root/ocr_crop_page_04",
+      "page_id": "page-04",
+      "session_id": "01a10cb7-f754-7e03-bd9a-d814cfcdd002",
+      "contexts": [
+        {
+          "model": "gpt-6-sol",
+          "effort": "medium"
+        }
+      ],
+      "model_verified": true,
+      "completed_at": "2026-10-05T15:41:14.728Z",
+      "usage": {
+        "input_tokens": 143866,
+        "cached_input_tokens": 135552,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2468,
+        "reasoning_output_tokens": 1428,
+        "total_tokens": 146334
+      },
+      "errors": [],
+      "tool_calls": [
+        {
+          "timestamp": "2026-10-05T15:39:19.952Z",
+          "name": "exec",
+          "argument_sha256": "af2269d3e413f636a0257ac25743eac7278c192bcfd496abbca527e81cc3f28c",
+          "argument_characters": 446,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r = await Promise.allSettled([\n  tools.exec_command({cmd:\"cat enrichment/v2/audits/2026-10-05-ocr-reliability/khuli-followup/CROP_BRIEF.md\",workdir:\"/Volumes/aro/projects/prose_generation\"}),\n  "
+        },
+        {
+          "timestamp": "2026-10-05T15:39:29.338Z",
+          "name": "exec",
+          "argument_sha256": "d227d18c58d40eeb06c110a83c4488799d254291dee65e90b7df0cc1459bec1c",
+          "argument_characters": 233,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const r = await tools.view_image({path:\"/Volumes/aro/projects/prose_generation/enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-2/p0098-upper.png\",detail:\"original\"})"
+        },
+        {
+          "timestamp": "2026-10-05T15:39:50.720Z",
+          "name": "exec",
+          "argument_sha256": "d227d18c58d40eeb06c110a83c4488799d254291dee65e90b7df0cc1459bec1c",
+          "argument_characters": 233,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const r = await tools.view_image({path:\"/Volumes/aro/projects/prose_generation/enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-2/p0098-upper.png\",detail:\"original\"})"
+        },
+        {
+          "timestamp": "2026-10-05T15:40:51.482Z",
+          "name": "exec",
+          "argument_sha256": "7638e6446cd3b3d3b9cac38bed6edfc632558908455c64bbe41ce6b41ee26c63",
+          "argument_characters": 1384,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const patch = \"*** Begin Patch\\n*** Add File: /Volumes/aro/projects/prose_generation/enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-2/p0098-upper.txt\\n+« وَاللَّيْل"
+        },
+        {
+          "timestamp": "2026-10-05T15:41:03.423Z",
+          "name": "exec",
+          "argument_sha256": "5642f4a5ce62f8e3a01a8afc7511a4c25eea972f7e1015b2e77d6907d4be2936",
+          "argument_characters": 491,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r=await Promise.allSettled([\n  tools.exec_command({cmd:\"cat enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-2/p0098-upper.txt\",workdir:\"/Volumes/aro/projects/p"
+        }
+      ]
+    },
+    {
+      "agent_path": "/root/ocr_crop_page_05",
+      "page_id": "page-05",
+      "session_id": "01a10cb8-232e-7bf2-9163-a764b448b2aa",
+      "contexts": [
+        {
+          "model": "gpt-6-sol",
+          "effort": "medium"
+        }
+      ],
+      "model_verified": true,
+      "completed_at": "2026-10-05T15:42:01.694Z",
+      "usage": {
+        "input_tokens": 149557,
+        "cached_input_tokens": 139392,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3404,
+        "reasoning_output_tokens": 2209,
+        "total_tokens": 152961
+      },
+      "errors": [],
+      "tool_calls": [
+        {
+          "timestamp": "2026-10-05T15:39:30.895Z",
+          "name": "exec",
+          "argument_sha256": "7bdc889ec6a3d749101ded57d4f90a3645f5acc351aba86f5f26cd7c45f8f6be",
+          "argument_characters": 411,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r=await Promise.allSettled([tools.exec_command({cmd:\"cat enrichment/v2/audits/2026-10-05-ocr-reliability/khuli-followup/CROP_BRIEF.md\",workdir:\"/Volumes/aro/projects/prose_generation\"}),tools.ex"
+        },
+        {
+          "timestamp": "2026-10-05T15:39:40.611Z",
+          "name": "exec",
+          "argument_sha256": "589df95f6f0f650215eab35d9473aabeb33270bda5cdb5f5db934e2d2e6c7673",
+          "argument_characters": 236,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const r=await tools.view_image({path:\"/Volumes/aro/projects/prose_generation/enrichment/corpus/KHULI/raw/ocr-candidates/crop-pilot-2026-10-05/khuli-manahij-tajdid-1961/p0092-upper.png\",detail:\"origina"
+        },
+        {
+          "timestamp": "2026-10-05T15:39:56.652Z",
+          "name": "exec",
+          "argument_sha256": "589df95f6f0f650215eab35d9473aabeb33270bda5cdb5f5db934e2d2e6c7673",
+          "argument_characters": 236,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const r=await tools.view_image({path:\"/Volumes/aro/projects/prose_generation/enrichment/corpus/KHULI/raw/ocr-candidates/crop-pilot-2026-10-05/khuli-manahij-tajdid-1961/p0092-upper.png\",detail:\"origina"
+        },
+        {
+          "timestamp": "2026-10-05T15:41:06.479Z",
+          "name": "exec",
+          "argument_sha256": "589df95f6f0f650215eab35d9473aabeb33270bda5cdb5f5db934e2d2e6c7673",
+          "argument_characters": 236,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const r=await tools.view_image({path:\"/Volumes/aro/projects/prose_generation/enrichment/corpus/KHULI/raw/ocr-candidates/crop-pilot-2026-10-05/khuli-manahij-tajdid-1961/p0092-upper.png\",detail:\"origina"
+        },
+        {
+          "timestamp": "2026-10-05T15:41:46.038Z",
+          "name": "exec",
+          "argument_sha256": "3e558a2f45bd6680ef989a4e4ccfd730611dd11d06dcd191b1508758bbc6dbc7",
+          "argument_characters": 1968,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const patch=\"*** Begin Patch\\n*** Add File: /Volumes/aro/projects/prose_generation/enrichment/corpus/KHULI/raw/ocr-candidates/crop-pilot-2026-10-05/khuli-manahij-tajdid-1961/p0092-upper.txt\\n+الكتاب ف"
+        }
+      ]
+    },
+    {
+      "agent_path": "/root/ocr_crop_page_06",
+      "page_id": "page-06",
+      "session_id": "01a10cb8-73f1-7333-9f83-fa24a77e31cb",
+      "contexts": [
+        {
+          "model": "gpt-6-sol",
+          "effort": "medium"
+        }
+      ],
+      "model_verified": true,
+      "completed_at": "2026-10-05T15:43:10.313Z",
+      "usage": {
+        "input_tokens": 221877,
+        "cached_input_tokens": 206080,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4264,
+        "reasoning_output_tokens": 2721,
+        "total_tokens": 226141
+      },
+      "errors": [],
+      "tool_calls": [
+        {
+          "timestamp": "2026-10-05T15:39:52.164Z",
+          "name": "exec",
+          "argument_sha256": "b4ebad589ada4cdb49f27f9627c8b25acba3473b815d04bf7ce20c26f0d14d3e",
+          "argument_characters": 405,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const r=await Promise.allSettled([\n  tools.exec_command({cmd:\"cat enrichment/v2/audits/2026-10-05-ocr-reliability/khuli-followup/CROP_BRIEF.md\",workdir:\"/Volumes/aro/projects/prose_generation\"}),\n  to"
+        },
+        {
+          "timestamp": "2026-10-05T15:40:04.624Z",
+          "name": "exec",
+          "argument_sha256": "cc6b614929aa0b5e818651f8eb50d5199576333dbd675e4f97dd201496882628",
+          "argument_characters": 456,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const p=\"/Volumes/aro/projects/prose_generation/enrichment/corpus/KHULI/raw/ocr-candidates/crop-pilot-2026-10-05/khuli-manahij-tajdid-1961/\"; const r=await Promise.allSettled([tools.view_image({path:p"
+        },
+        {
+          "timestamp": "2026-10-05T15:40:16.539Z",
+          "name": "exec",
+          "argument_sha256": "0308401c5b91838bc2011433c131531c4300e9d94279739773781de357a3aa69",
+          "argument_characters": 237,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const r=await tools.view_image({path:\"/Volumes/aro/projects/prose_generation/enrichment/corpus/KHULI/raw/ocr-candidates/crop-pilot-2026-10-05/khuli-manahij-tajdid-1961/p0100-upper.png\",detail:\"origina"
+        },
+        {
+          "timestamp": "2026-10-05T15:40:59.641Z",
+          "name": "exec",
+          "argument_sha256": "0bb2b10bc96c3a3286095ce2c68705d4b2e768f8529c8bedd1dcf2002a02a026",
+          "argument_characters": 237,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const r=await tools.view_image({path:\"/Volumes/aro/projects/prose_generation/enrichment/corpus/KHULI/raw/ocr-candidates/crop-pilot-2026-10-05/khuli-manahij-tajdid-1961/p0100-lower.png\",detail:\"origina"
+        },
+        {
+          "timestamp": "2026-10-05T15:41:45.693Z",
+          "name": "exec",
+          "argument_sha256": "0308401c5b91838bc2011433c131531c4300e9d94279739773781de357a3aa69",
+          "argument_characters": 237,
+          "uses_view_image": true,
+          "forwards_original_detail": true,
+          "head": "const r=await tools.view_image({path:\"/Volumes/aro/projects/prose_generation/enrichment/corpus/KHULI/raw/ocr-candidates/crop-pilot-2026-10-05/khuli-manahij-tajdid-1961/p0100-upper.png\",detail:\"origina"
+        },
+        {
+          "timestamp": "2026-10-05T15:42:46.656Z",
+          "name": "exec",
+          "argument_sha256": "e76553f3b1dfd693e42b9afb6ccdcd66b24836626ce7a0a961f261528fa90e64",
+          "argument_characters": 2394,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "const patch=\"*** Begin Patch\\n*** Add File: /Volumes/aro/projects/prose_generation/enrichment/corpus/KHULI/raw/ocr-candidates/crop-pilot-2026-10-05/khuli-manahij-tajdid-1961/p0100-upper.txt\\n+في الجاه"
+        },
+        {
+          "timestamp": "2026-10-05T15:42:59.561Z",
+          "name": "send_message",
+          "argument_sha256": "301ec756abc04c2d5fbb5a7c93ae2a637e97c688f9dd2597fad104927b1b2ed9",
+          "argument_characters": 643,
+          "uses_view_image": false,
+          "forwards_original_detail": false,
+          "head": "{\"target\":\"/root\",\"message\":\"gAAAAABqw8WDQDWi-b0iDS2KPtvF2NsLPYjFfE4M4UuhzjntfY_43OXrmQrJ8aj9jHHXoz-9AdxNv3FUTBBAozArrn8etQwMQbOdxktZZ6Eva6CsViOGzj5l2vcbsSO9xc8rWyFvZ9cyaMgM6JWQbSfPioI0jB71hEaQbQxP9g3"
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "input_tokens": 894574,
+    "cached_input_tokens": 837120,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 16470,
+    "reasoning_output_tokens": 9655,
+    "total_tokens": 911044,
+    "non_reasoning_output_tokens": 6815
+  },
+  "limits": "Frozen 440-word supervisor reference excerpts, not independent gold. Crops deliberately cover reference windows, with surrounding context; not automatic region selection. Independent fresh model reading, no candidate hints or supervisor correction. Reference normalization hides diacritics/punctuation/spelling distinctions; semiglobal alignment permits free surrounding text. This is a candidate reread, not adjudicated two-witness repair or accepted corpus text. Native session usage excludes parent research/review."
+}

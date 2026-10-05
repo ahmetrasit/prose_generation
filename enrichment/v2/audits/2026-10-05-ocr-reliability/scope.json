@@ -1,0 +1,511 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-05T14:17:16.064055+00:00",
+  "scope": "All user-listed OCR PDFs, including Urdu volumes 3–9; no English substitute for Urdu originals.",
+  "summary": {
+    "pdfs": 26,
+    "primary_pages": 7510,
+    "additional_urdu_pages": 4516,
+    "total_pages": 12026,
+    "accepted_pages": 0
+  },
+  "output_contract": {
+    "one_file_per_pdf_page": true,
+    "page_numbering": "1-based PDF page; printed-page labels are separate metadata",
+    "verified_blank": "empty UTF-8 file, explicitly marked verified_blank in page manifest",
+    "ocr_failure": "failed status; never pretend it is a blank page",
+    "text": "Diplomatic original spelling; logical-order Arabic; retain printed harakat; body followed by footnotes; [?] for genuinely unreadable stretches after review",
+    "provenance": "raw/ocr/README.md per source plus page hashes, engine/model/version/settings/date, raw responses, coordinates and review status",
+    "release_gate": "Only accepted pages enter the importer path; machine drafts and unresolved pages remain under raw/ocr-candidates/."
+  },
+  "execution_status": "Local Tesseract, 24-page Luna low/medium and six-page isolated Sol medium pilots completed. Sol improves priority excerpt recognition but none meets Bint al-Shati/Khuli diplomatic requirements. Zero accepted pages. Structured Bint al-Shati export acquired as a candidate; coverage, edition alignment and corrections pending. See sol-pilot/README.md, luna-pilot/README.md and luna-pilot/SOURCE_ALTERNATIVES.md.",
+  "candidate_service": {
+    "name": "Mistral OCR 4.1",
+    "status": "proposed, not tested or authorized",
+    "pricing_checked": "2026-10-05",
+    "url": "https://mistral.ai/pricing/api/",
+    "standard_usd_per_1000_pages": 4,
+    "estimated_one_pass_standard_usd": 48.104,
+    "estimated_one_pass_batch_usd": 24.052,
+    "limits": "Excludes retries, recrops, independent verification and manual correction; Tarama spread splitting can increase request count."
+  },
+  "files": [
+    {
+      "source": "BINTSHATI",
+      "pdf": "enrichment/corpus/BINTSHATI/raw/acquired-2026-10-05/bintshati-vol-1.pdf",
+      "pdf_sha256": "f1c723e935f51e2bcd8f021170f08d15fc2a7a17f1bd4aee3fd3cb3a1804c244",
+      "pdf_pages": 222,
+      "languages": [
+        "ar"
+      ],
+      "priority": 1,
+      "scope": "primary_list",
+      "output_directory": "enrichment/corpus/BINTSHATI/raw/ocr/bintshati-vol-1",
+      "page_pattern": "p{pdf_page:04d}.txt",
+      "first_page": "p0001.txt",
+      "last_page": "p0222.txt",
+      "status": "pending_reliable_ocr",
+      "accepted_pages": 0
+    },
+    {
+      "source": "BINTSHATI",
+      "pdf": "enrichment/corpus/BINTSHATI/raw/acquired-2026-10-05/bintshati-vol-2.pdf",
+      "pdf_sha256": "e2db92da7181d583d4416ab3b15419e8cdc8b3efe7bb98e7b923a07230e0df84",
+      "pdf_pages": 196,
+      "languages": [
+        "ar"
+      ],
+      "priority": 1,
+      "scope": "primary_list",
+      "output_directory": "enrichment/corpus/BINTSHATI/raw/ocr/bintshati-vol-2",
+      "page_pattern": "p{pdf_page:04d}.txt",
+      "first_page": "p0001.txt",
+      "last_page": "p0196.txt",
+      "status": "pending_reliable_ocr",
+      "accepted_pages": 0
+    },
+    {
+      "source": "KHULI",
+      "pdf": "enrichment/corpus/KHULI/raw/acquired-2026-10-05/khuli-manahij-tajdid-1961.pdf",
+      "pdf_sha256": "d1b79b4dddd2059abdc2f84212a4df8ffaa0a8f9b5c8ad745676f5d6e12b0021",
+      "pdf_pages": 368,
+      "languages": [
+        "ar"
+      ],
+      "priority": 2,
+      "scope": "primary_list",
+      "output_directory": "enrichment/corpus/KHULI/raw/ocr/khuli-manahij-tajdid-1961",
+      "page_pattern": "p{pdf_page:04d}.txt",
+      "first_page": "p0001.txt",
+      "last_page": "p0368.txt",
+      "status": "pending_reliable_ocr",
+      "accepted_pages": 0
+    },
+    {
+      "source": "ABDUH-AMMA",
+      "pdf": "enrichment/corpus/ABDUH-AMMA/raw/acquired-2026-10-05/abduh-tafsir-juz-amma.pdf",
+      "pdf_sha256": "95ad90bf153890821b9faf36936b1e400d20bf5d2cb6c6687f0078c12ae19b72",
+      "pdf_pages": 189,
+      "languages": [
+        "ar"
+      ],
+      "priority": 3,
+      "scope": "primary_list",
+      "output_directory": "enrichment/corpus/ABDUH-AMMA/raw/ocr/abduh-tafsir-juz-amma",
+      "page_pattern": "p{pdf_page:04d}.txt",
+      "first_page": "p0001.txt",
+      "last_page": "p0189.txt",
+      "status": "pending_reliable_ocr",
+      "accepted_pages": 0
+    },
+    {
+      "source": "MUQATIL-WUJUH",
+      "pdf": "enrichment/corpus/MUQATIL-WUJUH/raw/acquired-2026-10-05/muqatil-wujuh-damin.pdf",
+      "pdf_sha256": "4ea8c0633da8a514c07bdf565bdcc2473b248ff3c5e21a26c4648a67fd7e9034",
+      "pdf_pages": 308,
+      "languages": [
+        "ar"
+      ],
+      "priority": 4,
+      "scope": "primary_list",
+      "output_directory": "enrichment/corpus/MUQATIL-WUJUH/raw/ocr/muqatil-wujuh-damin",
+      "page_pattern": "p{pdf_page:04d}.txt",
+      "first_page": "p0001.txt",
+      "last_page": "p0308.txt",
+      "status": "pending_reliable_ocr",
+      "accepted_pages": 0
+    },
+    {
+      "source": "IBNKHALAWAYH-MUKHTASAR",
+      "pdf": "enrichment/corpus/IBNKHALAWAYH-MUKHTASAR/raw/acquired-2026-10-05/ibnkhalawayh-mukhtasar.pdf",
+      "pdf_sha256": "9c52723d4e24a899d225e0d9d514e5715671c74da4cfaaf8e94c0d85f993fbe2",
+      "pdf_pages": 246,
+      "languages": [
+        "ar"
+      ],
+      "priority": 5,
+      "scope": "primary_list",
+      "output_directory": "enrichment/corpus/IBNKHALAWAYH-MUKHTASAR/raw/ocr/ibnkhalawayh-mukhtasar",
+      "page_pattern": "p{pdf_page:04d}.txt",
+      "first_page": "p0001.txt",
+      "last_page": "p0246.txt",
+      "status": "pending_reliable_ocr",
+      "accepted_pages": 0
+    },
+    {
+      "source": "FARAHI-NIZAM",
+      "pdf": "enrichment/corpus/ACADEMIC/FARAHI-NIZAM/raw/acquired-2026-10-05/farahi-nizam-book.pdf",
+      "pdf_sha256": "678dcfa7e46ccb11732cd59578f83f9a4da49396c92f886a3227ce3e8b53ea57",
+      "pdf_pages": 632,
+      "languages": [
+        "ar"
+      ],
+      "priority": 6,
+      "scope": "primary_list",
+      "output_directory": "enrichment/corpus/ACADEMIC/FARAHI-NIZAM/raw/ocr/farahi-nizam-book",
+      "page_pattern": "p{pdf_page:04d}.txt",
+      "first_page": "p0001.txt",
+      "last_page": "p0632.txt",
+      "status": "pending_reliable_ocr",
+      "accepted_pages": 0
+    },
+    {
+      "source": "BADAWI-HALEEM",
+      "pdf": "enrichment/corpus/ACADEMIC/BADAWI-HALEEM/raw/acquired-2026-10-05/badawi-haleem-2008.pdf",
+      "pdf_sha256": "c9c852f1986841d7a757bee37d8c491a0d301d7db5a844e3d3f9a98cc3c1cb86",
+      "pdf_pages": 1095,
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "priority": 7,
+      "scope": "primary_list",
+      "output_directory": "enrichment/corpus/ACADEMIC/BADAWI-HALEEM/raw/ocr/badawi-haleem-2008",
+      "page_pattern": "p{pdf_page:04d}.txt",
+      "first_page": "p0001.txt",
+      "last_page": "p1095.txt",
+      "status": "pending_reliable_ocr",
+      "accepted_pages": 0
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "pdf": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-3-surah-tawbah-09.pdf",
+      "pdf_sha256": "0ad070f20242b52689ae59236180dab324da86e09af908d874a87b7007c60ba1",
+      "pdf_pages": 110,
+      "languages": [
+        "en",
+        "ar"
+      ],
+      "priority": 8,
+      "scope": "primary_list",
+      "output_directory": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr/tadabbur-e-quran-vol-3-surah-tawbah-09",
+      "page_pattern": "p{pdf_page:04d}.txt",
+      "first_page": "p0001.txt",
+      "last_page": "p0110.txt",
+      "status": "pending_reliable_ocr",
+      "accepted_pages": 0
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "pdf": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-1.pdf",
+      "pdf_sha256": "46d34bf244dd5de0192e66d761b0878025092337aae290dfc2eacbe7ba1bb414",
+      "pdf_pages": 672,
+      "languages": [
+        "ur",
+        "ar"
+      ],
+      "priority": 9,
+      "scope": "primary_list",
+      "output_directory": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr/tadabbur-e-quran-vol-1",
+      "page_pattern": "p{pdf_page:04d}.txt",
+      "first_page": "p0001.txt",
+      "last_page": "p0672.txt",
+      "status": "pending_reliable_ocr",
+      "accepted_pages": 0
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "pdf": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-2.pdf",
+      "pdf_sha256": "de297546d9792aaddddc49f6b1cafa2976227eff76c46e5ddd4e818b2979c827",
+      "pdf_pages": 633,
+      "languages": [
+        "ur",
+        "ar"
+      ],
+      "priority": 9,
+      "scope": "primary_list",
+      "output_directory": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr/tadabbur-e-quran-vol-2",
+      "page_pattern": "p{pdf_page:04d}.txt",
+      "first_page": "p0001.txt",
+      "last_page": "p0633.txt",
+      "status": "pending_reliable_ocr",
+      "accepted_pages": 0
+    },
+    {
+      "source": "TARAMA",
+      "pdf": "enrichment/corpus/TARAMA/raw/acquired-2026-10-05/tarama-vol-1.pdf",
+      "pdf_sha256": "f604ac29ad1ce8bdfe97a68888eb32bd92dd247bb9dbd0d50bab49277cb54402",
+      "pdf_pages": 421,
+      "languages": [
+        "tr",
+        "ar"
+      ],
+      "priority": 10,
+      "scope": "primary_list",
+      "output_directory": "enrichment/corpus/TARAMA/raw/ocr/tarama-vol-1",
+      "page_pattern": "p{pdf_page:04d}.txt",
+      "first_page": "p0001.txt",
+      "last_page": "p0421.txt",
+      "status": "pending_reliable_ocr",
+      "accepted_pages": 0
+    },
+    {
+      "source": "TARAMA",
+      "pdf": "enrichment/corpus/TARAMA/raw/acquired-2026-10-05/tarama-vol-2.pdf",
+      "pdf_sha256": "67bb17cf62dc0b6c7130e8eefe5f041cc76bd6e645b6d1bb7a068a13922438b8",
+      "pdf_pages": 319,
+      "languages": [
+        "tr",
+        "ar"
+      ],
+      "priority": 10,
+      "scope": "primary_list",
+      "output_directory": "enrichment/corpus/TARAMA/raw/ocr/tarama-vol-2",
+      "page_pattern": "p{pdf_page:04d}.txt",
+      "first_page": "p0001.txt",
+      "last_page": "p0319.txt",
+      "status": "pending_reliable_ocr",
+      "accepted_pages": 0
+    },
+    {
+      "source": "TARAMA",
+      "pdf": "enrichment/corpus/TARAMA/raw/acquired-2026-10-05/tarama-vol-3.pdf",
+      "pdf_sha256": "81f0187d995c0b9b768972876a3fa54055063ed36b426079befdc115174dc209",
+      "pdf_pages": 381,
+      "languages": [
+        "tr",
+        "ar"
+      ],
+      "priority": 10,
+      "scope": "primary_list",
+      "output_directory": "enrichment/corpus/TARAMA/raw/ocr/tarama-vol-3",
+      "page_pattern": "p{pdf_page:04d}.txt",
+      "first_page": "p0001.txt",
+      "last_page": "p0381.txt",
+      "status": "pending_reliable_ocr",
+      "accepted_pages": 0
+    },
+    {
+      "source": "TARAMA",
+      "pdf": "enrichment/corpus/TARAMA/raw/acquired-2026-10-05/tarama-vol-4.pdf",
+      "pdf_sha256": "71019b221c554c6937278fed1be7be33661e6f2b35830959424c7f1fedcf08d4",
+      "pdf_pages": 388,
+      "languages": [
+        "tr",
+        "ar"
+      ],
+      "priority": 10,
+      "scope": "primary_list",
+      "output_directory": "enrichment/corpus/TARAMA/raw/ocr/tarama-vol-4",
+      "page_pattern": "p{pdf_page:04d}.txt",
+      "first_page": "p0001.txt",
+      "last_page": "p0388.txt",
+      "status": "pending_reliable_ocr",
+      "accepted_pages": 0
+    },
+    {
+      "source": "TARAMA",
+      "pdf": "enrichment/corpus/TARAMA/raw/acquired-2026-10-05/tarama-vol-5.pdf",
+      "pdf_sha256": "a18cbc3d908f46ecee921239d83efae490bc6671156cac531711287daffbcbfc",
+      "pdf_pages": 491,
+      "languages": [
+        "tr",
+        "ar"
+      ],
+      "priority": 10,
+      "scope": "primary_list",
+      "output_directory": "enrichment/corpus/TARAMA/raw/ocr/tarama-vol-5",
+      "page_pattern": "p{pdf_page:04d}.txt",
+      "first_page": "p0001.txt",
+      "last_page": "p0491.txt",
+      "status": "pending_reliable_ocr",
+      "accepted_pages": 0
+    },
+    {
+      "source": "TARAMA",
+      "pdf": "enrichment/corpus/TARAMA/raw/acquired-2026-10-05/tarama-vol-6.pdf",
+      "pdf_sha256": "2385c52a72438eee276be5f151dc82ff1df5d26d02bffa974ff8aa0ad415b9b6",
+      "pdf_pages": 472,
+      "languages": [
+        "tr",
+        "ar"
+      ],
+      "priority": 10,
+      "scope": "primary_list",
+      "output_directory": "enrichment/corpus/TARAMA/raw/ocr/tarama-vol-6",
+      "page_pattern": "p{pdf_page:04d}.txt",
+      "first_page": "p0001.txt",
+      "last_page": "p0472.txt",
+      "status": "pending_reliable_ocr",
+      "accepted_pages": 0
+    },
+    {
+      "source": "TARAMA",
+      "pdf": "enrichment/corpus/TARAMA/raw/acquired-2026-10-05/tarama-vol-7.pdf",
+      "pdf_sha256": "be6724e7a3f2662b6574b6fedca9fa57d42de1a7dc96085d44530b9008fda718",
+      "pdf_pages": 153,
+      "languages": [
+        "tr",
+        "ar"
+      ],
+      "priority": 10,
+      "scope": "primary_list",
+      "output_directory": "enrichment/corpus/TARAMA/raw/ocr/tarama-vol-7",
+      "page_pattern": "p{pdf_page:04d}.txt",
+      "first_page": "p0001.txt",
+      "last_page": "p0153.txt",
+      "status": "pending_reliable_ocr",
+      "accepted_pages": 0
+    },
+    {
+      "source": "TARAMA",
+      "pdf": "enrichment/corpus/TARAMA/raw/acquired-2026-10-05/tarama-vol-8.pdf",
+      "pdf_sha256": "ff9a27247adb8e8473eea9d081bcd93c556cf805567fff218b28a86b1cf89d7b",
+      "pdf_pages": 214,
+      "languages": [
+        "tr",
+        "ar"
+      ],
+      "priority": 10,
+      "scope": "primary_list",
+      "output_directory": "enrichment/corpus/TARAMA/raw/ocr/tarama-vol-8",
+      "page_pattern": "p{pdf_page:04d}.txt",
+      "first_page": "p0001.txt",
+      "last_page": "p0214.txt",
+      "status": "pending_reliable_ocr",
+      "accepted_pages": 0
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "pdf": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-3.pdf",
+      "pdf_sha256": "93ddc23f53abf1863da8e6108d383d3ee4ae996a4f8b6df1573adfc45954ef0e",
+      "pdf_pages": 691,
+      "languages": [
+        "ur",
+        "ar"
+      ],
+      "priority": 11,
+      "scope": "additional_urdu_required_by_user",
+      "output_directory": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr/tadabbur-e-quran-vol-3",
+      "page_pattern": "p{pdf_page:04d}.txt",
+      "first_page": "p0001.txt",
+      "last_page": "p0691.txt",
+      "status": "pending_reliable_ocr",
+      "accepted_pages": 0
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "pdf": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-4.pdf",
+      "pdf_sha256": "ad60049f00d67752222ff417baff854c8f59f68c63b63d7c81a175bd8f849543",
+      "pdf_pages": 719,
+      "languages": [
+        "ur",
+        "ar"
+      ],
+      "priority": 12,
+      "scope": "additional_urdu_required_by_user",
+      "output_directory": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr/tadabbur-e-quran-vol-4",
+      "page_pattern": "p{pdf_page:04d}.txt",
+      "first_page": "p0001.txt",
+      "last_page": "p0719.txt",
+      "status": "pending_reliable_ocr",
+      "accepted_pages": 0
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "pdf": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-5.pdf",
+      "pdf_sha256": "38f2c476f0d5d08c19cb628db15df06339ed8bd10e023e0efeda046f75928f01",
+      "pdf_pages": 745,
+      "languages": [
+        "ur",
+        "ar"
+      ],
+      "priority": 13,
+      "scope": "additional_urdu_required_by_user",
+      "output_directory": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr/tadabbur-e-quran-vol-5",
+      "page_pattern": "p{pdf_page:04d}.txt",
+      "first_page": "p0001.txt",
+      "last_page": "p0745.txt",
+      "status": "pending_reliable_ocr",
+      "accepted_pages": 0
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "pdf": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-6.pdf",
+      "pdf_sha256": "b87fc40ceda67ac32ea0a5da32bbe0937268b56d58fb5de61aedf49c92f67b27",
+      "pdf_pages": 459,
+      "languages": [
+        "ur",
+        "ar"
+      ],
+      "priority": 14,
+      "scope": "additional_urdu_required_by_user",
+      "output_directory": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr/tadabbur-e-quran-vol-6",
+      "page_pattern": "p{pdf_page:04d}.txt",
+      "first_page": "p0001.txt",
+      "last_page": "p0459.txt",
+      "status": "pending_reliable_ocr",
+      "accepted_pages": 0
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "pdf": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-7.pdf",
+      "pdf_sha256": "77767effe19dbcef13ed29149b307dee00d57f07e8509237190ebfe23d96ae44",
+      "pdf_pages": 646,
+      "languages": [
+        "ur",
+        "ar"
+      ],
+      "priority": 15,
+      "scope": "additional_urdu_required_by_user",
+      "output_directory": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr/tadabbur-e-quran-vol-7",
+      "page_pattern": "p{pdf_page:04d}.txt",
+      "first_page": "p0001.txt",
+      "last_page": "p0646.txt",
+      "status": "pending_reliable_ocr",
+      "accepted_pages": 0
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "pdf": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-8.pdf",
+      "pdf_sha256": "cda29e54acefa21096511daa6fe64e2869e8c0d876f6ea9867ac6e4cd07f1f6c",
+      "pdf_pages": 640,
+      "languages": [
+        "ur",
+        "ar"
+      ],
+      "priority": 16,
+      "scope": "additional_urdu_required_by_user",
+      "output_directory": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr/tadabbur-e-quran-vol-8",
+      "page_pattern": "p{pdf_page:04d}.txt",
+      "first_page": "p0001.txt",
+      "last_page": "p0640.txt",
+      "status": "pending_reliable_ocr",
+      "accepted_pages": 0
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "pdf": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-9.pdf",
+      "pdf_sha256": "d1fbf188154e163da0a77c51574bef423b15474f1f4f136ab756d98f8e3f6126",
+      "pdf_pages": 616,
+      "languages": [
+        "ur",
+        "ar"
+      ],
+      "priority": 17,
+      "scope": "additional_urdu_required_by_user",
+      "output_directory": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr/tadabbur-e-quran-vol-9",
+      "page_pattern": "p{pdf_page:04d}.txt",
+      "first_page": "p0001.txt",
+      "last_page": "p0616.txt",
+      "status": "pending_reliable_ocr",
+      "accepted_pages": 0
+    }
+  ],
+  "completed_pilot": {
+    "pages": 24,
+    "transcriptions": 48,
+    "model": "gpt-6-luna",
+    "efforts": [
+      "low",
+      "medium"
+    ],
+    "priority_sources": [
+      "BINTSHATI",
+      "KHULI"
+    ],
+    "priority_pdf_pages": 786,
+    "report": "luna-pilot/README.md",
+    "accepted_pages": 0
+  }
+}

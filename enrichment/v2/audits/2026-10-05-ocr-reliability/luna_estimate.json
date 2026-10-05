@@ -1,0 +1,297 @@
+{
+  "model": "gpt-6-luna",
+  "status": "planning_scenarios_only; no Luna OCR calls",
+  "pages": 12026,
+  "image_geometry": "300-dpi page geometry capped at 3500-pixel longest side; no rendering or crop requests made by this estimator",
+  "image_billing_caveat": "Fetched official vision tables do not explicitly list GPT-6 Luna's sizing/multiplier. 32px patches and 1.0–1.2x are sensitivity assumptions, NOT a verified Luna billing rule; measure actual usage in pilot.",
+  "raw_image_patches": 92119841,
+  "minimal_call_input_scenario": [
+    95727641,
+    114151610
+  ],
+  "minimal_call_prompt_assumption": "300 text tokens per page, one direct image-to-text response per page",
+  "visible_output_assumed": [
+    11156400,
+    22181300
+  ],
+  "reasoning_sensitivity": [
+    {
+      "assumed_reasoning_per_page": 250,
+      "extra_output_tokens": 3006500,
+      "note": "Illustration only; not a low/medium prediction"
+    },
+    {
+      "assumed_reasoning_per_page": 1000,
+      "extra_output_tokens": 12026000,
+      "note": "Illustration only; not a low/medium prediction"
+    },
+    {
+      "assumed_reasoning_per_page": 3000,
+      "extra_output_tokens": 36078000,
+      "note": "Illustration only; not a low/medium prediction"
+    }
+  ],
+  "native_agent_scenario": {
+    "pages_per_fresh_agent": 4,
+    "assumed_harness_tokens": 10000,
+    "model_passes": 3,
+    "passes_containing_images": 2,
+    "input_tokens_range": [
+      292821682,
+      340694520
+    ],
+    "note": "Illustrative view-images, write-files, completion sequence; actual harness/tool rounds/caching must be measured. No parent history assumed; transcription is read back in the completion pass. Reasoning/retries/corrections not included."
+  },
+  "prices_usd_per_million": {
+    "standard_input": 0.1,
+    "standard_output": 0.5,
+    "cached_input": 0.01,
+    "cache_write": 0.125
+  },
+  "groups": {
+    "Arabic": {
+      "pages": 2161,
+      "patches_32px": 13318917,
+      "assumed_visible_output_per_page": [
+        800,
+        1600
+      ],
+      "assumed_visible_output_total": [
+        1728800,
+        3457600
+      ]
+    },
+    "Arabic/English dictionary": {
+      "pages": 1095,
+      "patches_32px": 5847300,
+      "assumed_visible_output_per_page": [
+        900,
+        1700
+      ],
+      "assumed_visible_output_total": [
+        985500,
+        1861500
+      ]
+    },
+    "English": {
+      "pages": 110,
+      "patches_32px": 631620,
+      "assumed_visible_output_per_page": [
+        600,
+        1000
+      ],
+      "assumed_visible_output_total": [
+        66000,
+        110000
+      ]
+    },
+    "Urdu": {
+      "pages": 5821,
+      "patches_32px": 47963384,
+      "assumed_visible_output_per_page": [
+        1000,
+        2000
+      ],
+      "assumed_visible_output_total": [
+        5821000,
+        11642000
+      ]
+    },
+    "Turkish/Ottoman spread": {
+      "pages": 2839,
+      "patches_32px": 24358620,
+      "assumed_visible_output_per_page": [
+        900,
+        1800
+      ],
+      "assumed_visible_output_total": [
+        2555100,
+        5110200
+      ]
+    }
+  },
+  "files": [
+    {
+      "pdf": "enrichment/corpus/BINTSHATI/raw/acquired-2026-10-05/bintshati-vol-1.pdf",
+      "pages": 222,
+      "patches_32px": 1904760,
+      "minimum_page_patches": 8580,
+      "maximum_page_patches": 8580
+    },
+    {
+      "pdf": "enrichment/corpus/BINTSHATI/raw/acquired-2026-10-05/bintshati-vol-2.pdf",
+      "pages": 196,
+      "patches_32px": 1681680,
+      "minimum_page_patches": 8580,
+      "maximum_page_patches": 8580
+    },
+    {
+      "pdf": "enrichment/corpus/KHULI/raw/acquired-2026-10-05/khuli-manahij-tajdid-1961.pdf",
+      "pages": 368,
+      "patches_32px": 2874080,
+      "minimum_page_patches": 7810,
+      "maximum_page_patches": 7810
+    },
+    {
+      "pdf": "enrichment/corpus/ABDUH-AMMA/raw/acquired-2026-10-05/abduh-tafsir-juz-amma.pdf",
+      "pages": 189,
+      "patches_32px": 877716,
+      "minimum_page_patches": 4644,
+      "maximum_page_patches": 4644
+    },
+    {
+      "pdf": "enrichment/corpus/MUQATIL-WUJUH/raw/acquired-2026-10-05/muqatil-wujuh-damin.pdf",
+      "pages": 308,
+      "patches_32px": 1685922,
+      "minimum_page_patches": 5307,
+      "maximum_page_patches": 5518
+    },
+    {
+      "pdf": "enrichment/corpus/IBNKHALAWAYH-MUKHTASAR/raw/acquired-2026-10-05/ibnkhalawayh-mukhtasar.pdf",
+      "pages": 246,
+      "patches_32px": 1160671,
+      "minimum_page_patches": 4698,
+      "maximum_page_patches": 4840
+    },
+    {
+      "pdf": "enrichment/corpus/ACADEMIC/FARAHI-NIZAM/raw/acquired-2026-10-05/farahi-nizam-book.pdf",
+      "pages": 632,
+      "patches_32px": 3134088,
+      "minimum_page_patches": 4959,
+      "maximum_page_patches": 4959
+    },
+    {
+      "pdf": "enrichment/corpus/ACADEMIC/BADAWI-HALEEM/raw/acquired-2026-10-05/badawi-haleem-2008.pdf",
+      "pages": 1095,
+      "patches_32px": 5847300,
+      "minimum_page_patches": 5340,
+      "maximum_page_patches": 5340
+    },
+    {
+      "pdf": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-3-surah-tawbah-09.pdf",
+      "pages": 110,
+      "patches_32px": 631620,
+      "minimum_page_patches": 5742,
+      "maximum_page_patches": 5742
+    },
+    {
+      "pdf": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-1.pdf",
+      "pages": 672,
+      "patches_32px": 5591040,
+      "minimum_page_patches": 8320,
+      "maximum_page_patches": 8320
+    },
+    {
+      "pdf": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-2.pdf",
+      "pages": 633,
+      "patches_32px": 5266560,
+      "minimum_page_patches": 8320,
+      "maximum_page_patches": 8320
+    },
+    {
+      "pdf": "enrichment/corpus/TARAMA/raw/acquired-2026-10-05/tarama-vol-1.pdf",
+      "pages": 421,
+      "patches_32px": 3612180,
+      "minimum_page_patches": 8580,
+      "maximum_page_patches": 8580
+    },
+    {
+      "pdf": "enrichment/corpus/TARAMA/raw/acquired-2026-10-05/tarama-vol-2.pdf",
+      "pages": 319,
+      "patches_32px": 2737020,
+      "minimum_page_patches": 8580,
+      "maximum_page_patches": 8580
+    },
+    {
+      "pdf": "enrichment/corpus/TARAMA/raw/acquired-2026-10-05/tarama-vol-3.pdf",
+      "pages": 381,
+      "patches_32px": 3268980,
+      "minimum_page_patches": 8580,
+      "maximum_page_patches": 8580
+    },
+    {
+      "pdf": "enrichment/corpus/TARAMA/raw/acquired-2026-10-05/tarama-vol-4.pdf",
+      "pages": 388,
+      "patches_32px": 3329040,
+      "minimum_page_patches": 8580,
+      "maximum_page_patches": 8580
+    },
+    {
+      "pdf": "enrichment/corpus/TARAMA/raw/acquired-2026-10-05/tarama-vol-5.pdf",
+      "pages": 491,
+      "patches_32px": 4212780,
+      "minimum_page_patches": 8580,
+      "maximum_page_patches": 8580
+    },
+    {
+      "pdf": "enrichment/corpus/TARAMA/raw/acquired-2026-10-05/tarama-vol-6.pdf",
+      "pages": 472,
+      "patches_32px": 4049760,
+      "minimum_page_patches": 8580,
+      "maximum_page_patches": 8580
+    },
+    {
+      "pdf": "enrichment/corpus/TARAMA/raw/acquired-2026-10-05/tarama-vol-7.pdf",
+      "pages": 153,
+      "patches_32px": 1312740,
+      "minimum_page_patches": 8580,
+      "maximum_page_patches": 8580
+    },
+    {
+      "pdf": "enrichment/corpus/TARAMA/raw/acquired-2026-10-05/tarama-vol-8.pdf",
+      "pages": 214,
+      "patches_32px": 1836120,
+      "minimum_page_patches": 8580,
+      "maximum_page_patches": 8580
+    },
+    {
+      "pdf": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-3.pdf",
+      "pages": 691,
+      "patches_32px": 5749120,
+      "minimum_page_patches": 8320,
+      "maximum_page_patches": 8320
+    },
+    {
+      "pdf": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-4.pdf",
+      "pages": 719,
+      "patches_32px": 5982080,
+      "minimum_page_patches": 8320,
+      "maximum_page_patches": 8320
+    },
+    {
+      "pdf": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-5.pdf",
+      "pages": 745,
+      "patches_32px": 6198400,
+      "minimum_page_patches": 8320,
+      "maximum_page_patches": 8320
+    },
+    {
+      "pdf": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-6.pdf",
+      "pages": 459,
+      "patches_32px": 3818880,
+      "minimum_page_patches": 8320,
+      "maximum_page_patches": 8320
+    },
+    {
+      "pdf": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-7.pdf",
+      "pages": 646,
+      "patches_32px": 5374720,
+      "minimum_page_patches": 8320,
+      "maximum_page_patches": 8320
+    },
+    {
+      "pdf": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-8.pdf",
+      "pages": 640,
+      "patches_32px": 5324800,
+      "minimum_page_patches": 8320,
+      "maximum_page_patches": 8320
+    },
+    {
+      "pdf": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-9.pdf",
+      "pages": 616,
+      "patches_32px": 4657784,
+      "minimum_page_patches": 6144,
+      "maximum_page_patches": 8360
+    }
+  ]
+}

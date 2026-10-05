@@ -1,0 +1,474 @@
+{
+  "date": "2026-10-05",
+  "method": "Strict normalized word Levenshtein alignment of Sol and existing same-scan Archive Tesseract XML. Reference evaluation is a separate semiglobal alignment. Harakat/punctuation/spelling normalization matches prior pilots.",
+  "manifest_sha256": "c7fb6f90e6d31e9b3d16f3e4d12187bc504f7114fb1e794d6dc9d7bb64d415cc",
+  "reference_sha256": "6ef7d5fb81a96c5b5d9e28c16bc24bca8ab5698ea68a9284b724eda74c83f23f",
+  "pages": [
+    {
+      "page_id": "page-01",
+      "source": "BINTSHATI",
+      "pdf_page": 50,
+      "sol_sha256": "221a79d7632c6d40c30ed8c3cabe4784ede83b12b7f9eccb253919ec9d35cf1b",
+      "tesseract_xml_sha256": "99a202b8ca8a361b25811f3321a71c0973a6524576f09f50a78753562dc7da7f",
+      "sol_tokens": 267,
+      "tesseract_tokens": 269,
+      "flagged_sol_tokens": 100,
+      "flagged_sol_token_fraction": 0.37453183520599254,
+      "additional_flagged_gaps": 9,
+      "tesseract_lines": 26,
+      "alerted_lines_with_adjacent_omission_fallback": 26,
+      "unvocalized_word_alignment_distance": 110
+    },
+    {
+      "page_id": "page-02",
+      "source": "BINTSHATI",
+      "pdf_page": 100,
+      "sol_sha256": "d85000989d39a80cf45daeeaebdd60645a0f637b2ea4d34e053a590df59ddba5",
+      "tesseract_xml_sha256": "99a202b8ca8a361b25811f3321a71c0973a6524576f09f50a78753562dc7da7f",
+      "sol_tokens": 61,
+      "tesseract_tokens": 71,
+      "flagged_sol_tokens": 22,
+      "flagged_sol_token_fraction": 0.36065573770491804,
+      "additional_flagged_gaps": 3,
+      "tesseract_lines": 8,
+      "alerted_lines_with_adjacent_omission_fallback": 8,
+      "unvocalized_word_alignment_distance": 38
+    },
+    {
+      "page_id": "page-03",
+      "source": "BINTSHATI",
+      "pdf_page": 49,
+      "sol_sha256": "bdeed39c99db771026205d3d2d79808c9c80707453a89e790ce985f78da2002b",
+      "tesseract_xml_sha256": "cd639dd28ff464e3bf1f3fcfb89b1355bf9551d37965a58223c71be58a48595f",
+      "sol_tokens": 219,
+      "tesseract_tokens": 227,
+      "flagged_sol_tokens": 53,
+      "flagged_sol_token_fraction": 0.2420091324200913,
+      "additional_flagged_gaps": 8,
+      "tesseract_lines": 26,
+      "alerted_lines_with_adjacent_omission_fallback": 24,
+      "unvocalized_word_alignment_distance": 66
+    },
+    {
+      "page_id": "page-04",
+      "source": "BINTSHATI",
+      "pdf_page": 98,
+      "sol_sha256": "8acc9c8209ee35b6d06dd2fd5c0efd12d7f8f0719fb266871d1413d729d41f32",
+      "tesseract_xml_sha256": "cd639dd28ff464e3bf1f3fcfb89b1355bf9551d37965a58223c71be58a48595f",
+      "sol_tokens": 197,
+      "tesseract_tokens": 200,
+      "flagged_sol_tokens": 75,
+      "flagged_sol_token_fraction": 0.38071065989847713,
+      "additional_flagged_gaps": 6,
+      "tesseract_lines": 26,
+      "alerted_lines_with_adjacent_omission_fallback": 23,
+      "unvocalized_word_alignment_distance": 81
+    },
+    {
+      "page_id": "page-05",
+      "source": "KHULI",
+      "pdf_page": 92,
+      "sol_sha256": "955293b079ac18d5bb23184cd09128836a529a19c6d34f756f18b7d44584dfc2",
+      "tesseract_xml_sha256": "749ff656c6b0918b63c700b29aba24dbee0e6373ceda8ffc6ba1addb0039819a",
+      "sol_tokens": 279,
+      "tesseract_tokens": 282,
+      "flagged_sol_tokens": 121,
+      "flagged_sol_token_fraction": 0.4336917562724014,
+      "additional_flagged_gaps": 12,
+      "tesseract_lines": 25,
+      "alerted_lines_with_adjacent_omission_fallback": 25,
+      "unvocalized_word_alignment_distance": 133
+    },
+    {
+      "page_id": "page-06",
+      "source": "KHULI",
+      "pdf_page": 100,
+      "sol_sha256": "16e72dcdde4c2141d6f161c63f92681df1fa2005417139245ed204a04ae682eb",
+      "tesseract_xml_sha256": "749ff656c6b0918b63c700b29aba24dbee0e6373ceda8ffc6ba1addb0039819a",
+      "sol_tokens": 263,
+      "tesseract_tokens": 268,
+      "flagged_sol_tokens": 125,
+      "flagged_sol_token_fraction": 0.4752851711026616,
+      "additional_flagged_gaps": 10,
+      "tesseract_lines": 24,
+      "alerted_lines_with_adjacent_omission_fallback": 24,
+      "unvocalized_word_alignment_distance": 138
+    }
+  ],
+  "diagnostics": [
+    {
+      "reference_id": "b1-p50-prose",
+      "page_id": "page-01",
+      "source": "BINTSHATI",
+      "reference_words": 65,
+      "sol_errors": 3,
+      "directly_flagged_errors": 2,
+      "errors_flagged_with_adjacent_context": 3,
+      "correct_sol_tokens": 62,
+      "correct_sol_tokens_directly_flagged": 20,
+      "errors": [
+        {
+          "op": "substitute",
+          "a": 20,
+          "b": 107,
+          "a_text": "الثري",
+          "b_text": "المثري",
+          "direct_disagreement_flag": true,
+          "flag_with_adjacent_gap_or_token": true
+        },
+        {
+          "op": "delete",
+          "a": 33,
+          "b": null,
+          "b_gap": 120,
+          "a_text": "135",
+          "b_text": "",
+          "direct_disagreement_flag": false,
+          "flag_with_adjacent_gap_or_token": true
+        },
+        {
+          "op": "substitute",
+          "a": 52,
+          "b": 138,
+          "a_text": "المبعث",
+          "b_text": "البعث",
+          "direct_disagreement_flag": true,
+          "flag_with_adjacent_gap_or_token": true
+        }
+      ]
+    },
+    {
+      "reference_id": "b1-p100-full",
+      "page_id": "page-02",
+      "source": "BINTSHATI",
+      "reference_words": 60,
+      "sol_errors": 2,
+      "directly_flagged_errors": 2,
+      "errors_flagged_with_adjacent_context": 2,
+      "correct_sol_tokens": 58,
+      "correct_sol_tokens_directly_flagged": 19,
+      "errors": [
+        {
+          "op": "substitute",
+          "a": 15,
+          "b": 16,
+          "a_text": "قبلهما",
+          "b_text": "قبلها",
+          "direct_disagreement_flag": true,
+          "flag_with_adjacent_gap_or_token": true
+        },
+        {
+          "op": "substitute",
+          "a": 34,
+          "b": 35,
+          "a_text": "يغادر",
+          "b_text": "تغادر",
+          "direct_disagreement_flag": true,
+          "flag_with_adjacent_gap_or_token": true
+        }
+      ]
+    },
+    {
+      "reference_id": "b2-p49-interpretation",
+      "page_id": "page-03",
+      "source": "BINTSHATI",
+      "reference_words": 25,
+      "sol_errors": 0,
+      "directly_flagged_errors": 0,
+      "errors_flagged_with_adjacent_context": 0,
+      "correct_sol_tokens": 25,
+      "correct_sol_tokens_directly_flagged": 12,
+      "errors": []
+    },
+    {
+      "reference_id": "b2-p49-attribution",
+      "page_id": "page-03",
+      "source": "BINTSHATI",
+      "reference_words": 28,
+      "sol_errors": 0,
+      "directly_flagged_errors": 0,
+      "errors_flagged_with_adjacent_context": 0,
+      "correct_sol_tokens": 28,
+      "correct_sol_tokens_directly_flagged": 3,
+      "errors": []
+    },
+    {
+      "reference_id": "b2-p98-definition",
+      "page_id": "page-04",
+      "source": "BINTSHATI",
+      "reference_words": 56,
+      "sol_errors": 3,
+      "directly_flagged_errors": 2,
+      "errors_flagged_with_adjacent_context": 3,
+      "correct_sol_tokens": 53,
+      "correct_sol_tokens_directly_flagged": 10,
+      "errors": [
+        {
+          "op": "delete",
+          "a": 11,
+          "b": null,
+          "b_gap": 18,
+          "a_text": "وبثوبه",
+          "b_text": "",
+          "direct_disagreement_flag": false,
+          "flag_with_adjacent_gap_or_token": true
+        },
+        {
+          "op": "substitute",
+          "a": 12,
+          "b": 18,
+          "a_text": "تغطي",
+          "b_text": "وتغطي",
+          "direct_disagreement_flag": true,
+          "flag_with_adjacent_gap_or_token": true
+        },
+        {
+          "op": "substitute",
+          "a": 36,
+          "b": 42,
+          "a_text": "عليهما",
+          "b_text": "عليها",
+          "direct_disagreement_flag": true,
+          "flag_with_adjacent_gap_or_token": true
+        }
+      ]
+    },
+    {
+      "reference_id": "khuli-p92-opening",
+      "page_id": "page-05",
+      "source": "KHULI",
+      "reference_words": 134,
+      "sol_errors": 14,
+      "directly_flagged_errors": 13,
+      "errors_flagged_with_adjacent_context": 14,
+      "correct_sol_tokens": 121,
+      "correct_sol_tokens_directly_flagged": 43,
+      "errors": [
+        {
+          "op": "substitute",
+          "a": 2,
+          "b": 3,
+          "a_text": "عبور",
+          "b_text": "عصره",
+          "direct_disagreement_flag": true,
+          "flag_with_adjacent_gap_or_token": true
+        },
+        {
+          "op": "substitute",
+          "a": 3,
+          "b": 4,
+          "a_text": "الأجيال",
+          "b_text": "والأجيال",
+          "direct_disagreement_flag": true,
+          "flag_with_adjacent_gap_or_token": true
+        },
+        {
+          "op": "substitute",
+          "a": 8,
+          "b": 9,
+          "a_text": "يفتح",
+          "b_text": "بعض",
+          "direct_disagreement_flag": true,
+          "flag_with_adjacent_gap_or_token": true
+        },
+        {
+          "op": "substitute",
+          "a": 9,
+          "b": 10,
+          "a_text": "إغلاقه",
+          "b_text": "أغلاقه",
+          "direct_disagreement_flag": true,
+          "flag_with_adjacent_gap_or_token": true
+        },
+        {
+          "op": "substitute",
+          "a": 10,
+          "b": 11,
+          "a_text": "ويدل",
+          "b_text": "ودليل",
+          "direct_disagreement_flag": true,
+          "flag_with_adjacent_gap_or_token": true
+        },
+        {
+          "op": "substitute",
+          "a": 31,
+          "b": 32,
+          "a_text": "نواة",
+          "b_text": "إذا",
+          "direct_disagreement_flag": true,
+          "flag_with_adjacent_gap_or_token": true
+        },
+        {
+          "op": "insert",
+          "a": null,
+          "b": 51,
+          "a_gap": 50,
+          "a_text": "",
+          "b_text": "من",
+          "direct_disagreement_flag": true,
+          "flag_with_adjacent_gap_or_token": true
+        },
+        {
+          "op": "substitute",
+          "a": 50,
+          "b": 52,
+          "a_text": "مؤلفه",
+          "b_text": "أنه",
+          "direct_disagreement_flag": true,
+          "flag_with_adjacent_gap_or_token": true
+        },
+        {
+          "op": "substitute",
+          "a": 103,
+          "b": 105,
+          "a_text": "المقبلين",
+          "b_text": "القائمين",
+          "direct_disagreement_flag": true,
+          "flag_with_adjacent_gap_or_token": true
+        },
+        {
+          "op": "substitute",
+          "a": 112,
+          "b": 114,
+          "a_text": "وللإقبال",
+          "b_text": "والإقبال",
+          "direct_disagreement_flag": true,
+          "flag_with_adjacent_gap_or_token": true
+        },
+        {
+          "op": "delete",
+          "a": 120,
+          "b": null,
+          "b_gap": 122,
+          "a_text": "كما",
+          "b_text": "",
+          "direct_disagreement_flag": false,
+          "flag_with_adjacent_gap_or_token": true
+        },
+        {
+          "op": "substitute",
+          "a": 121,
+          "b": 122,
+          "a_text": "أن",
+          "b_text": "كأن",
+          "direct_disagreement_flag": true,
+          "flag_with_adjacent_gap_or_token": true
+        },
+        {
+          "op": "substitute",
+          "a": 122,
+          "b": 123,
+          "a_text": "فهم",
+          "b_text": "لهم",
+          "direct_disagreement_flag": true,
+          "flag_with_adjacent_gap_or_token": true
+        },
+        {
+          "op": "substitute",
+          "a": 124,
+          "b": 125,
+          "a_text": "عمله",
+          "b_text": "عملا",
+          "direct_disagreement_flag": true,
+          "flag_with_adjacent_gap_or_token": true
+        }
+      ]
+    },
+    {
+      "reference_id": "khuli-p100-opening",
+      "page_id": "page-06",
+      "source": "KHULI",
+      "reference_words": 28,
+      "sol_errors": 1,
+      "directly_flagged_errors": 1,
+      "errors_flagged_with_adjacent_context": 1,
+      "correct_sol_tokens": 27,
+      "correct_sol_tokens_directly_flagged": 9,
+      "errors": [
+        {
+          "op": "substitute",
+          "a": 26,
+          "b": 27,
+          "a_text": "وتعاجز",
+          "b_text": "وتناجز",
+          "direct_disagreement_flag": true,
+          "flag_with_adjacent_gap_or_token": true
+        }
+      ]
+    },
+    {
+      "reference_id": "khuli-p100-lower",
+      "page_id": "page-06",
+      "source": "KHULI",
+      "reference_words": 44,
+      "sol_errors": 4,
+      "directly_flagged_errors": 4,
+      "errors_flagged_with_adjacent_context": 4,
+      "correct_sol_tokens": 40,
+      "correct_sol_tokens_directly_flagged": 16,
+      "errors": [
+        {
+          "op": "substitute",
+          "a": 4,
+          "b": 218,
+          "a_text": "رضه",
+          "b_text": "رضي",
+          "direct_disagreement_flag": true,
+          "flag_with_adjacent_gap_or_token": true
+        },
+        {
+          "op": "substitute",
+          "a": 30,
+          "b": 244,
+          "a_text": "تؤيد",
+          "b_text": "تزيد",
+          "direct_disagreement_flag": true,
+          "flag_with_adjacent_gap_or_token": true
+        },
+        {
+          "op": "substitute",
+          "a": 32,
+          "b": 246,
+          "a_text": "أسلفنا",
+          "b_text": "أسلفناه",
+          "direct_disagreement_flag": true,
+          "flag_with_adjacent_gap_or_token": true
+        },
+        {
+          "op": "substitute",
+          "a": 34,
+          "b": 248,
+          "a_text": "المنزع",
+          "b_text": "النزوع",
+          "direct_disagreement_flag": true,
+          "flag_with_adjacent_gap_or_token": true
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "BINTSHATI": {
+      "reference_words": 234,
+      "sol_errors": 8,
+      "directly_flagged_errors": 6,
+      "errors_flagged_with_adjacent_context": 8,
+      "correct_sol_tokens": 226,
+      "correct_sol_tokens_directly_flagged": 64,
+      "direct_error_recall": 0.75,
+      "correct_token_flag_rate": 0.2831858407079646
+    },
+    "KHULI": {
+      "reference_words": 206,
+      "sol_errors": 19,
+      "directly_flagged_errors": 18,
+      "errors_flagged_with_adjacent_context": 19,
+      "correct_sol_tokens": 188,
+      "correct_sol_tokens_directly_flagged": 68,
+      "direct_error_recall": 0.9473684210526315,
+      "correct_token_flag_rate": 0.3617021276595745
+    }
+  },
+  "raw_alignment_path": "enrichment/corpus/KHULI/raw/ocr-candidates/followup-2026-10-05/witness-alignments.json",
+  "raw_alignment_sha256": "967045d2aec126d0cc5d9ae99d77f6e9e5b3a16ddbf2fad34ceaa696f436b699",
+  "limits": "Six pages comprise four Bint and two Khuli rhetoric pages, not six Khuli pages or a tafsir sample. Error operations/alignments are diagnostic; matching mistakes and joint omissions can escape, and diacritics are excluded. Disagreement proposes review, never automatic replacement. No fresh model/crop re-reading is performed by this script."
+}

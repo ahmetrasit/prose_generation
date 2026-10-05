@@ -1,0 +1,189 @@
+{
+  "date": "2026-10-05",
+  "source": "KHULI",
+  "pdf": "enrichment/corpus/KHULI/raw/acquired-2026-10-05/khuli-manahij-tajdid-1961.pdf",
+  "pdf_sha256": "d1b79b4dddd2059abdc2f84212a4df8ffaa0a8f9b5c8ad745676f5d6e12b0021",
+  "pdf_pages": 368,
+  "edition": "Dar al-Marifa, first edition, September 1961; title/imprint visually checked at PDF3-4.",
+  "locators": "One-based PDF pages are canonical. Body printed page = PDF page - 2 at checked anchors. Do not assign printed numbers to unnumbered title/blank pages.",
+  "status": "Planning and boundary verification only; no transcription accepted or production queue executed.",
+  "batches": [
+    {
+      "priority": 1,
+      "name": "Tafsir with title, reverse and references",
+      "pdf_start": 271,
+      "pdf_end": 320,
+      "pages": 50,
+      "body_pdf_start": 273,
+      "body_pdf_end": 320,
+      "body_pages": 48,
+      "printed_body_start": 271,
+      "printed_body_end": 318,
+      "verified_blank_pdf_pages": [
+        272
+      ],
+      "recommended_internal_order": [
+        {
+          "pdf_start": 304,
+          "pdf_end": 320,
+          "pages": 17,
+          "reason": "Present-day method, literary method and references; start here for immediate enrichment relevance."
+        },
+        {
+          "pdf_start": 271,
+          "pdf_end": 303,
+          "pages": 33,
+          "reason": "Complete the section, preserving historical context, title/footnote and blank reverse."
+        }
+      ]
+    },
+    {
+      "priority": 2,
+      "name": "Psychological ijaz and Quran interpretation within rhetoric",
+      "pdf_start": 201,
+      "pdf_end": 217,
+      "pages": 17,
+      "printed_start": 199,
+      "printed_end": 215,
+      "note": "Includes contextual text above first heading and continuation after printed213; preserve complete PDF pages. This is a relevant cluster, not an exhaustive inventory of Quran material outside tafsir."
+    },
+    {
+      "priority": 3,
+      "name": "All remaining book pages",
+      "ranges": [
+        {
+          "pdf_start": 1,
+          "pdf_end": 200
+        },
+        {
+          "pdf_start": 218,
+          "pdf_end": 270
+        },
+        {
+          "pdf_start": 321,
+          "pdf_end": 368
+        }
+      ],
+      "pages": 301,
+      "note": "Retain the full 368-page objective; other relevant material includes later artistic ijaz (contents printed330)."
+    }
+  ],
+  "first_batch_fraction": 0.1358695652173913,
+  "deferred_first_batch_fraction": 0.8641304347826086,
+  "render_recipe": {
+    "engine": "pypdfium2",
+    "scale": "min(2, 2600 / max(page.get_size()))",
+    "operations": "PDF rendering only; no contrast/denoise/deskew",
+    "image_detail": "original"
+  },
+  "visual_observations": [
+    {
+      "pdf_page": 3,
+      "observation": "Title/author/publisher: Dar al-Marifa.",
+      "image": "enrichment/corpus/KHULI/raw/ocr-candidates/followup-2026-10-05/images/p0003.png",
+      "image_sha256": "5bdf29ba089c75fd01f4dbd99949a520ba1732d57dcbd373c12b1152bd16a9f8"
+    },
+    {
+      "pdf_page": 4,
+      "observation": "First edition, September 1961.",
+      "image": "enrichment/corpus/KHULI/raw/ocr-candidates/followup-2026-10-05/images/p0004.png",
+      "image_sha256": "fcf03edb9eece5a66d277f71496c363cd69bb49c7f8e9c9c880a54d263fba040"
+    },
+    {
+      "pdf_page": 6,
+      "observation": "Contents: rhetoric and psychological ijaz subsections.",
+      "image": "enrichment/corpus/KHULI/raw/ocr-candidates/followup-2026-10-05/images/p0006.png",
+      "image_sha256": "6dca3cfc8741417ac3bf948d2593f66e76bd0900f892cffb084e52472a343914"
+    },
+    {
+      "pdf_page": 7,
+      "observation": "Contents: psychological tafsir, main tafsir and its subsections.",
+      "image": "enrichment/corpus/KHULI/raw/ocr-candidates/followup-2026-10-05/images/p0007.png",
+      "image_sha256": "42121a82ef3a7200dbc8a927fa13e6c22240b2083803ec3c270e1ee012a0fb7d"
+    },
+    {
+      "pdf_page": 8,
+      "observation": "Contents: later literary psychology includes artistic ijaz.",
+      "image": "enrichment/corpus/KHULI/raw/ocr-candidates/followup-2026-10-05/images/p0008.png",
+      "image_sha256": "4f62f59d70a39cabd30a48637d5199be40781e886f2de46502cb1f823b3bc1cb"
+    },
+    {
+      "pdf_page": 201,
+      "observation": "Printed199: al-ijaz al-nafsi begins mid-page; earlier context above.",
+      "image": "enrichment/corpus/KHULI/raw/ocr-candidates/followup-2026-10-05/images/p0201.png",
+      "image_sha256": "14b22c05e6f723adcda3e56d7fc6d5ed30b991fb9b265150ed0b995f98e7c5fb"
+    },
+    {
+      "pdf_page": 213,
+      "observation": "Printed211: al-tafsir al-nafsi lil-Quran heading.",
+      "image": "enrichment/corpus/KHULI/raw/ocr-candidates/followup-2026-10-05/images/p0213.png",
+      "image_sha256": "f02ee6d1ae4c63ab6465a9432f5985d8a07229c3ebca96580303ecef15f2898e"
+    },
+    {
+      "pdf_page": 216,
+      "observation": "Printed214: continued Quranic ijaz discussion, not end of relevant material.",
+      "image": "enrichment/corpus/KHULI/raw/ocr-candidates/followup-2026-10-05/images/p0216.png",
+      "image_sha256": "6943667439e071a239384859b4917be9d06df9bcdd055876857596964f920201"
+    },
+    {
+      "pdf_page": 217,
+      "observation": "Printed215: closing ijaz discussion.",
+      "image": "enrichment/corpus/KHULI/raw/ocr-candidates/followup-2026-10-05/images/p0217.png",
+      "image_sha256": "6eb3f1e8ac48b3f645d98894520ab7efba5ce5bd78bbe71bc275b05919140fef"
+    },
+    {
+      "pdf_page": 218,
+      "observation": "Visually blank section reverse.",
+      "image": "enrichment/corpus/KHULI/raw/ocr-candidates/followup-2026-10-05/images/p0218.png",
+      "image_sha256": "61abb62f18b8939ade84ea11cacfd0cb49bab8a07d2ac485802726cf5caba1ce"
+    },
+    {
+      "pdf_page": 219,
+      "observation": "New section title: Egypt in the history of rhetoric.",
+      "image": "enrichment/corpus/KHULI/raw/ocr-candidates/followup-2026-10-05/images/p0219.png",
+      "image_sha256": "089f42615c6917235e4921aee987c47b7582139c5636d90daa1503e29c31b21d"
+    },
+    {
+      "pdf_page": 271,
+      "observation": "Tafsir section title and footnote; unnumbered.",
+      "image": "enrichment/corpus/KHULI/raw/ocr-candidates/followup-2026-10-05/images/p0271.png",
+      "image_sha256": "f1acd72180ddb262d7688b815343866137a68a3345d177cb0294a39ecb785a8c"
+    },
+    {
+      "pdf_page": 272,
+      "observation": "Visually verified blank reverse of section title.",
+      "image": "enrichment/corpus/KHULI/raw/ocr-candidates/followup-2026-10-05/images/p0272.png",
+      "image_sha256": "61abb62f18b8939ade84ea11cacfd0cb49bab8a07d2ac485802726cf5caba1ce"
+    },
+    {
+      "pdf_page": 273,
+      "observation": "Printed271: tafsir main text begins.",
+      "image": "enrichment/corpus/KHULI/raw/ocr-candidates/followup-2026-10-05/images/p0273.png",
+      "image_sha256": "1cafc59c9ebe4605df51b0d011eb80363291950eda90937936d91a3fe88dc8af"
+    },
+    {
+      "pdf_page": 304,
+      "observation": "Printed302: al-tafsir al-yawm begins.",
+      "image": "enrichment/corpus/KHULI/raw/ocr-candidates/followup-2026-10-05/images/p0304.png",
+      "image_sha256": "a02b9e0709e4b7ae4f878620fe654bff76b3ffc7025af5618e051bd8ff1665e7"
+    },
+    {
+      "pdf_page": 309,
+      "observation": "Printed307: al-manhaj al-adabi fi al-tafsir begins mid-page; preserve preceding context.",
+      "image": "enrichment/corpus/KHULI/raw/ocr-candidates/followup-2026-10-05/images/p0309.png",
+      "image_sha256": "4804d342501d02d2fe3bf759656a96a941e8fb4a4ea79db663c201603569af58"
+    },
+    {
+      "pdf_page": 320,
+      "observation": "Printed318: references, final page of tafsir section.",
+      "image": "enrichment/corpus/KHULI/raw/ocr-candidates/followup-2026-10-05/images/p0320.png",
+      "image_sha256": "bfd56eaa6558353b172e3159a0dbc31563299421c4d90f90f03eddaaffce3cd6"
+    },
+    {
+      "pdf_page": 321,
+      "observation": "Next section title: literary psychology.",
+      "image": "enrichment/corpus/KHULI/raw/ocr-candidates/followup-2026-10-05/images/p0321.png",
+      "image_sha256": "238133719942348387aad49f273c69b4ad40e5c1baa85360712a6c24f3be8bcd"
+    }
+  ]
+}

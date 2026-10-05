@@ -1,0 +1,292 @@
+{
+  "date": "2026-10-05",
+  "model_requested": "gpt-6-sol",
+  "effort_override": null,
+  "design": "Six fresh isolated agents; eight fixed diagnostic windows from previously evaluated pages, with context. Blind rereading: no witness text, reference or inherited history. No upsampling, enhancement or new scan detail. Not an automatic repair pipeline or independent whole-page accuracy test.",
+  "image_detail": "original",
+  "reference_sha256": "6ef7d5fb81a96c5b5d9e28c16bc24bca8ab5698ea68a9284b724eda74c83f23f",
+  "source_manifest_sha256": "c7fb6f90e6d31e9b3d16f3e4d12187bc504f7114fb1e794d6dc9d7bb64d415cc",
+  "brief_sha256": "33fcdc2aa260a7acb1053a8b8a1a341bb572a5f72cc852726dc6dc76ffd2c2b4",
+  "pages": [
+    {
+      "page_id": "page-01",
+      "source": "BINTSHATI",
+      "pdf_page": 50,
+      "source_image": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-1/images/p0050.png",
+      "source_image_sha256": "72c9c1c539920aee14eb071c74c88ec6687a055751f227271321bf75d8efa5fe",
+      "crops": [
+        {
+          "id": "page-01-middle",
+          "reference_ids": [
+            "b1-p50-prose"
+          ],
+          "image": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-1/p0050-middle.png",
+          "image_sha256": "078b5195f457d920e637b2a95b169e683640eb8d35ab027bc4e359e3cb962952",
+          "xml_box_xyxy": [
+            200,
+            1080,
+            1670,
+            1860
+          ],
+          "raster_box_xyxy": [
+            277,
+            1496,
+            2314,
+            2577
+          ],
+          "pixels": [
+            2037,
+            1081
+          ],
+          "output": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-1/p0050-middle.txt",
+          "review": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-1/p0050-middle.review.json"
+        }
+      ],
+      "assignment": "enrichment/v2/audits/2026-10-05-ocr-reliability/khuli-followup/crop-page-01.json",
+      "assignment_sha256": "d5da304adc781fa1c09c24ab1a63f70cc32aa59e64aa224925a0b3a602d5cf73",
+      "agent_path": "/root/ocr_crop_page_01"
+    },
+    {
+      "page_id": "page-02",
+      "source": "BINTSHATI",
+      "pdf_page": 100,
+      "source_image": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-1/images/p0100.png",
+      "source_image_sha256": "f4ae119310a4c24dda9a297f72c6a2b83f34543dd1f557db9bd6c57c0db8c09b",
+      "crops": [
+        {
+          "id": "page-02-body",
+          "reference_ids": [
+            "b1-p100-full"
+          ],
+          "image": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-1/p0100-body.png",
+          "image_sha256": "134eb4dda4bebb5e58a6280dcceb350bbfb2ae823e3217b31127d2d48481fc5a",
+          "xml_box_xyxy": [
+            130,
+            105,
+            1550,
+            710
+          ],
+          "raster_box_xyxy": [
+            180,
+            145,
+            2148,
+            984
+          ],
+          "pixels": [
+            1968,
+            839
+          ],
+          "output": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-1/p0100-body.txt",
+          "review": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-1/p0100-body.review.json"
+        }
+      ],
+      "assignment": "enrichment/v2/audits/2026-10-05-ocr-reliability/khuli-followup/crop-page-02.json",
+      "assignment_sha256": "b39322179a36f5fb0fbc7d55d068aeb9521e5edb3396a53dfa803aa0463095e7",
+      "agent_path": "/root/ocr_crop_page_02"
+    },
+    {
+      "page_id": "page-03",
+      "source": "BINTSHATI",
+      "pdf_page": 49,
+      "source_image": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-2/images/p0049.png",
+      "source_image_sha256": "aeef452e9e268419a62080a91aff538bc235d69065b465f74b63dd67efa842c1",
+      "crops": [
+        {
+          "id": "page-03-middle",
+          "reference_ids": [
+            "b2-p49-interpretation"
+          ],
+          "image": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-2/p0049-middle.png",
+          "image_sha256": "35763d03b83b25f06973a773cfaac8d2e48bbf733f71588f339827c142d705a0",
+          "xml_box_xyxy": [
+            180,
+            740,
+            1480,
+            1200
+          ],
+          "raster_box_xyxy": [
+            249,
+            1025,
+            2051,
+            1663
+          ],
+          "pixels": [
+            1802,
+            638
+          ],
+          "output": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-2/p0049-middle.txt",
+          "review": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-2/p0049-middle.review.json"
+        },
+        {
+          "id": "page-03-lower",
+          "reference_ids": [
+            "b2-p49-attribution"
+          ],
+          "image": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-2/p0049-lower.png",
+          "image_sha256": "95b53299fabe32153d61b917141aac8b194a2df1c1676c97babc1d71916f61d7",
+          "xml_box_xyxy": [
+            170,
+            1890,
+            1510,
+            2370
+          ],
+          "raster_box_xyxy": [
+            236,
+            2619,
+            2093,
+            3284
+          ],
+          "pixels": [
+            1857,
+            665
+          ],
+          "output": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-2/p0049-lower.txt",
+          "review": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-2/p0049-lower.review.json"
+        }
+      ],
+      "assignment": "enrichment/v2/audits/2026-10-05-ocr-reliability/khuli-followup/crop-page-03.json",
+      "assignment_sha256": "5e55824ce400775af758840a803586abadb9fb92b11779db46af9c7789ca19d2",
+      "agent_path": "/root/ocr_crop_page_03"
+    },
+    {
+      "page_id": "page-04",
+      "source": "BINTSHATI",
+      "pdf_page": 98,
+      "source_image": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-2/images/p0098.png",
+      "source_image_sha256": "4231be68b7079879ba01ce814017b142fe88eaa9d5693f7316d00ee03921a0ea",
+      "crops": [
+        {
+          "id": "page-04-upper",
+          "reference_ids": [
+            "b2-p98-definition"
+          ],
+          "image": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-2/p0098-upper.png",
+          "image_sha256": "b0c7ffcae2271837e2af59216c461b690b65b9a4926bdca33e4facd5e0ab96e9",
+          "xml_box_xyxy": [
+            340,
+            180,
+            1700,
+            880
+          ],
+          "raster_box_xyxy": [
+            471,
+            249,
+            2356,
+            1219
+          ],
+          "pixels": [
+            1885,
+            970
+          ],
+          "output": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-2/p0098-upper.txt",
+          "review": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/crop-pilot-2026-10-05/bintshati-vol-2/p0098-upper.review.json"
+        }
+      ],
+      "assignment": "enrichment/v2/audits/2026-10-05-ocr-reliability/khuli-followup/crop-page-04.json",
+      "assignment_sha256": "e0c4d67051773fbbe6af059a10d0ceba973e79f6fecb0d7fc93de1e306882f9e",
+      "agent_path": "/root/ocr_crop_page_04"
+    },
+    {
+      "page_id": "page-05",
+      "source": "KHULI",
+      "pdf_page": 92,
+      "source_image": "enrichment/corpus/KHULI/raw/ocr-candidates/luna-pilot-2026-10-05/khuli-manahij-tajdid-1961/images/p0092.png",
+      "source_image_sha256": "8f4f1da9d0a07b91e36b1217fc7ac98a397d1e83b76d49fdae76dfef0d9b756c",
+      "crops": [
+        {
+          "id": "page-05-upper",
+          "reference_ids": [
+            "khuli-p92-opening"
+          ],
+          "image": "enrichment/corpus/KHULI/raw/ocr-candidates/crop-pilot-2026-10-05/khuli-manahij-tajdid-1961/p0092-upper.png",
+          "image_sha256": "264a4db158bac77b79f595569387e62f8df6046d8615ea9c4868a84d5af8f680",
+          "xml_box_xyxy": [
+            180,
+            310,
+            1600,
+            1620
+          ],
+          "raster_box_xyxy": [
+            225,
+            388,
+            2000,
+            2025
+          ],
+          "pixels": [
+            1775,
+            1637
+          ],
+          "output": "enrichment/corpus/KHULI/raw/ocr-candidates/crop-pilot-2026-10-05/khuli-manahij-tajdid-1961/p0092-upper.txt",
+          "review": "enrichment/corpus/KHULI/raw/ocr-candidates/crop-pilot-2026-10-05/khuli-manahij-tajdid-1961/p0092-upper.review.json"
+        }
+      ],
+      "assignment": "enrichment/v2/audits/2026-10-05-ocr-reliability/khuli-followup/crop-page-05.json",
+      "assignment_sha256": "085b89a1a308833e69c2ee59bbceb1b64b9b01e1757aab75a7e58d5605ee2bbd",
+      "agent_path": "/root/ocr_crop_page_05"
+    },
+    {
+      "page_id": "page-06",
+      "source": "KHULI",
+      "pdf_page": 100,
+      "source_image": "enrichment/corpus/KHULI/raw/ocr-candidates/luna-pilot-2026-10-05/khuli-manahij-tajdid-1961/images/p0100.png",
+      "source_image_sha256": "d751532a0b824d87bf74c621d4781680701a74de85ed016f32b72b7f63078f5e",
+      "crops": [
+        {
+          "id": "page-06-upper",
+          "reference_ids": [
+            "khuli-p100-opening"
+          ],
+          "image": "enrichment/corpus/KHULI/raw/ocr-candidates/crop-pilot-2026-10-05/khuli-manahij-tajdid-1961/p0100-upper.png",
+          "image_sha256": "49291105964efe7c07bbdd8cd54755df04bad8eccd6f5ff128835042cd93d009",
+          "xml_box_xyxy": [
+            140,
+            310,
+            1580,
+            815
+          ],
+          "raster_box_xyxy": [
+            175,
+            388,
+            1975,
+            1019
+          ],
+          "pixels": [
+            1800,
+            631
+          ],
+          "output": "enrichment/corpus/KHULI/raw/ocr-candidates/crop-pilot-2026-10-05/khuli-manahij-tajdid-1961/p0100-upper.txt",
+          "review": "enrichment/corpus/KHULI/raw/ocr-candidates/crop-pilot-2026-10-05/khuli-manahij-tajdid-1961/p0100-upper.review.json"
+        },
+        {
+          "id": "page-06-lower",
+          "reference_ids": [
+            "khuli-p100-lower"
+          ],
+          "image": "enrichment/corpus/KHULI/raw/ocr-candidates/crop-pilot-2026-10-05/khuli-manahij-tajdid-1961/p0100-lower.png",
+          "image_sha256": "4a92c3327370a606bc766c59e5968e6984885b1cdcf297aa558e944d14d3e0c9",
+          "xml_box_xyxy": [
+            140,
+            2075,
+            1570,
+            2640
+          ],
+          "raster_box_xyxy": [
+            175,
+            2594,
+            1962,
+            3300
+          ],
+          "pixels": [
+            1787,
+            706
+          ],
+          "output": "enrichment/corpus/KHULI/raw/ocr-candidates/crop-pilot-2026-10-05/khuli-manahij-tajdid-1961/p0100-lower.txt",
+          "review": "enrichment/corpus/KHULI/raw/ocr-candidates/crop-pilot-2026-10-05/khuli-manahij-tajdid-1961/p0100-lower.review.json"
+        }
+      ],
+      "assignment": "enrichment/v2/audits/2026-10-05-ocr-reliability/khuli-followup/crop-page-06.json",
+      "assignment_sha256": "7373b9f76f8cb8355bb3878b118a08c3d59c3e5f98570bdd65ff35b6964c994a",
+      "agent_path": "/root/ocr_crop_page_06"
+    }
+  ]
+}

@@ -21,6 +21,14 @@ The rankings below count Unicode characters, not model tokens or billed input. T
 
 Independent SQL checks reproduce the totals for 1:1, 1:7, 2:196, 112:1 and 105:1. Ayah, surah and source aggregates reconcile. The main database's modification time did not change during the audit.
 
+Follow-up: the [source download batch](audits/2026-10-05-source-downloads/README.md) records the subsequently acquired originals and their validation. Raw acquisition is separate from ingestion; it does not change the indexed-text measurements in this audit.
+
+The subsequent [extraction/OCR reliability audit](audits/2026-10-05-ocr-reliability/README.md) records the full 12,026-page scope and importer contract. The [completed Luna low/medium pilot](audits/2026-10-05-ocr-reliability/luna-pilot/README.md) provides actual usage, priority quality findings and a 786-page Bint al-Shāṭiʾ/al-Khūlī token scenario. Both settings failed preservation checks. [Machine-readable source recommendations](audits/2026-10-05-ocr-reliability/luna-pilot/SOURCE_ALTERNATIVES.md) document a newly acquired structured Bint al-Shāṭiʾ export, its coverage gaps, and checked Internet Archive/OpenITI/Doha alternatives. No pilot draft has been accepted into the production corpus.
+
+The [subsequent Sol diagnostic and recommendations](audits/2026-10-05-ocr-reliability/sol-pilot/README.md) test six isolated priority pages. Sol improves normalized excerpt word error to 3.4% for Bint and 9.2% for al-Khūlī, while still losing printed details and changing wording. The report distinguishes measured improvements from the next proposed region/correction experiment, and records actual token usage and a source-specific priority projection.
+
+The [al-Khūlī follow-up](audits/2026-10-05-ocr-reliability/khuli-followup/README.md) checks VitalSource/Ktab and Hindawi, measures Sol/Tesseract disagreement, and tests fresh crop readings. Disagreement catches 18 of 19 known Khūlī excerpt errors but flags every sampled line; blind crop rereading worsens word error to 18.9%. The saved priority manifest selects PDF pages 271–320 for a 50-page tafsīr-first batch, followed by a 17-page Quran-focused rhetoric cluster, while retaining all 368 pages. Neither the paid ebook's usable text export nor the new Hindawi EPUB downloads is verified.
+
 **What the documents are, and what to do with their formats.**
 
 | Reference material | Current holdings and form | Useful change | Summary suitability |

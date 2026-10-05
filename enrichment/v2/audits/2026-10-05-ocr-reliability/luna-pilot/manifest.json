@@ -1,0 +1,653 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-05T14:32:22.899362+00:00",
+  "model": "gpt-6-luna",
+  "efforts": [
+    "low",
+    "medium"
+  ],
+  "design": "24 fixed pages, same render and brief; four pages per fresh agent; no inherited history or competing transcript; purposefully stratified, not a random accuracy sample",
+  "render": {
+    "engine": "pypdfium2",
+    "target_dpi": 300,
+    "longest_side_cap_px": 3500,
+    "image_detail": "original",
+    "full_page": true
+  },
+  "pages": [
+    {
+      "id": "page-01",
+      "batch": 1,
+      "source": "BINTSHATI",
+      "pdf": "enrichment/corpus/BINTSHATI/raw/acquired-2026-10-05/bintshati-vol-1.pdf",
+      "pdf_sha256": "f1c723e935f51e2bcd8f021170f08d15fc2a7a17f1bd4aee3fd3cb3a1804c244",
+      "pdf_page": 50,
+      "languages": [
+        "ar"
+      ],
+      "image": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-1/images/p0050.png",
+      "image_sha256": "72c9c1c539920aee14eb071c74c88ec6687a055751f227271321bf75d8efa5fe",
+      "image_pixels": [
+        2475,
+        3500
+      ],
+      "effective_dpi": 299.287,
+      "outputs": {
+        "low": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-1/low/p0050.txt",
+        "medium": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-1/medium/p0050.txt"
+      },
+      "review_notes": {
+        "low": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-1/low/p0050.review.json",
+        "medium": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-1/medium/p0050.review.json"
+      }
+    },
+    {
+      "id": "page-02",
+      "batch": 1,
+      "source": "BINTSHATI",
+      "pdf": "enrichment/corpus/BINTSHATI/raw/acquired-2026-10-05/bintshati-vol-1.pdf",
+      "pdf_sha256": "f1c723e935f51e2bcd8f021170f08d15fc2a7a17f1bd4aee3fd3cb3a1804c244",
+      "pdf_page": 100,
+      "languages": [
+        "ar"
+      ],
+      "image": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-1/images/p0100.png",
+      "image_sha256": "f4ae119310a4c24dda9a297f72c6a2b83f34543dd1f557db9bd6c57c0db8c09b",
+      "image_pixels": [
+        2475,
+        3500
+      ],
+      "effective_dpi": 299.287,
+      "outputs": {
+        "low": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-1/low/p0100.txt",
+        "medium": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-1/medium/p0100.txt"
+      },
+      "review_notes": {
+        "low": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-1/low/p0100.review.json",
+        "medium": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-1/medium/p0100.review.json"
+      }
+    },
+    {
+      "id": "page-03",
+      "batch": 1,
+      "source": "BINTSHATI",
+      "pdf": "enrichment/corpus/BINTSHATI/raw/acquired-2026-10-05/bintshati-vol-2.pdf",
+      "pdf_sha256": "e2db92da7181d583d4416ab3b15419e8cdc8b3efe7bb98e7b923a07230e0df84",
+      "pdf_page": 49,
+      "languages": [
+        "ar"
+      ],
+      "image": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-2/images/p0049.png",
+      "image_sha256": "aeef452e9e268419a62080a91aff538bc235d69065b465f74b63dd67efa842c1",
+      "image_pixels": [
+        2475,
+        3500
+      ],
+      "effective_dpi": 299.287,
+      "outputs": {
+        "low": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-2/low/p0049.txt",
+        "medium": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-2/medium/p0049.txt"
+      },
+      "review_notes": {
+        "low": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-2/low/p0049.review.json",
+        "medium": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-2/medium/p0049.review.json"
+      }
+    },
+    {
+      "id": "page-04",
+      "batch": 1,
+      "source": "BINTSHATI",
+      "pdf": "enrichment/corpus/BINTSHATI/raw/acquired-2026-10-05/bintshati-vol-2.pdf",
+      "pdf_sha256": "e2db92da7181d583d4416ab3b15419e8cdc8b3efe7bb98e7b923a07230e0df84",
+      "pdf_page": 98,
+      "languages": [
+        "ar"
+      ],
+      "image": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-2/images/p0098.png",
+      "image_sha256": "4231be68b7079879ba01ce814017b142fe88eaa9d5693f7316d00ee03921a0ea",
+      "image_pixels": [
+        2475,
+        3500
+      ],
+      "effective_dpi": 299.287,
+      "outputs": {
+        "low": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-2/low/p0098.txt",
+        "medium": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-2/medium/p0098.txt"
+      },
+      "review_notes": {
+        "low": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-2/low/p0098.review.json",
+        "medium": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-2/medium/p0098.review.json"
+      }
+    },
+    {
+      "id": "page-05",
+      "batch": 2,
+      "source": "KHULI",
+      "pdf": "enrichment/corpus/KHULI/raw/acquired-2026-10-05/khuli-manahij-tajdid-1961.pdf",
+      "pdf_sha256": "d1b79b4dddd2059abdc2f84212a4df8ffaa0a8f9b5c8ad745676f5d6e12b0021",
+      "pdf_page": 92,
+      "languages": [
+        "ar"
+      ],
+      "image": "enrichment/corpus/KHULI/raw/ocr-candidates/luna-pilot-2026-10-05/khuli-manahij-tajdid-1961/images/p0092.png",
+      "image_sha256": "8f4f1da9d0a07b91e36b1217fc7ac98a397d1e83b76d49fdae76dfef0d9b756c",
+      "image_pixels": [
+        2250,
+        3500
+      ],
+      "effective_dpi": 120.0,
+      "outputs": {
+        "low": "enrichment/corpus/KHULI/raw/ocr-candidates/luna-pilot-2026-10-05/khuli-manahij-tajdid-1961/low/p0092.txt",
+        "medium": "enrichment/corpus/KHULI/raw/ocr-candidates/luna-pilot-2026-10-05/khuli-manahij-tajdid-1961/medium/p0092.txt"
+      },
+      "review_notes": {
+        "low": "enrichment/corpus/KHULI/raw/ocr-candidates/luna-pilot-2026-10-05/khuli-manahij-tajdid-1961/low/p0092.review.json",
+        "medium": "enrichment/corpus/KHULI/raw/ocr-candidates/luna-pilot-2026-10-05/khuli-manahij-tajdid-1961/medium/p0092.review.json"
+      }
+    },
+    {
+      "id": "page-06",
+      "batch": 2,
+      "source": "KHULI",
+      "pdf": "enrichment/corpus/KHULI/raw/acquired-2026-10-05/khuli-manahij-tajdid-1961.pdf",
+      "pdf_sha256": "d1b79b4dddd2059abdc2f84212a4df8ffaa0a8f9b5c8ad745676f5d6e12b0021",
+      "pdf_page": 100,
+      "languages": [
+        "ar"
+      ],
+      "image": "enrichment/corpus/KHULI/raw/ocr-candidates/luna-pilot-2026-10-05/khuli-manahij-tajdid-1961/images/p0100.png",
+      "image_sha256": "d751532a0b824d87bf74c621d4781680701a74de85ed016f32b72b7f63078f5e",
+      "image_pixels": [
+        2250,
+        3500
+      ],
+      "effective_dpi": 120.0,
+      "outputs": {
+        "low": "enrichment/corpus/KHULI/raw/ocr-candidates/luna-pilot-2026-10-05/khuli-manahij-tajdid-1961/low/p0100.txt",
+        "medium": "enrichment/corpus/KHULI/raw/ocr-candidates/luna-pilot-2026-10-05/khuli-manahij-tajdid-1961/medium/p0100.txt"
+      },
+      "review_notes": {
+        "low": "enrichment/corpus/KHULI/raw/ocr-candidates/luna-pilot-2026-10-05/khuli-manahij-tajdid-1961/low/p0100.review.json",
+        "medium": "enrichment/corpus/KHULI/raw/ocr-candidates/luna-pilot-2026-10-05/khuli-manahij-tajdid-1961/medium/p0100.review.json"
+      }
+    },
+    {
+      "id": "page-07",
+      "batch": 2,
+      "source": "ABDUH-AMMA",
+      "pdf": "enrichment/corpus/ABDUH-AMMA/raw/acquired-2026-10-05/abduh-tafsir-juz-amma.pdf",
+      "pdf_sha256": "95ad90bf153890821b9faf36936b1e400d20bf5d2cb6c6687f0078c12ae19b72",
+      "pdf_page": 47,
+      "languages": [
+        "ar"
+      ],
+      "image": "enrichment/corpus/ABDUH-AMMA/raw/ocr-candidates/luna-pilot-2026-10-05/abduh-tafsir-juz-amma/images/p0047.png",
+      "image_sha256": "bcced8e3d019e42e07559994c525a0e6332e66294cf0d172af41192428df5a79",
+      "image_pixels": [
+        1709,
+        2742
+      ],
+      "effective_dpi": 300.0,
+      "outputs": {
+        "low": "enrichment/corpus/ABDUH-AMMA/raw/ocr-candidates/luna-pilot-2026-10-05/abduh-tafsir-juz-amma/low/p0047.txt",
+        "medium": "enrichment/corpus/ABDUH-AMMA/raw/ocr-candidates/luna-pilot-2026-10-05/abduh-tafsir-juz-amma/medium/p0047.txt"
+      },
+      "review_notes": {
+        "low": "enrichment/corpus/ABDUH-AMMA/raw/ocr-candidates/luna-pilot-2026-10-05/abduh-tafsir-juz-amma/low/p0047.review.json",
+        "medium": "enrichment/corpus/ABDUH-AMMA/raw/ocr-candidates/luna-pilot-2026-10-05/abduh-tafsir-juz-amma/medium/p0047.review.json"
+      }
+    },
+    {
+      "id": "page-08",
+      "batch": 2,
+      "source": "ABDUH-AMMA",
+      "pdf": "enrichment/corpus/ABDUH-AMMA/raw/acquired-2026-10-05/abduh-tafsir-juz-amma.pdf",
+      "pdf_sha256": "95ad90bf153890821b9faf36936b1e400d20bf5d2cb6c6687f0078c12ae19b72",
+      "pdf_page": 94,
+      "languages": [
+        "ar"
+      ],
+      "image": "enrichment/corpus/ABDUH-AMMA/raw/ocr-candidates/luna-pilot-2026-10-05/abduh-tafsir-juz-amma/images/p0094.png",
+      "image_sha256": "ea536bd7386b30a9c94ad90955174ce0681166b1f94655632742ccee5d0c7051",
+      "image_pixels": [
+        1709,
+        2742
+      ],
+      "effective_dpi": 300.0,
+      "outputs": {
+        "low": "enrichment/corpus/ABDUH-AMMA/raw/ocr-candidates/luna-pilot-2026-10-05/abduh-tafsir-juz-amma/low/p0094.txt",
+        "medium": "enrichment/corpus/ABDUH-AMMA/raw/ocr-candidates/luna-pilot-2026-10-05/abduh-tafsir-juz-amma/medium/p0094.txt"
+      },
+      "review_notes": {
+        "low": "enrichment/corpus/ABDUH-AMMA/raw/ocr-candidates/luna-pilot-2026-10-05/abduh-tafsir-juz-amma/low/p0094.review.json",
+        "medium": "enrichment/corpus/ABDUH-AMMA/raw/ocr-candidates/luna-pilot-2026-10-05/abduh-tafsir-juz-amma/medium/p0094.review.json"
+      }
+    },
+    {
+      "id": "page-09",
+      "batch": 3,
+      "source": "MUQATIL-WUJUH",
+      "pdf": "enrichment/corpus/MUQATIL-WUJUH/raw/acquired-2026-10-05/muqatil-wujuh-damin.pdf",
+      "pdf_sha256": "4ea8c0633da8a514c07bdf565bdcc2473b248ff3c5e21a26c4648a67fd7e9034",
+      "pdf_page": 77,
+      "languages": [
+        "ar"
+      ],
+      "image": "enrichment/corpus/MUQATIL-WUJUH/raw/ocr-candidates/luna-pilot-2026-10-05/muqatil-wujuh-damin/images/p0077.png",
+      "image_sha256": "deed582ea0c5cec1d4fef536be2fbe9d80aaf96602bc8da7c9a963dccd06353f",
+      "image_pixels": [
+        1951,
+        2837
+      ],
+      "effective_dpi": 300.0,
+      "outputs": {
+        "low": "enrichment/corpus/MUQATIL-WUJUH/raw/ocr-candidates/luna-pilot-2026-10-05/muqatil-wujuh-damin/low/p0077.txt",
+        "medium": "enrichment/corpus/MUQATIL-WUJUH/raw/ocr-candidates/luna-pilot-2026-10-05/muqatil-wujuh-damin/medium/p0077.txt"
+      },
+      "review_notes": {
+        "low": "enrichment/corpus/MUQATIL-WUJUH/raw/ocr-candidates/luna-pilot-2026-10-05/muqatil-wujuh-damin/low/p0077.review.json",
+        "medium": "enrichment/corpus/MUQATIL-WUJUH/raw/ocr-candidates/luna-pilot-2026-10-05/muqatil-wujuh-damin/medium/p0077.review.json"
+      }
+    },
+    {
+      "id": "page-10",
+      "batch": 3,
+      "source": "MUQATIL-WUJUH",
+      "pdf": "enrichment/corpus/MUQATIL-WUJUH/raw/acquired-2026-10-05/muqatil-wujuh-damin.pdf",
+      "pdf_sha256": "4ea8c0633da8a514c07bdf565bdcc2473b248ff3c5e21a26c4648a67fd7e9034",
+      "pdf_page": 154,
+      "languages": [
+        "ar"
+      ],
+      "image": "enrichment/corpus/MUQATIL-WUJUH/raw/ocr-candidates/luna-pilot-2026-10-05/muqatil-wujuh-damin/images/p0154.png",
+      "image_sha256": "1ccfac081ed571599545e227c5117a684e107e7f6ab95d02bb352f2fc90ac34c",
+      "image_pixels": [
+        1957,
+        2826
+      ],
+      "effective_dpi": 300.0,
+      "outputs": {
+        "low": "enrichment/corpus/MUQATIL-WUJUH/raw/ocr-candidates/luna-pilot-2026-10-05/muqatil-wujuh-damin/low/p0154.txt",
+        "medium": "enrichment/corpus/MUQATIL-WUJUH/raw/ocr-candidates/luna-pilot-2026-10-05/muqatil-wujuh-damin/medium/p0154.txt"
+      },
+      "review_notes": {
+        "low": "enrichment/corpus/MUQATIL-WUJUH/raw/ocr-candidates/luna-pilot-2026-10-05/muqatil-wujuh-damin/low/p0154.review.json",
+        "medium": "enrichment/corpus/MUQATIL-WUJUH/raw/ocr-candidates/luna-pilot-2026-10-05/muqatil-wujuh-damin/medium/p0154.review.json"
+      }
+    },
+    {
+      "id": "page-11",
+      "batch": 3,
+      "source": "IBNKHALAWAYH-MUKHTASAR",
+      "pdf": "enrichment/corpus/IBNKHALAWAYH-MUKHTASAR/raw/acquired-2026-10-05/ibnkhalawayh-mukhtasar.pdf",
+      "pdf_sha256": "9c52723d4e24a899d225e0d9d514e5715671c74da4cfaaf8e94c0d85f993fbe2",
+      "pdf_page": 61,
+      "languages": [
+        "ar"
+      ],
+      "image": "enrichment/corpus/IBNKHALAWAYH-MUKHTASAR/raw/ocr-candidates/luna-pilot-2026-10-05/ibnkhalawayh-mukhtasar/images/p0061.png",
+      "image_sha256": "eea708dde9e55c6286a4fc20c942a461e3086fa17f0c78fb8c65894124a7632b",
+      "image_pixels": [
+        1711,
+        2785
+      ],
+      "effective_dpi": 300.0,
+      "outputs": {
+        "low": "enrichment/corpus/IBNKHALAWAYH-MUKHTASAR/raw/ocr-candidates/luna-pilot-2026-10-05/ibnkhalawayh-mukhtasar/low/p0061.txt",
+        "medium": "enrichment/corpus/IBNKHALAWAYH-MUKHTASAR/raw/ocr-candidates/luna-pilot-2026-10-05/ibnkhalawayh-mukhtasar/medium/p0061.txt"
+      },
+      "review_notes": {
+        "low": "enrichment/corpus/IBNKHALAWAYH-MUKHTASAR/raw/ocr-candidates/luna-pilot-2026-10-05/ibnkhalawayh-mukhtasar/low/p0061.review.json",
+        "medium": "enrichment/corpus/IBNKHALAWAYH-MUKHTASAR/raw/ocr-candidates/luna-pilot-2026-10-05/ibnkhalawayh-mukhtasar/medium/p0061.review.json"
+      }
+    },
+    {
+      "id": "page-12",
+      "batch": 3,
+      "source": "IBNKHALAWAYH-MUKHTASAR",
+      "pdf": "enrichment/corpus/IBNKHALAWAYH-MUKHTASAR/raw/acquired-2026-10-05/ibnkhalawayh-mukhtasar.pdf",
+      "pdf_sha256": "9c52723d4e24a899d225e0d9d514e5715671c74da4cfaaf8e94c0d85f993fbe2",
+      "pdf_page": 123,
+      "languages": [
+        "ar"
+      ],
+      "image": "enrichment/corpus/IBNKHALAWAYH-MUKHTASAR/raw/ocr-candidates/luna-pilot-2026-10-05/ibnkhalawayh-mukhtasar/images/p0123.png",
+      "image_sha256": "2e68df6a1c25eecbf9fe2e8be1082274d4306a48326cc8377929b7c452103f27",
+      "image_pixels": [
+        1711,
+        2784
+      ],
+      "effective_dpi": 300.0,
+      "outputs": {
+        "low": "enrichment/corpus/IBNKHALAWAYH-MUKHTASAR/raw/ocr-candidates/luna-pilot-2026-10-05/ibnkhalawayh-mukhtasar/low/p0123.txt",
+        "medium": "enrichment/corpus/IBNKHALAWAYH-MUKHTASAR/raw/ocr-candidates/luna-pilot-2026-10-05/ibnkhalawayh-mukhtasar/medium/p0123.txt"
+      },
+      "review_notes": {
+        "low": "enrichment/corpus/IBNKHALAWAYH-MUKHTASAR/raw/ocr-candidates/luna-pilot-2026-10-05/ibnkhalawayh-mukhtasar/low/p0123.review.json",
+        "medium": "enrichment/corpus/IBNKHALAWAYH-MUKHTASAR/raw/ocr-candidates/luna-pilot-2026-10-05/ibnkhalawayh-mukhtasar/medium/p0123.review.json"
+      }
+    },
+    {
+      "id": "page-13",
+      "batch": 4,
+      "source": "FARAHI-NIZAM",
+      "pdf": "enrichment/corpus/ACADEMIC/FARAHI-NIZAM/raw/acquired-2026-10-05/farahi-nizam-book.pdf",
+      "pdf_sha256": "678dcfa7e46ccb11732cd59578f83f9a4da49396c92f886a3227ce3e8b53ea57",
+      "pdf_page": 158,
+      "languages": [
+        "ar"
+      ],
+      "image": "enrichment/corpus/ACADEMIC/FARAHI-NIZAM/raw/ocr-candidates/luna-pilot-2026-10-05/farahi-nizam-book/images/p0158.png",
+      "image_sha256": "71b5d09d86ea3d8747d7c2fcc27b091b747b51420f0693caa2d1fad16afc01b9",
+      "image_pixels": [
+        1820,
+        2782
+      ],
+      "effective_dpi": 300.0,
+      "outputs": {
+        "low": "enrichment/corpus/ACADEMIC/FARAHI-NIZAM/raw/ocr-candidates/luna-pilot-2026-10-05/farahi-nizam-book/low/p0158.txt",
+        "medium": "enrichment/corpus/ACADEMIC/FARAHI-NIZAM/raw/ocr-candidates/luna-pilot-2026-10-05/farahi-nizam-book/medium/p0158.txt"
+      },
+      "review_notes": {
+        "low": "enrichment/corpus/ACADEMIC/FARAHI-NIZAM/raw/ocr-candidates/luna-pilot-2026-10-05/farahi-nizam-book/low/p0158.review.json",
+        "medium": "enrichment/corpus/ACADEMIC/FARAHI-NIZAM/raw/ocr-candidates/luna-pilot-2026-10-05/farahi-nizam-book/medium/p0158.review.json"
+      }
+    },
+    {
+      "id": "page-14",
+      "batch": 4,
+      "source": "FARAHI-NIZAM",
+      "pdf": "enrichment/corpus/ACADEMIC/FARAHI-NIZAM/raw/acquired-2026-10-05/farahi-nizam-book.pdf",
+      "pdf_sha256": "678dcfa7e46ccb11732cd59578f83f9a4da49396c92f886a3227ce3e8b53ea57",
+      "pdf_page": 316,
+      "languages": [
+        "ar"
+      ],
+      "image": "enrichment/corpus/ACADEMIC/FARAHI-NIZAM/raw/ocr-candidates/luna-pilot-2026-10-05/farahi-nizam-book/images/p0316.png",
+      "image_sha256": "28e8871c1a5b2217f0b6325e76372a0b745183cc1bd2f0915a9792106ac97e78",
+      "image_pixels": [
+        1817,
+        2784
+      ],
+      "effective_dpi": 300.0,
+      "outputs": {
+        "low": "enrichment/corpus/ACADEMIC/FARAHI-NIZAM/raw/ocr-candidates/luna-pilot-2026-10-05/farahi-nizam-book/low/p0316.txt",
+        "medium": "enrichment/corpus/ACADEMIC/FARAHI-NIZAM/raw/ocr-candidates/luna-pilot-2026-10-05/farahi-nizam-book/medium/p0316.txt"
+      },
+      "review_notes": {
+        "low": "enrichment/corpus/ACADEMIC/FARAHI-NIZAM/raw/ocr-candidates/luna-pilot-2026-10-05/farahi-nizam-book/low/p0316.review.json",
+        "medium": "enrichment/corpus/ACADEMIC/FARAHI-NIZAM/raw/ocr-candidates/luna-pilot-2026-10-05/farahi-nizam-book/medium/p0316.review.json"
+      }
+    },
+    {
+      "id": "page-15",
+      "batch": 4,
+      "source": "BADAWI-HALEEM",
+      "pdf": "enrichment/corpus/ACADEMIC/BADAWI-HALEEM/raw/acquired-2026-10-05/badawi-haleem-2008.pdf",
+      "pdf_sha256": "c9c852f1986841d7a757bee37d8c491a0d301d7db5a844e3d3f9a98cc3c1cb86",
+      "pdf_page": 274,
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "image": "enrichment/corpus/ACADEMIC/BADAWI-HALEEM/raw/ocr-candidates/luna-pilot-2026-10-05/badawi-haleem-2008/images/p0274.png",
+      "image_sha256": "3e377ba18af5f6a9baca8e9c52f663758517fe20266ee795a06c7db99bbe9896",
+      "image_pixels": [
+        1892,
+        2834
+      ],
+      "effective_dpi": 300.0,
+      "outputs": {
+        "low": "enrichment/corpus/ACADEMIC/BADAWI-HALEEM/raw/ocr-candidates/luna-pilot-2026-10-05/badawi-haleem-2008/low/p0274.txt",
+        "medium": "enrichment/corpus/ACADEMIC/BADAWI-HALEEM/raw/ocr-candidates/luna-pilot-2026-10-05/badawi-haleem-2008/medium/p0274.txt"
+      },
+      "review_notes": {
+        "low": "enrichment/corpus/ACADEMIC/BADAWI-HALEEM/raw/ocr-candidates/luna-pilot-2026-10-05/badawi-haleem-2008/low/p0274.review.json",
+        "medium": "enrichment/corpus/ACADEMIC/BADAWI-HALEEM/raw/ocr-candidates/luna-pilot-2026-10-05/badawi-haleem-2008/medium/p0274.review.json"
+      }
+    },
+    {
+      "id": "page-16",
+      "batch": 4,
+      "source": "BADAWI-HALEEM",
+      "pdf": "enrichment/corpus/ACADEMIC/BADAWI-HALEEM/raw/acquired-2026-10-05/badawi-haleem-2008.pdf",
+      "pdf_sha256": "c9c852f1986841d7a757bee37d8c491a0d301d7db5a844e3d3f9a98cc3c1cb86",
+      "pdf_page": 547,
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "image": "enrichment/corpus/ACADEMIC/BADAWI-HALEEM/raw/ocr-candidates/luna-pilot-2026-10-05/badawi-haleem-2008/images/p0547.png",
+      "image_sha256": "c1e0e7a15ffccd4484d30a3ec68cb3563b96d6fabff9154020ec9cf8b7ae7b7a",
+      "image_pixels": [
+        1892,
+        2834
+      ],
+      "effective_dpi": 300.0,
+      "outputs": {
+        "low": "enrichment/corpus/ACADEMIC/BADAWI-HALEEM/raw/ocr-candidates/luna-pilot-2026-10-05/badawi-haleem-2008/low/p0547.txt",
+        "medium": "enrichment/corpus/ACADEMIC/BADAWI-HALEEM/raw/ocr-candidates/luna-pilot-2026-10-05/badawi-haleem-2008/medium/p0547.txt"
+      },
+      "review_notes": {
+        "low": "enrichment/corpus/ACADEMIC/BADAWI-HALEEM/raw/ocr-candidates/luna-pilot-2026-10-05/badawi-haleem-2008/low/p0547.review.json",
+        "medium": "enrichment/corpus/ACADEMIC/BADAWI-HALEEM/raw/ocr-candidates/luna-pilot-2026-10-05/badawi-haleem-2008/medium/p0547.review.json"
+      }
+    },
+    {
+      "id": "page-17",
+      "batch": 5,
+      "source": "ISLAHI-TADABBUR",
+      "pdf": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-3-surah-tawbah-09.pdf",
+      "pdf_sha256": "0ad070f20242b52689ae59236180dab324da86e09af908d874a87b7007c60ba1",
+      "pdf_page": 55,
+      "languages": [
+        "en",
+        "ar"
+      ],
+      "image": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-3-surah-tawbah-09/images/p0055.png",
+      "image_sha256": "5fda856b04de35ec27f8ff6e18bb80e50f96f7eb03f7856533af8c249d10cfc1",
+      "image_pixels": [
+        2100,
+        2775
+      ],
+      "effective_dpi": 300.0,
+      "outputs": {
+        "low": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-3-surah-tawbah-09/low/p0055.txt",
+        "medium": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-3-surah-tawbah-09/medium/p0055.txt"
+      },
+      "review_notes": {
+        "low": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-3-surah-tawbah-09/low/p0055.review.json",
+        "medium": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-3-surah-tawbah-09/medium/p0055.review.json"
+      }
+    },
+    {
+      "id": "page-18",
+      "batch": 5,
+      "source": "ISLAHI-TADABBUR",
+      "pdf": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-1.pdf",
+      "pdf_sha256": "46d34bf244dd5de0192e66d761b0878025092337aae290dfc2eacbe7ba1bb414",
+      "pdf_page": 100,
+      "languages": [
+        "ur",
+        "ar"
+      ],
+      "image": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-1/images/p0100.png",
+      "image_sha256": "a850f87d9c3e142376225e2ff2a9e300a3d02440f94e6cf9d6e6946d76d81205",
+      "image_pixels": [
+        2550,
+        3301
+      ],
+      "effective_dpi": 300.0,
+      "outputs": {
+        "low": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-1/low/p0100.txt",
+        "medium": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-1/medium/p0100.txt"
+      },
+      "review_notes": {
+        "low": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-1/low/p0100.review.json",
+        "medium": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-1/medium/p0100.review.json"
+      }
+    },
+    {
+      "id": "page-19",
+      "batch": 5,
+      "source": "ISLAHI-TADABBUR",
+      "pdf": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-2.pdf",
+      "pdf_sha256": "de297546d9792aaddddc49f6b1cafa2976227eff76c46e5ddd4e818b2979c827",
+      "pdf_page": 158,
+      "languages": [
+        "ur",
+        "ar"
+      ],
+      "image": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-2/images/p0158.png",
+      "image_sha256": "b570c80f2f9a8ad465a24e44479f04f258f77126e9292fdf73adc9f9f850c2a6",
+      "image_pixels": [
+        2550,
+        3301
+      ],
+      "effective_dpi": 300.0,
+      "outputs": {
+        "low": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-2/low/p0158.txt",
+        "medium": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-2/medium/p0158.txt"
+      },
+      "review_notes": {
+        "low": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-2/low/p0158.review.json",
+        "medium": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-2/medium/p0158.review.json"
+      }
+    },
+    {
+      "id": "page-20",
+      "batch": 5,
+      "source": "ISLAHI-TADABBUR",
+      "pdf": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-6.pdf",
+      "pdf_sha256": "b87fc40ceda67ac32ea0a5da32bbe0937268b56d58fb5de61aedf49c92f67b27",
+      "pdf_page": 114,
+      "languages": [
+        "ur",
+        "ar"
+      ],
+      "image": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-6/images/p0114.png",
+      "image_sha256": "f07ba2e1f2f6b8aba76ec109f7983578e42e25af5007888b35d80e19f215a04e",
+      "image_pixels": [
+        2550,
+        3301
+      ],
+      "effective_dpi": 300.0,
+      "outputs": {
+        "low": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-6/low/p0114.txt",
+        "medium": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-6/medium/p0114.txt"
+      },
+      "review_notes": {
+        "low": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-6/low/p0114.review.json",
+        "medium": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-6/medium/p0114.review.json"
+      }
+    },
+    {
+      "id": "page-21",
+      "batch": 6,
+      "source": "ISLAHI-TADABBUR",
+      "pdf": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-9.pdf",
+      "pdf_sha256": "d1fbf188154e163da0a77c51574bef423b15474f1f4f136ab756d98f8e3f6126",
+      "pdf_page": 154,
+      "languages": [
+        "ur",
+        "ar"
+      ],
+      "image": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-9/images/p0154.png",
+      "image_sha256": "8c4f12e0b78772b66022fbadb20a18aa9f261f4a3d64f253b9c6b5ab36e6ca43",
+      "image_pixels": [
+        2183,
+        3500
+      ],
+      "effective_dpi": 270.968,
+      "outputs": {
+        "low": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-9/low/p0154.txt",
+        "medium": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-9/medium/p0154.txt"
+      },
+      "review_notes": {
+        "low": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-9/low/p0154.review.json",
+        "medium": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/ocr-candidates/luna-pilot-2026-10-05/tadabbur-e-quran-vol-9/medium/p0154.review.json"
+      }
+    },
+    {
+      "id": "page-22",
+      "batch": 6,
+      "source": "TARAMA",
+      "pdf": "enrichment/corpus/TARAMA/raw/acquired-2026-10-05/tarama-vol-1.pdf",
+      "pdf_sha256": "f604ac29ad1ce8bdfe97a68888eb32bd92dd247bb9dbd0d50bab49277cb54402",
+      "pdf_page": 100,
+      "languages": [
+        "tr",
+        "ar"
+      ],
+      "image": "enrichment/corpus/TARAMA/raw/ocr-candidates/luna-pilot-2026-10-05/tarama-vol-1/images/p0100.png",
+      "image_sha256": "0a96d499f7cacfdf7c5f24392f7a14e9e3e9f75d7cf5c039c2fe4ce366ecd597",
+      "image_pixels": [
+        3500,
+        2476
+      ],
+      "effective_dpi": 299.487,
+      "outputs": {
+        "low": "enrichment/corpus/TARAMA/raw/ocr-candidates/luna-pilot-2026-10-05/tarama-vol-1/low/p0100.txt",
+        "medium": "enrichment/corpus/TARAMA/raw/ocr-candidates/luna-pilot-2026-10-05/tarama-vol-1/medium/p0100.txt"
+      },
+      "review_notes": {
+        "low": "enrichment/corpus/TARAMA/raw/ocr-candidates/luna-pilot-2026-10-05/tarama-vol-1/low/p0100.review.json",
+        "medium": "enrichment/corpus/TARAMA/raw/ocr-candidates/luna-pilot-2026-10-05/tarama-vol-1/medium/p0100.review.json"
+      }
+    },
+    {
+      "id": "page-23",
+      "batch": 6,
+      "source": "TARAMA",
+      "pdf": "enrichment/corpus/TARAMA/raw/acquired-2026-10-05/tarama-vol-4.pdf",
+      "pdf_sha256": "71019b221c554c6937278fed1be7be33661e6f2b35830959424c7f1fedcf08d4",
+      "pdf_page": 194,
+      "languages": [
+        "tr",
+        "ar"
+      ],
+      "image": "enrichment/corpus/TARAMA/raw/ocr-candidates/luna-pilot-2026-10-05/tarama-vol-4/images/p0194.png",
+      "image_sha256": "c3ec2381a48602f1b44a2af23b8787c733f33c6a9f265e2ac18c3e5f75dcd09c",
+      "image_pixels": [
+        3500,
+        2476
+      ],
+      "effective_dpi": 299.487,
+      "outputs": {
+        "low": "enrichment/corpus/TARAMA/raw/ocr-candidates/luna-pilot-2026-10-05/tarama-vol-4/low/p0194.txt",
+        "medium": "enrichment/corpus/TARAMA/raw/ocr-candidates/luna-pilot-2026-10-05/tarama-vol-4/medium/p0194.txt"
+      },
+      "review_notes": {
+        "low": "enrichment/corpus/TARAMA/raw/ocr-candidates/luna-pilot-2026-10-05/tarama-vol-4/low/p0194.review.json",
+        "medium": "enrichment/corpus/TARAMA/raw/ocr-candidates/luna-pilot-2026-10-05/tarama-vol-4/medium/p0194.review.json"
+      }
+    },
+    {
+      "id": "page-24",
+      "batch": 6,
+      "source": "TARAMA",
+      "pdf": "enrichment/corpus/TARAMA/raw/acquired-2026-10-05/tarama-vol-8.pdf",
+      "pdf_sha256": "ff9a27247adb8e8473eea9d081bcd93c556cf805567fff218b28a86b1cf89d7b",
+      "pdf_page": 107,
+      "languages": [
+        "tr",
+        "ar"
+      ],
+      "image": "enrichment/corpus/TARAMA/raw/ocr-candidates/luna-pilot-2026-10-05/tarama-vol-8/images/p0107.png",
+      "image_sha256": "22ddf1377b561e560858f6ce8daeb9c64ac2bddbb6ee68536a84144239bc0a3f",
+      "image_pixels": [
+        3500,
+        2476
+      ],
+      "effective_dpi": 299.487,
+      "outputs": {
+        "low": "enrichment/corpus/TARAMA/raw/ocr-candidates/luna-pilot-2026-10-05/tarama-vol-8/low/p0107.txt",
+        "medium": "enrichment/corpus/TARAMA/raw/ocr-candidates/luna-pilot-2026-10-05/tarama-vol-8/medium/p0107.txt"
+      },
+      "review_notes": {
+        "low": "enrichment/corpus/TARAMA/raw/ocr-candidates/luna-pilot-2026-10-05/tarama-vol-8/low/p0107.review.json",
+        "medium": "enrichment/corpus/TARAMA/raw/ocr-candidates/luna-pilot-2026-10-05/tarama-vol-8/medium/p0107.review.json"
+      }
+    }
+  ]
+}

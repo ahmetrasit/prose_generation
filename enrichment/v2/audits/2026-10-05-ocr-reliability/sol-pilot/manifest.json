@@ -1,0 +1,152 @@
+{
+  "created_at": "2026-10-05T15:10:59.663072+00:00",
+  "model_requested": "gpt-6-sol",
+  "effort_override": null,
+  "effort_note": "No override: native agent inherits parent effort; verify actual setting from session logs.",
+  "design": "Six previously evaluated priority pages, one image per fresh agent, no inherited history, no competing text. Configuration comparison: model, effort and batch size are not independently controlled.",
+  "render": {
+    "engine": "pypdfium2",
+    "target_dpi": 300,
+    "longest_side_cap_px": 3500,
+    "image_detail": "original",
+    "full_page": true
+  },
+  "luna_manifest_sha256": "1e7841d09e671e05e2e78a3afd1cda36d0dc5ac9d717455aa69dde584e5fca51",
+  "brief_sha256": "3b8261dfa425c047900c252bb9ea2ff5faa4d726273e1b8e742424f103d53de5",
+  "reference_sha256": "6ef7d5fb81a96c5b5d9e28c16bc24bca8ab5698ea68a9284b724eda74c83f23f",
+  "acceptance": "Diagnostic only. Compare frozen 440-word references, meaningful errors, omissions and printed harakat; no automatic production promotion even if normalized excerpt error is zero.",
+  "pages": [
+    {
+      "id": "page-01",
+      "source": "BINTSHATI",
+      "pdf": "enrichment/corpus/BINTSHATI/raw/acquired-2026-10-05/bintshati-vol-1.pdf",
+      "pdf_sha256": "f1c723e935f51e2bcd8f021170f08d15fc2a7a17f1bd4aee3fd3cb3a1804c244",
+      "pdf_page": 50,
+      "languages": [
+        "ar"
+      ],
+      "image": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-1/images/p0050.png",
+      "image_sha256": "72c9c1c539920aee14eb071c74c88ec6687a055751f227271321bf75d8efa5fe",
+      "image_pixels": [
+        2475,
+        3500
+      ],
+      "effective_dpi": 299.287,
+      "output": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/sol-pilot-2026-10-05/bintshati-vol-1/p0050.txt",
+      "review": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/sol-pilot-2026-10-05/bintshati-vol-1/p0050.review.json",
+      "agent_path": "/root/sol_ocr_page_01",
+      "assignment": "enrichment/v2/audits/2026-10-05-ocr-reliability/sol-pilot/page-01.json",
+      "assignment_sha256": "90f769fa84e8b7f3f32b1e8567800e0ee9a2e6e06204c999dbe470f8f70559e0"
+    },
+    {
+      "id": "page-02",
+      "source": "BINTSHATI",
+      "pdf": "enrichment/corpus/BINTSHATI/raw/acquired-2026-10-05/bintshati-vol-1.pdf",
+      "pdf_sha256": "f1c723e935f51e2bcd8f021170f08d15fc2a7a17f1bd4aee3fd3cb3a1804c244",
+      "pdf_page": 100,
+      "languages": [
+        "ar"
+      ],
+      "image": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-1/images/p0100.png",
+      "image_sha256": "f4ae119310a4c24dda9a297f72c6a2b83f34543dd1f557db9bd6c57c0db8c09b",
+      "image_pixels": [
+        2475,
+        3500
+      ],
+      "effective_dpi": 299.287,
+      "output": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/sol-pilot-2026-10-05/bintshati-vol-1/p0100.txt",
+      "review": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/sol-pilot-2026-10-05/bintshati-vol-1/p0100.review.json",
+      "agent_path": "/root/sol_ocr_page_02",
+      "assignment": "enrichment/v2/audits/2026-10-05-ocr-reliability/sol-pilot/page-02.json",
+      "assignment_sha256": "14f6496f262d9fa36eece5e303c4b6936ff36a17e3e3fce37198c77625cbe703"
+    },
+    {
+      "id": "page-03",
+      "source": "BINTSHATI",
+      "pdf": "enrichment/corpus/BINTSHATI/raw/acquired-2026-10-05/bintshati-vol-2.pdf",
+      "pdf_sha256": "e2db92da7181d583d4416ab3b15419e8cdc8b3efe7bb98e7b923a07230e0df84",
+      "pdf_page": 49,
+      "languages": [
+        "ar"
+      ],
+      "image": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-2/images/p0049.png",
+      "image_sha256": "aeef452e9e268419a62080a91aff538bc235d69065b465f74b63dd67efa842c1",
+      "image_pixels": [
+        2475,
+        3500
+      ],
+      "effective_dpi": 299.287,
+      "output": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/sol-pilot-2026-10-05/bintshati-vol-2/p0049.txt",
+      "review": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/sol-pilot-2026-10-05/bintshati-vol-2/p0049.review.json",
+      "agent_path": "/root/sol_ocr_page_03",
+      "assignment": "enrichment/v2/audits/2026-10-05-ocr-reliability/sol-pilot/page-03.json",
+      "assignment_sha256": "3b8d4c563281709aa3dd8bf25f72d692fae2751e6a11ed32a9ec20708cb8f5ba"
+    },
+    {
+      "id": "page-04",
+      "source": "BINTSHATI",
+      "pdf": "enrichment/corpus/BINTSHATI/raw/acquired-2026-10-05/bintshati-vol-2.pdf",
+      "pdf_sha256": "e2db92da7181d583d4416ab3b15419e8cdc8b3efe7bb98e7b923a07230e0df84",
+      "pdf_page": 98,
+      "languages": [
+        "ar"
+      ],
+      "image": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/luna-pilot-2026-10-05/bintshati-vol-2/images/p0098.png",
+      "image_sha256": "4231be68b7079879ba01ce814017b142fe88eaa9d5693f7316d00ee03921a0ea",
+      "image_pixels": [
+        2475,
+        3500
+      ],
+      "effective_dpi": 299.287,
+      "output": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/sol-pilot-2026-10-05/bintshati-vol-2/p0098.txt",
+      "review": "enrichment/corpus/BINTSHATI/raw/ocr-candidates/sol-pilot-2026-10-05/bintshati-vol-2/p0098.review.json",
+      "agent_path": "/root/sol_ocr_page_04",
+      "assignment": "enrichment/v2/audits/2026-10-05-ocr-reliability/sol-pilot/page-04.json",
+      "assignment_sha256": "77b33a5ec53ad5ec8dae8e7fff00cefcf93e0b80d49b688609ff231ede9dee5e"
+    },
+    {
+      "id": "page-05",
+      "source": "KHULI",
+      "pdf": "enrichment/corpus/KHULI/raw/acquired-2026-10-05/khuli-manahij-tajdid-1961.pdf",
+      "pdf_sha256": "d1b79b4dddd2059abdc2f84212a4df8ffaa0a8f9b5c8ad745676f5d6e12b0021",
+      "pdf_page": 92,
+      "languages": [
+        "ar"
+      ],
+      "image": "enrichment/corpus/KHULI/raw/ocr-candidates/luna-pilot-2026-10-05/khuli-manahij-tajdid-1961/images/p0092.png",
+      "image_sha256": "8f4f1da9d0a07b91e36b1217fc7ac98a397d1e83b76d49fdae76dfef0d9b756c",
+      "image_pixels": [
+        2250,
+        3500
+      ],
+      "effective_dpi": 120.0,
+      "output": "enrichment/corpus/KHULI/raw/ocr-candidates/sol-pilot-2026-10-05/khuli-manahij-tajdid-1961/p0092.txt",
+      "review": "enrichment/corpus/KHULI/raw/ocr-candidates/sol-pilot-2026-10-05/khuli-manahij-tajdid-1961/p0092.review.json",
+      "agent_path": "/root/sol_ocr_page_05",
+      "assignment": "enrichment/v2/audits/2026-10-05-ocr-reliability/sol-pilot/page-05.json",
+      "assignment_sha256": "cacc822081829f844d2bb1d029ea0ca8922959e92fe91e73481a2e9356d168c4"
+    },
+    {
+      "id": "page-06",
+      "source": "KHULI",
+      "pdf": "enrichment/corpus/KHULI/raw/acquired-2026-10-05/khuli-manahij-tajdid-1961.pdf",
+      "pdf_sha256": "d1b79b4dddd2059abdc2f84212a4df8ffaa0a8f9b5c8ad745676f5d6e12b0021",
+      "pdf_page": 100,
+      "languages": [
+        "ar"
+      ],
+      "image": "enrichment/corpus/KHULI/raw/ocr-candidates/luna-pilot-2026-10-05/khuli-manahij-tajdid-1961/images/p0100.png",
+      "image_sha256": "d751532a0b824d87bf74c621d4781680701a74de85ed016f32b72b7f63078f5e",
+      "image_pixels": [
+        2250,
+        3500
+      ],
+      "effective_dpi": 120.0,
+      "output": "enrichment/corpus/KHULI/raw/ocr-candidates/sol-pilot-2026-10-05/khuli-manahij-tajdid-1961/p0100.txt",
+      "review": "enrichment/corpus/KHULI/raw/ocr-candidates/sol-pilot-2026-10-05/khuli-manahij-tajdid-1961/p0100.review.json",
+      "agent_path": "/root/sol_ocr_page_06",
+      "assignment": "enrichment/v2/audits/2026-10-05-ocr-reliability/sol-pilot/page-06.json",
+      "assignment_sha256": "2e280713feefe78cd3d22b15c782c0e3285fb37ba355839e2a5c3f1d8a387529"
+    }
+  ]
+}

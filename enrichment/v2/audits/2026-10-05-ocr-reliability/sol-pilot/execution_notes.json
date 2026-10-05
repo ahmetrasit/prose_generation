@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-05",
+  "source": "Supervising agent's collaboration tool responses; native model, effort and usage counters are retained separately in results.json.",
+  "model_requested": "gpt-6-sol",
+  "effort_override": null,
+  "effort_observed": "medium",
+  "capacity_retries": [
+    {
+      "agent_path": "/root/sol_ocr_page_05",
+      "page_id": "page-05",
+      "failed_turns": 2,
+      "message": "Selected model is at capacity. Please try a different model.",
+      "action": "Retried the same session, assignment and model; third turn completed after the other page runs.",
+      "model_substitution": false,
+      "final_status": "completed"
+    }
+  ],
+  "final_pages_produced": 6,
+  "accepted_production_pages": 0,
+  "candidate_text_modified_by_supervisor": false
+}
