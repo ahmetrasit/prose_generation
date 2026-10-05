@@ -64,6 +64,23 @@ class BuildSiteTests(unittest.TestCase):
             self.assertTrue(any("augment9" in e["variant"] for e in manifest["entries"]))
             self.assertEqual(manifest["format"], 2)
 
+    def test_named_surah_enrichment_variant_is_not_misread_as_an_ayah(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            self.write(root, "_commentary/v16/out/107_1/DM.r13/107_1.reading.tr.md", "# base")
+            self.write(root, "enrichment/v1/out/107/107_enriched.md", '{type:tafsir, prose:"canonical", source:"X"}')
+            self.write(root, "enrichment/v1/out/107/107_enriched.sonnet-5-5.md", '{type:tafsir, prose:"alternate", source:"Y"}')
+            self.write(root, "enrichment/v1/out/107/107-1enriched.md", "<!-- Enrichment pending. Target: 107:1. -->\n")
+
+            manifest = build.build(root, root / "site")
+            enrich = [e for e in manifest["entries"] if e["family"] == "enrichment"]
+            self.assertEqual(len(enrich), 2)
+            self.assertTrue(all(e["surah"] == 107 and e["ayah"] is None and e["scope"] == "surah" for e in enrich))
+            variants = {e["variant"] for e in enrich}
+            self.assertIn("enriched surah", variants)
+            self.assertIn("enriched surah · sonnet-5-5", variants)
+            self.assertFalse(any(e["surah"] == 5 and e["ayah"] == 5 for e in manifest["entries"]))
+
 
 if __name__ == "__main__":
     unittest.main()
