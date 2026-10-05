@@ -9,6 +9,13 @@ work; do not run v16 from here).
 
 Run every command from the workspace root `/Volumes/aro/projects/prose_generation`.
 
+> **From 2026-10-04 evening no page call goes through a script** (user: every model here is Claude). `enrich.py
+> spawn` builds a page's call (prompt.md, started.json, spawn.md) and the orchestrator spawns the agent itself with
+> the Agent tool (type `enrich-page`, the text of spawn.md as the prompt); `enrich.py finish` checks, renders and
+> accepts what the agent wrote, with the cost from the agent's transcript. `enrich.py run` is the old CLI way, kept
+> for history. The agent definition and the run guard are installed once by the user: see "Install once" in
+> `_commentary/v16/RUNBOOK.md`, and check they exist before the first spawn of a session.
+
 ## Rules from the user (never break them)
 
 1. **Each run needs its own go.**
@@ -31,6 +38,8 @@ Run every command from the workspace root `/Volumes/aro/projects/prose_generatio
    and wait for an answer before changing them.
 8. **Commit and push after every completed step** (user, 2026-10-04). `.gitignore` already decides what is versioned;
    `work/` is never committed.
+9. **Spawn only with the go, with the text of spawn.md, after the install-once check** (`_commentary/v16/RUNBOOK.md`):
+   the agent type `enrich-page` pins Opus 5.5 high and the guard keeps the agent inside its call directory.
 
 ## What a page is
 
@@ -55,8 +64,8 @@ Run every command from the workspace root `/Volumes/aro/projects/prose_generatio
 
 | Surah | v16 surah base | v16 augment9 | Pack | Surah page | Ayah pages |
 |---|---|---|---|---|---|
-| S1 | ✓ | 7/7 (2026-10-04) | – | – | ready: build the pack, calibrate on one ayah page first |
-| S87 | ✓ | 6/19, the rest running (2026-10-04) | – | – | wait for augment9 |
+| S1 | ✓ | 7/7 (2026-10-04) | – | – | next (user's go given 2026-10-04 evening): pack, one page first, then six |
+| S87 | ✓ | 14/19 done, 5 running (2026-10-04 evening) | – | – | wait for augment9 |
 | S100 | ✓ | 0/11 | ✓ (built before augment9; ayah bases are augment3) | **accepted** (Opus high, 63 blocks) | rebuild the pack first |
 | S103 | **missing** (v16 map and image prose never ran) | – | – | blocked | blocked |
 | S107 | ✓ | 0/7 | ✓ (no turkish.md) | accepted (Astra max, old brief) | rebuild the pack first |
@@ -118,25 +127,32 @@ python3 -B enrichment/v2/enrich.py build --surah N --target surah
   directory.
 - Give the user the estimate and wait for the go (rule 1).
 
-**5. Run (after the go).**
+**5. Spawn (after the go).**
 ```bash
-mkdir -p enrichment/v2/work/logs
-python3 -B enrichment/v2/enrich.py run --surah N --target surah > enrichment/v2/work/logs/sN.surah.log 2>&1
+python3 -B enrichment/v2/enrich.py spawn --surah N --target surah
 ```
-- Run it in the background; the go covers that. A surah page takes about 25–30 minutes.
-- Several surahs in one go: `--surahs 1,87 --target surah --parallel 2`.
+- It writes the call directory (`work/sNNN/zengin.surah.opus.high/`: `prompt.md`, `started.json` with the base
+  and pack hashes, `spawn.md`) and prints one JSON line per page with `"status": "prepared"`, the dir and the
+  agent type. A page already started or accepted is skipped with a NOTE.
+- Then one Agent tool call per prepared page: `subagent_type` `enrich-page`, `prompt` = the exact text of that
+  page's `spawn.md` (read it, pass it verbatim), `model` `opus`, a short description such as `S1 surah page`. The
+  agent runs in the background; wait for its completion notice. A surah page takes about 25–30 minutes.
 - **`--target` is required**: `surah`, `S:A`, `ayat` (every ayah page that has a base) or `all`. Never use `all`
-  or `ayat` when the user asked for surah pages.
-- `run` exits 1 when a page fails, and prints a `WARNING:` line for every page that is not `ok`.
+  or `ayat` when the user asked for surah pages. Several pages at once: at most two agents at a time unless the
+  user says otherwise (a page call reads a lot of corpus).
 
-**6. Wait and watch.**
-- `enrich.py status --surah N` shows a running Claude call's assistant events, tool calls and seconds since its last
-  activity.
-- When the model is done, `response.md` appears and status says "finishing". The script is then still checking and
-  rendering, which takes minutes on this disk. The page is done only when `run.log.json` exists and the run command
-  has printed its result line.
-- Idle for more than 20 minutes without `response.md`: report it; do not kill the call on your own.
-- A call is killed (with its whole process group) after 8 hours.
+**6. Finish (after the agent replied).**
+```bash
+python3 -B enrichment/v2/enrich.py finish --surah N --target surah
+```
+- It reads the agent's `annotations.jsonl`, finds the agent's transcript for the cost, the commands and the stop
+  reason, then checks every record, renders, checks the page byte for byte, copies it to `out/sNNN/`, logs the
+  errata, writes `run.log.json` and the ledger row, and prints the result line. `finish` exits 1 when a page
+  fails and prints a `WARNING:` line for it; nothing is accepted then.
+- `WARNING: no subagent transcript names …`: the page is finished but its cost is `None` in the ledger; report it.
+- The agent's chat reply is not the deliverable; the file is. An agent that wrote no `annotations.jsonl` gives
+  `call did not complete`; the call directory stays blocked; a new try is `--attempt 2` with the go.
+- `enrich.py status --surah N` shows the call as started until `finish` has run; it cannot watch a spawned agent.
 
 **7. Check and report.**
 - The result line has `status`, `check`, `kept`, `dropped`, `warnings`, `errata` and `cost_usd`. Report it with the
@@ -167,13 +183,18 @@ python3 -B enrichment/v2/enrich.py run --surah N --target surah > enrichment/v2/
     be accepted after the rebuild (pack.json changes with every build): accept it before rebuilding.
   - `build`, `run` and `status` name the ayat that still have no augment9 base; they get no page.
 - **Run:** `enrich.py build --surah N --target ayat` gives the estimate. There is no ayah-page calibration yet:
-  estimate from the surah pages' cost per 1k base words, run one ayah page first, then calibrate.
-- **Then** `enrich.py run --surah N --target ayat --parallel 2`, or `--target N:A` for one page.
+  estimate from the surah pages' cost per 1k base words, spawn one ayah page first (`--target N:A`), finish it,
+  calibrate, then the rest.
+- **Then** `enrich.py spawn --surah N --target ayat` (every ayah page with a base, each its own call directory),
+  the Agent tool calls as in step 5 (two at a time), and `enrich.py finish --surah N --target ayat` for the pages
+  whose agents replied (a page without a reply yet is reported as not complete; finish it later, never twice).
 
 ## Failures
 
 | What you see | What it means | What to do |
 |---|---|---|
+| `call did not complete (the agent wrote no annotations.jsonl)` | the spawned agent replied without writing the records file | report; `--attempt 2` only with the user's go |
+| `no subagent transcript names …` | the agent's transcript is not under `~/.claude/projects/` | the page is unaffected; the cost is None; report |
 | `call did not complete (timed out …)` | killed after 8 hours | report; new attempt only with the user's go |
 | `call did not complete (result error_…)` | the CLI ended the call with an error, e.g. the $40 cap per call | report it with the subtype; never raise the cap on your own |
 | `call did not complete (result marked is_error)` or `(no result …)` | the CLI stopped without a usable result (e.g. a session limit) | read `stderr.log` and the end of `run.stream.jsonl`; report |

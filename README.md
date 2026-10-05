@@ -6,9 +6,12 @@ produce evidence; this one adjudicates it and writes prose.
 
 ## Production (2026-10-04)
 
-The production pipeline is **v16 r13** (surah map, surah commentary, ayah commentaries), with the optional
-**augment9** layer and the optional **enrichment v2** pages. Start at [`PRODUCTION.md`](PRODUCTION.md): it names
-the runbooks, the order, what is optional and the rules. The section below describes the earlier v5 workflow and
+Two workflows are current. **Commentaries: v16 r13** (surah map, surah commentary, ayah commentaries) with the
+optional **augment9** layer, runbook `_commentary/v16/RUNBOOK.md`. **Enrichment v2**, the follow-up workflow on the
+v16 outputs for the next-generation tafsir (one advanced-reader page per surah and per ayah), runbook
+`enrichment/v2/RUNBOOK.md`. From 2026-10-04 evening the orchestrating Claude session spawns every model call itself
+and the scripts only build and finish runs. Start at [`PRODUCTION.md`](PRODUCTION.md): it names the runbooks, the
+order, what is optional, how a run happens and the rules. The section below describes the earlier v5 workflow and
 is kept as history.
 
 ## Earlier canonical commentary workflow (v5, superseded)
