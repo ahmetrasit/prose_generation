@@ -89,3 +89,21 @@ average is expected under $10 but **not under $5**.
   fewer turns (batching), smaller context (caps), and what else?
 - 5-minute vs 1-hour cache: the subagent used 5m writes; the claude -p trials used 1h on S107 and 5m on S100.
 - An alternative design that could reach under $5 per ayah average with Opus quality, and its risks.
+
+## 5. Trials built (2026-10-05), waiting for a session that has the agent types
+Opus review (2026-10-05): gaps — turns are the main lever (88 messages, 89 serial calls; common.md said "one file
+per call"); thinking stays in the context; the ledger undercounted output (1:1 is ~$14 with thinking, not $10.40);
+the brief demands more than one context holds, so sources were skipped silently (25 tied sources never opened on
+1:1). Improvement (mode `tur`) and alternative (mode `dosya2`) built; each runs at high and medium.
+
+Prepared (never spawned yet; `--trial`, so nothing is accepted):
+- work/s001/zengin-tur.1_1.opus.high      → agent type enrich-page-high
+- work/s001/zengin-tur.1_1.opus.medium    → agent type enrich-page-medium
+- work/s001/zengin-dosya2.1_1.opus.high   → agent type enrich-page-high
+- work/s001/zengin-dosya2.1_1.opus.medium → agent type enrich-page-medium
+
+Spawn: Agent tool, subagent_type as above (the definitions in .claude/agents/ set model opus and the effort; they
+load when a Claude Code session starts), prompt = the exact text of the dir's spawn.md. The four run in parallel.
+Finish each: `python3 -B enrichment/v2/enrich.py finish --surah 1 --target 1:1 --mode tur|dosya2 --model opus:high|opus:medium --trial`.
+Report per trial: cost_usd (recorded) and cost_usd_est (with thinking), turns, kept/dropped, unread_sources, and
+compare the records with the reference page work/s001/zengin.1_1.opus.high (53 records, ~$14 estimated).
