@@ -70,8 +70,17 @@ def sha256(path: Path) -> str:
     return h.hexdigest()
 
 
+def source_dir(sid: str) -> Path:
+    """A source's directory: enrichment/corpus/<ID>/, or a grouped one (ACADEMIC/<ID>/) when that holds its record."""
+    d = CORPUS / sid
+    if (d / "source.json").exists():
+        return d
+    grouped = [p.parent for p in CORPUS.glob(f"*/{sid}/source.json") if "raw" not in p.parts]
+    return grouped[0] if len(grouped) == 1 else d
+
+
 def write_source(meta: dict, segments) -> int:
-    d = CORPUS / meta["id"]
+    d = source_dir(meta["id"])
     d.mkdir(parents=True, exist_ok=True)
     n = 0
     tmp = d / "segments.jsonl.tmp"
@@ -415,6 +424,8 @@ def build(force: bool = False) -> None:
         CREATE INDEX seg_ayah ON seg(s, a, a_end);
         CREATE INDEX seg_src ON seg(src);
         CREATE VIRTUAL TABLE f USING fts5(body, content='', tokenize='unicode61 remove_diacritics 2');
+        CREATE TABLE ref(s INT, a INT, a_end INT, seg_id INT);
+        CREATE INDEX ref_ayah ON ref(s, a, a_end);
     """)
     total = 0
     for meta in sources():
@@ -426,7 +437,7 @@ def build(force: bool = False) -> None:
             continue
         con.execute("INSERT INTO src VALUES(?,?,?,?)", (meta["id"], meta.get("kind"), meta.get("access"),
                                                          json.dumps(meta, ensure_ascii=False)))
-        path = CORPUS / meta["id"] / "segments.jsonl"
+        path = source_dir(meta["id"]) / "segments.jsonl"
         if not path.exists():
             if meta.get("access") != "hafiza":  # memory pointers have no text by design
                 print(f"WARNING: {meta['id']}: no segments.jsonl; not indexed", file=sys.stderr)
@@ -443,6 +454,11 @@ def build(force: bool = False) -> None:
                 except sqlite3.IntegrityError:
                     print(f"duplicate locator {r['seg']} in {meta['id']}", file=sys.stderr)
                     continue
+                # ayat the text cites explicitly ("Q 2:255", "20:125-7"), kept apart from its tie: a reference work
+                # or a note is reachable from every ayah it discusses without being tied to it (`corpus.py cites`)
+                for ref in r.get("refs") or []:
+                    rs, ra, rb = parse_ref(ref)
+                    con.execute("INSERT INTO ref VALUES(?,?,?,?)", (rs, ra, rb, cur.lastrowid))
                 body = " ".join(flat(r.get(k)) for k in ("head", "text", "en", "tr", "notes") if r.get(k))
                 con.execute("INSERT INTO f(rowid, body) VALUES(?,?)", (cur.lastrowid, norm(body)))
                 n += 1
@@ -452,6 +468,13 @@ def build(force: bool = False) -> None:
     con.close()
     tmp.replace(index)
     print(f"indexed {total} segments -> {index.relative_to(PG)}")
+
+
+def parse_ref(ref: str) -> tuple[int, int, int]:
+    """'2:255' -> (2, 255, 255); '20:125-127' -> (20, 125, 127)."""
+    s, rest = ref.split(":")
+    a, _, b = rest.partition("-")
+    return int(s), int(a), int(b or a)
 
 
 def connect() -> sqlite3.Connection:
@@ -577,6 +600,48 @@ def cmd_ayah(ref: str, kinds: str | None, src: str | None, chars: int) -> None:
         args += ids
     for r in con.execute(sql + " ORDER BY src, a", args):
         show(r, chars)
+    # segments that cite the ayah without being tied to it: counted here, never silently left out
+    cited = cites_rows(con, s, a, src)
+    if cited:
+        by: dict[str, int] = {}
+        for r in cited:
+            by[r[1]] = by.get(r[1], 0) + 1
+        print(f"CITED ELSEWHERE: {len(cited)} segments not tied to {s}:{a} cite it "
+              f"({'; '.join(f'{k} {v}' for k, v in sorted(by.items()))}): `corpus.py cites {s}:{a}` lists them")
+
+
+def cites_rows(con, s: int, a: int, src: str | None = None) -> list:
+    sql = ("SELECT DISTINCT seg.seg,seg.src,seg.s,seg.a,seg.a_end,seg.head,seg.text,seg.extra FROM ref JOIN seg "
+           "ON seg.id=ref.seg_id WHERE ref.s=? AND ref.a<=? AND ref.a_end>=? "
+           "AND NOT (coalesce(seg.s,0)=? AND seg.a<=? AND coalesce(seg.a_end,seg.a)>=?)")
+    args: list = [s, a, a, s, a, a]
+    if src:
+        ids = src.split(",")
+        sql += f" AND seg.src IN ({','.join('?' * len(ids))})"
+        args += ids
+    return con.execute(sql + " ORDER BY seg.src, seg.id", args).fetchall()
+
+
+def cmd_cites(ref: str, src: str | None, chars: int) -> None:
+    """Every segment that cites the ayah without being tied to it, with a snippet centred on the citation."""
+    con = connect()
+    s, a = (int(x) for x in ref.split(":"))
+    rows = cites_rows(con, s, a, src)
+    print(f"{len(rows)} segments cite {s}:{a} (not tied to it)")
+    for r in rows:
+        text = r[6] or ""
+        m = re.search(rf"(?<![\d:]){s}\s*:\s*{a}(?!\d)", text) or re.search(rf"(?<![\d:]){s}\s*:\s*\d", text)
+        at = max(0, (m.start() if m else 0) - chars // 2)
+        global _used
+        if _bytes_out() > OUT_BYTES - 3_000 or (CALL_LIMIT and _used >= CALL_LIMIT):
+            _unshown.append(f"{r[0]}({len(text):,})")
+            continue
+        snippet = text[at:at + chars].replace("\n", " ")
+        print(f"== {r[0]}" + (f"  [{r[5]}]" if r[5] else "") + f"  [characters {at + 1:,}–{at + len(snippet):,} of "
+              f"{len(text):,}]")
+        print(("… " if at else "") + snippet + (f" … [preview: `corpus.py get {r[0]}` for the text]"
+                                               if at + len(snippet) < len(text) else ""))
+        _used += len(snippet)
 
 
 def cmd_search(q: str, a) -> None:
@@ -633,6 +698,10 @@ def main() -> None:
     p.add_argument("--kind")
     p.add_argument("--src")
     p.add_argument("--chars", type=int, default=600)
+    p = sub.add_parser("cites", help="segments that cite an ayah without being tied to it (reference works, notes)")
+    p.add_argument("ref")
+    p.add_argument("--src")
+    p.add_argument("--chars", type=int, default=500)
     p = sub.add_parser("search")
     p.add_argument("q")
     p.add_argument("--src")
@@ -642,7 +711,7 @@ def main() -> None:
     p.add_argument("--chars", type=int, default=300)
     p.add_argument("--sahih", action="store_true")
     p.add_argument("--exact", action="store_true")
-    for p in (sub.choices["get"], sub.choices["ayah"], sub.choices["search"]):
+    for p in (sub.choices["get"], sub.choices["ayah"], sub.choices["search"], sub.choices["cites"]):
         p.add_argument("--limit", type=int, default=9_000,
                        help="characters of segment text this call prints (default 9,000; output also stays under "
                             "24,000 bytes; 0: no limit, for scripts)")
@@ -650,7 +719,7 @@ def main() -> None:
     global INTERTEXT, CALL_LIMIT, PREVIEW
     INTERTEXT = a.intertext
     CALL_LIMIT = getattr(a, "limit", 9_000)
-    PREVIEW = a.cmd in ("search", "ayah")
+    PREVIEW = a.cmd in ("search", "ayah", "cites")
     if CALL_LIMIT:
         sys.stdout = _Counter(sys.stdout)
     if a.cmd == "import-local":
@@ -667,7 +736,9 @@ def main() -> None:
         cmd_ayah(a.ref, a.kind, a.src, a.chars)
     elif a.cmd == "search":
         cmd_search(a.q, a)
-    if a.cmd in ("get", "ayah", "search"):
+    elif a.cmd == "cites":
+        cmd_cites(a.ref, a.src, a.chars)
+    if a.cmd in ("get", "ayah", "search", "cites"):
         close_call()
 
 
