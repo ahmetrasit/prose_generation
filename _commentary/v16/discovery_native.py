@@ -21,19 +21,19 @@ def save(path, value):
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n")
 
 
-def consolidate(d, surah, verses):
+def consolidate(d, surah, verses, proposal_name="followup.tsv"):
     """Preserve raw proposals; append each new ref once without regrading."""
     first = (d / "turn1.list.tsv").read_bytes()
     if (d / "list.tsv").read_bytes() != first:
         raise ValueError("Agent changed list.tsv during the separate-proposals follow-up")
     initial, bad = D.parse_rows(d / "turn1.list.tsv", surah, verses)
-    proposed, extra_bad = D.parse_rows(d / "followup.tsv", surah, verses)
+    proposed, extra_bad = D.parse_rows(d / proposal_name, surah, verses)
     if bad or extra_bad or len({r['ref'] for r in initial}) != len(initial):
         raise ValueError(f"Invalid discovery input: {bad + extra_bad}")
     if first and not first.endswith(b"\n"):
         raise ValueError("First-turn TSV must end with newline before consolidation")
     seen = {r['ref']: {'phase': 1, 'line': r['line']} for r in initial}
-    raw = (d / "followup.tsv").read_bytes()
+    raw = (d / proposal_name).read_bytes()
     raw_lines = raw.splitlines(keepends=True)
     additions, repeated = [], []
     for row in proposed:
@@ -47,7 +47,9 @@ def consolidate(d, surah, verses):
     report = {'mode': 'separate-proposals-v1', 'raw_proposal_rows': len(proposed),
               'unique_additions': len(additions), 'repeated_proposals': repeated,
               'turn1_sha256': hashlib.sha256(first).hexdigest(),
-              'followup_sha256': hashlib.sha256(raw).hexdigest(),
+              'followup_sha256': hashlib.sha256((d / 'followup.tsv').read_bytes()).hexdigest(),
+              'proposal_file': proposal_name,
+              'proposal_sha256': hashlib.sha256(raw).hexdigest(),
               'list_sha256': hashlib.sha256(final).hexdigest(),
               'policy': 'First occurrence retained; no existing row or grade changed. Raw followup.tsv preserved.'}
     save(d / "consolidation.json", report)

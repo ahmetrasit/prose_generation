@@ -2,7 +2,7 @@
   "surah": 1,
   "run_tag": "revision4",
   "time": "2026-10-05T12:50:41.046293+00:00",
-  "state": "awaiting_user_repair_decision",
+  "state": "discovery_in_progress",
   "jobs": [
     {
       "section": 4,
@@ -48,7 +48,7 @@
       "section": 6,
       "model": "terra",
       "completed_turns": 2,
-      "state": "partial",
+      "state": "accepted",
       "snapshot": true,
       "check": "findings"
     },
@@ -56,7 +56,7 @@
       "section": 7,
       "model": "luna",
       "completed_turns": 2,
-      "state": "partial",
+      "state": "accepted",
       "snapshot": true,
       "check": "findings"
     },
@@ -64,7 +64,7 @@
       "section": 7,
       "model": "terra",
       "completed_turns": 1,
-      "state": "awaiting_followup",
+      "state": "followup_running",
       "snapshot": true,
       "check": null
     },
@@ -80,7 +80,7 @@
       "section": 8,
       "model": "terra",
       "completed_turns": 1,
-      "state": "awaiting_followup",
+      "state": "followup_running",
       "snapshot": true,
       "check": null
     },
@@ -96,7 +96,7 @@
       "section": 9,
       "model": "terra",
       "completed_turns": 1,
-      "state": "awaiting_followup",
+      "state": "followup_running",
       "snapshot": true,
       "check": null
     },
@@ -104,7 +104,7 @@
       "section": 10,
       "model": "luna",
       "completed_turns": 1,
-      "state": "awaiting_followup",
+      "state": "followup_running",
       "snapshot": true,
       "check": null
     },
@@ -112,7 +112,7 @@
       "section": 10,
       "model": "terra",
       "completed_turns": 1,
-      "state": "awaiting_followup",
+      "state": "followup_running",
       "snapshot": true,
       "check": null
     },
@@ -120,7 +120,7 @@
       "section": 11,
       "model": "luna",
       "completed_turns": 1,
-      "state": "awaiting_followup",
+      "state": "followup_running",
       "snapshot": true,
       "check": null
     },
@@ -128,7 +128,7 @@
       "section": 11,
       "model": "terra",
       "completed_turns": 1,
-      "state": "awaiting_followup",
+      "state": "followup_running",
       "snapshot": true,
       "check": null
     },
@@ -144,7 +144,7 @@
       "section": 12,
       "model": "terra",
       "completed_turns": 1,
-      "state": "awaiting_followup",
+      "state": "followup_running",
       "snapshot": true,
       "check": null
     },
@@ -152,7 +152,7 @@
       "section": 13,
       "model": "luna",
       "completed_turns": 1,
-      "state": "awaiting_followup",
+      "state": "followup_running",
       "snapshot": true,
       "check": null
     },
@@ -160,7 +160,7 @@
       "section": 13,
       "model": "terra",
       "completed_turns": 1,
-      "state": "awaiting_followup",
+      "state": "followup_running",
       "snapshot": true,
       "check": null
     },
@@ -176,24 +176,13 @@
       "section": 14,
       "model": "terra",
       "completed_turns": 1,
-      "state": "awaiting_followup",
+      "state": "followup_running",
       "snapshot": true,
       "check": null
     }
   ],
-  "blocked_jobs": [
-    {
-      "section": 6,
-      "model": "terra",
-      "reason": "Nonexistent90:40–42; proposed80:40–42 from matching explanations."
-    },
-    {
-      "section": 7,
-      "model": "luna",
-      "reason": "Reference/basis columns swapped on follow-up lines44–45."
-    }
-  ],
+  "blocked_jobs": [],
   "opus_started": false,
-  "policy": "Raw outputs and failed logs preserved. No new follow-ups or merges until user decision; already-running calls left undisturbed.",
+  "policy": "Two exact repairs approved by user and applied with raw files/failure logs retained. Eleven same-session follow-ups sent; no Opus.",
   "latest_checks": "checks2.json"
 }

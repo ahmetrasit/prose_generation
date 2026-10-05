@@ -13,11 +13,64 @@
   "estimate_usd": 0,
   "cost_usd": 0,
   "cost_basis": "Codex subscription",
-  "status": "partial",
+  "status": "accepted",
   "check": "findings",
   "followup_mode": "separate-proposals-v1",
-  "consolidation": null,
-  "consolidation_error": "Invalid discovery input: [\"line 12: strength/ref/basis not in the schema: strong\\t90:40\\tscene\\tSome faces have dust upon them. It repeats the section's 80:40 scene of an adverse layer lying upon t\", 'line 13: strength/ref/basis not in the schema: strong\\t90:41\\tscene+neighbour\\tDarkness covers those dust-marked faces. It repeats the facial covering that the section re', 'line 14: strength/ref/basis not in the schema: strong\\t90:42\\tneighbour+theme\\tThe dust-and-darkness faces are identified as the disbelieving, wicked people. It completes']",
+  "consolidation": {
+    "mode": "separate-proposals-v1",
+    "raw_proposal_rows": 40,
+    "unique_additions": 37,
+    "repeated_proposals": [
+      {
+        "line": 12,
+        "strength": "strong",
+        "ref": "80:40",
+        "basis": [
+          "scene"
+        ],
+        "note": "Some faces have dust upon them. It repeats the section's 80:40 scene of an adverse layer lying upon the face.",
+        "kept": {
+          "phase": 1,
+          "line": 112
+        }
+      },
+      {
+        "line": 13,
+        "strength": "strong",
+        "ref": "80:41",
+        "basis": [
+          "neighbour",
+          "scene"
+        ],
+        "note": "Darkness covers those dust-marked faces. It repeats the facial covering that the section reads alongside عَلَيْهِم in 1:7.",
+        "kept": {
+          "phase": 1,
+          "line": 113
+        }
+      },
+      {
+        "line": 14,
+        "strength": "strong",
+        "ref": "80:42",
+        "basis": [
+          "neighbour",
+          "theme"
+        ],
+        "note": "The dust-and-darkness faces are identified as the disbelieving, wicked people. It completes the two preceding facial marks with their adverse group.",
+        "kept": {
+          "phase": 2,
+          "line": 10
+        }
+      }
+    ],
+    "turn1_sha256": "933cf02d628f0376bc6191f84dd20c7aac2e2946fe12d64d571179d58268a8ab",
+    "followup_sha256": "9eeaa68b7af4e61fa121015a5706877752db2ea65c9e5232e93789bd59a8503c",
+    "proposal_file": "followup.accepted.tsv",
+    "proposal_sha256": "7d9692e0b37943aff41b2d6114b0e05d12a5f898754f778ce8e765c15db238fa",
+    "list_sha256": "fe5ece4ddd7adee0952fa71072cf1aa514c4f394a9125729497d30e73d128aa2",
+    "policy": "First occurrence retained; no existing row or grade changed. Raw followup.tsv preserved."
+  },
+  "consolidation_error": null,
   "usage_tokens": {
     "input_tokens": 459046,
     "cached_input_tokens": 391936,
@@ -47,8 +100,8 @@
   },
   "turn2": {
     "completed": true,
-    "rows_total": 165,
-    "rows_added": 0,
+    "rows_total": 202,
+    "rows_added": 37,
     "usage": {
       "input_tokens": 143818,
       "cached_input_tokens": 123392,
@@ -90,16 +143,73 @@
       "message": "duplicate 39:74 2"
     }
   ],
-  "arabic_findings": 58,
+  "arabic_findings": 65,
   "followup": "Review your remembered coverage for qualifying omissions under the same inclusion and grading rules, checking the section's distinct scenes and secondary details, repeated formulations, specific indirect parallels, reversals, and necessary passage continuations. Write only the new candidate proposals to /Volumes/aro/projects/prose_generation/_commentary/v16/out/s001/discovery/revision4/sec6/terra/followup.tsv using the same four-field TSV schema, with no header. Do not modify list.tsv. Check from memory that each proposal belongs to its cited ayah; distinguish that ayah's contribution from neighbouring verses. Prefer English over uncertain Arabic quotations. Do not repeat references intentionally. The workflow will preserve your proposals and append each new reference once; it will retain repeated proposals in an audit sidecar without changing existing rows or grades. Zero additions is valid: create an empty followup.tsv. Do not read any files, retrieve sources, consult other agents, or run scripts. A file-write tool or literal shell write solely to save followup.tsv is permitted. Return only a brief completion notice, including any self-detected accuracy concerns; do not send separate messages.",
   "strength_counts": {
-    "strong": 122,
-    "medium": 40,
+    "strong": 136,
+    "medium": 63,
     "weak": 3
   },
-  "list_sha256": "933cf02d628f0376bc6191f84dd20c7aac2e2946fe12d64d571179d58268a8ab",
+  "list_sha256": "fe5ece4ddd7adee0952fa71072cf1aa514c4f394a9125729497d30e73d128aa2",
   "prompt_sha256": "a9cf0d7acc97dab5e107af980a667bf74249ced808699203e5d7687fde83dd44",
   "package_sha256": "81712c9e91f7d748dc714f63ade8281fc834f79362930738b70fa65f98d65255",
   "completed_at": "2026-10-05T12:25:23.899Z",
-  "seconds": 2318
+  "seconds": 2318,
+  "repair": {
+    "approval": "User explicitly approved both prepared repairs and resuming S1 on 2026-10-05.",
+    "accepted_at": "2026-10-05T13:51:54.379201+00:00",
+    "changes": [
+      {
+        "line": 12,
+        "before": [
+          "strong",
+          "90:40",
+          "scene",
+          "Some faces have dust upon them. It repeats the section's 80:40 scene of an adverse layer lying upon the face."
+        ],
+        "after": [
+          "strong",
+          "80:40",
+          "scene",
+          "Some faces have dust upon them. It repeats the section's 80:40 scene of an adverse layer lying upon the face."
+        ]
+      },
+      {
+        "line": 13,
+        "before": [
+          "strong",
+          "90:41",
+          "scene+neighbour",
+          "Darkness covers those dust-marked faces. It repeats the facial covering that the section reads alongside عَلَيْهِم in 1:7."
+        ],
+        "after": [
+          "strong",
+          "80:41",
+          "scene+neighbour",
+          "Darkness covers those dust-marked faces. It repeats the facial covering that the section reads alongside عَلَيْهِم in 1:7."
+        ]
+      },
+      {
+        "line": 14,
+        "before": [
+          "strong",
+          "90:42",
+          "neighbour+theme",
+          "The dust-and-darkness faces are identified as the disbelieving, wicked people. It completes the two preceding facial marks with their adverse group."
+        ],
+        "after": [
+          "strong",
+          "80:42",
+          "neighbour+theme",
+          "The dust-and-darkness faces are identified as the disbelieving, wicked people. It completes the two preceding facial marks with their adverse group."
+        ]
+      }
+    ],
+    "raw_sha256": "9eeaa68b7af4e61fa121015a5706877752db2ea65c9e5232e93789bd59a8503c",
+    "accepted_sha256": "7d9692e0b37943aff41b2d6114b0e05d12a5f898754f778ce8e765c15db238fa",
+    "failed_log_sha256": "bb7a3892c3155568def7b90c3ae7e33b6a0743fe84bf10814c7eee77b52beae0",
+    "model_calls": 0,
+    "policy": "Raw follow-up and failed log preserved; grades and explanations unchanged."
+  },
+  "repair_record_sha256": "0a5a6be317c17f439fa0287135105c8d8120fe273b631c9492fb0122e0da45e5"
 }

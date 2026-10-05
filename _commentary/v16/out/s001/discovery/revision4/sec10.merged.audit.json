@@ -1,0 +1,236 @@
+{
+  "surah": 1,
+  "section": 10,
+  "run_tag": "revision4",
+  "source_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "list_sha256": "7148b280e08119ad283caa0352679a46e77b1e140f5d9865610fec7bcff77ba2",
+  "models": {
+    "luna": {
+      "run_log": "/Volumes/aro/projects/prose_generation/_commentary/v16/out/s001/discovery/revision4/sec10/luna/run.log.json",
+      "consolidation": {
+        "mode": "separate-proposals-v1",
+        "raw_proposal_rows": 28,
+        "unique_additions": 28,
+        "repeated_proposals": [],
+        "turn1_sha256": "c15d36a8efd60fe1e5536c1fa9f93e0ecf37aca06e2cfdefc9d92802558919e2",
+        "followup_sha256": "ff2eec0d2bb05718c7ee561248504082fc23dd8251a527e6784ee177bd5054d8",
+        "proposal_file": "followup.tsv",
+        "proposal_sha256": "ff2eec0d2bb05718c7ee561248504082fc23dd8251a527e6784ee177bd5054d8",
+        "list_sha256": "b74412d1a23976e6a3a6aa44c1f1e9147f5a15a16c65068d4b4931e759fd2d0a",
+        "policy": "First occurrence retained; no existing row or grade changed. Raw followup.tsv preserved."
+      },
+      "validation_review": {
+        "scope": "Both turns; original initial review retained and follow-up sampled.",
+        "reviewed_findings": [
+          {
+            "line": 1,
+            "ref": "16:5",
+            "arabic": "ن ع م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Note uses source wording, root/lemma, attached-word excerpt, or ordinary spelling. This flag alone does not establish a quotation error; lexical derivation is not independently verified."
+          },
+          {
+            "line": 81,
+            "ref": "13:7",
+            "arabic": "ه د ي",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit source root/dictionary or lemma form; no substantive wrong-ayah quotation identified. Derivation and relevance not independently established."
+          },
+          {
+            "line": 95,
+            "ref": "2:273",
+            "arabic": "و س م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit source root/dictionary or lemma form; no substantive wrong-ayah quotation identified. Derivation and relevance not independently established."
+          },
+          {
+            "line": 96,
+            "ref": "7:46",
+            "arabic": "و س م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit source root/dictionary or lemma form; no substantive wrong-ayah quotation identified. Derivation and relevance not independently established."
+          },
+          {
+            "line": 97,
+            "ref": "47:30",
+            "arabic": "و س م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit source root/dictionary or lemma form; no substantive wrong-ayah quotation identified. Derivation and relevance not independently established."
+          },
+          {
+            "line": 98,
+            "ref": "48:29",
+            "arabic": "و س م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit source root/dictionary or lemma form; no substantive wrong-ayah quotation identified. Derivation and relevance not independently established."
+          },
+          {
+            "line": 99,
+            "ref": "55:41",
+            "arabic": "و س م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit source root/dictionary or lemma form; no substantive wrong-ayah quotation identified. Derivation and relevance not independently established."
+          },
+          {
+            "line": 101,
+            "ref": "16:75",
+            "arabic": "ع ب د",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit source root/dictionary or lemma form; no substantive wrong-ayah quotation identified. Derivation and relevance not independently established."
+          }
+        ],
+        "confirmed_wording_issues": 0,
+        "semantic_findings": [],
+        "sampled_refs": [
+          "16:5",
+          "6:38",
+          "38:23"
+        ],
+        "sample_assessment": "First, middle and last row compared with canonical Arabic; findings listed above. Scene relevance and grade strength remain judgments.",
+        "limits": "Automatic flags classified in note context; initial multiword excerpts and three rows per turn sampled against canonical text. Not exhaustive semantic, etymological or relevance validation. Raw output unchanged.",
+        "followup_sampled_refs": [
+          "5:4",
+          "6:136",
+          "37:32"
+        ],
+        "agent_accuracy_concern": "Camel-creation and identifying marks are interpretive parallels."
+      },
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/_commentary/v16/out/s001/discovery/revision4/sec10/luna/list.tsv",
+        "rows": 102,
+        "schema_errors": [],
+        "duplicates": {},
+        "arabic_findings": [
+          {
+            "line": 1,
+            "ref": "16:5",
+            "arabic": "ن ع م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 81,
+            "ref": "13:7",
+            "arabic": "ه د ي",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 95,
+            "ref": "2:273",
+            "arabic": "و س م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 96,
+            "ref": "7:46",
+            "arabic": "و س م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 97,
+            "ref": "47:30",
+            "arabic": "و س م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 98,
+            "ref": "48:29",
+            "arabic": "و س م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 99,
+            "ref": "55:41",
+            "arabic": "و س م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 101,
+            "ref": "16:75",
+            "arabic": "ع ب د",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          }
+        ],
+        "limits": "Orthographic normalization only; roots, paraphrases and word segmentation require review. No semantic or relevance validation."
+      }
+    },
+    "terra": {
+      "run_log": "/Volumes/aro/projects/prose_generation/_commentary/v16/out/s001/discovery/revision4/sec10/terra/run.log.json",
+      "consolidation": {
+        "mode": "separate-proposals-v1",
+        "raw_proposal_rows": 21,
+        "unique_additions": 21,
+        "repeated_proposals": [],
+        "turn1_sha256": "57764d776b92741ab5db8fb5e321c8baf6683827620affc40f9eed6c355999fd",
+        "followup_sha256": "00dbcf2a2f458a12cd678569df680bff3dd8d447b569c18b4c82de994819c852",
+        "proposal_file": "followup.tsv",
+        "proposal_sha256": "00dbcf2a2f458a12cd678569df680bff3dd8d447b569c18b4c82de994819c852",
+        "list_sha256": "75b06bc72f997283093a55d532e39391fb6a5ff596b8f7f6a3c8f8238ad6c327",
+        "policy": "First occurrence retained; no existing row or grade changed. Raw followup.tsv preserved."
+      },
+      "validation_review": {
+        "scope": "Both turns; original initial review retained and follow-up sampled.",
+        "reviewed_findings": [],
+        "confirmed_wording_issues": 0,
+        "semantic_findings": [
+          {
+            "ref": "7:40",
+            "assessment": "English paraphrase reverses the conditional order. Verse denies entry to the Garden until a camel passes through the needle, rather than saying the camel cannot pass before entry."
+          }
+        ],
+        "sampled_refs": [
+          "16:5",
+          "10:24",
+          "7:40"
+        ],
+        "sample_assessment": "First, middle and last row compared with canonical Arabic; findings listed above. Scene relevance and grade strength remain judgments.",
+        "limits": "Automatic flags classified in note context; initial multiword excerpts and three rows per turn sampled against canonical text. Not exhaustive semantic, etymological or relevance validation. Raw output unchanged.",
+        "followup_sampled_refs": [
+          "5:4",
+          "12:108",
+          "35:28"
+        ],
+        "agent_accuracy_concern": "2:171 implicit animal referent;35:28 indirect;22:33 context-dependent."
+      },
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/_commentary/v16/out/s001/discovery/revision4/sec10/terra/list.tsv",
+        "rows": 178,
+        "schema_errors": [],
+        "duplicates": {},
+        "arabic_findings": [],
+        "limits": "Orthographic normalization only; roots, paraphrases and word segmentation require review. No semantic or relevance validation."
+      }
+    }
+  }
+}

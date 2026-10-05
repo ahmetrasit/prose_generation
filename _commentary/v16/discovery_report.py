@@ -28,7 +28,7 @@ def report(surah, tag, batch):
         k, model = job['section'], job['model']
         d = root / f'sec{k}' / model
         log = json.loads((d / 'run.log.json').read_text())
-        if log['status'] != 'ok' or not log['turn2']['completed']:
+        if log['status'] not in ('ok', 'accepted') or not log['turn2']['completed']:
             raise ValueError(f'Unfinished/invalid job: {d}')
         rows, bad = D.parse_rows(d / 'list.tsv', surah, q)
         if bad or len({r['ref'] for r in rows}) != len(rows):

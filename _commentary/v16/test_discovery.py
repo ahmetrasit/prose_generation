@@ -11,9 +11,39 @@ import augment_surah as A
 import check_discovery as C
 import discover as D
 import discovery_native as N
+import discovery_repair as R
 
 
 class DiscoveryChecks(unittest.TestCase):
+    def test_approved_repair_preserves_evidence_and_rejects_tampering(self):
+        with tempfile.TemporaryDirectory() as tmp, patch.object(D.V, 'log') as ledger, patch.object(D.M, 'verses', return_value={'2:1':'الم','2:2':'ذلك'}):
+            d=Path(tmp);first='strong\t2:1\troot\tFirst\n'
+            before=['medium','2:9999','scene','New'];after=['medium','2:2','scene','New']
+            for name,text in [('list.tsv',first),('turn1.list.tsv',first),('followup.tsv','\t'.join(before)+'\n'),
+                              ('followup.repair.proposed.tsv','\t'.join(after)+'\n'),('prompt.md','prompt'),('package.md','package'),('source.md','source')]:
+                (d/name).write_text(text)
+            N.save(d/'started.json',{'prompt_sha256':R.digest(d/'prompt.md'),'package_sha256':R.digest(d/'package.md'),
+                                    'source_file':str(d/'source.md'),'source_sha256':R.digest(d/'source.md')})
+            old={'status':'partial','consolidation_error':'Invalid reference','protocol_findings':[],
+                 'bad_rows':[],'duplicates':{},'append_only':True,'model_effort_verified':True,
+                 'inputs_unchanged':True,'tool_audit_reviewed':True,'turn2':{'completed':True},'turn1_rows':1,
+                 'ref':'S1','brief':'test','source_sha256':R.digest(d/'source.md'),'section_number':1,'model':'test'}
+            N.save(d/'run.log.json',old);N.save(d/'validation.json',{})
+            N.save(d/'repair.proposed.json',{'raw_sha256':R.digest(d/'followup.tsv'),
+                                           'changes':[{'line':1,'before':before,'after':after}]})
+            with self.assertRaises(ValueError):R.accept(d,1,'')
+            (d/'followup.repair.proposed.tsv').write_text('medium\t2:2\tscene\tChanged note\n')
+            with self.assertRaises(ValueError):R.accept(d,1,'User approved exact repair')
+            self.assertFalse((d/'run.failed.log.json').exists())
+            (d/'followup.repair.proposed.tsv').write_text('\t'.join(after)+'\n')
+            result=R.accept(d,1,'User approved exact repair')
+            self.assertEqual(result['final_rows'],2)
+            self.assertEqual(json.loads((d/'run.failed.log.json').read_text()),old)
+            self.assertEqual((d/'followup.tsv').read_text(),'\t'.join(before)+'\n')
+            self.assertEqual((d/'list.tsv').read_text(),first+'\t'.join(after)+'\n')
+            self.assertEqual(ledger.call_count,1)
+            with self.assertRaises(ValueError):R.accept(d,1,'User approved exact repair')
+
     def test_followup_repeats_preserve_first_rows_and_raw_evidence(self):
         with tempfile.TemporaryDirectory() as tmp:
             d = Path(tmp)

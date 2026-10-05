@@ -1,0 +1,1082 @@
+{
+  "surah": 1,
+  "run_tag": "revision4",
+  "batch": 1,
+  "jobs": [
+    {
+      "section": 4,
+      "model": "luna",
+      "initial": 101,
+      "proposals": 40,
+      "added": 40,
+      "repeats": 0,
+      "final": 141,
+      "check": "findings",
+      "arabic_flags": 4,
+      "missing_existing_citations": [],
+      "usage_tokens": {
+        "input_tokens": 279542,
+        "cached_input_tokens": 227584,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 33461,
+        "reasoning_output_tokens": 26424,
+        "total_tokens": 313003
+      },
+      "cost_usd": 0,
+      "diagnostics": [],
+      "strengths": {
+        "strong": 118,
+        "medium": 13,
+        "contrast": 10
+      },
+      "validation_review.json": {
+        "reviewed_findings": [
+          {
+            "line": 29,
+            "ref": "4:23",
+            "arabic": "الرَّبَائِبُ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Dictionary/lemma excerpt or attached-letter difference; not a substantive wrong-ayah quote."
+          },
+          {
+            "line": 29,
+            "ref": "4:23",
+            "arabic": "حجر",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Dictionary/lemma excerpt or attached-letter difference; not a substantive wrong-ayah quote."
+          },
+          {
+            "line": 59,
+            "ref": "4:5",
+            "arabic": "قِيَامًا لِّلنَّاسِ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [
+              "5:97"
+            ],
+            "matching_ref_count": 1,
+            "assessment": "Wording قياما للناس belongs to5:97;4:5 says جعل الله لكم قياما. Connection to household provision remains plausible."
+          },
+          {
+            "line": 86,
+            "ref": "90:17",
+            "arabic": "مَرْحَمَة",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Dictionary/lemma excerpt or attached-letter difference; not a substantive wrong-ayah quote."
+          }
+        ],
+        "confirmed_wording_issues": 1,
+        "sampled_refs": [
+          "3:6",
+          "4:23",
+          "96:4",
+          "90:16",
+          "28:4",
+          "4:8"
+        ],
+        "sample_assessment": "Specific womb, care, teaching and provision links; the quoted form at4:5 requires correction.",
+        "completion_notice_discrepancy": "Agent reported39 proposals; raw file contains40, all unique additions.",
+        "limits": "All4 automatic flags reviewed; English/relevance sampled only. Raw rows unchanged."
+      }
+    },
+    {
+      "section": 4,
+      "model": "terra",
+      "initial": 134,
+      "proposals": 25,
+      "added": 25,
+      "repeats": 0,
+      "final": 159,
+      "check": "findings",
+      "arabic_flags": 3,
+      "missing_existing_citations": [],
+      "usage_tokens": {
+        "input_tokens": 342558,
+        "cached_input_tokens": 277760,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 42015,
+        "reasoning_output_tokens": 35007,
+        "total_tokens": 384573
+      },
+      "cost_usd": 0,
+      "diagnostics": [],
+      "strengths": {
+        "strong": 87,
+        "contrast": 20,
+        "medium": 52
+      },
+      "validation_review.json": {
+        "reviewed_findings": [
+          {
+            "line": 62,
+            "ref": "3:79",
+            "arabic": "رَبَّانِيِّينَ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Standard versus Uthmani spelling; the cited verse contains the rabbaniyyin form."
+          },
+          {
+            "line": 77,
+            "ref": "8:75",
+            "arabic": "أُولُو الْأَرْحَامِ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Orthographic and attached-conjunction difference; the cited verse contains ulu al-arham."
+          },
+          {
+            "line": 96,
+            "ref": "90:17",
+            "arabic": "مَرْحَمَة",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Lemma excerpt; the verse contains the attached form bil-marhama."
+          }
+        ],
+        "confirmed_wording_issues": 0,
+        "sampled_refs": [
+          "17:23",
+          "28:7",
+          "5:44",
+          "90:14",
+          "17:31",
+          "28:8"
+        ],
+        "sample_assessment": "Sampled care, teaching, feeding and parental-provision links match the cited verses. Foster-household reversal is explicitly a contrast.",
+        "agent_accuracy_concern": "18:80–81 is an interpretively delicate contrast; agent labeled both accordingly.",
+        "limits": "All three automatic flags reviewed; English/relevance sampled only. Raw rows unchanged."
+      }
+    },
+    {
+      "section": 5,
+      "model": "luna",
+      "initial": 157,
+      "proposals": 52,
+      "added": 52,
+      "repeats": 0,
+      "final": 209,
+      "check": "findings",
+      "arabic_flags": 12,
+      "missing_existing_citations": [],
+      "usage_tokens": {
+        "input_tokens": 509431,
+        "cached_input_tokens": 452864,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 44358,
+        "reasoning_output_tokens": 33230,
+        "total_tokens": 553789
+      },
+      "cost_usd": 0,
+      "diagnostics": [
+        {
+          "call_id": "call_JuP4P94ymLW7SMomtWgosdGw",
+          "message": "Script failed"
+        },
+        {
+          "call_id": "call_JuP4P94ymLW7SMomtWgosdGw",
+          "message": "Script error:"
+        },
+        {
+          "call_id": "call_JuP4P94ymLW7SMomtWgosdGw",
+          "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/_commentary/v16/out/s001/discovery/revision4/sec5/luna/list.tsv:"
+        }
+      ],
+      "strengths": {
+        "medium": 21,
+        "strong": 187,
+        "contrast": 1
+      },
+      "validation_review.json": {
+        "reviewed_findings": [
+          {
+            "line": 2,
+            "ref": "48:2",
+            "arabic": "ن ع م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root/source-dictionary reference or lemma form; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 3,
+            "ref": "6:12",
+            "arabic": "رَحْمَة",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root/source-dictionary reference or lemma form; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 7,
+            "ref": "5:3",
+            "arabic": "ن ع م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root/source-dictionary reference or lemma form; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 9,
+            "ref": "6:154",
+            "arabic": "ربّ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root/source-dictionary reference or lemma form; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 17,
+            "ref": "2:264",
+            "arabic": "مَنًّا",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root/source-dictionary reference or lemma form; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 35,
+            "ref": "16:18",
+            "arabic": "ن ع م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root/source-dictionary reference or lemma form; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 40,
+            "ref": "4:70",
+            "arabic": "فضل",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root/source-dictionary reference or lemma form; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 50,
+            "ref": "16:53",
+            "arabic": "ن ع م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root/source-dictionary reference or lemma form; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 86,
+            "ref": "102:8",
+            "arabic": "ن ع م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root/source-dictionary reference or lemma form; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 87,
+            "ref": "108:1",
+            "arabic": "أَنْعَمَ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root/source-dictionary reference or lemma form; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 126,
+            "ref": "55:13",
+            "arabic": "ر ب ب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root/source-dictionary reference or lemma form; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 176,
+            "ref": "35:30",
+            "arabic": "زيادة",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root/source-dictionary reference or lemma form; no substantive wrong-ayah quotation identified in this span."
+          }
+        ],
+        "confirmed_wording_issues": 0,
+        "sampled_refs": [
+          "48:1",
+          "5:11",
+          "9:77",
+          "14:33",
+          "18:10",
+          "17:26"
+        ],
+        "sample_assessment": "Samples have stated favour, gratitude, provision or guidance anchors. Some broad beneficence links still need downstream relevance judgment.",
+        "limits": "All12 automatic flags inspected; English/relevance sampled only, not exhaustive. Raw outputs unchanged."
+      }
+    },
+    {
+      "section": 5,
+      "model": "terra",
+      "initial": 197,
+      "proposals": 19,
+      "added": 19,
+      "repeats": 0,
+      "final": 216,
+      "check": "ok",
+      "arabic_flags": 0,
+      "missing_existing_citations": [],
+      "usage_tokens": {
+        "input_tokens": 1179362,
+        "cached_input_tokens": 1106944,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 53197,
+        "reasoning_output_tokens": 39555,
+        "total_tokens": 1232559
+      },
+      "cost_usd": 0,
+      "diagnostics": [],
+      "strengths": {
+        "strong": 149,
+        "contrast": 46,
+        "medium": 21
+      },
+      "validation_review.json": {
+        "reviewed_findings": [],
+        "confirmed_wording_issues": 0,
+        "limits": "All 0 automatic flags reviewed; English/relevance sampled only. Raw rows unchanged.",
+        "sampled_refs": [
+          "2:243",
+          "4:113",
+          "31:14",
+          "64:17",
+          "71:10",
+          "71:12"
+        ],
+        "confirmed_boundary_issues": [
+          {
+            "refs": [
+              "71:10",
+              "71:12"
+            ],
+            "assessment": "Both notes assign rain to71:12; rain is in71:11, while71:12 has wealth, children, gardens and rivers."
+          }
+        ],
+        "sample_assessment": "Other sampled gifts, gratitude and loan descriptions match canonical text. Indirect grading still needs judgment.",
+        "completion_notice_discrepancy": "Agent reported20 proposals; raw file contains19, all unique additions.",
+        "agent_accuracy_concern": "Agent called31:14 and64:17 the most indirect thematic links."
+      }
+    },
+    {
+      "section": 6,
+      "model": "luna",
+      "initial": 114,
+      "proposals": 42,
+      "added": 42,
+      "repeats": 0,
+      "final": 156,
+      "check": "findings",
+      "arabic_flags": 21,
+      "missing_existing_citations": [],
+      "usage_tokens": {
+        "input_tokens": 435341,
+        "cached_input_tokens": 371712,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 53647,
+        "reasoning_output_tokens": 39205,
+        "total_tokens": 488988
+      },
+      "cost_usd": 0,
+      "diagnostics": [
+        {
+          "call_id": "call_0wREfP1uRHwGscKO4hr5mD93",
+          "message": "Script failed"
+        },
+        {
+          "call_id": "call_0wREfP1uRHwGscKO4hr5mD93",
+          "message": "Script error:"
+        },
+        {
+          "call_id": "call_0wREfP1uRHwGscKO4hr5mD93",
+          "message": "apply_patch verification failed: invalid patch: The last line of the patch must be '*** End Patch'"
+        }
+      ],
+      "strengths": {
+        "strong": 86,
+        "contrast": 35,
+        "medium": 33,
+        "weak": 2
+      },
+      "validation_review.json": {
+        "reviewed_findings": [
+          {
+            "line": 1,
+            "ref": "14:5",
+            "arabic": "أَيَّامَ اللَّهِ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [
+              "45:14"
+            ],
+            "matching_ref_count": 1,
+            "assessment": "Source/dictionary term, lemma/inflection excerpt, attached-letter difference or ordinary/Uthmani spelling; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 8,
+            "ref": "2:61",
+            "arabic": "بَاءُوا بِغَضَبٍ مِنَ اللَّهِ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source/dictionary term, lemma/inflection excerpt, attached-letter difference or ordinary/Uthmani spelling; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 24,
+            "ref": "88:2",
+            "arabic": "نعمة",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source/dictionary term, lemma/inflection excerpt, attached-letter difference or ordinary/Uthmani spelling; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 25,
+            "ref": "88:8",
+            "arabic": "ن ع م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source/dictionary term, lemma/inflection excerpt, attached-letter difference or ordinary/Uthmani spelling; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 25,
+            "ref": "88:8",
+            "arabic": "أَنْعَمْتَ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source/dictionary term, lemma/inflection excerpt, attached-letter difference or ordinary/Uthmani spelling; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 38,
+            "ref": "75:23",
+            "arabic": "رضا",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source/dictionary term, lemma/inflection excerpt, attached-letter difference or ordinary/Uthmani spelling; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 47,
+            "ref": "89:28",
+            "arabic": "رضا",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source/dictionary term, lemma/inflection excerpt, attached-letter difference or ordinary/Uthmani spelling; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 47,
+            "ref": "89:28",
+            "arabic": "غضب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source/dictionary term, lemma/inflection excerpt, attached-letter difference or ordinary/Uthmani spelling; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 47,
+            "ref": "89:28",
+            "arabic": "رضا",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source/dictionary term, lemma/inflection excerpt, attached-letter difference or ordinary/Uthmani spelling; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 50,
+            "ref": "102:8",
+            "arabic": "ن ع م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source/dictionary term, lemma/inflection excerpt, attached-letter difference or ordinary/Uthmani spelling; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 70,
+            "ref": "5:119",
+            "arabic": "رضا",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source/dictionary term, lemma/inflection excerpt, attached-letter difference or ordinary/Uthmani spelling; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 74,
+            "ref": "98:8",
+            "arabic": "رضا",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source/dictionary term, lemma/inflection excerpt, attached-letter difference or ordinary/Uthmani spelling; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 87,
+            "ref": "7:43",
+            "arabic": "الْحَمْدُ لِلَّهِ الَّذِي هَدَانَا",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source/dictionary term, lemma/inflection excerpt, attached-letter difference or ordinary/Uthmani spelling; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 93,
+            "ref": "3:15",
+            "arabic": "رضا",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source/dictionary term, lemma/inflection excerpt, attached-letter difference or ordinary/Uthmani spelling; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 95,
+            "ref": "48:18",
+            "arabic": "رضا",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source/dictionary term, lemma/inflection excerpt, attached-letter difference or ordinary/Uthmani spelling; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 97,
+            "ref": "39:23",
+            "arabic": "ن ع م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source/dictionary term, lemma/inflection excerpt, attached-letter difference or ordinary/Uthmani spelling; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 105,
+            "ref": "17:19",
+            "arabic": "رضا",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source/dictionary term, lemma/inflection excerpt, attached-letter difference or ordinary/Uthmani spelling; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 112,
+            "ref": "29:58",
+            "arabic": "فَنِعْمَ أَجْرُ الْعَامِلِينَ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [
+              "39:74"
+            ],
+            "matching_ref_count": 1,
+            "assessment": "Quote adds ف before نعم;29:58 has نعم أجر العاملين, while فنعم occurs in39:74."
+          },
+          {
+            "line": 114,
+            "ref": "55:37",
+            "arabic": "غضب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source/dictionary term, lemma/inflection excerpt, attached-letter difference or ordinary/Uthmani spelling; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 128,
+            "ref": "2:90",
+            "arabic": "بَاءُوا بِغَضَبٍ عَلَىٰ غَضَبٍ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source/dictionary term, lemma/inflection excerpt, attached-letter difference or ordinary/Uthmani spelling; no substantive wrong-ayah quotation identified in this span."
+          },
+          {
+            "line": 132,
+            "ref": "9:109",
+            "arabic": "رِضْوَانٍ مِنَ اللَّهِ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [
+              "3:15",
+              "9:72"
+            ],
+            "matching_ref_count": 2,
+            "assessment": "Quote رضوان من الله rearranges the actual تقوى من الله ورضوان; meaning plausible, wording inaccurate."
+          }
+        ],
+        "confirmed_wording_issues": 2,
+        "sampled_refs": [
+          "14:5",
+          "3:106",
+          "39:59",
+          "9:72",
+          "28:9",
+          "3:159"
+        ],
+        "agent_accuracy_note": "12:84 is explicitly weak: grief changes Jacob eyes; it is not anger-related swelling. The row acknowledges this distinction.",
+        "limits": "Automatic flags reviewed; English meaning/relevance sampled only. Raw rows unchanged."
+      }
+    },
+    {
+      "section": 6,
+      "model": "terra",
+      "initial": 165,
+      "proposals": 40,
+      "added": 37,
+      "repeats": 3,
+      "final": 202,
+      "check": "findings",
+      "arabic_flags": 65,
+      "missing_existing_citations": [],
+      "usage_tokens": {
+        "input_tokens": 459046,
+        "cached_input_tokens": 391936,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 55648,
+        "reasoning_output_tokens": 44912,
+        "total_tokens": 514694
+      },
+      "cost_usd": 0,
+      "diagnostics": [
+        {
+          "call_id": "call_WEwwQD5SKeK5PuKbIJM3JRjX",
+          "message": "duplicate 28:13 2"
+        },
+        {
+          "call_id": "call_WEwwQD5SKeK5PuKbIJM3JRjX",
+          "message": "duplicate 75:25 2"
+        },
+        {
+          "call_id": "call_WEwwQD5SKeK5PuKbIJM3JRjX",
+          "message": "duplicate 39:74 2"
+        }
+      ],
+      "strengths": {
+        "strong": 136,
+        "medium": 63,
+        "weak": 3
+      },
+      "validation_review.json": {
+        "reviewed_findings": [
+          {
+            "line": 38,
+            "ref": "28:9",
+            "arabic": "قرة عين",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Ordinary/Uthmani spelling difference or source-section wording; not a substantive wrong-ayah quotation."
+          },
+          {
+            "line": 63,
+            "ref": "14:5",
+            "arabic": "أيام الله",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [
+              "45:14"
+            ],
+            "matching_ref_count": 1,
+            "assessment": "Ordinary/Uthmani spelling difference or source-section wording; not a substantive wrong-ayah quotation."
+          },
+          {
+            "line": 170,
+            "ref": "22:24",
+            "arabic": "حمد",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source root/lemma, explicit neighbouring-verse reference, or Uthmani spelling difference; no substantive quotation error identified in this added row."
+          },
+          {
+            "line": 173,
+            "ref": "68:49",
+            "arabic": "حمد",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source root/lemma, explicit neighbouring-verse reference, or Uthmani spelling difference; no substantive quotation error identified in this added row."
+          },
+          {
+            "line": 178,
+            "ref": "93:7",
+            "arabic": "ضلّين",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source root/lemma, explicit neighbouring-verse reference, or Uthmani spelling difference; no substantive quotation error identified in this added row."
+          },
+          {
+            "line": 186,
+            "ref": "12:6",
+            "arabic": "نعمة",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source root/lemma, explicit neighbouring-verse reference, or Uthmani spelling difference; no substantive quotation error identified in this added row."
+          },
+          {
+            "line": 188,
+            "ref": "14:1",
+            "arabic": "حمد",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source root/lemma, explicit neighbouring-verse reference, or Uthmani spelling difference; no substantive quotation error identified in this added row."
+          },
+          {
+            "line": 189,
+            "ref": "14:8",
+            "arabic": "حمد",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source root/lemma, explicit neighbouring-verse reference, or Uthmani spelling difference; no substantive quotation error identified in this added row."
+          },
+          {
+            "line": 202,
+            "ref": "102:8",
+            "arabic": "نعيم",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source root/lemma, explicit neighbouring-verse reference, or Uthmani spelling difference; no substantive quotation error identified in this added row."
+          }
+        ],
+        "confirmed_wording_issues": 0,
+        "unreviewed_automatic_flags": 56,
+        "limits": "Multiword initial flags and all follow-up flags reviewed. Remaining initial flags and English/relevance not exhaustively verified. Exact structural repair approved; raw follow-up and failed log unchanged.",
+        "approved_repair": "See repair.accepted.json; no changes to grade or explanation.",
+        "agent_accuracy_concern": "93:7 left exegetically open."
+      }
+    },
+    {
+      "section": 7,
+      "model": "luna",
+      "initial": 135,
+      "proposals": 46,
+      "added": 46,
+      "repeats": 0,
+      "final": 181,
+      "check": "findings",
+      "arabic_flags": 57,
+      "missing_existing_citations": [],
+      "usage_tokens": {
+        "input_tokens": 1332629,
+        "cached_input_tokens": 1146112,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 111837,
+        "reasoning_output_tokens": 93371,
+        "total_tokens": 1444466
+      },
+      "cost_usd": 0,
+      "diagnostics": [
+        {
+          "call_id": "call_VG9p5hEcL8RGY5fGTUTRxQFY",
+          "message": "SyntaxError: unterminated string literal (detected at line 10)"
+        }
+      ],
+      "strengths": {
+        "strong": 96,
+        "contrast": 9,
+        "medium": 73,
+        "weak": 3
+      },
+      "validation_review.json": {
+        "reviewed_findings": [
+          {
+            "line": 11,
+            "ref": "30:50",
+            "arabic": "آثار رحمة الله",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Ordinary/Uthmani spelling difference or source-section wording; not a substantive wrong-ayah quotation."
+          },
+          {
+            "line": 15,
+            "ref": "21:91",
+            "arabic": "آيَةً لِلْعَالَمِينَ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Ordinary/Uthmani spelling difference or source-section wording; not a substantive wrong-ayah quotation."
+          },
+          {
+            "line": 18,
+            "ref": "36:41",
+            "arabic": "آيَةً لَهُمْ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Minor quotation case-ending error: cited verse has ayatun, not ayatan."
+          },
+          {
+            "line": 37,
+            "ref": "26:84",
+            "arabic": "لِسَانَ صِدْقٍ فِي الْآخِرِينَ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Ordinary/Uthmani spelling difference or source-section wording; not a substantive wrong-ayah quotation."
+          },
+          {
+            "line": 86,
+            "ref": "5:3",
+            "arabic": "بِسْمِ اللَّهِ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [
+              "1:1",
+              "2:0",
+              "3:0",
+              "4:0",
+              "5:0",
+              "6:0",
+              "7:0",
+              "8:0",
+              "10:0",
+              "11:0",
+              "11:41",
+              "12:0",
+              "13:0",
+              "14:0",
+              "15:0",
+              "16:0",
+              "17:0",
+              "18:0",
+              "19:0",
+              "20:0"
+            ],
+            "matching_ref_count": 115,
+            "assessment": "Ordinary/Uthmani spelling difference or source-section wording; not a substantive wrong-ayah quotation."
+          },
+          {
+            "line": 121,
+            "ref": "43:14",
+            "arabic": "سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَذَا",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Confirmed wrong-ayah wording: riding invocation belongs to43:13;43:14 states return to the Lord."
+          },
+          {
+            "line": 138,
+            "ref": "2:248",
+            "arabic": "آيَةَ مُلْكِهِ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source root/lemma, explicit neighbouring-verse reference, or Uthmani spelling difference; no substantive quotation error identified in this added row."
+          },
+          {
+            "line": 139,
+            "ref": "18:64",
+            "arabic": "أَثَر",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source root/lemma, explicit neighbouring-verse reference, or Uthmani spelling difference; no substantive quotation error identified in this added row."
+          },
+          {
+            "line": 139,
+            "ref": "18:64",
+            "arabic": "آثار",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source root/lemma, explicit neighbouring-verse reference, or Uthmani spelling difference; no substantive quotation error identified in this added row."
+          },
+          {
+            "line": 143,
+            "ref": "29:49",
+            "arabic": "ع ل م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source root/lemma, explicit neighbouring-verse reference, or Uthmani spelling difference; no substantive quotation error identified in this added row."
+          },
+          {
+            "line": 143,
+            "ref": "29:49",
+            "arabic": "آيَاتٌ بَيِّنَاتٌ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source root/lemma, explicit neighbouring-verse reference, or Uthmani spelling difference; no substantive quotation error identified in this added row."
+          },
+          {
+            "line": 143,
+            "ref": "29:49",
+            "arabic": "عِلْم",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source root/lemma, explicit neighbouring-verse reference, or Uthmani spelling difference; no substantive quotation error identified in this added row."
+          },
+          {
+            "line": 145,
+            "ref": "29:35",
+            "arabic": "آيَةً بَيِّنَةً",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source root/lemma, explicit neighbouring-verse reference, or Uthmani spelling difference; no substantive quotation error identified in this added row."
+          },
+          {
+            "line": 148,
+            "ref": "46:4",
+            "arabic": "ع ل م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source root/lemma, explicit neighbouring-verse reference, or Uthmani spelling difference; no substantive quotation error identified in this added row."
+          },
+          {
+            "line": 150,
+            "ref": "7:48",
+            "arabic": "يَعْرِفُونَهُم بِسِيمَاهُمْ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source root/lemma, explicit neighbouring-verse reference, or Uthmani spelling difference; no substantive quotation error identified in this added row."
+          },
+          {
+            "line": 153,
+            "ref": "23:30",
+            "arabic": "إِنَّ فِي ذَٰلِكَ لَآيَاتٍ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source root/lemma, explicit neighbouring-verse reference, or Uthmani spelling difference; no substantive quotation error identified in this added row."
+          },
+          {
+            "line": 163,
+            "ref": "58:11",
+            "arabic": "س م و",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source root/lemma, explicit neighbouring-verse reference, or Uthmani spelling difference; no substantive quotation error identified in this added row."
+          },
+          {
+            "line": 163,
+            "ref": "58:11",
+            "arabic": "ع ل م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source root/lemma, explicit neighbouring-verse reference, or Uthmani spelling difference; no substantive quotation error identified in this added row."
+          },
+          {
+            "line": 163,
+            "ref": "58:11",
+            "arabic": "عِلْم",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source root/lemma, explicit neighbouring-verse reference, or Uthmani spelling difference; no substantive quotation error identified in this added row."
+          },
+          {
+            "line": 163,
+            "ref": "58:11",
+            "arabic": "عِلْم",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source root/lemma, explicit neighbouring-verse reference, or Uthmani spelling difference; no substantive quotation error identified in this added row."
+          },
+          {
+            "line": 180,
+            "ref": "43:22",
+            "arabic": "أَثَر",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source root/lemma, explicit neighbouring-verse reference, or Uthmani spelling difference; no substantive quotation error identified in this added row."
+          },
+          {
+            "line": 180,
+            "ref": "43:22",
+            "arabic": "آثار",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source root/lemma, explicit neighbouring-verse reference, or Uthmani spelling difference; no substantive quotation error identified in this added row."
+          },
+          {
+            "line": 181,
+            "ref": "83:25",
+            "arabic": "خِتَام",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source root/lemma, explicit neighbouring-verse reference, or Uthmani spelling difference; no substantive quotation error identified in this added row."
+          }
+        ],
+        "confirmed_wording_issues": 2,
+        "unreviewed_automatic_flags": 34,
+        "limits": "Multiword initial flags and all follow-up flags reviewed. Remaining initial flags and English/relevance not exhaustively verified. Exact structural repair approved; raw follow-up and failed log unchanged.",
+        "approved_repair": "See repair.accepted.json; no changes to grade or explanation.",
+        "agent_accuracy_concern": "17:71 and43:22 weak indirect parallels;83:25–26 seal/finish interpretation uncertain."
+      }
+    }
+  ],
+  "sections": [
+    {
+      "section": 4,
+      "union": 193,
+      "overlap": 107,
+      "tiers": {
+        "strong": 137,
+        "medium": 41,
+        "contrast": 15
+      },
+      "dry_handoff": {
+        "passages": 218,
+        "discovery_candidates": 193,
+        "context_neighbours": 25,
+        "input_tokens_estimate": 76131,
+        "estimate_usd": 2.96
+      }
+    },
+    {
+      "section": 5,
+      "union": 291,
+      "overlap": 134,
+      "tiers": {
+        "strong": 243,
+        "medium": 34,
+        "contrast": 14
+      },
+      "dry_handoff": {
+        "passages": 322,
+        "discovery_candidates": 291,
+        "context_neighbours": 31,
+        "input_tokens_estimate": 100275,
+        "estimate_usd": 4.03
+      }
+    },
+    {
+      "section": 6,
+      "union": 270,
+      "overlap": 88,
+      "tiers": {
+        "medium": 73,
+        "strong": 182,
+        "contrast": 12,
+        "weak": 3
+      },
+      "dry_handoff": {
+        "passages": 299,
+        "discovery_candidates": 270,
+        "context_neighbours": 29,
+        "input_tokens_estimate": 103321,
+        "estimate_usd": 3.93
+      }
+    }
+  ],
+  "opus_started": false
+}

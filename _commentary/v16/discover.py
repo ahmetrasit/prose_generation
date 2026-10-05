@@ -230,10 +230,20 @@ def merge(s: int, secs: list[dict], q: dict[str, str], run_tag: str = "") -> Non
                 raise ValueError(f"S{s} sec{sec['k']} {model}: list changed after finish")
             if log.get('followup_mode') == 'separate-proposals-v1':
                 proposal = base / model / 'followup.tsv'
-                if not proposal.exists() or hashlib.sha256(proposal.read_bytes()).hexdigest() != log['consolidation']['followup_sha256']:
+                cons = log.get('consolidation') or {}
+                if not proposal.exists() or hashlib.sha256(proposal.read_bytes()).hexdigest() != cons.get('followup_sha256'):
                     raise ValueError(f"S{s} sec{sec['k']} {model}: raw proposals changed after finish")
+                if log.get('status') == 'accepted':
+                    repaired = base / model / 'followup.accepted.tsv'
+                    record = base / model / 'repair.accepted.json'
+                    failed = base / model / 'run.failed.log.json'
+                    if (cons.get('proposal_file') != repaired.name or not all(p.is_file() for p in (repaired,record,failed))
+                            or hashlib.sha256(repaired.read_bytes()).hexdigest() != cons.get('proposal_sha256')
+                            or hashlib.sha256(record.read_bytes()).hexdigest() != log.get('repair_record_sha256')
+                            or hashlib.sha256(failed.read_bytes()).hexdigest() != log.get('repair',{}).get('failed_log_sha256')):
+                        raise ValueError('Approved repair provenance changed or missing')
             first_path = base / model / "turn1.list.tsv"
-            if (log.get("status") != "ok" or not log.get("turn2", {}).get("completed")
+            if (log.get("status") not in ("ok", "accepted") or not log.get("turn2", {}).get("completed")
                     or bad or len({r["ref"] for r in rows}) != len(rows) or not first_path.exists()):
                 raise ValueError(f"S{s} sec{sec['k']} {model}: incomplete or invalid discovery run")
             original = first_path.read_bytes()
