@@ -1,0 +1,119 @@
+{
+  "ref": "S91",
+  "arm": "discover",
+  "brief": "session-20261005.luna.sec7",
+  "run_tag": "session-20261005",
+  "section_number": 7,
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "runner": "agent",
+  "agent_path": "/root/s91_disc_07_luna",
+  "agent_id": "01a10d1d-cd2c-7543-9a64-82e7007e4c19",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T13-30-19-01a10d1d-cd2c-7543-9a64-82e7007e4c19.jsonl",
+  "estimate_usd": 0,
+  "cost_usd": 0,
+  "cost_basis": "Codex subscription",
+  "status": "ok",
+  "check": "findings",
+  "followup_mode": "separate-proposals-v1",
+  "consolidation": {
+    "mode": "separate-proposals-v1",
+    "raw_proposal_rows": 6,
+    "unique_additions": 6,
+    "repeated_proposals": [],
+    "turn1_sha256": "d2426a31ad4d4fcaebd6ba47d8473967c9e63fdf8d57f934fbe5cd3311d03385",
+    "followup_sha256": "cb9d79684038aaeb2826911d5057650b0b53d3dbc1387cb54c57a217a96f346d",
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "cb9d79684038aaeb2826911d5057650b0b53d3dbc1387cb54c57a217a96f346d",
+    "list_sha256": "0811161ce3889ac66092229414ac2088bf0ee4ae657cf9e3fe0dc5402debb177",
+    "policy": "First occurrence retained; no existing row or grade changed. Raw followup.tsv preserved."
+  },
+  "consolidation_error": null,
+  "usage_tokens": null,
+  "turn1_rows": 46,
+  "turn1_lines": 46,
+  "turn1": {
+    "agent_path": "/root/s91_disc_07_luna",
+    "agent_id": "01a10d1d-cd2c-7543-9a64-82e7007e4c19",
+    "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T13-30-19-01a10d1d-cd2c-7543-9a64-82e7007e4c19.jsonl",
+    "rows": 46,
+    "lines": 46,
+    "bad_rows": [],
+    "usage": null,
+    "completed_at": "2026-10-05T18:09:37.615Z"
+  },
+  "turn2": {
+    "completed": true,
+    "rows_total": 52,
+    "rows_added": 6,
+    "usage": null
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "bad_rows": [],
+  "duplicates": {},
+  "source_sha256": "5aabbf73b56e4c9f73d1798fac8ea957a81fd466aa9c1c000ece28705c8d4f0e",
+  "inputs_unchanged": true,
+  "followup_delivery": [
+    {
+      "call_id": "call_b5008eb50de34d5db1abc4629b9eaaad",
+      "timestamp": "2026-10-05T19:19:21.430Z",
+      "target": "s91_disc_07_luna",
+      "parent_transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/04/rollout-2026-10-04T21-37-28-01a109b5-7256-7930-b51e-78b0a209e630.jsonl",
+      "message_encrypted": true,
+      "plaintext_matches": false
+    }
+  ],
+  "protocol_findings": [],
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [
+    {
+      "call_id": "call_8mukNdz2rBg4phIzBOqriUgF",
+      "message": "Script failed"
+    },
+    {
+      "call_id": "call_8mukNdz2rBg4phIzBOqriUgF",
+      "message": "Script error:"
+    },
+    {
+      "call_id": "call_8mukNdz2rBg4phIzBOqriUgF",
+      "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/_commentary/v16/out/s091/discovery/session-20261005/sec7/luna/list.tsv:"
+    },
+    {
+      "call_id": "call_mVYWFWfYdXFyxEyiTsiq6NKg",
+      "message": "Script failed"
+    },
+    {
+      "call_id": "call_mVYWFWfYdXFyxEyiTsiq6NKg",
+      "message": "Script error:"
+    },
+    {
+      "call_id": "call_mVYWFWfYdXFyxEyiTsiq6NKg",
+      "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/_commentary/v16/out/s091/discovery/session-20261005/sec7/luna/list.tsv:"
+    },
+    {
+      "call_id": "call_UPAd1YDEuOZMuS0lCvQmUgxq",
+      "message": "Script failed"
+    },
+    {
+      "call_id": "call_UPAd1YDEuOZMuS0lCvQmUgxq",
+      "message": "Script error:"
+    },
+    {
+      "call_id": "call_UPAd1YDEuOZMuS0lCvQmUgxq",
+      "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/_commentary/v16/out/s091/discovery/session-20261005/sec7/luna/list.tsv:"
+    }
+  ],
+  "arabic_findings": 22,
+  "followup": "Review your remembered coverage for qualifying omissions under the same inclusion and grading rules, checking the section's distinct scenes and secondary details, repeated formulations, specific indirect parallels, reversals, and necessary passage continuations. Write only the new candidate proposals to /Volumes/aro/projects/prose_generation/_commentary/v16/out/s091/discovery/session-20261005/sec7/luna/followup.tsv using the same four-field TSV schema, with no header. Do not modify list.tsv. Check from memory that each proposal belongs to its cited ayah; distinguish that ayah's contribution from neighbouring verses. Prefer English over uncertain Arabic quotations. Do not repeat references intentionally. The workflow will preserve your proposals and append each new reference once; it will retain repeated proposals in an audit sidecar without changing existing rows or grades. Zero additions is valid: create an empty followup.tsv. Do not read any files, retrieve sources, consult other agents, or run scripts. A file-write tool or literal shell write solely to save followup.tsv is permitted. Return only a brief completion notice, including any self-detected accuracy concerns; do not send separate messages.",
+  "strength_counts": {
+    "strong": 15,
+    "contrast": 13,
+    "medium": 24
+  },
+  "list_sha256": "0811161ce3889ac66092229414ac2088bf0ee4ae657cf9e3fe0dc5402debb177",
+  "prompt_sha256": "00a90af5f85bc7af1050f9772c35d69bde1347e7a87459e777df62b082640b2b",
+  "package_sha256": "837400de0926a6f5d29b47f442dbabdd14aeb8f789a8494dd56a643d21991754",
+  "completed_at": "2026-10-05T19:23:20.023Z",
+  "seconds": 6787
+}

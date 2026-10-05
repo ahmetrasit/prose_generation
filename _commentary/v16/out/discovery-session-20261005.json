@@ -1,0 +1,42 @@
+{
+  "scope": "Complete image-based discovery for remaining existing surah image prose; retain current S87/S100 Sol max augmentation. No new augmentation authorized for the remaining nine surahs.",
+  "surahs": [
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    107
+  ],
+  "sections": {
+    "88": 15,
+    "89": 13,
+    "90": 14,
+    "91": 11,
+    "92": 16,
+    "93": 18,
+    "94": 16,
+    "95": 12,
+    "107": 10
+  },
+  "run_tag": "session-20261005",
+  "models": {
+    "luna": "gpt-6-luna",
+    "terra": "gpt-5.6-sol"
+  },
+  "effort": "max",
+  "combined_active_discovery_cap": 40,
+  "current_sol_agents_excluded_from_user_cap": true,
+  "surah96": "out of scope",
+  "spawn_method": "Direct collaboration tools only, including same-session followups",
+  "production_defaults": "Unchanged; Opus remains default",
+  "token_accounting": "Ignored for this session",
+  "progress": "S87/S100 augmentation and S88/S89 discovery complete and pushed. S90 merged13/14, S91 merged10/11, S92 merged2/16. All S92 pairs and S93 pairs1\u20134 started. Remaining S93 sections5\u201318, S94/S95/S107 queued. Parent actively orchestrating within cap40.",
+  "attempt_selection": {
+    "S89:12": "session-20261005-retry1",
+    "S91:5": "session-20261005-retry1"
+  }
+}
