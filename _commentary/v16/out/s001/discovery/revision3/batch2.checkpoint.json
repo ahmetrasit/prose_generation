@@ -1,0 +1,134 @@
+{
+  "status": "awaiting_user_decision",
+  "reason": "Section5 Luna appended49:7 twice; native finish statuspartial; no partial-run merge permitted.",
+  "proposal": "sec5/luna/repair.proposal.json",
+  "proposed_copy": "sec5/luna/consolidation.proposed.tsv",
+  "proposal_accepted": false,
+  "jobs": [
+    {
+      "section": 4,
+      "model": "terra",
+      "task": "s1_r3_04_terra",
+      "batch": 2,
+      "state": "first_turn_complete_followup_held",
+      "rows": 162,
+      "bad_rows": []
+    },
+    {
+      "section": 5,
+      "model": "luna",
+      "task": "s1_r3_05_luna",
+      "batch": 2,
+      "state": "partial",
+      "rows": 166,
+      "added": 61,
+      "check": "findings",
+      "cost_usd": 0,
+      "arabic_findings": 26,
+      "diagnostics": [
+        {
+          "call_id": "call_dgV2dyPQyTPrOfEoHMkryKLv",
+          "message": "duplicate-ref 12:6"
+        },
+        {
+          "call_id": "call_dgV2dyPQyTPrOfEoHMkryKLv",
+          "message": "duplicate-ref 49:17"
+        },
+        {
+          "call_id": "call_dgV2dyPQyTPrOfEoHMkryKLv",
+          "message": "duplicate-ref 40:61"
+        }
+      ]
+    },
+    {
+      "section": 5,
+      "model": "terra",
+      "task": "s1_r3_05_terra",
+      "batch": 2,
+      "state": "first_turn_complete_followup_held",
+      "rows": 180,
+      "bad_rows": []
+    },
+    {
+      "section": 6,
+      "model": "luna",
+      "task": "s1_r3_06_luna",
+      "batch": 2,
+      "state": "finished",
+      "rows": 167,
+      "added": 38,
+      "check": "findings",
+      "cost_usd": 0,
+      "arabic_findings": 41,
+      "diagnostics": [
+        {
+          "call_id": "call_cK2oynVHr6gaEdmDdS7IWLbc",
+          "message": "duplicate reference 18 20:82"
+        },
+        {
+          "call_id": "call_cK2oynVHr6gaEdmDdS7IWLbc",
+          "message": "duplicate basis 28 theme"
+        },
+        {
+          "call_id": "call_cK2oynVHr6gaEdmDdS7IWLbc",
+          "message": "duplicate basis 84 scene"
+        }
+      ]
+    },
+    {
+      "section": 6,
+      "model": "terra",
+      "task": "s1_r3_06_terra",
+      "batch": 2,
+      "state": "first_turn_complete_followup_held",
+      "rows": 142,
+      "bad_rows": []
+    },
+    {
+      "section": 7,
+      "model": "luna",
+      "task": "s1_r3_07_luna",
+      "batch": 2,
+      "state": "finished",
+      "rows": 158,
+      "added": 25,
+      "check": "findings",
+      "cost_usd": 0,
+      "arabic_findings": 37,
+      "diagnostics": [
+        {
+          "call_id": "call_ndv9lpBhwrbleF1jKkfwU941",
+          "message": "duplicate 14:25 2"
+        },
+        {
+          "call_id": "call_ndv9lpBhwrbleF1jKkfwU941",
+          "message": "duplicate 99:6 2"
+        },
+        {
+          "call_id": "call_ndv9lpBhwrbleF1jKkfwU941",
+          "message": "duplicate 24:36 2"
+        },
+        {
+          "call_id": "call_ndv9lpBhwrbleF1jKkfwU941",
+          "message": "duplicate 30:50 2"
+        }
+      ]
+    },
+    {
+      "section": 7,
+      "model": "terra",
+      "task": "s1_r3_07_terra",
+      "batch": 2,
+      "state": "first_turn_complete_followup_held",
+      "rows": 119,
+      "bad_rows": []
+    }
+  ],
+  "unstarted_batches": [
+    3,
+    4
+  ],
+  "unstarted_agents": 14,
+  "opus_started": false,
+  "source_unchanged": true
+}

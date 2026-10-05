@@ -1,0 +1,102 @@
+{
+  "ref": "S1",
+  "arm": "discover",
+  "brief": "revision3.luna.sec6",
+  "run_tag": "revision3",
+  "section_number": 6,
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "runner": "agent",
+  "agent_path": "/root/s1_r3_06_luna",
+  "agent_id": "01a10a58-0e89-7500-9cf7-72bb6669a920",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T00-35-05-01a10a58-0e89-7500-9cf7-72bb6669a920.jsonl",
+  "estimate_usd": 0,
+  "cost_usd": 0,
+  "cost_basis": "Codex subscription",
+  "status": "ok",
+  "check": "findings",
+  "usage_tokens": {
+    "input_tokens": 588678,
+    "cached_input_tokens": 515584,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 56637,
+    "reasoning_output_tokens": 47930,
+    "total_tokens": 645315
+  },
+  "turn1_rows": 129,
+  "turn1_lines": 129,
+  "turn1": {
+    "agent_path": "/root/s1_r3_06_luna",
+    "agent_id": "01a10a58-0e89-7500-9cf7-72bb6669a920",
+    "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T00-35-05-01a10a58-0e89-7500-9cf7-72bb6669a920.jsonl",
+    "rows": 129,
+    "lines": 129,
+    "bad_rows": [],
+    "usage": {
+      "input_tokens": 359574,
+      "cached_input_tokens": 307456,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 38631,
+      "reasoning_output_tokens": 31783,
+      "total_tokens": 398205
+    },
+    "completed_at": "2026-10-05T04:46:50.961Z"
+  },
+  "turn2": {
+    "completed": true,
+    "rows_total": 167,
+    "rows_added": 38,
+    "usage": {
+      "input_tokens": 229104,
+      "cached_input_tokens": 208128,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 18006,
+      "reasoning_output_tokens": 16147,
+      "total_tokens": 247110
+    }
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "bad_rows": [],
+  "duplicates": {},
+  "source_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "inputs_unchanged": true,
+  "followup_delivery": [
+    {
+      "call_id": "call_5WCOB90S2c2QQCAmghngESAa",
+      "timestamp": "2026-10-05T04:47:03.033Z",
+      "target": "s1_r3_06_luna",
+      "parent_transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/04/rollout-2026-10-04T21-37-28-01a109b5-7256-7930-b51e-78b0a209e630.jsonl",
+      "message_encrypted": true,
+      "plaintext_matches": false
+    }
+  ],
+  "protocol_findings": [],
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [
+    {
+      "call_id": "call_cK2oynVHr6gaEdmDdS7IWLbc",
+      "message": "duplicate reference 18 20:82"
+    },
+    {
+      "call_id": "call_cK2oynVHr6gaEdmDdS7IWLbc",
+      "message": "duplicate basis 28 theme"
+    },
+    {
+      "call_id": "call_cK2oynVHr6gaEdmDdS7IWLbc",
+      "message": "duplicate basis 84 scene"
+    }
+  ],
+  "arabic_findings": 41,
+  "followup": "Review your remembered coverage for qualifying omissions under the same inclusion and grading rules, checking the section's distinct scenes and secondary details, repeated formulations, specific indirect parallels, reversals, and necessary passage continuations. Append only previously unlisted ayah references using the same TSV schema. Keep existing bytes unchanged. Zero additions is valid. Do not read any files, retrieve sources, or run scripts; a file-write tool or a literal append-only shell write solely to save the rows is permitted. Do not regrade, sort, or rewrite the existing list. Return only a brief completion notice.",
+  "strength_counts": {
+    "strong": 78,
+    "medium": 88,
+    "weak": 1
+  },
+  "list_sha256": "04a1643cd0ff2040b621e1b510a91a42dc29d612bde4e3dee4f7f7c0f32a8ee9",
+  "prompt_sha256": "b1c1c678076bbf5e8175391df18884fb3e08c511e79ef3a9597f15750c3f6c9a",
+  "package_sha256": "81712c9e91f7d748dc714f63ade8281fc834f79362930738b70fa65f98d65255",
+  "completed_at": "2026-10-05T04:52:33.968Z",
+  "seconds": 1084
+}

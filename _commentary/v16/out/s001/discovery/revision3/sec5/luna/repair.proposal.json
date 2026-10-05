@@ -1,0 +1,25 @@
+{
+  "status": "proposal_only_not_accepted",
+  "raw_sha256": "257045a9341f9e3f06de52acf07ae9280fa437baefba7fb785ae162b2bb14d7b",
+  "duplicate_rows": [
+    {
+      "line": 154,
+      "row": "strong\t49:7\troot+theme+contrast\tGod makes faith beloved in believers’ hearts and disbelief hateful, then identifies them as rightly guided through “فضلا من الله ونعمة.” It names inwardly given faith as favor and guidance."
+    },
+    {
+      "line": 161,
+      "row": "strong\t49:7\troot+theme\tThe verse says faith was made beloved to believers and calls that guidance “فضلا من الله ونعمة.” It shows favor as an inwardly formed way of seeing and choosing."
+    }
+  ],
+  "proposed_resolution": "Preserve the raw run and partial status. Create a separately audited consolidated downstream copy with one 49:7 candidate, preserving both original explanations in provenance. Flag that فضلا من الله ونعمة belongs to 49:8, not 49:7. No third model turn or fresh discovery call.",
+  "canonical_49_7": "وَٱعْلَمُوٓا۟ أَنَّ فِيكُمْ رَسُولَ ٱللَّهِ ۚ لَوْ يُطِيعُكُمْ فِى كَثِيرٍۢ مِّنَ ٱلْأَمْرِ لَعَنِتُّمْ وَلَٰكِنَّ ٱللَّهَ حَبَّبَ إِلَيْكُمُ ٱلْإِيمَٰنَ وَزَيَّنَهُۥ فِى قُلُوبِكُمْ وَكَرَّهَ إِلَيْكُمُ ٱلْكُفْرَ وَٱلْفُسُوقَ وَٱلْعِصْيَانَ ۚ أُو۟لَٰٓئِكَ هُمُ ٱلرَّٰشِدُونَ",
+  "canonical_49_8": "فَضْلًۭا مِّنَ ٱللَّهِ وَنِعْمَةًۭ ۚ وَٱللَّهُ عَلِيمٌ حَكِيمٌۭ",
+  "authorization": "pending user decision under RUNBOOK rule4",
+  "proposed_file": "_commentary/v16/out/s001/discovery/revision3/sec5/luna/consolidation.proposed.tsv",
+  "proposed_sha256": "a1db6a41b4d8de258f234a8ceb137b173b8108c2770f2e4b55f1efa764d6b619",
+  "proposed_rows": 165,
+  "proposed_schema_errors": [],
+  "proposed_duplicates": {},
+  "first_turn_prefix_unchanged": true,
+  "exact_operation": "Remove only the later duplicate 49:7 row at raw line161 from a COPY. Both original explanations remain in raw output and duplicate_rows above; retain original first row and grades unchanged. Separate semantic finding identifies quotation from49:8."
+}
