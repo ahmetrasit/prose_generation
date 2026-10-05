@@ -31,6 +31,12 @@ the knowledge around it and integrates the base's findings with the literature.
   `get` takes many locators at once: open what you need in few calls.
 - Commands: absolute paths; no shell loops, no shell variables, no `cd` into other directories (such commands may
   be refused). Several commands may be joined with `;` in one call. Read each file once and keep notes.
+- Reading economy (user, 2026-10-04): every tool result stays in your context for the rest of the call and is
+  read again on every later turn, so the size of what you pull in sets the cost of the whole call. Read a pack
+  file once, with the Read tool, one file per call; never `cat` several files in one command. `search` with
+  `--n 10 --chars 300`; `get` with `--chars 1500` unless you need the whole text, and open only what you will
+  use. A result the harness spills to a file is read once; take your notes from it then and do not open it again.
+  The schema card is the format: never read other pages' call directories or out/ for examples.
 - Your call directory (the only place you write) is given in the job header.
 
 ## Sources: what is authoritative, what is allowed
