@@ -18,9 +18,23 @@ ARABIC = re.compile(r"[\u0600-\u06ff\u0750-\u077f\u08a0-\u08ff]+(?:[ \t]+[\u0600
 
 def normalize(text):
     text = unicodedata.normalize("NFKD", text).replace("ٱ", "ا").replace("ـ", "")
-    return " ".join("".join(c for c in text if c.isspace() or
-                            (unicodedata.category(c).startswith("L") and
-                             "ARABIC" in unicodedata.name(c, ""))).split())
+    letters = []
+    for char in text:
+        if char == "ٰ":
+            # Uthmani often writes an ordinary alif as a superscript alif.
+            if letters and letters[-1] not in "اى":
+                letters.append("ا")
+        elif char.isspace() or (unicodedata.category(char) == "Lo" and
+                               "ARABIC" in unicodedata.name(char, "")):
+            letters.append(char)
+    return " ".join("".join(letters).replace("ى", "ي").split())
+
+
+def contains(verse, wording):
+    if f" {wording} " in f" {verse} ":
+        return True
+    # An excerpt may omit the attached conjunction before its first word.
+    return any(f" {prefix}{wording} " in f" {verse} " for prefix in ("و", "ف"))
 
 
 def check(path, surah, verses):
@@ -30,10 +44,10 @@ def check(path, surah, verses):
     for row in rows:
         for match in ARABIC.finditer(row["note"]):
             wording = normalize(match.group())
-            if not wording or f" {wording} " in f" {normalized[row['ref']]} ":
+            if not wording or contains(normalized[row['ref']], wording):
                 continue
             elsewhere = [ref for ref, text in normalized.items()
-                         if f" {wording} " in f" {text} "] if len(wording.split()) >= 2 else []
+                         if contains(text, wording)] if len(wording.split()) >= 2 else []
             findings.append({"line": row["line"], "ref": row["ref"], "arabic": match.group(),
                              "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
                              "matching_refs": elsewhere[:20], "matching_ref_count": len(elsewhere)})

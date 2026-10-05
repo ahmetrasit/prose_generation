@@ -1,0 +1,81 @@
+{
+  "ref": "S1",
+  "arm": "discover",
+  "brief": "discover2.terra.sec1",
+  "run_tag": "revision2",
+  "model": "gpt-5.6-terra",
+  "effort": "max",
+  "runner": "agent",
+  "orchestration": "collaboration",
+  "agent_path": "/root/s1_sec1_v2_terra",
+  "agent_id": "01a109fc-6d9f-7ca3-bb0d-51b4aff46a9d",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/04/rollout-2026-10-04T22-55-00-01a109fc-6d9f-7ca3-bb0d-51b4aff46a9d.jsonl",
+  "section": "Çiğnenmiş yol: önden giden kılavuz, yolun ortası, nişanlar ve yolu bulamayan",
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "status": "ok",
+  "check": "findings",
+  "usage_tokens": {
+    "input_tokens": 453742,
+    "cached_input_tokens": 400384,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 27722,
+    "reasoning_output_tokens": 18823,
+    "total_tokens": 481464
+  },
+  "turn1_rows": 148,
+  "turn1": {
+    "completed": true,
+    "rows": 148,
+    "usage": {
+      "input_tokens": 183865,
+      "cached_input_tokens": 149504,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 11327,
+      "reasoning_output_tokens": 3946,
+      "total_tokens": 195192
+    },
+    "bad_rows": 0
+  },
+  "turn2": {
+    "completed": true,
+    "rows_total": 169,
+    "rows_added": 21,
+    "bad_rows": 0,
+    "usage": {
+      "input_tokens": 269877,
+      "cached_input_tokens": 250880,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 16395,
+      "reasoning_output_tokens": 14877,
+      "total_tokens": 286272
+    }
+  },
+  "append_only": true,
+  "duplicates": {},
+  "bad_rows": [],
+  "protocol_findings": [],
+  "tool_diagnostics": [
+    {
+      "call_id": "call_XxyDwKYTIn06VPWFvv3I01TG",
+      "phase": "turn1",
+      "error": "Read list.tsv before it existed: No such file or directory. Agent continued and created it."
+    },
+    {
+      "phase": "turn2",
+      "error": "Completion message reported 22 additions; file has 21. File count is authoritative."
+    }
+  ],
+  "arabic_findings": 18,
+  "followup": "Review your remembered coverage for missing ayat under the same inclusion and grading rules. Append only qualifying omissions, using the same TSV schema. Zero additions is a valid result. Do not read files or run scripts; file writes needed to append the rows are permitted.",
+  "strength_counts": {
+    "strong": 88,
+    "contrast": 5,
+    "medium": 74,
+    "weak": 2
+  },
+  "list_sha256": "2916b3d2cad3df0f19d61ede56600e6aa72f5eeb45427d298d630f879eb587bd",
+  "completed_at": "2026-10-05T03:22:19.376Z",
+  "seconds": 1668
+}
