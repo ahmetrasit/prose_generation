@@ -504,6 +504,14 @@ def show(row, chars: int, start: int = 0) -> None:
         flags.append(f"sahih={extra['sahih']} by={'|'.join(extra.get('graded_by') or []) or '-'}")
     if extra.get("page"):
         flags.append(f"page={extra['page']}")
+    # the text's standing, so that an unverified page is never quoted as if checked (user, 2026-10-05)
+    if extra.get("text_status"):
+        flags.append(f"STATUS: {extra['text_status']}")
+    for k, say in (("marker_found", "note marker not found: tie approximate"),
+                   ("align_uncertain", "verse alignment uncertain"), ("duplicate", "duplicate of other segments"),
+                   ("secondary", "secondary study")):
+        if extra.get(k) is (False if k == "marker_found" else True):
+            flags.append(say)
     head_line = f"== {seg}" + (f"  [{head}]" if head else "") + ("  " + " ".join(flags) if flags else "")
     room = CALL_LIMIT - _used if CALL_LIMIT else None
     if CALL_LIMIT and _bytes_out() > OUT_BYTES - 3_000:  # leave room for the closing note
@@ -598,8 +606,14 @@ def cmd_ayah(ref: str, kinds: str | None, src: str | None, chars: int) -> None:
         ids = src.split(",")
         sql += f" AND src IN ({','.join('?' * len(ids))})"
         args += ids
+    dups = []
     for r in con.execute(sql + " ORDER BY src, a", args):
+        if json.loads(r[7] or "{}").get("duplicate"):
+            dups.append(f"{r[0]}({len(r[6] or ''):,})")  # repeats text shown elsewhere: listed, not printed
+            continue
         show(r, chars)
+    if dups:
+        print(f"DUPLICATES not printed (their text is in the segments above): {' '.join(dups)}")
     # segments that cite the ayah without being tied to it: counted here, never silently left out
     cited = cites_rows(con, s, a, src)
     if cited:
