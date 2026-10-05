@@ -7,4 +7,5 @@ its whole Qurʾānic usage (no two words synonymous), the surah's context and th
 whole, the commentators answered one by one. Give what they say about these ayat: the word distinctions (why this
 word, not its near-synonym), why this form, order or omission, how they answer earlier commentators. All these
 texts are typed digital editions not yet checked against the print: report in Turkish, cite the locator, do not
-copy their Arabic wording. Every page of your unit hears this voice or gets a kapsam line saying why not.
+copy their Arabic wording. Some segments are excerpts of pages that only cite these ayat («cites …»): report what
+they say about them. Every page of your unit hears this voice or gets a kapsam line saying why not.

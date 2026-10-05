@@ -170,6 +170,29 @@ C9. Cost model for the plan table (calibrated on the trials; recalibrate after t
     actual per unit.
 C10. Run order for the first test: S1 with the user's go, groups in parallel (batches of 7 agents), finish,
     merge, compare with the reference 1:1 page and the four trials, report.
+C11. **Status 2026-10-05 evening, after REVIEW_grup_2026-10-05.md** (user: "i'll run astra myself, just make
+    sure the workflow is ready … i do not want dictionary … no redundant/unnecessary instructions or reads or
+    writes"). Done in grup.py/groups.json/briefs: lugat removed and every lexicon + PROJE listed under groups.json
+    `not_read` (printed by plan; oncul no longer searches lexica); `prepare --model astra|opus` (Astra: prompt.md +
+    started.json, the user runs it; Opus: spawn.md as before) and a runner-aware `finish` (Codex session log found
+    by the call directory: tokens, weekly readings, outputs Codex truncated → WARNING); one self-contained brief
+    `prompts/grup.md` (common.md no longer sent to units; common.md unchanged for enrich.py); the per-segment
+    list in the prompt removed (each material heading `### LOC [tie] → page` is the list); en/tr translations
+    dropped from Arabic segments (hadith); lines wrapped at 1,900; budget on full item text; balanced units split
+    at page boundaries; `unit: surah` honored (one meal verdict, one bayānī/Biqāʿī unit); `cites: true` for
+    beyani-huli and nazm-islahi (S87 bayānī voice now 12 citing segments on 5 pages); untied sources (ITQAN,
+    BURHAN, NASHR, MUSHKIL, SIBAWAYH, CUYPERS, BINTSHATI-IJAZ …) read by phrase search; surah-level segments also
+    routed to the ayah they cite (≤3); POS bug fixed, formula phrases skipped (recorded); too-common and capped
+    search counts printed; finish checks kullanildi ids, required voice per page, stray/whole-vs-parts records;
+    merge makes ids unique before the check (no collision drop/re-admit), lists drops with reasons, skips error
+    units, writes each required voice's state per page; an ayah group's untied segments that cite the surah are
+    read too (S1 modern-bati: 66 Study Quran essay segments). A Sonnet review of grup.py (2026-10-05) found merge
+    dropping every record (internal keys failed the unknown-field check), oncul always 'error' (no kapsam; now
+    gaps.json is its output), silent stray record files, unprinted finish errors and audit results: all fixed;
+    finish/merge tested on a scratch copy with the 1:1 reference records split into two colliding units (53 in,
+    51 kept, the 2 broken ones dropped with reasons). Plans written: S1 46 units, S87 28 units. Open: S87 meal as one
+    unit is large (124k material + 169k digest tokens); digest repetition across units remains the largest token
+    cost; usage.md/errata (duzeltme) still have no owner.
 
 ### Task D — Evaluation before production (gate)
 D1. Test set: 1:1, 1:7, 105:1/4, 107:7, 112:1–4 (+ 2:196, 3:7, 33:35 when their packs exist).

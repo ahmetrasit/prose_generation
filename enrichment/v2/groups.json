@@ -1,5 +1,5 @@
 {
- "_doc": "Hybrid enrichment groups (user, 2026-10-05: many passes, grouped by tradition so each agent's share is small; every source read; no silent losses; blocks are independent units anchored to the frozen v16 prose). material: ayah = segments tied to the page's ayah (a range segment goes to the surah unit); root = classical lexica entries of the bound roots; search = hits of script-run searches (recorded); meal = the pack's meal files; none = the agent searches itself (antecedents). required: the page must hear this voice (cited, or a recorded reason). odak: what the group's agent is for (Turkish/English brief text). cites = segments that cite the ayah without being tied to it (corpus.py cites; reference works). Added 2026-10-05: the six groups after «meal»/«oncul» claim every held source that had none (source_status.py lists any left); groups whose material for a unit is empty are not run, and small units are merged up to budget_chars (grup.py).",
+ "_doc": "Hybrid enrichment groups (user, 2026-10-05: many passes, grouped by tradition so each agent's share is small; every source read; no silent losses; blocks are independent units anchored to the frozen v16 prose). material: ayah = segments tied to an ayah of the surah (a tie of up to 3 ayat goes to its first ayah's page; a wider or surah-level tie to the page of the single ayah it cites, else the surah page); a held source of an ayah group with no ayah tie anywhere in the corpus is reached by phrase search (the ayah's three-word sequences); cites: true adds segments that cite the surah's ayat without being tied (excerpts); cites = only such citing segments (reference works); search = hits of script-run searches (recorded, caps printed); meal = the pack's meal files; none = the agent searches itself (antecedents). required: every page hears this voice (a block, the agent's recorded reason, or the script's 'no material on this page'). unit: surah = one unit for the whole surah, never split (one verdict, one voice). odak: what the group's agent is for. not_read: sources no group reads, with the reason (printed by plan). Units are packed to budget_chars of material, balanced, split at page boundaries.",
  "budget_chars": 110000,
  "groups": [
   {
@@ -108,7 +108,8 @@
     "SAMARRAI-ASRAR",
     "SAMARRAI-ASRAR-MUH"
    ],
-   "odak": "REQUIRED VOICE (user, 2026-10-05). The bayānī line: the al-Khūlī school (Bint al-Shāṭiʾ's al-Tafsīr al-bayānī and al-Iʿjāz al-bayānī; two secondary studies of al-Khūlī's method) and Fāḍil al-Sāmarrāʾī (Lamasāt bayāniyya, Asrār al-bayān): a word's sense from its whole Qur'anic usage, why this word, form or order and not its near-synonym, the literary and psychological reading; their findings and their principled objections (e.g. one sense in context against reading several latent senses)."
+   "odak": "REQUIRED VOICE (user, 2026-10-05). The bayānī line: the al-Khūlī school (Bint al-Shāṭiʾ's al-Tafsīr al-bayānī and al-Iʿjāz al-bayānī; two secondary studies of al-Khūlī's method) and Fāḍil al-Sāmarrāʾī (Lamasāt bayāniyya, Asrār al-bayān): a word's sense from its whole Qur'anic usage, why this word, form or order and not its near-synonym, the literary and psychological reading; their findings and their principled objections (e.g. one sense in context against reading several latent senses).",
+   "cites": true
   },
   {
    "id": "isari",
@@ -154,29 +155,6 @@
    "odak": "Readings: canonical, non-canonical and Companion readings, and what each does to meaning; leave out what changes only pronunciation."
   },
   {
-   "id": "lugat",
-   "material": "root",
-   "sources": [
-    "AYN",
-    "JAMHARA",
-    "TAHDHIB",
-    "SIHAH",
-    "MAQAYIS",
-    "MUFRADAT",
-    "LISAN",
-    "ASAS",
-    "FURUQ",
-    "SAMIN-UMDA",
-    "TAJ",
-    "QAMUS",
-    "LANE",
-    "MUHIT",
-    "VASIT",
-    "HANSWEHR"
-   ],
-   "odak": "The lexica of the ayah's bound roots (PACK binding.json is the only root authority): senses and branches in the lexica's own words with their shawāhid, literal versus figurative (Asās), near-synonyms (Furūq), Maqāyīs's uṣūl; evidence for and against the commentary's lexical images."
-  },
-  {
    "id": "vucuh",
    "material": "search",
    "sources": [
@@ -193,10 +171,7 @@
     "ELMALILI",
     "KURANYOLU-TEFSIR"
    ],
-   "extra": [
-    "turkish"
-   ],
-   "odak": "Turkish tafsir (Elmalılı, Kur'an Yolu) and Turkish word history (PACK turkish.md: Nişanyan, TDK, Kubbealtı): what the Turkish reader's words have drifted from (anlam_tarihi)."
+   "odak": "Turkish tafsir (Elmalılı, Kur'an Yolu): their reading of the ayah and where it differs from the classical and from the commentary."
   },
   {
    "id": "ulum-nuzul",
@@ -232,7 +207,7 @@
    "material": "meal",
    "unit": "surah",
    "sources": [],
-   "odak": "The meal review (zengin.md Step 5) for every ayah of the surah: word-by-word for each ayah page, the losses shared across the surah and the verdict on the surah page; translators judged by patterns across a term's occurrences (corpus.py get MEAL-X:S:A)."
+   "odak": "The meal review (zengin.md Step 5) for every ayah of the surah: word-by-word for each ayah page, the losses shared across the surah and the one surah verdict on the surah page; translators judged by patterns across a term's occurrences (corpus.py get MEAL-X:S:A)."
   },
   {
    "id": "oncul",
@@ -257,7 +232,8 @@
     "CUYPERS-COMPOSITION",
     "FARAHI-NIZAM"
    ],
-   "odak": "Coherence (naẓm) of the Farāhī–Iṣlāḥī school: the surah's central theme (ʿamūd), its relation to the paired surah, the section the ayah sits in; Cuypers's rhetorical analysis (parallel and concentric composition) where it treats the passage. Complements nazm-bikai."
+   "odak": "Coherence (naẓm) of the Farāhī–Iṣlāḥī school: the surah's central theme (ʿamūd), its relation to the paired surah, the section the ayah sits in; Cuypers's rhetorical analysis (parallel and concentric composition) where it treats the passage. Complements nazm-bikai.",
+   "cites": true
   },
   {
    "id": "akademik",
@@ -310,10 +286,33 @@
    "sources": [
     "KUBBEALTI",
     "TDK",
-    "NISANYAN",
+    "NISANYAN"
+   ],
+   "odak": "Turkish dictionaries for the page's Turkish wording (PACK turkish.md: Nişanyan, TDK, Kubbealtı): the senses and history of the Arabic loanwords the meals and the prose use, and what they have drifted from (anlam_tarihi)."
+  }
+ ],
+ "not_read": [
+  {
+   "sources": [
+    "AYN",
+    "JAMHARA",
+    "TAHDHIB",
+    "SIHAH",
+    "MAQAYIS",
+    "MUFRADAT",
+    "LISAN",
+    "ASAS",
+    "FURUQ",
+    "SAMIN-UMDA",
+    "TAJ",
+    "QAMUS",
+    "LANE",
+    "MUHIT",
+    "VASIT",
+    "HANSWEHR",
     "PROJE"
    ],
-   "odak": "Turkish dictionaries for the page's Turkish wording: the senses and history (Nişanyan) of Arabic loanwords the prose uses (anlam_tarihi), and the project's own dictionary entries."
+   "reason": "user, 2026-10-05: «i do not want dictionary since i already have it in my original analysis» — the base was written from the project dictionary (PROJE) and the lexica; no group reads them again, and oncul does not search them for antecedents"
   }
  ]
 }
