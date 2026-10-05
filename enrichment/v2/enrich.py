@@ -65,7 +65,8 @@ RUN_MODEL = "opus:high"   # the model used when --model is not given (user, 2026
 MAX_USD = 40          # per Claude call (--max-budget-usd); Codex runs are on the subscription
 TIMEOUT = 8 * 3600    # seconds per call; a call past it is killed and logged as an error
 CLAUDE_TOOLS = "Bash,Read,Write,Edit,Glob,Grep"
-BRIEF = "zengin"
+BRIEF = "zengin"          # the Islamic pass; --pass ehlikitap sets "ehlikitap" (the Bible layers, user 2026-10-04)
+GELENEK = {"zengin": "islami", "ehlikitap": "ehlikitap"}
 SESSIONS = Path.home() / ".codex" / "sessions"
 
 sys.path.insert(0, str(V2))
@@ -104,7 +105,14 @@ def call_dir(s: int, target: str, attempt: int = 1, model: str = DEFAULT_MODEL, 
 
 
 def page_name(s: int, target: str) -> str:
-    return "surah.md" if target == "surah" else f"{tag(target)}.md"
+    stem = "surah" if target == "surah" else tag(target)
+    return f"{stem}.md" if BRIEF == "zengin" else f"{stem}.{BRIEF}.md"  # the Bible pass has its own page beside the Islamic one
+
+
+def discovery_list(s: int, target: str) -> Path | None:
+    """The merged Bible discovery list for a page (discover.py --bible --merge), when it exists."""
+    f = PG / "_commentary" / "v16" / "out" / f"s{s:03d}" / "discovery_bible" / f"{tag(target)}.merged.tsv"
+    return f if f.exists() else None
 
 
 def accepted(s: int, target: str) -> bool:
@@ -200,10 +208,14 @@ def header(s: int, target: str, d: Path, runner: str = "codex") -> str:
         f"- Schema card: {V2 / 'SCHEMA_CARD.md'} (read it once; the full reference is {V2 / 'SCHEMA.md'})",
         f"- Corpus tool: {py} {V2 / 'tools' / 'corpus.py'}",
         f"- Validator: {py} {V2 / 'validate.py'} --surah {s} --target {target} --annotations "
-        f"{d / 'annotations.jsonl'}",
+        f"{d / 'annotations.jsonl'}" + (" --pass ehlikitap" if BRIEF == "ehlikitap" else ""),
         f"- Renderer (preview): {py} {V2 / 'render.py'} --surah {s} --target {target} --annotations "
         f"{d / 'annotations.jsonl'} --out {d / 'preview'}",
-    ]) + "\n"
+    ] + ([f"- Pass: ehlikitap (the Tevrat and İncil layers; brief ehlikitap.md); corpus tool: {py} "
+          f"{V2 / 'tools' / 'corpus.py'} --intertext (the flag before the subcommand)",
+          "- Discovery list: " + (str(discovery_list(s, target)) if discovery_list(s, target) else
+                                  "none (no discover.py --bible run for this page; work from the corpus and your own search)")]
+         if BRIEF == "ehlikitap" else [])) + "\n"
 
 
 def build_prompt(s: int, target: str, d: Path, runner: str = "codex") -> str:
@@ -370,7 +382,7 @@ def finish(s: int, target: str, d: Path, trial: bool = False, started: dict | No
         recs = R.load(ann)
     except SystemExit as e:
         return {"check": f"annotations.jsonl unreadable: {e}", "ok": False}
-    kept, dropped, warnings = VAL.check_records(s, target, recs)
+    kept, dropped, warnings = VAL.check_records(s, target, recs, GELENEK[BRIEF])
     page_dir = d / "page"
     if page_dir.exists():
         shutil.rmtree(page_dir)
@@ -530,6 +542,45 @@ def finish_target(s: int, target: str, d: Path, trial: bool = False) -> dict:
     return row
 
 
+def merge_page(s: int, target: str) -> bool:
+    """out/sNNN/<page>.merged.md from the accepted Islamic page and the accepted Bible page (whichever exist): the
+    kept records of both, rendered into the frozen base; the Islamic records get gelenek islami. Never overwrites
+    an accepted page; the merged file is rewritten each time."""
+    global BRIEF
+    stem = "surah" if target == "surah" else tag(target)
+    recs, parts = [], []
+    for brief in ("zengin", "ehlikitap"):
+        BRIEF = brief
+        rec_path = (OUT / f"s{s:03d}" / page_name(s, target)).with_suffix(".json")
+        if not rec_path.exists():
+            continue
+        rec = json.loads(rec_path.read_text(encoding="utf-8"))
+        dropped = set(rec.get("dropped") or [])
+        rs = [r for r in R.load(PG / rec["annotations"]) if r.get("id") not in dropped]
+        for r in rs:
+            if brief == "zengin":
+                r.setdefault("gelenek", "islami")
+        recs += rs
+        parts.append(f"{brief} {len(rs)}")
+    BRIEF = "zengin"
+    if not recs:
+        print(f"WARNING: S{s} {target}: no accepted page of either pass; nothing merged", flush=True)
+        return False
+    name, base, info = R.target_page(s, target)
+    metas = {m["id"]: m for m in VAL.C.sources()}
+    head = (f"<!-- schema:zenginlestirme {VAL.B.SCHEMA['version']}; target:{'S' + str(s) if target == 'surah' else target}; "
+            f"base:{info['path']} sha256:{info['sha256']}; merged:{time.strftime('%Y-%m-%d')}; layers: {', '.join(parts)} -->")
+    text, errors = R.render_page(base, recs, head, None if target == "surah" else R.AYAH_SECTION, metas)
+    if errors:
+        for e in errors:
+            print(f"WARNING: S{s} {target} merge: {e}", flush=True)
+        return False
+    dst = OUT / f"s{s:03d}" / f"{stem}.merged.md"
+    dst.write_text(text, encoding="utf-8")
+    print(json.dumps({"surah": s, "target": target, "merged": rel(dst), "layers": parts}, ensure_ascii=False), flush=True)
+    return True
+
+
 def ensure_pack(s: int) -> bool:
     if (wd(s) / "pack" / "pack.json").exists():
         return True
@@ -641,7 +692,7 @@ def model_specs(arg: str, default_effort: str) -> list[tuple[str, str]]:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("cmd", choices=("status", "build", "spawn", "finish", "run", "accept", "confirm-dead"))
+    ap.add_argument("cmd", choices=("status", "build", "spawn", "finish", "run", "accept", "confirm-dead", "merge"))
     ap.add_argument("--surah", type=int)
     ap.add_argument("--surahs")
     ap.add_argument("--target", help="surah | S:A | ayat | all (required for build, run and accept)")
@@ -651,7 +702,11 @@ def main() -> None:
     ap.add_argument("--trial", action="store_true", help="render in the call directory only; no out/, no errata")
     ap.add_argument("--parallel", type=int, default=2)
     ap.add_argument("--dir", help="confirm-dead: the call directory name (e.g. zengin.surah.opus.high)")
+    ap.add_argument("--pass", dest="pass_", choices=("zengin", "ehlikitap"), default="zengin",
+                    help="ehlikitap: the Bible pass (its own call dirs, pages <page>.ehlikitap.md, the intertext index)")
     a = ap.parse_args()
+    global BRIEF
+    BRIEF = a.pass_
     ss = surahs(a.surahs) if a.surahs else [a.surah]
     if None in ss:
         ap.error("--surah or --surahs")
@@ -667,6 +722,12 @@ def main() -> None:
     specs = model_specs(a.model, a.effort)
     if not a.target:
         ap.error("--target is required: surah | S:A | ayat | all")
+    if a.cmd == "merge":  # the layers of both passes on one page: islami, then tevrat, then incil after each paragraph
+        failed = 0
+        for s in ss:
+            for t in select(s, a.target):
+                failed += not merge_page(s, t)
+        sys.exit(1 if failed else 0)
     if a.cmd == "accept":  # a finished trial page becomes the accepted page (no model call)
         if len(specs) != 1 or a.target in ("ayat", "all"):
             ap.error("accept takes one --model and one page (--target surah or S:A)")

@@ -258,12 +258,55 @@ python3 -B enrichment/v2/tools/schema_doc.py                   # after any schem
 - Hadith: only Bukhārī, Muslim and the graded sunan carry a `sahih` grade in the corpus. Ibn Ḥibbān and Musnad Aḥmad
   are ungraded, so a `tur:hadis` block citing them is dropped.
 
-## Later: the Bible pass (tevrat, incil)
+## The Bible pass (tevrat, incil): built 2026-10-04 evening, not yet run
 
-- **A separate pass** with its own corpus (kind `intertext`, each source.json declaring its `gelenek`), its own
-  brief, and one call per page as here.
-- **It writes blocks** with gelenek `tevrat` or `incil` (schema 3.1). It never reads the Islamic records, and vice
-  versa.
-- **Merging:** its pages anchor to the same base paragraphs. A script merges the layers: after each paragraph,
-  islami, then tevrat, then incil blocks.
-- **Not built yet:** the corpus, the brief and the merge script.
+A separate pass over the same frozen base, after the Islamic page of a target exists or beside it: one call per
+page writes blocks of gelenek `tevrat` or `incil` (schema 3.1 types paralel, motif, karsi_anlati, soydas,
+yorum_gelenegi, plus the shared types), each with `bag`, `tarihleme` and `nusha`. The passes never read each other's
+records; `merge` lays the layers after each paragraph: islami, then tevrat, then incil.
+
+**Corpus (kind `intertext`, its own index, never in the Islamic one):**
+- WLC (Hebrew Bible, Masoretic, 23,213 verses, `WLC:Gen.22.2`), SBLGNT (Greek New Testament, 7,939 verses,
+  `SBLGNT:Matt.6.5`), KJV (English aid with the Apocrypha, 36,822 verses, `KJV:Ps.1.3`): fetched once by
+  `python3 -B enrichment/v2/fetch/bible_text.py all` (cached in raw/; open licences recorded in source.json).
+- SEFARIA (Targum, Talmud, midrash, classical Jewish commentary, by reference, on demand):
+  `python3 -B enrichment/v2/fetch/bible_sefaria.py related "Genesis 22:2" --n 6` or `text "<ref>" …`.
+- CORPUSCORANICUM-INTERTEXT (Corpus Coranicum's intertext entries for the surahs fetched: 1, 22, 87–114).
+- The index: `python3 -B enrichment/v2/tools/corpus.py --intertext build` (the flag before every subcommand:
+  `--intertext search 'בראשית ברא'`, `--intertext get WLC:Gen.22.2`, `--intertext ayah 1:1`). It holds the
+  intertext sources plus the Quran text and the shared reference sources. It refuses to rebuild while a Bible-pass
+  call is running (`--force` only with the user's word); Islamic-pass calls do not block it.
+- Not in the corpus yet: the Peshitta, the Septuagint, patristic and Syriac texts, a Turkish Bible (no open one
+  exists online). The brief tells the agent to mark such material as memory and to list it in gaps.json.
+
+**Step by step, for surah N (each step its own go; no agent without a go):**
+1. **Discovery** (GPT through Codex; the only scripted calls): per ayah with a reading and per image section, Luna
+   max and Terra max name the texts the commentary activates (brief `_commentary/v16/prompts/discover/bible.md`:
+   six-field TSV with tradition, kind, reference), two turns each (the brief, then the fixed missing-texts
+   follow-up), merged into `_commentary/v16/out/sNNN/discovery_bible/<S_A | secK>.merged.tsv`:
+   ```bash
+   python3 -B _commentary/v16/discover_bible.py --surah N                   # packages and prompts, no call
+   python3 -B _commentary/v16/discover_bible.py --surah N --go              # S1: 7 ayat + sections, x2 models
+   python3 -B _commentary/v16/discover_bible.py --surah N --merge --prefetch  # lists + Sefaria texts for them
+   python3 -B enrichment/v2/tools/corpus.py --intertext build
+   ```
+   `--prefetch` fetches, for every Tanakh verse named, its Targum, midrash, Talmud and commentary links (six per
+   type by default), and every named Jewish text; failures are printed (a text Sefaria lacks is a gap). Without a
+   discovery run the page agent works from the corpus and its own search; the job header says so.
+2. **Pack:** the same pack as the Islamic pass (`pack.py --surah N`); the ayah base is the augment9 reading.
+3. **Build, spawn, finish**, exactly as for the Islamic page but with `--pass ehlikitap` before the command:
+   ```bash
+   python3 -B enrichment/v2/enrich.py --pass ehlikitap build  --surah N --target 1:1
+   python3 -B enrichment/v2/enrich.py --pass ehlikitap spawn  --surah N --target 1:1   # then the Agent tool, enrich-page
+   python3 -B enrichment/v2/enrich.py --pass ehlikitap finish --surah N --target 1:1
+   ```
+   Call dirs `work/sNNN/ehlikitap.<page>.opus.high/`; pages `out/sNNN/<page>.ehlikitap.md` (the Islamic page keeps
+   `<page>.md`); the validator runs with `--pass ehlikitap` (records must carry tevrat or incil; sources resolve
+   in the intertext index; Islamic sources are refused). The brief: `prompts/ehlikitap.md` (new, 2026-10-04;
+   common.md holds with its rule 6 reversed, as the brief says). No cost calibration yet: the first page calibrates.
+4. **Merge:** `python3 -B enrichment/v2/enrich.py merge --surah N --target 1:1` writes `out/sNNN/<page>.merged.md`
+   from the accepted pages of both passes (whichever exist); it never touches the accepted pages.
+
+**Order for a surah:** Islamic pass first or the Bible pass first makes no difference to the records (they never
+meet before the merge); run the Bible discovery while the Islamic pages run. Report every WARNING of the
+discovery (rows outside the schema, failed fetches) and of the finish step as always.

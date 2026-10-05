@@ -72,7 +72,7 @@ def check_records(s: int, target: str, recs: list[dict], gelenek: str = "islami"
     n_ayat = json.loads((pk / "pack.json").read_text(encoding="utf-8"))["ayat"]
     name, base, _ = R.target_page(s, target)
     paras = R.paragraphs(base)
-    corpus = B.Corpus(C.INDEX)
+    corpus = B.Corpus(C.INDEX_INTERTEXT if gelenek == "ehlikitap" else C.INDEX)  # the Bible pass cites the intertext index
     kept, dropped, warnings, seen = [], [], [], set()
     novelty_at: dict[str, str] = {}
     per_para: dict[str, int] = {}
@@ -124,8 +124,8 @@ def check_records(s: int, target: str, recs: list[dict], gelenek: str = "islami"
     return kept, dropped, warnings
 
 
-def validate(s: int, target: str, recs: list[dict], out: Path | None) -> dict:
-    kept, dropped, warnings = check_records(s, target, recs)
+def validate(s: int, target: str, recs: list[dict], out: Path | None, gelenek: str = "islami") -> dict:
+    kept, dropped, warnings = check_records(s, target, recs, gelenek)
     page_errors = []
     name, base, _ = R.target_page(s, target)
     if out and (out / name).exists():
@@ -143,8 +143,10 @@ def main() -> None:
     ap.add_argument("--annotations", type=Path, required=True)
     ap.add_argument("--out", type=Path)
     ap.add_argument("--report", type=Path)
+    ap.add_argument("--pass", dest="pass_", choices=("islami", "ehlikitap"), default="islami",
+                    help="ehlikitap: the Bible pass (records carry gelenek tevrat/incil; sources from the intertext index)")
     a = ap.parse_args()
-    rep = validate(a.surah, a.target, R.load(a.annotations), a.out)
+    rep = validate(a.surah, a.target, R.load(a.annotations), a.out, a.pass_)
     text = json.dumps(rep, ensure_ascii=False, indent=1)
     if a.report:
         a.report.write_text(text + "\n", encoding="utf-8")

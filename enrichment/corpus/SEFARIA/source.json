@@ -1,0 +1,31 @@
+{
+  "id": "SEFARIA",
+  "title": "Sefaria library: Tanakh commentary, Targum, Talmud, midrash (texts fetched by reference)",
+  "author": "various; Sefaria (texts and translations per version)",
+  "death_ah": null,
+  "kind": "intertext",
+  "gelenek": [
+    "tevrat"
+  ],
+  "tradition": "Jewish (Tanakh, Targum, Talmud, midrash, classical commentary)",
+  "language": "he|en",
+  "edition": "Sefaria API v3 (texts) and related (links); the version title per segment",
+  "access": "yerel",
+  "locator": "sefaria-ref",
+  "licence": "per version, as Sefaria states it (CC-BY, CC-BY-SA, CC0, public domain); recorded in each segment's `licence`; local research copy",
+  "notes": "FOR THE BIBLE PASS ONLY. Fetched on demand, reference by reference; coverage is whatever has been asked for. The agents have no network: fetch before the call (bible_sefaria.py related <Tanakh ref> for a verse's Targum/midrash/Talmud/commentary). Hebrew text `text`, English translation `en` when Sefaria has one.",
+  "coverage": "on demand",
+  "urls": [
+    "https://www.sefaria.org/api/v3/texts/<ref>",
+    "https://www.sefaria.org/api/related/<ref>"
+  ],
+  "fetched_at": "2026-10-04T22:12:43-04:00",
+  "files": {
+    "raw/related/Genesis_22%3A2.json": "d31667c7845737b65c6dc3e75948bb75dc754ae1c075f66de1c71753a0a933de",
+    "raw/texts/Onkelos_Genesis_22%3A2.json": "00c4844631cccb0f57ccf0424d8e3ec084ed1448ac57d24c2eb3429c36a1e02c",
+    "raw/texts/Sefer_HaYashar_%28midrash%29%2C_Book_of_Genesis%2C_Vayera_18.json": "df0f15a462dd4d23d6b6fadcb9cd9e8c34465d6100d8081b6805678840e5175a",
+    "raw/texts/Sefer_HaYashar_%28midrash%29%2C_Book_of_Genesis%2C_Vayera_20.json": "dab45891a139fd4810347b38b5fcb35d93c76d45098ec31121c4e58bfd3a01ba",
+    "raw/texts/Targum_Jonathan_on_Genesis_22%3A2.json": "46711b9ab1db0c64e7de4a0de5e998e384e9fa657fdd5f914be2fede39be5e52"
+  },
+  "fetch_log": "raw/_fetchlog.jsonl (url, status, sha256, date per raw file)"
+}

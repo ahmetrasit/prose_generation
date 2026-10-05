@@ -140,3 +140,17 @@ no Arabic quotes); Astra max 79 (two corrections). Opus was chosen for page qual
 sharper meal judgement, no false positives); its misses (untouched paragraphs, a base error both GPT runs found) are
 the known gap. The S100 Opus page was accepted; the muğîrât root-label error found by Sol 6.1 and Astra was confirmed
 against binding.json and logged by hand.
+
+## The Bible pass, built (2026-10-04 evening)
+
+The user asked whether the Bible enrichment pass (decision 11) was ready and to build it if not; and whether a
+discovery session like the inter-ayah one should precede it (yes: Hebrew and Greek texts cannot be found from a
+Turkish reading by search, and Corpus Coranicum covers few passages, so the page agent would otherwise work from
+memory alone; the discovery list also tells the pack what to prefetch from Sefaria, since agents have no network).
+Built: the intertext corpus (WLC, SBLGNT, KJV bulk; SEFARIA on demand; Corpus Coranicum intertexts) with its own
+index (`corpus.py --intertext`), the Bible discovery (`_commentary/v16/discover_bible.py`, Luna and Terra, per ayah
+and per image section, two turns, merged and prefetched), the pass in the orchestrator (`enrich.py --pass
+ehlikitap`: own call dirs, own pages `<page>.ehlikitap.md`, validator in Bible mode, the discovery list in the
+job header), the brief `prompts/ehlikitap.md`, and `enrich.py merge` (islami, tevrat, incil after each paragraph,
+to `<page>.merged.md`). Not yet run on any page; no cost calibration. Gaps the corpus still has: Peshitta,
+Septuagint, patristic and Syriac texts, a Turkish Bible.

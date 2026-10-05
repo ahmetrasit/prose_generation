@@ -1,0 +1,97 @@
+# ehlikitap: one page's Bible-pass records (Tevrat and İncil layers), in one call
+
+You produce every Bible-pass block for ONE page, the target in the job header: the surah page or one ayah page.
+This pass runs apart from the Islamic pass and never reads its records; a script merges the layers afterwards
+(after each base paragraph: the Islamic blocks, then tevrat, then incil). You write records, not Markdown: a
+script checks each record, drops any that fails a rule (it is not sent back to you), inserts the rest into the
+frozen base after the paragraph each names, and builds the source registry.
+
+The shared core (common.md) holds with these changes for this pass:
+- Rule 6 is reversed: here you cite ONLY the Jewish and Christian sources of the intertext index (and the Qur'an
+  text, and modern scholarship), never a tafsir, hadith, lexicon or meal. An Islamic source that itself quotes the
+  Bible (al-Biqāʿī) belongs to the Islamic pass, not here.
+- The corpus tool is `python3 enrichment/v2/tools/corpus.py --intertext …` (the `--intertext` flag before the
+  subcommand): sources WLC (Hebrew Bible, Masoretic, locators WLC:Gen.22.2), SBLGNT (Greek New Testament,
+  SBLGNT:Matt.6.5), KJV (the English aid, KJV:Gen.22.2; never the text quoted as scripture when the Hebrew or Greek
+  is in the corpus), SEFARIA (Targum, Talmud, midrash and classical Jewish commentary fetched for this page,
+  SEFARIA:Targum_Jonathan_on_Genesis.22.2), CORPUSCORANICUM-INTERTEXT (Corpus Coranicum's intertext entries for the
+  surah's ayat, with the editors' notes and dating). `corpus.py --intertext ayah S:A` lists the Corpus Coranicum
+  entries attached to an ayah; `search` works on Hebrew (consonantal and pointed), Greek and English.
+- Every block carries `gelenek`: tevrat (Hebrew Bible in any witness, the Psalms included; Jewish pseudepigrapha;
+  Mishnah, Talmud, midrash, Targum, classical Jewish commentary) or incil (New Testament in any witness;
+  Christian apocrypha; Church Fathers; Syriac homilies). A Hebrew Bible text read through Christian exegesis is two
+  blocks: the text (tevrat) and its Christian reading (incil). Each block cites only sources of its own tradition
+  (SHARED: the Qur'an text and modern scholarship).
+- Every block carries `bag` (what is claimed about the link: benzerlik by default; ortak_havza when both texts draw
+  on a Late Antique tradition; muhatap or etki_iddiasi only with a named scholar in `alim`; never a dependence
+  claim for a text dated after the Qur'an), `tarihleme` (the other text's dating relative to the Qur'an) and
+  `nusha` (the witness or witnesses the block rests on). A parallel is not a dependence: use the weakest fitting
+  value.
+
+## Scope by target
+- Ayah page (target S:A): every Jewish and Christian text an advanced reader should have beside that ayah: the same
+  figure, scene or story told in the other scripture (paralel); a shared image, formula or ethical motif without a
+  shared story (motif); where the Qur'an tells it differently, corrects or answers (karsi_anlati: the difference is
+  the point); a Hebrew, Aramaic or Syriac cognate of the ayah's word and how the other scripture uses it (soydas:
+  loan claims only with named scholarship); Jewish or Christian interpretation of the parallel text (yorum_gelenegi:
+  Targum, midrash, Talmud; Church Fathers, Syriac homilies). Every record's `ayet` includes the target ayah. Anchor
+  to the paragraphs of PACK/numbered/S_A.md; a block about a v16 addition anchors to its ¶n.
+- Surah page (target surah): what belongs to the surah as a whole: a parallel that runs through the surah, a
+  liturgical or structural kinship (the Lord's Prayer and the Fātiḥa), a motif the surah commentary's images turn
+  on; per-ayah detail only where a paragraph of the surah commentary is about it. Anchor to PACK/numbered/surah.md.
+- Every block sits right after the base paragraph it speaks to; there is no section at the end of the page.
+
+## Step 1. Read
+Read the target's numbered base page completely, once, and keep your own notes (paragraph numbers and claims) in
+your call directory; do not read it again. Then the discovery list named in the job header, when there is one: the
+candidate passages two readers proposed for this page, with the tradition, the kind of link and the reason. It is
+a seed, not a verdict: every candidate is checked against the text itself, and what it misses is yours to find.
+
+## Step 2. Claims of the base
+List for yourself every claim or image of the target page that the other scriptures speak to: a figure, a scene,
+a formula, a word, an ethical motif, a liturgical act; each with its paragraph number [¶n].
+
+## Step 3. Research
+1. Corpus Coranicum: `corpus.py --intertext ayah S:A` for every ayah of the page; read the entries' notes and
+   dating; they are the editors' judgement, not yours.
+2. The discovery candidates, one by one: open the text (`get WLC:… SBLGNT:… SEFARIA:…`), read it in its own
+   context (the neighbouring verses with `get`), and decide the kind of link and the `bag`.
+3. Your own search: the scene, figure or formula elsewhere in the Hebrew Bible and the New Testament (`search`
+   with Hebrew or Greek words, the KJV as a finder in English); the cognates of the ayah's key words (Hebrew root
+   consonants, Syriac via the Peshitta only from memory, marked); the Jewish reading of each parallel (SEFARIA
+   Targum, midrash, Talmud, Rashi, Ibn Ezra, Ramban as fetched); the Christian reading from memory, marked, until
+   patristic texts are in the corpus.
+4. Modern scholarship on the parallel (Neuwirth, Sinai, Reynolds, Witztum, Zellentin and others): memory pointers
+   (access hafiza) with `durum:degerlendirilmedi`; a dependence or address claim is theirs, named in `alim`.
+Deduplicate as you go: one block per point.
+
+## Step 4. Compose the records
+What a good Bible page has:
+- the parallels and motifs that an advanced reader of this ayah or surah would expect, each with the text quoted
+  in its own language in the base's reader-tag form ({ar:…} is for Arabic; for Hebrew and Greek use
+  {he:…, tr:…, gloss:…, source:…} and {el:…, tr:…, gloss:…, source:…}: the exact text copied from the corpus, a
+  readable transliteration, a Turkish gloss, the corpus locator), and what it adds here;
+- the counter-narratives where the Qur'an's telling differs, stated as the difference, without adjudicating;
+- the cognates that illuminate a word, with the other scripture's usage;
+- the interpretive tradition where it changes what the parallel means;
+- elenen blocks for candidates you weighed and rejected (kat:arastirma), kaynak_notu for provenance and dating
+  problems, yontem where a reader needs the limit (a resemblance is not a borrowing), duzeltme for an error in
+  the base about the Bible (with `taban` and `hata`);
+- at most five blocks after any one paragraph; each block one distinct unit of value; nothing the base already
+  says.
+Block text in Turkish, in the base's register, at most 80 words (temel/ek) or 120 (arastirma); name the text and
+its place in words ("Tekvin 22'de", "Matta 6:5'te"); no first person, no talk about the process.
+
+Record format (annotations.jsonl, one JSON object per line): all schema fields as keys (SCHEMA_CARD.md; enum
+values exactly as listed; `gelenek` written by you here: tevrat or incil), `bag`, `tarihleme`, `nusha`, plus the
+placement, both required: `paragraf` and `capa` (at least three consecutive words copied exactly from that
+paragraph). ids: S<sss>-<KOD>-<NNN> with the KOD of the block's tur, numbered in page order per KOD; use a KOD
+range apart from the Islamic pass by prefixing the tradition: S001-TEV-PAR-001, S001-INC-MOT-001.
+
+## Step 5. Check and finish
+1. Re-open every locator you cite (`corpus.py --intertext get`) and confirm the text says what the block says.
+2. Run the validator from the job header and fix every error and warning; a record that still fails is dropped.
+3. Render the preview (job header) and read the page once as the reader would.
+4. Write gaps.json: {"missing_sources":[what the intertext corpus lacks: Peshitta, patristic texts, …],
+   "not_found":[…], "unresolved":[…]}.
+Final message: blocks by gelenek and tur, the candidates accepted and rejected, and anything you could not do.

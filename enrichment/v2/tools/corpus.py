@@ -36,6 +36,8 @@ PG = Path(__file__).resolve().parents[3]
 PROJECTS = PG.parent
 CORPUS = PG / "enrichment" / "corpus"
 INDEX = CORPUS / "corpus.sqlite"
+INDEX_INTERTEXT = CORPUS / "corpus_intertext.sqlite"  # the Bible pass: kind intertext only (--intertext)
+INTERTEXT = False
 V1 = PG / "enrichment" / "v1" / "corpus"
 QD = PROJECTS / "quran-data" / "data"
 LEX = PROJECTS / "quran-roots" / "_corpus" / "lexicons" / "cache"
@@ -392,7 +394,8 @@ def flat(v) -> str:
 def running_calls() -> list[str]:
     """Enrichment calls started without a run.log.json (and not confirmed dead): they read this index."""
     work = PG / "enrichment" / "v2" / "work"
-    return [str(d.relative_to(work)) for d in sorted(work.glob("s*/zengin.*"))
+    pattern = "s*/ehlikitap.*" if INTERTEXT else "s*/zengin.*"  # each pass reads only its own index
+    return [str(d.relative_to(work)) for d in sorted(work.glob(pattern))
             if (d / "started.json").exists() and not (d / "run.log.json").exists() and not (d / "dead.json").exists()]
 
 
@@ -400,7 +403,8 @@ def build(force: bool = False) -> None:
     if running_calls() and not force:
         raise SystemExit(f"enrichment calls are running {running_calls()}: rebuilding the index would change what "
                          f"their validator sees; wait for them (--force only if the user agrees)")
-    tmp = INDEX.with_suffix(".sqlite.tmp")
+    index = INDEX_INTERTEXT if INTERTEXT else INDEX
+    tmp = index.with_suffix(".sqlite.tmp")
     tmp.unlink(missing_ok=True)
     con = sqlite3.connect(tmp)
     con.executescript("""
@@ -413,7 +417,11 @@ def build(force: bool = False) -> None:
     """)
     total = 0
     for meta in sources():
-        if meta.get("kind") in EXCLUDED_KINDS:
+        kind = meta.get("kind")
+        if INTERTEXT:  # the Bible pass index: the intertext sources plus what every pass may cite (Quran, modern, reference)
+            if kind not in {"intertext", "quran", "modern", "reference"}:
+                continue
+        elif kind in EXCLUDED_KINDS:  # the Islamic index never holds intertext
             continue
         con.execute("INSERT INTO src VALUES(?,?,?,?)", (meta["id"], meta.get("kind"), meta.get("access"),
                                                          json.dumps(meta, ensure_ascii=False)))
@@ -441,14 +449,15 @@ def build(force: bool = False) -> None:
         print(f"{meta['id']:22} {n:>8}", flush=True)
     con.commit()
     con.close()
-    tmp.replace(INDEX)
-    print(f"indexed {total} segments -> {INDEX.relative_to(PG)}")
+    tmp.replace(index)
+    print(f"indexed {total} segments -> {index.relative_to(PG)}")
 
 
 def connect() -> sqlite3.Connection:
-    if not INDEX.exists():
-        sys.exit("no index: run `corpus.py build` first")
-    return sqlite3.connect(INDEX)
+    index = INDEX_INTERTEXT if INTERTEXT else INDEX
+    if not index.exists():
+        sys.exit(f"no index: run `corpus.py {'--intertext ' if INTERTEXT else ''}build` first")
+    return sqlite3.connect(index)
 
 
 def show(row, chars: int) -> None:
@@ -537,6 +546,9 @@ def cmd_sources(kind: str | None) -> None:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("-i", "--intertext", action="store_true",
+                    help="the Bible pass index (corpus_intertext.sqlite: WLC, SBLGNT, KJV, SEFARIA, CORPUSCORANICUM-INTERTEXT); "
+                         "before the subcommand")
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("import-local")
     p.add_argument("--only", default="")
@@ -562,6 +574,8 @@ def main() -> None:
     p.add_argument("--sahih", action="store_true")
     p.add_argument("--exact", action="store_true")
     a = ap.parse_args()
+    global INTERTEXT
+    INTERTEXT = a.intertext
     if a.cmd == "import-local":
         only = set(x for x in a.only.split(",") if x)
         for f in IMPORTERS:
@@ -569,7 +583,7 @@ def main() -> None:
     elif a.cmd == "build":
         build(a.force)
     elif a.cmd == "sources":
-        cmd_sources(a.kind)
+        cmd_sources(a.kind or ("intertext" if INTERTEXT else None))
     elif a.cmd == "get":
         cmd_get(a.loc, a.chars)
     elif a.cmd == "ayah":

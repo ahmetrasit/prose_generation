@@ -25,6 +25,7 @@ For each surah, in this order:
 | 3. v16 readings | one **ayah commentary** per ayah (frozen baseline, brief r13) | same, Step 3 | no |
 | 4. v16 augment (augment9) | Quran-explains-Quran additions under each ayah commentary's paragraphs | same, Step 4 | **yes**, resumable any time |
 | 5. enrichment v2 | the advanced-reader pages (ayah pages need step 4) | `enrichment/v2/RUNBOOK.md` | **yes**, run surah by surah when NGT needs it |
+| 5b. enrichment Bible pass | the Tevrat and İncil layers on the same pages, after a Bible discovery (Luna, Terra) and a Sefaria prefetch; merged with the Islamic layer | same, "The Bible pass" | **yes**, built 2026-10-04, not yet run |
 
 Steps 1–3 are the reading itself and are never rerun or edited; everything after them builds around them.
 
