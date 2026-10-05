@@ -30,3 +30,4 @@ of the page is the number of turns times the size of the context. Aim for about 
    MAP (placement; paragraphs with no block) — by rewriting the part that holds it, then check once more. Do not
    run the validator or the renderer and do not read a preview: the check's map replaces Step 7's read-through.
 7. gaps.json as zengin.md says, plus "unread_sources".
+8. Caps are never silent. A file the job header gives with line ranges is read in those ranges. A Read that shows a "PARTIAL view" banner, or a corpus.py cut ("[cut: …]", "NOTE: … not shown"), is either continued or named in gaps.json with the reason; the finish step audits your transcript for every cap and records what you did not see.

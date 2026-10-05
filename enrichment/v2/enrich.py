@@ -43,6 +43,7 @@ import concurrent.futures as cf
 import hashlib
 import json
 import os
+import re
 import shutil
 import signal
 import subprocess
@@ -234,10 +235,13 @@ def build_prompt(s: int, target: str, d: Path, runner: str = "codex") -> str:
             raise SystemExit(f"mode {MODE} is built for Islamic-pass ayah pages")
         tail = [f"- Check (run it; never write your own validator): python3 {V2 / 'tools' / 'check.py'} --surah {s} "
                 f"--target {target} --annotations {d / 'annotations.jsonl'}"]
-        if MODE == "dosya2":
-            names = EXTRACT_FILES.get(str(d), [])
-            tail.append("- Corpus extract (read in your first turn, with the files below): "
-                        + ", ".join(str(d / n) for n in names))
+        reads = required_reads(s, target, d)
+        REQUIRED[str(d)] = reads
+        tail.append("- Files to read completely in your first turn (one Read per line; a file given with line ranges "
+                    "is read in those ranges, because one Read shows at most 25,000 tokens):")
+        for r in reads:
+            tail.append(f"  - {r['path']}" + ("" if len(r["pages"]) == 1 else "  lines " + ", ".join(
+                f"{o}–{o + n - 1} (offset {o}, limit {n})" for o, n in r["pages"])))
         job = header(s, target, d, runner).rstrip("\n") + "\n" + "\n".join(tail) + "\n"
         return "\n\n".join([job, (PROMPTS / "common.md").read_text(encoding="utf-8"),
                             (PROMPTS / "zengin.md").read_text(encoding="utf-8"),
@@ -250,13 +254,13 @@ EXTRACT_FILES: dict[str, list[str]] = {}  # mode dosya2: the extract's part file
 
 
 def extract_parts(s: int, target: str, d: Path, write: bool) -> list[str]:
-    """Mode dosya2: the bounded corpus extract (dossier.bounded) split into files of at most 28,000 characters (one
+    """Mode dosya2: the bounded corpus extract (dossier.bounded) split into files of at most 24,000 characters (one
     Read each), written into the call directory when write is set. Returns the file names."""
     import dossier as DO
     text, rec = DO.bounded(s, target)
     parts, cur = [], ""
     for line in text.splitlines(keepends=True):
-        if len(cur) + len(line) > 28_000 and cur:
+        if len(cur) + len(line) > 24_000 and cur:
             parts.append(cur)
             cur = ""
         cur += line
@@ -270,6 +274,145 @@ def extract_parts(s: int, target: str, d: Path, write: bool) -> list[str]:
         (d / "extract.json").write_text(json.dumps(rec, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     EXTRACT_FILES[str(d)] = names
     return names
+
+
+REQUIRED: dict[str, list[dict]] = {}  # modes tur, dosya2: the files the agent must read, with their pages
+READ_TOKENS = 20_000  # a Read shows at most 25,000 tokens; pages are cut below that, at this estimate
+
+
+def est_tokens(text: str) -> int:
+    ar = sum(1 for ch in text if "\u0600" <= ch <= "\u06ff")
+    return int(ar / 1.3 + (len(text) - ar) / 2.0)  # conservative: more tokens than the measured ratios
+
+
+def wrapped_base(s: int, target: str, d: Path) -> Path:
+    """The numbered base copied into the call directory with every line over 1,900 characters broken at a space
+    (the Read tool cuts a line at 2,000 characters). Paragraphs stay apart (blank lines), and placement compares
+    words with whitespace squashed, so anchors are unaffected; the page is still rendered into the frozen base."""
+    src = wd(s) / "pack" / "numbered" / f"{tag(target)}.md"
+    out = []
+    for line in src.read_text(encoding="utf-8").splitlines():
+        while len(line) > 1900:
+            cut = line.rfind(" ", 0, 1900)
+            cut = cut if cut > 0 else 1900
+            out.append(line[:cut])
+            line = line[cut:].lstrip(" ")
+        out.append(line)
+    dst = d / f"base.{tag(target)}.md"
+    d.mkdir(parents=True, exist_ok=True)
+    dst.write_text("\n".join(out) + "\n", encoding="utf-8")
+    broke = len(out) - len(src.read_text(encoding="utf-8").splitlines())
+    if broke:
+        print(f"NOTE: {rel(dst)}: {broke} line breaks added to lines over 1,900 characters (the Read tool cuts at 2,000)")
+    return dst
+
+
+def required_reads(s: int, target: str, d: Path) -> list[dict]:
+    """The files a tur or dosya2 page must read in full, each with the line ranges ([offset, limit], 1-based) that
+    keep every Read under the Read tool's cap; a line over 2,000 characters (the Read tool cuts it) is reported."""
+    pk, t = wd(s) / "pack", tag(target)
+    base = d / f"base.{t}.md" if (d / f"base.{t}.md").exists() else pk / "numbered" / f"{t}.md"
+    files = [base] + [pk / "ayah" / t / f"{n}.md" for n in ("words", "dictionary", "meals", "turkish")]
+    files += [pk / "errata_candidates.json", V2 / "SCHEMA_CARD.md"]
+    files += ([pk / "ayah" / t / "sources.md"] if MODE == "tur" else [d / n for n in EXTRACT_FILES.get(str(d), [])])
+    out = []
+    for f in files:
+        if not f.exists():
+            print(f"WARNING: required file {rel(f)} missing: the agent is told to read it")
+            continue
+        lines = f.read_text(encoding="utf-8").splitlines()
+        long = [i + 1 for i, x in enumerate(lines) if len(x) > 2000]
+        if long:
+            print(f"WARNING: {rel(f)}: lines {long[:5]} are over 2,000 characters; the Read tool cuts such lines")
+        pages, start, acc = [], 1, 0
+        for i, line in enumerate(lines, 1):
+            n = est_tokens(line) + 1
+            if acc + n > READ_TOKENS and i > start:
+                pages.append([start, i - start])
+                start, acc = i, 0
+            acc += n
+        pages.append([start, max(1, len(lines) - start + 1)])
+        out.append({"path": str(f), "lines": len(lines), "pages": pages})
+    return out
+
+
+def audit(d: Path, transcript: str | None, required: list[dict]) -> dict:
+    """After the run, from the transcript: every required file read completely (line coverage, the Read tool's
+    partial-view banners counted as what they showed); outputs the harness spilled to files; corpus.py cuts never
+    continued; responses stopped by the output limit. Nothing a cap removed passes unrecorded."""
+    res: dict = {"files_partial": [], "files_unread": [], "spilled": [], "cuts_not_followed": [],
+                 "unshown_notes": 0, "max_tokens_stops": 0}
+    if not transcript or not Path(transcript).exists():
+        res["error"] = "no transcript: coverage not audited"
+        return res
+    uses, results, banners, order = {}, {}, {}, []
+    for line in Path(transcript).read_text(encoding="utf-8").splitlines():
+        try:
+            ev = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        att = ev.get("attachment") or {}
+        if att.get("type") == "read_truncation_notice":
+            banners[att.get("toolUseID")] = att.get("banner", "")
+        msg = ev.get("message") if isinstance(ev.get("message"), dict) else {}
+        if ev.get("type") == "assistant" and msg.get("stop_reason") == "max_tokens":
+            res["max_tokens_stops"] += 1
+        for c in msg.get("content") or [] if isinstance(msg.get("content"), list) else []:
+            if c.get("type") == "tool_use":
+                uses[c["id"]] = c
+                order.append(c["id"])
+            elif c.get("type") == "tool_result":
+                x = c.get("content")
+                results[c.get("tool_use_id")] = x if isinstance(x, str) else "".join(
+                    b.get("text", "") for b in x or [] if isinstance(b, dict))
+    cmds = " ".join(json.dumps(uses[i].get("input"), ensure_ascii=False) for i in order)
+    for r in required:
+        covered = set()
+        for i in order:
+            u = uses[i]
+            if u.get("name") != "Read" or (u.get("input") or {}).get("file_path") != r["path"]:
+                continue
+            o = int((u["input"].get("offset") or 1))
+            n = int(u["input"].get("limit") or 2000)
+            b = banners.get(i, "")
+            m = re.search(r"showing lines (\d+)-(\d+)", b)
+            lo, hi = (int(m.group(1)), int(m.group(2))) if m else (o, o + n - 1)
+            if "<persisted-output>" not in results.get(i, ""):
+                covered.update(range(lo, min(hi, r["lines"]) + 1))
+        if not covered:
+            fp = Path(r["path"])
+            if any(uses[i].get("name") == "Bash" and "<persisted-output>" not in results.get(i, "")
+                   and (str(fp) in (c := str((uses[i].get("input") or {}).get("command", "")))
+                        or (str(fp.parent) in c and fp.name in c)) for i in order):
+                continue  # shown whole by a command (cat …) that did not spill
+            via_spill = False
+            for k, i in enumerate(order):  # a command that named it spilled, and the saved file was read later
+                c = str((uses[i].get("input") or {}).get("command", ""))
+                m = re.search(r"saved to: (\S+)", results.get(i, ""))
+                if m and (str(fp) in c or (str(fp.parent) in c and fp.name in c)) and any(
+                        uses[j].get("name") == "Read" and (uses[j].get("input") or {}).get("file_path") == m.group(1)
+                        for j in order[k + 1:]):
+                    via_spill = True
+            if via_spill:
+                continue  # listed under "spilled" with file_read_later true
+            res["files_unread"].append(r["path"])
+        elif len(covered) < r["lines"]:
+            missing = sorted(set(range(1, r["lines"] + 1)) - covered)
+            res["files_partial"].append(f"{r['path']}: {len(missing)} of {r['lines']} lines never shown "
+                                        f"(first missing line {missing[0]})")
+    later = {i: " ".join(json.dumps(uses[j].get("input"), ensure_ascii=False) for j in order[k + 1:])
+             for k, i in enumerate(order)}
+    for i in order:
+        text = results.get(i, "")
+        if "<persisted-output>" in text:
+            m = re.search(r"saved to: (\S+)", text)
+            res["spilled"].append({"call": json.dumps(uses[i].get("input"), ensure_ascii=False)[:160],
+                                   "file_read_later": bool(m and m.group(1) in later[i])})
+        for loc, frm in re.findall(r"\[cut: `corpus\.py get (\S+) --from (\d+)` for the rest\]", text):
+            if not re.search(re.escape(loc) + r".{0,200}--from", later[i]):
+                res["cuts_not_followed"].append(f"{loc} from {frm}")
+        res["unshown_notes"] += len(re.findall(r"NOTE: \d+ segments not shown", text))
+    return res
 
 
 def agent_type(effort: str) -> str:
@@ -556,6 +699,8 @@ def spawn_target(s: int, target: str, model: str, effort: str, attempt: int = 1,
     if accepted(s, target) and not trial:
         return {"surah": s, "target": target, "model": model, "status": "skipped", "reason": "page already accepted"}
     try:
+        if MODE in ("tur", "dosya2"):
+            wrapped_base(s, target, d)
         if MODE == "dosya2":
             extract_parts(s, target, d, write=True)
         prompt = build_prompt(s, target, d, runner)
@@ -565,6 +710,7 @@ def spawn_target(s: int, target: str, model: str, effort: str, attempt: int = 1,
         return {"surah": s, "target": target, "model": model, "status": "error", "reason": f"prompt: {e}"}
     row = {"surah": s, "target": target, "attempt": attempt, "brief": BRIEF, "model": model, "model_id": model_id,
            "agent_type": agent_type(effort) if MODE in ("tur", "dosya2") else AR.AGENT_TYPE["enrich"],
+           "required_reads": REQUIRED.get(str(d), []),
            "runner": "agent", "effort": effort, "trial": trial, "prompt_sha256": sha(prompt), "prompt_chars": len(prompt),
            "base_sha256": info["sha256"], "base_words": len(base_text.split()),
            "pack_sha256": hashlib.sha256(pack_bytes).hexdigest(), "dictionary": json.loads(pack_bytes).get("dictionary")}
@@ -622,6 +768,18 @@ def finish_target(s: int, target: str, d: Path, trial: bool = False) -> dict:
               f"only annotations.jsonl is used")
     obj = AR.finish(d, "annotations.jsonl")
     row.update({"output_tokens_est": obj.get("output_tokens_est"), "cost_usd_est": obj.get("cost_usd_est")})
+    if row.get("required_reads"):
+        cov = audit(d, obj.get("transcript"), row["required_reads"])
+        row["coverage"] = cov
+        for k in ("files_unread", "files_partial", "cuts_not_followed"):
+            for x in cov.get(k, []):
+                print(f"WARNING: {rel(d)}: {k.replace('_', ' ')}: {x}")
+        for x in cov.get("spilled", []):
+            print(f"WARNING: {rel(d)}: an output spilled to a file ({'read later' if x['file_read_later'] else 'never read'}): {x['call']}")
+        if cov.get("max_tokens_stops"):
+            print(f"WARNING: {rel(d)}: {cov['max_tokens_stops']} responses stopped at the output-token limit")
+        if cov.get("error"):
+            print(f"WARNING: {rel(d)}: {cov['error']}")
     unread = unread_sources(s, target, d)
     if unread:
         row["unread_sources"] = unread

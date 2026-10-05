@@ -27,6 +27,9 @@ T5. Run the Check command of the job header once. Fix only what it names — FAI
     rewriting the part that holds it. Write gaps.json as zengin.md says, plus "unread_sources": the extract's
     listed or cut sources you did not use, each with a short reason.
 
+## Caps are never silent
+A file the job header gives with line ranges is read in those ranges. A Read that shows a "PARTIAL view" banner, or a corpus.py cut ("[cut: …]", "NOTE: … not shown"), is either continued or named in gaps.json with the reason; the finish step audits your transcript for every cap and records what you did not see.
+
 ## Not allowed
 The pipeline's code (validate.py, render.py, enrich.py, tools/), other call directories, out/, files the harness
 saved a tool result to, redirecting corpus output to files, raising corpus.py's --limit, the validator and the
