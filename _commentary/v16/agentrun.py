@@ -27,18 +27,29 @@ ROOT = HERE.parents[1]
 PROJECTS = Path.home() / ".claude" / "projects"
 MARK = "v16-agent-run:"
 MISSING = HERE / "missing.py"
-# $/MTok. Opus: input and output at list; the 1h cache write and the cache read fitted from 122 CLI runs
-# (residual under $0.71 per run); the 5m write assumed at 1.25x input. Fable: exact on the two 87:8 runs.
-# Sonnet: assumed at the Opus ratios. The figure is the CLI's nominal dollar, as in the ledger, never cash.
-RATES = {"claude-opus-5-5": {"input": 8.0, "cache_5m": 10.0, "cache_1h": 8.15, "cache_read": 0.17, "output": 20.0},
+# $/MTok, the published list rates (5m write 1.25x input, 1h write 2x input). Corrected 2026-10-04 night: the
+# earlier table had Opus input $8 and a 5m write of $10 (both double), reads at $0.17, and Sonnet at the same wrong
+# ratios. Check: these rates reproduce the CLI's own cost_usd to the cent on three enrichment trials (S107 Opus
+# $7.4612 with 1h writes, S100 Opus $6.7356 with 5m writes, S107 Sonnet $6.3220 with 1h writes). Fable: exact on
+# the two 87:8 runs. The figure is the CLI's nominal dollar, as in the ledger, never cash.
+RATES = {"claude-opus-5-5": {"input": 4.0, "cache_5m": 5.0, "cache_1h": 8.0, "cache_read": 0.20, "output": 20.0},
          "claude-fable-5-1": {"input": 10.0, "cache_5m": 12.5, "cache_1h": 20.0, "cache_read": 0.25, "output": 50.0},
-         "claude-sonnet-5-5": {"input": 4.0, "cache_5m": 5.0, "cache_1h": 4.1, "cache_read": 0.085, "output": 10.0}}
-AGENT_TYPE = {"writer": "v16-call", "augment": "v16-call", "enrich": "enrich-page", "enrich-dosya": "enrich-page"}
+         "claude-sonnet-5-5": {"input": 2.0, "cache_5m": 2.5, "cache_1h": 4.0, "cache_read": 0.20, "output": 10.0}}
+AGENT_TYPE = {"writer": "v16-call", "augment": "v16-call", "enrich": "enrich-page", "enrich-dosya": "enrich-page",
+              "okuma-plan": "general-purpose", "okuma": "general-purpose"}
+AGENT_MODEL = {"okuma-plan": "Sonnet 5.5", "okuma": "Sonnet 5.5"}  # every other kind: Opus 5.5
 
 
 def spawn_prompt(d: Path, kind: str, output: str, lookup: bool) -> str:
     """The text the orchestrator gives the Agent tool, verbatim."""
     lines = [f"{MARK} {d}", ""]
+    if kind in ("okuma", "okuma-plan"):  # the staged enrichment's reading calls (enrichment/v2/okuma.py)
+        lines += [f"Read {d / 'prompt.md'} with the Read tool: it is your brief and lists your material files. Read "
+                  "every listed file completely, in order, one Read per file. Follow the brief exactly.",
+                  f"Use no other tool and run no command. Write your output to {d / output} with the Write tool, in "
+                  "one write; nothing else.",
+                  "When the file is written, reply with one line: written. Do not put the output in your reply."]
+        return "\n".join(lines) + "\n"
     if kind == "enrich-dosya":
         lines += [f"Read {d / 'prompt.md'} with the Read tool, completely: it is long, so read it in parts with offset and "
                   "limit until you have seen the last line; it is your whole job and all your material. Follow it exactly.",
@@ -75,7 +86,8 @@ def prepare(d: Path, text: str, started: dict, kind: str, output: str = "respons
                                     encoding="utf-8")
     sp = d / "spawn.md"
     sp.write_text(spawn_prompt(d, kind, output, lookup), encoding="utf-8")
-    print(f"prepared {d.relative_to(ROOT)}: spawn one agent of type {AGENT_TYPE[kind]} (Opus 5.5, effort high) with "
+    print(f"prepared {d.relative_to(ROOT)}: spawn one agent of type {AGENT_TYPE[kind]} "
+          f"({AGENT_MODEL.get(kind, 'Opus 5.5, effort high')}) with "
           f"the text of {sp.relative_to(ROOT)}; when it replies, run the finish step for this dir")
     return sp
 
@@ -161,11 +173,19 @@ def tool_use_outside_rule(d: Path, output: str, calls: list[dict]) -> list[str]:
     file are the rule; anything else is listed. Enrichment runs (dir under enrichment/v2/work/): any read inside
     the workspace, writes inside the call dir, Bash; listed otherwise."""
     enrich = "enrichment/v2/work" in str(d)
+    okuma = "/okuma." in str(d)  # reading calls: Read inside the call dir, one Write of the output, nothing else
     out = []
     for c in calls:
         name, inp = c.get("name") or "", c.get("input") or {}
         path = str(inp.get("file_path") or inp.get("path") or inp.get("notebook_path") or "")
-        if enrich:
+        if okuma:
+            if name == "Read" and not path.startswith(str(d) + "/"):
+                out.append(f"Read {path}")
+            elif name == "Write" and path != str(d / output):
+                out.append(f"Write {path}")
+            elif name not in ("Read", "Write"):
+                out.append(f"{name} {json.dumps(inp, ensure_ascii=False)[:120]}")
+        elif enrich:
             if name in ("Write", "Edit", "MultiEdit", "NotebookEdit") and not path.startswith(str(d)):
                 out.append(f"{name} {path}")
             elif name in ("Read", "Glob", "Grep") and ("enrichment/v2/out" in path or (

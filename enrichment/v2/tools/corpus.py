@@ -395,7 +395,8 @@ def running_calls() -> list[str]:
     """Enrichment calls started without a run.log.json (and not confirmed dead): they read this index."""
     work = PG / "enrichment" / "v2" / "work"
     pattern = "s*/ehlikitap.*" if INTERTEXT else "s*/zengin.*"  # each pass reads only its own index
-    return [str(d.relative_to(work)) for d in sorted(work.glob(pattern))
+    dirs = sorted(work.glob(pattern)) + ([] if INTERTEXT else sorted(work.glob("s*/okuma.*/*")))  # reading calls
+    return [str(d.relative_to(work)) for d in dirs
             if (d / "started.json").exists() and not (d / "run.log.json").exists() and not (d / "dead.json").exists()]
 
 
