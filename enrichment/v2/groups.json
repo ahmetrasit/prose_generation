@@ -1,40 +1,319 @@
 {
- "_doc": "Hybrid enrichment groups (user, 2026-10-05: many passes, grouped by tradition so each agent's share is small; every source read; no silent losses; blocks are independent units anchored to the frozen v16 prose). material: ayah = segments tied to the page's ayah (a range segment goes to the surah unit); root = classical lexica entries of the bound roots; search = hits of script-run searches (recorded); meal = the pack's meal files; none = the agent searches itself (antecedents). required: the page must hear this voice (cited, or a recorded reason). odak: what the group's agent is for (Turkish/English brief text).",
+ "_doc": "Hybrid enrichment groups (user, 2026-10-05: many passes, grouped by tradition so each agent's share is small; every source read; no silent losses; blocks are independent units anchored to the frozen v16 prose). material: ayah = segments tied to the page's ayah (a range segment goes to the surah unit); root = classical lexica entries of the bound roots; search = hits of script-run searches (recorded); meal = the pack's meal files; none = the agent searches itself (antecedents). required: the page must hear this voice (cited, or a recorded reason). odak: what the group's agent is for (Turkish/English brief text). cites = segments that cite the ayah without being tied to it (corpus.py cites; reference works). Added 2026-10-05: the six groups after «meal»/«oncul» claim every held source that had none (source_status.py lists any left); groups whose material for a unit is empty are not run, and small units are merged up to budget_chars (grup.py).",
  "budget_chars": 110000,
  "groups": [
-  {"id": "rivayet", "material": "ayah", "sources": ["TAB", "TAB-FULL", "IBNKATHIR", "DURR", "DURR-FULL", "BAGHAWI", "BAGHAWI-FULL", "MUQATIL", "MUJAHID", "ABDURRAZZAQ", "IBNABIHATIM", "YAHYA-SALLAM", "THALABI", "WAHIDI-QT", "WAHIDI-WAJIZ"],
-   "odak": "Transmitted tafsir: who said what (Companions, Successors, early authorities), with transmitters; who repeats whom; the well-known direct explanations of each key word; reports graded by the shared core's rule 4."},
-  {"id": "dirayet-kesşaf", "material": "ayah", "sources": ["KASHSHAF", "KASHSHAF-FULL", "BAYDAWI", "BAYDAWI-FULL", "NASAFI", "NASAFI-FULL", "ABUHAYYAN", "ABUHAYYAN-FULL"],
-   "odak": "The Kashshāf line of analytical tafsir: grammar, rhetoric and meaning as Zamakhsharī states them and as Bayḍāwī, Nasafī and Abū Ḥayyān take, correct or dispute them."},
-  {"id": "dirayet-cami", "material": "ayah", "sources": ["RAZI", "RAZI-FULL", "ALUSI", "ALUSI-FULL", "QURTUBI", "QURTUBI-FULL", "IBNATIYYA", "IBNATIYYA-FULL", "MAWARDI", "MAWARDI-FULL"],
-   "odak": "The comprehensive analytical tafsirs: Rāzī's questions and kalām, Ālūsī's syntheses, Qurṭubī's legal and lexical points, Ibn ʿAṭiyya, and Māwardī's numbered senses (without choosing). Each one's distinctive points; shared points once, with who repeats whom."},
-  {"id": "modern-arap", "material": "ayah", "sources": ["IBNASHUR", "IBNASHUR-FULL", "QUTB-ZILAL", "ABDUH-AMMA"],
-   "odak": "Modern Arabic tafsir: Ibn ʿĀshūr's naẓm, rhetoric and maqāṣid; Sayyid Quṭb's literary reading (al-taṣwīr al-fannī); ʿAbduh where present."},
-  {"id": "mezhep", "material": "ayah", "sources": ["TABRISI", "TABATABAI", "JISHUMI"],
-   "odak": "Imāmī and Muʿtazilī voices: Ṭabrisī, Ṭabāṭabāʾī (strong on Qur'an by Qur'an), al-Jishumī: where they differ from the Sunni readings and why."},
-  {"id": "nazm-bikai", "material": "ayah", "required": true, "unit": "surah", "sources": ["BIQAI", "BIQAI-FULL", "SUYUTI-TANASUQ", "GHARNATI"],
-   "odak": "REQUIRED VOICE (user, 2026-10-05: one of the two traditions the user most wants to hear). Biqāʿī's naẓm: the surah's maqṣūd (purpose) and its munāsaba with the neighbouring surahs (surah page), and for every ayah how it serves the maqṣūd and links to the ayah before and after (ayah pages). Every page of the surah gets Biqāʿī's reading, or a recorded reason in kapsam.jsonl."},
-  {"id": "beyani-huli", "material": "ayah", "required": true, "unit": "surah", "sources": ["BINTSHATI", "BINTSHATI-IJAZ", "KHULI", "RIFAI-KHULI", "YKHULI-TAJDID", "SAMARRAI-LAMASAT", "SAMARRAI-LAMASAT-HALAQAT", "SAMARRAI-ASRAR", "SAMARRAI-ASRAR-MUH"],
-   "odak": "REQUIRED VOICE (user, 2026-10-05). The al-Khūlī (bayānī) school: Bint al-Shāṭiʾ's al-Tafsīr al-bayānī (one Qur'anic sense of a word in its context, the inductive survey of a word's occurrences, the psychological and literary reading), al-Khūlī's method. Their findings and their principled objections (e.g. one sense in context against reading several latent senses)."},
-  {"id": "isari", "material": "ayah", "sources": ["QUSHAYRI", "SULAMI", "TUSTARI", "BURSEVI", "QASHANI"],
-   "odak": "Allusive (ishārī) readings: what each adds, marked as allusion, never as the ayah's outward sense."},
-  {"id": "meani-nahiv", "material": "ayah", "sources": ["MAJAZ", "FARRA", "ZAJJAJ", "AKHFASH", "IBNQUTAYBA-GHARIB", "IBNQUTAYBA-MUSHKIL", "NAHHAS", "SAMIN-DURR", "WAHIDI-BASIT", "KHATTABI"],
-   "odak": "The maʿānī and gharīb works and grammar: early lexical glosses, syntax that decides meaning, majāz; they are also the first place antecedents of the commentary's images are found."},
-  {"id": "kiraat", "material": "ayah", "sources": ["QIRAAT-ER", "IBNMUJAHID", "IBNKHALAWAYH-HUJJA", "FARISI-HUJJA", "IBNJINNI-MUHTASAB", "NASHR"],
-   "odak": "Readings: canonical, non-canonical and Companion readings, and what each does to meaning; leave out what changes only pronunciation."},
-  {"id": "lugat", "material": "root", "sources": ["AYN", "JAMHARA", "TAHDHIB", "SIHAH", "MAQAYIS", "MUFRADAT", "LISAN", "ASAS", "FURUQ", "SAMIN-UMDA"],
-   "odak": "The lexica of the ayah's bound roots (PACK binding.json is the only root authority): senses and branches in the lexica's own words with their shawāhid, literal versus figurative (Asās), near-synonyms (Furūq), Maqāyīs's uṣūl; evidence for and against the commentary's lexical images."},
-  {"id": "vucuh", "material": "search", "sources": ["DAMGHANI", "IBNJAWZI-NUZHA", "MUQATIL-WUJUH"],
-   "odak": "The wujūh wa-naẓāʾir books: the senses each lists for the ayah's content words and the ayat it files under each sense."},
-  {"id": "turkce", "material": "ayah", "sources": ["ELMALILI", "KURANYOLU-TEFSIR"], "extra": ["turkish"],
-   "odak": "Turkish tafsir (Elmalılı, Kur'an Yolu) and Turkish word history (PACK turkish.md: Nişanyan, TDK, Kubbealtı): what the Turkish reader's words have drifted from (anlam_tarihi)."},
-  {"id": "ulum-nuzul", "material": "ayah", "sources": ["WAHIDI-ASBAB", "SUYUTI-LUBAB", "ITQAN", "BURHAN", "CORPUSCORANICUM", "TDVIA"],
-   "odak": "Occasions of revelation (every competing report with its transmitter and grade), Makkī/Madanī and chronology (kept apart from occasions), ʿulūm al-Qurʾān points, modern reference (TDVİA, Corpus Coranicum)."},
-  {"id": "hadis", "material": "search", "sources": ["BUKHARI", "MUSLIM", "ABUDAWUD", "TIRMIDHI", "NASAI", "IBNMAJAH", "MALIK", "IBNHIBBAN", "MUSNAD-AHMAD"],
-   "odak": "Sahih hadith only: a direct Prophetic explanation of the ayah's words when one exists, then the hadith a paragraph of the commentary is about; never a non-sahih report as hadis (shared core, rule 4)."},
-  {"id": "meal", "material": "meal", "unit": "surah", "sources": [],
-   "odak": "The meal review (zengin.md Step 5) for every ayah of the surah: word-by-word for each ayah page, the losses shared across the surah and the verdict on the surah page; translators judged by patterns across a term's occurrences (corpus.py get MEAL-X:S:A)."},
-  {"id": "oncul", "material": "none", "sources": [],
-   "odak": "Antecedents and counter-evidence for the commentary's own findings (zengin.md Step 4): for each claim of kind imge or sentez, search the maʿānī/gharīb works, the wujūh books, the lexica that cite ayat under a branch, Kashshāf, the ishārī works and the full tafsir texts at the lemma's other occurrences; then counter-evidence. One oncul block when an antecedent exists, else one yenilik block; record what was searched (taranan, tarama)."}
+  {
+   "id": "rivayet",
+   "material": "ayah",
+   "sources": [
+    "TAB",
+    "TAB-FULL",
+    "IBNKATHIR",
+    "DURR",
+    "DURR-FULL",
+    "BAGHAWI",
+    "BAGHAWI-FULL",
+    "MUQATIL",
+    "MUJAHID",
+    "ABDURRAZZAQ",
+    "IBNABIHATIM",
+    "YAHYA-SALLAM",
+    "THALABI",
+    "WAHIDI-QT",
+    "WAHIDI-WAJIZ",
+    "IBNKATHIR-FULL"
+   ],
+   "odak": "Transmitted tafsir: who said what (Companions, Successors, early authorities), with transmitters; who repeats whom; the well-known direct explanations of each key word; reports graded by the shared core's rule 4."
+  },
+  {
+   "id": "dirayet-kesşaf",
+   "material": "ayah",
+   "sources": [
+    "KASHSHAF",
+    "KASHSHAF-FULL",
+    "BAYDAWI",
+    "BAYDAWI-FULL",
+    "NASAFI",
+    "NASAFI-FULL",
+    "ABUHAYYAN",
+    "ABUHAYYAN-FULL"
+   ],
+   "odak": "The Kashshāf line of analytical tafsir: grammar, rhetoric and meaning as Zamakhsharī states them and as Bayḍāwī, Nasafī and Abū Ḥayyān take, correct or dispute them."
+  },
+  {
+   "id": "dirayet-cami",
+   "material": "ayah",
+   "sources": [
+    "RAZI",
+    "RAZI-FULL",
+    "ALUSI",
+    "ALUSI-FULL",
+    "QURTUBI",
+    "QURTUBI-FULL",
+    "IBNATIYYA",
+    "IBNATIYYA-FULL",
+    "MAWARDI",
+    "MAWARDI-FULL",
+    "IBNJAWZI-ZAD"
+   ],
+   "odak": "The comprehensive analytical tafsirs: Rāzī's questions and kalām, Ālūsī's syntheses, Qurṭubī's legal and lexical points, Ibn ʿAṭiyya, and Māwardī's numbered senses (without choosing). Each one's distinctive points; shared points once, with who repeats whom."
+  },
+  {
+   "id": "modern-arap",
+   "material": "ayah",
+   "sources": [
+    "IBNASHUR",
+    "IBNASHUR-FULL",
+    "QUTB-ZILAL",
+    "ABDUH-AMMA"
+   ],
+   "odak": "Modern Arabic tafsir: Ibn ʿĀshūr's naẓm, rhetoric and maqāṣid; Sayyid Quṭb's literary reading (al-taṣwīr al-fannī); ʿAbduh where present."
+  },
+  {
+   "id": "mezhep",
+   "material": "ayah",
+   "sources": [
+    "TABRISI",
+    "TABATABAI",
+    "JISHUMI"
+   ],
+   "odak": "Imāmī and Muʿtazilī voices: Ṭabrisī, Ṭabāṭabāʾī (strong on Qur'an by Qur'an), al-Jishumī: where they differ from the Sunni readings and why."
+  },
+  {
+   "id": "nazm-bikai",
+   "material": "ayah",
+   "required": true,
+   "unit": "surah",
+   "sources": [
+    "BIQAI",
+    "BIQAI-FULL",
+    "SUYUTI-TANASUQ",
+    "GHARNATI"
+   ],
+   "odak": "REQUIRED VOICE (user, 2026-10-05: one of the two traditions the user most wants to hear). Biqāʿī's naẓm: the surah's maqṣūd (purpose) and its munāsaba with the neighbouring surahs (surah page), and for every ayah how it serves the maqṣūd and links to the ayah before and after (ayah pages). Every page of the surah gets Biqāʿī's reading, or a recorded reason in kapsam.jsonl."
+  },
+  {
+   "id": "beyani-huli",
+   "material": "ayah",
+   "required": true,
+   "unit": "surah",
+   "sources": [
+    "BINTSHATI",
+    "BINTSHATI-IJAZ",
+    "KHULI",
+    "RIFAI-KHULI",
+    "YKHULI-TAJDID",
+    "SAMARRAI-LAMASAT",
+    "SAMARRAI-LAMASAT-HALAQAT",
+    "SAMARRAI-ASRAR",
+    "SAMARRAI-ASRAR-MUH"
+   ],
+   "odak": "REQUIRED VOICE (user, 2026-10-05). The al-Khūlī (bayānī) school: Bint al-Shāṭiʾ's al-Tafsīr al-bayānī (one Qur'anic sense of a word in its context, the inductive survey of a word's occurrences, the psychological and literary reading), al-Khūlī's method. Their findings and their principled objections (e.g. one sense in context against reading several latent senses)."
+  },
+  {
+   "id": "isari",
+   "material": "ayah",
+   "sources": [
+    "QUSHAYRI",
+    "SULAMI",
+    "TUSTARI",
+    "BURSEVI",
+    "QASHANI"
+   ],
+   "odak": "Allusive (ishārī) readings: what each adds, marked as allusion, never as the ayah's outward sense."
+  },
+  {
+   "id": "meani-nahiv",
+   "material": "ayah",
+   "sources": [
+    "MAJAZ",
+    "FARRA",
+    "ZAJJAJ",
+    "AKHFASH",
+    "IBNQUTAYBA-GHARIB",
+    "IBNQUTAYBA-MUSHKIL",
+    "NAHHAS",
+    "SAMIN-DURR",
+    "WAHIDI-BASIT",
+    "KHATTABI",
+    "SIBAWAYH"
+   ],
+   "odak": "The maʿānī and gharīb works and grammar: early lexical glosses, syntax that decides meaning, majāz; they are also the first place antecedents of the commentary's images are found."
+  },
+  {
+   "id": "kiraat",
+   "material": "ayah",
+   "sources": [
+    "QIRAAT-ER",
+    "IBNMUJAHID",
+    "IBNKHALAWAYH-HUJJA",
+    "FARISI-HUJJA",
+    "IBNJINNI-MUHTASAB",
+    "NASHR"
+   ],
+   "odak": "Readings: canonical, non-canonical and Companion readings, and what each does to meaning; leave out what changes only pronunciation."
+  },
+  {
+   "id": "lugat",
+   "material": "root",
+   "sources": [
+    "AYN",
+    "JAMHARA",
+    "TAHDHIB",
+    "SIHAH",
+    "MAQAYIS",
+    "MUFRADAT",
+    "LISAN",
+    "ASAS",
+    "FURUQ",
+    "SAMIN-UMDA",
+    "TAJ",
+    "QAMUS",
+    "LANE",
+    "MUHIT",
+    "VASIT",
+    "HANSWEHR"
+   ],
+   "odak": "The lexica of the ayah's bound roots (PACK binding.json is the only root authority): senses and branches in the lexica's own words with their shawāhid, literal versus figurative (Asās), near-synonyms (Furūq), Maqāyīs's uṣūl; evidence for and against the commentary's lexical images."
+  },
+  {
+   "id": "vucuh",
+   "material": "search",
+   "sources": [
+    "DAMGHANI",
+    "IBNJAWZI-NUZHA",
+    "MUQATIL-WUJUH"
+   ],
+   "odak": "The wujūh wa-naẓāʾir books: the senses each lists for the ayah's content words and the ayat it files under each sense."
+  },
+  {
+   "id": "turkce",
+   "material": "ayah",
+   "sources": [
+    "ELMALILI",
+    "KURANYOLU-TEFSIR"
+   ],
+   "extra": [
+    "turkish"
+   ],
+   "odak": "Turkish tafsir (Elmalılı, Kur'an Yolu) and Turkish word history (PACK turkish.md: Nişanyan, TDK, Kubbealtı): what the Turkish reader's words have drifted from (anlam_tarihi)."
+  },
+  {
+   "id": "ulum-nuzul",
+   "material": "ayah",
+   "sources": [
+    "WAHIDI-ASBAB",
+    "SUYUTI-LUBAB",
+    "ITQAN",
+    "BURHAN",
+    "CORPUSCORANICUM",
+    "TDVIA"
+   ],
+   "odak": "Occasions of revelation (every competing report with its transmitter and grade), Makkī/Madanī and chronology (kept apart from occasions), ʿulūm al-Qurʾān points, modern reference (TDVİA, Corpus Coranicum)."
+  },
+  {
+   "id": "hadis",
+   "material": "search",
+   "sources": [
+    "BUKHARI",
+    "MUSLIM",
+    "ABUDAWUD",
+    "TIRMIDHI",
+    "NASAI",
+    "IBNMAJAH",
+    "MALIK",
+    "IBNHIBBAN",
+    "MUSNAD-AHMAD"
+   ],
+   "odak": "Sahih hadith only: a direct Prophetic explanation of the ayah's words when one exists, then the hadith a paragraph of the commentary is about; never a non-sahih report as hadis (shared core, rule 4)."
+  },
+  {
+   "id": "meal",
+   "material": "meal",
+   "unit": "surah",
+   "sources": [],
+   "odak": "The meal review (zengin.md Step 5) for every ayah of the surah: word-by-word for each ayah page, the losses shared across the surah and the verdict on the surah page; translators judged by patterns across a term's occurrences (corpus.py get MEAL-X:S:A)."
+  },
+  {
+   "id": "oncul",
+   "material": "none",
+   "sources": [],
+   "odak": "Antecedents and counter-evidence for the commentary's own findings (zengin.md Step 4): for each claim of kind imge or sentez, search the maʿānī/gharīb works, the wujūh books, the lexica that cite ayat under a branch, Kashshāf, the ishārī works and the full tafsir texts at the lemma's other occurrences; then counter-evidence. One oncul block when an antecedent exists, else one yenilik block; record what was searched (taranan, tarama)."
+  },
+  {
+   "id": "modern-bati",
+   "material": "ayah",
+   "sources": [
+    "STUDYQURAN",
+    "ASAD-NOTES"
+   ],
+   "odak": "Modern commentaries in English (added 2026-10-05): The Study Quran's per-verse synthesis of classical exegesis (its sigla name the commentators) and Asad's reformist notes; what they add to or contest in the page's reading. Skip the Study Quran's translation copy (duplicate)."
+  },
+  {
+   "id": "nazm-islahi",
+   "material": "ayah",
+   "sources": [
+    "ISLAHI-TADABBUR",
+    "CUYPERS-COMPOSITION",
+    "FARAHI-NIZAM"
+   ],
+   "odak": "Coherence (naẓm) of the Farāhī–Iṣlāḥī school: the surah's central theme (ʿamūd), its relation to the paired surah, the section the ayah sits in; Cuypers's rhetorical analysis (parallel and concentric composition) where it treats the passage. Complements nazm-bikai."
+  },
+  {
+   "id": "akademik",
+   "material": "cites",
+   "sources": [
+    "EQ",
+    "NOLDEKE-GDQ",
+    "JEFFERY-FOREIGN",
+    "SINAI-KEYTERMS",
+    "ZAMMIT-COMPARATIVE",
+    "BADAWI-HALEEM"
+   ],
+   "odak": "Academic reference works reached through the ayat they cite (`corpus.py cites S:A`) and the ayah's key terms (Sinai, Jeffery, Zammit by headword): chronology, loanword and Semitic cognate claims, term histories; reported as positions with their authors, never as the page's own conclusions."
+  },
+  {
+   "id": "icaz-belagat",
+   "material": "search",
+   "sources": [
+    "JURJANI-DALAIL",
+    "JURJANI-ASRAR",
+    "BAQILLANI",
+    "RUMMANI"
+   ],
+   "odak": "Iʿjāz and balāgha theory (al-Jurjānī's naẓm, al-Bāqillānī, al-Rummānī) where it discusses this ayah or the construction the page's prose turns on (taqdīm, ḥadhf, kināya, istiʿāra…); found by script-run searches of the ayah's phrases and constructions."
+  },
+  {
+   "id": "siir-sahid",
+   "material": "search",
+   "sources": [
+    "MUALLAQAT",
+    "MUFADDALIYYAT",
+    "ASMAIYYAT",
+    "HAMASA"
+   ],
+   "odak": "Pre- and early-Islamic poetry as shawāhid for the ayah's words: the verses in which a word of the ayah occurs, with the commentator's gloss; found by script-run searches of the content words."
+  },
+  {
+   "id": "siyer-tarih",
+   "material": "search",
+   "sources": [
+    "IBNHISHAM",
+    "AZRAQI",
+    "KALBI-ASNAM"
+   ],
+   "odak": "Sīra and akhbār (Ibn Hishām, al-Azraqī's Mecca, Ibn al-Kalbī's idols) where they bear on the ayah's occasion, places, persons or cults; found by searches of the ayah and the names it involves."
+  },
+  {
+   "id": "turkce-sozluk",
+   "material": "search",
+   "sources": [
+    "KUBBEALTI",
+    "TDK",
+    "NISANYAN",
+    "PROJE"
+   ],
+   "odak": "Turkish dictionaries for the page's Turkish wording: the senses and history (Nişanyan) of Arabic loanwords the prose uses (anlam_tarihi), and the project's own dictionary entries."
+  }
  ]
 }
