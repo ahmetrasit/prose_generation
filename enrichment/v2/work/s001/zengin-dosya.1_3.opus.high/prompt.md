@@ -1,0 +1,2500 @@
+# Job
+
+- Surah: 1; ids use S001
+- Target: 1:3 — the ayah page (base in the dossier)
+- Your call directory (write only here): /Volumes/aro/projects/prose_generation/enrichment/v2/work/s001/zengin-dosya.1_3.opus.high
+- Mode: dosya (no tools; everything is in this message)
+
+
+# Enrichment: shared core (read completely; the brief that follows builds on it)
+
+## What this work is
+A frozen Turkish commentary on one surah (and one commentary per ayah) already exists: the BASE, written by this
+project from a dictionary of every attested branch of every root. The base develops latent and secondary lexical
+images of the Qur'an's words without choosing one reading over another. It is final; you never change it.
+
+Enrichment builds, around the base, one page where an ADVANCED reader sees every major information source at
+once: transmitted and analytical tafsir (including allusive/Sufi, Muʿtazilī, Imāmī, naẓm and bayānī voices),
+occasions of revelation, sahih hadith, readings, lexicon and the sense inventory of words across the Qur'an, grammar,
+rhetoric, Qur'an-by-Qur'an, semantic history, historical setting, Turkish translations and what they lose, modern
+scholarship, and an audit of what in the base is already attested in the literature, partly attested, or not found.
+Each block is concise and says why it matters at that point. The base is the skeleton and flesh; enrichment builds
+the knowledge around it and integrates the base's findings with the literature.
+
+## Paths (relative to the workspace root /Volumes/aro/projects/prose_generation)
+- PACK = enrichment/v2/work/sNNN/pack/ (built by script; read-only for you)
+  - base/surah.md, base/S_A.md: the frozen base pages; base.json: their sha256
+  - numbered/surah.md, numbered/S_A.md: the same pages with each prose paragraph numbered [¶n] (headings and
+    "Kaynaklar:" lines are not numbered); read these, and anchor blocks by these numbers. An ayah base also holds
+    v16's own additions (augment9): blocks opening with `<!-- v16:augment … para=n … -->`, unnumbered, under ¶n.
+    They are part of the base: never repeat their parallels or cross-references; build on them
+  - ayah/S_A/{words.md, dictionary.md, usage.md, meals.md, sources.md, turkish.md}; roots/<root_id>.md; binding.json
+  - errata_candidates.json (problems the base's own tag checker reported); pack.json (manifest, gaps)
+- Schema: enrichment/v2/SCHEMA_CARD.md (types, fields, values, rules for this pass). Read it once, completely.
+  SCHEMA.md is the full reference (labels in three languages, the Bible pass); open it only if the card leaves
+  something unclear. schema.json is the same content as data for the scripts; do not read it.
+- Corpus tool: `python3 enrichment/v2/tools/corpus.py` with `sources [--kind K]`, `get LOC [LOC …]`,
+  `ayah S:A [--kind tafsir,meal]`, `search 'words' [--src ID,ID] [--kind K] [--surah N] [--n 20] [--sahih]`.
+  Search matches word prefixes; Arabic is normalised (no tashkīl, unified alef/yāʾ/tāʾ marbūṭa). Try variants.
+  `get` takes many locators at once: open what you need in few calls.
+- Commands: absolute paths; no shell loops, no shell variables, no `cd` into other directories (such commands may
+  be refused). Several commands may be joined with `;` in one call. Read each file once and keep notes.
+- Reading economy (user, 2026-10-04): every tool result stays in your context for the rest of the call and is
+  read again on every later turn, so the size of what you pull in sets the cost of the whole call. Read a pack
+  file once, with the Read tool, one file per call; never `cat` several files in one command. `search` with
+  `--n 10 --chars 300`; `get` with `--chars 1500` unless you need the whole text, and open only what you will
+  use. A result the harness spills to a file is read once; take your notes from it then and do not open it again.
+  The schema card is the format: never read other pages' call directories or out/ for examples.
+- Your call directory (the only place you write) is given in the job header.
+
+## Sources: what is authoritative, what is allowed
+1. Word → root identity comes ONLY from PACK/binding.json (QAC + the project's root gateway). Never resolve a root
+   by spelling, folding or memory. The project dictionary (corpus ID PROJE; PACK dictionary.md and roots/) is
+   authoritative for senses; the six classical lexica it is built from (AYN, JAMHARA, TAHDHIB, SIHAH, MAQAYIS,
+   MUFRADAT) are in the corpus in full; LISAN, LANE, ASAS, QAMUS, TAJ are further lexica. VASIT, MUHIT, HANSWEHR
+   are modern Arabic: use them only inside anlam_tarihi, as evidence of later drift, never as attestation.
+2. Cite only what you opened. Every block's `kaynak` holds corpus locators exactly as the corpus prints them
+   (TAB:107:3, MUSLIM:2985, MAQAYIS:سهو, ELMALILI:107:2). A locator must resolve; the validator checks it.
+3. Model memory is allowed only when marked: `kaynak:"hafiza"` (or a corpus pointer whose access is hafiza, e.g. a
+   licensed Western book) together with `durum:degerlendirilmedi`. Memory is never allowed for hadith, for a grade,
+   for revelation order/Makkī-Madanī, or for the history of a Turkish loanword.
+4. Hadith blocks (`tur:hadis`) are sahih only: Bukhārī, Muslim, or a sunan report every named grader calls sahih
+   (search with `--sahih`; the corpus marks each report). Occasion reports (`tur:esbab`) may be of any grade; give
+   `derece`, `derece_veren` (as the source or the corpus records it, else derece:degerlendirilmedi) and
+   `tarihsellik`. Never upgrade a grade because a tafsir quotes the report. Merit (fazilet) reports are hadith:
+   sahih only, as tur:hadis; never file them under esbab. A report attributed to the Prophet but graded below
+   sahih is never a hadis block; when the same words are soundly attributed to a Companion or Successor, report
+   them as tefsir_rivayet and say in one clause that the Prophetic attribution is weak, naming who judged it.
+   Otherwise a non-sahih report appears only as esbab (if it is an occasion report) or, when the reader needs the
+   warning, in a kaynak_notu block with its grade and grader.
+5. Dataset hadith numbers are not sunnah.com numbers: cite the corpus locator and quote the opening words.
+6. Bible and other non-Islamic scripture are handled in a separate pass (gelenek tevrat and incil). Do not cite
+   them here; a Bible passage that an Islamic source itself quotes (al-Biqāʿī, for instance) is reported as that
+   source's content.
+7. If a source you need is missing, say so (in gaps.json); never fill the gap from memory
+   without marking it.
+
+## Epistemic rules
+- Never present a report as history because a classical book transmits it; competing reports stay competing.
+- A thematic hadith is not direct tafsir (`iliski:tematik`, not `dogrudan`).
+- A source's stated preference ("the correct view is X") is `islev:tercih`. `islev:itiraz` is an argued exclusion:
+  why the base's reading cannot hold here (grammar, near-synonymy, root identity, a reading), with `gerekce`.
+- Novelty is always relative to what you searched: `taranan` lists the corpus IDs, `tarama` says whether you
+  searched only the per-ayah slice (`dilim`) or whole texts (`tam`). Never write "this is absent from classical
+  tafsir"; write "not found in the checked sources: …".
+- Keep three levels apart in every block: what the ayah says in context; what a source attests; what the base
+  synthesises. A root-family image can be real without being what the ayah means. Do this with the tags (durum,
+  iliski, islev) and with exact attribution inside the sentence ("Râgıb … der"), not with a closing disclaimer;
+  only a yenilik block states the scope of the search.
+- Do not adjudicate the base's readings. Report evidence for and against them; the base's readings coexist.
+
+## Block text (`metin`)
+Turkish, in the register of the base: plain, warm, exact; explain Arabic terms briefly; name the scholar, not
+"the scholars"; no first person, no talk about your process or tools. One paragraph; at most 80 words (layers
+temel/ek) or 120 (arastirma). Short quotations only; Arabic quotations go in the base's reader-tag form
+{ar:…, tr:…, gloss:…, source:…} with the corpus locator as source.
+- The block is read right after a paragraph of the commentary, by a reader who has just read that paragraph. Call
+  the commentary "şerh" when you must refer to it (never "taban", "base" or "the project"); usually just state the
+  point.
+- Say what the source adds and stop. Do not end with a disclaimer about what the source does not prove or what the
+  block is not: the tags already say whether a link is direct, thematic or reported. State a limit only when it
+  changes the reading, as its own itiraz or sinir block.
+- Say each thing once on the page: a point made in one block is not repeated in another.
+
+
+# zengin (dosya): one ayah page's records from a dossier, in one tool-free call
+
+You produce every enrichment block for ONE ayah page, the target in the job header, exactly as the brief zengin.md
+describes, with one difference: you use no tools. Everything you may read is in this message, in the DOSSIER after
+the schema card: the numbered base, the pack's files for the ayah, its bound roots, every corpus segment tied to the
+ayah, the lexica entries of its roots, the sahih hadith and the readings whose text holds the ayah's words, and the
+errata candidates. A script gathered it; nothing outside it exists for this call.
+
+The shared core (common.md) holds, except where it speaks of commands, searches, files to open, the validator or
+the preview: there is none of that here. In particular:
+- Cite only locators that appear in the dossier, exactly as printed after `==`. A locator not in the dossier does
+  not exist for you; memory is allowed only as `kaynak:"hafiza"` with `durum:degerlendirilmedi`, under the core's
+  limits (never for hadith, grades, chronology, Turkish word history).
+- A segment cut at the dossier's limit is cited for what its shown part says; do not guess the rest.
+- Antecedents and counter-evidence (zengin.md step 4): search within the dossier's full-text sources; write
+  `tarama:dilim` and list in `taranan` the corpus IDs present in the dossier. Never write "not found in classical
+  tafsir": write "not found in the dossier's sources: …".
+- The meal review (step 5) uses the pack's words.md and meals.md in the dossier; other ayat's meals are not
+  available: say so where a pattern across occurrences would have been checked.
+- Step 7 (check and finish) is done by reading your own records against the dossier before you write them; the
+  script validates afterwards and drops what fails, without sending it back.
+
+Output: write the records to annotations.jsonl in your call directory with the Write tool, one JSON object per
+line, in page order, all schema fields as keys (`gelenek` left out), with `paragraf` and `capa`; then a second file
+gaps.json ({"missing_sources":[…], "not_found":[…], "unresolved":[…]}) naming what the dossier lacked. Nothing else
+is written or read. Your reply in chat is one line.
+
+
+# Dossier for 1:3 (surah 1), built by script from the pack and the corpus index
+
+
+===== THE BASE: PACK/numbered/1_3.md (anchor every block by its [¶n]) =====
+
+## Bir cümlenin ortasında iki ad
+
+[¶1] Üçüncü ayet yalnızca iki kelimedir ve kendi başına bir cümle kurmaz. Fiili de öznesi de yoktur. İki kelime ikinci ayetteki Allah adına bağlanır, onunla aynı hâlde okunur ve onu niteler. Cümle ikinci ayette başlar, üçüncüden geçer, dördüncüde tamamlanır: Hamd, âlemlerin Rabbi, Rahmân, Rahîm ve din gününün sahibi olan Allah'adır. Bu yüzden ayetin anlamı yanındaki ayetlerden ayrılamaz. Merhamet, bir cümlenin tam ortasında, Rab ile hükümdar arasında durur.
+
+<!-- v16:augment brief=augment9 model=opus para=1 kind=prose ref=55:1 -->
+Rahmân suresi yalnızca bu addan oluşan bir ayetle açılır: {ar:ٱلرَّحْمَٰنُ, tr:er-rahmân, gloss:Rahmân, source:55:1}. Bu ayet de tek başına bir cümle kurmaz. Cümleyi bir sonraki ayetin fiili tamamlar: {ar:عَلَّمَ ٱلْقُرْءَانَ, tr:alleme'l-kur'ân, gloss:Kur'an'ı öğretti, source:55:2}. Ardından insanı yaratmak {source:55:3} ve ona açıklamayı öğretmek {source:55:4} de aynı ada bağlanır. Orada ad başka bir adı niteleyen bir sıfat değildir. Cümlenin öznesidir: Kur'an'ı öğreten de insanı yaratan da O'dur.
+
+<!-- v16:augment brief=augment9 model=opus para=1 kind=refs -->
+Ayrıca: {source:17:111} Allah'ı Rahmân adıyla çağırmaya izin verildikten hemen sonra hamdın, mülkünde ortağı olmayan Allah'a söylenmesi.
+
+[¶2] Okuyan bu iki kelimeyi az önce duymuştur, çünkü birinci ayet de aynı ikiliyle biter: {ar:بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ, tr:bismillâhi'r-rahmâni'r-rahîm, gloss:Rahmân ve Rahîm olan Allah'ın adıyla, source:1:1}. Orada iki ad, okuyanın söze başlarken andığı adın parçasıdır. Burada ise hamdın içindedir ve övülenin neden övüldüğünü söyler. Yedi ayetlik bir surede aynı iki kelime iki kez geçer, ama aynı işi görmez. Birincide bir başlangıcın, ikincide bir övgünün parçasıdır.
+
+<!-- v16:augment brief=augment9 model=opus para=2 kind=refs -->
+Ayrıca: {source:27:30} Süleyman'ın mektubunun aynı adla açılması: söze başlarken anılan ad; {source:41:2} aynı ikilinin bu kez indirilen kitabın kaynağı olarak anılması; {source:2:163} {source:59:22} aynı ikilinin, tek ilahın kim olduğunu söyleyen cümlelerde O'nu tanıtan ad olarak gelmesi.
+
+[¶3] Yerleri de önemlidir. Önlerinde âlemlerin Rabbi, arkalarında bir günün sahibi vardır. Ardından beşinci ayette konuşan değişir ve kul doğrudan "yalnız sana" diye seslenir. Kul daha bir şey istemeden, seslendiği kişi iki kez merhametle anılmıştır. Merhamet istenmeden önce söylenir. Âlemler ile merhamet arasındaki bu yakınlığı Kur'an başka bir yerde tek cümlede kurar. Enbiyâ suresinde birçok peygamberin kıssası anlatıldıktan sonra Allah Peygambere şöyle der: {ar:وَمَآ أَرْسَلْنَٰكَ إِلَّا رَحْمَةًۭ لِّلْعَٰلَمِينَ, tr:ve mâ erselnâke illâ rahmeten li'l-âlemîn, gloss:seni ancak âlemlere bir rahmet olarak gönderdik, source:21:107}. İkinci ayetteki "âlemîn" kelimesi orada merhametin ulaştığı yer olarak geçer.
+
+<!-- v16:augment brief=augment9 model=opus para=3 kind=prose ref=21:112 -->
+Enbiyâ suresinin son ayeti şu sözle biter: {ar:قَٰلَ رَبِّ ٱحْكُم بِٱلْحَقِّ ۗ وَرَبُّنَا ٱلرَّحْمَٰنُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ, tr:kâle rabbi'hkum bi'l-hakk, ve rabbüne'r-rahmânü'l-müste'ânu alâ mâ tesifûn, gloss:Rabbim, hakla hükmet; Rabbimiz, söylediklerinize karşı yardımı istenen Rahmân'dır, dedi, source:21:112}. Burada Rab, Rahmân ve kendisinden yardım istenen tek bir cümlede bir aradadır. "Müste'ân" kelimesi, Fâtiha'nın beşinci ayetindeki "nesta'în" ile aynı köktendir. Yardımı istenen, önce Rab ve Rahmân diye anılmıştır.
+
+<!-- v16:augment brief=augment9 model=opus para=3 kind=refs -->
+Ayrıca: {source:17:87} {source:28:46} {source:28:86} {source:44:6} vahyin ve elçiliğin "Rabbinden bir rahmet" olarak anılması: Rab ile rahmetin gönderilende birleşmesi; {source:9:61} Peygamberin inananlara rahmet olarak anılması; {source:19:2} Zekeriyya kıssasının "Rabbinin kuluna rahmetinin anılması" diye açılması: Rab, rahmet ve kul aynı sırada; {source:20:90} Harun'un buzağıya tapanlara Rablerinin Rahmân olduğunu söylemesi.
+
+## Taşan merhamet, kalıcı merhamet
+
+[¶4] İki kelime aynı kökten gelir ama iki ayrı kalıba dökülmüştür. Birinci kelime Rahmân, esirgemesi her şeyi kuşatan Tanrı'nın adıdır {source:"ر ح م,B001"}. İkinci kelime Rahîm, çok esirgeyen ve bol bol iyilik eden demektir {source:"ر ح م,B001"}. Arapçada Rahmân'ın kalıbı, içi dolup taşan bir hâli anlatır. "Susuz" ve "öfkeli" anlamına gelen kelimeler de bu kalıptadır. Rahîm'in kalıbı ise yerleşmiş ve süren bir niteliği anlatır. Biri taşkınlığı, öbürü sürekliliği öne çıkarır. Bu yüzden ikinci kelime birincinin tekrarı değildir, onu tamamlar.
+
+<!-- v16:augment brief=augment9 model=opus para=4 kind=refs -->
+Ayrıca: {source:35:2} Allah'ın insanlara açtığı rahmeti kimsenin tutamaması: önünde engel olmayan taşkın merhamet; {source:39:38} O'nun dilediği rahmeti hiçbir ortağın tutamaması; {source:17:100} karşıt olarak insanın, Rabbin rahmet hazinelerine sahip olsa bile harcamaktan korkup onları tutması.
+
+[¶5] Kur'an bu farkı kullanımıyla da gösterir. Rahmân orada neredeyse bir özel isim gibidir. Allah Peygambere şunu söyletir: {ar:قُلِ ٱدْعُوا۟ ٱللَّهَ أَوِ ٱدْعُوا۟ ٱلرَّحْمَٰنَ, tr:kulid'ullâhe evid'u'r-rahmân, gloss:de ki: ister Allah diye çağırın ister Rahmân diye, source:17:110}. İnkâr edenler bu adı bir yabancıyı sorar gibi sorarlar. Onlara Rahmân'a secde etmeleri söylendiğinde şöyle derler: {ar:وَمَا ٱلرَّحْمَٰنُ, tr:ve mâ'r-rahmân, gloss:Rahmân da nedir, source:25:60}. Rahmân bütün varlığı ilgilendiren yerlerde anılır. Arşın üzerinde O vardır: {ar:ٱلرَّحْمَٰنُ عَلَى ٱلْعَرْشِ ٱسْتَوَىٰ, tr:er-rahmânu ale'l-arşi'stevâ, gloss:Rahmân arşa kurulmuştur, source:20:5}. Kanat açıp kapayan kuşları havada O tutar: {ar:مَا يُمْسِكُهُنَّ إِلَّا ٱلرَّحْمَٰنُ, tr:mâ yümsikuhünne ille'r-rahmân, gloss:onları Rahmân'dan başkası tutmaz, source:67:19}. Göklerin yaratılışı da O'nun yaratılışı olarak gösterilir: {ar:مَّا تَرَىٰ فِى خَلْقِ ٱلرَّحْمَٰنِ مِن تَفَٰوُتٍۢ, tr:mâ terâ fî halkı'r-rahmâni min tefâvüt, gloss:Rahmân'ın yaratışında bir uyumsuzluk göremezsin, source:67:3}. Kur'an Rahmân kelimesini hiçbir insan için kullanmaz. Rahîm ise bir insan için de söylenebilir. Allah inananlara gelen elçiyi şöyle anlatır: {ar:بِٱلْمُؤْمِنِينَ رَءُوفٌۭ رَّحِيمٌۭ, tr:bi'l-mü'minîne raûfün rahîm, gloss:inananlara karşı şefkatli ve merhametlidir, source:9:128}. Rahîm çoğu zaman belli kişilere yönelir: {ar:وَكَانَ بِٱلْمُؤْمِنِينَ رَحِيمًۭا, tr:ve kâne bi'l-mü'minîne rahîmâ, gloss:O inananlara karşı merhametlidir, source:33:43}. Cennettekilere verilen selam da bu kelimeyi ikinci ayetin kelimesiyle birlikte taşır: {ar:سَلَٰمٌۭ قَوْلًۭا مِّن رَّبٍّۢ رَّحِيمٍۢ, tr:selâmün kavlen min rabbin rahîm, gloss:merhametli bir Rabden söz olarak selam, source:36:58}.
+
+<!-- v16:augment brief=augment9 model=opus para=5 kind=prose ref=25:59 -->
+Furkân suresinde "Rahmân da nedir" sorusundan hemen önceki ayet, sorulanı zaten tanıtmıştır: {ar:ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا فِى سِتَّةِ أَيَّامٍۢ ثُمَّ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۚ ٱلرَّحْمَٰنُ فَسْـَٔلْ بِهِۦ خَبِيرًۭا, tr:ellezî haleka's-semâvâti ve'l-arda ve mâ beynehümâ fî sitteti eyyâmin sümme'stevâ ale'l-arş, er-rahmânu fes'el bihî habîrâ, gloss:gökleri, yeri ve aralarındakileri altı günde yaratan, sonra arşa kurulan Rahmân'dır; O'nu bilen birine sor, source:25:59}. Sorunun cevabı soru sorulmadan önce verilmiştir. Rahmân, gökleri ve yeri yaratıp arşa kurulandır. Ayet, O'nu tanımak isteyene bilen birine sormasını söyler.
+
+<!-- v16:augment brief=augment9 model=opus para=5 kind=refs -->
+Ayrıca: {source:16:79} kuşları havada tutanın bu kez Allah adıyla anılması: iki adın aynı işte buluşması; {source:7:180} Allah'ın en güzel adlarla çağrılması, İsrâ suresindeki "el-esmâü'l-hüsnâ" ile aynı söz; {source:13:30} Rahmân'ı inkâr edenlere karşı "O benim Rabbimdir" denmesi; {source:19:18} Meryem'in Rahmân'a sığınması: bu adla yapılan çağrı; {source:20:4} arşa kurulan Rahmân'ın yeri ve yüce gökleri yaratan diye tanıtılması; {source:20:6} göklerde, yerde ve ikisinin arasında olanların O'nun olması; {source:67:1} Rahmân'ın yaratışından önce mülkün O'nun elinde olduğunun söylenmesi; {source:67:20} {source:67:21} Rahmân'dan başka yardım edecek ve rızık verecek kimsenin olmaması; {source:55:1} {source:55:2} {source:55:3} {source:55:4} Kur'an'ı öğretenin ve insanı yaratanın Rahmân olması; {source:2:143} {source:22:65} Rahîm'in "insanlara karşı" denerek belli bir toplulukla sınırlanmadan söylenmesi, göğü tutanın da bu adla anılması; {source:16:7} yükleri taşıyan hayvanların ardından Rabbin Raûf ve Rahîm diye anılması; {source:17:66} gemileri denizde yürüten Rabbin "size karşı Rahîm" olması; {source:9:117} Peygamber için söylenen "raûf, rahîm" ikilisinin Allah için söylenmesi; {source:59:10} aynı ikilinin sonra gelenlerin duasında Rabbe söylenmesi; {source:48:29} Peygamberle birlikte olanların "ruhamâ" yani birbirine merhametli diye anılması: Rahîm'in insanlar için kullanılan çoğulu; {source:7:151} {source:12:64} {source:12:92} {source:21:83} "erhamü'r-râhimîn": merhamet edenler arasında en merhametli olan; {source:23:109} {source:23:118} "hayrü'r-râhimîn": merhamet edenlerin en hayırlısı; {source:33:44} inananlara Rahîm olanın onlarla buluştuğu gün selamla karşılanmaları; {source:6:54} inananlara verilen selamın, Rabbin kendine yazdığı rahmetle ve Rahîm adıyla gelmesi;
+{source:41:32} cennettekilere Gafûr ve Rahîm olandan bir ağırlama; {source:52:28} cennettekilerin önceden dua ettikleri Rabbi Berr ve Rahîm diye anması.
+
+[¶6] İki kelimenin bu iki hareketi Kur'an'da tek bir cevapta da görülür. Musa, kavminden seçtiği yetmiş kişiyi sarsıntı yakalayınca Rabbine yalvarır {source:7:155}. Aldığı cevapta önce sınırsız bir genişlik, ardından bir yazılış vardır: {ar:وَرَحْمَتِى وَسِعَتْ كُلَّ شَىْءٍۢ ۚ فَسَأَكْتُبُهَا لِلَّذِينَ يَتَّقُونَ, tr:ve rahmetî vesi'at külle şey', fe-se-ektübühâ lillezîne yettekûn, gloss:rahmetim her şeyi kuşatmıştır; onu sakınanlara yazacağım, source:7:156}. Her şeyi kuşatan merhamet Rahmân'ın, belli kişilere yazılan ve onlarla kalan merhamet Rahîm'in sesine yakındır. Arşı taşıyan melekler de aynı genişlikle dua eder: {ar:رَبَّنَا وَسِعْتَ كُلَّ شَىْءٍۢ رَّحْمَةًۭ وَعِلْمًۭا, tr:rabbenâ vesi'te külle şey'in rahmeten ve ilmâ, gloss:Rabbimiz, rahmetin ve bilginle her şeyi kuşattın, source:40:7}. Bu duada da merhamet Rab diye seslenilen birine söylenir, tıpkı Fâtiha'da ikinci ayetten üçüncüye geçerken olduğu gibi.
+
+<!-- v16:augment brief=augment9 model=opus para=6 kind=refs -->
+Ayrıca: {source:7:154} levhaların yazısındaki hidayet ve rahmetin, Rablerinden korkanlar için olması; {source:7:157} rahmetin yazılacağı kişilerin elçiye uyanlar olarak sayılmaya devam etmesi; {source:6:147} Rabbin geniş bir rahmet sahibi olması; {source:2:105} {source:3:74} rahmetini dilediğine özgü kılması: kuşatan rahmetin belli kişilere yönelmesi; {source:40:8} meleklerin duasının tövbe edenlerin cennete alınmasını istemekle sürmesi; {source:42:5} meleklerin Rablerini hamd ile tesbih edip yeryüzündekiler için bağışlanma dilemesi.
+
+## Rahim: içinde büyütülen ev
+
+[¶7] Bu kökün ailesinde ana karnındaki döl yatağı da vardır. Aşağıdaki görüntüler ayetteki "merhametli" anlamının yerine geçmez, onun yanında duyulur. Türkçe okur bu kelimeyi tıp dilinden "rahim" olarak tanır. Döl yatağı "rahim", ayetteki sıfat ise uzun "i" ile "Rahîm" diye okunur. İkisi ayrı kelimelerdir ama aynı köke aittir. Araplar döl yatağını şöyle tarif ederdi: {ar:الرحم بيت منبت الولد ووعاؤه في البطن, tr:er-rahimu beytü menbiti'l-veledi ve vi'âühû fi'l-batn, gloss:rahim, karında çocuğun bittiği ev ve onun kabıdır, source:"ر ح م,B003"}. Bu evin nasıl işlediğine bakmak gerekir. Çocuğu dışarıdan kapar ve korur, annenin bedeninden beslenmesini sağlar, onu halden hale geçirerek büyütür. Bütün bunlar, çocuk bir şey isteyemeden, hatta bilemeden olur. Verilen her şey istekten önce gelir. Fâtiha'daki sıra da bunu yansıtır: Merhamet üçüncü ayette anılır, yardım ve yol isteği ise ancak beşinci ve altıncı ayetlerde gelir.
+
+<!-- v16:augment brief=augment9 model=opus para=7 kind=refs -->
+Ayrıca: {source:16:78} anne karınlarından hiçbir şey bilmeden çıkarılan insana işitme, görme ve gönül verilmesi: istekten önce gelen verme; {source:23:13} {source:77:21} döl yatağının "sağlam bir karar yeri" diye anılması: çocuğu koruyan ev; {source:4:175} Allah'a sarılanların önce rahmete alınıp sonra dosdoğru bir yola iletilmesi: merhametin yolu istemekten önce gelmesi.
+
+[¶8] Kur'an bu evi bir yaratılış sahnesi olarak anlatır. İnsanlara hitap eden bir ayette şöyle denir: {ar:يَخْلُقُكُمْ فِى بُطُونِ أُمَّهَٰتِكُمْ خَلْقًۭا مِّنۢ بَعْدِ خَلْقٍۢ فِى ظُلُمَٰتٍۢ ثَلَٰثٍۢ, tr:yahlukuküm fî butûni ümmehâtiküm halkan min ba'di halkın fî zulümâtin selâs, gloss:sizi annelerinizin karınlarında, üç karanlık içinde, yaratılıştan yaratılışa geçirerek yaratır, source:39:6}. Aynı ayet hemen ardından şöyle devam eder: {ar:ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ لَهُ ٱلْمُلْكُ, tr:zâlikümullâhu rabbüküm lehü'l-mülk, gloss:işte bu Allah'tır, Rabbinizdir, mülk O'nundur, source:39:6}. Karanlık bir evde büyütme, Rab ve mülk aynı ayette sıralanır. Bu sıra Fâtiha'nın ikinci, üçüncü ve dördüncü ayetlerinin sırasıdır. Bir başka ayet aynı evin içindeki işi bir kelimeyle söyler: {ar:هُوَ ٱلَّذِى يُصَوِّرُكُمْ فِى ٱلْأَرْحَامِ كَيْفَ يَشَآءُ, tr:hüvellezî yusavvirukum fi'l-erhâmi keyfe yeşâ', gloss:sizi rahimlerde dilediği gibi biçimlendiren O'dur, source:3:6}. Bu ev, surenin ikinci ayetindeki Rab kelimesiyle birlikte bir sahne kurar. O kelimenin ailesi çocuğu halden hale büyütmeyi anlatır. Döl yatağı ile büyütme o sahnede bir aradadır.
+
+<!-- v16:augment brief=augment9 model=opus para=8 kind=refs -->
+Ayrıca: {source:22:5} rahimlerde dilediğini belli bir süreye kadar yerleştirip çocuk olarak çıkarması ve olgunluğa ulaştırması; {source:23:14} nutfeden alakaya, mudgaya, kemiğe ve ete: yaratılıştan yaratılışa geçişin basamakları; {source:53:32} insanı annesinin karnında cenin iken bilen Rab; {source:13:8} rahimlerin eksilttiğini ve artırdığını bilen ve her şeyi bir ölçüyle tutan; {source:17:24} büyütmenin "Rabbim" hitabının yanında "rabbeyânî" fiiliyle anılması.
+
+[¶9] Ev, içinden çıkanları birbirine de bağlar. Akrabalığa da aynı ad verilir ve gerekçesi açıkça söylenir: {ar:استعير الرحم للقرابة لكونهم خارجين من رحم واحدة, tr:üstüîre'r-rahimu li'l-karâbe li-kevnihim hâricîne min rahimin vâhide, gloss:rahim adı akrabalığa ödünç verildi, çünkü akrabalar tek bir rahimden çıkmıştır, source:"ر ح م,B002"}. İki kişi arasında yakın bir bağ olduğunu anlatmak için {ar:بينهما رحم أي قرابة قريبة, tr:beynehümâ rahim, gloss:aralarında yakın bir akrabalık var, source:"ر ح م,B002"} denirdi. Bu bağ sürdürülebilir de koparılabilir de {source:"ر ح م,B002"}. Kur'an insanlara tek bir candan yaratıldıklarını hatırlattığı ayette Allah'ın adını ve bu bağları yan yana anar: {ar:وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِى تَسَآءَلُونَ بِهِۦ وَٱلْأَرْحَامَ, tr:vettekullâhellezî tesâelûne bihî ve'l-erhâm, gloss:adını anarak birbirinizden dilekte bulunduğunuz Allah'tan ve akrabalık bağlarından sakının, source:4:1}. Savaştan geri duranlara yöneltilen bir soruda ise bağı koparmak, yeryüzünü bozmakla birlikte anılır: {ar:أَن تُفْسِدُوا۟ فِى ٱلْأَرْضِ وَتُقَطِّعُوٓا۟ أَرْحَامَكُمْ, tr:en tüfsidû fi'l-ardı ve tukatti'û erhâmeküm, gloss:yeryüzünde bozgunculuk yapmanız ve akrabalık bağlarınızı koparmanız, source:47:22}. Bu ayetlerin yanında okununca Rahmân ve Rahîm sıfatları, verilen bir iyiliğin yanı sıra kurulan ve korunan bir bağı da duyurur. Çok yakın bir ilişkinin adı olur.
+
+<!-- v16:augment brief=augment9 model=opus para=9 kind=refs -->
+Ayrıca: {source:8:75} {source:33:6} "ulü'l-erhâm": rahim bağıyla bağlı olanların Allah'ın kitabında birbirine daha yakın olması; {source:13:21} Allah'ın birleştirilmesini emrettiği şeyi birleştirenler; {source:2:27} {source:13:25} birleştirilmesi emredileni koparıp yeryüzünde bozgunculuk yapanlar; {source:47:23} bağları koparanların lanetlenip sağır ve kör edilmesi; {source:60:3} kıyamet gününde rahim bağlarının ve çocukların fayda vermemesi: bağın bir sınırı olması; {source:30:21} aynı rahimden çıkmamış eşlerin arasına sevgi ve rahmet konması; {source:19:96} Rahmân'ın inanıp iyi iş yapanlar için bir sevgi var etmesi; {source:11:90} Rabbin Rahîm ve Vedûd (seven) diye birlikte anılması; {source:19:50} soy bağışının "rahmetimizden" diye anılması; {source:19:53} Musa'ya kardeşi Harun'un rahmetten bir bağış olarak verilmesi; {source:49:10} inananların kardeş sayılması ve aralarını düzeltmenin rahmet umuduna bağlanması; {source:31:15} şirke zorlayan anne babayla bile dünyada iyilikle bir arada olunması.
+
+[¶10] Aynı ailede bu evin bedeli de vardır. Araplar {ar:الرحوم الناقة التي تشتكي رحمها بعد النتاج, tr:er-rahûmu'n-nâkatü'lletî teştekî rahimehâ ba'de'n-nitâc, gloss:rahûm, doğurduktan sonra rahminden acı çeken dişi devedir, source:"ر ح م,B004"} derlerdi. Doğurduktan sonra eşini atamayan koyun için de bir kelimeleri vardı {source:"ر ح م,B004"}. Bu görüntü yaratılmışların merhametine aittir. Ayetteki Rahmân hiçbir yerde bir acıyla anılmaz. Görüntü insan merhametinin neye mal olduğunu gösterir. Kur'an da anneyi böyle anar: {ar:حَمَلَتْهُ أُمُّهُۥ كُرْهًۭا وَوَضَعَتْهُ كُرْهًۭا, tr:hamelethü ümmühû kürhen ve vada'athü kürhâ, gloss:annesi onu zorlukla taşıdı ve zorlukla doğurdu, source:46:15}. Aynı ayette kırk yaşına gelen insan şöyle dua eder: {ar:رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ, tr:rabbi evzi'nî en eşküra ni'meteke'lletî en'amte aleyye ve alâ vâlideyye, gloss:Rabbim, bana ve anne babama verdiğin nimete şükretmemi sağla, source:46:15}. Rahmin taşıdığı yük, sonunda Rabbe yöneltilen bir teşekküre dönüşür. Bu duada ikinci ayetin Rab'bi ile yedinci ayetin "en'amte" kelimesi bir arada duyulur. Lokmân suresinde de annenin "zayıflık üstüne zayıflıkla" taşıdığı söylendikten sonra Allah hem kendisine hem anne babaya şükredilmesini ister {source:31:14}.
+
+<!-- v16:augment brief=augment9 model=opus para=10 kind=prose ref=27:19 -->
+Neml suresinde Süleyman, bir karıncanın öteki karıncaları kendisi ve ordusu farkına varmadan onları ezmesin diye uyardığını duyar {source:27:18}. Gülümser ve aynı sözlerle başlayan bir dua eder {source:27:19}. Onun duası rahmetle biter: {ar:وَأَدْخِلْنِى بِرَحْمَتِكَ فِى عِبَادِكَ ٱلصَّٰلِحِينَ, tr:ve edhılnî bi-rahmetike fî ibâdike's-sâlihîn, gloss:rahmetinle beni iyi kullarının arasına kat, source:27:19}. Kendisine ve anne babasına verilen nimete şükür, burada Rabbin rahmetine alınma isteğiyle birleşir.
+
+<!-- v16:augment brief=augment9 model=opus para=10 kind=prose ref=17:24 -->
+İsrâ suresinde Rab, yalnız kendisine kulluk edilmesini ve anne babaya iyilik edilmesini hükmeder. Yaşlandıklarında onlara "öf" bile denmemesini ister {source:17:23}. Ardından şu gelir: {ar:وَٱخْفِضْ لَهُمَا جَنَاحَ ٱلذُّلِّ مِنَ ٱلرَّحْمَةِ وَقُل رَّبِّ ٱرْحَمْهُمَا كَمَا رَبَّيَانِى صَغِيرًۭا, tr:vahfid lehümâ cenâha'z-zülli mine'r-rahmeti ve kur rabbi'rhamhümâ kemâ rabbeyânî sağîrâ, gloss:merhametinden onlara alçakgönüllülük kanadını indir ve de ki: Rabbim, küçükken beni büyüttükleri gibi sen de onlara merhamet et, source:17:24}. Anne babanın çektiği zahmete karşı çocuk, önce kendi merhametiyle eğilir, sonra Rabbinden onlara merhamet ister. Bu isteğin ölçüsü de küçükken gördüğü büyütmedir.
+
+<!-- v16:augment brief=augment9 model=opus para=10 kind=refs -->
+Ayrıca: {source:31:12} Lokmân'a verilen hikmetin Allah'a şükretmek olması; {source:46:17} karşıt olarak anne babasına "öf" diyen ve onların yalvarışını geri çeviren kişi; {source:30:33} {source:39:8} darlıkta Rabbe yönelen, rahmet ya da nimet verilince O'nu unutan veya O'na ortak koşan insan: şükrün karşıtı; {source:10:21} {source:41:50} {source:42:48} kendisine rahmet tattırılınca hileye, böbürlenmeye ya da nankörlüğe dönen insan.
+
+## İyiliğe dönüşen incelik
+
+[¶11] Kökün temel anlamı bir duygudur: {ar:أصل واحد يدل على الرقة والعطف والرأفة, tr:aslun vâhidun yedüllü ale'r-rikkati ve'l-atfi ve'r-ra'fe, gloss:incelik, şefkatle eğilme ve acıma anlamına gelen tek bir kök, source:"ر ح م,B001"}. Ancak bu duygu içeride kalmaz: {ar:الرحمة رقة تقتضي الإحسان إلى المرحوم, tr:er-rahmetü rikkatün tektedi'l-ihsâne ile'l-merhûm, gloss:rahmet, merhamet edilene iyilik etmeyi gerektiren bir inceliktir, source:"ر ح م,B001"}. Önce yürek yumuşar, sonra el uzanır. Bu merhametin özellikle yöneldiği biri de vardır: {ar:ورحمة الضعيف والتعطف عليه, tr:ve rahmetü'd-da'îfi ve't-teattufu aleyh, gloss:güçsüze merhamet etmek ve şefkatle üzerine eğilmek, source:"ر ح م,B001"}. Güçlü olan, güçsüzün üzerine eğilir.
+
+<!-- v16:augment brief=augment9 model=opus para=11 kind=prose ref=3:159 -->
+Âl-i İmrân suresinde Allah, Peygambere hitap ederken bu yumuşamanın kaynağını da sonucunu da söyler: {ar:فَبِمَا رَحْمَةٍۢ مِّنَ ٱللَّهِ لِنتَ لَهُمْ ۖ وَلَوْ كُنتَ فَظًّا غَلِيظَ ٱلْقَلْبِ لَٱنفَضُّوا۟ مِنْ حَوْلِكَ, tr:fe-bimâ rahmetin minallâhi linte lehüm, ve lev künte fazzan galîza'l-kalbi lenfaddû min havlik, gloss:Allah'tan bir rahmet sayesinde onlara yumuşak davrandın; kaba ve katı yürekli olsaydın çevrenden dağılıp giderlerdi, source:3:159}. Burada rahmetin karşısında "kalın" bir yürek durur, yani inceliğin tam tersi. Aynı ayet bu yumuşaklığı hemen işe dönüştürür: Peygamber onları affedecek, onlar için bağışlanma dileyecek ve işlerde onlara danışacaktır.
+
+<!-- v16:augment brief=augment9 model=opus para=11 kind=refs -->
+Ayrıca: {source:57:27} İsa'ya uyanların kalplerine re'fe ve rahmet konması: kalpte duyulan merhamet.
+
+[¶12] Türkçe bu ailenin kelimelerini daraltarak almıştır. "Merhamet" çoğunlukla içte duyulan bir acıma olarak kalmış, Arapçadaki iyilik etme zorunluluğu ondan düşmüştür. "Rahmet" ise gündelik dilde yağmura ya da "rahmetli" kelimesinde ölmüş bir kişiye bağlanmıştır. Yağmur anlamı aslında Kur'an'dan gelen bir izi korur. Kur'an rüzgârların {ar:بُشْرًۢا بَيْنَ يَدَىْ رَحْمَتِهِۦ, tr:büşran beyne yedey rahmetih, gloss:rahmetinin önünden müjdeci olarak, source:7:57} gönderildiğini söyler. O rüzgârlar ağır bulutları ölü bir toprağa sürer ve su indirir. Başka bir ayet bu iyiliğin gözle görülen izlerine bakmayı ister: {ar:فَٱنظُرْ إِلَىٰٓ ءَاثَٰرِ رَحْمَتِ ٱللَّهِ كَيْفَ يُحْىِ ٱلْأَرْضَ بَعْدَ مَوْتِهَآ, tr:fenzur ilâ âsâri rahmetillâhi keyfe yuhyi'l-arda ba'de mevtihâ, gloss:Allah'ın rahmetinin izlerine bak, toprağı ölümünden sonra nasıl diriltiyor, source:30:50}. Burada rahmet bir duygu olarak değil, toprağa inen ve bitki bitiren bir iş olarak görünür. Türkçenin yağmura "rahmet" demesi bu işi hatırlatır. "Merhamet" kelimesinin yalnızca acıma anlamına daralması ise onu unutturur.
+
+<!-- v16:augment brief=augment9 model=opus para=12 kind=refs -->
+Ayrıca: {source:25:48} {source:27:63} rüzgârların "rahmetinin önünden müjdeci" olarak gönderilmesi; {source:30:46} müjdeleyen rüzgârlarla rahmetinden tattırması; {source:42:28} insanlar umudu kestikten sonra yağmur indirip rahmetini yayması; {source:30:48} {source:30:49} rahmetin izlerinden önceki sahne: bulutu kaldıran rüzgâr, çıkan yağmur, umutsuzluktan sevince geçiş; {source:7:58} iyi toprağın bitkisini Rabbinin izniyle çıkarması; {source:28:73} gecenin ve gündüzün O'nun rahmetinden kılınması; {source:21:84} {source:38:43} sıkıntının giderilip ailenin bir katıyla geri verilmesinin "bizden bir rahmet" diye anılması: bir iş olarak rahmet.
+
+[¶13] İnsan merhameti de Kur'an'da bir iş ve bir zahmet olarak anlatılır. Beled suresinde Allah, malını harcadığıyla övünen insanın aşmadığı sarp yokuşu tarif eder: {ar:فَكُّ رَقَبَةٍ, tr:fekkü rakabe, gloss:bir boynu kölelikten kurtarmak, source:90:13}, açlık gününde {ar:يَتِيمًۭا ذَا مَقْرَبَةٍ, tr:yetîmen zâ makrabe, gloss:yakınlığı olan bir yetimi, source:90:15} doyurmak. Yokuşun sonunda bu işleri yapanlar şöyle anılır: {ar:وَتَوَاصَوْا۟ بِٱلْمَرْحَمَةِ, tr:ve tevâsav bi'l-merhame, gloss:birbirlerine merhameti öğütlediler, source:90:17}. Yetimin "yakınlığı" başka bir köktendir. Yine de rahim kelimesinin akrabalığı anlatan kullanımının yanında okununca merhametin önce en yakındaki güçsüze uzandığını gösterir.
+
+<!-- v16:augment brief=augment9 model=opus para=13 kind=refs -->
+Ayrıca: {source:90:11} {source:90:12} aşılmayan sarp yokuş ve onun ne olduğunun sorulması; {source:90:14} açlık gününde doyurmak; {source:90:16} toprağa bulanmış yoksul: yakın yetimin yanındaki ikinci güçsüz; {source:90:18} merhameti öğütleyenlerin sağın ehli olması; {source:2:177} malı, sevdiği hâlde, yakınlara, yetimlere, yoksullara ve köleleri kurtarmaya vermek; {source:76:8} {source:76:9} yoksulu, yetimi ve esiri karşılık ve teşekkür beklemeden doyurmak; {source:17:26} yakına hakkını, yoksula ve yolcuya vermek; {source:17:28} verecek bir şey yokken, Rabbin rahmetini umarak onlara yumuşak söz söylemek; {source:4:2} akrabalık bağlarından sakınma emrinin hemen ardından yetimlere mallarının verilmesi; {source:24:22} yakınlara ve yoksullara vermeyi kesmeye yemin etmemek, affedip hoş görmek.
+
+[¶14] İyiliği gerektiren incelik tanımı bir şeyi daha açıklar. Merhamet, görünüşüyle değil, merhamet edilene ulaşan iyilikle ölçülür. Kehf suresinde Musa yanında bir yol arkadaşıyla yürür. Bu kişiyi Allah {ar:ءَاتَيْنَٰهُ رَحْمَةًۭ مِّنْ عِندِنَا, tr:âteynâhü rahmeten min indinâ, gloss:ona katımızdan bir rahmet vermiştik, source:18:65} diye tanıtır. Rahmet verilmiş bu kul, Musa'nın gözü önünde bir çocuğu öldürür. Musa buna itiraz eder {source:18:74}. Sonradan yapılan açıklamada çocuğun inanan anne babasını azgınlığa ve inkâra sürükleyeceğinden korkulduğu söylenir {source:18:80}. Ardından şu gelir: {ar:فَأَرَدْنَآ أَن يُبْدِلَهُمَا رَبُّهُمَا خَيْرًۭا مِّنْهُ زَكَوٰةًۭ وَأَقْرَبَ رُحْمًۭا, tr:fe-eradnâ en yübdilehümâ rabbühümâ hayran minhü zekâten ve akrabe ruhmâ, gloss:Rablerinin onlara, ondan daha temiz ve anne babasına daha yakın, daha merhametli bir çocuk vermesini istedik, source:18:81}. Bu ayetteki "ruhm" kelimesi, anne babasına daha iyi davranan ve onlara daha yakın olan kişiyi anlatır {source:"ر ح م,B001"}. Yıkılmak üzere olan duvarın düzeltilmesi de {ar:رَحْمَةًۭ مِّن رَّبِّكَ, tr:rahmeten min rabbik, gloss:Rabbinden bir rahmet olarak, source:18:82} yapılmıştır. Rahmetin ilk görünüşü sert olabilir. Asıl yüzü, sonunda kime hangi iyiliği ulaştırdığında ortaya çıkar.
+
+<!-- v16:augment brief=augment9 model=opus para=14 kind=refs -->
+Ayrıca: {source:18:79} gemiyi kusurlu kılmanın, onu zorla alacak kraldan yoksulları koruması: sert görünen işin altındaki iyilik; {source:18:67} {source:18:72} {source:18:75} görünüşü sert işlere sabredilemeyeceğinin söylenmesi; {source:18:98} seddi yapanın onu "Rabbimden bir rahmet" diye anması: koruyan yapı olarak rahmet; {source:11:28} Nuh'a katından verilen rahmetin kavmine kapalı kalması; {source:12:56} kuyudan ve zindandan sonra Yusuf'a yeryüzünde yer verilmesinin, rahmetin dilediğine ulaştırılması diye anılması.
+
+## Günün sahibi Rahmân'dır
+
+[¶15] Üçüncü ayetin hemen ardından gelen dördüncü ayet bir günden ve o günün sahibinden söz eder. İlk bakışta merhamet ile hesap birbirine karşıt görünebilir. Kur'an ise ikisini aynı adda birleştirir. Göğün bulutlarla yarılıp meleklerin indirildiği gün anlatılırken şöyle denir: {ar:ٱلْمُلْكُ يَوْمَئِذٍ ٱلْحَقُّ لِلرَّحْمَٰنِ, tr:el-mülkü yevmeizini'l-hakku li'r-rahmân, gloss:o gün gerçek mülk Rahmân'ındır, source:25:26}. Aynı ayet o günün inkâr edenlere zor geleceğini de ekler. Nebe suresinde, sakınanlara verilecek karşılık anlatıldıktan sonra, Fâtiha'nın ikinci, üçüncü ve dördüncü ayetlerinin kelimeleri neredeyse aynı sırayla gelir: {ar:رَّبِّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا ٱلرَّحْمَٰنِ ۖ لَا يَمْلِكُونَ مِنْهُ خِطَابًۭا, tr:rabbi's-semâvâti ve'l-ardı ve mâ beynehüme'r-rahmân, lâ yemlikûne minhü hitâbâ, gloss:göklerin, yerin ve aralarındakilerin Rabbi, Rahmân; O'na karşı söz söylemeye güçleri yetmez, source:78:37}. Ardından o gün gelir: {ar:يَوْمَ يَقُومُ ٱلرُّوحُ وَٱلْمَلَٰٓئِكَةُ صَفًّۭا ۖ لَّا يَتَكَلَّمُونَ إِلَّا مَنْ أَذِنَ لَهُ ٱلرَّحْمَٰنُ, tr:yevme yekûmu'r-rûhu ve'l-melâiketü saffâ, lâ yetekellemûne illâ men ezine lehü'r-rahmân, gloss:Ruh ve melekler saf saf durduğu gün, Rahmân'ın izin verdiğinden başkası konuşmaz, source:78:38}. Rab, Rahmân, sahip olma ve gün aynı yerde bir aradadır. Tâhâ suresinde de o günün sessizliği bu ada bağlanır: {ar:وَخَشَعَتِ ٱلْأَصْوَاتُ لِلرَّحْمَٰنِ فَلَا تَسْمَعُ إِلَّا هَمْسًۭا, tr:ve haşa'ati'l-asvâtu li'r-rahmâni fe-lâ tesme'u illâ hemsâ, gloss:sesler Rahmân'ın önünde kısılır, fısıltıdan başka bir şey duymazsın, source:20:108}.
+
+<!-- v16:augment brief=augment9 model=opus para=15 kind=refs -->
+Ayrıca: {source:25:25} göğün bulutlarla yarılıp meleklerin indirildiği gün; {source:25:24} o gün cennet ehlinin en iyi yerde olması; {source:25:27} {source:25:28} zalimin ellerini ısırıp pişmanlıkla konuşması: günün inkâr edenlere zorluğu; {source:78:36} sakınanlara verilen karşılığın Rabbinden "hesaplı bir bağış" olması: bağış ile hesabın tek ifadede birleşmesi; {source:78:39} o günün gerçek gün olması ve dileyenin Rabbine dönüş yolu edinmesi; {source:20:109} o gün şefaatin ancak Rahmân'ın izin verdiğine fayda vermesi; {source:19:85} sakınanların o gün Rahmân'a bir heyet olarak toplanması.
+
+[¶16] Merhamet ile toplanma günü, Kur'an'da tek bir nefeste de söylenir. Peygambere, göklerde ve yerde olanların kime ait olduğunu sorup cevabı da kendisinin vermesi emredilir. Ardından şu gelir: {ar:كَتَبَ عَلَىٰ نَفْسِهِ ٱلرَّحْمَةَ ۚ لَيَجْمَعَنَّكُمْ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ, tr:ketebe alâ nefsihi'r-rahmete le-yecme'annekum ilâ yevmi'l-kıyâmeh, gloss:rahmeti kendi üzerine yazmıştır; sizi kıyamet gününe mutlaka toplayacaktır, source:6:12}. Günün sahibinin rahmeti kendine yazmış olması, o günü bir tehdit olmaktan çıkarıp bir sözün yerine gelmesine dönüştürür. Fâtiha'da üçüncü ayetin dördüncüden önce gelmesi de aynı şeyi söyler. Hesabı görecek olan, önce iki kez merhametle anılmıştır.
+
+<!-- v16:augment brief=augment9 model=opus para=16 kind=prose ref=6:54 -->
+En'âm suresinde bu söz bir kez daha geçer ve bu kez yazılan rahmetin neyi kapsadığını söyler. Ayetlerine inananlar Peygambere geldiğinde onlara selam vermesi ve şunu söylemesi emredilir: {ar:كَتَبَ رَبُّكُمْ عَلَىٰ نَفْسِهِ ٱلرَّحْمَةَ ۖ أَنَّهُۥ مَنْ عَمِلَ مِنكُمْ سُوٓءًۢا بِجَهَٰلَةٍۢ ثُمَّ تَابَ مِنۢ بَعْدِهِۦ وَأَصْلَحَ فَأَنَّهُۥ غَفُورٌۭ رَّحِيمٌۭ, tr:ketebe rabbüküm alâ nefsihi'r-rahmete ennehû men amile minküm sû'en bi-cehâletin sümme tâbe min ba'dihî ve asleha fe-ennehû gafûrun rahîm, gloss:Rabbiniz rahmeti kendi üzerine yazdı: sizden kim bilmeden bir kötülük yapar, sonra ardından tövbe edip kendini düzeltirse, O bağışlayandır, merhamet edendir, source:6:54}. Kendine yazılan bu rahmet, toplanma gününün yanı sıra tövbe edenin bağışlanacağına dair de bir sözdür ve Rahîm adıyla biter.
+
+<!-- v16:augment brief=augment9 model=opus para=16 kind=prose ref=36:52 -->
+Yâsîn suresinde sûra üflenir ve insanlar kabirlerinden Rablerine doğru koşar {source:36:51}. Şöyle derler: {ar:يَٰوَيْلَنَا مَنۢ بَعَثَنَا مِن مَّرْقَدِنَا, tr:yâ veylenâ men beasenâ min merkadinâ, gloss:vay hâlimize, bizi yattığımız yerden kim kaldırdı, source:36:52}. Cevap aynı ayette gelir: {ar:هَٰذَا مَا وَعَدَ ٱلرَّحْمَٰنُ وَصَدَقَ ٱلْمُرْسَلُونَ, tr:hâzâ mâ vaade'r-rahmânu ve sadeka'l-mürselûn, gloss:bu, Rahmân'ın vaat ettiği şeydir; elçiler doğru söylemiş, source:36:52}. Diriliş burada açıkça Rahmân'ın vaadi diye adlandırılır.
+
+<!-- v16:augment brief=augment9 model=opus para=16 kind=refs -->
+Ayrıca: {source:6:15} {source:6:16} büyük bir günün azabından korkulması ve o gün azaptan uzaklaştırılanın rahmet görmüş olması; {source:40:9} o gün kötülüklerden korunanın rahmet görmüş olması; {source:44:42} ayrım gününde ancak Allah'ın merhamet ettiği kişinin kurtulması; {source:29:21} azap, rahmet ve O'na döndürülmenin tek ayette bir arada olması; {source:18:58} rahmet sahibi Rabbin azabı acele ettirmeyip belli bir buluşma vaktine bırakması; {source:3:107} yüzleri ağaranların Allah'ın rahmetinde temelli kalması; {source:45:30} inanıp iyi iş yapanların Rablerinin rahmetine alınması.
+
+[¶17] Bu merhamet hafife alınacak bir yumuşaklık da değildir. Meryem suresinde İbrahim, şeytana kulluk eden babasına yalvarırken şöyle der: {ar:يَٰٓأَبَتِ إِنِّىٓ أَخَافُ أَن يَمَسَّكَ عَذَابٌۭ مِّنَ ٱلرَّحْمَٰنِ, tr:yâ ebeti innî ehâfu en yemesseke azâbün mine'r-rahmân, gloss:babacığım, sana Rahmân'dan bir azabın dokunmasından korkuyorum, source:19:45}. Uyarının kime fayda vereceği anlatılırken de aynı ad geçer: {ar:وَخَشِىَ ٱلرَّحْمَٰنَ بِٱلْغَيْبِ, tr:ve haşiye'r-rahmâne bi'l-gayb, gloss:görmediği hâlde Rahmân'dan saygıyla korkan, source:36:11}. Korkulan şey merhametin kendisi değildir. Korku, o merhameti kaybetmekten ve bu kadar geniş bir iyiliğin sahibinin önünde boş çıkmaktandır. Üçüncü ayet ile dördüncü ayet bu yüzden birbirini dengeler. Merhamet hesabı yumuşatır, hesap da merhameti ciddiye aldırır.
+
+<!-- v16:augment brief=augment9 model=opus para=17 kind=prose ref=15:49 -->
+Hicr suresinde "kullarıma haber ver" emriyle iki şey birlikte bildirilir: {ar:نَبِّئْ عِبَادِىٓ أَنِّىٓ أَنَا ٱلْغَفُورُ ٱلرَّحِيمُ, tr:nebbi' ibâdî ennî ene'l-gafûru'r-rahîm, gloss:kullarıma haber ver: bağışlayan, merhamet eden benim, source:15:49} ve hemen ardından {ar:وَأَنَّ عَذَابِى هُوَ ٱلْعَذَابُ ٱلْأَلِيمُ, tr:ve enne azâbî hüve'l-azâbü'l-elîm, gloss:azabım da can yakan azaptır, source:15:50}. Rahîm adı ile azap tek bir haberin iki parçasıdır ve haber merhametle başlar.
+
+<!-- v16:augment brief=augment9 model=opus para=17 kind=refs -->
+Ayrıca: {source:6:147} Rabbin geniş bir rahmet sahibi olması ve azabının suçlulardan geri çevrilmemesi; {source:26:9} {source:26:68} {source:26:104} {source:26:122} {source:26:140} {source:26:159} {source:26:175} {source:26:191} helak kıssalarının her birinin sonunda Rabbin Azîz ve Rahîm diye anılması; {source:19:44} İbrahim'in babasına şeytanın Rahmân'a isyan ettiğini söylemesi; {source:19:47} kendisini tehdit eden babaya selam ve bağışlanma dileğiyle karşılık vermesi; {source:50:33} Rahmân'dan görmeden korkup O'na yönelmiş bir kalple gelen; {source:21:42} gece ve gündüz insanları Rahmân'dan kimin koruyacağı sorusu; {source:36:23} Rahmân bir zarar dilediğinde ortakların şefaatinin işe yaramaması; {source:19:69} Rahmân'a karşı en çok azan kişinin her topluluktan çekilip alınması; {source:6:133} rahmet sahibi Rabbin dilerse insanları giderip yerlerine başkalarını getirmesi; {source:7:56} korku ve umutla dua etmek, rahmetin iyilik edenlere yakın olması; {source:17:57} O'nun rahmetini umup azabından korkanlar; {source:39:9} ahiretten sakınıp Rabbinin rahmetini uman; {source:39:53} kendilerine karşı aşırı gidenlerin bile Allah'ın rahmetinden umut kesmemesi: korkunun umutsuzluğa dönmemesi; {source:15:56} Rabbin rahmetinden ancak yolunu şaşıranların umut kesmesi; {source:29:23} rahmetten umut kesenlerin, Allah'ın ayetlerini ve O'na kavuşmayı inkâr edenler olması; {source:76:31} dilediğini rahmetine alması ile zalimlere hazırladığı azabın yan yana anılması; {source:36:59} Rahîm bir Rabbin selamının hemen ardından suçluların ayrılması; {source:78:40} yakın bir azapla uyarı ve inkâr edenin toprak olmayı dilemesi.
+
+[¶18] Ardından beşinci ayetin kulu konuşur. Kur'an bu kulluğu Rahmân adına bağlar: {ar:إِن كُلُّ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ إِلَّآ ءَاتِى ٱلرَّحْمَٰنِ عَبْدًۭا, tr:in küllü men fi's-semâvâti ve'l-ardı illâ âti'r-rahmâni abdâ, gloss:göklerde ve yerde olan herkes Rahmân'a ancak kul olarak gelir, source:19:93}. O kulların yeryüzünde yürüyüşü de bir başka surede anlatılır: {ar:وَعِبَادُ ٱلرَّحْمَٰنِ ٱلَّذِينَ يَمْشُونَ عَلَى ٱلْأَرْضِ هَوْنًۭا, tr:ve ibâdü'r-rahmâni'llezîne yemşûne ale'l-ardı hevnâ, gloss:Rahmân'ın kulları yeryüzünde yumuşak adımlarla yürüyenlerdir, source:25:63}. "Yalnız sana kulluk ederiz" diyen ses, üçüncü ayette anılan Rahmân'a seslenmektedir. Bu kulların yürüyüşü, altıncı ayette istenen yolla bir sahne kurar.
+
+
+<!-- v16:augment brief=augment9 model=opus para=18 kind=refs -->
+Ayrıca: {source:19:88} {source:19:91} {source:19:92} Rahmân'a çocuk isnat edilmesi ve bunun O'na yakışmaması: kulluğun karşısındaki iddia; {source:19:94} {source:19:95} herkesin sayılmış olarak kıyamet günü O'na tek başına gelmesi; {source:21:26} Rahmân'ın çocuğu değil, ikram görmüş kulları olması; {source:43:81} Rahmân'ın çocuğu olsaydı ilk kulluk edenin olunacağının söylenmesi; {source:25:64} {source:25:65} Rahmân'ın kullarının geceyi secde ederek ve ayakta geçirmesi, Rablerinden cehennem azabını uzaklaştırmasını istemesi; {source:67:29} Rahmân'a inanılıp O'na güvenilmesi; {source:26:217} Azîz ve Rahîm olana güvenilmesi.
+
+
+===== PACK/ayah/1_3/words.md =====
+
+# 1:3 — words and the elements a faithful translation must carry
+
+ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+
+Per word: QAC morphemes with their features in plain terms. These are the checks for the meal review: a translation keeps, drops or substitutes each element (a preposition, an attached pronoun, number, definiteness, voice, emphasis, a conjunction). Turkish may force a change; say so when it does.
+
+## w1 ٱلرَّحْمَٰنِ  (1:3:1; lemma رَّحْمَٰن; root ر ح م)
+- ٱل: al- (definite article; Turkish has none — definiteness must be carried otherwise or is lost)
+- رَّحْمَٰنِ: adjective; masc. singular; genitive
+
+## w2 ٱلرَّحِيمِ  (1:3:2; lemma رَّحِيم; root ر ح م)
+- ٱل: al- (definite article; Turkish has none — definiteness must be carried otherwise or is lost)
+- رَّحِيمِ: adjective; masc. singular; genitive
+
+
+===== PACK/ayah/1_3/dictionary.md =====
+
+# Dictionary: every branch of every focus root
+
+One entry per branch: a Turkish label and Turkish glosses of its attested senses, then the classical dictionaries' own phrases with their source tags (ayn, sihah, tahdhib, maqayis, mufradat, jamhara). [kalıp] marks a sense the dictionaries attest only inside a fixed expression.
+Identity roots come from the quran-data gateway. Word-scoped alternatives are cited analyses of this
+exact word. **Echo roots** are observed but withheld mappings: sound-family candidates, not identity.
+
+## ر ح م (root_000552) — identity root of ٱلرَّحْمَٰنِ (w1)
+
+- **B001** acıma duygusuyla esirgeyip iyilik etme — ona acıyıp onu esirgemek · acıma duygusu ve bu duygunun yönelttiği iyilik · özellikle güçsüze acıyıp onu esirgeme · acıma, iyilik ve gözetme · birbirine acıyıp birbirini esirgemek · onun Tanrı'nın esirgemesine erişmesini dilemek · esirgemesi her şeyi kuşatan Tanrı adı · çok esirgeyen ve bol bol iyilik eden · acınıp esirgenen kimse · acıma ve esirgeme görmüş kimse · acıyan ve esirgeyenlerin en üstünü · ana babasına daha iyi davranan ve daha yakınlık gösteren · acıma ve esirgeme ya da başkasının acımasına konu olma durumu
+  أصل واحد يدل على الرقة والعطف والرأفة (maqayis)؛ المرحمة الرحمة ورحمته أرحمه رحمة ومرحمة وترحمت عليه (ayn)؛ رحمته رحمة ورحما ومرحمة والرحمن الرحيم مشتقان من الرحمة (jamhara)؛ الرحمة الرقة والتعطف والمرحمة مثله وتراحم القوم (sihah)؛ ذو الرحمة والرحيم العاطف ورحمة الضعيف والتعطف عليه (tahdhib)؛ الرحمة رقة تقتضي الإحسان إلى المرحوم والرحمن والرحيم (mufradat)
+- **B002** yakın soy bağı — yakın soy bağı · soy ve yakınlık bağları · soy bağını sürdürmek ya da koparmak
+  الرَّحِم علاقة القرابة (maqayis)؛ بينهما رَحِم أي قرابة قريبة والرحم القرابة تجمع بني أب (ayn)؛ صارت أسباب القرابة أرحاما (jamhara)؛ الرحم أيضا القرابة والرحم بالكسر مثله ووصال رحم (sihah)؛ الرحم القرابة تجمع بني أب وبينهما رحم أي قرابة قريبة (tahdhib)؛ استعير الرحم للقرابة لكونهم خارجين من رحم واحدة (mufradat)
+- **B003** döl yatağı — dişinin döl yatağı · döl yatakları
+  سميت رحم الأنثى رحما (maqayis)؛ الرحم بيت منبت الولد ووعاؤه في البطن (ayn)؛ الرحم رحم المرأة (jamhara)؛ الرحم رحم الأنثى وهي مؤنثة (sihah)؛ الرحم بيت منبت الولد ووعاؤه في البطن (tahdhib)؛ الرحم رحم المرأة (mufradat)
+- **B004** döl yatağı hastalığı ve doğum sonrası bozukluk — doğumdan sonra döl yatağı ağrıyan ya da döl yatağı hastalanan dişi · döl yatağı ağrımak ya da hastalanmak · koyunun doğumdan sonra yavru zarını atamaması · döl yatağı şişmiş koyun ya da koyun sürüsü
+  شاة رحوم إذا اشتكت رحمها بعد النتاج (maqayis)؛ ناقة رحوم أصابها داء في رحمها وقد رحمت المرأة إذا اشتكت رحمها (ayn)؛ ناقة رحوم إذا اشتكت رحمها في عقب الولادة وامرأة رحوم (jamhara)؛ الرحوم الناقة التي تشتكي رحمها بعد النتاج (sihah)؛ ناقة رحوم أصابها داء في رحمها والرحام أن تلد الشاة ثم لا تلقي سلاها وشاة راحم وغنم رواحم إذا ورم رحمها (tahdhib)؛ امرأة رحوم تشتكي رحمها (mufradat)
+
+
+===== PACK/ayah/1_3/usage.md =====
+
+# 1:3 — Qur'anic usage of each content lemma
+
+Every occurrence of the lemma (refs; QAC). Use it for vucuh, ayet_ayet and for checking a meal's consistency across the Qur'an (tools/corpus.py get QURAN:S:A or MEAL-X:S:A for the texts).
+
+## ٱلرَّحْمَٰنِ (w1) — lemma رَّحْمَٰن, root ر ح م: 57 ayat
+- root's lemmas in the Qur'an: رَّحِيم 116, رَحْمَة 114, رَّحْمَٰن 57, رَّحِمَ 28, أَرْحَام 12, رَّٰحِمِين 6, أَرْحَم 4, مَرْحَمَة 1, رُحْم 1
+- in this surah: 1:1, 1:3
+- all: 1:1 رَّحْمَٰنِ, 1:3 رَّحْمَٰنِ, 2:163 رَّحْمَٰنُ, 13:30 رَّحْمَٰنِ, 17:110 رَّحْمَٰنَ, 19:18 رَّحْمَٰنِ, 19:26 رَّحْمَٰنِ, 19:44 رَّحْمَٰنِ, 19:45 رَّحْمَٰنِ, 19:58 رَّحْمَٰنِ, 19:61 رَّحْمَٰنُ, 19:69 رَّحْمَٰنِ, 19:75 رَّحْمَٰنُ, 19:78 رَّحْمَٰنِ, 19:85 رَّحْمَٰنِ, 19:87 رَّحْمَٰنِ, 19:88 رَّحْمَٰنُ, 19:91 رَّحْمَٰنِ, 19:92 رَّحْمَٰنِ, 19:93 رَّحْمَٰنِ, 19:96 رَّحْمَٰنُ, 20:5 رَّحْمَٰنُ, 20:90 رَّحْمَٰنُ, 20:108 رَّحْمَٰنِ, 20:109 رَّحْمَٰنُ, 21:26 رَّحْمَٰنُ, 21:36 رَّحْمَٰنِ, 21:42 رَّحْمَٰنِ, 21:112 رَّحْمَٰنُ, 25:26 رَّحْمَٰنِ, 25:59 رَّحْمَٰنُ, 25:60 رَّحْمَٰنِ, 25:60 رَّحْمَٰنُ, 25:63 رَّحْمَٰنِ, 26:5 رَّحْمَٰنِ, 27:30 رَّحْمَٰنِ, 36:11 رَّحْمَٰنَ, 36:15 رَّحْمَٰنُ, 36:23 رَّحْمَٰنُ, 36:52 رَّحْمَٰنُ, 41:2 رَّحْمَٰنِ, 43:17 رَّحْمَٰنِ, 43:19 رَّحْمَٰنِ, 43:20 رَّحْمَٰنُ, 43:33 رَّحْمَٰنِ, 43:36 رَّحْمَٰنِ, 43:45 رَّحْمَٰنِ, 43:81 رَّحْمَٰنِ, 50:33 رَّحْمَٰنَ, 55:1 رَّحْمَٰنُ, 59:22 رَّحْمَٰنُ, 67:3 رَّحْمَٰنِ, 67:19 رَّحْمَٰنُ, 67:20 رَّحْمَٰنِ, 67:29 رَّحْمَٰنُ, 78:37 رَّحْمَٰنِ, 78:38 رَّحْمَٰنُ
+
+## ٱلرَّحِيمِ (w2) — lemma رَّحِيم, root ر ح م: 116 ayat
+- root's lemmas in the Qur'an: رَّحِيم 116, رَحْمَة 114, رَّحْمَٰن 57, رَّحِمَ 28, أَرْحَام 12, رَّٰحِمِين 6, أَرْحَم 4, مَرْحَمَة 1, رُحْم 1
+- in this surah: 1:1, 1:3
+- all: 1:1 رَّحِيمِ, 1:3 رَّحِيمِ, 2:37 رَّحِيمُ, 2:54 رَّحِيمُ, 2:128 رَّحِيمُ, 2:143 رَّحِيمٌ, 2:160 رَّحِيمُ, 2:163 رَّحِيمُ, 2:173 رَّحِيمٌ, 2:182 رَّحِيمٌ, 2:192 رَّحِيمٌ, 2:199 رَّحِيمٌ, 2:218 رَّحِيمٌ, 2:226 رَّحِيمٌ, 3:31 رَّحِيمٌ, 3:89 رَّحِيمٌ, 3:129 رَّحِيمٌ, 4:16 رَّحِيمًا, 4:23 رَّحِيمًا, 4:25 رَّحِيمٌ, 4:29 رَحِيمًا, 4:64 رَّحِيمًا, 4:96 رَّحِيمًا, 4:100 رَّحِيمًا, 4:106 رَّحِيمًا, 4:110 رَّحِيمًا, 4:129 رَّحِيمًا, 4:152 رَّحِيمًا, 5:3 رَّحِيمٌ, 5:34 رَّحِيمٌ, 5:39 رَّحِيمٌ, 5:74 رَّحِيمٌ, 5:98 رَّحِيمٌ, 6:54 رَّحِيمٌ, 6:145 رَّحِيمٌ, 6:165 رَّحِيمٌۢ, 7:153 رَّحِيمٌ, 7:167 رَّحِيمٌ, 8:69 رَّحِيمٌ, 8:70 رَّحِيمٌ, 9:5 رَّحِيمٌ, 9:27 رَّحِيمٌ, 9:91 رَّحِيمٌ, 9:99 رَّحِيمٌ, 9:102 رَّحِيمٌ, 9:104 رَّحِيمُ, 9:117 رَّحِيمٌ, 9:118 رَّحِيمُ, 9:128 رَّحِيمٌ, 10:107 رَّحِيمُ, 11:41 رَّحِيمٌ, 11:90 رَحِيمٌ, 12:53 رَّحِيمٌ, 12:98 رَّحِيمُ, 14:36 رَّحِيمٌ, 15:49 رَّحِيمُ, 16:7 رَّحِيمٌ, 16:18 رَّحِيمٌ, 16:47 رَّحِيمٌ, 16:110 رَّحِيمٌ, 16:115 رَّحِيمٌ, 16:119 رَّحِيمٌ, 17:66 رَحِيمًا, 22:65 رَّحِيمٌ, 24:5 رَّحِيمٌ, 24:20 رَّحِيمٌ, 24:22 رَّحِيمٌ, 24:33 رَّحِيمٌ, 24:62 رَّحِيمٌ, 25:6 رَّحِيمًا, 25:70 رَّحِيمًا, 26:9 رَّحِيمُ, 26:68 رَّحِيمُ, 26:104 رَّحِيمُ, 26:122 رَّحِيمُ, 26:140 رَّحِيمُ, 26:159 رَّحِيمُ, 26:175 رَّحِيمُ, 26:191 رَّحِيمُ, 26:217 رَّحِيمِ, 27:11 رَّحِيمٌ, 27:30 رَّحِيمِ, 28:16 رَّحِيمُ, 30:5 رَّحِيمُ, 32:6 رَّحِيمُ, 33:5 رَّحِيمًا, 33:24 رَّحِيمًا, 33:43 رَحِيمًا, 33:50 رَّحِيمًا, 33:59 رَّحِيمًا, 33:73 رَّحِيمًۢا, 34:2 رَّحِيمُ, 36:5 رَّحِيمِ, 36:58 رَّحِيمٍ, 39:53 رَّحِيمُ, 41:2 رَّحِيمِ, 41:32 رَّحِيمٍ, 42:5 رَّحِيمُ, 44:42 رَّحِيمُ, 46:8 رَّحِيمُ, 48:14 رَّحِيمًا, 48:29 رُحَمَآءُ, 49:5 رَّحِيمٌ, 49:12 رَّحِيمٌ, 49:14 رَّحِيمٌ, 52:28 رَّحِيمُ, 57:9 رَّحِيمٌ, 57:28 رَّحِيمٌ, 58:12 رَّحِيمٌ, 59:10 رَّحِيمٌ, 59:22 رَّحِيمُ, 60:7 رَّحِيمٌ, 60:12
+رَّحِيمٌ, 64:14 رَّحِيمٌ, 66:1 رَّحِيمٌ, 73:20 رَّحِيمٌۢ
+
+
+===== PACK/ayah/1_3/meals.md =====
+
+# 1:3 — translations
+
+Panel meals first (16; `lineage` marks shared lineage, counted as one witness for consensus), then the relay pair (Asad's English and the Turkish Esed made from it) and Arberry as a literal English control, then the reference set. Brackets and parentheses are as published. A merged verse group shows its range.
+
+## Panel
+
+- **MEAL-ATES** (Süleyman Ateş): (O) Rahmân'dır, Rahim'dir.
+- **MEAL-BILMEN** (Ömer Nasuhi Bilmen) [1:2-4]: Hamd, âlemlerin Rabbi, Rahmân ve Rahîm olup, ceza gününün mâliki olan Allah Teâlâ'ya mahsustur.
+- **MEAL-BULAC** (Ali Bulaç): Rahman ve Rahimdir.
+- **MEAL-CANTAY** (Hasan Basri Çantay) [1:2-4]: Hamd olsun Alemlerin Rabbi, Rahman, Rahim, Dîn günü'nün (tek) sahibi ve mutasarrıfı Allaha.
+- **MEAL-DIB** (Halil Altuntaş & Muzaffer Şahin (Diyanet İşleri Başkanlığı, Din İşleri Yüksek Kurulu)) lineage=diyanet [1:2-4]: Hamd, Âlemlerin Rabbi, Rahmân, Rahîm, hesap ve ceza gününün (ahiret gününün) maliki Allah'a mahsustur.
+  notes: 4. Hamd, tüm varlıkları nimetlendiren sonsuz kudret sahibi Allah’ı yüceltme ifadesidir. Hamd eden insan, Allah’ın nimetlerine konu oluşu bakımından de
+- **MEAL-DIB1961** (Hüseyin Atay & Yaşar Kutluay (Diyanet İşleri Başkanlığı)) lineage=diyanet-1961: O Rahman ve Rahim'dir,
+- **MEAL-ELMALILI** (Elmalılı Muhammed Hamdi Yazır): O rahman, Rahim,
+- **MEAL-ESED** (Muhammad Asad (Turkish: Cahit Koytak & Ahmet Ertürk)) relay=ASAD-EN: Rahmân, Rahîm,
+- **MEAL-GOLPINARLI** (Abdülbâki Gölpınarlı): Rahmandır, rahîmdir,
+- **MEAL-HAYRAT** (Hayrat Neşriyat (ten-member committee, İlmî Araştırma Merkezi)): (O,) Rahmândır, Rahîmdir.(5)
+  notes: (5)“Ezelden ebede kadar, her kimden her kime karşı gelen ve gelecek medh ü senâ (övgü) O’na âiddir. Çünki sebeb-i medih (övgü sebebi) olan ni‘met ve i
+- **MEAL-ISLAMOGLU** (Mustafa İslamoğlu): O özünde rahmet sahibi, işinde rahmet sahibidir.[⁴]
+  notes: [4] Veya: “Rahmetin sonsuz kaynağı olarak tüm varlığa rahmet eden, iman edenlere kat kat rahmet eden” (Krş: 67:19; 33:43); ya da “Sonsuz rahmetiyle he
+- **MEAL-KURANYOLU** (Hayreddin Karaman, Mustafa Çağrıcı, İbrahim Kâfi Dönmez, Sadrettin Gümüş) lineage=diyanet: Rahmân ve rahîm
+- **MEAL-OKUYAN** (Mehmet Okuyan) [1:2-4]: Hamd[1] (övgü); Rahmân, Rahîm, hesap gününün sahibi, âlemlerin de Rabbi[2] olan Allah içindir.
+  notes: [1] "Övgü" anlamına gelmekte olan [hamd], Yüce Allah'ın kulları üzerindeki hakkıdır. Gerçek [hamd] sadece O'na layıktır. Ayette [ahmedü] "hamd ederim" denilmeyip de [el-hamdü] "hamd" denmesinin muhtemel nedeni, bu ifadenin daha kapsayıcı oluşundandır. İsrâ 17:44'te belirtildiği gibi başka yerlerde, başka zamanlarda ve başka varlıklar tarafından Yüce Allah daima [hamd] ve [tesbih] edilmektedir.
+[2] [Rabb] kelimesi, Yüce Allah'ın kendi dışındaki bütün varlıkların sahibi olduğunu, onları yetiştirdiğini, eğitip terbiye ettiğini, onları sahipsiz bırakmayacağını, bütün yaratılmışların sığınağı olduğunu, başka arayışların bâtıllığını ve kullarını koruduğu anlamlarını içermektedir. Yüce Allah'ın göklerin, yerin ve aralarındaki her şeyin Rabbi olduğuyla ilgili bkz. Meryem 19:65; Şu‘arâ 26:24; Sâffât 37:5; Sâd 38:66; Duhân 44:7; Câsiye 45:36.
+- **MEAL-SULEYMANIYE** (Süleymaniye Vakfı (Abdulaziz Bayındır et al.)): İyiliği sonsuz, ikramı bol olan,[*]
+  notes: [*] Rahman ve rahim kelimelerinin anlamı için bkz: Fatiha 1/1. Ayetin dipnotu.
+- **MEAL-TDV** (Ali Özek, Hayreddin Karaman, Ali Turgut, Mustafa Çağrıcı, İbrahim Kâfi Dönmez, Sadreddin Gümüş) lineage=diyanet: O, rahmândır ve rahîmdir.
+- **MEAL-YNOZTURK** (Yaşar Nuri Öztürk): Rahman'dır, Rahîm'dir O.
+
+## Relay and control
+
+- **ASAD-EN** (Muhammad Asad): The Most Gracious, the Dispenser of Grace,
+- **MEAL-ESED** (Muhammad Asad (Turkish: Cahit Koytak & Ahmet Ertürk)) relay=ASAD-EN: Rahmân, Rahîm,
+- **ARBERRY** (Arthur J. Arberry): the All-merciful, the All-compassionate,
+
+## Reference set
+
+- **MEAL-AFYAVUZ** (Ali Fikri Yavuz): (Öyle Allah ki) dünyada bütün mahlûkata, ahirette ise, yalnız müminlere merhamet edendir;
+- **MEAL-AKGUL** (Abdullah & Ahmet Akgül): (Ki) O (dünyada her şeye ve herkese acıyıp kollayan) RAHMAN’dır, (ahirette ise mü’min ve müstakim kullarını bağışlayıp sonsuz rahmetine kavuşturacak) RAHİM (olan Allah’tır).
+- **MEAL-ALIMIHR** (İskender Ali Mihr): Rahmân´dır, Rahîm´dir
+- **MEAL-ATALAY** (Besim Atalay): Esirgeyen, yarlıgayan
+- **MEAL-ATAY** (Hüseyin Atay) access=hafiza: — not available
+- **MEAL-BALTACIOGLU** (İsmayıl Hakkı Baltacıoğlu): Acıyıcıdır, esirgeyicidir.
+- **MEAL-BAYRAKLI** (Bayraktar Bayraklı): O, rahmet ve merhametin kaynağıdır.[3]
+  notes: [3] Rahmet kelimesinin geniş açıklaması için bk. Bayraklı, KUR’ÂN TEFSÎRİ, I, 119-129.
+- **MEAL-CAKIR** (Mehmet Çakır): her şeye sevgi ile hakim olana,
+- **MEAL-CAVDAR** (Mustafa Çavdar): O Rahmeti sonsuz, merhameti sınırsızdır. 7/156, 16/53, 41/2
+- **MEAL-CEMILSAID** (Cemil Said) relay=Kazimirski's French: 1,2. Hamd ve şükür münhasıran bütün âlemin rabbi ve müşfik ve rahîm olan Allâh’a mahsûsdur.
+- **MEAL-CEVIK** (Mustafa Çevik): Rahman olan Allah, yarattıklarını nimetlerle donatan ve merhametiyle Rahim olandır.
+- **MEAL-COBAN** (Mehmet Çoban): O Rahmandır, yarattığı her varlık onun yasaları tarafından kuşatılmıştır. İnsanlar zanneder ki; "Biz Allah’ın yasasına tabi değiliz." Hayır! Her insan ister inansın ister inanmasın Allah’ın yasasına tabidir. Onlara inanıp inanmama yetkisi veren Allah’tır. Onlar Allah’ın yaratılış yasaları gereği inanır veya inanmazlar. İnanç konusunda herkes kendi seçiminden sorumludur. Allah Rahimdir. Yarattığı her varlığı eşit tutar. Hiç kimseye haksızlık yapmaz. Kim Allah’ın yarattıklarına karşı haksızlık yaparsa onu ya dünyada ya da dünya sonundaki ahiret hayatında cezalandırır. Hiçbir insan diğer insana baskı yapamaz. Hiçbir insan ister gönüllü ister gönülsüz insanları çıkarlarına kullanamaz. Allah’ın yasalarındaki temel kural, "İnsanları çıkarlar için kullanmak!" yasaktır. İnsanları çıkarlarına kullananlar zalimdir. Allah zalimlere kaşı daima zulme uğrayanları korur. Hiçbir zaman sadece inananları korurum, inanmayanları korumam demez. Kimin hakkı yeniliyorsa Allah hakkı yenilenin yanındadır. Allah daima zulme uğrayanın yanındadır.
+- **MEAL-CYILDIRIM** (Celal Yıldırım) [1:2-4]: Hamd, âlemlerin Rabbi, Rahman, Rahîm, ceza (hesap görülecek, karşılık verilecek) günün yegâne sahibi Allah'a mahsûstur.
+- **MEAL-DEMIRYENT** (Emrah Demiryent): (O, bütün yarattıklarına merhamet eden) rahmân ve (âhirette sadece müslümanlara merhamet edecek olan) rahîmdir.
+- **MEAL-EAKTAS** (Erhan Aktaş): O'nun Rahmeti Bol ve Kesintisizdir.
+- **MEAL-ELMALILI-HDKD** (Elmalılı Muhammed Hamdi Yazır) lineage=elmalili-1935: O Rahmân, Rahîm,
+- **MEAL-ELMALILI-SADE** (Elmalılı Muhammed Hamdi Yazır (simplified by unnamed editors)): O Rahmân ve Rahim,
+- **MEAL-ELMALILI-SADE-B** (Elmalılı Muhammed Hamdi Yazır (simplified by unnamed editors)): O Rahman, Rahim
+- **MEAL-ERDOGDU** (Ömer Erdoğdu): (Evrende bulunan bütün yaratıklara karşı şefkatli) Rahman ve (ahirette ise yalnız inanan kullarına acıyan) Rahimdir O!
+- **MEAL-EROGLU** (Mehmet Ali Eroğlu): Ahirette ve dünyada tüm mahlukat için Rahman ve Rahim O'dur
+- **MEAL-ESKIANADOLU** (anonymous): gey raḥmet ķılıcı raḥmet ķılıcı.
+- **MEAL-FIZILAL** (Sayyid Quṭb (Turkish translators: Salih Uçan et al.)) relay=Quṭb's Arabic paraphrase (Fī ẓilāl al-Qurʾān): Rahman ve Rahim
+- **MEAL-HAMIDULLAH** (Muhammed Hamidullah (Turkish: Abdülaziz Hatip & Mahmut Kanık)) relay=Hamidullah's French Le Saint Coran access=hafiza: — not available
+- **MEAL-HARUNYILDIRIM** (Harun Yıldırım): Rahmân’dır, Rahîm’dir.
+- **MEAL-HOZTURK-SYILMAZ** (Haydar Öztürk & Serkan Yılmaz): Rahmân, Rahîm,
+  notes: [17/111; 55/1-4; 3/129; 15/49-50]
+- **MEAL-HULUSI** (Ahmed Hulusi): Rahman ve Rahıym'dir. (Rahmaniyetiyle Esma alemini meydana getiren ve Rahıymiyetiyle Esma alemindeki manalar ile her an alemleri yaratandır. )
+- **MEAL-HYILMAZ** (Hakkı Yılmaz) [1:2-4]: Tüm övgüler, âlemlerin Rabbi, yarattığı bütün canlılara nimet veren, yarattıklarına çok merhametli olan, herkesin iyi ya da kötü yaptığı tüm edim ve eylemlerin karşılığını göreceği âhiret gününün sahibi, yöneticisi Allah'adır.
+- **MEAL-IAKTAS** (İhsan Aktaş): O, merhameti sonsuz olan, (herkese) merhamet edendir.
+- **MEAL-IBNKESIR-ANON** (anonymous): Rahman'dır, Rahimdir.
+- **MEAL-ISLAMOGLU-ESKI** (Mustafa İslamoğlu): O özünde rahmet sahibi, işinde rahmet sahibidir.
+- **MEAL-IZMIRLI** (İsmail Hakkı İzmirli) [1:2-4]: 2, 4. (Hamd-ü senâ) o Allah/a mahsustur ki âlemlerin Rab/bidir [³], esirgeyendir, bağışlayandır, ceza gününün mâlikidir.
+  notes: [3] Yaradanı, besleyeni, işlerini göreni, terbiye edeni, sahibi, mâlikidir.
+- **MEAL-KCELIK** (Kadri Çelik): Rahman'dır, Rahim'dir.
+  notes: (Allah-u Teâlâ’nın rahmân ve rahîm sıfatlarının her ikisi de “rahmet” mastarından türemiş olmakla birlikte, farklı anlamlar ifade etmektedir. Rahman d
+- **MEAL-KISA** (Mahmut Kısa): O, Rahmândır; çok şefkatli, çok merhametlidir. Sizi sizden çok sever, size sizden daha yakındır. O’nun sonsuz rahmet ve şefkati, bu dünyada mümin-kâfir ayrımı yapmaksızın tüm varlıkları kuşatmıştır. O, Rahîmdir. Rahmetini tamamlamak üzere bu Kitabı göndermiş ve onun ışığında yürüyen bahtiyârlara, âhiret hayatında sonsuz mutluluk ve kurtuluş müjdesini vermiştir. Fakat O, çok şefkatli, çok merhametli olmakla birlikte, hikmetli ve adâletlidir de:
+- **MEAL-KULUNKOGLU** (Cemal Külünkoğlu): (O) Rahman’dır ve Rahîm’dir.
+  notes: Bkz. 1/1 Rahman ve Rahîm sıfatlarıyla ilgili birinci ayetin dipnotuna bakabilirsiniz.
+- **MEAL-KUNTMAN** (Orhan Kuntman): Hem Rahman'dır; hem Rahimdir
+  notes: ("Rahmin", "Rahîm" bu beyanların ikisi de rahmet kökünden gelmekle beraber, aralarında çok önemli fark vardır şöyle ki: yüce Allah'ın Rahmân oluşu eze
+- **MEAL-MOZDEMIR** (Mahmut Özdemir): Rahîm Rahmân,
+- **MEAL-MOZTURK** (Mustafa Öztürk) access=hafiza: — not available
+- **MEAL-MTURK** (Mehmet Türk) [1:2-4]: Hamd,⁵ bütün âlemlerin⁶ Rabbi,⁷ Rahmân, Rahîm, din gününün⁸ tek sahibi⁹ Allah’a mahsustur.
+  notes: 5 Hamd: Bir ihsan veya bir iyiliğin sahibine karşı yapılan ve can ü gönülden hürmet ifade eden en güzel bir şekilde anmadır. Bu anmanın içerisinde kıs
+- **MEAL-OFIRAT** (Osman Fırat): O ki Rahmân* ve Rahîm olandır.
+  notes: Rahmân ve Rahîm kelimeleri aynı kökten olup esas itibariyle merhameti ifade ederler. Rahmân kelimesinin Rahîm kelimesinden farkı, merhametin daha kaps
+- **MEAL-ONAN** (Gültekin Onan) [1:2-4]: Hamd alemlerin rabbi, rahman, rahim ve din gününün maliki olan Tanrı'yadır.
+- **MEAL-ONGUT** (Ömer Öngüt): O, Rahman ve Rahim'dir.
+- **MEAL-PARLIYAN** (Abdullah Parlıyan): Dünyada herkesi, ahirette sadece mü'minleri Rahmetine alan,
+- **MEAL-PIRIS** (Şaban Piriş) [1:2-4]: Hamd, Alemlerin Rabbi, Rahman, Rahim, din gününün hakimi Allah'a mahsustur.
+- **MEAL-PIRIS-REV** (Şaban Piriş (revised under Rowad Translation Center)): O Rahman'dır, O Rahim'dir.
+- **MEAL-RWWAD** (Rowwad Translation Center (team)): O Rahmân'dır, Rahîm'dir.
+- **MEAL-SAFA** (Ali Rıza Safa): "Bağışlayan; Merhametli!"
+- **MEAL-SAGLAM** (Bahaeddin Sağlam): O (her şeyi) yasalar çeçevesinde rahmetiyle yaratan ve besleyendir. Ve yine rahmetiyle (her şeyi) olağanüstü olarak mükemmelliğe (ahirete) götürendir.
+- **MEAL-SATIRALTI** (anonymous): Fenādan ṣoñra āḫiretde vücūd virici ve merḥameten mü’minlere raḥmet baḫş idici,
+- **MEAL-SEMS** (Muhammed Celal Şems): O, sonsuz kerem ve rahmet edendir.
+- **MEAL-SIMSEK** (Ümit Şimşek): O Rahmân'dır, Rahîmdir.
+- **MEAL-STEVFIK** (Süleyman Tevfik): Bütün yaradılmışlara dünyâ ve âhiretde acıyub iylik idici.
+- **MEAL-SULEYMANIYE-ESKI** (Süleymaniye Vakfı (Abdulaziz Bayındır et al.)): İyiliği sonsuz, ikramı boldur.
+- **MEAL-SYILDIRIM** (Suat Yıldırım): O rahmândır, rahîmdir.
+  notes: Son âyet doğru yolun somut, gerçekleşmiş şeklini gösterir, mümini geniş düz caddede ilerleyen peygamberlerin nuranî kafilesinin peşine yerleştirir. Ör
+- **MEAL-TDV-DUZ** (Ali Özek, Hayreddin Karaman, Ali Turgut, Mustafa Çağrıcı, İbrahim Kâfi Dönmez, Sadreddin Gümüş (TDV committee)) lineage=diyanet: O, rahmandır ve rahimdir.
+- **MEAL-TDV-QE** (Ali Özek et al. (revised under Rowad Translation Center)) lineage=diyanet: O, Rahmân'dır ve Rahîm'dir.
+- **MEAL-TEFHIM** (Abul Aʿla Mawdudi (Turkish: İnsan Yayınları team)) relay=Mawdudi's Urdu Tafhīm al-Qurʾān (English consulted) [1:2-4]: Hamd, Alemlerin Rabbi, Rahman, Rahim ve Din gününün maliki olan Allah'adır.
+- **MEAL-TEKIN** (Ahmet Tekin): Sınırsız Rahmeti ve engin merhameti ile hayat veren, yaşatan, koruyan, rahmetine, merhametine, lütfuna, ihsanına, hayırlara mazhar eden, Rahmân ve rahîm olan Allah'a hamdolsun.
+  notes: “Sultan” kelimesi İmam Âsım, el-Kisâî, Yâ-kup ve Halef’in dışındaki kıraat imamlarının okuduğu veche göre verilen mânâdır.
+- **MEAL-TURKMEN** (Sadık Türkmen): O Rahmândır (iyiliği sonsuzdur), Rahîmdir (ikramı boldur).
+- **MEAL-UNAL** (Ali Ünal): Rahmân ve Rahîm;
+- **MEAL-VAROL** (Ahmet Varol): (O Allah) Rahman ve Rahim'dir.
+- **MEAL-YAKIT** (İsmail Yakıt): O, Rahmân’dır⁴, Rahîm’dir⁵.
+  notes: 4 Rahmân: Esirgeyen, Seven, merhamet eden
+5 Rahîm: Çok seven, çok bağışlayan, merhamet sahibi, müşfik
+- **MEAL-YORULMAZ** (İlyas Yorulmaz): (O kullarına) Acıyan, koruyan, gözeten ve ihtiyaçlarını karşılayandır.
+- **MEAL-YUKSEL** (Edip Yüksel): Rahman, Rahim (Merhametli),
+
+
+===== PACK/ayah/1_3/turkish.md =====
+
+# 1:3 — Turkish word history
+
+Key words of the panel meals at this ayah that have entries in the Turkish dictionaries of the corpus (how many panel meals use the word in brackets). Use them for anlam_tarihi (Turkish drift) and for meal kayma findings; cite NISANYAN:/TDK:/KUBBEALTI: locators.
+
+## rahim [14 meals]
+
+**NISANYAN:rahim**
+rahim — Nişanyan Sözlük
+Köken: Arapça √rḥm kökünden gelen raḥim veya raḥm رحم “1. ana rahmi, döl yatağı, 2. merhamet, şefkat” sözcüğünden alıntıdır. (Bu sözcük Aramice-Süryanice raḥəm רחם “ana rahmi” sözcüğü ile eş kökenlidir. Bu sözcük İbranice aynı anlama gelen rəḥām רחם sözcüğü ile eş kökenlidir. Bu sözcük Akatça aynı anlama gelen rēmu sözcüğü ile eş kökenlidir.)
+Tarihçe (tarihli tanıklar):
+- 1303 Codex Cumanicus: “ol rahiminga kore iamanimizni kačirgil [merhametinle günahımızı gider]” [anlam: “merhamet”]
+- 1330 Aşık Paşa / Garib-name: “kondurur pes bu keze ana raḥmine” [anlam: “... döl yatağı”]
+Birleşik/türev tanıkları:
+- rahim ağzı: 1963 Cumhuriyet - gazete: “1950 yılından önce rahim ağzı kanserinden tedavi gören kadınlardan”
+- rahim içi araç: 1966 Cumhuriyet - gazete: “Sağlık Sosyal ve Yardım Bakanlığı tarafından doğumun kontrolü ile ilgili olarak hazırlanan (Rahim içi araç takanla …
+
+**TDK:rahim#1**
+rahim (Arapça raḥm)
+1. [isim, anatomi] ► döl yatağı
+Birleşik sözler: rahim içi araç, ana rahmi
+
+**KUBBEALTI:rahim**
+RAHİM – RAHM
+(ﺭﺣﻢ) i. (Ar. raḥm)
+1. Memelilerde yavrunun içinde oluştuğu ve doğuncaya kadar büyüyüp geliştiği ana karnındaki etten torba, döl yatağı: Geleli dünyâya rahm-ı mâderden / Gönül şâd olmadı gamdan kederden (Dertli).
+2. (Anne tarafından) Akrabâ, hısım.
+
+## rahman [14 meals]
+
+**NISANYAN:rahman**
+rahman — Nişanyan Sözlük
+Köken: Arapça √rḥm kökünden gelen raḥmān رحمٰن “Allah’ın bir sıfatı” sözcüğünden alıntıdır. Bu sözcük Aramice-Süryaniceveİbranice raḥmān רחמן “«merhamet eden», aynı anlamda” sözcüğünden alıntıdır. Aramice-Süryanice ve İbranice sözcük Aramice-Süryaniceveİbranice raḥam רחמ “sevme, acıma, merhamet etme, bağışlama” sözcüğünden türetilmiştir.
+Ek açıklama: İbn Abbas’a göre İbraniceden alınmıştır. Edw. Will. Lane, An Arabic Lexicon 1.1057. Aynı fiil kökü Arapçada da mevcut olduğu halde, sıfat biçimi Aramice veya İbranice bir alıntıya işaret eder.
+Tarihçe (tarihli tanıklar):
+- 1387 İrşadü'l-Mülûk ve's-Selâtîn: “yarlıkaġıl meni iy Rahmān tip” (Kıpçakça)
+Diğer birleşik/türevler: rahmanî
+
+**TDK:rahman**
+rahman (Arapça raḥmān)
+1. [sıfat, din bilimi] Herkese, her canlıya merhamet eden (Tanrı)
+
+**KUBBEALTI:rahman**
+RAHMAN
+(ﺭﺣﻤﺎﻥ– ﺭﺣﻤﻦ) i. (Ar. raḥmet “acımak, esirgemek, bağışlamak”tan raḥmān) “Kâfir-mümin ayırmadan yarattığı bütün varlıklara merhamet eden, nîmet veren” anlamında esmâ-i hüsnâdan (Allah’ın en güzel isimlerinden)dır: Buyruğun tut rahmânın / Tevhîde gel tevhîde (Aziz Mahmud Hüdâyî). Nûr-ı rahmânım emânet-gâh-ı kudrettir dilim / Çok mudur müstevli-i arş-ı azîm olmak bana (Leskofçalı Gālib). Uyar mı fikr ü hesâbım hesâb-ı rahmâna (Abdülhak Hâmit).
+
+## rab [4 meals]
+
+**NISANYAN:rab**
+rab — Nişanyan Sözlük
+Köken: Arapça √rbb kökünden gelen rabb ربّ “ulu kişi, efendi, sahip, tanrı” sözcüğünden alıntıdır. Bu sözcük Aramice-Süryanice √rb kökünden gelen rav רַב veya rabbā רַבָּא “1. büyük, çok (sıfat), 2. ulu kişi, efendi” sözcüğünden alıntıdır. Aramice-Süryanice sözcük Akatça rabū “büyük” sözcüğü ile eş kökenlidir.
+Ek açıklama: Arapça yā rabbī ve İbranice rabbī sözcüklerinde görülen +î eki, her iki dilde birinci tekil şahıs iyelik ekidir (“efendim”).
+Tarihçe (tarihli tanıklar):
+- 1069 Yusuf Hacib / Kutadgu Bilig: “sini koldı rabda aḏın kolmadı [seni diledi Allah'tan, başka şey dilemedi]”
+Birleşik/türev tanıkları:
+- rabbülâlemîn: 1310 Rabguzi / Kısasü'l-Enbiya terc.: “rabbu'l-ˁālemīn”
+- yarabbi: 1437 Ömer b. Mezîd / Mecmuatü'n-nezâir: “Şol dil-āsā manẓarı yā Rabbī ḳanı çeşmümüŋ”
+- rabbani: 1451 anon. / Ferec ba'd eş-şidde: “Taḳdīr-i rabbānī vü ḥükm-i asumani şöyle oldı- …
+
+**TDK:Rab**
+Rab (Arapça rabb)
+1. [isim, din bilimi] ► Allah
+
+**KUBBEALTI:rab**
+RAB
+(ﺭﺏّ) i. (Ar. rabb)
+1. Bütün mahlûkātı yetiştiren, kayıran, besleyen, terbiye eden Cenâbıhak, Allah, Tanrı: Ölüp kabre varınca / Melek sual sorunca / Rabbin kimdir deyince / Allah Allah diyelim (Yûnus Emre). Âlemleri muhabbet üzerine yaratan Rabbimin bin bir ismine yemin ederim (Nâmık Kemal). Arz-ı me’yûsa Rabbim at elini (Cenap Şahâbeddin).
+2. Sâhip: Bu meyanda şâir Üsküdarlı Talat Bey’e de bir mektup yazarak Plevne’nin eşher-i şühedâsı ve kendi hemşehrisi hakkında dahi rabbü’l-ilm olup olmadığını sormuştum (Süleyman Nazif).
+
+ѻ Rabbim: Daha çok duâ cümlelerinin başında “ey Rabbim, Allahım!” anlamında yalvarma sözü olarak kullanılır: “Rabbim, sen bizi bağışla!” Rabbü’d-dar: Ev sâhibi. Rabbü’l-âlemin: [Başına “yâ” geldiği zaman "Rabbe’l-âlemin" şeklinde söylenir] Bütün âlemlerin sâhibi ve efendisi olan Allah: Ölmek kaderde var yaşayıp köhnemek hazin / Bir çâre yok mudur buna yâ Rabbe’ …
+
+## hamd [4 meals]
+
+**NISANYAN:hamd**
+hamd — Nişanyan Sözlük
+Köken: Arapça √ḥmd kökünden gelen ḥamd حَمْد “övme, yüceltme” sözcüğünden alıntıdır. Bu sözcük Arapça ḥamada حَمَدَ “övdü, yüceltti” fiilinin faˁl vezninde masdarıdır.
+Tarihçe (tarihli tanıklar):
+- <1250? Edib Ahmed / Atebet-ül Hakayık: “ilāhī öküş ḥamd ayur men saŋa [tanrım çok hamd ederim ben sana]”
+Diğer birleşik/türevler: hamdolsun
+Bu maddeden türeyenler: elhamdülillah, hamdüsena, Muhammet
+
+**KUBBEALTI:hamd**
+HAMD
+(ﺣﻤﺪ) i. (Ar. ḥamd) Kulun Allah’ın yüceliğini, sonsuz lutuf ve ihsânı karşısında yaratanına minnet ve şükran duygularını bildirmesi: Hamd ü senâ o kâinâtın sâhibi ulu Tanrı’ya lâyıktır (Kâtip Çelebi’den Seç.). Halîfeler şehrinin eşiğinde ilk namazlarını kılarlar, buraya selâmetle girdiklerinin ilk duâsını, ilk hamdini edâ ederlerdi (Rûşen E. Ünaydın).
+ѻ Hamd olsun: Allah’ın nîmetlerine ve lutuflarına minnet ve teşekkürü bildirmek üzere kullanılır, Allah’a şükürler olsun, elhamdülillâh: Bizi kâinat kitâbının hulâsası kılan Allah’a hamd olsun (Kâtip Çelebi’den Seç.). Hamd olsun, iyilikten başka bir şey yok (Fâik Reşat). Hamd ü senâ etmek: Allah’ın büyüklüğü ve lutufları karşısında onu methederek şükrünü bildirmek.
+● Hamden (ﺣﻤﺪﺍً) zf. (ḥamd’in tenvinli şekli) Hamdolsun, şükürler olsun.
+ѻ Hamden lillâh: Allah’a şükür: Şu mahallede biz kırk kişiyiz, kırkımız da birbirimizi biliriz, sizi …
+
+## alem [4 meals]
+
+**NISANYAN:âlem**
+âlem — Nişanyan Sözlük
+Köken: Arapça √ˁlm kökünden gelen fāˁal veznindeki ˁālam عالم “dünya, kâinat” sözcüğünden alıntıdır. Bu sözcük Aramice-Süryanice ˁālam עלם “devir, çağ, şimdiki dünya, evren (Yunanca aiōn karşılığı)” sözcüğünden alıntıdır. Aramice-Süryanice sözcük İbranice ˁōlām עולם “devir, çağ, şimdiki dünya” sözcüğü ile eş kökenlidir.
+Ek açıklama: Jeffery, Foreign Vocabulary of the Qur’an 209. Rabōn ha-ˁōlāmīm “rabbül âlemîn” deyimi Musevi ilahiyatında sıklıkla kullanılır.
+Tarihçe (tarihli tanıklar):
+- 1069 Yusuf Hacib / Kutadgu Bilig: “törütti tilek teg tözü ˁālamıġ [yarattı dilediği gibi bütün alemi]” (Eski Türkçe)
+- 1303 Codex Cumanicus: “kim bugun toḫdi barča elm kutkardači [kim bugün doğdu, tüm alemin kurtarıcısıdır]” (Kıpçakça)
+- 1317 Gülşehri / Mantıku't-Tayr: “girü ˁirfān ˁālemine [bilgi dünyasına] ṭaldılar” (Türkiye Türkçesi)
+- <1604 Mehmed Nami Divanı: “ḳavl ü ḳarārı  …
+
+**TDK:alem#1**
+alem (Arapça ʿalem)
+1. [isim] Minare, kubbe, bayrak direği vb. yüksek şeylerin tepesinde bulunan, pirinçten yapılmış ay yıldız veya lale biçiminde süs; ayça
+2. ► bayrak  Örnek: “Dünyada iyi nam ile anılalım. Ahirette peygamberimizin alemi dibinde toplanalım!” — Ömer Seyfettin
+3. ► simge
+
+**KUBBEALTI:alem**
+ALEM
+(ﻋﻠﻢ) i. (Ar. ‘alem)
+1. İşâret, alâmet, nişan, sembol.
+2. Sancak, bayrak: Âhirette Peygamber’imizin alemi dibinde toplanalım (Ömer Seyfeddin).
+3. Kubbe, minâre ve bayrak direklerinin en üst kısmında bulunan ay veya lâle biçimindeki süslü tepelik, mahçe: Direk başında gâh alem ve gâh fener ederler (Kâtip Çelebi’den Seç.).
+4. Sarık yapılan bir çeşit kumaşın içindeki altın teller.
+5. dilb. Özel isim, has isim.
+ѻ Alem olmak: Alâmet, işâret durumuna gelmek, sembol olmak: Gülün bu büyük peygambere alem olduğunu ve bilhassa Anadolu halkının, atalardan kalma bir irfan mîrâsıyle kız hatta erkek çocuklarına Gül adını bunun için koyduklarını nice şehirlilerimiz bilemez (Nihad S. Banarlı). Alem-i hümâyun: Pâdişahlara mahsus sancak, saltanat sancağı: Cem kudretli pâdişah, alem-i hümâyun önünde karar edip sağ ve sol, altı bölük ardınca durdu (Kâtip Çelebi’den Seç.). Alem-i nebî (saâdet): Hz. Muha …
+
+## mahsus [2 meals]
+
+**NISANYAN:mahsus**
+mahsus — Nişanyan Sözlük
+Köken: Arapça √χṣṣ kökünden gelen maχṣūṣ مخصوص “ayrılmış, ayrı, ayrık, özel” sözcüğünden alıntıdır. Bu sözcük Arapça χaṣṣa خَصَّ “seçti, ayırdı” fiilinin mafˁūl vezninde edilgen fiil sıfatıdır.
+Tarihçe (tarihli tanıklar):
+- 1330 Aşık Paşa / Garib-name: “pādişāhdan āyet indi bunlara / Aḥmed'e maḫṣūṣ hem o on ere [Muhammed'e ve o on kişiye özel]”
+- 1900 Şemseddin Sami / Kamus-ı Türki: “mahsus: (...) Tr. 1. Ayrıca, bilhassa. 2. İsteyerek.” [anlam: “... özellikle”]
+- 1945 TDK / Türkçe Sözlük, 1. Baskı: “mahsus: (...) 3. Şakadan. 'Mahsus söylüyor, inanmayın.'”
+Diğer birleşik/türevler: mahsusçuktan, teşkilatı mahsusa
+
+**TDK:mahsus#1**
+mahsus (Arapça maḫṣūṣ)
+1. [sıfat] ► özgü  Örnek: “Kanun, gizli eşyayı bulmaya mahsus bir fal kitabı değildir.” — Necip Fazıl Kısakürek
+2. Biri veya bir şey için ayrılmış; münhasır  Örnek: “Vatan bizim kılıcımızın ekmeğidir. Daima kendimize mahsus, kendimize münhasır biliriz.” — Namık Kemal
+3. ► özel  Örnek: “Kayseri'nin sayın valisine, mahsus selam ederim.” — Bedri Rahmi Eyüboğlu
+4. [zarf] ► özellikle  Örnek: “Fakat Cemile mahsus evime geldi, ellerimi öperek yalvardı.” — Reşat Nuri Güntekin
+5. [zarf] Bilerek, isteyerek, kasten  Örnek: “Kapıyı mahsus açık bırakmıştı.” — Attilâ İlhan
+6. [zarf] ► şakadan  Örnek: “Ciddi mi yapıyordu, mahsus mu söylüyordu, aptallık veya hilekârlık mıydı, bunları da anlayamadım.”
+Birleşik sözler: kendine mahsus, zata mahsus
+
+**KUBBEALTI:mahsus#1**
+MAHSUS
+(ﻣﺨﺼﻮﺹ) sıf. (Ar. ḫuṣūṣ “has, husûsî, özel olmak”tan maḫṣūṣ)
+1. Yalnız bir kimse, bir nesne veya bir yere âit olan, başkasında bulunmayan, husûsîleşmiş, has, özgü: İstanbul’un yaza mahsus güzelliğine büyük zarar veriyor (Ahmet Hâşim). Sonra bu eserlerin kendilerine mahsus bir devirleri var (Ahmet H. Tanpınar). Milletine mahsus nâzik bir çekingenlikle gözlerini yüzünden ayırdı (Safiye Erol).
+2. Birisi için ayrılmış, birine tahsis edilmiş: “Kadınlara mahsus hamam.” “Çocuklara mahsus bahçe.” Beyrut’ta, ikinci derecedeki lokanta masalarında böyle su içmeye alışmışlara mahsus testilere rast gelirsiniz (Refik H. Karay).
+3. eski. Ayrı, başlı başına, müstakil [Eskimiştir]: Bu hastalık için mahsus tabip vardır (Şemseddin Sâmi). Musluk taşının altındaki kapağı açınız, orada mahsus silgi taşı var (Hüseyin R. Gürpınar). ♦ zf.
+4. Ayrıca, husûsî olarak, bilhassa: Öteki gece beni almak için mahs …
+
+
+===== PACK/ayah/1_3/sources.md =====
+
+# 1:3 — corpus locators for this ayah
+
+Every segment tied to this ayah (or a range containing it), grouped by kind. Read them with `python3 enrichment/v2/tools/corpus.py get <locator>`; search whole books with `corpus.py search`.
+
+## isari
+
+- BURSEVI:v1p2 (625 chars)
+- SULAMI:v1p35#2 (1,145 chars)
+- SULAMI:v1p36 (33 chars)
+
+## maani
+
+- AKHFASH:v1p3#2 (1,829 chars)
+- AKHFASH:v1p12 (1,596 chars)
+- MAJAZ:v1p21 (637 chars)
+- NAHHAS:v1p171 (1,831 chars)
+- SAMIN-DURR:1:3 (128 chars)
+
+## meal
+
+- MEAL-AFYAVUZ:1:3 (89 chars)
+- MEAL-AKGUL:1:3 (173 chars)
+- MEAL-ALIMIHR:1:3 (21 chars)
+- MEAL-ATALAY:1:3 (21 chars)
+- MEAL-ATES:1:3 (26 chars)
+- MEAL-BALTACIOGLU:1:3 (26 chars)
+- MEAL-BAYRAKLI:1:3 (38 chars)
+- MEAL-BILMEN:1:2 (95 chars)
+- MEAL-BULAC:1:3 (19 chars)
+- MEAL-CAKIR:1:3 (31 chars)
+- MEAL-CANTAY:1:2 (91 chars)
+- MEAL-CAVDAR:1:3 (59 chars)
+- MEAL-CEMILSAID:1:3 (91 chars)
+- MEAL-CEVIK:1:3 (83 chars)
+- MEAL-COBAN:1:3 (1,035 chars)
+- MEAL-CYILDIRIM:1:2 (119 chars)
+- MEAL-DEMIRYENT:1:3 (111 chars)
+- MEAL-DIB:1:2 (102 chars)
+- MEAL-DIB1961:1:3 (22 chars)
+- MEAL-EAKTAS:1:3 (35 chars)
+- MEAL-ELMALILI:1:3 (16 chars)
+- MEAL-ELMALILI-HDKD:1:3 (16 chars)
+- MEAL-ELMALILI-SADE:1:3 (18 chars)
+- MEAL-ELMALILI-SADE-B:1:3 (15 chars)
+- MEAL-ERDOGDU:1:3 (118 chars)
+- MEAL-EROGLU:1:3 (59 chars)
+- MEAL-ESED:1:3 (14 chars)
+- MEAL-ESKIANADOLU:1:3 (32 chars)
+- MEAL-FIZILAL:1:3 (15 chars)
+- MEAL-GOLPINARLI:1:3 (20 chars)
+- MEAL-HARUNYILDIRIM:1:3 (22 chars)
+- MEAL-HAYRAT:1:3 (28 chars)
+- MEAL-HOZTURK-SYILMAZ:1:3 (14 chars)
+- MEAL-HULUSI:1:3 (142 chars)
+- MEAL-HYILMAZ:1:2 (226 chars)
+- MEAL-IAKTAS:1:3 (53 chars)
+- MEAL-IBNKESIR-ANON:1:3 (21 chars)
+- MEAL-ISLAMOGLU:1:3 (51 chars)
+- MEAL-ISLAMOGLU-ESKI:1:3 (48 chars)
+- MEAL-IZMIRLI:1:2 (120 chars)
+- MEAL-KCELIK:1:3 (22 chars)
+- MEAL-KISA:1:3 (447 chars)
+- MEAL-KULUNKOGLU:1:3 (28 chars)
+- MEAL-KUNTMAN:1:3 (28 chars)
+- MEAL-KURANYOLU:1:3 (15 chars)
+- MEAL-MOZDEMIR:1:3 (13 chars)
+- MEAL-MTURK:1:2 (90 chars)
+- MEAL-OFIRAT:1:3 (30 chars)
+- MEAL-OKUYAN:1:2 (94 chars)
+- MEAL-ONAN:1:2 (75 chars)
+- MEAL-ONGUT:1:3 (23 chars)
+- MEAL-PARLIYAN:1:3 (59 chars)
+- MEAL-PIRIS:1:2 (75 chars)
+- MEAL-PIRIS-REV:1:3 (26 chars)
+- MEAL-RWWAD:1:3 (24 chars)
+- MEAL-SAFA:1:3 (25 chars)
+- MEAL-SAGLAM:1:3 (150 chars)
+- MEAL-SATIRALTI:1:3 (79 chars)
+- MEAL-SEMS:1:3 (34 chars)
+- MEAL-SIMSEK:1:3 (23 chars)
+- MEAL-STEVFIK:1:3 (58 chars)
+- MEAL-SULEYMANIYE:1:3 (35 chars)
+- MEAL-SULEYMANIYE-ESKI:1:3 (30 chars)
+- MEAL-SYILDIRIM:1:3 (22 chars)
+- MEAL-TDV:1:3 (25 chars)
+- MEAL-TDV-DUZ:1:3 (25 chars)
+- MEAL-TDV-QE:1:3 (27 chars)
+- MEAL-TEFHIM:1:2 (75 chars)
+- MEAL-TEKIN:1:3 (176 chars)
+- MEAL-TURKMEN:1:3 (58 chars)
+- MEAL-UNAL:1:3 (16 chars)
+- MEAL-VAROL:1:3 (30 chars)
+- MEAL-YAKIT:1:3 (27 chars)
+- MEAL-YNOZTURK:1:3 (24 chars)
+- MEAL-YORULMAZ:1:3 (70 chars)
+- MEAL-YUKSEL:1:3 (27 chars)
+
+## modern
+
+- CORPUSCORANICUM:1:3:kommentar (269 chars)
+
+## quran
+
+- QURAN:1:3 (23 chars)
+
+## tafsir
+
+- ABUHAYYAN:1:3 (2,108 chars)
+- ABUHAYYAN-FULL:v1p27 (1,407 chars)
+- ABUHAYYAN-FULL:v1p28 (1,875 chars)
+- ABUHAYYAN-FULL:v1p28#2 (1,888 chars)
+- ABUHAYYAN-FULL:v1p30 (1,797 chars)
+- ABUHAYYAN-FULL:v1p31 (1,923 chars)
+- ABUHAYYAN-FULL:v1p31#2 (1,799 chars)
+- ABUHAYYAN-FULL:v1p32 (1,746 chars)
+- ABUHAYYAN-FULL:v1p34 (1,945 chars)
+- ABUHAYYAN-FULL:v1p35 (2,003 chars)
+- ABUHAYYAN-FULL:v1p36 (2,018 chars)
+- ABUHAYYAN-FULL:v1p37 (1,637 chars)
+- ABUHAYYAN-FULL:v1p38 (1,984 chars)
+- ABUHAYYAN-FULL:v1p39 (1,844 chars)
+- ABUHAYYAN-FULL:v1p40 (1,712 chars)
+- ABUHAYYAN-FULL:v1p40#2 (1,827 chars)
+- ABUHAYYAN-FULL:v1p42 (2,102 chars)
+- ABUHAYYAN-FULL:v1p43 (1,514 chars)
+- ABUHAYYAN-FULL:v1p43#2 (1,508 chars)
+- ABUHAYYAN-FULL:v1p44 (1,865 chars)
+- ABUHAYYAN-FULL:v1p45 (1,667 chars)
+- ABUHAYYAN-FULL:v1p46 (1,696 chars)
+- ABUHAYYAN-FULL:v1p47 (1,535 chars)
+- ABUHAYYAN-FULL:v1p48 (1,538 chars)
+- ABUHAYYAN-FULL:v1p49 (1,618 chars)
+- ABUHAYYAN-FULL:v1p51 (1,645 chars)
+- ABUHAYYAN-FULL:v1p52 (1,505 chars)
+- ABUHAYYAN-FULL:v1p52#2 (1,914 chars)
+- ABUHAYYAN-FULL:v1p53 (1,803 chars)
+- ABUHAYYAN-FULL:v1p54 (2,164 chars)
+- ALUSI:1:3 (1,732 chars)
+- ALUSI-FULL:v1p82 (1,570 chars)
+- BAGHAWI:1:3 (29 chars)
+- BAGHAWI-FULL:v1p50 (1,562 chars)
+- BAGHAWI-FULL:v1p51 (1,655 chars)
+- BAGHAWI-FULL:v1p49#2 (202 chars)
+- BAGHAWI-FULL:v1p52 (1,599 chars)
+- BAYDAWI:1:3 (76 chars)
+- BAYDAWI-FULL:1:3 (45 chars)
+- BIQAI:1:3 (830 chars)
+- BIQAI-FULL:v1p11#2 (2,148 chars)
+- BIQAI-FULL:v1p12 (1,965 chars)
+- BIQAI-FULL:v1p15 (518 chars)
+- BIQAI-FULL:v1p21 (1,540 chars)
+- BIQAI-FULL:v1p22 (2,282 chars)
+- BIQAI-FULL:v1p24 (2,423 chars)
+- BIQAI-FULL:v1p25 (2,137 chars)
+- BIQAI-FULL:v1p27 (2,188 chars)
+- BIQAI-FULL:v1p28 (2,253 chars)
+- BIQAI-FULL:v1p29 (3,250 chars)
+- BIQAI-FULL:v1p31 (2,476 chars)
+- BIQAI-FULL:v1p13 (2,843 chars)
+- DURR:1:3 (722 chars)
+- DURR-FULL:v1p23 (1,650 chars)
+- DURR-FULL:v1p24 (1,014 chars)
+- DURR-FULL:v1p19#2 (1,514 chars)
+- DURR-FULL:v1p34 (1,759 chars)
+- IBNABIHATIM:v1p28 (778 chars)
+- IBNASHUR:1:3 (9,353 chars)
+- IBNASHUR-FULL:v1p150 (1,781 chars)
+- IBNASHUR-FULL:v1p132#2 (2,194 chars)
+- IBNASHUR-FULL:v1p133 (1,730 chars)
+- IBNASHUR-FULL:v1p141 (1,702 chars)
+- IBNASHUR-FULL:v1p169 (2,081 chars)
+- IBNASHUR-FULL:v1p170 (1,789 chars)
+- IBNASHUR-FULL:v1p171 (2,288 chars)
+- IBNASHUR-FULL:v1p172 (1,883 chars)
+- IBNASHUR-FULL:v1p173 (1,102 chars)
+- IBNATIYYA:1:3 (95 chars)
+- IBNATIYYA-FULL:v1p63 (1,647 chars)
+- IBNATIYYA-FULL:v1p63#2 (1,852 chars)
+- IBNATIYYA-FULL:v1p60 (199 chars)
+- IBNATIYYA-FULL:v1p61#2 (1,570 chars)
+- IBNATIYYA-FULL:v1p62 (2,156 chars)
+- IBNATIYYA-FULL:v1p65 (1,768 chars)
+- IBNATIYYA-FULL:v1p71 (1,558 chars)
+- IBNATIYYA-FULL:v1p71#2 (813 chars)
+- IBNATIYYA-FULL:v1p72 (1,586 chars)
+- IBNATIYYA-FULL:v1p73 (1,612 chars)
+- IBNATIYYA-FULL:v1p73#2 (1,562 chars)
+- IBNATIYYA-FULL:v1p74 (1,722 chars)
+- IBNATIYYA-FULL:v1p76 (1,518 chars)
+- IBNATIYYA-FULL:v1p77 (1,497 chars)
+- IBNATIYYA-FULL:v1p78#2 (266 chars)
+- IBNATIYYA-FULL:v1p66#2 (1,772 chars)
+- IBNJAWZI-ZAD:v1p12#2 (153 chars)
+- IBNKATHIR:1:3 (104 chars)
+- JISHUMI:v1p203 (1,506 chars)
+- JISHUMI:v1p205 (1,735 chars)
+- KASHSHAF:1:3 (29 chars)
+- MAWARDI:1:3 (29 chars)
+- MAWARDI-FULL:v1p53 (1,580 chars)
+- MAWARDI-FULL:v1p54 (503 chars)
+- MUQATIL:1:1-4 (516 chars)
+- NASAFI:1:3 (154 chars)
+- NASAFI-FULL:v1p7 (122 chars)
+- QURTUBI:1:3 (797 chars)
+- QURTUBI-FULL:1:1-7 (1,517 chars)
+- QURTUBI-FULL:1:1-7#2 (1,869 chars)
+- QURTUBI-FULL:1:1-7#3 (1,564 chars)
+- QURTUBI-FULL:1:1-7#4 (70 chars)
+- QURTUBI-FULL:1:3 (1,903 chars)
+- QUTB-ZILAL:1:3 (702 chars)
+- RAZI:1:3 (1,165 chars)
+- RAZI-FULL:v1p144 (3,748 chars)
+- RAZI-FULL:v1p151 (2,117 chars)
+- RAZI-FULL:v1p118 (1,739 chars)
+- RAZI-FULL:v1p189#2 (3,534 chars)
+- RAZI-FULL:v1p190 (2,218 chars)
+- RAZI-FULL:v1p191 (874 chars)
+- RAZI-FULL:v1p149 (2,024 chars)
+- TAB:1:3 (2,562 chars)
+- TABATABAI:1:1-5 (675 chars)
+- TABATABAI:1:1-5#2 (1,751 chars)
+- TABATABAI:1:1-5#3 (1,537 chars)
+- TABATABAI:1:1-5#4 (1,734 chars)
+- TABATABAI:1:1-5#5 (1,502 chars)
+- TABATABAI:1:1-5#6 (2,148 chars)
+- TABRISI:1:3 (211 chars)
+- THALABI:v1p109 (1,545 chars)
+- THALABI:v1p110 (1,500 chars)
+- THALABI:v1p111 (1,458 chars)
+- WAHIDI-BASIT:v1p455 (1,834 chars)
+- WAHIDI-QT:1:3 (29 chars)
+- WAHIDI-WAJIZ:1:1-4 (541 chars)
+
+## tafsir_tr
+
+- ELMALILI:1:3 (3,525 chars)
+- ELMALILI:1:3#2 (5,632 chars)
+- ELMALILI:1:3#3 (5,123 chars)
+- KURANYOLU-TEFSIR:1:3 (87 chars)
+
+## translation
+
+- ARBERRY:1:3 (40 chars)
+- ASAD-EN:1:3 (42 chars)
+
+## ulum
+
+- WAHIDI-ASBAB:v1p19 (2,104 chars)
+
+## Memory-only pointers (no local text; anything cited from them is model memory)
+
+ABDUH-AMMA, ACADEMIC, AMBROS-CONCISE, ASAD-NOTES, BADAWI-HALEEM, BINTSHATI, CUYPERS-COMPOSITION, EQ, FARAHI-NIZAM, FARRIN-STRUCTURE, IBNKHALAWAYH-MUKHTASAR, ISLAHI-TADABBUR, JEFFERY-FOREIGN, KHULI, MEAL-ATAY, MEAL-HAMIDULLAH, MEAL-MOZTURK, MUQATIL-WUJUH, NEUWIRTH-KORAN1, NOLDEKE-GDQ, SINAI-KEYTERMS, STUDYQURAN, TARAMA, ZAMMIT-COMPARATIVE
+
+
+===== PACK/errata_candidates.json (this page's entries) =====
+
+[]
+
+
+===== PACK/roots/root_000552.md (ر ح م) =====
+
+# ر ح م (root_000552)
+
+## Project dictionary (authoritative)
+
+- **B001** acıma duygusuyla esirgeyip iyilik etme — ona acıyıp onu esirgemek · acıma duygusu ve bu duygunun yönelttiği iyilik · özellikle güçsüze acıyıp onu esirgeme · acıma, iyilik ve gözetme · birbirine acıyıp birbirini esirgemek · onun Tanrı'nın esirgemesine erişmesini dilemek · esirgemesi her şeyi kuşatan Tanrı adı · çok esirgeyen ve bol bol iyilik eden · acınıp esirgenen kimse · acıma ve esirgeme görmüş kimse · acıyan ve esirgeyenlerin en üstünü · ana babasına daha iyi davranan ve daha yakınlık gösteren · acıma ve esirgeme ya da başkasının acımasına konu olma durumu
+  أصل واحد يدل على الرقة والعطف والرأفة (maqayis)؛ المرحمة الرحمة ورحمته أرحمه رحمة ومرحمة وترحمت عليه (ayn)؛ رحمته رحمة ورحما ومرحمة والرحمن الرحيم مشتقان من الرحمة (jamhara)؛ الرحمة الرقة والتعطف والمرحمة مثله وتراحم القوم (sihah)؛ ذو الرحمة والرحيم العاطف ورحمة الضعيف والتعطف عليه (tahdhib)؛ الرحمة رقة تقتضي الإحسان إلى المرحوم والرحمن والرحيم (mufradat)
+- **B002** yakın soy bağı — yakın soy bağı · soy ve yakınlık bağları · soy bağını sürdürmek ya da koparmak
+  الرَّحِم علاقة القرابة (maqayis)؛ بينهما رَحِم أي قرابة قريبة والرحم القرابة تجمع بني أب (ayn)؛ صارت أسباب القرابة أرحاما (jamhara)؛ الرحم أيضا القرابة والرحم بالكسر مثله ووصال رحم (sihah)؛ الرحم القرابة تجمع بني أب وبينهما رحم أي قرابة قريبة (tahdhib)؛ استعير الرحم للقرابة لكونهم خارجين من رحم واحدة (mufradat)
+- **B003** döl yatağı — dişinin döl yatağı · döl yatakları
+  سميت رحم الأنثى رحما (maqayis)؛ الرحم بيت منبت الولد ووعاؤه في البطن (ayn)؛ الرحم رحم المرأة (jamhara)؛ الرحم رحم الأنثى وهي مؤنثة (sihah)؛ الرحم بيت منبت الولد ووعاؤه في البطن (tahdhib)؛ الرحم رحم المرأة (mufradat)
+- **B004** döl yatağı hastalığı ve doğum sonrası bozukluk — doğumdan sonra döl yatağı ağrıyan ya da döl yatağı hastalanan dişi · döl yatağı ağrımak ya da hastalanmak · koyunun doğumdan sonra yavru zarını atamaması · döl yatağı şişmiş koyun ya da koyun sürüsü
+  شاة رحوم إذا اشتكت رحمها بعد النتاج (maqayis)؛ ناقة رحوم أصابها داء في رحمها وقد رحمت المرأة إذا اشتكت رحمها (ayn)؛ ناقة رحوم إذا اشتكت رحمها في عقب الولادة وامرأة رحوم (jamhara)؛ الرحوم الناقة التي تشتكي رحمها بعد النتاج (sihah)؛ ناقة رحوم أصابها داء في رحمها والرحام أن تلد الشاة ثم لا تلقي سلاها وشاة راحم وغنم رواحم إذا ورم رحمها (tahdhib)؛ امرأة رحوم تشتكي رحمها (mufradat)
+
+## The six classical lexica, as routed to this root (full entries)
+
+### AYN:رحم [رحم] route=exact
+
+# رحم # الرحمن الرحيم اسمان مشتقان من الرحمة ورحمة الله وسعت كل شيء ( وهو أرحم ~~الراحمين ) ويقال ما أقرب رحم فلان إذا كان إذا مرحمة وبر وقوله جل وعز ~~@QB@ وأقرب رحما @QE@ أي أبر بالوالدين من القتيل الذي قتله الخضر - عليه ~~السلام - وكان الأبوان مسلمين والابن كان كافرا فولد لهما بعد بنت فولد ~~نبيا وأنشد # ( أحنى وأرحم من أم بواحدها ms0346 % رحما وأشجع من ذي لبدة ضاري ) # والمرحمة الرحمة تقول رحمته أرحمه رحمة ومرحمة وترحمت عليه أي قلت رحمة ~~الله عليه وقال الله - جل وعز - @QB@ وتواصوا بالصبر وتواصوا بالمرحمة @QE@ ~~أي أوصى بعضهم بعضا برحمة الضعيف والتعطف عليه # والرحم بيت منبت الولد ووعاؤه في البطن وبينهما رحم أي قرابة قريبة قال ~~الأعشى # ( نجفى وتقطع منا الرحم % ) # وجمعه الأرحام وأما الرحم الذي جاء في الحديث الرحم معلقة بالعرش تقول ~~اللهم صل من وصلني واقطع من قطعني فالرحم القرابة تجمع بني أب PageV03P224 ~~وناقة رحوم أصابها داء في رحمها فلا تلقح تقول قد رحمت رحما وكذلك المرأة ~~رحمت ورحمت إذا اشتكت رحمها
+
+### JAMHARA:رحم [رحم] route=exact
+
+# [ رحم ] والرحم : رحم المرأة ms0475 ثم صارت أسباب القرابة أرحاما . وكذا فسر في ~~التنزيل : ^ ( واتقوا الله الذي تساءلون به والأرحام % % بالنصب ومن قرأ ~~عند البصريين بالجر فقد لحن . # وتقول : جزاك الله والرحم خيرا الرفع والنصب جائز وجزاك الله والقطيعة ~~شرا النصب لا غير . # والرحم والرحم واحد . وتقول : رحمته رحمة ورحما ومرحمة أيضا . والله عز ~~وجل الرحمن الرحيم . قال أبو عبيدة : هما اسمان مشتقان من الرحمة مثل ندمان ~~ونديم . قال أبو بكر : خبرني عمي الحسين بن دريد عن أبيه عن ابن الكلبي عن ~~أبيه قال : الرحمن اسم لله تبارك وتعالى لا يدعى به غيره والرحيم صفة لأن ~~العرب تقول : كن بي رحيما ولم | PageV01P523 | تقل : كن بي رحمانا . وقد دل ~~القرآن على ذلك بقوله عز وجل : @QB@ قل ادعوا الله أو ادعوا الرحمن أيا ما ~~تدعوا فله الأسماء الحسنى @QE@ فالله اسم ليس لأحد فيه شركة وكذلك الرحمن ~~وليس لأحد أن يسمى الرحمن إلا الله . # وقد سمت العرب مرحوما ورحيما . # ويقال : ناقة رحوم إذا اشتكت رحمها في عقب الولادة وقد رحمت ترحم رحما ~~وامرأة رحوم أيضا .
+
+### TAHDHIB:رحم [رحم] route=exact
+
+# رحم : قال الليث : الرحمان الرحيم اسمان اشتقاقهما من الرحمة ، قال ورحمة ~~الله وسعت كل شيء ، وهو أرحم الراحمين . وقال الزجاج : الرحمان الرحيم ~~صفتان معناهما فيما ذكر أبو عبيدة ذو الرحمة ، قال : ولا يجوز أن يقال رحمن ~~إلا لله جل وعز . قال وفعلان من أبنية ما يبالغ في وصفه ، قال : فالرحمان ~~الذي وسعت رحمته كل شيء ، فلا يجوز أن يقال رحمن لغير الله . وقال أبو ~~عبيدة : هما مثل ندمان ونديم . # وقال الليث : يقال ما أقرب رحم فلان إذا كان ذا مرحمة وبر . قال : وقول ~~الله جل وعز : { وأقرب رحما } ( الكهف : 81 ) يقول أبر بالوالدين من القتيل ~~الذي قتله الخضر ، وكان الأبوان مسلمين والابن كان كافرا فولد لهما بعد بنت ~~فولدت نبيا . وأنشد الليث : # أحنى وأرحم من أم بواحدها # رحما وأشجع من ذي لبدة ضاري # وقال أبو إسحاق في قوله { وأقرب رحما } أي أقرب عطفا ms1259 وأءمس بالقرابة . ~~قال والرحم والرحم في اللغة العطف والرحمة وأنشد : # وكيف بظلم جارية # ومنها اللين والرحم # وقال أبو بكر المنذري : سمعت أبا العباس يقول في قوله الرحمن الرحيم جمع ~~بينهما لأن الرحمن عبراني والرحيم عربي وأنشد لجرير : # لن تدركوا المجد أو تشروا عباءكم # بالخز أو تجعلوا الينبوب ضمرانا # أو تتركون إلى القسين هجرتكم # ومسحكم صلبهم رحمن قربانا PageV05P033 # وقال ابن عباس : هما اسمان رقيقان أحدهما أرق من الآخر ، فالرحمان الرقيق ~~، والرحيم العاطف على خلقه بالرزق ، وقرأ أبو عمرو بن العلاء ( وأقرب رحما ~~) بالتثقيل واحتج بقول زهير يمدح هرم بن سنان : # ومن ضريبته التقوى ويعصمه # من سيىء العثرات الله والرحم # وقال الليث : المرحمة الرحمة ، تقول رحمته أرحمه رحمة ومرحمة ، وترحمت ~~عليه ، أي قلت : رحمة الله عليه ، وقال الله جل وعز : { ءامنوا وتواصوا ~~بالصبر وتواصوا } ( البلد : 17 ) أي أوصى بعضهم بعضا برحمة الضعيف والتعطف ~~عليه . # والرحم بيت منبت الولد ووعاؤه في البطن ، وجمعه الأرحام . وأما الرحم ~~الذي جاء في الحديث ( الرحم معلقة بالعرش ، تقول : اللهم صل من وصلني واقطع ~~من قطعني ) فالرحم القرابة تجمع بني أب وبينهما رحم
+أي قرابة قريبة . وناقة ~~رحوم أصابها داء في رحمها فلا تقبل اللقاح ، تقول : قد رحمت . وقال غيره : ~~الرحام أن تلد الشاة ثم لا تلقي سلاها . وشاة راحم وغنم رواحم إذا ورم ~~رحمها . وقد رحمت المرأة ورحمت إذا اشتكت رحمها . # ثعلب عن ابن الأعرابي قال الرحم خروج الرحم من علة ، والرحم مؤنثة لاغير ~~وسمى الله الغيث رحمة لأنه برحمته ينزل من السماء . وتاء قوله { ( الأعراف ~~: 56 ) أصلها هاء وإن كتبت تاء .
+
+### SIHAH:رحم [رحم] route=exact
+
+### | [رحم] # الرحمة: الرقة والتعطف. والمرحمة مثله. وقد رحمته وترحمت عليه. وتراحم ~~القوم: رحم بعضهم بعضا. والرحموت من الرحمة، يقال: " رهبوت خير من رحموت "، ~~أي لأن ترهب خيرمن أن ترحم. ورجل مرحوم ومرحم، شدد للمبالغة. والرحم: رحم ~~الأنثى، وهي مؤنثة. والرحم أيضا: القرابة. والرحم بالكسر مثله. قال الأعشى: ~~أما لطالب نعمة يممتها ووصال رحم قد بردت بلالها والرحمن والرحيم: اسمان ~~مشتقان من الرحمة ونظيرهما في اللغة نديم وندمان، وهما بمعنى. ويجوز تكرير ~~الاسمين إذا اختلف اشتقاقهما على جهة التوكيد، كما يقال: فلان جاد مجد. إلا ~~أن الرحمن اسم مختص لله تعالى لا يجوز أن يسمى به غيره. ألا ترى أنه تبارك ~~وتعالى قال: (قل ادعوا الله أو ادعوا الرحمن) ، فعادل به الاسم الذى لا ~~يشركه فيه غيره. # PageV05P1929 # وكان مسيلمة الكذاب يقال له " رحمن اليمامة ". والرحيم قد يكون بمعنى ~~المرحوم، كما يكون بمعنى الراحم. قال عملس بن عقيل: فأما إذا عضت بك الحرب ~~عضة فإنك معطوف عليك رحيم والرحم بالضمة: الرحمة. قال تعالى: (وأقرب رحما) ~~. وقد حركه زهير فقال: ومن ضريبته التقوى ويعصمه من سيئ العثرات الله ~~والرحم وهو مثل عسر وعسر. وأم رحم أيضا: اسم من أسماء مكة. والرحوم: الناقة ms1323 ~~التي تشتكي رحمها بعد النتاج. وقد رحمت بالضم رحامة، ورحمت بالكسر رحما.
+
+### MAQAYIS:رحم [رحم] route=exact
+
+(رحم) الراء والحاء والميم أصل واحد يدل على الرقة والعطف والرأفة. يقال من ذلك رحمه يرحمه، إذا رق له وتعطف عليه. والرحم والمرحمة والرحمة بمعنى. والرحم: علاقة القرابة، ثم سميت رحم الأنثى رحما من هذا، لأن منها ما يكون ما يرحم ويرق له من ولد. ويقال شاة رحوم، إذا اشتكت رحمها بعد النتاج؛ وقد رحمت رحامة، ورحمت رحما. وقال الأصمعي: كان أبو عمرو بن العلاء ينشد بيت زهير:|ومن ضريبته التقوى ويعصمه ... من سيئ العثرات الله والرحم|قال: ولم أسمع هذا الحرف إلا في هذا البيت. وكان يقرأ: {وأقرب رحما} [الكهف: 81] ، وكأن أبا عمرو ذهب إلى أن الرحم الرحمة. ويقال إن مكة كانت تسمى أم رحم.
+
+### MUFRADAT:رحم [رحم] route=exact
+
+### | رحم # الرحم: رحم المرأة، وامرأة رحوم تشتكي رحمها. ومنه استعير الرحم للقرابة، ~~لكونهم خارجين من رحم واحدة، يقال: رحم ورحم. # قال تعالى: وأقرب رحما [الكهف/ 81] ، والرحمة رقة تقتضي الإحسان إلى ~~المرحوم، وقد تستعمل تارة في الرقة المجردة، وتارة في الإحسان المجرد عن ~~الرقة، نحو: رحم الله فلانا. وإذا وصف به الباري فليس يراد به إلا الإحسان ~~المجرد دون الرقة، وعلى هذا روي أن الرحمة من الله إنعام وإفضال، ومن ~~الآدميين رقة وتعطف. وعلى هذا قول النبي صلى الله عليه وسلم ذاكرا عن ربه ~~«أنه لما خلق الرحم قال له: أنا الرحمن، وأنت الرحم، شققت اسمك من اسمي، ~~فمن وصلك وصلته، ومن قطعك بتته» «1» فذلك إشارة إلى ما تقدم، وهو أن الرحمة ~~منطوية على معنيين: الرقة والإحسان، فركز تعالى في طبائع الناس الرقة، ~~وتفرد بالإحسان، فصار كما أن لفظ الرحم من الرحمة، فمعناه الموجود في الناس ~~من المعنى الموجود لله تعالى، فتناسب ms249 معناهما تناسب لفظيهما. والرحمن ~~والرحيم، نحو: ندمان ونديم، ولا يطلق الرحمن إلا على الله تعالى من حيث إن ~~معناه لا يصح إلا له، إذ هو الذي وسع كل شيء رحمة، والرحيم يستعمل في غيره ~~وهو الذي كثرت رحمته، قال تعالى: إن الله غفور رحيم [البقرة/ 182] ، وقال ~~في صفة النبي صلى الله عليه وسلم: لقد جاءكم رسول من أنفسكم عزيز عليه ما ~~عنتم حريص عليكم بالمؤمنين رؤف رحيم [التوبة/ 128] ، وقيل: إن الله تعالى: ~~هو رحمن الدنيا، ورحيم الآخرة، وذلك أن إحسانه في الدنيا يعم المؤمنين ~~والكافرين، وفي الآخرة يختص بالمؤمنين، وعلى هذا قال: PageV01P347 # ورحمتي وسعت كل شيء فسأكتبها للذين يتقون [الأعراف/ 156] ، تنبيها أنها ~~في الدنيا عامة للمؤمنين والكافرين، وفي الآخرة مختصة بالمؤمنين.
+
+## Further lexica (read with corpus.py get)
+
+- LISAN: LISAN:رحم
+- LANE: LANE:رحم, LANE:رحم#2, LANE:رحم#3, LANE:رحم#4, LANE:رحم#5, LANE:رحم#6, LANE:رحم#7, LANE:رحم#8, LANE:رحم#9, LANE:رحم#10, LANE:رحم#11, LANE:رحم#12, LANE:رحم#13, LANE:رحم#14, LANE:رحم#15, LANE:رحم#16, LANE:رحم#17, LANE:رحم#18, LANE:رحم#19, LANE:رحم#20, LANE:رحم#21, LANE:رحم#22, LANE:رحم#23, LANE:رحم#24, LANE:رحم#25, LANE:رحم#26, LANE:رحم#27
+- ASAS: ASAS:رحم#1178
+- QAMUS: —
+- TAJ: TAJ:رحم, TAJ:رحم#2, TAJ:رحم#3, TAJ:رحم#4, TAJ:رحم#5, TAJ:رحم#6
+
+
+===== CORPUS, kind tafsir: every segment tied to 1:3 (125) =====
+
+== ABUHAYYAN:1:3
+{ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ} (3)
+{ الرحمن الرحيم } تقدم الكلام عليهما في البسملة ،   وهما مع قوله { رب العالمين } صفات مدح ،   لأن ما قبلهما علم لم يعرض في التسمية به اشتراك فيخصص ،   وبدأ أولاً بالوصف بالربوبية ،   فإن كان الرب بمعنى السيد ،   أو بمعنى المالك ،   أو بمعنى المعبود ،   كان صفة فعل للموصوف بها التصريف في المسود والمملوك والعابد بما أراد من الخير والشر ،   فناسب ذلك الوصف بالرحمانية والرحيمية ،   لينبسط أمل العبد في العفو إن زل ،   ويقوى رجاؤه إن هفا ،   ولا يصح أن يكون الرب بمعى الثابت ،   ولا بمعنى الصاحب ،   لامتناع إضافته إلى العالمين ،   وإن كان بمعنى المصلح ،   كان الوصف بالرحمة مشعراً بقلة الإصلاح ،   لأن الحامل للشخص على إصلاح حال الشخص رحمته له .
+ومضمون الجملة والوصف إن من كان موصوفاً بالربوبية والرحمة للمربوبين كان مستحقاً للحمد .
+وخفض الرحمن الرحيم الجمهور ،   ونصبهما أبو العالية وابن السميفع وعيسى بن عمرو ،   ورفعهما أبو رزين العقيلي والربيع بن خيثم وأبو عمران الجوني ،   فالخفض على النعت ،   وقيل في الخفض إنه بدل أو عطف بيان ،   وتقدم شيء من هذا .
+والنصب والرفع للقطع .
+وفي تكرار الرحمن الرحيم أن كانت التسمية آية من الفاتحة تنبيه على عظم قدر هاتين الصفتين وتأكيد أمرهما ،   وجعل مكي تكرارها دليلاً على أن التسمية ليست بآية من الفاتحة ،   قال : إذ لو كانت آية لكنا قد أتينا بآيتين متجاورتين بمعنى واحد ،   وهذا لا يوجد إلا بفواصل تفصل بين الأولى والثانية .
+قال : والفصل بينهما بالحمد لله رب العالمين كلا فصل ،   قال : لأنه مؤخر يراد به التقديم تقديره الحمد لله ،   الرحمن الرحيم ،   رب العالمين ،   وإنما قلنا بالتقديم لأن مجاورة الرحمة بالحمد أولى ،   ومجاورة الملك بالملك أولى .
+قال : والتقديم والتأخير كثير في القرآن ،   وكلام مكي مدخول من غير وجه ،   ولولا جلالة قائلة نزهت كتابي هذا عن ذكره .
+والترتيب القرآني جاء في غاية الفصاحة لأنه تعالى وصف نفسه بصفة الربوبية وصفة الرحمة ،   ثم ذكر شيئين ،   أحدهما ملكه يوم الجزاء ،   والثاني العبادة .
+فناسب الربوبية للملك ،   والرحمة العبادة .
+فكان الأول للأول ،   والثاني للثاني .
+وقد ذكر المفسرون في علم التفسير الوقف ،   وقد اختلف في أقسامه ،   فقيل تام وكاف وقبيح وغير ذلك .
+وقد صنف الناس في ذلك كتباً مرتبة على السور ،   ككتاب أبي عمرو الداني ،   وكتاب الكرماني وغيرهما ،   ومن كان عنده حظ في علم العربية استغنى عن ذلك .
+
+== ABUHAYYAN-FULL:v1p27  [سورة الفاتحة 1 › [سورة الفاتحة (1) : الآيات 1 الى 7]]  page=v1p27
+بسم الله الرحمن الرحيم (1)
+الحمد لله رب العالمين (2) الرحمن الرحيم (3) مالك يوم الدين (4) إياك نعبد وإياك نستعين (5)
+اهدنا الصراط المستقيم (6) صراط الذين أنعمت عليهم غير المغضوب عليهم ولا الضالين (7)
+() بسم الله الرحمن الرحيم باء الجر تأتي لمعان: للإلصاق، والاستعانة، والقسم، والسبب، والحال، والظرفية، والنقل. فالإلصاق: حقيقة مسحت برأسي، ومجازا مررت بزيد. والاستعانة: ذبحت بالسكين. والسبب: فبظلم من الذين هادوا حرمنا .
+والقسم: بالله لقد قام. والحال: جاء زيد بثيابه. والظرفية: زيد بالبصرة. والنقل: قمت بزيد. وتأتي زائدة للتوكيد: شربن بماء البحر. والبدل: فليت لي بهم قوما أي بدلهم.
+والمقابلة: اشتريت الفرس بألف. والمجاوزة: تشقق السماء بالغمام أي عن الغمام.
+والاستعلاء: من إن تأمنه بقنطار. وكنى بعضهم عن الحال بالمصاحبة، وزاد فيها كونها للتعليل. وكنى عن الاستعانة بالسبب، وعن الحال، بمعنى مع، بموافقة معنى اللام.
+ويقال اسم بكسر همزة الوصل وضمها، وسم بكسر السين وضمها، وسمى كهدى، والبصري يقول: مادته سين وميم وواو، والكوفي يقول: واو وسين وميم، والأرجح الأول.
+والاستدلال في كتب النحو: أل للعهد في شخص أو جنس، وللحضور، وللمح الصفة، وللغلبة، وموصولة. فللعهد في شخص: جاء الغلام، وفي جنس: اسقني الماء، وللحضور: خرجت فإذا الأسد، وللمح: الحارث، وللغلبة: الدبران. وزائدة لازمة، وغير لازمة، فاللازمة: كالآن، وغير اللازمة: باعد أم العمر من أسيرها، وهل هي مركبة من حرفين أم هي حرف واحد؟ وإذا كانت من حرفين، فهل الهمزة زائدة أم لا؟ مذاهب. والله علم لا يطلق إلا على المعبود بحق مرتحل غير مشتق عند الأكثرين، وقيل مشتق، ومادته
+
+== ABUHAYYAN-FULL:v1p28  [سورة الفاتحة 1 › [سورة الفاتحة (1) : الآيات 1 الى 7]]  page=v1p28
+قيل: لام وياء وهاء، من لاه يليه، ارتفع. قيل: ولذلك سميت الشمس إلاهة، بكسر الهمزة وفتحها، وقيل: لام وواو وهاء من لاه يلوه لوها، احتجب أو استتار، ووزنه إذ ذاك فعل أو فعل، وقيل: الألف زائدة ومادته همزة ولام، من أله أي فزع، قاله ابن إسحاق، أو أله تحير، قاله أبو عمر، وأله عبد، قاله النضر، أو أله سكن، قاله المبرد. وعلى هذه الأقاويل فحذفت الهمزة اعتباطا، كما قيل في ناس أصله أناس، أو حذفت للنقل ولزم مع الإدغام، وكلا القولين شاذ. وقيل: مادته واو ولام وهاء، من وله، أي طرب، وأبدلت الهمزة فيه من الواو نحو أشاح، قاله الخليل والقناد، وهو ضعيف للزوم البدل. وقولهم في الجمع آلهة، وتكون فعالا بمعنى مفعول، كالكتاب يراد به المكتوب. وأل في الله إذا قلنا أصله الإلاه، قالوا للغلبة، إذ الإله ينطلق على المعبود بحق وباطل، والله لا ينطلق إلا على المعبود بالحق، فصار كالنجم للثريا. وأورد عليه بأنه ليس كالنجم، لأنه بعد الحذف والنقل أو الإدغام لم يطلق على كل إله، ثم غلب على المعبود بحق، ووزنه على أن أصله فعال، فحذفت همزته عال. وإذا قلنا بالأقاويل السابقة، فأل فيه زائدة لازمة، وشذ حذفها في قولهم لاه أبوك شذوذ حذف الألف في أقبل سيل. أقبل جاء من عند الله. وزعم بعضهم أن أل في الله من نفس الكلمة، ووصلت الهمزة لكثرة الاستعمال، وهو اختيار أبي بكر بن العربي والسهيلي، وهو خطأ، لأن وزنه إذ ذاك يكون فعالا، وامتناع تنوينه لا موجب له، فدل على أن أل حرف داخل على الكلمة سقط لأجلها التنوين. وينفرد هذا الاسم بأحكام ذكرت في علم النحو، ومن غريب ما قيل: إن أصله لاها بالسريانية فعرب، قال:
+كحلفة من أبي رياح ... يسمعها لاهه الكبار
+قال أبو يزيد البلخي: هو أعجمي، فإن اليهود والنصارى يقولون لاها، وأخذت العرب هذه اللفظة وغيروها فقالوا الله. ومن غريب ما قيل في الله أنه صفة وليس اسم ذات، لأن اسم الذات يعرف به المسمى، والله تعالى لا يدرك حسا ولا بديهة، ولا تعرف ذاته باسمه، بل إنما يعرف بصفاته، فجعله اسما للذات لا فائدة في ذلك. وكان العلم قائما مقام الإشارة، وهي ممتنعة في حق الله تعالى، وحذفت الألف الأخيرة من الله لئلا يشكل بخط اللاه اسم الفاعل من لها يلهو، وقيل طرحت تخفيفا، وقيل هي لغة فاستعملت في الخط.
+
+== ABUHAYYAN-FULL:v1p28#2  [سورة الفاتحة 1 › [سورة الفاتحة (1) : الآيات 1 الى 7]]  page=v1p28
+الرحمن: فعلان من الرحمة، وأصل بنائه من اللازم من المبالغة وشذ من
+المتعدي، وأل فيه للغلبة، كهي في الصعق، فهو وصف لم يستعمل في غير الله، كما لم يستعمل اسمه في غيره، وسمعنا مناقبه، قالوا: رحمن الدنيا والآخرة، ووصف غير الله به من تعنت الملحدين، وإذا قلت الله رحمن، ففي صرفه قولان ليسند أحدهما إلى أصل عام، وهو أن أصل الاسم الصرف، والآخر إلى أصل خاص، وهو أن أصل فعلان المنع لغلبته فيه. ومن غريب ما قيل فيه إنه أعجمي بالخاء المعجمة فعرب بالحاء، قاله ثعلب.
+الرحيم: فعيل محول من فاعل للمبالغة، وهو أحد الأمثلة الخمسة، وهي:
+فعال، وفعول، ومفعال، وفعيل، وفعل، وزاد بعضهم فعيلا فيها: نحو سكير، ولها باب معقود في النحو، قيل: وجاء رحيم بمعنى مرحوم، قال العملس بن عقيل:
+فأما إذا عضت بك الأرض عضة ... فإنك معطوف عليك رحيم
+قال علي، وابن عباس، وعلي بن الحسين، وقتادة، وأبو العالية، وعطاء، وابن جبير، ومحمد بن يحيى بن حبان، وجعفر الصادق، الفاتحة مكية
+، ويؤيده ولقد آتيناك سبعا من المثاني والقرآن العظيم . والحجر مكية، بإجماع. وفي حديث أبي: إنها السبع المثاني والسبع الطوال، أنزلت بعد الحجر بمدد، ولا خلاف أن فرض الصلاة كان بمكة، وما حفظ أنه كانت في الإسلام صلاة بغير الحمد لله رب العالمين. وقال أبو هريرة، وعطاء بن يسار، ومجاهد، وسواد بن زياد، والزهري، وعبد الله بن عبيد بن عمير:
+هي مدنية، وقيل إنها مكية مدنية.
+الباء في بسم الله للاستعانة، نحو كتبت بالقلم، وموضعها نصب، أي بدأت، وهو قول الكوفيين، وكذا كل فاعل بدىء في فعله بالتسمية كان مضمرا لا بدأ، وقدره الزمخشري فعلا غير بدأت وجعله متأخرا، قال: تقديره بسم الله أقرأ أو أتلو، إذ الذي يجيء بعد التسمية مقروء، والتقديم على العامل عنده يوجب الاختصاص، وليس كما زعم. قال سيبويه، وقد تكلم على ضربت زيدا ما نصه: وإذا قدمت الاسم فهو عربي جيد كما كان ذلك، يعني تأخيره عربيا جيدا وذلك قولك زيدا ضربت. والاهتمام والعناية هنا في التقديم والتأخير، سواء مثله في ضرب زيد عمر، أو ضرب زيدا عمر، وانتهى، وقيل موضع اسم رفع التقدير ابتدائي بأبت، أو مستقر باسم الله، وهو قول البصريين، وأي التقديرين أرجح يرجح الأول، لأن الأصل في العمل للفعل، أو الثاني لبقاء أحد جزأي الإسناد.
+
+== ABUHAYYAN-FULL:v1p30  [سورة الفاتحة 1 › [سورة الفاتحة (1) : الآيات 1 الى 7]]  page=v1p30
+والاسم هو اللفظ الدال بالوضع على موجود في العيان، إن كان محسوسا، وفي الأذهان، إن كان معقولا من غير تعرض ببنيته للزمان، ومدلوله هو المسمى، ولذلك قال سيبويه: (فالكل اسم وفعل وحرف) ، والتسمية جعل ذلك اللفظ دليلا على ذلك المعنى، فقد اتضحت المباينة بين الاسم والمسمى والتسمية. فإذا أسندت حكما إلى اسم، فتارة يكون إسناده إليه حقيقة، نحو: زيد اسم ابنك، وتارة لا يصح الإسناد إليه إلا مجازا، وهو أن تطلق الاسم وتريد به مدلوله وهو المسمى، نحو قوله تعالى: تبارك اسم ربك ، وسبح اسم ربك ، وما تعبدون من دونه إلا أسماء سميتموها أنتم وآباؤكم .
+والعجب من اختلاف الناس، هل الاسم هو عين المسمى أو غيره، وقد صنف في ذلك الغزالي، وابن السيد، والسهيلي وغيرهم، وذكروا احتجاج كل من القولين، وأطالوا في ذلك. وقد تأول السهيلي، رحمه الله، قوله تعالى: سبح اسم ربك بأنه أقحم الاسم تنبيها على أن المعنى سبح ربك، واذكر ربك بقلبك ولسانك حتى لا يخلو الذكر والتسبيح من اللفظ باللسان، لأن الذكر بالقلب متعلقه المسمى المدلول عليه بالاسم، والذكر باللسان متعلقه اللفظ. وقوله تعالى: ما تعبدون من دونه إلا أسماء بأنها أسماء كاذبة غير واقعة على حقيقة، فكأنهم لم يعبدوا إلا الأسماء التي اخترعوها، وهذا من المجاز البديع.
+وحذفت الألف من بسم هنا في الخط تخفيفا لكثرة الاستعمال، فلو كتبت باسم القاهر أو باسم القادر. فقال الكسائي والأخفش: تحذف الألف. وقال الفراء: لا تحذف إلا مع بسم الله الرحمن الرحيم، لأن الاستعمال إنما كثر فيه، فأما في غيره من أسماء الله تعالى فلا خلاف في ثبوت الألف.
+والرحمن صفة الله عند الجماعة. وذهب الأعلم وغيره إلى أنه بدل، وزعم أن الرحمن علم، وإن كان مشتقا من الرحمة، لكنه ليس بمنزلة الرحيم ولا الراحم، بل هو مثل الدبران، وإن كان مشتقا من دبر صيغ للعلمية، فجاء على بناء لا يكون في النعوت، قال: ويدل على علميته ووروده غير تابع لاسم قبله، قال تعالى: الرحمن على العرش استوى الرحمن علم القرآن وإذا ثبتت العلمية امتنع النعت، فتعين البدل. قال أبو زيد السهيلي: البدل فيه عندي ممتنع، وكذلك عطف البيان، لأن الاسم الأول لا يفتقر
+
+== ABUHAYYAN-FULL:v1p31  [سورة الفاتحة 1 › [سورة الفاتحة (1) : الآيات 1 الى 7]]  page=v1p31
+إلى تبيين، لأنه أعرف الأعلام كلها وأبينها، ألا تراهم قالوا: وما الرحمن، ولم يقولوا: وما الله، فهو وصف يراد به الثناء، وإن كان يجري مجرى الأعلام.
+الرحمن الرحيم قيل دلالتهما واحد نحو ندمان ونديم، وقيل معناهما مختلف، فالرحمن أكثر مبالغة، وكان القياس الترقي، كما تقول: عالم نحرير، وشجاع باسل، لكن أردف الرحمن الذي يتناول جلائل النعم وأصولها بالرحيم ليكون كالتتمة والرديف ليتناول ما دق منها ولطف، واختاره الزمخشري. وقيل الرحيم أكثر مبالغة، والذي يظهر أن جهة المبالغة مختلفة، فلذلك جمع بينهما، فلا يكون من باب التوكيد. فمبالغة فعلان مثل غضبان وسكران من حيث الامتلاء والغلبة، ومبالغة فعيل من حيث التكرار والوقوع بمحال الرحمة، ولذلك لا يتعدى فعلان، ويتعدى فعيل. تقول زيد رحيم المساكين كما تعدى فاعلا، قالوا زيد حفيظ علمك وعلم غيرك، حكاه ابن سيده عن العرب. ومن رأى أنهما بمعنى واحد، ولم يذهب إلى توكيد أحدهما بالآخر، احتاج أنه يخص كل واحد بشيء، وإن كان أصل الموضوع عنده واحدا ليخرج بذلك عن التأكيد، فقال مجاهد: رحمن الدنيا ورحيم الآخرة.
+وروى ابن مسعود، وأبو سعيد الخدري أن رسول الله صلى الله عليه وسلم قال: «الرحمن رحمن الدنيا والرحيم رحيم الآخرة» .
+وإذا صح هذا التفسير وجب المصير إليه. وقال القرطبي: رحمن الآخرة ورحيم الدنيا. وقال الضحاك: لأهل السماء والأرض. وقال عكرمة: برحمة واحدة وبمائة رحمة. وقال المزني: بنعمة الدنيا والدين. وقال العزيزي:
+الرحمن بجميع خلقه في الأمطار، ونعم الحواس، والنعم العامة، الرحيم بالمؤمنين في الهداية لهم واللطف بهم، وقال المحاسبي: برحمة النفوس ورحمة القلوب. وقال يحيى بن معاذ: لمصالح المعاد والمعاش. وقال الصادق: خاص اللفظ بصيغة عامة في الرزق، وعام اللفظ بصيغة خاصة في مغفرة المؤمن. وقال ثعلب: الرحمن أمدح، والرحيم ألطف، وقيل: الرحمن المنعم بما لا يتصور جنسه من العباد، والرحيم المنعم بما يتصور جنسه من العباد. وقال أبو علي الفارسي: الرحمن اسم عام في جميع أنواع الرحمة، يختص به الله، والرحيم إنما هو في جهة المؤمنين، كما قال تعالى: وكان بالمؤمنين رحيما . ووصف الله تعالى بالرحمة مجاز عن إنعامه على عباده، ألا ترى أن الملك إذا عطف على رعيته ورق لهم، أصابهم إحسانه فتكون الرحمة إذ ذاك صفة فعل؟ وقال قوم:
+
+== ABUHAYYAN-FULL:v1p31#2  [سورة الفاتحة 1 › [سورة الفاتحة (1) : الآيات 1 الى 7]]  page=v1p31
+هي إرادة الخير لمن أراد الله تعالى به ذلك، فتكون على هذا صفة ذات، وينبني على هذا
+الخلاف خلاف آخر، وهو أن صفات الله تعالى الذاتية والفعلية أهي قديمة أم صفات الذات قديمة وصفات الفعل محدثة قولان؟ وأما الرحمة التي من العباد فقيل هي رقة تحدث في القلب، وقيل هي قصد الخير أو دفع الشر، لأن الإنسان قد يدفع الشر عمن لا يرق عليه، ويوصل الخير إلى من لا يرق عليه.
+وفي البسملة من ضروب البلاغة نوعان:
+أحدهما: الحذف، وهو ما يتعلق به الباء في بسم، وقد مر ذكره، والحذف قيل لتخفيف اللفظ، كقولهم بالرفاء والبنين، باليمن والبركة، فقلت إلى الطعام، وقوله تعالى في تسع آيات أي أعرست وهلموا واذهب، قال أبو القاسم السهيلي: وليس كما زعموا، إذ لو كان كذلك كان إظهاره وإضماره في كل ما يحذف تخفيفا، ولكن في حذفه فائدة، وذلك أنه موطن ينبغي أن لا يقدم فيه سوى ذكر الله تعالى، فلو ذكر الفعل، وهو لا يستغني عن فاعله، لم يكن ذكر الله مقدما، وكان في حذفه مشاكلة اللفظ للمعنى، كما تقول في الصلاة الله أكبر، ومعناه من كل شيء، ولكن يحذف ليكون اللفظ في اللسان مطابقا لمقصود القلب، وهو أن لا يكون في القلب ذكر إلا الله عز وجل. ومن الحذف أيضا حذف الألف في بسم الله وفي الرحمن في الخط، وذلك لكثرة الاستعمال.
+النوع الثاني: التكرار في الوصف، ويكون إما لتعظيم الموصوف، أو للتأكيد، ليتقرر في النفس. وقد تعرض المفسرون في كتبهم لحكم التسمية في الصلاة، وذكروا اختلاف العلماء في ذلك، وأطالوا التفاريع في ذلك، وكذلك فعلوا في غير ما آية وموضوع، هذا كتب الفقه، وكذلك تكلم بعضهم على التعوذ، وعلى حكمه، وليس من القرآن بإجماع.
+ونحن في كتابنا هذا لا نتعرض لحكم شرعي، إلا إذا كان لفظ القرآن يدل على ذلك الحكم، أو يمكن استنباطه منه بوجه من وجوه الاستنباطات. واختلف في وصل الرحيم بالحمد، فقرأ قوم من الكوفيين بسكون الميم، ويقفون عليها ويبتدئون بهمزة مقطوعة، والجمهور على جر الميم ووصل الألف من الحمد. وحكى الكسائي عن بعض العرب إنه يقرأ الرحيم الحمد بفتح الميم وصلة الألف، كأنك سكنت الميم وقطعت الألف، ثم ألقيت حركتها على الميم وحذفت ولم تر، وهذه قراءة عن أحد.
+
+== ABUHAYYAN-FULL:v1p32  [سورة الفاتحة 1 › [سورة الفاتحة (1) : الآيات 1 الى 7]]  page=v1p32
+الحمد الثناء على الجميل من نعمة أو غيرها باللسان وحده، ونقيضه الذم، وليس مقلوب مدح، خلافا لابن الأنباري، إذ هما في التصريفات متساويان، وإذ قد يتعلق
+المدح بالجماد، فتمدح جوهرة ولا يقال تحمد، والحمد والشكر بمعنى واحد، أو الحمد أعم، والشكر ثناء على الله تعالى بأفعاله، والحمد ثناء بأوصافه ثلاثة أقوال، أصحها أنه أعم، فالحامد قسمان: شاكر ومثن بالصفات.
+لله اللام: للملك وشبهه، وللتمليك وشبهه، وللاستحقاق، وللنسب، وللتعليل، وللتبليغ، وللتعجب، وللتبيين، وللصيرورة، وللظرفية بمعنى في أو عند أو بعد، وللانتهاء، وللاستعلاء مثل: ذلك المال لزيد، أدوم لك ما تدوم لي، ووهبت لك دينارا، جعل لكم من أنفسكم أزواجا ، الجلباب للجارية، لزيد عم، لتحكم بين الناس ، قلت لك، ولله عينا، من رأى، من تفوق، هيت، لك ، ليكون لهم عدوا وحزنا»
+، القسط ليوم القيامة ، كتب لخمس خلون، لدلوك الشمس، سقناه لبلد ميت ، يخرون للأذقان .
+رب العالمين الرب: السيد، والمالك، والثابت، والمعبود، والمصلح، وزاد بعضهم بمعنى الصاحب، مستدلا بقوله:
+فدنا له رب الكلاب بكفه ... بيض رهاف ريشهن مقزع
+وبعضهم بمعنى الخالق العالم لا مفرد له، كالأنام، واشتقاقه من العلم أو العلامة، ومدلوله كل ذي روح، قاله ابن عباس، أو الناس، قاله البجلي، أو الإنس والجن والملائكة، قاله أيضا ابن عباس، أو الإنس والجن والملائكة والشياطين، قاله أبو عبيدة والفراء، أو الثقلان، قاله ابن عطية، أو بنو آدم، قاله أبو معاذ، أو أهل الجنة والنار، قاله الصادق، أو المرتزقون، قاله عبد الرحمن بن زيد، أو كل مصنوع، قاله الحسن وقتادة، أو الروحانيون، قاله بعضهم، ونقل عن المتقدمين أعداد مختلفة في العالمين وفي مقارها، الله أعلم بالصحيح. والجمهور قرأوا بضم دال الحمد، وأتبع إبراهيم بن أبي عبلة ميمه لام الجر لضمة الدال، كما أتبع الحسن وزيد بن علي كسرة الدال لكسرة اللام، وهي أغرب، لأن فيه إتباع حركة معرب لحركة غير إعراب، والأول بالعكس. وفي قراءة الحسن احتمال أن يكون الإتباع في مرفوع أو منصوب، ويكون الإعراب إذ ذاك على التقديرين مقدرا منع من
+
+== ABUHAYYAN-FULL:v1p34  [سورة الفاتحة 1 › [سورة الفاتحة (1) : الآيات 1 الى 7]]  page=v1p34
+ظهوره شغل الكلمة بحركة الإتباع، كما في المحكي والمدغم. وقرأ هارون العتكي، ورؤبة، وسفيان بن عيينة الحمد بالنصب. والحمد مصدر معرف بأل، إما للعهد، أي الحمد المعروف بينكم لله، أو لتعريف الماهية، كالدينار خير من الدرهم، أي: أي دينار كان فهو خير من أي درهم كان، فيستلزم إذ ذاك الأحمدة كلها، أو لتعريف الجنس، فيدل على استغراق الأحمدة كلها بالمطابقة. والأصل في الحمد لا يجمع، لأنه مصدر. وحكى ابن الأعرابي: جمعه على أحمد كأنه راعى فيه جامعه اختلاف الأنواع، قال:
+وأبلج محمود الثناء خصصته ... بأفضل أقوالي وأفضل أحمدي
+وقراءة الرفع أمكن في المعنى، ولهذا أجمع عليها السبعة، لأنها تدل على ثبوت الحمد واستقراره لله تعالى، فيكون قد أخبر بأن الحمد مستقر لله تعالى، أي حمده وحمد غيره. ومعنى اللام في لله الاستحقاق، ومن نصب، فلا بد من عامل تقديره أحمد الله أو حمدت الله، فيتخصص الحمد بتخصيص فاعله، وأشعر بالتجدد والحدوث، ويكون في حالة النصب من المصادر التي حذفت أفعالها، وأقيمت مقامها، وذلك في الأخبار، نحو شكرا لا كفرا. وقدر بعضهم العامل للنصب فعلا غير مشتق من الحمد، أي أقول الحمد لله، أو الزموا الحمد لله، كما حذفوه من نحو اللهم ضبعا وذئبا، والأول هو الصحيح لدلالة اللفظ عليه. وفي قراءة النصب، اللام للتبيين، كما قال أعني لله، ولا تكون مقوية للتعدية، فيكون لله في موضع نصب بالمصدر لامتناع عمله فيه. قالوا سقيا لزيد، ولم يقولوا سقيا زيدا، فيعملونه فيه، فدل على أنه ليس من معمول المصدر، بل صار على عامل آخر.
+وقرأ زيد بن علي وطائفة رب العالمين بالنصب على المدح، وهي فصيحة لولا خفض الصفات بعدها، وضعفت إذ ذاك. على أن الأهوازي حكى في قراءة زيد بن علي أنه قرأ رب العالمين، الرحمن الرحيم بنصب الثلاثة، فلا ضعف إذ ذاك، وإنما تضعف قراءة نصب رب، وخفض الصفات بعدها لأنهم نصوا أنه لا إتباع بعد القطع في النعوت، لكن تخريجها على أن يكون الرحمن بدلا، ولا سيما على مذهب الأعلم، إذ لا يجيز في الرحمن أن يكون صفة، وحسن ذلك على مذهب غيره، كونه وصفا خاصا، وكون البدل على نية تكرار العامل، فكأنه مستأنف من جملة أخرى، فحسن النصب. وقول من زعم أنه نصب رب بفعل دل عليه الكلام قبله، كأنه قيل نحمد الله رب العالمين، ضعيف، لأنه مراعاة التوهم، وهو من خصائص العطف، ولا ينقاس فيه. ومن زعم أنه
+
+== ABUHAYYAN-FULL:v1p35  [سورة الفاتحة 1 › [سورة الفاتحة (1) : الآيات 1 الى 7]]  page=v1p35
+نصبه على البدل فضعيف للفصل بقوله الرحمن الرحيم، ورب مصدر وصف به على أحد وجوه الوصف بالمصدر، أو اسم فاعل حذفت ألفه، فأصله راب، كما قالوا رجل بار وبر، وأطلقوا الرب على الله وحده، وفي غيره قيد بالإضافة نحو رب الدار. وأل في العالمين للاستغراق، وجمع العالم شاذ لأنه اسم جمع، وجمعه بالواو والنون أشذ للإخلال ببعض الشروط التي لهذا الجمع، والذي أختاره أنه ينطلق على المكلفين لقوله تعالى: إن في ذلك لآيات للعالمين ، وقراءة حفص بكسر اللام توضح ذلك.
+الرحمن الرحيم تقدم الكلام عليهما في البسملة، وهما مع قوله رب العالمين صفات مدح، لأن ما قبلهما علم لم يعرض في التسمية به اشتراك فيخصص، وبدأ أولا بالوصف بالربوبية، فإن كان الرب بمعنى السيد، أو بمعنى المالك، أو بمعنى المعبود، كان صفة فعل للموصوف بها التصريف في المسود والمملوك والعابد بما أراد من الخير والشر، فناسب ذلك الوصف بالرحمانية والرحيمية، لينبسط أمل العبد في العفو إن زل، ويقوى رجاؤه إن هفا، ولا يصح أن يكون الرب بمعنى الثابت، ولا بمعنى الصاحب، لامتناع إضافته إلى العالمين، وإن كان بمعنى المصلح، كان الوصف بالرحمة مشعرا بقلة الإصلاح، لأن الحامل للشخص على إصلاح حال الشخص رحمته له. ومضمون الجملة والوصف أن من كان موصوفا بالربوبية والرحمة للمربوبين كان مستحقا للحمد. وخفض الرحمن الرحيم الجمهور، ونصبهما أبو العالية وابن السميفع وعيسى بن عمرو، ورفعهما أبو رزين العقيلي والربيع بن خيثم وأبو عمران الجوني، فالخفض على النعت، وقيل في الخفض إنه بدل أو عطف بيان، وتقدم شيء من هذا. والنصب والرفع للقطع. وفي تكرار الرحمن الرحيم إن كانت التسمية آية من الفاتحة تنبيه على عظم قدر هاتين الصفتين وتأكيد أمرهما، وجعل مكي تكرارها دليلا على أن التسمية ليست بآية من الفاتحة، قال: إذ لو كانت آية لكنا قد أتينا بآيتين متجاورتين بمعنى واحد، وهذا لا يوجد إلا بفواصل تفصل بين الأولى والثانية. قال: والفصل بينهما بالحمد لله رب العالمين كلا فصل، قال: لأنه مؤخر يراد به التقديم تقديره الحمد لله، الرحمن الرحيم، رب العالمين، وإنما قلنا بالتقديم لأن مجاورة الرحمة بالحمد أولى، ومجاورة الملك بالملك أولى. قال: والتقديم والتأخير كثير في القرآن، وكلام مكي مدخول من غير وجه، ولولا جلالة قائله نزهت كتابي هذا عن ذكره. والترتيب القرآني جاء في غاية الفصاحة لأنه تعالى وصف نفسه بصفة الربوبية وصفة
+
+== ABUHAYYAN-FULL:v1p36  [سورة الفاتحة 1 › [سورة الفاتحة (1) : الآيات 1 الى 7]]  page=v1p36
+الرحمة، ثم ذكر شيئين، أحدهما ملكه يوم الجزاء، والثاني العبادة. فناسب الربوبية للملك، والرحمة العبادة. فكان الأول للأول، والثاني للثاني. وقد ذكر المفسرون في علم التفسير الوقف، وقد اختلف في أقسامه، فقيل تام وكاف وقبيح وغير ذلك. وقد صنف الناس في ذلك كتبا مرتبة على السور، ككتاب أبي عمر، والداني، وكتاب الكرماني وغيرهما، ومن كان عنده حظ في علم العربية استغنى عن ذلك.
+مالك قرأ مالك على وزن فاعل بالخفض، عاصم، والكسائي، وخلف في اختياره، ويعقوب، وهي قراءة العشرة إلا طلحة، والزبير، وقراءة كثير من الصحابة منهم:
+أبي، وابن مسعود، ومعاذ، وابن عباس، والتابعين منهم: قتادة والأعمش. وقرأ ملك على وزن فعل بالخفض باقي السبعة، وزيد، وأبو الدرداء، وابن عمر، والمسور، وكثير من الصحابة والتابعين. وقرأ ملك على وزن سهل أبو هريرة، وعاصم الجحدري، ورواها الجعفي، وعبد الوارث، عن أبي عمرو، وهي لغة بكر بن وائل. وقرأ ملكي بإشباع كسرة الكاف أحمد بن صالح، عن ورش، عن نافع. وقرأ ملك على وزن عجل أبو عثمان النهدي، والشعبي، وعطية، ونسبها ابن عطية إلى أبي حياة. وقال صاحب اللوامح: قرأ أنس بن مالك، وأبو نوفل عمر بن مسلم بن أبي عدي ملك يوم الدين، بنصب الكاف من غير ألف، وجاء كذلك عن أبي حياة، انتهى. وقرأ كذلك، إلا أنه رفع الكاف سعد بن أبي وقاص، وعائشة، ومورق العجلي. وقرأ ملك فعلا ماضيا أبو حياة، وأبو حنيفة، وجبير بن مطعم، وأبو عاصم عبيد بن عمير الليثي، وأبو المحشر عاصم بن ميمون الجحدري، فينصبون اليوم. وذكر ابن عطية أن هذه قراءة يحيى بن يعمر، والحسن وعلي بن أبي طالب. وقرأ مالك بنصب الكاف الأعمش، وابن السميفع، وعثمان بن أبي سليمان، وعبد الملك قاضي الهند. وذكر ابن عطية أنها قراءة عمر بن عبد العزيز، وأبي صالح السمان، وأبي عبد الملك الشامي. وروى ابن أبي عاصم عن اليمان ملكا بالنصب والتنوين. وقرأ مالك برفع الكاف والتنوين عون العقيلي، ورويت عن خلف بن هشام وأبي عبيد وأبي حاتم، وبنصب اليوم. وقرأ مالك يوم بالرفع والإضافة أبو هريرة، وأبو حياة، وعمر بن عبد العزيز بخلاف عنه، ونسبها صاحب اللوامح إلى أبي روح عون بن أبي شداد العقيلي، ساكن البصرة. وقرأ مليك على وزن فعيل أبي، وأبو هريرة، وأبو رجاء العطاردي. وقرأ مالك بالإمالة البليغة يحيى بن يعمر، وأيوب السختياني، وبين بين قتيبة بن مهران، عن الكسائي. وجهل النقل، أعني في قراءة الإمالة، أبو علي الفارسي
+
+== ABUHAYYAN-FULL:v1p37  [سورة الفاتحة 1 › [سورة الفاتحة (1) : الآيات 1 الى 7]]  page=v1p37
+فقال: لم يمل أحد من القراء ألف مالك، وذلك جائز، إلا أنه لا يقرأ بما يجوز إلا أن يأتي بذلك أثر مستفيض. وذكر أيضا أنه قرىء في الشاذ ملاك بالألف والتشديد للام وكسر الكاف. فهذه ثلاث عشرة قراءة، بعضها راجع إلى الملك، وبعضها إلى الملك، قال اللغويون: وهما راجعان إلى الملك، وهو الربط، ومنه ملك العجين. وقال قيس بن الخطيم:
+ملكت بها كفي فأنهرت فتقها ... يرى قائما من دونها ما وراءها
+والإملاك ربط عقد النكاح، ومن ملح هذه المادة أن جميع تقاليبها الستة مستعملة في اللسان، وكلها راجع إلى معنى القوة والشدة، فبينها كلها قدر مشترك، وهذا يسمى بالاشتقاق الأكبر، ولم يذهب إليه غير أبي الفتح. وكان أبو علي الفارسي يأنس به في بعض المواضع وتلك التقاليب: ملك، مكل، كمكل، لكم، كمل، كلم. وزعم الفخر الرازي أن تقليب كمكل مهمل وليس بصحيح، بل هو مستعمل بدليل ما أنشد الفراء من قول الشاعر:
+فلما رآني قد حممت ارتحاله ... تملك لو يجدي عليه التملك
+والملك هو القهر والتسليط على من تتأتى منه الطاعة، ويكون ذلك باستحقاق وبغير استحقاق. والملك هو القهر على من تتأتى منه الطاعة، ومن لا تتأتى منه، ويكون ذلك منه باستحقاق، فبينهما عموم وخصوص من وجه. وقال الأخفش: يقال ملك من الملك، بضم الميم، ومالك من الملك، بكسر الميم وفتحها، وزعموا أن ضم الميم لغة في هذا المعنى. وروي عن بعض البغداديين لي في هذا الوادي ملك وملك بمعنى واحد.
+يوم، اليوم هو المدة من طلوع الفجر إلى غروب الشمس، ويطلق على مطلق الوقت، وتركيبه غريب، أعني وجود مادة تكون فاء الكلمة فيها ياء وعينها واوا لم يأت من ذلك سوى يوم وتصاريفه ويوح اسم للشمس، وبعضهم زعم أنه بوج بالباء، والمعجمة بواحدة من أسفل. الدين الجزاء دناهم كما دانوا، قاله قتادة، والحساب ذلك الدين القيم ، قاله ابن عباس والقضاء ولا تأخذكم بهما رأفة في دين الله ، والطاعة في دين عمرو، وحالت بيننا وبينك فدك، قاله أبو الفضل والعادة، كدينك من أم الحويرث
+
+== ABUHAYYAN-FULL:v1p38  [سورة الفاتحة 1 › [سورة الفاتحة (1) : الآيات 1 الى 7]]  page=v1p38
+قبلها، وكنى بها هنا عن العمل، قاله الفراء والملة، ورضيت لكم الإسلام دينا إن الدين عند الله الإسلام ، والقهر، ومنه المدين للعبد، والمدينة للأمة، قاله يمان بن رئاب. وقال أبو عمرو الزاهد: وإن أطاع وعصى وذل وعز وقهر وجار وملك. وحكى أهل اللغة: دنته بفعله دينا ودينا بفتح الدال وكسرها جازيته. وقيل: الدين المصدر، والدين بالكسر الاسم، والدين السياسة، والديان السايس. قال ذو الإصبع عنه: ولا أنت دياني فتخزوني، والدين الحال. قال النضر بن شميل: سألت أعرابيا عن شيء، فقال: لو لقيتني على دين غير هذا لأخبرتك، والدين الداء عن اللحياني وأنشد:
+يا دين قلبك من سلمى وقد دينا ومن قرأ بجر الكاف فعلى معنى الصفة، فإن كان بلفظ ملك على فعل بكسر العين أو إسكانها، أو مليك بمعناه فظاهر لأنه وصف معرفة بمعرفة، وإن كان بلفظ مالك أو ملاك أو مليك محولين من مالك للمبالغة بالمعرفة، ويدل عليه قراءة من قرأ ملك يوم الدين فعلا ماضيا، وإن كان بمعنى الاستقبال، وهو الظاهر لأن اليوم لم يوجد فهو مشكل، لأن اسم الفاعل إذا كان بمعنى الحال أو الاستقبال، فإنه تكون إضافته غير محضة فلا يتعرف بالإضافة، وإن أضيف إلى معرفة فلا يكون إذ ذاك صفة، لأن المعرفة لا توصف بالنكرة ولا بدل نكرة من معرفة، لأن البدل بالصفات ضعيف. وحل هذا الإشكال هو أن اسم الفاعل، إن كان بمعنى الحال أو الاستقبال، جاز فيه وجهان: أحدهما ما قدمناه من أنه لا يتعرف بما أضيف إليه، إذ يكون منويا فيه الانفصال من الإضافة، ولأنه عمل النصب لفظا. الثاني: أن يتعرف به إذا كان معرفة، فيلحظ فيه أن الموصوف صار معروفا بهذا الوصف، وكان تقييده بالزمان غير معتبر، وهذا الوجه غريب النقل، لا يعرفه إلا من له اطلاع على كتاب سيبويه وتنقيب عن لطائفه. قال سيبويه، رحمه الله تعالى، وزعم يونس والخليل أن الصفات المضافة التي صارت صفة للنكرة قد يجوز فيهن كلهن أن يكن معرفة، وذلك معروف في كلام العرب، انتهى. واستثنى من ذلك باب الصفة المشبهة فقط، فإنه لا يتعرف بالإضافة نحو حسن الوجه. ومن رفع الكاف ونون أو لم ينون فعلى القطع إلى الرفع. ومن نصب فعلى القطع إلى النصب، أو على النداء والقطع أغرب لتناسق الصفات، إذ لم يخرج بالقطع عنها. ومن قرأ ملك فعلا ماضيا فجملة خبرية لا موضع لها من الإعراب، ومن أشبع كسرة الكاف فقد قرأ بنادر أو بما ذكر أنه لا يجوز إلا في الشعر، وإضافة الملك أو الملك
+
+== ABUHAYYAN-FULL:v1p39  [سورة الفاتحة 1 › [سورة الفاتحة (1) : الآيات 1 الى 7]]  page=v1p39
+إلى يوم الدين إنما هو من باب الاتساع، إذ متعلقهما غير اليوم. والإضافة على معنى اللام، لا على معنى في، خلافا لمن أثبت الإضافة بمعنى في، ويبحث في تقرير هذا في النحو، وإذا كان من الملك كان من باب.
+طباخ ساعات الكرى زاد الكسل وظاهر اللغة تغاير الملك والمالك كما تقدم، وقيل هما بمعنى واحد كالفره والفاره، فإذا قلنا بالتغاير فقيل مالك أمدح لحسن إضافته إلى من لا تحسن إضافة الملك إليه، نحو مالك الجن والإنس، والملائكة والطير، فهو أوسع لشمول العقلاء وغيرهم، قال الشاعر:
+سبحان من عنت الوجوه لوجهه ... ملك الملوك ومالك العفر
+قاله الأخفش، ولا يقال هنا ملك، ولقولهم مالك الشيء لمن يملكه، وقد يكون ملكا لا مالكا نحو ملك العرب والعجم، قاله أبو حاتم، ولزيادته في البناء، والعرب تعظم بالزيادة في البناء، وللزيادة في أجزاء الثاني لزيادة الحروف، ولكثرة من عليها من القراء، ولتمكن التصرف ببيع وهبة وتمليك، ولإبقاء الملك في يد المالك إذا تصرف بجور أو اعتداء أو سرف، ولتعينه في يوم القيامة، ولعدم قدرة المملوك على انتزاعه من الملك، ولكثرة رجائه في سيده بطلب ما يحتاج إليه، ولوجوب خدمته عليه، ولأن المالك يطمع فيه، والملك يطمع فيك، ولأن له رأفة ورحمة، والملك له هيبة وسياسة. وقيل ملك أمدح وأليق إن لم يوصف به الله تعالى لإشعاره بالكثرة ولتمدحه بمالك الملك، ولم يقل مالك الملك، ولتوافق الابتداء والاختتام في قوله ملك الناس ، والاختتام لا يكون إلا بأشرف الأسماء، ولدخول المالك تحت حكم الملك، ولوصفه نفسه بالملك في مواضع، ولعموم تصرفه فيمن حوته مملكته، وقصر المالك على ملكه، قاله أبو عبيدة، ولعدم احتياج الملك إلى الإضافة، أو مالك لا بد له من الإضافة إلى مملوك، ولكونه أعظم الناس، فكان أشرف من المالك.
+قال أبو علي: حكى ابن السراج عمن اختار قراءة ملك كل شيء بقوله رب العالمين، فقراءة مالك تقرير، قال أبو علي، ولا حجة في هذا، لأن في التنزيل تقدم العام، ثم ذكر الخاص منه الخالق البارئ المصور ، فالخالق يعم، وذكر المصور لما في ذلك من التنبيه على الصنعة ووجوه الحكمة، ومنه وبالآخرة هم يوقنون ، بعد قوله الذين يؤمنون بالغيب ، وإنما كررها تعظيما لها، وتنبيها على وجوب اعتقادها،
+
+== ABUHAYYAN-FULL:v1p40  [سورة الفاتحة 1 › [سورة الفاتحة (1) : الآيات 1 الى 7]]  page=v1p40
+والرد على الكفرة الملحدين، ومنه الرحمن الرحيم، ذكر الرحمن الذي هو عام، وذكر الرحيم بعده لتخصيص الرحمة بالمؤمنين في قوله وكان بالمؤمنين رحيما ، انتهى.
+وقال ابن عطية: وأيضا فإن الرب يتصرف في كلام العرب بمعنى الملك، كقوله:
+ومن قبل ربيتني فصفت ربوب وغير ذلك من الشواهد، فتنعكس الحجة على من قرأ ملك. والمراد باليوم الذي أضيف إليه مالك أو ملك زمان ممتد إلى أن ينقضي الحساب ويستقر أهل الجنة فيها، وأهل النار فيها، ومتعلق المضاف إليه في الحقيقة هو الأمر، كأنه قال مالك أو ملك الأمر في يوم الدين. لكنه لما كان اليوم ظرفا للأمر، جاز أن يتسع فيتسلط عليه الملك أو المالك، لأن الاستيلاء على الظرف استيلاء على المظروف. وفائدة تخصيص هذه الإضافة، وإن كان الله تعالى مالك الأزمنة كلها والأمكنة ومن حلها والملك فيها التنبيه على عظم هذا اليوم بما يقع فيه من الأمور العظام والأهوال الجسام من قيامهم فيه لله تعالى والاستشفاع لتعجيل الحساب والفصل بين المحسن والمسيء واستقرارهما فيما وعدهما الله تعالى به، أو على أنه يوم يرجع فيه إلى الله جميع ما ملكه لعباده وخولهم فيه ويزول فيه ملك كل مالك قال تعالى: وكلهم آتيه يوم القيامة فردا ، ولقد جئتمونا فرادى كما خلقناكم أول مرة . قال ابن السراج: إن معنى مالك يوم الدين إنه يملك مجيئه ووقوعه، فالإضافة إلى اليوم على قوله إضافة إلى المفعول به على الحقيقة، وليس ظرفا اتسع فيه، وما فسر به الدين من المعاني يصح إضافة اليوم إليه إلى معنى كل منها إلا الملة، قال ابن مسعود، وابن عباس، وقتادة، وابن جريج وغيرهم: يوم الدين يوم الجزاء على الأعمال والحساب. قال أبو علي: ويدل على ذلك اليوم تجزى كل نفس بما كسبت ، واليوم تجزون ما كنتم تعملون . وقال مجاهد: يوم الدين يوم الحساب مدينين محاسبين، وفي قوله: مالك يوم الدين دلالة على إثبات المعاد والحشر والحساب، ولما اتصف تعالى بالرحمة، انبسط العبد وغلب عليه الرجاء، فنبه بصفة الملك أو المالك ليكون من عمله على وجل، وأن لعمله يوما تظهر له فيه ثمرته من خير وشر.
+
+== ABUHAYYAN-FULL:v1p40#2  [not shown: ABUHAYYAN-FULL is over the per-source limit; 1827 characters]
+
+== ABUHAYYAN-FULL:v1p42  [not shown: ABUHAYYAN-FULL is over the per-source limit; 2102 characters]
+
+== ABUHAYYAN-FULL:v1p43  [not shown: ABUHAYYAN-FULL is over the per-source limit; 1514 characters]
+
+== ABUHAYYAN-FULL:v1p43#2  [not shown: ABUHAYYAN-FULL is over the per-source limit; 1508 characters]
+
+== ABUHAYYAN-FULL:v1p44  [not shown: ABUHAYYAN-FULL is over the per-source limit; 1865 characters]
+
+== ABUHAYYAN-FULL:v1p45  [not shown: ABUHAYYAN-FULL is over the per-source limit; 1667 characters]
+
+== ABUHAYYAN-FULL:v1p46  [not shown: ABUHAYYAN-FULL is over the per-source limit; 1696 characters]
+
+== ABUHAYYAN-FULL:v1p47  [not shown: ABUHAYYAN-FULL is over the per-source limit; 1535 characters]
+
+== ABUHAYYAN-FULL:v1p48  [not shown: ABUHAYYAN-FULL is over the per-source limit; 1538 characters]
+
+== ABUHAYYAN-FULL:v1p49  [not shown: ABUHAYYAN-FULL is over the per-source limit; 1618 characters]
+
+== ABUHAYYAN-FULL:v1p51  [not shown: ABUHAYYAN-FULL is over the per-source limit; 1645 characters]
+
+== ABUHAYYAN-FULL:v1p52  [not shown: ABUHAYYAN-FULL is over the per-source limit; 1505 characters]
+
+== ABUHAYYAN-FULL:v1p52#2  [not shown: ABUHAYYAN-FULL is over the per-source limit; 1914 characters]
+
+== ABUHAYYAN-FULL:v1p53  [not shown: ABUHAYYAN-FULL is over the per-source limit; 1803 characters]
+
+== ABUHAYYAN-FULL:v1p54  [not shown: ABUHAYYAN-FULL is over the per-source limit; 2164 characters]
+
+== ALUSI:1:3
+{ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ} (3)
+بعدما ذكر سبحانه وتعالى عموم تربيته صرح بعظيم رحمته فقال عز شأنه : { الرحمن الرحيم } وقد تقدم الكلام عليهما والجمهور على خفضهما ،  ونصبهما زيد وأبو العالية وابن السميقع وعيسى بن عمور ،  ورفعهما أبو رزين العقيلي والربيع بن خيثم وأبو عمران الجولي( {[94]} ) واستدل بعض ساداتنا بتكرارهما على أن البسملة ليست آية من الفاتحة ،  وليس بالقوي لأن التكرار لفائدة ،  فذكرهما في البسملة تعليل للابتداء باسمه عز شأنه ،  وذكرهما هنا تعليل لاستحقاقه تعالى الحمد ،  وقال الإمام الرازي قدس سره في بيان حكمة التكرار : التقدير كأنه قيل له اذكر أني إله ورب مرة واحدة واذكر أني رحمن رحيم مرتين ؛ لتعلم أن العناية بالرحمة أكثر منها بسائر الأمور ،  ثم لما بين الرحمة المضاعفة فكأنه قال لا تغتروا بذلك فإني مالك يوم الدين ونظيره قوله تعالى :
+{ غَافِرِ الذنب وَقَابِلِ التوب شَدِيدِ العقاب } [ غافر : 3 ] انتهى ،  وفي القلب منه شيء فإن الألوهية مكررة أيضاً كما ترى ،  وعندي بمسلك صوفي أن ذكر الرحمن الرحيم تفصيل من وجه لما في رب العالمين من الإجمال ،  وذلك أن التربية تنقسم ببعض الاعتبارات إلى قسمين ،  أحدهما التربية بغير واسطة كالكلمة لأنه لا يتصور في حقه واسطة ألبتة ،  وثانيهما التربية بواسطة كما فيمن دون الكلمة وهذا الثاني له قسمان أيضاً ،  قسم ممزوج بألم كما في تربية العبد بأمور مؤلمة له شاقة عليه ،  وقسم لا مزج فيه كما في تربية كثير ممن شمله اللطف السبحاني :
+غافل والسعادة احتضنته *** وهو عنها مستوحش نفار
+فالرحمن يشير إلى التربية بالوسائط وغيرها في عالمه ،  والرحيم يشير إلى التربية بلا واسطة في كلماته ورحمة الرحمن أيضاً قد تمزج بالألم كشرب الدواء الكره الطعم والرائحة فإنه وإن كان رحمة بالمريض لكن فيه ما لا يلائم طبعه ورحمة الرحيم لا يمازجها شوب فهي محض النعم ،  ولا توجد إلا عند أهل السعادات الكاملة .   اللهم اجعلنا سعداء الدارين بحرمة سيد الثقلين صلى الله عليه وسلم .
+[94]:كذا بخطه الجولي باللام وصوابه بالنون.
+
+== ALUSI-FULL:v1p82  [الفاتحة : ( 3 ) الرحمن الرحيم]  page=v1p82
+ثم أنه سبحانه وتعالى بعد ماذكر عموم تربيته صرح بعظيم رحمته فقال عز شأنه ( الرحمن الرحيم ) وقد تقدم الكلام عليهما والجمهور على خفضهما ونصبهما زيد وأبو العالية وإبن السميقع وعيسى بن عمرو ورفعهما أبو رزين العقيلي والربيع بن خيثم وأبو عمران الجولي وأستدل بعض ساداتنا بتكرارهما على أن البسملة ليست آية من الفاتحة وليس بالقوى لأن التكرار لفائدة فذكرهما في البسملة تعليل للإبتداء بإسمه عز شأنه وذكرهما هنا تعليل لإستحقاقه تعالى الحمد وقال الإمام الرازي قدس سره في بيان حكمة التكرار التقدير كأنه قيل له أذكر أني إله ورب مرة واحدة وأذكر أني رحمن رحيم مرتين لتعلم أن العناية بالرحمة أكثر منها بسائر الأمور ثم لما بين الرحمة المضاعفة فكأنه قال لا تغتروا بذلك فإني مالك يوم الدين ونظيره قوله تعالى ( غافر الذنب وقابل التوب شديد العقاب ) إنتهى وفي القلب منه شيء فإن الألوهية مكررة أيضا كما ترى وعندي بمسلك صوفي أن ذكر الرحمن الرحيم تفصيل من وجه لما في رب العالمين من الإجمال وذلك أن التربية تنقسم ببعض الإعتبارات إلى قسمين أحدهما التربية بغير واسطة كالكلمة لأنه لا يتصور في حقه واسطة البتة وثانيهما التربية بواسطة كما فيمن دون الكلمة وهذا الثاني له قسمان أيضا قسم ممزوج بألم كما في تربية العبد بأمور مؤلمة له شاقة عليه وقسم لا مزج فيه كما في تربية كثير ممن شمله اللطف السبحاني غافل والسعادة أحتضنته وهو عنها مستوحش نفار فالرحمن يشير إلى التربية بالوسائط وغيرها في عالمه والرحيم يشير إلى التربية بلا واسطة في كلماته ورحمة الرحمن أيضا قد تمزج بالألم كشرب الدواء الكره الطعم والرائحة فإنه وإن كان رحمة بالمريض لكن فيه مالا يلائم طبعه ورحمة الرحيم لا يمازجها شوب فهي محض النعمة ولا توجد إلا عند أهل السعادات الكاملة + اللهم أجعلنا سعداء الدارين بحرمة سيد الثقلين صلى الله تعالى عليه وسلم
+
+== BAGHAWI:1:3
+{ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ} (3)
+
+== BAGHAWI-FULL:v1p50  [سورة فاتحة الكتاب]  page=v1p50
+فكأن الخلق يسكنون إليه ويطمئنون بذكره، ويقال: ألهت إليه، أي فزعت إليه قال الشاعر: ألهت إليها والركائب وقف
+وقيل أصل الإله "ولاه" فأبدلت الواو بالهمزة مثل وشاح وإشاح، اشتقاقه من الوله لأن العباد يولهون إليه أي يفزعون إليه في الشدائد، ويلجئون إليه في الحوائج كما يوله كل طفل إلى أمه، وقيل هو من الوله وهو ذهاب العقل لفقد من يعز عليك.
+قوله {الرحمن الرحيم} قال ابن عباس رضي الله عنهما: هما اسمان رقيقان أحدهما أرق من الآخر. واختلفوا فيهما منهم من قال: هما بمعنى واحد مثل ندمان ونديم ومعناهما ذو الرحمة، وذكر أحدهما بعد الآخر (تطميعا) (1) لقلوب الراغبين. وقال المبرد: هو إنعام بعد إنعام، وتفضل بعد تفضل، ومنهم من فرق بينهما فقال: الرحمن بمعنى العموم والرحيم بمعنى الخصوص. فالرحمن بمعنى الرزاق في الدنيا وهو على العموم لكافة الخلق. والرحيم بمعنى المعافي في الآخرة والعفو في الآخرة للمؤمنين على الخصوص ولذلك قيل في الدعاء: يا رحمن الدنيا ورحيم الآخرة، فالرحمن من تصل رحمته إلى الخلق على العموم، والرحيم من تصل رحمته إليهم على الخصوص، ولذلك يدعى غير الله رحيما ولا يدعى غير الله رحمن. فالرحمن عام المعنى خاص اللفظ، والرحيم عام اللفظ خاص المعنى، والرحمة إرادة الله تعالى الخير لأهله. وقيل هي ترك عقوبة من يستحقها وإسداء الخير إلى من لا يستحق، فهي على الأول صفة ذات، وعلى الثاني صفة (فعل) (2) .
+واختلفوا في آية التسمية فذهب قراء المدينة والبصرة وفقهاء الكوفة إلى أنها ليست من فاتحة الكتاب، ولا من غيرها من السور والافتتاح بها للتيمن والتبرك. وذهب قراء مكة والكوفة وأكثر فقهاء الحجاز إلى أنها من الفاتحة وليست من سائر السور وأنها كتبت للفصل وذهب جماعة إلى أنها من الفاتحة ومن كل سورة إلا سورة التوبة وهو قول الثوري وابن المبارك والشافعي لأنها كتبت في المصحف بخط سائر القرآن.
+
+== BAGHAWI-FULL:v1p51  [سورة فاتحة الكتاب]  page=v1p51
+واتفقوا على أن الفاتحة سبع آيات فالآية الأولى عند من يعدها من الفاتحة {بسم الله الرحمن الرحيم} وابتداء الآية الأخيرة {صراط الذين} ومن لم يعدها من الفاتحة قال ابتداؤها "الحمد لله رب العالمين" وابتداء الآية الأخيرة "غير المغضوب عليهم" واحتج من جعلها من الفاتحة ومن السور بأنها كتبت في المصحف بخط القرآن، وبما أخبرنا عبد الوهاب بن محمد الكسائي أنا أبو محمد عبد العزيز بن أحمد الخلال ثنا أبو العباس محمد بن يعقوب الأصم أنا الربيع بن سليمان أنا الشافعي أنا عبد المجيد عن ابن جريج قال: أخبرني أبي عن سعيد بن جبير (قال) (3) "ولقد آتيناك سبعا من المثاني والقرآن العظيم" (87-الحجر) هي أم القرآن قال أبي وقرأها علي سعيد بن جبير حتى ختمها ثم قال: "بسم الله الرحمن الرحيم" الآية السابعة قال سعيد: قرأتها على ابن عباس كما قرأتها عليك ثم قال: بسم الله الرحمن الرحيم الآية السابعة، قال ابن عباس: فذخرها لكم فما أخرجها لأحد قبلكم (4) .
+ومن لم يجعلها من الفاتحة احتج بما ثنا أبو الحسن محمد بن محمد الشيرازي أنا زاهر بن أحمد ثنا أبو عيسى إسحاق الهاشمي أنا أبو مصعب عن مالك عن حميد الطويل عن أنس بن مالك رضي الله عنه أنه قال: "قمت وراء أبي بكر الصديق، وعمر بن الخطاب وعثمان بن عفان رضي الله عنهم فكلهم كان لا يقرأ "بسم
+الله الرحمن الرحيم إذا افتتح الصلاة" (1) قال سعيد بن جبير عن ابن عباس كان رسول الله صلى الله عليه وسلم 4\ب لا يعرف ختم سورة حتى ينزل بسم الله الرحمن الرحيم (2) .
+وعن ابن مسعود قال: كنا لا نعلم فصل ما بين السورتين حتى ينزل بسم الله الرحمن الرحيم (3) وقال الشعبي: كان رسول الله صلى الله عليه وسلم يكتب في بدء الأمر على رسم قريش باسمك اللهم حتى نزلت "وقال اركبوا فيها بسم الله مجريها" (41-هود) فكتب بسم الله حتى نزلت "قل ادعو الله أو ادعوا الرحمن" (110-الإسراء) فكتب بسم الله الرحمن حتى نزلت "إنه من سليمان وإنه بسم الله الرحمن الرحيم" (30-النمل) فكتب مثلها.
+
+== BAGHAWI-FULL:v1p49#2  [سورة فاتحة الكتاب]  page=v1p49
+{بسم الله الرحمن الرحيم (1) الحمد لله رب العالمين (2) الرحمن الرحيم (3) مالك يوم الدين (4) إياك نعبد وإياك نستعين (5) اهدنا الصراط المستقيم (6) صراط الذين أنعمت عليهم غير المغضوب عليهم ولا الضالين (7) }
+
+== BAGHAWI-FULL:v1p52  [سورة فاتحة الكتاب]  page=v1p52
+قوله {الحمد لله} لفظه خبر كأنه يخبر أن المستحق للحمد هو الله عز وجل وفيه تعليم الخلق تقديره قولوا الحمد لله والحمد يكون بمعنى الشكر على النعمة، ويكون بمعنى الثناء عليه بما فيه من الخصال الحميدة. يقال حمدت فلانا على ما أسدى إلي من النعمة وحمدته على علمه وشجاعته، والشكر لا يكون إلا على النعمة، فالحمد أعم من الشكر إذ لا يقال شكرت فلانا على علمه فكل حامد شاكر وليس كل شاكر حامدا. وقيل: الحمد باللسان قولا والشكر بالأركان فعلا قال الله تعالى "وقل الحمد لله الذي لم يتخذ ولدا" (111-الإسراء) وقال "اعملوا آل داود شكرا" (13-سبأ) .
+قوله {لله} اللام فيه للاستحقاق كما يقال الدار لزيد.
+قوله {رب العالمين الرحمن الرحيم} فالرب يكون بمعنى المالك كما يقال لمالك الدار: رب الدار: ويقال رب الشيء إذا ملكه ويكون بمعنى التربية والإصلاح، يقال: رب فلان الضيعة يربها إذا أتمها وأصلحها فهو رب مثل طب، وبر. فالله تعالى مالك العالمين ومربيهم، ولا يقال للمخلوق هو الرب معرفا إنما يقال رب كذا مضافا، لأن الألف واللام للتعميم وهو لا يملك الكل.
+"والعالمين" جمع عالم، لا واحد له من لفظه واختلفوا في العالمين قال ابن عباس: هم الجن والإنس لأنهم المكلفون بالخطاب قال الله تعالى: "ليكون للعالمين نذيرا" (1-الفرقان) وقال قتادة ومجاهد والحسن: هم جميع المخلوقات. قال الله تعالى: "وقال فرعون وما رب العالمين قال رب السماوات والأرض وما بينهما" واشتقاقه من العلم والعلامة سموا به لظهور أثر الصنعة فيهم قال أبو عبيدة: هم أربع أمم: الملائكة والإنس والجن والشياطين، مشتق من العلم، ولا يقال للبهائم عالم لأنها لا تعقل، واختلفوا في مبلغهم قال سعيد بن المسيب لله ألف عالم ستمائة في البحر وأربعمائة في البر وقال مقاتل بن حيان: لله ثمانون ألف عالم أربعون ألفا في البحر وأربعون ألفا في البر. وقال وهب لله ثمانية عشر ألف عالم الدنيا عالم منها، وما
+
+== BAYDAWI:1:3
+{ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ} (3)
+{ الرحمن الرحيم } كرره للتعليل على ما سنذكره .
+
+== BAYDAWI-FULL:1:3  [[1 - سورة الفاتحة] › [1.3]]
+{ الرحمن الرحيم } كرره للتعليل على ما سنذكره.
+
+== BIQAI:1:3
+{ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ} (3)
+ولما كانت مرتبة الربوبية لا تستجمع الصلاح إلا بالرحمة اتبع ذلك بصفتي { الرحمن الرحيم } ترغبياً في لزوم حمده ،   وهي تتضمن تثنية{[166]} تفصيل ما شمله الحمد أصلاً ؛ وسيأتي سر لتكرير{[167]} هاتين الصفتين{[168]} في الأنعام عند { فكلوا مما ذكر اسم الله عليه{[169]} } [ الأنعام : 118 ] عن الإمام حجة الإسلام الغزالي رحمه الله تعالى{[170]} أنه لا مكرر في القرآن .
+[166]:ي ظ: تنبيه[167]:في م: تكرير[168]:في عرائس البيان مثل ما في هذا الكتاب وزاد "قال الأستاذ: الرحمان خاص الاسم عام المعنى، والرحيم عام الاسم خاص المعنى فالرحمان بما روح والرحيم بما لوح فالترويح للمعاد والتلويح بالأنوار، والرحمان بكشف تجلية والرحيم بلطف توليه "ثم قال "أما من اختراعي أن اسم الرحمان محل طلوع أنوار العناية والرحيم محل إشراق شمس الكفاية، فبالعناية ( راجع ج 1 ص 8 إن شئت الإيضاح.[169]:ورة6 آية 118[170]:ي النسخ كلها بزيادة الواو
+
+== BIQAI-FULL:v1p11#2  [الفاتحة : ( 1 - 7 ) بسم الله الرحمن . . . . .]  page=v1p11
+^ ( بسم الله الرحمن الرحيم * الحمد لله رب العالمين * الرحمن الرحيم * ملك يوم الدين * إياك نعبد وإياك نستعين * اهدنا الصراط المستقيم * صراط الذين أنعمت عليهم غير المغضوب عليهم ولا الضآلين ) ^ } ) بسم الله القيوم الشهيد الذي لا يعزب شيء عن علمه ، ولا يكون شيء إلا بإذنه ، الرحمن الرحيم الذي عمت رحمته الموجودات ، وطبع في مرائي القلوب عظمته فتعالت تلك السبحات ، وأجري على الألسنة ذكره في العبادات والعادات ، الرحيم الذي تمت معمته بتخصيص أهل ولايته بأرضى العبادات . قال شيخنا الإمام المحقق أبو الفضل محمد بن العلامة القدوة أبي عبد الله محمد ابن العلامة القدوة أبي القاسم محمد المشدالي المغربي البجائي المالكي علامة الزمان سقى الله عهده سحائب الرضوان وأسكنه أعلى الجنان : الأمر الكلي المفيد لعرفان مناسبات الآيات في جميع القرآن هو أنك تنظر الغرض الذي سبقت له السورة ، وتنظر ما يحتاج إليه ذلك الغرض من المقدمات وتنظر إلى مراتب تلك المقدمات في القرب والبعد من المطلوب ، وتنظر عند انجرار الكلام في المقدمات إلى ما يستتبعه من استشراف نفس السامع إلى الأحكام واللوازم التابعة له اللتي له التي تقتضي البلاغة شفاء العليل يدفع عناء الاستشراف إلى الوقوف عليها ، فهذا هو الأمر الكلي المهيمن على حكم الربك بين جميع أجزاء القرآن ، وإذا فعلته تبين لك إن شاء الله وجه النظم مفصلا بين كل آية وآية في كل سورة سورة والله الهادي .
+انتهى . وقد ظهر لي باستعمالي لهذه القاعدة بعد وصولي إلى سورة سبأ في السنة العاشرة من ابتدائي في عمل هذا الكتاب أن اسم كل سورة مترجم عن مقصودها هلأن أسم كل شيء تظهر المناسبة بينه وبين مسماه عنوانه الدال إجمالا على تفصيل ما فيه ، وذلك هو الذي أنبأ به آدم عليه الصلاة والسلام عند العرض على المالئكة عليهم الصلاة والسلام ، ومقضود كل سورة هاد إلى تناسبها ، مقثصود السورة ، ولا أخرج عن معاني كلماتها ، فالفاتحة أسمها ' أم الكتاب ' ' والأساسا ' ' والمثاني ' ' والكنز ' و ' الشافية ' و ' الكافية ' و ' الوزافية ' و ' الواقية ' و ' الرقية ' و ' الحمد ' و ' الشكر ' و ' الدعاء ' و ' الصلاة ' فمدار هذه الأسماء كما ترى على أمر خفي كاف لكل مراد وهو المراقبة التي سأقول إنها مقصودها فكل شيء لا يفتتح بها لا اعتداد به ، وهي كنز لكل شيء شافية لكل داء ، كافية لكل هم ، وافية بكل مرام ، واقية من كل سوء رقية لكل ملم ، وهي إثبات للحمد الذي هو الإحاطة بصفات الكمال ، وللشكر الذي هوز تعظيم المنعم ، وهي عين الدعاء فإنه التوجه إلى المدعو ، وأعظم مجامعها الصلاة .
+
+== BIQAI-FULL:v1p12  [الفاتحة : ( 1 - 7 ) بسم الله الرحمن . . . . .]  page=v1p12
+إذا تقررت ذلك فالغرض الذي سبقت له الفاتحة وه إثبات استحقاق الله تعالى لجميع المحامد وصفا الكمال ، واختصاصه بملك الدنيا والآخرة ، وباستحقاق العبادة والاستعانة ، بالسؤال في المن بإلزام صراط الفائزين والإنقاذ من طريق الهالكين مختصا بذلك كله ، ومدار ذلك كله مراقبة العباد لربهم ، لإفراده بالعبادة ، نفهو مقصود الفاتحة بالذات وغيره وسائل إليه ، فإنه لا بد في ذلك من إثبات إحاطته تعالى بكل شيء ولن يثبت حتى يعلم أنه المختص بأنه الخالق اللملك المالك ، لأن المقصود منت إرسال الرسل وإنزال الكتب نصب الشرائع ، والمقصود من نصب الشرائع جمع الخلق على الحق والمقصود من جمعهم تعريفهم الملك وبما يرضيه ، وهو مقصود القرآن الذي انتظمته الفاتحة بالقصد الأول ، ولن يكون ذلك إلا بما ذكر علما وعملا ، ولما كان المقصود من جمعهم على الله تعالى معرفته لأجل عباداته وكان اتزام اسمه تعالى في كل حركة وسكون قائدا إلى مراقبته وداعيا إلى مخافته واعتقاد أن مصادر الأمور ومواردها منه وإليه شرعت التسمية أول كل شيء فصدرت بها الفاتحة .
+وقد التعود الذي هو من درء المفاسد تعظيما للقرآن بالإشارة إلى أن يتعين لتاليه أن يجتهد في تصفية سره وجمع متفرق أمره ، لينال سؤله ومراده مما أودعه من خزائن السعادة بإعراضه عن العدو الحسود وإقباله على الولي الودود ، ومن هنا تعرف مناسبة المعوذتين بالفاتحة . ولما افتتح التعوذ بالهمزة أشارة إلى ابتداء الخلق وختم بالميم إيماء إلى المعاد جعلت البسملة كلها للمعاد لأبتدائها بحرف شفوي ، وختام أول كلماتها ومآخرها بآخر إشارة إلى أن الرجوع إليه في الدنيا معنى بتدبير الأمور وإن كان أكثر الخلق غافلا عنه ، وفي البرزخ حسا بالاموت ، وفي الآخرة كذلك بالبعث ، كما أشار إلى ذلك تكرير الميم المختتم بها في اسمها بذكرها فيه مرتين إشارة إلى المعادين الحسيين والله أعلم . والمراد بالاسم الصفات العليا . وقال الأستاذ أبو الحسن الحرالي في تفسيره في غريب ألفاظ البسملة : الباء معناها أظهره الله سبحانه من حكمة التسبيب ، ' الاسم ' ظهور ما غاب أو غمض للقلوب بواسطة اآذان على صورة الأفراد ، ' الله ' اسم ما تعنو إليه القلوب عند موقف العقول فتأله فيه أي تتحير فتتألهه وتلهو به أي تغني به عن كل شيء ' الرحمن ' شامل الرحمة لكافة ما تناولته الربوبية ، ' الرحيم ' خاص بالرحمة بما ترضاه اإلهية .
+
+== BIQAI-FULL:v1p15  [الفاتحة : ( 1 - 7 ) بسم الله الرحمن . . . . .]  page=v1p15
+77 ( { وسيجزيهم وصفهم } ) 77
+[ الأنعام : 193 ] و
+77 ( { جزاء بما كانوا يعملون } ) 77
+[ السجدة : 17 ] . [ الأحقاف : 4 ] , [ الواقعة : 24 ] وبه تم انتهاء الشرف العلي وهو المجد الذي عبر عنه قوله تعالى : ( مجدني عبدي ) انتهى , ولنا لم يكن فرق هما في الدلالة على الملك بين قراءة ( ملك ) وقراءة ( مالك ) جاءت الرواية بهما , وذلك لأن المالك إذا أضيف إلى اليوم أفاد اختصاصه بجميع ما فيه من جوهرة وعرض , فلا يكون لأحد معه أمر ولامعنى للملك سوى هذا , ولما لم تفد إضافة إلى الناس هذا المعنى لم يكن خلاف في
+77 ( { ملك الناس } ) 77
+
+== BIQAI-FULL:v1p21  [الفاتحة : ( 1 - 7 ) بسم الله الرحمن . . . . .]  page=v1p21
+77 ( { اليوم أكملت لكم دينكم } ) 77
+[ المائدة : 3 ] آية , بعثت لأتمم مكارم الأخلاق . أن إلى ربك المنتهى . ووجه فوت أم القرآن مقصود تنزيله التفصيل والجوامع , فيه نجوم مبثوثة غير منتظمة , وحداة إثر واحدة , والجوامع في أم القرآن منتطمة واحدة بعد واحدة إلى تمام السبع على وفاء لامزيد فيه ولا نقص عنه ؛ أظهرتعالى بما له سورة صورة تجلية من بدءالملك إلى ختم الحمد , وبما لعبده مصورة تادية من براءتة من الضلال إلى هدى الصراط المستقيم ,
+77 ( { ووجدك ضالا فهدى } ) 77
+[ الضحى : 7 ] وبما بينه وبينه قيام ذات الأمر والخلق فكان ذلك هو القرآن العظيم الجامع لما حواه القرآن المطلق الذكرى بما فيه من ذلك تصيلامن مبينة وهو ما عيونت آية مسموعة , ومن مجيده وهو ما حربت أحكامه من بين عاجل ما شهد وآجل ما علم , يعلم ما شهد فكان معلوما بالتجربة المتيقنة بما تواتر من القصص الماضي وما علم , يعلم ما شهد فكان معلوما مع الأوقات من أمثاله وأشباهه , ومن كريمه وهوما ظهرت فيه أفانين إنعامه فيما دق وجل وخفى وبدا , ومن حكيمه وهو ما ظهر في الحكمة المشهورة تقاضيه وانتظام مكتوب خلقه على حسب تنزيل أمره ؛ وما كان منه بتدريج وتقريب للأفهام ففاءت من حال إلى حال وحكم إلى حكم كان تنزيلا , وما أهوى به من علو إلى سفل كان إنزالا , د وهو إنزال حيث لا وسائط وتنزيل حيث الوسائط ؛ وبيانه حيث الإمام العامل به مظهره في أفعال وأخلاقه كان خلقه القرآن , وقرآنه تلفيق تلاوته على حسب ما تتقاضاه النوازل . آخر أية أنزلت
+77 ( { واتقوا يوما ترجعون فيه إلى الله } ) 77
+[ البقرة : 281 ] قال صالى الله عليه وسلم في مضمون قوله تعالى
+77 ( { إن علينا جمعه وقرآنه } ) 77
+[ القيامة : 17 ] ( وجعلوها بين آية الدين والآية قبلها ) لأنه ربما تقدم كيان الآية وتأخر في الظم قرآنها على ما تقدم عليها , آية
+
+== BIQAI-FULL:v1p22  [الفاتحة : ( 1 - 7 ) بسم الله الرحمن . . . . .]  page=v1p22
+77 ( { يا أيها النبي إنا أحللنا لك أزواجك } ) 77
+[ الأحزاب : 50 ] الآية متأخرة الكيان متقدمة القرآن على آية { لا يحل لك النساء من بعد } فقد يتطابق قرآن الأمر وتطور الخلق وقد لا يتابق والله يتولى إقامتها ؛ وأما الجمع ففي قلبه نسبة جوامعه السبع في أم القرآن إلى القرآن بمنزلة نسبة جمعه في قلبه لمحا واحدا إلى أم القرآن
+77 ( { وما أمرنا إل واحدة كلمح بالبصر } ) 77
+[ القمر : 50 ] فهو جمع في قلبه , وقرآن على لسانه , وبيان في أخلاقه وأفعاله , وجملة في صدره , وتنزيل في تلاوته ,
+77 ( { وقال الذين كفروا لولا نزل عليه القرآن جملة واحدة } ) 77
+[ القرقان : 32 ] قال الله تعالى : كذلك أي كذلك أنزلناه , إلا ما هو منك بمنزلة سماء الدنيا من الكون
+77 ( { إنا أنزلناه في ليلة مباركة } ) 77
+[ الدخان : 3 ] أي إلى سماء الدنيا
+77 ( { ونزلناه تنزيلا } ) 77
+[ الإسراء : 106 ] وعلى لسانه في أمد أيام النبوة , وقال في تفسيره : القرآن باطن وظاهره محمد صلى الله عليه وسلم , قالت عائشة رضى الله عنها : كان خلقه القرآن , فمحمد صلى الله عليه وسلم صورة باطن سورة القرآن , فالقرآن باطنه وهوظاهره
+77 ( { نزل به الروح المين على قلبك } ) 77
+[ الشعراء : 194 ] وقال في تفسير الفاتحة : وكانت سورة الفاتحة أماللقرآن , لأن القرآن جميعه مفصل من مجملها , فالآيات الثلاث الول قال شاملة لكل معنى تضمنته الأسماء الحسنى والصفات العلى , فكل ما في القرآن من ذلك فهو مفصل من جوامعها , والآيات الثلاث الخر من قوله : { اهدنا } شاملة لكل ما يحيط بأمر الخلق في الوصول إلى الله والتحيز غلى رحمة الله والنقطاع دون ذلك , فكل ما في القرآن منه فمن تفصيل جوامع هذه , وكل ما يكون وصلة بين مما ظاهرهن من الخلق ومبدؤه وقيامه من الحق فمفصل من آية { إياك نعبد وإياك نستعين } انتهى . ومن أنفع الأمور في ذوفق هذا الشرب استجلاء الحديث القدسي الذي رواه مسلم فسي صحيحه وأصحاب السنن الأربعة عن أبي هريرة رضى الله عنه قال : سمعت زسول الله صلى اله عليه وسلم يقول : ( قال الله عز وجل : قسمت الصلاة بيني وبين عبدي نصفين ولبعدي ما سأل فإذاقال العبد ) الحمد لله رب العالمين ( قال الله تعالى : حمدني عبدي , إذا قال ) الحمن الرحيم ( قال الله : فوض عبدي , وإذا قال : ) مالك يوم الدين ( قال الله : مجدني عبدي . وقال مرة : فوض إلي عبدي , وإذا قال ) إياك نعبد وإياك نستعين ( قال : هذا بيني وبين عبدي ولعبدي ما سأل , وإذا قال : اهدنا الصراط الستقيم صراط الذين انعمت عليهم غير المغضوب عليهم ولا الضالين ) قال : ( هذا لعبدي ولعبدي ما سأل ) والله أعلم . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+== BIQAI-FULL:v1p24  [الفاتحة : ( 1 - 7 ) بسم الله الرحمن . . . . .]  page=v1p24
+70 ( سورة البقرة ) 70
+مقصودها إقامة الدليل على أن الكتاب هدى ليتبع يفي كل ما قال ، وأعظم ما يهدي إليه الإيمالن بالغيب ، ومجمعه الإيمان بالآخرة ، فمداره الإيمان بالبعث الذي أعربت عنه قصة البقرة التي مجارها الإيمان بالغيب فلذلك سميت بها السورة وكانت بذلك أحق من قصة إبراهيم عليه الصلاة والسلام لأنها في نوع البشر ومما تقدمها في قصة بني إسرائيل من الأحياء بعد الإماتة بالصعق وكذلك ما شاكلها ، لأن الأحياء في في قصة البقرة عن سبب ضعيف في الظاهر بمباشرة من كان من آحاد الناس فهي أدل على القدرة ولا سيما وقد اتبعت بوصف القلوب والحجارة بما عم اللمهتدين بالكتاب والضالين فوصفها بالقسوة الموجبة للشقوة ووصفت الحجارة بالخشية الناشئة في الجملة عن التقوى المانحة للمدد المتعدي نفعه إلى عباد الله ، وفيها إشارة إلى أن هذا الكتاب فينا كما لو كان فينا خليفة من أولي العزم من الرسل يرشدنا في كل أمر إلى صواب المخرج منه فمن أعرض خاب ، ومن تردد كاد ، ومن أجاب اتقى وأجاد . وسميت الزهراء لإنارتها طريق الهداية والكفاية في الدنيا والآخرة ، ولأيجابها إسفار الوجوه يفي يوم الجزاء لمن آمن بالغيب ولم يكن في شك مريب فيحال بينه وبين ما يشتهي ، بالسنام لأنه ليس في الإيمان بالغيب بعد التوحيد الذي هو الأساس الذي يتبني عليه كل خير والمنتهى الذي هو غاية السير والعالي على كل غير بأعلى ولا أجمع من الإيمان بالآخرة ، ولأن السنام أعلى ما في بطن المطية الحاملة والكتاب الذي هي سورته هو أعلى ما في الحامل للأمر وهو اللشرع الذي أتاهم به رسولهم صلى الله عليه وسلم .
+بسم الله الذي نصب مع كونه باطنا دلائل الهدى حتى كان ظاهرا ، ' الرحمن ' الذي أفاض رحمته على سائر خلقه بعد الإيجاد ببيان الطريق ، ' الرحيم ' الذي خص أهل وده بالتوفيق . قال العلامة أبو الحسن الحرالي في كتاب العروة لمفتاح الباب المقفل في معنى ما رواه عن ابن وهب من حديث ابن مسعود رضي الله عنه عن النبي صلى الله عليه وسلم قال : ' كان الكتاب الأول ينزل من باب واحد على حرغف واحد ونزل القرآن من سبعة أبواب على سبعة أحرف : زاجر وآمر وحلال وحرام ومحكم ومتشابه ، وأمثال فأحلوا حلاله وحرموا حرامه وافعلوا ما أمرتم به وانتهوا عما نهيتم عنه واعتبروا بأمثاله واعملوا بمحكمه آمنوا بمتشابهه وقولوا : آمنا به ، كل من عند ربنا ' وهذا الحديث رواه أبو بكر بن أبي شيبة في مسنده وأبو يعلى الموصلي ومن طريقة ابن حبان في صحيحه ، كلهم من طريق ابن وهب عن حيوة عن عقيل بن خالد عن سلمة بن أبي سلمة بت عبد الرحمن بن عوف عن أبيه عن ابن مسعود رضي الله عنه . فذكره من غير ذكر النبي صلى الله عليه وسلم ، وقال العلامة الحافظ أبو شامة عبد الرحمن بن إسماعيل الدمشقي الشافعي في كتابه ' المرشد الوجيز إلى علوم تتعلق بالكتاب العزيز ' بعد أن ساق هذا الحديث من رواية سلمة بن أبي سلمة بن عبد الرحمن عن أبيه عن ابن مسعود رضي الله عنه .
+
+== BIQAI-FULL:v1p25  [الفاتحة : ( 1 - 7 ) بسم الله الرحمن . . . . .]  page=v1p25
+قال أبو عمر بن عبد البر : هذا الحديث عند أهل الحديث لم يثبت ، وأبو سلمة لم يلق ابن مسعود ، وابنه سلمة ليس مم يحتج به ، نوهذا الحديث مجمع على ضعفه من جهة إسناده وقد رده قوم من أهل النظر منهم أحمد بن أبي عمران فيما سمعه الطحاتوي منه ويرويه الليث عن عقيل عن ابن شهاب عن أم سلمة عن أبي سلمة عن النبي صلى الله عليه وسلم مرسلا ، قال أبو شامة : وهكذا رواه البيهقي في كتاب المدخل وقال : هذا مرسل جيد ، أبو سلمة لم يدرك ابن مسعود ، ثم رواه موصولا وقال : فإن صح فمعنى قوله : سبعة أحرف ، أي سبعة أوجه ، وليس المراد به اللغات التي أبيحت القراءة عليها وهذا المراد به الأنواع التي نزل القرآن عليها والله أعلم . قلت : عزاه شيخنا العلامة مقرئ زمانه شمس الدين محمد بن محمد بن محمد ابن الجزري الدمشقي الشافعي في أوائل كتابه ' النشر في القراءات العشر ' إلى الطبراني من حديث عمر بن أبي سلمة المخزومي رضي الله عنهما أن النبي صلى الله عليه وسلم قال لابن مسعود رضي الله عنه : ' إن الكتب كانت تنزل من السماء من باب واحد وإن القرآن أنزل من سبعة أبواب على سبعة أحرف :
+حلال وحرام ومحكم ومتشابه وضرب أمثال و [ آمر و ] زاجر ، فأحل حلاله وحرم حرامه واعم لبمحكمه وقف عند ةمتشابهه واعتبر أمثاله ، فإن كلا من عند الله وما يذكر إلا أولو الألباب ورواه الحافظ أبو بكر بن أبي داود في متالب المصاحف ' من وجه آخر عن عبد الله قال : ' إن القرآن أنزل على نبيكم صلى الله عليه وسلم من سبعة أبواب على سبعة أحرف أو حروف . وإن الكتاب قبلكم كان ينزل أو نزل . من باب واحد على حرف واحد ورواه البيهقي في فضل القرآن من الشعب عن أبي هريرة رضي الله عنه بلفظ : ' نزل القرآن على خمسة أوجه : حلال وحرام ومحكم ومتشابه وأمثال ' . قال الحرالي : زفي حديث آخر من طريق ابن عمر رضي الله عنهما : إن الكتب كانت تنزل من باب واحد وإن هذا القلرآن أنزل منت سسبعة أبواب على سبعة أحرف وققال في معنى ذلك : اعلم أن القرآن منزل عند انتهاء الخلق وكمال كل الأمر بدءا فكان المتخلق به جامعا لانتهاء كل خلق وكمال أمر فلذلك صلى الله عليه وسلم قثم الكون وهو الجامع الكامل . ولذلك كان خاتما ، وكان كتابه ختما ، وبدأ المعاد من حد ظهوره ، إنه هو يبدئ ، ويعيد ، فاستوفى صلاح هذه الجوامع الثلاث التي قد خلت في الأولين بداياتها وتمت عنده نهاياتها ' بعثت لأتمم مكارم الأخلاق ' رواه أحمد عن معاذ رضي الله عنه رفعه ، وهي صلاح الدنيا والدين والمعاد التي جمعها في قوله صلى الله عليه وسلم فيما رواه مسلم عن أبي هريرة رضي الله عنه :
+
+== BIQAI-FULL:v1p27  [الفاتحة : ( 1 - 7 ) بسم الله الرحمن . . . . .]  page=v1p27
+' اللهم أصلح لي ديني الذي هو عصمة أمري ، أصلح لي دنياي التي فيها معاشي ، وأصلح لي آخرتي التي إليها معادي ' وفي كل صلاح إقدام وأحجام فتصير الثلاثة الجوامع ستة مفصلات هي حروف القرآن الستة التي لم يبرح يستزيدها من ربه حرفا حرفا ، فلما استوفى الستة وهبه ربه حرفا جامعا سابعا فردا لا زوج له ن فتم إنزاله على سبعة أحرف . فأدنى تلك الحروف هو حرف إصلاح الدنيا ، فلها حرفان ، أحدهما : حرف الحرام الذي لا تصلح النفس والبدن إلا بالتطهير منه لبعدهع عن تقويمها ، والثاني حرف الحلال الذي تصلح النفس والبدن عليه لموافقته لتقويمها ، وأصل هذين الحرفين في التوراة ، وتمامهما في القرآن . ثم يلي هذين حرفا صلاح المعاد : أحدهما حرف الزجر والنهي التي لا تصلح الآخرة إلا بالتطهير منه لبعده عن حسناها ، والثاني حرف الأمر الذي تصلح الآخرة عليه لتقاضيه بحسناها ، وقد يتضرر على ذلك حال الدنيا ، لأنه يأتي على كثير من حلالها لوجوب إيثار الآخرة لبقائها ىوكليتها على الدنيا لفنائها وجزئيتها ، لكون خير الدنيا جزءا من ماله وشر الدنيا جزءا من سبعين جزءا ولا يءثر هذا الجزء الأدنى لحضوره على ذلك الكل الأنهى لغيابه إلا من سفه نفسه وضعف إيمانه ، فتخلص المرء من حرف الحرام طهره وتخلصه من النهي طيبه ، وأصل هذين الحرفين في الإنجيل وتمامهما في القرآن .
+ثم يلي هذين حرفا صلاح الدين : أحدهما حرف المحكم الذي بان للعبد فيه خطاب ربه من جهة أحوال قلبه وأخلاق نفسه وأعمال بدنه فيما بينه وبين ربه من غير التفات لغرض النفس في عاجل الدنيا ولا آجلها ، والثاني حرف المتشابه الذي لا يبين للعبد فيه خطاب ربه من جهة قصور عقله من إدراكه ووجوب تسبيح ربه عن تمثل عبده إلى أن يؤيده الله بتأييده . والحروف الخمسة للاستعمال وهذا الحرف السادس للوقوف ليكون العبد قد وقف لله بقلبه عن حرف كما قد كان أقدم لله على تلك الحروف ولينسخ بعجزه وإيمانه عند هذا الحرف السادس انتهاء ما تقدم من طوقه وعلمه في تلك الحروف ابتداء ، وأصل هذين الحرفين في الكتب المتقدمة كلها وتمامها في القرآن . فهذه الحروف الستة يشترك فيها القرآن مع سائر الكتب ويزيد عليها تمامها وبركة جمعها ، ويختص القرآن بالحرف السابع الجامع مبين المثل الأعلى ومظهر اللمثول الأعظم حرف الحمد الخاص بمحمد صلى الله عليه وسلم وهو حرف المثل . وعن جمعه وكمال جمعه لمحمد صلى الله عليه وسلم في قلبه وقراءته على لسانه وبيانه في ذاته ظهرت عليه خواص خلقه الكريم وخلقه العظيم ، ولا ينال إلا موهبة من الله تعالى لعبده بال واسطة والستة تتنزل بتوسطات من استواء الطبع وصفاء العقل بمثابة وحي النبي وإلهام الولي .
+
+== BIQAI-FULL:v1p28  [الفاتحة : ( 1 - 7 ) بسم الله الرحمن . . . . .]  page=v1p28
+ولما كان حرف الحمد هو سابعها الجامع افتتح الله به سبحانه وتعالى الفاتحة أم القرآن وأم الكتاب وجمع فيها جوامع الحروف السبعة التي بثها في القرآن كما جمع في القرآن ما بث في جميع الكتب المتقدمة ، كفضة ثقلت على مريد السفر فابتاع بها ذهبا فذلك مثل القرآن ثم ثقل عليه الذهب فابتاع به جواهرا ، فذلك مثل أم القرآن فأذن كمال الحروف التي أنزل عليها القرآن موجودة في جوامع أم القرآن ، فالآية الأولى تشتمل على حرف الحمد السابع ، والثانية تشتمل على حرفي الحلال والحرام الذين أقامت الرحمانية بهما الدنيا يريد - والله سلحانه وتعالى أعلم - أن الرحمانية وسعت على العباد الاستمتاع بالمخلوق من النعم والخيرات الموافقة لطباعهم وأمزجتهم زقبول نفوسهم في جميع جهات الاستمتاع ، فكان في ذلك رحمتان : رحم بالإباحة وهي إزالة حرج الحظر ورحمة يمنع لحاق حرج الإثم أو يجعل المباح شهيا للطبع ، وأما الرحيمية فطهرتهم من مضار أبدانهم ورجاسة نفوسهم ومجهلة قلوبهم ، ففي ذلك رحمة واحدة وهي حمية المحبوب عن المضار من المحبوب ، أو يريد - وهو والله تعالى أعلم أقرب - أن الرحمانية أقامت بعمومها كل ما شملته الربوبية من إفاضة النعم وإزاحة النقم على وجه مسعد أو مشق ، والرحيمية أقامت بخصوصها كما تقدم بما ترضاه الإلهية إدرار النعم ودفع النقم على الوجه المسعد خاصة .
+انتهى . والآية الثالثة تشتمل على أمر المللك القيم على حرفي الأمر والنهي اللذين ييبدو أمرهما في الدين ، والرابعة تشتمل على حرفي المحكم في قوله ^ ( إياك نعبد ) ^ [ الفاتحة : 5 ] والمتشابه في قوله ^ ( وإياك نستعين ) ^ [ الفاتحة : 5 ] ولما كانت بناء خطاب محاضرة لم تردد مسألتها في السورةى فانفرد هذان الحرفان عن الدعاء فيهما / وعادتت مسألة الآيةى الخاتمسة على حرف الحمد ومسألة الآية السادسة على آية النعمة من حرفي الحلال والحرام ومسألأة الآية السابعة على آية الملك من حرفي الأمر والنهي فجمعت الفاتحة جوامع الحروف السبعة . ولما ابتئت الفاتحة أم القرآن بالسابع الجامع الموهوب ابتدئ القرآن بالحرف السادس المعجوز عنه وهو حرف المتشابه ، لأنه عن إظهار العجز ومحض الإيمان كانت الهبة والتأييد ، وليكون العبد يفتتح القرآن بالإيمان يغيب متشابه في قوله ' الم ' فيكون أتم انقيادا لما دونه وبريئا عن الدعنوى في مستطاعه في سائر الحروف ، ثم ولى السادس المفتتح به القرآن الخامس المحكم كم وجه في قوله سبحانه وتعالى ^ ( ويقيمون الصلاة ومما رزقناهم ينفقون ) ^ لأن من عمل بها من قلبه شعبة إيمان وعلم كانت له من المحكم ، ومن عمل بها ائتمارا وإلجاء ولم يدخل الإيمان في قلبه كانت له حرف أمر ^ ( وإن تطيعوا الله ورسوله لا يلتكم من أعمالكم شيئا ) ^ [ الحجرات :
+
+== BIQAI-FULL:v1p29  [الفاتحة : ( 1 - 7 ) بسم الله الرحمن . . . . .]  page=v1p29
+14 ] . وهذا إنما وقع ترتيبه هكذا في القرآن المتلو ، وأما تنزيله يفي ترتيب البيان فإن أ , ل ما نزل على النبي صلى الله عليه وسلم هو حرف المحكم وهو قوله سبحانه وتعالى ^ ( اقرأ باسم ربك الي خلق * خلق الإنسان من علق * اقرأ وربك الأكرم 8 ) ^ [ العلق : 1 - 5 ] الآياتن الخمس ، وأونل ما أنزل إلى الأمة يفي ترتيب البيان هو من حرف الزجر والنهي وهو قوله سبحانه وتعالى ^ ( يا أيها المدثر * قم فأنذر * ) ^ [ المدثر : 1 - 2 ] أي ^ ( نذير لكم بين يدي عذاب شديد ) ^ [ سبأ : 46 ] أعلمهم بما تخاف عاقبته في الآخرة وإن كانوا قد اتخذوا في الدنيا مودة بأوثانهم وقال تعالى ^ ( إنما اتخذتم من دون الله أوثانا مودة بينكم في الحياة الدنيا ثم يوم القيامة يكفر بعضكم ببعض ) ^ [ العنكبوت : 25 ] الآية ، فابتدأ سبحانه وتعالى ترتيل الأمة بإصلاح المعاد الأهم لأن عليه يصلح أمر الدنيا ، من استقل بآخرته كفاه الله أمر دنياه ، وبدأ منها بحرف الزجر والنهي وهو المبدوء به في الحديث ورده النبي صلى الله عليه وسلم لفظ الزجر بلفظ النهي لأن المقصود بهما واحد وهو الردع عما يضر في المعاد إلا أن الردع عل وجهين :
+خطاب لمعرض ويسمى زجرا كما يسمى في حق البهائم ، وخطاب لمقبل على التفهم ويسمى نهيا ، قكأن الزجر يزيع الطبع والنهي يزيع العقل , انتهى . وقد بان من هذا سر افتتاح البقرة بالمعروف المقطعة . ولما كان الذي ابتدئت به السور من ذلك شطر حروف المعجم كان كأنه قيل من زعم أن القرآن ليس كلام الله فليأخذ الشطر الآخر ويركب عليه كلاما يعارضه به ، نقل ذلك الزركشي في البرهان عن القاضي أبي بكر قال : وقد علم ذلك بعض أرباب الحقائق ، وجمعها الزركشي في قوله : نص حكيم قاطع له سر ، وعن أبي بكر رضي الله تعالى عنه : في كل كتا بسر وسر الله في القرآن أوائل السوروعن علي رضي الله تعالى عنه و كرم الله وجهه : أن لكل كتاب صفوة ، وصفوة هذا الكتاب حروف التهجي . ولما كانت حروف المعجم تسعة وعشرين حرفا بالهمزة وكان أحد شطرها على التحرير متعذرا فقسمت خمسة عشر وأربعة عشر ، وأخذ الأقل من باب الأنصاف وفرق في تسع وعشرين سورة على عدد الحروف ، وتحدي به على هذا الوجه ، وأبدى الإمام شمس الدين ابن فقيم الجوزيه الدمشقي الحنبلي يفي كتاب به كالتذكرة سماه ' بدائع الفرائد ' سرا غريبا في ابتداء القرآن بقوله ^ ( الم ) ^ حاصله أن حروفه الثلاثة جمعت المخارج الثلاثية : الحلق واللسان والشفتان . على ترتيبها وذلك إشارة إلى البداية التي هي بدء الخلق والنهاية التي هي المعاد والوسط الذي هو المعاش من التشريع بالأوامر والنواهي ، وفي ذلك تنبيه على أن هذا الكتاب الذي ركب من هذه الحروف التي لا تعدو المخارج الثلاثة التي بها يخاطب جميع الأمم جامع لما يصلحكم من أحوال بدء الخلق وإعادته وما بين ذلك ، وكل سورة افتتحت بهذه الحروف ذكرت فيها الأحوال الثلاثة . وقال الحرالي في تفسيره : ' الف ' اسم للقائم الأعلى المحيط ثم لكل مستخلف في القيام كآدم والكعبة ، ' ميم ' اسم للظاهر الأعلى الذي من أظهرة ملك يوم الدين ، واسم للظاهر الكامل المؤتى جوامع الكلم محمد صلى الله عليه وسلم . ثم لكل ظاهر دون ذلك كالسماء والفلك والأرض ' لام ' اسم لما بين باطن الإلهية التي هي محار العقول التي هي وصل تنزل ما بينهما كاللطيف ونحوه ، ثم للوصل الذي كالملائكة وما تتولاه من أمر
+الملكوت ، وهذه الألفاظ عند انعجام معناها تسمى حروفا ، والحرف طرف الشيء الذي لا يؤخذ منفردا وطرف القول الذي لا يفهم وحده ، وأحق ما تسمى حروفا إذا نظر إلى صورها ووقوعها أجزاء من الكلم ولم تفهم لها دلالة فتضاف إلى مثلها جزء من كلمة مف … [cut at 3000 of 3250 characters]
+
+== BIQAI-FULL:v1p31  [الفاتحة : ( 1 - 7 ) بسم الله الرحمن . . . . .]  page=v1p31
+وأما حقيقتها فهي جوامع أصلها في ذمر أول من كلام الله تعالى فنزلت إلى الكلم العربية وترجمت بها ونظم منها هذا القرآن العربي المبين ، فهي في الكنب العلوية الملكوتية المترتبة في الجمع والتفصيل آية وكلم وذات كتاب ، فلما نزلت إلى غاية مفصل القرآن أبقيت في افتتاحه لتكون علما على نقله للتفصيل من ذلك الكتاب ، ولأنها أتم وأوجز فغيء الدلالة على الجمع من المفصل منها ودلالتها جامعة للوجود كله من أبطن قيمه إلى أظهره وأظهر مقامه وما بينهما من الوصلة والواصلة وهي جامعة الدلالة على الكون المرئي للعين بالعين والوحي المسموع ، ولأجل ما اقتضته من الجمع لم تنزل يفي كتاب متقدم لأن كتا بكل وقت مطابق بحال الكون فيه والكون كان بعد لم يكمل فكانت كتبه وصحفه بحسبه ن ولما كمل الكون في وقت سيدنا محمد صلى الله عليه وسلم كان كتابه كاملا جامعا فوجب ظهور هذه الجوامع فيه ليطابق الختم البدئ ، لأنهما طرفا كمال وما بينهما تدرج إليه ، وقد كان وعد بإنزالهما في بعض تلك الكتب فكان نزولها نجازا لذلك . أنتهى . وأما منسبة ما بعد ذلك للفاتحة فهو أنه لما أخبلا سبحانه وتعالى أن عباده المخلصين سألوا في الفاتحة هداية الصراط المستقيم الذي همو غير طرلايق الهالكين أرشدهك في أول التي تليها إلى أن الهدى المؤول إنما هو في هذا الكتاب ، وبين لهم صفات الفريقين الممنوحين بالهداية حتى على التخلق بها والممنوعين منها زجرا عن قربها . فكاتن ذلك أعظم المناسبات لعقيب الفاتحة بالبقرة ، لأنها سيقت لنفي الريب عن هذا الكتاب ولأنه هدى للمتقين ، ولوصف المتقين وما يجازون به بما في الآيات الثلاث ولوصف الكافرين الذين لا يؤمنون لما وقع من الختم على جواسهم والحتم لعقابهم ليعلم أن ما اتصف به المتقون هو الصراط المستقيم فيلزم وما اتصف به من عداهم هو طريق الهالكين فيترك ، وفي الوصف بالتقوى بعد ذكر المغضوب عليهم والضالين إشارة إلى أن المقام مقام الخوف . وإن شئت قلت : مقصود هذه السورة وصف الكتاب فقط وما عدا ذلك فتوابع ولوازم ولن يثبت أنه هدى إلا بإثبات أ ، ه حق معنى ونظما ، ولما كان المعنى أهم قدم الاستدلال عليه فأخبر من تماديهم على الكفر بما يكون
+تكذيبهم به تصديقا له ، واتبع ذلك بذكر المنافقين إعلاما بأن المنفي الإيمان بالقلب وأنه لا عبرة باللسان إذا تجرد عنه ، وساق ذلك على وجه يعلمون به أنه الحق بما هتك من سرائرهم وكشف من ضمائرهم ، فلما تم ذلك وكان المقصود منه الدعاء إلى الله انتهزت تلك الفلبرصة بقوله تعالةى ^ ( يا أيها الناس اعبدوا ربكم ) ^ [ البقرة : 21 ] لما أسس لها من الترغيب بالترهيب ، ثم أقيم الدليل على حقية نظمه بتقصيرهم عن مدى سهمه ، فرجع حاصل ذلك إلى إثباته بعجزهم عن معارضته في معناه بإيجاد من أخبر بنفيه وفي نظمه بالإتيان بمثله ، فلما ثبت ذلك ثبت أنه من عند الله فثبت تأهله لتعليم الشرائع فجعلها ضمن مجادلة أهل الكتاب بما يعلمون حقيته بلا ارتياب من الدعاء إلى ما أخفوه من الدعائم الخمس التي بني عليها الإسلام
+
+== BIQAI-FULL:v1p13  [الفاتحة : ( 1 - 7 ) بسم الله الرحمن . . . . .]  page=v1p13
+وقال في غريب معناها : لما أظهر الله سبحانه حكمة التسبيب وأرى الخلق استفادة بعض الأشياء من أشياء أخر متقدمة عليها كأنها أسبابها ، وقف بعض الناس عند أول سبب فلم ير ما قبله ، ومنهم من وقف عند سبب السبب إلى ما عساه ينتهي إليه عقله ، فطوى الحق تعالى تلك الأسباب وأظهر بالبسملة أي بتقديم الجار أن كل شيء باسمه لا بسبب سواه ، وقال استفتح أم القرآن بالبسملة لما كانت نسبتها من متلو الصحف والكتب الماضية نسبة أم القرآن الكتاب الجامع للصحف والكتب لموضع طيها الأسباب ، كما تضمنت أم القرآن سر ظهور الأفعلال بالعناية من الحميد المجيد ويفي آية ' إياك نعبد وإياك نستعين ' هذا في ظاهر الخطاب إل مكا وراء ذلك من باطنه فإن لكل آية ظهرا وبطنا وليلتزمها الخلق يفي ابتداء أقوالهم وأفعالهم ، هكذا قال . وأشد منه أنه لما كانت نسبة البسملة من الفاتحة نسبة الفاتحة من القرآن صدرت بها الفاتحة كما صدر القرآن بالفاتحة ، لأنها لما أفادت نسبة الأمور كلها إليه سبحانه وحده أفادت أنه الإله وحده وذلك هو إجما لتفصيل الفاتحة كما أن الفاتحة إجمال تفصيل القرآن من الأصول والفروع والمعارف واللطائف . ولما كان اسم الجلالة علما وكان جامعا لجميع معاني الأسماء الحسنى أولية الرحمن من حيث أنه كالعلم في أنه لا يوصف به غيره ومن حيث أنه أبلغ من الرحيم فأولى الأبلغ الأبلغ ، وذلك موافق لترتيب الوجود ، الإيجاد ثم النعم العامة ثم الخاصة بالعبادة ، وذكر الوصفان ترغيبا ، وطويت النقمة في إفهام اختصاص الثاني لتمام الترغيب بالإشارة إلأى الترهيب . والمراد بهما هنا أنه سبحانه يستحق لااتصاف بهما لذاته ، وكررهما بعهد تنبيها عل وجوب ذلك للربوبية والملك وللدلالة على أن الرحمة غلبت الغضب ، وفيهمات إلى ما ذك رمن الترغيب الدلالة على سائر الصفات الحسنى ، لأن من عمت رحمته امتنع أن يكون فيه شوب نقص وفي آخر سبحان لهذا المكان مزيد بيان ، وكونها تسعة عشر حرفا خطية وثمانية عشر لفظية إشارة إلى أنها دوافع النقمة من النار التي أصحابها تسعة عشر ، وجوالب للرحمة بركعات الصلوات الخمس وركعة الوتر اللاتي من أعظم العبادات الكبرى . ولما كانت البسملة نوعا من الحمد
+ناسب كل المناسبة تعقيبها باسم الحمد ةالكلي الجامع لجميع أفراده فكأنه قبل : احمدوه لأنه المستحق لجميع المحامد ، وخصوا هذا النوع من الحمد في افتتاح أموركم لما ذكر من استشعار الرغبة إليع والرهبة منه المؤدي إلى لزوم طريق الهدى ، والله الموفق . ولما أثبت بقوله : { الحمد لله } أنه المستحق لجميع المحامد لا لشىء غير ذاته الحائز لجميع الكمالات أشار إلى أنه يستحقه أيضامن حيث كونه ربامالكامنعمافقال : { رب } وأشار بقوله : { العالمين } إلى ابتداء الخلق تنبيهاعلى الاستدلالات نالموضوع على الصانع وبالبداءة غلى الإعادة كما ابندأالتوراة بذلك لذلك قال الحرالي : و { الحمد } المدح الكامل الذي يحيط بجميع الأفعال والأوصاف , على أن جميعها إنما هو من الله سبحانه ةتعالى وأنه كله مدح لا يتطرق إلى ذم , فإذا اضمحل ازدواج المدح بالذم وعلم سريان المدح في الكل استحق عند ذلك ظهور اسم الحمد مكملامعرفا بكلمة ( أل ) وهي كلمة دالة فيما اتصلت به على انتهائه وكماله . انتهى . ولما كانت مرتبة الربوبية لا تستجمع الصلاح إل بالرحمة اتبع ذلك بصفتي { الرحمن الرحيم } ترغبيافي لزوم حمده , وهي تتضمن تثنية تفصيل ما شمله الحمد أصلا ؛ وسيأتي سر لتكرير هاتين الصفتين في الأنعام عند
+
+== DURR:1:3
+{ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ} (3)
+أخرج عبد بن حميد من طريق مطر الوراق عن قتادة في قول الله { الحمد لله رب العالمين } قال : ما وصف من خلقه .   وفي قوله { الرحمن الرحيم } قال : مدح نفسه { ملك يوم الدين } قال : يوم يدان بين الخلائق .   أي هكذا فقولوا { إياك نعبد وإياك نستعين } قال : دل على نفسه { اهدنا الصراط المستقيم } أي الصراط المستقيم { صراط الذين أنعمت عليهم } أي طريق الأنبياء { غير المغضوب عليهم } قال : اليهود { ولا الضالين } قال : النصارى .
+وأخرج الدارقطني والحاكم والبيهقي عن أم سلمة  " أن رسول الله صلى الله عليه وسلم قرأ في الصلاة { بسم الله الرحمن الرحيم } فعدها آية { الحمد لله رب العالمين } آيتين { الرحمن الرحيم } ثلاث آيات { ملك يوم الدين } أربع آيات وقال : هكذا { إياك نعبد وإياك نستعين } وجمع خمس أصابعه "  .
+
+== DURR-FULL:v1p23  [سورة الفاتحة (مكية وآياتها سبع)]  page=v1p23
+وأخرج ابن أبي حاتم من طريق جويبر عن الضحاك
+مثل قوله
+وأخرج ابن جريج وابن أبي حاتم عن ابن عباس قال أول ما نزل جبريل على محمد قال له جبريل {بسم الله} يا محمد
+يقول: اقرأ بذكر الله: و {الله} ذو الألوهية والمعبودية على خلقه أجمعين والرحمن الفعلان من الرحمة و {الرحيم} الرفيق الرقيق بمن أحب أن يرحمه والبعيد الشديد على من أحب أن يضعف عليه العذاب
+وأخرج ابن مردويه عن ابن عباس قال: اسم الله الأعظم
+هو الله
+وأخرج ابن أبي شيبة والبخاري في تاريخه وابن الضريس في فضائله وابن أبي حاتم عن جابر بن يزيد قال: اسم الله الأعظم
+هو الله ألا ترى أنه في جميع
+القرآن يبدأ به قبل كل اسم
+وأخرج ابن أبي شيبة وابن أبي الدنيا في الدعاء الشعبي قال: اسم الله الأعظم
+يا الله
+وأخرج ابن جرير عن الحسن قال {الرحمن} اسم ممنوع
+وأخرج ابن أبي حاتم قال {الرحيم} اسم لايستطيع الناس أن ينتحلوه
+وأخرج ابن أبي حاتم عن الضحاك قال {الرحمن} لجميع الخلق و {الرحيم} بالمؤمنين خاصة
+وأخرج البيهقي في الأسماء والصفات عن ابن عباس قال {الرحمن} وهو الرفيق {الرحيم} وهو العاطف على خلقه بالرزق
+وهما اسمان رقيقان أحدهما أرق من الآخر
+وأخرج ابن جرير عن عطاء الخراساني قال: كان الرحمن فلما اختزل الرحمن من اسمه كان {الرحمن الرحيم}
+وأخرج البزار والحاكم والبيهقي في الدلائل بسند ضعيف عن عائشة قالت: قال لي أبي: ألا أعلمك دعاء علمنيه رسول الله صلى الله عليه وسلم - قال: وكان عيسى يعلمه للحواريين - لوكان عليك مثل أحد ذهبا لقضاه الله عنك قلت: بلى
+قال: قولي: اللهم فارج الهم كاشف الغم - ولفظ البزار وكاشف الكرب - مجيب دعوة المضطرين رحمن الدنيا والآخرة ورحيمها أنت ترحمني رحمة تغنني بها عمن سواك
+وأخرج ابن أبي شيبة عن عبد الرحمن بن سابط قال: كان رسول الله صلى الله عليه وسلم يدعو بهؤلاء الكلمات ويعلمهن اللهم فارج الهم وكاشف الكرب ومجيب المضطرين ورحمن الدنيا والآخرة ورحيمها أنت ترحمني فارحمني رحمة تغنني بها عمن سواك
+
+== DURR-FULL:v1p24  [سورة الفاتحة (مكية وآياتها سبع)]  page=v1p24
+وأخرج ابن أبي شيبة عن عبد الرحمن بن سابط قال كان رسول الله صلى الله عليه وسلم يدعو بهؤلاء الكلمات ويعلمهن
+اللهم فارج الهم وكاشف الكرب ومجيب المضطرين ورحمن الدنيا والآخرة ورحيمها ارحمني اليوم رحمة تغنني بها عن رحمة من سواك
+وأخرج البيهقي في شعب الإيمان من طريق ابن سليمان عن الضحاك عن ابن عباس عن النبي صلى الله عليه وسلم قال إن الله أنزل على سورة لم ينزلها على أحد من الأنبياء والرسل من قبلي
+قال النبي صلى الله عليه وسلم: قال الله تعالى: قسمت هذه السورة بيني وبين عبادي فاتحة الكتاب جعلت نصفها لي: ونصفها لهم وآية بيني وبينهم فإذا قال العبد {بسم الله الرحمن الرحيم} قال الله: عبدي دعاني باسمين رقيقين
+أحدهما أرق من الآخر
+فالرحيم أرق من الرحمن
+وكلاهما رقيقان فإذا قال {الحمد لله} قال الله: شكرني عبدني وحمدني
+فإذا قال {رب العالمين} قال الله شهد عبدي أني رب العالمين
+رب الإنس والجن والملائكة والشياطين ورب الخلق ورب كل شيء فإذا قال {الرحمن الرحيم} يقول مجدني عبدي
+وإذا قال {مالك يوم الدين} - يعني بيوم الدين: يوم الحساب -
+قال الله تعالى: شهد عبدي أنه لا مالك ليومه أحد غيري
+وإذا قال {مالك يوم الدين} فقد أثنى علي عبدي
+
+== DURR-FULL:v1p19#2  [سورة الفاتحة (مكية وآياتها سبع)]  page=v1p19
+قوله تعالى: بسم الله الرحمن الرحيم
+أخرج أبو عبيد وابن سعد في الطبقات وابن أبي شيبة وأحمد وأبو داود وابن خزيمة وابن الأنباري في المصاحف والدارقطني والحاكم وصححه والبيهقي والخطيب وابن عبد البر كلاهما في كتاب المسألة عن أم سلمة أن النبي صلى الله عليه وسلم كان يقرأ {بسم الله الرحمن الرحيم الحمد لله رب العالمين الرحمن الرحيم مالك يوم الدين إياك نعبد وإياك نستعين اهدنا الصراط المستقيم صراط الذين أنعمت عليهم غير المغضوب عليهم ولا الضالين} قطعها آية آية وعددها عد الاعراب وعد بسم الله الرحمن الرحيم ولم يعد عليهم
+وأخرج ابن أبي حاتم والطبراني والدارقطني والبيهقي في سننه بسند ضعيف عن بريدة قال: قال رسول الله صلى الله عليه وسلم لا أخرج من المسجد حتى أخبرك بآية أو سورة لم تنزل على نبي بعد سليمان غيري
+قال: فمشى وتبعته حتى انتهى إلى باب المسجد فأخرج احدى رجليه من أسكفة المسجد وبقيت الأخرى في المسجد
+فقلت بيني وبين نفسي: نسي ذلك
+فأقبل علي بوجهه فقال: بأي شيء تفتتح القرآن إذا افتتحت الصلاة قلت {بسم الله الرحمن الرحيم} قال: هي هي
+ثم خرج
+وأخرج ابن الضريس عن ابن عباس قال {بسم الله الرحمن الرحيم} آية
+وأخرج سعيد بن منصور في سننه وابن خزيمة في كتاب البسملة والبيهقي عن ابن عباس قال: استرق الشيطان من الناس
+وأخرج أبو عبيد وابن مردويه والبيهقي في شعب الإيمان عن ابن عباس قال: أغفل الناس آية من كتاب الله لم تنزل على أحد سوى النبي صلى الله عليه وسلم إلا أن يكون سليمان بن داود عليهما السلام {بسم الله الرحمن الرحيم}
+وأخرج الدارقطني بسند ضعيف عن ابن عمر أن رسول الله صلى الله عليه وسلم قال كان جبريل إذا جاءني بالوحي أول مايلقي علي {بسم الله الرحمن الرحيم}
+وأخرج الواحدي عن ابن عمر قال: نزلت {بسم الله الرحمن الرحيم} في كل سورة
+
+== DURR-FULL:v1p34  [سورة الفاتحة (مكية وآياتها سبع)]  page=v1p34
+وأخرج ابن جريج عن قتادة في قوله {رب العالمين} قال: كل صنف عالم
+وأخرج ابن أبي حاتم وأبو الشيخ عن تتبع الجهري قال: العالمون ألف أمة
+فستمائة في البحر وأربعمائة في البر
+وأخرج ابن جرير وابن أبي حاتم عن أبي العالية في قوله {رب العالمين} قال: الإنس عالم والجن عالم وما سوى ذلك ثمانية عشر ألف عالم من الملائكة وللأرض أربع زوايا في كل زاوية ثلاثة آلاف عالم وخمسمائة عالم خلقهم لعبادته
+وأخرج الثعلبي من طريق شهر بن حوشب عن أبي كعب قال: العالمون الملائكة وهم ثمانون ثمانية عشر ألف ملك منهم أربعمائة أو خمسمائة ملك بالمشرق ومثلها بالمغرب ومثلها بالكتف الثالث من الدنيا ومثلها بالكتف الرابع من الدنيا مع كل ملك من الأعوان ما لا يعلم عددهم إلا الله
+وأخرج أبو الشيخ وأبو نعيم في الحلية عن وهب قال: إن لله عز وجل ثمانية عشر ألف عالم
+الدنيا منها عالم واحد
+3 -
+قوله تعالى: الرحمن الرحيم
+أخرج عبد بن حميد من طريق مطر الوراق عن قتادة في قول الله {الحمد لله رب العالمين} قال: ماوصف من خلقه
+وفي قوله {الرحمن الرحيم} قال: مدح نفسه {مالك يوم الدين} قال: يوم يدان بين الخلائق
+أي هكذا فقولوا {إياك نعبد وإياك نستعين} قال: دل على نفسه {اهدنا الصراط المستقيم} أي الصراط المستقيم {صراط الذين أنعمت عليهم} أي طريق الأنبياء {غير المغضوب عليهم} قال: اليهود {ولا الضالين} قال: النصارى
+وأخرج الدارقطني والحاكم والبيهقي عن أم سلمة أن رسول الله صلى الله عليه وسلم قرأ في الصلاة {بسم الله الرحمن الرحيم} فعدها آية {الحمد لله رب العالمين} آيتين {الرحمن الرحيم} ثلاث آيات {مالك يوم الدين} أربع آيات وقال: هكذا {إياك نعبد وإياك نستعين} وجمع خمس أصابعه
+4 -
+قوله تعالى: ملك يوم الدين [وفي قراءة: مالك يوم الدين]
+أخرج الترمذي وابن أبي الدنيا وابن الأنباري كلاهما في كتاب المصاحف عن أم سلمة أن النبي صلى الله عليه وسلم كان يقرأ {مالك يوم الدين} بغير ألف وأخرج ابن الأنباري عن أنس قال: قرأ رسول الله صلى الله عليه وسلم وأبو بكر وعمر وطلحة والزبير وعبد الرحمن بن عوف ومعاذ بن جبل {مالك يوم الدين} بغير ألف
+
+== IBNABIHATIM:v1p28  [الفاتحة : ( 3 ) الرحمن الرحيم]  page=v1p28
+19 حدثنا أبو سعيد الاشج ثنا زيد بن الحباب عن عنبسة قاضي الري عن مطرف عن سعد بن اسحاق عن جابر بن عبد الله قال : قال رسول لله - صلى الله عليه وسلم - يقول الله : قسمت الصلاة بيني وبين عبدي ، فاذا قال الحمد لله رب العالمين ، قال : مدحني عبدي ، واذا قال ، الرحمن الرحيم قال : اثنى على عبدي .
+الوجه الثاني : 20 حدثنا أبي ، ثنا محمد بن عبد الرحمن العرزمي ، ثنا أبي ، عن جويبر ، عن الضحاك في قوله : الرحمن الرحيم قال : الرحمن بجميع خلقه ، والرحم بالمؤمنين خاصة .
+الوجه الثالث : 21 حدثت عن كثير بن شهاب ، عن الحكم بن هشام حدثني خالد بن صفوان التميمي في قوله : الرحمن الرحيم قال : هما رقيقان احدهما ارق من الاخر .
+الوجه الرابع : 22 اخبرنا أبو سعيد بن يحيى بن سعيد القطان ، ثنا زيد بن الحباب ، حدثني أبو الاشهب ، عن الحسن قال : الرحمن اسم لا يستطيع الناس ان ينتحلوه . قوله : مالك يوم الدين
+
+== IBNASHUR:1:3
+{ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ} (3)
+وصفان مشتقان من رَحِم ،  وفي « تفسير القرطبي » عن ابن الأَنباري عن المبرد أن الرحمن اسم عبراني نقل إلى العربية قال وأصله بالخاء المعجمة ( أي فأبدلت خاؤه حاء مهملة عند أكثر العرب كشأن التغيير في التعريب ) وأنشد على ذلك قول جرير يخاطب الأخطل :
+أو تتركُنَّ إلى القسّيس هِجْرَتكم *** ومسْحَكُم صُلْبَكم رَخْمان قُربَانا
+( الرواية بالخاء المعجمة ) ولم يأت المبرد بحجة على ما زعمه ،  ولم لا يكون الرحمن عربياً كما كان عبرانياً فإن العربية والعبرانية أختان وربما كانت العربية الأصلية أقدم من العبرانية ولعل الذي جرأه على ادعاء أن الرحمن اسم عبراني ما حكاه القرآن عن المشركين في قوله :  { قالوا وما الرحمن }  [ الفرقان :  60 ] ويقتضي أن العرب لم يكونوا يعلمون هذا الاسم لله تعالى كما سيأتي بعض عرب اليمن يقولون رَخِم رخمة بالمعجمة .
+واسم الرحمة موضوع في اللغة العربية لرقة الخاطر وانعطافه نحو حيّ بحيث تحمل من اتصف بها على الرفق بالمرحوم والإحسان إليه ودفع الضر عنه وإعانته على المشاق .  فهي من الكيفيات النفسانية لأنها انفعال ،  ولتلك الكيفية اندفاع يحمل صاحبها على أفعال وجودية بقدر استطاعته وعلى قدر قوة انفعاله ،  فأصل الرحمة من مَقُولة الانفعال وآثارُها من مقولة الفِعل ،  فإذا وصف موصوف بالرحمة كان معناه حصول الانفعال المذكور في نفسه ،  وإذا أخبر عنه بأنه رحم غيره فهو على معنى صدَر عنه أثر من آثار الرحمة ،  إذ لا تكون تعدية فعل رحم إلى المرحوم إلا على هذا المعنى فليس لماهية الرحمة جزئيات وجودية ولكنها جزئيات من آثارها .  فوصف الله تعالى بصفات الرحمة في اللغات ناشىء على مقدار عقائد أهلها فيما يجوز على الله ويستحيل ،  وكان أكثر الأمم مجسِّمة ثم يجيء ذلك في لسان الشرائع تعبيراً عن المعاني العالية بأقصَى ما تسمح به اللغات مع اعتقاد تنزيه الله عن أعراض المخلوقات بالدليل العام على التنزيه وهو مضمون قول القرآن :  { ليس كمثله شيء }  [ الشورى :  11 ] فأهل الإيمان إذا سمعوا أو أطلقوا وصفي الرحمن الرحيم لا يفهمون منه حصول ذلك الانفعال الملحوظ في حقيقةِ الرحمة في متعارف اللغة العربية لسطوع أدلة تنزيه الله تعالى عن الأعراض ،  بل إنه يراد بهذا الوصف في جانب الله تعالى إثباتُ الغرض الاسمي من حقيقة الرحمة وهو صدور آثار الرحمة من الرفق واللطف والإحسان والإعانة ؛  لأن ما عدا ذلك من القيود الملحوظة في مسمى الرحمة في متعارف الناس لا أهمية له لولا أنه لا يمكن بدونه حصول آثاره فيهم ألا ترى أن المرء قد يرحم أحداً ولا يملك له نفعاً لعَجز أو نحوه .
+وقد أشار إلى ما قلناه أبو حامد الغزالي في « المقصد الأسنى » بقوله :  « الذي يريد قضاء حاجة المحتاج ولا يقضيها فإن كان قادراً على قضائها لم يسمَّ رحيماً إذ لو تمت الإرادة لوفَّى بها وإن كان عاجزاً فقد يسمى رحيماً باعتبار ما اعتوره من الرحمة والرقة ولكنه ناقص » .
+وبهذا تعلم أن إطلاق نحو هذا الوصف على الله تعالى ليس من المتشابه لتبادر المعنى المراد منه بكثرة استعماله وتحقق تنزه الله عن لوازم المعنى المقصود في الوضع مما لا يليق بجلال الله تعالى كما نطلق العليم على الله مع التيقن بتجرد علمه عن الحاجة إلى النظر والاستدلال وسبق الجهل ،  وكما نطلق الحي عليه تعالى مع اليقين بتجرد حياته عن العادة والتكون ،  ونطلق القدرة مع اليقين بتجرد قدرته عن المعالجة والاستعانة .  فوصفه تعالى بالرحمن الرحيم من المنقولات الشرعية فقد أثبت القرآن رحمة الله في قوله :  { ورحمتي وسعت كل شيء }  [ الأعراف :  156 ] فهي منقولة في لسان الشرع إلى إراد … [cut at 3000 of 9353 characters]
+
+== IBNASHUR-FULL:v1p150  [2 ( { بسم الله الرحمان الرحيم } . ) 2]  page=v1p150
+هذا وقد ورد في استعمال العرب توسعات في إطلاق لفظ الاسم مرة يعنون به ما يرادف المسمى كقول النابغة :
+نبئت زرعة والسفاهة كاسمها
+يهدى إلي غرائب الأشعار
+يعني أن السفاهة هي هي لا تعرف للناس بأكثر من اسمها وهو قريب من استعمال اسم الإشارة في قوله تعالى : { وكذلك جعلناكم أمة وسطا } ( البقرة : 143 ) . أي مثل ذلك الجعل الواضح الشهير ويطلقون الاسم مقحما زائدا كما في قول لبيد :
+إلى الحولل ثم اسم السلام عليكما
+يعني ثم السلام عليكما وليس هذا خاصا بلفظ الاسم بل يجىء فيما يرادفه مثل الكلمة في قوله تعالى : { وألزمهم كلمة التقوى } ( الفتح : 26 ) وكذلك ( لفظ ) في قول بشار هاجيا :
+وكذاك ، كان أبوك يؤثر بالهنى
+ويظل في لفظ الندى يتردد
+وقد يطلق الاسم وما في معناه كناية عن وجود المسمى ، ومنه قوله تعالى : { وجعلوا لله شركاء قل سموهم } ( الرعد : 33 ) والأمر للتعجيز أي أثبتوا وجودهم ووضع أسماء لهم . فهذه اطلاقات أخرى ليس ذكر اسم الله في البسملة من قبيلها ، وإنما نبهنا عليها لأن بعض المفسرين خلط بها في تفسير البسملة ، ذكرتها هنا توضيحا ليكون نظركم فيها فسيحا فشدوا بها يدا ولا تتبعوا طرائق قددا .
+وقد تكلموا على ملحظ تطويل الباء في رسم البسملة بكلام كله غير مقنع ، والذي يظهر لي أن الصحابة لما كتبوا المصحف طولوها في سورة النمل للإشارة إلى أنها مبدأ كتاب سليمان فهي من المحكي ، فلما جعلوها علامة على فواتح السور نقلوها برسمها ، وتطويل الباء فيها صالح لاتخاذه قدوة في ابتداء الغرض الجديد من الكلام بحرف غليظ أو ملون .
+والكلام على اسم الجلالة ووصفه يأتي في تفسير قوله تعالى : { الحمد لله رب العالمين الرحمن الرحيم } ( الفاتحة : 2 ، 3 ) .
+ومناسبة الجمع في البسملة بين علم الجلالة وبين صفتي الرحمن الرحيم ، قال البيضاوي إن المسمي إذا قصد الاستعانة بالمعبود الحق الموصوف بأنه مولي النعم كلها جليلها ودقيقها يذكر علم الذات إشارة إلى استحقاقه أن يستعان به بالذات ، ثم يذكر وصف الرحمن إشارة إلى أن الاستعانة على الأعمال الصالحة وهي نعم ، وذكر الرحيم للوجوه التي سنذكرها في عطف صفة الرحيم على صفة الرحمن .
+
+== IBNASHUR-FULL:v1p132#2  [1 ( سورة الفاتحة ) 1]  page=v1p132
+ويصح عندي أن تكون إضافة السورة إلى فاتحة الكتاب من إضافة الموصوف إلى الصفة ، كقولهم مسجد الجامع ، وعشاء الآخرة ، أي سورة موصوفة بأنها فاتحة الكتاب فتكون الإضافة بيانية ، ولم يجعلوا لها اسما استغناء بالوصف ، كما يقول المؤلفون مقدمة أو باب بلا ترجمة ثم يقولون باب جامع مثلا ، ثم يضيفونه فيقولون باب جامعع الصلاة . وأما إضافة فاتحة إلى الكتاب فإضافة حقيقية باعتبار أن المراد من الكتاب بقيته عدا السورة المسماة الفاتحة ، كما نقول : خطبة التأليف ، وديباجة التقليد .
+وأما تسميتها أم القرآن وأم الكتاب فقد ثبتت في السنة ، من ذلك ما في ( صحيح البخاري ) في كتاب الطب أن أبا سعيد الخدري رقى ملدوغا فجعل يقرأ عليه بأم القرآن ، وفي الحديث قصة ، ووجه تسميتها أم القرآن أن الأم يطلق على أصل الشيء ومنشئه ، وفي الحديث الصحيح قال النبيء صلى الله عليه وسلم ( كل صلاة لم يقرأ فيها بأم القرآن فهي خداج ) أي منقوصة مخدوجة .
+وقد ذكروا لتسمية الفاتحة أم القرآن وجوها ثلاثة : أحدها : أنها مبدؤه ومفتتحه فكأنها أصله ومنشؤه ، يعني أن افتتاحه الذي هو وجود أول أجزاء القرآن قد ظهر فيها فجعلت كالأم للولد في أنها الأصل والمنشأ فيكون أم القرآن تشبيها بالأم التي هي منشأ الولد لمشابهتها بالمنشأ من حيث ابتداء الظهور والوجود .
+الثاني : أنها تشتمل محتوياتها على أنواع مقاصد القرآن وهي ثلاثة أنواع : الثناء على الله ثناء جامعا لوصفه بجميع المحامد وتنزيهه عن جميع النقائص ، ولإثبات تفرده بالإلاهية وإثبات البعث والجزاء وذلك من قوله : { الحمد لله } إلى قوله : { ملك يوم الدين } ، والأوامر والنواهي من قوله : { إياك نعبد } ، والوعد والوعيد من قوله : { صراط الذين } إلى آخرها ، فهذه هي أنواع مقاصد القرآن كله ، وغيرها تكملات لها لأن القصد من القرآن إبلاغ مقاصده الأصلية وهي صلاح الدارين وذلك يحصل بالأوامر والنواهي ، ولما توقفت الأوامر والنواهي على معرفة الآمر وأنه الله الواجب وجوده خالق الخلق لزم تحقيق معنى الصفات ، ولما توقف تمام الامتثال على الرجاء في الثواب والخوف من العقاب لزم تحقق الوعد والوعيد . والفاتحة مشتملة على هاته الأنواع فإن قوله : { الحمدلله } إلى قوله : { يوم الدين } حمد وثناء ، وقوله : { إياك نعبد } إلى قوله : { المستقيم } من نوع الأوامر والنواهي ، وقوله : { صراط الذين } إلى آخرها من نوع الوعد والوعيد مع أن ذكر { المغضوب عليهم والضالين } يشير أيضا إلى نوع قصص القرآن ، وقد يؤيد هذا الوجه بما ورد في الصحيح في : { قل هو الله أحد } ( الإخلاص : 1 ) أنها تعدل ثلث القرآن لأن ألفاظها كلها أثناء على الله تعالى .
+
+== IBNASHUR-FULL:v1p133  [1 ( سورة الفاتحة ) 1]  page=v1p133
+الثالث : أنها تشتمل معانيها على جملة معاني القرآن من الحكم النظرية والأحكام العملية فإن معاني القرآن إما علوم تقصد معرفتها وإما أحكام يقصد منها العمل بها ، فالعلوم كالتوحيد والصفات والنبوءات والمواعظ والأمثال والحكم والقصص ، والأحكام إما عمل الجوارح وهو العبادات والمعاملات ، وإما عمل القلوب أي العقول وهو تهذيب الأخلاق وآداب الشريعة ، وكلها تشتمل عليها معاني الفاتحة بدلالة المطابقة أو التضمن أو الالتزام ف { الحمد لله } يشمل سائر صفات الكمال التي استحق الله لأجلها حصر الحمد له تعالى بناء على ما تدل عليه جملة { الحمد لله } من اختصاص جنس الحمد به تعالى واستحقاقه لذلك الاختصاص كما سيأتي و { رب العالمين } يشمل سائر صفات الأفعال والتكوين عند من أثبتها ، و { الرحمن الرحيم } يشمل أصول التشريع الراجعة للرحمة بالمكلفين و { ملك يوم الدين } يشمل أحوال القيامة ، و { إياك نعبد } يجمع معنى الديانة والشريعة ، و { إياك نستعين } يجمع معنى الإخلاص لله في الأعمال .
+قال عز الدين بن عبد السلام في كتابه ( حل الرموز ومفاتيح الكنوز ) : الطريقة إلى الله لها ظاهر ( أي عمل ظاهر أي بدني ) وباطن ( أي عمل قلبي ) فظاهرها الشريعة وباطنها الحقيقة ، والمراد من الشريعة والحقيقة إقامة العبودية على الوجه المراد من المكلف . ويجمع الشريعة والحقيقة كلمتان هما قوله : { إياك نعبد وإياك نستعين } فإياك نعبد شريعة وإياك نستعين حقيقة ، ا ه .
+و { اهدنا الصراط المستقيم } يشمل الأحوال الإنسانية وأحكامها من عبادات ومعاملات وآداب ، و { صراط الذين أنعمت عليهم } يشير إلى أحوال الأمم والأفراد الماضية الفاضلة ، وقوله : { غير المغضوب عليهم ولا الضالين } يشمل سائر قصص الأمم الضالة ويشير إلى تفاصيل ضلالالتهم المحكية عنهم في القرآن ، فلا جرم يحصل من معاني الفاتحة تصريحا وتضمنا علم إجمالي بما حواه القرآن من الأغراض . وذلك يدعو نفس قارئها إلى تطلب التفصيل على حسب التمكن والقابلية . ولأجل هذا فرضت قراءة الفاتحة في كل ركعة من الصلاة حرصا على التذكر لما في مطاويها .
+
+== IBNASHUR-FULL:v1p141  [2 ( { بسم الله الرحمان الرحيم } . ) 2]  page=v1p141
+وهناك دليل آخر لم يذكروه هنا وهو حديث عائشة في بدء الوحي إلى رسول الله صلى الله عليه وسلم وهو معتبر مرفوعا إلى النبي ، وذلك قوله : ( ففجئه الملك فقال : اقرأ قال رسول الله فقلت ما أنا بقارىء إلى أن قال فغطني الثالثة ثم قال : { اقرأ باسم ربك الذي خلق } ( العلق : 1 ) الحديث . فلم يقل فقال لي بسم الله الرحمن الرحيم { اقرأ بسم ربك } ، وقد ذكروا هذا في تفسير سورة العلق وفي شرح حديث بدء الوحي .
+وأما المسلك الثالث وهو الاستدلال من طريق الاستعمال العربي فيأتي القول فيه على مراعاة قول القائلين بأن البسملة آية من سورة الفاتحة خاصة ، وذلك يوجب أن يتكرر لفظان وهما { الرحمن الرحيم } في كلام غير طويل ليس بينهما فصل كثير وذلك مما لا يحمد في باب البلاغة ، وهذا الاستدلال نقله الإمام الرازي في ( تفسيره ) وأجاب عنه بقوله : إن التكرار لأجل التأكيد كثير في القرآن وإن تأكيد كونه تعالى رحمانا رحيما من أعظم المهمات . وأنا أدفع جوابه بأن التكرار وإن كانت له مواقع محمودة في الكلام البليغ مثل التهويل ، ومقام الرثاء أو التعديد أو التوكيد اللفظي ، إلا أن الفاتحة لا مناسبة لها بأغراض التكرير ولا سيما التوكيد لأنه لا منكر لكونه تعالى رحمانا رحيما ، ولأن شأن التوكيد اللفظي أن يقترن فيه اللفظان بلا فصل فتعين أنه تكرير اللفظ في الكلام لوجود مقتضى التعبير عن مدلوله بطريق الاسم الظاهر دون الضمير ، وذلك مشروط بأن يبعد ما بين المكررين بعدا يقصيه عن السمع ، وقد علمت أنهم عدوا في فصاحة الكلام خلوصه من كثرة التكرار ، والقرب بين الرحمن والرحيم حين كررا يمنع ذلك .
+وأجاب البيضاوي بأن نكتة التكرير هنا هي تعليل استحقاق الحمد ، فقال السلكوتي أشار بهذا إلى الرد على ما قاله بعض الحنفية : إن البسملة لو كانت من الفاتحة للزم التكرار وهو جواب لا يستقيم لأنه إذا كان التعليل قاضيا بذكر صفتي { الرحمن الرحيم } فدفع التكرير يقتضي تجريد البسملة التي في أول الفاتحة من هاتين الصفتين بأن تصير الفاتحة هكذا : ( بسم الله الحمد لله الخ ) .
+
+== IBNASHUR-FULL:v1p169  [2 ( 3 ) { الرحمان الرحيم } . ) 2]  page=v1p169
+وصفان مشتقان من رحم ، وفي ( تفسير القرطبي ) عن ابن الأنباري عن المبرد أن الرحمن اسم عبراني نقل إلى العربية قال وأصله بالخاء المعجمة ( أي فأبدلت خاؤه حاء مهملة عند أكثر العرب كشأن التغيير في التعريب ) وأنشد على ذلك قول جرير يخاطب الأخطل :
+أو تتركن إلى القسيس هجرتكم
+ومسحكم صلبكم رخمان قربانا
+( الرواية بالخاء المعجمة ) ولم يأت المبرد بحجة على ما زعمه ، ولم لا يكون الرحمن عربيا كما كان عبرانيا فإن العربية والعبرانية أختان وربما كانت العربية الأصلية أقدم من العبرانية ولعل الذي جرأه على ادعاء أن الرحمن اسم عبراني ما حكاه القرآن عن المشركين في قوله : { قالوا وما الرحمن } ( الفرقان : 60 ) ويقتضي أن العرب لم يكونوا يعلمون هذا الاسم لله تعالى كما سيأتي بعض عرب اليمن يقولون رخم رخمة بالمعجمة .
+واسم الرحمة موضوع في اللغة العربية لرقة الخاطر وانعطافه نحو حي بحيث تحمل من اتصف بها على الرفق بالمرحوم والإحسان إليه ودفع الضر عنه وإعانته على المشاق . فهي من الكيفيات النفسانية لأنها انفعال ، ولتلك الكيفية اندفاع يحمل صاحبها على أفعال وجودية بقدر استطاعته وعلى قدر قوة انفعاله ، فأصل الرحمة من مقولة الانفعال وآثارها من مقولة الفعل ، فإذا وصف موصوف بالرحمة كان معناه حصول الانفعال المذكور في نفسه ، وإذا أخبر عنه بأنه رحم غيره فهو على معنى صدر عنه أثر من آثار الرحمة ، إذ لا تكون تعدية فعل رحم إلى المرحوم إلا على هذا المعنى فليس لماهية الرحمة جزئيات وجودية ولكنها جزئيات من آثارها . فوصف الله تعالى بصفات الرحمة في اللغات ناشىء على مقدار عقائد أهلها فيما يجوز على الله ويستحيل ، وكان أكثر الأمم مجسمة ثم يجيء ذلك في لسان الشرائع تعبيرا عن المعاني العالية بأقصى ما تسمح به اللغات مع اعتقاد تنزيه الله عن أعراض المخلوقات بالدليل العام على التنزيه وهو مضمون قول القرآن : { ليس كمثله شيء } ( الشورى : 11 ) فأهل الإيمان إذا سمعوا أو أطلقوا وصفي الرحمن الرحيم لا يفهمون منه حصول ذلك الانفعال الملحوظ في حقيقة الرحمة في متعارف اللغة العربية لسطوع أدلة تنزيه الله تعالى عن الأعراض ، بل إنه يراد بهذا الوصف في جانب الله تعالى إثبات الغرض الاسمي من حقيقة الرحمة وهو صدور آثار الرحمة من الرفق واللطف والإحسان والإعانة ؛ لأن ما عدا ذلك من القيود الملحوظة في مسمى الرحمة في متعارف الناس لا أهمية له لولا أنه لا يمكن بدونه حصول آثاره فيهم ألا ترى أن المرء قد يرحم أحدا ولا يملك له نفعا لعجز أو نحوه .
+
+== IBNASHUR-FULL:v1p170  [2 ( 3 ) { الرحمان الرحيم } . ) 2]  page=v1p170
+وقد أشار إلى ما قلناه أبو حامد الغزالي في ( المقصد الأسنى ) بقوله : ( الذي يريد قضاء حاجة المحتاج ولا يقضيها فإن كان قادرا على قضائها لم يسم رحيما إذ لو تمت الإرادة لوفى بها وإن كان عاجزا فقد يسمى رحيما باعتبار ما اعتوره من الرحمة والرقة ولكنه ناقص ) . وبهذا تعلم أن إطلاق نحو هذا الوصف على الله تعالى ليس من المتشابه لتبادر المعنى المراد منه بكثرة استعماله وتحقق تنزه الله عن لوازم المعنى المقصود في الوضع مما لا يليق بجلال الله تعالى كما نطلق العليم على الله مع التيقن بتجرد علمه عن الحاجة إلى النظر والاستدلال وسبق الجهل ، وكما نطلق الحي عليه تعالى مع اليقين بتجرد حياته عن العادة والتكون ، ونطلق القدرة مع اليقين بتجرد قدرته عن المعالجة والاستعانة . فوصفه تعالى بالرحمان الرحيم من المنقولات الشرعية فقد أثبت القرآن رحمة الله في قوله : { ورحمتي وسعت كل شيء } ( الأعراف : 156 ) فهي منقولة في لسان الشرع إلى إرادة الله إيصال الإحسان إلى مخلوقاته في الحياة الدنيا وغالب الأسماء الحسنى من هذا القبيل . وأما المتشابه فهو ما كانت دلالته على المعنى المنزه عنه أقوى وأشد وسيأتي في سورة آل عمران ( 7 ) عند قوله تعالى : { وأخر متشابهات . والذي ذهب إليه صاحب الكشاف } وكثير من المحققين أن الرحمن صفة مشبهة كغضبان وبذلك مثله في ( الكشاف ) .
+وفعل رحم وإن كان متعديا والصفة المشبهة إنما تصاغ من فعلل لازم إلا أن الفعل المتعدي إذا صار كالسجية لموصوفه ينزل منزلة أفعال الغرائز فيحول من فعل بفتح العين أو كسرها إلى فعل بضم العين للدلالة على أنه صار سجية كما قالوا فقه الرجل وظرف وفهم ، ثم تشتق منه بعد ذلك الصفة المشبهة ، ومثله كثير في الكلام ، وإنما يعرف هذا التحويل بأحد أمرين إما بسماع الفعل المحول مثل فقه وإما بوجود أثره وهو الصفة المشبهة مثل بليغ إذا صارت البلاغة سجية له ، مع عدم أو قلة سماع بلغ . ومن هذا رحمان إذ لم يسمع رحم بالضم . ومن النحاة من منع أن يكون الرحمن صفة مشبهة بناء على أن الفعل المشتق هو منه فعل متعد وإليه مال ابن مالك في ( شرح التسهيل ) في باب الصفة المشبهة ونظره برب وملك . .
+
+== IBNASHUR-FULL:v1p171  [2 ( 3 ) { الرحمان الرحيم } . ) 2]  page=v1p171
+وأما الرحيم فذهب سيبويه إلى أنه من أمثلة المبالغة وهو باق على دلالته على التعدي وصاحب ( الكشاف ) والجمهور لم يثبتوا في أمثلة المبالغة وزن فعيل فالرحيم عندهم صفة مشبهة أيضا مثل مريض وسقيم ، والمبالغة حاصلة فيه على كلا الاعتبارين . والحق ما ذهب إليه سيبويه .
+ولا خلاف بين أهل اللغة في أن الوصفين دالان على المبالغة في صفة الرحمة أي تمكنها وتعلقها بكثير من المرحومين وإنما الخلاف في طريقة استفادة المبالغة منهما وهل هما مترادفان في الوصف بصفة الرحمة أو بينهما فارق ؟ والحق أن استفادة المبالغة حاصلة من تتبع الاستعمال وأن الاستعمال جرى على نكتة في مراعاة واضعي اللغة زيادة المبنى لقصد زيادة في معنى المادة قال في ( الكشاف ) : ( ويقولون إن الزيادة في البناء لزيادة المعنى وقال الزجاج في الغضبان هو الممتلىء غضبا ومما طن على أذني من ملح العرب أنهم يسمون مركبا من مراكبهم بالشقدف وهو مركب خفيف ليس في ثقل محامل العراق فقلت في طريق الطائف لرجل منهم ما اسم هذا المحمل أردت المحمل العراقي فقال أليس ذاك اسمه الشقندف ؟ قلت بلى فقال هذا اسمه الشقنداف فزاد في بناء الاسم لزيادة المسمى ) وهي قاعدة أغلبية لا تتخلف إلا في زيادات معروفة موضوعة لزيادة معنى جديد دون زيادة في أصل معنى المادة مثل زيادة ياء التصغير فقد أفادت معنى زائدا على أصل المادة وليس زيادة في معنى المادة . وأما نحو حذر الذي هو من أمثلة المبالغة وهو أقل حروفا من حاذر فهو من مستثنيات القاعدة لأنها أغلبية .
+وبعد كون كل من صفتي الرحمن الرحيم دالة على المبالغة في اتصافه تعالى بالرحمة فقد قال الجمهور إن الرحمن أبلغ من الرحيم بناء على أن زيادة المبنى تؤذن بزيادة المعنى وإلى ذلك مال جمهور المحققين مثل أبي عبيدة وابن جني والزجاج والزمخشري وعلى رعي هذه القاعدة أعني أن زيادة المبنى تؤذن بزيادة المعنى فقد شاع ورود إشكال على وجه إرداف وصفه الرحمن بوصفه بالرحيم مع أن شأن أهل البلاغة إذا أجروا وصفين في معنى واحد على موصوف في مقام الكمال أن يرتقوا من الأعم إلى الأخص ومن القوي إلى الأقوى كقولهم شجاع باسل وجواد فياض ، وعالم نحرير ، وخطيب مصقع ، وشاعر مفلق ، وقد رأيت للمفسرين في توجيه الارتقاء من الرحمن إلى الرحيم أجوبة كثيرة مرجعها إلى اعتبار الرحمن أخص من الرحيم فتعقيب الأول بالثاني تعميم بعد خاص ولذلك كان وصف الرحمن مختصا به تعالى وكان أول إطلاقه مما خصه به القرآن على التحقيق بحيث لم يكن التوصيف به معروفا عند العرب كما سيأتي . ومدلول الرحيم كون الرحمة كثيرة التعلق إذ هو من أمثلة المبالغة ولذلك كان يطلق على غير الله تعالى كما في قوله تعالى في حق رسوله { بالمؤمنين رؤوف رحيم } ( التوبة : 128 ) فليس ذكر إحدى الصفتين بمغن عن الأخرى :
+
+== IBNASHUR-FULL:v1p172  [2 ( 3 ) { الرحمان الرحيم } . ) 2]  page=v1p172
+وتقديم الرحمن على الرحيم لأن الصيغة الدالة على الإتصاف الذاتي أولى بالتقديم في التوصيف من الصفة الدالة على كثرة متعلقاتها . وينسب إلى قطرب أن الرحمن والرحيم يدلان على معنى واحد من الصفة المشبهة فهما متساويان وجعل الجمع بينهما في الآية من قبيل التوكيد اللفظي ومال إليه الزجاج وهو وجه ضعيف إذ التوكيد خلاف الأصل والتأسيس خير من التأكيد والمقام هنا بعيد عن مقتضى التوكيد . وقد ذكرت وجوه في الجمع بين الصفتين ليست بمقنعة .
+وقد ذكر جمهور الأئمة أن وصف الرحمن لم يطلق في كلام العرب قبل الإسلام وأن القرآن هو الذي جاء به صفة لله تعالى فلذلك اختص به تعالى حتى قيل إنه اسم له وليس بصفة واستدلوا على ذلك بقوله تعالى : { وإذا قيل لهم اسجدوا للرحمان قالوا وما الرحمن } ( الفرقان : 60 ) وقال : { وهم يكفرون بالرحمان } ( الرعد : 30 ) وقد تكرر مثل هاتين الآيتين في القرآن وخاصة في السور المكية مثل سورة الفرقان وسورة الملك وقد ذكر الرحمن في سورة الملك باسمه الظاهر وضميره ثماني مرات مما يفيد الاهتمام بتقرير هذا الاسم لله تعالى في نفوس السامعين فالظاهر أن هذا الوصف تنوسي في كلامهم ، أو أنكروا أن يكون من أسماء الله .
+ومن دقائق القرآن أنه آثر اسم الرحمن في قوله : { ما يمسكهن إلا الرحمن في سورة الملك ( 19 ) ، وقال : ما يمسكهن إلا الله في سورة النحل ( 79 ) إذ كانت آية سورة الملك مكية وآية سورة النحل القدر النازل بالمدينة من تلك السورة ، وأما قول بعض شعراء بني حنيفة في مسيلمة :
+سموت بالمجد يا ابن الأكرمين أبا
+وأنت غيث الورى لا زلت رحمانا
+فإنما قاله بعد مجىء الإسلام وفي أيام ردة أهل اليمامة ، وقد لقبوا مسيلمة أيامئذ رحمان اليمامة وذلك من غلوهم في الكفر . وإجراء هذين الوصفين العليين على اسم الجلالة بعد وصفه بأنه رب العالمين لمناسبة ظاهرة للبليغ لأنه بعد أن وصف بما هو مقتضى استحقاقه الحمد من كونه رب العالمين أي مدبر شؤونهم ومبلغهم إلى كمالهم في الوجودين الجثماني والروحاني ، ناسب أن يتبع ذلك بوصفه بالرحمان أي الذي الرحمة له وصف ذاتي تصدر عنه آثاره بعموم واطراد على ما تقدم ، فلما كان ربا للعالمين وكان المربوبون ضعفاء كان احتياجهم للرحمة واضحا وكان ترقبهم إياها من الموصوف بها بالذات ناجحا .
+
+== IBNASHUR-FULL:v1p173  [2 ( 3 ) { الرحمان الرحيم } . ) 2]  page=v1p173
+فإن قلت إن الربوبية تقتضي الرحمة لأنها إبلاغ الشيء إلى كماله شيئا فشيئا وذلك يجمع النعم كلها ، فلماذا احتيج إلى ذكر كونه رحمانا ؟ قلت لأن الرحمة تتضمن أن ذلك الإبلاغ إلى الكمال لم يكن على وجه الإعنات بل كان برعاية ما يناسب كل نوع وفرد ويلائم طوقه واستعداده ، فكانت الربوبية نعمة ، والنعمة قد تحصل بضرب من الشدة والأذى ، فأتبع ذلك بوصفه بالرحمان تنبيها على أن تلك النعم الجليلة وصلت إلينا بطريق الرفق واليسر ونفي الحرج ، حتى في أحكام التكاليف والمناهي والزواجر فإنها مرفوقة باليسر بقدر ما لا يبطل المقصود منها ، فمعظم تدبيره تعالى بنا هو رحمات ظاهرة كالتمكين من الأرض وتيسير منافعها ، ومنه ما رحمته بمراعاة اليسر بقدر الإمكان مثل التكاليف الراجعة إلى منافعنا كالطهارة وبث مكارم الأخلاق ، ومنها ما منفعته للجمهور فتتبعها رحمات الجميع لأن في رحمة الجمهور رحمة بالبقية في انتظام الأحوال كالزكاة .
+وقد اختلف في أن لفظ رحمان لو لم يقرن بلام التعريف هل يصرف أو يمنع من الصرف ؟ قال في الكافية } : ( النون والألف إذا كانا في صفة فشرط منعه من الصرف انتفاء فعلانة ، وقيل وجود فعلى ، ومن ثم اختلف في رحمان ، وبنو أسد يصرفون جميع فعلان لأنهم يقولون في كل مؤنث له فعلانة ) واختار الزمخشري والرضى وابن مالك عدم صرفه .
+
+== IBNATIYYA:1:3
+{ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ} (3)
+الرَّحْمَنِ الرَّحِيمِ ( 3 )
+وقد تقدم القول في «الرحمن الرحيم » .
+
+== IBNATIYYA-FULL:v1p63  [سورة الفاتحة › [سورة الفاتحة (1) : الآيات 1 الى 7] › (القول في تفسير بسم الله الرحمن الرحيم)]  page=v1p63
+«هو اسم مرتجل، لا اشتقاق له من فعل، وإنما هو اسم موضوع له تبارك وتعالى، والألف واللام لازمة له لا لتعريف ولا لغيره، بل هكذا وضع الاسم» . وذهب كثير من أهل العلم إلى أنه مشتق من أله الرجل إذا عبد، وتأله إذا تنسك. ومن ذلك قول رؤبة بن العجاج: [الرجز]
+لله در الغانيات المده ... سبحن واسترجعن من تألهي
+ومن ذلك قول الله تعالى: ويذرك وآلهتك [الأعراف: 127] على هذه القراءة فإن ابن عباس وغيره قال: وعبادتك، قالوا: فاسم الله مشتق من هذا الفعل، لأنه الذي يألهه كل خلق ويعبده، حكاه النقاش في صدر سورة آل عمران فإلاه فعال من هذا.
+واختلف كيف تعلل إله حتى جاء الله، فقيل: حذفت الهمزة حذفا على غير قياس ودخلت الألف واللام للتعظيم على لاه، وقيل بل دخلتا على اله ثم نقلت حركة الهمزة إلى اللام فجاء اللاه ثم أدغمت اللام في اللام. وقيل إن أصل الكلمة لاه، وعليه دخلت الألف واللام، والأول أقوى.
+وروي عن الخليل أن أصل إله ولاه وأن الهمزة مبدلة من واو كما هي في إشاح ووشاح وإسادة ووسادة، وقيل إن أصل الكلمة ولاه كما قال الخليل إلا أنها مأخوذة من وله الرجل إذا تحير، لأنه- تعالى- تتحير الألباب في حقائق صفاته، والفكر في المعرفة به، وحذفت الألف الأخيرة من «الله» لئلا يشكل بخط اللات، وقيل طرحت تخفيفا، وقيل هي لغة فاستعملت في الخط ومنها قول الشاعر ابن الأعرابي: [الرجز]
+أقبل سيل جاء من أمر الله ... يحرد حرد الجنة المغلة
+والرحمن صفة مبالغة من الرحمة، ومعناها أنه انتهى إلى غاية الرحمة كما يدل على الانتهاء سكران وغضبان، وهي صفة تختص بالله ولا تطلق على البشر، وهي أبلغ من فعيل، وفعيل أبلغ من فاعل، لأن راحما يقال لمن رحم ولو مرة واحدة، ورحيما يقال لمن كثر منه ذلك، والرحمن النهاية في الرحمة. وقال بعض الناس: «الرحمن الرحيم» بمعنى واحد، كالندمان والنديم، وزعم أنهما من فعل واحد، ولكن أحدهما أبلغ من الآخر. وأما المفسرون فعبروا عن «الرحمن الرحيم» بعبارات، فمنها أن العرزمي قال:
+
+== IBNATIYYA-FULL:v1p63#2  [سورة الفاتحة › [سورة الفاتحة (1) : الآيات 1 الى 7] › (القول في تفسير بسم الله الرحمن الرحيم)]  page=v1p63
+«معناه: الرحمن بجميع خلقه في الأمطار، ونعم الحواس، والنعم العامة، الرحيم بالمؤمنين في الهداية لهم، واللطف بهم» ومنها أن أبا سعيد الخدري وابن مسعود رويا: أن رسول الله صلى الله عليه وسلم قال:
+«الرحمن رحمن الدنيا والآخرة، والرحيم رحيم الآخرة» .
+وقال أبو علي الفارسي: الرحمن اسم عام في جميع أنواع الرحمة يختص به الله تعالى، والرحيم إنما هو في جهة المؤمنين كما قال تعالى: وكان بالمؤمنين رحيما [الأحزاب: 43] وهذه كلها أقوال تتعاضد. وقال عطاء الخراساني: «كان الرحمن فلما اختزل وسمي به مسيلمة الكذاب قال الله- سبحانه- لنفسه: «الرحمن الرحيم» فهذا الاقتران بين الصفتين ليس لأحد إلا لله تعالى» وهذا قول ضعيف، لأن بسم الله الرحمن الرحيم كان قبل أن ينجم أمر مسيلمة. وأيضا فتسمي مسيلمة بهذا لم يكن مما تأصل وثبت. وقال قوم: إن العرب كانت لا تعرف لفظة الرحمن، ولا كانت في لغتها، واستدلوا على ذلك بقول العرب: «وما الرحمن؟
+أنسجد لما تأمرنا» وهذا القول ضعيف، وإنما وقفت العرب على تعيين الإله الذي أمروا بالسجود له، لا على نفس اللفظة.
+واختلف في وصل الرحيم بالحمد، فروي عن أم سلمة عن النبي صلى الله عليه وسلم الرحيم الحمد تسكن الميم ويوقف عليها ويبتدأ بألف مقطوعة، وقرأ به قوم من الكوفيين، وقرأ جمهور الناس الرحيم الحمد يعرب الرحيم بالخفض، وتوصل الألف من الحمد، ومن شاء أن يقدر أنه أسكن الميم ثم لما وصل حركها للالتقاء ولم يعتد بألف الوصل فذلك سائغ، والأول أخصر.
+وحكى الكسائي عن بعض العرب أنها تقرأ الرحيم الحمد بفتح الميم وصلة الألف كأنها سكنت الميم وقطعت الألف، ثم ألقيت حركتها على الميم وحذفت، ولم ترو هذه قراءة عن أحد فيما علمت، وهذا هو نظر يحيى بن زياد في قوله تعالى: الم الله.
+بسم الله الرحمن الرحيم قال ابن عباس، وموسى بن جعفر عن أبيه، وعلي بن الحسين، وقتادة، وأبو العالية، ومحمد بن يحيى بن حبان: إنها مكية، ويؤيد هذا أن في سورة الحجر ولقد آتيناك سبعا من المثاني [الحجر: 87] والحجر مكية بإجماع. وفي حديث أبي بن كعب أنها السبع المثاني، والسبع الطول نزلت بعد الحجر بمدد، ولا خلاف أن فرض الصلاة كان بمكة، وما حفظ أنها كانت قط في الإسلام صلاة بغير الحمد لله رب العالمين.
+
+== IBNATIYYA-FULL:v1p60  [سورة الفاتحة › [سورة الفاتحة (1) : الآيات 1 الى 7]]  page=v1p60
+بسم الله الرحمن الرحيم (1)
+الحمد لله رب العالمين (2) الرحمن الرحيم (3) مالك يوم الدين (4) إياك نعبد وإياك نستعين (5)
+اهدنا الصراط المستقيم (6) صراط الذين أنعمت عليهم غير المغضوب عليهم ولا الضالين (7)
+
+== IBNATIYYA-FULL:v1p61#2  [سورة الفاتحة › [سورة الفاتحة (1) : الآيات 1 الى 7] › (القول في تفسير بسم الله الرحمن الرحيم)]  page=v1p61
+قال القاضي أبو محمد عبد الحق رضي الله عنه: وهذه من ملح التفسير، وليست من متين العلم، وهي نظير قولهم في ليلة القدر: «إنها ليلة سبع وعشرين» ، مراعاة للفظة هي في كلمات سورة إنا أنزلناه [القدر: 1] ونظير قولهم في عدد الملائكة الذين ابتدروا قول القائل: «ربنا ولك الحمد حمدا كثيرا طيبا مباركا فيه» ، فإنها بضعة وثلاثون حرفا، قالوا: فلذلك قال النبي صلى الله عليه وسلم: «لقد رأيت بضعة وثلاثين ملكا يبتدرونها أيهم يكتبها أول» . والباء في: بسم الله متعلقة عند نحاة البصرة باسم تقديره ابتداء مستقر أو ثابت بسم الله وعند نحاة الكوفة بفعل تقديره ابتدأت بسم الله، فبسم الله في موضع رفع على مذهب البصريين، وفي موضع نصب على مذهب الكوفيين، كذا أطلق القول قوم، والظاهر من مذهب سيبويه أن الباء متعلقة باسم كما تقدم، وبسم الله في موضع نصب تعلقا بثابت أو مستقر بمنزلة: في الدار من قولك زيد في الدار، وكسرت باء الجر ليناسب لفظها عملها، أو لكونها لا تدخل إلا على الأسماء فخصت بالخفض الذي
+لا يكون إلا في الأسماء، أو ليفرق بينها وبين ما قد يكون من الحروف اسما نحو الكاف في قول الأعشى:
+[البسيط] .
+أتنتهون ولا ينهى ذوي شطط ... كالطعن يذهب فيه الزيت والفتل
+وحذفت الألف من بسم الله في الخط اختصارا وتخفيفا لكثرة الاستعمال. واختلف النحاة إذا كتب «باسم الرحمن وباسم القاهر» فقال الكسائي وسعيد الأخفش: «يحذف الألف» . وقال يحيى بن زياد: «لا تحذف إلا مع بسم الله فقط، لأن الاستعمال إنما كثر فيه» .
+قال القاضي أبو محمد عبد الحق رضي الله عنه: فأما في غير اسم الله تعالى فلا خلاف في ثبوت الألف.
+واسم أصله سمو بكسر السين أو سمو بضمها، وهو عند البصريين مشتق من السمو. يقال: سما يسمو، فعلى هذا تضم السين في قولك سمو ويقال: سمي يسمى فعلى هذا تكسر، وحذفت الواو من سمو، وكسرت السين من سم، كما قال الشاعر: [الرجز] .
+
+== IBNATIYYA-FULL:v1p62  [سورة الفاتحة › [سورة الفاتحة (1) : الآيات 1 الى 7] › (القول في تفسير بسم الله الرحمن الرحيم)]  page=v1p62
+باسم الذي في كل سورة سمه وسكنت السين من بسم اعتلالا على غير قياس، وإنما استدل على هذا الأصل الذي ذكرناه بقولهم في التصغير سمي، وفي الجمع أسماء، وفي جمع الجمع أسامي.
+وقال الكوفيون: أصل اسم وسم من السمة، وهي العلامة. لأن الاسم علامة لمن وضع له، وحذفت فاؤه اعتلالا على غير قياس، والتصغير والجمع المذكوران يردان هذا المذهب الكوفي. وأما المعنى فيه فجيد لولا ما يلزمهم من أن يقال في التصغير وسيم، وفي الجمع أوسام، لأن التصغير والجمع يردان الأشياء إلى أصولها. وقد ذكر بعض المفسرين في هذا الموضع الاسم والمسمى هل هما واحد؟
+وقال الطبري رحمه الله: إنه ليس بموضع للمسألة، وأنحى في خطبته على المتكلمين في هذه المسألة ونحوها، ولكن بحسب ما قد تدوول القول فيها، فلنقل إن الاسم كزيد وأسد وفرس قد يرد في الكلام ويراد به الذات، كقولك زيد قائم والأسد شجاع، وقد يراد به التسمية ذاتها، كقولك أسد ثلاثة أحرف، ففي الأول يقال الاسم هو المسمى بمعنى يراد به المسمى وفي الثاني لا يراد به المسمى. ومن الورود الأول قولك يا رحمن اغفر لي، وقوله تعالى: الرحمن علم القرآن [الرحمن: 1] ومن الورود الثاني قولك: الرحمن وصف لله تعالى. وأما اسم الذي هو ألف وسين وميم، فقد يجري في لغة العرب مجرى الذات. يقال: ذات، ونفس، واسم، وعين، بمعنى. وعلى هذا حمل أكثر أهل العلم قوله تعالى:
+سبح اسم ربك الأعلى [الأعلى: 1] وقوله تعالى: تبارك اسم ربك ذي الجلال والإكرام [الرحمن: 78] . وقوله تعالى: ما تعبدون من دونه إلا أسماء سميتموها أنتم وآباؤكم [يوسف: 40] .
+وعضدوا ذلك بقول لبيد: [الطويل] .
+إلى الحول ثم اسم السلام عليكما ... ومن يبك حولا كاملا فقد اعتذر
+وقالوا: إن لبيدا أراد التحية، وقد يجري «اسم» في اللغة مجرى ذات العبارة، وهو الأكثر من استعمالها، فمنه قوله تعالى: وعلم آدم الأسماء كلها [البقرة: 31] على أشهر التأويلات فيه. ومنه قول النبي عليه السلام: «إن لله تسعة وتسعين اسما، مائة إلا واحدا من أحصاها دخل الجنة» ، وعلى هذا النحو استعمل النحويون الاسم في تصريف أقوالهم فالذي يتنخل من هذا: أن الأسماء قد تجيء يراد بها ذوات المسميات، وفي هذا يقال الاسم هو المسمى، وقد تجيء يراد بها ذواتها نفسها لا مسمياتها. ومر بي أن مالكا رحمه الله سئل عن الاسم أهو المسمى؟ فقال: «ليس به ولا هو غيره» ، يريد دائما في كل موضع، وهذا موافق لما قلناه، والمكتوبة التي لفظها الله أبهر أسماء الله تعالى وأكثرها استعمالا، وهو المتقدم لسائرها في الأغلب، وإنما تجيء الأخر أوصافا، واختلف الناس في اشتقاقه، فقالت فرقة من أهل العلم:
+
+== IBNATIYYA-FULL:v1p65  [سورة الفاتحة › [سورة الفاتحة (1) : الآيات 1 الى 7] › (القول في تفسير بسم الله الرحمن الرحيم)]  page=v1p65
+وروي عن عطاء بن يسار، وسوادة بن زياد، والزهري محمد بن مسلم، وعبد الله بن عبيد بن عمير أن سورة الحمد مدنية.
+وأما أسماؤها فلا خلاف أنها يقال لها فاتحة الكتاب، لأن موضعها يعطي ذلك، واختلف هل يقال لها أم الكتاب، فكره الحسن بن أبي الحسن ذلك وقال: «أم الكتاب والحلال والحرام» . قال الله تعالى: آيات محكمات هن أم الكتاب وأخر متشابهات [آل عمران: 7] .
+وقال ابن عباس وغيره: «يقال لها أم الكتاب» .
+وقال البخاري: سميت أم الكتاب لأنها يبدأ بكتابتها في المصحف وبقراءتها في الصلاة، وفي تسميتها بأم الكتاب حديث رواه أبو هريرة رضي الله عنه، واختلف هل يقال لها أم القرآن؟ فكره ذلك ابن سيرين وجوزه جمهور العلماء.
+قال يحيى بن يعمر: «أم القرى مكة، وأم خراسان مرو، وأم القرآن سورة الحمد» .
+وقال الحسن بن أبي الحسن: اسمها أم القرآن. وأما المثاني فقيل سميت بذلك لأنها تثنى في كل ركعة وقيل سميت بذلك لأنها استثنيت لهذه الأمة فلم تنزل على أحد قبلها ذخرا لها.
+وأما فضل هذه السورة فقد قال رسول الله صلى الله عليه وسلم في حديث أبي بن كعب «إنها لم ينزل في التوراة ولا في الإنجيل ولا في الفرقان مثلها» . ويروى أنها تعدل ثلثي القرآن، وهذا العدل إما أن يكون في المعاني، وإما أن يكون تفضيلا من الله تعالى لا يعلل، وكذلك يجيء عدل قل هو الله أحد [الإخلاص: 1] وعدل زلزلت [الزلزلة: 1] .
+وروى أنس بن مالك أن النبي صلى الله عليه وسلم قال: «الحمد لله رب العالمين فضل ثلاثين حسنة على سائر الكلام» . وورد حديث آخر أن النبي صلى الله عليه وسلم قال: «من قال لا إله إلا الله كتبت له عشرون حسنة، ومن قال الحمد لله رب العالمين كتبت له ثلاثون حسنة» .
+وهذا الحديث هو في الذي يقولها من المؤمنين مؤتجرا طالب ثواب، لأن قوله الحمد لله في ضمنها التوحيد الذي هو معنى لا إله إلا الله، ففي قوله توحيد وحمد، وفي قول لا إله إلا الله توحيد فقط. فأما إذا أخذا بموضعهما من شرع الملة ومحلهما من رفع الكفر والإشراك فلا إله إلا الله أفضل، والحاكم بذلك قول النبي صلى الله عليه وسلم: «أفضل ما قلته أنا والنبيون من قبلي لا إله إلا الله» .
+
+== IBNATIYYA-FULL:v1p71  [سورة الفاتحة › [سورة الفاتحة (1) : الآيات 1 الى 7] › (القول في تفسير بسم الله الرحمن الرحيم)]  page=v1p71
+عمر الذي رآه يجره: «قيل: فما أولته يا رسول الله؟ قال: الدين» وقال علي بن أبي طالب: «محبة العلماء دين يدان به» . ومن أنحاء اللفظة الدين بمعنى العادة. فمنه قول العرب في الريح: «عادت هيف لأديانها» .
+ومنه قول امرئ القيس: [الطويل] كدينك من أم الحويرث قبلها ومنه قول الشاعر: [المثقب العبدي] [الوافر] :
+أهذا دينه أبدا وديني إلى غير ذلك من الشواهد، يقال دين ودينة أي عادة، ومن أنحاء اللفظة: الدين سيرة الملك وملكته، ومنه قول زهير: [البسيط] .
+لئن حللت بجو في بني أسد ... في دين عمرو وحالت بيننا فدك
+أراد في موضع طاعة عمرو وسيرته، وهذه الأنحاء الثلاثة لا يفسر بها قوله ملك يوم الدين. ومن أنحاء اللفظة الدين الجزاء، فمن ذلك قول الفند الزماني: [شهل بن شيبان] [الهزج] .
+ولم يبق سوى العدوا ... ن دناهم كما دانوا
+أي جازيناهم. ومنه قول كعب بن جعيل: [المتقارب] .
+إذا ما رمونا رميناهم ... ودناهم مثل ما يقرضونا
+ومنه قول الآخر:
+واعلم يقينا أن ملكك زائل ... واعلم بأن كما تدين تدان
+وهذا النحو من المعنى هو الذي يصلح لتفسير قوله تعالى: ملك يوم الدين أي يوم الجزاء على الأعمال والحساب بها، كذلك قال ابن عباس، وابن مسعود، وابن جريج، وقتادة وغيرهم.
+قال أبو علي: يدل على ذلك قوله تعالى: اليوم تجزى كل نفس بما كسبت [غافر: 17] ، واليوم تجزون ما كنتم تعملون [الجاثية: 28] . وحكى أهل اللغة: دنته بفعله دينا بفتح الدال ودينا بكسرها جزيته، وقيل الدين المصدر والدين بكسر الاسم.
+وقال مجاهد: ملك يوم الدين أي يوم الحساب، مدينين محاسبين وهذا عندي يرجع إلى معنى الجزاء. ومن أنحاء اللفظة الدين الذل، والمدين العبد، والمدينة الأمة، ومنه قول الأخطل:
+ربت وربا في حجرها ابن مدينة ... تراه على مسحاته يتركل
+أي ابن أمة، وقيل بل أراد ابن مدينة من المدن، الميم أصيلة، ونسبه إليها كما يقال ابن ماء وغيره.
+
+== IBNATIYYA-FULL:v1p71#2  [سورة الفاتحة › [سورة الفاتحة (1) : الآيات 1 الى 7] › (القول في تفسير بسم الله الرحمن الرحيم)]  page=v1p71
+وهذا البيت في صفة كرمة فأراد أن أهل المدن أعلم بفلاحة الكرم من أهل بادية العرب. ومن أنحاء اللفظة الدين السياسة، والديان السائس، ومنه قول ذي الأصبع الحدثان بن الحارث: [البسيط] .
+لاه ابن عمك لا أفضلت في حسب ... يوما ولا أنت دياني فتخزوني
+ومن أنحاء اللفظة الدين الحال.
+قال النضر بن شميل: «سألت أعرابيا عن شيء فقال لي لو لقيتني على دين غير هذه لأخبرتك» . ومن أنحاء اللفظة الدين الداء، عن اللحياني وأنشد: [البسيط] ما دين قلبك من سلمى وقد دينا قال القاضي أبو محمد عبد الحق رضي الله عنه: أما هذا الشاهد فقد يتأول على غير هذا النحو، فلم يبق إلا قول اللحياني.
+وقوله تعالى: إياك نعبد.
+نطق المؤمن به إقرار بالربوبية وتذلل وتحقيق لعبادة الله، إذ سائر الناس يعبدون سواه من أصنام وغير ذلك، وقدم المفعول على الفعل اهتماما، وشأن العرب تقديم الأهم.
+ويذكر أن أعرابيا سب آخر فأعرض المسبوب عنه، فقال له الساب: «إياك أعني» فقال الآخر:
+
+== IBNATIYYA-FULL:v1p72  [سورة الفاتحة › [سورة الفاتحة (1) : الآيات 1 الى 7] › (القول في تفسير بسم الله الرحمن الرحيم)]  page=v1p72
+«وعنك أعرض» فقدما الأهم.
+وقرأ الفضل الرقاشي: «أياك» بفتح الهمزة، وهي لغة مشهورة وقرأ عمرو بن فائد: «إياك» بكسر الهمزة وتخفيف الياء، وذاك أنه كره تضعيف الياء لثقلها وكون الكسرة قبلها، وهذا كتخفيف «رب» و «إن» وقرأ أبو السوار الغنوي: «هياك نعبد وهياك نستعين» بالهاء، وهي لغة. واختلف النحويون في إياك فقال الخليل: إيا اسم مضمر أضيف إلى ما بعده للبيان لا للتعريف، وحكي عن العرب إذا بلغ الرجل الستين فإياه وايا الشواب. وقال المبرد: إيا اسم مبهم أضيف للتخصيص لا للتعريف، وحكى ابن كيسان عن بعض الكوفيين أن إياك بكماله اسم مضمر، ولا يعرف اسم مضمر يتغير آخره غيره، وحكي عن بعضهم أنه قال: الكاف والهاء والياء هي الاسم المضمر، لكنها لا تقوم بأنفسها ولا تكون إلا متصلات، فإذا تقدمت الأفعال جعل «إيا» عمادا لها. فيقال «إياك» و «إياه» و «إياي» ، وإذا تأخرت اتصلت بالأفعال واستغني عن «ايا» . وحكي عن بعضهم أن أيا اسم مبهم يكنى به عن المنصوب، وزيدت الكاف والياء والهاء تفرقة بين المخاطب والغائب والمتكلم، ولا موضع لها من الإعراب فهي كالكاف في ذلك وفي أرايتك زيدا ما فعل.
+ونعبد معناه نقيم الشرع والأوامر مع تذلل واستكانة، والطريق المذلل يقال له معبد، وكذلك البعير. وقال طرفة: [الطويل] .
+تباري عتاق الناجيات وأتبعت ... وظيفا وظيفا فوق مور معبد
+وتكررت إياك بحسب اختلاف الفعلين، فاحتاج كل واحد منهما إلى تأكيد واهتمام.
+ونستعين معناه نطلب العون منك في جميع أمورنا، وهذا كله تبرؤ من الأصنام. وقرأ الأعمش وابن وثاب والنخعي: «ونستعين» بكسر النون، وهي لغة لبعض قريش في النون والتاء والهمزة ولا يقولونها في ياء الغائب وإنما ذلك في كل فعل سمي فاعله فيه زوائد أو فيما يأتي من الثلاثي على فعل يفعل
+بكسر العين في الماضي وفتحها في المستقبل نحو علم وشرب، وكذلك فيما جاء معتل العين نحو خال يخال، فإنهم يقولون تخال وأخال.
+
+== IBNATIYYA-FULL:v1p73  [سورة الفاتحة › [سورة الفاتحة (1) : الآيات 1 الى 7] › (القول في تفسير بسم الله الرحمن الرحيم)]  page=v1p73
+ونستعين أصله نستعون نقلت حركة الواو إلى العين وقلبت ياء لانكسار ما قبلها، والمصدر استعانة أصله استعوانا نقلت حركة الواو إلى العين فلما انفتح ما قبلها وهي في نية الحركة انقلبت ألفا، فوجب حذف أحد الألفين الساكنين، فقيل حذفت الأولى لأن الثانية مجلوبة لمعنى، فهي أولى بالبقاء، وقيل حذفت الثانية لأن الأولى أصلية فهي أولى بالبقاء، ثم لزمت الهاء عوضا من المحذوف، وقوله تعالى:
+اهدنا رغبة لأنها من المربوب إلى الرب، وهكذا صيغة الأمر كلها، فإذا كانت من الأعلى فهي أمر، والهداية في اللغة الإرشاد، لكنها تتصرف على وجوه يعبر عنها المفسرون بغير لفظ الإرشاد، وكلها إذا تؤملت رجعت إلى الإرشاد، فالهدى يجيء بمعنى خلق الإيمان في القلب، ومنه قوله تعالى: أولئك على هدى من ربهم [البقرة: 5] وقوله تعالى: والله يدعوا إلى دار السلام ويهدي من يشاء إلى صراط مستقيم [يونس: 25] وقوله تعالى: إنك لا تهدي من أحببت ولكن الله يهدي من يشاء [القصص:
+56] وقوله تعالى: فمن يرد الله أن يهديه يشرح صدره للإسلام [الأنعام: 125] .
+قال أبو المعالي: فهذه آية لا يتجه حملها إلا على خلق الإيمان في القلب، وهو محض الإرشاد.
+قال القاضي أبو محمد رحمه الله: وقد جاء الهدى بمعنى الدعاء، من ذلك قوله تعالى: ولكل قوم هاد [الرعد: 7] أي داع وقوله تعالى: وإنك لتهدي إلى صراط مستقيم [الشورى: 52] وهذا أيضا يبين فيه الإرشاد، لأنه ابتداء إرشاد، أجاب المدعو أو لم يجب، وقد جاء الهدى بمعنى الإلهام، من ذلك قوله تعالى: أعطى كل شيء خلقه ثم هدى [طه: 5] .
+قال المفسرون: معناه «ألهم الحيوانات كلها إلى منافعها» . وهذا أيضا بين فيه معنى الإرشاد، وقد جاء الهدى بمعنى البيان، من ذلك قوله تعالى: وأما ثمود فهديناهم [فصلت: 17] .
+قال المفسرون: «معناه بينا لهم» . قال أبو المعالي: معناه دعوناهم ومن ذلك قوله تعالى: إن علينا للهدى [الليل: 12] أي علينا أن نبين، وفي هذا كله معنى الإرشاد.
+
+== IBNATIYYA-FULL:v1p73#2  [سورة الفاتحة › [سورة الفاتحة (1) : الآيات 1 الى 7] › (القول في تفسير بسم الله الرحمن الرحيم)]  page=v1p73
+قال أبو المعالي: وقد ترد الهداية والمراد بها إرشاد المؤمنين إلى مسالك الجنان والطرق المفضية إليها، من ذلك قوله تعالى في صفة المجاهدين: فلن يضل أعمالهم سيهديهم ويصلح بالهم [محمد:
+5] ومنه قوله تعالى: فاهدوهم إلى صراط الجحيم [الصافات: 23] معناه فاسلكوهم إليها.
+قال القاضي أبو محمد عبد الحق رضي الله عنه: وهذه الهداية بعينها هي التي تقال في طرق الدنيا، وهي ضد الضلال وهي الواقعة في قوله تعالى: اهدنا الصراط المستقيم على صحيح التأويل، وذلك بين من لفظ الصراط، والهدى لفظ مؤنث، وقال اللحياني: «هو مذكر» قال ابن سيده: «والهدى اسم من أسماء النهار» قال ابن مقبل: [البسيط] .
+حتى استبنت الهدى والبيد هاجمة ... يخشعن في الآل غلفا أو يصلينا
+والصراط في اللغة الطريق الواضح فمن ذلك قول جرير: [الوافر] .
+أمير المؤمنين على صراط ... إذا اعوج الموارد مستقيم
+ومنه قول الآخر: فصد عن نهج الصراط الواضح.
+وحكى النقاش: «الصراط الطريق بلغة الروم» .
+قال القاضي أبو محمد: وهذا ضعيف جدا. واختلف القراء في الصراط فقرأ ابن كثير وجماعة من العلماء: «السراط» بالسين، وهذا هو أصل اللفظة.
+قال الفارسي: «ورويت عن ابن كثير بالصاد» . وقرأ باقي السبعة غير حمزة بصاد خالصة وهذا بدل السين بالصاد لتناسبها مع الطاء في الاطباق فيحسنان في السمع، وحكاها سيبويه لغة.
+قال أبو علي: روي عن أبي عمرو السين والصاد، والمضارعة بين الصاد والزاي، رواه عنه العريان بن أبي سفيان. وروى الأصمعي عن أبي عمرو أنه قرأها بزاي خالصة.
+قال بعض اللغويين: «ما حكاه الأصمعي من هذه القراءة خطأ منه، إنما سمع أبا عمرو يقرأ بالمضارعة فتوهمها زايا، ولم يكن الأصمعي نحويا فيؤمن على هذا» .
+قال القاضي أبو محمد: وحكى هذا الكلام أبو علي عن أبي بكر بن مجاهد. وقرأ حمزة بين الصاد والزاي. وروي أيضا عنه أنه إنما يلتزم ذلك في المعرفة دون النكرة.
+
+== IBNATIYYA-FULL:v1p74  [سورة الفاتحة › [سورة الفاتحة (1) : الآيات 1 الى 7] › (القول في تفسير بسم الله الرحمن الرحيم)]  page=v1p74
+قال ابن مجاهد: «وهذه القراءة تكلف حرف بين حرفين، وذلك أصعب على اللسان، وليس بحرف يبنى عليه الكلام ولا هو من حروف المعجم، ولست أدفع أنه من كلام فصحاء العرب، إلا أن الصاد أفصح وأوسع» .
+وقرأ الحسن والضحاك: «اهدنا صراطا مستقيما» دون تعريف وقرأ جعفر بن محمد الصادق: «اهدنا صراط المستقيم» بالإضافة وقرأ ثابت البناني: «بصرنا الصراط» . واختلف المفسرون في المعنى الذي استعير له الصراط في هذا الموضع وما المراد به، فقال علي بن أبي طالب رضي الله عنه: الصراط المستقيم هنا القرآن» وقال جابر: «هو الإسلام» يعني الحنيفية. وقال: سعته ما بين السماء والأرض. وقال محمد بن الحنفية: «هو دين الله الذي لا يقبل من العباد غيره» وقال أبو العالية: «هو رسول الله صلى الله عليه وسلم وصاحباه أبو بكر وعمر» . وذكر ذلك للحسن بن أبي الحسن، فقال: صدق أبو العالية ونصح.
+قال القاضي أبو محمد: ويجتمع من هذه الأقوال كلها أن الدعوة إنما هي في أن يكون الداعي على سنن المنعم عليهم من النبيين، والصديقين، والشهداء، والصالحين في معتقداته، وفي التزامه لأحكام شرعه، وذلك هو مقتضى القرآن والإسلام، وهو حال رسول الله صلى الله عليه وسلم وصاحبيه، وهذا الدعاء إنما أمر به المؤمنون وعندهم المعتقدات وعند كل واحد بعض الأعمال، فمعنى قولهم اهدنا فيما هو حاصل عندهم طلب التثبيت والدوام، وفيما ليس بحاصل إما من جهة الجهل به أو التقصير في المحافظة عليه طلب الإرشاد إليه. وأقول إن كل داع به فإنما يريد الصراط بكماله في أقواله وأفعاله ومعتقداته، فيحسن على هذا أن يدعو في الصراط على الكمال من عنده بعضه ولا يتجه أن يراد ب اهدنا في
+هذه الآية اخلق الإيمان في قلوبنا، لأنها هداية مقيدة إلى صراط ولا أن يراد بها ادعنا، وسائر وجوه الهداية يتجه، والصراط نصب على المفعول الثاني، والمستقيم الذي لا عوج فيه ولا انحراف، والمراد أنه استقام على الحق وإلى غاية الفلاح، ودخول الجنة، وإعلال مستقيم أن أصله مستقوم نقلت الحركة إلى القاف وانقلبت الواو ياء لانكسار ما قبلها، وصراط الذين بدل من الأول.
+
+== IBNATIYYA-FULL:v1p76  [سورة الفاتحة › [سورة الفاتحة (1) : الآيات 1 الى 7] › (القول في تفسير بسم الله الرحمن الرحيم)]  page=v1p76
+وهذه القراءات كلها بضم الهاء إلا الأخيرة وبإزاء كل واحدة منها قراءة بكسر الهاء فيجيء في الجميع عشر قراءات.
+وقوله تعالى: غير المغضوب عليهم ولا الضالين.
+اختلف القراء في الراء من غير، فقرأ نافع وعاصم وأبو عمرو وابن عامر وحمزة والكسائي بخفض الراء، وقرأ ابن كثير بالنصب، وروي عنه الخفض.
+قال أبو علي: «الخفض على ضربين: على البدل، من الذين، أو على الصفة للنكرة، كما تقول مررت برجل غيرك، وإنما وقع هنا صفة ل الذين لأن الذين هنا ليس بمقصود قصدهم، فالكلام بمنزلة قولك إني لأمر بالرجل مثلك فأكرمه» .
+قال: «والنصب في الراء على ضربين: على الحال كأنك قلت أنعمت عليهم لا مغضوبا عليهم، أو على الاستثناء كأنك قلت إلا المغضوب عليهم، ويجوز النصب على أعني» . وحكي نحو هذا عن الخليل.
+ومما يحتج به لمن ينصب أن غير نكرة فكره أن يوصف بها المعرفة، والاختيار الذي لا خفاء به الكسر. وقد روي عن ابن كثير، فأولى القولين ما لم يخرج عن إجماع قراء الأمصار.
+قال أبو بكر بن السراج: «والذي عندي أن غير في هذا الموضع مع ما أضيف إليه معرفة، وهذا شيء فيه نظر ولبس، فليفهم عني ما أقول: اعلم أن حكم كل مضاف إلى معرفة أن يكون معرفة، وإنما تنكرت غير ومثل مع إضافتهما إلى المعارف من أجل معناهما، وذلك إذا قلت رأيت غيرك فكل شيء سوى المخاطب فهو غيره، وكذلك إذا قلت رأيت مثلك فما هو مثله لا يحصى لكثرة وجوه المماثلة، فإنما صارا نكرتين من أجل المعنى فأما إذا كان شيء معرفة له ضد واحد وأردت إثباته، ونفي ضده، وعلم ذلك السامع فوصفته بغير وأضفت غير إلى ضده فهو معرفة، وذلك كقولك عليك بالحركة غير السكون، وكذلك قولك غير المغضوب لأن من أنعم عليه لا يعاقبه إلا من غضب عليه، ومن لم يغضب عليه فهو الذي أنعم عليه، فمتى كانت غير على هذه الصفة وقصد بها هذا المقصد فهي معرفة» .
+
+== IBNATIYYA-FULL:v1p77  [سورة الفاتحة › [سورة الفاتحة (1) : الآيات 1 الى 7] › (القول في تفسير بسم الله الرحمن الرحيم)]  page=v1p77
+قال القاضي أبو محمد عبد الحق رضي الله عنه: أبقى أبو بكر الذين على حد التعريف، وجوز نعتها ب غير لما بينه من تعرف غير في هذا الموضع، وغير أبي بكر وقف مع تنكر غير، وذهب إلى تقريب الذين من النكرة إذ هو اسم شائع لا يختص به معين، وعلى هذا جوز نعتها بالنكرة، والمغضوب عليهم اليهود، والضالون النصارى. وهكذا قال ابن مسعود، وابن عباس، ومجاهد، والسدي، وابن زيد، وروي ذلك عدي بن حاتم عن رسول الله صلى الله عليه وسلم، وذلك بين من كتاب الله تعالى، لأن ذكر غضب الله على اليهود متكرر فيه كقوله: وباؤ بغضب من الله [البقرة: 61، آل عمران: 112] ، وكقوله تعالى: قل هل أنبئكم بشر من ذلك مثوبة عند الله من لعنه الله وغضب عليه وجعل منهم القردة والخنازير [المائدة: 60] فهؤلاء اليهود، بدلالة قوله تعالى بعده: ولقد علمتم الذين اعتدوا منكم في السبت فقلنا لهم كونوا قردة خاسئين [البقرة: 65] والغضب عليهم هو من الله تعالى، وغضب الله تعالى عبارة عن إظهاره عليهم محنا وعقوبات وذلة ونحو ذلك، مما يدل على أنه قد أبعدهم عن رحمته بعدا مؤكدا مبالغا فيه، والنصارى كان محققوهم على شرعة قبل ورود شرع محمد صلى الله عليه وسلم، فلما ورد ضلوا، وأما غير محققيهم فضلالهم متقرر منذ تفرقت أقوالهم في عيسى عليه السلام. وقد قال الله تعالى فيهم:
+ولا تتبعوا أهواء قوم قد ضلوا من قبل وأضلوا كثيرا وضلوا عن سواء السبيل [المائدة: 77] .
+قال مكي رحمه الله حكاية: دخلت لا في قوله ولا الضالين لئلا يتوهم أن الضالين عطف على الذين.
+قال: «وقيل هي مؤكدة بمعنى غير» .
+وحكى الطبري أن لا زائدة، وقال: هي هنا على نحو ما هي عليه في قول الراجز:
+فما ألوم البيض ألا تسخرا- أراد أن تسخر- وفي قول الأحوص: [الطويل]
+ويلحينني في اللهو أن لا أحبه ... وللهو داع دائب غير غافل
+
+== IBNATIYYA-FULL:v1p78#2  [سورة الفاتحة › [سورة الفاتحة (1) : الآيات 1 الى 7] › (القول في تفسير بسم الله الرحمن الرحيم)]  page=v1p78
+وللأرض أما سودها فتجللت ... بياضا وأما بيضها فادهأمت
+وأجمع الناس على أن عدد آي سورة الحمد سبع آيات: العالمين آية، الرحيم آية، الدين آية، نستعين آية، المستقيم آية، أنعمت عليهم آية، ولا الضالين آية. وقد ذكرنا في تفسير بسم الله الرحمن الرحيم ما ورد من خلاف ضعيف في ذلك.
+
+== IBNATIYYA-FULL:v1p66#2  [سورة الفاتحة › [سورة الفاتحة (1) : الآيات 1 الى 7] › (القول في تفسير بسم الله الرحمن الرحيم)]  page=v1p66
+«قولوا الحمد لله» وعلى هذا يجيء «قولوا إياك» قال: وهذا من حذف العرب ما يدل ظاهر الكلام عليه، كما قال الشاعر:
+وأعلم أنني سأكون رمسا ... إذا سار النواعج لا يسير
+فقال السائلون لمن حفرتم ... فقال القائلون لهم وزير
+المعنى المحفور له وزير، فحذف لدلالة ظاهر الكلام عليه، وهذا كثير.
+وقرأت طائفة «رب» بالنصب.
+فقال بعضهم: «هو نصب على المدح» .
+وقال بعضهم: «هو على النداء، وعليه يجيء إياك.
+والرب في اللغة: المعبود، والسيد المالك، والقائم بالأمور المصلح لما يفسد منها، والملك، - تأتي اللفظة لهذه المعاني-.
+فمما جاء بمعنى المعبود قول الشاعر [غاوي بن عبد العزى] :
+أرب يبول الثعلبان برأسه ... لقد هان من بالت عليه الثعالب
+ومما جاء بمعنى السيد المالك قولهم: رب العبيد والمماليك.
+ومما جاء بمعنى القائم بالأمور الرئيس فيها قول لبيد:
+وأهلكن يوما رب كندة وابنه ... ورب معد بين خبت وعرعر
+ومما جاء بمعنى الملك قوله النابغة:
+تخب إلى النعمان حتى تناله ... فدى لك من رب طريفي وتالدي
+ومن معنى الإصلاح قولهم: أديم مربوب، أي مصلح، قال الشاعر الفرزدق: [البسيط] .
+كانوا كسالئة حمقاء إذ حقنت ... سلاءها في أديم غير مربوب
+ومن معنى الملك قول صفوان بن أمية لأخيه يوم حنين: «لأن يربني رجل من قريش خير من أن يربني رجل من هوازن» .
+ومنه قول ابن عباس في شأن عبد الله بن الزبير، وعبد الملك بن مروان: «وإن كان لا بد لأن يربني رجل من بني عمي أحب إلي من أن يربني غيرهم» . ذكره البخاري في تفسير سورة براءة. ومن ذلك قول الشاعر علقمة بن عبدة: [الطويل] .
+وكنت امرأ أفضت إليك ربابتي ... ومن قبل ربتني فضعت ربوب
+وهذه الاستعمالات قد تتداخل، فالرب على الإطلاق الذي هو رب الأرباب على كل جهة هو الله تعالى.
+والعالمين جمع عالم، وهو كل موجود سوى الله تعالى، يقال لجملته عالم، ولأجزائه من الإنس والجن وغير ذلك عالم، وبحسب ذلك يجمع على العالمين، ومن حيث عالم الزمان متبدل في زمان آخر حسن جمعها، ولفظة العالم جمع لا واحد له من لفظه وهو مأخوذ من العلم والعلامة لأنه يدل على موجده، كذا قال الزجاج. وقد تقدم القول في «الرحمن الرحيم» .
+
+== IBNJAWZI-ZAD:v1p12#2  [الفاتحة : ( 3 ) الرحمن الرحيم]  page=v1p12
+قوله تعالى ﴿ الرحمن الرحيم ﴾
+قرأ أبو العاليه وابن السميفع وعيسى بن عمر بالنصب فيهما وقرأ أبو رزين العقيلي والربيع بن خيثم وأبوا عمران الجوني بالرفع فيهما
+
+== IBNKATHIR:1:3
+{ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ} (3)
+وقوله : { الرحمن الرحيم } تقدم الكلام عليه في البسملة بما أغنى عن إعادته .
+
+== JISHUMI:v1p203  [(سورة الفاتحة) › سبع آيات، وتثنى قراءتها في كل صلاة، وقيل: لأن فيها الثناء على الله تعالى، وقيل:]  page=v1p203
+وقيل: معناه: أنه تتحير العقول في كنه عظمته، كما يقال للمكتوب: كتاب، عن أبي عمرو بن العلاء. وقيل: معناه: أن الخلق يسكنون إلى ذكره، عن المبرد. وقيل: معناه: أنه يرى ولا يرى. فأما من قال: معناه: المعبود فقد أخطأ؛ لأن غيره عبد، وليس بإله. ومن قال: إنه المستحق للعبادة يلزمه ألا يكون إلها في الأزل، وهذا خطأ، و(الرحمن الرحيم) قيل: معناهما واحد، وهو ذو الرحمة، كندمان ونديم، وقيل: بينهما فرق، ولذلك يسمى غيره رحيما، ولا يسمى رحمانا، ثم اختلفوا فقيل: الرحمن: الرازق لجميع خلقه، والرحيم: الغافر لجميع المؤمنين، وقيل: الرحمن: فاعل أصول النعم التي لا يقدر عليها غيره كالصورة والحواس والحياة والشهوة والأرزاق. والرحيم: ذو الرحمة، وقيل: الرحمن بالخلق، والرحيم بالرزق.
+ومتى قيل: لماذا جمع بينهما؟
+قلنا: للمبالغة بصفته بالرحمة؛ ليعلم أن النعم كلها منه، وقيل: لأن العرب كثير في لغتهم لفظ، (الله)، ولم يعرفوا الرحمن، فجمع بينهما ليعلم أن الله والرحمن والرحيم كلها صفات وأسماء له تعالى، وقيل: لأن في التوراة ذكر الرحمن أكثر، وفي الإنجيل ذكر الرحيم أكثر، وفي القرآن ذكر الله أكثر، فجمع ليعلم أن الكل يعود إلى الله تعالى.
+ومتى قيل: لم قدم ذكر الرحمن؟
+قلنا: لأنه لما كان أشد مبالغة، ولا يوصف به غيره صار كالعلم، وإنما يبدأ بالأعرف، ثم يتبعه الآخر.
+ومتى قيل: لم جمع بين هذه الأسماء في التسمية؟
+قلنا: لأن الغرض الاستعانة، ولكل واحد منها تأثير في ذلك، كأنه يقول: أستعين بمن هو قادر على جميع النعم، فاعل لذلك، وأنه واسع الرحمة، سابغ النعمة.
+* * *
+(الأحكام)
+الآية تدل على أن ذكر اسم الله في ابتداء الأمر مسنون؛ لأن في ذلك استعانة به، واعترافا بالإلهية، وإقرارا بالنعمة، ووردت السنة بأن: كل أمر ذي بال لم يبدأ فيه بذكر الله فهو أبتر.
+
+== JISHUMI:v1p205  [(سورة الفاتحة) › واختلفوا في قراءته في الصلاة فقيل: لا يقرأ، والأكثر على أنه يقرأ، ثم اختلفوا]  page=v1p205
+فقيل: يقرأ مرة في الركعة الأولى، عن أبي حنيفة، وقيل: في كل ركعة، عن أبي يوسف، وقيل: عند كل سورة، عن محمد.
+واختلفوا فقيل: لا يجهر، عن أبي حنيفة. وقيل: يجهر، عن الشافعي، وعن أنس (صليت خلف رسول الله - صلى الله عليه وسلم - وخلف أبي بكر وعمر فلم أسمع أحدا منهم يجهر ب (بسم الله الرحمن الرحيم).
+قوله تعالى: (الحمد لله رب العالمين (2) الرحمن الرحيم (3)
+* * *
+(القراءة)
+القراءة الظاهرة برفع الدال (لله) بكسر اللام، وعن الحسن أنه قرأ بكسر الدال، وعن إبراهيم بن أبي عبلة بضم الدال واللام، أتبع الضمة الضمة، وعن الفراء جواز كسر الدال على الإتباع، وجواز ضم اللام على الإتباع، وأكثر النحويين ينكرون ذلك؛ لأن فيه إبطال الإعراب، ولأن الإتباع في الكلمة الواحدة ضعيف قليل، فكان في الكلمتين خطأ لا يجوز؛ لأن المنفصل لا يلزم لزوم المتصل، فإذا ضعف في المتصل امتنع في المنفصل، ولأن حركة الإعراب لا تلزم، ولا يكون لأجلها إتباع، وقد بينا أنه لا تجوز القراءة إلا بما استفاض نقله. وأجمع القراء على كسر الباء في (رب)، وروي عن زيد بن علي نصب الباء، ويحمل على أنه بين جوازه، لا أنه قراءة.
+* * *
+(اللغة)
+الحمد والمدح والشكر نظائر، وبين الحمد والشكر فرق؛ لأن نقيض الحمد الذم، ونقيض الشكر الكفر، ولأن الشكر لا يكون إلا على نعمة، والحمد يكون من غير نعمة، وقيل: معنى الحمد والشكر: الاعتراف بنعم المنعم مع اعتقاد بعظمته، والشكر يكون بالقلب وهو الأصل، ويكون باللسان، وقد يجب عند تهمة الجحود، وأصل الحمد: الوصف بالجميل، والحمد مصدر لا يثنى ولا يجمع، تقول: أعجبني حمدكم زيدا.
+والرب: السيد، والرب: المالك، والرب: المربي المصلح، وأصله من التربية، وهو التنشئة، يقال: ربيت، وربيته.
+والعالمين: واحدها عالم، وقيل: اشتقاقه من العلم؛ لأنه اسم يقع على ما يعلم، وقيل: من العلامة؛ لأنها تدل على صانعه، وقيل: العالم: النوع مما يعقل، وهم الملائكة، والجن، والإنس، عن ابن عباس وأبي علي، وقيل: أهل كل زمان عالم، وقيل: هو اسم لما حواه الفلك، وعالم لا واحد له من لفظه، كالقوم والرهط والنفر.
+
+== KASHSHAF:1:3
+{ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ} (3)
+
+== MAWARDI:1:3
+{ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ} (3)
+
+== MAWARDI-FULL:v1p53  [الفاتحة : ( 2 - 3 ) الحمد لله رب . . . . .]  page=v1p53
+^ الحمد لله رب العالمين الرحمن الرحيم ^ } قوله عز وجل : { الحمد لله رب العالمين } . أما { الحمد لله } فهو الثناء على المحمود بجميل صفاته وأفعاله , والشكر الثناء عليه بإنعامه , فكل شكر حمد , وليس كل حمد شكرا , فهذا فرق ما بين الحمد والشكر , ولذلك جاز أن يحمد الله تعالى نفسه , ولم يجز أن يشكرها . فأما الفرق بين الحمد والمدح , فهو أن الحمد لا يستحق إلا على فعل حسن , والمدح قد يكون على فعل وغير فعل , فكل حمد مدح وليس كل مدح حمدا , ولهذا جاز أن يمدح الله تعالى على صفته , بأنه عالم قادر , ولم يجز أن يحمد به , لأن العلم والقدرة من صفات ذاته , لا من صفات أفعاله , ويجوز أن يمدح ويحمد على صفته , بأنه خالق رازق لأن الخلق والرزق من صفات فعله لا من صفات ذاته . وأما قوله : { رب } فقد اختلف في اشتقاقه على أربعة أقاويل : أحدها : أنه مشتق من المالك , كما يقال رب الدار أي مالكها . والثاني : أنه مشتق من السيد , لأن السيد يسمى ربا قال تعالى : ^ { أما أحدكما فيسقي ربه خمرا } ^ [ يوسف : 41 ] يعني سيده . والقول الثالث : أن الرب المدبر , ومنه قول الله عز وجل : { والربانيون والأحبار } وهم العلماء , سموا ربانيين , لقيامهم بتدبير الناس بعلمهم , وقيل : ربه البيت , لأنها تدبره . والقول الرابع : الرب مشتق من التربية , ومنه قوله تعالى : ^ { وربآئبكم اللاتي في حجوركم } ^ [ النساء : 23 ] فسمي ولد الزوجة ربيبة , لتربية الزوج لها . فعلى هذا , أن صفة الله تعالى بأنه رب , لأنه مالك أو سيد , فذلك صفة من صفات ذاته , وإن قيل لأنه مدبر لخلقه , ومربيهم , فذلك صفة من صفات فعله , ومتى أدخلت عليه الألف واللام . اختص الله تعالى به , دون عباده , وإن حذفتا منه , صار مشتركا بين الله وبين عباده . وأما قوله : { العالمين } فهو جمع عالم , لا واحد له من لفظه , مثل : رهط وقوم , وأهل كل زمان عالم قال العجاج :
+
+== MAWARDI-FULL:v1p54  [الفاتحة : ( 2 - 3 ) الحمد لله رب . . . . .]  page=v1p54
+. . . . . . . . . . . . . . . . . . . . . فخندف هامة هذا العالم
+واختلف في العالم , على ثلاثة أقاويل : أحدها : أنه ما يعقل : من الملائكة , والإنس , والجن , وهذا قول ابن عباس . والثاني : أن العالم الدنيا وما فيها . والثالث : أن العالم كل ما خلقه الله تعالى في الدنيا والآخرة , وهذا قول أبي إسحاق الزجاج . واختلفوا في اشتقاقه على وجهين : أحدهما : أنه مشتق من العلم , وهذا تأويل من جعل العالم اسما لما يعقل . والثاني : أنه مشتق من العلامة , لأنه دلالة على خالقه , وهذا تأويل من جعل العالم اسما لكل مخلوق . {
+
+== MUQATIL:1:1-4  [[1 - سورة الفاتحة] › [1.1-4]]
+{ بسم الله الرحمن الرحيم } [آية: 1]
+{ الحمد لله } ، يعني الشكر لله، { رب العالمين } [آية: 2]، يعنى الجن والإنس، مثل قوله:
+ليكون للعالمين نذيرا
+[الفرقان: 1]، { الرحمن الرحيم } [آية:3]، اسمان رفيقان، أحدهما أرق من الآخر { الرحمن } ، يعني المترحم، { الرحيم } ، يعني المتعطف بالرحمة، { ملك يوم الدين } [آية: 4]، يعنى يوم الحساب، كقوله سبحانه،
+أإنا لمدينون
+[الصافات: 53]، يعنى لمحاسبون، وذلك أن ملوك الدنيا يملكون فى الدنيا، فأخبر سبحانه أنه لا يملك يوم القيامة أحد غيره، فذلك قوله تعالى:
+والأمر يومئذ لله
+[الانفطار: 19].
+
+== NASAFI:1:3
+{ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ} (3)
+{ الرحمن الرحيم } ذكرهما قد مر وهو دليل على أن التسمية ليست من الفاتحة إذ لو كانت منها لما أعادهما لخلو الإعادة عن الإفادة .
+
+== NASAFI-FULL:v1p7  [الفاتحة : ( 3 ) الرحمن الرحيم]  page=v1p7
+﴿ الرحمن الرحيم ﴾ ذكرهما قد مر وهو دليل على أن التسمية ليست من الفاتحة إذ لو كانت منها لما أعادهما لخلو الاعادة عن الافادة
+
+== QURTUBI:1:3
+{ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ} (3)
+الثالثة عشرة : قوله تعالى :  " الرحمن الرحيم "  وصف نفسه تعالى بعد  " رب العالمين "  بأنه  " الرحمن الرحيم "  لأنه لما كان في اتصافه ب  " رب العالمين "  ترهيب قرنه ب  " الرحمن الرحيم "  لما تضمن من الترغيب ؛ ليجمع في صفاته بين الرهبة منه والرغبة إليه ،   فيكون أعون على طاعته وأمنع كما قال :  " نبئ عبادي أني أنا الغفور الرحيم{[75]} .   وأن عذابي هو العذاب الأليم "  [ الحجر : 49 ،   50 ] .   وقال :  " غافر الذنب وقابل التوب شديد العقاب ذي الطول{[76]} "  [ غافر : 3 ] .   وفي صحيح مسلم عن أبي هريرة أن رسول الله صلى الله عليه وسلم قال : ( لو يعلم المؤمن ما عند الله من العقوبة ما طمع بجنته أحد ،   ولو يعلم الكافر ما عند الله من الرحمة ما قنط من جنته أحد ) .   وقد تقدم ما في هذين الاسمين من المعاني فلا معنى لإعادته .
+[75]:آية 49- 50 سورة الحجر[76]:آية 3 سورة غافر.
+
+== QURTUBI-FULL:1:1-7  [[1 - سورة الفاتحة] › [1.1-7]]
+إلى الماجد القرم الجواد المحمد
+وبذلك سمي رسول الله صلى الله عليه وسلم. وقال الشاعر:
+فشق له من اسمه ليجله
+فذو العرش محمود وهذا محمد
+والمحمدة: خلاف المذمة. وأحمد الرجل: صار أمره إلى الحمد. وأحمدته: وجدته محمودا تقول: أتيت موضع كذا فأحمدته أي صادفته محمودا موافقا، وذلك إذا رضيت سكناه أو مرعاه. ورجل حمدة مثل همزة يكثر حمد الأشياء ويقول فيها أكثر مما فيها. وحمدة النار بالتحريك : صوت التهابها. الخامسة: ذهب أبو جعفر الطبري وأبو العباس المبرد إلى أن الحمد والشكر بمعنى واحد سواء، وليس بمرضي. وحكاه أبو عبد الرحمن السلمي في كتاب «الحقائق» له عن جعفر الصادق وابن عطاء. قال ابن عطاء: معناه الشكر لله إذ كان منه الامتنان على تعليمنا إياه حتى حمدناه. واستدل الطبري على أنهما بمعنى بصحة قولك: الحمد لله شكرا. قال ابن عطية: وهو في الحقيقة دليل على خلاف ما ذهب إليه لأن قولك شكرا، إنما خصصت به الحمد لأنه على نعمة من النعم.
+وقال بعض العلماء: إن الشكر أعم من الحمد لأنه باللسان وبالجوارح والقلب والحمد إنما يكون باللسان خاصة. وقيل: الحمد أعم، لأن فيه معنى الشكر ومعنى المدح، وهو أعم من الشكر لأن الحمد يوضع موضع الشكر ولا يوضع الشكر موضع الحمد. وروي عن ابن عباس أنه قال: الحمد لله كلمة كل شاكر، وإن آدم عليه السلام قال حين عطس: الحمد لله. وقال الله لنوح عليه السلام:
+فقل الحمد لله الذي نجانا من القوم الظالمين
+[المؤمنون: 28] وقال إبراهيم عليه السلام:
+الحمد لله الذي وهب لي على الكبر إسماعيل وإسحاق
+[إبراهيم: 39]. وقال في قصة داود وسليمان:
+وقالا الحمد لله الذي فضلنا على كثير من عباده المؤمنين
+[النمل: 15]. وقال لنبيه صلى الله عليه وسلم:
+وقل الحمد لله الذي لم يتخذ ولدا
+[الإسراء: 111]. وقال أهل الجنة:
+الحمد لله الذي أذهب عنا الحزن
+
+== QURTUBI-FULL:1:1-7#2  [[1 - سورة الفاتحة] › [1.1-7]]
+وبالآخرة هم يوقنون
+[البقرة: 4] بعد قوله:
+الذين يؤمنون بالغيب
+[البقرة: 3]. والغيب يعم الآخرة وغيرها ولكن ذكرها لعظمها، والتنبيه على وجوب اعتقادها، والرد على الكفرة الجاحدين لها وكما قال: { الرحمن الرحيم } فذكر «الرحمن» الذي هو عام وذكر «الرحيم» بعده، لتخصيص المؤمنين به في قوله:
+وكان بالمؤمنين رحيما
+[الأحزاب: 43]. وقال أبو حاتم: إن «مالكا» أبلغ في مدح الخالق من «ملك»، و «ملك» أبلغ في مدح المخلوقين من مالك والفرق بينهما أن المالك من المخلوقين قد يكون غير ملك وإذا كان الله تعالى مالكا كان ملكا، واختار هذا القول القاضي أبو بكر بن العربي وذكر ثلاثة أوجه الأول: أنك تضيفه إلى الخاص والعام فتقول: مالك الدار والأرض والثوب، كما تقول: مالك الملوك. الثاني: أنه يطلق على مالك القليل والكثير وإذا تأملت هذين القولين وجدتهما واحدا. والثالث: أنك تقول: مالك الملك ولا تقول: ملك الملك. قال ابن الحصار: إنما كان ذلك لأن المراد من «مالك» الدلالة على الملك بكسر الميم - وهو لا يتضمن «الملك» بضم الميم و «ملك» يتضمن الأمرين جميعا فهو أولى بالمبالغة. ويتضمن أيضا الكمال، ولذلك استحق الملك على من دونه ألا ترى إلى قوله تعالى:
+إن الله اصطفاه عليكم وزاده بسطة في العلم والجسم
+[ البقرة: 247]، ولهذا قال عليه السلام:
+" الإمامة في قريش "
+وقريش أفضل قبائل العرب، والعرب أفضل من العجم وأشرف. ويتضمن الاقتدار والاختيار، وذلك أمر ضروري في الملك، إن لم يكن قادرا مختارا نافذا حكمه وأمره، قهره عدوه وغلبه غيره وازدرته رعيته ويتضمن البطش والأمر والنهي والوعد والوعيد ألا ترى إلى قول سليمان عليه السلام:
+مالي لا أرى الهدهد أم كان من الغآئبين.لأعذبنه عذابا شديدا
+[النمل: 20 21] إلى غير ذلك من الأمور العجيبة والمعاني الشريفة التي لا توجد في المالك. قلت: وقد احتج بعضهم على أن مالكا أبلغ لأن فيه زيادة حرف فلقارئه عشر حسنات زيادة عمن قرأ ملك. قلت: هذا نظر إلى الصيغة لا إلى المعنى، وقد ثبتت القراءة بملك، وفيه من المعنى ما ليس في مالك، على ما بينا والله أعلم. السادسة عشرة: لا يجوز أن يتسمى أحد بهذا الاسم ولا يدعى به إلا الله تعالى روى البخاري ومسلم عن أبي هريرة قال قال رسول الله صلى الله عليه وسلم:
+
+== QURTUBI-FULL:1:1-7#3  [[1 - سورة الفاتحة] › [1.1-7]]
+لمن الملك اليوم
+[غافر: 16] فأجاب جميع الخلق: { لله الواحد القهار } فلذلك قال: مالك يوم الدين أي في ذلك اليوم لا يكون مالك ولا قاض ولا مجاز غيره سبحانه لا إله إلا هو. التاسعة عشرة: إن وصف الله سبحانه بأنه ملك كان ذلك من صفات ذاته، وإن وصف بأنه مالك كان ذلك من صفات فعله. الموفية العشرين: اليوم: عبارة عن وقت طلوع الفجر إلى وقت غروب الشمس، فاستعير فيما بين مبتدأ القيامة إلى وقت استقرار أهل الدارين فيهما. وقد يطلق اليوم على الساعة منه قال الله تعالى:
+اليوم أكملت لكم دينكم
+[المائدة: 3]. وجمع يوم أيام وأصله أيوام فأدغم وربما عبروا عن الشدة باليوم، يقال: يوم أيوم، كما يقال: ليلة ليلاء. قال الراجز:
+نعم أخو الهيجاء في اليوم اليمي
+وهو مقلوب منه، أخر الواو وقدم الميم ثم قلبت الواو ياء حيث صارت طرفا كما قالوا: أدل في جمع دلو. الحادية والعشرون: الدين: الجزاء على الأعمال والحساب بها كذلك قال ابن عباس وابن مسعود وابن جريج وقتادة وغيرهم، وروي عن النبي صلى الله عليه وسلم ويدل عليه قوله تعالى:
+يومئذ يوفيهم الله دينهم الحق
+[النور: 25] أي حسابهم. وقال:
+اليوم تجزى كل نفس بما كسبت
+[غافر: 17] و
+اليوم تجزون ما كنتم تعملون
+[الجاثية: 28] وقال:
+أإنا لمدينون
+[الصافات: 53] أي مجزيون محاسبون. وقال لبيد:
+حصادك يوما ما زرعت وإنما
+يدان الفتى يوما كما هو دائن
+آخر:
+إذا ما رمونا رميناهم
+ودناهم مثل ما يقرضونا
+آخر:
+واعلم يقينا أن ملكك زائل
+واعلم بأن كما تدين تدان
+وحكى أهل اللغة: دنته بفعله دينا بفتح الدال ودينا بكسرها جزيته ومنه الديان في صفة الرب تعالى أي المجازي وفي الحديث:
+" الكيس من دان نفسه "
+أي حاسب. وقيل: القضاء. روي عن ابن عباس أيضا ومنه قول طرفة:
+لعمرك ما كانت حمولة معبد
+على جدها حربا لدينك من مضر
+ومعاني هذه الثلاثة متقاربة. والدين أيضا: الطاعة ومنه قول عمرو بن كلثوم:
+
+== QURTUBI-FULL:1:1-7#4  [[1 - سورة الفاتحة] › [1.1-7]]
+إذا ما العوالي بالعبيط احمأرت
+نجز تفسير سورة الحمد، ولله الحمد والمنة.
+
+== QURTUBI-FULL:1:3  [[1 - سورة الفاتحة] › [1.1-7]]
+أتأتون الذكران من العالمين
+[الشعراء: 165] أي من الناس. وقال العجاج:
+فخندف هامة هذا العالم
+وقال جرير بن الخطفى:
+تنصفه البرية وهو سام
+ويضحي العالمون له عيالا
+وقال ابن عباس: العالمون الجن والإنس دليله قوله تعالى:
+ليكون للعلمين نذيرا
+[الفرقان: 1] ولم يكن نذيرا للبهائم. وقال الفراء وأبو عبيدة: العالم عبارة عمن يعقل وهم أربع أمم: الإنس والجن والملائكة والشياطين. ولا يقال للبهائم: عالم لأن هذا الجمع إنما هو جمع من يعقل خاصة. قال الأعشى:
+ما إن سمعت بمثلهم في العالمينا
+وقال زيد بن أسلم: هم المرتزقون ونحوه قول أبي عمرو بن العلاء: هم الروحانيون. وهو معنى قول ابن عباس أيضا: كل ذي روح دب على وجه الأرض. وقال وهب بن منبه: إن لله عز وجل ثمانية عشر ألف عالم الدنيا عالم منها. وقال أبو سعيد الخدري: إن لله أربعين ألف عالم الدنيا من شرقها إلى غربها عالم واحد. وقال مقاتل: العالمون ثمانون ألف عالم، أربعون ألف عالم في البر، وأربعون ألف عالم في البحر. وروى الربيع بن أنس عن أبي العالية قال: الجن عالم، والإنس عالم وسوى ذلك للأرض أربع زوايا في كل زاوية ألف وخمسمائة عالم، خلقهم لعبادته. قلت: والقول الأول أصح هذه الأقوال لأنه شامل لكل مخلوق وموجود دليله قوله تعالى:
+قال فرعون وما رب العالمين قال رب السماوات والأرض وما بينهمآ
+[الشعراء: 23]. ثم هو مأخوذ من العلم والعلامة لأنه يدل على موجده. كذا قال الزجاج قال: العالم كل ما خلقه الله في الدنيا والآخرة. وقال الخليل: العلم والعلامة والمعلم: ما دل على الشيء فالعالم دال على أن له خالقا ومدبرا، وهذا واضح. وقد ذكر أن رجلا قال بين يدي الجنيد: الحمد لله فقال له: أتمها كما قال الله، قل: رب العالمين فقال الرجل: ومن العالمين حتى تذكر مع الحق؟ قال: قل يا أخي؟ فإن المحدث إذا قرن مع القديم لا يبقى له أثر. الثانية عشرة: يجوز الرفع والنصب في «رب» فالنصب على المدح، والرفع على القطع أي هو رب العالمين. الثالثة عشرة: قوله تعالى: { الرحمن الرحيم } وصف نفسه تعالى بعد { رب العلمين } ، بأنه { الرحمن الرحيم } لأنه لما كان في اتصافه ب { رب العلمين } ترهيب قرنه ب { الرحمن الرحيم } ، لما تضمن من الترغيب ليجمع في صفاته بين الرهبة منه، والرغبة إليه فيكون أعون على طاعته وأمنع كما قال:
+
+== QUTB-ZILAL:1:3
+{ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ} (3)
+( الرحمن الرحيم ) .  .  هذه الصفة التي تستغرق كل معاني الرحمة وحالاتها ومجالاتها تتكرر هنا في صلب السورة ،  في آية مستقلة ،  لتؤكد السمة البارزة في تلك الربوبية الشاملة  ؛  ولتثبت قوائم الصلة الدائمة بين الرب ومربوبيه .  وبين الخالق ومخلوقاته .  .  إنها صلة الرحمة والرعاية التي تستجيش الحمد والثناء .  إنها الصلة التي تقوم على الطمأنينة وتنبض بالمودة ،  فالحمد هو الاستجابة الفطرية للرحمة الندية .
+إن الرب الإله في الإسلام لا يطارد عباده مطاردة الخصوم والأعداء كآلهة الأولمب في نزواتها وثوراتها كما تصورها أساطير الإغريق .  ولا يدبر لهم المكائد الانتقامية كما تزعم الأساطير المزورة في  " العهد القديم "  كالذي جاء في أسطورة برج بابل في الإصحاح الحادي عشر من سفر التكوين .
+
+== RAZI:1:3
+{ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ} (3)
+وأما قوله تعالى : { الرحمان الرحيم } فاعلم أن الرحمة عبارة عن التخليص من أنواع الآفات ،   وعن إيصال الخيرات إلى أصحاب الحاجات ،   أما التخليص عن أقسام الآفات فلا يمكن معرفته إلا بعد معرفة أقسام الآفات ،   وهي كثيرة لا يعلمها إلا الله تعالى ،   ومن شاء أن يقف على قليل منها فليطالع كتب الطب حتى يقف عقله على أقسام الأسقام التي يمكن تولدها في كل واحد من الأعضاء والأجزاء ،   ثم يتأمل في أنه تعالى كيف هدى عقول الخلق إلى معرفة أقسام الأغذية والأدوية من المعادن والنبات والحيوان ،   فإنه إذا خاض في هذا الباب وجده بحرا لا ساحل له .
+وقد حكى جالينوس أنه لما صنف كتابه في منافع أعضاء العين قال : بخلت على الناس بذكر حكمة الله تعالى في تخليق العصبين المجوفين ملتقيين على موضع واحد ،   فرأيت في النوم كأن ملكا نزل من السماء وقال يا جالينوس ،   إن إلهك يقول : لم بخلت على عبادي بذكر حكمتي ؟ قال : فانتبهت فصنفت فيه كتابا ،   وقال أيضا : إن طحالي قد غلظ فعالجته بكل ما عرفت فلم ينفع ،   فرأيت في الهيكل كأن ملكا نزل من السماء وأمرني بفصد العرق الذي بين الخنصر والبنص ؛ وأكثر علامات الطب في أوائلها تنتهي إلى أمثال هذه التنبيهات والإلهامات ،   فإذا وقف الإنسان على أمثال هذه المباحث عرف أن أقسام رحمة الله تعالى على عباده خارجة عن الضبط والإحصاء .
+
+== RAZI-FULL:v1p144  [الفاتحة : ( 1 ) بسم الله الرحمن . . . . .]  page=v1p144
+الكلام في سورة الفاتحة وفي ذكر أسماء هذه السورة وفيه أبواب :
+الباب الأول
+اعلم أن هذه السورة لها أسماء كثيرة وكثرة الأسماء تدل على شرف المسمى : - فالأول : فاتحة الكتاب سميت بذلك الاسم لأنه يفتتح بها في المصاحف والتعليم والقراءة في الصلاة وقيل : سميت بذلك ؛ لأن الحمد فاتحة كل كلام على ما سيأتي تقريره وقيل : لأنها أول سورة نزلت من السماء . والثاني : سورة الحمد والسبب فيه أن أولها لفظ الحمد . والثالث : أم القرآن والسبب فيه وجوه : - الأول : أن أم الشيء أصله والمقصود من كل القرآن تقرير أمور أربعة : الإلهيات والمعاد والنبوات وإثبات القضاء والقدر لله تعالى فقوله : ﴿ الحمد لله رب العالمين الرحمن الرحيم ﴾ يدل على الإلهيات وقوله : ﴿ مالك يوم الدين ﴾ يدل على المعاد وقوله : ﴿ إياك نعبد وإياك نستعين ﴾ يدل على نفي الجبر والقدر وعلى إثبات أن الكل بقضاء الله وقدره وقوله : ﴿ اهدنا الصراط المستقيم صراط الذين أنعمت عليهم غير المغضوب عليهم ولا الضالين ﴾ يدل أيضا على إثبات قضاء الله وقدره وعلى النبوات وسيأتي شرح هذه المعاني بالاستقصاء فلما كان المقصد الأعظم من القرآن هذه المطالب الأربعة وكانت هذه السورة مشتملة عليها لقبت بأم القرآن .
+السبب الثاني لهذا الاسم : أن حاصل جميع الكتب الإلهية يرجع إلى أمور ثلاثة : إما الثناء على الله باللسان وإما الاشتغال بالخدمة والطاعة وإما طلب المكاشفات والمشاهدات فقوله : ﴿ الحمد لله رب العالمين الرحمن الرحيم مالك يوم الدين ﴾ كله ثناء على الله وقوله : ﴿ إياك نعبد وإياك نستعين ﴾ اشتغال بالخدمة والعبودية إلا أن الابتداء وقع بقوله ﴿ إياك نعبد ﴾ وهو إشارة إلى الجد والاجتهاد في العبودية ثم قال : ﴿ وإياك نستعين ﴾ وهو إشارة إلى اعتراف العبد بالعجز والذلة والمسكنة والرجوع إلى الله وأما قوله : ﴿ اهدنا الصراط المستقيم ﴾ فهو طلب للمكاشفات والمشاهدات وأنواع الهدايات . السبب الثالث لتسمية هذه السورة بأم الكتاب : أن المقصود من جميع العلوم : إما معرفة عزة الربوبية أو معرفة ذلة العبودية فقوله ﴿ الحمد لله رب العالمين الرحمن الرحيم مالك يوم الدين ﴾ يدل على أنه هو الإله المستولي على كل أحوال الدنيا والآخرة ثم من قوله ﴿ إياك نعبد وإياك نستعين ﴾ إلى آخر السورة يدل على ذل العبودية فإنه يدل على أن العبد لا يتم له شيء من الأعمال الظاهرة ولا من المكاشفات الباطنة إلا بإعانة الله تعالى وهدايته . السبب الرابع : أن العلوم البشرية إما علم ذات الله وصفاته وأفعاله وهو علم الأصول وإما علم أحكام الله تعالى وتكاليفه وهو علم الفروع وإما علم تصفية الباطن وظهور الأنوار الروحانية والمكاشفات الإلهية والمقصود من القرآن بيان هذه الأنواع الثلاثة وهذه السورة الكريمة مشتملة على تقرير هذه المطالب الثلاثة على أكمل الوجوه : فقوله : ﴿ الحمد لله رب العالمين الرحمن الرحيم مالك يوم الدين ﴾ إشارة إلى علم الأصول ؛ لأن الدال على وجوده وجود مخلوقاته فقوله : ﴿ رب العالمين ﴾ يجري مجرى الإشارة إلى أنه لا سبيل إلى معرفة وجوده إلا بكونه ربا للعالمين وقوله : ﴿ الحمد لله ﴾ إشارة إلى كونه مستحقا للحمد ولا يكون مستحقا للحمد إلا إذا كان قادرا على كل الممكنات عالما بكل المعلومات ثم وصفه بنهاية الرحمة - وهو كونه رحمانا رحيما - ثم وصفه بكمال القدرة - وهو قوله مالك يوم الدين - حيث لا يهمل أمر المظلومين بل يستوفي حقوقهم من الظالمين وعند
+هذا تم الكلام في معرفة الذات والصفات وهو علم الأصول ثم شرع بعده في تقرير علم الفروع وهو الاشتغال بالخدمة والعبودية وهو قول : ﴿ إياك نعبد ﴾ ثم مزجه أيضا بعلم الأصول مرة أخرى و … [cut at 3000 of 3748 characters]
+
+== RAZI-FULL:v1p151  [الفاتحة : ( 1 ) بسم الله الرحمن . . . . .]  page=v1p151
+المسألة الخامسة : لما خلق الله العالم مطابقا لمصالح العباد موافقا لمنافعهم كان الإحكام والإتقان ظاهرين في العالم الأعلى والعالم الأسفل وفاعل الفعل المحكم المتقن يجب أن يكون عالما فثبت بما ذكرنا أن قوله ﴿ الحمد لله ﴾ يدل على وجود الإله ويدل على كونه منزها عن الحيز والمكان ويدل على كونه منزها عن الحلول في المحل ويدل على كونه في نهاية القدرة ويدل على كونه في نهاية العلم ويدل على كونه في نهاية الحكمة . وأما السؤال الثاني - وهو قوله : هب أنه ثبت القول بوجود الإله القادر فلم قلتم إنه يستحق الحمد والثناء ؟ والجواب هو قوله ﴿ الرحمن الرحيم مالك يوم الدين ﴾ وتقرير هذا الجواب أن العبد لا يخلو حاله في الدنيا عن أمرين : إما أن يكون في السلامة والسعادة وإما أن يكون في الألم والفقر والمكاره فإن كان في السلامة والكرامة فأسباب تلك السلامة وتلك الكرامة لم تحصل إلا بخلق الله وتكوينه وإيجاده فكان رحمانا رحيما وإن كان في المكاره والآفات فتلك المكاره والآفات إما أن تكون من العباد أو من الله فإن كانت من العباد فالله سبحانه وتعالى وعد بأنه ينتصف للمظلومين في يوم الدين وإن كانت من الله فالله تعالى وعد بالثواب الجزيل والفضل الكثير على كل ما أنزله بعباده في الدنيا من المكروهات والمخافات وإذا كان الأمر كذلك ثبت أنه لا بد وأن يكون مستحقا للحمد الذي لا نهاية له والثناء الذي لا غاية له فظهر بالبيان الذي ذكرناه أن قوله :
+﴿ الحمد لله رب العالمين الرحمن الرحيم مالك يوم الدين ﴾ مرتب ترتيبا لا يمكن في العقل وجود كلام أكمل وأفضل منه . واعلم أنه تعالى لما تمم الكلام في الصفات المعتبرة في الربوبية أردفه بالكلام المعتبر في العبودية واعلم أن الإنسان مركب من جسد ومن روح والمقصود من الجسد أن يكون آلة للروح في اكتساب الأشياء النافعة للروح فلا جرم كان أفضل أحوال الجسد أن يكون آتيا بأعمال تعين الروح على اكتساب السعادات الروحانية الباقية وتلك الأعمال هي أن يكون الجسد آتيا بأعمال تدل على تعظيم المعبود وخدمته وتلك الأعمال هي العبادة فأحسن أحوال العبد في هذه الدنيا أن يكون مواظبا على العبادات وهذه أول درجات سعادة الإنسان وهو المراد بقوله : { إياك نعبد } فإذا واظب على هذه الدرجة مدة فعند هذا يظهر له شيء من أنوار عالم الغيب وهو أنه وحده لا يستقل بالإتيان بهذه العبادة والطاعات بل ما لم يحصل له توفيق الله تعالى وإعانته وعصمته فإنه لا يمكنه الإتيان بشيء من العبادات والطاعات وهذا المقام هو الدرجة الوسطى في الكمالات وهو المراد من قوله :
+
+== RAZI-FULL:v1p118  [الفاتحة : ( 1 ) بسم الله الرحمن . . . . .]  page=v1p118
+الباب السابع
+في الأسماء الدالة على الصفات الحقيقية مع الإضافية وفيه فصول
+الفصل الأول
+في الأسماء الحاصلة بسبب القدرة
+والأسماء الدالة على صفة القدرة كثيرة : الأول القادر قال تعالى : ﴿ قل هو القادر على أن يبعث عليكم عذابا من فوقكم أو من تحت أرجلكم ﴾ [ الأنعام : 65 ] وقال في أول سورة القيامة : ﴿ أيحسب الإنسان ألن نجمع عظامه بلى قادرين على أن نسوي بنانه ﴾ [ القيامة : 3 ] وقال في آخر السورة : ﴿ أليس ذلك بقادر على أن يحيي الموتى ﴾ [ القيامة : 40 ] الثاني : القدير قال تعالى : ^ { تبارك الذي بيده الملك وهو على كل شيء قدير } ^ [ الملك : 1 ] وهذا اللفظ يفيد المبالغة في وصفه بكونه قادرا الثالث : المقتدر قال تعالى : ^ { وكان الله على كل شيء مقتدرا } ^ [ الكهف : 45 ] وقال : ﴿ في مقعد صدق عند مليك مقتدر ﴾ [ القمر : 55 ] الرابع : عبر عن ذاته بصيغة الجمع في هذه الصفة قال تعالى : ﴿ فقدرنا فنعم القادرون ﴾ [ المرسلات : 23 ] واعلم أن لفظ الملك يفيد القدرة أيضا بشرط خاص ثم إن هذا اللفظ جاء في القرآن على وجوه مختلفة : فالأول المالك قال الله تعالى : ﴿ مالك يوم الدين ﴾ [ الفاتحة : 3 ] الثاني : الملك قال تعالى ﴿ فتعالى الله الملك الحق ﴾ [ المؤمنون : 116 ] وقال : ﴿ هو الله الذي لا إله إلا هو الملك القدوس ﴾ [ الحشر : 23 ] وقال : ﴿ ملك الناس ﴾ [ الناس : 2 ] واعلم أن ورود لفظ الملك في القرآن أكثر من ورود لفظ المالك والسبب فيه أن الملك أعلى شأنا من المالك الثالث : مالك الملك قال تعالى : ﴿ قل اللهم مالك الملك ﴾ [ الناس : 2 ] الرابع : المليك قال تعالى : ﴿ عند مليك مقتدر ﴾ [ القمر : 55 ] الخامس : لفظ الملك قال تعالى : ﴿ الملك يومئذ الحق للرحمن ﴾ [ الفرقان : 26 ] وقال تعالى : ﴿ له ملك السماوات والأرض ﴾ [ الحديد : 2 ] واعلم أن لفظ القوة يقرب من لفظ القدرة وقد جاء هذا اللفظ في القرآن على وجوه مختلفة : الأول القوي قال تعالى : ﴿ إن الله لقوي عزيز ﴾ [ الحج : 74 ] الثاني : ذو القوة قال تعالى : ﴿ إن الله هو الرزاق ذو القوة المتين ﴾ [ الذاريات : 58 ] .
+
+== RAZI-FULL:v1p189#2  [الفاتحة : ( 3 ) الرحمن الرحيم]  page=v1p189
+الفائدة الأولى : الرحمن : هو المنعم بما لا يتصور صدور جنسه من العباد والرحيم : هو المنعم بما يتصور جنسه من العباد حكي عن إبراهيم بن أدهم أنه قال كنت ضيفا لبعض القوم فقدم المائدة فنزل غراب وسلب رغيفا فاتبعته تعجبا فنزل في بعض التلال وإذا هو برجل مقيد مشدود اليدين فألقى الغراب ذلك الرغيف على وجهه .
+وروي عن ذي النون أنه قال : كنت في البيت إذ وقعت ولولة في قلبي وصرت بحيث ما ملكت نفسي فخرجت من البيت وانتهيت إلى شط النيل فرأيت عقربا قويا يعدو فتبعته فوصل إلى طرف النيل فرأيت ضفدعا واقفا على طرف الوادي فوثب العقرب على ظهر الضفدع واخذ الضفدع يسبح ويذهب فركبت السفينة وتبعته فوصل الضفدع إلى الطرف الآخر من النيل ونزل العقرب من ظهره واخذ يعدو فتبعته فرأيت شابا نائما تحت شجرة ورأيت أفعى يقصده فلما قربت الأفعى من ذلك الشاب وصل العقرب إلى الأفعى فوثب العقرب على الأفعى فلدغه والأفعى أيضا لدغ العقرب فماتا معا وسلم الإنسان منهما . ويحكى أن ولد الغراب كما يخرج من قشر البيضة يخرج من غير ريش فيكون كأنه قطعة لحم أحمر والغراب يفر منه ولا يقوم بتربيته ثم إن البعوض يجتمع عليه لأنه يشبه قطعة لحم ميت فإذا وصلت البعوض إليه التقم تلك البعوض واغتذى بها ولا يزال على هذه الحال إلى أن يقوى وينبت ريشه ويخفى لحمه تحت ريشه فعند ذلك تعود أمه إليه ولهذا السبب جاء في أدعية العرب : يا رزاق النعاب في عشه فظهر بهذه الأمثلة أن فضل الله عام وإحسانه شامل ورحمته واسعة .
+واعلم أن الحوادث على قسمين : منه ما يظن أنه رحمة مع أنه لا يكون كذلك بل يكون في الحقيقة عذابا ونقمة ومنه ما يظن في الظاهر أنه عذاب ونقمة مع أنه يكون في الحقيقة فضلا وإحسانا ورحمة . أما القسم الأول : فالوالد إذا أهمل ولده حتى يفعل ما يشاء ولا يؤدبه ولا يحمله على التعلم فهذا في الظاهر رحمة وفي الباطن نقمة . وأما القسم الثاني كالوالد إذا حبس ولده في المكتب وحمله على التعلم فهذا في الظاهر نقمة وفي الحقيقة رحمة وكذلك الإنسان إذا وقع في يده الآكلة فإذا قطعت تلك اليد فهذا في الظاهر عذاب وفي الباطن راحة ورحمة فالأبله يغتر بالظواهر والعاقل ينظر في السرائر . إذا عرفت هذا فكل ما في العالم من محنة وبلية وألم ومشقة فهو وإن كان عذابا وألما في الظاهر إلا أنه حكمة ورحمة في الحقيقة وتحقيقه ما قيل في الحكمة : إن ترك الخير الكثير لأجل الشر القليل شر كثير فالمقصود من التكاليف تطهير الأرواح عن العلائق الجسدانية كما قال تعالى ﴿ إن أحسنتم أحسنتم لأنفسكم ﴾ [ الإسراء : 7 ] والمقصود من خلق النار صرف الأشرار إلى أعمال الأبرار وجذبها من دار الفرار إلى دار القرار كما قال تعالى : ﴿ ففروا إلى الله ﴾ [ الذاريات : 50 ] وأقرب مثال لهذا الباب قصة موسى والخضر عليهما السلام فإن موسى كان يبني الحكم عن ظواهر الأمور فاستنكر تخريق السفينة وقتل الغلام وعمارة الجدار المائل وأما الخضر فإنه كان يبني أحكامه على الحقائق والأسرار فقال : ﴿ أما السفينة فكانت لمساكين يعملون في البحر فأردت أن أعيبها وكان وراءهم ملك يأخذ كل سفينة غصبا وأما الغلام فكان أبواه مؤمنين فخشينا أن يرهقهما طغيانا وكفرا فأردنا أن يبدلهما ربهما خيرا منه زكاة وأقرب رحما وأما الجدار فكان لغلامين يتيمين في المدينة وكان تحته كنز لهما وكان أبوهما صالحا فأراد ربك أن يبلغا أشدهما ويستخرجا كنزهما رحمة من ربك ﴾ [ الكهف : 79 ] فظهر بهذه القصة أن الحكيم المحقق هو الذي يبني أمره على الحقائق لا على الظاهر فإذا رأيت ما يكرهه طبعك وينفر عنه عقلك فاعلم أن تحته أسرارا خفية وحكما بالغة وأن حكمته ورحمته اقتضت ذلك وعند ذلك ي … [cut at 3000 of 3534 characters]
+
+== RAZI-FULL:v1p190  [الفاتحة : ( 3 ) الرحمن الرحيم]  page=v1p190
+: يا موسى سلني عن ملح قدرك وعلف شاتك . الفائدة الثالثة : وصف نفسه بكونه رحمانا رحيما ثم إنه أعطى مريم عليها السلام رحمة واحدة حيث قال ﴿ ورحمة منا وكان أمرا مقضيا ﴾ [ مريم : 21 ] فتلك الرحمة صارت سببا لنجاتها من توبيخ الكفار الفجار ثم إنا نصفه كل يوم أربعة وثلاثين مرة أنه رحمن وأنه رحيم وذلك لأن الصلوات سبع عشرة ركعة ويقرأ لفظ الرحمن الرحيم في كل ركعة مرتين مرة في بسم الله الرحمن الرحيم ومرة في قوله ﴿ الحمد لله رب العالمين الرحمن الرحيم ﴾ فلما صار ذكر الرحمة مرة واحدة سببا لخلاص مريم عليها السلام عن المكروهات أفلا يصير ذكر الرحمة هذه المرات الكثيرة طول العمر سببا لنجاة المسلمين من النار والعار والدمار ؟ الفائدة الرابعة : أنه تعالى رحمن لأنه يخلق ما لا يقدر العبد عليه رحيم لأنه يفعل ما لا يقدر العبد على جنسه فكأنه تعالى يقول : أنا رحمن لأنك تسلم إلي نطفة مذرة فأسلمها إليك صورة حسنة كما قال تعالى : ﴿ وصوركم فأحسن صوركم ﴾ [ غافر : 64 ] وأنا رحيم لأنك تسلم إلي طاعة ناقصة فأسلم إليك جنة خالصة . الفائدة الخامسة : روي أن فتى قربت وفاته واعتقل لسانه عن شهادة أن لا إله إلا الله فأتوا النبي صلى الله عليه وسلم وأخبروه به فقام ودخل عليه وجعل يعرض عليه الشهادة وهو يتحرك ويضطرب ولا يعمل لسانه فقال النبي صلى الله عليه وسلم
+: أما كان يصلي ؟ أما كان يصوم ؟ أما كان يزكي ؟ فقالوا : بلى فقال هل عق والديه ؟ فقالوا بلى فقال عليه السلام
+: هاتوا بأمه فجاءت وهي عجوز عوراء فقال عليه السلام : هلا عفوت عنه فقالت : لا أعفو لأنه لطمني ففقأ عيني فقال عليه السلام : هاتوا بالحطب والنار فقالت وما تصنع بالنار ؟ فقال عليه السلام : أحرقه بالنار بين يديك جزاء لما عمل بك فقالت عفوت عفوت أللنار حملته تسعة أشهر ؟ أللنار أرضعته سنتين ؟ فأين رحمة الأم ؟ فعند ذلك انطلق لسانه وذكر أشهد أن لا إله إلا الله والنكتة أنها كانت رحيمة وما كانت رحمانة فلأجل ذلك القدر القليل من الرحمة ما جوزت الإحراق بالنار فالرحمن الرحيم الذي لم يتضرر بجنايات عبيده مع عنايته بعباده كيف يستجيز أن يحرق المؤمن الذي واظب على شهادة أن لا إله إلا الله سبعين سنة بالنار ؟ الفائدة السادسة : لقد اشتهر أن النبي عليه السلام لما كسرت رباعيته قال : اللهم اهد قومي فإنهم لا يعلمون فظهر أنه يوم القيامة يقول : أمتي أمتي فهذا كرم عظيم منه في الدنيا وفي الآخرة وإنما حصل فيه هذا الكرم وهذا الإحسان لكونه رحمة كما قال تعالى : ﴿ وما أرسلناك إلا رحمة للعالمين ﴾ [ الأنبياء : 107 ] فإن كان أثر الرحمة والواحدة هذا المبلغ فكيف كرم من هو رحمن رحيم ؟ وأيضا روي أنه عليه السلام قال
+
+== RAZI-FULL:v1p191  [الفاتحة : ( 3 ) الرحمن الرحيم]  page=v1p191
+: اللهم اجعل حساب أمتي على يدي ثم إنه امتنع عن الصلاة على الميت لأجل أنه كان مديونا بدرهمين وأخرج عائشة عن البيت بسبب الإفك فكأنه تعالى قال له إن لك رحمة واحدة وهي قوله ﴿ وما أرسلناك إلا رحمة للعالمين ﴾ [ الأنبياء : 107 ] والرحمة الواحدة لا تكفي في إصلاح المخلوقات فذرني وعبيدي واتركني وأمتك فإني أنا الرحمن الرحيم فرحمتي لا نهاية لها ومعصيتهم متناهية والمتناهي في جنب غير المتناهي يصير فانيا فلا جرم معاصي جميع الخلق تفنى في بحار رحمتي لأني أنا الرحمن الرحيم . الفائدة السابعة : قالت القدرية : كيف يكون رحمانا رحيما من خلق الخلق للنار ولعذاب الأبد ؟ وكيف يكون رحمانا رحيما من يخلق الكفر في الكافر ويعذبه عليه ؟ وكيف يكون رحمانا رحيما من أمر بالإيمان ثم صد ومنع عنه ؟ وقالت الجبرية : أعظم أنواع النعمة والرحمة هو الإيمان فلو لم يكن الإيمان من الله بل كان من العبد لكان اسم الرحمن الرحيم بالعبد أولى منه بالله والله أعلم .
+الفصل الرابع
+في تفسير قوله مالك يوم الدين وفيه فوائد
+
+== RAZI-FULL:v1p149  [الفاتحة : ( 1 ) بسم الله الرحمن . . . . .]  page=v1p149
+الباب الثالث
+في الأسرار العقلية المستنبطة من هذه السورة وفيه مسائل
+المسألة الأولى : اعلم أنه تعالى لما قال : ^ { الحمد لله } فكأن سائلا يقول : الحمد لله منبئ عن أمرين : أحدهما : وجود الإله والثاني : كونه مستحقا للحمد فما الدليل على وجود الإله وما الدليل على أنه مستحق للحمد ولما توجه هذان السؤالان لا جرم ذكر الله تعالى ما يجري مجرى الجواب عن هذين السؤالين فأجاب عن السؤال الأول بقوله ﴿ رب العالمين ﴾ وأجاب عن السؤال الثاني بقوله ﴿ الرحمن الرحيم مالك يوم الدين ﴾ أما تقرير الجواب الأول ففيه مسائل : المسألة الأولى : إن علمنا بوجود الشيء إما أن يكون ضروريا أو نظريا لا جائز أن يقال العلم بوجود الإله ضروري لأنا نعلم بالضرورة أنا لا نعرف وجود الإله بالضرورة فبقي أن يكون العلم نظريا والعلم النظري لا يمكن تحصيله إلا بالدليل ولا دليل على وجود الإله إلا أن هذا العالم المحسوس بما فيه من السموات والأرضين والجبال والبحار والمعادن والنبات والحيوان محتاج إلى مدبر يدبره وموجود يوجده ومرب يربيه ومبق يبقيه فكان قوله : { رب العالمين } إشارة إلى الدليل الدال على وجود الإله القادر الحكيم .
+ثم فيه لطائف : اللطيفة الأولى : أن العالمين إشارة إلى كل ما سوى الله فقوله : { رب العالمين } إشارة إلى أن كل ما سواه فهو مفتقر إليه محتاج في وجوده إلى إيجاده وفي بقائه إلى إبقائه فكان هذا إشارة إلى أن كل جزء لا يتجزأ وكل جوهر فرد وكل واحد من آحاد الأعراض فهو برهان باهر ودليل قاطع على وجود الإله الحكيم القادر كما قال تعالى : ^ { وإن من شيء إلا يسبح بحمده ولكن لا تفقهون تسبيحهم } ^ [ الإسراء : 44 ] . اللطيفة الثانية : أنه تعالى لم يقل الحمد لله خالق العالمين بل قال : ﴿ الحمد لله رب العالمين ﴾ والسبب فيه أن الناس أطبقوا على أن الحوادث مفتقرة إلى الموجد والمحدث حال حدوثها لكنهم اختلفوا في أنها حال بقائها هل تبقى محتاجة إلى المبقي أم لا ؟ فقال قوم : الشيء حال بقائه يستغني عن السبب والمربي هو القائم بإبقاء الشيء وإصلاح حاله حال بقائه فقوله : ﴿ رب العالمين ﴾ تنبيه على أن جميع العالمين مفتقرة إليه في حال بقائها والمقصود أن افتقارها إلى الموجد في حال حدوثها أمر متفق عليه أما افتقارها إلى المبقي والمربي حال بقائها هو الذي وقع فيه الخلاف فخصه سبحانه بالذكر تنبيها على أن كل ما سوى الله ؛ فإنه لا يستغني عنه لا في حال حدوثه ولا في حال بقائه .
+
+== TAB:1:3
+{ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ} (3)
+القول في تأويل قوله تعالى :
+{  الرّحْمَنِ الرّحِيمِ }
+قال أبو جعفر :  قد مضى البيان عن تأويل قوله «الرحمن الرحيم » ،   في تأويل «بسم الله الرحمن الرحيم » ،   فأغنى ذلك عن إعادته في هذا الموضع .   ولم يحتج إلى الإبانة عن وجه تكرير الله ذلك في هذا الموضع ،   إذ كنا لا نرى أن «بسم الله الرحمن الرحيم » من فاتحة الكتاب آية ،   فيكون علينا لسائلٍ مسألة بأن يقول :  ما وجه تكرير ذلك في هذا الموضع ،   وقد مضى وصف الله عزّ وجلّ به نفسه في قوله «بسم الله الرحمن الرحيم » ،   مع قرب مكان إحدى الاَيتين من الاَخرى ومجاورتها لصاحبتها ؟  بل ذلك لنا حجة على خطأ دعوى من ادعى أن بسم الله الرحمن الرحيم من فاتحة الكتاب آية ،   إذ لو كان ذلك كذلك لكان ذلك إعادة آية بمعنى واحد ولفظ واحد مرتين من غير فصل يفصل بينهما .   وغير موجود في شيء من كتاب الله آيتان متجاورتان مكرّرتان بلفظ واحد ومعنى واحد ،   لا فصل بينهما من كلام يخالف معناه معناهما ،   وإنما يأتي بتكرير آية بكمالها في السورة الواحدة ،   مع فصول تفصل بين ذلك ،   وكلام يُعترض به بغير معنى الاَيات المكرّرات أو غير ألفاظها ،   ولا فاصل بين قول الله تبارك وتعالى اسمه «الرحمن الرحيم » من «بسم الله الرحمن الرحيم » ،   وقول الله :  «الرحمن الرحيم » ،   من «الحمد لله رب العالمين » .
+فإن قال قائل :  فإن «الحمد لله رب العالمين » فاصل بين ذلك .   قيل :  قد أنكر ذلك جماعةٌ من أهل التأويل ،   وقالوا :  إن ذلك من الموخّر الذي معناه التقديم ،   وإنما هو :  الحمد لله الرحمن الرحيم رب العالمين ملك يوم الدين .   واستشهدوا على صحة ما ادّعوا من ذلك بقوله :  «مَلِكِ يَوْم الدّين » فقالوا :  إن قوله :  «ملك يوم الدين » تعليم من الله عبده أن يصفه بالمُلْك في قراءة من قرأ مَلِك ،   وبالمِلْك في قراءة من قرأ «مالك » .
+قالوا :  فالذي هو أولى أن يكون مجاور وَصْفه بالمُلْك أو المِلْك ما كان نظير ذلك من الوصف ،   وذلك هو قوله «رَبّ العالمين » ،   الذي هو خبر عن ملكه جميع أجناس الخلق ،   وأن يكون مجاور وصفه بالعظمة والألوهة ما كان له نظيرا في المعنى من الثناء عليه ،   وذلك قوله :  الرّحْمَنِ الرّحيم .   فزعموا أن ذلك لهم دليل على أن قوله «الرحمن الرحيم » بمعنى التقديم قبل «رب العالمين » ،   وإن كان في الظاهر مؤخرا .   وقالوا :  نظائر ذلك من التقديم الذي هو بمعنى التأخير والمؤخر الذي هو بمعنى التقديم في كلام العرب أفشى وفي منطقها أكثر من أن يحصى ،   من ذلك قول جرير بن عطية :
+طافَ الخَيالُ وأيْنَ منْكَ لِمَاما *** فارْجِعْ لزَوْرِكَ بالسّلام سَلاما
+بمعنى طاف الخيال لماما وأين هو منك .   وكما قال جل ثناؤه في كتابه :  {  الحَمْدُ لِلّهِ الّذِي أَنْزَلَ على عَبْدِهِ الكتابَ وَلمْ يَجْعَلْ لَهُ عِوَجا قَيّما } المعنى :  الحمد لله الذي أنزل على عبده الكتاب قيما ولم يجعل له عوجا ،   وما أشبه ذلك .   ففي ذلك دليل شاهد على صحة قول من أنكر أن تكون «بسم الله الرحمن الرحيم » من فاتحة الكتاب آية .
+
+== TABATABAI:1:1-5  [[1 - سورة الفاتحة] › [1.1-5]]
+قد جاءكم من الله نور وكتاب مبين يهدي به الله
+المائدة 15-16 الآية. إلى غير ذلك من الآيات التي أفاد فيها أن الغاية من كتابه وكلامه هداية العباد، فالهداية جملة هي المبتدئة باسم الله الرحمن الرحيم، فهو الله الذي إليه مرجع العباد، وهو الرحمن يبين لعباده سبيل رحمته العامة للمؤمن والكافر، مما فيه خيرهم في وجودهم وحياتهم، وهو الرحيم يبين لهم سبيل رحمته الخاصة بالمؤمنين وهو سعادة آخرتهم ولقاء ربهم وقد قال تعالى
+ورحمتي وسعت كل شيء فسأكتبها للذين يتقون
+الأعراف 156 فهذا بالنسبة إلى جملة القرآن. ثم إنه سبحانه كرر ذكر السورة في كلامه كثيرا كقوله تعالى
+فأتوا بسورة مثله
+يونس 38 وقوله
+فأتوا بعشر سور مثله مفتريات
+هود 13 وقوله تعالى
+إذا أنزلت سورة
+التوبة 86 وقوله
+سورة أنزلناها وفرضناها
+
+== TABATABAI:1:1-5#2  [[1 - سورة الفاتحة] › [1.1-5]]
+وقد شاع النزاع بين المتكلمين في الصدر الأول من الإسلام في أن الاسم عين المسمى أو غيره وطالت المشاجرات فيه، ولكن هذا النوع من المسائل قد اتضحت اليوم اتضاحا يبلغ إلى حد الضرورة ولا يجوز الاشتغال بها بذكر ما قيل وما يقال فيها والعناية بإبطال ما هو الباطل وإحقاق ما هو الحق فيها، فالصفح عن ذلك أولى. وأما لفظ الجلالة، فالله أصله الإله، حذفت الهمزة لكثرة الاستعمال، وإله من أله الرجل يأله بمعني عبد، أو من اله الرجل أو وله الرجل أي تحير، فهو فعال بكسر الفاء بمعنى المفعول ككتاب بمعنى المكتوب سمي إلها لأنه معبود أو لأنه مما تحيرت في ذاته العقول، والظاهر أنه علم بالغلبة، وقد كان مستعملا دائرا في الألسن قبل نزول القرآن يعرفه العرف الجاهلي كما يشعر به قوله تعالى
+ولئن سألتهم من خلقهم ليقولن الله
+الزخرف 87، وقوله تعالى
+فقالوا هذا لله بزعمهم وهذا لشركائنا
+الأنعام 136. ومما يدل على كونه علما أنه يوصف بجميع الأسماء الحسنى وسائر أفعاله المأخوذة من تلك الأسماء من غير عكس، فيقال الله الرحمن الرحيم ويقال رحم الله وعلم الله، ورزق الله، ولا يقع لفظ الجلالة صفة لشيء منها ولا يؤخذ منه ما يوصف به شيء منها. ولما كان وجوده سبحانه، وهو إله كل شيء يهدي إلى اتصافه بجميع الصفات الكمالية كانت الجميع مدلولا عليها بالالتزام به، وصح ما قيل إن لفظ الجلالة اسم للذات الواجب الوجود المستجمع لجميع صفات الكمال وإلا فهو علم بالغلبة لم تعمل فيه عناية غير ما يدل عليه مادة إله. واما الوصفان الرحمن الرحيم، فهما من الرحمة، وهي وصف انفعالي وتأثر خاص يلم بالقلب عند مشاهدة من يفقد أو يحتاج إلى ما يتم به أمره فيبعث الإنسان إلى تتميم نقصه ورفع حاجته، إلا أن هذا المعنى يرجع بحسب التحليل إلى الإعطاء والإفاضة لرفع الحاجة وبهذا المعنى يتصف سبحانه بالرحمة. والرحمن، فعلان صيغة مبالغة تدل على الكثرة، والرحيم فعيل صفة مشبهة تدل على الثبات والبقاء ولذلك ناسب الرحمن أن يدل على الرحمة الكثيرة المفاضة على المؤمن والكافر وهو الرحمة العامة، وعلى هذا المعنى يستعمل كثيرا في القرآن، قال تعالى
+
+== TABATABAI:1:1-5#3  [[1 - سورة الفاتحة] › [1.1-5]]
+سبحان الله عما يصفون إلا عباد الله المخلصين
+الصافات 159-160. والكلام مطلق غير مقيد، ولم يرد في كلامه تعالى ما يؤذن بحكاية الحمد عن غيره إلا ما حكاه عن عدة من أنبيائه المخلصين، قال تعالى في خطابه لنوح عليه السلام
+فقل الحمد لله الذي نجانا من القوم الظالمين
+المؤمنون 28. وقال تعالى حكاية عن إبراهيم عليه السلام
+الحمد لله الذي وهب لي على الكبر إسماعيل وإسحاق
+إبراهيم 39. وقال تعالى لنبيه محمد صلى الله عليه وآله وسلم في بضعة مواضع من كلامه
+وقل الحمد لله
+الإسراء 111. وقال تعالى حكاية عن داود وسليمان عليهما السلام
+وقالا الحمد لله
+النمل 15. وإلا ما حكاه عن أهل الجنة وهم المطهرون من غل الصدور ولغو القول والتأثيم كقوله
+وآخر دعواهم أن الحمد لله رب العالمين
+يونس 10. وأما غير هذه الموارد فهو تعالى وإن حكى الحمد عن كثير من خلقه بل عن جميعهم، كقوله تعالى
+والملائكة يسبحون بحمد ربهم
+الشورى 5. وقوله
+ويسبح الرعد بحمده
+الرعد 13. وقوله
+وإن من شيء إلا يسبح بحمده
+الإسراء 44. إلا أنه سبحانه شفع الحمد في جميعها بالتسبيح بل جعل التسبيح هو الأصل في الحكاية وجعل الحمد معه، وذلك أن غيره تعالى لا يحيط بجمال أفعاله وكمالها كما لا يحيطون بجمال صفاته وأسمائه التي منها جمال الأفعال، قال تعالى
+ولا يحيطون به علما
+طه 110. فما وصفوه به فقد أحاطوا به وصار محدودا بحدودهم مقدرا بقدر نيلهم منه، فلا يستقيم ما أثنوا به من ثناء إلا من بعد أن ينزهوه ويسبحوه عن ما حدوه وقدروه بإفهامهم، قال تعالى
+إن الله يعلم وأنتم لا تعلمون
+النحل 74، وأما المخلصون من عباده تعالى فقد جعل حمدهم حمده ووصفهم وصفه حيث جعلهم مخلصين له، فقد بان أن الذي يقتضيه أدب العبودية أن يحمد العبد ربه بما حمد به نفسه ولا يتعدى عنه، كما في الحديث الذي رواه الفريقان عن النبي صلى الله عليه وآله وسلم
+
+== TABATABAI:1:1-5#4  [[1 - سورة الفاتحة] › [1.1-5]]
+" لا أحصي ثناء عليك أنت كما أثنيت على نفسك "
+الحديث فقوله في أول هذه السورة { الحمد لله } ، تأديب بأدب عبودي، ما كان للعبد ان يقوله لو لا ان الله تعالى قاله نيابة وتعليما لما ينبغي الثناء به. وقوله تعالى { رب العالمين الرحمن الرحيم مالك يوم الدين } وقرأ الأكثر ملك يوم الدين فالرب هو المالك الذي يدبر أمر مملوكه، ففيه معنى الملك، ومعنى الملك الذي عندنا في ظرف الاجتماع هو نوع خاص من الاختصاص وهو نوع قيام شيء بشيء يوجب صحة التصرفات فيه، فقولنا العين الفلانية ملكنا معناه أن لها نوعا من القيام والاختصاص بنا يصح معه تصرفاتنا فيها ولولا ذلك لم تصح تلك التصرفات وهذا في الاجتماع معنى وضعي اعتباري غير حقيقي وهو مأخوذ من معنى آخر حقيقي نسميه أيضا ملكا، وهو نحو قيام أجزاء وجودنا وقوانا بنا فإن لنا بصرا وسمعا ويدا ورجلا، ومعنى هذا الملك أنها في وجودها قائمة بوجودنا غير مستقلة دوننا بل مستقلة باستقلالنا ولنا أن نتصرف فيها كيف شئنا وهذا هو الملك الحقيقي. والذي يمكن انتسابه إليه تعالى بحسب الحقيقة هو حقيقة الملك دون الملك الاعتباري الذى يبطل ببطلان الاعتبار والوضع، ومن المعلوم أن الملك الحقيقي لا ينفك عن التدبير فإن الشيء إذا افتقر في وجوده إلى شيء فلم يستقل عنه في وجوده لم يستقل عنه في آثار وجوده، فهو تعالى رب لما سواه لأن الرب هو المالك المدبر وهو تعالى كذلك.
+وأما { العالمين } فهو جمع العالم بفتح اللام بمعنى ما يعلم به كالقالب والخاتم والطابع بمعنى ما يقلب به وما يختم به وما يطبع به يطلق على جميع الموجودات وعلى كل نوع مؤلف الأفراد والأجزاء منها كعالم الجماد وعالم النبات وعالم الحيوان وعالم الإنسان وعلى كل صنف مجتمع الأفراد أيضا كعالم العرب وعالم العجم وهذا المعنى هو الأنسب لما يؤول إليه عد هذه الأسماء الحسنى حتى ينتهي إلى قوله { مالك يوم الدين } على أن يكون الدين وهو الجزاء يوم القيمة مختصا بالإنسان أو الإنس والجن فيكون المراد بالعالمين عوالم الإنس والجن وجماعاتهم ويؤيده ورود هذا اللفظ بهذه العناية في القرآن كقوله تعالى
+
+== TABATABAI:1:1-5#5  [[1 - سورة الفاتحة] › [1.1-5]]
+واصطفاك على نساء العالمين
+آل عمران 42. وقوله تعالى
+ليكون للعالمين نذيرا
+الفرقان 1. وقوله تعالى
+أتأتون الفاحشة ما سبقكم بها من أحد من العالمين
+الأعراف 80. وأما { مالك يوم الدين } فقد عرفت معنى المالك وهو المأخوذ من الملك بكسر الميم، وأما الملك وهو مأخوذ من الملك بضم الميم، فهو الذي يملك النظام القومي وتدبيرهم دون العين، وبعبارة أخرى يملك الأمر والحكم فيهم. وقد ذكر لكل من القراءتين، ملك ومالك، وجوه من التأييد غير أن المعنيين من السلطنة ثابتان في حقه تعالى، والذي تعرفه اللغة والعرف أن الملك بضم الميم هو المنسوب إلى الزمان يقال ملك العصر الفلاني، ولا يقال مالك العصر الفلاني إلا بعناية بعيدة، وقد قال تعالى { ملك يوم الدين } فنسبه إلى اليوم، وقال أيضا
+لمن الملك اليوم لله الواحد القهار
+غافر 16. بحث روائي في العيون والمعاني عن الرضا عليه السلام في معنى قوله { بسم الله } قال عليه السلام يعني اسم نفسي بسمة من سمات الله وهي العبادة، قيل له ما السمة؟ قال العلامة. أقول وهذا المعنى كالمتولد من المعنى الذي أشرنا إليه في كون الباء للابتداء فإن العبد إذا وسم عبادته باسم الله لزم ذلك أن يسم نفسه التي ينسب العبادة إليها بسمة من سماته. وفي التهذيب عن الصادق عليه السلام وفي العيون وتفسير العياشي عن الرضا عليه السلام أنها أقرب إلى اسم الله الأعظم من ناظر العين إلى بياضها. أقول وسيجيء معنى الرواية في الكلام على الاسم الأعظم. وفي العيون عن أمير المؤمنين عليه السلام أنها من الفاتحة وأن رسول الله صلى الله عليه وآله وسلم كان يقرؤها ويعدها آية منها، ويقول فاتحة الكتاب هي السبع المثاني. أقول وروي من طرق أهل السنة والجماعة نظير هذا المعنى، فعن الدارقطني عن أبي هريرة قال قال رسول الله صلى الله عليه وآله وسلم
+
+== TABATABAI:1:1-5#6  [[1 - سورة الفاتحة] › [1.1-5]]
+" إذا قرأتم الحمد فاقرأوا بسم الله الرحمن الرحيم، فإنها أم القرآن والسبع المثاني، وبسم الله الرحمن الرحيم إحدى آياتها "
+وفي الخصال عن الصادق عليه السلام قال ما لهم؟ قاتلهم الله عمدوا إلى أعظم آية في كتاب الله فزعموا أنها بدعة إذا أظهروها. وعن الباقر عليه السلام سرقوا أكرم آية في كتاب الله بسم الله الرحمن الرحيم، وينبغي الإتيان به عند افتتاح كل أمر عظيم أو صغير ليبارك فيه. أقول والروايات عن أئمة أهل البيت في هذا المعنى كثيره، وهي جميعا تدل على أن البسملة جزء من كل سورة إلا سورة البراءة، وفي روايات أهل السنة والجماعة ما يدل على ذلك. ففي صحيح مسلم عن أنس قال رسول الله صلى الله عليه وآله وسلم
+" أنزل علي آنفا سورة فقرأ بسم الله الرحمن الرحيم "
+وعن أبي داود عن ابن عباس وقد صححوا سندها قال ان رسول الله صلى الله عليه وآله وسلم كان لا يعرف فصل السورة، وفي رواية انقضاء السورة حتى ينزل عليه، بسم الله الرحمن الرحيم. أقول وروي هذا المعنى من طرق الخاصة عن الباقر عليه السلام. وفي الكافي والتوحيد والمعاني وتفسير العياشي عن الصادق عليه السلام في حديث والله إله كل شيء، الرحمن بجميع خلقه، الرحيم بالمؤمنين خاصة. وروي عن الصادق عليه السلام الرحمن اسم خاص بصفة عامة والرحيم اسم عام بصفة خاصة. أقول قد ظهر مما مر وجه عموم الرحمن للمؤمن والكافر واختصاص الرحيم بالمؤمن، وأما كون الرحمن اسما خاصا بصفة عامة والرحيم اسما عاما بصفة خاصة فكأنه يريد به أن الرحمن خاص بالدنيا ويعم الكافر والمؤمن والرحيم عام للدنيا والآخرة ويخص المؤمنين، وبعبارة أخرى الرحمن يختص بالإفاضة التكوينية التي يعم المؤمن والكافر، والرحيم يعم التكوين والتشريع الذي بابه باب الهداية والسعادة، ويختص بالمؤمنين لأن الثبات والبقاء يختص بالنعم التي تفاض عليهم والعاقبة للتقوي. وفي كشف الغمة عن الصادق عليه السلام قال فقد لأبي عليه السلام بغلة فقال لئن ردها الله علي لأحمدنه بمحامد يرضاها فما لبث أن أتى بها بسرجها ولجامها - فلما استوى وضم إليه ثيابه رفع رأسه إلى السماء وقال الحمد لله ولم يزد، ثم قال ما تركت ولا أبقيت شيئا جعلت أنواع المحامد لله عز وجل، فما من حمد إلا وهو داخل فيها. قلت وفي العيون عن علي عليه السلام أنه سئل عن تفسيرها، فقال هو ان الله عرف عباده بعض نعمه عليهم جملا إذ لا يقدرون على معرفة جميعها بالتفصيل لأنها أكثر من أن تحصى أو تعرف، فقال قولوا الحمد لله على ما أنعم به علينا. أقول يشير عليه السلام إلى ما مر من أن الحمد، من العبد وإنما ذكره الله بالنيابة تأديبا وتعليما.
+
+== TABRISI:1:3  [[1 - سورة الفاتحة] › [1.3]]
+قد مضى تفسيرها وإنما أعاد الرحمن والرحيم للمبالغة وقال علي بن عيسى الرماني: في الأول ذكر العبودية فوصل ذلك بشكر النعم التي بها يستحق العبادة وهاهنا ذكر الحمد فوصله بذكر ما به يستحق الحمد من النعم فليس فيه تكرار.
+
+== THALABI:v1p109  [تفسير فاتحة الكتاب › [التفسير وبالله التوفيق] › [سورة الفاتحة (1) : الآيات 2 الى 3]]  page=v1p109
+الحمد لله رب العالمين (2) الرحمن الرحيم (3)
+وقد اختلف القراء في قوله: الحمد لله، فقرأت العامة بضم الدال على الابتداء، وخبره فيما بعده. وقيل: على التقديم والتأخير، أي لله الحمد.
+وقيل: على الحكاية. وقرأ هارون بن موسى الأعور ورؤبة بن العجاج بنصب الدال على الإضمار، أي أحمد الحمد لأن الحمد مصدر لا يثنى ولا يجمع. وقرأ الحسن البصري بكسر الدال، أتبع الكسرة الكسرة. وقرأ إبراهيم بن أبي عبلة الشامي بضم الدال واللام، أتبع الضمة الضمة.
+رب العالمين قرأ زيد بن علي: رب العالمين بالنصب على المدح، وقال أبو سعيد ابن أوس الأنصاري: على معنى أحمد رب العالمين. وقرأ الباقون رب العالمين بكسر الباء، أي خالق الخلق أجمعين ومبدئهم ومالكهم والقائم بأمورهم، والرب بمعنى السيد، قال الله تعالى: اذكرني عند ربك أي سيدك، قال الأعشى :
+واهلكن يوما رب كندة وابنه … ورب معبين خبت وعرعر
+ورب عمر والرومي من رأس حضية … وأنزلن بالأسباب رب المشقرة
+يعني: رئيسها وسيدها.
+ويكون بمعنى المالك، قال النبي صلى الله عليه وسلم: «أرب إبل أنت أم رب غنم؟» . فقال: من كل قد آتاني الله فأكثر وأطنب وقال طرفة:
+كقنطرة الرومي أقسم ربها … لتكتنفن حتى تشاد بقرمد
+وقال النابغة:
+وإن يك رب أذواد فحسبي … أصابوا من لقائك ما أصابوا
+ويكون بمعنى الصاحب، قال أبو ذؤيب:
+فدنا له رب الكلاب بكفه … بيض رهاب ريشهن مقزع
+ويكون بمعنى المرعى، يقول: رب يرب ربابة وربوبا، فهو رب، مثل بر وطب، قال الشاعر:
+يرب الذي يأتي من العرف إنه … إذا سئل المعروف زاد وتمما
+ويكون بمعنى المصلح للشيء، قال الشاعر:
+كانوا كسالئة حمقاء إذ حقنت … سلاءها في أديم غير مربوب
+أي غير مصلح.
+وقال الحسين بن الفضل: الرب: اللبث من غير إثبات أحد، يقال: رب بالمكان وأرب، ولبث وألبث إذا أقام وفي الحديث أنه كان يتعوذ بالله من فقر ضرب أو قلب قال الشاعر:
+
+== THALABI:v1p110  [تفسير فاتحة الكتاب › [التفسير وبالله التوفيق] › [سورة الفاتحة (1) : الآيات 2 الى 3]]  page=v1p110
+رب بأرض تخطاها الغنم … لب بأرض ما تخطاها الغنم
+وهو الاختيار لأن المتكلمين أجمعوا على أن الله لم يزل ربا وسمعت أبا القاسم بن حبيب يقول: سمعت أبي يقول: سئل أبو بكر محمد بن موسى الواسطي عن الرب، فقال: هو الخالق ابتداء، والمربي غذاء، والغافر انتهاء. ولا يقال للمخلوق: هو الرب، معرفا بالألف واللام، وإنما يقال على الإضافة: هو رب كذا لأنه لا يملك الكل غير الله، والألف واللام تدلان على العموم. وأما العالمون فهم جمع عالم، ولا واحد له من لفظه ، كالأنام والرهط والجيش ونحوها.
+واختلفوا في معناه، حدثنا أبو القاسم الحسن بن محمد بن الحسن، أخبرنا أبو إسحاق بن أسعد بن الحسن بن سفيان عن جده عن أبي نصر ليث بن مقاتل عن أبي معاذ الفضل بن خالد عن أبي عصمة نوح بن أبي مريم عن الربيع بن أنس عن شهر بن حوشب عن أبي بن كعب قال: العالمون هم الملائكة، وهم ثمانية عشر ألف ملكا منهم أربعة آلاف وخمسمائة ملك بالمشرق، وأربعة آلاف وخمسمائة ملك بالمغرب، وأربعة آلاف وخمسمائة ملك بالكهف الثالث من الدنيا، وأربعة آلاف وخمسمائة ملك في الكهف الرابع من الدنيا، مع كل ملك من الأعوان ما لا يعلم عددهم إلا الله عز وجل ومن ورائهم أرض بيضاء كالرخام..» .. مسير الشمس أربعين يوما، طولها لا يعلمه إلا الله عز وجل مملوءة ملائكة يقال لهم الروحانيون، لهم زجل بالتسبيح والتهليل، لو كشف عن صوت أحدهم لهلك أهل الأرض من هول صوته فهم العالمون، منتهاهم إلى حملة العرش.
+وقال أبو معاذ [النحوي] : هم بنو آدم.
+وقال أبو هيثم خالد بن يزيد: هم الجن والإنس لقوله تعالى: ليكون للعالمين نذيرا ، وهي رواية عطية العوفي وسعيد بن جبير عن ابن عباس.
+وقال الحسين بن الفضل: العالمون: الناس، واحتج بقوله تعالى: أتأتون الذكران من العالمين .
+وقال العجاج: بخلاف هذا العالم.
+
+== THALABI:v1p111  [تفسير فاتحة الكتاب › [التفسير وبالله التوفيق] › [سورة الفاتحة (1) : الآيات 2 الى 3]]  page=v1p111
+وقال الفراء وأبو عبيدة: هو عبارة عمن يعقل، وهم أربع أمم: الملائكة، والجن، والإنس، والشياطين، لا يقال للبهائم: عالم. وهو مشتق من العلم، قال الشاعر:
+ما إن سمعت بمثلهم في العالمينا
+وقال عبد العزيز بن يحيى الكناني: هم أهل التنزيه من الخلق. وقال عبد الرحمن بن زيد ابن أسلم: هم المرتزقون. وقال الخضر بن إسماعيل: هو اسم الجمع الكثير، قال ابن الزبعري:
+إني وجدتك يا محمد عصمة … للعالمين من العذاب الكارث
+وقال أبو عمرو بن العلاء: هم الروحانيون. وهو معنى قول ابن عباس: كل ذي روح دب على وجه الأرض. وقال سفيان بن عيينة: هو جمع للأشياء المختلفة.
+وقال جعفر بن محمد الصادق: «العالمون: أهل الجنة وأهل النار» . وقال الحسن وقتادة ومجاهد: هو عبارة عن جميع المخلوقات، واحتجوا بقوله: قال فرعون وما رب العالمين قال رب السماوات والأرض وما بينهما .
+واشتقاقه على هذا القول من (العلم) و (العلامة) لظهورهم ولظهور أثر الصنعة فيهم ثم اختلفوا في مبلغ العالمين وكيفيتهم، فقال سعيد بن المسيب: لله ألف عالم منها ستمائة في البحر وأربعمائة في البر. وقال الضحاك: فمنهم ثلاثمائة وستون عالما حفاة عراة لا يعرفون من خالقهم، وستون عالما يلبسون الثياب. وقال وهب: لله تعالى ثمانية عشر ألف عالم، الدنيا عالم منها، وما العمارة في الخراب إلا كفسطاط في الصحراء. وقال أبو سعيد الخدري: إن لله أربعين ألف عالم، الدنيا من شرقها إلى غربها عالم واحد. وقال أبو القاسم مقاتل بن حيان: العالمون ثمانون ألف عالم أربعون ألفا في البر وأربعون ألفا في البحر. وقال مقاتل بن سليمان: لو فسرت العالمين، لاحتجت إلى ألف جلد كل جلد ألف ورقة. وقال كعب الأحبار: لا يحصي عدد العالمين إلا الله، قال الله: وما يعلم جنود ربك إلا هو .
+
+== WAHIDI-BASIT:v1p455  [سورة الفاتحة # فاتحة الكتاب › 1)]  page=v1p455
+وقوله: {الرحمن الرحيم}. معنى الرحمة في صفة الله تعالى: إرادته الخير والنعمة بأهله، وهي صفة ذات، وفي صفة أحدنا تكون رقة قلب وشفقة (¬4).
+قال أبو بكر محمد بن القاسم بن (¬5) بشار: سألت أبا العباس (¬6) لم جمع بين الرحمن والرحيم؟ فقال: لأن الرحمن عبراني فأتى معه الرحيم العربي، واحتج بقول جرير (¬7):
+أو تتركون إلى القسين (¬1) هجرتكم ... ومسحهم صلبهم رحمان قربانا (¬2)
+فأنكر عليه بعض الناس (¬3)، وقال: لم تزل العرب تعرف الرحمن وتذكره في أشعارها، واحتج بقول الشاعر:
+ألا ضربت تلك الفتاة (¬4) هجينها ... ألا قضب الرحمن ربي يمينها (¬5)
+فقال (¬6): إن جمهور العرب كانوا لا يعرفون "الرحمن" في الجاهلية، # الدليل على هذا أنهم لما سمعوا النبي - صلى الله عليه وسلم - يذكره قالوا: ما نعرف الرحمن إلا رجلا باليمامة (¬1)، وذلك قوله تعالى: {قالوا وما الرحمن} [الفرقان: 60] وإنما يذكر بعض الشعراء الرحمن في الجاهلية، إذ (¬2) لقنه (¬3) من أهل الكتاب، أو أخذه عن بعض من قرأ الكتب كأمية بن أبي الصلت (¬4) وزيد بن (¬5) عمرو، وورقة بن نوفل (¬6)، ولا تجعل هذا حجة على ما عليه أكثرهم.
+ومراد أبي العباس أن الرحمن يتكلم به بالعبرانية (¬7)، وتتكلم به العرب، فلما لم يخلص في كلامهم، ولم ينفردوا به دون غيرهم، أتى (¬8) بعده بالرحيم # الذي لا يكون إلى عربيا، ولا يلتبس بلغة غيرهم (¬1).
+والصحيح أنه مشتق من الرحمة، وأنه اسم عربي لوجود هذا البناء في كلامهم، كاللهفان والندمان والغضبان (¬2). قال الليث: {الرحمن الرحيم} اسمان، اشتقاقهما (¬3) من الرحمة (¬4).
+وقال أبو عبيدة: هما صفتان لله تعالى، معناهما ذو الرحمة (¬5). وأما ما احتج به أبو العباس من قوله: {وما الرحمن} [الفرقان: 60] فهو سؤال عن الصفة، ولذلك قالوا: {وما الرحمن}، ولم يقولوا: ومن، والقوم جهلوا # صفته، والاسم كان معلوما لهم في الجملة (¬1). وقيل: هذا على جهة ترك التعظيم منهم. واختلفوا في أن أي الاسمين من هذين أشد مبالغة، فقال قوم: الرحمن أشد مبالغة من الرحيم، كالعلام من العليم، ولهذا قيل: رحمن الدنيا ورحيم الآخرة، لأن رحمته في الدنيا عمت المؤمن والكافر والبر والفاجر، ورحمته في الآخرة اختصت بالمؤمنين (¬2).
+
+== WAHIDI-QT:1:3
+{ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ} (3)
+
+== WAHIDI-WAJIZ:1:1-4  [[1 - سورة الفاتحة] › [1.1-4]]
+{ بسم الله الرحمن الرحيم }؛ أي: ابدؤوا أو افتتحوا بتسمية الله تيمنا وتبركا، و " الله ": اسم تفرد الباري به سبحانه، يجري في وصفه مجرى أسماء الأعلام، لا يعرف له اشتقاق. وقيل: معناه: ذو العبادة التي بها يقصد. { الرحمن الرحيم }: صفتان لله تعالى معناهما: ذو الرحمة، [أي: الرحمة لازمة له]، وهي إرادة الخير، ولا فرق بينهما، مثل: ندمان ونديم.
+{ الحمد لله } هو الثناء لله، والشكر له بإنعامه. { رب العالمين }: مالك المخلوقات كلها.
+{ مالك يوم الدين } [مأخوذ من الملك، والملك مأخوذ من الملك، أي]: قاضي يوم الجزاء والحساب؛ لأنه متفرد في ذلك اليوم بالحكم.
+
+
+===== CORPUS, kind tafsir_tr: every segment tied to 1:3 (4) =====
+
+== ELMALILI:1:3  [Fâtiha Sûresi 3]  page=v1p170
+Meâl: O Rahmân, Rahîm (3),
+{ٱلرَّحْمَٰنِ ٱلرَّحِيمِ} Besmelede bu iki sıfatın tafsîlâtını gördük. Burada meşhur bir meseleye tenbih edelim. “Merhamet” ve “rahmet”, bir muhtaç ve mübtelâyı âfâttan tahlîs ve yerine hayr ve nimeti ikāme etmeyi istihdaf eden bir iyilik duygusudur demiştik, ki bu ibtidâ şefkat gibi teessür ve infi‘âl kabîlinden bir meyl-i nefsânî olarak başlar ve intihâen de bir hüsn-i te’sîr demek olan in‘âm fi‘l-i ihtiyârîsini istilzâm eder ve mevki‘ine göre bu netice için sadece bir söz veya bir işaret bile kâfi gelir. Biz “filan merhametli adamdır” dediğimiz zaman ekseriyâ “rikkat-i kalb” dediğimiz hâlet-i rûhiyeyi, kābiliyyet-i infi‘âliyeyi kastederiz, fakat “pek merhametli, çok merhametli” dediğimiz zaman da netîce-i fi‘liyesinin zuhûrunu anlarız. Cenâb-ı Allah ise ‘alâim-i hudûs olan tegayyür ve infi‘alden [75] münezzeh ve müberrâ olduğu için rahmet-i ilâhiyeyi aynen beşerî olan ma‘nâ-yı mezkûr ile îzah edemeyiz. Buna hem karîne-i akliye ve hem karîne-i şer‘iye vardır. Buna binâen müfessirîn burada az çok bir mecâz-ı lügavî bulunduğunu söylerler ki bu da iki suretle mülâhaza edilir:
+1. Yalnız netîce-i lâzime olan tahlîs ve in‘âm mânası.
+2. Asıl olan meyl-i nefsânînin lâzım-ı evveli ve in‘âmın sebebi olan irâ-
+de-i hayr mânası. Zira irade bir infi‘âl değil, mümkin olan fiil ve
+terkten birini tercih sıfat-ı zâtiyesidir. Binâen‘aleyh evvelkine göre
+rahmet sıfat-ı fiilden, ikinciye göre sıfat-ı zâtiyeden olur.
+Rahmet-i ilâhiye ekmel olduğu ve “Rahmân-ı Rahîm” diye iki sıfatla da zikredildiği cihetle burada iki mânayı da kastetmek daha muvâfıktır. “Rahmân” sıfat-ı hâssa olduğuna nazaran garîze ve sübut ifade eden sıfat-ı müşebbehe olarak irâde-i hayr sıfat-ı zâtiyesi, “Rahîm” de mübalağa ile ism-i fâil olarak onun tezahürü demek olan in‘âm ve ihsan sıfat-ı fi‘liyesiyle îzah edilir. Bunu aks edenler de olmuştur.
+Fakat bazı muhakkıkīnin tahkīki vechile bizim muhtârımız şudur ki sıfât ve esmâ-i ilâhiye mânalarında mecaz değil, hakikattirler. Meselâ ilim, irade sıfatlarının mecaz olduğunu söyleyen yoktur. Hâlbuki bunların ilâhî mânaları beşerî olan mânalarının aynı olmadığı da müttefekun aleyhtir. Meselâ ilim kesbi[^1] bir cehli, irâde-i beşer bir meyl ü şevki takip eder ve hâdistir. İlm-i ilâhî ve irâde-i ilâhiye ise bizim bu sıfatlarımızın mebde-i a‘lâsı[^2] olan sıfât-ı[^3] kadîme-i hâlikadırlar, bunlar olmasaydı tenâsüb-i illiyet kanununa nazan bizim ilim ve irademizin hudûsu mümkin olmazdı. Binâen‘aleyh şerâit-i beşeriye ilim ve iradenin şart-ı zâtîleri değil, mahallerine nazaran ‘avârızındandırlar. İlmin hakikati bir temyîz-i ma‘nevîyi îcab eden sıfat, iradenin hakikati de iki makdurdan [76] birinin tercîhini iktizâ eden sıfattır. Binâen‘aleyh diğer esmâ ve sıfât-ı ilâhiyede dahi aynı mülâhazanın tatbîki îcab eder ve hele esmâ ve sıfât-ı ilâhiye beşerî kemâlâtın fevkinde bir kemâl ifade eden hakāik-i örfiye ve şer‘iye olduğunda şüphe edilemez ve bunun içindir ki lisânımızda “rahmet” ile “merhamet”i fark edegelmişizdir. “Rahmet”i i … [cut at 3000 of 3525 characters]
+  notes: ['[^1] M ve B: “gibi”.', '[^2] B: “aslîsi”.', '[^3] B: “sıfat-ı”.']
+
+== ELMALILI:1:3#2  [Fâtiha Sûresi 3 (2)]  page=v1p170
+Mâlumdur ki âfâtın hakikati ‘adem ve sevâik-i ‘ademdir, hayrâtın hakikati de vücûd ve sevâik-i vücûddur. Âfât ile alâkadar olan bütün elemlerimiz bizi bir ‘adem-i hayr ile inzar[^4] ettikleri için elemdirler ve bunların başı Hak’tan ve rahmet-i Hak’tan yeistir. Ni‘am ve hayrât ile alâkadar olan bütün lezzetlerimiz de bizi bir hisse-i vücûd ile tebşir ettiklerinden dolayı lezzettirler. Bunların başı da Hakk’a ve rahmet-i Hakk’a imandır. Hayât-ı dünyâ böyle ‘adem ile vücûdun, âlâm ile lezâizin, yeis ile imanın, rahmet-i Rahmân ve sa‘y u te‘âvün ile yenilen bir mücadelesi şeklidir ki bunların bu cidalden çıkıp temâyüz-i ebedî ile temayüz etmeleri de hayât-ı âhireti teşkil eder. Binâen‘aleyh bizim hayr ve lezâizimizin başlangıcı ‘ademden vücûda getirilişimizde[^5], âkıbeti de mütenâhîden nâmütenâhîye erişimizdedir. Rahmet-i rahmâniye bütün mümkinâtın ‘ademden vücûda ihrâcını ifade eden irâde-i vücûd ve in‘âm-ı vücûd olduğundan her imkânın sâha-i vücûda ihrâcını muktezîdir. Çünkü vücûd her hayrın ve her [77] nimetin aslıdır. Rahmân böyle bir irâde-i hayr ile bizi cismâniyet ve rûhâniyetimizle ‘ademden vücûda getirerek halk eden ve bununla beraber esbâb-ı bekā ve hayâtımız olan nimetleri de ihzar ve îsâl eyleyen rahmet-i celîle sâhibidir ki bu rahmetin şümûlünden hâriç hiçbir mahluk bulunamayacağından buna celâil-i ni‘am ile rahmet denilir. Bütün imkânlar vücûddan hissemend edilirken bu arada âkil ve bi’l-ihtiyâr fâil olacak mevcûdât halk eylemek de rahmet-i rahmâniyenin kemâl-i şümûlü muktezâsındandır. Çünkü bunda vücûd-i mümkinâtı Hakk’ın kendisine takrîb vardır. O suretle bunlar kıdem u hudûs ve vücûb u imkân,[^6] kemâl ü noksan farkları olmasa hemen hemen sıfât-ı Hakk’ı temsil edebilir. Lâkin bunda iradelerin ta‘addüdü hasebiyle vücûdda bir nevi şirk-i ‘arazî zuhur eder.
+Hâlbuki şirk ile vücûd ve devâm-ı vücûd mümteni‘dir. Zira hakkın şerîki bâtıl yani ma‘dûm li-zâtihî, mümteni‘, muhal olduğundan her vücûd vahdetle tecellî eder ve müte‘addid vücûdlar bir vahdet teşkil etmedikçe devam edemezler. Şirk lizâtihî sâlib-i vücûd ve mûcib-i ‘ademdir. Bu sebeple âlemde gerek tabîî ve gerek ahlâkī ne kadar şürûr tasavvur edilirse hepsinin kökü ta‘addüd ve da‘vâ-yı şirktir. Bu da hakkın kemâl-i vahdeti îcâbıdır. O hâlde hem böyle vesîle-i şirk olacak müte‘addid iradeler halk ederek onlara hisse-i vücûd vermek, hem de bunların tevâzünlerini muhafaza ederek bütün tecelliyât-ı vücûdu bir irade ile idare ve idâme etmek öyle dakīk bir nimet ve öyle ebedî bir hayırdır ki bunu da rubûbiyyet-i ilâhiyenin rahmet-i rahîmiyesi temin etmiştir. Kemâl-i terbiye îcab ile ihtiyârın işte bu ihtilâtındaki muvâzenede ve kemâl-i rabbânî felâsifenin “mu‘ammâ-yı vücûd” dedikleri bu mu‘âdele-i rahîmiyededir. Bunun için eslâf-ı müfessirîn rahmet-i rahîmiyeye “dekāik-i ni‘am” tâbir etmişler ve gaye itibariyle da ni‘am-ı uhreviye ile tefsir etmişlerdir. Bu bir taraftan irâde-i cüz’iye [78] ashâbından her birinin iradelerine bir hisse-i tercih vermek, bir taraftan da hakk-ı müktesebler … [cut at 3000 of 5632 characters]
+  notes: ['[^4] B: “ızrâr”.', '[^5] B: “gelişimizde”; M: “getirilişimiz de”.', '[^6] B: “kıdem ve hudûs, vücûd ve imkân”.', '[^7] “Ki her kim zerre mikdârı bir hayır işlerse onu görecek. Her kim de zerre mikdârı bir şer işlerse onu görecek.”', '[^8] M: “bunlar da”.', '[^9] B: “rahîmiyesi”.', '[^10] “O Rahmân Arş üzerine istivâ buyurdu.”', '[^11] B -“edeceğimi”.', '[^12] B +“ve”.', '[^13] “Hasenât yapanlara hüsnâ, bir de ziyade var, ve yüzlerine ne bir kara bulaşır ne zillet. Onlar ashâb-ı cennet, hep orada muhalleddirler.”']
+
+== ELMALILI:1:3#3  [Fâtiha Sûresi 3 (3)]  page=v1p170
+İşte Rahîm sıfatında tebşîr-i kâmil içinde böyle bir mâna-yı inzar dahi müstetirdir. Fakat bu ilk hitabda bazı kimselere gurûr-ı irade ile şöyle bir hâtıra vârid olmak melhuzdur: Acaba Rabbü’l-âlemin ashâb-ı irâdeyi halk ettikten sonra istikbalin mukadderâtını onlara tefvîz etmiş ve kendisi acaba hicâb-ı izzete çekilmiş değil midir? O hâlde Hak teâlâ bütün âlemînin mebde’-i vücûd itibariyle rabbi olsa da hâlde insanların işine bilfiil müdâhale etmemiş ve istikbalin de bi’l-vâsıta bir rabbi olmuş olmaz mı? Ve o hâlde mâzînin mâliki Allah iken hâlin ve istikbalin, bugünün ve yarının bilfiil mâliki ve sâhibi, mükâfat ve mücâzat gününün hâkimi ashâb-ı irâde olmak lâzım gelmez mi? Ve bu takdirde ashâb-ı irâde alacağını zorla almak ve mes’ûliyet mehâfetinden âzâde kalmak için mukadderâtını kendisi tâyin edip istikbalin lâ-yüs’el ‘ammâ yef‘al hâkimi olmaya çalışmak iktizâ etmez mi? Böyle bir hâtıra insanların zamân-ı hâlde sâhip göründükleri irâde-i cüz’iyeye mutlak bir irâde-i külliye ve her kayıttan âzâde bir ihtiyar ve bir kudret-i hâlıka kıymeti isnad ederek kendilerini kādir-i kül ve ‘ale’l-ıtlâk hür ve ebede hâkim birer fâ‘il-i muhtâr gibi tevehhüm eylemelerinden neş’et eden bir şirk davasına râci‘dir ki beşerî felâketlerin, bütün haksızlıkların sebebini bu teşkil eder. Adl ü [80] rahmet-i ilâhiyenin bunun üzerindeki ta‘dîlâtı, inzibâtı olmasa cem‘iyyet-i beşeriye üç gün içinde birbirini yer bitirir. ظَهَرَ ٱلْفَسَادُ فِى ٱلْبَرِّ وَٱلْبَحْرِ بِمَا كَسَبَتْ أَيْدِى ٱلنَّاسِ [er-Rûm 30/41][^14] Hâlbuki âlemde ve hele hayatta her an irâde-i beşerden hâriç halk-ı cedîd cereyan etmekte olduğu cihetle kuvveti kendisinin zanneden o kavî pazuları bir an içinde el-‘iyâzubillah bir felç, bir darbe-i ilâhiye en âciz miskinler sırasına koyuverir. Ehramlar içinde saklanan ve bir gün
+gelip de neşr edilen mumyalı bedenler ve onların kadit sîmâlarındaki sönük oyuk gözler, sâbık Mısır firavunlarının dağlar deviren haşmetli bünyelerinde şimşekli nazarlarındaki kuvvetlerin artık ne mâliki, ne sâhibidir. Bunun gibi nice misâllerle anlaşılır ki vücûdun, hayatın gerek mâzîde ve gerek istikbalde bütün zimâmı evvel ü âhir[^15] Hak teâlâ’nın yed-i kibriyâsındadır[^16] ve O’nun milkidir. O zannedildiği gibi sadece Evvel değil, hem Evvel ve hem Âhir’dir. Mütenâhîde, fânîde evvel ve âhiri başka başka görenler ezel ve ebedde dahi böyle zannetmesinler, fâ‘il-i evvel ile gāye-i kusvâ hakikatte birdir. Düşünülürse ecrâmın küriyyeti, zamanın istidâresi merkez ve muhîtinden bize bunu iş‘âr eder. Doğan beşer âciz, ölen beşer yine âcizdir.
+Bu noktayı hissedenlerin bir kısmı mâzî ve istikbal şöyle d ursun, hâlde bile cebr-i mahza kāil olmuşlardır. Zaten nefs-i beşer kuvvet buldukça “hep ben”, acze[^17] düştükçe “hep sen” veya “hep o” demek ister. Ortada âşikâr olan[^18] hakikat ise ne öyle ne böyledir, أَمْر بَيْنَ أَمْرَيْن’dir.[^19] Beşeriyet cisim ile rûhun, akıl ile kalbin, kābiliyet ile fâiliyetin, ıztırar ile ihtiyârın muhassalasıdır, o[^20] ne mecbûr-i mutlak, ne de fâ‘il-i m … [cut at 3000 of 5123 characters]
+  notes: ['[^14] “İnsanların ellerinin kesbi ile karada ve denizde fesad meydan aldı, yaptıklarının bazısını kendilerine tattırmak için ki rücû‘etsinler.”', '[^15] B: “evvel âhir”.', '[^16] M: “kibiryasındadır”.', '[^17] B: “âciz”.', '[^18] B -“olan”.', '[^19] “İki durum arasında bir durum.”', '[^20] B: “ve”.', '[^21] B: “vermek”.', '[^22] M: “zaman da”.', '[^23] B -“Ve”.']
+
+== KURANYOLU-TEFSIR:1:3
+Rahmân ve rahîm isimlerinin anlamları için 1.ayetin (Besmele) açıklamasına bakılabilir.
+
+
+===== CORPUS, kind maani: every segment tied to 1:3 (5) =====
+
+== AKHFASH:v1p3#2  [سورة (الفاتحة)]  page=v1p3
+{بسم الله الرحمن الرحيم*
+الحمد لله رب العالمين * الرحمن الرحيم}
+{بسم الله الرحمن الرحيم} : "اسم" [في التسمية] صلة زائدة، زيدت ليخرج بذكرها من حكم القسم الى قصد التبرك, لان اصل الكلام "بالله" وحذفت الألف من "بسم" من الخط تخفيفا لكثرة الاستعمال واستغناء عنها بباء الالصاق في اللفظ والخط فلو كتبت "باسم الرحمن" او "باسم القادر" أو "باسم القاهر" لم تحذف الالف.
+والألف في "اسم" ألف وصل، لانك تقول: "سمي" وحذفت لانها ليست من اللفظ.
+(اب) اسم، لانك تقول اذا صغرته: "سمي"، فتذهب الألف. وقوله: {وامرأته حمالة الحطب} ، وقوله: {وبعثنا منهم اثني عشر نقيبا} فهذا موصول لانك تقول: "مرية" و "ثنيا عشر". و [قوله] : {فانفجرت منه اثنتا عشرة عينا} موصول: لانك تقول: "ثنيتا عشرة"، وقال: {إذ أرسلنآ إليهم اثنين فكذبوهما} ، وقال: {ما كان أبوك امرأ سوء} ، لانك تقول في "اثنين": "ثنيين" وفي "آمرىء": "مرىء" فتسقط الالف. وانما زيدت لسكون الحرف الذي بعدها لما ارادوا استئنافه فلم يصلوا الى الابتداء بساكن، فأحدثوا هذه الالف ليصلوا الى الكلام بها. فاذا اتصل [الكلام] بشيء قبله استغنى عن هذه الالف. وكذلك كل الف كانت في اول فعل او مصدر، وكان "يفعل" من ذلك الفعل ياؤه مفتوحة فتلك
+ألف وصل نحو قوله: {وإياك نستعين} {اهدنا} . لانك تقول: "يهدي" فالياء مفتوحة. وقوله: {أولائك الذين اشتروا الضلالة} و [قوله] : {ياهامان ابن لي صرحا} ، وقوله: {عذاب [41] اركض برجلك} ، وأشباه هذا في القرآن كثيرة. والعلة فيه كالعلة في "اسم"، و "اثنين" وما أشبهه، لانه لما سكن الحرف الذي في اول الفعل جعلوا فيه هذه الالف ليصلوا الى الكلام به اذا استأنفوا.
+وكل هذه الالفات (2ء) اللواتي في الفعل اذا استأنفتهن مكسورات، فاذا استأنفت قلت {اهدنا الصراط} , {ابن لي} , {اشتروا الضلالة} ، الا ما كان منه ثالث حروفه مضموما فانك تضم أوله اذا استأنفت، تقول: {اركض برجلك} ، وتقول {اذكروا الله كثيرا} . وانما ضمت هذه الالف اذا كان الحرف الثالث مضموما لانهم لم يروا بين الحرفين إلا حرفا ساكنا, فثقل عليهم ان يكونوا في كسر ثم يصيروا الى الضم. فارادوا أن يكونا جميعا مضمومين اذا كان ذلك لا يغير المعنى.
+
+== AKHFASH:v1p12  [سورة (الفاتحة)]  page=v1p12
+وقال الراجز: [وهو الشاهد الثالث] .
+يا نفس صبرا كل حي لاق * وكل إثنين إلى افتراق
+[6ء] وهذا لا يكاد يعرف.
+وقوله: {لله} جر باللام كما انجر قوله:
+{رب العالمين الرحمن الرحيم} لانه من صفة قوله {لله} . فان قيل: "وكيف يكون جرا وقد قال: {إياك نعبد [5] } .
+وأما فتح نون {العالمين} فانها نون جماعة، وكذلك كل نون جماعة [زائدة] على حد التثنية فهي مفتوحة. وهي النون الزائدة التي لا تغير الاسم عما كان عليه: نحو نون "مسلمين" و "صالحين"
+و "مؤمنين" فهذه النون زائدة لأنك تقول: "مسلم" و "صالح" فتذهب النون [6ب] ، وكذلك "مؤمن" قد ذهبت النون الآخرة، وهي المفتوحة، وكذلك "بنون". ألا ترى [انك] انما زدت على "مؤمن" واوا ونونا, وياء ونونا, وهو على حاله لم يتغير لفظه، كما لم يتغير في التثنية حين قلت "مؤمنان" و "مؤمنين". الا انك زدت ألفا ونونا، أو ياء ونونا للتثنية. وانما صارت هذه مفتوحة ليفرق بينهما وبين نون الاثنين. وذلك أن نون الاثنين مكسورة أبدا. قال: {قال رجلان من الذين يخافون أنعم الله} وقال {أرسلنآ إليهم اثنين فكذبوهما} والنون مكسورة.
+وجعلت الياء للنصب والجر نحو "العالمين" و "المتقين", فنصبهما وجرهما سواء، كما جعلت نصب "الاثنين" وجرهما سواء، ولكن كسر ما قبل ياء الجميع وفتح ما قبل ياء الاثنين ليفرق ما بين الاثنين والجميع، وجعل الرفع بالواو ليكون علامة للرفع، وجعل رفع الاثنين بالالف.
+وهذه النون تسقط في الاضافة كما تسقط نون الاثنين، نحو قولك: "بنوك" "ورأيت مسلميك" فليست هذه النون كنون "الشياطين" و "الدهاقين" و "المساكين". لان "الشياطين" و "الدهاقين" و "المساكين" نونها من الاصل [7 ء] ألا ترى انك تقول: [شيطان] و "شييطين" و "دهقان" "دهيقين" و "مسكين" و "مسيكين" فلا تسقط النون.
+فأما "الذين" فنونها مفتوحة، لانك تقول: "الذي" فتسقط النون لانها زائدة، ولانك تقول في رفعها: "اللذون" لان هذا اسم ليس بمتمكن مثل
+
+== MAJAZ:v1p21  [أم الكتاب (1)]  page=v1p21
+«الرحمن» مجازه ذو الرحمة، و «الرحيم» مجازه الراحم، وقد يقدرون اللفظين من لفظ واحد والمعنى واحد، وذلك لاتساع الكلام عندهم، وقد فعلوا مثل ذلك فقالوا: ندمان ونديم، قال برج بن مسهر الطائى، جاهلى:
+وندمان يزيد الكأس طيبا ... سقيت وقد تغورت النجوم
+وقال النعمان بن نضلة، عدوى من عدى قريش:
+فإن كنت ندمانى فبالأكبر اسقني ... ولا تسقنى بالأصغر المتثلم
+وقال بريق الهذلى عدوى من عدى قريش:
+رزينا أبا زيد ولا حى مثله ... وكان أبو زيد أخى ونديمى»
+وقال حسان بن ثابت:
+لا أخدش الخدش ولا ... يخشى نديمى إذا انتشيت يدى
+«رب العالمين» (1) أي المخلوقين، قال لبيد بن ربيعة:
+ما إن رأيت ولا سمعت بمثلهم فى العالمينا
+وواحدهم عالم، وقال العجاج:
+فخندف هامة هذا العالم
+
+== NAHHAS:v1p171  [بسم الله الرحمن الرحيم]  page=v1p171
+ويجوز
+3 على المدح ويجوز رفعهما على إضمار مبتدأ ويجوز رفع أحدهما ونصب الآخر ويجوز خفض الأول ورفع الثاني ونصبه
+وقرأ محمد بن السميفع اليماني
+4 بنصب مالك وفيه أربع لغات مالك وملك وملك ومليك كما قال لبيد
+( فاقنع بما قسم المليك فإنما … قسم المعايش بيننا علامها )
+وفيه من العربية خمسة وعشرون وجها يقال ملك يوم الدين على النعت والرفع على إضمار مبتدأ والنصب على المدح وعلى النداء وعلى الحال وعلى النعت وعلى قراءة من قرأ ( رب العالمين ) فهذه ستة أوجه وفي مالك مثلها وفي ملك مثلها وفي مليك مثلها هذه أربعة وعشرون والخامس والعشرون روى عن أبي حيوة شريح بن يزيد أنه قرأ ( ملك يوم الدين ) وقد روي عنه أنه قرأ ( ملك يوم الدين ) قال أبو جعفر جمع مالك ملاك وملك وجمع ملك أملاك وملوك وجمع ملك أملك وملوك فهذا على قول من قال ملك لغة وليس بمسكن من ملك وجمع مليك ملكاء ( يوم ) مخفوض بإضافة مالك إليه و ( الدين ) مخفوض بإضافة يوم إليه وجمع يوم أيام والأصل أيوام أدغمت الواو في الياء ولا يستعمل منه فعل وزعم سيبويه أنه لو استعمل منه فعل لقيل يمت وجمع الدين أديان وديون
+5
+نصب بوقوع نعبد عليه وقرأ الفضل بن عيسى الرقاشي فتح الهمزة وقرأ عمرو بن فائد ( إياك ) مخففا والاسم من إياك عند الخليل وسيبويه إيا والكاف موضع خفض وعند الكوفيين إياك اسم بكمالها وزعم الخليل رحمه الله أنه اسم مضمر قال أبو العباس هذا خطأ لا يضاف المضمر ولكنه مبهم مثل كل أضيف إلى ما بعده ( نعبد ) فعل مستقبل وهو مرفوع عند الخليل وعند سيبويه لمضارعته الأسماء وقال الكسائي الفعل المستقبل مرفوع بالزوائد التي في أوله وقال الفراء هو مرفوع بسلامته من الجوازم والنواصب و إياك منصوب بنستعين عطف جملة على جملة وقرأ يحيى بن وثاب والأعمش ( نستعين ) بكسر النون وهذه لغة تميم وأسد وقيس وربيعة فعل ذلك ليدل على أنه من استعون يستعين والأصل في نستعين نستعون قلبت حركة الواو على العين فلما انكسر ما قبل الواو صارت ياء والمصدر استعانة والأصل استعوان قلبت حركة الواو على العين فلما انفتح ما قبل الواو صارت ألفا ولا يلتقي ساكنان فحذفت الألف الثانية لأنها زائدة وقيل الأولى لأن الثانية لمعنى ولزمت الهاء عوضا
+
+== SAMIN-DURR:1:3  [[1 - سورة الفاتحة] › [1.3]]
+نعت أو بدل، وقرئا منصوبين مرفوعين، وتوجيه ذلك ما ذكر في { رب العالمين } ، وتقدم الكلام في اشتقاقهما في البسملة/ فأغنى عن إعادته.
+
+
+===== CORPUS, kind ulum: every segment tied to 1:3 (1) =====
+
+== WAHIDI-ASBAB:v1p19  [سورة الفاتحة]  page=v1p19
+اختلفوا فيها فعند الأكثرين هي مكية من أوائل ما نزل من القرآن.
+حدثنا أبو عثمان سعيد بن محمد بن أحمد الزاهد قال: أخبرنا جدي قال: أخبرنا أبو عمرو الحيري قال: حدثنا إبراهيم بن الحارث وعلي بن سهل بن المغيرة قالا: حدثنا يحيى بن بكير قال: حدثنا إسرائيل، عن أبي إسحاق، عن أبي ميسرة: أن رسول الله - صلى الله عليه وسلم - كان إذا برز سمع مناديا يناديه: "يا محمد، فإذا سمع الصوت انطلق هاربا، فقال له ورقة بن نوفل: إذا سمعت النداء فاثبت حتى تسمع ما يقول لك: قال: فلما برز النداء: "يا محمد"، فقال: لبيك، قال: قل أشهد أن لا إله إلا الله وأشهد أن محمدا رسول الله ثم قال: قل: {الحمد لله رب العالمين الرحمن الرحيم مالك يوم الدين} حتى فرغ من فاتحة الكتاب" وهذا قول علي بن أبي طالب.
+أخبرنا أبو إسحاق أحمد بن محمد المفسر قال: أخبرنا الحسن بن جعفر المفسر قال: أخبرنا أبو الحسن بن محمد بن محمود المروزي قال: حدثنا عبد الله بن محمود السعدي قال: حدثنا أبو يحيى القصري قال: حدثنا مروان بن معاوية، عن العلاء بن المسيب، عن الفضيل بن عمرو، عن علي بن أبي طالب عليه السلام قال: نزلت فاتحة الكتاب بمكة من كنز تحت العرش. وبهذا الإسناد عن السعدي حدثنا عمرو بن صالح قال: حدثنا أبي عن الكلبي، عن أبي صالح عن ابن عباس قال: قام النبي - صلى الله عليه وسلم - بمكة فقال: {بسم الله الرحمن الرحيم الحمد لله رب العالمين} فقالت قريش: دق الله
+فاك أو نحو هذا. قاله الحسن وقتادة، وعند مجاهد أن الفاتحة مدنية. قال الحسين بن الفضل: لكل عالم هفوة وهذه بادرة من مجاهد لأنه تفرد بهذا القول والعلماء على خلافه. ومما يقطع به على أنها
+مكية قوله تعالى: {ولقد آتيناك سبعا من المثاني والقرآن العظيم} يعني: الفاتحة.
+أخبرنا محمد بن عبد الرحمن النحوي قال: أخبرنا محمد بن أحمد بن علي الحيري قال: أخبرنا أحمد بن علي بن المثنى قال: حدثنا يحيى بن أيوب قال: حدثنا إسماعيل بن جعفر قال: أخبرني العلاء عن أبيه عن أبي هريرة قال: قال رسول الله - صلى الله عليه وسلم - وقرأ عليه أبي بن كعب أم القرآن، فقال: "والذي نفسي بيده ما أنزل الله في التوراة ولا في الإنجيل ولا في الزبور ولا في القرآن مثلها، إنها لهي السبع المثاني والقرآن العظيم الذي أوتيته". وسورة الحجر مكية بلا خلاف، ولم يكن الله ليمتن على رسوله بإيتائه فاتحة الكتاب وهو بمكة، ثم ينزلها بالمدينة ولا يسعنا القول بأن رسول الله - صلى الله عليه وسلم - قام بمكة بضع عشرة سنة يصلي بلا فاتحة الكتاب هذا مما لا تقبله العقول!.
+
+
+===== CORPUS, kind isari: every segment tied to 1:3 (3) =====
+
+== BURSEVI:v1p2  [سورة فاتحة الكتاب]  page=v1p2
+وجه التسمية بفاتحة الكتاب إما لافتتاح المصاحف والتعليم وقراءة القرآن والصلاة بها وإما لأن الحمد فاتحة كل كلام وإما لأنها أول سورة نزلت وإما لأنها أول ما كتب في اللوح المحفوظ وإما لأنها فاتحة أبواب المقاصد في الدنيا وأبواب الجنان في العقبى وإما لأن انفتاح أبواب خزائن أسرار الكتاب بها لأنها مفتاح كنوز لطائف الخطاب بانجلائها ينكشف جميع القرآن لأهل البيان لأن من عرف معانيها يفتح بها أقفال المتشابهات ويقتبس بسناها أنوار الآيات وسميت بأم القرآن وأم الشيء أصله لأن المقصود من كل القرآن تقرير أمور أربعة : إقرار بالألوهية والنبوة وإثبات القضاء والقدر تعالى فقوله :
+{الحمد لله رب العالمين * الرحمن الرحيم} يدل على الألوهية وقوله :
+
+== SULAMI:v1p35#2  [الفاتحة : ( 3 ) الرحمن الرحيم]  page=v1p35
+.
+بالإشراف على أسرار أوليائه والتجلي لأرواح أنبيائه والرحيم بالعطف على أنفس الخلائق برهم وفاجرهم يبسط معايشهم في الدنيا .
+وقيل : الرحمن خاص الاسم خاص الفعل والرحيم عام الاسم عام الفعل .
+وقيل : الرحمن بالنعمة والرحيم بالعصمة .
+وقيل : الرحمن بالتجلي والرحيم بالتولي .
+وقيل : الرحمن بكشف الأنوار والرحيم لحفظ ودائع الأسرار .
+وقيل : الرحمن بذاته والرحيم في نعوته وصفاته وجل الحق أن يدرك حقيقة أساميه أحد ؛ لأن أسماءه بلا علة ، وإنما يظهر للخلق نصيبهم من الأسامي لا حقيقة حقه فمن ظن أنه يفسر أساميه على حقيقة حقه فقد ضل ضلالا بعيدا ؛ لأنه أظهر الأسامي للإثبات رحمة لخلقه لا إشرافا على صفاته ونعوته قال الله تعالى : ﴿ ولا يحيطون به علما ﴾ وكيف يدرك شيء من صفات من الجهات لا يضمنه والسمات لا يأخذه والأوقات لا تداوله ومصنوعة لا تجاوله والترجمة لا تجليه والآداب لا تؤدبه والإشارات لا تدانيه ، لم تلتبس به حال ولا ينازعه باك ، لا الصفات أوجدته ولا الأسامي زينته ، بل هو موجد كل موجود وخالف كل موصوف - جل وتعالى - .
+سمعت منصورا بإسناده يقول عن جعفر قال : الرحمن الذي يرزق الخلق ظاهرا وباطنا ، فرزق الظاهر الأقوات من المأكولات والمشروبات والعوافي ، والباطن العقل والمعرفة والفهم وما ركب فيه من أنواع البدائع كالسمع والبصر والشم والذوق واللمس والهمة والظن .
+
+== SULAMI:v1p36  [الفاتحة : ( 3 ) الرحمن الرحيم]  page=v1p36
+قوله تعالى : ﴿ مالك يوم الدين 2 ﴿
+
+
+===== CORPUS, kind modern: every segment tied to 1:3 (1) =====
+
+== CORPUSCORANICUM:1:3:kommentar  [Sure 1 — al-fātiḥa — »Die Eröffnende« — Kursorischer Kommentar — V. 3]
+r-raḥmāni r-raḥīm] Da V. 1 nicht Teil des Textes ist – die Fātiḥa wird in einigen Riten bis heute ohne die Basmala rezitiert (siehe Neuwirth, Neuwirth 1991:348) –, ist die Prädikation an dieser Stelle nicht Wiederholung, sondern emphatische Einführung des neuen Titels.
+
+
+===== CORPUS, kind meal: every segment tied to 1:3 (76) =====
+
+== MEAL-AFYAVUZ:1:3
+(Öyle Allah ki) dünyada bütün mahlûkata, ahirette ise, yalnız müminlere merhamet edendir;
+
+== MEAL-AKGUL:1:3
+(Ki) O (dünyada her şeye ve herkese acıyıp kollayan) RAHMAN’dır, (ahirette ise mü’min ve müstakim kullarını bağışlayıp sonsuz rahmetine kavuşturacak) RAHİM (olan Allah’tır).
+
+== MEAL-ALIMIHR:1:3
+Rahmân´dır, Rahîm´dir
+
+== MEAL-ATALAY:1:3
+Esirgeyen, yarlıgayan
+
+== MEAL-ATES:1:3
+(O) Rahmân'dır, Rahim'dir.
+
+== MEAL-BALTACIOGLU:1:3
+Acıyıcıdır, esirgeyicidir.
+
+== MEAL-BAYRAKLI:1:3
+O, rahmet ve merhametin kaynağıdır.[3]
+  notes: [3] Rahmet kelimesinin geniş açıklaması için bk. Bayraklı, KUR’ÂN TEFSÎRİ, I, 119-129.
+
+== MEAL-BILMEN:1:2
+Hamd, âlemlerin Rabbi, Rahmân ve Rahîm olup, ceza gününün mâliki olan Allah Teâlâ'ya mahsustur.
+
+== MEAL-BULAC:1:3
+Rahman ve Rahimdir.
+
+== MEAL-CAKIR:1:3
+her şeye sevgi ile hakim olana,
+
+== MEAL-CANTAY:1:2
+Hamd olsun Alemlerin Rabbi, Rahman, Rahim, Dîn günü'nün (tek) sahibi ve mutasarrıfı Allaha.
+
+== MEAL-CAVDAR:1:3
+O Rahmeti sonsuz, merhameti sınırsızdır. 7/156, 16/53, 41/2
+
+== MEAL-CEMILSAID:1:3
+1,2. Hamd ve şükür münhasıran bütün âlemin rabbi ve müşfik ve rahîm olan Allâh’a mahsûsdur.
+
+== MEAL-CEVIK:1:3
+Rahman olan Allah, yarattıklarını nimetlerle donatan ve merhametiyle Rahim olandır.
+
+== MEAL-COBAN:1:3
+O Rahmandır, yarattığı her varlık onun yasaları tarafından kuşatılmıştır. İnsanlar zanneder ki; "Biz Allah’ın yasasına tabi değiliz." Hayır! Her insan ister inansın ister inanmasın Allah’ın yasasına tabidir. Onlara inanıp inanmama yetkisi veren Allah’tır. Onlar Allah’ın yaratılış yasaları gereği inanır veya inanmazlar. İnanç konusunda herkes kendi seçiminden sorumludur. Allah Rahimdir. Yarattığı her varlığı eşit tutar. Hiç kimseye haksızlık yapmaz. Kim Allah’ın yarattıklarına karşı haksızlık yaparsa onu ya dünyada ya da dünya sonundaki ahiret hayatında cezalandırır. Hiçbir insan diğer insana baskı yapamaz. Hiçbir insan ister gönüllü ister gönülsüz insanları çıkarlarına kullanamaz. Allah’ın yasalarındaki temel kural, "İnsanları çıkarlar için kullanmak!" yasaktır. İnsanları çıkarlarına kullananlar zalimdir. Allah zalimlere kaşı daima zulme uğrayanları korur. Hiçbir zaman sadece inananları korurum, inanmayanları korumam demez. Kimin hakkı yeniliyorsa Allah hakkı yenilenin yanındadır. Allah daima zulme uğrayanın yanındadır.
+
+== MEAL-CYILDIRIM:1:2
+Hamd, âlemlerin Rabbi, Rahman, Rahîm, ceza (hesap görülecek, karşılık verilecek) günün yegâne sahibi Allah'a mahsûstur.
+
+== MEAL-DEMIRYENT:1:3
+(O, bütün yarattıklarına merhamet eden) rahmân ve (âhirette sadece müslümanlara merhamet edecek olan) rahîmdir.
+
+== MEAL-DIB:1:2
+Hamd, Âlemlerin Rabbi, Rahmân, Rahîm, hesap ve ceza gününün (ahiret gününün) maliki Allah'a mahsustur.
+  notes: 4. Hamd, tüm varlıkları nimetlendiren sonsuz kudret sahibi Allah’ı yüceltme ifadesidir. Hamd eden insan, Allah’ın nimetlerine konu oluşu bakımından de
+
+== MEAL-DIB1961:1:3
+O Rahman ve Rahim'dir,
+
+== MEAL-EAKTAS:1:3
+O'nun Rahmeti Bol ve Kesintisizdir.
+
+== MEAL-ELMALILI:1:3
+O rahman, Rahim,
+
+== MEAL-ELMALILI-HDKD:1:3  page=v1p170
+O Rahmân, Rahîm,
+
+== MEAL-ELMALILI-SADE:1:3
+O Rahmân ve Rahim,
+
+== MEAL-ELMALILI-SADE-B:1:3
+O Rahman, Rahim
+
+== MEAL-ERDOGDU:1:3
+(Evrende bulunan bütün yaratıklara karşı şefkatli) Rahman ve (ahirette ise yalnız inanan kullarına acıyan) Rahimdir O!
+
+== MEAL-EROGLU:1:3
+Ahirette ve dünyada tüm mahlukat için Rahman ve Rahim O'dur
+
+== MEAL-ESED:1:3
+Rahmân, Rahîm,
+
+== MEAL-ESKIANADOLU:1:3
+gey raḥmet ķılıcı raḥmet ķılıcı.
+
+== MEAL-FIZILAL:1:3
+Rahman ve Rahim
+
+== MEAL-GOLPINARLI:1:3
+Rahmandır, rahîmdir,
+
+== MEAL-HARUNYILDIRIM:1:3
+Rahmân’dır, Rahîm’dir.
+
+== MEAL-HAYRAT:1:3
+(O,) Rahmândır, Rahîmdir.(5)
+  notes: (5)“Ezelden ebede kadar, her kimden her kime karşı gelen ve gelecek medh ü senâ (övgü) O’na âiddir. Çünki sebeb-i medih (övgü sebebi) olan ni‘met ve i
+
+== MEAL-HOZTURK-SYILMAZ:1:3
+Rahmân, Rahîm,
+  notes: [17/111; 55/1-4; 3/129; 15/49-50]
+
+== MEAL-HULUSI:1:3
+Rahman ve Rahıym'dir. (Rahmaniyetiyle Esma alemini meydana getiren ve Rahıymiyetiyle Esma alemindeki manalar ile her an alemleri yaratandır. )
+
+== MEAL-HYILMAZ:1:2
+Tüm övgüler, âlemlerin Rabbi, yarattığı bütün canlılara nimet veren, yarattıklarına çok merhametli olan, herkesin iyi ya da kötü yaptığı tüm edim ve eylemlerin karşılığını göreceği âhiret gününün sahibi, yöneticisi Allah'adır.
+
+== MEAL-IAKTAS:1:3
+O, merhameti sonsuz olan, (herkese) merhamet edendir.
+
+== MEAL-IBNKESIR-ANON:1:3
+Rahman'dır, Rahimdir.
+
+== MEAL-ISLAMOGLU:1:3
+O özünde rahmet sahibi, işinde rahmet sahibidir.[⁴]
+  notes: [4] Veya: “Rahmetin sonsuz kaynağı olarak tüm varlığa rahmet eden, iman edenlere kat kat rahmet eden” (Krş: 67:19; 33:43); ya da “Sonsuz rahmetiyle he
+
+== MEAL-ISLAMOGLU-ESKI:1:3
+O özünde rahmet sahibi, işinde rahmet sahibidir.
+
+== MEAL-IZMIRLI:1:2
+2, 4. (Hamd-ü senâ) o Allah/a mahsustur ki âlemlerin Rab/bidir [³], esirgeyendir, bağışlayandır, ceza gününün mâlikidir.
+  notes: [3] Yaradanı, besleyeni, işlerini göreni, terbiye edeni, sahibi, mâlikidir.
+
+== MEAL-KCELIK:1:3
+Rahman'dır, Rahim'dir.
+  notes: (Allah-u Teâlâ’nın rahmân ve rahîm sıfatlarının her ikisi de “rahmet” mastarından türemiş olmakla birlikte, farklı anlamlar ifade etmektedir. Rahman d
+
+== MEAL-KISA:1:3
+O, Rahmândır; çok şefkatli, çok merhametlidir. Sizi sizden çok sever, size sizden daha yakındır. O’nun sonsuz rahmet ve şefkati, bu dünyada mümin-kâfir ayrımı yapmaksızın tüm varlıkları kuşatmıştır. O, Rahîmdir. Rahmetini tamamlamak üzere bu Kitabı göndermiş ve onun ışığında yürüyen bahtiyârlara, âhiret hayatında sonsuz mutluluk ve kurtuluş müjdesini vermiştir. Fakat O, çok şefkatli, çok merhametli olmakla birlikte, hikmetli ve adâletlidir de:
+
+== MEAL-KULUNKOGLU:1:3
+(O) Rahman’dır ve Rahîm’dir.
+  notes: Bkz. 1/1 Rahman ve Rahîm sıfatlarıyla ilgili birinci ayetin dipnotuna bakabilirsiniz.
+
+== MEAL-KUNTMAN:1:3
+Hem Rahman'dır; hem Rahimdir
+  notes: ("Rahmin", "Rahîm" bu beyanların ikisi de rahmet kökünden gelmekle beraber, aralarında çok önemli fark vardır şöyle ki: yüce Allah'ın Rahmân oluşu eze
+
+== MEAL-KURANYOLU:1:3
+Rahmân ve rahîm
+
+== MEAL-MOZDEMIR:1:3
+Rahîm Rahmân,
+
+== MEAL-MTURK:1:2
+Hamd,⁵ bütün âlemlerin⁶ Rabbi,⁷ Rahmân, Rahîm, din gününün⁸ tek sahibi⁹ Allah’a mahsustur.
+  notes: 5 Hamd: Bir ihsan veya bir iyiliğin sahibine karşı yapılan ve can ü gönülden hürmet ifade eden en güzel bir şekilde anmadır. Bu anmanın içerisinde kıs
+
+== MEAL-OFIRAT:1:3
+O ki Rahmân* ve Rahîm olandır.
+  notes: Rahmân ve Rahîm kelimeleri aynı kökten olup esas itibariyle merhameti ifade ederler. Rahmân kelimesinin Rahîm kelimesinden farkı, merhametin daha kaps
+
+== MEAL-OKUYAN:1:2
+Hamd[1] (övgü); Rahmân, Rahîm, hesap gününün sahibi, âlemlerin de Rabbi[2] olan Allah içindir.
+  notes: [1] "Övgü" anlamına gelmekte olan [hamd], Yüce Allah'ın kulları üzerindeki hakkıdır. Gerçek [hamd] sadece O'na layıktır. Ayette [ahmedü] "hamd ederim" denilmeyip de [el-hamdü] "hamd" denmesinin muhtemel nedeni, bu ifadenin daha kapsayıcı oluşundandır. İsrâ 17:44'te belirtildiği gibi başka yerlerde, başka zamanlarda ve başka varlıklar tarafından Yüce Allah daima [hamd] ve [tesbih] edilmektedir.
+[2] [Rabb] kelimesi, Yüce Allah'ın kendi dışındaki bütün varlıkların sahibi olduğunu, onları yetiştirdiğini, eğitip terbiye ettiğini, onları sahipsiz bırakmayacağını, bütün yaratılmışların sığınağı olduğunu, başka arayışların bâtıllığını ve kullarını koruduğu anlamlarını içermektedir. Yüce Allah'ın göklerin, yerin ve aralarındaki her şeyin Rabbi olduğuyla ilgili bkz. Meryem 19:65; Şu‘arâ 26:24; Sâffât 37:5; Sâd 38:66; Duhân 44:7; Câsiye 45:36.
+
+== MEAL-ONAN:1:2
+Hamd alemlerin rabbi, rahman, rahim ve din gününün maliki olan Tanrı'yadır.
+
+== MEAL-ONGUT:1:3
+O, Rahman ve Rahim'dir.
+
+== MEAL-PARLIYAN:1:3
+Dünyada herkesi, ahirette sadece mü'minleri Rahmetine alan,
+
+== MEAL-PIRIS:1:2
+Hamd, Alemlerin Rabbi, Rahman, Rahim, din gününün hakimi Allah'a mahsustur.
+
+== MEAL-PIRIS-REV:1:3
+O Rahman'dır, O Rahim'dir.
+
+== MEAL-RWWAD:1:3
+O Rahmân'dır, Rahîm'dir.
+
+== MEAL-SAFA:1:3
+"Bağışlayan; Merhametli!"
+
+== MEAL-SAGLAM:1:3
+O (her şeyi) yasalar çeçevesinde rahmetiyle yaratan ve besleyendir. Ve yine rahmetiyle (her şeyi) olağanüstü olarak mükemmelliğe (ahirete) götürendir.
+
+== MEAL-SATIRALTI:1:3
+Fenādan ṣoñra āḫiretde vücūd virici ve merḥameten mü’minlere raḥmet baḫş idici,
+
+== MEAL-SEMS:1:3
+O, sonsuz kerem ve rahmet edendir.
+
+== MEAL-SIMSEK:1:3
+O Rahmân'dır, Rahîmdir.
+
+== MEAL-STEVFIK:1:3
+Bütün yaradılmışlara dünyâ ve âhiretde acıyub iylik idici.
+
+== MEAL-SULEYMANIYE:1:3
+İyiliği sonsuz, ikramı bol olan,[*]
+  notes: [*] Rahman ve rahim kelimelerinin anlamı için bkz: Fatiha 1/1. Ayetin dipnotu.
+
+== MEAL-SULEYMANIYE-ESKI:1:3
+İyiliği sonsuz, ikramı boldur.
+
+== MEAL-SYILDIRIM:1:3
+O rahmândır, rahîmdir.
+  notes: Son âyet doğru yolun somut, gerçekleşmiş şeklini gösterir, mümini geniş düz caddede ilerleyen peygamberlerin nuranî kafilesinin peşine yerleştirir. Ör
+
+== MEAL-TDV:1:3
+O, rahmândır ve rahîmdir.
+
+== MEAL-TDV-DUZ:1:3
+O, rahmandır ve rahimdir.
+
+== MEAL-TDV-QE:1:3
+O, Rahmân'dır ve Rahîm'dir.
+
+== MEAL-TEFHIM:1:2
+Hamd, Alemlerin Rabbi, Rahman, Rahim ve Din gününün maliki olan Allah'adır.
+
+== MEAL-TEKIN:1:3
+Sınırsız Rahmeti ve engin merhameti ile hayat veren, yaşatan, koruyan, rahmetine, merhametine, lütfuna, ihsanına, hayırlara mazhar eden, Rahmân ve rahîm olan Allah'a hamdolsun.
+  notes: “Sultan” kelimesi İmam Âsım, el-Kisâî, Yâ-kup ve Halef’in dışındaki kıraat imamlarının okuduğu veche göre verilen mânâdır.
+
+== MEAL-TURKMEN:1:3
+O Rahmândır (iyiliği sonsuzdur), Rahîmdir (ikramı boldur).
+
+== MEAL-UNAL:1:3
+Rahmân ve Rahîm;
+
+== MEAL-VAROL:1:3
+(O Allah) Rahman ve Rahim'dir.
+
+== MEAL-YAKIT:1:3
+O, Rahmân’dır⁴, Rahîm’dir⁵.
+  notes: 4 Rahmân: Esirgeyen, Seven, merhamet eden
+5 Rahîm: Çok seven, çok bağışlayan, merhamet sahibi, müşfik
+
+== MEAL-YNOZTURK:1:3
+Rahman'dır, Rahîm'dir O.
+
+== MEAL-YORULMAZ:1:3
+(O kullarına) Acıyan, koruyan, gözeten ve ihtiyaçlarını karşılayandır.
+
+== MEAL-YUKSEL:1:3
+Rahman, Rahim (Merhametli),
+
+
+===== CORPUS, kind translation: every segment tied to 1:3 (2) =====
+
+== ARBERRY:1:3
+the All-merciful, the All-compassionate,
+
+== ASAD-EN:1:3
+The Most Gracious, the Dispenser of Grace,
+
+
+===== CORPUS, kind quran: every segment tied to 1:3 (1) =====
+
+== QURAN:1:3
+ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+
+
+===== LEXICA: entries of the bound roots (ر ح م) =====
+
+== AYN:رحم  [رحم]
+# رحم # الرحمن الرحيم اسمان مشتقان من الرحمة ورحمة الله وسعت كل شيء ( وهو أرحم ~~الراحمين ) ويقال ما أقرب رحم فلان إذا كان إذا مرحمة وبر وقوله جل وعز ~~@QB@ وأقرب رحما @QE@ أي أبر بالوالدين من القتيل الذي قتله الخضر - عليه ~~السلام - وكان الأبوان مسلمين والابن كان كافرا فولد لهما بعد بنت فولد ~~نبيا وأنشد # ( أحنى وأرحم من أم بواحدها ms0346 % رحما وأشجع من ذي لبدة ضاري ) # والمرحمة الرحمة تقول رحمته أرحمه رحمة ومرحمة وترحمت عليه أي قلت رحمة ~~الله عليه وقال الله - جل وعز - @QB@ وتواصوا بالصبر وتواصوا بالمرحمة @QE@ ~~أي أوصى بعضهم بعضا برحمة الضعيف والتعطف عليه # والرحم بيت منبت الولد ووعاؤه في البطن وبينهما رحم أي قرابة قريبة قال ~~الأعشى # ( نجفى وتقطع منا الرحم % ) # وجمعه الأرحام وأما الرحم الذي جاء في الحديث الرحم معلقة بالعرش تقول ~~اللهم صل من وصلني واقطع من قطعني فالرحم القرابة تجمع بني أب PageV03P224 ~~وناقة رحوم أصابها داء في رحمها فلا تلقح تقول قد رحمت رحما وكذلك المرأة ~~رحمت ورحمت إذا اشتكت رحمها
+
+== JAMHARA:رحم  [رحم]
+# [ رحم ] والرحم : رحم المرأة ms0475 ثم صارت أسباب القرابة أرحاما . وكذا فسر في ~~التنزيل : ^ ( واتقوا الله الذي تساءلون به والأرحام % % بالنصب ومن قرأ ~~عند البصريين بالجر فقد لحن . # وتقول : جزاك الله والرحم خيرا الرفع والنصب جائز وجزاك الله والقطيعة ~~شرا النصب لا غير . # والرحم والرحم واحد . وتقول : رحمته رحمة ورحما ومرحمة أيضا . والله عز ~~وجل الرحمن الرحيم . قال أبو عبيدة : هما اسمان مشتقان من الرحمة مثل ندمان ~~ونديم . قال أبو بكر : خبرني عمي الحسين بن دريد عن أبيه عن ابن الكلبي عن ~~أبيه قال : الرحمن اسم لله تبارك وتعالى لا يدعى به غيره والرحيم صفة لأن ~~العرب تقول : كن بي رحيما ولم | PageV01P523 | تقل : كن بي رحمانا . وقد دل ~~القرآن على ذلك بقوله عز وجل : @QB@ قل ادعوا الله أو ادعوا الرحمن أيا ما ~~تدعوا فله الأسماء الحسنى @QE@ فالله اسم ليس لأحد فيه شركة وكذلك الرحمن ~~وليس لأحد أن يسمى الرحمن إلا الله . # وقد سمت العرب مرحوما ورحيما . # ويقال : ناقة رحوم إذا اشتكت رحمها في عقب الولادة وقد رحمت ترحم رحما ~~وامرأة رحوم أيضا .
+
+== TAHDHIB:رحم  [رحم]  page=PageV05P033
+# رحم : قال الليث : الرحمان الرحيم اسمان اشتقاقهما من الرحمة ، قال ورحمة ~~الله وسعت كل شيء ، وهو أرحم الراحمين . وقال الزجاج : الرحمان الرحيم ~~صفتان معناهما فيما ذكر أبو عبيدة ذو الرحمة ، قال : ولا يجوز أن يقال رحمن ~~إلا لله جل وعز . قال وفعلان من أبنية ما يبالغ في وصفه ، قال : فالرحمان ~~الذي وسعت رحمته كل شيء ، فلا يجوز أن يقال رحمن لغير الله . وقال أبو ~~عبيدة : هما مثل ندمان ونديم . # وقال الليث : يقال ما أقرب رحم فلان إذا كان ذا مرحمة وبر . قال : وقول ~~الله جل وعز : { وأقرب رحما } ( الكهف : 81 ) يقول أبر بالوالدين من القتيل ~~الذي قتله الخضر ، وكان الأبوان مسلمين والابن كان كافرا فولد لهما بعد بنت ~~فولدت نبيا . وأنشد الليث : # أحنى وأرحم من أم بواحدها # رحما وأشجع من ذي لبدة ضاري # وقال أبو إسحاق في قوله { وأقرب رحما } أي أقرب عطفا ms1259 وأءمس بالقرابة . ~~قال والرحم والرحم في اللغة العطف والرحمة وأنشد : # وكيف بظلم جارية # ومنها اللين والرحم # وقال أبو بكر المنذري : سمعت أبا العباس يقول في قوله الرحمن الرحيم جمع ~~بينهما لأن الرحمن عبراني والرحيم عربي وأنشد لجرير : # لن تدركوا المجد أو تشروا عباءكم # بالخز أو تجعلوا الينبوب ضمرانا # أو تتركون إلى القسين هجرتكم # ومسحكم صلبهم رحمن قربانا PageV05P033 # وقال ابن عباس : هما اسمان رقيقان أحدهما أرق من الآخر ، فالرحمان الرقيق ~~، والرحيم العاطف على خلقه بالرزق ، وقرأ أبو عمرو بن العلاء ( وأقرب رحما ~~) بالتثقيل واحتج بقول زهير يمدح هرم بن سنان : # ومن ضريبته التقوى ويعصمه # من سيىء العثرات الله والرحم # وقال الليث : المرحمة الرحمة ، تقول رحمته أرحمه رحمة ومرحمة ، وترحمت ~~عليه ، أي قلت : رحمة الله عليه ، وقال الله جل وعز : { ءامنوا وتواصوا ~~بالصبر وتواصوا } ( البلد : 17 ) أي أوصى بعضهم بعضا برحمة الضعيف والتعطف ~~عليه . # والرحم بيت منبت الولد ووعاؤه في البطن ، وجمعه الأرحام . وأما الرحم ~~الذي جاء في الحديث ( الرحم معلقة بالعرش ، تقول : اللهم صل من وصلني واقطع ~~من قطعني ) فالرحم القرابة تجمع بني أب وبينهما رحم
+أي قرابة قريبة . وناقة ~~رحوم أصابها داء في رحمها فلا تقبل اللقاح ، تقول : قد رحمت . وقال غيره : ~~الرحام أن تلد الشاة ثم لا تلقي سلاها . وشاة راحم وغنم رواحم إذا ورم ~~رحمها . وقد رحمت المرأة ورحمت إذا اشتكت رحمها . # ثعلب عن ابن الأعرابي قال الرحم خروج الرحم من علة ، والرحم مؤنثة لاغير ~~وسمى الله الغيث رحمة لأنه برحمته ينزل من السماء . وتاء قوله { ( الأعراف ~~: 56 ) أصلها هاء وإن كتبت تاء .
+
+== SIHAH:رحم  [رحم]
+### | [رحم] # الرحمة: الرقة والتعطف. والمرحمة مثله. وقد رحمته وترحمت عليه. وتراحم ~~القوم: رحم بعضهم بعضا. والرحموت من الرحمة، يقال: " رهبوت خير من رحموت "، ~~أي لأن ترهب خيرمن أن ترحم. ورجل مرحوم ومرحم، شدد للمبالغة. والرحم: رحم ~~الأنثى، وهي مؤنثة. والرحم أيضا: القرابة. والرحم بالكسر مثله. قال الأعشى: ~~أما لطالب نعمة يممتها ووصال رحم قد بردت بلالها والرحمن والرحيم: اسمان ~~مشتقان من الرحمة ونظيرهما في اللغة نديم وندمان، وهما بمعنى. ويجوز تكرير ~~الاسمين إذا اختلف اشتقاقهما على جهة التوكيد، كما يقال: فلان جاد مجد. إلا ~~أن الرحمن اسم مختص لله تعالى لا يجوز أن يسمى به غيره. ألا ترى أنه تبارك ~~وتعالى قال: (قل ادعوا الله أو ادعوا الرحمن) ، فعادل به الاسم الذى لا ~~يشركه فيه غيره. # PageV05P1929 # وكان مسيلمة الكذاب يقال له " رحمن اليمامة ". والرحيم قد يكون بمعنى ~~المرحوم، كما يكون بمعنى الراحم. قال عملس بن عقيل: فأما إذا عضت بك الحرب ~~عضة فإنك معطوف عليك رحيم والرحم بالضمة: الرحمة. قال تعالى: (وأقرب رحما) ~~. وقد حركه زهير فقال: ومن ضريبته التقوى ويعصمه من سيئ العثرات الله ~~والرحم وهو مثل عسر وعسر. وأم رحم أيضا: اسم من أسماء مكة. والرحوم: الناقة ms1323 ~~التي تشتكي رحمها بعد النتاج. وقد رحمت بالضم رحامة، ورحمت بالكسر رحما.
+
+== MAQAYIS:رحم  [رحم]
+(رحم) الراء والحاء والميم أصل واحد يدل على الرقة والعطف والرأفة. يقال من ذلك رحمه يرحمه، إذا رق له وتعطف عليه. والرحم والمرحمة والرحمة بمعنى. والرحم: علاقة القرابة، ثم سميت رحم الأنثى رحما من هذا، لأن منها ما يكون ما يرحم ويرق له من ولد. ويقال شاة رحوم، إذا اشتكت رحمها بعد النتاج؛ وقد رحمت رحامة، ورحمت رحما. وقال الأصمعي: كان أبو عمرو بن العلاء ينشد بيت زهير:|ومن ضريبته التقوى ويعصمه ... من سيئ العثرات الله والرحم|قال: ولم أسمع هذا الحرف إلا في هذا البيت. وكان يقرأ: {وأقرب رحما} [الكهف: 81] ، وكأن أبا عمرو ذهب إلى أن الرحم الرحمة. ويقال إن مكة كانت تسمى أم رحم.
+
+== MUFRADAT:رحم  [رحم]
+### | رحم # الرحم: رحم المرأة، وامرأة رحوم تشتكي رحمها. ومنه استعير الرحم للقرابة، ~~لكونهم خارجين من رحم واحدة، يقال: رحم ورحم. # قال تعالى: وأقرب رحما [الكهف/ 81] ، والرحمة رقة تقتضي الإحسان إلى ~~المرحوم، وقد تستعمل تارة في الرقة المجردة، وتارة في الإحسان المجرد عن ~~الرقة، نحو: رحم الله فلانا. وإذا وصف به الباري فليس يراد به إلا الإحسان ~~المجرد دون الرقة، وعلى هذا روي أن الرحمة من الله إنعام وإفضال، ومن ~~الآدميين رقة وتعطف. وعلى هذا قول النبي صلى الله عليه وسلم ذاكرا عن ربه ~~«أنه لما خلق الرحم قال له: أنا الرحمن، وأنت الرحم، شققت اسمك من اسمي، ~~فمن وصلك وصلته، ومن قطعك بتته» «1» فذلك إشارة إلى ما تقدم، وهو أن الرحمة ~~منطوية على معنيين: الرقة والإحسان، فركز تعالى في طبائع الناس الرقة، ~~وتفرد بالإحسان، فصار كما أن لفظ الرحم من الرحمة، فمعناه الموجود في الناس ~~من المعنى الموجود لله تعالى، فتناسب ms249 معناهما تناسب لفظيهما. والرحمن ~~والرحيم، نحو: ندمان ونديم، ولا يطلق الرحمن إلا على الله تعالى من حيث إن ~~معناه لا يصح إلا له، إذ هو الذي وسع كل شيء رحمة، والرحيم يستعمل في غيره ~~وهو الذي كثرت رحمته، قال تعالى: إن الله غفور رحيم [البقرة/ 182] ، وقال ~~في صفة النبي صلى الله عليه وسلم: لقد جاءكم رسول من أنفسكم عزيز عليه ما ~~عنتم حريص عليكم بالمؤمنين رؤف رحيم [التوبة/ 128] ، وقيل: إن الله تعالى: ~~هو رحمن الدنيا، ورحيم الآخرة، وذلك أن إحسانه في الدنيا يعم المؤمنين ~~والكافرين، وفي الآخرة يختص بالمؤمنين، وعلى هذا قال: PageV01P347 # ورحمتي وسعت كل شيء فسأكتبها للذين يتقون [الأعراف/ 156] ، تنبيها أنها ~~في الدنيا عامة للمؤمنين والكافرين، وفي الآخرة مختصة بالمؤمنين.
+
+== LISAN:رحم  [رحم]  page=0711IbnManzurIfriqi.LisanCarab.JK000880-ara1:heading:6924
+# ] رحم : الرحمة : الرقة والتعطف ، و المرحمة مثله ، وقد رحمته و ترحمت ~~عليه . و تراحم القوم : رحم بعضهم بعضا . و الرحمة : المغفرة وقوله تعالى ~~في وصف القرآن : @QB@ هدى ورحمة لقوم يؤمنون @QE@ أي فصلناه هاديا وذا رحمة ~~وقوله تعالى : @QB@ ورحمة للذين آمنوا ms07691 منكم @QE@ أي هو رحمة لأنه كان سبب ~~إيمانهم ، رحمه رحما و رحما و رحمة و رحمة حكى الأخيرة سيبويه ، و مرحمة . ~~وقال الله عز وجل : @QB@ وتواصوا بالصبر وتواصوا بالمرحمة @QE@ أي أوصى ~~بعضهم بعضا برحمة الضعيف والتعطف عليه ، و ترحمت عليه أي قلت رحمة الله ~~عليه . وقوله تعالى : @QB@ إن رحمة الله قريب من المحسنين @QE@ فإنما ذكر ~~على النسب وكأنه اكتفى بذكر الرحمة عن الهاء ، وقيل : إنما ذلك لأنه تأنيث ~~غير حقيقي ، والاسم الرحمى قال الأزهري : التاء في قوله ( عز وجل ) : ? < ~~إن رحمت > ? أصلها هاء وإن كتبت تاء . الأزهري : قال عكرمة في قوله ( عز ~~وجل ) : @QB@ ابتغاء رحمة من ربك ترجوها @QE@ : أي رزق ، ? < ولئن أذقناه ~~رحمة ثم نزعناها منه > ? : أي رزقا ، @QB@ وما أرسلناك إلا رحمة @QE@ : أي ~~عطفا وصنعا ، @QB@ وإذا أذقنا الناس رحمة من بعد ضراء @QE@ : أي حيا وخصبا ~~بعد مجاعة ، وأراد بالناس الكافرين . و الرحموت : من الرحمة . وفي المثل : ~~رهبوت خير من رحموت أي لأن ترهب خير من أن ترحم ، لم يستعمل على هذه الصيغة ~~إلا مزوجا . و ترحم عليه : دعا له بالرحمة . و استرحمه : سأله الرحمة ، ~~ورجل مرحوم و مرحم شدد للمبالغة . وقوله . تعالى : @QB@ وأدخلناه في رحمتنا ~~@QE@ قال ابن جني : هذا مجاز وفيه من الأوصاف ثلاثة : السعة والتشبيه ~~والتوكيد ، أما السعة فلأنه كأنه زاد في أسماء الجهات والمحال اسم هو ~~الرحمة ، وأما التشبيه فلأنه شبه الرحمة وإن لم يصح الدخول فيها بما يجوز ~~الدخول فيه فلذلك وضعها موضعه ، وأما التوكيد فلأنه أخبر عن العرض بما يخبر ~~به عن الجوهر ، وهذا تغال بالعرض وتفخيم منه إذا صير إلى حيز ما يشاهد ~~ويلمس ويعاين ، ألا ترى إلى قول بعضهم في الترغيب في الجميل : ولو رأيتم ~~المعروف رجلا لرأيتموه حسنا جميلا كقول الشاعر :
+ولم أر كالمعروف ، أما ~~مذاقه فحلو ، وأما وجهه فجميل فجعل له مذاقا وجوهرا ، وهذا إنما يكون في ~~الجواهر ، وانما يرغب فيه وينبه عليه ويعظم من قدره بأن يصوره في النفس على ~~أشرف أحواله وأنوه صفاته ، وذلك بأن يتخير شخصا مجسما لا عرضا ms07692 متوهما . ~~وقوله تعالى : @QB@ والله يختص برحمته من يشاء @QE@ معناه يختص بنبوته من ~~يشاء ممن أخبر عز وجل أنه مصطفى مختار . وا الرحمن الرحيم : بنيت الصفة ~~الأولى على فعلان لأن معناه الكثرة ، وذلك لأن رحمته وسعت كل شيء وهو أرحم ~~الراحمين ، فأما الرحيم فإنما ذكر بعد الرحم ن لأن الرحمن مقصور على الله ~~عز وجل ، و الرحيم قد يكون لغيره قال الفارسي : إنما قيل بسم الله الرحم ن ~~الرحيم فجيء بالرحيم بعد استغراق الرحمن معنى الرحمة لتخصيص PageV12P230 ~~المؤمنين به في قوله تعالى : @QB@ وكان بالمؤمنين رحيما @QE@ كما قال : ~~@QB@ اقرأ باسم ربك الذي خلق @QE@ ، ثم قال : @QB@ خلق الإنسان من علق @QE@ ~~فخص بعد أن عم لما في الإنسان من وجوه الصناعة ووجوه الحكمة ، ونحوه كثير ~~قال الزجاج : الرحم ن اسم من أسماء الله عز وجل مذكور في الكتب الأول ، ولم ~~يكونوا يعرفونه من أسماء الله قال أبو الحسن : أراه يعني أصحاب الكتب الأول ~~، ومعناه عند أهل اللغة ذو الرحمة التي لا غاية بعدها في الرحمة ، لأن ~~فعلان بناء من أبنية المبالغة ، و رحيم فعيل بمعنى فاعل ، كما قالوا سميع ~~ب … [cut at 3000 of 8577 characters]
+
+== ASAS:رحم#1178  [رحم]  page=section:1177
+# رحم # رحمته رحمة ومرحمة ورحما # وما أقرب رحم فلان إذا كان ذا مرحمة # ومنزلي في أم رحم وهي مكة # ورهبوت خير من رحموت # وهو مرحوم ومرحم للمبالغة # وترحمت عليه واسترحمته استعطفته وتراحموا تعاطفوا والمؤمنون متراحمون # ووقعت النطفة في الرحم @QB@ هو الذي يصوركم في الأرحام @QE@ وهي منبت ~~الولد ووعاؤه في البطن # ورحمت المرأة رحامة ورحمت رحما ورحمت رحما إذا اشتكت رحمها بعد الولادة # ومن المجاز رحمه الله وهو الرحمن الرحيم الواسع الرحمة # وبينهما رحم ورحم قال الهذلي # ( ولم يك فظا قاطعا لقرابة % ولكن وصولا للقرابة ذا رحم ) # @QB@ وأقرب رحما @QE@ وهي علاقة القرابة وسببها # وأنشدك بالله والرحم # ووصلتك رحم ووصلوا الأرحام وقطعوها
+
+
+===== SAHIH HADITH whose text holds the ayah's words (exact search, 20 shown, each cut at 1500) =====
+
+== MUSLIM:4405  sahih=True by=Müslim
+وَحَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، أَخْبَرَنَا عَبْدَةُ بْنُ سُلَيْمَانَ، وَحُمَيْدُ بْنُ عَبْدِ الرَّحْمَنِ، ح وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدُ الرَّحِيمِ بْنُ سُلَيْمَانَ، ح وَحَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا أَبُو أُسَامَةَ، كُلُّهُمْ عَنْ هِشَامٍ، بِهَذَا الإِسْنَادِ ‏.‏ نَحْوَ حَدِيثِ ابْنِ نُمَيْرٍ عَنْ حُمَيْدِ بْنِ عَبْدِ الرَّحْمَنِ، الرُّؤَاسِيِّ وَفِي حَدِيثِ عَبْدِ الرَّحِيمِ وَأَبِي أُسَامَةَ وَهُوَ يَوْمَئِذٍ ذُو ثَمَنٍ ‏.‏
+  en: This hadith has been narrated on the authority of Hisham through another chain of transmitters, and in the hadith narrated by 'Abd al-Rahim and Abu Usama (the words are):" That (the shield) was valuable those days
+  tr: {…} Bize Osman b. Ebî Şeybe de rivayet etti. (Dediki): Bize Abde b. Süleyman ile Humeyd b. Abdirrahmân haber verdiler. H. Bize Ebû Bekir b. Ebi Şeybe dahî rivayet etti. (Dediki): Bize Abdurrahîm b. Süleyman rivayet etti. H. Bize Ebû Kureyb de rivayet etti. (Dediki): Bize Ebû Usâme rivayet etti. Bu râvilerin hepsi Hişâm'dan bu isnâdla ibni Numeyr'in, Humeyd b. Abdirrahmân Er-Ruasî'den naklettiği hadis gibi rivayette bulunmuşlardır. Abdurrahîm ile Ebû Usâme'nin hadîslerinde: O gün o kıymet sahibi idi.» cümlesi de vardır. İzah 1687 de
+
+== BUKHARI:820  sahih=True by=Buhârî
+حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ الرَّحِيمِ، قَالَ حَدَّثَنَا أَبُو أَحْمَدَ، مُحَمَّدُ بْنُ عَبْدِ اللَّهِ الزُّبَيْرِيُّ قَالَ حَدَّثَنَا مِسْعَرٌ، عَنِ الْحَكَمِ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ أَبِي لَيْلَى، عَنِ الْبَرَاءِ، قَالَ كَانَ سُجُودُ النَّبِيِّ صلى الله عليه وسلم وَرُكُوعُهُ، وَقُعُودُهُ بَيْنَ السَّجْدَتَيْنِ قَرِيبًا مِنَ السَّوَاءِ‏.‏
+  en: Narrated Al-Bara':The time taken by the Prophet (ﷺ) in prostrations, bowing, and the sitting interval between the two prostrations was about the same
+  tr: el-Berâ (r.a.) şöyle demiştir: "Nebi Sallallahu Aleyhi ve Sellem namaz kılarken secdelerde, rükûlarda ve iki secde arasındaki oturuşlarda neredeyse birbirine eşit olacak bir süre kadar beklerdi
+
+== ABUDAWUD:788  sahih=True by=Al-Albani|Muhammad Muhyi Al-Din Abdul Hamid|Zubair Ali Zai
+حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، وَأَحْمَدُ بْنُ مُحَمَّدٍ الْمَرْوَزِيُّ، وَابْنُ السَّرْحِ، قَالُوا حَدَّثَنَا سُفْيَانُ، عَنْ عَمْرٍو، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، - قَالَ قُتَيْبَةُ فِيهِ - عَنِ ابْنِ عَبَّاسٍ، قَالَ كَانَ النَّبِيُّ صلى الله عليه وسلم لاَ يَعْرِفُ فَصْلَ السُّورَةِ حَتَّى تُنَزَّلَ عَلَيْهِ ‏{‏ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ ‏}‏ ‏.‏ وَهَذَا لَفْظُ ابْنِ السَّرْحِ ‏.‏
+  en: Ibn Abbas said:The prophet (ﷺ) did not distinguish between the two surahs until the words “In the name of Allah, the Compassionate, the merciful” was revealed to him. These are the words of Ibn al-sarh
+  tr: İbn Abbas'dan; demiştir ki: Nebi (Sallallahu aleyhi ve Sellem) kendisine ininceye kadar surenin sona erdiğini bilemezdi. Bu, İbnu's-Serh'in (rivayetinin) metnidir
+
+== BUKHARI:5046  sahih=True by=Buhârî
+حَدَّثَنَا عَمْرُو بْنُ عَاصِمٍ، حَدَّثَنَا هَمَّامٌ، عَنْ قَتَادَةَ، قَالَ سُئِلَ أَنَسٌ كَيْفَ كَانَتْ قِرَاءَةُ النَّبِيِّ صلى الله عليه وسلم‏.‏ فَقَالَ كَانَتْ مَدًّا‏.‏ ثُمَّ قَرَأَ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ، يَمُدُّ بِبِسْمِ اللَّهِ، وَيَمُدُّ بِالرَّحْمَنِ، وَيَمُدُّ بِالرَّحِيمِ‏.‏
+  en: Narrated Qatada:Anas was asked, "How was the recitation (of the Qur'an) of the Prophet?' He replied, "It was characterized by the prolongation of certain sounds." He then recited: In the Name of Allah, the Most Beneficent, the Most Merciful prolonging the pronunciation of 'In the Name of Allah, 'the most Beneficent,' and 'the Most Merciful
+  tr: Katade'den şöyle dediği rivayet edilmiştir: "Enes'e 'Nebi Sallallahu Aleyhi ve Sellem nasıl Kur'an okurdu?' diye sordular. O da 'uzatılması gereken yerleri uzatarak okurdu' şeklinde cevap verdikten sonra besmeleyi okudu. بسم الله Bismillahi, الرحمن الرحيم iler-Rahman i ve iler-Rahim kelimelerini uzattı." Fethu'l-Bari Açıklaması: Kur'an okurken yapılan uzatma (med) iki türlüdür: a) Asli Med: Kendisinden sonra elif, vav ve ya harflerinden biri gelen harf, bir elif miktarı çekilerek okunur. b) Gayr-i Asli Med: Kendisinden sonra elif, vav ve ya harflerinden birinin geldiği, bunlardan sonra da hemzenin geldiği durumlarda söz konusu olan medde denir. Bu meddin, muttasıl ve munfasıl olmak üzere iki kısmı vardır. Eğer bu bahsettiğimiz durum, aynı k … [cut at 750 of 1219 characters]
+
+== NASAI:3049  sahih=True by=Abu Ghuddah|Al-Albani|Zubair Ali Zai
+أَخْبَرَنَا مُحَمَّدُ بْنُ آدَمَ بْنِ سُلَيْمَانَ، قَالَ حَدَّثَنَا عَبْدُ الرَّحِيمِ بْنُ سُلَيْمَانَ، عَنْ عُبَيْدِ اللَّهِ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ الْقَاسِمِ، عَنْ أَبِيهِ، عَنْ أُمِّ الْمُؤْمِنِينَ، عَائِشَةَ قَالَتْ وَدِدْتُ أَنِّي اسْتَأْذَنْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم كَمَا اسْتَأْذَنَتْهُ سَوْدَةُ فَصَلَّيْتُ الْفَجْرَ بِمِنًى قَبْلَ أَنْ يَأْتِيَ النَّاسُ وَكَانَتْ سَوْدَةُ امْرَأَةً ثَقِيلَةً ثَبِطَةً فَاسْتَأْذَنَتْ رَسُولَ اللَّهِ صلى الله عليه وسلم فَأَذِنَ لَهَا فَصَلَّتِ الْفَجْرَ بِمِنًى وَرَمَتْ قَبْلَ أَنْ يَأْتِيَ النَّاسُ ‏.‏
+  en: It was narrated that the Mother of the Belivers Aishah said:"I wished that I had asked the Messenger of Allah for permission as Sawdha did, so that I could pray Fajir in Mina before the people came. Sawdah was heavyset woman, so she asked the Messenger of Allah for permission, and he gave her permission to pray Fajir in Mina and stone the before the people came
+
+== ABUDAWUD:3202  sahih=True by=Al-Albani|Muhammad Muhyi Al-Din Abdul Hamid|Shuaib Al Arnaut|Zubair Ali Zai
+حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ إِبْرَاهِيمَ الدِّمَشْقِيُّ، حَدَّثَنَا الْوَلِيدُ، ح وَحَدَّثَنَا إِبْرَاهِيمُ بْنُ مُوسَى الرَّازِيُّ، أَخْبَرَنَا الْوَلِيدُ، - وَحَدِيثُ عَبْدِ الرَّحْمَنِ أَتَمُّ - حَدَّثَنَا مَرْوَانُ بْنُ جُنَاحٍ، عَنْ يُونُسَ بْنِ مَيْسَرَةَ بْنِ حَلْبَسٍ، عَنْ وَاثِلَةَ بْنِ الأَسْقَعِ، قَالَ صَلَّى بِنَا رَسُولُ اللَّهِ صلى الله عليه وسلم عَلَى رَجُلٍ مِنَ الْمُسْلِمِينَ فَسَمِعْتُهُ يَقُولُ ‏"‏ اللَّهُمَّ إِنَّ فُلاَنَ بْنَ فُلاَنٍ فِي ذِمَّتِكَ فَقِهِ فِتْنَةَ الْقَبْرِ ‏"‏ ‏.‏ قَالَ عَبْدُ الرَّحْمَنِ ‏"‏ فِي ذِمَّتِكَ وَحَبْلِ جِوَارِكَ فَقِهِ مِنْ فِتْنَةِ الْقَبْرِ وَعَذَابِ النَّارِ وَأَنْتَ أَهْلُ الْوَفَاءِ وَالْحَمْدِ اللَّهُمَّ فَاغْفِرْ لَهُ وَارْحَمْهُ إِنَّكَ أَنْتَ الْغَفُورُ الرَّحِيمُ ‏"‏ ‏.‏ قَالَ عَبْدُ الرَّحْمَنِ عَنْ مَرْوَانَ بْنِ جُنَاحٍ ‏.‏
+  en: Narrated Wathilah ibn al-Asqa': The Messenger of Allah (ﷺ) led us in prayer over bier of a Muslim and I heard him say: O Allah, so and so, son of so and so, is in Thy protection, so guard him from the trial in the grave. (AbdurRahman in his version said: "In Thy protection and in Thy nearer presence, so guard him from the trial in the grave) and the punishment in Hell. Thou art faithful and worthy of praise. O Allah, forgive him and show him mercy. Thou art the forgiving and the merciful one." AbdurRahman said: "On the authority of Marwan ibn Janah
+  tr: Vasile b. el-Eskâ'dan; demiştir ki: Rasûlullah (s.a.v.) bize müslümanlardan bir adam'ın cenaze namazını kıldırdı da onu (şu şekilde) dua ederken işittim: "Ey Allâh'ım! Falan'ın oğlu falan senin emanetindedir. Onu kabir sıkıntısından koru.” (Bu son cümleyi) Abdurrahman (Musannif Ebû Davud'a şu lafızlarla) rivayet etti: "Senin himayendedir ve selâmete götüren ipine sarılmıştır. Onu kabir sıkıntısından ve cehennem azabından koru, sen sözünü yerine getiren ve hainde lâyık olansın. Onu bağışla, ona acı. Çünkü sen affedici ve merhametlisin
+
+== MUSLIM:890  sahih=True by=Müslim
+حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ كِلاَهُمَا عَنْ غُنْدَرٍ، قَالَ ابْنُ الْمُثَنَّى حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، قَالَ سَمِعْتُ قَتَادَةَ، يُحَدِّثُ عَنْ أَنَسٍ، قَالَ صَلَّيْتُ مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم وَأَبِي بَكْرٍ وَعُمَرَ وَعُثْمَانَ فَلَمْ أَسْمَعْ أَحَدًا مِنْهُمْ يَقْرَأُ ‏{‏ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ‏}‏ ‏.‏
+  en: Anas reported:I observed prayer along with the Messenger of Allah (ﷺ) and with Abu Bakr, Umar and Uthman (may Allah be pleased with all of them), but I never heard any one of them reciting Bismillah-ir-Rahman-ir-Rahim loudly
+  tr: Bize Muhammed b. el-Müsennâ ile İbni Beşşâr ikisi birden Gunder'den rivayet ettiler. îbni'l Müsennâ Dediki: Bize Muhammed b. Ca'fer rivayet etti. (Dediki): Bize Şu'be rivayet etti. Dediki: Katade'yi Enes'den rivayet ederken dinledim. Enes: — Ben Resulullah (Sallallahu Aleyhi ve Sellem), Ebu Bekr, Ömer ve Osmanla birlikte namaz kıldım. Fakat bunların hiç birinin [ Bismillahi'r-Rahmani'r-Rahim ] okuduklarını işitmedim, demiş
+
+== IBNMAJAH:3597  sahih=True by=Al-Albani|Muhammad Fouad Abd al-Baqi|Shuaib Al Arnaut|Zubair Ali Zai
+حَدَّثَنَا أَبُو بَكْرٍ، حَدَّثَنَا عَبْدُ الرَّحِيمِ بْنُ سُلَيْمَانَ، عَنِ الإِفْرِيقِيِّ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ رَافِعٍ، عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو، قَالَ خَرَجَ عَلَيْنَا رَسُولُ اللَّهِ ـ صلى الله عليه وسلم ـ وَفِي إِحْدَى يَدَيْهِ ثَوْبٌ مِنْ حَرِيرٍ وَفِي الأُخْرَى ذَهَبٌ فَقَالَ ‏ "‏ إِنَّ هَذَيْنِ مُحَرَّمٌ عَلَى ذُكُورِ أُمَّتِي حِلٌّ لإِنَاثِهِمْ ‏"‏ ‏.‏
+  en: It was narrated that ‘Abdullah bin ‘Umar said:“The Messenger of Allah (ﷺ) came out to us, and in one of his hands was a garment of silk and in the other was some gold. He said: ‘These are forbidden to the males of my nation and permitted to the females.’”
+  tr: Abdullah bin Amr (bin el-Âs) (r.a.)'dan; Şöyle demiştir: Resulullah (Sallallahu Aleyhi ve Sellem) (bir gün) bir elinde ipekten bir elbise ve diğer elinde bir altın olduğu halde yanımıza çıktı ve: «Şüphesiz bu iki şey ümmetimin erkeklerine haram kılındı, kadınlarına helâldir», buyurdu. Not: Zevaİd'de şöyle denilmiştir: Bunun senedinde Abdurrahman bin Rafl bulunur. Kendisinden bir takım münker hadisler rivayet olunmuştur. İbn-i Hibbân: Onun hadisleri Abdurrahman bin Ziyâd bin En'am'ın rivayetinden olduğu zaman delil sayılmaz. Rivâyetlerindeki münkerlik râvi Abdurrahman bin Ziyad'dan dolayıdır, demiştir. Ebû Hâtera de: O, yani Abdurrahman bin Rafİ, hadisi münker olan bir şeyhtir, demiştir
+
+== MUSLIM:6117  sahih=True by=Müslim
+وَحَدَّثَنَاهُ أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَابْنُ أَبِي عُمَرَ، قَالاَ حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنِ الزُّهْرِيِّ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ عَبَّادٍ، حَدَّثَنَا سُفْيَانُ، قَالَ - أَحْفَظُهُ كَمَا أَحْفَظُ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ - الزُّهْرِيُّ عَنْ عَامِرِ بْنِ سَعْدٍ عَنْ أَبِيهِ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ "‏ أَعْظَمُ الْمُسْلِمِينَ فِي الْمُسْلِمِينَ جُرْمًا مَنْ سَأَلَ عَنْ أَمْرٍ لَمْ يُحَرَّمْ فَحُرِّمَ عَلَى النَّاسِ مِنْ أَجْلِ مَسْأَلَتِهِ ‏"‏ ‏.‏
+  en: This hadith has been transmitted on the authority of 'Amir b. Sa'd and the words are. Allah's Messenger (ﷺ) said:The greatest sinner of the Muslims amongst Muslims is one who asked about a certain thing which had not been prohibited and it was prohibited because of his asking about it
+  tr: Bize bu hadîsi Ebû Bekr b. Ebî Şeybe ile İbni Ebî Ömer de rivayet ettiler. (Dedilerki): Bize Süfyan b. Uyeyne, Zührî'den rivayet etti. H. Bize Muhammed b. Abbâd dahi rivayet etti. (Dediki): Bize Süfyân rivayet etti. (Dediki): Ben bunu besmeleyi ezberlediğim gibi bellemİşimdir. Zührî, Âmir b. Sa'd'dan, o da babasından naklen rivayet etti. (Şöyle demiş): Resulullah (Sallallahu Aleyhi ve Sellem): «Müslümanların müslümanlar hakkında en büyük suçlusu o kimsedir ki : Haram kılınmayan bir şeyi sorar da o sorduğu için insanlara o şey haram kılınır.» buyurdular
+
+== BUKHARI:7541  sahih=True by=Buhârî
+وَقَالَ ابْنُ عَبَّاسٍ أَخْبَرَنِي أَبُو سُفْيَانَ بْنُ حَرْبٍ، أَنَّ هِرَقْلَ، دَعَا تَرْجُمَانَهُ، ثُمَّ دَعَا بِكِتَابِ النَّبِيِّ صلى الله عليه وسلم فَقَرَأَهُ ‏"‏ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ مِنْ مُحَمَّدٍ عَبْدِ اللَّهِ وَرَسُولِهِ إِلَى هِرَقْلَ، وَ‏{‏يَا أَهْلَ الْكِتَابِ تَعَالَوْا إِلَى كَلِمَةٍ سَوَاءٍ بَيْنَنَا وَبَيْنَكُمْ ‏}‏‏"‏ الآيَةَ‏.‏
+  en: And Ibn 'Abbas narrated:Abu Sufyan bin Harb told me that Heraclius called for his translator and then asked for the letter of the Prophet (ﷺ), and the former read it (thus): "In the Name of Allah, the Most Gracious, the Merciful. (This letter is) from Muhammad bin 'Abdullah, to Heraclius. "...O people of the Scripture (Jews and Christians): Come to a word that is just between us and you that we worship none but Allah..." (V.3:)
+  tr: Süfyan b. Harb'ın nakline göre Bizans Kayser'i Herakleios kendi tercümanını çağırmış, sonra Nebi Sallallahu Aleyhi ve Sellem'in mektubunu istemiş ve onu okutmuştur. Mektupta şu ifadeleryer almaktaydı: "Bismillahirrahmanirrahim. AIlah'ın kulu ve Resulü Muhammed'den Herakleus'a! Ey ehl-i kitap! Sizinle bizim aramızda müşterek olan bir söze geliniz: Allah'tan başkasına tapmayalım; ona hiçbir şeyi eş tutmayalım ve Allah'ı bırakıp da kimimiz kimimizi ilahlaştırmasın. Eğer onlar yüz çevirirlerse, işte o zaman şahit olun ki biz Müslümanlarızi deyiniz. "(AI-i İmran)
+
+== MUSLIM:4632  sahih=True by=Müslim
+حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَفَّانُ، حَدَّثَنَا حَمَّادُ بْنُ سَلَمَةَ، عَنْ ثَابِتٍ، عَنْ أَنَسٍ، أَنَّ قُرَيْشًا، صَالَحُوا النَّبِيَّ صلى الله عليه وسلم فِيهِمْ سُهَيْلُ بْنُ عَمْرٍو فَقَالَ النَّبِيُّ صلى الله عليه وسلم لِعَلِيٍّ ‏"‏ اكْتُبْ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ ‏"‏ ‏.‏ قَالَ سُهَيْلٌ أَمَّا بِاسْمِ اللَّهِ فَمَا نَدْرِي مَا بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ وَلَكِنِ اكْتُبْ مَا نَعْرِفُ بِاسْمِكَ اللَّهُمَّ فَقَالَ ‏"‏ اكْتُبْ مِنْ مُحَمَّدٍ رَسُولِ اللَّهِ ‏"‏ ‏.‏ قَالُوا لَوْ عَلِمْنَا أَنَّكَ رَسُولُ اللَّهِ لاَتَّبَعْنَاكَ وَلَكِنِ اكْتُبِ اسْمَكَ وَاسْمَ أَبِيكَ ‏.‏ فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏"‏ اكْتُبْ مِنْ مُحَمَّدِ بْنِ عَبْدِ اللَّهِ ‏"‏ ‏.‏ فَاشْتَرَطُوا عَلَى النَّبِيِّ صلى الله عليه وسلم أَنَّ مَنْ جَاءَ مِنْكُمْ لَمْ نَرُدَّهُ عَلَيْكُمْ وَمَنْ جَاءَكُمْ مِنَّا رَدَدْتُمُوهُ عَلَيْنَا فَقَالُوا يَا رَسُولَ اللَّهِ أَنَكْتُبُ هَذَا قَالَ ‏"‏ نَعَمْ إِنَّهُ مَنْ ذَهَبَ مِنَّا إِلَيْهِمْ فَأَبْعَدَهُ اللَّهُ وَمَنْ جَاءَنَا مِنْهُمْ سَيَجْعَلُ اللَّهُ لَهُ فَرَجًا وَمَخْرَجًا ‏"‏ ‏.‏
+  en: It has been narrated on the authority of Anas that the Quraish made peace with the Prophet (ﷺ). Among them was Suhail b. Amr. The Prophet (ﷺ) said to 'Ali:Write" In the name of Allah, most Gracious and most Merciful." Suhail said: As for" Bismillah," we do not know what is meant by" Bismillah-ir-Rahman-ir-Rahim" (In the name of Allah most Gracious and most Merciful). But write what we understand, i. e. Bi ismika allahumma (in thy name. O Allah). Then, the Prophet (ﷺ) said: Write:" From Muhammad, the Messenger of Allah." They said: If we knew that thou welt the Messenger of Allah, we would follow you. Therefore, write your name and the name of your father. So the Prophet (ﷺ) said: Write" From Muhammad b. 'Abdullah." They laid the condition o … [cut at 750 of 1180 characters]
+  tr: Bize Ebû Bekir b. Ebi Şeybe rivayet etti. (Dediki): Bize Affân rivayet etti. (Dediki): Bize Hammâd b. Seleme, Sabit'den, o da Enes'den naklen rivayet etti ki, Kureyş, içlerinde Süheyl b. Amr olduğu halde Nebi (Sallallahu Aleyhi ve Sellem)'le sulh yapmışlar. Bunun üzerine Nebi (Sallallahu Aleyhi ve Sellem) Alî1'ye ; «Besmeleyi yaz!» buyurmuş. Süheyl: — Bismillâha gelince: Biz besmelenin ne olduğunu bilmiyoruz. Lâkin sen bizim bildiğimiz «Senin adınla Allahım!» İbaresini yaz! demiş. Sonra Peygamber (Sallallahu Aleyhi ve Sellem): «Allah'ın Resulü Muhammed'den yaz!» buyurmuş. Müşrikler: — Biz senin Resûlullah olduğunu bilsek sana tâbi' olurduk! Lâkin sen kendi isminle babanın ismini yaz! demişler. Bunun üzerine Peygamber (Sallallahu Aleyhi ve S … [cut at 750 of 1200 characters]
+
+== BUKHARI:3985  sahih=True by=Buhârî
+حَدَّثَنِي مُحَمَّدُ بْنُ عَبْدِ الرَّحِيمِ، حَدَّثَنَا أَبُو أَحْمَدَ الزُّبَيْرِيُّ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ الْغَسِيلِ، عَنْ حَمْزَةَ بْنِ أَبِي أُسَيْدٍ، وَالْمُنْذِرِ بْنِ أَبِي أُسَيْدٍ، عَنْ أَبِي أُسَيْدٍ ـ رضى الله عنه ـ قَالَ قَالَ لَنَا رَسُولُ اللَّهِ صلى الله عليه وسلم يَوْمَ بَدْرٍ ‏ "‏ إِذَا أَكْثَبُوكُمْ ـ يَعْنِي كَثَرُوكُمْ ـ فَارْمُوهُمْ، وَاسْتَبْقُوا نَبْلَكُمْ ‏"‏‏.‏
+  en: Narrated Abu Usaid:On the day of (the battle of) Badr, Allah's Messenger (ﷺ) said to us, "When your enemy comes near to you (i.e. overcomes you by sheer number), shoot at them but use your arrows sparingly
+  tr: Ebu Esid r.a. dedi ki: "Bedir günü Resulullah Sallallahu Aleyhi ve Sellem bize, size çokça yaklaştıkları vakit -yani yanınıza çok yakın geldiklerinde- onlara atınız ve oklarınızı rastgele atarak bitirmeyiniz, diye buyurdu." Fethu'l-Bari Açıklaması: "Onlara atınız ve oklarınızı rastgele atarak bitirmeyiniz." ed-Davudı dedi ki: "Onlara atınız" buyruğu, onlara taş atınız demektir .. Çünkü bir topluluğa taş atıldığı takdirde hemen hemen hiçbir taş boşa gitmez. Allah Resulünün: "Oklarınızı rastgele kullanıp, bitirmeyiniz" buyruğu da şu demektir: Yani karşılıklı çatışma oluncaya kadar ok atmayınız. ed-Davudı böyle derken başkası da: Yani onlara oklarınızın bir kısmını atınız. Hepsini kullanmayınız, demiştir. Bana görede kuwetli olan görüşAllah Re … [cut at 750 of 1272 characters]
+
+== IBNMAJAH:3784  sahih=True by=Al-Albani|Muhammad Fouad Abd al-Baqi|Shuaib Al Arnaut|Zubair Ali Zai
+حَدَّثَنَا أَبُو مَرْوَانَ، مُحَمَّدُ بْنُ عُثْمَانَ الْعُثْمَانِيُّ حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ أَبِي حَازِمٍ، عَنِ الْعَلاَءِ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ ـ صلى الله عليه وسلم ـ يَقُولُ ‏"‏ قَالَ اللَّهُ عَزَّ وَجَلَّ قَسَمْتُ الصَّلاَةَ بَيْنِي وَبَيْنَ عَبْدِي شَطْرَيْنِ فَنِصْفُهَا لِي وَنِصْفُهَا لِعَبْدِي وَلِعَبْدِي مَا سَأَلَ ‏"‏ ‏.‏ قَالَ فَقَالَ رَسُولُ اللَّهِ ـ صلى الله عليه وسلم ـ ‏"‏ اقْرَءُوا يَقُولُ الْعَبْدُ ‏{الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ}‏ فَيَقُولُ اللَّهُ عَزَّ وَجَلَّ حَمِدَنِي عَبْدِي وَلِعَبْدِي مَا سَأَلَ ‏.‏ فَيَقُولُ ‏{الرَّحْمَنِ الرَّحِيمِ}‏ فَيَقُولُ أَثْنَى عَلَىَّ عَبْدِي وَلِعَبْدِي مَا سَأَلَ ‏.‏ يَقُولُ ‏{مَالِكِ يَوْمِ الدِّينِ }‏ فَيَقُولُ اللَّهُ مَجَّدَنِي عَبْدِي فَهَذَا لِي وَهَذِهِ الآيَةُ بَيْنِي وَبَيْنَ عَبْدِي نِصْفَيْنِ يَقُولُ الْعَبْدُ ‏{إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ}‏ يَعْنِي فَهَذِهِ بَيْنِي وَبَيْنَ عَبْدِي وَلِعَبْدِي مَا سَأَلَ وَآخِرُ السُّورَةِ لِعَبْدِي يَقُولُ الْعَبْدُ ‏{اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ * صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلاَ الضَّالِّينَ}‏ فَهَذَا لِعَبْدِي وَلِعَبْدِي مَا سَأَلَ ‏"‏ ‏.‏
+  en: It was narrated that Abu Hurairah said, 'I heard the Messenger of Allah(ﷺ) say':"Allah said: 'I have divided the prayer between Myself and My slave into two halves, and My slave shall have what he has asked for.'When the slave says: 'Al-hamdulillah i rabbil Alameen (All the praise is to Allah, the Lord of all that exists),' Allah says:'My slave has praised Me, and My slave shall have what he has asked for.' And when he says: 'Ar-Rahmanir-Rahim (The Mos Gracious, the Most Merciful),' Allah says: 'My slave has extolled Me, and My slave shall have what he has asked for.' And when he says: 'Maliki yawmiddin [The Only Owner (and he Ruling Judge] if the Day of Recompense],' Allahs says: 'My slave has Glorified Me. This is for Me, and this Verse i … [cut at 750 of 1371 characters]
+  tr: Ebu Hureyre (r.a.)'den rivayet edildiğine göre; Resulullah (Sallallahu Aleyhi ve Sellem)'den şu buyruğu işittim, demiştir: «Allah (Azze ve Celle) buyurdu ki: Ben salâtı (yâni Fatiha suresini) kendim ile kulum arasında ikiye taksim ettim ve kuluma istediğini veririm.» Ebû Hureyre demiştir ki: Sonra Resulullah (Sallallahu Aleyhi ve Sellem) şöyle buyurdu: «(Fatiha'yı) okuyunuz: Kul; الْحَمْدُ للهِ رَبِّ الْعَالَمِينَ = "El-Hamdu lillahi Rabbi’l-Alemin (Hamd sadece ve sadece alemlerin Rabbi olan Allah’a aittir)" der. Bunun üzerine Allah (Azze ve Celle)): Kulum bana hamdetti ve kuluma istediğini veririm, buyurur. Sonra kul: الرَّحْمنِ الرَّحِيمِ = "er-Rahmani’r-Rahim (Rahman ve Rahimdir)" der. Bunun üzerine Allah: Kulum bana sena etti, kuluma di … [cut at 750 of 1897 characters]
+
+== NASAI:904  sahih=True by=Abu Ghuddah|Al-Albani|Zubair Ali Zai
+أَخْبَرَنَا عَلِيُّ بْنُ حُجْرٍ، قَالَ حَدَّثَنَا عَلِيُّ بْنُ مُسْهِرٍ، عَنِ الْمُخْتَارِ بْنِ فُلْفُلٍ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ بَيْنَمَا ذَاتَ يَوْمٍ بَيْنَ أَظْهُرِنَا - يُرِيدُ النَّبِيَّ صلى الله عليه وسلم - إِذْ أَغْفَى إِغْفَاءَةً ثُمَّ رَفَعَ رَأْسَهُ مُتَبَسِّمًا فَقُلْنَا لَهُ مَا أَضْحَكَكَ يَا رَسُولَ اللَّهِ قَالَ ‏"‏ نَزَلَتْ عَلَىَّ آنِفًا سُورَةُ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ ‏{‏ إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ * فَصَلِّ لِرَبِّكَ وَانْحَرْ * إِنَّ شَانِئَكَ هُوَ الأَبْتَرُ ‏}‏ ‏"‏ ‏.‏ ثُمَّ قَالَ ‏"‏ هَلْ تَدْرُونَ مَا الْكَوْثَرُ ‏"‏ ‏.‏ قُلْنَا اللَّهُ وَرَسُولُهُ أَعْلَمُ ‏.‏ قَالَ ‏"‏ فَإِنَّهُ نَهْرٌ وَعَدَنِيهِ رَبِّي فِي الْجَنَّةِ آنِيَتُهُ أَكْثَرُ مِنْ عَدَدِ الْكَوَاكِبِ تَرِدُهُ عَلَىَّ أُمَّتِي فَيُخْتَلَجُ الْعَبْدُ مِنْهُمْ فَأَقُولُ يَا رَبِّ إِنَّهُ مِنْ أُمَّتِي ‏.‏ فَيَقُولُ لِي إِنَّكَ لاَ تَدْرِي مَا أَحْدَثَ بَعْدَكَ ‏"‏ ‏.‏
+  en: It was narrated that Anas in Malik said:"One day when he-the Prophet (ﷺ)- was still among us, he took a nap, then he raised his head, smiling. We said to him: 'Why are you smiling, O Messenger of Allah?' He said: 'Just now this Surah was revealed to me: In the Name of Allah, the Most Gracious, the Most Merciful. Verily, We have granted you (O Muahmmad) Al-Kawthar. Therefore turn in prayer to your Lord and sacrifice (to Him only). For he who hates you, he will be cut off.' Then he said: 'Do you know what Al-Kawthar is?' We said: 'Allah and His Messenger know best.' He said: 'It is a river that my Lord has promised me in Paradise. Its vessels are more than the number of the stars. My Ummah will come to me, then a man among them will be pulled … [cut at 750 of 875 characters]
+
+== ABUDAWUD:1589  sahih=True by=Al-Albani|Muhammad Muhyi Al-Din Abdul Hamid|Shuaib Al Arnaut|Zubair Ali Zai
+حَدَّثَنَا أَبُو كَامِلٍ، حَدَّثَنَا عَبْدُ الْوَاحِدِ يَعْنِي ابْنَ زِيَادٍ، ح وَحَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدُ الرَّحِيمِ بْنُ سُلَيْمَانَ، - وَهَذَا حَدِيثُ أَبِي كَامِلٍ - عَنْ مُحَمَّدِ بْنِ أَبِي إِسْمَاعِيلَ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ هِلاَلٍ الْعَبْسِيُّ، عَنْ جَرِيرِ بْنِ عَبْدِ اللَّهِ، قَالَ جَاءَ نَاسٌ - يَعْنِي مِنَ الأَعْرَابِ - إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالُوا إِنَّ نَاسًا مِنَ الْمُصَدِّقِينَ يَأْتُونَا فَيَظْلِمُونَا ‏.‏ قَالَ فَقَالَ ‏"‏ أَرْضُوا مُصَدِّقِيكُمْ ‏"‏ ‏.‏ قَالُوا يَا رَسُولَ اللَّهِ وَإِنْ ظَلَمُونَا قَالَ ‏"‏ أَرْضُوا مُصَدِّقِيكُمْ ‏"‏ ‏.‏ زَادَ عُثْمَانُ ‏"‏ وَإِنْ ظُلِمْتُمْ ‏"‏ ‏.‏ قَالَ أَبُو كَامِلٍ فِي حَدِيثِهِ قَالَ جَرِيرٌ مَا صَدَرَ عَنِّي مُصَدِّقٌ بَعْدَ مَا سَمِعْتُ هَذَا مِنْ رَسُولِ اللَّهِ صلى الله عليه وسلم إِلاَّ وَهُوَ عَنِّي رَاضٍ ‏.‏
+  en: Jabir bin ‘Abdallah told of some people, meaning nomadic Arabs, who came to the Messenger of Allah (ﷺ) and said Collectors of zakat come to us and act unjustly. He said please those who collect the sadaqah from you. They asked Even if they wrong us, Messenger of Allah? He replied Please those who collect sadaqah from you. The version of ‘Uthman adds “Even if you are wronged”. Abu Kamil said in this version “Jarir said No collector of zakat returned from me since I heard this from the Messenger of Allah(ﷺ), but he was pleased with me.”
+  tr: Cerîr b. Abdullah (r.a.)'dan; demiştir ki: Resûlullah (s.a.v.)'e -bedevilerden- bir takım insanlar gelerek: Zekât memurlarından bazı kimseler bize gelip zulmediyorlar, dediler. O (s.a.v.) da: "Zekât memurlarınızı memnun edin" buyurdu. Ya Resûlullah! Bize zulmetseler de mi? dediler. (Tekrar:) "Zekât memurlarınızı memnun edin" buyurdu. (Râvi) Osman: "... (Zanmnızca) zulmedüirseniz de" sözünü ilâve etmiştir. Ebû Kâmil, hadisinde dedi ki: Cerîr, "bunu Resûlullah (s.a.v.)'dan işittikten sonra hiç bir zekât memuru benden memnun olmadan ayrılmamıştır" dedi
+
+== MUSLIM:892  sahih=True by=Müslim
+حَدَّثَنَا مُحَمَّدُ بْنُ مِهْرَانَ الرَّازِيُّ، حَدَّثَنَا الْوَلِيدُ بْنُ مُسْلِمٍ، حَدَّثَنَا الأَوْزَاعِيُّ، عَنْ عَبْدَةَ، أَنَّ عُمَرَ بْنَ الْخَطَّابِ، كَانَ يَجْهَرُ بِهَؤُلاَءِ الْكَلِمَاتِ يَقُولُ سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ تَبَارَكَ اسْمُكَ وَتَعَالَى جَدُّكَ وَلاَ إِلَهَ غَيْرُكَ ‏.‏ وَعَنْ قَتَادَةَ أَنَّهُ كَتَبَ إِلَيْهِ يُخْبِرُهُ عَنْ أَنَسِ بْنِ مَالِكٍ أَنَّهُ حَدَّثَهُ قَالَ صَلَّيْتُ خَلْفَ النَّبِيِّ صلى الله عليه وسلم وَأَبِي بَكْرٍ وَعُمَرَ وَعُثْمَانَ فَكَانُوا يَسْتَفْتِحُونَ بِـ ‏{‏ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ‏}‏ لاَ يَذْكُرُونَ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ فِي أَوَّلِ قِرَاءَةٍ وَلاَ فِي آخِرِهَا ‏.‏
+  en: Abda reported:'Umar b. al-Khattab used to recite loudly these words: Subhanak Allahumma wa bi hamdika wa tabarakasmuka wa ta'ala jadduka wa la ilaha ghairuka [Glory to Thee,0 Allah, and Thine is the Praise, and Blessed is Thy Name. and Exalted is Thy Majesty. and there is no other object of worship beside Thee]. Qatada informed in writing that Anas b. Malik had narrated to him: I observed prayer behind the Messenger of Allah (ﷺ) and Abu Bakr and Umar and 'Uthman. They started (loud recitation) with: AI-hamdu lillahi Rabb al-'Alamin [All Praise is due to Allah, the Lord of the worlds] and did not recite Bismillah ir- Rahman-ir-Rahim (loudly) at the beginning of the recitation or at the end of it
+  tr: Bize Muhammed b. Mihrân er-Râzi rivayet etti. (Dediki): Bize Velîd b. Müslim rivayet etti. (Dediki): Bize Evzâî, Abde'den naklen rivayet ettiki: Ömerü'bnü'l Hattâb şu kelimeleri aşikâr okurmuş: Sübhaneka'llahumme ve bi hamdike ve tebarekesmuke ve teala ceedduke ve la ilehe ğayruke (Evzâî) Katâde'den de rivayet etmiş ki: Katâde kendisine Enes b. Mâlik'den naklen şu haberi yazmış: Enes Dediki: Nebi (Sallallahu Aleyhi ve Sellem) ile Ebu Bekr, Ömer ve Osman'ın arkasında namaz kıldım, bunların hepsi namaza El hamdu lillahi Rabbi'l Alemin ile başlarlar, kırâetin evvelinde ve âhirinde [ Bismillahi'r-Rahmani'r-Rahim ] söylemezlerdi
+
+== ABUDAWUD:5136  sahih=True by=Al-Albani|Muhammad Muhyi Al-Din Abdul Hamid|Zubair Ali Zai
+حَدَّثَنَا الْحَسَنُ بْنُ عَلِيٍّ، وَمُحَمَّدُ بْنُ يَحْيَى، قَالاَ حَدَّثَنَا عَبْدُ الرَّزَّاقِ، عَنْ مَعْمَرٍ، عَنِ الزُّهْرِيِّ، عَنْ عُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ بْنِ عُتْبَةَ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم كَتَبَ إِلَى هِرَقْلَ ‏"‏ مِنْ مُحَمَّدٍ رَسُولِ اللَّهِ إِلَى هِرَقْلَ عَظِيمِ الرُّومِ سَلاَمٌ عَلَى مَنِ اتَّبَعَ الْهُدَى ‏"‏ ‏.‏ قَالَ ابْنُ يَحْيَى عَنِ ابْنِ عَبَّاسٍ أَنَّ أَبَا سُفْيَانَ أَخْبَرَهُ قَالَ فَدَخَلْنَا عَلَى هِرَقْلَ فَأَجْلَسَنَا بَيْنَ يَدَيْهِ ثُمَّ دَعَا بِكِتَابِ رَسُولِ اللَّهِ صلى الله عليه وسلم فَإِذَا فِيهِ ‏"‏ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ مِنْ مُحَمَّدٍ رَسُولِ اللَّهِ إِلَى هِرَقْلَ عَظِيمِ الرُّومِ سَلاَمٌ عَلَى مَنِ اتَّبَعَ الْهُدَى أَمَّا بَعْدُ ‏"‏ ‏.‏
+  en: Narrated Abdullah ibn Abbas: The Prophet (ﷺ) wrote a letter to Heraclius: "From Muhammad, the Messenger of Allah, to Hiraql (Heraclius), Chief of the Byzantines. Peace be to those who follow the guidance." Ibn Yahya reported on the authority of Ibn Abbas that AbuSufyan said to him: We then came to see Hiraql (Heraclius) who seated us before him. He then called for the letter from the Messenger of Allah (ﷺ). Its contents were: "In the name of Allah, the Compassionate, the Merciful, from Muhammad the Messenger of Allah, to Hiraql, chief of Byzantines. Peace be to those who follow the guidance. To proceed
+  tr: İbn Abbâs'dan (rivayet edildiğine göre) Nebi (s.a.v.) Heraklius'a (gönderdiği mektupla ona selâmı şöyle) yazdı: "Allah'ın Resulünden Rum'un ulusu Herakl'e! Selam, hidayete uyan(lar)ın üzerine olsun" (Muhammed) İbn Yahya'nın Hz. İbn Abbas'dan rivayetine göre Hz. Ebû Süfyan O'na şöyle demiş: Biz Herakl'ın yanına girdik. Bizi önüne oturttu. Sonra Rasûlullah (s.a.v.)'in (kendisine göndermiş olduğu) mektubu istedi. Bir de baktık ki mektupta (şu sözler var)! "Rahman ve Rahim olan Allah'ın adıyla (başlarım)! "Rahman ve Rahim olan Allah'ın adıyla (başlarım)! Allah'ın Resulü Muhammed'den Rum'un ulusu Hirakl'e. Selam hidayete uyanların üzerine olsun. Gelelim mevzumuza
+
+== NASAI:909  sahih=True by=Abu Ghuddah|Al-Albani|Zubair Ali Zai
+أَخْبَرَنَا قُتَيْبَةُ، عَنْ مَالِكٍ، عَنِ الْعَلاَءِ بْنِ عَبْدِ الرَّحْمَنِ، أَنَّهُ سَمِعَ أَبَا السَّائِبِ، مَوْلَى هِشَامِ بْنِ زُهْرَةَ يَقُولُ سَمِعْتُ أَبَا هُرَيْرَةَ، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏"‏ مَنْ صَلَّى صَلاَةً لَمْ يَقْرَأْ فِيهَا بِأُمِّ الْقُرْآنِ فَهِيَ خِدَاجٌ هِيَ خِدَاجٌ هِيَ خِدَاجٌ ‏"‏ ‏.‏ غَيْرُ تَمَامٍ ‏.‏ فَقُلْتُ يَا أَبَا هُرَيْرَةَ إِنِّي أَحْيَانًا أَكُونُ وَرَاءَ الإِمَامِ ‏.‏ فَغَمَزَ ذِرَاعِي وَقَالَ اقْرَأْ بِهَا يَا فَارِسِيُّ فِي نَفْسِكَ فَإِنِّي سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏"‏ يَقُولُ اللَّهُ عَزَّ وَجَلَّ قَسَمْتُ الصَّلاَةَ بَيْنِي وَبَيْنَ عَبْدِي نِصْفَيْنِ فَنِصْفُهَا لِي وَنِصْفُهَا لِعَبْدِي وَلِعَبْدِي مَا سَأَلَ ‏"‏ ‏.‏ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏"‏ اقْرَءُوا يَقُولُ الْعَبْدُ ‏{‏ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ ‏}‏ يَقُولُ اللَّهُ عَزَّ وَجَلَّ حَمِدَنِي عَبْدِي ‏.‏ يَقُولُ الْعَبْدُ ‏{‏ الرَّحْمَنِ الرَّحِيمِ ‏}‏ يَقُولُ اللَّهُ عَزَّ وَجَلَّ أَثْنَى عَلَىَّ عَبْدِي ‏.‏ يَقُولُ الْعَبْدُ ‏{‏ مَالِكِ يَوْمِ الدِّينِ ‏}‏ يَقُولُ اللَّهُ عَزَّ وَجَلَّ مَجَّدَنِي عَبْدِي ‏.‏ يَقُولُ الْعَبْدُ ‏{‏ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ ‏}‏ فَهَذِهِ الآيَةُ بَيْنِي وَبَيْنَ عَبْدِي وَلِعَبْدِي مَا سَأَلَ ‏.‏ يَقُولُ الْعَبْدُ ‏{‏ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ * صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلاَ الضَّالِّينَ ‏}‏ فَهَؤُلاَءِ لِعَبْدِي وَلِعَبْدِي مَا سَأَلَ ‏"‏ ‏.‏
+  en: Abu As-Sa'ib- the freed slave of Hisham bin Zuhrah-said:"I heard Abu Hurairah say: 'The Messenger of Allah (ﷺ) said: "Whoever offers a prayer in which he does not recite Umm Al-Quran (Al Fatihah), it is deficient, it is deficient, it is deficient, incomplete." I (Abu As-Sa'ib) said: 'O Abu Hurairah, sometimes I am behind the Imam.' He poked me in the arm and said: 'Recite it to yourself, O Persian! For I heard the Messenger of Allah (ﷺ) say: "Allah says: "I have divided prayer between Myself and My slave into two halves, and My slave shall have what he has asked for.'" The Messenger of Allah (ﷺ) said: "Recite, for when the slave says: All the praises and thanks be to Allah, the Lord of all that exists, Allah says: 'My slave has praised Me.' … [cut at 750 of 1452 characters]
+
+== TIRMIDHI:2953  sahih=True by=Ahmad Muhammad Shakir|Al-Albani|Zubair Ali Zai
+حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ مُحَمَّدٍ، عَنِ الْعَلاَءِ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏"‏ مَنْ صَلَّى صَلاَةً لَمْ يَقْرَأْ فِيهَا بِأُمِّ الْقُرْآنِ فَهِيَ خِدَاجٌ فَهِيَ خِدَاجٌ غَيْرُ تَمَامٍ ‏"‏ ‏.‏ قَالَ قُلْتُ يَا أَبَا هُرَيْرَةَ إِنِّي أَحْيَانًا أَكُونُ وَرَاءَ الإِمَامِ ‏.‏ قَالَ يَا ابْنَ الْفَارِسِيِّ فَاقْرَأْهَا فِي نَفْسِكَ فَإِنِّي سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏"‏ قَالَ اللَّهُ تَعَالَى قَسَمْتُ الصَّلاَةَ بَيْنِي وَبَيْنَ عَبْدِي نِصْفَيْنِ فَنِصْفُهَا لِي وَنِصْفُهَا لِعَبْدِي وَلِعَبْدِي مَا سَأَلَ يَقُومُ الْعَبْدُ فَيَقْرَأُ ‏:‏ ‏(‏الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ ‏)‏ فَيَقُولُ اللَّهُ حَمِدَنِي عَبْدِي فَيَقُولُ ‏:‏ ‏(‏الرَّحْمَنِ الرَّحِيمِ ‏)‏ فَيَقُولُ اللَّهُ أَثْنَى عَلَىَّ عَبْدِي فَيَقُولُ ‏:‏ ‏(‏ مَالِكِ يَوْمِ الدِّينِ ‏)‏ فَيَقُولُ مَجَّدَنِي عَبْدِي وَهَذَا لِي وَبَيْنِي وَبَيْنَ عَبْدِي ‏:‏ ‏(‏إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ ‏)‏ وَآخِرُ السُّورَةِ لِعَبْدِي وَلِعَبْدِي مَا سَأَلَ يَقُولُ ‏:‏ ‏(‏اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ * صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلاَ الضَّالِّينَ ‏)‏ ‏"‏ ‏.‏ قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ ‏.‏ وَقَدْ رَوَى شُعْبَةُ وَإِسْمَاعِيلُ بْنُ جَعْفَرٍ وَغَيْرُ وَاحِدٍ عَنِ الْعَلاَءِ بْنِ عَبْدِ الرَّحْمَنِ عَنْ أَبِيهِ عَنْ أَبِي هُرَيْرَةَ عَنِ النَّبِيِّ صلى الله عليه وسلم نَحْوَ هَذَا الْحَدِيثِ ‏.‏ وَرَوَى ابْنُ جُرَيْجٍ وَ … [cut at 1500 of 2623 characters]
+  en: Narrated Al-'Ala bin 'Abdur-Rahman:from his father, from Abu Hurairah that the Messenger of Allah (ﷺ) said: "Whoever performs a Salat in which he does not recite Umm Al-Qur'an in it, then it is aborted, it is aborted, not complete." He Said: "I said: 'O Abu Hurairah! Sometimes I am behind an Imam.' He said: 'O Ibn Al-Farisi! Then recite it to yourself. For indeed I heard the Messenger of Allah (ﷺ) saying: Allah, the Most High said: "I have divided the Salat between Myself and My slaves into two halves. Half of it is for Me, and half of it for My slave, and My slave shall have what he asks for. My slave stands and says: All praise is due to Allah, the Lord of All that exists." So Allah, Blessed is He and Most High says: "My slave has express … [cut at 750 of 1814 characters]
+  tr: Ebû Hüreyre (radıyallahü anh)’den rivâyete göre, Rasûlüllah (sallallahü aleyhi ve sellem) şöyle buyurdu: “Kim bir namaz kılar da o namazda Fatiha sûresini okumazsa o namaz eksiklir o namaz noksandır. O namaz tam değildir.” Abdurrahman diyor ki: Ey Ebû Hüreyre dedim bazen imamın arkasında oluyorum (ne yapmalıyım?) Ebû Hüreyre şöyle cevap verdi: Ey Farisi oğlu Fatihayı içinden oku Rasûlüllah (sallallahü aleyhi ve sellem)’den şöyle buyurduğunu işittim Allah şöyle buyurdu: Namazı kulumla kendi aramda iki eşit kısma ayırdım yarısı benim yarısı da kulum içindir. Kulum istediğine erişecektir. Kul: “Elhamdü lillahi Rabbil alemîn” der. Allah’ta kulum bana hamdetti buyurur. Kul: “Errrahmanirrahîm” der. Allah’ta: Kulum beni övdü, der. Kul: “Maliki yev … [cut at 750 of 1418 characters]
+
+== BUKHARI:6260  sahih=True by=Buhârî
+حَدَّثَنَا مُحَمَّدُ بْنُ مُقَاتِلٍ أَبُو الْحَسَنِ، أَخْبَرَنَا عَبْدُ اللَّهِ، أَخْبَرَنَا يُونُسُ، عَنِ الزُّهْرِيِّ، قَالَ أَخْبَرَنِي عُبَيْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ بْنِ عُتْبَةَ، أَنَّ ابْنَ عَبَّاسٍ، أَخْبَرَهُ أَنَّ أَبَا سُفْيَانَ بْنَ حَرْبٍ أَخْبَرَهُ أَنَّ هِرَقْلَ أَرْسَلَ إِلَيْهِ فِي نَفَرٍ مِنْ قُرَيْشٍ وَكَانُوا تِجَارًا بِالشَّأْمِ، فَأَتَوْهُ فَذَكَرَ الْحَدِيثَ قَالَ ثُمَّ دَعَا بِكِتَابِ رَسُولِ اللَّهِ صلى الله عليه وسلم فَقُرِئَ فَإِذَا فِيهِ ‏ "‏ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ، مِنْ مُحَمَّدٍ عَبْدِ اللَّهِ وَرَسُولِهِ إِلَى هِرَقْلَ عَظِيمِ الرُّومِ، السَّلاَمُ عَلَى مَنِ اتَّبَعَ الْهُدَى، أَمَّا بَعْدُ ‏"‏‏.‏
+  en: Narrated Abu Sufyan bin Harb:that Heraclius had sent for him to come along with a group of the Quraish who were trading in Sha'm, and they came to him. Then Abu Sufyan mentioned the whole narration and said, "Heraclius asked for the letter of Allah's Messenger (ﷺ) . When the letter was read, its contents were as follows: 'In the name of Allah, the Beneficent, the Merciful. From Muhammad, Allah's slave and His Apostle to Heraclius, the Chief of Byzantines: Peace be upon him who follows the right path (guidance)! Amma ba'du (to proceed )...' (See Hadith No 6, Vol 1 for details)
+  tr: Ebu Süfyan İbn Harb'den rivayete göre; "Hirakl (Heraklius) Kureyş'ten birkaç kişi ile birlikte iken ona bir elçi göndermişti. -O sırada Şam'da tüccar olarak bulunuyorlardı.- Arkadaşlarıyla beraber Heraklius'un yanına gittiler -deyip hadisi zikretti.- Ebu Süfyan dedi ki: Sonra Rasulullah Sallallahu Aleyhi ve Sellem'in mektubunun getirilmesini istedi ve mektup getirilip okundu. Mektupta şu yazılı idi: "Rahman, Rahim Allah'ın adı ile. Allah'ın kulu ve Rasulü Muhammed'den Rumiarın (Bizanslıların) büyüğü Heraklius'e. Selam hidayete tabi olanlara. Emma ba'du., ,II Fethu'l-Bari Açıklaması: "Kitap ehline nasıl mektup yazılır?" Buhari bu başlık altında Ebu Süfyan'ın, Heraklius ile ilgili olayı anlatan hadisinin bir bölümünü zikretmektedir. Hadisin b … [cut at 750 of 1465 characters]
+
+
+===== READINGS whose text holds the ayah's words (exact search, 20 shown, each cut at 1500) =====
+
+== IBNJINNI-MUHTASAB:v1p5  page=v1p5
+بسم الله الرحمن الرحيم
+
+== FARISI-HUJJA:v1p175  [سورة البقرة]  page=v1p175
+بسم الله الرحمن الرحيم
+
+== FARISI-HUJJA:v2p5  [البقرة]  page=v2p5
+]
+بسم الله الرحمن الرحيم استعنت بالله
+
+== FARISI-HUJJA:v3p5  [البقرة: 284]  page=v3p5
+بسم الله الرحمن الرحيم
+ذكر اختلافهم في
+
+== FARISI-HUJJA:v3p118#2  [[سورة النساء]]  page=v3p118
+بسم الله الرحمن الرحيم ذكر اختلافهم في سورة النساء
+
+== FARISI-HUJJA:v6p65  [الصافات: 153، 152]  page=v6p65
+سيقولون ثلاثة رابعهم كلبهم [الكهف/ 22] ونحو ذلك مما حذف حرف العطف فيه لالتباس الثانية بالأولى.
+بسم الله الرحمن الرحيم
+ذكر اختلافهم في
+
+== IBNJINNI-MUHTASAB:v2p323  [سورة التغابن]  page=v2p323
+بسم الله الرحمن الرحيم
+قرأ: "يهدأ قلبه1"، مهموزا - عكرمة وعمرو بن دينار.
+قال أبو الفتح: أي: يطمئن قلبه، كما قال: {إلا من أكره وقلبه مطمئن بالأيمان 2} .
+
+== IBNJINNI-MUHTASAB:v2p363  [سورة الشمس]  page=v2p363
+بسم الله الرحمن الرحيم
+قرأ: "بطغواها1" - الحسن.
+قال أبو الفتح: هذا مصدر على فعلى، كأخواته من: الرجعى، والحسنى، والبؤسى والنعمى. وعليه ما حكاه أبو الحسن من قراءة بعضهم: "وقولوا للناس حسنى2" كقولك: عرفا3.
+
+== IBNJINNI-MUHTASAB:v2p374  [سورة أرأيت]  page=v2p374
+بسم الله الرحمن الرحيم
+أبو رجاء: "الذي يدع اليتيم1".
+قال أبو الفتح: معناه -والله أعلم- يعرض عنه ويجفوه، فهو صائر إلى معنى القراءة العامة: {يدع اليتيم} ، أي: يدفعه، ويجفوه عليه.
+سورة الكوثر:
+لا شيء فيها
+سورة الكافرون: 2
+كذلك
+سورة النصر: 3
+كذلك
+
+== IBNKHALAWAYH-HUJJA:v1p373#2  [سورة والليل لا]  page=v1p373
+خلاف فيها الا الامالة والتفخيم
+قوله تعالى ﴿ والضحى ﴾ قسم وكان ابن كثير يكبر من اول هذه السورة إلى ان يختم فيقول اذا انقضت السورة الله اكبر بسم الله الرحمن الرحيم إلى آخر القرآن يختم وحجته في ذلك ان النبي صلى الله عليه وسلم كان يفعل ذلك
+ووجهه ان الوحي ابطأ عنه اربعين صباحا فقال كفار قريش ومنافقوها قلاه ربه وودعه الناموس فأهبط الله عز وجل عليه جبريل عليه السلام فقال له يا محمد السلام عليك فقال وعليك السلام فقال صلى الله عليه وسلم سرورا بموافاة جبريل وابطال قول المشركين الله اكبر فقال جبريل اقرأ بسم الله الرحمن الرحيم ﴿ والضحى والليل إذا سجى ما ودعك ربك وما قلى ﴾ ثم عدد عليه انعامه وذكره احسانه وادبه بأحسن الآداب $ ومن سورة العلق
+
+== FARISI-HUJJA:v3p441  [الانعام: 44]  page=v3p441
+قرأ ابن عامر وحده فتحنا عليهم* [الأنعام/ 44].
+مشددة، وقرأها الباقون مخففة .
+حجة التشديد مفتحة لهم الأبواب [ص/ 50]، وحجة التخفيف قوله :
+ما زلت أفتح أبوابا وأغلقها
+[انتهى بحمد الله الجزء الثالث من الكتاب ويتلوه في الجزء الرابع: اختلافهم في سورة الأعراف]
+بسم الله [الرحمن الرحيم عونك يا رب]
+ذكر اختلافهم في
+
+== IBNMUJAHID:v1p52  [بسم الله الرحمن الرحيم]  page=v1p52
+حدثني أبو القاسم بن الفضل المقرىء الرازي قال حدثنا أبو زرعة قال حدثنا عبد العزيز بن عمران قال حدثنا ابن وهب قال حدثني ابن لهيعة عن خالد بن أبي عمران عن عروة بن الزبير قال إنما قراءة القرآن سنة من السنن فاقرءوه كما أقرئتموه
+حدثنا أحمد بن الصقر قال حدثنا نصر بن علي قال حدثنا بكار ابن عبد الله قال حدثنا محمد بن عبد العزيز بن عمر بن عبد الرحمن بن عوف قال أخبرنا أبو الزناد عن خارجة بن زيد بن ثابت عن أبيه قال قراءة القرآن سنة
+
+== IBNJINNI-MUHTASAB:v2p375  [سورة تبت]  page=v2p375
+: 1
+بسم الله الرحمن الرحيم
+ابن مسعود: "ومريئته حمالة للحطب في جيدها حبل من مسد2".
+قال أبو الفتح: "حمالة" خبر عن "مريئته"، و"حبل": غليظ، ومنه قولهم: رجل حبل الوجه، أي: الغليظ بشرته. وحبل الرأس: أي قوى غليظ. وكذلك قوله: {حبل من مسد} ، أي: غليظ من ذلك. وقيل: المسد: سلسلة في النار. وقيل: المسد: ليف المقل.
+سورة الإخلاص: 3
+لا شيء فيها
+
+== IBNKHALAWAYH-HUJJA:v1p61  [الحجة في القراءات السبع اسم المؤلف الامام ابن خالويه]  page=v1p61
+بسم الله الرحمن الرحيم $ رب يسر
+الحمد لله الذي هدانا لهذا وما كنا لنهتدي لولا أن هدانا الله لقد جاءت رسل ربنا بالحق ومقال الصدق صلى الله عليهم أجمعين وعلى محمد خاتم النبيين وعلى آله الكرام الطيبين الأخيار الطاهرين وبعد فاني تدبرت قراءة الأئمة السبعة من أهل الأمصار الخمسة المعروفين بصحة النقل واتقان الحفظ المأمونين على تأدية الرواية
+
+== IBNJINNI-MUHTASAB:v2p321  [سورة الصف]  page=v2p321
+بسم الله الرحمن الرحيم
+قرأ طلحة: "وهو يدعى إلى الأسلام1".
+قال أبو الفتح: ظاهر هذا أن يقال: يدعى الإسلام، إلا أنه لما كان يدعى الإسلام: ينتسب إليه قال: يدعى إلى الإسلام، حملا على معناه، كقول الله "تعالى" {هل لك إلى أن تزكى 2،} وعادة الاستعمال: هل لك في كذا، لكنه لما كان معناه أدعوك إلى أن تزكى استعمل "إلى" هنا، تطاولا نحو المعنى. وقد تقدم هذا، وهو غور عظيم.
+
+== FARISI-HUJJA:v5p265  [الانبياء: 112]  page=v5p265
+اختلفوا في الياء والتاء من قوله تعالى: على ما تصفون [الأنبياء/ 112].
+فقرأ ابن عامر وحده: (على ما يصفون) بالياء في رواية ابن ذكوان، وفي رواية هشام بن عمار بالتاء. وقرأ الباقون بالتاء .
+والتاء على ما تكذبون به من ردكم إعادة الأموات، والياء على ما يصفون، يصف هؤلاء الكفار من كذبهم فيما يكذبون به من إحياء الأموات والبعث والنشور والجنة
+والنار .
+بسم الله الرحمن الرحيم وصلى الله على محمد
+ذكر اختلافهم في
+
+== IBNMUJAHID:v1p108  [بسم الله الرحمن الرحيم]  page=v1p108
+وأما إمالة الصاد إلى الزاي فلأن الصاد وإن كانت من حروف الإطباق فهي مهموسة والطاء مجهورة فقلبت الصاد إلى حرف مجهور مثلها مؤاخ للصاد بالصفير ليكون مجهورا كالطاء
+وكذلك القول في ﴿ قصد ﴾ و ﴿ يصدر ﴾ و ﴿ يصدفون ﴾ من نحا بها نحو الزاي فلعلة الهمس والجهر
+3 - واختلفوا في قوله ﴿ عليهم ﴾
+فقرأ ﴿ عليهم ﴾ بضم الهاء حمزة وكذلك ﴿ إليهم ﴾ و ﴿ لديهم ﴾
+هذه الثلاثة الأحرف بالضم وإسكان الميم
+وقرأ الباقون ﴿ عليهم ﴾ وأخواتها بكسر الهاء
+
+== IBNJINNI-MUHTASAB:v2p364  [سورة الليل]  page=v2p364
+بسم الله الرحمن الرحيم
+قرأ: "والنهار إذا تجلى والذكر والأنثى" بغير "ما1" - النبي "صلى الله عليه وسلم" وعلي بن أبي طالب وابن مسعود وأبو الدرداء وابن عباس، رضي الله عنهم.
+قال أبو الفتح: في هذه القراءة شاهد لما أخبرنا به أبو بكر محمد بن الحسن عن أبي العباس أحمد بن يحيى من قراءة بعضهم: "وما خلق الذكر والأنثى"، وذلك أنه جره لكونه بدلا من "ما"، فقراءة النبي "صلى الله عليه وسلم" شاهد بذلك.
+
+== NASHR:v1p264  [الآخذين بالوصل]  page=v1p264
+بالسورة لا يلتزم بالوصل ألبتة، بل آخر السورة عنده كآخر آية، وأول السورة الأخرى كأول آية أخرى، فكما لا يلتزم له ولا لغيره وصل الآيات بعضهن ببعض كذا لا يلتزم له وصل السورة حتما، بل إن وصل فحسن وإن ترك فحسن.
+(قلت) : حجته في ذلك قول حمزة: القرآن عندي كسورة واحدة. فإذا قرأت (بسم الله الرحمن الرحيم) في أول فاتحة الكتاب أجزأني، ولا حجة في ذلك؛ فإن كلام حمزة يحمل على حالة الوصل لا الابتداء؛ لإجماع أهل النقل على ذلك، والله أعلم.
+(الرابع)
+
+== IBNKHALAWAYH-HUJJA:v1p365#2  [سورة المطففين أم]  page=v1p365
+قوله تعالى ﴿ بل ران على قلوبهم ﴾ اتفق القراء على ادغام اللام في الراء لقر بها منها في المخرج الا ما رواه حفص عن عاصم من وقوفه على اللام وقفه خفيفة ثم يبتديء ﴿ ران على قلوبهم ﴾ ليعلم بانفصال اللام من الراء وأن كل واحدة منهما كلمة بذاتها فرقا بين ما ينفصل من ذلك فيوقف عليه وبين ما يتصل فلا يوقف عليه كقولك ﴿ الرحمن الرحيم ﴾
+فاما الامالة فيه والتفخيم فقد ذكرت علل ذلك في عدة مواضع
+قوله تعالى ﴿ ختامه مسك ﴾ اجماع القراء فيه على كسر الخاء وكون التاء قبل
+
+
+===== SCHEMA_CARD.md =====
+
+# Schema 3.2 card for the Islamic-literature pass (generated from schema.json; the full reference, with the Bible pass, is SCHEMA.md)
+
+Record = one JSON object per line in annotations.jsonl. Required in every record: id, tur, ayet, islev, iliski, durum, kat, metin, kaynak, paragraf, capa (gelenek is added by the script).
+- id S<sss>-<KOD>-<NNN>; ayet "107:3" or "107:1-3" (several with |); kaynak = corpus locators, pipe-separated, or hafiza; metin one paragraph, at most 80 words (temel, ek) or 120 (arastirma).
+- paragraf = the [¶n] number of the page's prose paragraph; capa = at least three exact words of it (or of its v16 additions, the unnumbered `<!-- v16:augment … para=n -->` blocks under it in an ayah base).
+
+## tur (KOD; traditions; extra required fields)
+- tefsir_rivayet (TRV; islami): explanations of Companions/Successors as transmitted (Mujāhid, Muqātil, Ṭabarī's aqwāl, al-Durr al-manthūr)
+- tefsir_dirayet (TDR; islami): an exegete's own analysis: language, reasoning, theology (Zamakhsharī, Rāzī, Ibn ʿĀshūr, Elmalılı, Kur'an Yolu)
+- isari (ISR; islami): ishārī readings (Qushayrī, Sulamī, Tustarī, Bursevî); labelled as such, never as dirayet
+- nazm (NZM; islami): sequence, adjacency, surah unity, surah-to-surah relation; structural form (ring, symmetry, rhyme groups) with islev:yapi
+- nuzul (NZL; islami) + tarihsellik: Makkī/Madanī, revelation order and chronology lists (Itqān, Ibn ʿĀshūr; Nöldeke, Neuwirth reported beside them)
+- esbab (ESB; islami) + derece, tarihsellik: isnād-bearing occasion reports of any grade, each with derece and tarihsellik shown
+- hadis (HDS; islami) + derece: Prophetic hadith; sahih only (Bukhārī, Muslim, or sunan reports every named grader calls sahih)
+- kiraat (KRT; islami) + kiraat_turu: canonical and non-canonical readings and their linguistic justification (ḥujja)
+- lugat (LGT; islami) + sozluk: synchronic lexical evidence: senses, branches, the lexica's own wording and shawāhid
+- vucuh (VCH; islami) + guc, terim: the senses a word takes across the Qur'an, from the wujūh wa-naẓāʾir books (Muqātil, Dāmghānī, Ibn al-Jawzī) and the usage table
+- nahiv (NHV; islami): syntax, iʿrāb, morphology that bears on meaning
+- belagat (BLG; islami): rhetoric, majāz, imagery, iʿjāz theory (Zamakhsharī, Jurjānī, Asās)
+- ayet_ayet (AYT; islami) + guc: a Qur'anic passage that explains, extends or contrasts this one
+- anlam_tarihi (ANT; islami) + terim: diachronic change only: pre-Qur'anic → Qur'anic → later Arabic → Turkish loanword drift
+- tarihi_baglam (TBG; islami): sourced setting: sīra, Mecca, material culture, institutions
+- fikih (FKH; islami): legal readings; optional
+- kelam (KLM; islami): theological debate; optional
+- meal (MEL; islami) + kayip, mutercim, terim: how Turkish (and relay) translations render a term: what they keep, lose or add
+- modern (MDR; islami,tevrat,incil): modern Islamic and Western scholarship, kept apart from classical attestation
+- yenilik (YNL; islami) + guc, klasik_tanik, tarama, taranan: how far a finding of the base is attested, written only when no antecedent was found (klasik_tanik bulunamadi or yapitaslari); an attested finding carries klasik_tanik on its oncul block. At most one per paragraph; always kat:arastirma
+- elenen (ELN; islami,tevrat,incil) + guc: a connection considered and rejected, kept for audit
+- kaynak_notu (KNT; islami,tevrat,incil): source criticism: provenance, attribution, edition, isnād caveats
+- yontem (YNT; islami,tevrat,incil): a methodological limit or distinction the reader needs here
+- duzeltme (DZT; islami,tevrat,incil) + hata, taban: an error in the frozen base: wrong label, quotation, ayah number, fact or rendering; also logged to errata.jsonl
+
+## Values
+- islev: dayanak = the received contextual meaning; erken_tanik = an early attestation of an interpretation or sense; aciklama = clarifies wording, grammar, referent or a distinction; destek = independently supports a reading already on the page; oncul = a source that already states (part of) a finding of the base; itiraz = an argument that a reading of the base cannot hold here (grammar, near-synonymy, root identity, reading); not a mere preference; tercih = a source's stated preference among readings ("the correct view is X"); reported, not adjudicated; tasnif = a source lists several senses without choosing (Māwardī, Ibn al-Jawzī); ihtilaf = a genuine disagreement among sources; anlam_alani = several live senses of a word or expression; gelisim = how an interpretation or sense changed over time; sinir = what the ayah or a reading does not say; prevents an overreading; karsit = an opposite or counter-scene that sharpens the reading; sonuc = why a distinction matters for understanding; fazilet = reports on the merit of a surah or ayah; yapi = formal structure: ring, symmetry, rhyme groups, parallelism
+- iliski: dogrudan = the source explicitly treats this ayah or phrase (Bible pass: a text the scholarship reads as directly addressed by this ayah); tematik = same theme, not an explanation of this ayah; lafzi = linked through the same word, root or expression; yapisal = linked through position, sequence or form; karsilastirmali = a comparison across sources, readings or translations
+- durum: acik = stated in the cited source; aktarilan = the source transmits it; its truth is not established; tartismali = competing reports or positions; cikarim = inferred from evidence, not stated; yorum = an interpretive synthesis (the base's or the block's); degerlendirilmedi = not checked against a source; required for model memory
+- kat: temel = shown by default: what an advanced reader should see first at that point; ek = shown by default: supporting detail; arastirma = hidden by default (the reader opens it): audit trail, novelty detail, rejected candidates, technical source criticism
+- guc: dogrudan = direct support for the reading in context; guclu = a strongly illuminating link that is not the primary meaning; ikincil = a legitimate secondary resonance that keeps the primary meaning intact; zayif = possible but thinly constrained; reddedildi = considered and rejected
+- klasik_tanik: acik = the same connection is stated in a checked source; kismi = an important part is stated; the base adds the rest; yapitaslari = the ingredients are attested separately; the combination is not; bulunamadi = no parallel in the listed sources; never an absolute claim
+- tarama: dilim = only the per-ayah texts of this surah were searched; a negative result is weak; tam = whole-book texts were searched across the Qur'an
+- derece: sahih = sahih by the named authority; hasan = esbab only; zayif = esbab only; mevzu = esbab only; ihtilafli = esbab only; name the graders; degerlendirilmedi = esbab only; no grade found
+- tarihsellik: sabit = independently established; muhtemel = probable; belirsiz = uncertain; tartismali = competing reports
+- kiraat_turu: mutevatir = one of the canonical readings; sazz = a non-canonical reading; sahabe = a reading reported from a Companion's codex, often explanatory; belirsiz = standing not established
+- kayip: kelime = a different concept (ṣudūr rendered as kalp); eleman = a preposition, pronoun, number, emphasis, conjunction or voice the Turkish could have kept; aralik = several live senses narrowed to one; ekleme = the translator's own words presented as the text; kayma = a loanword whose Turkish sense has shifted (namaz, din, ibadet); isaretleme = brackets, italics or notes changed so an addition no longer looks like one; aktarma = a difference that comes from translating an intermediate text (Asad's English, Mawdudi's Urdu), not the Arabic
+- yon: kayip = the translation loses against the pole; kazanc = the translation recovers something against the pole
+- kiyas: arapca = judged against the Arabic; ara_metin = judged against the text it was translated from
+- hata: kaynak_etiketi = a wrong source or lexicon label; alinti = a misquoted text; ayet_no = a wrong reference; olgu = a factual error; ceviri = a wrong rendering of the Arabic
+
+## Also required
+- islev:oncul: guc
+
+## Optional fields
+- derece_veren: who grades it: Buhârî | Müslim for the Sahihayn, named graders for other books (as the corpus records them); empty only with derece:degerlendirilmedi
+- yon: loss or gain; a relay step can be both against different poles
+- kiyas: the pole a meal is judged against: the Arabic, or the intermediate text it was translated from
+- alim: named authority the block reports
+- ravi: transmitter of a report
+- koken: earliest traceable source of a report
+- tekrar: later works repeating the same report unchanged, pipe-separated IDs
+- gerekce: reason for a rejection or a grade
+- not: short technical note
+
+## Rules
+- hadis_sahih: tur:hadis requires derece:sahih and derece_veren naming Buhârî, Müslim or the graders recorded in the corpus; merit (fazilet) reports are hadith and follow the same rule; a weak Prophetic attribution of a sound Companion statement is reported as the Companion's (tefsir_rivayet)
+- hafiza: kaynak:hafiza (or a corpus source with access hafiza) requires durum:degerlendirilmedi; forbidden for tur hadis and nuzul, for derece, and for Turkish loanword history in anlam_tarihi
+- itiraz_vs_tercih: a source preferring another reading is islev:tercih; islev:itiraz needs an argument that the base's reading cannot hold here
+- yenilik_scope: klasik_tanik:bulunamadi with tarama:dilim must say in metin that only the per-ayah slice was searched
+- modern_dictionaries: modern Arabic dictionaries (VASIT, MUHIT, HANSWEHR) may be cited only in anlam_tarihi, as evidence of later drift
+- paragraf_zorunlu: every block names its prose paragraph (paragraf) and quotes at least three words of it (capa); it is rendered right after that paragraph; a block whose number and words do not match is dropped
+- gelenek_ayrimi: each block belongs to one gelenek and its tur must allow it. islami blocks cite no Bible, Jewish or Christian source (kind intertext); tevrat and incil blocks cite only sources of their own gelenek, plus the Qur'an text and modern scholarship. The passes run separately and never read each other's records
+- yenilik_tek: a separate yenilik block only when no antecedent was found, kat:arastirma, at most one per paragraph; an attested finding carries klasik_tanik/taranan/tarama on its oncul block
+- okuma_akisi: blocks are read right after their paragraph: no 'taban' in metin (say şerh or state the point), no closing disclaimers, each point once on the page, at most five blocks after one paragraph

@@ -1,0 +1,52 @@
+{
+ "surah": 1,
+ "target": "1:1",
+ "attempt": 1,
+ "brief": "zengin",
+ "model": "opus",
+ "model_id": "claude-opus-5-5",
+ "runner": "agent",
+ "effort": "high",
+ "trial": false,
+ "prompt_sha256": "f2a672442efb9d5e12239a6f1b22812a858ddb5e244180d57bb9bd8fd4b753e8",
+ "prompt_chars": 25528,
+ "base_sha256": "62bb496ee1b76077b173fd84202c2e137025cbb627c6fd1c1fd6d4d39685a3f3",
+ "base_words": 6255,
+ "pack_sha256": "92070e2517e0110b50ac4fb585031de05aa62d8dd06ff8d9424c0ac4a4afb16b",
+ "dictionary": {
+  "transfer_commit": "21725eaf30f479c0d832cc06c80d67c981bce298",
+  "dictionary_head": "21725eaf30f479c0d832cc06c80d67c981bce298",
+  "match": true,
+  "entries": 1704,
+  "branches": 11773
+ },
+ "started": "2026-10-04T21:33:37",
+ "output": "annotations.jsonl",
+ "returncode": 0,
+ "turn_completed": true,
+ "usage": {
+  "input_tokens": 176,
+  "cache_creation_input_tokens": 972873,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 972873,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "cache_read_input_tokens": 24752353,
+  "output_tokens": 1434
+ },
+ "cost_usd": 13.966718,
+ "cost_basis": "transcript tokens x agentrun.RATES",
+ "num_turns": 88,
+ "commands": 89,
+ "transcript": "/Users/ahmetrasit/.claude/projects/-Volumes-aro-projects-prose-generation/d0398853-1b16-4ad0-90ce-0863b7d39e3e/subagents/agent-a033c19d658a52f3f.jsonl",
+ "agent_id": "a033c19d658a52f3f",
+ "stop_reason": "end_turn",
+ "safety_stop": null,
+ "status": "ok",
+ "check": "ok",
+ "kept": 53,
+ "dropped": 0,
+ "warnings": 0,
+ "errata": 1,
+ "seconds": 2715
+}
