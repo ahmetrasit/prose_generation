@@ -45,6 +45,25 @@ class BuildSiteTests(unittest.TestCase):
             manifest = build.build(root, root / "site")
             self.assertEqual({e["version"] for e in manifest["entries"]}, {"v9", "v16"})
 
+    def test_final_enrichment_is_published_but_pending_placeholder_is_not(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            self.write(root, "_commentary/v16/out/1_1/DM.r13/augment.augment9.opus/1_1.reading.tr.md", "# v16 augment9")
+            self.write(root, "enrichment/v1/out/1/1-1enriched.md", "<!-- Enrichment pending. Target: 1:1. -->\n")
+            self.write(root, "enrichment/v1/out/1/1_enriched.md", '{type:hadith, priority:core, prose:"full enrichment", source:"X"}')
+            self.write(root, "enrichment/v2/schema.json", json.dumps({"fields":{},"enums":{}}))
+
+            manifest = build.build(root, root / "site")
+            enrich = [e for e in manifest["entries"] if e["family"] == "enrichment"]
+            self.assertEqual(len(enrich), 1)
+            self.assertEqual(enrich[0]["version"], "enrichment-v1")
+            self.assertEqual(enrich[0]["surah"], 1)
+            self.assertIsNone(enrich[0]["ayah"])
+            self.assertEqual(enrich[0]["scope"], "surah")
+            self.assertEqual(enrich[0]["variant"], "enriched surah")
+            self.assertTrue(any("augment9" in e["variant"] for e in manifest["entries"]))
+            self.assertEqual(manifest["format"], 2)
+
 
 if __name__ == "__main__":
     unittest.main()

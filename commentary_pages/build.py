@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""Build the public static commentary browser from repository outputs.
-
-The scanner is intentionally convention-based and read-only. It publishes prose outputs,
-not prompts, ledgers, logs, raw model responses, or workflow internals.
-"""
+"""Build the public static commentary browser from repository outputs."""
 from __future__ import annotations
 
 import argparse
@@ -13,13 +9,14 @@ import re
 import shutil
 from dataclasses import dataclass, asdict
 from pathlib import Path
-from typing import Iterable, Optional
+from typing import Optional
 
 VERSION_RE = re.compile(r"^v(?P<num>\d+(?:\.\d+)*)$", re.I)
 SURAH_DIR_RE = re.compile(r"^s0*(?P<s>\d{1,3})$", re.I)
 AYAH_RE = re.compile(r"(?<!\d)(?P<s>\d{1,3})[_:-](?P<a>\d{1,3})(?!\d)")
+ENRICHED_SURAH_RE = re.compile(r"^(?P<s>\d{1,3})_enriched\.md$", re.I)
+ENRICHED_AYAH_RE = re.compile(r"^(?P<s>\d{1,3})[-_](?P<a>\d{1,3})enriched\.md$", re.I)
 
-# Names that are prose by convention across the commentary generations.
 PROSE_NAME_PATTERNS = [
     re.compile(r"^commentary(?:\.tagged)?(?:\.[a-z]{2})?\.md$", re.I),
     re.compile(r"^surah(?:\.tagged)?(?:\.[a-z]{2})?\.md$", re.I),
@@ -29,7 +26,6 @@ PROSE_NAME_PATTERNS = [
     re.compile(r"^images\.md$", re.I),
 ]
 
-# Strong exclusions: never publish workflow internals even if their names contain prose-like words.
 EXCLUDED_PARTS = {
     "prompt", "prompts", "runbook", "design", "review", "reviews", "status",
     "logs", "log", "ledger", "raw", "check", "checks", "packet", "packets", "started",
@@ -83,14 +79,28 @@ def is_commentary_prose(path: Path) -> bool:
     name = path.name
     if any(p.match(name) for p in PROSE_NAME_PATTERNS):
         return True
-    # Future-proof fallback for versioned output trees: only accept clearly named final prose.
     low = name.lower()
     return ("reading" in low or low.startswith("commentary.")) and "prompt" not in low
+
+
+def is_pending_enrichment(path: Path) -> bool:
+    """Exclude scaffolds such as `<!-- Enrichment pending ... -->` from public output."""
+    try:
+        head = path.read_text(encoding="utf-8", errors="ignore")[:4096].lower()
+    except OSError:
+        return True
+    return "enrichment pending" in head or "enrichment_placeholder" in head
 
 
 def parse_location(path: Path) -> tuple[Optional[int], Optional[int]]:
     surah = None
     ayah = None
+    enriched_surah = ENRICHED_SURAH_RE.match(path.name)
+    if enriched_surah:
+        return int(enriched_surah.group("s")), None
+    enriched_ayah = ENRICHED_AYAH_RE.match(path.name)
+    if enriched_ayah:
+        return int(enriched_ayah.group("s")), int(enriched_ayah.group("a"))
     for part in path.parts:
         sm = SURAH_DIR_RE.match(part)
         if sm:
@@ -111,9 +121,12 @@ def variant_label(version: str, rel: Path) -> str:
     low_parts = [p.lower() for p in parts]
     name = rel.name.lower()
 
+    if ENRICHED_SURAH_RE.match(name) or name == "surah.md":
+        return "enriched surah"
+    if ENRICHED_AYAH_RE.match(name):
+        return "enriched ayah"
     for p in reversed(parts[:-1]):
-        pl = p.lower()
-        if pl.startswith("augment."):
+        if p.lower().startswith("augment."):
             return p
     output_flavor = next((p for p in parts if p.lower().startswith("out") and p.lower() != "out"), None)
     if "tagged" in name:
@@ -172,8 +185,6 @@ def scan_version_outputs(root: Path) -> list[tuple[str, Path, Path]]:
     for version_dir in versions:
         for path in version_dir.rglob("*.md"):
             rel = path.relative_to(version_dir)
-            # Only publish material that lives in an output/result/test tree. The prose-name
-            # whitelist below prevents prompts and intermediate support documents from leaking.
             containers = [part.lower() for part in rel.parts[:-1]]
             if not any(part.startswith("out") or part.startswith("result") or part in {"work", "experiments"} for part in containers):
                 continue
@@ -195,10 +206,17 @@ def scan_enrichment_outputs(root: Path) -> list[tuple[str, Path, Path]]:
         if not out.exists():
             continue
         for path in out.rglob("*.md"):
-            if is_excluded(path):
+            if is_excluded(path) or is_pending_enrichment(path):
                 continue
             rel = path.relative_to(version_dir)
-            if path.name.lower() == "surah.md" or AYAH_RE.search(path.name):
+            name = path.name.lower()
+            is_final_enrichment = (
+                name == "surah.md"
+                or ENRICHED_SURAH_RE.match(name)
+                or ENRICHED_AYAH_RE.match(name)
+                or AYAH_RE.search(path.name)
+            )
+            if is_final_enrichment:
                 found.append((f"enrichment-{version_dir.name}", rel, path))
     return found
 
@@ -282,10 +300,10 @@ def build(root: Path, output: Path) -> dict:
         if e.status == "failed":
             continue
         item = asdict(e)
-        item.pop("source_path", None)  # do not leak private repository layout into the public site
+        item.pop("source_path", None)
         public_entries.append(item)
     manifest = {
-        "format": 1,
+        "format": 2,
         "newest_commentary_version": newest or None,
         "entries": public_entries,
     }

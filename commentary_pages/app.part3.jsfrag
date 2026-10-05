@@ -19,7 +19,27 @@
     const s = Number(els.surah.value), p = els.passage.value;
     return manifest.entries.filter(e => e.surah === s && (p === 'surah' ? e.scope === 'surah' : e.ayah === Number(p)));
   }
-  function entryLabel(e) { return `${e.version} · ${e.variant} · ${e.status}${e.tagged ? ' · tagged' : ''}`; }
+  function outputRank(e) {
+    const variant = String(e.variant || '').toLowerCase();
+    if (e.family === 'enrichment') return 0;
+    if (variant.includes('augment.augment9')) return 1;
+    if (variant.includes('augment.')) return 2;
+    if (e.status === 'production') return 3;
+    if (e.status === 'current-base') return 4;
+    if (e.status === 'test') return 5;
+    return 6;
+  }
+  function orderedEntries() {
+    return [...matchingEntries()].sort((a,b) => outputRank(a) - outputRank(b) || entryLabel(a).localeCompare(entryLabel(b), 'tr'));
+  }
+  function entryLabel(e) {
+    const variant = String(e.variant || '');
+    const low = variant.toLowerCase();
+    if (e.family === 'enrichment') return `ENRICHMENT · ${e.version.replace('enrichment-','')} · ${variant}`;
+    if (low.includes('augment.augment9')) return `AUGMENT9 · ${e.version} · production`;
+    if (low.includes('augment.')) return `AUGMENT · ${e.version} · ${variant}`;
+    return `BASE · ${e.version} · ${variant} · ${e.status}${e.tagged ? ' · tagged' : ''}`;
+  }
   function populateSurahs() {
     const surahs = [...new Set(manifest.entries.map(e=>e.surah))].sort((a,b)=>a-b);
     els.surah.innerHTML = surahs.map(s=>`<option value="${s}">${s}</option>`).join('');
@@ -30,11 +50,11 @@
     if (keep && opts.some(o=>o.value===keep)) els.passage.value = keep;
   }
   function populateVersions(keepId) {
-    const entries = matchingEntries();
+    const entries = orderedEntries();
     els.version.innerHTML = entries.map(e=>`<option value="${e.id}">${esc(entryLabel(e))}</option>`).join('');
     if (keepId && entries.some(e=>e.id===keepId)) els.version.value = keepId;
     els.compare.innerHTML = entries.map(e=>`<option value="${e.id}">${esc(entryLabel(e))}</option>`).join('');
-    if (els.compare.options.length > 1) els.compare.selectedIndex = Math.min(1, els.compare.options.length-1);
+    if (els.compare.options.length > 1) els.compare.selectedIndex = 1;
   }
   function getEntry(id) { return manifest.entries.find(e=>e.id===id); }
   async function fetchEntry(entry) {
