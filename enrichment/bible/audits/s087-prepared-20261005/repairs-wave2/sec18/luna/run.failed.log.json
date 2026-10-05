@@ -1,0 +1,137 @@
+{
+  "target": "sec18",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md",
+  "base_sha256": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/quran.json": "84889a1557041acbe0cd1ce3802d9baec43b30f5e6aad03c4d20d7b6c5a4c299",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/pack.json": "c9e6ea3370cc03f98d5a9ae0a2189d83ca291ab99860d7615176284b3c491eee"
+  },
+  "started": "2026-10-05T13:22:00.060369-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s087_prepared_20261005_sec18_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "prepared-20261005",
+  "prompt_sha256": "98a0baaa00ef1c4f893061d6abc83f67a29c13bac2ae3ce113c77e1177da0016",
+  "package_sha256": "55a6a8ffc99b98d825f7575bd0519a3a6a80600d62d11a069be5e9796c31aa88",
+  "input_sha256": "a60706f844f62710d73784b63c2474818c4eea3bddf7df508d8eabcf20e118f4",
+  "spawn_sha256": "9f00efa8ebe6f9343d9f6a3dd404e8e62c835547371b3d6610bcda0e4798d967",
+  "followup_text_sha256": "aabbcac2fcb37d00c879d36ab2a8207085430ccbcd178a1ca4a0aa446ea55448",
+  "agent_id": "01a10d1d-06ff-7f03-acfe-16a3fada8ab8",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T13-29-28-01a10d1d-06ff-7f03-acfe-16a3fada8ab8.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "partial",
+  "check": "findings",
+  "turn1_rows": 77,
+  "turn1_sha256": "5fdcf06baf3b8f5206973d1bc268d561254eeff05a8587450f61dcca63577d80",
+  "turn2": {
+    "completed": true,
+    "rows_total": 76,
+    "rows_added": 0
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [
+    {
+      "call_id": "call_uXNrUUVABNbqm0mpc6zju4Tx",
+      "message": "Script failed"
+    },
+    {
+      "call_id": "call_uXNrUUVABNbqm0mpc6zju4Tx",
+      "message": "Script error:"
+    },
+    {
+      "call_id": "call_uXNrUUVABNbqm0mpc6zju4Tx",
+      "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/discovery/prepared-20261005/sec18/luna/followup.tsv:"
+    }
+  ],
+  "protocol_findings": [],
+  "consolidation": null,
+  "consolidation_error": "invalid TSV: ['line 16: unknown verse in specified edition: WLC:Wis.3.4']",
+  "list_sha256": "5fdcf06baf3b8f5206973d1bc268d561254eeff05a8587450f61dcca63577d80",
+  "followup_delivery": [
+    {
+      "call_id": "call_4013eab891a14699ac5818cf28d408d9",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 556429,
+    "cached_input_tokens": 502272,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 31131,
+    "reasoning_output_tokens": 22393,
+    "total_tokens": 587560
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T19:10:45.390Z",
+  "artifacts": {
+    "started.json": "e1d087f9d36329a7916fde28ebd8b8b79d78b288c809c594fae52b78a0c4ff69",
+    "input.json": "a60706f844f62710d73784b63c2474818c4eea3bddf7df508d8eabcf20e118f4",
+    "prompt.md": "98a0baaa00ef1c4f893061d6abc83f67a29c13bac2ae3ce113c77e1177da0016",
+    "package.md": "55a6a8ffc99b98d825f7575bd0519a3a6a80600d62d11a069be5e9796c31aa88",
+    "spawn.md": "9f00efa8ebe6f9343d9f6a3dd404e8e62c835547371b3d6610bcda0e4798d967",
+    "followup.txt": "aabbcac2fcb37d00c879d36ab2a8207085430ccbcd178a1ca4a0aa446ea55448",
+    "turn1.json": "4aad0fadc2dce0866c5fe06d7a5b98d980bc24d57a1e7a6d9f07c13289c84b88",
+    "turn1.list.tsv": "5fdcf06baf3b8f5206973d1bc268d561254eeff05a8587450f61dcca63577d80",
+    "followup.tsv": "f4aeb0fcac78b22c33dfb259f3b27af79ad1eb572e992c25b4c15cfdcc9f7d67",
+    "list.tsv": "5fdcf06baf3b8f5206973d1bc268d561254eeff05a8587450f61dcca63577d80",
+    "validation.json": "3605d4cd8bdbd6e00665cedbf50f656863822c726872c45dfbddd0dca3b07863",
+    "proposal_validation.json": "4d827604adff0a9bd900a4fdf9fafb9454151d0553785ae4f5fb9c2d9b73c4ae",
+    "tool_calls.json": "4498357b71dd48f2bcff34434e47822cc1d0f77cd0f861d883d8e36307fbb440",
+    "session.json": "d49c196fdc666231c605339cea4de9ecc557127a15c4a68cfa083da13429869e",
+    "session.events.jsonl": "4bbc2a0a0214da64c91dae46dab2baad6a535d650196d3ce8d878b4dfcac119a",
+    "turn1.original.tsv": "5fdcf06baf3b8f5206973d1bc268d561254eeff05a8587450f61dcca63577d80",
+    "turn1.validation.failed.json": "3605d4cd8bdbd6e00665cedbf50f656863822c726872c45dfbddd0dca3b07863",
+    "turn1.tool_calls.json": "b28d01050f7ce2c09ad838190d3b846920a2972f35aa550b7b16bc52aaef86e1",
+    "turn1.repair.proposed.json": "c157c7f1e0b1b431e6dc59394784ca4399f5413d1a955f05a1ba330d6fb150a9",
+    "turn1.repair.proposed.tsv": "3cf402e72d4b47b4b64b33f81b4215852b54ad1f86e0af814dc11c77258be1fe",
+    "turn1.accepted.tsv": "3cf402e72d4b47b4b64b33f81b4215852b54ad1f86e0af814dc11c77258be1fe",
+    "turn1.repair.accepted.json": "dec4349dd419c253609c47c43af1d180d465f0b6ddb3be0a77cd90efafe18298"
+  },
+  "first_turn_repair": {
+    "policy": "bible-first-turn-repair-v1",
+    "approval": "User explicitly answered \"Apply all nine recorded S87 corrections\" to question call_e2ecf3f0da1e408981812a48803204c0 on 2026-10-05. Exact review: enrichment/bible/audits/s087-prepared-20261005/repairs-wave1.proposed.json; SHA256 3335456921ec036607f7e71a00374470882705692e54f21f855721ec3ad13120",
+    "tool_audit_reviewed": true,
+    "accepted_at": "2026-10-05T19:04:52.893468+00:00",
+    "changes": [
+      {
+        "line": 20,
+        "before": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Deut.29.29",
+          "hidden and revealed",
+          "The commentary says God knows what is open and hidden and places a nearly hidden event in Moses' scene; Moses distinguishes secret things belonging to God from revealed things given to Israel, marking a related boundary without equating the subjects."
+        ],
+        "after": [
+          "strong",
+          "tevrat",
+          "motif",
+          "WLC:Deut.29.28",
+          "hidden and revealed",
+          "The commentary says God knows what is open and hidden and places a nearly hidden event in Moses' scene; Moses distinguishes secret things belonging to God from revealed things given to Israel, marking a related boundary without equating the subjects."
+        ],
+        "reason": "The hidden/revealed distinction is WLC Deuteronomy 29:28, corresponding to English 29:29."
+      }
+    ],
+    "model_calls": 0,
+    "artifacts": {
+      "turn1.original.tsv": "5fdcf06baf3b8f5206973d1bc268d561254eeff05a8587450f61dcca63577d80",
+      "turn1.validation.failed.json": "3605d4cd8bdbd6e00665cedbf50f656863822c726872c45dfbddd0dca3b07863",
+      "turn1.tool_calls.json": "b28d01050f7ce2c09ad838190d3b846920a2972f35aa550b7b16bc52aaef86e1",
+      "turn1.repair.proposed.json": "c157c7f1e0b1b431e6dc59394784ca4399f5413d1a955f05a1ba330d6fb150a9",
+      "turn1.repair.proposed.tsv": "3cf402e72d4b47b4b64b33f81b4215852b54ad1f86e0af814dc11c77258be1fe",
+      "turn1.accepted.tsv": "3cf402e72d4b47b4b64b33f81b4215852b54ad1f86e0af814dc11c77258be1fe"
+    }
+  }
+}

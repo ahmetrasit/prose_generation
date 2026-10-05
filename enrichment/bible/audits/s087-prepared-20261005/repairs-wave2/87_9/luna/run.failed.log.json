@@ -1,0 +1,80 @@
+{
+  "target": "87:9",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/87_9.md",
+  "base_sha256": "128963c435cd06f927326734b74e7b5448298a322137bb22f5de2ed9cd0b2f27",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/quran.json": "84889a1557041acbe0cd1ce3802d9baec43b30f5e6aad03c4d20d7b6c5a4c299",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/pack.json": "c9e6ea3370cc03f98d5a9ae0a2189d83ca291ab99860d7615176284b3c491eee"
+  },
+  "started": "2026-10-05T14:08:04.708595-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s087_prepared_20261005_87_9_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "prepared-20261005",
+  "prompt_sha256": "74656e43f02ccd841f6194c39bfcd5bbc3b8b40342eaa4fadcba4dd81c5b0e6d",
+  "package_sha256": "f7e0fffe06f4190a68301458a717d84742e61b2ff3ae24cf0f3d6f80459a4703",
+  "input_sha256": "cf33d7b84a20b86b241c7f1e8f9bf3d37eedc99b07d579bfefc762e489354d99",
+  "spawn_sha256": "b4947abf205004a0e68568e786953f171da8d608a43b5b88fdc77898aa761291",
+  "followup_text_sha256": "8df1edcbff24fcec219dd7e13eaee1502e39ef248e171464d18a294c2a0cefdc",
+  "agent_id": "01a10d41-43c1-7e73-b0a8-eee5a85b7d7f",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T14-09-03-01a10d41-43c1-7e73-b0a8-eee5a85b7d7f.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "partial",
+  "check": "findings",
+  "turn1_rows": 99,
+  "turn1_sha256": "f8ac6253f288cfca0987ea3d8b0d546e6cfa96934c89e97172b917134c77a4cf",
+  "turn2": {
+    "completed": true,
+    "rows_total": 99,
+    "rows_added": 0
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": null,
+  "consolidation_error": "invalid TSV: ['line 35: unknown verse in specified edition: WLC:2Chron.36.15', 'line 36: unknown verse in specified edition: WLC:2Chron.36.16']",
+  "list_sha256": "f8ac6253f288cfca0987ea3d8b0d546e6cfa96934c89e97172b917134c77a4cf",
+  "followup_delivery": [
+    {
+      "call_id": "call_2kxwUXU1bl5YCEaRZlw8lOtw",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 1642612,
+    "cached_input_tokens": 1539328,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 66673,
+    "reasoning_output_tokens": 52022,
+    "total_tokens": 1709285
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T19:07:27.099Z",
+  "artifacts": {
+    "started.json": "7c4856effb72c25b9fd1d4bcfc1cc71d3653ef193a23aad23b3515489cae61a3",
+    "input.json": "cf33d7b84a20b86b241c7f1e8f9bf3d37eedc99b07d579bfefc762e489354d99",
+    "prompt.md": "74656e43f02ccd841f6194c39bfcd5bbc3b8b40342eaa4fadcba4dd81c5b0e6d",
+    "package.md": "f7e0fffe06f4190a68301458a717d84742e61b2ff3ae24cf0f3d6f80459a4703",
+    "spawn.md": "b4947abf205004a0e68568e786953f171da8d608a43b5b88fdc77898aa761291",
+    "followup.txt": "8df1edcbff24fcec219dd7e13eaee1502e39ef248e171464d18a294c2a0cefdc",
+    "turn1.json": "1af72073b5cc386502d5bff3d094ee1f66f710c373aea0e99ee5ca76031cefce",
+    "turn1.list.tsv": "f8ac6253f288cfca0987ea3d8b0d546e6cfa96934c89e97172b917134c77a4cf",
+    "followup.tsv": "74aad07ad0d3bb9ace9e747dab12902935992619e38ddd0a2db0bb9f172495d2",
+    "list.tsv": "f8ac6253f288cfca0987ea3d8b0d546e6cfa96934c89e97172b917134c77a4cf",
+    "validation.json": "de08d20ac29d4bb3e73c18753d7acc3fc6cd8431ecdf57cc89aaeac62fa0a5e0",
+    "proposal_validation.json": "c94bd9d76407ab430471b58797f8c4e348ac845ef3e4ecf1c9bbabab10af86b9",
+    "tool_calls.json": "bcefdecc4fe30316700e91b3dabb63c772fc6bd6e546c8d411500e4e5b295ad1",
+    "session.json": "c97b52922cda726fadf00e86a182ba2c6abb286abcd080768c300f91cd36be25",
+    "session.events.jsonl": "9b0e458afe96a81ffeb91c2520d05db2dfff13947e94ea97075b2e253e623b50"
+  }
+}

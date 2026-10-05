@@ -15,13 +15,13 @@ This session uses one Sol max author per image. The default page-author model is
 unchanged for other runs. Both Bible test modules pass: 77 distinct tests.
 
 S87 discovery has completed all 148 turns across 18 images and 19 ayat
-(74 Luna/Terra max sessions). The user approved nine exact locator corrections,
-which were applied with their raw evidence intact. Seventy-two sessions now pass;
-two are held for three additional follow-up locator corrections awaiting exact
-approval. The [S87 audit](audits/s087-prepared-20261005/README.md) preserves the
-full batch, proposal review and remaining failures. No S87 page authors have
-started. Resolve the remaining exact corrections and prepare verified source
-handoffs before writing S87 pages.
+(74 Luna/Terra max sessions). All 74 now pass discovery validation, after the
+user-approved nine wave1 and three wave2 locator corrections. The original raw
+evidence and failed validations remain intact. The
+[S87 audit](audits/s087-prepared-20261005/README.md) preserves the full batch and
+repair history. Its 7,664 candidate connections cover all 37 targets, and the final
+report is ready for merging. No S87 page authors have started; prepare verified
+source handoffs before writing S87 pages.
 S1 ayah page authors and broader source coverage also remain separate work.
 Nothing has been published.
 
