@@ -1,0 +1,92 @@
+## ¶2 · prose · 20:25 · applied
+
+**+** Musa'nın duası yalnızca işinin kolaylaşmasını istemez. Bu dileğinden önce {ar:رَبِّ ٱشْرَحْ لِى صَدْرِى, tr:rabbi'şrah lî sadrî, gloss:Rabbim, göğsümü aç, source:20:25} der. Ardından {ar:وَٱحْلُلْ عُقْدَةًۭ مِّن لِّسَانِى, tr:vahlul ukdeten min lisânî, gloss:dilimden bir düğümü çöz, source:20:27} ve {ar:يَفْقَهُوا۟ قَوْلِى, tr:yefkahû kavlî, gloss:sözümü anlasınlar, source:20:28} diye devam eder. Kolaylaşması istenen işin önünde ve ardında göğüs ve dil vardır: işi yapacak olanın kendisi de hazırlanmak istenir. Musa'nın kendisi için istediği göğüs açılması Peygamber'e verilmiş olarak hatırlatılır: {ar:أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ, tr:e-lem neşrah leke sadrek, gloss:senin göğsünü açmadık mı, source:94:1}.
+
+## ¶9 · prose · 75:16 · applied
+
+**+** Dilin söze nasıl hazırlandığını Kıyâme suresi bir sahne içinde gösterir. Peygamber'e {ar:لَا تُحَرِّكْ بِهِۦ لِسَانَكَ لِتَعْجَلَ بِهِۦٓ, tr:lâ tuharrik bihî lisâneke li-ta'cele bih, gloss:onu çabucak almak için dilini kıpırdatma, source:75:16} denir. Gerekçesi {ar:إِنَّ عَلَيْنَا جَمْعَهُۥ وَقُرْءَانَهُۥ, tr:inne aleynâ cem'ahû ve kur'ânehû, gloss:onu bir araya getirmek ve okunmasını sağlamak bize düşer, source:75:17} sözüdür. Ardından {ar:فَإِذَا قَرَأْنَٰهُ فَٱتَّبِعْ قُرْءَانَهُۥ, tr:fe-iẕâ kara'nâhu fettebi' kur'ânehû, gloss:onu okuduğumuzda sen de okunuşunu izle, source:75:18} gelir. Okutan yine "biz"dir. Dile düşen iş öne geçmek değil, okunanın ardından gitmektir.
+
+## ¶11 · prose · 73:5 · applied
+
+**+** Müzzemmil suresinin başında, geceyi ayakta geçirmesi istenen Peygamber'e {ar:إِنَّا سَنُلْقِى عَلَيْكَ قَوْلًۭا ثَقِيلًا, tr:innâ se-nulkî aleyke kavlen sekîlâ, gloss:biz sana ağır bir söz bırakacağız, source:73:5} denir. Öğüt için kolaylaştırılan söz burada ağır diye anılır. Ağırlık sözün kendisindedir ve bu söz Peygamber'in üzerine bırakılır.
+
+## ¶13 · prose · 20:123 · applied
+
+**+** Tâhâ suresinde "ikiniz birlikte oradan inin" diye başlayan bir hitapta, gelecek yol gösterme için {ar:فَمَنِ ٱتَّبَعَ هُدَاىَ فَلَا يَضِلُّ وَلَا يَشْقَىٰ, tr:fe-meni'ttebea hudâye fe-lâ yadıllu ve lâ yeşkâ, gloss:kim benim yol göstermeme uyarsa sapmaz ve bedbaht olmaz, source:20:123} denir. Hemen ardından {ar:وَمَنْ أَعْرَضَ عَن ذِكْرِى فَإِنَّ لَهُۥ مَعِيشَةًۭ ضَنكًۭا, tr:ve men a'rada an ẕikrî fe-inne lehû maîşeten danka, gloss:kim de beni anmaktan yüz çevirirse onun için dar bir geçim vardır, source:20:124} gelir. Bedbaht olmamak yol göstermeye uymaya bağlanır. Öğütten yüz çevirenin payı ise darlıktır, yani kolaylığın zıddı burada açıkça adıyla anılır.
+
+## ¶13 · prose · 41:44 · applied
+
+**+** Fussilet suresi aynı sözün iki ayrı dinleyicide iki ayrı şey olduğunu söyler. Kur'an için {ar:قُلْ هُوَ لِلَّذِينَ ءَامَنُوا۟ هُدًۭى وَشِفَآءٌۭ, tr:kul huve lilleẕîne âmenû huden ve şifâ', gloss:de ki: o, iman edenler için yol gösterme ve şifadır, source:41:44} denir. İman etmeyenler için ise {ar:وَٱلَّذِينَ لَا يُؤْمِنُونَ فِىٓ ءَاذَانِهِمْ وَقْرٌۭ وَهُوَ عَلَيْهِمْ عَمًى, tr:velleẕîne lâ yu'minûne fî âẕânihim vakrun ve huve aleyhim amâ, gloss:iman etmeyenlerin kulaklarında bir ağırlık vardır, o onlara karşı bir körlüktür, source:41:44} denir. Aynı söz birine yol gösterir ve şifa olur, ötekinin kulağına ise ağırlık olarak çöker.
+
+## ¶14 · prose · 6:125 · applied
+
+**+** En'âm suresi kişinin iki yöne hazırlanışını göğüs üzerinden anlatır: {ar:فَمَن يُرِدِ ٱللَّهُ أَن يَهْدِيَهُۥ يَشْرَحْ صَدْرَهُۥ لِلْإِسْلَٰمِ, tr:fe-men yuridillâhu en yehdiyehû yeşrah sadrahû li'l-islâm, gloss:Allah kimi doğru yola iletmek isterse onun göğsünü İslam'a açar, source:6:125}. Saptırmak istediğinin göğsünü ise dar ve sıkışık kılar, öyle ki o kişi {ar:كَأَنَّمَا يَصَّعَّدُ فِى ٱلسَّمَآءِ, tr:keennemâ yassa''adu fi's-semâ', gloss:sanki göğe tırmanıyormuş gibi olur, source:6:125}. Hazırlık burada göğüste gerçekleşir. Darlığa hazırlananın hâli ise dik bir tırmanışa benzetilir.
+
+## ¶16 · prose · 65:7 · applied
+
+**+** Talâk suresinde boşanan kadınların barınma ve emzirme hakları düzenlenirken {ar:لِيُنفِقْ ذُو سَعَةٍۢ مِّن سَعَتِهِۦ, tr:li-yunfik ẕû se'atin min se'atih, gloss:imkânı geniş olan genişliğinden harcasın, source:65:7} denir. Rızkı daraltılan da Allah'ın ona verdiğinden harcayacaktır, çünkü Allah kimseye verdiğinden fazlasını yüklemez. Ayet {ar:سَيَجْعَلُ ٱللَّهُ بَعْدَ عُسْرٍۢ يُسْرًۭا, tr:se-yec'alullâhu ba'de usrin yusrâ, gloss:Allah bir zorluğun ardından bir kolaylık verecektir, source:65:7} diye biter. Vermek yalnızca varlıklı olandan istenmez. Kolaylık vaadi, darlıkta olanın da elindekinden vermesini isteyen ayetin sonunda yer alır.
+
+## ¶18 · prose · 5:91 · applied
+
+**+** Meysiri yasaklayan ayetin hemen ardından şeytanın içki ve meysir yoluyla aranıza düşmanlık ve kin sokmak ve {ar:وَيَصُدَّكُمْ عَن ذِكْرِ ٱللَّهِ وَعَنِ ٱلصَّلَوٰةِ, tr:ve yesuddekum an ẕikrillâhi ve ani's-salâh, gloss:sizi Allah'ı anmaktan ve namazdan alıkoymak, source:5:91} istediği söylenir. Allah'ı anmak ve namaz kılmak, surede kurtuluşa eren arınmış kişinin işleridir: {ar:وَذَكَرَ ٱسْمَ رَبِّهِۦ فَصَلَّىٰ, tr:ve ẕekera'sme rabbihî fe-sallâ, gloss:Rabbinin adını anıp namaz kılan, source:87:15}.
+
+## ¶1 · refs · - · applied
+
+**+** Ayrıca: {source:75:17} Kur'an'ı bir araya getirip okunmasını sağlamanın "biz"e düşmesi, okutma vaadini verenin kim olduğunu gösterir; {source:2:106} Allah'ın unutturduğu ayetin yerine daha hayırlısını ya da benzerini getirmesi, unutmanın ancak Allah'ın dilemesiyle olduğunu tamamlar; {source:20:7} sözü açığa vuranın sırrını ve daha gizlisini de bilen, açığı ve gizliyi bilenle aynı bilgiyi anlatır; {source:93:5} Rabbinin Peygamber'e vereceği ve onun hoşnut olacağı, Peygamber'e verilen bir başka gelecek vaadidir.
+
+## ¶2 · refs · - · applied
+
+**+** Ayrıca: {source:2:196} isteysera fiili elde hazır bulunan kurbanlık için kullanılır, kelimenin "hazır hâle gelmek" anlamını gösterir; {source:73:20} teyessera fiili okumaya hazır ve kolay gelen için kullanılır; {source:17:28} verecek bir şeyi olmayanın muhtaca "meysûr", yani yumuşak ve kolay bir söz söylemesi, kolaylık göstermenin yumuşak davranmak olduğunu gösterir.
+
+## ¶6 · refs · - · applied
+
+**+** Ayrıca: {source:75:18} söz okununca okunuşun ardından gitme emri, önde gidenin izinden gelmeyi anlatır; {source:92:12} yol göstermeyi Allah'ın üstlenmesi, önden giden kılavuzu anlatır; {source:90:11} {source:90:12} insanın atılmadığı sarp yokuş (akabe) adıyla anılır, sarp yolu gösterir.
+
+## ¶7 · refs · - · applied
+
+**+** Ayrıca: {source:7:157} "indirmek" fiili bu kez Peygamber'in, ona uyanların üzerindeki ağır yükü ve bukağıları indirmesi için kullanılır; {source:65:7} kolaylığın zorluğun ardından Allah tarafından getirileceği vaadi, zorluk ile kolaylığın sırasını başka bir yönden söyler.
+
+## ¶8 · refs · - · applied
+
+**+** Ayrıca: {source:88:21} {source:88:22} Peygamber'in görevinin yalnızca hatırlatmak olduğunu, insanlar üzerinde zorlayıcı olmadığını söyler; {source:51:55} öğüdün müminlere fayda verdiğini söyler, "eğer fayda verirse" şartına karşılık gelir; {source:80:3} {source:80:4} öğüdün fayda verdiği kişiyi arınacak ya da öğüt alacak olan diye anlatır.
+
+## ¶9 · refs · - · applied
+
+**+** Ayrıca: {source:20:27} {source:20:28} sözün anlaşılması için dildeki düğümün çözülmesi istenir, yani dil söze hazırlanır; {source:20:114} vahiy tamamlanmadan Kur'an'la acele etmeme emri, dilin kendisine okunanı beklemesini anlatır.
+
+## ¶10 · refs · - · applied
+
+**+** Ayrıca: {source:2:196} kurbanın ölçüsü de "kolay gelen" olarak konur ve hastaya fidye tanınır; {source:2:187} Allah bildiği bir zaafa döner ve ruhsat verir, gece okumasında da aynı "bildi ve size döndü" kuruluşu vardır; {source:5:6} hasta ve yolcuya teyemmüm izni verilirken Allah'ın üzerinize bir güçlük koymak istemediği söylenir; {source:4:28} Allah'ın hafifletmek istemesi insanın zayıf yaratılmasıyla gerekçelendirilir; {source:22:78} dinde üzerinize bir güçlük kılınmadığı söylenir; {source:2:220} Allah dileseydi sizi sıkıntıya sokabilirdi, yetimler konusunda ise kolaylık tanır.
+
+## ¶11 · refs · - · applied
+
+**+** Ayrıca: {source:2:286} Allah kimseye gücünün üstünde yük yüklemez ve ağır yük yüklenmemesi için dua edilir, yük taşınabilir kılınır; {source:50:45} Kur'an'la öğüt tehditten korkana verilir; {source:73:19} indirilen söz bir öğüttür ve dileyen onunla Rabbine bir yol tutar; {source:79:19} Musa'nın Firavun'a söylemesi istenen "seni Rabbine ileteyim de içinin titresin" sözünde yol gösterme ile içi titremek birbirine bağlanır.
+
+## ¶12 · refs · - · applied
+
+**+** Ayrıca: {source:74:1} {source:74:2} örtüsüne bürünmüş olana "kalk ve uyar" denir, yani uyaran işe kaldırılır; {source:74:7} "Rabbin için sabret" emri, işi yalnız Rabbe yöneltmeyi anlatır.
+
+## ¶13 · refs · - · applied
+
+**+** Ayrıca: {source:20:2} Kur'an'ın Peygamber zahmet (şekâ) çeksin diye indirilmediği söylenir, böylece eşkâ kelimesinin kökü Peygamber'den uzak tutulur; {source:17:82} aynı Kur'an müminlere şifa ve rahmettir, zalimlere ise yalnızca zararlarını artırır; {source:41:41} kendilerine öğüt geldiğinde onu inkâr edenler, öğütten uzak duranlardır.
+
+## ¶14 · refs · - · applied
+
+**+** Ayrıca: {source:92:4} çabaların iki ayrı yöne ayrıldığını söyler; {source:90:10} insana iki yol gösterilmiştir; {source:91:8} nefse hem kötülüğü hem sakınması ilham edilir; {source:76:3} insana yol gösterilir, o da ya şükreden ya da nankör olur; {source:18:88} iman edip iyi iş yapana en güzel karşılık ve buyruktan bir kolaylık verilir, yani en güzel ile kolaylık aynı kişide birleşir; {source:65:4} Allah'tan sakınana işinde bir kolaylık verilir; {source:39:22} göğsü İslam'a açılan Rabbinden gelen bir ışık üzeredir; {source:84:8} kitabı sağından verilen kolay bir hesapla hesaba çekilir; {source:74:9} {source:74:10} o gün inkârcılar için zor ve hiç kolay olmayan bir gündür; {source:74:17} ayetlere inat edene sarp bir yokuş yükletilir.
+
+## ¶15 · refs · - · applied
+
+**+** Ayrıca: {source:92:13} ahiret de ilk hayat da Allah'ındır, on yedinci ayette de ahiret anılır; {source:92:16} en bedbaht, yalanlayıp yüz çeviren olarak tanıtılır, bu da öğütten uzak durmanın karşılığıdır; {source:92:19} {source:92:20} en çok sakınan, karşılık beklemeden yalnızca "en yüce" Rabbinin rızasını arayarak verir, birinci ayetteki sıfat burada da geçer.
+
+## ¶16 · refs · - · applied
+
+**+** Ayrıca: {source:96:6} {source:96:7} kendini ihtiyaçsız görünce azan insanı anlatır; {source:80:5} {source:80:6} {source:80:7} kendini ihtiyaçsız sayanın arınmadığını anlatır, böylece istağnâ ile arınmamak aynı kişide buluşur.
+
+## ¶17 · refs · - · applied
+
+**+** Ayrıca: {source:5:91} şeytan içki ve meysir yoluyla aranıza düşmanlık ve kin sokmak ister; {source:5:3} oklarla pay ve kısmet aramak yoldan çıkmak (fısk) sayılır.
+
+## ¶18 · refs · - · applied
+
+**+** Ayrıca: {source:80:19} {source:80:20} yaratmak, ölçü koymak ve yolu kolaylaştırmak aynı kişi üzerinde art arda gelir; {source:51:4} kolaylıkla akıp gidenlerin ardından buyruğu paylaştıranlar gelir; {source:43:32} geçimlerini aralarında paylaştıranın "biz" olduğu söylenir; {source:20:50} her şeye yaratılışını verip sonra yol gösteren Rab anılır.
+

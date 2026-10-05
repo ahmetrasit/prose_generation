@@ -1,0 +1,307 @@
+- 14:35: cited ¶15; ref ¶6 - ج ن ب fiilinin nesnesi putlar
+- 16:36: cited ¶6; ref ¶1 - aynı çağrıya iki ayrı karşılık
+- 17:46: ref ¶5 - Rab anılınca ürküp arkalarını dönmek, nufûr ile kaçışın resmi
+- 18:57: ref ¶3, ¶11 - öğüt verildikten sonra yüz çevireni en uca koyan soru
+- 20:2: cited ¶20; nowhere else - paragraf açıklıyor
+- 20:44: ref ¶2, ¶3 - kaynaşmamış yetezekkeru ve yahşâ; azmış kişiye bile kapının açık olması
+- 20:48: ref ¶24 - "yalanlayıp yüz çevirme" nakaratı
+- 20:74: ref ¶22 - ne ölüp ne yaşamak nakaratı
+- 20:117: cited ¶21; nowhere else - paragraf açıklıyor
+- 20:123: cited ¶21; nowhere else - paragraf açıklıyor
+- 20:124: cited ¶21; nowhere else - devamı 20:126 eklemesinde
+- 21:42: ref ¶7 - yüz çevirmenin nesnesi Rablerinin öğüdü
+- 23:66: ref ¶5 - okunan ayetler karşısında ökçeler üzerinde geri dönmenin beden resmi
+- 25:29: ref ¶11 - öğüt geldikten sonra dostun ondan saptırması
+- 26:5: ref ¶11 - her yeni öğütten yüz çevirmek
+- 32:22: ref ¶3, ¶11 - 18:57 ile aynı soru
+- 39:17: cited ¶7; ref ¶6 - ictinâbın nesnesi tâğût
+- 41:41: not relevant - öğüdü inkâr etmek; kenara koymaya bir şey katmıyor
+- 41:51: ref ¶5 - 17:83'teki resmin aynısı
+- 43:36: prose ¶11; ref ¶16 - öğütten göz kısana şeytanın yoldaş edilmesi
+- 45:8: ref ¶11 - işitip işitmemiş gibi davranmak
+- 53:29: prose ¶7 - öğüdün yerine konanın adı: dünya hayatı
+- 72:17: context ¶22 (in 74:17) - öğütten yüz çevirene "sa'ad" azap
+- 74:31: ref ¶25 - ateş bağlamında dişil zamirle anılan öğüt
+- 74:49: cited ¶5; nowhere else - paragraf açıklıyor
+- 79:45: ref ¶3 - uyarının korkan için oluşu
+- 80:11: ref ¶1 - öğüdün dileyene bırakılması (74:54-55 ile birlikte)
+- 80:12: ref ¶1 - aynı bağ
+- 88:21: prose ¶3 - öğüt emri, dönen ve "en büyük" azap
+- 88:23: context ¶3 (in 88:21) - öğütten dönenin fiille anılması
+- 91:9: ref ¶2 - nefsi arıtmanın açık nesneyle söylenmesi
+- 92:14: cited ¶24; nowhere else - paragraf açıklıyor
+- 92:15: cited ¶24; nowhere else - paragraf açıklıyor
+- 92:16: cited ¶24; nowhere else - nakarat ref'te başka yerleriyle
+- 92:17: cited ¶24; nowhere else - paragraf açıklıyor
+- 92:18: cited ¶24; ref ¶2 - kaynaşmamış yetezekkâ biçimi
+- 3:191: ref ¶4, ¶25 - yanları üzerinde anmak; ateşten korunmayı Rabden istemek
+- 5:90: ref ¶6 - ictinâbın nesnesi pislik, kurtuluşa bağlanması
+- 6:4: ref ¶11 - her gelen ayetten yüz çevirmek (36:46 ile nakarat)
+- 6:157: ref ¶3 - yüz çevireni en uca koyan soru
+- 7:2: ref ¶20 - öğüt kitabından göğüste darlık olmaması
+- 7:201: ref ¶25 - sakınanların öğüt alması
+- 10:12: ref ¶5 - yanı üstü yalvarıp sonra geçip gitmek
+- 11:105: cited ¶18; nowhere else - paragraf açıklıyor
+- 11:106: cited ¶18; nowhere else - paragraf açıklıyor
+- 14:3: ref ¶7 - dünyayı ahirete üstün tutmak
+- 17:83: cited ¶5; nowhere else - paragraf açıklıyor
+- 18:28: ref ¶16 - öğütten gafil kalıp hevesine uymak
+- 19:4: ref ¶17 - "Rabbime yalvarışımda bedbaht olmadım" nakaratı
+- 19:32: ref ¶18 - bedbahtlığın zorbalıkla yan yana anılması
+- 19:48: cited ¶17; nowhere else - paragraf açıklıyor
+- 19:52: ref ¶12 - seslenişin Tûr'un yanından gelmesi
+- 20:14: ref ¶8 - namazın anmak için kılınması
+- 20:16: not relevant - kıyametten alıkoyma; öğütten uzak durmaya dair değil
+- 20:42: not relevant - elçilere anmakta gevşememe emri
+- 23:106: cited ¶23; nowhere else - paragraf açıklıyor
+- 29:45: ref ¶8 - namaz ile Allah'ı anmanın bir arada anılması
+- 32:16: prose ¶4 - yanların yataktan uzaklaşması
+- 35:18: ref ¶2, ¶3 - arınanın kendisi için arınması; uyarının korkanlara ulaşması
+- 36:11: ref ¶3 - öğüde uyup korkanın uyarılması
+- 38:32: not relevant - bir peygamberin oyalanması; uzak durmaya dair değil
+- 39:22: ref ¶7 - Allah'ın anılmasına karşı katılaşan kalpler
+- 39:56: cited ¶13; nowhere else - paragraf açıklıyor
+- 42:37: ref ¶6 - 53:32 ile aynı ictinâb nitelemesi
+- 46:3: ref ¶11 - uyarıldıkları şeyden yüz çevirmek
+- 50:37: ref ¶1 - öğüdün kalbi olan ya da kulak veren için oluşu
+- 53:32: cited ¶6; nowhere else - paragraf açıklıyor
+- 54:17: ref ¶1, ¶19 - öğüt için kolaylaştırılan Kur'an nakaratı
+- 54:22: ref ¶1, ¶19 - aynı nakarat
+- 54:32: ref ¶1, ¶19 - aynı nakarat
+- 54:40: ref ¶1, ¶19 - aynı nakarat
+- 57:16: not relevant - müminlere ürperme çağrısı; ¶3'teki özne kuruluşuna bir şey katmıyor
+- 58:19: ref ¶16 - şeytanın hâkim olup anmayı unutturması
+- 62:9: ref ¶8 - namazın Allah'ın anılması diye adlandırılması
+- 63:9: not relevant - müminlerin oyalanması; kenara koymak değil
+- 65:10: not relevant - genel olarak indirilen öğüt; yeni bir bağ kurmuyor
+- 69:48: ref ¶25 - öğüdün sakınanlar için oluşu
+- 73:19: ref ¶1 - öğüdü alıp Rabbine yol tutmanın dileyene bırakılması (76:29 ile nakarat)
+- 74:54: ref ¶1 - öğüdün dileyene bırakılması
+- 74:55: ref ¶1 - aynı bağ
+- 76:29: ref ¶1 - 73:19 ile nakarat
+- 79:18: prose ¶2 - arınmanın çağrılanın kendi fiili olarak sunulması
+- 79:21: context ¶2 (in 79:18) - davete verilen karşılık
+- 79:26: ref ¶3 - ibretin içi titreyen için oluşu
+- 80:3: ref ¶2; context ¶1 (in 80:4) - kaynaşmış yezzekkâ
+- 80:4: prose ¶1, ref ¶2 - öğüt, fayda ve içi titremenin tek bir kişide buluşması
+- 81:27: ref ¶1 - "âlemler için öğüt" nakaratı
+- 81:28: ref ¶1 - öğüdün dosdoğru olmayı dileyen için oluşu
+- 91:12: prose ¶3 - kendisine söylenen uyarıya karşı kalkan "en bedbaht"
+- 92:10: cited ¶24; ref ¶19 - en kolayın karşıtı olarak en zor
+- 96:13: ref ¶24 - "yalanlayıp yüz çevirme" nakaratı
+- 8:21: ref ¶11 - işittik deyip işitmemek
+- 17:41: ref ¶5 - öğüdün ürküp kaçmayı artırması, nufûr
+- 17:82: prose ¶7, ref ¶1 - aynı indirilişin şifa da kayıp da olması
+- 27:81: ref ¶1 - ancak inananın işitebilmesi
+- 37:13: ref ¶11 - öğüt verilince öğüt almamak
+- 51:55: ref ¶1 - öğüdün müminlere fayda vermesi
+- 71:6: ref ¶5 - çağrının kaçışı artırması
+- 74:26: context ¶22 (in 74:17) - aynı kişinin Sekar'a sokulması
+- 80:6: not relevant - kendini yeterli görene yöneliş; paragraflara bir şey katmıyor
+- 82:14: not relevant - yalnızca ateşe girme
+- 83:16: not relevant - yalnızca ateşe girme
+- 2:175: ref ¶7, ¶22 - fayda yerine zararı satın almak; ateşe katlanmalarına şaşılması
+- 20:100: ref ¶21 - öğütten yüz çevirenin yük taşıması
+- 21:50: not relevant - öğüdü inkâr; kenara koymaya bir şey katmıyor
+- 25:73: ref ¶7 - ayetlere sağır ve kör kapanmayanlar
+- 36:64: not relevant - yalnızca ateşe girme emri
+- 37:30: ref ¶16 - saptıranların uyanlar üzerinde bir gücü olmaması
+- 38:87: ref ¶1 - "âlemler için öğüt" nakaratı
+- 48:13: not relevant - inkârcılara hazırlanan ateş; genel
+- 50:8: ref ¶3 - öğüdün Rabbine yönelen kul için oluşu
+- 50:45: ref ¶3 - öğüdün tehditten korkana verilmesi
+- 59:17: not relevant - ateşte kalıcılık; konuyla bağı yok
+- 68:52: ref ¶1 - "âlemler için öğüt" nakaratı
+- 70:15: not relevant - yalnızca ateşin adı
+- 74:50: cited ¶5; nowhere else - paragraf açıklıyor
+- 79:36: not relevant - cehennemin ortaya çıkarılması; genel
+- 80:1: context ¶1 (in 80:4) - sahnenin başı
+- 84:12: not relevant - yalnızca ateşe girme
+- 92:7: cited ¶24; nowhere else - paragraf açıklıyor
+- 2:187: not relevant - oruç gecesi hükmü; uzak durmaya dair değil
+- 2:266: not relevant - yanan bahçe benzetmesi; bağı yok
+- 4:31: ref ¶6 - ictinâbın nesnesi büyük günahlar
+- 4:43: cited ¶8; nowhere else - paragraf açıklıyor
+- 4:103: ref ¶4 - yanlar üzerinde anmak
+- 9:35: not relevant - yanların dağlanması; yalnızca kelime ortak
+- 12:104: ref ¶1 - "âlemler için öğüt" nakaratı
+- 15:9: not relevant - öğüdün korunması
+- 16:35: ref ¶1 - elçiye düşenin yalnızca bildirmek oluşu
+- 17:68: not relevant - karanın yanının çökmesi; yalnızca kelime ortak
+- 22:30: cited ¶6; nowhere else - paragraf açıklıyor
+- 22:36: not relevant - kurbanların yanları üstüne düşmesi
+- 26:90: not relevant - bahçenin yaklaştırılması
+- 26:91: not relevant - cehennemin gösterilmesi
+- 26:214: not relevant - yakınları uyarma; ¶9'daki yakınlık anlamıyla bağı yok
+- 28:11: ref ¶10 - "cunub" ile uzaktan, yandan bakmak
+- 28:44: ref ¶12 - emrin verildiği batı yanı
+- 37:8: not relevant - her yandan atılmak; yalnızca kelime ortak
+- 43:2: not relevant - Kitap'a yemin
+- 47:6: not relevant - bahçenin tanıtılması
+- 49:12: ref ¶6 - ictinâbın nesnesi günah olabilecek zan
+- 55:43: not relevant - cehennemin yalanlanması; genel
+- 74:29: not relevant - ateşin nitelemesi
+- 74:35: ref ¶3 - ateş bağlamında "en büyüklerden biri"
+- 77:32: not relevant - ateşin kıvılcımı
+- 83:21: not relevant - yaklaştırılanlar; ¶13'teki yakınlıkla bağı kelimeden öte değil
+- 83:28: not relevant - aynı
+- 88:24: context ¶3 (in 88:21) - en büyük azap
+- 89:27: not relevant - huzura ermiş nefis
+- 90:11: not relevant - sarp yokuşun aşılmaması; öğütten uzak durmaya bağlanmıyor
+- 91:8: not relevant - fücur ve takvanın ilhamı; paragraflara bir şey katmıyor
+- 96:7: not relevant - kendini yeterli görme; yalnızca kelime ortak
+- 37:66: not relevant - zakkumdan yemek
+- 59:20: not relevant - genel karşılaştırma
+- 108:3: not relevant - bağı yok
+- 1:5: ref ¶15 - yardımın yalnızca Allah'tan istenmesi
+- 1:6: ref ¶23 - dâllînden önce dosdoğru yolun istenmesi
+- 4:34: not relevant - aile hükmü
+- 4:35: not relevant - şikâk başka kökten
+- 4:37: not relevant - cimrilik
+- 4:38: ref ¶10 - şeytanı yoldaş edinmek, yandaki arkadaşın karşıtı
+- 4:41: not relevant - tanıklık sahnesi
+- 4:42: not relevant - yerle bir olma dileği
+- 4:44: not relevant - sapıklığı satın alan kitap ehli; ¶8 ile bağı yok
+- 4:45: not relevant - Allah'ın velîliği
+- 11:103: ref ¶3 - işaretin ahiret azabından korkan için oluşu
+- 11:104: not relevant - günün ertelenmesi
+- 11:107: ref ¶22 - bedbahtların ateşte kalışının uzunluğu
+- 11:108: ref ¶18 - ayrımın mutlu olanlar yanı
+- 14:33: not relevant - nimetlerin sayılması
+- 14:34: not relevant - aynı
+- 14:37: not relevant - yerleşme duası; puttan uzak tutulmaya değmiyor
+- 14:38: not relevant - Allah'ın bilmesi
+- 16:34: not relevant - alay edenlerin sonu
+- 16:37: not relevant - Peygamber'in hırsı
+- 16:38: not relevant - dirilişin inkârı
+- 17:81: not relevant - hakkın gelmesi
+- 17:84: not relevant - herkesin kendi yaratılışına göre davranması
+- 17:85: not relevant - ruh sorusu
+- 19:40: not relevant - mirasçılık
+- 19:41: not relevant - İbrahim'in nitelemesi
+- 19:43: ref ¶17 - babaya sunulan öğüt
+- 19:44: ref ¶17 - aynı
+- 19:45: ref ¶17 - aynı, korkuyla
+- 19:50: not relevant - bağışlanan rahmet
+- 19:51: not relevant - Musa'nın anılması
+- 20:0: not relevant - besmele
+- 20:1: not relevant - harfler
+- 20:4: not relevant - indirenin nitelemesi
+- 20:5: not relevant - arşa istivâ
+- 20:115: not relevant - Âdem'in unutması; ¶21 zahmeti işliyor
+- 20:116: not relevant - İblis'in diretmesi
+- 20:120: not relevant - vesvese
+- 20:121: not relevant - yemek ve karşı gelmek
+- 20:122: not relevant - ictibâ başka kökten
+- 20:125: context ¶21 (in 20:126) - kör toplanmanın sorusu
+- 20:126: prose ¶21 - öğütten yüz çevirmenin adı olarak unutmak
+- 22:28: not relevant - hac menfaatleri
+- 22:29: not relevant - hac adapları
+- 22:31: not relevant - şirkin benzetmesi; ictinâba yeni bir şey katmıyor
+- 22:32: not relevant - şiarlara saygı
+- 23:103: not relevant - teraziler
+- 23:104: not relevant - yüzlerin yanması
+- 23:107: ref ¶23 - itiraftan sonra çıkarılma dileği
+- 23:108: ref ¶23 - dileğin reddi
+- 39:15: not relevant - hüsrandakiler
+- 39:16: ref ¶3 - ateşle kulları korkutmak
+- 39:19: ref ¶7 - azap sözü hak olanın kurtarılamaması
+- 39:20: not relevant - sakınanların köşkleri
+- 39:51: not relevant - kazandıklarının kötülüğü
+- 39:52: not relevant - rızkın genişletilmesi
+- 39:54: ref ¶13 - azaptan önce Rabbe yönelme çağrısı
+- 39:59: prose ¶13 - "Allah bana yol gösterseydi" sözünün cevabı
+- 39:60: not relevant - kararmış yüzler
+- 53:30: context ¶7 (in 53:29) - bilgilerinin eriştiği yer
+- 53:31: not relevant - genel karşılık
+- 53:33: ref ¶25 - yüz çevirip azıcık vermek
+- 53:34: ref ¶25 - aynı
+- 74:47: not relevant - ölümün gelişi
+- 74:48: ref ¶7 - fayda vermeyen şefaat
+- 74:52: not relevant - yalnızca "sayfalar" kelimesi ortak
+- 74:53: ref ¶3 - ahiretten korkmamak
+- 92:5: ref ¶24 - en kolay yolun sahibi
+- 92:6: ref ¶24 - aynı
+- 92:8: ref ¶24 - en zor yolun sahibi
+- 92:9: ref ¶24 - aynı
+- 92:11: ref ¶25 - malın düşene yarar sağlamaması
+- 92:12: ref ¶1 - yol göstermenin Allah'a ait oluşu
+- 92:13: not relevant - ahiret ve dünya
+- 92:19: context ¶25 (in 92:20) - karşılık beklenmeyen veriş
+- 92:20: prose ¶25, ref ¶3 - en yüce Rabbin yüzünü aramak
+- 88:22 own: context ¶3 (in 88:21) - öğüt verenin zorla hükmeden olmaması
+- 80:2 own: context ¶1 (in 80:4) - sahnedeki âma
+- 80:5 own: context ¶1 (in 80:4) - kendini yeterli gören
+- 80:7 own: not relevant - eklemede kullanılmadı, 80:3 yetiyor
+- 80:8 own: context ¶1 (in 80:4) - koşarak gelen
+- 80:9 own: context ¶1 (in 80:4) - içi titreyen
+- 80:10 own: not relevant - oyalanma
+- 91:11 own: context ¶3 (in 91:12) - Semûd'un yalanlaması
+- 91:13 own: context ¶3 (in 91:12) - elçinin uyarısı
+- 91:14 own: context ¶3 (in 91:12) - yalanlama ve devenin kesilmesi
+- 91:15 own: not relevant - sonucun korkusu yok
+- 91:10 own: ref ¶2 - nefsini örtenin hüsranı
+- 87:16 own: context ¶7 (in 53:29) - dünya hayatını üstün tutmak
+- 87:6 own: context ¶21 (in 20:126) - unutmama vaadi
+- 32:15 own: context ¶4 (in 32:16) - öğüt verilince secdeye kapananlar
+- 43:37 own: context ¶11 (in 43:36) - yoldaşların alıkoyması
+- 43:38 own: context ¶11 (in 43:36) - yoldaştan uzaklık dilemek
+- 45:23 own: prose ¶16 - hevesini ilah edinen
+- 45:7 own: not relevant - genel tehdit
+- 20:127 own: ref ¶22 - daha kalıcı azap
+- 74:17 own: prose ¶22 - ledgerın "çok uzak" gerekçesine cevap: ağır yokuş, sırtın kolay tırmanışının karşıtı
+- 74:18 own: context ¶22 (in 74:17) - düşünüp ölçüp biçmek
+- 74:19 own: not relevant - ara ayet
+- 74:20 own: not relevant - ara ayet
+- 74:21 own: not relevant - ara ayet
+- 74:22 own: not relevant - ara ayet
+- 74:23 own: context ¶22 (in 74:17) - sırtını dönüp büyüklenmek
+- 74:24 own: context ¶22 (in 74:17) - okunanı büyü saymak
+- 74:25 own: not relevant - 74:24 yetiyor
+- 72:16 own: not relevant - yağmur vaadi
+- 92:21 own: context ¶25 (in 92:20) - hoşnutluk
+- 6:25 own: not relevant - 6:26 yetiyor
+- 6:26 own: ref ¶5, ¶7 - ledgerın "17:83'ü tekrarlıyor" gerekçesine cevap: uzaklaşmanın nesnesi dinlenen söz ve yalnızca kendilerini helak etmeleri
+- 6:27 own: ref ¶13 - geri döndürülme dileği
+- 6:28 own: ref ¶13 - dönseler yine dönecekleri
+- 9:124 own: ref ¶7 - surenin müminlere iman katması
+- 9:125 own: ref ¶7 - hastalıklı kalplere pislik katması
+- 41:44 own: ref ¶7 - aynı Kur'an'ın şifa da körlük de olması
+- 71:7 own: ref ¶5 - parmakları kulaklara tıkamak
+- 27:80 own: ref ¶5 - arkasını dönüp giden sağır (30:52 ile nakarat)
+- 30:52 own: ref ¶5 - aynı nakarat
+- 25:27 own: ref ¶13 - elçiyle yol tutmuş olmayı dilemek
+- 25:28 own: ref ¶11 - dost edinmenin pişmanlığı
+- 31:7 own: ref ¶11 - işitmemiş gibi dönmek
+- 21:2 own: ref ¶11 - yeni öğüdü oyun içinde dinlemek
+- 36:46 own: ref ¶11 - 6:4 ile nakarat
+- 75:31 own: not relevant - 75:32 yetiyor
+- 75:32 own: ref ¶24 - "yalanlayıp yüz çevirme" nakaratı
+- 14:17 own: ref ¶22 - ölümün gelip ölünmemesi
+- 35:36 own: ref ¶22 - ölüme hükmedilmemesi
+- 43:77 own: ref ¶22 - "kalacaksınız" cevabı
+- 14:40 own: ref ¶15 - İbrahim'in Rabbinden istemesi
+- 12:33 own: ref ¶15 - kötülüğün uzaklaştırılmasını Rabden istemek
+- 12:34 own: ref ¶15 - Rabbin uzaklaştırması
+- 60:4 own: ref ¶17 - İbrahim'in taptıklarından uzak olması
+- 43:26 own: ref ¶17 - aynı
+- 43:27 own: ref ¶17 - kendisini yaratanın yol göstermesi
+- 5:6 own: ref ¶8 - cünübün arınması
+- 7:57 own: ref ¶12 - rahmetin önünde esen rüzgârlar
+- 28:46 own: ref ¶12 - Tûr'un yanından sesleniş
+- 18:6 own: ref ¶20 - kendini tüketecek gibi olmak
+- 26:3 own: ref ¶20 - aynı
+- 66:6 own: ref ¶25 - ateşten korunma buyruğu, sakınma kökü
+- 74:56 own: ref ¶1 - öğüt almanın Allah'ın dilemesine bağlı oluşu
+- 76:30 own: ref ¶1 - dilemenin Allah'ın dilemesine bağlı oluşu
+- 20:43 own: not relevant - gönderiliş emri; 20:44 yetiyor
+- 79:17 own: context ¶2 (in 79:18) - Firavun'a gönderiliş
+- 79:19 own: context ¶2 (in 79:18) - Rabbe götürüp içi titretmek
+- 79:20 own: context ¶2 (in 79:18) - en büyük ayet
+- 79:22 own: context ¶2 (in 79:18) - sırt dönüp koşturmak
+- 79:23 own: not relevant - toplayıp seslenmek
+- 79:24 own: ref ¶3 - "en yüce" sıfatını kendine yakıştırmak
+- 79:25 own: not relevant - genel ceza
+- 88:25 own: not relevant - dönüş
+- 14:22 own: ref ¶16 - şeytanın çağırmaktan başka gücü olmaması
+- 39:23 own: ref ¶3 - korkanların ürpermesi ve yumuşaması

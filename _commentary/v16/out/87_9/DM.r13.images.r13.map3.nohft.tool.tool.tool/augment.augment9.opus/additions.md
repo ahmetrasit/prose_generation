@@ -1,0 +1,104 @@
+## ¶1 · prose · 44:58 · applied
+
+**+** Duhân suresinin sonunda sekizinci ayetteki kolaylaştırma, doğrudan hatırlamaya bağlanır: {ar:فَإِنَّمَا يَسَّرْنَٰهُ بِلِسَانِكَ لَعَلَّهُمْ يَتَذَكَّرُونَ, tr:fe-innemâ yessernâhu bi-lisânike leallehum yeteẕekkerûn, gloss:Biz onu senin dilinle kolaylaştırdık ki hatırlasınlar, source:44:58}. Kök orada da Allah'ın kolaylaştırması anlamında geçer. Bizim surede kolaylaştırılan, elçinin kendisidir. Duhân'da ise kolaylaştırılan onun dilindeki sözdür ve bunun amacı dinleyenlerin hatırlamasıdır.
+
+## ¶2 · prose · 18:24 · applied
+
+**+** Kehf suresinde iki kök elçiye verilen tek bir cümlede karşı karşıya gelir. Ona hiçbir şey için "bunu yarın yapacağım" dememesi söylenir ({source:18:23}), sonra şöyle devam edilir: {ar:إِلَّآ أَن يَشَآءَ ٱللَّهُ ۚ وَٱذْكُر رَّبَّكَ إِذَا نَسِيتَ, tr:illâ en yeşâallâh, veẕkur rabbeke iẕâ nesîte, gloss:ancak "Allah dilerse" diyerek; unuttuğunda da Rabbini an, source:18:24}. Altıncı ve yedinci ayetteki üç öğe burada da yan yanadır: Allah'ın dilemesi, unutmak ve unutmanın karşısında zikir. Kehf'te zikir, unutma gerçekleştikten sonra ona çare olarak emredilir.
+
+## ¶2 · prose · 15:9 · applied
+
+**+** Kökün bir şeyi korumak anlamı, Hicr suresinde indirilen sözün kendisi için söylenmiş bir cümlede karşılığını bulur: {ar:إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ وَإِنَّا لَهُۥ لَحَٰفِظُونَ, tr:innâ nahnu nezzelne'ẕ-ẕikra ve innâ lehû le-hâfizûn, gloss:zikri Biz indirdik, onu koruyacak olan da elbette Biziz, source:15:9}. İndirilen söz "zikir" adını taşır ve onu korumayı Allah üstlenir. Altıncı ayette elçinin unutmaması da Allah'ın okutmasına bağlanmıştı.
+
+## ¶5 · prose · 21:24 · applied
+
+**+** On sekizinci ayetteki "bu" kelimesinin hem şimdi söyleneni hem de önceden söyleneni kapsaması, Enbiyâ suresinde elçiye söyletilen bir sözde açıkça kurulur. Allah'tan başka tanrılar edinenlere karşı elçiye şunu demesi emredilir: {ar:هَٰذَا ذِكْرُ مَن مَّعِىَ وَذِكْرُ مَن قَبْلِى, tr:hâẕâ ẕikru men maiye ve ẕikru men kablî, gloss:bu, benimle olanların zikri ve benden öncekilerin zikridir, source:21:24}. Sonraki ayet bu zikrin içeriğini söyler: Allah, elçiden önce gönderdiği her elçiye kendisinden başka ilah olmadığını ve yalnız kendisine kulluk edilmesi gerektiğini vahyetmiştir ({source:21:25}). Tek bir "bu" ile hem elçinin getirdiği söz hem de öncekilerin sözü aynı zikir olarak gösterilir.
+
+## ¶6 · prose · 50:45 · applied
+
+**+** Kâf suresinin son ayeti, bizim ayette söylenmeyen iki nesneyi aynı emirde birlikte verir: {ar:فَذَكِّرْ بِٱلْقُرْءَانِ مَن يَخَافُ وَعِيدِ, tr:fe-ẕekkir bi'l-kur'âni men yehâfu vaîd, gloss:tehdidimden korkana Kur'an'la hatırlat, source:50:45}. Kime hatırlatılacağı, onuncu ayette olduğu gibi korkuyla tarif edilir. Neyle hatırlatılacağı ise Kur'an diye adıyla söylenir. Aynı ayetin başında elçiye {ar:وَمَآ أَنتَ عَلَيْهِم بِجَبَّارٍۢ, tr:ve mâ ente aleyhim bi-cebbâr, gloss:sen onların üzerinde zor kullanan biri değilsin, source:50:45} denir ve hatırlatmanın sınırı da orada çizilir.
+
+## ¶7 · prose · 80:11 · applied
+
+**+** Abese suresinde gözleri görmeyen adamın sahnesinin hemen ardından, hatırlatmanın dinleyenin kendi anmasına geçişi iki kısa cümleyle söylenir: {ar:كَلَّآ إِنَّهَا تَذْكِرَةٌۭ, tr:kellâ innehâ teẕkira, gloss:hayır, bu bir hatırlatmadır, source:80:11}, {ar:فَمَن شَآءَ ذَكَرَهُۥ, tr:fe-men şâe ẕekerah, gloss:dileyen onu anar, source:80:12}. Hatırlatma ettirgen kalıptan bir adla verilir. Dinleyenin işi ise on beşinci ayetteki yalın fiille anlatılır. Birinden öbürüne geçiş dinleyenin dilemesine bırakılmıştır.
+
+## ¶8 · prose · 11:34 · applied
+
+**+** Şartın gizli tarafını Hûd suresinde Nûh kendi ağzıyla söyler. Kavmi ona tartışmayı fazla uzattığını söyler ve tehdit ettiği şeyi getirmesini ister ({source:11:32}). Nûh'un cevabında şu söz yer alır: {ar:وَلَا يَنفَعُكُمْ نُصْحِىٓ إِنْ أَرَدتُّ أَنْ أَنصَحَ لَكُمْ إِن كَانَ ٱللَّهُ يُرِيدُ أَن يُغْوِيَكُمْ, tr:ve lâ yenfeukum nushî in eradtu en ensaha lekum in kânallâhu yurîdu en yuğviyekum, gloss:Allah sizi azdırmak istiyorsa, ben size öğüt vermek istesem de öğüdüm size fayda vermez, source:11:34}. Aynı fiil burada nesnesiyle ve yine bir şart içinde gelir. Öğüdün fayda verip vermemesi, öğüt verenin isteğine değil Allah'ın iradesine bağlanır. Yedinci ayette gizli kalanı bilen de O'dur.
+
+## ¶8 · prose · 89:23 · applied
+
+**+** Şartın bir de zamanı vardır. Fecr suresinde cehennemin getirileceği gün için şöyle denir: {ar:يَوْمَئِذٍۢ يَتَذَكَّرُ ٱلْإِنسَٰنُ وَأَنَّىٰ لَهُ ٱلذِّكْرَىٰ, tr:yevme'iẕin yeteẕekkeru'l-insânu ve ennâ lehu'ẕ-ẕikrâ, gloss:o gün insan hatırlar, ama o hatırlama artık ona ne kazandırır, source:89:23}. Bizim ayetteki "zikrâ" kelimesi aynen geçer ve dönüşlü kalıptaki hatırlama da gerçekleşir, ama fayda gelmez. İnsan o gün yalnızca {ar:يَقُولُ يَٰلَيْتَنِى قَدَّمْتُ لِحَيَاتِى, tr:yekûlu yâ leytenî kaddemtu li-hayâtî, gloss:"keşke hayatım için önceden bir şey gönderseydim" der, source:89:24}.
+
+## ¶9 · prose · 20:44 · applied
+
+**+** Tâhâ suresinde, sonuca baştan hüküm vermeme en sert muhatap için bile emredilir. Allah Musa'yı kardeşiyle birlikte gönderir ({source:20:42}) ve Firavun'un azdığını söyler ({source:20:43}). Ama konuşmanın nasıl olacağını şöyle belirler: {ar:فَقُولَا لَهُۥ قَوْلًۭا لَّيِّنًۭا لَّعَلَّهُۥ يَتَذَكَّرُ أَوْ يَخْشَىٰ, tr:fe-kûlâ lehû kavlen leyyinen leallehû yeteẕekkeru ev yahşâ, gloss:ona yumuşak bir söz söyleyin, belki hatırlar ya da içi titrer, source:20:44}. Onuncu ayetin iki fiili, hatırlamak ve içi titremek, burada azdığı açıkça söylenen birine "belki" ile bağlanır.
+
+## ¶11 · prose · 20:124 · applied
+
+**+** Tâhâ suresi bedbahtlık kökünü sonlara doğru bir kez daha kullanır ve bu kez onu zikirden yüz çevirmeye bağlar. Oradan birlikte inmeleri emredilenlere şöyle denir: {ar:فَمَنِ ٱتَّبَعَ هُدَاىَ فَلَا يَضِلُّ وَلَا يَشْقَىٰ, tr:fe-meni'ttebea hudâye fe-lâ yedillu ve lâ yeşkâ, gloss:kim benim yol göstermeme uyarsa sapmaz ve bedbaht olmaz, source:20:123}. Ardından karşıtı gelir: {ar:وَمَنْ أَعْرَضَ عَن ذِكْرِى فَإِنَّ لَهُۥ مَعِيشَةًۭ ضَنكًۭا, tr:ve men a'rada an ẕikrî fe-inne lehû maîşeten danka, gloss:kim de benim zikrimden yüz çevirirse onun için dar bir geçim vardır, source:20:124}. Kıyamet günü kör olarak toplanan kişi bunun sebebini sorar ({source:20:125}). Cevap unutmayla verilir: {ar:كَذَٰلِكَ أَتَتْكَ ءَايَٰتُنَا فَنَسِيتَهَا ۖ وَكَذَٰلِكَ ٱلْيَوْمَ تُنسَىٰ, tr:keẕâlike etetke âyâtunâ fe-nesîtehâ ve keẕâlike'l-yevme tunsâ, gloss:işte böyle, ayetlerimiz sana geldi de sen onları unuttun; bugün de sen öyle unutuluyorsun, source:20:126}. Surenin başında elçi için reddedilen bedbahtlık, sonunda zikirden yüz çevirene ve kendisine gelen ayetleri unutana düşer.
+
+## ¶16 · prose · 69:12 · applied
+
+**+** Hâkka suresinde hatırlatmanın onu tutan bir şeye yerleşmesi açıkça söylenir, hem de yine suyla birlikte. Su taştığında insanların akıp giden gemide taşındığı anlatılır ({source:69:11}). Sonra bunun amacı söylenir: {ar:لِنَجْعَلَهَا لَكُمْ تَذْكِرَةًۭ وَتَعِيَهَآ أُذُنٌۭ وَٰعِيَةٌۭ, tr:li-nec'alehâ lekum teẕkiraten ve teiyehâ uẕunun vâiya, gloss:onu sizin için bir hatırlatma kılalım ve onu tutan bir kulak tutsun diye, source:69:12}. "Tutmak" diye çevrilen fiilin kökü, Yûsuf suresinde yüklerin konduğu kapların adıdır: kardeşlerin {ar:أَوْعِيَتِهِمْ, tr:ev'iyetihim, gloss:onların yük kapları, source:12:76} ve kardeşinin {ar:وِعَآءِ, tr:viâ', gloss:kap, source:12:76}. Kulağın hatırlatmayı tutması, kabın içindekini tutmasıyla aynı kökten söylenir.
+
+## ¶1 · refs · - · applied
+
+**+** Ayrıca: {source:16:44} zikrin önce elçiye indirilmesi, sonra onun bunu insanlara açıklaması; {source:26:194} sözün önce elçinin kalbine indirilip sonra uyarıya dönüşmesi; {source:75:16} {source:75:17} {source:75:18} {source:75:19} okutmayı, toplamayı ve açıklamayı Allah'ın üstlenmesi: altıncı ayetteki okutmanın bir başka anlatımı; {source:19:97} müjdelemek ve uyarmak için sözün elçinin dilinde kolaylaştırılması; {source:54:17} {source:54:22} {source:54:32} {source:54:40} Kur'an'ın zikir için kolaylaştırılması ve ardından hatırlayacak birinin aranması; {source:92:7} en kolay olana kolaylaştırma vaadinin Leyl suresinde başka bir kişi için söylenmesi; {source:52:29} hatırlatma emrinin, Rabbin nimetiyle verilen bir güvenceye bağlanması
+
+## ¶2 · refs · - · applied
+
+**+** Ayrıca: {source:6:68} şeytanın elçiye unutturabileceğinin ve hatırladıktan sonra yapılacak olanın söylenmesi: yedinci ayetteki istisnanın yanında unutma ihtimalini anar; {source:12:42} {source:23:110} {source:25:18} {source:58:19} zikrin unutturulması ya da unutulması: iki kökün Kur'an'ın kendi cümlelerinde karşı karşıya kurulması; {source:9:67} {source:59:19} Allah'ı unutanın unutulması ya da kendini unutturulması: unutmanın zikrin karşıtı olarak bir sonuca dönüşmesi
+
+## ¶4 · refs · - · applied
+
+**+** Ayrıca: {source:6:90} {source:12:104} {source:38:87} {source:68:52} {source:81:27} zikrin elçiden ve kavminden sonra bütün âlemlere uzanması; {source:6:19} uyarının kavmin ötesinde sözün ulaştığı herkese yönelmesi; {source:21:10} {source:23:71} {source:38:1} kitabın "sizin zikriniz" ve "zikir sahibi" diye anılması: hatırlatma ve şan anlamlarının birlikte durduğu yerler; {source:94:4} elçinin anılmasının yükseltilmesi: zikrin şan anlamıyla elçiye verilmesi; {source:2:63} {source:7:171} verileni kuvvetle tutma, sonra içindekini anma sırası; {source:7:170} kitaba sımsıkı tutunanlar: "sımsıkı tutun" emriyle aynı kökten tutunmanın karşılığı
+
+## ¶5 · refs · - · applied
+
+**+** Ayrıca: {source:21:48} {source:21:50} Musa ile Harun'a verilenin de sonradan indirilenin de aynı adla, zikir diye anılması; {source:28:43} Musa'ya kitabın, önceki nesiller helak edildikten sonra hatırlasınlar diye verilmesi; {source:40:53} {source:40:54} Musa'ya verilen ve mirasa kalan kitabın akıl sahipleri için bir hatırlatma olması; {source:16:43} {source:21:7} önceki kitapların ehlinin "zikir ehli" diye anılması; {source:43:45} öncekilere gönderilenin de aynı tevhid olduğunun önceki elçilere sorulmasıyla gösterilmesi; {source:37:168} "öncekilerden bir zikrimiz olsaydı" sözünde zikrin önceki sözün adı olması; {source:20:99} geçmişin haberlerinin anlatılması ve Allah katından verilen zikir; {source:46:21} Âd'ın kardeşinden önce ve sonra gelen uyarıcılar: aynı uyarının önceki sözlerde de bulunması; {source:65:10} {source:65:11} indirilen zikrin, Allah'ın ayetlerini okuyan bir elçiyle gelmesi; {source:50:8} gökte ve yerde görülenin Allah'a dönen her kul için bir hatırlatma olması; {source:51:49} her şeyin çift yaratılmasının hatırlamaya çağırması; {source:56:62} ilk yaratılışı bilenlerin hatırlamaya çağrılması; {source:56:73} yakılan ateşin bir hatırlatma kılınması; {source:16:17} yaratanla yaratmayanın bir olmadığının hatırlatılması; {source:23:85} yerin ve içindekilerin Allah'ın olduğunu kabul edenlere "hatırlamaz mısınız" denmesi; {source:35:3} yaratan ve gökten, yerden rızık verenin nimetini anma çağrısı; {source:88:17} {source:88:18} {source:88:19} {source:88:20} {source:88:21} deveye, göğe, dağlara ve yere bakmaya çağırdıktan sonra gelen "öyleyse hatırlat": görülenin hatırlatılması; {source:54:15} {source:54:51} geride bırakılan bir iz ve helak edilen benzerler karşısında hatırlayacak birinin aranması; {source:7:201} şeytandan gelen bir dokunuşla elden kaçanı hatırlayıp yeniden görmek; {source:16:90} öğüdün amacının hatırlama olması: öğüt ile hatırlamanın birbirinden ayrılması
+
+## ¶6 · refs · - · applied
+
+**+** Ayrıca: {source:14:5} Musa'ya verilen emirde iki nesnenin de söylenmesi: kavmi ve Allah'ın günleri; {source:20:3} hatırlatmanın içi titreyen için indirilmesi; {source:79:45} uyarının ondan korkana yönelmesi; {source:80:8} {source:80:9} koşarak gelen ve içi titreyen: hatırlatmanın yöneleceği kişinin sahnesi; {source:8:2} {source:22:35} Allah anılınca kalbi titreyenler; {source:21:49} zikrin verildiği muttakilerin, Rablerinden görmeden içi titreyenler diye tarif edilmesi; {source:36:11} uyarının, zikre uyan ve Rahman'dan görmeden korkan kişiye işlemesi; {source:36:69} {source:36:70} zikir olan Kur'an'ın diri olanı uyarması; {source:69:48} hatırlatmanın sakınanlar için olması; {source:29:51} okunan kitabın inanan bir kavim için hatırlatma olması; {source:13:19} {source:14:52} {source:38:29} hatırlayacak olanların akıl sahipleri diye adlandırılması
+
+## ¶7 · refs · - · applied
+
+**+** Ayrıca: {source:74:54} {source:74:55} hatırlatmanın dileyenin kendi anmasına geçmesi, Abese'deki sözün aynısıyla; {source:73:19} {source:76:29} hatırlatmanın ardından dileyenin Rabbine giden yolu tutması; {source:73:8} {source:76:25} elçiye "Rabbinin adını an" emri: dinleyenin on beşinci ayette yaptığı iş; {source:20:14} namazın Allah'ı anmak için kılınması: on beşinci ayette anma ile namazın bir arada olması; {source:11:114} namaz emrinin ardından hatırlatmanın anan kimselere yöneltilmesi; {source:37:13} hatırlatıldıkları hâlde anmayanlar: buluşmanın gerçekleşmediği yer; {source:25:73} hatırlatılınca sağır ve kör gibi kapanmayanlar: dinleyenin hatırlatmayı karşılaması
+
+## ¶8 · refs · - · applied
+
+**+** Ayrıca: {source:80:4} faydanın nesnesinin hatırlayan kişinin kendisi olarak söylenmesi; {source:51:55} faydanın nesnesinin inananlar olarak söylenmesi; {source:7:188} {source:10:49} Allah'ın dilediğinin dışında kendine bile fayda ya da zarar veremeyen ve gaybı bilmeyen elçi; {source:74:56} {source:76:30} {source:81:29} anmanın ve dilemenin Allah'ın dilemesine bağlanması: yedinci ayetteki dilemeyle aynı yön; {source:81:28} zikrin, doğru gitmeyi dileyen için olması; {source:39:22} {source:39:23} zikir karşısında katılaşan kalpler ile Rablerinden korkanların yumuşayan derileri ve kalpleri: faydanın gizli yeri; {source:50:37} hatırlatmanın kalbi olana ya da kulak verip orada bulunana işlemesi; {source:21:2} gelen zikri dinleyip oyalananlar: işitmek ile tutunmak arasındaki fark; {source:20:113} çeşitli uyarıların sakınma ya da zikir doğurması umudu; {source:17:41} {source:25:50} hatırlasınlar diye çeşitlendirilen sözün çoğunu yalnızca nefrete ve inkâra götürmesi; {source:17:82} aynı Kur'an'ın inananlara şifa olması, zalimlerin ise yalnızca kaybını artırması; {source:74:31} aynı bilginin kimine iman artışı, kimine fitne olması; {source:17:46} Rab tek olarak anılınca arkalarını dönüp kaçanlar: on birinci ayetteki uzak duruş; {source:74:49} {source:74:50} hatırlatmadan ürkmüş eşekler gibi kaçış: uzak duruşun sahnesi; {source:54:5} {source:10:101} uyarıların inanmayan bir kavme fayda sağlamaması; {source:44:13} {source:47:18} {source:79:35} vakti geçtikten sonra gelen hatırlama
+
+## ¶9 · refs · - · applied
+
+**+** Ayrıca: {source:50:45} hatırlatma emrinin "onların üzerinde zor kullanan değilsin" sözüyle birlikte gelmesi; {source:6:52} Rablerini sabah akşam çağıranları kovmama ve onların hesabının elçiye ait olmaması; {source:18:28} Rablerini çağıranlarla birlikte sabretme ve dünya süsü için gözleri onlardan ayırmama: Abese'deki sahnenin bir başka anlatımı; {source:6:69} sakınanların inkârcıların hesabından sorumlu olmaması, ama hatırlatmanın yine de yapılması; {source:6:70} dinini oyun edinenleri bırakma emri ile onunla hatırlatma emrinin tek ayette birleşmesi ve hatırlatmanın içeriğinin söylenmesi; {source:53:29} {source:53:30} zikirden yüz çevirip yalnız dünya hayatını isteyenden yüz çevirme ve kimin sapıp kimin doğru yolu bulduğunu Rabbin bilmesi; {source:16:125} güzel öğütle çağırma ve yoldan sapanı da yolu bulanı da Rabbin bilmesi; {source:43:5} aşırı giden bir kavimden bile zikrin esirgenmemesi; {source:27:80} {source:27:81} {source:30:52} {source:30:53} elçinin ölülere ve arkasını dönen sağırlara duyuramaması, ancak inanana duyurabilmesi; {source:43:40} sağıra duyurmanın ve köre yol göstermenin elçinin elinde olmaması; {source:13:7} {source:25:56} elçinin işinin uyarmak ve müjdelemekle sınırlanması
+
+## ¶10 · refs · - · applied
+
+**+** Ayrıca: {source:5:13} {source:5:14} {source:6:44} kendilerine hatırlatılanı unutanlar ve ardından gelen sonuç; {source:20:126} kendisine gelen ayetleri unutanın unutulması; {source:11:116} yeryüzünde bozgunculuğu yasaklayan azınlığın kurtarılması: kötülükten alıkoyanların kurtuluşu; {source:26:208} {source:26:209} helak edilen her kasabanın uyarıcılarının bulunması ve bunun bir hatırlatma olması, Allah'ın zulmetmemesi; {source:77:5} {source:77:6} zikrin bir mazeret ya da uyarı olarak bırakılması: öğüt verenlerin iki gerekçesinin karşılığı
+
+## ¶11 · refs · - · applied
+
+**+** Ayrıca: {source:7:2} indirilen kitaptan dolayı elçinin göğsünde bir darlık olmaması; {source:18:6} {source:26:3} {source:35:8} inanmayanlar yüzünden elçinin kendini tüketmemesi; {source:18:57} {source:32:22} hatırlatıldıktan sonra yüz çevirenin en büyük haksızlığı yapması; {source:72:17} Rabbinin zikrinden yüz çevirenin yüklendiği azap; {source:43:36} Rahman'ın zikrine gözünü kapatana bir şeytanın yoldaş kılınması; {source:92:14} {source:92:15} {source:92:16} ateşe yalnızca en bedbahtın girmesi ve onun yalanlayıp yüz çeviren diye tarif edilmesi; {source:88:23} {source:88:24} yüz çevirip inkâr edeni hatırlatıcının değil Allah'ın cezalandırması; {source:80:7} arınmamanın sorumluluğunun elçide olmaması; {source:43:41} {source:43:42} elçi görse de görmese de sonucun Allah'ın elinde olması
+
+## ¶12 · refs · - · applied
+
+**+** Ayrıca: {source:2:219} aynı şeyde faydanın ve büyük günahın bir arada bulunup birbiriyle tartılması
+
+## ¶13 · refs · - · applied
+
+**+** Ayrıca: {source:26:79} yediren ve içiren Rab: İbrahim'in sözünün surede otlağı çıkarana kadar uzanması; {source:21:64} {source:21:65} kavmin bir an kendine dönüp putların konuşmadığını kabul etmesi, sonra yeniden tersine dönmesi: İbrahim'in sorusunun hemen öncesi; {source:5:76} {source:6:71} {source:10:106} {source:13:16} {source:20:89} {source:22:12} fayda da zarar da veremeyene tapmanın sorgulanması: İbrahim'in ölçüsünün başka yerlerdeki tekrarı; {source:60:3} kıyamet günü akrabanın ve evladın fayda vermemesi; {source:63:9} malın ve evladın Allah'ı anmaktan alıkoymaması uyarısı; {source:2:123} {source:20:109} {source:74:48} o gün şefaatin fayda vermemesi; {source:6:158} vakti geçince imanın fayda vermemesi; {source:40:52} o gün zalimlere mazeretlerinin fayda vermemesi; {source:43:39} o gün azapta ortak olmanın bile fayda vermemesi; {source:10:98} imanı kendisine fayda veren tek kasaba: vaktinde gelen imanın faydası
+
+## ¶14 · refs · - · applied
+
+**+** Ayrıca: {source:13:18} sel misalinin hemen ardından Rabbine icabet edenlerle etmeyenlerin ayrılması; {source:14:24} {source:14:25} {source:14:26} kökü sağlam ağaç ile yerin üstünden koparılıp karar bulamayan ağaç: kalanla gidenin bir başka misali; {source:23:41} zalim bir kavmin selin sürüklediği çerçöpe çevrilmesi: beşinci ayetteki kelimenin insanlar için kullanılması
+
+## ¶16 · refs · - · applied
+
+**+** Ayrıca: {source:62:5} Tevrat yüklenip de onu taşımayanlar: üstte taşınan ile içte tutulan arasındaki fark
+
+## ¶17 · refs · - · applied
+
+**+** Ayrıca: {source:20:22} {source:20:23} değnekten sonra elin "bir başka ayet" diye anılması: değneğin de bir ayet olduğunu söyler; {source:2:60} {source:26:63} Musa'nın değneğiyle taşa ve denize vurması: gündelik değneğin ayete dönüşmesi
+

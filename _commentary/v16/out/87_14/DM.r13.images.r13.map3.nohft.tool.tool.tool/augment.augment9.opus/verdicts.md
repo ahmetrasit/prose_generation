@@ -1,0 +1,244 @@
+- 23:1: cited ¶17; ref ¶26 - kad eflaha kalıbının tekrarı
+- 30:39: cited ¶16; nowhere else - ¶16 explains it fully
+- 79:18: cited ¶24; context ¶25 (in 20:44) - the Nâziât wording of the same mission
+- 91:9: cited ¶26; nowhere else - ¶26 explains it
+- 91:10: cited ¶26; nowhere else - ¶26 explains it
+- 2:129: ref ¶21 - the messenger who recites and purifies
+- 2:151: ref ¶21 - the messenger who recites and purifies
+- 2:222: ref ¶3 - the same reflexive form for taking on purification
+- 3:77: ref ¶21 - those Allah will not purify
+- 4:49: cited ¶19; ref ¶21 - Allah purifies whom He wills
+- 5:90: ref ¶27 - avoiding filth tied to felâh, the praised direction of avoiding
+- 5:100: not relevant - good versus foul with felâh; no link to any paragraph's claim
+- 6:21: ref ¶28 - forgers do not reach felâh, beside 20:61
+- 7:8: ref ¶1 - felâh announced as the outcome of the weighing
+- 9:103: prose ¶15, ref ¶21 - alms purify and make grow; the messenger's act
+- 12:23: not relevant - lâ yuflihu said in another situation; shares only the verb
+- 16:116: ref ¶28 - forgers do not reach felâh
+- 19:19: ref ¶14 - zakiyy as a person's quality
+- 20:76: cited ¶28; context ¶11 (in 20:74) - the abiding gardens opposite "neither dies nor lives"
+- 23:4: cited ¶17; nowhere else - ¶17 explains it
+- 23:102: ref ¶1 - felâh as the verdict of the weighing
+- 24:21: cited ¶21; nowhere else - ¶21 explains it
+- 24:28: ref ¶14 - azkâ as rightness of conduct
+- 30:38: prose ¶16, ref ¶17 - givers seeking Allah's face named muflihûn, just before 30:39
+- 31:5: prose ¶17 - muflihûn defined by prayer, zakât and the hereafter
+- 35:18: cited ¶23; ref ¶2 - men tezekkâ: whoever purifies, purifies for himself
+- 53:32: cited ¶19; ref ¶27 - avoiding the great sins, the same avoiding verb
+- 62:10: ref ¶4 - much remembrance after prayer tied to felâh
+- 80:3: cited ¶22; nowhere else - ¶22 explains it
+- 80:7: cited ¶22; nowhere else - ¶22 explains it
+- 92:18: cited ¶17; context ¶4 (in 92:20) - the giver who purifies
+- 98:5: ref ¶17 - prayer and zakât together
+- 7:156: ref ¶27 - mercy written for those who fear Allah and give zakât
+- 9:112: not relevant - list of virtues; no specific link
+- 12:53: ref ¶19 - not declaring one's soul innocent
+- 19:13: ref ¶14 - zakât and taqiyy together
+- 22:77: ref ¶4 - bowing, prostrating and doing good tied to felâh
+- 23:60: ref ¶23 - giving with trembling hearts
+- 23:111: not relevant - fevz as reward of patience; only a synonym word
+- 24:37: ref ¶23 - remembrance, prayer, zakât and fear together
+- 33:33: ref ¶17, ¶21 - prayer and zakât; Allah wills to purify
+- 63:9: ref ¶4 - wealth distracting from remembrance means loss
+- 92:20: prose ¶4 - the giver turns to "rabbihi'l-a'lâ", the epithet of 87:1
+- 2:43: ref ¶17 - prayer and zakât command
+- 2:174: ref ¶21 - Allah will not purify them
+- 2:200: ref ¶13 - asking only for this world, no share in the hereafter
+- 3:42: not relevant - Maryam's election; different root, no link to the self-purifying act
+- 5:35: not relevant - felâh with striving; no link
+- 9:18: ref ¶23 - fearing only Allah, prayer, zakât
+- 9:88: not relevant - jihad and felâh; shares only the word
+- 9:108: ref ¶3 - yatatahharû: the same reflexive form
+- 19:55: ref ¶17 - prayer and zakât
+- 19:60: not relevant - repentance and paradise; general
+- 19:76: ref ¶13 - lasting good deeds are better
+- 20:64: cited ¶28; nowhere else - ¶28 explains it
+- 21:73: ref ¶17 - prayer and zakât
+- 24:52: not relevant - fevz for obedience; no specific link
+- 25:64: not relevant - night prostration; no link
+- 27:3: ref ¶17 - prayer, zakât, certainty of the hereafter
+- 28:67: not relevant - general felâh hope after repentance
+- 31:4: context ¶17 (in 31:5) - quoted within the Lokmân prose
+- 37:60: ref ¶11 - the deathless state of paradise called fevz
+- 38:49: not relevant - good return for the pious; general
+- 58:13: ref ¶17 - prayer and zakât command
+- 64:9: ref ¶10 - fevz together with eternal abiding
+- 65:5: not relevant - takva and expiation; no link
+- 79:37: ref ¶13 - the transgressor who preferred the near life
+- 88:3: not relevant - toiling faces; no link
+- 91:8: cited ¶26; nowhere else - ¶26 explains it
+- 92:17: cited ¶27; nowhere else - ¶27 explains it
+- 92:21: ref ¶27 - the one kept from the fire will be pleased
+- 96:10: not relevant - a servant prevented from praying; shares only sallâ
+- 2:5: ref ¶17 - muflihûn defined by prayer, spending, the hereafter
+- 2:189: not relevant - felâh with takva; no link
+- 2:232: ref ¶15 - azkâ beside athar
+- 2:277: ref ¶17 - prayer and zakât
+- 3:104: not relevant - enjoining good; no link
+- 3:130: ref ¶16 - abandoning riba tied to felâh
+- 3:164: ref ¶21 - the messenger who purifies
+- 3:200: not relevant - patience and felâh; general
+- 4:162: ref ¶17 - prayer and zakât
+- 5:12: ref ¶17 - prayer and zakât
+- 5:55: ref ¶17 - prayer and zakât
+- 6:135: ref ¶29 - the outcome of the abode, not today, decides felâh
+- 7:69: ref ¶4 - remembering blessings tied to felâh
+- 7:157: not relevant - followers of the messenger; general
+- 8:45: ref ¶4 - much remembrance tied to felâh
+- 9:5: ref ¶17 - prayer and zakât
+- 9:11: ref ¶17 - prayer and zakât
+- 9:71: ref ¶17 - prayer and zakât
+- 10:17: ref ¶28 - forger does not reach felâh
+- 10:69: ref ¶28 - forgers do not reach felâh
+- 10:77: ref ¶28 - Musa: sorcerers do not reach felâh
+- 18:20: not relevant - negated felâh in another situation; shares only the verb
+- 19:31: ref ¶17 - prayer and zakât
+- 20:48: ref ¶27 - punishment for who denies and turns away
+- 20:69: prose ¶28 - their felâh claim answered with the same verb
+- 22:41: ref ¶17 - prayer and zakât
+- 22:78: ref ¶17 - prayer and zakât command
+- 23:117: not relevant - negated felâh for disbelievers; only the verb
+- 24:51: not relevant - obedience and felâh; general
+- 28:37: ref ¶29 - the outcome of the abode; wrongdoers do not reach felâh
+- 41:7: ref ¶17 - withholding zakât and denying the hereafter, the reverse series
+- 56:29: not relevant - talh is another root
+- 59:9: ref ¶17 - guarded from the soul's avarice means felâh
+- 62:2: cited ¶21; nowhere else - ¶21 explains it
+- 64:16: ref ¶17 - guarded from the soul's avarice means felâh
+- 73:20: ref ¶12, ¶17 - good sent ahead found with Allah; prayer and zakât
+- 5:6: ref ¶4 - washing before prayer, purification ahead of prayer
+- 20:75: context ¶11 (in 20:74), ref ¶29 - high ranks given as reward
+- 26:136: ref ¶3 - indifference to the reminder
+- 39:54: not relevant - turning to the Lord; no specific link
+- 53:39: ref ¶2, ¶23 - only one's own striving
+- 74:51: ref ¶3 - fleeing the reminder like startled donkeys
+- 4:47: not relevant - warning to the people of the book; no link
+- 4:48: not relevant - shirk not forgiven; no link
+- 4:50: prose ¶20 - self-purification called forging lies against Allah
+- 4:51: ref ¶20 - verbal false judgment of who is better guided
+- 20:59: ref ¶28 - the "today" is the day of adornment
+- 20:60: cited ¶28 (pointed: hilesini toplayıp gelir); nowhere else - summarized there
+- 20:61: (cited ¶28) not listed separately
+- 20:62: cited ¶28 (pointed: fısıldaşır); nowhere else - summarized there
+- 20:63: not relevant - the accusation; adds nothing to any paragraph
+- 20:65: not relevant - narrative detail
+- 20:66: not relevant - narrative detail
+- 20:67: ref ¶28 - Musa's fear, the reason for "do not fear"
+- 20:70: cited ¶28 (pointed: secdeye kapanır); nowhere else - summarized there
+- 20:74: cited ¶29 (pointed: "bu hikâyede"); prose ¶11 - the same "neither dies nor lives" beside men tezekkâ
+- 20:77: not relevant - the crossing; no link
+- 20:78: not relevant - the drowning; no link
+- 23:0: not relevant - basmala
+- 23:3: not relevant - turning from idle talk; no link
+- 23:5: not relevant - guarding chastity; no link
+- 23:6: not relevant - no link
+- 24:19: not relevant - no link
+- 24:20: not relevant - repeats the lawlâ phrase without purification
+- 24:22: ref ¶21 - right after purification by grace, the people of grace told to keep giving
+- 24:23: not relevant - no link
+- 30:37: ref ¶16 - Allah expands and restricts provision
+- 30:40: not relevant - general creation and provision
+- 30:41: not relevant - no link
+- 35:16: not relevant - no link
+- 35:17: not relevant - no link
+- 35:19: not relevant - blind and seeing; no link
+- 35:20: not relevant - no link
+- 53:30: ref ¶20 - Allah knows best who is guided
+- 53:31: ref ¶2 - recompense by deeds
+- 53:33: ref ¶17 - turning away, giving little and stopping
+- 53:34: ref ¶17 - giving little and stopping
+- 62:0: not relevant - basmala
+- 62:1: not relevant - tesbih opening; no claim of a paragraph met
+- 62:3: not relevant - no link
+- 62:4: ref ¶21 - the purifying messenger is Allah's grace
+- 79:16: not relevant - the valley; no link
+- 79:17: cited ¶24 (pointed: azgınlaşan Firavun); nowhere else
+- 79:20: not relevant - the great sign; no link
+- 79:21: cited ¶24 (pointed: Firavun yalanlar); nowhere else
+- 79:22: not relevant - narrative detail
+- 79:23: not relevant - narrative detail
+- 79:25: ref ¶24 - Firavun seized by punishment
+- 79:26: ref ¶24 - a lesson for the one who fears
+- 80:0: not relevant - basmala
+- 80:5: cited ¶22 (pointed: kendini yeterli gören); nowhere else
+- 80:6: cited ¶22 (pointed); nowhere else
+- 80:8: cited ¶22 (pointed: koşarak gelen); nowhere else
+- 80:10: not relevant - neglect; adds nothing
+- 80:11: ref ¶22 - it is a reminder
+- 80:22: not relevant - resurrection; no link
+- 80:23: not relevant - no link
+- 80:25: cited ¶8 (pointed: suyun dökülüşü); nowhere else
+- 80:28: ref ¶8 - produce of the split earth
+- 80:29: ref ¶8 - produce of the split earth
+- 91:5: cited ¶26 (pointed: göğe yemin); nowhere else
+- 91:6: cited ¶26 (pointed: yere yemin); nowhere else
+- 91:11: ref ¶26 - Semûd's denial after the verdict of loss
+- 91:12: ref ¶26 - the most wretched rising up
+- 92:13: not relevant - no link
+- 92:14: cited ¶27 (pointed: alevlenen ateş); nowhere else
+- 92:16: ref ¶27 - the most wretched as the one who denied and turned away
+- 92:19: context ¶4 (in 92:20) - no favour to be repaid
+- 16:1 own: ref ¶1 - coming command stated in past tense
+- 2:111 own: context ¶2 (in 2:112) - the group-claim to paradise
+- 2:112 own: prose ¶2 - "men" tied to an act, not a group
+- 4:123 own: ref ¶2 - not by wishful claims but by deeds
+- 4:124 own: ref ¶2 - not by wishful claims but by deeds
+- 23:101 own: ref ¶2 - no lineage on that day
+- 20:3 own: ref ¶3 - reminder for one who fears
+- 74:49 own: ref ¶3 - turning from the reminder
+- 74:50 own: ref ¶3 - startled donkeys
+- 73:8 own: ref ¶4 - remember the name of your Lord
+- 76:25 own: ref ¶4 - remember the name of your Lord
+- 20:14 own: ref ¶4 - prayer for remembrance
+- 2:264 own: prose ¶6 - hard rock where rain leaves nothing; showy giving
+- 2:265 own: context ¶6 (in 2:264), ref ¶16, ¶18 - doubled yield; strengthening oneself by giving
+- 56:63 own: prose ¶8 - man tills, Allah makes it grow
+- 56:64 own: context ¶8 (in 56:63) - who makes it grow
+- 56:65 own: ref ¶9 - crop turned to debris if He wills
+- 6:141 own: ref ¶9 - the crop's due at harvest
+- 18:45 own: ref ¶9 - near life as plants turned chaff
+- 18:46 own: ref ¶13 - lasting good deeds are better
+- 44:56 own: ref ¶11 - no death but the first
+- 44:57 own: ref ¶11 - called the great fevz
+- 37:58 own: ref ¶11 - "we shall not die"
+- 37:59 own: ref ¶11 - only the first death
+- 14:17 own: ref ¶11 - death comes yet he does not die
+- 35:36 own: ref ¶11 - not decreed to die in the fire
+- 43:77 own: ref ¶11 - "you will remain"
+- 2:187 own: ref ¶12 - eating till dawn in the fast
+- 16:96 own: ref ¶12 - yours runs out, Allah's remains
+- 2:197 own: ref ¶12 - the best provision is takva
+- 20:71 own: context ¶13 (in 20:72) - Firavun claims "ebkâ" for his punishment
+- 20:72 own: prose ¶13 - âsara and el-hayâtu'd-dunyâ in the sorcerers' refusal
+- 20:73 own: cited ¶29 (pointed); context ¶13 (in 20:72) - "Allah hayrun ve ebkâ"
+- 28:60 own: ref ¶13 - what is with Allah is better and more lasting
+- 42:36 own: ref ¶13 - what is with Allah is better and more lasting
+- 20:131 own: ref ¶13 - your Lord's provision is better and more lasting
+- 79:38 own: ref ¶13 - preferred the near life
+- 79:39 own: ref ¶13 - hell the abode
+- 79:40 own: ref ¶26 - restraining the soul
+- 79:41 own: ref ¶26 - paradise the abode
+- 42:20 own: ref ¶13 - harvest of the hereafter versus of this world
+- 2:276 own: ref ¶16 - riba erased, charity increased
+- 2:261 own: ref ¶16 - a grain growing seven ears
+- 34:39 own: ref ¶16 - what is spent is replaced
+- 31:2 own: not relevant - names the book; the link lies in 31:3-5
+- 31:3 own: context ¶17 (in 31:5) - guidance and mercy for the doers of good
+- 2:3 own: ref ¶17 - prayer and spending
+- 2:4 own: ref ¶17 - certainty of the hereafter
+- 48:29 own: prose ¶18 - people of prayer likened to a growing crop
+- 20:43 own: context ¶25 (in 20:44), ref ¶24 - the mission to Firavun
+- 20:44 own: prose ¶25, ref ¶24 - yetezekkeru in the slot where Nâziât has tezekkâ
+- 20:50 own: ref ¶21 - the Lord who gave creation then guided
+- 50:45 own: ref ¶22 - remind the one who fears; not a tyrant over them
+- 51:55 own: ref ¶22 - the reminder benefits believers
+- 88:21 own: ref ¶22 - only a reminder
+- 88:22 own: ref ¶22 - not a controller over them
+- 17:15 own: ref ¶23 - guided for himself; no bearer bears another's load
+- 36:11 own: ref ¶23 - warning benefits one who follows the reminder and fears unseen
+- 53:38 own: ref ¶23 - no bearer bears another's load
+- 75:38 own: ref ¶26 - khalaqa fa-sawwâ
+- 82:7 own: ref ¶26 - created and fashioned you
+- 16:59 own: ref ¶26 - the same root as dessâ: burying in soil
+- 28:4 own: context ¶29 (in 28:83) - Firavun exalted himself in the land
+- 28:83 own: prose ¶29 - the hereafter for those not seeking height in the land

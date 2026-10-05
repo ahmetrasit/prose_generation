@@ -1,0 +1,323 @@
+- 3:145: ref ¶25 - written term beside wanting worldly or akhira reward
+- 3:152: ref ¶2 - believers wanting dunya: ordering, not denial
+- 4:74: ref ¶6 - selling near life for akhira, reverse direction of the trade
+- 4:77: ref ¶3 - same nominal judgement "akhira better"
+- 4:134: ref ¶3 - both rewards with Allah for one wanting only dunya
+- 6:32: ref ¶16, ¶20 - akhira-better refrain; play-and-amusement refrain
+- 6:130: ref ¶2 - near life deceived them, refrain
+- 8:67: ref ¶16 - 'arad of the near, plural address
+- 9:24: ref ¶5 - "more beloved than Allah": ranking by love
+- 9:38: ref ¶3, ¶14 - "rather than the akhira" stated; sinking to the earth
+- 10:7: ref ¶5 - content and settled with near life
+- 10:24: ref ¶18 - same water-and-plant parable
+- 11:16: ref ¶9 - outcome of wanting near life (with 11:15)
+- 13:26: ref ¶3 - near life only an enjoyment beside the akhira
+- 14:3: prose ¶3 - "istahabba ... 'ala'l-akhira" names the unnamed second object
+- 16:96: prose ¶7 - what is with you runs out, what is with Allah remains
+- 16:107: context ¶3 (in 14:3) - same wording in the past tense
+- 17:18: ref ¶4, ¶9 - wanting al-'ajila; two sides and two ends
+- 17:19: ref ¶9 - wanting the akhira and striving for it
+- 18:45: cited ¶18; nowhere else - ¶18 is ¶17's own continuation
+- 18:46: cited ¶18; ref ¶7 - lastingness given to righteous deeds
+- 20:72: cited ¶8, ¶16; nowhere else - fully explained there
+- 20:131: prose ¶17, ref ¶8 - near life as "blossom" against "better and more lasting"
+- 28:60: ref ¶7 - "what is with Allah is better and more lasting", refrain
+- 28:61: ref ¶9 - promised good set against near-life enjoyment
+- 29:64: cited ¶20; nowhere else - explained there
+- 30:7: ref ¶10 - outward of near life known, akhira forgotten
+- 31:33: ref ¶2 - "let not near life deceive you", refrain
+- 33:28: ref ¶9 - the choice still laid open
+- 33:29: ref ¶9 - other side of that choice
+- 40:39: ref ¶7, ¶16 - abode of settlement; demonstrative "this"
+- 42:20: ref ¶9 - tilth of akhira versus tilth of dunya
+- 42:36: ref ¶7 - "better and more lasting" refrain
+- 43:35: ref ¶3 - enjoyment of near life, akhira for the muttaqin
+- 45:35: ref ¶2 - deceived by near life, refrain
+- 46:20: ref ¶21 - good things used up in near life instead of sent ahead
+- 47:36: ref ¶20 - play-and-amusement refrain
+- 57:20: ref ¶2, ¶18, ¶20 - enjoyment of deception; plant parable; play refrain
+- 75:20: cited ¶4; nowhere else - explained there
+- 75:21: cited ¶4; nowhere else - explained there
+- 79:38: cited ¶9; nowhere else - explained there
+- 79:39: cited ¶9; nowhere else - explained there
+- 2:86: ref ¶3, ¶6 - akhira as the price given up; buying direction
+- 2:96: prose ¶19 - wish for a thousand-year life does not save
+- 2:200: ref ¶9 - "give us in dunya", no share in the akhira
+- 2:201: ref ¶12 - good in both: the first is ranked, not rejected
+- 2:212: ref ¶14 - the God-fearing above on the Day
+- 3:14: ref ¶5 - beloved desires counted as enjoyment of near life
+- 3:148: ref ¶12 - worldly reward together with the better reward of the akhira
+- 3:185: ref ¶2 - enjoyment of deception, refrain with 57:20
+- 4:94: ref ¶16 - 'arad of near life
+- 4:109: not relevant - pleading for others, no link
+- 6:29: prose ¶10 - deniers of the beyond still call their life "the nearer"
+- 6:70: ref ¶2 - deceived by near life, refrain
+- 7:51: ref ¶2 - deceived by near life, refrain
+- 7:169: cited ¶16; nowhere else - explained there
+- 8:24: ref ¶19 - the call that gives life
+- 8:42: cited ¶11; nowhere else - explained there
+- 10:56: not relevant - general giving of life and death, root only
+- 10:64: not relevant - good tidings in both, no link
+- 10:88: ref ¶8 - Pharaoh's adornment is "in near life", the reach of his rule
+- 11:15: ref ¶9 - with 11:16
+- 13:34: not relevant - punishment in both, no link
+- 16:41: not relevant - reward of emigrants, no link
+- 16:65: ref ¶17 - rain gives life to the earth
+- 16:97: ref ¶19 - a "good life": life qualified by good
+- 18:28: ref ¶2 - heedlessness of dhikr beside wanting worldly adornment
+- 18:104: ref ¶9 - effort lost in near life
+- 20:84: ref ¶25 - "on my track" is the plain athar-following usage; the phrase stands apart from 20:85, so the ledger's ambiguity does not touch it
+- 20:96: not relevant - meaning of "trace of the messenger" disputed
+- 22:11: not relevant - worship on an edge, no link
+- 23:37: context ¶10 (in 6:29) - same denial wording
+- 26:81: not relevant - root only
+- 28:77: ref ¶12 - seek the akhira, not forgetting one's share
+- 28:79: ref ¶21 - the "keşke" aimed at near life (with 28:80)
+- 30:50: ref ¶17, ¶24 - traces of mercy giving life to the earth
+- 32:21: ref ¶12 - adna as the lesser and earlier punishment against the greater
+- 34:37: not relevant - nearness to Allah, different root and claim
+- 35:5: ref ¶2 - deception refrain
+- 36:12: cited ¶24; ref ¶21 - what was sent forward is written
+- 37:70: ref ¶26 - rushing in the fathers' traces
+- 39:10: not relevant - no link
+- 39:26: not relevant - no link
+- 40:21: prose ¶22 - nations' traces in the land did not protect them
+- 40:51: not relevant - no link
+- 40:82: context ¶22 (in 40:21) - repeat of the same verdict
+- 43:22: ref ¶26 - fathers' traces called guidance
+- 46:4: cited ¶29; nowhere else - explained there
+- 53:29: prose ¶2 - turning from dhikr and wanting only near life together
+- 53:44: context ¶28 (in 53:36) - part of the scrolls' list
+- 57:27: ref ¶26 - messengers sent on earlier traces
+- 63:9: ref ¶2 - wealth and children distracting from dhikr
+- 64:15: not relevant - general trial
+- 77:26: not relevant - no link
+- 79:37: cited ¶9; nowhere else - explained there
+- 89:24: cited ¶21; nowhere else - explained there
+- 102:1: ref ¶25 - rivalry until the graves (with 102:2)
+- 2:204: not relevant - no link
+- 3:196: ref ¶25 - with 3:197
+- 3:197: ref ¶25 - brief enjoyment, then the shelter
+- 10:23: ref ¶25 - enjoyment, then return
+- 10:70: ref ¶25 - enjoyment, then return
+- 12:91: cited ¶6; nowhere else - explained there
+- 15:3: prose ¶25 - enjoyment ahead, the term following
+- 16:95: context ¶7 (in 16:96) - what is with Allah is better
+- 16:109: ref ¶9 - losers in the akhira
+- 17:10: not relevant - no link
+- 17:21: ref ¶12 - akhira greater in rank: the order of value
+- 18:34: ref ¶7 - with 18:35
+- 18:35: ref ¶7 - thinks his garden will never perish
+- 23:56: not relevant - shares only bal
+- 23:74: not relevant - no link
+- 26:207: ref ¶25 - with 26:205-206
+- 27:4: not relevant - no link
+- 28:80: ref ¶21 - with 28:79
+- 28:83: ref ¶14 - akhira for those not seeking height on earth
+- 31:24: ref ¶25 - brief enjoyment, then punishment
+- 38:31: not relevant - with 38:32
+- 38:32: not relevant - sense of "عن ذكر ربي" disputed
+- 53:25: ref ¶12 - akhira and "the first" both Allah's
+- 62:11: ref ¶1 - a daily scene of putting something first
+- 76:27: prose ¶4 - revelation, dhikr of the Lord's name, then love of al-'ajila
+- 77:46: ref ¶25 - "eat and enjoy a little"
+- 93:4: prose ¶12 - akhira set directly against "al-ula"
+- 2:61: cited ¶15; nowhere else - explained there
+- 3:157: ref ¶7 - "better than what they gather", refrain
+- 3:176: not relevant - no link
+- 5:100: not relevant - no link
+- 7:176: ref ¶14 - clinging to the earth instead of being raised
+- 9:69: ref ¶26 - enjoying as earlier peoples enjoyed
+- 10:58: ref ¶7 - refrain
+- 12:20: not relevant - no link
+- 16:55: ref ¶25 - "enjoy, you will soon know", refrain
+- 18:7: ref ¶18 - adornment of the earth (with 18:8)
+- 20:73: cited ¶8; ref ¶7 - "more lasting" given to Allah
+- 26:205: ref ¶25 - with 26:206-207
+- 43:32: ref ¶7 - refrain
+- 43:33: ref ¶3 - with 43:34-35
+- 44:9: not relevant - no link
+- 69:23: ref ¶16 - paradise fruits "near"
+- 75:5: ref ¶2 - bal turning to man's real wish
+- 89:20: context ¶2 (in 89:17) - love of wealth in the bal-sequence
+- 91:10: ref ¶1 - with 91:9
+- 102:2: ref ¶25 - with 102:1
+- 103:1: not relevant - oath only
+- 2:154: ref ¶20 - the slain alive: life not ending with near life
+- 2:179: not relevant - no link
+- 2:243: not relevant - no link
+- 2:258: not relevant - no link
+- 2:259: not relevant - no link
+- 3:117: not relevant - shares only the demonstrative
+- 5:46: ref ¶26 - sent on their traces, refrain with 57:27
+- 7:152: not relevant - no link
+- 9:55: not relevant - no link
+- 9:74: not relevant - no link
+- 9:85: not relevant - no link
+- 30:3: ref ¶11 - adna as plain geography
+- 43:23: cited ¶26; nowhere else - explained there
+- 47:12: ref ¶17 - eating as cattle eat
+- 48:29: prose ¶23 - trace of prostration on faces
+- 67:5: ref ¶11 - "the nearest heaven", refrain
+- 74:24: cited ¶29; nowhere else - explained there
+- 75:40: not relevant - no link
+- 5:32: not relevant - no link
+- 27:66: not relevant - shares only bal
+- 53:8: not relevant - root only
+- 53:22: not relevant - no link
+- 77:25: not relevant - no link
+- 82:14: not relevant - no link
+- 2:59: not relevant - an exchange of words, a different object
+- 2:60: ref ¶15 - water and provision given before the lower was asked for
+- 2:62: not relevant - no link
+- 2:63: ref ¶16 - hold it firmly and remember, refrain with 7:171
+- 7:167: not relevant - no link
+- 7:168: not relevant - no link
+- 7:171: ref ¶16 - refrain with 2:63
+- 7:172: not relevant - no link
+- 8:40: not relevant - no link
+- 8:41: not relevant - no link
+- 8:43: not relevant - no link
+- 8:44: not relevant - no link
+- 12:89: not relevant - no link
+- 12:90: not relevant - no link
+- 12:92: not relevant - no link
+- 12:93: not relevant - no link
+- 18:43: not relevant - no link
+- 18:44: ref ¶18 - best reward and end are Allah's
+- 18:47: not relevant - no link
+- 18:48: not relevant - no link
+- 20:70: cited ¶8 (described); nowhere else - prostration already narrated
+- 20:71: prose ¶8 - Pharaoh claims "more lasting" for his punishment
+- 20:74: prose ¶20 - "neither dies nor lives" right after the magicians
+- 20:75: context ¶20 (in 20:74), ref ¶14 - the highest ranks, root of a'la
+- 29:62: not relevant - no link
+- 29:63: cited ¶20 (described); ref ¶2 - they acknowledge Allah and still do not reason
+- 29:65: ref ¶2 - knowing in hardship, turning when rescued
+- 29:66: ref ¶25 - "let them enjoy, they will know", refrain
+- 36:9: not relevant - no link
+- 36:10: not relevant - no link
+- 36:13: not relevant - no link
+- 36:14: not relevant - no link
+- 43:21: ref ¶29 - asked whether they hold an earlier book
+- 43:24: ref ¶26 - better guidance than the fathers' track
+- 43:25: not relevant - general end of deniers
+- 46:2: not relevant - no link
+- 46:3: ref ¶2, ¶13 - turning from the warning; creation with a named term
+- 46:5: not relevant - no link
+- 46:6: not relevant - no link
+- 59:7: not relevant - no link
+- 59:8: cited ¶6 (described); nowhere else - the emigrants already narrated
+- 59:10: not relevant - no link
+- 59:11: not relevant - no link
+- 74:16: not relevant - no link
+- 74:17: not relevant - no link
+- 74:20: not relevant - repeats 74:19, already quoted
+- 74:21: ref ¶29 - stages before the verdict
+- 74:22: ref ¶29 - stages before the verdict
+- 74:23: ref ¶29 - stages before the verdict
+- 74:25: ref ¶29 - "only human speech" completes the verdict
+- 74:26: not relevant - no link
+- 75:14: ref ¶2 - bal: man a witness over himself
+- 75:15: ref ¶2 - even while offering excuses
+- 75:18: ref ¶4 - the promise of preservation continues
+- 75:19: ref ¶4 - explanation is upon Allah
+- 75:22: ref ¶4 - the akhira that is left behind
+- 75:23: ref ¶4 - faces looking to their Lord
+- 79:33: prose ¶17 - pasture as enjoyment just before the preferring
+- 79:34: cited ¶9 (described); nowhere else - the great calamity already named
+- 79:36: not relevant - a scene detail only
+- 79:41: ref ¶9 - paradise as the shelter of the other side
+- 79:42: not relevant - no link
+- 89:21: cited ¶21 (described); nowhere else
+- 89:22: cited ¶21 (described); nowhere else
+- 89:25: not relevant - no link
+- 89:26: not relevant - no link
+- 89:17 own: prose ¶2 - bal plus plural present: ikram withheld, wealth loved
+- 89:15 own: context ¶2 (in 89:17) - man's claim that bal turns from
+- 89:16 own: context ¶2 (in 89:17) - man's claim that bal turns from
+- 89:18 own: context ¶2 (in 89:17) - listed behaviour
+- 89:19 own: context ¶2 (in 89:17) - listed behaviour
+- 53:30 own: ref ¶2 - wanting only near life is the limit of their knowledge
+- 76:23 own: context ¶4 (in 76:27) - Quran sent down to the Prophet
+- 76:24 own: context ¶4 (in 76:27) - patience
+- 76:25 own: context ¶4 (in 76:27) - remembering the Lord's name, like 87:15
+- 76:26 own: context ¶4 (in 76:27) - prostration and glorification
+- 55:27 own: prose ¶7 - the Lord's face remains, yebkâ
+- 55:26 own: context ¶7 (in 55:27) - all on earth perish
+- 55:28 own: not relevant - refrain only
+- 28:88 own: ref ¶7 - everything perishes except His face
+- 20:64 own: prose ¶8 - falah defined as gaining the upper hand
+- 20:62 own: context ¶8 (in 20:64) - who speaks, as the ayah gives it
+- 20:63 own: not relevant - accusation against the two, no link
+- 20:65 own: not relevant - no link
+- 20:68 own: context ¶8 (in 20:64) - "you are the uppermost"
+- 20:69 own: context ¶8 (in 20:64) - the sorcerer does not succeed
+- 7:125 own: ref ¶8 - parallel answer of the magicians
+- 7:126 own: ref ¶8 - parallel answer of the magicians
+- 26:50 own: ref ¶8 - parallel answer of the magicians
+- 26:51 own: ref ¶8 - parallel answer of the magicians
+- 6:27 own: context ¶10 (in 6:29) - who the speakers are
+- 6:28 own: not relevant - beyond the link
+- 45:24 own: context ¶10 (in 6:29) - same denial; "no knowledge of it"
+- 93:3 own: not relevant - not needed for the link
+- 93:5 own: not relevant - no link
+- 92:13 own: ref ¶12 - akhira and the first both Allah's
+- 57:21 own: ref ¶12 - race to forgiveness after the parable
+- 22:5 own: ref ¶13 - womb held until a named term
+- 7:160 own: ref ¶15 - parallel listing of the better provision
+- 2:57 own: cited ¶15 (described); nowhere else - cloud, manna and quails already narrated
+- 12:109 own: ref ¶16 - akhira-better refrain
+- 79:31 own: context ¶17 (in 79:33) - water and pasture brought out
+- 79:30 own: not relevant - no link
+- 79:32 own: not relevant - no link
+- 37:6 own: ref ¶11 - "nearest heaven" refrain
+- 41:12 own: ref ¶11 - "nearest heaven" refrain
+- 18:8 own: ref ¶18 - adornment made barren soil
+- 2:94 own: context ¶19 (in 2:96) - claim of an exclusive akhira
+- 2:95 own: context ¶19 (in 2:96), ref ¶21 - what their hands sent forward
+- 59:18 own: prose ¶21 - command to look at what one sends ahead for tomorrow
+- 59:17 own: not relevant - no link
+- 59:19 own: not relevant - beyond the link
+- 75:13 own: ref ¶21 - sent forward and held back, refrain with 82:5
+- 82:5 own: ref ¶21 - adds the held-back side, which 36:12 and 89:24 lack; this answers the ledger's "redundant"
+- 78:40 own: ref ¶21 - looking at what one's hands sent forward
+- 40:20 own: not relevant - no link
+- 48:28 own: not relevant - no link
+- 36:65 own: ref ¶23 - feet bear witness
+- 53:36 own: prose ¶28 - the content of the scrolls of Musa and Ibrahim
+- 53:37 own: context ¶28 (in 53:36) - Ibrahim's scrolls
+- 53:38 own: not relevant - bearing of burdens, beyond the link
+- 53:39 own: context ¶28 (in 53:36), ref ¶9 - only what one strove for
+- 53:40 own: context ¶28 (in 53:36), ref ¶23 - striving will be seen
+- 53:41 own: context ¶28 (in 53:36) - full recompense
+- 15:2 own: context ¶25 (in 15:3) - who is meant
+- 15:4 own: context ¶25 (in 15:3) - a known writ for every town
+- 15:5 own: context ¶25 (in 15:3) - no nation outstrips its term
+- 7:34 own: ref ¶25 - term neither delayed nor advanced, refrain
+- 10:49 own: ref ¶25 - same refrain
+- 16:61 own: ref ¶25 - same refrain
+- 26:206 own: ref ¶25 - with 26:205, 26:207
+- 43:34 own: ref ¶3 - with 43:33, 43:35
+- 91:9 own: ref ¶1 - same "qad aflaha" plus purifying as 87:14
+- 2:177 own: ref ¶6 - giving wealth despite love
+- 76:8 own: ref ¶6 - giving food despite love
+- 2:170 own: ref ¶26 - "bal, we follow our fathers", refrain
+- 31:21 own: ref ¶26 - same refrain
+- 37:69 own: ref ¶26 - with 37:70
+- 14:2 own: context ¶3 (in 14:3) - who is described
+- 16:94 own: not relevant - no link
+- 16:98 own: not relevant - no link
+- 23:35 own: not relevant - no link
+- 23:36 own: not relevant - no link
+- 26:84 own: ref ¶27 - a tongue of truth among later generations
+- 37:78 own: ref ¶27 - "left for him among the later ones", refrain
+- 37:108 own: ref ¶27 - same refrain
+- 37:119 own: ref ¶27 - same refrain
+- 37:129 own: ref ¶27 - same refrain
+- 23:44 own: ref ¶27 - destroyed peoples made into tales
+- 34:19 own: ref ¶27 - destroyed peoples made into tales
+- 20:133 own: ref ¶28 - "what is in the first scrolls"
+- 26:196 own: ref ¶28 - in the scriptures of the earlier ones
+- 68:15 own: ref ¶29 - "tales of the ancients", refrain
+- 83:13 own: ref ¶29 - same refrain

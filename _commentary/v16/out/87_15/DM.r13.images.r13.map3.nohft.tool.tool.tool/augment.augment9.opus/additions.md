@@ -1,0 +1,140 @@
+## ¶1 · prose · 32:15 · applied
+
+**+** Secde suresinde de hatırlatılan sözle bedenin yere inmesi arasına zaman girmez: {ar:إِنَّمَا يُؤْمِنُ بِـَٔايَٰتِنَا ٱلَّذِينَ إِذَا ذُكِّرُوا۟ بِهَا خَرُّوا۟ سُجَّدًۭا وَسَبَّحُوا۟ بِحَمْدِ رَبِّهِمْ وَهُمْ لَا يَسْتَكْبِرُونَ, tr:innemâ yu'minu bi-âyâtine'lleẕîne iẕâ ẕukkirû bihâ harrû succeden ve sebbehû bi-hamdi rabbihim ve hum lâ yestekbirûn, gloss:ayetlerimize ancak, onlarla öğüt verildiğinde secdeye kapanan, Rablerini hamd ile tesbih eden ve büyüklenmeyenler inanır, source:32:15}. Orada da bir insan türü geçmiş kip biçimindeki fiillerle tanıtılır ve bu fiiller birbirine bağlanır: hatırlatma secdeye, secde de Rablerinin tesbihine varır. Bu surenin dokuzuncu ayetindeki hatırlatma, birinci ayetindeki tesbih ve on beşinci ayetindeki bedenin işi orada tek bir cümlede birbirini izler.
+
+## ¶3 · prose · 92:20 · applied
+
+**+** Leyl suresi bu iki portreyi aynı kelimelerle karşı karşıya koyar. Bir yanda {ar:لَا يَصْلَىٰهَآ إِلَّا ٱلْأَشْقَى, tr:lâ yaslâhâ ille'l-eşkâ, gloss:ona en bedbahttan başkası girmez, source:92:15} denir; o, {ar:ٱلَّذِى كَذَّبَ وَتَوَلَّىٰ, tr:elleẕî keẕẕebe ve tevellâ, gloss:yalanlayan ve yüz çeviren, source:92:16} kişidir. Öbür yanda {ar:وَسَيُجَنَّبُهَا ٱلْأَتْقَى, tr:ve se-yucennebuhe'l-etkâ, gloss:en çok sakınan ondan uzak tutulacak, source:92:17} denir. Bu kişi {ar:ٱلَّذِى يُؤْتِى مَالَهُۥ يَتَزَكَّىٰ, tr:elleẕî yu'tî mâlehû yetezekkâ, gloss:arınmak için malını veren, source:92:18} diye tanıtılır ve bunu {ar:إِلَّا ٱبْتِغَآءَ وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ, tr:ille'btiğâe vechi rabbihi'l-a'lâ, gloss:yalnızca en yüce Rabbinin yüzünü dileyerek, source:92:20} yapar. "Eşkâ" ile "yaslâ" bu surenin on birinci ve on ikinci ayetlerindeki kelimelerdir, "tezekkâ" da on dördüncü ayetin fiilidir. On birinci ayette en bedbahtın öğütten "kaçındığını" söyleyen fiil, orada en sakınanın ateşten "uzak tutulmasını" anlatır. Birinci ayetin "en yüce Rabbin"i de orada "en yüce Rabbi" olarak arınan kişiye bağlanır. Arınma orada malı vermek biçiminde görünür.
+
+## ¶3 · prose · 53:29 · applied
+
+**+** Necm suresinde elçiye, bu ayetin iki yanında duran iki tavrı tek bir kişide birleştiren biri gösterilir: {ar:فَأَعْرِضْ عَن مَّن تَوَلَّىٰ عَن ذِكْرِنَا وَلَمْ يُرِدْ إِلَّا ٱلْحَيَوٰةَ ٱلدُّنْيَا, tr:fe-a'rıd an men tevellâ an ẕikrinâ ve lem yurid ille'l-hayâte'd-dunyâ, gloss:bizim zikrimizden yüz çeviren ve dünya hayatından başkasını istemeyenden sen de yüz çevir, source:53:29}. Zikirden yüz çevirmek on birinci ayetteki kaçınmanın, yalnızca dünya hayatını istemek de on altıncı ayetteki tercihin karşılığıdır. Orada ikisi aynı kişinin tarifidir.
+
+## ¶4 · prose · 59:19 · applied
+
+**+** Haşr suresinde müminlere her nefsin yarın için ne gönderdiğine bakması söylendikten sonra {source:59:18} şu uyarı gelir: {ar:وَلَا تَكُونُوا۟ كَٱلَّذِينَ نَسُوا۟ ٱللَّهَ فَأَنسَىٰهُمْ أَنفُسَهُمْ, tr:ve lâ tekûnû ke'lleẕîne nesullâhe fe-ensâhum enfusehum, gloss:Allah'ı unutan, O'nun da kendilerine kendilerini unutturduğu kimseler gibi olmayın, source:59:19}. Orada unutmanın "fe" ile bağlanan bir sonucu vardır: Allah'ı unutana kendi nefsi unutturulur.
+
+## ¶5 · prose · 80:4 · applied
+
+**+** Abese suresinde, yanına bir âmâ geldiği için yüzünü ekşitip dönen birine {source:80:1} {source:80:2} şöyle denir: {ar:وَمَا يُدْرِيكَ لَعَلَّهُۥ يَزَّكَّىٰٓ, tr:ve mâ yudrîke le'allehû yezzekkâ, gloss:ne bilirsin, belki o arınacak, source:80:3}, {ar:أَوْ يَذَّكَّرُ فَتَنفَعَهُ ٱلذِّكْرَىٰٓ, tr:ev yeẕẕekkeru fe-tenfeahu'ẕ-ẕikrâ, gloss:ya da öğüt alacak da öğüt ona yarar sağlayacak, source:80:4}. Bu surenin dokuzuncu ayetindeki "öğüt yarar sağlarsa" şartı, orada o âmâ için bir ihtimal olarak dile gelir. Onuncu ayetin "yeẕẕekkeru"su ile on dördüncü ayetin arınması da aynı kişi için yan yana söylenir. Birkaç ayet sonra koşarak gelen kişi {source:80:8} {ar:وَهُوَ يَخْشَىٰ, tr:ve huve yahşâ, gloss:o içi titreyerek, source:80:9} diye anılır.
+
+## ¶5 · prose · 35:18 · applied
+
+**+** Fâtır suresi bu zincirin halkalarını tek bir ayette sayar. Kimsenin bir başkasının yükünü taşımayacağı söylendikten sonra elçiye şöyle denir: {ar:إِنَّمَا تُنذِرُ ٱلَّذِينَ يَخْشَوْنَ رَبَّهُم بِٱلْغَيْبِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ ۚ وَمَن تَزَكَّىٰ فَإِنَّمَا يَتَزَكَّىٰ لِنَفْسِهِۦ, tr:innemâ tunẕiru'lleẕîne yahşevne rabbehum bi'l-ğaybi ve ekâmu's-salâh, ve men tezekkâ fe-innemâ yetezekkâ li-nefsih, gloss:sen ancak görmedikleri hâlde Rablerinden korkan ve namazı kılanları uyarırsın; kim arınırsa ancak kendisi için arınır, source:35:18}. Uyarının ulaştığı kişi orada Rabbinden korkan ve namaz kılan kişidir. Onuncu ayetin içi titreyeni ile on beşinci ayetin namaz kılanı orada tek bir tarifte birleşir. "Tezekkâ" da on dördüncü ayetteki biçimiyle gelir ve arınmanın kime döndüğü söylenir: kişinin kendisine.
+
+## ¶6 · prose · 7:205 · applied
+
+**+** A'râf suresinin sonunda elçiye bu anmanın nasıl yapılacağı söylenir: {ar:وَٱذْكُر رَّبَّكَ فِى نَفْسِكَ تَضَرُّعًۭا وَخِيفَةًۭ وَدُونَ ٱلْجَهْرِ مِنَ ٱلْقَوْلِ بِٱلْغُدُوِّ وَٱلْءَاصَالِ وَلَا تَكُن مِّنَ ٱلْغَٰفِلِينَ, tr:veẕkur rabbeke fî nefsike tedarru'an ve hîfeten ve dûne'l-cehri mine'l-kavli bi'l-ğuduvvi ve'l-âsâli ve lâ tekun mine'l-ğâfilîn, gloss:Rabbini sabah akşam içinden, yalvararak ve korkarak, yüksek sesle söylenenden aşağı bir sözle an; gafillerden olma, source:7:205}. Orada anma hem içte hem dilde yer alır: "içinden" ile "yüksek sesin altında bir söz" aynı emirde birleşir. Yedinci ayetteki "cehr" kelimesi orada da geçer, ama anmanın sesi onun altında tutulur. Emrin sonu anmanın karşıtını da adlandırır: gaflet.
+
+## ¶6 · prose · 4:142 · applied
+
+**+** Nisâ suresi namazla anmanın birbirinden ayrıldığı bir durumu anlatır. Münafıklar için şöyle denir: {ar:وَإِذَا قَامُوٓا۟ إِلَى ٱلصَّلَوٰةِ قَامُوا۟ كُسَالَىٰ يُرَآءُونَ ٱلنَّاسَ وَلَا يَذْكُرُونَ ٱللَّهَ إِلَّا قَلِيلًۭا, tr:ve iẕâ kâmû ile's-salâti kâmû kusâlâ yurâûne'n-nâse ve lâ yeẕkurûnallâhe illâ kalîlâ, gloss:namaza kalktıklarında üşenerek kalkarlar, insanlara gösteriş yaparlar ve Allah'ı pek az anarlar, source:4:142}. Orada beden namaza kalkar, ama anma azalmış ve namaz insanlara dönmüştür.
+
+## ¶7 · prose · 73:20 · applied
+
+**+** Müzzemmil suresinin son ayeti, surenin başında elçiye emredilen gece kalkışını kimin yaptığını söyler: {ar:إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ أَدْنَىٰ مِن ثُلُثَىِ ٱلَّيْلِ وَنِصْفَهُۥ وَثُلُثَهُۥ وَطَآئِفَةٌۭ مِّنَ ٱلَّذِينَ مَعَكَ, tr:inne rabbeke ya'lemu enneke tekûmu ednâ min ŝuluŝeyi'l-leyli ve nısfahû ve ŝuluŝehû ve tâifetun mine'lleẕîne meak, gloss:Rabbin bilir ki sen gecenin üçte ikisinden azını, yarısını ve üçte birini ayakta geçiriyorsun, seninle birlikte olanlardan bir topluluk da, source:73:20}. Elçiye emir olarak verilen kalkış, aynı surenin sonunda onunla birlikte olan bir topluluğun da işi olarak anılır. Aynı ayet o topluluğa namazı kılmalarını ve zekâtı vermelerini de söyler.
+
+## ¶8 · prose · 79:18 · applied
+
+**+** Tâhâ suresinde çağrının geçtiği kutsal Tuvâ vadisi {source:20:12} Nâziât suresinde de anılır. Rabbi Musa'ya orada seslenmiş {source:79:16} ve onu azgınlaşan Firavun'a göndermiştir {source:79:17}. Musa'dan Firavun'a şunu söylemesi istenir: {ar:فَقُلْ هَل لَّكَ إِلَىٰٓ أَن تَزَكَّىٰ, tr:fe-kul hel leke ilâ en tezekkâ, gloss:de ki: arınmaya niyetin var mı, source:79:18}, {ar:وَأَهْدِيَكَ إِلَىٰ رَبِّكَ فَتَخْشَىٰ, tr:ve ehdiyeke ilâ rabbike fe-tahşâ, gloss:seni Rabbine yönelteyim de O'ndan korkasın, source:79:19}. On dördüncü ayetin "tezekkâ"sı, onuncu ayetin "yahşâ"sıyla aynı fiil ve "Rab" kelimesi, adı son ayette anılan Musa'nın götürdüğü davette bir aradadır.
+
+## ¶9 · prose · 7:180 · applied
+
+**+** A'râf suresi adın bu işini Allah'ın adları için açıkça söyler: {ar:وَلِلَّهِ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ فَٱدْعُوهُ بِهَا ۖ وَذَرُوا۟ ٱلَّذِينَ يُلْحِدُونَ فِىٓ أَسْمَٰٓئِهِۦ, tr:ve lillâhi'l-esmâu'l-husnâ fed'ûhu bihâ, ve ẕeru'lleẕîne yulhidûne fî esmâih, gloss:en güzel adlar Allah'ındır, O'nu onlarla çağırın; O'nun adları konusunda yoldan sapanları bırakın, source:7:180}. Adlar orada Allah'a seslenmenin yoludur. Aynı ayet, adlar konusunda yoldan sapılabileceğini de bildirir.
+
+## ¶22 · prose · 21:73 · applied
+
+**+** Enbiyâ suresi namazın İbrahim'e ve ona bağışlananlara nasıl verildiğini Allah'ın sözüyle anlatır: {ar:وَوَهَبْنَا لَهُۥٓ إِسْحَٰقَ وَيَعْقُوبَ نَافِلَةًۭ ۖ وَكُلًّۭا جَعَلْنَا صَٰلِحِينَ, tr:ve vehebnâ lehû ishâka ve ya'kûbe nâfileh, ve kullen ce'alnâ sâlihîn, gloss:ona İshak'ı, bir fazlası olarak da Yakub'u bağışladık; hepsini iyilerden kıldık, source:21:72}, {ar:وَجَعَلْنَٰهُمْ أَئِمَّةًۭ يَهْدُونَ بِأَمْرِنَا وَأَوْحَيْنَآ إِلَيْهِمْ فِعْلَ ٱلْخَيْرَٰتِ وَإِقَامَ ٱلصَّلَوٰةِ وَإِيتَآءَ ٱلزَّكَوٰةِ ۖ وَكَانُوا۟ لَنَا عَٰبِدِينَ, tr:ve ce'alnâhum eimmeten yehdûne bi-emrinâ ve evhaynâ ileyhim fi'le'l-hayrâti ve ikâme's-salâti ve îtâe'z-zekâh, ve kânû lenâ âbidîn, gloss:onları buyruğumuzla yol gösteren önderler yaptık; onlara iyilikler yapmayı, namazı kılmayı ve zekâtı vermeyi vahyettik; onlar bize kulluk edenlerdi, source:21:73}. İbrahim'in kendisi ve soyu için dilediği namaz, orada İbrahim'in ve ona bağışlananların da aralarında bulunduğu kimselere vahiyle verilmiş bir iş olarak anılır.
+
+## ¶25 · prose · 96:10 · applied
+
+**+** Alak suresi geçmiş kipteki "sallâ"yı bir başka karşıtlığın içinde kullanır. Orada iki kişi gösterilir: {ar:أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ, tr:e-ra'eyte'lleẕî yenhâ, gloss:gördün mü o engelleyeni, source:96:9}, {ar:عَبْدًا إِذَا صَلَّىٰٓ, tr:abden iẕâ sallâ, gloss:namaz kıldığında bir kulu, source:96:10}. Engelleyen için de {ar:أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ, tr:e-ra'eyte in keẕẕebe ve tevellâ, gloss:gördün mü, ya yalanlayıp yüz çevirdiyse, source:96:13} denir. Kıyâmet suresinde tek bir hayatın içinde birbirinin yerini alan "sallâ" ile "keẕẕebe ve tevellâ", orada iki ayrı kişiye aittir: biri namaz kılar, öteki onu engeller. Sure şu emirle kapanır: {ar:كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب, tr:kellâ lâ tuti'hu vescud vakterib, gloss:hayır, ona uyma; secde et ve yaklaş, source:96:19}.
+
+## ¶1 · refs · - · applied
+
+**+** Ayrıca: {source:22:77} rükûnun, secdenin ve Rabbe kulluğun kurtuluş umuduna bağlanması; {source:62:10} namaz bitince Allah'ı çokça anmanın kurtuluşa bağlanması; {source:23:1} {source:91:9} kurtuluşun "kad" ile pekiştirilmiş geçmiş kipte haber verilmesi; {source:35:18} arınanın ancak kendisi için arınması
+
+## ¶2 · refs · - · applied
+
+**+** Ayrıca: {source:56:74} {source:56:96} {source:69:52} Rabbin adını tesbih emrinin "en büyük" sıfatıyla gelmesi; {source:92:20} birinci ayetin "en yüce" sıfatının arınan kişinin "Rabbi"ne bağlanması; {source:20:33} {source:20:34} Musa'nın dileğinde tesbihin ardından anmanın gelmesi
+
+## ¶3 · refs · - · applied
+
+**+** Ayrıca: {source:18:28} Rablerine sabah akşam yalvaranlarla dünya süsünü isteyen ve kalbi zikirden gafil bırakılan kişinin karşı karşıya konması; {source:76:27} Rabbin adını anma ve gece secde emrinin hemen ardından çabuk geçeni sevenlerin anılması; {source:75:20} {source:75:21} çabuk geçeni sevip ahireti bırakmak, dünya hayatını öne almanın bir başka söylenişi; {source:70:19} {source:70:20} {source:70:21} {source:70:22} {source:70:23} sabırsız ve cimri yaratılan insanın istisnası olarak namazlarını sürdürenler
+
+## ¶4 · refs · - · applied
+
+**+** Ayrıca: {source:18:24} unuttuğunda Rabbini anma emri, anmanın unutmanın karşısına konması; {source:58:19} şeytanın Allah'ı anmayı unutturması; {source:69:12} hatırlatmanın onu saklayan bir kulakta korunması
+
+## ¶5 · refs · - · applied
+
+**+** Ayrıca: {source:51:55} hatırlatmanın müminlere yarar sağladığının söylenmesi, dokuzuncu ayetteki şartın karşılığı; {source:88:21} elçinin işinin yalnızca hatırlatmak olması; {source:20:3} Kur'an'ın içi titreyen için bir hatırlatma olarak indirilmesi; {source:50:45} tehditten korkana Kur'an'la hatırlatma emri; {source:11:114} namaz emrinin anan kişiler için bir hatırlatma olması; {source:25:62} gece ile gündüzün, tezekkür etmek isteyen için birbirini izlemesi; {source:54:17} {source:54:22} {source:54:32} {source:54:40} Kur'an'ın zikir için kolaylaştırılması ve öğüt alanın aranması; {source:74:54} {source:74:55} {source:80:11} {source:80:12} hatırlatmanın ardından onu anmanın dileyene bırakılması; {source:73:19} {source:76:29} hatırlatmanın ardından dileyenin Rabbine bir yol tutması; {source:37:13} hatırlatıldıklarında anmayanlar, zincirin koptuğu yer; {source:43:36} Rahmân'ın zikrine gözünü kapayana bir şeytanın arkadaş edilmesi; {source:72:17} Rabbinin zikrinden yüz çevirenin zorlu bir azaba sokulması; {source:20:124} {source:20:125} {source:20:126} zikirden yüz çevirenin, gelen ayetleri unuttuğu gibi unutulması
+
+## ¶6 · refs · - · applied
+
+**+** Ayrıca: {source:20:14} namazın anmak için kılınması; {source:29:45} namazın kötülükten alıkoyması ve Allah'ı anmanın daha büyük olması; {source:62:9} namaza çağrının Allah'ı anmaya koşmak diye söylenmesi; {source:2:239} korku geçince kılınacak namazın "Allah'ı anın" diye emredilmesi; {source:5:91} şeytanın alıkoymak istediği iki şeyin Allah'ı anmak ve namaz olması; {source:3:191} ayakta, otururken ve yan yatarken anma, bedenin her hâlinde süren anma; {source:13:28} kalplerin Allah'ı anmakla huzur bulması; {source:8:2} {source:8:3} {source:22:35} Allah anıldığında kalpleri titreyen ve namazı kılanlar; {source:57:16} kalplerin Allah'ı anmaya karşı huşu duyması; {source:39:22} Allah'ı anmaya karşı katılaşan kalpler; {source:14:38} İbrahim'in duasında Rabbin gizleneni de açığa vurulanı da bilmesi; {source:17:110} namazda sesin ne yükseltilmesi ne kısılması; {source:19:3} Zekeriyya'nın Rabbine gizlice seslenmesi; {source:107:4} {source:107:5} {source:107:6} namaz kılıp da namazlarından gafil olanlar ve gösteriş yapanlar
+
+## ¶7 · refs · - · applied
+
+**+** Ayrıca: {source:15:98} Rabbi hamd ile tesbih ve secde edenlerden olma emri; {source:108:2} Rabbin için namaz kılma emri, on beşinci ayetteki fiilin elçiye emir hâli; {source:20:130} {source:50:39} {source:50:40} söylediklerine sabretme emrinin ardından güneşin doğuşundan ve batışından önce, bir de gecenin bir kısmında Rabbi hamd ile tesbih; {source:52:48} {source:52:49} Rabbin hükmüne sabrın ardından kalkarken ve gece tesbih, İnsan suresindeki sıranın aynısı; {source:40:55} sabır ve bağışlanma dileme emrinin ardından akşam sabah tesbih; {source:17:79} gecenin bir kısmında kalkıp namaz kılma emri; {source:3:41} Zekeriyya'ya Rabbini çokça anma ve akşam sabah tesbih emri; {source:19:11} Zekeriyya'nın kavmine sabah akşam tesbih etmelerini bildirmesi, emrin bir peygamberden kavmine geçmesi; {source:25:64} geceyi Rableri için secde ve kıyamla geçirenler; {source:32:16} yataklarından kalkıp Rablerine korku ve umutla yalvaranlar; {source:39:9} gece saatlerinde secde ve kıyam hâlinde Rabbinin rahmetini uman kişi; {source:33:21} Allah'ı çokça anan için elçide güzel bir örnek bulunması
+
+## ¶8 · refs · - · applied
+
+**+** Ayrıca: {source:4:103} namaz bitince ayakta, otururken ve yan yatarken Allah'ı anmak, namazdan anmaya giden sıra; {source:62:10} namaz bitince Allah'ı çokça anmak; {source:21:24} kendisiyle birlikte olanların ve kendisinden öncekilerin kitabının zikir diye anılması; {source:43:44} vahyedilenin elçi ve kavmi için bir zikir olması; {source:21:10} indirilen kitabın içinde muhataplarının zikrinin bulunması; {source:38:1} Kur'an'a "zikir sahibi" diye yemin edilmesi; {source:68:51} {source:68:52} zikri duyanların elçiye deli demesi ve Kur'an'ın âlemlere bir zikir olması; {source:20:33} {source:20:34} Musa'nın kardeşini istemesinin amacının çokça tesbih ve anma olması; {source:20:42} Musa ile kardeşine anmada gevşememelerinin söylenmesi
+
+## ¶9 · refs · - · applied
+
+**+** Ayrıca: {source:55:78} Rabbin adının yüce ve bereketli olması; {source:17:110} hangi adla çağrılırsa en güzel adların O'nun olması
+
+## ¶10 · refs · - · applied
+
+**+** Ayrıca: {source:63:9} malın ve çocukların Allah'ı anmaktan alıkoymaması emri, ticaretin alıkoyamadığı adamların emir hâli; {source:62:11} ticaret ve eğlence görünce elçiyi ayakta bırakanlar, o adamların karşıtı
+
+## ¶11 · refs · - · applied
+
+**+** Ayrıca: {source:19:7} semiy kelimesinin aynı surede Yahya için adaş anlamında geçmesi; {source:19:67} unutmayan Rabbin karşısında insanın, kendisinin daha önce yokken yaratıldığını anmaması; {source:73:9} adı anılan Rabbin doğunun ve batının Rabbi olması, O'ndan başka ilah olmaması; {source:39:45} Allah tek başına anıldığında ahirete inanmayanların kalplerinin daralması; {source:17:111} çocuk edinmeyen, mülkünde ortağı olmayan Allah'a hamd; {source:20:52} Musa'nın sözünde Rabbin ne şaşırması ne unutması
+
+## ¶12 · refs · - · applied
+
+**+** Ayrıca: {source:96:19} Rabbin adıyla okuma emriyle açılan surenin, secde ve yaklaşma emriyle kapanması
+
+## ¶13 · refs · - · applied
+
+**+** Ayrıca: {source:1:4} âlemlerin Rabbinin hemen ardından din gününün sahibi diye anılması
+
+## ¶14 · refs · - · applied
+
+**+** Ayrıca: {source:20:50} Musa'nın sözünde her şeye yaratılışını verip sonra yol gösteren Rab; {source:26:78} {source:26:79} İbrahim'in sözünde onu yaratıp yol gösteren, yediren ve içiren Rab
+
+## ¶15 · refs · - · applied
+
+**+** Ayrıca: {source:6:162} namazı, ibadeti, hayatı ve ölümü âlemlerin Rabbine ait olan kişi; {source:91:10} nefsini arındıranın karşısında onu örtüp bastıranın hüsrana uğraması
+
+## ¶16 · refs · - · applied
+
+**+** Ayrıca: {source:24:41} her varlığın kendi salâtını ve tesbihini bilmesi, salâtla tesbihin yan yana durması; {source:10:10} cennet ehlinin duasının tesbih olması; {source:33:56} müminlere elçi için salât edilmesinin emredilmesi, salavatın kaynağı
+
+## ¶19 · refs · - · applied
+
+**+** Ayrıca: {source:2:151} {source:2:152} elçinin arındırmasının ardından "beni anın, ben de sizi anayım" diye iki yönlü kurulan anma; {source:2:157} sabredenlerin üzerine Rablerinden salâtların ve rahmetin gelmesi; {source:33:56} Allah'ın ve meleklerinin elçiye salâtı ile müminlere aynı salâtın emredilmesi
+
+## ¶20 · refs · - · applied
+
+**+** Ayrıca: {source:9:99} elçinin dualarının infak edenler için bir yakınlık olması; {source:9:104} tevbeyi kabul edenin ve sadakaları alanın Allah olması; {source:23:9} {source:70:34} namazla açılan niteliklerin namazı korumakla kapanması; {source:2:3} {source:2:5} {source:31:4} {source:31:5} namazı kılıp harcayanların ve zekâtı verenlerin "kurtuluşa erenler" diye anılması
+
+## ¶21 · refs · - · applied
+
+**+** Ayrıca: {source:24:36} Allah'ın, adının anılmasına izin verdiği evler; {source:2:114} Allah'ın adının anıldığı mescitlere engel olup onları yıkmaya çalışan; {source:22:34} her ümmete Allah'ın adını anmaları için bir ibadet yolu verilmesi; {source:22:41} mabetleri korunan bu insanların yeryüzünde yerleşince namazı kılıp zekâtı vermesi; {source:9:18} Allah'ın mescitlerini namazı kılan ve zekâtı veren kişinin imar etmesi; {source:72:18} mescitlerin Allah'a ait olması ve orada O'nunla birlikte kimseye yalvarılmaması
+
+## ¶22 · refs · - · applied
+
+**+** Ayrıca: {source:14:39} İbrahim'in Rabbini duayı işiten diye anması; {source:2:124} İbrahim'in soyu için de dilemesine ahdin zalimlere ulaşmayacağı cevabı; {source:2:125} İbrahim'in makamının namazgâh edinilmesi ve evin rükû ve secde edenler için temizlenmesi; {source:19:58} {source:19:59} İbrahim soyundan secdeye kapananların ardından namazı zayi eden bir neslin gelmesi; {source:8:35} evin yanındaki namazlarının ıslık ve el çırpmadan ibaret kalması; {source:10:87} Musa ile kardeşine evlerinde namazı kılmalarının vahyedilmesi; {source:19:55} İsmail'in ailesine namazı ve zekâtı emretmesi; {source:20:132} elçiye ailesine namazı emretmesinin buyrulması; {source:19:31} İsa'ya yaşadığı sürece namazın ve zekâtın emredilmesi; {source:2:83} {source:5:12} İsrailoğullarından alınan sözde namazın ve zekâtın bulunması; {source:98:5} kitap verilenlere de namazı kılmanın emredilmiş olması; {source:3:39} Zekeriyya'nın mihrapta ayakta namaz kılarken müjdelenmesi; {source:11:87} Şuayb'ın kavminin onun namazını dile dolaması
+
+## ¶23 · refs · - · applied
+
+**+** Ayrıca: {source:92:15} {source:92:16} yalanlayıp yüz çeviren en bedbahtın ateşe aynı "yaslâ" fiiliyle girmesi
+
+## ¶25 · refs · - · applied
+
+**+** Ayrıca: {source:74:44} ateştekilerin itirafında namaz kılmamanın yanında yoksulu doyurmamanın da sayılması
+

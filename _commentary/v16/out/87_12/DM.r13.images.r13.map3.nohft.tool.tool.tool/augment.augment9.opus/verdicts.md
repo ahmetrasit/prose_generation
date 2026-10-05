@@ -1,0 +1,304 @@
+- 2:167: ref ¶5 - ateşten çıkmamak, ateşten ayrılmamanın karşılığı
+- 3:192: not relevant - ateşe sokulanın rezilliği; hiçbir paragrafın sözüne dokunmuyor
+- 4:10: prose ¶2 - şimdi ateş yemek ile se-yaslevne geleceği; iki zaman
+- 4:56: cited ¶7; nowhere else - ettirgen fiil ¶7'de açıklanmış
+- 4:115: prose ¶3, ref ¶22 - nuvellihî mâ tevellâ: yapılan iş karşılık olarak geri döner
+- 5:37: ref ¶5 - ateşten çıkamamak
+- 7:36: ref ¶18 - ayetlere karşı büyüklenmek ateşe götürür
+- 7:38: not relevant - ümmetlerin ateşte birbirini lanetlemesi
+- 14:29: ref ¶5 - yaslevnehâ + karâr: kalınacak yer
+- 15:43: not relevant - genel vaat yeri
+- 16:29: ref ¶18 - büyüklenenlerin konağı
+- 18:29: not relevant - ateşin kuşatması ve içilen sıvı; bağ yok
+- 19:68: not relevant - cehennem çevresinde toplanma
+- 19:70: ref ¶2 - en lâyık + sılî, 19:69'daki "en azgın" ile üstünlük sıfatları
+- 19:71: ref ¶22 - ateşe herkesin varması uzak tutulmayı niteliyor
+- 20:74: ref ¶7 - ne ölür ne yaşar sözünün tekrarı
+- 22:19: not relevant - ateşten elbiseler
+- 22:22: ref ¶6 - çıkmak istedikçe geri döndürülmek
+- 25:11: context ¶10 (in 25:12) - ateşin kimler için hazırlandığı
+- 32:20: ref ¶6 - 22:22 ile aynı söz; ¶14'te yalnızca özetleniyor
+- 35:36: ref ¶7 - ölmelerine hükmedilmez, azap hafifletilmez
+- 36:64: ref ¶2 - "bugün girin" emri
+- 37:163: ref ¶2, ¶4 - sâli'l-cahîm etken ortacıyla kimlik
+- 38:56: ref ¶5 - yaslevnehâ + mihâd
+- 40:46: ref ¶2 - kıyametten önce ateşe sunulma, sonra girme
+- 46:20: ref ¶14, ¶18 - yakın hayatta tüketmek; büyüklenmeye aşağılanmayla karşılık
+- 56:94: not relevant - fiilin mastarı geçiyor, söylenene bir şey katmıyor
+- 69:31: prose ¶20 - ateş kökünden sallâ kalıbı (sallûhu)
+- 69:32: context ¶20 (in 69:31) - zincire geçirme
+- 74:26: cited ¶19; nowhere else - ¶19'da açıklanmış
+- 74:28: cited ¶8; nowhere else - ¶8'de açıklanmış
+- 74:43: cited ¶21; nowhere else - ¶21'de açıklanmış
+- 78:21: not relevant - gözetleme yeri; paragraflarla bağı yok
+- 79:34: cited ¶15; nowhere else - ¶15'te açıklanmış
+- 82:16: ref ¶2 - ondan uzak olmamak, ad cümlesiyle şimdi
+- 83:16: ref ¶2 - sâlû ortacı
+- 88:4: not relevant - yazarın gerekçesi yerinde: 92:15 ve 74:26'nın verdiğine bir şey katmıyor
+- 92:14: cited ¶22; nowhere else - ¶22'de açıklanmış
+- 92:15: cited ¶22; nowhere else - ¶22'de açıklanmış
+- 101:11: context ¶4 (in 101:9) - anayı tanımlayan kızgın ateş
+- 102:6: ref ¶11 - ateşin girilmeden önce bilinmesi ve görülmesi
+- 111:3: ref ¶2 - se-yaslâ: geleceğin açıkça işaretlenmesi
+- 2:24: cited ¶6; nowhere else - ¶6'da açıklanmış
+- 2:39: not relevant - genel ateş ehli sözü
+- 2:81: ref ¶5 - sayılı günler sanısına kalıcılık cevabı
+- 2:257: prose ¶9 - nur ile nâr aynı kökten, karşıt yolların sonu
+- 2:275: not relevant - faiz hükmü
+- 3:131: not relevant - genel sakındırma; 2:24'ün yakıt bilgisini taşımıyor
+- 5:29: not relevant - Âdem'in iki oğlu; bağ yok
+- 6:128: not relevant - cin ve insin ateşte toplanması
+- 7:41: not relevant - cehennemden döşek; paragraflara bir şey katmıyor
+- 7:76: not relevant - büyüklenenlerin inkâr sözü; ¶17-18'e yeni bir şey getirmiyor
+- 9:35: prose ¶4 - cehennem ateşinde dağlama
+- 11:106: ref ¶1 - şakî (eşkâ'nın kökü) ve ateş, ikiye ayrılma
+- 13:18: ref ¶18 - çağrıya karşılık vermeyenlerin sonu
+- 14:16: ref ¶2 - cehennem henüz yaşayanın önünde
+- 14:50: not relevant - ateşin yüzleri bürümesi
+- 15:44: not relevant - yedi kapı
+- 17:18: prose ¶14 - âcileyi istemek + yaslâhâ
+- 19:72: ref ¶22 - sakınanların kurtarılması
+- 20:23: not relevant - kubrâ yalnızca ortak kelime
+- 21:98: ref ¶6 - insanın cehennemin çırası olması
+- 23:104: not relevant - ateşin yüzleri yakması
+- 25:12: prose ¶10 - ateşin uzaktan görmesi: yolcunun ateşi seçmesinin tersi
+- 25:15: not relevant - cennetle kıyas
+- 25:21: ref ¶17 - kendi içlerinde büyüklenmek
+- 28:39: ref ¶18 - büyüklenme ve döndürülmeyeceğini sanmak, 2:46'nın tersi
+- 28:41: not relevant - ateşe çağıran önderler; 40:41 bu bağı daha açık kuruyor
+- 29:39: not relevant - genel büyüklenme anlatısı
+- 29:54: ref ¶2 - cehennem şimdiden kuşatıyor
+- 31:7: ref ¶19 - büyüklenerek sırt çevirme
+- 31:21: not relevant - şeytanın çağrısı; paragrafla bağı yok
+- 33:64: not relevant - genel
+- 36:63: ref ¶2 - vaat edilenin "bugün"e dönüşmesi
+- 37:23: ref ¶10 - hidayet fiilinin cahîme götürmek için kullanılması
+- 37:35: ref ¶18 - tevhid sözüne karşı büyüklenme
+- 38:59: ref ¶2 - sâlû ortacı
+- 39:8: ref ¶14 - darlıkta dönüp nimette unutmak
+- 39:16: ref ¶11 - ateşin korkutmak için anlatılması
+- 39:71: ref ¶12 - bekçilerin "uyarıcı gelmedi mi" sorusu
+- 40:6: not relevant - genel hüküm
+- 40:41: ref ¶18 - kurtuluşa çağrıya karşı ateşe çağrı
+- 40:47: not relevant - ateşteki tartışma
+- 41:28: not relevant - genel
+- 42:7: ref ¶1 - uyarıdan sonra iki bölük
+- 43:74: not relevant - genel
+- 44:16: ref ¶14 - küçük azaptan sonra en büyük yakalayış
+- 45:10: ref ¶2 - cehennem önlerinde bekliyor
+- 45:34: ref ¶3 - unutana unutulmakla karşılık
+- 48:13: not relevant - genel
+- 50:24: ref ¶19 - inatçının cehenneme atılması
+- 51:13: not relevant - ateşte sınanma; dışarıdan bir anlam eklemeden bağ kurulamıyor
+- 52:13: ref ¶6 - ateşe itilmek
+- 52:14: context ¶5 (in 52:16) - yalanlanan ateşin bu ateş olduğunun söylenmesi
+- 52:16: prose ¶5 - islevhâ + sabır: katlanmanın sonuçsuzluğu
+- 54:48: ref ¶6 - ateşe sürüklenmek
+- 57:15: ref ¶4 - ateşin onların velisi olması: ait olunan yer
+- 58:17: not relevant - genel
+- 59:17: not relevant - genel
+- 64:10: not relevant - genel
+- 66:6: ref ¶6 - yakıtı insanlar ve taşlar olan ateş
+- 66:10: not relevant - Nuh'un ve Lut'un karısı
+- 67:6: not relevant - genel
+- 67:7: ref ¶9 - kaynayan, durulmayan ateş
+- 67:8: ref ¶9, ¶12 - öfkeden parçalanacak gibi olmak; bekçilerin sorusu
+- 67:10: ref ¶12 - dinlememenin itirafı
+- 67:11: not relevant - lanet
+- 69:30: context ¶20 (in 69:31) - yakalayıp bağlama
+- 70:15: cited ¶21; nowhere else - ¶21'de açıklanmış
+- 71:22: not relevant - kubbâr yalnızca ortak kök
+- 72:15: ref ¶6 - cehenneme odun olmak
+- 74:3: cited ¶19; ref ¶17 - Rabbi büyük tutmak (tekbir)
+- 74:27: not relevant - 74:28'in giriş sorusu
+- 74:29: not relevant - anlamı paragraflara bağlanmıyor
+- 74:35: cited ¶19; nowhere else - ¶19'da açıklanmış
+- 74:42: cited ¶21; nowhere else - ¶21'de açıklanmış
+- 76:4: not relevant - zincir ve bukağılar
+- 78:23: ref ¶5 - orada çağlar boyu kalmak
+- 79:20: ref ¶15 - en büyük ayet, en büyük felaketten önce
+- 79:36: ref ¶15 - cahîmin gösterilmesi, hatırlanan an
+- 81:12: not relevant - cahîmin tutuşturulması
+- 82:14: ref ¶2 - ad cümlesiyle "cahîmdedirler"
+- 84:12: ref ¶14 - yazarın gerekçesine cevap: 84:13 ile birlikte, ailesi içindeki sevinçten alevli ateşe geçişi gösteriyor
+- 85:5: not relevant - dünyadaki hendek ateşi
+- 85:10: not relevant - genel
+- 88:24: prose ¶1 - öğüt ver → yüz çeviren → en büyük azap
+- 90:20: ref ¶6 - üstlerine kapatılmış ateş
+- 98:6: ref ¶2 - üstünlük sıfatıyla anılan ateş ehli
+- 102:7: ref ¶11 - ateşin kesinlikle görülmesi
+- 104:6: ref ¶13 - Allah'ın tutuşturduğu ateş, insanın yaktığının karşısında
+- 104:7: ref ¶13 - kalplere kadar yükselen ateş
+- 104:9: not relevant - direkler
+- 10:52: ref ¶7 - süreklilik azabının tadılması
+- 18:53: ref ¶12 - ateşten dönecek yer bulamamak
+- 79:39: cited ¶15; nowhere else - ¶15'te açıklanmış
+- 2:175: ref ¶5 - ateşe katlanmaları
+- 4:121: ref ¶12 - kaçacak yer bulamamak
+- 18:100: ref ¶11 - cehennemin sunulması
+- 32:22: ref ¶14 - 32:21'den hemen sonra: öğütlenip yüz çeviren
+- 37:30: not relevant - saptıranların cevabı
+- 39:72: ref ¶18 - büyüklenenlerin konağı
+- 40:56: ref ¶17 - göğüslerde ulaşılamayacak bir büyüklük
+- 40:72: ref ¶6 - ateşte tutuşturulmak
+- 43:75: ref ¶7 - azabın gevşetilmemesi
+- 56:71: cited ¶11; nowhere else - ¶11'de açıklanmış
+- 73:12: not relevant - bukağılar ve cahîm, bağ yok
+- 74:23: cited ¶19; nowhere else - ¶19'da açıklanmış
+- 85:11: not relevant - kebîr yalnızca ortak kök
+- 101:9: prose ¶4 - anası uçurum: soyun ateşte okunması
+- 2:34: ref ¶18 - secdeye karşı büyüklenme
+- 2:80: ref ¶5 - "dokunmak" sanısı, içine girip katlanmanın tersi
+- 2:174: ref ¶2 - karınlarına şimdiden ateş yemek
+- 3:7: not relevant - yeẕẕekkeru biçimi yalnızca ortak kelime
+- 3:16: not relevant - ateşten korunma duası
+- 3:24: ref ¶5 - sayılı günler kuruntusu
+- 3:39: not relevant - Zekeriya'nın namazı, bağ yok
+- 6:35: ref ¶18 - kebura fiilinin Peygamber'e yönelen yüzü
+- 6:93: ref ¶18 - büyüklenmeye aşağılanma azabı
+- 8:14: not relevant - genel
+- 33:43: not relevant - nur geçiyor ama ¶9'un söylediğine bir şey katmıyor
+- 35:43: ref ¶3 - kötü düzen sahibini kuşatır
+- 36:80: ref ¶11 - ateşi veren yeşil ağaç
+- 38:27: not relevant - genel
+- 39:19: not relevant - genel
+- 40:43: not relevant - genel
+- 41:19: not relevant - genel
+- 53:18: not relevant - kubrâ yalnızca ortak kelime
+- 54:53: not relevant - küçük ve büyük yalnızca ortak kelimeler
+- 55:35: not relevant - ateş alevi
+- 64:8: ref ¶9 - indirilen sözün nur diye anılması
+- 66:8: not relevant - müminlerin nuru
+- 4:30: not relevant - 4:56'nın ettirgen sözünü tekrarlıyor, bir şey katmıyor
+- 7:13: prose ¶17 - büyüklenen "küçükler"den: ص غ ر karşıtı
+- 7:48: ref ¶4 - işaretlerinden tanınmak
+- 25:52: not relevant - büyük cihad
+- 27:7: cited ¶6; nowhere else - ¶6'da açıklanmış
+- 55:15: not relevant - cinin ateşten yaratılması
+- 82:15: ref ¶2 - yaslevnehâ ile hesap gününe bağlanan giriş
+- 2:22: not relevant - yaratılış nimeti
+- 2:23: not relevant - ¶6'da özetleniyor
+- 2:25: not relevant - cennet
+- 2:26: not relevant - örnek verme
+- 2:43: not relevant - namaz emri; ¶18'in noktasını taşımıyor
+- 2:44: not relevant - kendini unutma
+- 2:46: not relevant - ¶18 bunu zaten aktarıyor
+- 2:47: not relevant - nimet hatırlatma
+- 4:54: not relevant - kıskançlık
+- 4:55: ref ¶1 - inanan ile yüz çeviren, yüz çevirene alevli cehennem
+- 4:57: not relevant - cennet
+- 4:58: not relevant - emanet
+- 27:5: not relevant - genel
+- 27:6: not relevant - Kur'an'ın alınması
+- 27:8: prose ¶6 - ateşin içinde olanın kutlu kılınması; ısınma umudunun karşısı
+- 27:9: context ¶6 (in 27:8) - seslenen Allah
+- 32:19: not relevant - cennet
+- 32:23: not relevant - Musa'ya kitap
+- 40:58: not relevant - kör ile gören
+- 40:59: not relevant - saatin gelişi
+- 40:61: not relevant - gece ve gündüz
+- 40:62: not relevant - tevhid
+- 42:11: not relevant - yaratılış
+- 42:12: not relevant - rızık
+- 42:14: not relevant - ayrılığa düşme
+- 42:15: ref ¶18 - ağır gelen çağrıyı sürdürme
+- 56:69: not relevant - yağmur
+- 56:70: not relevant - acı su
+- 56:72: not relevant - ¶11'de özetleniyor
+- 56:74: ref ¶11, ¶17 - ateş öğüdünden sonra Rabbin adını tesbih
+- 56:75: not relevant - yeminle başlayan yeni bölüm
+- 70:13: not relevant - fidye olarak aile
+- 70:14: not relevant - fidye
+- 70:16: not relevant - derinin soyulması; paragraflara bağlanmıyor
+- 70:17: prose ¶12, ref ¶19, ¶22 - ateşin sırt dönüp yüz çevireni çağırması
+- 70:20: not relevant - ¶21'deki insan tasvirinin parçası; bir şey katmıyor
+- 70:21: not relevant - aynı
+- 70:23: ref ¶21 - namazı sürdürenler
+- 70:24: not relevant - maldaki hak
+- 74:1: not relevant - ¶19'da özetleniyor
+- 74:2: not relevant - ¶19'da özetleniyor
+- 74:4: not relevant - elbiseyi temizleme
+- 74:5: not relevant - pislikten uzak durma
+- 74:16: not relevant - ¶19'da özetleniyor
+- 74:17: not relevant - sarp yokuş
+- 74:19: not relevant - ¶19'un ölçüp biçme karşıtlığı onu zaten taşıyor
+- 74:20: not relevant - aynı
+- 74:21: not relevant - baktı
+- 74:22: not relevant - kaşlarını çattı
+- 74:25: not relevant - ¶19 74:24'ü veriyor
+- 74:30: not relevant - ¶11'de özetleniyor
+- 74:32: not relevant - yemin
+- 74:33: not relevant - gece için edbera, bağ yok
+- 74:34: not relevant - yemin
+- 74:36: ref ¶11 - ateşin insanlara uyarıcı oluşu
+- 74:37: ref ¶11 - ileri gitmek ya da geri kalmak isteyene
+- 74:40: not relevant - ¶21'de özetleniyor
+- 74:41: not relevant - ¶21'de özetleniyor
+- 74:44: not relevant - yoksulu doyurmamak; ¶21'in noktasının dışında
+- 74:45: not relevant - boş söze dalmak
+- 74:47: not relevant - ölüm
+- 74:48: not relevant - şefaat
+- 74:52: not relevant - açılmış sayfalar istemek
+- 74:53: ref ¶12 - kaçışın sebebi: ahiretten korkmamak
+- 79:29: not relevant - gece ve kuşluk
+- 79:30: not relevant - yerin yayılması
+- 79:32: not relevant - dağlar
+- 79:33: not relevant - geçimlik; ¶15'in noktasına bir şey katmıyor
+- 79:37: ref ¶15 - azgınlık eden
+- 79:40: ref ¶15 - Rabbinin makamından korkan
+- 79:41: ref ¶15 - onun yeri cennet
+- 92:12: ref ¶3 - yol göstermek Allah'a ait
+- 92:13: not relevant - ahiret ve dünya Allah'ındır; bağ yok
+- 92:18: ref ¶22 - en sakınan: malını verip arınan
+- 92:19: ref ¶22 - kimseye karşılık ödemeden
+- 7:12 own: context ¶17 (in 7:13) - ateşe dayanan üstünlük iddiası
+- 7:46 own: ref ¶4 - işaretlerinden tanınmak
+- 55:41 own: ref ¶4 - suçluların işaretlerinden tanınması
+- 68:15 own: ref ¶4 - okunan ayetleri masal saymak
+- 68:16 own: ref ¶4 - damga vurmak (vesm)
+- 9:34 own: context ¶4 (in 9:35) - biriktirip harcamayanlar
+- 9:49 own: ref ¶2 - cehennem şimdiden kuşatıyor
+- 14:17 own: ref ¶7 - ölüm her yerden gelir, yine de ölünmez
+- 43:77 own: ref ¶7 - ölüm dileğine "kalacaksınız" cevabı
+- 3:10 own: ref ¶6 - ateşin yakıtı
+- 104:8 own: ref ¶6 - üstlerine kapatılmış
+- 20:124 own: ref ¶12 - öğütten yüz çevirmek
+- 20:126 own: ref ¶3 - unutana unutulmak
+- 18:101 own: ref ¶11 - gözleri öğüde karşı perdeli
+- 74:54 own: ref ¶12 - "o bir öğüttür"
+- 74:55 own: ref ¶12 - dileyen onu anar
+- 92:20 own: ref ¶22 - en yüce Rabbin rızası
+- 44:13 own: ref ¶15 - azap gelince öğüt nereden
+- 44:14 own: ref ¶15 - elçiden yüz çevirmek
+- 44:15 own: ref ¶14 - azabın biraz kaldırılıp eski hale dönülmesi
+- 88:21 own: context ¶1 (in 88:24) - öğüt ver emri
+- 88:22 own: context ¶1 (in 88:24) - zorba değilsin
+- 88:23 own: context ¶1 (in 88:24) - sırt çevirip inkâr eden
+- 84:13 own: ref ¶14 - ailesi içinde sevinçli
+- 84:14 own: not relevant - geri dönmeyeceğini sanmak; 28:39 bu bağı daha açık taşıyor
+- 11:105 own: ref ¶1 - şakî ve saîd diye ikiye ayrılma
+- 23:105 own: ref ¶1 - ayetlerin okunup yalanlanması
+- 23:106 own: ref ¶1 - kendi bedbahtlıklarını (şikve) itiraf
+- 37:161 own: not relevant - yalnızca 37:163'ün çerçevesi
+- 37:162 own: not relevant - yalnızca 37:163'ün çerçevesi
+- 19:69 own: ref ¶2 - "en azgın" üstünlük sıfatı, 19:70 ile
+- 75:31 own: prose ¶22 - sallâ etmemek
+- 75:32 own: context ¶22 (in 75:31) - keẕẕebe ve tevellâ, 92:16 ile aynı
+- 75:33 own: not relevant - ailesine çalımla gitmek
+- 89:23 own: prose ¶15 - o gün hatırlayış, ama öğüt ona nereden
+- 89:24 own: context ¶15 (in 89:23) - keşke hayatım için
+- 29:45 own: prose ¶13 - zikrullâh ekber: büyüklük anmaya veriliyor
+- 17:19 own: context ¶14 (in 17:18) - ahireti isteyen
+- 13:17 own: prose ¶8 - zanaatkârın ateşi ayırır, yarayanı bırakır
+- 18:96 own: ref ¶8 - demiri ateş hâline getirip set kurmak
+- 28:29 own: ref ¶6 - ısınma umudunun tekrarı
+- 20:10 own: not relevant - ¶10 buna zaten işaret ediyor; başka paragrafa bir şey katmıyor
+- 20:14 own: ref ¶20 - namaz anmak içindir (¶10 da bu sahneye işaret ediyor)
+- 17:111 own: ref ¶17 - Allah'ı büyük tutma emri
+- 57:20 own: ref ¶16 - sararıp çer çöpe dönen bitki ve ahiret azabı
+- 25:13 own: context ¶10 (in 25:12) - dar bir yere atılmak
+- 101:8 own: context ¶4 (in 101:9) - tartısı hafif gelen
+- 101:10 own: context ¶4 (in 101:9) - "o nedir" sorusu
+- 52:15 own: context ¶5 (in 52:16) - büyü mü sorusu
+- 20:75 own: not relevant - yüksek dereceler; paragraflarla bağı yok
+- 4:114 own: not relevant - 4:115'in komşusu; bağ yok

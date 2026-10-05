@@ -1,0 +1,159 @@
+- 19:97: cited ¶9; nowhere else - commentary explains it there
+- 44:58: cited ¶9; nowhere else - commentary explains it there
+- 54:40: cited ¶9; nowhere else - refrain pointed to by "her hikâyenin ardından"
+- 65:7: prose ¶16, ref ¶7 - ease promised in the ayah that also asks the one with little to spend; answers ledger: adds the spending setting that 94:5-6 and 92 do not have
+- 73:20: cited ¶10; ref ¶2 - teyessera used for what is ready and easy to recite
+- 80:19: cited ¶2 (paraphrased); ref ¶18 - creating, measuring and easing in sequence
+- 80:20: cited ¶2; ref ¶18 - same sequence of measuring and easing
+- 92:5: cited ¶14, ¶16 (paraphrased); nowhere else - explained in ¶14
+- 92:6: cited ¶14 (paraphrased); nowhere else - explained in ¶14
+- 92:7: cited ¶14 (pointed to in ¶4); nowhere else - explained in ¶14
+- 92:8: cited ¶16 (paraphrased in ¶14); nowhere else - explained
+- 92:9: cited ¶14 (paraphrased); nowhere else - explained in ¶14
+- 92:10: cited ¶14 (pointed to in ¶4); nowhere else - explained in ¶14
+- 92:11: cited ¶16; nowhere else - explained there
+- 94:5: cited ¶7 (pointed to by "iki kez"); nowhere else - refrain with 94:6
+- 94:7: cited ¶12; nowhere else - explained there
+- 2:185: cited ¶10; nowhere else - ¶4 defers the contrast to later paragraphs
+- 2:280: cited ¶16; nowhere else - explained there
+- 2:286: ref ¶11 - no burden beyond capacity, the burden made bearable
+- 4:28: ref ¶10 - Allah's will to lighten the load
+- 5:6: ref ¶10 - concession to the sick and the traveller, no hardship intended
+- 5:90: cited ¶17, ¶18; nowhere else - explained in both
+- 7:157: ref ¶7 - same verb wada'a, the Prophet lifts burdens from others
+- 17:28: ref ¶2 - qawl maysur: easy, gentle speech, the sense of yâsara
+- 18:88: ref ¶14 - pairs al-husnā with yusr as 92:6-7 does; answers ledger: it is that pairing, not the theme, that it adds
+- 20:25: prose ¶2 - Musa asks for his chest to be opened, i.e. the person prepared around the eased affair
+- 20:26: cited ¶2; nowhere else - explained there
+- 20:27: context ¶2 (in 20:25); ref ¶9 - the tongue made ready for speech
+- 20:28: context ¶2 (in 20:25); ref ¶9 - so that the speech is understood
+- 20:34: not relevant - glorifying, dhikr in another sense
+- 22:78: ref ¶10 - no hardship placed in religion
+- 36:4: not relevant - straight path, not the traveller made ready
+- 50:44: not relevant - ease of an act for God (ledger B002)
+- 50:45: ref ¶11 - reminder with the Quran to the one who fears
+- 51:3: cited ¶7; nowhere else - explained there
+- 51:4: ref ¶18 - distribution by command after yusr
+- 54:17: cited ¶9; nowhere else - explained there
+- 57:22: not relevant - "easy for God"
+- 65:4: ref ¶14 - ease in his affair for the one who fears God; answers ledger: it states the condition of piety in its own words
+- 74:10: ref ¶14 - the day not easy for the deniers
+- 79:19: ref ¶11 - guidance leading to fear of God (khashya)
+- 84:8: ref ¶14 - easy reckoning for one side of the two-way division
+- 90:10: ref ¶14 - two ways shown
+- 91:8: ref ¶14 - both directions inspired
+- 92:4: ref ¶14 - efforts split into two directions
+- 92:12: cited ¶15; ref ¶6 - guidance undertaken by Allah, the guide going ahead
+- 94:2: cited ¶7; nowhere else - explained there
+- 94:3: cited ¶7; nowhere else - explained there
+- 94:6: cited ¶7; nowhere else - explained there
+- 94:8: cited ¶12; nowhere else - explained there
+- 54:22: cited ¶9; nowhere else - refrain pointed to in ¶9
+- 12:65: not relevant - yasir as a small measure of grain
+- 41:41: ref ¶13 - those who deny the reminder when it comes
+- 54:32: cited ¶9; nowhere else - refrain pointed to in ¶9
+- 81:26: not relevant - no link to ease or reminder in the commentary's sense
+- 97:1: not relevant - night of revelation, not about ease
+- 2:196: ref ¶2, ¶10 - istaysara as what is ready to hand; the "easy" as the measure
+- 2:219: cited ¶17; nowhere else - explained there
+- 4:30: not relevant - "easy for God"
+- 5:91: prose ¶18, ref ¶17 - maysir keeps people from dhikr and salat, the works of 87:15
+- 6:128: not relevant - shares only "illā mā shā'a Allāh"
+- 13:33: not relevant - adornment of scheming, not taysir
+- 15:39: not relevant - Iblis' adorning
+- 22:70: not relevant - "easy for God"
+- 25:46: not relevant - shadow withdrawn gradually
+- 26:90: not relevant - garden brought near
+- 29:19: not relevant - "easy for God"
+- 31:3: not relevant - general description of the book
+- 41:44: prose ¶13 - same word guidance for one, heaviness in the ears of the other
+- 47:5: not relevant - guidance of the slain, no link
+- 72:6: not relevant - no link
+- 74:7: ref ¶12 - "for your Lord be patient", like "turn to your Lord"
+- 74:17: ref ¶14 - a steep climb laid on the obstinate
+- 84:19: not relevant - stage after stage, no link to the image of the mount
+- 89:4: not relevant - root s-r-y, not y-s-r
+- 93:5: ref ¶1 - another future promise to the Prophet
+- 94:1: cited ¶7 (pointed to); context ¶2 (in 20:25) - opening of the chest given to the Prophet
+- 94:4: not relevant - dhikr in the sense of renown
+- 26:219: not relevant - no link
+- 2:183: not relevant - fasting prescribed, no ease theme
+- 2:184: not relevant - repeats the concession 2:185 already carries
+- 2:186: not relevant - nearness and answering prayer
+- 2:187: ref ¶10 - "He knew ... and turned to you", the construction of 73:20
+- 2:217: not relevant - fighting in the sacred month
+- 2:218: not relevant - no link
+- 2:220: ref ¶10 - Allah could have put you in hardship but eases about orphans
+- 2:221: not relevant - marriage rule
+- 2:278: not relevant - usury
+- 2:279: not relevant - usury
+- 2:281: not relevant - general warning
+- 2:282: not relevant - recording debts
+- 5:88: not relevant - lawful food
+- 5:89: not relevant - expiation of oaths
+- 5:92: not relevant - limit of the messenger's duty, outside these paragraphs' points
+- 19:95: not relevant - coming alone on the Day
+- 19:96: not relevant - affection granted
+- 19:98: not relevant - destroyed generations
+- 20:0: not relevant - basmala
+- 20:1: not relevant - letters
+- 20:4: not relevant - source of revelation, not ease or reminder
+- 20:5: not relevant - the Throne
+- 20:24: not relevant - situation already stated in ¶2
+- 44:56: not relevant - paradise
+- 44:57: not relevant - paradise
+- 44:59: not relevant - waiting
+- 51:0: not relevant - basmala
+- 51:1: cited ¶7 (paraphrased "savuranlar"); nowhere else - part of the sequence explained
+- 51:5: not relevant - truth of the promise
+- 54:15: not relevant - shares only "muddakir", about the ark as a sign
+- 54:16: not relevant - punishment refrain
+- 54:18: not relevant - punishment refrain
+- 54:19: not relevant - wind on 'Ād
+- 73:18: not relevant - sky split
+- 73:19: ref ¶11 - revealed word as reminder, a way to the Lord
+- 80:18: not relevant - question of origin, no addition
+- 80:21: not relevant - death and burial
+- 80:22: not relevant - resurrection
+- 92:13: ref ¶15 - the hereafter and the first life, the word of 87:17
+- 92:14: cited ¶15 (paraphrased); nowhere else - explained there
+- 92:16: ref ¶15 - the most wretched as the one who denies and turns away
+- 92:19: ref ¶15 - giving without repayment, only for the Lord al-A'lā
+- 92:20: ref ¶15 - "rabbihi al-a'lā", the epithet of 87:1
+- 94:0: not relevant - basmala
+- 75:16 own: prose ¶9 - the tongue trained to follow the reading
+- 75:17 own: context ¶9 (in 75:16); ref ¶1 - collecting and reciting fall to "us"
+- 75:18 own: context ¶9 (in 75:16); ref ¶6 - following the reading of the one ahead
+- 73:5 own: prose ¶11 - the word called heavy and laid on the Prophet
+- 73:2 own: context ¶11 (in 73:5) - the night standing, named without quoting
+- 20:123 own: prose ¶13 - following guidance and not becoming wretched (yashqā)
+- 20:124 own: context ¶13 (in 20:123) - turning from dhikr and a narrow life
+- 6:125 own: prose ¶14 - the chest opened or narrowed, two-way preparation
+- 65:6 own: context ¶16 (in 65:7) - housing and nursing setting, named only
+- 87:15 own: context ¶18 (in 5:91) - dhikr and salat of the purified
+- 87:14 own: not relevant - the surah's own ayah, already named in ¶18
+- 2:106 own: ref ¶1 - forgetting by Allah's will completed
+- 20:7 own: ref ¶1 - knowing the secret and what is more hidden
+- 20:50 own: ref ¶18 - giving each thing its form, then guiding
+- 20:114 own: ref ¶9 - no haste with the Quran
+- 20:117 own: not relevant - shares only the root shaqā
+- 74:1 own: ref ¶12 - addressed and set to work
+- 74:2 own: ref ¶12 - "rise and warn"
+- 74:9 own: ref ¶14 - the day of hardship for deniers
+- 90:11 own: ref ¶6 - the steep pass not attempted
+- 90:12 own: ref ¶6 - the steep pass named
+- 88:21 own: ref ¶8 - only a reminder
+- 88:22 own: ref ¶8 - not a compeller
+- 51:55 own: ref ¶8 - reminder benefits believers
+- 80:3 own: ref ¶8 - the one who may be purified
+- 80:4 own: ref ¶8 - the reminder that benefits
+- 80:5 own: ref ¶16 - the one who considers himself free of need
+- 80:6 own: ref ¶16 - same scene
+- 80:7 own: ref ¶16 - he does not purify himself
+- 96:6 own: ref ¶16 - man transgresses
+- 96:7 own: ref ¶16 - when he sees himself free of need
+- 43:32 own: ref ¶18 - "we divided" their livelihood
+- 5:3 own: ref ¶17 - seeking shares by arrows forbidden
+- 17:82 own: ref ¶13 - the Quran healing for some, loss for others
+- 39:22 own: ref ¶14 - chest opened to Islam, on a light
+- 76:3 own: ref ¶14 - way shown, grateful or ungrateful

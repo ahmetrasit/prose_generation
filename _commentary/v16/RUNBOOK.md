@@ -296,7 +296,7 @@ default augment).
 | Map | $4.19 | $1.64 | $1.6–4.3; a large surah is estimated up to $6.3 (S96) |
 | Image prose | $4.27 | $2.73 | $2.0–4.3 |
 | Readings | $21.65 | $12.06 | ~$1.1 (0.7–1.4 × estimate) |
-| Augment9 (2026-10-04) | $15.15 for 87:1–6, the rest in the second batch | S1: $21.96 for 7 (1:4 $4.31 accepted) | $1.8–4.4 by list size, mean $2.5 for 20 ok calls, 0.73–1.28 × estimate; five 429s cost $3.96 for nothing |
+| Augment9 (2026-10-04) | $48.49 for 19 ok calls (plus $3.96 lost to five 429s) | S1: $21.96 for 7 (1:4 $4.31 accepted) | $1.8–4.4 by list size, mean $2.5 for 20 ok calls, 0.73–1.28 × estimate; five 429s cost $3.96 for nothing |
 | Surah-commentary augment (2b) | not run | – | build estimate ~$0.9 per section at 54 passages; discovery on the Codex subscription |
 
 For an agent-spawned run the cost is computed from the transcript's tokens at `agentrun.RATES` (Opus input $8,
@@ -308,7 +308,7 @@ CLI's figure to within about $0.7 per run, never cash.
 | Surah | Map | Image prose | Readings | Augment9 |
 |---|---|---|---|---|
 | S1 | ✓ | ✓ | 7/7 | 7/7 (1:4 accepted after a safeguard stop) |
-| S87 | ✓ | ✓ | 19/19 | 19 in progress: 87:1–14 done, 87:15–19 running in the last CLI batch |
+| S87 | ✓ | ✓ | 19/19 | 19/19 (2026-10-04; $48.49 for the 19 ok calls) |
 | S100 | ✓ | ✓ | 11/11 | 0/11 |
 | S103 | – | – | 0/3 | – |
 | S107 | ✓ | ✓ | 7/7 | 0/7 |

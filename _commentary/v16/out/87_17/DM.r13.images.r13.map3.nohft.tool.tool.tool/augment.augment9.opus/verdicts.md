@@ -1,0 +1,344 @@
+- 2:86: cited ¶10; ref ¶9 - yakın hayatı sonrakine karşılık satın almak, vadeli bedeli peşine satmaktır
+- 3:14: context ¶16 (in 3:15) - sevilen arzuların listesi
+- 3:15: prose ¶16 - sevilen dünya mallarından "daha hayırlısı" ve kalıcılık
+- 3:185: ref ¶9 - ücretlerin kıyamet günü tam ödenmesi: vadesi gelen bedel
+- 4:77: prose ¶3, ref ¶13 - iki ucu da söylenmiş karşılaştırma, azlık olarak tanınan pay; 14:44'teki erteleme dileği
+- 6:32: ref ¶2, ¶19 - "sonraki yurt" ve oyun-eğlence olarak yakın hayat
+- 7:169: prose ¶6, ref ¶2 - "bu ednâ" ile sonraki yurdun karşı karşıya konması
+- 8:67: ref ¶10 - yakının malını istemek ile Allah'ın sonrakini istemesi
+- 9:38: ref ¶3 - sonrakinin yanında yakının az kalması payı ölçer, onu yok saymaz
+- 11:15: ref ¶10 - yakını isteyenin karşılığı orada verilir
+- 11:16: ref ¶10 - 11:15'in devamı, sonrakinde ateş
+- 11:86: prose ¶22, ref ¶12 - bakiyye ile hayır tek cümlede; hesaptan geriye kalan
+- 12:57: ref ¶3 - sonraki hayatın ecrinin daha hayırlı olması
+- 12:109: ref ¶2 - tamlama halinde "sonraki yurt"
+- 13:26: ref ¶3 - sonrakinin yanında yakın hayat yalnızca bir geçimlik
+- 14:3: ref ¶1 - tercih "üzerine" ile, iki ucu birlikte söylenmiş
+- 16:30: ref ¶3 - iyilik yapana yakın hayatta da iyilik, sonraki ise daha hayırlı
+- 16:96: cited ¶21; nowhere else - ¶21 yeterince açıklıyor
+- 16:107: ref ¶1 - 14:3 ile aynı tercih kalıbı
+- 17:18: cited ¶10; nowhere else - ¶10'da açıklanmış
+- 17:19: cited ¶10; nowhere else - ¶10'da açıklanmış
+- 17:21: prose ¶4 - sıralamanın dereceler ve üstünlük diye açıkça söylenmesi
+- 18:45: cited ¶18; nowhere else - ¶18'de açıklanmış
+- 18:46: cited ¶18, ¶24; nowhere else - iki paragrafta açıklanmış
+- 19:76: prose ¶14, ref ¶18, ¶24 - inkârcıların hayır sorusuna kalıcılıkla verilen cevap
+- 20:71: cited ¶17; nowhere else - ¶20 bu sahneye zaten işaret ediyor
+- 20:72: cited ¶17; ref ¶14 - aynı fiille kurulan doğru tercih
+- 20:73: cited ¶17; ref ¶21 - kalıcılığın Allah'a verilmesi
+- 20:127: cited ¶20; nowhere else - ¶20'de açıklanmış
+- 20:131: cited ¶17; ref ¶18 - yakın hayatın "çiçek" diye anılması, solup giden bitki
+- 28:60: cited ¶17; nowhere else - ¶17'de açıklanmış
+- 28:61: ref ¶9, ¶24 - vaadine kavuşacak olan ile peşin yararlandırılan
+- 29:64: cited ¶19; ref ¶2 - düşen ismin "hayat" oluşunu doğrular
+- 33:28: ref ¶14 - açıkça önüne konan bir seçim
+- 33:29: ref ¶14 - 33:28 ile birlikte seçimin öbür ucu
+- 40:39: prose ¶18 - "dâru'l-karâr": kalıcılığın yerleşip durmak diye adlandırılması
+- 42:20: ref ¶10, ¶12 - iki isteğin tartılması; sonrakinin ekini
+- 43:28: ref ¶22 - soyda kalan kelime, insanların içinde kalan din
+- 43:35: ref ¶17, ¶21 - sonraki "Rabbinin katında"
+- 57:20: ref ¶18, ¶19, ¶20; context ¶8 (in 57:21) - bitki benzetmesi; oyun-eğlence; azap ve bağışlanma
+- 75:20: cited ¶10; nowhere else - ¶10'da açıklanmış
+- 75:21: cited ¶10; nowhere else - ¶10'da açıklanmış
+- 76:27: prose ¶10 - Kur'an'ın indirilmesi ve tesbihten sonra aynı kınama, bırakılanın adı "ağır gün"
+- 79:38: prose ¶14 - aynı fiil, aynı nesne; karşısındaki tutumun adı
+- 2:200: ref ¶3 - yalnız yakında isteyen
+- 2:212: ref ¶4 - sakınanların üstte olması: sonraki hayattaki sıra
+- 2:217: not relevant - "dünya ve ahirette" deyimi dışında bağ yok
+- 2:248: not relevant - eşyadan kalıntı; içteki hayır değil
+- 3:56: not relevant - iki hayatta azap, yalnız ortak deyim
+- 3:145: ref ¶10 - iki hayatın karşılığını isteyenler
+- 3:152: ref ¶10 - müminler içinde iki istek
+- 4:134: ref ¶10 - iki hayatın karşılığı da Allah katında
+- 5:41: not relevant - yalnız ortak deyim
+- 6:70: ref ¶13 - yakın hayatın aldatması, sahte pay
+- 6:158: ref ¶13 - sonradan gelen imanın fayda vermemesi
+- 7:51: ref ¶13 - 6:70 ile aynı söz
+- 9:69: ref ¶12 - payını yakında tüketmek
+- 10:7: ref ¶24 - buluşmayı ummayıp yakına razı olmak
+- 10:24: ref ¶18 - bitki benzetmesi
+- 10:70: ref ¶9 - peşin geçimlik, sonra azap
+- 11:116: cited ¶22; nowhere else - ¶22'de açıklanmış
+- 12:101: not relevant - iki hayatta da velilik; sıralama yok
+- 15:5: ref ¶13 - ecel ertelenmez
+- 17:10: not relevant - sonrakine inanmayanlara azap; paragraflara bağı yok
+- 18:28: ref ¶17 - gözü yakın hayatın süsüne kaydırmamak: 20:131 ile aynı duruş
+- 18:44: ref ¶24 - sonuç bakımından en hayırlı
+- 22:11: not relevant - "hayır" talih anlamında; paragraf mal anlamını işliyor
+- 24:14: not relevant - yalnız ortak deyim
+- 24:19: not relevant - yalnız ortak deyim
+- 24:23: not relevant - yalnız ortak deyim
+- 28:70: ref ¶7 - ilk ile sonrakinin eşlenmesi
+- 30:7: ref ¶1 - bilgiye değil gaflete işaret eder; çatışmaz, niteler
+- 31:33: ref ¶13 - yakın hayatın aldatmasına karşı uyarı
+- 33:57: not relevant - yalnız ortak deyim
+- 35:5: ref ¶13 - 31:33 ile aynı söz
+- 37:77: ref ¶21 - kalanlar kılınmak: bağışlanan kalıcılık
+- 42:36: cited ¶17; nowhere else - ¶17'de açıklanmış
+- 47:36: ref ¶19 - oyun ve eğlence
+- 53:25: cited ¶7; nowhere else - ¶7'de açıklanmış
+- 53:47: ref ¶2 - ikinci yaratılış
+- 53:51: ref ¶21 - sağ bırakmamak (abkâ)
+- 63:9: ref ¶16 - mal ve çocukların oyalaması
+- 63:10: prose ¶13, ref ¶16 - ölüm anında aynı erteleme dileği; geride kalan mal
+- 63:11: context ¶13 (in 63:10) - dileğe verilen cevap
+- 64:15: ref ¶18 - mal ve çocuklar ile Allah katındaki ecir: iki kefe
+- 69:8: ref ¶21 - geride kalıntı görülmemesi
+- 74:28: ref ¶21 - ne bırakan ne sağ koyan ateş
+- 75:13: ref ¶5 - öne gönderilen ile geride bırakılan
+- 79:37: context ¶14 (in 79:38) - haddi aşan
+- 79:39: context ¶14 (in 79:38) - barınağın cehennem oluşu
+- 79:40: context ¶14 (in 79:38) - karşıt tutum
+- 79:41: context ¶14 (in 79:38) - barınağın cennet oluşu
+- 92:13: cited ¶7; nowhere else - ¶7'de açıklanmış
+- 93:4: cited ¶7; ref ¶3 - karşılaştırmanın öbür ucu
+- 102:1: ref ¶16 - çoğaltma yarışı
+- 2:61: ref ¶6 - ednâ ile hayrın karşılaşması
+- 2:96: ref ¶18 - uzun ömür kalıcılık değildir
+- 3:196: ref ¶17 - dolaşmalarına aldanmamak
+- 3:197: ref ¶17 - az geçimlik
+- 5:100: ref ¶15 - kötü ile iyinin ayrılması
+- 15:3: prose ¶24, ref ¶13 - oyalayan umut; yakında bilecekler
+- 16:95: ref ¶9 - az bedel ile Allah katındaki daha hayırlı olan (¶21 buna işaret ediyor)
+- 16:109: not relevant - sonrakinde hüsran; paragraflara yeni bir şey katmıyor
+- 18:34: context ¶13 (in 18:35) - malca çokluk övünmesi
+- 18:35: prose ¶13 - yakına kalıcılık yakıştırmak ve geç tanıma
+- 18:104: ref ¶10 - boşa giden çaba: şükürle karşılanan çabanın karşıtı
+- 23:56: ref ¶16 - mal ve oğulların hayır sanılması
+- 26:205: ref ¶18 - yıllarca yararlandırılmak
+- 26:207: ref ¶18 - yararlandıkları şeyin fayda vermemesi
+- 28:77: ref ¶3 - sonrakini ararken yakından payı unutmamak
+- 28:80: ref ¶16 - Allah'ın sevabı Karun'un hazinesinden daha hayırlı
+- 28:83: ref ¶22, ¶24 - bozgunculuk istemeyenlere sonraki yurt; sonucun sakınanlara ait olması
+- 31:24: ref ¶9 - az yararlandırılıp sonra azaba sürüklenmek
+- 38:31: not relevant - atların sergilenmesi; bağ 38:32 ile kuruluyor
+- 45:35: ref ¶13 - yakın hayatın aldatması
+- 53:29: ref ¶10 - yalnız yakın hayatı istemek
+- 55:27: cited ¶21; nowhere else - ¶21'de açıklanmış
+- 62:11: prose ¶1 - daha iyisi göz önündeyken yapılan tercih
+- 77:46: ref ¶9 - az bir süre yararlanmak
+- 3:176: not relevant - sonrakinde pay; paragraflara bağı yok
+- 10:23: ref ¶9 - yakın hayatın geçimliği, sonra dönüş
+- 11:3: ref ¶3 - yakın hayatta güzel yararlandırma
+- 12:20: not relevant - Yusuf'un ucuza satılması; iki hayat konusu değil
+- 18:7: ref ¶18 - yeryüzünün süsü
+- 25:24: ref ¶18 - kalınacak yer bakımından daha hayırlı
+- 27:59: not relevant - Allah'ın ortaklardan hayırlı oluşu; paragraflara bağı yok
+- 38:47: context ¶15 (in 38:46) - seçilmişler ve en hayırlılar
+- 43:32: ref ¶16, ¶4 - rahmetin biriktirilenden daha hayırlı oluşu; yakın hayattaki dereceler
+- 46:20: prose ¶12 - güzel şeyleri yakın hayatta tüketmek
+- 70:41: not relevant - daha hayırlılarını getirmek; konu dışı
+- 75:5: not relevant - önündekini çiğnemek; paragraflara bağı yok
+- 77:17: ref ¶5 - sonrakiler: gündelik sıra anlamı
+- 92:20: ref ¶4 - "el-a'lâ"
+- 93:5: cited ¶7; ref ¶24 - bağ ledgerdaki ortak "terdâ"da değil, ileride verilecek hoşnut edici şeyde, yani beklenenin iyi gelişinde kuruluyor
+- 97:3: not relevant - Kadir gecesi karşılaştırması; konu dışı
+- 100:8: cited ¶16; ref ¶14 - herkesin hayra meyli
+- 103:1: not relevant - yemin; bağ yok
+- 2:184: not relevant - oruç hükmü
+- 2:220: not relevant - yetimler hükmü
+- 2:278: not relevant - faizden kalan; kökü paylaşıyor ama paragrafın hasılat anlamına bağlanmıyor
+- 3:22: not relevant - yalnız ortak deyim
+- 3:45: not relevant - yalnız ortak deyim
+- 3:114: not relevant - hayırlarda yarışmak; paragraflara bağı yok
+- 4:59: not relevant - itaat hükmü
+- 7:85: not relevant - Şuayb'ın sözü ama bakiyye yok; bağı 11:86 taşıyor
+- 8:23: ref ¶22 - içlerindeki hayır
+- 8:30: not relevant - tuzak
+- 9:3: not relevant - tövbe hayırlıdır; konu dışı
+- 9:61: not relevant - konu dışı
+- 9:74: not relevant - konu dışı
+- 18:81: not relevant - konu dışı
+- 18:95: ref ¶16 - haraca karşı Rabbin verdiği imkân
+- 22:15: not relevant - konu dışı
+- 22:30: not relevant - konu dışı
+- 23:118: not relevant - dua
+- 26:120: ref ¶21 - kalanların boğulması
+- 26:172: not relevant - "âharîn" (ötekiler), başka kelime
+- 29:16: not relevant - konu dışı
+- 38:48: ref ¶15 - en hayırlılardan sayılmak
+- 55:70: not relevant - yalnız kök ortak
+- 61:11: ref ¶9 - kurtaran ticaret
+- 99:7: not relevant - zerre kadar hayır; paragraflara bağı yok
+- 2:263: not relevant - konu dışı
+- 3:54: not relevant - konu dışı
+- 3:157: ref ¶16 - biriktirilenden daha hayırlı
+- 17:45: not relevant - konu dışı
+- 23:109: not relevant - dua
+- 26:64: not relevant - "âharîn" (ötekiler)
+- 26:66: not relevant - "âharîn" (ötekiler)
+- 27:5: not relevant - sonrakinde hüsran; konu dışı
+- 37:62: not relevant - zakkum karşılaştırması; paragraflara bağı yok
+- 41:49: ref ¶14 - hayrı istemekten usanmamak
+- 43:74: ref ¶20 - hayırsız kalıcılık
+- 53:20: not relevant - "uhrâ" (öteki)
+- 56:40: ref ¶5 - sonrakiler
+- 64:9: ref ¶20 - ebedî kalış: büyük kurtuluş
+- 70:21: ref ¶16 - mal olarak hayır
+- 75:6: not relevant - kıyameti sormak
+- 91:10: not relevant - 87:14 ile ilgili, bu ayetin temalarıyla değil
+- 2:84: cited ¶10 (işaret edilmiş); nowhere else - ahdin anılışı
+- 2:85: cited ¶10 (işaret edilmiş); nowhere else - ahdin bozulması
+- 2:87: not relevant - konu dışı
+- 2:88: not relevant - konu dışı
+- 2:178: not relevant - kısas hükmü
+- 2:179: not relevant - kısas hükmü
+- 2:181: not relevant - vasiyet ayrıntısı
+- 2:182: not relevant - vasiyet ayrıntısı
+- 11:114: not relevant - namaz emri; 87:17'ye bağı yok
+- 11:115: not relevant - sabır emri
+- 11:117: ref ¶22 - ıslah edici halk
+- 11:118: not relevant - konu dışı
+- 14:42: ref ¶13 - zaten ertelenmiş olmak
+- 14:43: ref ¶13 - o günün tasviri
+- 14:45: ref ¶13 - yok olanların meskenleri
+- 14:46: not relevant - tuzak
+- 16:94: not relevant - yeminler
+- 16:97: ref ¶19 - karşılık olarak verilen güzel hayat
+- 16:98: not relevant - istiâze
+- 17:16: ref ¶22 - bolluk içindekilerin yoldan çıkması
+- 17:17: not relevant - yok edilen nesiller; bakiyye yok
+- 17:20: ref ¶10 - ikisine de Rabbin bağışından verilmesi
+- 18:43: not relevant - konu dışı
+- 18:47: not relevant - konu dışı
+- 18:48: not relevant - konu dışı
+- 20:69: not relevant - konu dışı
+- 20:70: cited ¶17 (işaret edilmiş); nowhere else - secde
+- 20:74: ref ¶20 - ne ölmek ne yaşamak (¶17 buna işaret ediyor)
+- 20:75: ref ¶4 - en yüce dereceler
+- 20:122: not relevant - konu dışı
+- 20:123: not relevant - konu dışı
+- 20:125: not relevant - konu dışı
+- 20:126: not relevant - unutma 87:6'ya ait
+- 20:128: not relevant - bakiyye olmadan yok edilen nesiller
+- 20:129: not relevant - azabın ertelenmesi; erteleme dileğiyle ilgili değil
+- 20:133: prose ¶17, ref ¶7 - ilk sayfalar
+- 20:134: not relevant - konu dışı
+- 28:58: ref ¶21 - mirasçı olarak Allah
+- 28:59: not relevant - konu dışı
+- 28:62: not relevant - konu dışı
+- 29:62: not relevant - konu dışı
+- 29:63: not relevant - yağmurla diriltme; ¶23'e bağlanmıyor
+- 29:65: not relevant - konu dışı
+- 29:66: ref ¶13 - yakında bilecekler
+- 42:34: not relevant - konu dışı
+- 42:35: not relevant - konu dışı
+- 42:37: ref ¶17 - daha hayırlı olana erecekler
+- 42:38: ref ¶17 - namaz
+- 53:23: not relevant - konu dışı
+- 53:24: cited ¶7 (işaret edilmiş); nowhere else - ¶7'de anılıyor
+- 53:26: not relevant - şefaat
+- 53:27: not relevant - konu dışı
+- 55:24: not relevant - konu dışı
+- 55:25: not relevant - nakarat
+- 55:28: not relevant - nakarat
+- 55:29: not relevant - konu dışı
+- 75:14: ref ¶1 - kendini gören insan
+- 75:15: ref ¶1 - özürler
+- 75:18: ref ¶10 - güvencenin devamı
+- 75:19: ref ¶10 - açıklama da Allah'a düşer
+- 75:22: ref ¶10, ¶24 - Rablerine bakan yüzler
+- 75:23: ref ¶10, ¶24 - Rablerine bakan yüzler
+- 92:10: ref ¶4 - en zora kolaylaştırma
+- 92:11: ref ¶16 - malın fayda vermemesi
+- 92:14: ref ¶4 - 92:15 ile birlikte
+- 92:15: ref ¶4 - en bedbaht
+- 93:1: cited ¶7 (işaret edilmiş); nowhere else - yemin
+- 93:2: cited ¶7 (işaret edilmiş); nowhere else - yemin
+- 93:6: ref ¶7 - ilk halden sonrakine
+- 93:7: ref ¶7 - ilk halden sonrakine
+- 100:6: cited ¶16 (işaret edilmiş); nowhere else - nankörlük
+- 100:7: not relevant - konu dışı
+- 100:9: ref ¶16 - kabirlerin deşilmesi
+- 100:10: ref ¶16 - göğüslerdekinin ortaya dökülmesi
+- 29:20 own: prose ¶2 - "en-neş'etu'l-âhira": sıfatın başka bir isimle söylenmesi
+- 29:19 own: not relevant - yaratmayı başlatma ve tekrarlama, sıfatsız
+- 9:111 own: prose ¶9 - vadeli bedelle yapılan alışveriş
+- 57:21 own: prose ¶8 - sonrakine doğru yarış
+- 68:17 own: prose ¶11 - kesimin kökü; kesim sabahına kalmayan ürün
+- 68:18 own: not relevant - istisna etmemek
+- 68:19 own: context ¶11 (in 68:17) - bahçenin vurulması
+- 68:20 own: context ¶11 (in 68:17) - "es-sarîm"
+- 68:33 own: context ¶11 (in 68:17); ref ¶20 - sonrakinin azabı daha büyük
+- 39:26 own: ref ¶20 - sonrakinin azabı daha büyük
+- 89:23 own: context ¶19 (in 89:24) - geç gelen hatırlama
+- 89:24 own: prose ¶19, ref ¶2, ¶13 - sonraki hayatın "hayatım" diye anılması; önden göndermek
+- 38:45 own: context ¶15 (in 38:46) - anılan peygamberler
+- 38:46 own: prose ¶15 - yurdu anmakla ayıklanmak
+- 76:23 own: context ¶10 (in 76:27) - Kur'an'ın indirilmesi
+- 76:24 own: context ¶10 (in 76:27) - sabır
+- 76:25 own: context ¶10 (in 76:27) - Rabbin adını anmak
+- 76:26 own: context ¶10 (in 76:27) - secde ve tesbih
+- 18:32 own: context ¶13 (in 18:35) - iki bahçe
+- 18:33 own: not relevant - bahçelerin ürünü; bağı 18:35 taşıyor
+- 18:36 own: context ¶13 (in 18:35) - "daha hayırlı dönüş yeri" sözü
+- 18:42 own: context ¶13 (in 18:35) - geç tanıma
+- 19:73 own: context ¶14 (in 19:76) - inkâr edenlerin hayır sorusu
+- 19:74 own: not relevant - yok edilen nesiller; bağı 19:76 taşıyor
+- 79:34 own: context ¶14 (in 79:38) - en büyük felaket
+- 79:35 own: context ¶14 (in 79:38) - insanın hatırlaması
+- 79:36 own: context ¶14 (in 79:38) - cehennemin gösterilmesi
+- 40:28 own: context ¶18 (in 40:39) - konuşanın kim olduğu
+- 40:38 own: not relevant - aynı konuşmanın girişi; bağ kurmuyor
+- 62:9 own: context ¶1 (in 62:11) - alışverişi bırakma emri
+- 62:10 own: not relevant - konu dışı
+- 16:31 own: not relevant - bahçelerin tasviri; 16:30 yeterli
+- 4:78 own: not relevant - ölümün her yerde yetişmesi; paragraflara bağı yok
+- 3:16 own: not relevant - dua
+- 11:84 own: context ¶22 (in 11:86) - ölçüyü eksiltmemek
+- 11:85 own: context ¶22 (in 11:86) - ölçüyü tam vermek
+- 46:19 own: not relevant - dereceler; bağ zayıf
+- 42:19 own: not relevant - rızık
+- 15:2 own: ref ¶13 - geç gelen dilek
+- 15:4 own: not relevant - konu dışı
+- 15:1 own: not relevant - giriş
+- 17:22 own: not relevant - konu dışı
+- 7:168 own: not relevant - bağlam; bağı 7:169 taşıyor
+- 63:8 own: not relevant - konu dışı
+- 28:76 own: not relevant - Karun'un hazinesi; bağı 28:79-80 taşıyor
+- 28:79 own: ref ¶16 - Karun'un süsü karşısında dilek
+- 83:25 own: ref ¶8 - yarışılan içecek
+- 83:26 own: ref ¶8 - yarışanların yarışı
+- 74:37 own: ref ¶8 - öne geçmek ya da geride kalmak
+- 15:24 own: ref ¶5 - öne geçenler ve geride kalanlar
+- 82:5 own: ref ¶5 - öne gönderilen ile geride bırakılan
+- 77:16 own: ref ¶5 - öncekiler
+- 56:39 own: ref ¶5 - öncekilerden bir topluluk
+- 56:62 own: ref ¶7 - ilk yaratılış
+- 93:8 own: ref ¶7 - yoksulluktan zenginliğe
+- 56:32 own: ref ¶11 - bol meyve
+- 56:33 own: ref ¶11 - kesilmeyen meyve
+- 13:35 own: ref ¶11 - yemişi sürekli bahçe
+- 7:34 own: ref ¶13 - ecel ertelenmez
+- 10:49 own: ref ¶13 - ecel ertelenmez
+- 16:61 own: ref ¶13 - belirli bir süreye ertelemek, sonra ecelin ertelenmemesi
+- 23:43 own: ref ¶13 - 15:5 ile aynı söz
+- 102:2 own: ref ¶16 - kabirlere varıncaya dek
+- 102:3 own: ref ¶13 - yakında bileceksiniz
+- 102:4 own: ref ¶13 - yakında bileceksiniz
+- 13:12 own: ref ¶23 - korku ve umutla gösterilen şimşek
+- 30:24 own: ref ¶23 - şimşek ve ardından yağmur
+- 18:8 own: ref ¶18 - çorak toprağa dönen süs
+- 26:206 own: ref ¶18 - vaat edilenin gelmesi
+- 39:21 own: ref ¶18 - sararıp çerçöpe dönen ekin
+- 8:28 own: ref ¶18 - 64:15 ile aynı söz
+- 3:198 own: ref ¶17 - Allah katındaki iyiler için daha hayırlıdır
+- 38:32 own: ref ¶16 - hayır sevgisi
+- 23:55 own: ref ¶16 - verilen mal ve oğullar
+- 10:58 own: ref ¶16 - biriktirilenden daha hayırlı
+- 18:94 own: ref ¶16 - sunulan haraç
+- 30:3 own: ref ¶6 - "en yakın yer"
+- 32:21 own: ref ¶6 - daha yakın azap
+- 2:94 own: ref ¶1 - sonraki yurdu sahiplenip ölümü dilememek
+- 2:95 own: ref ¶1 - ölümü asla dilememek
+- 53:30 own: ref ¶1 - bilgilerinin ulaştığı sınır; çatışmaz, niteler
+- 92:7 own: ref ¶4 - en kolaya kolaylaştırma
+- 20:76 own: ref ¶20 - arınana ebedî kalış
+- 28:88 own: ref ¶21 - O'nun yüzünden başka her şey yok olacak
+- 18:110 own: ref ¶24 - kavuşmayı ummak
+- 29:5 own: ref ¶24 - beklenen süre mutlaka gelir
+- 61:10 own: ref ¶9 - kurtaran ticaret
+- 2:201 own: ref ¶3 - iki hayatta da iyilik istemek
+- 20:132 own: cited ¶17; ref ¶24 - sonucun sakınmaya ait olması
+- 20:130 own: cited ¶17; nowhere else - ledgerdaki "terdâ" yankısı hiçbir paragrafa bir şey katmıyor
+- 14:24 own: not relevant - güzel söz benzetmesi; sonraki hayat değil

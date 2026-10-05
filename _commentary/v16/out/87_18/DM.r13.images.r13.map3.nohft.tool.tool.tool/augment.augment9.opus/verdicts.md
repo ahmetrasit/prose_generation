@@ -1,0 +1,303 @@
+- 2:79: ref ¶9 - kitabı elle yazıp Allah'a nispet edenler: okuma yazma bilmeyenin karşıtı
+- 3:3: ref ¶4 - "önündekini doğrulayan" kalıbı
+- 5:44: ref ¶18 - Tevrat'ın korunmasının insanlara emanet edilmesi
+- 5:46: ref ¶4, ¶13 - İsa'nın Tevrat'ı doğrulaması; öncekilerin izleri üzerinden gönderilmesi
+- 5:48: ref ¶4 - "önündekini doğrulayan" kalıbı
+- 6:91: prose ¶5, ref ¶7 - Musa'nın kitabının ayrı yapraklar haline getirilmesi; gösterilip gizlenmesi
+- 7:157: ref ¶4, ¶9 - ümmî peygamberin önceki kitaplarda yazılı bulunması
+- 9:111: ref ¶1 - ahiret vaadinin Tevrat'ta ve İncil'de de bulunması
+- 10:37: ref ¶1, ¶4 - uydurma olmayıp önündekini doğrulaması
+- 10:94: ref ¶4 - kitabı önceden okuyanlara sorulması
+- 20:133: cited ¶11; ref ¶10 - delil ile ilk sayfaların bağı
+- 21:105: ref ¶2 - Zebur'dan aktarılan bir cümle
+- 26:196: cited ¶4; nowhere else - ¶4 yeterince işliyor
+- 42:13: ref ¶4 - İbrahim'e ve Musa'ya tavsiye edilen aynı din
+- 46:12: prose ¶13, ref ¶4 - Musa'nın kitabının "imâm" olarak önden gitmesi
+- 46:30: ref ¶4 - "önündekini doğrulayan" kalıbı, Musa'dan sonra
+- 53:36: cited ¶2; nowhere else - Necm sahnesi ¶2-3'te işleniyor
+- 57:25: not relevant - elçilerin kitap ve mizanla gönderilmesi; ilk sayfalar iddiasına bir şey katmaz
+- 80:13: prose ¶10 - "arınmış" sayfaların yüceltilmiş ve değerli ellerde bulunması; ledgerdeki "gerek yok" gerekçesine karşılık: ¶10'daki arınmış sayfalara bir yer kazandırır
+- 80:14: context ¶10 (in 80:13) - "mutahhara"
+- 80:15: context ¶10 (in 80:13) - sayfaları tutan eller
+- 80:16: context ¶10 (in 80:13) - o ellerin sıfatı
+- 81:10: ref ¶6 - sayfaların yayılması; ledgerdeki "başka gönderge" gerekçesine karşılık: ¶6 göndergeden değil, yaprağın serilmiş yüzey oluşundan söz eder
+- 2:4: ref ¶4 - öncekilere indirilene ve ahirete iman
+- 2:53: not relevant - Musa'ya kitap verildiğine dair genel haber
+- 2:75: not relevant - tahrif konusu; ayet okunuşta yer almıyor
+- 2:89: ref ¶4 - "yanlarındakini doğrulayan"
+- 2:97: ref ¶4 - "önündekini doğrulayan"
+- 2:101: ref ¶4 - "yanlarındakini doğrulayan"
+- 2:121: not relevant - kitabın hakkıyla okunması; bir paragraf iddiasına dokunmuyor
+- 2:136: ref ¶4 - İbrahim'e ve Musa'ya indirilene iman
+- 2:146: ref ¶4 - kitap verilenlerin onu tanıması
+- 2:174: ref ¶7 - indirileni gizleyenler
+- 2:176: not relevant - kitapta ayrılığa düşmek; bir bağ kurmuyor
+- 2:213: not relevant - genel peygamber gönderilişi
+- 3:48: not relevant - İsa'ya kitabın öğretilmesi
+- 3:50: ref ¶4 - İsa'nın Tevrat'ı doğrulaması
+- 3:65: not relevant - İbrahim üzerine tartışma
+- 3:78: not relevant - kitabı dille eğip bükmek
+- 3:79: not relevant - rabbânîlik
+- 3:81: ref ¶4 - "yanınızdakini doğrulayan" elçi
+- 3:84: ref ¶4 - İbrahim'e ve Musa'ya indirilene iman
+- 3:113: not relevant - gece ayet okuyan topluluk
+- 3:187: ref ¶7 - kitabın açıklanıp gizlenmemesi sözü
+- 4:46: not relevant - tahrif
+- 4:136: not relevant - kitaplara iman emri; eski yazıda bulunma iddiasına katkısı yok
+- 4:163: ref ¶4 - öncekilere yapılan vahiy gibi vahiy
+- 4:171: not relevant - İsa hakkında aşırılık
+- 5:13: ref ¶18 - hatırlatılanın bir kısmının unutulması
+- 5:41: not relevant - tahrif ve münafıklar
+- 5:68: not relevant - Tevrat'ı ve İncil'i ayakta tutma
+- 6:7: prose ¶7, ref ¶5, ¶9 - ele değen yazılı yaprak bile ikna etmez
+- 6:19: not relevant - Kur'an'ın uyarı için vahyedilmesi; yalnızca "hâzâ" ortak
+- 6:92: ref ¶2, ¶4 - ahiret, namaz ve kitap; "önündekini doğrulayan"
+- 7:169: prose ¶1 - kitabı okumuş olanların yakın olanı öne koyması
+- 11:17: context ¶13 (in 46:12) - "Musa'nın kitabı imâm" ifadesinin tekrarı
+- 12:111: ref ¶4 - önündekini doğrulama
+- 13:36: ref ¶4 - kitap verilenlerin sevinmesi
+- 16:44: ref ¶4 - önceki elçilerin "zubur"u
+- 17:55: not relevant - Davud'a Zebur verilmesi
+- 23:49: not relevant - Musa'ya kitabın verilmesi, genel haber
+- 28:43: prose ¶18 - ilk nesillerden sonra Musa'ya verilen kitap
+- 28:49: context ¶12 (in 28:48) - iki kitaptan daha doğru yol göstereni getirme çağrısı
+- 29:27: not relevant - İbrahim'in soyunda kitap
+- 29:46: not relevant - kitap ehliyle tartışma adabı
+- 32:23: not relevant - Musa'ya kitap; bağ kurmuyor
+- 35:25: ref ¶4 - "zubur" ve aydınlatıcı kitap
+- 37:168: prose ¶12 - öncekilerden bir öğüt isteyip, gelince inkâr etmek
+- 40:53: not relevant - Musa'ya hidayet verilmesi, genel haber
+- 41:45: ref ¶1 - Musa'nın kitabı hakkındaki kuşku
+- 42:15: not relevant - davet ve istikamet
+- 43:45: not relevant - önceki elçilere sorma; içerik başka konuda
+- 48:29: ref ¶2 - Tevrat ve İncil'den aktarılan örnek
+- 53:56: prose ¶2, ref ¶14 - aynı "hâzâ … ûlâ" cümlesi
+- 54:52: not relevant - amellerin kaydı; başka gönderge
+- 57:26: not relevant - Nuh ve İbrahim soyunda kitap
+- 61:6: ref ¶4 - İsa'nın Tevrat'ı doğrulaması
+- 62:5: not relevant - kitap taşıyan eşek benzetmesi; bağ kurmuyor
+- 66:12: not relevant - Meryem'in kitapları doğrulaması
+- 74:52: cited ¶7; ref ¶6 - "muneşşera": serilmiş sayfalar
+- 92:13: ref ¶14 - âhire/ûlâ çifti
+- 98:2: cited ¶10; nowhere else - ¶10'da işleniyor
+- 2:285: not relevant - genel iman ikrarı
+- 6:156: prose ¶10 - önceki yazılardan habersiz olanlara gelen açık delil
+- 26:137: not relevant - "huluk"un anlamı ve "hâzâ"nın göndergesi tartışmalı; bağ bir yoruma dayanır
+- 53:37: cited ¶2; nowhere else - ¶2'de işleniyor
+- 2:183: not relevant - orucun öncekilere de yazılması
+- 3:4: not relevant - 3:3'e bir şey eklemiyor
+- 4:162: ref ¶4 - öncekilere indirilene iman
+- 5:114: not relevant - sofra ve "evvel/âhir" yalnızca kelime ortaklığı
+- 6:84: not relevant - peygamberlerin sayılması
+- 6:89: not relevant - kitap ve hikmet verilenler
+- 6:90: ref ¶13 - öncekilerin hidayetine uymak
+- 6:155: context ¶10 (in 6:156) - mübarek kitap
+- 8:31: context ¶4 (in 23:83) - "öncekilerin masalları"
+- 15:10: not relevant - öncekilere elçi gönderilmesi
+- 15:13: not relevant - öncekilerin sünneti
+- 17:2: not relevant - Musa'ya kitap
+- 23:24: ref ¶1 - "ilk atalarımızdan duymadık"
+- 23:68: ref ¶1 - "ilk atalarına gelmeyen mi geldi"
+- 23:81: context ¶4 (in 23:83) - öncekilerin dediğini demek
+- 23:83: prose ¶4 - eskiliğin masal sayılması
+- 26:69: not relevant - İbrahim kıssasının girişi
+- 26:84: ref ¶16 - sonrakiler arasında doğruluk dili
+- 26:197: cited ¶4; nowhere else - ¶4'te işleniyor
+- 28:52: ref ¶4 - kitap verilenlerin ona inanması
+- 40:2: not relevant - kitabın indirilişi, genel
+- 43:6: not relevant - öncekilere peygamber gönderilmesi
+- 45:16: not relevant - İsrailoğullarına kitap
+- 46:9: ref ¶1 - elçiler arasında yeni çıkmış biri olmamak
+- 46:17: context ¶4 (in 23:83) - "öncekilerin masalları"
+- 52:2: context ¶6 (in 52:3) - yazılı kitap
+- 52:3: prose ¶6, ref ¶5 - serilmiş deri yaprak
+- 56:13: not relevant - öncekilerden bir topluluk
+- 56:62: ref ¶15 - ilk yaratılışın sonrakini hatırlatması
+- 68:1: not relevant - kalem ve yazılanlar, gönderge farklı
+- 68:37: not relevant - meydan okuma; ilk sayfalar iddiasına dokunmuyor
+- 74:25: ref ¶1 - "insan sözü" itirazı
+- 79:25: ref ¶14 - âhire/ûlâ çifti
+- 85:22: ref ¶18 - korunmuş levha
+- 93:4: cited ¶14; nowhere else - ¶14'te işleniyor
+- 98:3: cited ¶10; nowhere else - ¶10'da işleniyor
+- 3:33: not relevant - seçilmiş aileler
+- 3:96: not relevant - ilk ev; yalnızca "evvel" ortak
+- 4:59: ref ¶15 - te'vîl sonuç anlamında
+- 5:110: not relevant - İsa'ya verilen nimetler
+- 6:25: context ¶4 (in 23:83) - "öncekilerin masalları"
+- 9:83: not relevant - "evvele merra" yalnızca kelime ortaklığı
+- 20:21: not relevant - asanın ilk hali; kelime ortaklığı
+- 20:65: not relevant - ilk atan olmak; kelime ortaklığı
+- 24:55: not relevant - öncekilerin halife kılınması
+- 26:26: ref ¶17 - ilk ataların Rabbi, Firavun karşısında
+- 26:51: not relevant - ilk inananlar olmak
+- 26:184: not relevant - önceki nesiller; bağ kurmuyor
+- 28:36: prose ¶1 - Musa'ya "ilk atalarımızdan duymadık" denmesi
+- 37:17: context ¶18 (in 56:49) - "ilk atalarımız da mı"
+- 37:126: ref ¶17 - ilk ataların Rabbi
+- 38:45: not relevant - İbrahim'in anılması
+- 39:12: not relevant - ilk müslüman olmak
+- 43:81: not relevant - ilk kul olmak
+- 44:35: not relevant - "ilk ölüm"; paragrafların iddiasına dokunmuyor
+- 53:50: ref ¶2 - sayfaların dizisinde ilk Âd
+- 56:39: not relevant - öncekilerden topluluk
+- 56:48: context ¶18 (in 56:49) - ilk atalar sorusu
+- 56:49: prose ¶18 - öncekiler ile sonrakilerin aynı güne toplanması
+- 68:15: context ¶4 (in 23:83) - "öncekilerin masalları"
+- 77:16: not relevant - öncekilerin helaki; ¶18'e bir şey katmıyor
+- 83:13: context ¶4 (in 23:83) - "öncekilerin masalları"
+- 93:6: not relevant - "âvâ" başka kök
+- 5:57: not relevant - dini alaya alanlar
+- 6:163: not relevant - ilk müslüman
+- 20:51: cited ¶17; nowhere else - ¶17-18'de işleniyor
+- 21:106: ref ¶2 - Zebur cümlesinin ardından gelen yeterlilik
+- 33:33: not relevant - ilk cahiliye; kelime ortaklığı
+- 40:54: not relevant - hidayet ve öğüt, genel
+- 44:8: ref ¶17 - ilk ataların Rabbi
+- 44:56: not relevant - ilk ölüm
+- 53:25: cited ¶14; nowhere else - ¶14'te işleniyor
+- 56:78: ref ¶10 - saklı kitap ve ona arınmışların dokunması
+- 56:95: not relevant - ortak olan yalnızca vurgu kalıbı
+- 81:21: ref ¶4 - vahiy elçisinin güvenilirliği
+- 83:7: not relevant - aynı kalıp, ama amel kaydı
+- 83:18: not relevant - aynı kalıp, ama amel kaydı
+- 20:47: ref ¶17 - sorudan önceki haber
+- 20:48: ref ¶3, ¶17 - yalanlayıp yüz çevirene azap
+- 20:53: prose ¶17 - otlağı çıkarmanın Taha'daki karşılığı
+- 20:54: context ¶17 (in 20:53) - otlatma
+- 20:128: ref ¶18 - helak edilen nesillerin izleri
+- 20:129: not relevant - ertelenen hüküm
+- 20:134: ref ¶12 - delilin bahaneyi kaldırması
+- 20:135: ref ¶15 - beklenen son
+- 26:194: ref ¶4 - ¶4'ün işaret ettiği indiriliş
+- 26:195: ref ¶4 - apaçık Arapça
+- 26:198: ref ¶4 - yabancıya indirilse bile
+- 26:199: ref ¶4 - okunsa da inanmamak
+- 28:68: not relevant - yaratma ve seçme
+- 28:69: not relevant - gizliyi bilme
+- 28:71: not relevant - gece ve gündüz
+- 28:72: not relevant - gece ve gündüz
+- 29:47: ref ¶4 - kitap verilenlerin inanması
+- 29:49: prose ¶9, ref ¶10 - göğüslerdeki ayetler
+- 29:50: ref ¶12 - işaret talebi
+- 53:23: ref ¶12 - hidayetin zaten gelmiş olması
+- 53:24: ref ¶14 - 53:25'in öncesi
+- 53:26: not relevant - şefaat
+- 53:27: not relevant - meleklere dişi adı verilmesi
+- 53:31: ref ¶3 - yapılana göre karşılık
+- 53:32: ref ¶3 - kendini temize çıkarmama
+- 53:35: ref ¶2 - yüz çevirene gayb sorusu
+- 53:41: ref ¶2 - dizinin bir halkası
+- 53:43: ref ¶2 - dizinin devamı
+- 53:44: ref ¶2 - dizinin devamı
+- 74:50: ref ¶7 - öğütten kaçış
+- 74:51: ref ¶7 - aslandan kaçış
+- 74:56: ref ¶7 - anmanın dileğe bağlanması
+- 93:2: ref ¶14 - Duhâ'nın yemini
+- 93:3: ref ¶14 - ¶14'ün işaret ettiği teselli
+- 93:5: ref ¶14 - sonrakinin hayrı
+- 98:0: not relevant - besmele
+- 98:4: ref ¶10 - delilden sonraki ayrılık
+- 98:5: prose ¶10, ref ¶2 - kitap verilenlere emredilen namaz ve zekât
+- 35:18 own: prose ¶3 - yük, içi titreme, namaz, arınma ve varış tek ayette
+- 92:15 own: prose ¶3 - en bedbaht, yalanlayıp yüz çeviren
+- 92:16 own: context ¶3 (in 92:15) - "tevellâ"
+- 92:17 own: context ¶3 (in 92:15) - "yucennebuhâ"
+- 92:18 own: context ¶3 (in 92:15) - malını verip arınan
+- 6:164 own: ref ¶3 - yük cümlesinin tekrarı
+- 17:15 own: ref ¶3 - yük cümlesinin tekrarı
+- 39:7 own: ref ¶3 - yük cümlesinin tekrarı
+- 38:7 own: ref ¶1 - yenilik ve uydurma itirazı
+- 37:37 own: ref ¶1 - elçileri doğrulaması
+- 74:24 own: ref ¶1 - aktarılan sihir itirazı
+- 11:110 own: ref ¶1 - Musa'nın kitabı hakkındaki kuşku
+- 75:20 own: ref ¶1 - yakında olanı sevmek
+- 75:21 own: ref ¶1 - ahireti bırakmak
+- 79:38 own: ref ¶1 - dünya hayatını öne koymak
+- 41:43 own: ref ¶4 - öncekilere söylenmiş olanın söylenmesi
+- 23:82 own: context ¶4 (in 23:83) - diriltilmeyi sorgulama
+- 27:68 own: context ¶4 (in 23:83) - aynı cümlenin tekrarı
+- 16:24 own: context ¶4 (in 23:83) - "öncekilerin masalları"
+- 26:192 own: ref ¶4 - ¶4'ün işaret ettiği indiriliş
+- 26:193 own: ref ¶4 - güvenilir ruh
+- 2:41 own: ref ¶4 - "yanınızdakini doğrulayan"
+- 2:91 own: ref ¶4 - "yanlarındakini doğrulayan"
+- 4:47 own: ref ¶4 - "yanınızdakini doğrulayan"
+- 35:31 own: ref ¶4 - "önündekini doğrulayan"
+- 28:53 own: ref ¶4 - "bundan önce de müslümandık"
+- 3:184 own: ref ¶4 - "zubur" ve aydınlatıcı kitap
+- 46:10 own: ref ¶4 - İsrailoğullarından tanık
+- 6:114 own: ref ¶4 - kitap verilenlerin bilmesi
+- 43:4 own: ref ¶4 - aynı iskelet, ana kitap
+- 52:1 own: context ¶6 (in 52:3) - Tûr'a yemin
+- 17:13 own: ref ¶6 - açılmış kitap
+- 74:49 own: ref ¶7 - öğütten yüz çevirme
+- 80:11 own: context ¶10 (in 80:13); ref ¶7 - "bu bir öğüttür"
+- 80:12 own: context ¶10 (in 80:13); ref ¶7 - "dileyen onu anar"
+- 4:153 own: ref ¶7 - gökten kitap istenmesi
+- 17:93 own: ref ¶7 - okunacak kitap istenmesi
+- 75:16 own: context ¶8 (in 75:17) - acele etmeme
+- 75:17 own: prose ¶8 - toplamak ve okutmak
+- 75:18 own: context ¶8 (in 75:17) - okunuşu izleme
+- 75:19 own: context ¶8 (in 75:17) - açıklama
+- 25:4 own: context ¶9 (in 25:5) - uydurma itirazı
+- 25:5 own: prose ¶9; context ¶4 (in 23:83) - yazdırılmış eski masallar itirazı
+- 25:6 own: context ¶9 (in 25:5) - gizliyi bilenin indirmesi
+- 16:103 own: ref ¶9 - "ona insan öğretiyor" itirazı
+- 20:114 own: ref ¶9 - vahyi işiterek almak
+- 11:49 own: ref ¶9 - bilinmeyen haberlerin vahyedilmesi
+- 28:44 own: ref ¶9 - orada bulunmayan Peygamber
+- 28:45 own: ref ¶9 - orada bulunmayan Peygamber
+- 28:46 own: ref ¶9 - orada bulunmayan Peygamber
+- 6:154 own: context ¶10 (in 6:156) - Musa'ya verilen kitap
+- 6:157 own: context ¶10 (in 6:156); ref ¶12 - gelen açık delil
+- 56:77 own: ref ¶10 - değerli Kur'an
+- 56:79 own: ref ¶10 - arınmışların dokunması
+- 28:48 own: prose ¶12 - Musa'ya verilenle ölçülen işaret talebi
+- 37:167 own: context ¶12 (in 37:168) - söyledikleri
+- 37:169 own: context ¶12 (in 37:168) - verdikleri söz
+- 37:170 own: context ¶12 (in 37:168) - öğüdü inkâr
+- 29:51 own: ref ¶12 - okunan kitabın yetmesi
+- 16:123 own: ref ¶13 - İbrahim'in yoluna uymak
+- 57:27 own: ref ¶13 - öncekilerin izleri üzerinden gönderilmek
+- 43:22 own: ref ¶13 - ataların izi
+- 43:23 own: ref ¶13 - ataların izi
+- 57:3 own: ref ¶14 - evvel ve âhir
+- 93:1 own: ref ¶14 - Duhâ'nın yemini
+- 7:53 own: prose ¶15 - kitabın te'vîli
+- 7:52 own: context ¶15 (in 7:53) - ayrıntılı kılınmış kitap
+- 10:39 own: ref ¶15 - henüz gelmemiş te'vîl
+- 12:100 own: ref ¶15 - rüyanın te'vîli
+- 17:35 own: ref ¶15 - sonuçça daha güzel
+- 20:55 own: ref ¶15 - toprağa dönüş ve yeniden çıkış
+- 16:96 own: ref ¶16 - kalıcı olan
+- 28:60 own: ref ¶11 - daha hayırlı ve daha kalıcı
+- 42:36 own: ref ¶11 - daha hayırlı ve daha kalıcı
+- 20:73 own: ref ¶11 - Allah daha hayırlı ve daha kalıcı
+- 20:127 own: ref ¶11 - daha şiddetli ve daha kalıcı
+- 20:44 own: ref ¶17 - öğüt alır ya da içi titrer
+- 79:17 own: context ¶17 (in 79:18) - Firavun'a gönderilme
+- 79:18 own: prose ¶17 - "tezekkâ" daveti
+- 79:19 own: context ¶17 (in 79:18) - yol gösterme ve içi titreme
+- 87:4 own: context ¶17 (in 20:53) - otlağı çıkaran
+- 56:47 own: context ¶18 (in 56:49) - diriltilmeyi sorgulama
+- 56:50 own: context ¶18 (in 56:49) - bilinen güne toplanma
+- 15:9 own: ref ¶18 - zikrin korunması
+- 5:14 own: ref ¶18 - hatırlatılanın bir kısmını unutmak
+- 87:1 own: not relevant - surenin kendi ayeti; ek pasaj olamaz
+- 87:2 own: not relevant - surenin kendi ayeti; yorumda alıntılanıyor
+- 87:3 own: not relevant - surenin kendi ayeti; yorumda alıntılanıyor
+- 87:5 own: not relevant - surenin kendi ayeti
+- 87:6 own: not relevant - surenin kendi ayeti; yorumda alıntılanıyor
+- 87:7 own: not relevant - surenin kendi ayeti
+- 87:8 own: not relevant - surenin kendi ayeti
+- 87:9 own: not relevant - surenin kendi ayeti
+- 87:10 own: not relevant - surenin kendi ayeti; yorumda alıntılanıyor
+- 87:11 own: not relevant - surenin kendi ayeti; yorumda alıntılanıyor
+- 87:12 own: not relevant - surenin kendi ayeti
+- 87:13 own: not relevant - surenin kendi ayeti
+- 87:14 own: not relevant - surenin kendi ayeti; yorumda alıntılanıyor
+- 87:15 own: not relevant - surenin kendi ayeti
+- 87:16 own: not relevant - surenin kendi ayeti; yorumda alıntılanıyor
+- 87:17 own: not relevant - surenin kendi ayeti; yorumda alıntılanıyor
+- 87:19 own: not relevant - surenin kendi ayeti; yorumda alıntılanıyor

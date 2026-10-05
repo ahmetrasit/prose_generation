@@ -1,0 +1,285 @@
+- 2:136: ref ¶1 - İbrahim'e indirilen ile Musa'ya verilen tek bir iman cümlesinde yan yana sayılır
+- 6:91: prose ¶9 - Musa'nın kitabı tabakalara bölünüp bir kısmı gizlenir: yazılı sözün başka bir zayıflığı
+- 6:154: ref ¶12, ¶1 - kitap, Rablerine kavuşmaya inansınlar diye verilir; Musa'ya kitap verilmesi
+- 7:145: ref ¶8 - öğüdün levhalara yazılması, yazılı saklama; ledger'in kaygısına cevap: levhalar sayfalarla eşitlenmiyor, yalnızca yazılı saklama örneği olarak anılıyor
+- 7:154: ref ¶21 - levhalardaki yol göstericilik Rablerinden korkanlar için: öğüdün korkana bağlı olması
+- 11:17: ref ¶4 - Musa'nın kitabı önce gelir, önder ve rahmettir (46:12 ile aynı ifade)
+- 17:2: ref ¶1 - Musa'ya kitap verilmesi
+- 20:133: cited ¶7; ref ¶1; context ¶2 (in 20:131) - adsız ilk sayfalar; 20:131'den iki ayet sonra gelmesi
+- 23:49: ref ¶1 - Musa'ya kitap verilmesi
+- 25:35: ref ¶1 - Musa'ya kitap verilmesi
+- 28:43: prose ¶11, ref ¶1 - "el-kurûne'l-ûlâ" sonrasında Musa'ya öğüt alınsın diye kitap verilmesi
+- 32:23: ref ¶1 - Musa'ya kitap verilmesi
+- 33:7: not relevant - peygamberlerden alınan misak; sayfalarla ya da surenin sözleriyle bağı yok
+- 41:45: ref ¶1 - Musa'ya kitap verilmesi
+- 42:13: ref ¶4 - İbrahim'e, Musa'ya ve Peygamber'e aynı din: ayrı yapraklarda aynı söz
+- 46:12: ref ¶4 - Arapça kitap Musa'nın kitabını doğrular
+- 46:30: ref ¶4 - Musa'dan sonra gelen kitap öncekini doğrular
+- 53:36: cited ¶3; ref ¶1 - iki adın sayfaların sahibi olarak anılması
+- 53:37: cited ¶3; ref ¶1 - iki adın sayfaların sahibi olarak anılması
+- 53:38: cited ¶13; nowhere else - ¶13 açıklıyor; 35:18 içinde kaynağıyla anılıyor
+- 53:39: cited ¶13; context ¶13 (in 20:15) - çaba kökü Musa'nın ilk vahyinde
+- 53:40: cited ¶13; nowhere else - ¶13 dışında taşıdığı bir bağ yok
+- 53:41: cited ¶13; context ¶13 (in 20:15) - karşılık kökü Musa'nın ilk vahyinde
+- 53:42: cited ¶13; ref ¶12 - sayfalarda varışın Rabbe olması, en eski yaprakların son yurdu anlatması
+- 53:43: not relevant - güldürüp ağlatma; hiçbir paragrafın söylediğine değmiyor
+- 53:44: cited ¶14; ref ¶19 - sayfalardaki "öldüren ve dirilten" İbrahim'in 2:258'deki sözüyle aynı
+- 53:45: ref ¶17 - sayfalarda Rabbin yaratmasıyla tanıtılması
+- 53:46: ref ¶17 - 53:45'le birlikte, çiftlerin nutfeden yaratılması
+- 53:47: cited ¶14; nowhere else - ¶14 açıklıyor
+- 53:48: not relevant - zengin kılıp yetirme; paragraflarla bağı yok
+- 53:49: ref ¶19 - Rabbin bir yıldızın Rabbi olması, İbrahim'in yıldız sahnesi
+- 53:50: context ¶15 (in 53:51), ref ¶11 - ilk Âd'ın helak edilmesi; ilk nesillerin bilgisi
+- 53:51: prose ¶15, ref ¶11 - "fe-mâ ebkâ": kalıcılık kökünün yok oluş için kullanılması
+- 53:52: ref ¶11 - sayfalarda sayılan helak edilmiş Nuh kavmi
+- 53:53: ref ¶11 - helak edilmiş kavimlerin sayılması
+- 53:54: ref ¶11 - helak edilmiş kavimlerin sayılması
+- 80:13: prose ¶11, ref ¶10 - öğüdün değerli, yüceltilmiş, arınmış sayfalarda ve yazıcıların elinde durması; ledger'e cevap: yeni bir tema getiriyor, gözden ve hafızadan ayrı üçüncü bir saklama
+- 80:14: context ¶11 (in 80:13), ref ¶10 - arınmış sayfalar, 98:2 ile birlikte
+- 80:15: context ¶11 (in 80:13) - yazıcıların elleri
+- 80:16: context ¶11 (in 80:13) - değerli ve iyi eller
+- 2:53: ref ¶1 - Musa'ya kitap verilmesi
+- 2:87: ref ¶1 - Musa'ya kitap verilmesi
+- 3:65: ref ¶3 - Tevrat İbrahim'den sonra indirildi: adların sırası
+- 3:84: ref ¶1 - 2:136 ile aynı iman cümlesi
+- 4:54: not relevant - kitap İbrahim'in ailesine verilmiş; onun kendi sayfalarına bir şey katmıyor
+- 4:125: ref ¶18 - dinin en güzeli İbrahim'in milletine uymaktır
+- 4:153: ref ¶7 - gökten kendilerine kitap indirilmesini isteyenler
+- 7:150: not relevant - levhaları yere bırakma; hiçbir paragrafa değmiyor
+- 28:49: ref ¶7 - 28:48 ile birlikte iki kitaptan daha doğrusunu getirme meydan okuması
+- 29:27: not relevant - kitap İbrahim'in soyuna verilmiş, onun kendi sayfaları değil
+- 37:117: not relevant - Musa ile Harun'a kitap verilmesi; ¶1'deki tekrarlanan ifadeden fazlasını taşımıyor
+- 40:53: ref ¶21 - 40:54 ile birlikte Musa'nın kitabı akıl sahipleri için öğüt
+- 52:3: prose ¶5, ref ¶7 - açılıp yayılmış parşömen: yazının açık yüzeye serilmesi
+- 57:26: not relevant - kitap Nuh'un ve İbrahim'in soyuna verilmiş
+- 74:52: cited ¶7; nowhere else - ¶7 açıklıyor
+- 81:10: cited ¶7; nowhere else - ¶7 açıklıyor
+- 98:2: cited ¶10; context ¶7 (in 98:1) - açık delilin elçi olarak adlandırılması
+- 98:3: ref ¶10 - arınmış sayfalarda dosdoğru yazılar
+- 3:3: ref ¶4 - kitabın öncekini doğrulaması
+- 4:163: ref ¶1 - İbrahim'e de vahyedilmesi
+- 26:196: ref ¶2 - "inne-hû le-fî" yapısı, zamirin indirilen sözün bütününü göstermesi
+- 2:130: ref ¶18 - İbrahim'in milletinden yüz çevirmek kişinin kendini bilmemesidir
+- 3:95: ref ¶18 - İbrahim'in milletine uyma emri (tekrarlanan ifade)
+- 4:162: not relevant - kendinden öncekine inanan müminlerin vasfı; paragraflara bir şey katmıyor
+- 6:84: not relevant - yol gösterilen peygamberlerin sayılması; sayfalardan söz etmiyor
+- 6:89: not relevant - peygamberlere kitap verildiğinin genel ifadesi
+- 6:90: ref ¶18 - atalara değil, yol gösterilen elçilere uymak
+- 16:123: ref ¶18 - İbrahim'in milletine uyma emri (tekrarlanan ifade)
+- 19:41: ref ¶20 - Kitapta sıddîk olarak anılması: sonrakiler arasındaki doğru dil
+- 19:50: prose ¶20 - "lisâne sıdkın": 26:84'teki duanın karşılığı
+- 19:51: not relevant - Musa'yı anma emri; sayfaya ya da surenin sözlerine bağı yok
+- 19:56: not relevant - İdris; konu dışında
+- 37:83: not relevant - İbrahim'in Nuh'un yolundan olması; bağı yok
+- 37:114: not relevant - Musa'ya ve Harun'a lütuf; bağı yok
+- 38:45: not relevant - peygamberleri anma; bağı yok
+- 52:2: context ¶5 (in 52:3) - satır satır yazılmış kitap
+- 68:1: not relevant - kalem ve yazılan; yalnızca yazma ortak, sayfaların sözüyle bağı yok
+- 85:22: ref ¶11 - Kur'an'ın korunmuş levhada olması: üçüncü saklama
+- 2:200: not relevant - dünyayı isteyenler; paragrafların hiçbir iddiasına değmiyor
+- 2:220: not relevant - yetimler; bağı yok
+- 3:33: not relevant - seçilmiş aileler; bağı yok
+- 3:67: not relevant - İbrahim'in kimliği üzerine tartışma; bağı yok
+- 5:41: ref ¶9 - sözleri yerlerinden değiştirenler: yazılı sözün başka bir bozuluşu
+- 6:161: prose ¶19, ref ¶18 - dosdoğru yol İbrahim'in milletidir
+- 16:120: not relevant - İbrahim'in vasıfları; paragraflara bir şey katmıyor
+- 26:69: ref ¶16 - anlatımın çerçevesi: İbrahim'in haberini okuma emri
+- 50:8: not relevant - göklerden alınan ibret; sayfalarla bağı yok
+- 82:11: not relevant - amelleri yazan yazıcılar, vahyin sayfaları değil
+- 83:9: not relevant - amel kaydı; bağı yok
+- 83:20: not relevant - amel kaydı; bağı yok
+- 90:9: not relevant - dil ve dudaklar; bağı yok
+- 6:75: ref ¶19 - gece sahnesinin girişi
+- 7:122: ref ¶24 - "Musa'nın ve Harun'un Rabbi" (tekrarlanan ifade)
+- 7:144: not relevant - Musa'nın seçilmesi; bağı yok
+- 11:75: not relevant - İbrahim'in vasıfları; bağı yok
+- 20:1: not relevant - kesik harfler
+- 20:70: ref ¶24 - sihirbazların Rabbi Musa'nın adıyla anması
+- 21:51: not relevant - İbrahim'e verilen rüşd; paragrafların söylediğine değmiyor
+- 21:69: not relevant - ateşin serinlemesi; bağı yok
+- 21:72: not relevant - İshak ve Yakub'un bağışlanması; bağı yok
+- 22:43: not relevant - yalanlayan kavimlerin sayılması; bağı yok
+- 26:48: ref ¶24 - "Musa'nın ve Harun'un Rabbi" (tekrarlanan ifade)
+- 29:31: not relevant - Lut'un kavmine gelen elçiler; bağı yok
+- 37:109: context ¶20 (in 19:50) - sonrakiler arasında İbrahim'e selam
+- 37:113: not relevant - soyunun bereketi; bağı yok
+- 37:120: ref ¶1 - 37:119 ile birlikte Musa'nın adı sonrakiler arasında selamla
+- 40:54: ref ¶21 - Musa'nın kitabı akıl sahiplerine öğüt
+- 51:24: not relevant - İbrahim'in misafirleri; bağı yok
+- 56:78: ref ¶11 - değerli Kur'an saklı bir kitapta
+- 1:4: not relevant - din gününün sahibi; ¶19'un söylediğine değmiyor
+- 1:5: not relevant - ibadet ve yardım dileme; bağı yok
+- 1:7: ref ¶19 - ¶19'un adını vermeden andığı Fatiha'nın son kelimesi
+- 2:127: ref ¶20 - ¶19'un andığı, Evin temellerini yükseltme sahnesi
+- 2:128: not relevant - Müslüman bir ümmet için dua; paragrafa bir şey katmıyor
+- 2:131: not relevant - "teslim ol" emri; bağı yok
+- 2:256: not relevant - dinde zorlama yok; bağı yok
+- 2:257: not relevant - karanlıktan aydınlığa; bağı yok
+- 2:259: not relevant - köyün yanından geçen kişi, İbrahim değil
+- 2:260: ref ¶19 - İbrahim ölülerin diriltilişini görmek ister
+- 6:74: ref ¶16 - babasıyla putlar üzerine aynı yüzleşme
+- 6:78: ref ¶19 - ¶19'un andığı güneşin batışı
+- 6:79: ref ¶17 - yüzünü gökleri ve yeri yaratana çevirmesi: Rabbi yaptığıyla tanıtma
+- 14:38: ref ¶20 - İbrahim'in duasında gizlinin ve açığın bilinmesi (87:7)
+- 14:39: not relevant - çocuklar için hamd; bağı yok
+- 14:41: not relevant - bağışlanma duası; paragrafların söylediğine değmiyor
+- 14:42: not relevant - zalimlerin ertelenmesi; bağı yok
+- 20:40: not relevant - "kader" kökü yalnızca kelimede ortak
+- 20:41: not relevant - Musa'nın kendisi için yetiştirilmesi; bağı yok
+- 20:43: ref ¶21 - ikisinin azan Firavun'a gönderilmesi
+- 20:45: not relevant - elçilerin kendi korkusu, muhatabın korkusu değil
+- 20:46: not relevant - destek vaadi; bağı yok
+- 20:47: ref ¶13 - 20:48 ile birlikte esenlik yola uyana, azap yüz çevirene
+- 20:48: ref ¶13 - Musa'ya vahyedilen ayrım
+- 20:55: ref ¶14 - topraktan bir kez daha çıkarılma: öteki yaratılış
+- 20:56: ref ¶22 - bütün ayetler gösterildi, yalanladı ve diretti
+- 20:71: ref ¶24 - Firavun'un azabı için "ebkâ" demesi, sihirbazların cevabı
+- 20:74: prose ¶24, ref ¶14 - "lâ yemûtu fîhâ ve lâ yahyâ" aynı sözler
+- 20:75: context ¶24 (in 20:74) - salih iş yapan mümine en yüksek dereceler
+- 20:131: prose ¶2, ref ¶15 - "hayrun ve ebkâ" ile dünya karşıtlığının ilk sayfalardan önce gelmesi
+- 20:132: context ¶2 (in 20:131) - aradaki namaz emri
+- 20:134: ref ¶7 - elçi gelmeden helak edilenlerin bahanesi
+- 20:135: not relevant - doğru yolun sahiplerini bekleme; yalnızca kelime ortak
+- 26:71: ref ¶16 - ¶16'nın andığı cevap: putlara tapma
+- 26:72: ref ¶16 - ¶16'nın andığı duyma sorusu
+- 26:75: ref ¶16 - taptıklarına bakmaları istenir
+- 26:77: ref ¶16 - ¶16'nın andığı yüz çevirme: alemlerin Rabbi dışında hepsi düşman
+- 26:79: ref ¶17 - ¶17'nin andığı yedirme ve içirme
+- 26:80: ref ¶17 - ¶17'nin andığı hastalık
+- 26:82: ref ¶17 - dizideki bir sonraki "o ki"
+- 26:83: not relevant - hikmet ve salihler için dua; bağı yok
+- 26:85: not relevant - cennetin mirasçıları; paragraflara bir şey katmıyor
+- 26:86: ref ¶19 - İbrahim babasını yolunu şaşıranlardan sayar
+- 29:46: not relevant - kitap ehliyle tartışma; bağın kendisi genel
+- 29:47: not relevant - kitabın indirilmesi; 29:48-49'a bir şey katmıyor
+- 29:49: prose ¶10, ref ¶8 - yazılmayan söz göğüslerde durur
+- 29:50: ref ¶7 - 29:51 ile birlikte ayet istenmesi ve okunan kitabın yetmesi
+- 53:33: context ¶3 (in 92:15) - Leyl'deki en bedbahtınkiyle aynı "tevellâ" fiili
+- 53:34: ref ¶3 - ¶3'ün andığı az verip elini çeken
+- 74:48: not relevant - şefaatin fayda vermemesi; paragraflara değmiyor
+- 74:49: ref ¶7 - ¶7'nin andığı öğütten yüz çevirenler
+- 74:51: not relevant - yalnızca 74:50'deki benzetmeyi tamamlıyor
+- 74:53: ref ¶21 - ahiretten korkmayanlar öğütten kaçar
+- 74:54: ref ¶7 - istenen sayfaların karşısında "o bir öğüttür"
+- 79:16: ref ¶22 - görevi başlatan çağrı
+- 79:17: ref ¶22 - azan Firavun'a gitme emri
+- 79:21: ref ¶22 - ¶22'nin andığı yalanlama ve karşı gelme
+- 79:22: ref ¶22 - ¶22'nin andığı arkasını dönme
+- 79:23: ref ¶22 - ¶22'nin andığı toplayıp seslenme
+- 79:27: ref ¶17 - 79:28 ile birlikte göğün kurulması
+- 79:28: ref ¶17 - "fe-sevvâhâ": yaratıp düzene koyma
+- 81:8: not relevant - diri diri gömülen kız; bağı yok
+- 81:9: not relevant - bağı yok
+- 81:11: not relevant - göğün sıyrılması; ¶7'ye bir şey katmıyor
+- 81:12: not relevant - cehennemin tutuşturulması; bağı yok
+- 92:10: not relevant - zorluğa kolaylaştırma; söz konusu ayeti (87:8) hiçbir paragraf ele almıyor
+- 92:11: not relevant - malın fayda vermemesi; bağı yok
+- 92:14: not relevant - alevli ateş uyarısı; bağ 92:15-16'da
+- 92:15: prose ¶3 - ateşe giren en bedbaht, 92:16'da yüz çeviren diye tarif ediliyor
+- 93:2: not relevant - bağı yok
+- 93:3: not relevant - bağı yok
+- 93:5: not relevant - bağı yok
+- 93:6: not relevant - bağı yok
+- 98:0: not relevant - besmele
+- 98:1: prose ¶7 - Tâhâ'daki "beyyine"nin adlandırılması
+- 98:4: not relevant - kitap ehlinin ayrılığı; paragraflara bir şey katmıyor
+- 92:16 own: context ¶3 (in 92:15) - yalanlayan ve yüz çeviren
+- 92:17 own: ref ¶13 - en takvalı ateşten uzak tutulur
+- 92:18 own: ref ¶13 - malını arınmak için veren
+- 20:11 own: not relevant - yalnızca seslenme, 20:12 yeterli
+- 20:12 own: context ¶13 (in 20:15) - kutsal vadide seslenme
+- 20:13 own: not relevant - seçilme; bağı yok
+- 20:14 own: ref ¶20 - "beni anmak için namaz kıl" (87:15)
+- 20:15 own: prose ¶13 - çaba ve karşılık Musa'nın ilk vahyinde
+- 20:16 own: not relevant - yüz çevirtmeye karşı uyarı; ¶13'e bir şey katmıyor
+- 35:18 own: prose ¶13, ref ¶21 - yük kuralı ve kendisi için arınma; uyarı korkanlara
+- 43:22 own: ref ¶18 - atalara dayanma
+- 43:23 own: ref ¶18 - her uyarıcıya atalarla karşılık verilmesi
+- 43:24 own: ref ¶18 - atalardan daha doğru bir yol
+- 43:26 own: context ¶15 (in 43:28), ref ¶17 - taptıklarından uzaklaşma
+- 43:27 own: context ¶15 (in 43:28), ref ¶17 - "beni yaratan, bana yol gösterecek olan"
+- 43:28 own: prose ¶15 - "kelimeten bâkıyeten": kalıcı söz
+- 20:60 own: not relevant - Firavun'un tuzağını toplaması; bağı yok
+- 20:61 own: not relevant - Musa'nın uyarısı; doğrudan bağı yok
+- 20:62 own: context ¶24 (in 20:64) - kendi aralarında tartışmaları
+- 20:63 own: not relevant - "iki büyücü" suçlaması; bağı yok
+- 20:64 own: prose ¶24 - "kad efleha … meni'ste'lâ" (87:14 kalıbı)
+- 20:65 own: not relevant - bağı yok
+- 20:66 own: not relevant - bağı yok
+- 20:67 own: not relevant - Musa'nın korkusu yalnızca 20:68'e geçiş
+- 20:68 own: context ¶24 (in 20:64) - "ente'l-a'lâ"
+- 20:69 own: context ¶24 (in 20:64) - sihirbaz kurtuluşa eremez
+- 20:76 own: context ¶24 (in 20:74), ref ¶13 - "cezâu men tezekkâ"
+- 80:11 own: context ¶11 (in 80:13) - "o bir öğüttür"
+- 80:12 own: not relevant - dileyen anar; bağ 80:13-16'da
+- 19:49 own: context ¶20 (in 19:50) - İshak ve Yakub'un bağışlanması
+- 37:108 own: context ¶20 (in 19:50) - "fi'l-âhirîn", duanın karşılığı
+- 37:119 own: ref ¶1 - 37:120 ile birlikte Musa'ya sonrakiler arasında selam
+- 52:1 own: not relevant - Tûr'a yemin, yalnızca surenin adı olarak anılıyor
+- 52:4 own: not relevant - mamur ev; bağı yok
+- 26:192 own: ref ¶2 (with 26:196) - zamirin işaret ettiği indirilmiş söz
+- 26:193 own: ref ¶8 - sözün güvenilir ruh tarafından indirilmesi
+- 26:194 own: ref ¶8 - kalbe indirilmesi
+- 26:195 own: not relevant - Arapça dil; bağı yok
+- 26:197 own: not relevant - İsrailoğulları âlimlerinin bilmesi; paragraflara bir şey katmıyor
+- 98:5 own: ref ¶2 - kitap verilenlere emredilenler namaz ve zekâttır
+- 53:56 own: ref ¶2 - "hâzâ … el-ûlâ": sayfaların içeriğinin ardından
+- 53:55 own: not relevant - nimetler hakkında şüphe; bağı yok
+- 53:25 own: ref ¶12 - "el-âhiratu ve'l-ûlâ" çifti
+- 28:70 own: ref ¶12 - "el-ûlâ ve'l-âhira" çifti
+- 41:43 own: ref ¶4 - söylenen öncekilere söylenenle aynıdır
+- 6:164 own: ref ¶13 - yük kuralı (tekrarlanan ifade)
+- 17:15 own: ref ¶13 - yük kuralı (tekrarlanan ifade)
+- 39:7 own: ref ¶13 - yük kuralı (tekrarlanan ifade)
+- 14:17 own: ref ¶14 - ölüm her yandan gelir ama ölmez
+- 16:96 own: ref ¶15 - Allah katındaki kalıcıdır
+- 28:60 own: ref ¶15 - "hayrun ve ebkâ" dünya metaına karşı
+- 42:36 own: ref ¶15 - "hayrun ve ebkâ" dünya metaına karşı
+- 26:70 own: ref ¶16 - ¶16'nın andığı "ne taptığınız" sorusu
+- 21:52 own: ref ¶16 - heykeller karşısında soru
+- 21:53 own: ref ¶16 - atalara dayanma
+- 21:54 own: ref ¶16 - atalarla birlikte sapıklık
+- 82:7 own: ref ¶17 - "ellezî halakake fe-sevvâk"
+- 75:38 own: ref ¶17 - "fe-halaka fe-sevvâ"
+- 75:16 own: ref ¶8 - dili acele ettirmemek
+- 75:17 own: ref ¶8 - toplamak ve okutmak Allah'a aittir
+- 75:18 own: ref ¶8 - okununca okunuşa uymak
+- 75:19 own: ref ¶8 - açıklamak Allah'a aittir
+- 20:114 own: ref ¶8 - vahiy tamamlanmadan acele etmemek
+- 3:78 own: ref ¶9 - dilleri eğip bükme: yanlışın sesten gelmesi
+- 2:79 own: ref ¶10 - kendi elleriyle yazanlar, sağ elle yazmamanın karşıtı
+- 7:157 own: ref ¶10 - ümmî peygamber
+- 2:151 own: ref ¶20 - okuyan, arındıran elçinin gönderilmesi (tekrarlanan ifade)
+- 3:164 own: ref ¶20 - aynı tekrarlanan ifade
+- 62:2 own: ref ¶20 - aynı tekrarlanan ifade
+- 21:73 own: ref ¶20 - İbrahim'e ve onunla anılanlara namazın ve zekâtın vahyedilmesi
+- 20:3 own: ref ¶21 - korkan için öğüt
+- 50:45 own: ref ¶21 - tehdidinden korkana öğüt ver
+- 51:55 own: ref ¶21 - öğüt müminlere fayda verir
+- 36:11 own: ref ¶21 - uyarı görmeden korkana
+- 26:23 own: ref ¶23 - "alemlerin Rabbi nedir" sorusu
+- 26:24 own: ref ¶23 - göklerin ve yerin Rabbi
+- 26:25 own: ref ¶23 - Firavun'un etrafındakilere seslenmesi
+- 26:26 own: ref ¶23, ¶18 - eski ataların da Rabbi
+- 26:27 own: ref ¶23 - Firavun'un "deli" suçlaması
+- 26:28 own: ref ¶23 - doğunun ve batının Rabbi
+- 17:13 own: ref ¶7 - açılmış olarak karşılaşılan kitap
+- 21:104 own: ref ¶7 - göğün tomar gibi dürülmesi, serilmenin karşıtı
+- 6:7 own: ref ¶7 - kâğıt üzerinde indirilmiş bir kitap
+- 17:93 own: ref ¶7 - okuyacakları bir kitap istemeleri
+- 15:9 own: ref ¶11 - zikrin korunması
+- 85:21 own: ref ¶11 - 85:22 ile birlikte yüce Kur'an korunmuş levhada
+- 56:77 own: ref ¶11 - 56:78 ile birlikte değerli Kur'an
+- 56:79 own: not relevant - ona yalnızca arınmışların dokunması; paragraflara bir şey katmıyor
+- 28:48 own: ref ¶7 - Musa'ya verilenin benzerini istemeleri
+- 29:51 own: ref ¶7 - okunan kitap yetmez mi
+- 74:55 own: ref ¶7 - 74:54 ile birlikte dileyen öğüdü anar
+- 43:71 own: not relevant - altın tepsiler; ledger'e katılıyorum, yazı yapraklarıyla bağı yok
+- 18:46 own: not relevant - kalıcı salih ameller sözle ilgili değil
+- 20:77 own: not relevant - denizde yol; bağı yok
+- 87:7 own: not relevant - commentary'nin kendi suresi, yalnızca 14:38 bağını denetlemek için okundu
+- 87:8 own: not relevant - commentary'nin kendi suresi; hiçbir paragraf ele almıyor
+- 87:9 own: not relevant - commentary'nin kendi suresi, yalnızca denetlemek için okundu
+- 87:10 own: not relevant - commentary'nin kendi suresi, yalnızca denetlemek için okundu
+- 87:11 own: not relevant - commentary'nin kendi suresi, yalnızca denetlemek için okundu
+- 87:12 own: not relevant - commentary'nin kendi suresi, yalnızca denetlemek için okundu

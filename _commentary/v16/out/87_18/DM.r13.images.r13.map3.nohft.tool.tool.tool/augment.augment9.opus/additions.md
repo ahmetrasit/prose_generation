@@ -1,0 +1,160 @@
+## ¶1 · prose · 28:36 · applied
+
+**+** Bu cevap Kasas suresinde Musa'ya verilmiş olarak geçer. Musa apaçık ayetlerle gelince karşısındakiler şöyle der: {ar:فَلَمَّا جَآءَهُم مُّوسَىٰ بِـَٔايَٰتِنَا بَيِّنَٰتٍۢ قَالُوا۟ مَا هَٰذَآ إِلَّا سِحْرٌۭ مُّفْتَرًۭى وَمَا سَمِعْنَا بِهَٰذَا فِىٓ ءَابَآئِنَا ٱلْأَوَّلِينَ, tr:fe-lemmâ câehum mûsâ bi-âyâtinâ beyyinâtin kâlû mâ hâzâ illâ sihrun mufteren ve mâ semi'nâ bi-hâzâ fî âbâina'l-evvelîn, gloss:Musa onlara apaçık ayetlerimizle gelince "bu, uydurulmuş bir sihirden başka bir şey değil; biz bunu ilk atalarımız arasında da duymadık" dediler, source:28:36}. İtirazın iki parçası vardır: Söz uydurulmuştur ve ilk atalardan duyulmamıştır. Ayetin karşıladığı da bu iki parçadır. Sayfaları son ayette anılan Musa'nın getirdiği söz de böyle "yeni" denerek geri çevrilmiştir.
+
+## ¶1 · prose · 7:169 · applied
+
+**+** A'râf suresinde kitabı miras alan bir nesil anlatılır: {ar:يَأْخُذُونَ عَرَضَ هَٰذَا ٱلْأَدْنَىٰ, tr:ye'huzûne arada hâze'l-ednâ, gloss:bu daha yakın olanın gelip geçici malını alırlar, source:7:169}. "Ednâ", "dünyâ" ile aynı kökten gelir ve "daha yakın olan" demektir. Ayet bu nesil için {ar:وَدَرَسُوا۟ مَا فِيهِ, tr:ve derasû mâ fîh, gloss:içindekini de okuyup öğrenmişlerdi, source:7:169} der ve hemen ardından ekler: {ar:وَٱلدَّارُ ٱلْءَاخِرَةُ خَيْرٌۭ لِّلَّذِينَ يَتَّقُونَ, tr:ve'd-dâru'l-âhiratu hayrun li'llezîne yettekûn, gloss:ahiret yurdu sakınanlar için daha hayırlıdır, source:7:169}. Yakın olanı öne koyanlar burada sözü yeni bulanlar değildir. Onlar yazıyı elinde tutup okumuş olanlardır.
+
+## ¶2 · prose · 53:56 · applied
+
+**+** Necm suresi sayfaların sözlerini sıraladıktan sonra şu cümleyle kapanışa yaklaşır: {ar:هَٰذَا نَذِيرٌۭ مِّنَ ٱلنُّذُرِ ٱلْأُولَىٰٓ, tr:hâzâ nezîrun mine'n-nuzuri'l-ûlâ, gloss:bu, ilk uyarıcılardan bir uyarıcıdır, source:53:56}. Cümle orada da yakını gösteren "hâzâ" ile açılır ve "ûlâ" ile biter. Bu sureyle aynı iki kelime, aynı iddiayı taşır: Duyulan şey ilklerin sırasına girer.
+
+## ¶3 · prose · 35:18 · applied
+
+**+** Fâtır suresinde Necm'deki sayfaların yük cümlesi ile bu surenin arınması aynı ayette buluşur. Ayet, hiçbir yük taşıyanın başkasının yükünü taşımayacağını söyleyerek başlar, sonra uyarının kime yarayacağını söyler: {ar:إِنَّمَا تُنذِرُ ٱلَّذِينَ يَخْشَوْنَ رَبَّهُم بِٱلْغَيْبِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ, tr:innemâ tunziru'llezîne yahşevne rabbehum bi'l-gaybi ve ekâmu's-salâh, gloss:sen ancak Rablerinden görmeden korkanları ve namazı kılanları uyarırsın, source:35:18}. Şöyle biter: {ar:وَمَن تَزَكَّىٰ فَإِنَّمَا يَتَزَكَّىٰ لِنَفْسِهِۦ ۚ وَإِلَى ٱللَّهِ ٱلْمَصِيرُ, tr:ve men tezekkâ fe-innemâ yetezekkâ li-nefsih, ve ile'llâhi'l-masîr, gloss:kim arınırsa ancak kendisi için arınır; varış Allah'adır, source:35:18}. Bu surenin içi titreyeni, namazı ve arınması ile Necm'deki yük ve varış cümleleri burada tek bir ayetin parçalarıdır.
+
+## ¶3 · prose · 92:15 · applied
+
+**+** Leyl suresi bu surenin "en bedbaht"ını Necm'deki fiille tanımlar: {ar:لَا يَصْلَىٰهَآ إِلَّا ٱلْأَشْقَى, tr:lâ yaslâhâ ille'l-eşkâ, gloss:oraya ancak en bedbaht olan girer, source:92:15}, {ar:ٱلَّذِى كَذَّبَ وَتَوَلَّىٰ, tr:ellezî kezzebe ve tevellâ, gloss:o ki yalanladı ve yüz çevirdi, source:92:16}. Karşısındaki kişi ise bu surenin arınma fiiliyle anılır: {ar:وَسَيُجَنَّبُهَا ٱلْأَتْقَى, tr:ve se-yucennebuhe'l-etkâ, gloss:en çok sakınan ondan uzak tutulacaktır, source:92:17}, {ar:ٱلَّذِى يُؤْتِى مَالَهُۥ يَتَزَكَّىٰ, tr:ellezî yu'tî mâlehû yetezekkâ, gloss:o ki arınmak için malını verir, source:92:18}. "Eşkâ" ile "tevellâ" orada aynı kişide birleşir. Bu surede en bedbahtın öğütten kaçınmasını anlatan kök, orada sakınanın ateşten uzak tutulmasını anlatır. Malını verip arınan da Necm'de azıcık verip elini kesenin tam karşısında durur.
+
+## ¶4 · prose · 23:83 · applied
+
+**+** Sözün eski olduğunu inkâr edenler de bilir, ama bu eskiliği başka bir ada çevirir. Mü'minûn suresinde onların öncekilerin dediğini dedikleri söylenir {source:23:81}. Ölüp toprak ve kemik olduktan sonra mı diriltileceklerini sorarlar {source:23:82} ve şöyle derler: {ar:لَقَدْ وُعِدْنَا نَحْنُ وَءَابَآؤُنَا هَٰذَا مِن قَبْلُ إِنْ هَٰذَآ إِلَّآ أَسَٰطِيرُ ٱلْأَوَّلِينَ, tr:lekad vu'idnâ nahnu ve âbâunâ hâzâ min kabl, in hâzâ illâ esâtîru'l-evvelîn, gloss:bu bize de atalarımıza da daha önce vaat edilmişti; bu, öncekilerin masallarından başka bir şey değil, source:23:83}. Aynı cümle Neml suresinde de tekrar edilir {source:27:68}. "Öncekilerin masalları" adı başka yerlerde de söze takılır: {source:6:25} {source:8:31} {source:16:24} {source:25:5} {source:46:17} {source:68:15} {source:83:13}. Önceden bilinen ahiret haberi burada kabul edilir, ama eskimiş bir masal sayılarak geri çevrilir.
+
+## ¶5 · prose · 6:91 · applied
+
+**+** En'âm suresinde Musa'nın kitabı ayrı yapraklar olarak anılır. Allah'ın hiçbir beşere bir şey indirmediğini söyleyenlere şu sorulur: {ar:قُلْ مَنْ أَنزَلَ ٱلْكِتَٰبَ ٱلَّذِى جَآءَ بِهِۦ مُوسَىٰ نُورًۭا وَهُدًۭى لِّلنَّاسِ ۖ تَجْعَلُونَهُۥ قَرَاطِيسَ تُبْدُونَهَا وَتُخْفُونَ كَثِيرًۭا, tr:kul men enzele'l-kitâbe'llezî câe bihî mûsâ nûran ve huden li'n-nâs, tec'alûnehû karâtîse tubdûnehâ ve tuhfûne kesîrâ, gloss:de ki: Musa'nın insanlara bir ışık ve yol gösterici olarak getirdiği kitabı kim indirdi? Onu yapraklara ayırıyor, bir kısmını açığa vuruyor, çoğunu gizliyorsunuz, source:6:91}. "Karâtîs" tek tek yazı yapraklarıdır. Ayrı ayrı duran yaprak gösterilebildiği gibi bir kenara da kaldırılabilir.
+
+## ¶6 · prose · 52:3 · applied
+
+**+** Tûr suresi böyle bir yüzeye yemin eder. Tûr'a yemin edildikten {source:52:1} sonra şu gelir: {ar:وَكِتَٰبٍۢ مَّسْطُورٍۢ, tr:ve kitâbin mestûr, gloss:satır satır yazılmış bir kitaba, source:52:2}, {ar:فِى رَقٍّۢ مَّنشُورٍۢ, tr:fî rakkın menşûr, gloss:serilip açılmış ince bir deri üzerinde, source:52:3}. Yazının yeri, gerilip serilmiş bir deri olarak adlandırılır. Kitabın kendisi ise adıyla anılmaz.
+
+## ¶7 · prose · 6:7 · applied
+
+**+** En'âm suresi elle tutulan bir yaprağın bile neyi değiştirmeyeceğini söyler: {ar:وَلَوْ نَزَّلْنَا عَلَيْكَ كِتَٰبًۭا فِى قِرْطَاسٍۢ فَلَمَسُوهُ بِأَيْدِيهِمْ لَقَالَ ٱلَّذِينَ كَفَرُوٓا۟ إِنْ هَٰذَآ إِلَّا سِحْرٌۭ مُّبِينٌۭ, tr:ve lev nezzelnâ aleyke kitâben fî kırtâsin fe-lemesûhu bi-eydîhim le-kâle'llezîne keferû in hâzâ illâ sihrun mubîn, gloss:sana bir yaprak üzerinde yazılı bir kitap indirseydik ve ona elleriyle dokunsalardı, inkâr edenler yine "bu apaçık bir sihirden başka bir şey değil" derlerdi, source:6:7}. İstenen yaprak gelip ele değse bile inkâr, onu karşılayacak yeni bir ad bulur.
+
+## ¶8 · prose · 75:17 · applied
+
+**+** Kıyâme suresi toplamayı ve okumayı aynı cümlede yan yana koyar. Peygamber'e vahyi acele edip dilinde tekrarlamaması söylenir {source:75:16}, ardından şu gelir: {ar:إِنَّ عَلَيْنَا جَمْعَهُۥ وَقُرْءَانَهُۥ, tr:inne aleynâ cem'ahû ve kur'ânehû, gloss:onu toplamak ve okutmak bize düşer, source:75:17}, {ar:فَإِذَا قَرَأْنَٰهُ فَٱتَّبِعْ قُرْءَانَهُۥ, tr:fe-izâ kara'nâhu fettebi' kur'ânehû, gloss:biz onu okuduğumuzda sen onun okunuşunu izle, source:75:18}. Açıklaması da yine Allah'a aittir {source:75:19}. Toplamak da okumak da aynı özneye bağlanır. Peygamber'e düşen, okunanın ardından gitmektir.
+
+## ¶9 · prose · 25:5 · applied
+
+**+** Furkan suresinde inkâr edenler bu durumu tersine çevirerek anlatır. Önce sözün uydurma olduğunu ve başka bir topluluğun ona yardım ettiğini söylerler {source:25:4}, sonra şöyle derler: {ar:وَقَالُوٓا۟ أَسَٰطِيرُ ٱلْأَوَّلِينَ ٱكْتَتَبَهَا فَهِىَ تُمْلَىٰ عَلَيْهِ بُكْرَةًۭ وَأَصِيلًۭا, tr:ve kâlû esâtîru'l-evvelîne'ktetebehâ fe-hiye tumlâ aleyhi bukraten ve asîlâ, gloss:"öncekilerin masalları; onları yazıya geçirtmiş, sabah akşam ona okunup yazdırılıyor" dediler, source:25:5}. Onların iddiasına göre eski söz ona yazılı yapraklardan gelmektedir. Cevap ise sözün kaynağını yazıya değil, onu indirene bağlar: {ar:قُلْ أَنزَلَهُ ٱلَّذِى يَعْلَمُ ٱلسِّرَّ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ, tr:kul enzelehu'llezî ya'lemu's-sirra fi's-semâvâti ve'l-ard, gloss:de ki: onu göklerdeki ve yerdeki gizliyi bilen indirdi, source:25:6}.
+
+## ¶9 · prose · 29:49 · applied
+
+**+** Ankebut'ta Peygamber'in kitap okumadığı ve yazmadığı söylendikten hemen sonra sözün nerede durduğu söylenir: {ar:بَلْ هُوَ ءَايَٰتٌۢ بَيِّنَٰتٌۭ فِى صُدُورِ ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ, tr:bel huve âyâtun beyyinâtun fî sudûri'llezîne ûtu'l-ilm, gloss:hayır, o, kendilerine ilim verilenlerin göğüslerinde duran apaçık ayetlerdir, source:29:49}. Sözün yeri burada yaprak değil, göğüslerdir.
+
+## ¶10 · prose · 6:156 · applied
+
+**+** En'âm suresi önce Musa'ya verilen kitabı {source:6:154}, sonra indirilen bu mübarek kitabı {source:6:155} anar. Ardından önceki yazılardan habersiz olanların öne sürebileceği bahaneyi söyler: {ar:أَن تَقُولُوٓا۟ إِنَّمَآ أُنزِلَ ٱلْكِتَٰبُ عَلَىٰ طَآئِفَتَيْنِ مِن قَبْلِنَا وَإِن كُنَّا عَن دِرَاسَتِهِمْ لَغَٰفِلِينَ, tr:en tekûlû innemâ unzile'l-kitâbu alâ tâifeteyni min kablinâ ve in kunnâ an dirâsetihim le-gâfilîn, gloss:"kitap yalnızca bizden önceki iki topluluğa indirildi, biz de onların okuyup öğrendiklerinden habersizdik" demeyesiniz diye, source:6:156}. Cevap Beyyine suresindeki kelimeyle gelir: {ar:فَقَدْ جَآءَكُم بَيِّنَةٌۭ مِّن رَّبِّكُمْ وَهُدًۭى وَرَحْمَةٌۭ, tr:fe-kad câekum beyyinetun min rabbikum ve huden ve rahme, gloss:işte size Rabbinizden açık bir delil, bir yol gösterici ve bir rahmet geldi, source:6:157}. Yazıların okunup öğrenildiği yerden uzak kalanlara açık delil kendiliğinden gelmiştir.
+
+## ¶10 · prose · 98:5 · applied
+
+**+** Beyyine suresi, kitap verilenlere ne emredildiğini de söyler: {ar:وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ حُنَفَآءَ وَيُقِيمُوا۟ ٱلصَّلَوٰةَ وَيُؤْتُوا۟ ٱلزَّكَوٰةَ ۚ وَذَٰلِكَ دِينُ ٱلْقَيِّمَةِ, tr:ve mâ umirû illâ li-ya'budu'llâhe muhlisîne lehu'd-dîne hunefâe ve yukîmu's-salâte ve yu'tu'z-zekâh, ve zâlike dînu'l-kayyime, gloss:onlara ancak dini Allah'a has kılarak, hanifler olarak O'na kulluk etmeleri, namazı kılmaları ve zekâtı vermeleri emredilmişti; dosdoğru din budur, source:98:5}. "Kayyime" kelimesi üçüncü ayetteki yazıların sıfatıyla aynıdır. Emredilen namaz ve zekât, bu surenin on dördüncü ve on beşinci ayetlerinde aynı kökten gelen arınma ve namazla aynı ikiliyi oluşturur.
+
+## ¶10 · prose · 80:13 · applied
+
+**+** Abese suresinde aynı "arınmış" sıfatı başka sayfalara da verilir. Önce öğüdün, dileyenin anacağı bir hatırlatma olduğu söylenir {source:80:11} {source:80:12}. Sonra bu öğüdün yeri gösterilir: {ar:فِى صُحُفٍۢ مُّكَرَّمَةٍۢ, tr:fî suhufin mukerreme, gloss:değerli kılınmış sayfalardadır, source:80:13}, {ar:مَّرْفُوعَةٍۢ مُّطَهَّرَةٍۭ, tr:merfû'atin mutahhera, gloss:yüceltilmiş ve arınmış, source:80:14}, {ar:بِأَيْدِى سَفَرَةٍۢ, tr:bi-eydî sefera, gloss:sefere denen kimselerin ellerinde, source:80:15}, {ar:كِرَامٍۭ بَرَرَةٍۢ, tr:kirâmin berara, gloss:değerli ve iyi olanların, source:80:16}. Elçinin sesinde okunan öğüt, aynı zamanda yüceltilmiş sayfalarda ve değerli ellerde de durur.
+
+## ¶12 · prose · 28:48 · applied
+
+**+** Kasas suresinde istenen işaret açıkça Musa'ya verilenle ölçülür: {ar:فَلَمَّا جَآءَهُمُ ٱلْحَقُّ مِنْ عِندِنَا قَالُوا۟ لَوْلَآ أُوتِىَ مِثْلَ مَآ أُوتِىَ مُوسَىٰٓ ۚ أَوَلَمْ يَكْفُرُوا۟ بِمَآ أُوتِىَ مُوسَىٰ مِن قَبْلُ, tr:fe-lemmâ câehumu'l-hakku min indinâ kâlû levlâ ûtiye misle mâ ûtiye mûsâ, e-ve lem yekfurû bi-mâ ûtiye mûsâ min kabl, gloss:katımızdan hak onlara gelince "Musa'ya verilenin benzeri ona da verilseydi ya" dediler; peki daha önce Musa'ya verileni inkâr etmemişler miydi, source:28:48}. Aynı ayette ikisine birden "birbirini destekleyen iki sihir" der ve her ikisini de reddederler. Bunun üzerine şu söylenir: {ar:قُلْ فَأْتُوا۟ بِكِتَٰبٍۢ مِّنْ عِندِ ٱللَّهِ هُوَ أَهْدَىٰ مِنْهُمَآ أَتَّبِعْهُ إِن كُنتُمْ صَٰدِقِينَ, tr:kul fe'tû bi-kitâbin min indi'llâhi huve ehdâ minhumâ ettebi'hu in kuntum sâdikîn, gloss:de ki: doğru söylüyorsanız Allah katından bu ikisinden daha doğru yol gösteren bir kitap getirin de ona uyayım, source:28:49}. İşaret isteyenler, Musa'nın kitabını ve şimdi gelen sözü aynı reddin içine koyar.
+
+## ¶12 · prose · 37:168 · applied
+
+**+** Saffât suresinde onların daha önce şöyle dedikleri aktarılır: {ar:وَإِن كَانُوا۟ لَيَقُولُونَ, tr:ve in kânû le-yekûlûn, gloss:onlar şöyle derlerdi, source:37:167}, {ar:لَوْ أَنَّ عِندَنَا ذِكْرًۭا مِّنَ ٱلْأَوَّلِينَ, tr:lev enne indenâ zikran mine'l-evvelîn, gloss:"keşke yanımızda öncekilerden kalma bir öğüt olsaydı", source:37:168}, {ar:لَكُنَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ, tr:le-kunnâ ibâda'llâhi'l-muhlasîn, gloss:"Allah'ın seçkin kulları olurduk", source:37:169}. Sonra şu gelir: {ar:فَكَفَرُوا۟ بِهِۦ ۖ فَسَوْفَ يَعْلَمُونَ, tr:fe-keferû bihî fe-sevfe ya'lemûn, gloss:ama onu inkâr ettiler; yakında bilecekler, source:37:170}. İstedikleri şey tam da öncekilerden gelen bir öğüttü. O öğüt geldiğinde onu reddettiler.
+
+## ¶13 · prose · 46:12 · applied
+
+**+** Ahkâf suresi öndeki yazıya bir ad da verir: {ar:وَمِن قَبْلِهِۦ كِتَٰبُ مُوسَىٰٓ إِمَامًۭا وَرَحْمَةًۭ ۚ وَهَٰذَا كِتَٰبٌۭ مُّصَدِّقٌۭ لِّسَانًا عَرَبِيًّۭا, tr:ve min kablihî kitâbu mûsâ imâmen ve rahmeh, ve hâzâ kitâbun musaddikun lisânen arabiyyâ, gloss:ondan önce de önder ve rahmet olarak Musa'nın kitabı vardı; bu ise onu Arapça bir dille doğrulayan bir kitaptır, source:46:12}. Aynı ifade Hûd suresinde de geçer {source:11:17}. "İmâm", önde durup arkasından gidilendir. Musa'nın yazısı önden gider, "bu" diye gösterilen kitap da arkasından gelip onu doğrular.
+
+## ¶15 · prose · 7:53 · applied
+
+**+** A'râf suresinde "te'vîl" kelimesi bu anlamıyla bir kitap için kullanılır. Bilgiyle ayrıntılı kılınmış bir kitap getirildiği söylendikten sonra {source:7:52} şu sorulur: {ar:هَلْ يَنظُرُونَ إِلَّا تَأْوِيلَهُۥ ۚ يَوْمَ يَأْتِى تَأْوِيلُهُۥ يَقُولُ ٱلَّذِينَ نَسُوهُ مِن قَبْلُ قَدْ جَآءَتْ رُسُلُ رَبِّنَا بِٱلْحَقِّ, tr:hel yenzurûne illâ te'vîleh, yevme ye'tî te'vîluhû yekûlu'llezîne nesûhu min kablu kad câet rusulu rabbinâ bi'l-hakk, gloss:onlar onun te'vîlinden başka bir şey mi bekliyorlar? Te'vîlinin geldiği gün, onu önceden unutmuş olanlar "Rabbimizin elçileri gerçekten hakkı getirmişti" derler, source:7:53}. Kitabın te'vîli, haber verdiği sonun gelip çatmasıdır. O gün önceden söylenmiş söz, onu unutanların ağzında doğrulanır.
+
+## ¶17 · prose · 20:53 · applied
+
+**+** Taha'da Musa'nın bu cevabını izleyen ayetler, surenin açılışındaki üçüncü adıma da varır: {ar:وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءًۭ فَأَخْرَجْنَا بِهِۦٓ أَزْوَٰجًۭا مِّن نَّبَاتٍۢ شَتَّىٰ, tr:ve enzele mine's-semâi mâen fe-ahracnâ bihî ezvâcen min nebâtin şettâ, gloss:gökten su indirdi, biz de onunla çeşit çeşit bitkilerden çiftler çıkardık, source:20:53}, {ar:كُلُوا۟ وَٱرْعَوْا۟ أَنْعَٰمَكُمْ, tr:kulû ver'av en'âmekum, gloss:yiyin ve hayvanlarınızı otlatın, source:20:54}. Bu surede yaratma ve yol göstermenin ardından {ar:وَٱلَّذِىٓ أَخْرَجَ ٱلْمَرْعَىٰ, tr:ve'llezî ahrace'l-mer'â, gloss:otlağı çıkaran, source:87:4} gelir. Taha'da da aynı sırayla "çıkarmak" fiili ve "mer'â" ile aynı kökten gelen otlatma emri yer alır.
+
+## ¶17 · prose · 79:18 · applied
+
+**+** Nâziât suresinde Musa'ya Firavun'a gitmesi emredilir {source:79:17} ve ona şunu söylemesi istenir: {ar:فَقُلْ هَل لَّكَ إِلَىٰٓ أَن تَزَكَّىٰ, tr:fe-kul hel leke ilâ en tezekkâ, gloss:de ki: arınmaya bir yönelişin var mı, source:79:18}, {ar:وَأَهْدِيَكَ إِلَىٰ رَبِّكَ فَتَخْشَىٰ, tr:ve ehdiyeke ilâ rabbike fe-tahşâ, gloss:seni Rabbine yönelteyim de içi titreyen biri olasın, source:79:19}. Musa'nın taşıdığı davet bu surenin kelimeleriyle kurulmuştur: on dördüncü ayetteki "tezekkâ", üçüncü ayetteki yol gösterme ve onuncu ayetteki "yahşâ".
+
+## ¶18 · prose · 28:43 · applied
+
+**+** Kasas suresi Firavun'un sorduğu nesilleri Musa'nın kitabıyla doğrudan birleştirir: {ar:وَلَقَدْ ءَاتَيْنَا مُوسَى ٱلْكِتَٰبَ مِنۢ بَعْدِ مَآ أَهْلَكْنَا ٱلْقُرُونَ ٱلْأُولَىٰ بَصَآئِرَ لِلنَّاسِ وَهُدًۭى وَرَحْمَةًۭ لَّعَلَّهُمْ يَتَذَكَّرُونَ, tr:ve lekad âteynâ mûse'l-kitâbe min ba'di mâ ehleknâ'l-kurûne'l-ûlâ besâira li'n-nâsi ve huden ve rahmeten le'allehum yetezekkerûn, gloss:andolsun, ilk nesilleri helak ettikten sonra Musa'ya kitabı, insanlar için gözleri açan deliller, yol gösterici ve rahmet olarak verdik; belki öğüt alırlar, source:28:43}. Firavun'un kelimesi olan "el-kurûnu'l-ûlâ" burada yeniden geçer. Geçip giden ilk nesillerin ardından bir yazı gelir ve öğüt almayı, yani onuncu ayetin fiilini hedefler.
+
+## ¶18 · prose · 56:49 · applied
+
+**+** Vâkıa suresinde ilk nesiller sorusu bir kez daha sorulur. Ölüp toprak ve kemik olduktan sonra diriltilmeyi uzak görenler {source:56:47} şunu ekler: {ar:أَوَءَابَآؤُنَا ٱلْأَوَّلُونَ, tr:e-ve âbâunâ'l-evvelûn, gloss:ilk atalarımız da mı, source:56:48}. Bu soru Saffât'ta da aynı sözlerle geçer {source:37:17}. Cevap şudur: {ar:قُلْ إِنَّ ٱلْأَوَّلِينَ وَٱلْءَاخِرِينَ, tr:kul inne'l-evvelîne ve'l-âhirîn, gloss:de ki: öncekiler de sonrakiler de, source:56:49}, {ar:لَمَجْمُوعُونَ إِلَىٰ مِيقَٰتِ يَوْمٍۢ مَّعْلُومٍۢ, tr:le-mecmû'ûne ilâ mîkâti yevmin ma'lûm, gloss:bilinen bir günün belirlenmiş vaktinde elbette toplanacaklardır, source:56:50}. İlk olanlar cevapta sonrakilerle aynı güne bağlanır.
+
+## ¶1 · refs · - · applied
+
+**+** Ayrıca: {source:23:24} Nuh'un kavminin ileri gelenlerinin "bunu ilk atalarımız arasında duymadık" demesi, yani "yeni laf" itirazının kendisi; {source:38:7} "son dinde bunu duymadık, bu bir uydurmadır" diyerek yenilik ile uydurma itirazını birleştirmeleri; {source:74:24} {source:74:25} sözü "aktarılan bir sihir" ve "insan sözü" sayan inkârcı: "bu adamın kendi sözü" itirazının Kur'an'daki adı; {source:23:68} "ilk atalarına gelmeyen bir şey mi geldi" sorusu: sözün yeni olmadığının soruyla söylenmesi; {source:46:9} Peygamber'in elçiler arasında yeni çıkmış biri olmadığını söylemesi; {source:37:37} "hakkı getirdi ve elçileri doğruladı" cevabı: kendi sözü itirazına karşılık; {source:10:37} Kur'an'ın uydurulamayacağı, önündekini doğruladığı: "kendi sözü" itirazına cevap; {source:11:110} {source:41:45} Musa'ya verilen kitapta da ayrılığa düşülmesi ve onun hakkında derin bir kuşku: vurgunun karşıladığı kuşkunun eski kitap için de var olması; {source:75:20} {source:75:21} yakında olanı sevip ahireti bırakmak: on altıncı ayetteki tercihin başka sözlerle anlatılışı; {source:79:38} dünya hayatını öne koyan kişi: on altıncı ayetin fiili ("âsera") ve nesnesi; {source:9:111} cennet vaadinin Tevrat'ta, İncil'de ve Kur'an'da bulunması: ahiret haberinin eski yazılarda da yer alması
+
+## ¶2 · refs · - · applied
+
+**+** Ayrıca: {source:53:35} sayfalar anılmadan hemen önce yüz çevirene "gaybın bilgisi onda mı" diye sorulması; {source:53:41} çabanın en eksiksiz karşılıkla ödenmesi: sayfaların dizisinde 40. ve 42. ayetler arasındaki halka; {source:53:43} {source:53:44} güldürüp ağlatan, öldürüp dirilten: sayfaların dizisinin devamı; {source:53:50} ilk Âd'ın helaki: aynı dizide sayılan bir başka cümle; {source:21:105} {source:21:106} Zebur'da yazılmış bir cümlenin aktarılması: Kur'an'ın önceki yazılardan cümle aktarması; {source:48:29} Tevrat'ta ve İncil'de anılan, rükû ve secde edenlerin örneği: önceki yazılardan aktarılan bir başka içerik; {source:6:92} ahirete inananın bu kitaba inanıp namazını koruması: en yakın okumadaki ahiret ve namazın kitapla buluşması; {source:98:5} kitap verilenlere emredilen namaz ve zekât: en yakın okumadaki arınma ve namazla aynı ikili
+
+## ¶3 · refs · - · applied
+
+**+** Ayrıca: {source:6:164} {source:17:15} {source:39:7} "hiçbir yük taşıyan başkasının yükünü taşımaz" cümlesinin Kur'an'ın kendi sözü olarak tekrar edilmesi; {source:53:31} kötülük edenin ve iyilik edenin kendi yaptığıyla karşılık görmesi: sayfalardan hemen önceki kural; {source:53:32} "kendinizi temize çıkarmayın; sakınanı O daha iyi bilir": kişinin kendini arıtmasının kendini temize çıkarmak olmadığı; {source:20:48} Musa ile kardeşine vahyedilen "azap yalanlayıp yüz çevirenedir" sözü: aynı "tevellâ"
+
+## ¶4 · refs · - · applied
+
+**+** Ayrıca: {source:26:192} {source:26:193} {source:26:194} {source:26:195} 196. ayetten önce gelen indiriliş: Âlemlerin Rabbinin indirmesi, güvenilir ruh, kalp ve apaçık Arapça; {source:26:198} {source:26:199} söz Arap olmayan birine indirilip onun okumasıyla gelseydi bile inanmayacakları: kimlik belgesinin inanmayanı bağlamaması; {source:2:97} {source:3:3} {source:5:48} {source:6:92} {source:10:37} {source:12:111} {source:35:31} {source:46:30} "önündekini doğrulayan" kitap: yeni sözün eski yazının içeriğini onaylaması; {source:2:41} {source:2:89} {source:2:91} {source:2:101} {source:3:81} {source:4:47} "yanınızdakini doğrulayan": yeni sözün önceki kitap sahiplerinin elindekiyle örtüşmesi; {source:3:50} {source:5:46} {source:61:6} İsa'nın önündeki Tevrat'ı doğrulaması: yeni elçinin öncekinin sözünü onaylaması; {source:7:157} okuma yazma bilmeyen peygamberin Tevrat'ta ve İncil'de yazılı bulunması; {source:2:146} kitap verilenlerin onu oğullarını tanır gibi tanıması: 197. ayetteki bilginlerin bilmesi; {source:6:114} kitap verilenlerin onun Rabbinden hakla indirildiğini bilmesi; {source:13:36} kitap verilenlerin indirilene sevinmesi; {source:28:52} {source:28:53} ondan önce kitap verilenlerin ona inanıp "biz bundan önce de müslümandık" demesi; {source:29:47} kitap verilenlerin bu kitaba inanması; {source:46:10} İsrailoğullarından bir tanığın onun benzerine tanıklık etmesi; {source:10:94} kuşku halinde, kitabı önceden okuyanlara sorulması; {source:16:44} önceki elçilerin açık delillerle ve "zubur"la gönderilmesi, ardından zikrin indirilmesi: "zubur" kelimesinin önceki yazılar için kullanılması; {source:3:184} {source:35:25} yalanlanan önceki elçilerin açık delillerle, "zubur"la ve aydınlatıcı kitapla gelmesi; {source:42:13} İbrahim'e ve Musa'ya tavsiye edilen dinin aynısının şeriat kılınması; {source:4:163} vahyin Nuh'a ve ondan sonrakilere yapılan vahiy gibi oluşu; {source:2:136} {source:3:84} İbrahim'e indirilenle ve Musa'ya verilenle birlikte iman: eskiyle yeninin aynı imanın içinde durması; {source:2:4} {source:4:162} sana ve senden önce indirilene iman: 2:4'te ahirete kesin inançla birlikte; {source:41:43} "sana ancak senden önceki elçilere söylenmiş olan söylenir"; {source:43:4} aynı iskelet ("inne", "fî", "le"): Kur'an'ın Allah katındaki ana kitapta yüce olması; {source:81:21} vahyi getiren elçinin "emîn" diye nitelenmesi: güvenilir ruhun sıfatı
+
+## ¶5 · refs · - · applied
+
+**+** Ayrıca: {source:52:3} "rakk": yazının üzerine yazıldığı ince deri yaprak; {source:6:7} tek bir yaprak (kırtâs) üzerinde indirilen yazı: başlı başına bir yazı parçası
+
+## ¶6 · refs · - · applied
+
+**+** Ayrıca: {source:81:10} sayfaların açılıp yayılması: yaprağın okunmak için serilmesi; {source:17:13} kişinin karşısına açılmış (menşûr) olarak çıkarılan kitap; {source:74:52} "muneşşera": açılıp serilmiş sayfalar
+
+## ¶7 · refs · - · applied
+
+**+** Ayrıca: {source:74:49} {source:74:50} {source:74:51} öğütten yüz çevirip aslandan kaçan yaban eşekleri gibi kaçmaları: Müddessir'deki kaçışın kendisi; {source:74:56} öğüdü anmanın Allah'ın dilemesine bağlanması ve O'nun sakınılmaya layık olması: eksik olanın korku olması; {source:80:11} {source:80:12} "hayır, bu bir öğüttür; dileyen onu anar": aynı cevabın Abese'de tekrarı; {source:4:153} kitap ehlinin gökten bir kitap indirilmesini istemesi: yeni bir yaprak talebi; {source:17:93} "okuyacağımız bir kitap indirmedikçe inanmayız": yeni bir yaprak talebi; {source:6:91} yaprakların bir kısmının açığa vurulup çoğunun gizlenmesi: açık yaprağın insan elinde saklanabilmesi; {source:3:187} kitabın insanlara açıklanması ve gizlenmemesi için söz alınması; {source:2:174} Allah'ın indirdiği kitaptan bir kısmını gizleyenlerin durumu
+
+## ¶9 · refs · - · applied
+
+**+** Ayrıca: {source:7:157} okuma yazma bilmeyen (ümmî) peygamberin önceki kitaplarda yazılı bulunması; {source:11:49} ne onun ne de kavminin önceden bildiği gayb haberlerinin ona vahyedilmesi; {source:28:44} {source:28:45} {source:28:46} Musa'ya iş hükme bağlanırken ve Tûr'un yanında seslenilirken orada bulunmayan Peygamber: haberin ona görülerek ya da okunarak değil, vahiyle ulaşması; {source:16:103} "ona bir insan öğretiyor" itirazına, işaret edilen kişinin dilinin yabancı olduğu cevabı; {source:2:79} kitabı kendi elleriyle yazıp "Allah katındandır" diyenler: elle yazmanın doğurduğu kuşkunun karşı örneği; {source:20:114} vahiy tamamlanmadan okumada acele etmemesi: sözün işitilerek alınması; {source:6:7} yaprak üzerinde indirilen bir kitabın bile sihir denerek reddedileceği
+
+## ¶10 · refs · - · applied
+
+**+** Ayrıca: {source:98:4} kitap verilenlerin ancak açık delil geldikten sonra ayrılığa düşmesi: Beyyine'deki dizinin devamı; {source:56:77} {source:56:78} {source:56:79} saklı bir kitaptaki değerli Kur'an'a ancak arınmışların dokunması: "arınmış" sayfaların öbür yüzü; {source:29:49} sözün göğüslerde apaçık ayetler olarak bulunması: sayfaların okuyuşun içinde durması; {source:20:133} açık delilin "ilk sayfalarda olanın açık delili" diye anılması: Beyyine'deki delil ile sayfaların bağı
+
+## ¶11 · refs · - · applied
+
+**+** Ayrıca: {source:20:127} ahiret azabının "daha şiddetli ve daha kalıcı" oluşu: Taha'nın son bölümünde "ebkâ"nın ilk geçtiği yer; {source:28:60} {source:42:36} dünya hayatının geçimine karşı Allah katındakinin daha hayırlı ve daha kalıcı oluşu: aynı iki kelimeli karşıtlık; {source:20:73} sihirbazların Firavun'a "Allah daha hayırlı ve daha kalıcıdır" demesi: aynı iki kelimenin Taha'daki öbür yeri
+
+## ¶12 · refs · - · applied
+
+**+** Ayrıca: {source:29:50} {source:29:51} Rabbinden ayetler indirilmesi istenmesine "sana indirdiğimiz ve onlara okunan kitap yetmez mi" cevabı: istenen işaretin okunan söz olması; {source:20:134} açık delil gelmeden helak edilselerdi "bize bir elçi gönderseydin ya" diyecek olmaları: delilin gelişinin bahaneyi kaldırması; {source:53:23} Rablerinden onlara hidayetin zaten gelmiş olması; {source:6:157} "Rabbinizden size açık bir delil geldi": işaretin zaten gelmiş olması
+
+## ¶13 · refs · - · applied
+
+**+** Ayrıca: {source:6:90} önceki peygamberlerin hidayetine uyulması emri: sonrakinin öndekilerin izinden gitmesi; {source:16:123} İbrahim'in yoluna uyulmasının vahyedilmesi; {source:5:46} {source:57:27} elçilerin öncekilerin izleri (âsâr) üzerinden birbiri ardınca gönderilmesi; {source:43:22} {source:43:23} atalarının izinden gittiklerini söyleyenler: iz sürmenin karşıt yüzü
+
+## ¶14 · refs · - · applied
+
+**+** Ayrıca: {source:79:25} Firavun'un ahiretin ve ilk hayatın ibret cezasıyla yakalanması: "âhire" ile "ûlâ" çifti; {source:92:13} "son da ilk de bize aittir": aynı çift; {source:57:3} "evvel" ile "âhir"in Allah'ın adları olarak yan yana gelmesi; {source:53:24} "insan her istediğine mi sahip olacak": 53:25'in hemen öncesi; {source:93:1} {source:93:2} {source:93:3} Duhâ'nın yemini ve Rabbin onu bırakmadığı teselli: 93:4'ün öncesi; {source:93:5} Rabbin ona vereceği ve onun hoşnut olacağı: sonrakinin daha hayırlı oluşunun devamı; {source:53:56} "ûlâ"nın burada olduğu gibi önceki uyarıcıları nitelemesi
+
+## ¶15 · refs · - · applied
+
+**+** Ayrıca: {source:10:39} te'vîli henüz gelmemiş olanı yalanlamaları ve öncekilerin akıbeti: te'vîlin sözün varacağı son olması; {source:12:100} önceden görülen rüyanın gerçekleşmesine "te'vîl" denmesi; {source:4:59} {source:17:35} "daha hayırlı ve sonuçça daha güzel": "te'vîl"in sonuç anlamında kullanılması; {source:20:135} herkesin beklediği ve kimin doğru yolda olduğunun bilineceği son: Taha'nın kapanışı; {source:20:55} topraktan yaratılış, toprağa dönüş ve oradan yeniden çıkış: başlangıcın dönüşü içinde taşıması; {source:56:62} bilinen ilk yaratılışın sonrakini hatırlatması
+
+## ¶16 · refs · - · applied
+
+**+** Ayrıca: {source:16:96} sizin yanınızdakinin tükenmesi, Allah katındakinin kalıcı olması: geçen ile kalan arasındaki karşıtlık; {source:26:84} İbrahim'in sonrakiler arasında doğruluk dili istemesi: ilkin sözünün sonrakiler arasında yaşaması
+
+## ¶17 · refs · - · applied
+
+**+** Ayrıca: {source:20:44} Firavun'a "belki öğüt alır ya da içi titrer" diye gönderilmeleri: onuncu ayetin iki fiili; {source:20:47} {source:20:48} sorudan önce iki kardeşin getirdiği haber: hidayete uyana selam, yalanlayıp yüz çevirene azap; {source:26:26} {source:37:126} {source:44:8} "sizin de ilk atalarınızın da Rabbi": Rabbin ilklerle bağının Firavun karşısında ve başka yerlerde söylenmesi
+
+## ¶18 · refs · - · applied
+
+**+** Ayrıca: {source:20:128} öncekilerden helak edilen nesillerin yurtlarında yürümeleri: geçmiş nesillerin izinin ibret olarak durması; {source:85:22} Kur'an'ın korunmuş bir levhada bulunması; {source:15:9} zikri indirenin ve koruyanın Allah olması: okutulan sözde korunma; {source:5:13} {source:5:14} kitap sahiplerinin kendilerine hatırlatılanın bir kısmını unutması: unutmayan Rab ve unutmayan Peygamber karşısında; {source:5:44} Tevrat'ın korunmasının ona tanık olan bilginlere emanet edilmesi
+

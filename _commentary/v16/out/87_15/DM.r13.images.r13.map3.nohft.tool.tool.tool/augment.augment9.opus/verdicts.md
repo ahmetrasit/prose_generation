@@ -1,0 +1,369 @@
+- 2:152: ref ¶19 - "beni anın, sizi anayım": iki yönlü anma
+- 3:191: ref ¶6 - bedenin her hâlinde anma
+- 4:102: not relevant - korku namazının düzeni
+- 4:103: ref ¶8 - namazdan anmaya giden sıra
+- 5:91: ref ¶6 - anma ve namazın bir çift olarak anılması
+- 6:162: ref ¶15 - namazın ve hayatın Rabbe ait olması
+- 7:205: prose ¶6 - içte ve kısık sesle anma, gafletin karşıtlığı
+- 11:87: ref ¶22 - önceki bir peygamberin namazı
+- 11:114: ref ¶5 - namaz emri, anan kişiler için bir hatırlatma
+- 13:28: ref ¶6 - anmanın kalpte huzur olması
+- 14:40: cited ¶22; nowhere else - ¶22 namazla duanın yan yanalığını zaten söylüyor
+- 15:98: ref ¶7 - elçiye tesbih ve secde emri
+- 17:78: not relevant - namaz vakitleri; ayetteki anmayla bağı yok
+- 17:110: ref ¶6, ¶9 - namazda ses ölçüsü; adlarla çağırma
+- 18:28: ref ¶3 - Rabbe yalvaranlar ile dünya süsünü isteyen ve zikirden gafil olan
+- 19:55: ref ¶22 - ailesine namazı emreden peygamber
+- 19:59: ref ¶22 - İbrahim soyundan sonra namazı zayi eden nesil
+- 20:14: cited ¶8; ref ¶6 - namazın anmak için kılınması
+- 20:33: ref ¶2, ¶8 - tesbihten anmaya, Musa'nın dileği
+- 20:34: ref ¶2, ¶8 - 20:33 ile birlikte
+- 20:130: ref ¶7 - sabrın ardından tesbih emri
+- 20:132: ref ¶22 - ailesine namazı emretme
+- 21:73: prose ¶22 - İbrahim'e ve ona bağışlananlara namazın vahyedilmesi
+- 22:35: ref ¶6 - anılınca titreyen kalpler ve namaz
+- 22:41: ref ¶21 - mabetleri korunanların namazı ve zekâtı
+- 24:37: cited ¶10; nowhere else - ¶10 anma, namaz ve zekâtı orada birlikte açıklıyor
+- 24:56: not relevant - genel namaz ve zekât emri
+- 29:45: ref ¶6 - namaz ve daha büyük olan anma; yazarın "tekrar" gerekçesine karşı: anmanın namazdan büyük olmasını ekliyor
+- 30:31: not relevant - genel emir
+- 33:35: not relevant - erdemler sayımı; yalnız kelime ortak
+- 33:41: cited ¶19; nowhere else - ¶19'da açıklanıyor
+- 33:42: cited ¶19; nowhere else - ¶19'da açıklanıyor
+- 43:36: ref ¶5 - zikre gözünü kapayan, kopan zincir
+- 50:39: ref ¶7 - sabrın ardından tesbih
+- 50:40: ref ¶7 - gece tesbih, secdelerin ardından
+- 52:48: ref ¶7 - Rabbin hükmüne sabır ve tesbih
+- 53:29: prose ¶3 - zikirden yüz çevirme ile dünyayı isteme tek kişide
+- 53:62: not relevant - secde emri; paragraflara bir şey katmıyor
+- 57:16: ref ¶6 - kalbin anmaya karşı huşusu
+- 62:9: ref ¶6 - namaza çağrının zikre koşmak olarak adlandırılması
+- 62:10: ref ¶1, ¶8 - namaz sonrası anma ve kurtuluş; namazdan anmaya giden sıra
+- 63:9: ref ¶10 - anmaktan alıkoymama emri
+- 70:22: ref ¶3 - istisna olarak namaz kılanlar
+- 70:23: ref ¶3 - 70:22 ile birlikte
+- 73:8: cited ¶7; nowhere else - ¶7'de açıklanıyor
+- 73:20: prose ¶7 - elçiye emredilen gece kalkışı bir topluluğun işi oluyor
+- 74:43: cited ¶25; nowhere else - ¶25'te açıklanıyor
+- 76:25: cited ¶7; nowhere else - ¶7'de açıklanıyor
+- 76:26: cited ¶7; nowhere else - ¶7'de açıklanıyor
+- 96:1: cited ¶12; nowhere else - ¶12'de açıklanıyor
+- 96:19: context ¶25 (in 96:10), ref ¶12 - adla açılan surenin secdeyle kapanması
+- 107:4: ref ¶6 - namaz kılıp gafil olanlar; yazarın gerekçesine karşı: anmasız namazı gösteriyor
+- 108:2: ref ¶7 - "salli" emri, fiilin emir hâli
+- 2:43: not relevant - genel emir
+- 2:45: not relevant - sabır ve namazla yardım
+- 2:110: not relevant - genel emir
+- 2:125: ref ¶22 - makam namazgâh, ev rükû ve secde edenlere
+- 2:153: not relevant - sabır ve namazla yardım
+- 2:157: ref ¶19 - Rablerinden gelen salâtlar
+- 2:186: not relevant - duaya icabet; namazla bağı yok
+- 2:238: not relevant - namazları koruma emri
+- 2:239: ref ¶6 - namazın "anın" diye emredilmesi
+- 2:277: not relevant - genel sayım
+- 3:39: ref ¶22 - mihrapta namaz, eskilik
+- 3:41: ref ¶7 - bir peygambere anma ve tesbih emri
+- 3:113: not relevant - gece okuma ve secde; ¶7'deki emir-iş bağına katılmıyor
+- 4:43: not relevant - namaz için temizlik hükmü
+- 4:77: not relevant - savaş bağlamı
+- 4:142: prose ¶6 - namazla anmanın ayrılması
+- 4:162: not relevant - genel sayım
+- 5:4: not relevant - av üzerine ad anma
+- 5:6: not relevant - abdest; tezekkâ'nın anlamı başka
+- 5:12: ref ¶22 - İsrailoğullarının sözünde namaz ve zekât
+- 5:58: not relevant - namaz çağrısıyla alay
+- 6:52: not relevant - 18:28 aynı şeyi daha yakın söylüyor; ¶3'e katkısı yok
+- 6:72: not relevant - genel emir
+- 6:118: not relevant - kesilen hayvan üzerine ad
+- 6:121: not relevant - kesilen hayvan üzerine ad
+- 6:138: not relevant - kesilen hayvan üzerine ad
+- 7:170: not relevant - kitaba sarılma ve namaz; zayıf bağ
+- 7:180: prose ¶9 - adlarla çağırma
+- 8:2: ref ¶6 - anılınca titreyen kalpler
+- 8:3: ref ¶6 - aynı kişilerin namazı
+- 8:35: ref ¶22 - evin yanında namazın bozulması
+- 9:5: not relevant - savaş hükmü
+- 9:11: not relevant - savaş hükmü
+- 9:18: ref ¶21 - mescitleri imar edenlerin namazı
+- 9:54: not relevant - anma söz konusu değil
+- 9:71: not relevant - genel sayım
+- 9:112: not relevant - genel sayım
+- 10:87: ref ¶22 - Musa'ya ve kardeşine namaz
+- 13:22: not relevant - genel sayım
+- 14:31: not relevant - genel emir
+- 14:37: cited ¶22; nowhere else - ¶22'de açıklanıyor
+- 17:79: ref ¶7 - gece namazı emri
+- 19:31: ref ¶22 - İsa'ya namaz ve zekât
+- 19:65: cited ¶11; nowhere else - ¶11'de açıklanıyor
+- 20:42: ref ¶8 - Musa'ya anmada gevşememe
+- 22:28: not relevant - kurban üzerine ad
+- 22:34: ref ¶21 - her ümmetin ad anma yolu
+- 22:36: not relevant - kurban üzerine ad
+- 22:40: cited ¶21; nowhere else - ¶21'de açıklanıyor
+- 22:77: ref ¶1 - rükû, secde ve kurtuluş
+- 23:1: cited ¶20; ref ¶1 - "kad eflaha" kalıbı
+- 23:2: cited ¶20; nowhere else - ¶20'de açıklanıyor
+- 23:9: ref ¶20 - namazla açılan sayımın namazla kapanması
+- 24:36: cited ¶10; ref ¶21 - adın anıldığı evler
+- 24:41: ref ¶16 - salât ve tesbih yan yana
+- 25:64: ref ¶7 - geceyi secde ve kıyamla geçirenler
+- 25:77: not relevant - dua; namazla bağ yok
+- 27:3: not relevant - aynı sayım kurtuluş olmadan; 31:4-5 yeterli
+- 31:4: ref ¶20 - namaz, zekât ve kurtuluş
+- 32:15: prose ¶1 - hatırlatmanın hemen secdeye ve tesbihe dönmesi
+- 32:16: ref ¶7 - geceleyin Rabbe yalvarma
+- 33:21: ref ¶7 - Allah'ı çokça anana elçide örnek
+- 33:33: not relevant - ev halkına hitap
+- 33:43: cited ¶19; nowhere else - ¶19'da açıklanıyor
+- 33:56: ref ¶16, ¶19 - salavat; iki yönlü salât
+- 35:18: prose ¶5; ref ¶1 - korkan, namaz kılan ve kendisi için arınan
+- 35:29: not relevant - genel sayım
+- 37:13: ref ¶5 - hatırlatılıp anmayanlar
+- 37:155: not relevant - genel soru
+- 38:18: not relevant - dağların tesbihi
+- 38:32: not relevant - anlamı tartışmalı, bağ yalnız kelimede
+- 39:9: ref ¶7 - gece secde ve kıyam
+- 39:22: ref ¶6 - anmaya karşı katılaşan kalp
+- 39:45: ref ¶11 - Allah tek başına anıldığında
+- 40:14: not relevant - ihlasla dua
+- 40:55: ref ¶7 - sabrın ardından tesbih
+- 41:38: not relevant - Rabbin yanındakilerin tesbihi; emir-iş bağına katılmıyor
+- 51:55: ref ¶5 - hatırlatmanın yararı
+- 52:49: ref ¶7 - gece tesbih
+- 54:22: ref ¶5 - zikir için kolaylaştırılan Kur'an ve öğüt alan
+- 55:78: ref ¶9 - Rabbin adının yüceliği
+- 56:74: ref ¶2 - Rabbin adını tesbih emri
+- 56:96: ref ¶2 - aynı emir
+- 58:13: not relevant - genel emir
+- 58:19: ref ¶4 - Allah'ı anmayı unutturma
+- 69:52: ref ¶2 - Rabbin adını tesbih emri
+- 70:34: ref ¶20 - namazı koruma ile kapanan sayım
+- 72:17: ref ¶5 - Rabbinin zikrinden yüz çevirme
+- 72:18: ref ¶21 - mescitlerin Allah'a ait olması
+- 74:42: cited ¶25 (pointed to); nowhere else - soru ¶25'te anılıyor
+- 74:54: ref ¶5 - hatırlatma ve dileyenin anması
+- 74:55: ref ¶5 - aynı
+- 75:31: cited ¶25; nowhere else - ¶25'te açıklanıyor
+- 80:11: ref ¶5 - hatırlatma ve dileyenin anması
+- 80:12: ref ¶5 - aynı
+- 96:9: context ¶25 (in 96:10) - engelleyen
+- 96:10: prose ¶25 - "sallâ" ve "keẕẕebe ve tevellâ" iki ayrı kişide
+- 98:5: ref ¶22 - kitap verilenlere namaz emri
+- 2:200: not relevant - ibadet sonrası anma ve dünya isteği; portreyle doğrudan bağ kurmuyor
+- 18:24: ref ¶4 - unuttuğunda Rabbini anma
+- 59:19: prose ¶4 - Allah'ı unutana nefsinin unutturulması
+- 107:5: ref ¶6 - namazdan gafil olanlar
+- 2:3: ref ¶20 - namaz, infak ve kurtuluş
+- 2:114: ref ¶21 - adın anıldığı mescitlerin yıkımı
+- 7:206: not relevant - Rabbin yanındakilerin tesbihi
+- 19:11: ref ¶7 - tesbihin kavme bildirilmesi
+- 19:60: not relevant - tevbe edenlerin istisnası
+- 25:62: ref ¶5 - tezekkür etmek isteyen
+- 33:34: not relevant - evlerde okunan ayetleri anma; ¶8'e bir şey katmıyor
+- 38:46: not relevant - "yurdu anma"
+- 43:44: ref ¶8 - vahyin zikir olması
+- 53:25: not relevant - ahiret ve dünya Allah'ın
+- 73:19: ref ¶5 - hatırlatma ve Rabbe yol
+- 92:20: prose ¶3; ref ¶2 - "rabbihi'l-a'lâ" ve arınan
+- 94:4: cited ¶10; nowhere else - ¶10'da açıklanıyor
+- 2:37: not relevant - Âdem'in tevbesi
+- 2:124: ref ¶22 - soy için dilek ve zalimlerin istisnası
+- 2:131: not relevant - teslimiyet
+- 2:282: not relevant - borç hükmü
+- 6:70: not relevant - hatırlatma emri; ¶3 ve ¶5'e katkısı yok
+- 6:119: not relevant - kesilen hayvan üzerine ad
+- 9:99: ref ¶20 - elçinin salavâtı
+- 10:10: ref ¶16 - tesbihin dua olması
+- 21:10: ref ¶8 - kitaptaki zikir
+- 21:24: ref ¶8 - önceki peygamberlerin zikri
+- 36:58: not relevant - Rabden gelen selam
+- 38:1: ref ¶8 - zikir sahibi Kur'an
+- 47:20: not relevant - savaş suresi
+- 49:11: not relevant - lakap anlamında ad
+- 53:49: not relevant - Şi'râ'nın Rabbi
+- 55:17: not relevant - doğuların Rabbi
+- 55:21: not relevant - nakarat
+- 55:53: not relevant - nakarat
+- 61:6: not relevant - Ahmed adı
+- 68:50: not relevant - Yunus'un seçilmesi
+- 68:51: ref ¶8 - zikri duyunca elçiye deli demek
+- 84:15: not relevant - Rabbin görmesi
+- 89:28: not relevant - Rabbe dönüş
+- 100:11: not relevant - Rabbin haberdarlığı
+- 2:63: not relevant - Tûr ve söz
+- 4:101: not relevant - namazı kısaltma
+- 6:92: not relevant - namazı koruma; ¶8'e zayıf bağ
+- 9:103: cited ¶20; nowhere else - ¶20'de açıklanıyor
+- 19:3: ref ¶6 - gizli seslenme
+- 19:7: ref ¶11 - semiy, adaş
+- 20:25: not relevant - göğsün açılması dileği; anmayla bağı yok
+- 20:122: not relevant - Âdem'in seçilmesi
+- 42:38: not relevant - genel sayım
+- 55:46: not relevant - Rabbin makamından korkma
+- 69:12: ref ¶4 - hatırlatmayı saklayan kulak
+- 88:18: not relevant - göğün yükseltilmesi
+- 89:15: not relevant - Rabbin ikramı
+- 1:3: not relevant - 1:1'deki sıfatların tekrarı
+- 1:4: ref ¶13 - Rab ve din gününün sahibi
+- 9:100: not relevant - öncüler
+- 9:101: not relevant - münafıklar
+- 9:104: ref ¶20 - sadakaları alan Allah
+- 9:105: not relevant - amellerin görülmesi
+- 14:35: not relevant - putlardan uzak tutma duası
+- 14:36: not relevant - putların saptırması
+- 14:38: ref ¶6 - gizleneni ve açığa vurulanı bilen Rab
+- 14:39: ref ¶22 - duayı işiten Rab
+- 14:41: not relevant - bağışlanma duası
+- 14:42: not relevant - zalimlerin ertelenmesi
+- 15:4: not relevant - helak edilen kentler
+- 15:5: not relevant - ecel
+- 15:7: not relevant - melek isteği
+- 15:8: not relevant - meleklerin inişi
+- 15:10: not relevant - önceki elçiler
+- 15:11: not relevant - elçilerle alay
+- 19:62: not relevant - cennetteki rızık
+- 19:63: not relevant - cennetin mirası
+- 19:66: not relevant - dirilişi inkâr
+- 19:67: ref ¶11 - insanın yaratılışını anmaması
+- 20:12: context ¶8 (in 79:18) - kutsal Tuvâ vadisi
+- 20:13: not relevant - seçilme
+- 20:15: not relevant - kıyamet saati
+- 20:16: not relevant - saatten alıkoyan
+- 22:38: not relevant - Allah'ın savunması
+- 22:39: cited ¶21 (pointed to); nowhere else - savaş izni ¶21'de anılıyor
+- 22:42: not relevant - önceki kavimlerin yalanlaması
+- 23:0: not relevant - besmele
+- 23:3: not relevant - boş sözden yüz çevirme
+- 23:5: not relevant - iffet
+- 23:6: not relevant - iffet
+- 24:34: not relevant - indirilen ayetler
+- 24:35: cited ¶10 (pointed to); nowhere else - nur benzetmesi ¶10'da anılıyor
+- 24:38: not relevant - mükâfat
+- 24:39: not relevant - kâfirlerin amelleri
+- 33:39: not relevant - tebliğ edenler
+- 33:40: not relevant - son peygamber
+- 33:44: not relevant - selamla karşılanma
+- 33:45: not relevant - elçinin görevi
+- 73:0: not relevant - besmele
+- 73:1: not relevant - hitap
+- 73:3: cited ¶7 (pointed to); nowhere else - gece kalkışının ölçüsü
+- 73:4: cited ¶7 (pointed to); nowhere else - ağır ağır okuma
+- 73:6: not relevant - gece kalkışının etkisi
+- 73:7: not relevant - gündüzün meşguliyeti
+- 73:9: ref ¶11 - anılan Rab ve O'ndan başka ilah olmaması
+- 73:10: not relevant - sabır emri; ¶7'ye bir şey katmıyor
+- 74:41: not relevant - sahnenin girişi
+- 74:44: ref ¶25 - yoksulu doyurmama itirafı
+- 74:45: not relevant - boş söze dalma
+- 75:24: not relevant - asık yüzler
+- 75:25: not relevant - felaket beklentisi
+- 75:27: not relevant - ölüm sahnesi ayrıntısı
+- 75:28: not relevant - ayrılık
+- 75:29: not relevant - bacakların dolaşması
+- 75:34: not relevant - tehdit
+- 75:35: not relevant - tehdit
+- 76:21: not relevant - cennet giysileri
+- 76:22: not relevant - mükâfat
+- 76:24: cited ¶7 (pointed to); nowhere else - sabır ve itaat etmeme
+- 76:27: ref ¶3 - anma emrinin ardından dünyayı sevenler
+- 76:28: not relevant - yaratma ve değiştirme
+- 91:5: not relevant - gök yemini
+- 91:6: not relevant - yer yemini
+- 91:10: ref ¶15 - nefsini örtüp bastıran
+- 91:11: not relevant - Semud
+- 94:2: cited ¶10 (pointed to); nowhere else - yükün kaldırılması
+- 94:3: cited ¶10 (pointed to); nowhere else - sırtı büken yük
+- 94:5: not relevant - zorlukla kolaylık
+- 94:6: not relevant - zorlukla kolaylık
+- 96:0: not relevant - besmele
+- 96:2: not relevant - insanın yaratılışı
+- 96:3: not relevant - en cömert Rab
+- 92:14 own: not relevant - ateşle uyarı
+- 92:15 own: context ¶3 (in 92:20), ref ¶23 - en bedbahtın "yaslâ"sı
+- 92:16 own: context ¶3 (in 92:20), ref ¶23 - yalanlayıp yüz çeviren
+- 92:17 own: context ¶3 (in 92:20) - en sakınanın ateşten uzak tutulması
+- 92:18 own: context ¶3 (in 92:20) - malını verip arınan
+- 92:19 own: not relevant - karşılık beklememe
+- 92:21 own: not relevant - hoşnutluk
+- 80:1 own: context ¶5 (in 80:4) - yüz ekşitip dönen
+- 80:2 own: context ¶5 (in 80:4) - âmânın gelişi
+- 80:3 own: context ¶5 (in 80:4) - "yezzekkâ"
+- 80:5 own: not relevant - kendini yeterli gören
+- 80:6 own: not relevant - ona yönelmek
+- 80:7 own: not relevant - arınmamasının sorumluluğu
+- 80:8 own: context ¶5 (in 80:4) - koşarak gelen
+- 80:9 own: context ¶5 (in 80:4) - "yahşâ"
+- 80:10 own: not relevant - ondan oyalanmak
+- 21:70 own: not relevant - İbrahim'e kurulan tuzak
+- 21:71 own: not relevant - kurtuluş ve hicret
+- 21:72 own: context ¶22 (in 21:73) - İshak ile Yakub'un bağışlanması
+- 21:74 own: not relevant - Lut
+- 96:11 own: not relevant - hidayet üzere olmak
+- 96:12 own: not relevant - takvayı emretmek
+- 96:13 own: context ¶25 (in 96:10) - engelleyenin yalanlaması ve yüz çevirmesi
+- 96:14 own: not relevant - Allah'ın görmesi
+- 79:15 own: not relevant - Musa'nın haberi
+- 79:16 own: context ¶8 (in 79:18) - Tuvâ'da seslenme
+- 79:17 own: context ¶8 (in 79:18) - Firavun'a gönderilme
+- 79:18 own: prose ¶8 - Musa'nın davetinde "tezekkâ"
+- 79:19 own: context ¶8 (in 79:18) - Rab ve "tahşâ"
+- 79:20 own: not relevant - büyük ayet
+- 88:21 own: ref ¶5 - elçinin işi hatırlatmak
+- 50:45 own: ref ¶5 - korkana Kur'an'la hatırlatma
+- 20:3 own: ref ¶5 - korkan için hatırlatma
+- 20:124 own: ref ¶5 - zikirden yüz çevirme
+- 20:125 own: ref ¶5 - kör haşredilme
+- 20:126 own: ref ¶5 - unutanın unutulması
+- 20:52 own: ref ¶11 - Rab unutmaz
+- 68:52 own: ref ¶8 - âlemlere zikir
+- 76:29 own: ref ¶5 - hatırlatma ve Rabbe yol
+- 2:5 own: ref ¶20 - kurtuluşa erenler
+- 31:5 own: ref ¶20 - kurtuluşa erenler
+- 19:58 own: ref ¶22 - İbrahim soyundan secdeye kapananlar
+- 70:19 own: ref ¶3 - sabırsız yaratılan insan
+- 70:20 own: ref ¶3 - aynı
+- 70:21 own: ref ¶3 - aynı
+- 70:35 own: not relevant - cennette ikram
+- 7:203 own: not relevant - ayet isteği
+- 7:204 own: not relevant - Kur'an okunurken dinleme
+- 4:141 own: not relevant - münafıkların bekleyişi
+- 4:143 own: not relevant - bocalama
+- 53:28 own: not relevant - zanna uymak
+- 53:30 own: not relevant - bilgilerinin sınırı
+- 35:17 own: not relevant - Allah'a zor olmaması
+- 35:19 own: not relevant - kör ve gören
+- 32:14 own: not relevant - unutulan buluşma günü, Rabbin adı değil
+- 32:17 own: not relevant - gizli mükâfat
+- 18:23 own: not relevant - yarın yapacağım deme
+- 59:18 own: context ¶4 (in 59:19) - yarın için gönderilen
+- 75:20 own: ref ¶3 - çabuk geçeni sevmek
+- 75:21 own: ref ¶3 - ahireti bırakmak
+- 62:11 own: ref ¶10 - ticaret için elçiyi bırakanlar
+- 108:1 own: not relevant - Kevser
+- 108:3 own: not relevant - düşmanın soyunun kesikliği
+- 20:2 own: not relevant - Kur'an'ın sıkıntı için inmemesi
+- 3:190 own: not relevant - yaratılıştaki ayetler
+- 3:192 own: not relevant - ateşe girenin rezilliği
+- 13:27 own: not relevant - ayet isteği
+- 13:29 own: not relevant - iyilerin akıbeti
+- 29:44 own: not relevant - hak ile yaratma
+- 29:46 own: not relevant - kitap ehliyle tartışma
+- 2:151 own: ref ¶19 - elçinin arındırması ve ardından gelen anma
+- 2:154 own: not relevant - şehitler
+- 5:90 own: not relevant - içki ve kumar
+- 5:92 own: not relevant - itaat
+- 17:109 own: not relevant - ağlayarak secde
+- 17:111 own: ref ¶11 - ortağı olmayan Allah
+- 107:3 own: not relevant - yoksulu doyurmaya teşvik etmemek
+- 107:6 own: ref ¶6 - gösteriş yapan namaz kılanlar
+- 33:57 own: not relevant - eziyet edenler
+- 2:156 own: not relevant - musibette söz
+- 20:50 own: ref ¶14 - yaratıp yol gösteren Rab
+- 26:78 own: ref ¶14 - yaratıp yol gösteren Rab
+- 26:79 own: ref ¶14 - yediren ve içiren Rab
+- 20:115 own: not relevant - Âdem'in ahdi unutması; adın anılmasıyla bağı yok
+- 2:83 own: ref ¶22 - İsrailoğullarının sözünde namaz ve zekât
+- 91:9 own: ref ¶1 - "kad eflaha" kalıbı (cited ¶15)
+- 54:17 own: ref ¶5 - zikir için kolaylaştırılan Kur'an, nakarat
+- 54:32 own: ref ¶5 - aynı nakarat
+- 54:40 own: ref ¶5 - aynı nakarat
