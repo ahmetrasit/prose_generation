@@ -1,0 +1,90 @@
+{
+  "surah": 92,
+  "section": 11,
+  "run_tag": "session-20261005",
+  "source_sha256": "4651dacdc8a5500b0a3162c1a02f4b9bbb92fa5da19e835b1e7a2e1a801e766e",
+  "list_sha256": "62d705f67d0fd8cdba11e96aab6af9dec5bb9f65114f27ee1c57ab00711e2316",
+  "models": {
+    "luna": {
+      "run_log": "/Volumes/aro/projects/prose_generation/_commentary/v16/out/s092/discovery/session-20261005/sec11/luna/run.log.json",
+      "consolidation": {
+        "mode": "separate-proposals-v1",
+        "raw_proposal_rows": 8,
+        "unique_additions": 8,
+        "repeated_proposals": [],
+        "turn1_sha256": "49bc0596b698a8b0172febc24046a892179795ecab054c42577623ca6eed839d",
+        "followup_sha256": "1fd760c596d5f1a8139c1e556cd1f29638d303ee89c593486e43e5dfa3490546",
+        "proposal_file": "followup.tsv",
+        "proposal_sha256": "1fd760c596d5f1a8139c1e556cd1f29638d303ee89c593486e43e5dfa3490546",
+        "list_sha256": "7f6737976ae6c143e1dd192f8d684a02302232f767c354168c32802bf8fa3646",
+        "policy": "First occurrence retained; no existing row or grade changed. Raw followup.tsv preserved."
+      },
+      "validation_review": {
+        "status": "unverified discovery notes; adjudicator must check canonical text",
+        "agent_completion_notes": [],
+        "policy": "Raw discoveries retained; quotation flags are review aids, not semantic verdicts."
+      },
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/_commentary/v16/out/s092/discovery/session-20261005/sec11/luna/list.tsv",
+        "rows": 121,
+        "schema_errors": [],
+        "duplicates": {},
+        "arabic_findings": [],
+        "limits": "Orthographic normalization only; roots, paraphrases and word segmentation require review. No semantic or relevance validation."
+      }
+    },
+    "terra": {
+      "run_log": "/Volumes/aro/projects/prose_generation/_commentary/v16/out/s092/discovery/session-20261005/sec11/terra/run.log.json",
+      "consolidation": {
+        "mode": "separate-proposals-v1",
+        "raw_proposal_rows": 72,
+        "unique_additions": 72,
+        "repeated_proposals": [],
+        "turn1_sha256": "3578b6d613d34c753c9d15aef8488f088f166efdfa8c9a89e21285815f1c413e",
+        "followup_sha256": "52ea17dca1e5f808805fcfb4ed723ba62c32eff6c77614497a10c7e3de22660d",
+        "proposal_file": "followup.tsv",
+        "proposal_sha256": "52ea17dca1e5f808805fcfb4ed723ba62c32eff6c77614497a10c7e3de22660d",
+        "list_sha256": "a147a81797fc8093d075eaf5b41e50be663abe8de339037f69197204418aecc7",
+        "policy": "First occurrence retained; no existing row or grade changed. Raw followup.tsv preserved."
+      },
+      "validation_review": {
+        "status": "unverified discovery notes; adjudicator must check canonical text",
+        "agent_completion_notes": [],
+        "policy": "Raw discoveries retained; quotation flags are review aids, not semantic verdicts."
+      },
+      "validation": {
+        "file": "/Volumes/aro/projects/prose_generation/_commentary/v16/out/s092/discovery/session-20261005/sec11/terra/list.tsv",
+        "rows": 255,
+        "schema_errors": [],
+        "duplicates": {},
+        "arabic_findings": [
+          {
+            "line": 3,
+            "ref": "96:7",
+            "arabic": "أَن رَّآهُ ٱسْتَغْنَىٰ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 12,
+            "ref": "93:8",
+            "arabic": "ٱسْتَغْنَىٰ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          },
+          {
+            "line": 213,
+            "ref": "40:82",
+            "arabic": "آثار",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0
+          }
+        ],
+        "limits": "Orthographic normalization only; roots, paraphrases and word segmentation require review. No semantic or relevance validation."
+      }
+    }
+  }
+}

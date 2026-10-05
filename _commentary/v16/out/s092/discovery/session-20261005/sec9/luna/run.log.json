@@ -1,0 +1,89 @@
+{
+  "ref": "S92",
+  "arm": "discover",
+  "brief": "session-20261005.luna.sec9",
+  "run_tag": "session-20261005",
+  "section_number": 9,
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "runner": "agent",
+  "agent_path": "/root/s92_disc_09_luna",
+  "agent_id": "01a10d83-dd9f-7b72-bd15-0001a6130751",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T15-21-48-01a10d83-dd9f-7b72-bd15-0001a6130751.jsonl",
+  "estimate_usd": 0,
+  "cost_usd": 0,
+  "cost_basis": "Codex subscription",
+  "status": "ok",
+  "check": "findings",
+  "followup_mode": "separate-proposals-v1",
+  "consolidation": {
+    "mode": "separate-proposals-v1",
+    "raw_proposal_rows": 97,
+    "unique_additions": 97,
+    "repeated_proposals": [],
+    "turn1_sha256": "cf3a5203dd4941508d0419f0bc06c360ed1a2fc4e937f3583efc7c0cf76ee1ae",
+    "followup_sha256": "a8c444fc87c24bbee677ff0353c7725d147841a08f8d1fece8609ca931f964d6",
+    "proposal_file": "followup.tsv",
+    "proposal_sha256": "a8c444fc87c24bbee677ff0353c7725d147841a08f8d1fece8609ca931f964d6",
+    "list_sha256": "73873c18a3c653de786d2da73326f3324cb446d4acb4c179c7f58f2195075514",
+    "policy": "First occurrence retained; no existing row or grade changed. Raw followup.tsv preserved."
+  },
+  "consolidation_error": null,
+  "usage_tokens": null,
+  "turn1_rows": 132,
+  "turn1_lines": 132,
+  "turn1": {
+    "agent_path": "/root/s92_disc_09_luna",
+    "agent_id": "01a10d83-dd9f-7b72-bd15-0001a6130751",
+    "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T15-21-48-01a10d83-dd9f-7b72-bd15-0001a6130751.jsonl",
+    "rows": 132,
+    "lines": 132,
+    "bad_rows": [],
+    "usage": null,
+    "completed_at": "2026-10-05T19:36:08.099Z"
+  },
+  "turn2": {
+    "completed": true,
+    "rows_total": 229,
+    "rows_added": 97,
+    "usage": null
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "bad_rows": [],
+  "duplicates": {},
+  "source_sha256": "4651dacdc8a5500b0a3162c1a02f4b9bbb92fa5da19e835b1e7a2e1a801e766e",
+  "inputs_unchanged": true,
+  "followup_delivery": [
+    {
+      "call_id": "call_Yx28q0lLIp5C5DDdjNvmvIe9",
+      "timestamp": "2026-10-05T19:37:49.225Z",
+      "target": "s92_disc_09_luna",
+      "parent_transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/04/rollout-2026-10-04T21-37-28-01a109b5-7256-7930-b51e-78b0a209e630.jsonl",
+      "message_encrypted": true,
+      "plaintext_matches": false
+    }
+  ],
+  "protocol_findings": [],
+  "daemon_recovery_delivery": [
+    {
+      "call_id": "call_93GWbc4KNjfTuaoP36F683gl",
+      "timestamp": "2026-10-05T19:33:24.264Z",
+      "target": "/root/s92_disc_09_luna",
+      "message": "gAAAAABqw_uEBibwG5qL4E074uJn5vQOTCxlvfVDGBN0LEMaS6XW7EMTSK6xrWyEm3dv7sDl2msoDMm90zjlq4j9HflG2DA0AqvUMF0xKsJfk4fTuOAvo5u1EYLPwU6dMF06CWFlFRM_CcPKfe06zgW_MR1MwDBz6to4fNEzCwy5jaaDz0D3lYIrOpe74OwngfhINOzXkk1w6f0K46sCTFXbPLeTL1iPye5Tb4MCw8M09xekBxSSv5zuuZymnsSvZq1iSEEIeaMmYK4QYrzjZsFuwi_X2r-Z2voB_0ME5MoFbfTNhliOEV2uxhW7b1eoYOqrvil27-jiDV8miUSrjQ_aP5jB-Pb0CuPfZ9EmvtLHR_aKI6QXM6szt0x7botBfwkcWaXc3jPQolGFv40KL-CoScW_9ZT6s9VSSkeKdAxZ8lJ7NAhCkz2chhoPrXsp8wkZQRVI5wnct5meGQPjzhICYRGpT6lrRJXZKVN5HLvG2YUm6X7SjCk="
+    }
+  ],
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "arabic_findings": 15,
+  "followup": "Review your remembered coverage for qualifying omissions under the same inclusion and grading rules, checking the section's distinct scenes and secondary details, repeated formulations, specific indirect parallels, reversals, and necessary passage continuations. Write only the new candidate proposals to /Volumes/aro/projects/prose_generation/_commentary/v16/out/s092/discovery/session-20261005/sec9/luna/followup.tsv using the same four-field TSV schema, with no header. Do not modify list.tsv. Check from memory that each proposal belongs to its cited ayah; distinguish that ayah's contribution from neighbouring verses. Prefer English over uncertain Arabic quotations. Do not repeat references intentionally. The workflow will preserve your proposals and append each new reference once; it will retain repeated proposals in an audit sidecar without changing existing rows or grades. Zero additions is valid: create an empty followup.tsv. Do not read any files, retrieve sources, consult other agents, or run scripts. A file-write tool or literal shell write solely to save followup.tsv is permitted. Return only a brief completion notice, including any self-detected accuracy concerns; do not send separate messages.",
+  "strength_counts": {
+    "strong": 221,
+    "medium": 8
+  },
+  "list_sha256": "73873c18a3c653de786d2da73326f3324cb446d4acb4c179c7f58f2195075514",
+  "prompt_sha256": "d05b34689ee6196737b9c458b39db147a69ef740a0065d98b8164b12d6c5605f",
+  "package_sha256": "affd188f177d9bee9c132b3b48127caefebd461fac7c9f24d7842c5da0b1701a",
+  "completed_at": "2026-10-05T19:46:04.639Z",
+  "seconds": 1519
+}
