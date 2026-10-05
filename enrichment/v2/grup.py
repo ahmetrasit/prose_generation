@@ -47,6 +47,12 @@ FILE_CHARS = 24_000      # one material/digest file: one Read (the Read tool sho
 SEARCH_TOP = 6           # hits kept per (query, source) for search groups
 COMMON_HITS = 150        # a phrase or pair with more hits than this in one source is too common there (recorded)
 RARE_WORD = 25           # a single word is searched in a source only if it occurs at most this often there
+RARE_PAIR = 30           # a two-word sequence likewise (formulae such as «الله الرحمن» occur everywhere)
+# what each search group looks for: phrase = the ayah's three-word sequences (a passage quoting the ayah);
+# phrase+names = those and the ayah's proper names; words = its rare content words (poetry shawāhid, wujūh)
+SEARCH_MODE = {"hadis": "phrase", "icaz-belagat": "phrase", "siyer-tarih": "phrase+names", "siir-sahid": "words",
+               "vucuh": "words"}
+SEARCH_TOP_BY = {"siir-sahid": 3, "vucuh": 4}
 DIGEST_HEAD, DIGEST_TAIL = 24, 10   # words of a paragraph shown in the digest (head … tail)
 POINTER_LEXICA = ["LISAN", "LANE", "ASAS", "QAMUS", "TAJ", "MUHIT", "VASIT", "HANSWEHR"]
 # cost model (HYBRID_PLAN C9; recalibrate after the first run): Opus 5.5 list rates
@@ -269,14 +275,19 @@ def search_items(con, s: int, gid: str, srcs: list[str]) -> tuple[list[dict], li
         a = int(ref.split(":")[1])
         terms = []
         aw = C.norm(quran.get(a, "")).split()
-        if len(aw) >= 2:
-            terms.append(("phrase", " ".join(aw[:6])))
-            terms += [("pair", f"{aw[i]} {aw[i + 1]}") for i in range(len(aw) - 1)]
+        mode = SEARCH_MODE.get(gid, "phrase")
+        if mode in ("phrase", "phrase+names"):  # a passage that quotes the ayah: its three-word sequences
+            terms += [("phrase", " ".join(aw[i:i + 3])) for i in range(max(1, len(aw) - 2))] if len(aw) >= 3 else \
+                [("phrase", " ".join(aw))] if aw else []
         for w in words:
-            if any(p in (w.get("pos") or "") for p in ("N", "V", "ADJ", "PN")):
-                surface = C.norm(re.sub(r"[ًٌٍَُِّْٰٓ]", "", w.get("surface") or "")).strip()
-                if len(surface) >= 3:
-                    terms.append(("word", surface))
+            pos = w.get("pos") or ""
+            surface = C.norm(re.sub(r"[ًٌٍَُِّْٰٓ]", "", w.get("surface") or "")).strip()
+            if len(surface) < 3:
+                continue
+            if mode == "words" and any(x in pos for x in ("N", "V", "ADJ")):
+                terms.append(("word", surface))
+            elif mode == "phrase+names" and "PN" in pos:
+                terms.append(("word", surface))
         seen_terms = set()
         terms = [x for x in terms if not (x[1] in seen_terms or seen_terms.add(x[1]))]
         for kind, term in terms:
@@ -287,13 +298,14 @@ def search_items(con, s: int, gid: str, srcs: list[str]) -> tuple[list[dict], li
                 n = con.execute("SELECT count(*) FROM f JOIN seg ON seg.id=f.rowid WHERE f MATCH ? AND seg.src=?",
                                 (fq, sid)).fetchone()[0]
                 rec["per_source"][sid] = n
-                if n > (RARE_WORD if kind == "word" else COMMON_HITS):  # too frequent in this source: no signal
+                limit = {"word": RARE_WORD, "pair": RARE_PAIR}.get(kind, COMMON_HITS)
+                if n > limit:  # too frequent in this source to point at this ayah: recorded, not searched
                     rec["too_common_in"].append(sid)
                     continue
                 sql = ("SELECT seg.seg,seg.src,seg.s,seg.a,seg.a_end,seg.head,seg.text,seg.extra FROM f JOIN seg ON "
                        "seg.id=f.rowid WHERE f MATCH ? AND seg.src=?" + (" AND json_extract(seg.extra,'$.sahih')=1"
                                                                           if sahih else "") + " ORDER BY rank LIMIT ?")
-                for r in con.execute(sql, (fq, sid, SEARCH_TOP)):
+                for r in con.execute(sql, (fq, sid, SEARCH_TOP_BY.get(gid, SEARCH_TOP))):
                     got += 1
                     if r[0] in seen:
                         continue
@@ -321,15 +333,18 @@ def dictionary_items(s: int) -> list[dict]:
     return out
 
 
-def meal_items(s: int) -> list[dict]:
+def meal_items(s: int, files: tuple = ("words.md", "meals.md"), stem: str = "meals") -> list[dict]:
+    """The meal group's per-ayah pack files (words and meals); with files=("turkish.md",) the Turkish dictionaries'
+    entries for the meals' key words (NISANYAN, TDK, KUBBEALTI, as the pack gathered them) for turkce-sozluk."""
     out = []
     for p in pages(s):
         if p == "surah":
             continue
         d = wd(s) / "pack" / "ayah" / tag(p)
-        text = "\n".join((d / n).read_text(encoding="utf-8") for n in ("words.md", "meals.md", "turkish.md")
-                         if (d / n).exists())
-        out.append({"seg": f"meals:{p}", "src": "pack", "page": p, "chars": len(text), "text": text})
+        text = "\n".join((d / n).read_text(encoding="utf-8") for n in files if (d / n).exists())
+        if not text.strip():
+            continue
+        out.append({"seg": f"{stem}:{p}", "src": "pack", "page": p, "chars": len(text), "text": text})
     return out
 
 
@@ -390,6 +405,9 @@ def plan(s: int, only: str | None = None) -> dict:
             items = dictionary_items(s)
             rec["read_through"] = ("the project dictionary (PACK ayah/S_A/dictionary.md), built from the six classical "
                                    "lexica; entries of any lexicon opened on demand for the blocks that cite them")
+        elif mat == "search" and gid == "turkce-sozluk":
+            items = meal_items(s, ("turkish.md",), "turkish")
+            rec["read_through"] = "the pack's turkish.md per ayah (the Turkish dictionaries' entries for the meals' key words)"
         elif mat == "search":
             items, rec["queries"] = search_items(con, s, gid, held)
         elif mat == "meal":
@@ -404,8 +422,11 @@ def plan(s: int, only: str | None = None) -> dict:
         if mat == "none":
             groups_units = [[]]
         elif not items:
-            rec["unit_note"] = "no material for this surah: no unit (required groups: every page records why)"
-            groups_units = [] if not g.get("required") else [[]]
+            # no agent is spent on nothing: the group's absence is recorded here and, for a required voice, written
+            # into every page's merge record by the script
+            rec["unit_note"] = ("no material for this surah: no unit" + (" (required voice: merge records its absence "
+                                                                          "on every page)" if g.get("required") else ""))
+            groups_units = []
         else:
             groups_units = pack_units(items, budget, pg)
         bt = brief_tokens(gid)
@@ -562,6 +583,8 @@ def material_texts(con, s: int, u: dict, g: dict) -> list[str]:
         pool = cites_items(con, s, srcs)
     elif mat == "root":
         pool = dictionary_items(s)
+    elif mat == "search" and g["id"] == "turkce-sozluk":
+        pool = meal_items(s, ("turkish.md",), "turkish")
     elif mat == "search":
         pool, _ = search_items(con, s, g["id"], srcs)
     elif mat == "meal":
@@ -688,6 +711,10 @@ def merge(s: int) -> dict:
         page_file, placement = R.render(s, page, clean, pd / "page")
         res[page] = {"records": len(recs), "kept": len(clean), "dropped_at_merge": len(recs) - len(kept),
                      "near_duplicates": dups, "placement": placement, "page": rel(page_file)}
+    p = json.loads((gdir(s) / "plan.json").read_text(encoding="utf-8")) if (gdir(s) / "plan.json").exists() else {}
+    absent = [gid for gid, g in p.get("groups", {}).items() if g.get("required") and not g.get("items")]
+    for page in pages(s):
+        res.setdefault(page, {})["required_voices_without_material"] = absent  # said, never silent
     (out / "merge.json").write_text(json.dumps(res, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     for page, r in res.items():
         print(f"{page}: kept {r['kept']} of {r['records']}; near-duplicates {len(r['near_duplicates'])}; {r['page']}")
