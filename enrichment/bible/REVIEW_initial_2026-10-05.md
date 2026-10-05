@@ -1,0 +1,63 @@
+**Bible enrichment readiness audit — 2026-10-05**
+
+**Verdict: implemented, but not ready for a production run.** The separate corpus, page pass, validator and renderer exist. There are reproducible integration defects and a Hebrew text import defect to fix before the first pilot. A successful prompt build does not establish readiness.
+
+Scope: `enrichment/v2` (`--pass ehlikitap`) and `_commentary/v16/discover_bible.py`, as present at repository HEAD `e387d2bfa` with the existing working tree. This was an offline audit: source inspection, read-only corpus queries, the existing discovery tests, and temporary-directory probes. No models were called, no sources were fetched, and no production outputs, packs or indexes were changed. Live provider access and generated-page quality remain untested.
+
+**What is already present**
+
+| Component | Observed state |
+|---|---|
+| Hebrew Bible, WLC | 23,213 indexed verses across 39 books; extraction defect described below |
+| Greek New Testament, SBLGNT | 7,939 indexed verses across 27 books |
+| English aid, KJV including Apocrypha | 36,822 indexed verses |
+| Corpus Coranicum intertexts | 242 indexed segments; fetched coverage S1, S22 and S87–114, with no entries found for S106/S113 |
+| Sefaria | Four cached passages, all concerning Genesis 22; no page-specific discovery prefetch has run |
+| Index separation | `corpus_intertext.sqlite` exists; the Islamic index contains no `intertext` sources |
+| Retrieval | Original-language lookup and Hebrew/Greek search worked on sampled passages |
+| Page plumbing | Bible-specific call/output names, validation mode, and rendering order exist |
+| Validation | Standard IDs, source resolution, placement, required dating, memory labels, single-tradition source restrictions, and the post-Quran influence prohibition worked in focused probes |
+| Upstream bases | Existing packs for S1, S100 and S107 contain augment9 bases for every ayah |
+| Bible execution history | No Bible discovery directories, Bible call directories or accepted Bible pages were found |
+
+**Required corrections before a pilot, in priority order**
+
+1. **Repair the Hebrew verse extraction and rebuild WLC/intertext data.** [bible_text.py](/Volumes/aro/projects/prose_generation/enrichment/v2/fetch/bible_text.py:85) uses recursive `v.iter(w)`, which also collects words inside variant notes. Scanning the 39 cached XML files found **1,102 verses containing words in notes**. For example, the indexed Ezekiel 1:8 begins `וידו וִידֵ֣י`: the written form and its alternative are presented consecutively as one verse. The declared qere/ketiv separation in the source metadata is therefore not preserved. Extract the chosen verse reading separately, retain alternatives and their positions as structured metadata, preserve text punctuation, and regenerate from the cached XML. Check representative qere/ketiv cases against the raw source before treating WLC strings as exact quotations.
+
+2. **Align the Bible brief, schema and ID validation.** The [Bible brief](/Volumes/aro/projects/prose_generation/enrichment/v2/prompts/ehlikitap.md:85) prescribes `S001-TEV-PAR-001` / `S001-INC-MOT-001`. [blocks.py](/Volumes/aro/projects/prose_generation/enrichment/v2/tools/blocks.py:113) only accepts `S001-KOD-001`; the schema's actual codes are `PRL` and `MTF`, not `PAR` and `MOT`. A correctly located, otherwise valid record with the brief's ID was rejected. The brief also directs the agent to `SCHEMA_CARD.md`, which explicitly covers only Islamic types and omits the Bible-specific types and dating/witness enums. Provide a Bible schema card or require the full schema. Define IDs that remain unique across both passes, including shared types such as `modern`, `yontem` and `duzeltme`; simply removing the prefixes leaves collisions possible.
+
+3. **Correct the ayah base path in the generated job.** [enrich.py](/Volumes/aro/projects/prose_generation/enrichment/v2/enrich.py:194) uses the output page name for the input base. For S1:1 the header names `PACK/numbered/1_1.ehlikitap.md`, which does not exist; the actual shared base is `PACK/numbered/1_1.md`. Resolve the input through the same base-selection function the renderer uses, and check every path during build.
+
+4. **Complete the discovery handoff and use the same base throughout.** Discovery writes `sec1.merged.tsv`, `sec2.merged.tsv`, etc.; [enrich.py](/Volumes/aro/projects/prose_generation/enrichment/v2/enrich.py:114) only looks for `surah.merged.tsv` for a surah page. No code creates that aggregate, so a surah page does not receive its section discoveries. A temporary fixture with an existing section list reproduced this. Aggregate section lists with section provenance or pass their explicit list to the page. Also, [ayah discovery](/Volumes/aro/projects/prose_generation/_commentary/v16/discover_bible.py:44) reads the original r13 ayah reading, whereas enrichment uses the augment9 reading. Discover against the selected frozen pack base so additions receive discovery coverage; record its hash with the handoff.
+
+5. **Bring Bible discovery up to the current discovery integrity standard.** [discover_bible.py](/Volumes/aro/projects/prose_generation/_commentary/v16/discover_bible.py:37) imports the Quran discovery follow-up verbatim, including “Append only previously unlisted ayah references.” It still launches the legacy CLI path while the current image-discovery runner has switched to native-agent bookkeeping. Its merge accepts any `run.log.json`, including `status:error`, ignores invalid-row diagnostics, and keeps only the first occurrence of each reference, losing additional kinds/reasons from that model. In isolated probes a failed run was merged, a second link for the same reference disappeared, and a second turn that erased the first turn's list still produced `status:ok` with `rows_added:-1`. Add a Bible-specific follow-up, immutable first-turn snapshots, separate follow-up proposals, preservation of distinct link reasons, reference validation, and rejection of incomplete/failed/changed runs. Adapt the native discovery machinery to the six-field Bible format rather than copying its four-field Quran assumptions. An empty successful discovery should also be distinguishable from a missing/failed deliverable.
+
+6. **Prevent successful completion when validation removes the entire result.** [finish()](/Volumes/aro/projects/prose_generation/enrichment/v2/enrich.py:587) only fails on page/render errors after dropping invalid records. The prescribed-ID fixture returned `ok:true, kept:0, dropped:1`. The production branch has the same decision before accepting the rendered base. Distinguish an explicitly justified zero-finding page from one whose records all failed validation; the latter must fail completion. Keep dropped-record reporting for partial results as intended by the workflow.
+
+7. **Make the merge consume immutable accepted records and validate the combined result.** [merge_page()](/Volumes/aro/projects/prose_generation/enrichment/v2/enrich.py:808) reloads the original mutable `annotations.jsonl`, excludes dropped IDs, and renders against the current pack. It does not verify the accepted page hash, accepted base hash, annotation hash, combined ID uniqueness or record validity. A temporary fixture successfully merged changed annotations, an obsolete accepted base hash, and two identical IDs. Store the exact accepted records beside the accepted page, bind them to the page/base hashes, require both layers to use the same base, and validate uniqueness, placement and unchanged base content on the combined page. If partial-layer merges remain supported, report them explicitly.
+
+8. **Protect active Bible runs and record their actual inputs.** [pack.py](/Volumes/aro/projects/prose_generation/enrichment/v2/pack.py:97) only checks `zengin.*` for running calls; a temporary `ehlikitap.*` call with `started.json` was invisible to it. A pack can therefore be rebuilt while a Bible agent reads it. Include Bible calls in this guard. The intertext index rebuild guard already recognizes Bible calls, but start/finish provenance only binds the base and common pack, not the Bible discovery list or intertext index. Bind those inputs too, and check that required corpus/prefetch inputs exist before starting a call.
+
+**Corpus preparation and scope**
+
+After those fixes, run discovery for the selected pilot pages, fetch their referenced Jewish texts, rebuild the intertext index, and produce a manifest saying which candidate resolved to which source segment and which remained missing. Four cached Sefaria texts are not general coverage. [prefetch()](/Volumes/aro/projects/prose_generation/_commentary/v16/discover_bible.py:198) currently ignores child return codes, while [cmd_text()](/Volumes/aro/projects/prose_generation/enrichment/v2/fetch/bible_sefaria.py:87) can report failed texts and still exit normally. Preserve failures in a machine-readable report; do not treat finishing the command as complete source coverage.
+
+The generic OSIS reference has no edition/versification information. WLC metadata already warns that Hebrew and English numbering differs, but prefetch maps book/chapter/verse directly to Sefaria. Resolve candidates against an explicit witness and check numbering differences, particularly Psalms, before fetching or quoting by the same numeric reference.
+
+Tradition checks need segment-level information for mixed sources. WLC-as-incil and SBLGNT-as-tevrat are rejected correctly, but a `tevrat` record citing `KJV:Matt.6.9` was accepted because KJV is tagged with both traditions at source level. Corpus Coranicum intertexts have the same source-level limitation and also include material outside Jewish/Christian scripture. Add per-segment tradition and witness metadata, with an explicit policy for shared/background material.
+
+The Peshitta, Septuagint, patristic and Syriac corpora, and a Turkish Bible are not locally available in this pathway. The brief intentionally permits clearly marked memory for missing material. Their absence is a scope limit rather than an absolute blocker for a restricted pilot, but it prevents claiming a comprehensively source-verified Christian/Syriac layer. Fetch the sources activated by the pilot; track the remaining gaps instead of presenting memory as checked text. Corpus Coranicum supplies some indirect coverage, which is not a substitute for complete primary works.
+
+**Operational corrections before interpreting pilot results**
+
+- [estimate()](/Volumes/aro/projects/prose_generation/enrichment/v2/enrich.py:161) does not filter ledger rows by pass. The Bible S1:1 build displayed `$14.0–14.0 (1 past calls)` even though there are no Bible calls; it borrowed the Islamic-page calibration. Label such extrapolation explicitly and keep Bible calibration separate.
+- [unread_sources()](/Volumes/aro/projects/prose_generation/enrichment/v2/enrich.py:724) always queries the Islamic index. It will report Islamic tafsir/lexicon sources as unread on a Bible page whose instructions forbid reading them. Audit against the intertext sources and discovery/prefetch manifest for this pass.
+- Update the runbook's schema version, discovery-runner instructions and stale `discover.py --bible` references after settling the implementation. The actual entry point is `discover_bible.py`; the active schema is 3.2.
+
+**Verification performed and release threshold**
+
+`python3 -B _commentary/v16/test_discovery.py` passed all seven existing tests. Those tests exercise Quran/image discovery, not the Bible path. `enrich.py --pass ehlikitap build --surah 1 --target 1:1` and Bible discovery status both ran without making model calls. Source counts, sampled retrieval and the 1,102 affected Hebrew verses were checked against local data. The defect probes used temporary directories and stubbed model calls; they did not create or accept production pages.
+
+Add regression coverage for valid Bible records and the prescribed prompt examples, both target scopes, failed/empty/modified discovery, multiple links per reference, WLC variants, failed prefetch, shared-source tradition, active-call protection, all-dropped completion, and immutable merging. Then run one ayah page and one surah page as a small pilot. Review candidate coverage, exact quotations against their witnesses, dating/attribution, explicit gaps, zero unexplained record drops, placement and the combined layer order; record actual Bible-pass cost. Production readiness requires those checks to pass, not merely an agent returning successfully.
+
+No implementation changes were made as part of this audit.
