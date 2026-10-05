@@ -13,8 +13,8 @@ Run every command from the workspace root `/Volumes/aro/projects/prose_generatio
 > spawn` builds a page's call (prompt.md, started.json, spawn.md) and the orchestrator spawns the agent itself with
 > the Agent tool (type `enrich-page`, the text of spawn.md as the prompt); `enrich.py finish` checks, renders and
 > accepts what the agent wrote, with the cost from the agent's transcript. `enrich.py run` is the old CLI way, kept
-> for history. The agent definition and the run guard are installed once by the user: see "Install once" in
-> `_commentary/v16/RUNBOOK.md`, and check they exist before the first spawn of a session.
+> for history. Spawning needs nothing installed (`subagent_type` `general-purpose`, `model` `opus`); the finish
+> step reports every tool use outside the call directory's rule. Optional hardening files: `_commentary/v16/RUNBOOK.md`.
 
 ## Rules from the user (never break them)
 
@@ -38,8 +38,8 @@ Run every command from the workspace root `/Volumes/aro/projects/prose_generatio
    and wait for an answer before changing them.
 8. **Commit and push after every completed step** (user, 2026-10-04). `.gitignore` already decides what is versioned;
    `work/` is never committed.
-9. **Spawn only with the go, with the text of spawn.md, after the install-once check** (`_commentary/v16/RUNBOOK.md`):
-   the agent type `enrich-page` pins Opus 5.5 high and the guard keeps the agent inside its call directory.
+9. **Spawn only with the go, with the text of spawn.md**, `model` `opus`; the finish step reports every read of
+   `out/` or another call directory and every write outside the call directory.
 
 ## What a page is
 

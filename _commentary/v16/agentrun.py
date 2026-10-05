@@ -139,6 +139,33 @@ def parse(f: Path) -> dict:
             "safety": safety, "unreadable_lines": bad}
 
 
+def tool_use_outside_rule(d: Path, output: str, calls: list[dict]) -> list[str]:
+    """v16 runs: Read of prompt.md, Bash lookups (the audit checks the command itself) and one Write of the output
+    file are the rule; anything else is listed. Enrichment runs (dir under enrichment/v2/work/): any read inside
+    the workspace, writes inside the call dir, Bash; listed otherwise."""
+    enrich = "enrichment/v2/work" in str(d)
+    out = []
+    for c in calls:
+        name, inp = c.get("name") or "", c.get("input") or {}
+        path = str(inp.get("file_path") or inp.get("path") or inp.get("notebook_path") or "")
+        if enrich:
+            if name in ("Write", "Edit", "MultiEdit", "NotebookEdit") and not path.startswith(str(d)):
+                out.append(f"{name} {path}")
+            elif name in ("Read", "Glob", "Grep") and ("enrichment/v2/out" in path or (
+                    "/zengin." in path and not path.startswith(str(d)))):
+                out.append(f"{name} {path}")
+            elif name not in ("Read", "Glob", "Grep", "Write", "Edit", "MultiEdit", "NotebookEdit", "Bash"):
+                out.append(f"{name} {json.dumps(inp, ensure_ascii=False)[:120]}")
+        else:
+            if name == "Read" and path != str(d / "prompt.md"):
+                out.append(f"Read {path}")
+            elif name == "Write" and path != str(d / output):
+                out.append(f"Write {path}")
+            elif name not in ("Read", "Write", "Bash"):
+                out.append(f"{name} {json.dumps(inp, ensure_ascii=False)[:120]}")
+    return out
+
+
 def finish(d: Path, output: str = "response.md") -> dict:
     """The run object for an agent-written output, in v16.call_opus's shape, written to run.log.json."""
     out_file = d / output
@@ -175,6 +202,12 @@ def finish(d: Path, output: str = "response.md") -> dict:
         if p["tool_calls"]:
             (d / "tool_calls.json").write_text(json.dumps(p["tool_calls"], ensure_ascii=False, indent=1) + "\n",
                                                encoding="utf-8")
+        # every tool use outside the run's rule is reported (detection; the hook guard, when installed, prevents)
+        outside = tool_use_outside_rule(d, output, p["tool_calls"])
+        if outside:
+            obj["tool_use_outside_rule"] = outside
+            for x in outside:
+                print(f"WARNING: tool use outside the run's rule (treat the run as contaminated): {x[:220]}")
     if not result.strip():
         obj["is_error"] = True
         obj["error"] = f"the agent wrote no {output}"

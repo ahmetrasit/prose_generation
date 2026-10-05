@@ -56,9 +56,13 @@ that led here is `REVIEW_production.md`. This file holds only what is needed to 
   readings n/N and augment9 n/N (finished files only), what is still to run, every partial or blocked run, check
   findings, and production ledger rows whose latest status is not ok. "Spent" is every ledger cost for the surah.
 
-### Install once (the user does this; the orchestrator only checks)
+### Optional hardening (the user installs; the orchestrator never creates these)
 
-Agent-spawned runs need two things in the repo's `.claude/` that the orchestrator must not create itself:
+Spawning needs nothing installed: the Agent tool with `model` `opus` and the text of `spawn.md` is enough, and the
+finish step checks every tool use in the agent's transcript afterwards and reports anything outside the run's rule
+(`WARNING: tool use outside the run's rule`: the run is then contaminated, the user decides). Two optional files
+in the repo's `.claude/` turn that detection into prevention and pin the effort (user, 2026-10-04 evening: proceed
+without them):
 
 1. **The run guard**, a PreToolUse hook in `.claude/settings.json`. It runs `_commentary/v16/hooks/guard.py` on
    every tool call; inside a spawned run (a subagent whose first message starts with `v16-agent-run: <dir>`) it
@@ -119,17 +123,8 @@ Agent-spawned runs need two things in the repo's `.claude/` that the orchestrato
    refuses such calls. Your reply in chat is one line when the records file is complete.
    ```
 
-   Agent definitions are read when a session starts: after creating them, start a new session.
-
-**Check before the first spawn of a session**, no calls:
-
-```bash
-ls .claude/agents/v16-call.md .claude/agents/enrich-page.md
-python3 -c 'import json; print(json.load(open(".claude/settings.json"))["hooks"]["PreToolUse"][0]["hooks"][0]["command"])'
-```
-
-If either is missing, stop and tell the user: without the hook the guard is off, without the definitions the
-model and the effort are not pinned. Do not spawn.
+   Agent definitions are read when a session starts: after creating them, start a new session. Until they exist,
+   spawn with `subagent_type` `general-purpose` and `model` `opus`; the effort is then the session's, not pinned.
 
 ## How one run goes (the pattern for every step)
 
@@ -138,7 +133,7 @@ model and the effort are not pinned. Do not spawn.
 2. **Report** the estimates and **wait for the go** (rules 1 and 2).
 3. **Spawn.** The same command with `--spawn` writes `out/<run dir>/prompt.md`, `started.json` (the guard: the
    dir is blocked from now on) and `spawn.md`, and prints the agent type. Then, for each run, one Agent tool call:
-   `subagent_type` as printed (`v16-call`), `prompt` = the exact text of that run's `spawn.md` (read it with the
+   `subagent_type` as printed (`v16-call`, or `general-purpose` while the definitions are not installed), `prompt` = the exact text of that run's `spawn.md` (read it with the
    Read tool and pass it verbatim; its first line is the marker the guard and the finish step key on), `model`
    `opus`, a short `description` such as `87:12 augment9`. Up to seven Agent calls in one message. The agents run in
    the background; wait for their completion notices; do nothing in their dirs meanwhile.
@@ -153,8 +148,9 @@ model and the effort are not pinned. Do not spawn.
   user decides (rename, new build, new spawn).
 - `WARNING: no subagent transcript names <dir>`: the output is finished, but the cost is `None` in the ledger.
   Report it; it happens when the transcript is not under `~/.claude/projects/` (another machine or account).
-- A tool call the guard refused shows in `tool_calls.json` with `is_error`; the finish step prints it as a
-  refused command. A run that ran a command outside the rule is reported as contaminated: the user decides.
+- Every tool use of the agent is in `tool_calls.json`; the finish step prints each one outside the run's rule
+  (a read other than prompt.md, a write other than the output, any other tool, a command other than the lookup)
+  as `WARNING: tool use outside the run's rule`: the run is contaminated, the user decides.
 
 ## Step 1: surah map (1 call)
 

@@ -37,9 +37,10 @@ time for v16, two for enrichment), and the scripts **finish** it (status, check,
 the agent's transcript, apply). The only script-run calls left are the GPT discovery agents of step 2b, through the
 Codex subscription.
 
-**Install once** (the user, not the orchestrator): the run guard hook in `.claude/settings.json` and the two agent
-definitions in `.claude/agents/`; their exact contents are in `_commentary/v16/RUNBOOK.md`, "Install once". The
-orchestrator checks they exist before its first spawn and stops if they do not.
+Nothing has to be installed for this: the orchestrator spawns a general-purpose agent on Opus with the text of
+`spawn.md`, and the finish step reports every tool use outside the run's rule from the agent's transcript. Two
+optional files in `.claude/` (a guard hook and two agent definitions, contents in `_commentary/v16/RUNBOOK.md`)
+would prevent instead of detect and pin the effort; the user decides whether to add them.
 
 ## Which surahs get what
 
