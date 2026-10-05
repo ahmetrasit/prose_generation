@@ -36,7 +36,8 @@ RATES = {"claude-opus-5-5": {"input": 4.0, "cache_5m": 5.0, "cache_1h": 8.0, "ca
          "claude-fable-5-1": {"input": 10.0, "cache_5m": 12.5, "cache_1h": 20.0, "cache_read": 0.25, "output": 50.0},
          "claude-sonnet-5-5": {"input": 2.0, "cache_5m": 2.5, "cache_1h": 4.0, "cache_read": 0.20, "output": 10.0}}
 AGENT_TYPE = {"writer": "v16-call", "augment": "v16-call", "enrich": "enrich-page", "enrich-dosya": "enrich-page",
-              "okuma-plan": "general-purpose", "okuma": "general-purpose", "enrich-parts": "enrich-page-<effort>"}
+              "okuma-plan": "general-purpose", "okuma": "general-purpose", "enrich-parts": "enrich-page-<effort>",
+              "grup": "enrich-page-<effort>"}
 AGENT_MODEL = {"okuma-plan": "Sonnet 5.5", "okuma": "Sonnet 5.5"}  # every other kind: Opus 5.5
 
 
@@ -62,6 +63,12 @@ def spawn_prompt(d: Path, kind: str, output: str, lookup: bool) -> str:
                   f"directory is {d}; write only there. Write the page's records in parts, annotations.1.jsonl, "
                   f"annotations.2.jsonl … in that directory, as the job says (never annotations.jsonl itself), and "
                   f"gaps.json.",
+                  "When the files are complete, reply with one line: written. Do not put the records in your reply."]
+        return "\n".join(lines) + "\n"
+    if kind == "grup":  # the hybrid workflow's group units (enrichment/v2/grup.py)
+        lines += [f"Read {d / 'prompt.md'} with the Read tool: it is your whole job. Follow it exactly. Your call "
+                  f"directory is {d}; write only there: records.<page-tag>.N.jsonl parts, kapsam.jsonl and gaps.json, "
+                  f"as the job says.",
                   "When the files are complete, reply with one line: written. Do not put the records in your reply."]
         return "\n".join(lines) + "\n"
     if kind == "enrich":
@@ -221,7 +228,7 @@ def tool_use_outside_rule(d: Path, output: str, calls: list[dict]) -> list[str]:
             if name in ("Write", "Edit", "MultiEdit", "NotebookEdit") and not path.startswith(str(d)):
                 out.append(f"{name} {path}")
             elif name in ("Read", "Glob", "Grep") and ("enrichment/v2/out" in path or (
-                    ("/zengin." in path or "/ehlikitap." in path) and not path.startswith(str(d)))):
+                    ("/zengin." in path or "/ehlikitap." in path or "/grup/" in path) and not path.startswith(str(d)))):
                 out.append(f"{name} {path}")  # another page's call directory, in any surah
             elif name == "Bash":
                 cmd = str(inp.get("command", ""))

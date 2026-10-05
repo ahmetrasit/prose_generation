@@ -81,6 +81,7 @@ def main() -> None:
     elif d.is_relative_to(ENRICH_WORK):
         others = [x for x in d.parent.parent.glob("s*/zengin.*") if x.is_dir() and x != d] \
             + [x for x in d.parent.parent.glob("s*/ehlikitap.*") if x.is_dir() and x != d]  # any surah's call dirs
+        others += [x for x in ENRICH_WORK.glob("s*/grup/*.opus.*") if x.is_dir() and x != d]  # group units (grup.py)
         if tool in ("Read", "Glob", "Grep"):
             if p and (p.is_relative_to(ENRICH_OUT) or any(p.is_relative_to(o) for o in others)):
                 refuse("an enrichment run reads neither enrichment/v2/out/ nor another call directory")
