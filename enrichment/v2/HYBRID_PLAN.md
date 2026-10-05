@@ -249,3 +249,12 @@ Atay 2013, Akdemir, M. Öztürk: the PDFs are their only text.
 Open: the ingested sources' source.json files also carry the download session's staged acquisition records:
 committing them needs the user's word (they are not committed yet). Next: groups.json membership of the new
 sources (C1), then OCR imports when the user's OCR arrives; Task A items remain.
+- BINTSHATI ingested (user: "start with bint"; fetch/import_bintshati.py): the Shamela export (373 records = printed
+  pages, 7th ed.) as text, text_status "typed, not yet checked against the scan: quote only after checking
+  pdf_page"; PDF page = printed page in both volumes (every record's best 3-gram match against the archive OCR is
+  its own page, except two metadata records); the 47 scan pages no record covers imported from the archive
+  Tesseract OCR as drafts (do not quote) or marked empty: 420 segments = all 418 scan pages + 2 metadata records.
+  Ties: chapter surah, verses quoted on the page (spelling-blind skeleton match), «(البقرة 264)» refs.
+  Next for her: check quoted spans against the scan at acceptance (cheap, targeted). Al-Khūlī: digital edition
+  (VitalSource/Ktab Inc.) to be checked by the user; else the two-witness test (LLM reading vs Tesseract anchor,
+  disputed spans re-read from crops) on the six pilot pages first.

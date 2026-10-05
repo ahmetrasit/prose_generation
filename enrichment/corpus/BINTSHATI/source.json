@@ -6,10 +6,10 @@
   "kind": "tafsir",
   "tradition": "bayani",
   "language": "ar",
-  "edition": "not held locally",
-  "access": "hafiza",
+  "edition": "Dār al-Maʿārif, Cairo, 7th ed., 2 vols (Shamela export, numbering follows the print); scans of the same work held locally (archive.org elshandawily0546/0547)",
+  "access": "yerel",
   "locator": "page",
-  "coverage": "whole book (not local)",
+  "coverage": "14 surahs: 93, 94, 99, 100, 79, 90, 102 (vol 1); 96, 68, 103, 92, 89, 104, 107 (vol 2)",
   "urls": [
     "https://archive.org/details/elshandawily0546",
     "https://archive.org/details/elshandawily0547",
@@ -25,17 +25,49 @@
     "raw/acquired-2026-10-05/bintshati-vol-2.pdf": "e2db92da7181d583d4416ab3b15419e8cdc8b3efe7bb98e7b923a07230e0df84",
     "raw/acquired-2026-10-05/bintshati-vol-2.ocr.txt": "2871aa3f46cc4d05df28f37b5038edd9575d89243c3b46a46ec99432b1f9bd3c"
   },
-  "licence": "no free licensed text located; cite from memory only and mark it so",
-  "notes": "In copyright (author d. 1998 CE); not in OpenITI, not on quran-tafsir.net. Dār al-Maʿārif, Cairo (1962, 1969). Pointer only. archive.org has user-uploaded scans of unclear licence (items 052Pdf., elshandawily0546, elshandawily0547; listing seen 2026-10-03, not downloaded).",
+  "licence": "in copyright (author d. 1998); local research copy only (user, 2026-10-05: licence is no barrier for local analysis)",
+  "notes": "Ingested 2026-10-05 (fetch/import_bintshati.py) from the Shamela export; NOT yet checked against the scans: every segment carries text_status and pdf_page. OCR pilots (Luna, Sol) did not reach preservation quality: enrichment/v2/audits/2026-10-05-ocr-reliability/. Pointer note before ingestion: Ingested 2026-10-05 (fetch/import_bintshati.py) from the Shamela export; NOT yet checked against the scans: every segment carries text_status and pdf_page. OCR pilots (Luna, Sol) did not reach preservation quality: enrichment/v2/audits/2026-10-05-ocr-reliability/. Pointer note before ingestion: In copyright (author d. 1998 CE); not in OpenITI, not on quran-tafsir.net. Dār al-Maʿārif, Cairo (1962, 1969). Pointer only. archive.org has user-uploaded scans of unclear licence (items 052Pdf., elshandawily0546, elshandawily0547; listing seen 2026-10-03, not downloaded).",
   "acquisition": {
     "date": "2026-10-05",
     "state": "raw_downloaded",
-    "ingestion_status": "pending",
+    "ingestion_status": "ingested",
     "files": 4,
     "pdfs": 2,
     "ocr_sidecars": 2,
     "bytes": 10125388,
     "manifest": "../../v2/audits/2026-10-05-source-downloads/manifest.json",
     "note": "Raw originals are now held locally. access remains hafiza until searchable segments are ingested and checked. Earlier pointer notes describe the pre-acquisition audit."
+  },
+  "segments": 420,
+  "ingestion": {
+    "date": "2026-10-05",
+    "script": "enrichment/v2/fetch/import_bintshati.py",
+    "from": {
+      "raw/ocr-candidates/archive-2026-10-05/tahirkhan576-1389.db": "97841f6db6abcd39a9d9a7c84d7ba8aa443edbade586a3eb3e6213719516200b",
+      "raw/ocr-candidates/archive-2026-10-05/bintshati-vol-1.djvu.xml": "99a202b8ca8a361b25811f3321a71c0973a6524576f09f50a78753562dc7da7f",
+      "raw/ocr-candidates/archive-2026-10-05/bintshati-vol-2.djvu.xml": "cd639dd28ff464e3bf1f3fcfb89b1355bf9551d37965a58223c71be58a48595f"
+    },
+    "method": "Shamela records (printed pages) as text; each matched to its scan page by character 3-grams against the archive OCR; scan pages without a record imported from that OCR as drafts; ties from the Qurʾān quotations",
+    "counts": {
+      "records that are not their page's text (Shamela metadata): the scan page also imported": 2,
+      "records whose own scan page is not their best match (flagged)": 2,
+      "pages outside the surah chapters (prefaces)": 11,
+      "records confirmed on their scan page": 371,
+      "pages printing the surah's text, tied to the whole surah": 12,
+      "chapter opening pages tied to the whole surah": 30,
+      "pages tied to the verses they quote": 195,
+      "pages tied to the previous page's verse (no quotation)": 125,
+      "scan pages without a record: OCR draft": 34,
+      "scan pages without a record: no OCR text": 13
+    },
+    "issues": [
+      "v1p12 (record 1): own scan page similarity 0.16; best is page 1",
+      "v2p6 (record 205): own scan page similarity 0.21; best is page 1"
+    ],
+    "text_status": "typed digital edition, unverified against the scans; OCR drafts for uncovered pages",
+    "segments": 420,
+    "tied_to_ayah": 362,
+    "with_cited_ayat": 306,
+    "characters": 511166
   }
 }
