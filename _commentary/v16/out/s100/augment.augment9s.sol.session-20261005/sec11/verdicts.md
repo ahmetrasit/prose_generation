@@ -1,0 +1,414 @@
+- 2:143: not relevant - topluluğun orta yol ve başkalarına tanıklığı, burada insanın kendi aleyhindeki tanıklığını açıklamaz.
+- 2:165: ref ¶51 - sevginin Allah'a yönelmesi mal tutkusuna karşı bir yön gösterir.
+- 2:177: ref ¶51 - sevilen malın muhtaçlara verilmesi biriktirmeye karşıdır.
+- 2:261: ref ¶51 - harcanan mal ürün veren tane olarak anlatılır.
+- 2:264: ref ¶51 - gösteriş için verilen mal yağmurla çıplak kalan taş gibidir.
+- 2:265: ref ¶51 - içten harcanan mal yağmurla ürün veren bahçeye benzer.
+- 2:266: ref ¶52 - ürün beklenen bahçenin ateşli kasırgayla yok olması.
+- 2:284: ref ¶51, ¶55 - içte saklanan da hesaba girer.
+- 3:14: ref ¶48, ¶51 - atlar, altın ve gümüş aynı arzu dökümünde bulunur.
+- 3:29: ref ¶55 - göğüste gizlenen veya açıklanan Allah tarafından bilinir.
+- 3:92: ref ¶51 - sevilen şeyden harcama mal sevgisini sınar.
+- 3:154: ref ¶51 - sınama göğüslerin içini arıtır.
+- 3:180: ref ¶51 - esirgenen mal kıyamette esirgeyenin boynuna dolanır.
+- 4:41: not relevant - ümmetlerden getirilen elçi tanığı, insanın kendi aleyhindeki tanıklık değildir.
+- 4:135: ref ¶54 - kişinin kendi aleyhine de adil tanık olması istenir.
+- 5:31: prose ¶50 - toprağa gömülen bedeni örtme fiili ateş fiiliyle kökteştir.
+- 5:109: ref ¶55 - toplanan elçiler soruya karşı gayb bilgisini Allah'a bırakır.
+- 6:22: not relevant - şirk koşanların sorgulanması, gömülü veya içte saklı olanın açılması sahnesini işlemez.
+- 6:95: ref ¶50 - taneyi yaran Allah canlıyı ölüden çıkarır.
+- 6:99: ref ¶50 - yağmurdan ürün ve tane çıkarılması toprağın verimini gösterir.
+- 6:130: prose ¶54 - son gün kişinin kendi inkârına aleyhte tanıklığı.
+- 7:57: cited ¶50; ref ¶55 - yağmurla ölü yerin, onunla da ölülerin çıkarılması zaten açıklanır.
+- 7:58: ref ¶50 - kötü toprağın ancak kıt ürün vermesi kenûd tasvirinin yanında bir verimsizlik derecesi gösterir.
+- 7:172: ref ¶54 - Rableri sorulduğunda Âdem oğullarının kendi üzerlerine tanıklığı.
+- 8:37: ref ¶51 - kötünün iyiden ayrılıp yığılması ayıklama imgesine karşılık gelir.
+- 8:43: ref ¶55 - savaş sahnesinde Allah'ın göğüslerin içini bildiği bildirilir.
+- 8:60: ref ¶48, ¶51 - düşman için at hazırlığı ile harcama aynı hitapta yer alır.
+- 9:34: cited ¶51; ref ¶55 - saklanan altın ve gümüş ile harcamama zaten burada anlatılır.
+- 9:35: cited ¶51; nowhere else - biriktirilen madenin ateşte kızdırılıp sahiplerine vurulması zaten anlatılır.
+- 9:103: ref ¶51 - maldan verilen sadaka kişiyi arıtır.
+- 10:24: ref ¶52 - üründen emin olanların yeri ansızın biçilmiş olur.
+- 11:5: ref ¶55 - saklanmaya çalışılan sır ve göğüs Allah'ın bilgisindedir.
+- 11:103: ref ¶49 - insanların toplandığı gün tanık olunan gündür.
+- 13:17: prose ¶51, ref ¶55 - eriyen madenle selin köpüğü ayrılan tortuyu gösterir.
+- 14:21: ref ¶49 - herkes Allah'ın önüne birlikte çıkar.
+- 14:48: ref ¶49 - yer değişirken insanlar Allah'ın önüne çıkar.
+- 16:84: not relevant - ümmetlerden getirilen dış tanık, bu bölümdeki öz tanıklığı açıklamaz.
+- 17:13: ref ¶54 - insanın kaydı dirilişte açılır.
+- 17:14: ref ¶54 - kişi kendi kitabını okuyup kendi hesabına yeterli olur.
+- 17:29: ref ¶51 - bağlı el imgesi cimrilik ve aşırı harcamanın sınırını çizer.
+- 17:49: ref ¶50 - çürümüş kemiklerden yeniden kaldırılma sorusu ateş delilinin muhatabına benzer.
+- 17:50: ref ¶50 - diriliş itirazına taş veya demir olsa da karşılık verilir.
+- 17:51: ref ¶50 - ilk yaratanın yeniden yaratacağı cevabı verilir.
+- 17:52: ref ¶50 - çağrıya karşılık verilerek yeniden kalkış gerçekleşir.
+- 17:64: not relevant - şeytana hitaptaki atlı ve yaya çağrısı mecazîdir; bu baskın ve mal ayıklamasını açıklamaz.
+- 17:100: ref ¶51 - Rabbin hazineleri elde olsa insan harcama korkusuyla tutar.
+- 18:32: not relevant - iki bahçenin kurulması tek başına malı esirgeme veya sabah kaybını söylemez.
+- 18:34: ref ¶52 - bahçe sahibi malının ve çevresinin çokluğuyla övünür.
+- 18:35: ref ¶52 - bahçesinin yok olmayacağını sanarak ona girer.
+- 18:36: ref ¶52 - bahçeye güven kıyameti inkâra uzanır.
+- 18:40: ref ¶52 - bahçeye gökten gelecek felaketle yerin çıplak kalması uyarılır.
+- 18:42: ref ¶52 - ürünün yok olması sahibinin güvenini boşa çıkarır.
+- 18:43: ref ¶52 - kayıptan sonra onu kurtaracak topluluk bulunmaz.
+- 18:45: ref ¶52 - yağmurla büyüyen ürün kuru kırıntıya dönüşür.
+- 18:46: ref ¶51 - malın dünya süsü, kalıcı iyi işlerin daha değerli oluşu.
+- 18:47: ref ¶49 - açık yerde hiç kimse bırakılmadan toplanma.
+- 18:49: ref ¶55 - yapılan her şeyin kayıtta hazır bulunması.
+- 18:99: ref ¶49 - kalabalığın dalgalanması ve sûrdan sonra toplanması.
+- 19:85: ref ¶49 - sakınanların Rahmân'a topluluk olarak götürülmesi.
+- 19:86: ref ¶49 - suçluların ayrı bir sona sürülmesi toplanmanın ardından ayrımı gösterir.
+- 20:55: ref ¶49 - yerden yaratma, yere döndürme, yeniden çıkarma dizisi.
+- 22:5: ref ¶50 - yaratılış ve yağmurla kıpırdayan yer diriliş kuşkusuna cevap verir.
+- 22:6: ref ¶50 - yağmur sahnesinin ardından ölüleri diriltenin Allah olduğu söylenir.
+- 22:7: ref ¶49, ¶50 - Allah kabirdekileri kaldırır; yağmur delilinin sonucu budur.
+- 23:79: ref ¶49 - yerde yayılan insan Allah'a toplanır.
+- 24:24: ref ¶54 - dil, el ve ayak yaptıklarına aleyhte tanıklık eder.
+- 28:23: prose ¶53 - su başından ayrılma, insanların çıkışını anlatan fiilin somut kullanımıdır.
+- 28:76: ref ¶51 - Kârûn'un hazineleri biriktirilen malın ağırlığını gösterir.
+- 28:77: ref ¶51 - servetin âhiret için kullanılması istenir.
+- 28:78: ref ¶51 - servetini kendi bilgisine bağlaması, yargıdaki üstün bilgiyi göz ardı eder.
+- 28:79: ref ¶51 - servetin gösterilmesi onu seyredenlerde de arzu uyandırır.
+- 28:81: ref ¶51 - servet sahibi eviyle birlikte yere geçirilir.
+- 28:82: ref ¶51 - seyirciler kayıptan sonra rızkın Allah'ın elinde olduğunu anlar.
+- 30:25: ref ¶49 - tek çağrıda yerden çıkış.
+- 30:50: ref ¶50 - ölü yeri diriltenin ölüleri diriltmesi.
+- 31:16: ref ¶55 - yer veya kayanın içindeki tanecik bile getirilecektir.
+- 34:2: ref ¶55 - yere gireni ve yerden çıkanı Allah bilir.
+- 34:40: not relevant - meleklerden ibadet hakkında sorulması bu bölümün öz tanıklığını açmaz.
+- 35:9: ref ¶50 - rüzgâr ve yağmurla ölü yerin dirilmesi dirilişin misalidir.
+- 36:33: ref ¶50 - ölü yerden yenilen tanenin çıkarılması.
+- 36:51: prose ¶49, ref ¶55 - sûrdan sonra kabirlerden Rabbe doğru seğirtme.
+- 36:52: ref ¶49 - kabirden kaldırılanların kendi uyanışlarını dile getirmesi.
+- 36:53: context ¶49 (in 36:51) - tek sesin ardından herkes Allah katına getirilir.
+- 36:65: ref ¶54 - mühürlenen ağız yerine el konuşur, ayak yapılanlara tanıklık eder.
+- 36:77: ref ¶50 - yeniden dirilmeye itiraz eden insana ilk yaratılışı hatırlatılır.
+- 36:78: ref ¶50 - çürümüş kemiklerin diriltilmesi sorusu ateş delilinin hemen önündedir.
+- 36:79: ref ¶50 - kemikleri ilk yaratanın yeniden dirilteceği cevabı.
+- 36:80: ref ¶50 - yeşil ağaçtan ateş çıkarılması diriliş cevabının devamıdır.
+- 36:81: ref ¶50 - göğü ve yeri yaratanın yeniden yaratmaya gücü yeter.
+- 38:31: context ¶48 (in 38:32) - iyi atların gösterilişi sevgi sözünün bağlamıdır.
+- 38:32: prose ¶48, ref ¶51 - atlardan sonra gelen hayır sevgisi iki görüntüyü bağlar.
+- 39:68: ref ¶49 - ikinci üflemeden sonra insanların ayağa kalkışı.
+- 39:69: ref ¶55 - kitap ve tanıkların getirilişi açılmayı izler.
+- 40:16: ref ¶55 - insanların açıkta olduğu gün hiçbir şey Allah'a gizli kalmaz.
+- 41:20: context ¶54 (in 41:22) - duyu organları ve derilerin aleyhte tanıklığı.
+- 41:21: context ¶54 (in 41:22) - derilerin konuşmasının Allah'a bağlanması.
+- 41:22: prose ¶54, ref ¶55 - aleyhte tanıklık Allah'ın bilgisini küçümsemeyle karşılaşır.
+- 41:39: ref ¶50 - yağmurla canlanan yer ölülerin dirilişine delildir.
+- 43:11: ref ¶50 - suyla dirilen belde gibi insanların çıkarılması.
+- 45:26: ref ¶49 - yaşam ve ölümden sonra kıyamete toplanma.
+- 47:37: cited ¶51; ref ¶55 - malın istenmesiyle içteki kinin çıkması zaten açıklanır.
+- 50:9: ref ¶50 - yağmurla bahçe ve hasat tanesi büyür.
+- 50:10: ref ¶50 - yağmur ürününün hurmalarla sürmesi.
+- 50:11: ref ¶50 - ölü yerin canlanışından çıkışa geçilir.
+- 50:16: ref ¶55 - insanın iç fısıltısı Allah'ın bilgisindedir.
+- 50:21: ref ¶54 - her can tanıkla gelir.
+- 50:44: cited ¶49; ref ¶55 - yarılan yerden hızla çıkış zaten açıklanır.
+- 54:7: ref ¶49 - kabirden çıkanların çekirge gibi yayılan kalabalığı.
+- 54:8: ref ¶49 - çıkanların çağırana doğru acele etmesi.
+- 55:12: not relevant - kavuzlu tahıl, mal sevgisi veya göğsün ayıklanmasıyla sırf ad benzerliği taşır.
+- 56:49: ref ¶49 - ilk ve son insanların birlikte anılması.
+- 56:50: ref ¶49 - hepsinin belirli güne toplanması.
+- 56:63: ref ¶52 - ekin yetiştirme sorusu hasat sahipliğini sınar.
+- 56:64: ref ¶52 - ürünü kimin yetiştirdiği sorulur.
+- 56:65: ref ¶52 - beklenen ürünün kuru kırıntıya çevrilmesi ihtimali.
+- 56:66: ref ¶52 - ürün kaybının insan ağzındaki karşılığı.
+- 56:67: ref ¶52 - mahsul sahiplerinin mahrum kalma sözü.
+- 56:71: ref ¶48, ¶50 - yakılan ateş üzerine doğrudan soru sorulur.
+- 56:72: ref ¶50 - ateşin ağacını kimin yarattığı sorulur.
+- 56:73: ref ¶50 - ateşin hatırlatıcı ve yarar olduğu bildirilir.
+- 57:4: ref ¶55 - yere giren ve çıkanla yapılanları Allah bilir.
+- 57:17: ref ¶50 - Allah'ın ölü yeri dirilttiğini bilmeye çağrı.
+- 57:20: ref ¶51 - mal yarışının yağmur ürünü gibi geçici oluşu.
+- 58:6: ref ¶55 - dirilişte unutulmuş işler Allah tarafından bildirilir.
+- 59:9: prose ¶51, ref ¶52 - ihtiyaç içindeyken başkasını önceleme göğsün başka tutumunu gösterir.
+- 59:10: ref ¶51 - kalpte kin bırakılmaması duası saklı kin karşıtıdır.
+- 64:4: ref ¶55 - gizli ve açık olanla göğüslerin içi bilinir.
+- 64:15: ref ¶51 - malın sınama oluşu bağlılığın iç niteliğini açar.
+- 64:16: ref ¶51 - mal vermek nefsin cimriliğinden korunmayla birleşir.
+- 67:13: ref ¶55 - gizli ve açık söz de göğüslerin bilgisine dahildir.
+- 67:24: ref ¶49 - yere yayılan insanların Allah'a toplanması.
+- 68:17: cited ¶52; nowhere else - sabah ürünü devşirme yemini zaten anlatılır.
+- 68:19: cited ¶52; nowhere else - sahipler uyurken bahçeye gelen ziyaret zaten anlatılır.
+- 68:20: cited ¶52; nowhere else - bahçenin sabahki yıkımı zaten anlatılır.
+- 68:21: cited ¶52; nowhere else - sahiplerin sabah seslenişi zaten anlatılır.
+- 68:22: ref ¶52 - erkenden ürüne gitme çağrısı.
+- 68:24: cited ¶52; nowhere else - yoksulu bahçeye almama kararı zaten anlatılır.
+- 68:25: ref ¶52 - sahiplerin erkenden kararlı yürüyüşü.
+- 68:26: ref ¶52 - yıkılan bahçeyi görüp önce yolu şaşırdıklarını sanmaları.
+- 68:27: ref ¶52 - beklenen hasat yerine yoksunluğu anlamaları.
+- 68:28: prose ¶52 - içlerindeki mutedil kişinin tesbih uyarısı.
+- 69:18: ref ¶55 - sunuldukları gün hiçbir saklı şey kalmaz.
+- 70:15: ref ¶51 - malı saklayanı çağıracak ateşin adı verilir.
+- 70:17: ref ¶51 - yüz çevirenin ateş tarafından çağrılması.
+- 70:18: ref ¶51 - malı toplayıp saklama ile ateşin buluşması.
+- 70:21: ref ¶51 - hayır dokunduğunda insanın tutucu oluşu.
+- 70:43: cited ¶49; ref ¶55 - kabirlerden hızla çıkış zaten açıklanır.
+- 71:17: ref ¶50 - insanın yerden bitki gibi çıkarılması toprak benzetmesini koyulaştırır.
+- 71:18: ref ¶49, ¶50 - yere döndürülüp oradan çıkarılma.
+- 75:3: ref ¶49 - kemiklerin yeniden toplanması bedensel dirilişi açıklar.
+- 75:14: ref ¶54 - insan kendi üzerine açık delildir.
+- 75:15: ref ¶54 - ileri sürülen mazeret öz delili ortadan kaldırmaz.
+- 77:32: not relevant - cehennem kıvılcımının büyüklüğü toynak kıvılcımıyla yalnız ad paylaşır.
+- 77:33: not relevant - alevin deve benzetmesi atın koşusu veya kabir açılmasıyla sahne bağı kurmaz.
+- 77:38: ref ¶49 - ayrım gününde eskilerle birlikte toplanma.
+- 79:10: ref ¶50 - dirilişi yadsıyanların geri dönüş sorusu.
+- 79:11: ref ¶50 - çürümüş kemik itirazı.
+- 79:12: ref ¶50 - geri dönüşü kayıp saymaları itirazın tavrını gösterir.
+- 79:13: ref ¶49 - bir sesle çıkışın başlaması.
+- 79:14: ref ¶49 - insanların ansızın yerin yüzünde belirmesi.
+- 81:18: ref ¶48 - soluyan sabah ifadesi solukla ışık geçişine eşlik eder.
+- 82:4: prose ¶49, ref ¶55 - kabirlerin altüst edilmesinde aynı fiil kullanılır.
+- 82:5: context ¶49 (in 82:4) - açılan kabirlerden sonra canın kendi yaptığını bilmesi.
+- 83:4: not relevant - eksik ölçü verenlerin diriltileceği sorusu bu paragrafın malı tutma veya ayıklama sahnesi değildir.
+- 83:6: ref ¶49 - insanların âlemlerin Rabbi önünde durması.
+- 84:4: ref ¶49 - yerin içindekini atıp boşalması.
+- 84:5: ref ¶53 - yerin Rabbine uyması bildirdiği haberle paraleldir.
+- 86:9: ref ¶51, ¶55 - sırların sınandığı gün içe yönelen hareket tamamlanır.
+- 89:17: not relevant - yetimi onurlandırmama burada yoksulun bahçeden çıkarılmasıyla aynı özgül eylem değildir.
+- 89:18: ref ¶52 - yoksulu doyurmaya teşvik etmeme.
+- 89:19: ref ¶51 - mirası topluca tüketme mal bağlılığını açar.
+- 89:20: ref ¶51 - malı çok sevme insanın şiddetli sevgisinin açık karşılığıdır.
+- 89:21: ref ¶55 - mal sevgisinden sonra yerin dövülmesine geçilir.
+- 92:8: ref ¶51 - cimrilik ve kendini yeterli sayma birleşir.
+- 92:9: ref ¶51 - cimriliğin yanında iyiyi yalanlama yer alır.
+- 92:10: ref ¶51 - cimrinin varacağı zorlu yol bildirilir.
+- 92:11: ref ¶51 - düşerken malının ona yaramayacağı açıklanır.
+- 99:1: ref ¶53 - yerin sarsılması insanların çıkışını başlatır.
+- 99:2: context ¶53 (in 99:4) - yerin ağırlıklarını dışarı atması.
+- 99:4: prose ¶53 - yerin haberlerini anlatması.
+- 99:5: context ¶53 (in 99:4) - haberin Rabbin bildirmesine bağlı oluşu.
+- 99:6: cited ¶53; ref ¶55 - insanların bölük bölük çıkıp amellerini görmesi zaten anlatılır.
+- 99:7: ref ¶53, ¶55 - en küçük iyi işin bile görülmesi.
+- 99:8: ref ¶53, ¶55 - en küçük kötü işin de görülmesi.
+- 102:1: prose ¶51, ref ¶55 - çoğaltma yarışı kabirlere kadar sürer.
+- 102:2: context ¶51 (in 102:1) - yarışın kabirlere varışı.
+- 102:3: ref ¶55 - mal yarışı sürerken gelecek bilginin uyarısı.
+- 102:5: ref ¶55 - kesin bilgiye çağrı.
+- 102:6: ref ¶51 - biriktirenin karşısına ateşin görünmesi.
+- 102:8: ref ¶51 - nimetlerden sorgulanma.
+- 104:2: context ¶51 (in 104:7) - ateşin muhatabı malı toplayıp sayandır.
+- 104:3: ref ¶51 - malının kendisini kalıcı kıldığını sanması.
+- 104:4: context ¶51 (in 104:7) - mal toplayanın ateşe atılacağı bildirilir.
+- 104:6: context ¶51 (in 104:7) - kalplere varacak ateşin adı verilir.
+- 104:7: prose ¶51, ref ¶55 - ateşin kalplere kadar ulaşması mal tutkusunun iç yönünü tamamlar.
+- 107:1: ref ¶52 - yetimi itme sahnesi hesap gününü yalanlamayla başlar.
+- 107:2: ref ¶52 - yetimi iten kişinin dışlama eylemi.
+- 107:3: ref ¶52 - yoksulu doyurmaya çağırmama bahçe sahiplerinin kararıyla buluşur.
+- 107:7: ref ¶52 - küçük yardımı esirgeme kapalı elin başka görünümüdür.
+- 2:77: ref ¶55 - insanın sırrını ve açığını Allah'ın bildiğini bilmesi sorulur.
+- 2:164: ref ¶50 - yağmurla ölü yerin dirilmesi düşünene işarettir.
+- 2:180: ref ¶51 - hayır sözü miras bırakılabilen mala yönelir.
+- 2:259: ref ¶50 - çürümüş kemiklerin yeniden birleştirilmesi gösterilir.
+- 2:262: ref ¶51 - malı harcarken incitmemek verme eyleminin iç niteliğini belirler.
+- 2:263: ref ¶51 - inciten sadakaya karşı iyi sözün üstünlüğü verişin sınırını gösterir.
+- 3:9: ref ¶49 - insanların kuşkusuz güne toplanması Rabbine yönelen duadır.
+- 3:10: ref ¶51 - malın Allah karşısında yarar sağlamayıp ateşe kalması.
+- 3:141: ref ¶51 - müminlerin arıtılması maden ayıklama imgesiyle buluşur.
+- 3:179: ref ¶51 - kötünün iyiden ayırt edilmesi açıkça söylenir.
+- 4:10: ref ¶51 - yetim malını haksız yiyenin içi ateşle ilişkilendirilir.
+- 4:37: ref ¶51 - cimriler Allah'ın verdiğini gizleyip cimriliği de yayar.
+- 4:87: ref ¶49 - Allah insanları kıyamet gününe toplayacaktır.
+- 5:7: ref ¶54 - verilen bağlılık sözü göğüslerin Allahça bilinmesiyle birlikte anılır.
+- 6:59: ref ¶50, ¶55 - toprağın karanlığındaki tane bile Allah'ın bilgisindedir.
+- 6:141: prose ¶52 - hasat günü üründen hak verme buyruğu.
+- 7:26: not relevant - elbisenin örtme fiili, gömme ve diriliş olayına ortak kök dışında bağlanmaz.
+- 7:97: ref ¶52 - uyurken gelen karşılık bahçe sahiplerinin gece kaybına benzer.
+- 9:67: ref ¶51 - eli kapatmak Allah'ı unutma ile birlikte anılır.
+- 9:78: ref ¶55 - sır ve gizli konuşma Allah'ın bilgisine açıktır.
+- 11:9: not relevant - çekilen rahmete umutsuz tepki burada hasadı paylaşmama veya mal sevgisi değildir.
+- 11:81: ref ¶52 - uyarılan kavme bildirilen sabah vaktinin kaçınılmaz gelişi.
+- 12:47: not relevant - kıtlığa hazırlık için başakta saklanan ürün, yoksuldan esirgenen hasat değildir.
+- 15:66: not relevant - kavmin sabah yok edilmesiyle bahçenin gece kaybı arasında sabah dışında özgül bağ yoktur.
+- 16:65: ref ¶50 - yağmurla ölü yerin dirilmesi.
+- 18:37: ref ¶52 - bahçe sahibine topraktan yaratıldığı hatırlatılır.
+- 18:39: ref ¶52 - bahçeye girerken ilahî iradeyi kabul etmesi istenir.
+- 18:41: ref ¶52 - bahçenin suyunun erişilemez yere çekilmesi uyarısı.
+- 18:44: ref ¶52 - bahçe kaybından sonra gerçek yardımın Allah'ta oluşu.
+- 18:96: not relevant - eritilmiş demir ve bakırın inşada kullanılması burada ayıklama veya iç hesap değildir.
+- 20:102: ref ¶49 - sûrun üflenmesiyle suçluların toplanması.
+- 20:108: ref ¶49 - o gün kalabalığın çağıranı izlemesi.
+- 22:1: ref ¶53 - saatin sarsıntısı yerin son günkü hareketini büyütür.
+- 22:2: not relevant - sarsıntıdaki insanların şaşkınlığı toprağın içindekini çıkarma veya amel gösterme bağını açıklamaz.
+- 25:67: ref ¶51 - harcamada cimrilik ile savurganlık arasında ölçü.
+- 26:88: context ¶51 (in 26:89) - o gün malın yarar vermeyeceği bildirilir.
+- 26:89: prose ¶51, ref ¶55 - karşısında malın faydasız kaldığı sağlam kalp.
+- 28:80: ref ¶51 - bilgili olanlar Kârûn'un malına duyulan arzuyu düzeltir.
+- 29:63: ref ¶50 - yağmurla ölü yerin dirilmesi insanlara sorulur.
+- 30:19: ref ¶50 - ölüden canlı çıkışı ile insanların çıkarılması birlikte söylenir.
+- 30:24: ref ¶50 - yağmurun ölü yeri canlandırması görünür işarettir.
+- 31:23: prose ¶55 - dönüş, işlerin bildirilmesi ve göğüs bilgisinin birleşmesi.
+- 34:3: ref ¶55 - küçücük şey bile Allah'ın bilgisinden kaçmaz.
+- 36:82: ref ¶50 - ilahî yaratma buyruğu diriliş cevabını tamamlar.
+- 36:83: not relevant - genel dönüş bildirimi ateş, kabir veya toprağın açılması mekanizmasına yeni bir şey katmaz.
+- 39:21: ref ¶52 - suyla çıkan ürünün kuruyup kırıntıya dönmesi hasadın geçiciliği.
+- 39:70: ref ¶55 - her canın işinin karşılığını tam alması ve Allah'ın bilmesi.
+- 41:23: ref ¶54 - Allah'ın bilmediği sanısı tanıklığı reddedenleri kayba götürür.
+- 42:7: ref ¶49 - toplanma gününde kalabalığın iki sona ayrılması.
+- 45:5: ref ¶50 - yağmurun ölü toprağa hayat vermesi.
+- 47:38: ref ¶51 - harcamaktan kaçınanın kendisine karşı cimriliği.
+- 50:22: ref ¶55 - gaflet örtüsü kalkınca görüş keskinleşir.
+- 53:32: ref ¶55 - Allah insanı topraktan ve saklı ana rahminden beri bilir.
+- 54:38: not relevant - sabah gelen azabın bahçe, yoksulu esirgeme veya toprak sahnesiyle başka bağı yoktur.
+- 56:4: ref ¶49 - son gün yerin şiddetli sarsılması.
+- 56:5: ref ¶49 - dağların parçalanması toz sahnesini büyütür.
+- 56:6: ref ¶49 - parçalanan dağların dağınık toza dönüşmesi.
+- 56:7: ref ¶49 - toplanan insanların üç sınıfa ayrılması.
+- 57:6: ref ¶55 - gece gündüzün görünür değişimiyle göğsün gizli bilgisi yan yana.
+- 57:24: ref ¶51 - kendi cimriliğinin yanında başkalarını da cimriliğe çağırma.
+- 63:9: ref ¶51 - malın Allah'ı anmaktan alıkoyması.
+- 63:10: ref ¶51 - ölüm gelmeden eldeki maldan harcama çağrısı.
+- 64:9: ref ¶49 - Allah'ın insanları toplanma gününe toplaması.
+- 68:23: ref ¶52 - sahiplerin fısıldaşarak ürüne doğru gitmesi.
+- 68:29: context ¶52 (in 68:28) - kayıp üzerine haksızlıklarını kabul ederler.
+- 68:31: ref ¶52 - kendilerini taşkın saymaları eylemin niteliğini açar.
+- 68:32: ref ¶52 - Rablerinden daha iyisini ummaları mal tutumunu değiştirir.
+- 68:33: prose ¶52 - bahçe kaybının azap olarak anılıp âhirete bağlanması.
+- 69:28: ref ¶51 - yargıdaki kişi malının kendisine yaramadığını söyler.
+- 69:29: not relevant - otoritenin kaybı mal ve göğüs bağını ayrıca açıklamaz.
+- 69:34: ref ¶52 - yoksulu doyurmamış olma ceza bağlamında açıklanır.
+- 70:24: ref ¶52 - mal içinde tanınmış bir pay bulunur.
+- 70:25: ref ¶52 - bu pay isteyen ve mahrum kalan içindir.
+- 74:12: ref ¶51 - verilen geniş mal biriktirmenin başlangıç konumunu gösterir.
+- 74:15: ref ¶51 - verilenden sonra da daha fazlasını isteme.
+- 74:26: ref ¶51 - mal verilen bu kişinin ateşe atılacağı bildirilir.
+- 74:44: ref ¶52 - mahkûmlar yoksulu doyurmadıklarını söyler.
+- 78:18: ref ¶49 - sûrdan sonra insanların bölük bölük gelişi.
+- 81:14: ref ¶55 - can getirdiği şeyi bilecektir.
+- 84:3: ref ¶49 - yer içindekileri atmadan önce açılıp yayılır.
+- 89:22: ref ¶49 - Rabbin ve meleklerin saf saf gelişi toplanma gününü çerçeveler.
+- 92:14: ref ¶51 - cimriliğin karşısındaki ateş uyarısı.
+- 92:18: ref ¶51 - malını vererek arınma biriktirmeye karşıdır.
+- 96:14: ref ¶55 - insanın Allah'ın gördüğünü bilip bilmediği sorulur.
+- 99:3: ref ¶53 - sarsılan yere insanın yönelttiği soru.
+- 102:4: ref ¶55 - gelecek bilginin tekrarlanan uyarısı.
+- 102:7: ref ¶51 - ateşin kesin görüşle görülmesi.
+- 111:2: ref ¶51 - mal ve kazanç sahibini kurtarmaz.
+- 111:3: ref ¶51 - malı yetmeyen kişinin ateşe girişi.
+- 24:35: not relevant - zeytinyağı ve ilahî ışık benzetmesi gömülü ateşin diriliş delili oluşu değildir.
+- 68:18: not relevant - istisna etmemeleri yoksula pay ayırmama ya da Allah'ın dilemesini anmama olabilir; söz tek başına belirlemez.
+- 79:4: not relevant - öne geçenlerin kimliği açık değildir; atın koşusuna bağlanamaz.
+- 84:23: ref ¶55 - Allah insanların içlerinde tutup biriktirdiklerini daha iyi bilir.
+- 37:177: ref ¶52 - uyarılanlara gelen kötü sabah bahçenin sabahki tersine dönüşünü andırır.
+- 59:6: not relevant - o olayda at sürülmediği söylenir; buradaki atlı sahnenin sınırı değildir.
+- 76:8: ref ¶51, ¶52 - sevilen yiyecek yoksula verilerek tutucu sevgi tersine çevrilir.
+- 101:4: ref ¶49 - son gündeki yayılmış insan kalabalığı hareket benzerliği kurar.
+- 7:55: not relevant - gizli dua diriliş için yağmur verilen toprak sahnesini açmaz.
+- 7:56: not relevant - yeri bozmama ve rahmet dileme buyruğu kabirden çıkışla özgül bağ taşımaz.
+- 7:59: not relevant - Nûh'un uyarısı burada yağmur ve ölü yer karşılaştırmasını sürdürmez.
+- 9:32: not relevant - Allah'ın nurunu söndürme girişimi kızdırılan altınla ilgili değildir.
+- 9:33: not relevant - dinin üstün kılınması malı saklama ve ateş sahnesini açıklamaz.
+- 9:36: not relevant - haram aylar ve savaş buyruğu at baskını ya da mal ayıklamasına doğrudan bağlanmaz.
+- 9:37: not relevant - ayları erteleme hilesi maden, kabir veya göğüs sahnesine bağlanmaz.
+- 47:35: not relevant - savaşa ilişkin gevşememe buyruğu mal istendiğinde kinin çıkması meselesi değildir.
+- 47:36: ref ¶51 - Allah'ın malı istemeyeceği bilgisi, baskıyla isteme varsayımını sınırlar.
+- 50:42: ref ¶49 - hak sesinin işitildiği gün çıkış günüdür.
+- 50:43: ref ¶49 - yaşatma ve öldürmeden sonra dönüş Allah'adır.
+- 50:45: not relevant - vahiy ile uyarma buyruğu hızlı kabir çıkışının anlamını genişletmez.
+- 68:15: not relevant - ayetlere 'eskilerin masalları' diyen önceki kişi bahçe sahipleri değildir.
+- 68:16: not relevant - önceki kişinin burnuna işaret konması bahçe sahibinin kaybı değildir.
+- 70:41: not relevant - insanların değiştirilme kudreti kabirlerden çıkışın koşusunu açıklamaz.
+- 70:42: not relevant - vaat edilen güne dek oyalanma kabirden hızla koşma sahnesine yeni bağ katmaz.
+- 70:44: ref ¶49 - hızla çıkanların eğik bakışları varışın durumunu belirtir.
+- 10:59 own: not relevant - rızık için helal ve haram koyma eleştirisi malı saklama veya göğüs hesabı değildir.
+- 10:60 own: not relevant - şükürsüzlük genel olarak anılır; bu bölümdeki belirli mal ve kabir sahnesini açmaz.
+- 10:61 own: prose ¶55 - yapılan her işteki ilahî tanıklık ve zerre kadar şeyin gizlenmemesi.
+- 10:62 own: not relevant - Allah dostlarının korkusuzluğu bu bölümün görüntülerine özgü değildir.
+- 10:63 own: not relevant - iman ve takva tanımı açılan kabir ya da göğüs içini açıklamaz.
+- 17:34 own: not relevant - yetim malı yasağı bahçe sahiplerinin yoksulu dışlamasından farklı eylemdir.
+- 17:35 own: not relevant - ölçü ve tartıyı doğru tutma bu bölümde mal biriktirmenin eylemi değildir.
+- 17:36 own: ref ¶54 - işitme, görme ve kalbin sorguya çekilmesi.
+- 17:37 own: not relevant - kibirle yerde yürüme ne at koşusu ne de kabir çıkışıdır.
+- 17:38 own: not relevant - önceki yasakların genel değerlendirmesi özgül sahneyi açmaz.
+- 18:48 own: ref ¶49 - herkesin Rabbe saf halinde sunulması toplanmanın varışını belirler.
+- 18:50 own: not relevant - İblîs'in isyanı toplanma sahnesinden başka konuya geçer.
+- 36:10 own: not relevant - uyarıya iman etmeme diriliş ve kayıt birleşmesini ayrıca açıklamaz.
+- 36:11 own: not relevant - gaybda Rahmân'dan korkan kişiye müjde ayrı hitaptır.
+- 36:12 own: prose ¶55 - diriltme ile işlerin ve izlerin yazılmasının birlikte oluşu.
+- 36:13 own: not relevant - şehir halkına elçilerin gelişi diriliş kaydı sahnesini sürdürmez.
+- 36:14 own: not relevant - elçi sayısının artırılması bu görüntülere bağlanmaz.
+- 50:19 own: not relevant - ölüm sarhoşluğunun gelişi kabirden hızlı çıkışın mekanizmasını açıklamaz.
+- 50:20 own: ref ¶49 - sûrun üflenmesi her canın gelişini başlatır.
+- 75:11 own: not relevant - sığınak bulunmayışı bu bölümdeki mal veya kabir görüntüsüne özgü değildir.
+- 75:12 own: ref ¶49 - o gün varışın Rabbe oluşu koşunun yönüne karşılık gelir.
+- 75:13 own: ref ¶53, ¶55 - insana öne sürdüğü ve bıraktığı işlerin haber verilmesi.
+- 84:6 own: ref ¶49 - insanın Rabbine doğru ilerleyip O'na varması.
+- 84:7 own: not relevant - kitabın sağdan verilmesi toplananların ayrı akıbetidir, bölüm bunu işlemez.
+- 84:8 own: not relevant - kolay hesap sonucu açılan yer ve göğüs bağını ayrıca açıklamaz.
+- 90:12 own: not relevant - sarp yolun ne olduğu sorusu tek başına yoksula verişi söylemez.
+- 90:13 own: not relevant - köle azadı burada hasat malından yoksula pay vermek değildir.
+- 90:14 own: ref ¶52 - kıtlık gününde doyurma bahçe sahiplerinin dışladığı muhtaç ihtiyacını karşılar.
+- 90:15 own: ref ¶52 - doyurulan yakın yetim de muhtaçtır.
+- 90:16 own: ref ¶52 - yoksulu doyurma açık karşı sahnedir.
+- 90:17 own: not relevant - iman ve merhameti tavsiye etme, belirli hasat eylemini ayrıca açmaz.
+- 13:15 own: not relevant - Allah'a secde edenler maden ve köpüğün ayıklanması değildir.
+- 13:16 own: not relevant - yaratıcı ve ortaklar sorusu maden benzetmesinin özgül ayrımını açmaz.
+- 13:18 own: ref ¶51 - bütün yeryüzü serveti bile kötü hesaptan kurtuluş fidyesi olmaz.
+- 13:19 own: not relevant - indirilenin hak olduğunu bilmek madenin tortusuyla mala bağlanmayı ayrıca açıklamaz.
+- 38:30 own: context ¶48 (in 38:32) - atlara bakan kişinin Süleyman olduğu burada adlandırılır.
+- 38:33 own: not relevant - atların bacak ve boyunlarına dokunuş koşu ile mal sevgisi bağını açmaz.
+- 38:34 own: not relevant - Süleyman'ın ayrı sınanması at gösterilişine ilişkin sevgi cümlesini belirlemez.
+- 82:2 own: not relevant - yıldızların dağılması kabirler için kullanılan fiili ayrıca açıklamaz.
+- 82:3 own: not relevant - denizlerin patlaması kabirlerden çıkan insan sahnesi değildir.
+- 82:6 own: not relevant - kerim Rab hakkında aldanma sorusu toprak ile iç hesabın özel birleşimini söylemez.
+- 36:49 own: not relevant - tartışırken yakalayan ses, kabirden seğirtmenin önceki ölüm evresindedir.
+- 36:50 own: not relevant - vasiyet ve eve dönmeye vakit bulamama önceki evrenin sonucudur.
+- 5:29 own: not relevant - kardeşin ateş tehdidi bedeni yere örtme fiilinin anlamını açmaz.
+- 5:30 own: context ¶50 (in 5:31) - kardeşin öldürülmesi örtülecek bedenin bağlamıdır.
+- 5:32 own: not relevant - bir canı öldürmenin insanlığa karşı oluşu gömmenin kök bağlantısı değildir.
+- 5:33 own: not relevant - fesat çıkaranın cezası örtme ve kabir açma bağlantısını sürdürmez.
+- 59:7 own: ref ¶51, ¶52 - malın yalnız zenginler arasında dönmemesi ve yoksula pay ayrılması.
+- 59:8 own: not relevant - göçmen yoksulların tanımı başkasını öne alma eyleminin kendisi değildir.
+- 59:11 own: not relevant - ikiyüzlülerin savaş vaadi ve Allah'ın yalanlarına tanıklığı burada öz tanıklık değildir.
+- 26:87 own: not relevant - diriltme günündeki utanç duası mal ve sağlam kalp ayrımını ayrıca açıklamaz.
+- 26:90 own: not relevant - cennetin yaklaştırılması sağlam kalple gelişin ölçüsünü açmaz.
+- 26:91 own: not relevant - cehennemin gösterilmesi malın yararsızlığı karşılaştırmasına yeni mekanizma katmaz.
+- 104:5 own: not relevant - ateşin ne olduğu sorusu kalbe varma özelliğinden ayrı bağ kurmaz.
+- 104:8 own: ref ¶51 - mal toplayanın üstüne ateşin kapatılması tersine bir kuşatma oluşturur.
+- 104:9 own: not relevant - ateşin sütunlarının uzatılması mal ve kalp bağını açmaz.
+- 6:139 own: not relevant - hayvanların içindekine konan yanlış besin yasağı hasat hakkı değildir.
+- 6:140 own: not relevant - çocuk öldürme ve rızkı yasaklama bahçenin yoksul hakkıyla aynı eylem değildir.
+- 6:142 own: not relevant - hayvan ürünlerinden yeme buyruğu hasatta pay verme eylemini açmaz.
+- 6:143 own: not relevant - hayvan çiftleri hakkındaki soru bahçenin hasadına bağlanmaz.
+- 68:30 own: ref ¶52 - bahçe sahiplerinin kayıptan sonra birbirlerini kınaması.
+- 68:34 own: ref ¶52 - sakınanlara vadedilen bahçeler kaybedilen bahçeye karşı başka son gösterir.
+- 68:35 own: not relevant - teslim olanla suçluyu eşit saymama genel hükmü sabah seferini ayrıca açıklamaz.
+- 28:21 own: not relevant - korkuyla şehirden çıkış su başından ayrılma fiilinin bağlamı değildir.
+- 28:22 own: not relevant - Medyen'e yöneliş su başındaki çoban ayrılışına özgü değildir.
+- 28:24 own: not relevant - kadınlar için sulama ve hayır duası 99:6'nın çoğul çıkışını açıklayan sözcüğü içermez.
+- 28:25 own: not relevant - sulama karşılığı davet, insanların amelleri görmeye çıkmasıyla ayrı eylemdir.
+- 6:128 own: ref ¶49 - insan ve cinlerin yargı için birlikte toplanması.
+- 6:129 own: not relevant - zalimlerin birbirine bağlanması öz tanıklık sahnesini açmaz.
+- 6:131 own: not relevant - habersiz kasabaların helak edilmemesi bu bölümün açılma ve hesap görüntüsü değildir.
+- 6:132 own: ref ¶55 - yapılan işlerden Rabbin habersiz olmaması.
+- 4:40 own: not relevant - adil karşılığın zerre ölçüsü burada saklının açılma sahnesine özgü değildir.
+- 4:42 own: ref ¶55 - yerle bir olmayı dileseler de Allah'tan hiçbir söz gizleyememeleri.
+- 4:43 own: not relevant - namaz ve temizlik buyruğu hesap günündeki yerle bir olma sahnesini sürdürmez.
+- 4:44 own: not relevant - sapkınlığı satın alma malı tutma veya kabir açılması değildir.
+- 62:6 own: not relevant - belli bir topluluğa ölüm dilemeyi söyleme buyruğu bu suredeki mal ve iç hesap sahnesi değildir.
+- 62:7 own: not relevant - ölümü dilememe, önden işlenene ilişkin ayrı polemiğin yanıtıdır.
+- 62:8 own: ref ¶55 - ölümden kaçanların görüleni ve gizliyi bilene dönüp işleriyle yüzleşmesi.
+- 62:9 own: not relevant - cuma çağrısında alışverişi bırakma bu bölümdeki son gün toplanması değildir.
+- 62:10 own: not relevant - namaz sonrası yere dağılma kabirlerden çıkış değildir.
+- 27:85 own: not relevant - zulüm yüzünden susma bütün bedenin tanıklık ettiği özgül sahne değildir.
+- 27:86 own: not relevant - gece ve gündüzün yaratılması sabah baskını ve iç hesap bağını açıklamaz.
+- 27:87 own: ref ¶49 - sûrdan sonra herkesin alçalarak gelişi toplanmanın yönünü belirtir.
+- 27:88 own: ref ¶55 - dağların görünür hareketiyle Allah'ın işleri bilmesi bir ayette birleşir.
+- 27:89 own: not relevant - iyilik getirenin korkudan emin olması toplanma resmine ek ama burada işlenmeyen ayrı sonuçtur.
+- 76:6 own: not relevant - içilen kaynak yoksula sevilen yiyeceği verme eylemini açıklamaz.
+- 76:7 own: not relevant - adağı yerine getirme ve günden korkma, yoksulu beslemenin somut karşıtlığı değildir.
+- 76:9 own: ref ¶52 - yoksula yedirmede karşılık ve teşekkür beklememek açık elin niyetidir.
+- 76:10 own: not relevant - zorlu günden korkma yiyeceği verme mekanizmasını ayrıca açmaz.
+- 41:24 own: not relevant - tanıklığı reddedenlerin ateşte kalması, bedenin tanıklık biçimini açmaz.
+- 31:21 own: not relevant - ataları izleme cevabı göğüs bilgisinin özgül bağlamı değildir.
+- 31:22 own: not relevant - iyilikle Allah'a yönelen kişinin sağlam tutamağı bu bölümün kabir ve iç ayıklama görüntüsü değildir.
+- 31:24 own: not relevant - kısa yararlanmanın ardından azap, göğsün bilinmesi ifadesini ayrıca açmaz.
+- 31:25 own: not relevant - yaratanı sorulunca verilen cevap göğüslerin içini bilme hakkında değildir.
+- 89:23 own: ref ¶55 - servet sevgisinin ardından son gün kişinin geç hatırlaması.
+- 89:24 own: ref ¶55 - o gün insanın önceki hayatına iş göndermiş olmayı dilemesi.
+- 75:36 own: ref ¶55 - insanın başıboş bırakılacağını sanma sorgusu son hesabı belirginleştirir.
+- 75:37 own: ref ¶50 - ilk yaratılışın nutfeden başlaması yeniden diriliş delilinin ilk basamağı.
+- 75:38 own: ref ¶50 - ilk yaratılışın biçimlendirilmesi delili sürdürür.
+- 75:39 own: ref ¶50 - kadın ve erkek olarak yaratma gücü hatırlatılır.
+- 75:40 own: ref ¶50 - bu yaratıştan ölüleri diriltme kudreti sorusuna geçilir.

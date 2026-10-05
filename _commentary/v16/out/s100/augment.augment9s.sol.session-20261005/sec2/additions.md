@@ -1,0 +1,80 @@
+## ¶8 · prose · 2:190 · applied
+
+Kendileriyle savaşanlarla savaşmaları buyurulanlara aynı ayette haddi aşmamaları da söylenir {source:2:190}. Böylece düşmanla karşılaşmak, haksız saldırıya kendiliğinden izin vermez; saldırının sınırını aşan yanı ayrıca adlandırılır.
+
+## ¶8 · prose · 41:34 · applied
+
+Kötülüğe daha güzel olanla karşılık verilince, arada düşmanlık bulunan kişinin sıcak bir dost gibi olabileceği söylenir {source:41:34}. Düşmanla dostun karşıtlığı, değişmez bir kader değil, davranışla dönüşebilen bir ilişkidir.
+
+## ¶9 · prose · 4:102 · applied
+
+Namaz sırasında bile bir bölüğün silahını ve tedbirini alması istenir; inkâr edenler, onların silah ve eşyalarından gaflete düşmesini, sonra da üzerlerine tek hamlede yüklenmeyi ister {source:4:102}. Sabah baskınının üstünlüğü, karşısındakinin hazırlıksız yakalanmasındadır.
+
+## ¶9 · prose · 27:49 · applied
+
+Neml suresinde bir kişiyi ve ailesini geceleyin basmaya yemin edenler, ardından ailesinin yok oluşuna tanık olmadıklarını söylemeyi de tasarlar {source:27:49}. Allah onların fark etmediği bir karşılık hazırlar {source:27:50}; sonunda kendileri ve kavimleri yok edilir {source:27:51}. Gizli baskını kuranlar, ummadıkları darbenin hedefi olur.
+
+## ¶11 · prose · 4:94 · applied
+
+Allah yolunda yola çıkanlara, kendilerine barış sözü söyleyene dünya malını isteyerek “Sen mümin değilsin” dememeleri ve durumu araştırmaları buyurulur {source:4:94}. Baskın sonrasındaki kazanç düşüncesi, karşıdakini düşman sayma kararını da bozabilir.
+
+## ¶11 · prose · 21:12 · applied
+
+Azabı hisseden bir beldenin halkı koşarak kaçmaya başlar {source:21:12}; kendilerine dönmeleri söylenir {source:21:13}. “Biz zalimdik” diye haykırışları, yok edilinceye kadar sürer {source:21:14} {source:21:15}. Darbe gelip çatınca koşmak, kurtulacak bir yol buldukları anlamına gelmez.
+
+## ¶11 · prose · 26:61 · applied
+
+Peşlerine düşenler sabah ışığında ilerlediğinde iki topluluk birbirini görür; Musa'nın yanındakiler yakalandıklarını söyler {source:26:60} {source:26:61}. Musa bunu kabul etmez {source:26:62}; deniz açılır {source:26:63}. Bir topluluğun gözünde kapanmış görünen kaçış yolu, Allah'ın açtığı yolla yeniden bulunur.
+
+## ¶11 · prose · 59:6 · applied
+
+Allah'ın elçisine verdiği bir mal için müminlerin ne at ne deve sürdüğü açıkça belirtilir {source:59:6}. Ardından o malın kimlere ait olduğu sayılır ve varlıklıların arasında dolaşıp durmaması istenir {source:59:7}. Buradaki mal, atlı bir hücumun sonucu değildir ve payı belirlenmiştir.
+
+## ¶11 · prose · 75:10 · applied
+
+O gün insan “Kaçış nereye?” diye sorar {source:75:10}; cevap, sığınılacak yer olmadığıdır {source:75:11}. Kalabalığın ortasında beliren çıkışsızlık, son gündeki bu açık soruda insanın kendi ağzından duyulur.
+
+## ¶12 · prose · 8:61 · applied
+
+Atların hazırlanmasının hemen ardından, karşı taraf barışa yönelirse ona yönelme buyruğu gelir {source:8:61}. Hazır tutulan atların düşmanı caydırması, barış kapısını kapatan bir hücum emri değildir.
+
+## ¶12 · prose · 15:82 · applied
+
+Hicr halkı dağlardan evler yontuyor ve kendini güven içinde görüyordu {source:15:82}. Sabah çığlığının gelişi, yalnız uykuda olmanın değil, sağlam sanılan barınağın da güvence vermediğini gösterir.
+
+## ¶12 · prose · 17:65 · applied
+
+İblis'e atlıları ve yayalarıyla insanlara yüklenme izninin hemen ardından, Allah kendi kulları üzerinde onun hiçbir hükmü bulunmadığını bildirir {source:17:65}. Atlıların gürültüsü, insan üzerinde zorunlu bir hâkimiyet anlamına gelmez.
+
+## ¶12 · prose · 26:202 · applied
+
+Azap onlara fark etmedikleri bir anda gelir {source:26:202}; o zaman “Bize süre verilecek mi?” derler {source:26:203}. Ardından “Azabımızı mı acele istiyorlar?” sorusu gelir {source:26:204}. Aceleyle çağırdıkları şey geldiğinde, hazırlanmak için süre istemeleri artık darbenin ardından kalır.
+
+## ¶12 · prose · 54:44 · applied
+
+Bir topluluk kendini birleşmiş, galip gelecek bir güç sayar {source:54:44}; cevabı, o topluluğun yenilip arkasını döneceğidir {source:54:45}. Sonraki ayet Saat'i onların asıl buluşma vakti ve daha ağır karşılaşma olarak anar {source:54:46}. Dünyadaki toplu güç iddiası ile son günün kesin buluşması böylece art arda gelir.
+
+## ¶12 · prose · 68:19 · applied
+
+Bahçe sahipleri ürünlerini sabah erkenden toplamaya karar verir {source:68:17}; onlar uyurken Rablerinden gelen bir ziyaret bahçeyi dolaşır {source:68:19} ve bahçe sabaha harap çıkar {source:68:20}. Sabahı kendi kazançları için kollayanlar, önceki gecenin darbesini ancak uyandıklarında öğrenir.
+
+## ¶8 · refs · - · applied
+
+Ayrıca: {source:8:58} anlaşma ihaneti korkulunca açıkça bildirme; {source:9:6} sığınma isteyenin güvene çıkarılması; {source:43:67} son günde yakın dostların düşmana dönüşmesi; {source:100:1} soluyarak koşanlar; {source:2:193} savaş sona erince haksız saldırının sınırı; {source:2:194} karşı saldırının uğranılan saldırı kadar tutulması; {source:3:103} düşman olanların kardeşe dönüşmesi; {source:4:45} düşmanı bilen Allah'ın koruyucu dost olması; {source:5:2} bir kavme duyulan öfkenin saldırıya dönüşmesinin yasaklanması; {source:5:8} bir kavme duyulan öfkeye rağmen adalet buyruğu; {source:8:60} hazır atlarla düşmanın caydırılması; {source:8:61} düşmanın barış eğilimine karşılık verilmesi; {source:10:90} Firavun askerlerinin haksız saldırı niyetiyle kovalaması; {source:17:64} İblis'in atlı ve yaya saldırı görüntüsü; {source:18:50} İblis'in dost edinilmemesi gereken düşman oluşu; {source:22:39} {source:22:40} haksızlığa uğrayıp yurdundan çıkarılanlara savunma izni; {source:42:42} insanlara haksızlık edenlerin kınanması; {source:60:1} düşmanın dost edinilmemesi; {source:60:7} düşmanlık yerine sevgi doğabilmesi; {source:60:8} {source:60:9} savaşmayanlarla savaşanların ayrılması.
+
+## ¶9 · refs · - · applied
+
+Ayrıca: {source:20:77} gece kaçışı ve takip korkusuna karşı açılan yol; {source:3:121} sabah erkenden kurulan savaş mevzileri; {source:100:3} baskın için sabahın seçilmesi; {source:4:101} yolculukta düşman saldırısı korkusu; {source:7:4} beldelere gecede veya dinlenme sırasında gelen darbe; {source:7:97} {source:7:98} uyurken ve oyalanırken gelen azap ihtimali; {source:11:81} gece yola çıkış ile sabah randevusu; {source:15:65} {source:15:66} gece kaçışı ve sabah yok oluşu; {source:15:73} gün doğarken yakalayan çığlık; {source:15:83} sabaha girerken yakalayan çığlık; {source:26:60} güneş doğarken başlayan askerî takip; {source:37:177} avluya inen azabın kötü sabahı; {source:54:34} seher vakti kurtarılan Lut ailesi; {source:54:38} erken sabah gelen azap; {source:68:17} sabah erken hasat etme planı; {source:68:19} {source:68:20} {source:68:21} uyurken gelen kayıp ve sabah karşılığı.
+
+## ¶10 · refs · - · applied
+
+Ayrıca: {source:8:9} savaşta yükselen yardım çağrısı; {source:17:64} ses ile atlı yürüyüşün aynı saldırı çağrısında buluşması; {source:30:48} {source:35:9} rüzgârın bulutu kaldırıp yayması.
+
+## ¶11 · refs · - · applied
+
+Ayrıca: {source:100:8} insanın hayır sevgisinin kuvvetli oluşu; {source:15:67} konukların olduğu eve yönelen şehir kalabalığı; {source:20:78} takipçi ordunun suya boğulması; {source:26:66} takipçilerin yok edilmesiyle kuşatmanın ters dönmesi; {source:33:9} gelen ordulara karşı rüzgâr ve görünmez güçler; {source:33:11} kuşatılanların sarsılması; {source:33:16} ölümden kaçışın yarar vermemesi; {source:33:25} gelen orduların geri çevrilmesi; {source:59:14} toplu görünen savaşçıların kalplerinin ayrılığı; {source:2:165} sevginin kuvvetinin Allah'a yönelmesi; {source:3:14} atların da arzulanan dünya malları arasında sayılması; {source:3:152} savaşta dünya kazancını isteyenlerin bulunması; {source:3:161} alınan malın kıyamette hesaba gelmesi; {source:8:1} savaş kazancının paylaşımında Allah'a itaat ve arayı düzeltme buyruğu; {source:8:15} yürüyen düşman topluluğuyla karşılaşma; {source:8:41} iki topluluğun karşılaştığı günkü kazancın payları; {source:8:67} esir ve dünya kazancı isteğine konan sınır; {source:8:69} elde edilen ganimetten yeme izni; {source:9:25} çokluğa güvenen ordunun geri dönmesi; {source:11:78} {source:11:80} eve yönelen kalabalık karşısında güç arayışı; {source:16:46} yakalandıklarında kaçıp kurtulamamaları; {source:33:10} iki yönden gelen orduların kuşatma korkusu; {source:48:15} sırf ganimet için sefere katılma isteği; {source:54:45} toplanmış gücün bozguna uğraması.
+
+## ¶12 · refs · - · applied
+
+Ayrıca: {source:7:27} şeytanın insanları kendisini göremedikleri yerden izlemesi; {source:7:78} {source:7:91} sarsıntı sonrası halkın yurtlarında yığılı kalması; {source:35:9} rüzgârın kaldırdığı buluttan dirilişe geçiş; {source:37:137} Lut yurdunun yıkımından sonra sabah geçilen kalıntılar; {source:7:96} belde halkının yalanlaması ardından yakalanması; {source:8:62} barış eğilimi aldatma olursa Allah'ın yeterliği; {source:11:103} son gün için insanların toplanması; {source:14:44} azap geldikten sonra gecikme isteği; {source:15:81} sabah darbesinden önce işaretlerden yüz çevrilmesi; {source:17:62} İblis'in insan soyuna yönelik niyeti; {source:17:63} onu izleyenlerin cezası; {source:18:53} ateşi gören suçluların kaçış yolu bulamaması; {source:20:102} sûr sesiyle suçluların toplanması; {source:20:108} son gün seslerin kısılması; {source:27:72} acele istenenin yakına gelmesi; {source:27:87} sûr sesinin toplu korku doğurması; {source:37:174} {source:37:175} {source:37:178} {source:37:179} acele istenen cezaya karşı bekleme ve görecekleri uyarısı; {source:39:68} sûr sesiyle evrensel yıkım ve diriliş; {source:42:47} son günde sığınak bulunmaması; {source:50:41} son gün yakın yerden yükselen çağrı; {source:50:44} mezarlardan hızla çıkış ve toplanma; {source:51:14} acele istenen cezanın tattırılması; {source:54:6} {source:54:7} {source:54:8} çağrıcıya mezarlardan çıkan topluluk; {source:54:35} seher felaketinde kurtarılanlara nimet; {source:67:27} istenen şey yakına gelince duyulan korku; {source:68:26} yıkılmış bahçeyi görünce sahiplerinin şaşkınlığı; {source:69:13} son günü başlatan tek sûr sesi; {source:70:1} gelecek azabı isteme; {source:70:43} mezarlardan hızla çıkıp yönelen insanlar; {source:74:8} {source:74:9} sûr sesinin başlattığı zor gün; {source:99:1} {source:99:2} yerin sarsılıp yüklerini çıkarması; {source:99:6} {source:99:7} {source:99:8} insanların amellerini görmeye çıkması; {source:100:6} {source:100:7} {source:100:8} atlı sahneden insanın nankörlüğüne ve güçlü hayır sevgisine geçiş; {source:100:9} {source:100:10} {source:100:11} kabirlerdekinin ve göğüslerdekinin açıldığı hesap günü; {source:6:31} {source:7:187} {source:12:107} {source:22:55} {source:43:66} {source:47:18} Saat'in beklenmedik gelişi; {source:6:44} {source:7:95} bolluk ve rahatlığın ardından ansızın yakalanma; {source:6:47} ansızın gelen azabın zalimleri vurması; {source:7:4} {source:7:5} yerleşime gelen darbe ve halkın itirafı; {source:7:97} {source:7:98} azabın uyku veya oyun sırasında gelmesi; {source:10:24} sahip olduklarını güvenli sananların gece ya da gündüz gelen hükümle karşılaşması; {source:10:50} azabı acele isteyenlere gece veya gündüz geliş sorusu; {source:11:67} {source:11:94} çığlığın ardından evlerinde yığılı kalanlar; {source:11:82} {source:11:83} sabah randevusundan sonra yurdun altüst edilmesi, işaretli taşlar ve zalimlere uyarı; {source:13:6} cezayı acele isteyenlere geçmiş cezaların hatırlatılması; {source:15:66} Lut halkının sabaha çıkarken yok oluşu; {source:15:73} {source:15:74} gün doğarken çığlık ve ardından yurdun altüst edilmesi; {source:15:84} Hicr halkının kazandıklarının sabah darbesini önleyememesi; {source:15:85} Hicr olayının ardından Saat'in geleceğinin söylenmesi; {source:16:1} Allah'ın emrinin aceleye getirilmemesi; {source:16:45} {source:16:46} beklenmedik yönden geliş ve kaçamama; {source:18:99} sûr üflenince toplanan insanlar; {source:21:38} {source:21:40} vaadi soranların ansızın gelişte karşılık verememesi; {source:22:47} acele istenen azabın belirlenmiş vaadi; {source:23:41} topluluğu bir çığlıkla yakalayan haklı ceza; {source:23:64} {source:23:65} ceza gelince yükselen yardım çığlığının karşılıksız kalması; {source:29:53} {source:29:54} acele istenen azabın ansızın gelişi ve kuşatıcılığı; {source:34:51} korku anında kaçış yolu bulamadan yakalanma; {source:36:29} tek çığlıkla bir topluluğun sönmesi; {source:36:49} {source:36:50} tartışma sürerken gelen çığlığa karşılık verememe; {source:36:53} tek çığlıkla herkesin Allah katında hazır edilmesi; {source:38:15} ardından toparlanma aralığı bulunmayan tek çığlık; {source:39:55} farkına varmadan gelecek azaptan önce çağrıya uyma; {source:42:18} Saat'i acele isteyenlerin ona inanmaması; {source:46:24} {source:46:25} yağmur sanılan bulutun istenen azap çıkması ve yurdun boş kalması; {source:50:42} çığlığın duyulduğu çıkış günü; {source:51:44} {source:51:45} yıldırım darbesi karşısında ayağa kalkamama; {source:54:31} tek çığlığın topluluğu kırıntıya çevirmesi; {source:54:34} Lot ailesinin seherde kurtarılması; {source:54:36} {source:54:37} Lut halkının uyarıyı reddedip konuklara saldırması; {source:59:2} sağlam surlara güvenenlerin ummadıkları yerden korkuya uğraması; {source:64:9} son günün toplanma günü olarak adlandırılması; {source:75:10} {source:75:11} son günde kaçış ve sığınak bulunmaması; {source:78:18} sûr sesinden sonra topluluklar halinde geliş; {source:79:13} {source:79:14} tek sesin ardından insanların ortaya çıkması.
+
