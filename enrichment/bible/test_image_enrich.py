@@ -89,6 +89,33 @@ class BibleImageTest(W.BibleWorkflowTest):
         with self.assertRaises(ValueError): I.bootstrap_object('{cmd:"cat a",cmd:"curl x"}')
         with self.assertRaises(ValueError): I.bootstrap_object('{cmd:"cat a" + "foo"}')
 
+    def test_image_own_preview_and_clock_do_not_authorize_external_tools(self):
+        d=(self.home/'work/own').resolve()
+        self.assertTrue(I.allowed_command(f"sed -n '1,40p' {d}/preview/surah.md",d))
+        self.assertFalse(I.allowed_command(f'cat {d.parent}/other/preview/surah.md',d))
+        self.assertEqual(I.unwrap_call('exec','const r = await tools.clock__curr_time({}); text(r.current_time);'),('clock',{}))
+        with self.assertRaises(ValueError):
+            I.unwrap_call('exec','const r = await tools.clock__curr_time({}); text(r.current_time); await tools.web__run({});')
+
+    def test_image_resumption_requires_exact_failed_history_and_delivery(self):
+        root=self.prepare_images();d=root/'sec1'
+        failed=dict(type='task_complete',turn_id='failed-turn',error={'message':'capacity'})
+        events=[dict(type='event_msg',payload=failed)]
+        done=[events[0],dict(type='event_msg',payload={'type':'task_complete','turn_id':'ok-turn'})]
+        self.assertTrue(I.audit_turns(d,{},events,done)[0])
+        (d/'resume-message.txt').write_text('Continue unchanged.\n')
+        save(d/'resume.json',dict(authorized_by='User resume',failures=[failed],successful_turns_before=0,
+            model=I.MODEL,effort=I.EFFORT,agent_path=I.read_json(d/'started.json')['agent_path'],
+            message='Continue unchanged.',message_sha256=D.digest(d/'resume-message.txt')))
+        with patch('enrichment.bible.discovery_native.followup_proof',return_value=[{'matches':True}]):
+            errors,history=I.audit_turns(d,{},events,done)
+            self.assertEqual(errors,[])
+            self.assertEqual(history['successful_completions'],1)
+            self.assertEqual(history['unfinished_attempts'],[failed])
+            self.assertTrue(I.audit_turns(d,{},events,done+[done[-1]])[0])
+        with patch('enrichment.bible.discovery_native.followup_proof',return_value=[]):
+            self.assertTrue(I.audit_turns(d,{},events,done)[0])
+
     def test_image_assembly_remaps_ids_and_preserves_per_section_evidence(self):
         root=self.prepare_images()
         for n in (1,2):

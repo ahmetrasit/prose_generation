@@ -66,6 +66,8 @@ Write files with functions.exec using EXACTLY this wrapper; PATCH must be one JS
 
 The patch may add/update only annotations.jsonl, verdicts.jsonl, gaps.json and notes.md in your call directory.
 Do not use template strings, variables, other JavaScript, shell writes or a script to generate judgments.
+Reading your own generated preview/surah.md is also allowed for checking placement; other sections remain
+outside your writing assignment. A native clock read is operational metadata, never research evidence.
 The wrapper restriction enables a mechanical audit of native tool use. It does not limit your reasoning.
 
 ## Deliver and check
@@ -79,7 +81,7 @@ unless the ref already has a discovery verdict. Preserve missing-source uncertai
 Run the image_enrich.py check command until it passes. It checks schema, candidate coverage, section scope,
 gap coverage and paragraph placement and writes draft_report.json plus preview/surah.md. It does not check
 native opened-evidence proof until the operator finishes your session. Read your own output files for the
-final prose review; the full preview includes other sections, which are outside your assignment.
+final prose review; the full preview includes other sections, which are outside your writing assignment.
 
 Do not finish with missing files or an unfinished partial ledger. An empty annotations file is allowed only
 with a specific no_findings_reason in gaps.json, and still needs all candidate and lookup verdicts.

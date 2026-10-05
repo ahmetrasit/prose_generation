@@ -276,8 +276,13 @@ source hashes, and the commentary pack. Each agent receives just its image's
 commentary with global paragraph numbers, the Arabic surah, its merged candidates
 and review findings, and the Bible rules. The parent run locks source/index
 mutation until assembly. Each agent verifies, researches and writes its section;
-it cannot delegate or consult another author. Every image uses one native turn,
-with an exact model/effort check and a restricted, auditable tool grammar.
+it cannot delegate or consult another author. Every image requires one successful
+native completion, with an exact model/effort check and an auditable tool grammar.
+An explicitly authorized same-session resume may retain an interrupted or failed
+attempt: record its exact native failure history, unchanged model/inputs, resume
+message and parent delivery proof. Failed attempts remain visible; they are never
+counted as successful completions. Reading the agent's own generated preview and
+checking the clock are operational activities, not additional research sources.
 
 Each image must pass schema, paragraph-scope, candidate/gap-coverage and actual
 opened-evidence checks. Canonical rejection requires the original verse too.

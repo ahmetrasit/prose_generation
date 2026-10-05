@@ -244,6 +244,8 @@ def unwrap_call(name, arguments, bootstrap=False):
         return name, json.loads(arguments) if name == 'exec_command' else arguments
     if name != 'exec':
         raise ValueError(f'unsupported tool: {name}')
+    if re.fullmatch(r'\s*const r\s*=\s*await tools\.clock__curr_time\(\{\}\);\s*text\(r\.current_time\);?\s*',arguments):
+        return 'clock', {}
     command = re.fullmatch(r'\s*const r\s*=\s*await tools\.exec_command\((\{[\s\S]*\})\);\s*text\(r\.output\);?\s*', arguments)
     if command:
         return 'exec_command', bootstrap_object(command[1]) if bootstrap else json.loads(command[1])
@@ -278,7 +280,8 @@ def allowed_command(cmd, d):
     else:
         paths = None
     if paths is not None:
-        return bool(paths) and all((Path(p) if Path(p).is_absolute() else E.PG/p).resolve().parent == d for p in paths)
+        resolved=[(Path(p) if Path(p).is_absolute() else E.PG/p).resolve() for p in paths]
+        return bool(paths) and all(p.parent == d or p == d/'preview/surah.md' for p in resolved)
     if len(args) < 3 or args[0] not in ('python3', sys.executable): return False
     script = Path(args[1])
     if not script.is_absolute(): script = E.PG/script
@@ -292,11 +295,40 @@ def allowed_command(cmd, d):
     return False
 
 
+def audit_turns(d, session, events, done):
+    """Keep interrupted/failed attempts visible; one successful author completion."""
+    from enrichment.bible import discovery_native as DN
+    successful=[e for e in done if not e['payload'].get('error')]
+    failed=[e['payload'] for e in events if e.get('type')=='event_msg' and
+            (e.get('payload',{}).get('type')=='turn_aborted' or
+             (e.get('payload',{}).get('type') in ('task_complete','task_completed') and e['payload'].get('error')))]
+    errors=[];proof=[]
+    if len(successful)!=1: errors.append(f'expected one successful native completion, found {len(successful)}')
+    if failed:
+        try:
+            resumed=read_json(d/'resume.json')
+            job=read_json(d/'started.json')
+            if resumed.get('failures')!=failed or resumed.get('successful_turns_before')!=0:
+                raise ValueError('resume record does not match the unfinished native history')
+            if (resumed.get('model'),resumed.get('effort'),resumed.get('agent_path'))!=(MODEL,EFFORT,job['agent_path']):
+                raise ValueError('resume identity/model differs')
+            if not resumed.get('authorized_by') or D.digest(d/'resume-message.txt')!=resumed.get('message_sha256'):
+                raise ValueError('missing or changed resume authorization/message')
+            if (d/'resume-message.txt').read_text().strip()!=resumed['message']:
+                raise ValueError('resume message differs')
+            proof=DN.followup_proof(session,events,resumed['message'])
+            if len(proof)!=1 or not (proof[0].get('matches') or proof[0].get('encrypted')):
+                raise ValueError('missing exact same-session resume delivery')
+        except (OSError,ValueError,KeyError,TypeError) as exc:
+            errors.append(str(exc))
+    return errors,dict(successful_completions=len(successful),unfinished_attempts=failed,resume_delivery=proof)
+
+
 def native_audit(d):
     job = frozen_ok(d)
     session, events, done, contexts, usage = N.events_for(d)
-    errors, normalized = [], []
-    if len(done) != 1: errors.append(f'expected one completed native turn, found {len(done)}')
+    errors, turn_history = audit_turns(d,session,events,done)
+    normalized = []
     if not contexts or any(c.get('model') != MODEL or c.get('effort') != EFFORT for c in contexts):
         errors.append('unexpected native model or effort')
     calls, diagnostics = N.tool_audit(events, done[0]['timestamp'] if done else '9999')
@@ -314,7 +346,7 @@ def native_audit(d):
                         raise ValueError('initial bootstrap may only read this image prompt')
                 normalized.append(dict(name='Bash', input={'command':inp['cmd']}, result=output_text(call['output']),
                                        is_error=False, call_id=call['call_id']))
-            elif not allowed_patch(inp, d):
+            elif kind == 'apply_patch' and not allowed_patch(inp, d):
                 raise ValueError('patch outside image deliverables')
         except (ValueError, TypeError, KeyError) as exc:
             errors.append(f"{call['call_id']}: {exc}")
@@ -322,6 +354,7 @@ def native_audit(d):
     D.save(d/'tool_calls.json', normalized)
     (d/'session.events.jsonl').write_text(''.join(json.dumps(e,ensure_ascii=False)+'\n' for e in events))
     return dict(ok=not errors, errors=errors, session=session, completed_turns=len(done),
+                turn_history=turn_history,
                 contexts=[dict(model=c.get('model'),effort=c.get('effort')) for c in contexts],
                 usage_tokens=usage, diagnostics=diagnostics, calls=len(calls),
                 cost_basis='Codex subscription; no per-call dollar charge recorded'), normalized
