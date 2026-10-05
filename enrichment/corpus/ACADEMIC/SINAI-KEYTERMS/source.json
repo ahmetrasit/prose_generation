@@ -6,17 +6,48 @@
   "kind": "lexicon",
   "tradition": "academic (historical-critical semantics)",
   "language": "en",
-  "edition": "Princeton: Princeton University Press, 2023",
-  "access": "hafiza",
-  "locator": "entry",
-  "coverage": "c. 60 entries on core Qurʾānic terms, with diachronic/intertextual discussion",
+  "edition": "N. Sinai, Key Terms of the Qur'an: A Critical Dictionary, Princeton 2023 (PDF)",
+  "access": "yerel",
+  "locator": "page",
+  "coverage": "whole book by page; cited ayat in refs (`corpus.py cites S:A`)",
   "target_coverage": {
     "terms": "entries likely relevant to S1/S107 etc.: dīn, ṣallā/ṣalāh, zakāh, kafara, ashraka, ittaqā/taqwā, raḥmah/raḥmān, rabb, qalb, ʾāmana (from memory — verify)"
   },
   "open_access": [],
-  "urls": [],
-  "fetched_at": "2026-10-03",
-  "files": {},
-  "licence": "licensed book; not held locally",
-  "notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+  "urls": [
+    "https://ora.ox.ac.uk/objects/uuid%3A2a4e4769-813e-48e9-bf95-c36fdd593c8b",
+    "https://ora.ox.ac.uk/objects/uuid%3A2a4e4769-813e-48e9-bf95-c36fdd593c8b/files/smg74qp037"
+  ],
+  "fetched_at": "2026-10-05T13:56:12.710809+00:00",
+  "files": {
+    "raw/acquired-2026-10-05/sinai-key-terms-2023.pdf": "c799fc677aff1374fe1ae7a9cef5707a85b3e8813f193ce1bc42e94e83415344"
+  },
+  "licence": "copyrighted or public domain as the edition; local research copy only (user, 2026-10-05: licence is no barrier for local analysis)",
+  "notes": "Ingested 2026-10-05 from the user's download (fetch/import_pages.py SINAI-KEYTERMS). . Pointer note before ingestion: Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it.",
+  "acquisition": {
+    "date": "2026-10-05",
+    "state": "raw_downloaded",
+    "ingestion_status": "ingested",
+    "files": 1,
+    "pdfs": 1,
+    "ocr_sidecars": 0,
+    "bytes": 7423825,
+    "manifest": "../../../v2/audits/2026-10-05-source-downloads/manifest.json",
+    "note": "Raw originals are now held locally. access remains hafiza until searchable segments are ingested and checked. Earlier pointer notes describe the pre-acquisition audit."
+  },
+  "segments": 1015,
+  "ingestion": {
+    "date": "2026-10-05",
+    "script": "enrichment/v2/fetch/import_pages.py SINAI-KEYTERMS",
+    "from": {
+      "raw/acquired-2026-10-05/sinai-key-terms-2023.pdf": "c799fc677aff1374fe1ae7a9cef5707a85b3e8813f193ce1bc42e94e83415344"
+    },
+    "method": "PDF text layer (pypdf via fetch/pdf_pages.py); one segment per page; refs in the book's citation style",
+    "repairs": {},
+    "quality": "text layer good",
+    "segments": 1015,
+    "tied_to_ayah": 0,
+    "with_cited_ayat": 896,
+    "characters": 3040419
+  }
 }

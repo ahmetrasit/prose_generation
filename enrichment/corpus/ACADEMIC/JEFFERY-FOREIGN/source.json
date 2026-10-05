@@ -6,10 +6,10 @@
   "kind": "lexicon",
   "tradition": "academic (comparative-philological; loanwords)",
   "language": "en",
-  "edition": "Baroda: Oriental Institute, 1938 (Gaekwad's Oriental Series 79); reprints Lahore 1977, Leiden: Brill 2007",
-  "access": "hafiza",
+  "edition": "A. Jeffery, The Foreign Vocabulary of the Qurʾān, Baroda 1938 (archive.org scan and OCR)",
+  "access": "yerel",
   "locator": "page",
-  "coverage": "c. 275 words of possible non-Arabic origin, alphabetical by Arabic headword",
+  "coverage": "whole book by page; cited ayat in refs (`corpus.py cites S:A`)",
   "target_coverage": {
     "terms": "entries e.g. ṣalāt, zakāt, dīn, ʿālam/ʿālamīn, rabb?, raḥmān, sūra; Nişanyan's 'âlem' note cites Jeffery p. 209"
   },
@@ -25,10 +25,47 @@
   ],
   "urls": [
     "https://archive.org/details/foreignvocabular030753mbp",
-    "https://archive.org/details/in.ernet.dli.2015.68878"
+    "https://archive.org/details/in.ernet.dli.2015.68878",
+    "https://archive.org/download/foreignvocabular030753mbp/foreignvocabular030753mbp.pdf",
+    "https://archive.org/download/foreignvocabular030753mbp/foreignvocabular030753mbp_djvu.txt"
   ],
-  "fetched_at": "2026-10-03",
-  "files": {},
-  "licence": "CAUTION: not safely public domain — Jeffery died 1959, so under life+70 the work is protected until end of 2029; US status depends on notice/renewal of a 1938 foreign publication (unverified). archive.org copies are DLI scans without a stated licence. Recorded, not downloaded.",
-  "notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+  "fetched_at": "2026-10-05T13:56:12.710809+00:00",
+  "files": {
+    "raw/acquired-2026-10-05/jeffery-foreign-1938.pdf": "cf017b15c42b84e37552766227b087ec12222c2e3a5280b8848b33bf23b81aae",
+    "raw/acquired-2026-10-05/jeffery-foreign-1938.ocr.txt": "927e8024dd808609fae76a27de0d298a49a46a6cde4e0758692a8367e9ad8ae7"
+  },
+  "licence": "copyrighted or public domain as the edition; local research copy only (user, 2026-10-05: licence is no barrier for local analysis)",
+  "notes": "Ingested 2026-10-05 from the user's download (fetch/import_pages.py JEFFERY-FOREIGN). OCR: English good; Arabic, Syriac, Hebrew script quotations are garbage. Pointer note before ingestion: Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it.",
+  "acquisition": {
+    "date": "2026-10-05",
+    "state": "raw_downloaded",
+    "ingestion_status": "ingested",
+    "files": 2,
+    "pdfs": 1,
+    "ocr_sidecars": 1,
+    "bytes": 16378635,
+    "manifest": "../../../v2/audits/2026-10-05-source-downloads/manifest.json",
+    "note": "Raw originals are now held locally. access remains hafiza until searchable segments are ingested and checked. Earlier pointer notes describe the pre-acquisition audit."
+  },
+  "segments": 325,
+  "ingestion": {
+    "date": "2026-10-05",
+    "script": "enrichment/v2/fetch/import_pages.py JEFFERY-FOREIGN",
+    "from": {
+      "raw/acquired-2026-10-05/jeffery-foreign-1938.ocr.txt": "927e8024dd808609fae76a27de0d298a49a46a6cde4e0758692a8367e9ad8ae7",
+      "raw/acquired-2026-10-05/jeffery-foreign-1938.pdf": "cf017b15c42b84e37552766227b087ec12222c2e3a5280b8848b33bf23b81aae"
+    },
+    "method": "archive OCR file cut at the PDF pages; one segment per page; refs in the book's citation style",
+    "repairs": {
+      "pages from the OCR file": 323,
+      "pages whose OCR length differs from the text layer by >5%": 1,
+      "empty pages": 10,
+      "printed number shared by two pages: PDF page used": 11
+    },
+    "quality": "OCR: English good; Arabic, Syriac, Hebrew script quotations are garbage",
+    "segments": 325,
+    "tied_to_ayah": 0,
+    "with_cited_ayat": 146,
+    "characters": 648302
+  }
 }

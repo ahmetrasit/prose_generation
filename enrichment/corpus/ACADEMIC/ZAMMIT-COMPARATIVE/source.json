@@ -6,17 +6,50 @@
   "kind": "lexicon",
   "tradition": "academic (comparative Semitic lexicography)",
   "language": "en",
-  "edition": "Leiden: Brill, 2002 (Handbook of Oriental Studies I.61)",
-  "access": "hafiza",
-  "locator": "entry",
-  "coverage": "Qurʾānic roots compared with other Semitic languages (statistics of shared roots)",
+  "edition": "M. R. Zammit, A Comparative Lexical Study of Qurʾānic Arabic, Leiden 2002 (PDF)",
+  "access": "yerel",
+  "locator": "page",
+  "coverage": "whole book by page; cited ayat in refs (`corpus.py cites S:A`)",
   "target_coverage": {
     "note": "root-level, not sūra-level; relevant roots: ṣ-l-w, z-k-w, d-y-n, ʿ-l-m, r-b-b, q-l-b, ṣ-d-r (from memory — verify)"
   },
   "open_access": [],
-  "urls": [],
-  "fetched_at": "2026-10-03",
-  "files": {},
-  "licence": "licensed book; not held locally",
-  "notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+  "urls": [
+    "https://azahari.blog/wp-content/uploads/2025/01/lexical-study-of-quranic-arabic.pdf"
+  ],
+  "fetched_at": "2026-10-05T13:56:12.710809+00:00",
+  "files": {
+    "raw/acquired-2026-10-05/zammit-comparative-lexical-study.pdf": "d4dceee52aeb96d0281f61c06a69abb42dea0fd9b3b48c4e4d818f109b1795f3"
+  },
+  "licence": "copyrighted or public domain as the edition; local research copy only (user, 2026-10-05: licence is no barrier for local analysis)",
+  "notes": "Ingested 2026-10-05 from the user's download (fetch/import_pages.py ZAMMIT-COMPARATIVE). the comparative tables are laid out in columns; the text layer reads them row by row across two entries (page text kept as extracted). Pointer note before ingestion: Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it.",
+  "acquisition": {
+    "date": "2026-10-05",
+    "state": "raw_downloaded",
+    "ingestion_status": "ingested",
+    "files": 1,
+    "pdfs": 1,
+    "ocr_sidecars": 0,
+    "bytes": 18134259,
+    "manifest": "../../../v2/audits/2026-10-05-source-downloads/manifest.json",
+    "note": "Raw originals are now held locally. access remains hafiza until searchable segments are ingested and checked. Earlier pointer notes describe the pre-acquisition audit."
+  },
+  "segments": 671,
+  "ingestion": {
+    "date": "2026-10-05",
+    "script": "enrichment/v2/fetch/import_pages.py ZAMMIT-COMPARATIVE",
+    "from": {
+      "raw/acquired-2026-10-05/zammit-comparative-lexical-study.pdf": "d4dceee52aeb96d0281f61c06a69abb42dea0fd9b3b48c4e4d818f109b1795f3"
+    },
+    "method": "PDF text layer (pypdf via fetch/pdf_pages.py); one segment per page; refs in the book's citation style",
+    "repairs": {
+      "empty pages": 1,
+      "printed number shared by two pages: PDF page used": 38
+    },
+    "quality": "the comparative tables are laid out in columns; the text layer reads them row by row across two entries (page text kept as extracted)",
+    "segments": 671,
+    "tied_to_ayah": 0,
+    "with_cited_ayat": 75,
+    "characters": 841330
+  }
 }

@@ -1,0 +1,3007 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-05",
+  "verified_at": "2026-10-05T13:56:12.710809+00:00",
+  "scope": "19 downloadable missing sources plus Salih Akdemir; raw acquisition only",
+  "ingestion_status": "pending",
+  "user_handled": [
+    "AMBROS-CONCISE",
+    "MEAL-MOZTURK",
+    "NEUWIRTH-KORAN1",
+    "FARRIN-STRUCTURE"
+  ],
+  "summary": {
+    "sources": 20,
+    "complete_sources": 20,
+    "verified_files": 62,
+    "pdfs": 49,
+    "ocr_sidecars": 13,
+    "bytes": 2538146818,
+    "pdf_pages": 30709,
+    "failures": 0
+  },
+  "verification_limits": [
+    "Container integrity and sample extraction do not prove every printed page is present.",
+    "OCR sidecars are machine output; Arabic, Urdu, Turkish and scholarly transliteration require quality checks.",
+    "Original files retained; no summaries, normalized segments, ayah mapping, or index rebuild performed."
+  ],
+  "sources": [
+    {
+      "id": "JEFFERY-FOREIGN",
+      "title": "The Foreign Vocabulary of the Qur'ān",
+      "metadata_path": "enrichment/corpus/ACADEMIC/JEFFERY-FOREIGN/source.json",
+      "status": "raw_downloaded",
+      "files": 2,
+      "pdfs": 1,
+      "ocr_sidecars": 1,
+      "pages": 335,
+      "bytes": 16378635,
+      "ingestion_status": "pending",
+      "failed_paths": []
+    },
+    {
+      "id": "BADAWI-HALEEM",
+      "title": "Arabic-English Dictionary of Qur'anic Usage",
+      "metadata_path": "enrichment/corpus/ACADEMIC/BADAWI-HALEEM/source.json",
+      "status": "raw_downloaded",
+      "files": 1,
+      "pdfs": 1,
+      "ocr_sidecars": 0,
+      "pages": 1095,
+      "bytes": 8678017,
+      "ingestion_status": "pending",
+      "failed_paths": []
+    },
+    {
+      "id": "BINTSHATI",
+      "title": "al-Tafsīr al-bayānī li-l-Qurʾān al-karīm (2 vols)",
+      "metadata_path": "enrichment/corpus/BINTSHATI/source.json",
+      "status": "raw_downloaded",
+      "files": 4,
+      "pdfs": 2,
+      "ocr_sidecars": 2,
+      "pages": 418,
+      "bytes": 10125388,
+      "ingestion_status": "pending",
+      "failed_paths": []
+    },
+    {
+      "id": "KHULI",
+      "title": "Manāhij tajdīd fī al-naḥw wa-l-balāgha wa-l-tafsīr wa-l-adab",
+      "metadata_path": "enrichment/corpus/KHULI/source.json",
+      "status": "raw_downloaded",
+      "files": 2,
+      "pdfs": 1,
+      "ocr_sidecars": 1,
+      "pages": 368,
+      "bytes": 18642731,
+      "ingestion_status": "pending",
+      "failed_paths": []
+    },
+    {
+      "id": "NOLDEKE-GDQ",
+      "title": "Geschichte des Qorāns",
+      "metadata_path": "enrichment/corpus/ACADEMIC/NOLDEKE-GDQ/source.json",
+      "status": "raw_downloaded",
+      "files": 6,
+      "pdfs": 3,
+      "ocr_sidecars": 3,
+      "pages": 957,
+      "bytes": 240380413,
+      "ingestion_status": "pending",
+      "failed_paths": []
+    },
+    {
+      "id": "FARAHI-NIZAM",
+      "title": "Tafsīr Niẓām al-Qurʾān wa-taʾwīl al-Furqān bi-l-Furqān",
+      "metadata_path": "enrichment/corpus/ACADEMIC/FARAHI-NIZAM/source.json",
+      "status": "raw_downloaded",
+      "files": 4,
+      "pdfs": 2,
+      "ocr_sidecars": 2,
+      "pages": 635,
+      "bytes": 9005327,
+      "ingestion_status": "pending",
+      "failed_paths": []
+    },
+    {
+      "id": "EQ",
+      "title": "Encyclopaedia of the Qurʾān",
+      "metadata_path": "enrichment/corpus/ACADEMIC/EQ/source.json",
+      "status": "raw_downloaded",
+      "files": 2,
+      "pdfs": 1,
+      "ocr_sidecars": 1,
+      "pages": 3956,
+      "bytes": 56481184,
+      "ingestion_status": "pending",
+      "failed_paths": []
+    },
+    {
+      "id": "STUDYQURAN",
+      "title": "The Study Quran: A New Translation and Commentary",
+      "metadata_path": "enrichment/corpus/ACADEMIC/STUDYQURAN/source.json",
+      "status": "raw_downloaded",
+      "files": 2,
+      "pdfs": 1,
+      "ocr_sidecars": 1,
+      "pages": 4664,
+      "bytes": 28285183,
+      "ingestion_status": "pending",
+      "failed_paths": []
+    },
+    {
+      "id": "MEAL-ATAY",
+      "title": "Kur'an-ı Kerim Türkçe Çeviri (solo meal)",
+      "metadata_path": "enrichment/corpus/MEAL-ATAY/source.json",
+      "status": "raw_downloaded",
+      "files": 2,
+      "pdfs": 1,
+      "ocr_sidecars": 1,
+      "pages": 654,
+      "bytes": 3727824,
+      "ingestion_status": "pending",
+      "failed_paths": []
+    },
+    {
+      "id": "MEAL-AKDEMIR",
+      "title": "Son Çağrı Kur'an",
+      "metadata_path": "enrichment/corpus/MEAL-AKDEMIR/source.json",
+      "status": "raw_downloaded",
+      "files": 2,
+      "pdfs": 1,
+      "ocr_sidecars": 1,
+      "pages": 660,
+      "bytes": 38583430,
+      "ingestion_status": "pending",
+      "failed_paths": []
+    },
+    {
+      "id": "SINAI-KEYTERMS",
+      "title": "Key Terms of the Qur'an: A Critical Dictionary",
+      "metadata_path": "enrichment/corpus/ACADEMIC/SINAI-KEYTERMS/source.json",
+      "status": "raw_downloaded",
+      "files": 1,
+      "pdfs": 1,
+      "ocr_sidecars": 0,
+      "pages": 1015,
+      "bytes": 7423825,
+      "ingestion_status": "pending",
+      "failed_paths": []
+    },
+    {
+      "id": "ZAMMIT-COMPARATIVE",
+      "title": "A Comparative Lexical Study of Qur'ānic Arabic",
+      "metadata_path": "enrichment/corpus/ACADEMIC/ZAMMIT-COMPARATIVE/source.json",
+      "status": "raw_downloaded",
+      "files": 1,
+      "pdfs": 1,
+      "ocr_sidecars": 0,
+      "pages": 672,
+      "bytes": 18134259,
+      "ingestion_status": "pending",
+      "failed_paths": []
+    },
+    {
+      "id": "MEAL-HAMIDULLAH",
+      "title": "Aziz Kur'an: Kur'ân-ı Kerîm'in Türkçe Meâli (from Hamidullah's French)",
+      "metadata_path": "enrichment/corpus/MEAL-HAMIDULLAH/source.json",
+      "status": "raw_downloaded",
+      "files": 1,
+      "pdfs": 1,
+      "ocr_sidecars": 0,
+      "pages": 531,
+      "bytes": 18767606,
+      "ingestion_status": "pending",
+      "failed_paths": []
+    },
+    {
+      "id": "ASAD-NOTES",
+      "title": "The Message of the Qur'an - commentary notes",
+      "metadata_path": "enrichment/corpus/ASAD-NOTES/source.json",
+      "status": "raw_downloaded",
+      "files": 1,
+      "pdfs": 1,
+      "ocr_sidecars": 0,
+      "pages": 1326,
+      "bytes": 4286177,
+      "ingestion_status": "pending",
+      "failed_paths": []
+    },
+    {
+      "id": "CUYPERS-COMPOSITION",
+      "title": "The Composition of the Qur'an: Rhetorical Analysis",
+      "metadata_path": "enrichment/corpus/ACADEMIC/CUYPERS-COMPOSITION/source.json",
+      "status": "raw_downloaded",
+      "files": 1,
+      "pdfs": 1,
+      "ocr_sidecars": 0,
+      "pages": 217,
+      "bytes": 1562436,
+      "ingestion_status": "pending",
+      "failed_paths": []
+    },
+    {
+      "id": "IBNKHALAWAYH-MUKHTASAR",
+      "title": "Mukhtaṣar fī shawādhdh al-Qurʾān min Kitāb al-Badīʿ",
+      "metadata_path": "enrichment/corpus/IBNKHALAWAYH-MUKHTASAR/source.json",
+      "status": "raw_downloaded",
+      "files": 1,
+      "pdfs": 1,
+      "ocr_sidecars": 0,
+      "pages": 246,
+      "bytes": 4816443,
+      "ingestion_status": "pending",
+      "failed_paths": []
+    },
+    {
+      "id": "ABDUH-AMMA",
+      "title": "Tafsīr al-Qurʾān al-karīm: Juzʾ ʿAmma",
+      "metadata_path": "enrichment/corpus/ABDUH-AMMA/source.json",
+      "status": "raw_downloaded",
+      "files": 1,
+      "pdfs": 1,
+      "ocr_sidecars": 0,
+      "pages": 189,
+      "bytes": 4773194,
+      "ingestion_status": "pending",
+      "failed_paths": []
+    },
+    {
+      "id": "MUQATIL-WUJUH",
+      "title": "al-Ashbāh wa-l-naẓāʾir fī al-Qurʾān al-karīm (al-Wujūh wa-l-naẓāʾir)",
+      "metadata_path": "enrichment/corpus/MUQATIL-WUJUH/source.json",
+      "status": "raw_downloaded",
+      "files": 1,
+      "pdfs": 1,
+      "ocr_sidecars": 0,
+      "pages": 308,
+      "bytes": 12071320,
+      "ingestion_status": "pending",
+      "failed_paths": []
+    },
+    {
+      "id": "TARAMA",
+      "title": "TDK Tarama Sözlüğü (XIII. yüzyıldan beri Türkiye Türkçesiyle yazılmış kitaplardan toplanan tanıklarıyla)",
+      "metadata_path": "enrichment/corpus/TARAMA/source.json",
+      "status": "raw_downloaded",
+      "files": 8,
+      "pdfs": 8,
+      "ocr_sidecars": 0,
+      "pages": 2839,
+      "bytes": 698631519,
+      "ingestion_status": "pending",
+      "failed_paths": []
+    },
+    {
+      "id": "ISLAHI-TADABBUR",
+      "title": "Tadabbur-i Qurʾān",
+      "metadata_path": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/source.json",
+      "status": "raw_downloaded",
+      "files": 19,
+      "pdfs": 19,
+      "ocr_sidecars": 0,
+      "pages": 9624,
+      "bytes": 1337391907,
+      "ingestion_status": "pending",
+      "failed_paths": []
+    }
+  ],
+  "files": [
+    {
+      "source": "JEFFERY-FOREIGN",
+      "path": "enrichment/corpus/ACADEMIC/JEFFERY-FOREIGN/raw/acquired-2026-10-05/jeffery-foreign-1938.pdf",
+      "url": "https://archive.org/download/foreignvocabular030753mbp/foreignvocabular030753mbp.pdf",
+      "origin": "https://archive.org/details/foreignvocabular030753mbp",
+      "format": "pdf",
+      "archive_identifier": "foreignvocabular030753mbp",
+      "remote_filename": "foreignvocabular030753mbp.pdf",
+      "expected_bytes": 15728732,
+      "expected_md5": "5d9334479fdd3f33dbee3b5632ea58ae",
+      "expected_sha1": "09a2e5631b1b6ba6a292e8433a10e31369c59a13",
+      "bytes": 15728732,
+      "http_status": 200,
+      "effective_url": "https://dn760005.eu.archive.org/0/items/foreignvocabular030753mbp/foreignvocabular030753mbp.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "cf017b15c42b84e37552766227b087ec12222c2e3a5280b8848b33bf23b81aae",
+      "archive_checksum_verified": true,
+      "pages": 335,
+      "pdf_metadata": {
+        "/CreationDate": "D:20061115200639Z",
+        "/Producer": "Recoded by LuraDocument PDF v2.16"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 27
+        },
+        {
+          "pdf_page": 2,
+          "chars": 0
+        },
+        {
+          "pdf_page": 3,
+          "chars": 217
+        },
+        {
+          "pdf_page": 335,
+          "chars": 0
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791206884175796957
+    },
+    {
+      "source": "JEFFERY-FOREIGN",
+      "path": "enrichment/corpus/ACADEMIC/JEFFERY-FOREIGN/raw/acquired-2026-10-05/jeffery-foreign-1938.ocr.txt",
+      "url": "https://archive.org/download/foreignvocabular030753mbp/foreignvocabular030753mbp_djvu.txt",
+      "origin": "https://archive.org/details/foreignvocabular030753mbp",
+      "format": "ocr_text",
+      "archive_identifier": "foreignvocabular030753mbp",
+      "remote_filename": "foreignvocabular030753mbp_djvu.txt",
+      "expected_bytes": 649903,
+      "expected_md5": "ed3e1d6026a65dd9172358f37d1aeaf1",
+      "expected_sha1": "efef00b69119297d1e4a2932bad7b4fbc0263067",
+      "bytes": 649903,
+      "http_status": 200,
+      "effective_url": "https://ia600109.us.archive.org/15/items/foreignvocabular030753mbp/foreignvocabular030753mbp_djvu.txt",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "927e8024dd808609fae76a27de0d298a49a46a6cde4e0758692a8367e9ad8ae7",
+      "archive_checksum_verified": true,
+      "text_chars": 649903,
+      "validation": "Nonempty UTF-8 OCR sidecar; not quality-corrected",
+      "status": "verified_download",
+      "mtime_ns": 1791206875666161159
+    },
+    {
+      "source": "BADAWI-HALEEM",
+      "path": "enrichment/corpus/ACADEMIC/BADAWI-HALEEM/raw/acquired-2026-10-05/badawi-haleem-2008.pdf",
+      "url": "https://archive.org/download/LearnArabicPackageinc.LanesLexiconArabicDictionaryNearSynonyms/Arabic-English-Dictionary-Quranic-Usage.pdf",
+      "origin": "https://archive.org/details/LearnArabicPackageinc.LanesLexiconArabicDictionaryNearSynonyms",
+      "format": "pdf",
+      "archive_identifier": "LearnArabicPackageinc.LanesLexiconArabicDictionaryNearSynonyms",
+      "remote_filename": "Arabic-English-Dictionary-Quranic-Usage.pdf",
+      "expected_bytes": 8678017,
+      "expected_md5": "ab671894eda6a173e3629838e7060741",
+      "expected_sha1": "5603f8181ee19a4fdd10201bf82b293d9ebb1233",
+      "bytes": 8678017,
+      "http_status": 200,
+      "effective_url": "https://dn710106.ca.archive.org/0/items/LearnArabicPackageinc.LanesLexiconArabicDictionaryNearSynonyms/Arabic-English-Dictionary-Quranic-Usage.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "c9c852f1986841d7a757bee37d8c491a0d301d7db5a844e3d3f9a98cc3c1cb86",
+      "archive_checksum_verified": true,
+      "pages": 1095,
+      "pdf_metadata": {
+        "/CreationDate": "D:20110911170028+03'00'"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 46
+        },
+        {
+          "pdf_page": 2,
+          "chars": 256
+        },
+        {
+          "pdf_page": 3,
+          "chars": 109
+        },
+        {
+          "pdf_page": 1095,
+          "chars": 19767
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791206876314670733
+    },
+    {
+      "source": "BINTSHATI",
+      "path": "enrichment/corpus/BINTSHATI/raw/acquired-2026-10-05/bintshati-vol-1.pdf",
+      "url": "https://archive.org/download/elshandawily0546/%D9%85%D9%83%D8%AA%D8%A8%D8%A9%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A3%D8%AF%D8%A8%D9%8A%D8%A9%20%20-%2025%20%D8%A7%D9%84%D8%AA%D9%81%D8%B3%D9%8A%D8%B1%20%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D9%8A%20%D9%84%D9%84%D9%82%D8%B1%D8%A2%D9%86%20%20%D8%AC1.pdf",
+      "origin": "https://archive.org/details/elshandawily0546",
+      "format": "pdf",
+      "archive_identifier": "elshandawily0546",
+      "remote_filename": "مكتبة الدراسات الأدبية  - 25 التفسير البياني للقرآن  ج1.pdf",
+      "expected_bytes": 5171980,
+      "expected_md5": "fd5011d817b5519cba7335eb8ae8fb49",
+      "expected_sha1": "b93655809d9cb0df5c7de1d07fe72fc95606c59b",
+      "bytes": 5171980,
+      "http_status": 200,
+      "effective_url": "https://dn721806.ca.archive.org/0/items/elshandawily0546/%D9%85%D9%83%D8%AA%D8%A8%D8%A9%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A3%D8%AF%D8%A8%D9%8A%D8%A9%20%20-%2025%20%D8%A7%D9%84%D8%AA%D9%81%D8%B3%D9%8A%D8%B1%20%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D9%8A%20%D9%84%D9%84%D9%82%D8%B1%D8%A2%D9%86%20%20%D8%AC1.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "f1c723e935f51e2bcd8f021170f08d15fc2a7a17f1bd4aee3fd3cb3a1804c244",
+      "archive_checksum_verified": true,
+      "pages": 222,
+      "pdf_metadata": {
+        "/Producer": "GPL Ghostscript 10.05.0",
+        "/CreationDate": "D:20250716081000+03'00'",
+        "/Title": "",
+        "/Author": "",
+        "/Creator": ""
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 0
+        },
+        {
+          "pdf_page": 2,
+          "chars": 0
+        },
+        {
+          "pdf_page": 3,
+          "chars": 0
+        },
+        {
+          "pdf_page": 222,
+          "chars": 0
+        }
+      ],
+      "sample_has_embedded_text": false,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791206875936758787
+    },
+    {
+      "source": "BINTSHATI",
+      "path": "enrichment/corpus/BINTSHATI/raw/acquired-2026-10-05/bintshati-vol-1.ocr.txt",
+      "url": "https://archive.org/download/elshandawily0546/%D9%85%D9%83%D8%AA%D8%A8%D8%A9%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A3%D8%AF%D8%A8%D9%8A%D8%A9%20%20-%2025%20%D8%A7%D9%84%D8%AA%D9%81%D8%B3%D9%8A%D8%B1%20%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D9%8A%20%D9%84%D9%84%D9%82%D8%B1%D8%A2%D9%86%20%20%D8%AC1_djvu.txt",
+      "origin": "https://archive.org/details/elshandawily0546",
+      "format": "ocr_text",
+      "archive_identifier": "elshandawily0546",
+      "remote_filename": "مكتبة الدراسات الأدبية  - 25 التفسير البياني للقرآن  ج1_djvu.txt",
+      "expected_bytes": 463779,
+      "expected_md5": "b965bec9bb134195a183371eefc15f10",
+      "expected_sha1": "761cee2d9d8203ac0449735689dfca0592a9fd64",
+      "bytes": 463779,
+      "http_status": 200,
+      "effective_url": "https://dn721806.ca.archive.org/0/items/elshandawily0546/%D9%85%D9%83%D8%AA%D8%A8%D8%A9%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A3%D8%AF%D8%A8%D9%8A%D8%A9%20%20-%2025%20%D8%A7%D9%84%D8%AA%D9%81%D8%B3%D9%8A%D8%B1%20%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D9%8A%20%D9%84%D9%84%D9%82%D8%B1%D8%A2%D9%86%20%20%D8%AC1_djvu.txt",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "07278b0527578b50665b7367efbfab10ae955ec662acdea89c021e9d7d5b6bc6",
+      "archive_checksum_verified": true,
+      "text_chars": 266935,
+      "validation": "Nonempty UTF-8 OCR sidecar; not quality-corrected",
+      "status": "verified_download",
+      "mtime_ns": 1791206877219340870
+    },
+    {
+      "source": "BINTSHATI",
+      "path": "enrichment/corpus/BINTSHATI/raw/acquired-2026-10-05/bintshati-vol-2.pdf",
+      "url": "https://archive.org/download/elshandawily0547/%D9%85%D9%83%D8%AA%D8%A8%D8%A9%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A3%D8%AF%D8%A8%D9%8A%D8%A9%20%20-%2025%20%D8%A7%D9%84%D8%AA%D9%81%D8%B3%D9%8A%D8%B1%20%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D9%8A%20%D9%84%D9%84%D9%82%D8%B1%D8%A2%D9%86%20%20%D8%AC2.pdf",
+      "origin": "https://archive.org/details/elshandawily0547",
+      "format": "pdf",
+      "archive_identifier": "elshandawily0547",
+      "remote_filename": "مكتبة الدراسات الأدبية  - 25 التفسير البياني للقرآن  ج2.pdf",
+      "expected_bytes": 4072311,
+      "expected_md5": "500cc8bfaca452d7a673448f89fdbf5e",
+      "expected_sha1": "4335222ce103187fd5c48b49b43a8cbf5db28ad0",
+      "bytes": 4072311,
+      "http_status": 200,
+      "effective_url": "https://ia801407.us.archive.org/16/items/elshandawily0547/%D9%85%D9%83%D8%AA%D8%A8%D8%A9%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A3%D8%AF%D8%A8%D9%8A%D8%A9%20%20-%2025%20%D8%A7%D9%84%D8%AA%D9%81%D8%B3%D9%8A%D8%B1%20%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D9%8A%20%D9%84%D9%84%D9%82%D8%B1%D8%A2%D9%86%20%20%D8%AC2.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "e2db92da7181d583d4416ab3b15419e8cdc8b3efe7bb98e7b923a07230e0df84",
+      "archive_checksum_verified": true,
+      "pages": 196,
+      "pdf_metadata": {
+        "/Producer": "GPL Ghostscript 10.05.0",
+        "/CreationDate": "D:20250716081002+03'00'",
+        "/Title": "",
+        "/Author": "",
+        "/Creator": ""
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 0
+        },
+        {
+          "pdf_page": 2,
+          "chars": 0
+        },
+        {
+          "pdf_page": 3,
+          "chars": 0
+        },
+        {
+          "pdf_page": 196,
+          "chars": 0
+        }
+      ],
+      "sample_has_embedded_text": false,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791206877681842099
+    },
+    {
+      "source": "BINTSHATI",
+      "path": "enrichment/corpus/BINTSHATI/raw/acquired-2026-10-05/bintshati-vol-2.ocr.txt",
+      "url": "https://archive.org/download/elshandawily0547/%D9%85%D9%83%D8%AA%D8%A8%D8%A9%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A3%D8%AF%D8%A8%D9%8A%D8%A9%20%20-%2025%20%D8%A7%D9%84%D8%AA%D9%81%D8%B3%D9%8A%D8%B1%20%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D9%8A%20%D9%84%D9%84%D9%82%D8%B1%D8%A2%D9%86%20%20%D8%AC2_djvu.txt",
+      "origin": "https://archive.org/details/elshandawily0547",
+      "format": "ocr_text",
+      "archive_identifier": "elshandawily0547",
+      "remote_filename": "مكتبة الدراسات الأدبية  - 25 التفسير البياني للقرآن  ج2_djvu.txt",
+      "expected_bytes": 417318,
+      "expected_md5": "baaeab08fcdef188b34669a974554cf5",
+      "expected_sha1": "119fce85592dce0e6d577caa6ff9247f4edfd317",
+      "bytes": 417318,
+      "http_status": 200,
+      "effective_url": "https://dn721808.ca.archive.org/0/items/elshandawily0547/%D9%85%D9%83%D8%AA%D8%A8%D8%A9%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A3%D8%AF%D8%A8%D9%8A%D8%A9%20%20-%2025%20%D8%A7%D9%84%D8%AA%D9%81%D8%B3%D9%8A%D8%B1%20%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D9%8A%20%D9%84%D9%84%D9%82%D8%B1%D8%A2%D9%86%20%20%D8%AC2_djvu.txt",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "2871aa3f46cc4d05df28f37b5038edd9575d89243c3b46a46ec99432b1f9bd3c",
+      "archive_checksum_verified": true,
+      "text_chars": 239035,
+      "validation": "Nonempty UTF-8 OCR sidecar; not quality-corrected",
+      "status": "verified_download",
+      "mtime_ns": 1791206878047914524
+    },
+    {
+      "source": "KHULI",
+      "path": "enrichment/corpus/KHULI/raw/acquired-2026-10-05/khuli-manahij-tajdid-1961.pdf",
+      "url": "https://archive.org/download/AAlexandrina-087373/087373_%D9%85%D9%86%D8%A7%D9%87%D8%AC_%D8%AA%D8%AC%D8%AF%D9%8A%D8%AF_%D9%81%D9%89_%D8%A7%D9%84%D9%86%D8%AD%D9%88_%D9%88%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%BA%D8%A9_%D9%88%D8%A7%D9%84%D8%AA%D9%81%D8%B3%D9%8A%D8%B1_%D9%88%D8%A7%D9%84%D8%A7%D8%AF%D8%A8.pdf",
+      "origin": "https://archive.org/details/AAlexandrina-087373",
+      "format": "pdf",
+      "archive_identifier": "AAlexandrina-087373",
+      "remote_filename": "087373_مناهج_تجديد_فى_النحو_والبلاغة_والتفسير_والادب.pdf",
+      "expected_bytes": 17852407,
+      "expected_md5": "94dda5e01dffc830f0f71fac3ad88a90",
+      "expected_sha1": "0062afcdb25e2be530a22f003cd752695d372b7f",
+      "bytes": 17852407,
+      "http_status": 200,
+      "effective_url": "https://dn710608.ca.archive.org/0/items/AAlexandrina-087373/087373_%D9%85%D9%86%D8%A7%D9%87%D8%AC_%D8%AA%D8%AC%D8%AF%D9%8A%D8%AF_%D9%81%D9%89_%D8%A7%D9%84%D9%86%D8%AD%D9%88_%D9%88%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%BA%D8%A9_%D9%88%D8%A7%D9%84%D8%AA%D9%81%D8%B3%D9%8A%D8%B1_%D9%88%D8%A7%D9%84%D8%A7%D8%AF%D8%A8.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "d1b79b4dddd2059abdc2f84212a4df8ffaa0a8f9b5c8ad745676f5d6e12b0021",
+      "archive_checksum_verified": true,
+      "pages": 368,
+      "pdf_metadata": {
+        "/CreationDate": "D:20240831085622Z",
+        "/Producer": "img2pdf 0.4.0"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 0
+        },
+        {
+          "pdf_page": 2,
+          "chars": 0
+        },
+        {
+          "pdf_page": 3,
+          "chars": 0
+        },
+        {
+          "pdf_page": 368,
+          "chars": 0
+        }
+      ],
+      "sample_has_embedded_text": false,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791206880105922098
+    },
+    {
+      "source": "KHULI",
+      "path": "enrichment/corpus/KHULI/raw/acquired-2026-10-05/khuli-manahij-tajdid-1961.ocr.txt",
+      "url": "https://archive.org/download/AAlexandrina-087373/087373_%D9%85%D9%86%D8%A7%D9%87%D8%AC_%D8%AA%D8%AC%D8%AF%D9%8A%D8%AF_%D9%81%D9%89_%D8%A7%D9%84%D9%86%D8%AD%D9%88_%D9%88%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%BA%D8%A9_%D9%88%D8%A7%D9%84%D8%AA%D9%81%D8%B3%D9%8A%D8%B1_%D9%88%D8%A7%D9%84%D8%A7%D8%AF%D8%A8_djvu.txt",
+      "origin": "https://archive.org/details/AAlexandrina-087373",
+      "format": "ocr_text",
+      "archive_identifier": "AAlexandrina-087373",
+      "remote_filename": "087373_مناهج_تجديد_فى_النحو_والبلاغة_والتفسير_والادب_djvu.txt",
+      "expected_bytes": 790324,
+      "expected_md5": "227d5d48767dcaf2741029640f6cee6b",
+      "expected_sha1": "660add5c5ba3738601efdd79e6db5742c20511fc",
+      "bytes": 790324,
+      "http_status": 200,
+      "effective_url": "https://dn710608.ca.archive.org/0/items/AAlexandrina-087373/087373_%D9%85%D9%86%D8%A7%D9%87%D8%AC_%D8%AA%D8%AC%D8%AF%D9%8A%D8%AF_%D9%81%D9%89_%D8%A7%D9%84%D9%86%D8%AD%D9%88_%D9%88%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%BA%D8%A9_%D9%88%D8%A7%D9%84%D8%AA%D9%81%D8%B3%D9%8A%D8%B1_%D9%88%D8%A7%D9%84%D8%A7%D8%AF%D8%A8_djvu.txt",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "7a287a31524e2d0b14c680c0644434fe45b78353add0b2ab3f0aa912a07a9280",
+      "archive_checksum_verified": true,
+      "text_chars": 449441,
+      "validation": "Nonempty UTF-8 OCR sidecar; not quality-corrected",
+      "status": "verified_download",
+      "mtime_ns": 1791206879100004422
+    },
+    {
+      "source": "NOLDEKE-GDQ",
+      "path": "enrichment/corpus/ACADEMIC/NOLDEKE-GDQ/raw/acquired-2026-10-05/noldeke-gdq-vol-1.pdf",
+      "url": "https://archive.org/download/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans/Geschichte%20des%20Qor%C4%81ns%20-von%20Theodor%20N%C3%B6ldeke%20%2C%201%20%C3%9Cber%20den%20Ursprung%20des%20Qor%C4%81ns.pdf",
+      "origin": "https://archive.org/details/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans",
+      "format": "pdf",
+      "archive_identifier": "geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans",
+      "remote_filename": "Geschichte des Qorāns -von Theodor Nöldeke , 1 Über den Ursprung des Qorāns.pdf",
+      "expected_bytes": 78506999,
+      "expected_md5": "746f2a6ac8c68401a2590e2f29f3157a",
+      "expected_sha1": "b2cbf9888727adf9501ad3881478882e320c4881",
+      "bytes": 78506999,
+      "http_status": 200,
+      "effective_url": "https://dn720003.ca.archive.org/0/items/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans/Geschichte%20des%20Qor%C4%81ns%20-von%20Theodor%20N%C3%B6ldeke%20%2C%201%20%C3%9Cber%20den%20Ursprung%20des%20Qor%C4%81ns.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "dcd041d8be9869a034fea05c819a0042ad000f8b5849ffc1d5f703f7fad5f73b",
+      "archive_checksum_verified": true,
+      "pages": 301,
+      "pdf_metadata": {
+        "/Author": "Nöldeke, Theodor",
+        "/CreationDate": "D:20131028170829-01'00'",
+        "/Creator": "(unspecified)",
+        "/Producer": "semantics visual library",
+        "/Title": "Geschichte des Qorāns / von Theodor Nöldeke - Über den Ursprung des Qorāns"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 246
+        },
+        {
+          "pdf_page": 2,
+          "chars": 0
+        },
+        {
+          "pdf_page": 3,
+          "chars": 0
+        },
+        {
+          "pdf_page": 301,
+          "chars": 0
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791206900770830875
+    },
+    {
+      "source": "NOLDEKE-GDQ",
+      "path": "enrichment/corpus/ACADEMIC/NOLDEKE-GDQ/raw/acquired-2026-10-05/noldeke-gdq-vol-1.ocr.txt",
+      "url": "https://archive.org/download/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans/Geschichte%20des%20Qor%C4%81ns%20-von%20Theodor%20N%C3%B6ldeke%20%2C%201%20%C3%9Cber%20den%20Ursprung%20des%20Qor%C4%81ns_djvu.txt",
+      "origin": "https://archive.org/details/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans",
+      "format": "ocr_text",
+      "archive_identifier": "geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans",
+      "remote_filename": "Geschichte des Qorāns -von Theodor Nöldeke , 1 Über den Ursprung des Qorāns_djvu.txt",
+      "expected_bytes": 610185,
+      "expected_md5": "ebb18512920ca177fc1e2a0871e77e6f",
+      "expected_sha1": "c8007babad5c5b1194f5109bf8881f582d279078",
+      "bytes": 610185,
+      "http_status": 200,
+      "effective_url": "https://dn760004.eu.archive.org/0/items/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans/Geschichte%20des%20Qor%C4%81ns%20-von%20Theodor%20N%C3%B6ldeke%20%2C%201%20%C3%9Cber%20den%20Ursprung%20des%20Qor%C4%81ns_djvu.txt",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "de16f8b210fda72230463a5f89aa56335b2ba85e8de7d01098e86e3cd5bd80a4",
+      "archive_checksum_verified": true,
+      "text_chars": 594681,
+      "validation": "Nonempty UTF-8 OCR sidecar; not quality-corrected",
+      "status": "verified_download",
+      "mtime_ns": 1791206881347322417
+    },
+    {
+      "source": "NOLDEKE-GDQ",
+      "path": "enrichment/corpus/ACADEMIC/NOLDEKE-GDQ/raw/acquired-2026-10-05/noldeke-gdq-vol-2.pdf",
+      "url": "https://archive.org/download/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans/Geschichte%20des%20Qor%C4%81ns%20-von%20Theodor%20N%C3%B6ldeke%20%2C%202%20Die%20Sammlung%20des%20Qor%C4%81ns.pdf",
+      "origin": "https://archive.org/details/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans",
+      "format": "pdf",
+      "archive_identifier": "geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans",
+      "remote_filename": "Geschichte des Qorāns -von Theodor Nöldeke , 2 Die Sammlung des Qorāns.pdf",
+      "expected_bytes": 63691030,
+      "expected_md5": "ea1b7a12a92f217292075de022e98f56",
+      "expected_sha1": "3f1189189359f6c59d24134e6060d4c217edd675",
+      "bytes": 63691030,
+      "http_status": 200,
+      "effective_url": "https://dn720003.ca.archive.org/0/items/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans/Geschichte%20des%20Qor%C4%81ns%20-von%20Theodor%20N%C3%B6ldeke%20%2C%202%20Die%20Sammlung%20des%20Qor%C4%81ns.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "f434a521c7d181a5dbf176088a748cfd885dfcafb677668961815a33d4324883",
+      "archive_checksum_verified": true,
+      "pages": 257,
+      "pdf_metadata": {
+        "/Author": "Nöldeke, Theodor",
+        "/CreationDate": "D:20131028170829-01'00'",
+        "/Creator": "(unspecified)",
+        "/Producer": "semantics visual library",
+        "/Title": "Geschichte des Qorāns / von Theodor Nöldeke - Die Sammlung des Qorāns"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 346
+        },
+        {
+          "pdf_page": 2,
+          "chars": 0
+        },
+        {
+          "pdf_page": 3,
+          "chars": 0
+        },
+        {
+          "pdf_page": 257,
+          "chars": 0
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791206900025668769
+    },
+    {
+      "source": "NOLDEKE-GDQ",
+      "path": "enrichment/corpus/ACADEMIC/NOLDEKE-GDQ/raw/acquired-2026-10-05/noldeke-gdq-vol-2.ocr.txt",
+      "url": "https://archive.org/download/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans/Geschichte%20des%20Qor%C4%81ns%20-von%20Theodor%20N%C3%B6ldeke%20%2C%202%20Die%20Sammlung%20des%20Qor%C4%81ns_djvu.txt",
+      "origin": "https://archive.org/details/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans",
+      "format": "ocr_text",
+      "archive_identifier": "geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans",
+      "remote_filename": "Geschichte des Qorāns -von Theodor Nöldeke , 2 Die Sammlung des Qorāns_djvu.txt",
+      "expected_bytes": 487620,
+      "expected_md5": "3b32f4ff1d1c8e88b886b902d099432d",
+      "expected_sha1": "9e36106e894ca295204d571136008ec46103863d",
+      "bytes": 487620,
+      "http_status": 200,
+      "effective_url": "https://dn720003.ca.archive.org/0/items/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans/Geschichte%20des%20Qor%C4%81ns%20-von%20Theodor%20N%C3%B6ldeke%20%2C%202%20Die%20Sammlung%20des%20Qor%C4%81ns_djvu.txt",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "6fe6f5e6ce49bcda171a5e5673a8bc09a402ae1d4688495fc89e88c3ef9792f2",
+      "archive_checksum_verified": true,
+      "text_chars": 475537,
+      "validation": "Nonempty UTF-8 OCR sidecar; not quality-corrected",
+      "status": "verified_download",
+      "mtime_ns": 1791206882628816839
+    },
+    {
+      "source": "NOLDEKE-GDQ",
+      "path": "enrichment/corpus/ACADEMIC/NOLDEKE-GDQ/raw/acquired-2026-10-05/noldeke-gdq-vol-3.pdf",
+      "url": "https://archive.org/download/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans/Geschichte%20des%20Qor%C4%81ns%20-von%20Theodor%20N%C3%B6ldeke%20%2C%203%20Die%20Geschichte%20des%20Korantexts.pdf",
+      "origin": "https://archive.org/details/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans",
+      "format": "pdf",
+      "archive_identifier": "geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans",
+      "remote_filename": "Geschichte des Qorāns -von Theodor Nöldeke , 3 Die Geschichte des Korantexts.pdf",
+      "expected_bytes": 96291617,
+      "expected_md5": "78004459c58b4b7aebd6d04bc5658675",
+      "expected_sha1": "28ddd308c5c97867a2b5774175353bca83cb53cd",
+      "bytes": 96291617,
+      "http_status": 200,
+      "effective_url": "https://dn760004.eu.archive.org/0/items/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans/Geschichte%20des%20Qor%C4%81ns%20-von%20Theodor%20N%C3%B6ldeke%20%2C%203%20Die%20Geschichte%20des%20Korantexts.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "2eb27f627db68862019011f0102162941920b991fbffa4df8769f70e5a886e0d",
+      "archive_checksum_verified": true,
+      "pages": 399,
+      "pdf_metadata": {
+        "/Author": "Bergsträsser, Gotthelf; Pretzl, Otto",
+        "/CreationDate": "D:20131028170829-01'00'",
+        "/Creator": "(unspecified)",
+        "/Producer": "semantics visual library",
+        "/Title": "Geschichte des Qorāns / von Theodor Nöldeke - Die Geschichte des Korantexts"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 267
+        },
+        {
+          "pdf_page": 2,
+          "chars": 0
+        },
+        {
+          "pdf_page": 3,
+          "chars": 0
+        },
+        {
+          "pdf_page": 399,
+          "chars": 0
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791206920620725579
+    },
+    {
+      "source": "NOLDEKE-GDQ",
+      "path": "enrichment/corpus/ACADEMIC/NOLDEKE-GDQ/raw/acquired-2026-10-05/noldeke-gdq-vol-3.ocr.txt",
+      "url": "https://archive.org/download/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans/Geschichte%20des%20Qor%C4%81ns%20-von%20Theodor%20N%C3%B6ldeke%20%2C%203%20Die%20Geschichte%20des%20Korantexts_djvu.txt",
+      "origin": "https://archive.org/details/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans",
+      "format": "ocr_text",
+      "archive_identifier": "geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans",
+      "remote_filename": "Geschichte des Qorāns -von Theodor Nöldeke , 3 Die Geschichte des Korantexts_djvu.txt",
+      "expected_bytes": 792962,
+      "expected_md5": "4863eba5210d474b8450db86016f61d6",
+      "expected_sha1": "a1dab06b3fec43ecd294c3839fd23d099092109f",
+      "bytes": 792962,
+      "http_status": 200,
+      "effective_url": "https://dn720003.ca.archive.org/0/items/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans/Geschichte%20des%20Qor%C4%81ns%20-von%20Theodor%20N%C3%B6ldeke%20%2C%203%20Die%20Geschichte%20des%20Korantexts_djvu.txt",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "4f7b5f4a8a6101d7fcb4c36dc0eea5dcd53fa5c8ec315e9496ebd285e55a4e9a",
+      "archive_checksum_verified": true,
+      "text_chars": 767000,
+      "validation": "Nonempty UTF-8 OCR sidecar; not quality-corrected",
+      "status": "verified_download",
+      "mtime_ns": 1791206885711283262
+    },
+    {
+      "source": "FARAHI-NIZAM",
+      "path": "enrichment/corpus/ACADEMIC/FARAHI-NIZAM/raw/acquired-2026-10-05/farahi-nizam-cover.pdf",
+      "url": "https://archive.org/download/tnqtnq/tnq00.pdf",
+      "origin": "https://archive.org/details/tnqtnq",
+      "format": "pdf",
+      "archive_identifier": "tnqtnq",
+      "remote_filename": "tnq00.pdf",
+      "expected_bytes": 155423,
+      "expected_md5": "4d2121eb17719e506b41f7ddc82f8979",
+      "expected_sha1": "26be9920b725f3a80a8f4d270c721c19697e54af",
+      "bytes": 155423,
+      "http_status": 200,
+      "effective_url": "https://dn720708.ca.archive.org/0/items/tnqtnq/tnq00.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "a2f6d37129a27df224a47eb1dbb417288ae0f688971214fc131684b7f25a0990",
+      "archive_checksum_verified": true,
+      "pages": 3,
+      "pdf_metadata": {
+        "/Author": "الإمام عبدالحميد الفراهي",
+        "/CreationDate": "D:20101123093219Z",
+        "/Creator": "Image2PDF Command Line Software",
+        "/Producer": "Image2PDF (http://www.verypdf.com)",
+        "/Title": "تفسير نظام القرآن وتأويل الفرقان بالفرقان"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 0
+        },
+        {
+          "pdf_page": 2,
+          "chars": 0
+        },
+        {
+          "pdf_page": 3,
+          "chars": 0
+        }
+      ],
+      "sample_has_embedded_text": false,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791206887051531555
+    },
+    {
+      "source": "FARAHI-NIZAM",
+      "path": "enrichment/corpus/ACADEMIC/FARAHI-NIZAM/raw/acquired-2026-10-05/farahi-nizam-cover.ocr.txt",
+      "url": "https://archive.org/download/tnqtnq/tnq00_djvu.txt",
+      "origin": "https://archive.org/details/tnqtnq",
+      "format": "ocr_text",
+      "archive_identifier": "tnqtnq",
+      "remote_filename": "tnq00_djvu.txt",
+      "expected_bytes": 564,
+      "expected_md5": "e1c6522d279797dd9702c646b19009da",
+      "expected_sha1": "fb2f3dbe9ac5873b30b7f321aa4e31edb4c2953e",
+      "bytes": 564,
+      "http_status": 200,
+      "effective_url": "https://dn760007.eu.archive.org/0/items/tnqtnq/tnq00_djvu.txt",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "52daf10aa1a7e5c10688aa1a8212616db6bf6d48a2cf113e187374344310a379",
+      "archive_checksum_verified": true,
+      "text_chars": 561,
+      "validation": "Nonempty UTF-8 OCR sidecar; not quality-corrected",
+      "status": "verified_download",
+      "mtime_ns": 1791206888959497575
+    },
+    {
+      "source": "FARAHI-NIZAM",
+      "path": "enrichment/corpus/ACADEMIC/FARAHI-NIZAM/raw/acquired-2026-10-05/farahi-nizam-book.pdf",
+      "url": "https://archive.org/download/tnqtnq/tnq01.pdf",
+      "origin": "https://archive.org/details/tnqtnq",
+      "format": "pdf",
+      "archive_identifier": "tnqtnq",
+      "remote_filename": "tnq01.pdf",
+      "expected_bytes": 8489044,
+      "expected_md5": "7175b49f8b3f469446a5f508581c1427",
+      "expected_sha1": "543db574ef988777e59efda5422f24527dca1fa3",
+      "bytes": 8489044,
+      "http_status": 200,
+      "effective_url": "https://dn760007.eu.archive.org/0/items/tnqtnq/tnq01.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "678dcfa7e46ccb11732cd59578f83f9a4da49396c92f886a3227ce3e8b53ea57",
+      "archive_checksum_verified": true,
+      "pages": 632,
+      "pdf_metadata": {
+        "/Author": "الإمام عبدالحميد الفراهي",
+        "/CreationDate": "D:20101123093506Z",
+        "/Creator": "Image2PDF Command Line Software",
+        "/Producer": "Image2PDF (http://www.verypdf.com)",
+        "/Title": "تفسير نظام القرآن وتأويل الفرقان بالفرقان"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 0
+        },
+        {
+          "pdf_page": 2,
+          "chars": 0
+        },
+        {
+          "pdf_page": 3,
+          "chars": 0
+        },
+        {
+          "pdf_page": 632,
+          "chars": 0
+        }
+      ],
+      "sample_has_embedded_text": false,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791206906468871873
+    },
+    {
+      "source": "FARAHI-NIZAM",
+      "path": "enrichment/corpus/ACADEMIC/FARAHI-NIZAM/raw/acquired-2026-10-05/farahi-nizam-book.ocr.txt",
+      "url": "https://archive.org/download/tnqtnq/tnq01_djvu.txt",
+      "origin": "https://archive.org/details/tnqtnq",
+      "format": "ocr_text",
+      "archive_identifier": "tnqtnq",
+      "remote_filename": "tnq01_djvu.txt",
+      "expected_bytes": 360296,
+      "expected_md5": "2607ef21a58e312002fb1c15e8fd3ca3",
+      "expected_sha1": "66c71514d70a78a68b654f247b9877bb7cac2a95",
+      "bytes": 360296,
+      "http_status": 200,
+      "effective_url": "https://dn720708.ca.archive.org/0/items/tnqtnq/tnq01_djvu.txt",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "ed40ec969b69d954c3f297c20c427e6d66431f3c79a496244e779dcfb4c857b6",
+      "archive_checksum_verified": true,
+      "text_chars": 351955,
+      "validation": "Nonempty UTF-8 OCR sidecar; not quality-corrected",
+      "status": "verified_download",
+      "mtime_ns": 1791206901620446661
+    },
+    {
+      "source": "EQ",
+      "path": "enrichment/corpus/ACADEMIC/EQ/raw/acquired-2026-10-05/encyclopaedia-quran-six-volumes.pdf",
+      "url": "https://archive.org/download/encyclopaedia-of-the-quran-6-volumes-jane-dammen-mc-auliffe/Encyclopaedia%20Of%20The%20Qur%E2%80%99an%20%286%20Volumes%29%20-%20Jane%20Dammen%20McAuliffe.pdf",
+      "origin": "https://archive.org/details/encyclopaedia-of-the-quran-6-volumes-jane-dammen-mc-auliffe",
+      "format": "pdf",
+      "archive_identifier": "encyclopaedia-of-the-quran-6-volumes-jane-dammen-mc-auliffe",
+      "remote_filename": "Encyclopaedia Of The Qur’an (6 Volumes) - Jane Dammen McAuliffe.pdf",
+      "expected_bytes": 43583083,
+      "expected_md5": "61ec9aa5d4b224f0524ff49a424854b3",
+      "expected_sha1": "a6526f5d4724182e36e26fb5b58f01d9c8852a66",
+      "bytes": 43583083,
+      "http_status": 200,
+      "effective_url": "https://dn720004.ca.archive.org/0/items/encyclopaedia-of-the-quran-6-volumes-jane-dammen-mc-auliffe/Encyclopaedia%20Of%20The%20Qur%E2%80%99an%20%286%20Volumes%29%20-%20Jane%20Dammen%20McAuliffe.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "9dc98464ab2d5b5648cfa2df30ee3f902c44d9ece37e705035d75547c5f8f87f",
+      "archive_checksum_verified": true,
+      "pages": 3956,
+      "pdf_metadata": {
+        "/Author": "Jane Dammen McAuliffe",
+        "/CreationDate": "D:20100215055712+01'00'",
+        "/Creator": "Adobe Acrobat 8.1 Combine Files",
+        "/Producer": "PDFlib+PDI 6.0.3 (Linux-x86_64)",
+        "/Title": "Encyclopaedia Of The Quran (6 Volumes)  "
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 0
+        },
+        {
+          "pdf_page": 2,
+          "chars": 1
+        },
+        {
+          "pdf_page": 3,
+          "chars": 637
+        },
+        {
+          "pdf_page": 3956,
+          "chars": 1601
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791206926236111315
+    },
+    {
+      "source": "EQ",
+      "path": "enrichment/corpus/ACADEMIC/EQ/raw/acquired-2026-10-05/encyclopaedia-quran-six-volumes.ocr.txt",
+      "url": "https://archive.org/download/encyclopaedia-of-the-quran-6-volumes-jane-dammen-mc-auliffe/Encyclopaedia%20Of%20The%20Qur%E2%80%99an%20%286%20Volumes%29%20-%20Jane%20Dammen%20McAuliffe_djvu.txt",
+      "origin": "https://archive.org/details/encyclopaedia-of-the-quran-6-volumes-jane-dammen-mc-auliffe",
+      "format": "ocr_text",
+      "archive_identifier": "encyclopaedia-of-the-quran-6-volumes-jane-dammen-mc-auliffe",
+      "remote_filename": "Encyclopaedia Of The Qur’an (6 Volumes) - Jane Dammen McAuliffe_djvu.txt",
+      "expected_bytes": 12898101,
+      "expected_md5": "da307ca5b6c85834bfa7d7debb9bd27a",
+      "expected_sha1": "5e9f45353eb42959db3eac19ba394371f333831b",
+      "bytes": 12898101,
+      "http_status": 200,
+      "effective_url": "https://dn760005.eu.archive.org/0/items/encyclopaedia-of-the-quran-6-volumes-jane-dammen-mc-auliffe/Encyclopaedia%20Of%20The%20Qur%E2%80%99an%20%286%20Volumes%29%20-%20Jane%20Dammen%20McAuliffe_djvu.txt",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "b5d37745731dc8fc2d9a08d462ed389ad94d7a45462d175a6aff3d7f1f3211b9",
+      "archive_checksum_verified": true,
+      "text_chars": 12733389,
+      "validation": "Nonempty UTF-8 OCR sidecar; not quality-corrected",
+      "status": "verified_download",
+      "mtime_ns": 1791206908131843040
+    },
+    {
+      "source": "STUDYQURAN",
+      "path": "enrichment/corpus/ACADEMIC/STUDYQURAN/raw/acquired-2026-10-05/study-quran.pdf",
+      "url": "https://archive.org/download/the-study-quran_202111/The%20Study%20Quran.pdf",
+      "origin": "https://archive.org/details/the-study-quran_202111",
+      "format": "pdf",
+      "archive_identifier": "the-study-quran_202111",
+      "remote_filename": "The Study Quran.pdf",
+      "expected_bytes": 19534784,
+      "expected_md5": "fadb412c2f27f8c6a2e05b8556c4b38f",
+      "expected_sha1": "b2b8815a0a5a1f0ad945eb441a7208dc40a8d8ba",
+      "bytes": 19534784,
+      "http_status": 200,
+      "effective_url": "https://dn760004.eu.archive.org/0/items/the-study-quran_202111/The%20Study%20Quran.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "e8858b5a5f62eb76060f77bf9261d57ab957831e9bffb6e156b5ae470baccc64",
+      "archive_checksum_verified": true,
+      "pages": 4664,
+      "pdf_metadata": {
+        "/Author": "Seyyed Hossein Nasr & Caner K. Dagli & Maria Massi Dakake & Joseph E.B. Lumbard & Mohammed Rustom",
+        "/CreationDate": "D:20190526100015+00'00'",
+        "/Creator": "calibre 3.42.0 [https://calibre-ebook.com](Infix Pro)",
+        "/Producer": "calibre 3.42.0 [https://calibre-ebook.com]",
+        "/Title": "The Study Quran: A New Translation and Commentary"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 0
+        },
+        {
+          "pdf_page": 2,
+          "chars": 0
+        },
+        {
+          "pdf_page": 3,
+          "chars": 205
+        },
+        {
+          "pdf_page": 4664,
+          "chars": 71
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791206921346450806
+    },
+    {
+      "source": "STUDYQURAN",
+      "path": "enrichment/corpus/ACADEMIC/STUDYQURAN/raw/acquired-2026-10-05/study-quran.ocr.txt",
+      "url": "https://archive.org/download/the-study-quran_202111/The%20Study%20Quran_djvu.txt",
+      "origin": "https://archive.org/details/the-study-quran_202111",
+      "format": "ocr_text",
+      "archive_identifier": "the-study-quran_202111",
+      "remote_filename": "The Study Quran_djvu.txt",
+      "expected_bytes": 8750399,
+      "expected_md5": "cd3a373e33d0b9d058271eefcb340680",
+      "expected_sha1": "184edb91a5e3b5b727d9549d57cd297220bec8eb",
+      "bytes": 8750399,
+      "http_status": 200,
+      "effective_url": "https://dn720003.ca.archive.org/0/items/the-study-quran_202111/The%20Study%20Quran_djvu.txt",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "17ef2bf116dfe6a23e6562c502d7d47782ff9303b917cfbbbead6d9a412fcb41",
+      "archive_checksum_verified": true,
+      "text_chars": 8588488,
+      "validation": "Nonempty UTF-8 OCR sidecar; not quality-corrected",
+      "status": "verified_download",
+      "mtime_ns": 1791206911510967030
+    },
+    {
+      "source": "MEAL-ATAY",
+      "path": "enrichment/corpus/MEAL-ATAY/raw/acquired-2026-10-05/atay-kuran-turkce-ceviri-2013.pdf",
+      "url": "https://archive.org/download/Kuran-Kerimzerine-Meal-TefsirTecvidVbKitaplar/Huseyin-Atay-Kuran-Turkce-ceviri.pdf",
+      "origin": "https://archive.org/details/Kuran-Kerimzerine-Meal-TefsirTecvidVbKitaplar",
+      "format": "pdf",
+      "archive_identifier": "Kuran-Kerimzerine-Meal-TefsirTecvidVbKitaplar",
+      "remote_filename": "Huseyin-Atay-Kuran-Turkce-ceviri.pdf",
+      "expected_bytes": 2782325,
+      "expected_md5": "bc6369d6c583ff6987b183140c3b2e2d",
+      "expected_sha1": "a63efe9232565fc9cb03f7cfdf4c921a440545d0",
+      "bytes": 2782325,
+      "http_status": 200,
+      "effective_url": "https://ia902807.us.archive.org/22/items/Kuran-Kerimzerine-Meal-TefsirTecvidVbKitaplar/Huseyin-Atay-Kuran-Turkce-ceviri.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "8c9892c9c27dd3cc3d9e4c3732533baaea6739a0586d850d0109830569a21ea9",
+      "archive_checksum_verified": true,
+      "pages": 654,
+      "pdf_metadata": {
+        "/Producer": "GPL Ghostscript 9.14",
+        "/CreationDate": "D:20160727161539+02'00'",
+        "/Creator": "PDF24 Creator"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 40
+        },
+        {
+          "pdf_page": 2,
+          "chars": 360
+        },
+        {
+          "pdf_page": 3,
+          "chars": 1948
+        },
+        {
+          "pdf_page": 654,
+          "chars": 542
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791206912956704018
+    },
+    {
+      "source": "MEAL-ATAY",
+      "path": "enrichment/corpus/MEAL-ATAY/raw/acquired-2026-10-05/atay-kuran-turkce-ceviri-2013.ocr.txt",
+      "url": "https://archive.org/download/Kuran-Kerimzerine-Meal-TefsirTecvidVbKitaplar/Huseyin-Atay-Kuran-Turkce-ceviri_djvu.txt",
+      "origin": "https://archive.org/details/Kuran-Kerimzerine-Meal-TefsirTecvidVbKitaplar",
+      "format": "ocr_text",
+      "archive_identifier": "Kuran-Kerimzerine-Meal-TefsirTecvidVbKitaplar",
+      "remote_filename": "Huseyin-Atay-Kuran-Turkce-ceviri_djvu.txt",
+      "expected_bytes": 945499,
+      "expected_md5": "64f646f93cf37e7dccbc0f4941631170",
+      "expected_sha1": "320cff0bb452ceafaf172d65eac486af1eb3006a",
+      "bytes": 945499,
+      "http_status": 200,
+      "effective_url": "https://dn790003.ca.archive.org/0/items/Kuran-Kerimzerine-Meal-TefsirTecvidVbKitaplar/Huseyin-Atay-Kuran-Turkce-ceviri_djvu.txt",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "de847eb0e17e46ca9d07e602c4be5808d035abe35b90b4c3c5e3125e08777e51",
+      "archive_checksum_verified": true,
+      "text_chars": 873460,
+      "validation": "Nonempty UTF-8 OCR sidecar; not quality-corrected",
+      "status": "verified_download",
+      "mtime_ns": 1791206914475366310
+    },
+    {
+      "source": "MEAL-AKDEMIR",
+      "path": "enrichment/corpus/MEAL-AKDEMIR/raw/acquired-2026-10-05/akdemir-son-cagri-kuran.pdf",
+      "url": "https://archive.org/download/Kuran-Kerimzerine-Meal-TefsirTecvidVbKitaplar/Salih-Akdemir-Meal-Son-Cagri-Kuran.pdf",
+      "origin": "https://archive.org/details/Kuran-Kerimzerine-Meal-TefsirTecvidVbKitaplar",
+      "format": "pdf",
+      "archive_identifier": "Kuran-Kerimzerine-Meal-TefsirTecvidVbKitaplar",
+      "remote_filename": "Salih-Akdemir-Meal-Son-Cagri-Kuran.pdf",
+      "expected_bytes": 37039834,
+      "expected_md5": "d1fcec136b17fa43e6c68d2871d5efae",
+      "expected_sha1": "a82a5f83bd5ca8e0fc382b5eff70bd1cd1f58aeb",
+      "bytes": 37039834,
+      "http_status": 200,
+      "effective_url": "https://dn790003.ca.archive.org/0/items/Kuran-Kerimzerine-Meal-TefsirTecvidVbKitaplar/Salih-Akdemir-Meal-Son-Cagri-Kuran.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "7e64d7fbb4e0d56c01c1d59acc3bc7d48f3b2f21c5590b5b4f0e47f84e0aad4f",
+      "archive_checksum_verified": true,
+      "pages": 660,
+      "pdf_metadata": {
+        "/Producer": "ABBYY FineReader 12",
+        "/CreationDate": "D:20170505101609Z"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 0
+        },
+        {
+          "pdf_page": 2,
+          "chars": 430
+        },
+        {
+          "pdf_page": 3,
+          "chars": 120
+        },
+        {
+          "pdf_page": 660,
+          "chars": 0
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791206919428389721
+    },
+    {
+      "source": "MEAL-AKDEMIR",
+      "path": "enrichment/corpus/MEAL-AKDEMIR/raw/acquired-2026-10-05/akdemir-son-cagri-kuran.ocr.txt",
+      "url": "https://archive.org/download/Kuran-Kerimzerine-Meal-TefsirTecvidVbKitaplar/Salih-Akdemir-Meal-Son-Cagri-Kuran_djvu.txt",
+      "origin": "https://archive.org/details/Kuran-Kerimzerine-Meal-TefsirTecvidVbKitaplar",
+      "format": "ocr_text",
+      "archive_identifier": "Kuran-Kerimzerine-Meal-TefsirTecvidVbKitaplar",
+      "remote_filename": "Salih-Akdemir-Meal-Son-Cagri-Kuran_djvu.txt",
+      "expected_bytes": 1543596,
+      "expected_md5": "135f525c94ece387b1ea2767e8d16fb6",
+      "expected_sha1": "e5fa91fce46969e22c2953e142709d1e63846877",
+      "bytes": 1543596,
+      "http_status": 200,
+      "effective_url": "https://dn790003.ca.archive.org/0/items/Kuran-Kerimzerine-Meal-TefsirTecvidVbKitaplar/Salih-Akdemir-Meal-Son-Cagri-Kuran_djvu.txt",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "d22c82a5abd4df72167e3b0f7d747a492b6a9c0d0fd73ba2ab6104837db805c9",
+      "archive_checksum_verified": true,
+      "text_chars": 1420036,
+      "validation": "Nonempty UTF-8 OCR sidecar; not quality-corrected",
+      "status": "verified_download",
+      "mtime_ns": 1791206921638696706
+    },
+    {
+      "source": "SINAI-KEYTERMS",
+      "path": "enrichment/corpus/ACADEMIC/SINAI-KEYTERMS/raw/acquired-2026-10-05/sinai-key-terms-2023.pdf",
+      "url": "https://ora.ox.ac.uk/objects/uuid%3A2a4e4769-813e-48e9-bf95-c36fdd593c8b/files/smg74qp037",
+      "origin": "https://ora.ox.ac.uk/objects/uuid%3A2a4e4769-813e-48e9-bf95-c36fdd593c8b",
+      "format": "pdf",
+      "bytes": 7423825,
+      "http_status": 200,
+      "effective_url": "https://ora.ox.ac.uk/objects/uuid%3A2a4e4769-813e-48e9-bf95-c36fdd593c8b/files/smg74qp037",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "c799fc677aff1374fe1ae7a9cef5707a85b3e8813f193ce1bc42e94e83415344",
+      "archive_checksum_verified": false,
+      "pages": 1015,
+      "pdf_metadata": {
+        "/Author": "Nicolai Sinai",
+        "/Creator": "Microsoft® Word LTSC",
+        "/CreationDate": "D:20240701213314+01'00'",
+        "/Producer": "Microsoft® Word LTSC"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 1475
+        },
+        {
+          "pdf_page": 2,
+          "chars": 297
+        },
+        {
+          "pdf_page": 3,
+          "chars": 3032
+        },
+        {
+          "pdf_page": 1015,
+          "chars": 1093
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791206922700165628
+    },
+    {
+      "source": "ZAMMIT-COMPARATIVE",
+      "path": "enrichment/corpus/ACADEMIC/ZAMMIT-COMPARATIVE/raw/acquired-2026-10-05/zammit-comparative-lexical-study.pdf",
+      "url": "https://azahari.blog/wp-content/uploads/2025/01/lexical-study-of-quranic-arabic.pdf",
+      "origin": "https://azahari.blog/wp-content/uploads/2025/01/lexical-study-of-quranic-arabic.pdf",
+      "format": "pdf",
+      "bytes": 18134259,
+      "http_status": 200,
+      "effective_url": "https://azahari.blog/wp-content/uploads/2025/01/lexical-study-of-quranic-arabic.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "d4dceee52aeb96d0281f61c06a69abb42dea0fd9b3b48c4e4d818f109b1795f3",
+      "archive_checksum_verified": false,
+      "pages": 672,
+      "pdf_metadata": {
+        "/Author": "Zammit, Martin R.",
+        "/CreationDate": "D:20110301112446+01'00'",
+        "/Title": "A Comparative Lexical Study of Qur?anic Arabic"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 0
+        },
+        {
+          "pdf_page": 2,
+          "chars": 47
+        },
+        {
+          "pdf_page": 3,
+          "chars": 255
+        },
+        {
+          "pdf_page": 672,
+          "chars": 722
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791206923033027456
+    },
+    {
+      "source": "MEAL-HAMIDULLAH",
+      "path": "enrichment/corpus/MEAL-HAMIDULLAH/raw/acquired-2026-10-05/hamidullah-aziz-kuran-hatip-kanik.pdf",
+      "url": "https://can-ada.net/wp-content/uploads/2021/01/muhammed-hamidullah-aziz-kuran.pdf",
+      "origin": "https://can-ada.net/wp-content/uploads/2021/01/muhammed-hamidullah-aziz-kuran.pdf",
+      "format": "pdf",
+      "bytes": 18767606,
+      "http_status": 200,
+      "effective_url": "https://can-ada.net/wp-content/uploads/2021/01/muhammed-hamidullah-aziz-kuran.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "abfdb4d63414c49e154c5e1f8965667db5f3aec15b073ad5851af5fdb29f3b1a",
+      "archive_checksum_verified": false,
+      "pages": 531,
+      "pdf_metadata": {
+        "/CreationDate": "D:20190520233730+03'00'",
+        "/Creator": "Adobe Acrobat 15.23",
+        "/Producer": "Adobe Acrobat Pro DC 15 Paper Capture Plug-in",
+        "/Title": ""
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 111
+        },
+        {
+          "pdf_page": 2,
+          "chars": 2725
+        },
+        {
+          "pdf_page": 3,
+          "chars": 646
+        },
+        {
+          "pdf_page": 531,
+          "chars": 1087
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791206924805681631
+    },
+    {
+      "source": "ASAD-NOTES",
+      "path": "enrichment/corpus/ASAD-NOTES/raw/acquired-2026-10-05/asad-message-of-quran-with-notes.pdf",
+      "url": "https://islamicbulletin.org/en/ebooks/quran/quran_asad.pdf",
+      "origin": "https://islamicbulletin.org/en/ebooks/quran/quran_asad.pdf",
+      "format": "pdf",
+      "bytes": 4286177,
+      "http_status": 200,
+      "effective_url": "https://islamicbulletin.org/en/ebooks/quran/quran_asad.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "946515e1c966c5ea2337d76c6c8633d44852f57e08b7aa5b71478226bd78a98d",
+      "archive_checksum_verified": false,
+      "pages": 1326,
+      "pdf_metadata": {
+        "/CreationDate": "D:20081222073052-08'00'",
+        "/Author": "Muhammad Asad",
+        "/Creator": "PScript5.dll Version 5.2.2",
+        "/Producer": "Acrobat Distiller 8.1.0 (Windows)",
+        "/Title": "The Message Of The Qur'an (Quran)"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 3548
+        },
+        {
+          "pdf_page": 2,
+          "chars": 3687
+        },
+        {
+          "pdf_page": 3,
+          "chars": 383
+        },
+        {
+          "pdf_page": 1326,
+          "chars": 116
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791206923311852616
+    },
+    {
+      "source": "CUYPERS-COMPOSITION",
+      "path": "enrichment/corpus/ACADEMIC/CUYPERS-COMPOSITION/raw/acquired-2026-10-05/cuypers-composition-2015.pdf",
+      "url": "https://almuslih.org/wp-content/uploads/Library/Cuypers%2C%20M%20-%20The%20Composition%20of%20the%20Qur%E2%80%99an.pdf",
+      "origin": "https://almuslih.org/library-backup/",
+      "format": "pdf",
+      "bytes": 1562436,
+      "http_status": 200,
+      "effective_url": "https://almuslih.org/wp-content/uploads/Library/Cuypers%2C%20M%20-%20The%20Composition%20of%20the%20Qur%E2%80%99an.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "3f5ae40ad346572bfe66a2a6c34b05252352d26e55836ad24adfa69277c0ee95",
+      "archive_checksum_verified": false,
+      "pages": 217,
+      "pdf_metadata": {
+        "/Author": "Michel Cuypers",
+        "/CreationDate": "D:20150225100231Z",
+        "/Creator": "Nitro Pro",
+        "/Title": "The Composition of the Qur'an"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 0
+        },
+        {
+          "pdf_page": 2,
+          "chars": 49
+        },
+        {
+          "pdf_page": 3,
+          "chars": 218
+        },
+        {
+          "pdf_page": 217,
+          "chars": 3
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791206926163515259
+    },
+    {
+      "source": "IBNKHALAWAYH-MUKHTASAR",
+      "path": "enrichment/corpus/IBNKHALAWAYH-MUKHTASAR/raw/acquired-2026-10-05/ibnkhalawayh-mukhtasar.pdf",
+      "url": "https://files.quranpedia.net/attachments/documents/BOOK_25372_1.pdf",
+      "origin": "https://quranpedia.net/book/25372",
+      "format": "pdf",
+      "bytes": 4816443,
+      "http_status": 200,
+      "effective_url": "https://files.quranpedia.net/attachments/documents/BOOK_25372_1.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "9c52723d4e24a899d225e0d9d514e5715671c74da4cfaaf8e94c0d85f993fbe2",
+      "archive_checksum_verified": false,
+      "pages": 246,
+      "pdf_metadata": {
+        "/CreationDate": "D:20110207135104+03'00'",
+        "/Author": "ابن خالويه",
+        "/Creator": "Adobe Acrobat 7.0",
+        "/Producer": "Adobe Acrobat 7.0 Image Conversion Plug-in",
+        "/Title": "مختصر في شواذ القران من كتاب البديع"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 0
+        },
+        {
+          "pdf_page": 2,
+          "chars": 0
+        },
+        {
+          "pdf_page": 3,
+          "chars": 0
+        },
+        {
+          "pdf_page": 246,
+          "chars": 0
+        }
+      ],
+      "sample_has_embedded_text": false,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791206923699319763
+    },
+    {
+      "source": "ABDUH-AMMA",
+      "path": "enrichment/corpus/ABDUH-AMMA/raw/acquired-2026-10-05/abduh-tafsir-juz-amma.pdf",
+      "url": "https://drive.google.com/uc?export=download&id=11O_dsrA8tjOru-CSkXQCt3meVk0EhoVq",
+      "origin": "https://arabicpdfs.com/تفسير-جزء-عم-محمد-عبده-pdf/",
+      "format": "pdf",
+      "bytes": 4773194,
+      "http_status": 200,
+      "effective_url": "https://drive.usercontent.google.com/download?id=11O_dsrA8tjOru-CSkXQCt3meVk0EhoVq&export=download",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "95ad90bf153890821b9faf36936b1e400d20bf5d2cb6c6687f0078c12ae19b72",
+      "archive_checksum_verified": false,
+      "pages": 189,
+      "pdf_metadata": {
+        "/CreationDate": "D:20090217015336+03'00'"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 48
+        },
+        {
+          "pdf_page": 2,
+          "chars": 0
+        },
+        {
+          "pdf_page": 3,
+          "chars": 0
+        },
+        {
+          "pdf_page": 189,
+          "chars": 0
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791206926140303173
+    },
+    {
+      "source": "MUQATIL-WUJUH",
+      "path": "enrichment/corpus/MUQATIL-WUJUH/raw/acquired-2026-10-05/muqatil-wujuh-damin.pdf",
+      "url": "https://books.islamway.net/1/15_HSDhamen_WjohNdhierMoqatel.pdf",
+      "origin": "https://books.islamway.net/1/15_HSDhamen_WjohNdhierMoqatel.pdf",
+      "format": "pdf",
+      "bytes": 12071320,
+      "http_status": 200,
+      "effective_url": "https://books.islamway.net/1/15_HSDhamen_WjohNdhierMoqatel.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "4ea8c0633da8a514c07bdf565bdcc2473b248ff3c5e21a26c4648a67fd7e9034",
+      "archive_checksum_verified": false,
+      "pages": 308,
+      "pdf_metadata": {
+        "/CreationDate": "D:20190903130929+03'00'",
+        "/Creator": "Adobe Acrobat 6.0",
+        "/Producer": "Adobe Acrobat 6.0"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 0
+        },
+        {
+          "pdf_page": 2,
+          "chars": 14
+        },
+        {
+          "pdf_page": 3,
+          "chars": 588
+        },
+        {
+          "pdf_page": 308,
+          "chars": 0
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791206925655581459
+    },
+    {
+      "source": "TARAMA",
+      "path": "enrichment/corpus/TARAMA/raw/acquired-2026-10-05/tarama-vol-1.pdf",
+      "url": "https://turuz.com/storage/Dictionary/2011/0155-%281%29_Tarama_sozluyu-1-%28108.568KB%29.pdf",
+      "origin": "https://turuz.com/tr/book/title/tarama-sozlugu",
+      "format": "pdf",
+      "volume": 1,
+      "language": "tr",
+      "bytes": 111172825,
+      "http_status": 206,
+      "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%281%29_Tarama_sozluyu-1-%28108.568KB%29.pdf",
+      "checked_at": "2026-10-05T13:56:12.710809+00:00",
+      "resumed_transfer": {
+        "prefix_bytes": 44920832,
+        "total_bytes": 111172825,
+        "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%281%29_Tarama_sozluyu-1-%28108.568KB%29.pdf",
+        "etag": "\"53e3c6df-6a05cd9\"",
+        "ranges": [
+          {
+            "start": 44920832,
+            "end": 65892351,
+            "bytes": 20971520,
+            "http_status": 206,
+            "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%281%29_Tarama_sozluyu-1-%28108.568KB%29.pdf",
+            "etag": "\"53e3c6df-6a05cd9\""
+          },
+          {
+            "start": 65892352,
+            "end": 86863871,
+            "bytes": 20971520,
+            "http_status": 206,
+            "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%281%29_Tarama_sozluyu-1-%28108.568KB%29.pdf",
+            "etag": "\"53e3c6df-6a05cd9\""
+          },
+          {
+            "start": 86863872,
+            "end": 107835391,
+            "bytes": 20971520,
+            "http_status": 206,
+            "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%281%29_Tarama_sozluyu-1-%28108.568KB%29.pdf",
+            "etag": "\"53e3c6df-6a05cd9\""
+          },
+          {
+            "start": 107835392,
+            "end": 111172824,
+            "bytes": 3337433,
+            "http_status": 206,
+            "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%281%29_Tarama_sozluyu-1-%28108.568KB%29.pdf",
+            "etag": "\"53e3c6df-6a05cd9\""
+          }
+        ]
+      },
+      "sha256": "f604ac29ad1ce8bdfe97a68888eb32bd92dd247bb9dbd0d50bab49277cb54402",
+      "archive_checksum_verified": false,
+      "pages": 421,
+      "pdf_metadata": {
+        "/CreationDate": "D:20081209183529+03'30'",
+        "/Creator": "Canon ",
+        "/Producer": " "
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 172
+        },
+        {
+          "pdf_page": 2,
+          "chars": 0
+        },
+        {
+          "pdf_page": 3,
+          "chars": 238
+        },
+        {
+          "pdf_page": 421,
+          "chars": 1165
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791208537381363018
+    },
+    {
+      "source": "TARAMA",
+      "path": "enrichment/corpus/TARAMA/raw/acquired-2026-10-05/tarama-vol-2.pdf",
+      "url": "https://turuz.com/storage/Dictionary/2011/0155-%282%29_Tarama_sozluyu-2-%2877.405KB%29.pdf",
+      "origin": "https://turuz.com/tr/book/title/tarama-sozlugu",
+      "format": "pdf",
+      "volume": 2,
+      "language": "tr",
+      "bytes": 79261987,
+      "http_status": 206,
+      "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%282%29_Tarama_sozluyu-2-%2877.405KB%29.pdf",
+      "checked_at": "2026-10-05T13:56:12.710809+00:00",
+      "resumed_transfer": {
+        "prefix_bytes": 44822528,
+        "total_bytes": 79261987,
+        "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%282%29_Tarama_sozluyu-2-%2877.405KB%29.pdf",
+        "etag": "\"53e3c167-4b97123\"",
+        "ranges": [
+          {
+            "start": 44822528,
+            "end": 65794047,
+            "bytes": 20971520,
+            "http_status": 206,
+            "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%282%29_Tarama_sozluyu-2-%2877.405KB%29.pdf",
+            "etag": "\"53e3c167-4b97123\""
+          },
+          {
+            "start": 65794048,
+            "end": 79261986,
+            "bytes": 13467939,
+            "http_status": 206,
+            "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%282%29_Tarama_sozluyu-2-%2877.405KB%29.pdf",
+            "etag": "\"53e3c167-4b97123\""
+          }
+        ]
+      },
+      "sha256": "67bb17cf62dc0b6c7130e8eefe5f041cc76bd6e645b6d1bb7a068a13922438b8",
+      "archive_checksum_verified": false,
+      "pages": 319,
+      "pdf_metadata": {
+        "/CreationDate": "D:20081220105708+03'30'",
+        "/Creator": "Canon ",
+        "/Producer": " "
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 159
+        },
+        {
+          "pdf_page": 2,
+          "chars": 558
+        },
+        {
+          "pdf_page": 3,
+          "chars": 2154
+        },
+        {
+          "pdf_page": 319,
+          "chars": 2084
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791208541910451987
+    },
+    {
+      "source": "TARAMA",
+      "path": "enrichment/corpus/TARAMA/raw/acquired-2026-10-05/tarama-vol-3.pdf",
+      "url": "https://turuz.com/storage/Dictionary/2011/0155-%283%29_Tarama_sozluyu-3-%2896.636KB%29.pdf",
+      "origin": "https://turuz.com/tr/book/title/tarama-sozlugu",
+      "format": "pdf",
+      "volume": 3,
+      "language": "tr",
+      "bytes": 98954365,
+      "http_status": 206,
+      "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%283%29_Tarama_sozluyu-3-%2896.636KB%29.pdf",
+      "checked_at": "2026-10-05T13:56:12.710809+00:00",
+      "resumed_transfer": {
+        "prefix_bytes": 44859392,
+        "total_bytes": 98954365,
+        "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%283%29_Tarama_sozluyu-3-%2896.636KB%29.pdf",
+        "etag": "\"53e3c04f-5e5ec7d\"",
+        "ranges": [
+          {
+            "start": 44859392,
+            "end": 65830911,
+            "bytes": 20971520,
+            "http_status": 206,
+            "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%283%29_Tarama_sozluyu-3-%2896.636KB%29.pdf",
+            "etag": "\"53e3c04f-5e5ec7d\""
+          },
+          {
+            "start": 65830912,
+            "end": 86802431,
+            "bytes": 20971520,
+            "http_status": 206,
+            "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%283%29_Tarama_sozluyu-3-%2896.636KB%29.pdf",
+            "etag": "\"53e3c04f-5e5ec7d\""
+          },
+          {
+            "start": 86802432,
+            "end": 98954364,
+            "bytes": 12151933,
+            "http_status": 206,
+            "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%283%29_Tarama_sozluyu-3-%2896.636KB%29.pdf",
+            "etag": "\"53e3c04f-5e5ec7d\""
+          }
+        ]
+      },
+      "sha256": "81f0187d995c0b9b768972876a3fa54055063ed36b426079befdc115174dc209",
+      "archive_checksum_verified": false,
+      "pages": 381,
+      "pdf_metadata": {
+        "/CreationDate": "D:20081220124341+03'30'",
+        "/Creator": "Canon ",
+        "/Producer": " "
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 174
+        },
+        {
+          "pdf_page": 2,
+          "chars": 1124
+        },
+        {
+          "pdf_page": 3,
+          "chars": 2688
+        },
+        {
+          "pdf_page": 381,
+          "chars": 565
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791208547592439879
+    },
+    {
+      "source": "TARAMA",
+      "path": "enrichment/corpus/TARAMA/raw/acquired-2026-10-05/tarama-vol-4.pdf",
+      "url": "https://turuz.com/storage/Dictionary/2011/0155-%284%29_Tarama_sozluyu-4-%2895.261KB%29.pdf",
+      "origin": "https://turuz.com/tr/book/title/tarama-sozlugu",
+      "format": "pdf",
+      "volume": 4,
+      "language": "tr",
+      "bytes": 97546559,
+      "http_status": 206,
+      "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%284%29_Tarama_sozluyu-4-%2895.261KB%29.pdf",
+      "checked_at": "2026-10-05T13:56:12.710809+00:00",
+      "resumed_transfer": {
+        "prefix_bytes": 45121536,
+        "total_bytes": 97546559,
+        "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%284%29_Tarama_sozluyu-4-%2895.261KB%29.pdf",
+        "etag": "\"53e3c0b2-5d0713f\"",
+        "ranges": [
+          {
+            "start": 45121536,
+            "end": 66093055,
+            "bytes": 20971520,
+            "http_status": 206,
+            "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%284%29_Tarama_sozluyu-4-%2895.261KB%29.pdf",
+            "etag": "\"53e3c0b2-5d0713f\""
+          },
+          {
+            "start": 66093056,
+            "end": 87064575,
+            "bytes": 20971520,
+            "http_status": 206,
+            "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%284%29_Tarama_sozluyu-4-%2895.261KB%29.pdf",
+            "etag": "\"53e3c0b2-5d0713f\""
+          },
+          {
+            "start": 87064576,
+            "end": 97546558,
+            "bytes": 10481983,
+            "http_status": 206,
+            "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%284%29_Tarama_sozluyu-4-%2895.261KB%29.pdf",
+            "etag": "\"53e3c0b2-5d0713f\""
+          }
+        ]
+      },
+      "sha256": "71019b221c554c6937278fed1be7be33661e6f2b35830959424c7f1fedcf08d4",
+      "archive_checksum_verified": false,
+      "pages": 388,
+      "pdf_metadata": {
+        "/CreationDate": "D:20081228174737+03'30'",
+        "/Creator": "Canon ",
+        "/Producer": " "
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 168
+        },
+        {
+          "pdf_page": 2,
+          "chars": 15
+        },
+        {
+          "pdf_page": 3,
+          "chars": 230
+        },
+        {
+          "pdf_page": 388,
+          "chars": 986
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791208553272852795
+    },
+    {
+      "source": "TARAMA",
+      "path": "enrichment/corpus/TARAMA/raw/acquired-2026-10-05/tarama-vol-5.pdf",
+      "url": "https://turuz.com/storage/Dictionary/2011/0155-%285%29_Tarama_sozluyu-5%28111.360KB%29.pdf",
+      "origin": "https://turuz.com/tr/book/title/tarama-sozlugu",
+      "format": "pdf",
+      "volume": 5,
+      "language": "tr",
+      "bytes": 114032396,
+      "http_status": 206,
+      "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%285%29_Tarama_sozluyu-5%28111.360KB%29.pdf",
+      "checked_at": "2026-10-05T13:56:12.710809+00:00",
+      "resumed_transfer": {
+        "prefix_bytes": 23101440,
+        "total_bytes": 114032396,
+        "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%285%29_Tarama_sozluyu-5%28111.360KB%29.pdf",
+        "etag": "\"53e3c3a5-6cbff0c\"",
+        "ranges": [
+          {
+            "start": 23101440,
+            "end": 44072959,
+            "bytes": 20971520,
+            "http_status": 206,
+            "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%285%29_Tarama_sozluyu-5%28111.360KB%29.pdf",
+            "etag": "\"53e3c3a5-6cbff0c\""
+          },
+          {
+            "start": 44072960,
+            "end": 65044479,
+            "bytes": 20971520,
+            "http_status": 206,
+            "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%285%29_Tarama_sozluyu-5%28111.360KB%29.pdf",
+            "etag": "\"53e3c3a5-6cbff0c\""
+          },
+          {
+            "start": 65044480,
+            "end": 86015999,
+            "bytes": 20971520,
+            "http_status": 206,
+            "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%285%29_Tarama_sozluyu-5%28111.360KB%29.pdf",
+            "etag": "\"53e3c3a5-6cbff0c\""
+          },
+          {
+            "start": 86016000,
+            "end": 106987519,
+            "bytes": 20971520,
+            "http_status": 206,
+            "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%285%29_Tarama_sozluyu-5%28111.360KB%29.pdf",
+            "etag": "\"53e3c3a5-6cbff0c\""
+          },
+          {
+            "start": 106987520,
+            "end": 114032395,
+            "bytes": 7044876,
+            "http_status": 206,
+            "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%285%29_Tarama_sozluyu-5%28111.360KB%29.pdf",
+            "etag": "\"53e3c3a5-6cbff0c\""
+          }
+        ]
+      },
+      "sha256": "a18cbc3d908f46ecee921239d83efae490bc6671156cac531711287daffbcbfc",
+      "archive_checksum_verified": false,
+      "pages": 491,
+      "pdf_metadata": {
+        "/CreationDate": "D:20081228205354+03'30'",
+        "/Creator": "Canon ",
+        "/Producer": " "
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 159
+        },
+        {
+          "pdf_page": 2,
+          "chars": 224
+        },
+        {
+          "pdf_page": 3,
+          "chars": 1548
+        },
+        {
+          "pdf_page": 491,
+          "chars": 2115
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791208558165495516
+    },
+    {
+      "source": "TARAMA",
+      "path": "enrichment/corpus/TARAMA/raw/acquired-2026-10-05/tarama-vol-6.pdf",
+      "url": "https://turuz.com/storage/Dictionary/2011/0155-%286%29_Tarama_sozluyu-6-%28109.448KB%29.pdf",
+      "origin": "https://turuz.com/tr/book/title/tarama-sozlugu",
+      "format": "pdf",
+      "volume": 6,
+      "language": "tr",
+      "bytes": 112074385,
+      "http_status": 206,
+      "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%286%29_Tarama_sozluyu-6-%28109.448KB%29.pdf",
+      "checked_at": "2026-10-05T13:56:12.710809+00:00",
+      "resumed_transfer": {
+        "prefix_bytes": 23064576,
+        "total_bytes": 112074385,
+        "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%286%29_Tarama_sozluyu-6-%28109.448KB%29.pdf",
+        "etag": "\"53e3c710-6ae1e91\"",
+        "ranges": [
+          {
+            "start": 23064576,
+            "end": 44036095,
+            "bytes": 20971520,
+            "http_status": 206,
+            "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%286%29_Tarama_sozluyu-6-%28109.448KB%29.pdf",
+            "etag": "\"53e3c710-6ae1e91\""
+          },
+          {
+            "start": 44036096,
+            "end": 65007615,
+            "bytes": 20971520,
+            "http_status": 206,
+            "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%286%29_Tarama_sozluyu-6-%28109.448KB%29.pdf",
+            "etag": "\"53e3c710-6ae1e91\""
+          },
+          {
+            "start": 65007616,
+            "end": 85979135,
+            "bytes": 20971520,
+            "http_status": 206,
+            "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%286%29_Tarama_sozluyu-6-%28109.448KB%29.pdf",
+            "etag": "\"53e3c710-6ae1e91\""
+          },
+          {
+            "start": 85979136,
+            "end": 106950655,
+            "bytes": 20971520,
+            "http_status": 206,
+            "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%286%29_Tarama_sozluyu-6-%28109.448KB%29.pdf",
+            "etag": "\"53e3c710-6ae1e91\""
+          },
+          {
+            "start": 106950656,
+            "end": 112074384,
+            "bytes": 5123729,
+            "http_status": 206,
+            "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%286%29_Tarama_sozluyu-6-%28109.448KB%29.pdf",
+            "etag": "\"53e3c710-6ae1e91\""
+          }
+        ]
+      },
+      "sha256": "2385c52a72438eee276be5f151dc82ff1df5d26d02bffa974ff8aa0ad415b9b6",
+      "archive_checksum_verified": false,
+      "pages": 472,
+      "pdf_metadata": {
+        "/CreationDate": "D:20081231080526+03'30'",
+        "/Creator": "Canon ",
+        "/Producer": " "
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 172
+        },
+        {
+          "pdf_page": 2,
+          "chars": 235
+        },
+        {
+          "pdf_page": 3,
+          "chars": 1332
+        },
+        {
+          "pdf_page": 472,
+          "chars": 286
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791208562885115867
+    },
+    {
+      "source": "TARAMA",
+      "path": "enrichment/corpus/TARAMA/raw/acquired-2026-10-05/tarama-vol-7.pdf",
+      "url": "https://turuz.com/storage/Dictionary/2011/0155-%287%29_Tarama_sozluyu-7-%2835.172KB%29.pdf",
+      "origin": "https://turuz.com/tr/book/title/tarama-sozlugu",
+      "format": "pdf",
+      "volume": 7,
+      "language": "tr",
+      "bytes": 36015809,
+      "http_status": 206,
+      "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%287%29_Tarama_sozluyu-7-%2835.172KB%29.pdf",
+      "checked_at": "2026-10-05T13:56:12.710809+00:00",
+      "resumed_transfer": {
+        "prefix_bytes": 23097344,
+        "total_bytes": 36015809,
+        "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%287%29_Tarama_sozluyu-7-%2835.172KB%29.pdf",
+        "etag": "\"53e3c482-2258ec1\"",
+        "ranges": [
+          {
+            "start": 23097344,
+            "end": 36015808,
+            "bytes": 12918465,
+            "http_status": 206,
+            "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%287%29_Tarama_sozluyu-7-%2835.172KB%29.pdf",
+            "etag": "\"53e3c482-2258ec1\""
+          }
+        ]
+      },
+      "sha256": "be6724e7a3f2662b6574b6fedca9fa57d42de1a7dc96085d44530b9008fda718",
+      "archive_checksum_verified": false,
+      "pages": 153,
+      "pdf_metadata": {
+        "/CreationDate": "D:20081231105344+03'30'",
+        "/Creator": "Canon ",
+        "/Producer": " "
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 160
+        },
+        {
+          "pdf_page": 2,
+          "chars": 135
+        },
+        {
+          "pdf_page": 3,
+          "chars": 1540
+        },
+        {
+          "pdf_page": 153,
+          "chars": 739
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791208564799586284
+    },
+    {
+      "source": "TARAMA",
+      "path": "enrichment/corpus/TARAMA/raw/acquired-2026-10-05/tarama-vol-8.pdf",
+      "url": "https://turuz.com/storage/Dictionary/2011/0155-%288%29_Tarama_sozluyu-8-.pdf",
+      "origin": "https://turuz.com/tr/book/title/tarama-sozlugu",
+      "format": "pdf",
+      "volume": 8,
+      "language": "tr",
+      "bytes": 49573193,
+      "http_status": 206,
+      "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%288%29_Tarama_sozluyu-8-.pdf",
+      "checked_at": "2026-10-05T13:56:12.710809+00:00",
+      "resumed_transfer": {
+        "prefix_bytes": 23101440,
+        "total_bytes": 49573193,
+        "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%288%29_Tarama_sozluyu-8-.pdf",
+        "etag": "\"53e3bdb7-2f46d49\"",
+        "ranges": [
+          {
+            "start": 23101440,
+            "end": 44072959,
+            "bytes": 20971520,
+            "http_status": 206,
+            "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%288%29_Tarama_sozluyu-8-.pdf",
+            "etag": "\"53e3bdb7-2f46d49\""
+          },
+          {
+            "start": 44072960,
+            "end": 49573192,
+            "bytes": 5500233,
+            "http_status": 206,
+            "effective_url": "https://turuz.com/storage/Dictionary/2011/0155-%288%29_Tarama_sozluyu-8-.pdf",
+            "etag": "\"53e3bdb7-2f46d49\""
+          }
+        ]
+      },
+      "sha256": "ff9a27247adb8e8473eea9d081bcd93c556cf805567fff218b28a86b1cf89d7b",
+      "archive_checksum_verified": false,
+      "pages": 214,
+      "pdf_metadata": {
+        "/CreationDate": "D:20081231105443+03'30'",
+        "/Creator": "Canon ",
+        "/Producer": " "
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 168
+        },
+        {
+          "pdf_page": 2,
+          "chars": 20
+        },
+        {
+          "pdf_page": 3,
+          "chars": 236
+        },
+        {
+          "pdf_page": 214,
+          "chars": 2308
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791208566690714075
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "path": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-1.pdf",
+      "url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-1.pdf",
+      "origin": "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-1/",
+      "format": "pdf",
+      "language": "ur",
+      "bytes": 155701956,
+      "http_status": 200,
+      "effective_url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-1.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "46d34bf244dd5de0192e66d761b0878025092337aae290dfc2eacbe7ba1bb414",
+      "archive_checksum_verified": false,
+      "pages": 672,
+      "pdf_metadata": {
+        "/Author": "user",
+        "/CreationDate": "D:20100310165445+05'00'",
+        "/Creator": "PScript5.dll Version 5.2",
+        "/Producer": "Acrobat Distiller 6.0 (Windows)",
+        "/Title": "Full page fax print"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 0
+        },
+        {
+          "pdf_page": 2,
+          "chars": 0
+        },
+        {
+          "pdf_page": 3,
+          "chars": 0
+        },
+        {
+          "pdf_page": 672,
+          "chars": 0
+        }
+      ],
+      "sample_has_embedded_text": false,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791207472957665143
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "path": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-2.pdf",
+      "url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-2.pdf",
+      "origin": "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-2/",
+      "format": "pdf",
+      "language": "ur",
+      "bytes": 148312146,
+      "http_status": 200,
+      "effective_url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-2.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "de297546d9792aaddddc49f6b1cafa2976227eff76c46e5ddd4e818b2979c827",
+      "archive_checksum_verified": false,
+      "pages": 633,
+      "pdf_metadata": {
+        "/Author": "user",
+        "/CreationDate": "D:20100317145001+05'00'",
+        "/Creator": "PScript5.dll Version 5.2",
+        "/Producer": "Acrobat Distiller 6.0 (Windows)",
+        "/Title": "Full page fax print"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 0
+        },
+        {
+          "pdf_page": 2,
+          "chars": 0
+        },
+        {
+          "pdf_page": 3,
+          "chars": 0
+        },
+        {
+          "pdf_page": 633,
+          "chars": 0
+        }
+      ],
+      "sample_has_embedded_text": false,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791207472001729964
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "path": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-3-surah-anam-06.pdf",
+      "url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-3-surah-anam-06.pdf",
+      "origin": "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-3-surah-anam-06/",
+      "format": "pdf",
+      "language": "en",
+      "bytes": 9480602,
+      "http_status": 200,
+      "effective_url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-3-surah-anam-06.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "05428be1ded3faa3e1e689c3907162a32ece3294ef5a3048e699b4ae44b61a08",
+      "archive_checksum_verified": false,
+      "pages": 159,
+      "pdf_metadata": {
+        "/Author": "Azeem Ayub",
+        "/CreationDate": "D:20240229145939+05'00'",
+        "/Creator": "PScript5.dll Version 5.2.2",
+        "/Producer": "GPL Ghostscript 9.06",
+        "/Title": "Microsoft Word - 06 Surah An'am _2_.doc"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 2935
+        },
+        {
+          "pdf_page": 2,
+          "chars": 3274
+        },
+        {
+          "pdf_page": 3,
+          "chars": 3721
+        },
+        {
+          "pdf_page": 159,
+          "chars": 1407
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791207457868329496
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "path": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-3-surah-anfal-08.pdf",
+      "url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-3-surah-anfal-08.pdf",
+      "origin": "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-3-surah-anfal-08/",
+      "format": "pdf",
+      "language": "en",
+      "bytes": 3149702,
+      "http_status": 200,
+      "effective_url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-3-surah-anfal-08.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "af2e205a3c7680242283694c2353ac7e5ad1671623c876461f72e5c19c88070b",
+      "archive_checksum_verified": false,
+      "pages": 81,
+      "pdf_metadata": {
+        "/Author": "Azeem Ayub",
+        "/CreationDate": "D:20240120114336+05'00'",
+        "/Creator": "PScript5.dll Version 5.2.2",
+        "/Producer": "GPL Ghostscript 9.06",
+        "/Title": "Microsoft Word - 08 Surah Anfal.doc"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 3176
+        },
+        {
+          "pdf_page": 2,
+          "chars": 3682
+        },
+        {
+          "pdf_page": 3,
+          "chars": 3832
+        },
+        {
+          "pdf_page": 81,
+          "chars": 3215
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791207457164018999
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "path": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-3-surah-araf-07.pdf",
+      "url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-3-surah-araf-07.pdf",
+      "origin": "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-3-surah-araf-07/",
+      "format": "pdf",
+      "language": "en",
+      "bytes": 7391376,
+      "http_status": 200,
+      "effective_url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-3-surah-araf-07.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "5e1e1662827968855827421596e8f970a9f5de240da5f5e162991a65a41bf2b4",
+      "archive_checksum_verified": false,
+      "pages": 161,
+      "pdf_metadata": {
+        "/Author": "Azeem Ayub",
+        "/CreationDate": "D:20231026083744+05'00'",
+        "/Creator": "PScript5.dll Version 5.2.2",
+        "/Producer": "GPL Ghostscript 9.06",
+        "/Title": "Microsoft Word - 07 Surah A'raf.doc"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 2939
+        },
+        {
+          "pdf_page": 2,
+          "chars": 3952
+        },
+        {
+          "pdf_page": 3,
+          "chars": 3790
+        },
+        {
+          "pdf_page": 161,
+          "chars": 1554
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791207458750175768
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "path": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-3-surah-tawbah-09.pdf",
+      "url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-3-surah-tawbah-09.pdf",
+      "origin": "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-3-surah-tawbah-09/",
+      "format": "pdf",
+      "language": "en",
+      "bytes": 79279685,
+      "http_status": 200,
+      "effective_url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-3-surah-tawbah-09.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "0ad070f20242b52689ae59236180dab324da86e09af908d874a87b7007c60ba1",
+      "archive_checksum_verified": false,
+      "pages": 110,
+      "pdf_metadata": {
+        "/Author": "Azeem Ayub",
+        "/CreationDate": "D:20230621154227+05'00'",
+        "/Creator": "PScript5.dll Version 5.2.2",
+        "/Producer": "GPL Ghostscript 9.06",
+        "/Title": "Microsoft Word - 09 Surah Tawbah _2__azeem.doc"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 0
+        },
+        {
+          "pdf_page": 2,
+          "chars": 0
+        },
+        {
+          "pdf_page": 3,
+          "chars": 0
+        },
+        {
+          "pdf_page": 110,
+          "chars": 0
+        }
+      ],
+      "sample_has_embedded_text": false,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791207468326163307
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "path": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-3.pdf",
+      "url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-3.pdf",
+      "origin": "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-3/",
+      "format": "pdf",
+      "language": "ur",
+      "bytes": 156148886,
+      "http_status": 200,
+      "effective_url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-3.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "93ddc23f53abf1863da8e6108d383d3ee4ae996a4f8b6df1573adfc45954ef0e",
+      "archive_checksum_verified": false,
+      "pages": 691,
+      "pdf_metadata": {
+        "/Author": "user",
+        "/CreationDate": "D:20100406165350+05'00'",
+        "/Creator": "PScript5.dll Version 5.2",
+        "/Producer": "Acrobat Distiller 6.0 (Windows)",
+        "/Title": "Full page fax print"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 0
+        },
+        {
+          "pdf_page": 2,
+          "chars": 0
+        },
+        {
+          "pdf_page": 3,
+          "chars": 0
+        },
+        {
+          "pdf_page": 691,
+          "chars": 0
+        }
+      ],
+      "sample_has_embedded_text": false,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791207476068943999
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "path": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-4-surah-yunus-10-surah-maryam-19.pdf",
+      "url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-4-surah-yunus-10-surah-maryam-19.pdf",
+      "origin": "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-4-surah-yunus-10-surah-maryam-19/",
+      "format": "pdf",
+      "language": "en",
+      "bytes": 11305839,
+      "http_status": 200,
+      "effective_url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-4-surah-yunus-10-surah-maryam-19.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "f427fe73a7b6c90cbe19771dd45ad0ffa3f3736065084d8fef37d11b8fb82f81",
+      "archive_checksum_verified": false,
+      "pages": 546,
+      "pdf_metadata": {
+        "/Author": "Azeem Ayub",
+        "/CreationDate": "D:20230620213255+05'00'",
+        "/Creator": "PScript5.dll Version 5.2.2",
+        "/Producer": "GPL Ghostscript 9.06",
+        "/Title": "Microsoft Word - 10 Surah Yunus _2_.doc"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 572
+        },
+        {
+          "pdf_page": 2,
+          "chars": 467
+        },
+        {
+          "pdf_page": 3,
+          "chars": 659
+        },
+        {
+          "pdf_page": 546,
+          "chars": 2888
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791207470921178086
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "path": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-4.pdf",
+      "url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-4.pdf",
+      "origin": "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-4/",
+      "format": "pdf",
+      "language": "ur",
+      "bytes": 158986180,
+      "http_status": 200,
+      "effective_url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-4.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "ad60049f00d67752222ff417baff854c8f59f68c63b63d7c81a175bd8f849543",
+      "archive_checksum_verified": false,
+      "pages": 719,
+      "pdf_metadata": {
+        "/Author": "user",
+        "/CreationDate": "D:20100416162026+05'00'",
+        "/Creator": "PScript5.dll Version 5.2",
+        "/Producer": "Acrobat Distiller 6.0 (Windows)",
+        "/Title": "Full page fax print"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 0
+        },
+        {
+          "pdf_page": 2,
+          "chars": 0
+        },
+        {
+          "pdf_page": 3,
+          "chars": 0
+        },
+        {
+          "pdf_page": 719,
+          "chars": 0
+        }
+      ],
+      "sample_has_embedded_text": false,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791207487958589605
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "path": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-5-english.pdf",
+      "url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-5-english.pdf",
+      "origin": "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-5-english/",
+      "format": "pdf",
+      "language": "en",
+      "bytes": 9273806,
+      "http_status": 200,
+      "effective_url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-5-english.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "503ec0d5dd3dae344d0aed69e8e76a57ff1da29395196764ce9b4590eae5d6f2",
+      "archive_checksum_verified": false,
+      "pages": 580,
+      "pdf_metadata": {
+        "/Author": "Dell",
+        "/CreationDate": "D:20220427111918+05'00'",
+        "/Creator": "PScript5.dll Version 5.2.2",
+        "/Producer": "GPL Ghostscript 9.06",
+        "/Title": "Microsoft Word - 20 Surah Taha _2_.doc"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 113
+        },
+        {
+          "pdf_page": 2,
+          "chars": 7
+        },
+        {
+          "pdf_page": 3,
+          "chars": 205
+        },
+        {
+          "pdf_page": 580,
+          "chars": 634
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791207473698891566
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "path": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-5.pdf",
+      "url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-5.pdf",
+      "origin": "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-5/",
+      "format": "pdf",
+      "language": "ur",
+      "bytes": 157548718,
+      "http_status": 200,
+      "effective_url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-5.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "38f2c476f0d5d08c19cb628db15df06339ed8bd10e023e0efeda046f75928f01",
+      "archive_checksum_verified": false,
+      "pages": 745,
+      "pdf_metadata": {
+        "/Author": "user",
+        "/CreationDate": "D:20100428141949+05'00'",
+        "/Creator": "PScript5.dll Version 5.2",
+        "/Producer": "Acrobat Distiller 6.0 (Windows)",
+        "/Title": "Full page fax print"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 0
+        },
+        {
+          "pdf_page": 2,
+          "chars": 0
+        },
+        {
+          "pdf_page": 3,
+          "chars": 0
+        },
+        {
+          "pdf_page": 745,
+          "chars": 0
+        }
+      ],
+      "sample_has_embedded_text": false,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791207490911577377
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "path": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-6-2.pdf",
+      "url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-6-2.pdf",
+      "origin": "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-6-2/",
+      "format": "pdf",
+      "language": "en",
+      "bytes": 6317672,
+      "http_status": 200,
+      "effective_url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-6-2.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "3da1d857fb4121ecce600357a00038f86e629c0191175ef46ec23ecd2b85d562",
+      "archive_checksum_verified": false,
+      "pages": 580,
+      "pdf_metadata": {
+        "/Author": "Dell",
+        "/CreationDate": "D:20220427092430Z'",
+        "/Creator": "Writer",
+        "/Producer": "LibreOffice 7.2",
+        "/Title": "Su#rah Luqma#n"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 26
+        },
+        {
+          "pdf_page": 2,
+          "chars": 0
+        },
+        {
+          "pdf_page": 3,
+          "chars": 144
+        },
+        {
+          "pdf_page": 580,
+          "chars": 1324
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791207475363539558
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "path": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-6.pdf",
+      "url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-6.pdf",
+      "origin": "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-6/",
+      "format": "pdf",
+      "language": "ur",
+      "bytes": 93036741,
+      "http_status": 200,
+      "effective_url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-6.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "b87fc40ceda67ac32ea0a5da32bbe0937268b56d58fb5de61aedf49c92f67b27",
+      "archive_checksum_verified": false,
+      "pages": 459,
+      "pdf_metadata": {
+        "/Author": "user",
+        "/CreationDate": "D:20101213160440+05'00'",
+        "/Creator": "PScript5.dll Version 5.2",
+        "/Producer": "Acrobat Distiller 6.0.1 (Windows)",
+        "/Title": "Full page fax print"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 0
+        },
+        {
+          "pdf_page": 2,
+          "chars": 0
+        },
+        {
+          "pdf_page": 3,
+          "chars": 0
+        },
+        {
+          "pdf_page": 459,
+          "chars": 0
+        }
+      ],
+      "sample_has_embedded_text": false,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791207487107511033
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "path": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-7-english.pdf",
+      "url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-7-english.pdf",
+      "origin": "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-7-english/",
+      "format": "pdf",
+      "language": "en",
+      "bytes": 9417289,
+      "http_status": 200,
+      "effective_url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-7-english.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "456a661643f271e735edba4f618d88dec4ec19be2fb2a88425a047feecca57df",
+      "archive_checksum_verified": false,
+      "pages": 524,
+      "pdf_metadata": {
+        "/Author": "Dell",
+        "/CreationDate": "D:20210320191505+05'00'",
+        "/Creator": "PScript5.dll Version 5.2.2",
+        "/Producer": "GPL Ghostscript 9.06",
+        "/Title": "Microsoft Word - Tadabbur-i-QuranVol.7 Final.doc"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 570
+        },
+        {
+          "pdf_page": 2,
+          "chars": 463
+        },
+        {
+          "pdf_page": 3,
+          "chars": 667
+        },
+        {
+          "pdf_page": 524,
+          "chars": 922
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791207478572912816
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "path": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-7.pdf",
+      "url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-7.pdf",
+      "origin": "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-7/",
+      "format": "pdf",
+      "language": "ur",
+      "bytes": 132464489,
+      "http_status": 200,
+      "effective_url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-7.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "77767effe19dbcef13ed29149b307dee00d57f07e8509237190ebfe23d96ae44",
+      "archive_checksum_verified": false,
+      "pages": 646,
+      "pdf_metadata": {
+        "/Author": "user",
+        "/CreationDate": "D:20101214114329+05'00'",
+        "/Creator": "PScript5.dll Version 5.2",
+        "/Producer": "Acrobat Distiller 6.0.1 (Windows)",
+        "/Title": "Full page fax print"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 0
+        },
+        {
+          "pdf_page": 2,
+          "chars": 0
+        },
+        {
+          "pdf_page": 3,
+          "chars": 0
+        },
+        {
+          "pdf_page": 646,
+          "chars": 0
+        }
+      ],
+      "sample_has_embedded_text": false,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791207494070426459
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "path": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-8-english.pdf",
+      "url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-8-english.pdf",
+      "origin": "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-8-english/",
+      "format": "pdf",
+      "language": "en",
+      "bytes": 9199531,
+      "http_status": 200,
+      "effective_url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-8-english.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "540187f9727bde9223c34acf6f9a296637553f26633252e76f702d4f01048a58",
+      "archive_checksum_verified": false,
+      "pages": 522,
+      "pdf_metadata": {
+        "/Author": "Dell",
+        "/CreationDate": "D:20210322135026+05'00'",
+        "/Creator": "PScript5.dll Version 5.2.2",
+        "/Producer": "GPL Ghostscript 9.06",
+        "/Title": "Microsoft Word - Tadabbur-i-QuranVol.8 Final.doc"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 566
+        },
+        {
+          "pdf_page": 2,
+          "chars": 463
+        },
+        {
+          "pdf_page": 3,
+          "chars": 659
+        },
+        {
+          "pdf_page": 522,
+          "chars": 861
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791207489059676261
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "path": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-8.pdf",
+      "url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-8.pdf",
+      "origin": "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-8/",
+      "format": "pdf",
+      "language": "ur",
+      "bytes": 119487582,
+      "http_status": 200,
+      "effective_url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-8.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "cda29e54acefa21096511daa6fe64e2869e8c0d876f6ea9867ac6e4cd07f1f6c",
+      "archive_checksum_verified": false,
+      "pages": 640,
+      "pdf_metadata": {
+        "/Author": "user",
+        "/CreationDate": "D:20101213160817+05'00'",
+        "/Creator": "PScript5.dll Version 5.2",
+        "/Producer": "Acrobat Distiller 6.0.1 (Windows)",
+        "/Title": "Full page fax print"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 0
+        },
+        {
+          "pdf_page": 2,
+          "chars": 0
+        },
+        {
+          "pdf_page": 3,
+          "chars": 0
+        },
+        {
+          "pdf_page": 640,
+          "chars": 0
+        }
+      ],
+      "sample_has_embedded_text": false,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791207497837068988
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "path": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-9-english.pdf",
+      "url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-9-english.pdf",
+      "origin": "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-9-english/",
+      "format": "pdf",
+      "language": "en",
+      "bytes": 8184257,
+      "http_status": 200,
+      "effective_url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-9-english.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "976abeb9628101e802d51c66f074b1fa3e48dae013933fb09c52102b6090eed7",
+      "archive_checksum_verified": false,
+      "pages": 540,
+      "pdf_metadata": {
+        "/Author": "Azeem Ayub",
+        "/CreationDate": "D:20260731150222+05'00'",
+        "/Creator": "PScript5.dll Version 5.2.2",
+        "/Producer": "GPL Ghostscript 9.06",
+        "/Title": "Microsoft Word - 1st Pages.doc"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 95
+        },
+        {
+          "pdf_page": 2,
+          "chars": 7
+        },
+        {
+          "pdf_page": 3,
+          "chars": 206
+        },
+        {
+          "pdf_page": 540,
+          "chars": 457
+        }
+      ],
+      "sample_has_embedded_text": true,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791207491093491222
+    },
+    {
+      "source": "ISLAHI-TADABBUR",
+      "path": "enrichment/corpus/ACADEMIC/ISLAHI-TADABBUR/raw/acquired-2026-10-05/tadabbur-e-quran-vol-9.pdf",
+      "url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-9.pdf",
+      "origin": "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-9/",
+      "format": "pdf",
+      "language": "ur",
+      "bytes": 62705450,
+      "http_status": 200,
+      "effective_url": "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-9.pdf",
+      "checked_at": "2026-10-05T13:39:23.139064+00:00",
+      "sha256": "d1fbf188154e163da0a77c51574bef423b15474f1f4f136ab756d98f8e3f6126",
+      "archive_checksum_verified": false,
+      "pages": 616,
+      "pdf_metadata": {
+        "/CreationDate": "D:20210413115337+05'00'",
+        "/Creator": "Adobe Acrobat 6.0",
+        "/Producer": "Adobe Acrobat 6.0 Image Conversion Plug-in"
+      },
+      "sampled_text": [
+        {
+          "pdf_page": 1,
+          "chars": 0
+        },
+        {
+          "pdf_page": 2,
+          "chars": 0
+        },
+        {
+          "pdf_page": 3,
+          "chars": 0
+        },
+        {
+          "pdf_page": 616,
+          "chars": 0
+        }
+      ],
+      "sample_has_embedded_text": false,
+      "validation": "PDF signature, end marker, page tree, and sampled page extraction checked",
+      "status": "verified_download",
+      "mtime_ns": 1791207496995460233
+    }
+  ],
+  "failures": []
+}

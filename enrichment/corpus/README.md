@@ -39,8 +39,12 @@ enrichment/corpus/<ID>/
 }
 ```
 
-`access: hafiza` is a pointer to a work that is not held locally (licensed books such as Neuwirth or Sinai).
-It has a `source.json` and no `segments.jsonl`; anything cited from it is model memory and is marked so.
+`access: hafiza` means the workflow has no indexed text for the work. It has a `source.json` and no
+`segments.jsonl`; anything cited from it through the workflow is model memory and is marked so.
+Raw files may already be held locally: `acquisition.state: raw_downloaded` and
+`acquisition.ingestion_status: pending` distinguish downloaded originals awaiting extraction and
+quality checks from sources that are still only pointers. Acquisition manifests record URLs,
+checksums and validation; downloading a PDF alone does not change `access` to `yerel`.
 
 ### `segments.jsonl`
 

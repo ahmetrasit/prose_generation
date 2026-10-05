@@ -6,10 +6,10 @@
   "kind": "nazm",
   "tradition": "academic (Semitic rhetorical analysis, Rhetorica Semitica)",
   "language": "en",
-  "edition": "London: Bloomsbury Academic, 2015 (tr. Jerry Ryan); French orig. La composition du Coran, Pendé: Gabalda, 2012. Most relevant for the target sūras: Une apocalypse coranique: une lecture des trente-trois dernières sourates du Coran (Gabalda, 2014) / A Qurʾānic Apocalypse: A Reading of the Thirty-Three Last Sūrahs of the Qurʾān (Atlanta: Lockwood Press, 2018) — sūras 82–114.",
-  "access": "hafiza",
+  "edition": "M. Cuypers, The Composition of the Qur'an: Rhetorical Analysis, London 2015 (PDF)",
+  "access": "yerel",
   "locator": "page",
-  "coverage": "rhetorical structure (parallelism, concentric composition) of sūras; the 2014/2018 book covers 82–114",
+  "coverage": "whole book by page; cited ayat in refs (`corpus.py cites S:A`)",
   "target_coverage": {
     "81-114": "per-sūra rhetorical structure in the AnIsl/MIDEO articles below and in A Qurʾānic Apocalypse",
     "1": "al-Fātiḥa analysed in The Composition of the Qur'an (from memory — verify)",
@@ -45,10 +45,43 @@
     "https://www.ifao.egnet.net/anisl/33/2",
     "https://www.ifao.egnet.net/anisl/34/6",
     "https://www.ifao.egnet.net/anisl/35/3",
-    "https://www.ifao.egnet.net/anisl/37/5"
+    "https://www.ifao.egnet.net/anisl/37/5",
+    "https://almuslih.org/library-backup/",
+    "https://almuslih.org/wp-content/uploads/Library/Cuypers%2C%20M%20-%20The%20Composition%20of%20the%20Qur%E2%80%99an.pdf"
   ],
-  "fetched_at": "2026-10-03",
-  "files": {},
-  "licence": "Books licensed (Bloomsbury, Gabalda, Lockwood). AnIsl PDFs: free access from IFAO (verified HTTP 200 application/pdf, 2026-10-03); not downloaded.",
-  "notes": "Sūra 91 falls between AnIsl 35 (85–90) and AnIsl 34 (92–98); where Cuypers treats 91 (and whether MIDEO 23 covers 105–114 completely) is unverified. Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+  "fetched_at": "2026-10-05T13:56:12.710809+00:00",
+  "files": {
+    "raw/acquired-2026-10-05/cuypers-composition-2015.pdf": "3f5ae40ad346572bfe66a2a6c34b05252352d26e55836ad24adfa69277c0ee95"
+  },
+  "licence": "copyrighted or public domain as the edition; local research copy only (user, 2026-10-05: licence is no barrier for local analysis)",
+  "notes": "Ingested 2026-10-05 from the user's download (fetch/import_pages.py CUYPERS-COMPOSITION). . Pointer note before ingestion: Sūra 91 falls between AnIsl 35 (85–90) and AnIsl 34 (92–98); where Cuypers treats 91 (and whether MIDEO 23 covers 105–114 completely) is unverified. Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it.",
+  "acquisition": {
+    "date": "2026-10-05",
+    "state": "raw_downloaded",
+    "ingestion_status": "ingested",
+    "files": 1,
+    "pdfs": 1,
+    "ocr_sidecars": 0,
+    "bytes": 1562436,
+    "manifest": "../../../v2/audits/2026-10-05-source-downloads/manifest.json",
+    "note": "Raw originals are now held locally. access remains hafiza until searchable segments are ingested and checked. Earlier pointer notes describe the pre-acquisition audit."
+  },
+  "segments": 216,
+  "ingestion": {
+    "date": "2026-10-05",
+    "script": "enrichment/v2/fetch/import_pages.py CUYPERS-COMPOSITION",
+    "from": {
+      "raw/acquired-2026-10-05/cuypers-composition-2015.pdf": "3f5ae40ad346572bfe66a2a6c34b05252352d26e55836ad24adfa69277c0ee95"
+    },
+    "method": "PDF text layer (pypdf via fetch/pdf_pages.py); one segment per page; refs in the book's citation style",
+    "repairs": {
+      "empty pages": 1,
+      "printed number shared by two pages: PDF page used": 4
+    },
+    "quality": "text layer good",
+    "segments": 216,
+    "tied_to_ayah": 0,
+    "with_cited_ayat": 122,
+    "characters": 425263
+  }
 }

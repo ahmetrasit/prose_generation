@@ -11,18 +11,46 @@
   "locator": "entry",
   "urls": [
     "https://sozluk.gov.tr/ (Tarama Sözlüğü tab)",
-    "https://api.sozluk.gov.tr/ts?ara=<word>"
+    "https://api.sozluk.gov.tr/ts?ara=<word>",
+    "https://turuz.com/tr/book/title/tarama-sozlugu",
+    "https://turuz.com/storage/Dictionary/2011/0155-%281%29_Tarama_sozluyu-1-%28108.568KB%29.pdf",
+    "https://turuz.com/storage/Dictionary/2011/0155-%282%29_Tarama_sozluyu-2-%2877.405KB%29.pdf",
+    "https://turuz.com/storage/Dictionary/2011/0155-%283%29_Tarama_sozluyu-3-%2896.636KB%29.pdf",
+    "https://turuz.com/storage/Dictionary/2011/0155-%284%29_Tarama_sozluyu-4-%2895.261KB%29.pdf",
+    "https://turuz.com/storage/Dictionary/2011/0155-%285%29_Tarama_sozluyu-5%28111.360KB%29.pdf",
+    "https://turuz.com/storage/Dictionary/2011/0155-%286%29_Tarama_sozluyu-6-%28109.448KB%29.pdf",
+    "https://turuz.com/storage/Dictionary/2011/0155-%287%29_Tarama_sozluyu-7-%2835.172KB%29.pdf",
+    "https://turuz.com/storage/Dictionary/2011/0155-%288%29_Tarama_sozluyu-8-.pdf"
   ],
   "licence": "© Türk Dil Kurumu.",
   "notes": "BLOCKED (2026-10-03): the new sozluk.gov.tr front-end loads all dictionaries other than GTS from https://api.sozluk.gov.tr/<ts|ds|yeni-derleme|etms|koken-bilgisi|osmanlica>?ara=<w>, which returns HTTP 403 {\"error\":\"FORBIDDEN\",\"message\":\"Bu API yalnızca yetkili web arayüzünden erişilebilir.\"} to non-browser clients. The legacy sozluk.gov.tr/<ts|...>?ara= paths now return the SPA shell. Not bypassed (no header spoofing). Evidence cached in raw/. Same block applies to Derleme Sözlüğü, Türk Dilinin Etimolojik Sözlüğü (ETMS), Köken Bilgisi Sözlüğü and Osmanlı Türkçesi Sözlüğü. Options: read in a browser and cite by hand; or the printed Tarama Sözlüğü (8 vols, TDK 1963–1977).",
   "coverage": "none (blocked)",
-  "fetched_at": "2026-10-04T20:38:47-04:00",
+  "fetched_at": "2026-10-05T13:56:12.710809+00:00",
   "files": {
-    "raw/blocked_probe_ts_kalp.json": "faa3eb84869087b9d3e897f97e37fb9a81a3ed1761f349ef8cc472b11b69a4f6"
+    "raw/blocked_probe_ts_kalp.json": "faa3eb84869087b9d3e897f97e37fb9a81a3ed1761f349ef8cc472b11b69a4f6",
+    "raw/acquired-2026-10-05/tarama-vol-1.pdf": "f604ac29ad1ce8bdfe97a68888eb32bd92dd247bb9dbd0d50bab49277cb54402",
+    "raw/acquired-2026-10-05/tarama-vol-2.pdf": "67bb17cf62dc0b6c7130e8eefe5f041cc76bd6e645b6d1bb7a068a13922438b8",
+    "raw/acquired-2026-10-05/tarama-vol-3.pdf": "81f0187d995c0b9b768972876a3fa54055063ed36b426079befdc115174dc209",
+    "raw/acquired-2026-10-05/tarama-vol-4.pdf": "71019b221c554c6937278fed1be7be33661e6f2b35830959424c7f1fedcf08d4",
+    "raw/acquired-2026-10-05/tarama-vol-5.pdf": "a18cbc3d908f46ecee921239d83efae490bc6671156cac531711287daffbcbfc",
+    "raw/acquired-2026-10-05/tarama-vol-6.pdf": "2385c52a72438eee276be5f151dc82ff1df5d26d02bffa974ff8aa0ad415b9b6",
+    "raw/acquired-2026-10-05/tarama-vol-7.pdf": "be6724e7a3f2662b6574b6fedca9fa57d42de1a7dc96085d44530b9008fda718",
+    "raw/acquired-2026-10-05/tarama-vol-8.pdf": "ff9a27247adb8e8473eea9d081bcd93c556cf805567fff218b28a86b1cf89d7b"
   },
   "fetch_log": "raw/_fetchlog.jsonl (url, status, sha256, date per raw file)",
   "queries": {
     "kalp": "MISSING: blocked (HTTP 403: {\"error\":\"FORBIDDEN\",\"message\":\"Bu API yalnızca yetkili web arayüzünden erişilebilir.\"}); not bypassed",
     "nimet": "MISSING: blocked (HTTP 403: {\"error\":\"FORBIDDEN\",\"message\":\"Bu API yalnızca yetkili web arayüzünden erişilebilir.\"}); not bypassed"
+  },
+  "acquisition": {
+    "date": "2026-10-05",
+    "state": "raw_downloaded",
+    "ingestion_status": "pending",
+    "files": 8,
+    "pdfs": 8,
+    "ocr_sidecars": 0,
+    "bytes": 698631519,
+    "manifest": "../../v2/audits/2026-10-05-source-downloads/manifest.json",
+    "note": "Raw originals are now held locally. access remains hafiza until searchable segments are ingested and checked. Earlier pointer notes describe the pre-acquisition audit."
   }
 }

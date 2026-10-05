@@ -1,13 +1,13 @@
 {
   "id": "ACADEMIC",
-  "title": "Pointer records for licensed / not-held Western academic works",
+  "title": "Academic source registry: memory pointers and raw acquisitions",
   "kind": "reference",
   "access": "hafiza",
   "locator": "entry",
   "language": "en",
   "fetched_at": "2026-10-03",
   "files": {},
-  "notes": "Index of ACADEMIC/<ID>/source.json pointer records (duplicated here because enrichment/corpus/.gitignore only versions <ID>/source.json one level deep; nested ACADEMIC/<ID>/source.json files are git-ignored). Each record: access hafiza, no segments. Claims marked '(from memory — verify)' were not checked against the books.",
+  "notes": "Nested ACADEMIC/<ID>/source.json records are duplicated here for registry compatibility. Individual acquisition fields record locally downloaded raw files. access hafiza continues to mean no indexed segments are available; memory claims still require verification against the acquired originals.",
   "records": [
     {
       "id": "NOLDEKE-GDQ",
@@ -43,12 +43,37 @@
       "urls": [
         "https://archive.org/details/geschichtedesqor01nluoft",
         "https://archive.org/details/geschichtedesqor00nluoft",
-        "https://archive.org/details/geschichtedesqo00nlgoog"
+        "https://archive.org/details/geschichtedesqo00nlgoog",
+        "https://archive.org/details/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans",
+        "https://archive.org/download/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans/Geschichte%20des%20Qor%C4%81ns%20-von%20Theodor%20N%C3%B6ldeke%20%2C%201%20%C3%9Cber%20den%20Ursprung%20des%20Qor%C4%81ns.pdf",
+        "https://archive.org/download/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans/Geschichte%20des%20Qor%C4%81ns%20-von%20Theodor%20N%C3%B6ldeke%20%2C%201%20%C3%9Cber%20den%20Ursprung%20des%20Qor%C4%81ns_djvu.txt",
+        "https://archive.org/download/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans/Geschichte%20des%20Qor%C4%81ns%20-von%20Theodor%20N%C3%B6ldeke%20%2C%202%20Die%20Sammlung%20des%20Qor%C4%81ns.pdf",
+        "https://archive.org/download/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans/Geschichte%20des%20Qor%C4%81ns%20-von%20Theodor%20N%C3%B6ldeke%20%2C%202%20Die%20Sammlung%20des%20Qor%C4%81ns_djvu.txt",
+        "https://archive.org/download/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans/Geschichte%20des%20Qor%C4%81ns%20-von%20Theodor%20N%C3%B6ldeke%20%2C%203%20Die%20Geschichte%20des%20Korantexts.pdf",
+        "https://archive.org/download/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans/Geschichte%20des%20Qor%C4%81ns%20-von%20Theodor%20N%C3%B6ldeke%20%2C%203%20Die%20Geschichte%20des%20Korantexts_djvu.txt"
       ],
-      "fetched_at": "2026-10-03",
-      "files": {},
+      "fetched_at": "2026-10-05T13:56:12.710809+00:00",
+      "files": {
+        "raw/acquired-2026-10-05/noldeke-gdq-vol-1.pdf": "dcd041d8be9869a034fea05c819a0042ad000f8b5849ffc1d5f703f7fad5f73b",
+        "raw/acquired-2026-10-05/noldeke-gdq-vol-1.ocr.txt": "de16f8b210fda72230463a5f89aa56335b2ba85e8de7d01098e86e3cd5bd80a4",
+        "raw/acquired-2026-10-05/noldeke-gdq-vol-2.pdf": "f434a521c7d181a5dbf176088a748cfd885dfcafb677668961815a33d4324883",
+        "raw/acquired-2026-10-05/noldeke-gdq-vol-2.ocr.txt": "6fe6f5e6ce49bcda171a5e5673a8bc09a402ae1d4688495fc89e88c3ef9792f2",
+        "raw/acquired-2026-10-05/noldeke-gdq-vol-3.pdf": "2eb27f627db68862019011f0102162941920b991fbffa4df8769f70e5a886e0d",
+        "raw/acquired-2026-10-05/noldeke-gdq-vol-3.ocr.txt": "4f7b5f4a8a6101d7fcb4c36dc0eea5dcd53fa5c8ec315e9496ebd285e55a4e9a"
+      },
       "licence": "Public domain in life+70 jurisdictions for Nöldeke (d. 1930), Schwally (d. 1919), Bergsträsser (d. 1933); Teil 3 co-author Pretzl d. 1941 → PD since 2012. Behn's English translation (Brill 2013) is in copyright. Not downloaded (pointer only).",
-      "notes": "Teil 3 (Bergsträsser–Pretzl, 1926–38) not found as a separate open scan on archive.org (only the 1961 Olms reprint, lending-restricted). The Corpus Coranicum commentary cites it as GdQ1/GdQ2 and builds its 'Datierung' on Nöldeke's periods (see CORPUSCORANICUM). Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+      "notes": "Teil 3 (Bergsträsser–Pretzl, 1926–38) not found as a separate open scan on archive.org (only the 1961 Olms reprint, lending-restricted). The Corpus Coranicum commentary cites it as GdQ1/GdQ2 and builds its 'Datierung' on Nöldeke's periods (see CORPUSCORANICUM). Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it.",
+      "acquisition": {
+        "date": "2026-10-05",
+        "state": "raw_downloaded",
+        "ingestion_status": "pending",
+        "files": 6,
+        "pdfs": 3,
+        "ocr_sidecars": 3,
+        "bytes": 240380413,
+        "manifest": "../../../v2/audits/2026-10-05-source-downloads/manifest.json",
+        "note": "Raw originals are now held locally. access remains hafiza until searchable segments are ingested and checked. Earlier pointer notes describe the pre-acquisition audit."
+      }
     },
     {
       "id": "NEUWIRTH-KORAN1",
@@ -89,7 +114,7 @@
       "kind": "lexicon",
       "tradition": "academic (historical-critical semantics)",
       "language": "en",
-      "edition": "Princeton: Princeton University Press, 2023",
+      "edition": "Princeton 2023; open-access version deposited in Oxford Research Archive",
       "access": "hafiza",
       "locator": "entry",
       "coverage": "c. 60 entries on core Qurʾānic terms, with diachronic/intertextual discussion",
@@ -97,11 +122,27 @@
         "terms": "entries likely relevant to S1/S107 etc.: dīn, ṣallā/ṣalāh, zakāh, kafara, ashraka, ittaqā/taqwā, raḥmah/raḥmān, rabb, qalb, ʾāmana (from memory — verify)"
       },
       "open_access": [],
-      "urls": [],
-      "fetched_at": "2026-10-03",
-      "files": {},
+      "urls": [
+        "https://ora.ox.ac.uk/objects/uuid%3A2a4e4769-813e-48e9-bf95-c36fdd593c8b",
+        "https://ora.ox.ac.uk/objects/uuid%3A2a4e4769-813e-48e9-bf95-c36fdd593c8b/files/smg74qp037"
+      ],
+      "fetched_at": "2026-10-05T13:56:12.710809+00:00",
+      "files": {
+        "raw/acquired-2026-10-05/sinai-key-terms-2023.pdf": "c799fc677aff1374fe1ae7a9cef5707a85b3e8813f193ce1bc42e94e83415344"
+      },
       "licence": "licensed book; not held locally",
-      "notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+      "notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it.",
+      "acquisition": {
+        "date": "2026-10-05",
+        "state": "raw_downloaded",
+        "ingestion_status": "pending",
+        "files": 1,
+        "pdfs": 1,
+        "ocr_sidecars": 0,
+        "bytes": 7423825,
+        "manifest": "../../../v2/audits/2026-10-05-source-downloads/manifest.json",
+        "note": "Raw originals are now held locally. access remains hafiza until searchable segments are ingested and checked. Earlier pointer notes describe the pre-acquisition audit."
+      }
     },
     {
       "id": "CUYPERS-COMPOSITION",
@@ -150,12 +191,27 @@
         "https://www.ifao.egnet.net/anisl/33/2",
         "https://www.ifao.egnet.net/anisl/34/6",
         "https://www.ifao.egnet.net/anisl/35/3",
-        "https://www.ifao.egnet.net/anisl/37/5"
+        "https://www.ifao.egnet.net/anisl/37/5",
+        "https://almuslih.org/library-backup/",
+        "https://almuslih.org/wp-content/uploads/Library/Cuypers%2C%20M%20-%20The%20Composition%20of%20the%20Qur%E2%80%99an.pdf"
       ],
-      "fetched_at": "2026-10-03",
-      "files": {},
+      "fetched_at": "2026-10-05T13:56:12.710809+00:00",
+      "files": {
+        "raw/acquired-2026-10-05/cuypers-composition-2015.pdf": "3f5ae40ad346572bfe66a2a6c34b05252352d26e55836ad24adfa69277c0ee95"
+      },
       "licence": "Books licensed (Bloomsbury, Gabalda, Lockwood). AnIsl PDFs: free access from IFAO (verified HTTP 200 application/pdf, 2026-10-03); not downloaded.",
-      "notes": "Sūra 91 falls between AnIsl 35 (85–90) and AnIsl 34 (92–98); where Cuypers treats 91 (and whether MIDEO 23 covers 105–114 completely) is unverified. Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+      "notes": "Sūra 91 falls between AnIsl 35 (85–90) and AnIsl 34 (92–98); where Cuypers treats 91 (and whether MIDEO 23 covers 105–114 completely) is unverified. Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it.",
+      "acquisition": {
+        "date": "2026-10-05",
+        "state": "raw_downloaded",
+        "ingestion_status": "pending",
+        "files": 1,
+        "pdfs": 1,
+        "ocr_sidecars": 0,
+        "bytes": 1562436,
+        "manifest": "../../../v2/audits/2026-10-05-source-downloads/manifest.json",
+        "note": "Raw originals are now held locally. access remains hafiza until searchable segments are ingested and checked. Earlier pointer notes describe the pre-acquisition audit."
+      }
     },
     {
       "id": "FARRIN-STRUCTURE",
@@ -206,12 +262,28 @@
       ],
       "urls": [
         "https://archive.org/details/foreignvocabular030753mbp",
-        "https://archive.org/details/in.ernet.dli.2015.68878"
+        "https://archive.org/details/in.ernet.dli.2015.68878",
+        "https://archive.org/download/foreignvocabular030753mbp/foreignvocabular030753mbp.pdf",
+        "https://archive.org/download/foreignvocabular030753mbp/foreignvocabular030753mbp_djvu.txt"
       ],
-      "fetched_at": "2026-10-03",
-      "files": {},
+      "fetched_at": "2026-10-05T13:56:12.710809+00:00",
+      "files": {
+        "raw/acquired-2026-10-05/jeffery-foreign-1938.pdf": "cf017b15c42b84e37552766227b087ec12222c2e3a5280b8848b33bf23b81aae",
+        "raw/acquired-2026-10-05/jeffery-foreign-1938.ocr.txt": "927e8024dd808609fae76a27de0d298a49a46a6cde4e0758692a8367e9ad8ae7"
+      },
       "licence": "CAUTION: not safely public domain — Jeffery died 1959, so under life+70 the work is protected until end of 2029; US status depends on notice/renewal of a 1938 foreign publication (unverified). archive.org copies are DLI scans without a stated licence. Recorded, not downloaded.",
-      "notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+      "notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it.",
+      "acquisition": {
+        "date": "2026-10-05",
+        "state": "raw_downloaded",
+        "ingestion_status": "pending",
+        "files": 2,
+        "pdfs": 1,
+        "ocr_sidecars": 1,
+        "bytes": 16378635,
+        "manifest": "../../../v2/audits/2026-10-05-source-downloads/manifest.json",
+        "note": "Raw originals are now held locally. access remains hafiza until searchable segments are ingested and checked. Earlier pointer notes describe the pre-acquisition audit."
+      }
     },
     {
       "id": "ZAMMIT-COMPARATIVE",
@@ -229,11 +301,26 @@
         "note": "root-level, not sūra-level; relevant roots: ṣ-l-w, z-k-w, d-y-n, ʿ-l-m, r-b-b, q-l-b, ṣ-d-r (from memory — verify)"
       },
       "open_access": [],
-      "urls": [],
-      "fetched_at": "2026-10-03",
-      "files": {},
+      "urls": [
+        "https://azahari.blog/wp-content/uploads/2025/01/lexical-study-of-quranic-arabic.pdf"
+      ],
+      "fetched_at": "2026-10-05T13:56:12.710809+00:00",
+      "files": {
+        "raw/acquired-2026-10-05/zammit-comparative-lexical-study.pdf": "d4dceee52aeb96d0281f61c06a69abb42dea0fd9b3b48c4e4d818f109b1795f3"
+      },
       "licence": "licensed book; not held locally",
-      "notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+      "notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it.",
+      "acquisition": {
+        "date": "2026-10-05",
+        "state": "raw_downloaded",
+        "ingestion_status": "pending",
+        "files": 1,
+        "pdfs": 1,
+        "ocr_sidecars": 0,
+        "bytes": 18134259,
+        "manifest": "../../../v2/audits/2026-10-05-source-downloads/manifest.json",
+        "note": "Raw originals are now held locally. access remains hafiza until searchable segments are ingested and checked. Earlier pointer notes describe the pre-acquisition audit."
+      }
     },
     {
       "id": "BADAWI-HALEEM",
@@ -251,11 +338,27 @@
         "note": "root-level, all target vocabulary"
       },
       "open_access": [],
-      "urls": [],
-      "fetched_at": "2026-10-03",
-      "files": {},
+      "urls": [
+        "https://archive.org/details/LearnArabicPackageinc.LanesLexiconArabicDictionaryNearSynonyms",
+        "https://archive.org/download/LearnArabicPackageinc.LanesLexiconArabicDictionaryNearSynonyms/Arabic-English-Dictionary-Quranic-Usage.pdf"
+      ],
+      "fetched_at": "2026-10-05T13:56:12.710809+00:00",
+      "files": {
+        "raw/acquired-2026-10-05/badawi-haleem-2008.pdf": "c9c852f1986841d7a757bee37d8c491a0d301d7db5a844e3d3f9a98cc3c1cb86"
+      },
       "licence": "licensed book; not held locally",
-      "notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+      "notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it.",
+      "acquisition": {
+        "date": "2026-10-05",
+        "state": "raw_downloaded",
+        "ingestion_status": "pending",
+        "files": 1,
+        "pdfs": 1,
+        "ocr_sidecars": 0,
+        "bytes": 8678017,
+        "manifest": "../../../v2/audits/2026-10-05-source-downloads/manifest.json",
+        "note": "Raw originals are now held locally. access remains hafiza until searchable segments are ingested and checked. Earlier pointer notes describe the pre-acquisition audit."
+      }
     },
     {
       "id": "EQ",
@@ -273,11 +376,29 @@
         "articles": "e.g. 'Fātiḥa' (W. A. Graham?), 'Chronology and the Qurʾān' (G. Böwering), 'Pilgrimage' (G. Hawting?), 'Prayer', 'Almsgiving', 'Orphans', 'Poverty and the Poor', 'Heart', 'Religion', 'Hypocrites and Hypocrisy' (from memory — verify)"
       },
       "open_access": [],
-      "urls": [],
-      "fetched_at": "2026-10-03",
-      "files": {},
+      "urls": [
+        "https://archive.org/details/encyclopaedia-of-the-quran-6-volumes-jane-dammen-mc-auliffe",
+        "https://archive.org/download/encyclopaedia-of-the-quran-6-volumes-jane-dammen-mc-auliffe/Encyclopaedia%20Of%20The%20Qur%E2%80%99an%20%286%20Volumes%29%20-%20Jane%20Dammen%20McAuliffe.pdf",
+        "https://archive.org/download/encyclopaedia-of-the-quran-6-volumes-jane-dammen-mc-auliffe/Encyclopaedia%20Of%20The%20Qur%E2%80%99an%20%286%20Volumes%29%20-%20Jane%20Dammen%20McAuliffe_djvu.txt"
+      ],
+      "fetched_at": "2026-10-05T13:56:12.710809+00:00",
+      "files": {
+        "raw/acquired-2026-10-05/encyclopaedia-quran-six-volumes.pdf": "9dc98464ab2d5b5648cfa2df30ee3f902c44d9ece37e705035d75547c5f8f87f",
+        "raw/acquired-2026-10-05/encyclopaedia-quran-six-volumes.ocr.txt": "b5d37745731dc8fc2d9a08d462ed389ad94d7a45462d175a6aff3d7f1f3211b9"
+      },
       "licence": "licensed book; not held locally",
-      "notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+      "notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it.",
+      "acquisition": {
+        "date": "2026-10-05",
+        "state": "raw_downloaded",
+        "ingestion_status": "pending",
+        "files": 2,
+        "pdfs": 1,
+        "ocr_sidecars": 1,
+        "bytes": 56481184,
+        "manifest": "../../../v2/audits/2026-10-05-source-downloads/manifest.json",
+        "note": "Raw originals are now held locally. access remains hafiza until searchable segments are ingested and checked. Earlier pointer notes describe the pre-acquisition audit."
+      }
     },
     {
       "id": "STUDYQURAN",
@@ -301,12 +422,29 @@
         }
       ],
       "urls": [
-        "https://www.studyquran.org/"
+        "https://www.studyquran.org/",
+        "https://archive.org/details/the-study-quran_202111",
+        "https://archive.org/download/the-study-quran_202111/The%20Study%20Quran.pdf",
+        "https://archive.org/download/the-study-quran_202111/The%20Study%20Quran_djvu.txt"
       ],
-      "fetched_at": "2026-10-03",
-      "files": {},
+      "fetched_at": "2026-10-05T13:56:12.710809+00:00",
+      "files": {
+        "raw/acquired-2026-10-05/study-quran.pdf": "e8858b5a5f62eb76060f77bf9261d57ab957831e9bffb6e156b5ae470baccc64",
+        "raw/acquired-2026-10-05/study-quran.ocr.txt": "17ef2bf116dfe6a23e6562c502d7d47782ff9303b917cfbbbead6d9a412fcb41"
+      },
       "licence": "licensed book; not held locally",
-      "notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+      "notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it.",
+      "acquisition": {
+        "date": "2026-10-05",
+        "state": "raw_downloaded",
+        "ingestion_status": "pending",
+        "files": 2,
+        "pdfs": 1,
+        "ocr_sidecars": 1,
+        "bytes": 28285183,
+        "manifest": "../../../v2/audits/2026-10-05-source-downloads/manifest.json",
+        "note": "Raw originals are now held locally. access remains hafiza until searchable segments are ingested and checked. Earlier pointer notes describe the pre-acquisition audit."
+      }
     },
     {
       "id": "ISLAHI-TADABBUR",
@@ -352,12 +490,79 @@
         "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-9-english.pdf",
         "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-5-english.pdf",
         "https://archive.org/details/tadabbur-e-quran",
-        "https://archive.org/details/english-tadubbur-e-quran"
+        "https://archive.org/details/english-tadubbur-e-quran",
+        "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-1/",
+        "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-2/",
+        "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-3-surah-anam-06/",
+        "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-3-surah-anfal-08/",
+        "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-3-surah-araf-07/",
+        "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-3-surah-tawbah-09/",
+        "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-3/",
+        "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-4-surah-yunus-10-surah-maryam-19/",
+        "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-4/",
+        "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-5-english/",
+        "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-5/",
+        "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-6-2/",
+        "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-6/",
+        "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-7-english/",
+        "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-7/",
+        "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-8-english/",
+        "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-8/",
+        "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-9-english/",
+        "https://amin-ahsan-islahi.org/read/tadabbur-e-quran-vol-9/",
+        "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-1.pdf",
+        "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-2.pdf",
+        "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-3-surah-anam-06.pdf",
+        "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-3-surah-anfal-08.pdf",
+        "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-3-surah-araf-07.pdf",
+        "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-3-surah-tawbah-09.pdf",
+        "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-3.pdf",
+        "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-4-surah-yunus-10-surah-maryam-19.pdf",
+        "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-4.pdf",
+        "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-5.pdf",
+        "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-6-2.pdf",
+        "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-6.pdf",
+        "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-7-english.pdf",
+        "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-7.pdf",
+        "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-8-english.pdf",
+        "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-8.pdf",
+        "https://amin-ahsan-islahi.org/pdfs/tadabbur-e-quran-vol-9.pdf"
       ],
-      "fetched_at": "2026-10-03",
-      "files": {},
+      "fetched_at": "2026-10-05T13:56:12.710809+00:00",
+      "files": {
+        "raw/acquired-2026-10-05/tadabbur-e-quran-vol-1.pdf": "46d34bf244dd5de0192e66d761b0878025092337aae290dfc2eacbe7ba1bb414",
+        "raw/acquired-2026-10-05/tadabbur-e-quran-vol-2.pdf": "de297546d9792aaddddc49f6b1cafa2976227eff76c46e5ddd4e818b2979c827",
+        "raw/acquired-2026-10-05/tadabbur-e-quran-vol-3-surah-anam-06.pdf": "05428be1ded3faa3e1e689c3907162a32ece3294ef5a3048e699b4ae44b61a08",
+        "raw/acquired-2026-10-05/tadabbur-e-quran-vol-3-surah-anfal-08.pdf": "af2e205a3c7680242283694c2353ac7e5ad1671623c876461f72e5c19c88070b",
+        "raw/acquired-2026-10-05/tadabbur-e-quran-vol-3-surah-araf-07.pdf": "5e1e1662827968855827421596e8f970a9f5de240da5f5e162991a65a41bf2b4",
+        "raw/acquired-2026-10-05/tadabbur-e-quran-vol-3-surah-tawbah-09.pdf": "0ad070f20242b52689ae59236180dab324da86e09af908d874a87b7007c60ba1",
+        "raw/acquired-2026-10-05/tadabbur-e-quran-vol-3.pdf": "93ddc23f53abf1863da8e6108d383d3ee4ae996a4f8b6df1573adfc45954ef0e",
+        "raw/acquired-2026-10-05/tadabbur-e-quran-vol-4-surah-yunus-10-surah-maryam-19.pdf": "f427fe73a7b6c90cbe19771dd45ad0ffa3f3736065084d8fef37d11b8fb82f81",
+        "raw/acquired-2026-10-05/tadabbur-e-quran-vol-4.pdf": "ad60049f00d67752222ff417baff854c8f59f68c63b63d7c81a175bd8f849543",
+        "raw/acquired-2026-10-05/tadabbur-e-quran-vol-5-english.pdf": "503ec0d5dd3dae344d0aed69e8e76a57ff1da29395196764ce9b4590eae5d6f2",
+        "raw/acquired-2026-10-05/tadabbur-e-quran-vol-5.pdf": "38f2c476f0d5d08c19cb628db15df06339ed8bd10e023e0efeda046f75928f01",
+        "raw/acquired-2026-10-05/tadabbur-e-quran-vol-6-2.pdf": "3da1d857fb4121ecce600357a00038f86e629c0191175ef46ec23ecd2b85d562",
+        "raw/acquired-2026-10-05/tadabbur-e-quran-vol-6.pdf": "b87fc40ceda67ac32ea0a5da32bbe0937268b56d58fb5de61aedf49c92f67b27",
+        "raw/acquired-2026-10-05/tadabbur-e-quran-vol-7-english.pdf": "456a661643f271e735edba4f618d88dec4ec19be2fb2a88425a047feecca57df",
+        "raw/acquired-2026-10-05/tadabbur-e-quran-vol-7.pdf": "77767effe19dbcef13ed29149b307dee00d57f07e8509237190ebfe23d96ae44",
+        "raw/acquired-2026-10-05/tadabbur-e-quran-vol-8-english.pdf": "540187f9727bde9223c34acf6f9a296637553f26633252e76f702d4f01048a58",
+        "raw/acquired-2026-10-05/tadabbur-e-quran-vol-8.pdf": "cda29e54acefa21096511daa6fe64e2869e8c0d876f6ea9867ac6e4cd07f1f6c",
+        "raw/acquired-2026-10-05/tadabbur-e-quran-vol-9-english.pdf": "976abeb9628101e802d51c66f074b1fa3e48dae013933fb09c52102b6090eed7",
+        "raw/acquired-2026-10-05/tadabbur-e-quran-vol-9.pdf": "d1fbf188154e163da0a77c51574bef423b15474f1f4f136ab756d98f8e3f6126"
+      },
       "licence": "Islahi d. 1997: in copyright; the official site offers free reading/download. Openly readable as whole volumes, not per-sūra pages.",
-      "notes": "Per-sūra openness: English is readable only as volume PDFs on the official site; no per-sūra HTML found. Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+      "notes": "Per-sūra openness: English is readable only as volume PDFs on the official site; no per-sūra HTML found. Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it.",
+      "acquisition": {
+        "date": "2026-10-05",
+        "state": "raw_downloaded",
+        "ingestion_status": "pending",
+        "files": 19,
+        "pdfs": 19,
+        "ocr_sidecars": 0,
+        "bytes": 1337391907,
+        "manifest": "../../../v2/audits/2026-10-05-source-downloads/manifest.json",
+        "note": "Raw originals are now held locally. access remains hafiza until searchable segments are ingested and checked. Earlier pointer notes describe the pre-acquisition audit."
+      }
     },
     {
       "id": "FARAHI-NIZAM",
@@ -397,12 +602,33 @@
         "https://archive.org/details/00139_201807",
         "https://archive.org/details/AAlexandrina-028095",
         "https://archive.org/details/292487-tafsir-e-bismillah-va-sura-e-fatiha-1",
-        "https://archive.org/details/farahi_kotob"
+        "https://archive.org/details/farahi_kotob",
+        "https://archive.org/details/tnqtnq",
+        "https://archive.org/download/tnqtnq/tnq00.pdf",
+        "https://archive.org/download/tnqtnq/tnq00_djvu.txt",
+        "https://archive.org/download/tnqtnq/tnq01.pdf",
+        "https://archive.org/download/tnqtnq/tnq01_djvu.txt"
       ],
-      "fetched_at": "2026-10-03",
-      "files": {},
+      "fetched_at": "2026-10-05T13:56:12.710809+00:00",
+      "files": {
+        "raw/acquired-2026-10-05/farahi-nizam-cover.pdf": "a2f6d37129a27df224a47eb1dbb417288ae0f688971214fc131684b7f25a0990",
+        "raw/acquired-2026-10-05/farahi-nizam-cover.ocr.txt": "52daf10aa1a7e5c10688aa1a8212616db6bf6d48a2cf113e187374344310a379",
+        "raw/acquired-2026-10-05/farahi-nizam-book.pdf": "678dcfa7e46ccb11732cd59578f83f9a4da49396c92f886a3227ce3e8b53ea57",
+        "raw/acquired-2026-10-05/farahi-nizam-book.ocr.txt": "ed40ec969b69d954c3f297c20c427e6d66431f3c79a496244e779dcfb4c857b6"
+      },
       "licence": "Farahi d. 1930: Arabic original public domain under life+70; translations (Islahi, Hashmi) in copyright. Not downloaded.",
-      "notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+      "notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it.",
+      "acquisition": {
+        "date": "2026-10-05",
+        "state": "raw_downloaded",
+        "ingestion_status": "pending",
+        "files": 4,
+        "pdfs": 2,
+        "ocr_sidecars": 2,
+        "bytes": 9005327,
+        "manifest": "../../../v2/audits/2026-10-05-source-downloads/manifest.json",
+        "note": "Raw originals are now held locally. access remains hafiza until searchable segments are ingested and checked. Earlier pointer notes describe the pre-acquisition audit."
+      }
     },
     {
       "id": "AMBROS-CONCISE",

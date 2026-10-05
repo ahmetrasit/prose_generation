@@ -6,10 +6,10 @@
   "kind": "modern",
   "tradition": "academic (19th–20th c. German historical-critical)",
   "language": "de",
-  "edition": "1st ed. Göttingen: Dieterich, 1860 (Preisschrift); 2nd ed. Leipzig: Dieterich: T.1 Über den Ursprung des Qorāns (1909), T.2 Die Sammlung des Qorāns (1919), T.3 Die Geschichte des Korantexts (1926–1938). Reprint Hildesheim: Olms 1961. English: The History of the Qurʾān, tr. Wolfgang H. Behn, Leiden: Brill 2013.",
-  "access": "hafiza",
+  "edition": "Th. Nöldeke, Geschichte des Qorāns, 2nd ed. (Schwally, Bergsträsser, Pretzl), Leipzig 1909–1938, three volumes (archive.org scans, their OCR text layer)",
+  "access": "yerel",
   "locator": "page",
-  "coverage": "whole Qurʾān; T.1 assigns every sūra to a period (1st/2nd/3rd Meccan, Medinan) with discussion",
+  "coverage": "whole book by page; cited ayat in refs (`corpus.py cites S:A`)",
   "target_coverage": {
     "1": "treated among the first-period Meccan sūras (placed late in that group) (from memory — verify)",
     "22": "discussed as a mixed sūra with Meccan and Medinan parts (from memory — verify)",
@@ -32,10 +32,59 @@
   "urls": [
     "https://archive.org/details/geschichtedesqor01nluoft",
     "https://archive.org/details/geschichtedesqor00nluoft",
-    "https://archive.org/details/geschichtedesqo00nlgoog"
+    "https://archive.org/details/geschichtedesqo00nlgoog",
+    "https://archive.org/details/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans",
+    "https://archive.org/download/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans/Geschichte%20des%20Qor%C4%81ns%20-von%20Theodor%20N%C3%B6ldeke%20%2C%201%20%C3%9Cber%20den%20Ursprung%20des%20Qor%C4%81ns.pdf",
+    "https://archive.org/download/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans/Geschichte%20des%20Qor%C4%81ns%20-von%20Theodor%20N%C3%B6ldeke%20%2C%201%20%C3%9Cber%20den%20Ursprung%20des%20Qor%C4%81ns_djvu.txt",
+    "https://archive.org/download/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans/Geschichte%20des%20Qor%C4%81ns%20-von%20Theodor%20N%C3%B6ldeke%20%2C%202%20Die%20Sammlung%20des%20Qor%C4%81ns.pdf",
+    "https://archive.org/download/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans/Geschichte%20des%20Qor%C4%81ns%20-von%20Theodor%20N%C3%B6ldeke%20%2C%202%20Die%20Sammlung%20des%20Qor%C4%81ns_djvu.txt",
+    "https://archive.org/download/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans/Geschichte%20des%20Qor%C4%81ns%20-von%20Theodor%20N%C3%B6ldeke%20%2C%203%20Die%20Geschichte%20des%20Korantexts.pdf",
+    "https://archive.org/download/geschichte-des-qorans-von-theodor-noldeke-1-uber-den-ursprung-des-qorans/Geschichte%20des%20Qor%C4%81ns%20-von%20Theodor%20N%C3%B6ldeke%20%2C%203%20Die%20Geschichte%20des%20Korantexts_djvu.txt"
   ],
-  "fetched_at": "2026-10-03",
-  "files": {},
-  "licence": "Public domain in life+70 jurisdictions for Nöldeke (d. 1930), Schwally (d. 1919), Bergsträsser (d. 1933); Teil 3 co-author Pretzl d. 1941 → PD since 2012. Behn's English translation (Brill 2013) is in copyright. Not downloaded (pointer only).",
-  "notes": "Teil 3 (Bergsträsser–Pretzl, 1926–38) not found as a separate open scan on archive.org (only the 1961 Olms reprint, lending-restricted). The Corpus Coranicum commentary cites it as GdQ1/GdQ2 and builds its 'Datierung' on Nöldeke's periods (see CORPUSCORANICUM). Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+  "fetched_at": "2026-10-05T13:56:12.710809+00:00",
+  "files": {
+    "raw/acquired-2026-10-05/noldeke-gdq-vol-1.pdf": "dcd041d8be9869a034fea05c819a0042ad000f8b5849ffc1d5f703f7fad5f73b",
+    "raw/acquired-2026-10-05/noldeke-gdq-vol-1.ocr.txt": "de16f8b210fda72230463a5f89aa56335b2ba85e8de7d01098e86e3cd5bd80a4",
+    "raw/acquired-2026-10-05/noldeke-gdq-vol-2.pdf": "f434a521c7d181a5dbf176088a748cfd885dfcafb677668961815a33d4324883",
+    "raw/acquired-2026-10-05/noldeke-gdq-vol-2.ocr.txt": "6fe6f5e6ce49bcda171a5e5673a8bc09a402ae1d4688495fc89e88c3ef9792f2",
+    "raw/acquired-2026-10-05/noldeke-gdq-vol-3.pdf": "2eb27f627db68862019011f0102162941920b991fbffa4df8769f70e5a886e0d",
+    "raw/acquired-2026-10-05/noldeke-gdq-vol-3.ocr.txt": "4f7b5f4a8a6101d7fcb4c36dc0eea5dcd53fa5c8ec315e9496ebd285e55a4e9a"
+  },
+  "licence": "copyrighted or public domain as the edition; local research copy only (user, 2026-10-05: licence is no barrier for local analysis)",
+  "notes": "Ingested 2026-10-05 from the user's download (fetch/import_pages.py NOLDEKE-GDQ). OCR of a Fraktur-free Antiqua print: German good; Arabic quotations in the text layer are garbage (Latin OCR of Arabic script) and must not be quoted. Pointer note before ingestion: Teil 3 (Bergsträsser–Pretzl, 1926–38) not found as a separate open scan on archive.org (only the 1961 Olms reprint, lending-restricted). The Corpus Coranicum commentary cites it as GdQ1/GdQ2 and builds its 'Datierung' on Nöldeke's periods (see CORPUSCORANICUM). Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it.",
+  "acquisition": {
+    "date": "2026-10-05",
+    "state": "raw_downloaded",
+    "ingestion_status": "ingested",
+    "files": 6,
+    "pdfs": 3,
+    "ocr_sidecars": 3,
+    "bytes": 240380413,
+    "manifest": "../../../v2/audits/2026-10-05-source-downloads/manifest.json",
+    "note": "Raw originals are now held locally. access remains hafiza until searchable segments are ingested and checked. Earlier pointer notes describe the pre-acquisition audit."
+  },
+  "segments": 884,
+  "ingestion": {
+    "date": "2026-10-05",
+    "script": "enrichment/v2/fetch/import_pages.py NOLDEKE-GDQ",
+    "from": {
+      "raw/acquired-2026-10-05/noldeke-gdq-vol-1.ocr.txt": "de16f8b210fda72230463a5f89aa56335b2ba85e8de7d01098e86e3cd5bd80a4",
+      "raw/acquired-2026-10-05/noldeke-gdq-vol-1.pdf": "dcd041d8be9869a034fea05c819a0042ad000f8b5849ffc1d5f703f7fad5f73b",
+      "raw/acquired-2026-10-05/noldeke-gdq-vol-2.ocr.txt": "6fe6f5e6ce49bcda171a5e5673a8bc09a402ae1d4688495fc89e88c3ef9792f2",
+      "raw/acquired-2026-10-05/noldeke-gdq-vol-2.pdf": "f434a521c7d181a5dbf176088a748cfd885dfcafb677668961815a33d4324883",
+      "raw/acquired-2026-10-05/noldeke-gdq-vol-3.ocr.txt": "4f7b5f4a8a6101d7fcb4c36dc0eea5dcd53fa5c8ec315e9496ebd285e55a4e9a",
+      "raw/acquired-2026-10-05/noldeke-gdq-vol-3.pdf": "2eb27f627db68862019011f0102162941920b991fbffa4df8769f70e5a886e0d"
+    },
+    "method": "PDF text layer (pypdf via fetch/pdf_pages.py); one segment per page; refs in the book's citation style",
+    "repairs": {
+      "«¬» line-end hyphens rejoined": 3246,
+      "empty pages": 73,
+      "printed number shared by two pages: PDF page used": 8
+    },
+    "quality": "OCR of a Fraktur-free Antiqua print: German good; Arabic quotations in the text layer are garbage (Latin OCR of Arabic script) and must not be quoted",
+    "segments": 884,
+    "tied_to_ayah": 0,
+    "with_cited_ayat": 302,
+    "characters": 1796290
+  }
 }

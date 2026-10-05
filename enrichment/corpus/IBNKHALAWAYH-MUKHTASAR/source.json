@@ -11,10 +11,25 @@
   "locator": "page",
   "coverage": "whole book (not local)",
   "urls": [
-    "https://archive.org/details/20210405_20210405_1626"
+    "https://archive.org/details/20210405_20210405_1626",
+    "https://quranpedia.net/book/25372",
+    "https://files.quranpedia.net/attachments/documents/BOOK_25372_1.pdf"
   ],
-  "fetched_at": "2026-10-03",
-  "files": {},
+  "fetched_at": "2026-10-05T13:56:12.710809+00:00",
+  "files": {
+    "raw/acquired-2026-10-05/ibnkhalawayh-mukhtasar.pdf": "9c52723d4e24a899d225e0d9d514e5715671c74da4cfaaf8e94c0d85f993fbe2"
+  },
   "licence": "no free licensed text located; cite from memory only and mark it so",
-  "notes": "Not in OpenITI (RELEASE 2025-1-9 lists three Ibn Khālawayh books, not this one). Printed: ed. G. Bergsträsser (Bibliotheca Islamica 7, Cairo 1934). archive.org has PDF scans of that edition uploaded by users (items 20210405_20210405_1626, 5023pdf, 0886Pdf; listing seen 2026-10-03, not downloaded, no text layer checked). shamela.ws search answered HTTP 403 to a scripted request (2026-10-03), so Shamela availability is not verified."
+  "notes": "Not in OpenITI (RELEASE 2025-1-9 lists three Ibn Khālawayh books, not this one). Printed: ed. G. Bergsträsser (Bibliotheca Islamica 7, Cairo 1934). archive.org has PDF scans of that edition uploaded by users (items 20210405_20210405_1626, 5023pdf, 0886Pdf; listing seen 2026-10-03, not downloaded, no text layer checked). shamela.ws search answered HTTP 403 to a scripted request (2026-10-03), so Shamela availability is not verified.",
+  "acquisition": {
+    "date": "2026-10-05",
+    "state": "raw_downloaded",
+    "ingestion_status": "pending",
+    "files": 1,
+    "pdfs": 1,
+    "ocr_sidecars": 0,
+    "bytes": 4816443,
+    "manifest": "../../v2/audits/2026-10-05-source-downloads/manifest.json",
+    "note": "Raw originals are now held locally. access remains hafiza until searchable segments are ingested and checked. Earlier pointer notes describe the pre-acquisition audit."
+  }
 }
