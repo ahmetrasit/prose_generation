@@ -59,7 +59,10 @@ class Corpus:
             return True, "pointer (memory)", info
         if rest is None:
             return False, f"{loc}: locator needs a position (e.g. {sid}:107:3)", info
-        row = self.con.execute("SELECT extra FROM seg WHERE seg=? OR seg LIKE ? LIMIT 1", (loc, loc + "#%")).fetchone()
+        # exact, else the first sub-segment (loc#2 …); two index lookups (an `OR … LIKE` scans the whole table:
+        # 0.2 s per locator warm, minutes on a cold disk, which once cost a 1:1 page a full cache rewrite)
+        row = (self.con.execute("SELECT extra FROM seg WHERE seg=?", (loc,)).fetchone()
+               or self.con.execute("SELECT extra FROM seg WHERE seg>=? AND seg<? LIMIT 1", (loc + "#", loc + "$")).fetchone())
         if not row:
             return False, f"{loc}: no such segment", info
         extra = json.loads(row[0] or "{}")

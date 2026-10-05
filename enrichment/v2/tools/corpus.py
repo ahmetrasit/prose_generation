@@ -481,8 +481,10 @@ def show(row, chars: int) -> None:
 def cmd_get(locs: list[str], chars: int) -> None:
     con = connect()
     for loc in locs:
-        rows = con.execute("SELECT seg,src,s,a,a_end,head,text,extra FROM seg WHERE seg=? OR seg LIKE ?",
-                           (loc, loc + "#%")).fetchall()
+        # the segment and its sub-segments (loc#2 …) by two index lookups; `OR … LIKE` would scan the whole table
+        rows = (con.execute("SELECT seg,src,s,a,a_end,head,text,extra FROM seg WHERE seg=?", (loc,)).fetchall()
+                + con.execute("SELECT seg,src,s,a,a_end,head,text,extra FROM seg WHERE seg>=? AND seg<? ORDER BY id",
+                              (loc + "#", loc + "$")).fetchall())
         if not rows:
             print(f"== {loc}: NOT FOUND")
         for r in rows:
