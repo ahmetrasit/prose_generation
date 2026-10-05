@@ -454,6 +454,40 @@ def cmd_build(s: int, target: str, dry: bool) -> None:
 
 # ---------------------------------------------------------------- finish
 
+_MARKUP = re.compile(r"[\{\}\[\]\(\)«»\"'،,.:;!?؟؛\-–—*^~|0-9٠-٩#¬]+")
+
+
+def near_quote(q: str, full: str) -> tuple[str, float] | None:
+    """The stretch of the source that a near-verbatim quote copies: the words compared after normalisation with
+    punctuation, brackets and footnote marks removed; accepted at 85% word agreement over at least four words.
+    Returns the source's own text for that stretch and the agreement."""
+    import difflib
+    def words_with_spans(text: str) -> list[tuple[str, int, int]]:
+        nt, idx = norm_map(text)
+        nt = _MARKUP.sub(lambda m: " " * len(m.group()), nt)
+        return [(m.group(), idx[m.start()], idx[m.end() - 1] + 1) for m in re.finditer(r"\S+", nt)]
+    qw = [w for w, _, _ in words_with_spans(q)]
+    if len(qw) < 4:
+        return None
+    sw = words_with_spans(full)
+    words = [w for w, _, _ in sw]
+    best, at = 0.0, None
+    first = set(qw[:3]) | set(qw[-3:])
+    for i, w in enumerate(words):  # windows start near a word the quote holds at either end
+        if w not in first:
+            continue
+        for n in (len(qw) - 2, len(qw) - 1, len(qw), len(qw) + 1, len(qw) + 2):
+            if n < 1 or i + n > len(words):
+                continue
+            r = difflib.SequenceMatcher(None, qw, words[i:i + n], autojunk=False).ratio()
+            if r > best:
+                best, at = r, (i, i + n)
+    if not at or best < 0.85:
+        return None
+    lo, hi = sw[at[0]][1], sw[at[1] - 1][2]
+    return full[lo:hi], best
+
+
 def check_cards(d: Path, s: int) -> tuple[list[dict], list[dict], list[str], list[str]]:
     """Cards that pass, cards rejected (with the reason), segments with neither a card nor a bos line, warnings."""
     con = C.connect()
@@ -494,7 +528,12 @@ def check_cards(d: Path, s: int) -> tuple[list[dict], list[dict], list[str], lis
         elif C.norm(q) in C.norm(full):
             c["alinti_kontrol"] = "norm"  # the same words; diacritics or letter forms differ
         else:
-            why.append("alinti is not in the segment's text")
+            near = near_quote(q, full)
+            if near:  # a reader's small slip (a dropped particle, the editor's brackets, a footnote mark): the source's own words replace the quote
+                span, ratio = near
+                c.update(alinti_okuyucu=q, alinti=span, alinti_kontrol="yakin", alinti_oran=round(ratio, 3))
+            else:
+                why.append("alinti is not in the segment's text")
         if why:
             bad.append({**c, "line": n, "why": "; ".join(why)})
         else:
