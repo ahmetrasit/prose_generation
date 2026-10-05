@@ -1,0 +1,39 @@
+{
+  "id": "BINTSHATI-IJAZ",
+  "title": "al-Iʿjāz al-bayānī li-l-Qurʾān wa-masāʾil Ibn al-Azraq: dirāsa qurʾāniyya lughawiyya wa-bayāniyya",
+  "author": "ʿĀʾisha ʿAbd al-Raḥmān (Bint al-Shāṭiʾ)",
+  "death_ah": 1419,
+  "kind": "modern",
+  "tradition": "bayani",
+  "language": "ar",
+  "edition": "Dār al-Maʿārif, 3rd ed., 1 vol (Shamela HTML export, numbering follows the print)",
+  "access": "yerel",
+  "locator": "page",
+  "coverage": "whole book by printed page; cited ayat in refs (`corpus.py cites S:A`)",
+  "urls": [
+    "https://archive.org/details/0865Htm",
+    "https://archive.org/details/0960Bok",
+    "https://archive.org/details/0865Word"
+  ],
+  "fetched_at": "2026-10-05",
+  "files": {
+    "raw/acquired-2026-10-05/0865Htm.zip": "d83f6e0519cf49ac87c4d654db79b6ad22f97ab1daaa53a5af13fac7db28e517"
+  },
+  "licence": "in copyright (author d. 1998); local research copy only (user, 2026-10-05: licence is no barrier for local analysis)",
+  "panel": false,
+  "notes": "al-Khūlī school (user's major voice). Part 1: the Qurʾān's bayānī iʿjāz, an inductive study of the openings of surahs, of word meanings (no two words synonymous) and of style; part 2: the questions of Nāfiʿ b. al-Azraq to Ibn ʿAbbās on Qurʾānic words, studied against Qurʾānic usage. Typed Shamela text; no scan of this edition is held yet (archive.org has scans, e.g. item 20240603_20240603_1926): quote with the caveat.",
+  "segments": 584,
+  "ingestion": {
+    "date": "2026-10-05",
+    "script": "enrichment/v2/fetch/import_shamela_html.py BINTSHATI-IJAZ raw/acquired-2026-10-05/ijaz-member-1.html",
+    "from": {
+      "raw/acquired-2026-10-05/ijaz-member-1.html": "0133a2e584ab697eb3e953a93ac3516941286e28b778224aeced09869068f9f6"
+    },
+    "method": "Shamela HTML export split at its page markers «(vol/page)»; refs from Qurʾān quotations (skeleton match) and named references",
+    "text_status": "Shamela digital edition (typed); not checked against a scan of the print: quote with that caveat",
+    "characters": 730958,
+    "segments": 584,
+    "tied_to_ayah": 0,
+    "with_cited_ayat": 361
+  }
+}

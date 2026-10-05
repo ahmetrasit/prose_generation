@@ -258,3 +258,13 @@ sources (C1), then OCR imports when the user's OCR arrives; Task A items remain.
   Next for her: check quoted spans against the scan at acceptance (cheap, targeted). Al-Khūlī: digital edition
   (VitalSource/Ktab Inc.) to be checked by the user; else the two-witness test (LLM reading vs Tesseract anchor,
   disputed spans re-read from crops) on the six pilot pages first.
+- al-Khūlī school, after the user's decision (2026-10-05, "agreed": Manāhij deferred, cover his method through Bint's
+  preface and secondary studies, spend effort on works with ayah reach): RIFAI-KHULI and YKHULI-TAJDID (Hindawi,
+  secondary, fetch/hindawi_book.py with headless Chrome: the site blocks plain HTTP/EPUB); BINTSHATI-IJAZ (Bint
+  al-Shāṭiʾ, al-Iʿjāz al-bayānī wa-masāʾil Ibn al-Azraq, Shamela HTML export archive.org 0865Htm, 584 pages, 1,531
+  ayah refs; fetch/import_shamela_html.py, characters in = out). Searched and NOT usable yet: Khalafallah al-Fann
+  al-qaṣaṣī (typed PDF from Muhammadanism.org, text layer scrambles phrase order and uses the آ glyph as a space
+  filler; archive OCR noisy), Shukrī ʿAyyād Min waṣf al-Qurʾān yawm al-dīn (scan + OCR only:
+  archive.org 20260313_20260313_0237), Bint al-Qurʾān wa-qaḍāyā al-insān and Maqāl fī al-insān (scans + OCR only).
+  Candidate to ask the user about: Fāḍil al-Sāmarrāʾī, ʿAlā ṭarīq al-tafsīr al-bayānī (bayānī lineage, includes
+  al-Fātiḥa; archive.org 00173_201807, 13 MB zip, format unchecked).
