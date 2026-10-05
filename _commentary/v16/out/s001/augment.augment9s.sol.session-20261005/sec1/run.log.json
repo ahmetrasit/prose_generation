@@ -1,0 +1,54 @@
+{
+  "section": 1,
+  "status": "complete_reviewed",
+  "model": "gpt-6-sol",
+  "effort": "max",
+  "runner": "native collaboration agent",
+  "session": {
+    "agent_path": "/root/s1_aug_sol_01",
+    "agent_id": "01a10c86-a78c-77c2-8751-f56fb56be04c",
+    "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T10-45-13-01a10c86-a78c-77c2-8751-f56fb56be04c.jsonl"
+  },
+  "token_accounting": "omitted at user request",
+  "source_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "response_sha256": "4e84d4f20b47d43e2eb6cd2f9105361c646a6c51a4cd9c61f2a39ea35d304725",
+  "prose": 17,
+  "reference_lines": 8,
+  "verdict_ayat": 294,
+  "completed_at": "2026-10-05T15:33:14.683070+00:00",
+  "parent_review": "Prose and reference lines read; selected canonical Arabic checks, not exhaustive independent relevance audit. Source conflicts retained separately. Neighboring reference entries with distinct contributions kept.",
+  "parent_review_scope": "Read prose and reference drafts; checked selected canonical ayat and targeted final corrections. Not an exhaustive independent ayah-by-ayah relevance audit.",
+  "turn_events": [
+    {
+      "timestamp": "2026-10-05T14:45:13.883Z",
+      "event": "task_started"
+    },
+    {
+      "timestamp": "2026-10-05T15:13:40.988Z",
+      "event": "task_complete"
+    }
+  ],
+  "native_model_contexts": [
+    {
+      "model": "gpt-6-sol",
+      "effort": "max"
+    }
+  ],
+  "tool_calls_file": "tool_calls.json",
+  "title": "Çiğnenmiş yol: önden giden kılavuz, yolun ortası, nişanlar ve yolu bulamayan",
+  "paragraphs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "discovery_candidates": 170,
+  "context_neighbours": 46,
+  "judged": 294,
+  "own_knowledge_judgments": 78,
+  "distinct_ayat_in_additions": 215
+}

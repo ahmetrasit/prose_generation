@@ -1,0 +1,437 @@
+=== ADD ===
+paragraph: 28
+ref: 28:77
+text: Kârûn'a yöneltilen sözde {source:28:76} {source:28:77}, Allah'ın ona ettiği iyilik, onun başkasına iyilik etmesinin ölçüsü yapılır. Alınan iyiliğin başkasına da ulaşması istenir.
+=== ADD ===
+paragraph: 29
+ref: 2:264
+text: Sadaka verenlere {source:2:264}, verdiklerini başa kakma ve incitmeyle boşa çıkarmamaları emredilir. İyiliği alanın üzerinde hak iddiasına çeviren söz, yapılan iyiliğin kendisini zedeler.
+=== ADD ===
+paragraph: 29
+ref: 49:17
+text: İslam'a girişlerini Peygambere iyilik olarak sayanlara {source:49:17} böyle bir minnet yüklememeleri söylenir. Eğer doğru söylüyorlarsa onları imana iletmekle iyilik eden Allah'tır; ayet, başa kakılan şeyin gerçek verenini ve gerçek alanını yerlerine koyar.
+=== ADD ===
+paragraph: 29
+ref: 76:9
+text: Yoksula, yetime ve tutsağa yiyecek verenler {source:76:8} {source:76:9}, onlardan karşılık da teşekkür de istemediklerini söyler. Alanın şükrü, verenin isteyebileceği bir alacak hâline gelmez.
+=== ADD ===
+paragraph: 30
+ref: 4:69
+text: Nisâ suresinde {source:4:69}, Allah'ın nimet verdikleri peygamberler, doğrular, şahitler ve salihler diye adlandırılır; Allah'a ve Elçiye itaat edenler onlara yoldaş olur. Yolu istenen “onlar”, itaatle yoldaş olunabilen kimselerdir.
+=== ADD ===
+paragraph: 30
+ref: 8:53
+text: Enfâl suresinde {source:8:53}, Allah'ın bir topluma verdiği nimeti onlar kendi içlerindekini değiştirmedikçe değiştirmeyeceği bildirilir. Nimetle yolun birlikteliği, alanların yürüyüşünden bağımsız bir güvence değildir.
+=== ADD ===
+paragraph: 31
+ref: 2:151
+text: Kıbleye dönme ve nimetin tamamlanması sözünün hemen ardından {source:2:151}, aralarındaki elçinin ayetleri okuduğu, topluluğu arındırdığı ve onlara bilmediklerini öğrettiği anlatılır. Yüze verilen yön, öğrenen ve arınan bir topluluğun yürüyüşüne bağlanır.
+=== ADD ===
+paragraph: 31
+ref: 5:6
+text: Mâide suresinde {source:5:6}, temizlenme hükümlerinin sonunda Allah güçlük istemediğini; insanları arıtmak ve nimetini tamamlamak istediğini, bunun şükre varmasını dilediğini bildirir. Tamamlanan nimet burada kulluğa hazırlayan arınmaya da uzanır.
+=== ADD ===
+paragraph: 31
+ref: 16:81
+text: Nahl suresinde {source:16:81} gölgelik, sığınak ve koruyucu giysiler sayıldıktan sonra Allah'ın nimeti tamamlaması, insanların teslim olmaları için belirtilir. Tamamlanma, bedenin korunmasıyla da kulluğa yönelir.
+=== REFS ===
+paragraph: 28
+text: Ayrıca: {source:3:174} zarar görmeden dönüşün Allah'ın nimeti oluşu; {source:17:70} insana taşıma ve iyi rızık verilmesi; {source:76:8} muhtaçların yiyeceğe kavuşturulması; {source:4:94} nimet görmüş kişinin başkasına ihtiyatla davranması; {source:5:110} İsa ile annesine verilen destek ve öğretim; {source:6:141} hasadın hakkını başkasına ulaştırma; {source:22:28} verilen hayvandan yoksulu doyurma; {source:57:29} lütfun Allah'ın elinde oluşu; {source:68:24} {source:68:25} ürünün yoksula geçmesini engelleme; {source:89:17} {source:89:18} {source:89:19} {source:89:20} yetim ve yoksulu dışlayıp malı kendine yığma; {source:92:18} malını vererek arınma; {source:2:22} yağmurla çıkan rızkın vereni Allah; {source:2:57} gölge ve yiyeceğin bir topluluğa ulaştırılması; {source:2:177} sevilen malın ihtiyaç sahiplerine verilmesi; {source:5:6} arınmayla tamamlanan nimet; {source:14:32} {source:14:33} gökten su ve tabiat imkânlarının insanlara verilmesi; {source:16:53} her nimetin Allah'tan gelişi; {source:16:81} korunma imkânlarıyla tamamlanan nimet; {source:17:26} yakına ve yoksula hakkının verilmesi; {source:22:36} sağlanan yiyecekten isteyen ve yoksulun doyurulması; {source:24:22} bolluk sahiplerinin ihtiyaç sahiplerine vermeyi sürdürmesi; {source:24:33} Allah'ın verdiği maldan özgürleşmek isteyenlere verilmesi; {source:28:5} ezilen topluma önderlik ve mirasçı olma nimetinin verilmesi; {source:31:20} görünen ve görünmeyen nimetlerin bolca verilmesi; {source:34:39} harcananın yerine Allah'ın yenisini vermesi; {source:36:47} verilmiş rızığı başkasına ulaştırmayı reddedenler; {source:38:39} verilmiş bağıştan verme yetkisi; {source:59:7} verilen ortak malın yoksullara da ulaşması; {source:59:9} kendi ihtiyaçlarına rağmen başkasını önceleyenler; {source:63:10} verilmiş rızıktan ölüm gelmeden harcama; {source:65:7} her kişinin Allah'ın verdiği ölçüde harcaması; {source:90:13} {source:90:14} {source:90:15} {source:90:16} özgürleştirme ve açlıkta muhtaçları doyurma; {source:93:9} {source:93:10} korunmuş yetimden yetime ve isteyene uzanan özen; {source:107:2} {source:107:3} yetimi itip yoksulu doyurmaktan kaçınma; {source:107:7} küçük yardımı esirgeme.
+=== REFS ===
+paragraph: 29
+text: Ayrıca: {source:25:48} {source:25:49} {source:25:50} yağmurun rahmet olarak verilmesi ve çoğunluğun nankörlüğü; {source:2:52} affa şükür; {source:2:185} hidayete tekbir ve şükür; {source:2:211} gelen nimeti değiştirmeme uyarısı; {source:2:231} indirilen Kitap ve hikmeti nimet diye anma; {source:2:265} Allah'ın rızası için harcama; {source:2:272} hidayeti Allah'a bırakıp O'nun rızası için harcama; {source:4:147} iman ve şükürle azaptan korunma; {source:5:11} korunma nimetini hatırlama; {source:7:69} Âd'a verilen üstünlüğü hatırlatma; {source:7:74} yerleşim nimetini hatırlatma; {source:7:140} İsrailoğullarının Allah tarafından üstün kılınması; {source:7:190} çocuk verildikten sonra ortak koşma; {source:9:58} {source:9:59} verilen sadakaya öfke yahut rıza; {source:9:74} lütufla zenginleşmeye düşmanlık cevabı; {source:10:12} sıkıntı kalkınca önceki duayı unutma; {source:10:21} rahmetten sonra ayetlere hile; {source:17:67} denizden kurtulunca yüz çevirme; {source:10:58} Allah'ın lütfu ve rahmetine sevinme; {source:14:8} insan inkârına rağmen Allah'ın hamde layık oluşu; {source:14:28} nimeti küfre değiştirme; {source:16:14} denizden geçim ve şükür; {source:16:72} aile ve rızka rağmen nimetin inkârı; {source:18:32} verilen iki bahçe; {source:18:38} bahçenin karşısında Allah'ı tek Rab tanıma; {source:22:37} kurbanlıkların ardından hidayet için Allah'ı yüceltme; {source:25:62} gece ve gündüzün şükür için oluşu; {source:28:79} Kârûn'un servet gösterisi; {source:28:81} malıyla batırılması; {source:29:63} yağmurun Allah'tan gelişi üzerine hamd; {source:30:46} rüzgârla gelen rahmete şükür; {source:31:31} gemileri Allah'ın nimetiyle giden şükreden kişi; {source:35:12} denizden çıkan yiyeceğe şükür; {source:39:66} kulluk ve şükür buyruğu; {source:45:12} denizde geçime şükür; {source:49:15} {source:49:16} doğruluğu sınanan iman iddiası; {source:54:34} Lût ailesinin kurtarılışı; {source:56:68} {source:56:69} içilen suyu Allah'ın indirmesi; {source:56:73} {source:56:74} ateşin yararı ardından tesbih; {source:76:10} verenlerin Rablerinden korkusu; {source:89:15} {source:89:16} bolluğu onur, darlığı aşağılanma sanma; {source:107:4} {source:107:5} {source:107:6} gafil ve gösterişçi ibadet; {source:2:40} nimeti hatırlama ve ahdi tutma buyruğu; {source:2:47} {source:2:122} İsrailoğullarına verilen nimeti hatırlama çağrısı; {source:2:172} verilen temiz rızka şükür; {source:2:243} yeniden hayata kavuşturulanların çoğunda eksik kalan şükür; {source:2:262} {source:2:263} incitmeyen sadaka ile inciten sadakanın ayrılması; {source:3:188} yapılmamış iş için övgü isteyenler; {source:5:7} nimeti hatırlayıp sözünde duran topluluk; {source:7:10} geçim imkânlarına az şükredilmesi; {source:7:43} yolun sonunda hidayete hamd; {source:7:189} çocuk verilirse vaat edilen şükür; {source:8:26} kurtuluş ve rızık karşısında şükür; {source:9:75} {source:9:76} verilen bolluğu paylaşma sözünü tutmayanlar; {source:10:10} cennette hamdın son söz olması; {source:10:22} {source:10:23} kurtulunca bozulan şükür vaadi; {source:11:9} {source:11:10} değişen durumda nankörlük ve övünme; {source:12:38} Yusuf'un atalarından gelen yolu Allah'ın lütfu diye anması; {source:12:100} Yusuf'un kurtuluş ve kavuşmayı Rabbine atfetmesi; {source:14:6} kurtuluş nimetini kavmine hatırlatan Musa; {source:14:7} şükrün artışla, inkârın azapla karşılanması; {source:14:34} {source:16:18} saymakla bitmeyen nimetler; {source:14:39} İbrahim'in evlat bağışına hamdı; {source:16:54} giderilen sıkıntıdan sonra ortak koşma; {source:16:83} bilinen nimeti sonra inkâr; {source:16:78} doğuştan verilen duyulara şükür; {source:23:78} {source:32:9} işitme, görme ve kalp karşısında az şükür; {source:16:112} güvenli rızkı inkâr eden kent; {source:16:114} verilen rızka şükür buyruğu; {source:17:83} {source:41:51} nimet gelince yüz çevirme; {source:18:34} bahçeyle zenginlik övüncü; {source:18:39} bahçeyi Allah'ın iradesine nispet etme çağrısı; {source:18:42} kaybın ardından pişmanlık; {source:20:80} {source:20:81} kurtuluş ve yiyeceğin ardından taşkınlıktan sakınma; {source:23:28} kurtarılan Nuh'a hamd söyleme buyruğu; {source:26:22} Firavun'un Musa'ya saydığı nimet; {source:26:78} {source:26:79} {source:26:80} {source:26:81} {source:26:82} İbrahim'in yaratma, doyurma, şifa ve bağışlanmayı Rabbine nispet etmesi; {source:27:15} Davud ile Süleyman'ın bilgi nimetine hamdı; {source:27:19} Süleyman'ın kendi ve anne babasının nimetine şükür duası; {source:27:40} gelen bağışı şükür sınaması sayan Süleyman; {source:27:73} insanlara lütfa rağmen az şükür; {source:28:17} Musa'nın nimete karşı kötülere destek olmama sözü; {source:28:73} gece gündüzün merhamet olarak verilmesi ve şükür; {source:28:78} Kârûn'un kendine pay çıkarması; {source:28:82} görenlerin Allah'ın lütfunu anması; {source:29:17} rızkı Allah'tan isteyip ona kulluk ve şükür; {source:29:65} denizden kurtulunca ortak koşma; {source:29:67} güvenli yurdu nimet saymayı reddetme; {source:30:33} merhametten sonra Allah'a ortak koşma; {source:31:12} hikmet verilen Lokman'a şükür emri; {source:31:14} ana babanın bakımına ve Allah'a şükür; {source:33:9} kurtuluş nimetini hatırlama çağrısı; {source:34:13} Davud ailesine çalışarak şükür buyruğu; {source:34:15} {source:34:16} Sebe'nin rızka şükür çağrısı ve yüz çevirişi; {source:35:3} nimeti hatırlarken rızık verenin adını anma; {source:35:34} {source:35:35} cennette kederin giderilişine hamd; {source:36:35} {source:36:73} meyve ve hayvan yararı karşısında şükür sorusu; {source:37:57} kurtuluşu Rabbin nimeti sayan cennetli; {source:39:7} Allah'ın şükürden razı olması; {source:39:8} nimetten sonra verenin unutulması; {source:39:49} nimeti kendi bilgisine bağlama; {source:41:50} merhameti kendi hakkı sayma; {source:39:74} {source:39:75} cennette yerine gelen vaade hamd; {source:40:61} gece ve gün karşısında çoğunluğun şükretmemesi; {source:42:48} merhamet sonrası sevinç ile sıkıntıda nankörlük; {source:43:13} {source:43:14} bineği veren Rabbi anarak yolculuk; {source:46:15} anne babaya da verilen nimete şükür ve iyi iş duası; {source:52:27} azaptan korunmayı Allah'ın lütfu sayanlar; {source:54:35} kurtuluş nimetiyle şükrün birlikte anılması; {source:55:13} {source:55:16} {source:55:18} {source:55:21} {source:55:23} {source:55:25} {source:55:28} {source:55:30} {source:55:32} {source:55:34} {source:55:36} {source:55:38} {source:55:40} {source:55:42} {source:55:45} {source:55:47} {source:55:49} {source:55:51} {source:55:53} {source:55:55} {source:55:57} {source:55:59} {source:55:61} {source:55:63} {source:55:65} {source:55:67} {source:55:69} {source:55:71} {source:55:73} {source:55:75} {source:55:77} Rabbin nimetlerini inkâr edip etmeme sorusu; {source:55:78} nimet sorularının sonunda Rabbin adının yüceltilmesi; {source:56:70} içme suyunun acıya dönmemesi karşısında şükür; {source:57:23} verilenle övünmeme buyruğu; {source:74:6} verip daha çoğunu istememe buyruğu; {source:92:19} {source:92:20} insanlardan alacak çıkarılmadan Rabbin rızası için verme; {source:93:11} Rabbin nimetini anlatma buyruğu; {source:102:8} nimetlerden hesaba çekilme; {source:106:3} {source:106:4} doyurma ve güvenlik karşısında kulluk; {source:108:1} {source:108:2} verilen bolluğa namaz ve kurbanla cevap; {source:110:1} {source:110:3} yardım ve fetihten sonra hamd ile tesbih buyruğu.
+=== REFS ===
+paragraph: 30
+text: Ayrıca: {source:2:157} rahmet görüp yolu bulanlar; {source:4:66} {source:4:67} öğüde uyanların sağlamlaşması ve karşılığı; {source:6:12} Allah'ın merhameti üzerine alması; {source:6:88} seçilenler için Allah hidayeti; {source:7:96} iman eden topluma açılacak bereketler; {source:8:52} ayetleri inkârın cezası; {source:8:54} Firavun ailesinin yalanlaması ve boğuluşu; {source:8:63} düşman kalplerini Allah'ın uzlaştırması; {source:34:18} {source:34:19} güvenli yolun kötü karşılanması; {source:40:65} yalnız Allah'a dua ile âlemlerin Rabbine hamd; {source:1:6} istenen dosdoğru yol; {source:2:150} nimet tamamlanırken hidayet umudu; {source:3:103} düşmanları kardeş kılan nimetle yol bulma; {source:4:68} itaatin dosdoğru yola iletilmesi; {source:4:70} nimet verilenlerle beraberliğin Allah'ın lütfu oluşu; {source:5:3} tamamlanan nimetin dinle birlikte anılması; {source:5:16} Allah'ın rızasına uyanların dosdoğru yola iletilmesi; {source:6:87} seçilen soyların dosdoğru yola iletilmesi; {source:6:90} onların hidayetine uyma buyruğu; {source:6:153} dosdoğru yolu izleme buyruğu; {source:7:43} hidayetin sonunda hamd; {source:10:10} cennetlilerin son sözünde hamd; {source:12:6} Yusuf ve ailesine tamamlanan nimet; {source:16:9} doğru yolun Allah'a ait olması; {source:16:121} nimetlere şükreden İbrahim'in dosdoğru yola iletilmesi; {source:17:9} Kur'an'ın en doğru olana yol göstermesi; {source:18:1} eğriliği olmayan Kitab'a hamd; {source:19:58} nimet verilen peygamberlerin ayetler karşısında secdesi; {source:21:73} rehber kılınanların hayır, namaz ve zekâtla yürüyüşü; {source:35:32} Kitab'ı alanların farklı davranışları; {source:48:2} nimet tamamlanmasıyla dosdoğru yola iletilmenin beraberliği; {source:48:4} iman edenlerin kalplerine indirilen sükûnet; {source:49:7} {source:49:8} imanın sevdirilmesinin Allah'ın lütfu ve nimeti olması; {source:57:28} merhametle verilen ve yürümeye yarayan ışık; {source:72:16} yolda sebatla suyun bolluğu; {source:76:3} gösterilen yola şükür ya da nankörlükle cevap; {source:90:12} zorlu geçit sorusu; {source:90:17} merhamet ve sabrı birbirine öğütleyenler; {source:93:7} rehberliğin nimet sayılan yardımlar arasında bulunması.
+=== REFS ===
+paragraph: 31
+text: Ayrıca: {source:2:185} hidayete tekbir ve şükür; {source:4:113} öğretilen Kitap ve hikmetin Allah'ın lütfu oluşu; {source:6:89} seçilenlere Kitap, hüküm ve peygamberlik verilmesi; {source:7:42} cennet sakinlerinin iman ve iyi iş sahipleri oluşu; {source:16:120} İbrahim'in itaatkâr ve ortak koşmayan duruşu; {source:24:21} arınmanın Allah'ın lütfu ve merhametiyle mümkün oluşu; {source:26:23} {source:26:24} Firavun'un âlemlerin Rabbini sorması ve Musa'nın gerçek Rabbi tanıtması; {source:35:29} Kitap okuma, namaz ve infakın artan karşılığı; {source:35:34} {source:35:35} cennette giderilen kedere hamd; {source:37:114} {source:37:115} {source:37:116} Musa ile Harun'a nimet ve kurtuluş; {source:39:73} hamd edenlerin cennete gelişi; {source:65:11} elçinin karanlıktan aydınlığa çıkarması; {source:93:5} Rabbin vereceği ve razı edeceği vaadi; {source:2:144} kıbleye yönelme emri; {source:2:148} {source:2:149} yönelişle beraber hayırda yarışma ve Rabbin hak buyruğu; {source:2:152} tamamlanma sözünün ardından Allah'ı anma ve şükür buyruğu; {source:2:177} yöne dönmenin yanına iman ve malı muhtaçlara verme konması; {source:3:164} elçinin öğretimi ve arındırmasının müminlere lütuf olması; {source:4:69} nimet verilenlerin adları ve onlara katılmanın yolu; {source:4:175} rahmet ve lütufla dosdoğru yola iletilme; {source:5:20} Musa'nın kavmine peygamberleri ve verilen imkânları nimet olarak hatırlatması; {source:6:154} Musa'ya verilen kitabın tamamlama, açıklama ve hidayet oluşu; {source:9:100} öncekileri iyilikle izleyenlerin cennete varması; {source:10:9} iman edenleri Rablerinin cennete iletmesi; {source:14:5} Musa'nın kavmini karanlıktan aydınlığa çıkarıp Allah'ın günlerini hatırlatması; {source:16:122} {source:16:123} İbrahim'e verilen iyilik ve onun yoluna uyma buyruğu; {source:17:87} korunan vahyin Rabbin merhameti ve lütfu oluşu; {source:18:10} merhamet ve doğru yönelişi birlikte isteyen gençler; {source:19:58} nimet verilen peygamberlerin hidayeti ve secdesi; {source:21:107} gönderilen elçinin âlemlere rahmet olması; {source:26:21} Musa'nın Firavun'dan kaçışının ardından Rabbinden hüküm ve elçilik alması; {source:28:6} ezilenlerin Firavun karşısında yer edinmesi; {source:29:67} güvenli evin Allah'ın nimeti sayılması; {source:35:30} Kitab'ı okuyup infak edenlere eksiksiz ve artırılmış karşılık; {source:39:74} cennetlilerin yerine gelen vaade hamdı; {source:40:64} verilen rızıktan sonra âlemlerin Rabbi diye yüceltme; {source:48:3} fethin ardından güçlü yardım; {source:48:20} verilen kazanç ve korumayla dosdoğru yola iletilme; {source:49:17} imana iletilmenin Allah'ın nimeti oluşu; {source:57:28} merhametin yürünecek ışığa dönüşmesi; {source:93:6} {source:93:7} {source:93:8} Rabbin nimeti anlatılmadan önce barınma, hidayet ve yeterlilik; {source:106:1} {source:106:2} kulluk çağrısından önce kış yaz yolculuğuna alışıklık; {source:110:1} {source:110:3} fetih gelince hamd ve bağışlanma dileme emri.
+=== VERDICTS ===
+- 2:22: ref ¶28 - yağmurla verilen rızık, verenin Allah olduğunu gösterir
+- 2:40: ref ¶29 - verilen nimeti hatırlamak ahde bağlılığı gerektirir
+- 2:47: ref ¶29 - topluca verilen nimeti hatırlama çağrısı
+- 2:57: ref ¶28 - gölge ve yiyecek topluluğa ulaştırılır
+- 2:122: ref ¶29 - verilen nimeti topluca hatırlama çağrısı
+- 2:144: ref ¶31 - kıbleye dönme emrinin ilk açık sahnesi
+- 2:150: cited ¶31; ref ¶30 - tamamlanan nimetle hidayet birlikte
+- 2:172: ref ¶29 - iyi rızkı alanlara Allah'a şükür emri
+- 2:177: ref ¶28, ¶31 - iyilik, malı muhtaçlara vermeyi de kapsar
+- 2:185: ref ¶29, ¶31 - hidayet için tekbir ve şükür; tamamlanan şey gün sayısıdır
+- 2:231: ref ¶29 - indirilen Kitap ve hikmet Allah'ın nimeti olarak hatırlatılır
+- 2:243: ref ¶29 - diriltilenlerin çoğunda eksik kalan şükür
+- 2:261: not relevant - infakın katlanan karşılığı, alınmış nimetin tamamlanışı değil
+- 2:262: ref ¶29 - infakın ardından minnet ve eziyet etmemek
+- 2:263: ref ¶29 - inciten sadakadansa güzel sözün üstünlüğü
+- 2:264: prose ¶29 - başa kakma sadakayı boşa çıkarır
+- 2:272: ref ¶29 - verenin niyeti Allah'ın rızası; hidayeti veren Allah
+- 3:103: ref ¶30 - düşmanları kardeş kılan nimet ve hidayet
+- 3:164: ref ¶31 - elçinin öğretimi ve arındırması Allah'ın lütfu
+- 3:174: ref ¶28 - zarar görmeden dönüş Allah'ın nimeti diye adlandırılır
+- 3:188: ref ¶29 - yapılmayan iş için övgü bekleyenlerin karşı örneği
+- 4:68: ref ¶30 - öğüde uymaya dosdoğru yol vaadi
+- 4:69: prose ¶30, ref ¶31 - nimet verilenler adlandırılır; itaat edenler katılır
+- 4:70: ref ¶30 - nimet verilenlerle beraberlik Allah'ın lütfu
+- 4:94: ref ¶28 - kendisi nimet görmüş kişinin başkasına karşı titizliği
+- 4:113: ref ¶31 - lütuf ve rahmet, öğretilen vahiyde somutlaşır
+- 4:175: ref ¶31 - rahmet ve lütufla dosdoğru yola iletme
+- 5:3: cited ¶31; ref ¶30 - dinin kemaliyle nimet tamamlanır
+- 5:6: prose ¶31, ref ¶28 - arınma, tamamlanan nimet ve şükür
+- 5:7: ref ¶29 - nimeti anmanın söz ve itaatle cevabı
+- 5:11: ref ¶29 - uzak tutulan düşman ellerini nimet diye hatırlama
+- 5:16: ref ¶30 - Allah'ın rızasına uyanın dosdoğru yola iletilmesi
+- 5:20: ref ¶31 - kavme peygamberler ve imkânlar nimet olarak hatırlatılır
+- 5:110: ref ¶28 - İsa'ya ve annesine verilen destek ve öğretimin anılması
+- 6:12: ref ¶30 - Allah'ın merhameti kendine yazması
+- 6:53: not relevant - başkalarının nimet verilmişlere küçümseyerek bakışı burada işlenmiyor
+- 6:87: ref ¶30 - seçilen soyların dosdoğru yola iletilmesi
+- 6:90: ref ¶30 - hidayet verilenlerin hidayetine uyma buyruğu
+- 6:153: ref ¶30 - dosdoğru yolu izleme ve ayrılan yolları bırakma
+- 6:154: ref ¶31 - Musa'ya verilen Kitap tamamlama ve hidayet diye anlatılır
+- 7:10: ref ¶29 - geçim imkânlarına karşı şükrün azlığı
+- 7:43: cited ¶31; ref ¶29, ¶30 - cennetlilerin hidayete hamdı
+- 7:69: ref ¶29 - Âd'a verilen üstünlüğün hatırlatılması
+- 7:74: ref ¶29 - yerleşim nimetini hatırlama buyruğu
+- 7:140: ref ¶29 - Musa'nın kavmine verilen üstünlüğü Allah'a nispet etmesi
+- 7:156: not relevant - rahmetin kimlere yazılacağı ayrı bir dua cevabı
+- 7:189: ref ¶29 - çocuk verilirse şükretme sözü; ortak koşma bu ayette yok
+- 8:26: ref ¶29 - barınma ve rızık verilip şükür beklenmesi
+- 8:53: prose ¶30 - topluma verilen nimetin korunması iç değişime bağlı
+- 8:63: ref ¶30 - kalpleri birleştirenin Allah oluşu
+- 9:58: ref ¶29 - sadakadan paya göre hoşnutluk ve öfke
+- 9:59: ref ¶29 - verilene razı olup Allah'a yönelme cevabı
+- 9:75: ref ¶29 - bolluk verilirse paylaşma sözü
+- 9:76: ref ¶29 - bolluk gelince paylaşmaktan kaçış
+- 9:77: not relevant - tutulmayan ahdin sonucu, nimetin verilmesi ya da anılması yok
+- 9:100: ref ¶31 - öncekileri iyilikle izleyenlerin sonu
+- 10:9: ref ¶31 - iman edenleri Rablerinin cennete iletmesi
+- 10:10: cited ¶31; ref ¶29, ¶30 - cennetlilerin son sözü hamd
+- 10:22: ref ¶29 - deniz tehlikesinde kurtarılınca şükür vaadi
+- 10:58: ref ¶29 - Allah'ın lütfu ve merhametine sevinme buyruğu
+- 11:9: ref ¶29 - rahmet çekilince nankörlük
+- 12:6: cited ¶31; ref ¶30 - Yusuf ailesine uzanan tamamlanmış nimet
+- 12:38: ref ¶29 - Yusuf'un atalarının yolunu Allah'ın lütfu diye anlatması
+- 12:100: ref ¶29 - Yusuf'un kurtuluş ve aile kavuşmasını Rabbine nispet etmesi
+- 14:6: ref ¶29 - Musa'nın kavmine kurtuluş nimetini hatırlatması
+- 14:7: ref ¶29 - şükrün artışa, inkârın azaba bağlanması
+- 14:8: ref ¶29 - nankörlük Allah'ın hamde layık oluşunu eksiltmez
+- 14:28: ref ¶29 - nimeti inkârla değiştirme, hamdın karşı yönü
+- 14:32: ref ¶28 - su ve meyveyi insanlara rızık verme
+- 14:33: ref ¶28 - güneş, ay, gece ve gündüzün insanlara sunulması
+- 14:34: ref ¶29 - nimetin saymakla bitmemesi
+- 14:39: ref ¶29 - İbrahim'in evlat bağışına hamdı
+- 16:9: ref ¶30 - dosdoğru yolun Allah'a aitliği ve sapma ihtimali
+- 16:14: ref ¶29 - denizden yiyecek ve geçim, ardından şükür
+- 16:18: ref ¶29 - sayılamayan nimete merhametli Rab
+- 16:53: ref ¶28 - her nimetin Allah'tan gelişi
+- 16:54: ref ¶29 - zararın kalkışından sonra ortak koşma
+- 16:71: not relevant - geçim farklarıyla kurulan tevhid kıyası, elden ele iyilik emri değil
+- 16:72: ref ¶29 - aile ve rızık verildiği hâlde nimetin inkârı
+- 16:78: ref ¶29 - duyular ve kalbin verilişinin şükre bağlanması
+- 16:80: not relevant - taşınabilir evlerin kullanım sahnesi, tamamlanma sonraki ayette
+- 16:81: prose ¶31, ref ¶28 - koruyucu imkânlarla tamamlanan nimet
+- 16:83: ref ¶29 - bilinen nimetin sonra inkâr edilmesi
+- 16:112: ref ¶29 - güvenli kentin nimetleri inkârıyla tersine dönmesi
+- 16:114: ref ¶29 - verilen rızka şükür ve kulluk
+- 16:121: cited ¶31; ref ¶30 - İbrahim'de şükür ile dosdoğru yola iletilme
+- 16:122: ref ¶31 - İbrahim'e dünyada ve ahirette iyilik
+- 17:26: ref ¶28 - yakın ve yoksulun hakkını ulaştırma
+- 17:70: ref ¶28 - insana taşıma ve iyi rızık verilmesi
+- 17:83: ref ¶29 - nimet gelince uzaklaşma
+- 18:10: ref ¶31 - merhamet ve doğru yönelişin birlikte istenmesi
+- 18:32: ref ¶29 - övünen bahçe sahibine verilen iki bahçe
+- 18:34: ref ¶29 - bahçeyi kendi üstünlüğünün konusu yapma
+- 18:39: ref ¶29 - bahçenin gücünü Allah'a nispet etme çağrısı
+- 18:42: ref ¶29 - kayıptan sonra ortak koştuğuna pişmanlık
+- 19:58: ref ¶30, ¶31 - nimet verilen peygamberlerin hidayeti ve secdesi
+- 20:37: not relevant - önceki yardımın ne olduğu ayetin kendisinde açıklanmaz
+- 20:80: ref ¶29 - kurtuluş ve yiyeceğin İsrailoğullarına hatırlatılması
+- 21:90: not relevant - çocuk bağışı ve aile ibadeti, nimet-hamd/yol bağı belirgin değil
+- 21:107: ref ¶31 - elçinin gönderilmesi âlemlere rahmet
+- 22:36: ref ¶28 - verilen kurbanlık eti isteyen ve yoksula ulaştırma
+- 22:37: ref ¶29 - sağlanan hayvan karşılığında hidayet için Allah'ı yüceltme
+- 23:28: ref ¶29 - Nuh'a kurtuluştan sonra hamd söyleme buyruğu
+- 23:78: ref ¶29 - duyuların verilişine az şükür
+- 24:21: ref ¶31 - Allah'ın lütfu ve merhameti olmadan arınmanın mümkün olmaması
+- 24:22: ref ¶28 - imkân sahiplerinin ihtiyaç sahiplerine vermeyi sürdürmesi
+- 24:33: ref ¶28 - Allah'ın verdiği maldan özgürleşmek isteyenlere verme
+- 25:50: ref ¶29 - dağıtılan yağmurun ardından çoğunluğun nankörlüğü
+- 25:62: ref ¶29 - gece ve gündüzün hatırlama yahut şükür için verilmesi
+- 26:22: cited ¶31; ref ¶29 - Firavun'un başa kaktığı nimet
+- 26:78: ref ¶29 - İbrahim'in yaratma ve hidayeti Rabbine nispet etmesi
+- 26:79: ref ¶29 - İbrahim'in doyurma ve içirmeyi Rabbine nispet etmesi
+- 26:80: ref ¶29 - İbrahim'in şifayı Rabbine nispet etmesi
+- 26:81: ref ¶29 - İbrahim'in ölüm ve dirilişi Rabbine nispet etmesi
+- 26:82: ref ¶29 - İbrahim'in bağışlanma umudunu Rabbine bağlaması
+- 27:15: ref ¶29 - Davud ve Süleyman'ın verilen bilgiye hamdı
+- 27:19: ref ¶29 - Süleyman'ın nimete şükür ve iyi iş duası
+- 27:40: ref ¶29 - bağışı Rabbine atfedip şükür sınaması sayma
+- 27:73: ref ¶29 - Allah'ın lütfuna karşı şükrün azlığı
+- 28:5: ref ¶28 - ezilen topluma iyilik ederek onu yükseltme
+- 28:6: ref ¶31 - ezilenleri yeryüzüne yerleştirme vaadinin sürmesi
+- 28:17: ref ¶29 - Musa'nın nimete karşı suçlulara destek olmama sözü
+- 28:73: ref ¶29 - gece gündüzün merhamet ve şükürle bağlanması
+- 28:76: context ¶28 (in 28:77) - öğüdün muhatabı Kârûn
+- 28:77: prose ¶28 - Allah'tan görülen iyilik başkasına iyilik etme ölçüsü
+- 28:78: ref ¶29 - Kârûn'un bağışı kendi bilgisine yüklemesi
+- 28:82: ref ¶29 - kıskananların Allah'ın lütfunu fark etmesi
+- 29:17: ref ¶29 - rızkı Allah'tan isteyip ona şükür ve kulluk
+- 29:65: ref ¶29 - denizden kurtulunca verenin unutulması
+- 29:67: ref ¶29, ¶31 - güvenli ev nimeti ve onu inkâr
+- 30:46: ref ¶29 - rüzgârla gelen merhamet ve geçimin şükre bağlanması
+- 31:12: ref ¶29 - hikmete şükür buyruğu
+- 31:14: ref ¶29 - Allah'a ve bakım veren ana babaya şükür
+- 31:20: ref ¶28 - açık ve gizli nimetlerin bolca verilmesi
+- 31:31: ref ¶29 - denizde giden gemide nimeti gören şükreden kişi
+- 32:9: ref ¶29 - duyuların verilmesine karşı az şükür
+- 33:9: ref ¶29 - düşmanlardan korunmayı nimet diye anma
+- 34:13: ref ¶29 - Davud ailesine çalışarak şükür emri
+- 34:15: ref ¶29 - Sebe'ye rızık için şükür buyruğu
+- 34:16: ref ¶29 - yüz çevirince bahçelerin yer değiştirmesi
+- 34:18: ref ¶30 - güvenli ve ölçülü yolculukların verilmesi
+- 34:39: ref ¶28 - harcananın yerinin Allah tarafından doldurulması
+- 35:3: ref ¶29 - nimeti hatırlarken tek rızık vereni tanıma
+- 35:12: ref ¶29 - denizlerden çıkan yiyecek ve geçim için şükür
+- 35:30: ref ¶31 - Kitab'ı okuyup harcayana eksiksiz ve artan karşılık
+- 35:34: ref ¶29, ¶31 - cennetlilerin kederi gideren Allah'a hamdı
+- 35:35: ref ¶29, ¶31 - hamda konu olan kalıcı yurdun Allah'ın lütfundan gelişi
+- 36:35: ref ¶29 - yapılmamış meyveyi yiyenlere şükür sorusu
+- 36:73: ref ¶29 - hayvanların yararları ve içecekleri karşısında şükür sorusu
+- 37:57: ref ¶29 - cennetlinin kurtuluşunu Rabbin nimeti sayması
+- 37:114: ref ¶31 - Musa ve Harun'a verilen nimetin ilanı
+- 38:39: ref ¶28 - alınan bağışı başkasına verebilme izni
+- 39:7: ref ¶29 - şükrün Allah'ın rızasına konu olması
+- 39:8: ref ¶29 - zarar kalkınca nimeti verenin unutulması
+- 39:74: ref ¶29, ¶31 - cennetlilerin gerçekleşen vaade hamdı
+- 40:61: ref ¶29 - gece gündüz nimetine çoğunluğun şükretmemesi
+- 40:64: ref ¶31 - iyi rızık verenin âlemlerin Rabbi diye anılması
+- 41:51: ref ¶29 - nimet gelince uzaklaşma
+- 42:48: ref ¶29 - rahmette sevinip sıkıntıda nankörleşme
+- 43:13: ref ¶29 - binerken nimeti anıp sağlayanı yüceltme
+- 43:14: ref ¶29 - nimeti anan yolcunun Rabbine dönüşü hatırlaması
+- 43:15: not relevant - ortak koşmayı nankörlük sayan ayrı polemik
+- 43:32: not relevant - insanların Rabbin merhametini paylaştırma iddiasına cevap
+- 45:12: ref ¶29 - deniz yoluyla geçime ve şükre açılan nimet
+- 45:13: not relevant - gök ve yerdekilerin boyun eğdirilmesi, özgül şükür bağı yok
+- 46:15: ref ¶29 - kuşaklar arası nimet için şükür ve iyi iş duası
+- 48:1: cited ¶31; nowhere else - fetih, tamamlanma ayetinin girişidir
+- 48:2: cited ¶31; ref ¶30 - tamamlanan nimet ve dosdoğru yola iletilme
+- 49:7: ref ¶30 - imanın sevilmesi, doğru yola içten hazırlanış
+- 49:17: prose ¶29, ref ¶31 - gerçek minnet, imana ileten Allah'ındır
+- 52:27: ref ¶29 - cennetlilerin korunmayı Allah'ın lütfu sayması
+- 54:35: ref ¶29 - kurtuluş nimeti ve şükür
+- 55:13: ref ¶29 - Rabbin nimetlerini inkâr sorusunun ilk tekrarı
+- 55:16: ref ¶29 - yaratılıştan sonra nimet inkârı sorusu
+- 55:18: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:21: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:23: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:25: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:28: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:30: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:32: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:34: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:36: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:38: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:40: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:42: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:45: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:47: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:49: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:51: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:53: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:55: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:57: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:59: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:61: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:63: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:65: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:67: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:69: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:71: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:73: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:75: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:77: ref ¶29 - Rabbin nimetlerini inkâr sorusu
+- 55:78: ref ¶29 - tekrarların sonunda Rabbin adının yüceltilmesi
+- 56:70: ref ¶29 - tatlı suyun verilişine şükür sorusu
+- 56:73: ref ¶29 - ateşin hatırlatma ve yarar olarak verilmesi
+- 56:74: ref ¶29 - yararlı ateşten sonra Rabbi tesbih buyruğu
+- 57:18: not relevant - sadaka karşılığının çoğaltılması, bölümdeki nimetin tamamlanması değil
+- 57:23: ref ¶29 - verilmiş olanla böbürlenmeme buyruğu
+- 57:28: ref ¶30, ¶31 - merhametle verilen ve yürümeye yarayan ışık
+- 57:29: ref ¶28 - lütfun Allah'ın elinde olduğu sözü
+- 72:16: ref ¶30 - yolda sebatla su bolluğunun birlikte anılması
+- 74:6: ref ¶29 - verip karşılığında daha çoğunu istememe buyruğu
+- 76:3: ref ¶30 - gösterilen yola şükür ya da inkârla cevap
+- 76:8: context ¶29 (in 76:9); ref ¶28 - yiyeceği alanlar adlandırılır
+- 76:9: prose ¶29 - verenler alandan karşılık ve teşekkür istemez
+- 90:10: not relevant - iki yükseltiyi gösterme, nimet-hamd bağı belirgin değil
+- 90:13: ref ¶28 - özgürleştirme ile başkasına iyilik
+- 90:14: ref ¶28 - açlık gününde doyurma
+- 90:15: ref ¶28 - doyurulan yakın yetim
+- 90:16: ref ¶28 - doyurulan yoksul
+- 92:18: ref ¶28 - malını vererek arınma
+- 92:19: ref ¶29 - insandan geri ödenecek nimet alacağı olmaması
+- 92:20: ref ¶29 - verenin hedefinin Rabbin rızası oluşu
+- 92:21: not relevant - verenin razı edileceği vaadi, minnet ilişkisinin kendisi değil
+- 93:6: ref ¶31 - yetim bulunup barındırılan Peygamberin nimeti
+- 93:7: ref ¶30, ¶31 - rehberlik, anlatılacak Rabbin nimetlerinden
+- 93:8: ref ¶31 - ihtiyaçtan yeterliliğe çıkarılma
+- 93:9: ref ¶28 - korunmuş yetimin yetime eziyet etmemesi
+- 93:10: ref ¶28 - istek sahibini azarlamama
+- 93:11: cited ¶31; ref ¶29 - nimeti anlatma buyruğu
+- 102:8: ref ¶29 - nimetlerin hesap konusu olması
+- 106:3: cited ¶31; ref ¶29 - nimete cevap olarak kulluk
+- 106:4: cited ¶31; ref ¶29 - açlığa ve korkuya karşı verilen iyi
+- 107:1: not relevant - hesap gününü yalanlama, sonraki davranışların girişi
+- 107:2: ref ¶28 - yetime uzanması gereken elin onu itmesi
+- 107:3: ref ¶28 - yoksulu doyurmaya özendirmeme
+- 107:6: ref ¶29 - insanlara gösteriş için yapılan ibadet
+- 107:7: ref ¶28 - küçük yardımı bile esirgeme
+- 108:1: ref ¶29 - verilen bolluk, sonraki ibadetin zemini
+- 108:2: ref ¶29 - bolluğa Rabbe namaz ve kurbanla cevap
+- 110:1: ref ¶29, ¶31 - yardım ve fetih, övgünün önündeki bağış
+- 110:3: ref ¶29, ¶31 - fetih sonrası hamd ile tesbih ve bağışlanma isteme
+- 2:52: ref ¶29 - buzağı olayından sonra affa şükür
+- 2:60: not relevant - suyun kayadan verilmesi, nimetin hamd/yol bağına bağlanmaz
+- 3:145: not relevant - şükredenin ödülü geçer, belirli bir nimetin cevabı yok
+- 4:147: ref ¶29 - imanla şükrün azaptan korunmayla anılması
+- 6:141: ref ¶28 - hasat edilen rızkın hakkını başkasına verme
+- 7:96: ref ¶30 - iman ve takva ile açılacak bereketler
+- 14:5: ref ¶31 - Musa'ya kavmi için kurtuluş ve hatırlatma görevi
+- 17:9: ref ¶30 - Kur'an'ın en doğru olana yol göstermesi
+- 17:87: ref ¶31 - korunan vahyin rahmet ve lütuf oluşu
+- 18:1: ref ¶30 - eğriliği olmayan Kitap için hamd
+- 21:73: ref ¶30 - yönetenlerin hayır, namaz ve zekâtla yolu açması
+- 21:84: not relevant - Eyyub'a aile iadesi ve rahmet, bölümün hamd veya yol bağını kurmuyor
+- 22:28: ref ¶28 - verilen hayvandan sıkıntılı yoksulu doyurma
+- 29:63: ref ¶29 - yağmuru veren Allah deyip hamd etme buyruğu
+- 30:33: ref ¶29 - rahmetten sonra ortak koşanların karşı cevabı
+- 34:17: not relevant - Sebe'nin inkârına ceza, 34:15-16 bağlantısına yeni söz eklemiyor
+- 35:32: ref ¶30 - Kitab'ı alanların yol içinde ayrı tutumları
+- 39:66: ref ¶29 - kullukla beraber şükür emri
+- 39:75: ref ¶29 - hüküm sonundaki Rabbin hamdı
+- 42:33: not relevant - gemilerin durması, şükreden için işaret; özgül nimet bağlantısı zayıf
+- 48:20: ref ¶31 - mal ve korunma verilirken dosdoğru yola iletme
+- 59:7: ref ¶28 - ortak malın ihtiyaç sahiplerine dağıtılması
+- 59:9: ref ¶28 - muhtaç olsa da başkasını önceleme
+- 63:10: ref ¶28 - verilen rızıktan ölümden önce harcama
+- 64:17: not relevant - borç mecazındaki katlanan karşılık, alana iletilen nimet değil
+- 65:7: ref ¶28 - kişinin kendisine verilenden başkasına harcaması
+- 71:10: not relevant - bağışlanma dileme çağrısı, şükür ya da nimet anlatma yok
+- 71:12: not relevant - tövbe sonrası vaat edilen bolluk, hamd/yol bağı yok; yağmur 71:11'dedir
+- 89:17: ref ¶28 - yetimi onurlandırmayanlar
+- 89:18: ref ¶28 - yoksulu doyurmaya teşvik etmeyenler
+- 90:12: ref ¶30 - zorlu geçidin sorusu, devamındaki fiillerle açılır
+- 90:17: ref ¶30 - geçitte iman, sabır ve merhameti birbirine öğütleme
+- 107:4: ref ¶29 - gösterişçilerin ibadetine yönelen uyarı
+- 107:5: ref ¶29 - ibadetten gafil olma, sonraki gösterişle bağlanır
+- 2:211: ref ¶29 - gelen nimeti değiştirme uyarısı
+- 9:74: ref ¶29 - zenginleştirildikleri hâlde düşmanlık besleyenler
+- 10:21: ref ¶29 - sıkıntıdan sonraki rahmete hileyle cevap
+- 11:10: ref ¶29 - sıkıntıdan sonra nimet gelince övünme
+- 17:67: ref ¶29 - denizden kurtarılınca Allah'tan yüz çevirme
+- 20:81: ref ¶29 - verilen yiyecekte taşkınlık etmeme sınırı
+- 34:19: ref ¶30 - güvenli yolculuk nimetini geri iten Sebe
+- 36:47: ref ¶28 - verilmiş rızığı ihtiyaç sahibine ulaştırmayı reddetme
+- 39:49: ref ¶29 - nimeti kendi bilgisine mal etme
+- 41:50: ref ¶29 - merhameti kendi hakkı sanma
+- 68:24: ref ¶28 - bahçe ürününden yoksulu dışlama kararı
+- 89:15: ref ¶29 - refaha kavuşmayı kendine onur belgesi sayma
+- 89:16: ref ¶29 - rızık kısılmasını aşağılanma sanma
+- 108:3: not relevant - karşıtının kesik sayılması, nimetin cevabını açmaz
+- 2:148: ref ¶31 - kıble yönü yanında hayırda yarışma
+- 2:149: ref ¶31 - kıble yönünün Rabbin hak buyruğu olması
+- 2:151: prose ¶31 - kıble sözünün ardından elçinin öğretimi
+- 2:152: ref ¶31 - hemen sonrasında hatırlama ve şükür emri
+- 5:1: not relevant - akitler ve helal hayvanlara ilişkin giriş hükmü
+- 5:2: not relevant - hac işaretleri ve karşılıklı yardımlaşma hükmü, nimet tamamlama sözüne özgül bağ yok
+- 5:4: not relevant - av ve yiyecek hükmü, nimetin tamamlanma mekanizmasını açıklamıyor
+- 5:5: not relevant - helal yiyecek ve evlilik hükmü, burada tamamlanma bağı yok
+- 7:41: not relevant - cehennem yatağı, cennetlilerin hidayet hamdını açıklamaz
+- 7:42: ref ¶31 - iman ve iyi iş sahiplerinin cennete girişi
+- 7:44: not relevant - cennet ve ateştekilerin karşılıklı vaad tasdiki, hamdın nedeni değil
+- 7:45: not relevant - yolu eğriltmeye çalışanlar, cennetlilerin hamd sahnesinden ayrı
+- 10:8: not relevant - azap sonu, cennetteki hamd sahnesini genişletmiyor
+- 10:11: not relevant - azabın ertelenmesi, nimete hamdın konusu değil
+- 10:12: ref ¶29 - sıkıntı kaldırılınca dua etmemiş gibi davranma
+- 12:4: not relevant - Yusuf'un rüyası, aileye tamamlanacak nimetin içeriğini açıklamaz
+- 12:5: not relevant - rüyayı kardeşlere söylememe öğüdü, nimetin bağını açmaz
+- 12:7: not relevant - Yusuf ve kardeşlerinin kıssasını işaret sayma
+- 12:8: not relevant - kardeşlerin kıskançlık sözü, vaat edilen nimetin kendisi değil
+- 16:119: not relevant - tövbe edenlere bağışlanma, İbrahim'in nimet-şükür sahnesi değil
+- 16:120: ref ¶31 - İbrahim'in itaatkâr ve ortak koşmayan duruşu
+- 16:123: ref ¶31 - İbrahim'in yoluna uyma buyruğu
+- 26:20: not relevant - Musa'nın eski eylemini anlatması, minnetin yönünü açmaz
+- 26:21: ref ¶31 - Firavun'dan sonra Rabbin verdiği hüküm ve elçilik
+- 26:23: ref ¶31 - Firavun'un “âlemlerin Rabbi” sorusu
+- 26:24: ref ¶31 - Musa'nın gerçek Rabbi gök ve yerin Rabbi diye göstermesi
+- 48:0: not relevant - besmele, fetihten sonraki nimet ve yola bağlanmaz
+- 48:3: ref ¶31 - fethin ardından güçlü yardım
+- 48:4: ref ¶30 - mümin kalplerine sükûnet ve iman artışı
+- 106:1: ref ¶31 - evin halkının yolculuk düzeni
+- 106:2: ref ¶31 - kış yaz seferleri, kulluk çağrısının bağlamı
+- 1:6 own: ref ¶30 - istenen dosdoğru yol, nimetin verildiği yolun öncesinde
+- 2:64 own: not relevant - sapmadan sonra rahmetle kayıptan korunma; bölümün tamamlanan nimet bağlantısını açmaz
+- 2:153 own: not relevant - sabır ve namazla yardım dileme, kıble nimetine özgü açıklama yok
+- 2:157 own: ref ¶30 - Rabbin rahmetiyle hidayete erenler
+- 2:265 own: ref ¶29 - Allah'ın rızası için verilen mal, minnetli sadakanın karşıtı
+- 2:266 own: not relevant - yok olan bahçe benzetmesi, başa kakmanın ayrıca açıklaması değil
+- 3:149 own: not relevant - inanmayanlara uymanın zararı, verilen nimet mekanizması yok
+- 4:66 own: ref ¶30 - öğüde uymak kendileri için iyi ve sağlamlaştırıcı
+- 4:67 own: ref ¶30 - öğüde uyanlara Allah katından büyük karşılık
+- 4:71 own: not relevant - savaşta tedbir ve sefer buyruğu, nimet verilenlerin kimliğine bağlanmaz
+- 5:8 own: not relevant - adalet buyruğu, temizlenmeyle tamamlanan nimet üzerine değil
+- 6:88 own: ref ¶30 - seçilenlere verilen hidayet Allah'a ait
+- 6:89 own: ref ¶31 - hidayet verilenlere Kitap, hüküm ve peygamberlik de verilir
+- 7:190 own: ref ¶29 - çocuk verildikten sonra ortak koşma; 7:189 yalnız şükür vaadidir
+- 8:51 own: not relevant - azabın kişinin elleriyle yaptığından gelişi, nimet bağı yok
+- 8:52 own: ref ¶30 - Firavun ailesinin ayetleri inkârı, 8:53'teki değişime örnek
+- 8:54 own: ref ¶30 - Firavun ailesinin inkârla yok oluşu, 8:53'ün komşu sonucu
+- 8:55 own: not relevant - inkâr edenlerin tanımı, nimetin değişmesi açıklanmaz
+- 9:21 own: not relevant - cennet nimetinin vaadi, oradaki hamd sözünü bağlamıyor
+- 10:23 own: ref ¶29 - denizde kurtulanların ardından taşkınlığa dönüşü
+- 11:11 own: not relevant - sabır ve iyi iş sahiplerine karşılık; hamdın alana cevabı değil
+- 14:35 own: not relevant - İbrahim'in güvenli belde duası, alınan nimete cevap henüz yok
+- 16:79 own: not relevant - kuşların havada tutulması, tamamlanan nimetin insanlara yönelişi değil
+- 16:82 own: not relevant - yüz çevirene tebliğ sınırı, koruyucu nimet bağını açmaz
+- 16:124 own: not relevant - cumartesi anlaşmazlığı, İbrahim'in şükür yoluna katkısı yok
+- 18:38 own: ref ¶29 - bahçe sahibinin arkadaşının Rabbini tek tanıması
+- 18:41 own: not relevant - bahçe suyunun kaybolması ihtimali, övgüyle alıcının ilişkisi değil
+- 27:20 own: not relevant - Hüdhüd'ün yokluğunu fark etme, nimete şükür sahnesi değil
+- 28:75 own: not relevant - topluluklardan şahit çıkarılması, Kârûn'a verilen iyilik öğüdüyle bağlı değil
+- 28:79 own: ref ¶29 - Kârûn'un zenginliğiyle halk önüne çıkması
+- 28:80 own: not relevant - bilgi verilenlerin ahiret ödülü öğüdü, nimeti başa kakma değil
+- 28:81 own: ref ¶29 - kendine pay çıkaran Kârûn'un malıyla batırılması
+- 31:13 own: not relevant - Lokman'ın şirk uyarısı, hikmet için şükür buyruğundan ayrı
+- 34:14 own: not relevant - Süleyman'ın ölümü, ailesinin şükür buyruğunu açıklamaz
+- 35:29 own: ref ¶31 - Kitap okuma, namaz ve infak, artan karşılığın davranışları
+- 35:33 own: not relevant - cennet süsleri, kederden kurtuluş için hamdı genişletmiyor
+- 37:115 own: ref ¶31 - Musa ve Harun'la kavimlerinin büyük sıkıntıdan kurtuluşu
+- 37:116 own: ref ¶31 - verilen nimetin ardından yardım ve üstün gelme
+- 39:73 own: ref ¶31 - vaat için hamd edenlerin cennete gelişi
+- 40:65 own: ref ¶30 - yalnız Allah'a dua emriyle âlemlerin Rabbine hamd
+- 49:8 own: ref ¶30 - sevdirilen imanın Allah'ın lütfu ve nimeti olduğu
+- 49:15 own: ref ¶29 - “doğruysanız” kaydının iman ve fedakârlık içeriği
+- 49:16 own: ref ¶29 - dini Allah'a öğretir gibi öne sürmenin reddi
+- 49:18 own: not relevant - Allah'ın gizliyi bilmesi, nimet yönünün yer değiştirmesi değil
+- 54:34 own: ref ¶29 - Lût ailesinin kurtuluşu, 54:35'te nimet diye anılır
+- 55:12 own: not relevant - tahıl ve kokulu bitkiler, tekrarlanan sorunun bir örneği
+- 55:60 own: not relevant - iyiliğin iyilikle karşılığı, verenin iyiliğini başa kakma sahnesi yok
+- 56:68 own: ref ¶29 - içilen suya dikkat çeken soru
+- 56:69 own: ref ¶29 - suyu buluttan indirenin Allah olması
+- 65:11 own: ref ¶31 - karanlıktan aydınlığa çıkaran elçilik ve iyi rızık
+- 68:17 own: not relevant - bahçe sahiplerinin hasat planı, yoksulu dışlama bu ayette yok
+- 68:25 own: ref ¶28 - bahçeye yoksulu dışlama gücüyle gidiş
+- 71:11 own: not relevant - yağmur vaadi, şükrün cevabı olarak söylenmiyor
+- 89:19 own: ref ¶28 - mirası yutarcasına tüketme, başkasına geçişi keser
+- 89:20 own: ref ¶28 - mala aşırı sevgi, yetim ve yoksul hakkına karşı
+- 92:17 own: not relevant - ateşten uzak tutulacak takvalı kişiyi adlandırır, minnet açıklaması yok
+- 93:5 own: ref ¶31 - Rabbin Peygambere vereceği ve onu razı edeceği vaadi
+- 76:7 own: not relevant - adak ve korku, karşılık istememe sözünü genişletmiyor
+- 76:10 own: ref ¶29 - yiyecek verenlerin Rabden korkusu, insanlardan karşılık istememeleriyle uyumlu
+- 76:11 own: not relevant - ahiret karşılığı, verilen yiyeceğin insandan talep edilmeyişini açıklamıyor
+- 3:173 own: not relevant - tehdide karşı Allah'a güven sözü, nimete hamd değil
+- 3:175 own: not relevant - korkunun yönünü belirleyen uyarı, nimet sahnesini açmıyor
+- 17:69 own: not relevant - inkârdan sonra denizde boğulma tehdidi, şükür cevabına yeni açıklama değil
+- 17:71 own: not relevant - hesapta kitabın verilmesi, nimet aktarımı değil
+- 25:48 own: ref ¶29 - yağmurun rahmet olarak gönderilmesi
+- 25:49 own: ref ¶29 - yağmurla toprağın diriltilip insan ve hayvanın sulanması

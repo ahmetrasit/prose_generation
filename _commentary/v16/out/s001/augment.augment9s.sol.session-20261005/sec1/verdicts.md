@@ -1,0 +1,294 @@
+- 2:38: ref ¶2 - Allah'ın hidayetine uyma ve bu izlemenin sürmesi.
+- 2:108: ref ¶5 - inancı inkârla değişenin yolun ortasından sapması.
+- 2:142: ref ¶7 - kıble yönelişi bağlamında Allah'ın sırata iletmesi.
+- 2:198: ref ¶7 - Arafat'tan gelenlerin işarette Allah'ı anıp önceki sapmalarını hatırlaması.
+- 2:213: ref ¶7 - ayrışmadan sonra iman edenlerin ihtilaf edilen hakka iletilmesi.
+- 3:8: ref ¶6 - hidayetten sonra kalbin sapmaması için dua.
+- 3:51: cited ¶8; ref ¶1 - İsa'nın kulluğu dosdoğru yol diye adlandırması.
+- 3:101: ref ¶7 - Allah'a sarılmanın dosdoğru yola iletilmesi.
+- 3:103: ref ¶6 - birlikte tutunma emri ve dağılma yasağı.
+- 4:44: ref ¶8 - kitabı alan kimilerinin başkalarını yoldan çıkarma isteği.
+- 4:68: ref ¶7 - itaatin ardından dosdoğru yola iletilme vaadi.
+- 4:69: prose ¶4, ref ¶6 - nimet verilenlerin adları ve onlarla birliktelik.
+- 4:115: ref ¶4 - müminlerin yolunun dışına çıkmanın uyarılması.
+- 4:175: ref ¶2 - Allah'a sarılanların O'na doğru yola iletilmesi.
+- 5:12: ref ¶5 - ahitten sonra inkâr edenin yolun ortasını kaybetmesi.
+- 5:16: prose ¶7 - Allah'ın çoğul esenlik yollarını sıratla birlikte anması.
+- 5:77: ref ¶5 - başkalarını saptıranların yolun ortasından da sapması.
+- 6:39: ref ¶7 - karanlıktaki sapma ile sırata konma karşıtlığı.
+- 6:55: ref ¶8 - suçluların yolunun ayetlerle belirginleşmesi.
+- 6:71: cited ¶8; ref ¶2 - şaşkın kişiyi arkadaşlarının hidayete çağırması.
+- 6:87: ref ¶4 - seçilmiş öncekilerin dosdoğru yola iletilmesi.
+- 6:90: prose ¶4 - elçiye öncekilerin hidayetini izleme emri.
+- 6:97: ref ¶5 - yıldızlarla kara ve deniz karanlığında yön bulma.
+- 6:116: prose ¶4 - çoğunluğa uymanın Allah'ın yolundan saptırabilmesi.
+- 6:126: ref ¶5, ¶7 - Rabbin sıratı ile açıklanmış ayetlerin beraber anılması.
+- 6:153: cited ¶7; ref ¶6 - çok yola uymanın Allah'ın yolundan dağıtması.
+- 6:159: ref ¶6 - dinini fırkalara ayıranların yön kaybı.
+- 6:161: cited ¶7; ref ¶5 - dosdoğru sırat ile dimdik dinin beraber söylenmesi.
+- 7:16: cited ¶8; nowhere else - İblis'in sırat üzerinde pusu kurması orada açıklanır.
+- 7:17: cited ¶8; nowhere else - pusunun yönleri orada açıklanır.
+- 7:43: ref ¶2 - cennete varanların Allah'ın hidayetini anması.
+- 7:86: ref ¶8 - yol üzerinde durup Allah'ın yolunu kesme.
+- 7:146: ref ¶6, ¶8 - doğru yol görünürken sapıklık yolunun tutulması.
+- 7:157: ref ¶2 - Elçiye ve onunla indirilen nura uyan topluluk.
+- 10:25: prose ¶2 - çağrılan esenlik yurdu ile iletilen sıratın yan yanalığı.
+- 10:35: ref ¶2 - kendisi hidayet edenle ancak edilirse yol bulanı ayıran soru.
+- 10:89: ref ¶2, ¶5 - istikamette kalıp bilmeyenlerin yolunu izlememe emri.
+- 11:56: not relevant - Hûd'un Rabbinin doğruluğu sözü, yolcuya gösterilen güzergâhı anlatmaz.
+- 11:112: ref ¶2 - elçiye ve beraberindekilere buyurulduğu gibi istikamet.
+- 12:40: ref ¶5 - yalnız Allah'a kulluğun dosdoğru din diye adlandırılması.
+- 12:108: ref ¶4 - Elçinin yolunda onu izleyenlerin birlikte çağırması.
+- 13:7: ref ¶2 - her kavim için hâdînin anılması, önü gösterme rolü.
+- 14:1: ref ¶7 - vahiy aracılığıyla karanlıktan Rabbin yoluna çıkarılma.
+- 14:12: ref ¶7 - elçilerin kendilerine gösterilen yollarda eziyete sabretmesi.
+- 15:41: ref ¶8 - İblis'in saptırma tehdidine karşı dosdoğru yolun bildirilişi; «عَلَىَّ» varış yönü diye çevrilmez.
+- 16:9: prose ¶3, ref ¶5 - doğru yön ve eğri yolların karşıtlığı.
+- 16:15: cited ¶7; ref ¶1 - yeryüzünde yol bulunabilen yolların yaratılması.
+- 16:16: cited ¶7; ref ¶5 - nişan ile yıldızın yön bulmaya yaraması.
+- 16:36: ref ¶8 - elçinin kulluk çağrısı karşısında hidayet ile sapmanın ayrılması.
+- 16:69: not relevant - arının yollarındaki «ذُلُلًا», ayakların aşındırdığı bir sıratı kurmaz.
+- 16:76: ref ¶3 - adaleti buyuran kişinin dosdoğru yolda bulunması.
+- 16:94: ref ¶1, ¶8 - sağlam ayağın kayması ve Allah'ın yolundan alıkoyma.
+- 16:121: ref ¶4 - nimetlere şükreden İbrahim'in seçilip sırata iletilmesi.
+- 16:123: ref ¶4 - elçiye İbrahim'in dinini izleme emri.
+- 16:125: ref ¶2 - Rabbin yoluna hikmetle çağırma buyruğu.
+- 17:9: ref ¶5 - Kur'an'ın daha doğru olana yol göstermesi.
+- 17:15: ref ¶6 - hidayet ile sapmanın kişinin kendisine dönmesi.
+- 17:71: not relevant - imamla çağrılma, bir halkın hangi yolu izlediğini söylemez.
+- 18:64: prose ¶5 - Musa ile arkadaşının kendi izlerinden geri dönmesi.
+- 18:66: ref ¶2 - Musa'nın öğrenmek için bilen kişinin ardından gitme isteği.
+- 19:36: cited ¶8; ref ¶1 - kulluğun dosdoğru yol diye söylenmesi.
+- 19:43: prose ¶2 - İbrahim'in babasına «bana uy, seni yola ileteyim» sözü.
+- 20:53: ref ¶1 - yeryüzüne insanlar için geçilecek yollar yerleştirilmesi.
+- 20:79: prose ¶8 - Firavun'un kavmini saptırıp ona hidayet etmemesi.
+- 20:123: prose ¶6 - gelen hidayete uyanın sapmaması.
+- 20:135: ref ¶3 - düzgün sıratın ehli ile hidayete erenin beraber anılması.
+- 21:31: ref ¶1, ¶7 - dağ geçitlerinde yol bulmaya elverişli yollar.
+- 21:73: ref ¶2 - Allah'ın buyruğuyla hidayet eden önderler.
+- 22:24: ref ¶7 - güzel söze ve övülen Rabbin yoluna iletilme.
+- 22:25: ref ¶8 - Allah'ın yolu ile Mescid-i Harâm'a geçişin engellenmesi.
+- 22:54: ref ¶7 - inananların dosdoğru yola iletilmesi.
+- 22:67: ref ¶2 - hidayet üzerinde duran Elçiye Rabbe çağırma emri.
+- 23:53: ref ¶6 - tek ümmetten sonra işi fırkalara ayırma.
+- 23:73: ref ¶2 - Elçinin insanları dosdoğru sırata çağırması.
+- 24:46: ref ¶5, ¶7 - açıklanmış ayetlerin ardından Allah'ın sırata iletmesi.
+- 25:27: prose ¶8 - Elçiyle yol tutmama pişmanlığı.
+- 25:29: context ¶8 (in 25:27) - dostun gelen hatırlatmadan saptırması.
+- 27:63: ref ¶5 - kara ve deniz karanlığında kimin yön gösterdiği sorusu.
+- 28:22: cited ¶7; ref ¶2, ¶5 - Musa'nın yolun ortasına iletilme isteği.
+- 29:29: ref ¶1 - Lût'un kavminin geçilen yolu kesmesi.
+- 29:69: context ¶7 (in 5:16) - Allah'ın çoğul yollarına hidayet vaadi.
+- 30:32: ref ¶6 - dinin parçalanıp hiziplere ayrılması.
+- 32:24: ref ¶2 - sabırla önder kılınanların Allah'ın emriyle yol göstermesi.
+- 33:67: ref ¶8 - itaat edilen büyüklerin topluluğu yoldan saptırması.
+- 34:6: ref ¶5, ¶7 - indirilen hakikatin Rabbin yoluna iletmesi.
+- 34:18: ref ¶1, ¶7 - yerleşimler arasında ölçülmüş güvenli yolculuk.
+- 34:19: ref ¶7 - güvenli sefer düzenini bozanların parçalanması.
+- 36:3: not relevant - elçilik unvanı tek başına yolun mekanizmasını söylemez.
+- 36:4: ref ¶2 - Elçinin kendisinin dosdoğru yolda bulunması.
+- 36:59: cited ¶8; nowhere else - hüküm günündeki ayrılış orada açıklanır.
+- 36:60: ref ¶8 - kullukta şeytanın açık düşman diye ayrılması.
+- 36:61: cited ¶8; ref ¶1 - kulluk ile sıratın doğrudan bağlanması.
+- 36:62: cited ¶8; ref ¶6 - şeytanın birçok insanı saptırması.
+- 37:23: cited ¶8; ref ¶2 - hidayet fiilinin cehennem yoluna da yöneltilebilmesi.
+- 37:118: ref ¶7 - Musa ve Hârûn'un sırata iletilmesi.
+- 38:22: ref ¶3, ¶5 - davalıların adil hükümle yolun ortasına iletilmeyi istemesi.
+- 40:29: ref ¶8 - Firavun'un doğru yol iddiası, gerçek hidayet garantisi değil.
+- 40:38: ref ¶2 - inanan kişinin kavmine «bana uyun, sizi ileteyim» demesi.
+- 41:6: ref ¶2 - tek Rabbe doğru istikamete çağrı.
+- 41:17: ref ¶6 - Semûd'un gösterilen hidayete karşı körlüğü sevmesi.
+- 41:30: ref ¶7 - Rablerini söyledikten sonra doğrultuyu koruyanlar.
+- 42:15: ref ¶2 - çağıranın kendi istikametini de koruması.
+- 42:52: prose ¶2 - vahiy nuruyla ilahî hidayet ve Elçinin sırata çağrısı.
+- 43:10: ref ¶1 - yeryüzünde geçilecek yolların konması.
+- 43:22: prose ¶4 - atalarının izini izlemeyi hidayet sayan iddia.
+- 43:37: ref ¶6, ¶8 - saptırılanların yine de kendilerini hidayette sanması.
+- 43:43: ref ¶2 - vahye sıkı tutunma ile sıratta kalma.
+- 43:64: cited ¶8; ref ¶1 - İsa'nın kulluğu dosdoğru sırat sayması.
+- 45:18: ref ¶5 - verilen düzene uyup hevesleri izlememe.
+- 46:13: ref ¶7 - Rabbe inanıp istikamet üzere kalanların devamı.
+- 46:30: ref ¶7 - vahyin hakka ve dosdoğru yola iletmesi.
+- 47:25: ref ¶8 - hidayet açıklanınca gerisin geri dönme.
+- 47:32: ref ¶8 - hidayet açıklanınca Allah'ın yolunu kesme.
+- 48:2: ref ¶7 - nimet tamamlanması ve sırata iletilme.
+- 48:20: ref ¶7 - müminlere verilen işaretin sırata iletilmeyle bağlanması.
+- 57:28: ref ¶5 - müminlere yürüyebilecekleri nur verilmesi.
+- 67:22: prose ¶1, ref ¶3 - bedensel yürüyüş ve dosdoğru sırat.
+- 71:20: ref ¶1 - yeryüzünde geniş yollardan geçme.
+- 72:16: ref ¶2, ¶7 - yol üzerinde istikameti sürdürme.
+- 76:3: ref ¶6 - gösterilen yola karşı şükür yahut inkâr seçimi.
+- 80:20: not relevant - kolaylaştırılan «sebîl» burada çiğnenmiş yol diye belirlenmez.
+- 90:10: ref ¶6 - insanın önüne iki yüksek yolun konması.
+- 93:7: cited ¶8; ref ¶6 - dâll bulunup hidayete erdirilmesi, fizikî arazi belirtilmez.
+- 2:143: ref ¶4 - kıblede Elçiye uyanla geriye dönenin ayrılması.
+- 2:256: not relevant - kopmayan kulp benzetmesi, yolun izi veya yönüyle kurulmamış.
+- 4:26: ref ¶4 - öncekilerin yollarına iletilme vaadi.
+- 5:48: prose ¶7 - Allah'ın topluluklara ayrı hukuk ve yol vermesi.
+- 7:158: ref ¶2 - Elçiye uyulmasının hidayete bağlanması.
+- 7:159: ref ¶4 - Musa'nın halkından hakla hidayet eden topluluk.
+- 7:181: ref ¶4 - hakla hidayet eden topluluk.
+- 9:100: ref ¶4 - öne geçenlerin ardından iyilikle gelenler.
+- 12:38: ref ¶4 - Yusuf'un peygamber atalarının dinine uyması.
+- 15:76: ref ¶7 - eski yerleşimin geçilen yol üzerinde kalması.
+- 15:79: ref ¶7 - cezalandırılan iki yerin açık güzergâhta bulunması.
+- 16:68: not relevant - arının yuva edinmesi söylenir, hidayet veya yol henüz yoktur.
+- 17:72: ref ¶8 - körlüğün öteki hayatta daha şaşmış yola dönüşmesi.
+- 18:17: ref ¶6 - Allah'ın hidayeti ve saptırması karşıtlığı.
+- 19:58: ref ¶4 - nimet verilen peygamber soyu ve ilahî seçiliş.
+- 20:47: ref ¶2 - Musa ile Hârûn'un çağrısında hidayete uyma.
+- 20:77: ref ¶1, ¶7 - denizde kavim için kuru yol açılması.
+- 24:54: ref ¶2 - Elçiye itaatin hidayete götürmesi.
+- 25:28: context ¶8 (in 25:27) - Elçiyle yol yerine seçilen dosttan duyulan pişmanlık.
+- 25:34: ref ¶8 - yüzüstü cehenneme sürülenlerin daha sapmış yol sahibi sayılması.
+- 25:57: ref ¶2 - isteyenin Rabbine doğru yol tutması.
+- 25:63: not relevant - kulların yürüyüşü ahlâkî bir tavırdır, çiğnenmiş yol söylenmez.
+- 26:63: ref ¶7 - Musa'nın önündeki denizin geçit oluşturacak biçimde ayrılması.
+- 28:56: prose ¶2 - sevilen kişiye hidayetin Elçinin elinde olmaması.
+- 30:30: ref ¶5 - yüze yön verilen dosdoğru din.
+- 30:43: ref ¶5 - geri dönüşsüz günden önce dosdoğru dine yönelme.
+- 31:15: ref ¶4 - Allah'a dönen kişinin yolunu izleme buyruğu.
+- 31:19: not relevant - yürüyüşte ölçü, Fâtiha'nın yön veren sıratını açıklamaz.
+- 37:22: ref ¶8 - cehennem yoluna götürülenlerin taptıklarıyla toplanması.
+- 37:99: ref ¶2 - İbrahim'in Rabbe gidişi ve O'ndan hidayet beklemesi.
+- 42:13: ref ¶6 - dinin ayakta tutulup onda dağılmaması.
+- 43:23: context ¶4 (in 43:22) - ataların izine uyma iddiasının elçilere karşı tekrar edilmesi.
+- 43:61: ref ¶8 - uyma buyruğunun dosdoğru sıratla bağlanması; konuşan adlandırılmaz.
+- 90:11: not relevant - sarp yokuşa giriş, ayakların aşındırdığı kolay zeminle özdeş değildir.
+- 98:5: ref ¶5 - yalnız Allah'a kulluk ve dosdoğru dinin beraberliği.
+- 109:6: not relevant - karşılıklı din aidiyeti, yolun ortası veya yürüyüşü hakkında bir şey söylemez.
+- 2:170: ref ¶4 - ataları hidayetsiz olsa da izlemekte ısrar.
+- 2:257: ref ¶8 - Allah'ın aydınlığa, tâğûtun karanlığa çıkaran karşıt yönleri.
+- 5:104: ref ¶4 - hidayetsiz ataların yaptığını yeterli sayma.
+- 19:59: ref ¶6 - nimet verilenlerin ardından gelip namazı terk ederek hevese uyma.
+- 23:74: ref ¶8 - ahirete inanmayanların sırattan yana sapması.
+- 28:50: ref ¶8 - Allah'tan hidayet almadan hevese uymanın sapması.
+- 31:21: ref ¶4 - vahiy yerine ataların yoluna uyma ısrarı.
+- 37:70: ref ¶4 - sapmış ataların izine koşulması.
+- 38:26: ref ¶8 - hevese uymanın Allah'ın yolundan saptırması.
+- 43:24: context ¶4 (in 43:22) - daha iyi hidayet teklifinin ataların izi uğruna reddi.
+- 61:5: ref ¶6 - kavmin sapışından sonra kalplerinin saptırılması.
+- 3:49: not relevant - İsa'nın mucizeleri gösterilir, izlenecek yol henüz söylenmez.
+- 3:50: ref ¶8 - İsa'nın kulluk-yol sözünden önce Allah'tan korkup ona itaat çağrısı.
+- 3:52: not relevant - havarilerin yardım cevabı, yürünecek yolun niteliğini eklemez.
+- 3:53: ref ¶4 - havarilerin indirilen şeye inanıp Elçiye uyduklarını söylemesi.
+- 6:69: not relevant - hesap yükümlülüğü, yolunu yitiren kişinin yönüyle bağlanmaz.
+- 6:70: not relevant - dini oyun edinmeye ilişkin uyarı, yolcunun arayışını geliştirmez.
+- 6:72: ref ¶8 - 6:71'in hidayet çağrısını namaz ve takva buyruğunun izlemesi.
+- 6:73: not relevant - yaratılış ve hüküm gününün bilgisi, yol sahnesine doğrudan bağlanmaz.
+- 6:151: prose ¶7 - sırat emrinden önce sıralanan somut davranışlar.
+- 6:152: context ¶7 (in 6:151) - yetim malı, ölçü, söz ve ahitle ilgili yol davranışları.
+- 6:154: ref ¶7 - Musa'ya verilen kitabın hidayet oluşu.
+- 6:155: ref ¶7 - indirilen kitaba uyma emri.
+- 6:160: not relevant - iyilik ve kötülük hesabı, bu bölümün yol imgesine yeni bağ kurmaz.
+- 6:162: ref ¶5 - 6:161'deki dinin namaz, ibadet ve bütün hayatı kapsaması.
+- 6:163: ref ¶5 - hayatın Allah'a adanmasının ortak tanımama buyruğuyla sürmesi.
+- 7:14: not relevant - İblis'in mühlet isteği, pusu kurduğu yolun işleyişini söylemez.
+- 7:15: not relevant - verilen mühlet, yol üzerindeki saptırma eylemini açıklamaz.
+- 7:18: ref ¶8 - İblis'i izleyenlerin cehenneme varması.
+- 7:19: not relevant - Âdem'e ağaç yasağı, yolun dört yanından gelen pusu değildir.
+- 16:13: not relevant - yeryüzündeki renk çeşitliliği, yol işareti diye belirtilmez.
+- 16:14: not relevant - denizin gemilere ve nimete açılması, yol bulma işaretiyle kurulmaz.
+- 16:17: not relevant - yaratıcıyla yaratamayanın kıyası, burada yön bulma sahnesi değil.
+- 16:18: not relevant - sayılamayan nimet, yolların nişanı veya yönü değildir.
+- 19:34: not relevant - İsa'nın kimliği belirlenir, kulluk-yol ilişkisine ekleme yapmaz.
+- 19:35: not relevant - çocuk edinme reddi, yürünecek yolun mekanizması değil.
+- 19:37: ref ¶6 - İsa'nın kulluk çağrısından sonra hiziplerin ayrılması.
+- 19:38: ref ¶8 - zulmedenlerin bugün apaçık sapmada kalması.
+- 28:20: not relevant - Musa'ya kaçma uyarısı, yolun ortasına hidayetin anlamını değiştirmez.
+- 28:21: not relevant - Musa'nın korkuyla çıkışı, 28:22'nin yön isteğine bağlamdır ama kendi yol çizmez.
+- 28:23: ref ¶7 - Musa'nın Medyen suyuna varması, istenen yolun ulaştığı yer.
+- 28:24: not relevant - sulamadan sonraki yardım duası, yol yönünü işlemez.
+- 36:57: not relevant - cennet meyveleri, suçluların ayrıldığı yolu açıklamaz.
+- 36:58: not relevant - cennetliklere selâm, ayrılış buyruğunun yönünü açıklamaz.
+- 36:63: ref ¶8 - şeytanın saptırdığı kalabalığın varacağı cehennemin gösterilmesi.
+- 36:64: not relevant - cehenneme girme buyruğu, varış zaten 36:63 ile belirtilir.
+- 37:21: not relevant - fasıl gününün adı, cehennem yolunun yönünü eklemez.
+- 37:24: ref ¶8 - cehennem yoluna yöneltilenlerin durdurulup sorgulanması.
+- 37:25: not relevant - yardımlaşmama sorusu, hidayet fiilinin yönünü değiştirmez.
+- 43:62: ref ¶8 - şeytanın yoldan çevirmesine karşı uyarı.
+- 43:63: ref ¶8 - İsa'nın hikmetle gelip itaat istemesi, ardından kulluğu yol diye tanıtması.
+- 43:65: ref ¶6 - İsa'nın çağrısından sonra hiziplerin ayrılması.
+- 43:66: not relevant - saatin ansızın gelişi, yol yahut kılavuz bağı kurmaz.
+- 93:5: not relevant - Rabbin vereceği vaat, 93:7'deki sapma-hidayet çiftini açmaz.
+- 93:6: ref ¶8 - barındırılan yetim yakın bağlamı, 93:7'nin açık arazi anlatmadığını gösterir.
+- 93:8: ref ¶8 - zenginleştirilen yoksul yakın bağlamı, 93:7'nin açık arazi anlatmadığını gösterir.
+- 93:9: not relevant - yetime davranış buyruğu, yol kaybı imgesine eklenmez.
+- 2:2 own: ref ¶2 - kitabın takva sahipleri için hidayet oluşu.
+- 2:5 own: not relevant - hidayet üzerinde oluş söylenir, yolun izi veya kılavuzluk eylemi açılmaz.
+- 2:16 own: ref ¶6 - hidayeti verip sapmayı alma karşıtlığı.
+- 2:185 own: ref ¶5 - Kur'anın insanlar için hidayet ve açık deliller oluşu.
+- 3:31 own: ref ¶2 - Elçiye uymanın Allah'a sevgiye bağlanması.
+- 3:105 own: ref ¶6 - açık delilden sonra ayrılığa düşmeme.
+- 6:84 own: ref ¶4 - daha önce hidayet edilen peygamberlerin adları.
+- 6:88 own: ref ¶4 - o peygamberlerin yönünün Allah'ın hidayeti diye tanımlanması.
+- 7:10 own: not relevant - yeryüzündeki geçim, yol açma veya yön bulma sahnesi içermez.
+- 10:9 own: ref ¶2 - iman edenlerin Rableri tarafından nimet bahçelerine iletilmesi.
+- 10:108 own: ref ¶6 - hidayet ve sapmanın sorumluluğunun kişiye dönmesi.
+- 18:10 own: not relevant - gençlerin işlerinde doğru çözüm duası, sırat yahut yürüyüş değildir.
+- 18:24 own: ref ¶2 - Rabbin daha doğruya iletmesi için dilek.
+- 20:50 own: not relevant - her yaratılana verilen genel hidayet, burada insanın tutacağı yol değildir.
+- 21:51 own: not relevant - İbrahim'e önce verilen rüşd, izlenebilir yol anlatmaz.
+- 23:51 own: not relevant - elçilere iyi işler emri, yol yahut ona uyma ilişkisini kurmaz.
+- 23:52 own: ref ¶6 - peygamberlerin tek ümmet oluşu, ardından gelen parçalanmanın zemini.
+- 24:35 own: ref ¶2 - Allah'ın nuruna dilediğini iletmesi.
+- 26:62 own: ref ¶7 - deniz önündeki Musa'nın Rabbinin yol göstereceğini söylemesi.
+- 26:78 own: not relevant - Yaratanın genel hidayeti söylenir, burada güzergâh açılmaz.
+- 28:49 own: ref ¶2 - daha çok hidayet eden kitap gelirse ona uyma sözü.
+- 29:67 own: not relevant - güvenli haram bölge, hidayete gösterilen yolun varış yeri diye anılmaz.
+- 39:18 own: ref ¶2 - duyduğu sözün en güzeline uyanların hidayet edilmiş sayılması.
+- 40:39 own: ref ¶2 - doğru yola çağıranın hemen sonra ahireti kalıcı yurt diye adlandırması.
+- 40:40 own: not relevant - salih amel sahiplerinin cenneti, 40:38'deki kılavuz eylemine ayrıca bağlanmaz.
+- 42:53 own: ref ¶2 - dosdoğru sıratın Allah'a ait oluşu ve işlerin O'na varması.
+- 48:29 own: not relevant - Elçinin yanındakilerin vasıfları var; izlenen yön veya hidayet yok.
+- 58:22 own: not relevant - akrabalık sınırları ve Allah'ın hizbi, bu bölümün yol eylemini açmaz.
+- 59:10 own: ref ¶4 - sonra gelenlerin imanda öncülleri anması.
+- 81:28 own: ref ¶2 - istikamete yönelme iradesinin anılması.
+- 81:29 own: ref ¶2 - bu iradenin âlemlerin Rabbinin dilemesine bağlı kılınması.
+- 96:11 own: not relevant - eksiltili koşulda hidayet anılır, yolun sahnesi kurulmaz.
+- 96:12 own: not relevant - takva buyruğu tek başına yolun yönünü vermez.
+- 4:67 own: not relevant - önceki itaate ödül söylenir, sırat yahut topluluk adlandırılmaz.
+- 4:70 own: not relevant - nimetin Allah'tan geldiği tekrar edilir, 4:69'daki yoldaşlar açılmaz.
+- 4:71 own: not relevant - sefer hazırlığı, hidayet yolunun izleği değildir.
+- 10:23 own: not relevant - kurtarılıştan sonraki azgınlık, esenlik yurdunun yolu diye anlatılmaz.
+- 10:24 own: not relevant - dünya hayatının bitki benzetmesi, 10:25'teki yolun yönünü belirtmez.
+- 10:26 own: ref ¶2 - esenlik yurdu davetinin hemen ardından cennet ehlinin anılması.
+- 10:27 own: not relevant - kötü işlerin cezası, 10:25'teki hidayet yolunun ayrı bir kolu diye anlatılmaz.
+- 19:41 own: context ¶2 (in 19:43) - babasına yol öneren konuşanın İbrahim oluşu.
+- 19:42 own: context ¶2 (in 19:43) - konuşmanın babanın işitmeyen ve görmeyene kulluğu içinde geçmesi.
+- 19:44 own: ref ¶8 - İbrahim'in babasını şeytana kulluktan sakındırması.
+- 19:45 own: not relevant - baba için duyulan ceza endişesi, yol yahut rehberliği eklemez.
+- 28:54 own: not relevant - sabredenlerin ödülü, 28:56'daki hidayet sınırını açıklamaz.
+- 28:55 own: not relevant - boş sözden yüz çevirme, hidayet fiilinin öznesini değiştirmez.
+- 28:57 own: ref ¶2 - «seninle hidayete uyarsak» diyerek Elçiye beraberlikten söz edilmesi.
+- 28:58 own: not relevant - yok edilen yerleşimler, Elçiye uymanın yolunu göstermez.
+- 43:20 own: not relevant - yanlış kulluğa kader gerekçesi, ataların izi savını kendisi işlemez.
+- 43:21 own: ref ¶4 - atalardan gelen iddiaya önce kitap dayanağı sorulması.
+- 43:25 own: not relevant - önceki yalanlayıcıların cezası, izlenen izin niteliğini eklemez.
+- 67:20 own: not relevant - Allah dışında yardım edecek ordu sorusu, yürüyüş kıyasına bağlanmaz.
+- 67:21 own: not relevant - rızık sorusu, sırat üzerindeki yürüyeni tarif etmez.
+- 67:23 own: not relevant - işitme ve görme verilmesi, yol nişanlarının kullanımı diye anlatılmaz.
+- 67:24 own: not relevant - yeryüzüne yayılma ve haşir, 67:22'nin bedensel yürüyüşünü açmaz.
+- 18:62 own: not relevant - yol yorgunluğu, izden geri dönme kararının işaretini açıklamaz.
+- 18:63 own: context ¶5 (in 18:64) - unutulan balık ve kaya, dönüşün aranan yeri.
+- 18:65 own: not relevant - bilgi verilen kula rastlama, 18:64'teki geri izlemeyi yeni yönden anlatmaz.
+- 18:67 own: ref ¶2 - izlenecek kişinin Musa'ya sabır sınırı bildirmesi.
+- 2:168 own: ref ¶4 - şeytanın adımlarını izlememe buyruğu, her izi güvenilir kılmaz.
+- 2:169 own: not relevant - kötülük buyruğu, 2:168'deki adım benzetmesine yeni yön eklemez.
+- 2:171 own: not relevant - duymayanın benzetmesi, yolcu ve kılavuz sahnesi değildir.
+- 20:121 own: ref ¶6 - Âdem'in yanılmasının ardından hidayet gelmesi.
+- 20:122 own: ref ¶6 - yanılmadan sonra Allah'ın Âdem'i seçip iletmesi.
+- 20:124 own: ref ¶8 - hatırlatmadan yüz çevirenin kör olarak diriltilmesi.
+- 20:125 own: not relevant - körlüğe şaşkınlık sorusu, yolun yönü hakkında ek vermez.
+- 5:47 own: not relevant - İncil ehlinin hükmü, topluluklara verilen yolun çeşitliliğini açmaz.
+- 5:49 own: ref ¶7 - vahye göre hüküm verirken hevesleri izlememe buyruğu.
+- 5:50 own: not relevant - Allah'ın hükmü ile cahiliye hükmü sorusu, yolların sayısı hakkında değildir.
+- 37:68 own: ref ¶8 - yanlış izi sürdürenlerin sonunda cehenneme dönüşü.
+- 37:69 own: ref ¶4 - izlenen ataların açıkça sapmış diye nitelenmesi.
+- 37:71 own: ref ¶6 - öncekilerin çoğunun sapmış oluşu.
+- 37:72 own: not relevant - uyarıcılar gönderildiği söylenir, yolun izi ayrıca anlatılmaz.
+- 6:89 own: ref ¶4 - önceki peygamberlere kitap, hüküm ve nübüvvet verilmesi.
+- 6:91 own: ref ¶5 - Musa'nın kitabının insanlar için nur ve hidayet oluşu.
+- 6:92 own: not relevant - kitabın öncekini doğrulaması, izlenecek yol eylemini ayrıca söylemez.
+- 40:37 own: ref ¶8 - Firavun'un yolun dışına çevrildiğinin bildirilmesi.
+- 42:51 own: not relevant - vahyin gelişi açıklanır, dosdoğru yola iletme fiili 42:52'dedir.

@@ -1,0 +1,235 @@
+- 2:21: ref ¶51 - yaratılmış insanın Rabbine kulluğu, sahiplikten hizmete geçer
+- 2:38: ref ¶53 - Allah'ın hidayetine uyanın korku ve hüzünden korunması
+- 2:71: ref ¶51 - tarla işi görmemiş inek, uysal bineğe karşı örnektir
+- 2:196: not relevant - hediy kurbanlıktır; sürü öncüsü anlamındaki hâdî değildir
+- 5:2: ref ¶51 - gerdanlık kurbanlık hayvanı görünür kılar
+- 5:4: ref ¶51 - eğitilmiş av hayvanı insan için av tutar
+- 5:95: ref ¶52 - av hayvanına karşılık evcil sürü hayvanı verilir
+- 5:97: ref ¶51 - gerdanlıklı kurbanlığın tanınan statüsü
+- 5:103: not relevant - reddedilen hayvan adlandırmaları kayıp deveye ilişkin değildir
+- 6:38: prose ¶52 - yabanî hayvan toplulukları da Rablerine toplanır
+- 6:71: prose ¶53 - şaşkın kalanı arkadaşları hidayete çağırır
+- 6:136: not relevant - ortaklara ayrılan kurban payları sürünün başıboşluğunu açıklamaz
+- 6:138: not relevant - uydurma beslenme yasakları ve binmeme kuralları başka meseledir
+- 6:142: ref ¶51 - hayvanların bir kısmı yük taşır
+- 6:153: ref ¶53 - izlenen tek yol ile dağıtan yollar ayrılır
+- 7:73: prose ¶52, ref ¶51 - sahibi adıyla bildirilen deve Allah'ın toprağında otlar
+- 7:77: not relevant - deveyi öldürme sahnesi kaybolma veya sürü takibi değildir
+- 7:179: cited ¶54; ref ¶53 - hayvandan daha şaşkın insan karşılaştırması
+- 10:24: ref ¶51 - yağmurla biten ot insana ve hayvana yem olur
+- 10:35: prose ¶53 - hakka götürenin izlenmeye layıklığı sorulur
+- 11:6: ref ¶52 - canlının rızkı ve kaldığı yer Allah'ın bilgisindedir
+- 11:56: prose ¶51, ref ¶52 - her canlının perçemi Rabbin kudreti altında anılır
+- 11:64: ref ¶52 - Allah'ın devesi O'nun toprağında otlar
+- 11:65: not relevant - deveyi öldürmenin cezası, kaçmış devenin hâliyle bağ kurmaz
+- 12:39: ref ¶51 - birçok rab ile tek Allah arasında sahiplik sorusu
+- 12:72: not relevant - kayıp eşya kralın kabıdır, deve yalnız ödül ölçüsüdür
+- 14:50: not relevant - katranlı azap giysisi evcil devenin durumunu açıklamaz
+- 16:5: cited ¶54; ref ¶51 - sürü hayvanının sıcaklık ve yararı
+- 16:6: cited ¶54; ref ¶51 - sürünün salınması ve dönüşü
+- 16:7: cited ¶54; ref ¶51 - hayvanın uzak yere yük taşıması
+- 16:8: prose ¶54, ref ¶51 - yol ayetinden önce binilen hayvanlar anılır
+- 16:9: cited ¶54; ref ¶53 - doğru yol ve yana sapan yol
+- 16:10: prose ¶54, ref ¶51 - yolun ardından yağmur ve otlatma gelir
+- 16:66: ref ¶51 - hayvanın içinden süt içirilir
+- 16:68: ref ¶51 - arının barınacağı yerin Rab tarafından bildirilmesi
+- 16:69: prose ¶51 - arı Rabbinin kolaylaştırdığı yolları izler
+- 16:75: not relevant - köle benzetmesindeki abd ile katranlı deve ortak kökten öte sahne paylaşmaz
+- 16:80: ref ¶51 - sürü hayvanının derisi ve yünü taşınabilir barınak olur
+- 17:59: not relevant - işaret olarak verilen deve fizikî mülkiyet damgası taşımaz
+- 17:71: not relevant - insanların imamlarıyla çağrılması öncünün yol göstermesini belirtmez
+- 18:66: ref ¶53 - Musa, doğru bilgiyi öğrenmek için birine uyma izni ister
+- 19:36: ref ¶53 - Rabbe kulluk dosdoğru yol diye adlandırılır
+- 19:43: ref ¶53 - İbrahim babasını kendisine uyup düzgün yola gelmeye çağırır
+- 20:18: ref ¶51 - Musa sürüsüne değneğiyle yaprak düşürür
+- 20:53: prose ¶54 - yol, yağmur, bitki sırası otlatma buyruğuna varır
+- 20:54: ref ¶51; context ¶54 (in 20:53) - hayvan otlatma buyruğu orada anılır
+- 20:123: prose ¶53 - Allah'ın hidayetine uyan sapmaz
+- 21:73: ref ¶53 - Allah'ın emriyle yol gösteren önderler
+- 21:78: ref ¶52 - sahibi belli koyunlar ekili alana yayılır
+- 22:28: ref ¶51 - sürü hayvanı Allah'ın rızkı olup yenir ve yoksula verilir
+- 22:34: ref ¶51 - sürü hayvanı Allah'ın verdiği rızık olarak anılır
+- 22:36: ref ¶51 - develer boyun eğdirilir ve insana yarar sağlar
+- 22:37: not relevant - kurban etinin ve kanının Allah'a ulaşmaması sürü-yol sahnesini geliştirmez
+- 23:21: ref ¶51 - hayvanın içeceği, yemeği ve birçok yararı
+- 23:22: ref ¶51 - hayvan sırtında taşınma
+- 23:73: ref ¶53 - elçi insanları dosdoğru yola çağırır
+- 24:45: not relevant - canlıların farklı ayaklarla yürümesi binek yönlendirmesi değildir
+- 24:46: not relevant - canlıların yürüyüşünden sonraki genel hidayet sözü sürü sahnesi kurmaz
+- 25:44: cited ¶54; ref ¶53 - hayvanlara benzetilen insanda yol kaybı
+- 25:49: ref ¶51 - yağmur hayvanlara içecek olur
+- 26:78: ref ¶53 - yaratanın aynı zamanda yol gösteren olması
+- 26:79: not relevant - İbrahim'in yedirilip içirilmesi sürünün bakımına ilişkin değildir
+- 26:155: ref ¶51, ¶52 - Allah'ın devesine ayrılmış su içme vakti
+- 26:157: not relevant - deveyi öldürme sahnesi yiten hayvanın bulunmasına bağlanmaz
+- 27:18: ref ¶51 - karınca topluluğuna kendi içinden uyarı gelir
+- 28:23: ref ¶51 - su başında hayvanları bekletme
+- 28:24: ref ¶51 - bekletilen sürünün sulanması
+- 29:60: ref ¶52 - rızkını taşımayan canlıya Allah'ın rızık vermesi
+- 32:24: ref ¶53 - sabreden önderlerin Allah'ın emriyle kılavuzluğu
+- 32:27: ref ¶51 - su sürülen kurak yerden hayvana yem çıkması
+- 36:20: ref ¶53 - topluluğu elçilere uymaya çağıran adam
+- 36:21: ref ¶53 - uyulacak elçilerin kendilerinin doğru yolda olması
+- 36:61: ref ¶53 - Allah'a kulluğun düz yol olması
+- 36:71: cited ¶54; ref ¶51 - yaratılmış hayvanın insana ait olması
+- 36:72: cited ¶54; ref ¶51 - hayvanın boyun eğdirilip binilmesi
+- 36:73: ref ¶51, ¶54 - aynı hayvandan yarar ve içecek alınması
+- 39:6: ref ¶51 - hayvan çiftlerinin yaratıcısı Rab ve mülk sahibidir
+- 39:29: prose ¶51 - tek sahibe bağlılık ile çekişen ortaklara bölünme
+- 40:38: ref ¶53 - iman eden adamın kendisine uymaya ve doğru yola çağırması
+- 40:79: ref ¶51 - sürü hayvanlarının binme ve yeme yararı
+- 40:80: ref ¶51 - hayvanların insanı ihtiyaç duyduğu yere taşıması
+- 42:11: not relevant - çiftleşme ve çoğalma, sürünün sahibi veya yoluyla bağ kurmaz
+- 42:52: ref ¶53 - elçinin dosdoğru yola kılavuzluğu
+- 43:10: ref ¶54 - yeryüzündeki yolların yön bulmaya verilmesi
+- 43:12: ref ¶51, ¶54 - hayvanın binek kılınması yol sahnesine bağlanır
+- 43:13: ref ¶51 - bineğin sırtında onu boyun eğdiren Rabbi anma
+- 43:14: ref ¶51 - binek anışının Rabbe dönüş sözüyle bitmesi
+- 43:64: ref ¶53 - Rabbe kulluğun dosdoğru yol olması
+- 46:30: ref ¶53 - işitilen kitabın hakka ve düz yola iletmesi
+- 48:25: not relevant - engellenmiş kurbanlık, sürüden kopan deve veya yol kılavuzu değildir
+- 54:24: ref ¶53 - tek insana uymayı sapma sanan karşı söz
+- 54:27: ref ¶52 - Allah'ın deveyi sınama olarak göndermesi
+- 54:28: ref ¶51 - deveyle insanlar arasında bölüşülen su
+- 54:29: not relevant - deveyi öldürme, başıboş devenin yön bulmasıyla ilgili değildir
+- 67:22: ref ¶53 - düzgün yolda yürüme ile yüzüstü yürüme karşılaştırılır
+- 68:16: not relevant - cezalandırma damgası hayvanın sahibini bildiren işaret değildir
+- 72:2: ref ¶53 - doğruya ileten Kur'an'ı işitip iman edenler
+- 72:14: ref ¶53 - doğruyu arayanlarla sapanlar ayrılır
+- 74:50: prose ¶52, ref ¶54 - yaban eşeklerinin kaçışı hatırlatmadan kaçana benzer
+- 74:51: context ¶52 (in 74:50); ref ¶54 - kaçışın sebebi orada anılır
+- 76:3: ref ¶53 - insana gösterilen yol ve karşısındaki tercih
+- 79:31: ref ¶51 - yeryüzünden su ve otlak çıkarılması
+- 79:33: ref ¶51 - otlağın insana ve sürü hayvanına geçim olması
+- 80:31: ref ¶51 - yiyeceklerle birlikte ot çıkarılması
+- 80:32: ref ¶51 - otun insana ve hayvana geçim olması
+- 81:5: ref ¶52 - yabani hayvanların toplanması
+- 87:2: ref ¶51 - yaratılanın biçimlendirilmesi
+- 87:3: ref ¶51 - yaratanın ölçü koyup yol göstermesi
+- 87:4: ref ¶51 - otlağın O'nun tarafından çıkarılması
+- 88:17: ref ¶51 - devenin yaratılışını gözlemlemeye çağrı
+- 90:10: ref ¶53 - iki yolun insana gösterilmesi
+- 91:13: ref ¶51, ¶52 - Allah'ın devesinin adı ve su payı
+- 91:14: not relevant - deveyi öldürme, kaçış veya sahip tanımını açıklamaz
+- 92:12: ref ¶53 - hidayetin Allah'a ait olması
+- 93:7: ref ¶53 - şaşkın bulunup yol gösterilme
+- 114:1: ref ¶51 - Allah'ın insanlara Rab olarak anılması
+- 114:2: ref ¶51 - aynı hitapta Allah'ın insanlara Melik olarak anılması
+- 2:108: ref ¶53 - iman yerine inkârı seçenin düzgün yoldan sapması
+- 2:124: ref ¶53 - İbrahim'in insanlara önder kılınması
+- 2:247: ref ¶53 - Tâlût'un topluluğa önder olarak atanması
+- 2:248: not relevant - sandığın kralı tanıtan işareti deve damgası değildir
+- 2:249: ref ¶53 - Tâlût'un topluluğu su sınavından geçirerek ilerletmesi
+- 2:273: not relevant - yoksulların yüzünden tanınması mülkiyet işareti değildir
+- 3:26: ref ¶51 - Allah'ın mülkü verip geri alan mutlak mâlik olması
+- 4:69: ref ¶53 - Allah'a ve elçiye uyanların nimet verilenlerle buluşması
+- 5:20: not relevant - krallar ve nimet, sürünün tek sahibi veya öncüsü sahnesi kurmaz
+- 5:96: not relevant - deniz ve kara avının hükmü evcil ile yabanî sürü ayrımı değildir
+- 6:77: ref ¶53 - Rab yol göstermezse sapıklardan olacağını söyleyen kişi
+- 6:90: ref ¶53 - Allah'ın hidayet verdiği peygamberlerin yoluna uyma
+- 6:144: not relevant - dişi ve erkek deve ayrımı kayıp deve için cinsiyet farkı koymaz
+- 7:16: ref ¶53 - şeytanın düz yolun başında insanları engelleme sözü
+- 7:46: not relevant - kişilerin durumunu gösteren sima sahibini gösteren damga değildir
+- 7:48: not relevant - insanlar simalarından tanınır; sürü mülkiyetiyle ilgisi yoktur
+- 7:157: ref ¶53 - elçiyi ve onunla indirilen nuru izlemenin sonucu
+- 7:158: ref ¶53 - elçiye uyup hidayet bulma buyruğu
+- 7:176: ref ¶54 - arzusuna uyan insanın köpeğe benzetilmesi
+- 7:181: ref ¶53 - hak ile yol gösteren topluluk
+- 7:198: not relevant - hidayet çağrısını işitmeyen putlar sürünün çağrıya tepkisi değildir
+- 12:40: ref ¶51 - tek Allah'a kulluğun çoklu rabler karşısında emredilmesi
+- 12:43: not relevant - kral rüyasında inek görür; ortak sahne kurulmaz
+- 12:65: not relevant - deve yükü tahıl ölçüsüdür, sürüden kopuş yoktur
+- 12:108: ref ¶53 - Allah'a çağıran elçiyle onu izleyenin ortak yolu
+- 13:7: ref ¶53 - her topluluk için yol gösteren anılması
+- 16:18: ref ¶51 - hayvanların yararından sonra nimetin sayılamazlığı
+- 16:36: ref ¶53 - elçi çağrısı ardından hidayet ve sapma ayrımı
+- 16:49: ref ¶51 - yerdeki canlıların Allah'a boyun eğmesi
+- 18:17: ref ¶53 - Allah'ın yol göstermediğine başka rehber bulunmaması
+- 18:61: not relevant - balığın suya yönelmesi sahipsiz deve olarak kalması değildir
+- 18:63: not relevant - unutulan balık bir sahibini veya sürüsünü aramaz
+- 18:64: not relevant - yolcuların geri dönmesi kayıp hayvanın dönüşü değildir
+- 20:47: ref ¶53 - hidayete uyan kişiye esenlik bildirilmesi
+- 20:52: not relevant - Rabbin unutmayışı geçmiş toplulukların bilgisine ilişkindir
+- 22:4: ref ¶53 - şeytana uyanın ateşe yöneltilmesi
+- 22:9: ref ¶53 - eğrilip başkalarını Allah yolundan saptıran kişi
+- 22:33: ref ¶51 - kurbanlık hayvanın yararı belirli süreyle sürer
+- 23:88: ref ¶51 - her şeyin mülkünün Allah'ın elinde olması
+- 24:41: not relevant - kuşların tesbihi sürünün öncüsü veya otlağına bağlanmaz
+- 27:17: ref ¶51 - Süleyman'ın kuşları da içeren topluluğu düzen içinde toplaması
+- 27:20: ref ¶52 - kuşunu yoklayan Süleyman'ın eksikliği fark etmesi
+- 27:22: ref ¶52 - yokluğu fark edilen kuşun haberle dönmesi
+- 28:22: ref ¶53 - yola çıkan Musa'nın Rabbinden düzgün yolu istemesi
+- 30:28: not relevant - ortak koşmayı reddeden insan-mülkiyet örneği sürü sahnesi kurmaz
+- 33:67: ref ¶53 - itaat edilen büyüklerin insanı yoldan saptırması
+- 34:1: ref ¶51 - övgünün göklerin ve yerin sahibine ait olması
+- 36:83: ref ¶52 - her şeyin hükümranlığının Allah'ın elinde olması
+- 37:22: ref ¶53 - yanlış yola sevk edilenlerin toplanması
+- 37:23: ref ¶53 - toplananların cehennem yoluna sevk edilmesi
+- 38:24: ref ¶51 - bir koyunun öteki sahibinden haksız istenmesi
+- 38:26: ref ¶53 - önderin arzusunu izleyerek Allah yolundan sapma tehlikesi
+- 41:17: ref ¶53 - hidayeti alıp körlüğü yeğleyen topluluk
+- 42:29: ref ¶52 - yayılan hayvanları Allah'ın toplayabilmesi
+- 43:54: ref ¶53 - Firavun'a itaat eden kavmin aldatılması
+- 47:12: ref ¶54 - insan yiyişinin hayvan yiyişine benzetilmesi
+- 47:17: ref ¶53 - hidayeti izleyene daha çok hidayet verilmesi
+- 47:25: ref ¶53 - açıklanmış hidayetten geri dönenler
+- 47:30: not relevant - gizli kişileri simalarından tanıma sahiplik damgası değildir
+- 48:29: not relevant - secdenin yüzlerdeki izi hayvanın sahibiyle ilgili değildir
+- 53:2: ref ¶53 - elçinin sapmadığının belirtilmesi güvenilir öncüyü tamamlar
+- 53:23: ref ¶53 - hidayet gelmişken zanna ve hevese uyulması
+- 55:41: not relevant - suçluların tanınma işareti sürü mülkiyeti değildir
+- 62:5: ref ¶54 - kitap taşıyan fakat onu anlamayan insanın yük hayvanına benzetilmesi
+- 67:15: not relevant - uysallaştırılan toprak ile uysallaştırılan deve aynı hareketi yapmaz
+- 72:16: ref ¶54 - yol üzerinde kalana bol su verilmesi
+- 77:33: not relevant - ateş kıvılcımının deveye benzemesi sürü davranışını açıklamaz
+- 87:5: ref ¶51 - otlağın sonra kuru karaltıya dönmesi
+- 93:11: not relevant - nimeti anlatma buyruğu deveye verilen adla sahne paylaşmaz
+- 2:171: ref ¶54 - çağrıyı anlamayanların duyma ve anlama kaybı
+- 35:28: not relevant - doğal renk çeşitliliği sahibini gösteren damga değildir
+- 6:139: not relevant - yiyecek yasağındaki cinsiyet ayrımı kayıp devenin tanımı değildir
+- 6:143: not relevant - koyun ve keçinin çiftleri yitik devenin cinsiyet eşitliğini açıklamaz
+- 7:40: not relevant - iğne deliğinden geçmesi söylenen deve sürü sahnesi kurmaz
+- 20:79: prose ¶53 - Firavun kavmini saptırır, yol göstermez
+- 26:156: ref ¶52 - sahibi bilinen Allah devesine zarar verme yasağı
+- 28:41: ref ¶53 - ateşe çağıran önderler
+- 37:32: ref ¶53 - saptıranların kendilerinin de sapmış olduğunu söylemesi
+- 38:23: ref ¶51 - bir koyunun sahibinden istenmesiyle açılan mülkiyet uyuşmazlığı
+- 81:4: prose ¶52 - gebe develerin kıyamette terk edilmesi
+- 7:177: not relevant - ayetleri yalanlayanın kendine zulmü hayvan benzetmesini doğrudan geliştirmez
+- 7:178: ref ¶54 - hayvandan daha şaşkın insan ayetinden önce hidayet ve sapmanın ayrılması
+- 7:180: not relevant - güzel isimlerle dua buyruğu sürü, sahip ve yol sahnesi değildir
+- 16:3: not relevant - göklerin ve yerin yaratılışı sürünün hususi hareketini açıklamaz
+- 16:4: not relevant - insanın yaratılışı ve tartışması hayvan-yol dizisini değiştirmez
+- 16:11: not relevant - sayılan ekin ve meyveler hayvan otlatma eylemini söylemez
+- 25:42: ref ¶54 - kimin yoldan daha uzak olduğuna dair karşı söz
+- 25:43: prose ¶54 - arzusunu ilâh edinme, hayvandan daha şaşkın insanın hemen önündedir
+- 25:45: not relevant - gölgeye güneşin delil olması başka bir yönlendirme sahnesidir
+- 25:46: not relevant - gölgenin çekilmesi sürü veya yol kaybıyla ilgili değildir
+- 36:69: not relevant - şiir değil Kur'an olduğu sözü hayvan sahipliğiyle ilgili değildir
+- 36:70: not relevant - vahyin uyarı görevi sürüden yola geçişi açıklamaz
+- 36:74: ref ¶54 - hayvanları veren Allah'ın ardından başka ilâh edinilmesi
+- 2:164 own: ref ¶52 - yağmurla dirilen yere her çeşit canlının yayılması
+- 6:164 own: ref ¶52 - Allah'ın her şeyin Rabbi olduğunun açık söylenmesi
+- 16:15 own: ref ¶54 - yerde açılan yolların yön bulmaya verilmesi
+- 16:16 own: ref ¶54 - yer işaretleri ve yıldızla yön bulma
+- 43:11 own: ref ¶54 - yol ile binek arasındaki yağmur ve canlanan toprak
+- 74:49 own: context ¶52 (in 74:50); ref ¶54 - yaban eşeklerine benzetilenlerin hatırlatmadan yüz çevirmesi
+- 74:52 own: not relevant - ayrı ayrı sayfalar isteme, sürünün kaçış sahnesini geliştirmez
+- 36:75 own: not relevant - yardım edemeyen ilâhlar ile onların askerleri hayvan sahipliğine bağlanmaz
+- 22:35 own: not relevant - Allah anıldığında ürperen kullar develerin hareketini açıklamaz
+- 7:74 own: not relevant - kavme verilen yurt ile deve otlağı arasında hususi bir bağ yoktur
+- 20:55 own: not relevant - topraktan yaratılış ve toprağa dönüş hayvan otlatmaya ilişkin değildir
+- 20:122 own: ref ¶53 - Rabbin seçip tövbe kabulünden sonra yol göstermesi
+- 20:124 own: ref ¶53 - hidayet sözüne komşu, hatırlatmadan yüz çevirmenin karşılığı
+- 19:44 own: ref ¶53 - İbrahim'in çağrısında şeytana kulluktan sakınma
+- 27:19 own: not relevant - karınca sözü ardından nimete şükür, sürüde öncülük eklemez
+- 26:154 own: not relevant - mucize isteği henüz devenin otlak ve su sınırını anlatmaz
+- 87:1 own: not relevant - Rabbin adını yüceltme buyruğu otlağın sahnesi değildir
+- 2:37 own: not relevant - Âdem'in aldığı sözler hidayete uyma hükmünü henüz söylemez
+- 2:39 own: ref ¶53 - hidayet vaadine komşu, ayetleri yalanlayanların ters sonu
+- 6:70 own: not relevant - dinini oyun edinen insanın uyarılması şaşkın gezgin sahnesi değildir
+- 6:72 own: not relevant - namaz ve takva buyruğu çağıran arkadaşları anlatmaz
+- 16:67 own: not relevant - hurma ve üzüm ürünleri sürü otlağı değildir
+- 16:70 own: not relevant - insanın yaşlanması arının yollarını açıklamaz
+- 54:30 own: not relevant - azap sorusu devenin su payını artırmaz
+- 81:3 own: not relevant - dağların yürütülmesi develerin terk edilmesiyle özel bağ kurmaz

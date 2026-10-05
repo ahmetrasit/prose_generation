@@ -1,0 +1,57 @@
+{
+  "section": 12,
+  "status": "complete_reviewed",
+  "model": "gpt-6-sol",
+  "effort": "max",
+  "runner": "native collaboration agent",
+  "session": {
+    "agent_path": "/root/s1_aug_sol_12",
+    "agent_id": "01a10c88-3927-7701-95ce-044318297ee8",
+    "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T10-46-56-01a10c88-3927-7701-95ce-044318297ee8.jsonl"
+  },
+  "token_accounting": "omitted at user request",
+  "source_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "response_sha256": "1000f35b43826d511421fa3cc6c0fca5af1d7a9853bacc1d759451e7ed7911cc",
+  "prose": 17,
+  "reference_lines": 3,
+  "verdict_ayat": 361,
+  "completed_at": "2026-10-05T15:33:14.683070+00:00",
+  "parent_review": "Read prose and reference drafts; checked selected canonical ayat and targeted final corrections. Not an exhaustive independent ayah-by-ayah relevance audit. Source conflicts retained separately; distinct neighboring reference links kept.",
+  "parent_review_scope": "Read prose and reference drafts; checked selected canonical ayat and targeted final corrections. Not an exhaustive independent ayah-by-ayah relevance audit.",
+  "turn_events": [
+    {
+      "timestamp": "2026-10-05T14:46:56.666Z",
+      "event": "task_started"
+    },
+    {
+      "timestamp": "2026-10-05T15:13:15.853Z",
+      "event": "task_complete"
+    },
+    {
+      "timestamp": "2026-10-05T15:14:06.008Z",
+      "event": "task_started"
+    },
+    {
+      "timestamp": "2026-10-05T15:15:15.316Z",
+      "event": "task_complete"
+    }
+  ],
+  "native_model_contexts": [
+    {
+      "model": "gpt-6-sol",
+      "effort": "max"
+    }
+  ],
+  "tool_calls_file": "tool_calls.json",
+  "title": "Gözden kaybolmak: yolcuyu götüren yol ve toprakta yitip giden",
+  "paragraphs": [
+    59,
+    60,
+    61
+  ],
+  "discovery_candidates": 273,
+  "context_neighbours": 21,
+  "judged": 361,
+  "own_knowledge_judgments": 67,
+  "distinct_ayat_in_additions": 195
+}

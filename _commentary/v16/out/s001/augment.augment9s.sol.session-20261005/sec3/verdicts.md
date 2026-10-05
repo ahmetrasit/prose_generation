@@ -1,0 +1,361 @@
+- 2:16: cited ¶22; nowhere else - hidayet ve dalâletin zararlı ticareti orada açıklanır.
+- 2:48: ref ¶22 - hiçbir can öbürünün borcunu üstlenemez, bedel alınmaz.
+- 2:86: ref ¶22 - dünya hayatı ahiret karşılığında satın alınır.
+- 2:90: ref ¶17 - vahyi inkârın ardından gazap ve azap gelir.
+- 2:123: ref ¶22 - canların birbirine karşılık veremediği ikinci uyarı.
+- 2:175: ref ¶22 - sapıklığa ek olarak bağışlanma azapla değiştirilir.
+- 2:178: cited ¶22; ref ¶19 - kısas affını iyi usulle ödeme izler.
+- 2:179: ref ¶19 - kısasın hayatı koruyan yönü açıklanır.
+- 2:254: ref ¶22 - alışveriş olmayan günden önce harcama çağrısı.
+- 2:255: ref ¶17 - Allah'ın Hayy ve Kayyûm adı, her şeye sahip oluşu.
+- 2:278: ref ¶22 - ribâ bakiyesinin bırakılması adil anapara hükmünü hazırlar.
+- 2:279: ref ¶18, ¶22 - anapara adil sınır olarak bırakılır.
+- 2:280: context ¶18 (in 2:281), ref ¶22 - güç borcu için süre, ardından dönüş günü.
+- 2:281: prose ¶18, ref ¶15, ¶22 - borç vadesi yanından tam karşılık gününe geçiş.
+- 2:282: cited ¶22; ref ¶18, ¶19 - vadeli deyn ve tanığın unutması.
+- 2:283: ref ¶22 - emanetin ödenmesi ve şahitliğin gizlenmemesi.
+- 2:284: prose ¶22, ref ¶21 - yazılı borç hükmünün ardından gizlinin hesabı.
+- 3:2: ref ¶17 - Hayy ve Kayyûm adı tekrarlanır.
+- 3:18: ref ¶20 - Allah adaletle kaim olarak anılır.
+- 3:25: ref ¶15 - toplanma gününde her canın kazancı tam ödenir.
+- 3:26: prose ¶16 - mülkü verme ve geri alma yetkisi Allah'ındır.
+- 3:30: ref ¶21 - iyi ve kötü işlerin o gün hazır bulunması.
+- 3:77: ref ¶22 - ahdi küçük bedelle satmanın kıyamet sonucu.
+- 3:91: ref ¶22 - yer dolusu altın fidyesi kabul edilmez.
+- 3:161: ref ¶21 - gizlice alınanın kıyamette getirilip herkesin tam karşılanması.
+- 3:162: ref ¶17 - Allah'ın hoşnutluğu ve hoşnutsuzluğu ayrı akıbetlere götürür.
+- 3:177: ref ¶22 - iman yerine küfrü satın alma.
+- 3:187: ref ¶22 - kitabı açıklama ahdini küçük bedelle bozma.
+- 4:40: ref ¶18, ¶21 - zerre kadar haksızlık yok, iyi karşılık katlanır.
+- 4:44: ref ¶22 - sapıklığı satın alıp başkalarını yoldan saptırma isteği.
+- 4:56: not relevant - derilerin değiştirilmesi, kan bedeli yahut adil ikame değil.
+- 4:92: cited ¶22; ref ¶19; context ¶17 (in 4:93) - hataen öldürmede aileye diyet, kastın hükmünden ayrı.
+- 4:93: prose ¶17, ref ¶19 - kasten öldürmeye Allah'ın gazabı ve büyük azap.
+- 4:135: ref ¶20, ¶22 - adaleti ayakta tutan, yakınlara karşı da doğru şahit.
+- 5:8: ref ¶20, ¶22 - düşmanlık karşısında bile adaletli şahitlik.
+- 5:36: ref ¶22 - bütün yerin fidyesi bile kabul edilmez.
+- 5:45: ref ¶19, ¶22 - kısas ve haktan vazgeçme yan yana.
+- 5:60: ref ¶17 - Allah'ın gazabı lanet ve cezalandırmayla birlikte.
+- 6:51: ref ¶22 - toplanma korkusunda Allah'tan başka koruyucu ve şefaatçi yoktur.
+- 6:57: ref ¶16 - hüküm yalnız Allah'ındır; acele istenen karar elçide değildir.
+- 6:62: ref ¶15 - dönüş, hüküm ve hesap Allah'a ait.
+- 6:70: cited ¶22; ref ¶18 - son hesaba bedel sunmanın imkânsızlığı.
+- 6:73: ref ¶16 - sûre üflenen günde mülk Allah'a ait.
+- 6:152: ref ¶20, ¶22 - ölçü ve teraziyi adaletle tamamlama.
+- 6:160: prose ¶18 - iyilik on kat, kötülük misliyle karşılanır.
+- 7:6: ref ¶21 - gönderilen ve kendilerine gönderilenler sorgulanır.
+- 7:7: ref ¶21 - Allah bilerek anlatır, yokluğundan değil.
+- 7:8: ref ¶20, ¶21 - o gün gerçek tartı ve ağır çıkan sonuç.
+- 7:9: ref ¶20, ¶21 - hafif tartının kişiye kaybettirdiği sonuç.
+- 7:85: ref ¶20, ¶22 - Şuayb tam ölçü ve teraziyle hakkı eksiltmemeyi ister.
+- 9:9: ref ¶22 - ayetleri küçük bedelle satmak Allah'ın yolundan uzaklaştırır.
+- 10:54: ref ¶22 - zalim fidye vermek isterken aralarında adaletle hükmedilir; kabul edildiği söylenmez.
+- 10:61: ref ¶21 - zerre kadar iş Rabbin bilgisinden uzak kalmaz.
+- 11:84: ref ¶22 - eksik ölçü, kuşatıcı günün azabı korkusuyla anılır.
+- 11:85: ref ¶20, ¶22 - teraziyi adaletle tam tutma ve insanlara eksik vermeme.
+- 12:40: ref ¶16 - hüküm yalnız Allah'ın, yalnız kendisine kulluk emri O'nundur.
+- 13:18: ref ¶22 - yer dolusu fidye dileğine rağmen kötü hesap.
+- 13:33: prose ¶17 - her canın kazandığı üzerinde kaim olma.
+- 13:41: ref ¶15 - Allah'ın hükmünü geri çeviren yoktur ve hesabı hızlıdır.
+- 14:31: ref ¶22 - alışveriş bulunmayan günden önce verme çağrısı.
+- 14:41: ref ¶22 - İbrahim hesap kurulduğu gün bağışlanma diler.
+- 14:48: ref ¶16 - yer değişirken insanların tek kahredici Allah önünde açığa çıkması.
+- 15:35: not relevant - İblis'e lanetin din gününe dek sürmesi hesabın içeriğini açmaz.
+- 16:106: ref ¶17 - küfre gönül açana Allah'ın gazabı ve azap.
+- 16:111: ref ¶15 - her canın kendisi için konuşup yaptığının tam karşılığını alması.
+- 17:13: ref ¶21 - kıyamette kişinin önüne açılan kayıt.
+- 17:14: ref ¶21 - kendi kitabını okuyan kişiye kendi hesabı yeter.
+- 17:33: prose ¶19 - öldürülenin yakınına yetki ve aşmama sınırı.
+- 17:35: cited ¶22; ref ¶20 - müstakîm terazinin ahlaki ölçü buyruğu.
+- 17:71: ref ¶21 - sağdan kitap alanlar okur ve haksızlığa uğramaz.
+- 18:47: context ¶21 (in 18:49) - kitabın konmasından önce kimse bırakılmadan toplanır.
+- 18:49: prose ¶21 - kitap küçük büyük tüm işleri sayıp hazır eder.
+- 19:93: ref ¶17 - bütün varlık Rahmân'a kul olarak gelir.
+- 19:94: ref ¶17, ¶21 - her birinin sayılması tek tek gelişi hazırlar.
+- 19:95: ref ¶17, ¶21 - herkes kıyamette tek başına gelir.
+- 20:15: ref ¶15 - Saat, canlara çalıştıklarının karşılığı için gelir.
+- 20:81: ref ¶17 - gazap üzerine inenin düşmesi.
+- 20:111: ref ¶17 - yüzler Hayy ve Kayyûm önünde boyun eğer.
+- 21:47: cited ¶21; ref ¶20 - kıyamet için adalet terazileri.
+- 22:56: ref ¶15 - o gün mülk Allah'ındır ve aralarında hükmeder.
+- 23:88: ref ¶16 - bütün varlığın hükümranlığı O'nun elinde.
+- 23:101: ref ¶22 - borudan sonra soy bağı kişisel hesabı taşıyamaz.
+- 23:102: ref ¶20, ¶21 - ağır tartı başarılı akıbet.
+- 23:103: ref ¶20, ¶21 - hafif tartı kişisel kayıp.
+- 23:115: ref ¶16 - yaratılışın dönüşsüz bırakılmadığı sorulur.
+- 23:116: ref ¶16 - dönüşün ardından Allah gerçek hükümdar diye anılır.
+- 24:37: ref ¶22 - gün korkusu ticaretin kulluğu unutturmamasını sağlar.
+- 24:39: ref ¶15 - boşa çıkan işler ardından Allah'ın hesabı tam ödemesi.
+- 25:24: not relevant - cennet ehlinin varacağı yer, mülk ve hesap bağını açmaz.
+- 25:25: ref ¶16 - göğün yarılması gerçek mülk gününün gelişini sahneler.
+- 25:26: cited ¶21; ref ¶16 - o gün gerçek mülk Rahmân'ındır.
+- 26:80: not relevant - İbrahim'in şifa sözü din günü yahut hesabı doğrudan açmaz.
+- 26:81: ref ¶22 - İbrahim ölümden sonra dirilişi anıp din gününe yönelir.
+- 26:82: cited ¶22; ref ¶15 - din gününde bağışlanma beklentisi.
+- 26:181: ref ¶22 - Şuayb eksik ölçmeyi yasaklar.
+- 26:182: cited ¶22; ref ¶20 - doğru terazi ile tartma.
+- 26:183: ref ¶22 - insanların mallarını eksiltmeme, ölçünün toplumsal karşılığı.
+- 28:70: ref ¶15 - hüküm Allah'a, dönüş O'na aittir.
+- 31:16: ref ¶21 - saklı hardal tanesinin ağırlığı bile getirilir.
+- 31:33: ref ¶22 - çocuk ve ebeveyn o gün birbirine karşılık veremez.
+- 34:3: ref ¶21 - Saat inkârına karşı en küçük ağırlığın bile gizli kalmaması.
+- 36:12: ref ¶21 - önden gönderilen işler ve bıraktıkları izler yazılır.
+- 36:51: ref ¶21 - mezardan Rabbe yönelen kalabalık.
+- 36:52: ref ¶21 - diriltilenler Rahmân'ın vaadini tanır.
+- 36:53: ref ¶21 - tek sesle herkes Allah'ın huzuruna getirilir.
+- 36:54: ref ¶15 - o gün kimseye haksızlık edilmez, işinin karşılığı verilir.
+- 36:78: ref ¶17 - çürümüş kemiklerin diriltilmesi sorusu ayağa kalkışın öncülü.
+- 36:79: ref ¶17 - ilk yaratanın yeniden dirilteceği cevabı.
+- 36:83: ref ¶16 - her şeyin hükümranlığı O'nun elinde, dönüş O'na.
+- 37:19: ref ¶16 - tek haykırıştan sonra herkesin bakakalması.
+- 37:20: ref ¶15 - diriltilenlerin din gününü tanıması.
+- 38:16: not relevant - hesabın gününden önce pay isteme alayı hesabın niteliğini açmaz.
+- 38:78: not relevant - İblis'e lanetin din gününe dek sürmesi sadece süre sınırıdır.
+- 39:47: ref ¶22 - zalimlerin azap için bütün yeri fidye etme dileği; ayet kabulünü söylemez.
+- 39:68: ref ¶17 - ikinci sûrdan sonra ayakta bekleyenler.
+- 39:69: ref ¶15, ¶21 - kitap ve tanıklarla hakla hüküm, haksızlık yok.
+- 39:70: ref ¶15, ¶21 - her canın işi tam karşılanır.
+- 40:15: not relevant - buluşma günü uyarısı tek başına mülk veya hesabı açmaz.
+- 40:16: cited ¶21; ref ¶16; context ¶21 (in 40:17) - açığa çıkış ve Allah'a ait mülk.
+- 40:17: prose ¶21, ref ¶15 - egemenlik ilanını adil karşılık ve hızlı hesap izler.
+- 40:18: ref ¶22 - yaklaşan günde zalime sözü geçer şefaatçi bulunmaz.
+- 45:22: ref ¶15 - yaratılışın amacı her canın kazancına adil karşılıktır.
+- 45:26: ref ¶21 - Allah ölümün ardından kıyamet için toplar.
+- 45:27: ref ¶16, ¶21 - Allah'ın mülkü ve Saatte kaybedenler.
+- 45:28: ref ¶21 - her topluluk kitabına çağrılıp yaptığının karşılığını alır.
+- 47:28: ref ¶17 - Allah'ı hoşnutsuz edenin izlenmesi işleri boşa çıkarır.
+- 47:38: not relevant - başka kavimle değiştirme, kan bedeli veya son hesapta fidye değildir.
+- 48:6: ref ¶17 - gazap, lanet ve cehennem birlikte bildirilir.
+- 50:17: ref ¶21 - sağ ve soldaki iki gözetici.
+- 50:18: ref ¶21 - hiçbir söz gözetimsiz çıkmaz.
+- 50:20: ref ¶21 - sûrun çalınması uyarılan günün gelişi.
+- 50:21: ref ¶21 - her can bir sevk edici ve tanıkla gelir.
+- 50:22: ref ¶21 - gaflet örtüsü kalkınca o günün görünmesi.
+- 50:23: not relevant - yakının 'yanımda hazır' sözü neyi sunduğunu tek başına belirlemez.
+- 50:29: ref ¶21 - Allah'ın sözü değişmez, kullara zulmetmez.
+- 51:5: not relevant - genel doğruluk yemini tek başına din veya hesabı anlatmaz.
+- 51:6: cited ¶22; ref ¶15 - karşılığın kesin gerçekleşmesi.
+- 53:31: ref ¶15 - göklerin ve yerin sahibi işlere karşılık verir.
+- 55:7: context ¶20 (in 55:9) - terazinin konması buyruğun başlangıcı.
+- 55:9: prose ¶20, ref ¶22 - tartıyı adaletle ayakta tutup eksiltmeme.
+- 56:1: ref ¶16 - büyük olayın gerçekleşecek oluşu.
+- 56:2: ref ¶16 - gerçekleşmesini yalanlamaya yer olmaması.
+- 56:3: ref ¶16 - olayın kimini alçaltıp kimini yükseltmesi.
+- 56:60: not relevant - ölümün takdiri, borç yahut hükümranlık sahnesine ek getirmez.
+- 56:61: not relevant - insanların benzerleriyle değiştirilmesi bedel veya fidye değildir.
+- 57:15: ref ¶22 - o gün münafık ve inkârcıdan fidye alınmaz.
+- 57:25: prose ¶20, ref ¶22 - kitap ve mizan adaleti ayakta tutturur.
+- 58:6: prose ¶22, ref ¶19, ¶21 - insanlar unutur, Allah işleri sayıp bildirir.
+- 67:1: ref ¶16 - mülk Allah'ın elinde ve gücü her şeye yeter.
+- 69:13: ref ¶16 - sûra üfleme olay gününü başlatır.
+- 69:14: ref ¶16 - yerle dağların ezilişi olayın ağırlığıdır.
+- 69:15: ref ¶16 - o gün büyük olay gerçekleşir.
+- 69:16: ref ¶16 - göğün yarılması aynı olayın sahnesi.
+- 69:17: ref ¶16 - melekler ve tahtı taşıyanlar hüküm sahnesini kurar.
+- 69:18: ref ¶21 - sunulma gününde hiçbir gizli kalmaz.
+- 69:19: ref ¶21 - sağdan kitabını alanın sevinçli karşılanışı.
+- 69:25: ref ¶21 - soldan kitabını alanın karşıt tepkisi.
+- 70:11: context ¶22 (in 70:15) - suçlunun çocuklarını fidye dilemesi.
+- 70:12: context ¶22 (in 70:15) - eş ve kardeşin de dileğe eklenmesi.
+- 70:13: context ¶22 (in 70:15) - sığındığı yakınlarını fidye dilemesi.
+- 70:14: context ¶22 (in 70:15) - yeryüzündeki herkesin dileğe eklenmesi; kabul değildir.
+- 73:17: ref ¶16 - çocukları ağartan ağır gün.
+- 73:18: ref ¶16 - o gün göğün yarılması.
+- 75:1: not relevant - kıyamet gününe yemin, ayağa kalkış yahut hesap sahnesi vermez.
+- 75:6: not relevant - günün ne zaman olduğu sorusu hesabın nasıl işlediğini açmaz.
+- 75:10: ref ¶22 - o gün insanın kaçacak yer araması.
+- 75:11: ref ¶22 - kaçış sığınağının reddi.
+- 75:12: ref ¶22 - o gün varışın Rabbe olması.
+- 75:13: ref ¶21 - insanın önden ve geriden bıraktıkları bildirilir.
+- 75:22: not relevant - bazı yüzlerin aydınlığı hesap yahut terazi işlemini açıklamaz.
+- 75:23: not relevant - Rabbe bakış, burada okunan tartı ve borç sahnesinin bağı değildir.
+- 75:24: not relevant - kasvetli yüzler hesap mekanizmasını tek başına açıklamaz.
+- 75:25: not relevant - beklenen yıkıcı belâ ölçü veya karşılık düzenini belirtmez.
+- 77:13: ref ¶15 - belirlenmiş vakit karar günüdür.
+- 77:38: ref ¶15 - karar gününde öncekilerle sonrakiler toplanır.
+- 78:38: ref ¶17 - ruh ve melekler saf tutar; söz Rahmân'ın iznine bağlıdır.
+- 79:34: ref ¶16 - büyük baskın olayın gelişi.
+- 79:35: ref ¶21 - insan o gün çabasını hatırlar.
+- 79:36: not relevant - cehennemin gösterilmesi tartı yahut hesabın içeriğini açmaz.
+- 81:13: not relevant - cennetin yaklaştırılması tek başına hesap veya ağırlıkla bağ kurmaz.
+- 81:14: ref ¶21 - her can ne getirdiğini bilir.
+- 82:10: ref ¶21 - insanlar üzerinde koruyucular bulunur.
+- 82:11: ref ¶21 - koruyucular yazıcıdır.
+- 82:12: ref ¶21 - yapılanları bilirler.
+- 82:13: ref ¶21 - iyilerin nimet içindeki akıbeti, kötülerle karşılaştırılır.
+- 82:14: ref ¶21 - kötülerin ateşteki akıbeti.
+- 82:15: ref ¶21 - kötülerin din gününde ateşe girişi.
+- 82:16: cited ¶21; conflict ¶21 - 'onlar' ateşteki kötüler, 'ondan' ateştir; ayet bütün insanların gözden kaybolamamasını söylemez.
+- 82:17: cited ¶21; ref ¶15 - din gününün ne olduğunun sorulması.
+- 82:18: ref ¶15, ¶21 - aynı sorunun ikinci kez yinelenmesi.
+- 82:19: cited ¶21; ref ¶15 - hiçbir can başkası için bir şey yapamaz; emir Allah'ındır.
+- 83:1: ref ¶21 - eksik tartanlara yöneltilen tehdit.
+- 83:2: ref ¶21 - kendileri alırken tam ölçmeleri.
+- 83:4: prose ¶21 - eksik tartanlara diriliş sorusu.
+- 83:5: context ¶21 (in 83:4) - diriliş için büyük günün anılması.
+- 83:6: cited ¶21; ref ¶17 - insanların Rableri için ayağa kalkışı.
+- 84:1: ref ¶16 - göğün yarıldığı olay.
+- 84:2: ref ¶16 - göğün Rabbinin buyruğuna boyun eğmesi.
+- 84:3: ref ¶16 - yerin yayılması olay sahnesidir.
+- 84:4: ref ¶16 - yer içindekini dışarı atar.
+- 84:5: ref ¶16 - yer de Rabbinin buyruğuna boyun eğer.
+- 84:6: ref ¶21 - insanın emeğiyle Rabbine ulaşması hesabın eşiğidir.
+- 84:7: ref ¶21 - sağdan verilen kitabın kolay hesaba girişi.
+- 84:8: ref ¶21 - o hesaba kolaylık niteliği verilir.
+- 84:10: ref ¶21 - arkadan verilen kitap karşıt akıbetin başı.
+- 84:11: ref ¶21 - bu kitabı alanın yıkım çağrısı.
+- 88:25: context ¶15 (in 88:26), ref ¶21 - dönüş Allah'a, ardından hesap O'nadır.
+- 88:26: prose ¶15, ref ¶21 - hesabın Allah'ın üstüne oluşu.
+- 89:21: ref ¶16 - yerin ezilmesi ağır olaydır.
+- 89:22: ref ¶16 - Rabbin gelişi ve meleklerin saf oluşu.
+- 89:23: ref ¶16 - cehennemin getirilmesi ve hatırlama.
+- 89:24: ref ¶21 - insanın hayatı için önden iş göndermeyi dilemesi.
+- 89:25: ref ¶17 - o gün ceza Allah'ın cezası olarak gösterilir.
+- 89:26: ref ¶17 - bağlama kudreti başka kimseye verilmez.
+- 99:1: ref ¶16 - yerin sarsılması olayın başlangıcı.
+- 99:2: ref ¶16 - yerin yüklerini dışarı çıkarması.
+- 99:3: ref ¶16 - insanın yeryüzündeki değişime şaşması.
+- 99:4: ref ¶21 - yer o gün haberlerini anlatır.
+- 99:5: ref ¶21 - bu haber verme Rabbin buyruğuna bağlıdır.
+- 99:6: ref ¶21 - insanlar işlerini görmek için ayrılır.
+- 99:7: ref ¶21 - zerre ağırlığında iyilik görülür.
+- 99:8: ref ¶21 - zerre ağırlığında kötülük de görülür.
+- 100:9: ref ¶21 - mezarların altüst edilmesi hesapta açığa çıkarma sahnesi.
+- 100:10: ref ¶21 - göğüslerdekinin ortaya çıkarılması.
+- 100:11: ref ¶21 - Rab o gün herkesten haberdardır.
+- 101:6: cited ¶21; ref ¶20 - ağır tartı.
+- 101:7: ref ¶21 - ağır tartıyı hoşnut olunan hayat izler.
+- 101:8: cited ¶21; ref ¶20 - hafif tartı.
+- 101:9: ref ¶21 - hafif tartının varacağı yer Hâviye'dir.
+- 101:10: ref ¶21 - Hâviye hakkında soru, açıklamaya bağlanır.
+- 101:11: ref ¶21 - Hâviye kızgın ateştir.
+- 102:8: ref ¶21 - nimetlerden o gün hesap sorulur.
+- 2:106: not relevant - ayetin değiştirilmesi kan bedeli veya tartı ikamesi değildir.
+- 2:245: ref ¶18 - Allah'a güzel borç verme, dönüşte katlı karşılık.
+- 3:75: ref ¶18 - emanet dinarın geri ödenmesi; burada kaim duran alacaklıdır, sikke değil.
+- 4:11: ref ¶18 - paylaştırma borç ödendikten sonradır.
+- 4:12: ref ¶18 - miras payı borç ve vasiyet sonrasına bırakılır.
+- 4:58: ref ¶22 - emaneti sahibine verme ve adil hüküm.
+- 5:1: ref ¶22 - akitleri yerine getirme borç akdinin genel yükümlülüğüdür.
+- 5:44: ref ¶22 - Allah'ın ayetlerini küçük bedelle satmama ve doğru hüküm.
+- 9:60: ref ¶18 - borçlular yardım hakkı sahiplerindendir.
+- 9:111: ref ¶22 - can ve malın cennet karşılığında Allah'a verilmesi başarılı ticaret.
+- 15:92: ref ¶15 - Allah hepsini sorgulayacağını bildirir.
+- 15:93: ref ¶15 - sorgu yaptıkları üzerinedir.
+- 16:101: not relevant - ayetin yerine ayet konması burada tartılan bedel değildir.
+- 16:126: ref ¶19, ¶22 - cezalandırma görülene denk tutulur.
+- 18:48: ref ¶17, ¶21 - Rabbin huzurunda sıra sıra sunulma.
+- 22:60: ref ¶19 - karşılık uğranılanın misliyle sınırlandırılır.
+- 34:26: ref ¶15 - Rab toplayıp aralarında hakla hükmeder.
+- 35:18: ref ¶22 - kimse başkasının yükünden bir şey taşımaz.
+- 37:21: ref ¶15 - tanınan din günü karar günü diye açıklanır.
+- 37:24: ref ¶15 - durdurulanlar sorgulanır.
+- 38:26: ref ¶20 - hakla hükmedip hevâya uyularak yoldan sapmama.
+- 40:27: not relevant - Musa'nın kibirli kişi için hesap gününe inanmama demesi hesabın işleyişini açmaz.
+- 42:40: ref ¶19, ¶22 - kötülüğe denk karşılık ve affın değeri.
+- 44:40: ref ¶15 - karar gününün herkes için belirlenmiş vakit oluşu.
+- 52:21: ref ¶22 - her kişinin kazancına bağlı tutulması.
+- 53:38: ref ¶22 - yükün başka birine taşınmaması.
+- 55:8: context ¶20 (in 55:9) - terazide taşkınlık yasağı.
+- 56:56: ref ¶15 - cezalandırıcı konaklamanın din gününe bağlanması.
+- 58:18: ref ¶22 - diriltilenlerin yanlış yeminlerinin o gün yalana çıkması.
+- 65:8: not relevant - bir beldenin dünyadaki ağır hesabı, din günü hesabıyla özdeş değildir.
+- 68:46: not relevant - elçinin ücret isteyip istemediği sorusu borç akdi değildir.
+- 70:4: not relevant - meleklerin yükseldiği günün süresi doğrudan hesap günü diye belirtilmez.
+- 70:26: not relevant - din gününe inanma niteliği, bu sahnedeki hüküm veya tartıyı açmaz.
+- 70:40: not relevant - doğu ve batıların Rabbine yemin, fidye ikamesi değildir.
+- 70:41: not relevant - topluluğun başkalarıyla değiştirilmesi hesap borcunun ödenmesi değildir.
+- 74:8: ref ¶16 - boru sesi zorlu günün başlangıcıdır.
+- 74:9: ref ¶16 - o gün zor diye nitelenir.
+- 74:10: ref ¶16 - zorluğun inkârcılara yönelmesi.
+- 74:38: ref ¶22 - her can kazancına bağlı tutulur.
+- 74:46: not relevant - din gününü yalanlama itirafı, bu bölümdeki ölçü veya borcu açmaz.
+- 75:30: not relevant - yakın ayetlerdeki ölüm anında Rabbe sevk, son hesap gününün sahnesi değildir.
+- 76:7: ref ¶16 - korkulan günün kötülüğü yaygındır.
+- 76:10: ref ¶16 - ağır ve kasvetli günden korku.
+- 78:17: ref ¶15 - karar gününün belirlenmiş vakit oluşu.
+- 83:11: ref ¶21 - eksik tartı sahnesini din gününü yalanlama izler.
+- 84:9: ref ¶21 - kolay hesabın ardından sevinçli dönüş.
+- 107:1: ref ¶15 - din inkârının ardından muhtaçlara davranış anlatılır.
+- 2:275: ref ¶22 - alışveriş ve ribânın ayrılması borç ticaretinin ahlaki sınırıdır.
+- 4:74: ref ¶22 - dünya hayatını ahiret karşılığında verme, kötü takasın ters yönü.
+- 9:39: not relevant - başkasının yerine kavim getirme, bölümün bedel ve fidyesi değildir.
+- 21:23: ref ¶16 - Allah sorgulanmaz, insanlar sorgulanır.
+- 61:10: prose ¶22 - azaptan kurtaran ticaret, zararlı alışverişe karşıdır.
+- 61:11: context ¶22 (in 61:10) - kurtaran ticaretin iman ve çabası.
+- 61:12: context ¶22 (in 61:10) - o ticaretin bağışlanma ve cennet karşılığı.
+- 74:48: ref ¶22 - şefaatin onlara yarar vermemesi fidye sınırını tamamlar.
+- 79:37: ref ¶22 - dünya hayatını yeğleyen tarafın taşkınlığı.
+- 79:38: ref ¶22 - yakın hayatın seçilmesi kötü takasla aynı yöneliştir.
+- 79:40: ref ¶17, ¶22 - Rabbin huzurundan korkup arzuyu dizginleme karşıt yöneliş.
+- 79:41: ref ¶17, ¶22 - bu yönelişin cennet akıbeti.
+- 83:3: cited ¶21; ref ¶20; conflict ¶21 - başkasına eksik tartma doğru ölçünün karşıtıdır, fakat bu ayette q-w-m kökü yoktur; kök 83:6'daki ayağa kalkıştadır.
+- 84:12: ref ¶21 - tersinden alınan kitabın ardından ateş.
+- 2:14: not relevant - ikiyüzlü karşılaşma, ticaret mecazının mekanizmasını açmaz.
+- 2:15: not relevant - alay ve azgınlıkta bırakma, borç veya tartı bağlantısı kurmaz.
+- 2:17: ref ¶22 - zararlı alışverişin ardından ışığın gitmesi.
+- 2:18: ref ¶22 - aynı grubun geri dönemez hâli.
+- 2:176: not relevant - kitapta ayrılık, kısas veya hesap ölçüsüne bağlanmaz.
+- 2:177: not relevant - iyiliğin geniş sayımı borç veya diyet sahnesine özel bir ek getirmez.
+- 2:180: not relevant - ölüm yaklaşınca vasiyet, burada anlatılan borcun yazımı yahut kan bedeli değildir.
+- 4:90: not relevant - savaşta anlaşmalı topluluklara dokunmama, hataen öldürmenin diyeti değildir.
+- 4:91: not relevant - savaşta güvenlik şartları, hesap terazisini açıklamaz.
+- 4:94: not relevant - selam verene inançsız dememe uyarısı diyet hükmü değildir.
+- 6:68: not relevant - ayetlerle alaydan uzaklaşma, son hesapta bedel veya şahitlik değildir.
+- 6:69: ref ¶22 - başkasının hesabı sakınana yüklenmez.
+- 6:71: ref ¶22 - hidayetten gerisin geri dönme, zararlı yön değişimi.
+- 6:72: ref ¶22 - hesabı bildiren uyarının ardından toplanma Allah'adır.
+- 17:34: ref ¶22 - ahdi yerine getirmek gerekir, ahitten sorulacaktır.
+- 17:36: ref ¶21 - duyu ve kalp de sorumluluk konusu olur.
+- 17:37: not relevant - böbürlenerek yürüme yasağı terazi veya hesapla kurulmaz.
+- 21:45: not relevant - vahiy ile uyarı, tartının işleyişini açıklamaz.
+- 21:46: not relevant - azabın dokunuşuna pişmanlık, ölçü veya karşılık düzeni değildir.
+- 21:48: not relevant - Musa ve Harun'a verilen ayırt edici kitap, bu tartı sahnesinde okunmaz.
+- 21:49: not relevant - Saatten korkanlar, adalet terazisine doğrudan ek değildir.
+- 25:27: ref ¶21 - o gün zalim elçiyi izleyen yolu tutmadığına pişman olur.
+- 25:28: ref ¶21 - yanlış arkadaşlık pişmanlığı aynı gün sürer.
+- 26:83: not relevant - hikmet ve iyilere katılma duası günün hesabını açmaz.
+- 26:84: not relevant - sonrakilerde iyi anılma duası hesap günü sahnesi değildir.
+- 26:180: not relevant - Şuayb'ın ücret istememesi tartıda eksiltme buyruğunu açıklamaz.
+- 26:184: not relevant - yaratana karşı sakınma çağrısı ölçüye özel değildir.
+- 40:14: not relevant - burada dîn kulluğun yönü, hesap gününün karşılığı değildir.
+- 51:4: not relevant - buyruğu paylaştıranlar dinin kesin gelişini kendi başına açmaz.
+- 51:7: not relevant - göğün dokusu hesap veya günün işleyişiyle bağlı değil.
+- 51:8: not relevant - ayrışan sözler karşılığın gerçekleşmesini açıklamaz.
+- 83:7: ref ¶21 - eksik tartı ve dirilişten sonra kötülerin kitabı anılır.
+- 83:8: not relevant - Siccîn'in ne olduğuna ilişkin soru kitabın hesabını açmaz.
+- 101:4: ref ¶16 - tartıdan önce insanların saçılmış pervanelere benzetilmesi.
+- 101:5: ref ¶16 - dağların atılmış yün gibi oluşu olayın ağırlığıdır.
+- 11:111 own: ref ¶15 - Rab herkesin işinin karşılığını tam verir.
+- 22:1 own: context ¶16 (in 22:2) - Saat'in sarsıntısı büyük olaydır.
+- 22:2 own: prose ¶16 - ağır gün olağan bakım ve beden hâlini sarsar.
+- 22:69 own: ref ¶15 - Allah kıyamet günü ayrılığa düşülen konuda hükmeder.
+- 27:87 own: ref ¶17 - sûr günü herkes Allah'a boyun eğerek gelir.
+- 36:65 own: ref ¶21 - ağızlar kapanınca eller ve ayaklar işlere tanıklık eder.
+- 42:17 own: ref ¶20 - hak kitap ve mizanla Saat'in yakınlığı yan yana gelir.
+- 42:18 own: not relevant - Saat hakkında çekişme, teraziyi ya da hesabı açmaz.
+- 54:55 own: not relevant - cennette güçlü hükümdarın yakınında oturuş, hesap günü hükmü değildir.
+- 69:27 own: not relevant - hesabı alanın ölümü dilemesi tartı veya bedel bağlantısı kurmaz.
+- 69:28 own: ref ¶22 - mal, kötü hesapta sahibine fayda vermez.
+- 69:29 own: ref ¶16 - eski gücün yitmesi o günün tek hükümranını belirginleştirir.
+- 75:14 own: ref ¶21 - insan kendi aleyhine tanıktır.
+- 75:15 own: ref ¶21 - mazeretleri bu tanıklığı ortadan kaldırmaz.
+- 78:40 own: ref ¶21 - kişi ellerinin önden gönderdiğine bakar.
+- 82:5 own: ref ¶21 - can, önden ve arkadan ne bıraktığını bilir.
+- 82:9 own: ref ¶21 - koruyucu yazıcılar anılmadan önce dîni yalanlama belirtilir.
+- 95:7 own: ref ¶15 - dîn sorusu Allah'ın hükmüne bağlanır.
+- 95:8 own: ref ¶15 - Allah hükmedenlerin en adili diye sorulur.
+- 101:1 own: ref ¶16 - tartıdan önce çarpıcı olay adlandırılır.
+- 101:2 own: ref ¶16 - olayın ne olduğu sorulur.
+- 101:3 own: ref ¶16 - olay hakkındaki soru yinelenir.
+- 107:2 own: ref ¶15 - dîni yalanlayanın yetimi itmesi.
+- 107:3 own: ref ¶15 - yoksulu doyurmayı teşvik etmemesi.
+- 4:87 own: not relevant - kuşkusuz kıyamette toplama, hesap yahut terazi ayrıntısı vermez.
+- 18:26 own: not relevant - mağara halkının süresi bağlamındaki hüküm tekeli son hesap sahnesi değildir.
+- 14:42 own: ref ¶16 - zalimlere mühlet gözlerin donacağı güne kadardır.
+- 16:90 own: not relevant - genel adalet buyruğu bölümün teraziyle kurduğu özel bağı vermez.
+- 67:2 own: not relevant - hayatın sınama için yaratılması, burada tartının işleyişini açıklamaz.
+- 83:10 own: not relevant - yalanlayanlara tehdit tek başına tartı hesabını açmaz.
+- 83:12 own: not relevant - gün yalanlayanın taşkınlığı genel bir niteliktir.
+- 83:13 own: not relevant - ayetlere eskilerin masalı deme borç veya tartı sahnesi değildir.
+- 70:15 own: prose ¶22 - bütün fidye dileği reddedilip alev gösterilir.

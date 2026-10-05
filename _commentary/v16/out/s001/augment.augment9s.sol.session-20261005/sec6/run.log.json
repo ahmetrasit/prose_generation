@@ -1,0 +1,51 @@
+{
+  "section": 6,
+  "status": "complete_reviewed",
+  "model": "gpt-6-sol",
+  "effort": "max",
+  "runner": "native collaboration agent",
+  "session": {
+    "agent_path": "/root/s1_aug_sol_06",
+    "agent_id": "01a10c87-56a0-72d0-a009-7ad91174efca",
+    "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T10-45-58-01a10c87-56a0-72d0-a009-7ad91174efca.jsonl"
+  },
+  "token_accounting": "omitted at user request",
+  "source_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "response_sha256": "5468e983396eaac0e0ab0cd0d6989406e8139db95e814a59a7a86c634b9a98fb",
+  "prose": 25,
+  "reference_lines": 5,
+  "verdict_ayat": 325,
+  "completed_at": "2026-10-05T15:33:14.683070+00:00",
+  "parent_review": "Prose and reference lines read; selected canonical Arabic checks, not exhaustive independent relevance audit. Source conflicts retained separately. Neighboring reference entries with distinct contributions kept.",
+  "parent_review_scope": "Read prose and reference drafts; checked selected canonical ayat and targeted final corrections. Not an exhaustive independent ayah-by-ayah relevance audit.",
+  "turn_events": [
+    {
+      "timestamp": "2026-10-05T14:45:58.707Z",
+      "event": "task_started"
+    },
+    {
+      "timestamp": "2026-10-05T15:12:46.458Z",
+      "event": "task_complete"
+    }
+  ],
+  "native_model_contexts": [
+    {
+      "model": "gpt-6-sol",
+      "effort": "max"
+    }
+  ],
+  "tool_calls_file": "tool_calls.json",
+  "title": "Rıza ve gazap: inen şey ve yüzde bıraktığı iz",
+  "paragraphs": [
+    32,
+    33,
+    34,
+    35,
+    36
+  ],
+  "discovery_candidates": 270,
+  "context_neighbours": 29,
+  "judged": 325,
+  "own_knowledge_judgments": 26,
+  "distinct_ayat_in_additions": 202
+}

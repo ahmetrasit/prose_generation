@@ -1,0 +1,50 @@
+{
+  "section": 5,
+  "status": "complete_reviewed",
+  "model": "gpt-6-sol",
+  "effort": "max",
+  "runner": "native collaboration agent",
+  "session": {
+    "agent_path": "/root/s1_aug_sol_05",
+    "agent_id": "01a10c87-3885-7680-9b6a-4a3a03fd7550",
+    "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T10-45-50-01a10c87-3885-7680-9b6a-4a3a03fd7550.jsonl"
+  },
+  "token_accounting": "omitted at user request",
+  "source_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "response_sha256": "f4b35fa38e12e0f45440e8476271c997cb18cecd7b0cfaa3418062c03c6b24d3",
+  "prose": 9,
+  "reference_lines": 4,
+  "verdict_ayat": 388,
+  "completed_at": "2026-10-05T15:33:14.683070+00:00",
+  "parent_review": "Read prose and reference drafts; checked selected canonical ayat and targeted final corrections. Not an exhaustive independent ayah-by-ayah relevance audit. Source conflicts retained separately; distinct neighboring reference links kept.",
+  "parent_review_scope": "Read prose and reference drafts; checked selected canonical ayat and targeted final corrections. Not an exhaustive independent ayah-by-ayah relevance audit.",
+  "turn_events": [
+    {
+      "timestamp": "2026-10-05T14:45:50.986Z",
+      "event": "task_started"
+    },
+    {
+      "timestamp": "2026-10-05T15:15:54.155Z",
+      "event": "task_complete"
+    }
+  ],
+  "native_model_contexts": [
+    {
+      "model": "gpt-6-sol",
+      "effort": "max"
+    }
+  ],
+  "tool_calls_file": "tool_calls.json",
+  "title": "Tamamlanan nimet ve başa kakılan nimet",
+  "paragraphs": [
+    28,
+    29,
+    30,
+    31
+  ],
+  "discovery_candidates": 291,
+  "context_neighbours": 31,
+  "judged": 388,
+  "own_knowledge_judgments": 66,
+  "distinct_ayat_in_additions": 314
+}

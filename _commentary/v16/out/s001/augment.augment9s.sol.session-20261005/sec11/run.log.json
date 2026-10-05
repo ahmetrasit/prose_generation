@@ -1,0 +1,58 @@
+{
+  "section": 11,
+  "status": "complete_reviewed",
+  "model": "gpt-6-sol",
+  "effort": "max",
+  "runner": "native collaboration agent",
+  "session": {
+    "agent_path": "/root/s1_aug_sol_11",
+    "agent_id": "01a10c88-1882-7243-9071-efd7ddc06fac",
+    "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T10-46-48-01a10c88-1882-7243-9071-efd7ddc06fac.jsonl"
+  },
+  "token_accounting": "omitted at user request",
+  "source_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "response_sha256": "4112ea8f0a0a9b922a6ec5762f2847e35ca61bf3abe59d49f33d9eefc7fa4ed9",
+  "prose": 10,
+  "reference_lines": 4,
+  "verdict_ayat": 321,
+  "completed_at": "2026-10-05T15:33:14.683070+00:00",
+  "parent_review": "Read prose and reference drafts; checked selected canonical ayat and targeted final corrections. Not an exhaustive independent ayah-by-ayah relevance audit. Source conflicts retained separately; distinct neighboring reference links kept.",
+  "parent_review_scope": "Read prose and reference drafts; checked selected canonical ayat and targeted final corrections. Not an exhaustive independent ayah-by-ayah relevance audit.",
+  "turn_events": [
+    {
+      "timestamp": "2026-10-05T14:46:48.389Z",
+      "event": "task_started"
+    },
+    {
+      "timestamp": "2026-10-05T15:15:06.451Z",
+      "event": "task_complete"
+    },
+    {
+      "timestamp": "2026-10-05T15:16:29.900Z",
+      "event": "task_started"
+    },
+    {
+      "timestamp": "2026-10-05T15:16:49.108Z",
+      "event": "task_complete"
+    }
+  ],
+  "native_model_contexts": [
+    {
+      "model": "gpt-6-sol",
+      "effort": "max"
+    }
+  ],
+  "tool_calls_file": "tool_calls.json",
+  "title": "Dayanmak ve doğrulmak: destek isteyen yolcu",
+  "paragraphs": [
+    55,
+    56,
+    57,
+    58
+  ],
+  "discovery_candidates": 233,
+  "context_neighbours": 36,
+  "judged": 321,
+  "own_knowledge_judgments": 52,
+  "distinct_ayat_in_additions": 172
+}

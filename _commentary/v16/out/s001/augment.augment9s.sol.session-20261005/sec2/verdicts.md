@@ -1,0 +1,312 @@
+- 2:21: ref ¶13 - yaratıcı Rabbe kulluk çağrısı.
+- 2:34: ref ¶13 - yaratılmış Âdem'e Allah'ın emriyle secde.
+- 2:49: ref ¶14 - Firavun hanesinin zorbalığı.
+- 2:83: ref ¶12 - yalnız Allah'a kulluk sözü.
+- 2:107: ref ¶10 - göklerin ve yerin mülkü Allah'ındır.
+- 2:116: ref ¶10, ¶13 - her şeyin O'na ait ve O'na boyun eğmiş oluşu.
+- 2:133: ref ¶12 - oğulların tek ilaha kulluğu kendi ağzından söylemesi.
+- 2:156: ref ¶13 - insanın Allah'a ait olduğunu kendisinin söylemesi.
+- 2:186: ref ¶12 - kulların çağrısına Rabbin yakın cevabı.
+- 3:26: prose ¶10 - Allah mülkü verir ve geri alır.
+- 3:51: ref ¶10 - aynı Rabbe kulluk emri.
+- 3:64: cited ¶14; ref ¶10 - birbirini rab edinmeme sınırı.
+- 3:79: ref ¶10 - vahiy alan insanın kendisine kul istememesi.
+- 3:80: ref ¶10 - meleklerin ve peygamberlerin rab edinilmemesi.
+- 3:83: prose ¶13 - isteyerek veya istemeyerek teslim oluş.
+- 4:36: prose ¶14 - Allah'a kulluk, elde bulunan insana iyilikle birlikte emredilir.
+- 4:171: ref ¶10 - gökte ve yerde olanlar Allah'ındır; keşif gerekçesindeki “abd” bu ayette geçmez.
+- 4:172: ref ¶13 - Mesih ve yakın meleklerin kulluğu hor görmemesi.
+- 5:72: ref ¶10 - Mesih de Allah'ı kendi Rabbi sayıp O'na kulluğu buyurur.
+- 5:117: ref ¶12 - Mesih kendi hitabını ortak Rabbe kullukla sınırlar.
+- 6:12: ref ¶10 - gökte ve yerdekilerin Allah'a ait olması.
+- 6:14: ref ¶14 - yaratan ve yediren Allah'ın kendisinin beslenmemesi.
+- 6:18: ref ¶13 - Allah'ın kullarının üstünde hükümran olması.
+- 6:61: ref ¶13 - kullar üzerindeki hükümranlığın ölüme uzanması.
+- 6:73: ref ¶10 - yaratma ve son günde mülkün O'na ait oluşu.
+- 6:102: ref ¶10, ¶13 - Rab, tek ilah ve yaratanın kulluk istemesi.
+- 6:133: ref ¶14 - Rabbin kullara muhtaç olmaması.
+- 6:162: ref ¶12 - kulun yaşamını ve ölümünü Rabbine ait söylemesi.
+- 7:11: ref ¶13 - yaratılmış Âdem'e secde emri.
+- 7:12: ref ¶13 - emre karşı İblis'in büyüklük iddiası.
+- 7:59: ref ¶12 - Nuh'un yalnız Allah'a kulluk çağrısı.
+- 7:65: ref ¶12 - Hûd'un yalnız Allah'a kulluk çağrısı.
+- 7:73: ref ¶12 - Sâlih'in yalnız Allah'a kulluk çağrısı.
+- 7:85: ref ¶12 - Şuayb'ın yalnız Allah'a kulluk çağrısı.
+- 7:172: prose ¶13 - insanların Rab oluşu kendi ağızlarıyla kabul etmesi.
+- 7:194: ref ¶10 - çağrılan diğer varlıkların da insan gibi kul oluşu.
+- 7:206: ref ¶13 - Rabbe yakın olanların ibadetten büyüklük taslamaması.
+- 9:31: ref ¶10 - insan din adamlarının rab edinilmesine karşı tek ilaha kulluk.
+- 10:3: ref ¶10, ¶13 - yaratıcı Rabbe kulluk emri.
+- 10:31: ref ¶10 - duyuları ve canlılığı yönetenin Allah olduğunun kabulü.
+- 10:104: ref ¶12 - konuşanın öteki nesnelere kulluğu reddetmesi.
+- 11:2: ref ¶12 - yalnız Allah'a kulluk çağrısı.
+- 11:50: ref ¶12 - Hûd'un tek ilaha kulluk çağrısı.
+- 11:61: ref ¶12 - yaratan Allah'a kulluk çağrısı.
+- 11:84: ref ¶12 - Şuayb'ın tek ilaha kulluk çağrısı.
+- 12:23: cited ¶14; ref ¶10 - evdeki “rabbî” sözü insan ev sahibine elverişlidir; ayet lafzı ilahi Rab okumasını da dışlamaz.
+- 12:25: ref ¶10, ¶14 - kapıdaki ev sahibine “seyyid” denmesi; burada “rab” geçmez.
+- 12:39: ref ¶10 - dağınık rabler karşısında tek Allah.
+- 12:40: cited ¶14; ref ¶11, ¶12 - yalnız O'na kulluk ile dînin birleşmesi.
+- 12:41: ref ¶10 - şarap sunulan insan efendiye “rab” denmesi.
+- 12:42: ref ¶10 - tutsak arkadaşın insan rabbine haber iletmesi istenmesi.
+- 12:50: ref ¶10 - kralın elçisine insan efendisi için “rab” denmesi.
+- 12:76: prose ¶11 - kralın dîni, içinde kardeşin alınamadığı yürürlükteki düzen.
+- 15:29: ref ¶13 - yaratılan insana secde edilmesi emri.
+- 15:30: ref ¶13 - meleklerin bu emre uyması.
+- 15:42: ref ¶13 - Allah'ın kulları üzerinde şeytanın yetkisinin sınırı.
+- 16:5: ref ¶14 - hayvanın insana yarar için yaratılması.
+- 16:6: not relevant - sürünün güzelliği, uysallaştırma veya sahip-kul ilişkisini açıklamıyor.
+- 16:7: ref ¶14 - hayvanın insan yükünü taşıması.
+- 16:8: ref ¶9, ¶14 - binilen atın Allah tarafından yaratılması.
+- 16:36: ref ¶12 - tüm topluluklara Allah'a kulluk ve tâğuttan uzak durma çağrısı.
+- 16:49: ref ¶13 - yaratılmışların Allah'a secdesi.
+- 16:50: ref ¶13 - meleklerin Rabden korkup emri yapması.
+- 16:52: prose ¶11 - evrenin mülküyle sürekli dîn Allah'a ait.
+- 16:69: ref ¶9 - arıya Rabbinin yollarında gitme buyruğu.
+- 16:71: ref ¶10 - rızıkça üstün insanın elindekini kendine eşit ortak yapmaması.
+- 16:75: cited ¶14; ref ¶10 - memlûk kul ve rızık verilmiş kişi karşılaştırması.
+- 17:1: ref ¶13 - seçkin yolculukta bile kul diye anılan kişi.
+- 17:23: ref ¶12 - Rabbin yalnız kendisine kulluk buyruğu.
+- 17:61: ref ¶13 - Âdem'e secde emriyle İblis'in direnişi.
+- 17:65: ref ¶13 - Allah'ın kulları üzerinde şeytanın yetkisinin olmaması.
+- 17:111: cited ¶14; nowhere else - ayet yalnızca Allah'ın düşkünlükten doğan bir yardımcıya muhtaç olmadığını söyler.
+- 18:65: ref ¶13 - kendisine rahmet ve bilgi verilenin kul diye anılması.
+- 19:30: ref ¶13 - kitap ve peygamberlik alanın kendisini Allah'ın kulu diye tanıtması.
+- 19:36: ref ¶12 - Rabbin benim ve sizin Rabbiniz olduğunu söyleyerek kulluğa çağrı.
+- 19:93: cited ¶13; ref ¶10 - her varlığın Rahman'a kul olarak gelişi.
+- 19:94: ref ¶13 - herkesin tek tek sayılması.
+- 19:95: ref ¶13 - herkesin tek başına gelişi.
+- 20:14: ref ¶12 - Allah'ın kendi ağzından kulluk emri.
+- 20:53: ref ¶9 - yeryüzünde yürünecek yollar açılması.
+- 20:116: ref ¶13 - Âdem'e secde emri ve İblis'in reddi.
+- 21:19: ref ¶13 - gökte ve yerdekilerin O'na ait olup yakınların ibadet etmesi.
+- 21:20: ref ¶13 - yakın kulların kesintisiz tesbihi.
+- 21:25: ref ¶12 - tek ilahın her elçiye kulluk buyurması.
+- 21:26: prose ¶13 - melekler hem ikram edilmiş hem kuldur.
+- 21:27: context ¶13 (in 21:26) - ikram edilenlerin emirle iş görmesi.
+- 21:92: ref ¶12 - Rabbin kendisine kulluk buyruğu.
+- 22:18: ref ¶13 - gök, yer, hayvan ve insanların secde sahnesi.
+- 22:56: ref ¶10 - o günün mülkü ve hükmü Allah'a ait.
+- 23:21: ref ¶9 - hayvanın içecek ve yiyecek yararı.
+- 23:22: ref ¶9 - hayvanların insanı taşıması.
+- 23:23: ref ¶12 - Nuh'un tek ilaha kulluk çağrısı.
+- 23:32: ref ¶12 - sonraki topluluğa aynı kulluk çağrısı.
+- 23:84: ref ¶10 - yerin ve üzerindekilerin sahibini soran soru.
+- 23:85: ref ¶10 - bu soruya verilen “Allah'ın” cevabı.
+- 23:86: ref ¶10 - göklerin Rabbinin kim olduğu sorusu.
+- 23:87: ref ¶10 - Rab sorusuna verilen Allah cevabı.
+- 23:88: ref ¶10 - her şeyin hükümranlığı kimin elinde sorusu.
+- 23:89: ref ¶10 - hükümranlık sorusunun Allah cevabı.
+- 24:33: prose ¶14 - kölenin özgürlük sözleşmesi ve malın Allah'tan gelişi.
+- 24:58: ref ¶14 - evde hizmet edenlerin mahrem vakitlerde izin istemesi.
+- 25:1: ref ¶13 - uyarma görevi verilenin yine kul diye anılması.
+- 25:2: ref ¶10 - mülkün yaratan Allah'a ait olup ortağı bulunmaması.
+- 25:3: ref ¶10 - yaratılmış ilahların hiçbir yarar ve zarara mâlik olmayışı.
+- 25:26: ref ¶10 - o gün gerçek mülkün Rahman'a ait oluşu.
+- 25:60: ref ¶12 - Rahman'a secde çağrısının terslenmesi.
+- 25:63: ref ¶13 - Rahman'ın kullarının alçakgönüllü yürüyüşü.
+- 26:18: cited ¶14; nowhere else - Firavun'un büyütme iddiası orada açılmıştır.
+- 26:22: cited ¶14; ref ¶9 - insanı köle edinmenin ayetteki fiili.
+- 28:4: ref ¶14 - Firavun'un bir topluluğu güçsüz bırakması.
+- 29:16: ref ¶12 - İbrahim'in kavmini Allah'a kulluğa çağırması.
+- 29:17: ref ¶12 - rızka mâlik olamayan putlardan yaratıcıya kulluğa dönüş.
+- 29:56: prose ¶12 - “kullarım” hitabı ile “yalnız bana kulluk” emri.
+- 30:26: ref ¶13 - evrenin O'na ait olup O'na boyun eğmesi.
+- 30:28: ref ¶10, ¶14 - kölenin sahibine mülkte eşit ortak olmaması örneği.
+- 34:22: ref ¶10 - Allah'tan başka çağrılanın zerreye bile mâlik olmayışı.
+- 35:15: ref ¶14 - insanın muhtaç, Allah'ın müstağni olması.
+- 36:22: ref ¶13 - insanın kendisini yaratana kulluğu kendi ağzından savunması.
+- 36:60: ref ¶12 - şeytana kulluğu yasaklayan ahit.
+- 36:61: ref ¶12 - Allah'a kulluğun buyurulması.
+- 36:71: cited ¶14; ref ¶9, ¶10 - yaratılmış hayvanlara insanın mâlik kılınması.
+- 36:72: cited ¶14; ref ¶9 - hayvanın boyun eğdirilip binek olması.
+- 36:73: ref ¶14 - hayvanın yararı ve içeceği için şükür isteği.
+- 36:83: ref ¶10 - her şeyin hükümranlığı O'nun elindedir.
+- 38:71: ref ¶13 - secde emrinden önce insanın yaratılacağının duyurulması.
+- 38:72: ref ¶13 - yaratılana secde emri.
+- 38:73: ref ¶13 - meleklerin emre uyması.
+- 39:2: ref ¶11 - kulluğun dîni yalnız Allah'a ayırması.
+- 39:3: ref ¶11 - arı dînin Allah'a ait oluşu ve aracılara kulluk iddiası.
+- 39:11: ref ¶11, ¶12 - emredilmiş kulluk ile dîni yalnız Allah'a ayırma.
+- 39:14: ref ¶11, ¶12 - Allah nesnesini öne alan şahsi kulluk ve dîn sözü.
+- 39:29: prose ¶12 - tek adama bağlılık ve çekişen ortaklar karşılaştırması.
+- 39:36: ref ¶12 - Allah'ın kendi kuluna yeterli olması.
+- 39:53: ref ¶13 - taşkınlık edenlerin de “kullarım” hitabını duyması.
+- 39:63: ref ¶10 - göklerin ve yerin anahtarlarının Allah'a ait oluşu.
+- 39:67: ref ¶10, ¶14 - kıyamet günü yerin bütünüyle Allah'ın tasarrufunda oluşu.
+- 40:14: ref ¶11 - duanın dîni yalnız Allah'a ayırarak yapılması.
+- 40:16: ref ¶10 - o gün mülkün tek ve kahhar Allah'a ait olduğu cevabı.
+- 40:60: ref ¶12 - dua emri ve ibadetten kibirle kaçınmanın sonucu.
+- 40:79: ref ¶9 - binilen ve yenilen hayvanların Allah tarafından verilmesi.
+- 40:80: ref ¶9 - hayvanın insanı taşıması ve işine yaraması.
+- 42:19: ref ¶13 - Allah'ın kullarına yumuşaklık ve rızık vermesi.
+- 42:49: ref ¶10 - yaratma ve dağıtmanın mülk sahibine ait oluşu.
+- 43:10: ref ¶9 - yeryüzünde yolların hazırlanması.
+- 43:12: context ¶14 (in 43:13) - Allah'ın binek hayvanları yaratması.
+- 43:13: prose ¶14, ref ¶9 - insanın bineği kullanırken onu teshir edeni anması.
+- 43:14: context ¶14 (in 43:13) - biniş duasının Rabbe dönüşle bitmesi.
+- 43:19: ref ¶13 - meleklerin Rahman'ın kulları diye anılması.
+- 43:32: ref ¶14 - geçim farkları içinde insanların birbirinin hizmetinden yararlanması.
+- 43:59: ref ¶13 - nimet verilen İsa'nın kul diye anılması.
+- 43:64: ref ¶12 - İsa'nın ortak Rabbe kulluğa çağırması.
+- 44:18: prose ¶14 - Firavun'dan istenen İsrailoğullarının Allah'ın kulları diye anılması.
+- 51:56: prose ¶13 - yaratmanın amacı Allah'a kulluk.
+- 51:57: ref ¶14 - Allah'ın kullardan rızık veya yemek istememesi.
+- 56:86: not relevant - “medînîn”in ölüm karşısında hesap/otorite sınaması bu bölümdeki dîn-itaat açıklamasını açmaz.
+- 56:87: not relevant - ölmekte olan canı geri getirme meydan okumasının bu sahiplik sahnesine özgül bağı yoktur.
+- 57:2: ref ¶10 - mülkün Allah'a ait ve hayat ile ölümün O'nun elinde oluşu.
+- 67:1: ref ¶10 - mülkün O'nun elinde oluşu.
+- 67:15: prose ¶9 - yeryüzünün “zelûl” kılınıp üzerinde yürünmesi.
+- 71:19: ref ¶9 - yeryüzünün insan için yayılması.
+- 82:17: context ¶11 (in 82:19) - dîn gününü soran ilk soru.
+- 82:18: context ¶11 (in 82:19) - dîn gününü tekrarlayan soru.
+- 82:19: prose ¶11 - o gün başkasına hiçbir canın mâlik olmaması.
+- 89:29: ref ¶13 - kabul edilen canın Allah'ın kulları arasına alınması.
+- 90:13: ref ¶14 - insanı kölelik bağından çözmenin iyi iş sayılması.
+- 96:19: ref ¶12 - engelleyiciye itaat etmeyip secde emri.
+- 98:5: ref ¶11 - kulluk ile arı dînin aynı emirde oluşu.
+- 106:3: ref ¶10 - Evin Rabbine kulluk çağrısı.
+- 106:4: ref ¶10 - Evin Rabbinin doyurup güven vermesi.
+- 114:1: prose ¶10 - insanların Rabbine sığınma.
+- 114:2: context ¶10 (in 114:1) - aynı hitapta insanların Meliki.
+- 114:3: context ¶10 (in 114:1) - aynı hitapta insanların İlâhı.
+- 2:207: not relevant - Allah rızası için kişinin canını vermesi, doğuştan kul oluşun kendisi değil.
+- 4:25: ref ¶14 - iman eden kölenin evlilikte hak sahibi muhatap oluşu.
+- 4:59: not relevant - siyasi itaat ve ihtilaf çözümü, bu bölümdeki sahip-kul sahnesini işlemez.
+- 4:80: not relevant - elçiye itaatin Allah'a itaat sayılması, mülk veya kulluk nesnesi hakkında değil.
+- 4:173: ref ¶13 - ibadetten kibirle yüz çevirenin, yakın kul olma onurunun tersine, azapla karşılanması.
+- 7:127: ref ¶14 - Firavun'un halka zorbalığı sürdürme sözü.
+- 9:111: ref ¶13 - müminlerin can ve mallarını Allah'a anlaşmayla sunması; yaratılmayla gelen aidiyetle bir tutulmaz.
+- 12:30: ref ¶14 - evin kadınlarına göre Yusuf'un kadının “fetâ”sı oluşu.
+- 13:15: ref ¶13 - gökte ve yerdekilerin isteyerek veya istemeyerek secdesi.
+- 14:6: ref ¶14 - İsrailoğullarının Firavun hanesinden kurtarılmadan önce gördüğü eziyet.
+- 16:20: not relevant - yaratılmayan ilah ile yaratılan put karşıtlığı, bu paragrafın insan efendi/eşya sahipliği yönüne ayrıca bağlanmaz.
+- 16:21: not relevant - putların ölü ve dirilişten habersiz oluşu bu sahneye yeni bir bağ kurmaz.
+- 17:70: ref ¶13 - yaratılmış insanın onurlandırılması.
+- 21:28: ref ¶13 - ikram edilen kulların ancak izinle şefaat edip Allah'tan korkması.
+- 21:105: ref ¶13 - salih kulların yeryüzüne mirasçı kılınması.
+- 22:36: ref ¶9 - deveye ilişkin kurbanlıkta hizmete verme ve yedirme.
+- 22:65: not relevant - geminin denizde ve göğün yer üstünde tutulması, uysallaştırılmış yol/hayvan örneğinden uzak.
+- 24:32: ref ¶14 - erkek ve kadın hizmetlilerin evlendirilmesi emri.
+- 24:51: ref ¶11 - Allah'ın hükmüne çağrılana “işittik ve itaat ettik” cevabı.
+- 30:30: ref ¶11 - yaratılış düzeni ile dosdoğru dînin beraber söylenmesi.
+- 31:20: ref ¶9 - yeryüzündekilerin insanın hizmetine verilmesi.
+- 37:53: not relevant - “medînûn” burada ölümden sonraki hesaba itirazdır; itaat anlamını açıklamaz.
+- 45:13: ref ¶9 - yeryüzündekilerin Allah tarafından insanın hizmetine verilmesi.
+- 47:4: not relevant - savaş tutsağının salınması veya fidye edilmesi, bu bölümdeki mülk edinilmiş köleyle aynı durum değil.
+- 57:7: ref ¶10 - insana üzerinde vekâlet verilmiş maldan harcama emri.
+- 71:20: ref ¶9 - yayılan yerde geniş yolların yürünmesi.
+- 72:21: ref ¶10 - elçinin zarar ve doğru yol üzerinde mülk iddiasını reddetmesi.
+- 76:6: ref ¶13 - Allah'ın kullarının kendilerine sunulan pınardan içmesi.
+- 76:8: not relevant - tutsağı doyurma erdemi, onu köle edinme veya sahiplik sınırına bağlanmıyor.
+- 76:14: ref ¶9 - meyve salkımlarının insana kolay erişilir kılınması.
+- 90:14: not relevant - açlık gününde yedirme, köle çözme fiilinin yalnız komşu ayetidir.
+- 107:1: not relevant - dîni yalanlamak burada hesap gününü ve yoksula tutumu açar; bu bölümün dîn-itaat yönüne doğrudan bağlanmaz.
+- 2:71: ref ¶9 - sürmek ve sulamak için boyun eğdirilmemiş ineğin olumsuz tarifi.
+- 2:177: ref ¶14 - bağlı bir insanı kurtarmak için mal verme.
+- 2:221: ref ¶14 - inançlı kölenin özgür müşrikten üstün sayılması.
+- 4:92: ref ¶14 - hataen öldürme kefaretinde mümin köleyi özgür bırakma.
+- 5:89: ref ¶14 - yemin kefaretinde köleyi özgür bırakma.
+- 5:116: ref ¶10 - İsa'nın kendisi ve annesinin ilah edinilmesi iddiasını reddetmesi.
+- 7:141: ref ¶14 - Firavun hanesinin İsrailoğullarına eziyeti.
+- 9:60: ref ¶14 - sadakanın kölelik bağını çözmeye ayrılması.
+- 15:31: ref ¶13 - secde buyruğuna İblis'in uymaması.
+- 16:76: ref ¶14 - bağımlı adamın adaleti buyurandan ayrılması.
+- 18:50: ref ¶13 - İblis'in Rabbinin secde buyruğundan çıkması.
+- 20:77: ref ¶14 - kurtarılan İsrailoğullarına Allah'ın “kullarım” demesi.
+- 21:22: ref ¶10 - Allah dışında ilahların varlığının reddi.
+- 21:29: ref ¶13 - ikram edilmiş kulların ilahlık iddiasının reddi.
+- 22:37: ref ¶9 - hayvanın eti ve kanı değil, kulun takvası Allah'a ulaşır.
+- 23:47: ref ¶14 - Firavun çevresinin Musa'nın halkını kendilerine kul sayması.
+- 23:91: ref ¶10 - Allah yanında rakip ilah ve onun ayrı mülk iddiasının reddi.
+- 25:17: ref ¶13 - başka varlıklara kulluk edenlerin yine Allah'ın kulları diye anılması.
+- 34:40: ref ¶12 - meleklere yöneltilen “size mi kulluk ediyorlardı?” sorusu.
+- 34:41: ref ¶12 - meleklerin kendilerini veli saymayıp cinlere kulluğu bildirmesi.
+- 35:13: ref ¶10 - çağrılan rakiplerin en küçük şeye mâlik olmayışı.
+- 35:14: ref ¶10 - bu rakiplerin çağrıya karşılık veremeyişi.
+- 38:74: ref ¶13 - İblis'in kibirlenip secde etmemesi.
+- 38:75: ref ¶13 - yaratılmış olana secde etmeyene Allah'ın sorduğu soru; üstünlük iddiası bu ayette söylenmez.
+- 39:17: ref ¶12 - tâğuta kulluktan kaçınıp Allah'a dönüş.
+- 41:37: ref ¶12 - güneş ve aya değil onları yaratana secde.
+- 42:21: ref ¶11 - Allah'ın izin vermediği dîni düzenleme iddiası.
+- 43:54: ref ¶14 - Firavun'un halkını hafife aldırıp itaat ettirmesi.
+- 45:23: not relevant - hevâyı ilah edinme, bu sahnenin sahibi ve kulu hakkında özgül bir ilişki kurmuyor.
+- 58:3: ref ¶14 - kefaret olarak köle azat edilmesi.
+- 79:24: ref ¶10, ¶14 - Firavun'un kendini en yüce rab diye sunması.
+- 89:15: not relevant - insanın bolluğu onur sanması, kulun onurlandırılmasıyla aynı mesele değil.
+- 89:16: not relevant - kıtlığı aşağılanma sanması, köleleştirme yahut ibadetteki alçalma değil.
+- 89:17: not relevant - yetime ikram etmeme azarı, bu sahip-kul sahnesinin açıklaması değil.
+- 96:10: ref ¶12 - namaz kılan kulun bir insan tarafından engellenmesi.
+- 109:2: ref ¶12 - konuşanın başkalarının kulluk nesnesini reddetmesi.
+- 109:3: ref ¶12 - karşıdakilerin konuşanın kulluk ettiği nesneye kulluk etmemesi.
+- 109:6: ref ¶11 - ayrılan kulluk yönlerinin dîn diye adlandırılması.
+- 3:62: not relevant - doğru kıssa ve Allah'ın tek ilahlığı, bu bölümün sahip-kul ilişkisini ayrıca açıklamaz.
+- 3:63: not relevant - yüz çevirenler hakkındaki hüküm, sahneye yeni bağ taşımaz.
+- 3:65: not relevant - İbrahim hakkında kitapların sırasına dair tartışma.
+- 3:66: not relevant - bilmediği konuda tartışmanın tenkidi.
+- 12:21: ref ¶13, ¶14 - satın alan Mısırlının karısına Yusuf'u iyi ağırlamasını söylemesi.
+- 12:22: not relevant - Yusuf'a verilen bilgi ve hüküm, evde “rab”ın insan efendi oluşunu açıklamaz.
+- 12:24: ref ¶14 - Yusuf'un Rabb'inin deliliyle kötülükten korunması, insan ev sahibinden ayrı ilahi koruma.
+- 12:38: not relevant - Yusuf'un atalarının dininde şirkten uzak oluşu, “rab”ın ev sahibi kullanımı için komşu bağlamdır ama bağı açıklamaz.
+- 16:73: ref ¶10 - Allah'tan başka kulluk edilenin rızka mâlik olmayışı.
+- 16:74: not relevant - insanın Allah'a kendi benzetmesini kurmaması buyruğu, Allah'ın verdiği 16:75 örneğinin bağlantısı değil.
+- 16:77: not relevant - saatin ansızın gelişi, sahip olunan kul örneğini açıklamaz.
+- 17:109: not relevant - çeneleri üzere ağlayarak secde, beşinci ayetin hitap değişimini veya mülkiyetini açmaz.
+- 17:110: ref ¶10 - Allah ve Rahman adlarıyla aynı varlığa çağrı.
+- 19:91: context ¶13 (in 19:92) - Rahman'a çocuk isnadı.
+- 19:92: prose ¶13 - Rahman'ın çocuk edinmesinin reddi evrensel kulluk sözünün bağlamıdır.
+- 26:16: ref ¶14 - Musa ile Harun'un âlemlerin Rabbinin elçileri olduklarını bildirmesi.
+- 26:17: ref ¶14 - İsrailoğullarının salınmasını istemeleri.
+- 26:19: not relevant - Musa'nın geçmiş fiiline dair Firavun'un ithamı.
+- 26:20: not relevant - Musa'nın geçmiş fiiline verdiği cevap.
+- 26:21: not relevant - Musa'nın korkup kaçması ve elçi kılınması, köleleştirme fiilinin anlamını açmaz.
+- 26:23: ref ¶14 - Firavun'un “âlemlerin Rabbi nedir?” sorusu.
+- 26:24: ref ¶14 - Musa'nın göklerin ve yerin Rabbini söylemesi.
+- 36:69: not relevant - şiirle vahiy ayrımı, hayvanı uysallaştırmayla ilgisiz.
+- 36:70: not relevant - uyarının dirilere yönelmesi, hayvan mülkü sahnesine bağlanmaz.
+- 36:74: ref ¶10 - yardım beklentisiyle başka ilahlar edinilmesi.
+- 1:3 own: not relevant - Rahman ve Rahim adları aynı surenin zaten okunan başlangıcındadır; bu bölümdeki mülk-kul bağını ayrıca açıklamaz.
+- 1:4 own: cited ¶10, ¶11; nowhere else - Mâlik ve dîn bu iki paragrafta dördüncü ayetin sözleri olarak doğrudan ele alınır.
+- 1:6 own: not relevant - doğru yol dileği bu görüntünün sahip ve kul ilişkisinden sonraki istektir.
+- 12:17 own: not relevant - Yusuf'un kaybolmasına dair kardeşlerin yalanı, efendi evinin sahnesi değil.
+- 12:18 own: not relevant - kanlı gömlek ve Yakub'un sabrı, Yusuf'un ev sahibiyle ilişkisini açıklamaz.
+- 12:19 own: ref ¶14 - bulunan Yusuf'un mal gibi saklanması.
+- 12:20 own: ref ¶14 - Yusuf'un düşük bedelle satılması.
+- 12:52 own: not relevant - ihanet etmemek hakkında konuşma, burada kimin konuştuğu belirtilmeden de sahip-kul ilişkisini açmıyor.
+- 12:53 own: not relevant - nefsin kötülüğü ve Rabbin merhameti, bu görüntünün mülk ilişkisiyle doğrudan kurulmaz.
+- 12:54 own: ref ¶14 - kralın Yusuf'u kendine yakın ve güvenilir kılması.
+- 12:55 own: ref ¶14 - Yusuf'un hazinelerin yönetimini istemesi.
+- 12:56 own: ref ¶14 - Allah'ın Yusuf'a ülkede yer ve imkân vermesi.
+- 12:99 own: not relevant - ailenin Mısır'a güvenle girmesi, sahiplik sahnesine ek yapmaz.
+- 12:100 own: ref ¶13 - kendisine taht verilen Yusuf'un önünde secde edilmesi, kulun şereflendirilmesi.
+- 12:101 own: ref ¶10, ¶14 - Yusuf'un mülk payını Rabbinden aldığını söylemesi.
+- 12:102 own: not relevant - kıssanın görünmeyen haber oluşu, bu bölümün ilişkisini açıklamaz.
+- 12:103 own: not relevant - çoğunluğun iman etmemesi, efendi-kul sahnesine özgü değil.
+- 16:51 own: ref ¶12 - öne alınan ilahi muhatapla yalnız Allah'tan korkma buyruğu.
+- 16:53 own: not relevant - bütün nimetlerin Allah'tan gelişi burada belirli bir sahip-kul mekanizmasını açmaz.
+- 16:54 own: not relevant - beladan sonra şirke dönüş, bölümün somut sahiplik ilişkisini açmaz.
+- 16:55 own: not relevant - nimet karşısında inkâr uyarısı, bağımsız bir bağlantı kurmaz.
+- 39:4 own: not relevant - Allah'ın çocuk edinmemesi ve tek oluşu, burada eklenen mülk ayetinin yakın bağlamıdır ama kul rolünü özgül biçimde açıklamaz.
+- 39:5 own: not relevant - göklerin yaratılışı ve güneşin işleyişi, sahip-kul sahnesinin nesnesi değil.
+- 39:6 own: ref ¶10 - yaratma ile Rab, mülk ve ilah adlarının birleşmesi.
+- 39:7 own: prose ¶13 - inkâr edenler de Allah'ın kulları diye anılır; kul oluş seçilmiş ibadetten geniştir.
+- 39:8 own: not relevant - zararda Rabbine yönelip sonra ortak koşan insanın tutumu, bu aitlik farkını ayrıca açmaz.
+- 39:9 own: ref ¶13 - secde edenin kulluğu ve Rabbinden rahmet umması.
+- 40:62 own: ref ¶10 - her şeyin yaratıcısı Rab ve tek ilah.
+- 40:63 own: not relevant - ayetleri inkâr edenlerin çevrilmesi, bu ilişkiye özgü değil.
+- 40:64 own: ref ¶10 - insanı biçimlendiren ve rızıklandıranın Rab diye anılması.
+- 40:65 own: ref ¶11 - arı dîn ve hamdin âlemlerin Rabbine yönelmesi.
+- 40:66 own: ref ¶12 - başka kulluk nesnelerini reddedip âlemlerin Rabbine teslim olma buyruğu.
+- 40:67 own: not relevant - insanın hayat evreleri, kulun aidiyetini mülk veya ibadetle bağlamaz.
+- 40:68 own: not relevant - hayat ve ölüm üzerindeki kudret, bu ayette sahip-kul düzeniyle kurulmaz.
+- 44:16 own: not relevant - cezalandırma günü, elçinin Firavun kavmine seslenişinin parçası değil.
+- 44:17 own: context ¶14 (in 44:18) - Firavun kavmine gelen değerli elçi.
+- 44:19 own: ref ¶14 - elçinin Allah'a karşı yükselmemeyi istemesi.
+- 44:20 own: ref ¶14 - elçinin kendi Rabbiyle muhataplarının Rabbini bir tutması.
+- 67:2 own: not relevant - hayat ve ölümle imtihan, mülkü elinde tutanın bu bölümdeki kul ilişkisini özel olarak açmaz.
+- 67:3 own: not relevant - göklerin katlı yaratılışı, uysallaştırılmış yol sahnesi değil.
+- 67:4 own: not relevant - yaratılışa yeniden bakma çağrısı, sahiplik ilişkisine bağlanmaz.
+- 106:1 own: not relevant - Kureyş'in alıştırılması, Evin Rabbi adının sahip-kul anlamını kendiliğinden kurmaz.
+- 106:2 own: not relevant - kış ve yaz yolculukları, bu bölümdeki sahibin eviyle aynı sahne değil.
+- 109:4 own: ref ¶12 - konuşanın ötekinin kulluk nesnesini reddeden ikinci beyanı.
+- 109:5 own: ref ¶12 - muhatapların onun kulluk ettiğine kulluk etmediğinin tekrarı.

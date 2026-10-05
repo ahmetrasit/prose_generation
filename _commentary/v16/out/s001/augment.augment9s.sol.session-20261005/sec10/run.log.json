@@ -1,0 +1,58 @@
+{
+  "section": 10,
+  "status": "complete_reviewed",
+  "model": "gpt-6-sol",
+  "effort": "max",
+  "runner": "native collaboration agent",
+  "session": {
+    "agent_path": "/root/s1_aug_sol_10",
+    "agent_id": "01a10c87-eb2e-7250-b0b3-2a0a4aab2498",
+    "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T10-46-36-01a10c87-eb2e-7250-b0b3-2a0a4aab2498.jsonl"
+  },
+  "token_accounting": "omitted at user request",
+  "source_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "response_sha256": "1c185327c421d54f85a5c351b52c8f24d2a7e4e545cd7e95dcda8fc1ded960ab",
+  "prose": 15,
+  "reference_lines": 4,
+  "verdict_ayat": 235,
+  "completed_at": "2026-10-05T15:33:14.683070+00:00",
+  "parent_review": "All prose and reference lines read; selected canonical Arabic checks; not an exhaustive independent relevance audit. Corrected 87:2 gloss and three missing promised references. 20:52 already-cited flag is a false positive caused by geçmiş in the rejection explanation; rejection is content-based. Neighboring entries cover distinct links.",
+  "parent_review_scope": "Read prose and reference drafts; checked selected canonical ayat and targeted final corrections. Not an exhaustive independent ayah-by-ayah relevance audit.",
+  "turn_events": [
+    {
+      "timestamp": "2026-10-05T14:46:36.721Z",
+      "event": "task_started"
+    },
+    {
+      "timestamp": "2026-10-05T15:10:38.585Z",
+      "event": "task_complete"
+    },
+    {
+      "timestamp": "2026-10-05T15:11:07.022Z",
+      "event": "task_started"
+    },
+    {
+      "timestamp": "2026-10-05T15:11:52.089Z",
+      "event": "task_complete"
+    }
+  ],
+  "native_model_contexts": [
+    {
+      "model": "gpt-6-sol",
+      "effort": "max"
+    }
+  ],
+  "tool_calls_file": "tool_calls.json",
+  "title": "Sürü: sahip, öndeki hayvan, otlak ve başıboş kalan deve",
+  "paragraphs": [
+    51,
+    52,
+    53,
+    54
+  ],
+  "discovery_candidates": 197,
+  "context_neighbours": 13,
+  "judged": 235,
+  "own_knowledge_judgments": 25,
+  "distinct_ayat_in_additions": 164
+}

@@ -1,0 +1,49 @@
+{
+  "section": 8,
+  "status": "complete_reviewed",
+  "model": "gpt-6-sol",
+  "effort": "max",
+  "runner": "native collaboration agent",
+  "session": {
+    "agent_path": "/root/s1_aug_sol_08",
+    "agent_id": "01a10c87-a6b1-7640-973b-ac482b7f137a",
+    "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T10-46-19-01a10c87-a6b1-7640-973b-ac482b7f137a.jsonl"
+  },
+  "token_accounting": "omitted at user request",
+  "source_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "response_sha256": "d6f201733231fc215afb6c67c9cfa86d7ccc941533c4d187c750bf3a2f528c6c",
+  "prose": 16,
+  "reference_lines": 3,
+  "verdict_ayat": 223,
+  "completed_at": "2026-10-05T15:33:14.683070+00:00",
+  "parent_review": "Prose and reference lines read; selected canonical Arabic checks, not exhaustive independent relevance audit. Source conflicts retained separately. Neighboring reference entries with distinct contributions kept.",
+  "parent_review_scope": "Read prose and reference drafts; checked selected canonical ayat and targeted final corrections. Not an exhaustive independent ayah-by-ayah relevance audit.",
+  "turn_events": [
+    {
+      "timestamp": "2026-10-05T14:46:19.187Z",
+      "event": "task_started"
+    },
+    {
+      "timestamp": "2026-10-05T15:14:23.345Z",
+      "event": "task_complete"
+    }
+  ],
+  "native_model_contexts": [
+    {
+      "model": "gpt-6-sol",
+      "effort": "max"
+    }
+  ],
+  "tool_calls_file": "tool_calls.json",
+  "title": "Gök: gündüz, öğle güneşi, hilal ve tapılan güneş",
+  "paragraphs": [
+    42,
+    43,
+    44
+  ],
+  "discovery_candidates": 144,
+  "context_neighbours": 14,
+  "judged": 223,
+  "own_knowledge_judgments": 65,
+  "distinct_ayat_in_additions": 142
+}
