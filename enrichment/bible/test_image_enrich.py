@@ -92,6 +92,12 @@ class BibleImageTest(W.BibleWorkflowTest):
     def test_image_own_preview_and_clock_do_not_authorize_external_tools(self):
         d=(self.home/'work/own').resolve()
         self.assertTrue(I.allowed_command(f"sed -n '1,40p' {d}/preview/surah.md",d))
+        lookup = "sed -n '/BC-070cebfd3237a3852597/p'"
+        self.assertTrue(I.allowed_command(f'{lookup} {d}/candidates.jsonl',d))
+        self.assertFalse(I.allowed_command(f'{lookup} {d.parent}/other/candidates.jsonl',d))
+        self.assertFalse(I.allowed_command(f"sed -n '/BC-.*/p' {d}/candidates.jsonl",d))
+        self.assertFalse(I.allowed_command(f"sed -n '/BC-070cebfd3237a3852597/e' {d}/candidates.jsonl",d))
+        self.assertFalse(I.allowed_command(f"sed -n '/BC-070cebfd3237a3852597/w output' {d}/candidates.jsonl",d))
         self.assertFalse(I.allowed_command(f'cat {d.parent}/other/preview/surah.md',d))
         self.assertTrue(I.allowed_command(f'ls -la {d}',d))
         self.assertFalse(I.allowed_command(f'ls -la {d.parent}',d))

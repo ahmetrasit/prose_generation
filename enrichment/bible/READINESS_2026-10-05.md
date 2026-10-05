@@ -1,5 +1,33 @@
 # Bible pathway readiness — 2026-10-05
 
+The S1 surah pilot is now accepted: **14 Sol max image authors, 340 annotations
+and 4,030 judgments**, with the original r13 commentary preserved. See the
+[accepted page and evidence](audits/image-s001-session-20261005/README.md).
+Its 3,817 discovery connections came from the completed S1 two-reader discovery
+pilot, which also covered all seven ayat. The page pilot used local witnesses;
+313 distinct candidate references remained unavailable and no network expansion
+was attempted. Missing evidence is retained in its gap ledger.
+
+The [saved decision](DECISIONS.md) makes original completed r13 image commentary
+the surah Bible target; image augment9s is optional and later additions can receive
+a separate pass. Ayah enrichment still uses completed augment9 ayah commentary.
+This session uses one Sol max author per image. The default page-author model is
+unchanged for other runs. Both Bible test modules pass: 77 distinct tests.
+
+S87 discovery is in progress across 18 images and 19 ayat (74 Luna/Terra max
+sessions). The user approved nine exact locator corrections; their original
+files and acceptance records are preserved in the
+[S87 repair audit](audits/s087-prepared-20261005/repairs-wave1.accepted.json).
+The seven held first-pass sessions have resumed their single fixed follow-up.
+No S87 page authors have started. Complete the remaining follow-ups and audits,
+report the batch, and prepare verified source handoffs before writing S87 pages.
+S1 ayah page authors and broader source coverage also remain separate work.
+Nothing has been published.
+
+## Earlier implementation-readiness assessment (before the live pilot)
+
+The following is the historical assessment made before native discovery began.
+
 **Local implementation and offline checks are ready for a live pilot. Production
 content readiness is still pending that pilot.** S1 page preflight correctly
 reports `ready: false` because no native Bible discovery sessions have completed.

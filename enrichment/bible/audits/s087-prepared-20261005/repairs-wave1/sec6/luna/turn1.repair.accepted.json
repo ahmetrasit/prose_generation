@@ -1,0 +1,37 @@
+{
+  "policy": "bible-first-turn-repair-v1",
+  "approval": "User explicitly answered \"Apply all nine recorded S87 corrections\" to question call_e2ecf3f0da1e408981812a48803204c0 on 2026-10-05. Exact review: enrichment/bible/audits/s087-prepared-20261005/repairs-wave1.proposed.json; SHA256 3335456921ec036607f7e71a00374470882705692e54f21f855721ec3ad13120",
+  "tool_audit_reviewed": true,
+  "accepted_at": "2026-10-05T19:04:54.039424+00:00",
+  "changes": [
+    {
+      "line": 32,
+      "before": [
+        "strong",
+        "tevrat",
+        "motif",
+        "WLC:Ps.65.15",
+        "pastures clothed and valleys covered with grain",
+        "The commentary contrasts failing pasture with cultivated produce; the psalm pictures pasture and valley alike clothed with flocks and grain, adding a scene of abundant land rather than withering grass."
+      ],
+      "after": [
+        "strong",
+        "tevrat",
+        "motif",
+        "WLC:Ps.65.14",
+        "pastures clothed and valleys covered with grain",
+        "The commentary contrasts failing pasture with cultivated produce; the psalm pictures pasture and valley alike clothed with flocks and grain, adding a scene of abundant land rather than withering grass."
+      ],
+      "reason": "The described flocks and grain occur in WLC Psalm 65:14; verse 15 does not exist."
+    }
+  ],
+  "model_calls": 0,
+  "artifacts": {
+    "turn1.original.tsv": "f151c9c35574df2e5951b91ca91ec254420cbef75cdd6af8c9198b317de972b1",
+    "turn1.validation.failed.json": "26c9331d6f1bfc7373fe1078437d88eeefd279afe321d6778ad43620d4f2a351",
+    "turn1.tool_calls.json": "13f050d0cf75292ce6954c526c5e646e6981f693eee4e75a0434661c94fa6818",
+    "turn1.repair.proposed.json": "7f48abb99a75c8a05b3731472bd4b7302a57292c63ffb13e001883ac71810566",
+    "turn1.repair.proposed.tsv": "e3f2797ac2bcff905e92d8febc4a5a1e54c370e6199dc299cb3102d6bbaca9d6",
+    "turn1.accepted.tsv": "e3f2797ac2bcff905e92d8febc4a5a1e54c370e6199dc299cb3102d6bbaca9d6"
+  }
+}

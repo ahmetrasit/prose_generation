@@ -1,0 +1,80 @@
+{
+  "target": "sec16",
+  "base_path": "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md",
+  "base_sha256": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+  "inputs": {
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/base/surah.md": "5e9ef0a461cc99bfb9b4c0e1b4609dd85b292c96610df2a0bb8cfe5bd670daa3",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/quran.json": "84889a1557041acbe0cd1ce3802d9baec43b30f5e6aad03c4d20d7b6c5a4c299",
+    "/Volumes/aro/projects/prose_generation/enrichment/bible/work/s087/pack/pack.json": "c9e6ea3370cc03f98d5a9ae0a2189d83ca291ab99860d7615176284b3c491eee"
+  },
+  "started": "2026-10-05T13:21:58.889059-04:00",
+  "runner": "agent",
+  "protocol": "bible-separate-proposals-v2",
+  "agent_path": "/root/bible_s087_prepared_20261005_sec16_luna",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "run_tag": "prepared-20261005",
+  "prompt_sha256": "fc9bbb099813a9cccd5b2775f94803e35691d9d3df7de798be6544b6350d23c5",
+  "package_sha256": "91dd19b75520f6305e1b172adde70a90cd7a716b7ac53141fba1c3f3cd001b03",
+  "input_sha256": "dca4fd8ed18919c4a7130c05a463c0cf57c48e6826505dff48d8c79ee77d9fd2",
+  "spawn_sha256": "84a6bdf0760a2b9d0effed206d62d2b3a1ab0bff19970ac6ca375093cd8f2cfd",
+  "followup_text_sha256": "38cfad20bcb2f4ad848854fa9ee8a78e598237169cc7aa036e11ca2ed9446607",
+  "agent_id": "01a10d1c-4cc7-7aa2-b50f-71443eab4dc6",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T13-28-40-01a10d1c-4cc7-7aa2-b50f-71443eab4dc6.jsonl",
+  "arm": "discover-bible",
+  "reference_resolver": "edition-book-names-v2",
+  "status": "partial",
+  "check": "findings",
+  "turn1_rows": 70,
+  "turn1_sha256": "2611b45ca3fefc3cccee5c6f7c240f3dc92ed6a236bfd67ec4b136b281158723",
+  "turn2": {
+    "completed": true,
+    "rows_total": 70,
+    "rows_added": 0
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "protocol_findings": [],
+  "consolidation": null,
+  "consolidation_error": "invalid TSV: ['line 41: unknown verse in specified edition: SBLGNT:Didache 1:4-5']",
+  "list_sha256": "2611b45ca3fefc3cccee5c6f7c240f3dc92ed6a236bfd67ec4b136b281158723",
+  "followup_delivery": [
+    {
+      "call_id": "call_rfdLQOj6XlrXYFZysyO9mAgK",
+      "encrypted": true,
+      "matches": false
+    }
+  ],
+  "usage_tokens": {
+    "input_tokens": 343275,
+    "cached_input_tokens": 289024,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 31759,
+    "reasoning_output_tokens": 24142,
+    "total_tokens": 375034
+  },
+  "estimate_usd": 0.0,
+  "cost_usd": 0.0,
+  "cost_basis": "Codex subscription",
+  "completed_at": "2026-10-05T18:13:35.830Z",
+  "artifacts": {
+    "started.json": "f57caefd41b8100278cf6815c4b7e7eefc74a559d911433b19bcb8ba358dabec",
+    "input.json": "dca4fd8ed18919c4a7130c05a463c0cf57c48e6826505dff48d8c79ee77d9fd2",
+    "prompt.md": "fc9bbb099813a9cccd5b2775f94803e35691d9d3df7de798be6544b6350d23c5",
+    "package.md": "91dd19b75520f6305e1b172adde70a90cd7a716b7ac53141fba1c3f3cd001b03",
+    "spawn.md": "84a6bdf0760a2b9d0effed206d62d2b3a1ab0bff19970ac6ca375093cd8f2cfd",
+    "followup.txt": "38cfad20bcb2f4ad848854fa9ee8a78e598237169cc7aa036e11ca2ed9446607",
+    "turn1.json": "333f5e373dadeaed1284b05d2b4350c3eec7784a4cf09d72454ff4c786e7d5e3",
+    "turn1.list.tsv": "2611b45ca3fefc3cccee5c6f7c240f3dc92ed6a236bfd67ec4b136b281158723",
+    "followup.tsv": "aa120bec1247f36b5a6aad9a9c02e2aff1c9877a7e5b4c7d167abec1e3c9e3f1",
+    "list.tsv": "2611b45ca3fefc3cccee5c6f7c240f3dc92ed6a236bfd67ec4b136b281158723",
+    "validation.json": "b2241b535c307913e3556c5686b9fa6563ca84fb8bc697a4018feaf17bf74ee0",
+    "proposal_validation.json": "d263f2b6c3fc319adace711ca58ba37582866ccc77fa2e171ccefd8553d17685",
+    "tool_calls.json": "463446ae60a44bade0fb1910348459360574a50d66c6f8968c99abdd7b3cfd11",
+    "session.json": "774045b610fadb50489ba743e0f45e6a6edc7827f9fd155c494027588f0f924f",
+    "session.events.jsonl": "4e37dea7732dfb1e19f74e083425438562a923dd00311e9370b33b03c6b9d422"
+  }
+}

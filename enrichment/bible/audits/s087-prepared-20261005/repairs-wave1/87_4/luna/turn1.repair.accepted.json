@@ -1,0 +1,37 @@
+{
+  "policy": "bible-first-turn-repair-v1",
+  "approval": "User explicitly answered \"Apply all nine recorded S87 corrections\" to question call_e2ecf3f0da1e408981812a48803204c0 on 2026-10-05. Exact review: enrichment/bible/audits/s087-prepared-20261005/repairs-wave1.proposed.json; SHA256 3335456921ec036607f7e71a00374470882705692e54f21f855721ec3ad13120",
+  "tool_audit_reviewed": true,
+  "accepted_at": "2026-10-05T19:04:50.553861+00:00",
+  "changes": [
+    {
+      "line": 51,
+      "before": [
+        "medium",
+        "tevrat",
+        "motif",
+        "WLC:Pro.27.23",
+        "Attend carefully to the flock",
+        "The commentary gives the shepherd’s work a sense of watching over the herd and its future; Proverbs tells the keeper to know the state of his flock and attend to the herds, making that practical oversight explicit in its own pastoral setting."
+      ],
+      "after": [
+        "medium",
+        "tevrat",
+        "motif",
+        "WLC:Prov.27.23",
+        "Attend carefully to the flock",
+        "The commentary gives the shepherd’s work a sense of watching over the herd and its future; Proverbs tells the keeper to know the state of his flock and attend to the herds, making that practical oversight explicit in its own pastoral setting."
+      ],
+      "reason": "Correct the unsupported book code Pro to the corpus OSIS code Prov; chapter and verse unchanged."
+    }
+  ],
+  "model_calls": 0,
+  "artifacts": {
+    "turn1.original.tsv": "810b1e319cc6f604724747537a73ad1c42775810b1dcd81aeeb3efcecdb02941",
+    "turn1.validation.failed.json": "19a8edaa4fc016a2afaa208cd3aa9ce89cdc1dff882e1f2763e1c8ef2d994b9f",
+    "turn1.tool_calls.json": "4a8806aa9ba48d30447011944788c16793bae0b1111bc4d901bcad8278c33b53",
+    "turn1.repair.proposed.json": "a623a1df96a9567d348c257577bb9c165cdb0676ade75255c79375f9c3d6c4dd",
+    "turn1.repair.proposed.tsv": "f73198c4de0aed3c24b03a4a1bbcf889f8a7261dc56d04648acd395fec4e61ba",
+    "turn1.accepted.tsv": "f73198c4de0aed3c24b03a4a1bbcf889f8a7261dc56d04648acd395fec4e61ba"
+  }
+}

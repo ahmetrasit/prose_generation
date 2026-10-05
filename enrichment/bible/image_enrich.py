@@ -278,7 +278,7 @@ def allowed_command(cmd, d):
         return len(paths) == 1 and (Path(paths[0]) if Path(paths[0]).is_absolute() else E.PG/paths[0]).resolve() == d
     if args[0] == 'cat':
         paths = args[1:]
-    elif args[:2] == ['sed', '-n'] and len(args) == 4 and re.fullmatch(r'\d+,\d+p', args[2]):
+    elif args[:2] == ['sed', '-n'] and len(args) == 4 and re.fullmatch(r'(?:\d+,\d+p|/BC-[0-9a-f]{20}/p)', args[2]):
         paths = args[3:]
     else:
         paths = None

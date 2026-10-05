@@ -1,0 +1,48 @@
+{
+  "quotes": 286,
+  "exact": 283,
+  "normalized": 284,
+  "findings": [
+    {
+      "section": "sec5",
+      "annotation": "S001-INC-MTF-004",
+      "ref": "SBLGNT:Jas.1.5",
+      "language": "el",
+      "quote": "πᾶσιν ἁπλῶς καὶ μὴ ὀνειδίζοντος",
+      "exact": false,
+      "normalized": false,
+      "source_text": "Εἰ δέ τις ὑμῶν λείπεται σοφίας, αἰτείτω παρὰ τοῦ διδόντος θεοῦ πᾶσιν ἁπλῶς καὶ ⸀μὴ ὀνειδίζοντος, καὶ δοθήσεται αὐτῷ·",
+      "review": "SBLGNT apparatus delimiters are omitted; the quoted Greek words agree with the witness."
+    },
+    {
+      "section": "sec5",
+      "annotation": "S001-INC-MTF-008",
+      "ref": "SBLGNT:Mark.5.19",
+      "language": "el",
+      "quote": "ἀπάγγειλον αὐτοῖς ὅσα ὁ κύριός σοι πεποίηκεν καὶ ἠλέησέν σε",
+      "exact": false,
+      "normalized": false,
+      "source_text": "⸀καὶ οὐκ ἀφῆκεν αὐτόν, ἀλλὰ λέγει αὐτῷ· Ὕπαγε εἰς τὸν οἶκόν σου πρὸς τοὺς σούς, καὶ ⸀ἀπάγγειλον αὐτοῖς ὅσα ⸂ὁ κύριός σοι⸃ πεποίηκεν καὶ ἠλέησέν σε.",
+      "review": "SBLGNT apparatus delimiters are omitted; the quoted Greek words agree with the witness."
+    },
+    {
+      "section": "sec8",
+      "annotation": "S001-TEV-MTF-001",
+      "ref": "WLC:Gen.1.14",
+      "language": "he",
+      "quote": "לְאֹתֹת֙ וּלְמוֹעֲדִ֔ים וּלְיָמִ֖ים וְשָׁנִֽים",
+      "exact": false,
+      "normalized": true,
+      "review": "A cantillation mark is omitted in ulmoʿadim; normalized consonants and vowels agree with the WLC witness."
+    }
+  ],
+  "operator_corrections": [
+    {
+      "section": "sec9",
+      "record": "images/sec9/operator-quotation-correction.json",
+      "original": "images/sec9/annotations.author.jsonl",
+      "reason": "Removed one extra Hebrew yod to reproduce WLC:Exod.2.17 exactly."
+    }
+  ],
+  "limits": "A text-match aid, not a judgment of interpretation, transliteration or Turkish glosses."
+}

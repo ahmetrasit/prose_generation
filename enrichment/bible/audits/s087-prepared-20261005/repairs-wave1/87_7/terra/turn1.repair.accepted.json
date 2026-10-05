@@ -1,0 +1,37 @@
+{
+  "policy": "bible-first-turn-repair-v1",
+  "approval": "User explicitly answered \"Apply all nine recorded S87 corrections\" to question call_e2ecf3f0da1e408981812a48803204c0 on 2026-10-05. Exact review: enrichment/bible/audits/s087-prepared-20261005/repairs-wave1.proposed.json; SHA256 3335456921ec036607f7e71a00374470882705692e54f21f855721ec3ad13120",
+  "tool_audit_reviewed": true,
+  "accepted_at": "2026-10-05T19:04:51.154235+00:00",
+  "changes": [
+    {
+      "line": 26,
+      "before": [
+        "strong",
+        "tevrat",
+        "motif",
+        "WLC:Ecc.12.14",
+        "gizli her işin yargıya getirilmesi",
+        "Yorum, ortaya çıkma gününde gizli hiçbir şeyin saklı kalmadığını anlatır; Vaiz Tanrı'nın iyi ya da kötü her gizli işi yargıya getireceğini söyler. Gizlinin eskatolojik açılması bakımından yakın bir motiftir."
+      ],
+      "after": [
+        "strong",
+        "tevrat",
+        "motif",
+        "WLC:Eccl.12.14",
+        "gizli her işin yargıya getirilmesi",
+        "Yorum, ortaya çıkma gününde gizli hiçbir şeyin saklı kalmadığını anlatır; Vaiz Tanrı'nın iyi ya da kötü her gizli işi yargıya getireceğini söyler. Gizlinin eskatolojik açılması bakımından yakın bir motiftir."
+      ],
+      "reason": "Correct the unsupported book code Ecc to Eccl; the opened local verse describes judgment of every hidden deed."
+    }
+  ],
+  "model_calls": 0,
+  "artifacts": {
+    "turn1.original.tsv": "3899ad04ddd981284c15add0b8a70c5351bd402cabc2ec2a1c6455e61bf99658",
+    "turn1.validation.failed.json": "5ce5b9b69c6e12563715124b7ee8c192dfa4e3b64426e41046405936d9a00f0c",
+    "turn1.tool_calls.json": "023d9bee497893c15ef8ff733a575fa27c20884686aacad9c96426a4cf97a08a",
+    "turn1.repair.proposed.json": "a375712d539776cc2f301a3163488cbc57ae57e0de2f63163ab69f7ff8af8b82",
+    "turn1.repair.proposed.tsv": "dde19e7769c4bc64e8df9f90d4b3694eac6659b83e43133460a4e9b4f6d18d14",
+    "turn1.accepted.tsv": "dde19e7769c4bc64e8df9f90d4b3694eac6659b83e43133460a4e9b4f6d18d14"
+  }
+}

@@ -284,6 +284,8 @@ message and parent delivery proof. Failed attempts remain visible; they are neve
 counted as successful completions. Reading the agent's own generated preview and
 checking the clock are operational activities, not additional research sources.
 The same applies to a nonrecursive listing of the agent's own call directory.
+An exact candidate-ID lookup with `sed -n '/BC-<20 lowercase hex digits>/p'`
+is an allowed read of the agent's own files; other sed scripts remain prohibited.
 
 Each image must pass schema, paragraph-scope, candidate/gap-coverage and actual
 opened-evidence checks. Canonical rejection requires the original verse too.
@@ -365,7 +367,7 @@ marks a page containing only one layer as partial. No publication is performed.
 ## Verification
 
 ```sh
-python3 -B -m unittest enrichment.bible.test_workflow -v
+python3 -B -m unittest enrichment.bible.test_workflow enrichment.bible.test_image_enrich -v
 ```
 
 The tests use temporary packs, indexes, annotations and mocked fetches. They do

@@ -50,13 +50,14 @@ Permitted commands (one at a time; no shell chaining, loops, redirection or arbi
 
     cat {{DIRECTORY}}/FILE
     sed -n '1,40p' {{DIRECTORY}}/FILE
+    sed -n '/BC-070cebfd3237a3852597/p' {{DIRECTORY}}/candidates.jsonl
     python3 {{ROOT}}/enrichment/bible/corpus.py --intertext sources
     python3 {{ROOT}}/enrichment/bible/corpus.py --intertext ayah {{SURAH}}:1 --chars 1500
     python3 {{ROOT}}/enrichment/bible/corpus.py --intertext search 'Hebrew or Greek words' --src WLC --n 10 --chars 300
     python3 {{ROOT}}/enrichment/bible/corpus.py --intertext get WLC:Gen.1.1 SBLGNT:Matt.1.1 --chars 1500
     python3 {{ROOT}}/enrichment/bible/image_enrich.py check --dir {{DIRECTORY}}
 
-Replace the example ayah, words and locators as appropriate. Search Greek with --src SBLGNT. Open batches of
+Replace the example ayah, words, exact candidate ID and locators as appropriate. Search Greek with --src SBLGNT. Open batches of
 about 5–10 verses to avoid output truncation. Reopen truncated passages using --from and --chars. A search
 snippet is not opened evidence. Each get lookup, including neighbours, needs a verdict in the final ledger.
 
