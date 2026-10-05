@@ -34,6 +34,16 @@ FOLLOWUP = ("Review your remembered coverage for qualifying omissions under the 
             "using the same TSV schema. Keep existing bytes unchanged. Zero additions is valid. Do not read any files, "
             "retrieve sources, or run scripts; a file-write tool or a literal append-only shell write solely to save "
             "the rows is permitted. Do not regrade, sort, or rewrite the existing list. Return only a brief completion notice.")
+FOLLOWUP_SEPARATE = ("Review your remembered coverage for qualifying omissions under the same inclusion and grading rules, "
+    "checking the section's distinct scenes and secondary details, repeated formulations, specific indirect parallels, "
+    "reversals, and necessary passage continuations. Write only the new candidate proposals to {output} using the same "
+    "four-field TSV schema, with no header. Do not modify list.tsv. Check from memory that each proposal belongs to its "
+    "cited ayah; distinguish that ayah's contribution from neighbouring verses. Prefer English over uncertain Arabic quotations. "
+    "Do not repeat references intentionally. The workflow will preserve your proposals and append each new reference once; "
+    "it will retain repeated proposals in an audit sidecar without changing existing rows or grades. Zero additions is valid: "
+    "create an empty followup.tsv. Do not read any files, retrieve sources, consult other agents, or run scripts. A file-write "
+    "tool or literal shell write solely to save followup.tsv is permitted. Return only a brief completion notice, including "
+    "any self-detected accuracy concerns; do not send separate messages.")
 SECTION = re.compile(r"(?m)^## (.+)$")
 KAYNAK = re.compile(r"(?m)^Kaynaklar:\s*(.*)$")
 MEMBER = re.compile(r"\s*(\d+:\d+)\s+(.+?)\s+([ء-ي](?:\s+[ء-ي]){2,3})\s+(B\d+(?:\s*,\s*B\d+)*)\s*")
@@ -215,6 +225,13 @@ def merge(s: int, secs: list[dict], q: dict[str, str], run_tag: str = "") -> Non
                 raise ValueError(f"S{s} sec{sec['k']}: missing finished {model} run; no partial merge")
             rows, bad = parse_rows(f, s, q)
             log = json.loads((base / model / "run.log.json").read_text(encoding="utf-8"))
+            import hashlib
+            if log.get('list_sha256') and hashlib.sha256(f.read_bytes()).hexdigest() != log['list_sha256']:
+                raise ValueError(f"S{s} sec{sec['k']} {model}: list changed after finish")
+            if log.get('followup_mode') == 'separate-proposals-v1':
+                proposal = base / model / 'followup.tsv'
+                if not proposal.exists() or hashlib.sha256(proposal.read_bytes()).hexdigest() != log['consolidation']['followup_sha256']:
+                    raise ValueError(f"S{s} sec{sec['k']} {model}: raw proposals changed after finish")
             first_path = base / model / "turn1.list.tsv"
             if (log.get("status") != "ok" or not log.get("turn2", {}).get("completed")
                     or bad or len({r["ref"] for r in rows}) != len(rows) or not first_path.exists()):
@@ -245,16 +262,18 @@ def merge(s: int, secs: list[dict], q: dict[str, str], run_tag: str = "") -> Non
             for m in per:
                 cells += [per[m][r]["strength"] if r in per[m] else "", str(per[m][r]["turn"]) if r in per[m] else ""]
             lines.append("\t".join([r, tier, *cells, "+".join(bases), notes]))
-        (base.with_name(f"sec{sec['k']}.merged.tsv")).write_text("\n".join(lines) + "\n", encoding="utf-8")
         import hashlib
         merged_file = base.with_name(f"sec{sec['k']}.merged.tsv")
         source_hashes = {json.loads((base / m / "run.log.json").read_text()).get("source_sha256") for m in per}
         if len(source_hashes) != 1:
             raise ValueError("Model runs used different source commentary versions")
+        merged_file.write_text("\n".join(lines) + "\n", encoding="utf-8")
         audit = {"surah": s, "section": sec["k"], "run_tag": run_tag,
                  "source_sha256": next(iter(source_hashes)),
                  "list_sha256": hashlib.sha256(merged_file.read_bytes()).hexdigest(),
                  "models": {m: {"run_log": str(base / m / "run.log.json"),
+                                 "consolidation": json.loads((base / m / "consolidation.json").read_text())
+                                 if (base / m / "consolidation.json").exists() else None,
                                  "validation_review": json.loads((base / m / "validation_review.json").read_text())
                                  if (base / m / "validation_review.json").exists() else None,
                                  "validation": json.loads((base / m / "validation.json").read_text())

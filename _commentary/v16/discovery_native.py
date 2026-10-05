@@ -21,6 +21,40 @@ def save(path, value):
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n")
 
 
+def consolidate(d, surah, verses):
+    """Preserve raw proposals; append each new ref once without regrading."""
+    first = (d / "turn1.list.tsv").read_bytes()
+    if (d / "list.tsv").read_bytes() != first:
+        raise ValueError("Agent changed list.tsv during the separate-proposals follow-up")
+    initial, bad = D.parse_rows(d / "turn1.list.tsv", surah, verses)
+    proposed, extra_bad = D.parse_rows(d / "followup.tsv", surah, verses)
+    if bad or extra_bad or len({r['ref'] for r in initial}) != len(initial):
+        raise ValueError(f"Invalid discovery input: {bad + extra_bad}")
+    if first and not first.endswith(b"\n"):
+        raise ValueError("First-turn TSV must end with newline before consolidation")
+    seen = {r['ref']: {'phase': 1, 'line': r['line']} for r in initial}
+    raw = (d / "followup.tsv").read_bytes()
+    raw_lines = raw.splitlines(keepends=True)
+    additions, repeated = [], []
+    for row in proposed:
+        if row['ref'] in seen:
+            repeated.append({**row, 'kept': seen[row['ref']]})
+            continue
+        seen[row['ref']] = {'phase': 2, 'line': row['line']}
+        line = raw_lines[row['line'] - 1]
+        additions.append(line if line.endswith(b"\n") else line + b"\n")
+    final = first + b"".join(additions)
+    report = {'mode': 'separate-proposals-v1', 'raw_proposal_rows': len(proposed),
+              'unique_additions': len(additions), 'repeated_proposals': repeated,
+              'turn1_sha256': hashlib.sha256(first).hexdigest(),
+              'followup_sha256': hashlib.sha256(raw).hexdigest(),
+              'list_sha256': hashlib.sha256(final).hexdigest(),
+              'policy': 'First occurrence retained; no existing row or grade changed. Raw followup.tsv preserved.'}
+    save(d / "consolidation.json", report)
+    (d / "list.tsv").write_bytes(final)
+    return report
+
+
 def session_for(d):
     if (d / "session.json").exists():
         return json.loads((d / "session.json").read_text())
@@ -97,6 +131,7 @@ def main():
         _, source, _ = D.B.surah_inputs(a.surah)
         save(d / "started.json", {"source_file": str(source), "source_sha256": hashlib.sha256(source.read_bytes()).hexdigest(),"started": datetime.now().astimezone().isoformat(), "model": D.MODELS[a.model],
              "effort": D.EFFORT, "runner": "agent", "agent_path": "/root/" + a.task,
+             "followup_mode": "separate-proposals-v1",
              "run_tag": a.run_tag, "surah": a.surah, "section": a.section, "prompt_sha256": prompt_hash,
              "package_sha256": hashlib.sha256((d / "package.md").read_bytes()).hexdigest()})
         message = (f"Read {d / 'prompt.md'} fully, then follow it using its package.md. "
@@ -108,7 +143,7 @@ def main():
                    "Return a short completion message after saving. A follow-up will arrive in this same session; "
                    "do not anticipate it.")
         (d / "spawn.md").write_text(message + "\n")
-        (d / "followup.txt").write_text(D.FOLLOWUP + "\n")
+        (d / "followup.txt").write_text(D.FOLLOWUP_SEPARATE.format(output=d / "followup.tsv") + "\n")
         print(message)
         return
     session, events, done, contexts, usage = events_for(d)
@@ -119,6 +154,8 @@ def main():
         if len(done) != 1 or not (d / "list.tsv").exists():
             raise SystemExit(f"Expected one completed turn and an output file; completions={len(done)}")
         data = (d / "list.tsv").read_bytes()
+        if bad or len({r['ref'] for r in rows}) != len(rows) or (data and not data.endswith(b"\n")):
+            raise SystemExit(f"Invalid first-turn TSV; no follow-up permitted: {bad}")
         (d / "turn1.list.tsv").write_bytes(data)
         save(d / "turn1.json", {**session, "rows": len(rows), "lines": len(data.splitlines()),
              "bad_rows": bad, "usage": usage, "completed_at": done[0]["timestamp"]})
@@ -140,13 +177,22 @@ def main():
     if (d / "run.log.json").exists():
         raise SystemExit("BLOCKED: already finished")
     start = json.loads((d / "started.json").read_text())
+    consolidation, consolidation_error = None, None
+    if start.get("followup_mode") == "separate-proposals-v1":
+        if len(done) != 2:
+            raise SystemExit("Expected two completed turns before consolidation")
+        try:
+            consolidation = consolidate(d, a.surah, D.M.verses())
+        except (ValueError, FileNotFoundError) as exc:
+            consolidation_error = str(exc)
+        rows, bad = D.parse_rows(d / "list.tsv", a.surah, D.M.verses())
     final = (d / "list.tsv").read_bytes()
     prefix_ok = final.startswith((d / "turn1.list.tsv").read_bytes())
     duplicates = {r: n for r, n in Counter(r["ref"] for r in rows).items() if n > 1}
     model_ok = bool(contexts) and all(c.get("model") == D.MODELS[a.model] and c.get("effort") == D.EFFORT for c in contexts)
     inputs_ok = all(hashlib.sha256((d / filename).read_bytes()).hexdigest() == start[field]
                     for filename, field in (("prompt.md", "prompt_sha256"), ("package.md", "package_sha256")))
-    fatal = bool(bad or duplicates or len(done) != 2 or not prefix_ok or not model_ok or not inputs_ok)
+    fatal = bool(consolidation_error or bad or duplicates or len(done) != 2 or not prefix_ok or not model_ok or not inputs_ok)
     meta = next(e["payload"] for e in events if e.get("type") == "session_meta")
     parent_id = meta.get("parent_thread_id") or meta.get("source", {}).get("subagent", {}).get("thread_spawn", {}).get("parent_thread_id")
     proof = []
@@ -165,6 +211,8 @@ def main():
                           "message_encrypted": message.startswith("gAAAAA"),
                           "plaintext_matches": message == (d / "followup.txt").read_text().strip()})
     protocol_findings = [] if len(proof) == 1 else [f"Expected one follow-up delivery record, found {len(proof)}"]
+    if any(not p['message_encrypted'] and not p['plaintext_matches'] for p in proof):
+        protocol_findings.append("Delivered follow-up does not match saved followup.txt")
     if protocol_findings:
         fatal = True
     validation = C.check(d / "list.tsv", a.surah, D.M.verses())
@@ -172,7 +220,9 @@ def main():
     row = {"ref": f"S{a.surah}", "arm": "discover", "brief": f"{a.run_tag}.{a.model}.sec{a.section}",
            "run_tag": a.run_tag, "section_number": a.section, "model": D.MODELS[a.model], "effort": D.EFFORT,
            "runner": "agent", **session, "estimate_usd": 0, "cost_usd": 0, "cost_basis": "Codex subscription",
-           "status": "partial" if fatal else "ok", "check": "findings" if fatal or diagnostics or validation["arabic_findings"] else "ok",
+           "status": "partial" if fatal else "ok", "check": "findings" if fatal or diagnostics or validation["arabic_findings"] or (consolidation and consolidation['repeated_proposals']) else "ok",
+           "followup_mode": start.get("followup_mode", "legacy-append"),
+           "consolidation": consolidation, "consolidation_error": consolidation_error,
            "usage_tokens": usage, "turn1_rows": first["rows"], "turn1_lines": first["lines"],
            "turn1": first, "turn2": {"completed": len(done) == 2, "rows_total": len(rows), "rows_added": len(rows) - first["rows"],
                                     "usage": {k: v - first["usage"].get(k, 0) for k, v in usage.items()} if usage and first["usage"] else None},

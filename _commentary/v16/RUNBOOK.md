@@ -25,7 +25,9 @@ that led here is `REVIEW_production.md`. This file holds only what is needed to 
      row with `status accepted`). 1:4, 2026-10-04: accepted.
 4. **No silent failures.** Report every `WARNING:`, `NOTE:` and `BLOCKED:` line the scripts print, every traceback,
    and every ledger row whose `status` is not `ok`/`accepted`, whose `check` is not `ok`, or that has a `post_error`.
-   When a step's output is not clean, stop that surah and let the user decide.
+   Structural/provenance failures (`partial`, `error`, or `check failed`) block merging; stop that surah and let
+   the user decide. `status ok` with `check findings` permits continuation after the findings are reported.
+   Existing authorization to rerun or resume is sufficient; do not request the same go again.
 5. **Augment runs on ayah readings only** (`augment.py` refuses a surah commentary); the surah commentary has its
    own step (2b below), not started without the user's confirmation.
 6. **Seven agents at a time** (user, 2026-10-04): spawn at most seven runs in one message, finish them, report,
@@ -178,7 +180,7 @@ python3 -B _commentary/v16/packets.py finish --run out/sNNN/images.r13.map3.nohf
   ledger; anything else is `images.partial.md`, the finish exits non-zero, and no reading is built on it.
 - An image section without a `Kaynaklar:` line is printed as a WARNING by `slices` and by the writer build.
 
-## Step 2b (built, not started): the surah-commentary augment
+## Step 2b: discovery and the surah-commentary augment
 
 Deferred on 2026-10-04 until a dedicated image-based step existed; it exists now and **waits for the user's
 confirmation to start**. Two parts:
@@ -205,8 +207,15 @@ python3 -B _commentary/v16/discover.py --surah N --sections K --run-tag revision
 
 - Output: `out/sNNN/discovery/<run-tag>/sec<k>/<model>/` and `sec<k>.merged.tsv`, plus an audit sidecar.
   Never reuse a started directory; a user-authorized rerun gets a fresh tag. Historical outputs remain intact.
-- Save the first-turn list before the follow-up. The follow-up permits only append writes, no reads, retrieval,
-  scripts, regrading or sorting. Zero additions is valid. Derive merged turn provenance from the snapshot.
+- Save and validate the unique first-turn list before the follow-up. New native runs use `separate-proposals-v1`:
+  the same agent writes only `followup.tsv`, with no reads, retrieval, scripts or other-agent consultation. It
+  leaves `list.tsv` unchanged. Zero additions means an explicitly created empty `followup.tsv`.
+- Finish validates all raw proposals, then appends each new reference once, preserving the first-turn bytes
+  and the first proposed row for each new reference. Repeated references never change grades or explanations;
+  every repeated proposal, its explanation and retained occurrence remain in `consolidation.json`. Keep raw
+  `followup.tsv` intact. Repetition is a reported finding, not a failed run. Malformed/missing proposals or a
+  changed first-turn list are failures. No model calls occur during consolidation. Legacy runs retain their
+  original direct-append protocol; never silently convert their histories.
 - Require both completed model runs, unchanged first-turn prefixes, valid schema, and no duplicate refs before
   merging. Missing deliverables and blank explanations are errors. An intentionally written empty list is distinct.
 - Labels retain both model judgments; the union uses the best reported label, not validated confidence.
@@ -215,6 +224,9 @@ python3 -B _commentary/v16/discover.py --surah N --sections K --run-tag revision
   audit and usage. Codex subscription runs carry estimate and actual charge $0. Report all findings.
 - At most seven agents per batch; complete their follow-ups and audits, report, commit and push, then continue
   the already-authorized next batch. A full discovery go never authorizes Opus.
+- A user-authorized fresh attempt can supersede unfinished sessions without reusing their directories or
+  pretending they completed. Record explicit per-section attempt selection for downstream builds. S1's
+  2026-10-05 restart uses revision3 for completed images 1–3 and fresh revision4 for images 4–14.
 
 **Augment** (`augment_surah.py`): augment9's verdict pass over one section at a time, seeded by the section's merged
 list (brief `prompts/augment9s/augment.md`: same output, paragraph numbers as in the whole commentary, only the

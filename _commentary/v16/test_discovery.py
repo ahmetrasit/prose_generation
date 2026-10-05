@@ -10,9 +10,39 @@ from unittest.mock import patch
 import augment_surah as A
 import check_discovery as C
 import discover as D
+import discovery_native as N
 
 
 class DiscoveryChecks(unittest.TestCase):
+    def test_followup_repeats_preserve_first_rows_and_raw_evidence(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            d = Path(tmp)
+            first = b'strong\t2:1\troot\tFirst\n'
+            proposals = b'weak\t2:1\ttheme\tExisting repeat\nmedium\t2:2\tscene\tNew\nstrong\t2:2\troot\tRepeat would promote\n'
+            (d/'turn1.list.tsv').write_bytes(first)
+            (d/'list.tsv').write_bytes(first)
+            (d/'followup.tsv').write_bytes(proposals)
+            report = N.consolidate(d, 1, {'2:1':'الم', '2:2':'ذلك'})
+            self.assertEqual((d/'list.tsv').read_bytes(), first+b'medium\t2:2\tscene\tNew\n')
+            self.assertEqual((d/'followup.tsv').read_bytes(), proposals)
+            self.assertEqual(report['unique_additions'], 1)
+            self.assertEqual([r['ref'] for r in report['repeated_proposals']], ['2:1', '2:2'])
+            self.assertEqual(report['repeated_proposals'][1]['kept'], {'phase':2, 'line':2})
+
+    def test_followup_missing_malformed_and_changed_first_turn_fail(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            d=Path(tmp); first=b'strong\t2:1\troot\tFirst\n'
+            (d/'turn1.list.tsv').write_bytes(first); (d/'list.tsv').write_bytes(first)
+            q={'2:1':'الم'}
+            with self.assertRaises(ValueError): N.consolidate(d, 1, q)
+            (d/'followup.tsv').write_text('bad\n')
+            with self.assertRaises(ValueError): N.consolidate(d, 1, q)
+            self.assertEqual((d/'list.tsv').read_bytes(), first)
+            (d/'followup.tsv').write_text('')
+            self.assertEqual(N.consolidate(d,1,q)['unique_additions'], 0)
+            (d/'list.tsv').write_text('changed\n')
+            with self.assertRaises(ValueError): N.consolidate(d,1,q)
+
     def test_all_s1_members_and_branches_survive(self):
         _, source, _ = D.B.surah_inputs(1)
         sections = D.sections(source.read_text())
