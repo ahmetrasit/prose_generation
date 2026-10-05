@@ -1,0 +1,63 @@
+{
+  "scope": "Initial turn only",
+  "completed_turns": 1,
+  "tool_audit_reviewed": true,
+  "assessment": "Observed tools read own prompt/package, wrote or revised own list, and checked own list formatting. No external retrieval or other-agent consultation observed. Hardcoded content revisions were file writes, not scripted candidate discovery.",
+  "tool_diagnostics": [
+    {
+      "call_id": "call_LNYbfNXiK9Gf1OIcc2LbqReb",
+      "message": "Script failed"
+    },
+    {
+      "call_id": "call_LNYbfNXiK9Gf1OIcc2LbqReb",
+      "message": "Script error:"
+    },
+    {
+      "call_id": "call_LNYbfNXiK9Gf1OIcc2LbqReb",
+      "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/_commentary/v16/out/s001/discovery/revision4/sec11/luna/list.tsv:"
+    },
+    {
+      "call_id": "call_McVJr4WjzN7IyjLwPRCYMFfS",
+      "message": "Script failed"
+    },
+    {
+      "call_id": "call_McVJr4WjzN7IyjLwPRCYMFfS",
+      "message": "Script error:"
+    },
+    {
+      "call_id": "call_McVJr4WjzN7IyjLwPRCYMFfS",
+      "message": "apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/_commentary/v16/out/s001/discovery/revision4/sec11/luna/list.tsv:"
+    },
+    {
+      "call_id": "call_2bLKdUmP5shwCcaNkrpMgjUQ",
+      "message": "duplicate ref 23:21"
+    },
+    {
+      "call_id": "call_mrdfAgXcAabs27PezA3koCXa",
+      "message": "bad field count at 27 3"
+    },
+    {
+      "call_id": "call_mrdfAgXcAabs27PezA3koCXa",
+      "message": "bad ref at 27"
+    },
+    {
+      "call_id": "call_mrdfAgXcAabs27PezA3koCXa",
+      "message": "bad basis at 27"
+    },
+    {
+      "call_id": "call_mrdfAgXcAabs27PezA3koCXa",
+      "message": "bad field count at 59 3"
+    },
+    {
+      "call_id": "call_mrdfAgXcAabs27PezA3koCXa",
+      "message": "bad ref at 59"
+    },
+    {
+      "call_id": "call_mrdfAgXcAabs27PezA3koCXa",
+      "message": "bad basis at 59"
+    }
+  ],
+  "model_effort_verified": true,
+  "inputs_unchanged": true,
+  "first_turn_unchanged": true
+}

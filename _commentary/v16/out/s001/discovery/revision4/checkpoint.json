@@ -1,7 +1,7 @@
 {
   "surah": 1,
   "run_tag": "revision4",
-  "time": "2026-10-05T12:29:11.127621+00:00",
+  "time": "2026-10-05T12:50:41.046293+00:00",
   "state": "awaiting_user_repair_decision",
   "jobs": [
     {
@@ -95,9 +95,9 @@
     {
       "section": 9,
       "model": "terra",
-      "completed_turns": 0,
-      "state": "initial_turn_running",
-      "snapshot": false,
+      "completed_turns": 1,
+      "state": "awaiting_followup",
+      "snapshot": true,
       "check": null
     },
     {
@@ -111,9 +111,9 @@
     {
       "section": 10,
       "model": "terra",
-      "completed_turns": 0,
-      "state": "initial_turn_running",
-      "snapshot": false,
+      "completed_turns": 1,
+      "state": "awaiting_followup",
+      "snapshot": true,
       "check": null
     },
     {
@@ -127,9 +127,9 @@
     {
       "section": 11,
       "model": "terra",
-      "completed_turns": 0,
-      "state": "initial_turn_running",
-      "snapshot": false,
+      "completed_turns": 1,
+      "state": "awaiting_followup",
+      "snapshot": true,
       "check": null
     },
     {
@@ -143,9 +143,9 @@
     {
       "section": 12,
       "model": "terra",
-      "completed_turns": 0,
-      "state": "initial_turn_running",
-      "snapshot": false,
+      "completed_turns": 1,
+      "state": "awaiting_followup",
+      "snapshot": true,
       "check": null
     },
     {
@@ -159,9 +159,9 @@
     {
       "section": 13,
       "model": "terra",
-      "completed_turns": 0,
-      "state": "initial_turn_running",
-      "snapshot": false,
+      "completed_turns": 1,
+      "state": "awaiting_followup",
+      "snapshot": true,
       "check": null
     },
     {
@@ -175,9 +175,9 @@
     {
       "section": 14,
       "model": "terra",
-      "completed_turns": 0,
-      "state": "initial_turn_running",
-      "snapshot": false,
+      "completed_turns": 1,
+      "state": "awaiting_followup",
+      "snapshot": true,
       "check": null
     }
   ],
@@ -185,14 +185,15 @@
     {
       "section": 6,
       "model": "terra",
-      "reason": "Nonexistent90:40\u201342; proposed80:40\u201342 from matching explanations."
+      "reason": "Nonexistent90:40–42; proposed80:40–42 from matching explanations."
     },
     {
       "section": 7,
       "model": "luna",
-      "reason": "Reference/basis columns swapped on follow-up lines44\u201345."
+      "reason": "Reference/basis columns swapped on follow-up lines44–45."
     }
   ],
   "opus_started": false,
-  "policy": "Raw outputs and failed logs preserved. No new follow-ups or merges until user decision; already-running calls left undisturbed."
+  "policy": "Raw outputs and failed logs preserved. No new follow-ups or merges until user decision; already-running calls left undisturbed.",
+  "latest_checks": "checks2.json"
 }
