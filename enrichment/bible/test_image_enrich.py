@@ -93,6 +93,9 @@ class BibleImageTest(W.BibleWorkflowTest):
         d=(self.home/'work/own').resolve()
         self.assertTrue(I.allowed_command(f"sed -n '1,40p' {d}/preview/surah.md",d))
         self.assertFalse(I.allowed_command(f'cat {d.parent}/other/preview/surah.md',d))
+        self.assertTrue(I.allowed_command(f'ls -la {d}',d))
+        self.assertFalse(I.allowed_command(f'ls -la {d.parent}',d))
+        self.assertFalse(I.allowed_command(f'ls -R {d}',d))
         self.assertEqual(I.unwrap_call('exec','const r = await tools.clock__curr_time({}); text(r.current_time);'),('clock',{}))
         with self.assertRaises(ValueError):
             I.unwrap_call('exec','const r = await tools.clock__curr_time({}); text(r.current_time); await tools.web__run({});')

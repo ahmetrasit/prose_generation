@@ -68,6 +68,7 @@ The patch may add/update only annotations.jsonl, verdicts.jsonl, gaps.json and n
 Do not use template strings, variables, other JavaScript, shell writes or a script to generate judgments.
 Reading your own generated preview/surah.md is also allowed for checking placement; other sections remain
 outside your writing assignment. A native clock read is operational metadata, never research evidence.
+Listing only your own call directory with ls (optionally -l, -a, -la or -al) is allowed to check deliverables.
 The wrapper restriction enables a mechanical audit of native tool use. It does not limit your reasoning.
 
 ## Deliver and check

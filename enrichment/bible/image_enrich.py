@@ -273,6 +273,9 @@ def allowed_command(cmd, d):
     try: args = shlex.split(cmd)
     except ValueError: return False
     if not args: return False
+    if args[0] == 'ls':
+        paths = args[2:] if len(args) > 1 and args[1] in ('-l', '-a', '-la', '-al') else args[1:]
+        return len(paths) == 1 and (Path(paths[0]) if Path(paths[0]).is_absolute() else E.PG/paths[0]).resolve() == d
     if args[0] == 'cat':
         paths = args[1:]
     elif args[:2] == ['sed', '-n'] and len(args) == 4 and re.fullmatch(r'\d+,\d+p', args[2]):

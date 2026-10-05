@@ -283,6 +283,7 @@ attempt: record its exact native failure history, unchanged model/inputs, resume
 message and parent delivery proof. Failed attempts remain visible; they are never
 counted as successful completions. Reading the agent's own generated preview and
 checking the clock are operational activities, not additional research sources.
+The same applies to a nonrecursive listing of the agent's own call directory.
 
 Each image must pass schema, paragraph-scope, candidate/gap-coverage and actual
 opened-evidence checks. Canonical rejection requires the original verse too.
