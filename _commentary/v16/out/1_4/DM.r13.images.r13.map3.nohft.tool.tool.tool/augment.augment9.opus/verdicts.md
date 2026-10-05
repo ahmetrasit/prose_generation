@@ -1,0 +1,413 @@
+- 2:281: cited ¶17; nowhere else - already placed in the debt sequence
+- 3:25: ref ¶17 - full payment, no wrong
+- 3:26: cited ¶2, ¶3; nowhere else - fully used
+- 5:40: ref ¶27 - owner of dominion forgives whom He wills
+- 6:73: ref ¶3 - dominion His on day of trumpet
+- 14:41: ref ¶27 - Ibrahim's forgiveness prayer for reckoning day
+- 17:13: ref ¶18 - record fastened and opened
+- 17:14: ref ¶18 - read your book
+- 18:49: ref ¶18 - book omits nothing
+- 21:47: ref ¶18 - just scales
+- 24:25: cited ¶18; nowhere else - already explained
+- 26:82: cited ¶9, ¶27; nowhere else - already used twice
+- 36:51: ref ¶6 - trumpet event
+- 36:54: ref ¶17 - no wrong, recompense of deeds
+- 37:21: ref ¶15 - day of decision; ref ¶19 - denied day
+- 39:68: ref ¶6 - trumpet event
+- 39:69: ref ¶18 - book placed, witnesses
+- 39:70: ref ¶17 - each soul paid in full
+- 40:16: cited ¶3; nowhere else - already explained
+- 40:17: ref ¶17 - recompense, no wrong
+- 44:40: ref ¶17 - appointed term
+- 45:22: ref ¶17 - recompense, no wrong
+- 45:26: ref ¶25 - gathering to undoubted day
+- 45:28: cited ¶18; nowhere else - already explained
+- 45:29: cited ¶18; nowhere else - already explained
+- 50:20: ref ¶6 - trumpet event
+- 50:21: ref ¶18 - driver and witness
+- 51:6: cited ¶6; nowhere else - already explained
+- 51:12: prose ¶6 - "when" answered by an event
+- 56:56: ref ¶10 - hospitality served on day of dîn
+- 77:13: context ¶17 (in 77:12) - answer to the deferral question
+- 82:15: ref ¶3 - day named with fire before the question
+- 82:19: cited ¶3; nowhere else - already explained
+- 83:4: ref ¶6 - great day
+- 83:5: ref ¶6 - great day
+- 83:6: ref ¶1 - standing for Rabb al-âlamîn
+- 99:7: ref ¶15 - equal-weight recompense
+- 99:8: ref ¶15 - equal-weight recompense
+- 114:2: cited ¶2; nowhere else - already used
+- 3:19: not relevant - dîn as religion
+- 3:30: ref ¶18 - deeds present
+- 3:185: ref ¶17 - wages paid in full
+- 4:87: ref ¶25 - gathering to undoubted day
+- 5:3: not relevant - dîn as religion
+- 6:12: cited ¶25; nowhere else - already explained
+- 6:31: ref ¶6 - Hour comes suddenly
+- 6:70: ref ¶10 - dîn taken as play, boiling drink
+- 6:158: not relevant - timing of faith, not the day's holds
+- 7:8: ref ¶18 - scales
+- 7:9: ref ¶18 - scales
+- 7:51: cited ¶10; nowhere else - already explained
+- 7:158: ref ¶3 - lasting dominion
+- 10:22: ref ¶23 - sincere dîn in storm
+- 10:105: not relevant - dîn as religion
+- 11:103: ref ¶6 - gathered, witnessed day
+- 11:105: ref ¶24 - none speaks without leave
+- 12:40: ref ¶23 - judgment only Allah's
+- 14:48: ref ¶3 - emerging before the One, al-Qahhâr
+- 15:35: ref ¶17 - curse until day of dîn
+- 16:52: cited ¶23; nowhere else - already explained
+- 18:47: ref ¶14 - mountains moved, all gathered
+- 20:111: ref ¶24 - faces humbled
+- 20:112: ref ¶17 - no wrong or diminution
+- 23:101: ref ¶11 - no kinship ties
+- 23:102: ref ¶18 - scales
+- 23:103: ref ¶18 - scales
+- 24:2: ref ¶23 - "dîn of Allah" as legal judgment
+- 24:42: ref ¶3 - lasting dominion
+- 25:2: ref ¶3 - lasting dominion
+- 30:12: ref ¶24 - silenced in despair
+- 30:43: ref ¶6 - day not turned back
+- 37:20: ref ¶19 - deniers name the day
+- 37:24: ref ¶18 - halted for questioning
+- 37:53: cited ¶22; nowhere else - already explained
+- 39:2: ref ¶23 - sincere dîn
+- 39:11: ref ¶23 - sincere dîn
+- 39:14: ref ¶23 - sincere dîn
+- 40:14: ref ¶23 - sincere dîn
+- 42:45: ref ¶11 - lost themselves and families
+- 45:27: ref ¶3 - dominion and loss on the Hour
+- 50:22: ref ¶20 - cover removed
+- 51:60: ref ¶10 - "their day"
+- 52:13: prose ¶19 - same verb d-'-' as pushing the orphan
+- 53:31: ref ¶15 - recompense matching deeds
+- 56:50: ref ¶17 - appointed day
+- 57:5: ref ¶3 - lasting dominion
+- 57:13: ref ¶10 - light requested, refused
+- 57:15: ref ¶9 - no ransom
+- 62:1: ref ¶2 - al-Malik
+- 64:9: ref ¶16 - day of taghâbun, trade term
+- 69:13: ref ¶6 - trumpet event
+- 69:18: ref ¶20 - nothing hidden
+- 69:19: ref ¶18 - book in right hand
+- 69:25: ref ¶18 - book in left hand
+- 70:26: cited ¶5; context ¶19 (in 70:24) - follows the right in wealth
+- 72:21: ref ¶3 - Prophet owns no harm or guidance for others
+- 74:46: cited ¶19; nowhere else - already explained
+- 75:6: ref ¶6 - "when" question
+- 75:10: ref ¶11 - where to flee
+- 75:12: not relevant - covered by 75:10 link; adds nothing to a paragraph
+- 75:13: ref ¶18 - informed of what sent forward
+- 75:30: ref ¶22 - death-bed driving to Lord
+- 76:10: ref ¶19 - feeders fear the day
+- 77:14: ref ¶3 - same "mâ edrâke" question
+- 78:17: ref ¶17 - appointed time
+- 78:21: not relevant - Hell as ambush, no paragraph link
+- 79:6: ref ¶5 - cosmic upheaval
+- 79:34: not relevant - names the event only
+- 79:35: ref ¶19 - remembering one's striving
+- 79:40: not relevant - fear of standing, no paragraph link
+- 80:33: ref ¶11 - the blast before flight
+- 80:34: cited ¶11; nowhere else - already explained
+- 80:37: cited ¶11; nowhere else - already explained
+- 81:14: ref ¶18 - soul knows what it brought
+- 82:1: ref ¶5 - sky cleft
+- 82:5: ref ¶18 - knows what sent forward
+- 82:9: ref ¶19 - denying the dîn
+- 82:17: cited ¶3; nowhere else - already explained
+- 83:11: ref ¶19 - denying day of dîn
+- 84:7: ref ¶18 - book in right hand
+- 84:8: ref ¶27 - easy reckoning
+- 84:10: ref ¶18 - book behind back
+- 86:9: ref ¶20 - secrets tested
+- 89:23: ref ¶10 - remembrance too late
+- 98:5: ref ¶23 - sincere dîn
+- 99:6: ref ¶18 - deeds shown
+- 101:6: ref ¶18 - scales
+- 101:8: ref ¶18 - scales
+- 102:8: not relevant - questioned about bliss, no paragraph link
+- 106:3: not relevant - worship of the House's Lord
+- 109:2: not relevant - worship disavowal
+- 109:6: not relevant - dîn as religion
+- 7:29: ref ¶23 - sincere dîn
+- 9:29: not relevant - dîn as religion, not reckoning
+- 15:38: ref ¶17 - respite until known day
+- 25:26: cited ¶24; nowhere else - already explained
+- 28:70: ref ¶1 - praise in first and last life
+- 56:86: cited ¶22; nowhere else - already explained
+- 77:12: prose ¶17 - ecel root, deferral to the day
+- 78:26: prose ¶15 - vifâk names the equivalence
+- 95:7: ref ¶19 - denying the dîn
+- 95:8: ref ¶20 - best of judges
+- 101:4: ref ¶5 - cosmic upheaval
+- 2:132: not relevant - dîn as religion
+- 4:53: ref ¶19 - share of dominion yet withholding
+- 10:104: not relevant - dîn as religion
+- 15:87: not relevant - about the surah, not a paragraph's claim
+- 18:105: ref ¶18 - no weight set up
+- 19:33: not relevant - personal days of peace
+- 34:30: ref ¶17 - appointed day not delayed
+- 38:78: ref ¶17 - curse until day of dîn
+- 38:81: ref ¶17 - respite until known day
+- 39:3: ref ¶23 - pure dîn belongs to Allah
+- 42:21: not relevant - dîn as religion
+- 44:9: ref ¶10 - playing in doubt
+- 44:16: not relevant - shared word only
+- 48:28: not relevant - dîn as religion
+- 49:16: not relevant - dîn as religion
+- 50:41: ref ¶14 - caller's call
+- 50:42: ref ¶14 - the cry heard
+- 51:13: context ¶6 (in 51:12) - the answer to "when"
+- 53:30: not relevant - knowledge of the guided
+- 60:3: ref ¶11 - kin and children of no avail
+- 74:9: ref ¶6 - hard day
+- 77:35: ref ¶24 - day they do not speak
+- 78:18: ref ¶6 - trumpet event
+- 82:18: cited ¶3; nowhere else - already explained
+- 83:22: not relevant - bliss of the righteous
+- 107:1: cited ¶19; nowhere else - already explained
+- 109:3: not relevant - worship disavowal
+- 114:3: cited ¶2; nowhere else - already used
+- 2:107: ref ¶3 - lasting dominion
+- 2:193: not relevant - dîn as religion
+- 2:217: not relevant - dîn as religion
+- 2:256: ref ¶7 - firm handhold, root m-s-k
+- 3:189: ref ¶3 - lasting dominion
+- 4:136: not relevant - articles of faith
+- 5:120: ref ¶3 - lasting dominion
+- 6:75: not relevant - malakût shown to Ibrahim
+- 6:159: not relevant - dîn as religion
+- 7:14: ref ¶17 - respite requested
+- 9:36: not relevant - dîn as religion
+- 9:116: ref ¶3 - lasting dominion
+- 26:156: ref ¶6 - "great day" punishment
+- 46:5: not relevant - unanswering idols
+- 53:26: ref ¶24 - intercession by leave
+- 60:6: not relevant - hope in the last day, generic
+- 106:4: not relevant - feeding and safety of Quraysh
+- 3:55: not relevant - judgment among disputants, generic
+- 6:137: not relevant - dîn as religion
+- 6:161: not relevant - dîn as religion
+- 9:11: not relevant - dîn as religion
+- 11:31: not relevant - malak/angel, ledger excludes
+- 19:15: not relevant - personal days of peace
+- 26:38: not relevant - shared word only
+- 29:65: ref ¶23 - sincere dîn at sea
+- 30:30: not relevant - dîn as religion
+- 31:32: ref ¶23 - sincere dîn at sea
+- 40:32: not relevant - name of day only
+- 42:13: not relevant - dîn as religion
+- 50:30: not relevant - Hell's fullness
+- 50:34: not relevant - day of eternity
+- 52:9: ref ¶5 - cosmic upheaval
+- 70:8: ref ¶5 - sky like molten metal
+- 73:14: ref ¶5 - earth and mountains shaken
+- 79:32: not relevant - mountains anchored
+- 90:14: not relevant - not tied to the day
+- 109:4: not relevant - worship disavowal
+- 109:5: not relevant - worship disavowal
+- 2:223: not relevant - marital conduct
+- 2:224: not relevant - oath conduct, not hidden intent
+- 2:226: not relevant - îlâ ruling
+- 2:227: not relevant - divorce
+- 2:278: not relevant - usury command
+- 2:279: ref ¶17 - principal kept, no wrong
+- 2:283: context ¶16 (in 74:38), context ¶20 (in 2:284) - pledge; sinful heart
+- 2:284: prose ¶20 - hidden things reckoned
+- 3:24: not relevant - self-delusion of few days
+- 3:27: ref ¶1 - owner of night and day
+- 3:28: not relevant - alliances
+- 6:10: not relevant - mockery
+- 6:11: not relevant - travel and see
+- 6:13: ref ¶1 - what dwells in night and day
+- 6:14: not relevant - patron question
+- 7:48: ref ¶9 - gathering of no avail
+- 7:49: not relevant - A'râf scene detail
+- 7:52: not relevant - book detailed
+- 7:53: ref ¶10 - those who forgot seek return
+- 11:95: not relevant - Madyan
+- 11:96: cited ¶14 (named) - Musa's sending
+- 11:99: ref ¶14 - curse, evil gift
+- 11:100: not relevant - towns' tidings
+- 12:68: not relevant - Ya'qub's need
+- 12:69: not relevant - Yusuf with brother
+- 12:71: not relevant - question of loss
+- 12:73: not relevant - denial of theft
+- 12:74: cited ¶23 (named) - penalty asked
+- 12:77: not relevant - brothers' accusation
+- 12:78: not relevant - substitution plea
+- 14:3: not relevant - preferring this life
+- 14:4: not relevant - messenger's tongue
+- 14:6: prose ¶26 - Musa names a day of favour
+- 14:7: ref ¶26 - gratitude and punishment
+- 16:50: not relevant - angels' fear
+- 16:51: ref ¶23 - one God, fear Him alone
+- 16:53: not relevant - favours, generic
+- 16:54: not relevant - relapse to shirk
+- 20:105: cited ¶14 (named) - mountains scattered
+- 20:106: cited ¶14 (named) - level plain
+- 20:110: ref ¶20 - knows before and behind
+- 24:22: prose ¶27 - forgive to be forgiven
+- 24:23: cited ¶18 (named) - slanderers
+- 24:26: not relevant - pairs of pure and impure
+- 24:27: not relevant - house etiquette
+- 25:24: not relevant - paradise abode
+- 25:25: ref ¶24 - sky split, angels sent
+- 25:27: ref ¶14 - regret of following wrong friend
+- 25:28: ref ¶14 - regret of following wrong friend
+- 26:80: not relevant - healing
+- 26:81: ref ¶22 - gives death and life
+- 26:83: not relevant - prayer for wisdom
+- 26:84: not relevant - good repute
+- 26:86: ref ¶27 - forgiveness for father
+- 26:87: ref ¶9 - day of raising
+- 26:90: not relevant - paradise brought near
+- 26:91: not relevant - Hell displayed
+- 37:51: cited ¶22 (named) - companion recalled
+- 37:52: cited ¶22 (named) - companion's question
+- 37:54: ref ¶22 - looking down
+- 37:55: ref ¶22 - sees him in Hell
+- 40:15: not relevant - day of meeting, name only
+- 40:18: ref ¶24 - no intercessor obeyed
+- 43:49: not relevant - plea to Musa
+- 43:50: not relevant - breaking promise
+- 43:52: ref ¶14 - Firavun's boast
+- 43:53: ref ¶14 - Firavun's boast
+- 45:30: ref ¶18 - two groups after the book
+- 45:31: ref ¶18 - two groups after the book
+- 51:4: not relevant - oath
+- 51:5: ref ¶6 - promise true
+- 51:7: not relevant - oath
+- 51:8: not relevant - discordant speech
+- 56:81: not relevant - hypocrisy toward speech
+- 56:82: not relevant - denial as provision
+- 56:84: cited ¶22 (named) - onlookers
+- 56:88: ref ¶22 - fate of the near ones
+- 56:89: ref ¶22 - fate of the near ones
+- 70:0: not relevant - basmala
+- 70:2: ref ¶6 - none to repel it
+- 70:3: ref ¶5 - Lord of ascending ways
+- 70:5: not relevant - patience
+- 70:6: ref ¶5 - seen far
+- 70:24: prose ¶19 - known right in wealth beside affirming the day
+- 70:25: context ¶19 (in 70:24) - beggar and deprived
+- 70:27: ref ¶27 - fear beside affirmation
+- 70:28: ref ¶27 - punishment not secure
+- 74:42: cited ¶19 (named) - the question asked
+- 74:43: ref ¶19 - rest of the inventory
+- 74:45: ref ¶19 - rest of the inventory
+- 74:47: ref ¶19 - habit until death
+- 74:48: ref ¶24 - intercession of no use
+- 78:35: not relevant - no idle talk
+- 78:36: ref ¶27 - recompense as gift
+- 78:39: ref ¶24 - the true day
+- 78:40: ref ¶18 - what hands sent forward
+- 80:32: not relevant - provision
+- 80:38: not relevant - bright faces
+- 80:39: not relevant - bright faces
+- 81:0: not relevant - basmala
+- 81:2: ref ¶5 - stars dimmed
+- 81:3: ref ¶5 - mountains moved
+- 82:16: ref ¶3 - not absent from it
+- 107:0: not relevant - basmala
+- 107:3: ref ¶19 - no urging to feed the poor
+- 107:4: not relevant - negligent prayers
+- 114:0: not relevant - basmala
+- 114:1: cited ¶2 (named) - "insanların Rabbi"
+- 114:4: not relevant - whisperer
+- 114:5: not relevant - whisperer
+- 39:75 own: prose ¶1 - 1:2's words at the end of judgment
+- 34:1 own: ref ¶1 - praise in the hereafter
+- 10:10 own: ref ¶1 - last call of the people of paradise
+- 59:23 own: ref ¶2 - al-Malik
+- 54:55 own: ref ¶2 - malîk in the Quran
+- 2:48 own: ref ¶3 - no soul pays for another
+- 2:123 own: ref ¶3 - no soul pays for another
+- 31:33 own: ref ¶3 - father and child
+- 44:41 own: ref ¶3 - friend avails not
+- 22:56 own: ref ¶3 - dominion that day
+- 25:3 own: ref ¶3 - idols own nothing
+- 35:13 own: ref ¶3 - idols own not a husk
+- 10:5 own: ref ¶4 - sun for counting
+- 17:12 own: ref ¶4 - day for counting
+- 22:47 own: ref ¶5 - thousand-year day
+- 32:5 own: ref ¶5 - mikdâr of a thousand years
+- 70:7 own: ref ¶5 - seen near
+- 75:9 own: ref ¶5 - sun and moon joined
+- 21:104 own: ref ¶5 - sky rolled up
+- 56:1 own: ref ¶6 - al-Wâqi'a
+- 69:15 own: ref ¶6 - al-Wâqi'a
+- 52:7 own: ref ¶6 - punishment wâqi'
+- 77:7 own: ref ¶6 - promised thing wâqi'
+- 39:67 own: prose ¶7 - grip of the whole earth that day
+- 67:1 own: ref ¶7 - dominion in His hand
+- 36:83 own: ref ¶7 - malakût in His hand
+- 23:88 own: ref ¶7 - malakût in His hand
+- 21:30 own: ref ¶8 - life from water
+- 6:94 own: prose ¶9 - khawwala, same root as "haval"
+- 6:93 own: ref ¶22 - death throes
+- 37:84 own: ref ¶9 - sound heart
+- 50:33 own: ref ¶9 - repentant heart
+- 19:80 own: ref ¶9 - comes alone
+- 3:10 own: ref ¶9 - wealth and children avail not
+- 3:116 own: ref ¶9 - wealth and children avail not
+- 58:17 own: ref ¶9 - wealth and children avail not
+- 3:91 own: ref ¶9 - no ransom
+- 45:34 own: ref ¶10 - forgotten as they forgot
+- 32:14 own: ref ¶10 - forgotten as they forgot
+- 70:10 own: context ¶11 (in 70:11) - friend does not ask friend
+- 70:11 own: prose ¶11 - kin offered as ransom
+- 70:12 own: context ¶11 (in 70:11) - spouse and brother
+- 70:13 own: context ¶11 (in 70:11) - clan
+- 70:14 own: context ¶11 (in 70:11) - all on earth
+- 2:108 own: ref ¶13 - straying from sawâ' al-sabîl
+- 5:12 own: ref ¶13 - straying from sawâ' al-sabîl
+- 5:60 own: ref ¶13 - straying from sawâ' al-sabîl
+- 5:77 own: ref ¶13 - straying from sawâ' al-sabîl
+- 60:1 own: ref ¶13 - straying from sawâ' al-sabîl
+- 28:22 own: ref ¶13 - guidance to the middle of the way
+- 19:85 own: context ¶14 (in 19:86) - delegation to Rahman
+- 19:86 own: prose ¶14 - wird, herd driven to water
+- 17:71 own: ref ¶14 - called by leaders
+- 28:40 own: ref ¶14 - Firavun and hosts
+- 28:41 own: ref ¶14 - leaders calling to fire
+- 54:8 own: ref ¶14 - hastening to the caller
+- 2:166 own: ref ¶14 - followed disown followers
+- 37:22 own: ref ¶14 - gathered wrongdoers
+- 37:23 own: ref ¶14 - led to path of Hell
+- 78:27 own: context ¶15 (in 78:26) - they expected no reckoning
+- 74:38 own: prose ¶16 - soul held as pledge
+- 74:39 own: context ¶16 (in 74:38) - people of the right excepted
+- 52:21 own: ref ¶16 - each pledged for what earned
+- 77:11 own: context ¶17 (in 77:12) - messengers' time set
+- 11:104 own: ref ¶17 - deferred to counted term
+- 16:111 own: ref ¶17 - paid in full
+- 15:36 own: ref ¶17 - respite asked
+- 15:37 own: ref ¶17 - respite granted
+- 38:79 own: ref ¶17 - respite asked
+- 38:80 own: ref ¶17 - respite granted
+- 36:65 own: ref ¶18 - hands speak
+- 41:20 own: ref ¶18 - skins testify
+- 52:11 own: context ¶19 (in 52:13) - woe to deniers
+- 52:12 own: context ¶19 (in 52:13) - playing in vain talk
+- 89:17 own: ref ¶19 - orphan not honoured
+- 89:18 own: ref ¶19 - no urging to feed
+- 69:33 own: ref ¶19 - did not believe
+- 69:34 own: ref ¶19 - no urging to feed
+- 100:10 own: ref ¶20 - hearts' contents brought out
+- 5:89 own: ref ¶20 - bound oaths
+- 33:5 own: ref ¶20 - intentions of hearts
+- 19:93 own: prose ¶21 - all come to Rahman as 'abd
+- 19:94 own: context ¶21 (in 19:93) - counted
+- 19:95 own: context ¶21 (in 19:93) - alone on the day
+- 75:26 own: ref ¶22 - soul at the collarbones
+- 75:29 own: ref ¶22 - shank with shank
+- 19:87 own: prose ¶24 - "lâ yemlikûn" intercession
+- 2:255 own: ref ¶24 - intercession by leave
+- 6:54 own: ref ¶25 - mercy written on Himself
+- 7:156 own: ref ¶25 - mercy to be written
+- 3:9 own: ref ¶25 - gathering to undoubted day
+- 45:14 own: ref ¶26 - days of Allah and recompense
+- 10:102 own: ref ¶26 - days of predecessors
+- 3:140 own: ref ¶26 - days rotated

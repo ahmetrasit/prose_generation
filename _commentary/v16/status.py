@@ -50,7 +50,7 @@ def ledger() -> tuple[dict[str, float], dict[str, list[str]], dict[str, int]]:
             last[(ref, d.get("arm"), d.get("brief"), "post")] = d
     bad: dict[str, list[str]] = {}
     for k, d in last.items():
-        why = [f"status {d.get('status')}"] if d.get("status") not in ("ok", None) else []
+        why = [f"status {d.get('status')}"] if d.get("status") not in ("ok", "accepted", None) else []  # accepted: --accept, the user's go
         why += [f"post_error {d['post_error'][:120]}"] if d.get("post_error") else []
         if why:
             bad.setdefault(k[0], []).append(f"{d.get('arm')} {d.get('brief')}: {'; '.join(why)}")

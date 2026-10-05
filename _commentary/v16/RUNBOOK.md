@@ -16,6 +16,12 @@ The history and the reasons behind each choice are in `DESIGN.md`. This file hol
 3. **Never rerun a call.**
    - A run dir with `started.json` or `run.log.json` is blocked, and the scripts refuse it.
    - If a call failed (for example it hit the session limit at $0), ask the user first. Then rename the dir to `<dir>.<reason>-<cost>usd`, as in `augment.augment3.session-limit-0usd`, and run it again.
+   - A safeguard stop (`status safety-stop`: the model's safeguards stopped the first attempt and the CLI continued once)
+     leaves its output in `augment.raw.partial.md`, unapplied. Show the user whether it is whole: every paragraph served,
+     every listed passage with a verdict, `stop_reason end_turn`. With their go, `python3 -B _commentary/v16/augment.py
+     <run dir> --accept "<reason>"` applies it without a call and records the reason in `accepted.json` and in a ledger
+     row with `status accepted` (cost 0; the call's cost was recorded when it ran). Otherwise rename and rerun as above.
+     (1:4, 2026-10-04: $4.31, 27/27 paragraphs, 319/319 listed, accepted.)
 4. **No silent failures.**
    - Report every `WARNING:`, `NOTE:` and `BLOCKED:` line the scripts print, and every traceback.
    - Report every ledger row whose `status` is not `ok`, whose `check` is not `ok`, or that has a `post_error`.
@@ -205,7 +211,7 @@ python3 -B _commentary/v16/batch.py 1:1 1:2 1:3 --parallel 7 --go     # or named
 
 | Surah | Map | Image prose | Readings | Augment9 |
 |---|---|---|---|---|
-| S1 | ✓ | ✓ | 7/7 | 6/7 (1:4 safety-stop, the user decides) |
+| S1 | ✓ | ✓ | 7/7 | 7/7 (1:4 accepted after a safeguard stop) |
 | S87 | ✓ | ✓ | 19/19 | 6/19 (87:7–87:11 429 session limit, 87:12–87:19 not started) |
 | S100 | ✓ | ✓ | 11/11 | 0/11 |
 | S103 | – | – | 0/3 | – |
