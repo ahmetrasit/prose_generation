@@ -14,8 +14,9 @@ from typing import Optional
 VERSION_RE = re.compile(r"^v(?P<num>\d+(?:\.\d+)*)$", re.I)
 SURAH_DIR_RE = re.compile(r"^s0*(?P<s>\d{1,3})$", re.I)
 AYAH_RE = re.compile(r"(?<!\d)(?P<s>\d{1,3})[_:-](?P<a>\d{1,3})(?!\d)")
-ENRICHED_SURAH_RE = re.compile(r"^(?P<s>\d{1,3})_enriched\.md$", re.I)
+ENRICHED_SURAH_RE = re.compile(r"^(?P<s>\d{1,3})_enriched(?:\.(?P<variant>.+))?\.md$", re.I)
 ENRICHED_AYAH_RE = re.compile(r"^(?P<s>\d{1,3})[-_](?P<a>\d{1,3})enriched\.md$", re.I)
+PLAIN_ENRICHED_AYAH_RE = re.compile(r"^(?P<s>\d{1,3})[_:-](?P<a>\d{1,3})\.md$", re.I)
 
 PROSE_NAME_PATTERNS = [
     re.compile(r"^commentary(?:\.tagged)?(?:\.[a-z]{2})?\.md$", re.I),
@@ -101,6 +102,9 @@ def parse_location(path: Path) -> tuple[Optional[int], Optional[int]]:
     enriched_ayah = ENRICHED_AYAH_RE.match(path.name)
     if enriched_ayah:
         return int(enriched_ayah.group("s")), int(enriched_ayah.group("a"))
+    plain_enriched_ayah = PLAIN_ENRICHED_AYAH_RE.match(path.name)
+    if plain_enriched_ayah and "enrichment" in {p.lower() for p in path.parts}:
+        return int(plain_enriched_ayah.group("s")), int(plain_enriched_ayah.group("a"))
     for part in path.parts:
         sm = SURAH_DIR_RE.match(part)
         if sm:
@@ -121,9 +125,13 @@ def variant_label(version: str, rel: Path) -> str:
     low_parts = [p.lower() for p in parts]
     name = rel.name.lower()
 
-    if ENRICHED_SURAH_RE.match(name) or name == "surah.md":
+    enriched_surah = ENRICHED_SURAH_RE.match(name)
+    if enriched_surah:
+        suffix = enriched_surah.group("variant")
+        return f"enriched surah · {suffix}" if suffix else "enriched surah"
+    if name == "surah.md":
         return "enriched surah"
-    if ENRICHED_AYAH_RE.match(name):
+    if ENRICHED_AYAH_RE.match(name) or PLAIN_ENRICHED_AYAH_RE.match(name):
         return "enriched ayah"
     for p in reversed(parts[:-1]):
         if p.lower().startswith("augment."):
@@ -214,7 +222,7 @@ def scan_enrichment_outputs(root: Path) -> list[tuple[str, Path, Path]]:
                 name == "surah.md"
                 or ENRICHED_SURAH_RE.match(name)
                 or ENRICHED_AYAH_RE.match(name)
-                or AYAH_RE.search(path.name)
+                or PLAIN_ENRICHED_AYAH_RE.match(name)
             )
             if is_final_enrichment:
                 found.append((f"enrichment-{version_dir.name}", rel, path))
