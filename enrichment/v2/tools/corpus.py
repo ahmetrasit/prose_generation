@@ -461,12 +461,15 @@ def connect() -> sqlite3.Connection:
     return sqlite3.connect(index)
 
 
-# Every get/ayah/search call prints at most CALL_LIMIT characters of text (user, 2026-10-05: a page agent re-reads all
-# its tool output on every later turn, and an output over the harness's limit spills to a file the agent then reads
-# whole). Past the limit a segment prints its header line only; a cut is always said, with the command for the rest.
-CALL_LIMIT = 20_000
+# Every get/ayah/search call prints at most CALL_LIMIT characters of segment text, and everything it prints stays
+# under OUT_BYTES bytes (user, 2026-10-05: an agent re-reads all its tool output on every later turn, and Claude
+# Code saves an output over ~30,000 BYTES to a file the agent may never read; Arabic is two bytes a character).
+# Past the limit a segment is listed only; a cut is always said, with the command for the rest.
+CALL_LIMIT = 9_000
+OUT_BYTES = 24_000
 _used = 0
 _unshown: list[str] = []
+PREVIEW = False  # search results are previews by design: marked so, never counted as cuts
 
 
 def show(row, chars: int, start: int = 0) -> None:
@@ -480,6 +483,8 @@ def show(row, chars: int, start: int = 0) -> None:
         flags.append(f"page={extra['page']}")
     head_line = f"== {seg}" + (f"  [{head}]" if head else "") + ("  " + " ".join(flags) if flags else "")
     room = CALL_LIMIT - _used if CALL_LIMIT else None
+    if CALL_LIMIT and _bytes_out() > OUT_BYTES - 3_000:  # leave room for the closing note
+        room = 0
     if room is not None and room <= 0:  # listed once, compactly, by close_call()
         _unshown.append(f"{seg}({len(text):,})")
         return
@@ -490,7 +495,12 @@ def show(row, chars: int, start: int = 0) -> None:
     shown = body[:n]
     span = f"  [characters {start + 1:,}–{start + n:,} of {len(text):,}]" if (start or n < len(body)) else ""
     print(head_line + span)
-    print(shown + (f" … [cut: `corpus.py get {seg} --from {start + n}` for the rest]" if n < len(body) else ""))
+    if n < len(body):
+        tail = (f" … [preview: `corpus.py get {seg}` for the text]" if PREVIEW else
+                f" … [cut: `corpus.py get {seg} --from {start + n}` for the rest]")
+    else:
+        tail = ""
+    print(shown + tail)
     _used += n
     for k in ("en", "tr", "notes"):
         if extra.get(k):
@@ -498,6 +508,23 @@ def show(row, chars: int, start: int = 0) -> None:
             v = v if not chars else v[:chars]
             print(f"  {k}: {v}")
             _used += len(v)
+
+
+class _Counter:
+    """stdout that counts the bytes written, so a call can stop before the harness's spill limit."""
+    def __init__(self, inner):
+        self.inner, self.n = inner, 0
+
+    def write(self, s):
+        self.n += len(s.encode("utf-8"))
+        return self.inner.write(s)
+
+    def flush(self):
+        return self.inner.flush()
+
+
+def _bytes_out() -> int:
+    return getattr(sys.stdout, "n", 0)
 
 
 def close_call() -> None:
@@ -616,12 +643,16 @@ def main() -> None:
     p.add_argument("--sahih", action="store_true")
     p.add_argument("--exact", action="store_true")
     for p in (sub.choices["get"], sub.choices["ayah"], sub.choices["search"]):
-        p.add_argument("--limit", type=int, default=20_000,
-                       help="characters of text this call prints (default 20,000; 0: no limit, for scripts)")
+        p.add_argument("--limit", type=int, default=9_000,
+                       help="characters of segment text this call prints (default 9,000; output also stays under "
+                            "24,000 bytes; 0: no limit, for scripts)")
     a = ap.parse_args()
-    global INTERTEXT, CALL_LIMIT
+    global INTERTEXT, CALL_LIMIT, PREVIEW
     INTERTEXT = a.intertext
-    CALL_LIMIT = getattr(a, "limit", 20_000)
+    CALL_LIMIT = getattr(a, "limit", 9_000)
+    PREVIEW = a.cmd in ("search", "ayah")
+    if CALL_LIMIT:
+        sys.stdout = _Counter(sys.stdout)
     if a.cmd == "import-local":
         only = set(x for x in a.only.split(",") if x)
         for f in IMPORTERS:
