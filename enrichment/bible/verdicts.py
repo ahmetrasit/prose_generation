@@ -59,7 +59,7 @@ def lookup_audit(calls):
     return requested,opened
 
 
-def check(d, discovery, base, kept, calls=None, require_opened=True):
+def check(d, discovery, base, kept, calls=None, require_opened=True, research_scopes=None):
     errors = []
     expected = candidates(discovery)
     rows = []
@@ -105,8 +105,14 @@ def check(d, discovery, base, kept, calls=None, require_opened=True):
                 else: seen.add(cid)
             else:
                 if row.get('origin')!='research': errors.append(f'{prefix}: own research must name origin:research')
-                if ref in research_seen: errors.append(f'{prefix}: duplicate research verdict for {ref}')
-                research_seen.add(ref)
+                scope=row.get('scope')
+                if research_scopes is not None and scope not in research_scopes:
+                    errors.append(f'{prefix}: invalid research image scope')
+                if research_scopes is None and scope is not None:
+                    errors.append(f'{prefix}: research scope is only allowed for a checked image assembly')
+                research_key=(scope,ref) if research_scopes is not None else ref
+                if research_key in research_seen: errors.append(f'{prefix}: duplicate research verdict for {ref}')
+                research_seen.add(research_key)
             if status not in STATUSES: errors.append(f'{prefix}: invalid status')
             if not isinstance(row.get('reason'),str) or not row['reason'].strip():
                 errors.append(f'{prefix}: a specific reason is required')

@@ -16,6 +16,11 @@ references and witnesses. It remains **after augment9**, with two discovery
 readers and one verifier/author per whole page. An ayah is not split among writers.
 Surah discovery remains per image; its evidence feeds one surah-page author.
 
+**Session override, 2026-10-05:** the user authorized Sol max for surah writing,
+one agent per image, all images in parallel. The opt-in `image_enrich.py` route
+below implements this within the Bible pathway. The default whole-page Opus
+route and ayah configuration retain their existing behavior.
+
 ## Texts and evidence
 
 - WLC is the primary Hebrew Bible witness (including Torah). Its main text is the
@@ -244,6 +249,43 @@ starting any page authors. Run the merge/prefetch command for the complete set o
 pages you intend to use together, since the report covers the selected set.
 
 ## 4. Write, validate and accept a Bible page
+
+### Optional surah image authors (Sol max)
+
+```sh
+python3 -B enrichment/bible/image_enrich.py prepare --surah 1 --run-tag session-20261005
+# Spawn every generated secK/spawn.md with its exact task name, gpt-6-sol/max,
+# and an independent context. The script does not launch models.
+python3 -B enrichment/bible/image_enrich.py finish --dir ABSOLUTE_CALL_DIRECTORY/sec1
+# Finish every image, then assemble only if every image passes.
+python3 -B enrichment/bible/image_enrich.py assemble --surah 1 --run-tag session-20261005
+```
+
+This opt-in pilot uses **available local witnesses**, not the network-prefetch
+route above. Its `prefetch.json` explicitly records `network_attempted:false`;
+missing secondary texts are unavailable in this run, not nonexistent or searched.
+WLC/SBLGNT discovery verses must already resolve. Every missing ref must remain
+in the image's gap ledger. This coverage limitation is retained in the accepted
+page's provenance. A later source-expansion run requires a fresh snapshot.
+
+Preparation freezes all audited discovery inputs, the current Bible index and
+source hashes, and the commentary pack. Each agent receives just its image's
+commentary with global paragraph numbers, the Arabic surah, its merged candidates
+and review findings, and the Bible rules. The parent run locks source/index
+mutation until assembly. Each agent verifies, researches and writes its section;
+it cannot delegate or consult another author. Every image uses one native turn,
+with an exact model/effort check and a restricted, auditable tool grammar.
+
+Each image must pass schema, paragraph-scope, candidate/gap-coverage and actual
+opened-evidence checks. Canonical rejection requires the original verse too.
+Assembly refuses failed, missing or modified image results; it verifies each
+image separately before combining evidence. A deterministic ID map prevents
+collisions. Research verdicts keep their individual image scopes and decisions;
+assembly does not regrade them. The original commentary remains byte-preserved.
+The assembled page and immutable annotation/verdict/gap snapshots are accepted
+under the normal Bible output path. Semantic and quotation review still matters.
+
+### Default whole-page author (Opus high)
 
 ```sh
 python3 -B enrichment/bible/enrich.py build --surah 1 --target 1:1
