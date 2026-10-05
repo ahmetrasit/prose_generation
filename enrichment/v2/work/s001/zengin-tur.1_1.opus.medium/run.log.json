@@ -1,0 +1,209 @@
+{
+ "surah": 1,
+ "target": "1:1",
+ "attempt": 1,
+ "brief": "zengin",
+ "model": "opus",
+ "model_id": "claude-opus-5-5",
+ "agent_type": "enrich-page-medium",
+ "required_reads": [
+  {
+   "path": "/Volumes/aro/projects/prose_generation/enrichment/v2/work/s001/zengin-tur.1_1.opus.medium/base.1_1.md",
+   "lines": 182,
+   "pages": [
+    [
+     1,
+     141
+    ],
+    [
+     142,
+     41
+    ]
+   ]
+  },
+  {
+   "path": "/Volumes/aro/projects/prose_generation/enrichment/v2/work/s001/pack/ayah/1_1/words.md",
+   "lines": 20,
+   "pages": [
+    [
+     1,
+     20
+    ]
+   ]
+  },
+  {
+   "path": "/Volumes/aro/projects/prose_generation/enrichment/v2/work/s001/pack/ayah/1_1/dictionary.md",
+   "lines": 67,
+   "pages": [
+    [
+     1,
+     67
+    ]
+   ]
+  },
+  {
+   "path": "/Volumes/aro/projects/prose_generation/enrichment/v2/work/s001/pack/ayah/1_1/meals.md",
+   "lines": 118,
+   "pages": [
+    [
+     1,
+     118
+    ]
+   ]
+  },
+  {
+   "path": "/Volumes/aro/projects/prose_generation/enrichment/v2/work/s001/pack/ayah/1_1/turkish.md",
+   "lines": 47,
+   "pages": [
+    [
+     1,
+     47
+    ]
+   ]
+  },
+  {
+   "path": "/Volumes/aro/projects/prose_generation/enrichment/v2/work/s001/pack/errata_candidates.json",
+   "lines": 11,
+   "pages": [
+    [
+     1,
+     11
+    ]
+   ]
+  },
+  {
+   "path": "/Volumes/aro/projects/prose_generation/enrichment/v2/SCHEMA_CARD.md",
+   "lines": 72,
+   "pages": [
+    [
+     1,
+     72
+    ]
+   ]
+  },
+  {
+   "path": "/Volumes/aro/projects/prose_generation/enrichment/v2/work/s001/pack/ayah/1_1/sources.md",
+   "lines": 469,
+   "pages": [
+    [
+     1,
+     469
+    ]
+   ]
+  }
+ ],
+ "runner": "agent",
+ "effort": "medium",
+ "trial": true,
+ "prompt_sha256": "b603083b44944fc9075b3030d5966a455b1b0de5a264522b02ecfc6c0d81d892",
+ "prompt_chars": 30449,
+ "base_sha256": "62bb496ee1b76077b173fd84202c2e137025cbb627c6fd1c1fd6d4d39685a3f3",
+ "base_words": 6255,
+ "pack_sha256": "92070e2517e0110b50ac4fb585031de05aa62d8dd06ff8d9424c0ac4a4afb16b",
+ "dictionary": {
+  "transfer_commit": "21725eaf30f479c0d832cc06c80d67c981bce298",
+  "dictionary_head": "21725eaf30f479c0d832cc06c80d67c981bce298",
+  "match": true,
+  "entries": 1704,
+  "branches": 11773
+ },
+ "mode": "tur",
+ "started": "2026-10-05T06:43:46",
+ "output": "annotations.jsonl",
+ "parts": [
+  "annotations.1.jsonl",
+  "annotations.2.jsonl",
+  "annotations.3.jsonl"
+ ],
+ "output_tokens_est": 135384,
+ "cost_usd_est": 4.712178,
+ "coverage": {
+  "files_partial": [],
+  "files_unread": [],
+  "spilled": [
+   {
+    "call": "{\"command\": \"cd /Volumes/aro/projects/prose_generation; python3 enrichment/v2/tools/corpus.py get SAMIN-DURR:1:1 SAMIN-DURR:1:1#2 SAMIN-DURR:1:1#3 SAMIN-DURR:1:",
+    "file_read_later": false
+   },
+   {
+    "call": "{\"command\": \"cd /Volumes/aro/projects/prose_generation; python3 enrichment/v2/tools/corpus.py get TABRISI:1:1 TABRISI:1:1#2 JISHUMI:v1p200 --chars 1900; python3",
+    "file_read_later": false
+   }
+  ],
+  "cuts_not_followed": [
+   "TAB:1:1 from 12000",
+   "MUSLIM:6978 from 500",
+   "DURR-FULL:v7p498 from 500",
+   "TABRISI:4:1#3 from 500",
+   "MUSLIM:6972 from 500",
+   "TAB-FULL:v6p345 from 400",
+   "TAB-FULL:v6p350 from 400",
+   "TAB-FULL:v6p346 from 400",
+   "IBNKATHIR-FULL:v2p206#2 from 400",
+   "IBNABIHATIM:v3p853 from 400",
+   "DURR-FULL:v2p423 from 400",
+   "BAGHAWI-FULL:v2p158#2 from 400",
+   "IBNATIYYA-FULL:v2p4 from 400",
+   "MAWARDI-FULL:v1p446#2 from 400",
+   "RAZI-FULL:v9p133#2 from 400",
+   "SAMIN-DURR:4:1#3 from 400",
+   "TAB-FULL:v15p585 from 600",
+   "IBNKATHIR-FULL:v5p214#2 from 600",
+   "QURTUBI-FULL:19:64-65#2 from 600",
+   "IBNKATHIR-FULL:v5p249 from 600",
+   "ELMALILI:1:1#7 from 700",
+   "ELMALILI:1:1#6 from 700",
+   "ELMALILI:1:3#2 from 700",
+   "ELMALILI:1:3 from 700",
+   "KUBBEALTI:rahmet from 1200",
+   "RAZI-FULL:v1p95 from 900",
+   "RAZI-FULL:v1p95#2 from 900",
+   "RAZI-FULL:v1p99 from 900",
+   "RAZI-FULL:v1p100 from 900",
+   "RAZI-FULL:v1p232 from 700",
+   "RAZI-FULL:v1p161 from 700",
+   "RAZI-FULL:v1p143#2 from 700",
+   "BIQAI:1:1 from 4000",
+   "JISHUMI:v1p200 from 1600",
+   "ELMALILI:1:1#9 from 3200",
+   "SUYUTI-LUBAB:v1p141 from 900",
+   "WAHIDI-ASBAB:v1p60 from 900",
+   "MUSLIM:879 from 600",
+   "NASAI:909 from 600",
+   "JISHUMI:v5p3451 from 400",
+   "ELMALILI:1:1#8 from 1500",
+   "IBNKATHIR-FULL:v1p124#2 from 1200"
+  ],
+  "unshown_notes": 0,
+  "max_tokens_stops": 0
+ },
+ "unread_sources": [
+  "BIQAI-FULL"
+ ],
+ "returncode": 0,
+ "turn_completed": true,
+ "usage": {
+  "input_tokens": 32,
+  "cache_creation_input_tokens": 288523,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 288523,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "cache_read_input_tokens": 2808774,
+  "output_tokens": 59318
+ },
+ "cost_usd": 3.190858,
+ "cost_basis": "transcript tokens x agentrun.RATES; output tokens are a floor (the transcript records usage as a message starts streaming), so the figure is a lower bound",
+ "num_turns": 16,
+ "commands": 54,
+ "transcript": "/Users/ahmetrasit/.claude/projects/-Volumes-aro-projects-prose-generation/e4f6f28f-cdae-4833-b94b-24947f4f54a5/subagents/agent-ab7a60ca16ab8ede0.jsonl",
+ "agent_id": "ab7a60ca16ab8ede0",
+ "stop_reason": "end_turn",
+ "safety_stop": null,
+ "status": "ok",
+ "check": "ok (trial: page in the call directory only)",
+ "kept": 55,
+ "dropped": 0,
+ "warnings": 0,
+ "seconds": 4509
+}

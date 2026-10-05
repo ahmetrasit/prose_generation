@@ -1,0 +1,45 @@
+{
+ "missing_sources": [
+  "TDK:isim, NISANYAN:isim, KUBBEALTI:isim (not found; ¶6's claim on the Turkish sense of 'isim' left without an anlam_tarihi block)",
+  "allah (turkish.md: not yet in the Turkish dictionaries of the corpus)",
+  "MUQATIL-WUJUH, BINTSHATI, ABDUH-AMMA: memory-only pointers, not used"
+ ],
+ "not_found": [
+  "search 'الرحم شجنة من الرحمن' --sahih: 0 hits (the Bukhari wording found only as BUKHARI:5989 'الرحم شجنة'); Ahmad/Ibn Hibban 'شققت لها اسما من اسمي' carries no grade in the corpus",
+  "search 'يستفتحون القراءة بالحمد لله رب العالمين' --sahih: 0 hits (used MUSLIM:890 instead)",
+  "search 'vesm' in ELMALILI surah 1: 0 hits",
+  "no antecedent found in the 1:1 slice for the tawassum / vesmî / mevsim chain of ¶14 (yenilik, tarama dilim)",
+  "'كل أمر ذي بال' found only in MUSNAD-AHMAD:8712 without a grade"
+ ],
+ "unresolved": [
+  "Two corpus outputs were spilled by the harness and not opened: SAMIN-DURR:1:1 + #2 (first call; #3 and #4 re-read separately, #1-#2 seen only in the 2KB preview: bâ for istiâne and its other meanings) and the combined TABRISI:1:1/#2 + JISHUMI:v1p200 + BIQAI:1:1 call (TABRISI:1:1 seen in the preview up to the sumuw derivation; TABRISI:1:1#2 not seen; JISHUMI:v1p200 and BIQAI:1:1 chars 1-4000 re-read separately)",
+  "Cuts not continued: TAB:1:1 read chars 1-12000 of 30188 (Tabari's Rahman/Rahim reports and the rest not read); BIQAI:1:1 chars 4000-11149; ELMALILI:1:1#9 from 3200; ELMALILI:1:1#8 from 1500; IBNKATHIR-FULL:v1p124#2 from 1200; KUBBEALTI:rahmet from 1200; TAB-FULL:v15p585, IBNKATHIR-FULL:v5p214#2, QURTUBI-FULL:19:64-65#2, IBNKATHIR-FULL:v5p249 from 600; WAHIDI-BASIT:v1p433#2 shown at 2500 limit; SUYUTI-LUBAB:v1p141 from 900; RAZI-FULL:v1p95, v1p95#2, v1p99, v1p100 from 900; search hits at 300-700 chars (TAB-FULL:v6p345/346/350, IBNKATHIR-FULL:v2p206#2, IBNATIYYA-FULL:v2p4, MAWARDI-FULL:v1p446#2, RAZI-FULL:v9p133#2, SAMIN-DURR:4:1#3, IBNMUJAHID:v1p226 first part, DURR-FULL:v7p498, TABRISI:4:1#3, MUSLIM:6978, MUSLIM:6972, MUSLIM:879, NASAI:909, BUKHARI:5999 first part re-read from 380). Reason: reading budget; the parts used for the blocks were read",
+  "No duzeltme: no error found in the base; errata_candidates.json concerns 1:2 only",
+  "¶23 (21:112 müsteân) has no block: nothing checked in the corpus addresses it"
+ ],
+ "unread_sources": [
+  {"source": "ALUSI:1:1, ALUSI-FULL:*", "reason": "budget (107k chars); repeats Razi/Abu Hayyan"},
+  {"source": "RAZI:1:1 and most RAZI-FULL:v1p89-v1p178 segments", "reason": "budget; only the ism/musamma and searched segments were opened"},
+  {"source": "QURTUBI:1:1, QURTUBI-FULL:1:1-7*", "reason": "budget; Qurtubi's points reached via IBNKATHIR-FULL and ABUHAYYAN"},
+  {"source": "IBNKATHIR:1:1", "reason": "budget (69k chars); searched segments of IBNKATHIR-FULL used"},
+  {"source": "DURR:1:1, DURR-FULL:v1p19-v1p29", "reason": "budget (35k chars); transmitted reports covered by TAB and IBNABIHATIM"},
+  {"source": "IBNASHUR:1:1, IBNASHUR-FULL:v1p142#2, v1p146, v1p149", "reason": "budget (41k chars); only IBNASHUR-FULL:v1p169 read"},
+  {"source": "ELMALILI:1:1, #2-#7, #10, #11; ELMALILI:1:3", "reason": "budget; #8 and #9 (izafet, translation) read"},
+  {"source": "BAYDAWI:1:1, BAYDAWI-FULL:*", "reason": "secondary; repeats Kashshaf"},
+  {"source": "NASAFI:1:1, NASAFI-FULL:*", "reason": "secondary; repeats Kashshaf"},
+  {"source": "BAGHAWI:1:1, BAGHAWI-FULL:*", "reason": "budget; transmitted material covered by TAB"},
+  {"source": "IBNATIYYA:1:1, IBNATIYYA-FULL:*", "reason": "budget"},
+  {"source": "THALABI:v1p92-v1p108", "reason": "budget; secondary to TAB/WAHIDI"},
+  {"source": "QASHANI:1:1, #2; SULAMI:v1p24#2-v1p33#2", "reason": "budget; the ishari layer represented by QUSHAYRI and TUSTARI"},
+  {"source": "QUTB-ZILAL:1:1", "reason": "budget"},
+  {"source": "TABATABAI:1:1-5 #1-#6", "reason": "budget; TABATABAI:1:1 read"},
+  {"source": "JISHUMI:v1p203, v1p205", "reason": "budget"},
+  {"source": "SAMIN-DURR:1:1#5-#13", "reason": "budget"},
+  {"source": "ABUHAYYAN-FULL:*", "reason": "repeats ABUHAYYAN:1:1, which was read whole"},
+  {"source": "KASHSHAF-FULL:*", "reason": "repeats KASHSHAF:1:1, which was read whole"},
+  {"source": "TAB-FULL:v1p111-v1p149", "reason": "repeats TAB:1:1 (first 12000 chars read)"},
+  {"source": "MAWARDI-FULL:*", "reason": "repeats MAWARDI:1:1, read whole"},
+  {"source": "WAHIDI-WAJIZ:1:1-4", "reason": "secondary; WAHIDI-QT and WAHIDI-BASIT read"},
+  {"source": "MEAL-*:1:1 locators", "reason": "read through PACK meals.md, not one by one"}
+ ]
+}

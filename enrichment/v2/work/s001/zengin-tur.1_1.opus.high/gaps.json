@@ -1,0 +1,58 @@
+{
+  "missing_sources": [
+    "MUQATIL-WUJUH (memory-only pointer; no wujūh entry for ism / raḥma could be read)",
+    "BINTSHATI, ABDUH-AMMA, KHULI, ISLAHI-TADABBUR, FARAHI-NIZAM (memory-only pointers; not used)",
+    "IBNMUJAHID, QIRAAT-ER, IBNKHALAWAYH-HUJJA, FARISI-HUJJA (not tied to 1:1 in sources.md; the basmala's meaning-bearing reading questions were taken from ABUHAYYAN and KASHSHAF)",
+    "Turkish dictionary entry for 'allah' (turkish.md: not yet in the corpus)"
+  ],
+  "not_found": [
+    "search 'الرحم شجنة من الرحمن' --sahih: 0 results (the Bukhārī version found is BUKHARI:5989 without 'min al-Raḥmān'; the 'shaqaqtu lahā isman min ismī' version is in MUSNAD-AHMAD:1680 and IBNHIBBAN:v2p186 without a corpus grade)",
+    "search 'سماوة الهلال' across the corpus: only lexica and al-ʿAjjāj's verse (PROJE, MUHIT, ASAS, MUFRADAT, JAMHARA, IBNQUTAYBA-GHARIB); no tafsir links the rising crescent/silhouette to ism (¶5, YNL-001)",
+    "the sky/roof (samāʾ) image of ¶8 was not found in the per-ayah slice of 1:1; whole-text search not done (YNL-002)",
+    "search 'فعلان الامتلاء' in IBNASHUR/IBNASHUR-FULL: 0 results",
+    "no antecedent searched or found for ¶23 (21:112 al-mustaʿān) and ¶14's mawsim image; ¶23 has no block"
+  ],
+  "unresolved": [
+    "TAB:1:1 characters 2,001–5,500 not seen: the first call spilled to a file (only the 2,000-character preview shown; the file was not opened by rule) and the re-fetch started at 5,501. The unseen stretch holds the names of al-Fātiḥa and the istiʿādha (surah-level material)",
+    "SAMIN-DURR:1:1 and SAMIN-DURR:1:1#2: the batch call spilled to a file; only the preview (about the first 2,000 characters: basmala as a verb 'basmala', the meanings of bā') was seen; #3 and #4 were re-fetched and read; #5–#13 not read (budget)",
+    "MUSLIM:4632 cut at 900 characters; the quoted part (Suhayl's objection) is inside the shown stretch; the rest (treaty conditions) not read",
+    "BAGHAWI-FULL:v1p50 cut at 400 characters; the cited walah passage is within the shown part; rest not read",
+    "ELMALILI:1:1#6 and #7 shown only to 900 characters (search hits); the Manār quotation used in TDR-014 is in the segment's note; rest of Elmalılı's basmala commentary (ELMALILI:1:1 … #11) not read",
+    "TAB-FULL:v14p94#2 cut at 300 characters (Ṭabarī's gloss of al-mutawassimīn taken from the segment heading); IBNASHUR-FULL:v25p233, WAHIDI-BASIT:v1p450, IBNABIHATIM, DURR-FULL:v5p90, TABRISI:4:1#3 shown only as search previews, not cited",
+    "BUKHARI:2731/2732 (Ḥudaybiya, long text) not read beyond 400 characters; the shorter MUSLIM:4632 was used instead",
+    "Grade of the Ṭabarī chain (Ismāʿīl b. ʿAyyāsh … ʿamman ḥaddathahu … ʿAṭiyya) for the ʿĪsā reports: no grader in the corpus; only the unnamed transmitter and Ṭabarī's own doubt are reported (KNT-001, TRV-004)",
+    "Wahidi's Ibn ʿAbbās chain (Bishr b. ʿUmāra – Abū Rawq – al-Ḍaḥḥāk) for the first revelation with basmala: no grade in source or corpus (ESB-001 derece degerlendirilmedi)"
+  ],
+  "unread_sources": [
+    {"id": "ALUSI", "reason": "budget (107,206 characters); later compilation repeating Rāzī/Abū Ḥayyān"},
+    {"id": "QURTUBI", "reason": "budget (67,974 characters); his key points reached through IBNKATHIR-FULL:v1p124#2 and ABUHAYYAN"},
+    {"id": "IBNKATHIR", "reason": "budget (69,544 characters); targeted IBNKATHIR-FULL segments read via search instead"},
+    {"id": "IBNASHUR", "reason": "budget (40,889 characters); one targeted search without result"},
+    {"id": "DURR", "reason": "budget (35,594 characters); DURR-FULL segments reached through searches"},
+    {"id": "RAZI", "reason": "budget; RAZI-FULL v1p89–178 is a full treatise on the basmala; repeats the ism/musammā and derivation debates read in ABUHAYYAN, SAMIN-DURR, MAWARDI"},
+    {"id": "IBNATIYYA", "reason": "budget; Andalusian analytical layer covered by ABUHAYYAN"},
+    {"id": "BAYDAWI", "reason": "repeats KASHSHAF"},
+    {"id": "NASAFI", "reason": "repeats KASHSHAF"},
+    {"id": "BIQAI", "reason": "budget; naẓm of the whole surah belongs to the surah page"},
+    {"id": "BAGHAWI", "reason": "only BAGHAWI-FULL:v1p50 (walah) read via search; rest repeats TAB"},
+    {"id": "THALABI", "reason": "budget; source of BAGHAWI"},
+    {"id": "TABRISI", "reason": "budget; Imāmī layer not read for 1:1"},
+    {"id": "JISHUMI", "reason": "budget; Muʿtazilī view on the wasm derivation reached only through SAMIN-DURR's report"},
+    {"id": "QASHANI", "reason": "secondary; ishārī layer represented by TUSTARI and QUSHAYRI"},
+    {"id": "SULAMI", "reason": "budget; ishārī layer represented by TUSTARI and QUSHAYRI"},
+    {"id": "AKHFASH", "reason": "his zāʾid view reached through MAWARDI and SAMIN-DURR"},
+    {"id": "IBNABIHATIM", "reason": "secondary; no distinct report for 1:1 expected beyond TAB"},
+    {"id": "WAHIDI-BASIT:v1p433#2", "reason": "budget; WAHIDI-BASIT read at 19:65 and seen at v1p450 (preview)"},
+    {"id": "WAHIDI-QT", "reason": "secondary (346 characters)"},
+    {"id": "WAHIDI-WAJIZ", "reason": "secondary"},
+    {"id": "QUTB-ZILAL", "reason": "budget"},
+    {"id": "TABATABAI:1:1-5", "reason": "budget; TABATABAI:1:1 read"},
+    {"id": "ABUHAYYAN-FULL", "reason": "repeats ABUHAYYAN:1:1 (read in full)"},
+    {"id": "KASHSHAF-FULL", "reason": "repeats KASHSHAF:1:1 (read in full)"},
+    {"id": "MAWARDI-FULL", "reason": "repeats MAWARDI:1:1 (read in full)"},
+    {"id": "TAB-FULL", "reason": "repeats TAB:1:1"},
+    {"id": "ELMALILI", "reason": "only the two search hits (#6, #7) read; budget"},
+    {"id": "SAMIN-DURR:1:1#5-#13", "reason": "budget; i'rāb details repeating ABUHAYYAN"},
+    {"id": "reference-set meals", "reason": "consulted only through PACK meals.md, not opened one by one"}
+  ]
+}
