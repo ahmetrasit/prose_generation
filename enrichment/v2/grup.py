@@ -305,6 +305,22 @@ def search_items(con, s: int, gid: str, srcs: list[str]) -> tuple[list[dict], li
     return items, queries
 
 
+def dictionary_items(s: int) -> list[dict]:
+    """The lexicon group's material (user, 2026-10-05: «I already have dictionaries built — why spend so much on
+    dictionaries»): the project dictionary's section for each ayah (PACK ayah/S_A/dictionary.md: every branch of every
+    bound root, early phrases whole), which was built from the six classical lexica. A lexicon's own entry is opened
+    only for a block that cites it (pack roots/<root_id>.md for the six, corpus.py get for the others)."""
+    out = []
+    for p in pages(s):
+        if p == "surah":
+            continue
+        f = wd(s) / "pack" / "ayah" / tag(p) / "dictionary.md"
+        if f.exists():
+            text = f.read_text(encoding="utf-8")
+            out.append({"seg": f"dictionary:{p}", "src": "PROJE", "page": p, "chars": len(text), "text": text + "\n"})
+    return out
+
+
 def meal_items(s: int) -> list[dict]:
     out = []
     for p in pages(s):
@@ -371,7 +387,9 @@ def plan(s: int, only: str | None = None) -> dict:
         elif mat == "cites":
             items = cites_items(con, s, held)
         elif mat == "root":
-            items = root_items(con, s, held)
+            items = dictionary_items(s)
+            rec["read_through"] = ("the project dictionary (PACK ayah/S_A/dictionary.md), built from the six classical "
+                                   "lexica; entries of any lexicon opened on demand for the blocks that cite them")
         elif mat == "search":
             items, rec["queries"] = search_items(con, s, gid, held)
         elif mat == "meal":
@@ -543,7 +561,7 @@ def material_texts(con, s: int, u: dict, g: dict) -> list[str]:
     elif mat == "cites":
         pool = cites_items(con, s, srcs)
     elif mat == "root":
-        pool = root_items(con, s, srcs)
+        pool = dictionary_items(s)
     elif mat == "search":
         pool, _ = search_items(con, s, g["id"], srcs)
     elif mat == "meal":
