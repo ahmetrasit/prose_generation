@@ -69,7 +69,7 @@ def tool_audit(events, first_done):
         else:
             out_text = str(out or "")
         for line in out_text.splitlines():
-            if re.search(r"(?:^Traceback|^\w*Error:|No such file or directory|^WARNING:|^BLOCKED:)", line):
+            if re.search(r"(?:^Traceback|^\w*Error:|No such file or directory|^WARNING:|^BLOCKED:|^duplicate|^bad[_ -](?:field|strength|basis|reference|ref))", line):
                 diagnostics.append({"call_id": p.get("call_id"), "message": line[:700]})
     return calls, diagnostics
 

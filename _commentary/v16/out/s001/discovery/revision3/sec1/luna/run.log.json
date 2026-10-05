@@ -1,0 +1,90 @@
+{
+  "ref": "S1",
+  "arm": "discover",
+  "brief": "revision3.luna.sec1",
+  "run_tag": "revision3",
+  "section_number": 1,
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "runner": "agent",
+  "agent_path": "/root/s1_r3_01_luna",
+  "agent_id": "01a10a3b-03c4-79e3-a20b-2ed7f51c5fdb",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T00-03-22-01a10a3b-03c4-79e3-a20b-2ed7f51c5fdb.jsonl",
+  "estimate_usd": 0,
+  "cost_usd": 0,
+  "cost_basis": "Codex subscription",
+  "status": "ok",
+  "check": "findings",
+  "usage_tokens": {
+    "input_tokens": 436038,
+    "cached_input_tokens": 370688,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 45760,
+    "reasoning_output_tokens": 38494,
+    "total_tokens": 481798
+  },
+  "turn1_rows": 117,
+  "turn1_lines": 117,
+  "turn1": {
+    "agent_path": "/root/s1_r3_01_luna",
+    "agent_id": "01a10a3b-03c4-79e3-a20b-2ed7f51c5fdb",
+    "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T00-03-22-01a10a3b-03c4-79e3-a20b-2ed7f51c5fdb.jsonl",
+    "rows": 117,
+    "lines": 117,
+    "bad_rows": [],
+    "usage": {
+      "input_tokens": 229361,
+      "cached_input_tokens": 176896,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 34691,
+      "reasoning_output_tokens": 28315,
+      "total_tokens": 264052
+    },
+    "completed_at": "2026-10-05T04:13:57.833Z"
+  },
+  "turn2": {
+    "completed": true,
+    "rows_total": 131,
+    "rows_added": 14,
+    "usage": {
+      "input_tokens": 206677,
+      "cached_input_tokens": 193792,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 11069,
+      "reasoning_output_tokens": 10179,
+      "total_tokens": 217746
+    }
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "bad_rows": [],
+  "duplicates": {},
+  "source_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "inputs_unchanged": true,
+  "followup_delivery": [
+    {
+      "call_id": "call_W1j8wJzMfWCXjV1LpkSOILSo",
+      "timestamp": "2026-10-05T04:14:07.828Z",
+      "target": "/root/s1_r3_01_luna",
+      "parent_transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/04/rollout-2026-10-04T21-37-28-01a109b5-7256-7930-b51e-78b0a209e630.jsonl",
+      "message_encrypted": true,
+      "plaintext_matches": false
+    }
+  ],
+  "protocol_findings": [],
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "arabic_findings": 19,
+  "followup": "Review your remembered coverage for qualifying omissions under the same inclusion and grading rules, checking the section's distinct scenes and secondary details, repeated formulations, specific indirect parallels, reversals, and necessary passage continuations. Append only previously unlisted ayah references using the same TSV schema. Keep existing bytes unchanged. Zero additions is valid. Do not read any files, retrieve sources, or run scripts; a file-write tool or a literal append-only shell write solely to save the rows is permitted. Do not regrade, sort, or rewrite the existing list. Return only a brief completion notice.",
+  "strength_counts": {
+    "strong": 106,
+    "medium": 20,
+    "weak": 1,
+    "contrast": 4
+  },
+  "list_sha256": "393afe22706a41953eefac09454923a618d441510168bed94e87f2ff14d04ec4",
+  "prompt_sha256": "704b1f250dfef95e443ff24ff7203c2aca00d57031d1fb2c5fcb79b0b5f83385",
+  "package_sha256": "4030d24b24950ae571f1e409194e0a6b2f5c53960f0e451e2bdcbf6376df025e",
+  "completed_at": "2026-10-05T04:17:32.192Z",
+  "seconds": 869
+}

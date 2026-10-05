@@ -322,7 +322,7 @@ def main() -> None:
                 (d / "prompt.md").write_text(prompt_text(a.surah, sec, d), encoding="utf-8")
                 print(f"S{a.surah} sec{sec['k']} '{sec['title']}' {m} ({MODELS[m]}, {EFFORT}): package "
                       f"{len((d / 'package.md').read_text(encoding='utf-8')):,} chars -> {d.relative_to(V.HERE)}")
-    print(f"{len(jobs)} call(s)" + ("" if a.go else "; add --go to run them (Codex subscription, no USD)"))
+    print(f"{len(jobs)} call(s)" + ("" if a.go else "; spawn native agents using discovery_native.py (Codex subscription, no USD)"))
     if not a.go or not jobs:
         return
     with ThreadPoolExecutor(a.parallel) as ex:

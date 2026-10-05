@@ -1,0 +1,89 @@
+{
+  "ref": "S1",
+  "arm": "discover",
+  "brief": "revision3.terra.sec1",
+  "run_tag": "revision3",
+  "section_number": 1,
+  "model": "gpt-5.6-terra",
+  "effort": "max",
+  "runner": "agent",
+  "agent_path": "/root/s1_r3_01_terra",
+  "agent_id": "01a10a3b-2f62-7a61-84ab-184518db15d1",
+  "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T00-03-33-01a10a3b-2f62-7a61-84ab-184518db15d1.jsonl",
+  "estimate_usd": 0,
+  "cost_usd": 0,
+  "cost_basis": "Codex subscription",
+  "status": "ok",
+  "check": "ok",
+  "usage_tokens": {
+    "input_tokens": 264707,
+    "cached_input_tokens": 199424,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 34862,
+    "reasoning_output_tokens": 28622,
+    "total_tokens": 299569
+  },
+  "turn1_rows": 107,
+  "turn1_lines": 107,
+  "turn1": {
+    "agent_path": "/root/s1_r3_01_terra",
+    "agent_id": "01a10a3b-2f62-7a61-84ab-184518db15d1",
+    "transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/05/rollout-2026-10-05T00-03-33-01a10a3b-2f62-7a61-84ab-184518db15d1.jsonl",
+    "rows": 107,
+    "lines": 107,
+    "bad_rows": [],
+    "usage": {
+      "input_tokens": 150744,
+      "cached_input_tokens": 97536,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 24513,
+      "reasoning_output_tokens": 19234,
+      "total_tokens": 175257
+    },
+    "completed_at": "2026-10-05T04:17:14.339Z"
+  },
+  "turn2": {
+    "completed": true,
+    "rows_total": 124,
+    "rows_added": 17,
+    "usage": {
+      "input_tokens": 113963,
+      "cached_input_tokens": 101888,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 10349,
+      "reasoning_output_tokens": 9388,
+      "total_tokens": 124312
+    }
+  },
+  "append_only": true,
+  "model_effort_verified": true,
+  "bad_rows": [],
+  "duplicates": {},
+  "source_sha256": "782be8c16d10f4684dc7f79db8acefd312f3ca466c57cffa1c3ce02d6429dea7",
+  "inputs_unchanged": true,
+  "followup_delivery": [
+    {
+      "call_id": "call_LYNEiPfi9a9ULn7l46niCUEL",
+      "timestamp": "2026-10-05T04:17:27.200Z",
+      "target": "/root/s1_r3_01_terra",
+      "parent_transcript": "/Users/ahmetrasit/.codex/sessions/2026/10/04/rollout-2026-10-04T21-37-28-01a109b5-7256-7930-b51e-78b0a209e630.jsonl",
+      "message_encrypted": true,
+      "plaintext_matches": false
+    }
+  ],
+  "protocol_findings": [],
+  "tool_audit_reviewed": true,
+  "tool_diagnostics": [],
+  "arabic_findings": 0,
+  "followup": "Review your remembered coverage for qualifying omissions under the same inclusion and grading rules, checking the section's distinct scenes and secondary details, repeated formulations, specific indirect parallels, reversals, and necessary passage continuations. Append only previously unlisted ayah references using the same TSV schema. Keep existing bytes unchanged. Zero additions is valid. Do not read any files, retrieve sources, or run scripts; a file-write tool or a literal append-only shell write solely to save the rows is permitted. Do not regrade, sort, or rewrite the existing list. Return only a brief completion notice.",
+  "strength_counts": {
+    "strong": 63,
+    "contrast": 29,
+    "medium": 32
+  },
+  "list_sha256": "9f1507e42ac99aa9491853917b6990a3eddb66a5f7cc6e7763d9b7991ee95b5b",
+  "prompt_sha256": "41b3bc73e2c4ba7baf3b5868f7de122f6ae78a86380f8b2bec1359b54b53d67e",
+  "package_sha256": "4030d24b24950ae571f1e409194e0a6b2f5c53960f0e451e2bdcbf6376df025e",
+  "completed_at": "2026-10-05T04:22:58.777Z",
+  "seconds": 1195
+}

@@ -1,0 +1,3376 @@
+{
+  "batch": 1,
+  "jobs": [
+    {
+      "section": 1,
+      "model": "luna",
+      "initial": 117,
+      "added": 14,
+      "final": 131,
+      "status": "ok",
+      "check": "findings",
+      "missing_existing_citations": [],
+      "strengths_by_phase": {
+        "1": {
+          "strong": 98,
+          "medium": 15,
+          "weak": 1,
+          "contrast": 3
+        },
+        "2": {
+          "strong": 8,
+          "medium": 5,
+          "contrast": 1
+        }
+      },
+      "usage_tokens": {
+        "input_tokens": 436038,
+        "cached_input_tokens": 370688,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 45760,
+        "reasoning_output_tokens": 38494,
+        "total_tokens": 481798
+      },
+      "cost_usd": 0,
+      "diagnostics": [],
+      "validation_review.json": {
+        "reviewed_findings": [
+          {
+            "line": 1,
+            "ref": "6:153",
+            "arabic": "صراط",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root, dictionary/lemma form, explicitly identified source-section wording, or ordinary/Uthmani spelling; not a wrong-ayah quotation."
+          },
+          {
+            "line": 2,
+            "ref": "4:69",
+            "arabic": "صراط الذين أنعمت عليهم",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [
+              "1:7"
+            ],
+            "matching_ref_count": 1,
+            "assessment": "Root, dictionary/lemma form, explicitly identified source-section wording, or ordinary/Uthmani spelling; not a wrong-ayah quotation."
+          },
+          {
+            "line": 5,
+            "ref": "28:22",
+            "arabic": "هدى",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root, dictionary/lemma form, explicitly identified source-section wording, or ordinary/Uthmani spelling; not a wrong-ayah quotation."
+          },
+          {
+            "line": 18,
+            "ref": "36:61",
+            "arabic": "ع ب د",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root, dictionary/lemma form, explicitly identified source-section wording, or ordinary/Uthmani spelling; not a wrong-ayah quotation."
+          },
+          {
+            "line": 20,
+            "ref": "19:36",
+            "arabic": "ع ب د",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root, dictionary/lemma form, explicitly identified source-section wording, or ordinary/Uthmani spelling; not a wrong-ayah quotation."
+          },
+          {
+            "line": 26,
+            "ref": "16:16",
+            "arabic": "ع ل م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root, dictionary/lemma form, explicitly identified source-section wording, or ordinary/Uthmani spelling; not a wrong-ayah quotation."
+          },
+          {
+            "line": 27,
+            "ref": "6:97",
+            "arabic": "ع ل م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root, dictionary/lemma form, explicitly identified source-section wording, or ordinary/Uthmani spelling; not a wrong-ayah quotation."
+          },
+          {
+            "line": 33,
+            "ref": "16:69",
+            "arabic": "الطريق المعبد",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root, dictionary/lemma form, explicitly identified source-section wording, or ordinary/Uthmani spelling; not a wrong-ayah quotation."
+          },
+          {
+            "line": 70,
+            "ref": "20:79",
+            "arabic": "أضل قومه وما هدى",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "The Arabic excerpt omits فرعون between أضل and قومه without an omission mark. The English supplies Pharaoh and the candidate relation is valid, but quotation boundaries are imprecise."
+          },
+          {
+            "line": 78,
+            "ref": "17:15",
+            "arabic": "ض ل ل",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root, dictionary/lemma form, explicitly identified source-section wording, or ordinary/Uthmani spelling; not a wrong-ayah quotation."
+          },
+          {
+            "line": 88,
+            "ref": "43:22",
+            "arabic": "آثار",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root, dictionary/lemma form, explicitly identified source-section wording, or ordinary/Uthmani spelling; not a wrong-ayah quotation."
+          },
+          {
+            "line": 91,
+            "ref": "29:69",
+            "arabic": "سبل",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root, dictionary/lemma form, explicitly identified source-section wording, or ordinary/Uthmani spelling; not a wrong-ayah quotation."
+          },
+          {
+            "line": 98,
+            "ref": "93:7",
+            "arabic": "ض ل ل",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root, dictionary/lemma form, explicitly identified source-section wording, or ordinary/Uthmani spelling; not a wrong-ayah quotation."
+          },
+          {
+            "line": 98,
+            "ref": "93:7",
+            "arabic": "ه د ي",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root, dictionary/lemma form, explicitly identified source-section wording, or ordinary/Uthmani spelling; not a wrong-ayah quotation."
+          },
+          {
+            "line": 99,
+            "ref": "2:143",
+            "arabic": "مَلِك الطريق",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root, dictionary/lemma form, explicitly identified source-section wording, or ordinary/Uthmani spelling; not a wrong-ayah quotation."
+          },
+          {
+            "line": 115,
+            "ref": "28:56",
+            "arabic": "هدى",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root, dictionary/lemma form, explicitly identified source-section wording, or ordinary/Uthmani spelling; not a wrong-ayah quotation."
+          },
+          {
+            "line": 118,
+            "ref": "2:38",
+            "arabic": "اتبَعَ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Parenthetical verb form اتبع differs from the actual تبع. Following guidance is correctly described, but the Arabic form is not exact."
+          },
+          {
+            "line": 126,
+            "ref": "18:64",
+            "arabic": "آثارهما",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root, dictionary/lemma form, explicitly identified source-section wording, or ordinary/Uthmani spelling; not a wrong-ayah quotation."
+          },
+          {
+            "line": 130,
+            "ref": "37:70",
+            "arabic": "آثار",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root, dictionary/lemma form, explicitly identified source-section wording, or ordinary/Uthmani spelling; not a wrong-ayah quotation."
+          }
+        ],
+        "confirmed_wording_issues": 2,
+        "scope": "All automated Arabic flags reviewed. No exhaustive semantic audit; candidate validity is separate from wording accuracy."
+      },
+      "protocol_review.json": {
+        "reviewer": "orchestrator",
+        "findings": [],
+        "notes": [
+          "The follow-up appended an accidental placeholder row (weak / surah:ayah / basis / short explanation), then removed only that new placeholder with apply_patch. The first-turn bytes remain unchanged. No reads, retrieval or scripts occurred during follow-up. This is recorded as an in-turn output correction, not a third turn or a change to initial candidates."
+        ]
+      }
+    },
+    {
+      "section": 1,
+      "model": "terra",
+      "initial": 107,
+      "added": 17,
+      "final": 124,
+      "status": "ok",
+      "check": "ok",
+      "missing_existing_citations": [],
+      "strengths_by_phase": {
+        "1": {
+          "strong": 63,
+          "contrast": 22,
+          "medium": 22
+        },
+        "2": {
+          "contrast": 7,
+          "medium": 10
+        }
+      },
+      "usage_tokens": {
+        "input_tokens": 264707,
+        "cached_input_tokens": 199424,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 34862,
+        "reasoning_output_tokens": 28622,
+        "total_tokens": 299569
+      },
+      "cost_usd": 0,
+      "diagnostics": []
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "initial": 108,
+      "added": 58,
+      "final": 166,
+      "status": "ok",
+      "check": "findings",
+      "missing_existing_citations": [],
+      "strengths_by_phase": {
+        "1": {
+          "strong": 103,
+          "medium": 5
+        },
+        "2": {
+          "contrast": 19,
+          "strong": 20,
+          "medium": 19
+        }
+      },
+      "usage_tokens": {
+        "input_tokens": 550828,
+        "cached_input_tokens": 478720,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 60736,
+        "reasoning_output_tokens": 50257,
+        "total_tokens": 611564
+      },
+      "cost_usd": 0,
+      "diagnostics": [
+        {
+          "call_id": "call_ZT3O7wbnYGDmk0xDp3Q1vIEY",
+          "message": "duplicate=16:36, rows=2"
+        },
+        {
+          "call_id": "call_ZT3O7wbnYGDmk0xDp3Q1vIEY",
+          "message": "duplicate=36:72, rows=2"
+        }
+      ],
+      "validation_review.json": {
+        "reviewed_findings": [
+          {
+            "line": 1,
+            "ref": "67:15",
+            "arabic": "مُذَلَّل",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Labelled dictionary form, lemma excerpt, attached-particle difference or ordinary/Uthmani spelling; no substantive wrong-ayah wording in this span."
+          },
+          {
+            "line": 2,
+            "ref": "36:71",
+            "arabic": "م ل ك",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 19,
+            "ref": "16:71",
+            "arabic": "م ل ك",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 20,
+            "ref": "16:75",
+            "arabic": "ع ب د",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 20,
+            "ref": "16:75",
+            "arabic": "م ل ك",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 22,
+            "ref": "39:29",
+            "arabic": "ع ب د",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 22,
+            "ref": "39:29",
+            "arabic": "م ل ك",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 23,
+            "ref": "34:22",
+            "arabic": "م ل ك",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 24,
+            "ref": "3:26",
+            "arabic": "م ل ك",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 25,
+            "ref": "2:107",
+            "arabic": "م ل ك",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 29,
+            "ref": "23:86",
+            "arabic": "ر ب ب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 31,
+            "ref": "23:88",
+            "arabic": "م ل ك",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 33,
+            "ref": "57:2",
+            "arabic": "م ل ك",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 33,
+            "ref": "57:2",
+            "arabic": "لَهُ الْمُلْكُ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [
+              "2:247",
+              "6:73",
+              "35:13",
+              "39:6",
+              "64:1"
+            ],
+            "matching_ref_count": 5,
+            "assessment": "Quoted له الملك adds an article absent from له ملك السماوات; meaning retained, wording inaccurate."
+          },
+          {
+            "line": 34,
+            "ref": "40:16",
+            "arabic": "م ل ك",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 35,
+            "ref": "12:23",
+            "arabic": "ر ب ب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 36,
+            "ref": "12:39",
+            "arabic": "ر ب ب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 36,
+            "ref": "12:39",
+            "arabic": "أَرْبَابٌ مُّتَفَرِّقُونَ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Labelled dictionary form, lemma excerpt, attached-particle difference or ordinary/Uthmani spelling; no substantive wrong-ayah wording in this span."
+          },
+          {
+            "line": 37,
+            "ref": "12:40",
+            "arabic": "ع ب د",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 37,
+            "ref": "12:40",
+            "arabic": "د ي ن",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 38,
+            "ref": "12:41",
+            "arabic": "ر ب ب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 38,
+            "ref": "12:41",
+            "arabic": "رَبِّ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Labelled dictionary form, lemma excerpt, attached-particle difference or ordinary/Uthmani spelling; no substantive wrong-ayah wording in this span."
+          },
+          {
+            "line": 39,
+            "ref": "12:42",
+            "arabic": "رَبِّ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Labelled dictionary form, lemma excerpt, attached-particle difference or ordinary/Uthmani spelling; no substantive wrong-ayah wording in this span."
+          },
+          {
+            "line": 39,
+            "ref": "12:42",
+            "arabic": "ر ب ب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 40,
+            "ref": "12:50",
+            "arabic": "رَبِّ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Labelled dictionary form, lemma excerpt, attached-particle difference or ordinary/Uthmani spelling; no substantive wrong-ayah wording in this span."
+          },
+          {
+            "line": 40,
+            "ref": "12:50",
+            "arabic": "ر ب ب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 41,
+            "ref": "26:18",
+            "arabic": "ر ب ب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 47,
+            "ref": "3:64",
+            "arabic": "ر ب ب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 48,
+            "ref": "9:31",
+            "arabic": "ر ب ب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 49,
+            "ref": "3:79",
+            "arabic": "ر ب ب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 49,
+            "ref": "3:79",
+            "arabic": "رَبَّانِيِّينَ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Labelled dictionary form, lemma excerpt, attached-particle difference or ordinary/Uthmani spelling; no substantive wrong-ayah wording in this span."
+          },
+          {
+            "line": 50,
+            "ref": "3:80",
+            "arabic": "ر ب ب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 51,
+            "ref": "4:36",
+            "arabic": "ع ب د",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 52,
+            "ref": "106:3",
+            "arabic": "ر ب ب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 54,
+            "ref": "2:21",
+            "arabic": "ر ب ب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 59,
+            "ref": "6:102",
+            "arabic": "ر ب ب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 59,
+            "ref": "6:102",
+            "arabic": "ع ب د",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 64,
+            "ref": "10:3",
+            "arabic": "ر ب ب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 67,
+            "ref": "11:61",
+            "arabic": "ر ب ب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 67,
+            "ref": "11:61",
+            "arabic": "ع ب د",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 70,
+            "ref": "19:36",
+            "arabic": "ر ب ب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 71,
+            "ref": "20:14",
+            "arabic": "ع ب د",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 79,
+            "ref": "39:2",
+            "arabic": "ع ب د",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 79,
+            "ref": "39:2",
+            "arabic": "د ي ن",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 80,
+            "ref": "39:3",
+            "arabic": "د ي ن",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 81,
+            "ref": "39:11",
+            "arabic": "ع ب د",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 82,
+            "ref": "39:14",
+            "arabic": "ع ب د",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 82,
+            "ref": "39:14",
+            "arabic": "أَعْبُدُ اللَّهَ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [
+              "10:104",
+              "13:36",
+              "39:2",
+              "39:11"
+            ],
+            "matching_ref_count": 4,
+            "assessment": "Quoted أعبد الله reverses the actual الله أعبد word order."
+          },
+          {
+            "line": 84,
+            "ref": "51:56",
+            "arabic": "ع ب د",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 85,
+            "ref": "98:5",
+            "arabic": "ع ب د",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 85,
+            "ref": "98:5",
+            "arabic": "د ي ن",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 91,
+            "ref": "4:171",
+            "arabic": "م ل ك",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Ownership wording is paraphrased without a label; عبدًا لله and the Messiah refusing servitude belong to 4:172. Root م ل ك is a semantic relation here, not a literal root occurrence."
+          },
+          {
+            "line": 91,
+            "ref": "4:171",
+            "arabic": "لِلَّهِ مَا فِى السَّمَاوَاتِ وَالْأَرْضِ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [
+              "4:170",
+              "10:55",
+              "24:64",
+              "31:26",
+              "57:1"
+            ],
+            "matching_ref_count": 5,
+            "assessment": "Ownership wording is paraphrased without a label; عبدًا لله and the Messiah refusing servitude belong to 4:172. Root م ل ك is a semantic relation here, not a literal root occurrence."
+          },
+          {
+            "line": 91,
+            "ref": "4:171",
+            "arabic": "ع ب د",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Ownership wording is paraphrased without a label; عبدًا لله and the Messiah refusing servitude belong to 4:172. Root م ل ك is a semantic relation here, not a literal root occurrence."
+          },
+          {
+            "line": 91,
+            "ref": "4:171",
+            "arabic": "عَبْدًا لِلَّهِ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [
+              "4:172"
+            ],
+            "matching_ref_count": 1,
+            "assessment": "Ownership wording is paraphrased without a label; عبدًا لله and the Messiah refusing servitude belong to 4:172. Root م ل ك is a semantic relation here, not a literal root occurrence."
+          },
+          {
+            "line": 92,
+            "ref": "21:19",
+            "arabic": "م ل ك",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 92,
+            "ref": "21:19",
+            "arabic": "ع ب د",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 98,
+            "ref": "7:194",
+            "arabic": "ع ب د",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 99,
+            "ref": "43:19",
+            "arabic": "ع ب د",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 103,
+            "ref": "17:111",
+            "arabic": "ذُلٍّ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Labelled dictionary form, lemma excerpt, attached-particle difference or ordinary/Uthmani spelling; no substantive wrong-ayah wording in this span."
+          },
+          {
+            "line": 104,
+            "ref": "35:15",
+            "arabic": "فقيرٌ إِلَى اللَّهِ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Unlabelled Arabic paraphrase uses singular فقير in place of the actual plural الفقراء."
+          },
+          {
+            "line": 123,
+            "ref": "82:17",
+            "arabic": "د ي ن",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Explicit root label, not an ayah quotation; literal root occurrence claims are not validated by this string check."
+          },
+          {
+            "line": 151,
+            "ref": "6:73",
+            "arabic": "ملك",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Labelled dictionary form, lemma excerpt, attached-particle difference or ordinary/Uthmani spelling; no substantive wrong-ayah wording in this span."
+          }
+        ],
+        "confirmed_wording_issue_refs": [
+          "57:2",
+          "39:14",
+          "4:171",
+          "35:15"
+        ],
+        "confirmed_wording_issues": 4,
+        "additional_semantic_findings": [
+          {
+            "ref": "38:75",
+            "finding": "English note imports Iblis claiming superiority from 38:76; 38:75 contains only the divine question."
+          },
+          {
+            "ref": "4:171",
+            "finding": "Ownership wording is paraphrased without a label; عبدًا لله and the Messiah refusing servitude belong to 4:172. Root م ل ك is a semantic relation here, not a literal root occurrence."
+          }
+        ],
+        "limits": "All automatic Arabic flags inspected against local canonical text; English content and relevance only sampled. Raw list unchanged. Counts describe affected rows, not an error rate."
+      }
+    },
+    {
+      "section": 2,
+      "model": "terra",
+      "initial": 113,
+      "added": 36,
+      "final": 149,
+      "status": "ok",
+      "check": "findings",
+      "missing_existing_citations": [],
+      "strengths_by_phase": {
+        "1": {
+          "strong": 76,
+          "contrast": 23,
+          "medium": 14
+        },
+        "2": {
+          "strong": 17,
+          "contrast": 14,
+          "medium": 5
+        }
+      },
+      "usage_tokens": {
+        "input_tokens": 613021,
+        "cached_input_tokens": 544000,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 51211,
+        "reasoning_output_tokens": 39280,
+        "total_tokens": 664232
+      },
+      "cost_usd": 0,
+      "diagnostics": [],
+      "validation_review.json": {
+        "reviewed_findings": [
+          {
+            "line": 1,
+            "ref": "114:1",
+            "arabic": "رَبِّ ٱلنَّاسِ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Lemma/attached-particle excerpt or ordinary/Uthmani spelling; no substantive wrong-ayah wording in the flagged span."
+          },
+          {
+            "line": 6,
+            "ref": "82:19",
+            "arabic": "يَوْمَ ٱلدِّينِ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [
+              "1:4",
+              "15:35",
+              "26:82",
+              "37:20",
+              "38:78",
+              "51:12",
+              "56:56",
+              "82:15",
+              "82:17",
+              "82:18"
+            ],
+            "matching_ref_count": 10,
+            "assessment": "Contextual name of the day from preceding 82:17-18, not literal wording in 82:19; context is accurate but should be labelled."
+          },
+          {
+            "line": 15,
+            "ref": "12:39",
+            "arabic": "أَرْبَابٌ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Lemma/attached-particle excerpt or ordinary/Uthmani spelling; no substantive wrong-ayah wording in the flagged span."
+          },
+          {
+            "line": 25,
+            "ref": "16:76",
+            "arabic": "مَوْلَاهُ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Lemma/attached-particle excerpt or ordinary/Uthmani spelling; no substantive wrong-ayah wording in the flagged span."
+          },
+          {
+            "line": 40,
+            "ref": "12:41",
+            "arabic": "رَبّ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Lemma/attached-particle excerpt or ordinary/Uthmani spelling; no substantive wrong-ayah wording in the flagged span."
+          },
+          {
+            "line": 63,
+            "ref": "7:172",
+            "arabic": "رَبّ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Lemma/attached-particle excerpt or ordinary/Uthmani spelling; no substantive wrong-ayah wording in the flagged span."
+          },
+          {
+            "line": 65,
+            "ref": "29:56",
+            "arabic": "عِبَادِي",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Lemma/attached-particle excerpt or ordinary/Uthmani spelling; no substantive wrong-ayah wording in the flagged span."
+          },
+          {
+            "line": 70,
+            "ref": "39:2",
+            "arabic": "دِين",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Lemma/attached-particle excerpt or ordinary/Uthmani spelling; no substantive wrong-ayah wording in the flagged span."
+          },
+          {
+            "line": 71,
+            "ref": "39:3",
+            "arabic": "دِين",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Lemma/attached-particle excerpt or ordinary/Uthmani spelling; no substantive wrong-ayah wording in the flagged span."
+          },
+          {
+            "line": 88,
+            "ref": "17:1",
+            "arabic": "عَبْدِهِ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Lemma/attached-particle excerpt or ordinary/Uthmani spelling; no substantive wrong-ayah wording in the flagged span."
+          }
+        ],
+        "confirmed_wording_issues": 0,
+        "completion_notice_discrepancy": "Agent said 37 additions; file and snapshot prove 36 unique additions (113 to 149). File is authoritative.",
+        "limits": "Flag review only; no exhaustive semantic or relevance audit."
+      }
+    },
+    {
+      "section": 3,
+      "model": "luna",
+      "initial": 71,
+      "added": 20,
+      "final": 91,
+      "status": "ok",
+      "check": "findings",
+      "missing_existing_citations": [
+        "82:16"
+      ],
+      "strengths_by_phase": {
+        "1": {
+          "strong": 45,
+          "contrast": 12,
+          "medium": 14
+        },
+        "2": {
+          "strong": 13,
+          "medium": 4,
+          "contrast": 3
+        }
+      },
+      "usage_tokens": {
+        "input_tokens": 289220,
+        "cached_input_tokens": 242944,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 11246,
+        "reasoning_output_tokens": 5282,
+        "total_tokens": 300466
+      },
+      "cost_usd": 0,
+      "diagnostics": [],
+      "validation_review.json": {
+        "reviewed_findings": [
+          {
+            "line": 3,
+            "ref": "82:19",
+            "arabic": "لَا تَمْلِكُ نَفْسٌ لِّنَفْسٍ شَيْئًا",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Ordinary/Uthmani orthographic difference; wording and reference agree."
+          },
+          {
+            "line": 34,
+            "ref": "2:282",
+            "arabic": "تَضِلَّ إِحْدَاهُمَا",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Ordinary/Uthmani orthographic difference; wording and reference agree."
+          },
+          {
+            "line": 64,
+            "ref": "20:111",
+            "arabic": "الْحَيِّ الْقَيُّومِ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [
+              "2:255",
+              "3:2"
+            ],
+            "matching_ref_count": 2,
+            "assessment": "Title quoted without attached preposition: canonical للحي القيوم; no wrong-ayah or substantive lexical mismatch."
+          }
+        ],
+        "confirmed_quotation_errors": 0,
+        "scope": "All three automated Arabic flags adjudicated against canonical text; no exhaustive semantic audit."
+      }
+    },
+    {
+      "section": 3,
+      "model": "terra",
+      "initial": 172,
+      "added": 110,
+      "final": 282,
+      "status": "ok",
+      "check": "findings",
+      "missing_existing_citations": [],
+      "strengths_by_phase": {
+        "1": {
+          "strong": 125,
+          "contrast": 8,
+          "medium": 39
+        },
+        "2": {
+          "strong": 97,
+          "contrast": 9,
+          "medium": 4
+        }
+      },
+      "usage_tokens": {
+        "input_tokens": 303237,
+        "cached_input_tokens": 250112,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 41378,
+        "reasoning_output_tokens": 29575,
+        "total_tokens": 344615
+      },
+      "cost_usd": 0,
+      "diagnostics": [],
+      "validation_review.json": {
+        "reviewed_findings": [
+          {
+            "line": 13,
+            "ref": "83:3",
+            "arabic": "مُسْتَقِيم",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source-section term or lemma, attached-preposition difference, or ordinary/Uthmani/Persian-letter spelling; no substantive wrong-ayah Arabic quotation in this flagged span."
+          },
+          {
+            "line": 15,
+            "ref": "83:5",
+            "arabic": "عظیم",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source-section term or lemma, attached-preposition difference, or ordinary/Uthmani/Persian-letter spelling; no substantive wrong-ayah Arabic quotation in this flagged span."
+          },
+          {
+            "line": 36,
+            "ref": "17:35",
+            "arabic": "ٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source-section term or lemma, attached-preposition difference, or ordinary/Uthmani/Persian-letter spelling; no substantive wrong-ayah Arabic quotation in this flagged span."
+          },
+          {
+            "line": 38,
+            "ref": "26:182",
+            "arabic": "ٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source-section term or lemma, attached-preposition difference, or ordinary/Uthmani/Persian-letter spelling; no substantive wrong-ayah Arabic quotation in this flagged span."
+          },
+          {
+            "line": 51,
+            "ref": "2:178",
+            "arabic": "غَيْر",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source-section term or lemma, attached-preposition difference, or ordinary/Uthmani/Persian-letter spelling; no substantive wrong-ayah Arabic quotation in this flagged span."
+          },
+          {
+            "line": 123,
+            "ref": "22:56",
+            "arabic": "ملك",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source-section term or lemma, attached-preposition difference, or ordinary/Uthmani/Persian-letter spelling; no substantive wrong-ayah Arabic quotation in this flagged span."
+          },
+          {
+            "line": 129,
+            "ref": "47:38",
+            "arabic": "غَيْر",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source-section term or lemma, attached-preposition difference, or ordinary/Uthmani/Persian-letter spelling; no substantive wrong-ayah Arabic quotation in this flagged span."
+          },
+          {
+            "line": 133,
+            "ref": "48:6",
+            "arabic": "ٱلْمَغْضُوبِ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source-section term or lemma, attached-preposition difference, or ordinary/Uthmani/Persian-letter spelling; no substantive wrong-ayah Arabic quotation in this flagged span."
+          },
+          {
+            "line": 155,
+            "ref": "65:8",
+            "arabic": "حساب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source-section term or lemma, attached-preposition difference, or ordinary/Uthmani/Persian-letter spelling; no substantive wrong-ayah Arabic quotation in this flagged span."
+          },
+          {
+            "line": 156,
+            "ref": "40:27",
+            "arabic": "حساب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source-section term or lemma, attached-preposition difference, or ordinary/Uthmani/Persian-letter spelling; no substantive wrong-ayah Arabic quotation in this flagged span."
+          },
+          {
+            "line": 160,
+            "ref": "56:56",
+            "arabic": "دِين",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source-section term or lemma, attached-preposition difference, or ordinary/Uthmani/Persian-letter spelling; no substantive wrong-ayah Arabic quotation in this flagged span."
+          },
+          {
+            "line": 169,
+            "ref": "16:101",
+            "arabic": "غَيْر",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source-section term or lemma, attached-preposition difference, or ordinary/Uthmani/Persian-letter spelling; no substantive wrong-ayah Arabic quotation in this flagged span."
+          },
+          {
+            "line": 192,
+            "ref": "9:39",
+            "arabic": "غَيْر",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source-section term or lemma, attached-preposition difference, or ordinary/Uthmani/Persian-letter spelling; no substantive wrong-ayah Arabic quotation in this flagged span."
+          },
+          {
+            "line": 194,
+            "ref": "13:41",
+            "arabic": "حساب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source-section term or lemma, attached-preposition difference, or ordinary/Uthmani/Persian-letter spelling; no substantive wrong-ayah Arabic quotation in this flagged span."
+          },
+          {
+            "line": 217,
+            "ref": "38:16",
+            "arabic": "حساب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Source-section term or lemma, attached-preposition difference, or ordinary/Uthmani/Persian-letter spelling; no substantive wrong-ayah Arabic quotation in this flagged span."
+          }
+        ],
+        "confirmed_wording_issues": 0,
+        "additional_semantic_findings": [
+          {
+            "ref": "65:8",
+            "finding": "English note adds tasting the consequence from 65:9; 65:8 supplies severe account and punishment."
+          },
+          {
+            "ref": "79:37",
+            "finding": "English note adds preferring the nearer life from 79:38; 79:37 only names transgression."
+          },
+          {
+            "ref": "17:71",
+            "finding": "Calling with a record is an interpretive rendering of imam, not an unambiguous literal gloss; retain as unverified."
+          }
+        ],
+        "sampling": {
+          "method": "Every twelfth appended row, beginning with first appended row; all automatic Arabic flags.",
+          "scope_observation": "Many additions have concrete accounting, debt, court or substitution links. Generic resurrection questions and long continuations still warrant grading review. Root basis sometimes denotes semantic family, not shared letters."
+        },
+        "limits": "No exhaustive English/relevance validation. Raw TSV preserved."
+      }
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "initial": 107,
+      "added": 32,
+      "final": 139,
+      "status": "ok",
+      "check": "findings",
+      "missing_existing_citations": [],
+      "strengths_by_phase": {
+        "1": {
+          "strong": 72,
+          "medium": 21,
+          "contrast": 14
+        },
+        "2": {
+          "strong": 14,
+          "contrast": 3,
+          "medium": 15
+        }
+      },
+      "usage_tokens": {
+        "input_tokens": 480440,
+        "cached_input_tokens": 423424,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 44955,
+        "reasoning_output_tokens": 37754,
+        "total_tokens": 525395
+      },
+      "cost_usd": 0,
+      "diagnostics": [
+        {
+          "call_id": "call_zCCGPYZDTIBLH7Q8i6mPrqjx",
+          "message": "duplicate ayah_ref: 11:73"
+        },
+        {
+          "call_id": "call_zCCGPYZDTIBLH7Q8i6mPrqjx",
+          "message": "duplicate ayah_ref: 30:21"
+        }
+      ],
+      "validation_review.json": {
+        "reviewed_findings": [
+          {
+            "line": 1,
+            "ref": "3:6",
+            "arabic": "رحم",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root/dictionary form, lemma excerpt, or ordinary/Uthmani orthography; no substantive wrong-ayah wording found in this flagged span."
+          },
+          {
+            "line": 2,
+            "ref": "4:1",
+            "arabic": "رحم",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root/dictionary form, lemma excerpt, or ordinary/Uthmani orthography; no substantive wrong-ayah wording found in this flagged span."
+          },
+          {
+            "line": 4,
+            "ref": "17:24",
+            "arabic": "ر ح م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root/dictionary form, lemma excerpt, or ordinary/Uthmani orthography; no substantive wrong-ayah wording found in this flagged span."
+          },
+          {
+            "line": 4,
+            "ref": "17:24",
+            "arabic": "ر ب ب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root/dictionary form, lemma excerpt, or ordinary/Uthmani orthography; no substantive wrong-ayah wording found in this flagged span."
+          },
+          {
+            "line": 13,
+            "ref": "28:12",
+            "arabic": "ر ب ب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root/dictionary form, lemma excerpt, or ordinary/Uthmani orthography; no substantive wrong-ayah wording found in this flagged span."
+          },
+          {
+            "line": 18,
+            "ref": "20:40",
+            "arabic": "وَكَفَلَهُ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Incorrect quoted form وكفله; the ayah has من يكفله. The sister offering care is a valid scene, but wording must be corrected."
+          },
+          {
+            "line": 26,
+            "ref": "11:73",
+            "arabic": "ر ح م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root/dictionary form, lemma excerpt, or ordinary/Uthmani orthography; no substantive wrong-ayah wording found in this flagged span."
+          },
+          {
+            "line": 35,
+            "ref": "23:14",
+            "arabic": "تربِيَة",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root/dictionary form, lemma excerpt, or ordinary/Uthmani orthography; no substantive wrong-ayah wording found in this flagged span."
+          },
+          {
+            "line": 49,
+            "ref": "4:23",
+            "arabic": "رَبَائِبُكُمُ اللَّاتِي فِي حُجُورِكُم",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root/dictionary form, lemma excerpt, or ordinary/Uthmani orthography; no substantive wrong-ayah wording found in this flagged span."
+          },
+          {
+            "line": 49,
+            "ref": "4:23",
+            "arabic": "ر ب ب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root/dictionary form, lemma excerpt, or ordinary/Uthmani orthography; no substantive wrong-ayah wording found in this flagged span."
+          },
+          {
+            "line": 50,
+            "ref": "3:79",
+            "arabic": "رَبَّانِيِّينَ",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root/dictionary form, lemma excerpt, or ordinary/Uthmani orthography; no substantive wrong-ayah wording found in this flagged span."
+          },
+          {
+            "line": 50,
+            "ref": "3:79",
+            "arabic": "ر ب ب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root/dictionary form, lemma excerpt, or ordinary/Uthmani orthography; no substantive wrong-ayah wording found in this flagged span."
+          },
+          {
+            "line": 66,
+            "ref": "14:37",
+            "arabic": "غ ي ر",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root/dictionary form, lemma excerpt, or ordinary/Uthmani orthography; no substantive wrong-ayah wording found in this flagged span."
+          },
+          {
+            "line": 67,
+            "ref": "12:65",
+            "arabic": "الغِيرة",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root/dictionary form, lemma excerpt, or ordinary/Uthmani orthography; no substantive wrong-ayah wording found in this flagged span."
+          },
+          {
+            "line": 67,
+            "ref": "12:65",
+            "arabic": "المِيرة",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root/dictionary form, lemma excerpt, or ordinary/Uthmani orthography; no substantive wrong-ayah wording found in this flagged span."
+          },
+          {
+            "line": 70,
+            "ref": "4:5",
+            "arabic": "ق و م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root/dictionary form, lemma excerpt, or ordinary/Uthmani orthography; no substantive wrong-ayah wording found in this flagged span."
+          },
+          {
+            "line": 70,
+            "ref": "4:5",
+            "arabic": "قِوَام",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root/dictionary form, lemma excerpt, or ordinary/Uthmani orthography; no substantive wrong-ayah wording found in this flagged span."
+          },
+          {
+            "line": 70,
+            "ref": "4:5",
+            "arabic": "قِيَامًا لِّلنَّاس",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [
+              "5:97"
+            ],
+            "matching_ref_count": 1,
+            "assessment": "Blended quotation: قياما للناس occurs at 5:97; 4:5 has جعل الله لكم قياما. The household-support link remains plausible."
+          },
+          {
+            "line": 71,
+            "ref": "4:34",
+            "arabic": "ق و م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root/dictionary form, lemma excerpt, or ordinary/Uthmani orthography; no substantive wrong-ayah wording found in this flagged span."
+          },
+          {
+            "line": 73,
+            "ref": "66:6",
+            "arabic": "غَيْرَة",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root/dictionary form, lemma excerpt, or ordinary/Uthmani orthography; no substantive wrong-ayah wording found in this flagged span."
+          },
+          {
+            "line": 74,
+            "ref": "24:27",
+            "arabic": "غَيْرَة",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root/dictionary form, lemma excerpt, or ordinary/Uthmani orthography; no substantive wrong-ayah wording found in this flagged span."
+          },
+          {
+            "line": 77,
+            "ref": "4:36",
+            "arabic": "رحمة",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root/dictionary form, lemma excerpt, or ordinary/Uthmani orthography; no substantive wrong-ayah wording found in this flagged span."
+          },
+          {
+            "line": 79,
+            "ref": "16:90",
+            "arabic": "ر ح م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root/dictionary form, lemma excerpt, or ordinary/Uthmani orthography; no substantive wrong-ayah wording found in this flagged span."
+          },
+          {
+            "line": 90,
+            "ref": "90:17",
+            "arabic": "مَرْحَمَة",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root/dictionary form, lemma excerpt, or ordinary/Uthmani orthography; no substantive wrong-ayah wording found in this flagged span."
+          },
+          {
+            "line": 95,
+            "ref": "89:16",
+            "arabic": "ن ع م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root/dictionary form, lemma excerpt, or ordinary/Uthmani orthography; no substantive wrong-ayah wording found in this flagged span."
+          },
+          {
+            "line": 108,
+            "ref": "2:228",
+            "arabic": "رحم",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root/dictionary form, lemma excerpt, or ordinary/Uthmani orthography; no substantive wrong-ayah wording found in this flagged span."
+          },
+          {
+            "line": 117,
+            "ref": "3:159",
+            "arabic": "ر ح م",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root/dictionary form, lemma excerpt, or ordinary/Uthmani orthography; no substantive wrong-ayah wording found in this flagged span."
+          },
+          {
+            "line": 135,
+            "ref": "2:31",
+            "arabic": "ر ب ب",
+            "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+            "matching_refs": [],
+            "matching_ref_count": 0,
+            "assessment": "Root/dictionary form, lemma excerpt, or ordinary/Uthmani orthography; no substantive wrong-ayah wording found in this flagged span."
+          }
+        ],
+        "confirmed_wording_issues": 2,
+        "scope": "Automated Arabic flags adjudicated, not an exhaustive semantic/relevance audit."
+      }
+    }
+  ],
+  "sections": [
+    {
+      "section": 1,
+      "union": 170,
+      "overlap": 85,
+      "luna_only": 46,
+      "terra_only": 39,
+      "followup_only_refs": 19,
+      "tiers": {
+        "strong": 123,
+        "medium": 35,
+        "contrast": 11,
+        "weak": 1
+      },
+      "dry_handoff": {
+        "passages": 216,
+        "discovery_candidates": 170,
+        "context_neighbours": 46,
+        "input_tokens_estimate": 73559,
+        "estimate_usd": 2.9
+      }
+    },
+    {
+      "section": 2,
+      "union": 242,
+      "overlap": 73,
+      "luna_only": 93,
+      "terra_only": 76,
+      "followup_only_refs": 71,
+      "tiers": {
+        "strong": 172,
+        "contrast": 38,
+        "medium": 32
+      },
+      "dry_handoff": {
+        "passages": 267,
+        "discovery_candidates": 242,
+        "context_neighbours": 25,
+        "input_tokens_estimate": 95433,
+        "estimate_usd": 3.59
+      }
+    },
+    {
+      "section": 3,
+      "union": 293,
+      "overlap": 80,
+      "luna_only": 11,
+      "terra_only": 202,
+      "followup_only_refs": 114,
+      "tiers": {
+        "strong": 232,
+        "medium": 47,
+        "contrast": 14
+      },
+      "dry_handoff": {
+        "passages": 328,
+        "discovery_candidates": 293,
+        "context_neighbours": 35,
+        "input_tokens_estimate": 90704,
+        "estimate_usd": 3.92
+      }
+    }
+  ],
+  "review_queue": [
+    {
+      "section": 1,
+      "model": "luna",
+      "line": 1,
+      "ref": "6:153",
+      "arabic": "صراط",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The section's dictionary form صراط (ṣirāṭ) is the walked road; this verse calls God's way a straight path, commands following it, and contrasts it with plural ways that divide travelers from it.",
+      "canonical_arabic": "وَأَنَّ هَٰذَا صِرَٰطِى مُسْتَقِيمًۭا فَٱتَّبِعُوهُ ۖ وَلَا تَتَّبِعُوا۟ ٱلسُّبُلَ فَتَفَرَّقَ بِكُمْ عَن سَبِيلِهِۦ ۚ ذَٰلِكُمْ وَصَّىٰكُم بِهِۦ لَعَلَّكُمْ تَتَّقُونَ"
+    },
+    {
+      "section": 1,
+      "model": "luna",
+      "line": 2,
+      "ref": "4:69",
+      "arabic": "صراط الذين أنعمت عليهم",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [
+        "1:7"
+      ],
+      "matching_ref_count": 1,
+      "note": "The source section's صراط الذين أنعمت عليهم (“the path of those You favored”) is named again here: those favored are prophets, the truthful, martyrs, and the righteous, and they are good companions on the way.",
+      "canonical_arabic": "وَمَن يُطِعِ ٱللَّهَ وَٱلرَّسُولَ فَأُو۟لَٰٓئِكَ مَعَ ٱلَّذِينَ أَنْعَمَ ٱللَّهُ عَلَيْهِم مِّنَ ٱلنَّبِيِّۦنَ وَٱلصِّدِّيقِينَ وَٱلشُّهَدَآءِ وَٱلصَّٰلِحِينَ ۚ وَحَسُنَ أُو۟لَٰٓئِكَ رَفِيقًۭا"
+    },
+    {
+      "section": 1,
+      "model": "luna",
+      "line": 5,
+      "ref": "28:22",
+      "arabic": "هدى",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The section's dictionary sense of هدى is showing someone a way; Moses, traveling toward Midian, asks God to guide him to سواء السبيل, the middle of the way.",
+      "canonical_arabic": "وَلَمَّا تَوَجَّهَ تِلْقَآءَ مَدْيَنَ قَالَ عَسَىٰ رَبِّىٓ أَن يَهْدِيَنِى سَوَآءَ ٱلسَّبِيلِ"
+    },
+    {
+      "section": 1,
+      "model": "luna",
+      "line": 18,
+      "ref": "36:61",
+      "arabic": "ع ب د",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "Here the source section's root ع ب د retains its Quranic sense: “worship Me” is directly identified as a straight path, as in the section's worship-and-road sequence.",
+      "canonical_arabic": "وَأَنِ ٱعْبُدُونِى ۚ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ"
+    },
+    {
+      "section": 1,
+      "model": "luna",
+      "line": 20,
+      "ref": "19:36",
+      "arabic": "ع ب د",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "As in the section's root link between ع ب د and the road, Jesus commands worship and identifies it as a straight path.",
+      "canonical_arabic": "وَإِنَّ ٱللَّهَ رَبِّى وَرَبُّكُمْ فَٱعْبُدُوهُ ۚ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ"
+    },
+    {
+      "section": 1,
+      "model": "luna",
+      "line": 26,
+      "ref": "16:16",
+      "arabic": "ع ل م",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The section's dictionary form for ع ل م includes a mark used to find a road; here عَلامات and stars are explicit means by which people find their way.",
+      "canonical_arabic": "وَعَلَٰمَٰتٍۢ ۚ وَبِٱلنَّجْمِ هُمْ يَهْتَدُونَ"
+    },
+    {
+      "section": 1,
+      "model": "luna",
+      "line": 27,
+      "ref": "6:97",
+      "arabic": "ع ل م",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "Stars are made as signs by which people find their way through land and sea darkness; this is the same navigation-by-signs relation developed from ع ل م in the section.",
+      "canonical_arabic": "وَهُوَ ٱلَّذِى جَعَلَ لَكُمُ ٱلنُّجُومَ لِتَهْتَدُوا۟ بِهَا فِى ظُلُمَٰتِ ٱلْبَرِّ وَٱلْبَحْرِ ۗ قَدْ فَصَّلْنَا ٱلْءَايَٰتِ لِقَوْمٍۢ يَعْلَمُونَ"
+    },
+    {
+      "section": 1,
+      "model": "luna",
+      "line": 33,
+      "ref": "16:69",
+      "arabic": "الطريق المعبد",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The section's dictionary form الطريق المعبد describes a subdued, easy-to-travel road; the bee is told اسلكي سبل ربك ذللا, to take its Lord's ways made yielding/easy.",
+      "canonical_arabic": "ثُمَّ كُلِى مِن كُلِّ ٱلثَّمَرَٰتِ فَٱسْلُكِى سُبُلَ رَبِّكِ ذُلُلًۭا ۚ يَخْرُجُ مِنۢ بُطُونِهَا شَرَابٌۭ مُّخْتَلِفٌ أَلْوَٰنُهُۥ فِيهِ شِفَآءٌۭ لِّلنَّاسِ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ لِّقَوْمٍۢ يَتَفَكَّرُونَ"
+    },
+    {
+      "section": 1,
+      "model": "luna",
+      "line": 70,
+      "ref": "20:79",
+      "arabic": "أضل قومه وما هدى",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The verse says Pharaoh أضل قومه وما هدى: he led his people astray and did not guide them, a direct reversal of the section's guide who goes ahead for a community.",
+      "canonical_arabic": "وَأَضَلَّ فِرْعَوْنُ قَوْمَهُۥ وَمَا هَدَىٰ"
+    },
+    {
+      "section": 1,
+      "model": "luna",
+      "line": 78,
+      "ref": "17:15",
+      "arabic": "ض ل ل",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The verse states that the guided person benefits himself, while whoever strays bears it; the root ض ل ل named in the section is here contrasted with hidaya's outcome.",
+      "canonical_arabic": "مَّنِ ٱهْتَدَىٰ فَإِنَّمَا يَهْتَدِى لِنَفْسِهِۦ ۖ وَمَن ضَلَّ فَإِنَّمَا يَضِلُّ عَلَيْهَا ۚ وَلَا تَزِرُ وَازِرَةٌۭ وِزْرَ أُخْرَىٰ ۗ وَمَا كُنَّا مُعَذِّبِينَ حَتَّىٰ نَبْعَثَ رَسُولًۭا"
+    },
+    {
+      "section": 1,
+      "model": "luna",
+      "line": 88,
+      "ref": "43:22",
+      "arabic": "آثار",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The people claim to be guided by following their fathers' آثار (traces); it contrasts inherited footprints with the section's path of those truly favored.",
+      "canonical_arabic": "بَلْ قَالُوٓا۟ إِنَّا وَجَدْنَآ ءَابَآءَنَا عَلَىٰٓ أُمَّةٍۢ وَإِنَّا عَلَىٰٓ ءَاثَٰرِهِم مُّهْتَدُونَ"
+    },
+    {
+      "section": 1,
+      "model": "luna",
+      "line": 91,
+      "ref": "29:69",
+      "arabic": "سبل",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "Those who strive for God are promised guidance to His سبل, plural ways; the verse depicts sustained effort as the way into guidance.",
+      "canonical_arabic": "وَٱلَّذِينَ جَٰهَدُوا۟ فِينَا لَنَهْدِيَنَّهُمْ سُبُلَنَا ۚ وَإِنَّ ٱللَّهَ لَمَعَ ٱلْمُحْسِنِينَ"
+    },
+    {
+      "section": 1,
+      "model": "luna",
+      "line": 98,
+      "ref": "93:7",
+      "arabic": "ض ل ل",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The section reads ضالا فهدى as a seeker found and guided; because ضالًّا can be understood more broadly than losing a physical road, this is a qualified root-level reversal linking ض ل ل and ه د ي.",
+      "canonical_arabic": "وَوَجَدَكَ ضَآلًّۭا فَهَدَىٰ"
+    },
+    {
+      "section": 1,
+      "model": "luna",
+      "line": 98,
+      "ref": "93:7",
+      "arabic": "ه د ي",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The section reads ضالا فهدى as a seeker found and guided; because ضالًّا can be understood more broadly than losing a physical road, this is a qualified root-level reversal linking ض ل ل and ه د ي.",
+      "canonical_arabic": "وَوَجَدَكَ ضَآلًّۭا فَهَدَىٰ"
+    },
+    {
+      "section": 1,
+      "model": "luna",
+      "line": 99,
+      "ref": "2:143",
+      "arabic": "مَلِك الطريق",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source section's dictionary sense of مَلِك الطريق is the road's middle; this verse calls the Muslim community أمة وسطا, a centered community, though it is not literally describing a road.",
+      "canonical_arabic": "وَكَذَٰلِكَ جَعَلْنَٰكُمْ أُمَّةًۭ وَسَطًۭا لِّتَكُونُوا۟ شُهَدَآءَ عَلَى ٱلنَّاسِ وَيَكُونَ ٱلرَّسُولُ عَلَيْكُمْ شَهِيدًۭا ۗ وَمَا جَعَلْنَا ٱلْقِبْلَةَ ٱلَّتِى كُنتَ عَلَيْهَآ إِلَّا لِنَعْلَمَ مَن يَتَّبِعُ ٱلرَّسُولَ مِمَّن يَنقَلِبُ عَلَىٰ عَقِبَيْهِ ۚ وَإِن كَانَتْ لَكَبِيرَةً إِلَّا عَلَى ٱلَّذِينَ هَدَى ٱللَّهُ ۗ وَمَا كَانَ ٱللَّهُ لِيُضِيعَ إِيمَٰنَكُمْ ۚ إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفٌۭ رَّحِيمٌۭ"
+    },
+    {
+      "section": 1,
+      "model": "luna",
+      "line": 115,
+      "ref": "28:56",
+      "arabic": "هدى",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The section's dictionary sense of هدى is showing someone the road and its destination; this verse marks a boundary on human guidance by saying the Prophet cannot guide whom he loves, while God guides whom He wills.",
+      "canonical_arabic": "إِنَّكَ لَا تَهْدِى مَنْ أَحْبَبْتَ وَلَٰكِنَّ ٱللَّهَ يَهْدِى مَن يَشَآءُ ۚ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ"
+    },
+    {
+      "section": 1,
+      "model": "luna",
+      "line": 118,
+      "ref": "2:38",
+      "arabic": "اتبَعَ",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The verse says that those who follow God's guidance need not fear; it specifically joins following (اتبَعَ) with guidance, the section's image of staying behind a guide on the road.",
+      "canonical_arabic": "قُلْنَا ٱهْبِطُوا۟ مِنْهَا جَمِيعًۭا ۖ فَإِمَّا يَأْتِيَنَّكُم مِّنِّى هُدًۭى فَمَن تَبِعَ هُدَاىَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ"
+    },
+    {
+      "section": 1,
+      "model": "luna",
+      "line": 126,
+      "ref": "18:64",
+      "arabic": "آثارهما",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "After realizing they had lost the sign, Moses and his companion turn back, tracking their footprints (آثارهما) to find their way; this concretely matches the section's dictionary sense of a trace used to infer a road.",
+      "canonical_arabic": "قَالَ ذَٰلِكَ مَا كُنَّا نَبْغِ ۚ فَٱرْتَدَّا عَلَىٰٓ ءَاثَارِهِمَا قَصَصًۭا"
+    },
+    {
+      "section": 1,
+      "model": "luna",
+      "line": 130,
+      "ref": "37:70",
+      "arabic": "آثار",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The verse says the deniers hurry along their fathers' traces (آثار); its context says those fathers were astray, making inherited footprints a specific false path.",
+      "canonical_arabic": "فَهُمْ عَلَىٰٓ ءَاثَٰرِهِمْ يُهْرَعُونَ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 1,
+      "ref": "67:15",
+      "arabic": "مُذَلَّل",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section dictionary form مُذَلَّل (made tame) meets the earth made ذَلُولًا: people walk on its shoulders and eat its provision, while the verse ends by naming resurrection and return.",
+      "canonical_arabic": "هُوَ ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ ذَلُولًۭا فَٱمْشُوا۟ فِى مَنَاكِبِهَا وَكُلُوا۟ مِن رِّزْقِهِۦ ۖ وَإِلَيْهِ ٱلنُّشُورُ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 2,
+      "ref": "36:71",
+      "arabic": "م ل ك",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root م ل ك appears in فَهُمْ لَهَا مَالِكُونَ: people own livestock, the same human master and animal-property scene developed in the section.",
+      "canonical_arabic": "أَوَلَمْ يَرَوْا۟ أَنَّا خَلَقْنَا لَهُم مِّمَّا عَمِلَتْ أَيْدِينَآ أَنْعَٰمًۭا فَهُمْ لَهَا مَٰلِكُونَ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 19,
+      "ref": "16:71",
+      "arabic": "م ل ك",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root م ل ك appears in مَا مَلَكَتْ أَيْمَانُهُمْ; the verse contrasts favored owners with those under their hands and asks why they will not share alike.",
+      "canonical_arabic": "وَٱللَّهُ فَضَّلَ بَعْضَكُمْ عَلَىٰ بَعْضٍۢ فِى ٱلرِّزْقِ ۚ فَمَا ٱلَّذِينَ فُضِّلُوا۟ بِرَآدِّى رِزْقِهِمْ عَلَىٰ مَا مَلَكَتْ أَيْمَٰنُهُمْ فَهُمْ فِيهِ سَوَآءٌ ۚ أَفَبِنِعْمَةِ ٱللَّهِ يَجْحَدُونَ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 20,
+      "ref": "16:75",
+      "arabic": "ع ب د",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section roots ع ب د and م ل ك meet in عَبْدًا مَّمْلُوكًا لَّا يَقْدِرُ عَلَىٰ شَىْءٍ; the comparison with the provided spender clarifies what ownership and capacity mean.",
+      "canonical_arabic": "۞ ضَرَبَ ٱللَّهُ مَثَلًا عَبْدًۭا مَّمْلُوكًۭا لَّا يَقْدِرُ عَلَىٰ شَىْءٍۢ وَمَن رَّزَقْنَٰهُ مِنَّا رِزْقًا حَسَنًۭا فَهُوَ يُنفِقُ مِنْهُ سِرًّۭا وَجَهْرًا ۖ هَلْ يَسْتَوُۥنَ ۚ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 20,
+      "ref": "16:75",
+      "arabic": "م ل ك",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section roots ع ب د and م ل ك meet in عَبْدًا مَّمْلُوكًا لَّا يَقْدِرُ عَلَىٰ شَىْءٍ; the comparison with the provided spender clarifies what ownership and capacity mean.",
+      "canonical_arabic": "۞ ضَرَبَ ٱللَّهُ مَثَلًا عَبْدًۭا مَّمْلُوكًۭا لَّا يَقْدِرُ عَلَىٰ شَىْءٍۢ وَمَن رَّزَقْنَٰهُ مِنَّا رِزْقًا حَسَنًۭا فَهُوَ يُنفِقُ مِنْهُ سِرًّۭا وَجَهْرًا ۖ هَلْ يَسْتَوُۥنَ ۚ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 22,
+      "ref": "39:29",
+      "arabic": "ع ب د",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section roots ع ب د and م ل ك meet in the parable of a slave owned by quarreling partners versus one wholly belonging to one man; it makes divided and exclusive mastery visible.",
+      "canonical_arabic": "ضَرَبَ ٱللَّهُ مَثَلًۭا رَّجُلًۭا فِيهِ شُرَكَآءُ مُتَشَٰكِسُونَ وَرَجُلًۭا سَلَمًۭا لِّرَجُلٍ هَلْ يَسْتَوِيَانِ مَثَلًا ۚ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 22,
+      "ref": "39:29",
+      "arabic": "م ل ك",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section roots ع ب د and م ل ك meet in the parable of a slave owned by quarreling partners versus one wholly belonging to one man; it makes divided and exclusive mastery visible.",
+      "canonical_arabic": "ضَرَبَ ٱللَّهُ مَثَلًۭا رَّجُلًۭا فِيهِ شُرَكَآءُ مُتَشَٰكِسُونَ وَرَجُلًۭا سَلَمًۭا لِّرَجُلٍ هَلْ يَسْتَوِيَانِ مَثَلًا ۚ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 23,
+      "ref": "34:22",
+      "arabic": "م ل ك",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root م ل ك appears in لَا يَمْلِكُونَ مِثْقَالَ ذَرَّةٍ; the beings invoked besides God have no real property or share, despite being treated as lords.",
+      "canonical_arabic": "قُلِ ٱدْعُوا۟ ٱلَّذِينَ زَعَمْتُم مِّن دُونِ ٱللَّهِ ۖ لَا يَمْلِكُونَ مِثْقَالَ ذَرَّةٍۢ فِى ٱلسَّمَٰوَٰتِ وَلَا فِى ٱلْأَرْضِ وَمَا لَهُمْ فِيهِمَا مِن شِرْكٍۢ وَمَا لَهُۥ مِنْهُم مِّن ظَهِيرٍۢ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 24,
+      "ref": "3:26",
+      "arabic": "م ل ك",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section's root م ل ك is widened by مَالِكَ الْمُلْكِ: God grants and removes human dominion, showing that human ownership is received and bounded.",
+      "canonical_arabic": "قُلِ ٱللَّهُمَّ مَٰلِكَ ٱلْمُلْكِ تُؤْتِى ٱلْمُلْكَ مَن تَشَآءُ وَتَنزِعُ ٱلْمُلْكَ مِمَّن تَشَآءُ وَتُعِزُّ مَن تَشَآءُ وَتُذِلُّ مَن تَشَآءُ ۖ بِيَدِكَ ٱلْخَيْرُ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 25,
+      "ref": "2:107",
+      "arabic": "م ل ك",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root م ل ك appears in مُّلْكُ السَّمَاوَاتِ وَالْأَرْضِ; sovereignty belongs to God alone, and no protector or helper exists besides Him.",
+      "canonical_arabic": "أَلَمْ تَعْلَمْ أَنَّ ٱللَّهَ لَهُۥ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۗ وَمَا لَكُم مِّن دُونِ ٱللَّهِ مِن وَلِىٍّۢ وَلَا نَصِيرٍ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 29,
+      "ref": "23:86",
+      "arabic": "ر ب ب",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root ر ب ب appears in رَبُّ السَّمَاوَاتِ السَّبْعِ; the next ownership question directly joins God's lordship to the section's account of possession.",
+      "canonical_arabic": "قُلْ مَن رَّبُّ ٱلسَّمَٰوَٰتِ ٱلسَّبْعِ وَرَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 31,
+      "ref": "23:88",
+      "arabic": "م ل ك",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root م ل ك appears in مَلَكُوتُ كُلِّ شَيْءٍ; the question joins universal sovereignty to who can protect against Him.",
+      "canonical_arabic": "قُلْ مَنۢ بِيَدِهِۦ مَلَكُوتُ كُلِّ شَىْءٍۢ وَهُوَ يُجِيرُ وَلَا يُجَارُ عَلَيْهِ إِن كُنتُمْ تَعْلَمُونَ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 33,
+      "ref": "57:2",
+      "arabic": "م ل ك",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root م ل ك appears in لَهُ الْمُلْكُ; dominion of the heavens and earth belongs to Him, and He gives life and death, extending the malik image to all existence.",
+      "canonical_arabic": "لَهُۥ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ يُحْىِۦ وَيُمِيتُ ۖ وَهُوَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 33,
+      "ref": "57:2",
+      "arabic": "لَهُ الْمُلْكُ",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [
+        "2:247",
+        "6:73",
+        "35:13",
+        "39:6",
+        "64:1"
+      ],
+      "matching_ref_count": 5,
+      "note": "The source-section root م ل ك appears in لَهُ الْمُلْكُ; dominion of the heavens and earth belongs to Him, and He gives life and death, extending the malik image to all existence.",
+      "canonical_arabic": "لَهُۥ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ يُحْىِۦ وَيُمِيتُ ۖ وَهُوَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 34,
+      "ref": "40:16",
+      "arabic": "م ل ك",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root م ل ك appears in لِمَنِ الْمُلْكُ الْيَوْمَ; the answer is لِلَّهِ الْوَاحِدِ الْقَهَّارِ, exposing all human ownership as subordinate on Judgment Day.",
+      "canonical_arabic": "يَوْمَ هُم بَٰرِزُونَ ۖ لَا يَخْفَىٰ عَلَى ٱللَّهِ مِنْهُمْ شَىْءٌۭ ۚ لِّمَنِ ٱلْمُلْكُ ٱلْيَوْمَ ۖ لِلَّهِ ٱلْوَٰحِدِ ٱلْقَهَّارِ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 35,
+      "ref": "12:23",
+      "arabic": "ر ب ب",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section's root ر ب ب in its human-master sense appears in إِنَّهُ رَبِّي within Yusuf's household. The section's reading fits the householder, while the wording can also be heard as “my Lord.”",
+      "canonical_arabic": "وَرَٰوَدَتْهُ ٱلَّتِى هُوَ فِى بَيْتِهَا عَن نَّفْسِهِۦ وَغَلَّقَتِ ٱلْأَبْوَٰبَ وَقَالَتْ هَيْتَ لَكَ ۚ قَالَ مَعَاذَ ٱللَّهِ ۖ إِنَّهُۥ رَبِّىٓ أَحْسَنَ مَثْوَاىَ ۖ إِنَّهُۥ لَا يُفْلِحُ ٱلظَّٰلِمُونَ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 36,
+      "ref": "12:39",
+      "arabic": "ر ب ب",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root ر ب ب appears in أَرْبَابٌ مُّتَفَرِّقُونَ; Yusuf asks whether separate lords are better than Allah, the One and Prevailing, directly testing human masters against the true Lord.",
+      "canonical_arabic": "يَٰصَىٰحِبَىِ ٱلسِّجْنِ ءَأَرْبَابٌۭ مُّتَفَرِّقُونَ خَيْرٌ أَمِ ٱللَّهُ ٱلْوَٰحِدُ ٱلْقَهَّارُ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 36,
+      "ref": "12:39",
+      "arabic": "أَرْبَابٌ مُّتَفَرِّقُونَ",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root ر ب ب appears in أَرْبَابٌ مُّتَفَرِّقُونَ; Yusuf asks whether separate lords are better than Allah, the One and Prevailing, directly testing human masters against the true Lord.",
+      "canonical_arabic": "يَٰصَىٰحِبَىِ ٱلسِّجْنِ ءَأَرْبَابٌۭ مُّتَفَرِّقُونَ خَيْرٌ أَمِ ٱللَّهُ ٱلْوَٰحِدُ ٱلْقَهَّارُ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 37,
+      "ref": "12:40",
+      "arabic": "ع ب د",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section roots ع ب د and د ي ن meet: the verse commands worship of Allah alone, إِلَّا إِيَّاهُ, and calls this الدِّينُ الْقَيِّمُ, matching the section's account of din as obedience and servitude.",
+      "canonical_arabic": "مَا تَعْبُدُونَ مِن دُونِهِۦٓ إِلَّآ أَسْمَآءًۭ سَمَّيْتُمُوهَآ أَنتُمْ وَءَابَآؤُكُم مَّآ أَنزَلَ ٱللَّهُ بِهَا مِن سُلْطَٰنٍ ۚ إِنِ ٱلْحُكْمُ إِلَّا لِلَّهِ ۚ أَمَرَ أَلَّا تَعْبُدُوٓا۟ إِلَّآ إِيَّاهُ ۚ ذَٰلِكَ ٱلدِّينُ ٱلْقَيِّمُ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 37,
+      "ref": "12:40",
+      "arabic": "د ي ن",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section roots ع ب د and د ي ن meet: the verse commands worship of Allah alone, إِلَّا إِيَّاهُ, and calls this الدِّينُ الْقَيِّمُ, matching the section's account of din as obedience and servitude.",
+      "canonical_arabic": "مَا تَعْبُدُونَ مِن دُونِهِۦٓ إِلَّآ أَسْمَآءًۭ سَمَّيْتُمُوهَآ أَنتُمْ وَءَابَآؤُكُم مَّآ أَنزَلَ ٱللَّهُ بِهَا مِن سُلْطَٰنٍ ۚ إِنِ ٱلْحُكْمُ إِلَّا لِلَّهِ ۚ أَمَرَ أَلَّا تَعْبُدُوٓا۟ إِلَّآ إِيَّاهُ ۚ ذَٰلِكَ ٱلدِّينُ ٱلْقَيِّمُ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 38,
+      "ref": "12:41",
+      "arabic": "ر ب ب",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section's root ر ب ب in the human-master sense appears when a prisoner is to serve wine to his رَبِّ (master); the term applies to a human owner.",
+      "canonical_arabic": "يَٰصَىٰحِبَىِ ٱلسِّجْنِ أَمَّآ أَحَدُكُمَا فَيَسْقِى رَبَّهُۥ خَمْرًۭا ۖ وَأَمَّا ٱلْءَاخَرُ فَيُصْلَبُ فَتَأْكُلُ ٱلطَّيْرُ مِن رَّأْسِهِۦ ۚ قُضِىَ ٱلْأَمْرُ ٱلَّذِى فِيهِ تَسْتَفْتِيَانِ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 38,
+      "ref": "12:41",
+      "arabic": "رَبِّ",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section's root ر ب ب in the human-master sense appears when a prisoner is to serve wine to his رَبِّ (master); the term applies to a human owner.",
+      "canonical_arabic": "يَٰصَىٰحِبَىِ ٱلسِّجْنِ أَمَّآ أَحَدُكُمَا فَيَسْقِى رَبَّهُۥ خَمْرًۭا ۖ وَأَمَّا ٱلْءَاخَرُ فَيُصْلَبُ فَتَأْكُلُ ٱلطَّيْرُ مِن رَّأْسِهِۦ ۚ قُضِىَ ٱلْأَمْرُ ٱلَّذِى فِيهِ تَسْتَفْتِيَانِ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 39,
+      "ref": "12:42",
+      "arabic": "رَبِّ",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "Yusuf asks to be remembered with the prisoner's رَبِّ (master, the king); this neighbour repeats the human use of the source-section's root ر ب ب.",
+      "canonical_arabic": "وَقَالَ لِلَّذِى ظَنَّ أَنَّهُۥ نَاجٍۢ مِّنْهُمَا ٱذْكُرْنِى عِندَ رَبِّكَ فَأَنسَىٰهُ ٱلشَّيْطَٰنُ ذِكْرَ رَبِّهِۦ فَلَبِثَ فِى ٱلسِّجْنِ بِضْعَ سِنِينَ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 39,
+      "ref": "12:42",
+      "arabic": "ر ب ب",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "Yusuf asks to be remembered with the prisoner's رَبِّ (master, the king); this neighbour repeats the human use of the source-section's root ر ب ب.",
+      "canonical_arabic": "وَقَالَ لِلَّذِى ظَنَّ أَنَّهُۥ نَاجٍۢ مِّنْهُمَا ٱذْكُرْنِى عِندَ رَبِّكَ فَأَنسَىٰهُ ٱلشَّيْطَٰنُ ذِكْرَ رَبِّهِۦ فَلَبِثَ فِى ٱلسِّجْنِ بِضْعَ سِنِينَ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 40,
+      "ref": "12:50",
+      "arabic": "رَبِّ",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "Yusuf tells the released messenger to return to his رَبِّ (master, the king); this continues the Qur'anic human-master use of ر ب ب.",
+      "canonical_arabic": "وَقَالَ ٱلْمَلِكُ ٱئْتُونِى بِهِۦ ۖ فَلَمَّا جَآءَهُ ٱلرَّسُولُ قَالَ ٱرْجِعْ إِلَىٰ رَبِّكَ فَسْـَٔلْهُ مَا بَالُ ٱلنِّسْوَةِ ٱلَّٰتِى قَطَّعْنَ أَيْدِيَهُنَّ ۚ إِنَّ رَبِّى بِكَيْدِهِنَّ عَلِيمٌۭ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 40,
+      "ref": "12:50",
+      "arabic": "ر ب ب",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "Yusuf tells the released messenger to return to his رَبِّ (master, the king); this continues the Qur'anic human-master use of ر ب ب.",
+      "canonical_arabic": "وَقَالَ ٱلْمَلِكُ ٱئْتُونِى بِهِۦ ۖ فَلَمَّا جَآءَهُ ٱلرَّسُولُ قَالَ ٱرْجِعْ إِلَىٰ رَبِّكَ فَسْـَٔلْهُ مَا بَالُ ٱلنِّسْوَةِ ٱلَّٰتِى قَطَّعْنَ أَيْدِيَهُنَّ ۚ إِنَّ رَبِّى بِكَيْدِهِنَّ عَلِيمٌۭ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 41,
+      "ref": "26:18",
+      "arabic": "ر ب ب",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "Pharaoh says أَلَمْ نُرَبِّكَ فِينَا وَلِيدًا, claiming to have raised Moses in his household; the source-section's root ر ب ب includes this human act of nurture and mastery.",
+      "canonical_arabic": "قَالَ أَلَمْ نُرَبِّكَ فِينَا وَلِيدًۭا وَلَبِثْتَ فِينَا مِنْ عُمُرِكَ سِنِينَ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 47,
+      "ref": "3:64",
+      "arabic": "ر ب ب",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root ر ب ب appears in أَرْبَابًا; the call says not to take one another as lords apart from Allah, setting a boundary on human beings occupying the Lord's place.",
+      "canonical_arabic": "قُلْ يَٰٓأَهْلَ ٱلْكِتَٰبِ تَعَالَوْا۟ إِلَىٰ كَلِمَةٍۢ سَوَآءٍۭ بَيْنَنَا وَبَيْنَكُمْ أَلَّا نَعْبُدَ إِلَّا ٱللَّهَ وَلَا نُشْرِكَ بِهِۦ شَيْـًۭٔا وَلَا يَتَّخِذَ بَعْضُنَا بَعْضًا أَرْبَابًۭا مِّن دُونِ ٱللَّهِ ۚ فَإِن تَوَلَّوْا۟ فَقُولُوا۟ ٱشْهَدُوا۟ بِأَنَّا مُسْلِمُونَ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 48,
+      "ref": "9:31",
+      "arabic": "ر ب ب",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root ر ب ب appears in أَرْبَابًا; the verse says some took rabbis, monks, and the Messiah as lords besides Allah, showing the human religious mastery distinguished from God's.",
+      "canonical_arabic": "ٱتَّخَذُوٓا۟ أَحْبَارَهُمْ وَرُهْبَٰنَهُمْ أَرْبَابًۭا مِّن دُونِ ٱللَّهِ وَٱلْمَسِيحَ ٱبْنَ مَرْيَمَ وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوٓا۟ إِلَٰهًۭا وَٰحِدًۭا ۖ لَّآ إِلَٰهَ إِلَّا هُوَ ۚ سُبْحَٰنَهُۥ عَمَّا يُشْرِكُونَ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 49,
+      "ref": "3:79",
+      "arabic": "ر ب ب",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root ر ب ب appears in رَبَّانِيِّينَ, while the verse denies that a prophet would tell people to become his servants instead of God's; human teaching authority cannot claim worship.",
+      "canonical_arabic": "مَا كَانَ لِبَشَرٍ أَن يُؤْتِيَهُ ٱللَّهُ ٱلْكِتَٰبَ وَٱلْحُكْمَ وَٱلنُّبُوَّةَ ثُمَّ يَقُولَ لِلنَّاسِ كُونُوا۟ عِبَادًۭا لِّى مِن دُونِ ٱللَّهِ وَلَٰكِن كُونُوا۟ رَبَّٰنِيِّۦنَ بِمَا كُنتُمْ تُعَلِّمُونَ ٱلْكِتَٰبَ وَبِمَا كُنتُمْ تَدْرُسُونَ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 49,
+      "ref": "3:79",
+      "arabic": "رَبَّانِيِّينَ",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root ر ب ب appears in رَبَّانِيِّينَ, while the verse denies that a prophet would tell people to become his servants instead of God's; human teaching authority cannot claim worship.",
+      "canonical_arabic": "مَا كَانَ لِبَشَرٍ أَن يُؤْتِيَهُ ٱللَّهُ ٱلْكِتَٰبَ وَٱلْحُكْمَ وَٱلنُّبُوَّةَ ثُمَّ يَقُولَ لِلنَّاسِ كُونُوا۟ عِبَادًۭا لِّى مِن دُونِ ٱللَّهِ وَلَٰكِن كُونُوا۟ رَبَّٰنِيِّۦنَ بِمَا كُنتُمْ تُعَلِّمُونَ ٱلْكِتَٰبَ وَبِمَا كُنتُمْ تَدْرُسُونَ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 50,
+      "ref": "3:80",
+      "arabic": "ر ب ب",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root ر ب ب appears in أَرْبَابًا; the verse explicitly says prophets and angels must not be taken as lords, marking the limit of human mastery.",
+      "canonical_arabic": "وَلَا يَأْمُرَكُمْ أَن تَتَّخِذُوا۟ ٱلْمَلَٰٓئِكَةَ وَٱلنَّبِيِّۦنَ أَرْبَابًا ۗ أَيَأْمُرُكُم بِٱلْكُفْرِ بَعْدَ إِذْ أَنتُم مُّسْلِمُونَ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 51,
+      "ref": "4:36",
+      "arabic": "ع ب د",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root ع ب د appears in the command to worship Allah alone; the same verse then names those under one's right hand, joining exclusive divine service to the owner's responsibility toward dependents.",
+      "canonical_arabic": "۞ وَٱعْبُدُوا۟ ٱللَّهَ وَلَا تُشْرِكُوا۟ بِهِۦ شَيْـًۭٔا ۖ وَبِٱلْوَٰلِدَيْنِ إِحْسَٰنًۭا وَبِذِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ وَٱلْجَارِ ذِى ٱلْقُرْبَىٰ وَٱلْجَارِ ٱلْجُنُبِ وَٱلصَّاحِبِ بِٱلْجَنۢبِ وَٱبْنِ ٱلسَّبِيلِ وَمَا مَلَكَتْ أَيْمَٰنُكُمْ ۗ إِنَّ ٱللَّهَ لَا يُحِبُّ مَن كَانَ مُخْتَالًۭا فَخُورًا"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 52,
+      "ref": "106:3",
+      "arabic": "ر ب ب",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section's root ر ب ب appears in فَلْيَعْبُدُوا رَبَّ هَٰذَا الْبَيْتِ: the Lord of the House is the one to be worshipped, bringing household ownership into divine service.",
+      "canonical_arabic": "فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 54,
+      "ref": "2:21",
+      "arabic": "ر ب ب",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root ر ب ب appears in رَبَّكُمُ; the command to worship your Lord is grounded in His having created the people and those before them.",
+      "canonical_arabic": "يَٰٓأَيُّهَا ٱلنَّاسُ ٱعْبُدُوا۟ رَبَّكُمُ ٱلَّذِى خَلَقَكُمْ وَٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 59,
+      "ref": "6:102",
+      "arabic": "ر ب ب",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root ر ب ب appears in رَبُّكُمْ and root ع ب د in فَاعْبُدُوهُ; Allah is Lord and creator of everything, grounding the command to serve Him.",
+      "canonical_arabic": "ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ ۖ لَآ إِلَٰهَ إِلَّا هُوَ ۖ خَٰلِقُ كُلِّ شَىْءٍۢ فَٱعْبُدُوهُ ۚ وَهُوَ عَلَىٰ كُلِّ شَىْءٍۢ وَكِيلٌۭ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 59,
+      "ref": "6:102",
+      "arabic": "ع ب د",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root ر ب ب appears in رَبُّكُمْ and root ع ب د in فَاعْبُدُوهُ; Allah is Lord and creator of everything, grounding the command to serve Him.",
+      "canonical_arabic": "ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ ۖ لَآ إِلَٰهَ إِلَّا هُوَ ۖ خَٰلِقُ كُلِّ شَىْءٍۢ فَٱعْبُدُوهُ ۚ وَهُوَ عَلَىٰ كُلِّ شَىْءٍۢ وَكِيلٌۭ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 64,
+      "ref": "10:3",
+      "arabic": "ر ب ب",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root ر ب ب appears in رَبُّكُمْ; after naming Allah as Lord and creator, the verse says فَاعْبُدُوهُ, connecting divine ownership with worship.",
+      "canonical_arabic": "إِنَّ رَبَّكُمُ ٱللَّهُ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍۢ ثُمَّ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۖ يُدَبِّرُ ٱلْأَمْرَ ۖ مَا مِن شَفِيعٍ إِلَّا مِنۢ بَعْدِ إِذْنِهِۦ ۚ ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ فَٱعْبُدُوهُ ۚ أَفَلَا تَذَكَّرُونَ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 67,
+      "ref": "11:61",
+      "arabic": "ر ب ب",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root ر ب ب appears in إِنَّ رَبِّى and root ع ب د in the opening command; Salih links Allah's bringing people from earth and settling them there to their service.",
+      "canonical_arabic": "۞ وَإِلَىٰ ثَمُودَ أَخَاهُمْ صَٰلِحًۭا ۚ قَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥ ۖ هُوَ أَنشَأَكُم مِّنَ ٱلْأَرْضِ وَٱسْتَعْمَرَكُمْ فِيهَا فَٱسْتَغْفِرُوهُ ثُمَّ تُوبُوٓا۟ إِلَيْهِ ۚ إِنَّ رَبِّى قَرِيبٌۭ مُّجِيبٌۭ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 67,
+      "ref": "11:61",
+      "arabic": "ع ب د",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root ر ب ب appears in إِنَّ رَبِّى and root ع ب د in the opening command; Salih links Allah's bringing people from earth and settling them there to their service.",
+      "canonical_arabic": "۞ وَإِلَىٰ ثَمُودَ أَخَاهُمْ صَٰلِحًۭا ۚ قَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥ ۖ هُوَ أَنشَأَكُم مِّنَ ٱلْأَرْضِ وَٱسْتَعْمَرَكُمْ فِيهَا فَٱسْتَغْفِرُوهُ ثُمَّ تُوبُوٓا۟ إِلَيْهِ ۚ إِنَّ رَبِّى قَرِيبٌۭ مُّجِيبٌۭ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 70,
+      "ref": "19:36",
+      "arabic": "ر ب ب",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root ر ب ب appears in رَبِّى وَرَبُّكُمْ; Jesus says Allah is his Lord and theirs, then commands worship of Him.",
+      "canonical_arabic": "وَإِنَّ ٱللَّهَ رَبِّى وَرَبُّكُمْ فَٱعْبُدُوهُ ۚ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 71,
+      "ref": "20:14",
+      "arabic": "ع ب د",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root ع ب د appears in فَاعْبُدْنِى; God identifies Himself as Allah and commands direct service to Him.",
+      "canonical_arabic": "إِنَّنِىٓ أَنَا ٱللَّهُ لَآ إِلَٰهَ إِلَّآ أَنَا۠ فَٱعْبُدْنِى وَأَقِمِ ٱلصَّلَوٰةَ لِذِكْرِىٓ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 79,
+      "ref": "39:2",
+      "arabic": "ع ب د",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section roots ع ب د and د ي ن meet in فَاعْبُدِ اللَّهَ and الدِّينَ; the verse commands worship with religion made pure for Him.",
+      "canonical_arabic": "إِنَّآ أَنزَلْنَآ إِلَيْكَ ٱلْكِتَٰبَ بِٱلْحَقِّ فَٱعْبُدِ ٱللَّهَ مُخْلِصًۭا لَّهُ ٱلدِّينَ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 79,
+      "ref": "39:2",
+      "arabic": "د ي ن",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section roots ع ب د and د ي ن meet in فَاعْبُدِ اللَّهَ and الدِّينَ; the verse commands worship with religion made pure for Him.",
+      "canonical_arabic": "إِنَّآ أَنزَلْنَآ إِلَيْكَ ٱلْكِتَٰبَ بِٱلْحَقِّ فَٱعْبُدِ ٱللَّهَ مُخْلِصًۭا لَّهُ ٱلدِّينَ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 80,
+      "ref": "39:3",
+      "arabic": "د ي ن",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root د ي ن appears in الدِّينُ الْخَالِصُ; the verse recounts people claiming to worship intermediaries only to bring them nearer, exposing a false account of who receives service.",
+      "canonical_arabic": "أَلَا لِلَّهِ ٱلدِّينُ ٱلْخَالِصُ ۚ وَٱلَّذِينَ ٱتَّخَذُوا۟ مِن دُونِهِۦٓ أَوْلِيَآءَ مَا نَعْبُدُهُمْ إِلَّا لِيُقَرِّبُونَآ إِلَى ٱللَّهِ زُلْفَىٰٓ إِنَّ ٱللَّهَ يَحْكُمُ بَيْنَهُمْ فِى مَا هُمْ فِيهِ يَخْتَلِفُونَ ۗ إِنَّ ٱللَّهَ لَا يَهْدِى مَنْ هُوَ كَٰذِبٌۭ كَفَّارٌۭ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 81,
+      "ref": "39:11",
+      "arabic": "ع ب د",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root ع ب د appears in أَنْ أَعْبُدَ اللَّهَ; the speaker says he is commanded to worship Allah with sincere religion, making the worshipper's obedience explicit.",
+      "canonical_arabic": "قُلْ إِنِّىٓ أُمِرْتُ أَنْ أَعْبُدَ ٱللَّهَ مُخْلِصًۭا لَّهُ ٱلدِّينَ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 82,
+      "ref": "39:14",
+      "arabic": "ع ب د",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root ع ب د appears in أَعْبُدُ اللَّهَ; the speaker declares that he worships Allah with sincere religion, a first-person counterpart to 'You alone we serve.'",
+      "canonical_arabic": "قُلِ ٱللَّهَ أَعْبُدُ مُخْلِصًۭا لَّهُۥ دِينِى"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 82,
+      "ref": "39:14",
+      "arabic": "أَعْبُدُ اللَّهَ",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [
+        "10:104",
+        "13:36",
+        "39:2",
+        "39:11"
+      ],
+      "matching_ref_count": 4,
+      "note": "The source-section root ع ب د appears in أَعْبُدُ اللَّهَ; the speaker declares that he worships Allah with sincere religion, a first-person counterpart to 'You alone we serve.'",
+      "canonical_arabic": "قُلِ ٱللَّهَ أَعْبُدُ مُخْلِصًۭا لَّهُۥ دِينِى"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 84,
+      "ref": "51:56",
+      "arabic": "ع ب د",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root ع ب د appears in لِيَعْبُدُونِ; God says He created jinn and humans only to worship Him, stating why created beings belong in the servant role.",
+      "canonical_arabic": "وَمَا خَلَقْتُ ٱلْجِنَّ وَٱلْإِنسَ إِلَّا لِيَعْبُدُونِ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 85,
+      "ref": "98:5",
+      "arabic": "ع ب د",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section roots ع ب د and د ي ن meet in لِيَعْبُدُوا اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ, explicitly joining worship and religion.",
+      "canonical_arabic": "وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ حُنَفَآءَ وَيُقِيمُوا۟ ٱلصَّلَوٰةَ وَيُؤْتُوا۟ ٱلزَّكَوٰةَ ۚ وَذَٰلِكَ دِينُ ٱلْقَيِّمَةِ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 85,
+      "ref": "98:5",
+      "arabic": "د ي ن",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section roots ع ب د and د ي ن meet in لِيَعْبُدُوا اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ, explicitly joining worship and religion.",
+      "canonical_arabic": "وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ حُنَفَآءَ وَيُقِيمُوا۟ ٱلصَّلَوٰةَ وَيُؤْتُوا۟ ٱلزَّكَوٰةَ ۚ وَذَٰلِكَ دِينُ ٱلْقَيِّمَةِ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 91,
+      "ref": "4:171",
+      "arabic": "م ل ك",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root م ل ك appears in لِلَّهِ مَا فِى السَّمَاوَاتِ وَالْأَرْضِ, and root ع ب د in عَبْدًا لِلَّهِ; all belong to Allah and the Messiah is not too proud to serve Him.",
+      "canonical_arabic": "يَٰٓأَهْلَ ٱلْكِتَٰبِ لَا تَغْلُوا۟ فِى دِينِكُمْ وَلَا تَقُولُوا۟ عَلَى ٱللَّهِ إِلَّا ٱلْحَقَّ ۚ إِنَّمَا ٱلْمَسِيحُ عِيسَى ٱبْنُ مَرْيَمَ رَسُولُ ٱللَّهِ وَكَلِمَتُهُۥٓ أَلْقَىٰهَآ إِلَىٰ مَرْيَمَ وَرُوحٌۭ مِّنْهُ ۖ فَـَٔامِنُوا۟ بِٱللَّهِ وَرُسُلِهِۦ ۖ وَلَا تَقُولُوا۟ ثَلَٰثَةٌ ۚ ٱنتَهُوا۟ خَيْرًۭا لَّكُمْ ۚ إِنَّمَا ٱللَّهُ إِلَٰهٌۭ وَٰحِدٌۭ ۖ سُبْحَٰنَهُۥٓ أَن يَكُونَ لَهُۥ وَلَدٌۭ ۘ لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ وَكَفَىٰ بِٱللَّهِ وَكِيلًۭا"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 91,
+      "ref": "4:171",
+      "arabic": "لِلَّهِ مَا فِى السَّمَاوَاتِ وَالْأَرْضِ",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [
+        "4:170",
+        "10:55",
+        "24:64",
+        "31:26",
+        "57:1"
+      ],
+      "matching_ref_count": 5,
+      "note": "The source-section root م ل ك appears in لِلَّهِ مَا فِى السَّمَاوَاتِ وَالْأَرْضِ, and root ع ب د in عَبْدًا لِلَّهِ; all belong to Allah and the Messiah is not too proud to serve Him.",
+      "canonical_arabic": "يَٰٓأَهْلَ ٱلْكِتَٰبِ لَا تَغْلُوا۟ فِى دِينِكُمْ وَلَا تَقُولُوا۟ عَلَى ٱللَّهِ إِلَّا ٱلْحَقَّ ۚ إِنَّمَا ٱلْمَسِيحُ عِيسَى ٱبْنُ مَرْيَمَ رَسُولُ ٱللَّهِ وَكَلِمَتُهُۥٓ أَلْقَىٰهَآ إِلَىٰ مَرْيَمَ وَرُوحٌۭ مِّنْهُ ۖ فَـَٔامِنُوا۟ بِٱللَّهِ وَرُسُلِهِۦ ۖ وَلَا تَقُولُوا۟ ثَلَٰثَةٌ ۚ ٱنتَهُوا۟ خَيْرًۭا لَّكُمْ ۚ إِنَّمَا ٱللَّهُ إِلَٰهٌۭ وَٰحِدٌۭ ۖ سُبْحَٰنَهُۥٓ أَن يَكُونَ لَهُۥ وَلَدٌۭ ۘ لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ وَكَفَىٰ بِٱللَّهِ وَكِيلًۭا"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 91,
+      "ref": "4:171",
+      "arabic": "ع ب د",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root م ل ك appears in لِلَّهِ مَا فِى السَّمَاوَاتِ وَالْأَرْضِ, and root ع ب د in عَبْدًا لِلَّهِ; all belong to Allah and the Messiah is not too proud to serve Him.",
+      "canonical_arabic": "يَٰٓأَهْلَ ٱلْكِتَٰبِ لَا تَغْلُوا۟ فِى دِينِكُمْ وَلَا تَقُولُوا۟ عَلَى ٱللَّهِ إِلَّا ٱلْحَقَّ ۚ إِنَّمَا ٱلْمَسِيحُ عِيسَى ٱبْنُ مَرْيَمَ رَسُولُ ٱللَّهِ وَكَلِمَتُهُۥٓ أَلْقَىٰهَآ إِلَىٰ مَرْيَمَ وَرُوحٌۭ مِّنْهُ ۖ فَـَٔامِنُوا۟ بِٱللَّهِ وَرُسُلِهِۦ ۖ وَلَا تَقُولُوا۟ ثَلَٰثَةٌ ۚ ٱنتَهُوا۟ خَيْرًۭا لَّكُمْ ۚ إِنَّمَا ٱللَّهُ إِلَٰهٌۭ وَٰحِدٌۭ ۖ سُبْحَٰنَهُۥٓ أَن يَكُونَ لَهُۥ وَلَدٌۭ ۘ لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ وَكَفَىٰ بِٱللَّهِ وَكِيلًۭا"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 91,
+      "ref": "4:171",
+      "arabic": "عَبْدًا لِلَّهِ",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [
+        "4:172"
+      ],
+      "matching_ref_count": 1,
+      "note": "The source-section root م ل ك appears in لِلَّهِ مَا فِى السَّمَاوَاتِ وَالْأَرْضِ, and root ع ب د in عَبْدًا لِلَّهِ; all belong to Allah and the Messiah is not too proud to serve Him.",
+      "canonical_arabic": "يَٰٓأَهْلَ ٱلْكِتَٰبِ لَا تَغْلُوا۟ فِى دِينِكُمْ وَلَا تَقُولُوا۟ عَلَى ٱللَّهِ إِلَّا ٱلْحَقَّ ۚ إِنَّمَا ٱلْمَسِيحُ عِيسَى ٱبْنُ مَرْيَمَ رَسُولُ ٱللَّهِ وَكَلِمَتُهُۥٓ أَلْقَىٰهَآ إِلَىٰ مَرْيَمَ وَرُوحٌۭ مِّنْهُ ۖ فَـَٔامِنُوا۟ بِٱللَّهِ وَرُسُلِهِۦ ۖ وَلَا تَقُولُوا۟ ثَلَٰثَةٌ ۚ ٱنتَهُوا۟ خَيْرًۭا لَّكُمْ ۚ إِنَّمَا ٱللَّهُ إِلَٰهٌۭ وَٰحِدٌۭ ۖ سُبْحَٰنَهُۥٓ أَن يَكُونَ لَهُۥ وَلَدٌۭ ۘ لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ وَكَفَىٰ بِٱللَّهِ وَكِيلًۭا"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 92,
+      "ref": "21:19",
+      "arabic": "م ل ك",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root م ل ك appears in لَهُ مَن فِى السَّمَاوَاتِ وَالْأَرْضِ, while ع ب د appears in عِبَادَتِهِ; even those near God belong to Him and are not too proud to worship.",
+      "canonical_arabic": "وَلَهُۥ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ وَمَنْ عِندَهُۥ لَا يَسْتَكْبِرُونَ عَنْ عِبَادَتِهِۦ وَلَا يَسْتَحْسِرُونَ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 92,
+      "ref": "21:19",
+      "arabic": "ع ب د",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root م ل ك appears in لَهُ مَن فِى السَّمَاوَاتِ وَالْأَرْضِ, while ع ب د appears in عِبَادَتِهِ; even those near God belong to Him and are not too proud to worship.",
+      "canonical_arabic": "وَلَهُۥ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ وَمَنْ عِندَهُۥ لَا يَسْتَكْبِرُونَ عَنْ عِبَادَتِهِۦ وَلَا يَسْتَحْسِرُونَ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 98,
+      "ref": "7:194",
+      "arabic": "ع ب د",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root ع ب د appears in عِبَادٌ أَمْثَالُكُمْ; those invoked besides Allah are servants like the people invoking them, so the supposed lords are themselves creatures.",
+      "canonical_arabic": "إِنَّ ٱلَّذِينَ تَدْعُونَ مِن دُونِ ٱللَّهِ عِبَادٌ أَمْثَالُكُمْ ۖ فَٱدْعُوهُمْ فَلْيَسْتَجِيبُوا۟ لَكُمْ إِن كُنتُمْ صَٰدِقِينَ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 99,
+      "ref": "43:19",
+      "arabic": "ع ب د",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root ع ب د appears in عِبَادُ الرَّحْمَٰنِ; the verse calls angels servants of the Merciful while rejecting their being assigned as daughters.",
+      "canonical_arabic": "وَجَعَلُوا۟ ٱلْمَلَٰٓئِكَةَ ٱلَّذِينَ هُمْ عِبَٰدُ ٱلرَّحْمَٰنِ إِنَٰثًا ۚ أَشَهِدُوا۟ خَلْقَهُمْ ۚ سَتُكْتَبُ شَهَٰدَتُهُمْ وَيُسْـَٔلُونَ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 103,
+      "ref": "17:111",
+      "arabic": "ذُلٍّ",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The verse says God has no ally out of ذُلٍّ; the source section's lowliness belongs to the servant, never to the sovereign who needs no helper.",
+      "canonical_arabic": "وَقُلِ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى لَمْ يَتَّخِذْ وَلَدًۭا وَلَمْ يَكُن لَّهُۥ شَرِيكٌۭ فِى ٱلْمُلْكِ وَلَمْ يَكُن لَّهُۥ وَلِىٌّۭ مِّنَ ٱلذُّلِّ ۖ وَكَبِّرْهُ تَكْبِيرًۢا"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 104,
+      "ref": "35:15",
+      "arabic": "فقيرٌ إِلَى اللَّهِ",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "Humankind is فقيرٌ إِلَى اللَّهِ while Allah is rich and praised; the master-servant relation is asymmetrical because every human needs God.",
+      "canonical_arabic": "۞ يَٰٓأَيُّهَا ٱلنَّاسُ أَنتُمُ ٱلْفُقَرَآءُ إِلَى ٱللَّهِ ۖ وَٱللَّهُ هُوَ ٱلْغَنِىُّ ٱلْحَمِيدُ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 123,
+      "ref": "82:17",
+      "arabic": "د ي ن",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The source-section root د ي ن also names the Day of Recompense; this ayah asks what will make one know that day.",
+      "canonical_arabic": "وَمَآ أَدْرَىٰكَ مَا يَوْمُ ٱلدِّينِ"
+    },
+    {
+      "section": 2,
+      "model": "luna",
+      "line": 151,
+      "ref": "6:73",
+      "arabic": "ملك",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The verse says dominion belongs to Him when the trumpet is blown; it joins the source-section's ملك root to the final accounting.",
+      "canonical_arabic": "وَهُوَ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۖ وَيَوْمَ يَقُولُ كُن فَيَكُونُ ۚ قَوْلُهُ ٱلْحَقُّ ۚ وَلَهُ ٱلْمُلْكُ يَوْمَ يُنفَخُ فِى ٱلصُّورِ ۚ عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ ۚ وَهُوَ ٱلْحَكِيمُ ٱلْخَبِيرُ"
+    },
+    {
+      "section": 2,
+      "model": "terra",
+      "line": 1,
+      "ref": "114:1",
+      "arabic": "رَبِّ ٱلنَّاسِ",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "رَبِّ ٱلنَّاسِ names God as the people’s Lord; with 114:2–3 it restates the section’s Lord-owner-worshipped triad.",
+      "canonical_arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ"
+    },
+    {
+      "section": 2,
+      "model": "terra",
+      "line": 6,
+      "ref": "82:19",
+      "arabic": "يَوْمَ ٱلدِّينِ",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [
+        "1:4",
+        "15:35",
+        "26:82",
+        "37:20",
+        "38:78",
+        "51:12",
+        "56:56",
+        "82:15",
+        "82:17",
+        "82:18"
+      ],
+      "matching_ref_count": 10,
+      "note": "On يَوْمَ ٱلدِّينِ no soul “possesses” (تَمْلِكُ) anything for another and the command belongs wholly to God, an exact expansion of 1:4.",
+      "canonical_arabic": "يَوْمَ لَا تَمْلِكُ نَفْسٌۭ لِّنَفْسٍۢ شَيْـًۭٔا ۖ وَٱلْأَمْرُ يَوْمَئِذٍۢ لِّلَّهِ"
+    },
+    {
+      "section": 2,
+      "model": "terra",
+      "line": 15,
+      "ref": "12:39",
+      "arabic": "أَرْبَابٌ",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "Yusuf asks whether many separate أَرْبَابٌ are better than God the One, the Compeller, setting competing human-style masters against the sole true owner.",
+      "canonical_arabic": "يَٰصَىٰحِبَىِ ٱلسِّجْنِ ءَأَرْبَابٌۭ مُّتَفَرِّقُونَ خَيْرٌ أَمِ ٱللَّهُ ٱلْوَٰحِدُ ٱلْقَهَّارُ"
+    },
+    {
+      "section": 2,
+      "model": "terra",
+      "line": 25,
+      "ref": "16:76",
+      "arabic": "مَوْلَاهُ",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The dependent, speechless man is a burden on his مَوْلَاهُ, unlike one who commands justice; the comparison keeps the master-dependent relation concrete while refusing to make it a divine equality.",
+      "canonical_arabic": "وَضَرَبَ ٱللَّهُ مَثَلًۭا رَّجُلَيْنِ أَحَدُهُمَآ أَبْكَمُ لَا يَقْدِرُ عَلَىٰ شَىْءٍۢ وَهُوَ كَلٌّ عَلَىٰ مَوْلَىٰهُ أَيْنَمَا يُوَجِّههُّ لَا يَأْتِ بِخَيْرٍ ۖ هَلْ يَسْتَوِى هُوَ وَمَن يَأْمُرُ بِٱلْعَدْلِ ۙ وَهُوَ عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ"
+    },
+    {
+      "section": 2,
+      "model": "terra",
+      "line": 40,
+      "ref": "12:41",
+      "arabic": "رَبّ",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "Yusuf says one prisoner will serve wine to his رَبّ, a plain human-master use of the same word the section reads in Rabb.",
+      "canonical_arabic": "يَٰصَىٰحِبَىِ ٱلسِّجْنِ أَمَّآ أَحَدُكُمَا فَيَسْقِى رَبَّهُۥ خَمْرًۭا ۖ وَأَمَّا ٱلْءَاخَرُ فَيُصْلَبُ فَتَأْكُلُ ٱلطَّيْرُ مِن رَّأْسِهِۦ ۚ قُضِىَ ٱلْأَمْرُ ٱلَّذِى فِيهِ تَسْتَفْتِيَانِ"
+    },
+    {
+      "section": 2,
+      "model": "terra",
+      "line": 63,
+      "ref": "7:172",
+      "arabic": "رَبّ",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "At the covenant God asks, “Am I not your رَبّ?” and they answer yes; it stages the creature’s own acknowledgment of the Lord relation later voiced in worship.",
+      "canonical_arabic": "وَإِذْ أَخَذَ رَبُّكَ مِنۢ بَنِىٓ ءَادَمَ مِن ظُهُورِهِمْ ذُرِّيَّتَهُمْ وَأَشْهَدَهُمْ عَلَىٰٓ أَنفُسِهِمْ أَلَسْتُ بِرَبِّكُمْ ۖ قَالُوا۟ بَلَىٰ ۛ شَهِدْنَآ ۛ أَن تَقُولُوا۟ يَوْمَ ٱلْقِيَٰمَةِ إِنَّا كُنَّا عَنْ هَٰذَا غَٰفِلِينَ"
+    },
+    {
+      "section": 2,
+      "model": "terra",
+      "line": 65,
+      "ref": "29:56",
+      "arabic": "عِبَادِي",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "God addresses “My believing servants” (عِبَادِي) and says “Me alone worship”; possession by Him and the direct answer of worship stand in one sentence.",
+      "canonical_arabic": "يَٰعِبَادِىَ ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّ أَرْضِى وَٰسِعَةٌۭ فَإِيَّٰىَ فَٱعْبُدُونِ"
+    },
+    {
+      "section": 2,
+      "model": "terra",
+      "line": 70,
+      "ref": "39:2",
+      "arabic": "دِين",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "“Worship God, making the دِين sincere for Him” joins the two named roots as exclusive allegiance.",
+      "canonical_arabic": "إِنَّآ أَنزَلْنَآ إِلَيْكَ ٱلْكِتَٰبَ بِٱلْحَقِّ فَٱعْبُدِ ٱللَّهَ مُخْلِصًۭا لَّهُ ٱلدِّينَ"
+    },
+    {
+      "section": 2,
+      "model": "terra",
+      "line": 71,
+      "ref": "39:3",
+      "arabic": "دِين",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "“The pure دِين belongs to God” presents dīn as an allegiance whose rightful owner is God.",
+      "canonical_arabic": "أَلَا لِلَّهِ ٱلدِّينُ ٱلْخَالِصُ ۚ وَٱلَّذِينَ ٱتَّخَذُوا۟ مِن دُونِهِۦٓ أَوْلِيَآءَ مَا نَعْبُدُهُمْ إِلَّا لِيُقَرِّبُونَآ إِلَى ٱللَّهِ زُلْفَىٰٓ إِنَّ ٱللَّهَ يَحْكُمُ بَيْنَهُمْ فِى مَا هُمْ فِيهِ يَخْتَلِفُونَ ۗ إِنَّ ٱللَّهَ لَا يَهْدِى مَنْ هُوَ كَٰذِبٌۭ كَفَّارٌۭ"
+    },
+    {
+      "section": 2,
+      "model": "terra",
+      "line": 88,
+      "ref": "17:1",
+      "arabic": "عَبْدِهِ",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "God takes His عَبْدِهِ by night on an honored journey, a narrative in which the named servant is distinguished and cared for.",
+      "canonical_arabic": "سُبْحَٰنَ ٱلَّذِىٓ أَسْرَىٰ بِعَبْدِهِۦ لَيْلًۭا مِّنَ ٱلْمَسْجِدِ ٱلْحَرَامِ إِلَى ٱلْمَسْجِدِ ٱلْأَقْصَا ٱلَّذِى بَٰرَكْنَا حَوْلَهُۥ لِنُرِيَهُۥ مِنْ ءَايَٰتِنَآ ۚ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْبَصِيرُ"
+    },
+    {
+      "section": 3,
+      "model": "luna",
+      "line": 3,
+      "ref": "82:19",
+      "arabic": "لَا تَمْلِكُ نَفْسٌ لِّنَفْسٍ شَيْئًا",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The section's source word mālik means sovereign with command. “لَا تَمْلِكُ نَفْسٌ لِّنَفْسٍ شَيْئًا” and “الْأَمْرُ يَوْمَئِذٍ لِلَّهِ” show ownership and authority stripped from everyone else on that day.",
+      "canonical_arabic": "يَوْمَ لَا تَمْلِكُ نَفْسٌۭ لِّنَفْسٍۢ شَيْـًۭٔا ۖ وَٱلْأَمْرُ يَوْمَئِذٍۢ لِّلَّهِ"
+    },
+    {
+      "section": 3,
+      "model": "luna",
+      "line": 34,
+      "ref": "2:282",
+      "arabic": "تَضِلَّ إِحْدَاهُمَا",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "This ayah gathers the section's worldly debt scene: “بِدَيْنٍ إِلَىٰ أَجَلٍ مُّسَمًّى” is a loan due at a term, “تَضِلَّ إِحْدَاهُمَا” is a witness's lapse, and “أَقْوَمُ لِلشَّهَادَةِ” uses the section's source root q-w-m for sound testimony.",
+      "canonical_arabic": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا تَدَايَنتُم بِدَيْنٍ إِلَىٰٓ أَجَلٍۢ مُّسَمًّۭى فَٱكْتُبُوهُ ۚ وَلْيَكْتُب بَّيْنَكُمْ كَاتِبٌۢ بِٱلْعَدْلِ ۚ وَلَا يَأْبَ كَاتِبٌ أَن يَكْتُبَ كَمَا عَلَّمَهُ ٱللَّهُ ۚ فَلْيَكْتُبْ وَلْيُمْلِلِ ٱلَّذِى عَلَيْهِ ٱلْحَقُّ وَلْيَتَّقِ ٱللَّهَ رَبَّهُۥ وَلَا يَبْخَسْ مِنْهُ شَيْـًۭٔا ۚ فَإِن كَانَ ٱلَّذِى عَلَيْهِ ٱلْحَقُّ سَفِيهًا أَوْ ضَعِيفًا أَوْ لَا يَسْتَطِيعُ أَن يُمِلَّ هُوَ فَلْيُمْلِلْ وَلِيُّهُۥ بِٱلْعَدْلِ ۚ وَٱسْتَشْهِدُوا۟ شَهِيدَيْنِ مِن رِّجَالِكُمْ ۖ فَإِن لَّمْ يَكُونَا رَجُلَيْنِ فَرَجُلٌۭ وَٱمْرَأَتَانِ مِمَّن تَرْضَوْنَ مِنَ ٱلشُّهَدَآءِ أَن تَضِلَّ إِحْدَىٰهُمَا فَتُذَكِّرَ إِحْدَىٰهُمَا ٱلْأُخْرَىٰ ۚ وَلَا يَأْبَ ٱلشُّهَدَآءُ إِذَا مَا دُعُوا۟ ۚ وَلَا تَسْـَٔمُوٓا۟ أَن تَكْتُبُوهُ صَغِيرًا أَوْ كَبِيرًا إِلَىٰٓ أَجَلِهِۦ ۚ ذَٰلِكُمْ أَقْسَطُ عِندَ ٱللَّهِ وَأَقْوَمُ لِلشَّهَٰدَةِ وَأَدْنَىٰٓ أَلَّا تَرْتَابُوٓا۟ ۖ إِلَّآ أَن تَكُونَ تِجَٰرَةً حَاضِرَةًۭ تُدِيرُونَهَا بَيْنَكُمْ فَلَيْسَ عَلَيْكُمْ جُنَاحٌ أَلَّا تَكْتُبُوهَا ۗ وَأَشْهِدُوٓا۟ إِذَا تَبَايَعْتُمْ ۚ وَلَا يُضَآرَّ كَاتِبٌۭ وَلَا شَهِيدٌۭ ۚ وَإِن تَفْعَلُوا۟ فَإِنَّهُۥ فُسُوقٌۢ بِكُمْ ۗ وَٱتَّقُوا۟ ٱللَّهَ ۖ وَيُعَلِّمُكُمُ ٱللَّهُ ۗ وَٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمٌۭ"
+    },
+    {
+      "section": 3,
+      "model": "luna",
+      "line": 64,
+      "ref": "20:111",
+      "arabic": "الْحَيِّ الْقَيُّومِ",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [
+        "2:255",
+        "3:2"
+      ],
+      "matching_ref_count": 2,
+      "note": "The section describes creatures standing before al-Ḥayy al-Qayyūm. Here faces are humbled before “الْحَيِّ الْقَيُّومِ,” joining that divine title to the judgment scene and its reckoning of wrongdoing.",
+      "canonical_arabic": "۞ وَعَنَتِ ٱلْوُجُوهُ لِلْحَىِّ ٱلْقَيُّومِ ۖ وَقَدْ خَابَ مَنْ حَمَلَ ظُلْمًۭا"
+    },
+    {
+      "section": 3,
+      "model": "terra",
+      "line": 13,
+      "ref": "83:3",
+      "arabic": "مُسْتَقِيم",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "When measuring or weighing for others they give less (يُخْسِرُونَ), the inverse of the upright scale tied to مُسْتَقِيم.",
+      "canonical_arabic": "وَإِذَا كَالُوهُمْ أَو وَّزَنُوهُمْ يُخْسِرُونَ"
+    },
+    {
+      "section": 3,
+      "model": "terra",
+      "line": 15,
+      "ref": "83:5",
+      "arabic": "عظیم",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "It calls that resurrection a عظیم day, the grave event which gives the deficient weighing its final consequence.",
+      "canonical_arabic": "لِيَوْمٍ عَظِيمٍۢ"
+    },
+    {
+      "section": 3,
+      "model": "terra",
+      "line": 36,
+      "ref": "17:35",
+      "arabic": "ٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "It commands full measure and weighing with the upright balance (ٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ), explicitly giving the section's straight path a market scale.",
+      "canonical_arabic": "وَأَوْفُوا۟ ٱلْكَيْلَ إِذَا كِلْتُمْ وَزِنُوا۟ بِٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ ۚ ذَٰلِكَ خَيْرٌۭ وَأَحْسَنُ تَأْوِيلًۭا"
+    },
+    {
+      "section": 3,
+      "model": "terra",
+      "line": 38,
+      "ref": "26:182",
+      "arabic": "ٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "Weigh with the upright balance (ٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ), the exact verbal meeting of the section's straightness and scale.",
+      "canonical_arabic": "وَزِنُوا۟ بِٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ"
+    },
+    {
+      "section": 3,
+      "model": "terra",
+      "line": 51,
+      "ref": "2:178",
+      "arabic": "غَيْر",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "After intentional killing, pardon requires fair following and gracious payment; it is the qisas-to-payment turn developed under غَيْر.",
+      "canonical_arabic": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلْقِصَاصُ فِى ٱلْقَتْلَى ۖ ٱلْحُرُّ بِٱلْحُرِّ وَٱلْعَبْدُ بِٱلْعَبْدِ وَٱلْأُنثَىٰ بِٱلْأُنثَىٰ ۚ فَمَنْ عُفِىَ لَهُۥ مِنْ أَخِيهِ شَىْءٌۭ فَٱتِّبَاعٌۢ بِٱلْمَعْرُوفِ وَأَدَآءٌ إِلَيْهِ بِإِحْسَٰنٍۢ ۗ ذَٰلِكَ تَخْفِيفٌۭ مِّن رَّبِّكُمْ وَرَحْمَةٌۭ ۗ فَمَنِ ٱعْتَدَىٰ بَعْدَ ذَٰلِكَ فَلَهُۥ عَذَابٌ أَلِيمٌۭ"
+    },
+    {
+      "section": 3,
+      "model": "terra",
+      "line": 123,
+      "ref": "22:56",
+      "arabic": "ملك",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "Dominion belongs to Allah that day and He judges between people, directly combining ملك, day, and judgment.",
+      "canonical_arabic": "ٱلْمُلْكُ يَوْمَئِذٍۢ لِّلَّهِ يَحْكُمُ بَيْنَهُمْ ۚ فَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فِى جَنَّٰتِ ٱلنَّعِيمِ"
+    },
+    {
+      "section": 3,
+      "model": "terra",
+      "line": 129,
+      "ref": "47:38",
+      "arabic": "غَيْر",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "If people turn away, Allah replaces them with another people; the verse gives غَيْر a communal substitution that warns against refusing the required response.",
+      "canonical_arabic": "هَٰٓأَنتُمْ هَٰٓؤُلَآءِ تُدْعَوْنَ لِتُنفِقُوا۟ فِى سَبِيلِ ٱللَّهِ فَمِنكُم مَّن يَبْخَلُ ۖ وَمَن يَبْخَلْ فَإِنَّمَا يَبْخَلُ عَن نَّفْسِهِۦ ۚ وَٱللَّهُ ٱلْغَنِىُّ وَأَنتُمُ ٱلْفُقَرَآءُ ۚ وَإِن تَتَوَلَّوْا۟ يَسْتَبْدِلْ قَوْمًا غَيْرَكُمْ ثُمَّ لَا يَكُونُوٓا۟ أَمْثَٰلَكُم"
+    },
+    {
+      "section": 3,
+      "model": "terra",
+      "line": 133,
+      "ref": "48:6",
+      "arabic": "ٱلْمَغْضُوبِ",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "Allah's wrath and curse are joined to Hell for hypocrites and idolaters, giving the punished sense of ٱلْمَغْضُوبِ a direct outcome.",
+      "canonical_arabic": "وَيُعَذِّبَ ٱلْمُنَٰفِقِينَ وَٱلْمُنَٰفِقَٰتِ وَٱلْمُشْرِكِينَ وَٱلْمُشْرِكَٰتِ ٱلظَّآنِّينَ بِٱللَّهِ ظَنَّ ٱلسَّوْءِ ۚ عَلَيْهِمْ دَآئِرَةُ ٱلسَّوْءِ ۖ وَغَضِبَ ٱللَّهُ عَلَيْهِمْ وَلَعَنَهُمْ وَأَعَدَّ لَهُمْ جَهَنَّمَ ۖ وَسَآءَتْ مَصِيرًۭا"
+    },
+    {
+      "section": 3,
+      "model": "terra",
+      "line": 155,
+      "ref": "65:8",
+      "arabic": "حساب",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "A people were called to a severe account and tasted the evil consequence of their affair, joining حساب to enacted recompense.",
+      "canonical_arabic": "وَكَأَيِّن مِّن قَرْيَةٍ عَتَتْ عَنْ أَمْرِ رَبِّهَا وَرُسُلِهِۦ فَحَاسَبْنَٰهَا حِسَابًۭا شَدِيدًۭا وَعَذَّبْنَٰهَا عَذَابًۭا نُّكْرًۭا"
+    },
+    {
+      "section": 3,
+      "model": "terra",
+      "line": 156,
+      "ref": "40:27",
+      "arabic": "حساب",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "Moses seeks refuge from every arrogant person who does not believe in the Day of Account, naming the day with the section's حساب.",
+      "canonical_arabic": "وَقَالَ مُوسَىٰٓ إِنِّى عُذْتُ بِرَبِّى وَرَبِّكُم مِّن كُلِّ مُتَكَبِّرٍۢ لَّا يُؤْمِنُ بِيَوْمِ ٱلْحِسَابِ"
+    },
+    {
+      "section": 3,
+      "model": "terra",
+      "line": 160,
+      "ref": "56:56",
+      "arabic": "دِين",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "It names the described punishment their hospitality on the Day of Recompense, another exact دِين designation for final due.",
+      "canonical_arabic": "هَٰذَا نُزُلُهُمْ يَوْمَ ٱلدِّينِ"
+    },
+    {
+      "section": 3,
+      "model": "terra",
+      "line": 169,
+      "ref": "16:101",
+      "arabic": "غَيْر",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "When Allah substitutes one sign for another, the verse supplies another explicit scene of replacement relevant to the section's secondary غَيْر sense.",
+      "canonical_arabic": "وَإِذَا بَدَّلْنَآ ءَايَةًۭ مَّكَانَ ءَايَةٍۢ ۙ وَٱللَّهُ أَعْلَمُ بِمَا يُنَزِّلُ قَالُوٓا۟ إِنَّمَآ أَنتَ مُفْتَرٍۭ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ"
+    },
+    {
+      "section": 3,
+      "model": "terra",
+      "line": 192,
+      "ref": "9:39",
+      "arabic": "غَيْر",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "Refusing to go forth brings punishment and replacement by another people, making غَيْر a warning of communal substitution.",
+      "canonical_arabic": "إِلَّا تَنفِرُوا۟ يُعَذِّبْكُمْ عَذَابًا أَلِيمًۭا وَيَسْتَبْدِلْ قَوْمًا غَيْرَكُمْ وَلَا تَضُرُّوهُ شَيْـًۭٔا ۗ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌ"
+    },
+    {
+      "section": 3,
+      "model": "terra",
+      "line": 194,
+      "ref": "13:41",
+      "arabic": "حساب",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "Allah judges and none reverses His judgment, while He is swift in account; rule and حساب meet in one assertion.",
+      "canonical_arabic": "أَوَلَمْ يَرَوْا۟ أَنَّا نَأْتِى ٱلْأَرْضَ نَنقُصُهَا مِنْ أَطْرَافِهَا ۚ وَٱللَّهُ يَحْكُمُ لَا مُعَقِّبَ لِحُكْمِهِۦ ۚ وَهُوَ سَرِيعُ ٱلْحِسَابِ"
+    },
+    {
+      "section": 3,
+      "model": "terra",
+      "line": 217,
+      "ref": "38:16",
+      "arabic": "حساب",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "They demand their allotted record before the Day of Account, naming the final reckoning with حساب.",
+      "canonical_arabic": "وَقَالُوا۟ رَبَّنَا عَجِّل لَّنَا قِطَّنَا قَبْلَ يَوْمِ ٱلْحِسَابِ"
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "line": 1,
+      "ref": "3:6",
+      "arabic": "رحم",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The section identifies رحم as both womb and child-home; this verse says God forms people in الْأَرْحَامِ as He wills, making the lexical image an explicit Qur'anic scene.",
+      "canonical_arabic": "هُوَ ٱلَّذِى يُصَوِّرُكُمْ فِى ٱلْأَرْحَامِ كَيْفَ يَشَآءُ ۚ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ"
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "line": 2,
+      "ref": "4:1",
+      "arabic": "رحم",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The section labels kinship a borrowed use of رحم because relatives come from one womb; this verse places الْأَرْحَامَ beside reverence for God, making that bond an ethical charge.",
+      "canonical_arabic": "يَٰٓأَيُّهَا ٱلنَّاسُ ٱتَّقُوا۟ رَبَّكُمُ ٱلَّذِى خَلَقَكُم مِّن نَّفْسٍۢ وَٰحِدَةٍۢ وَخَلَقَ مِنْهَا زَوْجَهَا وَبَثَّ مِنْهُمَا رِجَالًۭا كَثِيرًۭا وَنِسَآءًۭ ۚ وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِى تَسَآءَلُونَ بِهِۦ وَٱلْأَرْحَامَ ۚ إِنَّ ٱللَّهَ كَانَ عَلَيْكُمْ رَقِيبًۭا"
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "line": 4,
+      "ref": "17:24",
+      "arabic": "ر ح م",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "This joins the section's roots ر ح م and ر ب ب: show parents humility “from mercy” and ask for mercy as they raised the speaker small, making upbringing the ground of reciprocal care.",
+      "canonical_arabic": "وَٱخْفِضْ لَهُمَا جَنَاحَ ٱلذُّلِّ مِنَ ٱلرَّحْمَةِ وَقُل رَّبِّ ٱرْحَمْهُمَا كَمَا رَبَّيَانِى صَغِيرًۭا"
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "line": 4,
+      "ref": "17:24",
+      "arabic": "ر ب ب",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "This joins the section's roots ر ح م and ر ب ب: show parents humility “from mercy” and ask for mercy as they raised the speaker small, making upbringing the ground of reciprocal care.",
+      "canonical_arabic": "وَٱخْفِضْ لَهُمَا جَنَاحَ ٱلذُّلِّ مِنَ ٱلرَّحْمَةِ وَقُل رَّبِّ ٱرْحَمْهُمَا كَمَا رَبَّيَانِى صَغِيرًۭا"
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "line": 13,
+      "ref": "28:12",
+      "arabic": "ر ب ب",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "Moses' sister offers a household who will care for him (يَكْفُلُونَهُ); this directly meets the section's dictionary sense of ر ب ب for a foster parent taking responsibility for a child.",
+      "canonical_arabic": "۞ وَحَرَّمْنَا عَلَيْهِ ٱلْمَرَاضِعَ مِن قَبْلُ فَقَالَتْ هَلْ أَدُلُّكُمْ عَلَىٰٓ أَهْلِ بَيْتٍۢ يَكْفُلُونَهُۥ لَكُمْ وَهُمْ لَهُۥ نَٰصِحُونَ"
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "line": 18,
+      "ref": "20:40",
+      "arabic": "وَكَفَلَهُ",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "Moses' sister offers someone who will وَكَفَلَهُ and God returns him to his mother; the verse connects foster care and the restored maternal home in one account.",
+      "canonical_arabic": "إِذْ تَمْشِىٓ أُخْتُكَ فَتَقُولُ هَلْ أَدُلُّكُمْ عَلَىٰ مَن يَكْفُلُهُۥ ۖ فَرَجَعْنَٰكَ إِلَىٰٓ أُمِّكَ كَىْ تَقَرَّ عَيْنُهَا وَلَا تَحْزَنَ ۚ وَقَتَلْتَ نَفْسًۭا فَنَجَّيْنَٰكَ مِنَ ٱلْغَمِّ وَفَتَنَّٰكَ فُتُونًۭا ۚ فَلَبِثْتَ سِنِينَ فِىٓ أَهْلِ مَدْيَنَ ثُمَّ جِئْتَ عَلَىٰ قَدَرٍۢ يَٰمُوسَىٰ"
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "line": 26,
+      "ref": "11:73",
+      "arabic": "ر ح م",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The visitors name Allah's mercy and blessing upon Abraham's household (أَهْلَ الْبَيْتِ); this directly joins ر ح م to a family home and the promised child.",
+      "canonical_arabic": "قَالُوٓا۟ أَتَعْجَبِينَ مِنْ أَمْرِ ٱللَّهِ ۖ رَحْمَتُ ٱللَّهِ وَبَرَكَٰتُهُۥ عَلَيْكُمْ أَهْلَ ٱلْبَيْتِ ۚ إِنَّهُۥ حَمِيدٌۭ مَّجِيدٌۭ"
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "line": 35,
+      "ref": "23:14",
+      "arabic": "تربِيَة",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The verse recounts successive formation and a later created form; it gives a concrete bodily sequence for the section's definition of تربِيَة as bringing something through states to completion.",
+      "canonical_arabic": "ثُمَّ خَلَقْنَا ٱلنُّطْفَةَ عَلَقَةًۭ فَخَلَقْنَا ٱلْعَلَقَةَ مُضْغَةًۭ فَخَلَقْنَا ٱلْمُضْغَةَ عِظَٰمًۭا فَكَسَوْنَا ٱلْعِظَٰمَ لَحْمًۭا ثُمَّ أَنشَأْنَٰهُ خَلْقًا ءَاخَرَ ۚ فَتَبَارَكَ ٱللَّهُ أَحْسَنُ ٱلْخَٰلِقِينَ"
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "line": 49,
+      "ref": "4:23",
+      "arabic": "رَبَائِبُكُمُ اللَّاتِي فِي حُجُورِكُم",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The verse names stepdaughters in one's care (رَبَائِبُكُمُ اللَّاتِي فِي حُجُورِكُم); this directly matches the section's dictionary entry ر ب ب for a step-parent who undertakes a child's upbringing.",
+      "canonical_arabic": "حُرِّمَتْ عَلَيْكُمْ أُمَّهَٰتُكُمْ وَبَنَاتُكُمْ وَأَخَوَٰتُكُمْ وَعَمَّٰتُكُمْ وَخَٰلَٰتُكُمْ وَبَنَاتُ ٱلْأَخِ وَبَنَاتُ ٱلْأُخْتِ وَأُمَّهَٰتُكُمُ ٱلَّٰتِىٓ أَرْضَعْنَكُمْ وَأَخَوَٰتُكُم مِّنَ ٱلرَّضَٰعَةِ وَأُمَّهَٰتُ نِسَآئِكُمْ وَرَبَٰٓئِبُكُمُ ٱلَّٰتِى فِى حُجُورِكُم مِّن نِّسَآئِكُمُ ٱلَّٰتِى دَخَلْتُم بِهِنَّ فَإِن لَّمْ تَكُونُوا۟ دَخَلْتُم بِهِنَّ فَلَا جُنَاحَ عَلَيْكُمْ وَحَلَٰٓئِلُ أَبْنَآئِكُمُ ٱلَّذِينَ مِنْ أَصْلَٰبِكُمْ وَأَن تَجْمَعُوا۟ بَيْنَ ٱلْأُخْتَيْنِ إِلَّا مَا قَدْ سَلَفَ ۗ إِنَّ ٱللَّهَ كَانَ غَفُورًۭا رَّحِيمًۭا"
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "line": 49,
+      "ref": "4:23",
+      "arabic": "ر ب ب",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The verse names stepdaughters in one's care (رَبَائِبُكُمُ اللَّاتِي فِي حُجُورِكُم); this directly matches the section's dictionary entry ر ب ب for a step-parent who undertakes a child's upbringing.",
+      "canonical_arabic": "حُرِّمَتْ عَلَيْكُمْ أُمَّهَٰتُكُمْ وَبَنَاتُكُمْ وَأَخَوَٰتُكُمْ وَعَمَّٰتُكُمْ وَخَٰلَٰتُكُمْ وَبَنَاتُ ٱلْأَخِ وَبَنَاتُ ٱلْأُخْتِ وَأُمَّهَٰتُكُمُ ٱلَّٰتِىٓ أَرْضَعْنَكُمْ وَأَخَوَٰتُكُم مِّنَ ٱلرَّضَٰعَةِ وَأُمَّهَٰتُ نِسَآئِكُمْ وَرَبَٰٓئِبُكُمُ ٱلَّٰتِى فِى حُجُورِكُم مِّن نِّسَآئِكُمُ ٱلَّٰتِى دَخَلْتُم بِهِنَّ فَإِن لَّمْ تَكُونُوا۟ دَخَلْتُم بِهِنَّ فَلَا جُنَاحَ عَلَيْكُمْ وَحَلَٰٓئِلُ أَبْنَآئِكُمُ ٱلَّذِينَ مِنْ أَصْلَٰبِكُمْ وَأَن تَجْمَعُوا۟ بَيْنَ ٱلْأُخْتَيْنِ إِلَّا مَا قَدْ سَلَفَ ۗ إِنَّ ٱللَّهَ كَانَ غَفُورًۭا رَّحِيمًۭا"
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "line": 50,
+      "ref": "3:79",
+      "arabic": "رَبَّانِيِّينَ",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The verse calls people رَبَّانِيِّينَ because they teach the Scripture and study it; it directly connects the section's root ر ب ب, whose teaching sense is feeding learners small portions of knowledge, to instruction.",
+      "canonical_arabic": "مَا كَانَ لِبَشَرٍ أَن يُؤْتِيَهُ ٱللَّهُ ٱلْكِتَٰبَ وَٱلْحُكْمَ وَٱلنُّبُوَّةَ ثُمَّ يَقُولَ لِلنَّاسِ كُونُوا۟ عِبَادًۭا لِّى مِن دُونِ ٱللَّهِ وَلَٰكِن كُونُوا۟ رَبَّٰنِيِّۦنَ بِمَا كُنتُمْ تُعَلِّمُونَ ٱلْكِتَٰبَ وَبِمَا كُنتُمْ تَدْرُسُونَ"
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "line": 50,
+      "ref": "3:79",
+      "arabic": "ر ب ب",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The verse calls people رَبَّانِيِّينَ because they teach the Scripture and study it; it directly connects the section's root ر ب ب, whose teaching sense is feeding learners small portions of knowledge, to instruction.",
+      "canonical_arabic": "مَا كَانَ لِبَشَرٍ أَن يُؤْتِيَهُ ٱللَّهُ ٱلْكِتَٰبَ وَٱلْحُكْمَ وَٱلنُّبُوَّةَ ثُمَّ يَقُولَ لِلنَّاسِ كُونُوا۟ عِبَادًۭا لِّى مِن دُونِ ٱللَّهِ وَلَٰكِن كُونُوا۟ رَبَّٰنِيِّۦنَ بِمَا كُنتُمْ تُعَلِّمُونَ ٱلْكِتَٰبَ وَبِمَا كُنتُمْ تَدْرُسُونَ"
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "line": 66,
+      "ref": "14:37",
+      "arabic": "غ ي ر",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "Abraham asks God to provide fruit for his family left in a barren valley; this concretely joins the section's household and its dictionary branch غ ي ر, provision brought home.",
+      "canonical_arabic": "رَّبَّنَآ إِنِّىٓ أَسْكَنتُ مِن ذُرِّيَّتِى بِوَادٍ غَيْرِ ذِى زَرْعٍ عِندَ بَيْتِكَ ٱلْمُحَرَّمِ رَبَّنَا لِيُقِيمُوا۟ ٱلصَّلَوٰةَ فَٱجْعَلْ أَفْـِٔدَةًۭ مِّنَ ٱلنَّاسِ تَهْوِىٓ إِلَيْهِمْ وَٱرْزُقْهُم مِّنَ ٱلثَّمَرَٰتِ لَعَلَّهُمْ يَشْكُرُونَ"
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "line": 67,
+      "ref": "12:65",
+      "arabic": "الغِيرة",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "Joseph's brothers say they will bring provisions for their household (نَمِيرُ أَهْلَنَا); this is a direct Qur'anic counterpart to the section's dictionary gloss of الغِيرة as المِيرة, provisions for the home.",
+      "canonical_arabic": "وَلَمَّا فَتَحُوا۟ مَتَٰعَهُمْ وَجَدُوا۟ بِضَٰعَتَهُمْ رُدَّتْ إِلَيْهِمْ ۖ قَالُوا۟ يَٰٓأَبَانَا مَا نَبْغِى ۖ هَٰذِهِۦ بِضَٰعَتُنَا رُدَّتْ إِلَيْنَا ۖ وَنَمِيرُ أَهْلَنَا وَنَحْفَظُ أَخَانَا وَنَزْدَادُ كَيْلَ بَعِيرٍۢ ۖ ذَٰلِكَ كَيْلٌۭ يَسِيرٌۭ"
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "line": 67,
+      "ref": "12:65",
+      "arabic": "المِيرة",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "Joseph's brothers say they will bring provisions for their household (نَمِيرُ أَهْلَنَا); this is a direct Qur'anic counterpart to the section's dictionary gloss of الغِيرة as المِيرة, provisions for the home.",
+      "canonical_arabic": "وَلَمَّا فَتَحُوا۟ مَتَٰعَهُمْ وَجَدُوا۟ بِضَٰعَتَهُمْ رُدَّتْ إِلَيْهِمْ ۖ قَالُوا۟ يَٰٓأَبَانَا مَا نَبْغِى ۖ هَٰذِهِۦ بِضَٰعَتُنَا رُدَّتْ إِلَيْنَا ۖ وَنَمِيرُ أَهْلَنَا وَنَحْفَظُ أَخَانَا وَنَزْدَادُ كَيْلَ بَعِيرٍۢ ۖ ذَٰلِكَ كَيْلٌۭ يَسِيرٌۭ"
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "line": 70,
+      "ref": "4:5",
+      "arabic": "ق و م",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The section's root ق و م includes household support (قِوَام); here wealth is called قِيَامًا لِّلنَّاس, what sustains people's affairs, linking material means to a household's standing.",
+      "canonical_arabic": "وَلَا تُؤْتُوا۟ ٱلسُّفَهَآءَ أَمْوَٰلَكُمُ ٱلَّتِى جَعَلَ ٱللَّهُ لَكُمْ قِيَٰمًۭا وَٱرْزُقُوهُمْ فِيهَا وَٱكْسُوهُمْ وَقُولُوا۟ لَهُمْ قَوْلًۭا مَّعْرُوفًۭا"
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "line": 70,
+      "ref": "4:5",
+      "arabic": "قِوَام",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The section's root ق و م includes household support (قِوَام); here wealth is called قِيَامًا لِّلنَّاس, what sustains people's affairs, linking material means to a household's standing.",
+      "canonical_arabic": "وَلَا تُؤْتُوا۟ ٱلسُّفَهَآءَ أَمْوَٰلَكُمُ ٱلَّتِى جَعَلَ ٱللَّهُ لَكُمْ قِيَٰمًۭا وَٱرْزُقُوهُمْ فِيهَا وَٱكْسُوهُمْ وَقُولُوا۟ لَهُمْ قَوْلًۭا مَّعْرُوفًۭا"
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "line": 70,
+      "ref": "4:5",
+      "arabic": "قِيَامًا لِّلنَّاس",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [
+        "5:97"
+      ],
+      "matching_ref_count": 1,
+      "note": "The section's root ق و م includes household support (قِوَام); here wealth is called قِيَامًا لِّلنَّاس, what sustains people's affairs, linking material means to a household's standing.",
+      "canonical_arabic": "وَلَا تُؤْتُوا۟ ٱلسُّفَهَآءَ أَمْوَٰلَكُمُ ٱلَّتِى جَعَلَ ٱللَّهُ لَكُمْ قِيَٰمًۭا وَٱرْزُقُوهُمْ فِيهَا وَٱكْسُوهُمْ وَقُولُوا۟ لَهُمْ قَوْلًۭا مَّعْرُوفًۭا"
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "line": 71,
+      "ref": "4:34",
+      "arabic": "ق و م",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The section's ق و م dictionary sense is sustaining a household; this verse calls men قَوَّامُونَ over women and explicitly ties that role to spending from their wealth.",
+      "canonical_arabic": "ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ ۚ فَٱلصَّٰلِحَٰتُ قَٰنِتَٰتٌ حَٰفِظَٰتٌۭ لِّلْغَيْبِ بِمَا حَفِظَ ٱللَّهُ ۚ وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ فَعِظُوهُنَّ وَٱهْجُرُوهُنَّ فِى ٱلْمَضَاجِعِ وَٱضْرِبُوهُنَّ ۖ فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا ۗ إِنَّ ٱللَّهَ كَانَ عَلِيًّۭا كَبِيرًۭا"
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "line": 73,
+      "ref": "66:6",
+      "arabic": "غَيْرَة",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "Believers are told to protect themselves and their families from the Fire; this directly meets the section's dictionary branch غَيْرَة as protective concern for one's household.",
+      "canonical_arabic": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ قُوٓا۟ أَنفُسَكُمْ وَأَهْلِيكُمْ نَارًۭا وَقُودُهَا ٱلنَّاسُ وَٱلْحِجَارَةُ عَلَيْهَا مَلَٰٓئِكَةٌ غِلَاظٌۭ شِدَادٌۭ لَّا يَعْصُونَ ٱللَّهَ مَآ أَمَرَهُمْ وَيَفْعَلُونَ مَا يُؤْمَرُونَ"
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "line": 74,
+      "ref": "24:27",
+      "arabic": "غَيْرَة",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The verse requires permission before entering other people's homes; this marks the home as a protected boundary, matching the section's household-protection sense of غَيْرَة.",
+      "canonical_arabic": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَدْخُلُوا۟ بُيُوتًا غَيْرَ بُيُوتِكُمْ حَتَّىٰ تَسْتَأْنِسُوا۟ وَتُسَلِّمُوا۟ عَلَىٰٓ أَهْلِهَا ۚ ذَٰلِكُمْ خَيْرٌۭ لَّكُمْ لَعَلَّكُمْ تَذَكَّرُونَ"
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "line": 77,
+      "ref": "4:36",
+      "arabic": "رحمة",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The verse commands good treatment of parents, relatives, orphans, and the needy; this concretely enacts the section's definition of رحمة as tenderness that leads to good for the vulnerable.",
+      "canonical_arabic": "۞ وَٱعْبُدُوا۟ ٱللَّهَ وَلَا تُشْرِكُوا۟ بِهِۦ شَيْـًۭٔا ۖ وَبِٱلْوَٰلِدَيْنِ إِحْسَٰنًۭا وَبِذِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ وَٱلْجَارِ ذِى ٱلْقُرْبَىٰ وَٱلْجَارِ ٱلْجُنُبِ وَٱلصَّاحِبِ بِٱلْجَنۢبِ وَٱبْنِ ٱلسَّبِيلِ وَمَا مَلَكَتْ أَيْمَٰنُكُمْ ۗ إِنَّ ٱللَّهَ لَا يُحِبُّ مَن كَانَ مُخْتَالًۭا فَخُورًا"
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "line": 79,
+      "ref": "16:90",
+      "arabic": "ر ح م",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "God commands good (الْإِحْسَانِ) and giving to near kin; this directly joins the section's mercy-that-leads-to-good definition with its kinship branch of ر ح م.",
+      "canonical_arabic": "۞ إِنَّ ٱللَّهَ يَأْمُرُ بِٱلْعَدْلِ وَٱلْإِحْسَٰنِ وَإِيتَآئِ ذِى ٱلْقُرْبَىٰ وَيَنْهَىٰ عَنِ ٱلْفَحْشَآءِ وَٱلْمُنكَرِ وَٱلْبَغْىِ ۚ يَعِظُكُمْ لَعَلَّكُمْ تَذَكَّرُونَ"
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "line": 90,
+      "ref": "90:17",
+      "arabic": "مَرْحَمَة",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The verse urges people to counsel one another to mercy (مَرْحَمَة); the preceding ayat show that mercy as feeding an orphan and a poor person.",
+      "canonical_arabic": "ثُمَّ كَانَ مِنَ ٱلَّذِينَ ءَامَنُوا۟ وَتَوَاصَوْا۟ بِٱلصَّبْرِ وَتَوَاصَوْا۟ بِٱلْمَرْحَمَةِ"
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "line": 95,
+      "ref": "89:16",
+      "arabic": "ن ع م",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The person mistakes restricted provision for humiliation; 89:17–18 name care for the orphan and hungry as the real test, reversing the comfort measure linked to the section's root ن ع م.",
+      "canonical_arabic": "وَأَمَّآ إِذَا مَا ٱبْتَلَىٰهُ فَقَدَرَ عَلَيْهِ رِزْقَهُۥ فَيَقُولُ رَبِّىٓ أَهَٰنَنِ"
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "line": 108,
+      "ref": "2:228",
+      "arabic": "رحم",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "In the waiting-period rule, women must not conceal what God created in their wombs; this gives رحم a concrete household and lineage consequence, beyond the womb as a place of formation.",
+      "canonical_arabic": "وَٱلْمُطَلَّقَٰتُ يَتَرَبَّصْنَ بِأَنفُسِهِنَّ ثَلَٰثَةَ قُرُوٓءٍۢ ۚ وَلَا يَحِلُّ لَهُنَّ أَن يَكْتُمْنَ مَا خَلَقَ ٱللَّهُ فِىٓ أَرْحَامِهِنَّ إِن كُنَّ يُؤْمِنَّ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ ۚ وَبُعُولَتُهُنَّ أَحَقُّ بِرَدِّهِنَّ فِى ذَٰلِكَ إِنْ أَرَادُوٓا۟ إِصْلَٰحًۭا ۚ وَلَهُنَّ مِثْلُ ٱلَّذِى عَلَيْهِنَّ بِٱلْمَعْرُوفِ ۚ وَلِلرِّجَالِ عَلَيْهِنَّ دَرَجَةٌۭ ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ"
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "line": 117,
+      "ref": "3:159",
+      "arabic": "ر ح م",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "The verse says God's mercy made the Prophet gentle toward his companions; this concretely shows the section's ر ح م as tenderness that benefits its recipients.",
+      "canonical_arabic": "فَبِمَا رَحْمَةٍۢ مِّنَ ٱللَّهِ لِنتَ لَهُمْ ۖ وَلَوْ كُنتَ فَظًّا غَلِيظَ ٱلْقَلْبِ لَٱنفَضُّوا۟ مِنْ حَوْلِكَ ۖ فَٱعْفُ عَنْهُمْ وَٱسْتَغْفِرْ لَهُمْ وَشَاوِرْهُمْ فِى ٱلْأَمْرِ ۖ فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى ٱللَّهِ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُتَوَكِّلِينَ"
+    },
+    {
+      "section": 4,
+      "model": "luna",
+      "line": 135,
+      "ref": "2:31",
+      "arabic": "ر ب ب",
+      "finding": "Arabic wording absent from cited ayah; review quotation/root/dictionary form",
+      "matching_refs": [],
+      "matching_ref_count": 0,
+      "note": "God teaches Adam the names; this is a specific scene of divine instruction that fits the section's extension of ر ب ب from nurture to teaching.",
+      "canonical_arabic": "وَعَلَّمَ ءَادَمَ ٱلْأَسْمَآءَ كُلَّهَا ثُمَّ عَرَضَهُمْ عَلَى ٱلْمَلَٰٓئِكَةِ فَقَالَ أَنۢبِـُٔونِى بِأَسْمَآءِ هَٰٓؤُلَآءِ إِن كُنتُمْ صَٰدِقِينَ"
+    }
+  ],
+  "first_image_review_cases": {
+    "38:22": true,
+    "37:118": true,
+    "36:66": false,
+    "4:168": false,
+    "4:169": false,
+    "25:34": true,
+    "20:108": false,
+    "34:18": true,
+    "34:19": true,
+    "18:2": false,
+    "4:125": false
+  }
+}
