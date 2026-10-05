@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """What the enrichment corpus holds and what it does not (user, 2026-10-05: "record what we have and what we don't
 have"). Regenerate after any import:  python3 -B enrichment/v2/tools/source_status.py
+  [--json DATA.json [--page PAGE.html]]   also the data and the shareable page (template source_status_page.html)
 Writes enrichment/v2/SOURCES_STATUS.md from every source.json, the index (corpus.sqlite) and groups.json, plus the
 list below of works searched for and not held (kept by hand: each line says where it stands).
 """
@@ -41,6 +42,30 @@ NOT_HELD = [
      "M. Öztürk meal", "pointers", "not in the download batch (the user was checking them); the Farrin and Öztürk "
      "PDFs lie unregistered at the corpus root."),
 ]
+
+
+# how a source's text was made, where the ingestion record alone does not say (2026-10-05 imports)
+MACHINE_READ = {"MEAL-AKDEMIR", "MEAL-HAMIDULLAH", "MEAL-ATAY", "NOLDEKE-GDQ", "JEFFERY-FOREIGN", "ZAMMIT-COMPARATIVE"}
+BORN_DIGITAL = {"ISLAHI-TADABBUR", "ASAD-NOTES", "STUDYQURAN", "EQ", "SINAI-KEYTERMS", "CUYPERS-COMPOSITION",
+                "RIFAI-KHULI", "YKHULI-TAJDID"}
+
+
+def status_of(m: dict) -> str:
+    """pointer (no text) | unchecked (a digital edition or OCR draft not yet checked against the print) |
+    machine-read (OCR of a scan, or aligned by machine) | edition text (born-digital or an earlier vetted import)."""
+    if m.get("access") == "hafiza":
+        return "pointer"
+    if m["id"] in MACHINE_READ:
+        return "machine-read"
+    if m["id"] in BORN_DIGITAL:
+        return "edition text"
+    ing = m.get("ingestion") or {}
+    blob = " ".join(str(ing.get(k) or "") for k in ("text_status", "quality", "method")).lower()
+    if "ocr draft" in blob or "not checked" in blob or "not yet checked" in blob or "unverified" in blob:
+        return "unchecked"
+    if "ocr" in blob or "align" in blob:
+        return "machine-read"
+    return "edition text"
 
 
 def main() -> None:
@@ -124,6 +149,31 @@ def main() -> None:
               "These are searchable (`corpus.py get/ayah/search/cites`) but the hybrid workflow (grup.py, Task C) "
               "reads by group, so a group must claim them before a run:", "", ", ".join(sorted(no_group)) or "none", ""]
     OUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    if "--json" in sys.argv:  # the data behind the shareable page (tools/source_status_page.py)
+        rows = []
+        for m in sorted(srcs, key=lambda m: m["id"]):
+            n, ch, tied = stats.get(m["id"], (0, 0, 0))
+            ing = m.get("ingestion") or {}
+            rows.append({"id": m["id"], "author": m.get("author") or "", "title": m.get("title") or "",
+                         "kind": m.get("kind") or "", "tradition": m.get("tradition") or "", "lang": m.get("language") or "",
+                         "segments": n, "chars": ch or 0, "tied": tied or 0, "cites": cites.get(m["id"], 0),
+                         "status": status_of(m), "status_text": (ing.get("text_status") or ing.get("quality") or "")[:220],
+                         "groups": member.get(m["id"], []), "imported": ing.get("date") or "",
+                         "acq": (m.get("acquisition") or {}).get("state") or "",
+                         "notes": (m.get("notes") or "")[:600]})
+        out = Path(sys.argv[sys.argv.index("--json") + 1])
+        out.write_text(json.dumps({"date": date.today().isoformat(), "sources": rows,
+                                   "not_held": [{"work": w, "id": i, "where": s} for w, i, s in NOT_HELD],
+                                   "groups": [{"id": g["id"], "material": g.get("material"), "required": bool(g.get("required")),
+                                               "odak": g.get("odak", "")[:400], "sources": g["sources"]} for g in groups]},
+                                  ensure_ascii=False), encoding="utf-8")
+        print(f"wrote {out}")
+        if "--page" in sys.argv:  # the shareable page (published as an artifact): the template with the data inlined
+            page = Path(sys.argv[sys.argv.index("--page") + 1])
+            tpl = (Path(__file__).with_name("source_status_page.html")).read_text(encoding="utf-8")
+            page.write_text(tpl.replace("__DATA__", out.read_text(encoding="utf-8").replace("</", "<\\/")),
+                            encoding="utf-8")
+            print(f"wrote {page}")
     print(f"wrote {OUT.relative_to(C.PG)}: {len(held)} held, {len(pointers)} pointers, {len(no_group)} in no group")
 
 

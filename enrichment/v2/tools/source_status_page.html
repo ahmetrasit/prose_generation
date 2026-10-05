@@ -1,0 +1,211 @@
+<title>Enrichment Corpus Holdings</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,650&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a librarian's ledger — one column of reading text over wide, scannable tables; tabs for the four lists. */
+:root {
+  --bg: #f4f7f6; --surface: #ffffff; --fg: #18211f; --muted: #5a6866; --line: #d6dfdc; --accent: #12606a;
+  --accent-soft: #e2efee; --ok: #2f6b4f; --ok-soft: #e3f1e9; --warn: #8a5a00; --warn-soft: #fbefd6;
+  --mach: #4b4fa8; --mach-soft: #e9eafb; --ptr: #6b6f74; --ptr-soft: #eceeef;
+  --display: "Literata", Georgia, "Times New Roman", serif;
+  --body: "Public Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #111816; --surface: #18211f; --fg: #e6eeec; --muted: #9db0ac; --line: #2c3a37; --accent: #6cc3cb;
+  --accent-soft: #19353a; --ok: #8fd3ad; --ok-soft: #173326; --warn: #f0c060; --warn-soft: #3a2c0d;
+  --mach: #aeb2ff; --mach-soft: #262a52; --ptr: #b5bbc0; --ptr-soft: #2a3033; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #111816; --surface: #18211f; --fg: #e6eeec; --muted: #9db0ac; --line: #2c3a37; --accent: #6cc3cb;
+  --accent-soft: #19353a; --ok: #8fd3ad; --ok-soft: #173326; --warn: #f0c060; --warn-soft: #3a2c0d;
+  --mach: #aeb2ff; --mach-soft: #262a52; --ptr: #b5bbc0; --ptr-soft: #2a3033; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font: 15px/1.55 var(--body); }
+.wrap { max-width: 1180px; margin: 0 auto; padding-inline: 20px; padding-block: 28px 56px; display: grid; gap: 22px; }
+header { display: grid; gap: 8px; }
+.eyebrow { font: 500 12px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+h1 { font: 650 clamp(28px, 4vw, 40px)/1.12 var(--display); margin: 0; text-wrap: balance; }
+.lede { max-width: 68ch; color: var(--muted); margin: 0; }
+.figures { display: flex; flex-wrap: wrap; gap: 10px 28px; padding-block: 6px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.fig { display: grid; gap: 2px; min-width: 120px; }
+.fig b { font: 650 22px/1.2 var(--display); font-variant-numeric: tabular-nums; }
+.fig span { font-size: 12.5px; color: var(--muted); }
+nav.tabs { display: flex; flex-wrap: wrap; gap: 6px; }
+nav.tabs button { font: 500 14px var(--body); color: var(--fg); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; cursor: pointer; }
+nav.tabs button[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+nav.tabs button:focus-visible, .chip:focus-visible, input:focus-visible, select:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.panel { display: grid; gap: 14px; min-width: 0; }
+.panel h2 { font: 650 20px/1.25 var(--display); margin: 0; }
+.panel p.note { margin: 0; color: var(--muted); max-width: 75ch; }
+.filters { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; }
+.filters input, .filters select { font: 14px var(--body); color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 7px 10px; }
+.filters input { flex: 1 1 220px; min-width: 0; }
+.chip { font: 500 13px var(--body); border: 1px solid var(--line); background: var(--surface); color: var(--fg); border-radius: 999px; padding: 5px 11px; cursor: pointer; display: inline-flex; gap: 6px; align-items: center; }
+.chip[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); }
+.count { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
+.tablebox { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
+table { border-collapse: collapse; width: 100%; min-width: 860px; font-size: 13.5px; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font: 600 12px var(--body); color: var(--muted); letter-spacing: .03em; text-transform: uppercase; position: sticky; top: 0; background: var(--surface); }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr:last-child td { border-bottom: 0; }
+code, .id { font: 500 12.5px var(--mono); }
+.id { color: var(--accent); white-space: nowrap; }
+.work { min-width: 260px; }
+.work .t { display: block; }
+.work .a { color: var(--muted); font-size: 12.5px; }
+details summary { cursor: pointer; color: var(--muted); font-size: 12.5px; margin-top: 3px; }
+details p { margin: 6px 0 0; font-size: 12.5px; color: var(--muted); max-width: 70ch; }
+.pill { display: inline-block; font: 600 11.5px var(--body); padding: 2px 8px; border-radius: 999px; white-space: nowrap; }
+.s-edition { color: var(--ok); background: var(--ok-soft); }
+.s-machine { color: var(--mach); background: var(--mach-soft); }
+.s-unchecked { color: var(--warn); background: var(--warn-soft); }
+.s-pointer { color: var(--ptr); background: var(--ptr-soft); }
+.grp { font: 500 12px var(--mono); color: var(--fg); background: var(--accent-soft); border-radius: 4px; padding: 1px 6px; margin: 0 4px 3px 0; display: inline-block; }
+.new { font: 600 10.5px var(--body); color: var(--accent); letter-spacing: .04em; text-transform: uppercase; margin-left: 6px; }
+.legend { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 10px 18px; font-size: 13px; color: var(--muted); }
+.legend div { display: grid; gap: 4px; }
+.groups { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
+.g { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; display: grid; gap: 6px; min-width: 0; }
+.g h3 { margin: 0; font: 600 14px var(--mono); color: var(--accent); display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.g h3 small { font: 500 11.5px var(--body); color: var(--muted); }
+.g p { margin: 0; font-size: 13px; color: var(--muted); }
+.g .srcs { font: 12px var(--mono); color: var(--fg); overflow-wrap: anywhere; }
+.req { color: var(--warn); font: 600 11px var(--body); text-transform: uppercase; letter-spacing: .05em; }
+footer { color: var(--muted); font-size: 12.5px; border-top: 1px solid var(--line); padding-top: 12px; }
+@media (prefers-reduced-motion: no-preference) { nav.tabs button, .chip { transition: background .15s, border-color .15s; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Qurʾān enrichment · corpus</div>
+    <h1>Enrichment Corpus Holdings</h1>
+    <p class="lede">Every source the enrichment agents can read, how its text was made, which reading group claims it, and the works we looked for and do not hold. Generated <span id="gen"></span> from the source records, the search index and the group plan.</p>
+    <div class="figures" id="figs"></div>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Lists">
+    <button role="tab" id="t-held" aria-controls="held" aria-selected="true">Held as text</button>
+    <button role="tab" id="t-pointers" aria-controls="pointers" aria-selected="false">Pointers only</button>
+    <button role="tab" id="t-missing" aria-controls="missing" aria-selected="false">Not held</button>
+    <button role="tab" id="t-groups" aria-controls="groups" aria-selected="false">Reading groups</button>
+  </nav>
+
+  <section class="panel" id="held" role="tabpanel" aria-labelledby="t-held">
+    <div class="legend">
+      <div><span class="pill s-edition">edition text</span>Born-digital or an earlier vetted import. Quotable after the usual check.</div>
+      <div><span class="pill s-machine">machine-read</span>OCR of a scan or verses aligned by machine. Read for content, quote with care.</div>
+      <div><span class="pill s-unchecked">unchecked</span>A typed digital edition (Shamela) or an OCR draft not yet checked against the print. Never quote unverified.</div>
+    </div>
+    <div class="filters">
+      <label class="sr" for="q" hidden>Search</label>
+      <input id="q" type="search" placeholder="Search ID, author, title, tradition" autocomplete="off">
+      <select id="kind" aria-label="Kind"><option value="">All kinds</option></select>
+      <select id="group" aria-label="Group"><option value="">All groups</option></select>
+      <span id="chips"></span>
+      <button class="chip" id="only-new" aria-pressed="false">Imported 2026-10-05</button>
+      <span class="count" id="count"></span>
+    </div>
+    <div class="tablebox"><table>
+      <thead><tr><th>Source</th><th>Work</th><th>Kind</th><th class="num">Segments</th><th class="num">Tied to ayat</th><th class="num">Citing ayat</th><th>Text</th><th>Group</th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table></div>
+  </section>
+
+  <section class="panel" id="pointers" role="tabpanel" aria-labelledby="t-pointers" hidden>
+    <h2>Pointers only</h2>
+    <p class="note">Registered sources with no text in the index. An agent that cites one is citing from memory, and the record must say so. Most have scans waiting for OCR (OCR_NEEDED.md).</p>
+    <div class="tablebox"><table>
+      <thead><tr><th>Source</th><th>Work</th><th>Kind</th><th>Why no text</th><th>Group</th></tr></thead>
+      <tbody id="prow"></tbody>
+    </table></div>
+  </section>
+
+  <section class="panel" id="missing" role="tabpanel" aria-labelledby="t-missing" hidden>
+    <h2>Looked for, not held</h2>
+    <p class="note">Works searched for on 2026-10-05 (archive.org, Shamela, Hindawi, OpenITI, publisher listings) that we hold only in part or not at all, with what would unblock each.</p>
+    <div class="tablebox"><table>
+      <thead><tr><th>Work</th><th>Corpus ID</th><th>Where it stands</th></tr></thead>
+      <tbody id="mrow"></tbody>
+    </table></div>
+  </section>
+
+  <section class="panel" id="groups" role="tabpanel" aria-labelledby="t-groups" hidden>
+    <h2>Reading groups</h2>
+    <p class="note">The hybrid workflow reads by group: one small agent unit per group and surah (or ayah), so every source is read without any one agent carrying the whole corpus. <em>ayah</em>: segments tied to the ayah. <em>root</em>: lexicon entries of the ayah's roots. <em>search</em>: hits of scripted searches. <em>cites</em>: segments that cite the ayah. Required groups must be heard on every page.</p>
+    <div class="groups" id="gcards"></div>
+  </section>
+
+  <footer>Source: <code>enrichment/v2/SOURCES_STATUS.md</code>, generated by <code>enrichment/v2/tools/source_status.py</code>. Characters and segments count the searchable index; a source's own record (<code>source.json</code>) carries its full provenance, repairs and misses.</footer>
+</div>
+
+<script>
+const DATA = __DATA__;
+const $ = (s) => document.querySelector(s);
+const fmt = (n) => Number(n || 0).toLocaleString("en-US");
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const CLS = { "edition text": "s-edition", "machine-read": "s-machine", "unchecked": "s-unchecked", "pointer": "s-pointer" };
+const held = DATA.sources.filter((s) => s.status !== "pointer");
+const ptrs = DATA.sources.filter((s) => s.status === "pointer");
+$("#gen").textContent = DATA.date;
+
+const figs = [
+  [fmt(held.length), "sources held as text"],
+  [fmt(held.reduce((a, s) => a + s.segments, 0)), "searchable segments"],
+  [fmt(held.filter((s) => s.imported).length), "imported 2026-10-05"],
+  [fmt(ptrs.length), "pointers without text"],
+  [fmt(DATA.not_held.length), "searches not held"],
+  [fmt(DATA.groups.length), "reading groups"],
+];
+$("#figs").innerHTML = figs.map(([b, t]) => `<div class="fig"><b>${b}</b><span>${t}</span></div>`).join("");
+
+const kinds = [...new Set(held.map((s) => s.kind))].sort();
+$("#kind").innerHTML += kinds.map((k) => `<option value="${esc(k)}">${esc(k)}</option>`).join("");
+$("#group").innerHTML += DATA.groups.map((g) => `<option value="${esc(g.id)}">${esc(g.id)}</option>`).join("") + `<option value="meal (by kind)">meal (by kind)</option>`;
+const STATUSES = ["edition text", "machine-read", "unchecked"];
+const active = new Set(STATUSES);
+$("#chips").innerHTML = STATUSES.map((s) => `<button class="chip" data-s="${s}" aria-pressed="true"><span class="pill ${CLS[s]}">${s}</span></button>`).join(" ");
+
+let onlyNew = false;
+function render() {
+  const q = $("#q").value.trim().toLowerCase();
+  const k = $("#kind").value, g = $("#group").value;
+  const rows = held.filter((s) => active.has(s.status) && (!k || s.kind === k) && (!g || s.groups.includes(g)) && (!onlyNew || s.imported)
+    && (!q || [s.id, s.author, s.title, s.tradition, s.lang].join(" ").toLowerCase().includes(q)));
+  $("#count").textContent = `${rows.length} of ${held.length}`;
+  $("#rows").innerHTML = rows.map((s) => `<tr>
+      <td><span class="id">${esc(s.id)}</span>${s.imported ? '<span class="new">new</span>' : ""}</td>
+      <td class="work"><span class="t">${esc(s.title)}</span><span class="a">${esc(s.author)}${s.tradition ? " · " + esc(s.tradition) : ""}${s.lang ? " · " + esc(s.lang) : ""}</span>
+        ${(s.notes || s.status_text) ? `<details><summary>Notes</summary>${s.status_text ? `<p><strong>Text:</strong> ${esc(s.status_text)}</p>` : ""}${s.notes ? `<p>${esc(s.notes)}</p>` : ""}</details>` : ""}</td>
+      <td>${esc(s.kind)}</td>
+      <td class="num">${fmt(s.segments)}</td><td class="num">${fmt(s.tied)}</td><td class="num">${fmt(s.cites)}</td>
+      <td><span class="pill ${CLS[s.status]}">${esc(s.status)}</span></td>
+      <td>${s.groups.map((x) => `<span class="grp">${esc(x)}</span>`).join("") || "—"}</td></tr>`).join("")
+    || `<tr><td colspan="8">No source matches these filters. Clear the search or turn a status back on.</td></tr>`;
+}
+$("#q").addEventListener("input", render);
+$("#kind").addEventListener("change", render);
+$("#group").addEventListener("change", render);
+$("#chips").addEventListener("click", (e) => {
+  const b = e.target.closest("[data-s]"); if (!b) return;
+  const s = b.dataset.s; active.has(s) ? active.delete(s) : active.add(s);
+  b.setAttribute("aria-pressed", String(active.has(s))); render();
+});
+$("#only-new").addEventListener("click", (e) => { onlyNew = !onlyNew; e.currentTarget.setAttribute("aria-pressed", String(onlyNew)); render(); });
+
+$("#prow").innerHTML = ptrs.map((s) => `<tr><td><span class="id">${esc(s.id)}</span></td>
+  <td class="work"><span class="t">${esc(s.title)}</span><span class="a">${esc(s.author)}</span></td><td>${esc(s.kind)}</td>
+  <td>${esc(s.id === "KHULI" ? "Scan held; deferred by decision (OCR below preservation quality); method covered by secondary studies" : (s.acq === "raw_downloaded" ? "Scan downloaded, no usable text layer: waits for OCR" : "Not acquired"))}</td>
+  <td>${s.groups.map((x) => `<span class="grp">${esc(x)}</span>`).join("") || "—"}</td></tr>`).join("");
+$("#mrow").innerHTML = DATA.not_held.map((m) => `<tr><td class="work">${esc(m.work)}</td><td><code>${esc(m.id)}</code></td><td>${esc(m.where)}</td></tr>`).join("");
+$("#gcards").innerHTML = DATA.groups.map((g) => `<div class="g"><h3>${esc(g.id)} <small>${esc(g.material)}${g.sources.length ? " · " + g.sources.length + " sources" : ""}</small>${g.required ? '<span class="req">required</span>' : ""}</h3>
+  <p>${esc(g.odak)}</p><div class="srcs">${esc(g.sources.join(", ") || (g.id === "meal" ? "all meals and translations (by kind)" : "the agent searches itself"))}</div></div>`).join("");
+
+const TABS = ["held", "pointers", "missing", "groups"];
+function show(id) {
+  TABS.forEach((t) => { $("#" + t).hidden = t !== id; $("#t-" + t).setAttribute("aria-selected", String(t === id)); });
+}
+TABS.forEach((t) => $("#t-" + t).addEventListener("click", () => { show(t); try { history.replaceState(null, "", "#" + t); } catch (e) {} }));
+show(TABS.includes(location.hash.slice(1)) ? location.hash.slice(1) : "held");
+render();
+</script>
