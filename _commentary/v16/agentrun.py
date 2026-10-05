@@ -33,12 +33,19 @@ MISSING = HERE / "missing.py"
 RATES = {"claude-opus-5-5": {"input": 8.0, "cache_5m": 10.0, "cache_1h": 8.15, "cache_read": 0.17, "output": 20.0},
          "claude-fable-5-1": {"input": 10.0, "cache_5m": 12.5, "cache_1h": 20.0, "cache_read": 0.25, "output": 50.0},
          "claude-sonnet-5-5": {"input": 4.0, "cache_5m": 5.0, "cache_1h": 4.1, "cache_read": 0.085, "output": 10.0}}
-AGENT_TYPE = {"writer": "v16-call", "augment": "v16-call", "enrich": "enrich-page"}
+AGENT_TYPE = {"writer": "v16-call", "augment": "v16-call", "enrich": "enrich-page", "enrich-dosya": "enrich-page"}
 
 
 def spawn_prompt(d: Path, kind: str, output: str, lookup: bool) -> str:
     """The text the orchestrator gives the Agent tool, verbatim."""
     lines = [f"{MARK} {d}", ""]
+    if kind == "enrich-dosya":
+        lines += [f"Read {d / 'prompt.md'} with the Read tool, completely: it is long, so read it in parts with offset and "
+                  "limit until you have seen the last line; it is your whole job and all your material. Follow it exactly.",
+                  f"Use no other tool and run no command: everything you need is in that file. Then write the records to "
+                  f"{d / output} with the Write tool, in one write, and gaps.json beside it; nothing else.",
+                  "When the files are written, reply with one line: written. Do not put the records in your reply."]
+        return "\n".join(lines) + "\n"
     if kind == "enrich":
         lines += [f"Read {d / 'prompt.md'} with the Read tool: it is your whole job. Follow it exactly. Your call "
                   f"directory is {d}; write only there, and write the page's records to {d / output} as the job says.",

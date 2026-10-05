@@ -67,6 +67,7 @@ TIMEOUT = 8 * 3600    # seconds per call; a call past it is killed and logged as
 CLAUDE_TOOLS = "Bash,Read,Write,Edit,Glob,Grep"
 BRIEF = "zengin"          # the Islamic pass; --pass ehlikitap sets "ehlikitap" (the Bible layers, user 2026-10-04)
 GELENEK = {"zengin": "islami", "ehlikitap": "ehlikitap"}
+MODE = "agent"  # "dosya": one tool-free call on a script-built dossier (dossier.py), user 2026-10-04 evening
 SESSIONS = Path.home() / ".codex" / "sessions"
 
 sys.path.insert(0, str(V2))
@@ -100,7 +101,7 @@ def tag(target: str) -> str:
 
 def call_dir(s: int, target: str, attempt: int = 1, model: str = DEFAULT_MODEL, effort: str = EFFORT) -> Path:
     # the bare directory belongs to astra at the default effort (S107's first surah call, astra max, also sits there)
-    name = f"{BRIEF}.{tag(target)}" + ("" if (model, effort) == (DEFAULT_MODEL, EFFORT) else f".{model}.{effort}")
+    name = f"{BRIEF}{'-dosya' if MODE == 'dosya' else ''}.{tag(target)}" + ("" if (model, effort) == (DEFAULT_MODEL, EFFORT) else f".{model}.{effort}")
     return wd(s) / (name if attempt == 1 else f"{name}.a{attempt}")
 
 
@@ -160,7 +161,7 @@ def estimate(s: int, target: str, model: str, effort: str) -> str:
     the base's word count (the surah pages ran $0.67–0.98 per 1k base words with Opus high)."""
     if MODELS[model][0] != "claude":
         return "subscription (no USD)"
-    kind = "surah" if target == "surah" else "ayah"
+    kind = ("surah" if target == "surah" else "ayah") + ("-dosya" if MODE == "dosya" else "")
     rates, failed, bad = [], [], 0
     for line in (LEDGER.read_text(encoding="utf-8").splitlines() if LEDGER.exists() else []):
         try:
@@ -169,7 +170,7 @@ def estimate(s: int, target: str, model: str, effort: str) -> str:
             bad += 1
             continue
         if not (r.get("cost_usd") and (r.get("model"), r.get("effort")) == (model, effort)
-                and ("surah" if r.get("target") == "surah" else "ayah") == kind):
+                and ("surah" if r.get("target") == "surah" else "ayah") + ("-dosya" if r.get("mode") == "dosya" else "") == kind):
             continue
         if r.get("status") != "ok":
             failed.append(r["cost_usd"])
@@ -219,6 +220,15 @@ def header(s: int, target: str, d: Path, runner: str = "codex") -> str:
 
 
 def build_prompt(s: int, target: str, d: Path, runner: str = "codex") -> str:
+    if MODE == "dosya":  # tool-free: the job, the core, the brief, then the dossier (schema card inside it)
+        if target == "surah":
+            raise SystemExit("the dosya mode is for ayah pages")
+        import dossier as DO
+        df = DO.build(s, target, 3000, 24000)
+        head = "\n".join(["# Job", "", f"- Surah: {s}; ids use S{s:03d}", f"- Target: {target} — the ayah page (base in the dossier)",
+                           f"- Your call directory (write only here): {d}", "- Mode: dosya (no tools; everything is in this message)"]) + "\n"
+        return "\n\n".join([head, (PROMPTS / "common.md").read_text(encoding="utf-8"),
+                            (PROMPTS / "zengin_dosya.md").read_text(encoding="utf-8"), df.read_text(encoding="utf-8")])
     return "\n\n".join([header(s, target, d, runner), (PROMPTS / "common.md").read_text(encoding="utf-8"),
                         (PROMPTS / f"{BRIEF}.md").read_text(encoding="utf-8")])
 
@@ -506,7 +516,8 @@ def spawn_target(s: int, target: str, model: str, effort: str, attempt: int = 1,
            "runner": "agent", "effort": effort, "trial": trial, "prompt_sha256": sha(prompt), "prompt_chars": len(prompt),
            "base_sha256": info["sha256"], "base_words": len(base_text.split()),
            "pack_sha256": hashlib.sha256(pack_bytes).hexdigest(), "dictionary": json.loads(pack_bytes).get("dictionary")}
-    AR.prepare(d, prompt, row, "enrich", "annotations.jsonl", lookup=False)
+    row["mode"] = MODE
+    AR.prepare(d, prompt, row, "enrich-dosya" if MODE == "dosya" else "enrich", "annotations.jsonl", lookup=False)
     return {"surah": s, "target": target, "model": model, "status": "prepared", "dir": rel(d),
             "spawn": rel(d / "spawn.md"), "agent": AR.AGENT_TYPE["enrich"]}
 
@@ -702,11 +713,14 @@ def main() -> None:
     ap.add_argument("--trial", action="store_true", help="render in the call directory only; no out/, no errata")
     ap.add_argument("--parallel", type=int, default=2)
     ap.add_argument("--dir", help="confirm-dead: the call directory name (e.g. zengin.surah.opus.high)")
+    ap.add_argument("--mode", choices=("agent", "dosya"), default="agent",
+                    help="dosya: one tool-free call on a script-built dossier (ayah pages; call dir zengin-dosya.<page>…)")
     ap.add_argument("--pass", dest="pass_", choices=("zengin", "ehlikitap"), default="zengin",
                     help="ehlikitap: the Bible pass (its own call dirs, pages <page>.ehlikitap.md, the intertext index)")
     a = ap.parse_args()
-    global BRIEF
+    global BRIEF, MODE
     BRIEF = a.pass_
+    MODE = a.mode
     ss = surahs(a.surahs) if a.surahs else [a.surah]
     if None in ss:
         ap.error("--surah or --surahs")
