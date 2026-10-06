@@ -1,5 +1,7 @@
 # Ayah enrichment v3: lean rewrite plan
 
+Current family-memory execution follows the [user-approved 2026-10-06 decision](MEMORY_WORKFLOW_DECISION.md): 19 independent Astra agents, ten max and nine high, using training memory only with no web or repository search. That decision takes precedence over this earlier corpus-retrieval plan for family-memory assignments.
+
 Status: the 1:6 pilot is in progress in independent Sol max and Astra xhigh tracks. Current work is retained under the user's no-restart instruction; the original-language rule applies to subsequent assignments and final consolidation. Earlier superseded outputs remain excluded; their incurred cost remains separate. Shared helpers retrieve material and report native usage; they do not spawn agents. A general batch runner is not implemented. Input: v16 r13 plus existing augment9 when available; otherwise bare r13. Enrichment does not rerun augmentation.
 
 Execution preference: Standard only; Fast is forbidden. Manual CLI launches explicitly set `service_tier="default"` and `features.fast_mode=false`.

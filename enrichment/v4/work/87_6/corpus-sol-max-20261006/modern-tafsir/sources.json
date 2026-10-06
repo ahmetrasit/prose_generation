@@ -1,0 +1,71 @@
+{
+  "family": "modern-tafsir",
+  "sources": [
+    {
+      "id": "IBNASHUR",
+      "author": "Ibn ʿĀshūr",
+      "title": "al-Taḥrīr wa-l-tanwīr",
+      "language": "ar",
+      "edition": "quran-tafsir.net per-ayah pages (div.nass)",
+      "segments": 296,
+      "usable": true,
+      "limitation": "",
+      "source_notes": "Per-ayah slice for the surahs in coverage. The page for an ayah can open with the surah introduction. Whole-book text, where fetched, is a separate source (<ID>-FULL)."
+    },
+    {
+      "id": "IBNASHUR-FULL",
+      "author": "Ibn ʿĀshūr",
+      "title": "al-Taḥrīr wa-l-tanwīr",
+      "language": "ar",
+      "edition": "تونس :: 1997م :: دار سحنون للنشر والتوزيع",
+      "segments": 11136,
+      "usable": true,
+      "limitation": "",
+      "source_notes": "Dār Saḥnūn ed. 1997. s/a assignment: 11047/11136 segments carry a surah, 8958/11136 an ayah (582 from explicit headings). Spot-check: 10/10 correct; ~20% of segments (introduction, long excursuses) carry no ayah. Quality: good."
+    },
+    {
+      "id": "QUTB-ZILAL",
+      "author": "Sayyid Quṭb",
+      "title": "Fī ẓilāl al-Qurʾān",
+      "language": "ar",
+      "edition": "quran-tafsir.net, slug 'qotb'",
+      "segments": 312,
+      "usable": true,
+      "limitation": "",
+      "source_notes": "Copyrighted modern work. quran-tafsir.net serves it openly per ayah (slug 'qotb'); only S1 and 86-114 were fetched. OpenITI also has 1386SayyidQutb.FiZilalQuran.Tafsir07053-ara1 (446,925 chars, i.e. a small part of the book) — not fetched. Pages fetched ok: 312/312; consecutive identical pages (one passage served under each ayah of a verse group) are stored once as a..a_end."
+    },
+    {
+      "id": "ABDUH-AMMA",
+      "author": "Muḥammad ʿAbduh",
+      "title": "Tafsīr al-Qurʾān al-karīm: Juzʾ ʿAmma",
+      "language": "ar",
+      "edition": "not held locally",
+      "segments": 0,
+      "usable": false,
+      "limitation": "No locally held corpus text; memory fallback forbidden.",
+      "source_notes": "Not in OpenITI (RELEASE 2025-1-9 has only Risālat al-tawḥīd and the Nahj al-balāgha commentary by ʿAbduh), and not on quran-tafsir.net's book list. First printed Cairo 1322/1904 (al-Manār); the author died 1905, so the text is out of copyright, but no free digital text was located in this pass (archive.org search 2026-10-03: no matching item). shamela.ws search answered HTTP 403 to a scripted request (2026-10-03), so Shamela availability is not verified."
+    },
+    {
+      "id": "STUDYQURAN",
+      "author": "Seyyed Hossein Nasr (ed.-in-chief), Caner K. Dagli, Maria Massi Dakake, Joseph E. B. Lumbard, Mohammed Rustom",
+      "title": "The Study Quran: A New Translation and Commentary",
+      "language": "en",
+      "edition": "HarperOne 2015, PDF of 4,664 pages",
+      "segments": 5967,
+      "usable": true,
+      "limitation": "",
+      "source_notes": "Ingested 2026-10-05 from the user's download (fetch/import_studyquran.py). S:A is the commentary entry (verse quoted first); S:translation repeats the verses (duplicate: true). Commentator sigla (Ṭ = al-Ṭabarī, R = al-Rāzī, Bq = al-Biqāʿī …) are explained on the front-matter pages (Commentator Key)."
+    },
+    {
+      "id": "ASAD-NOTES",
+      "author": "Muhammad Asad",
+      "title": "The Message of the Qur'an - commentary notes",
+      "language": "en",
+      "edition": "islamicbulletin.org PDF typesetting of The Message of the Qur'an (Dar al-Andalus 1980 text), 1,326 PDF pages, all notes and the appendices",
+      "segments": 8374,
+      "usable": true,
+      "limitation": "",
+      "source_notes": "Ingested 2026-10-05 from the user's download (fetch/import_asad_notes.py). Note N of surah S is S:A#nN under its verse group S:A (`get S:A` returns the group and its notes); the note's tie is the verse whose text carries its marker. Translation markers are shown as [n]."
+    }
+  ]
+}

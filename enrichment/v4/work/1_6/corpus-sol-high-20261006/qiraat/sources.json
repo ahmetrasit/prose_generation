@@ -1,0 +1,71 @@
+{
+  "family": "qiraat",
+  "sources": [
+    {
+      "id": "QIRAAT-ER",
+      "author": "",
+      "title": "Qirāʾāt variants per word",
+      "language": "en",
+      "edition": "quran/_project_corpus/qiraat.tsv (from erquran.org)",
+      "segments": 3812,
+      "usable": true,
+      "limitation": "",
+      "source_notes": "Secondary, single source. Prefer Ibn Mujāhid / ḥujja works for claims."
+    },
+    {
+      "id": "IBNMUJAHID",
+      "author": "Ibn Mujāhid",
+      "title": "Kitāb al-Sabʿa fī al-qirāʾāt",
+      "language": "ar",
+      "edition": "شوقي ضيف :: مصر :: 1400هـ :: دار المعارف",
+      "segments": 390,
+      "usable": true,
+      "limitation": "",
+      "source_notes": "ed. Shawqī Ḍayf (Dār al-Maʿārif). s/a assignment: 347/390 segments carry a surah, 264/390 an ayah (0 from explicit headings). Spot-check: 8/10 correct, 2 off (2:97-98 filed 2:102; 28:34 filed 28:37); the uṣūl chapters inside S1-2 carry the surah only or the nearest farsh entry. Quality: partial."
+    },
+    {
+      "id": "IBNKHALAWAYH-HUJJA",
+      "author": "Ibn Khālawayh (attr.)",
+      "title": "al-Ḥujja fī al-qirāʾāt al-sabʿ",
+      "language": "ar",
+      "edition": "د. عبد العال سالم مكرم :: بيروت :: 1401 :: دار الشروق",
+      "segments": 484,
+      "usable": true,
+      "limitation": "",
+      "source_notes": "ed. ʿAbd al-ʿĀl Sālim Mukarram. The attribution to Ibn Khālawayh is disputed in the literature. s/a assignment: 483/484 segments carry a surah, 366/484 an ayah (0 from explicit headings). Spot-check: 9/10 correct, 1 off (19:25 filed 19:31). Surah boundaries come partly from running page titles. Quality: good."
+    },
+    {
+      "id": "FARISI-HUJJA",
+      "author": "Abū ʿAlī al-Fārisī",
+      "title": "al-Ḥujja li-l-qurrāʾ al-sabʿa",
+      "language": "ar",
+      "edition": "بدر الدين قهوجي - بشير جويجابي :: دار المأمون للتراث - دمشق / بيروت",
+      "segments": 2111,
+      "usable": true,
+      "limitation": "",
+      "source_notes": "ed. Badr al-Dīn Qahwajī / Bashīr Juwayjābī (Dār al-Maʾmūn). s/a assignment: 2108/2111 segments carry a surah, 1487/2111 an ayah (830 from explicit headings). Spot-check: 10/10 plausible (long grammatical excursuses are filed under the lemma that opened them); 70% of segments carry an ayah. Quality: partial."
+    },
+    {
+      "id": "IBNJINNI-MUHTASAB",
+      "author": "Ibn Jinnī",
+      "title": "al-Muḥtasab fī tabyīn wujūh shawādhdh al-qirāʾāt",
+      "language": "ar",
+      "edition": "وزارة الأوقاف-المجلس الأعلى للشئون الإسلامية",
+      "segments": 542,
+      "usable": true,
+      "limitation": "",
+      "source_notes": "s/a assignment: 506/542 segments carry a surah, 288/542 an ayah (0 from explicit headings). Spot-check: 10/10 plausible but only ~53% of segments carry an ayah (the lemmas are shādhdh readings that often do not match the canonical text). Quality: partial."
+    },
+    {
+      "id": "NASHR",
+      "author": "Ibn al-Jazarī",
+      "title": "al-Nashr fī al-qirāʾāt al-ʿashr",
+      "language": "ar",
+      "edition": "علي محمد الضباع (المتوفى 1380 هـ) :: المطبعة التجارية الكبرى [تصوير دار الكتاب العلمية]",
+      "segments": 995,
+      "usable": true,
+      "limitation": "",
+      "source_notes": "ed. al-Ḍabbāʿ. Vol. 1 is theory; vol. 2 (farsh) follows the muṣḥaf. s/a not assigned (book not in muṣḥaf order)."
+    }
+  ]
+}

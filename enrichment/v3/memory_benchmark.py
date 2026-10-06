@@ -30,7 +30,8 @@ def read_jsonl(path):
     return [json.loads(line) for line in path.read_text().splitlines() if line.strip()]
 
 
-def collect(sessions):
+def collect(sessions, prefix='/root/memory19_', lanes=None):
+    lanes = LANES if lanes is None else lanes
     records = []
     for file in sessions.glob('*.jsonl'):
         with file.open() as handle:
@@ -39,16 +40,18 @@ def collect(sessions):
             except (ValueError, OSError):
                 continue
             agent = metadata.get('agent_path', '')
-            if not agent.startswith('/root/memory19_'):
+            if not agent.startswith(prefix):
                 continue
-            lane = ('luna6-max' if agent.startswith('/root/memory19_luna_') else
-                    'astra-high' if agent.startswith('/root/memory19_astrahigh_') else
-                    'astra-max' if agent.startswith('/root/memory19_astra_') else
-                    'sol-max' if agent.startswith('/root/memory19_solmax_') else 'sol-high')
-            suffix = agent.split('/root/memory19_', 1)[1]
+            suffix = agent.split(prefix, 1)[1]
+            lane = ('luna6-max' if suffix.startswith('luna_') else
+                    'astra-high' if suffix.startswith('astrahigh_') else
+                    'astra-max' if suffix.startswith('astra_') else
+                    'sol-high' if suffix.startswith('solhigh_') else
+                    'sol-max' if suffix.startswith('solmax_') else 'sol-high')
             family = (suffix[5:] if suffix.startswith('luna_') else
                       suffix[10:] if suffix.startswith('astrahigh_') else
                       suffix[6:] if suffix.startswith('astra_') else
+                      suffix[8:] if suffix.startswith('solhigh_') else
                       suffix[7:] if suffix.startswith('solmax_') else suffix).replace('_', '-')
             model = effort = None
             usage = None
@@ -82,7 +85,7 @@ def collect(sessions):
                         policy_flags.append('search-tool reference in executed tool input')
                     if re.search(r'(?:cmd\s*:\s*[\"\x27]|\n|&&|;)\s*(?:rg|grep|find)\b|\.rglob\(|os\.walk\(', tool_input):
                         policy_flags.append('repository-search pattern in executed tool input')
-                    for other_lane, other_folder in LANES.items():
+                    for other_lane, other_folder in lanes.items():
                         if other_lane != lane and other_folder.name in tool_input:
                             policy_flags.append('other-lane path in executed tool input: ' + other_lane)
                 if row.get('type') == 'event_msg':
@@ -117,7 +120,7 @@ def collect(sessions):
             ) / 1_000_000, 6) if max_context_input <= 272000 else None
         else:
             record['standard_api_equivalent_usd'] = None
-        folder = LANES[lane] / family
+        folder = lanes[lane] / family
         blocks = read_jsonl(folder / 'blocks.jsonl')
         ledger = read_jsonl(folder / 'ledger.jsonl')
         record['blocks'] = len(blocks)
@@ -149,10 +152,10 @@ def main():
     OUTPUT.mkdir(exist_ok=True)
     report = {
         'updated_at': datetime.now(timezone.utc).isoformat(),
-        'scope': '19 independent family tasks each for Sol high/Luna max, four each for Astra max/Astra high/Sol max; native cumulative usage only, parent orchestration excluded',
+        'scope': '19 independent family tasks each for Sol high/Luna max/Astra max/Astra high, four for Sol max; native cumulative usage only, parent orchestration excluded',
         'accounting': 'Input includes cached input; output includes reasoning. Repeated contexts count at each call. Fresh agent contexts have no inherited parent usage.',
         'cost_basis': 'Standard API-equivalent rates per million: GPT-6 Sol input $2, cached $0.20, cache write $2.50, output $10; GPT-6 Luna $0.10/$0.01/$0.125/$0.50; GPT-6 Astra $10/$1/$12.50/$50. https://developers.openai.com/api/docs/pricing . Requests above 272K are not costed by this estimator. This is not an account billing report.',
-        'expected_agents_per_lane': {'sol-high': 19, 'luna6-max': 19, 'astra-max': 4, 'astra-high': 4, 'sol-max': 4},
+        'expected_agents_per_lane': {'sol-high': 19, 'luna6-max': 19, 'astra-max': 19, 'astra-high': 19, 'sol-max': 4},
         'totals': dict(totals), 'matched_families': sorted(MATCHED_FAMILIES),
         'matched_four_family_totals': dict(matched_totals), 'agents': records,
     }
@@ -176,7 +179,9 @@ def main():
               'The matched Luna/Sol spot comparison is in [LUNA_SOL_SPOT_COMPARISON.md](LUNA_SOL_SPOT_COMPARISON.md).', '',
               'The four-family Sol effort comparison is in [SOL_EFFORT_COMPARISON.md](SOL_EFFORT_COMPARISON.md).', '',
               'The Astra spot comparison is in [ASTRA_SPOT_COMPARISON.md](ASTRA_SPOT_COMPARISON.md).', '',
-              'The Astra high/max comparison is in [ASTRA_EFFORT_COMPARISON.md](ASTRA_EFFORT_COMPARISON.md).', '',
+              'The Astra high/max comparison is in [ASTRA_EFFORT_COMPARISON.md](ASTRA_EFFORT_COMPARISON.md), with the detailed paragraph review in [ASTRA_DEEP_COMPARISON.md](ASTRA_DEEP_COMPARISON.md). These reviews concern the original four matched families.', '',
+              'The completed 19-family review and effort recommendations are in [ASTRA_19_FAMILY_COMPARISON.md](ASTRA_19_FAMILY_COMPARISON.md).', '',
+              'S87 frozen paragraph counts are in [S87_PARAGRAPH_COUNTS.md](S87_PARAGRAPH_COUNTS.md).', '',
               'The first three Sol tasks needed a path clarification; their extra calls remain included. Agents received the complete page in four separate deliveries. Common instructions and runtime context repeat across calls. Agent count or block count alone does not establish quality or efficiency.', '']
     lines += ['## Matched four-family comparison', '',
               'Bayani, classical coherence, meal, and hadith; one run per family per lane. Sol high versus Sol max and Astra high versus Astra max change reasoning effort within each model. Other lane comparisons also change the model. Fresh contexts received byte-identical prose and source rosters; outputs were kept separate.', '',

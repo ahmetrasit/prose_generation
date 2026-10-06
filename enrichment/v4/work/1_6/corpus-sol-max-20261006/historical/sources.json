@@ -1,0 +1,104 @@
+{
+  "family": "historical",
+  "sources": [
+    {
+      "id": "WAHIDI-ASBAB",
+      "author": "al-Wāḥidī",
+      "title": "Asbāb nuzūl al-Qurʾān",
+      "language": "ar",
+      "edition": "عصام بن عبد المحسن الحميدان :: دار الإصلاح - الدمام",
+      "segments": 372,
+      "usable": true,
+      "limitation": "",
+      "source_notes": "ed. ʿIṣām al-Ḥumaydān (Dār al-Iṣlāḥ, Dammam). s/a assignment: 363/372 segments carry a surah, 329/372 an ayah (0 from explicit headings). Spot-check: 10/10 correct. Quality: good."
+    },
+    {
+      "id": "SUYUTI-LUBAB",
+      "author": "al-Suyūṭī",
+      "title": "Lubāb al-nuqūl fī asbāb al-nuzūl",
+      "language": "ar",
+      "edition": "بيروت :: دار إحياء العلوم",
+      "segments": 316,
+      "usable": true,
+      "limitation": "",
+      "source_notes": "s/a assignment: 313/316 segments carry a surah, 296/316 an ayah (0 from explicit headings). Spot-check: 9/10 correct; 1 segment opens with material on 76:8 but is filed at 76:20. Quality: good."
+    },
+    {
+      "id": "ITQAN",
+      "author": "al-Suyūṭī",
+      "title": "al-Itqān fī ʿulūm al-Qurʾān",
+      "language": "ar",
+      "edition": "سعيد المندوب :: لبنان :: 1416هـ- 1996م :: دار الفكر",
+      "segments": 1437,
+      "usable": true,
+      "limitation": "",
+      "source_notes": "ed. Saʿīd al-Mandūb (Dār al-Fikr 1996). s/a not assigned (book not in muṣḥaf order)."
+    },
+    {
+      "id": "BURHAN",
+      "author": "al-Zarkashī",
+      "title": "al-Burhān fī ʿulūm al-Qurʾān",
+      "language": "ar",
+      "edition": "محمد أبو الفضل إبراهيم :: بيروت :: 1391 :: دار المعرفة",
+      "segments": 1273,
+      "usable": true,
+      "limitation": "",
+      "source_notes": "ed. M. Abū l-Faḍl Ibrāhīm (Dār al-Maʿrifa). s/a not assigned (book not in muṣḥaf order)."
+    },
+    {
+      "id": "CORPUSCORANICUM",
+      "author": "Nicolai Sinai (Frühmekkanische Suren), with Nora K. Schmid, using preparatory work by Angelika Neuwirth; later parts Dirk Hartwig, Angelika Neuwirth et al. (author line per sura in segments)",
+      "title": "Corpus Coranicum — Chronologisch-literaturwissenschaftlicher Kommentar zum Koran",
+      "language": "de",
+      "edition": "online beta ('Betaversion: Stand <date>') served by api.corpuscoranicum.de",
+      "segments": 430,
+      "usable": true,
+      "limitation": "",
+      "source_notes": "seg CORPUSCORANICUM:<s>:<section> for sura-level sections (datierung = Neuwirth/Nöldeke period, e.g. 'Mekka I'; literarkritik; aufbau = structure; structure = verse table with rhyme and verse groups) and CORPUSCORANICUM:<s>:<a>[-<a_end>]:<anmerkung|kommentar>[#k] for verse notes. Methodological boilerplate (comment_title) is not segmented. CAVEAT: the commentary text itself sometimes quotes Biblical / Late Antique parallels (e.g. Mt 6:5 at 107:4-7); the structured intertext database is kept separately. Suras without commentary return nothing (see available_suras). Intertexts are NOT here: see CORPUSCORANICUM-INTERTEXT."
+    },
+    {
+      "id": "TDVIA",
+      "author": "various (signed articles; authors recorded per segment)",
+      "title": "TDV İslâm Ansiklopedisi",
+      "language": "tr",
+      "edition": "online edition of the 44-vol. print encyclopaedia (1988–2013) + Ek 1–2 (2016); volume/page/year per article as printed on the site",
+      "segments": 76,
+      "usable": true,
+      "limitation": "",
+      "source_notes": "seg TDVIA:<slug>#<part>. Fields per segment: url, title, authors, printed (the site's 'Bu madde ... cildinde ... sayfalarda yer almıştır' line), vol, pages, year, pdf, cite. Surah articles carry s. Bibliography of each part is kept at the end of its text after 'BİBLİYOGRAFYA'."
+    },
+    {
+      "id": "IBNHISHAM",
+      "author": "Ibn Hishām",
+      "title": "al-Sīra al-nabawiyya",
+      "language": "ar",
+      "edition": "مصطفى السقا وإبراهيم الأبياري وعبد الحفيظ الشلبي :: شركة مكتبة ومطبعة مصطفى البابي الحلبي وأولاده بمصر",
+      "segments": 2307,
+      "usable": true,
+      "limitation": "",
+      "source_notes": "ed. al-Saqqā / al-Abyārī / Shalabī (al-Ḥalabī). s/a not assigned (book not in muṣḥaf order)."
+    },
+    {
+      "id": "AZRAQI",
+      "author": "al-Azraqī",
+      "title": "Akhbār Makka",
+      "language": "ar",
+      "edition": "http://www.worldcat.org/oclc/1103724126 :: رشدي الصالح ملحس :: بيروت :: 1996م- 1416هـ :: دار الأندلس للنشر",
+      "segments": 651,
+      "usable": true,
+      "limitation": "",
+      "source_notes": "ed. Rushdī al-Ṣāliḥ Malḥas. s/a not assigned (book not in muṣḥaf order)."
+    },
+    {
+      "id": "KALBI-ASNAM",
+      "author": "Hishām b. al-Kalbī",
+      "title": "Kitāb al-Aṣnām",
+      "language": "ar",
+      "edition": "أحمد زكي باشا :: القاهرة :: 2000م :: دار الكتب المصرية",
+      "segments": 22,
+      "usable": true,
+      "limitation": "",
+      "source_notes": "ed. Aḥmad Zakī Bāshā. s/a not assigned (book not in muṣḥaf order)."
+    }
+  ]
+}

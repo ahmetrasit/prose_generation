@@ -1,0 +1,38 @@
+{
+  "family": "modern-coherence",
+  "sources": [
+    {
+      "id": "ISLAHI-TADABBUR",
+      "author": "Amin Ahsan Islahi (d. 1997)",
+      "title": "Tadabbur-i Qurʾān",
+      "language": "ur",
+      "edition": "A. A. Iṣlāḥī, Tadabbur-i Qurʾān, English translation (M. S. Kayani et al.), the PDF files with a text layer: surahs 6–8, 10–19 and vols 5–9",
+      "segments": 3688,
+      "usable": false,
+      "limitation": "Corpus notes identify held text as an English translation; Urdu original unavailable here.",
+      "source_notes": "Ingested 2026-10-05 from the user's download (fetch/import_pages.py ISLAHI-TADABBUR). English only; the Arabic quotations' text layer is often scrambled (presentation forms, control characters). Not yet imported: surah 9 (no text layer) and surahs 1–5 (Urdu vols 1–2): OCR_NEEDED.md."
+    },
+    {
+      "id": "CUYPERS-COMPOSITION",
+      "author": "Michel Cuypers",
+      "title": "The Composition of the Qur'an: Rhetorical Analysis",
+      "language": "en",
+      "edition": "M. Cuypers, The Composition of the Qur'an: Rhetorical Analysis, London 2015 (PDF)",
+      "segments": 216,
+      "usable": true,
+      "limitation": "",
+      "source_notes": "Ingested 2026-10-05 from the user's download (fetch/import_pages.py CUYPERS-COMPOSITION). ."
+    },
+    {
+      "id": "FARAHI-NIZAM",
+      "author": "Ḥamīd al-Dīn al-Farāhī (d. 1930)",
+      "title": "Tafsīr Niẓām al-Qurʾān wa-taʾwīl al-Furqān bi-l-Furqān",
+      "language": "ar",
+      "edition": "Arabic; incomplete, sūra fascicles published from 1930s (Azamgarh: Dāʾira Ḥamīdiyya); Urdu tr. by Islahi, Majmūʿa-yi Tafāsīr-i Farāhī (1973). English: Exordium to Coherence in the Qur'an (tr. Tariq Mahmood Hashmi, 2008) = the introduction (from memory — verify)",
+      "segments": 0,
+      "usable": false,
+      "limitation": "No locally held corpus text; memory fallback forbidden.",
+      "source_notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+    }
+  ]
+}

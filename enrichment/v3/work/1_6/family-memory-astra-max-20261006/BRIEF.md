@@ -1,6 +1,6 @@
 # 1:6 family memory baseline
 
-You are one of four independent family researchers. Your assignment gives your family, research purpose, and output directory. Keep the selected GPT-6 Astra model and max effort. Do not enable Fast, spawn agents, run model scripts, or change your task.
+You are one of nineteen independent family researchers. Your assignment gives your family, research purpose, and output directory. Keep the selected GPT-6 Astra model and max effort. Do not enable Fast, spawn agents, run model scripts, or change your task.
 
 Use learned knowledge only. No web, repository search, corpus retrieval, source checking, dictionary checking, other agents' work, or earlier enrichment outputs. You may read only this brief, your supplied source roster, and the four supplied input files; tools may also write your own output files. Do not inspect helper implementations or survey directories.
 

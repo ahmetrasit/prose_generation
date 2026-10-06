@@ -1,0 +1,27 @@
+{
+  "family": "turkish-tafsir",
+  "sources": [
+    {
+      "id": "ELMALILI",
+      "author": "Elmalılı Muhammed Hamdi Yazır",
+      "title": "Hak Dini Kur'an Dili",
+      "language": "tr",
+      "edition": "Hak Dini Kur'an Dili, ed. Asım Cüneyd Köksal & Murat Kaya, YEK 2021–2023, 6 vols (ISBN 978-975-17-4868-3)",
+      "segments": 2796,
+      "usable": true,
+      "limitation": "",
+      "source_notes": "Text from the publisher's PDFs (real text layer) via pdfminer.six at glyph level (enrichment/v2/fetch/elmalili_extract.py, elmalili_build.py); per-page text with running heads removed in pages/v{n}/p{page}.txt. Original first-edition page numbers are kept inline as [nnnn]. Footnotes (variant readings of the manuscripts/prints H, M, B, F and source references by the editors) are renumbered per segment as [^n] and listed in `notes`. Segmentation: Elmalılı prints a passage (Arabic, 'Meâl-i Şerîfi', commentary); a passage a..b is cut into sub-segments where a paragraph opens with a lemma {…} of a later ayah, otherwise kept as one a..a_end group; every segment starts with 'Meâl:' + his meal sentences for its ayat. Surah introductions are s:0 segments (not the basmala); for al-Fātiḥa 1:0 is the introduction and 1:1 the long Besmele section. Long segments are cut at paragraph ends into #2, #3 … parts. Arabic: the PDFs store Arabic in visual order (presentation forms in vols 1-5); it is rebuilt in logical order from glyph positions and NFKC-normalised. Qur'an quotations (Emine type) are identified by consonantal skeleton against quran-uthmani.tsv (explicit [Sûre s/a] reference, current passage, current surah, or a unique match in the whole Qur'an) and replaced by the Uthmani text of the matched words (matched: 22189, unmatched/too short: 1359; refs in `quran_quotes`). Other Arabic (quotations from tafsir, hadith, poetry, mostly in footnotes) is best-effort: in vols 1-2 many glyphs of the Traditional Naskh font have no Unicode mapping; contextual letter forms are inferred from the font's glyph order and unknown glyphs are shown as U+FFFD; segments with such Arabic carry arabic_reliable: false. The Arabic passage blocks themselves are not in the text (see `passage` and `quran_block_match`, the skeleton similarity of the printed block to the Uthmani text). Front matter (editors' introduction), the table of contents and indexes are in pages/ only."
+    },
+    {
+      "id": "KURANYOLU-TEFSIR",
+      "author": "Hayreddin Karaman, Mustafa Çağrıcı, İbrahim Kâfi Dönmez, Sadrettin Gümüş",
+      "title": "Kur'an Yolu: Türkçe Meal ve Tefsir (tefsir text)",
+      "language": "tr",
+      "edition": "kuran.diyanet.gov.tr Mushaf, tefsir route (TefsirList); each unit carries its print reference (Kur'an Yolu Tefsiri cilt/sayfa) in 'ref'",
+      "segments": 2972,
+      "usable": true,
+      "limitation": "",
+      "source_notes": "1268 merged verse groups stored once as a..a_end. 3 ayat empty on the host: 46:1, 67:12, 77:49 Coverage incomplete (6233/6236); re-run `fetch_meal.py fetch --sources KURANYOLU-TEFSIR` then `build` to resume."
+    }
+  ]
+}

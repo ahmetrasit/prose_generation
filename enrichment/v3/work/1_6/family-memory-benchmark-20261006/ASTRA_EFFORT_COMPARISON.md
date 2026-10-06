@@ -1,5 +1,7 @@
 # Astra high versus max: four-family pilot
 
+The subsequent [complete block-by-block review](ASTRA_DEEP_COMPARISON.md) explains the concrete losses, high-only gains, uncertainty differences, and practical choices across all paragraphs.
+
 One independent run per family per effort setting, on the same frozen 1:6 prose and byte-identical source rosters. The shared brief differs only in model effort wording; family launch purposes are expressed separately, so this is a practical comparison of the same task, not an identical-prompt repeated experiment. No attributions were externally checked and no baseline outputs were revised after review.
 
 ## Family comparisons

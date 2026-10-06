@@ -1,0 +1,71 @@
+{
+  "family": "academic",
+  "sources": [
+    {
+      "id": "EQ",
+      "author": "Jane Dammen McAuliffe (general editor)",
+      "title": "Encyclopaedia of the Qurʾān",
+      "language": "en",
+      "edition": "Brill, Leiden 2001–2006, six volumes (one PDF, 3,956 pages)",
+      "segments": 3954,
+      "usable": true,
+      "limitation": "",
+      "source_notes": "Ingested 2026-10-05 from the user's download (fetch/import_eq.py). Locators EQ:v<vol>p<page> follow the printed volume and page (columns a/b are on the same segment); EQ:pdf<n> where no printed number could be read. The index of proper names uses a font whose text layer substitutes letters (Ê = ā, { = ʿ …): not normalised."
+    },
+    {
+      "id": "NOLDEKE-GDQ",
+      "author": "Theodor Nöldeke; 2nd ed. Friedrich Schwally (Teil 1–2), Gotthelf Bergsträsser & Otto Pretzl (Teil 3)",
+      "title": "Geschichte des Qorāns",
+      "language": "de",
+      "edition": "Th. Nöldeke, Geschichte des Qorāns, 2nd ed. (Schwally, Bergsträsser, Pretzl), Leipzig 1909–1938, three volumes (archive.org scans, their OCR text layer)",
+      "segments": 884,
+      "usable": true,
+      "limitation": "",
+      "source_notes": "Ingested 2026-10-05 from the user's download (fetch/import_pages.py NOLDEKE-GDQ). OCR of a Fraktur-free Antiqua print: German good; Arabic quotations in the text layer are garbage (Latin OCR of Arabic script) and must not be quoted."
+    },
+    {
+      "id": "JEFFERY-FOREIGN",
+      "author": "Arthur Jeffery",
+      "title": "The Foreign Vocabulary of the Qur'ān",
+      "language": "en",
+      "edition": "A. Jeffery, The Foreign Vocabulary of the Qurʾān, Baroda 1938 (archive.org scan and OCR)",
+      "segments": 325,
+      "usable": true,
+      "limitation": "",
+      "source_notes": "Ingested 2026-10-05 from the user's download (fetch/import_pages.py JEFFERY-FOREIGN). OCR: English good; Arabic, Syriac, Hebrew script quotations are garbage."
+    },
+    {
+      "id": "SINAI-KEYTERMS",
+      "author": "Nicolai Sinai",
+      "title": "Key Terms of the Qur'an: A Critical Dictionary",
+      "language": "en",
+      "edition": "N. Sinai, Key Terms of the Qur'an: A Critical Dictionary, Princeton 2023 (PDF)",
+      "segments": 1015,
+      "usable": true,
+      "limitation": "",
+      "source_notes": "Ingested 2026-10-05 from the user's download (fetch/import_pages.py SINAI-KEYTERMS). ."
+    },
+    {
+      "id": "ZAMMIT-COMPARATIVE",
+      "author": "Martin R. Zammit",
+      "title": "A Comparative Lexical Study of Qur'ānic Arabic",
+      "language": "en",
+      "edition": "M. R. Zammit, A Comparative Lexical Study of Qurʾānic Arabic, Leiden 2002 (PDF)",
+      "segments": 671,
+      "usable": true,
+      "limitation": "",
+      "source_notes": "Ingested 2026-10-05 from the user's download (fetch/import_pages.py ZAMMIT-COMPARATIVE). the comparative tables are laid out in columns; the text layer reads them row by row across two entries (page text kept as extracted)."
+    },
+    {
+      "id": "BADAWI-HALEEM",
+      "author": "Elsaid M. Badawi & Muhammad Abdel Haleem",
+      "title": "Arabic-English Dictionary of Qur'anic Usage",
+      "language": "en",
+      "edition": "Leiden: Brill, 2008 (Handbook of Oriental Studies I.85)",
+      "segments": 0,
+      "usable": false,
+      "limitation": "No locally held corpus text; memory fallback forbidden.",
+      "source_notes": "Pointer record only: no local text (no segments.jsonl). Anything cited from this work is model memory and must be marked as such; verify against the book before relying on it."
+    }
+  ]
+}

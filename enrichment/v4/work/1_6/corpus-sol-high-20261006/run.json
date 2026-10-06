@@ -1,0 +1,19 @@
+{
+  "version": "v4",
+  "status": "completed",
+  "unit": "1_6",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "service_tier": "default",
+  "fast_mode": false,
+  "agents": 19,
+  "corpus_keyword_search": true,
+  "web_search": false,
+  "repository_search": false,
+  "memory_findings": false,
+  "native_agent_prefix": "/root/corpus19_solhigh_",
+  "input_basis": "byte-identical to the v3 family memory benchmark; v16 r13 plus existing augment9",
+  "discovery_rule": "Local corpus keyword search allowed by user; no web/repository search or memory-based findings.",
+  "launched_on": "2026-10-06T20:07:24.077724+00:00",
+  "parent_review": "Post-run anchor/schema repairs recorded in ../benchmark-20261006/PARENT_ANCHOR_REVIEW.json; native agent costs exclude parent review."
+}

@@ -44,8 +44,8 @@ def rows(path):
     return [json.loads(line) for line in path.read_text().splitlines() if line.strip()]
 
 
-def assemble(lane):
-    folder = LANES[lane]
+def assemble(lane, unit='1_6'):
+    folder = LANES[lane] if unit == '1_6' else WORK.parent / unit / LANES[lane].name
     pilot.BASE = folder / 'frozen.reading.tr.md'
     frozen, paragraphs = pilot.prose()
     expected = set(paragraphs)
@@ -107,7 +107,7 @@ def assemble(lane):
         raise ValueError('Assembly dropped or repeated a prose block')
     intro = ('> **Kaynak notları hakkında:** Aşağıdaki aile notları, öğrenilmiş bilgiden hatırlanan literatür görüşlerini tanıtır. '
              'Kaynaklar bu çalışmada taranmamış ve atıflar doğrulanmamıştır; bir görüşün hatırlanmaması tarihsel olarak bulunmadığı anlamına gelmez.\n\n')
-    target = folder / '1_6.enriched.tr.md'
+    target = folder / f'{unit}.enriched.tr.md'
     target.write_bytes((intro + body).encode())
     print(f'{lane}: {len(families)} families, {count} blocks, frozen bytes preserved; {target}')
 
@@ -115,4 +115,6 @@ def assemble(lane):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('lane', choices=LANES)
-    assemble(parser.parse_args().lane)
+    parser.add_argument('--unit', default='1_6')
+    args = parser.parse_args()
+    assemble(args.lane, args.unit)
