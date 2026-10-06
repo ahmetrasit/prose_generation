@@ -262,7 +262,7 @@ def native_usage(file, end=None):
     return last
 
 
-def usage(detail=False):
+def usage(detail=False, context=None):
     totals = defaultdict(lambda: defaultdict(int))
     counts = defaultdict(int)
     sessions = Path('/Users/ahmetrasit/.codex/sessions/2026/10/06')
@@ -302,12 +302,25 @@ def usage(detail=False):
         if not thread:
             return 'interrupted'
         if re.search(r'\brun=bounded\b', thread['header']):
-            # These two superseded hadith assignments still received multilingual previews.
-            if re.search(r'\bstage=hadith01$', thread['header']):
+            # Superseded hadith assignments exceeded the intended context size.
+            if re.search(r'\bstage=hadith01a?$', thread['header']):
                 return 'interrupted'
             return 'clean'
         parent = thread['meta'].get('forked_from_id')
         return run_for(parent) if parent else 'interrupted'
+
+    if context:
+        track, stage = context
+        matches = [thread for tid, thread in threads.items()
+                   if lane_for(tid) == track and thread['header'].endswith('stage=' + stage)]
+        if not matches:
+            raise ValueError(f'No native usage session for {track}/{stage}')
+        current = max(matches, key=lambda thread: thread['file'].stat().st_mtime)
+        info = native_usage(current['file'])
+        if not info:
+            raise ValueError(f'Native usage not yet available for {track}/{stage}')
+        print(json.dumps({'context_input_tokens': info['last_token_usage']['input_tokens']}))
+        return
 
     for tid, thread in threads.items():
         lane = lane_for(tid)
@@ -353,9 +366,13 @@ def main():
     cited = sub.add_parser('cited'); cited.add_argument('group', choices=['eq', 'other'])
     rendered = sub.add_parser('render'); rendered.add_argument('track', choices=['sol-max', 'astra-xhigh'])
     use = sub.add_parser('usage'); use.add_argument('--detail', action='store_true')
+    context = sub.add_parser('context', help='Current assignment input size from existing native usage')
+    context.add_argument('track', choices=['sol-max', 'astra-xhigh']); context.add_argument('stage')
     args = parser.parse_args()
     if args.cmd == 'usage':
         usage(args.detail)
+    elif args.cmd == 'context':
+        usage(context=(args.track, args.stage))
     elif args.cmd == 'notes':
         notes_for(args.track, [int(p) for p in args.numbers.split(',')])
     elif args.cmd == 'cited':
