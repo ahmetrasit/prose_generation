@@ -12,7 +12,10 @@ qirāʾāt table). `build` indexes every segments.jsonl into enrichment/corpus/c
   corpus.py get TAB:107:3 [MUS:2985 ...] [--from N]  print segments by locator (--from: page a long one)
   corpus.py ayah 107:3 [--kind tafsir,meal]         every segment tied to an ayah (ranges included)
   corpus.py search 'الماعون' [--src TAB-FULL,FARRA] [--kind tafsir] [--surah 107] [--n 10] [--chars 300]
-                                                   [--sahih] [--exact]
+                                                   [--sahih] [--exact] [--no-translations]
+
+Read commands accept --no-translations to omit extra English/Turkish translations while retaining
+the primary text, source notes and attribution/grade flags.
 
 Search matches word prefixes by default (Arabic normalised: no tashkīl, unified alef/yā/tāʾ marbūṭa/hamza
 carriers; Turkish: case and diacritics folded). Hadith segments carry `sahih` (Bukhārī/Muslim, or every named
@@ -38,6 +41,7 @@ CORPUS = PG / "enrichment" / "corpus"
 INDEX = CORPUS / "corpus.sqlite"
 INDEX_INTERTEXT = CORPUS / "corpus_intertext.sqlite"  # the Bible pass: kind intertext only (--intertext)
 INTERTEXT = False
+SHOW_TRANSLATIONS = True
 V1 = PG / "enrichment" / "v1" / "corpus"
 QD = PROJECTS / "quran-data" / "data"
 LEX = PROJECTS / "quran-roots" / "_corpus" / "lexicons" / "cache"
@@ -534,6 +538,8 @@ def show(row, chars: int, start: int = 0) -> None:
     print(shown + tail)
     _used += n
     for k in ("en", "tr", "notes"):
+        if k in ("en", "tr") and not SHOW_TRANSLATIONS:
+            continue
         if extra.get(k):
             v = flat(extra[k])
             v = v if not chars else v[:chars]
@@ -726,14 +732,17 @@ def main() -> None:
     p.add_argument("--sahih", action="store_true")
     p.add_argument("--exact", action="store_true")
     for p in (sub.choices["get"], sub.choices["ayah"], sub.choices["search"], sub.choices["cites"]):
+        p.add_argument("--no-translations", action="store_true",
+                       help="omit extra English/Turkish translations; keep primary text, notes and source flags")
         p.add_argument("--limit", type=int, default=9_000,
                        help="characters of segment text this call prints (default 9,000; output also stays under "
                             "24,000 bytes; 0: no limit, for scripts)")
     a = ap.parse_args()
-    global INTERTEXT, CALL_LIMIT, PREVIEW
+    global INTERTEXT, CALL_LIMIT, PREVIEW, SHOW_TRANSLATIONS
     INTERTEXT = a.intertext
     CALL_LIMIT = getattr(a, "limit", 9_000)
     PREVIEW = a.cmd in ("search", "ayah", "cites")
+    SHOW_TRANSLATIONS = not getattr(a, "no_translations", False)
     if CALL_LIMIT:
         sys.stdout = _Counter(sys.stdout)
     if a.cmd == "import-local":

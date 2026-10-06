@@ -302,6 +302,9 @@ def usage(detail=False):
         if not thread:
             return 'interrupted'
         if re.search(r'\brun=bounded\b', thread['header']):
+            # These two superseded hadith assignments still received multilingual previews.
+            if re.search(r'\bstage=hadith01$', thread['header']):
+                return 'interrupted'
             return 'clean'
         parent = thread['meta'].get('forked_from_id')
         return run_for(parent) if parent else 'interrupted'
