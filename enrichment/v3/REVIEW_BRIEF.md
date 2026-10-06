@@ -1,0 +1,17 @@
+# 1:6 enrichment review
+
+Review only the assigned track and paragraph group. Use Standard only; never Fast. Do not launch agents or model scripts, survey the repository, read the other track, or reopen dictionaries. Review the coverage, concision and source fidelity of the enrichment. The frozen prose and its lexical foundation are not being verified, validated or judged.
+
+Instructions stay fixed throughout the assignment. Material changes require stopping and restarting affected work in a fresh context, including dependent inputs where needed.
+
+Read the compact track claim list once, the assigned actual paragraphs and augmentations with `pilot.py prose NUMBERS`, and their notes with `pilot.py notes TRACK NUMBERS`. Retrieve fuller external passages only when needed to resolve a source attribution, missed position or overcompressed relationship. Keep each tool response small enough to arrive intact.
+
+Consider every substantive finding, including secondary relationships inside a single claim ID and every augmentation. A topic overlap or a claim link alone does not ensure useful awareness. Retain literature that supports, conflicts with, expands on, or shifts the perspective on the finding, with the author's position and a recoverable source pointer. Do not force all four relationships or add classification records. Preserve real differences between authors and schools. Do not independently authenticate reports; distinguish reception from attributed grading judgments.
+
+Remove assistant verdicts about whether the frozen prose is correct, supported enough, proved, justified or mistaken. Keep an external author's criticism or conflicting interpretation clearly attributed. Remove repeated “this does not prove” and “this connection is not made here” tails; describe the source's actual contribution without extending it to an entire synthesis it does not discuss.
+
+Make focused corrections and additions directly in the existing note files. Merge repetitions when they express the same position, retaining useful source pointers; retain distinct reasons or differing interpretations. Shared notes may serve several paragraphs, so preserve their other substantive relationships. Use one short note for related unresolved findings rather than repeating the same limitation for each claim. If needed, add final-form notes in the assigned review JSONL with the usual `id`, `c`, `text`, `src` fields. Optional `p` restricts placement to particular paragraphs; otherwise claim locations determine placement. Do not rewrite unchanged notes or create a second complete set of notes.
+
+Missing external-source relationships warrant focused discovery using the corpus and useful learned-memory leads. Unavailable or unverified leads remain explicitly labelled. Where no earlier treatment was located, consolidate a concise statement naming the sources or scope examined; distinguish an unlocated synthesis from earlier discussion of its components when useful. This reports historical coverage, not the validity of the finding. Never convert an incomplete search or silence into universal novelty. Do not add dictionary caveats or investigations.
+
+Stop after reviewing the assigned paragraphs once. Return only a short account of substantive changes and material unresolved external-source limitations. No review ledger, matrix, hashes, additional acceptance pass or page rendering.
