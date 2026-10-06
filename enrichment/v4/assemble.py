@@ -94,7 +94,7 @@ def main():
                 continue
             sections.append('### ' + title)
             for block in blocks:
-                references = '; '.join(pointer['loc'] + ' — «' + pointer['anchor'] + '»' for pointer in block['evidence'])
+                references = '; '.join(pointer['loc'] + ' — «' + compact(pointer['anchor']) + '»' for pointer in block['evidence'])
                 sections.append('<a id="corpus-' + html.escape(block['id'], quote=True) + '"></a>\n\n' + block['text'] + '\n\nKaynak konumları: ' + references + '.')
             if related:
                 sections.append('Bu paragrafla da ilgili kaynak görüşü: ' + ', '.join(f'[{origin}. paragraf](#corpus-{identifier})' for identifier, origin in related) + '.')
