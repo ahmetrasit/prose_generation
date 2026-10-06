@@ -1,0 +1,88 @@
+{
+  "target": "1:1",
+  "paragraph": 23,
+  "scope": "Independent decomposition of paragraph 23 and its augment9 reference additions. This is an audit example, not a completed enrichment or a novelty verdict.",
+  "base_sha256": "62bb496ee1b76077b173fd84202c2e137025cbb627c6fd1c1fd6d4d39685a3f3",
+  "accepted_output_annotations_at_paragraph": [],
+  "claims": [
+    {
+      "id": "1:1.p23.base.c1",
+      "anchor": "Beşinci ayetin yardım isteyişi de bu adla buluşur.",
+      "claim": "Fatiha 1:5's request for help connects to the name Rahman through 21:112.",
+      "kind": "cross_verse_synthesis",
+      "audit_status": "partial_precedent_found; exact_Fatiha_link_unresolved",
+      "candidate_sources": ["TAB-FULL:v16p444"],
+      "scope_note": "Tabari explicitly links Rahman, mercy and seeking help at 21:112. This passage does not explicitly identify the proposed link to Fatiha 1:5."
+    },
+    {
+      "id": "1:1.p23.base.c2",
+      "anchor": "Peygamber, kendisini yalanlayanlar karşısında şöyle der",
+      "claim": "The speech in 21:112 addresses the Prophet's situation against those who deny him.",
+      "kind": "narrative_context",
+      "audit_status": "precedent_found_in_checked_passage",
+      "candidate_sources": ["TAB-FULL:v16p444"]
+    },
+    {
+      "id": "1:1.p23.base.c3",
+      "anchor": "Rabbimiz, anlattıklarınıza karşı yardımı istenen Rahman'dır",
+      "claim": "The verse identifies the Lord as Rahman and as the one whose help is sought against what the opponents say.",
+      "kind": "verse_interpretation",
+      "audit_status": "precedent_found_in_checked_passage",
+      "candidate_sources": ["TAB-FULL:v16p444"]
+    },
+    {
+      "id": "1:1.p23.base.c4",
+      "anchor": "sözündeki fiille aynı köktendir",
+      "claim": "Musta'an in 21:112 and nasta'in in 1:5 share a root.",
+      "kind": "morphological_relationship",
+      "audit_status": "requires_language_tradition_review",
+      "candidate_sources": [],
+      "scope_note": "No claim of novelty follows from this pending review. The frozen statement is the review target, not its own verification."
+    },
+    {
+      "id": "1:1.p23.base.c5",
+      "anchor": "Yardım istenen, merhameti dolu olandır.",
+      "claim": "Seeking help is tied specifically to Rahman's fullness of mercy.",
+      "kind": "semantic_inference",
+      "audit_status": "partial_precedent_found; fullness_interpretation_unresolved",
+      "candidate_sources": ["TAB-FULL:v16p444"],
+      "scope_note": "Tabari's explanation supplies mercy and widespread beneficence, not an explicit endorsement here of the frozen prose's fa'lan/fullness analysis."
+    },
+    {
+      "id": "1:1.p23.augment_refs.c1",
+      "anchor": "aynı sözün Allah adıyla söylenişi",
+      "claim": "Jacob's words in 12:18 use the same help-against-description construction with the name Allah.",
+      "kind": "cross_verse_comparison",
+      "references": ["12:18", "21:112"],
+      "audit_status": "requires_source_review",
+      "candidate_sources": []
+    },
+    {
+      "id": "1:1.p23.augment_refs.c2",
+      "anchor": "O Rahman'dır, O'na dayandık",
+      "claim": "67:29 connects the name Rahman with reliance on God.",
+      "kind": "cross_verse_comparison",
+      "references": ["67:29"],
+      "audit_status": "requires_source_review",
+      "candidate_sources": []
+    },
+    {
+      "id": "1:1.p23.augment_refs.c3",
+      "anchor": "Azîz ve Rahîm olana dayanmak",
+      "claim": "26:217 connects reliance with the divine names Aziz and Rahim.",
+      "kind": "cross_verse_comparison",
+      "references": ["26:217"],
+      "audit_status": "requires_source_review",
+      "candidate_sources": []
+    },
+    {
+      "id": "1:1.p23.augment_refs.c4",
+      "anchor": "Rahman'a karşı size yardım edecek bir ordunun bulunmaması",
+      "claim": "67:20 denies an army that could provide help against Rahman, adding a counterpoint to seeking his help.",
+      "kind": "cross_verse_comparison",
+      "references": ["67:20"],
+      "audit_status": "requires_source_review",
+      "candidate_sources": []
+    }
+  ]
+}

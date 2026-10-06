@@ -1,0 +1,1468 @@
+{
+  "generated_utc": "2026-10-06T12:20:59.279272+00:00",
+  "scope": "Ayah workflow audit. Existing output and synthetic probes; no generation or acceptance.",
+  "code_sha256": {
+    "enrichment/v2/grup.py": "fb78276977e2b8edf57bdb0996d4d6c823a8ddfa1536d29e5bcefab1c632dc72",
+    "enrichment/v2/enrich.py": "f419989f539337336fbe50e46dccc08c2bf26c5344a97bedc9f42df0d1bff81a",
+    "enrichment/v2/pack.py": "1c07741a859935ba611062d0fb87da3ec44141ce5b0a411faead96ad6beb5dee",
+    "enrichment/v2/render.py": "f920c32bb4e12454174f4d3e643990650ededfbeec6a655f27e4b2789efcf31e",
+    "enrichment/v2/validate.py": "b3686526d7f9de00c3ae8eb717c21413e38d4a6570b50ca5bf2dd33d6c8ab813",
+    "enrichment/v2/groups.json": "544d0964d76d67b1d41f7854f7ed68301e5c1a672769cdc02d595bb83fecad24",
+    "enrichment/v2/prompts/grup.md": "dadda47d696796fee2b91f97dff25383591e0d9221359f4b82c585d9001c620b",
+    "enrichment/v2/prompts/grup_yer.md": "7980e51286a0a4632216b41f92b6c49559360648f464aa0d3591e8e1bd4b6a36",
+    "enrichment/v2/prompts/grup_oncul.md": "fefe6e2aa2587ff1805bafe3ce5e72971ee37aa0c82cfd744aac3a8ee23cb933",
+    "enrichment/v2/tools/blocks.py": "3381667ab9dc24ce38830ce8cf1e9d181c5d22606647cc8da940fe2a6c93b922",
+    "enrichment/v2/tools/corpus.py": "7589e9228566cd8b68e5cc7173a3bc38fe07e2314e311f4ac04610dede99119e"
+  },
+  "inventory": {
+    "upstream": {
+      "100:1": {
+        "r13": [
+          "_commentary/v16/out/100_1/DM.r13.images.r13.map3.nohft.tool.tool.tool/100_1.reading.tr.md"
+        ],
+        "augment9": []
+      },
+      "100:10": {
+        "r13": [
+          "_commentary/v16/out/100_10/DM.r13.images.r13.map3.nohft.tool.tool.tool/100_10.reading.tr.md"
+        ],
+        "augment9": []
+      },
+      "100:11": {
+        "r13": [
+          "_commentary/v16/out/100_11/DM.r13.images.r13.map3.nohft.tool.tool.tool/100_11.reading.tr.md"
+        ],
+        "augment9": []
+      },
+      "100:2": {
+        "r13": [
+          "_commentary/v16/out/100_2/DM.r13.images.r13.map3.nohft.tool.tool.tool/100_2.reading.tr.md"
+        ],
+        "augment9": []
+      },
+      "100:3": {
+        "r13": [
+          "_commentary/v16/out/100_3/DM.r13.images.r13.map3.nohft.tool.tool.tool/100_3.reading.tr.md"
+        ],
+        "augment9": []
+      },
+      "100:4": {
+        "r13": [
+          "_commentary/v16/out/100_4/DM.r13.images.r13.map3.nohft.tool.tool.tool/100_4.reading.tr.md"
+        ],
+        "augment9": []
+      },
+      "100:5": {
+        "r13": [
+          "_commentary/v16/out/100_5/DM.r13.images.r13.map3.nohft.tool.tool.tool/100_5.reading.tr.md"
+        ],
+        "augment9": []
+      },
+      "100:6": {
+        "r13": [
+          "_commentary/v16/out/100_6/DM.r13.images.r13.map3.nohft.tool.tool.tool/100_6.reading.tr.md"
+        ],
+        "augment9": []
+      },
+      "100:7": {
+        "r13": [
+          "_commentary/v16/out/100_7/DM.r13.images.r13.map3.nohft.tool.tool.tool/100_7.reading.tr.md"
+        ],
+        "augment9": []
+      },
+      "100:8": {
+        "r13": [
+          "_commentary/v16/out/100_8/DM.r13.images.r13.map3.nohft.tool.tool.tool/100_8.reading.tr.md"
+        ],
+        "augment9": []
+      },
+      "100:9": {
+        "r13": [
+          "_commentary/v16/out/100_9/DM.r13.images.r13.map3.nohft.tool.tool.tool/100_9.reading.tr.md"
+        ],
+        "augment9": []
+      },
+      "107:1": {
+        "r13": [
+          "_commentary/v16/out/107_1/DM.r13.images.r13.map3.nohft.tool.tool.tool/107_1.reading.tr.md"
+        ],
+        "augment9": []
+      },
+      "107:2": {
+        "r13": [
+          "_commentary/v16/out/107_2/DM.r13.images.r13.map3.nohft.tool.tool.tool/107_2.reading.tr.md"
+        ],
+        "augment9": []
+      },
+      "107:3": {
+        "r13": [
+          "_commentary/v16/out/107_3/DM.r13.images.r13.map3.nohft.tool.tool.tool/107_3.reading.tr.md"
+        ],
+        "augment9": []
+      },
+      "107:4": {
+        "r13": [
+          "_commentary/v16/out/107_4/DM.r13.images.r13.map3.nohft.tool.tool.tool/107_4.reading.tr.md"
+        ],
+        "augment9": []
+      },
+      "107:5": {
+        "r13": [
+          "_commentary/v16/out/107_5/DM.r13.images.r13.map3.nohft.tool.tool.tool/107_5.reading.tr.md"
+        ],
+        "augment9": []
+      },
+      "107:6": {
+        "r13": [
+          "_commentary/v16/out/107_6/DM.r13.images.r13.map3.nohft.tool.tool.tool/107_6.reading.tr.md"
+        ],
+        "augment9": []
+      },
+      "107:7": {
+        "r13": [
+          "_commentary/v16/out/107_7/DM.r13.images.r13.map3.nohft.tool.tool.tool/107_7.reading.tr.md"
+        ],
+        "augment9": []
+      },
+      "1:1": {
+        "r13": [
+          "_commentary/v16/out/1_1/DM.r13.images.r13.map3.nohft.tool.tool.tool/1_1.reading.tr.md"
+        ],
+        "augment9": [
+          "_commentary/v16/out/1_1/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/1_1.reading.tr.md"
+        ]
+      },
+      "1:2": {
+        "r13": [
+          "_commentary/v16/out/1_2/DM.r13.images.r13.map3.nohft.tool.tool.tool/1_2.reading.tr.md"
+        ],
+        "augment9": [
+          "_commentary/v16/out/1_2/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/1_2.reading.tr.md"
+        ]
+      },
+      "1:3": {
+        "r13": [
+          "_commentary/v16/out/1_3/DM.r13.images.r13.map3.nohft.tool.tool.tool/1_3.reading.tr.md"
+        ],
+        "augment9": [
+          "_commentary/v16/out/1_3/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/1_3.reading.tr.md"
+        ]
+      },
+      "1:4": {
+        "r13": [
+          "_commentary/v16/out/1_4/DM.r13.images.r13.map3.nohft.tool.tool.tool/1_4.reading.tr.md"
+        ],
+        "augment9": [
+          "_commentary/v16/out/1_4/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/1_4.reading.tr.md"
+        ]
+      },
+      "1:5": {
+        "r13": [
+          "_commentary/v16/out/1_5/DM.r13.images.r13.map3.nohft.tool.tool.tool/1_5.reading.tr.md"
+        ],
+        "augment9": [
+          "_commentary/v16/out/1_5/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/1_5.reading.tr.md"
+        ]
+      },
+      "1:6": {
+        "r13": [
+          "_commentary/v16/out/1_6/DM.r13.images.r13.map3.nohft.tool.tool.tool/1_6.reading.tr.md"
+        ],
+        "augment9": [
+          "_commentary/v16/out/1_6/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/1_6.reading.tr.md"
+        ]
+      },
+      "1:7": {
+        "r13": [
+          "_commentary/v16/out/1_7/DM.r13.images.r13.map3.nohft.tool.tool.tool/1_7.reading.tr.md"
+        ],
+        "augment9": [
+          "_commentary/v16/out/1_7/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/1_7.reading.tr.md"
+        ]
+      },
+      "29:38": {
+        "r13": [],
+        "augment9": []
+      },
+      "87:1": {
+        "r13": [
+          "_commentary/v16/out/87_1/DM.r13.images.r13.map3.nohft.tool.tool.tool/87_1.reading.tr.md"
+        ],
+        "augment9": [
+          "_commentary/v16/out/87_1/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_1.reading.tr.md"
+        ]
+      },
+      "87:10": {
+        "r13": [
+          "_commentary/v16/out/87_10/DM.r13.images.r13.map3.nohft.tool.tool.tool/87_10.reading.tr.md"
+        ],
+        "augment9": [
+          "_commentary/v16/out/87_10/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_10.reading.tr.md"
+        ]
+      },
+      "87:11": {
+        "r13": [
+          "_commentary/v16/out/87_11/DM.r13.images.r13.map3.nohft.tool.tool.tool/87_11.reading.tr.md"
+        ],
+        "augment9": [
+          "_commentary/v16/out/87_11/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_11.reading.tr.md"
+        ]
+      },
+      "87:12": {
+        "r13": [
+          "_commentary/v16/out/87_12/DM.r13.images.r13.map3.nohft.tool.tool.tool/87_12.reading.tr.md"
+        ],
+        "augment9": [
+          "_commentary/v16/out/87_12/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_12.reading.tr.md"
+        ]
+      },
+      "87:13": {
+        "r13": [
+          "_commentary/v16/out/87_13/DM.r13.images.r13.map3.nohft.tool.tool.tool/87_13.reading.tr.md"
+        ],
+        "augment9": [
+          "_commentary/v16/out/87_13/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_13.reading.tr.md"
+        ]
+      },
+      "87:14": {
+        "r13": [
+          "_commentary/v16/out/87_14/DM.r13.images.r13.map3.nohft.tool.tool.tool/87_14.reading.tr.md"
+        ],
+        "augment9": [
+          "_commentary/v16/out/87_14/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_14.reading.tr.md"
+        ]
+      },
+      "87:15": {
+        "r13": [
+          "_commentary/v16/out/87_15/DM.r13.images.r13.map3.nohft.tool.tool.tool/87_15.reading.tr.md"
+        ],
+        "augment9": [
+          "_commentary/v16/out/87_15/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_15.reading.tr.md"
+        ]
+      },
+      "87:16": {
+        "r13": [
+          "_commentary/v16/out/87_16/DM.r13.images.r13.map3.nohft.tool.tool.tool/87_16.reading.tr.md"
+        ],
+        "augment9": [
+          "_commentary/v16/out/87_16/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_16.reading.tr.md"
+        ]
+      },
+      "87:17": {
+        "r13": [
+          "_commentary/v16/out/87_17/DM.r13.images.r13.map3.nohft.tool.tool.tool/87_17.reading.tr.md"
+        ],
+        "augment9": [
+          "_commentary/v16/out/87_17/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_17.reading.tr.md"
+        ]
+      },
+      "87:18": {
+        "r13": [
+          "_commentary/v16/out/87_18/DM.r13.images.r13.map3.nohft.tool.tool.tool/87_18.reading.tr.md"
+        ],
+        "augment9": [
+          "_commentary/v16/out/87_18/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_18.reading.tr.md"
+        ]
+      },
+      "87:19": {
+        "r13": [
+          "_commentary/v16/out/87_19/DM.r13.images.r13.map3.nohft.tool.tool.tool/87_19.reading.tr.md"
+        ],
+        "augment9": [
+          "_commentary/v16/out/87_19/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_19.reading.tr.md"
+        ]
+      },
+      "87:2": {
+        "r13": [
+          "_commentary/v16/out/87_2/DM.r13.images.r13.map3.nohft.tool.tool.tool/87_2.reading.tr.md"
+        ],
+        "augment9": [
+          "_commentary/v16/out/87_2/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_2.reading.tr.md"
+        ]
+      },
+      "87:3": {
+        "r13": [
+          "_commentary/v16/out/87_3/DM.r13.images.r13.map3.nohft.tool.tool.tool/87_3.reading.tr.md"
+        ],
+        "augment9": [
+          "_commentary/v16/out/87_3/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_3.reading.tr.md"
+        ]
+      },
+      "87:4": {
+        "r13": [
+          "_commentary/v16/out/87_4/DM.r13.images.r13.map3.nohft.tool.tool.tool/87_4.reading.tr.md"
+        ],
+        "augment9": [
+          "_commentary/v16/out/87_4/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_4.reading.tr.md"
+        ]
+      },
+      "87:5": {
+        "r13": [
+          "_commentary/v16/out/87_5/DM.r13.images.r13.map3.nohft.tool.tool.tool/87_5.reading.tr.md"
+        ],
+        "augment9": [
+          "_commentary/v16/out/87_5/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_5.reading.tr.md"
+        ]
+      },
+      "87:6": {
+        "r13": [
+          "_commentary/v16/out/87_6/DM.r13.images.r13.map3.nohft.tool.tool.tool/87_6.reading.tr.md"
+        ],
+        "augment9": [
+          "_commentary/v16/out/87_6/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_6.reading.tr.md"
+        ]
+      },
+      "87:7": {
+        "r13": [
+          "_commentary/v16/out/87_7/DM.r13.images.r13.map3.nohft.tool.tool.tool/87_7.reading.tr.md"
+        ],
+        "augment9": [
+          "_commentary/v16/out/87_7/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_7.reading.tr.md"
+        ]
+      },
+      "87:8": {
+        "r13": [
+          "_commentary/v16/out/87_8/DM.r13.images.r13.map3.nohft.tool.tool.tool/87_8.reading.tr.md"
+        ],
+        "augment9": [
+          "_commentary/v16/out/87_8/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_8.reading.tr.md"
+        ]
+      },
+      "87:9": {
+        "r13": [
+          "_commentary/v16/out/87_9/DM.r13.images.r13.map3.nohft.tool.tool.tool/87_9.reading.tr.md"
+        ],
+        "augment9": [
+          "_commentary/v16/out/87_9/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_9.reading.tr.md"
+        ]
+      }
+    },
+    "upstream_counts": {
+      "r13_without_augment9": 18,
+      "r13+augment9": 26,
+      "neither": 1
+    },
+    "packs": {
+      "s001": {
+        "1:1": {
+          "base": "_commentary/v16/out/1_1/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/1_1.reading.tr.md",
+          "sha256": "62bb496ee1b76077b173fd84202c2e137025cbb627c6fd1c1fd6d4d39685a3f3",
+          "augment9": true,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "1:2": {
+          "base": "_commentary/v16/out/1_2/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/1_2.reading.tr.md",
+          "sha256": "35b6b3804e386f32141d8ecf3d33bbb9d6bd80c42e088da80ba6261852e081eb",
+          "augment9": true,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "1:3": {
+          "base": "_commentary/v16/out/1_3/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/1_3.reading.tr.md",
+          "sha256": "fd3f58bbfae19f4063252a581bc841cbd75346adb30ef4b05ea092cc8971790c",
+          "augment9": true,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "1:4": {
+          "base": "_commentary/v16/out/1_4/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/1_4.reading.tr.md",
+          "sha256": "fc44d820f643e10af4ed559fd04fc541cf307b97c408004a89b0db80977b9140",
+          "augment9": true,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "1:5": {
+          "base": "_commentary/v16/out/1_5/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/1_5.reading.tr.md",
+          "sha256": "139ce0ea6bf269cca1f1aec890d7f2c9304ab91024f6d4afa75751e9613d971b",
+          "augment9": true,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "1:6": {
+          "base": "_commentary/v16/out/1_6/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/1_6.reading.tr.md",
+          "sha256": "0661c96f4fe978e43088c47e3b4d6627a3f6b71b0ee578a166d6529559814598",
+          "augment9": true,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "1:7": {
+          "base": "_commentary/v16/out/1_7/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/1_7.reading.tr.md",
+          "sha256": "d4f04df05637b4bd92389c61f5469485debb18bb8641e0a93582a8fb5d467bd6",
+          "augment9": true,
+          "upstream_matches": true,
+          "copy_matches": true
+        }
+      },
+      "s087": {
+        "87:1": {
+          "base": "_commentary/v16/out/87_1/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_1.reading.tr.md",
+          "sha256": "c2a3b8ebfc819a801169ddaeb30064985bc1aabf7e6e61cc9a6f35704c94fb5b",
+          "augment9": true,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "87:2": {
+          "base": "_commentary/v16/out/87_2/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_2.reading.tr.md",
+          "sha256": "f91a6284b66d8dbccb14e8e130d981202c1e4d1cb83388618fa3918fdd4c080c",
+          "augment9": true,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "87:3": {
+          "base": "_commentary/v16/out/87_3/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_3.reading.tr.md",
+          "sha256": "f3ec78fb489687308b2659582b69bb751342c2ee432bf99cde46dba4001f79fd",
+          "augment9": true,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "87:4": {
+          "base": "_commentary/v16/out/87_4/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_4.reading.tr.md",
+          "sha256": "df16654cb3494d2bb23d6b95e5011ce8dc13b4a42faa7afc27e54465a6d171ef",
+          "augment9": true,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "87:5": {
+          "base": "_commentary/v16/out/87_5/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_5.reading.tr.md",
+          "sha256": "f390b286196c467ef6521f69cea8c622404322e65e98db67aba4b387e2cee240",
+          "augment9": true,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "87:6": {
+          "base": "_commentary/v16/out/87_6/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_6.reading.tr.md",
+          "sha256": "0bc37799f07fc2bb143357a09924a0ddf136df6979ace0e87e4cfbf562840893",
+          "augment9": true,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "87:7": {
+          "base": "_commentary/v16/out/87_7/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_7.reading.tr.md",
+          "sha256": "ca49f9bdf5b8b52b12108d413fb69bb80b866437e92b77b18ce48ebd3b91b286",
+          "augment9": true,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "87:8": {
+          "base": "_commentary/v16/out/87_8/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_8.reading.tr.md",
+          "sha256": "24b9ca9adf42d34cdd2521e82d663316d5704914ace73d91efb5f2a17a0175f6",
+          "augment9": true,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "87:9": {
+          "base": "_commentary/v16/out/87_9/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_9.reading.tr.md",
+          "sha256": "128963c435cd06f927326734b74e7b5448298a322137bb22f5de2ed9cd0b2f27",
+          "augment9": true,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "87:10": {
+          "base": "_commentary/v16/out/87_10/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_10.reading.tr.md",
+          "sha256": "2ea015c0eff5e2b2607db84ad2edcf4eae3b8042765fec2dc164976910a5eb38",
+          "augment9": true,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "87:11": {
+          "base": "_commentary/v16/out/87_11/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_11.reading.tr.md",
+          "sha256": "2af7d55f064b77eda450e3c94fff45c446a1e641764ad8868597fe9dd6f477d2",
+          "augment9": true,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "87:12": {
+          "base": "_commentary/v16/out/87_12/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_12.reading.tr.md",
+          "sha256": "9524a4a5084efa42fc02a65a73331d4b87df0c5de01144d514ae05d3d179be7e",
+          "augment9": true,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "87:13": {
+          "base": "_commentary/v16/out/87_13/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_13.reading.tr.md",
+          "sha256": "d88fdbdbcddfa7f4b4f491b8e17f4cab7b396664a86f40c05961f248adb7005a",
+          "augment9": true,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "87:14": {
+          "base": "_commentary/v16/out/87_14/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_14.reading.tr.md",
+          "sha256": "2e43478f289f89dd752fe9510a6a9202160488fbd32a36668a270e2672dbb9e0",
+          "augment9": true,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "87:15": {
+          "base": "_commentary/v16/out/87_15/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_15.reading.tr.md",
+          "sha256": "e2b22a9232856eb18203307723ed437533c49a2e3162a00473c1a44df9a4662e",
+          "augment9": true,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "87:16": {
+          "base": "_commentary/v16/out/87_16/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_16.reading.tr.md",
+          "sha256": "dfe2600cc168a1f157413884ca4ffe2678fe5e4f4324323348985f0360908488",
+          "augment9": true,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "87:17": {
+          "base": "_commentary/v16/out/87_17/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_17.reading.tr.md",
+          "sha256": "f1dd75924dc202fc8a2474609ab70830c4a2db52597ccbebb393dda4012ca32e",
+          "augment9": true,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "87:18": {
+          "base": "_commentary/v16/out/87_18/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_18.reading.tr.md",
+          "sha256": "358fa63515f29b9372f2495b75ab45f0a2f82b71e57342a2217966543f6f9593",
+          "augment9": true,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "87:19": {
+          "base": "_commentary/v16/out/87_19/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment9.opus/87_19.reading.tr.md",
+          "sha256": "a3c69329c4524fc1a2864859bd8e7c7936220a1cd3f91a2ef1e74d39e9ac4043",
+          "augment9": true,
+          "upstream_matches": true,
+          "copy_matches": true
+        }
+      },
+      "s100": {
+        "100:1": {
+          "base": null
+        },
+        "100:2": {
+          "base": null
+        },
+        "100:3": {
+          "base": null
+        },
+        "100:4": {
+          "base": null
+        },
+        "100:5": {
+          "base": null
+        },
+        "100:6": {
+          "base": null
+        },
+        "100:7": {
+          "base": null
+        },
+        "100:8": {
+          "base": null
+        },
+        "100:9": {
+          "base": null
+        },
+        "100:10": {
+          "base": null
+        },
+        "100:11": {
+          "base": null
+        }
+      },
+      "s107": {
+        "107:1": {
+          "base": "_commentary/v16/out/107_1/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment3/107_1.reading.tr.md",
+          "sha256": "538cfd2f620fadf3274ebf4636471d3f396df4496546c413e9202d839dce756f",
+          "augment9": false,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "107:2": {
+          "base": "_commentary/v16/out/107_2/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment3/107_2.reading.tr.md",
+          "sha256": "964e8821a1ff8805173af8f9dce66d68bed01463d1683fb0ecd9e0a5dc756dc1",
+          "augment9": false,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "107:3": {
+          "base": "_commentary/v16/out/107_3/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment3/107_3.reading.tr.md",
+          "sha256": "09516d1b63c91ec4270469ea08ca79102092c7ca63e082a02c23d3b03f034d78",
+          "augment9": false,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "107:4": {
+          "base": "_commentary/v16/out/107_4/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment3/107_4.reading.tr.md",
+          "sha256": "b345d63fe2e7f4d066905e333d5cb6de2dd5ecfd5230e1759968a25b750648a9",
+          "augment9": false,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "107:5": {
+          "base": "_commentary/v16/out/107_5/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment3/107_5.reading.tr.md",
+          "sha256": "6e6c9449075da6886713d87b8f352eea1617422fcef6ee5127a960caaab8be79",
+          "augment9": false,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "107:6": {
+          "base": "_commentary/v16/out/107_6/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment3/107_6.reading.tr.md",
+          "sha256": "ed4896e502f03263f03557fe00c37e822d1dba28b9138b3276f7930a1718ca60",
+          "augment9": false,
+          "upstream_matches": true,
+          "copy_matches": true
+        },
+        "107:7": {
+          "base": "_commentary/v16/out/107_7/DM.r13.images.r13.map3.nohft.tool.tool.tool/augment.augment3/107_7.reading.tr.md",
+          "sha256": "2b235033b71f22a892b173018ea34de3e9005e541be53abd56ae86a2b143f204",
+          "augment9": false,
+          "upstream_matches": true,
+          "copy_matches": true
+        }
+      }
+    }
+  },
+  "output_coverage": [
+    {
+      "directory": "enrichment/v2/work/s001/zengin-dosya2.1_1.opus.high",
+      "annotations_sha256": "929203027256f721b1dc9d87764717545a9df37495a59e3c8f673e0636567bf2",
+      "paragraphs": 27,
+      "annotations": 58,
+      "counts_per_paragraph": {
+        "1": 5,
+        "2": 3,
+        "3": 1,
+        "4": 1,
+        "5": 2,
+        "6": 3,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 0,
+        "11": 2,
+        "12": 1,
+        "13": 2,
+        "14": 1,
+        "15": 2,
+        "16": 4,
+        "17": 0,
+        "18": 1,
+        "19": 3,
+        "20": 3,
+        "21": 5,
+        "22": 5,
+        "23": 0,
+        "24": 2,
+        "25": 3,
+        "26": 1,
+        "27": 5
+      },
+      "paragraphs_without_annotations": [
+        10,
+        17,
+        23
+      ],
+      "memory_records": 0,
+      "caveat": "Paragraph presence is only a lower bound; it does not establish claim coverage."
+    },
+    {
+      "directory": "enrichment/v2/work/s001/zengin-dosya2.1_1.opus.medium",
+      "annotations_sha256": "acd4b4eb7527f50facd1fc7c888014f5379072f4f28b95c26f78439887705b9e",
+      "paragraphs": 27,
+      "annotations": 45,
+      "counts_per_paragraph": {
+        "1": 5,
+        "2": 3,
+        "3": 2,
+        "4": 2,
+        "5": 2,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 2,
+        "14": 1,
+        "15": 2,
+        "16": 1,
+        "17": 0,
+        "18": 1,
+        "19": 2,
+        "20": 2,
+        "21": 4,
+        "22": 3,
+        "23": 0,
+        "24": 3,
+        "25": 2,
+        "26": 1,
+        "27": 0
+      },
+      "paragraphs_without_annotations": [
+        17,
+        23,
+        27
+      ],
+      "memory_records": 0,
+      "caveat": "Paragraph presence is only a lower bound; it does not establish claim coverage."
+    },
+    {
+      "directory": "enrichment/v2/work/s001/zengin-tur.1_1.opus.high",
+      "annotations_sha256": "58f43e71c0dcb2d565acc45e8f811bf87e822acdb1d47b30f1344f18b61d65ae",
+      "paragraphs": 27,
+      "annotations": 53,
+      "counts_per_paragraph": {
+        "1": 5,
+        "2": 3,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 3,
+        "8": 1,
+        "9": 2,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 2,
+        "14": 1,
+        "15": 3,
+        "16": 1,
+        "17": 1,
+        "18": 2,
+        "19": 2,
+        "20": 3,
+        "21": 5,
+        "22": 5,
+        "23": 0,
+        "24": 2,
+        "25": 2,
+        "26": 2,
+        "27": 1
+      },
+      "paragraphs_without_annotations": [
+        23
+      ],
+      "memory_records": 0,
+      "caveat": "Paragraph presence is only a lower bound; it does not establish claim coverage."
+    },
+    {
+      "directory": "enrichment/v2/work/s001/zengin-tur.1_1.opus.medium",
+      "annotations_sha256": "5bcf4cd0a2fd023d9c2e6b5dbcf6f44cd08061c254881ca23f068305d03c5e44",
+      "paragraphs": 27,
+      "annotations": 55,
+      "counts_per_paragraph": {
+        "1": 5,
+        "2": 4,
+        "3": 2,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 2,
+        "8": 1,
+        "9": 2,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 3,
+        "14": 1,
+        "15": 2,
+        "16": 1,
+        "17": 2,
+        "18": 1,
+        "19": 3,
+        "20": 4,
+        "21": 5,
+        "22": 3,
+        "23": 0,
+        "24": 1,
+        "25": 3,
+        "26": 3,
+        "27": 1
+      },
+      "paragraphs_without_annotations": [
+        23
+      ],
+      "memory_records": 0,
+      "caveat": "Paragraph presence is only a lower bound; it does not establish claim coverage."
+    },
+    {
+      "directory": "enrichment/v2/work/s001/zengin.1_1.opus.high",
+      "annotations_sha256": "fc3a79a7957bedabe5ad8bf7e35393cc43bf85cd2f1b0cd5feb2abd3b45f4fb0",
+      "paragraphs": 27,
+      "annotations": 53,
+      "counts_per_paragraph": {
+        "1": 5,
+        "2": 3,
+        "3": 2,
+        "4": 3,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 2,
+        "9": 1,
+        "10": 0,
+        "11": 1,
+        "12": 1,
+        "13": 4,
+        "14": 0,
+        "15": 2,
+        "16": 0,
+        "17": 2,
+        "18": 1,
+        "19": 2,
+        "20": 3,
+        "21": 4,
+        "22": 4,
+        "23": 0,
+        "24": 3,
+        "25": 3,
+        "26": 2,
+        "27": 2
+      },
+      "paragraphs_without_annotations": [
+        10,
+        14,
+        16,
+        23
+      ],
+      "memory_records": 0,
+      "caveat": "Paragraph presence is only a lower bound; it does not establish claim coverage."
+    }
+  ],
+  "validator_probes": {
+    "accepted_records_current_validation": {
+      "surah": 1,
+      "target": "1:1",
+      "records": 53,
+      "kept": 53,
+      "dropped": [],
+      "by_tur": {
+        "tefsir_dirayet": 12,
+        "fikih": 2,
+        "kiraat": 2,
+        "meal": 6,
+        "belagat": 2,
+        "tefsir_rivayet": 4,
+        "hadis": 3,
+        "yenilik": 3,
+        "kelam": 3,
+        "elenen": 1,
+        "nahiv": 5,
+        "isari": 1,
+        "nuzul": 1,
+        "duzeltme": 1,
+        "lugat": 2,
+        "anlam_tarihi": 2,
+        "kaynak_notu": 1,
+        "vucuh": 2
+      },
+      "by_kat": {
+        "temel": 7,
+        "ek": 41,
+        "arastirma": 5
+      },
+      "words": 3015,
+      "page_errors": [],
+      "warnings": [],
+      "passed": true
+    },
+    "empty_annotations": {
+      "surah": 1,
+      "target": "1:1",
+      "records": 0,
+      "kept": 0,
+      "dropped": [],
+      "by_tur": {},
+      "by_kat": {},
+      "words": 0,
+      "page_errors": [],
+      "warnings": [],
+      "passed": true
+    },
+    "missing_placement_files": {
+      "errors": []
+    },
+    "one_placed_line_no_claim_inventory": {
+      "errors": []
+    },
+    "rendered_page_all_annotations_deleted": {
+      "expected_records": 53,
+      "errors": []
+    },
+    "finish_place_missing_input_and_bos": {
+      "unit": "yer.1_1",
+      "pages": [
+        "1:1"
+      ],
+      "placed": 0,
+      "rejected": {},
+      "clusters": 0,
+      "unclaimed_claims": 0,
+      "problems": [],
+      "status": "ok",
+      "finished": "2026-10-06T08:20:59-0400"
+    },
+    "finish_extract_dropped_only_line": {
+      "unit": "synthetic.u01",
+      "output": "kapsam.jsonl",
+      "lines": {
+        "kept": [],
+        "dropped": {
+          "L1": [
+            "tur='bogus' not in ['anlam_tarihi', 'ayet_ayet', 'belagat', 'duzeltme', 'elenen', 'esbab', 'fikih', 'hadis', 'isari', 'karsi_anlati', 'kaynak_notu', 'kelam', 'kiraat', 'lugat', 'meal', 'modern', 'motif', 'nahiv', 'nazm', 'nuzul', 'paralel', 'soydas', 'tarihi_baglam', 'tefsir_dirayet', 'tefsir_rivayet', 'vucuh', 'yenilik', 'yontem', 'yorum_gelenegi']"
+          ]
+        },
+        "warnings": []
+      },
+      "gaps": {},
+      "kapsam": {
+        "listed": 1,
+        "planned": 1,
+        "missing": [],
+        "not_planned": [],
+        "by_durum": {
+          "ilgisiz": 1
+        },
+        "required_voice": {}
+      },
+      "problems": [],
+      "status": "ok",
+      "finished": "2026-10-06T08:20:59-0400"
+    },
+    "empty_one_call_trial_finish": {
+      "check": "ok (trial: page in the call directory only)",
+      "ok": true,
+      "kept": 0,
+      "dropped": 0,
+      "warnings": 0
+    },
+    "two_novel_claim_records_same_paragraph": {
+      "kept": 1,
+      "dropped": [
+        {
+          "id": "S001-YNL-999",
+          "errors": [
+            "S001-YNL-999: a second yenilik block after ¶5 (S001-YNL-998 is there); one per paragraph"
+          ]
+        }
+      ]
+    },
+    "sahih_claim_without_hadith_source": {
+      "kept": 1,
+      "dropped": []
+    }
+  },
+  "retrieval_probes": {
+    "hadith_1": {
+      "selected_segments": 54,
+      "per_page": {
+        "surah": 0,
+        "1:1": 18,
+        "1:2": 26,
+        "1:3": 21,
+        "1:4": 0,
+        "1:5": 6,
+        "1:6": 0,
+        "1:7": 17
+      },
+      "searches": [
+        {
+          "ayah": "1:1",
+          "kind": "phrase",
+          "query": "بسم الله الرحمن",
+          "hits": {
+            "BUKHARI": 10,
+            "MUSLIM": 7,
+            "ABUDAWUD": 2,
+            "NASAI": 1,
+            "IBNMAJAH": 1
+          },
+          "kept": {
+            "BUKHARI": 6,
+            "MUSLIM": 6,
+            "ABUDAWUD": 2,
+            "NASAI": 1,
+            "IBNMAJAH": 1
+          },
+          "too_common_in": []
+        },
+        {
+          "ayah": "1:1",
+          "kind": "phrase",
+          "query": "الله الرحمن الرحيم",
+          "hits": {
+            "BUKHARI": 10,
+            "MUSLIM": 7,
+            "ABUDAWUD": 2,
+            "NASAI": 1,
+            "IBNMAJAH": 1
+          },
+          "kept": {
+            "BUKHARI": 6,
+            "MUSLIM": 6,
+            "ABUDAWUD": 2,
+            "NASAI": 1,
+            "IBNMAJAH": 1
+          },
+          "too_common_in": []
+        },
+        {
+          "ayah": "1:2",
+          "kind": "phrase",
+          "query": "الحمد لله رب",
+          "hits": {
+            "BUKHARI": 7,
+            "MUSLIM": 4,
+            "ABUDAWUD": 5,
+            "TIRMIDHI": 1,
+            "NASAI": 3,
+            "IBNMAJAH": 5,
+            "MALIK": 2
+          },
+          "kept": {
+            "BUKHARI": 6,
+            "MUSLIM": 4,
+            "ABUDAWUD": 5,
+            "TIRMIDHI": 1,
+            "NASAI": 3,
+            "IBNMAJAH": 5,
+            "MALIK": 2
+          },
+          "too_common_in": []
+        },
+        {
+          "ayah": "1:2",
+          "kind": "phrase",
+          "query": "لله رب العلمين",
+          "hits": {},
+          "kept": {},
+          "too_common_in": []
+        },
+        {
+          "ayah": "1:3",
+          "kind": "phrase",
+          "query": "الرحمن الرحيم",
+          "hits": {
+            "BUKHARI": 10,
+            "MUSLIM": 8,
+            "ABUDAWUD": 3,
+            "TIRMIDHI": 1,
+            "NASAI": 2,
+            "IBNMAJAH": 2,
+            "MALIK": 1
+          },
+          "kept": {
+            "BUKHARI": 6,
+            "MUSLIM": 6,
+            "ABUDAWUD": 3,
+            "TIRMIDHI": 1,
+            "NASAI": 2,
+            "IBNMAJAH": 2,
+            "MALIK": 1
+          },
+          "too_common_in": []
+        },
+        {
+          "ayah": "1:4",
+          "kind": "phrase",
+          "query": "ملك يوم الدين",
+          "hits": {},
+          "kept": {},
+          "too_common_in": []
+        },
+        {
+          "ayah": "1:5",
+          "kind": "phrase",
+          "query": "اياك نعبد واياك",
+          "hits": {
+            "MUSLIM": 1,
+            "ABUDAWUD": 1,
+            "TIRMIDHI": 1,
+            "NASAI": 1,
+            "IBNMAJAH": 1,
+            "MALIK": 1
+          },
+          "kept": {
+            "MUSLIM": 1,
+            "ABUDAWUD": 1,
+            "TIRMIDHI": 1,
+            "NASAI": 1,
+            "IBNMAJAH": 1,
+            "MALIK": 1
+          },
+          "too_common_in": []
+        },
+        {
+          "ayah": "1:5",
+          "kind": "phrase",
+          "query": "نعبد واياك نستعين",
+          "hits": {
+            "MUSLIM": 1,
+            "ABUDAWUD": 1,
+            "TIRMIDHI": 1,
+            "NASAI": 1,
+            "IBNMAJAH": 1,
+            "MALIK": 1
+          },
+          "kept": {
+            "MUSLIM": 1,
+            "ABUDAWUD": 1,
+            "TIRMIDHI": 1,
+            "NASAI": 1,
+            "IBNMAJAH": 1,
+            "MALIK": 1
+          },
+          "too_common_in": []
+        },
+        {
+          "ayah": "1:6",
+          "kind": "phrase",
+          "query": "اهدنا الصرط المستقيم",
+          "hits": {},
+          "kept": {},
+          "too_common_in": []
+        },
+        {
+          "ayah": "1:7",
+          "kind": "phrase",
+          "query": "صرط الذين انعمت",
+          "hits": {},
+          "kept": {},
+          "too_common_in": []
+        },
+        {
+          "ayah": "1:7",
+          "kind": "phrase",
+          "query": "الذين انعمت عليهم",
+          "hits": {
+            "MUSLIM": 1,
+            "ABUDAWUD": 1,
+            "TIRMIDHI": 1,
+            "NASAI": 1,
+            "IBNMAJAH": 1,
+            "MALIK": 1
+          },
+          "kept": {
+            "MUSLIM": 1,
+            "ABUDAWUD": 1,
+            "TIRMIDHI": 1,
+            "NASAI": 1,
+            "IBNMAJAH": 1,
+            "MALIK": 1
+          },
+          "too_common_in": []
+        },
+        {
+          "ayah": "1:7",
+          "kind": "phrase",
+          "query": "انعمت عليهم غير",
+          "hits": {
+            "MUSLIM": 1,
+            "ABUDAWUD": 1,
+            "TIRMIDHI": 1,
+            "NASAI": 1,
+            "IBNMAJAH": 1,
+            "MALIK": 1
+          },
+          "kept": {
+            "MUSLIM": 1,
+            "ABUDAWUD": 1,
+            "TIRMIDHI": 1,
+            "NASAI": 1,
+            "IBNMAJAH": 1,
+            "MALIK": 1
+          },
+          "too_common_in": []
+        },
+        {
+          "ayah": "1:7",
+          "kind": "phrase",
+          "query": "عليهم غير المغضوب",
+          "hits": {
+            "MUSLIM": 1,
+            "ABUDAWUD": 1,
+            "TIRMIDHI": 1,
+            "NASAI": 1,
+            "IBNMAJAH": 1,
+            "MALIK": 1
+          },
+          "kept": {
+            "MUSLIM": 1,
+            "ABUDAWUD": 1,
+            "TIRMIDHI": 1,
+            "NASAI": 1,
+            "IBNMAJAH": 1,
+            "MALIK": 1
+          },
+          "too_common_in": []
+        },
+        {
+          "ayah": "1:7",
+          "kind": "phrase",
+          "query": "غير المغضوب عليهم",
+          "hits": {
+            "BUKHARI": 2,
+            "MUSLIM": 3,
+            "ABUDAWUD": 3,
+            "TIRMIDHI": 1,
+            "NASAI": 5,
+            "IBNMAJAH": 1,
+            "MALIK": 2
+          },
+          "kept": {
+            "BUKHARI": 2,
+            "MUSLIM": 3,
+            "ABUDAWUD": 3,
+            "TIRMIDHI": 1,
+            "NASAI": 5,
+            "IBNMAJAH": 1,
+            "MALIK": 2
+          },
+          "too_common_in": []
+        },
+        {
+          "ayah": "1:7",
+          "kind": "phrase",
+          "query": "المغضوب عليهم ولا",
+          "hits": {
+            "BUKHARI": 2,
+            "MUSLIM": 3,
+            "ABUDAWUD": 3,
+            "TIRMIDHI": 1,
+            "NASAI": 5,
+            "IBNMAJAH": 1,
+            "MALIK": 2
+          },
+          "kept": {
+            "BUKHARI": 2,
+            "MUSLIM": 3,
+            "ABUDAWUD": 3,
+            "TIRMIDHI": 1,
+            "NASAI": 5,
+            "IBNMAJAH": 1,
+            "MALIK": 2
+          },
+          "too_common_in": []
+        },
+        {
+          "ayah": "1:7",
+          "kind": "phrase",
+          "query": "عليهم ولا الضالين",
+          "hits": {
+            "BUKHARI": 2,
+            "MUSLIM": 3,
+            "ABUDAWUD": 3,
+            "TIRMIDHI": 1,
+            "NASAI": 5,
+            "IBNMAJAH": 1,
+            "MALIK": 2
+          },
+          "kept": {
+            "BUKHARI": 2,
+            "MUSLIM": 3,
+            "ABUDAWUD": 3,
+            "TIRMIDHI": 1,
+            "NASAI": 5,
+            "IBNMAJAH": 1,
+            "MALIK": 2
+          },
+          "too_common_in": []
+        }
+      ],
+      "known_relevant_reports": {
+        "BUKHARI:5376": {
+          "exists": true,
+          "selected": false,
+          "sahih_in_corpus": true,
+          "text_sha256": "723fa8c573447780b23de99070dbb8c2b5c018a1b6dbdb9edc67410b4c13d782",
+          "reference": {
+            "book": 70,
+            "hadith": 4
+          }
+        },
+        "ABUDAWUD:1694": {
+          "exists": true,
+          "selected": false,
+          "sahih_in_corpus": true,
+          "text_sha256": "13e4eb7d88c2cbf6f01b470a64ceb5872b59f34d17bbbc12ba023bbe1b773109",
+          "reference": {
+            "book": 9,
+            "hadith": 139
+          }
+        },
+        "BUKHARI:5988": {
+          "exists": true,
+          "selected": false,
+          "sahih_in_corpus": true,
+          "text_sha256": "bfff2f3f2e8546489682f9f870dc8ea587e36ae512ff041394aa89854a6e8298",
+          "reference": {
+            "book": 78,
+            "hadith": 19
+          }
+        }
+      }
+    },
+    "exact_phrase_spelling_counts_in_muslim": {
+      "اهدنا الصرط المستقيم": 0,
+      "اهدنا الصراط المستقيم": 1,
+      "لله رب العلمين": 0,
+      "لله رب العالمين": 5,
+      "ملك يوم الدين": 0,
+      "مالك يوم الدين": 1
+    },
+    "range_segment_routes": {
+      "MUQATIL:1:1-4": [
+        "surah"
+      ],
+      "MUQATIL:1:5-7": [
+        "1:5"
+      ],
+      "TABATABAI:1:1-5#5": [
+        "surah"
+      ]
+    },
+    "group_execution": {
+      "1": {
+        "prepared": 0,
+        "finished": 0,
+        "planned_units": 53,
+        "pages": [
+          "surah",
+          "1:1",
+          "1:2",
+          "1:3",
+          "1:4",
+          "1:5",
+          "1:6",
+          "1:7"
+        ],
+        "units_over_material_budget": [
+          {
+            "unit": "dirayet-cami.u02",
+            "chars": 121810
+          },
+          {
+            "unit": "dirayet-cami.u03",
+            "chars": 121201
+          },
+          {
+            "unit": "dirayet-cami.u05",
+            "chars": 111753
+          },
+          {
+            "unit": "dirayet-cami.u06",
+            "chars": 120789
+          },
+          {
+            "unit": "dirayet-cami.u07",
+            "chars": 121986
+          },
+          {
+            "unit": "beyani-huli.u01",
+            "chars": 164915
+          },
+          {
+            "unit": "meani-nahiv.u01",
+            "chars": 115645
+          },
+          {
+            "unit": "meal.u01",
+            "chars": 118842
+          }
+        ]
+      },
+      "87": {
+        "prepared": 0,
+        "finished": 0,
+        "planned_units": 48,
+        "pages": [
+          "surah",
+          "87:1",
+          "87:2",
+          "87:3",
+          "87:4",
+          "87:5",
+          "87:6",
+          "87:7",
+          "87:8",
+          "87:9",
+          "87:10",
+          "87:11",
+          "87:12",
+          "87:13",
+          "87:14",
+          "87:15",
+          "87:16",
+          "87:17",
+          "87:18",
+          "87:19"
+        ],
+        "units_over_material_budget": [
+          {
+            "unit": "meal.u01",
+            "chars": 247609
+          }
+        ]
+      }
+    },
+    "unassigned_held_sources_excluding_pack_inputs_and_explicit_exclusions": [],
+    "memory_only_sources": [
+      [
+        "ABDUH-AMMA",
+        "tafsir"
+      ],
+      [
+        "ACADEMIC",
+        "reference"
+      ],
+      [
+        "AMBROS-CONCISE",
+        "lexicon"
+      ],
+      [
+        "BADAWI-HALEEM",
+        "lexicon"
+      ],
+      [
+        "FARAHI-NIZAM",
+        "nazm"
+      ],
+      [
+        "FARRIN-STRUCTURE",
+        "nazm"
+      ],
+      [
+        "IBNKHALAWAYH-MUKHTASAR",
+        "qiraat"
+      ],
+      [
+        "KHULI",
+        "modern"
+      ],
+      [
+        "MEAL-MOZTURK",
+        "meal"
+      ],
+      [
+        "MUQATIL-WUJUH",
+        "wujuh"
+      ],
+      [
+        "NEUWIRTH-KORAN1",
+        "modern"
+      ],
+      [
+        "TARAMA",
+        "lexicon"
+      ]
+    ],
+    "synthetic_distinct_position_lost_by_deduplication": {
+      "retained": [
+        "TEST:1:1"
+      ],
+      "dropped": [
+        "TEST-FULL:1:1 (in TEST)"
+      ],
+      "distinct_tail": " وذهب آخرون إلى قول مخالف لم يذكر في النص المختصر لأن سبب هذا الحكم مختلف وهذا هو الرأي الزائد المستقل في النسخة المطولة",
+      "tail_in_retained_material": false,
+      "caveat": "Synthetic loss demonstration, not a claim that this sentence occurs in Tabari."
+    }
+  }
+}

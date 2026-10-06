@@ -1,6 +1,6 @@
 # Ayah enrichment v3: lean rewrite plan
 
-Status: the initial 1:6 pilot was interrupted after scope corrections. Both tracks restart from scratch with the finalized prompts, independently with Sol max and Astra xhigh. Earlier outputs are excluded from the clean run and model comparison; their incurred cost remains separate. Shared helpers retrieve material and report native usage; they do not spawn agents. A general batch runner is not implemented. Input: v16 r13 plus existing augment9 when available; otherwise bare r13. Enrichment does not rerun augmentation.
+Status: the 1:6 pilot is in progress in independent Sol max and Astra xhigh tracks. Current work is retained under the user's no-restart instruction; the original-language rule applies to subsequent assignments and final consolidation. Earlier superseded outputs remain excluded; their incurred cost remains separate. Shared helpers retrieve material and report native usage; they do not spawn agents. A general batch runner is not implemented. Input: v16 r13 plus existing augment9 when available; otherwise bare r13. Enrichment does not rerun augmentation.
 
 Execution preference: Standard only; Fast is forbidden. Manual CLI launches explicitly set `service_tier="default"` and `features.fast_mode=false`.
 
@@ -34,7 +34,7 @@ Attention quality takes priority over reducing call count, even at equal or high
 
 Read the available, in-scope commentary tied to the target ayah, including overlapping ayah ranges. Do not replace these passages with a ranked keyword search. Include the relevant meal panel and its substantive notes. Combine small compatible source groups when useful, preserving different authors and schools.
 
-Broader searches follow the claims: cross-referenced ayahs, concepts, spelling variants, known reports and memory leads. Hadith searches must work even when a report does not quote the target ayah. Use coherent finding groups and retain substantive report text, translations, source notes and attribution/grade information. Multiple languages alone do not establish redundancy. Do not import every commentary on every cited ayah automatically. A search limit or unavailable source remains a limitation, never evidence of novelty.
+Broader searches follow the claims: cross-referenced ayahs, concepts, spelling variants, known reports and memory leads. Hadith searches must work even when a report does not quote the target ayah. Use coherent finding groups and retain substantive original-language text, source notes and attribution/grade information. Use each source only in its original language; the sole exception is a meal available as both an English original and a Turkish translation, where both are used. A translated edition does not become an original by occupying the corpus's primary text field. Do not import every commentary on every cited ayah automatically. A search limit or unavailable original remains a limitation, never evidence of novelty.
 
 Read a shared passage once for the claims it can address. Exact duplicate text may be reused with all source identities retained; similarity must not erase a contrary position or additional argument. Previously written notes may help discovery but do not establish completeness for new claims.
 
