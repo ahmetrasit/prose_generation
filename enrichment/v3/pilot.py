@@ -301,7 +301,7 @@ def usage(detail=False):
         thread = threads.get(tid)
         if not thread:
             return 'interrupted'
-        if re.search(r'\brun=clean\b', thread['header']):
+        if re.search(r'\brun=bounded\b', thread['header']):
             return 'clean'
         parent = thread['meta'].get('forked_from_id')
         return run_for(parent) if parent else 'interrupted'

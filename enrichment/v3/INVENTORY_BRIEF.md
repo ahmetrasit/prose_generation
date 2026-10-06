@@ -1,6 +1,6 @@
 # 1:6 finding inventory
 
-Use only the assigned track, this brief and the frozen v16 r13 page with existing augment9. Read the full page once through `python3 -B enrichment/v3/pilot.py prose 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22`. Allow 25,000 output tokens and print the command output directly, not escaped tool-result JSON. The helper labels the 22 paragraphs and retains their augmentations. Do not rerun augmentation, survey the repository, read prior outputs or the other track, inspect helper code or spawn models.
+Use only the assigned track, this brief and the frozen v16 r13 page with existing augment9. Read all 22 paragraphs and their augmentations once in four separate deliveries, using `python3 -B enrichment/v3/pilot.py prose NUMBERS` with `1,2,3,4,5`, then `6,7,8,9,10`, then `11,12,13,14,15,16`, then `17,18,19,20,21,22`. Each group is under 15,000 characters. Call each separately with 10,000 output tokens; print only the command output, not escaped tool-result JSON. Do not combine the four outputs into one response. If a delivery is truncated, retrieve only its missing paragraphs before writing the inventory; a failed delivery does not count as a successful read. Never silently omit unread input. Do not rerun augmentation, survey the repository, read prior outputs or the other track, inspect helper code or spawn models.
 
 Write the compact inventory directly to the assigned `claims.jsonl`. One row per substantive finding or relationship:
 
