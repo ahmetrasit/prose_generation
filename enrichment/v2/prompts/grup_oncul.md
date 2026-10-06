@@ -1,18 +1,16 @@
-# Group oncul: antecedents and counter-evidence for the commentary's own findings
+# Group oncul: antecedents and counter-evidence for the commentary's own claims
 
-You have no material files: you read the digests of all the surah's pages and search yourself (up to 15
-`corpus.py` calls instead of 8; record each in gaps.json "searches"). For each claim of the commentary of kind imge
-(a latent lexical image, a resonance, a root-family image) or sentez (the commentary's own synthesis joining
-several findings), on any page:
-1. Search for antecedents, in this order: the maʿānī/gharīb works and WAHIDI-BASIT; the wujūh books; MAWARDI and
-   IBNJAWZI-ZAD enumerations; KASHSHAF and JURJANI for recognised majāz; QUSHAYRI, SULAMI, BURSEVI; BINTSHATI,
-   SAMARRAI-*, QUTB-ZILAL, IBNASHUR, ELMALILI; the *-FULL tafsirs at the word's other occurrences
-   (PACK/ayah/S_A/usage.md lists them: search it for the word, do not read it whole).
+Your input (below the brief) is, per page and paragraph, the commentary's claims that no source line touched:
+lexical images, resonances, its own syntheses. Search for each (up to 15 `corpus.py` calls instead of 8; record each
+in gaps.json "searches"):
+1. Antecedents, in this order: the maʿānī/gharīb works and WAHIDI-BASIT; the wujūh books; MAWARDI and IBNJAWZI-ZAD
+   enumerations; KASHSHAF and JURJANI for recognised majāz; QUSHAYRI, SULAMI, BURSEVI; BINTSHATI, SAMARRAI-*,
+   QUTB-ZILAL, IBNASHUR, ELMALILI; the *-FULL tafsirs at the word's other occurrences (PACK/ayah/S_A/usage.md lists
+   them: search it for the word, do not read it whole). Not the lexica: the commentary was written from them.
 2. Then counter-evidence: grammar or a reading that blocks the image, a near-synonym distinction, a loan or
-   homonymous root. Not the lexica: the base was written from the project dictionary and its lexica (user,
-   2026-10-05), so they are not antecedents.
-Blocks: an oncul block carrying the attestation itself (klasik_tanik, taranan, tarama, guc) when an antecedent
-exists; a yenilik block (kat:arastirma, at most one per paragraph) only when none was found, saying what was
-searched; itiraz for argued counter-evidence. Record what you searched even when nothing was found. Other groups
-report their own sources' content; you report only antecedents and counter-evidence for the commentary's claims.
-You have no material, so no kapsam.jsonl: gaps.json (with every search in "searches") is your account.
+   homonymous root.
+Write lines as stage 1 does, plus `"p"`: the paragraph of the claim. t oncul-carrying lines: the type of the source
+(tefsir_dirayet, nahiv …) with f oncul and `guc`, plus `klasik_tanik`, `taranan`, `tarama` when you state how far
+it is attested; when nothing was found, one `t:yenilik` line (kat arastirma, f sonuc, klasik_tanik bulunamadi or
+yapitaslari, taranan = the IDs you searched, tarama dilim or tam, guc) saying what was searched; itiraz with gerekce
+for argued counter-evidence. You have no material segments, so no kapsam.jsonl.

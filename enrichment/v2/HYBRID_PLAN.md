@@ -194,6 +194,25 @@ C11. **Status 2026-10-05 evening, after REVIEW_grup_2026-10-05.md** (user: "i'll
     unit is large (124k material + 169k digest tokens); digest repetition across units remains the largest token
     cost; usage.md/errata (duzeltme) still have no owner.
 
+C12. **Extract, then place (user agreed 2026-10-05; REVIEW_plan_adversarial_2026-10-05.md §4, with the author's
+    change: placement never writes prose).** The user's aim: after each paragraph an advanced reader sees every
+    discussion point the sources raise, one sentence each, with pointers; concise, nothing skipped, no pointer lost.
+    Stage 1 (grup.py prepare/finish): per group unit, no base/digest; one line per POSITION in lines.jsonl
+    {id,pg,w (ayah word refs from binding.json | ayah | surah),t,f,k,a,m ≤ ~40 words, + type fields}; the same
+    position in a later source adds its locator to k; kapsam {seg, durum kullanildi (satir = the lines whose k
+    carries it) | ilgisiz | okunamadi} — yeni_yok/tekrar gone: confirmations of the base are lines too; finish
+    checks pointer completeness and the required voice per page; agents run `grup.py lint --dir D`.
+    Stage 2 (grup.py place/finish-place; one call per page): the full numbered page + every kept line for it;
+    yer.jsonl gives each line p (or elenen with a reason), optional kat/f (itiraz needs gerekce, oncul needs guc),
+    clusters c with one rep (kept unchanged; merge unions every member's k and a); bos.jsonl = the base's claims no
+    line touches → the oncul unit's input (oncul runs after every page is placed; its lines carry p).
+    Merge expands lines into schema records (defaults recorded per record in provenance), capa from the paragraph by
+    script, validates, renders. Astra prompts hold all the text (stdin); Opus gets files. Index pages among citing
+    segments (> 0.15 verse refs per word) are listed, not read. Dropped: claims index, meal split, errata unit
+    (REVIEW_plan_adversarial). Plans: S1 45 extraction units + 8 placement calls; S87 28 + 20. Tested end to end on
+    a scratch copy (1:1, two synthetic units, one cluster, oncul). First Astra test (user runs): S1 rivayet.u02,
+    dirayet-cami.u03, dirayet-kesşaf.u01 → place 1:1 → compare with zengin.1_1.opus.high; then S87 nazm-bikai.
+
 ### Task D — Evaluation before production (gate)
 D1. Test set: 1:1, 1:7, 105:1/4, 107:7, 112:1–4 (+ 2:196, 3:7, 33:35 when their packs exist).
 D2. Questions derived from passages NOT cited by earlier pages: minority views, rare senses, footnotes,

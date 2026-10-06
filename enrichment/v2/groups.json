@@ -1,5 +1,5 @@
 {
- "_doc": "Hybrid enrichment groups (user, 2026-10-05: many passes, grouped by tradition so each agent's share is small; every source read; no silent losses; blocks are independent units anchored to the frozen v16 prose). material: ayah = segments tied to an ayah of the surah (a tie of up to 3 ayat goes to its first ayah's page; a wider or surah-level tie to the page of the single ayah it cites, else the surah page); a held source of an ayah group with no ayah tie anywhere in the corpus is reached by phrase search (the ayah's three-word sequences); cites: true adds segments that cite the surah's ayat without being tied (excerpts); cites = only such citing segments (reference works); search = hits of script-run searches (recorded, caps printed); meal = the pack's meal files; none = the agent searches itself (antecedents). required: every page hears this voice (a block, the agent's recorded reason, or the script's 'no material on this page'). unit: surah = one unit for the whole surah, never split (one verdict, one voice). odak: what the group's agent is for. not_read: sources no group reads, with the reason (printed by plan). Units are packed to budget_chars of material, balanced, split at page boundaries.",
+ "_doc": "Hybrid enrichment groups (user, 2026-10-05: many passes, grouped by tradition so each agent's share is small; every source read; no silent losses; extract (per group unit, lines per position) then place (one call per page)). material: ayah = segments tied to an ayah of the surah (a tie of up to 3 ayat goes to its first ayah's page; a wider or surah-level tie to the page of the single ayah it cites, else the surah page); a held source of an ayah group with no ayah tie anywhere in the corpus is reached by phrase search (the ayah's three-word sequences); cites: true adds segments that cite the surah's ayat without being tied (excerpts); cites = only such citing segments (reference works); search = hits of script-run searches (recorded, caps printed); meal = the pack's meal files; none = the agent searches itself (antecedents). required: every page hears this voice (a block, the agent's recorded reason, or the script's 'no material on this page'). unit: surah = one unit for the whole surah, never split (one verdict, one voice). odak: what the group's agent is for. not_read: sources no group reads, with the reason (printed by plan). Units are packed to budget_chars of material, balanced, split at page boundaries.",
  "budget_chars": 110000,
  "groups": [
   {
@@ -200,7 +200,7 @@
     "IBNHIBBAN",
     "MUSNAD-AHMAD"
    ],
-   "odak": "Sahih hadith only: a direct Prophetic explanation of the ayah's words when one exists, then the hadith a paragraph of the commentary is about; never a non-sahih report as hadis (shared core, rule 4)."
+   "odak": "Sahih hadith only: a direct Prophetic explanation of the ayah's words when one exists, then each hadith that bears on the ayah's words or subject; never a non-sahih report as hadis."
   },
   {
    "id": "meal",
@@ -213,7 +213,7 @@
    "id": "oncul",
    "material": "none",
    "sources": [],
-   "odak": "Antecedents and counter-evidence for the commentary's own findings (zengin.md Step 4): for each claim of kind imge or sentez, search the maʿānī/gharīb works, the wujūh books, the lexica that cite ayat under a branch, Kashshāf, the ishārī works and the full tafsir texts at the lemma's other occurrences; then counter-evidence. One oncul block when an antecedent exists, else one yenilik block; record what was searched (taranan, tarama)."
+   "odak": "Antecedents and counter-evidence for the commentary's own claims that no source line touched (the placement calls' bos.jsonl): search the maʿānī/gharīb works, the wujūh books, Kashshāf, the ishārī works and the full tafsir texts at the word's other occurrences (not the lexica: the base was written from them); then counter-evidence. An oncul line when an antecedent exists, else one yenilik line; record what was searched (taranan, tarama)."
   },
   {
    "id": "modern-bati",

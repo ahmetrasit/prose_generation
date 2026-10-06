@@ -9,9 +9,9 @@ places) and MEAL-ATAY (Atay's 2013 solo meal; verses aligned by machine): quote 
 - Ayah page: for each content word, what must be carried (concept and grammatical elements; mark what Turkish
   cannot carry as imposed by Turkish); which meals keep, drop, substitute or add (brackets kept exactly); the
   losses typed with `kayip` (kelime, eleman, aralik, ekleme, kayma, isaretleme, aktarma). Judge patterns, not slips:
-  check a translator's renderings of a key term at its other occurrences (`corpus.py get MEAL-X:S:A`). Blocks
-  tur:meal (mutercim, terim, kayip; yon and kiyas where relevant): one per shared loss (mutercim:"ortak"), one
-  per significant translator-specific finding, one verdict (islev:sonuc): the best literal and the best
-  explanatory meal, never one best overall.
+  check a translator's renderings of a key term at its other occurrences (`corpus.py get MEAL-X:S:A`). Lines
+  t meal (mutercim, terim, kayip; yon and kiyas where relevant): one per shared loss (mutercim "ortak"), one per
+  significant translator-specific finding, one verdict (f sonuc): the best literal and the best explanatory meal,
+  never one best overall.
 - Surah page: no word-by-word alignment; the losses shared across the surah's ayat and the one surah verdict
   (you hold every ayah of the surah, so it is written once, from all of them).
