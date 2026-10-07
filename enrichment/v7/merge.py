@@ -30,9 +30,15 @@ def tier1_rows(d, tag, ayah):
         meta = {i: json.loads(m or '{}') for i, m in con.execute('SELECT id, meta FROM src')}
         seg_src = {}
         out = []
-        for f in sorted((d / 'out' / tag).glob('c*.jsonl')):
+        seen = set()
+        for f in sorted((V7 / 'work').glob(f'*/out/{tag}/c*.jsonl')):  # tier 1 of every run: one database
             for line in f.read_text().splitlines():
+                if not line.strip():
+                    continue
                 x = json.loads(line)
+                if x['loc'] in seen:
+                    continue
+                seen.add(x['loc'])
                 if x['loc'] not in seg_src:
                     seg_src[x['loc']] = con.execute('SELECT src FROM seg WHERE seg=?', (x['loc'],)).fetchone()[0]
                 for n, r in enumerate(x['rows'], 1):

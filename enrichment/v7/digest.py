@@ -5,7 +5,7 @@ A digest records what one source says about the verses its segments are tied to:
 one row per claim, each row with a short verbatim anchor. Agents run through enrichment/v5/run_codex.py
 (Codex, at most seven at a time); the same chunk files serve every model.
 
-  digest.py build RUN --ayat 100:1 87:6 --models gpt-6-luna:max gpt-6-sol:high
+  digest.py build RUN --ayat 100:1 87:6 --models gpt-6-luna:max [--skip-done luna-max]
   digest.py check RUN [--model TAG] [--chunk N]     two checks: every segment answered, every anchor verbatim
   digest.py report RUN                              per-model totals and costs
 
@@ -96,7 +96,10 @@ def gather(ayat):
                     continue
                 if sid in extra[s, a]:
                     ae = max(ae, a)
-                found[sid] = {'loc': loc, 'src': sr, 'kind': kind, 'verses': f'{ss}:{aa}' + (f'-{ae}' if ae != aa else ''),
+                if sid in found:
+                    found[sid]['scope'].append(f'{s}:{a}')
+                    continue
+                found[sid] = {'scope': [f'{s}:{a}'], 'loc': loc, 'src': sr, 'kind': kind, 'verses': f'{ss}:{aa}' + (f'-{ae}' if ae != aa else ''),
                               'head': head or '', 'text': text}
     return src, [found[k] for k in sorted(found)], skipped
 
@@ -138,6 +141,20 @@ def build(a):
         raise SystemExit(f'{d} exists; choose a new run name')
     ayat = [parse_ayah(x) for x in a.ayat]
     src, segments, skipped = gather(ayat)
+    if a.skip_done:
+        done = {}
+        for f in sorted((V7 / 'work').glob(f'*/out/{a.skip_done}/c*.jsonl')):
+            for line in f.read_text().splitlines():
+                if line.strip():
+                    done.setdefault(json.loads(line)['loc'], f.parts[-4])
+        kept = []
+        for g in segments:
+            if g['loc'] in done:
+                skipped.append({'ayah': ','.join(g['scope']), 'loc': g['loc'], 'src': g['src'],
+                                'reason': f"already digested in {done[g['loc']]} ({a.skip_done})"})
+            else:
+                kept.append(g)
+        segments = kept
     with connect() as con:
         verse_text = {f'{s}:{x}': con.execute("SELECT text FROM seg JOIN src ON src.id=seg.src WHERE src.kind='quran' "
                                               'AND s=? AND a=?', (s, x)).fetchone()[0] for s, x in ayat}
@@ -154,6 +171,7 @@ def build(a):
             tail = f'\n<<part {k} ends; continues in part {k + 1}>>' if k + 1 < len(parts) else '\n<<end of chunk>>'
             (parts_dir / f'c{n:02d}.p{k}.txt').write_text(f'<<chunk {n} part {k} of 0..{len(parts) - 1}>>\n{p}{tail}\n')
         plan.append({'chunk': n, 'sources': srcs, 'kinds': kinds,
+                     'scope': list(dict.fromkeys(x for g in chunk for x in g['scope'])),
                      'source_lines': [source_line(s, src[s][2], src[s][0]) for s in srcs],
                      'locs': [g['loc'] for g in chunk], 'chars': len(text), 'parts': len(parts)})
     brief = BRIEF.read_text()
@@ -167,7 +185,7 @@ def build(a):
                     'NN': f'{c["chunk"]:02d}', 'LAST': str(c['parts'] - 1), 'SEGMENTS': str(len(c['locs'])),
                     'NSRC': str(len(c['sources'])), 'SOURCES': '\n'.join(f'- {x}' for x in c['source_lines']),
                     'GUIDES': '\n'.join(f'- **{k}**: {GUIDE[k]}' for k in c['kinds']),
-                    'AYAT': '\n'.join(f'- {k}: {v}' for k, v in verse_text.items())}
+                    'AYAT': '\n'.join(f'- {k}: {verse_text[k]}' for k in c['scope'])}
             text = brief
             for k, v in fill.items():
                 text = text.replace('{' + k + '}', v)
@@ -185,12 +203,12 @@ def build(a):
               + ' '.join(c['sources']))
     routine = defaultdict(int)
     for s in skipped:
-        if s['reason'].startswith(('kind meal', 'kind translation', 'kind quran')):
+        if s['reason'].startswith(('kind meal', 'kind translation', 'kind quran', 'already digested')):
             routine[s['ayah'], s['reason']] += 1
         else:
             print(f"SKIPPED {s['ayah']} {s['loc']}: {s['reason']}")
     for (ayah, reason), k in sorted(routine.items()):
-        print(f"SKIPPED {ayah}: {k} segments, {reason} (listed in manifest.json)")
+        print(f"SKIPPED {ayah}: {k} segment(s), {reason} (listed in manifest.json)")
 
 
 def check_chunk(d, tag, c):
@@ -284,6 +302,7 @@ def main():
     sub = parser.add_subparsers(dest='cmd', required=True)
     p = sub.add_parser('build'); p.add_argument('run'); p.add_argument('--ayat', nargs='+', required=True)
     p.add_argument('--models', nargs='+', required=True)
+    p.add_argument('--skip-done', metavar='TAG', help='skip segments already digested by this model tag in any run')
     p = sub.add_parser('check'); p.add_argument('run'); p.add_argument('--model'); p.add_argument('--chunk', type=int)
     p = sub.add_parser('report'); p.add_argument('run')
     a = parser.parse_args()
