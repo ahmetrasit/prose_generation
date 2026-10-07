@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_test-20261007_luna-max_c07",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-07T10:00:26",
+  "ended": "2026-10-07T10:20:24",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a116aa-62ed-7393-82a7-e3cf25babc89",
+  "commands": 6,
+  "usage": {
+    "input_tokens": 758281,
+    "cached_input_tokens": 692736,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 42096,
+    "reasoning_output_tokens": 16118
+  },
+  "stderr": "2026-10-07T14:00:32.470296Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-07T14:00:32.641026Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-07T14:07:15.075461Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid hunk at line 3, '{\"loc\":\"ELMALILI:87:6\",\"rows\":[' is not a valid hunk header. Valid hunk headers: '*** Add File: {path}', '*** Delete File: {path}', '*** Update File: {path}'\n",
+  "prompt_sha256": "01ffe82896e30db9bd669d771b0183f307270309e6b27efdb66f1f18dc518949",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/07/rollout-2026-10-07T10-00-32-01a116aa-62ed-7393-82a7-e3cf25babc89.jsonl",
+  "usd_equivalent": 0.03453,
+  "requests": 14,
+  "max_request_input_tokens": 79751,
+  "over_context_cap": false
+}

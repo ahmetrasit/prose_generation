@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7d_test-20261007_luna-max_c06",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-07T10:00:26",
+  "ended": "2026-10-07T10:21:06",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a116aa-62d8-71a3-a52d-c63479260f22",
+  "commands": 12,
+  "usage": {
+    "input_tokens": 5038230,
+    "cached_input_tokens": 4826368,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 138236,
+    "reasoning_output_tokens": 57724
+  },
+  "stderr": "2026-10-07T14:00:32.638843Z ERROR codex_models_manager::manager: failed to refresh available models: request timed out\n2026-10-07T14:06:14.783909Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/test-20261007/out/luna-max/c06.jsonl:\n{\"loc\":\"STUDYQURAN:87:intro\",\"rows\":[\n2026-10-07T14:19:38.638609Z ERROR codex_core::tools::router: error=apply_patch verification failed: invalid hunk at line 2, Update file hunk for path 'enrichment/v7/work/test-20261007/out/luna-maxp184\",\"rows\":[{\"verses\":[\"87:6\"],\"speaker\":\"مجاهد\",\"stance\":\"reports\",\"claim\":\"Mujāhid and al-Kalbī say the Prophet recited revelation's beginning before Gabriel finished, fearing forgetfulness; afterward he forgot nothing.\",\"anchor\":\"وقال مجاهد والكلبي: كان النبي (عليه السلام) إذا نزل جبريل بالقرآن\",\"mentions\":[]},{\"verses\":[\"87:6\"],\"speaker\":\"الفراء\",\"stance\":\"reports\",\"claim\":\"Al-Farrāʾ says the exception means God did not intend the Prophet to forget, like conventional exceptions meant to withhold nothing.\",\"anchor\":\"ما قاله الفراء :  لم يشأ أن ينسى شيئا وهو كقوله سبحانه\",\"mentions\":[\"11:107\"]},{\"verses\":[\"87:6\"],\"speaker\":\"الجنيد\",\"stance\":\"reports\",\"claim\":\"Al-Junayd answers Ibn Kaysān that the Prophet will not forget to act on revelation; Ibn Kaysān praises the answer.\",\"anchor\":\"لا تنسى العمل به، فأعجب ابن كيسان به إعجابا شديدا\",\"mentions\":[]},{\"verses\":[\"87:7\"],\"speaker\":\"محمد بن حامد\",\"stance\":\"reports\",\"claim\":\"Muḥammad ibn Ḥāmid glosses the manifest and hidden as openly and secretly giving charity.\",\"anchor\":\"قال محمد بن حامد: يعلم إعلان الصدقة وإخفاءها\",\"mentions\":[]},{\"verses\":[\"87:7\"],\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"Another explanation says God knows the Prophet's recitation aloud to Gabriel and silent rehearsal.\",\"anchor\":\"متصل بالكلام الأول معناه نعلم الجهر مما تقرأه يا محمد\",\"mentions\":[]},{\"verses\":[\"87:8\"],\"speaker\":\"author\",\"stance\":\"reports\",\"claim\":\"One view takes ease toward ease as ease in the work of Paradise; another as easy revelation to memorize, teach, and practice; a third as tolerant law.\",\"anchor\":\"ونيسرك لليسرى لعمل الجنة\",\"mentions\":[]},{\"verses\":[\"87:9\",\"87:10\"],\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The Prophet should admonish with Quran where it benefits; the one who fears God will take heed.\",\"anchor\":\"فذكر عظ بالقرآن إن نفعت الذكرى التذكر سيذكر سيتعظ من يخشى الله\",\"mentions\":[]},{\"verses\":[\"87:11\"],\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The wretched person, so in God's knowledge, avoids and keeps away from the reminder.\",\"anchor\":\"يتجنبها يعني ويتجنب التذكرة ويتباعد عنها\",\"mentions\":[]},{\"verses\":[\"87:12\",\"87:13\"],\"speaker\":\"author\",\"stance\":\"holds\",\"claim\":\"The wretched enters the greatest Fire, with no death for relief and no beneficial life.\",\"anchor\":\"ثم لا يموت فيها فيستريح ولا يحيى أي حياة تنفعه\",\"mentions\":[]}]}' is empty\n",
+  "prompt_sha256": "1cdb7517d26bd2843da0796f762ea4bff38be7e7856def00d6d95900266d4c38",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/07/rollout-2026-10-07T10-00-32-01a116aa-62d8-71a3-a52d-c63479260f22.jsonl",
+  "usd_equivalent": 0.138568,
+  "requests": 40,
+  "max_request_input_tokens": 182928,
+  "over_context_cap": true
+}
