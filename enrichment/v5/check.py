@@ -30,13 +30,15 @@ def segment_text(con, loc, family):
     return (row[1], (row[2] or '') + '\n' + body(row, family)) if row else (None, None)
 
 
-def check_extract(d):
+def check_extract(d, only=None, record=True):
     meta = json.loads((d / 'family.json').read_text())
     manifest = json.loads((d / 'packet/manifest.json').read_text())
     paragraphs = set(page(meta['unit'])[1])
     problems, summary = [], {}
     with connect() as con:
         for chunk in manifest['chunks']:
+            if only is not None and chunk['n'] != only:
+                continue
             c = f"c{chunk['n']:02d}"
             folder = d / 'extract' / c
             if not (folder / 'coverage.jsonl').exists() or not (folder / 'extracts.jsonl').exists():
@@ -75,7 +77,8 @@ def check_extract(d):
                 problems.append(f'{c}: coverage "extracted" disagrees with extracts for '
                                 f'{len(marked ^ extracted_locs)} segments')
             summary[c] = {'segments': len(expected), 'extracts': len(items), 'coverage': dict(status)}
-    dump(d / 'extract/CHECK.json', {'ok': not problems, 'chunks': summary, 'problems': problems})
+    if record:
+        dump(d / 'extract/CHECK.json', {'ok': not problems, 'chunks': summary, 'problems': problems})
     return problems, summary
 
 

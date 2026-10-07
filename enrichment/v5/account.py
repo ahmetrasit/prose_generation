@@ -14,7 +14,7 @@ import json
 from collections import defaultdict
 from pathlib import Path
 
-from common import LONG_CONTEXT, RATES, SOL_LONG, V5, dump
+from common import LONG_CONTEXT, RATES, ROOT, SOL_LONG, V5, dump
 
 SESSIONS = Path.home() / '.codex/sessions'
 KEYS = ('input_tokens', 'cached_input_tokens', 'cache_write_input_tokens', 'output_tokens', 'reasoning_output_tokens')
@@ -39,7 +39,7 @@ def session(file, prefix):
         if not agent.startswith(prefix):
             return None
         rec = {'agent': agent, 'session_id': meta.get('id'), 'model': None, 'effort': None, 'completed': False,
-               'tool_calls': 0, 'requests': 0, 'long_context_requests': 0, 'unpriced_long_context': 0,
+               'tool_calls': 0, 'requests': 0, 'max_request_input': 0, 'long_context_requests': 0, 'unpriced_long_context': 0,
                'usd': 0.0, **{k: 0 for k in KEYS}}
         previous = {k: 0 for k in KEYS}
         for line in handle:
@@ -63,7 +63,9 @@ def session(file, prefix):
                     continue
                 if any(v < 0 for v in delta.values()):
                     raise ValueError(f'{file}: native counter decreased')
-                long_context = payload['info'].get('last_token_usage', {}).get('input_tokens', 0) > LONG_CONTEXT
+                request_input = payload['info'].get('last_token_usage', {}).get('input_tokens', 0)
+                rec['max_request_input'] = max(rec['max_request_input'], request_input)
+                long_context = request_input > LONG_CONTEXT
                 r, unpriced = rate(rec['model'], long_context)
                 if r is None:
                     raise ValueError(f'{file}: no saved rate for model {rec["model"]}')
@@ -86,6 +88,19 @@ def main():
     plan = json.loads((V5 / f'work/{run}.json').read_text())
     expected = {a['agent']: a for stage in plan['stages'].values() for a in stage}
     records = [r for f in sorted(SESSIONS.glob('2026/*/*/*.jsonl')) if (r := session(f, plan['prefix']))]
+    # codex exec runs (run_codex.py) and Claude subagent runs record themselves in runs/<agent>/run.json
+    for unit_dir in plan['units'].values():
+        for f in sorted((ROOT / unit_dir / 'runs').glob('*/run.json')):
+            run_rec = json.loads(f.read_text())
+            if run_rec.get('session_file'):
+                r = session(Path(run_rec['session_file']), '')
+            else:
+                r = {'model': run_rec.get('model'), 'effort': run_rec.get('effort'), 'tool_calls': run_rec.get('commands', 0),
+                     'requests': run_rec.get('requests', 0), 'max_request_input': run_rec.get('max_request_input_tokens', 0),
+                     'long_context_requests': 0, 'unpriced_long_context': 0, 'usd': run_rec.get('usd_equivalent', 0.0),
+                     **{k: run_rec.get('usage', {}).get(k, 0) for k in KEYS}}
+            r.update(agent=run_rec['agent'], completed=run_rec.get('turn_completed', r.get('completed', False)))
+            records.append(r)
     for r in records:
         r['role'] = expected.get(r['agent'], {}).get('role', 'unexpected')
     totals = defaultdict(lambda: defaultdict(float))
@@ -105,11 +120,11 @@ def main():
             w.writerows(records)
     lines = [f'# {run} agent costs', '', 'Native usage; input includes cached reads; output includes reasoning. '
              'Standard API-equivalent at the saved rates; parent excluded.', '',
-             '| Agent | Model | Done | Input | Cached | Output | Reasoning | Calls | USD |', '|---|---|---|---:|---:|---:|---:|---:|---:|']
+             '| Agent | Model | Done | Input | Cached | Output | Reasoning | Calls | Max request | USD |', '|---|---|---|---:|---:|---:|---:|---:|---:|---:|']
     for r in sorted(records, key=lambda r: r['agent']):
         lines.append(f"| {r['agent'].removeprefix(plan['prefix'])} | {r['model']} {r['effort']} | {'yes' if r['completed'] else 'no'} | "
                      f"{r['input_tokens']:,} | {r['cached_input_tokens']:,} | {r['output_tokens']:,} | "
-                     f"{r['reasoning_output_tokens']:,} | {r['tool_calls']} | ${r['usd']:.4f} |")
+                     f"{r['reasoning_output_tokens']:,} | {r['tool_calls']} | {r.get('max_request_input', 0):,} | ${r['usd']:.4f} |")
     lines += ['', f"Total: ${totals['ALL']['usd']:.4f} for {len(records)} of {len(expected)} agents."]
     flagged = [r['agent'] for r in records if r['unpriced_long_context']]
     if flagged:

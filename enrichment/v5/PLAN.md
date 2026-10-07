@@ -1,6 +1,16 @@
 # Enrichment v5: packet → extract → write
 
-Status 2026-10-06: built and dry-run on real data; **pilot prepared, nothing spawned**. Every spawn needs the user's go.
+Status 2026-10-06 night: built and dry-run on real data. **Stage 1 authorized by the user and running:**
+the Luna max extractors (run here through `run_codex.py`, Codex subscription) and the Opus 5.5 poetry-leads agent
+(Claude subagent, replacing Astra). The Sol writers (stage 2) need their own go.
+
+User decisions (2026-10-06):
+- Extractors run at Luna **max**.
+- Leads use **Opus 5.5** instead of Astra.
+- Luna's window is ~258k tokens, but an extractor's whole context must stay **≤ 120k**. Chunks are therefore
+  ≤ 170k characters (`common.CHUNK_CHARS`). `run.json` records each agent's largest single request and flags
+  any over the cap.
+- Runs go seven at a time at most (v16 batch rule), each batch followed by commit and push.
 
 ## Why v5
 
@@ -41,18 +51,19 @@ Rules carried over from v4: corpus-only attribution, exact locators and anchors,
 | `leads.py` | memory leads → roster FTS candidates (`leads/candidates.txt`); leads without hits stay listed |
 | `prepare.py` | run directories, inputs (byte-identical to v4), packets, one spawn text per agent, `work/<run>.json` with stages |
 | `check.py` | `extract DIR`, `write DIR LANE`, `assemble RUN --lane L`; never edits agent files |
+| `run_codex.py` | runs spawn files through `codex exec` on the v16 pattern (no user config, web and skill search off, JSON stream kept; workspace-write so agents can write their outputs). Keeps the session file to measure per-request context. Never reruns an agent. At most 7 in parallel. |
 | `account.py` | native Codex usage → per-request cost at each model's rate (reproduces the saved 100:1 costs to the cent) |
 | `evaluate.py` | `reference` (from v4 runs + hand-checked extras; agents never see `eval/`) and `score RUN`: packet / extracted / cited recall, new segments, costs; `REVIEW-*.md` puts reference and v5 blocks side by side per paragraph for finding-level judgement |
 | `briefs/` | extract, write, leads, search |
 
-## Pilot (`work/pilot-20261007.json`, 14 agents)
+## Pilot (`work/pilot-20261007.json`, 24 agents after the 120k cap)
 
 | Unit / family | Why | Agents |
 |---|---|---|
-| 100:1 rivayet (436 segments, ~168k tokens, 2 chunks) | same packet written two ways: from extracts and directly. Measures what the extractor loses, and what each costs | 2 Luna, 2 Sol |
-| 100:1 meal (2,553 segments, ~205k, 2 chunks) | translator wording through an extractor | 2 Luna, 1 Sol |
-| 1:6 grammar (1,057 segments, ~361k, 4 chunks) | heavy page, forced extraction | 4 Luna, 1 Sol |
-| 100:1 poetry (search) | non-indexed: memory leads plus search; known answers are *kenūd*, ḍ-b-ḥ, Imruʾ al-Qays v1p71#2 | 1 Astra (leads), 1 Sol |
+| 100:1 rivayet (436 segments, ~168k tokens, 4 chunks) | same packet written two ways: from extracts and directly. Measures what the extractor loses, and what each costs | 4 Luna, 2 Sol |
+| 100:1 meal (2,553 segments, ~205k, 6 chunks) | translator wording through an extractor | 6 Luna, 1 Sol |
+| 1:6 grammar (1,057 segments, ~361k, 8 chunks) | heavy page, forced extraction | 8 Luna, 1 Sol |
+| 100:1 poetry (search) | non-indexed: memory leads plus search; known answers are *kenūd*, ḍ-b-ḥ, Imruʾ al-Qays v1p71#2 | 1 Opus 5.5 (leads), 1 Sol |
 
 Order:
 
@@ -91,9 +102,18 @@ What the pilot decides:
 
 ## Known limits and next steps
 
-- **Luna's context window is unknown.** A chunk ends near 155k tokens of context. If an extractor fails on length, lower `CHUNK_TOKENS` in `common.py`; packets rebuild without any model.
+- **The 120k cap is enforced by chunk size, not by Codex.** The token estimate is pessimistic (2.5 characters/token), and the measured per-request peak is checked after every run.
+- **Leak check.** The brief examples must never contain known reference answers. The leads example originally showed the *kenūd* witness; that was caught and replaced before launch.
 - **Meal packets are mostly near-duplicate renderings** (1:6: 13.8k segments, about 1.2M tokens). Collapsing identical renderings per verse is the next large saving.
 - **The reference set is not a gold standard.** It is what two v4 agents happened to cite. New v5 material is judged, not counted as error.
 - **The range overlay covers only one pattern;** other editions' range errors are unknown.
 - **Memory leads remain unverified** until a writer reads the passage. Leads are never published.
 - **Untracked (`.gitignore`):** packets' `chunk-*.txt` and `segments.jsonl` are reproducible with `packet.py`; so is `eval/reference.json`, with `evaluate.py reference`.
+
+
+## Stopped 2026-10-06 night (user)
+
+The user stopped the Luna extractor batches after the cost review; v5 is superseded by `enrichment/v6/PLAN.md`
+(findings: `REPORT_2026-10-06.md`). Completed extractor runs: v5p_100_1_rivayet_extract_c01, v5p_100_1_rivayet_extract_c02, v5p_100_1_rivayet_extract_c05, v5p_100_1_rivayet_extract_c06, v5p_100_1_rivayet_extract_c08. Interrupted (killed mid-run, outputs
+incomplete, no run.json): v5p_100_1_rivayet_extract_c03, v5p_100_1_rivayet_extract_c04, v5p_100_1_rivayet_extract_c07. Never started: the remaining rivayet, all meal and all grammar chunks.
+Poetry finished both writers (Opus `write-search`, Sonnet `write-search-sonnet`), both checked. No other writer ran.

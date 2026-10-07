@@ -1,31 +1,69 @@
-<!-- agent /root/v5p_100_1_rivayet_extract_c01 | model gpt-6-luna | effort high | service default | fast off -->
+<!-- agent /root/v5p_100_1_rivayet_extract_c01 | model gpt-6-luna | effort max | service default | fast off -->
 
-# v5 extractor: rivayet, 100:1, chunk 1 of 2
+# TASK: verbatim extraction — rivayet, 100:1, chunk 1 of 15
 
-You read one chunk of a source packet in full and quote, verbatim, everything in it that a later writer needs. You do not write commentary. Keep gpt-6-luna, high effort; do not spawn agents or change the task.
+## ROLE
+You copy source passages. You do not write commentary. Model gpt-6-luna, effort max. Do not spawn agents. Do not change the task.
 
-**Evidence rule.** The packet is the only evidence. Training knowledge helps you understand the language; it must not add positions, quotations, report details or translator wording. No web, repository or filesystem search; no other runs, outputs or reference files. The only command you use is:
+## THE ONLY COMMAND YOU MAY RUN
+`python3 -B enrichment/v5/read.py enrichment/v5/work/100_1/pilot-20261007/rivayet <subcommand>`
 
-`python3 -B enrichment/v5/read.py enrichment/v5/work/100_1/pilot-20261007/rivayet <command>`
+| Subcommand | What it does |
+|---|---|
+| `input N` (N = 1, 2, 3, 4) | prints part N of the commentary page |
+| `chunk 1 --part K` (K = 0, 1, 2, …) | prints delivery K of your source chunk |
+| `selfcheck 1` | checks your two output files and lists every problem |
 
-**1. Read the page.** `input 1` … `input 4`, once each, in separate calls. This is the frozen Turkish commentary on 100:1: 22 numbered paragraphs, including augmentations. Note each paragraph's findings, secondary relations and cross-references internally; no inventory essay.
+No other commands. No `--help`. No web, no repository search, no other files, no other runs.
 
-**2. Read your chunk completely.** `chunk 1 --part 0`, then every `--part` the delivery header names, until `next: None`. Each segment opens with a header: locator, source, heading, the verses it was gathered for and the paragraphs those verses come from. A segment may run across deliveries.
+**Run every command with 12,000 output tokens** (set the shell tool's maximum output to 12,000 tokens) and print the output directly. A delivery is at most 10,000 characters, so it arrives whole. If any output still looks cut (a delivery header without its full text, or text ending mid-segment with no `<<continues` line), run that same delivery once more with the 12,000-token setting; never mark text `unreadable` because the display was clipped.
 
-**3. Extract.** For each segment, decide what bears on any paragraph's findings (not only the paragraphs in the header). Family purpose: Early and transmitted tafsir: competing identifications and lexical explanations, who transmits each position, contextual arguments and later reception. Preserve independent voices and distinguish a report from its grading. Address all substantial paragraph findings, not only 100:1.
+## PROCEDURE — follow in order, each step once
 
-Quote the source's own words, copied exactly, long enough to carry the point: the author's position and reasons, competing views and who holds them, which view the author prefers, transmitters and chains when they matter, grading statements the source attributes, edition or translator identity, wording differences (meal), lexical witnesses with the commentator's gloss (poetry). Several quotes from one segment are normal. Never summarise in place of quoting; never repair OCR; keep footnote markers. If a relevant passage is long, quote all of it rather than trimming it to a phrase. If unsure whether something matters, extract it — the writer can discard; it cannot recover what you skip.
+**Step 1.** Run `input 1`, `input 2`, `input 3`, `input 4`, one call each. The page has 22 numbered paragraphs. Note each paragraph's findings in your head. Do not write anything yet.
 
-Translations: a source flagged as a translation is quoted as the translation; its wording is not the author's original.
+**Step 2.** Run `chunk 1 --part 0`. Read the header line: it says the last delivery number and `next: K`. Run `--part K` for every K until the header says `next: None`. **Read each delivery exactly once. Never re-run a delivery.**
+Each source segment starts with a line `=== SEGMENT <LOCATOR> | source … | verses … | paragraphs … ===`. A segment may continue into the next delivery.
 
-**Outputs** (write only these two files, in `enrichment/v5/work/100_1/pilot-20261007/rivayet/extract/c01/`):
+**Step 3.** For every segment, decide: does anything in it bear on any paragraph's findings? (Any paragraph, not only the ones in its header.)
+Family purpose: Early and transmitted tafsir: competing identifications and lexical explanations, who transmits each position, contextual arguments and later reception. Preserve independent voices and distinguish a report from its grading. Address all substantial paragraph findings, not only 100:1.
 
-`extracts.jsonl`, one object per quote:
-`{"loc":"EXACT_LOCATOR","p":[3,7],"kind":"position|disagreement|preference|report|grading|translation|witness|context","quote":"verbatim text from the segment","note":"one line: what this shows and for which finding"}`
+**Step 4.** Write the two output files (format below) in `enrichment/v5/work/100_1/pilot-20261007/rivayet/extract/c01/`, using your file-writing tool.
 
-`coverage.jsonl`, exactly one row for every segment in the chunk, in order:
-`{"loc":"EXACT_LOCATOR","status":"extracted|not_relevant|unreadable","note":"short reason when not extracted"}`
+**Step 5.** Run `selfcheck 1`. If it lists problems, fix the files and run `selfcheck 1` again. Repeat until it prints `OK`.
 
-`p` lists the paragraphs the quote serves. `unreadable` is for OCR or encoding that prevents reading; say what is wrong. `not_relevant` means you read it and nothing in it bears on the page. The parent checks that every quote occurs in its segment and that every segment has a coverage row.
+**Step 6.** Stop. Reply with: number of segments, extracted, not_relevant, unreadable, number of quotes.
 
-Stop after the two files. Report counts and any unreadable or doubtful segments.
+## WHAT TO QUOTE
+- MUST copy the source's own words exactly: same letters, same order. Do not correct, translate, shorten inside, or add vowels.
+- MUST quote enough to carry the point: the position and its reasons; competing views and who holds them; which view the author prefers; transmitters when they matter; grading words the source states; translator or edition names; differing wordings (translations); a poetry line plus the commentator's gloss.
+- A long relevant passage: quote all of it. Several quotes from one segment are normal.
+- When unsure whether something matters: quote it. The writer can drop it; nobody can recover what you skip.
+- A source marked as a translation stays a translation; never present it as the original author's words.
+
+## OUTPUT FILE 1: `extracts.jsonl` — one JSON object per line, one per quote
+```
+{"loc":"EXACT_LOCATOR","p":[3,7],"kind":"position","quote":"exact source words","note":"one line: what it shows, for which finding"}
+```
+| Field | Rule |
+|---|---|
+| `loc` | the locator exactly as in the segment header |
+| `p` | list of paragraph numbers (1–22) the quote serves |
+| `kind` | one of: `position`, `disagreement`, `preference`, `report`, `grading`, `translation`, `witness`, `context` |
+| `quote` | exact words from that segment |
+| `note` | one short line in English or Turkish |
+
+## OUTPUT FILE 2: `coverage.jsonl` — exactly one line for EVERY segment in your chunk
+```
+{"loc":"EXACT_LOCATOR","status":"extracted","note":""}
+```
+| `status` | Use when |
+|---|---|
+| `extracted` | you wrote at least one quote from it |
+| `not_relevant` | you read it and nothing bears on the page; give a short reason in `note` |
+| `unreadable` | the source text itself is broken (OCR or encoding); say what is wrong in `note`. Never use it for text you did not get to see. |
+
+## CHECKLIST BEFORE STOPPING
+- [ ] every segment of the chunk has exactly one coverage line
+- [ ] every `extracted` segment has at least one quote, and every quoted segment is `extracted`
+- [ ] `selfcheck 1` prints `OK`

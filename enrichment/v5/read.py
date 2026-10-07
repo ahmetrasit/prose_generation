@@ -7,6 +7,7 @@
   read.py DIR get LOCATOR --part K    one whole segment, paged (writers; search routes)
   read.py DIR search "WORDS" [--source ID] [--offset N]   roster keyword discovery (search routes only)
   read.py DIR candidates --part K     memory leads with corpus hits found by leads.py (search routes)
+  read.py DIR selfcheck C             extractor's own check of chunk C outputs (prints OK or the problems)
 
 DIR is the family directory named in the brief, e.g. enrichment/v5/work/100_1/pilot-20261007/rivayet.
 Every delivery is at most PART_CHARS characters and states the next offset; nothing is cut.
@@ -67,10 +68,16 @@ def main():
     p = sub.add_parser('get'); p.add_argument('loc'); p.add_argument('--part', type=int, default=0)
     p = sub.add_parser('search'); p.add_argument('query'); p.add_argument('--source'); p.add_argument('--offset', type=int, default=0)
     p = sub.add_parser('candidates'); p.add_argument('--part', type=int, default=0)
+    p = sub.add_parser('selfcheck'); p.add_argument('c', type=int)
     a = parser.parse_args()
     d = family_dir(a.dir)
     meta = json.loads((d / 'family.json').read_text())
     family = meta['family']
+    if a.cmd == 'selfcheck':
+        import check
+        problems, _ = check.check_extract(d, only=a.c, record=False)
+        print('OK' if not problems else '\n'.join(problems[:60]) + (f'\n... {len(problems) - 60} more' if len(problems) > 60 else ''))
+        return
     if a.cmd == 'input':
         f = d.parent / f'input-{a.n}.txt'
         if not f.exists():

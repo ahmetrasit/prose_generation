@@ -1,10 +1,10 @@
 {
   "run": "pilot-20261007",
-  "created": "2026-10-07T01:38:15.967593+00:00",
+  "created": "2026-10-07T01:49:28.690327+00:00",
   "prefix": "/root/v5p_",
   "units": {
-    "100_1": "enrichment/v5/work/100_1/pilot-20261007",
-    "1_6": "enrichment/v5/work/1_6/pilot-20261007"
+    "1_6": "enrichment/v5/work/1_6/pilot-20261007",
+    "100_1": "enrichment/v5/work/100_1/pilot-20261007"
   },
   "jobs": [
     {
@@ -37,112 +37,540 @@
       "family": "poetry",
       "route": "search",
       "writers": [
-        "search"
+        "search",
+        "search-sonnet"
       ]
     }
   ],
   "stages": {
     "1_extract_and_leads": [
       {
+        "agent": "/root/v5p_100_1_poetry_leads",
+        "role": "leads",
+        "model": "claude-opus-5-5",
+        "effort": "high (general-purpose subagent, model opus; effort not pinned)",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_poetry_leads.md",
+        "after": "python3 -B enrichment/v5/leads.py enrichment/v5/work/100_1/pilot-20261007/poetry"
+      },
+      {
         "agent": "/root/v5p_100_1_rivayet_extract_c01",
         "role": "extract",
         "model": "gpt-6-luna",
-        "effort": "high",
+        "effort": "max",
         "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_rivayet_extract_c01.md"
       },
       {
         "agent": "/root/v5p_100_1_rivayet_extract_c02",
         "role": "extract",
         "model": "gpt-6-luna",
-        "effort": "high",
+        "effort": "max",
         "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_rivayet_extract_c02.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_rivayet_extract_c03",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_rivayet_extract_c03.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_rivayet_extract_c04",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_rivayet_extract_c04.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_rivayet_extract_c05",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_rivayet_extract_c05.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_rivayet_extract_c06",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_rivayet_extract_c06.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_rivayet_extract_c07",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_rivayet_extract_c07.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_rivayet_extract_c08",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_rivayet_extract_c08.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_rivayet_extract_c09",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_rivayet_extract_c09.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_rivayet_extract_c10",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_rivayet_extract_c10.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_rivayet_extract_c11",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_rivayet_extract_c11.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_rivayet_extract_c12",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_rivayet_extract_c12.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_rivayet_extract_c13",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_rivayet_extract_c13.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_rivayet_extract_c14",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_rivayet_extract_c14.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_rivayet_extract_c15",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_rivayet_extract_c15.md"
       },
       {
         "agent": "/root/v5p_100_1_meal_extract_c01",
         "role": "extract",
         "model": "gpt-6-luna",
-        "effort": "high",
+        "effort": "max",
         "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_meal_extract_c01.md"
       },
       {
         "agent": "/root/v5p_100_1_meal_extract_c02",
         "role": "extract",
         "model": "gpt-6-luna",
-        "effort": "high",
+        "effort": "max",
         "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_meal_extract_c02.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_meal_extract_c03",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_meal_extract_c03.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_meal_extract_c04",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_meal_extract_c04.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_meal_extract_c05",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_meal_extract_c05.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_meal_extract_c06",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_meal_extract_c06.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_meal_extract_c07",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_meal_extract_c07.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_meal_extract_c08",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_meal_extract_c08.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_meal_extract_c09",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_meal_extract_c09.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_meal_extract_c10",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_meal_extract_c10.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_meal_extract_c11",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_meal_extract_c11.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_meal_extract_c12",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_meal_extract_c12.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_meal_extract_c13",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_meal_extract_c13.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_meal_extract_c14",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_meal_extract_c14.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_meal_extract_c15",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_meal_extract_c15.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_meal_extract_c16",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_meal_extract_c16.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_meal_extract_c17",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_meal_extract_c17.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_meal_extract_c18",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_meal_extract_c18.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_meal_extract_c19",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_meal_extract_c19.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_meal_extract_c20",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_meal_extract_c20.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_meal_extract_c21",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_meal_extract_c21.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_meal_extract_c22",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_meal_extract_c22.md"
       },
       {
         "agent": "/root/v5p_1_6_grammar_extract_c01",
         "role": "extract",
         "model": "gpt-6-luna",
-        "effort": "high",
+        "effort": "max",
         "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c01.md"
       },
       {
         "agent": "/root/v5p_1_6_grammar_extract_c02",
         "role": "extract",
         "model": "gpt-6-luna",
-        "effort": "high",
+        "effort": "max",
         "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c02.md"
       },
       {
         "agent": "/root/v5p_1_6_grammar_extract_c03",
         "role": "extract",
         "model": "gpt-6-luna",
-        "effort": "high",
+        "effort": "max",
         "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c03.md"
       },
       {
         "agent": "/root/v5p_1_6_grammar_extract_c04",
         "role": "extract",
         "model": "gpt-6-luna",
-        "effort": "high",
+        "effort": "max",
         "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c04.md"
       },
       {
-        "agent": "/root/v5p_100_1_poetry_leads",
-        "role": "leads",
-        "model": "gpt-6-astra",
-        "effort": "high",
-        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_poetry_leads.md",
-        "after": "python3 -B enrichment/v5/leads.py enrichment/v5/work/100_1/pilot-20261007/poetry"
+        "agent": "/root/v5p_1_6_grammar_extract_c05",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c05.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c06",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c06.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c07",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c07.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c08",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c08.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c09",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c09.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c10",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c10.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c11",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c11.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c12",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c12.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c13",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c13.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c14",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c14.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c15",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c15.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c16",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c16.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c17",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c17.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c18",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c18.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c19",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c19.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c20",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c20.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c21",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c21.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c22",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c22.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c23",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c23.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c24",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c24.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c25",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c25.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c26",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c26.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c27",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c27.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c28",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c28.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c29",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c29.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c30",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c30.md"
+      },
+      {
+        "agent": "/root/v5p_1_6_grammar_extract_c31",
+        "role": "extract",
+        "model": "gpt-6-luna",
+        "effort": "max",
+        "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_extract_c31.md"
       }
     ],
     "2_write": [
       {
+        "agent": "/root/v5p_100_1_poetry_write_search",
+        "role": "search",
+        "model": "claude-opus-5-5",
+        "effort": "high",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_poetry_write_search.md"
+      },
+      {
+        "agent": "/root/v5p_100_1_poetry_write_search_sonnet",
+        "role": "search-sonnet",
+        "model": "claude-sonnet-5-5",
+        "effort": "high",
+        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_poetry_write_search_sonnet.md"
+      },
+      {
         "agent": "/root/v5p_100_1_rivayet_write_extract",
         "role": "write",
-        "model": "gpt-6-sol",
+        "model": "claude-opus-5-5",
         "effort": "high",
         "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_rivayet_write_extract.md"
       },
       {
         "agent": "/root/v5p_100_1_rivayet_write_direct",
         "role": "write",
-        "model": "gpt-6-sol",
+        "model": "claude-opus-5-5",
         "effort": "high",
         "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_rivayet_write_direct.md"
       },
       {
         "agent": "/root/v5p_100_1_meal_write_extract",
         "role": "write",
-        "model": "gpt-6-sol",
+        "model": "claude-opus-5-5",
         "effort": "high",
         "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_meal_write_extract.md"
       },
       {
         "agent": "/root/v5p_1_6_grammar_write_extract",
         "role": "write",
-        "model": "gpt-6-sol",
+        "model": "claude-opus-5-5",
         "effort": "high",
         "spawn": "enrichment/v5/work/1_6/pilot-20261007/spawn/1_6_grammar_write_extract.md"
-      },
-      {
-        "agent": "/root/v5p_100_1_poetry_write_search",
-        "role": "search",
-        "model": "gpt-6-sol",
-        "effort": "high",
-        "spawn": "enrichment/v5/work/100_1/pilot-20261007/spawn/100_1_poetry_write_search.md"
       }
     ]
   },
@@ -150,5 +578,25 @@
     "Spawn only after the user's go; each agent gets the exact text of its spawn file.",
     "Stage 2 starts for a family only after `check.py extract` passes for all its chunks (or leads.py ran, for search routes).",
     "Agents never see enrichment/v5/eval, v3/v4 outputs or other families."
+  ],
+  "history": [
+    {
+      "rechunked": "20261006T215558",
+      "families": [
+        "rivayet",
+        "meal",
+        "grammar"
+      ],
+      "chunk_chars": 80000
+    },
+    {
+      "rechunked": "20261006T221739",
+      "families": [
+        "rivayet",
+        "meal",
+        "grammar"
+      ],
+      "chunk_chars": 40000
+    }
   ]
 }

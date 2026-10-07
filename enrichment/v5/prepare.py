@@ -18,10 +18,10 @@ import packet
 
 PREFIX = '/root/v5p_'
 MODELS = {  # role -> (model, effort)
-    'extract': ('gpt-6-luna', 'high'),
-    'write': ('gpt-6-sol', 'high'),
-    'search': ('gpt-6-sol', 'high'),
-    'leads': ('gpt-6-astra', 'high'),
+    'extract': ('gpt-6-luna', 'max'),     # user 2026-10-06: Luna max, run here via codex exec
+    'write': ('claude-opus-5-5', 'high'),   # user 2026-10-06: Opus 5.5 high instead of Sol (agent enrich-page-high)
+    'search': ('claude-opus-5-5', 'high'),
+    'leads': ('claude-opus-5-5', 'high'),  # user 2026-10-06: Opus 5.5 instead of Astra (Claude subagent)
 }
 # The agreed test: two indexed families on a light page (rivayet both ways, to measure what
 # the extractor loses), one indexed family on a heavy page, one non-indexed family with leads.
@@ -67,6 +67,10 @@ def spawn(run, name, role, text, plan):
     model, effort = MODELS[role]
     path = run / 'spawn' / f'{name}.md'
     path.parent.mkdir(parents=True, exist_ok=True)
+    if model.startswith('claude'):
+        text = (f'Working directory: run every command from {ROOT} (prefix it with `cd {ROOT} && `). Write output '
+                f'files with the Write tool at absolute paths under {ROOT}. Use no other files, tools or commands than '
+                'those the brief names.\n\n' + text)
     path.write_text(f'<!-- agent {PREFIX}{name} | model {model} | effort {effort} | service default | fast off -->\n\n' + text)
     plan.append({'agent': PREFIX + name, 'role': role, 'model': model, 'effort': effort,
                  'spawn': str(path.relative_to(ROOT))})
@@ -145,9 +149,78 @@ def pilot(date):
     print(f"{name}: {sum(len(v) for v in stages.values())} agents in {len(stages)} stages -> enrichment/v5/work/{name}.json")
 
 
+def packet_family(run, job, counts, stage1, stage2):
+    """Packet, family.json, extract dirs and the extractor + writer spawn texts for one packet-route job."""
+    unit, family = job['unit'], job['family']
+    d = run / family
+    rel = str(d.relative_to(ROOT))
+    common = dict(FAMILY=family, UNIT_LABEL=label(unit), PARAGRAPHS=counts[unit], DIR=rel, PURPOSE=purpose(unit, family))
+    chosen = packet.build(unit, family, d / 'packet', job['route'])
+    manifest = json.loads((d / 'packet/manifest.json').read_text())
+    dump(d / 'family.json', {'unit': unit, 'family': family, 'route': chosen, 'search': chosen.endswith('+search')})
+    chunks = len(manifest['chunks'])
+    size = f"{manifest['segments']} segments, about {manifest['estimated_tokens']:,} tokens"
+    for c in range(1, chunks + 1):
+        (d / f'extract/c{c:02d}').mkdir(parents=True)
+        m, e = MODELS['extract']
+        text = fill('extract', **common, CHUNK=c, CHUNKS=chunks, CHUNK2=f'{c:02d}', MODEL=m, EFFORT=e)
+        spawn(run, f'{unit}_{family}_extract_c{c:02d}', 'extract', text, stage1)
+    for lane in job['writers']:
+        m, e = MODELS['write']
+        if lane == 'extract':
+            material = (f'Run `extracts --part 0` and every following part until `next: None`. These are verbatim '
+                        f'quotes, grouped by paragraph, taken by fresh readers from every segment of your packet '
+                        f'({size}); each quote names its locator, kind and what it shows.')
+        else:
+            material = (f'Read your whole packet ({size}): `chunk 1 --part 0` and every following part until '
+                        f'`next: None`, then the same for each further chunk up to chunk {chunks}. Each segment '
+                        f'header names its locator, source, verses and the paragraphs it was gathered for.')
+        text = fill('write', **common, MATERIAL=material, LANE=lane, MODEL=m, EFFORT=e)
+        spawn(run, f'{unit}_{family}_write_{lane}', 'write', text, stage2)
+
+
+def rechunk(date, families):
+    """Rebuild packet families of an existing run (after a chunk-size or brief change). Earlier packets,
+    extracts, spawn texts and runs move to superseded/<stamp>/; nothing is deleted. Other families untouched."""
+    import shutil
+    import time
+    name = f'pilot-{date}'
+    plan_path = V5 / f'work/{name}.json'
+    plan = json.loads(plan_path.read_text())
+    stamp = time.strftime('%Y%m%dT%H%M%S')
+    counts = {u: len(page(u)[1]) for u in plan['units']}
+    for job in PILOT:
+        if job['family'] not in families or job['route'] == 'search':
+            continue
+        unit, family = job['unit'], job['family']
+        run = ROOT / plan['units'][unit]
+        old = run / family / 'superseded' / stamp
+        old.mkdir(parents=True)
+        for part in ('packet', 'extract', 'family.json'):
+            if (run / family / part).exists():
+                shutil.move(str(run / family / part), str(old / part))
+        for folder, pattern in ((run / 'spawn', f'{unit}_{family}_*.md'), (run / 'runs', f'v5p_{unit}_{family}_*')):
+            for f in sorted(folder.glob(pattern)):
+                target = folder / 'superseded' / stamp
+                target.mkdir(parents=True, exist_ok=True)
+                shutil.move(str(f), str(target / f.name))
+        agents = {PREFIX + f'{unit}_{family}_'}
+        for stage in plan['stages'].values():
+            stage[:] = [a for a in stage if not a['agent'].startswith(next(iter(agents)))]
+        packet_family(run, job, counts, plan['stages']['1_extract_and_leads'], plan['stages']['2_write'])
+    plan.setdefault('history', []).append({'rechunked': stamp, 'families': families,
+                                           'chunk_chars': __import__('common').CHUNK_CHARS})
+    dump(plan_path, plan)
+    print(f'{name}: rebuilt {families}; earlier material under superseded/{stamp}/')
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument('command', choices=('pilot',))
+    parser.add_argument('command', choices=('pilot', 'rechunk'))
     parser.add_argument('--date', required=True)
+    parser.add_argument('--families', nargs='+')
     a = parser.parse_args()
-    pilot(a.date)
+    if a.command == 'pilot':
+        pilot(a.date)
+    else:
+        rechunk(a.date, a.families)

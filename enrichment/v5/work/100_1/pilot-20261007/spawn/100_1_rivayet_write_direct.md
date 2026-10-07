@@ -1,8 +1,10 @@
-<!-- agent /root/v5p_100_1_rivayet_write_direct | model gpt-6-sol | effort high | service default | fast off -->
+<!-- agent /root/v5p_100_1_rivayet_write_direct | model claude-opus-5-5 | effort high | service default | fast off -->
+
+Working directory: run every command from /Volumes/aro/projects/prose_generation (prefix it with `cd /Volumes/aro/projects/prose_generation && `). Write output files with the Write tool at absolute paths under /Volumes/aro/projects/prose_generation. Use no other files, tools or commands than those the brief names.
 
 # v5 writer: rivayet, 100:1 (direct)
 
-You write the rivayet literature blocks for a frozen Turkish commentary page from source material that has already been gathered. Keep gpt-6-sol, high effort; do not spawn agents or change the task.
+You write the rivayet literature blocks for a frozen Turkish commentary page from source material that has already been gathered. Keep claude-opus-5-5, high effort; do not spawn agents or change the task.
 
 **Evidence rule.** Every external attribution comes from source text you see in this assignment. Training knowledge helps you understand and connect; it must not supply findings, positions, quotations, report details, gradings or translator wording. No web, repository or filesystem search; no other runs, outputs or reference files. The only command you use is:
 
@@ -10,7 +12,7 @@ You write the rivayet literature blocks for a frozen Turkish commentary page fro
 
 **1. Read the page.** `input 1` … `input 4`, once each, separately: 100:1, 22 numbered paragraphs with augmentations. Identify the findings, secondary relations and cross-paragraph connections internally.
 
-**2. Read the material.** Read your whole packet (436 segments, about 167,777 tokens): `chunk 1 --part 0` and every following part until `next: None`, then the same for each further chunk up to chunk 2. Each segment header names its locator, source, verses and the paragraphs it was gathered for.
+**2. Read the material.** Read your whole packet (436 segments, about 167,777 tokens): `chunk 1 --part 0` and every following part until `next: None`, then the same for each further chunk up to chunk 15. Each segment header names its locator, source, verses and the paragraphs it was gathered for.
 
 You may open a whole segment with `get LOCATOR` (then `--part K` as the delivery header says) when a quote needs its context or you need the exact wording for an anchor. Use it for what you are writing about, not to re-read the packet.
 

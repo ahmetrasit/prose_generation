@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v5p_100_1_rivayet_extract_c01",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-06T21:56:09",
+  "ended": "2026-10-06T22:15:48",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a11413-45c1-77c3-b376-2b8e52aa397a",
+  "commands": 22,
+  "usage": {
+    "input_tokens": 3668213,
+    "cached_input_tokens": 3533056,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 75454,
+    "reasoning_output_tokens": 43052
+  },
+  "stderr": "2026-10-07T02:08:08.983770Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v5/work/100_1/pilot-20261007/rivayet/extract/c01/extracts.jsonl:\n{\"loc\":\"ABDURRAZZAQ:v3p194#4\",\"p\":[18],\"kind\":\"report\",\"quote\":\"عبد الرزاق عن معمر عن قتادة في قوله تعالى ﴿ وما كنا له مقرنين ﴾ قال في العبادة في القوة\\nعبد الرزاق عن معمر عن ابن طاوس عن أبيه قال كان إذا ركب قال بسم الله ثم يقول اللهم هذا من منك وفضلك علينا الحمد لله ربنا ثم يقول ﴿ سبحان الذي سخر لنا هذا وما كنا له مقرنين ﴿\",\"note\":\"Qatada glosses inability as lack of strength; Ibn Tawus reports a rider's words of thanks.\"}\n",
+  "prompt_sha256": "cb59343f8827eec863c3fd050028643b55eeed855ec25e424aec316b3101f4ce",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/06/rollout-2026-10-06T21-56-10-01a11413-45c1-77c3-b376-2b8e52aa397a.jsonl",
+  "usd_equivalent": 0.086573,
+  "requests": 43,
+  "max_request_input_tokens": 114131,
+  "over_context_cap": false
+}

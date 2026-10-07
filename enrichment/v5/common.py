@@ -37,8 +37,13 @@ SEARCH = {'hadith', 'poetry', 'rhetoric', 'wujuh', 'academic', 'modern-coherence
 # Indexed, but the 1:6/87:6 index held only 25-60% of what the benchmark agents cited.
 PACKET_PLUS_SEARCH = {'bayani', 'qiraat', 'historical'}
 DIRECT_MAX_TOKENS = 60_000      # a writer reads packets up to this size itself
-CHUNK_TOKENS = 120_000          # one fresh extractor context per chunk
-PART_CHARS = 36_000             # one helper delivery (about 12k tokens)
+# Luna's window is ~258k; the user caps an extractor's whole context at 120k tokens (2026-10-06).
+# Measured on the first Luna max run (100:1 rivayet c04, 61k chars): peak request 114k tokens, because the
+# verbatim quotes it writes come back into context (output ~ input) and max reasoning stays in context.
+# Peak ~ 37k + 2 x chunk tokens, so chunks <= 80k chars keep the peak near 90k.
+CHUNK_CHARS = 40_000            # one fresh extractor context per chunk (c01 at 70k chars still reached 114k)
+CONTEXT_CAP = 120_000
+PART_CHARS = 10_000             # one helper delivery; Codex clips longer command output (v4's size; read with 12,000 output tokens)
 
 # Sources excluded in v4 only for being translations: usable in v5, labelled.
 TRANSLATION_OK = {
@@ -53,6 +58,7 @@ RATES = {
     'gpt-6-luna': (0.1, 0.01, 0.125, 0.5),
     'gpt-6-astra': (10.0, 1.0, 12.5, 50.0),
 }
+# Claude subagents are costed from their transcript by _commentary/v16/agentrun.py (its RATES).
 SOL_LONG = (4.0, 0.4, 5.0, 15.0)
 LONG_CONTEXT = 272_000
 

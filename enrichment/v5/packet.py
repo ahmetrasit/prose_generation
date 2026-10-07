@@ -17,7 +17,7 @@ import json
 from collections import defaultdict
 from pathlib import Path
 
-from common import (CHUNK_TOKENS, DIRECT_MAX_TOKENS, FAMILIES, OVERLAY, PACKET_PLUS_SEARCH, SEARCH,
+from common import (CHUNK_CHARS, DIRECT_MAX_TOKENS, FAMILIES, OVERLAY, PACKET_PLUS_SEARCH, SEARCH,
                     body, connect, dump, rows, sources, tokens, usable, verses_by_paragraph, write_rows)
 
 
@@ -73,10 +73,12 @@ def header(seg):
             f"verses {', '.join(seg['verses'])} | paragraphs {', '.join(map(str, seg['paragraphs']))} ===")
 
 
-def chunk(segments, limit):
+def chunk(segments, limit=CHUNK_CHARS):
     chunks, current, size = [], [], 0
     for seg in segments:
-        t = tokens(seg['chars'])
+        t = seg['chars'] + len(header(seg)) + 2
+        if t > limit:
+            raise ValueError(f"{seg['loc']}: one segment exceeds the chunk limit; split rule needed")
         if current and size + t > limit:
             chunks.append(current)
             current, size = [], 0
@@ -95,7 +97,7 @@ def build(unit, family, out, route=None):
         config, segments = gather(con, unit, family)
     total = sum(s['chars'] for s in segments)
     chosen = route or route_for(family, tokens(total))
-    chunks = chunk(segments, CHUNK_TOKENS) if chosen.startswith('extract') else [segments]
+    chunks = chunk(segments) if chosen.startswith('extract') else [segments]
     write_rows(out / 'segments.jsonl', segments)
     for n, group in enumerate(chunks, 1):
         text = '\n\n'.join(header(s) + '\n' + s['text'] for s in group)
@@ -130,7 +132,7 @@ def plan(unit):
             _, segments = gather(con, unit, family)
             t = tokens(sum(s['chars'] for s in segments))
             r = route_for(family, t)
-            n = len(chunk(segments, CHUNK_TOKENS)) if r.startswith('extract') else 1
+            n = len(chunk(segments)) if r.startswith('extract') else 1
             print(f'  {family:20} {len(segments):5} segments ~{t:>9,} tokens  route {r:15} chunks {n}')
 
 

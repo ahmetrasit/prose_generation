@@ -1,8 +1,10 @@
-<!-- agent /root/v5p_100_1_poetry_write_search | model gpt-6-sol | effort high | service default | fast off -->
+<!-- agent /root/v5p_100_1_poetry_write_search | model claude-opus-5-5 | effort high | service default | fast off -->
+
+Working directory: run every command from /Volumes/aro/projects/prose_generation (prefix it with `cd /Volumes/aro/projects/prose_generation && `). Write output files with the Write tool at absolute paths under /Volumes/aro/projects/prose_generation. Use no other files, tools or commands than those the brief names.
 
 # v5 search writer: poetry, 100:1 (search)
 
-This family's sources are not reliably tied to verses, so you find the material yourself and then write the poetry literature blocks. Keep gpt-6-sol, high effort; do not spawn agents or change the task.
+This family's sources are not reliably tied to verses, so you find the material yourself and then write the poetry literature blocks. Keep claude-opus-5-5, high effort; do not spawn agents or change the task.
 
 **Evidence rule.** Every external attribution comes from a corpus passage you read in this assignment. Training knowledge helps you understand, choose search words and connect; it must not supply findings, positions, quotations, report details or gradings. No web, repository or filesystem search; no other runs, outputs or reference files. The only command you use is:
 
