@@ -13,6 +13,7 @@ Every skipped source or segment is printed and listed in RUN/manifest.json.
 """
 import argparse
 import json
+import re
 import sys
 from collections import defaultdict
 from pathlib import Path
@@ -285,6 +286,12 @@ def check(a):
 _SESSIONS = None
 
 
+def native_agent_alias(agent):
+    """Name used by native spawns, whose task names allow only letters, digits and underscores."""
+    parent, name = agent.rsplit('/', 1)
+    return parent + '/' + re.sub(r'[^a-z0-9_]', '_', name)
+
+
 def usage(runs_dir, agent):
     """Usage of one Codex agent: run.json when run_codex.py ran it, else the native session whose agent_path is
     the agent name (agents spawned by a Codex orchestrator). None when neither exists."""
@@ -305,13 +312,16 @@ def usage(runs_dir, agent):
                 continue
             if meta.get('agent_path'):
                 _SESSIONS.setdefault(meta['agent_path'], []).append(f)
-    files = _SESSIONS.get(agent, [])
+    # Spawn prompts retain their original headers verbatim. Native task names cannot contain
+    # the hyphens in those headers, so look for the underscore-only alias as well.
+    session_agent = agent if _SESSIONS.get(agent) else native_agent_alias(agent)
+    files = _SESSIONS.get(session_agent, [])
     if not files:
         return None
     if len(files) > 1:
         print(f'WARNING {agent}: {len(files)} native sessions; costing the latest')
     import account  # enrichment/v5
-    rec = account.session(sorted(files)[-1], agent)
+    rec = account.session(sorted(files)[-1], session_agent)
     return {'usd': rec['usd'], 'requests': rec['requests'], 'peak': rec['max_request_input'],
             'completed': rec['completed'], 'via': 'native session'}
 

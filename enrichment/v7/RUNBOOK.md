@@ -8,12 +8,13 @@ and reasons: `PLAN.md`. Run every command from the repo root `/Volumes/aro/proje
 1. **Each stage needs the user's go.** Report the build's numbers first: agents, characters, estimate.
 2. **The orchestrator spawns the agents itself.** Scripts only build inputs and spawn files, check and report.
    - Do **not** use `run.sh` / `run_codex.py` for these runs. They are the scripted fallback, seven at a time.
-   - **Parallelism:** up to **40 agents at a time** (user, 2026-10-07).
+   - **Parallelism:** up to **40 agents at a time** (user, 2026-10-07). Keep the cap filled as agents finish;
+     do not wait for a wave to finish before spawning more.
 3. **Never rerun an agent.** An agent whose output file exists, or whose name already has a session, is done.
    - A failed agent is reported to the user.
    - Missing work is rebuilt as a **new run** (see "When something fails").
 4. **No silent failures.** Pass every `WARNING`, `NOTE` and `SKIPPED` line the scripts print to the user, verbatim.
-5. **Commit and push** after each stage, and after each wave of agents (`enrichment/v7`, including `work/`).
+5. **Commit and push** after each stage and during the continuous tier-1 run (`enrichment/v7`, including `work/`).
 
 ## How to spawn one agent (every stage)
 
@@ -25,14 +26,19 @@ Each spawn file is a complete prompt. Its first line is the header:
 
 For each spawn file, spawn one native agent with:
 
-- **Name:** exactly the header's `agent` value (here `/root/v7d_s103-1_luna-max_c01`). The report finds the
-  agent's session and cost by this name, so a different name loses the cost record.
+- **Name:** use the header's `agent` value when the native spawn tool accepts it. The native tool used for this run
+  allows only lowercase letters, digits and underscores in task names, so replace each hyphen in the name after
+  `/root/` with an underscore (here `v7d_s103_1_luna_max_c01`). Keep the spawn file text, including its header,
+  unchanged. The report looks up both the header name and this underscore-only native alias for session costs.
 - **Model and effort:** exactly as in the header.
 - **Context:** fresh, with no inherited turn history.
-- **Prompt:** the spawn file's full text, verbatim, header included. Read the file and pass it unchanged.
+- **Prompt:** for this run, pass the spawn file path and direct the agent to read it once in full, then follow its
+  contents exactly. This is the approved native-tool workaround for the 3.43 million characters of spawn prompts;
+  the file itself remains unchanged.
 
 The agent reads its parts with `cat`, writes one output file, and runs the stage's check command until it prints
-`OK`. Wait for every agent of a wave to finish before you check.
+`OK`. The orchestrator tracks session completion and immediately tops up under the concurrency cap; it does not
+inspect individual output files during the run.
 
 ## Stage 1: tier 1, per source segment (Luna max)
 
@@ -45,7 +51,7 @@ python3 -B enrichment/v7/digest.py build s103-1 --page _commentary/v16/out/103_1
   - segments already digested in any earlier run;
   - short editions where a FULL edition covers the verse;
   - meal, translations and the Quran text.
-- **Spawn files:** `enrichment/v7/work/s103-1/spawn/luna-max_c*.md`. Spawn them all, 40 at a time.
+- **Spawn files:** `enrichment/v7/work/s103-1/spawn/luna-max_c*.md`. Keep up to 40 running at a time.
 - **Outputs:** `work/s103-1/out/luna-max/c*.jsonl`.
 
 After all of them finish:
