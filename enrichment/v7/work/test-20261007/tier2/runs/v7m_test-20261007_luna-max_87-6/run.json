@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7m_test-20261007_luna-max_87-6",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-07T10:48:28",
+  "ended": "2026-10-07T10:53:18",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a116d6-651e-7150-a554-6fbd22cc4026",
+  "commands": 7,
+  "usage": {
+    "input_tokens": 505342,
+    "cached_input_tokens": 432128,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 33988,
+    "reasoning_output_tokens": 17356
+  },
+  "stderr": "2026-10-07T14:52:10.626062Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/test-20261007/tier2/out/luna-max/87-6.jsonl:\n{\"topic\":\"exception\",\"view\":\"The exception covers revelation God abrogates: its recitation, ruling, or both may be withdrawn, after which the Prophet may forget it.\",\"rows\":[\"MUQATIL:87:1-7/r6\",\"TAB:87:6/r3\",\"TAB:87:6/r7\",\"MAWARDI-FULL:v6p253/r5\",\"BAGHAWI-FULL:v8p401/r2\",\"RAZI-FULL:v31p129/r7\",\"QURTUBI-FULL:87:6-7/r9\",\"BAYDAWI-FULL:87:4-7/r6\",\"ABUHAYYAN-FULL:v10p456/r6\",\"IBNKATHIR-FULL:v8p379#2/r1\",\"IBNKATHIR-FULL:v8p379#2/r3\",\"BURSEVI:v10p314#2/r10\",\"BURSEVI:v10p314#2/r11\",\"IBNASHUR-FULL:v30p280/r6\",\"IBNASHUR-FULL:v30p280/r7\",\"ISLAHI-TADABBUR:vol-9-english:p277/r3\"],\"note\":\"Some specify both recitation and ruling; others mention only abrogated recitation or application. Al-Ṭabarī prefers abrogation and withdrawal of revelation.\"}\n2026-10-07T14:52:40.899185Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/test-20261007/tier2/out/luna-max/87-6.jsonl:\n{\"topic\":\"exception\",\"view\":\"The exception covers revelation God abrogates: its recitation, ruling, or both are withdrawn, and it may then be forgotten.\",\"rows\":[\"MUQATIL:87:1-7/r6\",\"TAB:87:6/r3\",\"TAB:87:6/r7\",\"MAWARDI-FULL:v6p253/r5\",\"BAGHAWI-FULL:v8p401/r2\",\"RAZI-FULL:v31p129/r7\",\"QURTUBI-FULL:87:6-7/r9\",\"BAYDAWI-FULL:87:4-7/r6\",\"ABUHAYYAN-FULL:v10p456/r6\",\"IBNKATHIR-FULL:v8p379#2/r1\",\"IBNKATHIR-FULL:v8p379#2/r3\",\"BURSEVI:v10p314#2/r10\",\"BURSEVI:v10p314#2/r11\",\"IBNASHUR-FULL:v30p280/r6\",\"IBNASHUR-FULL:v30p280/r7\",\"ISLAHI-TADABBUR:vol-9-english:p277/r3\"],\"note\":\"Some specify both recitation and ruling; others mention only abrogated recitation or application. Al-Ṭabarī prefers abrogation and withdrawal of revelation.\"}\n",
+  "prompt_sha256": "e61a9bac61354deaccb768613359e8bc1cff142f1b4ccb0a76acc4cc3eda297a",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/07/rollout-2026-10-07T10-48-31-01a116d6-651e-7150-a554-6fbd22cc4026.jsonl",
+  "usd_equivalent": 0.028637,
+  "requests": 13,
+  "max_request_input_tokens": 56199,
+  "over_context_cap": false
+}

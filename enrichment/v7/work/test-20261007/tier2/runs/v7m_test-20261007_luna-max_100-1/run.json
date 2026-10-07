@@ -1,0 +1,27 @@
+{
+  "agent": "/root/v7m_test-20261007_luna-max_100-1",
+  "model": "gpt-6-luna",
+  "effort": "max",
+  "started": "2026-10-07T10:48:28",
+  "ended": "2026-10-07T11:06:40",
+  "returncode": 0,
+  "turn_completed": true,
+  "thread_id": "01a116d6-651e-7111-bbea-ff6e7777549c",
+  "commands": 12,
+  "usage": {
+    "input_tokens": 1191465,
+    "cached_input_tokens": 1095936,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 56623,
+    "reasoning_output_tokens": 26773
+  },
+  "stderr": "r6\",\"TAB:100:1/r7\",\"THALABI:v10p268#3/r3\",\"THALABI:v10p268#3/r8\",\"MAWARDI-FULL:v6p323/r3\",\"QUSHAYRI:v3p442/r3\",\"WAHIDI-BASIT:v24p235#2/r2\",\"WAHIDI-BASIT:v24p235#2/r3\",\"WAHIDI-BASIT:v24p235#2/r4\",\"WAHIDI-BASIT:v24p235#2/r7\",\"WAHIDI-QT:100:1/r1\",\"WAHIDI-WAJIZ:100:1-8/r1\",\"BAGHAWI-FULL:v8p505#2/r1\",\"KASHSHAF-FULL:v4p793/r1\",\"IBNATIYYA-FULL:v5p513#2/r1\",\"IBNATIYYA-FULL:v5p513#2/r5\",\"TABRISI:100:1-4/r2\",\"TABRISI:100:1/r5\",\"IBNJAWZI-ZAD:v9p206#2/r8\",\"IBNJAWZI-ZAD:v9p206#2/r9\",\"RAZI-FULL:v32p60#2/r1\",\"RAZI-FULL:v32p61/r1\",\"QURTUBI-FULL:100:1-2/r1\",\"QURTUBI-FULL:100:1-2/r6\",\"BAYDAWI-FULL:100:1-5/r2\",\"NASAFI-FULL:v4p353/r1\",\"ABUHAYYAN-FULL:v10p526/r1\",\"ABUHAYYAN-FULL:v10p527/r6\",\"SAMIN-DURR:100:1/r5\",\"IBNKATHIR:100:1/r2\",\"BIQAI-FULL:v8p508#2/r6\",\"DURR-FULL:v8p600/r7\",\"ALUSI-FULL:v30p215/r2\",\"ALUSI-FULL:v30p215/r3\",\"ALUSI-FULL:v30p215/r4\",\"ELMALILI:100:1-2/r11\",\"ELMALILI:100:1-2/r12\",\"IBNASHUR-FULL:v30p498/r4\",\"IBNASHUR-FULL:v30p498/r5\",\"ISLAHI-TADABBUR:vol-9-english:p416/r2\"],\"note\":\"The descriptions vary over the precise location and quality of the sound.\"}\n2026-10-07T14:57:32.466602Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find expected lines in /Volumes/aro/projects/prose_generation/enrichment/v7/work/test-20261007/tier2/out/luna-max/100-1.jsonl:\n{\"topic\":\"meaning of the word\",\"view\":\"On the horse reading, ḍabḥ is the audible breath or panting of horses under exertion as they run; reports variously place the sound in the throat, chest, body, insides, or nostrils.\",\"rows\":[\"MUJAHID:v2p776/r1\",\"FARRA:v3p284#2/r1\",\"MAJAZ:v2p307/r1\",\"ABDURAZZAQ:v3p390/r1\",\"IBNQUTAYBA-GHARIB:v1p535#11/r1\",\"TAB:100:1/r3\",\"TAB:100:1/r5\",\"TAB:100:1/r6\",\"TAB:100:1/r7\",\"THALABI:v10p268#3/r3\",\"THALABI:v10p268#3/r8\",\"MAWARDI-FULL:v6p323/r3\",\"QUSHAYRI:v3p442/r3\",\"WAHIDI-BASIT:v24p235#2/r2\",\"WAHIDI-BASIT:v24p235#2/r3\",\"WAHIDI-BASIT:v24p235#2/r4\",\"WAHIDI-BASIT:v24p235#2/r7\",\"WAHIDI-QT:100:1/r1\",\"WAHIDI-WAJIZ:100:1-8/r1\",\"BAGHAWI-FULL:v8p505#2/r1\",\"KASHSHAF-FULL:v4p793/r1\",\"IBNATIYYA-FULL:v5p513#2/r1\",\"IBNATIYYA-FULL:v5p513#2/r5\",\"TABRISI:100:1-4/r2\",\"TABRISI:100:1/r5\",\"IBNJAWZI-ZAD:v9p206#2/r8\",\"IBNJAWZI-ZAD:v9p206#2/r9\",\"RAZI-FULL:v32p60#2/r1\",\"RAZI-FULL:v32p61/r1\",\"QURTUBI-FULL:100:1-2/r1\",\"QURTUBI-FULL:100:1-2/r6\",\"BAYDAWI-FULL:100:1-5/r2\",\"NASAFI-FULL:v4p353/r1\",\"ABUHAYYAN-FULL:v10p526/r1\",\"ABUHAYYAN-FULL:v10p527/r6\",\"SAMIN-DURR:100:1/r5\",\"IBNKATHIR:100:1/r2\",\"BIQAI-FULL:v8p508#2/r6\",\"DURR-FULL:v8p600/r7\",\"ALUSI-FULL:v30p215/r2\",\"ALUSI-FULL:v30p215/r3\",\"ALUSI-FULL:v30p215/r4\",\"ELMALILI:100:1-2/r11\",\"ELMALILI:100:1-2/r12\",\"IBNASHUR-FULL:v30p498/r4\",\"IBNASHUR-FULL:v30p498/r5\",\"ISLAHI-TADABBUR:vol-9-english:p416/r2\"],\"note\":\"The descriptions vary over the precise location and quality of the sound.\"}\n2026-10-07T14:59:39.514004Z ERROR codex_core::tools::router: error=apply_patch verification failed: Failed to find context '-14,1 +14,1 @@' in /Volumes/aro/projects/prose_generation/enrichment/v7/work/test-20261007/tier2/out/luna-max/100-1.jsonl\n",
+  "prompt_sha256": "cf98e78592bcf9793390b121bdc05e614ba47eddb129af286004299ed1aff60e",
+  "actual_charge_usd": 0,
+  "charge_note": "Codex subscription; usd_equivalent is Standard API-equivalent at the saved rates.",
+  "session_file": "/Users/ahmetrasit/.codex/sessions/2026/10/07/rollout-2026-10-07T10-48-31-01a116d6-651e-7111-bbea-ff6e7777549c.jsonl",
+  "usd_equivalent": 0.048824,
+  "requests": 23,
+  "max_request_input_tokens": 87722,
+  "over_context_cap": false
+}

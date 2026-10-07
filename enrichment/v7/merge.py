@@ -47,10 +47,11 @@ def tier1_rows(d, tag, ayah):
 def build(a):
     d = run_dir(a.run)
     t = d / 'tier2'
-    if (t / 'spawn').exists() and any((t / 'spawn').iterdir()):
-        raise SystemExit(f'{t} already has spawn files')
-    plan = []
-    for ayah in a.ayat:
+    old = json.loads((t / 'manifest.json').read_text()) if (t / 'manifest.json').exists() else None
+    if old and (old['from'] != getattr(a, 'from') or [p['ayah'] for p in old['ayat']] != a.ayat):
+        raise SystemExit('tier2 inputs exist for other rows or ayat; use a new run')
+    plan = old['ayat'] if old else []  # existing row files are reused untouched (agents may be reading them)
+    for ayah in ([] if old else a.ayat):
         rs = tier1_rows(d, getattr(a, 'from'), ayah)
         rs.sort(key=lambda r: (r['death'] if isinstance(r['death'], int) else 9999, r['src'], r['id']))
         lines, cur = [], None
@@ -85,10 +86,13 @@ def build(a):
             for k, v in fill.items():
                 text = text.replace('{' + k + '}', v)
             f = t / 'spawn' / f"{tag}_{key(p['ayah'])}.md"
+            if f.exists():
+                raise SystemExit(f'{f} exists')
             f.parent.mkdir(exist_ok=True)
             f.write_text(text)
             print(f'  spawn {f.relative_to(ROOT)}')
-    dump(t / 'manifest.json', {'from': getattr(a, 'from'), 'ayat': plan, 'models': a.models})
+    dump(t / 'manifest.json', {'from': getattr(a, 'from'), 'ayat': plan,
+                               'models': (old['models'] if old else []) + a.models})
 
 
 def check_one(t, tag, ayah):
@@ -120,21 +124,22 @@ def check_one(t, tag, ayah):
 
 
 def render(t, tag, ayah, views):
-    """Readable view list with holders filled in from the row ids (for review and for writers)."""
+    """Compact view list for review and for writers: source ids, the speaker only when not the source's author,
+    stance marks (+ prefers, - rejects). Full names, claims and anchors stay in tier 1 behind the row ids."""
     known = json.loads((t / 'rows' / f'{key(ayah)}.json').read_text())
     out, topic = [f'# {ayah}: {len(views)} views from {len(known)} rows ({tag})'], None
     for v in views:
         if v['topic'] != topic:
             topic = v['topic']
             out.append(f'\n## {topic}')
-        holders = defaultdict(list)
+        holders = defaultdict(set)
         for r in v['rows']:
             k = known.get(r)
             if k:
-                who = k['speaker'] if k['speaker'] != 'author' else k['author']
-                holders[who].append(f"{k['src']}" + (f" ({k['stance']})" if k['stance'] not in ('holds', 'reports') else ''))
-        out.append(f"- {v['view']}" + (f" _{v['note']}_" if v.get('note') else ''))
-        out.append('  - ' + '; '.join(f"{w}: {', '.join(sorted(set(s)))}" for w, s in holders.items()))
+                holders['' if k['speaker'] == 'author' else k['speaker']].add(
+                    k['src'] + {'prefers': '+', 'rejects': '-'}.get(k['stance'], ''))
+        who = '; '.join((f'{s}: ' if s else '') + ','.join(sorted(x)) for s, x in holders.items())
+        out.append(f"- {v['view']}" + (f" ({v['note']})" if v.get('note') else '') + f' [{who}]')
     (t / 'out' / tag / f'{key(ayah)}.md').write_text('\n'.join(out) + '\n')
 
 

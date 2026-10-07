@@ -1,6 +1,23 @@
 # Enrichment v7: verse digests first, page writers after
 
-Status 2026-10-07: **Luna vs Sol digest test running** (`work/test-20261007`). Supersedes `enrichment/v6/PLAN.md`.
+Status 2026-10-07: **two-tier digest test done on 100:1 and 87:6** (`work/test-20261007`); proposed: tier 1 Luna max,
+tier 2 Sol high (user to confirm). Supersedes `enrichment/v6/PLAN.md`.
+
+## Results of the test (2026-10-07)
+
+| Tier | Model | Result | Cost (API-equivalent; actual $0 on Codex) |
+|---|---|---|---|
+| 1, per source segment (`digest.py`) | Luna max, 7 chunks | 163 segments → 1,221 rows. Read against the source for Ṭabarī, Naḥḥās, Islāḥī, Elmalılı, Bursevī, Qāshānī: faithful, correctly attributed; one small slip (the Baṣāʾir derivation given to Elmalılı). 3 anchors in c04 left failing; 5 of 7 runs over the 120k context cap (brief fixed since: write once, never stop while the check fails) | $0.76 (≈ $800 for the whole Quran) |
+| 1 | Sol high | stopped by the user; c07 only: same content, slightly better merging and attribution | c07 $0.12 vs Luna $0.035 |
+| 2, per ayah (`merge.py`) | Sol high | 308 → 85 views (100:1), 205 → 88 (87:6); every row covered; disagreements, reasons and minority views kept | $0.28 + $0.20 |
+| 2 | Luna max | 64 and 72 views; every row covered, but distinct arguments were buried in broad views (26 rows on 100:1, e.g. al-Rāzī's horseshoe argument for horses, Abū Ṣāliḥ's authority argument for ʿAlī's camel reading) | $0.05 + $0.03 |
+
+- Tier 1 cannot do the consolidation: most of it is across sources (the horse view sits in about 40 sources), and
+  a tier-1 agent sees only its chunk.
+- Tier-1 size is not reduced. Merging is tier 2's job, and merging earlier would lose detail tier 2 needs.
+- Tier 2 renders compactly: source ids, the speaker only when he is not the author, `+` prefers, `-` rejects.
+  That is ≈ 22–24k characters (≈ 5–6k tokens) per ayah.
+- Proposed per ayah: tier 1 Luna ≈ $0.13 + tier 2 Sol ≈ $0.24 ≈ **$0.37**. Whole Quran ≈ $2.3k API-equivalent.
 
 **Principle (user, 2026-10-07): keep it simple.** Agents get the right, complete input and the right instructions;
 that is enough. There are no hashes, validation layers or second-model passes. Only two checks are kept, each a few
@@ -69,7 +86,7 @@ lines of script, because they catch failures that actually happened:
 | `run.sh RUN SPAWN…` | seven agents at a time via `enrichment/v5/run_codex.py`; commit and push after each batch |
 | `briefs/digest.md` | the digest brief |
 
-## Step 1: Luna vs Sol (running)
+## Step 1: Luna vs Sol (done; results above)
 
 - **Material:** the own material of 100:1 and 87:6: 163 segments, 7 chunks, 247k characters, 47 sources.
 - **Models:** Luna `gpt-6-luna` max and Sol `gpt-6-sol` high. Same chunks, same brief, 14 agents in two batches.
