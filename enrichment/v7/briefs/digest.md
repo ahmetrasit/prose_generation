@@ -28,9 +28,9 @@ No other commands, files, web or repository search.
 
 **Step 2.** For every segment, write down each distinct point the source makes (see WHAT TO RECORD).
 
-**Step 3.** Write the output file `enrichment/v7/work/{RUN}/out/{TAG}/c{NN}.jsonl` with your file-writing tool.
+**Step 3.** Write the whole output file `enrichment/v7/work/{RUN}/out/{TAG}/c{NN}.jsonl` in one write with your file-writing tool, after you have read every part. Do not write it segment by segment, and do not check partial files.
 
-**Step 4.** Run the check command. If it lists problems, fix the file and run it again, until it prints `OK`.
+**Step 4.** Run the check command. If it lists problems, fix only the lines it names (for an anchor problem, copy the words again exactly from the segment) and run it again, until it prints `OK`. Do not stop while it still lists problems.
 
 **Step 5.** Stop. Reply with the number of segments and the number of rows.
 
