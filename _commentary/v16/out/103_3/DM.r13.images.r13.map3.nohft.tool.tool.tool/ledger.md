@@ -1,0 +1,18 @@
+- memory: إلا here is an exception carved from the preceding general statement (grammar)
+- memory: the four verbs are perfect-tense forms describing the excepted by completed acts
+- memory: الصالحات is a feminine plural adjective standing without its noun
+- memory: tafāʿul pattern (تواصوا، تحاقوا) marks reciprocal action
+- memory: طيّ of a well = lining the shaft with stones so it does not collapse
+- memory: كفيل = one who answers for another's debt if the debtor fails
+- memory: أفرغ = to empty out a vessel's contents
+- memory: صابروا (mufāʿala) = vie/match one another in sabr
+- memory: يستخفنك = make you light, unsteady
+- memory: old door pivot (foot turning in threshold socket) mechanism as described
+- not written: ص ب ر B009 tamarind fruit - no theme work
+- not written: ص ب ر B012 retaliatory killing - did not join the holding theme beyond B002
+- not written: ص ب ر B016 Ghassan clan name - proper name only
+- not written: ص ل ح B004 personal names, B005 name of Mecca and a river - names; Mecca–safety link too thin from this ayah
+- not written: ع م ل B003 alms officials, B007 taking pains - no theme they joined here
+- not written: ح ق ق B013 camel fattening in spring - pasture image already carried by و ص ي
+- not written: ح ق ق B005 verifying a claim - covered by B001/ء م ن B002, would repeat
+- not written: ء م ن B002 God as al-Mu'min confirming His promise - no Quran anchor needed here
