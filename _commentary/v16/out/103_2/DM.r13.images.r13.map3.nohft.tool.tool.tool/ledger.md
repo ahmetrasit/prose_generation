@@ -1,0 +1,10 @@
+- memory: inna + la- stacked emphasis addresses a hearer likely to doubt or ignore
+- memory: fī here marks an enveloping state, not a passing event
+- memory: indefinite khusr leaves the loss's kind and extent unspecified
+- memory: nominal sentence vs verbal khasira as state vs event
+- not written: insan derived from nisyan (forgetting) - not the supplied identity root; derivation outside the evidence
+- not written: ista'nasa as seeking leave before entering (24:27) - no theme work
+- not written: "la-fī 'uqūba bi-dhunūbih" gloss of this ayah - an explanation of the ayah, not usage
+- not written: khsr core as naqḍ (unbinding) and 2:27 - reading of the core word uncertain
+- not written: insan "held for death" (ṣ-b-r phrase) - insan there is an ordinary word, not this root's image
+- not written: insan as fingertip; young woman fond of company - no theme work
